@@ -1,7 +1,7 @@
 ---
 title: Migrate automatic record creation rules and service-level agreements
 description: Learn how to migrate automatic record creation rules and SLAs from legacy to Unified Interface.
-ms.date: 06/21/2024
+ms.date: 04/21/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -69,11 +69,11 @@ The migration progress is indicated on the page as follows; the colored circle i
 
 ## Access the migration tool
 
-1. In the site map of Customer Service admin center, select **Miscellaneous** in **Operations**. The **Miscellaneous** page appears.
+1. In the site map of Copilot Service admin center, select **Miscellaneous** in **Operations**. The **Miscellaneous** page appears.
 
 1. In the **ARC and SLA migration** section, select **Manage**.
      
-    :::image type="content" source="../media/csac-arcsla-mig.png" alt-text="Migration tool location on Customer Service admin center":::
+    :::image type="content" source="../media/csac-arcsla-mig.png" alt-text="Migration tool location on Copilot Service admin center":::
    
 ## Migration Summary
 
