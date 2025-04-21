@@ -1,7 +1,7 @@
 ---
 title: Add inspections to work orders
 description: Learn how to use inspections in Dynamics 365 Field Service.
-ms.date: 01/10/2025
+ms.date: 04/21/2025
 ms.topic: how-to
 author: josephshum-msft
 ms.author: jshum
@@ -12,6 +12,12 @@ ms.author: jshum
 Create inspections and add them to work orders for Field Service technicians to fill out online. Learn more in [Inspections overview](inspections-overview.md).
 
 This article provides an example of creating an inspection using a maintenance checklist on a customer asset.
+
+## Limitations
+
+- The name of the inspection template can't be changed once it's published.
+- Previous versions of published templates aren't saved. If you revise a published template, once the revised template is published, the original template is no longer available.
+- If you create and then export an inspection template, don't make any changes to the JSON file and then import it. Otherwise, it can cause errors in the [out-of-the-box inspection flows](inspections-reporting.md#view-the-status-of-the-out-of-the-box-inspection-flows).
 
 ## Prerequisites
 
@@ -79,7 +85,7 @@ Add a question to the inspection by double-clicking or dragging a question type 
 
 - **Date Time**: Allows technicians to enter a date and time.
 
-- **File**: Allows technicians to upload a file, take picture, or choose multiple pictures from their camera roll.
+- **File**: Allows technicians to upload a file, take picture, or choose multiple pictures from their camera roll. Supported file types include: gif, bmp, jpeg, jpg, png, mpeg, mp3, mp4, wav, mov, MOV, pdf, doc, xlsx, txt, log, ppt, pptx, xls, and docx.
 
 - **Barcode scan**: Allows technicians to populate the field with the barcode number by scanning a barcode with their device's camera. Choose "Textbox" question type, then select **Barcode** for input type in the **Advanced** section.
 
