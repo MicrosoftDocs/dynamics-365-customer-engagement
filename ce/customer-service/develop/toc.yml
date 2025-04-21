@@ -111,6 +111,10 @@
           href: suggested-actions.md
         - name: Pass authentication token to bot during single sign-on in live chat
           href: pass-auth-token-sso-live-chat.md
+      - name: Metrics and queries
+        items:
+        - name: Calculate conversation metrics
+          href: calculate-conversation-metrics.md
       - name: Extend Customer Service
         items: 
         - name: Extend Omnichannel for Customer Service

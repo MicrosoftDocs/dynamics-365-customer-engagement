@@ -164,7 +164,7 @@ Some important points about prioritization rules are as follows:
 - By default, the queue is sorted on a "first in and first out" manner. If you don't create a prioritization rule, then the oldest work item is assigned first.
 - In normal scenarios, when a sufficient number of representatives are available to take up the work items, the processing period is a couple of seconds only. The representatives are assigned work items in the priority order. However, if work items pile up because of fewer eligible representatives, and then a representative becomes available during the processing period, the representative is offered the next work item according to the priority order. This strategy might create a perception that the highest priority item wasn't assigned; especially after some top-priority items are attempted for assignment and yet remain in the queue.
 - The work items that don't match the criteria of any of the prioritization rulesets are kept in the last priority bucket, and are ordered by "first in first out".
-- Prioritization rules are skipped for affinity work items and such work items are assigned before other work items in the queue. Learn more about affinity in [Agent affinity](create-workstreams.md#agent-affinity).
+- Prioritization rules are skipped for affinity work items and such work items are assigned before other work items in the queue. Learn more about affinity in [Representative affinity](create-workstreams.md#representative-affinity).
 
 ## How assignment rulesets work
 
@@ -201,7 +201,7 @@ The assignment rules are composed of the following items:
       |User skills|Custom match|Use the operator to find representatives whose skills match at runtime based on the selected lookup attribute on the work item.|
       |Calendar schedule|Is working|Use this operator to find representatives who are working as per their service scheduling calendars. Automated assignment considers the representative calendar schedule only and doesn't consider the operating hours defined for the queues.|
   
-  - **Value**: The user attributes are compared against this value to find the right representative. The value can be static, such as Address 1: County equals "USA". The value can also be dynamic, so that you can compare the user attribute dynamically with the values on the work item. In dynamic values, you can select any attribute on the work item or related records. For example, the following condition finds users whose country is the same as that of the customer associated with the case.
+  - **Value**: The user attributes are compared against this value to find the right representative. The value can be static, such as Address 1: County equals "USA". The value can also be dynamic, so that you can compare the user attribute dynamically with the values on the work item. In dynamic values, you can select any attribute on the work item or related records. For example, the following condition finds users whose country/region is the same as that of the customer associated with the case.
   
      :::image type="content" source="../media/dynamic-value-match.png" alt-text="Screenshot of a sample dynamic match.":::
 

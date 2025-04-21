@@ -16,7 +16,7 @@ In Dynamics 365 Field Service, organizations can track their product inventory. 
 
 :::image type="content" source="media/inventory-product-inventory-levels.svg" alt-text="Screenshot of product inventory levels at a warehouse.":::
 
-**Inventory Journal** is a Field Service table that serves as a ledger for all inventory changes that are related to field service warehouses and products. For example, when a field service purchase order is fulfilled, an inventory journal is created to document an increase in inventory for the receiving warehouse. When a field service inventory transfer is completed, two inventory journals are created: one that reduces inventory from the source warehouse and one that adds inventory for the receiving warehouse.
+[**Inventory Journal**](./developer/reference/entities/msdyn_inventoryjournal.md) is a Field Service table that serves as a ledger for all inventory changes that are related to field service warehouses and products. For example, when a field service purchase order is fulfilled, an inventory journal is created to document an increase in inventory for the receiving warehouse. When a field service inventory transfer is completed, two inventory journals are created: one that reduces inventory from the source warehouse and one that adds inventory for the receiving warehouse.
 
 Inventory administrators can use manual inventory journals to manipulate inventory levels without performing the associated field service processes. For example, you can manually add inventory without creating and fulfilling field service purchase orders, or you can transfer inventory without creating inventory transfer records.
 

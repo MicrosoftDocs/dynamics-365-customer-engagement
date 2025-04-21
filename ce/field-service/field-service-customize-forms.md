@@ -16,7 +16,7 @@ Customizing forms correctly is important for maximizing performance. Form custom
 This article explains how to customize the work order form. However, the steps can be used to customize any Field Service web form.
 
 > [!NOTE]
-> To learn how to customize the work order form for the mobile app, go to [Edit the booking and work order form](mobile-powerapp-booking-work-order-form.md).
+> To learn how to customize the work order form for the mobile app, go to [Edit the booking and work order form](mobile/change-work-order-booking-form.md).
 
 ## Step 1. Understand the default work order form
 
@@ -42,7 +42,7 @@ Learn more in [Work order lifecycle and system statuses](work-order-status-booki
 
 ### Critical fields
 
-The following fields are critical to the Field Service work order process and are required. If your organization doesn't plan to use these fields, you might want to consider using a different entity table or creating a new one.
+The following fields are critical to the Field Service work order process and are required. If your organization doesn't plan to use these fields, you might want to consider using a different entity/table or creating a new one.
 
 - **Work Order Number**
 - **System Status**

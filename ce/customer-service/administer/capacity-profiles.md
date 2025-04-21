@@ -1,7 +1,7 @@
 ---
 title: Create and manage capacity profiles
 description: Learn how to create and manage capacity profiles for service representatives, and set custom limits for the profiles.
-ms.date: 01/17/2025
+ms.date: 03/31/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -20,7 +20,6 @@ You can create capacity profiles and assign them to your customer service repres
 - The administrator can block the assignment of extra work to the service representatives when they're working on certain channels, such as phone calls.
 - The supervisor can override the representative's configured capacity and assign work to user manually.
 - The representative's capacity might display a negative value when the representative manually picks a work item or is assigned a conversation forcibly that results in negative capacity. This is applicable for both capacity profiles and unit-based capacity.
-- In the assignment rule, you can create a rule to find the representative whose capacity profile matches that of the work item.
 - We recommend that you configure either capacity profiles or capacity units in your organization, but not both.
 - The capacity isn't considered when the representative takes part in consult or monitors a conversation.
 
@@ -63,7 +62,7 @@ For a capacity profile, you can add or remove users and edit any setting except 
 1. On the **Users** tab, select **Add user**, and in the **Users** list, select the users. Alternatively, use the **Search** option to search for and add the user.
 
    > [!IMPORTANT]
-   > Users must be configured as a bookable resource to be assigned the capacity profile. More information: [Manage users](users-user-profiles.md).
+   > Users must be configured as a bookable resource to be assigned the capacity profile. Learn more in [Manage users](users-user-profiles.md).
 
 1. Select **Add user**. The capacity profile is assigned to the user.
 
@@ -127,8 +126,8 @@ var data = {msdyn_maxunits: 5} // the value denotes the custom limit
 
 After you create the capacity profiles, configure the following settings to assign work items to representatives at runtime:
 
-- Set the capacity profile in the work distribution settings. The system applies the profile to all the work items routed through the workstream. More information: [Configure work distribution](create-workstreams.md#configure-work-distribution)
-- Set the capacity profile in a classification ruleset for the workstream as a rule output. Append the new capacity profile to the work item. During assignment, unified routing looks for the representative who has available capacity in both the profiles, the default profile from the workstream and the appended profile from the classification. More information: [Create classification rulesets based on capacity profiles](configure-work-classification.md#create-classification-rulesets-based-on-capacity-profiles)
+- Set the capacity profile in the work distribution settings. The system applies the profile to all the work items routed through the workstream. Learn more in [Configure work distribution](create-workstreams.md#configure-work-distribution).
+- Set the capacity profile in a classification ruleset for the workstream as a rule output. Append the new capacity profile to the work item. During assignment, unified routing looks for the representative who has available capacity in both the profiles, the default profile from the workstream and the appended profile from the classification. Learn more in [Create classification rulesets based on capacity profiles](configure-work-classification.md#create-classification-rulesets-based-on-capacity-profiles).
 
 You need not define assignment rules specific to capacity profiles at queue level to find representatives with matching capacity profiles. If capacity profile is attached to a work item, then the system ensures that the assigned representative has the matching capacity profile.
 

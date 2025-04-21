@@ -38,7 +38,7 @@ You can customize the following aspects of the Copilot chat experience in Dynami
 
 ## Customize Copilot using Copilot Studio
 
-Use a solution to manage your customizations so that you can easily deploy them across different environments. Learn more in [Create a solution in Copilot Studio](/microsoft-copilot-studio/authoring-solutions-overview)
+Use a solution to manage your customizations so that you can easily deploy them across different environments. Learn more at [Create a solution in Copilot Studio](/microsoft-copilot-studio/authoring-solutions-overview)
 
 1. Sign in to [Copilot Studio](https://copilotstudio.microsoft.com/).
 1. Select your Dynamics 365 environment and then select **Agents**.
@@ -50,6 +50,19 @@ Use a solution to manage your customizations so that you can easily deploy them 
     
   > [!NOTE]
   > The [Image](/microsoft-copilot-studio/authoring-send-message#add-an-image) and [Video](/microsoft-copilot-studio/authoring-send-message#add-an-image) message types from agent to user aren't supported. As a workaround, you can use Adaptive Cards.
+
+## Watch videos
+
+Watch these videos to learn more about customizing Copilot in Dynamics 365 Sales:
+
+> [!IMPORTANT]
+> The agent has been renamed to **Copilot in Dynamics 365 Sales**. However, the videos still show the old agent name **Sales Copilot Power Virtual Agent Bot**. We'll update the videos soon.
+
+[Extending Copilot in Sales Part 1](https://www.youtube.com/watch?v=638gZ8yLCIc&t=1s)  
+[Extending Copilot in Sales Part 2](https://www.youtube.com/watch?v=4u9h0OBFOiA&t=7s)  
+[Extending Copilot in Sales Part 3](https://www.youtube.com/watch?v=gTaQaZ8XxJk&t=1s)   
+[Extending Copilot in Sales Part 4](https://www.youtube.com/watch?v=PxUP8NLbtEY) 
+
 
 ## Related information
 

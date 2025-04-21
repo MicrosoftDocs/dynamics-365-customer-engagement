@@ -14,15 +14,11 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-[!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
-
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
+Customer service isn't always limited to contact centers. Employees within the enterprise are often required to assist customer service representatives (service representative or representative) in customer service scenarios and talk to customers directly for highly technical or VIP engagements. You can enable your representative to consult with or transfer voice calls in Omnichannel for Customer Service to subject matter experts (SMEs) in Microsoft Teams using Voice Over Internet Protocol (VOIP). This feature is available through Azure Communication Services Call Automation.
 
-Customer service isn't always limited to contact centers. Employees within the enterprise are often required to assist customer service representatives (service representative or representative) in customer service scenarios and talk to customers directly for highly technical or VIP engagements. You can enable your s to consult with or transfer voice calls in Omnichannel for Customer Service to subject matter experts (SMEs) in Microsoft Teams using Voice Over Internet Protocol (VOIP). This feature is available through Azure Communication Services Call Automation. 
-
-With this feature, SMEs can participate in customer service conversations directly from Microsoft Teams without having to configure a phone number. Any Teams users in your tenant who is displayed in the Teams search box can receive calls from your representatives.
-
+With this feature, SMEs can participate in customer service conversations from Microsoft Teams directly without having to configure a phone number. Any Teams users in your tenant who is displayed in the Teams search box can receive calls from your representatives.
 
 ## Enable representatives to consult with Microsoft Teams users via VOIP
 
@@ -32,7 +28,9 @@ With this feature, SMEs can participate in customer service conversations direct
 To allow the representatives to consult with Microsoft Teams users, enable the **External Microsoft Teams users** in **Consult** and **Transfer** settings in the voice channel section of the voice workstream.
 
 Calling services are charged on a per minute per participant basis at 0.004 per participant per minute and is less than the Public Switched Telephone Network (PSTN) charges of $0.013 per participant per minute.
+
 Representatives can transfer or consult with Microsoft Teams users on certain Teams clients only. Learn more at [Supported Teams clients](/azure/communication-services/concepts/call-automation/call-automation-teams-interop#supported-teams-clients).
+
 If the Teams user rejects the call or is unavailable, there isn't an option to leave a voicemail for the caller and the call isn't forwarded to another number. The call from Dynamics 365 is considered a group call, and Teams doesn't honor voicemail or call forwarding settings when you add a Teams user to a group call.
 
 To enable the consult and transfer experience through VOIP, perform the following prerequisites:
@@ -55,12 +53,19 @@ Get the [immutable resource ID](/azure/communication-services/concepts/troublesh
 - Run `Get-module *teams*` to verify if the Microsoft Teams is installed. If it isn't installed, perform the following steps:
     - `Install-Module -Name MicrosoftTeams`
     - `Update-Module MicrosoftTeams`
-- Connect to Microsoft Teams and run `Connect-MicrosoftTeams`. This command opens a sign in window. The user must sign in with their Microsoft Teams admin account.
+- Connect to Microsoft Teams and run `Connect-MicrosoftTeams`. This command opens a sign-in window. The user must sign in with their Microsoft Teams admin account.
 - Get Microsoft Teams Azure Communication Services allowlist.
     - Run `Get-CsTeamsAcsFederationConfiguration` and note the existing Azure Communication Services resource IDs in the allowlist. The Azure Communication Services resource IDs are existing resource IDs for orgs that are enabled for Teams Azure Communications Service federation.
     - Add current Azure Communications Service resource ID to these existing resource IDs when you run the `Set-CsTeamsAcsFederationConfiguration` command in the next step.
  - Set Teams Azure Communications Service allowlist.
      - Run `$allowlist = @('<UPDATED_ACS_RESOURCE_IDs>') Set-CsTeamsAcsFederationConfiguration -EnableAcsUsers $True -AllowedAcsResources $allowlist`
+  
+
+To revoke External Access and disable this feature, run
+
+```powershell
+   Set-CsExternalAccessPolicy -Identity Global -EnableAcsFederationAccess $false
+```
 
 ### Related information
 
