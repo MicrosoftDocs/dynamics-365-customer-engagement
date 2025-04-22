@@ -1,11 +1,11 @@
 ---
 title: Configure analytics and insights dashboards
-description: Learn how to configure analytics and insights dashboards in Customer Service admin center and Customer Service workspace.
+description: Learn how to configure analytics and insights dashboards in Copilot Service admin center and Copilot Service workspace.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 03/26/2025
+ms.date: 04/22/2025
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
@@ -14,7 +14,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 [!INCLUDE[cc-feature-availability-embedded](../../includes/cc-feature-availability.md)]
 
 
-You can enable and configure the Customer Service Insights features and services and share them with service managers, who can then view and analyze different activities. You can configure the features and services in Customer Service admin center app, and they can be viewed on both the Customer Service Hub and Customer Service workspace apps.
+You can enable and configure the Customer Service Insights features and services and share them with service managers, who can then view and analyze different activities. You can configure the features and services in Copilot Service admin center app, and they can be viewed on both the Customer Service Hub and Copilot Service workspace apps.
 
 > [!NOTE]
 > Settings for the Power BI template applications are separate from these services.
