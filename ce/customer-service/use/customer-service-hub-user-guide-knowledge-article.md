@@ -1,7 +1,7 @@
 ---
 title: Create and manage knowledge articles
 description: Create knowledge articles to address customer questions, issues, and feedback with images, videos, formatting, and media.
-ms.date: 02/03/2025
+ms.date: 04/22/2025
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -32,7 +32,7 @@ searchScope:
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 
-Turn your customer questions, issues, and feedback into knowledge articles, so that customer service representatives (service representatives or representatives) can benefit from them. Add images and videos to your articles to explain things better and make the articles engaging. You can author, edit, search, publish, and translate the knowledge articles in the Customer Service Hub, Customer Service workspace or Contact Center workspace.
+Turn your customer questions, issues, and feedback into knowledge articles, so that customer service representatives (service representatives or representatives) can benefit from them. Add images and videos to your articles to explain things better and make the articles engaging. You can author, edit, search, publish, and translate the knowledge articles in the Customer Service Hub, Copilot Service workspace.
 
 Knowledge articles can address any number of issues your customers encounter while using your organization's product or services. Types of knowledge articles can include solutions to common issues, product or feature documentation, answers to frequently asked questions (FAQ), product briefs, and more.
   
@@ -44,7 +44,7 @@ Knowledge articles can address any number of issues your customers encounter whi
 
 Make sure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the roles of knowledge manager, customer service manager, or customer service representative. Perform the following steps:
   
-1. In the application site map, go to **Service** > **Knowledge Articles**.  
+1. In the application site map, go to **Knowledge** > **Knowledge Articles**.  
   
 1. Select **New**.  The **New Knowledge Article** page appears.
   
@@ -275,7 +275,7 @@ To attach a file to a knowledge article:
 
 2. Choose from the following file locations:
     - **My Device** lets you browse and select files from your local device.
-    - **Previous Uploads** opens a search pane where you can search and select from files that were previously uploaded to Customer Service Hub, Customer Service workspace, or Contact Center workspace.
+    - **Previous Uploads** opens a search pane where you can search and select from files that were previously uploaded to Customer Service Hub, Copilot Service workspace.
 
 ### Work with file attachments
 
