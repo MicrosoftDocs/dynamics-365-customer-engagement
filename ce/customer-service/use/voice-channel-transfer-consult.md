@@ -1,7 +1,7 @@
 ---
 title: Transfer calls and consult with users
 description: Use this article to understand how the customer service representatives can use the transfer and consult options to make and receive customer calls.
-ms.date: 04/12/2024
+ms.date: 04/22/2025
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -12,9 +12,11 @@ ms.reviewer: mgandham
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
 You can transfer calls or consult with other customer service representatives (service representatives or representatives) or supervisors to collaborate with them on questions that you might have when you're on a call with a customer. 
 
-To familiarize yourself with the call controls, see [Understand how to use the agent dashboard and call controls](/dynamics365/contact-center/use/voice-channel-agent-experience).
+To familiarize yourself with the call controls, see [Understand how to use the representative dashboard and call controls](/dynamics365/contact-center/use/voice-channel-agent-experience).
 
 ## Prerequisite
 
@@ -40,7 +42,7 @@ When you receive an incoming call, you can transfer the call to a service repres
     - **Transfer to a queue**: Select **Queue**, search for the queue you want to transfer the call to, and then select **Transfer**. The customer is put on hold. The representative who picks up the transferred call becomes the primary representative and you become the secondary  and are removed from the call.<br>
       > [!NOTE]
       > - When you transfer a call to a queue that doesn't have any service representatives, the application automatically ends the call and sets the status to Closed.
-      > - If you transfer a call from a phone number linked to an inbound or outbound profile to a queue with a Copilot Studio agent, the agent can only speak to the customer and end the call. The agent can't transfer the call to another agent or external number, even when you have configured the Escalation topic in Copilot Studio.
+      > - If you transfer a call from a phone number linked to an inbound or outbound profile to a queue with a Copilot agent, the agent can only speak to the customer and end the call. The agent can't transfer the call to another agent or external number, even when you have configured the Escalation topic in Copilot Studio.
 
         :::image type="content" source="../media/oceh-cc-transfer-queue-list.png" alt-text="A screenshot of the transfer to queue.":::
     
@@ -96,13 +98,13 @@ When you initiate a consult, the following actions occur:
     > [!div class="mx-imgBorder"]
     > ![Image of consult icon on the call controls](../media/oc-consult-btn.png)<br>
    
-   The **Consult** dialog box appears. The **Agent**, **Teams**, and **External number** tabs are displayed.
+   The **Consult** dialog box appears. The **Representatives**, **Teams**, and **External number** tabs are displayed.
     > [!div class="mx-imgBorder"]
     > ![Available Consult options](../media/oc-consult-optns.png)<br>
 
 1. Based on your requirement, perform one of the following steps.
 
-    - **Consult with an internal agent or supervisor**: Select **Agent**. You can either have a call or chat with an internal agent or supervisor. Select the conversation channel and then search for the representative you'd like to consult with.<br>
+    - **Consult with an internal representative or supervisor**: Select **Representative**. You can either have a call or chat with an internal representative or supervisor. Select the conversation channel and then search for the representative you'd like to consult with.<br>
 
    - **Consult with external PSTN number**: Select the **Number Pad**. On the number pad that appears, enter the customer's area code, phone number, and then select **Call** to make your call. 
      By default, the consultation is private. The customer is on hold while the primary representative speaks with the new participant. You can also have a public consultation, where the customer is actively involved in the conversation by taking them off hold. <br>
@@ -114,7 +116,7 @@ When you initiate a consult, the following actions occur:
 
    - **Consult, then transfer**: The primary representative who initiated the consult can transfer the call to any participant involved in the consult. To transfer a conversation to the consulting representative in the conversation, perform the following steps:
        - If the consult is with an external participant (PSTN or Teams user), select **Transfer** next to the external phone number or Teams user name at the top of the call window. If your administrator didn't enable **Use bridged transfers**, the external user receives a new call request from the customer, and the customer hears a message that they're being transferred, then the ringing sound.  If your administrator enabled **Use bridged transfers**, the current call continues between the external user and the customer, and the original representative is dropped from the call.
-       - If the consult is with an internal representative or a supervisor, select **Transfer** on the call controls. The application displays the **Agent** tab with the representative or supervisor in the consult. 
+       - If the consult is with an internal representative or a supervisor, select **Transfer** on the call controls. The application displays the **Representative** tab with the representative or supervisor in the consult. 
     
     The call recording and transcript of the conversation with the Teams user during consult is saved in the application for reporting and compliance.
 
