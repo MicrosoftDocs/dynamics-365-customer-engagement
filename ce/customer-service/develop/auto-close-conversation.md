@@ -1,7 +1,7 @@
 ---
 title: Configure automatic closure of conversations using web API
 description: Use this article to understand how to configure the auto-close duration of conversations using the Web API.
-ms.date: 12/04/2024
+ms.date: 22/04/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -125,7 +125,7 @@ Xrm.WebApi.updateRecord("msdyn_occhannelstateconfiguration", "6283ab63-5778-e911
 
 The conversation closes automatically if the value of the `msdyn_autocloseliveworkitemafter` attribute is greater than the value of the `createdon` attribute.
 
-If the conversation is in the wrap-up state&mdash;that is, the agent has resolved the issue and can now perform some post-conversation steps to close the conversation&mdash;then the conversation is closed if the value of the `msdyn_autocloseliveworkitemafter` attribute is greater than the value of the `wrapupinitiatedon` attribute.
+If the conversation is in the wrap-up state&mdash;that is, the customer service representative (service representative or representative) has resolved the issue and can now perform some post-conversation steps to close the conversation&mdash;then the conversation is closed if the value of the `msdyn_autocloseliveworkitemafter` attribute is greater than the value of the `wrapupinitiatedon` attribute.
 
 > [!IMPORTANT]
 > The decision to close a conversation based on the values of the `msdyn_autocloseliveworkitemafter` and `createdon` attributes is made when a scheduled job runs, and not when the `PATCH` Web API request is run.
@@ -134,7 +134,7 @@ If the conversation is in the wrap-up state&mdash;that is, the agent has resolve
 
 The default time for automatically closing a live chat that's in **Wrap-up** state is 15 minutes. The value is defined in the `msdyn_autocloseliveworkitemafter` attribute and can be programmatically changed to suit your business needs.
 
-The value defined for the **Block capacity for wrap-up** field in the workstream overrides the value specified in the `msdyn_autocloseliveworkitemafter` attribute, if it is more than the value for the `msdyn_autocloseliveworkitemafter` attribute. For example, if you have set the value for blocking agent's capacity as 15 minutes and the `msdyn_autocloseliveworkitemafter` attribute as 10 minutes, a conversation in **Wrap-up** state will occupy capacity for 15 minutes and will be eligible for automatic closure only after 15 minutes.
+The value defined for the **Block capacity for wrap-up** field in the workstream overrides the value specified in the `msdyn_autocloseliveworkitemafter` attribute, if it is more than the value for the `msdyn_autocloseliveworkitemafter` attribute. For example, if you have set the value for blocking representative's capacity as 15 minutes and the `msdyn_autocloseliveworkitemafter` attribute as 10 minutes, a conversation in **Wrap-up** state will occupy capacity for 15 minutes and will be eligible for automatic closure only after 15 minutes.
 
 ## Next steps
 
