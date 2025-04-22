@@ -1,7 +1,7 @@
 ---
 title: Introduction to Customer Service
 description: Learn about the Customer Service Hub in Microsoft Dynamics 365.
-ms.date: 04/21/2023
+ms.date: 04/22/2025
 ms.topic: get-started
 author: Soumyasd27
 ms.author: sdas
@@ -13,7 +13,7 @@ ms.collection: get-started
 
 # Introduction to Customer Service Hub
 
-Empower your agents to work smarter and faster with a modern, interactive experience tailored to their role.
+Empower your customer service representatives to work smarter and faster with a modern, interactive experience tailored to their role.
 
 The Customer Service Hub is a focused, interactive interface, designed to simplify your day-to-day case and knowledge management activities. It shows you all your vital information in one place, and lets you focus on the key activities that require your attention.
 
