@@ -18,7 +18,7 @@ You can customize the following for the **Active Conversation** page:
 - Add or remove custom controls
 - Add a web resource or iFrame to the form
 - Customize the layout
-- Add custom fields if the **Customize active conversation form** in Customer Service admin center is enabled.
+- Add custom fields if the **Customize active conversation form** in Copilot Service admin center is enabled.
 - Embed canvas apps
 
 > [!NOTE]
@@ -96,7 +96,7 @@ To customize labels on the conversation form:
 
 1. Select the recently saved file, select **Save**, and then publish the changes.
 
-1. To view the published changes, in the Customer Service workspace, manually refresh the page containing the conversation summary form.
+1. To view the published changes, in the Copilot Service workspace, manually refresh the page containing the conversation summary form.
 
 ## Timeline
 
