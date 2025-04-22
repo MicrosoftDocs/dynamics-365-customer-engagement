@@ -1,6 +1,6 @@
 ---
-title: Configure macros to improve agent productivity
-description: This article provides information about the different macros that can be made available to agents and how to configure them in app profile manager.
+title: Configure macros to improve representative productivity
+description: This article provides information about the different macros that can be made available to representatives and how to configure them in app profile manager.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -9,11 +9,11 @@ ms.topic: how-to
 ms.custom: bap-template
 ---
 
-# Configure macros to improve agent productivity
+# Configure macros to improve representative productivity
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-In the customer service industry, agents have to click often to perform simple tasks, such as open a form, fill, and save it, and many repetitive and monotonous actions, such as greeting and verifying a customer, sending acknowledgment mail, and taking notes. These clicks and repetitive tasks can lead to human errors when agents copy and paste the data across different operations.
+In the customer service industry, customer service representatives (service representatives or representatives) have to click often to perform simple tasks, such as open a form, fill, and save it, and many repetitive and monotonous actions, such as greeting and verifying a customer, sending acknowledgment mail, and taking notes. These clicks and repetitive tasks can lead to human errors when representatives copy and paste the data across different operations.
 
 Macros are a set of sequential actions that a user performs. They enable users to perform daily operations efficiently in a fast and process-compliant manner. You can reuse macros with different sessions based on the context parameters that are specific to the session.
 
@@ -21,14 +21,14 @@ Macros are a set of sequential actions that a user performs. They enable users t
 
 - Make sure that you have the **Productivity tools administrator**  or **System Administrator** security role to design macros.
 
-- Make sure that agents and supervisors are assigned the **Productivity tools user** or **Customer Service representative** security role.
+- Make sure that service representatives and supervisors are assigned the **Productivity tools user** or **Customer Service representative** security role.
 
 More information: [Assign roles and enable users](../implement/add-users-assign-roles.md)
 
 ## Create macros
 
-Perform the following steps to create a macro in Customer Service admin center:
-1. Go to **Productivity** in **Agent experience**. 
+Perform the following steps to create a macro in Copilot Service admin center:
+1. Go to **Productivity** in **Support experience**. 
 2. Select **Manage** for **Macros**. 
 3. Select **New**. 
 1. In the **Macros** page, specify a name and description for the macro.
@@ -39,7 +39,7 @@ Make sure you always begin the creation of any macro with the **Start macro exec
 
 The following actions can trigger a macro:
 
-- Agents can run [macros](../use/oc-agent-scripts.md#macro) from the **Productivity** pane in the Customer Service workspace app.
+- Representatives can run [macros](../use/oc-agent-scripts.md#macro) from the **Productivity** pane in the Copilot Service workspace app.
 - An [API](../develop/reference/methods/runMacro.md) call
 
 
@@ -53,7 +53,7 @@ You can use the following predefined automation actions to create macros:
   - resolve cases
   - search knowledge base
   - clone records
-  - set focus to another agent script
+  - set focus to another script
   - open email templates
   - auto fill form fields
   - set and retrieve variables and values in the session context
@@ -69,7 +69,7 @@ You can use the following predefined automation actions to create macros:
 
 In a macro, you can pass dynamic values such as customer name or customer ID as parameters to the macro. The information is stored in the session context as a key-value pair. A session context variable is also known as a [slug](automation-dictionary-keys.md#slugs). 
 
-When an agent opens a case, conversation, or another tab in the session, the session context is populated as follows:
+When a representative opens a case, conversation, or another tab in the session, the session context is populated as follows:
  
 - **Case**: The case is the anchor tab or the first tab of the session. The session context is populated with the attributes and values from the case record and is stored in the browser memory. Examples of session context variables populated from the case record as follows:  
 
@@ -115,7 +115,7 @@ When an agent opens a case, conversation, or another tab in the session, the ses
 ### Related information
 
 [Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md)  
-[Agent scripts](agent-scripts.md)  
+[Scripts](agent-scripts.md)  
 [Smart Assist](smart-assist.md)  
 
 
