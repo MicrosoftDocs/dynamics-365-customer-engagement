@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service and Business Central integration
 description: Integrate Dynamics 365 Field Service Dynamics 365 Business Central to streamline service operations and financials.
-ms.date: 03/12/2024
+ms.date: 04/17/2025
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
