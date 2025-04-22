@@ -1,7 +1,7 @@
 ---
 title: Integrate a third-party IVR system with voice channel
 description: Use this article to understand how you can integrate third-party IVR systems with the voice channel and set up contextual call transfer via Azure direct routing.
-ms.date: 12/14/2024
+ms.date: 04/22/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -36,14 +36,14 @@ This section lists the high-level steps you must perform to enable contextual ca
 
 4. To include context in the payload, populate the SIP UUI (User-to-User Information) header with context data: "User-to-User": "param1=value1;param2=value2". For SIP UUI header with context data, the following formats are supported:
 
-      - Plain text or string. Seperate the key value pairs by a semicolon.
+      - Plain text or string. Separate the key value pairs by a semicolon.
          For example, <i>"sipkey1=sipval1;sipkey2=sipval2"</i>
       - Hex encoding format. Specify the encoding key word. For example,
         <i> "7369706B6579313D73697076616C313B7369706B6579323D73697076616C32;encoding=hex"</i>
        
 5. Create context variables with the same names as the SIP UUI header.
 
-    1. In Customer Service admin center or Contact Center admin center, go to **Customer support** > **Workstreams**. A list of workstreams including voice workstreams is displayed.
+    1. In Copilot Service admin center, go to **Customer support** > **Workstreams**. A list of workstreams including voice workstreams is displayed.
     2. Select a voice workstream and then select **Edit** to configure the workstream.
     3. In the **Advanced settings** area, select **Add context variable**.
     4. In the **Edit** dialog that opens, select **Add**, and then select **Add context variable**.
