@@ -657,7 +657,7 @@
       - name: Manage Copilot features in Customer Service
         href: configure-copilot-features.md
       - name: Make Copilot available to agents
-        href: configure-copilot-features.md#make-copilot-available-to-agents
+        href: configure-copilot-features.md#make-copilot-available-to-representatives
       - name: Case and conversation summaries
         items:
         - name: Enable summarization of cases and conversations
@@ -685,7 +685,7 @@
       - name: Enable Copilot to create knowledge from cases
         href: enable-copilot-suggest-knowledge-from-cases.md
       - name: View feedback data
-        href: configure-copilot-features.md#record-agent-interactions-with-copilot
+        href: configure-copilot-features.md#record-representative-interactions-with-copilot
       - name: Copilot architecture diagram
         href: /digital-contact-center-platform/guidance/dynamics-365-customer-service-copilot-architecture?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Manage fields Copilot uses for case summaries
