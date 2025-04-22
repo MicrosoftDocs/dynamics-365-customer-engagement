@@ -30,7 +30,7 @@ Starting April 18, 2025, we'll no longer support the classic rich text editor ex
 
 ## Case and knowledge suggestions in smart assist are deprecated
 
-Starting June 02, 2025, we'll no longer support [case and knowledge suggestions](../use/oc-view-ai-suggested-cases-articles.md) via smart assist in Customer Service. We recommend that you [make Copilot available to your customer service representatives](../administer/configure-copilot-features.md#make-copilot-available-to-agents).
+Starting June 02, 2025, we'll no longer support [case and knowledge suggestions](../use/oc-view-ai-suggested-cases-articles.md) via smart assist in Customer Service. We recommend that you [make Copilot available to your customer service representatives](../administer/configure-copilot-features.md#make-copilot-available-to-representatives).
 
 ## Dynamics 365 Unified Service Desk to be deprecated in April 2026
 
