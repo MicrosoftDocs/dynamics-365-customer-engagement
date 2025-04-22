@@ -4,7 +4,7 @@ description: Learn how to create application tab templates in Customer Service. 
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 12/04/2024
+ms.date: 04/22/2025
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
@@ -14,13 +14,13 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-An application tab template in Customer Service lets you specify the type of applications that can be opened when agents start a session in Customer Service workspace.
+An application tab template in Customer Service lets you specify the type of applications that can be opened when customer service representatives (service representatives or representatives) start a session in Copilot Service workspace.
 
 The vertical bar on the left panel shows the list of sessions. The panel always shows the **Home** session that you can't close or customize.
 
-In Customer Service workspace, every session has at least one application tab, called the "Anchor tab", that you can't close or customize. When you start a session, the corresponding application page and any other additional pages open based on your configuration settings.
+In Copilot Service workspace, every session has at least one application tab, called the "Anchor tab", that you can't close or customize. When you start a session, the corresponding application page and any other additional pages open based on your configuration settings.
 
-Using the application tab template, you can define applications that are available for a session, and then associate those applications with the session. For example, you can create the **Active Conversation** page tab and associate it with a chat or SMS session. Now, when an agent accepts a notification from the chat or SMS channels, a session starts and the **Active Conversation** page opens.
+Using the application tab template, you can define applications that are available for a session, and then associate those applications with the session. For example, you can create the **Active Conversation** page tab and associate it with a chat or SMS session. Now, when a representative accepts a notification from the chat or SMS channels, a session starts and the **Active Conversation** page opens.
 
 As an administrator, you can create multiple application tab templates.
 
@@ -33,9 +33,9 @@ You need the System Administrator role to perform the tasks mentioned in this ar
 
 ## Create application tab templates
 
-1. Select **Customer Service admin center**, and perform the steps.
+1. Select **Copilot Service admin center**, and perform the steps.
 
-    1. In the site map, select **Workspaces** in **Agent experience**.
+    1. In the site map, select **Workspaces** in **Support experience**.
     1. On the **Workspaces** page, select **Manage** for **Application tab templates**.
 
 1. Select **New** on the **Active Application Tab Templates** page.
@@ -44,9 +44,9 @@ You need the System Administrator role to perform the tasks mentioned in this ar
 
     | Tab | Name | Description | Example |
     |-----------|-------------------|-----------------------------------|-------------------------------------|
-    | General | Name | Specify the name of the application tab. This name isn't visible for the agents at runtime. | Knowledge article search |
+    | General | Name | Specify the name of the application tab. This name isn't visible for the representatives at runtime. | Knowledge article search |
     | General | Unique name | Provide a unique identifier in the <*prefix*>_<*name*> format. <br>**IMPORTANT**<br> The following are required for the unique name: <ul><li>The prefix can only be alphanumeric and its length must be between 3 and 8 characters.</li><li> An underscore must be added between the prefix and name.</li></ul><br> You can select the light bulb icon, and then select **Apply** to verify whether the name you've entered meets the requirements. | contoso_application_tab |
-    | General | Title | Provide a title for the application that you want the agents to see at runtime. | Knowledge article search |
+    | General | Title | Provide a title for the application that you want the representatives to see at runtime. | Knowledge article search |
     | General | Page type | Select a page type from the list. |  Web resource |
     | General | Description | Provide a description for your reference. | The page type is used to display a knowledge base search page. |
 
@@ -153,7 +153,7 @@ This page type is used to display third-party websites as an application. You ca
 | `data` | Additional data parameter to be parsed with the `url` parameter <br>  | No | String <br><br> Slugs <br><br> OData <br><br><br> | contoso <br><br> `{anchor.title}` <br><br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
 >[!NOTE]
-> When an agent switches from the third-party website type of tab template to another tab, and then switches back to the third-party website tab template, the page is refreshed to the initial state. For more information, see the "Third-party application tab refreshes when focus is changed" section in the [Known issues document](https://go.microsoft.com/fwlink/p/?linkid=2165393).
+> When a representative switches from the third-party website type of tab template to another tab, and then switches back to the third-party website tab template, the page is refreshed to the initial state. For more information, see the "Third-party application tab refreshes when focus is changed" section in the [Known issues document](https://go.microsoft.com/fwlink/p/?linkid=2165393).
 
 #### How parsing works
 
@@ -180,7 +180,7 @@ This page type is used to display web resources that represent files, which are 
 | `data` | Provide string or key value pair, according to the requirement of the web resource. | No | String <br><br> Slugs <br> <br> OData <br><br><br> | contoso <br><br> `{anchor.title}` <br><br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
 >[!NOTE]
-> When an agent switches from the web resource type of tab template to another tab, and then switches back to the web resource type of tab template, the page is refreshed to the initial state. For more information, see the "Third-party application tab refreshes when focus is changed" section in the [Known issues document](https://go.microsoft.com/fwlink/p/?linkid=2165393).
+> When a representative switches from the web resource type of tab template to another tab, and then switches back to the web resource type of tab template, the page is refreshed to the initial state. For more information, see the "Third-party application tab refreshes when focus is changed" section in the [Known issues document](https://go.microsoft.com/fwlink/p/?linkid=2165393).
 
 ### Custom 
 
@@ -212,7 +212,7 @@ The following out-of-the-box application tab templates are available.
 
 ### Related information
 
-[Get started with Customer Service admin center](../implement/cs-admin-center.md)  
+[Get started with Copilot Service admin center](../implement/cs-admin-center.md)  
 [Manage session templates](session-templates.md)  
 [Manage notification templates](notification-templates.md)  
 [Associate templates with workstreams](associate-templates.md)  
