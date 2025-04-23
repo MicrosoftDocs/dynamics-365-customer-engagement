@@ -50,14 +50,14 @@ To view conversation analytics, select the **Show more** link on the **Conversat
 
 ### Agent availability status drill-down report
 
-To view more details about service representative analytics by queue, select the **Show more** link on the **Agent availability status** KPI. You can drill through representative analytics by:
+To view more details about service representative analytics by queue, select the **Show more** link on the **Agent availability status** KPI. You can drill through agent analytics by:
 
 **Availability status**
 
-:::image type="content" source="../media/realtime_summary_queue-drilldown_1.png" alt-text="Drilldown representative analytics by Availability status":::
+:::image type="content" source="../media/realtime_summary_queue-drilldown_1.png" alt-text="Drilldown agent analytics by Availability status":::
 
 **Capacity unit**
-:::image type="content" source="../media/realtime_summary_queue-drilldown_2.png" alt-text="Drilldown representative analytics through capacity unit":::
+:::image type="content" source="../media/realtime_summary_queue-drilldown_2.png" alt-text="Drilldown agent analytics through capacity unit":::
 
 These tabs will help you effectively manage service representative activity in real time.
 
