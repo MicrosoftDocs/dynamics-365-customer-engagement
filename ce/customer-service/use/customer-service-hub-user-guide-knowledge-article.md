@@ -44,7 +44,7 @@ Knowledge articles can address any number of issues your customers encounter whi
 
 Make sure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the roles of knowledge manager, customer service manager, or customer service representative. Perform the following steps:
   
-1. In the application site map, go to **Knowledge** > **Knowledge Articles**.  
+1. In the application site map, go to **Service** > **Knowledge Articles**.  
   
 1. Select **New**.  The **New Knowledge Article** page appears.
   
