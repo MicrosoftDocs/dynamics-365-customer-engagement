@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 04/09/2025
+ms.date: 04/22/2025
 search.audienceType:
   - admin
 searchScope:
@@ -41,11 +41,11 @@ Before working with templates, make sure you have the required privileges to cre
 
 As a knowledge manager, you can create knowledge article templates by defining the necessary fields such as Language, Title, Keywords, and Subject. These fields are prepopulated when the author creates the article using the template, reducing the effort to fill in these fields.
 
-You can create a knowledge article template in the Customer Service admin center or Contact Center admin center app by performing the following steps:
+You can create a knowledge article template in the Copilot Service admin center app by performing the following steps:
 
 1. Go to the **Article Templates** section.
 
-      1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+      1. In the site map, select **Knowledge** in **Support experience**. The **Knowledge** page appears.
       1. On the **Knowledge** page, go to the **Article Templates** section and select **Manage**.
 
 1. Select **New**.
