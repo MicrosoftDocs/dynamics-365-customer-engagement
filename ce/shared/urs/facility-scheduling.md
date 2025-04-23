@@ -57,19 +57,18 @@ Create a facility resource to represent the repair shop, create a requirement to
 
 1. On the **Scheduling** tab, enter the following information:
 
-   - **Work Location**: Facility
+   - **Work Location**: Facility to indicate the work takes place at the facility.
    - **Latitude** and **Longitude**: Latitude and logitude coordinates of the customer's location
 
 1. Select **Save & Close**.
 
-## Book the requirement
+## Book a facility with the schedule assistant
+
+When you book a requirement group for a facility, the schedule assistant automatically sets the **Work Location** filter to *Facility*. It considers availability of resources and other set requirement constraints, such as characteristics, organizational units, and categories.
+
+Requirements that are part of a requirement group are scheduled via the **Book** button to trigger the schedule assistant. They aren't available to drag and drop on the schedule board. If your facility has single requirements, you can create the requirements through **Resource Requirements** and use the schedule board.
 
 1. On the requirement record, select **Book**.
-
-   The schedule assistant automatically sets the **Work Location** filter to *Facility*. It considers availability of resources and other set requirement constraints, such as characteristics, organizational units, and categories.
-
-   > [!TIP]
-   > Requirements that are part of a requirement group are scheduled via the **Book** button to trigger the schedule assistant. They aren't available to drag and drop on the schedule board. If your facility has single requirements, you can create the requirements through **Resource Requirements** and use the schedule board.
 
    :::image type="content" source="../../field-service/media/scheduling-facility-requirement-group.png" alt-text="Screenshot of a requirement in a requirment group with Open Form highlighted.":::
 
@@ -77,7 +76,7 @@ Create a facility resource to represent the repair shop, create a requirement to
 
 1. To remove the travel time and distance calculations from schedule assistant results, change the **Work Location** filter to *Location Agnostic*.
 
-1. To book an appointment, select a time and then select **Book & Exit**.
+1. To book an appointment, select a time slot and then select **Book & Exit**.
 
 ## View a facility on the schedule board
 
@@ -110,7 +109,7 @@ An auto repair shop offers transmission repairs including luxury cars. They have
 
 1. Create a resource to represent the specialized mechanic.
 
-   - Set the resource type to **User, Account, or Contact**.
+   - Set the resource type to **User**, **Account**, or **Contact**.
    - The Start/end location should be set to **Organizational Unit Address** and the organizational unit should be set to the same organizational unit of the facility resource (in this case, the auto repair shop). This is **recommended but not required**.
 
 1. Associate the specialized mechanic resource to the facility resource.
@@ -142,7 +141,7 @@ An auto repair shop wants to schedule each individual bay at their facility. Cre
 1. Create multiple facility resources to represent each bay.
 
    - Set **Resource Type** to **Facility** on each resource.
-   - Set the **Start/End Location** to **Organizational Unit Address** and select an organizational unit to represent the location of the rooms.  
+   - Set the **Start/End Location** to **Organizational Unit Address** and select the same organizational unit as the auto repair shop.  
 
 1. Add each bay as a child resource to the repair shop facility resource pool
 
@@ -164,49 +163,43 @@ An auto repair shop wants to schedule each individual bay at their facility. Cre
 
    :::image type="content" source="../../field-service/media/scheduling-facility-schedule-assistant-specific-rooms.png" alt-text="Screenshot of schedule assistant results showing pairs of two bays each at the same location.":::
 
-## Scenario 4: Schedule a facility with 5 specific rooms and 5 related resources
+## Scenario 4: Schedule a facility with 3 specific spaces and 3 related resources
 
-An auto repair shop wants to schedule specific bays at their facility to a pool of specialized mechanics who work at the facility. Create a pool of facilities  and a pool of mechanics.
+An auto repair shop wants to schedule specific bays at their facility to a pool of specialized mechanics who work at the facility. Create a pool of facilities and a pool of mechanics.
 
-1. Create a facility pool
- 
-Using the same process we used in scenario 4, create a facility pool resource to represent the doctor's office. 
+1. [Create a facility pool resource](#create-a-facility-resource) for the auto repair shop where the **Resource Type = Pool** and **Pool Type = Facility**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of creating a facility pool resource.](../../field-service/media/scheduling-facility-room-specific.png)
+1. Create facility resources to represent each bay.
 
-### 2. Create facility resources for each room
+   - Set **Resource Type** to **Facility** on each resource.
+   - Set the **Start/End Location** to **Organizational Unit Address** and select the same organizational unit as the auto repair shop.
 
-Next, create facility resources to represent each room in the doctor's office facility pool.
+1. Add each bay as a child resource to the repair shop facility resource pool.
 
-Then add each room as a resource child to the doctor's office (health clinic) facility pool resource. The organizational unit of the office facility pool and the room facilities should be the same.
+   - Open the auto repair shop facility pool resource, and go to **Related > Resource Children**.
+   - Add each bay resource as a child record to the parent facility pool.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of relating room resources as children to the parent doctors office/health clinic.](../../field-service/media/scheduling-facility-room-specific-children.png)
+1. [Create a pool](resource-pools.md#create-a-resource-pool) of specialized mechanics.
 
-### 3. Create a pool of pediatric doctors
- 
-Create a new resource pool to represent the pediatric doctors. 
- 
-Set **Resource Type** to **Pool** and set **Pool Type** to **Contacts, Users, Accounts**, as doctors are personnel.
+   - Set **Resource Type** to **Pool**.
+   - Set **Pool Type** to **Contact**, **User**, or **Account**.
+   - Set the **Start/End Location** to **Organizational Unit Address** and select the same organizational unit as the auto repair shop.
+   - Set **Derive Capacity from Group Members** to **Yes**. This means the capacity of the pool is based on how many mechanics are associated to it.
 
-As is true of all resource records, you can add characteristics to define and distinguish differences among resources. In this example, "pediatrics" could be a skill to add to a doctor resource.
+1. Create resources to represent the specialized mechanics.
 
-Set **Derive Capacity from Group Members** to **Yes**. This means the capacity of the pool is based on how many doctors are associated to it.
+   - Set the resource type to **User**, **Account**, or **Contact**.
+   - The Start/end location should be set to **Organizational Unit Address** and the organizational unit should be set to the same organizational unit of the facility resource.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of creating a scheduling facility with a pediatrician pool.](../../field-service/media/scheduling-facility-create-pediatrician-pool.png)
+1. Add the mechanic resources as [resource children to the mechanics pool](resource-pools.md#add-pool-members).
 
-Create resources to represent doctors and add them as resource children to the pediatric doctors pool.
+   :::image type="content" source="../../field-service/media/scheduling-facility-mechanic-pool-children.png" alt-text="Screenshot of relating mechanics as children to the parent mechanic pool.":::
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of relating pediatricians as children to the parent pediatric pool.](../../field-service/media/scheduling-facility-pediatrician-pool-children.png)
+1. Associate the mechanic pool to the facility pool.
 
-### 5. Associate doctor pool to facility pool
-
-Next, navigate to the original facility pool (health clinic), and go to **Related > Bookable Resource Association**.
-
-Set the **Resource 2** field to the pediatric doctor pool resource, as seen in the following screenshot.
+   - From the facility pool, select **Related > Bookable Resource Association (Resource 2)**. This related entity is called Resource Associations (**msdyn_bookableresourceassociations**).
+   - Select **New Bookable Resource Association**.
+   - Enter a name, timeframe, and select the mechanic pool for **Resource 1**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of associating the pediatrician pool to the doctor's office/health clinic pediatrician pool.](../../field-service/media/scheduling-facility-associate-pediatricians-health-clinic.png)
