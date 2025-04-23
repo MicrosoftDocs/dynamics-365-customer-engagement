@@ -52,7 +52,7 @@ As a supervisor, you can view the **Omnichannel real-time analytics** dashboard 
 
 ## Access reports
 
-You can view the different reports in the Copilot Service workspace app. In the default view of the application, select **Real-time analytics** in **Operations** > **Insights**. By default, the **Summary** report is shown. To view the **Ongoing conversation**, **Representatives**, and **Voice** reports, select the appropriate tabs.
+You can view the different reports in the Copilot Service workspace app. In the default view of the application, select **Omnichannel real-time analytics** in **Service**. By default, the **Summary** report is shown. To view the **Ongoing conversation**, **Agents**, and **Voice** reports, select the appropriate tabs.
 
 If you can't view the reports, contact your system administrator. Learn more in [Manage real-time analytics reports](../administer/enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service).
 
