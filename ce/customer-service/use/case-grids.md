@@ -71,8 +71,8 @@ You can also add columns to your existing views. For example, if you want to add
 1. In the Copilot Service workspace site map, open a new tab, and then select **Cases**.
 
 1.	From the dropdown list, select any of the existing views.
-1.	Select **Column Options**.
-1.	In the **Edit columns** dialog, select **Add columns**. The **Add columns** dialog appears.
+1.	Select **Edit Columns**.
+1.	In the **Edit columns: Cases** dialog, select **Add columns**. The **Add columns** dialog appears.
 1.	In the **Add columns** dialog, within Case, select **Custom** from the dropdown list. 
 1.	Select **Last Interaction**, and then select **Close**. **Last Interaction** appears in the **Edit columns** dialog.
 1.	Select **Apply**. If you want to change the sequence of the columns, select **Move up**, and then select **Apply**.
