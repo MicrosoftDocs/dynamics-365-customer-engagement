@@ -37,7 +37,7 @@ To send a technician's location information to Field Service, enable location tr
 
 1. Enter a **Refresh interval** in seconds to define how often the system checks the location information. We recommend values between 60 and 300 seconds.
 
-1. Set the **Tracking Times** by date for when you want the system to track location data. For 24 hours, select 12:00 am to 11:59 pm.
+1. Set the **Tracking Times** by day for when you want the system to track location data. The start time must be set to occur before the end time. For 24 hours, select 12:00 am to 11:59 pm.
 
 1. Select **Save & Close**.
 
