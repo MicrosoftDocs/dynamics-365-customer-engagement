@@ -1,12 +1,12 @@
 ---
 title: Enable resizing of the communication panel
-description: Resize communication panel for channels following the steps in Customer Service admin center. 
+description: Resize communication panel for channels following the steps in Copilot Service admin center. 
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: 
-ms.date: 02/05/2025
+ms.date: 04/23/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -23,7 +23,7 @@ Customer service representatives can increase or decrease the width of the commu
 
 Do the following steps to enable the resizing of the communication panel:
 
-1. In Customer Service admin center or Contact Center admin center, select **Miscellaneous** in **Operations**.
+1. In Copilot Service admin center, select **Miscellaneous** in **Operations**.
 1. Select **Manage** for **New and upcoming features**. The **New and upcoming features** page appears.
 1. Select  **Resizable Communication Panel**.
 
