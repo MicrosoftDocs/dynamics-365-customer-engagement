@@ -1,7 +1,7 @@
 ---
 title: Configure a default signature template for a queue 
 description: Learn how to set up email signature templates for queues.
-ms.date: 08/29/2024
+ms.date: 04/23/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -21,7 +21,7 @@ Email signature templates must be available in the application before you can ad
 ## Set up default email signature for queues
 
 
-1. In the site map of Customer Service admin center, select **Queues** in **Customer support**.
+1. In the site map of Copilot Service admin center, select **Queues** in **Customer support**.
     
 1. On the **Queues** page, select **Manage** for **Basic queues**.
 
