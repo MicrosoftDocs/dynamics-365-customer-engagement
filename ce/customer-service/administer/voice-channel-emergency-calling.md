@@ -4,7 +4,7 @@ description: Use this article to understand how emergency calls work and how you
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 12/14/2024
+ms.date: 04/23/2025
 ms.topic: how-to
 ms.custom: bap-template
 ms.collection:
@@ -40,7 +40,7 @@ For emergency calls to work, make sure that the following prerequisites are met.
 
 ## How emergency calls work
 
-In the Customer Service workspace or Contact Center workspace, service representatives can use the dialer to call the emergency number during a crisis.
+In the Copilot Service workspace, service representatives can use the dialer to call the emergency number during a crisis.
 
 Here's how the emergency call works:
 
@@ -57,7 +57,7 @@ Here's how the emergency call works:
 
 When the representative makes an emergency call, the system can send an automated email to their supervisors or whoever needs to be informed about the call to ensure efficient emergency responder access. The system uses the **Emergency Call Notification Template** to send the email. You can use the **Editor** to modify the template.
 
-1. In the Customer Service admin center or Contact Center admin center, go to **User management** in **Customer support**, and for **Users**, select **Manage**.
+1. In the Copilot Service admin center, go to **User management** in **Customer support**, and for **Users**, select **Manage**.
 1. On the page that appears, select the **Omnichannel Users** view, and then select the user that you want to update.
 1. Select the **Omnichannel** tab, and in **Emergency Call Notifications**, add the email addresses of the recipients separated by a semicolon.
 1. Save the changes.
