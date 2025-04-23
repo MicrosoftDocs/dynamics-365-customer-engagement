@@ -54,17 +54,17 @@ The following steps describe how the tenant admin and the Dynamics 365 Sales adm
 
 <a name="open-the-sales-qualification-agent-settings-page"></a>
 1. In the Sales Hub app, go to **Change area** in the lower left corner of the page and select **App Settings**.
-1. Go to **General Settings** > **Copilot** > **Agents (Preview)**.
+1. Go to **General Settings** > **Copilot** > **Agents (Preview)**.  
    The Welcome to Copilot agents (Preview) page appears.
 
-   :::image type="content" source="media/sqa-configuration-page.png" alt-text="Screenshot of the Sales qualification agent configuration page.":::
 1. In the **Before you get started** section, complete the following prerequisites as a tenant admin:
    - Grant the required consents for the agent to use Bing search and Copilot Studio.
    - Manage capacity for the agent to run in your environment. The agent uses the same capacity as other Copilot features in Copilot Studio. [Learn more about messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
    
    If the required consents are already granted and capacity is configured, you'll directly see **Get started** when you open the **Agents** page.
    
-1. Select **Get started** to configure the agent.
+1. Select **Get started** to configure the agent.  
+   :::image type="content" source="media/sqa-configuration-page.png" alt-text="Screenshot of the Sales qualification agent configuration page.":::
 
 1. In the **General** section, fill in details about your company, products you sell, and who should have access to the agent:
 
