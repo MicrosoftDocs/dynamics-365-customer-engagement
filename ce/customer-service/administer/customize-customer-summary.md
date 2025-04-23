@@ -1,7 +1,7 @@
 ---
 title: Customize the Active Conversation form
 description: Learn how to add or remove custom controls, customize form layout, and add web resources to the Active Conversation form in Omnichannel for Customer Service.
-ms.date: 02/05/2025
+ms.date: 04/23/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -111,8 +111,8 @@ You can customize the timeline dropdown labels for case, account, and contact by
 
 [Omnichannel system customizers](omnichannel-customizer.md)  
 [Customize the conversation form](customize-session-form.md)  
-[Configure agent and supervisor configurations in Unified Service Desk](../../unified-service-desk/oc-customizer/create-agent-supervisor-configurations-unified-service-desk.md)  
-[Configure notification for agents](../../unified-service-desk/oc-customizer/configure-notification-screen-pop-agents.md)  
+[Configure representative and supervisor configurations in Unified Service Desk](../../unified-service-desk/oc-customizer/create-agent-supervisor-configurations-unified-service-desk.md)  
+[Configure notification for representatives](../../unified-service-desk/oc-customizer/configure-notification-screen-pop-agents.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
