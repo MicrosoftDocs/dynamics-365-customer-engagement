@@ -1,6 +1,6 @@
 ---
 title: Manage cases with case grids 
-description: Learn how to work with case grids and increase agent productivity.
+description: Learn how to work with case grids and increase representative productivity.
 ms.date: 08/01/2024
 ms.topic: article
 author: Soumyasd27
@@ -52,7 +52,7 @@ Adding columns to the new **Enhanced Active Cases** view directly isn't supporte
 
 To create a copy of the **Enhanced Active Cases** view and customize it to add a new column:
 
-1. In the Customer Service workspace site map, open a new tab, and then select **Cases**.
+1. In the Copilot Service workspace site map, open a new tab, and then select **Cases**.
 
 1. From the dropdown list, select **Enhanced Active Cases** .
 1. Select **Switch to classic**.
@@ -68,7 +68,7 @@ To create a copy of the **Enhanced Active Cases** view and customize it to add a
 
 You can also add columns to your existing views. For example, if you want to add **Last Interaction** or any of the other new key data columns, perform the following steps:
 
-1. In the Customer Service workspace site map, open a new tab, and then select **Cases**.
+1. In the Copilot Service workspace site map, open a new tab, and then select **Cases**.
 
 1.	From the dropdown list, select any of the existing views.
 1.	Select **Column Options**.
