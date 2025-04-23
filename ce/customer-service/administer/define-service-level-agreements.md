@@ -39,7 +39,7 @@ To configure SLAs in Customer Service Hub:
 
 ## Prerequisites
 
-- Administrators and customer service representatives must have specific roles and privileges to work with the various entities related to SLA, for example, SLA, SLA KPI, and SLA KPI instances. Review the following requirements before configuring SLAs for your organization.
+- Administrators and customer service representatives (service representatives or representatives) must have specific roles and privileges to work with the various entities related to SLA, for example, SLA, SLA KPI, and SLA KPI instances. Review the following requirements before configuring SLAs for your organization.
 
     For administrators:
     - **CSR Manager** role or its equivalent roles and privileges.
@@ -48,7 +48,7 @@ To configure SLAs in Customer Service Hub:
     - SLA, SLA KPI, SLA KPI instances: Create permission at the business-unit level, delete permission at the parent-child level, and other permissions at the organization level.
     - Power Automate License is available for the user creating actions on SLA KPI instance statuses. 
 
-    For customer service representatives:
+    For service representatives:
     - **Customer Service Representative** role or its equivalent roles and privileges.
     - Read privileges at the organization level for SLA, SLA KPI, SLA KPI instances. 
 
@@ -101,7 +101,7 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
 1. Select **Activate**. The SLA KPI is saved and activated.
 
-When customer service representatives (service representatives) create an SLA KPI instance for an entity other than the case entity, the **Regarding** column appears as blank on Unified Interface, and as **(No name)** on the web client. This functionality is a by-design behavior, and is also applicable to custom entities.
+When service representatives create an SLA KPI instance for an entity other than the case entity, the **Regarding** column appears as blank on Unified Interface, and as **(No name)** on the web client. This functionality is a by-design behavior, and is also applicable to custom entities.
 
 If you choose to show the entity name for your service representatives, perform the steps [provided](#configure-sla-kpi-instance-entity-name-through-advanced-find).
 
