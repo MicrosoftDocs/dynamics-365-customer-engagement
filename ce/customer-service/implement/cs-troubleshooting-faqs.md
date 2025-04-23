@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 04/09/2025
+ms.date: 04/23/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -24,7 +24,7 @@ The troubleshooting articles explain how to diagnose and fix issues that you mig
 
 The following FAQ articles discuss issues specific to Customer Service. Each of these articles includes multiple FAQs for a specific feature area or app.
 
-- [FAQ about Customer Service admin center](../administer/faq-customer-service-admin-center.md)
+- [FAQ about Copilot Service admin center](../administer/faq-customer-service-admin-center.md)
 - [FAQ about unified routing](../administer/unified-routing-faqs.md)
 - [FAQ about managing cases](../administer/faq-case-mgmt.md)
 - [FAQ about automatic record creation](../administer/arc-faqs.md)
@@ -33,5 +33,5 @@ The following FAQ articles discuss issues specific to Customer Service. Each of 
 - [FAQ about custom time calculation of SLA KPIs](../administer/faqs-custom-time-sla-kpis.md)
 - [FAQ about the voice channel](../administer/voice-channel-faqs.md)
 - [FAQ about Activities and the Timeline Wall](/powerapps/user/faq-for-timeline-and-activity)
-- [FAQs about adding users to agent experience profile](../administer/faq-agent-experience-profile.md)
+- [FAQs about adding users to Experience profile](../administer/faq-agent-experience-profile.md)
 - [FAQ about setting up Teams chat](../administer/faq-teams-chat.md)
