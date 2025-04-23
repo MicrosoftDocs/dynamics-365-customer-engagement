@@ -50,8 +50,8 @@ Tenant level access to enable the enhanced integration with Microsoft Teams feat
 
 1. The **Supported triggers** section is displayed. Select the following options to define when you want the conversations to be summarized:
   
-   - **When a customer service representative joins the conversation**: To display the conversation summary when a representative has joined the conversation. This is applicable to conversations escalated to a representative from an agent, transferred conversations, or when the representative invites a collaborator.
-   - **When a conversation ends**: To display the summary when the conversation ends.
+   - **When an agent joins the conversation**: To display the conversation summary when a representative has joined the conversation. This is applicable to conversations escalated to a representative from an agent, transferred conversations, or when the representative invites a collaborator.
+   - **When the conversation ends**: To display the summary when the conversation ends.
    
         :::image type="content" source="../media/oc-convo-summary-settings.png" alt-text="Screenshot of the AI-generated summary settings.":::
 
