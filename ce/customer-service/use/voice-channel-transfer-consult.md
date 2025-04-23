@@ -16,7 +16,7 @@ ms.reviewer: mgandham
 
 You can transfer calls or consult with other customer service representatives (service representatives or representatives) or supervisors to collaborate with them on questions that you might have when you're on a call with a customer. 
 
-To familiarize yourself with the call controls, see [Understand how to use the representative dashboard and call controls](/dynamics365/contact-center/use/voice-channel-agent-experience).
+To familiarize yourself with the call controls, see [Understand how to use the agent dashboard and call controls](/dynamics365/contact-center/use/voice-channel-agent-experience).
 
 ## Prerequisite
 
