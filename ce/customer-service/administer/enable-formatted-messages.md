@@ -3,7 +3,7 @@ title: Enable formatted messages
 description: Use this topic to understand how to enable your representatives to send and receive formatted messages in Omnichannel for Customer Service.
 author: gandhamm
 ms.author: mgandham
-ms.date: 03/03/2025
+ms.date: 04/23/2025
 ms.topic: how-to
 ms.custom: bap-template
 ms.reviewer: mgandham
@@ -17,7 +17,7 @@ Your customer service representatives (service representatives or representative
 
 **To enable your representatives to send and receive formatted messages**
 
-1. In the site map of Customer Service admin center or Contact Center admin center, in **Agent experience**, select **Productivity**.
+1. In the site map of Copilot Service admin center, in **Support experience**, select **Productivity**.
 
 1. For **Message formatting**, select **Manage**.
 
