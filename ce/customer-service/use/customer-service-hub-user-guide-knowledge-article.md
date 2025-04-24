@@ -65,7 +65,7 @@ Make sure that you have Create and Read permissions on the Knowledge Article ent
   
 1. Select **Save**.
    
-   After the article is saved, the Business Process flow bar appears for the article. The stages are **New Process**, **Author (< 1 min)**, **Review**, and **Publish**. The Business Process flow bar guides you to drive the article toward completeness. You can customize the stages in the Business Process flow to suit your  requirements.
+   After the article is saved, the Business Process flow bar appears for the article. The stages are **New Process**, **Author**, **Review**, and **Publish**. The Business Process flow bar guides you to drive the article toward completeness. You can customize the stages in the Business Process flow to suit your  requirements.
 
 1. On the Business Process flow bar, select **Author**.  
 
