@@ -173,7 +173,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 1. In the site map of Copilot Service admin center, select **Service terms** in **Operations**. The **Service terms** page appears.
 
-1. In the **Service Level Agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements** view is displayed. Select the SLA for which you want to add an SLA item.
+1. In the **Service-level agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements from Unified Interface** view is displayed. Select the SLA for which you want to add an SLA item.
 
 1. On the page that appears, select **New SLA Item**. The **New SLA Item** dialog box appears.
 
