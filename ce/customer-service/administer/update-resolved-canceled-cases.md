@@ -1,7 +1,7 @@
 ---
 title: Allow updates to resolved and canceled cases
 description: Allow resolved and canceled cases to be updated through Power Automate flows, API.
-ms.date: 06/21/2024
+ms.date: 04/24/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -19,7 +19,7 @@ You might need to update case descriptions or other information after the cases 
 
 Perform the following steps to enable modifications to cases that are in the resolved or canceled state:
 
-1. In the site map of Customer Service admin center, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
+1. In the site map of Copilot Service admin center, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
 
 1. Select **Manage** for **Other settings**.
 
