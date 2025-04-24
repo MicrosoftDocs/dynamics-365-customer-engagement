@@ -48,7 +48,7 @@ Knowledge base search is available in Customer Service Hub, Copilot Service work
 
 - Your administrator granted **Create**, **Read**, **Write**, **Delete**, **Append**, and **Appendto** privileges to any new custom roles you created.
 
-- In Copilot Service workspace, your administrator turned on the app side pane and knowledge search in experience profiles.
+- In Copilot Service workspace, your administrator turned on the app side pane and knowledge search in **Experience profiles**.
 
 - You're dealing with a case or a conversation, or your administrator [turned on the ability](../administer/set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management) to open the knowledge pane for other entities.
 
