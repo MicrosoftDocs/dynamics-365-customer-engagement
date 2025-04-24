@@ -155,7 +155,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 ### Create an SLA
 
-1. In the site map of Customer Service admin center, select **Service Terms** in **Operations**. The **Service Terms** page appears.
+1. In the site map of Copilot Service admin center, select **Service Terms** in **Operations**. The **Service Terms** page appears.
 
 1. In the **Service Level Agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements** view is displayed. You can switch between various system views using the dropdown list.  
 
