@@ -39,18 +39,14 @@ To be written.
 ## Enable intent-based routing
 
 By using generative AI, capture customer intents for incoming conversations and map them to solutions tailored to fulfill requests. The intent groups are manually mapped to one or more user groups.
-After you enable intent-based routing, you can control at the line of business-level to route some conversations using intent, and some through the conventional unified routing method. 
+
+After you enable intent-based routing, you can control at the line of business-level to route some conversations using intent, and some through the conventional unified routing method.
+
+You need to add lines of business if you want to enable intent-based routing for a selective set of workstreams and queues. Otherwise, intent-based routing is enabled for the whole organization.
 
 ## Manage lines of business
 
-A line of business can be a service, product, product category, or the way your company organizes and supports its business activities. You need to add lines of business if you want to enable intent-based routing for a selective set of workstreams and queues. Otherwise, intent-based routing is enabled for the whole organization.
-The following entities are associated with a line of business:   
-
-- Intents and intent groups
-
-- User groups (A representative can be a part of many user groups that belong to different lines of business)
-- Workstreams
-- Queues
+A line of business can be a service, product, product category, or the way your company organizes and supports its business activities. 
 
 ### Add a line of business
 
@@ -63,7 +59,7 @@ The following entities are associated with a line of business:
 
 For every line of business that you have identified, you can create rules for cases and conversations. You can create one rule only (one each for a case and conversation) per line of business.
 
-> [!IMPoRTANT]
+> [!IMPORTANT]
 > During runtime, for chat and other channels, Copilot and intent-based suggestions must be enabled to determine the intent.
 
 1.	On the **Manage Lines of business** page, in **Case Rules**, select **Create rule**.
@@ -127,6 +123,13 @@ The mapping is channel agnostic. For example, if you want  the same  user group 
 
 In intent-based routing, users aren't required to be part of queues. However, for record channel, a user assigned to the queue item must be a member of the queue, otherwise, the queue item update fails and assignment fails. Learn about how [unified routing affects queue items](../develop/unified-routing-impact-on-APIs.md). Therefore, we recommend that you update your record queues to be public for intent-based routing. If you prefer to use private queues for intent-based routing, make sure that users are added to the user groups and queues.
 
+|Routing type | Queue Type           | Users Association                                   |
+|---|----------------------|----------------------------------------------------|
+| Intent-based routing | Public <br> recommended approach |Add users to user groups only|
+|Intent-based routing | Private               | Add users to both user groups and queues           |
+| Traditional routing | Public   |Add users to both user groups and queues           |
+|Traditional routing| Private<br>Recommended approach              |  Add users to both user groups and queues |
+
 
 ## Assign workstream to lines of business
 
@@ -142,8 +145,6 @@ You must make sure that the workstreams and their associated queues belong to th
 Follow the steps in [Configure work classification rulesets](configure-work-classification.md) to set up classification rules to determine the requirements of the work items so that they can be routed to the correct intent group.
 
 You need to write classification rules to enrich live work item with the language and region. The system does an implicit match of language and region attributes during the user group identification stage.
-
-Configure the workstream name in the line of business configuration rules for chat workstreams. Because the chat widget is tightly coupled with the line of business, by specifying the line of business, you can make sure that the chat belongs to the same line of business as its workstream otherwise the chat can end up with a different line of business other than its workstream.
 
 ## Configure the assignment method
 
