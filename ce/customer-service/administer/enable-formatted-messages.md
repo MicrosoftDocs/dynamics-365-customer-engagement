@@ -27,7 +27,7 @@ Your customer service representatives (service representatives or representative
 
 ## Next steps
 
-[Markdown formats for agents](../use/markdown-formats-agents.md)  
+[Markdown formats for representatives](../use/markdown-formats-agents.md)  
 
 ### Related information
 
