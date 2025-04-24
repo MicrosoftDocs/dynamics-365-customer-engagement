@@ -90,7 +90,7 @@ If your administrator enabled keywords and description suggestions, you can sele
 
 However, either the **Title** or **Content** fields&mdash;or any other corresponding mapped fields set by the administrator&mdash;must contain some value for suggestions to be generated. If any of the fields that the model uses to generate suggestions are empty, you see messages such as "There was a problem finding suggested keywords" or "There was a problem finding a suggested description."
 
-1. In the article **Content** section, add the content for your knowledge article and then select **Save**. The **SUGGESTED KEYWORDS AND DESCRIPTION** link appears.
+1. In the article **Content** section, add the content for your knowledge article and then select **Save**. The suggested keywords and description feature is enabled.
 
 1. Select **View** in **SUGGESTED KEYWORDS AND DESCRIPTION**.
 
