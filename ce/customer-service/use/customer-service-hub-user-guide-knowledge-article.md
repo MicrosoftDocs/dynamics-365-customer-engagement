@@ -1,7 +1,7 @@
 ---
 title: Create and manage knowledge articles
 description: Create knowledge articles to address customer questions, issues, and feedback with images, videos, formatting, and media.
-ms.date: 04/22/2025
+ms.date: 04/24/2025
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -44,11 +44,11 @@ Knowledge articles can address any number of issues your customers encounter whi
 
 Make sure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the roles of knowledge manager, customer service manager, or customer service representative. Perform the following steps:
   
-1. In the Copilot Service workspace application site map, go to **Service** > **Knowledge Articles**.  
+1. In the site map of Copilot Service workspace application, go to **Service** > **Knowledge Articles**.  
   
 1. Select **New**.  The **New Knowledge Article** page appears.
   
-1. On the **Content** tab, **Article Content** section, fill in the following details:  
+1. On the **Content** tab, **ARTICLE CONTENT** section, fill in the following details:  
   
    - **Title**: Type a descriptive title that communicates the subject and purpose of the article in a concise manner.  
   
@@ -92,7 +92,7 @@ However, either the **Title** or **Content** fields&mdash;or any other correspon
 
 1. In the article **Content** section, add the content for your knowledge article and then select **Save**. The **View suggested keywords and description** link appears.
 
-1. Select **View** in **Suggested keywords and description** link.
+1. Select **View** in **Suggested keywords and description**.
 
       :::image type="content" source="../media/v9-view-suggested-keywords.png" alt-text="View suggested keywords and description link":::
 
