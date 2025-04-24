@@ -139,7 +139,6 @@ You must make sure that the workstreams and their associated queues belong to th
 1.	On the **Workstreams** page, select the workstream to edit, and on the page that appears, select **Edit for Intent-based routing**.
 1.	On the pane that appears, select a line of business from the list and save and close. The selected line of business is displayed on the workstream page.    
 
-
 ## Configure classification rules
 
 Follow the steps in [Configure work classification rulesets](configure-work-classification.md) to set up classification rules to determine the requirements of the work items so that they can be routed to the correct intent group.
@@ -180,6 +179,13 @@ When the representative uses **Add to a queue** to transfer the case to a queue,
 ## Conversation diagnostics
 
 You can view the conversation diagnostics in App Insights. Learn more in [Configure conversation diagnostics (preview)](configure-conversation-diagnostics.md) and [Understand conversation diagnostics (preview)](conversation-diagnostics-subscenarios.md).
+
+### Considerations
+
+- The workstreams and representatives must be configured with capacity profiles only for assignment.
+- Overflow actions like transfer to queue are supported but assignment uses the identified user group to assign to a representative.
+- Routing to preferred representatives isn't supported.
+- Skill-based routing isn't supported.
 
 ### Related information
 
