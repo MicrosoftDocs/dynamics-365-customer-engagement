@@ -114,6 +114,7 @@ IF (FactSessionParticipant[LeftOnReason] ==
 |Dataverse entities | msdyn_ocliveworkitem, msdyn_ocsession, systemuser |
 |Attributes  | - msdyn_ocliveworkitem.statuscode​, <br> - msdyn_ocsession.msdyn_state​, <br> - msdyn_ocsession.msdyn_closurereason ​<br> - systemuser.msdyn_botapplicationid |
 |Filters  | - Filter the FactConversations table to include only rows msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. <br> - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is not null​. <br> - Agent Rejected session is obtained by msdyn_ocsession.msdyn_closurereason set to 192350001​. |
+
 ---
 
 ## Session rejection rate
@@ -157,6 +158,7 @@ Session rejection rate = ​DIVIDE ( SUMX ( FactSession,​ IF ( FactSession[Ses
 |Dataverse entities |  msdyn_ocliveworkitem, msdyn_ocsession, systemuser  |
 |Attributes  | - msdyn_ocliveworkitem.statuscode​, <br> - msdyn_ocsession.msdyn_state​, <br> - msdyn_ocsession.msdyn_closurereason, <br> - systemuser.msdyn_botapplicationid     |
 |Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​. <br> - Agent Rejected session is obtained by msdyn_ocsession.msdyn_closurereason set to 192350001​. <br> - Agent Rejected session is obtained by msdyn_ocsession.msdyn_state set to 192350002​ <br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​|
+
 ---
 
 ### Related metrics
@@ -233,7 +235,6 @@ Sessions timed out = ​CALCULATE(DISTINCTCOUNT(FactSession[SessionId]), FactSes
 
 ```
 
-
 |Element|Value  |
 |---------|---------|
 |Dataverse entities | |
@@ -257,6 +258,7 @@ Sessions timedout = SUMX(FactSessionParticipant,​ IF ( FactSessionParticipant[
 |Dataverse entities |  Systemuser, msdyn_sessionparticipant  |
 |Attributes  | - msdyn_sessionparticipant.msdyn_leftonreason​, <br> - systemuser.msdyn_botapplicationid      |
 |Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​. <br> - msdyn_sessionparticipant.msdyn_leftonreason = "AgentTimeout"​.|
+
 ---
 
 ## Transferred sessions
@@ -274,6 +276,7 @@ The following DAX query and the corresponding Dataverse entities are used in the
 ```dax
 
 Transferred sessions = ​SUMX ( FactSession, IF ( FactSession[IsTransferredOut], 1, 0 ) )
+
 ```
 
 |Element|Value  |
@@ -281,6 +284,7 @@ Transferred sessions = ​SUMX ( FactSession, IF ( FactSession[IsTransferredOut]
 |Dataverse entities |  msdyn_ocliveworkitem, msdyn_ocsession, systemuser  |
 |Attributes  | - msdyn_ocliveworkitem.statuscode​, <br> - msdyn_ocsession.msdyn_closurereason, <br> - systemuser.msdyn_botapplicationid |
 |Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​ <br> - Agent Rejected session is obtained by msdyn_ocsession.msdyn_closurereason set to 192350006 or 192350010​ <br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. |
+
 ---
 
 ## Transfer rate session
@@ -304,7 +308,6 @@ Transfer rate_FactSession = ​CALCULATE (DIVIDE (IF ( [_QueueTransferCount] = B
 
 ```
 
-
 |Element|Value  |
 |---------|---------|
 |Dataverse entities |  msdyn_ocsession, systemuser, msdyn_ocsessionparticipantevent|
@@ -326,6 +329,7 @@ DIVIDE (SUMX ( FactSession, IF ( FactSession[IsTransferredOut], 1, 0 ) ),​ SUM
 |Dataverse entities |  msdyn_ocliveworkitem, msdyn_ocsession, systemuser  |
 |Attributes  | - msdyn_ocliveworkitem.statuscode​, <br> - msdyn_ocsession.msdyn_closurereason, <br> - systemuser.msdyn_botapplicationid,  <br> - msdyn_ocsession.msdyn_agentacceptedon|
 |Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​, <br> - msdyn_ocsession.msdyn_agentacceptedon is not null​ <br> - msdyn_ocsession.msdyn_closurereason set to 192350006 or 192350010​. <br>-  All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. |
+
 ---
 
 ## Incoming session
@@ -401,6 +405,7 @@ Need info
 |Dataverse entities |  msdyn_ocliveworkitem, msdyn_ocsession, systemuser  |
 |Attributes  | -  msdyn_ocliveworkitem.statuscode​ <br> - msdyn_ocsession.msdyn_closurereason ​<br> - systemuser.msdyn_botapplicationid ​<br> - msdyn_ocsession.msdyn_agentacceptedon       |
 |Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​. <br> - Time to accept in secs is defined by difference between msdyn_ocsession.msdyn_agentassignedon and msdyn_ocsession.msdyn_agentacceptedon​. <br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. |
+
 ---
 
 ## Session handle time
@@ -428,6 +433,7 @@ Session handle time (sec) = SUM(FactSession[AgentHandlingTimeInSeconds])
 |Attributes  |  - msdyn_ocliveworkitem.statuscode​ <br> - msdyn_ocsession.msdyn_agentacceptedon ​<br> - 
 systemuser.msdyn_botapplicationid ​<br> - msdyn_sessionparticipant_msdyn_activetime |
 |Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​. ​<br> - Session handle time is defined by ​When msdyn_ocsession.msdyn_agentacceptedon is not null then msdyn_sessionparticipant.msdyn_activetime else null​ ​<br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​ |
+
 ---
 
 ## Average session handle time
@@ -444,6 +450,8 @@ The following DAX query and the corresponding Dataverse entities are used in the
 
 **DAX query**
 
+```dax
+
 Avg. session handle time (min)_FactSession = CALCULATE(AVERAGE(FactSession[ActiveTimeInSec
 onds]) / 60.00 , FactSession[StatusCode] = "2",FactSession[IsAgentSession] = "1",FactSession[IsAgentAcceptedSession] = "1")
 
@@ -457,8 +465,6 @@ onds]) / 60.00 , FactSession[StatusCode] = "2",FactSession[IsAgentSession] = "1"
 
 ### [Real-time analytics](#tab/realtimepage)
 
-
-
 ```dax
 
 Avg. session handle time (sec) = AVERAGE(FactSession[AgentHandlingTimeInSeconds])
@@ -470,6 +476,8 @@ Avg. session handle time (sec) = AVERAGE(FactSession[AgentHandlingTimeInSeconds]
 |Dataverse entities |  msdyn_ocliveworkitem, msdyn_ocsession, msdyn_sessionparticipant, systemuser  |
 |Attributes  | - msdyn_ocliveworkitem.statuscode​ <br> - msdyn_ocsession.msdyn_agentacceptedon ​<br> - systemuser.msdyn_botapplicationid ​<br> - msdyn_sessionparticipant_msdyn_activetime       |
 |Filters  |  - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​ <br> - Session handle time is defined by ​When msdyn_ocsession.msdyn_agentacceptedon is not null then msdyn_sessionparticipant.msdyn_activetime else null​. <br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​ |
+
+
 ---
 
 ### Related metric
@@ -523,6 +531,7 @@ Consult requests rejected = SUMX (​FactSessionParticipant, IF (FactSessionPart
 |Dataverse entities |  msdyn_sessionparticipant, systemuser  |
 |Attributes  | - msdyn_sessionparticipant.msdyn_leftonreason​ ​<br> - msdyn_sessionparticipant_msdyn_mode​ ​<br> - systemuser.msdyn_botapplicationid|
 |Filters  | - Conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentReject" and​ msdyn_sessionparticipant.msdyn_mode = 192350003​ <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid is not null​. |
+
 ---
 
 ### Related metrics
