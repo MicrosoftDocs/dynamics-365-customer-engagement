@@ -1,7 +1,7 @@
 ---
 title: Use the Scheduling Operations Agent (preview)
 description: Learn how to use the Scheduling Operations Agent to optimize a technician's schedule in Dynamics 365 Field Service.
-ms.date: 03/26/2025
+ms.date: 04/24/2025
 ms.topic: how-to
 ms.author: anilmur
 author: anilmur
@@ -15,7 +15,7 @@ author: anilmur
 
 You can launch the Scheduling Operations Agent in either the Copilot side pane or from the schedule board in Dynamics 365 Field Service.
 
-- In any page in the Field Service app, select the Copilot icon in the app header. In the chat box, prompt Copilot to suggest a schedule for a bookable resource, such as a technician; for example, "Help me build a schedule for *<technician's name>*."
+- In any page in the Field Service app, select the Copilot icon in the app header. In the chat box, prompt Copilot to suggest a schedule; for example, "Suggest a schedule."
 
    :::image type="content" source="media/soa-copilot-chat.png" alt-text="Screenshot of the Copilot side pane in Dynamics 365 Field Service showing a chat with a prompt to build a schedule for a technician.":::
 
@@ -45,7 +45,7 @@ The scheduling goal informs the agent what the expected outcome of the optimizat
 
 ### Time range
 
-Select the range of time over which the agent should optimize the schedule. By default, the range is from the current time through the end of the current day in the selected time zone. You can optimize the schedule over the next two or three days or over a custom range.
+Select the range of time over which the agent should optimize the schedule. By default, the range is from the current time through the end of the current day in the selected time zone. You can optimize the schedule over a custom range and up to 72 hours and up to three days in the future.
 
 The time zone can be different from the local time zone for the resource or the dispatcher. It defaults to the time zone that's selected in the [schedule board settings](schedule-board-tab-settings.md).
 
