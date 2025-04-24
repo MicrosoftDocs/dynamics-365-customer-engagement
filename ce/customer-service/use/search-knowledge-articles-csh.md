@@ -53,7 +53,7 @@ Knowledge base search is available in Customer Service Hub, Copilot Service work
 - You're dealing with a case or a conversation, or your administrator [turned on the ability](../administer/set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management) to open the knowledge pane for other entities.
 
 ## Tips for search results
-f
+
 If a keyword you enter matches content in the knowledge base, the matching words are highlighted in yellow in the search results. Matches don't necessarily appear in the first three lines or words of an article, so the highlighted text in the search results might not appear.
 
 If style tags are visible in an article's content summary, it means that style tags were used to format the article. Consider offering feedback to the article's author to use inline CSS styling instead.
