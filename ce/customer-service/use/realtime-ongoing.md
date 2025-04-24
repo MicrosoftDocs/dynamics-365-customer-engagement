@@ -49,7 +49,7 @@ Refer to the following table to see when assign and transfer are enabled, depend
 
 ### Assign conversations
 
-1. In the Contact Center workspace or Customer Service workspace app, go to the dashboard view selector, and then select the **Ongoing Conversations** report.
+1. In the Copilot Service workspace app, go to the dashboard view selector, and then select the **Ongoing Conversations** report.
 
 1. Select a conversation in an **Open** state, and then select **Assign**.
 
@@ -108,7 +108,7 @@ To perform the actions on your customized reports, complete these prerequisites:
 - Create reports using [the out-of-the-box data model in your custom reports](use-datamodel.md#use-the-out-of-the-box-data-model-in-your-custom-reports).
 - Make sure appropriate roles exist for viewing and embedding reports. Learn more in [Configure analytics and insights dashboards](../administer/configure-customer-service-analytics-insights-csh.md#configure-analytics-and-insights-dashboards).
 
-In Customer Service workspace, go to **Customized reports** > **Ongoing conversations** report, and then select the conversation that needs to be updated.
+In Copilot Service workspace, go to **Customized reports** > **Ongoing conversations** report, and then select the conversation that needs to be updated.
  
 When the **Agent Name** doesn't exist, the following options are enabled.
   - **Assign**: Assign a representative by queue for the conversation.
