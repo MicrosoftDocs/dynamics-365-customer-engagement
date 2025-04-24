@@ -70,7 +70,7 @@ To configure SLAs in Customer Service Hub:
 
 SLA KPIs are performance indicators, such as First Response or Resolve by, that you want to track.
 
-1. In the site map of Copilot Service admin center, select **Service Terms** in **Operations**. The **Service terms** page appears.
+1. In the site map of Copilot Service admin center, select **Service terms** in **Operations**. The **Service terms** page appears.
 
 1. In the **SLA KPIs** section, select **Manage**. The **Active SLAKPIs** view is displayed.
 
