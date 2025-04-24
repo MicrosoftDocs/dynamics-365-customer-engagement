@@ -251,7 +251,7 @@ items:
       - name: Improve the Scheduling Operations Agent's suggestions
         href: soa-tips.md
       - name: Scheduling Operations Agent FAQ
-        href: faq-soa.md
+        href: faqs-soa.md
   - name: Schedule board
     items:
       - name: Use the schedule board
