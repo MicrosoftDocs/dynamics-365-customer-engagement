@@ -235,7 +235,7 @@
                 href: reference/methods/close.md
               - name: focus
                 href: reference/methods/focus.md
-              - name: requestFocusp
+              - name: requestFocus
                 href: reference/methods/requestFocus.md                            
             - name: Properties
               items:                           

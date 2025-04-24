@@ -273,7 +273,7 @@ Transferred sessions = ​SUMX ( FactSession, IF ( FactSession[IsTransferredOut]
 |Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​ <br> - Agent Rejected session is obtained by msdyn_ocsession.msdyn_closurereason set to 192350006 or 192350010​ <br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. |
 ---
 
-## Session
+## Transfer rate session
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
@@ -318,6 +318,194 @@ DIVIDE (SUMX ( FactSession, IF ( FactSession[IsTransferredOut], 1, 0 ) ),​ SUM
 |Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​, <br> - msdyn_ocsession.msdyn_agentacceptedon is not null​ <br> - msdyn_ocsession.msdyn_closurereason set to 192350006 or 192350010​. <br>-  All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. |
 ---
 
+## Incoming session
+
+*Applies to Omnichannel historical dashboards.*
+
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+**DAX query**
+
+```dax
+
+Incoming conversations_FactSession = ​CALCULATE(DISTINCTCOUNTNOBLANK(FactSession[ConversationId_FS]),FactSession[IsAgentSession] = "1",FactSession[IsOutbound] <> "1")
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | msdyn_ocliveworkitem, msdyn_ocsession, systemuser, msdyn_ocsessionparticipantevent |
+|Attributes | - msdyn_ocsessionparticipantevent.msdyn_eventtype​ <br> - msdyn_ocsessionparticipantevent.msdyn_eventreason​ ​ <br> - msdyn_ocsession.msdyn_sessionid​ ​ <br> - msdyn_ocsession.msdyn_closurereason ​​ <br> - systemuser.msdyn_botapplicationid  ​​ <br> - msdyn_ocliveworkitem.msdyn_isoutbound​ ​ <br> - msdyn_ocliveworkitem.msdyn_channel​ ​ <br> - msdyn_ocliveworkitem.msdyn_channelinstanceid |
+|Filters  |- Session is calculated based on msdyn_ocsession.msdyn_sessionid which needs to have atleast one AgentSession through systemuser.msdyn_botapplicationid  is not null​. <br> - Exclude sessions from 'Entity Records' channel and SMS filter using msdyn_ocliveworkitem.msdyn_channel != '192350000' and​ msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL respectively​ <br> - Exclude in-transit record with msdyn_eventreason '192350001' and Hold event with msdyn_eventtype '192350001'​. <br> - Incoming session is defined through msdyn_ocliveworkitem.msdyn_isoutbound is not set to 1​. |
+
+## Time to reject (sec)
+
+*Applies to Omnichannel real-time dashboards.*
+
+**Need info**
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+**DAX query**
+
+```dax
+
+Session time to reject (sec) = SUM(FactSession[TimeToRejectInSeconds])
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |  msdyn_ocliveworkitem, msdyn_ocsession, systemuser  |
+|Attributes  | - msdyn_ocliveworkitem.statuscode​, <br> - msdyn_ocsession.msdyn_closurereason , <br> - systemuser.msdyn_botapplicationid |
+|Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​. <br> - When msdyn_ocsession.msdyn_closurereason is set to 192350001 then use the date difference in secs between msdyn_ocsession.msdyn_agentassignedon, msdyn_ocsession.msdyn_sessionclosedon​ <br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. |
+---
+
+## Time to accept (sec)
+
+*Applies to Omnichannel real-time dashboards.*
+
+**Need info**
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |  msdyn_ocliveworkitem, msdyn_ocsession, systemuser  |
+|Attributes  | -  msdyn_ocliveworkitem.statuscode​ <br> - msdyn_ocsession.msdyn_closurereason ​<br> - systemuser.msdyn_botapplicationid ​<br> - msdyn_ocsession.msdyn_agentacceptedon       |
+|Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​. <br> - Time to accept in secs is defined by difference between msdyn_ocsession.msdyn_agentassignedon and msdyn_ocsession.msdyn_agentacceptedon​. <br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. |
+---
+
+## Session handle time
+
+*Applies to Omnichannel real-time dashboards.*
+
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Session handle time (sec) = SUM(FactSession[AgentHandlingTimeInSeconds])
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |  msdyn_ocliveworkitem, msdyn_ocsession, msdyn_sessionparticipant, systemuser  |
+|Attributes  |  - msdyn_ocliveworkitem.statuscode​ <br> - msdyn_ocsession.msdyn_agentacceptedon ​<br> - 
+systemuser.msdyn_botapplicationid ​<br> - msdyn_sessionparticipant_msdyn_activetime |
+|Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​. ​<br> - Session handle time is defined by ​When msdyn_ocsession.msdyn_agentacceptedon is not null then msdyn_sessionparticipant.msdyn_activetime else null​ ​<br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​ |
+---
+
+## Average session handle time
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+**Need info**
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+Avg. session handle time (min)_FactSession = CALCULATE(AVERAGE(FactSession[ActiveTimeInSec
+onds]) / 60.00 , FactSession[StatusCode] = "2",FactSession[IsAgentSession] = "1",FactSession[IsAgentAcceptedSession] = "1")
+
+```
+
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | msdyn_ocsessionparticipantevent, systemuser, msdyn_ocsession, msdyn_sessionparticipant|
+|Attributes | - msdyn_ocsessionparticipantevent.msdyn_eventtype​, <br> - msdyn_ocsessionparticipantevent.msdyn_eventreason ​<br> - msdyn_ocsession.msdyn_sessionid​ <br> - msdyn_ocsession.msdyn_closurereason ​<br> - systemuser.msdyn_botapplicationid <br> - msdyn_sessionparticipant.msdyn_activetime​ <br> - msdyn_sessionparticipant.msdyn_joinedon  |
+|Filters  | - Session is calculated based on msdyn_ocsession.msdyn_sessionid​ ​<br> - Exclude in-transit record with msdyn_eventreason '192350001' and Hold event with msdyn_eventtype '192350001'​ ​<br> - Exclude sessions from 'Entity Records' channel and SMS filter using msdyn_ocliveworkitem.msdyn_channel != '192350000' and​ msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL respectively​ ​<br> - IsAgentSession is obtained from systemuser.msdyn_botapplicationid  is not null​ ​<br> - msdyn_sessionparticipant.msdyn_activetime != null and msdyn_sessionparticipant.msdyn_joinedon is not null​|
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Avg. session handle time (sec) = AVERAGE(FactSession[AgentHandlingTimeInSeconds])
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |    |
+|Attributes  |        |
+|Filters  | |
+---
+
+## Session participant consult rejection count
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+ 
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+**Need info**
+
+```
+
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | |
+|Attributes | |
+|Filters  | |
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+**Need info**
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |    |
+|Attributes  |        |
+|Filters  | |
+---
 
 ## Related information
 
