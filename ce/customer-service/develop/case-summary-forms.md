@@ -1,5 +1,5 @@
 ---
-title: Enable summarization of cases
+title: Understand auto-enabled Copilot summaries
 description: Learn how to enable summarization of cases and conversations using Copilot in Customer Service.
 author: gandhamm
 ms.author: mgandham
