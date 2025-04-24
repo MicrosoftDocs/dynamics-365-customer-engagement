@@ -22,6 +22,8 @@ To be written.
 
 - [Customer Intent Agent is enabled](/dynamics365/contact-center/administer/manage-customer-intent-agent#enable-customer-intent-agent).
 
+- [Lines of business are created](/dynamics365/contact-center/administer/manage-customer-intent-agent#manage-lines-of-business).
+
 - [Intent discovery is set up](/dynamics365/contact-center/administer/manage-customer-intent-agent#manage-intent-discovery-setup).
 - [intents are created and in approved state](/dynamics365/contact-center/administer/manage-customer-intent-agent#manage-intents).
 - [Intent groups are created](/dynamics365/contact-center/administer/manage-customer-intent-agent#manage-intent-groups).
@@ -43,32 +45,6 @@ By using generative AI, capture customer intents for incoming conversations and 
 After you enable intent-based routing, you can control at the line of business-level to route some conversations using intent, and some through the conventional unified routing method.
 
 You need to add lines of business if you want to enable intent-based routing for a selective set of workstreams and queues. Otherwise, intent-based routing is enabled for the whole organization.
-
-## Manage lines of business
-
-A line of business can be a service, product, product category, or the way your company organizes and supports its business activities. 
-
-### Add a line of business
-
-1.	In the site map of Copilot Service admin center, go to **Intent**, and select **Manage** for **Add Line of business (Optional)**.
-1.	On the **Manage Lines of business **page, select **Add Line of business**.
-1.	Enter the name and description that indicates the line of business.
-1.	Select **Add**. The line of business is listed in the Lines of business table.
-
-### Create rules for cases and converstaions
-
-For every line of business that you have identified, you can create rules for cases and conversations. You can create one rule only (one each for a case and conversation) per line of business.
-
-> [!IMPORTANT]
-> During runtime, for chat and other channels, Copilot and intent-based suggestions must be enabled to determine the intent.
-
-1.	On the **Manage Lines of business** page, in **Case Rules**, select **Create rule**.
-1.	On the dialog that appears, enter the rule name and select a line of business.
-1.	In **Conditions**, define the conditions for the rules to run. In the rules for conversations, we recommend that you configure the same workstream that’s associated with the line of business. 
-1.	Optionally, select **Run backfill**. The system associates past cases with a line of business for intent discovery. This makes sure that intent discovery works properly by tagging past cases with the appropriate line of business.
-1.	Save and close.
-
-Repeat the steps for creating rules and conditions for conversations for the lines of business you’d like to.
 
 ## Create user groups
 
