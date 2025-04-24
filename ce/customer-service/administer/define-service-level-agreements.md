@@ -70,7 +70,7 @@ To configure SLAs in Customer Service Hub:
 
 SLA KPIs are performance indicators, such as First Response or Resolve by, that you want to track.
 
-1. In the site map of Copilot Service admin center, select **Service Terms** in **Operations**. The **Service terms** page appears.
+1. In the site map of Copilot Service admin center, select **Service terms** in **Operations**. The **Service terms** page appears.
 
 1. In the **SLA KPIs** section, select **Manage**. The **Active SLAKPIs** view is displayed.
 
@@ -155,7 +155,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 ### Create an SLA
 
-1. In the site map of Customer Service admin center, select **Service Terms** in **Operations**. The **Service Terms** page appears.
+1. In the site map of Copilot Service admin center, select **Service terms** in **Operations**. The **Service Terms** page appears.
 
 1. In the **Service Level Agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements** view is displayed. You can switch between various system views using the dropdown list.  
 
@@ -171,9 +171,9 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 ### Create an SLA item
 
-1. In the site map of Copilot Service admin center, select **Service Terms** in **Operations**. The **Service Terms** page appears.
+1. In the site map of Copilot Service admin center, select **Service terms** in **Operations**. The **Service terms** page appears.
 
-1. In the **Service Level Agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements** view is displayed. Select the SLA for which you want to add an SLA item.
+1. In the **Service-level agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements from Unified Interface** view is displayed. Select the SLA for which you want to add an SLA item.
 
 1. On the page that appears, select **New SLA Item**. The **New SLA Item** dialog box appears.
 
