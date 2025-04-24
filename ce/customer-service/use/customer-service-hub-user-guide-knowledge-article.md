@@ -56,7 +56,7 @@ Make sure that you have Create and Read permissions on the Knowledge Article ent
 
    - **Description**: Type or select a short description of the article. The description appears in the search results and is used for search engine optimization.
    
-       :::image type="content" source="../media/v9-add-cont_article.png" alt-text="Add article content":::
+     :::image type="content" source="../media/ka-new-article-page.png" alt-text="Screenshot of new knowledge article page.":::
  
 1. In the **CONTENT** section, add the content for your knowledge article.  
   

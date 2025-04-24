@@ -19,7 +19,7 @@ ms.collection: get-started
 
 [!INCLUDE[cc-trial-sign-up](../../includes/cc-trial-sign-up.md)]
 
-With service-level agreements (SLAs) configured in Customer Service Hub, you can:
+With service-level agreements (SLAs) configured in Copilot Service admin center, you can:
 
 - Use out-of-the-box actions in Microsoft Power Automate.
 - Define work hours, and pause and resume SLAs at the SLA KPI level and SLA item level, which helps you track SLA items for different work hours based on priority and criteria. The pause settings at SLA KPI level or SLA item level give you added flexibility to define pause conditions at a more granular level.
@@ -27,7 +27,7 @@ With service-level agreements (SLAs) configured in Customer Service Hub, you can
 
 ![SLA pause and resume.](../media/SLA-pause-resume.png "SLA pause and resume")
 
-To configure SLAs in Customer Service Hub:
+To configure SLAs in Copilot Service admin center:
 
 1. [Review prerequisites](#prerequisites).
 2. [Create SLA KPIs](#create-sla-kpis).
