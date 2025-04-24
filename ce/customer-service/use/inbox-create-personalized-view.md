@@ -10,7 +10,7 @@ ms.date: 04/24/2025
 
 # Create a personalized view in the inbox
 
-A personalized inbox view lets you view cases in your inbox in a way that works best for you. If your administrator enabled the inbox view, you can create and manage the case views you want to help you organize your work.  Personal views that you create are available to you only unless you share them. 
+A personalized inbox view lets you view cases in your inbox in a way that works best for you. If your administrator enabled the inbox view, you can create and manage the case views you want to help you organize your work. Personal views that you create are available to you only unless you share them. 
 
 A personalized case view consists of the following elements: 
 
