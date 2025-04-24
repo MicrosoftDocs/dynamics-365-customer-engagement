@@ -39,7 +39,7 @@ The following DAX query and the corresponding Dataverse entities are used in the
 
 ```dax
 
-Need info
+Info
 
 ```
 
@@ -102,10 +102,7 @@ Sessions rejected = ​CALCULATE(DISTINCTCOUNT(FactSession[SessionId]), FactSess
 
 ```dax
 
-Sessions rejected = SUMX(FactSessionParticipant,​
-
-IF (FactSessionParticipant[LeftOnReason] ==
-"AgentReject", 1, 0))
+Sessions rejected = SUMX(FactSessionParticipant,​ IF (FactSessionParticipant[LeftOnReason] == "AgentReject", 1, 0))
 
 ```
 
@@ -237,9 +234,9 @@ Sessions timed out = ​CALCULATE(DISTINCTCOUNT(FactSession[SessionId]), FactSes
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | |
-|Attributes | |
-|Filters  | |
+|Dataverse entities |Need info |
+|Attributes |Need info  |
+|Filters  |Need info  |
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -247,7 +244,7 @@ Sessions timed out = ​CALCULATE(DISTINCTCOUNT(FactSession[SessionId]), FactSes
 
 ```dax
 
-**To be reviewed**
+The following data is yet to be reviewed
 
 Sessions timedout = SUMX(FactSessionParticipant,​ IF ( FactSessionParticipant[LeftOnReason] == "AgentTimeout",1,0 ))
 
@@ -378,6 +375,7 @@ Session time to reject (sec) = SUM(FactSession[TimeToRejectInSeconds])
 |Dataverse entities |  msdyn_ocliveworkitem, msdyn_ocsession, systemuser  |
 |Attributes  | - msdyn_ocliveworkitem.statuscode​, <br> - msdyn_ocsession.msdyn_closurereason , <br> - systemuser.msdyn_botapplicationid |
 |Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​. <br> - When msdyn_ocsession.msdyn_closurereason is set to 192350001 then use the date difference in secs between msdyn_ocsession.msdyn_agentassignedon, msdyn_ocsession.msdyn_sessionclosedon​ <br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. |
+
 ---
 
 ## Time to accept (sec)
@@ -389,8 +387,6 @@ Session time to reject (sec) = SUM(FactSession[TimeToRejectInSeconds])
 ### DAX query and Dataverse reference
 
 The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
-
-### [Real-time analytics](#tab/realtimepage)
 
 **DAX query**
 
@@ -416,8 +412,6 @@ Need info
 ### DAX query and Dataverse reference
 
 The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
-
-### [Real-time analytics](#tab/realtimepage)
 
 **DAX query**
 
