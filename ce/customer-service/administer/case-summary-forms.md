@@ -31,7 +31,7 @@ To avoid duplication of summaries on the form or to further customize the summar
 
 ## Auto-enabled custom record summary
 
-If you [configured the custom record summary](copilot-enable-custom-record-summaries#configure-the-custom-record-summary), custom record summaries are displayed at the top of relevant forms automatically. Users can see two custom record summaries on the form.
+If you [configured the custom record summary](copilot-enable-custom-record-summaries.md#configure-the-custom-record-summary), custom record summaries are displayed at the top of relevant forms automatically. Users can see two custom record summaries on the form.
 
 
 To avoid duplication of summaries on the form or to further customize the summary, perform the steps in [Manage summarization settings](#manage-summarization-settings) section.
