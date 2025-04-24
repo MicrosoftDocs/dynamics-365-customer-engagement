@@ -1,5 +1,5 @@
 ---
-title: Sales qualification agent FAQ
+title: FAQs about Sales qualification agent
 description: Find answers to frequently asked questions about the Sales qualification agent in Dynamics 365 Sales, which helps sellers qualify leads and improve sales outcomes.
 ms.date: 02/19/2025
 ms.topic: conceptual
@@ -20,7 +20,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Sales qualification agent FAQ
+# FAQs about Sales qualification agent
 
 This FAQ provides answers to common questions about the Sales qualification agent in Dynamics 365 Sales.
 
@@ -40,7 +40,6 @@ An ideal customer profile (ICP) is a detailed description of a target customer w
 - **Decision Makers**: Chief Information Officer (CIO), Chief Technology Officer (CTO), Head of Sales
 
 By focusing on leads that match this profile, you can tailor your approach to address specific needs and challenges, and increase the likelihood of a successful sale.
-
 
 ## Why don't I see the insights banner in the lead form?
 
@@ -64,6 +63,10 @@ No, the agent processes leads automatically when any of the following events occ
 
 In addition, the agent refreshes the research data of the existing leads at the configured timeframe. Learn more about refresh schedule in [Adjust the frequency of research data refresh](configure-sales-qualification-agent.md#adjust-the-frequency-of-research-data-refresh). You can view the timestamp of the last refresh in the **Lead insights** page.
 
+## What activities consume Copilot Studio capacity?
+
+The Sales qualification agent uses Copilot Studio capacity for research, ideal customer profile (ICP) matching, and initial outreach email generation. Viewing insights that have already been generated does not consume additional capacity.
+
 <a name="cant-see-email-options"></a>
 ## Why don't I see the **Review email** or **Draft email** option?
 
@@ -71,3 +74,4 @@ The **Review email** option appears in the banner and the **Draft email** option
 
 - Server-side synchronization is enabled for your organization.
 - The lead's email address is available.
+

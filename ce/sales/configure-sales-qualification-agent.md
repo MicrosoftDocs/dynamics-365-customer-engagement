@@ -24,18 +24,25 @@ Help sellers leverage AI for lead research, ideal customer profile (ICP) matchin
 
 ## Prerequisites
 
-The Sales qualification agent relies on existing Dynamics 365 Sales features to provide comprehensive research insights. While these features aren't mandatory for the functioning of the agent, they enhance the agent's capabilities and provide a more holistic view of the lead and account.
+Before you set up the agent, ensure that the following prerequisites are met:
 
-- [Copilot in Dynamics 365 Sales](enable-setup-copilot.md): Turn on Copilot to include the [lead summary](copilot-get-information.md#summarize-a-lead) and [account summary](copilot-get-information.md#summarize-an-account) on the **Lead insights** page.
-- [Bing search](/power-platform/admin/geographical-availability-copilot): Provide consent for Bing search so that the agent can fetch relevant information from external websites and include it in its research synthesis.
+- [Copilot Studio](/microsoft-copilot-studio/billing-licensing): Ensure that you have the Copilot Studio license and necessary capacity to run the agent. The agent uses the same capacity as other Copilot features in Copilot Studio. [Learn more about messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
+
+- [Copilot in Dynamics 365 Sales](enable-setup-copilot.md) (Optional but recommended): Turn on Copilot to include the [lead summary](copilot-get-information.md#summarize-a-lead) and [account summary](copilot-get-information.md#summarize-an-account) to get a 360-degree view of the lead and their company. 
 - [New look](/power-apps/user/modern-fluent-design#enabling-the-modern-look-for-my-app-and-removing-the-toggle): Ensure that you enabled the new look for the Sales Hub app.
 
-## Grant permissions to custom roles
+## Before you begin
+
+- Identify the products for which you want to configure the Sales qualification agent. Ideally, these products should be handled by a single sales team and have a similar ideal customer profile. For example, if your company sells multiple products through different sales teams, identify a product line and the corresponding sales team that the agent should help you with.  
+
+- Identify the security roles that include sellers who are responsible for the products you identified. If you don't have a security role, create a custom security role and add sellers to it.  
+
 <a name="grant-permissions"></a>
+## Create a custom security role and grant permissions
 
-Question: Do we need this permission for public preview?
+To ensure accurate insights and optimal capacity usage, create a new security role or use an existing role that exclusively represents sellers responsible for the products that the agent will be configured for. Avoid assigning roles that include sellers handling other products, as this might lead to incorrect insights and unnecessary consumption of Copilot Studio capacity. Learn more about [creating a security role](/power-platform/admin/create-edit-security-role).
 
-If you want to allow custom roles to access the agent, ensure that they have the necessary permissions.
+After the role is created, grant the following permissions to the security role:
 
 Grant **User** level permissions for read, write, create, append, append to, and assign to the following entities:
 
@@ -58,7 +65,7 @@ The following steps describe how the tenant admin and the Dynamics 365 Sales adm
    The Welcome to Copilot agents (Preview) page appears.
 
 1. In the **Before you get started** section, complete the following prerequisites as a tenant admin:
-   - Grant the required consents for the agent to use Bing search and Copilot Studio.
+   - Grant consent for the agent to use Bing search and Copilot Studio.
    - Manage capacity for the agent to run in your environment. The agent uses the same capacity as other Copilot features in Copilot Studio. [Learn more about messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
    
    If the required consents are already granted and capacity is configured, you'll directly see **Get started** when you open the **Agents** page.
@@ -70,9 +77,9 @@ The following steps describe how the tenant admin and the Dynamics 365 Sales adm
 
    | Field | Input | Example input |
    |-------------------------|-------------------------|----------------------------|
-   | Team access | Select the security roles that need access to the agent, including the system administrator role. Typically, this field should include sales roles responsible for lead qualification. If you're selecting a custom role, ensure that [necessary permissions](#grant-permissions) are provided before adding it to the **Team access** list. | Salesperson, Sales Manager, System Administrator |
+   | Team access | Select the security roles that exclusively represent sellers responsible for products that the agent will help with. Include the System administrator role explicitly if the admin also needs to see the insights. If you're selecting a custom role, ensure that [necessary permissions](#grant-permissions) are provided before adding it to the **Team access** list. | ContosoSalesTeam, System Administrator |
    | Company knowledge | Enter your company's name and website URL. The agent uses this information to tailor its research. | Company name: "Contoso Ltd." Website URL: "https://www.contoso.com" |
-   | Value proposition of your offering | Describe the products or services you sell in natural language. This information helps the agent understand your offerings and generate lead qualification suggestions.| Cloud-based CRM solution that helps businesses streamline sales processes, improve customer relationships, and drive revenue growth. Our platform includes features such as lead management, opportunity tracking, email integration, and analytics.|
+   | Value proposition of your offering | Describe the products that align with the products sold by sellers in the **Team access** list. | Cloud-based CRM solution that helps businesses streamline sales processes, improve customer relationships, and drive revenue growth. Our platform includes features such as lead management, opportunity tracking, email integration, and analytics.|
 
 1. Adjust the [data refresh frequency](#adjust-the-frequency-of-research-data-refresh) in the **Data** section. By default, the data refresh frequency is set to **Medium**, which is ideal for most businesses.
 
@@ -142,13 +149,13 @@ By default, the research data is refreshed every three days. You can adjust the 
 
 ## View usage consumption by the agent
 
-You can start monitoring the usage consumption of the Sales qualification agent after the agent is published. This information helps you keep track of the capacity consumed by the agent and the remaining capacity.
+You can start monitoring the usage consumption of the Sales qualification agent after the agent is published. This information helps you keep track of the capacity consumed by the agent and the remaining capacity. Learn more about [activities that consume Copilot Studio capacity](sales-qualification-agent-faq.md#what-activities-consume-copilot-studio-capacity).
 
 1. From the Change area, select **App Settings** > **Copilot** > **Agents (Preview)**.
 1. On the **Copilot agents** page, select **View usage consumption**. This option is only available after the agent is published.
    :::image type="content" source="media/view-usage-consumption.png" alt-text="Screenshot of the view usage consumption option.":::
-   You're redirected to the **Licensing** page on Power Platform admin center.
-1. Under **Products**, select **Copilot Studio**.
+   You're redirected to the **Licensing** page on Power Platform admin center.  
+1. Under **Products**, select **Copilot Studio**.  
    The usage consumption by product, agent, and environment are displayed.
 
 
