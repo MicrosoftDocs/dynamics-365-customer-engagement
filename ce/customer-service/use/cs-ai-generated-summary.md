@@ -15,6 +15,9 @@ ms.collection: bap-ai-copilot
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
+> [!NOTE]
+> Auto-summarization for conversations is now deprecated. We recommend that you use Copilot-generated conversation summaries instead. Learn more in [Enable Copilot generated conversation summaries](/dynamics365/contact-center/use/copilot-summarize-conversations#view-a-conversation-summary).
+
 
 > [!NOTE]
 > Case is applicable to Customer Service only.
