@@ -32,4 +32,4 @@ If you no longer want to save an inbox view, select the ellipsis next to it, and
 ### Related information
 
 [Use the inbox](/use-inbox.md)  
-[Create and manage personal views on a grid page](../power-apps/user/grid-filters-advanced)
+[Create and manage personal views on a grid page](../power-apps/user/grid-filters-advanced.md)
