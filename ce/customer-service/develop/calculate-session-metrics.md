@@ -39,16 +39,16 @@ The following DAX query and the corresponding Dataverse entities are used in the
 
 ```dax
 
-**Need info**
+Need info
 
 ```
 
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | |
-|Attributes | |
-|Filters  | |
+|Dataverse entities |Need info |
+|Attributes | Need info|
+|Filters  |Need info |
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -56,15 +56,16 @@ The following DAX query and the corresponding Dataverse entities are used in the
 
 ```dax
 
-**Need info**
+Need info
 
 ```
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities |    |
-|Attributes  |        |
-|Filters  | |
+|Dataverse entities |  Need info  |
+|Attributes  |    Need info    |
+|Filters  | Need info|
+
 ---
 
 ## Sessions rejected
@@ -115,11 +116,11 @@ IF (FactSessionParticipant[LeftOnReason] ==
 |Filters  | - Filter the FactConversations table to include only rows msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. <br> - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is not null​. <br> - Agent Rejected session is obtained by msdyn_ocsession.msdyn_closurereason set to 192350001​. |
 ---
 
-## Sessions rejected rate
+## Session rejection rate
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-**Need info**
+The rate at which service representatives reject work that is assigned to them. It's calculated by dividing the total number of sessions that service representatives rejected by the total number of sessions assigned to them.
 
 ### DAX query and Dataverse reference
 
@@ -134,7 +135,6 @@ The following DAX query and the corresponding Dataverse entities are used in the
 Session rejected rate = DIVIDE(IF (​[Sessions rejected] = BLANK (),​ 0, [Sessions rejected]), [Incoming essions_FactSession], BLANK()) ​
 
 ```
-
 
 |Element|Value  |
 |---------|---------|
@@ -159,11 +159,16 @@ Session rejection rate = ​DIVIDE ( SUMX ( FactSession,​ IF ( FactSession[Ses
 |Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​. <br> - Agent Rejected session is obtained by msdyn_ocsession.msdyn_closurereason set to 192350001​. <br> - Agent Rejected session is obtained by msdyn_ocsession.msdyn_state set to 192350002​ <br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​|
 ---
 
-## Sessions timeout rate
+### Related metrics
+
+- **Rejected sessions**: The total number of times that service representatives rejected work that was assigned to them.
+- **Session time to reject**: The average time that service representatives take to reject work that is assigned to them. This metric measures the time from when the customer request is assigned to a service representative to when the service representative rejects the request.
+
+## Session timeout rate
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-**Need info**
+The rate at which sessions time out because of service representative's inactivity. This metric is calculated by dividing the total number of requests where the service representative didn't provide any response by the total number of sessions that were assigned to them.
 
 ### DAX query and Dataverse reference
 
@@ -200,13 +205,18 @@ Session timeout rate = ​ DIVIDE (SUMX (FactSession, IF ( FactSession[SessionCl
 |Dataverse entities | Systemuser, msdyn_sessionparticipant   |
 |Attributes  | - msdyn_sessionparticipant.msdyn_leftonreason​, <br> - systemuser.msdyn_botapplicationid |
 |Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​. <br> - msdyn_sessionparticipant.msdyn_leftonreason = "AgentTimeout"​|
+
 ---
+
+### Related metric
+
+- **Timeout sessions**: The total number of times that service representatives didn't respond to the work that was assigned to them.
 
 ## Sessions timeout
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
- 
+Need info
 
 ### DAX query and Dataverse reference
 
@@ -382,7 +392,7 @@ The following DAX query and the corresponding Dataverse entities are used in the
 
 ```dax
 
-
+Need info
 
 ```
 
@@ -424,7 +434,7 @@ systemuser.msdyn_botapplicationid ​<br> - msdyn_sessionparticipant_msdyn_activ
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-**Need info**
+This metric is like conversation handle time. However, it's calculated for every service representative who works on the conversation. This metric is relevant to conversations that multiple service representatives handled. If multiple service representatives were assigned to work on a conversation for any reason (for example, transfers or escalations), this metric measures the average time spent by each service representative. Conversation handle time is a measure of the aggregated session handle time for all the associated sessions.
 
 ### DAX query and Dataverse reference
 
@@ -439,7 +449,6 @@ onds]) / 60.00 , FactSession[StatusCode] = "2",FactSession[IsAgentSession] = "1"
 
 ```
 
-
 |Element|Value  |
 |---------|---------|
 |Dataverse entities | msdyn_ocsessionparticipantevent, systemuser, msdyn_ocsession, msdyn_sessionparticipant|
@@ -448,7 +457,7 @@ onds]) / 60.00 , FactSession[StatusCode] = "2",FactSession[IsAgentSession] = "1"
 
 ### [Real-time analytics](#tab/realtimepage)
 
-**DAX query**
+
 
 ```dax
 
@@ -458,16 +467,20 @@ Avg. session handle time (sec) = AVERAGE(FactSession[AgentHandlingTimeInSeconds]
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities |    |
-|Attributes  |        |
-|Filters  | |
+|Dataverse entities |  msdyn_ocliveworkitem, msdyn_ocsession, msdyn_sessionparticipant, systemuser  |
+|Attributes  | - msdyn_ocliveworkitem.statuscode​ <br> - msdyn_ocsession.msdyn_agentacceptedon ​<br> - systemuser.msdyn_botapplicationid ​<br> - msdyn_sessionparticipant_msdyn_activetime       |
+|Filters  |  - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​ <br> - Session handle time is defined by ​When msdyn_ocsession.msdyn_agentacceptedon is not null then msdyn_sessionparticipant.msdyn_activetime else null​. <br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​ |
 ---
+
+### Related metric
+
+- **Session handle time**: The time that service representatives spend helping customers on assigned customer requests.
 
 ## Session participant consult rejection count
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
- 
+Need info
 
 ### DAX query and Dataverse reference
 
@@ -479,16 +492,19 @@ The following DAX query and the corresponding Dataverse entities are used in the
 
 ```dax
 
-**Need info**
+Consult requests rejected = SUMX (​FactSessionParticipant,​
+
+IF
+(FactSessionParticipant[LeftOnReason] == "AgentReject" && FactSessionParticipant[ModeId] = "192350003",1,0))
 
 ```
 
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | |
-|Attributes | |
-|Filters  | |
+|Dataverse entities |msdyn_sessionparticipant |
+|Attributes | - msdyn_sessionparticipant.msdyn_leftonreason​ ​<br> - msdyn_sessionparticipant_msdyn_mode|
+|Filters  | Conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentReject" and​ msdyn_sessionparticipant.msdyn_mode = 192350003 |
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -496,16 +512,23 @@ The following DAX query and the corresponding Dataverse entities are used in the
 
 ```dax
 
-**Need info**
+Consult requests rejected = SUMX (​FactSessionParticipant, IF (FactSessionParticipant[LeftOnReason]
+== "AgentReject" && FactSessionParticipant[ModeId] = 192350003, 1,0
+))
 
 ```
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities |    |
-|Attributes  |        |
-|Filters  | |
+|Dataverse entities |  msdyn_sessionparticipant, systemuser  |
+|Attributes  | - msdyn_sessionparticipant.msdyn_leftonreason​ ​<br> - msdyn_sessionparticipant_msdyn_mode​ ​<br> - systemuser.msdyn_botapplicationid|
+|Filters  | - Conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentReject" and​ msdyn_sessionparticipant.msdyn_mode = 192350003​ <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid is not null​. |
 ---
+
+### Related metrics
+
+- **Session participant**: The list of participants within a single session. A session contains at least one session participant; participant can be a service representative, agent, or IVR. Additional participants can be added to the same session in scenarios like Monitor or Consult.
+- **Session participant count**: The total number of service representatives who were involved in helping a customer. Includes the primary service representative assigned to work on the session and any subject matter experts who were consulted. You can use the SessionParticipationType dimension to analyze this metric and get further statistics.
 
 ## Related information
 
