@@ -17,7 +17,7 @@ ms.custom: bap-template
 The enhanced Active Conversation experience displays the customer and case details that are relevant to your business. When you enable the **Enhanced active conversation form** option, the **Customer 360**, **Case details**, and **Recent cases** components are available on the **Active Conversation** form by default. You can further customize these components in Power Apps.
 
 > [!NOTE]
-> - Case related information applies to Customer Service only.
+> - Case-related information applies to Customer Service only.
 > - The enhanced Active Conversation experience works only with the out-of-the-box customer summary anchor tab, `omnichannel_customer360`.  Learn more in [Manage application tab template](application-tab-templates.md).
 
 - **Customer details**: Use the **Customer 360** component in **Account** > **Account form for Conversation Customer Card** form or **Contact** > **Contact form for Conversation Customer Card** to customize the details displayed on **Customer details**.
