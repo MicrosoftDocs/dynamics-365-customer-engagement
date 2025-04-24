@@ -44,7 +44,7 @@ Knowledge articles can address any number of issues your customers encounter whi
 
 Make sure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the roles of knowledge manager, customer service manager, or customer service representative. Perform the following steps:
   
-1. In the application site map, go to **Knowledge** > **Knowledge Articles**.  
+1. In the Copilot Service workspace application site map, go to **Service** > **Knowledge Articles**.  
   
 1. Select **New**.  The **New Knowledge Article** page appears.
   
@@ -92,7 +92,7 @@ However, either the **Title** or **Content** fields&mdash;or any other correspon
 
 1. In the article **Content** section, add the content for your knowledge article and then select **Save**. The **View suggested keywords and description** link appears.
 
-1. Select the **View suggested keywords and description** link.
+1. Select **View** in **Suggested keywords and description** link.
 
       :::image type="content" source="../media/v9-view-suggested-keywords.png" alt-text="View suggested keywords and description link":::
 
