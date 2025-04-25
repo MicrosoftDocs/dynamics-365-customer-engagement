@@ -1,7 +1,7 @@
 ---
 title: Set up intelligent skill finder model in unified routing
 description: Use the information to set up intelligent skill finder model for unified routing in Customer Service.
-ms.date: 02/25/2025
+ms.date: 02/04/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -31,7 +31,7 @@ You must enable [AI Builder preview models](/ai-builder/administer#enable-or-dis
 
 You can create as many intelligent skill finder rating models as your business requires.
 
-1. In the Copilot Service admin center site map, select **Insights** in **Operations**. The **Insights** page appears.
+1. In the Customer Service admin center site map, select **Insights** in **Operations**. The **Insights** page appears.
 
 1. In the **Intelligent skill finder** section, select **Manage**.
 

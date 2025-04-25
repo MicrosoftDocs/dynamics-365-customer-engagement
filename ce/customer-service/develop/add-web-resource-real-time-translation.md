@@ -1,7 +1,7 @@
 ---
 title: Add a web resource for real-time translation of messages
 description: Learn how to add a web resource to implement the logic for enabling real-time translation of messages exchanged between your customers and service representatives.
-ms.date: 04/25/2025
+ms.date: 01/29/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -25,7 +25,7 @@ To add a web resource:
 
 Perform the following steps to upload the web resource file for real-time translation:
 
-1. In Dynamics 365, on the top right of the Contact Center admin center or Copilot Service admin center page, select **Settings**, and select **Advanced Settings**.
+1. In Dynamics 365, on the top right of the Contact Center admin center or Customer Service admin center page, select **Settings**, and select **Advanced Settings**.
 
 2. On the page that appears on a new tab, select **Settings**, and then select **Solutions**.
 
@@ -40,7 +40,7 @@ Perform the following steps to upload the web resource file for real-time transl
    1. In the **Content** section, select Script (JScript) for **Type**.
    1. For **Upload File**, select **Choose File** to upload the JavaScript file that you customized.
    1. Save the form, select the option to publish all customizations.
-   1. Copy the link in the **URL** field. You'll provide this link in the administrator settings in [Copilot Service admin center](../implement/cs-admin-center.md) or [Contact center admin center](/dynamics365/contact-center/administer/cc-admin-center) for configuring real-time translation.
+   1. Copy the link in the **URL** field. You'll provide this link in the administrator settings in [Customer Service admin center](../implement/cs-admin-center.md) or [Contact center admin center](/dynamics365/contact-center/administer/cc-admin-center) for configuring real-time translation.
    1. Select the option to publish all customizations on the **Solution** page, and close the form.
    
 6. In the site map of the admin center app, select **Productivity** under **Support experience**, then select **Manage** for **Real-time translation**.
