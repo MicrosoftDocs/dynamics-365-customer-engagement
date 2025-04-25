@@ -15,9 +15,9 @@ ms.custom:
 
 # Create and activate assignment rules
 
-Assignment rules automatically route new leads, opportunities, and insights to the right sellers or sales teams. Create an assignment rule for lead, opportunity, and seller insights records by defining conditions, such as the segment, sellers, and distribution. After a rule is activated, any record that satisfies the conditions that are defined for the rule is automatically assigned to a seller. Sales managers spend less time and effort in manual assignment, leads, opportunities, and insights don't go overlooked, and assignments are balanced among your salespeople.
+Assignment rules automatically route new leads, opportunities, and insights to the right sellers or sales teams. Create an assignment rule for lead, opportunity, and seller insights records by defining conditions, such as the segment, sellers, and distribution. After a rule is activated, any record that satisfies the conditions that are defined for the rule is automatically assigned to a seller. You spend less time creating assignments. Leads, opportunities, and insights are no longer overlooked, and assignments are balanced among your salespeople.
 
-A rule considers only the records that are created or updated after it's activated. When a lead, opportunity, or seller insight record is created, assignment rules are applied in the order they're listed, starting from the top. If the record satisfies the conditions that are defined for a rule, that rule is applied to the record and no following rules are considered. By default, rules are listed in the order they were created, with the most recently created one at the bottom. However, you can [change the order of your assignment rules](./wa-edit-assignment-rule.md) at any time.
+A rule considers only the records that are created or updated after activation. When a lead, opportunity, or seller insight record is created, assignment rules are applied in the order they're listed, starting from the top. If a record meets the conditions of a rule, that rule is applied and no other rule is considered. By default, rules are listed in the order they were created, with the most recently created one at the bottom. However, you can [change the order of your assignment rules](./wa-edit-assignment-rule.md) at any time.
 
 Watch this brief video to learn more about assignment rules in sales accelerator:
 
@@ -27,11 +27,11 @@ Watch this brief video to learn more about assignment rules in sales accelerator
 
 ## Prerequisites
 
-Before you start creating assignment rules, make sure you've [identified the security roles](wa-manage-sales-teams.md) that can be automatically assigned records.
+Before you start creating assignment rules, make sure to [select the security roles](wa-manage-sales-teams.md) that automatically assign records. 
 
 ## Create an assignment rule
 
-1. Sign in to your Dynamics 365 Sales Hub app.
+1. Sign in to your Dynamics 365 Sales app.
 
 1. In the lower-left corner of the page, select **Change area** > **Sales Insights settings**.
 
@@ -61,7 +61,7 @@ You can add up to 10 conditions, including conditions in groups and related enti
 
     - **Add group**: Add a group of conditions to filter records using multiple attributes that are combined by **And** or **Or**. If you select **And**, records must meet all the conditions in the group. If you select **Or**, records can meet any condition in the group.
 
-    - **Add related entity**: Add a condition that's based on the attributes of related tables. Select an attribute in the **Related Entity** list, then select **Contains data** or **Does not contain data**, and then define the condition.
+    - **Add related entity**: Add a condition based on the attributes of related tables. Select an attribute in the **Related Entity** list, then select **Contains data** or **Does not contain data**, and then define the condition.
 
       :::image type="content" source="media/sa-segment-condition-add-related-entity.png" alt-text="Screenshot that shows a condition added for a related entity.":::
 
@@ -81,11 +81,11 @@ You can add up to 10 conditions, including conditions in groups and related enti
 
         You can have up to five conditions. Only one row can be defined as a related entity condition. If you need more, contact Microsoft Support.
 
-    - **Specific sellers**: Assign records to the sellers you select. The sellers must have a [security role that grants them permissions](wa-manage-sales-teams.md) to be assigned by a rule.
+    - **Specific sellers**: Assign records to the sellers you select. The sellers must have a [security role that grants them permissions](wa-manage-sales-teams.md) for assignment by a rule.
 
     - **Teams with matching attributes**: Assign records to teams that satisfy the conditions that are defined in the condition builder. You can have a maximum of five conditions, and only one row can be defined under a related entity condition. [Recommendations for adding conditions to assignment rules.](#recommendations-for-adding-conditions-to-assignment-rules).  
 
-    - **Specific teams**: Assign records to the sales team that you select. Any member of the team can pick up the records. The teams must be defined in your organization and have a [security role that grants them permissions](wa-manage-sales-teams.md) to be assigned by a rule.
+    - **Specific teams**: Assign records to the sales team that you select. Any member of the team can pick up the records. The teams must be defined in your organization and have a [security role that grants them permissions](wa-manage-sales-teams.md) for assignment through a rule.
 
     - **Queues with matching attributes**: Assign records to queues that satisfy the conditions that are defined in the condition builder. You can have a maximum of five conditions, and only one row can be defined under a related entity condition. [Recommendations for adding conditions to assignment rules.](#recommendations-for-adding-conditions-to-assignment-rules).  
 
@@ -109,7 +109,7 @@ If you assign the records to a sales team, this section isn't shown because the 
 
     - The rule first considers sellers who are available to work on the records. If sellers don't set their [work availability](personalize-sales-accelerator.md#configure-your-work-availability), the rule considers them always available.
 
-    - If no seller is available&mdash;perhaps because of a day off or the time is outside working hours&mdash;the rule considers sellers who will be available within the number of hours you selected in step 2.
+    - If no seller is available&mdash;perhaps because of a day off or the time is outside working hours&mdash;the rule considers sellers who are available within the number of hours you selected in step 2.
 
     - If no seller is available within that time, the record is [left unassigned and marked overdue](wa-manage-unassigned-records.md).
 
@@ -125,17 +125,17 @@ A seller's available capacity is calculated by subtracting their consumed capaci
 
 The available capacity is calculated as follows: *Available capacity* = *Maximum capacity* - *Consumed capacity*  
 
-Let's say that assignment rules are configured only for the lead entity. Alex has a maximum capacity of 50 records. He's already assigned 20 lead records and 10 opportunity records. The assignment rules aren't configured for opportunities, so Alex's available capacity is 50 (maximum records) - 20 (assigned leads), or 30 records.
+Let's say that assignment rules are configured only for the lead entity. Alex has a maximum capacity of 50 records. Alex is assigned 20 lead records and 10 opportunity records. The assignment rules aren't configured for opportunities, so Alex's available capacity is 50 (maximum records) - 20 (assigned leads), or 30 records.
 
 ## Consideration
 
-The application runs on a pooling mechanism and retrieved records are processed at regular intervals. There might be a delay between when a record is added or updated and meets the conditions of the assignment rule and when it's assigned to a seller.
+The application runs on a pooling mechanism and retrieved records are processed at regular intervals. There might be a delay between when a record meets the conditions of the assignment rule and when it gets assigned to a seller.
 
 ### Recommendations for adding conditions to assignment rules
 
 We limit the number of conditions you can add to your assignment rules to help the rules run faster and more efficiently. Here are some suggestions for when you need more conditions than the limit allows.
 
-- **Dynamic attributes in condition builder**: When creating conditions in the condition builder, you can utilize dynamic attributes to minimize the number of conditions required for a specific attribute. For example, if you wish to assign leads from the United States to sellers from the same country, and likewise for India, Japan, and Brazil, you would need to create four separate conditions for this. However, by using dynamic attributes, you can consolidate this into a single condition as follows: **Country** > **Equals** > **Lead.Country**, where, if a lead's country matches the country of the seller, it will automatically be assigned to the corresponding seller from that country. For more information, see [Route leads with dynamic assignment rules](https://cloudblogs.microsoft.com/dynamics365/it/2021/08/26/route-leads-by-using-assignment-rules-to-dynamically-match-system-user-fields/)
+- **Dynamic attributes in condition builder**: When creating conditions in the condition builder, you can utilize dynamic attributes to minimize the number of conditions required for a specific attribute. For example, if you wish to assign leads from the United States, India, Japan, and Brazil to sellers from the same country/region, you would need to create four separate conditions for this. However, by using dynamic attributes, you can consolidate this into a single condition as follows: **Country** > **Equals** > **Lead.Country**, where, if a lead's country/region matches the country/region of the seller, it's automatically assigned to the corresponding seller from that country. For more information, go to [Route leads with dynamic assignment rules](https://cloudblogs.microsoft.com/dynamics365/it/2021/08/26/route-leads-by-using-assignment-rules-to-dynamically-match-system-user-fields/)
 
 - **Split conditions between assignment rules and segments.** Move some conditions to the segment. For example, if you have 15 conditions in the **Eligible *record type* for this rule** section, move five of them to the associated segment.
 

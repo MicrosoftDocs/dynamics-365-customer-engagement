@@ -111,6 +111,10 @@
           href: suggested-actions.md
         - name: Pass authentication token to bot during single sign-on in live chat
           href: pass-auth-token-sso-live-chat.md
+      - name: Metrics and queries
+        items:
+        - name: Calculate conversation metrics
+          href: calculate-conversation-metrics.md
       - name: Extend Customer Service
         items: 
         - name: Extend Omnichannel for Customer Service
@@ -282,7 +286,9 @@
               - name: ON_SESSION_SWITCH
                 href: reference/events/on_session_switch.md  
               - name: ON_SESSION_CLOSED
-                href: reference/events/on_session_closed.md     
+                href: reference/events/on_session_closed.md 
+              - name: ON_TAB_SWITCH    
+                href: reference/events/on_tab_switch.md
             - name: Methods
               items: 
                - name: getEventPublisherTopic

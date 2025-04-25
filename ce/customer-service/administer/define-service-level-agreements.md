@@ -1,7 +1,7 @@
 ---
 title: Configure service-level agreements in Dynamics 365 Customer Service
 description: Learn how to configure service-level agreements in Dynamics 365 Customer Service.
-ms.date: 01/27/2025
+ms.date: 04/22/2025
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -19,7 +19,7 @@ ms.collection: get-started
 
 [!INCLUDE[cc-trial-sign-up](../../includes/cc-trial-sign-up.md)]
 
-With service-level agreements (SLAs) configured in Customer Service Hub, you can:
+With service-level agreements (SLAs) configured in Copilot Service admin center, you can:
 
 - Use out-of-the-box actions in Microsoft Power Automate.
 - Define work hours, and pause and resume SLAs at the SLA KPI level and SLA item level, which helps you track SLA items for different work hours based on priority and criteria. The pause settings at SLA KPI level or SLA item level give you added flexibility to define pause conditions at a more granular level.
@@ -27,7 +27,7 @@ With service-level agreements (SLAs) configured in Customer Service Hub, you can
 
 ![SLA pause and resume.](../media/SLA-pause-resume.png "SLA pause and resume")
 
-To configure SLAs in Customer Service Hub:
+To configure SLAs in Copilot Service admin center:
 
 1. [Review prerequisites](#prerequisites).
 2. [Create SLA KPIs](#create-sla-kpis).
@@ -39,7 +39,7 @@ To configure SLAs in Customer Service Hub:
 
 ## Prerequisites
 
-- Administrators and customer service representatives must have specific roles and privileges to work with the various entities related to SLA, for example, SLA, SLA KPI, and SLA KPI instances. Review the following requirements before configuring SLAs for your organization.
+- Administrators and customer service representatives (service representatives or representatives) must have specific roles and privileges to work with the various entities related to SLA, for example, SLA, SLA KPI, and SLA KPI instances. Review the following requirements before configuring SLAs for your organization.
 
     For administrators:
     - **CSR Manager** role or its equivalent roles and privileges.
@@ -48,7 +48,7 @@ To configure SLAs in Customer Service Hub:
     - SLA, SLA KPI, SLA KPI instances: Create permission at the business-unit level, delete permission at the parent-child level, and other permissions at the organization level.
     - Power Automate License is available for the user creating actions on SLA KPI instance statuses. 
 
-    For customer service representatives:
+    For service representatives:
     - **Customer Service Representative** role or its equivalent roles and privileges.
     - Read privileges at the organization level for SLA, SLA KPI, SLA KPI instances. 
 
@@ -70,7 +70,7 @@ To configure SLAs in Customer Service Hub:
 
 SLA KPIs are performance indicators, such as First Response or Resolve by, that you want to track.
 
-1. In the site map of Customer Service admin center, select **Service Terms** in **Operations**. The **Service Terms** page appears.
+1. In the site map of Copilot Service admin center, select **Service terms** in **Operations**. The **Service terms** page appears.
 
 1. In the **SLA KPIs** section, select **Manage**. The **Active SLAKPIs** view is displayed.
 
@@ -101,7 +101,7 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
 1. Select **Activate**. The SLA KPI is saved and activated.
 
-When customer service representatives (service representatives) create an SLA KPI instance for an entity other than the case entity, the **Regarding** column appears as blank on Unified Interface, and as **(No name)** on the web client. This functionality is a by-design behavior, and is also applicable to custom entities.
+When service representatives create an SLA KPI instance for an entity other than the case entity, the **Regarding** column appears as blank on Unified Interface, and as **(No name)** on the web client. This functionality is a by-design behavior, and is also applicable to custom entities.
 
 If you choose to show the entity name for your service representatives, perform the steps [provided](#configure-sla-kpi-instance-entity-name-through-advanced-find).
 
@@ -155,7 +155,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 ### Create an SLA
 
-1. In the site map of Customer Service admin center, select **Service Terms** in **Operations**. The **Service Terms** page appears.
+1. In the site map of Copilot Service admin center, select **Service terms** in **Operations**. The **Service terms** page appears.
 
 1. In the **Service Level Agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements** view is displayed. You can switch between various system views using the dropdown list.  
 
@@ -171,9 +171,9 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 ### Create an SLA item
 
-1. In the site map of Customer Service admin center, select **Service Terms** in **Operations**. The **Service Terms** page appears.
+1. In the site map of Copilot Service admin center, select **Service terms** in **Operations**. The **Service terms** page appears.
 
-1. In the **Service Level Agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements** view is displayed. Select the SLA for which you want to add an SLA item.
+1. In the **Service-level agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements from Unified Interface** view is displayed. Select the SLA for which you want to add an SLA item.
 
 1. On the page that appears, select **New SLA Item**. The **New SLA Item** dialog box appears.
 

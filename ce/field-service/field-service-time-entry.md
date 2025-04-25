@@ -9,7 +9,7 @@ ms.author: anilmur
 
 # Track time expenditure with time entries
 
-Time entry capabilities help field service organizations better track the time that technicians spend on a job. Time entry can be tied to a work order or booking. They're often used for reporting, invoicing, and billing for the provided services and can be integrated with ERP systems. Other applications can also write to the Time Entry table in Dataverse.
+Time entry capabilities help field service organizations better track the time that technicians spend on a job. Time entry can be tied to a work order or booking. They're often used for reporting, invoicing, and billing for the provided services and can be integrated with ERP systems. Other applications can also write to the [Time Entry table](./developer/reference/entities/msdyn_timeentry.md) in Dataverse.
 
 Administrators determine the following settings:
 

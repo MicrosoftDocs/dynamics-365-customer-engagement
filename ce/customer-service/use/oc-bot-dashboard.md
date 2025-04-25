@@ -1,7 +1,7 @@
 ---
 title: Bot dashboard
 description: Learn about the bot dashboard in historical analytics to better understand customer service representative performance in your organization.
-ms.date: 02/10/2025
+ms.date: 03/24/2025
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -13,17 +13,12 @@ ms.reviewer: mgandham
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
-
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
 In the application, you can integrate both Azure and Copilot agents to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to customer service representatives (service representatives or representatives), as required. The bot dashboard shows key performance indicators (KPIs) and charts for chat and IVR AI agents. You can use the dashboard to understand how AI agents are performing in a support organization. 
 
-In the Customer Service workspace or Contact Center workspace application, perform the following steps to view the dashboard:
-
-1. In the site map, select Omnichannel historical analytics.
-1. On the page that appears, select the Bot dashboard.
+You can [access the dashboard](omnichannel-analytics-insights.md#access the dashboards) in the Copilot Service workspace or Contact Center workspace application.
 
 Based on your administrator's configuration of the **Add historical analytics for bots** option in the Contact Center or Customer Service admin center, the dashboard is as follows:
 - **Enabled**: Indicates that your organization only has Copilot agents configured and the dashboard is specific to them. Additional metrics, charts, and KPIs that are applicable only to Copilot agents are displayed.
@@ -32,6 +27,7 @@ Based on your administrator's configuration of the **Add historical analytics fo
 ## Prerequisites
 
 - You must have the **Analytics Report Author** role to use the visual customizations in the bot dashboard. Visual customization is limited to the data available in the embedded Power BI report. If you want to add additional data, you need a Power BI license and enable data model customization.
+- Make sure that **Allow conversation transcripts and their associated metadata to be saved in Dataverse** is selected in Power Platform admin center. This setting is required to save transcripts in Dataverse that the bot dashboard uses.
 
 
 ## [Copilot Studio bot dashboard](#tab/copilotstudiodashboard)
