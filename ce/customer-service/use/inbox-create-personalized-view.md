@@ -19,7 +19,7 @@ A personalized case view consists of the following elements:
 
 ## Add and save a personalized inbox view
 
-1. Select **Cases** under **Service** in the Copilot Service workspace site map. The Cases tab opens.
+1. Select **Cases** under **Service** in the Copilot Service workspace site map. The **Cases** page opens.
 2. Select **Inbox view** on the ribbon. The personalized view appears in the left pane.
 
    > [!div class="mx-imgBorder"]
@@ -39,4 +39,3 @@ If you no longer want to save an inbox view, select the ellipsis next to it, and
 ### Related information
 
 [Use the inbox](use-inbox.md)  
-[Create and manage personal views on a grid page](/powerapps/user/grid-filters-advanced)
