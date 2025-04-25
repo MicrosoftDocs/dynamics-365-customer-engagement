@@ -1,11 +1,11 @@
 ---
 title: Manage custom productivity tools
-description: Learn how to manage the custom productivity tools to improve agent productivity in Customer Service.
+description: Learn how to manage the custom productivity tools to improve representative productivity in Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to 
-ms.date: 01/16/2024
+ms.date: 04/25/2025
 ms.custom: bap-template
 ---
 
@@ -25,13 +25,13 @@ The productivity pane supports custom productivity tools developed as custom pag
 Ensure that the following prerequisites are met:
 
 - You have the **Productivity tools administrator** security role. To learn more, see [Assign roles and enable users](../implement/add-users-assign-roles.md).
-- Agents and supervisors have the **Productivity tools user** security role. To learn more, see Assign roles and enable users.
+- Customer service representatives (service representatives or representatives) and supervisors have the **Productivity tools user** security role. To learn more, see Assign roles and enable users.
 - A custom page or a Power Apps component framework control to be hosted as a custom productivity tool. To learn more, see [Overview of custom pages for model-driven apps](/power-apps/maker/model-driven-apps/model-app-page-overview) and [Power Apps component framework](/power-apps/developer/component-framework/overview).
 
 ## Configure a custom productivity tool
 
-1. In Dynamics 365, go to Customer Service admin center.
-1. In the site map, select **Productivity** in **Agent experience**.
+1. In Dynamics 365, go to Copilot Service admin center.
+1. In the site map, select **Productivity** in **Support experience**.
 1. On the page that appears, select **Manage** for **Productivity tools (Preview)**.
 1. Select **New**, and enter the following details on **New Pane tool configuration**:
 
@@ -45,8 +45,8 @@ Ensure that the following prerequisites are met:
    - **Description**: A description of the productivity pane (optional).
    - **Learn More Link**: A link to the help page for the custom productivity tool (optional).
 1. Save the changes.
-1. In the site map, select **Workspaces** in **Agent experiences**, and select **Manage** for **Agent experience profiles**.
-1. Select the agent experience profile that you want to modify, and select **Edit** for **Productivity pane** on the page that appears.
+1. In the site map, select **Workspaces** in **Support experiences**, and select **Manage** for **Experience profiles**.
+1. Select the experience profile that you want to modify, and select **Edit** for **Productivity pane** on the page that appears.
 1. Enable the custom productivity tool, and save the changes.
 
  > [!NOTE]
