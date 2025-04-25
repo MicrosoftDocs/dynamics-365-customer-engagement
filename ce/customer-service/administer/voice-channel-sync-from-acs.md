@@ -1,7 +1,7 @@
 ---
 title: Sync from Azure Communication Services
 description: Understand how you can import phone numbers that you purchased or acquired earlier via Azure Communication Services resources into Dynamics 365 Contact Center.
-ms.date: 06/14/2024
+ms.date: 04/25/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -14,7 +14,7 @@ ms.reviewer: nenellim
 
 You can import phone numbers that you purchased or acquired earlier via Azure Communication Services resources into Dynamics 365. 
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Channels** in **Customer support**. The **Channels** page appears.    
+1. In the site map of Copilot Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.    
     2. Select **Manage** for **Phone numbers**.
 2. Select **Advanced** on the menu.
 3. Select **Sync** for **Sync from Azure**. A dialog requesting you to confirm the sync action is displayed.
