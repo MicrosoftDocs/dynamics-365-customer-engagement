@@ -1,7 +1,7 @@
 ---
 title: Enable self-service settings
-description: Enable self-service settings for customer actions in conversations to help agents understand customer issues and provide personalized service.
-ms.date: 03/03/2025
+description: Enable self-service settings for customer actions in conversations to help representatives understand customer issues and provide personalized service.
+ms.date: 04/25/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -24,11 +24,11 @@ The data about the recent actions is stored in an entity for the conversation th
 
 Enabling the self-service feature is a two-step process as follows:
 1. Add a code snippet in the self-service portal that is configured for your organization. Learn about the sample code and more in [Pass self service history as context](../develop/reference/methods/setContextProvider.md#pass-customers-self-service-as-context).
-2. Update the settings in the Customer Service admin center or Contact Center admin center app.
+2. Update the settings in the Copilot Service admin center app.
 
 ## Enable self service
 
-You can enable the self service feature in the Customer Service admin center or Contact center admin center app.
+You can enable the self service feature in the Copilot Service admin center app.
 
 1. Add the code snippet in the customer self-service portal.
 
