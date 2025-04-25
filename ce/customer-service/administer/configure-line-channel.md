@@ -1,7 +1,7 @@
 ---
 title: Configure a LINE channel
 description: Instructions to configure a LINE channel.
-ms.date: 03/03/2025
+ms.date: 04/25/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -14,13 +14,15 @@ ms.collection:
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
 Many customers use social messaging channels like LINE for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved when they have time. This functionality is different from real-time channels like Chat for Dynamics 365 Customer Service, where the session ends when the chat window is closed.
 
 The LINE channel gives you an opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience.
 
 ## Prerequisites
 
-The prerequisites to configure the LINE channel in Contact Center admin center or Customer Service admin center are as follows:
+The prerequisites to configure the LINE channel in Copilot Service admin center are as follows:
 
 1.	Create a [LINE](https://line.me/en/) handle.
 2.	Create a LINE channel in the LINE Developers console. For more information, refer to [Create a LINE channel](https://developers.line.biz/en/docs/messaging-api/getting-started/#creating-a-channel).
@@ -34,7 +36,7 @@ After completing the prerequisites, you can add the LINE channel for your organi
 
 **To configure the LINE channel**
 
-1. In the site map of Contact Center admin center or Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
+1. In the site map of Copilot Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
     
 1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page appears.
    
@@ -71,13 +73,13 @@ After completing the prerequisites, you can add the LINE channel for your organi
 
 1. Configure work distribution. For more information, refer to [Work distribution settings](create-workstreams.md#configure-work-distribution).
 
-1. Add a bot. For more information, refer to [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
+1. Add an agent. For more information, refer to [Configure an agent](create-workstreams.md#add-a-bot-to-a-workstream).
 
 1. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](session-templates.md)
-   - [Agent notifications](notification-templates.md#out-of-the-box-notification-templates)
+   - [Representative notifications](notification-templates.md#out-of-the-box-notification-templates)
    - [Context variables](manage-context-variables.md#add-context-variables)
-   - [Smart assist bots](../develop/smart-assist-bot.md)
+   - [Smart assist agents](../develop/smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
 ## Customer and representative experiences
@@ -98,7 +100,7 @@ If the system doesn't identify the customer by name, a new contact record can be
 
 ## Privacy notice
 
-If you enable this feature, your data is shared with LINE and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud environment). For more information, refer to [Connect an agent to LINE](/azure/bot-service/bot-service-channel-connect-line?view=azure-bot-service-4.0&preserve-view=true).
+If you enable this feature, your data is shared with LINE and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud environment). For more information, refer to [Connect a representative to LINE](/azure/bot-service/bot-service-channel-connect-line?view=azure-bot-service-4.0&preserve-view=true).
 
 Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws related to monitoring, recording, and storing communications with their end users. This responsibility includes adequately notifying end users that their communications with representatives might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users may be monitored, recorded, or stored.
 
