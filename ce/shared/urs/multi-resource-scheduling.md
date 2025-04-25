@@ -33,7 +33,38 @@ Requirement groups bundle requirements commonly scheduled together. For example,
 
 1. Optionally, choose an existing **Requirement group template** from the drop-down list and **Save**.
 
-1. Edit the requirements in the requirement group as required.
+1. In the bottom panel, select the requirement group.
+
+1. The **Select** default is **All** which indicates that all requirements must be met. Change it to **Any** to indicate any of the requirements can be met.
+
+1. (Optional) Choose **Part of Same**.
+
+   - **Location**: Only teams of resources working at the same physical location (organizational unit) are available to book. The Resource Associations (msdyn_bookableresourceassociations) and the Bookable Resource Group (bookableresourcegroup) entities determine the location.
+
+   - **Resource Tree**: The teams assembled must actually be associated to the same resource type in order to be returned as a team. This option adds more stringency to the search.
+
+     For example, let’s assume there's one physical location, Location A. There are 2 facilities at location A: facility 1 and facility 2. If resource 1 is associated to facility 1, and "Same Resource Tree" is selected, the one team that can be assembled is facility 1 + resource 1. Facility 2 and resource 1 can't be returned. This combo could however be returned if "Same Location" is the only option selected.
+
+    > [!Note]
+    > If neither of these two options are selected on the requirement relationship (msdyn_requirementrelationship), and work location is set to facility, the schedule assistant search will execute as if “Same Resource Tree” was selected. 
+
+   - **Same Organizational Unit**: Only teams with the same parent organizational unit are available to book. It ignores the Bookable Resource Group (bookableresourcegroup) and the Resource Associations (msdyn_bookableresourceassociations) entities. It only checks the parent organizational unit. This is the most stringent option.
+
+   > [!Note]
+   > The **Part of Same** field schema name is **msdyn_requirementrelationship**
+
+1. To enter the requirements, select **Requirement**. Enter a name for the requirement, time range, and duration.
+
+1. Select the requirement and then **Open Form**.
+
+1. On the **General** tab, select the work location.
+
+   - **Facility** work location implies the interaction takes place at the facility and travel time is calculated as the distance between the customer location and the facility location. The requirement's latitude and longitude fields are used as the customer location. It also means at least one facility or facility pool must return in schedule assistant search results in order for a resource to be returned.
+  
+   - **On Site** work location implies the interaction takes place at the customer location and travel time is calculated as the distance between the customer location and the resource (typically field technician) location, which is variable based on the resource's schedule that day. The requirement's latitude and longitude fields are used as the customer location. As a result, facility resources and facility pools are excluded from the results.
+
+   - **Location Agnostic** work location implies the interaction takes place remotely and the location of the customer nor the resource is considered for scheduling. Travel time isn't applicable and isn't calculated. Facility resources can still be returned as part of the schedule assistant search, but travel time isn't displayed or considered in ranking.
+
 
 ## Book a requirement group
 
