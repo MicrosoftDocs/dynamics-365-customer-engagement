@@ -41,6 +41,10 @@ For information about older versions, see [Version history archive](version-hist
 >
 > - Dates in all regions indicate the timing of the next automatic update. While most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 3.4.0.1406
+
+This release, available as of April 25, 2025 fixes a rounding bug that resulted in booking duration occasionally being increased. In addition, this release improves optimization reliability.
+
 ## 3.4.0.1381
 
 This release, available as of April 10, 2025 has a fix for the following bugs:

@@ -1,7 +1,7 @@
 ---
 title: Admin settings overview
 description: Admin settings provide an organized and unified experience for administrators to easily configure the Dynamics 365 Sales app from a single place.
-ms.date: 02/02/2024
+ms.date: 04/25/2025
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
@@ -72,8 +72,6 @@ The **Get Started** page makes it easy to set up what's most important. One sele
 ### Customization
 
 If the Sales app doesn't exactly fit your business requirements, use the drag-and-drop designers under **Customization** to quickly change forms, views, and process flows to reflect the specific information your company needs. For example, change the pipeline phases to match your organization's business flows, or add new fields to capture data that's relevant to your business&mdash;all without writing a single line of code. [Learn how to customize business process flows](customize-business-process-flows.md).
-
-:::image type="content" source="media/customize-bpf.png" alt-text="Screenshot of customizing a business process flow.":::
 
 ---
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
