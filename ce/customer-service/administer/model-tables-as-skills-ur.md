@@ -46,7 +46,7 @@ However, if you model the "Product" and "Customer" columns in your tables as ski
 To model data in a table as a skill, you'll need to do the following steps:
 
 1. Create a column for the new skill.
-1. Add the column to the Skill Main form so that it's visible in the Customer Service admin center app.
+1. Add the column to the Skill Main form so that it's visible in the Copilot Service admin center app.
 1. Assign a value to the skill and assign the skill to representatives.
 1. Finally, add the skill as a condition in an assignment rule.
 
@@ -80,7 +80,7 @@ In this example, we model a skill on data in the **Products** table.
 
 ### Assign a value to the skill
 
-1. Open Customer Service admin center. Under **Customer Support**, select **User management**.
+1. Open Copilot Service admin center. Under **Customer Support**, select **User management**.
 1. To the right of **Skills**, select **Manage** to open the **Active Characteristics** view.
 1. Select **New**.
 1. Enter a name, and optionally a description, for the new skill.
@@ -103,7 +103,7 @@ You can model as a skill any attribute or category you like and match service re
 ## Things to consider
 
 - [Intelligent skill finder](set-up-isf-model.md#create-skill-finder-models) doesn't predict custom attributes that are modeled as skills.
-- Modeled skills aren't included in skill analysis reports and they don't appear as skills in the [agent skill control](../use/manage-skills.md).
+- Modeled skills aren't included in skill analysis reports and they don't appear as skills in the [representative skill control](../use/manage-skills.md).
 - [Out-of-the-box assignment methods](assignment-methods.md#types-of-assignment-methods) don't support skill match for modeled skills.
 - [Routing diagnostics](unified-routing-diagnostics.md) don't display modeled skills that were matched during assignment.
 - Modeled skills must be of the "lookup" data type.
@@ -112,4 +112,4 @@ You can model as a skill any attribute or category you like and match service re
 ## Next steps
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
-[Set up skills, create a rating model, and assign agents](setup-skills-assign-agents.md)  
+[Set up skills, create a rating model, and assign representatives](setup-skills-assign-agents.md)  
