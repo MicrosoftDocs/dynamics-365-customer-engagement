@@ -18,7 +18,7 @@ Case and custom record summaries help users quickly understand the context of a 
 
 Case summary is automatically enabled across all out-of-the-box case forms and custom case forms. You don't have to manually enable the case summaries feature in **Productivity** > **Summaries** page of Copilot Service admin center.
 
-Based on the case form type, the case summary appears in different locations:
+Based on the case form type, the case summary appears in different locations of the page:
 
 -  Case summaries appear at top of case forms, except for the following four out-of-the-box forms: **Case for Interactive experience**, **Enhanced full case form**, **Case**, and **Case for Multisession experience** forms.
     - If case summary is already [enabled for custom case forms in your model-driven app](/dynamics365/customer-service/administer/copilot-powerapps-settings), users can see two summary cards on the form. 
