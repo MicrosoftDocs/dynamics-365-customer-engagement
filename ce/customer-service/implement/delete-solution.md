@@ -41,10 +41,10 @@ You must have removed [Omnichannel for Customer Service](/dynamics365/contact-ce
     |-------|-------------------------------------------------- |-------|
     |	1	| `ProductivityToolsAnchor`	                        |		|
     |	2	| `msdyn_OmnichannelProductivityToolsSettings`	    |		|
-    |	3	| `msdyn_Smartassist_managed`                    	| Required for Customer Service Hub and Customer Service workspace |
+    |	3	| `msdyn_Smartassist_managed`                    	| Required for Customer Service Hub and Copilot Service workspace |
     |	4	| `msdyn_ProductivityPaneControl_managed`	        |		|
     |	5	| `msdyn_AgentGuidance_managed`	                    |		|
-    |	6	| `msdyn_Agentscript_managed`	                    | Required for Customer Service Hub and Customer Service workspace |
+    |	6	| `msdyn_Agentscript_managed`	                    | Required for Customer Service Hub and Copilot Service workspace |
     |	7	| `OmnichannelPrimeChatAnchor`                    	|		|
     |	8	| `OmnichannelPrimeSMSAnchor`	                    |		|
     |	9	| `OmnichannelPrimeFacebookAnchor` 	                |		|
@@ -74,7 +74,7 @@ You must have removed [Omnichannel for Customer Service](/dynamics365/contact-ce
 
 ## Uninstall Omnichannel historical analytics solutions
 
-1. Disable Omnichannel historical analytics in the Insights section of Customer Service admin center. Learn more in [Configure Omnichannel historical analytics reports](/dynamics365/customer-service/oc-historical-analytics-reports).
+1. Disable Omnichannel historical analytics in the Insights section of Copilot Service admin center. Learn more in [Configure Omnichannel historical analytics reports](/dynamics365/customer-service/oc-historical-analytics-reports).
 
 2. On the **Solutions** page, select and uninstall the following solutions, one at a time, in the following order:
    1. `msdyn_InsightsAnalyticsOCConfiguration`
