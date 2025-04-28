@@ -85,7 +85,7 @@ Exclude specific forms from displaying summaries. You can specify the form id of
   -  To show summaries only within the form: Add the form to the exclude list using the script below
 
 
-Go to **Customer Service admin center** > **Productivity** > **Summaries** page and then run the following script in the Console tab of developer tools to add forms to an exclude list.
+Go to **Copilot Service admin center** > **Productivity** > **Summaries** page and then run the following script in the Console tab of developer tools to add forms to an exclude list.
 
 ```
        Xrm.WebApi.updateRecord("msdyn_copilotsummarizationsetting", "33dd33dd-ee44-ff55-aa66-77bb77bb77bb",{"msdyn_excludeformslist": "66aa66aa-bb77-cc88-dd99-00ee00ee00ee"}).then(
