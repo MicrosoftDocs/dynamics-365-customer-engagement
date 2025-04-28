@@ -152,7 +152,7 @@ You can Edit, Delete, and Duplicate rules by selecting them and then using the a
 - **Delete**: Delete the rule. This is irreversible.
 - **Duplicate**: Create a new rule, pre-filling the Conditions and Actions sections.
 
-# Frequently asked questions
+### Frequently asked questions
 
 > Is this backwards compatible with the old method of launching and customizing the Live Chat Widget?
 
@@ -175,7 +175,7 @@ Not currently, but this is a roadmap item which we will support in the near futu
 
 Not currently, but in a future release we will support launching custom functions as an action, which can be used to fire your Omnichannel Chat SDK implementation.
 
-# Troubleshooting
+### Troubleshooting
 
 To see verbose console logging during rule evaluation, modify your script tag to **change data-lcw-version="prod"** to **data-lcw-version="test"**. Your browser's console will now show which rules are executing and whether their conditions are met.
 
