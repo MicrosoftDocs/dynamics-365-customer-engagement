@@ -1,7 +1,7 @@
 ---
 title: Personalize sound notifications in Omnichannel for Customer Service.
-description: Learn how agents can personalize sound notification settings in their agent app.
-ms.date: 08/30/2024
+description: Learn how representatives can personalize sound notification settings in their representative app.
+ms.date: 04/28/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -24,7 +24,7 @@ You can personalize sound notification settings for incoming conversation reques
 
 The personalized settings have precedence over the administrator settings. You can enable notifications at each channel level for all the channels that are provisioned and available for you.
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Personalization** in **Service**.
+1. In the site map of Copilot Service admin center, select **Personalization** in **Service**.
 
 2. On the **Personalization** tab, select **Sound Settings**.
 
