@@ -121,7 +121,7 @@ Let's assume that Hailey is working on a call and chat at the same time while Ma
 Maya completes one of the chats at 1:55 PM, and Hailey completes the chat at 2:00 PM. A new chat conversation arrives at 2:05 PM.
 
 - **Number of conversations with Hailey**: 1 call
--	**Number of conversations with Maya**: 1 chat
+- **Number of conversations with Maya**: 1 chat
 
 Because both Maya and Hailey have the same concurrent assignments, the least active assignment strategy considers the last capacity release time across both voice and messaging queues.
 
