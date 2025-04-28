@@ -92,7 +92,7 @@ When creating requirements in the following scenarios, consider the following in
 
 - For requirements that aren't part of a requirement group, only facility or facility pool resources can return in the schedule assistant if **Work Location** is set to **Facility**.
 - A resource can't be related to two facilities (child or association) at the same time.
-- There's currently no specific way to visualize every resource related to a facility on the schedule board. You can filter by organizational units. 
+- There's currently no specific way to visualize every resource related to a facility on the schedule board. You can filter by organizational units.
 - Manually scheduling a single requirement to a facility doesn't create records for all resources related to the facility.
 
 ### Scenario 1: Schedule a facility with five generic spaces
@@ -213,23 +213,23 @@ An auto repair shop wants to schedule specific bays at their facility to a pool 
 
 1. Create a requirement group for bays and mechanics.
  
-   - Setting **Part of Same** to **Resource Tree** ensures bays and mechanics are related to same facility resource through resource children or resource association.
+   - Setting **Part of Same** to **Resource Tree** ensures bays and mechanics are related to the same facility resource through resource children or resource association.
 
    - For each room requirement, set the resource type to facility.
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of requirement group calling for two rooms and a pediatrician that are all part of the same resource tree.](../../field-service/media/scheduling-facility-requirement-group-clinic-doctors.png)
 
-   The resource types you choose for the pediatrician doctor requirement affects schedule assistant results.
+   The resource types you choose for the mechanic requirement affects schedule assistant results.
 
-   **On the requirement, if Resource Type = Pool and Pool Type =  Users, Accounts, Contacts**, the mechanic pool resource shows in the results.
+   **On the requirement, if Resource Type = Pool and Pool Type =  Users**, **Accounts**, or **Contacts**, the mechanic pool resource shows in the results.
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of schedule assistant results utilizing pediatrician pool.](../../field-service/media/scheduling-facility-requirement-group-clinic-doctors-schedule-assistant-pool.png)
 
-   This allows you to book the pediatrician pool and assign a specific pediatric doctor at a later time. Whether pediatricians show as results depend on capacity (as derived from the number of doctors in the pool). Using the pool allows schedulers to book appointments based on capacity without having to assign a specific doctor at the time of scheduling.
+   This allows you to book the mechanics pool and assign a specific mechanic at a later time. Whether mechanics show as results depend on capacity (as derived from the number of mechanics in the pool). Using the pool allows schedulers to book appointments based on capacity without having to assign a specific mechanic at the time of scheduling.
 
-   **On the requirement, if Resource Type = Users, Accounts, Contacts, (Not Pools)**, specific doctor resources show in results, as seen in the following screenshot.
+   **On the requirement, if Resource Type = Users, Accounts, Contacts, (Not Pools)**, specific mechanic resources show in results, as seen in the following screenshot.
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of schedule assistant results with specific doctor resource as option into utilizing pediatrician pool.](../../field-service/media/scheduling-facility-requirement-group-clinic-doctors-schedule-assistant.png)
@@ -237,18 +237,18 @@ An auto repair shop wants to schedule specific bays at their facility to a pool 
    > [!Note]
    > Use fulfillment preferences to display schedule assistant results in neat hourly timeslots.
 
+## When to use "facility with capacity," "multiple facilities," and "facility pool"
 
-## Configuration considerations
+- **Facility with capacity**: Use this option when schedulers care most about not overbooking, and either don't need to schedule specific facilities or can handle coordination in person when customers arrive at the facility. Configure this option by adding a capacity to a single facility.
 
-### When to use "facility with capacity," "multiple facilities," and "facility pool"
+- **Multiple facilities**: Use this option when each facility needs to be scheduled individually. Configure this option by creating multiple facility resources and relating them to each other through an organizational unit.  
 
-- **Facility with capacity**: this option is configured by adding a capacity to a single facility. It's most useful when schedulers care most about not overbooking, and either don't need to schedule specific facilities or can handle coordination in person when customers arrive at the facility.
+- **Facility pool**: Use this option when schedulers want to:
+  - Utilize capacity scheduling by having the facility pool capacity increase and decrease as facilities are added or removed and
+  - Use local scheduling where bookings are first assigned to the facility pool and then later assigned to pool members
+  
+  For example: a hotel (facility pool) is first scheduled for a weekend and travelers are assigned specific rooms (facility pool members) at a later date when they arrive. Configure this option by creating a facility pool and adding facilities as pool members.
 
-- **Multiple facilities**: this option is configured by creating multiple facility resources and relating them to each other through an organizational unit. This option makes the most sense when each facility needs to be scheduled individually.  
-
-- **Facility pool**: this option is configured by creating a facility pool and adding facilities as pool members. This option makes the most sense when schedulers want to (1) utilize capacity scheduling by having the facility pool capacity increase and decrease as facilities are added or removed and (2) use local scheduling where bookings are first assigned to the facility pool and then later assigned to pool members. Example: a hotel (facility pool) is first scheduled for a weekend and travelers are assigned specific rooms (facility pool members) at a later date when they arrive. 
-
-- When upgrading from Field Service v7.x to v8.x, facility type resources may not appear in schedule assistant results due to default filter settings. To fix this, go to **Field Service** > **Schedule Board**. Double-click on a schedule board tab, and then **Open Default Settings** in the upper right. Scroll down to **Other Settings**. Set **Retreive Resources Query** to 3.0.0.0 as seen in the following screenshot. **Filter Layout** and **Resource Cell Template** should also be set to 3.0.0.0.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the relevant fields set to the 3.0.0.0 settings.](../../field-service/media/scheduling-schedule-board-tab-settings-resource-query.png)
 
