@@ -3,7 +3,7 @@ title: Create service reports
 description: Learn how to create service reports in the field with Dynamics 365 Field Service.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-ms.date: 01/30/2025
+ms.date: 04/30/2025
 author: JonBaker007
 ms.author: jobaker
 ---
@@ -18,7 +18,7 @@ The service report is available in the mobile app and web app. For a guided walk
 
 ## Prerequisites
 
-An admin as [enabled technicians to create service reports](create-service-report-admin.md).
+An admin has [installed and enabled the custom reporting control for service reports](/dynamics365/guidance/resources/fs-reporting-solution-service-reports).
 
 ## Generate reports in the mobile app
 
@@ -29,9 +29,6 @@ An admin as [enabled technicians to create service reports](create-service-repor
 1. Capture a signature if necessary and select **Confirm**.
 
 1. To save the report, select **More** > **Save to Timeline**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service mobile app reporting experience.](../media/mobile-2020-reporting-app.png)
 
 ## Generate reports in the web app
 
