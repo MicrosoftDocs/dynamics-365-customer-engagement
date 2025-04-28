@@ -1,7 +1,7 @@
 ---
 title: View AI suggested similar cases, knowledge articles
 description: How to use AI suggested cases and knowledge articles in Dynamics 365 Customer Service.
-ms.date: 04/25/2025
+ms.date: 11/28/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -34,7 +34,7 @@ The AI suggestions are displayed in smart assist, an intelligent assistant that 
 ## Prerequisites
 
 - AI-suggestions for similar cases and knowledge articles should be enabled. This feature is enabled out of the box.
-- Smart assist feature must be enabled by your administrator. More information: [Smart assist in Copilot Service Workspace](csw-productivity-pane.md#smart-assist)
+- Smart assist feature must be enabled by your administrator. More information: [Smart assist in Customer Service Workspace](csw-productivity-pane.md#smart-assist)
 - The Productivity tools user role must be assigned to you.
 
 ## Understand the knowledge article components in smart assist
@@ -84,13 +84,13 @@ If no cases match, then the card displays an appropriate message, such as "No su
 
 Perform the following steps to view the similar cases and related articles for the case you are working on. The actions that you can perform with the options available in the suggestions are determined by the role assigned to you.
 
-1. In Dynamics 365, select Copilot Service Workspace. The **Customer Service Representative Dashboard** page appears.
+1. In Dynamics 365, select Customer Service Workspace. The **Customer Service Agent Dashboard** page appears.
 
-   > ![Copilot Service Workspace Representative dashboard.](../media/csw-agent-dashboard.png "Copilot Service Workspace representative dashboard")
+   > ![Customer Service Workspace agent dashboard.](../media/csw-agent-dashboard.png "Customer Service Workspace agent dashboard")
 
 2. In the **My Active Cases** list, select shift+mouse click the case you want to work on. The case opens in a session tab, and the **Smart assist** pane appears on the right. The Smart assist pane lists the top three knowledge articles and five similar cases suggested by AI based on the case context.
 
-3. In the **Knowledge article suggestions** area, do any of the following:
+3. In the **Knowledge article suggestion** area, do any of the following:
    - Select an article title to go through and get relevant information. The selected knowledge article opens in a new application tab.
    - Select more commands to do the following:
        - **Copy Url:** Select to copy the knowledge article link to the clipboard. 
