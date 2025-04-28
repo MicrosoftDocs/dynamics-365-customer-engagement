@@ -1,7 +1,7 @@
 ---
 title: "Use sentiment prediction in unified routing | MicrosoftDocs"
 description: "Learn how to enable and use sentiment prediction in unified routing in Customer Service."
-ms.date: 02/04/2025
+ms.date: 04/28/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -11,6 +11,8 @@ ms.reviewer: nenellim
 # Use sentiment prediction-based model in work classification (preview)
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 Sentiment prediction for routing enables organizations to use the end customer sentiment scores as a factor in classifying work items to route to customer service representatives (service representatives or representatives).
 
@@ -36,7 +38,7 @@ The sentiment model is configured to look for and use the messages provided by t
 
 **To enable sentiment prediction**
 
-1. In the site map of Customer Service admin center, select **Routing**. The **Routing** page appears.
+1. In the site map of Copilot Service admin center, select **Routing**. The **Routing** page appears.
 
 2. Select **Manage** for **Sentiment prediction for routing**.
 
