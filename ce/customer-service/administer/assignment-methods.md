@@ -95,7 +95,7 @@ For example, three representatives, Lesa, Alicia, and Alan, are available with t
 
 ### Least active
 
-The system assigns a work item to the representative who is least active among all the representatives in voice and messaging queues who matches the required skills, presence, and capacity.
+The system assigns a work item to the representative who is least active among all the representatives in voice and messaging queues and who matches the required skills, presence, and capacity.
 
 The assignment method uses "the time since last capacity is released for a voice or messaging conversation" and the [**Block capacity for wrap-up**](create-workstreams.md#configure-work-distribution) setting configured in the workstream to determine the least-active representative and routes the next incoming call to them.
 
