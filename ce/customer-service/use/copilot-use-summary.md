@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 11/28/2024
+ms.date: 05/02/2025
 ms.custom: bap-template 
 ---
 
@@ -37,6 +37,18 @@ You can copy the summary, refresh it, and provide feedback.
 > - A case summary isn't generated if the descriptions added in the source case fields that Copilot uses are less than 38 words in English, without counting spaces.
 
 Alternatively, you can also generate a case summary from the **Ask a question** tab in the Copilot help pane. Learn more in [Summarize cases and ask about case data](/dynamics365/contact-center/use/use-ask-a-question#summarize-cases-and-ask-about-case-data).
+
+
+## View related record summaries
+
+In the case or custom record summary card, you can view the primary record summary at the top. This summary contains all standard information for the main case or record. Below the primary record summary, you can see a section with the related record summaries. Each related record is displayed using a configured header (such as the record ID or title) along with a detailed summary of its content.
+The application automatically displays the two most recent or most relevant related records first, based on the configured prioritization field.
+
+You can do the following:
+
+- Select **Show more related records** to view all related records to load two additional summaries at a time, repeating the process until all related records are displayed.
+- Select the record ID or header to open the full record in a new view.
+This functionality helps you access all relevant information efficiently, make better decisions, and provide stronger service without having to manually navigate across multiple records.
 
 
 ## Next steps
