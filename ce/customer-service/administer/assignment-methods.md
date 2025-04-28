@@ -103,7 +103,7 @@ Let's see how it works with the following examples.
 
 **Scenario 1**
 
-Oscar Ward and Victoria Burke are two customer support representatives with the same skills. Oscar works on the **Members Messaging** queue, while Victoria works on **Members Messaging** and **Returns Voice** queues.
+Oscar Ward and Victoria Burke are two service representatives with the same skills. Oscar works on the **Members Messaging** queue, while Victoria works on **Members Messaging** and **Returns Voice** queues.
 
 - **Number of conversations with Oscar**: 1 chat
 - **Number of conversations with Victoria**: 1 call and 1 chat
