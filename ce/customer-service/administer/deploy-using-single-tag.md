@@ -20,7 +20,7 @@ As your chat program grows, however, you may find it complicated to handle multi
 
 This feature is found in the Customer Service Admin Center, inside the Channels tab of the Customer support section, labeled as “Web Engagement”. Select “Manage” to get started.
 
-:::image type="content" source="../media/weo_location.png" alt-text="Screenshot of admin center Channels tab with Web Engagement highlighted":::
+![Screenshot of admin center Channels tab with Web Engagement highlighted](../media/weo_location.png)
 
 # Creating and managing rulesets
 
@@ -28,7 +28,7 @@ Web Engagement Orchestration is defined by a set of rules, which are collected i
 
 ## Creating a ruleset
 
-To add a new Ruleset simply click the New button: :::image type="content" source="../media/weo_new.png" alt-text="Button with label of new":::
+To add a new Ruleset simply click the New button: ![Button with new label](../media/weo_new.png)
 
 And then enter these values:
 
@@ -36,14 +36,14 @@ And then enter these values:
 -  **Description**: A short description to help you and your team remember the purpose of this ruleset. _Optional_.
 -  **Function Path**: When using Web Engagement Orchestration, we will retrieve any Custom Context values (learn more in [Manage context variables](manage-context-variables.md)) from the function you define here. This is an easier way to provide Context Variables than the event listener method described here: [Send custom context during live chat](../develop/send-context-starting-chat.md). Web Engagement Orchestration can then use those context variables for rule evaluation, and will pass them to Contact Center should the customer start a new conversation. _Optional_.
 
-:::image type="content" source="../media/weo_ruleset.png" alt-text="New ruleset entry form":::
+![New ruleset entry form](../media/weo_ruleset.png)
 
 ## Retrieving your script tag
 
 The primary benefit of Web Engagement Orchestration is allowing you to use a single script tag. You can retrieve this script tag by:
 
 - Selecting the row of a particular Ruleset
-- Selecting the “Copy Live Chat Widget Script” button from the top of the page :::image type="content" source="../media/weo_publish.png" alt-text="Button with publish label":::
+- Selecting the “Copy Live Chat Widget Script” button from the top of the page ![Button with publish label](../media/weo_publish.png)
 
 This places the script tag in your clipboard, which can then be used on your site. This script tag is unique per ruleset.
 
@@ -62,7 +62,7 @@ Selecting the underlined name of a Ruleset opens the Version page.
 
 ## Creating a version
 
-Select the New button: :::image type="content" source="../media/weo_new.png" alt-text="Button with label of new":::
+Select the New button: ![Button with new label](../media/weo_new.png)
 
 And choose these values:
 
@@ -70,7 +70,7 @@ And choose these values:
 -	**New Version Number**: A numerical ruleset number using the format “#.#”. We will automatically increment the source version number you chose, but you can change this, or edit it later.
 -	**Description**: Something to help you remember the purpose of this version. _Optional_.
 
-:::image type="content" source="../media/weo_new_version.png" alt-text="Screenshot of new version form":::
+![Screenshot of new version form](../media/weo_new_version.png)
 
 ## Publishing a version
 
@@ -97,7 +97,7 @@ These rules are the center of Web Engagement Orchestration, and how you configur
 
 ## Creating an Engagement Rule
 
-Select the New button to open the Rule Builder: :::image type="content" source="../media/weo_new.png" alt-text="Button with label of new":::
+Select the New button to open the Rule Builder: ![Button with new label](../media/weo_new.png)
 
 The Rule Builder is divided into two sections: **Conditions** and **Actions**. Conditions decide whether a rule should fire, and Actions dictate how to engage the customer. Once the customer is engaged, Web Engagement Orchestration will not evaluate any more rules even if more exist in the ruleset.
 
@@ -107,7 +107,7 @@ For your reference, specify a rule name and description. Description is optional
 
 ### Conditions
 
-Click the Add button to create new rows of conditions: :::image type="content" source="../media/weo_add.png" alt-text="Button with label of add":::
+Click the Add button to create new rows of conditions: [Button with add label](../media/weo_add.png)
 
 Multiple rows can be added, which can be grouped into logical blocks where each row or any row must evaluate as true. This can be done by selecting the “More commands” button at the end of the row, selecting “Group”, and then selecting the “And / Or” dropdown which appears above the new group.
 
