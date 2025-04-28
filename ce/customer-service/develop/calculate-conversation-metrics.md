@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 04/25/2025
+ms.date: 04/28/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -126,7 +126,7 @@ Total bot conversation = CALCULATE(DISTINCTCOUNTNOBLANK(FactSession[Conversation
 
 - **Bot escalated conversations**: Total number of bot conversations that were escalated to the service representative.
 
-## Direct service representative conversations (Incoming conversations)
+## Incoming conversations
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
@@ -173,8 +173,9 @@ Incoming conversations = ​SUMX ( FactConversation, IF ( NOT FactConversation[D
 ### Related metric
 
 - [Outgoing conversations](#direct-service-representative-conversations-outgoing-conversations): The total outbound conversations a representative initiated with a customer.
+- Direct service representative: Total number of conversations through any channel (voice or digital) that includes both open, active, and closed conversations for both, inbound and outbound traffic, directly from the representative without involving voice or agent.
 
-## Direct service representative conversations (Outgoing conversations)
+## Outgoing conversations
 
 *Applies to Omnichannel historical dashboards.*
 
@@ -215,12 +216,12 @@ The following DAX query and the corresponding Dataverse entities are used in the
 
 ```dax
 
-CALCULATE(TRUE(),FactConversation[IsOffered], FactConversation[IsAgentAccepted] = "1")
+IsEngaged = CALCULATE(TRUE(),FactConversation[IsOffered], FactConversation[IsAgentAccepted] = "1")
 
 ```
 |Element|Value  |
 |---------|---------|
-|Dataverse entities |- [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)​ <br> - msdyn_ocsession​ <br>- msdyn_ocsessionparticipantevent |
+|Dataverse entities |- [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)​ <br> - Systemuser​ <br>- msdyn_sessionparticipantevent |
 |Attributes |- systemuser.msdyn_botapplicationid <br> - msdyn_sessionparticipant.msdyn_joinedon <br> - msdyn_ocliveworkitem.msdyn_channel<br> - msdyn_ocliveworkitem.msdyn_channelinstanceid |
 |Filters  | - Filter the FactConversations table to​ exclude rows where msdyn_channel is equal to '192350000' and msdyn_channelinstanceid is NULL. <br>-  IsAgentInvolved is used if there's atleast one session with IsAgentSession set to true. <br>- IsAgentSession is set to true if systemuser.msdyn_botapplicationid isn't null.​ <br> - IsAgentAcceptedSession is set as follows:​ If systemuser.msdyn_botapplicationid is empty or NULL and msdyn_sessionparticipant.msdyn_joinedon isn't empty, then IsAgentAcceptedSession is 1.​ Otherwise, its 0.​ |
 
@@ -234,6 +235,7 @@ If an AI agent or IVR handles the customer before it escalates the request to a 
 
 If a conversation is assigned to service representative's queue directly, this metric is calculated as the number of incoming conversations that were abandoned. The conversation direction is *Incoming*. The channels that the conversation came in through are *Messaging* and *Voice*.
 
+### DAX query and Dataverse reference
 
 **DAX query**
 
@@ -283,7 +285,7 @@ SUMX (FactConversation, IF (NOT FactConversation[DirectionCode], FactConversatio
 
 ### Related metrics
 
-- **Average conversation first wait time**: This metric is calculated by dividing the total wait time for customers who are waiting in the queue by the total number of customers who were handled.
+- [Average conversation first wait time](#average-conversation-first-wait-time): This metric is calculated by dividing the total wait time for customers who are waiting in the queue by the total number of customers who were handled.
 - **Longest wait time**: This metric is a measure of the longest first wait time among unaccepted incoming conversations.
 - **Conversations in queue**: The number of conversations waiting for a service representative to be assigned or accept the conversation.
 
@@ -295,6 +297,7 @@ You can use [Session wait time](../use/session-metrics.md#session-wait-time) met
 
 This metric is calculated by dividing the total queue wait time by the number of handled conversations.
 
+### DAX query and Dataverse reference
 
 **DAX query**
 
@@ -311,7 +314,7 @@ Avg. conversation first wait time (sec) =​
 |---------|---------|
 |Dataverse entities | [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)|
 |Attributes |- msdyn_firstwaitstartedon​ <br> - msdyn_isagentaccepted ​<br> - msdyn_isoutbound|
-|Filters  |- msdyn_ocliveworkitem. isagentaccepted is 1. <br> - msdyn_ocliveworkitem.msdyn_isoutbound != 1 |
+|Filters  |- msdyn_ocliveworkitem.isagentaccepted is 1. <br> - msdyn_ocliveworkitem.msdyn_isoutbound != 1 |
 
 
 ## Average speed to answer
