@@ -548,6 +548,8 @@
       items:
       - name: Embed chat widget in your website or portal
         href: embed-chat-widget-portal.md
+      - name: Deploy chat widgets across websites using a single tag
+        href: deploy-using-single-tag.md
     - name: Channels
       items:
       - name: Set up SMS channels
