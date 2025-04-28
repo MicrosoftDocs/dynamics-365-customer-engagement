@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 02/13/2025
+ms.date: 05/02/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -47,7 +47,7 @@ In Customer Service admin center, perform the following steps to map your prefer
 1. Use one of the following navigation options:
     - **Agent Experience** > **Productivity** > **Summaries**
     - **Operations** > **Insights** > **Summaries**
-1. In **Summaries**, for **Case summaries**, select **Manage Data Attributes**. 
+1. In **Summaries**, for **Case summaries**, select **Manage data**. 
 1. Specify the required information on the **Edit summary information** pane and then select **Next**.
 1. The **Data Attributes** pane shows the attributes that Copilot uses to generate a summary.
 1. Complete the following steps.
@@ -63,6 +63,35 @@ In Customer Service admin center, perform the following steps to map your prefer
 1. Select **Save**.
  
    :::image type="content" source="../media/copilot-data-attributes-mini.png" alt-text="Screenshot of the data attributes that copilot uses" lightbox="../media/copilot-data-attributes.png":::
+
+## Manage summary format
+
+You can customize the format of case summaries using two formatting options: the existing paragraph format and the new structured format. These formatting options help your service representatives find important information quickly when working with customer cases.
+
+In Copilot Service admin center, perform the following steps to select your preferred format:
+
+1. Use one of the following navigation options:
+    - **Agent Experience** > **Productivity** > **Summaries**
+    - **Operations** > **Insights** > **Summaries**
+1. In **Summaries**, for **Case summaries**, select **Manage data**. 
+1. Select **Next** to reach the **Manage summary format** pane.
+1. Select the format you want to use for case summaries:
+   - **Paragraph**: It presents the summary in a single paragraph.
+   - **Structured**: This format presents the summary in a structured manner, with each field appearing in a separate line. This format is more readable and helps service representatives quickly find the information they need.
+1. When you select the **Structured** format, you can also specify up to five custom headers to organize summary information. By default, the headers are **Issue**, **Troubleshooting steps**, **Outcome**, **Error code**, and **Root cuase**. You can perform the following actions:
+
+ - Select **Edit** to modify the header title and the information to be summarized by Copilot.
+ - Select **Delete** to remove the header.
+ - Select the arrows to change the order in which the headers appear in the summary.
+ - Clear the checkbox to remove the header from the summary without deleting the header.
+ - Select **Add new info** to add a new header. 
+ - Select **Reset to default info** to restore the default headers.
+
+1. Turn on the **Remove information from the summary that can't be found** toggle to exclude information that isn't available in the record. This option prevents placeholder text or empty sections from appearing in your summaries when the corresponding data is missing.
+
+
+
+   :::image type="content" source="../media/format-case-summary.png" alt-text="Screenshot of Copilot case summary.":::
 
 ### Related information
 
