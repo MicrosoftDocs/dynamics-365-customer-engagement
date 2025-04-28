@@ -17,11 +17,10 @@ ms.custom: bap-template
 
 Copilot case summaries help you quickly understand the context of a case and resolve customer issues more efficiently. The case summary includes key information such as the case title, customer, subject, product, priority, case type, and description.
 
-
 ## Prerequisites
 
 - Your administrator has enabled the [Copilot case summary](/dynamics365/contact-center/administer/copilot-enable-summary) feature.
-- Your administrator has enabled the [Related record summary](copilot-related-record-summary.md) feature.
+- Your administrator has enabled the [Related record summary](../administer/copilot-related-record-summary.md) feature.
 
 ## View case summary
 
