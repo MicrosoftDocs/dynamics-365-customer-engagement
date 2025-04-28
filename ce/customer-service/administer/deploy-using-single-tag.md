@@ -1,5 +1,5 @@
 ---
-title: Deploy chat widgets across portals using a single tag
+title: Deploy chat widgets across websites using a single tag
 description: Simplify web deployment by using a single script tag which launches different chat experiences through Web Engagement Orchestration
 ms.date: 04/28/2025
 author: garmuldoon
@@ -10,7 +10,7 @@ ms.collection:
 ms.custom:
 ---
 
-# Deploy chat widgets across portals using a single tag
+# Deploy chat widgets across websites using a single tag
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
