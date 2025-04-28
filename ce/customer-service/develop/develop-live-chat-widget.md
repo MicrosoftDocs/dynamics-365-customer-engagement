@@ -54,6 +54,10 @@ An example screenshot of a chat widget 2.0 that's customized to increase its siz
 
 Watch the [walkthrough video](https://www.youtube.com/watch?v=Mzw96Zz_epI) of the live chat widget set up.
 
+### Use Web Engagement Orchestration to customize
+
+Web Engagement Orchestation enables you to move your configuration overrides out of your page's JavaScript and into the Admin Center. Learn more in [Deploy chat widgets across websites using a single tag](../administer/deploy-using-single-tag.md).
+
 ## Develop your own widget
 
 Use the information in the following sections to build your own widget.
