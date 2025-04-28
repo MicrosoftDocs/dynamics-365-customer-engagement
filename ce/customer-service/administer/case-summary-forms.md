@@ -106,7 +106,7 @@ Go to **Customer Service admin center** > **Productivity** > **Summaries** page 
 
 Specifies which forms should use a particular summary configuration. This allows forms to display different summary configurations. You can specify form IDs separated by commas to apply a specific configuration to those forms.
 
-Go to **Customer Service admin center** > **Productivity** > **Summaries**  page and then run the following script in the Console tab of developer tools to add a form to the applicable list of a record.
+Go to **Copilot Service admin center** > **Productivity** > **Summaries**  page and then run the following script in the Console tab of developer tools to add a form to the applicable list of a record.
 
 
 ```
