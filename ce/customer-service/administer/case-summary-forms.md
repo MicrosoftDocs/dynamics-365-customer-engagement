@@ -56,7 +56,7 @@ Determines which summary record is used as the default configuration for case an
 - If the setting is set to **True** for a record, the record is used as the default configuration for all forms linked to that entity. 
 - If you set the values of all the records to **False** summary isn't displayed on the related forms for the corresponding entity.
 
-Go to **Customer Service admin center** > **Productivity** > **Summaries** page and then run the following script in the Console tab of developer tools to set a record as default configuration.
+Go to **Copilot Service admin center** > **Productivity** > **Summaries** page and then run the following script in the Console tab of developer tools to set a record as default configuration.
 
 ```
        Xrm.WebApi.updateRecord("msdyn_copilotsummarizationsetting", "33dd33dd-ee44-ff55-aa66-77bb77bb77bb", {"msdyn_isdefaultconfig": true}).then(
