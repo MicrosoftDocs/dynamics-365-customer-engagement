@@ -116,14 +116,15 @@ Because Oscar has fewer concurrent conversations than Victoria, the new chat is 
 
 Maya and Hailey are two customer support representatives with the same skills. Maya works on the **Orders Messaging** queue, while Hailey works on **Orders Messaging** and **Delivery Voice** queues. 
 
-Let's assume that Hailey is working on a call and chat at the same time while Maya is engaged in a chat conversation.
+Let's assume that Hailey is working on a call and chat at the same time while Maya is engaged in two chat conversations.
 
-Hailey completes the chat at 2:00 PM. A new chat conversation arrives at 2:05 PM.
+Maya completes one of the chats at 1:55 PM, and Hailey completes the chat at 2:00 PM. A new chat conversation arrives at 2:05 PM.
 
 - **Number of conversations with Hailey**: 1 call
 -	**Number of conversations with Maya**: 1 chat
 
 Because both Maya and Hailey have the same concurrent assignments, the least active assignment strategy considers the last capacity release time across both voice and messaging queues.
+
 Maya is determined to be least active compared to Hailey and therefore, the new chat is assigned to Maya.
 
 Routing to the least-active representative assignment strategy helps in a balanced distribution of work items across representatives, and results in higher representative efficiency and improved customer satisfaction.

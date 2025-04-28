@@ -98,7 +98,10 @@ The feature is available for the voice and messaging channels only.
 
 ### Does the sign-in time affect the calculation of the least active representative? 
 
-The representative's "last capacity release time for voice and messaging queues" is the only parameter used by the least-active assignment method and their sign-in times don't affect the capacity release time. 
+The representative's "last capacity release time for voice and messaging queues" is the only parameter used by the least-active assignment method and the representative's sign-in times don't affect the capacity release time.
+
+> [!NOTE]
+> In asynchronous messaging channels, when the active conversation moves into the waiting state, the representative's capacity is released. This transition also updates the representative's "last capacity release time."
 
 ### How is a tie-breaker scenario resolved if two or more representatives have the same capacity release time?
 
