@@ -1,7 +1,7 @@
 ---
 title: Automatically create or update records in Dynamics 365 Customer Service
 description: Learn how to automatically create or update records by setting up rules in Dynamics 365 Customer Service.
-ms.date: 09/13/2024
+ms.date: 04/22/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -64,7 +64,7 @@ Make sure that the following prerequisites are met:
 
 You can configure a rule that when active will be run for incoming emails. By using the feature to create rules, you can define the conditions for when a rule can be run.
 
-You can configure the rules in the Customer Service admin center app.
+You can configure the rules in the Copilot Service admin center app.
 
  
 1. In the site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
