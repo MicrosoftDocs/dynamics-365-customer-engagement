@@ -43,6 +43,9 @@ Do the following steps to embed the chat widget in a website or Power Apps porta
 
 If you don't see your chat widget in the portal, see [Troubleshoot issues in Omnichannel for Customer Service](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/chat-widget-not-loading-portal).
 
+## Embed single script for multiple chat widgets and workstreams
+
+[Deploy chat widgets across websites using a single tag](deploy-using-single-tag.md)  
 
 ## Embed chat widget in mobile experiences
 
@@ -78,6 +81,7 @@ After you configure the chat widget, it has the following capabilities:
 
 [Supported browsers for live chat widget](../implement/system-requirements-omnichannel.md#browsers-for-chat)  
 [Add a chat widget](add-chat-widget.md)  
+[Deploy chat widgets across websites using a single tag](deploy-using-single-tag.md)  
 [Configure a pre-conversation survey](configure-pre-chat-survey.md)  
 [Configure agent display name](agent-display-name.md)  
 [Configure file attachment capability](configure-file-attachment.md)  
