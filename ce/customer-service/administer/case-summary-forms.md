@@ -42,7 +42,7 @@ To avoid duplication of summaries on the form or to further customize the summar
 Use multiple settings in the **msdyn_copilotsummarizationsetting** table to customize the display of summaries on the forms as follows:
 
   - configure summaries to appear only on specific forms
-  - specify which summary records must be used on which forms
+  - specify the combination of summary records and forms that must be used.
   -  specify which configuration should be used as the default. 
 
  The following parameters are available.
