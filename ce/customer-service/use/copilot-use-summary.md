@@ -20,7 +20,8 @@ Copilot case summaries help you quickly understand the context of a case and res
 
 ## Prerequisites
 
-Your administrator has enabled the [Copilot case summary](/dynamics365/contact-center/administer/copilot-enable-summary) feature.
+- Your administrator has enabled the [Copilot case summary](/dynamics365/contact-center/administer/copilot-enable-summary) feature.
+- Your administrator has enabled the [Related record summary](copilot-related-record-summary.md) feature.
 
 ## View case summary
 
@@ -41,14 +42,15 @@ Alternatively, you can also generate a case summary from the **Ask a question** 
 
 ## View related record summaries
 
-In the case or custom record summary card, you can view the primary record summary at the top. This summary contains all standard information for the main case or record. Below the primary record summary, you can see a section with the related record summaries. Each related record is displayed using a configured header (such as the record ID or title) along with a detailed summary of its content.
-The application automatically displays the two most recent or most relevant related records first, based on the configured prioritization field.
+If your administrator has enabled the related record summary, then the case summary card or custom record summary card, displays the related record summaries along with the primary record summary at the top. 
 
 You can do the following:
 
+- View the related record summary, with the corresponding header such as record ID or title.
 - Select **Show more related records** to view all related records to load two additional summaries at a time, repeating the process until all related records are displayed.
 - Select the record ID or header to open the full record in a new view.
-This functionality helps you access all relevant information efficiently, make better decisions, and provide stronger service without having to manually navigate across multiple records.
+
+:::image type="content" source="../media/related-cases-summary.png" alt-text="Screenshot of a Copilot case summary.":::
 
 
 ## Next steps
