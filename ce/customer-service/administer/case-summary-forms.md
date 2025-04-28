@@ -1,12 +1,12 @@
 ---
 title: Understand auto-enabled Copilot summaries
-description: Learn how to enable summarization of cases and conversations using Copilot in Customer Service.
+description: Learn how to auto-enabled Copilot summaries work for case and custom record forms.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 02/19/2025
+ms.date: 04/28/2025
 ms.custom: bap-template 
 ---
 
@@ -16,16 +16,14 @@ Case and custom record summaries help users quickly understand the context of a 
 
 ## Auto-enabled case summary
 
-Case summary is automatically enabled across all out-of-the-box case forms and custom case forms. You don't have to manually enable the case summaries feature in **Productivity** > **Summaries** page of Copilot Service admin center.
-
-Based on the case form type, the case summary appears in different locations of the page:
+Case summary is automatically enabled across all out-of-the-box case forms and custom case forms. Based on the case form type, the case summary appears in different locations of the page:
 
 -  Case summaries appear at top of case forms, except for the following four out-of-the-box forms: **Case for Interactive experience**, **Enhanced full case form**, **Case**, and **Case for Multisession experience** forms.
     - If case summary is already [enabled for custom case forms in your model-driven app](/dynamics365/customer-service/administer/copilot-powerapps-settings), users can see two summary cards on the form. 
-    - If case summary isn't enabled, case summary feature is enabled automatically and users see the case summary on the top of the form.
+    - If case summary isn't enabled in **Productivity** > **Summaries** page of Copilot Service admin center, the case summary feature is enabled automatically and users see the case summary at the top of the form.
 - Case summaries displayed within the case form for **Case for Interactive experience**, **Enhanced full case form**, **Case**, and **Case for Multisession experience** users can see the case summary within the case form. 
    - If the case summary is already enabled for these forms, users continue seeing the case summary within the form.
-   - If the case summary isn't enabled, the case summary feature is enabled automatically and users see the case summary within the form.
+   - If the case summary isn't enabled in **Productivity** > **Summaries** page of Copilot Service admin center, the case summary feature is enabled automatically and users see the case summary within the form.
 
 To avoid duplication of summaries on the form or to further customize the summary, perform the steps in [Manage summarization settings](#manage-summarization-settings) section.
 
@@ -128,7 +126,7 @@ Go to **Copilot Service admin center** > **Productivity** > **Summaries**  page 
 
 This setting allows you to completely disable a configuration. If this setting is set to **True**, the record's configuration isn't displayed on any form, regardless of the applicable forms list or exclude forms list. This setting is useful for temporarily disabling a configuration without deleting it.
 
-Go to **Customer Service admin center** > **Productivity** > **Summaries**  page and then run the following script in the Console tab of developer tools to disable the summary for a record.
+Go to **Copilot Service admin center** > **Productivity** > **Summaries**  page and then run the following script in the Console tab of developer tools to disable the summary for a record.
 
 ```
 Xrm.WebApi.updateRecord("msdyn_copilotsummarizationsetting", "33dd33dd-ee44-ff55-aa66-77bb77bb77bb", {"msdyn_disabledforplatformsummary": true}).then(
