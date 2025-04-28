@@ -172,8 +172,8 @@ Incoming conversations = ​SUMX ( FactConversation, IF ( NOT FactConversation[D
 
 ### Related metric
 
-- [Outgoing conversations](#direct-service-representative-conversations-outgoing-conversations): The total outbound conversations a representative initiated with a customer.
-- Direct service representative: Total number of conversations through any channel (voice or digital) that includes both open, active, and closed conversations for both, inbound and outbound traffic, directly from the representative without involving voice or agent.
+- [Outgoing conversations](#outgoing-conversations) : The total outbound conversations a representative initiated with a customer.
+- **Direct service representative**: Total number of conversations through any channel (voice or digital) that includes both open, active, and closed conversations for both, inbound and outbound traffic, directly from the representative without involving voice or agent.
 
 ## Outgoing conversations
 
@@ -200,7 +200,8 @@ Outgoing conversations = ​CALCULATE (​DISTINCTCOUNTNOBLANK ( FactConversatio
 
 ### Related metric
 
-- **Incoming conversations**: The total inbound conversations, including direct-to-representative and bot escalations. 
+- **Incoming conversations**: The total inbound conversations, including direct-to-representative and bot escalations.
+- **Direct service representative**: Total number of conversations through any channel (voice or digital) that includes both open, active, and closed conversations for both, inbound and outbound traffic, directly from the representative without involving voice or agent.
 
 ## Engaged conversations
 
