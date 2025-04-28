@@ -114,7 +114,7 @@ Because Oscar has fewer concurrent conversations than Victoria, the new chat is 
 
 **Scenario 2**
 
-Maya and Hailey are two customer support representatives with the same skills. Maya works on the **Orders Messaging** queue, while Hailey works on **Orders Messaging** and **Delivery Voice** queues. 
+Maya and Hailey are two service representatives with the same skills. Maya works on the **Orders Messaging** queue, while Hailey works on **Orders Messaging** and **Delivery Voice** queues. 
 
 Let's assume that Hailey is working on a call and chat at the same time while Maya is engaged in two chat conversations.
 
