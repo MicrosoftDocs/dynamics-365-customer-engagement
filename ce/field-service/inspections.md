@@ -1,7 +1,7 @@
 ---
 title: Add inspections to work orders
 description: Learn how to use inspections in Dynamics 365 Field Service.
-ms.date: 04/21/2025
+ms.date: 04/28/2025
 ms.topic: how-to
 author: josephshum-msft
 ms.author: jshum
@@ -73,7 +73,7 @@ Create an inspection that can be reused and added to multiple work orders. We do
 
 Add a question to the inspection by double-clicking or dragging a question type from the right side.
 
-- **Textbox**: Allows technicians to enter text from their keyboard in a free form response. There's an option in the advanced panel to make the text box bigger to allow for multiline responses. In early access opt-in release, a text box can be input with a default value and can also be made as read-only.
+- **Textbox**: Allows technicians to enter text from their keyboard in a free form response. There's an option in the advanced panel to make the text box bigger to allow for multiline responses. A text box can be input with a default value and can also be made as read-only.
 
 - **Checkbox**, **Radiogroup**, **Dropdown**: Allows technicians to choose an answer from predefined options. The question types **Checkbox**, **Radiogroup**, and **Dropdown** are similar. The **Checkbox** question type is multi-select, whereas **Radiogroup** and **Dropdown** allow for a single answer. The difference between **Radiogroup** and **Dropdown** is cosmetic so choose based on the desired user experience.
 
