@@ -82,7 +82,7 @@ Exclude specific forms from displaying summaries. You can specify the form id of
 - If you've already added the [Copilot case summary](../administer/copilot-powerapps-settings.md#display-copilot-case-summary-on-custom-case-forms) or [custom record summary](../administer/copilot-enable-custom-record-summaries.md#configure-the-summary-control-on-entity-forms) control to the related forms, users might see duplicates. To avoid this perform one of the following steps:
 
   -  To show summaries only at the top: Remove the custom summarization control from the form in Power Apps.
-  -  To show summaries only within the form: Add the form to the exclude list using the script below
+  -  To show summaries only within the form: Add the form to the exclude list using the following script.
 
 
 Go to **Copilot Service admin center** > **Productivity** > **Summaries** page and then run the following script in the Console tab of developer tools to add forms to an exclude list.
