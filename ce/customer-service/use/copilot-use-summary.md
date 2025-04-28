@@ -26,9 +26,19 @@ Copilot case summaries help you quickly understand the context of a case and res
 
 In Customer Service workspace, navigate to a case to view the case summary card.
 
-The case summary appears as a card on the case form. When you open a case, the case summary card is collapsed by default so that your screen isn't cluttered with information. Select the card to expand the summary. The summary card you see on your case form is based on the case form you are using. Learn more in [Use Copilot case summary in model-driven apps](/power-apps/user/copilot-case-summary).
+The case summary appears as a card on the case form. When you open a case, the case summary card is collapsed by default so that your screen isn't cluttered with information. Select the card to expand the summary. The placement of the summary card you see is based on the case form you are using. Learn more in [Use Copilot case summary in model-driven apps](/power-apps/user/copilot-case-summary). Based on the administrator's configuration, the case summary is displayed in a paragraph format or as a structured format.
 
-:::image type="content" source="../media/copilot-case-summary.png" alt-text="Screenshot of a Copilot case summary.":::
+### [Paragraph format](#tab/paragraphformat)
+
+:::image type="content" source="../media/copilot-case-summary.png" alt-text="Screenshot of a paragraph Copilot case summary.":::
+
+### [Structured format](#tab/summaryformat)
+
+
+
+:::image type="content" source="../media/case-summary-structured.png" alt-text="Screenshot of a paragraph Copilot case summary.":::
+
+---
 
 You can copy the summary, refresh it, and provide feedback.
 
