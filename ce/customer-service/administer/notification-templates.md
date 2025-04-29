@@ -198,7 +198,7 @@ As an administrator, you can edit the value of a notification field header in th
 
 ### Customize a notification
 
-Let's see a scenario: In the Contoso Pvt Ltd Copilot Service center, every case notification that is shown to a representative needs to have the following:
+Let's see a scenario: In the Contoso Pvt Ltd customer service center, every case notification that is shown to a representative needs to have the following:
 
 **Title of the notification**: A new case is assigned.
 
