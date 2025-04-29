@@ -1,7 +1,7 @@
 ---
 title: Delete a configured channel or page to stop receiving messages
 description: Deactivate or delete a channel to turn off and stop receiving messages on the channel in Omnichannel for Customer Service.
-ms.date: 06/14/2024
+ms.date: 04/29/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -16,7 +16,7 @@ You can delete an instance of a configured channel or SMS number in scenarios su
 
 ## Delete a configured channel
 
-You can delete a channel instance in the Customer Service admin center or Contact Center admin center app.
+You can delete a channel instance in the Copilot Service admin center app.
 
 1. Select a messaging channel such as Facebook.
 
@@ -30,7 +30,7 @@ If you want to reconfigure your social channel or SMS number in the application,
 
 If you no longer want to receive messages on a Facebook page that you've configured for your Facebook channel in the application, you can go to the page and delete it.
 
-1. In the Customer Service admin center site map, select **Channels** in **Customer Support**.
+1. In the Copilot Service admin center site map, select **Channels** in **Customer Support**.
 
 1. Go to **Accounts** > **Messaging accounts** > **Manage**.
 1. From the **Accounts and channels** page, select the channel that you want to delete.
