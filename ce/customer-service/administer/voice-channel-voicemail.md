@@ -16,7 +16,7 @@ ms.custom:
 
 # Configure voicemail to manage inbound calls
 
-[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
