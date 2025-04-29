@@ -22,7 +22,7 @@ Presence is an indication of your customer service representatives' (service rep
 The prerequisites for presence status to load correctly are as follows:
 
 - The omnichannel provider URL is correct. Check using the [agent diagnostics tool](use-agent-diagnostics.md) in Copilot Service workspace.
-- The representative is assigned the [Omnichannel representative or Omnichannel supervisor role](../implement/add-users-assign-roles.md). If custom roles are used, the representative or supervisor [persona mapping](../administer/role-persona-mapping.md) must be configured.
+- The representative is assigned the [Omnichannel agent or Omnichannel supervisor role](../implement/add-users-assign-roles.md). If custom roles are used, the representative or supervisor [persona mapping](../administer/role-persona-mapping.md) must be configured.
 - The representative is assigned an [experience profile](../administer/add-profile-default.md).
 - The [**All active channels**](../administer/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels) setting is enabled in the experience profile.
 - [Omnichannel for Customer Service is provisioned](/dynamics365/contact-center/implement/provision-channels#set-up-channels) or [Unified routing is enabled](../administer/provision-unified-routing.md).
