@@ -80,7 +80,7 @@ The script is now configured.
 
 ## Associate a script with a session template
 
-After you configure the script and add the field to a form, you need to associate the script with a session template so that the script will load for representatives based on the type of session they've opened.
+After you configure the script and add the field to a form, you need to associate the script with a session template so that the script loads for representatives based on the type of session they've opened.
 
 1. In the site map of the admin app, select **Session templates** in **Workspaces**.
 
