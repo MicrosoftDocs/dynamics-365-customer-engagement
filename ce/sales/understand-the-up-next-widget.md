@@ -1,7 +1,7 @@
 ---
 title: Understand the up next widget on records
 description: Understand on how to use the up next widget to do activities on your records through sales accelerator.
-ms.date: 02/02/2024
+ms.date: 04/25/2025
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -17,15 +17,14 @@ The **Up next** widget displays activities that you can view and perform actions
 
 Using the **Up next** widget, you can view and perform actions on activities on a record. The widget displays the current activity, upcoming activity, and completed activities. You can add these activities to a record manually or by using a sequence:
 
-- When a sequence is connected to a record, the steps are displayed to the owner of the record. If a team is the owwner of the record, the steps are displayed to all the users in that team. 
+- When a sequence is connected to a record, the steps are displayed to the owner of the record. If a team is the owner of the record, the steps are displayed to all the users in that team. 
 - When you have access to a record, you can create manual activities. These activities are displayed in the **Up next** widget as a current, upcoming, or completed activity, depending on their due dates. These activities are available to both you and the owner of the record.  
 
 To do actions on activities, see [Connect with customers by using a record or the Up next widget](connect-with-customers.md).
 
 The following image shows an example of the **Up next** widget.    
 
-> [!div class="mx-imgBorder"]
-> ![Up next widget.](media/sa-up-next-widget.png "Up next widget")    
+:::image type="content" source="media/sa-up-next-widget.png" alt-text="Screenshot of the Up next widget displaying current, upcoming, and completed activities.":::    
 
 1. **Current activity**: The current activity is a task that you must complete or skip to go to the next activity, which moves the record closer to completion. To perform an action such as making a phone call or sending an email, select the action icon displayed in the activity. More information: [Connect with customers by using a record or the Up next widget](connect-with-customers.md).   
 
@@ -41,8 +40,7 @@ The following image shows an example of the **Up next** widget.
 
      To view the completed activities list, select **Show completed**. The section expands to display the list of completed activities with details such as whether the activity was completed (with date and time) or was it skipped. You can't perform any actions on these tasks; they're view-only. The following image is an example of an expanded section of completed items.
 
-     > [!div class="mx-imgBorder"]
-     > ![View completed activities.](media/sa-view-completed-activities.png "View completed activities")   
+     :::image type="content" source="media/sa-view-completed-activities.png" alt-text="Screenshot of the completed activities section in the Up next widget.":::   
 
 ## Activity ownership  
 
