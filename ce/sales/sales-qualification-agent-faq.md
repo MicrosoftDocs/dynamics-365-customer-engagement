@@ -1,8 +1,8 @@
 ---
-title: FAQs about Sales qualification agent
-description: Find answers to frequently asked questions about the Sales qualification agent in Dynamics 365 Sales, which helps sellers qualify leads and improve sales outcomes.
+title: Sales Qualification Agent FAQ
+description: Find answers to frequently asked questions about the Sales Qualification Agent in Dynamics 365 Sales, which helps sellers qualify leads and improve sales outcomes.
 ms.date: 02/19/2025
-ms.topic: conceptual
+ms.topic: faq
 ms.service: dynamics-365-sales
 content_well_notification:
   - AI-contribution
@@ -20,58 +20,61 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# FAQs about Sales qualification agent
+# Sales Qualification Agent FAQ
 
-This FAQ provides answers to common questions about the Sales qualification agent in Dynamics 365 Sales.
+This FAQ provides answers to common questions about the Sales Qualification Agent in Dynamics 365 Sales.
 
 <a name="icp"></a>
-## What is ideal customer profile?
+## What is the ideal customer profile?
 
-An ideal customer profile (ICP) is a detailed description of a target customer who would benefit the most from your company's products or services. Your ideal customer profile (ICP) might include characteristics like product type, industry, company size, and location. For instance, if your company sells advanced CRM software, your ICP might include:
+The *ideal customer profile* is a detailed description of a customer who would benefit the most from your company's products or services. Your ideal customer profile might include characteristics like product type, industry, company size, and location.
+
+For instance, if your company sells advanced customer relationship management software, your ideal customer profile might include the following attributes:
 
 - **Industry**: Technology, Financial Services, Healthcare
 
-- **Company Size**: Mid to large-sized enterprises with 500+ employees
+- **Company Size**: Mid- to large-sized enterprises with 500+ employees
 
 - **Geographic Location**: North America, Europe
 
 - **Pain Points**: Need for improved customer relationship management, desire to streamline sales processes, requirement for robust data analytics
 
-- **Decision Makers**: Chief Information Officer (CIO), Chief Technology Officer (CTO), Head of Sales
+- **Decision Makers**: Chief Information Officer, Chief Technology Officer, Head of Sales
 
-By focusing on leads that match this profile, you can tailor your approach to address specific needs and challenges, and increase the likelihood of a successful sale.
+By focusing on leads that match this profile, you can tailor your approach to address their specific needs and challenges and increase the likelihood of a successful sale.
 
 ## Why don't I see the insights banner in the lead form?
 
-The insights banner appears only for leads that are researched by the agent. Learn more about the [Selection criteria for research](use-sales-qualification-agent.md#selectioncriteria).
+The insights banner appears only for leads that the agent researched. Learn more in [Selection criteria for research](use-sales-qualification-agent.md#selection-criteria-for-research).
 
 ## Why did the agent pause?
 
 The agent might pause for the following reasons:
 
-- One or more consents required for the agent are revoked by your admin.
-- There's no capacity available for the agent to process leads. Contact your admin to check the capacity and resolve the issue.
+- An admin revoked one or more consents the agent needs to run.
+- No capacity is available for the agent to process leads. Ask your admin to check the capacity and resolve the issue.
 
 ## Can I trigger the agent to process leads manually?
 
-No, the agent processes leads automatically when any of the following events occur:
+No. The agent processes leads automatically when any of the following events occur:
 
-  - Lead's account is linked/updated
-  - Lead's company name is updated
-  - Lead's contact is linked/updated
-  - New lead is created
+- The lead's account is linked or updated.
+- The lead's company name is updated.
+- The lead's contact information is linked or updated.
+- A lead is created.
 
-In addition, the agent refreshes the research data of the existing leads at the configured timeframe. Learn more about refresh schedule in [Adjust the frequency of research data refresh](configure-sales-qualification-agent.md#adjust-the-frequency-of-research-data-refresh). You can view the timestamp of the last refresh in the **Lead insights** page.
+The agent refreshes the research data of existing leads on a schedule that your admin sets. Learn more in [Set up and activate the agent](configure-sales-qualification-agent.md#set-up-and-activate-the-agent). The timestamp on the **Lead insights** page shows the last refresh date.
 
 ## What activities consume Copilot Studio capacity?
 
-The Sales qualification agent uses Copilot Studio capacity for research, ideal customer profile (ICP) matching, and initial outreach email generation. Viewing insights that have already been generated does not consume additional capacity.
+The Sales Qualification Agent uses Copilot Studio capacity for research, matching the ideal customer profile, and generating the initial outreach email.
+
+Viewing insights that have been generated doesn't consume capacity.
 
 <a name="cant-see-email-options"></a>
 ## Why don't I see the **Review email** or **Draft email** option?
 
-The **Review email** option appears in the banner and the **Draft email** option appears in the **Lead insights** page. Both these options open the email draft pre-generated by the agent. The email options are available only if the following conditions are met:
+The **Review email** option appears in the banner, and the **Draft email** option appears on the **Lead insights** page, only if the following conditions are met:
 
-- Server-side synchronization is enabled for your organization.
+- Your organization is using server-side synchronization. Ask your admin if you're not sure.
 - The lead's email address is available.
-
