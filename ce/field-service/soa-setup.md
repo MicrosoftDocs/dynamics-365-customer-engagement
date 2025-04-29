@@ -1,6 +1,6 @@
 ---
 title: Set up the Scheduling Operations Agent (preview)
-description: Learn how to set up the Scheduling Operations Agent in Dynamics 365 Field Service for your users.
+description: Learn how to set up the Scheduling Operations Agent in Dynamics 365 Field Service for your dispatchers.
 ms.date: 03/26/2025
 ms.topic: how-to
 ms.author: anilmur
@@ -11,110 +11,101 @@ author: anilmur
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-The Scheduling Operations Agent is an autonomous agent for Dynamics 365 Field Service. Before a dispatcher can use the new agent capabilities, an administrator must ensure the environment is up-to-date, billing settings are set up, and feature settings are configured.
+The Scheduling Operations Agent is an autonomous agent for Dynamics 365 Field Service that considers existing bookings and requirements when a dispatcher adjusts a technician's schedule. Before dispatchers can use the agent, an administrator must set it up in your environment.
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
 ## Prerequisites
 
-- Your environment is updated to Field Service version 8.8.133.214 or newer, and Universal Resource Scheduling version 3.12.149.15 or newer.
-- [Location and map settings are enabled](field-service-maps-address-locations.md) for your environment.
+- Your environment is updated to Field Service version 8.8.133.214 or newer and Universal Resource Scheduling version 3.12.149.15 or newer.
+- [Location and map settings](field-service-maps-address-locations.md) are turned on for your environment.
+- You have an administrator role in the Dynamics 365 Field Service app.
 
-## Consumption-based billing model
+## Set up the billing model
 
-Scheduling Operations Agent and other Copilot and agent capabilities in Dynamics 365 use consumption-based billing, charging per use. These capabilities use Microsoft Copilot Studio messages for AI interactions and tasks, like retrieving information and responding to prompts. Messages are the billing units that measure usage. The number of messages per event depends on its complexity. Learn more about messages in [Message scenarios](/microsoft-copilot-studio/requirements-messages-management#message-scenarios).  
+Scheduling Operations Agent and other Copilot and agent capabilities in Dynamics 365 use Microsoft Copilot Studio messages for AI interactions and tasks like retrieving information and responding to prompts. The number of messages per event depends on the event's complexity. Learn more in [Message scenarios](/microsoft-copilot-studio/requirements-messages-management#message-scenarios).  
 
-Learn more about billing and rates in [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130).
+These capabilities use consumption-based billing, charging per use, and messages are the billing units that measure usage. Learn more about billing and rates in [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130).
 
-### Set up billing model
+Dynamics 365 supports two billing models: prepaid capacity and pay-as-you-go. The prepaid capacity model uses Copilot Studio message pack subscriptions, which are a licensing option for Microsoft Copilot Studio that you purchase in advance. The pay-as-you-go model charges for the actual number of messages that agents consume during the month. Learn more in [Copilot licensing](/microsoft-copilot-studio/billing-licensing).
 
-Dynamics 365 supports two billing models: prepaid capacity and pay-as-you-go. The prepaid capacity model uses Copilot Studio message pack subscriptions, which are a licensing option for Microsoft Copilot Studio that you purchase in advance. The pay-as-you-go model charges for the actual number of messages consumed by agents during the month. Learn more in [Copilot licensing](/microsoft-copilot-studio/billing-licensing).
+You can use both billing models in the same environment. Prepaid capacity is consumed first. Both models require that you link your Dynamics 365 environment to a Power Platform environment.
 
-Both models require that you link your Dynamics 365 environment to a Power Platform environment.
+### Set up prepaid capacity billing
 
-> [!NOTE]
-> Both billing models can be used on the Dynamics 365 environment. Prepaid capacity is consumed first.
+1. In the Microsoft 365 admin center, purchase a Copilot message pack subscription. Learn more in [Manage self-service purchases and trials (for users)](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-users) or [Manage self-service purchases and trials (for admins)](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins).
 
-#### Set up prepaid capacity
+1. In the Power Platform admin center, assign prepaid capacity to the Power Platform environment. Learn more in [Manage capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new#manage-capacity).
 
-Complete these tasks to set up the Dynamics 365 environment for prepaid capacity.
+### Set up pay-as-you-go billing
 
-1. Purchase a Copilot message pack subscription using the Microsoft 365 admin center.
-
-   Learn more in [Manage self-service purchases and trials (for users)](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-users) or [Manage self-service purchases and trials (for admins)](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins).
-
-1. Assign prepaid capacity to the Power Platform environment using the Power Platform admin center.
-
-   Learn more in [Manage Capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new#manage-capacity).
-
-#### Set up pay-as-you-go
-
-Complete these tasks to set up the Dynamics 365 environment for pay-as-you-go.
-
-1. Set up pay-as-you-go on the Power Platform tenant:
-
-   To set up pay-as-you-go billing, you first need an active Azure subscription. Then, you link the subscription to your Power Platform environment using the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) or within [Power Apps](https://make.powerapps.com/).
-
-   Learn more in [Set up pay-as-you-go](/power-platform/admin/pay-as-you-go-set-up).
+To set up pay-as-you-go billing, you first need an active Azure subscription. Then you link the subscription to your Power Platform environment using the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) or in [Power Apps](https://make.powerapps.com/). Learn more in [Set up pay-as-you-go](/power-platform/admin/pay-as-you-go-set-up).
 
 ### Manage capacity and usage
 
-You can view Copilot Studio message capacity and usage for prepaid capacity and pay-as-you-go in the Power Platform admin center. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity).
+You can view Copilot Studio message capacity and usage for both prepaid capacity and pay-as-you-go billing in the Power Platform admin center. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity).
 
-Dynamics 365 regularly checks the available capacity (quota) of Copilot Studio messages. If your organization's quota is low or depleted, users receive in-app notifications about the status and necessary actions. It's important to take timely action on these notifications by reallocating existing capacity or purchasing more capacity.
+Dynamics 365 regularly checks the available capacity, or quota, of Copilot Studio messages. If your organization's quota is low or depleted, users receive in-app notifications about the capacity status and necessary actions. It's important to take timely action on these notifications and either reallocate existing capacity or purchase more.
 
-- For prepaid capacity, use the Power Platform admin center to allocate more capacity to the environment from the total available on the tenant. Learn more in [Manage capacity](/power-platform/admin/manage-copilot-studio-messages-capacity#manage-capacity). If there's no quantity to allocate, purchase more.
-- For pay-as-you-go, use Microsoft Cost Management in the Azure portal to view detailed usage and adjust spending limits (budgets) to free up more capacity. Learn more in [View usage and billing information](/power-platform/admin/pay-as-you-go-usage-costs). If there's no quantity to allocate, purchase more.
+- For prepaid capacity, use the Power Platform admin center to allocate more capacity to the environment from the total available on the tenant. If no capacity is available, purchase more. Learn more in [Manage capacity](/power-platform/admin/manage-copilot-studio-messages-capacity#manage-capacity).
+
+- For pay-as-you-go, use Microsoft Cost Management in the Azure portal to view detailed usage and adjust spending limits, or budgets, to free up more capacity. If no capacity is available, purchase more. Learn more in [View usage and billing information](/power-platform/admin/pay-as-you-go-usage-costs).
 
 > [!IMPORTANT]
-> When the quota is depleted, the AI capability is unavailable until more capacity is added. Tenant admins can [review the message consumption of agents](/microsoft-copilot-studio/requirements-messages-management#view-message-consumption) in Power Platform admin center. For more information, see [Copilot message scenarios](/microsoft-copilot-studio/requirements-messages-management#message-scenarios).
+> When the quota is depleted, AI capabilities are unavailable until more capacity is added. Tenant admins can [review the message consumption of agents](/microsoft-copilot-studio/requirements-messages-management#view-message-consumption) in the Power Platform admin center. Learn more in [Message scenarios](/microsoft-copilot-studio/requirements-messages-management#message-scenarios).
 
-## Enable the Scheduling Operations Agent
+## Turn on the Scheduling Operations Agent
 
 1. Open the Field Service app.
 1. Change to the **Resources** area and go to **Scheduling Parameters** > **Resource Scheduling**.
 1. Go to the **Agents** tab and turn on **Scheduling Operations Agent (Preview)**.
 
-:::image type="content" source="media/soa-enable-agent.png" alt-text="Screenshot of the resource scheduling settings that enables the agent.":::
+:::image type="content" source="media/soa-enable-agent.png" alt-text="Screenshot of the Scheduling Operations Agent toggle in Dynamics 365 Field Service Resource Scheduling settings.":::
 
 ## Set properties for bookable resources
 
-Bookable resources that the agent supports must be of type *User*, *Contact*, or *Crew*. Ensure the following properties are set:
+Bookable resources that the agent supports must be of type *User*, *Contact*, or *Crew*. Set the following properties for each bookable resource that you want the agent to consider:
 
-- **Start Location** and **End Location** specified to a value other than *Location Agnostic*
-- **Display on Schedule Board** set to *Yes*
+- **Start Location** and **End Location** must be a value other than **Location Agnostic**.
+- **Display on schedule board** must be **Yes**.
 
-:::image type="content" source="media/soa-resource-configuration.png" alt-text="Screenshot of a configured bookable resource record.":::
+:::image type="content" source="media/soa-resource-configuration.png" alt-text="Screenshot of a configured bookable resource record in Dynamics 365 Field Service.":::
 
-## Create or update optimization method for booking status
+## Select an optimization method for booking statuses
 
-The agent needs to know if it can move or delete scheduled or committed bookable resource bookings in favor of unfulfilled requirements that better match the optimization goals. **Optimization Method** is a new property for booking statuses.
+**Optimization Method** is a new property of booking statuses that tells the agent whether it can move or delete scheduled or committed bookings in favor of unfulfilled requirements that better match the optimization goals.
 
 1. Open the Field Service app and go to the **Resources** area.
-1. Select **Booking Settings** > **Booking Statuses**. To see all statuses, remove all filters from the view.
-1. Review and adjust the **Optimization Method** for each booking status:
 
-    - *Optimize*: Move or delete bookings with these statuses as necessary to generate an optimal schedule. Typically, bookings with these statuses aren't in progress yet. For example: scheduled or committed.
-    - *Do Not Move*: Preserve the estimated arrival time of any bookings with these statuses so the agent doesn't change them. It's the default behavior if **Optimization Method** is empty or null. For such bookings, the agent only updates the travel time if a previous booking is moved or changed. That's typically the case when a technician is already traveling to a booking, or started/completed the work. You can also use that optimization methods in situations where a designated arrival time was committed to a customer.
-    - *Ignore*: Indicate to the agent that it should override any bookings with these statues. It can move or create new bookings on top. Typically used for bookings in canceled status.
+1. Select **Booking Settings** > **Booking Statuses**. To show all statuses, remove all filters from the view.
 
-:::image type="content" source="media/soa-booking-status.png" alt-text="Screenshot of a booking status record with a configured optimization method.":::
+1. For each booking status, set the **Optimization Method** property to one of the following values:
 
-> [!TIP]
-> In addition to the default booking statuses, we recommend that you create a new booking status, such as Locked, with **Optimization Method** set to *Do Not Move*. Dispatchers can use that booking status to selectively indicate which bookings to preserve when the agent runs. Also, if you don't adjust the **Optimization Method** for **Committed** or **Scheduled** statuses, then the agent has little flexibility in making changes to an existing schedule.
+    - **Optimize**: The agent may move or delete bookings with this status to generate an optimal schedule. This method is typically used for bookings that aren't in progress yet; for example, statuses of *Scheduled* or *Committed*.
 
-## Create or update priority values
+    - **Do Not Move**: The agent must preserve the estimated arrival time of bookings with this status. It only updates the travel time if a previous booking is moved or changed. That's typically the case when a technician is already traveling to a booking or has started or completed the work. You can also use this optimization method in situations where a specific arrival time was committed to a customer. *Do Not Move* is the default behavior if **Optimization Method** isn't set.
 
-To help the agent decide which bookings or resource requirements are more important than others, we added the **Priority Value** field to existing priorities. It accepts numbers between 1 and 100. The agent ignores the **Level of Importance** field. The higher the number, the higher the priority.
+    - **Ignore**: The agent may override bookings with this status and move or create new bookings on top of them. This method is typically used for bookings with a status of *Canceled*.
 
-:::image type="content" source="media/soa-priority-value.png" alt-text="Screenshot of a priority record with a numeric priority value.":::
-
-1. Open the Field Service app.
-2. Change to the **Settings** area and select **Priorities**.
-3. Create new **Priority** records or update existing priorities with **Priority Values**.  
+    :::image type="content" source="media/soa-booking-status.png" alt-text="Screenshot of a booking status record with a configured optimization method in Dynamics 365 Field Service booking statuses settings.":::
 
 > [!TIP]
-> We recommend using priority values that are clearly distinguishable. For example, 100 for the highest priority emergency work, 75 for high priority work, 50 for moderate priority, and so on. Avoid using values too close to each other to help the agent effectively distinguish priorities.
+> In addition to using the default booking statuses, we recommend that you create a booking status such as *Locked* with **Optimization Method** set to *Do Not Move*. Dispatchers can use that booking status to selectively indicate which bookings to preserve when the agent runs.
+>
+> If you don't set the **Optimization Method** for *Committed* or *Scheduled* statuses, then the agent has little flexibility in making changes to a schedule.
+
+## Set priority values
+
+**Priority Value** is a new property of priorities that helps the agent decide which bookings or resource requirements are more important than others. It accepts numbers between 1 and 100. The higher the number, the higher the priority. For example, a high-priority booking with a **Priority Value** of 75 takes precedence over a high-priority booking with a **Priority Value** of 50. The agent ignores the **Level of Importance** field.
+
+1. Open the Field Service app and go to the **Settings** area.
+2. Select **Priorities**.
+3. For each priority that you want the agent to consider, set a **Priority Value**.  
+
+    :::image type="content" source="media/soa-priority-value.png" alt-text="Screenshot of a priority record with a configured priority value in Dynamics 365 Field Service priorities settings.":::
+
+> [!TIP]
+> We recommend setting priority values that are clearly distinguishable, such as 100 for the highest-priority emergency work, 75 for high-priority work, 50 for moderate-priority work, and so on. The agent might not effectively distinguish values that are too close to each other.
 
 ## Next step
 
