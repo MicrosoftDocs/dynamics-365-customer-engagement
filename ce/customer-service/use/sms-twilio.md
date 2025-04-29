@@ -1,7 +1,7 @@
 ---
-title: "Agent experience for Twilio channels | MicrosoftDocs"
-description: "Learn about the agent experience when interacting with conversations that originate from the Twilio SMS channel."
-ms.date: 10/08/2024
+title: Representative experience for Twilio channels
+description: Learn about the representative experience when interacting with conversations that originate from the Twilio SMS channel.
+ms.date: 04/29/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -15,7 +15,7 @@ ms.reviewer: nenellim
 > [!Important]
 > The Telesign channel was deprecated and removed from Omnichannel for Customer Service on October 8, 2024. Learn more at [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
 
-When you sign in, your work items display in the agent dashboard. To learn more, go to [View agent dashboard and agent conversations (work items)](oc-agent-dashboard.md).
+When you sign in, your work items display in the agent dashboard. To learn more, go to [View agent dashboard and representative conversations (work items)](oc-agent-dashboard.md).
 
 ## Prerequisite
 
@@ -37,7 +37,7 @@ In the application, you can:
 - [Manage sessions](oc-manage-sessions.md).
 - [Manage applications](oc-manage-applications.md).
 - Use these productivity tools:
-  - [Use agent scripts](oc-agent-scripts.md)
+  - [Use scripts](oc-agent-scripts.md)
   - [View smart-assist cards](oc-smart-assist.md)
   - [Use the productivity pane](../oc-productivity-pane.md)
 - [Create a record](oc-create-record.md).
