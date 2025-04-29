@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 10/01/2024
+ms.date: 04/22/2025
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -22,7 +22,7 @@ search.audienceType:
 
 Search and view knowledge articles to help answer a customer's question or solve an issue.
 
-Knowledge base search is available in Customer Service Hub, Customer Service workspace, Contact Center workspace, and some versions of [Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#agent-productivity-enhancements-to-knowledge-capabilities). Customers can search your knowledge base on their own if your organization provided a [self-service portal](knowledge-base-search-methods.md).
+Knowledge base search is available in Customer Service Hub, Copilot Service workspace, and some versions of [Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#agent-productivity-enhancements-to-knowledge-capabilities). Customers can search your knowledge base on their own if your organization provided a [self-service portal](knowledge-base-search-methods.md).
 
 ## Prerequisites
 
@@ -48,23 +48,23 @@ Knowledge base search is available in Customer Service Hub, Customer Service wor
 
 - Your administrator granted **Create**, **Read**, **Write**, **Delete**, **Append**, and **Appendto** privileges to any new custom roles you created.
 
-- In Customer Service workspace and Contact Center workspace, your administrator turned on the app side pane and knowledge search in agent experience profiles.
+- In Copilot Service workspace, your administrator turned on the app side pane and knowledge search in **Experience profiles**.
 
 - You're dealing with a case or a conversation, or your administrator [turned on the ability](../administer/set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management) to open the knowledge pane for other entities.
 
 ## Tips for search results
-f
+
 If a keyword you enter matches content in the knowledge base, the matching words are highlighted in yellow in the search results. Matches don't necessarily appear in the first three lines or words of an article, so the highlighted text in the search results might not appear.
 
 If style tags are visible in an article's content summary, it means that style tags were used to format the article. Consider offering feedback to the article's author to use inline CSS styling instead.
 
-## Search the knowledge base in Customer Service workspace
+## Search the knowledge base in Copilot Service workspace
 
 You can view knowledge article previews from global search, without having to open the article in the knowledge authoring form, which helps save your time. Your administrator must enable this option for you. Learn more in [Set up knowledge management](../administer/set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management).
 
 When the global search knowledge configuration option is enabled, you can search and select either the article link, or the article Preview icon, or select your article from the grid view, to view your article in a preview mode. The selected knowledge article opens in a tab. 
 
-:::image type="content" source="../media/csw-global-preview.png" alt-text="Screenshot that shows the preview icon in the agent experience.":::
+:::image type="content" source="../media/csw-global-preview.png" alt-text="Screenshot that shows the preview icon in the representative experience.":::
 
 > [!NOTE]
 > If you have overwritten the **OpenRecordItem** command for the knowledge article, and if the global search knowledge configuration option is enabled, the knowledge article format follows the customizations that you have provided. If you haven't enabled the preview option, the knowledge article opens in the knowledge authoring form.
@@ -119,9 +119,9 @@ Legend:
 1. The article ID
 
 
-## Search for related articles in Customer Service workspace and Contact Center workspace
+## Search for related articles in Copilot Service workspace
 
-You can search the knowledge base for related articles in the app side pane when you view a case or conversation in Customer Service workspace and Contact Center workspace. By default, a successful search displays up to 10 results.
+You can search the knowledge base for related articles in the app side pane when you view a case or conversation in Copilot Service workspace. By default, a successful search displays up to 10 results.
 
 1. In the application, open a case or conversation.
 
@@ -149,9 +149,9 @@ Select **More options** (**&hellip;**) to:
 
 You can perform these actions only on published or expired articles.
 
-## View suggested articles during a conversation in Customer Service workspace and Contact Center workspace
+## View suggested articles during a conversation in Copilot Service workspace
 
-In Customer Service workspace and Contact Center workspace, smart assist suggests knowledge articles in real-time based on your ongoing conversation with your customer.
+In Copilot Service workspace, smart assist suggests knowledge articles in real-time based on your ongoing conversation with your customer.
 
 In the app side pane, select the **Smart assist** (light bulb) icon to view suggestions of knowledge articles that are related to your conversation.
 
@@ -180,7 +180,7 @@ Favorite articles are saved in the language in which you viewed them when you ma
 
 If you create a major or minor version of a favorite article, then the new version appears as a favorite and the earlier version is removed from the list.
 
-In Customer Service workspace and Contact Center workspace, when you select a favorite article, it opens on an application tab. In Customer Service Hub, the article opens in a new browser window.
+In Copilot Service workspace, when you select a favorite article, it opens on an application tab. In Customer Service Hub, the article opens in a new browser window.
 
 ## Search across external search providers
 
@@ -191,7 +191,7 @@ In Customer Service Hub:
 > [!div class=mx-imgBorder]
 > ![Screenshot of the representative view of search providers in Customer Service Hub.](../media/search-provider-agent.png "Screenshot of the representative view of search providers in Customer Service Hub")
 
-In Customer Service workspace or Contact Center workspace:
+In Copilot Service workspace:
 
 For more information on setting up search providers, refer to [Set up external search providers](../administer/set-up-search-providers.md#set-up-external-search-providers).
 
@@ -199,7 +199,7 @@ For more information on setting up search providers, refer to [Set up external s
 
 In the application, view and sort search results from [any providers your administrator added](../administer/add-search-provider.md) for you. The name of the search provider the article was pulled from appears on the knowledge article card. If it's truncated, hover over it to view the full name.
 
-1. In the Customer Service workspace or Contact Center workspace site map, select a case and then select **Knowledge search** on the app side pane.
+1. In the Copilot Service workspace site map, select a case and then select **Knowledge search** on the app side pane.
 1. Enter the search keyword. Search results appear along with the search provider.
 1. Select **Show more** to view more results.
 
@@ -209,7 +209,7 @@ When you select an article in the search results, where it opens depends on wher
 
 ### View the knowledge article in an application tab
 
-In Customer Service workspace and Contact Center workspace, the article opens in an application tab. You can open up to 10 articles in app tabs.
+In Copilot Service workspace, the article opens in an application tab. You can open up to 10 articles in app tabs.
 
 :::image type="content" source="../media/csw-article-app-tab.png" alt-text="Screenshot of a knowledge article viewed in an app tab.":::
 
@@ -257,7 +257,7 @@ If the article has multiple sections, expand all the sections to view the entire
 
 You can find the most recently accessed knowledge articles across different cases without initiating any search if your administrator enabled the [feature](../administer/set-up-knowledge-management-embedded-knowledge-search.md#show-recently-accessed-knowledge-articles-for-cases) for you.
 
-In Customer Service workspace or Contact Center workspace, you can view recently accessed articles on the Knowledge search control of the productivity pane. By default, the articles related to the case that you had searched for appear. You need to remove the keyword from the search bar for recently accessed articles to appear.
+In Copilot Service workspace, you can view recently accessed articles on the Knowledge search control of the productivity pane. By default, the articles related to the case that you had searched for appear. You need to remove the keyword from the search bar for recently accessed articles to appear.
 
 In Customer Service Hub, select the standalone search to view the recently accessed knowledge articles across cases. You can review and use the search results across similar cases without searching for any keywords.
 

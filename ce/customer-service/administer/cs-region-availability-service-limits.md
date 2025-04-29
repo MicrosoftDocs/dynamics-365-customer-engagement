@@ -1,7 +1,7 @@
 ---
 title: Supported regions and languages for analytics and insights
 description: Learn about region availability and the languages supported for analytics and insights.
-ms.date: 03/28/2025
+ms.date: 04/22/2025
 ms.topic: conceptual
 author: Soumyasd27
 ms.author: sdas
@@ -12,7 +12,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Supported regions and languages for analytics and insights
 
-Depending on your location, certain features are available in Dynamics 365 Customer Service insights. [Service limits ](ana-ser-limits.md#service-limits-for-analytics-and-insights) also apply.
+Depending on your location, certain features are available in Dynamics 365 Customer Service insights. [Service limits](ana-ser-limits.md#service-limits-for-analytics-and-insights) also apply.
 
 ## Prerequisites
 

@@ -70,7 +70,7 @@ In unified routing, the process of creating assignment rulesets involves the fol
    c. **Order by**: Select an attribute to define the order of work assignment if multiple service representatives match the condition.
 
       - **Ordering Attributes**:
-         - **Least active**: Is available for voice channel queues only. Work item is routed to the representative who is the least active among all who match the skills, presence, and capacity. Learn more in [Types of assignment methods](assignment-methods.md#types-of-assignment-methods).
+         - **Least active**: Is available for voice and messaging channel queues only. Work item is routed to the representative who is the least active among all who match the skills, presence, and capacity. Learn more in [Types of assignment methods](assignment-methods.md#types-of-assignment-methods).
          - Round Robin
          - Unit-based available capacity
          - Profile-based available capacity

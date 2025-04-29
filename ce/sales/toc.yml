@@ -14,7 +14,7 @@ items:
     - name: Export data to Excel
       href: /powerapps/user/export-data-excel?context=/dynamics365/context/sales-context
     - name: Search for your data
-      href: /powerapps/user/search?context=/dynamics365/context/sales-context
+      href: /power-apps/user/grid-filters?context=/dynamics365/context/sales-context
     - name: Assign or share records
       href: /powerapps/user/assign-or-share-records?context=/dynamics365/context/sales-context
     - name: Print quote, invoice, or other records

@@ -57,14 +57,6 @@ The schedule board provides the foundation for future releases to help provide s
 ## Prerequisites
 
 The next generation schedule board is generally available and requires that you have Dynamics 365 Customer Service.
- 
-
-## Enable new schedule board
-
-To switch between the former and current schedule boards, go to the schedule board and use the toggle button on the top-right side. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board showing the preview toggle in the top right set to "On.".](../media/schedule-board-new-enable-preview.png "Preview toggle on the schedule board")
 
 ## Select and filter resources
 
@@ -224,36 +216,6 @@ For information on how to configure and use appointment scheduling, see [Include
 
 - The new schedule board is currently supported on Microsoft Edge, Chrome, and Firefox browsers.
 
-### When to use the new versus current schedule board
-
-The schedule board is recommended for manual scheduling scenarios and for organizations that want to get up and running with a scheduling solution for schedulers. The schedule board is designed and built to deliver improved performance and usability. Organizations that use resource scheduling optimization should consider using the schedule board because the resource scheduling optimization capabilities are embedded.
-
-The in-market schedule board is recommended for complex scheduling scenarios, like assisted scheduling, multi-resource scheduling, using requirement groups, and so on. 
-
-Use the following feature comparison table to understand which version of the schedule board is right for your business.
-
-| Feature   | Category   | New schedule board     | Old schedule board | Details   |
-| --------- | ---------- | ------ | ------ | ---- |
-| Manual scheduling     | Scheduler | Yes   | Yes   | Scheduler can manually select a resource and create a booking for an unscheduled requirement by interactions like dragging and dropping the requirements, selecting an open timeslot, and using booking panel.    |
-| Assisted scheduling           | Scheduler | 2021 release wave 2 | Yes         | Scheduler can select an unscheduled requirement on the requirement panel and select "Find Availability," which opens up the schedule assistant view, and shows the available timeslots for the available resources. Scheduler can choose a timeslot and create a booking.       |
-| Automated scheduling          | Scheduler | For existing resource scheduling optimization customers, public preview is available.  | No                 | The default capabilities of resource scheduling optimizer functionality are made available in the schedule board, enabling schedulers to manage schedules from a requirement's or resources point of view with the organization's business goals applied automatically by the optimizer.                    |
-| Auto update travel time    | Scheduler | Yes                  | Yes                |  When a booking is manually scheduled or rescheduled via drag-and-drop, the travel time from the resource's previous location is automatically calculated and displayed in the front of the booking.
-| View modes - Hourly, daily    | Scheduler | Yes                               | Yes                | Show the resources and their bookings on the hourly and daily views of the schedule board.          |
-| View modes - Weekly, monthly  | Scheduler | Yes    | Yes        | Show the resources and their bookings on the weekly and monthly views of the schedule board.      |
-| View types - List view        | Scheduler | Yes        | Yes                | List view is a simple view, in which bookings of the resources are shown as a simple list. This list view provides accessible view to the Users to browse and create Bookings                                               |
-| View types - Map view         | Scheduler | Yes         | Yes                |        |
-| View types - Details view     | Scheduler | 2021 release wave 2                        | Yes                | Details view is a configurable view, to show and add details of a resource, requirement, or a booking record.     |
-| Multi-resource scheduling     | Scheduler | 2021 release wave 2         | Yes      | Requirement groups allow you to define groups of resources that would be appropriate for a job and to then schedule all those resources with a single search. With requirement groups, you can mix and match the different types of resources—such as individual field technicians, a whole crew, equipment, or facilities—needed for a job              |
-| Multi-day assisted scheduling | Scheduler | 2021 release wave 2                   | Yes                | Service activities and scheduling requirements can be scheduled across multiple days and weeks. A common example is scheduling a 40-hour service activity across an entire work week where the field technician is expected to perform more detailed work at the same location each day.      |
-| Multi-day manual scheduling   | Scheduler | Yes                    | Yes                | Service activities and scheduling requirements can be scheduled across multiple days and weeks. A common example is scheduling a 40-hour service activity across an entire work week where the field technician is expected to perform more detailed work at the same location each day.       |
-| Pools and crews       | Scheduler | 2021 release wave 2         | Yes                | Resource pool scheduling allows you to assemble groups of similar resources to manage capacity and give schedulers the option to assign specific resources at a later time.<br>Resource crews allow schedulers to search and schedule multiple resources at once. Crews can include a group of employees, subcontractors, equipment, facilities, or any combination thereof who performs the same work during a period of time. Crews speed up and simplify the scheduling process and allow team members to work together more consistently.                               |
-| Configuration                 | Admin      | 2021 release wave 2       | Yes                | Admin can create new tabs on the schedule board and configure changes on the board, tab settings, and scheduler settings      |
-| Extensibility       | Admin      | 2021 release wave 2            | Yes                | Admin can extend the schedule board and use extensibility on some of features like<br>Custom Booking template (Hours) - HTML<br>Custom Booking alerts - HTML<br>Custom Resource Cell Template - HTML<br>Custom Filter Layout - Universal FetchXML<br>SB/SA Retrieve Resources Query - Universal FetchXML<br>SB/SA Retrieve Constraints query - Universal FetchXML<br>Custom Web resource support<br>Client Extensions (support for JavaScript, style sheets, and Localizations files)<br>Booking Rules (Support for custom business logic via JavaScript on the booking creation) |
- 
-Continue to use the current schedule board for common functions like:
-- Creating and deleting schedule board tabs. 
-- Schedule board tab settings.
-- Schedule board configurations like number of days in a view or applying filter territories.
 
 
 ### Add new schedule board to custom sitemap area
