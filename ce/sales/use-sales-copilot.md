@@ -72,6 +72,8 @@ Whether you're using Copilot in a side pane or in full-screen view, you can inte
 
 If Bing search is turned on for your organization, an option to turn it off is displayed at the bottom of the Copilot side pane and Copilot page. Copilot uses Bing search only to provide news about your accounts. If you turn it off, the **Get latest news for accounts** prompt doesn't return any results.
 
+:::image type="content" source="media/bing-consent-seller.png" alt-text="Screenshot of the Copilot side pane in Dynamics 365 Sales, with the Bing consent option highlighted.":::
+
 <a name=chat-with-copilot-in-NL></a>
 
 ## Natural language chat
