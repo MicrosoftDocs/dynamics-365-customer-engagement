@@ -25,7 +25,7 @@ As an administrator, system integrator, or partner, you can use the out-of-the-b
 
 For optimal functioning of desktop notifications, make sure that you're using the latest supported browsers as specified in the [system requirements](../implement/system-requirements-omnichannel.md).
 
-Desktop notifications help ensure that representatives won't miss any conversation requests. Based on your configuration, representatives can receive notification alerts on their desktop always or when the Copilot Service workspace or Omnichannel for Customer Service app isn't in focus. Some scenarios where the app isn't in focus might include:
+Desktop notifications help ensure that representatives won't miss any conversation requests. Based on your configuration, representatives can receive notification alerts on their desktop always or when the Copilot Service workspace app isn't in focus. Some scenarios where the app isn't in focus might include:
 
 - The representative minimizes the app.
 - The representative is working in another browser window.
