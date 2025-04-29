@@ -1,7 +1,7 @@
 ---
 title: Migrate unified routing data for live chat
 description: Learn to export and import data pertaining to live chat from source to target environments in Omnichannel for Customer Service.
-ms.date: 07/08/2024
+ms.date: 04/29/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -11,6 +11,8 @@ ms.reviewer: nenellim
 # Migrate data for the live chat channel
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
 Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for live chat.
@@ -57,7 +59,7 @@ The following prerequisites must be met:
 
 > [!IMPORTANT]
 >
-> The migration of the account, channel, bot configuration, and AI and analytics settings is not in scope.
+> The migration of the account, channel, agent configuration, and AI and analytics settings is not in scope.
 
 ## Migrate live chat configuration
 
