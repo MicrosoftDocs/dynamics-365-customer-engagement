@@ -30,7 +30,7 @@ Desktop notifications help ensure that representatives won't miss any conversati
 - The representative minimizes the app.
 - The representative is working in another browser window.
 - The representative is working on another tab of the browser.
-- The representative is using two screens, and is on the screen that doesn't have either the Copilot Service workspace or Omnichannel for Customer Service app.
+- The representative is using two screens, and is on the screen that doesn't have either the Copilot Service workspace app.
 
 > [!Note]
 > The legacy version of Microsoft Edge is not supported for desktop notifications.
