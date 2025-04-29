@@ -41,7 +41,7 @@ With the Customer Service Enterprise license, you'll get unified routing for tab
 
 If the provisioning fails, go to [Dynamics 365 Customer Service and Dynamics 365 Contact Center troubleshooting](/troubleshoot/dynamics-365/customer-service/welcome-customer-service) or contact Microsoft Support to help resolve the issue.
 
-### Provision unified routing in Customer Service with Omnichannel application
+### Provision unified routing in Customer Service with omnichannel application
 
 When the omnichannel capabilities are available but not deployed, in the **Service Configuration Settings** page, the following message will appear:
 
