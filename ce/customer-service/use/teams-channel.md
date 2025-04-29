@@ -1,7 +1,7 @@
 ---
 title: Use Microsoft Teams channel
-description: This article provides an overview of Microsoft Teams channel and incoming chat notifications in the agent dashboard.
-ms.date: 01/03/2025
+description: This article provides an overview of Microsoft Teams channel and incoming chat notifications in the customer service representative dashboard.
+ms.date: 04/29/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -12,7 +12,7 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-When you sign in you can see your work items on the agent dashboard. More information: [View agent dashboard and agent conversations](oc-agent-dashboard.md)
+When you sign in you can see your work items on the customer service representative dashboard. More information: [View customer service representative dashboard and conversations](oc-agent-dashboard.md)
 
 ## Prerequisite
 
@@ -24,7 +24,7 @@ You'll receive a notification when a customer requests a conversation through Te
 
 
 > [!div class=mx-imgBorder]
-> ![Teams chat agent notification.](../media/incoming-chat-teams.png "Teams chat agent notification")
+> ![Teams chat representative notification.](../media/incoming-chat-teams.png "Teams chat representative notification")
 
 In the application, you can:
 
@@ -35,7 +35,7 @@ In the application, you can:
 - [Manage sessions](oc-manage-sessions.md).
 - [Manage applications](oc-manage-applications.md).
 - Use these productivity tools:
-  - [Use agent scripts](oc-agent-scripts.md)
+  - [Use scripts](oc-agent-scripts.md)
   - [View smart-assist cards](oc-smart-assist.md)
   - [Use the productivity pane](../administer/productivity-pane.md)
 - [Create a record](oc-create-record.md).
