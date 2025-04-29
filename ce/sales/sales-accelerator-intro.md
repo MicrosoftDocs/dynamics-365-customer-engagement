@@ -14,7 +14,7 @@ ms.custom:
 
 # What is the Sales accelerator?  
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2190823]
+> [!VIDEO 5a07cf65-266f-4797-b580-8212a3cf6d1d]
 
 Sales teams in organizations must focus on high-velocity selling. The sellers who are part of these sales teams spend valuable time identifying the best customer in their customer list, navigating across multiple sources to identify who they need to engage with, when, and how. 
 

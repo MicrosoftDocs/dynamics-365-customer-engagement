@@ -1,7 +1,7 @@
 ---
 title: Frequently asked questions about unified routing
 description: Learn about the frequently asked questions (FAQs) for unified routing.
-ms.date: 04/21/2025
+ms.date: 04/28/2025
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -94,11 +94,14 @@ The representatives aren't offered the same conversation anymore after they decl
 
 ### For which channel is the routing to least-active representative feature available?
 
-The feature is available for the voice channel only.
+The feature is available for the voice and messaging channels only.
 
 ### Does the sign-in time affect the calculation of the least active representative? 
 
-The representative's "last capacity release time for a voice call" is the only parameter used by the least-active assignment method and their sign-in times don't affect the capacity release time. 
+The representative's "last capacity release time for voice and messaging queues" is the only parameter used by the least-active assignment method and the representative's sign-in times don't affect the capacity release time.
+
+> [!NOTE]
+> In asynchronous messaging channels, when the active conversation moves into the waiting state, the representative's capacity is released. This transition also updates the representative's "last capacity release time."
 
 ### How is a tie-breaker scenario resolved if two or more representatives have the same capacity release time?
 
