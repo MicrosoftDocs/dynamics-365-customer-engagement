@@ -65,7 +65,7 @@ You need to specify the values of **Application (client) ID** and **Directory (t
 
 1. Select the value of the **Application (client) ID** field, and then select **Copy to clipboard**. You enter this value for **Event grid app id** in Copilot Service admin center.
 
-1. Select the value of the **Directory (tenant) ID** field, select the **Copy to clipboard** button, and then note the value. You enter this value for **Event grid app tenant id** in Copilot Center admin center.
+1. Select the value of the **Directory (tenant) ID** field, select the **Copy to clipboard** button, and then note the value. You enter this value for **Event grid app tenant id** in Copilot Service admin center.
    
 1. Select **Owners** and add your account as the application owner.  
 
