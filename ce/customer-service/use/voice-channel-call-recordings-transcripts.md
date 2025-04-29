@@ -30,7 +30,7 @@ When conversations end in your contact center, users can view the recordings and
 - Omnichannel agent or Omnichannel supervisor role.
 - To access recordings and transcripts, users with other roles need at least read-level access to the **Activity** table.
 - To view conversation summaries, users with other roles need at least read-level access to the **ConversationInsights** table. 
-- To view post-conversation survey data, the **Show Post Conversation Survey Results** box must be checked in the Customer Service Admin Center in the **Conversation Form Settings** under Workspaces. Additionally, users need read-level access to the **Customer feedback survey** table; Omnichannel Administrator role has the access by default.
+- To view post-conversation survey data, the **Show Post Conversation Survey Results** check box must be selected in Copilot Service admin center in the **Conversation Form Settings** under Workspaces. Also, users need read-level access to the **Customer feedback survey** table; Omnichannel Administrator role has the access by default.
 
 ## View recordings and transcripts
 
