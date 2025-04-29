@@ -1,7 +1,7 @@
 ---
 title: Report issues in representative app
-description: Learn how you can report issues in Contact Center workspace or Customer Service workspace when you raise a support ticket with Microsoft.
-ms.date: 03/17/2025
+description: Learn how you can report issues in Copilot Service workspace when you raise a support ticket with Microsoft.
+ms.date: 04/29/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -12,10 +12,10 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The report issues feature in the Contact Center workspace or the Customer Service workspace app allows you to capture a diagnostic report of the issues and share it with Microsoft.
+The report issues feature in the Copilot Service workspace app allows you to capture a diagnostic report of the issues and share it with Microsoft.
 
 > [!IMPORTANT]
-> The report issues feature isn't supported in the Contact Center workspace or the Customer Service workspace on Unified Service Desk.
+> The report issues feature isn't supported in the Copilot Service workspace on Unified Service Desk.
 
 You can copy the information while communicating with a customer by using one of the following keyboard shortcuts.
 
@@ -24,7 +24,7 @@ You can copy the information while communicating with a customer by using one of
 
 ## Capture diagnostic report
 
-1. Sign in to the Contact Center workspace or the Customer Service workspace app.
+1. Sign in to the Copilot Service workspace app.
 
 2. Use the keyboard shortcut to copy the information. Repeat the step if a message indicates that the copy action was unsuccessful.
 
@@ -36,7 +36,7 @@ You can copy the information while communicating with a customer by using one of
 
 ## Diagnostic report information
 
-The diagnostic report doesn't contain any of your personal information and contains the following information that's specific to the Contact Center workspace or the Customer Service workspace apps.
+The diagnostic report doesn't contain any of your personal information and contains the following information that's specific to the Copilot Service workspace app.
 
 | Name | Display name in the report |
 |---------------------|-----------------------------|-----------------------------|
@@ -79,6 +79,6 @@ When you are in a session with a customer as a customer service representative o
 ### Related information
 
 [Use Contact Center workspace](/dynamics365/contact-center/use/ccw-overview)  
-[Get started with Customer Service workspace](../implement/csw-overview.md)  
+[Get started with Copilot Service workspace](../implement/csw-overview.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
