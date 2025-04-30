@@ -202,7 +202,7 @@ If a queued work item is moved to another queue because of long wait times, and 
 
 If you set **End call** or **End conversation** as an overflow action, you can edit the automated message that informs the customer that no representatives are available.
 
-1. In the Copilot Service admin center site map, select **Customer support** > **Customer settings**.
+1. In the site map of Copilot Service admin center, select **Customer support** > **Customer settings**.
 
 1. Select **Automated messages**.
 
