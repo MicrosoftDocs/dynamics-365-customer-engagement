@@ -1,7 +1,7 @@
 ---
 title: View smart assist suggestions
-description: Learn how to view smart assist suggestions in Contact Center workspace or Customer Service workspace.
-ms.date: 11/28/2024
+description: Learn how to view smart assist suggestions in Copilot Service workspace.
+ms.date: 04/30/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -26,9 +26,9 @@ The recommendations appear in the user interface as cards. The most recent card 
 
 For a macro recommendation card, if the run is successful, a success message is displayed; otherwise, an error message is displayed in the user interface.
 
-When a conversation is escalated from a bot, the agent needs to accept the request and start the conversation with the customer. Now, from this instance, the smart assist bot interprets the conversation in real time and provides recommendations.
+When a conversation is escalated from an AI agent, the service representative needs to accept the request and start the conversation with the customer. Now, from this instance, the smart assist agent interprets the conversation in real time and provides recommendations.
 
-## Related information
+### Related information
 
 [Smart assist for agents (admin)](../administer/smart-assist.md)  
 [View smart assist suggestions using AI](oc-view-ai-suggested-cases-articles.md)  
