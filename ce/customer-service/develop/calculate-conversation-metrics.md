@@ -34,9 +34,7 @@ Learn more about [Session metrics](../use/session-metrics.md#session-metrics) an
 
 Total conversations includes all interactions initiated by customers or by representatives and engaged by agents, including those that may be escalated to service representatives. It is a comprehensive metric used to evaluate the performance and effectiveness of agent interactions.
 
-The total number of conversations across all channels (digital and voice) during a specified period, including AI agent and service representative interactions, categorized by status: open, active, waiting, wrap-up, and closed. This includes both inbound and outbound communications.
-
-Total conversations = Total bot conversations +  Total direct agent Conversations (inbound and outbound) that can be in any of the conversation states. Learn more in [conversation states](../use/oc-conversation-state.md#understand-conversation-states).
+Learn more in [conversation states](../use/oc-conversation-state.md#understand-conversation-states).
 
 ### DAX query and Dataverse reference
 
