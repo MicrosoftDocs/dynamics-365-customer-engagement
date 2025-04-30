@@ -92,7 +92,7 @@ The application lets you set a default experience profile and assign security ro
 
 :::image type="content" source="../media/agent-exp-profiles-mini.png" alt-text="experience profiles" lightbox="../media/agent-exp-profiles.png":::
 
-For example, you set up your experience profiles and mapped users as summarized in the table:
+For example, you set up your experience profiles and mapped users as summarized in the table.
 
 |Experience profile   | Rank  | Security Role|User |
 |----------|-----------|------------|---------------|
