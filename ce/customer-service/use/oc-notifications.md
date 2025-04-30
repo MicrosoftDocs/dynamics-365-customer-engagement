@@ -1,7 +1,7 @@
 ---
 title: View notifications in Customer Service
-description: Learn about notifications and their types. Agents will see notifications and screen pops in Customer Service apps.
-ms.date: 03/15/2024
+description: Learn about notifications and their types. Representatives will see notifications and screen pops in Customer Service apps.
+ms.date: 04/30/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -16,11 +16,11 @@ ms.custom:
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-> [!Note]
+> [!NOTE]
 > Case information is applicable to Customer Service only.
 
 > [!IMPORTANT]
-> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with service representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their service representatives that their communications with end users may be monitored, recorded, or stored.
 
 A notification is a visual alert that appears each time you get a chat or an SMS conversation request from a customer. When you get the notification, you see the details about the customer with whom you're going to interact. When you accept the request, a session is started, and you can view the contextual information of the customer and case on the **Active Conversation** page.
 
@@ -36,7 +36,7 @@ Here are some scenarios where you might receive notifications:
 
 ## Receive notifications when the app is in the background
 
-Agents can receive notification alerts on their desktop always or only when the Customer Service workspace or Contact Center workspace isn't in focus. These notifications help ensure that agents won't miss any conversation requests. Some scenarios where the app isn't in focus might include:
+Service representatives can receive notification alerts on their desktop always or only when the Customer Service workspace or Contact Center workspace isn't in focus. These notifications help ensure that representatives won't miss any conversation requests. Some scenarios where the app isn't in focus might include:
 
 - The agent has minimized the app.
 - The agent is working in another browser window.
