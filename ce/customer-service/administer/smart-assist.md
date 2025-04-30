@@ -18,7 +18,7 @@ ms.custom: bap-template
 > [!NOTE]
 > The case and knowledge suggestions in smart assist will no longer be supported starting June 02, 2025. Learn more in [deprecations in Customer Service](../implement/deprecations-customer-service.md).
 
-The new-age customer service industry is moving toward the vision of being intelligent rather than process-driven while interacting with customers. Pivoting on intelligence capabilities helps unleash the productivity of customer service representatives (service representatives or representatives) to perform better on key performance indicators and&mdash;at the same time&mdash;deliver better customer experience.
+The new-age customer service industry is moving toward the vision of being intelligent rather than process-driven while interacting with customers. Pivoting on intelligence capabilities helps unleash the productivity of representatives to perform better on key performance indicators and&mdash;at the same time&mdash;deliver better customer experience.
 
 Smart assist is an intelligent assistant that provides real-time recommendations to representatives, helping them take actions while interacting with customers. It allows organizations to build a custom AI agent (agent) and plug-in to their environment. These custom agents interpret conversations in real time and provide relevant recommendations such as knowledge articles, similar cases, and next-best steps to the representative's user interface.
 
