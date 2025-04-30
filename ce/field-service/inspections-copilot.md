@@ -16,6 +16,8 @@ Service organizations often have numerous procedures, forms, and checklists stor
 
 Copilot converts the uploaded documents into draft inspection templates that can be edited and published for technicians to fill in when completing work order tasks in the Field Services mobile app.
 
+> [!VIDEO 19a2b853-df64-4ffd-a72a-ce5cc680fa24]
+
 > [!IMPORTANT]
 >
 > - This is a preview feature.
