@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to 
 ms.collection: 
-ms.date: 07/05/2024
+ms.date: 04/30/2025
 ms.custom: bap-template
 ---
 
@@ -21,7 +21,7 @@ This articles describes how you can create a new report that leverages the out-o
 
 ## Prerequisites
 
-- Your administrator must enable data model customization. More information: [Enable Power BI data model customization](../administer/model-customize-reports.md#enable-power-bi-data-model-customization)
+- Your administrator must enable data model customization. Learn more in [Enable Power BI data model customization](../administer/model-customize-reports.md#enable-power-bi-data-model-customization).
 - You must have the required [Power BI permissions](../administer/model-customize-reports.md#prerequisites).
 
 ## Create a new report based on Dynamics 365 Customer Service dataset
@@ -183,7 +183,7 @@ Here's an example that describes how to filter the out-of-the-box Customer Servi
  
 ## Publish reports back to Dynamics 365 Customer Service  
 
-After you've created the new reports, you can enable your Dynamics 365 users to be able to view these reports from the Customer Service workspace app. Work with your administrator to ensure that the viewers have appropriate access to [view and embed](../administer/configure-customer-service-analytics-insights-csh.md) these reports in Dynamics 365.  
+After you've created the new reports, you can enable your Dynamics 365 users to be able to view these reports from the Copilot Service workspace app. Work with your administrator to ensure that the viewers have appropriate access to [view and embed](../administer/configure-customer-service-analytics-insights-csh.md) these reports in Dynamics 365.  
 
 ## Next steps
 
