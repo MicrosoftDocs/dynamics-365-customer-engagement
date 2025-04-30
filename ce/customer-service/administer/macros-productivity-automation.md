@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: conceptual 
 ms.collection: 
-ms.date: 07/29/2024
+ms.date: 04/30/2025
 ms.custom: bap-template 
 ---
 
@@ -127,8 +127,8 @@ Perform the following steps to create a macro that opens the task form and then 
     - **Entity logical name**: `task`
     - **Attribute Name**: subject
     - **Attribute Value**: Follow up task regarding `${anchor.ticketnumber}`
-    - **Attribute Name**: regrdingobjectid
-    - **Attribute Value**: `{{"id":"${anchor.incidentid}","name":"${anchor.title}","entitytype":"incident"}}`
+    - **Attribute Name**: regardingobjectid
+    - **Attribute Value**: `[{"id":"${anchor.incidentid}","name":"${anchor.title}","entitytype":"incident"}]`
 
 ### Example 2: Open a task form and populate form fields from a conversation
 
@@ -139,8 +139,8 @@ Perform the following steps to create a macro that opens the task form and then 
    - **Entity logical name**: `task`
    - **Attribute Name**: subject
    - **Attribute Value**: Follow up task regarding `${anchor.customerName}`
-   - **Attribute Name**: regrdingobjectid
-   - **Attribute Value**: `"${customerName}","entitytype":"${customerEntityName}"}}`
+   - **Attribute Name**: regardingobjectid
+   - **Attribute Value**: `[{ "id" : "${customerRecordId}", "name": "${customerName}","entitytype":"${customerEntityName}"}]`
 
 #### Update an existing record
 
