@@ -1,7 +1,7 @@
 ---
 title: Set up auto-summarization for conversations in Dynamics 365 Customer Service
 description: Add an AI-generated summary of an ongoing customer conversation in Dynamics 365 Customer Service.
-ms.date: 04/22/2025
+ms.date: 04/30/2025
 ms.topic: article
 author: gandhamm 
 ms.author: mgandham
@@ -52,6 +52,7 @@ Tenant level access to enable the enhanced integration with Microsoft Teams feat
   
    - **When an agent joins the conversation**: To display the conversation summary when a representative has joined the conversation. This is applicable to conversations escalated to a representative from an agent, transferred conversations, or when the representative invites a collaborator.
    - **When the conversation ends**: To display the summary when the conversation ends.
+   - **When an agent starts a linked chat in Microsoft Teams**: To display the summary when the representative starts a linked Teams chat. Alternatively, you can select the **See more settings related to Microsoft Teams integration** link and turn on **Include a note** in the **Case settings** flyout of **Microsoft Teams collaboration and chat**.
    
         :::image type="content" source="../media/oc-convo-summary-settings.png" alt-text="Screenshot of the AI-generated summary settings.":::
 

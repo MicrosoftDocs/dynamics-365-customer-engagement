@@ -4,7 +4,7 @@ description: Learn how to create and manage experience profiles for customized s
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 04/22/2025
+ms.date: 04/30/2025
 ms.topic: article
 ---
 
@@ -15,8 +15,8 @@ ms.topic: article
 By default, the following experience profiles are available out of the box for Copilot Service workspace. These profiles can't be deleted or modified.  When you don't assign a custom profile to a customer service representative (service representative or representative), the system assigns the default profile.
 
 - Omnichannel for Customer Service - default profile
-- Copilot Service workspace - default profile
-- Copilot Service workspace + channels - default profile
+- Customer Service workspace - default profile
+- Customer Service workspace + channels - default profile
 
 You can configure experience profiles in Copilot Service admin center. 
 
