@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to 
 ms.collection: 
-ms.date: 07/05/2024
+ms.date: 05/02/2025
 ms.custom: bap-template
 ---
 
@@ -21,7 +21,7 @@ This articles describes how you can create a new report that leverages the out-o
 
 ## Prerequisites
 
-- Your administrator must enable data model customization. More information: [Enable Power BI data model customization](../administer/model-customize-reports.md#enable-power-bi-data-model-customization)
+- Your administrator must enable data model customization. Learn more in [Enable Power BI data model customization](../administer/model-customize-reports.md#enable-power-bi-data-model-customization).
 - You must have the required [Power BI permissions](../administer/model-customize-reports.md#prerequisites).
 
 ## Create a new report based on Dynamics 365 Customer Service dataset
@@ -69,7 +69,7 @@ If you need to create a metric within the existing entities (as described in [Sc
 
 1. Right-click the entity for which you want to create your new metric.
 
-1. Enter the Data Analysis Expressions (DAX) logic for real-time metrics after selecting the required attributes such as name and data type. For more information about DAX, go to [DAX function reference](/dax/dax-function-reference).
+1. Enter the Data Analysis Expressions (DAX) logic for real-time metrics after selecting the required attributes such as name and data type. Learn more in [DAX function reference](/dax/dax-function-reference).
 
 1. Save your measure and include it in your visualization as required.
 

@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 07/05/2024
+ms.date: 05/02/2025
 ms.custom: bap-template
 ---
 
@@ -42,10 +42,10 @@ Ensure that you have the Publish and Update permissions on the Knowledge Article
   
 1. If you want to schedule the article to publish on a later date, on the **Summary** tab, in the **Publish On** field, select a date and time to publish the article.  
 
-1. Select **Finish**. The Publish dialog appears.
+1. Select **Finish**. The **Publish** dialog appears.
 
   > [!NOTE]
-  > The Publish dialog appears only for the default business process flows where the final stage is **Publish**. To configure the Publish dialog for other customized stages, go to [Process events and event handler methods](/powerapps/developer/model-driven-apps/clientapi/reference/formcontext-data-process#process-events-and-event-handler-methods).
+  > The **Publish** dialog appears only for the default business process flows where the final stage is **Publish**. To configure the **Publish** dialog for other customized stages, go to [Process events and event handler methods](/powerapps/developer/model-driven-apps/clientapi/reference/formcontext-data-process#process-events-and-event-handler-methods).
 
 -  In the **Publish** field, select whether you want to publish the knowledge article now or in the future. To publish the article in the future, in the **Publish On** field, select a date and time.  
   
