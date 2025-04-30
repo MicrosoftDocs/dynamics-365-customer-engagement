@@ -1,7 +1,7 @@
 ---
 title: Connect using a new Azure resource 
-description: Use this article to understand how to connect to Azure Communication Services using a new Azure resource in Customer Service admin center.
-ms.date: 08/29/2024
+description: Use this article to understand how to connect to Azure Communication Services using a new Azure resource in Copilot Service admin center.
+ms.date: 04/19/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -27,7 +27,7 @@ Before you connect an Azure resource to Azure Communication Services, you must p
  
 ## Connect using a new Azure resource
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Channels** in **Customer support**. The **Channels** page appears.
+1. In the site map of Copilot Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
 
 1. Select **Manage** for **Phone numbers**.
 

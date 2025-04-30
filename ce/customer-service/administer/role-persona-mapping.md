@@ -1,7 +1,7 @@
 ---
 title: Manage personas and custom security roles
 description: Get information about how custom security roles can be mapped to personas in Customer Service and Omnichannel for Customer Service.
-ms.date: 03/03/2025
+ms.date: 04/15/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 You can map security roles to personas to define user permissions for unified routing. Persona mapping gives your organization the option to add custom security roles alongside existing security roles in Customer Service and Omnichannel for Customer Service. The admin, supervisor, and agent personas are user archetypes that security roles can be mapped to. By mapping custom security roles to these personas, you can fine-tune data access and security across users and business units.
 
-You can create and assign custom security roles in the Microsoft Dynamics 365 admin center. Persona mapping settings are available in the Customer Service admin center > **User Management** section.
+You can create and assign custom security roles in the Microsoft Dynamics 365 admin center. Persona mapping settings are available in the Copilot Service admin center > **User management** section.
 
 For the custom security roles to be functional, perform the following steps:
 
@@ -103,11 +103,11 @@ After you enable persona mapping, the system automatically assigns default roles
  
 ### Manage personas
 
-You can customize the roles to persona mapping in the Customer Service admin center app.
+You can customize the roles to persona mapping in the Copilot Service admin center app.
 
 **To customize the role to persona mapping**
 
-1. In the site map of Customer Service admin center, select **User management** in **Customer support**. The **User management** page appears.    
+1. In the site map of Copilot Service admin center, select **User management** in **Customer support**. The **User management** page appears.    
 
 2. Select **Manage** for **Role persona mapping**.
 

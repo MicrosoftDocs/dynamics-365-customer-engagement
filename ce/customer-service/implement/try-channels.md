@@ -1,7 +1,7 @@
 ---
 title: Try channels
 description: Learn how you can try channels in Customer Service to connect and engage with your customers in real time.
-ms.date: 01/17/2025
+ms.date: 04/14/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Channels, like Live Chat, voice, and SMS, are engagement channels that let your agents connect with customers in real time and provide quick personalized help.
+Channels, like Live Chat, voice, and SMS, are engagement channels that let your customer service representatives connect with customers in real time and provide quick personalized help.
 
 You can perform the following steps to try channels in Customer Service:
 

@@ -1,7 +1,7 @@
 ---
 title: Embed chat widget in your website or portal
 description: Embed a chat widget in your website, portal, or mobile experience to provide customers with a personalized experience.
-ms.date: 02/05/2025
+ms.date: 04/15/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -22,7 +22,7 @@ ms.custom:
 
 Do the following steps to embed the chat widget in a website or Power Apps portal.
 
-1. In Dynamics 365, go to Customer Service admin center.
+1. In Dynamics 365, go to Copilot Service admin center.
 
 1. Go to **Channels** &gt; **Chat**.
 
@@ -47,7 +47,7 @@ If you don't see your chat widget in the portal, see [Troubleshoot issues in Omn
 ## Embed chat widget in mobile experiences
 
 1. Create the code snippet. Refer to [Render a live chat widget on the mobile app](../develop/render-live-chat-widget-mobile.md) for samples showing how to enable rendering of the web version of the live chat widget on mobile devices.
-1. In Customer Service admin center, go to **Channels** &gt; **Chat**.
+1. In Copilot Service admin center, go to **Channels** &gt; **Chat**.
 1. Open the chat widget you want to embed in your website or create a new one.
 1. On the **Chat widget** tab, copy the widget code snippet in the **chat widget** section and paste it in the source code of your mobile operating system.
 
