@@ -76,7 +76,7 @@ After you create an agent user, you need to add the agent to the workstream so t
 
 2. Expand **Advanced settings**, and select **Add bot** in the **Smart assist bots** area.
 
-3. In the **Add from existing** panel, select a agent user from the list, and then select **Add**.
+3. In the **Add from existing** panel, select an agent user from the list, and then select **Add**.
 
 You can add multiple agents to a workstream based on your business requirements.
 
