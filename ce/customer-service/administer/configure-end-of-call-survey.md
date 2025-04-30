@@ -27,7 +27,7 @@ Customer service representatives (service representatives or representatives) ca
 
 Perform the following steps to enable representative call quality surveys:
 
-1. In Copilot Center admin center, select **Workspaces** in **Support experience** and then select **Voice call experiences**. You can enable the survey from **Voice settings** in voice workstreams. 
+1. In Copilot Service admin center, select **Workspaces** in **Support experience** and then select **Voice call experiences**. You can enable the survey from **Voice settings** in voice workstreams. 
 3. Switch the **Customer service representative call quality survey** toggle to **On**.
 4. Specify the frequency at which the survey should be presented to the representative. Optionally, you can also switch the **Set survey duration** toggle to **On** and specify the duration during which the survey must appear for the representative.
 
