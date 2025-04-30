@@ -27,7 +27,7 @@ You can also [import phone numbers](voice-channel-sync-from-acs.md) or [connect 
 
 > [!Note]
 >
-> - Avoid reusing [Azure Communication Services](/azure/communication-services/quickstarts/create-communication-resource) resources across multiple instances. For optimal performance and to avoid issues, map one application instance only with one Azure Communication Services resource.
+> - Avoid reusing [Azure Communication Services resources](/azure/communication-services/quickstarts/create-communication-resource) across multiple instances. For optimal performance and to avoid issues, map one application instance only with one Azure Communication Services resource.
 > - After you connect to a resource in a Power Platform environment, the phone numbers purchased via the resource that are linked to the Power Platform environment can't be transferred or migrated to another environment.
 > - We recommend that you [test your network](https://azurecommdiagnostics.net) before you connect to Azure Communication Services.
 
