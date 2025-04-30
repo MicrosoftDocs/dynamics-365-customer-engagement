@@ -48,7 +48,7 @@ To configure the SMS channel, complete the following tasks:
 
 ### Configure the SMS number
 
-1. In the site map of Copilot Center admin center, go to **Customer support**, and then select **Channels**.
+1. In the site map of Copilot Service admin center, go to **Customer support**, and then select **Channels**.
     
 1. In **Accounts**, for **Messaging accounts**, select **Manage**.
 
