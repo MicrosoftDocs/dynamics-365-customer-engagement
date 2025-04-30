@@ -20,7 +20,7 @@ ai-usage: ai-assisted
 
 # Enable and configure Sales qualification agent
 
-Help sellers leverage AI for lead research, ideal customer profile (ICP) matching, and initial outreach email drafting. Configure the details about your company and products you sell, your ideal customer profile, and other settings. These configurations help align the agent with your company's sales strategy and goals.
+Help sellers leverage AI for lead research, ideal customer profile (ICP) fit assessment, and initial outreach email drafting. Configure the details about your company and products you sell, your ideal customer profile, and other settings. These configurations help align the agent with your company's sales strategy and goals.
 
 ## Prerequisites
 
@@ -107,35 +107,34 @@ The following steps describe how the tenant admin and the Dynamics 365 Sales adm
 
 After the agent gets activated, it starts working on the last 100 leads, with the newly created leads processed first.
 
-## Add web custom research
-
-You can add custom research sources to the agent's research synthesis. This addition allows the agent to pull information from specific websites that are relevant to your business and industry.
-
-You can add up to five custom web research sources.
-
-1. In the [Sales qualification agent settings page](#open-the-sales-qualification-agent-settings-page), scroll down to **Research** > **Lead research** > **Custom web research**.
-1. Select **Add custom research**.
-1. Specify the insights you want the agent to get from the website. For example, you could say, evaluate if the company is "safe" to engage with based on its inspections, crashes, and safety ratings from the past 24 months.
-1.  Add the URL of the website that provides the information. Ensure that the website is publicly accessible and doesn't require any authentication. Select **Next**.
-1. In the **Provide instructions** dialog, specify the following details:
-    1. Add specific instructions on what information you want the agent to extract from the website. For example, you could say, "Inspections, crashes, and safety ratings."
-    1. Select the field that's most relevant to the information you want to extract. For example, if you're extracting information about the safety rating of the lead's company, select **Lead** > **Company Name**.
-
 ## Add custom criteria for ideal customer profile
 
 Use custom criteria to define specific characteristics that are important for your ideal customer profile. You can select custom fields from Dataverse or add public URLs that provide relevant information about the lead's company. For example, you could add a custom criterion for "Company revenue" and map it to a custom field in Dataverse or provide a URL that lists the company revenue.
- 
-1. In the Sales qualification agent settings page, scroll down to **Qualification** > **Ideal customer profile**.
-1. Select **Add custom criterion**.
-1. Enter the name of the custom criterion. For example, "Company revenue"
-1. Take one of the following actions:
-    - Select **Select Dataverse field(s)** and then select the field that you want to map to the custom criterion. 
-    - Select **Or add public URL** and enter the URL of the website that provides the information. Ensure that the website is publicly accessible and doesn't require any authentication. In the **Provide instructions** dialog, specify the following details:
-        1. Add specific instructions on what information you want the agent to extract from the website. For example, you could say, "Look at the last earnings report and find the company revenue for the last quarter"
-        1. Select the field that's most relevant to the information you want to extract. For example, if you're extracting information about the revenue of the lead's company, select **Lead** > **Company Name**.
-1. Select **Add**.
-   The criterion is added to the list of ideal customer profile criteria.
-1. Enter the value for the custom criterion. For example, if the company revenue should be greater than $1 million, enter **>1000000**.
+
+1. In the Sales qualification agent settings page, scroll down to **Qualification** > **Ideal customer profile**.  
+1. Select **Add custom criterion**.  
+    :::image type="content" source="media/sqa-ideal-customer-profile-custom-criterion.png" alt-text="Screenshot of adding custom criterion to ideal customer profile configuration.":::
+1. Enter the name of the custom criterion. For example, "Company revenue".  
+1. Take one of the following actions:  
+
+    - Select **Select Dataverse field(s)** and then select the field that you want to map to the custom criterion.  
+
+    - Select **Or add public URL** to enter the company's URL that provides the information.  
+        1. In the text box, enter the company's URL. Ensure that the URL is publicly accessible and doesn't require any authentication.
+        1. Select **Next**.
+        1. In the **Provide instructions** dialog, add specific instructions on what information you want the agent to extract from the website. Also, you can add a Dataverse field to the instruction, enter the forward slash (**/**).  
+            For example, you could say, "Look at the last earnings report and find the company revenue for the last quarter /". The forward slash opens a dropdown list of available fields in the Dataverse table.  
+            Select a table and field from the list. In this example, **Lead** > **Company Name** is selected.  
+
+            :::image type="content" source="media/sqa-ideal-customer-profile-custom-criterion-instruction.png" alt-text="Screenshot of adding an instruction to custom criterion to ideal customer profile configuration.":::
+
+            The instruction is now "Look at the last earnings report and find the company revenue for the last quarter based on {{Lead.Company Name}}".  
+        1. Select **Add**.  
+            The instruction is added to the custom criterion.
+
+1. Select **Add**.  
+   The criterion is added to the list of ideal customer profile criteria.  
+1. Enter the value for the custom criterion. For example, if the company revenue should be greater than $1 million, enter **>1000000**.  
 
 ## Adjust the frequency of research data refresh
 
