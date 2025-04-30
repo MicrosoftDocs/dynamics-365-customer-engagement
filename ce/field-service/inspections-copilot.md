@@ -1,7 +1,7 @@
 ---
 title: Create inspections with Copilot
 description: Learn how to create inspections from existing documents with Copilot in Dynamics 365 Field Service.
-ms.date: 04/29/2025
+ms.date: 04/30/2025
 ms.topic: how-to
 author: josephshum-msft
 ms.author: jshum
@@ -16,7 +16,7 @@ Service organizations often have numerous procedures, forms, and checklists stor
 
 Copilot converts the uploaded documents into draft inspection templates that can be edited and published for technicians to fill in when completing work order tasks in the Field Services mobile app.
 
-> [!VIDEO 19a2b853-df64-4ffd-a72a-ce5cc680fa24]
+> [!VIDEO c1acf14d-6352-4621-b039-150dd4e96b38]
 
 > [!IMPORTANT]
 >
