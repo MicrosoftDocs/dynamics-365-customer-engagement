@@ -133,7 +133,7 @@ If a work item is routed to a fallback queue because of errors or route-to-queue
 
 Sometimes you might not want an overflow action to run for specific types of work items or for priority customers. Let's say that a priority customer calls, the queue to which they're routed is overflowing, and the queue is set to end the call or keep the customer waiting. Either action might violate the service-level agreement that you have with your customer. In this scenario, you might want to configure rule-specific overflow conditions for the queue in the workstream's route-to-queue rules.
 
-1. In the Copilot Service admin center site map, select **Customer support** > **Workstreams**.
+1. In the site map of Copilot Service admin center, select **Customer support** > **Workstreams**.
 
 1. Select the workstream, and then select the route-to-queue rule in which the queue is configured.
 
