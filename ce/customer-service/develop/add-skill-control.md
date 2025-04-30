@@ -16,7 +16,7 @@ search.audienceType:
 
 # Add a skill control for routed records
 
-Dynamics 365 provides a custom control that you can embed in your forms to view the skills of any routed record. To display the skill control for the routed record in the Customer Service workspace app, add the control to the multisession form.
+Dynamics 365 provides a custom control that you can embed in your forms to view the skills of any routed record. To display the skill control for the routed record in the Copilot Service workspace app, add the control to the multisession form.
 
 ## Prerequisites
 
