@@ -80,7 +80,7 @@ If a work item is routed to a fallback queue because of errors or route-to-queue
 
 ### Configure overflow conditions for before a work item is queued
 
-1. In the Copilot Service admin center site map, select **Customer support** > **Queues**.
+1. In the site map of Copilot Service admin center, select **Customer support** > **Queues**.
 
 1. Select **Advanced queues**, and then select the queue you want to manage overflow for.
 
