@@ -478,6 +478,8 @@
       items:
       - name: Overview of autonomous service agents
         href: /dynamics365/contact-center/administer/autonomous-agents-overview?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Manage consumption-based billing, capacity
+        href: setup-pay-as-you-go.md
       - name: Customer Intent Agent
         items:
         - name: Overview of Customer Intent Agent
@@ -499,9 +501,7 @@
         - name: Enable Customer Knowledge Management Agent
           href: admin-km-agent.md
         - name: Configure connection references
-          href: admin-km-agent-connections.md  
-      - name: Set up a pay-as-you-go plan
-        href: setup-pay-as-you-go.md
+          href: admin-km-agent-connections.md
     - name: Chat
       items:
       - name: Introduction to the chat channel
