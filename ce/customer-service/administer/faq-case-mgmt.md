@@ -60,7 +60,7 @@ Yes. More information: [Modify the case resolution dialog](modify-case-resolutio
 
 ### Why can't I see the custom value I added to Case resolution type field in the case resolution dialog?
 
-Make sure that you added the custom value to both the **Case** and **Case Resolution** entity for the custom value to be displayed on the case resolution dialog. More information: [Add custom values to the case resolution dialog](modify-case-resolution-dialog.md#add-or-remove-fields-from-the-custom-case-resolution-dialog).
+Make sure that you added the custom value to both the **Case** and **Case Resolution** entity for the custom value to be displayed on the case resolution dialog. Learn more in [Add custom values to the case resolution dialog](modify-case-resolution-dialog.md#add-or-remove-fields-from-the-custom-case-resolution-dialog).
 
 ### Why can't I set the Case Status field on a case to Resolved?
 
