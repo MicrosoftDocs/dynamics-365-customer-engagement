@@ -1,7 +1,7 @@
 ---
 title: Customize Copilot in Dynamics 365 Sales (preview)
 description: Learn how to extend Copilot in Dynamics 365 Sales to customize the welcome message, add prompts, and the prompt guide.
-ms.date: 03/18/2025
+ms.date: 04/30/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -39,9 +39,8 @@ You can customize the following aspects of the Copilot chat experience in Dynami
 
 ## Prerequisites for customization
 
-- You must have the [Copilot Studio](https://copilotstudio.microsoft.com/) license to customize Copilot in Dynamics 365 Sales. You can opt for the [Pay-as-you-go license](/microsoft-copilot-studio/billing-licensing#copilot-studio-pay-as-you-go-meter) for Copilot Studio as these customizations don't use messages. However, if you plan to use the license for other Copilot agents, review the [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing) before making a decision.
+To customize Copilot in Dynamics 365 Sales, you must have the **Copilot Studio Author** role. Contact your tenant administrator to assign the role to you in the Power Platform Admin Center. To know more about the role, see [Copilot Studio authors](/microsoft-copilot-studio/billing-licensing#copilot-studio-authors).  
 
-- You must have the permission to edit the Copilot in Dynamics 365 Sales agent.
 
 ## Customize Copilot using Copilot Studio
 
