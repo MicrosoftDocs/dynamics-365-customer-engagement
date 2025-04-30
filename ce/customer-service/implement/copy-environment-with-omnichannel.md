@@ -15,7 +15,6 @@ ai.usage: ai-assisted
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-
 Omnichannel capabilities in Dynamics 365 Contact Center and Dynamics 365 Customer Service let you integrate external services and channels such as WhatsApp, Twilio, and Azure Communication Services. The integration parameters are stored in Dataverse tables. To create a copy of an environment that contains omnichannel capabilities, you can use the standard copy feature of model-driven apps. The integration parameters are copied to the new environment. However, you need to perform some additional steps to make sure that the copied environment works correctly. For example, if you have digital messaging channels, you need to delete and configure them again.
 
 ## Prerequisites
@@ -77,6 +76,9 @@ If you chose the full copy option, it can take up to an hour for the data to app
 
 > [!NOTE]
 > To use the same agent in Copilot Studio in the target environment, reconnect it to the new environment, and then follow [the configuration steps](/microsoft-copilot-studio/configuration-hand-off-omnichannel?tabs=webApp#manage-your-copilots-omnichannel-capabilities) to disconnect and reconnect the application. If you reconnect the agent to another environment, it will break the source environment.
+
+> [!NOTE]
+> When you copy an organization, the survey agents from the source environment won't be functional in the target environment. For survey agents to work as expected, create new survey agents in the target environment. Learn more in [Configure feedback surveys using Copilot Studio](/dynamics365/contact-center/administer/configure-surveys).
 
 ## Configure AI agents in Azure in the target environment
 

@@ -1,11 +1,11 @@
 ---
 title: Resource Scheduling Optimization version history
 description: Version updates and updated features in the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service.
-ms.date: 03/14/2025
+ms.date: 04/10/2025
 ms.subservice: resource-scheduling-optimization
 ms.topic: overview
-author: DaPisani
-ms.author: dapisani
+author: AnilMur
+ms.author: anilmur
 ---
 
 # Resource Scheduling Optimization version history
@@ -40,6 +40,16 @@ For information about older versions, see [Version history archive](version-hist
 >[!NOTE]
 >
 > - Dates in all regions indicate the timing of the next automatic update. While most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.4.0.1406
+
+This release, available as of April 25, 2025 fixes a rounding bug that resulted in booking duration occasionally being increased. In addition, this release improves optimization reliability.
+
+## 3.4.0.1381
+
+This release, available as of April 10, 2025 has a fix for the following bugs:
+- Occasionally an optimization job creates fewer bookings than expected, resulting in schedules where not all resources are fully utilized.
+- Optimization requests sometimes fail with an error message "System failed to optimize some records. Inner error(s)".
 
 ## 3.4.0.1332
 

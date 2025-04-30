@@ -1,7 +1,7 @@
 ---
 title: Get information from Copilot
 description: Learn how to use Copilot in Dynamics 365 Sales to get information about your pipeline, summarize leads and opportunities, and get the latest news about your accounts.
-ms.date: 02/14/2025
+ms.date: 04/30/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -48,7 +48,9 @@ The opportunity summary includes the following information, if the information i
 - **Quote insights**: The number of quotes that are shared with the opportunity, along with the date of the most recent quote.
 - **Competitor insights**: The competitors that are associated with the opportunity, along with their strengths and weaknesses.
 
-Learn more about the default attributes that Copilot uses to generate summaries in Dynamics 365 Sales in [Default attributes used in Copilot summaries](understand-copilot-summaries.md#opportunity-summary). [Would you like to view a summary of different fields?](copilot-get-information.md#would-you-like-to-view-a-summary-of-different-fields)
+To summarize the opportunity, Copilot uses the information in the opportunity record and the associated records. To know which fields are required to generate the summary, see [Default attributes used in opportunity summaries](understand-copilot-summaries.md#opportunity-summary).
+
+[Would you like to view a summary of different fields?](copilot-get-information.md#would-you-like-to-view-a-summary-of-different-fields)
 
 ### View the opportunity summary widget
 
@@ -106,12 +108,14 @@ Alternatively, type **Summarize account /** from anywhere in the app or from the
 
 :::image type="content" source="media/copilot-account-summary.png" alt-text="Screenshot of a Copilot account summary in Dynamics 365 Sales.":::
 
-The account summary includes the following information, if the information is available in the account record:
+The account summary includes the following information:
 
 - **Basic information**: Annual revenue, number of employees, country/region, and parent account.
 - **Key information**: How long the account has been associated with your organization, its domain, the total value of closed opportunities, the most recently closed opportunity, the most recent activity, and other AI-generated information.  
 - **Leads, opportunities, and cases**: Open leads, opportunities, and cases that are associated with the account and that you have read access to. Up to 10 records are displayed in each section. Your organization must have the Dynamics 365 Customer Service app for cases to be displayed.
     Select the section to view the details of the associated records. To summarize a specific lead, opportunity, or case, hover over the record and select **Summarize**.
+
+To summarize the account, Copilot uses the information in the account record and the associated leads, opportunities, and cases. To know which fields are required to generate the summary, see [Default attributes used in account summaries](understand-copilot-summaries.md#account-summary).
 
 To drill down into the details of the account, select the suggested prompts that are displayed below the summary. If you have a LinkedIn Sales Navigator license, the **Find relevant Sales Navigator accounts** prompt is also suggested. [Would you like to view a summary of different fields?](copilot-get-information.md#would-you-like-to-view-a-summary-of-different-fields)
 
@@ -160,8 +164,10 @@ Keep in mind that the summary fields are set at the organization level. Make sur
 
 Copilot can get the latest news that features or mentions your accounts, curated by Bing. These news articles can be great conversation starters and help you understand the dynamics in your customers' organizations.
 
-> [!NOTE]
-> The latest news feature is available only if your administrator has [provided consent for Copilot to use Bing search](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features).
+The latest news feature is available only if the following conditions are met:  
+
+- Your admin has provided consent for Copilot to use Bing search. Learn more in [provide consent for Copilot to use Bing search](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features).  
+- You haven't turned off the Bing search. Learn more in [Turn off Bing search](use-sales-copilot.md#turn-off-bing-search)
 
 As always when you're working with AI-sourced content, read articles thoroughly to confirm they're from authentic sources and are indeed about your customer.
 
