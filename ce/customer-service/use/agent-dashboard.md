@@ -32,7 +32,7 @@ The reports summarize the KPIs for the specified time period and percentage chan
 | Rejected/ timed-out sessions rate | The number of sessions presented to a service representative and not accepted. |
 | Transfer rate | The percentage of conversations that are transferred to another representative or queue. |
 | Avg. session handle time | The average total session active time across engaged sessions.  |
-| Avg. CSAT | The average of customer satisfaction ratings provided by customers. Only available if Dynamics 365 Customer Voice is configured as a post conversation survey tool. |
+| Avg. CSAT | The average of customer satisfaction ratings provided by customers. Only available if Dynamics 365 Customer Voice is configured as a post-conversation survey tool. |
 | Avg session sentiment | The average predicted sentiment of a customer based on the conversation transcript from the session. For information on how the sentiment data is derived, see [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md).|
 
 The charts display the following metrics.
