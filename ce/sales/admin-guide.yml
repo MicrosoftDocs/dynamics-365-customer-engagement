@@ -62,6 +62,8 @@ landingContent:
          links:
           - text: Enable and configure Copilot
             url: enable-setup-copilot.md
+          - text: Enable Copilot email assist
+            url: enable-copilot-email-assist.md
           - text: Copilot data movement across geographies
             url: /power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features
 
