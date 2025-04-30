@@ -1,7 +1,7 @@
 ---
 title: Provision unified routing in Customer Service
 description: Learn how to provision unified routing in Customer Service.
-ms.date: 09/30/2024
+ms.date: 04/14/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -31,7 +31,7 @@ With the Customer Service Enterprise license, you'll get unified routing for tab
 
 ## Provision unified routing for Customer Service only
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Routing**. The **Routing** page appears.
+1. In the site map of Copilot Service admin center, select **Routing**. The **Routing** page appears.
    
 1. In **Manage unified routing**, select **Manage**.
 
