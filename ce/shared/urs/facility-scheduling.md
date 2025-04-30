@@ -170,7 +170,7 @@ An auto repair shop wants to schedule each individual bay at their facility. Cre
 
    :::image type="content" source="../../field-service/media/scheduling-facility-schedule-assistant-specific-rooms.png" alt-text="Screenshot of schedule assistant results showing pairs of two bays each at the same location.":::
 
-### Scenario 4: Schedule a facility with three specific spaces and three related resources
+### Scenario 4: Schedule a facility with two specific spaces and two related resources
 
 An auto repair shop wants to schedule specific bays at their facility to a pool of specialized mechanics who work at the facility. Create a pool of facilities and a pool of mechanics.
 
@@ -186,7 +186,7 @@ An auto repair shop wants to schedule specific bays at their facility to a pool 
    - Open the auto repair shop facility pool resource, and go to **Related > Resource Children**.
    - Add each bay resource as a child record to the parent facility pool.
 
-1. [Create a pool](./../field-service/resource-pools#create-a-resource-pool) of specialized mechanics.
+1. [Create a pool](resource-pools.md#create-a-resource-pool) of specialized mechanics. Using a pool allows schedulers to book appointments based on capacity without having to assign a specific mechanic at the time of scheduling.
 
    - Set **Resource Type** to **Pool**.
    - Set **Pool Type** to **Contact**, **User**, or **Account**.
@@ -196,9 +196,9 @@ An auto repair shop wants to schedule specific bays at their facility to a pool 
 1. Create resources to represent the specialized mechanics.
 
    - Set the resource type to **User**, **Account**, or **Contact**.
-   - The Start/end location should be set to **Organizational Unit Address** and the organizational unit should be set to the same organizational unit of the facility resource.
+   - Set the **Start/End Location** to **Organizational Unit Address** and select the same organizational unit as the auto repair shop.
 
-1. Add the mechanic resources as [resource children to the mechanics pool](./../field-service/resource-pools#add-pool-members).
+1. Add the mechanic resources as [resource children to the mechanics pool](resource-pools.md#add-pool-members).
 
    :::image type="content" source="../../field-service/media/scheduling-facility-mechanic-pool-children.png" alt-text="Screenshot of relating mechanics as children to the parent mechanic pool.":::
 
@@ -208,31 +208,26 @@ An auto repair shop wants to schedule specific bays at their facility to a pool 
    - Select **New Bookable Resource Association**.
    - Enter a name, timeframe, and select the mechanic pool for **Resource 1**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of associating the pediatrician pool to the doctor's office/health clinic pediatrician pool.](../../field-service/media/scheduling-facility-associate-pediatricians-health-clinic.png)
+   :::image type="content" source="../../field-service/media/scheduling-facility-associate-mechanic-pool.png" alt-text="Screenshot of associating the mechanic pool to the auto repair facility pool.":::
 
 1. Create a requirement group for bays and mechanics.
- 
-   - Setting **Part of Same** to **Resource Tree** ensures bays and mechanics are related to the same facility resource through resource children or resource association.
 
-   - For each room requirement, set the resource type to facility.
+   - Set **Part of Same** to **Resource Tree** to ensure bays and mechanics are related to the same facility resource through resource children or resource association.
 
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of requirement group calling for two rooms and a pediatrician that are all part of the same resource tree.](../../field-service/media/scheduling-facility-requirement-group-clinic-doctors.png)
+   - Set duration, charactistics, or other criteria.
 
-   The resource types you choose for the mechanic requirement affects schedule assistant results.
+   - Create a requirement for each bay.
 
-   **On the requirement, if Resource Type = Pool and Pool Type =  Users**, **Accounts**, or **Contacts**, the mechanic pool resource shows in the results.
+   - Create a requirement for the pool of mechanics. Set the **Resource Type** to **Pool** and **Pool Type** to **Contact**, **User**, or **Account** depending on how you set up your mechanics.
 
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of schedule assistant results utilizing pediatrician pool.](../../field-service/media/scheduling-facility-requirement-group-clinic-doctors-schedule-assistant-pool.png)
+   :::image type="content" source="../../field-service/media/scheduling-facility-mechanic-pool-req-group.png" alt-text="Screenshot of requirement group showing 2 bays and a pool of mechanics.":::
 
-   This allows you to book the mechanics pool and assign a specific mechanic at a later time. Whether mechanics show as results depend on capacity (as derived from the number of mechanics in the pool). Using the pool allows schedulers to book appointments based on capacity without having to assign a specific mechanic at the time of scheduling.
+     > [!TIP]
+     > If you want specific mechanics to show in the results rather than the pool, set the **Resource Type** to **Contact**, **User**, or **Account** depending on how you set up your mechanics.
 
-   **On the requirement, if Resource Type = Users, Accounts, Contacts, (Not Pools)**, specific mechanic resources show in results, as seen in the following screenshot.
+1. Book the requirement group.
 
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of schedule assistant results with specific doctor resource as option into utilizing pediatrician pool.](../../field-service/media/scheduling-facility-requirement-group-clinic-doctors-schedule-assistant.png)
+   :::image type="content" source="../../field-service/media/scheduling-facility-mechanic-pool-bookings.png" alt-text="Screenshot of schedule board with available booking slots for the bays and mechanic pool.":::
 
    > [!Note]
    > Use fulfillment preferences to display schedule assistant results in neat hourly timeslots.
