@@ -69,7 +69,7 @@ If you need to create a metric within the existing entities (as described in [Sc
 
 1. Right-click the entity for which you want to create your new metric.
 
-1. Enter the Data Analysis Expressions (DAX) logic for real-time metrics after selecting the required attributes such as name and data type. For more information about DAX, go to [DAX function reference](/dax/dax-function-reference).
+1. Enter the Data Analysis Expressions (DAX) logic for real-time metrics after selecting the required attributes such as name and data type. Learn more in [DAX function reference](/dax/dax-function-reference).
 
 1. Save your measure and include it in your visualization as required.
 

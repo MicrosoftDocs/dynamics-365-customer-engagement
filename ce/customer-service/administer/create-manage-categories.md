@@ -25,8 +25,7 @@ searchScope:
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-
-Using the **Categories** entity, you can create hierarchical categorical data to help group records. Categorizing entity records in the application helps you tag the records so that you can easily search them. Use the entity to create and manage a logical structure of categories in Dynamics 365 Customer Service, and then associate entity records to one or more categories.
+Use the **Categories** entity to create hierarchical categorical data to help group records. Categorizing entity records in the application helps you tag the records, so that you can easily search them. Use the entity to create and manage a logical structure of categories in Dynamics 365 Customer Service, and then associate entity records to one or more categories.
 
 Categories are useful for reporting, sorting, segmenting, and categorization of records.
 
@@ -42,8 +41,7 @@ Categories are useful for reporting, sorting, segmenting, and categorization of 
 
 
 1. In the site map of Copilot Service admin center, select **Knowledge** in **Support experience**. The **Knowledge** page appears.
-1. In the **Categories** section, select **Manage**. The **All Categories** view is displayed. You can switch between various system views using the dropdown list.
-  
+1. In the **Categories** section, select **Manage**. The **All Categories** view is displayed. You can switch between various system views using the dropdown list. 
 1. On the command bar, select **New** to create a new category record.  
  
 1. Enter the required information.
