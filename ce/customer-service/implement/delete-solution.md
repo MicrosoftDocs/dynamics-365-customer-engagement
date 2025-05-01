@@ -25,6 +25,48 @@ You must have removed [Omnichannel for Customer Service](/dynamics365/contact-ce
 >
 > For example, if you plan to remove omnichannel solutions from your organization, you must remember that the unified routing part of Omnichannel for Customer Service solutions might be used in unified routing for Customer Service. Therefore, you must ensure that you don't uninstall or delete the common solutions because it might affect the way unified routing works in Customer Service.
 
+> [!IMPORTANT]
+> There are out-of-box solutions that come preinstalled on your Customer Service org that cannot be removed. For a full list of solutions, see below:
+> msdyn_UnifiedRoutingForEntity
+> UnifiedRouting
+    MLDecisionEngine
+    msdyn_OmnichannelSharedBase
+    msdyn_OmnichannelBase
+    msdyn_OmnichannelBaseApp
+    msdyn_D365CTQMIProd
+    msdyn_D365CTQMITest
+    msdyn_D365CTQMIGCC
+    OCBaseURBase
+    AgentAvailabilityStatus
+    AgentGroupManager
+    AssignmentSQLCacheSyncPluginManager
+    msdyn_OmnichannelSBR
+    msdyn_OmnichannelSBRPatch
+    OCISBR
+    OCIER
+    OCSR
+    OOBLanguageAndRegion
+    msdyn_CCASentimentRoutingAI
+    msdyn_ConversationInsight
+    msdyn_ProductivityMacrosApplicationOC
+    msdyn_ContactCenterManagementPermissions__Public
+    msdyn_OmnichannelBotEnabler
+    msdyn_OmnichannelBotExtension
+    msdyn_OmnichannelConversationExtension
+    msdyn_OmnichannelPrime
+    msdyn_OmnichannelComponentDeprecation
+    msdyn_OmnichannelPrimeAnchor
+    msdyn_OmnichannelAutomatedMessages
+    msdyn_OmnichannelChatConfiguration
+    msdyn_OmnichannelSpamConfig
+    msdyn_OmnichannelRichmessages
+    msdyn_OmnichannelPaymentConfig
+    msdyn_OmnichannelAuthenticationConfig
+    msdyn_OmnichannelBotChannelConfiguration
+    msdyn_OmnichannelMessaging
+    msdyn_ContactCenterEnablementPermissions__Public
+    msdyn_ContactCenterEnablement
+
 ## Uninstall solutions
 
 1. Sign in to your `https://<org>.dynamics.com/apps` environment.
