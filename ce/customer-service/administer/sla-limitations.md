@@ -1,7 +1,7 @@
 ---
 title: SLA limitations
 description: Learn the limitations of service-level agreements in Dynamics 365 Customer Service.
-ms.date: 09/04/2024
+ms.date: 04/30/2025
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -34,7 +34,7 @@ The following limitations apply to SLAs created in Unified Interface apps:
 - Out of the box, you can’t retrieve data for SLA related case fields, such as **Active Duration** and **Elapsed Time**.
 - You can't edit or remove an SLA that's already assigned to a case. However, you can customize how SLAs can be assigned to other cases and pause the SLA timer.
 - You can’t manually update SLA time.
-- If you're migrating more than 1000 SLAs, they might not pass the premigration checkup that processes all legacy SLAs. You can use the **&flags=FCB.SkipPreMigrationCheckUp=true** flag in the URL to skip the premigration checkup. To access the URL, go to **Miscellaneous** **>** **ARC and SLA migration** in the Customer Service admin center site map.
+- If you're migrating more than 1000 SLAs, they might not pass the premigration checkup that processes all legacy SLAs. You can use the **&flags=FCB.SkipPreMigrationCheckUp=true** flag in the URL to skip the premigration checkup. To access the URL, go to **Miscellaneous** **>** **ARC and SLA migration** in the Copilot Service admin center site map.
 
 ### Related information
 

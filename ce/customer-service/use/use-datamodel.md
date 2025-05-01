@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to 
 ms.collection: 
-ms.date: 05/02/2025
+ms.date: 04/30/2025
 ms.custom: bap-template
 ---
 
@@ -183,7 +183,7 @@ Here's an example that describes how to filter the out-of-the-box Customer Servi
  
 ## Publish reports back to Dynamics 365 Customer Service  
 
-After you've created the new reports, you can enable your Dynamics 365 users to be able to view these reports from the Customer Service workspace app. Work with your administrator to ensure that the viewers have appropriate access to [view and embed](../administer/configure-customer-service-analytics-insights-csh.md) these reports in Dynamics 365.  
+After you've created the new reports, you can enable your Dynamics 365 users to be able to view these reports from the Copilot Service workspace app. Work with your administrator to ensure that the viewers have appropriate access to [view and embed](../administer/configure-customer-service-analytics-insights-csh.md) these reports in Dynamics 365.  
 
 ## Next steps
 
