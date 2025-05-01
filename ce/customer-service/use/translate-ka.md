@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 07/01/2024
+ms.date: 05/02/2025
 ms.custom: bap-template
 ---
 
@@ -13,8 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-
-Your knowledge article must reach your customers irrespective of their market or region. The knowledge management capability helps you set the translation language for your articles, which enables you to provide the same self-help content in multiple languages without having to manage multiple copies of the same article.
+Your knowledge article should reach customers regardless of their market or region. The knowledge management feature allows you to set a translation language for your articles, enabling you to deliver the same self-help content in multiple languages without maintaining multiple copies of the article.
 
 ## Select a language for your knowledge article translation
 
@@ -37,7 +36,7 @@ Your knowledge article must reach your customers irrespective of their market or
    -   Article Description  
    -   Content  
   
-6. When you are done reviewing and your article is ready for publish, select **More** > **Publish**. Select how and when you want to publish your new version. You can publish your new version immediately, schedule the publish for a future date, or leave it as a draft to publish it manually at a later point in time. More information: [Publish knowledge articles](publish-ka.md#publish-knowledge-articles)
+6. When you are done reviewing and your article is ready for publish, select **More** > **Publish**. Select how and when you want to publish your new version. You can publish your new version immediately, schedule the publish for a future date, or leave it as a draft to publish it manually at a later point in time. Learn more in [Publish knowledge articles](publish-ka.md#publish-knowledge-articles).
   
 ## Manage article translations  
 

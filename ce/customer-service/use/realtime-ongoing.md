@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 03/27/2025
+ms.date: 04/30/2025
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -19,7 +19,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The **Ongoing conversation** report shows ongoing conversations from the last 24 hours that are currently being handled by customer service representatives (service representatives) in your organization and that aren't yet closed. The report displays those conversations that have the open, active, wrap-up, or waiting status. Learn more in [Understand conversation states](oc-conversation-state.md).
+The **Ongoing conversation** report shows ongoing conversations from the last 24 hours that are currently being handled by customer service representatives (service representatives or representatives) in your organization and that aren't yet closed. The report displays those conversations that have the open, active, wrap-up, or waiting status. Learn more in [Understand conversation states](oc-conversation-state.md).
 
 This report provides a holistic view of the conversations in real time. It includes details about subject, status, active service representative details, queue, channel, wait time, handle time, and customer sentiment. Learn more in [Overview of Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md).
 
@@ -49,7 +49,7 @@ Refer to the following table to see when assign and transfer are enabled, depend
 
 ### Assign conversations
 
-1. In the Contact Center workspace or Customer Service workspace app, go to the dashboard view selector, and then select the **Ongoing Conversations** report.
+1. In the Copilot Service workspace app, go to the dashboard view selector, and then select the **Ongoing Conversations** report.
 
 1. Select a conversation in an **Open** state, and then select **Assign**.
 
@@ -108,7 +108,7 @@ To perform the actions on your customized reports, complete these prerequisites:
 - Create reports using [the out-of-the-box data model in your custom reports](use-datamodel.md#use-the-out-of-the-box-data-model-in-your-custom-reports).
 - Make sure appropriate roles exist for viewing and embedding reports. Learn more in [Configure analytics and insights dashboards](../administer/configure-customer-service-analytics-insights-csh.md#configure-analytics-and-insights-dashboards).
 
-In Customer Service workspace, go to **Customized reports** > **Ongoing conversations** report, and then select the conversation that needs to be updated.
+In Copilot Service workspace, go to **Customized reports** > **Ongoing conversations** report, and then select the conversation that needs to be updated.
  
 When the **Agent Name** doesn't exist, the following options are enabled.
   - **Assign**: Assign a representative by queue for the conversation.
