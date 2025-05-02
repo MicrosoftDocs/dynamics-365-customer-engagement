@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to
-ms.date: 04/02/2025
+ms.date: 04/30/2025
 ms.custom: bap-template 
 ---
 
@@ -17,10 +17,10 @@ When your organization has a large number of users, adding them to experience pr
 
 ## Search for users
 
-Before you assign users to experience profiles, you can search for users to see if they are already associated with a profile.
+Before you assign users to experience profiles, you can search for users to see if they're already associated with a profile.
 
 1. In **Experience profiles** select **Search by user**. The **Experience Profile Search by User** pane appears.
-1. In the **User** field, enter the name of the user.  The application displays the users that match the search criteria. 
+1. In the **User** field, enter the name of the user. The application displays the users that match the search criteria. 
 1. Select the required user from the list or select **Advanced lookup** to perform an advanced search.
 1. The application displays the experience profiles that the selected user is associated with along with one of the following assignment methods:
      - **Default**: The user is assigned to out-of-the-box experience profiles or custom default profile.
@@ -30,13 +30,13 @@ You can also select the experience profile to view the profile details.
 
 ## Set a custom experience profile as default
 
-You can set a custom experience profile as the default profile. When you've set a default profile, all the options configured in the profile such as specific session templates, conversation channels, and productivity tools are available for all the users.
+You can set a custom experience profile as the default profile. When you set a default profile, all the options configured in the profile such as specific session templates, conversation channels, and productivity tools are available for all the users.
 
 > [!NOTE]
-> - The custom experience profile that’s set as the default isn’t applicable to users who are assigned specific custom experience profiles.
+> - The custom experience profile that set as the default isn’t applicable to users who are assigned specific custom experience profiles.
 > - You can't set the out-of-the-box experience profiles as the default.
 
-For example, you've created a new experience profile, Contoso Representative profile, with knowledge search and scripts features enabled. If you set the Contoso Representative profile as the default profile, all the users in the organization can access knowledge search and scripts in the productivity pane.
+For example, you created a new experience profile, Contoso Representative profile, with knowledge search and scripts features enabled. If you set the Contoso Representative profile as the default profile, all the users in the organization can access knowledge search and scripts in the productivity pane.
 
 You also have another experience profile, Datum Representative profile, with specific user, Angel Chiu. Only the smart assist feature is enabled for the profile.
 
@@ -84,7 +84,7 @@ When you set a custom profile as the default, the following changes occur:
 
 ### Remove rank and roles assigned to a profile
 
-Select the required experience profile and then select **Remove rank and roles** to remove the rank and roles assigned to the profile.  If you select this option, all the roles mapped to the profile will be removed.
+Select the required experience profile and then select **Remove rank and roles** to remove the rank and roles assigned to the profile. If you select this option, all the roles mapped to the profile are removed.
 
 ## Manage users assigned to experience profiles
 
@@ -92,7 +92,7 @@ The application lets you set a default experience profile and assign security ro
 
 :::image type="content" source="../media/agent-exp-profiles-mini.png" alt-text="experience profiles" lightbox="../media/agent-exp-profiles.png":::
 
-For example, you've set up your experience profiles and mapped users as summarized in the table:
+For example, you set up your experience profiles and mapped users as summarized in the table.
 
 |Experience profile   | Rank  | Security Role|User |
 |----------|-----------|------------|---------------|
@@ -101,7 +101,7 @@ For example, you've set up your experience profiles and mapped users as summariz
 | Contoso Representative profile | | | Default|
 | Datum Supervisor profile | | | Gabriel Diaz, Kayla Lewis|
 
-Here's how the application assigns the expereince profiles:
+Here's how the application assigns the experiences profiles:
 
 - Users with the Omnichannel Supervisor role are assigned the Contoso Supervisor profile.
 - Users with the Omnichannel agent role are assigned the Datum Representative profile.
@@ -111,7 +111,7 @@ Here's how the application assigns the expereince profiles:
 - All the remaining users are assigned the Contoso Representative profile.
 
 > [!NOTE]
-> If you haven't set a default custom profile or assigned an experience profile to a role, the application assigns the default out-of-the box profile to all the available users.
+> If you haven't set a default custom profile or assigned an experience profile to a role, the application assigns the default out-of-the-box profile to all the available users.
 
 ### FAQs
 

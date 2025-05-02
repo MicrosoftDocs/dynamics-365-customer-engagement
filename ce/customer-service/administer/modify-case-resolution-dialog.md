@@ -1,7 +1,7 @@
 ---
 title: Customize the case resolution dialog
 description: Add custom fields and values to the case resolution dialog to improve case management and organization.
-ms.date: 06/21/2024
+ms.date: 04/19/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -37,7 +37,7 @@ If you have custom security roles, you must update the roles to use the modified
 
 You can set the case resolution dialog that customer service representatives see when they resolve the case. By default, the field is set to **Standard dialog**. Perform the following steps to set the resolve case dialog to a customizable case resolution dialog. This enables you to modify the case resolution dialog to add or remove fields and values.
 
-1. In the site map of Customer Service admin center, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
+1. In the site map of Copilot Service admin center, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
      
 1. Select **Manage** for **Other Settings**.
 

@@ -1,7 +1,7 @@
 ---
-title: "Productivity pane | MicrosoftDocs"
-description: "Use the productivity pane settings in Power Apps to display agent scripts and smart-assist cards for your agents."
-ms.date: 02/29/2024
+title: Productivity pane
+description: Use the productivity pane settings to display scripts and smart-assist cards for your representatives.
+ms.date: 04/30/2025
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -16,9 +16,7 @@ ms.reviewer: nenellim
 > [!NOTE]
 > Case information is applicable to Customer Service only.
 
-
-
-The productivity pane in Customer Service workspace and Contact Center workspace enables you to display knowledge search, agent scripts, and smart-assist cards in a unified view. Configure knowledge search, agent scripts, and smart-assist cards, so these agent guidance tools will appear in Customer Service workspace and Contact Center workspace.
+The productivity pane in Copilot Service workspace enables you to display knowledge search, scripts, and smart-assist cards in a unified view. Configure knowledge search, scripts, and smart-assist cards, so these representative guidance tools appear in Copilot Service workspace.
 
 You can set the productivity pane in collapsed mode or expanded mode, as shown in the following illustrations.
 
