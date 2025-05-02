@@ -176,4 +176,3 @@ To see verbose console logging during rule evaluation, modify your script tag to
 [Embed chat widget in your website or portal](embed-chat-widget-portal.md)  
 [Develop a custom live chat widget](../develop/develop-live-chat-widget.md)   
 
-[!INCLUDEfooter-include]
