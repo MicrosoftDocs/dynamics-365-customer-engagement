@@ -32,9 +32,9 @@ Before you set up the agent, ensure that the following prerequisites are met:
 - [New look](/power-apps/user/modern-fluent-design#enabling-the-modern-look-for-my-app-and-removing-the-toggle): Ensure that you enabled the new look for the Sales Hub app.
 
 - Identify the products for which you want to configure the Sales qualification agent. Ideally, these products should be handled by a single sales team and have a similar ideal customer profile. For example, if your company sells multiple products through different sales teams, identify a product line and the corresponding sales team that the agent should help you with.  
-<a name="grant-permissions"></a>
 
-- Ensure that **User** level permissions for **read**, **write**, **create**, **append**, **append to**, and **assign to** are granted to the following entities in the security role of the sellers who will be using the agent:  
+<a name="grant-permissions"></a>
+- Grant **User** level permissions **read**, **write**, **create**, **append**, **append to**, and **assign to** for the following entities to the seller's security role using the agent.
 
     - Sales Copilot Email Insight
     - Sales Copilot Insight
