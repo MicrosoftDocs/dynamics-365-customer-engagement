@@ -1,195 +1,179 @@
 ---
-title: Deploy chat widgets across websites using a single tag
-description: Simplify web deployment by using a single script tag which launches different chat experiences through Web Engagement Orchestration
-ms.date: 04/28/2025
+title: Deploy chat widgets using a single tag
+description: Simplify web deployment by using a single script tag that launches different chat experiences through web engagement orchestration.
+ms.date: 05/02/2025
 author: garmuldoon
 ms.author: gmuldoon
-ms.reviewer: 
+ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection:
-ms.custom:
+ms.custom: bap-template
 ---
 
-# Deploy chat widgets across websites using a single tag
+# Deploy chat widgets using a single tag
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-The Live Chat Widget is deployed using a widget-specific script tag (learn more in [Embed chat widget in your website or portal](embed-chat-widget-portal.md)) and customized using JavaScript (learn more in [Develop a custom live chat widget](../develop/develop-live-chat-widget.md)). This method is easy to use and good for small chat deployments.
+The live chat widget is deployed using a [widget-specific script tag](embed-chat-widget-portal.md) and customized using JavaScript. learn more in [Develop a custom live chat widget](../develop/develop-live-chat-widget.md). This method is easy to use and good for small chat deployments.
 
-As your chat program grows, however, you may find it complicated to handle multiple workstreams and multiple sets of customizations. **Web Engagement Orchestration** simplifies development by enabling you to deploy a single script tag to your entire site. Workstream selection and customizations are handled through configurable business logic in the Admin Center, rather than through JavaScript on your pages.
+However, as your chat program grows, you might find it complicated to handle multiple workstreams and multiple sets of customizations. Web engagement orchestration simplifies deployment by enabling you to deploy a single script tag to your entire site. The workstream selection and customizations are handled through configurable business logic in the admin center, rather than through JavaScript on your pages.
 
-This feature is found in the Customer Service Admin Center, inside the Channels tab of the Customer support section, labeled as "Web Engagement." Select "Manage" to get started.
+## Manage engagement rulesets
 
-![Screenshot of admin center Channels tab with Web Engagement highlighted](../media/weo_location.png)
+Web engagement orchestration is defined by a set of rules, collected into versions and are a part of a **Ruleset**. Rulesets allow you to group your rules for different purposes. Typically, you use multiple rulesets if you support multiple brands or sites whose chat programs don’t overlap.
 
-## Creating and managing rulesets
+### Create a ruleset
 
-Web Engagement Orchestration is defined by a set of rules, which are collected into versions, which are part of a **Ruleset**. Rulesets allow you to group your rules for different purposes. Typically, you use multiple rulesets if you support multiple brands or sites whose chat programs don’t overlap.
+1. In the site map of Copilot Service admin center, go to **Channels** &gt; **Web Engagement** &gt; **Manage**.
 
-### Creating a ruleset
+1. On the **Engagement Rulesets** page, select **New**, and enter the following details on the dialog.
 
-To add a new Ruleset, simply click the New button: ![Button with new label](../media/weo_new.png)
+   - **Name**: Unique name for the group of rules.
+   - **Description**: Optionally, a short description to help you and your team remember the purpose of this ruleset.
+   - **Function Path**: Optionally, path to the function to retrieve any custom context values that you define. Learn more in [Manage context variables](manage-context-variables.md). This method is an easier way to provide context variables than the event listener method described here: [Send custom context during live chat](../develop/send-context-starting-chat.md). Web engagement orchestration uses the context variables for rule evaluation, and passes them to the contact center should the customer start a new conversation.
 
-And then enter these values:
+:::image type="content" source="../media/weo_ruleset.png" alt-text="![Screenshot of engagement ruleset](../media/weo_ruleset.png)":::
 
--  **Name**: Unique name for the group of rules.
--  **Description**: A short description to help you and your team remember the purpose of this ruleset. _Optional_.
--  **Function Path**: When using Web Engagement Orchestration, we retrieve any Custom Context values (learn more in [Manage context variables](manage-context-variables.md)) from the function you define here. This method is an easier way to provide Context Variables than the event listener method described here: [Send custom context during live chat](../develop/send-context-starting-chat.md). Web Engagement Orchestration uses those context variables for rule evaluation, and passes them to Contact Center should the customer start a new conversation. _Optional_.
+### Retrieve your script tag
 
-![New ruleset entry form](../media/weo_ruleset.png)
+The primary benefit of web engagement orchestration is allowing you to use a single script tag. To retrieve the script tag,
 
-### Retrieving your script tag
+1. Select the row of a particular ruleset.
+1. Select **Copy Live Chat Widget Script**. The script tag is copied to your clipboard, which can then be used on your site. The script tag is unique per ruleset.
 
-The primary benefit of Web Engagement Orchestration is allowing you to use a single script tag. You can retrieve this script tag by:
+### Manage rulesets
 
-- Selecting the row of a particular Ruleset
-- Selecting the "Copy Live Chat Widget Script" button from the top of the page ![Button with publish label](../media/weo_publish.png)
+You can edit and delete rulesets by selecting them and then using the appropriate button at the top of the screen.
 
-This action places the script tag in your clipboard, which can then be used on your site. The script tag is unique per ruleset.
+- **Edit**: Change the name, description, or function path of an existing ruleset
+- **Delete**: Deletes the ruleset. This action is irreversible.
 
-### Managing rulesets
+## Create and manage versions
 
-You can Edit and Delete rulesets by selecting them and then using the appropriate button at the top of the screen.
+**Versions** are sets of engagement rules. They allow you to have a "live" set of rules while you’re working on new changes. You can always roll back to an older set of rules if needed.
 
-- **Edit**: Change the name, description, or function path of an existing Ruleset
-- **Delete**: Delete the Ruleset. This action is irreversible.
+### Create a version
 
-Selecting the underlined name of a Ruleset opens the Version page.
-
-## Creating and managing versions
-
-**Versions** are sets of Engagement Rules. They allow you to have a "live" set of rules while you’re working new changes, and to always roll back to an older set of rules if needed.
-
-### Creating a version
-
-Select the New button: ![Button with new label](../media/weo_new.png)
-
-And choose these values:
+Select a ruleset and on the **Versions** page, select **New**, and enter the following details:
 
 -	**Source Version Number**: Select a particular source to copy all Engagement Rules from that source version. Typically you want to select the last version you created. If you're creating your first version, or if you want to create rules from scratch, select "No source – New"
 -	**New Version Number**: A numerical ruleset number using the format "#.#". We automatically increment the source version number you chose, but you can change the version number or edit it later.
--	**Description**: Something to help you remember the purpose of this version. _Optional_.
+-	**Description**: Optionally, something to help you remember the purpose of this version.
 
 ![Screenshot of new version form](../media/weo_new_version.png)
 
-### Publishing a version
+### Publish a version
 
-You can publish a version by:
+To publish a version:
 
--	Selecting the row of a particular version
--	Selecting the "Publish" button from the top of the page
+1. Select the row of a particular version.
+1. Select **Publish** on the command menu.
 
-Publishing a version means that the set of Engagement Rules inside are applied with this Ruleset’s script tag. Only one version can be published at a time – publishing a different version removes the published flag from the old version. Which version is published is shown under the "Publish Status" column.
+When you publish a version, the set of engagement rules that you have defined are applied with the ruleset script tag. You can publish one version only at a time. When you publish a different version, the published flag from the old version is removed. The **Publish Status** column displays the publish status.
 
-### Managing versions
+### Manage versions
 
-You can Edit, Delete, and Duplicate versions by selecting them and then using the appropriate button at the top of the screen.
+You can do the following with the versions by selecting a version.
 
 -	**Edit**: Change the version number or description. Not available for the published version.
 -	**Delete**: Delete the version. This action is irreversible.
 -	**Duplicate**: Create a new version, prefilling the source version with the selected version.
 
-Selecting the underlined name of a version opens the Engagement Rules page.
+Selecting the underlined name of a version opens the **Rules** page where you define the engagement rules.
 
-## Engagement rules
+## Manage engagement rules
 
-These rules are the center of Web Engagement Orchestration, and how you configure which chat experience to show your customers.
+These rules are the center of web engagement orchestration, and how you configure the chat experience to show your customers.
 
-### Creating an Engagement Rule
+Select **New** to open the rule builder.
 
-Select the New button to open the Rule Builder: ![Button with new label](../media/weo_new.png)
+The **Rule Builder** is divided into two sections: 
+- **Conditions**: Conditions decide whether a rule should run
+- **Actions**: Actions determine how to engage the customer. After a rule evaluates as true and the customer is engaged, the web engagement orchestration stops evaluating the rest of the rules if they exist in the ruleset.
 
-The Rule Builder is divided into two sections: **Conditions** and **Actions**. Conditions decide whether a rule should fire, and Actions dictate how to engage the customer. Once a rule evaluates as true and the customer is engaged, Web Engagement Orchestration stops evaluating rules even when more exist in the ruleset.
-
-#### Add name and description
+### Add name and description
 
 For your reference, specify a rule name and description. Description is optional.
 
-#### Conditions
+### Define conditions
 
-Click the Add button to create new rows of conditions: [Button with add label](../media/weo_add.png)
+Select **Add** to create new rows of conditions: [Button with add label](../media/weo_add.png)
 
-You can add multiple rows, which you can then group into logical blocks where each row or any row must evaluate as true. To change the logical operator for groups: select multiple rows, select the "More commands" button at the end of the row, select "Group," and then select the "And / Or" dropdown which appears above the new group.
+You can add multiple rows that you can then group into logical blocks where each row or any row must evaluate as true. 
 
-Each conditional row is one of several types, selected under the first dropdown in a row:
+To change the logical operator for groups
 
-- **Site Area**: Choose to fire a rule based on the customer's location on your site, decided by the URL. Site Areas can be selected and created by opening the "Site Area" dropdown in this row. Selecting "+ New Site Area" opens the "Create New Site Area" pane, where you choose:
-  - **Site Area Name**: A readable name for your own reference
-  - **Regular Expression**: A regex string to define the URL pattern of your site area, see: [Regular expressions - quick reference](https://learn.microsoft.com/dotnet/standard/base-types/regular-expression-language-quick-reference). For example, the regex "^.*contact-us.*$" matches any page with "contact-us" in the URL.
-  - **Test Your Rule**: This field isn't required. It's simply a space to test URLs to see if they match the regex you specified. A check or X mark appears to the right of this input if the URL matches or doesn't match with your expression.
-- **Custom Context**: Choose to activate a rule depending on the contents of the Custom Context function you specified when creating the ruleset. Here, you define the type of value (text or numerical), provide the key name, and provide the value to evaluate against.
-- **Custom Client Function**: Call a function on your page and retrieve a value. This option enables you to choose a Function Name on your page, define the type of value it returns (text or numerical), and provide the value to evaluate against. This option is useful when you have a piece of data that's semi-expensive to request. It may be better to use this an only retrieve it when needed instad of always placing it in the custom context function. This condition type can also be used when you want to use a piece of data but not submit that data as a Context Variable. It is useful for data which doesn't need to be propagated across the conversation and displayed to Customer Service Representatives.
+1. Select multiple rows, then select **More commands** at the end of the row.
+1. Select **Group**, and then select the **And/Or** dropdown that appears.
+1. Select one of the following to define the conditions:
+   - **Site Area**: Choose to run a rule based on the customer's location on your site, decided by the URL. Site areas can be selected and created by opening the **Site Area** dropdown in this row. Select **New Site Area** to open the **Create New Site Area** pane, where you enter the following details:
+      - **Site Area Name**: A readable name for your own reference
+      - **Regular Expression**: A regex string to define the URL pattern of your site area. Learn more in [Regular expressions&mdash;quick reference](/dotnet/standard/base-types/regular-expression-language-quick-reference). For example, the regex "^.*contact-us.*$" matches any page with "contact-us" in the URL.
+      - **Test Your Rule**: This field isn't required. It's simply a space to test URLs to see if they match the regex you specified. A check or X mark appears to the right of this input if the URL matches or doesn't match with your expression.
+   - **Custom Context**: Choose to activate a rule depending on the contents of the custom context function that you specified when creating the ruleset. Here, you define the type of value (text or numerical), provide the key name, and provide the value to evaluate against.
+   - **Custom Client Function**: Call a function on your page and retrieve a value. This option enables you to choose a Function Name on your page, define the type of value it returns (text or numerical), and provide the value to evaluate against. This option is useful when you have a piece of data that's semi-expensive to request. It may be better to use this an only retrieve it when needed instead of always placing it in the custom context function. This condition type can also be used when you want to use a piece of data but not submit that data as a context variable. It is useful for data that doesn't need to be propagated across the conversation and displayed to customer service representatives (service representatives or representative).
 
-> [!NOTE]
-> We're temporarily removing the Hours of Operation condition, and will re-release it with more functionality soon.
+### Configure actions
 
+Select one of the following actions:
+- **Show Chat Button**: Display the chat button for a particular widget. Choose the widget to load in **Select Live Chat Widget**.
+- **Open Chat Widget**: Load a chat widget and open the application. Typically used when the customer’s intent is clear, like for a page that loads after a customer selects a **Talk to a Representative** link.
+- **Do Nothing**: Stops rule evaluation, otherwise known as a suppression rule. Select when you identify a condition where you don't want the customer to use messaging.
 
-#### Actions
+Use the **Advanced Settings** area to further customize the chat experience.
 
-Select an Action using the dropdown:
-- **Show Chat Button**: Display the chat button for a particular widget. Choose which widget to load by selecting one from the "Select Live Chat Widget" dropdown.
-- **Open Chat Widget**: Load a chat widget and open the application. Typically used when the customer’s intent is clear, like for a page that loads after a customer selects a "Talk to a Representative" link.
-- **Do Nothing**: Stops rule evaluation, otherwise known as a suppression rule. Used when you identify a condition where you don't want the customer to use messaging.
+- **Add Custom Context**: Add key-value pairs to be passed to the AI Agent and service representatives. This option gives you an alternative way to provide these values besides using the context variable function. Use the dropdown to select a key name, and use the value input to specify a value. Note: The keys must already be specified in the workstream of the select Live Chat Widget, learn more at: [Manage context variables](manage-context-variables.md)
+- **Config Override JSON**: Specify configuration overrides for the live chat widget, like changing the logo or styling. This field functions identically to the script based configuration, learn more in [Develop a custom live chat widget](../develop/develop-live-chat-widget.md). The **Config Override JSON** setting is a JSON-formatted version of the data-customization-callback function used in the script method.
 
-Additionally, you can also customize the chat experience by opening the Advanced Settings area.
+### Activate rules
 
-- **Add Custom Context**: Add key / value pairs to be passed to the Copilot Agent and your Customer Service Representatives. This option gives you an alternative way to provide these values beside using the Context Variable function. Use the dropdown to select a key name, and use the value input to specify a value. Note: The keys must already be specified in the workstream of the select Live Chat Widget, learn more at: [Manage context variables](manage-context-variables.md)
-- **Config Override JSON**: Specify configuration overrides for the Live Chat Widget, like changing the logo or styling. This field functions identically to the script based configuration, learn more in [Develop a custom live chat widget](../develop/develop-live-chat-widget.md). The Config Override JSON is a JSON-formatted version of the data-customization-callback function used in the script method.
+A rule is inactive after you create it. To activate or deactivate a rule, select the checkbox in the **Active** column. The rule becomes active immediately; there's no save prompt.
 
-### Activating rules
+### Prioritize rules
 
-When a rule is created, it starts inactive. To activate or deactivate a rule simply click the check box in the "Active" column. The change happens immediately – there's no save prompt.
+Web engagement orchestration, on load, evaluates every rule in the order specified in the **Priority** column in ascending order until a rule evaluates as true. After a rule condition is met, the system stops evaluating the other rules. Therefore, make sure your rules are in the right order. You can update the priority by reordering the value in the **Priority** column. Gaps in the order of integers are allowed. Changes are applied immediately.
 
-### Prioritizing rules
+### Manage rules
 
-Web Engagement Orchestration, on load, evaluates every rule in the order specified in the Priority column in ascending order until a rule evaluates as true. Once a rule triggers it does not check any other further rules, so it's important to make sure your rules are in the right order.
-Priority can be changed by entering a new number inside the input in the Priority column. Gaps in the order of integers are allowed. Changes are applied immediately.
-
-### Managing rules
-
-You can Edit, Delete, and Duplicate rules by selecting them and then using the appropriate button at the top of the screen.
-- **Edit**: Change any part of the Name, Description, Conditions, and Actions of a rule
+You can do the following actions with the rules.
+- **Edit**: Change any part of the **Name**, **Description**, **Conditions**, and **Actions** of a rule.
 - **Delete**: Delete the rule. This action is irreversible.
-- **Duplicate**: Create a new rule, pre-filling the Conditions and Actions sections.
+- **Duplicate**: Create a new rule, pre-filling the **Conditions** and **Actions** sections.
 
-#### Frequently asked questions
+## Frequently asked questions
 
-> Is this feature backwards compatible with the old method of launching and customizing the Live Chat Widget?
+Some of the FAQs are as follows.
 
-Yes. The previous method still works, and may be preferable for small or uncomplicated Live Chat programs.
-You opt in to Web Engagement Orchestration by using the new script tag. Both methods can be used at once, though using both methods is not recommended.
+### Is this feature backwards compatible with the old method of launching and customizing the live chat widget?
 
-> How long does it take rule changes to propagate?
+Yes. The existing method still works, and might be preferable for small and straightforward live chat programs. while you can use both methods at once, we recommend that you use one method only.`
 
-Allow up to 10-15 minutes for changes to reflect in the front end experience. This wait time applies for all settings configured in the Admin Center.
+### How long does it take for the rule changes to propagate?
 
-> Is this feature useable with the Contact Center Messaging SDKs for iOS and Android, or other channels?
+Allow up to 10-15 minutes for the changes to reflect. This wait time applies for all settings configured in the admin center.
 
-No – Engagement Orchestration is only used for Web.
+### Can this feature be used with the contact center messaging SDKs for iOS and Android, or other channels?
 
-> Can I load an unpublished Ruleset version for testing?
+No. Engagement orchestration is used for the web only.
 
-Not currently, but this request a roadmap item which we will support soon.
+### Can I load an unpublished Ruleset version for testing?
 
-> Can I use this feature with the Omnichannel Chat SDK instead of the Live Chat Widget?
+No. Currently you can't.
 
-Not currently, but in a future release we will support launching custom functions as an action, which can be used to fire your Omnichannel Chat SDK implementation.
+### Can I use this feature with the omnichannel chat SDK instead of the live chat widget?
 
-#### Troubleshooting
+No. Currently, it's not supported.
 
-To see verbose console logging during rule evaluation, modify your script tag to **change data-lcw-version="prod"** to **data-lcw-version="test"**. Your browser's console will show which rules are executing and whether their conditions are met.
+## Troubleshoot
 
-Known issues identified in our preview that are being addressed shortly after our initial release:
-- The Hours of Operation condition isn't functioning in a useful manner
-- After adding and saving a configuration override JSON it can't be removed completely, only emptied into a set of brackets
-- The Rules page is sorting by creation date instead of by priority as intended
-- JavaScript logs errors when custom context function path isn't found, instead of using warnings
+To see verbose console logging during rule evaluation, modify your script tag to **change data-lcw-version="prod"** to **data-lcw-version="test"**. Your browser console shows the rules that are run and whether their conditions are met.
 
-#### Related information
+
+### Related information
 
 [Supported browsers for live chat widget](../implement/system-requirements-omnichannel.md#browsers-for-chat)  
 [Add a chat widget](add-chat-widget.md)  
 [Embed chat widget in your website or portal](embed-chat-widget-portal.md)  
-[Develop a custom live chat widget](../develop/develop-live-chat-widget.md)  
+[Develop a custom live chat widget](../develop/develop-live-chat-widget.md)   
 
 [!INCLUDEfooter-include]
