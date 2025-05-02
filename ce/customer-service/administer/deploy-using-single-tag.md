@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-The live chat widget is deployed using a [widget-specific script tag](embed-chat-widget-portal.md) and customized using JavaScript. learn more in [Develop a custom live chat widget](../develop/develop-live-chat-widget.md). This method is easy to use and good for small chat deployments.
+The live chat widget is deployed using a [widget-specific script tag](embed-chat-widget-portal.md) and customized using JavaScript. Learn more in [Develop a custom live chat widget](../develop/develop-live-chat-widget.md). This method is easy to use and good for small chat deployments.
 
 However, as your chat program grows, you might find it complicated to handle multiple workstreams and multiple sets of customizations. Web engagement orchestration simplifies deployment by enabling you to deploy a single script tag to your entire site. The workstream selection and customizations are handled through configurable business logic in the admin center, rather than through JavaScript on your pages.
 
@@ -22,7 +22,7 @@ However, as your chat program grows, you might find it complicated to handle mul
 
 Web engagement orchestration is defined by a set of rules, collected into versions and are a part of a **Ruleset**. Rulesets allow you to group your rules for different purposes. Typically, you use multiple rulesets if you support multiple brands or sites whose chat programs don’t overlap.
 
-### Create a ruleset
+### Create a ruleset    
 
 1. In the site map of Copilot Service admin center, go to **Channels** &gt; **Web Engagement** &gt; **Manage**.
 
@@ -167,7 +167,6 @@ No. Currently, it's not supported.
 ## Troubleshoot
 
 To see verbose console logging during rule evaluation, modify your script tag to **change data-lcw-version="prod"** to **data-lcw-version="test"**. Your browser console shows the rules that are run and whether their conditions are met.
-
 
 ### Related information
 
