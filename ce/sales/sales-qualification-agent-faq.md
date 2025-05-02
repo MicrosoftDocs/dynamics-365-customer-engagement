@@ -29,15 +29,11 @@ This FAQ provides answers to common questions about the Sales qualification agen
 
 An ideal customer profile (ICP) is a detailed description of a target customer who would benefit the most from your company's products or services. Your ideal customer profile (ICP) might include characteristics like product type, industry, company size, and location. For instance, if your company sells advanced CRM software, your ICP might include:
 
-- **Industry**: Technology, Financial Services, Healthcare
-
-- **Company Size**: Mid to large-sized enterprises with 500+ employees
-
-- **Geographic Location**: North America, Europe
-
-- **Pain Points**: Need for improved customer relationship management, desire to streamline sales processes, requirement for robust data analytics
-
-- **Decision Makers**: Chief Information Officer (CIO), Chief Technology Officer (CTO), Head of Sales
+- **Industry**: Technology, Financial Services, Healthcare  
+- **Company Size**: Mid to large-sized enterprises with 500+ employees  
+- **Geographic Location**: North America, Europe  
+- **Pain Points**: Need for improved customer relationship management, desire to streamline sales processes, requirement for robust data analytics  
+- **Decision Makers**: Chief Information Officer (CIO), Chief Technology Officer (CTO), Head of Sales  
 
 By focusing on leads that match this profile, you can tailor your approach to address specific needs and challenges, and increase the likelihood of a successful sale.
 
@@ -56,10 +52,10 @@ The agent might pause for the following reasons:
 
 No, the agent processes leads automatically when any of the following events occur:
 
-  - Lead's account is linked/updated
-  - Lead's company name is updated
-  - Lead's contact is linked/updated
-  - New lead is created
+- Lead's account is linked/updated
+- Lead's company name is updated
+- Lead's contact is linked/updated
+- New lead is created
 
 In addition, the agent refreshes the research data of the existing leads at the configured timeframe. Learn more about refresh schedule in [Adjust the frequency of research data refresh](configure-sales-qualification-agent.md#adjust-the-frequency-of-research-data-refresh). You can view the timestamp of the last refresh in the **Lead insights** page.
 
