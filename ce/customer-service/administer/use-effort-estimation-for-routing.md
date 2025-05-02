@@ -19,7 +19,7 @@ You can use the effort estimation model to classify and route work items.
 
 You can use the estimation technique to understand how much time it will take to address a work item, and based on that estimation, route it to the customer service representative (service representative or representative) who has the bandwidth to manage it.
 
-Effort can be defined as the length of time that's necessary to either resolve a work item or amount of time spent on a work item before it is moved to the next stage as defined by the organization.
+Effort can be defined as the length of time that's necessary to either resolve a work item or amount of time spent on a work item before it's moved to the next stage as defined by the organization.
 
 Some examples of how effort can be defined are as follows:
 
