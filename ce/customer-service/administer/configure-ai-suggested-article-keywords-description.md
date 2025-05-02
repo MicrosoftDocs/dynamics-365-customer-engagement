@@ -1,7 +1,7 @@
 ---
 title: Configure AI suggestions for article keywords and description
 description: Configure AI suggestions for article keywords and description in Dynamics 365 Customer Service.
-ms.date: 11/28/2024
+ms.date: 04/30/2025
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -45,7 +45,7 @@ The AI model works as follows:
 
 ## Enable AI suggestions for article keywords and description
 
-You can enable AI suggestions for article keywords and description in the Customer Service admin center app.
+You can enable AI suggestions for article keywords and description in the Copilot Service admin center app.
 
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
   
