@@ -20,7 +20,7 @@ ai-usage: ai-assisted
 
 # Enable and configure Sales qualification agent
 
-Help sellers leverage AI for lead research, ideal customer profile (ICP) fit assessment, and initial outreach email drafting. Configure the details about your company and products you sell, your ideal customer profile, and other settings. These configurations help align the agent with your company's sales strategy and goals.
+Help sellers leverage AI for lead research, [ideal customer profile (ICP)](sales-qualification-agent-faq.md#icp) fit assessment, and initial outreach email drafting. Configure the details about your company and products you sell, your ideal customer profile, and other settings. These configurations help align the agent with your company's sales strategy and goals.
 
 ## Prerequisites
 
