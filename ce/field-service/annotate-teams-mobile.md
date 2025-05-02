@@ -2,7 +2,7 @@
 title: Use spatial annotations in Teams
 description: Use Microsoft Teams to annotate in a Dynamics 365 Field Service environment.
 author:  prashantyvr
-ms.date: 02/07/2025
+ms.date: 05/02/2025
 ms.topic: how-to
 ms.author: prashan
 ms.reviewer: v-wendysmith
@@ -22,7 +22,14 @@ Spatial annotations can greatly enhance your communication and collaboration, es
 
   :::image type="content" source="../field-service/media/teams-mobile-annotation-example.png" alt-text="Screenshot of a mobile phone showing an example of spatial annotations":::
 
-For successful use of spatial annotations, go to [Requirements and best practices](#requirements-and-best-practices).
+## Prerequisites
+
+To use this Augmented Reality (AR) feature, your mobile device must support it.
+
+- [Android phones and tablets with ARCore support](https://developers.google.com/ar/devices)
+- [iOS iPhones and iPads with ARKit support](https://developers.google.com/ar/devices#ios)
+
+For successful use of spatial annotations, go to [Tracking](#tracking).
 
 ## Use spatial annotations
 
@@ -33,9 +40,6 @@ You can use spatial annotations in Microsoft Teams calls as long as one person h
    :::image type="content" source="../field-service/media/teams-mobile-spatial-annotations.png" alt-text="Screenshot of Teams on a mobile phone showing the Spatial Annotations selection":::
 
 1. Use the **Spatial Annotations** toolbar to place 3D arrows or draw in your space for other callers to see or annotate in another user's space.
-
-   > [!TIP]
-   > The person sharing the object for Point the phone's camera at the space you want to annotate and move the phone around slowly. Point the camera at different angles and distances to help it build a spatial map of the space. Go to [Environment considerations for good tracking]
 
    |Button|Description|
    |---------|----------------------------------------------------|
@@ -56,24 +60,19 @@ You might want an external user without a Dynamics 365 Guides, Remote Assist, or
 
 Make sure your Teams admin has [enabled meetings for external users](/microsoftteams/plan-meetings#meeting-options-for-guests-and-external-participants).
 
-1. Create a Teams meeting with the organizer (one who has a Teams mobile license) and invite your participants to the meeting.
+1. Create a Teams meeting with the organizer (one who has a Dynamics 365 Guides, Remote Assist, or Field Service license) and invite your participants to the meeting.
 
 1. Ensure the organizer joins the call first, then have the invited members join.
 
-1. Members can [use spatial annotations](#use-spatial-annotations) as long as the organizer is on the call.
+1. Members can [use spatial annotations](#use-spatial-annotations) as long as one person on the call has a Dynamics 365 Guides, Remote Assist, or Field Service license.
 
-## Requirements and best practices
-
-To use this Augmented Reality (AR) feature, your mobile device must support it.
-
-- [Android phones and tablets with ARCore support](https://developers.google.com/ar/devices)
-- [iOS iPhones and iPads with ARKit support](https://developers.google.com/ar/devices#ios)
+## Tracking
 
 The person who shares their space for annotating should initialize tracking. Tracking enables the mobile device to build a spatial map of the space to understand its place in the physical world. Without proper tracking, the mobile device doesn't understand the space and spatial annotations might not be placed in the correct spot.
 
 To initialize tracking, the person should:
 
-- Move the camera around slowly to gather data about the space or object for annotation.
+- Move the camera around slowly to gather data about the space or object for annotation. Similar to drawing a figure 8.
 - Point the camera at different angles and distances from the object.
 - Ensure good lighting conditions to detect surfaces and objects clearly.
 - Use textured surfaces when possible. Textured surfaces rather than white or translucent surfaces provide more points to track.
