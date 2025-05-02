@@ -584,6 +584,8 @@
         href: preconfig-auto-message-triggers-async-channels.md
     - name: Advanced settings for chat and channels
       items:
+      - name: Deploy chat widgets using a single tag
+        href: deploy-using-single-tag.md
       - name: Configure operating hours
         href: create-operating-hours.md
       - name: Configure and manage custom presence
