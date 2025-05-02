@@ -15,7 +15,7 @@ ms.reviewer: nenellim
 You can use the effort estimation model to classify and route work items.
 
 > [!NOTE]
-> This feature is deprecated as on May 02, 2025, and won't be available after June 02, 2025. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
+> This feature is deprecated as of May 02, 2025, and won't be available after June 02, 2025. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
 
 You can use the estimation technique to understand how much time it will take to address a work item, and based on that estimation, route it to the customer service representative (service representative or representative) who has the bandwidth to manage it.
 
