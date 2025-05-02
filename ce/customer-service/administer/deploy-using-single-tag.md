@@ -97,11 +97,11 @@ For your reference, specify a rule name and description. Description is optional
 
 ### Define conditions
 
-Select **Add** to create new rows of conditions: [Button with add label](../media/weo_add.png)
+Select **Add** to create new rows of conditions.
 
 You can add multiple rows that you can then group into logical blocks where each row or any row must evaluate as true. 
 
-To change the logical operator for groups
+Do the following steps to change the logical operator for groups.
 
 1. Select multiple rows, then select **More commands** at the end of the row.
 1. Select **Group**, and then select the **And/Or** dropdown that appears.
