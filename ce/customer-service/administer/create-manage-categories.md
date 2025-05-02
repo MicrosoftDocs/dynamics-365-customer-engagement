@@ -1,7 +1,7 @@
 ---
 title: Create and manage categories
 description: Know how to create and manage categories for Customer Service.
-ms.date: 06/21/2024
+ms.date: 04/30/2025
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -25,8 +25,7 @@ searchScope:
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-
-Using the **Categories** entity, you can create hierarchical categorical data to help group records. Categorizing entity records in the application helps you tag the records so that you can easily search them. Use the entity to create and manage a logical structure of categories in Dynamics 365 Customer Service, and then associate entity records to one or more categories.
+Use the **Categories** entity to create hierarchical categorical data to help group records. Categorizing entity records in the application helps you tag the records, so that you can easily search them. Use the entity to create and manage a logical structure of categories in Dynamics 365 Customer Service, and then associate entity records to one or more categories.
 
 Categories are useful for reporting, sorting, segmenting, and categorization of records.
 
@@ -41,9 +40,8 @@ Categories are useful for reporting, sorting, segmenting, and categorization of 
    - [!INCLUDE[proc_dont_have_correct_permissions](../../includes/proc-dont-have-correct-permissions.md)]  
 
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-1. In the **Categories** section, select **Manage**. The **All Categories** view is displayed. You can switch between various system views using the dropdown list.
-  
+1. In the site map of Copilot Service admin center, select **Knowledge** in **Support experience**. The **Knowledge** page appears.
+1. In the **Categories** section, select **Manage**. The **All Categories** view is displayed. You can switch between various system views using the dropdown list. 
 1. On the command bar, select **New** to create a new category record.  
  
 1. Enter the required information.
