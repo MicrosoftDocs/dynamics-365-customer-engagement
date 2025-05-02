@@ -21,7 +21,7 @@ Administrators and IT professionals can use this information to prepare for futu
 
 ## Effort estimation model in unified routing is deprecated
 
-The [effort estimation model in unified routing](../administer/use-effort-estimation-for-routing.md) is deprecated as on May 02, 2025. The support for the feature will be stopped and the feature will be removed on June 02, 2025.
+The [effort estimation model in unified routing](../administer/use-effort-estimation-for-routing.md) is deprecated as of May 02, 2025. The support for the feature will end and the feature will be removed on June 02, 2025.
 
 ## Auto-summarization of ongoing conversations is deprecated in April 2025
 
