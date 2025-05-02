@@ -22,13 +22,20 @@ Spatial annotations can greatly enhance your communication and collaboration, es
 
   :::image type="content" source="../field-service/media/teams-mobile-annotation-example.png" alt-text="Screenshot of a mobile phone showing an example of spatial annotations":::
 
-You can use spatial annotations in calls with Microsoft Teams mobile users if you have a Dynamics 365 Guides, Remote Assist, or Field Service license. Microsoft Teams desktop users can use spatial annotations in a mobile user's space. Use the **Spatial Annotations** toolbar in Teams to add spatial annotations.
+For successful use of spatial annotations, go to [Requirements and best practices](#requirements-and-best-practices).
 
-1. While in a Teams mobile call, select **Spatial Annotations**.
+## Use spatial annotations
+
+You can use spatial annotations in Microsoft Teams calls as long as one person has a Dynamics 365 Guides, Remote Assist, or Field Service license. Microsoft Teams desktop users can use spatial annotations in a mobile user's space. Use the **Spatial Annotations** toolbar in Teams to add spatial annotations.
+
+1. While in a mobile call, select **Spatial Annotations**.
 
    :::image type="content" source="../field-service/media/teams-mobile-spatial-annotations.png" alt-text="Screenshot of Teams on a mobile phone showing the Spatial Annotations selection":::
 
 1. Use the **Spatial Annotations** toolbar to place 3D arrows or draw in your space for other callers to see or annotate in another user's space.
+
+   > [!TIP]
+   > The person sharing the object for Point the phone's camera at the space you want to annotate and move the phone around slowly. Point the camera at different angles and distances to help it build a spatial map of the space. Go to [Environment considerations for good tracking]
 
    |Button|Description|
    |---------|----------------------------------------------------|
@@ -42,3 +49,33 @@ You can use spatial annotations in calls with Microsoft Teams mobile users if yo
    > Each call participant can only undo and delete their own annotations.
 
 1. When you're done annotating, close the toolbar. All annotations persist even after you stop editing.
+
+## Enable a one-time call to use spatial annotations
+
+You might want an external user without a Dynamics 365 Guides, Remote Assist, or Field Service license to join a call on a one-time basis. It only takes one license from a mobile user to unlock spatial annotation capabilities to all other mobile and desktop users in a Teams call.
+
+Make sure your Teams admin has [enabled meetings for external users](/microsoftteams/plan-meetings#meeting-options-for-guests-and-external-participants).
+
+1. Create a Teams meeting with the organizer (one who has a Teams mobile license) and invite your participants to the meeting.
+
+1. Ensure the organizer joins the call first, then have the invited members join.
+
+1. Members can [use spatial annotations](#use-spatial-annotations) as long as the organizer is on the call.
+
+## Requirements and best practices
+
+To use this Augmented Reality (AR) feature, your mobile device must support it.
+
+- [Android phones and tablets with ARCore support](https://developers.google.com/ar/devices)
+- [iOS iPhones and iPads with ARKit support](https://developers.google.com/ar/devices#ios)
+
+The person who shares their space for annotating should initialize tracking. Tracking enables the mobile device to build a spatial map of the space to understand its place in the physical world. Without proper tracking, the mobile device doesn't understand the space and spatial annotations might not be placed in the correct spot.
+
+To initialize tracking, the person should:
+
+- Move the camera around slowly to gather data about the space or object for annotation.
+- Point the camera at different angles and distances from the object.
+- Ensure good lighting conditions to detect surfaces and objects clearly.
+- Use textured surfaces when possible. Textured surfaces rather than white or translucent surfaces provide more points to track.
+
+If something interrupts the camera, tracking might temporarily be lost and annotations are unavailable. The message "Please wait while Mixed Reality user re-establishes tracking" appears. Wait a moment for the camera to re-establishes tracking so annotations are available.
