@@ -1,7 +1,7 @@
 ---
 title: Enable entities for service-level agreements
 description: Step-by-step guide to enable entities for service-level agreements (SLAs) in Dynamics 365 Customer Service, including prerequisites and supported entities.
-ms.date: 04/23/2025
+ms.date: 05/02/2025
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
