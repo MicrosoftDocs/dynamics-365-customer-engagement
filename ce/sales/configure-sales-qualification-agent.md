@@ -96,32 +96,32 @@ After the agent gets activated, it starts working on the last 100 leads, with th
 
 ## Add custom criteria for ideal customer profile
 
-Use custom criteria to define specific characteristics that are important for your ideal customer profile. You can add custom criteria that are not available in the default list based on your custom fields from Dataverse or add public URLs that provide relevant information about the lead's company. For example, you could add a custom criterion for "Company revenue" and map it to a custom field in Dataverse or provide a URL that lists the company revenue.  
+Use custom criteria to define specific characteristics that are important for your [ideal customer profile](sales-qualification-agent-faq.md#icp). You can add custom criteria that are not available in the default list based on your custom fields from Dataverse or add public URLs that provide relevant information about the lead's company. For example, you could add a custom criterion for "Environmental Sustainability Initiatives" and map it to a custom field in Dataverse or provide a URL that lists the company's key environmental initiatives.  
 
 1. In the Sales qualification agent settings page, scroll down to **Qualification** > **Ideal customer profile**.  
 1. Select **Add custom criterion**.  
     :::image type="content" source="media/sqa-ideal-customer-profile-custom-criterion.png" alt-text="Screenshot of adding custom criterion to ideal customer profile configuration.":::
-1. Enter the name of the custom criterion. For example, "Company revenue".  
-1. Take one of the following actions:  
+1. Enter the name of the custom criterion. Here the name is **Environmental Sustainability Initiatives**.  
+1. Take one of the following actions as per your requirement:  
 
-    - Select **Select Dataverse field(s)** and then select the field that you want to map to the custom criterion.  
+    - **Select Dataverse field(s)**: Select the option if you want to map the custom criterion to a field in Dataverse. This helps the agent to research and gather information based on the selected field.
 
-    - Select **Or add public URL** to enter the company's URL that provides the information.  
-        1. In the text box, enter the company's URL. Ensure that the URL is publicly accessible and doesn't require any authentication.
+    - **Or add public URL**: Select the option to provide a URL that contains information about the lead's company. The agent will use this URL to research and gather relevant information. The URL must be publicly accessible and not require any authentication.  
+
+        1. In the text box, enter the company's URL.
         1. Select **Next**.
         1. In the **Provide instructions** dialog, add specific instructions on what information you want the agent to extract from the website. Also, you can add a Dataverse field to the instruction, enter the forward slash (**/**).  
-            For example, you could say, "Look at the last earnings report and find the company revenue for the last quarter /". The forward slash opens a dropdown list of available fields in the Dataverse table.  
-            Select a table and field from the list. In this example, **Lead** > **Company Name** is selected.  
+            For example, you could say, "Look at the company's sustainability report and identify their key environmental initiatives /". The forward slash opens a dropdown list of available fields in the Dataverse table. Select a table and field from the list. 
+            In this example, **Lead** > **Company Name** is selected. The instruction is now "Look at the company's sustainability report and identify their key environmental initiatives based on {{Lead.Company Name}}."  
 
             :::image type="content" source="media/sqa-ideal-customer-profile-custom-criterion-instruction.png" alt-text="Screenshot of adding an instruction to custom criterion to ideal customer profile configuration.":::
 
-            The instruction is now "Look at the last earnings report and find the company revenue for the last quarter based on {{Lead.Company Name}}".  
         1. Select **Add**.  
             The instruction is added to the custom criterion.
 
-1. Select **Add**.  
    The criterion is added to the list of ideal customer profile criteria.  
-1. Enter the value for the custom criterion. For example, if the company revenue should be greater than $1 million, enter **>1000000**.  
+
+1. Enter the value for the custom criterion. For example, if the company should have at least three major environmental initiatives, enter **>=3**.  
 
 ## Adjust the frequency of research data refresh
 
