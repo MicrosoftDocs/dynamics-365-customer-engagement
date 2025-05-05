@@ -95,7 +95,7 @@ You can view the following details from the post-conversation survey:
 
 - **CSAT**: The customer satisfaction score of the conversation. The score can be between 0 to 5.
 
-- **`<Verbatim Customer Utterance>`**: Free text user response.
+- **`<Verbatim Customer Utterance>`**: User response in free text.
 - **First Contact Resolution**: The choice must contain the **Yes** word.
 - **Net Promoter Score**: The score can be between 0 to 10.
 
