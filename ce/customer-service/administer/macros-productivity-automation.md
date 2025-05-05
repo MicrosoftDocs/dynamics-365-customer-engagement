@@ -21,7 +21,7 @@ ms.custom: bap-template
 - resolve cases
 - search knowledge base
 - clone records
-- set focus to another agent script
+- set focus to another script
 - open email templates
 - auto fill form fields
 - set and retrieve variables and values in the session context
@@ -187,7 +187,7 @@ Use the action to resolve a case. The action contains the following fields.
 
 ### Example: Macro to resolve a case
 
-Perform the following steps to create a macro that resolves a case. When agents resolve a case using macro, the tab isn't automatically refreshed, so more steps are recommended for a better user experience.
+Perform the following steps to create a macro that resolves a case. When customer service representatives (service representatives or representatives) resolve a case using macro, the tab isn't automatically refreshed, so more steps are recommended for a better user experience.
 
 1. Add the **Action to resolve case** action to pass the billable time as a numeric value and the Incident ID is the record ID that needs to be resolved, with the following attributes:
   - **Incident ID**: `${anchor.incidentid}`
@@ -393,17 +393,17 @@ Perform the following steps to create a macro to clone an existing case. The exi
    - **Attribute Value**:  
 1. Add the **Save the record** action to generate and set the ticketnumber for the child case.</li></ol>
 
-## Set Agent Script focus
+## Set Script focus
 
-Sets the focus on an agent script that needs to run next. The agent script is set in focus in the **Agent scripts** dropdown on the app side pane. For example, if the agent needs to process a refund complaint. The agent uses different scripts to greet, initiate a complaint request, and process the refund. You can define macros that set the focus on the agent scripts that need to be run for each stage of the refund process. The agent script in focus must be associated with the session template. The action contains the following field.
+Sets the focus on a script that needs to run next. The script is set in focus in the **Scripts** dropdown on the app side pane. For example, if the service representatives needs to process a refund complaint. The service representatives uses different scripts to greet, initiate a complaint request, and process the refund. You can define macros that set the focus on the scripts that need to be run for each stage of the refund process. The script in focus must be associated with the session template. The action contains the following field.
 
    | Field | Description |
    |-----------------|-----------------------------|
-   | Agent Script Unique Name   |  Specify the agent script that needs to be in focus.  | 
+   | Agent Script Unique Name   |  Specify the script that needs to be in focus.  | 
 
-### Example: Update the priority of a case and set focus to another agent script
+### Example: Update the priority of a case and set focus to another script
 
-Perform the following steps to create a macro that updates the priority of a case to high and then switches to another agent script.
+Perform the following steps to create a macro that updates the priority of a case to high and then switches to another script.
 
 1. Add the **Update an existing record** action with the following attributes:
     - **Entity record ID**: `${anchor.incidentid}`

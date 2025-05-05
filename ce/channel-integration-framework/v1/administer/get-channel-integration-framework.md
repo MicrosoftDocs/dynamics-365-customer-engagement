@@ -34,7 +34,7 @@ Use `https://<orgURL>.dynamics.com/apps` to navigate to the Dynamics 365 Channel
 ### Related information
 
 [Softphone integration sample code for Dynamics 365 Channel Integration Framework 1.0](sample-softphone-integration.md)  
-[Get started with Customer Service workspace](../../../customer-service/implement/csw-overview.md)  
+[Get started with Copilot Service workspace](../../../customer-service/implement/csw-overview.md)  
 [Learn the basics of the Customer Service Hub](../../../customer-service/implement/customer-service-hub-user-guide-basics.md)
 
 

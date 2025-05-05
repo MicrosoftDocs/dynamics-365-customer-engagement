@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 02/13/2025
+ms.date: 05/05/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -42,10 +42,10 @@ Copilot uses the following fields to generate case summaries. At least one of th
 
 ## Modify the fields used to generate case summaries
 
-In Customer Service admin center, perform the following steps to map your preferred fields:
+In Copilot Service admin center, perform the following steps to map your preferred fields:
 
 1. Use one of the following navigation options:
-    - **Agent Experience** > **Productivity** > **Summaries**
+    - **Support Experience** > **Productivity** > **Summaries**
     - **Operations** > **Insights** > **Summaries**
 1. In **Summaries**, for **Case summaries**, select **Manage Data Attributes**. 
 1. Specify the required information on the **Edit summary information** pane and then select **Next**.

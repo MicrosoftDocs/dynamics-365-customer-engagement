@@ -1,6 +1,6 @@
 ---
 title: Configure channel providers in Dynamics 365 Channel Integration Framework 2.0
-description: Learn how to configure channel providers using Customer Service admin center in Dynamics 365 Channel Integration Framework 2.0.
+description: Learn how to configure channel providers using Copilot Service admin center in Dynamics 365 Channel Integration Framework 2.0.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -20,17 +20,17 @@ searchScope:
 
 # Configure channel providers in Dynamics 365 Channel Integration Framework 2.0
 
-Dynamics 365 Channel Integration Framework 2.0 is intended for multisession applications such as Omnichannel for Customer Service and Customer Service workspace. You can configure channel providers for multisession applications either using Customer Service admin center or Power Apps.
+Dynamics 365 Channel Integration Framework 2.0 is intended for multisession applications such as Omnichannel for Customer Service and Copilot Service workspace. You can configure channel providers for multisession applications either using Copilot Service admin center or Power Apps.
 
 More information: 
-- [Agent experience profiles](../../../customer-service/administer/overview.md)
-- [Customer Service admin center](../../../customer-service/implement/cs-admin-center.md)
+- [Experience profiles](../../../customer-service/administer/overview.md)
+- [Copilot Service admin center](../../../customer-service/implement/cs-admin-center.md)
 
 ## Configure a third-party channel provider
 
-1. Go to the Customer Service admin center, and perform the following steps
+1. Go to the Copilot Service admin center, and perform the following steps
    
-    1. In the site map, select **Workspaces** in **Agent experience**. The **Workspaces** page opens.
+    1. In the site map, select **Workspaces** in **Support experience**. The **Workspaces** page opens.
     
     2. Select **Manage** for **Third party voice channel provider**.
     
@@ -56,13 +56,13 @@ More information:
   > [!NOTE]
   > - Sandbox attributes such as allow-forms, allow-popups, allow-scripts, allow-same-origin, allow-modals, allow-downloads are configured by default.
   > - The **Restore** button is available only for forms with the **Unique Name** set to **msdyn_omnichannel**.
-  > - The `Api Version` field is set to `2` when you navigate from the agent experience profile.
+  > - The `Api Version` field is set to `2` when you navigate from the experience profile.
 
 3. Select **Save & Close**.
 
 ## Deactivate or delete a channel provider
 
-1. In the site map of Customer Service admin center, select **Workspaces** in **Agent experience**. The **Workspaces** page opens.
+1. In the site map of Copilot Service admin center, select **Workspaces** in **Support experience**. The **Workspaces** page opens.
     
 2. Select **Manage** for **Third party voice channel provider**.
     

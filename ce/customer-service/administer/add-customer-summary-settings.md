@@ -35,7 +35,7 @@ Watch this video to understand enhanced active conversation form settings and ho
 
 To enable the enhanced Active Conversation form and customize the form, perform the following steps:
 
-1. In Customer Service admin center, go to **Workspaces**.
+1. In Copilot Service admin center, go to **Workspaces**.
 1. Select **Manage** for **Active conversation form settings** in **Workspaces**.
 1. Select the following options:
     - **Enhanced active conversation form** to enable the enhanced Active Conversation experience. The following features are available as a part of the enhanced experience:
@@ -109,4 +109,4 @@ Perform the following steps to revert to the required default experience:
 ### Related information
 
 [View customer information on Active Conversation form](../use/oc-customer-summary.md) <br>
-[Get started with Customer Service workspace](../implement/csw-overview.md)
+[Get started with Copilot Service workspace](../implement/csw-overview.md)
