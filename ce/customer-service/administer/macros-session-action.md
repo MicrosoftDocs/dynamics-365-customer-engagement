@@ -105,7 +105,7 @@ Creates a variable in the session context. Use the action to create your own ses
 
 ### Example: Create a session context variable to track the agent script path 
 
-Perform the following tasks to add a workflow that creates a session context variable when a user switches from one agent script to another and then, uses the session variable context for further macro runs:
+Perform the following tasks to add a workflow that creates a session context variable when a user switches from one script to another and then, uses the session variable context for further macro runs:
 1. Add **Set focus to an agent script** with the **Agent Script Unique Name** attribute set to `new_agentscript_highpriority`.
 1. Add the **Set session context** action with the following attributes:
     - **Attribute Name**: `firstProcess`
