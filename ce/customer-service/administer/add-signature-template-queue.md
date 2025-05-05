@@ -1,7 +1,7 @@
 ---
-title: Configure a default signature template for a queue 
+title: Add a default signature template to a queue
 description: Learn how to set up email signature templates for queues.
-ms.date: 04/23/2025
+ms.date: 04/30/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
