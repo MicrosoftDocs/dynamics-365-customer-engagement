@@ -1,6 +1,6 @@
 ---
 title: Migrate unified routing data for WhatsApp channel through Twilio
-description: Learn to export and import data pertaining to WhatsApp channel from source to target environments in Omnichannel for Customer Service.
+description: Learn to export and import data pertaining to WhatsApp channel from source to target environments.
 ms.date: 07/01/2024
 ms.topic: how-to
 author: gandhamm
