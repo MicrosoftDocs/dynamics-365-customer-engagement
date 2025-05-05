@@ -34,7 +34,7 @@ To display the case handling time widget on a case form, follow these steps:
 
       - **Table**: Set this value to **Time Trackers**.
       - **View**: Set this value to **All Time Trackers**.
-      - **Allow representatives to add time logs**: Set this value to **True** or **False**, depending on whether you want representatives to manually add time on the case. The default is **True**.
+      - **Allow users to add time logs**: Set this value to **True** or **False**, depending on whether you want representatives to manually add time on the case. The default is **True**.
       - **Show users only their contributed time**: Set this value to **True** or **False**, depending on whether you want representatives to see only their own time or the total time of all representatives on the case. The default is **False**.
     1. Select **Show related records**.
     > [!NOTE]
