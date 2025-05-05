@@ -105,7 +105,7 @@ To add the Copilot features to an experience profile, perform the following step
     :::image type="content" source="../media/copilot-agent-experience-mini.png" alt-text="Screenshot of Copilot AI features section in Copilot." lightbox="../media/copilot-agent-experience.png":::|
 
     > [!NOTE]
-    > You must turn on the **Copilot** toggle to enable the **Ask a question**, **Scan customer conversation and suggest a response**, **Write an email** features.
+    > You must turn on the **Copilot** toggle to enable the **Ask a question**, **Suggest a response**, **Intent-based suggestion (preview)**, **Write an email -- help pane** features.
 
 ## Record representative interactions with Copilot
 
