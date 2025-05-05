@@ -1,7 +1,7 @@
 ---
 title: Set up auto-summarization for conversations in Dynamics 365 Customer Service
 description: Add an AI-generated summary of an ongoing customer conversation in Dynamics 365 Customer Service.
-ms.date: 01/21/2025
+ms.date: 05/05/2025
 ms.topic: article
 author: gandhamm 
 ms.author: mgandham
@@ -42,7 +42,7 @@ Tenant level access to enable the enhanced integration with Microsoft Teams feat
 
 ## Turn on auto-summarization for conversations
 
-1. In the site map of Customer Service admin center, select **Operations** > **Insights**.
+1. In the site map of Copilot Service admin center, select **Operations** > **Insights**.
 
 1. In **Insights**, select **Manage** next to **Auto-summarization for conversations**.
 
@@ -60,7 +60,7 @@ Tenant level access to enable the enhanced integration with Microsoft Teams feat
 
 Perform the following steps to enable auto-generated summary for Microsoft Teams chats:
 
-1. In the site map of Customer Service admin center, select **Collaboration**, and then select **Embedded chat using Teams**.
+1. In the site map of Copilot Service admin center, select **Collaboration**, and then select **Embedded chat using Teams**.
 
 1. In **Connect chats to Dynamics 365 records**, select **Conversation**.
 
@@ -72,5 +72,5 @@ Perform the following steps to enable auto-generated summary for Microsoft Teams
 ### Related information
 
 [View and share an AI-generated conversation summary in Teams](../use/cs-ai-generated-summary.md)<br>
-[Overview of Customer Service workspace](../implement/csw-overview.md)  
+[Overview of Copilot Service workspace](../implement/csw-overview.md)  
 [Regional availability and service limits for Customer Service](cs-region-availability-service-limits.md)
