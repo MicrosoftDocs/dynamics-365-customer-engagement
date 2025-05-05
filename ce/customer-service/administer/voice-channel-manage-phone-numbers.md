@@ -1,7 +1,7 @@
 ---
 title: Manage phone numbers
 description: Use this article to understand how you can acquire new phone numbers, and also view, update, and release existing phone numbers in Dynamics 365 Contact Center.
-ms.date: 04/22/2025
+ms.date: 05/05/2025
 ms.custom: bap-template
 ms.topic: how-to
 author: gandhamm
