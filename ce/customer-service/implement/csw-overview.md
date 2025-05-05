@@ -1,7 +1,7 @@
 ---
 title: Overview of the Copilot Service workspace application for Dynamics 365 Customer Service
 description: Overview of Copilot Service workspace for Dynamics 365 Customer Service.
-ms.date: 03/17/2025
+ms.date: 05/05/2025
 ms.topic: overview
 author: gandhamm
 ms.author: mgandham
