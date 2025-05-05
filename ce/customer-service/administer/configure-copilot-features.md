@@ -94,7 +94,7 @@ To add the Copilot features to an experience profile, perform the following step
 
 1. Go to [**Experience profiles**](create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels) using one of the following navigation options:
    - **Support experience** > **Workspaces**
-   - **Support experience** > **Productivity** > **Copilot for questions and emails** > **Representative access** > **experience profiles**
+   - **Support experience** > **Productivity** > **Copilot for questions and emails** > **Representative access** > **Experience profiles**
 1. Select the required experience profile.
 1. On the **Productivity pane**, turn on the **Copilot** toggle so that representatives can use the Copilot features such suggest a response, ask a question, and write an email on the productivity pane.
 
