@@ -1,7 +1,7 @@
 ---
 title: Apply SLAs
 description: Learn how to apply service-level agreements in Dynamics 365 Customer Service.
-ms.date: 08/23/2024
+ms.date: 05/02/2025
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -62,7 +62,7 @@ While applying the SLA, the application first looks for automatically applied SL
 
 ## Set a default SLA
 
-You can apply a default SLA in the Customer Service admin center app by performing the following steps:
+You can apply a default SLA in the Copilot Service admin center app by performing the following steps:
 
 1. Go to **Service Level Agreements**.
 
