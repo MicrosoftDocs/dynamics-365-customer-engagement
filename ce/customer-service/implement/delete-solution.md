@@ -66,7 +66,7 @@ You must not remove the following out-of-the-box solutions that come preinstalle
 
 ## Uninstall solutions
 
-1. Sign in to your [Dynamics 365](`https://<org>.dynamics.com/apps`) environment.
+1. Sign in to your `https://<org>.dynamics.com/apps` environment.
 
 2. Select **Settings** > **Advanced Settings** on the command bar. The **Settings** page is displayed in a new browser tab.
 
