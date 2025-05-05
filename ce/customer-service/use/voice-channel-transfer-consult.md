@@ -27,7 +27,7 @@ The settings to transfer the calls and consult with another service representati
 When you receive an incoming call, you can transfer the call to a service representative, a queue, a public switched telephone network (PSTN) Teams user, or an external PSTN number. After you transfer the call, the following actions occur:
 
  - The customer is automatically put on hold. Hold music plays for the customer. 
- - By default, the customer is automatically removed from hold once a secondary service representative accepts the transferred call. If the **Un-hold customer after agent transfer is accepted** setting is disabled, the primary service representative must manually remove the customer from hold.
+ - By default, the customer is automatically removed from hold once a secondary service representative accepts the transferred call. If the **Un-hold customer after representative transfer is accepted** setting is disabled, the primary service representative must manually remove the customer from hold.
 
 1. Select **Transfer** in the call window. 
 
