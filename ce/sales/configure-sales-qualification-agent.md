@@ -26,21 +26,29 @@ Help sellers leverage AI for lead research, ideal customer profile (ICP) fit ass
 
 Before you set up the agent, ensure that the following prerequisites are met:
 
-- [Copilot Studio](/microsoft-copilot-studio/billing-licensing): Ensure that you have the Copilot Studio license and necessary capacity to run the agent. The agent uses the same capacity as other Copilot features in Copilot Studio. [Learn more about messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
+- [Copilot Studio](/microsoft-copilot-studio/billing-licensing): Ensure that you have the Copilot Studio license and necessary capacity to run the agent. The agent uses the same capacity as other Copilot features in Copilot Studio. [Learn more about consumption-based billing for agent capabilities](copilot-consumption-based-billing.md).
 
 - [Copilot in Dynamics 365 Sales](enable-setup-copilot.md) (Optional but recommended): Turn on Copilot to include the [lead summary](copilot-get-information.md#summarize-a-lead) and [account summary](copilot-get-information.md#summarize-an-account) to get a 360-degree view of the lead and their company. 
 - [New look](/power-apps/user/modern-fluent-design#enabling-the-modern-look-for-my-app-and-removing-the-toggle): Ensure that you enabled the new look for the Sales Hub app.
 
 - Identify the products for which you want to configure the Sales qualification agent. Ideally, these products should be handled by a single sales team and have a similar ideal customer profile. For example, if your company sells multiple products through different sales teams, identify a product line and the corresponding sales team that the agent should help you with.  
+- [Create a custom security role and grant permissions](#create-a-custom-security-role-and-grant-permissions).
 
 <a name="grant-permissions"></a>
-- Grant **User** level permissions **read**, **write**, **create**, **append**, **append to**, and **assign to** for the following entities to the seller's security role using the agent.
 
-    - Sales Copilot Email Insight
-    - Sales Copilot Insight
-    - Sales Copilot Insight Card State
+## Create a custom security role and grant permissions
 
-    :::image type="content" source="media/sqa-custom-role-permissions.png" alt-text="Screenshot of the permissions to be granted for a custom security role.":::
+To ensure accurate insights and optimal capacity usage, create a new security role or use an existing role that exclusively represents sellers responsible for the products that the agent will be configured for. Avoid assigning roles that include sellers handling other products, as this might lead to incorrect insights and unnecessary consumption of Copilot Studio capacity. Learn more about [creating a security role](/power-platform/admin/create-edit-security-role).
+
+After the role is created, grant the following permissions to the security role:
+
+Grant **User** level permissions for read, write, create, append, append to, and assign to the following entities:
+
+- Sales Copilot Email Insight
+- Sales Copilot Insight
+- Sales Copilot Insight Card State
+
+:::image type="content" source="media/sqa-custom-role-permissions.png" alt-text="Screenshot of the permissions to be granted for a custom security role.":::
 
 ## How to set up and activate the agent
 
@@ -79,12 +87,12 @@ The following steps describe how the tenant admin and the Dynamics 365 Sales adm
    | Default basic research | Includes insights gathered from Copilot summaries, who knows whom, related opportunities, and so on. |
    | Default web research | Includes insights from predefined web resources to gather authentic information about the company's business, finances, and news. |
 
-1. In the **Qualification** section, define your **Ideal customer profile** (ICP) to help the agent identify leads that are a good fit for further engagement. To understand the importance of ICP, see [What is ideal customer profile?](sales-qualification-agent-faq.md#icp). The following fields are available for you to configure:
+1. In the **Qualification** section, define your **Ideal customer profile** (ICP) to help the agent identify leads that are a good fit for further engagement. To understand the importance of ICP, see [What is ideal customer profile?](sales-qualification-agent-faq.md#icp) The following fields are available for you to configure:
 
    | Field | Input |
    |-------|-------|
    | Describe your ideal customer criteria | Specify the criteria for your ideal customer, such as industries you're targeting, company size, customer location, and job titles. |
-   | Where to find this information | Verify the prepopulated fields from out-of-the-box Dataverse tables that'll be used for validating the criteria. If the fields are not relevant to your business, you can edit by adding or removing Dataverse fields. To add a custom criterion, see [add a custom criteria for ideal customer profile](#add-custom-criteria-for-ideal-customer-profile).|
+   | Where to find this information | Verify the prepopulated fields from out-of-the-box Dataverse tables that'll be used for validating the criteria. If you'd like to use custom fields instead, add the fields accordingly. You can also [add a custom criterion](#add-custom-criteria-for-ideal-customer-profile). |
 
    :::image type="content" source="media/sqa-ideal-customer-profile.png" alt-text="Screenshot of the ideal customer profile configuration.":::
 
@@ -96,29 +104,27 @@ After the agent gets activated, it starts working on the last 100 leads, with th
 
 ## Add custom criteria for ideal customer profile
 
-Use custom criteria to define specific characteristics that are important for your [ideal customer profile](sales-qualification-agent-faq.md#icp). You can add custom criteria that are not available in the default list based on your custom fields from Dataverse or add public URLs that provide relevant information about the lead's company. For example, you could add a custom criterion for "Environmental Sustainability Initiatives" and map it to a custom field in Dataverse or provide a URL that lists the company's key environmental initiatives.  
+Use custom criteria to define specific characteristics that are important for your [ideal customer profile](sales-qualification-agent-faq.md#icp). You can select fields from Dataverse or add public URLs that provide relevant information about the lead's company. For example, you could add a custom criterion for "Environmental Sustainability Initiatives" and map it to a custom field in Dataverse or provide a URL that lists the company's key environmental initiatives.  
 
 1. In the Sales qualification agent settings page, scroll down to **Qualification** > **Ideal customer profile**.  
 1. Select **Add custom criterion**.  
     :::image type="content" source="media/sqa-ideal-customer-profile-custom-criterion.png" alt-text="Screenshot of adding custom criterion to ideal customer profile configuration.":::
-1. Enter the name of the custom criterion. Here the name is **Environmental Sustainability Initiatives**.  
-1. Take one of the following actions as per your requirement:  
+1. Enter the name of the custom criterion. For example, enter **Environmental Sustainability Initiatives**.  
+1. Take one of the following actions depending on the source of information you want to use for the custom criterion:  
 
-    - **Select Dataverse field(s)**: Select the option if you want to map the custom criterion to a field in Dataverse. This helps the agent to research and gather information based on the selected field.
+    - **Select Dataverse field(s)**: Select this option to map the custom criterion to a field in Dataverse. Select the field that the agent should use to validate the lead's fit.
 
-    - **Or add public URL**: Select the option to provide a URL that contains information about the lead's company. The agent will use this URL to research and gather relevant information. The URL must be publicly accessible and not require any authentication.  
+    - **Or add public URL**: Select this option to provide a URL that contains information about the lead's company. The agent uses information in this URL to validate the lead's fit. The URL must be publicly accessible and not require any authentication.  
 
         1. In the text box, enter the company's URL.
         1. Select **Next**.
-        1. In the **Provide instructions** dialog, add specific instructions on what information you want the agent to extract from the website. Also, you can add a Dataverse field to the instruction, enter the forward slash (**/**).  
+        1. In the **Provide instructions** dialog, add specific instructions about the information you want the agent to extract from the website. Also, you can add a Dataverse field to the instruction by adding a forward slash (**/**).  
             For example, you could say, "Look at the company's sustainability report and identify their key environmental initiatives /". The forward slash opens a dropdown list of available fields in the Dataverse table. Select a table and field from the list. 
             In this example, **Lead** > **Company Name** is selected. The instruction is now "Look at the company's sustainability report and identify their key environmental initiatives based on {{Lead.Company Name}}."  
 
             :::image type="content" source="media/sqa-ideal-customer-profile-custom-criterion-instruction.png" alt-text="Screenshot of adding an instruction to custom criterion to ideal customer profile configuration.":::
 
-        1. Select **Add**.  
-            The instruction is added to the custom criterion.
-
+1. Select **Add**.  
    The criterion is added to the list of ideal customer profile criteria.  
 
 1. Enter the value for the custom criterion. For example, if the company should have at least three major environmental initiatives, enter **>=3**.  
