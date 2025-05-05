@@ -1,12 +1,12 @@
 ---
 title: Configure intent-based routing (preview)
-description:
+description: Learn how to configure and manage intent-based routing within your organization that enables you to optimize your customer service operations and improve overall customer satisfaction.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.date: 04/17/2025
+ms.date: 05/15/2025
 ms.custom: bap-template
 ---
 
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-To be written.
+Intent-based routing is an advanced approach that uses generative AI to enhance the efficiency and accuracy of routing customer interactions. By capturing customer intents from incoming conversations and mapping them to appropriate solutions, intent-based routing makes sure that customer queries are directed to the most suitable service representatives. This method allows for a more dynamic and responsive customer service experience, moving beyond traditional static routing rules. The system organizes intents into intent groups. The intent groups are then mapped to user groups with the necessary expertise to address the specific intents.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -23,7 +23,6 @@ To be written.
 - [Customer Intent Agent is enabled](/dynamics365/contact-center/administer/manage-customer-intent-agent#enable-customer-intent-agent).
 
 - [Lines of business are created](/dynamics365/contact-center/administer/manage-customer-intent-agent#manage-lines-of-business).
-
 - [Intent discovery is set up](/dynamics365/contact-center/administer/manage-customer-intent-agent#manage-intent-discovery-setup).
 - [intents are created and in approved state](/dynamics365/contact-center/administer/manage-customer-intent-agent#manage-intents).
 - [Intent groups are created](/dynamics365/contact-center/administer/manage-customer-intent-agent#manage-intent-groups).
@@ -123,7 +122,9 @@ You need to write classification rules to enrich live work item with the languag
 
 ## Configure the assignment method
 
-Follow the steps in [Assignment methods for queues](assignment-methods.md) to select an out-of-the-box assignment method.
+Follow the steps in [Assignment methods for queues](assignment-methods.md) to select an out-of-the-box assignment method. Even though users are not required to be a part of the queues, you can continue to configure the assignment strategy for the queues. During runtime, after a queue is identified, the system determines the user group. Then, based on the assignment strategy configured in the queue, the conversation is assigned to a user from the user group. 
+
+
 
 > [!NOTE]
 > The check for user language and region is implicitly done for the out-of-the-box assignment method.
