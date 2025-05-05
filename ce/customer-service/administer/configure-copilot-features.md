@@ -96,7 +96,7 @@ To add the Copilot features to an experience profile, perform the following step
    - **Support experience** > **Workspaces**
    - **Support experience** > **Productivity** > **Copilot for questions and emails** > **Representative access** > **experience profiles**
 1. Select the required experience profile.
-1. On the **Productivity Pane**, turn on the **Copilot** toggle so that representatives can use the Copilot features such suggest a response, ask a question, and write an email on the productivity pane.
+1. On the **Productivity pane**, turn on the **Copilot** toggle so that representatives can use the Copilot features such suggest a response, ask a question, and write an email on the productivity pane.
 
    :::image type="content" source="../media/copilot-help-pane-enable-mini.png" alt-text="Screenshot of the Productivity panel in experience profile." lightbox="../media/copilot-help-pane-enable.png":::|
 
