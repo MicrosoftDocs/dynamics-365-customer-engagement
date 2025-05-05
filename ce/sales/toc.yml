@@ -14,7 +14,7 @@ items:
     - name: Export data to Excel
       href: /powerapps/user/export-data-excel?context=/dynamics365/context/sales-context
     - name: Search for your data
-      href: /powerapps/user/search?context=/dynamics365/context/sales-context
+      href: /power-apps/user/grid-filters?context=/dynamics365/context/sales-context
     - name: Assign or share records
       href: /powerapps/user/assign-or-share-records?context=/dynamics365/context/sales-context
     - name: Print quote, invoice, or other records
@@ -796,10 +796,6 @@ items:
               href: copilot-get-doc-suggestions.md
             - name: Default attributes used in Copilot summaries
               href: understand-copilot-summaries.md
-        - name: Compose and send email messages using Copilot
-          href: compose-send-email-copilot.md
-        - name: View and copy email summary
-          href: view-copy-email-summary.md
         - name: Copilot in Dynamics 365 Sales FAQ
           href: sales-copilot-faq.md
     - name: Overview of focused view

@@ -1,17 +1,16 @@
 ---
-title: "View active conversation for an incoming conversation request | MicrosoftDocs"
-description: "Learn how to view active conversation of incoming conversation requests for customer records."
+title: View active conversation for an incoming conversation request
+description: Learn how to view active conversation of incoming conversation requests for customer records.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: article
-ms.date: 03/12/2024
+ms.date: 04/30/2025
 ---
 
 # View active conversation for an incoming conversation request
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
-
 
 ## Scenario 1: Incoming conversation request for an existing customer record 
 

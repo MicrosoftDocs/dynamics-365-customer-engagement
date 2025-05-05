@@ -88,7 +88,7 @@ Make sure that the following prerequisites are met:
 
 1. Configure work distribution. Learn more in [Work distribution settings](create-workstreams.md#configure-work-distribution).
 
-1. Add an AI agent (agent). Learn more in [Configure an agent](create-workstreams.md#add-a-bot-to-a-workstream).
+1. Add an AI agent (agent). Learn more in [Configure an agent](create-workstreams.md#add-an-agent-to-a-workstream).
 
 1. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](session-templates.md)
@@ -115,7 +115,7 @@ Make sure that the following prerequisites are met:
 
 ### Related information
 
-[Overview of chanels](../use/channels.md)  
+[Overview of channels](../use/channels.md)  
 [Configure automated messages](configure-automated-message.md)  
 [Use Microsoft Teams channel](../use/teams-channel.md)  
 [Delete a configured channel](delete-channel.md)  

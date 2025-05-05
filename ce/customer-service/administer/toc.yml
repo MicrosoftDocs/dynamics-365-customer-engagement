@@ -478,6 +478,8 @@
       items:
       - name: Overview of autonomous service agents
         href: /dynamics365/contact-center/administer/autonomous-agents-overview?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Manage consumption-based billing, capacity
+        href: setup-pay-as-you-go.md
       - name: Customer Intent Agent
         items:
         - name: Overview of Customer Intent Agent
@@ -501,9 +503,7 @@
         - name: Enable Customer Knowledge Management Agent
           href: admin-km-agent.md
         - name: Configure connection references
-          href: admin-km-agent-connections.md  
-      - name: Set up a pay-as-you-go plan
-        href: setup-pay-as-you-go.md
+          href: admin-km-agent-connections.md
     - name: Chat
       items:
       - name: Introduction to the chat channel
@@ -586,6 +586,8 @@
         href: preconfig-auto-message-triggers-async-channels.md
     - name: Advanced settings for chat and channels
       items:
+      - name: Deploy chat widgets using a single tag
+        href: deploy-using-single-tag.md
       - name: Configure operating hours
         href: create-operating-hours.md
       - name: Configure and manage custom presence
@@ -659,13 +661,15 @@
       - name: Manage Copilot features in Customer Service
         href: configure-copilot-features.md
       - name: Make Copilot available to agents
-        href: configure-copilot-features.md#make-copilot-available-to-agents
+        href: configure-copilot-features.md#make-copilot-available-to-representatives
       - name: Case and conversation summaries
         items:
         - name: Enable summarization of cases and conversations
           href: /dynamics365/contact-center/administer/copilot-enable-summary?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
         - name: Enable case summaries
           href: /dynamics365/contact-center/administer/copilot-enable-summary#enable-case-summaries?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
+        - name: Understand auto-enabled Copilot summaries
+          href: case-summary-forms.md
         - name: Enable conversation summaries
           href: /dynamics365/contact-center/administer/copilot-enable-summary##enable-conversation-summaries?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
       - name: Configure custom record summaries for service representatives
@@ -687,7 +691,7 @@
       - name: Enable Copilot to create knowledge from cases
         href: enable-copilot-suggest-knowledge-from-cases.md
       - name: View feedback data
-        href: configure-copilot-features.md#record-agent-interactions-with-copilot
+        href: configure-copilot-features.md#record-representative-interactions-with-copilot
       - name: Copilot architecture diagram
         href: /digital-contact-center-platform/guidance/dynamics-365-customer-service-copilot-architecture?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Manage fields Copilot uses for case summaries

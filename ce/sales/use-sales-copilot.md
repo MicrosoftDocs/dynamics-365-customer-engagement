@@ -72,6 +72,8 @@ Whether you're using Copilot in a side pane or in full-screen view, you can inte
 
 If Bing search is turned on for your organization, an option to turn it off is displayed at the bottom of the Copilot side pane and Copilot page. Copilot uses Bing search only to provide news about your accounts. If you turn it off, the **Get latest news for accounts** prompt doesn't return any results.
 
+:::image type="content" source="media/bing-consent-seller.png" alt-text="Screenshot of the Copilot side pane in Dynamics 365 Sales, with the Bing consent option highlighted.":::
+
 <a name=chat-with-copilot-in-NL></a>
 
 ## Natural language chat
@@ -86,7 +88,21 @@ You can ask the following types of questions:
 
   If your organization uses different sales terminology or custom fields, reach out to your Dynamics 365 admin to add those terms to the glossary to help Copilot better understand the context of your questions.
 
-Some of these questions are also available as suggestions or in the list of predefined prompts that appears when you select the notebook icon (Copilot side pane) or **View Prompts** (full-screen view) above the chat box.
+For more such questions, see [Questions about sales data](faqs-sales-copilot-natural-language.md#questions-about-sales-data).
+
+- **Questions with sales-specific terminology:** Questions that are based on terms specific to Sales organizations. By default, questions around the following topics are supported:
+
+  - **Conversion rates**. For example, what is my lead conversion rate for the last quarter?
+
+  - **Deal cycle**. For example, what is the average deal cycle for my opportunities?
+  - **Pipeline with filters**. For example, show my pipeline with deals closing in next 30 days.
+  - **Deal sizes and values**. For example, display open deals with deal size greater than 10000.
+  
+For a list of sample questions, see [Questions with sales-specific terminology](faqs-sales-copilot-natural-language.md#questions-with-sales-specific-terminology). If your organization uses a different sales terminology or uses custom fields, reach out to your Dynamics 365 admin to [add those terms to the glossary](extend-copilot-chat.md#add-glossary). The glossary helps Copilot understand the context of your questions better.
+
+These questions are first answered using the data stored in Dataverse, which is the underlying data platform for Dynamics 365 Sales. If the answer isn't available in Dataverse, Copilot displays a follow-up prompt to search for the answer in SharePoint.  
+
+You can also access some of these question from the Prompt guide that appears when you select **View Prompts** above the chat box in the Copilot side pane or Copilot page.
 
 ## Related information
 

@@ -1,7 +1,7 @@
 ---
 title: View meetings in the Dynamics 365 Sales mobile app
 description: Learn how to view meetings in the Dynamics 365 Sales mobile app.
-ms.date: 02/27/2023
+ms.date: 05/02/2025
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -76,7 +76,7 @@ You can perform the following action on regarding entities: [view and edit](open
 
 **Change regarding record in meetings**<a name='change-regarding-record'></a>
 
-You can update the regarding record when it is no longer relevant or there are changes to the meeting. To change the regarding record, follow these steps:
+You can update the regarding record when it's no longer relevant or there are changes to the meeting. To change the regarding record, follow these steps:
 
 1. In the record card, tap ![Options button.](media/sm-options-button.png "Options button"), and then tap **Change connected record**.
 
@@ -97,7 +97,7 @@ The connected record details are displayed in the Regarding section.
 You can add a regarding record to a meeting when no regarding record is attached to it. When you add the regarding record, its corresponding related entities are also added to the meeting.  
 
 > [!NOTE]  
-> Once you add a regarding record, you cannot delete it. However, you can update the record if you find that the added record is inappropriate.   
+> Once you add a regarding record, you can't delete it. However, you can update the record if you find that the added record is inappropriate.   
 
 1. On the meeting details page, tap **Connect a record**.
 
@@ -115,7 +115,7 @@ The connected record is displayed in the **Regarding** section.
 
 **Disconnect regarding record**<a name='disconnect-regarding-record'></a>
 
-You can disconnect the regarding record when it is no longer relevant to the current meeting.
+You can disconnect the regarding record when it's no longer relevant to the current meeting.
 
 - In the record card, tap ![Options button.](media/sm-options-button.png "Options button"), and then tap **Disconnect record**.
 
