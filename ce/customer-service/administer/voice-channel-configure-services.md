@@ -1,7 +1,7 @@
 ---
 title: Set up incoming calls, call recording, and SMS services
 description: Learn how to set up incoming calls, call recording, and SMS services using the Azure Event Grid.
-ms.date: 11/27/2024
+ms.date: 04/14/2025
 ms.custom: bap-template
 ms.topic: how-to
 author: neeranelli
@@ -60,7 +60,7 @@ To enable call recording and SMS services, you must first configure your applica
         - To filter event types for calling services, select **Incoming Call** in the list.
      
      - **Endpoint Type**: Select **Web Hook** in the list.
-     - **Endpoint**: Select **Select an endpoint**, and then enter the incoming call, webhook endpoint from the Customer Service admin center or Contact Center admin center. Go to **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services** to get the following webhook endpoints:
+     - **Endpoint**: Select **Select an endpoint**, and then enter the incoming call, webhook endpoint from the Copilot Service admin center. Go to **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services** to get the following webhook endpoints:
         - **Incoming call Web Hook Endpoint (preview)** to enable incoming calls.
       
           :::image type="content" source="../media/event-grid-subscription-incoming-call.png" alt-text="Incoming call webhook endpoint " lightbox="../media/event-grid-subscription-incoming-call.png":::
@@ -84,7 +84,7 @@ To enable call recording and SMS services, you must first configure your applica
 
 1. Follow the steps in [Set up the Incoming Calls webhook](#set-up-the-incoming-calls-webhook), but in the filter to event type, select **Select Recording File Status Updated** in the list.
 1. For **Endpoint Type**, select **Web Hook** in the list.
-1. For **Endpoint**, select **Select an endpoint**, and then enter the recording webhook endpoint from Customer Service admin center or Contact Center admin center. Go to **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services** > **Recording Web Hook Endpoint**.
+1. For **Endpoint**, select **Select an endpoint**, and then enter the recording webhook endpoint from Copilot Service admin center. Go to **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services** > **Recording Web Hook Endpoint**.
 
    :::image type="content" source="../media/event-grid-subscription-recording-webhook-endpoint.png" alt-text="Event Grid subscription recording webhook endpoint" lightbox="../media/event-grid-subscription-recording-webhook-endpoint.png":::
 
@@ -103,7 +103,7 @@ Learn more about configuring call recordings at [Configure call recording, trans
 
 1. Follow the steps in the **Set up the Incoming Calls webhook** section but in the filter to event type, select **SMS Received and SMS Delivery Report Received** in the list.
 1. For **Endpoint Type**, select **Web Hook** in the list.
-1. For **Endpoint**, select **Select an endpoint**, and then enter the recording webhook endpoint from Contact Center admin center or Customer Service admin center. Go to **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services** > **SMS Web Hook Endpoint**.
+1. For **Endpoint**, select **Select an endpoint**, and then enter the recording webhook endpoint from Copilot Service admin center. Go to **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services** > **SMS Web Hook Endpoint**.
 1. Select the **Additional Features** tab. Select the **Use Microsoft Entra authentication checkbox**, and then enter the following details. For information about these values, go to **Get Event Grid app and tenant IDs from the Power Apps portal** section.
     - **Microsoft Entra Tenant ID**: Enter the tenant (directory) ID of your Azure resource.
     - **Microsoft Entra Application ID or URL**: Enter the application (client) ID of your Azure resource.
