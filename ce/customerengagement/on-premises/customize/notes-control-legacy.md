@@ -28,6 +28,7 @@ search.audienceType:
 1. [!INCLUDE[proc_settings_postconfig](../includes/proc-settings-postconfig.md)]  
   
 2. Locate the record for your custom entity.  
+   If the custom entity is not listed, select **Refresh** in the command bar.
   
 3. Make sure that **Enable walls for this type of record form** is selected and save the record.  
   
