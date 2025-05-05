@@ -1,7 +1,7 @@
 ---
 title: Integrate a third-party IVR system with voice channel
 description: Use this article to understand how you can integrate third-party IVR systems with the voice channel and set up contextual call transfer via Azure direct routing.
-ms.date: o5/05/2024
+ms.date: 05/05/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
