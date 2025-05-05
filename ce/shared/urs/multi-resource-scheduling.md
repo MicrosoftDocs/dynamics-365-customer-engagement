@@ -27,9 +27,7 @@ Requirement groups bundle requirements commonly scheduled together. For example,
 
 1. Add requirements and fill in the fields in the columns. All requirements within a requirement group must have the same duration. Change the duration of individual bookings after booking the requirement group.
 
-1. To add more details to a resource requirement, select **Open Form** and enter more filters for the schedule assistant.
-
-1. On the **Scheduling** tab, choose the work location.
+1. To add more details to a resource requirement, select **Open Form** and enter more filters for the schedule assistant. For example, on the **Scheduling** tab, choose the work location.
 
    - **Facility** work location implies the interaction takes place at a facility and travel time is calculated as the distance between the customer location and the facility location. The requirement's latitude and longitude fields are used as the customer location. It also means at least one facility or facility pool must return in schedule assistant search results in order for a resource to be returned.
   

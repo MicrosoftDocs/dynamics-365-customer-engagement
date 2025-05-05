@@ -49,7 +49,7 @@ In general, to use facility scheduling, you create a facility resource, configur
 
 1. Select the requirement, enter a name, and then **Open Form**.
 
-   :::image type="content" source="../../field-service/media/scheduling-facility-requirement-group.png" alt-text="Screenshot of a requirement in a requirement group with Open Form highlighted.":::
+   :::image type="content" source="../../field-service/media/scheduling-facility-requirement-group.png" alt-text="Screenshot of a requirement in a requirement group with Open Form highlighted." lightbox="../../field-service/media/scheduling-facility-requirement-group.png":::
 
 1. On the **General** tab, select **Facility** for the **Resource Type** to indicate this requirement requires a facility. Schedule assistant looks for facility resources to fulfill this requirement. 
 
@@ -70,7 +70,7 @@ Requirements that are part of a requirement group are scheduled via the **Book**
 
    :::image type="content" source="../../field-service/media/scheduling-facility-requirement-group-book.png" alt-text="Screenshot of schedule assistant results.":::
 
-   The **Facility travel time and distance** calculations represent the time and distance between the facility resource (defined by the organizational unit location) and the customer's location (defined by the latitude and longitude on the requirement).
+   The Facility **Travel Time** and **Distance** calculations represent the time and distance between the facility resource (defined by the organizational unit location) and the customer's location (defined by the latitude and longitude on the requirement).
 
 1. To remove the travel time and distance calculations from schedule assistant results, change the **Work Location** filter to *Location Agnostic*.
 
@@ -126,10 +126,12 @@ An auto repair shop offers transmission repairs including luxury cars. They have
 
    :::image type="content" source="../../field-service/media/scheduling-facility-associate-resource.png" alt-text="Screenshot the association between the mechanic resource and facility resource.":::
 
-1. [Create a requirement group](#create-a-requirement-for-a-facility) with one requirement for the facility (auto repair shop) and another requirement for the mechanic resource. Set the **Work Location** on each requirement to **Facility**.
+1. [Create a requirement group](#create-a-requirement-for-a-facility) with one requirement for the facility (auto repair shop) and another requirement for the mechanic resource.
 
    - Set **Select** to **All** so that all requirements must be met.
    - Set **Part of Same** to **Resource Tree** so that resources from different locations aren't recommended for work at this facility. As an example, a mechanic associated with Facility B shouldn't be paired with Facility A.
+   - Set duration, charactistics, or other criteria.
+   - For each requirement, set the **Work Location** to **Facility** and the latitude and longitude fields for the customer's location.
 
 1. Book the requirement group. Scheduling the requirement group creates a booking for the facility resource and the mechanic resource.
 
@@ -151,8 +153,8 @@ An auto repair shop wants to schedule each individual bay at their facility. Cre
 
 1. Add each bay as a child resource to the repair shop facility resource pool
 
-   - Open the auto repair shop facility pool resource, and go to **Related > Resource Children**.
-   - Add each bay resource as a child record to the parent facility pool.
+   - From the auto repair shop facility pool resource, select **Related > Resource's Children**.
+   - Select **New Bookable Resource Group** and add each bay resource as a child record to the parent facility pool.
 
    :::image type="content" source="../../field-service/media/scheduling-facility-room-specific-children.png" alt-text="Screenshot of all bay resources related as children to the auto repair shop facility.":::
 
@@ -161,7 +163,7 @@ An auto repair shop wants to schedule each individual bay at their facility. Cre
    - Set **Part of Same** to **Same Location** to ensure each bay is at the same physical address.
    - Set duration, charactistics, or other criteria.
    - For each requirement, set the **Resource Type** to **Facility**.
-   - For each requirement, set the **Work Location** to **Facility** and the latitude and longitude fields for customer's location.
+   - For each requirement, set the **Work Location** to **Facility** and the latitude and longitude fields for the customer's location.
 
    > [!NOTE]
    > Latitude and longitude fields on all requirements within a group must be equal; updating the values on one requirement updates the others.
@@ -186,7 +188,7 @@ An auto repair shop wants to schedule specific bays at their facility to a pool 
    - Open the auto repair shop facility pool resource, and go to **Related > Resource Children**.
    - Add each bay resource as a child record to the parent facility pool.
 
-1. [Create a pool](../urs/resource-pools.md#create-a-resource-pool) of specialized mechanics. Using a pool allows schedulers to book appointments based on capacity without having to assign a specific mechanic at the time of scheduling.
+1. [Create a pool](../urs/resource-pools.md) of specialized mechanics. Using a pool allows schedulers to book appointments based on capacity without having to assign a specific mechanic at the time of scheduling.
 
    - Set **Resource Type** to **Pool**.
    - Set **Pool Type** to **Contact**, **User**, or **Account**.
@@ -198,7 +200,7 @@ An auto repair shop wants to schedule specific bays at their facility to a pool 
    - Set the resource type to **User**, **Account**, or **Contact**.
    - Set the **Start/End Location** to **Organizational Unit Address** and select the same organizational unit as the auto repair shop.
 
-1. Add the mechanic resources as [resource children to the mechanics pool](../urs/resource-pools.md#add-pool-members).
+1. Add the mechanic resources as [resource children to the mechanics pool](../urs/resource-pools.md).
 
    :::image type="content" source="../../field-service/media/scheduling-facility-mechanic-pool-children.png" alt-text="Screenshot of relating mechanics as children to the parent mechanic pool.":::
 
