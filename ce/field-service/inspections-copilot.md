@@ -23,7 +23,7 @@ Copilot converts the uploaded documents into draft inspection templates that can
 > - This is a preview feature.
 > - Preview features aren't meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
 > - Users can provide feedback for inspection builder by default. Environment administrators can switch the feedback mechanism on or off for each individual environment from the organization table. The tenant-level Copilot feedback setting in Power Platform admin center currently has no effect on this feature. To make sure user feedback is disabled across a tenant, you must switch it off for each environment.
-> - This feature is not currently available for Power Platform or Dynamics 365 environments that are hosted in the United Kingdom. For environments hosted in Italy, an admin must [turn on data movement, Bing Search, and Microsoft 365 services for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot?tabs=new#turn-on-data-movement-bing-search-and-microsoft-365-services-for-copilots-and-generative-ai-features).
+> - This feature is not currently available for Power Platform or Dynamics 365 environments that are hosted in the United Kingdom and Italy.
 
 ## Enable the inspection builder
 
