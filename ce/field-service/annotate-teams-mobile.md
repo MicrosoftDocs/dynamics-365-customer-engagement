@@ -2,7 +2,7 @@
 title: Use spatial annotations in Teams
 description: Use Microsoft Teams to annotate in a Dynamics 365 Field Service environment.
 author:  prashantyvr
-ms.date: 05/02/2025
+ms.date: 05/05/2025
 ms.topic: how-to
 ms.author: prashan
 ms.reviewer: v-wendysmith
@@ -29,7 +29,7 @@ To use this Augmented Reality (AR) feature, your mobile device must support it.
 - [Android phones and tablets with ARCore support](https://developers.google.com/ar/devices)
 - [iOS iPhones and iPads with ARKit support](https://developers.google.com/ar/devices#ios)
 
-For successful use of spatial annotations, go to [Tracking](#tracking).
+For successful use of spatial annotations, go to [Best practices](#best-practices).
 
 ## Use spatial annotations
 
@@ -56,25 +56,24 @@ You can use spatial annotations in Microsoft Teams calls as long as one person h
 
 ## Enable a one-time call to use spatial annotations
 
-You might want an external user without a Dynamics 365 Guides, Remote Assist, or Field Service license to join a call on a one-time basis. It only takes one license from a mobile user to unlock spatial annotation capabilities to all other mobile and desktop users in a Teams call.
+You can collaborate using spatial annotations with an external user who isn't a part of your organization. For example, having a call with a vendor or a contractor to solve a problem or discuss a process using augmented reality. If your collaborators don't have a Dynamics 365 Field Service, Guides, or Remote Assist license, they can still use spatial annotations when they join a call or meeting on a one-time basis. The system only requires one licensed user to unlock spatial annotation capabilities to all other mobile and desktop users.
 
 Make sure your Teams admin has [enabled meetings for external users](/microsoftteams/plan-meetings#meeting-options-for-guests-and-external-participants).
 
-1. Create a Teams meeting with the organizer (one who has a Dynamics 365 Guides, Remote Assist, or Field Service license) and invite your participants to the meeting.
+1. Create a Teams meeting or start a call with one participant having a Dynamics 365 Field Service, Guides, or Remote Assist license and invite your other participants.
 
-1. Ensure the organizer joins the call first, then have the invited members join.
+1. All participants can [use spatial annotations](#use-spatial-annotations) as long as one person on the call has a Field Service, Guides, or Remote Assist license.
 
-1. Members can [use spatial annotations](#use-spatial-annotations) as long as one person on the call has a Dynamics 365 Guides, Remote Assist, or Field Service license.
+## Best practices
 
-## Tracking
+The person with the mobile device who shares their space for annotating should establish tracking. Tracking enables the mobile device to build a spatial map of visual feature points in the space. Without proper tracking, the mobile device doesn't understand the space and spatial annotations might not attach or be placed as expected.
 
-The person who shares their space for annotating should initialize tracking. Tracking enables the mobile device to build a spatial map of the space to understand its place in the physical world. Without proper tracking, the mobile device doesn't understand the space and spatial annotations might not be placed in the correct spot.
+For best results, the person should do a quick scan of the area they want to annotate:
 
-To initialize tracking, the person should:
-
-- Move the camera around slowly to gather data about the space or object for annotation. Similar to drawing a figure 8.
+- Point the camera where you want to annotate, covering different angles and distances.
+- Move the camera around slowly to gather data about the space, object, or point of interest.
 - Point the camera at different angles and distances from the object.
-- Ensure good lighting conditions to detect surfaces and objects clearly.
-- Use textured surfaces when possible. Textured surfaces rather than white or translucent surfaces provide more points to track.
+- Ensure even lighting conditions to detect surfaces and objects clearly.
+- Use textured surfaces to provide more visual feature points to track, rather than uniform, shiny, or translucent surfaces.
 
-If something interrupts the camera, tracking might temporarily be lost and annotations are unavailable. The message "Please wait while Mixed Reality user re-establishes tracking" appears. Wait a moment for the camera to re-establishes tracking so annotations are available.
+If something interrupts the camera, tracking might temporarily be lost and annotations are unavailable. The system can recover when the camera detects familiar feature points again. The message "Please wait while Mixed Reality user re-establishes tracking" appears. Wait a moment for the camera to re-establishe tracking so annotations are available.
