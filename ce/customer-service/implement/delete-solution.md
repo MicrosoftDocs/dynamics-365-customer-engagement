@@ -1,6 +1,6 @@
 ---
-title: Uninstall solutions in Omnichannel for Customer Service
-description: Perform the steps mentioned in this article to remove solutions in Omnichannel for Customer Service.
+title: Uninstall omnichannel solutions
+description: Perform the steps mentioned in this article to remove omnichannel solutions in Customer Service.
 ms.date: 05/05/2025
 ms.topic: how-to
 author: neeranelli
@@ -10,9 +10,7 @@ ms.collection:
 ms.custom: bap-template
 ---
 
-# Uninstall solutions in Omnichannel for Customer Service
-
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+# Uninstall omnichannel solutions
 
 When you uninstall Omnichannel for Customer Service from your organization, the omnichannel solutions are not removed. If you want to remove omnichannel solutions from your organization, you must use the same order as mentioned in the following table.
 
@@ -159,7 +157,7 @@ Do the following steps to remove the Customer Service Hub solution from your org
 ### Related information
 
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)  
-[Omnichannel for Customer Service on Unified Service Desk](../../unified-service-desk/oc-usd/omnichannel-customer-service-unified-service-desk.md)  
+[Provision channels in the admin app](/dynamics365/contact-center/implement/provision-channels)  
 [Deploy Unified Service Desk - Omnichannel for Customer Service package](../../unified-service-desk/oc-usd/omnichannel-customer-service-package.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
