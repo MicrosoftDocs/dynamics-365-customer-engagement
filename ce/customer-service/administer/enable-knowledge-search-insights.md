@@ -1,7 +1,7 @@
 ---
 title: Manage knowledge analytics
 description: Learn how to configure Knowledge analytics dashboards.
-ms.date: 02/03/2025
+ms.date: 05/06/2025
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -12,7 +12,6 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 # Manage knowledge analytics
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
-
 
 The Knowledge analytics dashboard is designed to provide your supervisors and knowledge workers with valuable insights into how your customer service representatives are searching and using knowledge articles.
 
