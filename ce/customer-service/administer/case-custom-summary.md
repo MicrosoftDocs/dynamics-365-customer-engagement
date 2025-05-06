@@ -26,7 +26,7 @@ You can customize case and custom record summaries as follows:
 - Allow representatives to access summaries on demand from relevant forms for the latest status updates.
 - Incorporate data from related records and customize how summaries appear to your service representatives.
 
-## Navigation
+## Configure case and custom record summaries
 
 In Copilot Service admin center, perform the following steps to select your preferred format:
 
@@ -37,6 +37,13 @@ In Copilot Service admin center, perform the following steps to select your pref
 1. You can access the configuration wizard using one of the following options:
      - Select **Manage data** link in **Case summaries**, to edit the default case summary record.
      - Select **Add new summary** in **Custom record summaries** to create a new summary record. You can also select **Edit** to modify an existing summary record. 
+
+1. The configuration wizard has the following panes. Specify the required information in each pane and select **Next** to navigate to the next pane to complete the configuration.
+
+    - Specify record type
+    - Specify data
+    - Include related record summary
+    - Manage summary format
 
 ## Specify record type
 
@@ -135,12 +142,12 @@ Perform the following steps:
    - **Structured**: This format presents the summary in a structured manner, with each field appearing in a separate line. This format is more readable and helps service representatives quickly find the information they need.
 1. When you select the **Structured** format, you can also specify up to five custom headers to organize summary information. By default, the headers are **Issue**, **Troubleshooting steps**, **Outcome**, **Error code**, and **Root cause**. You can perform the following actions:
 
- - Select **Edit** to modify the header title and the information to be summarized by Copilot.
- - Select **Delete** to remove the header.
- - Select the arrows to change the order in which the headers appear in the summary.
- - Clear the checkbox to remove the header from the summary without deleting the header.
- - Select **Add new info** to add a new header. 
- - Select **Reset to default info** to restore the default headers.
+   - Select **Edit** to modify the header title and the information to be summarized by Copilot.
+   - Select **Delete** to remove the header.
+   - Select the arrows to change the order in which the headers appear in the summary.
+   - Clear the checkbox to remove the header from the summary without deleting the header.
+   - Select **Add new info** to add a new header. 
+   - Select **Reset to default info** to restore the default headers.
 
 1. Turn on the **Remove information from the summary that can't be found** toggle to exclude information that isn't available in the record. This option prevents placeholder text or empty sections from appearing in your summaries when the corresponding data is missing.
 
