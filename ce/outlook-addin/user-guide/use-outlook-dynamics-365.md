@@ -15,7 +15,7 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-ms.topic: conceptual
+ms.topic: article
 ---
 
 # Use Outlook with Dynamics 365 apps
