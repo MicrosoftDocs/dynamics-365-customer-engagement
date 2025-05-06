@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
-ms.date: 04/02/2025
+ms.date: 05/06/2025
 ms.custom: bap-template
 ---
 
@@ -41,6 +41,8 @@ For example, a case that gets created automatically creates a conversation in th
 - **Summary**: This report provides an overview of your organization in real time.
 
 - **Queue:** This report provides a case and record work item overview, segmented by queue.
+    > [!NOTE]
+    > This report shows entity record type queues only.
 
 - **Agent**: This report provides an overview of the health and KPIs of service representatives in your organization.
 
