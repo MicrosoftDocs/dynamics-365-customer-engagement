@@ -391,11 +391,11 @@ For chat and digital messaging, a service representative is actively working on 
 
 For the **Voice** report, this metric is the sum of total talk time, total hold time, and total wrap-up time or after-call work, divided by the number of calls handled, where:
 
-    :::image type="content" source="../media/aht_voice.png" alt-text="Screenshot of how average handle time is calculated for voice.":::
+:::image type="content" source="../media/aht_voice.png" alt-text="Screenshot of how average handle time is calculated for voice.":::
 
 For the **Chat** report, this metric is the sum of the active chat time and active wrap-up time, divided by the number of chats handled, where:
 
-    :::image type="content" source="../media/aht_chat.png" alt-text="Screenshot of average handle time for chat":::
+:::image type="content" source="../media/aht_chat.png" alt-text="Screenshot of average handle time for chat.":::
 
 This metric can be viewed in two formats: seconds and *hh:mm:ss*.
 
