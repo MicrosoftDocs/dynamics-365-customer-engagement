@@ -58,3 +58,7 @@ You can do the following:
 - View the related record summary, with the corresponding header such as record ID or title. Copilot displays two related record summaries by default.
 - Select **Show more related records** to view all related records to load two additional summaries at a time, repeating the process until all related records are displayed.
 - Select the record ID or header to open the full record in a new view.
+
+### Related information
+
+[Manage case and custom record summary](../administer/copilot-map-custom-fields.md)
