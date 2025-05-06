@@ -3,7 +3,7 @@ title: Set up a proof of concept for Resource Scheduling Optimization
 description: Learn how to set up a proof of concept for the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service.
 ms.date: 07/18/2024
 ms.subservice: resource-scheduling-optimization
-ms.topic: conceptual
+ms.topic: quickstart
 author: AnilMur
 ms.author: anilmur
 ---
