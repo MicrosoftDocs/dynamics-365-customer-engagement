@@ -2,7 +2,7 @@
 title: "Use data driven adapters in Unified Service Desk | MicrosoftDocs"
 description: "Learn about data-driven adapters, their types, and how you can create new adapters or extend existing ones in Unified Service Desk."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

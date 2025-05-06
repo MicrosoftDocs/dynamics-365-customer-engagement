@@ -2,7 +2,7 @@
 title: "UIA Pattern List in Unified Service Desk | MicrosoftDocs"
 description: "Use this topic to get a list of UI automation patterns, such as InvokePatternIdentifiers.Pattern, used in Unified Service Desk."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: overview
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

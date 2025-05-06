@@ -2,7 +2,7 @@
 title: "User Notes (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the User Notes type of hosted control and the predefined UII actions associated with it."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

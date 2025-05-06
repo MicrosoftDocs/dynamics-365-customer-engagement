@@ -2,7 +2,7 @@
 title: "Unified Service Desk and Unified Interface configuration walkthroughs | MicrosoftDocs"
 description: "Unified Service Desk and Unified Interface walkthroughs provide you a step-by-step tutorial on configuring an agent application from scratch and progressively add features."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
