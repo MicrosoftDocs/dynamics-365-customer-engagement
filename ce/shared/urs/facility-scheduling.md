@@ -51,7 +51,7 @@ In general, to use facility scheduling, you create a facility resource, configur
 
    :::image type="content" source="../../field-service/media/scheduling-facility-requirement-group.png" alt-text="Screenshot of a requirement in a requirement group with Open Form highlighted." lightbox="../../field-service/media/scheduling-facility-requirement-group.png":::
 
-1. On the **General** tab, select **Facility** for the **Resource Type** to indicate this requirement requires a facility. Schedule assistant looks for facility resources to fulfill this requirement. 
+1. On the **General** tab, select **Facility** for the **Resource Type** to indicate this requirement requires a facility. Schedule assistant looks for facility resources to fulfill this requirement.
 
 1. On the **Scheduling** tab, enter the following information:
 
@@ -130,7 +130,7 @@ An auto repair shop offers transmission repairs including luxury cars. They have
 
    - Set **Select** to **All** so that all requirements must be met.
    - Set **Part of Same** to **Resource Tree** so that resources from different locations aren't recommended for work at this facility. As an example, a mechanic associated with Facility B shouldn't be paired with Facility A.
-   - Set duration, charactistics, or other criteria.
+   - Set duration, characteristics, or other criteria.
    - For each requirement, set the **Work Location** to **Facility** and the latitude and longitude fields for the customer's location.
 
 1. Book the requirement group. Scheduling the requirement group creates a booking for the facility resource and the mechanic resource.
@@ -161,7 +161,7 @@ An auto repair shop wants to schedule each individual bay at their facility. Cre
 1. [Create a requirement group](#create-a-requirement-for-a-facility). In this example, we're looking for two specific bays within the same auto repair shop. Create two requirements in the group.
 
    - Set **Part of Same** to **Same Location** to ensure each bay is at the same physical address.
-   - Set duration, charactistics, or other criteria.
+   - Set duration, characteristics, or other criteria.
    - For each requirement, set the **Resource Type** to **Facility**.
    - For each requirement, set the **Work Location** to **Facility** and the latitude and longitude fields for the customer's location.
 
@@ -188,7 +188,7 @@ An auto repair shop wants to schedule specific bays at their facility to a pool 
    - Open the auto repair shop facility pool resource, and go to **Related > Resource Children**.
    - Add each bay resource as a child record to the parent facility pool.
 
-1. [Create a pool](../urs/resource-pools.md) of specialized mechanics. Using a pool allows schedulers to book appointments based on capacity without having to assign a specific mechanic at the time of scheduling.
+1. [Create a pool](../../field-service/resource-pools.md) of specialized mechanics. Using a pool allows schedulers to book appointments based on capacity without having to assign a specific mechanic at the time of scheduling.
 
    - Set **Resource Type** to **Pool**.
    - Set **Pool Type** to **Contact**, **User**, or **Account**.
@@ -200,7 +200,7 @@ An auto repair shop wants to schedule specific bays at their facility to a pool 
    - Set the resource type to **User**, **Account**, or **Contact**.
    - Set the **Start/End Location** to **Organizational Unit Address** and select the same organizational unit as the auto repair shop.
 
-1. Add the mechanic resources as [resource children to the mechanics pool](../urs/resource-pools.md).
+1. Add the mechanic resources as [resource children to the mechanics pool](../../field-service/resource-pools.md).
 
    :::image type="content" source="../../field-service/media/scheduling-facility-mechanic-pool-children.png" alt-text="Screenshot of relating mechanics as children to the parent mechanic pool.":::
 
@@ -215,7 +215,7 @@ An auto repair shop wants to schedule specific bays at their facility to a pool 
 1. Create a requirement group for bays and mechanics.
 
    - Set **Part of Same** to **Resource Tree** to ensure bays and mechanics are related to the same facility resource through resource children or resource association.
-   - Set duration, charactistics, or other criteria.
+   - Set duration, characteristics, or other criteria.
    - Create a requirement for each bay.
    - Create a requirement for the pool of mechanics. Set the **Resource Type** to **Pool** and **Pool Type** to **Contact**, **User**, or **Account** depending on how you set up your mechanics.
 
@@ -249,7 +249,7 @@ The location for a facility pool is taken from the parent organizational unit. I
 
 ### Booking location
 
-When a team is selected and booked, the latitude and longitude of the booked facility/facility pool's location will be stored on the booking record. The work location will also be set based on the work location used when booking in the schedule assistant. In the following conditions, the work location, latitude, and longitude will still be set on the booking:
+When a team is selected and booked, the latitude and longitude of the booked facility/facility pool's location is stored on the booking record. The work location is set based on the work location used when booking in the schedule assistant. In the following conditions, the work location, latitude, and longitude are set on the booking:
 
 - If bookings are created without using the schedule assistant
 - If the requirement's work location is set to facility
