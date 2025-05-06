@@ -1,7 +1,7 @@
 ---
 title: Manage contacts in the Dynamics 365 Sales mobile app
 description: Learn how to create and manage contacts in the Dynamics 365 Sales mobile app
-ms.date: 03/31/2023
+ms.date: 05/02/2025
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -37,8 +37,7 @@ The Meeting details page displays contacts are invited for the meeting. Also, th
 
 In the following example, the details of a recent contact shown on the home page are displayed in a quick view form:   
 
-> [!div class="mx-imgBorder"]
-> ![Open contact details.](media/sm-open-contact.png "Open contact details") 
+:::image type="content" source="media/sm-open-contact.png" alt-text="Screenshot of opening contact details in a quick view form.":::
 
 ## Edit contact details
 
@@ -74,8 +73,7 @@ If you need to create a contact that doesn't already exist in your Dynamics 365 
     
 1. Tap **Create new contact**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Create contact.](media/sm-create-contact.png "Create contact")
+    :::image type="content" source="media/sm-create-contact.png" alt-text="Screenshot of creating a new contact from the Meetings page.":::
     
 3.  In the **Create new contact** form, fill in the details, and then tap **Save**.
 

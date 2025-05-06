@@ -1,7 +1,7 @@
 ---
 title: Customize interactive dashboards that are based on Unified Interface
 description: Know how to configure interactive dashboards in Dynamics 365 Customer Service.
-ms.date: 06/21/2024
+ms.date: 04/30/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

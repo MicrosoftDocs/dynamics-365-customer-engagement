@@ -1,7 +1,7 @@
 ---
 title: Connect to Azure Communication Services
 description: Learn how to connect to Azure Communication Services by using a new or existing resource to configure the voice channel.
-ms.date: 08/29/2024
+ms.date: 04/29/2025
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -25,10 +25,10 @@ The voice channel in Dynamics 365 is built over Azure Communication Services. Th
 
 You can also [import phone numbers](voice-channel-sync-from-acs.md) or [connect your existing telephony infrastructure with Azure](voice-channel-bring-your-own-number.md).
 
-> [!Note]
+> [!IMPORTANT]
 >
+> - Avoid reusing [Azure Communication Services resources](/azure/communication-services/quickstarts/create-communication-resource) across multiple instances. For optimal performance and to avoid issues, map one application instance only with one Azure Communication Services resource.
 > - After you connect to a resource in a Power Platform environment, the phone numbers purchased via the resource that are linked to the Power Platform environment can't be transferred or migrated to another environment.
-> - You can't reuse Azure Communication Services resources across multiple instances. For optimal performance and to avoid issues, map only one application instance with one Azure Communication Services resource.
 > - We recommend that you [test your network](https://azurecommdiagnostics.net) before you connect to Azure Communication Services.
 
 
