@@ -113,7 +113,7 @@ Perform the following steps to configure related record summaries:
 
 ### Example
 
-For example, if you want your service representatives to see the related work orders with the linked to a case, you can configure the following details:
+For example, if you want your service representatives to see the related work orders linked to a case, you can configure the following details:
 
 - **Select related record**: Work Order
 - **Select related record field that references the parent**: Parent Case (the field on Work Order that links the work order to the case)
