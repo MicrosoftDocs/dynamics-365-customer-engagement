@@ -2,7 +2,7 @@
 title: Support for live chat and asynchronous channels
 description: Get information on the support for adaptive cards, suggested actions, emojis, stickers, file attachments, and message formatting in live chat and asynchronous channels.
 ms.date: 03/03/2025
-ms.topic: conceptual
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.custom: bap-template

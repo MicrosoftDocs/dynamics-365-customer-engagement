@@ -4,7 +4,7 @@ description: Use this article to understand how Markdown formats are passed thro
 author: gandhamm
 ms.author: mgandham
 ms.date: 01/17/2023
-ms.topic: conceptual
+ms.topic: overview
 ms.custom: bap-template
 ms.reviewer: mgandham
 

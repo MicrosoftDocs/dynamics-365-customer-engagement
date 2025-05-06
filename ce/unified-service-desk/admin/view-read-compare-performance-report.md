@@ -2,7 +2,7 @@
 title: "View, read, and compare Unified Service Desk performance report | MicrosoftDocs"
 description: "Learn on how to view, read, and compare different Unified Service Desk performance report generated using the Unified Service Desk Performance Analyzer."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

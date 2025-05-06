@@ -2,7 +2,7 @@
 title: Developer tools for Customer Service
 description: Developer guide for Customer Service provides developers the information they need to get started with using the extensibility features.
 ms.date: 11/27/2023
-ms.topic: article
+ms.topic: overview
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

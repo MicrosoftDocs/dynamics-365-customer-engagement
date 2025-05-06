@@ -4,7 +4,7 @@ description: Read this article to know about the Markdown formats that agents ca
 author: gandhamm
 ms.author: mgandham
 ms.date: 06/14/2024
-ms.topic: conceptual
+ms.topic: reference
 ms.custom: bap-template
 ms.reviewer: mgandham
 

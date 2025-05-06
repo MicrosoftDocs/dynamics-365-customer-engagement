@@ -4,7 +4,7 @@ description: Frequently Asked Questions about adding users to agent experience p
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 07/01/2024
 ms.custom: bap-template 
 ---

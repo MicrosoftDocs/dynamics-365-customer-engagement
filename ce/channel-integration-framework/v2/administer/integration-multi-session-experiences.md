@@ -5,7 +5,7 @@ author: gandhamm
 ms.date: 12/10/2024
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: conceptual
+ms.topic: integration
 ms.custom: bap-template
 ---
 # Integrate with multisession apps

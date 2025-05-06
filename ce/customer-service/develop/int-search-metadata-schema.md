@@ -4,7 +4,7 @@ description: Learn about how to map external source metadata to knowledge articl
 author: gandhamm 
 ms.author: mgandham 
 ms.reviewer: mgandham
-ms.topic: conceptual 
+ms.topic: overview
 ms.date: 05/02/2023
 ms.custom: bap-template
 ---

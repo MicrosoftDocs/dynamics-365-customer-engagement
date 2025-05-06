@@ -4,7 +4,7 @@ description: Review macro run history to identify causes of failure and view exa
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: conceptual
+ms.topic: overview
 ms.collection:
 ms.date: 01/28/2025
 ms.custom:

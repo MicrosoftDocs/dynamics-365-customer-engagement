@@ -4,7 +4,7 @@ description: Learn about using Omnichannel connector to create macros.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: conceptual 
+ms.topic: how-to
 ms.collection: 
 ms.date: 12/04/2024
 ms.custom: bap-template 

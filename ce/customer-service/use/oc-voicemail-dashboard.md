@@ -2,7 +2,7 @@
 title: Voicemail dashboard in Omnichannel historical analytics
 description: Learn about the Voicemail dashboard in Omnichannel historical analytics to better understand customer service representative performance in your organization.
 ms.date: 10/17/2022
-ms.topic: article
+ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

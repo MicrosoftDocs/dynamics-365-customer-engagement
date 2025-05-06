@@ -2,7 +2,7 @@
 title: Configure AI topic clustering for conversations
 description: Configure topic cLustering for conversations using AI.
 ms.date: 02/06/2025
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

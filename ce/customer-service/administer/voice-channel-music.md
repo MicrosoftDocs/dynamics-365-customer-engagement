@@ -2,7 +2,7 @@
 title: Manage phone music in the voice channel 
 description: Use this topic to understand how you can configure hold and wait music in Contact Center admin center.
 ms.date: 12/14/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

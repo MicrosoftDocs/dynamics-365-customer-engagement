@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.date: 03/04/2022
-ms.topic: article
+ms.topic: concept-article
 
 ---
 # Route non-case records using a plug-in
