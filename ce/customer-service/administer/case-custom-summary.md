@@ -26,6 +26,11 @@ You can customize case and custom record summaries as follows:
 - Allow representatives to access summaries on demand from relevant forms for the latest status updates.
 - Incorporate data from related records and customize how summaries appear to your service representatives.
 
+## Prerequisites
+
+- For Copilot to generate a summary, make sure that the Customer Service Representative or custom role has the read permission configured for the related entities.
+- Agents must have the `prvReadProduct` privilege to generate a summary that contains the **Product** field.
+
 ## Configure case and custom record summaries
 
 In Copilot Service admin center, perform the following steps to select your preferred format:
@@ -74,11 +79,11 @@ The second pane that appears in the configuration wizard. Specify the fields tha
 > [!NOTE]
 > Make sure to add at least one **1-to-1** data type for case summaries.
 
-:::image type="content" source="../media/copilot-data-attributes-mini.png" alt-text="Screenshot of the data attributes that copilot uses" lightbox="../media/copilot-data-attributes.png":::
+   :::image type="content" source="../media/copilot-data-attributes-mini.png" alt-text="Screenshot of the data attributes that copilot uses" lightbox="../media/copilot-data-attributes.png":::
 
 ### Manage fields Copilot uses for case summaries 
 
- Copilot uses the following fields to generate case summaries, for the default case summary record. When you're modifying the default fields, make sure that at least one of the fields among the first seven must remain enabled.
+ Copilot uses the following fields to generate case summaries, for the default case summary record. When you're modifying the default fields, make sure that at least one of the fields among the first seven remains enabled.
 
 - Customer
 - Case Title
@@ -93,8 +98,6 @@ The second pane that appears in the configuration wizard. Specify the fields tha
 
 ### Things to consider
 
-- For Copilot to generate a summary, make sure that the Customer Service Representative or custom role has the read permission configured for the related entities.
-- Agents must have the `prvReadProduct` privilege to generate a summary that contains the **Product** field.
 - You can set Case Notes to a custom entity that is related to the **Case** table.
 - You can't modify the **Email Content**  and **Conversation Summary** values that Copilot uses to generate case summaries. 
 
@@ -108,14 +111,14 @@ Perform the following steps to configure related record summaries:
 1. Specify the following information: 
     - **Select related record**: Select the related record type you want to include in the summary such as case, account.
     - **Select related record field that references the parent**: Specify the field on the related record that establishes the relationship with the base entity. The field contains a reference to the base record. 
-    - **Select a summary configuration to use**:  Select which pre-configured custom record summary Copilot must use to generate the related record summary. You can specify an existing summary record with different data configurations, formatting options, and summary lengths or select the **Go to custom record summary section** to create a new summary record to use.
-    - **Prioritize related record by**: Select a field to determine the display order of related records. This is usually a date or time field such as "Modified Date". Related record summaries are ordered based on the field with the most recent record displayed first.
+    - **Select a summary configuration to use**:  Select the preconfigured custom record summary that Copilot must use to generate the related record summary. You can specify an existing summary record with different data configurations, formatting options, and summary lengths or select the **Go to custom record summary section** to create a new summary record to use.
+    - **Prioritize related record by**: Select a field to determine the display order of related records. This is usually a date or time field such as **Modified Date**. Related record summaries are ordered based on the field with the most recent record displayed first.
     - **Select the field of related record to display on summary**: Select the field to be displayed as the header for each related record such as record title, record ID, or other identifying information.
 1. Select **Next** to go to the next pane.
 
 ### Example
 
-For example, if you want your service representatives to see the related work orders with the linked to a case, you can configure the following details:
+For example, if you want your service representatives to see the related work orders linked to a case, you can configure the following details:
 
 - **Select related record**: Work Order
 - **Select related record field that references the parent**: Parent Case (the field on Work Order that links the work order to the case)
@@ -133,15 +136,14 @@ You can customize the format of case and custom record summaries using two forma
 
 1. Select the format you want to use for case summaries:
    - **Paragraph**: Presents the summary in a single paragraph.
-   - **Structured**: Presents the summary in a structured manner, with each field appearing in a separate line. Structured format is more readable and helps service representatives quickly find the information they need.
-1. When you select the **Structured** format, you can also specify up to five custom headers to organize summary information. By default, the headers are **Issue**, **Troubleshooting steps**, **Outcome**, **Error code**, and **Root cause**. You can perform the following actions:
+   - **Structured**: Presents the summary in a structured manner, with each field appearing in a separate line. Structured format is more readable and helps service representatives quickly find the information they need. When you select the **Structured** format, you can also specify up to five custom headers to organize summary information. By default, the headers are **Issue**, **Troubleshooting steps**, **Outcome**, **Error code**, and **Root cause**. You can perform the following actions:
 
-   - Select **Edit** to modify the header title and the information to be summarized by Copilot.
-   - Select **Delete** to remove the header.
-   - Select the arrows to change the order in which the headers appear in the summary.
-   - Clear the checkbox to remove the header from the summary without deleting the header.
-   - Select **Add new info** to add a new header. 
-   - Select **Reset to default info** to restore the default headers.
+    - Select **Edit** to modify the header title and the information to be summarized by Copilot.
+    - Select **Delete** to remove the header.
+    - Select the arrows to change the order in which the headers appear in the summary.
+    - Clear the checkbox to remove the header from the summary without deleting the header.
+    - Select **Add new info** to add a new header. 
+    - Select **Reset to default info** to restore the default headers.
 
 1. Turn on the **Remove information from the summary that can't be found** toggle to exclude information that isn't available in the record. This option prevents placeholder text or empty sections from appearing in your summaries when the corresponding data is missing.
 
