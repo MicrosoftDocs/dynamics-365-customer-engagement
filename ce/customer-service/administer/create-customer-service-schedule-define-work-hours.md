@@ -2,7 +2,7 @@
 title: Create customer service schedule and define work hours (Dynamics 365 Customer Service)
 description: Create a customer service schedule, define work hours and holidays in Customer Service to manage SLA time tracking effectively.
 ms.date: 05/02/2025
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas

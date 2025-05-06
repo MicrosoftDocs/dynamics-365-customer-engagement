@@ -2,7 +2,7 @@
 title: Link and unlink knowledge articles in Dynamics 365 Customer Service
 description: Link or unlink knowledge articles to records easily, enhancing case management, and accessibility in your system.
 ms.date: 04/09/2025
-ms.topic: article
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas

@@ -2,7 +2,7 @@
 title: Configure knowledge search control on app side pane for entity records
 description: Learn how to configure the settings for knowledge search control in Dynamics 365 Customer Service.
 ms.date: 02/03/2025
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas

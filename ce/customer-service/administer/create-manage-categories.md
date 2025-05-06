@@ -2,7 +2,7 @@
 title: Create and manage categories
 description: Know how to create and manage categories for Customer Service.
 ms.date: 04/30/2025
-ms.topic: article
+ms.topic: best-practice
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas

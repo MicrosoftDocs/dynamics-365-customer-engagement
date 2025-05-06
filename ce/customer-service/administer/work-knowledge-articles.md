@@ -5,7 +5,7 @@ ms.date: 05/02/2025
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: article
+ms.topic: reference
 search.audienceType: 
   - developer
 searchScope: 

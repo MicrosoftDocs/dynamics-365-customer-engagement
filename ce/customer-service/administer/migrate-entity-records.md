@@ -2,7 +2,7 @@
 title: Migrate data from legacy Service Scheduling using migration tool
 description: Migrate data from legacy Service scheduling to the new experience using a migration tool, ensuring dependencies are resolved and errors troubleshot effectively.
 ms.date: 04/09/2025
-ms.topic: article
+ms.topic: reference
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas

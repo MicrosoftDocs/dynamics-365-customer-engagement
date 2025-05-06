@@ -4,7 +4,7 @@ description: Learn how to enable Copilot analytics in the Customer Service admin
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
 ms.date: 10/08/2024
 ms.custom: bap-template

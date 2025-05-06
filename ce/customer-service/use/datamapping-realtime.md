@@ -4,7 +4,7 @@ description: Learn about data model mapping for real-time analytics reports.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection:
 ms.date: 05/02/2025
 ms.custom: bap-template

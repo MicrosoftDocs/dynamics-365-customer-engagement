@@ -4,7 +4,7 @@ description: Learn about the Dataverse entities used in historical and real-time
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: 
 ms.date: 12/09/2024
 ms.custom: bap-template

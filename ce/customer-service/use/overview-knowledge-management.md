@@ -2,7 +2,7 @@
 title: Overview of knowledge management
 description: Learn about knowledge management in Dynamics 365 Customer Service.
 ms.date: 04/22/2025
-ms.topic: article
+ms.topic: concept-article
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
