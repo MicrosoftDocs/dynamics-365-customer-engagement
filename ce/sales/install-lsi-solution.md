@@ -2,7 +2,7 @@
 title: "Install the LinkedIn Sales Insights solution for accounts"
 description: "Install the LinkedIn Sales Insights solution for accounts in Dynamics 365 Sales."
 ms.date: 01/31/2025
-ms.topic: article
+ms.topic: install-set-up-deploy
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag

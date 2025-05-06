@@ -2,7 +2,7 @@
 title: Manage duplicate leads
 description: Discover how to manage duplicate leads for a clean database using AI models in Dynamics 365 Sales.
 ms.date: 06/28/2024
-ms.topic: article
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag

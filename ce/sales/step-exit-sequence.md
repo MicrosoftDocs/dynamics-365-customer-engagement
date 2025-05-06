@@ -2,7 +2,7 @@
 title: "Define criteria to exit a sequence during the flow"
 description: "Exit a sequence during the flow when the defined criteria is met."
 ms.date: 12/31/2024
-ms.topic: article
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
