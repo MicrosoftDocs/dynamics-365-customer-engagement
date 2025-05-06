@@ -55,24 +55,24 @@ The first pane that appears in the configuration wizard. Specify the record type
 - **Choose summary verbosity**: Select **Medium**, **Large**, or **Small** to indicate how comprehensive the generated summary can be.
 
 > [!NOTE]
-> - You can modify only the **Description of record type** and **Choose summary verbosity** fields when you edit the default case summary record.
+> You can modify the **Description of record type** and **Choose summary verbosity** fields only when you edit the default case summary record.
 
 Select **Next** to go to the next pane. 
 
 ## Specify data
 
-The second pane that appears in the configuration wizard. Specify the fields that Copilot must use to generate the summary. The fields you select are included in the summary. Perform the following steps:
+The second pane that appears in the configuration wizard. Specify the fields that Copilot must use to generate the summary. 
 
-1. Select **Add data** to add data from records or activities. Specify the following information:
-   1. **Data type**: Select **1-to-1** to map with the record or **1-to-many** to map relationships for related activities or entities. For the **1-to-1** attribute, you can have a maximum of 10 selections. For the **1-to-many** attribute, you can have a maximum of six selections and up to three related entities.
+1. Select **Add data** and enter the following details. Repeat the steps to add as many rows as required. By default, the rows you add are considered for summarization. Clear the **Include** checkbox for rows you don’t want to be considered. 
+   1. **Data type**:
+      - **1-to-1** To map with the record. You can map up to 10 selections.
+      - **1-to-many** to map relationships for related activities or entities. For the **1-to-1** attribute, you can have a maximum of 10 selections. For the **1-to-many** attribute, you can have a maximum of six selections and up to three related entities.
    1. **Record type or activity**: Select the record type or activity.
    1. **Data field**: Select the data field from the record type or activity.
-   1. To add more rows, Repeat the step. By default, the rows you add are considered for summarization.<br>
-   Clear the **Include** checkbox for rows you don’t want to be considered from the data summarization. Include only the essential rows to ensure the most succinct summaries.
 1. Select **Next** to go to the next field.
 
 > [!NOTE]
-> - Make sure to add at least one-to-one data type for case summaries.
+> Make sure to add at least one **1-to-1** data type for case summaries.
 
 :::image type="content" source="../media/copilot-data-attributes-mini.png" alt-text="Screenshot of the data attributes that copilot uses" lightbox="../media/copilot-data-attributes.png":::
 
