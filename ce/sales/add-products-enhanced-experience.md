@@ -2,7 +2,7 @@
 title: Find and add multiple products to opportunity
 description: Use the enhanced experience to quickly identify and add multiple products from catalog to opportunities.
 ms.date: 09/09/2024
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

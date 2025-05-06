@@ -2,7 +2,7 @@
 title: "Send email using the enhanced email experience in Dynamics 365 Sales"
 description: "Use the enhanced email experience to compose and send an email without leaving the context of what you are working on."
 ms.date: 02/19/2025
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
