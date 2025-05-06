@@ -20,7 +20,7 @@ Copilot case summaries help you quickly understand the context of a case and res
 ## Prerequisites
 
 - Your administrator has enabled the [Copilot case summary](/dynamics365/contact-center/administer/copilot-enable-summary) feature.
-- Your administrator has enabled the [Related record summary](../administer/copilot-related-record-summary.md) feature.
+- Your administrator has enabled the [Related record summary](../administer/copilot-map-custom-fields.md#include-related-record-summary) feature.
 
 ## View case summary
 
