@@ -58,7 +58,7 @@ For the configuration in the [example](#example) section, when a service represe
 
 :::image type="content" source="../media/custom-copilot-account.png" alt-text="Screenshot for account summary.":::
 
-If Copilot related record summary is enabled, the custom summary card displays the related record summaries along with the primary record summary at the top. Learn more in [View related record summaries](../use/copilot-use-summary.md#view-related-record-summaries).
+If Copilot related record summary is enabled, the custom summary card displays the related record summaries  at the top with the primary record summary. Learn more in [View related record summaries](../use/copilot-use-summary.md#view-related-record-summaries).
 
 ### Related information
 
