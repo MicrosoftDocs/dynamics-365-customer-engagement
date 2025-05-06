@@ -129,13 +129,7 @@ Service representatives see the work order number as the header for each work or
 
 ## Manage summary format
 
-You can customize the format of case and custom record summaries using two formatting options:
-- existing paragraph format
-- structured format. 
-
-The formatting options help your service representatives find important information quickly when working with customer cases.
-
-Perform the following steps:
+You can customize the format of case and custom record summaries using two formatting options. Perform the following steps:
 
 1. Select the format you want to use for case summaries:
    - **Paragraph**: Presents the summary in a single paragraph.
