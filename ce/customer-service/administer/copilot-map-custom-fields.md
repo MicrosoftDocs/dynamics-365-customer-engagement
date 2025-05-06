@@ -91,7 +91,7 @@ In Copilot Service admin center, perform the following steps to select your pref
 
 
 
-   :::image type="content" source="../media/format-case-summary.png" alt-text="Screenshot of Copilot case summary.":::
+   :::image type="content" source="../media/format-case-summary-mini.png" alt-text="Screenshot of Copilot case summary." lightbox="../media/format-case-summary.png":::
 
 ### Related information
 
