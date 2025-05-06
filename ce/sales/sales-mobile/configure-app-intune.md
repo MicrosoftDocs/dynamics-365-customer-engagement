@@ -1,7 +1,7 @@
 ---
 title: Configure mobile apps with Microsoft Intune
 description: How to configure the Dynamics 365 Sales mobile app with Microsoft Intune. This includes how to add, and deploy, the application. And, how to create the mobile application policy to control security.
-ms.date: 02/27/2023
+ms.date: 05/02/2025
 ms.topic: article
 author: sbmjais
 ms.author: shjais

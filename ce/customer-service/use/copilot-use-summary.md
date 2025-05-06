@@ -1,12 +1,12 @@
 ---
 title: Use Copilot to summarize cases
-description: Learn how agents can use Copilot to summarize cases in Customer Service workspace.
+description: Learn how representatives can use Copilot to summarize cases in Copilot Service workspace.
 author: gandhamm 
 ms.author: mgandham 
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 05/02/2025
+ms.date: 05/05/2025
 ms.custom: bap-template 
 ---
 
@@ -24,7 +24,7 @@ Copilot case summaries help you quickly understand the context of a case and res
 
 ## View case summary
 
-In Customer Service workspace, navigate to a case to view the case summary card.
+In Copilot Service workspace, navigate to a case to view the case summary card.
 
 The case summary appears as a card on the case form. When you open a case, the case summary card is collapsed by default so that your screen isn't cluttered with information. Select the card to expand the summary. The placement of the summary card you see is based on the case form you are using. Learn more in [Use Copilot case summary in model-driven apps](/power-apps/user/copilot-case-summary). Based on the administrator's configuration, the case summary is displayed in a paragraph format or as a structured format.
 
