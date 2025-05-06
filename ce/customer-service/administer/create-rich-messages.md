@@ -2,7 +2,7 @@
 title: "Manage rich messages | MicrosoftDocs"
 description: "This article provides steps to help you create, publish, and update rich messages in Omnichannel for Customer Service."
 ms.date: 03/03/2025
-ms.topic: article
+ms.topic: overview
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan

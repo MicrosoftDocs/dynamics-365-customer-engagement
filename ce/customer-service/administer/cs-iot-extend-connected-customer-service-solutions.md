@@ -2,7 +2,7 @@
 title: "Extend Connected Customer Service solutions | MicrosoftDocs"
 description: "Connected Customer Service supports the customization of each standard component or service and the easy addition of custom Azure-based components and services."
 ms.date: 03/15/2024
-ms.topic: article
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan

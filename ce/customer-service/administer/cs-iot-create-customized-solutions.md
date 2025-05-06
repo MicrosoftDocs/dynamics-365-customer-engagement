@@ -2,7 +2,7 @@
 title: "Develop customized IoT solutions in Connected Customer Service | MicrosoftDocs"
 description: "Learn how to create customized IoT solutions in Connected Customer Service for Azure IoT Central."
 ms.date: 04/03/2020
-ms.topic: article
+ms.topic: reference
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
