@@ -434,6 +434,8 @@
         href: /dynamics365/contact-center/administer/install-manage-desktop-app?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Support emergency calls made by agents
         href: voice-channel-emergency-calling.md
+      - name: Configure Teams Phone in voice channel (preview)
+        href: /dynamics365/contact-center/administer/configure-teams-phone-in-voice-channel?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Forward your Teams calls to digital contact center
         href: voice-forward-calls.md
       - name: Configure voicemail to manage inbound calls
