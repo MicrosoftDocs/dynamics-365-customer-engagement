@@ -30,7 +30,7 @@ Use the Copilot Service admin center app to enable or disable knowledge analytic
 
 1. In **Knowledge analytics**, select **Manage**. The **Knowledge analytics** appears.
     
-      :::image type="content" source="../media/knowledge-analytics_csac.png" alt-text="Screenshot of the Insights page in Copilot service admin center":::
+      :::image type="content" source="../media/knowledge-analytics_csac.png" alt-text="Screenshot of the Insights page in Copilot Service admin center":::
 
 1. Set the **Enable Knowledge analytics** toggle to **On** to enable the reports or set the toggle to **Off** to disable the reports.
 
