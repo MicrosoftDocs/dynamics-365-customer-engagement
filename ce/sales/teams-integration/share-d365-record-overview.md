@@ -2,7 +2,7 @@
 title: Overview about sharing and updating Dynamics 365 records within Microsoft Teams conversations
 description: Learn how to share and update Dynamics 365 records within Microsoft Teams conversations
 ms.date: 04/29/2025
-ms.topic: article
+ms.topic: concept-article
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
