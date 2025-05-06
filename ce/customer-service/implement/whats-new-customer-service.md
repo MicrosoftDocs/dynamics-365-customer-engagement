@@ -2,7 +2,7 @@
 title: What's new in Dynamics 365 Customer Service
 description: Learn about the recently added or updated features in Dynamics 365 Customer Service.
 ms.date: 07/31/2024
-ms.topic: article
+ms.topic: what's new
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

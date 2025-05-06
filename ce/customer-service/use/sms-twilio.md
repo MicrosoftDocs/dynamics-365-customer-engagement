@@ -2,7 +2,7 @@
 title: "Agent experience for Twilio channels | MicrosoftDocs"
 description: "Learn about the agent experience when interacting with conversations that originate from the Twilio SMS channel."
 ms.date: 10/08/2024
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

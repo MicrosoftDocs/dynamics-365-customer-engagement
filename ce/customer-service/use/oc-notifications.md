@@ -2,7 +2,7 @@
 title: View notifications in Customer Service
 description: Learn about notifications and their types. Representatives see notifications and screen pops in Customer Service apps.
 ms.date: 04/30/2025
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
