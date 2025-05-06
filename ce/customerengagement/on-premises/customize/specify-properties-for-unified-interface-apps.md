@@ -4,7 +4,7 @@ description: "As an app maker working with a Unified Interface app, you can conf
 keywords: 
 
 ms.custom: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps

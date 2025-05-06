@@ -4,7 +4,7 @@ description: "Create and edit views using the app designer. This page walks you 
 keywords: 
 
 ms.custom: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 author: Mattp123
