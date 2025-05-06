@@ -53,7 +53,7 @@ If integrated search isn't enabled in your geographical region, contact Microsof
 
 ## Add integrated search providers
 
-1. In the Copilot Service admin center, select **Knowledge**, under **Support experience**.
+1. In the site map of Copilot Service admin center, select **Knowledge**, under **Support experience**.
 1. On the **Knowledge** page, in the **Integrated search providers** section, select **Manage**.
 1. Select **New**.
 1. In the **Provider info** section:
