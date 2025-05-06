@@ -47,12 +47,12 @@ In Copilot Service admin center, perform the following steps to select your pref
 
 ## Specify record type
 
-This is the first pane that appears in the configuration wizard. Specify the record type to summarize and provide information to help representatives and Copilot understand the record type of the summary. 
+The first pane that appears in the configuration wizard. Specify the record type to summarize and provide information to help representatives and Copilot understand the record type of the summary. 
 
-- **Summary name**: Enter a name for the summary. This name is used to identify the summary in the list of summaries.
+- **Summary name**: Enter a name for the summary that's used for identifying it in the summaries list.
 - **Record type**: Select the record type to summarize. 
-- **Description of record type**: Specify the record description in natural language. This description helps Copilot understand the record type and generate a more accurate summary. 
-- **Choose summary verbosity**: Select the summary verbosity. Summary verbosity indicates how concise or comprehensive the generated summary is.
+- **Description of record type**: Specify the record description in natural language. The description helps Copilot understand the record type and generate a more accurate summary. 
+- **Choose summary verbosity**: Select **Medium**, **Large**, or **Small** to indicate how comprehensive the generated summary can be.
 
 > [!NOTE]
 > - You can modify only the **Description of record type** and **Choose summary verbosity** fields when you edit the default case summary record.
@@ -61,7 +61,7 @@ Select **Next** to go to the next pane.
 
 ## Specify data
 
-This is the second pane that appears in the configuration wizard. Specify the fields that Copilot must use to generate the summary. The fields you select are included in the summary. Perform the following steps:
+The second pane that appears in the configuration wizard. Specify the fields that Copilot must use to generate the summary. The fields you select are included in the summary. Perform the following steps:
 
 1. Select **Add data** to add data from records or activities. Specify the following information:
    1. **Data type**: Select **1-to-1** to map with the record or **1-to-many** to map relationships for related activities or entities. For the **1-to-1** attribute, you can have a maximum of 10 selections. For the **1-to-many** attribute, you can have a maximum of six selections and up to three related entities.
@@ -100,14 +100,14 @@ This is the second pane that appears in the configuration wizard. Specify the fi
 
 ## Include related record summary
 
-This is the third pane that appears in the configuration wizard and is an optional configuration. You can enhance your case management system by including summaries of related records within case summaries and custom record summaries. Customer support representatives get comprehensive context navigating to multiple records individually, saving time, and improving efficiency.
+The third pane that appears in the configuration wizard and is an optional configuration. You can enhance your case management system by including summaries of related records within case summaries and custom record summaries. Customer support representatives get comprehensive context navigating to multiple records individually, saving time, and improving efficiency.
 
 Perform the following steps to configure related record summaries:
 
 1. In the **Include related record summary** pane, select the **Include related records as part of the summarization output** checkbox to enable Copilot to generate related record summaries.
 1. Specify the following information: 
     - **Select related record**: Select the related record type you want to include in the summary such as case, account.
-    - **Select related record field that references the parent**: Specify the field on the related record that establishes the relationship with the base entity. This field typically contains a reference to the base record. 
+    - **Select related record field that references the parent**: Specify the field on the related record that establishes the relationship with the base entity. The field contains a reference to the base record. 
     - **Select a summary configuration to use**:  Select which pre-configured custom record summary Copilot must use to generate the related record summary. You can specify an existing summary record with different data configurations, formatting options, and summary lengths or select the **Go to custom record summary section** to create a new summary record to use.
     - **Prioritize related record by**: Select a field to determine the display order of related records. This is usually a date or time field such as "Modified Date". Related record summaries are ordered based on the field with the most recent record displayed first.
     - **Select the field of related record to display on summary**: Select the field to be displayed as the header for each related record such as record title, record ID, or other identifying information.
@@ -138,8 +138,8 @@ The formatting options help your service representatives find important informat
 Perform the following steps:
 
 1. Select the format you want to use for case summaries:
-   - **Paragraph**: It presents the summary in a single paragraph.
-   - **Structured**: This format presents the summary in a structured manner, with each field appearing in a separate line. This format is more readable and helps service representatives quickly find the information they need.
+   - **Paragraph**: Presents the summary in a single paragraph.
+   - **Structured**: Presents the summary in a structured manner, with each field appearing in a separate line. Structured format is more readable and helps service representatives quickly find the information they need.
 1. When you select the **Structured** format, you can also specify up to five custom headers to organize summary information. By default, the headers are **Issue**, **Troubleshooting steps**, **Outcome**, **Error code**, and **Root cause**. You can perform the following actions:
 
    - Select **Edit** to modify the header title and the information to be summarized by Copilot.
