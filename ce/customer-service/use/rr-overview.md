@@ -40,9 +40,7 @@ For example, a case that gets created automatically creates a conversation in th
 
 - **Summary**: This report provides an overview of your organization in real time.
 
-- **Queue:** This report provides a case and record work item overview, segmented by queue.
-    > [!NOTE]
-    > This report shows entity record type queues only.
+- **Queue:** This report provides a case and record work item overview, segmented by queue. This report shows entity record type queues only.
 
 - **Agent**: This report provides an overview of the health and KPIs of service representatives in your organization.
 
@@ -53,6 +51,9 @@ For example, a case that gets created automatically creates a conversation in th
 ## Filter information displayed on dashboard 
 
 Use the filters to drill down to KPIs across the dashboard. Adjust the filters based on the insights that you're looking for. The available filters include **Modified on**, **Agent**, **Agent status,** **Agent skill**, **Queue**, **Work item status,** **Work item skill**, and **Time zone**.
+
+> [!NOTE]
+> The queues filter shows entity record type queues only.
 
 ## Autorefresh 
 

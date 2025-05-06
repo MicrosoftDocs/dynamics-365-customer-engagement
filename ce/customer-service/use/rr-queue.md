@@ -12,7 +12,10 @@ ms.custom: bap-template
 
 # View and understand real-time analytics for record routing in the queue report
 
-The queue report lists all the advanced queues in the organization in a table by default. Content can be filtered by modified on, individual queue, agent, work item status, work item skill, and time zone.
+The queue report lists all the advanced queues in the organization in a table by default. Content can be filtered by modified on, individual queue, agent, work item status, work item skill, and time zone. 
+
+> [!NOTE]
+> This report shows entity record type queues only.
 
 :::image type="content" source="../media/record-routing-queue.png" alt-text="Screenshot real-time analytics for queue report":::
 
