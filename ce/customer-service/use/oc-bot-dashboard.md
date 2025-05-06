@@ -20,7 +20,7 @@ In the application, you can integrate both Azure and Copilot agents to perform t
 
 You can [access the dashboard](omnichannel-analytics-insights.md#access the dashboards) in the Copilot Service workspace or Contact Center workspace application.
 
-Based on your administrator's configuration of the **Add historical analytics for bots** option in the Contact Center or Customer Service admin center, the dashboard is as follows:
+Based on your administrator's configuration of the **Add historical analytics for bots** option in the Contact Center or Copilot Service admin center, the dashboard is as follows:
 - **Enabled**: Indicates that your organization only has Copilot agents configured and the dashboard is specific to them. Additional metrics, charts, and KPIs that are applicable only to Copilot agents are displayed.
 - **Disabled**: Indicates that your organization has both Azure and Copilot agents configured. The dashboard displays you metrics, KPIs, and charts that are common to both. 
 
@@ -32,7 +32,7 @@ Based on your administrator's configuration of the **Add historical analytics fo
 
 ## [Copilot Studio bot dashboard](#tab/copilotstudiodashboard)
 
- The bot dashboard displays metrics specific to Copilot agents only if Copilot agents are integrated with Omnichannel for Customer Service and the **Add historical analytics for bots** checkbox in Customer Service admin center is enabled.
+ The bot dashboard displays metrics specific to Copilot agents only if Copilot agents are integrated with Omnichannel for Customer Service and the **Add historical analytics for bots** checkbox in Copilot Service admin center is enabled.
 
   :::image type="content" source="../media/oc-bot-session-dashboard.png" alt-text="Screenshot showing the Omnichannel bot dashboard.":::
 
@@ -162,7 +162,7 @@ For Copilot agents, you can edit the report to add the additional metrics and fi
 
 ## [Dashboard for all bots ](#tab/allbots)
 
- The **bot** dashboard summarizes the KPIs for all the AI agents integrated with the application for the specified time period and percent change over a period. The application displays this view only if your administrator has disabled the **Add historical analytics for bots** checkbox in Customer Service admin center. You can filter these areas by duration, channel, queue, or service representative.
+ The **bot** dashboard summarizes the KPIs for all the AI agents integrated with the application for the specified time period and percent change over a period. The application displays this view only if your administrator has disabled the **Add historical analytics for bots** checkbox in Copilot Service admin center. You can filter these areas by duration, channel, queue, or service representative.
 
  > [!div class="mx-imgBorder"]
  > ![Screenshot of bot dashboard.](../media/bot-dashboard-oc.png "Bot dashboard")
