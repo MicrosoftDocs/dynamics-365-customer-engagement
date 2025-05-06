@@ -72,7 +72,8 @@ The second pane that appears in the configuration wizard. Specify the fields tha
 
 > [!NOTE]
 > Make sure to add at least one **1-to-1** data type for case summaries.
-:::image type="content" source="../media/copilot-data-attributes-mini.png" alt-text="Screenshot of the data attributes that copilot uses" lightbox="../media/copilot-data-attributes.png":::
+
+   :::image type="content" source="../media/copilot-data-attributes-mini.png" alt-text="Screenshot of the data attributes that copilot uses" lightbox="../media/copilot-data-attributes.png":::
 
 ### Manage fields Copilot uses for case summaries 
 

@@ -25,11 +25,11 @@ You can customize to:
 ## Configure the custom record summary
 
 1. Perform the steps in [Manage case and custom record summary](copilot-map-custom-fields.md) to configure the custom record summary record.
-1. Copy the **Developer summary ID** to use in the next section.
+1. Copy the **Developer summary ID** to use in the Configure the summary control on entity forms section.
 
 ### Example 
 
-For example, you want to generate an account summary with account name, account description, primary contact's full name and email, emails exchanged with the account, case number, case description, and notes. The **Specify data** page displays the rows for the configuration.
+For example, you want to generate an account summary with account name, account description, primary contact's full name and email, emails exchanged with the account, case number, case description, and notes. The **Specify data** page displays the rows you must configure for the customization.
 
 :::image type="content" source="../media/copilot-custom-summary.png" alt-text="screenshot for admin experience for custom records.":::
 
