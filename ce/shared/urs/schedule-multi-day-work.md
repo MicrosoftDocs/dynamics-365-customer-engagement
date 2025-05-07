@@ -8,22 +8,25 @@ Requirements can be scheduled across multiple days and weeks. Dispatchers can sc
 
 Manually scheduling a multi-day requirement on the schedule board allows you to choose the allocation method to determine the breakdown of the bookings created when scheduling. If you are using requirement details to define the allocation method, manually scheduling the requirement will ignore them. Use the [schedule assistant](#schedule-a-multi-day-requirement-with-the-schedule-assistant) instead.
 
-1. Open the schedule board on the daily, weekly, or monthly view and select a multi-day requirement in the requirements pane.
+1. Open the schedule board on the daily, weekly, or monthly view.
 
-2. Then, select a resource on the board for which you would like to schedule the multi-day work order requirement and select **Book**.
+   > [!CAUTION]
+   > Don't drag and drop multi-day requirement to a resource on the hourly board view. It will create a long continuous booking through non-working hours.
+
+1. Select a multi-day requirement in the requirements pane.
+
+1. Select a resource on the board for which you would like to schedule the multi-day work order requirement and select **Book**.
 
     :::image type="content" source="../../field-service/media/scheduling-board-multi-day-booking.png" alt-text="Screenshot of the scheduling board with a multi-day requirement.":::
 
-    > [!CAUTION]
-    > Don't drag and drop multi-day requirement to a resource on the hourly board view. It will create a long continuous booking through non-working hours.
+1. In the **Create Booking** pane, review and update the values as needed. Choose the **Booking Method** to define how to spread the requirement over multiple days.
 
-3. In the **Create Booking** pane, review and update the values as needed. Choose the **Booking Method** to define how to spread the requirement over multiple days.
-
-    - Full Capacity: Books the resource’s full capacity for the specified from and to dates without regard to the resource's remaining capacity or the duration of the requirement.
-    - Percentage Capacity: Books the resource for a percentage of capacity for the specified from and to dates.
+    - Full capacity: Books the resource’s full capacity for the specified from and to dates without regard to the resource's remaining capacity or the duration of the requirement.
+    - Remaining capacity: Books the resource's remaining capacity for the specified from and to dates without regard to the resource's full capacity or duration of the requirement.
+    - Percentage capacity: Books the resource for a percentage of capacity for the specified from and to dates.
     - Evenly Distribute Hours: Books the resource for a specified number of hours, distributing the time evenly per day over the specified from and to dates.
     - Front Load Hours: Books the resource for a specified number of hours, front-loading the per-day hours over the specified from and to dates. The front load method considers existing bookings and available capacity.
-      
+
     > [!NOTE]
     > Full Capacity, Percentage Capacity, Evenly Distribute Hours, and Fixed time can lead to overbooking. For more information, see [Allocation methods](/dynamics365/project-operations/psa/FAQ-allocation-methods).
 
