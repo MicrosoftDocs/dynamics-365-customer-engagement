@@ -1,7 +1,7 @@
 ---
 title: Create enhanced service-level agreements in Dynamics 365 Customer Service
 description: Learn how to create enhanced service-level agreements in Dynamics 365 Customer Service.
-ms.date: 04/09/2025
+ms.date: 05/06/2025
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -30,7 +30,7 @@ ms.collection: get-started
 
       - [!INCLUDE[proc_dont_have_correct_permissions](../../includes/proc-dont-have-correct-permissions.md)]  
 
-    You can create standard SLAs in the Customer Service admin center or Customer Service Hub app by performing the following steps:
+    You can create standard SLAs in the Copilot Service admin center app by performing the following steps:
 
 1.  Go to **Service-level agreements (SLAs)**.
 
@@ -40,7 +40,7 @@ ms.collection: get-started
 1. To create a new SLA, select **New**.
 
     > [!NOTE]
-    > If Customer Service admin center is available in your organization and you try to create an SLA in the web client, a deprecation message appears with an option to create the SLA in Unified Interface. No message is displayed if Customer Service admin center isn't available.
+    > If Copilot Service admin center is available in your organization and you try to create an SLA in the web client, a deprecation message appears with an option to create the SLA in Unified Interface. No message is displayed if Copilot Service admin center isn't available.
 
 1. Optionally, to edit an SLA, select the SLA from the list of records, and then select **Edit** on the command bar.  
 
