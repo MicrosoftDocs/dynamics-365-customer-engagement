@@ -16,11 +16,11 @@ Requirement groups bundle requirements commonly scheduled together. For example,
      If the root requirement is set to **Any**, and each subgroup is set to **All**, the schedule assistant searches for either **all of option 1** *or* **all of option 2**.
 
    - **Part of Same** (schema name is **msdyn_requirementrelationship**)
-     - **Location**: Only teams of resources working at the same physical location (organizational unit) are available to book. The Resource Associations (msdyn_bookableresourceassociations) and the Bookable Resource Group (bookableresourcegroup) entities determine the location.
+     - **Location**: Only teams of resources working at the same physical location (organizational unit) are available to book. The [Bookable Resource Association (msdyn_bookableresourceassociation)](../../field-service/developer/reference/entities/msdyn_bookableresourceassociation.md) and the [Bookable Resource Group (bookableresourcegroup)](../../field-service/developer/reference/entities/bookableresourcegroup.md) entities determine the location.
 
      - **Resource Tree**: The teams of resources must actually be associated to the same resource type in order to be returned as a team. This option adds more stringencies to the search.
 
-     - **Same Organizational Unit**: Only teams with the same parent organizational unit are available to book. It ignores the Bookable Resource Group (bookableresourcegroup) and the Resource Associations (msdyn_bookableresourceassociations) entities. It only checks the parent organizational unit. This option is the most stringent.
+     - **Same Organizational Unit**: Only teams with the same parent organizational unit are available to book. It ignores the Bookable Resource Group (bookableresourcegroup) and the Bookable Resource Association (msdyn_bookableresourceassociation) entities. It only checks the parent organizational unit. This option is the most stringent.
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of requirement group with two options.](../../common-scheduler/media/scheduling-multi-resource-2-options.png)
@@ -29,11 +29,11 @@ Requirement groups bundle requirements commonly scheduled together. For example,
 
 1. To add more details to a resource requirement, select **Open Form** and enter more filters for the schedule assistant. For example, on the **Scheduling** tab, choose the work location.
 
-   - **Facility** work location implies the interaction takes place at a facility and travel time is calculated as the distance between the customer location and the facility location. The requirement's latitude and longitude fields are used as the customer location. It also means at least one facility or facility pool must return in schedule assistant search results in order for a resource to be returned.
+   - **Facility**: The interaction takes place at a facility and travel time is calculated as the distance between the customer location and the facility location. The requirement's latitude and longitude fields are used as the customer location. It also means at least one facility or facility pool must return in schedule assistant search results in order for a resource to be returned.
   
-   - **On Site** work location implies the interaction takes place at the customer location and travel time is calculated as the distance between the customer location and the resource (typically field technician) location, which is variable based on the resource's schedule that day. The requirement's latitude and longitude fields are used as the customer location. Facility resources and facility pools are excluded from the results.
+   - **On Site**: The interaction takes place at the customer location and travel time is calculated as the distance between the customer location and the resource (typically field technician) location, which is variable based on the resource's schedule that day. The requirement's latitude and longitude fields are used as the customer location. Facility resources and facility pools are excluded from the results.
 
-   - **Location Agnostic** work location implies the interaction takes place remotely and the location of the customer nor the resource is considered for scheduling. Travel time isn't applicable and isn't calculated. Facility resources can still be returned as part of the schedule assistant search, but travel time isn't displayed or considered in ranking.
+   - **Location Agnostic**: The interaction takes place remotely and neither the location of the customer nor the resource is considered for scheduling. Travel time isn't applicable and isn't calculated. Facility resources can still be returned as part of the schedule assistant search, but travel time isn't displayed or considered in ranking.
 
 1. **Save** the requirement group template.
 

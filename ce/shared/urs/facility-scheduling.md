@@ -15,11 +15,6 @@ Typical examples include:
 - Wealth management consultation at bank branch
 - Doctor's office with related nurse and doctor
 
-## Prerequisites
-
-- Universal Resource Scheduling (URS) v3.0
-- Field Service v8.0 (for work orders, if applicable)
-
 In general, to use facility scheduling, you create a facility resource, configure a requirement that calls for the facility resource, and book the requirement. In the following example, an auto repair shop in Redmond, Washington wants to schedule their auto repair bay. Create a facility resource to represent the repair shop, create a requirement to represent the customer's request for an appointment, and then book the appointment.
 
 ## Create a facility resource
@@ -37,7 +32,7 @@ In general, to use facility scheduling, you create a facility resource, configur
 
 1. (Optional) Add related characteristics, territory, resource roles, and work hours to distinguish facility resources from other facilities and resources.
 
-   For example, if an auto repair shop uses ASE-certified mechanics or offers shuttle service, you can add them as characteristics or resource roles to the facility resource. These optional components can influence which facility resources are filtered and displayed on the schedule board or which facility resources are returned during a schedule assistant search.
+   For example, if an auto repair shop uses certified mechanics or offers shuttle service, you can add them as characteristics or resource roles to the facility resource. These optional components can influence which facility resources are filtered and displayed on the schedule board or which facility resources are returned during a schedule assistant search.
 
 1. Select **Save & Close**.
 
@@ -86,13 +81,18 @@ Facility resources are displayed on the schedule board map based on the location
 
 ## Facility scheduling examples
 
-The following examples show how to schedule multiple spaces at a facility or reserve an appointment with a person at a facility.
-
 When creating requirements in the following scenarios, consider the following information:
 
 - For requirements that aren't part of a requirement group, only facility or facility pool resources can return in the schedule assistant if **Work Location** is set to **Facility**.
 - A resource can't be related to two facilities (child or association) at the same time.
 - Manually scheduling a single requirement to a facility doesn't create records for all resources related to the facility.
+
+The following examples show how to schedule multiple spaces at a facility or reserve an appointment with a person at a facility.
+
+- [Scenario 1: Schedule a facility with five generic spaces](#scenario-1-schedule-a-facility-with-five-generic-spaces)
+- [Scenario 2: Schedule a facility and a related resource](#scenario-2-schedule-a-facility-and-a-related-resource)
+- [Scenario 3: Schedule a facility with three specific spaces](#scenario-3-schedule-a-facility-with-three-specific-spaces)
+- [Scenario 4: Schedule a facility with two specific spaces and two related resources](#scenario-4-schedule-a-facility-with-two-specific-spaces-and-two-related-resources)
 
 ### Scenario 1: Schedule a facility with five generic spaces
 
@@ -151,7 +151,7 @@ An auto repair shop wants to schedule each individual bay at their facility. Cre
    - Set **Resource Type** to **Facility** on each resource.
    - Set the **Start/End Location** to **Organizational Unit Address** and select the same organizational unit as the auto repair shop.  
 
-1. Add each bay as a child resource to the repair shop facility resource pool
+1. Add each bay as a child resource to the repair shop facility resource pool.
 
    - From the auto repair shop facility pool resource, select **Related > Resource's Children**.
    - Select **New Bookable Resource Group** and add each bay resource as a child record to the parent facility pool.
@@ -228,7 +228,7 @@ An auto repair shop wants to schedule specific bays at their facility to a pool 
 
    :::image type="content" source="../../field-service/media/scheduling-facility-mechanic-pool-bookings.png" alt-text="Screenshot of schedule board with available booking slots for the bays and mechanic pool.":::
 
-   > [!Note]
+   > [!NOTE]
    > Use fulfillment preferences to display schedule assistant results in neat hourly timeslots.
 
 ## When to use "facility with capacity," "multiple facilities," and "facility pool"
