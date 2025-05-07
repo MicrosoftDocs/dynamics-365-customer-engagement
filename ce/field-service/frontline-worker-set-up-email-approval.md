@@ -5,7 +5,7 @@ ms.author: jacoh
 author: jasonccohen
 ms.subservice: field-service-mobile
 ms.date: 07/09/2024
-ms.topic: conceptual
+ms.topic: how-to
 ---
 
 # Send frontline workers a download link for the mobile app
