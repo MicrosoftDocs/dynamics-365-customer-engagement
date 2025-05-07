@@ -101,7 +101,7 @@ Create views that Resource Scheduling Optimization uses to filter the [data in t
 
 ### Define goals with specific constraints and objectives
 
-You can define how bookings should be optimized. The goal of the Resource Scheduling Optimization engine is to process a list of resources and a list of resource requirements, together with existing bookings, to create the optimal route and list of bookings for the resources. Learn more about how to set constraints and objectives in [Optimization goals in Resource Scheduling Optimization](rso-optimization-goal.md).
+You can define how bookings should be optimized. The goal of the Resource Scheduling Optimization engine is to process a list of resources and a list of resource requirements, together with existing bookings, to create the optimal route and list of bookings for the resources. Learn how to set constraints and objectives in [Optimization goals in Resource Scheduling Optimization](rso-optimization-goal.md).
 
 ### Simulations
 
