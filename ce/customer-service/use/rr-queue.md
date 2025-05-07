@@ -23,8 +23,8 @@ The queue table has the following sortable columns:
 
 |KPI |Description |
 |---------|---------|
-|Queue    |    Name of queue     |
-|Queue priority| Priority of the queue|
+|Queue    |    Name of entity record queue.    |
+|Queue priority| Priority of the queue. |
 |Assigned work items    | Work items that are assigned to customer service representative (service representative or representative) during the reporting period.       |
 |Unassigned work items| Work items during reporting period that haven't yet been assigned to a service representative, and that include transfers to queue.|
 |Longest wait time| Longest time for a work item during reporting period in queue until the status changed from open to active (assigned).|
