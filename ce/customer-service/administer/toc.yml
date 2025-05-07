@@ -694,7 +694,7 @@
         href: configure-copilot-features.md#record-representative-interactions-with-copilot
       - name: Copilot architecture diagram
         href: /digital-contact-center-platform/guidance/dynamics-365-customer-service-copilot-architecture?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-      - name: Manage fields Copilot uses for case summaries
+      - name: Manage case and custom record summary
         href: copilot-map-custom-fields.md
       - name: Customize Copilot conversation summaries
         href: /dynamics365/contact-center/administer/customize-copilot-conv-summary?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
