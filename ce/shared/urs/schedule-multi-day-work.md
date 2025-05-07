@@ -1,4 +1,3 @@
-
 Requirements can be scheduled across multiple days and weeks. Dispatchers can schedule multi-day work in between existing bookings, by double-booking existing schedules, or as a continuous block of time.
 
 > [!TIP]
@@ -8,7 +7,9 @@ Requirements can be scheduled across multiple days and weeks. Dispatchers can sc
 
 Manually scheduling a multi-day requirement on the schedule board allows you to choose the allocation method to determine the breakdown of the bookings created when scheduling. If you are using requirement details to define the allocation method, manually scheduling the requirement will ignore them. Use the [schedule assistant](#schedule-a-multi-day-requirement-with-the-schedule-assistant) instead.
 
-1. Open the schedule board on the daily, weekly, or monthly view.
+1. Go to **Resource Scheduling** > **Schedule Board**.
+
+1. Change the view to daily, weekly, or monthly.
 
    > [!CAUTION]
    > Don't drag and drop multi-day requirement to a resource on the hourly board view. It will create a long continuous booking through non-working hours.
@@ -22,7 +23,7 @@ Manually scheduling a multi-day requirement on the schedule board allows you to 
 1. In the **Create Booking** pane, review and update the values as needed. Choose the **Booking Method** to define how to spread the requirement over multiple days.
 
     - Full capacity: Books the resource’s full capacity for the specified from and to dates without regard to the resource's remaining capacity or the duration of the requirement.
-    - Remaining capacity: Books the resource's remaining capacity for the specified from and to dates without regard to the resource's full capacity or duration of the requirement.
+    - Remaining capacity: Books the resource's remaining capacity for the specified from and to dates.
     - Percentage capacity: Books the resource for a percentage of capacity for the specified from and to dates.
     - Evenly Distribute Hours: Books the resource for a specified number of hours, distributing the time evenly per day over the specified from and to dates.
     - Front Load Hours: Books the resource for a specified number of hours, front-loading the per-day hours over the specified from and to dates. The front load method considers existing bookings and available capacity.
@@ -30,13 +31,19 @@ Manually scheduling a multi-day requirement on the schedule board allows you to 
     > [!NOTE]
     > Full Capacity, Percentage Capacity, Evenly Distribute Hours, and Fixed time can lead to overbooking. For more information, see [Allocation methods](/dynamics365/project-operations/psa/FAQ-allocation-methods).
 
-4. Select **Book** and the system creates multiple bookings across multiple days.
+1. Select **Book** and the system creates multiple bookings across multiple days.
 
 ## Create and edit patterns for requirements
 
-Use the **Specify Pattern** control to define how to split a long-running requirement into individual bookings when it's scheduled. It allows users to customize these requirement details beyond the default allocation methods.
+You can define how to split a long-running requirement into individual bookings. With patterns, you can customize the requirement details beyond the default allocation methods.
 
-To create a requirement detail, select **Add detail** to open a side pane where you choose the requirement and set the duration, start time, and end times for the time window. For example, the time window is from 9am to 5pm with a three hour duration. When you schedule that requirement detail, the system books a resource for three hours between 9am and 5pm. Note that the duration must be shorter than the time window. Alternatively, in daily view, drag requirement on the grid to create a new detail. In either method, select **Apply** to save the requirement detail.
+1. Go to **Resource Scheduling** > **Resource Requirements** and select the requirement.
+
+1. Select **Specify Pattern**. Then, select **Add detail**
+
+1. Choose the requirement and set the duration, start time, and end times for the time window.
+
+   For example, the time window is from 9am to 5pm with a three hour duration. When you schedule that requirement detail, the system books a resource for three hours between 9am and 5pm. Note that the duration must be shorter than the time window.
 
 To edit an existing requirement detail, select it to open the **Edit detail** pane. Change the duration or time window and save the changes. To edit multiple details at once, select the requirement and select **Edit all within range** on the details pane. Under **Duration summary**, each date range that has at least one detail shows. Adjust the allocated duration where needed. Use the settings under **Duration allocation** to control how to distribute the changed durations across multiple details. When decreasing duration, there are two options:
 
