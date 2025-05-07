@@ -2,7 +2,7 @@
 title: Migrate unified routing data for live chat
 description: Learn to export and import data pertaining to live chat from source to target environments in Omnichannel for Customer Service.
 ms.date: 07/08/2024
-ms.topic: Upgrade-and-migration-article
+ms.topic: upgrade-and-migration-article
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
