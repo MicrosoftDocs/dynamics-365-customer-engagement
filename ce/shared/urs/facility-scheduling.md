@@ -120,7 +120,7 @@ An auto repair shop offers transmission repairs including luxury cars. They have
 
 1. Associate the specialized mechanic resource to the facility resource.
 
-   - From the facility resource, select **Related > Bookable Resource Association (Resource 2)**. This related entity is called Resource Associations (**msdyn_bookableresourceassociations**).
+   - From the facility resource, select **Related > Bookable Resource Association (Resource 2)**. This related entity is called [Bookable Resource Association (**msdyn_bookableresourceassociation**)](../../field-service/developer/reference/entities/msdyn_bookableresourceassociation.md).
    - Select **New Bookable Resource Association**.
    - Enter a name, timeframe, and select the mechanic resource for **Resource 1**.
 
@@ -206,7 +206,7 @@ An auto repair shop wants to schedule specific bays at their facility to a pool 
 
 1. Associate the mechanic pool to the facility pool.
 
-   - From the facility pool, select **Related > Bookable Resource Association (Resource 2)**. This related entity is called Resource Associations (**msdyn_bookableresourceassociations**).
+   - From the facility pool, select **Related > Bookable Resource Association (Resource 2)**. This related entity is called [Bookable Resource Association (**msdyn_bookableresourceassociation**)](../../field-service/developer/reference/entities/msdyn_bookableresourceassociation.md).
    - Select **New Bookable Resource Association**.
    - Enter a name, timeframe, and select the mechanic pool for **Resource 1**.
 
