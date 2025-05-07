@@ -2,7 +2,7 @@
 title: Work order lifecycle and system statuses
 description: Track the status of a work order in its lifecycle with system statuses, substatuses, and booking statuses.
 ms.date: 02/05/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: lmasieri
 ms.author: lmasieri
 ms.custom: bap-template
