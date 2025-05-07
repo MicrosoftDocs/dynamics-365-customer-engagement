@@ -31,7 +31,7 @@ If SLA is enabled for the entity, you can set pause conditions for all out-of-th
 
 You can set SLA pause conditions for SLA KPI Instances, which override SLA pause conditions set at the entity level.
 
-1. In the site map of Copilot Service admin center , go to **Service terms** > **SLA KPIs** > **Manage**.
+1. In the site map of Copilot Service admin center, go to **Service terms** > **SLA KPIs** > **Manage**.
     The **Active SLAKPIs** view is displayed. Select the SLA KPI for which you want to set the pause conditions.
 1. In the **Pause Conditions** section, set the **Override Criteria** toggle to **Yes** to pause the SLA KPI Instance. This setting overrides the pause settings defined at the entity level.
     1. Select the **Add** dropdown to define the conditions for pausing the SLA KPI Instance by adding either a field, group, or a related entity.

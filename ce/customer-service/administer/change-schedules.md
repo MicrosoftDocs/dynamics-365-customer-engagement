@@ -32,7 +32,7 @@ Here's an example of a SLA KPI that describes how time calculation works. The co
 
 So, after time calculation, the failure duration will be the day after the next day at 14:00 (2 PM). This is calculated by considering the remaining hours for the day; that is, 5 PM – 10 AM = 7 hours, which leaves 5 hours for the next day (calculated as failure duration – hours consumed today). The next day doesn't get calculated because it's a holiday. So, the failure duration will be the day after the next day: 9 AM + 5 hours = 14:00 (2 PM).
 
-Learn more about about creating customer service schedules, in [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md#create-customer-service-schedule-and-define-the-work-hours). Learn more about creating holiday schedules, in [Create and manage holiday schedules](set-up-holiday-schedule.md#create-and-manage-holiday-schedules).
+Learn more about creating customer service schedules, in [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md#create-customer-service-schedule-and-define-the-work-hours). Learn more about creating holiday schedules, in [Create and manage holiday schedules](set-up-holiday-schedule.md#create-and-manage-holiday-schedules).
 
 Apart from warning and failure time calculation, SLA time calculation also involves calculating *elapsed time*, which is the period when the SLA KPIs are paused and resumed. To ignore the working hours spent while the SLA KPIs were in a paused state, elapsed time is used in calculating the final failure duration.
 
