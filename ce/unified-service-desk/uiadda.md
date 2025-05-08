@@ -12,7 +12,7 @@ search.audienceType:
 ms.custom: evergreen
 ---
 # UIADDA in Unified Service Desk
-The UI Automation data-driven adapter (UIADDA) provides access to [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)] and [!INCLUDE[pn_MS_Silverlight_full](../includes/pn-ms-silverlight-full.md)] applications. This DDA also supports [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)]-based applications and web applications.The UIADDA leverages the User Interface (UI) Automation APIs. The bindings for the UIADDA can be created by the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] Inspector.  
+The UI Automation data-driven adapter (UIADDA) provides access to [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)] and [!INCLUDE[pn_MS_Silverlight_full](../includes/pn-ms-silverlight-full.md)] applications. This DDA also supports [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)]-based applications and web applications. The UIADDA uses the User Interface (UI) Automation APIs. The bindings for the UIADDA is created by the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] Inspector.  
   
 ## In this section  
  [UI Automation Inspector](../unified-service-desk/ui-automation-inspector.md)  
