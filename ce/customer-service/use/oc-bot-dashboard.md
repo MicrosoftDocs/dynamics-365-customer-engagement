@@ -20,7 +20,7 @@ In the application, you can integrate both Azure and Copilot agents to perform t
 
 You can [access the dashboard](omnichannel-analytics-insights.md#access the dashboards) in the Copilot Service workspace or Contact Center workspace application.
 
-Based on your administrator's configuration of the **Add historical analytics for bots** option in the Contact Center or Copilot Service admin center, the dashboard is as follows:
+Based on your administrator's configuration of the **Add historical analytics for bots** option in the Copilot Service admin center, the dashboard is as follows:
 - **Enabled**: Indicates that your organization only has Copilot agents configured and the dashboard is specific to them. Additional metrics, charts, and KPIs that are applicable only to Copilot agents are displayed.
 - **Disabled**: Indicates that your organization has both Azure and Copilot agents configured. The dashboard displays you metrics, KPIs, and charts that are common to both. 
 
