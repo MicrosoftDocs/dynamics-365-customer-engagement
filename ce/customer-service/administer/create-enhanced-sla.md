@@ -2,7 +2,7 @@
 title: Create enhanced service-level agreements in Dynamics 365 Customer Service
 description: Learn how to create enhanced service-level agreements in Dynamics 365 Customer Service.
 ms.date: 04/09/2025
-ms.topic: reference
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
