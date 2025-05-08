@@ -2,7 +2,7 @@
 title: "View embedded help for actions and events in Unified Service Desk  | MicrosoftDocs"
 description: "Get information on viewing embedded help for actions and events for hosted controls within Dataverse."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

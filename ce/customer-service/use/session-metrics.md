@@ -4,7 +4,7 @@ description: Evaluate customer service performance using key session metrics lik
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
 ms.date: 04/14/2025
 ms.custom:

@@ -4,7 +4,7 @@ description: This article explains how to use the Backlog conversations report t
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection: 
 ms.date: 12/06/2024
 ms.custom: bap-template

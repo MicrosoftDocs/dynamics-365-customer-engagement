@@ -2,7 +2,7 @@
 title: Show customers their position in a queue
 description: Learn how to show customers their queue position for a chat widget.
 ms.date: 02/05/2025
-ms.topic: article
+ms.topic: reference
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan

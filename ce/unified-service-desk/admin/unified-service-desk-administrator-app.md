@@ -2,7 +2,7 @@
 title: "Use Unified Service Desk Administrator app to administer and manage Unified Service Desk client | MicrosoftDocs"
 description: "Learn how to use the Unified Service Desk Administrator app to administer Unified Service Desk client."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

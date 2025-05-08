@@ -2,7 +2,7 @@
 title: "Configure and manage agent scripts | MicrosoftDocs"
 description: "Learn how to create an agent script task, how to add answers to an agent script task, and also how to add action calls to an answer."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

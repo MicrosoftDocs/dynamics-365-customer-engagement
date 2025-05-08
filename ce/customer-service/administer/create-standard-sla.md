@@ -1,8 +1,8 @@
 ---
 title: Create standard service-level agreements in Dynamics 365 Customer Service
 description: Learn how to create standard service-level agreements in Dynamics 365 Customer Service.
+ms.topic: how-to
 ms.date: 05/06/2025
-ms.topic: article
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
