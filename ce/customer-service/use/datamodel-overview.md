@@ -4,7 +4,7 @@ description: Learn about data model customization and how it can help you with y
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: how-to
+ms.topic: overview
 ms.collection:
 ms.date: 02/03/2025
 ms.custom: bap-template
