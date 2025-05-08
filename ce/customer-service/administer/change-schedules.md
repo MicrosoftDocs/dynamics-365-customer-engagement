@@ -1,8 +1,8 @@
 ---
 title: Manage the impact of changes to customer service or holiday schedules of SLA KPIs.
 description: Learn how to manage the impact of a change to customer service or holiday schedules in Dynamics 365 Customer Service.
-ms.date: 12/13/2024
 ms.topic: concept-article
+ms.date: 05/07/2025
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -32,7 +32,7 @@ Here's an example of a SLA KPI that describes how time calculation works. The co
 
 So, after time calculation, the failure duration will be the day after the next day at 14:00 (2 PM). This is calculated by considering the remaining hours for the day; that is, 5 PM – 10 AM = 7 hours, which leaves 5 hours for the next day (calculated as failure duration – hours consumed today). The next day doesn't get calculated because it's a holiday. So, the failure duration will be the day after the next day: 9 AM + 5 hours = 14:00 (2 PM).
 
-For more information about creating customer service schedules, go to: [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md#create-customer-service-schedule-and-define-the-work-hours). For more information about creating holiday schedules, go to: [Create and manage holiday schedules](set-up-holiday-schedule.md#create-and-manage-holiday-schedules).
+Learn more about creating customer service schedules, in [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md#create-customer-service-schedule-and-define-the-work-hours). Learn more about creating holiday schedules, in [Create and manage holiday schedules](set-up-holiday-schedule.md#create-and-manage-holiday-schedules).
 
 Apart from warning and failure time calculation, SLA time calculation also involves calculating *elapsed time*, which is the period when the SLA KPIs are paused and resumed. To ignore the working hours spent while the SLA KPIs were in a paused state, elapsed time is used in calculating the final failure duration.
 
@@ -66,7 +66,7 @@ Recommendation:
  
 1. Don't modify the existing SLA and calendar. The existing SLA can continue to remain in an active state in the production environment. Create a similar SLA with a new calendar and the same kind of SLA items.
 
-1. Activate the new SLA and set it as the default. This ensures that all the new cases are created with the new SLA, and time calculation is done with the new calendar information. If you aren't using a default SLA, update your SLA condition to update the SLA ID in the Case entity accordingly. More information: [Apply SLAs](apply-slas.md#apply-slas)
+1. Activate the new SLA and set it as the default. This ensures that all the new cases are created with the new SLA, and time calculation is done with the new calendar information. If you aren't using a default SLA, update your SLA condition to update the SLA ID in the Case entity accordingly. Learn more in [Apply SLAs](apply-slas.md#apply-slas).
 
 **Scenario 2**
 
@@ -84,7 +84,7 @@ Recommendation:
 
 1. Activate the new SLAs. This ensures that all the new cases are created with the new SLA, and time calculation is done with the new calendar information.
 
-1. Update your SLA conditions to update the SLA ID in the Case entity accordingly. More information: [Apply SLAs](apply-slas.md#apply-slas)
+1. Update your SLA conditions to update the SLA ID in the Case entity accordingly. Learn more in [Apply SLAs](apply-slas.md#apply-slas).
 
 **Scenario 3**
 
@@ -109,7 +109,7 @@ For example, a flow can run during the lowest activity hours with the following 
 - Do an update on the case to put it to a paused state.
 - Do the next update on the case, which puts it back to Resume.
 
-More information: [Apply SLAs](apply-slas.md#apply-slas)
+Learn more in [Apply SLAs](apply-slas.md#apply-slas).
 
 **Scenario 4**
 

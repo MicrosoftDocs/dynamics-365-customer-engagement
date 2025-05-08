@@ -4,7 +4,7 @@ description: Learn how to enable and use quick scheduling (also known as quick b
 ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.date: 02/24/2023
-ms.topic: conceptual
+ms.topic: how-to
 author: anilmur
 ms.author: anilmur
 ---

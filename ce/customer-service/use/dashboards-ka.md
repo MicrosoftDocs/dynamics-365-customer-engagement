@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: concept-article
-ms.date: 05/02/2025
+ms.date: 05/07/2025
 ms.custom: bap-template
 ---
 
@@ -80,7 +80,7 @@ This dashboard is designed specifically for knowledge managers. As a knowledge m
 
 If you're creating an alternate key for a Knowledge article entity, include the major or minor version in the key to maintain uniqueness. Also, if you're using translations, include the language code along with the version in the key to ensure a seamless translation experience. Learn more about alternate keys, in [Define alternate keys for an entity](../../customerengagement/on-premises/developer/define-alternate-keys-entity.md).
 
-## Knowledge article analytics in Customer Service workspace or Contact Center workspace
+## Knowledge article analytics in Copilot Service workspace
 
 The **Knowledge analytics** dashboard consists of the **Article insights** and **Search term insights** dashboards and is meant for knowledge authors and supervisors. Supervisors can use these insights to improve their knowledge management base. Learn more in [Introduction to knowledge analytics](knowledge-search-analytics-cs.md#introduction-to-knowledge-analytics).
 

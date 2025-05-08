@@ -1,8 +1,8 @@
 ---
 title: Add and create new facilities and equipment for Service Scheduling in Dynamics 365 Customer Service
 description: Learn how to add and create facilities and equipment for service scheduling in Dynamics 365 Customer Service.
-ms.date: 08/20/2024
 ms.topic: how-to
+ms.date: 05/07/2025
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -27,22 +27,20 @@ Make sure that you have the required security role or equivalent permissions.
 
 Learn more in [Manage security roles in service scheduling](manage-security-roles.md).
 
-You can create a new facility or equipment record in the Customer Service admin center app.
+You can create a new facility or equipment record in the Copilot Service admin center app.
 
-1. In the site map of Customer Service admin center, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
+1. In the site map of Copilot Service admin center, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
 1. In the **Facilities & equipment** section, select **Manage**. The **Local Facilities/Equipment** view is displayed. You can switch between various system views using the dropdown list.
-
-
-     
+  
 1. On the command bar, select **New** to create a new record. 
   
 1.  In the **General** section, fill in the information as required:  
   
     - **Name**. Enter the name of the facility or equipment you want to add for scheduling.  
   
-    - **Business Unit ID**. Enter a business unit ID. To choose an ID, select the **Lookup** button and then select from the list. You can also create a new business unit ID.
+    - **Business Unit**. Enter a business unit ID. To choose an ID, select the **Lookup** button and then select from the list. You can also create a new business unit ID.
   
-    - **Organizational Unit**. Select the location where the facility or equipment is located.
+    - **Site**. Select the location where the facility or equipment is located.
   
     - **Primary Email**. Enter the email address of the site manager or equipment manager. If there are any updates or cancellations related to the schedule, facilities, or equipment, notifications are sent to this email address.  
   

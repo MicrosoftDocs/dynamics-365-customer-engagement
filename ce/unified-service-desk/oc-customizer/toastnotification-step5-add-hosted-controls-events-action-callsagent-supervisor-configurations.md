@@ -2,7 +2,7 @@
 title: "Controls, events, forms, action calls for toast notifications | MicrosoftDocs"
 description: "Learn how to add a hosted control, events, forms, and action calls for toast notifications in Omnichannel for Customer Service on Unified Service Desk."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

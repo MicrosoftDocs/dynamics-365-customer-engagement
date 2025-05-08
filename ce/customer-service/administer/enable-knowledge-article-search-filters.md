@@ -1,8 +1,8 @@
 ---
 title: Customize knowledge article search filters
 description: Learn how to enable knowledge article search filters in Dynamics 365 Customer Service.
-ms.date: 02/03/2025
 ms.topic: how-to
+ms.date: 05/06/2025
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -35,7 +35,7 @@ The fields that are present on the knowledge article entity are the fields that 
 - Two choices
 - Date and time
 
-Any filter configurations that you set will be available wherever the knowledge search experience is configured, such as the form-based knowledge control, knowledge search page, productivity pane-based knowledge search control, embedded search control in Unified Service Desk, and the application tab search experience in Customer Service workspace or Contact Center workspace.
+Any filter configurations that you set will be available wherever the knowledge search experience is configured, such as the form-based knowledge control, knowledge search page, productivity pane-based knowledge search control, embedded search control in Unified Service Desk, and the application tab search experience in Copilot Service workspace.
 
 The **Enable search filters** option is set to **Yes** by default. To disable search filters, you can set it to **No** on the **Filters** page.
 
@@ -47,19 +47,19 @@ The settings that you've previously configured for your organization, including 
 
 ## Customize search filters
 
-You can customize the search filters for knowledge articles in the Customer Service admin center app.
+You can customize the search filters for knowledge articles in the Copilot Service admin center app.
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the site map of Copilot Service admin center, select **Knowledge** in **Support experience**. The **Knowledge** page appears.
 
 1. On the **Knowledge** page, go to the **Filters** section and select **Manage**. The **Filters** page appears.
 
-1. To enable representatives to personalize knowledge article search filters, set the **Allow agent to personalize** toggle to **Yes**.
+1. To enable representatives to personalize knowledge article search filters, set the **Allow customer service representative to personalize** toggle to **Yes**.
 
 1. Select the filters you want to make available for knowledge search.
 
 1. Move through the **Filters** page to view the filters.  
 
-1. To set predetermined values that will appear for representatives by default, select the ellipsis in the upper-right corner of a filter area, and then select **Preselects**.
+1. To set predetermined values that appear for representatives by default, select the ellipsis in the upper-right corner of a filter area, and then select **Preselects**.
     > [!div class=mx-imgBorder]
     > ![Select filter preselects.](../media/select-filter-preselects.png "Select filter preselects.")
 1. To make a filter value available by default, turn on the **Set as preselected filter** toggle, so that **Preselected** appears next to the filter name, and then select **Done**.
@@ -98,9 +98,9 @@ The following steps apply to these data types:
 - Two choices
 - Date and time
  
-You can add a default filter in the Customer Service admin center or Contact Center admin center app.
+You can add a default filter in the Copilot Service admin center app.
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the site map of Copilot Service admin center, select **Knowledge** in **Support experience**. The **Knowledge** page appears.
 
 1. On the **Knowledge** page, go to the **Filters** section and select **Manage**. The **Filters** page appears.
 
@@ -117,9 +117,9 @@ You can add a default filter in the Customer Service admin center or Contact Cen
 
 Some configurable filter values may include lookup types, where there are numerous value options that can be set. Some examples of these filters are Created by, Modified by, and Owner. For these types of values, when you add the filter, you can manually search for and select the records that you want to use.
 
-You can configure a lookup type filter in the Customer Service admin center or Contact Center admin centerapp.
+You can configure a lookup type filter in the Copilot Service admin center app.
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the site map of Copilot Service admin center, select **Knowledge** in **Support experience**. The **Knowledge** page appears.
 
 1. On the **Knowledge** page, go to the **Filters** section and select **Manage**. The **Filters** page appears.
 
@@ -139,7 +139,7 @@ You can configure a lookup type filter in the Customer Service admin center or C
 There may be times when you want to temporarily suspend a filter configuration but don’t want to lose the configuration settings. You can deactivate a filter configuration and then reactivate it later on.
 
    > [!NOTE]
-   > If you deactivate or delete all of the filters, then representatives will see the following message on the personalization page: "No filters have been configured. Contact your administrator."
+   > If you deactivate or delete all of the filters, representatives see the following message on the personalization page: "No filters have been configured. Contact your administrator."
 
 Keep in mind the following:
 - If you delete a knowledge article field for which a filter has been created, your representatives won't see the filter, and they won't be notified about the change in the UI. You, as the administrator, will see the filter with a message indicating that it has been deleted.
@@ -152,9 +152,9 @@ Keep in mind the following:
 
 - If a representative sets default values, those values will persist and cannot be overwritten by changes made by an administrator.
  
-You can deactivate or reactivate a filter configuration in the Customer Service admin center or Contact Center admin center app.
+You can deactivate or reactivate a filter configuration in the Copilot Service admin center app.
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the site map of Copilot Service admin center, select **Knowledge** in **Support experience**. The **Knowledge** page appears.
 
 1. On the **Knowledge** page, go to the **Filters** section and select **Manage**. The **Filters** page appears.
 
@@ -163,15 +163,15 @@ You can deactivate or reactivate a filter configuration in the Customer Service 
 1. Select **Done** > **Save**.
 
 1. When you're ready to reactivate the filter, go to the **Filters** page, select the ellipsis next to the value you want to reactivate, and then select **Activate**.
-All of the previous configurations are reinstated.
+All the previous configurations are reinstated.
 
 ## Allow representatives to personalize their knowledge article search filters
 
 You may have scenarios within your organization where representatives are working on different areas and don’t all need the same filter settings. For example, an organization may have representatives working on different product areas. One representative might need to see knowledge articles for Product A, while another representative might only want knowledge articles for Product B, and so forth.
 
-You can allow your representatives to personalize the knowledge article search filters for their areas, from the Customer Service admin center or Contact Center admin center app.
+You can allow your representatives to personalize the knowledge article search filters for their areas, from the Copilot Service admin center app.
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the site map of Copilot Service admin center, select **Knowledge** in **Support experience**. The **Knowledge** page appears.
 
 1. In the **General settings** section, select **Manage**. The **General settings** page appears.
 
@@ -182,4 +182,4 @@ You can allow your representatives to personalize the knowledge article search f
 
 4. Select **Save**.
 
-After you've enabled the option, your representatives will be able to view all the configurations that you previously set for them and [personalize the knowledge search filters for their areas](../use/filter-articles.md#personalize-your-knowledge-search-article-filters).
+After you've enabled the option, your representatives can view all the configurations that you previously set for them and [personalize the knowledge search filters for their areas](../use/filter-articles.md#personalize-your-knowledge-search-article-filters).

@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: concept-article
 ms.collection: 
-ms.date: 02/07/2025
+ms.date: 05/06/2025
 ms.custom: bap-template
 ---
 
@@ -17,7 +17,7 @@ ms.custom: bap-template
 
 As an administrator, you can [enable analytics and insights](configure-customer-service-analytics-insights-csh.md#configure-analytics-and-insights-dashboards) features within Customer Service. This data can then be shared with supervisors so they can review and analyze contact center activities. This valuable information can help identify and address issues, improve customer service representative (service representative or representative) efficiency, and ultimately enhance productivity and customer satisfaction.
 
-You can configure these features and services in the Customer Service admin center or Contact Center admin center app. Once set up, supervisors can use the Customer Service workspace app to access and view them.
+You can configure these features and services in the Copilot Service admin center app. Once set up, supervisors can use the Copilot Service workspace app to access and view them.
 
 ## Use out-of-the-box features
 
@@ -25,7 +25,7 @@ Customer Service provides various default dashboards and reports. These dashboar
 
 ### Access dashboards
 
-Supervisors can access and view these dashboards from the Customer Service workspace app.
+Supervisors can access and view these dashboards from the Copilot Service workspace app.
 
 **Historical**
 

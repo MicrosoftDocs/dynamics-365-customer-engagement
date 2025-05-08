@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: concept-article
 ms.collection:
-ms.date: 10/08/2024
+ms.date: 05/06/2025
 ms.custom: bap-template
 ---
 
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 To turn on analytics for Copilot, you must opt in to the Copilot help pane and Copilot summaries.
 
-1. In the Customer Service admin center, go to **Insights**, and on the page that appears, select **Manage** for **Copilot analytics**.
+1. In the Copilot Service admin center, go to **Insights**, and on the page that appears, select **Manage** for **Copilot analytics**.
 
 1. On the **Copilot analytics** page, select the **Enable Copilot analytics** checkbox, and then save the changes.
 

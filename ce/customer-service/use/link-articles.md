@@ -1,8 +1,8 @@
 ---
 title: Link and unlink knowledge articles in Dynamics 365 Customer Service
 description: Link or unlink knowledge articles to records easily, enhancing case management, and accessibility in your system.
-ms.date: 04/09/2025
 ms.topic: how-to
+ms.date: 05/06/2025
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -26,7 +26,6 @@ You can associate and dissociate a knowledge article with a record. By default, 
 :::image type="content" source="../media/csw-link-unlink-km.png" alt-text="Link or unlink an article to a case":::
 
 
-
 ## Linked knowledge articles subgrid
 
 The linked knowledge article subgrid is available for an entity, such as a case or account, only if your system administrator added the subgrid to the entity form. The knowledge article subgrid displays the knowledge articles linked with the entity. Some of the options available are as follows:
@@ -40,7 +39,7 @@ You can also edit a knowledge article by double-clicking it in the linked articl
 
 To link the knowledge article to an entity, you need to do the following steps. For the sake of this example, let us consider the entity as Accounts.
 
-1. In the Customer Service Hub site map, go to **Customers** > **Accounts**.
+1. In the site map of Customer Service Hub, go to **Customers** > **Accounts**.
 
 2. Select any active account from the list of accounts.
 

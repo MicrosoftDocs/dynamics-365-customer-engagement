@@ -2,7 +2,7 @@
 title: Use Microsoft Teams channel
 description: This article provides an overview of Microsoft Teams channel and incoming chat notifications in the agent dashboard.
 ms.date: 01/03/2025
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
