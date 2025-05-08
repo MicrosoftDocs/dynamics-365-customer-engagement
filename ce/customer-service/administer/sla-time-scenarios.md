@@ -4,7 +4,7 @@ description: Learn how time is calculated for service-level agreements (SLAs) in
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: reference
+ms.topic: concept-article
 ms.collection:
 ms.date: 08/30/2024
 ms.custom: bap-template
