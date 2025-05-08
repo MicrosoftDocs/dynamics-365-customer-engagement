@@ -1,7 +1,7 @@
 ---
 title: Upgrade from Interactive Service Hub to the Customer Service Hub app | Microsoft Docs
 description: Understand the upgrade path from Interactive Service Hub to the Customer Service Hub application
-ms.date: 07/12/2018
+ms.date: 05/08/2025
 ms.topic: upgrade-and-migration-article
 author: neeranelli
 ms.author: nenellim
@@ -15,8 +15,6 @@ ms.custom:
 ---
 
 # Upgrade to Customer Service Hub
-
-
 
 The Interactive Service hub was introduced with [!INCLUDE[](../../includes/pn-crm-8-1-0-online.md)] and Dynamics CRM 2016 as a reimagined customer service app. Interactive Service hub offered a web-based client designed to simplify daily tasks for customer service representatives and managers. It had new components and page-types, like interactive dashboards, interactive forms, and reference panel control. 
 
@@ -46,14 +44,14 @@ The next sections describe notable upgrade-specific changes, general customizati
 
 ## Convert Interactive experience forms to Main forms
 
-Like Dynamics 365 Customer Service web client, the Customer Service Hub app on Unified Interface uses Main forms. Any existing Interactive experience forms—both out-of-the-box and custom, is modified and converted to Main forms when you upgrade to the latest version, and import any solution into Dataverse. This change doesn't affect functionality, the form XML remains the same except for a few changes in properties.
+Like Dynamics 365 Customer Service web client, the Customer Service Hub app on Unified Interface uses Main forms. Any existing Interactive experience forms—both out-of-the-box and custom, is modified and converted to Main forms when you upgrade to the latest version, and import any solution into Dataverse. This change doesn't affect functionality. The form XML remains the same except for a few changes in properties.
 
 ![Converting Interactive experience forms to Main forms.](../media/upgrade-Convert-Interactive-experience-forms-to-Main-forms.png)
 
 - The conversion process changes the form type. No new forms are created and the name of the form doesn't change
-- The segment of form XML representing form behavior and customization is unaffected. This conversion won't have an adverse impact on functionality
+- The segment of form XML representing form behavior and customization is unaffected. This conversion doesn't impact functionality adversely
 - **Form Type** would be changed from **Main – Interactive experience** to **Main**
-- If the managed properties of the form are set to be customizable, the **Form State** is changed to Inactive; otherwise it's unchanged. Because main forms are supported in Unified Interface as well as in Dataverse, deactivation is essential to avoid unintended access in Dataverse. This behavior is limited to customizable forms, so the upgrade does not force any form to an unrecoverable Inactive state
+- If the managed properties of the form are set to be customizable, the **Form State** is changed to Inactive; otherwise it's unchanged. Because Unified Interface and Dataverse support main forms, deactivation is essential to avoid unintended access in Dataverse. This behavior is limited to customizable forms, so the upgrade does not force any form to an unrecoverable Inactive state
 - After conversion to Main forms, Interactive experience forms are ranked lower than other Main forms in the system, to avoid disruption to Dynamics 365 Customer Service web client users. System administrators can review the order and change it to suit the business needs. See [Assign form order](../../customerengagement/on-premises/customize/assign-form-order.md) for more information
 
 ## Support for Interactive experience forms
@@ -62,7 +60,7 @@ Unified Interface does not use Interactive experience forms, so they no longer a
 
 ## Entity support and deprecation
 
-With the latest release, Unified Interface supports all Interactive Service hub entities and many others. Interactive dashboards, Card forms, Main forms and any other components like Views, Charts, etc., can be created for any entity supported in Unified Interface and used in the Customer Service Hub app. The **EntityMetadata.IsInteractionCentricEnabled** property, which indicates whether an entity can be enabled for interactive experience, is removed. The corresponding property in the customization interface, **Enable for interactive experience**, has been removed, and the **EntityMetadata.IsInteractionCentricEnabled** property removed from the future version of the Dataverse SDK.
+With the latest release, Unified Interface supports all Interactive Service hub entities and many others. You can create Interactive dashboards, Card forms, Main forms and any other components like Views and Charts for supported entities in Unified Interface and use in the Customer Service Hub app. The **EntityMetadata.IsInteractionCentricEnabled** property, which indicates whether an entity can be enabled for interactive experience, is removed. The corresponding property in the customization interface, **Enable for interactive experience**, is removed, and the **EntityMetadata.IsInteractionCentricEnabled** property removed from the future version of the Dataverse SDK.
 
 ## User interface improvements
 
@@ -84,7 +82,7 @@ With the latest release, Unified Interface supports all Interactive Service hub 
 
 ## After the upgrade
 
-Once you’ve upgraded to the latest version, Customer Service Hub is provisioned for your org and updated with your customizations from Interactive Service hub.
+After you upgrade to the latest version, Customer Service Hub is provisioned for your org and updated with your customizations from Interactive Service hub.
 
 > [!NOTE]
 > System administrators and customizers must perform the [ Post-upgrade configurations](#post-upgrade-configurations-for-system-administrators) described later in this document. They should review the Customer Service Hub's runtime experience and compare it with Interactive Service hub before releasing the app to business users for consumption.
@@ -101,16 +99,16 @@ Once you’ve upgraded to the latest version, Customer Service Hub is provisione
 
 ## Post-upgrade configurations for system administrators
 
-As described earlier, most of the Main forms would be in *Inactive* state after the upgrade. If Customer Service Hub does not have an Active form for any entity, users will get *Fallback forms* when they access an entity record. A fallback form is the default form that is available to users whose security roles do not have any forms assigned to them (read more in [Control access to forms](../../customerengagement/on-premises/customize/control-access-forms.md)). To ensure that users have a seamless experience after upgrading, system administrators must perform certain manual tasks, as listed in the table below.
+As described earlier, most of the Main forms would be in *Inactive* state after the upgrade. If Customer Service Hub does not have an Active form for any entity, users get *Fallback forms* when they access an entity record. A fallback form is the default form that is available to users whose security roles do not have any forms assigned to them (read more in [Control access to forms](../../customerengagement/on-premises/customize/control-access-forms.md)). To ensure that users have a seamless experience after upgrading, system administrators must perform certain manual tasks, as listed in the table.
 
  
-As Main forms are supported in Unified Interface as well as in web client, activation would make them visible in web client too. System administrators are advised to assign appropriate security roles to avoid unintended access. See [Assign security roles to forms](/power-platform/admin/assign-security-roles-form) for more information.
+As Main forms are supported in Unified Interface and in web client, activation makes them visible in web client too. System administrators are advised to assign appropriate security roles to avoid unintended access. See [Assign security roles to forms](/power-platform/admin/assign-security-roles-form) for more information.
 
 ![Post upgrade configuration for system admins.](../media/upgrade-post-upgrade-configurations-for-system-administrators.png)
 
 ## Work with solutions
 
-- Importing a solution with Interactive Service hub components from the versions Dynamics CRM 2016, [!INCLUDE[](../../includes/pn-crm-8-1-0-online.md)], and Dynamics 365 Customer Service, and Customer Engagement (on-premises) platform Update 2.1 into the latest version would not reflect changes to Customer Service Hub, since it is an app module and doesn’t show every component in the system. The import would proceed in the usual manner, and the components added in the system would need to be added to Customer Service Hub. System administrators can edit the hub's app definition in App Designer and include the solution components. This gives System Administrators greater control over the hub's app definition. Read more about editing app definition in [App Designer](../../customerengagement/on-premises/customize/create-edit-app.md) documentation.
+- When you import a solution with Interactive Service hub components from the versions Dynamics CRM 2016, [!INCLUDE[](../../includes/pn-crm-8-1-0-online.md)], and Dynamics 365 Customer Service, and Customer Engagement (on-premises) platform Update 2.1 into the latest version, it doesn't reflect changes to Customer Service Hub. Because it's an app module and doesn’t show every component in the system. The import would proceed in the usual manner, and the components added in the system would need to be added to Customer Service Hub. System administrators can edit the hub's app definition in App Designer and include the solution components. This gives System Administrators greater control over the hub's app definition. Read more about editing app definition in [App Designer](../../customerengagement/on-premises/customize/create-edit-app.md) documentation.
 
 
 - Uninstalling older solutions after upgrading to the latest version might require manual updates to the Customer Service Hub app in some cases. This typically occurs when the solution contains business process flows. While upgrading, all business process flows in the system (and their relevant entities) get added to Customer Service Hub, which creates dependencies on the solution. A solution framework dependency error appears whenever such solutions are uninstalled.
