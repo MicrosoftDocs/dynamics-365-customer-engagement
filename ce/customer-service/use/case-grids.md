@@ -2,7 +2,7 @@
 title: Manage cases with case grids 
 description: Learn how to work with case grids and increase representative productivity.
 ms.date: 05/02/2025
-ms.topic: reference
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
