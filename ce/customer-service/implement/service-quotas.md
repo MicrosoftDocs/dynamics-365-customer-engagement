@@ -57,7 +57,7 @@ Service quotas are the limits on resources, configurations, and items provided a
 
 <sup>4</sup> 250 MB of SQL/DB storage and 2 GB of file storage
 
-<sup>5</sup> If eligible service representative aren't available to serve the default block size of top priority conversations, then the auto assignment process can appear to be paused. In such cases, we recommend that you use features like overflow management to manage high load or review service representative availability, scheduling, and skill configuration to expand the eligible service representative pool. If these options aren't adequate, contact Microsoft Support with your business scenario to check whether the block size can be increased.
+<sup>5</sup> If eligible service representatives aren't available to serve the default block size of top priority conversations, then the auto assignment process can appear to be paused. In such cases, we recommend that you use features like overflow management to manage high load or review service representative availability, scheduling, and skill configuration to expand the eligible service representative pool. If these options aren't adequate, contact Microsoft Support with your business scenario to check whether the block size can be increased.
 
 <sup>6</sup> If you use [overflow handling for work items in queue](../administer/manage-overflow.md#handle-overflow-when-a-work-item-is-queued) and more than 20 items overflow in a minute, the work items are addressed in batches. Those queues that have a lower wait time are addressed first. If all queues are configured with the same wait time, then overflow handling takes place in a round robin manner.
 
