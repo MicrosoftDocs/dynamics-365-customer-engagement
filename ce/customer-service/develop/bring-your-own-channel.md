@@ -118,7 +118,7 @@ This Activity object includes the following attributes:
 |**id**| Indicates the identifier that the adapter uses to respond to outbound messages. |
 |**channelData**| Indicates channel data that consists of `channelType`, `conversationcontext`, and `customercontext`. |
 |**channelType**| Indicates the channel name through which the customer is sending messages. For example, MessageBird, KakaoTalk, Snapchat |
-|**conversationcontext**| Refers to a dictionary object that holds the context variables defined in the workstream. Omnichannel for Customer Service uses this information to route the conversation to the right agent. For example:<br>"conversationcontext ":{ "ProductName" : "Xbox", "Issue":"Installation" }<br>In this example, the context routes the conversation to the agent who deals with Xbox installation.|
+|**conversationcontext**| Refers to a dictionary object that holds the context variables defined in the workstream. Omnichannel for Customer Service uses this information to route the conversation to the right customer service representative (service representative or representative). For example:<br>"conversationcontext ":{ "ProductName" : "Xbox", "Issue":"Installation" }<br>In this example, the context routes the conversation to the service representative who deals with Xbox installation.|
 |**customercontext**| Refers to a dictionary object that holds the customer details such as phone number and email address. Omnichannel for Customer Service uses this information to identify the user's contact record.<br>"customercontext":{ "email":email@email.com, "phonenumber":"1234567890" }|
 
 ```javascript
