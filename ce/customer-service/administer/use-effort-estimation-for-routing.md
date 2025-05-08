@@ -2,7 +2,7 @@
 title: Use effort estimation model in unified routing
 description: Learn how to use the effort estimation model in unified routing in Customer Service.
 ms.date: 05/02/2025
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

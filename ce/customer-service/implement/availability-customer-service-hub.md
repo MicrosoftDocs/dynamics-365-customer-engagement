@@ -2,7 +2,7 @@
 title: Availability of Customer Service Hub (Dynamics 365 Customer Service)
 description: Contains information on availability of Customer Service Hub.
 ms.date: 03/17/2025
-ms.topic: conceptual
+ms.topic: reference
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

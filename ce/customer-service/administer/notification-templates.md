@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.date: 04/14/2025
-ms.topic: article
+ms.topic: how-to
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc

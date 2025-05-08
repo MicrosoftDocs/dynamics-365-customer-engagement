@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection: 
-ms.date: 05/02/2025
+ms.date: 05/07/2025
 ms.custom: 
     - bap-template
     - dyn365-customerservice
@@ -36,16 +36,12 @@ For published articles, customer service representatives and portal users see an
 
 ## Configure origins allowlist
 
-You can configure the origins allowlist in the Customer Service admin center or Contact Center admin center app by performing the following steps:
+You can configure the origins allowlist in the Copilot Service admin center app by performing the following steps:
 
-1. Go to the **Settings** page.
-
-1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the site map, select **Knowledge** in **Support experience**. The **Knowledge** page appears.
 1. In the **General settings** section, select **Manage**. The **General settings** page appears.
-1.	Go to **Origins allowlist** and add your links to the **Add origin links** field.
-
+1. Go to **Origins allowlist** and add your links to the **Add origin links** field.
 1.	Select **Add**![Add](../media/add-icon.png) or **Enter** to add the link to your list.
-
 1.	Select **Save**.
 
 To remove a domain, select **Close** next to the domain name.

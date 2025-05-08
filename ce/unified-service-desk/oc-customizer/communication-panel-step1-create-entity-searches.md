@@ -4,7 +4,7 @@ description: "Perform the steps mentioned in the topic to learn how to create th
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.topic: article
+ms.topic: how-to
 ms.date: 06/27/2024
 monikerRange: '>= dynamics-usd-4.1'
 ms.custom: evergreen

@@ -4,7 +4,7 @@ description: Use this article to know answers to your frequently asked questions
 author: neeranelli
 ms.author: nenellim
 ms.date: 12/14/2024
-ms.topic: conceptual
+ms.topic: faq
 ms.reviewer: nenellim
 ms.collection:
 ms.custom: bap-template
