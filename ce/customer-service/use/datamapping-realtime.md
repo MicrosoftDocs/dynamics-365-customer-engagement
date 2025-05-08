@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 07/05/2024
+ms.date: 05/06/2025
 ms.custom: bap-template
 ---
 
@@ -17,7 +17,7 @@ ms.custom: bap-template
 > [!Note]
 > Case information is applicable to Customer Service only.
 
-This article describes the Data Analysis Expressions (DAX) logic for real-time metrics, which you can use to build your logic and create your own metrics. More information: [DAX function reference](/dax/dax-function-reference)
+This article describes the Data Analysis Expressions (DAX) logic for real-time metrics, which you can use to build your logic and create your own metrics. Learn more in [DAX function reference](/dax/dax-function-reference).
 
 Learn more about real-time metrics in [Use report metrics](oc-metrics-dimensions.md).
 

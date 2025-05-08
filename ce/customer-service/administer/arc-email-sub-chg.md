@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 04/09/2025
+ms.date: 05/06/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -25,7 +25,7 @@ This article describes the customization steps that you can perform to create a 
 
 ## Prerequisites
 
-Make sure to enable the **Skipped** and **Ready for Power Automate** monitored options for the activity monitor in the Customer Service admin center app. Learn more in [Use activity monitor to review and track rules](manage-activity-arc.md).
+Make sure to enable the **Skipped** and **Ready for Power Automate** monitored options for the activity monitor in the Copilot Service admin center app. Learn more in [Use activity monitor to review and track rules](manage-activity-arc.md).
 
 ## How it works
 

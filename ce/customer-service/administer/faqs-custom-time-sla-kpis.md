@@ -1,7 +1,7 @@
 ---
 title: FAQ about custom time calculation of SLA KPIs
 description: Learn about the frequently asked questions (FAQ) about custom time calculation of SLA KPIs.
-ms.date: 06/21/2024
+ms.date: 05/02/2025
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas

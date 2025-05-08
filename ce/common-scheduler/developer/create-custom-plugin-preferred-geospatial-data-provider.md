@@ -7,7 +7,7 @@ searchScope:
   - Project Service
 ms.reviewer: mhart
 ms.subservice: common-scheduler
-ms.topic: conceptual
+ms.topic: concept-article
 author: m-hartmann
 ms.author: mhart
 ---
