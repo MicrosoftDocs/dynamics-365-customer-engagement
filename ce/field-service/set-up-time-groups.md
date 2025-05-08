@@ -1,7 +1,7 @@
 ---
 title: Define intervals and time groups with fulfillment preferences
 description: Learn how to use fulfillment preferences and the related concepts of intervals and time groups in Dynamics 365 Field Service.
-ms.date: 11/26/2024
+ms.date: 05/08/2025
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
