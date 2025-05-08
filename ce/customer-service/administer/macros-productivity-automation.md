@@ -395,7 +395,7 @@ Perform the following steps to create a macro to clone an existing case. The exi
 
 ## Set Script focus
 
-Sets the focus on a script that needs to run next. The script is set in focus in the **Scripts** dropdown on the app side pane. For example, if the service representatives needs to process a refund complaint. The service representatives uses different scripts to greet, initiate a complaint request, and process the refund. You can define macros that set the focus on the scripts that need to be run for each stage of the refund process. The script in focus must be associated with the session template. The action contains the following field.
+Sets the focus on a script that needs to run next. The script is set in focus in the **Scripts** dropdown on the app side pane. For example, if the service representative needs to process a refund complaint. The service representative uses different scripts to greet, initiate a complaint request, and process the refund. You can define macros that set the focus on the scripts that need to be run for each stage of the refund process. The script in focus must be associated with the session template. The action contains the following field.
 
    | Field | Description |
    |-----------------|-----------------------------|
