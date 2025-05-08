@@ -38,7 +38,7 @@ To enable the enhanced Active Conversation form and customize the form, perform 
 1. In Copilot Service admin center, go to **Workspaces**.
 1. Select **Manage** for **Active conversation form settings** in **Workspaces**.
 1. Select the following options:
-    - **Enhanced active conversation form** to enable the enhanced Active Conversation experience. The following features are available as a part of the enhanced experience:
+    - **Enhanced Active Conversation form** to enable the enhanced Active Conversation experience. The following features are available as a part of the enhanced experience:
       - Configurable **Customer 360** and **Case details** card with inline edit capabilities. 
       - **Recent cases** card with color coded priority and status fields.
       - The default form selector to switch between active and closed conversations is hidden.
