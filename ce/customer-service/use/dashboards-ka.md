@@ -4,7 +4,7 @@ description: Monitor and analyze the status of knowledge articles using the dash
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: how-to
+ms.topic: concept-article
 ms.date: 05/02/2025
 ms.custom: bap-template
 ---
