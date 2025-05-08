@@ -2,7 +2,7 @@
 title: "Debug and troubleshoot | MicrosoftDocs"
 description: "Learn how to troubleshoot and resolve configuration issues using the debugger control in Unified Service Desk."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: troubleshooting-general
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

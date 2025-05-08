@@ -4,7 +4,7 @@ description: Frequently Asked Questions about adding users to experience profile
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 07/01/2024
 ms.custom: bap-template 
 ---
@@ -45,4 +45,4 @@ No. You can't have multiple default custom profiles when you're setting the defa
 [Manage session template](session-templates.md)  
 [Overview of Dynamics 365 Productivity Tools](productivity-tools.md)  
 [Overview of channels in Omnichannel for Customer Service](../use/channels.md)  
-[Overview of experience profiles](overview.md) 
+[Overview of agent experience profiles](overview.md) 
