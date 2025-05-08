@@ -4,7 +4,7 @@ description: Understand how to track and view SLAs with the help of interactive 
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: how-to
+ms.topic: concept-article
 ms.date: 12/13/2024
 search.audienceType: 
   - admin
