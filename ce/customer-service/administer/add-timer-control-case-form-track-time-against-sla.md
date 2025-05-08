@@ -2,7 +2,7 @@
 title: Add a timer control for SLA-enabled entities
 description: Add a timer control to SLA-enabled entity forms to help users track time and complete tasks within specified SLA time frames.
 ms.date: 12/13/2024
-ms.topic: limits-and-quotas
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
