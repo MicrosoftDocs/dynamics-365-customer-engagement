@@ -2,7 +2,7 @@
 title: "Use UII adapters to interact with external and web applications | MicrosoftDocs"
 description: "Learn how to use UII adapters to interact with your external and web applications without having access to the application’s source code in Unified Service Desk."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

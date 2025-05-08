@@ -37,7 +37,7 @@ searchScope:
   |Enable Outbound Communication|When a phone number is selected on the Dynamics 365 Unified Interface page, the widget initiates the call or outbound communication.|
   |Channel Order|The order of precedence of the channel providers.|
   |API Version|The version of the Channel Integration Framework APIs.|
-  |Trusted Domain| An additional domain if the initial landing URL and the final domain from which the communication widget is hosted are different. Add the domain (URL) to access the Channel Integration Framework APIs. |
+  |Trusted Domain| An other domain if the initial landing URL and the final domain from which the communication widget is hosted are different. Add the domain (URL) to access the Channel Integration Framework APIs. |
   |Select Unified Interface Apps for the Channel| The list of Unified Interface apps where the channel is displayed for the agents. |
   |Select the Roles for the Channel|The security roles that are present in Dynamics 365.<br>**IMPORTANT:** <br> To ensure that the user is able to access the channel provider, you must assign the same security role that's defined at the channel provider level, to the user.<br>**NOTE:** <br>  The channel supports individual role assignment only.|
   |Custom Parameter|This takes a text blob as input and `Microsoft.CIFramework.getEnvironment` returns this as value of key `customParams`.|
@@ -46,6 +46,7 @@ searchScope:
   ![Channel provider configuration.](../../media/channel-provider-configuration-v1.PNG "Channel provider configuration")
 
   > [!NOTE]
+
   > - The msdyn_ciprovider entity is accessible only for the administrator roles and hence the panel doesn't load for non-administrator roles. To load the panel for non-administrator roles, create a new role and provide read access to the msdyn_ciprovider entity. Then, add the role to the users who are accessing Dynamics 365 Channel Integration Framework.
   > - Sandbox attributes such as allow-forms, allow-popups, allow-scripts, allow-same-origin, allow-modals, allow-downloads are configured by default.
 
