@@ -4,7 +4,7 @@ description: Learn how to activate and customize analytics and insights in Custo
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual 
+ms.topic: concept-article
 ms.collection: 
 ms.date: 05/06/2025
 ms.custom: bap-template

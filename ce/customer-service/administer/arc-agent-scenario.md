@@ -4,7 +4,7 @@ description: Understand how automatic record creation rules work in customer ser
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
 ms.date: 12/13/2024
 ms.custom: bap-template
