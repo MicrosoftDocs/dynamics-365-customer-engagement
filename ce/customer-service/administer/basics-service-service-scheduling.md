@@ -5,7 +5,7 @@ ms.date: 04/22/2025
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: reference
+ms.topic: concept-article
 ms.custom: 
 - bap-template
 - evergreen
