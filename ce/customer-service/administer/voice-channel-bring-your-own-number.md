@@ -38,17 +38,33 @@ Azure Communication Services direct routing enables you to connect your existing
 
 1. Select **Advanced** on the menu.
 
-1. Select **Add Number** for **Bring your own number via Azure Direct Routing**.
-
-1. In the **Add your own phone number** dialog, enter the following details.
-    - **Phone number**: Indicates the phone number that you own and have configured in your SBC.
-    - **Carrier**: Indicates the carrier to which the phone number belongs. If the carrier doesn’t exist yet, you can create a new record.
-    - **Country/Region**: Select the country or region the phone number belongs to.
-    - **Number type**: Select whether toll-free or a local phone number.
-    - **Calling plans**: Select whether you can make or receive calls on the phone number.
-        > [!Note]
-        > SMS isn't supported with direct routing.
-
+In the **Bring your own number via Azure Direct Routing** section you can either add one phone number at a time or import multiple phone numbers in bulk.
+  ### [Import multiple numbers](#tab/importmultiplenumbers)
+  
+   1. Select **Import multiple numbers** to upload phone numbers in bulk. The **Import multiple numbers** pane appears.
+   1. In **Import multiple numbers** pane, enter the following details.
+      - **Carrier**: Indicates the carrier to which the phone number belongs. If the carrier doesn’t exist yet, you can create a new record.
+      - **Country/Region**: Select the country or region the phone number belongs to.
+      - **Number type**: Select whether toll-free or a local phone number.  
+   1. The application displays the PhoneNumber.csv link once you specify the carrier, country/region, and number type. Download the CSV file and fill in the following details for all the phone numbers you want to add in bulk:
+      - **msdyn_phonenumber**: Indicates the phone number that you own and have configured in your SBC.
+      - **msdyn_phoneinboundenabled**: Indicates whether the phone number can receive calls. Set to **True** if you want to receive calls on this number.
+      - **msdyn_phoneoutboundenabled**: Indicates whether the phone number can make calls. Set to **True** if you want to make calls on this number.
+    1. Select **Upload** and upload the CSV file. The application validates the file and displays a success message if the file is valid. If the file is invalid, it displays an error message with details about the errors in the file.
+    1. Select Import numbers. Once the import is successful the phone numbers are displayed on the Phone numbers page.
+    1. On the **Phone Numbers** page, select **Import status** to view the status of the import. 
+  
+  ### [Add number](#tab/addnumber)
+   1. Select **Add number** to add a single phone number. The **Add your own phone number** dialog appears.
+   1. In the **Add your own phone number** dialog, enter the following details.
+      - **Phone number**: Indicates the phone number that you own and have configured in your SBC.
+      - **Carrier**: Indicates the carrier to which the phone number belongs. If the carrier doesn’t exist yet, you can create a new record.
+      - **Country/Region**: Select the country or region the phone number belongs to.
+      - **Number type**: Select whether toll-free or a local phone number.
+      - **Calling plans**: Select whether you can make or receive calls on the phone number.
+         > [!Note]
+         > SMS isn't supported with direct routing.
+ ---
 1. Select **Add number**.
 
 The new phone number appears in the **Phone numbers** list and is ready for setup. You can now [connect it to a voice workstream](voice-channel-inbound-calling.md), [configure outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling), or even [assign it to a customer service representative](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-representatives).
