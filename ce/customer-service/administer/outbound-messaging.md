@@ -55,7 +55,7 @@ Set up templates to send outbound messages. To create a template, consider the s
 You can set up the outbound configuration in the Copilot Service admin center app.
 
 1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page displays.
-1. In the **Outbound** section, select **Manage**. The **Active Outbound Configurations** page displays.
+1. In the **Outbound** section, select **Manage**. The **Active Outbound Configurations** page appears.
 1. Select **New**, and then on the **New Outbound Configuration** page, enter the details for the settings mentioned in the following table.
 
     | Field               | Description| Sample value                       |
@@ -83,7 +83,7 @@ Power Automate provides a low-code platform for workflow and process automation.
 
 **To set up a Power Automate flow**
 
-1. In the site map of Copilot Service admin center, select **Productivity** in **Agent experience**. The **Productivity** page displays.
+1. In the site map of Copilot Service admin center, select **Productivity** in **Support experience**. The **Productivity** page appears.
 2. In the **Message templates** section, select **Manage**. The **Message template view** page displays.
 
 3. Select **Flow** at the top of the screen, and then select **Create a flow**.
