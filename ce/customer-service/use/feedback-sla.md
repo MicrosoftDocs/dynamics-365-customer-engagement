@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 05/02/2025
+ms.date: 05/07/2025
 ms.custom: bap-template
 ---
 
@@ -17,7 +17,7 @@ Manage feedback received for your articles by adding it to your knowledge articl
 
 ## Add feedback to an article
 
-1. In Customer Service workspace or Contact Center workspace, select **Knowledge Articles**.
+1. In Copilot Service workspace, select **Knowledge Articles**.
 
 1. Select the article you want to add feedback for.
 
@@ -54,7 +54,7 @@ Manage feedback received for your articles by adding it to your knowledge articl
 
 Ensure that your articles are always up to date and accurate by updating them based on feedback you receive.  
   
-1. In Customer Service workspace or Contact Center workspace, select **Knowledge Articles**.
+1. In Copilot Service workspace, select **Knowledge Articles**.
 
 1. Select the article you want to edit.  
   
