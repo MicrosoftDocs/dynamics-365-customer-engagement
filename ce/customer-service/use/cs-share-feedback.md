@@ -14,7 +14,7 @@ You can share feedback about Customer Service, such as the features, UI, and iss
 
 ## Share feedback
 
-You can share product feedback in Customer Service Hub and Customer Service workspace.
+You can share product feedback in Customer Service Hub and Copilot Service workspace.
 
 **To share feedback**
 
@@ -23,7 +23,7 @@ You can share product feedback in Customer Service Hub and Customer Service work
 ### Related information
 
 [Overview of Dynamics 365 Customer Service](../administer/overview.md)                                                                                                    
-[Get started with Customer Service workspace](../administer/overview.md)                                                                                                                
+[Get started with Copilot Service workspace](../administer/overview.md)                                                                                                                
 [Learn the basics of the Customer Service Hub](../implement/customer-service-hub-user-guide-basics.md)                                                                                   
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

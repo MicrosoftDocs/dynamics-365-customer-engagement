@@ -19,17 +19,17 @@ The horizontal bar below the model-driven app navigation bar is called the appli
 
 With application tab templates, you can define the applications that are available for a session and then associate those applications with the session. 
 
-For example, you can create the **Dashboard** application type and associate it with chat or SMS sessions. Now, when an agent accepts a notification from the chat or SMS channels, a session starts and by default the **Active Conversation** page loads.
+For example, you can create the **Dashboard** application type and associate it with chat or SMS sessions. Now, when a customer service representative accepts a notification from the chat or SMS channels, a session starts and by default the **Active Conversation** page loads.
 
 As an administrator, you can create multiple application tab templates.
 
 ## Create or manage application tab templates
 
-To create or manage an application tab template, go to the agent experience profile. Learn more in [Create application tab templates](../../../customer-service/administer/application-tab-templates.md#create-application-tab-templates).
+To create or manage an application tab template, go to the experience profile. Learn more in [Create application tab templates](../../../customer-service/administer/application-tab-templates.md#create-application-tab-templates).
 
 ## Related information
 
-[Agent experience profile overview](../../../customer-service/administer/overview.md)  
+[Experience profile overview](../../../customer-service/administer/overview.md)  
 [Manage session templates](session-templates-cif.md)   
 [Manage notification templates](notification-templates-cif.md)   
 [Use automation dictionary to pass data parameter keys](automation-dictionary-keys-cif.md)  

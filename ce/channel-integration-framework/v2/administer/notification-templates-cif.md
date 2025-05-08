@@ -51,7 +51,7 @@ Also, as an administrator, you can set the browser notification permission by us
 
 ## Create a notification template
 
-To create or manage a notification template, go to **Workspaces** in **Agent Experience**. For more information, see [Manage templates](../../../customer-service/administer/notification-templates.md#manage-templates).
+To create or manage a notification template, go to **Workspaces** in **Support Experience**. For more information, see [Manage templates](../../../customer-service/administer/notification-templates.md#manage-templates).
 
 ## Related information
 

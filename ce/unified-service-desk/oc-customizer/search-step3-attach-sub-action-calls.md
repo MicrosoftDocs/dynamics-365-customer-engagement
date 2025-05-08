@@ -2,7 +2,7 @@
 title: "Attach sub actions to action calls | MicrosoftDocs"
 description: "Learn how to attach sub action calls to action calls for agents and supervisors using Omnichannel for Customer Service."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

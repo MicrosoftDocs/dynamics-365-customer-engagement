@@ -76,7 +76,7 @@ A valid Azure subscription is required to publish the sample app to Azure.
    |Channel Order| 0 |
    |API Version| 1.0 |
    |Trusted Domains|The domain (URL) that can access the Channel Integration Framework APIs.|
-   |Select the Unified Interface Apps for the Channel| The list of Unified Interface apps where the channel is displayed for the agents. |
+   |Select the Unified Interface Apps for the Channel| The list of Unified Interface apps where the channel is displayed for the customer service representatives. |
    |Select Roles for the Channel|The security roles that are present in Dynamics 365.<br>**Note:** If you do not assign any role, the channel provider is shown to all users assigned for the Dynamics 365 Unified Interface app.|
 
 3. Launch the Unified Interface app to see the communication widget on the right side.
