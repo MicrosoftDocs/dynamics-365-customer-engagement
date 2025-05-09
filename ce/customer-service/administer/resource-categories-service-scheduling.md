@@ -1,6 +1,6 @@
 ---
-title: Set up resource groups for Service Scheduling
-description: Know how to create and set up resource groups for service scheduling in Dynamics 365 Customer Service.
+title: Set up resource categories for Service Scheduling
+description: Know how to create and set up resource categories for service scheduling in Dynamics 365 Customer Service.
 ms.date: 05/09/2025
 ms.topic: how-to
 author: Soumyasd27
@@ -18,17 +18,17 @@ ms.custom:
 
 # Create and manage resource categories 
 
-With bookable resource groups, you can group your bookable resources by type. For example, you can create groups like technician, supervisor, subcontractor, vehicle, or equipment.
+With bookable resource categories, you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment.
 
 Learn more in [Multi-resource scheduling with requirement groups](/dynamics365/customer-engagement/common-scheduler/multi-resource-scheduling-requirement-groups).
 
-## Create a new resource group
+## Create a new resource category
 
 Make sure that you have the required security role or equivalent permissions. 
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
-You can create a new resource group in the Copilot Service admin center or Customer Service Hub app.
+You can create a new resource category in the Copilot Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
 
@@ -36,9 +36,9 @@ You can create a new resource group in the Copilot Service admin center or Custo
 
  
     1. In the site map, select **Service Scheduling** in **Operations**. The **Service scheduling** page appears.
-    2. In the **Resource Group** section, select **Manage**.
+    2. In the **Resource categories** section, select **Manage**.
         
-        The **Local Resource Groups** view is displayed. You can switch between various system views using the dropdown list.  
+        The **Active Resource Categories** view is displayed. You can switch between various system views using the dropdown list.  
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
