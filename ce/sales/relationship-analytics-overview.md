@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: concept-article 
-ms.date: 04/16/2025
+ms.date: 05/09/2025
 ms.custom: bap-template
 ---
 
@@ -51,10 +51,8 @@ The following screenshot illustrates the relationship analytics widgets that are
 
 ## Enhanced relationship insights
 
-Enhanced relationship insights are available with the Sales Premium license and requires your administrator to enable and configure relationship intelligence. Your administrator can configure relationship intelligence to use the Exchange data as well. In this case, the insights will be generated based on emails and meetings information in Dynamics 365 and emails in Microsoft Exchange.  More information: [Enable relationship intelligence](enable-ri.md)
+Enhanced relationship insights are available with the Sales Premium license and requires your administrator to enable and configure relationship intelligence. If your administrator has configured server-side synchronization, then insights are generated based on emails and meetings information in Dynamics 365 and emails in Microsoft Exchange.  More information: [Enable relationship intelligence](enable-ri.md)
 
-> [!NOTE]
-> Native integration with Exchange Online is being deprecated in phases. Refer to the [train schedule](/dynamics365/released-versions/dynamics365sales#latest-version-availability) for version 9.0.25032.10001 to know when the feature will be deprecated in your region. If you want to use Exchange data for enhanced insights, [set up server-side synchronization for Exchange](configure-email.md). Otherwise, insights are generated only using emails and data stored in Dynamics 365.
 
 For information on how to view the insights, see [View analytics and KPIs for a record](relationship-analytics.md#view-analytics-and-kpis-for-an-individual-lead-account-contact-or-opportunity).
 
