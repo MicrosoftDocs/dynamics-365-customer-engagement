@@ -2,7 +2,7 @@
 title: "Create or edit goals | MicrosoftDocs"
 description: "Use goals to track your progress on achieving target revenue or other targets set by your organization. Propagate goals using parent and child goals."
 ms.date: 11/12/2024
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -19,13 +19,6 @@ searchScope:
 # Create or edit goals
 
 Use goals to track your progress on achieving target revenue or other targets set by your organization. Propagate goals using parent and child goals.
-
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## Create a goal
 

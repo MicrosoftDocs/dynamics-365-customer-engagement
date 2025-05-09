@@ -2,7 +2,7 @@
 title: "Deactivate and delete a forecast in Dynamics 365 Sales"
 description: "Deactivate and delete a forecast in Dynamics 365 Sales."
 ms.date: 12/2/2024
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -10,13 +10,6 @@ ms.reviewer: lavanyakr
 # Deactivate and delete forecasts 
 
 You can deactivate or delete forecasts that are no longer required in your organization.  
-
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## Deactivate a forecast 
 

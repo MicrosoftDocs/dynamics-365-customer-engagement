@@ -98,14 +98,14 @@ If for any reason your code cannot achieve the expected result, you must throw t
 
 ### Plug-in registration
 
-Unlike an ordinary plugin, you will only use the _Plugin Registration Tool_ (PRT) to register the assembly and the plugins for each event. You will not register specific steps. Your plugin will run in stage 30, the main core transaction stage for the operation that is not available for ordinary plugin steps. Instead of registering steps, you will configure your data provider using the [Microsoft.Dynamics.CRM.EntityDataProvider](../entities/entitydataprovider.md) and [Microsoft.Dynamics.CRM.EntityDataSource](../entities/entitydatasource.md) entities. 
+Unlike an ordinary plugin, you will only use the _Plugin Registration Tool_ (PRT) to register the assembly and the plugins for each event. You will not register specific steps. Your plugin will run in stage 30, the main core transaction stage for the operation that is not available for ordinary plugin steps. Instead of registering steps, you will configure your data provider using the [EntityDataProvider](/power-apps/developer/data-platform/reference/entities/entitydataprovider) and `EntityDataSource` tables.
 
 <!-- TODO: If the PRT is essentially the same as past versions, then replace italics with link to current DOCS topic.  That topic might need updating.  If this is a special version of this tool only in the Data SDK, then it might need a separate topic. -->
 
 |**Entity**|**Description**|
 |-----|-----|
-|[EntityDataProvider](../entities/entitydataprovider.md)|Defines the plugins to use for each event and the logical name of the data source.|
-|[EntityDataSource](../entities/entitydatasource.md)|Provides the entity context and any connection information required for the external data source, including any secrets required to authenticate.|
+|[EntityDataProvider](/power-apps/developer/data-platform/reference/entities/entitydataprovider)|Defines the plugins to use for each event and the logical name of the data source.|
+|`EntityDataSource`|Provides the entity context and any connection information required for the external data source, including any secrets required to authenticate.|
 | | |
 
 When the metadata for your virtual entity is configured, your plugins are registered using the PRT and the correct configuration data is set in the **EntityDataProvider** and **EntityDataSource** entities, your virtual entity will start to respond to requests.

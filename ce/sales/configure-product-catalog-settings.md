@@ -2,7 +2,7 @@
 title: Configure product catalog settings
 description: Configure settings to change seller experience when selecting products from catalog.
 ms.date: 10/28/2024
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -14,14 +14,6 @@ ms.custom:
 # Configure product catalog settings
 
 Configure the settings to change the seller experience while selecting products from the catalog.
-
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## Configure the settings
 

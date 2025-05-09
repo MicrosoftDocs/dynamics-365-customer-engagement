@@ -3,7 +3,7 @@ title: Security roles for Connected Field Service
 description: Learn about security roles in Connected Field Service
 ms.date: 09/04/2024
 ms.subservice: connected-field-service
-ms.topic: conceptual
+ms.topic: article
 ms.author: vhorvath
 author: vhorvathms
 ---

@@ -5,7 +5,7 @@ ms.author: jacoh
 author: jasonccohen
 ms.subservice: field-service-mobile
 ms.date: 07/09/2024
-ms.topic: conceptual
+ms.topic: how-to
 ---
 
 # Send frontline workers a download link for the mobile app
@@ -24,7 +24,7 @@ Your organization's admin requires the **Approve Email Addresses for Users or Qu
 
 To manually assign the **Approve Email Addresses for Users or Queues** privilege to the **Security Role: System Admin**:
 
-1. In the [Power Platform admin Center](https://admin.powerplatform.com), select your organization's environment.
+1. In the [Power Platform admin Center](https://admin.powerplatform.microsoft.com), select your organization's environment.
 
 2. Select **Settings** > **Users + Permissions** > **Security roles**.
 
@@ -36,7 +36,7 @@ To manually assign the **Approve Email Addresses for Users or Queues** privilege
 
 ## Step 2: Approve mailboxes for system admins
 
-1. In the [Power Platform admin center](https://admin.powerplatform.com), select your organization's environment.
+1. In the [Power Platform admin center](https://admin.powerplatform.microsoft.com), select your organization's environment.
 
 2. Select **Settings** > **Email** > **Mailboxes**.
 

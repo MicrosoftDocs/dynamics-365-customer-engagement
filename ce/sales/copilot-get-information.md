@@ -1,7 +1,7 @@
 ---
 title: Get information from Copilot
 description: Learn how to use Copilot in Dynamics 365 Sales to get information about your pipeline, summarize leads and opportunities, and get the latest news about your accounts.
-ms.date: 12/05/2024
+ms.date: 04/30/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -9,9 +9,9 @@ ms.custom:
   - ai-gen-desc
   - ai-seo-date:10/04/2023
   - bap-template
-author: lavanyakr01
-ms.author: lavanyakr
-ms.reviewer: lavanyakr
+author: udaykirang
+ms.author: udag
+ms.reviewer: udag
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ---
@@ -30,33 +30,11 @@ Copilot can provide a list of open opportunities that are assigned to you, sorte
 
 1. Select **Get info** > **Show my pipeline**, and then press Enter.
 
-<a name="copilot-summarize-accounts"></a>
-
-## Summarize an account
-
-> [!IMPORTANT]
-> Account summary is an early access feature and is available only if your administrator has [opted in to early access updates](/power-platform/admin/opt-in-early-access-updates).
-
-Open [Copilot in a side pane](use-sales-copilot.md#open-copilot-sidepane), and then open an account to have Copilot automatically summarize it for you.
-
-Alternatively, type **Summarize account /** from anywhere in the app or from the [Copilot full-screen view](use-sales-copilot.md#open-copilot-immersive) to ask Copilot to summarize a specific account.
-
-:::image type="content" source="media/copilot-account-summary.png" alt-text="Screenshot of a Copilot account summary in Dynamics 365 Sales.":::
-
-The account summary includes the following information, if the information is available in the account record:
-
-- **Basic information**: Annual revenue, number of employees, country/region, and parent account.
-- **Key information**: How long the account has been associated with your organization, its domain, the total value of closed opportunities, the most recently closed opportunity, the most recent activity, and other AI-generated information.  
-- **Leads, opportunities, and cases**: Open leads, opportunities, and cases that are associated with the account and that you have read access to. Up to 10 records are displayed in each section. Your organization must have the Dynamics 365 Customer Service app for cases to be displayed.
-    Select the section to view the details of the associated records. To summarize a specific lead, opportunity, or case, hover over the record and select **Summarize**.
-
-To drill down into the details of the account, select the suggested prompts that are displayed below the summary. If you have a LinkedIn Sales Navigator license, the **Find relevant Sales Navigator accounts** prompt is also suggested. [Would you like to view a summary of different fields?](copilot-get-information.md#would-you-like-to-view-a-summary-of-different-fields)
-
 <a name="copilot-summarize-opportunity"></a>
 
 ## Summarize an opportunity
 
-Open [Copilot in a side pane](use-sales-copilot.md#open-copilot-sidepane), and then open an opportunity to have Copilot automatically summarize it for you.
+Open [Copilot in a side pane](use-sales-copilot.md#chat-with-copilot-in-a-side-pane), and then open an opportunity to have Copilot automatically summarize it for you.
 
 Alternatively, type **Summarize opportunity /** from anywhere in the app or from the [Copilot full-screen view](use-sales-copilot.md#open-copilot-immersive) to ask Copilot to summarize a specific opportunity.
 
@@ -70,23 +48,31 @@ The opportunity summary includes the following information, if the information i
 - **Quote insights**: The number of quotes that are shared with the opportunity, along with the date of the most recent quote.
 - **Competitor insights**: The competitors that are associated with the opportunity, along with their strengths and weaknesses.
 
-Learn more about the default attributes that Copilot uses to generate summaries in Dynamics 365 Sales in [Default attributes used in Copilot summaries](understand-copilot-summaries.md#opportunity-summary). [Would you like to view a summary of different fields?](copilot-get-information.md#would-you-like-to-view-a-summary-of-different-fields)
+To summarize the opportunity, Copilot uses the information in the opportunity record and the associated records. To know which fields are required to generate the summary, see [Default attributes used in opportunity summaries](understand-copilot-summaries.md#opportunity-summary).
+
+[Would you like to view a summary of different fields?](copilot-get-information.md#would-you-like-to-view-a-summary-of-different-fields)
 
 ### View the opportunity summary widget
 
-By default, when you open an opportunity, the opportunity summary widget is displayed in the **Opportunity** form, above the **Up next** widget. The widget displays insights about the opportunity, similar to [the opportunity summary](#summarize-an-opportunity) that's displayed in the Copilot side pane or page.
+By default, when you open an opportunity, the opportunity summary widget is displayed above the **Up next** widget in the **Opportunity** form. It displays insights about the opportunity, similar to [the opportunity summary](#summarize-an-opportunity) that's displayed in the Copilot side pane or page.
 
 :::image type="content" source="media/copilot-opportunity-summary-widget.png" alt-text="Screenshot of the Copilot opportunity summary widget in the Opportunity form.":::
 
-If you don't see the opportunity summary widget in the **Opportunity** form, contact your administrator to [turn it on](copilot-configure-summary-fields.md#admin-opportunity-summary-widget).
+If the opportunity summary widget isn't displayed in the **Opportunity** form, contact your administrator, and ask them to [turn it on](copilot-configure-summary-fields.md#admin-opportunity-summary-widget).
 
-<a name="copilot-summarize-lead"></a>
+## Summarize a lead <a name="copilot-summarize-lead"></a>
 
-## Summarize a lead
+Open [Copilot in a side pane](use-sales-copilot.md#chat-with-copilot-in-a-side-pane), and then open a lead to have Copilot automatically summarize it for you.
 
-Open [Copilot in a side pane](use-sales-copilot.md#open-copilot-sidepane), and then open a lead to have Copilot automatically summarize it for you.
+Alternatively, type **Summarize lead /** from anywhere in the app or from the [Copilot full-screen view](use-sales-copilot.md#open-copilot-immersive) to ask Copilot to summarize a specific lead.  
 
-Alternatively, type **Summarize lead /** from anywhere in the app or from the [Copilot full-screen view](use-sales-copilot.md#open-copilot-immersive) to ask Copilot to summarize a specific lead. [Would you like to view a summary of different fields?](copilot-get-information.md#would-you-like-to-view-a-summary-of-different-fields)
+:::image type="content" source="media/copilot-lead-summary.png" alt-text="Screenshot of a Copilot lead summary in Dynamics 365 Sales.":::
+
+The lead summary includes the following information, if the information is available in the lead record:
+
+- **Basic information**: Rating, lead source, status reason, and parent account for lead.  
+- **Key information**: Follow-up on the latest activity, preferred method of contact, lead creation date, annual revenue, closed opportunities associated with the lead, parent account, primary contact of the parent account associated with the lead, and other AI-generated information.  
+- **Competitor insights**: The competitors that are associated with the lead, along with their strengths and weaknesses.  
 
 The lead summary is also available as an embedded experience after you qualify a lead. Learn more in [Qualify and convert a lead to opportunity](qualify-lead-convert-opportunity-sales.md#lead-summary).
 
@@ -100,7 +86,7 @@ Copilot can enrich your leads with information from Dynamics 365 Sales, LinkedIn
 
 After you select a lead, Copilot suggests other records that might be associated with the lead and from which it can glean more information.
 
-1. [Ask Copilot to summarize a lead](#summarize-a-lead).
+1. [Ask Copilot to summarize a lead](#summarize-a-lead-).
 
     If Copilot finds possible matching contact records based on the lead's email address, it lists them after the summary. Learn more in [How does Copilot match leads with contacts and can I customize the matching fields?](sales-copilot-faq.md#how-does-copilot-match-leads-with-contacts-and-can-i-customize-the-matching-fields).
 
@@ -114,9 +100,26 @@ After you select a lead, Copilot suggests other records that might be associated
 
 1. To update the lead record with the suggested values, select **Update all**.
 
-<a name="copilot-doc-summarization"></a>
+## Summarize an account <a name="copilot-summarize-accounts"></a>
 
-## Summarize proposals or sales documents
+Open [Copilot in a side pane](use-sales-copilot.md#open-copilot-sidepane), and then open an account to have Copilot automatically summarize it for you.
+
+Alternatively, type **Summarize account /** from anywhere in the app or from the [Copilot full-screen view](use-sales-copilot.md#open-copilot-immersive) to ask Copilot to summarize a specific account.
+
+:::image type="content" source="media/copilot-account-summary.png" alt-text="Screenshot of a Copilot account summary in Dynamics 365 Sales.":::
+
+The account summary includes the following information:
+
+- **Basic information**: Annual revenue, number of employees, country/region, and parent account.
+- **Key information**: How long the account has been associated with your organization, its domain, the total value of closed opportunities, the most recently closed opportunity, the most recent activity, and other AI-generated information.  
+- **Leads, opportunities, and cases**: Open leads, opportunities, and cases that are associated with the account and that you have read access to. Up to 10 records are displayed in each section. Your organization must have the Dynamics 365 Customer Service app for cases to be displayed.
+    Select the section to view the details of the associated records. To summarize a specific lead, opportunity, or case, hover over the record and select **Summarize**.
+
+To summarize the account, Copilot uses the information in the account record and the associated leads, opportunities, and cases. To know which fields are required to generate the summary, see [Default attributes used in account summaries](understand-copilot-summaries.md#account-summary).
+
+To drill down into the details of the account, select the suggested prompts that are displayed below the summary. If you have a LinkedIn Sales Navigator license, the **Find relevant Sales Navigator accounts** prompt is also suggested. [Would you like to view a summary of different fields?](copilot-get-information.md#would-you-like-to-view-a-summary-of-different-fields)
+
+## Summarize proposals or sales documents <a name="copilot-doc-summarization"></a>
 
 Your records might have sales documents, such as proposals and contracts, associated with them. Copilot can summarize the content of these documents to help you understand their key points. For example, you can ask Copilot to summarize a proposal document to understand the budget, authority (decision maker), need, and timeline (BANT) of the opportunity.
 
@@ -161,8 +164,10 @@ Keep in mind that the summary fields are set at the organization level. Make sur
 
 Copilot can get the latest news that features or mentions your accounts, curated by Bing. These news articles can be great conversation starters and help you understand the dynamics in your customers' organizations.
 
-> [!NOTE]
-> The latest news feature is available only if your administrator has [provided consent for Copilot to use Bing search](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features).
+The latest news feature is available only if the following conditions are met:  
+
+- Your admin has provided consent for Copilot to use Bing search. Learn more in [provide consent for Copilot to use Bing search](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features).  
+- You haven't turned off the Bing search. Learn more in [Turn off Bing search](use-sales-copilot.md#turn-off-bing-search)
 
 As always when you're working with AI-sourced content, read articles thoroughly to confirm they're from authentic sources and are indeed about your customer.
 

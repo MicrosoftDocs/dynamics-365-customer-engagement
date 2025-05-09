@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: sample
 ms.collection:
-ms.date: 04/19/2024
+ms.date: 05/02/2025
 ms.custom: bap-template
 search.audienceType:
   - developer

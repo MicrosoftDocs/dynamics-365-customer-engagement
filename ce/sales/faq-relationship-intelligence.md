@@ -1,8 +1,8 @@
 ---
 title: Relationship intelligence FAQs
 description: Get answers to frequently asked questions about relationship analytics and health, and who knows whom.
-ms.date: 01/16/2025
-ms.topic: troubleshooting
+ms.date: 03/15/2024
+ms.topic: faq
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag

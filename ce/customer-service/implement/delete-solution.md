@@ -1,7 +1,7 @@
 ---
-title: Uninstall solutions in Omnichannel for Customer Service
-description: Perform the steps mentioned in this article to remove solutions in Omnichannel for Customer Service.
-ms.date: 09/30/2024
+title: Uninstall omnichannel solutions
+description: Perform the steps mentioned in this article to remove omnichannel solutions in Customer Service.
+ms.date: 05/05/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -10,9 +10,7 @@ ms.collection:
 ms.custom: bap-template
 ---
 
-# Uninstall solutions in Omnichannel for Customer Service
-
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+# Uninstall omnichannel solutions
 
 When you uninstall Omnichannel for Customer Service from your organization, the omnichannel solutions are not removed. If you want to remove omnichannel solutions from your organization, you must use the same order as mentioned in the following table.
 
@@ -20,10 +18,51 @@ When you uninstall Omnichannel for Customer Service from your organization, the 
 
 You must have removed [Omnichannel for Customer Service](/dynamics365/contact-center/implement/provision-channels#turn-off-channels).
 
-> [!IMPORTANT]
-> Some solutions are shared across apps, and you shouldn't remove them unless you intend to uninstall those apps too; skip those solutions if they are required.
->
-> For example, if you plan to remove omnichannel solutions from your organization, you must remember that the unified routing part of Omnichannel for Customer Service solutions might be used in unified routing for Customer Service. Therefore, you must ensure that you don't uninstall or delete the common solutions because it might affect the way unified routing works in Customer Service.
+## Considerations
+
+Some solutions are shared across apps, and you shouldn't remove them unless you intend to uninstall those apps too; skip those solutions if they are required.
+For example, if you plan to remove omnichannel solutions from your organization, you must remember that the unified routing part of Omnichannel for Customer Service solutions might be used in unified routing for Customer Service. Therefore, you must make sure that you don't uninstall or delete the common solutions because it might affect the way unified routing works in Customer Service.
+
+You must not remove the following out-of-the-box solutions that come preinstalled in your Customer Service organization.
+- msdyn_UnifiedRoutingForEntity
+- UnifiedRouting
+  - MLDecisionEngine
+  - msdyn_OmnichannelSharedBase
+  - msdyn_OmnichannelBase
+  - msdyn_OmnichannelBaseApp
+  - msdyn_D365CTQMIProd
+  - msdyn_D365CTQMITest
+  - msdyn_D365CTQMIGCC
+  - OCBaseURBase
+  - AgentAvailabilityStatus
+  - AgentGroupManager
+  - AssignmentSQLCacheSyncPluginManager
+  - msdyn_OmnichannelSBR
+  - msdyn_OmnichannelSBRPatch
+  - OCISBR
+  - OCIER
+  - OCSR
+  - OOBLanguageAndRegion
+  - msdyn_CCASentimentRoutingAI
+  - msdyn_ConversationInsight
+  - msdyn_ProductivityMacrosApplicationOC
+  - msdyn_ContactCenterManagementPermissions__Public
+  - msdyn_OmnichannelBotEnabler
+  - msdyn_OmnichannelBotExtension
+  - msdyn_OmnichannelConversationExtension
+  - msdyn_OmnichannelPrime
+  - msdyn_OmnichannelComponentDeprecation
+  - msdyn_OmnichannelPrimeAnchor
+  - msdyn_OmnichannelAutomatedMessages
+  - msdyn_OmnichannelChatConfiguration
+  - msdyn_OmnichannelSpamConfig
+  - msdyn_OmnichannelRichmessages
+  - msdyn_OmnichannelPaymentConfig
+  - msdyn_OmnichannelAuthenticationConfig
+  - msdyn_OmnichannelBotChannelConfiguration
+  - msdyn_OmnichannelMessaging
+  - msdyn_ContactCenterEnablementPermissions__Public
+  - msdyn_ContactCenterEnablement
 
 ## Uninstall solutions
 
@@ -74,7 +113,7 @@ You must have removed [Omnichannel for Customer Service](/dynamics365/contact-ce
 
 ## Uninstall Omnichannel historical analytics solutions
 
-1. Disable Omnichannel historical analytics in the Insights section of Customer Service admin center. More information: [Configure Omnichannel historical analytics reports](/dynamics365/customer-service/oc-historical-analytics-reports)
+1. Disable Omnichannel historical analytics in the Insights section of Customer Service admin center. Learn more in [Configure Omnichannel historical analytics reports](/dynamics365/customer-service/oc-historical-analytics-reports).
 
 2. On the **Solutions** page, select and uninstall the following solutions, one at a time, in the following order:
    1. `msdyn_InsightsAnalyticsOCConfiguration`
@@ -118,7 +157,7 @@ Do the following steps to remove the Customer Service Hub solution from your org
 ### Related information
 
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)  
-[Omnichannel for Customer Service on Unified Service Desk](../../unified-service-desk/oc-usd/omnichannel-customer-service-unified-service-desk.md)  
+[Provision channels in the admin app](/dynamics365/contact-center/implement/provision-channels)  
 [Deploy Unified Service Desk - Omnichannel for Customer Service package](../../unified-service-desk/oc-usd/omnichannel-customer-service-package.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Manage access and record types for sales accelerator
 description: Manage security roles, sample data, and record types for the Dynamics 365 sales accelerator.
 ms.date: 06/17/2024
-ms.topic: article
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -11,13 +11,6 @@ ms.reviewer: udag
 # Manage access and record types
 
 Choose who can use the workspace and which record types should appear in the sales accelerator.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|------------------|---------------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/sales/relationship-sales/)<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sequence Manager<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
 
 ## Configure security roles, sample data, and record types
 

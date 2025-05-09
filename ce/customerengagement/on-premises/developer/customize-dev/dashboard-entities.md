@@ -24,9 +24,9 @@ The dashboard entities enable you to simultaneously present data from up to six 
  ![Dashboard entity model.](../media/dashboard-entity-model.gif "Dashboard entity model")  
   
 ## In This Section  
- [SystemForm Entity](../entities/systemform.md)  
+ [SystemForm Entity](/power-apps/developer/data-platform/reference/entities/systemform)  
   
- [UserForm Entity](../entities/userform.md)
+ [UserForm Entity](/power-apps/developer/data-platform/reference/entities/userform)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

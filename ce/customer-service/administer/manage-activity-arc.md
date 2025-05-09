@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to
 ms.collection:
-ms.date: 01/24/2024
+ms.date: 05/05/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -24,7 +24,7 @@ You can review and track the health of the automatic record creation rules and r
 > - The activity monitor tracks the rules until they're evaluated in Customer Service only and before the rule runs in Power Automate.
 
 
-In Customer Service admin center, **Customer support** > **Overview** > **Case settings** displays the number of activity monitor events that ran in the past week along with their status. You can use either the **Activity monitor events for last 7 days** or **All activity monitor events** to view the activity monitor details.
+In Copilot Service admin center, **Customer support** > **Overview** > **Case settings** displays the number of activity monitor events that ran in the past week along with their status. You can use either the **Activity monitor events for last 7 days** or **All activity monitor events** to view the activity monitor details.
 
 1. Navigate to the views as follows:<br>
     - Select **Activity monitor events(past 7 days)** on Customer support overview to view the activity events for the last 7 days on the **Activity monitor events for last 7 days** page.
@@ -49,6 +49,9 @@ In Customer Service admin center, **Customer support** > **Overview** > **Case s
    - Ready for Power Automate / workflow
    - Failed
    - Skipped
+
+> [!NOTE]
+> To reprocess queue items that didn't succeed, go to **All Activities**. Select the activity you want to run, select **Add To Queue**, and then specify the queue that you want to add the selected record to.
 
 ## Related information
 

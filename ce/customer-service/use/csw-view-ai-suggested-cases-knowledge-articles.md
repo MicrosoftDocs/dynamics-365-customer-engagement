@@ -1,8 +1,8 @@
 ---
 title: View AI suggested similar cases, knowledge articles
 description: How to use AI suggested cases and knowledge articles in Dynamics 365 Customer Service.
-ms.date: 11/28/2024
-ms.topic: article
+ms.date: 04/30/2025
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -24,7 +24,7 @@ searchScope:
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability.md)]
 
-When you open an active case, you can view suggestions about knowledge articles  and similar cases that were previously resolved successfully. With the use of AI, these features help you find the right solutions and provide better and faster service to customers. To understand how AI-suggestions work, see [How AI suggestions for similar cases and knowledge articles work](../administer/csw-enable-ai-suggested-cases-knowledge-articles.md#how-ai-suggestions-for-similar-cases-and-knowledge-articles-work).
+When you open an active case, you can view suggestions about knowledge articles and similar cases that were previously resolved successfully. With the use of AI, these features help you find the right solutions and provide better and faster service to customers. To understand how AI-suggestions work, see [How AI suggestions for similar cases and knowledge articles work](../administer/csw-enable-ai-suggested-cases-knowledge-articles.md#how-ai-suggestions-for-similar-cases-and-knowledge-articles-work).
 
 The AI suggestions are displayed in smart assist, an intelligent assistant that provides real-time recommendations to you, helping you take actions on active cases or during your interactions with customers in ongoing conversations. If similar cases and knowledge articles aren't displayed, your Administrator would've disabled the AI-suggestions for similar cases and knowledge articles features.
 
@@ -34,7 +34,7 @@ The AI suggestions are displayed in smart assist, an intelligent assistant that 
 ## Prerequisites
 
 - AI-suggestions for similar cases and knowledge articles should be enabled. This feature is enabled out of the box.
-- Smart assist feature must be enabled by your administrator. More information: [Smart assist in Customer Service Workspace](csw-productivity-pane.md#smart-assist)
+- Smart assist feature must be enabled by your administrator. Learn more in [Smart assist in Copilot Service Workspace](csw-productivity-pane.md#smart-assist)
 - The Productivity tools user role must be assigned to you.
 
 ## Understand the knowledge article components in smart assist
@@ -84,9 +84,9 @@ If no cases match, then the card displays an appropriate message, such as "No su
 
 Perform the following steps to view the similar cases and related articles for the case you are working on. The actions that you can perform with the options available in the suggestions are determined by the role assigned to you.
 
-1. In Dynamics 365, select Customer Service Workspace. The **Customer Service Agent Dashboard** page appears.
+1. In Dynamics 365, select Copilot Service Workspace. The **Customer Service Representative Dashboard** page appears.
 
-   > ![Customer Service Workspace agent dashboard.](../media/csw-agent-dashboard.png "Customer Service Workspace agent dashboard")
+   :::image type="content" source="../media/copilot-service-workspace-representative-dashboard.png" alt-text="A screenshot of the Copilot Service workspace representative dashboard." lightbox="../media/copilot-service-workspace-representative-dashboard.png"::: 
 
 2. In the **My Active Cases** list, select shift+mouse click the case you want to work on. The case opens in a session tab, and the **Smart assist** pane appears on the right. The Smart assist pane lists the top three knowledge articles and five similar cases suggested by AI based on the case context.
 

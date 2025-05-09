@@ -2,7 +2,7 @@
 title: "Use Unified Service Desk configuration to manage access | MicrosoftDocs"
 description: "Learn how to create configurations to manage agent access to components without having to manage their security roles."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

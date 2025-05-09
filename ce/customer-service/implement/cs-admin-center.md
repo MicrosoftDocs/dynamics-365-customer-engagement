@@ -2,7 +2,7 @@
 title: Customer Service admin center
 description: Get started with Customer Service admin center to configure the various features and settings in Customer Service.
 ms.date: 12/13/2024
-ms.topic: conceptual
+ms.topic: landing-page
 ms.collection: get-started
 author: neeranelli
 ms.author: nenellim
@@ -10,11 +10,11 @@ ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
-# Get started with Customer Service admin center
+# Get started with Copilot Service admin center
 
-Welcome to Customer Service admin center, the app that unifies and simplifies administration experience across the Customer Service suite.
+Welcome to Copilot Service admin center, the app that unifies and simplifies administration experience across the Customer Service suite.
 
-Use the Customer Service admin center app to set up the features in Customer Service, such as unified routing, cases, queues, knowledge articles, channels, rules for automatic record creation, agent experience profiles, and customer service schedules.
+Use the Copilot Service admin center app to set up the features in Customer Service, such as unified routing, cases, queues, knowledge articles, channels, rules for automatic record creation, agent experience profiles, and customer service schedules.
 
 The features include:  
 
@@ -54,7 +54,7 @@ More information: [Assign roles and enable users for Omnichannel for Customer Se
 
 ## Access the app
 
-The app is automatically installed in all the Customer Service organizations. You can sign in to Dynamics 365, and on the apps page, select Customer Service admin center.
+The app is automatically installed in all the Customer Service organizations. You can sign in to Dynamics 365, and on the apps page, select Copilot Service admin center.
 
 ## Create your contact center
 
@@ -74,7 +74,7 @@ You can use the guided channel setup wizard to configure channels, such as a cha
 > [!IMPORTANT]
 > To successfully create a guided setup for each channel, you must have full privileges to all the tables used in the setup.
 
-## Navigate the site map in Customer Service admin center
+## Navigate the site map in Copilot Service admin center
 
 The Customer Service features are organized in the site map as follows. Every group contains an overview page with deep links to the features within the area.
 
@@ -93,15 +93,15 @@ You can manage the following features in **Customer support**:
 - **Case settings**: Subjects, automatic record creation rules, advanced similarity rules, parent-child case settings, and case resolution dialog.
 - **Customer settings**: Blocked numbers, authentication settings, geo location, phone music, outbound messaging and automate messages.
 
-  :::image type="content" source="../media/customer-support-overview.png" alt-text="Overview page of Customer support in Customer Service admin center.":::
+  :::image type="content" source="../media/customer-support-overview.png" alt-text="Overview page of Customer support in Copilot Service admin center.":::
 
-You can manage the following features in **Agent experience**:
+You can manage the following features in **Support experience**:
   
 - **Workspaces**: Agent experience profiles, templates, and third-party voice channel provider.
 - **Productivity**: Transcripts, outbound profiles, templates for emails and messages, macros, and custom presence.
 - **Knowledge**: Record types for which knowledge management needs to be enabled, filters, external portal, article templates, and search providers.
 
-  :::image type="content" source="../media/agent-experience-overview.png" alt-text="Overview page of Agent experience in Customer Service admin center.":::
+  :::image type="content" source="../media/agent-experience-overview.png" alt-text="Overview page of Support experience in Copilot Service admin center.":::
 
 You can manage the following features in **Operations**:
 
@@ -111,7 +111,7 @@ You can manage the following features in **Operations**:
 - **Service scheduling**: Organizational units, facilities and equipment, resources, service scheduling, business closure, fulfillment preferences, and resource categories.
 - **Miscellaneous**: Analysis jobs, migration tool, and IoT settings.
 
-  :::image type="content" source="../media/operations-overview.png" alt-text="Overview page of operations in Customer Service admin center.":::
+  :::image type="content" source="../media/operations-overview.png" alt-text="Overview page of operations in Copilot Service admin center.":::
 
 ## Search admin settings
 
@@ -121,7 +121,7 @@ Use the search option on the **Search admin settings** page to quickly list the 
 
 ### FAQ
 
-See the [FAQ about Customer Service admin center](../administer/faq-customer-service-admin-center.md) for any questions that you might have.
+See the [FAQ about Copilot Service admin center](../administer/faq-customer-service-admin-center.md) for any questions that you might have.
 
 ### Related information
 

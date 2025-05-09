@@ -1,7 +1,7 @@
 ---
 title: Block spam numbers in the voice channel
 description: Learn how to review, mark numbers as spam, and block the numbers in Omnichannel for Customer Service.
-ms.date: 12/14/2024
+ms.date: 05/05/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -21,7 +21,7 @@ You can block spam phone calls that your customer service representatives (servi
 
 ## Review phone numbers marked as spam
 
-You can review phone numbers marked as spam in the Customer Service admin center or Contact Center admin center app.
+You can review phone numbers marked as spam in the Copilot Service admin center app.
 
 1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
 1. In the **Blocked numbers** section, select **Manage**. The **Blocked numbers** page is displayed.

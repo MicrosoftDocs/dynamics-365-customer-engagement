@@ -2,7 +2,7 @@
 title: "CCA Hosted Application (Hosted Control) | MicrosoftDocs"
 description: "Learn about the Customer Care Accelerator (CCA) Hosted Application hosted control type and how you can create the hosted control in Unified Service Desk."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

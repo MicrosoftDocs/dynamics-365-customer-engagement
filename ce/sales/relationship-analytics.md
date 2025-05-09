@@ -1,7 +1,7 @@
 ---
 title: View relationship analytics and KPIs
 description: Learn how to use relationship analytics in Dynamics 365 Sales to gauge the health of your customer relationships through KPIs such as frequency and recency of communications, response time, and so on.
-ms.date: 07/25/2024
+ms.date: 04/16/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -15,13 +15,6 @@ Relationship analytics uses the activity history of a seller with a contact or a
 
 Depending on your Dynamics 365 Sales license and configuration, you'll see [basic insights](relationship-analytics-overview.md#basic-relationship-insights) or [enhanced insights](relationship-analytics-overview.md#enhanced-relationship-insights). Basic insights are available for early access.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
 ## View analytics and KPIs for an individual lead, account, contact, or opportunity
 
 [!INCLUDE [Lightbox tip](~/../shared-content/shared/lightbox-tip.md)]
@@ -29,7 +22,7 @@ Depending on your Dynamics 365 Sales license and configuration, you'll see [basi
 The following steps describe how to view the analytics for a lead. The steps to view relationship analytics for account, contact, and opportunity records are similar.
 
 1. In the Sales Hub app, select **Leads**, and then open a lead.
-1. Select the **Sales Insights** form.
+1. Select the **Sales Insights** form. For the contact records, select the **AI for Sales** form. 
 
     :::image type="content" source="media/sales-insights-form.png" alt-text="Screenshot of selecting the Sales Insights form.":::
 
@@ -86,26 +79,23 @@ The relationship pipeline chart relies on several values being available for eac
 - Opportunities without an estimated close date aren't shown.
 - Opportunities without an estimated revenue value show a value of zero. They're plotted as small bubbles.
 
-## Compare the KPIs of an opportunity with similar opportunities
+## Compare the KPIs of an opportunity with similar won opportunities
 
-As a seller, it's important to understand what's working better for a deal and learn about the best engagement practices from similar deals that were won in the past. The enhanced relationship analytics displays a comparison of the KPIs, activity history, and relationship health of the current opportunity with similar won deals, and lists similar won deals at the bottom. By opening the deals, you can learn what worked and what didn't and apply what you learn in the deal you're trying to close. Your administrator must [set up enhanced relationship analytics](configure-relationship-analytics.md).
+As a seller, it's important to understand what's working better for a deal and learn about the best engagement practices from similar deals that were won in the past. 
+
+The enhanced relationship analytics displays a comparison of the KPIs, activity history, and relationship health of the current opportunity with similar deals that were won in the past two years. By opening the deals, you can learn what worked and what didn't and apply what you learn in the deal you're trying to close. Your administrator must [set up enhanced relationship analytics](configure-relationship-analytics.md).
 
 1. In the Sales Hub app, select **Opportunities**, and then open an opportunity.
-1. In the list, select the **Sales Insights** form.
-
-    :::image type="content" source="media/sales-insights-form.png" alt-text="Screenshot of selecting the Sales Insights form.":::
-
+1. In the views list, select the **Sales Insights** form.
 1. Select the **Relationship Analytics** tab.
 
-    :::image type="content" source="media/relationship-analytics-tab-large.png" alt-text="Screenshot of relationship analytics for an opportunity.":::
-
-If relationship analytics can't detect opportunities that are similar to the current opportunity, it shows KPIs of the top 100 won opportunities. [Learn more about enhanced relationship insights](relationship-analytics-overview.md#enhanced-relationship-insights).
+If relationship analytics can't detect opportunities that are similar to the current opportunity, it shows KPIs of the top 100 won opportunities. 
 
 The following screenshot shows enhanced relationship analytics for an opportunity:
 
 :::image type="content" source="media/relationship-analytics-tab-advanced.png" alt-text="Screenshot of the Relationship analytics home page.":::
 
-For more information about the legends in the screenshot, see [Enhanced relationship insights](relationship-analytics-overview.md#enhanced-relationship-insights).
+[Learn more about each insights in Enhanced relationship insights](relationship-analytics-overview.md#enhanced-relationship-insights).
 
 ## Related information
 

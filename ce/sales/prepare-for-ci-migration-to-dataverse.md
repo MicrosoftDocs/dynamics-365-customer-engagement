@@ -4,7 +4,7 @@ description: Learn how to prepare your organization to store conversation intell
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.topic: conceptual 
+ms.topic: concept-article 
 ms.collection: 
 ms.date: 01/16/2024
 ms.custom: 

@@ -1,8 +1,8 @@
 ---
 title: Overview of knowledge management
 description: Learn about knowledge management in Dynamics 365 Customer Service.
-ms.date: 06/28/2024
-ms.topic: article
+ms.date: 04/22/2025
+ms.topic: overview
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -16,13 +16,14 @@ ms.custom:
 
 # Overview of knowledge management
 
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
 
 Knowledge management plays a vital role in delivering world-class customer care. With knowledge management, team members in an organization can author, categorize, deliver, analyze, and share information through a knowledge base.
 
 ## Benefits of knowledge management
 
-- Primary service providers, such as customer service representatives (representatives), can look up information in a knowledge base to resolve customer queries right away, and increase their productivity.
+- Primary service providers, such as service representatives, can look up information in a knowledge base to resolve customer queries right away, and increase their productivity.
 - With access to rich, high-quality knowledge resources across consistent and contextual Omnichannel experiences, representatives can resolve issues faster and reduce their average call handling time.
 - Customers can use knowledge management search capabilities across channels to resolve issues for themselves. The results are fewer support tickets and higher customer satisfaction.
 
@@ -66,11 +67,11 @@ As an **administrator**, you can create hierarchical, categorical data to help g
 
 #### Search knowledge articles through different channels
 
-As a **representative**, you can use either smart assist or the **Knowledge search** pane to search articles in Customer Service workspace. Smart assist suggests knowledge articles that are related to your case and that can help you quickly resolve customer issues. Fore more information about the **Knowledge search** pane, go to, [Search knowledge articles](../csw-search-knowledge-articles.md).
+As a **representative**, you can use either smart assist or the **Knowledge search** pane to search articles in Copilot Service workspace. Smart assist suggests knowledge articles that are related to your case and that can help you quickly resolve customer issues. Fore more information about the **Knowledge search** pane, go to, [Search knowledge articles](../csw-search-knowledge-articles.md).
 
 As a **customizer**, you can set up the knowledge base search control on a standard or custom form to help users in your organization easily find knowledge articles. More information: [Add the Knowledge Base Search control to forms](../administer/add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-forms)
 
-As an **administrator**, you can configure how the knowledge base search control appears for your entities in the app side pane of Customer Service workspace and Omnichannel for Customer Service. By configuring a record type, you can specify the information that is shown to your representatives while they interact with customers. More information: [Configure knowledge search control on app side pane for an entity record](../administer/configure-knowledge-search-control-productivity-pane.md#configure-knowledge-search-control-on-app-side-pane-for-an-entity-record)
+As an **administrator**, you can configure how the knowledge base search control appears for your entities in the app side pane of Copilot Service workspace and Omnichannel for Customer Service. By configuring a record type, you can specify the information that is shown to your representatives while they interact with customers. More information: [Configure knowledge search control on app side pane for an entity record](../administer/configure-knowledge-search-control-productivity-pane.md#configure-knowledge-search-control-on-app-side-pane-for-an-entity-record)
 
 #### Search multiple knowledge providers
 
@@ -87,11 +88,11 @@ As an **administrator**, you can:
 
 #### Search the knowledge base on portals
 
-When a portal includes a knowledge base, it becomes a customer self-service portal. As a user in any role, you can then access and search for knowledge articles through simple queries. This setup helps you resolve issues and makes information easily accessible. To search for your knowledge articles, select **Knowledge Base** in your portal. More information: [Search the knowledge base on portals](knowledge-base-search-methods.md#search-the-knowledge-base-on-portals)
+When a portal includes a knowledge base, it becomes a customer self-service portal. As a user in any role, you can then access and search for knowledge articles through simple queries. This setup helps you resolve issues and makes information easily accessible. To search for your knowledge articles, select **Knowledge Base** in your portal. Learn more in [Search the knowledge base on portals](knowledge-base-search-methods.md#search-the-knowledge-base-on-portals).
 
-#### Integrate knowledge management with a Copilot Studio bot
+#### Integrate knowledge management with a Copilot agent
 
-As an **administrator**, you can integrate a Copilot Studio bot with knowledge management to make it easier to use customized conversations in your bot. The bot can then answer simple questions, perform simple actions, and resolve simple issues. Therefore, your representatives have more time to focus on complex issues that require human intervention. More information: [Integrate knowledge management in Dynamics 365 with Copilot Studio bots](../administer/integrate-KM-with-PVA.md)
+As an **administrator**, you can integrate a Copilot agent with knowledge management to make it easier to use customized conversations in your AI agent. It can then answer simple questions, perform simple actions, and resolve simple issues. Therefore, your representatives have more time to focus on complex issues that require human intervention. Learn more in [Integrate knowledge management in Dynamics 365 with Copilot agents](../administer/integrate-KM-with-PVA.md).
 
 ### Analyze and report
 

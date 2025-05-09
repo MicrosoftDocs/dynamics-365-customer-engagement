@@ -2,7 +2,7 @@
 title: Topics dashboard
 description: Learn about the Topics dashboard insights to better understand agent performance in your organization.
 ms.date: 11/28/2024
-ms.topic: conceptual
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -53,7 +53,7 @@ The **Key insights discovered** card has three areas:
 
 ## Report details
 
-The key performance indicators (KPIs) summary charts summarize the KPIs for the specified time period and the percentage of change over the period. You can filter these areas by duration, channel, queue, and agent.
+The key performance indicators (KPIs) summary charts summarize the KPIs for the specified time period and the percentage of change over the period. You can filter these areas by duration, channel, queue, and customer service representative (service representative or representative).
 
 The topics dashboard report shows the following KPIs.
 
@@ -62,7 +62,7 @@ The topics dashboard report shows the following KPIs.
 | Incoming cases   |  The number of cases created to support customers.     |
 | Active cases  |  The number of cases that are currently open.      |
 | Escalated rate   | The percentage of cases that have been escalated.     |
-| Avg. resolve time (hrs)   | The average time an agent took to resolve the case.   |
+| Avg. resolve time (hrs)   | The average time a representative took to resolve the case.   |
 | SLA compliance | The percentage of cases that met the defined SLA.|
 | Average CSAT    | The average customer satisfaction score, based on written feedback submitted by the customer in the Customer Voice survey.   |
 

@@ -16,13 +16,6 @@ The duplicate lead detection feature in Dynamics 365 Sales helps detect duplicat
 > [!NOTE]
 > This customization can be applied only to main forms of the `Lead` table in the custom app.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/sales/relationship-sales/)<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
-
 ## Add an OnLoad event handler to the custom form
 
 Add an event handler to the `OnLoad` event of the main lead form to enable duplicate detection on the form.

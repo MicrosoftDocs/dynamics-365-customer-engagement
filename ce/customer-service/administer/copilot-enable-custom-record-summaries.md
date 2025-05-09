@@ -5,7 +5,7 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: lalexms
 ms.topic: how-to 
-ms.date: 01/07/2025
+ms.date: 01/27/2025
 ms.custom: bap-template 
 ---
 
@@ -24,21 +24,12 @@ You can customize to:
 
 ## Configure the custom record summary
 
-1. On the site map in Customer Service admin center, select **Productivity** > **Summaries**.
-1. In the **Custom record summaries** section, select **Add new summary**. 
-1. In the **Specify record type** pane, specify the **Summary name**, **Record type** for which you want to generate the summary, record type description and then select **Next**.  
-1. On the **Specify data** page, select **Add data** to add data from records or activities. Specify the following information:
-   1. **Data type**: Select **1-to-1** to map with the record or **1-to-many** to map relationships for related activities or entities. For the **1-to-1** attribute, you can have a maximum of 10 selections. For the **1-to-many** attribute, you can have a maximum of six selections and up to three related entities.
-   1. **Record type or activity**: Select the record type or activity.
-   1. **Data field**: Select the data field from the record type or activity.
-   1. Repeat the steps to add more rows. By default, the rows you add are considered for summarization.<br>
-   Clear the **Include** checkbox for rows you don’t want to be considered from the data summarization. Include only the essential rows to ensure the most succinct summaries.
-1. Select **Save and close**.
-1. Copy the **Developer summary ID** to use in the next section.
+1. Perform the steps in [Manage case and custom record summary](copilot-map-custom-fields.md) to configure the custom record summary record.
+1. Copy the **Developer summary ID** to use in the Configure the summary control on entity forms section.
 
 ### Example 
 
-For example, you want to generate an account summary with account name, account description, primary contact's full name and email, emails exchanged with the account, case number, case description, and notes. The **Specify data** page displays the rows for the configuration.
+For example, you want to generate an account summary with account name, account description, primary contact's full name and email, emails exchanged with the account, case number, case description, and notes. The **Specify data** page displays the rows you must configure for the customization.
 
 :::image type="content" source="../media/copilot-custom-summary.png" alt-text="screenshot for admin experience for custom records.":::
 
@@ -52,11 +43,11 @@ For example, if you want to display the account summary in Customer Service work
 1. Select **Forms** > **Account for multisession experience**.
 1. Select **Component** > **Copilot case summary control**, and then specify the appropriate values in **Table column** fields for **Case Summary** and **Incident ID**.
 
-   :::image type="content" source="../media/powerapps-custom-control.png" alt-text="Screenshot for Microsoft Power Apps components.":::
+     :::image type="content" source="../media/powerapps-custom-control.png" alt-text="Screenshot for Microsoft Power Apps components.":::
 
 1. Configure the settings to make sure that the summary doesn't load on the form when the customer record summary feature is disabled. Learn more in [Display case summary only when enabled](copilot-powerapps-settings.md#display-case-summary-only-when-enabled).
   
-  :::image type="content" source="../media/copilot-powerapps-load-mini.png" alt-text="load and unload summary card on the form." lightbox="../media/copilot-powerapps-load.png":::
+    :::image type="content" source="../media/copilot-powerapps-load-mini.png" alt-text="load and unload summary card on the form." lightbox="../media/copilot-powerapps-load.png":::
 
 
 ## Runtime experience
@@ -66,6 +57,8 @@ The custom summary appears as a card on the relevant form. When service represen
 For the configuration in the [example](#example) section, when a service representative opens an account record, the account summary card displays the summary for the attributes that you selected.
 
 :::image type="content" source="../media/custom-copilot-account.png" alt-text="Screenshot for account summary.":::
+
+If Copilot related record summary is enabled, the custom summary card displays the related record summaries  at the top with the primary record summary. Learn more in [View related record summaries](../use/copilot-use-summary.md#view-related-record-summaries).
 
 ### Related information
 

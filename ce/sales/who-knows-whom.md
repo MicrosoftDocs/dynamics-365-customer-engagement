@@ -1,7 +1,7 @@
 ---
 title: Who knows whom in Dynamics 365 Sales
 description: Learn how to use the who knows whom feature in Dynamics 365 Sales to quickly identify colleagues who can introduce you to a lead or contact.
-ms.date: 07/25/2024
+ms.date: 02/27/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -15,13 +15,6 @@ ms.custom:
 # Use who knows whom to connect with leads and contacts  
 
 The who knows whom feature in Dynamics 365 Sales helps you to quickly identify colleagues who can introduce you to a lead or contact.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
 ## What is who knows whom?
 
@@ -37,9 +30,10 @@ For Sales Enterprise users, the who knows whom information is populated based on
 
 For Sales Premium users, the information is populated based on Exchange data, provided your administrator has [configured the server-side synchronization](configure-email.md). 
 
-## View who knows whom  
+> [!NOTE]
+> Native integration with Exchange Online is being deprecated in phases. Refer to the [train schedule](/dynamics365/released-versions/dynamics365sales#latest-version-availability) for version 9.0.25032.10001 to know when the feature will be deprecated in your region. If you want to use Exchange data for enhanced insights, [set up server-side synchronization for Exchange](configure-email.md). Otherwise, insights are generated only using emails and data stored in Dynamics 365.
 
-[!INCLUDE [Lightbox tip](~/../shared-content/shared/lightbox-tip.md)]
+## View who knows whom  
 
 The **Who Knows Whom** widget shows up to five people in your organization who have communicated with a lead or contact through calls and emails. It also shows you how strong their connection is. The widget is available in the **Sales Insights** form and in the main **Contact** and **Lead** form.
 

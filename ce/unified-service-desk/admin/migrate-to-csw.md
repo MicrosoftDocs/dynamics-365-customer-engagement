@@ -1,8 +1,8 @@
 ---
 title: Migrate to Customer Service workspace
 description: Learn how to migrate from Dynamics 365 Unified Service Desk to Customer Service workspace.
-ms.date: 06/27/2024
-ms.topic: conceptual
+ms.date: 04/30/2025
+ms.topic: upgrade-and-migration-article
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -31,7 +31,7 @@ The **Unified Service Desk to Customer Service workspace Migration Playbook** he
 
 - **Chapter 3: Transition** explains how to build a successful transition plan.
 
-- **Chapter 4: Optimize** discusses how to monitor adoption of the new app, review the migration experience, plan for innovation and future growth, and addressd any gaps or issues.
+- **Chapter 4: Optimize** discusses how to monitor adoption of the new app, review the migration experience, plan for innovation and future growth, and addressed any gaps or issues.
 
 ## Download the migration playbook
 
@@ -42,4 +42,5 @@ The **Unified Service Desk to Customer Service workspace Migration Playbook** he
 
 ### See also
 
-[Get started with Customer Service workspace](../../customer-service/implement/csw-overview.md)  
+- [Get started with Customer Service workspace](../../customer-service/implement/csw-overview.md)
+- [Migrate from Unified Service Desk to Customer Service workspace](/dynamics365/guidance/resources/cs-usd-migration-guide)  

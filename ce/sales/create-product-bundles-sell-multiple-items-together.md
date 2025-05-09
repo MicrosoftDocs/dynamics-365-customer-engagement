@@ -20,13 +20,6 @@ searchScope:
 
 Encourage customers to buy more products instead of a single product by combining products in a bundle.
 
-## License and role requirements
-
-| Requirement type | You must have |  
-|------------------|---------------|
-| **License**      | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## What is a product bundle?
 
 A bundle is a collection of products that is sold as single unit. Product bundling is useful in cases like:

@@ -2,7 +2,7 @@
 title: Schedule a service activity | Microsoft Docs
 description: How to schedule a service activity in Unified Interface-based Scheduling Service for Dynamics 365 Customer Service.
 ms.date: 10/05/2020
-ms.topic: article
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan

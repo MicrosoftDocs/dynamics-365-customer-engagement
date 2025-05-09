@@ -2,7 +2,7 @@
 title: "View details of sequence and its connected records"
 description: "Use the sequence page to view the details of a sequence and its connected records in sales accelerator in Dynamics 365 Sales."
 ms.date: 01/03/2025
-ms.topic: article
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -10,12 +10,6 @@ ms.reviewer: udag
 # View details of a sequence and its connected records 
 
 You can view the details of a sequence and the records connected with it. 
-
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## To view details of a sequence and its connected records
    

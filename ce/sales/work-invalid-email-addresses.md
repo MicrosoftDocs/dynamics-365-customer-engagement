@@ -25,13 +25,6 @@ Email address validation looks for the following errors:
 - **Expired email addresses**: An email account that has expired and can no longer receive or send email.  
 - **Emails that bounce back**: An address that can't receive a message for any reason.  
 
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/sales/relationship-sales/)<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as Salesperson or Sales Manager<br>More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
 ## Prerequisite
 
 Ask your administrator to turn on email validation for your organization. More information: [Enable email validation](enable-email-validation.md)

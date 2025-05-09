@@ -1,7 +1,7 @@
 ---
 title: Try channels
 description: Learn how you can try channels in Customer Service to connect and engage with your customers in real time.
-ms.date: 10/09/2024
+ms.date: 04/14/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Channels, like Live Chat, voice, and SMS, are engagement channels that let your agents connect with customers in real time and provide quick personalized help.
+Channels, like Live Chat, voice, and SMS, are engagement channels that let your customer service representatives connect with customers in real time and provide quick personalized help.
 
 You can perform the following steps to try channels in Customer Service:
 
@@ -37,7 +37,8 @@ You must obtain one of the following subscriptions through the Microsoft 365 adm
 - For voice channel, make sure that trial is supported in the [cloud location](../administer/voice-channel-region-availability.md)
 
 > [!IMPORTANT]
-> If you don't have one of these subscriptions, or if you purchased your subscription somewhere other than Web Direct, then the option to try channels isn't be available in the Microsoft 365 admin center. In such cases, we recommend that you use the [Customer Service trial](https://dynamics.microsoft.com/customer-service/overview/).
+> - If you don't have one of these subscriptions, or if you purchased your subscription somewhere other than Web Direct, then the option to try channels isn't be available in the Microsoft 365 admin center. In such cases, we recommend that you use the [Customer Service trial](https://dynamics.microsoft.com/customer-service/overview/).
+> - 90-days trials obtained through Customer Digital Experiences won't have Omnichannel for Customer Service enabled. Use the 30-days free trial if you want to use Omnichannel for Customer Service. 
 
 For information about the Digital Messaging license, pricing, and prerequisites, see the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 

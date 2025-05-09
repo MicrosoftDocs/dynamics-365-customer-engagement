@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
-ms.date: 08/29/2024 
+ms.date: 04/30/2024 
 ms.custom: bap-template 
 ---
 
@@ -18,7 +18,7 @@ You can add the **Attachment Control** component to case forms so that customer 
 
 ## Upload and view attachments on case forms
 
-If you've enabled the enhanced full case form or added the **Attachment Control** component to other case forms, the following actions are applicable:
+If you enabled the enhanced full case form or added the **Attachment Control** component to other case forms, the following actions are applicable:
 
 - When representatives create a new case, and before the case is saved, they can upload attachments to the case. 
     
@@ -29,13 +29,13 @@ If you've enabled the enhanced full case form or added the **Attachment Control*
    :::image type="content" source="../media/case-enh-save-mini.png" alt-text="Enhanced quick case form edit" lightbox="../media/case-enh-save.png":::
 
 If representatives need to upload attachments, follow the steps in [Create or edit a security role to manage access](/power-platform/admin/security-roles-privileges#security-roles-and-the-new-modern-ui-preview) to
-grant permissions on the **Entity attachment** custom table to the applicable security role that's assigned to the representative. 
+grant permissions on the **Entity attachment** custom table to the applicable security role assigned to the representative. 
 
 ## View attachments on other entity forms
 
 When you add the **Attachment Control** component to other entity forms such as Account or Contact, representatives can only view and download attachments that are uploaded through notes or email. They can't upload attachments directly to other entity records. The following actions are applicable:
 
-- Representatives can only view attachments for an entity record that's saved. When representatives create a new entity record, before they save the record, attachments aren't displayed. The application displays the following message when representatives create a new entity record, and haven't saved the record.
+- Representatives can only view attachments for a saved entity record. When representatives create a new entity record, before they save the record, attachments aren't displayed. The application displays the following message when representatives create a new entity record, and the record isn't saved.
     
    :::image type="content" source="../media/new-entity-create-mini.png" alt-text=" create record for an entity form" lightbox="../media/new-entity-create.png":::
 
@@ -45,12 +45,12 @@ When you add the **Attachment Control** component to other entity forms such as 
 
 ## Customize forms with Attachment Control
 
-On the required form, add the **Attachment Control** component.  More information: [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form). If you add the component to a case form, the following properties are available for further customization:
+On the required form, add the **Attachment Control** component. Learn more in [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form). If you add the component to a case form, the following properties are available for further customization:
 
 
 |Property | Description | 
 |------ |----------|
-| Table Column | For case forms, set this field to **Pre Create Entity Attachments Id**, for representatives to be able to upload attachments to a new case, before they've saved it.<br> For other entity forms this field can be set to any column, as attachments can't be uploaded directly to an entity record. |
+| Table Column | For case forms, set this field to **Pre Create Entity Attachments Id**, for representatives to be able to upload attachments to a new case, before they saved it.<br> For other entity forms this field can be set to any column, as attachments can't be uploaded directly to an entity record. |
 | Show Control Title | Displays or hides the **Attachments** label, when a new case is created.|
 | Show attachments from Conversation | Set this value to **Yes** or **No** to display or hide the attachments that were shared through conversations such as live chat and asynchronous messaging conversations.|
 | Show attachments directly uploaded to entity |  Set this value to **Yes** or **No** to display or hide the attachments that were directly uploaded when the case was created.|  
@@ -60,5 +60,5 @@ On the required form, add the **Attachment Control** component.  More informatio
 ### Related information
 
 [Case management in multisession apps](../use/enh-casemgmt-csw.md)   
-[Get started with Customer Service workspace](../implement/csw-overview.md) 
+[Get started with Copilot Service workspace](../implement/csw-overview.md) 
 

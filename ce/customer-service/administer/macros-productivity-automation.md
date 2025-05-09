@@ -4,9 +4,9 @@ description: Learn about how to use productivity automation macros in Dynamics 3
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: conceptual 
+ms.topic: reference
 ms.collection: 
-ms.date: 07/29/2024
+ms.date: 05/07/2025
 ms.custom: bap-template 
 ---
 
@@ -25,6 +25,7 @@ ms.custom: bap-template
 - open email templates
 - auto fill form fields
 - set and retrieve variables and values in the session context
+- create a custom macro that allows integration with third-party web pages and applications
 
  You can use the productivity automation actions any number of times across different macros to automate and perform model-driven app operations.
 
@@ -126,8 +127,8 @@ Perform the following steps to create a macro that opens the task form and then 
     - **Entity logical name**: `task`
     - **Attribute Name**: subject
     - **Attribute Value**: Follow up task regarding `${anchor.ticketnumber}`
-    - **Attribute Name**: regrdingobjectid
-    - **Attribute Value**: `{{"id":"${anchor.incidentid}","name":"${anchor.title}","entitytype":"incident"}}`
+    - **Attribute Name**: regardingobjectid
+    - **Attribute Value**: `[{"id":"${anchor.incidentid}","name":"${anchor.title}","entitytype":"incident"}]`
 
 ### Example 2: Open a task form and populate form fields from a conversation
 
@@ -138,8 +139,8 @@ Perform the following steps to create a macro that opens the task form and then 
    - **Entity logical name**: `task`
    - **Attribute Name**: subject
    - **Attribute Value**: Follow up task regarding `${anchor.customerName}`
-   - **Attribute Name**: regrdingobjectid
-   - **Attribute Value**: `"${customerName}","entitytype":"${customerEntityName}"}}`
+   - **Attribute Name**: regardingobjectid
+   - **Attribute Value**: `[{ "id" : "${customerRecordId}", "name": "${customerName}","entitytype":"${customerEntityName}"}]`
 
 #### Update an existing record
 
@@ -196,6 +197,30 @@ Perform the following steps to create a macro that resolves a case. When agents 
 1. Add the **Refresh the tab** session action to refresh the tab with the following attributes:
     -**Tab ID**: Tab ID
 
+## Execute JavaScript
+
+This action is used to create a custom macro action that can seamlessly send and receive information from non-Microsoft web pages and applications from Customer Service. The action contains the following fields.
+
+   | Field | Description | 
+   |-----------------|-----------------------------|
+   | Web Resource Name |  Specify the JavaScript code that you want to run as a [web resource in Dataverse](/power-apps/maker/model-driven-apps/create-edit-web-resources). <br>This field is mandatory. |
+   | Custom Macro Function |  Specify the name of the function that you want to run. <br>This field is mandatory. |
+   | Attribute Name | Specify the attribute logical name you want to update.|
+   | Attribute Value | Specify the attribute value that's updated for the attribute. |
+
+### Example
+
+Perform the following steps to create a custom macro that makes an API call to a non-Microsoft application and then opens a new form to create a record with the response of the API call:
+
+1. Add the **Execute Javascript** action. The attributes are as follows: 
+   - **Web Resource Name**: Your JavaScript code saved as a webresource.
+   - **Custom Macro Function**: retriveSuggestion
+1. Add the **Open a new form to create a record** action that opens a new form to create a record. The following are the attributes:
+   - **Entity logical name**: `task`
+   - **Attribute Name**: subject
+   - **Attribute Value**: Generic Macro Action Output
+
+
 ## Open an email form with predefined template
 
 This action is used to open an email with a predefined template. The action contains the following fields.
@@ -219,11 +244,11 @@ Perform the following steps to create a macro that opens an email template of ca
    - **Email recipients**: `${anchor._customerid_value@OData.Community.Display.V1.FormattedValue}`
    - **Entity Logical Name**: `incident` 
 1. Add the **autofill form fields** action to populate the To and Regarding fields. The attributes are as follows: 
-     - **Entity logical name**: `Email`
+     - **Entity logical name**: `email`
      - **Attribute Name**: to
      - **Attribute Value**: `[{"id":"${anchor._customerid_value}","entitytype":"contact","name":"${anchor._customerid_value@OData.Community.Display.V1.FormattedValue}"}]`
      - **Attribute Name**: regardingobjectid
-     -  **Attribute Value**: `[{"id":"${anchor.incidentid}"},"name":"${anchor.title}","entitytype":"incident"}]`
+     -  **Attribute Value**: `[{"id":"${anchor.incidentid}","name":"${anchor.title}","entitytype":"incident"}]`
 
 ### Example 2: Open an email template from a conversation
 
@@ -234,11 +259,11 @@ Perform the following steps to create a macro that opens an email template of ca
    - **Email recipients**: `${customerName}`
    - **Entity Logical Name**: `${customerEntityName}` 
 1. Add the **autofill form fields** action to populate the To and Regarding fields. The attributes are as follows: 
-    - **Entity logical name**: `Email`
+    - **Entity logical name**: `email`
     - **Attribute Name**: to
     - **Attribute Value**: `[{"id":"${customerRecordId}", "entitytype":"contact","name":"${customerName}"}]`
     - **Attribute Name**: regardingobjectid
-    - **Attribute Value**: `[{"id":"${customerRecordId}"},"entitytype":"contact","name": "${customerName}"}]`|
+    - **Attribute Value**: `[{"id":"${customerRecordId}","entitytype":"contact","name": "${customerName}"}]`|
 
 ### Example 3: Open an email template with multiple recipients
 

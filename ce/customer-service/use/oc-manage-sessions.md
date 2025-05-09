@@ -1,8 +1,8 @@
 ---
 title: Manage sessions in the workspace app
 description: Learn how to start and manage sessions using the session panel in Customer Service workspace.
-ms.date: 12/13/2024
-ms.topic: article
+ms.date: 03/31/2025
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -67,6 +67,10 @@ If your organization has chosen persistent chat as the mode of conversation, you
 ## Close a session
 
 You can close any session manually by selecting the **X** button next to the session title. When you hover the cursor on a session, you'll see the **X** button, and if you select the button, a confirmation dialog is shown to you.
+
+> [!NOTE]
+> If your administrator has enabled disposition codes, you must specify at least one disposition code before you can close the session. 
+
 
 ## Mode of the session panel
 
