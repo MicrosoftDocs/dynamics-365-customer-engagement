@@ -62,7 +62,7 @@ Grant **User**-level permissions for *read*, *write*, *create*, *append*, *appen
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
 
-1. Go to **General Settings** > **Copilot** > **Agents**.
+1. Go to **General Settings** > **Copilot** > **Agents (preview)**.
 
    If the **Before you get started** section appears on the **Agents** page, it means that the required consents and capacity aren't configured. A tenant admin needs to complete the prerequisites before you can set up the agent.
 
