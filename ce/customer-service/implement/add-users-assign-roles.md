@@ -53,7 +53,7 @@ Perform the following steps to assign roles to users in the advanced settings ar
 
 5. In the **Manage security roles** dialog, select the security roles that you want to assign to the user, and then select **Save**.
 
-To view and manage users in Omnichannel for Customer Service, see [Manage users in Omnichannel for Customer Service](../administer/users-user-profiles.md).
+To manage users in Omnichannel for Customer Service, go to [Manage users in Omnichannel for Customer Service](../administer/users-user-profiles.md).
 
 ## Understand roles and their privileges
 
