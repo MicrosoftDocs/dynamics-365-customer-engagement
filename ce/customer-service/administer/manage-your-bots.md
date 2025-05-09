@@ -17,9 +17,9 @@ ms.custom: bap-template
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
-In Omnichannel for Customer Service, you can seamlessly add an AI agent and get it up and running within a few minutes while the integration is taken care of in the background.
+In your contact center, you can seamlessly add an AI agent and get it up and running within a few minutes while the integration is taken care of in the background.
 
-You can manage your agents in Copilot Studio on the **Bots** page.
+You can manage your Copilot agents on the **AI Agents** page.
 
 ## Prerequisites
 
@@ -27,13 +27,13 @@ Agents in Copilot Studio must be available in the tenant where Omnichannel for C
 
 ## Add an agent
 
-When you add an agent by using the steps outlined in this section, the agent in Copilot Studio is automatically registered in Azure and connected to Omnichannel for Customer Service. You'll then configure topics in Copilot Studio for the scenarios that you want the agent to handle.
+When you add an agent by using the steps outlined in this section, the Copilot agent is automatically registered in Azure and connected to Omnichannel for Customer Service. You'll then configure topics in Copilot Studio for the scenarios that you want the agent to handle.
 
 > [!NOTE]
 > Agents that you create in Copilot Service admin center work with enhanced voice workstreams only. To create classic agents for existing voice workstreams that aren't migrated, use Copilot Studio.
 
 1. In the site map of Copilot Service admin center, select **AI Agents** under **Customer support**.
-1. On the **Bots** page, select **Add**, and on the **Add a bot** page, select **Create new bot**, and then select **Next**.
+1. On the **AI Agents** page, select **Add**, and on the **Add a bot** page, select **Create new bot**, and then select **Next**.
 1. On the **Create a basic bot** page, enter a name for your agent and select the primary language that it must use, and then select **Create**. The agent is created and listed on the **Bots** page. 
 1. Optionally, you can also add an existing agent if it's already created in Copilot Studio. The **Connect existing bot** option lets you connect the agent. The agent is connected after a few minutes and listed on the **Bots** page. The voice-enabled agent that you connected works with the enhanced voice workstream only.
 > [!IMPORTANT]
@@ -41,7 +41,7 @@ When you add an agent by using the steps outlined in this section, the agent in 
 
 ## Manage your agents
 
-On the **Bots** page, you can review the agent details and also perform the following actions:
+On the **AI Agents** page, you can review the agent details and also perform the following actions:
 
 - Disconnect the agent.
 - Select the agent name. The Copilot Studio app opens on a new tab where you can configure topics and other settings for the agent.
