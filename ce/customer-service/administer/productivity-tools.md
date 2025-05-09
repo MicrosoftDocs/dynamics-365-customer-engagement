@@ -17,7 +17,7 @@ ms.custom: bap-template
 
 The Dynamics 365 Productivity Tools app provides capabilities that help users perform day-to-day operations in a fast, efficient, and process-compliant manner and deliver value to customers.
 
-The Dynamics 365 Productivity Tools app contains the following functionality to help with repetitive and monotonous tasks, such as greet customers and fill forms. The tool also helps with displaying AI-based suggestions for knowledge articles and similar cases to customer service representatives (service representatives or representatives), and thereby helps users perform day-to-day operations in a fast, efficient, and process-compliant manner.
+The Dynamics 365 Productivity Tools app contains the following functionality to help with repetitive and monotonous tasks, such as greet customers and fill forms. The tool also helps with displaying AI-based suggestions for knowledge articles and similar cases to service representatives, and thereby helps users perform day-to-day operations in a fast, efficient, and process-compliant manner.
 
 > [!NOTE]
 >
