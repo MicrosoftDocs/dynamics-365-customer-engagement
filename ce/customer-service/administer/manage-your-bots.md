@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 04/19/2025
+ms.date: 05/09/2025
 ms.custom: bap-template
 ---
 
@@ -14,10 +14,10 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
-In Omnichannel for Customer Service, you can seamlessly add an AI agent (agent) and get it up and running within a few minutes while the integration is taken care of in the background.
+In Omnichannel for Customer Service, you can seamlessly add an AI agent and get it up and running within a few minutes while the integration is taken care of in the background.
 
 You can manage your agents in Copilot Studio on the **Bots** page.
 
@@ -53,10 +53,5 @@ On the **Bots** page, you can review the agent details and also perform the foll
 
 ### Related information
 
-<<<<<<< HEAD
 [Get started with Copilot Service admin center](../implement/cs-admin-center.md)  
-[Configure Copilot Studio bots for voice channel](voice-channel-pva-bots.md)  
-=======
-[Get started with Customer Service admin center](../implement/cs-admin-center.md)  
-[Configure agents in Copilot Studio for voice channel](voice-channel-pva-bots.md)  
->>>>>>> 7e5a1f01cbec44816384f25be51d79001117fd33
+[Configure Copilot Studio agents for voice channel](voice-channel-pva-bots.md)  
