@@ -635,8 +635,6 @@ items:
           href: configure-relationship-analytics.md
         - name: Configure who knows whom
           href: configure-who-knows-whom.md
-        - name: Provide consent to collect Office data
-          href: provide-consent-office365.md
         - name: Insights generated from Microsoft 365 data
           href: insights-from-m365.md
         - name: Microsoft 365 consent types

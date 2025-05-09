@@ -2,7 +2,7 @@
 title: Work with the Dynamics 365 app in a Teams meeting
 description: Learn how to work with the Dynamics 365 app in a Teams meeting.
 ms.date: 08/09/2022
-ms.topic: article
+ms.topic: how-to
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais

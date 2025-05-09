@@ -29,7 +29,7 @@ The operating hour schedules cater to the following scenarios:
 
 After you define the business hours for your organization and set up [automated messages](configure-automated-message.md) for your customers, when customers interact through a channel during nonbusiness hours, they see or hear the messages that you set. For example, you can display an offline message on the chat widget as "Our representatives are not available. Our business hours are between 8:00 am and 5:00 pm." Similarly, for social channels, you can configure the operating hours at the queue level. When customers contact your representatives through any of the social channels outside the business hours, they receive responses that you set.
 
-In the Customer Service admin center or Contact Center admin center app, after you create an operating hour record, you can do the following steps, depending on your requirement:
+In the Copilot Service admin center app, after you create an operating hour record, you can do the following steps, depending on your requirement:
 
 - **Queues:** Configure the operating hour on the main page of the queue.
 - **Chat widget:** Add the operating hour record on the **Chat widget** tab.
@@ -39,7 +39,7 @@ When operating hours are in effect, work items during non-business hours are han
 
 ## Create a record to define operating hours
 
-You can define operating hours in Customer Service admin center or Contact Center admin center.
+You can define operating hours in Copilot Service admin center.
 
 1. In the site map of the admin center, select **Calendars** in **Operations**. The **Calendar** page appears.
 1. In the **Operating Hours** section, select **Manage**.
