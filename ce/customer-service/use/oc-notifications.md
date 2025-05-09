@@ -16,15 +16,17 @@ ms.custom:
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-> [!NOTE]
-> Case information is applicable to Customer Service only.
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 > [!IMPORTANT]
-> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with service representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their customer service representatives (service representatives or representatives) that their communications with end users may be monitored, recorded, or stored.
+> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature isn't intended for use in making, and shouldn't be used to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users may be monitored, recorded, or stored.
 
 A notification is a visual alert that appears each time you get a chat or an SMS conversation request from a customer. When you get the notification, you see the details about the customer with whom you're going to interact. When you accept the request, a session is started, and you can view the contextual information of the customer and case on the **Active Conversation** page.
 
 Here are some scenarios where you might receive notifications:
+
+> [!NOTE]
+> Case information is applicable to Customer Service only.
 
 - Case assignment if record routing is configured using workstreams for unified routing
 - Incoming chat conversation
@@ -32,18 +34,17 @@ Here are some scenarios where you might receive notifications:
 - Conversation (work item) assignment
 - Conversation transfer
 - Conversation escalation
-- Conversation escalation from a bot
+- Conversation escalation from an AI agent
 
 ## Receive notifications when the app is in the background
 
-Service representatives can receive notification alerts on their desktop always or only when the Customer Service workspace or Contact Center workspace isn't in focus. These notifications help ensure that representatives won't miss any conversation requests. Some scenarios where the app isn't in focus might include:
+Representatives can receive notification alerts on their desktop always or only when the Copilot Service workspace isn't in focus. These notifications help ensure that representatives won't miss any conversation requests. Some scenarios where the app isn't in focus might include:
+- The representative has minimized the app.
+- The representative is working in another browser window.
+- The representative is working on another tab of the browser.
+- The representative is using two screens, and is on the screen that doesn't have either the Copilot Service workspace app.
 
-- The agent has minimized the app.
-- The agent is working in another browser window.
-- The agent is working on another tab of the browser.
-- The agent is using two screens, and is on the screen that doesn't have either the Customer Service workspace or Contact Center workspace app.
-
-> [!Note]
+> [!NOTE]
 > - The **Always** option for **Show Desktop Notifications** is in preview. To use this feature, it must be turned on and the license terms must be accepted. [What are Preview features and how do I enable them?](/power-platform/admin/what-are-preview-features-how-do-i-enable-them).
 > - Desktop notifications aren't supported in the embedded experience.
  
@@ -86,7 +87,7 @@ Based on your organization's configurations, you can't reject conversations. The
 
 ## Incoming voice call notifications
 
-You'll receive a voice call notification for an incoming call request after an intelligent bot processes the call. Learn more about how the call is processed and the call controls that are available to you at [Use agent dashboard and call controls in the voice channel](/dynamics365/contact-center/use/voice-channel-agent-experience).
+You'll receive a voice call notification for an incoming call request after an intelligent agent processes the call. Learn more about how the call is processed and the call controls that are available to you at [Use representative dashboard and call controls in the voice channel](/dynamics365/contact-center/use/voice-channel-agent-experience).
 
 ## Incoming chat notifications
 
@@ -103,6 +104,7 @@ Your administrator configures the details you can see for a chat channel.
 > Case information is applicable to Customer Service only.
 
 If unified routing is configured for routing records and notifications are enabled, then when a case is assigned to you, you receive a notification with the open item option. You can't reject the assignment, and irrespective of the notification timeout, the case is assigned to you.
+
 
   > ![Case assignment notification.](../media/case-assignment-notification.png "Case assignment notification")
 
@@ -122,7 +124,7 @@ The details you see for an SMS channel are as configured by your administrator.
 > [!IMPORTANT]
 >
 > - The alert is displayed only when the missed notifications feature is enabled by your administrator.
-> - Missed notification alerts are not supported in Omnichannel for Customer Service on Unified Service Desk.
+> - Missed notification alerts aren't supported in Omnichannel for Customer Service on Unified Service Desk.
 
 When you don't respond to an incoming conversation notification, you see an alert at the top of your dashboard and your presence status is set to inactive. You can respond to the alert or change your status. Your presence is reset to the status that was last defined by the system. You won't be assigned new tasks until your presence is reset to a state in which you can be assigned tasks, which is based on the allowed presence set in the workstream. Your supervisor can also reset your presence.
 
