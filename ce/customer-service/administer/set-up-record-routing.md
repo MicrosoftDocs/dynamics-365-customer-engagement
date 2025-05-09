@@ -112,7 +112,7 @@ Routing rules for a workstream consists of work classification rules and route-t
    - [Customer service representative notifications](notification-templates.md#out-of-the-box-notification-templates)
 
    > [!NOTE]
-   > - The Customer service representative notifications that you configure for routing of records based on unified routing will be displayed in the Copilot Service workspace and Omnichannel for Customer Service apps only.
+   > - The Customer service representative notifications that you configure for routing of records based on unified routing will be displayed in the Copilot Service workspace app only.
    > - Ensure that the representatives in the queues have correct permissions to handle the incoming work items in the queue. If a representative doesn't have permissions to an assigned work item, the assignment will be stopped, and the conversation will be closed to protect it.
 
 ### Next steps
