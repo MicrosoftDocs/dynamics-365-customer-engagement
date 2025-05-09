@@ -2,7 +2,7 @@
 title: Create and connect sequences for yourself
 description: Automate your work with sequences. Create a set of activities, personalize communication, and prioritize tasks for better productivity.
 ms.date: 06/19/2024
-ms.topic: article
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
