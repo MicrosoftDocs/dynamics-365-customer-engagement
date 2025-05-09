@@ -18,7 +18,7 @@ As a customer service representative (service representative or representative),
 
 The following read-only views are available:
 
- **Day**: Displays the shifts and activities scheduled for the current day.
+- **Day**: Displays the shifts and activities scheduled for the current day.
 - **Week**: Displays the entire week’s shifts, which can help you plan and manage your time effectively.
 - **Month**: Provides a high-level overview of the month's schedule, including shifts and time-off requests.
 - **Agenda**: Provides a list of scheduled shifts and activities to make it easy to quickly view tasks.
