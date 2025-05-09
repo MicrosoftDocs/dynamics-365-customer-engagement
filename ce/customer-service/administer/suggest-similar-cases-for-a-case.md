@@ -4,7 +4,7 @@ description: Learn how to use the similarity rules and relevance search in Custo
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 06/21/2024
+ms.date: 04/21/2025
 ms.topic: how-to
 search.audienceType: 
   - admin
@@ -47,7 +47,7 @@ Based on configured data input, the Relevance search mechanism filters the cases
   
     - [!INCLUDE[proc_dont_have_correct_permissions](../../includes/proc-dont-have-correct-permissions.md)]  
   
-1. In the site map of Customer Service admin center, go to **Case Settings** in **Customer Support**. The **Case Settings** page appears.
+1. In the site map of Copilot Service admin center, go to **Case Settings** in **Customer Support**. The **Case Settings** page appears.
 1. In the **Advanced similarity rules** section, select **Manage**. The **All Advanced Similarity Rules** page appears.
 
 1. Select **New** on the command bar to create an advanced similarity rule.  
