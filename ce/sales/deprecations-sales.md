@@ -25,7 +25,6 @@ The features that have been removed or deprecated in  Dynamics 365 Sales are lis
 
 Effective April 2025, the native Exchange integration for relationship intelligence is deprecated. If you want Dynamics 365 Sales to use emails and meetings from Exchange to generate insights, [enable server-side synchronization for Exchange](configure-email.md). Otherwise, insights are generated only using emails and data stored in Dynamics 365.
 
-
 ## Copilot for email in side pane
 
 Effective January 2025 (app/solution version 9.2.24124.0010), composing and sending email using Copilot side pane isn't supported and is being removed in a phased manner. This effects the users who have enabled the email copilot preview. However, you can use the [Copilot email assist](enable-copilot-email-assist.md) feature to compose and [send emails through the rich text editor](/power-apps/maker/model-driven-apps/use-copilot-email-assist).  

@@ -12,7 +12,7 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-You can configure unified routing for records in the Customer Service admin center app.
+You can configure unified routing for records in the Copilot Service admin center app.
 
 > [!IMPORTANT]
 > - Provisioning unified routing might affect runtime operations on account of solution import that can affect SQL load.
@@ -34,7 +34,7 @@ You must complete all the steps in this section to route records using unified r
 > [!NOTE]
 > After you enable unified routing, the active basic routing rule won't route records until you configure intake rules.
 
-1. In the site map of Customer Service admin center, select **Routing** in **Customer support**. The **Routing** page appears.
+1. In the site map of Copilot Service admin center, select **Routing** in **Customer support**. The **Routing** page appears.
 
 1. Select **Manage** for **Record routing**.
 
@@ -109,11 +109,11 @@ Routing rules for a workstream consists of work classification rules and route-t
 
 2. Expand **Advanced settings** to configure the following options:
    - [Sessions](session-templates.md)
-   - [Agent notifications](notification-templates.md#out-of-the-box-notification-templates)
+   - [Customer service representative notifications](notification-templates.md#out-of-the-box-notification-templates)
 
    > [!NOTE]
-   > - The agent notifications that you configure for routing of records based on unified routing will be displayed in the Customer Service workspace and Omnichannel for Customer Service apps only.
-   > - Ensure that the service representatives in the queues have correct permissions to handle the incoming work items in the queue. If a representative doesn't have permissions to an assigned work item, the assignment will be stopped, and the conversation will be closed to protect it.
+   > - The Customer service representative notifications that you configure for routing of records based on unified routing will be displayed in the Copilot Service workspace app only.
+   > - Ensure that the representatives in the queues have correct permissions to handle the incoming work items in the queue. If a representative doesn't have permissions to an assigned work item, the assignment will be stopped, and the conversation will be closed to protect it.
 
 ### Next steps
 
