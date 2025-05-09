@@ -109,7 +109,8 @@ The Sales Qualification Agent ranks leads based on how well they match the ideal
 
    :::image type="content" source="media/agent-ranked-leads-list.png" alt-text="Screenshot showing the Edit filters pane for the Leads table with a filter on Qualification Result Rank applied.":::
 
-1. Apply the filters.
+1. Apply the filters.  
+    Leads that match the specified qualification rank criteria are displayed.
 
 ## Related information
 
