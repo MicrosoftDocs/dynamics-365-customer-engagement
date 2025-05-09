@@ -5035,6 +5035,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/sales/provide-consent-office365.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#exchange-integration-for-ra",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/sales/configure-relationship-analytics.md",
       "redirect_url": "/dynamics365/sales/enable-ri",
       "redirect_document_id": false
