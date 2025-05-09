@@ -18,15 +18,15 @@ ms.custom:
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-> [!NOTE]
-> Case information is applicable to Customer Service only.
-
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature isn't intended for use in making, and shouldn't be used to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users may be monitored, recorded, or stored.
 
 A notification is a visual alert that appears each time you get a chat or an SMS conversation request from a customer. When you get the notification, you see the details about the customer with whom you're going to interact. When you accept the request, a session is started, and you can view the contextual information of the customer and case on the **Active Conversation** page.
 
 Here are some scenarios where you might receive notifications:
+
+> [!NOTE]
+> Case information is applicable to Customer Service only.
 
 - Case assignment if record routing is configured using workstreams for unified routing
 - Incoming chat conversation
