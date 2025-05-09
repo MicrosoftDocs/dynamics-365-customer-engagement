@@ -41,7 +41,7 @@ When you configure this feature, the system picks a queue from the available lis
 
 ## Configure rules in route-to-queue ruleset
 
-1. In Contact Center admin center or Copilot Service admin center, navigate to the **Workstreams** page, and then select a workstream.
+1. In Copilot Service admin center, navigate to the **Workstreams** page, and then select a workstream.
 
 1. In the **Routing rules** section, select **Create ruleset** next to **Route to queues**, and then select **Create Rule** in **Decision list**.
 
