@@ -139,7 +139,7 @@ After you assign or transfer conversations, manually refresh the report to view 
 - [Manage real-time analytics reports in Omnichannel for Customer Service](../administer/enable-realtime-analytics-dashboard-administrator.md)<br>
 - [Overview of Omnichannel real-time analytics dashboard](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboard)<br>
 - [View and understand the Voice report in Omnichannel real-time analytics](realtime-voice-dashboard.md)<br>
-- [View and understand the Agents report in Omnichannel real-time analytics](realtime-agents-analytics.md#view-and-understand-the-agents-report-in-omnichannel-real-time-analytics)<br>
+- [View and understand the Agent report in Omnichannel real-time analytics](realtime-agents-analytics.md#view-and-understand-the-agent-report-in-omnichannel-real-time-analytics)  
 - [View and understand the Summary report in Omnichannel real-time analytics](realtime-summary-dashboard.md#view-and-understand-the-summary-report-in-omnichannel-real-time-analytics)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
