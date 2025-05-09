@@ -18,7 +18,7 @@ As a customer service representative (service representative or representative),
 
 The Schedule Calendar is read-only and has daily, weekly, and monthly views. It also has an agenda view where you can see a list-type view of your schedule.
 
-1. 1.	In the site map of Copilot Service workspace, select **Schedule Calendar** under **Workforce Management**. The Schedule Calendar page appears.
+1. In the site map of Copilot Service workspace, select **Schedule Calendar** under **Workforce Management**. The Schedule Calendar page appears.
 
    :::image type="content" source="../media/my-schedule-calendar.png" alt-text="Screenshot of the sitemap with the calendar option selected.":::
 
