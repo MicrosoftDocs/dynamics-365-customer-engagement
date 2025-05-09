@@ -33,4 +33,3 @@ The following read-only views are available:
 
 ### Related information
 [Get started with Copilot Service workspace](../implement/csw-overview.md)  
-[Enable the Schedule Calendar view](../administer/configure-agent-calendar.md)  
