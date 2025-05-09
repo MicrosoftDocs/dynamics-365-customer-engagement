@@ -1,6 +1,6 @@
 ---
-title: Sales qualification agent overview
-description: Find out how the Sales qualification agent in Dynamics 365 Sales can be your personal assistant in qualifying leads and improving sales outcomes.
+title: Sales Qualification Agent overview
+description: Learn how the Sales Qualification Agent in Dynamics 365 Sales can be your personal assistant in qualifying leads and improving sales outcomes.
 ms.date: 02/19/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -20,24 +20,28 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Sales qualification agent overview
+# Sales Qualification Agent overview
 
-Sales qualification agent in Dynamics 365 Sales is an AI assistant that helps your sales team qualify leads smartly and efficiently. The agent autonomously researches leads and determines if they're a good fit for further engagement. Think of it as a personal assistant that provides detailed research insights about each lead, covering the following aspects:
+As a seller, you know that qualifying leads is crucial to your success, but it takes up a lot of your time. The Sales Qualification Agent in Dynamics 365 Sales is an AI assistant that automates the manual aspects of lead qualification. It doesn't replace your judgment or decision-making process. It's a productivity tool that helps you qualify leads faster and more effectively, so that you can invest more time in one-on-one interactions with top leads.
 
-- **Background**: Understand the lead's background, including their role, company, and industry.
+The agent autonomously researches leads and determines if they're a good fit for further engagement. Think of it as a personal assistant that provides detailed insights about each lead, such as their background, recent activities, and news about their company:
+
+- **Background**: Understand the lead's role, company, and industry.
 - **Insights**: Get insights about whether to engage with the lead or not. Know more about the lead's recent activities, such as their recent opportunities, colleagues who worked with the leads, and why this lead matches your ideal customer profile.
 - **News**: Stay updated with the latest news about the lead's company and industry.
 
-## Configure and use the agent
+The Sales Qualification Agent helps you focus on the most promising leads and improve your sales outcomes.
+
+## Set up and use the agent
 
 Depending on your role, use the following links to configure and use the Sales qualification agent:
 
 | Role | Action |
 |------|--------|
-| Admin | [Enable and configure the Sales qualification agent](configure-sales-qualification-agent.md) |
-| Seller | [Qualify leads smartly with Sales qualification agent](use-sales-qualification-agent.md) |
+| Admin | [Set up the Sales Qualification Agent](configure-sales-qualification-agent.md) |
+| Seller | [Qualify leads with the Sales Qualification Agent](use-sales-qualification-agent.md) |
 
 ## Related information
 
-- [FAQ about Sales qualification agent](sales-qualification-agent-faq.md)
-- [Responsible AI FAQ about Sales qualification agent](faqs-sales-qualification-agent.md)
+- [Sales Qualification Agent FAQ](sales-qualification-agent-faq.md)
+- [Responsible AI FAQ about the Sales Qualification Agent](faqs-sales-qualification-agent.md)
