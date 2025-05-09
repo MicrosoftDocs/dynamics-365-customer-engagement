@@ -33,13 +33,13 @@ The new live chat widget 2.0 is built upon Omnichannel Chat SDK and Live Chat Wi
 
 ### Portal Developer&mdash;Customize out-of-the-box script-based UI
 
-The portal developer option lets you personalize the UI of the chat widget but doesn't modify the out-of-the-box functionality settings in Customer Service admin center. To customize, you can use the "data-customization-callback" script that connects the out-of-the-box widget to a JavaScript function. The function can contain CSS styling customizations to the chat components with the same precedents as the [Omnichannel Live Chat Widget UI Components library](https://github.com/microsoft/omnichannel-chat-widget/blob/main/README.md).
+The portal developer option lets you personalize the UI of the chat widget but doesn't modify the out-of-the-box functionality settings in Copilot Service admin center. To customize, you can use the "data-customization-callback" script that connects the out-of-the-box widget to a JavaScript function. The function can contain CSS styling customizations to the chat components with the same precedents as the [Omnichannel Live Chat Widget UI Components library](https://github.com/microsoft/omnichannel-chat-widget/blob/main/README.md).
 
 ### Edit live chat widget script to enable live chat widget 2.0
 
 To use the live chat widget 2.0 and script-based customization, modify the code snippet of the out-of-the-box live chat widget 2.0 as follows.
 
-1. In Customer Service admin center, open the chat workstream, and select **Copy Live Chat Widget 2.0 Script** to copy the code snippet.
+1. In Copilot Service admin center, open the chat workstream, and select **Copy Live Chat Widget 2.0 Script** to copy the code snippet.
 1. Create a new JavaScript function with all component styling. More information: [Omnichannel chat widget](https://github.com/microsoft/omnichannel-chat-widget)
 1. Add "v2" after the script attribute.
 1. Add "data-customization-callback" and reference the JavaScript function.
