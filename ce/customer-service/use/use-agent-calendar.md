@@ -16,17 +16,20 @@ As a customer service representative (service representative or representative),
 > [!Note]
 > The Schedule Calendar isn't supported in the Government Community Cloud (GCC) or sovereign clouds.
 
-The Schedule Calendar is read-only and has daily, weekly, and monthly views. It also has an agenda view where you can see a list-type view of your schedule.
+The following read-only views are available:
+
+ **Day**: Displays the shifts and activities scheduled for the current day.
+- **Week**: Displays the entire week’s shifts, which can help you plan and manage your time effectively.
+- **Month**: Provides a high-level overview of the month's schedule, including shifts and time-off requests.
+- **Agenda**: Provides an list of scheduled shifts and activities to make it easy to quickly view tasks.
+
+## View the calendar
 
 1. In the site map of Copilot Service workspace, select **Schedule Calendar** under **Workforce Management**. The Schedule Calendar page appears.
 
-   :::image type="content" source="../media/my-schedule-calendar.png" alt-text="Screenshot of the sitemap with the calendar option selected.":::
+2. (Optional) Use the top-right menu to change the view to **Agenda**, **Day**, **Week**, or **Month**.
 
-   
-
-   :::image type="content" source="../media/my-schedule-calendar-view.png" alt-text="Calendar view of an agent's schedule.":::
-
-2. (Optional) Use the top-right menu to change the view to **Agenda**, **Day**, **Week**, or **Month.
+    :::image type="content" source="../media/schedule-calendar-menu.png" alt-text="Calendar view of a service represenative's schedule with the menu to change views expanded.":::
 
 ### Related information
 [Get started with Copilot Service workspace](../implement/csw-overview.md)  
