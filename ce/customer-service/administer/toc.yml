@@ -816,7 +816,7 @@
             href: resources-service-scheduling.md
           - name: Add facilities and equipment
             href: add-facilities-equipment-ss-csh.md
-          - name: Create and manage resource groups
+          - name: Create and manage resource categories
             href: resource-categories-service-scheduling.md
           - name: Create or edit services
             href: create-edit-service-csh.md
