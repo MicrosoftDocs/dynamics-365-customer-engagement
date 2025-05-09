@@ -54,4 +54,4 @@ On the **Bots** page, you can review the agent details and also perform the foll
 ### Related information
 
 [Get started with Copilot Service admin center](../implement/cs-admin-center.md)  
-[Configure Copilot Studio agents for voice channel](voice-channel-pva-bots.md)  
+[Configure Copilot agents for voice channel](voice-channel-pva-bots.md)  
