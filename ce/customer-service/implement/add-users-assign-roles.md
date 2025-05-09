@@ -35,7 +35,7 @@ Ensure that the **Omnichannel API access** role isn't assigned to a supervisor o
 
 Additionally, the **Customer Service Representative** role is required to work with the Case entity.
 
-Use the Copilot Service admin center to create user accounts for every user who needs access to Omnichannel for Customer Service. Learn more in [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles).
+Use the Microsoft 365 admin center to create user accounts for every user who needs access to Omnichannel for Customer Service. Learn more in [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles).
 
 ## Assign roles to users
 
@@ -72,7 +72,7 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 | Can add/edit/delete channel settings, context settings, routing rules | Yes |||||
 | Can add/edit/delete queues | Yes |||||
 | Can add/remove representatives from queue | Yes | Yes ||||
-| Can add/edit/delete agents | Yes |||||
+| Can add/edit/delete AI agents | Yes |||||
 | Can view/add/edit/delete quick replies | Yes | Yes ||||
 | Can add/edit/delete PBI config | Yes |||||
 | Can view/add/edit/delete operating hours | Yes |||||
