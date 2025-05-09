@@ -25,7 +25,7 @@ Copilot can generate knowledge articles from resolved cases. By using Copilot, y
 
 ## Enable Copilot to generate knowledge
 
-Do the following steps in Customer Service admin center:
+Do the following steps in Copilot Service admin center:
 
 1. In the site map, under **Support experience**, select **Knowledge**, and on the Knowledge page, select **Manage** for **Knowledge creation**.
 1. On the **Knowledge creation (preview)** page, in **Case-based knowledge creation**, select the following checkboxes to let representatives use Copilot:
