@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 05/06/2025
+ms.date: 05/09/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -32,7 +32,7 @@ Learn more about [Session metrics](../use/session-metrics.md#session-metrics) an
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Total conversations includes all interactions initiated by customers or by representatives and engaged by agents, including those that may be escalated to service representatives. It is a comprehensive metric used to evaluate the performance and effectiveness of agent interactions.
+Total conversations include all interactions initiated by customers or representatives and engaged by agents, including those that may be escalated to service representatives. It is a comprehensive metric used to evaluate the performance and effectiveness of agent interactions.
 
 Learn more in [conversation states](../use/oc-conversation-state.md#understand-conversation-states).
 
@@ -172,7 +172,7 @@ Incoming conversations = ​SUMX ( FactConversation, IF ( NOT FactConversation[D
 
 ### Related metric
 
-- [Outgoing conversations](#outgoing-conversations) : The total outbound conversations a representative initiated with a customer.
+- [Outgoing conversations](#outgoing-conversations): The total outbound conversations a representative initiated with a customer.
 - **Direct service representative**: Total number of conversations through any channel (voice or digital) that includes both open, active, and closed conversations for both, inbound and outbound traffic, directly from the representative without involving voice or agent.
 
 ## Outgoing conversations
@@ -282,7 +282,7 @@ SUMX (FactConversation, IF (NOT FactConversation[DirectionCode], FactConversatio
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)|
 |Attributes |- msdyn_firstwaitstartedon​ <br> - msdyn_isagentaccepted ​<br> - msdyn_isoutbound|
-|Filters  |- If the conversation is outbound, then blank. <br> - If the conversation is inbound: Before the agent accepts (msdyn_isagentaccepted =   0), it uses closedon / getutcnow()   - msdyn_firstwaitstartedon. This ensures that the report shows increased wait time before agent acceptance. After the agent accepts (msdyn_isagentaccepted =   1), it's msdyn_conversationfirstwaittimeinseconds   directly. |
+|Filters  |- msdyn_ocliveworkitem. isagentaccepted is 1. <br> - msdyn_ocliveworkitem.msdyn_isoutbound != 1 |
 
 ### Related metrics
 
