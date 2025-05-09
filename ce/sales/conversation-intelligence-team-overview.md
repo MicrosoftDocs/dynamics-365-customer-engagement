@@ -3,7 +3,7 @@ title: "Understand team overview feature in conversation intelligence"
 description: "Analyze sales calls and overall behavior of your team during customer calls to improve sales and generate revenue in Dynamics 365 Sales."
 ms.date: 09/30/2022
 ms.custom: 
-ms.topic: article
+ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

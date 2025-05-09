@@ -2,7 +2,7 @@
 title: Configure case volume forecasting
 description: Learn how to configure the Forecast report for cases in Dynamics 365 Customer Service workspace.
 ms.date: 11/28/2024
-ms.topic: article
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan

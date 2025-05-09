@@ -2,7 +2,7 @@
 title: "Deactivate and delete a forecast in Dynamics 365 Sales"
 description: "Deactivate and delete a forecast in Dynamics 365 Sales."
 ms.date: 12/2/2024
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

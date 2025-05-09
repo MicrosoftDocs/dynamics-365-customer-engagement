@@ -4,7 +4,7 @@ description: Learn about the customizations that you can and can't use with the 
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.topic: conceptual 
+ms.topic: how-to
 ms.date: 01/13/2025
 ms.custom: bap-template
 ---

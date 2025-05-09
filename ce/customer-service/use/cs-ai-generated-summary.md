@@ -2,7 +2,7 @@
 title: Auto-summarize conversations in Customer Service
 description: View an AI-generated summary of a customer conversation and share it in Microsoft Teams.
 ms.date: 03/17/2025
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

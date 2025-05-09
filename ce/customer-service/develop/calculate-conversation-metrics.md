@@ -4,7 +4,7 @@ description: Learn to use Power BI and Dataverse for calculating essential conve
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection:
 ms.date: 05/06/2025
 ms.custom:

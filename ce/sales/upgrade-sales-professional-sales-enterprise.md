@@ -2,7 +2,7 @@
 title: "Upgrade from Dynamics 365 Sales Professional to Dynamics 365 Sales Enterprise (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Follow the steps in this topic to upgrade from Dynamics 365 Sales Professional to Dynamics 365 Sales Enterprise."
 ms.date: 04/06/2025
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

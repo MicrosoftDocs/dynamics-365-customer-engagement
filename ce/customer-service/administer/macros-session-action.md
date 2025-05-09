@@ -4,7 +4,7 @@ description: Learn how to use session connector to create macros.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: conceptual 
+ms.topic: how-to
 ms.collection: 
 ms.date: 05/05/2025
 ms.custom: bap-template 

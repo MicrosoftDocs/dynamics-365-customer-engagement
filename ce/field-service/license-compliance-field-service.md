@@ -4,7 +4,7 @@ description: Discover the rules in the Power Apps solution checker that identify
 author: vhorvathms
 ms.author: vhorvath
 ms.reviewer: mhart
-ms.topic: conceptual
+ms.topic: article
 ms.collection: get-started
 ms.date: 05/15/2024
 ---

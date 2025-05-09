@@ -3,7 +3,7 @@ title: Use Dataverse search to find information
 description: Learn how to work with the advanced Dataverse search to find relevant information in Dynamics 365 Field Service.
 ms.date: 10/08/2024
 ms.reviewer: mhart
-ms.topic: conceptual
+ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
 ---

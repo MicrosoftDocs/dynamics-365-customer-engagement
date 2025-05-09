@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
-ms.date: 06/10/2024 
+ms.date: 05/05/2024 
 ms.custom: bap-template 
 ---
 
@@ -38,4 +38,4 @@ Configure the tab that the representatives must be redirected to when they selec
 ### Related information
 [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
 [Case management in multisession apps](../use/enh-casemgmt-csw.md)   
-[Get started with Customer Service workspace](../implement/csw-overview.md) 
+[Get started with Copilot Service workspace](../implement/csw-overview.md) 

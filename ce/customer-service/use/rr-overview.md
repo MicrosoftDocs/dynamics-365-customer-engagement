@@ -4,8 +4,8 @@ description: Learn how to configure and use real-time analytics for record routi
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
-ms.date: 04/02/2025
+ms.topic: overview
+ms.date: 05/06/2025
 ms.custom: bap-template
 ---
 
@@ -19,14 +19,14 @@ As a supervisor, you can [customize the visual display](customize-reports.md#cus
 
 Real-time analytics uses the security permissions defined in Microsoft Dataverse. For example, if your organization has set business unit-level permissions for you, metrics that are computed based on business unit-level data only are shown to you.
 
-As a supervisor, you can view the **Real-time analytics for record routing** dashboards in either the Customer Service workspace or Contact Center workspace app. However, your administrator must provide the required permissions for you. Learn more in [Configure user access to analytics and dashboards](../administer/configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards). To view the real-time analytics for record-routing dashboards, you must have the CSR Manager role.
+As a supervisor, you can view the **Real-time analytics for record routing** dashboards in the Copilot Service workspace app. However, your administrator must provide the required permissions for you. Learn more in [Configure user access to analytics and dashboards](../administer/configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards). To view the real-time analytics for record-routing dashboards, you must have the CSR Manager role.
 
 > [!NOTE]
 > If different values are shown to different users in the metrics, you must investigate the permissions for those users.
 
 ## **Access reports**
 
-In the default view of either the Customer Service workspace or Contact Center workspace app, select **Real-time analytics for record routing** in **Service**. By default, the **Summary** report is shown. To view the **Queue, Agent,** **Ongoing work items** and **Backlog work items** reports, select the appropriate tabs.
+In the default view of the Copilot Service workspace app, select **Real-time analytics for record routing** in **Service**. By default, the **Summary** report is shown. To view the **Queue**, **Agent,** **Ongoing work items**, and **Backlog work items** reports, select the appropriate tabs.
 
 If you can't view the reports, contact your system administrator. Learn more in [Manage real-time analytics for record routing](../administer/enable-record-routing.md#manage-real-time-analytics-for-record-routing).
 
