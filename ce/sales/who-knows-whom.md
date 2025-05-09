@@ -30,9 +30,6 @@ For Sales Enterprise users, the who knows whom information is populated based on
 
 For Sales Premium users, the information is populated based on Exchange data, provided your administrator has [configured the server-side synchronization](configure-email.md). 
 
-> [!NOTE]
-> Native integration with Exchange Online is being deprecated in phases. Refer to the [train schedule](/dynamics365/released-versions/dynamics365sales#latest-version-availability) for version 9.0.25032.10001 to know when the feature will be deprecated in your region. If you want to use Exchange data for enhanced insights, [set up server-side synchronization for Exchange](configure-email.md). Otherwise, insights are generated only using emails and data stored in Dynamics 365.
-
 ## View who knows whom  
 
 The **Who Knows Whom** widget shows up to five people in your organization who have communicated with a lead or contact through calls and emails. It also shows you how strong their connection is. The widget is available in the **Sales Insights** form and in the main **Contact** and **Lead** form.
