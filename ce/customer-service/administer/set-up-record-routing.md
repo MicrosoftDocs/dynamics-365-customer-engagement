@@ -1,8 +1,8 @@
 ---
 title: Set up unified routing for records
 description: Use this article to understand how to set up unified routing for records in Customer Service.
-ms.date: 04/16/2025
-ms.topic: article
+ms.date: 02/04/2025
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

@@ -2,7 +2,7 @@
 title: Unified Service Desk data compliance under GDPR | MicrosoftDocs
 description: "Understand how the audit log files, diagnostic log files, and telemetry data in Unified Service Desk comply with the GDPR."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

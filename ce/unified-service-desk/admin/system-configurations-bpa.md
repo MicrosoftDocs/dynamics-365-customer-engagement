@@ -2,7 +2,7 @@
 title: "System configurations | MicrosoftDocs"
 description: "Learn about the system configurations that best practices outlines and against which Best Practices Analyzer performs analysis."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: best-practice
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

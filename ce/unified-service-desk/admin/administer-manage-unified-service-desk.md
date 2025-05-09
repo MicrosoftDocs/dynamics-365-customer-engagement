@@ -2,7 +2,7 @@
 title: "Administer and manage Unified Service Desk | MicrosoftDocs"
 description: "As an administrator, use this topic to get started with effectively administering and managing your Unified Service Desk implementation."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: get-started
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

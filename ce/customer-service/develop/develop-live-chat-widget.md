@@ -1,7 +1,7 @@
 ---
 title: Develop a custom live chat widget
 description: Learn where to find information about using the Omnichannel Chat SDK and the Omnichannel Live Chat Widget UI Components library to develop a custom live chat widget.
-ms.date: 04/16/2025
+ms.date: 05/02/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -53,6 +53,10 @@ An example screenshot of a chat widget 2.0 that's customized to increase its siz
 :::image type="content" source="../media/live-chat-widget-2.0.png" alt-text="A sample screenshot of live chat widget 2.0.":::
 
 Watch the [walkthrough video](https://www.youtube.com/watch?v=Mzw96Zz_epI) of the live chat widget set up.
+
+### Use web engagement orchestration to customize widget
+
+Web engagement orchestration enables you to move your configuration overrides out of your page's JavaScript and into the admin center. Learn more in [Deploy chat widgets across websites using a single tag](../administer/deploy-using-single-tag.md).
 
 ## Develop your own widget
 

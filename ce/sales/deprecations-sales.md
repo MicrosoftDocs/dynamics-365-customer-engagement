@@ -2,7 +2,7 @@
 title: Removed or deprecated features in Dynamics 365 Sales
 description: Visit this page to see the deprecating features in Dynamics 365 Sales.
 ms.date: 01/09/2024
-ms.topic: article
+ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

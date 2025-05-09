@@ -1,11 +1,11 @@
 ---
 title: Resource Scheduling Optimization version history
 description: Version updates and updated features in the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service.
-ms.date: 04/10/2025
+ms.date: 05/07/2025
 ms.subservice: resource-scheduling-optimization
 ms.topic: overview
-author: AnilMur
-ms.author: anilmur
+author: DaPisani
+ms.author: dapisani
 ---
 
 # Resource Scheduling Optimization version history
@@ -20,22 +20,24 @@ For information about older versions, see [Version history archive](version-hist
 |Station | Region | Current version | Next version |  Scheduled date
 |------| -------|-------|-----|------|
 |**Station 1** | | |  | |
-| | *First Release* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1040](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401040) | 06/01/2024
+| | *First Release* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1406](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401406) | 05/09/2025
 |**Station 2** | | |  | |
-| | *South America* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1040](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401040) | 06/02/2024
-| | *Canada* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917)  | [3.4.0.1040](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401040) | 06/02/2024
-| | *India* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1040](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401040) | 06/02/2024
-| | *France* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1040](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401040) | 06/02/2024
-| | *United Arab Emirates* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1040](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401040) | 06/02/2024
+| | *South America* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1406](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401406) | 05/16/2025
+| | *Canada* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917)  | [3.4.0.1406](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401406) | 05/16/2025
+| | *India* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1406](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401406) | 05/16/2025
+| | *France* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1406](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401406) | 05/16/2025
+| | *United Arab Emirates* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1406](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401406) | 05/16/2025
 |**Station 3** | |  |  | |
-| | *Japan* |  [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917)| [3.4.0.1040](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401040) | 06/02/2024
-| | *Asia Pacific* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1040](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401040) | 06/02/2024
-| | *Great Britain* |[3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1040](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401040) | 06/02/2024
-| | *Oceania* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1040](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401040) | 06/02/2024
+| | *Japan* |  [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917)| [3.4.0.1406](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401406) | 05/23/2025
+| | *Asia Pacific* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1406](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401406) | 05/23/2025
+| | *Great Britain* |[3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1406](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401406) | 05/23/2025
+| | *Oceania* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1406](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401406) | 05/23/2025
 |**Station 4** | |  |  | |
-| | *Europe* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1040](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401040) | 06/07/2024
+| | *Europe* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1406](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401406) | 05/30/2025
 |**Station 5** | |  |  | |
-| | *North America* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1040](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401040) | 06/14/2024
+| | *North America* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1406](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401406) | 06/06/2025
+|**Station 6** | |  |  | |
+| | *Dedicated Scale Groups* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1406](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401406) | 06/13/2025
 
 >[!NOTE]
 >

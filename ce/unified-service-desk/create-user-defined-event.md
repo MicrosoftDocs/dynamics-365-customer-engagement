@@ -2,7 +2,7 @@
 title: "Create a user-defined event | MicrosoftDocs"
 description: "Learn how to create user-defined events in Unified Service Desk and how you can use the FireEvent action or the event moniker to run such events."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

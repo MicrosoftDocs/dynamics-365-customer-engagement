@@ -1,8 +1,8 @@
 ---
 title: FAQ on managing cases
 description: Learn about the frequently asked questions (FAQ) on the different features in case management.
-ms.date: 02/09/2024
-ms.topic: conceptual
+ms.date: 05/05/2025
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -33,7 +33,7 @@ To resolve the error, ensure that role assigned to the representative has read a
 
 ### Why do I see a warning when I add and save case attributes that a child case must inherit from the parent case?
 
-If you see a warning once you select the case attributes that a child case must inherit from the parent case, it means that you haven't selected any of the mandatory attributes. You must select all of the mandatory fields whose values the child case will inherit. Select the mandatory case attributes whose values the child case inherits. **Case Title** and **Customer** are mandatory attributes. More information: [Define settings for parent and child cases](define-settings-parent-child-cases.md)chan
+If you see a warning once you select the case attributes that a child case must inherit from the parent case, it means that you didn't select any of the mandatory attributes. You must select all of the mandatory fields whose values the child case will inherit. Select the mandatory case attributes whose values the child case inherits. **Case Title** and **Customer** are mandatory attributes. More information: [Define settings for parent and child cases](define-settings-parent-child-cases.md).
 
 ## FAQ on resolving cases
 
@@ -42,13 +42,13 @@ If you see a warning once you select the case attributes that a child case must 
 As part of April 2023 wave, by default, representatives see the minimal case resolution dialog. The minimal case resolution dialog displays the **Resolution Type** and **Resolution** only. You can disable the minimal case resolution dialog and switch to the legacy experience. More information: [Disable the minimal case resolution dialog](add-enhanced-case-management.md#disable-the-minimal-case-resolution-dialog). 
 
    > [!NOTE]
-   > - You can revert to the legacy case resolution dialog only if the **Case settings** > **Other settings** > **Resolve case dialog** is set to **Standard dialog** in Customer Service admin center.
+   > - You can revert to the legacy case resolution dialog only if the **Case settings** > **Other settings** > **Resolve case dialog** is set to **Standard dialog** in Copilot Service admin center.
    > - If **Resolve case dialog**  is set to **Customizable dialog** or **Quick create dialog**, to add **Duration**, **Billable Time**, **Total Time** and other customizations, perform the steps in [Add or remove fields from the case resolution dialog](modify-case-resolution-dialog.md#add-or-remove-fields-from-the-custom-case-resolution-dialog).
 
 
 ### Can I update cases after they're resolved or canceled?
 
-Yes, representatives can update the case description or other information after the case has been resolved or canceled. You must configure and run flows in Power Automate or an API to update the case without having to reopen the case records. More information: [Allow updates for resolved and canceled cases](update-resolved-canceled-cases.md).
+Yes, representatives can update the case description or other information after the case is resolved or canceled. You must configure and run flows in Power Automate or an API to update the case without having to reopen the case records. More information: [Allow updates for resolved and canceled cases](update-resolved-canceled-cases.md).
 
 ### Why isn't the billable time automatically updated on the case resolution dialog? 
 
@@ -60,7 +60,7 @@ Yes. More information: [Modify the case resolution dialog](modify-case-resolutio
 
 ### Why can't I see the custom value I added to Case resolution type field in the case resolution dialog?
 
-Make sure that you've added the custom value to both the **Case** and **Case Resolution** entity for the custom value to be displayed on the case resolution dialog. More information: [Add custom values to the case resolution dialog](modify-case-resolution-dialog.md#add-or-remove-fields-from-the-custom-case-resolution-dialog).
+Make sure that you added the custom value to both the **Case** and **Case Resolution** entity for the custom value to be displayed on the case resolution dialog. Learn more in [Add custom values to the case resolution dialog](modify-case-resolution-dialog.md#add-or-remove-fields-from-the-custom-case-resolution-dialog).
 
 ### Why can't I set the Case Status field on a case to Resolved?
 
@@ -68,7 +68,7 @@ A case is resolved only when you select **Resolve case** on the command bar. You
 
 ### Why do I see errors when I try to resolve a case?
 
- Resolve a case isn't supported if **Regarding** field is configured in **Case resolution dialog**, and representatives will see errors if they try to resolve the case.
+ Resolve a case isn't supported if **Regarding** field is configured in **Case resolution dialog**, and representatives see errors if they try to resolve the case.
 
 ## Enhanced case experience
 
@@ -76,7 +76,7 @@ A case is resolved only when you select **Resolve case** on the command bar. You
 
 Starting Feb 1 2024, the **Enhanced case form** is available in the form selector by default as an [early access feature](/power-platform/admin/opt-in-early-access-updates).
 
-If you haven't opted in to the early access feature, you won't be able to navigate to Enhanced case form using form selector since the **ShowInFormSelector** option in Enhanced full case form is set to **False**. Set **ShowInFormSelector** to **True** through FormXML, to see the **Enhanced full case form** option in the form selector and navigate back to it.
+If you didn't opt in to the early access feature, you can't navigate to Enhanced case form using form selector since the **ShowInFormSelector** option in Enhanced full case form is set to **False**. Set **ShowInFormSelector** to **True** through FormXML, to see the **Enhanced full case form** option in the form selector and navigate back to it.
 
 ### When I navigate from the enhanced case form to another form and change the customer information, why isn't the customer details pane refreshed automatically?
 

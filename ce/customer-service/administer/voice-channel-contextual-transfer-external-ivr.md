@@ -1,8 +1,8 @@
 ---
 title: Integrate a third-party IVR system with voice channel
 description: Use this article to understand how you can integrate third-party IVR systems with the voice channel and set up contextual call transfer via Azure direct routing.
-ms.date: 04/18/2025
-ms.topic: article
+ms.date: 05/05/2024
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -44,7 +44,7 @@ This section lists the high-level steps you must perform to enable contextual ca
  
 1. Create context variables with the same names as the SIP UUI header.
 
-    1. In Customer Service admin center or Contact Center admin center, go to **Customer support** > **Workstreams**. A list of workstreams including voice workstreams is displayed.
+    1. In Copilot Service admin center, go to **Customer support** > **Workstreams**. A list of workstreams including voice workstreams is displayed.
     1. Select a voice workstream and then select **Edit** to configure the workstream.
     1. In the **Advanced settings** area, select **Add context variable**.
     1. In the **Edit** dialog that opens, select **Add**, and then select **Add context variable**.

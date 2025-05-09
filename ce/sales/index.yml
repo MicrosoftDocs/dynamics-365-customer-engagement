@@ -134,8 +134,6 @@ additionalContent:
         text: Ask questions of Copilot
       - url: copilot-get-information.md
         text: Get Copilot summaries for records
-      - url: compose-send-email-copilot.md
-        text: Compose and send email messages using Copilot
       - url: copilot-get-doc-suggestions.md
         text: Get content recommendations and answers from SharePoint
       - url: responsible-ai-overview.md

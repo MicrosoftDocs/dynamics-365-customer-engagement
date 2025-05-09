@@ -4,7 +4,7 @@ description: Learn about the different channels that are available in Omnichanne
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.topic: conceptual
+ms.topic: overview
 ms.collection:
 ms.date: 04/16/2025
 ms.custom: bap-template

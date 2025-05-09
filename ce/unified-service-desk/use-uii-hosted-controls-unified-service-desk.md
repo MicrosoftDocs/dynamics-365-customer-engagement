@@ -2,7 +2,7 @@
 title: "Use UII hosted controls with Unified Service Desk | MicrosoftDocs"
 description: "Learn to use UII hosted controls to create new or advanced user interface elements to interact with external applications from within Unified Service Desk."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

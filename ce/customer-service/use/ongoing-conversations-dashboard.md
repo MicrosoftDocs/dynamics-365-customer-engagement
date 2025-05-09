@@ -4,8 +4,8 @@ description: As supervisors, use the Ongoing Conversations Dashboard to view inf
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
-ms.date: 09/06/2024
+ms.topic: concept-article
+ms.date: 05/02/2025
 ms.custom: bap-template
 ms.collection: 
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
@@ -34,7 +34,7 @@ Further, you can filter the conversations using the **Filter by queues** or **Fi
 The **Omnichannel Ongoing Conversations** dashboard is available in:
 
 - [Unified Service Desk](#unified-service-desk)
-- [Omnichannel for Customer Service](#customer-service-workspace)
+- [Omnichannel for Customer Service](#copilot-service-workspace)
 
 ### Unified Service Desk
 
@@ -52,9 +52,9 @@ The **Omnichannel Ongoing Conversations** dashboard is available in:
     > [!div class=mx-imgBorder]
     > ![Ongoing Conversations dashboard in Unified service desk.](../media/supervisor-usd-ongoing-conversations-dashboard.png "Ongoing Conversations dashboard in Unified service desk")
   
-### Customer Service workspace
+### Copilot Service workspace
 
-1. Go to *https://**YourOrganization**.dynamics.com/apps* and select **Customer Service workspace** on the **Apps** page.
+1. Go to *https://**YourOrganization**.dynamics.com/apps* and select **Copilot Service workspace** on the **Apps** page.
 
 2. Select the **Omnichannel Ongoing Conversations Dashboard** tab.
 
