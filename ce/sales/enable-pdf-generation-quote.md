@@ -2,7 +2,7 @@
 title: Enable or disable PDF generation from records
 description: Enable your users to create and share professional-looking PDF files for entity records with customers.
 ms.date: 01/23/2025
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

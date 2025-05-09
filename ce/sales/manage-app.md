@@ -2,7 +2,7 @@
 title: "Customize the Dynamics 365 Sales app"
 description: "Learn how to customize the Dynamics 365 Sales app."
 ms.date: 02/11/2025
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

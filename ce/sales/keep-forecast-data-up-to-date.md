@@ -2,7 +2,7 @@
 title: Recalculate forecasts manually
 description: Trigger a manual recalculation to refresh forecast data immediately instead of waiting for automatic recalculation.
 ms.date: 03/11/2025
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
