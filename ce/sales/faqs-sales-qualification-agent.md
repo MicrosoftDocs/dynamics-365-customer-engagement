@@ -34,7 +34,7 @@ When sellers choose to send an initial outreach email to a lead, the agent draft
 
 The Sales Qualification Agent is designed to help sellers automate manual aspects of lead qualification so that they can invest more time in one-on-one interactions with top leads. The agent is intended to be used as a productivity tool to help sellers qualify leads faster and more effectively. It's not intended to replace the seller's judgment or decision-making process.
 
-- **Configuration**: Admins can configure the agent to work for specific security roles. The security roles can include sellers who sell specific products or services and target an ideal customer. Admins can also configure the attributes of the ideal customer and the web sites that the agent should look at to get research insights.
+- **Configuration**: Admins can configure the agent to work for specific security roles. The security roles can include sellers who sell specific products or services and target an ideal customer. Admins can also configure the attributes of the ideal customer to determine a lead's fit. ```
 
 - **Research**: For each lead, sellers can access the **Lead insights** page that synthesizes insights about a lead and their company from data in Dataverse and public web sources.
 
