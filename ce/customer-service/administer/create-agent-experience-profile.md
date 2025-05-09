@@ -4,8 +4,8 @@ description: Learn how to create and manage experience profiles for customized s
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 04/02/2025
-ms.topic: article
+ms.date: 05/05/2025
+ms.topic: how-to
 ---
 
 # Create and use experience profiles
@@ -72,7 +72,7 @@ For the experience profile that you created, you can add users and configure opt
 
 ### Enable Copilot features for experience profiles
 
-To enable service representatives to use the copilot features in Copilot Service workspace, you need to enable the copilot features inexperience profiles. By default, service representatives added to the out-of-the-box experience profiles can use the Copilot features. Learn more in [Make Copilot available to service representatives](configure-copilot-features.md#make-copilot-available-to-agents).
+To enable service representatives to use the copilot features in Copilot Service workspace, you need to enable the copilot features inexperience profiles. By default, service representatives added to the out-of-the-box experience profiles can use the Copilot features. Learn more in [Make Copilot available to service representatives](configure-copilot-features.md#make-copilot-available-to-representatives).
 
 ### Related information
 

@@ -2,7 +2,7 @@
 title: "Manage hosted controls, actions, and events in Unified Service Desk | MicrosoftDocs"
 description: "The section provides information on how you can work with the hosted controls, User Interface Integration (UII) actions, action calls, and events in Unified Service Desk."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

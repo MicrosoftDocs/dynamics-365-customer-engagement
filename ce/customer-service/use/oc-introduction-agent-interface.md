@@ -2,7 +2,7 @@
 title: Introduction to agent interface
 description: Learn about the agent interface in the Omnichannel for Customer Service app and the capabilities that it offers to agents.
 ms.date: 08/30/2024
-ms.topic: article
+ms.topic: concept-article
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

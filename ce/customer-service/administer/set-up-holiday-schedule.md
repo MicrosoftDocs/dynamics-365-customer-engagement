@@ -1,8 +1,8 @@
 ---
 title: Create and manage holiday schedules
 description: Create a holiday schedule in the Customer Service app and configure service-level agreements to ensure your SLAs are not affected.
-ms.date: 06/21/2024
-ms.topic: article
+ms.date: 05/02/2025
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -24,17 +24,17 @@ Prevent your service-level agreements (SLAs) from being affected when your servi
 For example, if your service organization has an SLA to reply to email cases within two business days, you can create a holiday schedule and add it to your service calendar. Then, if a customer submits an email case on that holiday, your SLA is clear and the holiday closure doesn't affect it.  
 
 > [!NOTE]
-> With the latest release of Dynamics 365 Customer Service app, holiday schedule in service terms is available in the Customer Service admin center. We recommend that you create and manage holiday schedules using the new experience.
+> With the latest release of Dynamics 365 Customer Service app, holiday schedule in service terms is available in the Copilot Service admin center. We recommend that you create and manage holiday schedules using the new experience.
  
 ## Create a holiday schedule
 
-You can create a holiday schedule in the Customer Service admin center app.
+You can create a holiday schedule in the Copilot Service admin center app.
   
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
   
    - [!INCLUDE[proc_follow_steps_in_link](../../includes/proc-follow-steps-in-link.md)] [!INCLUDE[proc_dont_have_correct_permissions](../../includes/proc-dont-have-correct-permissions.md)]  
 
-1. In the site map of Customer Service admin center, select **Calendar** in **Operations**. The **Calendar** page appears.
+1. In the site map of Copilot Service admin center, select **Calendar** in **Operations**. The **Calendar** page appears.
 
 1. In the **Holiday calendar** section, select **Manage**. The **All Holiday Schedules** view is displayed. You can switch between various system views using the dropdown list.  
  

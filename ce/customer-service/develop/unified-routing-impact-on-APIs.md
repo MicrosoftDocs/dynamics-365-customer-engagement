@@ -2,7 +2,7 @@
 title: Understand how unified routing affects queue items and live work items for routed records
 description: Learn how unified routing affects queue items, live work items, and the corresponding APIs.
 ms.date: 02/04/2025
-ms.topic: conceptual
+ms.topic: get-started
 author: gandhamm
 ms.author: mgandham
 ms.custom: bap-template

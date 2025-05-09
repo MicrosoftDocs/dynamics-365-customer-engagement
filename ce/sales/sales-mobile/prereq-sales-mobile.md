@@ -1,7 +1,7 @@
 ---
 title: Set up the mobile experience for Dynamics 365 Sales
 description: Learn about the prerequisites for the Dynamics 365 Sales mobile app
-ms.date: 02/27/2023
+ms.date: 05/02/2025
 ms.topic: article
 author: sbmjais
 ms.author: shjais

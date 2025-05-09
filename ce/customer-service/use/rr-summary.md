@@ -4,15 +4,15 @@ description: Learn how to analyze and manage queue distribution and capacity use
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual 
+ms.topic: concept-article
 ms.collection:
-ms.date: 04/08/2025
+ms.date: 05/09/2025
 ms.custom: bap-template
 ---
 
 # View and understand real-time analytics for record routing in the summary report
 
-The Summary report appears by default when you select the real-time analytics for record routing dashboard in the Customer Service workspace or the Contact Center workspace app. You can filter this report by modified on, queue, agent, work item status, work item skill and time zone. The time filters that are available include **Last 24 hrs** and **Today**.
+The Summary report appears by default when you select the real-time analytics for record routing dashboard in the Copilot Service workspace app. You can filter this report by modified on, queue, agent, work item status, work item skill and time zone. The time filters that are available include **Last 24 hrs** and **Today**.
 
 The Summary report provides a summary of cases and records over time, by workstream or queue. Statistics about the workstream that a work item was created against can help you analyze and manage queue distribution and capacity use efficiency. For example, a high rate of unassigned work items can lead to decreased customer satisfaction. To address the rate of unassigned work items or long wait times before cases are assigned, you can examine operational metrics such as agent availability and case distribution for available agent capacity in real time. 
 

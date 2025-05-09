@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.collection: get-started
-ms.topic: article
+ms.topic: concept-article
 ms.date: 08/02/2024
 ---
 

@@ -2,7 +2,7 @@
 title: Manage case queues and route cases
 description: Understand cases and SLA in Customer Service Hub for Dynamics 365 Customer Service.
 ms.date: 12/13/2024
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

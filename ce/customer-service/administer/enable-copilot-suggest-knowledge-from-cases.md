@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.date: 04/20/2025
+ms.date: 04/30/2025
 ms.custom: bap-template
 ---
 
@@ -27,9 +27,9 @@ Copilot can generate knowledge articles from resolved cases. By using Copilot, y
 
 Do the following steps in Copilot Service admin center:
 
-1. In the site map, under Support experience, select **Knowledge**, and on the Knowledge page, select **Manage** for **Knowledge creation**.
-1. On the **Knowledge creation (preview)** page, in **Case-based knowledge creation**, select the following checkboxes to let customer service representatives use Copilot:
-    - **Let agents use Copilot to propose new knowledge based on case information during or after case resolution**
+1. In the site map, under **Support experience**, select **Knowledge**, and on the Knowledge page, select **Manage** for **Knowledge creation**.
+1. On the **Knowledge creation (preview)** page, in **Case-based knowledge creation**, select the following checkboxes to let representatives use Copilot:
+    - **Let representatives use Copilot to propose new knowledge based on case information during or after case resolution**
        - **In the case resolution step, keep the option to propose a knowledge article selected by default** 
 1. In **User experience data**, select the checkbox for the system to record user interactions with AI and their feedback on AI suggestions. The information can then be used to analyze knowledge sources and build usage reports.
 

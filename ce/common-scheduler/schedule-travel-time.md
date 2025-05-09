@@ -4,7 +4,7 @@ description: Learn how travel time and distance are calculated and visualized to
 ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.date: 05/21/2024
-ms.topic: conceptual
+ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
 ---

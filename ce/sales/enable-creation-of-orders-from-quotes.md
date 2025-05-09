@@ -2,7 +2,7 @@
 title: Enable creation of orders from quotes
 description: Quickly create orders from quotes in Dynamics 365 Sales so the relevant data is populated from the quote.
 ms.date: 01/23/2025
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

@@ -48,10 +48,15 @@ On the **Bots** page, you can review the agent details and also perform the foll
 
 ### Next steps
 
-[Add a bot to a workstream](create-workstreams.md#add-a-bot-to-a-workstream)  
-[End bot conversation](configure-bot-virtual-agent.md#end-agent-conversations)  
+[Add an agent to a workstream](create-workstreams.md#add-an-agent-to-a-workstream)  
+[End an agent conversation](configure-bot-virtual-agent.md#end-agent-conversations)  
 
 ### Related information
 
+<<<<<<< HEAD
 [Get started with Copilot Service admin center](../implement/cs-admin-center.md)  
 [Configure Copilot Studio bots for voice channel](voice-channel-pva-bots.md)  
+=======
+[Get started with Customer Service admin center](../implement/cs-admin-center.md)  
+[Configure agents in Copilot Studio for voice channel](voice-channel-pva-bots.md)  
+>>>>>>> 7e5a1f01cbec44816384f25be51d79001117fd33
