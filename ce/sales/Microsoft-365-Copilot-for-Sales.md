@@ -7,7 +7,7 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:11/13/2023
-ms.topic: article
+ms.topic: faq
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

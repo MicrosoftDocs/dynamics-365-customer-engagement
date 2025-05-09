@@ -2,7 +2,7 @@
 title: Enable supervisor access to manage conversations | MicrosoftDocs
 description: How to enable supervisors to monitor, assign, transfer, and close conversations in the Customer Service admin center app.
 ms.date: 6/14/2024
-ms.topic: article
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan

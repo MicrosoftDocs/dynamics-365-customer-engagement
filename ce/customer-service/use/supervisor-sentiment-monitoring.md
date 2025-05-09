@@ -2,7 +2,7 @@
 title: Sentiment monitoring
 description: Learn how supervisors can enable sentiment monitoring to understand customer sentiment across channels and improve customer service.
 ms.date: 09/10/2024
-ms.topic: article
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan

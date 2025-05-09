@@ -1,8 +1,8 @@
 ---
-title: Queue Dashboard | Microsoft Docs
+title: Queue Dashboard 
 description: Learn about the Queue dashboard to better understand customer service representative performance in your organization.
-ms.date: 10/12/2022
-ms.topic: article
+ms.date: 04/30/2025
+ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -21,7 +21,7 @@ The Queue dashboard gives you a broad overview of the customer service experienc
 By default, the dashboard shows key performance indicators (KPIs) for the past month and for all channels, queues, and customer service representatives (service representatives or representatives) in your system. You can use the data filtering options to select data for specific time periods, channels, queues, service representatives, conversation status, and time zone. To filter data by duration, channel, queue, service representative, conversation status, or time zone, select a value from the respective dropdown list.
 
 > [!NOTE]
-> If you switch to a different dashboard, the filter you specified will persist and be applied to the data on all dashboards.
+> If you switch to a different dashboard, the filter you specified persists and is applied to the data on all dashboards.
 
 ## Report details
 
@@ -80,12 +80,12 @@ The following charts are displayed in the Queue dashboard.
 
 | Consult/ Monitor | Descriptions | 
 | --------------------- | --------------------- |
-| Consult sessions | Number of sessions where the service representative has participated in consult mode. |
+| Consult sessions | Number of sessions where the service representative participated in consult mode. |
 | Avg consult time (min) | Average time a service representative spent during a session in consult mode. |
-| Monitor sessions | Number of sessions where the service representative has participated in monitor mode |
+| Monitor sessions | Number of sessions where the service representative participated in monitor mode |
 | Avg monitor time (min) | Average time a service representative spent on a session in monitoring mode | 
 
-A blue upward triangle next to the value indicates that the percentage has changed in a positive direction. A red downward triangle indicates that the percentage has changed in a negative direction.
+A blue upward triangle next to the value indicates that the percentage changed in a positive direction. A red downward triangle indicates that the percentage changed in a negative direction.
 
 ## Queue hourly details drill-down view
 
@@ -103,7 +103,7 @@ To view the drill-down report, select any single metric value on the required da
 [Dashboard overview](customer-service-analytics-insights-csh.md)  
 [Agent dashboard](agent-dashboard.md)  
 [Bot dashboard](oc-bot-dashboard.md)  
-[Conversation Topics dashboard](oc-conversation-topics-dashboard.md)  
+[Conversation articles dashboard](oc-conversation-topics-dashboard.md)  
 [Manage report bookmarks](manage-bookmarks.md)  
 
 

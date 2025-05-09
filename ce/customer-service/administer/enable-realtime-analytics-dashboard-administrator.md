@@ -2,7 +2,7 @@
 title: Manage real-time analytics reports in Omnichannel for Customer Service
 description: Configure real-time analytics in Omnichannel for Customer Service to give supervisors access to metrics and KPIs.
 ms.date: 02/03/2025
-ms.topic: article
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas

@@ -2,7 +2,7 @@
 title: "View call scripts, take notes, and search knowledge articles | MicrosoftDocs"
 description: "The right control panel hosts the agent scripts, notes, and knowledge articles search controls."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

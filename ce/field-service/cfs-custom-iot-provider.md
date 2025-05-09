@@ -3,7 +3,7 @@ title: Use custom IoT providers
 description: Integrate custom IoT solutions with Field Service through the IoT provider feature, which allows users to interact with IoT-enabled devices from any vendor.
 ms.date: 09/04/2024
 ms.subservice: connected-field-service
-ms.topic: conceptual
+ms.topic: article
 ms.author: vhorvath
 author: vhorvathms
 ms.custom:

@@ -4,7 +4,7 @@ description: Learn about the best practices for setting up the voice channel.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.topic: conceptual
+ms.topic: best-practice
 ms.collection:
 ms.date: 07/01/2024
 ms.custom: bap-template

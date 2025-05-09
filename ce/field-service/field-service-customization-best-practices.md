@@ -2,7 +2,7 @@
 title: Customization best practices
 description: Learn how to get the most out of your Dynamics 365 Field Service customizations.
 ms.date: 06/25/2024
-ms.topic: conceptual
+ms.topic: best-practice
 author: lmasieri
 ms.author: lmasieri
 ---

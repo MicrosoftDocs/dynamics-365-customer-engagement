@@ -2,7 +2,7 @@
 title: "UI Shell Framework in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the UI shell framework that enables developers to build a desktop for hosting integrated applications."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

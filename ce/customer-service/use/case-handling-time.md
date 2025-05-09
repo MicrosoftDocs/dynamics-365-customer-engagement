@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
-ms.date: 02/20/2025 
+ms.date: 05/05/2025 
 ms.custom: bap-template 
 ---
 
@@ -16,7 +16,7 @@ ms.custom: bap-template
 Case handling time is the total time you spend to actively work on a case. This includes time taken to review case details, past cases and customer interactions, do offline research, collaborate with team members, or document case notes. Case handling time helps supervisors measure your productivity and plan staffing.
 
 > [!NOTE]
-> Case handling time is supported in both custom and out-of-the-box single session apps, and out-of-the-box multisession apps only, such as Customer Service workspace.
+> Case handling time is supported in both custom and out-of-the-box single session apps, and out-of-the-box multisession apps only, such as Copilot Service workspace.
 
 You can view the following details on the case handling time widget:
 
@@ -31,7 +31,7 @@ You can also do these actions on the case handling time widget:
  > [!NOTE]
  > You can view the **My time** toggle only if your administrator has enabled it in Power Apps. If it doesn't appear, **Total Time** displays only the time you've spent on the case.
 - View when the timer was last updated. It refreshes automatically at the frequency set by your administrator. By default, it refreshes every 10 minutes. Select **Refresh** to update the timer and show the current time.
-   - In Customer Service workspace, when you select **Refresh**, the **Total Time**, **Automatic Time**, or **Manual Time** values are updated. The records in **History** aren't updated.  
+   - In Copilot Service workspace, when you select **Refresh**, the **Total Time**, **Automatic Time**, or **Manual Time** values are updated. The records in **History** aren't updated.  
   - In Customer Service Hub, the timer widget displays the updated time automatically at the frequency set by your administrator or when you refresh the case form, navigate from the browser or form. When you select **Refresh**, the **Total Time**, **Automatic Time**, **Manual Time**, and the records in **History** are updated.
 - [View history](#view-history).
 
@@ -41,7 +41,7 @@ You can also do these actions on the case handling time widget:
 The application tracks your time automatically when you focus on a specific case. Time is automatically tracked only when a case is open in a session tab or an app tab within a session tab. Automatic time tracking isn't supported when you switch from one case to another in the inbox.
 
 
-- In Customer Service workspace, the timer is affected as follows:
+- In Copilot Service workspace, the timer is affected as follows:
     
    | Scenario                                                                                           | Timer status                                     |
    | -------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
@@ -59,7 +59,7 @@ The application tracks your time automatically when you focus on a specific case
    | You create a new case and don't log time manually on the case or for activities. The **My Time** toggle is turned on.| The total time is 0 sec and is updated after the first update interval. The automatic timer starts tracking time real-time. Select refresh to manually update the total time.  |
    
   > [!NOTE]
-  > The app updates the database with the tracked time at regular intervals based on your administrator's configuration. If you refresh or close the browser in Customer Service workspace or Customer Service Hub, the app records the time for the last completed interval, but might not record the time from the ongoing interval. For example, if the update interval is set to 15 min, and you close the browser after 20 min, the app logs only 15 min. It might not capture the remaining 5 min, because the database wasn't updated in that time. 
+  > The app updates the database with the tracked time at regular intervals based on your administrator's configuration. If you refresh or close the browser in Copilot Service workspace or Customer Service Hub, the app records the time for the last completed interval, but might not record the time from the ongoing interval. For example, if the update interval is set to 15 min, and you close the browser after 20 min, the app logs only 15 min. It might not capture the remaining 5 min, because the database wasn't updated in that time. 
 
 - In Customer Service Hub, as long as the case is in focus, the timer runs. If you close or refresh the browser, navigate to a different entity or case form, the timer stops.
 
