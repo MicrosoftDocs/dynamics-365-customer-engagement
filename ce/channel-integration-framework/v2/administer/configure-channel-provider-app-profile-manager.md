@@ -4,7 +4,7 @@ description: Learn how to configure channel providers using Customer Service adm
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: article
+ms.topic: how-to
 ms.date: 03/29/2024
 ms.custom: 
   - "dyn365-a11y"

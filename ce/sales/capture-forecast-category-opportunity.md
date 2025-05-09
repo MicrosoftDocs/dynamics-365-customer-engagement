@@ -2,7 +2,7 @@
 title: "Capture forecast category for opportunity"
 description: "Capture the forecast category to indicate the confidence level of an opportunity getting converted into a sale."
 ms.date: 12/2/2024
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

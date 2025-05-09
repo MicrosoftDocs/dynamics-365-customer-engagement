@@ -1,7 +1,7 @@
 ---
 title: Configure context variables for agents
 description: Learn how you can add context variables and then configure them for Azure or Copilot Studio agents in Omnichannel for Customer Service.
-ms.date: 04/14/2025
+ms.date: 04/16/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -12,21 +12,18 @@ ms.custom: bap-template
 
 # Configure context variables for AI Agents
 
-
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+This article lists the context variables for Azure and Copilot agents, and how you can configure them in Omnichannel for Customer Service. To understand how to create context variables, see [Manage context variables](manage-context-variables.md).
 
-This article lists the context variables for Azure and Copilot Studio agents, and how you can configure them in Omnichannel for Customer Service. To understand how to create context variables, see [Manage context variables](manage-context-variables.md).
+## Context variables for Copilot agents
 
-## Context variables for Copilot Studio agents
-
-The following table contains the list of context variables available in Omnichannel for Customer Service that you can use for [configuring Copilot Studio agents](configure-bot-virtual-agent.md).
+The following table contains the list of context variables available in Omnichannel for Customer Service that you can use for [configuring Copilot agents](configure-bot-virtual-agent.md).
 
 > [!IMPORTANT]
-> - [Install the extension solutions](/power-virtual-agents/configuration-hand-off-omnichannel#recommended-extensions) to improve access to certain variables.
-> - Copilot Studio receives variables asynchronously during conversations, enabling AI agents to greet customers with low latency while using custom Contact Center data. When designing your agent, consider both data sources and retrieval times, as you might experience delays getting information from Dataverse environments. To manage late-arriving data, make sure you specify timeout settings in your variable definitions. Learn more in [Set global variables from external sources](/microsoft-copilot-studio/authoring-variables-bot?tabs=webApp#set-global-variables-from-external-sources).
+> To use the messaging and voice variables, ensure that you first [install the extension solutions](/power-virtual-agents/configuration-hand-off-omnichannel#install-extension-solutions).
 
 | Context variable type                  | Context variable name                     | Description                                                                                                     | How to map in Copilot Studio                                                                                     |
 |----------------------------------------|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
@@ -60,18 +57,17 @@ The following table contains the list of context variables available in Omnichan
 |                                        | msdyn_CustomerPhoneNumber                 | The phone number the customer is texting in from in WhatsApp and SMS channels.                                  | **String**: User's entire response.                                                                              |
 |                                        | msdyn_OrganizationPhoneNumber             | The phone number receiving messages from the customer (your organization’s number). Note this is not passed on WhatsApp via Azure Communication Services. | **String**: User's entire response.                                                                              |
 |                                        | msdyn_WhatsAppCustomerFirstMessage        | If you are using a pre-filled message in your WhatsApp universal link, that information will be passed in this variable. | **String**: User's entire response.                                                                              |
-| Voice-only variables **<sup>2</sup>**  | Activity.From.Name                        | Use this context variable for the customer's phone number in the Telephony activity. Assign this variable to a global variable in the **Conversation Start** topic. Learn more in [Configure context variables for Copilot Studio agent](#configure-context-variables-for-copilot-studio-agent).| Select the system variable from Microsoft Copilot Studio.  |
-|                                        | Activity.Recipient.Name                   | Use this context variable for the organization's phone number in the Telephony activity. Assign this variable to a global variable in the **Conversation Start** topic. Learn more in [Configure context variables for Copilot Studio agent](#configure-context-variables-for-copilot-studio-agent).                       | Select the system variable from Microsoft Copilot Studio.       |
+| Voice-only variables **<sup>2</sup>**  | Activity.From.Name                        | Use this context variable for the customer's phone number in the Telephony activity. Assign this variable to a global variable in the **Conversation Start** topic. Learn more in [Configure context variables for Copilot Studio agent](#configure-context-variables-for-copilot-agent).| Select the system variable from Microsoft Copilot Studio.  |
+|                                        | Activity.Recipient.Name                   | Use this context variable for the organization's phone number in the Telephony activity. Assign this variable to a global variable in the **Conversation Start** topic. Learn more in [Configure context variables for Copilot Studio agent](#configure-context-variables-for-copilot-agent).                       | Select the system variable from Microsoft Copilot Studio.       |
 | Extension method name                  | va_SurveyConsent                          | Use this dialog to determine if a customer has agreed to participate in surveys during the conversation.         | Use this method to escalate conversation details to Omnichannel for Customer Service.                            |
 |                                        | va_CustomerLocale                         | Use this dialog to transfer the user currently talking to the agent to another agent that can speak in a different language. | Set the code by selecting the input variable and using the correct locale code.                                  |
 
 
-- **<sup>1</sup>** Data is retrieved from your Dataverse environment as a part of [automatic customer identification](record-identification-rule.md). Your AI agent might experience latency when receiving this data.
-- **<sup> 2</sup>** To use other context variables for voice, you can obtain them from Copilot Studio. Learn more in [Work with variables](/microsoft-copilot-studio/authoring-variables).
+**<sup> 1</sup>** To use other context variables for voice, you can obtain them from Copilot Studio. Learn more in [Work with variables](/microsoft-copilot-studio/authoring-variables).
 
-## Configure context variables for Copilot Studio agent
+## Configure context variables for Copilot agent
 
-To have your Copilot Studio agent read context variables from Omnichannel, do the following steps:
+To have your Copilot agent read context variables from Omnichannel, do the following steps:
 
 1. On the **Conversation Start** topic, add a new node, and select **Variable management > Set a variable value**.
 4. In your new node, under **Set variable** select **Create new**.
@@ -84,7 +80,7 @@ To have your Copilot Studio agent read context variables from Omnichannel, do th
     
   > ![Configure context variable in a topic.](../media/Configure-bot-context-variable.png "Configure context variable in a topic")
 
-11. Save and publish the changes.
+9. Save and publish the changes.
 
 During a conversation, the data from the Omnichannel context variable is set in the Copilot Studio variables and can be used in the agent's logic. 
 
@@ -178,8 +174,6 @@ The following table contains the list of context variables in Omnichannel for Cu
 | WhatsApp Universal link message | msdyn_WhatsAppCustomerFirstMessage  | If you're using a pre-filled message in your WhatsApp universal link, that information is passed in this variable.  | **String**: User's entire response. |
 > [!NOTE]
 > Use the context variable names as defined and don't change them when you author flows in Azure or Copilot Studio agents. Also, be sure to use exact match to pass the value to the context variable because it's case-sensitive. If there's a mismatch, the record isn't automatically identified. More information: [Identify records automatically](record-identification-rule.md)
-
-
 
 ### Related information
 

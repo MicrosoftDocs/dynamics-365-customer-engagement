@@ -30,7 +30,7 @@ Administrators must have the CSR Manager or System Administrator role.
 Perform the following steps to set up autonomous case follow-up and closure:
 
 1. On the **Case settings** page, select **Manage** for **Case Management Agent**.
-2. On the **Case Management Agent** page, select **Autonomous case follow-up and closure**.
+2. On the **Case Management Agent** page, select **Autonomous case follow-up and closure (preview)**.
 3. On the page that appears, select **Turn on the case follow-up and closure automation**.
 1. Select **Add** to create a new rule for case follow-up and closure.
 1. In **Rules**, specify the following information. The AI agent evaluates the rules and when the conditions match, initiates the follow-up and closure process.

@@ -4,7 +4,7 @@ description: Learn how to view active conversation of incoming conversation requ
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.topic: article
+ms.topic: how-to
 ms.date: 04/30/2025
 ---
 

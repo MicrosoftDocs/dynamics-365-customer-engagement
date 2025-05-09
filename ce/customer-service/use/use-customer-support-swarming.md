@@ -2,7 +2,7 @@
 title: Customer support swarming for representatives
 description: Learn how to use customer support swarming to help resolve case issues more quickly in Dynamics 365 Customer Service.
 ms.date: 01/22/2025
-ms.topic: article
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan

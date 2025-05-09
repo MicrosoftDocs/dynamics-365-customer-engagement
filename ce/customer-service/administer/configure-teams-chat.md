@@ -4,7 +4,7 @@ description: Learn how to configure Microsoft Teams chat functionality in Dynami
 ms.date: 01/21/2025
 author: lalexms
 ms.author: laalexan
-ms.topic: article
+ms.topic: how-to
 ms.reviewer: laalexan
 search.audienceType: 
   - admin

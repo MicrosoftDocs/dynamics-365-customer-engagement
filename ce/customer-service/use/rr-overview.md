@@ -4,7 +4,7 @@ description: Learn how to configure and use real-time analytics for record routi
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: overview
 ms.date: 05/06/2025
 ms.custom: bap-template
 ---

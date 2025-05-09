@@ -4,7 +4,7 @@ description: Learn about how to use productivity automation macros in Dynamics 3
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: conceptual 
+ms.topic: reference
 ms.collection: 
 ms.date: 05/07/2025
 ms.custom: bap-template 

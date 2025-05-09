@@ -2,7 +2,7 @@
 title: Agent scripts in the Omnichannel for Customer Service app
 description: Learn how to use agent scripts in Customer Service workspace and serve customers faster.
 ms.date: 03/17/2025
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

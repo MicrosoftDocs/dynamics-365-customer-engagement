@@ -2,7 +2,7 @@
 title: Connect using a new Azure resource 
 description: Use this article to understand how to connect to Azure Communication Services using a new Azure resource in Copilot Service admin center.
 ms.date: 04/19/2025
-ms.topic: article
+ms.topic: reference
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

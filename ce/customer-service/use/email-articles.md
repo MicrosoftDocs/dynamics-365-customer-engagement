@@ -2,7 +2,7 @@
 title: Email knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
 description: Email knowledge articles by selecting the ellipsis, copying the URL, or using the Email button to autopopulate details and send via mail.
 ms.date: 04/09/2025
-ms.topic: article
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
