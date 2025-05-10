@@ -6,13 +6,16 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: concept-article
 ms.collection:
-ms.date: 04/02/2025
+ms.date: 05/09/2025
 ms.custom: bap-template
 ---
 
 # View and understand real-time analytics for record routing in the queue report
 
-The queue report lists all the advanced queues in the organization in a table by default. Content can be filtered by modified on, individual queue, agent, work item status, work item skill, and time zone.
+The queue report lists all the advanced queues in the organization in a table by default. Content can be filtered by modified on, individual queue, agent, work item status, work item skill, and time zone. 
+
+> [!NOTE]
+> This report shows entity record type queues only.
 
 :::image type="content" source="../media/record-routing-queue.png" alt-text="Screenshot real-time analytics for queue report":::
 
@@ -20,8 +23,8 @@ The queue table has the following sortable columns:
 
 |KPI |Description |
 |---------|---------|
-|Queue    |    Name of queue     |
-|Queue priority| Priority of the queue|
+|Queue    |    Name of entity record queue.    |
+|Queue priority| Priority of the queue. |
 |Assigned work items    | Work items that are assigned to customer service representative (service representative or representative) during the reporting period.       |
 |Unassigned work items| Work items during reporting period that haven't yet been assigned to a service representative, and that include transfers to queue.|
 |Longest wait time| Longest time for a work item during reporting period in queue until the status changed from open to active (assigned).|
