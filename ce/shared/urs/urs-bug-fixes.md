@@ -35,17 +35,17 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.140.416
 
-- Users can now switch resource view while the crew allocation tool is loading
-- Fixed a bug causing the booking card tooltip to refresh when loaded
-- Fixed a bug that was causing the schedule board to scroll when a booking was dragged off the schedule grid
-- Fixed a bug that was causing schedule assistant to respect the user time zone instead of the requirement's time zone when launched from  the requirement form
-- Fixed a bug that was inverting booking start/end times in booking rule parameters
-- Fixed a bug that was causing the wrong duration to be shown in the create booking panel after saving
+- Users can now switch resource view while the crew allocation tool is loading.
+- Fixed a bug causing the booking card tooltip to refresh when loaded.
+- Fixed a bug that was causing the schedule board to scroll when a booking was dragged off the schedule grid.
+- Fixed a bug that was causing schedule assistant to respect the user time zone instead of the requirement's time zone when launched from  the requirement form.
+- Fixed a bug that was inverting booking start/end times in booking rule parameters.
+- Fixed a bug that was causing the wrong duration to be shown in the create booking panel after saving.
 - Horizontal scroll location is now maintained on the schedule board when switching views. 
-- Fixed a bug that was impacting the display of working days on the schedule board
-- Improved Scheduling Operations Agent error messaging when the start of an optimization range is in the middle of a break 
-- Various visual improvements for Scheduling Operations Agent
-- Various security enhancements
+- Fixed a bug that was impacting the display of working days on the schedule board.
+- Improved Scheduling Operations Agent error messaging when the start of an optimization range is in the middle of a break.
+- Various visual improvements for Scheduling Operations Agent.
+- Various security enhancements.
 
 ## 3.12.149.15
 
