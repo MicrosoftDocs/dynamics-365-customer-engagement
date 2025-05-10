@@ -40,6 +40,18 @@ This release is a hotfix on Field Service version [8.8.135.351](/dynamics365/fie
 ## 8.8.134.351
 (Includes Universal Resource Scheduling version [3.12.150.416](/dynamics365/field-service/field-service-version-history-resource-scheduling#312150416) and Resource Scheduling controls version 1.2.89.250863)
 
+- **Work Order Summary GA**
+    - With GA, Work order summary will now cite references, generate considerably faster, and include a button to easily copy the output to the clipboard.
+- I**nspections builder [Public Preview]**
+    - Upload PDFs of existing inspection forms to generate questions in the inspection designer. 
+- **Bookings sync with Outlook and Teams [Private Preview]**
+    - This one-way sync, from dynamics to exchange, makes bookings automatically appear on exchange calendars by leveraging server-side synchronization.
+    - Learn more and sign up on this interest form: https://forms.office.com/r/gLUtW0fZEr.
+- Updating the service account on Work Order will now keep the functional location's address as the service address for the work order.
+- Play buttons no longer appear for unplayable videos under the "get up and running" section in started page.
+- Removed redundant calls to FS Survey plugin from work order.
+- Fixed an issue where bookings imported via configuration migration tool lost their relationship to work order.
+- Various security enhancements.
 - D365 Field Service Mobile: Updated Remote Assist command bar click action to open Remove Assist within Teams rather than (deprecated) Remote Assist mobile application.
 - D365 Field Service Mobile: Fixed a bug that caused exported Inspections PDFs to have larger file sizes when containing embedded images.
 - D365 Field Service Mobile: Several accessibility enhancements for the mobile interface.
