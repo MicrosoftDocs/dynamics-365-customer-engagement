@@ -4,7 +4,7 @@ description: Learn how to view and interpret the Ongoing conversation report in 
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
 ms.date: 04/30/2025
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
@@ -139,7 +139,7 @@ After you assign or transfer conversations, manually refresh the report to view 
 - [Manage real-time analytics reports in Omnichannel for Customer Service](../administer/enable-realtime-analytics-dashboard-administrator.md)<br>
 - [Overview of Omnichannel real-time analytics dashboard](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboard)<br>
 - [View and understand the Voice report in Omnichannel real-time analytics](realtime-voice-dashboard.md)<br>
-- [View and understand the Agents report in Omnichannel real-time analytics](realtime-agents-analytics.md#view-and-understand-the-agents-report-in-omnichannel-real-time-analytics)<br>
+- [View and understand the Agent report in Omnichannel real-time analytics](realtime-agents-analytics.md#view-and-understand-the-agent-report-in-omnichannel-real-time-analytics)  
 - [View and understand the Summary report in Omnichannel real-time analytics](realtime-summary-dashboard.md#view-and-understand-the-summary-report-in-omnichannel-real-time-analytics)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

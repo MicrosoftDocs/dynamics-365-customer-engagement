@@ -3,7 +3,7 @@ title: "Add Relationship intelligence widgets to custom forms"
 description: "If you're using custom forms, add the health score and who knows whom widgets manually to the form."
 ms.date: 02/14/2025
 ms.custom: 
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

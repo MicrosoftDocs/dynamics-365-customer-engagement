@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.date: 09/27/2022
-ms.topic: article
+ms.topic: how-to
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"

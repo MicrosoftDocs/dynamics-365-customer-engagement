@@ -5,7 +5,7 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ms-service: dynamics-365
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.date: 03/03/2025
 ms.custom: bap-template
 ---

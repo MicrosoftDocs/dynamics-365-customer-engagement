@@ -2,7 +2,7 @@
 title: Customize the case resolution dialog
 description: Add custom fields and values to the case resolution dialog to improve case management and organization.
 ms.date: 04/19/2025
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

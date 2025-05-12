@@ -1,8 +1,8 @@
 ---
 title: Migrate service-level agreements in Dynamics 365 Customer Service
 description: Migrate SLAs from the web client to Unified Interface for enhanced compliance, flexibility, and support for custom time calculations.
-ms.date: 04/09/2025
-ms.topic: article
+ms.date: 05/09/2025
+ms.topic: upgrade-and-migration-article
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -37,9 +37,9 @@ Before you begin the migration, learn how migrating to Unified Interface helps:
 
 ## How migration works
 
-To understand how you can migrate service-level agreements, see [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md#migrate-automatic-record-creation-rules-and-service-level-agreements).
+Learn more about migrating service-level agreements, in [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md#migrate-automatic-record-creation-rules-and-service-level-agreements).
 
-For queries about migration, see [Migration tool FAQ](migrate-tool-faqs.md#migration-tool-faq).
+Learn more in [Migration tool FAQ](migrate-tool-faqs.md#migration-tool-faq).
 
 ### Related information
 

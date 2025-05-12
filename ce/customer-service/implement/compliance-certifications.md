@@ -2,7 +2,7 @@
 title: Compliance certification for Dynamics 365 Customer Service
 description: This article provides information on compliance certification requirements for Dynamics 365 Customer Service. Use the link in the topic to download the file that contains the compliance information.
 ms.date: 03/07/2025
-ms.topic: conceptual
+ms.topic: reference
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

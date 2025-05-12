@@ -2,7 +2,7 @@
 title: "UIA property list in Unified Service Desk | MicrosoftDocs"
 description: "Use this topic to get a list of UI automation properties, such as Orientation and ControlType, used in Unified Service Desk."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: overview
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

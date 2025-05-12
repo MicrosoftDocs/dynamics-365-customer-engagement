@@ -3,7 +3,7 @@ title: Predict future revenue outcomes using premium forecasting
 description: Premium forecasting helps sellers and managers improve their forecast accuracy by providing forecast projections based on data.
 ms.date: 01/02/2025
 ms.custom: 
-ms.topic: article
+ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

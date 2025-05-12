@@ -5,7 +5,7 @@ ms.date: 04/08/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.topic: article
+ms.topic: how-to
 ---
 
 # Configure a chat widget

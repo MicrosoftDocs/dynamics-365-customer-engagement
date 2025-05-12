@@ -2,7 +2,7 @@
 title: Configure AI topic clustering for conversations
 description: Configure topic cLustering for conversations using AI.
 ms.date: 02/06/2025
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -44,7 +44,7 @@ The Summary and Model run summary views provide key information about how the to
 
 AI discovered topics in Omnichannel historical analytics are often prime candidates as topics for automation in Copilot agents. If Copilot Studio is available in the region that your Customer Service organization is in, you can enable the feature.
 
-1. In Customer Service admin center or Contact Center admin center, go to **Insights** > **Topics clustering for conversations** > **Manage**.
+1. In Copilot Service admin center, go to **Insights** > **Topics clustering for conversations** > **Manage**.
 1. In the **Topic automation** section of the **Topic clustering for conversation** page, enable the toggle.
 
 > [!NOTE]

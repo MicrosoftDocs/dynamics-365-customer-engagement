@@ -1,6 +1,6 @@
 ---
 title: Enable service representatives to search for contacts and open records from outbound dialer
-description: Enable agents to search for customer contacts or accounts by name, open records from Recents tab in the outbound dialer. 
+description: Enable service representatives to search for customer contacts or accounts by name, open records from Recents tab in the outbound dialer. 
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

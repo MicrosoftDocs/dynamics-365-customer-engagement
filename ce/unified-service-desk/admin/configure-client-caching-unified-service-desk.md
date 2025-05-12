@@ -2,7 +2,7 @@
 title: "Configure client caching in Unified Service Desk | MicrosoftDocs"
 description: "Learn about client caching, and also how you can configure and enable client caching in Unified Service Desk."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
