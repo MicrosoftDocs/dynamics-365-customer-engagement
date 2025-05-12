@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.date: 05/15/2025
+ms.date: 05/12/2025
 ms.custom: bap-template
 ---
 
@@ -132,7 +132,7 @@ During runtime, to indicate the intent and intent group that the case belongs to
 
 1.	In Power Apps, edit the **Case for multisession form** to add the intent and intent group fields. Learn more in [Add or delete columns to a form](/power-apps/maker/model-driven-apps/add-move-or-delete-fields-on-form).
    
-   :::image type="content" source="../media/screenshot-of-multisession-case-intent-attribute.png" alt-text="Screenshot of multisession case form for intent and intent group.":::
+    :::image type="content" source="../media/screenshot-of-multisession-case-intent-attribute.png" alt-text="Screenshot of multisession case form for intent and intent group.":::
 
 1. Import the PopulateIntent script file as a webresource. The script helps fetch the current attributes for the intent and intent group fields and populates them in the UI.
 1.	Go to **Form Properties** to link the script and attach it to the **OnLoad** event.
