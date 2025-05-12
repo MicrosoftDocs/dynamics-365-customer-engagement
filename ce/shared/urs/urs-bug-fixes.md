@@ -27,7 +27,7 @@ For information about older versions, see [Version history archive](../../field-
 **Dataverse:** 4.0.140.423
 
 - Fixed a bug that was causing "Move To" to not function for some users on the schedule board. 
-- Various security enhancements
+- Various security enhancements.
   
 ## 3.12.150.416
 
