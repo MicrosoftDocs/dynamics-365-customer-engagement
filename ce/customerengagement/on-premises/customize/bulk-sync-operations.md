@@ -6,7 +6,7 @@ ms.reviewer: ""
 
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: how-to
 author: "msftman"
 ms.assetid: 
 caps.latest.revision:
