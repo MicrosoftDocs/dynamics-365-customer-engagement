@@ -82,11 +82,11 @@ If none of the user groups match, the default user group configured for the inte
 1.	Select the **Default** checkbox if you want to use the selected group when no other user group matches.
 1.	Optionally, define the conditions that must match for the user group to be considered. These conditions are evaluated with the language and region settings for the user group.
 
-:::image type="content" source="../media/screenshot-of-manage-intent-groups.png" alt-text="Screenshot of manage intent groups in intent-based routing." lightbox="../media/screenshot-of-manage-intent-groups.png":::
+   :::image type="content" source="../media/screenshot-of-manage-intent-groups.png" alt-text="Screenshot of manage intent groups in intent-based routing." lightbox="../media/screenshot-of-manage-intent-groups.png":::
 
 The mapping is channel agnostic. For example, if you want  the same  user group to serve cases and chats and you want to write mapping rules on case and chat attributes, you must write rules addressing both the channels and use an OR operator between the two rule groups as seen in the following screenshot. The mapping rules are optional and by default user groups serve all channels for which intent-based routing is configured.
 
-:::image type="content" source="../media/screenshot-of-rules-for-channels.png" alt-text="Screenshot that shows the OR condition between channels.":::
+  :::image type="content" source="../media/screenshot-of-rules-for-channels.png" alt-text="Screenshot that shows the OR condition between channels.":::
 
 ## Assign queues to lines of business
 
@@ -123,8 +123,6 @@ You need to write classification rules to enrich live work item with the languag
 
 Follow the steps in [Assignment methods for queues](assignment-methods.md) to select an out-of-the-box assignment method. Even though users are not required to be a part of the queues, you can continue to configure the assignment strategy for the queues. During runtime, after a queue is identified, the system determines the user group. Then, based on the assignment strategy configured in the queue, the conversation is assigned to a user from the user group. 
 
-
-
 > [!NOTE]
 > The check for user language and region is implicitly done for the out-of-the-box assignment method.
 
@@ -133,6 +131,7 @@ Follow the steps in [Assignment methods for queues](assignment-methods.md) to se
 During runtime, to indicate the intent and intent group that the case belongs to, you can customize the case form to display the labels on the **Summary** tab of the case.
 
 1.	In Power Apps, edit the **Case for multisession form** to add the intent and intent group fields. Learn more in [Add or delete columns to a form](/power-apps/maker/model-driven-apps/add-move-or-delete-fields-on-form).
+   
    :::image type="content" source="../media/screenshot-of-multisession-case-intent-attribute.png" alt-text="Screenshot of multisession case form for intent and intent group.":::
 
 1. Import the PopulateIntent script file as a webresource. The script helps fetch the current attributes for the intent and intent group fields and populates them in the UI.
