@@ -35,8 +35,8 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.140.416
 
-- Users can now switch resource view while the crew allocation tool is loading.
-- Fixed a bug causing the booking card tooltip to refresh when loaded.
+- Users can now change the resource view while the crew allocation tool is loading.
+- Fixed a bug that was causing the booking card tooltip to refresh when loaded.
 - Fixed a bug that was causing the schedule board to scroll when a booking was dragged off the schedule grid.
 - Fixed a bug that was causing schedule assistant to respect the user time zone instead of the requirement's time zone when launched from  the requirement form.
 - Fixed a bug that was inverting booking start/end times in booking rule parameters.
