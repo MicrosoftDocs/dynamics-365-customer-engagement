@@ -1,7 +1,7 @@
 ---
 title: Use price lists
 description: Learn about using price lists in Dynamics 365 Field Service.
-ms.date: 05/08/2024
+ms.date: 05/12/2025
 ms.topic: how-to
 ms.author: jacoh
 author: jasonccohen
@@ -19,9 +19,7 @@ Define basic properties of the price list.
   
 1. In Field Service, change to the **Settings** area.
 
-1. In the **General** section, select **Price Lists**.
-
-1. Select **New**.
+1. In the **General** section, select **Price Lists**, and then select **New**.
 
 1. On the **General** tab, enter the following information:
 
@@ -59,7 +57,7 @@ You can add more pricing options for products and services by creating **Field S
 
 1. Open a price list.
 
-1. Select **Related** > **Field Service Price List Item**.
+1. Select **Related** > **Field Service Price List Items**.
 
 1. Select **New Field Service Price List Item**.
 
