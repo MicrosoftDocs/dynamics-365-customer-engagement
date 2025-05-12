@@ -4,7 +4,7 @@ description: "View high-level information on sales and sellers with AI-driven in
 keywords: ""
 ms.date: 11/24/2021
 ms.custom: 
-ms.topic: article
+ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

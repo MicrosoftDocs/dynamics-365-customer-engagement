@@ -2,7 +2,7 @@
 title: Add the assistant widget to a custom form
 description: Display the assistant widget on your customized forms in Dynamics 365 Sales.
 ms.date: 01/31/2025
-ms.topic: article
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag

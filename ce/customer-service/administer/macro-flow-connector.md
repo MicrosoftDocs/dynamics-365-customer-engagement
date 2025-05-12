@@ -4,20 +4,20 @@ description: Learn how to use flow connector to create macros.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: conceptual 
+ms.topic: concept-article
 ms.collection: 
-ms.date: 05/06/2024
+ms.date: 05/05/2025
 ms.custom: bap-template 
 ---
 # Use flow connectors
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-Flow connectors allow you to trigger Power Automate flows. You can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service and Customer Service workspace.
+Flow connectors allow you to trigger Power Automate flows. You can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service and Copilot Service workspace.
 
 ## Power Automate flow permissions
 
-When you use Power Automate flows, make sure that there's a valid connection and agents have adequate permissions to run the flow. See: [Manage owners and users in your Microsoft list flows with Power Automate](/sharepoint/dev/business-apps/power-automate/guidance/manage-list-flows).  
+When you use Power Automate flows, make sure that there's a valid connection and customer service representative have adequate permissions to run the flow. See: [Manage owners and users in your Microsoft list flows with Power Automate](/sharepoint/dev/business-apps/power-automate/guidance/manage-list-flows).  
  
 
 > [!NOTE]
@@ -26,7 +26,7 @@ When you use Power Automate flows, make sure that there's a valid connection and
 
 ## Run Flow
 
-This action triggers Power Automate flows using macros in agent scripts and has the following fields.
+This action triggers Power Automate flows using macros in scripts and has the following fields.
 
 | Field                | Description                             | 
 |----------------------|-----------------------------------------|

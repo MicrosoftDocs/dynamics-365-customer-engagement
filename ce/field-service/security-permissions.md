@@ -2,7 +2,7 @@
 title: Security roles and column-level security profiles
 description: Learn how security roles and column-level security profiles affect users in Dynamics 365 Field Service.
 ms.date: 10/28/2024
-ms.topic: conceptual
+ms.topic: article
 ms.author: jacoh
 author: jasonccohen
 ---

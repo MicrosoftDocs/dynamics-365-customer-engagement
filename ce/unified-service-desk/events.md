@@ -2,7 +2,7 @@
 title: "Events in Unified Service Desk | MicrosoftDocs"
 description: "Use this topic to get an overview of events in Unified Service Desk, how you can add action calls to events, and create user-defined events."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection: 
-ms.date: 04/04/2025
+ms.date: 05/09/2025
 ms.custom: bap-template
 ---
 
@@ -24,11 +24,11 @@ Customer Knowledge Management Agent lets you autonomously turn cases and case-re
 - [Dynamics 365 knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management) is configured.
 - You enabled Dynamics 365 knowledge base to be indexed by Copilot. You can utilize the internal knowledge base resources only for generating responses. Learn more in [Configure knowledge sources](copilot-enable-help-pane.md#configure-knowledge-sources).
 - You [configured connection references for Customer Knowledge Management Agent flow (preview)](admin-km-agent-connections.md#configure-connection-references-for-customer-knowledge-management-agent-flow-preview).
-- [Set up a pay-as-you-go plan](setup-pay-as-you-go.md#set-up-a-pay-as-you-go-plan).
+- [Manage consumption-based billing and capacity](setup-pay-as-you-go.md).
 
 ## Enable Customer Knowledge Management Agent
 
-In Customer Service admin center, go to **Agent experience** > **Knowledge** > **Customer Knowledge Management Agent (preview)**, and then select **Manage**. The **Customer Knowledge Management Agent (preview)** page appears.
+In Copilot Service admin center, go to **Support experience** > **Knowledge** > **Customer Knowledge Management Agent (preview)**, and then select **Manage**. The **Customer Knowledge Management Agent (preview)** page appears.
 
 Select from the following options as required for Customer Knowledge Management Agent.
 

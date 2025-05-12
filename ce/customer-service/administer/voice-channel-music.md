@@ -2,7 +2,7 @@
 title: Manage phone music in the voice channel 
 description: Use this topic to understand how you can configure hold and wait music in Contact Center admin center.
 ms.date: 12/14/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -31,7 +31,7 @@ The following characteristics are applicable to the music files.
 
 ## Edit music files
 
-You can update existing music files and replace them with your own music files in the Customer Service admin center or Contact Center admin center app.
+You can update existing music files and replace them with your own music files in the Copilot Service admin center app.
 
 **To update existing music files**
 
@@ -50,7 +50,7 @@ You can also add new music files to use them in calls as hold and wait music.
 
 **To add new music files**
 
-1.In the site map of Customer Service admin center or Contact Center admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
+1.In the site map of Copilot Service admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
 
 1.In the **Phone Music** section, select **Manage**. The **Phone music** page is displayed.
 
@@ -64,7 +64,7 @@ You can also add new music files to use them in calls as hold and wait music.
 
 ## Add hold and wait music to the workstream
 
-1. In Customer Service admin center or Contact Center admin center, go to the voice workstreams, and then select the workstream to configure the phone music.
+1. In Copilot Service admin center, go to the voice workstreams, and then select the workstream to configure the phone music.
 1. Select **Edit** next to the pencil icon, and then on the **Voice settings** page, select **Language**.
 1. Select the type of hold and wait music you want the customer to hear. For example, for the primary language, you might always want to use a certain type of hold music, but for a secondary language, you might choose a different type of music.
 1. When you've finished configuring the settings, select **Confirm**.

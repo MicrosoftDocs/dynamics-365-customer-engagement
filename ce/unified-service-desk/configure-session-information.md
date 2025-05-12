@@ -2,7 +2,7 @@
 title: "Configure session information | MicrosoftDocs"
 description: "Learn how to configure the format of the session tab name and session overview information by creating appropriate session line rules."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

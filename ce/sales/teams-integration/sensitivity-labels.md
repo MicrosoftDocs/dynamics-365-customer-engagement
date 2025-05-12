@@ -2,7 +2,7 @@
 title: "Protect content with sensitivity labels in Microsoft Teams | MicrosoftDocs"
 description: "Users can collaborate with others both inside and outside your organization. Learn how to use sensitivity labels to protect your content in Microsoft Teams."
 ms.date: 08/16/2024
-ms.topic: article
+ms.topic: how-to
 author: sbmjais
 ms.author: shjais
 ms.reviewer: shjais 

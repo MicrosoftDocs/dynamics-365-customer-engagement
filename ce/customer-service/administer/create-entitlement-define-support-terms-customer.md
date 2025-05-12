@@ -2,7 +2,7 @@
 title: Create entitlements to define support terms
 description: Define customer support terms by creating entitlements in Customer Service, specifying support hours/cases, product, contacts and more.
 ms.date: 12/13/2024
-ms.topic: article
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas

@@ -43,7 +43,7 @@ Perform the following steps to upload the web resource file for real-time transl
    1. Copy the link in the **URL** field. You'll provide this link in the administrator settings in [Customer Service admin center](../implement/cs-admin-center.md) or [Contact center admin center](/dynamics365/contact-center/administer/cc-admin-center) for configuring real-time translation.
    1. Select the option to publish all customizations on the **Solution** page, and close the form.
    
-6. In the site map of the admin center app, select **Productivity** under **Agent experience**, then select **Manage** for **Real-time translation**.
+6. In the site map of the admin center app, select **Productivity** under **Support experience**, then select **Manage** for **Real-time translation**.
 
 7. In the **Web resource URL** field, paste the link that you copied, and save the changes.
 
