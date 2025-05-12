@@ -32,9 +32,9 @@ Intent-based routing is an advanced approach that uses generative AI to enhance 
    - For cases, the system uses the case title, description, and case notes to determine the intent.
    - For conversations, the agent in Microsoft Copilot Studio generates customer intent based on its interaction with the customer. The same intent is used for routing.
 
-1.	An intent group is identified corresponding to the identified intent.
-1.	The conversation is routed through the workstream and queue, and a user group is identified based on the manually curated intent group to user group mapping.
-1.	From the identified user group, a matching user is found based on the queue’s assignment strategy.
+1. An intent group is identified corresponding to the identified intent.
+1. The conversation is routed through the workstream and queue, and a user group is identified based on the manually curated intent group to user group mapping.
+1. From the identified user group, a matching user is found based on the queue’s assignment strategy.
 
 ## Enable intent-based routing
 
