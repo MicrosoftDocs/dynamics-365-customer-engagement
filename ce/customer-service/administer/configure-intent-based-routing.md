@@ -89,9 +89,9 @@ The mapping is channel agnostic. For example, if you want the same user group to
 
 ## Assign queues to lines of business
 
-1.	On the **Customer Intent Agent (preview)** page, select **Manage** for **Assign queues to Lines of business**.
-1.	On the **Queues** page, select the queue to edit and on the page that appears, select **Edit** for **Line of business mapping**.
-1.	On the pane that appears, select a line of business from the list and save and close. The selected line of business is displayed on the queue page.
+1. On the **Customer Intent Agent (preview)** page, select **Manage** for **Assign queues to Lines of business**.
+1. On the **Queues** page, select the queue to edit and on the page that appears, select **Edit** for **Line of business mapping**.
+1. On the pane that appears, select a line of business from the list and save and close. The selected line of business is displayed on the queue page.
 
 ## Set up queues for record channel in intent-based routing
 
