@@ -532,7 +532,6 @@
         href: average-wait-time.md
       - name: Configure live conversation counter to view customer wait time
         href: configure-live-conv-counter.md
-        href: configure-customer-feedback.md
       - name: Delete a channel instance
         href: delete-channel.md
       - name: Manage enhanced Active Conversation settings
