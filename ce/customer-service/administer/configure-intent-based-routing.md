@@ -51,12 +51,12 @@ A user group can be a part of many intent groups and an intent group can be asso
 > [!NOTE]
 > Capacity profiles-based assignments only are supported.
 
-1.	On the **Customer Intent Agent (preview)** page, select **Manage** for **Create user groups**.
-1.	Select **New user group**.
-1.	Enter a group name and description, and then select a line of business.
-1.	Do the following:
+1. On the **Customer Intent Agent (preview)** page, select **Manage** for **Create user groups**.
+1. Select **New user group**.
+1. Enter a group name and description, and then select a line of business.
+1. Do the following:
    - On the **Attributes** tab:
-      1.	Select one or more languages in the Language list. You can expand the categories for the languages and select the applicable ones.
+      1. Select one or more languages in the Language list. You can expand the categories for the languages and select the applicable ones.
       1. Select the regions that are applicable.
    
          The selections indicate the languages and regions that the user group supports. During runtime, the user group attributes are implicitly matched based on the requirements for the work item. You don't have to write mapping rules for the user group attributes. You can also set the language and regions for each user in the user management page.
