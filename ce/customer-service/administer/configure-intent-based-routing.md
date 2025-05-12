@@ -21,7 +21,6 @@ Intent-based routing is an advanced approach that uses generative AI to enhance 
 ## Prerequisites
 
 - [Customer Intent Agent is enabled](/dynamics365/contact-center/administer/manage-customer-intent-agent#enable-customer-intent-agent).
-
 - [Lines of business are created](/dynamics365/contact-center/administer/manage-customer-intent-agent#manage-lines-of-business).
 - [Intent discovery is set up](/dynamics365/contact-center/administer/manage-customer-intent-agent#manage-intent-discovery-setup).
 - [intents are created and in approved state](/dynamics365/contact-center/administer/manage-customer-intent-agent#manage-intents).
@@ -57,7 +56,7 @@ A user group can be a part of many intent groups and an intent group can be asso
 1.	Enter a group name and description, and then select a line of business.
 1.	Do the following:
    - On the **Attributes** tab:
-      1.	Select one or more languages in the Language   list. You can expand the categories for the languages and select the applicable ones.
+      1.	Select one or more languages in the Language list. You can expand the categories for the languages and select the applicable ones.
       1. Select the regions that are applicable.
    
          The selections indicate the languages and regions that the user group supports. During runtime, the user group attributes are implicitly matched based on the requirements for the work item. You don't have to write mapping rules for the user group attributes. You can also set the language and regions for each user in the user management page.
@@ -84,7 +83,7 @@ If none of the user groups match, the default user group configured for the inte
 
    :::image type="content" source="../media/screenshot-of-manage-intent-groups.png" alt-text="Screenshot of manage intent groups in intent-based routing." lightbox="../media/screenshot-of-manage-intent-groups.png":::
 
-The mapping is channel agnostic. For example, if you want  the same  user group to serve cases and chats and you want to write mapping rules on case and chat attributes, you must write rules addressing both the channels and use an OR operator between the two rule groups as seen in the following screenshot. The mapping rules are optional and by default user groups serve all channels for which intent-based routing is configured.
+The mapping is channel agnostic. For example, if you want the same user group to serve cases and chats and you want to write mapping rules on case and chat attributes, you must write rules addressing both the channels and use an OR operator between the two rule groups as seen in the following screenshot. The mapping rules are optional and by default user groups serve all channels for which intent-based routing is configured.
 
   :::image type="content" source="../media/screenshot-of-rules-for-channels.png" alt-text="Screenshot that shows the OR condition between channels.":::
 
@@ -109,7 +108,7 @@ In intent-based routing, users aren't required to be part of queues. However, fo
 
 You must make sure that the workstreams and their associated queues belong to the same line of business so that the conversations are routed within the same line of business.
 
-1.	On the **Customer Intent Agent (preview)** page, select **Manage** for** Assign workstream to Lines of business**.
+1.	On the **Customer Intent Agent (preview)** page, select **Manage** for **Assign workstream to Lines of business**.
 1.	On the **Workstreams** page, select the workstream to edit, and on the page that appears, select **Edit for Intent-based routing**.
 1.	On the pane that appears, select a line of business from the list and save and close. The selected line of business is displayed on the workstream page.    
 
