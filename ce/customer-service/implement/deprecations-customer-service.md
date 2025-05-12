@@ -19,7 +19,7 @@ Administrators and IT professionals can use this information to prepare for futu
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
-## Legacy version of Conversation Topics in Customer Service Contact Center is deprecated
+## Legacy version of Conversation Topics in Customer Service and Contact Center is deprecated
 
 The legacy version of Conversation Topics in Dynamics 365 Customer Service and Dynamics 365 Contact Center is deprecated as of May 30, 2025. The support for the feature will end and the feature will be removed on July 31, 2025.
 
