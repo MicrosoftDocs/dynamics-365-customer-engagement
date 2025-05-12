@@ -16,7 +16,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 This article answers your most frequently asked questions about the free product trial of Customer Service and Omnichannel for Customer Service.
 
@@ -49,7 +49,7 @@ In the trial version, the Copilot Studio copilots are available in the English l
 The environment you receive in trial is a fully functional, Power Platform environment with the following out-of-the-box capabilities:
 
 - Dynamics 365 Customer Service Enterprise
-  - Customer Service workspace with AI-powered case and knowledge suggestions, knowledge search, and agent scripts with macros for common tasks automation
+  - Copilot Service workspace with AI-powered case and knowledge suggestions, knowledge search, and scripts with macros for common tasks automation
   - Case management, knowledge management, email
 - Digital Messaging and Voice Channel for Dynamics 365 Customer Service
   - Chat, voice, and other digital messaging channels, and unified routing
@@ -58,9 +58,9 @@ The environment you receive in trial is a fully functional, Power Platform envir
 - Power Apps
   - To create app profiles, configure templates, customize the solution
 - Copilot Studio
-  - To add Copilot Studio bot to chat and channels
+  - To add Copilot agent to chat and channels
   > [!NOTE]
-  > If you use a personal email ID for the Customer Service trial, you can't customize the Copilot Studio bot. The default Copilot Studio bot that's used in scenarios like voice and chat tour will work with the personal email address. However, you can't access the links to customize the bot using the Copilot Studio designer.
+  > If you use a personal email ID for the Customer Service trial, you can't customize the Copilot agent. The default Copilot agent that's used in scenarios like voice and chat tour will work with the personal email address. However, you can't access the links to customize the agent using the Copilot Studio designer.
 
 - Dynamics 365 Customer Voice
   - To add pre and post-conversation surveys in messaging
@@ -106,5 +106,5 @@ For the list of languages supported in Omnichannel for Customer Service, see [La
 ### Related information
 
 [Try Customer Service](try-customer-service.md)  
-[Overview of Customer Service workspace](csw-overview.md)  
+[Overview of Copilot Service workspace](csw-overview.md)  
 [Try channels in Omnichannel for Customer Service](try-channels.md)  

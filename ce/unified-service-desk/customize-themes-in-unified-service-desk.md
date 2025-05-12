@@ -2,7 +2,7 @@
 title: "Customize themes in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use predefined and customized themes to define the look and feel of your agent application in Unified Service Desk."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

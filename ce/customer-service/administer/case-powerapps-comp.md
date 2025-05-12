@@ -4,7 +4,7 @@ description: Learn how to add the right Power Apps components to case management
 author: gandhamm 
 ms.author: v-slaik
 ms.reviewer: neeranelli 
-ms.topic: conceptual 
+ms.topic: concept-article
 ms.date: 03/03/2025
 ms.custom: bap-template 
 ---

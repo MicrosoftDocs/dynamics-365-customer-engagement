@@ -2,7 +2,7 @@
 title: Add LinkedIn Sales Navigator controls to forms
 description: Learn how to add LinkedIn Sales Navigator controls to a form. This page walks you through an example which can be followed in the same way on other entities.
 ms.date: 01/31/2025
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 keywords: custom control, sales navigator, linkedin, integration, customization

@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 03/28/2025
+ms.date: 05/09/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -18,7 +18,7 @@ ms.custom:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Supervisors and content managers can view the **Overall performance** report on the **Knowledge analytics** dashboard in Customer Service workspace to get analytics on Customer Knowledge Management Agent. The effectiveness of Copilot responses depends on the quality of the knowledge base. To create and maintain high-quality knowledge articles, supervisors require insights on:
+Supervisors and content managers can view the **Overall performance** report on the **Knowledge analytics** dashboard in Copilot Service workspace to get analytics on Customer Knowledge Management Agent. The effectiveness of Copilot responses depends on the quality of the knowledge base. To create and maintain high-quality knowledge articles, supervisors require insights on:
 
 - How articles are created.
 - Where articles are in the review and publish workflow.

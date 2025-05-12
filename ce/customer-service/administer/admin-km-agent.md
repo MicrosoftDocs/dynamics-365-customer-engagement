@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection: 
-ms.date: 04/04/2025
+ms.date: 05/09/2025
 ms.custom: bap-template
 ---
 
@@ -28,7 +28,7 @@ Customer Knowledge Management Agent lets you autonomously turn cases and case-re
 
 ## Enable Customer Knowledge Management Agent
 
-In Customer Service admin center, go to **Agent experience** > **Knowledge** > **Customer Knowledge Management Agent (preview)**, and then select **Manage**. The **Customer Knowledge Management Agent (preview)** page appears.
+In Copilot Service admin center, go to **Support experience** > **Knowledge** > **Customer Knowledge Management Agent (preview)**, and then select **Manage**. The **Customer Knowledge Management Agent (preview)** page appears.
 
 Select from the following options as required for Customer Knowledge Management Agent.
 

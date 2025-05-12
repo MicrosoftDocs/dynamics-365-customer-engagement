@@ -12,7 +12,7 @@ author: shwetamurkute
 ms.author: smurkute
 search.audienceType: 
   - enduser
-ms.topic: conceptual
+ms.topic: article
 ---
 # Import and export data
 

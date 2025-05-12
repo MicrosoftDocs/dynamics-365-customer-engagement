@@ -2,7 +2,7 @@
 title: "WinDDA in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the Windows data-driven adapter (WinDDA) and its binding elements to access HTML-based applications in Unified Service Desk."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: overview
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

@@ -3,7 +3,7 @@
 title: Create a hosted control to load webpages from apps that aren't model-driven
 description: This article explains how to create a Standard Web Application hosted control that can use script injection to load webpages from apps that aren't model-driven.
 ms.date: 03/28/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 search.audienceType:

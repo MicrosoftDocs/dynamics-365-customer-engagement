@@ -6,7 +6,7 @@ ms.reviewer: smurkute
 description: Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook.
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 apps 
   - Dynamics 365 apps (on-premises)

@@ -15,7 +15,7 @@ ms.author: smurkute
 search.audienceType: 
   - enduser
 
-ms.topic: conceptual
+ms.topic: article
 ---
 # Collaborate with your team
 

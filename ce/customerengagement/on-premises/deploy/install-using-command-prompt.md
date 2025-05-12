@@ -6,7 +6,7 @@ ms.custom: ""
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 applies_to: 
   - "Dynamics 365 (on-premises)"
 ms.assetid: 83f0f6ac-3b36-451f-ab22-16948961fe9c
