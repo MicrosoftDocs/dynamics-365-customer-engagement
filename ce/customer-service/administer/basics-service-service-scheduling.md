@@ -1,11 +1,11 @@
 ---
 title: Overview of Service Scheduling
 description: This article provides an overview of service scheduling, detailing how to optimally schedule resources for improved service quality and efficiency.
-ms.date: 07/30/2024
+ms.date: 04/22/2025
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: overview
 ms.custom: 
 - bap-template
 - evergreen
@@ -93,7 +93,7 @@ Let's see how Contoso accomplishes the task:
     
 [Understand scheduling entities](scheduling.entities.md#understand-scheduling-entities)  
 [Set up the Service Scheduling experience](scheduling-experience.md)  
-[Access scheduling in the Customer Service Hub and Customer Service workspace](access-scheduling.md)  
+[Access scheduling in the Customer Service Hub and Copilot Service workspace](access-scheduling.md)  
 [Install Service Scheduling from Power Platform](install-service-scheduling-from-power-platform.md)  
 [Service Scheduling FAQ](service-scheduling-faq.md) 
 

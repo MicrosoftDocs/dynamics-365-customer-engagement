@@ -2,7 +2,7 @@
 title: "Use the Debugger control in Unified Service Desk | MicrosoftDocs"
 description: "Learn to use the Debugger hosted control to view and test UII actions and action calls in Unified Service Desk."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

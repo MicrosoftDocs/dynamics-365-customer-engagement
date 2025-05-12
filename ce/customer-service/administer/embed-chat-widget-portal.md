@@ -1,7 +1,7 @@
 ---
 title: Embed chat widget in your website or portal
 description: Embed a chat widget in your website, portal, or mobile experience to provide customers with a personalized experience.
-ms.date: 02/05/2025
+ms.date: 04/15/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -22,7 +22,7 @@ ms.custom:
 
 Do the following steps to embed the chat widget in a website or Power Apps portal.
 
-1. In Dynamics 365, go to Customer Service admin center.
+1. In Dynamics 365, go to Copilot Service admin center.
 
 1. Go to **Channels** &gt; **Chat**.
 
@@ -43,11 +43,14 @@ Do the following steps to embed the chat widget in a website or Power Apps porta
 
 If you don't see your chat widget in the portal, see [Troubleshoot issues in Omnichannel for Customer Service](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/chat-widget-not-loading-portal).
 
+## Embed single script for multiple chat widgets and workstreams
+
+[Deploy chat widgets across websites using a single tag](deploy-using-single-tag.md)  
 
 ## Embed chat widget in mobile experiences
 
 1. Create the code snippet. Refer to [Render a live chat widget on the mobile app](../develop/render-live-chat-widget-mobile.md) for samples showing how to enable rendering of the web version of the live chat widget on mobile devices.
-1. In Customer Service admin center, go to **Channels** &gt; **Chat**.
+1. In Copilot Service admin center, go to **Channels** &gt; **Chat**.
 1. Open the chat widget you want to embed in your website or create a new one.
 1. On the **Chat widget** tab, copy the widget code snippet in the **chat widget** section and paste it in the source code of your mobile operating system.
 
@@ -78,6 +81,7 @@ After you configure the chat widget, it has the following capabilities:
 
 [Supported browsers for live chat widget](../implement/system-requirements-omnichannel.md#browsers-for-chat)  
 [Add a chat widget](add-chat-widget.md)  
+[Deploy chat widgets across websites using a single tag](deploy-using-single-tag.md)  
 [Configure a pre-conversation survey](configure-pre-chat-survey.md)  
 [Configure agent display name](agent-display-name.md)  
 [Configure file attachment capability](configure-file-attachment.md)  

@@ -1,7 +1,7 @@
 ---
 title: Create and manage capacity profiles
 description: Learn how to create and manage capacity profiles for service representatives, and set custom limits for the profiles.
-ms.date: 03/31/2025
+ms.date: 04/16/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -40,7 +40,7 @@ Create a capacity profile, and use it in a workstream for routing work items.
 
 For a capacity profile, you can add or remove users and edit any setting except reset frequency. If you no longer require the profile, you can delete it.
 
-1. In the site map of Customer Service admin center, select **User management** in **Customer support**. The **User management** page appears.
+1. In the site map of Copilot Service admin center, select **User management** in **Customer support**. The **User management** page appears.
    
 1. Select the **Manage** option for **Capacity profile**.
 
@@ -74,7 +74,7 @@ For selective representatives, you can define a work item limit that's different
 
 To set the custom limits, do the following steps:
 
-1. In Customer Service admin center, select **User management** under **Customer support**, and on the page that appears, select **Manage** for **Enhanced user management**.
+1. In Copilot Service admin center, select **User management** under **Customer support**, and on the page that appears, select **Manage** for **Enhanced user management**.
 1. In **Contact center users**, select the representatives for whom you want to allocate a custom limit, and then select **Update user attributes** > **Update capacity profiles**.
 1. On the **Update Capacity profiles** pane, in **Capacity profiles**, select a profile, and in **Custom limit**, enter a value according to your business need.
 1. Select **Add to all**. The capacity profile with the custom limit is added to the users in the list. 

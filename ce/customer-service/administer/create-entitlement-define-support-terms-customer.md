@@ -2,7 +2,7 @@
 title: Create entitlements to define support terms
 description: Define customer support terms by creating entitlements in Customer Service, specifying support hours/cases, product, contacts and more.
 ms.date: 12/13/2024
-ms.topic: article
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -24,11 +24,11 @@ Define what kind of support your customers are eligible for by creating entitlem
 
 ## Create an entitlement
 
-You can create an entitlement in the Customer Service admin center app.
+You can create an entitlement in the Copilot Service admin center app.
   
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)] You can check your security permissions by following the steps in [View your user profile](../../customerengagement/on-premises/basics/view-your-user-profile.md).
 
-1. In the site map of Customer Service admin center, select **Service terms** in **Operations**. The **Service terms** page appears.
+1. In the site map of Copilot Service admin center, select **Service terms** in **Operations**. The **Service terms** page appears.
 1. In the **Entitlements** section, select **Manage**.
 
    The **All Entitlements** view is displayed. You can switch between various system views using the drop-down list.  

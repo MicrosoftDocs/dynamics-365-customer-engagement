@@ -2,7 +2,7 @@
 title: Gain insights with dashboards | MicrosoftDocs
 description: Learn how to navigate different types of dashboards, apply filters, and perform quick actions to enhance your sales processes.
 ms.date: 03/19/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

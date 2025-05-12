@@ -5,7 +5,7 @@ ms.date: 08/30/2024
 author: jshotts
 ms.author: jasonshotts
 ms.reviewer: mhart
-ms.topic: conceptual
+ms.topic: article
 ms.custom: bap-template
 ---
 

@@ -2,7 +2,7 @@
 title: "Walkthrough 8: Use knowledge base within your agent application | MicrosoftDocs"
 description: "Use this walkthrough to understand the prerequisites and procedures for configuring panels to display knowledge base records."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

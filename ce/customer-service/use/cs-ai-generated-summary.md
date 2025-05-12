@@ -2,7 +2,7 @@
 title: Auto-summarize conversations in Customer Service
 description: View an AI-generated summary of a customer conversation and share it in Microsoft Teams.
 ms.date: 03/17/2025
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -14,6 +14,9 @@ ms.collection: bap-ai-copilot
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
+> [!NOTE]
+> Auto-summarization for conversations is now deprecated. We recommend that you use Copilot-generated conversation summaries instead. Learn more in [Enable Copilot generated conversation summaries](/dynamics365/contact-center/use/copilot-summarize-conversations#view-a-conversation-summary).
 
 
 > [!NOTE]

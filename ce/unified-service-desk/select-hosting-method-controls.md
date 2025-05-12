@@ -2,7 +2,7 @@
 title: "Select a hosting method for your controls in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the various hosting methods that you can use to host your webpages in Unified Service Desk."
 ms.date: 06/27/2024
-ms.topic: "article"
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

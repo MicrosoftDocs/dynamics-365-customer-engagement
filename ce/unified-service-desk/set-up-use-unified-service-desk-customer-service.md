@@ -2,7 +2,7 @@
 title: "Set up and use Unified Service Desk for customer service | MicrosoftDocs"
 description: "Learn about components such as action calls, events, and hosted controls, that you need to set up and use Unified Service Desk for customer service."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

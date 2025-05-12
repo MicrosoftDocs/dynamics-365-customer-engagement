@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.date: 02/13/2023
-ms.topic: article
+ms.topic: overview
 ---
 
 # Use automation dictionary to pass parameter keys

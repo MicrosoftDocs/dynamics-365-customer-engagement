@@ -2,7 +2,7 @@
 title: "Create forms to define layout and behavior of the notification | MicrosoftDocs"
 description: "Learn how to create forms to define layout and behavior of the toast notification for the Omnichannel for Customer Service agents using Unified Service Desk."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

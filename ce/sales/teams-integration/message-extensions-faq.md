@@ -2,7 +2,7 @@
 title: Messaging extensions FAQs
 description: Use this topic to find frequently asked questions (FAQs) and answers about messaging extensions.
 ms.date: 03/15/2024
-ms.topic: article
+ms.topic: faq
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais

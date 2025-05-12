@@ -2,7 +2,7 @@
 title: Create quick replies
 description: Learn how to set up quick replies for representatives in Customer Service admin center.
 ms.date: 03/03/2025
-ms.topic: article
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan

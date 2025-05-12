@@ -2,7 +2,7 @@
 title: Summary dashboard
 description: Learn about the Summary dashboard insights overview to better understand your organization's customer service experience.
 ms.date: 02/03/2025
-ms.topic: conceptual
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan

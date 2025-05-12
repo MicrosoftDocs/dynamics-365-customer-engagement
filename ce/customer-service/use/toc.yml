@@ -96,6 +96,8 @@
         items:
           - name: Use the inbox
             href: use-inbox.md
+          - name: Create personalized inbox views
+            href: inbox-create-personalized-view.md
       - name: Timeline
         items: 
           - name: Use timeline
@@ -292,7 +294,7 @@
           href: oc-view-ai-suggested-cases-articles.md
         - name: View smart assist suggestions
           href: oc-smart-assist.md
-        - name: View the agent calendar
+        - name: Use the Schedule Calendar
           href: use-agent-calendar.md
         - name: Use agent diagnostics as a self-help tool
           href: use-agent-diagnostics.md
@@ -336,7 +338,7 @@
             href: realtime-voice-dashboard.md
           - name: Bot report
             href: /dynamics365/contact-center/use/agent-realtime-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
-          - name: Agents report
+          - name: Agent report
             href: realtime-agents-analytics.md
           - name: Ongoing Conversation report
             href: realtime-ongoing.md

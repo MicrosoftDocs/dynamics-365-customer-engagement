@@ -4,7 +4,7 @@ description: Use auto capture to collect customer-related activities from your O
 keywords: 
 ms.date: 03/21/2025
 ms.custom: bap-template
-ms.topic: article
+ms.topic: concept-article
 ms.assetid: 1d005ded-099e-4d66-a435-f1024e1316b6
 author: udaykirang
 ms.author: udag

@@ -1,7 +1,7 @@
 ---
 title: Omnichannel for Customer Service dashboards
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs in Omnichannel for Customer Service to manage contact centers.
-ms.date: 02/10/2025
+ms.date: 04/21/2025
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -19,8 +19,6 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 # Omnichannel for Customer Service dashboards
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
-
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
