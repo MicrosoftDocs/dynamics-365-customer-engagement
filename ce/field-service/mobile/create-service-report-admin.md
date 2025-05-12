@@ -3,7 +3,7 @@ title: Enable technicians to create service reports
 description: Learn how to set up and customize service reports for Field Service technicians.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-ms.date: 04/30/2025
+ms.date: 05/12/2025
 author: JonBaker007
 ms.author: jobaker
 ---
@@ -18,7 +18,7 @@ Administrators or developers can add a reporting solution as a custom control, a
 
 For detailed instructions, see [Add a custom reporting control for service reports in Dynamics 365 Field Service](/dynamics365/guidance/resources/fs-reporting-solution-service-reports).
 
-> [!CAUTION]
+> [!IMPORTANT]
 > The source code and managed solution provided is supplied "as-is" without any warranties or guarantees. Microsoft will not provide support for any issues or inquiries related to this code and its associated controls.
 
 ## Next steps

@@ -3,7 +3,7 @@ title: Create service reports
 description: Learn how to create service reports in the field with Dynamics 365 Field Service.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-ms.date: 04/30/2025
+ms.date: 05/12/2025
 author: JonBaker007
 ms.author: jobaker
 ---
