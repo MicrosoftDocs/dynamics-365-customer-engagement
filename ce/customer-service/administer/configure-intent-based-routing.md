@@ -105,7 +105,6 @@ In intent-based routing, users aren't required to be part of queues. However, fo
 | Traditional routing | Public   |Add users to both user groups and queues           |
 |Traditional routing| Private<br>Recommended approach              |  Add users to both user groups and queues |
 
-
 ## Assign workstream to lines of business
 
 You must make sure that the workstreams and their associated queues belong to the same line of business so that the conversations are routed within the same line of business.
@@ -166,4 +165,4 @@ You can view the conversation diagnostics in App Insights. Learn more in [Config
 
 ### Related information
 
-[Overview of Customer Intent Agent](/dynamics365/contact-center/administer/overview-customer-intent-agent)
+[Overview of Customer Intent Agent](/dynamics365/contact-center/administer/overview-customer-intent-agent)  
