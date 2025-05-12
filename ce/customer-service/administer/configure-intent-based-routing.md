@@ -63,9 +63,9 @@ A user group can be a part of many intent groups and an intent group can be asso
       
          The language and region are supported as new out-of-the-box entities. You can configure the list of supported languages and regions as explained here.
    - On the **Users** tab:
-      1.	Select **Add**, and in the list that appears, choose the users that you want to add.
-      1.	Select **Add**.
-      1.	Save the changes.
+      1. Select **Add**, and in the list that appears, choose the users that you want to add.
+      1. Select **Add**.
+      1. Save the changes.
 
 ## Map user groups with intent groups
 
@@ -75,11 +75,11 @@ If multiple conditions in the intent group to user groups mapping match the work
 
 If none of the user groups match, the default user group configured for the intent group is selected. You can also set up a fallback user group for a line of business to which a conversation can be routed when no intents or intent groups are identified or fail to match.
 
-1.	On the **Customer Intent Agent (preview)** page, select **Manage** for **Add user groups to intent groups**.
-1.	Select an intent group, and on **User groups** tab, select **Add group**.
-1.	On **Add user group**, select a user group in the list.
-1.	Select the **Default** checkbox if you want to use the selected group when no other user group matches.
-1.	Optionally, define the conditions that must match for the user group to be considered. These conditions are evaluated with the language and region settings for the user group.
+1. On the **Customer Intent Agent (preview)** page, select **Manage** for **Add user groups to intent groups**.
+1. Select an intent group, and on **User groups** tab, select **Add group**.
+1. On **Add user group**, select a user group in the list.
+1. Select the **Default** checkbox if you want to use the selected group when no other user group matches.
+1. Optionally, define the conditions that must match for the user group to be considered. These conditions are evaluated with the language and region settings for the user group.
 
    :::image type="content" source="../media/screenshot-of-manage-intent-groups.png" alt-text="Screenshot of manage intent groups in intent-based routing." lightbox="../media/screenshot-of-manage-intent-groups.png":::
 
@@ -108,9 +108,9 @@ In intent-based routing, users aren't required to be part of queues. However, fo
 
 You must make sure that the workstreams and their associated queues belong to the same line of business so that the conversations are routed within the same line of business.
 
-1.	On the **Customer Intent Agent (preview)** page, select **Manage** for **Assign workstream to Lines of business**.
-1.	On the **Workstreams** page, select the workstream to edit, and on the page that appears, select **Edit for Intent-based routing**.
-1.	On the pane that appears, select a line of business from the list and save and close. The selected line of business is displayed on the workstream page.    
+1. On the **Customer Intent Agent (preview)** page, select **Manage** for **Assign workstream to Lines of business**.
+1. On the **Workstreams** page, select the workstream to edit, and on the page that appears, select **Edit for Intent-based routing**.
+1. On the pane that appears, select a line of business from the list and save and close. The selected line of business is displayed on the workstream page.    
 
 ## Configure classification rules
 
@@ -129,12 +129,12 @@ Follow the steps in [Assignment methods for queues](assignment-methods.md) to se
 
 During runtime, to indicate the intent and intent group that the case belongs to, you can customize the case form to display the labels on the **Summary** tab of the case.
 
-1.	In Power Apps, edit the **Case for multisession form** to add the intent and intent group fields. Learn more in [Add or delete columns to a form](/power-apps/maker/model-driven-apps/add-move-or-delete-fields-on-form).
+1. In Power Apps, edit the **Case for multisession form** to add the intent and intent group fields. Learn more in [Add or delete columns to a form](/power-apps/maker/model-driven-apps/add-move-or-delete-fields-on-form).
    
     :::image type="content" source="../media/screenshot-of-multisession-case-intent-attribute.png" alt-text="Screenshot of multisession case form for intent and intent group.":::
 
 1. Import the PopulateIntent script file as a webresource. The script helps fetch the current attributes for the intent and intent group fields and populates them in the UI.
-1.	Go to **Form Properties** to link the script and attach it to the **OnLoad** event.
+1. Go to **Form Properties** to link the script and attach it to the **OnLoad** event.
 
 ### Runtime behavior
 
