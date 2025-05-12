@@ -6,7 +6,7 @@ ms.custom: ""
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: troubleshooting-general
 applies_to: 
   - "Dynamics 365 (on-premises)"
 ms.assetid: e8728ff3-26df-48f7-a5a9-35b66aeedc50
