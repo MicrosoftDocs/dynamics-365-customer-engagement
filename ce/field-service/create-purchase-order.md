@@ -48,7 +48,7 @@ When you create a purchase order, you can track how the order is shipped. The **
 If you have permissions to approve the PO, go to the PO and change the **System Status** to **Approved**.  
 
 > [!NOTE]
-> For products that are tracked in inventory and for purchase orders being received to warehouses, an inventory journal is created automatically in the background that increases the **On Order** warehouse quantity by the PO product quantity. This helps inventory managers understand if more units have already been ordered.
+> For products that are tracked in inventory and for purchase orders being received to warehouses, an inventory journal is created automatically that increases the **On Order** warehouse quantity by the PO product quantity. This automatic update helps inventory managers understand if more units were already ordered.
 
 ## Step 4: Create a receipt for the purchase order  
 
