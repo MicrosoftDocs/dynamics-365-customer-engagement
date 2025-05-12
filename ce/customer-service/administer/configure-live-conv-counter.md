@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 04/18/2025
+ms.date: 05/30/2025
 ms.custom: bap-template
 ---
 
@@ -19,13 +19,13 @@ The service-level agreement (SLA) live conversation counter shows customer servi
 
 ## Prerequisites
 
-You must be a system administrator.
+You must be a omnichannel administrator.
 
 ## Configure the live conversation counter
 
 You can enable the conversation live counter, configure specific time for SLA violations, and define the thresholds for **Warning** and **Urgent** statuses.
 
-1. In the site map of the Copilot Service admin center, go to **Workstreams**.
+1. In the site map of the Copilot Service admin center, go to **Workstreams** in **Customer Support**.
 1. Select any live chat workstream, and then select **Show advanced settings**.
 1. Select **Edit** or select **Turn on timer** in the **Live conversation counter for customer wait time** section.
 1. Select the **Turn on live conversation counter for customer wait time** checkbox.

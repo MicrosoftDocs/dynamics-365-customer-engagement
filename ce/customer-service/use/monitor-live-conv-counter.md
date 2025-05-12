@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: conceptual
 ms.collection: 
-ms.date: 04/18/2025
+ms.date: 05/30/2025
 ms.custom: bap-template
 ---
 
@@ -24,7 +24,7 @@ Your administrator has configured the SLA thresholds.
 
 - The SLAs viewed by you are defined by the response time standards agreed upon by your administrator to address customer inquiries.
 - You can view the SLA counter on the multisession bar for live chat workstreams and channels, and for each session or conversation.
-- Each SLA counter updates its color and increments based on the time elapsed since your last response, if the customer's message is the most recent.
+- Each SLA counter updates its time and colors based on the time elapsed since the representative's last response, provided that the most recent message is from the customer.
 - When a customer sends a message, the conversation wait time timer starts counting from zero. The timer resets each time you respond to the customer. If the customer doesn't respond, the timer remains at zero seconds. 
 
 ## **SLA Status Indicators**
