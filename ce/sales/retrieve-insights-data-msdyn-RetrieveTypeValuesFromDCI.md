@@ -2,7 +2,7 @@
 title: Retrieve data using msdyn_RetrieveKPIValuesForGDPR action
 description: Use the action to programmatically retrieve profiles, interactions, and KPIs for an account, contact, lead or opportunity that is stored Azure service.
 ms.date: 04/21/2023
-ms.topic: article
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag

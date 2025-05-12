@@ -2,7 +2,7 @@
 title: "Configure rules-based suggested contacts when starting a Microsoft Teams chat in Dynamics 365 Customer Service | Microsoft Docs"
 description: "Learn how to configure the ability to use rules-based suggested contacts."
 ms.date: 01/21/2025
-ms.topic: article
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 manager: shujoshi

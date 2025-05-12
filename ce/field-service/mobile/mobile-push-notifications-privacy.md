@@ -2,7 +2,7 @@
 title: Privacy note for Field Service push notifications
 description: Learn about the privacy note for Field Service mobile push notifications enabling authorized users to access the online service.
 ms.date: 08/28/2024
-ms.topic: conceptual
+ms.topic: article
 author: JonBaker007
 ms.author: jobaker
 ---

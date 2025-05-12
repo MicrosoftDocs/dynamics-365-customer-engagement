@@ -3,7 +3,7 @@
 title: Pooling speeds up model-driven app pages in Unified Service Desk
 description: Use pooling in Unified Service Desk to improve the performance of model-driven app page loading in Edge WebView2, Chrome, or IE processes.
 ms.date: 03/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

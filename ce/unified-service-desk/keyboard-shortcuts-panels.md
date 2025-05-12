@@ -2,7 +2,7 @@
 title: "Keyboard shortcuts for panels in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to traverse through active panels using predefined keyboard shortcuts. Also find information about defining new keyboard shortcuts."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

@@ -4,7 +4,7 @@ description: Learn about managing session templates in Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 05/23/2024
+ms.date: 04/15/2025
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -84,11 +84,11 @@ You can associate application tabs that need to open when a session is started. 
 
 1. Select the **Scripts** tab, and set the **Enable build expression** toggle to **Yes** to define the expression to set a script as default for a particular session template.
 
-1. Build the expression, and then select **Save and close**. To learn more, see [Set default script for representatives](agent-scripts.md#set-the-default-script-for-representatives).
+1. Build the expression, and then select **Save and close**. To learn more, see [Set the default script for representatives](agent-scripts.md#set-the-default-script-for-representatives).
 
 1. Select **Save**.
 
-  :::image type="content" source="../media/session-template1.PNG" alt-text="Session template":::
+  :::image type="content" source="../media/session-template.png" alt-text="Session template":::
 
 The session template is configured. Now, you must associate the session template with a workstream. To learn more, see [Associate templates with workstreams](associate-templates.md).
 

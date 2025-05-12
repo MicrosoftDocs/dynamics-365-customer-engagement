@@ -1,8 +1,8 @@
 ---
 title: Create customer service schedule and define work hours (Dynamics 365 Customer Service)
 description: Create a customer service schedule, define work hours and holidays in Customer Service to manage SLA time tracking effectively.
-ms.date: 04/09/2025
-ms.topic: article
+ms.date: 05/02/2025
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -36,7 +36,7 @@ You can create the service schedule and define work hours in Dynamics 365 Custom
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../../includes/proc-dont-have-correct-permissions.md)]  
 
-1. Navigate to the Customer Service admin center app, and perform the following steps:
+1. Navigate to the Copilot Service admin center app, and perform the following steps:
 
 1. In the site map, select **Calendar** in **Operations**. The **Calendar** page appears.
 1. In the **Customer service calendar** section, select **Manage**. The **All Customer Service Calendars** view is displayed. You can switch between various system views using the drop-down list.  

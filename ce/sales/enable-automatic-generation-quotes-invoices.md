@@ -2,7 +2,7 @@
 title: Enable generation of quote and invoice documents
 description: Help your sales team to generate quotes and invoices with consistent format and branding by using templates.
 ms.date: 01/23/2025
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

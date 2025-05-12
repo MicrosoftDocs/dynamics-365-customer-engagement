@@ -2,7 +2,7 @@
 title: "View predefined UII actions and events for hosted controls | MicrosoftDocs"
 description: "Find information about how you can view predefined UII actions and events for hosted controls in Unified Service Desk."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

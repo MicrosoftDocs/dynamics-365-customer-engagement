@@ -2,7 +2,7 @@
 title: Enable real-time customer sentiment with sentiment analysis
 description: Analyze real-time customer sentiment to improve team performance and customer satisfaction.
 ms.date: 6/14/2024
-ms.topic: article
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan

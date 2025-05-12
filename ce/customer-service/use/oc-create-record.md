@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.date: 07/01/2024
-ms.topic: article
+ms.topic: how-to
 ---
 
 # Create a record for conversations

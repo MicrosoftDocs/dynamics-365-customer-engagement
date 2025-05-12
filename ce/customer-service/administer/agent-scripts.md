@@ -4,19 +4,19 @@ description: Follow the steps mentioned in the article to create and configure s
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 02/29/2024
-ms.topic: article
+ms.date: 04/14/2025
+ms.topic: how-to
 ---
 
 # Guide representatives with scripts
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-In the customer service industry, customer service representatives (service representatives or representatives) need to deal with continuous updates both to products and processes. Even after representatives have been rigorously trained, recurrent human errors and delays in service delivery occur due to a lack of guidance in real-time customer scenarios. These issues lead to lower productivity and thus negatively affect customer satisfaction levels. To avoid errors and ensure that processes are adhered to, representatives need guidance.
+In the customer service industry, customer service representatives (service representatives or representatives) need to deal with continuous updates both to products and processes. Even after they have been rigorously trained, recurrent human errors and delays in service delivery occur due to a lack of guidance in real-time customer scenarios. These issues lead to lower productivity and thus negatively affect customer satisfaction levels. To avoid errors and ensure that processes are adhered to, representatives need guidance.
 
 Scripts provide guidance to representatives about what to do when they get a customer issue. The scripts ensure that only accurate, company-endorsed information is being shared, while also safeguarding the organization in regard to issues of legal compliance. Scripts help organizations to be unified, accurate, and effective while also being faster and more efficient in terms of customer handling.
 
-Scripts reduce the human errors involved, because representatives know which actions they need to perform next while they interact with a customer, enabling them to adhere to the business process. This, in turn, leads representatives to provide quick resolutions for the issue (low average handling time) and improve customer satisfaction.
+Scripts reduce the human errors involved, because representatives know which actions they need to perform next while they interact with a customer, enabling representatives to adhere to the business process. This, in turn, leads representatives to provide quick resolutions for the issue (low average handling time) and improve customer satisfaction.
 
 ## Value propositions
 
@@ -39,9 +39,9 @@ Create scripts in the admin center by following these steps:
 1. On the **Productivity** page, select **Manage** for **Scripts**. 
 1. On the **Scripts** page, select **New**.
 
-The following procedure is an example of a script for a chat session. You can modify the procedure for other types of sessions your representatives are likely to come across.
+The following procedure is an example of an script for a chat session. You can modify the procedure for other types of sessions your representatives are likely to come across.
 
-1. On the **New script** page, specify the following:
+1. On the **New Script** page, specify the following:
 
     | Field | Description | Value |
     |------------|------------------------------|-------------------|
@@ -52,13 +52,13 @@ The following procedure is an example of a script for a chat session. You can mo
 
 2. Select **Save**. The **Script steps** appears.
 
-3. In the **Script steps** section, select **New script step**. **Quick Create: Script step** appears.
+3. In the **Script steps** section, select **New Script step**. **Quick Create: Script step** appears.
 
 4. Specify the following fields in the quick-create form.
  
     | Field | Description | Example Value |
     |--------------------|------------------------------|-------------------------------------------|
-    | Name | Provide a name for the script step; this appears for the representative at runtime. You can use slugs for specifying the name of the step. To learn more, see [Slugs](automation-dictionary-keys.md#slugs-for-productivity-tools-macros-and-scripts). | Example 1: Greet the customer. <br><br> Example 2: Hi {customer}  |
+    | Name | Provide a name for the script step; this appears for the representative at runtime. You can use slugs for specifying the name of the step. To learn more, see [Slugs](automation-dictionary-keys.md#slugs-for-productivity-tools-macros-and-agent-scripts). | Example 1: Greet the customer. <br><br> Example 2: Hi {customer}  |
     |Unique Name |A unique identifier in the <*prefix*>_<*name*> format.<br>**Important:** The following are required for the unique name:<br><ul><li> The prefix can only be alphanumeric and its length must be between 3 to 8 characters.</li> <li>An underscore must be there between the prefix and name.</li></ul>| Greet_script|
     |Owner|By default, the signed in user is displayed as the owner.| Clay Roddy |
     |Script | The script for which the script step is being created.| Chat session script|
@@ -80,7 +80,7 @@ The script is now configured.
 
 ## Associate a script with a session template
 
-After you configure the script and add the field to a form, you need to associate the script with a session template so that the script will load for representatives based on the type of session they've opened.
+After you configure the script and add the field to a form, you need to associate the script with a session template so that the script loads for representatives based on the type of session they've opened.
 
 1. In the site map of the admin app, select **Session templates** in **Workspaces**.
 
@@ -88,7 +88,7 @@ After you configure the script and add the field to a form, you need to associat
 
 3. Select the **Scripts** tab.
 
-4. In the **Scripts** section, select **Add Existing Script**. The **Lookup Records** pane appears.
+4. In the **Scripts** section, select **Add Existing script**. The **Lookup Records** pane appears.
 
 5. In the **Look for Records** box, select the search icon. Select the script from the list, and then select **Add**.
 
@@ -101,9 +101,9 @@ The script is associated with the session template.
 
 ## Set the default script for representatives
 
-As an administrator, you can set different default scripts for representatives who handle different services, customers, or products. You need a way to show these representatives a script that's appropriate for the context of the conversation between them and the customer. With the script expression builder, you can define the conditions that define which script a representatives is shown by default in the agent app.
+As an administrator, you can set different default scripts for representatives who handle different services, customers, or products. You need a way to show these representatives a script that's appropriate for the context of the conversation between them and the customer. With the script expression builder, you can define the conditions that define which script a representative is shown by default in the agent app.
 
-Based on these conditions, when a representative accepts an incoming conversation, the script control selects a script from the different scripts that were made available for that particular session type and shows the script to the representative. In addition, they can manually select a script from the list of available scripts if they need to switch between different scripts.
+Based on these conditions, when a representative accepts an incoming conversation, the script control selects a script from the different scripts that were made available for that particular session type and shows the script to the representative. In addition, representatives can manually select a script from the list of available scripts if they need to switch between different scripts.
 
 ### Enable and build the expression
 

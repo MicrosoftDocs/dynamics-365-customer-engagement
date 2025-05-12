@@ -2,7 +2,7 @@
 title: FAQ about Omnichannel for Customer Service
 description: Learn about the frequently asked questions (FAQ) on the different features in Omnichannel for Customer Service and their requirements.
 ms.date: 04/21/2025
-ms.topic: conceptual
+ms.topic: faq
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

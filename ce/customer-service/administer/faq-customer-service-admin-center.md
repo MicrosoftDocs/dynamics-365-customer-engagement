@@ -2,7 +2,7 @@
 title: Customer Service admin center FAQ
 description: FAQ pertaining to Customer Service admin center.
 ms.date: 06/21/2024
-ms.topic: conceptual
+ms.topic: faq
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
