@@ -2,7 +2,7 @@
 title: "Work on LinkedIn-related activities defined in sequences"
 description: "Work on LinkedIn-related activities defined for sequences in the sales accelerator to display steps in the work list and Up next widget."
 ms.date: 10/26/2021
-ms.topic: article
+ms.topic: concept-article
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag

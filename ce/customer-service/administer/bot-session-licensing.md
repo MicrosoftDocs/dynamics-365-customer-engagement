@@ -1,11 +1,11 @@
 ---
 title: Agent sessions and licensing
 description: Use this article to learn about agent sessions and licensing in your contact center.
-ms.date: 03/03/2025
+ms.date: 04/23/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: bap-template
 ms.collection:
 ---
@@ -14,7 +14,7 @@ ms.collection:
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 An AI agent (agent) session is defined as a conversation in which it's invoked. The agent can be invoked at the start, middle, or end of a conversation.
 
@@ -27,9 +27,9 @@ To learn about the required subscriptions to use the chat and voice channels, se
 
 ### Related information
 
-[Overview of bots](overview-bots.md)  
-[Integrate an Azure bot](configure-bot-azure.md)  
-[Integrate Copilot Studio bot](configure-bot-virtual-agent.md)  
-[Configure Copilot Studio bot for voice](voice-channel-pva-bots.md)  
+[Overview of agents](overview-bots.md)  
+[Integrate an Azure agent](configure-bot-azure.md)  
+[Integrate Copilot agent](configure-bot-virtual-agent.md)  
+[Configure Copilot agent for voice](voice-channel-pva-bots.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

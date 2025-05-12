@@ -2,7 +2,7 @@
 title: "Create a communication panel related action calls | MicrosoftDocs"
 description: "Learn how to create the communication panel-related action calls for agents using Omnichannel for Customer Service."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

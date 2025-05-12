@@ -4,15 +4,14 @@ description: Learn the process for creating and using knowledge articles.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
-ms.date: 06/14/2024
+ms.topic: concept-article
+ms.date: 04/30/2025
 ms.custom: bap-template
 ---
 
 # Understand the knowledge article creation process
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
-
 
 With the knowledge management module, you can create and manage knowledge articles that your users may be looking for. This ability helps reduce the call handling times for customer service representatives and increases their productivity, as they can look up information in a knowledge base to resolve customer queries right away.
 
