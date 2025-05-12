@@ -4,7 +4,7 @@ description: "Follow these steps to create single- or multiple-entity apps by us
 keywords: 
 
 ms.custom: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 author: Mattp123

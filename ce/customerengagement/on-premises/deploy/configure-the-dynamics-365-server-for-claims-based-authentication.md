@@ -6,7 +6,7 @@ ms.custom: ""
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: how-to
 applies_to: 
   - "Dynamics 365 (on-premises)"
 ms.assetid: 101ca4e9-9be2-45dc-a68b-72d9d15b0e30

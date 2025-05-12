@@ -4,7 +4,7 @@ description: "Learn how to use the app designer to easily add components such as
 keywords: 
 
 ms.custom: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 author: Mattp123
