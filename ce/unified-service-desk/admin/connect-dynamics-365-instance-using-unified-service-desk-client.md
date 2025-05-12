@@ -2,7 +2,7 @@
 title: Connect to a model-driven app using Unified Service Desk client 
 description: Learn how to sign in to Unified Service Desk using the Unified Service Desk client. Also, learn how to use SSO for Unified Service Desk.
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

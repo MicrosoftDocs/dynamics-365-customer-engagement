@@ -2,7 +2,7 @@
 title: Create a Microsoft Teams meeting in Dynamics 365
 description: Learn how to create a Teams meeting in Dynamics 365.
 ms.date: 06/22/2023
-ms.topic: article
+ms.topic: how-to
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais

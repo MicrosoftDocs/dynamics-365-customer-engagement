@@ -2,7 +2,7 @@
 title: "Walkthrough: Create custom hosted control for Unified Service Desk | MicrosoftDocs"
 description: "Use this walkthrough to understand the prerequisites and procedures for creating custom hosted controls for Unified Service Desk."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

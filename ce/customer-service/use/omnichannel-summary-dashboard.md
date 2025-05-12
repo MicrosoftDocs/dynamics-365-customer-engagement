@@ -2,7 +2,7 @@
 title: Summary dashboard in Omnichannel historical analytics
 description: Integrate Copilot Studio and Omnichannel analytics to better understand your organization's customer service experience.
 ms.date: 02/10/2025
-ms.topic: article
+ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

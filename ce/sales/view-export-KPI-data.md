@@ -2,7 +2,7 @@
 title: View and export KPI data
 description: View KPI data for contact, lead, and opportunity using system views, and export the data to an Excel file in Sales Insights.
 ms.date: 02/26/2025
-ms.topic: article
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag

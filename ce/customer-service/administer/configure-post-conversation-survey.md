@@ -1,7 +1,7 @@
 ---
 title: Configure post-conversation survey using Customer Voice
 description: Learn how to configure a post-conversation survey for the channels in your contact center.
-ms.date: 03/03/2025
+ms.date: 04/21/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -52,7 +52,7 @@ The post-conversation survey uses Dynamics 365 Customer Voice to create surveys.
 
 You can set up surveys when configuring a channel or update an existing channel instance that is already configured.
 
-1. In the site map of Contact Center admin center or Customer Service admin center, select **Workstreams** in **Customer support**.
+1. In the site map of Copilot Service admin center, select **Workstreams** in **Customer support**.
 1. Select the channel instance, and then select **Edit**.
 1. On the **Behaviors** tab, set the toggle for **Post-conversation survey** to **On**.
 1. In **Dynamics 365 Customer Voice survey**, search for the survey you want to configure, and select it.

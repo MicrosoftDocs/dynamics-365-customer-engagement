@@ -4,7 +4,7 @@ description: "From the System Settings Marketing tab in Dynamics 365 Customer En
 keywords: 
 
 ms.custom: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x

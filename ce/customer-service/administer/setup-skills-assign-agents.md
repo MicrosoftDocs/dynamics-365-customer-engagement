@@ -1,10 +1,10 @@
 ---
-title: Set up skills and assign agents
+title: Set up skills and assign representatives
 description: Perform the steps mentioned in the topic to create skills and assign representatives to those skills.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 02/04/2025
+ms.date: 04/20/2025
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -40,9 +40,9 @@ As an administrator, to create skills, you need at least one skill type in the s
 
 ## Manage skill settings in skills hub
 
-Skills hub in Customer Service admin center helps you seamlessly create and assign skills to your customer service representatives (service representatives or representatives). Use the **Skills hub** page to create and edit, add and remove users to skills and manage their proficiency.
+Skills hub in Copilot Service admin center helps you seamlessly create and assign skills to your customer service representatives (service representatives or representatives). Use the **Skills hub** page to create and edit, add and remove users to skills and manage their proficiency.
 
-1. In Dynamics 365, go to Customer Service admin center.
+1. In Dynamics 365, go to Copilot Service admin center.
 
 1. In the site map, select **User management** under **Customer Support**.
 
@@ -89,7 +89,7 @@ If you'd created proficiency scales in the classic experience, you can update th
 
 ## Create skills using the classic experience
 
-1. In the site map of Customer Service admin center, select **User management** in **Customer Support**.
+1. In the site map of Copilot Service admin center, select **User management** in **Customer Support**.
 
 1. For **Skills**, select **Manage**.
 
@@ -105,7 +105,7 @@ If you'd created proficiency scales in the classic experience, you can update th
 
 1. Select **Save**.
 
-After you save, the **Users (Agents)** section appears. In this section, you add the representatives and rating value. Learn more in [Assign agents to the skill](#assign-agents-to-skill).
+After you save, the **Users (Agents)** section appears. In this section, you add the representatives and rating value. Learn more in [Assign representatives to the skill](#assign-representatives-to-skill).
 
 ### Rating value of skills
 
@@ -115,9 +115,9 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
 
 ### Create a rating model
 
-You can create rating models in the Customer Service admin center app.
+You can create rating models in the Copilot Service admin center app.
 
-1. In the site map of Customer Service admin center, select **Insights** in **Operations**.
+1. In the site map of Copilot Service admin center, select **Insights** in **Operations**.
 
 1. In the **Skill-based routing** section, select **Manage**.
 
@@ -182,9 +182,9 @@ Add the representatives as a bookable resource so that you can assign skills to 
 
 5. Select **Save**.
 
-### Assign agents to skill
+### Assign representatives to skill
 
-1. In the site map of Customer Service admin center, select User management under Customer support, and then select  **Manage** for **Skills**.
+1. In the site map of Copilot Service admin center, select User management under Customer support, and then select  **Manage** for **Skills**.
    
 2. Select a skill from the list for which you want to assign the representatives.
 
@@ -197,7 +197,7 @@ Add the representatives as a bookable resource so that you can assign skills to 
 6. Select **Save and Close**. The representative you added is displayed in the grid.
 
     > [!div class=mx-imgBorder] 
-    > ![Assign agents to skill.](../media/assign-user-skill.png "Assign agents to skill")
+    > ![Assign representatives to skill.](../media/assign-user-skill.png "Assign representatives to skill")
 
 7. Repeat steps 3 through 6 to add more representatives to the skill.
 

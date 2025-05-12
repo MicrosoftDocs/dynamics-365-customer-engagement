@@ -2,7 +2,7 @@
 title: "Configure the hosted application | MicrosoftDocs"
 description: "Learn about the configuring the hosted application created using a HAT hosted application project."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

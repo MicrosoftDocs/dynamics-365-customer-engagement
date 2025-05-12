@@ -2,7 +2,7 @@
 title: Route records manually using unified routing 
 description: Learn how to route records manually using the Save & Route option on the form command bar and Apply Routing Rule on the home page grid.
 ms.date: 07/01/2024
-ms.topic: article
+ms.topic: how-to
 author: "neeranelli"
 ms.author: nenellim
 ms.reviewer: nenellim

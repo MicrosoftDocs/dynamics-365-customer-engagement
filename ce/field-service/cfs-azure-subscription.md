@@ -3,7 +3,7 @@ title: Azure subscription prerequisites for Connected Field Service with IoT Hub
 description: Deploy Connected Field Service with Azure IoT Hub by reviewing prerequisites and assigning necessary Azure security roles.
 ms.date: 09/04/2024
 ms.subservice: connected-field-service
-ms.topic: conceptual
+ms.topic: article
 ms.author: vhorvath
 author: vhorvathms
 ms.custom: bap-template

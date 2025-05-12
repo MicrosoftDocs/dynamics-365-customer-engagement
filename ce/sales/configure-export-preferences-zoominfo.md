@@ -1,8 +1,8 @@
 ---
 title: "Configure export preferences for ZoomInfo app"
 description: "Use the export preference to choose which record types you want to export and limit the number of records to export in each record type."
-ms.date: 06/27/2022
-ms.topic: article
+ms.date: 04/30/2025
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -33,14 +33,12 @@ Before you start, be sure you've met the following prerequisites:
     >[!NOTE]
     >The app might prompt you to enter credentials. Select either Google, Office, or enter your ZoomInfo credentials if you have an account with ZoomInfo.  
 
-    > [!div class="mx-imgBorder"]
-    > ![ZoonInfo sign in page](media/zoominfo-login-page.png "ZoonInfo sign in page")
+    :::image type="content" source="media/zoominfo-login-page.png" alt-text="Screenshot of the ZoomInfo sign-in page.":::
      
 3.	On the top-right corner of the page, select **More** > **Admin Portal**.
 4.	On the **Admin Portal** page, select **Dynamics Settings**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select dynamics settings from admin portal in ZoonInfo](media/zoominfo-select-dynamics-settings.png "Select dynamics settings from admin portal in ZoonInfo")
+    :::image type="content" source="media/zoominfo-select-dynamics-settings.png" alt-text="Screenshot of selecting Dynamics Settings from the Admin Portal in ZoomInfo.":::
 
 5.	From the **Export** tab, select each record type (accounts, contacts, and leads) that you want your sales teams to be able to export to your Dynamics 365 Sales organization.     
     -	Enter the maximum number of records (up to 25) that a seller can export to your Dynamics 365 Sales organization.

@@ -1,8 +1,8 @@
 ---
 title: Transfer calls and consult with users
 description: Use this article to understand how the customer service representatives can use the transfer and consult options to make and receive customer calls.
-ms.date: 04/12/2024
-ms.topic: article
+ms.date: 05/05/2025
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -11,6 +11,8 @@ ms.reviewer: mgandham
 # Transfer calls and consult with users in the voice channel
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 You can transfer calls or consult with other customer service representatives (service representatives or representatives) or supervisors to collaborate with them on questions that you might have when you're on a call with a customer. 
 
@@ -25,7 +27,7 @@ The settings to transfer the calls and consult with another service representati
 When you receive an incoming call, you can transfer the call to a service representative, a queue, a public switched telephone network (PSTN) Teams user, or an external PSTN number. After you transfer the call, the following actions occur:
 
  - The customer is automatically put on hold. Hold music plays for the customer. 
- - By default, the customer is automatically removed from hold once a secondary service representative accepts the transferred call. If the **Un-hold customer after agent transfer is accepted** setting is disabled, the primary service representative must manually remove the customer from hold.
+ - By default, the customer is automatically removed from hold once a secondary service representative accepts the transferred call. If the **Un-hold customer after representative transfer is accepted** setting is disabled, the primary service representative must manually remove the customer from hold.
 
 1. Select **Transfer** in the call window. 
 
@@ -40,7 +42,7 @@ When you receive an incoming call, you can transfer the call to a service repres
     - **Transfer to a queue**: Select **Queue**, search for the queue you want to transfer the call to, and then select **Transfer**. The customer is put on hold. The representative who picks up the transferred call becomes the primary representative and you become the secondary  and are removed from the call.<br>
       > [!NOTE]
       > - When you transfer a call to a queue that doesn't have any service representatives, the application automatically ends the call and sets the status to Closed.
-      > - If you transfer a call from a phone number linked to an inbound or outbound profile to a queue with a Copilot Studio agent, the agent can only speak to the customer and end the call. The agent can't transfer the call to another agent or external number, even when you have configured the Escalation topic in Copilot Studio.
+      > - If you transfer a call from a phone number linked to an inbound or outbound profile to a queue with a Copilot agent, the agent can only speak to the customer and end the call. The agent can't transfer the call to another agent or external number, even when you have configured the Escalation topic in Copilot Studio.
 
         :::image type="content" source="../media/oceh-cc-transfer-queue-list.png" alt-text="A screenshot of the transfer to queue.":::
     

@@ -38,7 +38,7 @@ The agent creates and updates cases from,
 
 ## Configure autonomous case creation and update
 
-In Customer Service admin center, follow these steps:
+In Copilot Service admin center, follow these steps:
 
 1. In **Customer support**, select **Case settings**.
 2. On the **Case settings** page, select **Manage** for **Case Management Agent**.

@@ -2,7 +2,7 @@
 title: "Edit an active sequence (Sales Insights)"
 description: "Edit an active sequence by creating new versions of the sequence without deactivating it in sales accelerator."
 ms.date: 01/03/2025
-ms.topic: article
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag

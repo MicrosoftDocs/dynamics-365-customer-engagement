@@ -1,12 +1,12 @@
 ---
-title: WhatsApp channel support experience in Omnichannel for Customer Service
-description: Learn about the support experience for conversations that come through WhatsApp channel in Omnichannel for Customer Service.
-ms.date: 04/21/2025
+title: WhatsApp channel representative experience
+description: Learn about the representative experience for conversations that come through the WhatsApp channel.
+ms.date: 04/30/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.topic: article
-ms.collection: get-started
+ms.topic: concept-article
+ms.collection:
 ---
 
 # Use WhatsApp channel
@@ -26,12 +26,12 @@ You'll receive a notification when a customer requests a WhatsApp conversation. 
 **Unauthenticated customer incoming notification**
 
 > [!div class=mx-imgBorder]
-> ![WhatsApp chat agent notification](../media/whatsapp-agent-notif.png "WhatsApp chat agent notification")
+> ![WhatsApp chat representative notification](../media/whatsapp-agent-notif.png "WhatsApp chat representative notification")
 
 **Authenticated customer incoming notification**
 
 > [!div class=mx-imgBorder]
-> ![WhatsApp chat agent notification-unauthenticated](../media/whatsapp-agent-notif2.png "WhatsApp chat agent notification-unauthenticated")
+> ![WhatsApp chat representative notification-unauthenticated](../media/whatsapp-agent-notif2.png "WhatsApp chat representative notification-unauthenticated")
 
 In the application, you can:
 

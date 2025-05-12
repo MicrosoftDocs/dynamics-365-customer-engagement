@@ -2,7 +2,7 @@
 title: Representatives using Omnichannel for Customer Service app
 description: Learn about the Omnichannel for Customer Service app.
 ms.date: 04/21/2025
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

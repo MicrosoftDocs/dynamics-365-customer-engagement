@@ -1,7 +1,7 @@
 ---
-title: Overview of the Customer Service workspace application for Dynamics 365 Customer Service
-description: Overview of Customer Service workspace for Dynamics 365 Customer Service.
-ms.date: 03/17/2025
+title: Overview of the Copilot Service workspace application for Dynamics 365 Customer Service
+description: Overview of Copilot Service workspace for Dynamics 365 Customer Service.
+ms.date: 05/05/2025
 ms.topic: overview
 author: gandhamm
 ms.author: mgandham
@@ -15,23 +15,23 @@ ms.custom:
 ms.collection: get-started
 ---
 
-# Get started with Customer Service workspace
+# Get started with Copilot Service workspace
 
-Dynamics 365 Customer Service workspace helps customer service representatives (service representatives or representatives) increase productivity with a browser-like, tabbed experience. Service representatives can use the app to work on multiple cases and conversations. It's a modern, customizable, high-productivity application that allows them to work on multiple sessions at a time in a single workspace.
+Copilot Service workspace helps customer service representatives (service representatives or representatives) increase productivity with a browser-like, tabbed experience. Service representatives can use the app to work on multiple cases and conversations. It's a modern, customizable, high-productivity application that allows them to work on multiple sessions at a time in a single workspace.
 
-The application uses artificial intelligence in productivity tools like Smart Assist to identify similar cases and relevant articles, thereby boosting representative productivity. Features such as agent scripts and macros provide representatives with guidance and resources to automate repetitive tasks to achieve a great customer experience.
+The application uses artificial intelligence in productivity tools like Smart Assist to identify similar cases and relevant articles, thereby boosting representative productivity. Features such as scripts and macros provide representatives with guidance and resources to automate repetitive tasks to achieve a great customer experience.
 
-Learn more about licensing and system requirements in [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md).
+Learn more about licensing and system requirements in [Copilot Service workspace system requirements](customer-service-workspace-system-requirements.md).
 
-**Set up Omnichannel in Customer Service workspace** 
+**Set up Omnichannel in Copilot Service workspace** 
 
-With the Dynamics 365 Customer Service Digital Messaging add-on, the representative who work on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the Customer Service workspace app. Learn more in [Set up Omnichannel for Customer Service channels in Customer Service workspace](/dynamics365/app-profile-manager/csw-enable-channels).
+With the Dynamics 365 Customer Service Digital Messaging add-on, the representative who work on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the Copilot Service workspace app. Learn more in [Set up Omnichannel for Customer Service channels in Copilot Service workspace](/dynamics365/app-profile-manager/csw-enable-channels).
 
-:::image type="content" source="../media/csw-default-overview.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace":::
+:::image type="content" source="../media/csw-default-overview.png" alt-text="Screenshot of the enhanced multisession Copilot Service workspace":::
 
-## Customer Service workspace sessions and tabs
+## Copilot Service workspace sessions and tabs
 
-Customer Service workspace allows representatives to work on multiple sessions at a time in a single app while keeping the work organized.
+Copilot Service workspace allows representatives to work on multiple sessions at a time in a single app while keeping the work organized.
 - Representatives can work on up to nine sessions and within a session, they can open up to 10 tabs.
 - A new session starts when a representative opens a case from the **Home** session or accepts an incoming conversation.
 - If the representative opens the customer record from a session, a new tab opens in the same session. 
@@ -58,7 +58,7 @@ Customer Service workspace allows representatives to work on multiple sessions a
 
 ### Session restore (preview)
 
-If your administrator turned on session restore, key entities in Customer Service workspace reload automatically if your browser refreshes. Without session restore, when a browser refreshes or reconnects, Customer Service workspace reloads only the home page. 
+If your administrator turned on session restore, key entities in Copilot Service workspace reload automatically if your browser refreshes. Without session restore, when a browser refreshes or reconnects, Copilot Service workspace reloads only the home page. 
 
 Session restore automatically restores cases, accounts, and their associated application tabs without requiring you to manually reopen them. Focus is restored to the last session or application tab in view. After the presence is loaded, conversations, including calls and chats, are reinstated. 
 
@@ -82,27 +82,27 @@ Learn more in [Configure the inbox view](../administer/configure-inbox.md).
 
 ### Use the productivity pane with Smart Assist
 
-When you work on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help you. The productivity pane uses Smart Assist to suggest related cases and knowledge articles that might be relevant to the case you're working on. There are also customer service representative scripts that guide you through a consistent series of steps with potentially automated actions through macros.
+When you work on a case, the productivity pane on the right side of the Copilot Service workspace displays intelligence-driven suggestions to help you. The productivity pane uses Smart Assist to suggest related cases and knowledge articles that might be relevant to the case you're working on. There are also scripts that guide you through a consistent series of steps with potentially automated actions through macros.
 
 Learn more in [Productivity pane](../use/../use/csw-productivity-pane.md).
 
 ## Work with cases, activities, knowledge articles, and email templates
 
-On the Customer Service Agent Dashboard, here are some of the actions you can do:
+On the Customer Service Representative Dashboard, here are some of the actions you can do:
 
 - View cases and activities assigned to you
 - View cases available to work on
 - Create, delete, and filter cases and activities from the workspace
 
-### Customize the representative experience with Customer Service admin center
+### Customize the representative experience with Copilot Service admin center
 
-Agent experience profiles enable you to create targeted app experiences for representatives and supervisors, and are an alternative to building and maintaining custom apps. With the agent experience profiles, administrators can create custom profiles with specific session templates, conversation channels, and productivity tools. These profiles can then be assigned to users.
+Experience profiles enable you to create targeted app experiences for representatives and supervisors, and are an alternative to building and maintaining custom apps. With the experience profiles, administrators can create custom profiles with specific session templates, conversation channels, and productivity tools. These profiles can then be assigned to users.
 
-Learn more in [Agent experience profiles](../administer/overview.md).
+Learn more in [Experience profiles](../administer/overview.md).
 
 ## Considerations
 
-Here are a few things to note when you use Customer Service workspace in your organization:
+Here are a few things to note when you use Copilot Service workspace in your organization:
 
 - We recommend that you have only one browser instance accessing the app.
 - `XRM.Navigation.openForm` and `Xrm.Navigation.navigateTo` APIs have a similar navigation as the multisession app. For example:
@@ -110,16 +110,16 @@ Here are a few things to note when you use Customer Service workspace in your or
   - A new tab in the focused session is initiated if you open a form through `XRM.Navigation.openForm` from a case session.
 - Opening a WebResource through `Xrm.Navigation.openWebResource` opens a new browser window but doesn't remove the navigation and command bars. You can programmatically open web resources as session tabs using the `Microsoft.Apm.createTab` method. Learn more in [createTab method](../develop/reference/methods/createTab.md).
 - You can open sessions and tabs using Microsoft.Apm APIs. Learn more in [App profile manager JavaScript API Reference](../develop/microsoft-apm.md).
-- The multisession capabilities are supported in the Customer Service workspace and Omnichannel for Customer Service apps only. You won't be able to navigate across multiple sessions in a custom app or a copy of the Customer Service workspace app in your environment.
+- The multisession capabilities are supported in the Copilot Service workspace and Omnichannel for Customer Service apps only. You won't be able to navigate across multiple sessions in a custom app or a copy of the Copilot Service workspace app in your environment.
 
 ### Limitations
 
-The following limitations apply to Customer Service workspace:
+The following limitations apply to Copilot Service workspace:
 - When you switch between tabs or sessions:
   - Subgrid controls don't retain the filter or sort conditions.
   - Web resources, form components, custom pages, and third-party websites don't retain the state of the page.
   - When you change the status record in a tab, the corresponding record that's open in a grid or subgrid of another tab doesn't refresh automatically.
-- Customer Service workspace isn't supported in mobile devices, Unified Service Desk, Microsoft Teams, and with Dynamics 365 Customer Engagement (on-premises).
+- Copilot Service workspace isn't supported in mobile devices, Unified Service Desk, Microsoft Teams, and with Dynamics 365 Customer Engagement (on-premises).
 
 ## Deprecated Customer Service workspace layout
 
@@ -131,15 +131,15 @@ The legacy layout is deprecated and was removed in October 2023.
 
 You can enable the legacy layout in one of the following ways:
 
-### [Customer Service admin center](#tab/customerserviceadmincenter)
+### [Copilot Service admin center](#tab/copilotserviceadmincenter)
 
- 1. In Customer Service admin center, select **Miscellaneous** in **Operations**.
+ 1. In Copilot Service admin center, select **Miscellaneous** in **Operations**.
  1. Select **Manage** for **New and upcoming features**.
  1. Clear the **Multisession Layout improvements** and then select **Save**.
 
 ### [Browser developer tools](#tab/broswerdevtools)
 
- 1. With Customer Service workspace open, press the F12 key to open the developer tools window.
+ 1. With Copilot Service workspace open, press the F12 key to open the developer tools window.
  1. In the console window, type the following command and press **Enter**. `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultisessionLayoutImprovements",false)`
  1. Refresh the app page.
 
@@ -147,7 +147,7 @@ You can enable the legacy layout in one of the following ways:
 
 ### Turn off the close session dialog
 
-1. With Customer Service workspace open, press the F12 key to open the developer tools window.
+1. With Copilot Service workspace open, press the F12 key to open the developer tools window.
 1. In the console window, enter the following command: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_SuppressSessionCloseWarning",true)`
 1. Refresh the app page.
 
@@ -156,21 +156,21 @@ You can enable the legacy layout in one of the following ways:
 > [!NOTE]
 > The legacy navigation is deprecated and will be removed in a future release.
 
-1. With Customer Service workspace open, press the F12 key to open the developer tools window.
+1. With Copilot Service workspace open, press the F12 key to open the developer tools window.
 1. In the console window, type the following command and press **Enter**: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultisessionNavigationImprovements",false)`
 1. Refresh the app page.
 
 ### Training resources
 
-Download the [Customer Service workspace in a day training](https://go.microsoft.com/fwlink/?linkid=2241180). This training provides an overview of the following topics:
+Download the [Copilot Service workspace in a day training](https://go.microsoft.com/fwlink/?linkid=2241180). This training provides an overview of the following topics:
 
   * Get familiar with sessions, tabs, and productivity tools.
-  * How to create agent experience profiles, templates, service representative scripts, and macros.
-  * How to assign agent experience profile based on security roles.
-  * How to move agent experience profiles via solutions.
+  * How to create experience profiles, templates, scripts, and macros.
+  * How to assign experience profile based on security roles.
+  * How to move experience profiles via solutions.
   * How to use multisession APIs (Microsoft.Apm).
 
-[Migrate from Unified Service Desk to Customer Service workspace](../../unified-service-desk/admin/migrate-to-csw.md). The Unified Service Desk to Customer Service workspace Migration Playbook helps you plan and execute the transition from Unified Service Desk to Customer Service workspace.
+[Migrate from Unified Service Desk to Copilot Service workspace](../../unified-service-desk/admin/migrate-to-csw.md). The Unified Service Desk to Copilot Service workspace Migration Playbook helps you plan and execute the transition from Unified Service Desk to Copilot Service workspace.
 
 ### Related information
 
