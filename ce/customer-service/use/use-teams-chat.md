@@ -1,7 +1,7 @@
 ---
 title: Use Teams chat 
 description: Learn how to use the Teams chat functionality. 
-ms.date: 01/21/2025
+ms.date: 05/12/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -21,7 +21,7 @@ ms.custom:
 > [!NOTE]
 > Case is applicable to Customer Service only.
 
-As a customer service representative (service representative or representative), you can chat in Microsoft Teams from within Customer Service Hub, Customer Service workspace, Contact Center workspace, and any custom app. While working on customer records, you can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting all the associated chats to a record can help you maintain all the conversations related to the record in one place. 
+As a customer service representative (service representative or representative), you can chat in Microsoft Teams from within Copilot Service workspace, Contact Center workspace, Customer Service Hub, and any custom app. While working on customer records, you can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting all the associated chats to a record can help you maintain all the conversations related to the record in one place. 
 
 > [!NOTE]
 > This feature must first be enabled by an administrator, and you must have certain permissions to access Teams data. Learn more in [Configure Teams chat](../administer/configure-teams-chat.md)
@@ -60,15 +60,15 @@ You can start a new connected chat or convert an existing Teams chat into a conn
 
 Your administrator can configure an optional message that you can send when using the chat to start a collaboration. This message helps you to share succinct, read-only context with your collaborators on Teams.
  
-If you're using Teams for the first time within Customer Service Hub, Customer Service workspace, or Contact Center workspace you can select the blue bubble, and then follow the interface guidance.
+If you're using Teams for the first time within Copilot Service workspace, Contact Center workspace, or Customer Service Hub, you can select the blue bubble, and then follow the interface guidance.
 
 1.	Open any record, and then select the **Teams chats and channels integration** icon.
     The **Teams chats** panel opens.
     - You can access the embedded chat from Customer Service Hub and custom apps. When you select the Teams chat :::image type="icon" source="../media/teams-icon.png" border="false"::: icon, the chat pane opens as an app in the right-side pane.
-    - If you're in a multisession app, such as Customer Service workspace or Contact Center workspace, you can access the chat pane directly from the productivity pane.
+    - If you're in a multisession app, such as Copilot Service workspace or Contact Center workspace, you can access the chat pane directly from the productivity pane.
        > [!NOTE]
        > Case is applicable to Customer Service only.
-       > - You can also access the chat pane from the home session in Customer Service workspace or Contact Center workspace. When using the chat pane from the home session, you'll see two sections: Chats connected to records and Other chats (if enabled by your administrator).
+       > - You can also access the chat pane from the home session in Copilot Service workspace or Contact Center workspace. When using the chat pane from the home session, you'll see two sections: Chats connected to records and Other chats (if enabled by your administrator).
     
 2.	Use one of the following methods:<br>
     a.	To start a new connected chat with a participant, select **New connected chat** in the **Chats connected to record** section. Type the name(s) of the participant(s) you want to chat with. You can start with just one collaborator and then progressively add more as needed (see step 6). Every new connected chat starts fresh, without bringing context from one-to-one chats or other chats you may have had with the participants. Therefore, it's important to name your chats appropriately to match the context of the record and conversation. Learn more in step 3. <br><br>
@@ -100,7 +100,7 @@ You can connect a chat to a single record or multiple records. For example, if y
 - To disconnect a chat from a record, select ellipses next to the chat, and then select **Disconnect from this case**. 
 
  > [!NOTE]
- > Cases are supported in Customer Service workspace and Customer Service Hub only.
+ > Cases are supported in Copilot Service workspace and Customer Service Hub only.
     
 ### Understand how disconnected chat rights are assigned
 
@@ -138,7 +138,7 @@ As a representative, you can view and easily join chats that are connected to a 
 - **Case escalations**: If a case needs attention from someone with specific knowledge, the subject-matter expert who reviews it can participate in the relevant conversations.
 
  > [!NOTE]
- > - Cases are supported in Customer Service workspace and Customer Service Hub only.
+ > - Cases are supported in Copilot Service workspace and Customer Service Hub only.
  > - You can only join connected chats, and to do so, you must have write access to the record and your administrator must have turned on the Join Chat capability for the record type for which you want to join an existing connected chat.
 
 To join a connected chat:
