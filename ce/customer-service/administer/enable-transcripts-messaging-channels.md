@@ -48,7 +48,7 @@ You can view the conversation transcriptions in the Copilot Service admin center
    > [!div class="mx-imgBorder"]
    > ![Screenshot of closed conversation list.](../media/voice-channel-conversations-list.png)
 
-To view transcripts in Copilot Service workspace apps, do the following:
+To view transcripts in Copilot Service workspace, do the following:
 
 1. Open the app and then switch to the **Omnichannel Agent Dashboard** view. The completed chat conversations are displayed in the **Closed work items** column.
 1. Do one of the following:<br>
