@@ -6,7 +6,7 @@ ms.custom:
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: concept-article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: df6a8d7a-db0d-4860-8a65-039f2ddab50d

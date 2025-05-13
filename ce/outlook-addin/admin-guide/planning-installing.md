@@ -7,7 +7,7 @@ ms.reviewer: smurkute
 
 ms.suite:
 ms.tgt_pltfrm:
-ms.topic: article
+ms.topic: concept-article
 applies_to: 
   - Dynamics 365 apps 
 ms.assetid: 0e6157ee-a9fc-4da2-8ade-9199a405db05

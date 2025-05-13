@@ -38,7 +38,7 @@ The key highlights of the feature are as follows:
 
 Make sure that the following requirements are met:
 
-- Customer Service workspace is installed and accessible. More information: [Customer Service workspace](../implement/csw-overview.md)
+- Copilot Service workspace is installed and accessible. More information: [Copilot Service workspace](../implement/csw-overview.md)
 - The	productivity pane is enabled. More information: [Productivity pane](productivity-pane.md).
 - The System Administrator role is granted.
 - The workflow processes used by the AI model and AI configuration entities are in the activated status. More information: [Workflow processes](#workflow-processes).
@@ -47,7 +47,7 @@ Make sure that the following requirements are met:
 
 ## How AI suggestions for similar cases and knowledge articles work
 
-The AI suggestions are displayed in smart assist, an intelligent assistant that provides real-time recommendations to representatives to help them take action during their interactions with customers. After you enable the productivity pane in Customer Service workspace, the smart assist cards with suggestions appear on the productivity pane.
+The AI suggestions are displayed in smart assist, an intelligent assistant that provides real-time recommendations to representatives to help them take action during their interactions with customers. After you enable the productivity pane in Copilot Service workspace, the smart assist cards with suggestions appear on the productivity pane.
 
 The AI suggestions use a set of pretrained natural language understanding models. These models are designed to help representatives find relevant knowledge articles or similar cases quickly, based on the context of active cases or ongoing conversations. 
 
@@ -80,9 +80,9 @@ If the language verification passes, the suggestions are displayed in the langua
 
 ## Enable AI suggestions for similar cases
 
-You can enable AI suggestions for similar cases in the Customer Service admin center app.
+You can enable AI suggestions for similar cases in the Copilot Service admin center app.
 
-1. In the site map of Customer Service admin center, select **Insights** in **Operations**. The **Insights** page appears.
+1. In the site map of Copilot Service admin center, select **Insights** in **Operations**. The **Insights** page appears.
 1. In the **Suggestions for agents** section, select **Manage**.
 
 1. In the **Settings** > **Summary** area, set the **Enable similar case suggestions** toggle to **Yes**.
@@ -98,13 +98,13 @@ You can enable AI suggestions for similar cases in the Customer Service admin ce
 
 ## Enable AI suggestions for knowledge articles
 
-You can enable AI suggestions for knowledge articles in the Customer Service admin center or Contact Center admin center app.
+You can enable AI suggestions for knowledge articles in the Copilot Service admin center app.
 
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
 
-1. In the **Suggestions for agents** section, select **Manage**.
+1. In the **Suggestions for knowledge article authors** section, select **Manage**.
     
-2. In the **Summary** area, set the **Enable knowledge article suggestions** toggle to **Yes**.
+2. In the **Summary** area, set the **Enable keywords and description suggestions** toggle to **Yes**.
 
 3. In the **Data mapping** > **Knowledge article data fields** area, ensure that **KB articles** is selected for **Article entity**, and **Title** and **Content** are selected in the **Article title** and **Article content** boxes, respectively. You can choose three more fields for the model to find similar knowledge articles, such as article keywords, description, and so forth. The selected options are used by the AI model to understand and find a good match for a case or conversation. Article content is used by the AI model to generate a brief article summary that's displayed to the representative at runtime.
 
