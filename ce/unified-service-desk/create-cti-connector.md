@@ -2,7 +2,7 @@
 title: "Create a CTI Connector | MicrosoftDocs"
 description: "Learn how to create and define a CTI Connector component in Unified Service Desk. Also, understand how to configure a hosted control for the CTI Connector."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

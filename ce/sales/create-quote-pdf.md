@@ -2,7 +2,7 @@
 title: Export sales records to PDF
 description: Learn how to create professional, read-only PDF files of sales records in Dynamics 365 using standard Word templates.
 ms.date: 05/07/2025
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

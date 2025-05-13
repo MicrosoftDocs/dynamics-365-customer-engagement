@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 05/02/2025
+ms.date: 05/06/2025
 ms.custom: bap-template
 ---
 
@@ -17,12 +17,12 @@ Your knowledge article should reach customers regardless of their market or regi
 
 ## Select a language for your knowledge article translation
 
-1. In the application, select **Knowledge Articles**.
+1. In the Copilot Service workspace application, select **Knowledge Articles**.
 
-1. Select the article you want to translate, and from the command bar, select **Translate**.  
+1. Select and open the article you want to translate, and from the command bar, select **Translate**.  
   
 2. In the **Create new translation** dialog, do the following:
-   * From the **Pick a language** dropdown list, search for and select the language you want.  
+   * From the **Pick a Language** dropdown list, search for and select the language you want.  
    * In the **Create new version** field, select either the **Major** or **Minor** version for your translation.  
 
     You can set languages that are supported by your Dynamics 365 instance.

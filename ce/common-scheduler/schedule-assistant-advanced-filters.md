@@ -4,7 +4,7 @@ description: The schedule assistant provides a few advanced filters for granular
 ms.date: 06/06/2024
 ms.reviewer: mhart
 ms.subservice: common-scheduler
-ms.topic: conceptual
+ms.topic: article
 author: anilmur
 ms.author: anilmur
 ---

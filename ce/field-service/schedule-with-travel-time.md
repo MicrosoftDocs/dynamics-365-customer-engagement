@@ -2,7 +2,7 @@
 title: Schedule requirements with travel time and distance
 description: Learn about how to schedule with travel time and distance in Dynamics 365 Field Service.
 ms.date: 05/21/2024
-ms.topic: conceptual
+ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
 ---

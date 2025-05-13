@@ -2,7 +2,7 @@
 title: Configure representative display name for a chat widget
 description: This article provides procedural information to configure a representative's display name for a chat widget.
 ms.date: 02/05/2025
-ms.topic: article
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan

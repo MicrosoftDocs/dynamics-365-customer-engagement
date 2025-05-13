@@ -2,7 +2,7 @@
 title: "UII adapters in Unified Service Desk | MicrosoftDocs"
 description: "Learn about UII adapters that you can use to modify the behavior of the application without accessing its source code."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: get-started
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

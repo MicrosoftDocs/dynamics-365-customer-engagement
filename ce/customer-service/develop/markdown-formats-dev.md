@@ -4,7 +4,7 @@ description: Use this article to understand how Markdown formats are passed thro
 author: gandhamm
 ms.author: mgandham
 ms.date: 01/17/2023
-ms.topic: conceptual
+ms.topic: overview
 ms.custom: bap-template
 ms.reviewer: mgandham
 
@@ -13,11 +13,11 @@ ms.reviewer: mgandham
 
 In Omnichannel for Customer Service, you can send and receive messages formatted with Markdown in custom messaging channels using Direct Line API 3.0. As a developer, understanding how the Markdown format is passed through the channel and knowing the details of the format will help you update the HTML styling and tags in your own user interface.
 
-In the Direct Line channel, when an agent sends (*outbound*) a message formatted with Markdown to a Direct Line bot, the bot receives the message in a certain format. Now, if a bot receives (*inbound*) a formatted message from a customer, it must be able to correctly interpret the message that's formatted with Markdown. As a developer, you'll need to use Markdown appropriately so that the message is formatted correctly for your agents and customers.
+In the Direct Line channel, when a customer service representative (service representative or representative) sends (*outbound*) a message formatted with Markdown to a Direct Line bot, the bot receives the message in a certain format. Now, if a bot receives (*inbound*) a formatted message from a customer, it must be able to correctly interpret the message that's formatted with Markdown. As a developer, you'll need to use Markdown appropriately so that the message is formatted correctly for your service representatives and customers.
 
 ## Markdown formats
 
-The following table lists the Markdown formats used in inbound messages sent by the customer and outbound messages sent by the agent to the customer.
+The following table lists the Markdown formats used in inbound messages sent by the customer and outbound messages sent by the service representative to the customer.
 
 |          Style            |      Inbound                      |    Outbound                           | Example   |
 | ------------------------- | -------------------------------   | --------------------------------------|-----------|
@@ -51,7 +51,7 @@ For outbound messages, the Markdown text will be received in the [Activity](/azu
 
 [Support for live chat and asynchronous channels](../administer/card-support-in-channels.md)  
 [Enable formatted messages](../administer/enable-formatted-messages.md)  
-[Markdown formats for agents](../use/markdown-formats-agents.md)  
+[Markdown formats for representatives](../use/markdown-formats-agents.md)  
 [Key concepts in Direct Line API 3.0](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0&preserve-view=true)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

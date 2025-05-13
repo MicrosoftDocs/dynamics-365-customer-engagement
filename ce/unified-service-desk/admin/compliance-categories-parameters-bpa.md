@@ -2,7 +2,7 @@
 title: "Best practice rule categories and parameters | MicrosoftDocs"
 description: "Learn about the categories under which the parameters are classified. Best Practices Analyzer performs the analysis of these parameters and displays a report."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: best-practice
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

@@ -2,7 +2,7 @@
 title: "Associate devices with customer accounts in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn about how to associate devices with customer accounts in Connected Customer Service for Azure IoT Central."
 ms.date: 01/25/2022
-ms.topic: article
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan

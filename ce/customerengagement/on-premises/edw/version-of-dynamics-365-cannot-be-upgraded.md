@@ -4,7 +4,7 @@ ms.custom:
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 ms.assetid: 33f9d43c-dd5a-4679-82d6-51ad953461b8
 caps.latest.revision: 7
 robots: noindex,nofollow

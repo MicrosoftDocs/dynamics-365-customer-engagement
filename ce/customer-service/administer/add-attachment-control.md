@@ -60,5 +60,5 @@ On the required form, add the **Attachment Control** component. Learn more in [A
 ### Related information
 
 [Case management in multisession apps](../use/enh-casemgmt-csw.md)   
-[Get started with Customer Service workspace](../implement/csw-overview.md) 
+[Get started with Copilot Service workspace](../implement/csw-overview.md) 
 

@@ -5,7 +5,7 @@ keywords:
 author: shwetamurkute
 applies_to: Dynamics 365 Customer Engagement (on-premises)
 ms.author: smurkute
-ms.topic: article
+ms.topic: how-to
 
 ms.assetid: 5424660b-743b-434f-9993-fb64ae4e776a
 ms.custom: 
