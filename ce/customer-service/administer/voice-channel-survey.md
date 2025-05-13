@@ -82,7 +82,7 @@ You can add messages or questions to a Copilot Studio IVR agent to create a post
 
 To route the customer to the survey agent automatically after the agent hangs up, perform the following steps:
 
-1. In the Customer Service admin center or Contact Center admin center app, select your voice workstream, and then select **Edit** next to the pencil icon to modify the settings.
+1. In the Copilot Service admin center or Contact Center admin center app, select your voice workstream, and then select **Edit** next to the pencil icon to modify the settings.
 1. Under **Language**, scroll to the bottom of the dialog, and then toggle **Post-call survey** to **On**.
 1. From the dropdown menu, select the survey agent.
 1. Select **Confirm**.
