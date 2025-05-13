@@ -15,15 +15,15 @@ ms.custom:
 
 # Tools supported by the Sales MCP Server
 
-This article describes the tools that are supported by the Model Context Protocol (MCP) server in Dynamics 365 Sales. 
+This article describes the tools supported by the Model Context Protocol (MCP) server in Dynamics 365 Sales. 
 
-| Tool Name             | Description                                                                                   |
-|-----------------------|-----------------------------------------------------------------------------------------------|
-| ListLead             | Retrieves a list of leads for the given organization and can also fetch a lead by its attribute name. Each lead includes `leadid` or `lead ID` and all the information in detail. |
-| InvokeLeadSummary    | Provides more details about the given lead based on the `leadid` or `lead ID`.                |
-| QualifyLeadToOpportunity | Qualifies a lead for the given organization.                                                |
-| DraftOutreachEmail   | Helps in drafting an outreach email for the given lead based on the `leadid` or `lead ID`.     |
-| SendOutreachEmail    | Helps in sending an email to a customer using the draft outreach email for the given lead based on the `leadid` or `lead ID`. |
+| Tool Name             | Description                                                                                   | More information                                                                 |
+|-----------------------|-----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| ListLead             | Retrieves a list of leads. Each lead includes `leadid` or `lead ID` and all the information in detail. | [ListLead](#listlead)                                                           |
+| InvokeLeadSummary    | Provides a summary of a lead.                | [InvokeLeadSummary](#invokeleadsummary)                                         |
+| QualifyLeadToOpportunity | Qualifies a lead and converts it into an opportunity.                                                | [QualifyLeadToOpportunity](#qualifyleadtoopportunity)                           |
+| DraftOutreachEmail   | Drafts an outreach email for a lead.     | [DraftOutreachEmail](#draftoutreachemail)                                       |
+| SendOutreachEmail    | Sends the outreach email to the lead. | [SendOutreachEmail](#sendoutreachemail)                                         |
 
 
 ## ListLead
