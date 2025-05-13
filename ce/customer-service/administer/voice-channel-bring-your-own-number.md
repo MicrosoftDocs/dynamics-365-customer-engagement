@@ -47,9 +47,11 @@ In the **Bring your own number via Azure Direct Routing** section you can either
       - **Country/Region**: Select the country or region the phone number belongs to.
       - **Number type**: Select whether toll-free or a local phone number.  
    1. The application displays the PhoneNumber.csv link once you specify the carrier, country/region, and number type. Download the CSV file and fill in the following details for all the phone numbers you want to add in bulk:
-      - **msdyn_phonenumber**: Indicates the phone number that you own and have configured in your SBC.
+      - **msdyn_phonenumber**: Indicates the phone number that you own and have configured in your SBC. The maximum length of the phone number is 15 digits. When the phone number has greater than 10 digits, you must enclose the number in double quotes. For example, "123456789012345". You don't have to append "+" to the phone number. The application automatically appends "+" to the phone number when you upload the CSV file.
       - **msdyn_phoneinboundenabled**: Indicates whether the phone number can receive calls. Set to **True** if you want to receive calls on this number.
       - **msdyn_phoneoutboundenabled**: Indicates whether the phone number can make calls. Set to **True** if you want to make calls on this number.
+    > [!NOTE]
+     > We recommend that you upload 100 numbers at a time. 
     1. Select **Upload** and upload the CSV file. The application validates the file and displays a success message if the file is valid. If the file is invalid, it displays an error message with details about the errors in the file.
     1. Select Import numbers. Once the import is successful the phone numbers are displayed on the Phone numbers page.
     1. On the **Phone Numbers** page, select **Import status** to view the status of the import. 
@@ -57,7 +59,7 @@ In the **Bring your own number via Azure Direct Routing** section you can either
   ### [Add number](#tab/addnumber)
    1. Select **Add number** to add a single phone number. The **Add your own phone number** dialog appears.
    1. In the **Add your own phone number** dialog, enter the following details.
-      - **Phone number**: Indicates the phone number that you own and have configured in your SBC.
+      - **Phone number**: Indicates the phone number that you own and have configured in your SBC. 
       - **Carrier**: Indicates the carrier to which the phone number belongs. If the carrier doesn’t exist yet, you can create a new record.
       - **Country/Region**: Select the country or region the phone number belongs to.
       - **Number type**: Select whether toll-free or a local phone number.
