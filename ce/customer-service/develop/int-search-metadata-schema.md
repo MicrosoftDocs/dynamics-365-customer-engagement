@@ -4,7 +4,7 @@ description: Learn about how to map external source metadata to knowledge articl
 author: gandhamm 
 ms.author: mgandham 
 ms.reviewer: mgandham
-ms.topic: conceptual 
+ms.topic: overview
 ms.date: 05/02/2023
 ms.custom: bap-template
 ---
@@ -23,9 +23,9 @@ The following table lists the fields and field details that you must use in your
 |Field name  |Definition   |Required |Value |
 |----------|-----------|------------|----------|
 |Name     |Name of the field definition |No     |A string indicating the name of the field. |
-|UniqueTargetFieldName     |Is the unique identifier or alternate key of the knowledge article entity. Typically, this field is the ID on the content provider side. |Yes     |A string indicating the name of the field. You can set the value to "msydn_externalreferenceid" |
+|UniqueTargetFieldName     |The unique identifier or alternate key of the knowledge article entity. Typically, this field is the ID on the content provider side. |Yes     |A string indicating the name of the field. You can set the value to "msydn_externalreferenceid" |
 |ContentTargetFieldName     | Field value shouldn't be changed. |Yes     |Set the value to "content". |
-|ApiPathLeafName     |Field value should not be changed. |Yes     |Set the value to "knowledgearticles". |
+|ApiPathLeafName     |Field value shouldn't be changed. |Yes     |Set the value to "knowledgearticles". |
 |List&lt;FieldDefinitions&gt;   |Is a list of field definitions. |Yes     |A set of definitions for the fields. See the following table for the list of supported fields for setting field definitions. |
 
 ### Field definitions
@@ -36,7 +36,7 @@ The following table lists the required and optional attributes that you can use 
 |----------|-----------|------------|----------|
 |TargetFieldName     |Is the logical field name of the target attribute in the knowledge article entity. |Yes |Any string indicating the name of the target field |
 |TargetFieldType    |Indicates the type of the target field. |Yes  |A string indicating the type of the field. |
-|DocFieldSource    | Indicates how the source field value will be identified and resolved at run time |Yes     |Set the value to one of the following source types: <UL><li>Regex</li><li>Meta</li><li>Constant</li><li>Url</li><li>Document</li></ul>To know about these data types, refer to the following Field source types section. |
+|DocFieldSource    | Indicates how the source field value is identified and resolved at run time |Yes     |Set the value to one of the following source types: <UL><li>Regex</li><li>Meta</li><li>Constant</li><li>Url</li><li>Document</li></ul>To know about these data types, refer to the following Field source types section. |
 |DocFieldPattern  |Indicates the nature of the target field to be fetched. |No  |Set this value based on the DocFieldSource value. See the examples below on how to set DocFieldPatterns. |
 |MaxLength    |Is the maximum length of the string that can be stored in the target field. |No. Can be used when **TargetFieldType** attribute is of type String    |Int |
 |UseRegexCapture    |Stores the regex pattern that can be applied to the URL. |No. Can be used when the **TargetFieldType** attribute is of type String and **DocFieldSource** attribute is of type Url. |Url or String. |
@@ -123,7 +123,7 @@ Your mapping template must include:
 
     ```
 
-- After you’ve listed the mandatory fields and attribute information, you can include any additional metadata mappings and set your own custom values for them. For example, you can include a Meta type of **DocFieldSource** and set any custom values for the attribute, as follows.
+- After you listed the mandatory fields and attribute information, you can include any additional metadata mappings and set your own custom values for them. For example, you can include a Meta type of **DocFieldSource** and set any custom values for the attribute, as follows.
 
     ```JSON
 

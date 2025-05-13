@@ -2,7 +2,7 @@
 title: Configure an Apple Messages for Business channel
 description: This article provides steps to configure an Apple Messages for Business channel and Apple pages in the admin center.
 ms.date: 03/03/2025
-ms.topic: article
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -66,7 +66,7 @@ Before you configure the Apple Messages for Business channel in Contact Center a
 
 1. Configure work distribution. Learn more at [Work distribution settings](create-workstreams.md#configure-work-distribution)
 
-1. Optionally, you can add an AI agent. Skip this step if representatives handle your conversations. Learn more in [Configure an AI agent](create-workstreams.md#add-a-bot-to-a-workstream).
+1. Optionally, you can add an AI agent. Skip this step if representatives handle your conversations. Learn more in [Configure an AI agent](create-workstreams.md#add-an-agent-to-a-workstream).
 
 1. In **Advanced settings**, configure the following options based on your business needs:<br>
       - [Sessions](session-templates.md)<br>

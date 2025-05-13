@@ -4,7 +4,7 @@ description: Learn about the architecture of the work order process in Dynamics 
 ms.date: 05/06/2024
 author: jshotts
 ms.author: jasonshotts
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: bap-template
 applies_to: 
   - "Dynamics 365 (online)"

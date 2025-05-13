@@ -3,7 +3,7 @@ title: Data retention and deletion policy for conversation intelligence (Sales a
 description: Provide read-only access to your call data and determine how long you want to keep the analyzed call recording data in conversation intelligence.
 ms.date: 03/31/2025
 ms.custom: 
-ms.topic: article
+ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

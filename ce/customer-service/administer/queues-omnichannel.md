@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 02/04/2025
+ms.date: 04/16/2025
 ms.custom: bap-template
 ms.collection:
 searchScope:
@@ -39,7 +39,7 @@ The queue types allow issues to be routed correctly and help avoid cross-queue a
 
 ## Create a queue for unified routing
 
-1. In the site map of Customer Service admin center, select **Queues** in **Customer support**.
+1. In the site map of Copilot Service admin center, select **Queues** in **Customer support**.
     
 1. On the **Queues** page, select **Manage** for **Advanced queues**.
     

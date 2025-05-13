@@ -1,7 +1,7 @@
 ---
 title: Define settings for parent and child cases
 description: Learn to define settings for parent and child cases in Dynamics 365 Customer Service.
-ms.date: 06/21/2024
+ms.date: 04/21/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -33,7 +33,7 @@ You can track multiple issues for a customer or the same issue that's affecting 
   
 ## Set parent and child case attributes
 
-1. In the site map of Customer Service admin center, select **Case Settings** in **Customer support**. The **Case Settings** page appears.
+1. In the site map of Copilot Service admin center, select **Case Settings** in **Customer support**. The **Case Settings** page appears.
      
 1. Select **Manage** for **Parent child case settings**.
 

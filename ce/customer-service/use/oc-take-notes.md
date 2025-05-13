@@ -1,7 +1,7 @@
 ---
 title: Take notes specific to conversations
 description: As a representative, learn how to take notes specific to conversations when you are interacting with customers in Copilot Service workspace.
-ms.date: 04/28/2025
+ms.date: 04/30/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -12,10 +12,9 @@ ms.custom: bap-template
 
 # Take notes specific to conversation
 
-
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-> [!Note]
+> [!NOTE]
 > Case information is applicable to Customer Service only.
 
 ## Take notes
@@ -26,7 +25,11 @@ For an unauthenticated conversation request, you can capture notes only when you
 
 When you select the notes option from the communication panel, the application launches the notes panel next to the communication panel. You can capture the points and select **Add note**. If a case is linked to the conversation, the note is linked to the case and is shown on the case timeline. If no case is linked to the conversation, the note is linked to the customer account or contact.
 
+<<<<<<< HEAD
 :::image type="content" source="../media/oceh-cc-notes.png" alt-text="Screenshot of the Notes panel for customer service representatives to take the discussion points when they interact with customers.":::
+=======
+:::image type="content" source="../media/oceh-cc-notes.png" alt-text="Screenshot of the Notes panel for representatives to take the discussion points when they interact with customers.":::
+>>>>>>> 6292c7e18843762de2aa963b846e199a9c287f2b
 
 ## Take notes for multiple sessions
 

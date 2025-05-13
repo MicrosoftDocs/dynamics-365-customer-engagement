@@ -2,7 +2,7 @@
 title: Release history (Unified Service Desk)
 description: Find information about all the documentation updates made in various versions of Unified Service Desk.
 ms.date: 09/27/2024
-ms.topic: article
+ms.topic: whats-new
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

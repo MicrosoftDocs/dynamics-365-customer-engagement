@@ -2,7 +2,7 @@
 title: "Install the Unified Service Desk client | MicrosoftDocs"
 description: "Learn how to install and upgrade Unified Service Desk client using the Setup Wizard and using the command line."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: install-set-up-deploy
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

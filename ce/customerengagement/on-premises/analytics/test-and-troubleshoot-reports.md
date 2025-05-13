@@ -6,7 +6,7 @@ ms.reviewer:
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: troubleshooting-general
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: c9f06327-3b52-4850-a415-d5f59b9e29aa

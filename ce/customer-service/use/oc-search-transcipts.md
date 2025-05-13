@@ -2,7 +2,7 @@
 title: Search for transcripts in Omnichannel for Customer Service
 description: Learn how to search for transcripts and view transcript details for a conversation.
 ms.date: 04/28/2025
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

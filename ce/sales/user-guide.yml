@@ -69,10 +69,10 @@ landingContent:
             url: use-sales-copilot.md
        - linkListType: how-to-guide
          links:
-          - text: Compose and send email messages using Copilot
-            url: compose-send-email-copilot.md 
-          - text: View and copy email summary
-            url: view-copy-email-summary.md   
+          - text: Get information from Copilot
+            url: copilot-get-information.md   
+          - text: Stay ahead with Copilot 
+            url: copilot-stay-ahead.md            
 
 # Card 
   - title: Keep track of your customers

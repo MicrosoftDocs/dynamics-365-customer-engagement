@@ -5,7 +5,7 @@ ms.custom:
 ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 ms.assetid: a98b2fce-df49-4b60-91f4-a4446aa61cd3
 caps.latest.revision: 21
 ms.author: nabuthuk

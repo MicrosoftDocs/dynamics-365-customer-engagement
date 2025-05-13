@@ -2,7 +2,7 @@
 title: "Interactive Service Hub Page (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "Learn to create the Interactive Service Hub Page hosted control in Unified Service Desk. Also, find information about the predefined UII actions supported by it."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

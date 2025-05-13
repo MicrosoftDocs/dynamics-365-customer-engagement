@@ -4,7 +4,7 @@ description: "Follow these steps to create an Azure application to enable integr
 ms.reviewer: "matp"
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: how-to
 applies_to: 
   - "Dynamics 365 (on-premises)"
 ms.author: aorth
