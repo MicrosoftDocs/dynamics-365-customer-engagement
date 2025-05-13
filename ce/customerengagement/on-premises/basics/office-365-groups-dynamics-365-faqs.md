@@ -6,7 +6,7 @@ ms.reviewer:
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: faq
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 3f170665-f0eb-4af7-a177-67bce539419f

@@ -6,7 +6,7 @@ ms.custom: ""
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 author: Mattp123
 ms.author: matp
 applies_to: 

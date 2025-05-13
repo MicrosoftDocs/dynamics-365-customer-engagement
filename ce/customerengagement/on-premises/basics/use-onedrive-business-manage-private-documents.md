@@ -4,7 +4,7 @@ description: "Store your private documents using OneDrive for Business. Learn ho
 keywords: documents, store, OneDrive, Business
 
 ms.custom: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 9dbd9d2f-4978-4a65-988c-f9928a0722e0
