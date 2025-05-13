@@ -2,7 +2,7 @@
 title: "Make price list optional | MicrosoftDocs"
 description: "Allow your salespeople to add products without associating a price list first."
 ms.date: 11/21/2024
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

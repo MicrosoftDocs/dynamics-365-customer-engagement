@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 04/09/2025
+ms.date: 05/06/2025
 ms.custom: bap-template
 ---
 
@@ -32,8 +32,7 @@ If you're a first-time user, you must provision integrated search providers. Mak
 
 ## Provision integrated search providers
 
-1. Sign in to the Customer Service admin center or Contact Center admin center.
-1. Go to **Knowledge** > **Integrated Search providers** > **Manage**.
+1. In the site map of Copilot Service admin center, go to **Knowledge** > **Integrated Search providers** > **Manage**.
 1. On the **Integrated search providers** page, select **Set up integrated search**.
 
 If you aren't able to provision the integrated search provider, you need to enable the Integrated Search API trigger flow.
@@ -54,7 +53,7 @@ If integrated search isn't enabled in your geographical region, contact Microsof
 
 ## Add integrated search providers
 
-1. In the Customer Service admin center or Contact Center admin center, under **Experiences**, select **Knowledge**.
+1. In the site map of Copilot Service admin center, select **Knowledge**, under **Support experience**.
 1. On the **Knowledge** page, in the **Integrated search providers** section, select **Manage**.
 1. Select **New**.
 1. In the **Provider info** section:
@@ -132,7 +131,7 @@ If your search provider is **Active** with status reason **Ingestion Ready**, in
 
 When you activate a search provider, new and updated articles start ingesting from the provider, and articles start appearing in the search results.
 
-1. In the Customer Service admin center or Contact Center admin center, under **Experiences**, select **Knowledge**.
+1. In the site map of Copilot Service admin center, select **Knowledge** under **Support experience**.
 1. On the **Knowledge** page, in the **Integrated search providers** section, select **Manage**.
 1. From the **Inactive search providers** list, select a search provider, and then select **Activate**.
 1. Select **Activate** again to confirm you want to activate the search provider.
@@ -141,7 +140,7 @@ When you activate a search provider, new and updated articles start ingesting fr
 
 When you edit a search provider, your changes take effect with the next ingestion.
 
-1. In the Customer Service admin center or Contact Center admin center, under **Experiences**, select **Knowledge**.
+1. In the site map of Copilot Service admin center, select **Knowledge** under **Support experience**.
 1. On the **Knowledge** page, in the **Integrated search providers** section, select **Manage**.
 1. Select **Active integrated search providers** or **Inactive integrated search providers** from the **All integrated search providers** list, and then select the search provider that you want to make changes to.
 1. Select **Edit**.
@@ -153,7 +152,7 @@ When you edit a search provider, your changes take effect with the next ingestio
 
 When you deactivate a search provider, ingestion of new and updated articles from the search provider stops. Articles that have already been ingested no longer appear in search results.
 
-1. In the Customer Service admin center or Contact Center admin center, under **Experiences**, select **Knowledge**.
+1. In the site map of Copilot Service admin center, select **Knowledge** under **Support experience**.
 1. On the **Knowledge** page, in the **Integrated search providers** section, select **Manage**.
 1. From the **Active search providers** list, select a search provider.
 1. Select **Deactivate**.
@@ -166,7 +165,7 @@ Configure search providers as filters to search knowledge articles only from sel
 > [!NOTE]
 > If you have a custom layer on the Knowledge Articles Quick Find view, add `msdyn_integratedsearchproviderid` in **View columns** and **Find columns** to stop articles from appearing in search results.
 
-1. In the Customer Service admin center or Contact Center admin center, under **Experiences**, select **Knowledge**.
+1. In the site map of Copilot Service admin center, select **Knowledge** under **Support experience**.
 1. In the **Filters** section, make sure that **Enable search filters** is set to **Yes**.
 1. From the **Select filter type** list, select **Integrated Search Dataprovider Id**, and then select **Add**.
 1. Select the **Search** icon.

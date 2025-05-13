@@ -1,8 +1,8 @@
 ---
 title: Manage cases with case grids 
-description: Learn how to work with case grids and increase agent productivity.
-ms.date: 08/01/2024
-ms.topic: article
+description: Learn how to work with case grids and increase representative productivity.
+ms.date: 05/02/2025
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -17,9 +17,9 @@ ms.collection: get-started
 
 # Manage cases with case grids 
 
-The modernized case grids help you increase your productivity by providing quick access to information, such as last customer interaction, case age, and the next SLA breach. You can perform inline edits and quick operations with minimal clicks, thereby managing cases quickly and efficiently. Key features include:
+The modernized case grids help you increase your productivity by providing quick access to information, such as last customer interaction, case age, and the next SLA breach. You can quickly and efficiently manage cases by performing inline edits and quick actions with minimal clicks. Key features include:
 
-- The **Enhanced Active Cases** view is available by default with additional fields such as **Case Age**, **Next SLA**, **Is escalated**, and **Last Interaction**.
+- The **Enhanced Active Cases** view is available by default with more fields such as **Case Age**, **Next SLA**, **Is escalated**, and **Last Interaction**.
 - Color coded icons for **Priority**, **Case status**, and the **Origin** channels, avatars for Owner appear in all the case views.
 
 ## Columns on the Enhanced Active Cases view
@@ -39,8 +39,8 @@ The **Enhanced Active Cases** view displays the following fields:
 |Last Interaction    | Shows the last activity and the action performed on that activity&mdash;for example, **Note Added** for standard activities. For custom activities, only the created or updated status is shown. Selecting it opens the corresponding activity’s form. This data is read-only. You can't sort or filter the data. Additionally, if the activity has an attachment, you can see an attachment icon next to the activity. Displaying the Last Interaction column doesn’t affect the **modifiedon** and **modifiedby** fields.|  No text appears. |
 |Next SLA   | Searches through all active, that is, non-canceled SLA KPI instances attached to the given case, filters, and then picks the SLA KPI instance that's in an unresolved state and has the earliest expiry time. If the expiry time is in the past, it indicates that there's an expired SLA instance associated with the case. The SLA KPI instance name isn't shown along with the timer control. The unsupported properties of the SLA timer control are negative timer, customized labels, upgrade frequency, and auto-refresh. The Next SLA column is read-only. You can sort the data but can't filter it. Calculating Next SLA for cases results in updates to the **modifiedon** and **modifiedby** fields on the case entity. If you want to disable Next SLA, you must contact Microsoft Support.| The SLA timer doesn't appear. Only the value assigned to **Next SLA** field in the back end appears, which includes details such as name of SLA instance and expiry/warning time.|
 |Subject   | Shows the subject associated with the case. You can edit the Subject column by double-clicking it. All the available options that you can select are listed. A hierarchical view isn't available. You can sort and filter the data. | The subject associated with the case appears as a text. |
-|Is Escalated   | Shows a toggle button reflecting whether the case has been escalated. The Is Escalated column is editable. You can sort and filter the data. | Escalation information in the form of **Yes/No** appears as text. |
-|Case Age| Shows the static text with the duration for which the case has been active for active and resolved cases in the format {xx}d {yy}h or {xx}h {yy}m. For canceled cases, the column shows **Canceled**. For cases that were in the **Resolved** state before enabling modernized case grids, the column shows as **Resolved**. Calculated Case Age is refreshed every minute, but you must refresh the view to see the updated case age on the grid. The column shows **0h 0m** when a case is created, after which the column shows either **{xx}h {yy}m** or **{xx}d {yy}h**. This column is read-only. You can't sort or filter the data. To calculate case age for cases that are resolved after enabling modernized case grids, the **deactivatedon** attribute captures the date and time, when a case is resolved. Case age for resolved cases depends on the values of the **createdon** and **deactivatedon** attributes. Calculating case age for active or resolved cases won't affect the **modifiedon** and **modifiedby** fields. | Duration in minutes (whole number) for active and resolved cases appears. For canceled cases, **Canceled** appears. |
+|Is Escalated   | Shows a toggle button reflecting whether the case is escalated. The Is Escalated column is editable. You can sort and filter the data. | Escalation information in the form of **Yes/No** appears as text. |
+|Case Age| Shows the static text with the duration for which the case has been active for active and resolved cases in the format {xx}d {yy}h or {xx}h {yy}m. For canceled cases, the column shows **Canceled**. For cases that were in the **Resolved** state before enabling modernized case grids, the column shows as **Resolved**. Calculated Case Age is refreshed every minute, but you must refresh the view to see the updated case age on the grid. The column shows **0h 0m** when a case is created, after which the column shows either **{xx}h {yy}m** or **{xx}d {yy}h**. This column is read-only. You can't sort or filter the data. To calculate case age for cases that are resolved after enabling modernized case grids, the **deactivatedon** attribute captures the date and time, when a case is resolved. Case age for resolved cases depends on the values of the **createdon** and **deactivatedon** attributes. Calculating case age for active or resolved cases doesn't affect the **modifiedon** and **modifiedby** fields. | Duration in minutes (whole number) for active and resolved cases appears. For canceled cases, **Canceled** appears. |
 
 ## Customize the Case grid
 
@@ -52,7 +52,7 @@ Adding columns to the new **Enhanced Active Cases** view directly isn't supporte
 
 To create a copy of the **Enhanced Active Cases** view and customize it to add a new column:
 
-1. In the Customer Service workspace site map, open a new tab, and then select **Cases**.
+1. In the Copilot Service workspace site map, open a new tab, and then select **Cases**.
 
 1. From the dropdown list, select **Enhanced Active Cases** .
 1. Select **Switch to classic**.
@@ -68,11 +68,11 @@ To create a copy of the **Enhanced Active Cases** view and customize it to add a
 
 You can also add columns to your existing views. For example, if you want to add **Last Interaction** or any of the other new key data columns, perform the following steps:
 
-1. In the Customer Service workspace site map, open a new tab, and then select **Cases**.
+1. In the Copilot Service workspace site map, open a new tab, and then select **Cases**.
 
 1.	From the dropdown list, select any of the existing views.
-1.	Select **Column Options**.
-1.	In the **Edit columns** dialog, select **Add columns**. The **Add columns** dialog appears.
+1.	Select **Edit Columns**.
+1.	In the **Edit columns: Cases** dialog, select **Add columns**. The **Add columns** dialog appears.
 1.	In the **Add columns** dialog, within Case, select **Custom** from the dropdown list. 
 1.	Select **Last Interaction**, and then select **Close**. **Last Interaction** appears in the **Edit columns** dialog.
 1.	Select **Apply**. If you want to change the sequence of the columns, select **Move up**, and then select **Apply**.

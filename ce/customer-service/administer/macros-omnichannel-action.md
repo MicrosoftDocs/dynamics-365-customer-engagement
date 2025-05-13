@@ -4,7 +4,7 @@ description: Learn about using Omnichannel connector to create macros.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: conceptual 
+ms.topic: how-to
 ms.collection: 
 ms.date: 12/04/2024
 ms.custom: bap-template 
@@ -19,13 +19,13 @@ You can use Omnichannel connector to use actions to perform Omnichannel for Cust
 You can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service.
 
 > [!NOTE]
-> Macro actions for the Omnichannel connector is available if Customer Service workspace in Omnichannel for Customer Service is installed.
+> Macro actions for the Omnichannel connector is available if Copilot Service workspace in Omnichannel for Customer Service is installed.
 
    :::image type="content" source="../media/macro-omnichannel-connector.png" alt-text="Macro actions Omnichannel connector.":::
 
 ## Link record to the conversation
 
-Links a record to the conversation in the focused session when the agent is communicating with a customer in omnichannel. This action contains the following fields.
+Links a record to the conversation in the focused session when the customer service representative (service representative or representative)  is communicating with a customer in omnichannel. This action contains the following fields.
 
    | Field | Description | 
    |-----------------|-----------------------------|
@@ -48,7 +48,7 @@ Perform the following steps to create a case from an Omnichannel conversation. T
  
 ## Unlink record from the conversation
 
-Unlinks a record from the conversation in the focused session when the agent is communicating with a customer in omnichannel. This action contains the following fields.
+Unlinks a record from the conversation in the focused session when the service representative is communicating with a customer in omnichannel. This action contains the following fields.
 
    | Field | Description | 
    |-----------------|-----------------------------|

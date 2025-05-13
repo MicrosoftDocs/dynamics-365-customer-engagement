@@ -1,8 +1,8 @@
 ---
 title: Enable custom time calculation of SLA KPIs
 description: Enable custom time calculation for SLA KPIs by defining an API interface, adding custom logic, and registering the plug-in with your organization.
-ms.date: 04/09/2025
-ms.topic: article
+ms.date: 04/30/2025
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -57,7 +57,7 @@ To enable your own custom time calculation, define an API interface that has a f
 
     :::image type="content" source="../media/register-plug-in.png" alt-text="Register and link the plug-in":::
 
-1. In Customer Service admin center, add or edit the previously created custom action with the SLA Item:
+1. In Copilot Service admin center, add or edit the previously created custom action with the SLA Item:
     1. Set the **Allow Custom Time Calculation** toggle to **Yes**.
     1. In the **Custom Time Calculation Process** field, select the custom action created in step 3.
     1. Select **Save and Close**.

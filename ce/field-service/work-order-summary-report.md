@@ -3,7 +3,7 @@ title: Work order summary report
 description: Learn how to use work order summary reports in Dynamics 365 Field Service.
 ms.date: 08/30/2024
 ms.reviewer: mhart
-ms.topic: conceptual
+ms.topic: article
 ms.custom: bap-template
 applies_to: 
   - "Dynamics 365 (online)"

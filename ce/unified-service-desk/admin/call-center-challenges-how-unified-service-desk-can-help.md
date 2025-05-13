@@ -2,7 +2,7 @@
 title: "Handle call center challenges with Unified Service Desk | MicrosoftDocs"
 description: "Learn about the call center industry and its challenges, and how Unified Service Desk can help you and your service agents address those challenges."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

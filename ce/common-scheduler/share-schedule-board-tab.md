@@ -4,7 +4,7 @@ description: Beyond using the default public schedule board tab, you can follow 
 ms.date: 10/20/2023
 ms.reviewer: mhart
 ms.subservice: common-scheduler
-ms.topic: article
+ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
 ---

@@ -1,8 +1,8 @@
 ---
 title: Work with activities in a Teams meeting
 description: Learn how to work with activities in a Teams meeting.
-ms.date: 04/20/2022
-ms.topic: article
+ms.date: 04/29/2025
+ms.topic: how-to
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais

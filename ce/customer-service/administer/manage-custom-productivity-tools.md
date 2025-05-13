@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to 
-ms.date: 04/25/2025
+ms.date: 04/30/2025
 ms.custom: bap-template
 ---
 
@@ -17,15 +17,18 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-
-The productivity pane supports custom productivity tools developed as custom pages or Power Apps component framework controls. You can create multiple custom productivity tools and make them available to your users with agent experience profiles.
+The productivity pane supports custom productivity tools developed as custom pages or Power Apps component framework controls. You can create multiple custom productivity tools and make them available to your users with experience profiles.
 
 ## Prerequisites
 
-Ensure that the following prerequisites are met:
+Make sure that the following prerequisites are met:
 
 - You have the **Productivity tools administrator** security role. To learn more, see [Assign roles and enable users](../implement/add-users-assign-roles.md).
+<<<<<<< HEAD
 - Customer service representatives (service representatives or representatives) and supervisors have the **Productivity tools user** security role. To learn more, see Assign roles and enable users.
+=======
+- Customer service representatives and supervisors have the **Productivity tools user** security role. To learn more, see Assign roles and enable users.
+>>>>>>> 6292c7e18843762de2aa963b846e199a9c287f2b
 - A custom page or a Power Apps component framework control to be hosted as a custom productivity tool. To learn more, see [Overview of custom pages for model-driven apps](/power-apps/maker/model-driven-apps/model-app-page-overview) and [Power Apps component framework](/power-apps/developer/component-framework/overview).
 
 ## Configure a custom productivity tool

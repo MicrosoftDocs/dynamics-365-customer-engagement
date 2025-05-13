@@ -2,7 +2,7 @@
 title: Copilot Service admin center FAQ
 description: FAQ pertaining to Copilot Service admin center.
 ms.date: 04/25/2025
-ms.topic: conceptual
+ms.topic: faq
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

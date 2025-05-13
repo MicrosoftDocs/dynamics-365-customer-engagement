@@ -2,7 +2,7 @@
 title: "Use custom panel types and panel layouts in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to customize your agent desktop using custom panel types and panel layouts in Unified Service Desk."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

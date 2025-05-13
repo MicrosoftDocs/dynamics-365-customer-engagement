@@ -6,7 +6,7 @@ ms.date: 01/11/2016
 ms.reviewer: smurkute
 ms.suite:
 ms.tgt_pltfrm:
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 apps 
   - Dynamics 365 apps (on-premises)

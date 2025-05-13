@@ -2,7 +2,7 @@
 title: "Categories and operations in Unified Service Desk performance report | MicrosoftDocs"
 description: "Learn about the operations and categories based on which the Unified Service Desk performance report is generated using the Unified Service Desk Performance Analyzer."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

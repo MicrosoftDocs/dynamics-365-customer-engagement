@@ -1,10 +1,10 @@
 ---
 title: Set up IVR agents in the voice channel using Copilot Studio
-description: Learn about how to add a Copilot Studio agent to use in the voice channel.
+description: Learn about how to add a Copilot agent to use in the voice channel.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 11/15/2024
+ms.date: 05/05/2025
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
@@ -19,7 +19,7 @@ ms.custom: bap-template
 
 To route customer calls to the best department, diagnose issues, collect information, and give recommendations, conversational IVR agents speak to customers when they call. Copilot Studio makes it easy to author Interactive Voice Response (IVR) agents, and you can use the same agents for other channels, like chat and voice.
 
-The following voice capabilities are available for the Copilot Studio agents:
+The following voice capabilities are available for the Copilot agents:
 
 - Collect customer input through speech or [Dual-Tone Multi-Frequency (DTMF)](/microsoft-copilot-studio/voice-dtmf). Customers can talk without using a prompt script, and Copilot understands their commands or questions. Customers can also enter data by pressing keys on their phone keypad. The Copilot agent detects when customers stop speaking using silence detection and responds accordingly.
 - Adjust the voice output by using [speech synthesis markup language (SSML)](/microsoft-copilot-studio/voice-configuration#format-speech-synthesis-with-ssml). You can change the tone, pitch, and speed of the voice that interacts with customers.
@@ -33,7 +33,7 @@ Learn about the supported languages and locales for IVR capabilities in [Support
 
 ## Prerequisites
 
-Perform the steps in [Integrate a Copilot Studio agent](configure-bot-virtual-agent.md). We recommend that you perform the steps in the specified order:
+Perform the steps in [Integrate a Copilot agent](configure-bot-virtual-agent.md). We recommend that you perform the steps in the specified order:
 
 1. [Acquire phone numbers](/dynamics365/customer-service/administer/voice-channel-manage-phone-numbers) or set up [bring your own carrier](/dynamics365/customer-service/administer/voice-channel-bring-your-own-number) phone numbers.
 1. Create a workstream and configure the corresponding routing rules for the workstream.
