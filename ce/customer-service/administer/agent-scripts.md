@@ -58,7 +58,7 @@ The following procedure is an example of a script for a chat session. You can mo
  
     | Field | Description | Example Value |
     |--------------------|------------------------------|-------------------------------------------|
-    | Name | Provide a name for the script step; this appears for the representative at runtime. You can use slugs for specifying the name of the step. To learn more, see [Slugs](automation-dictionary-keys.md#slugs-for-productivity-tools-macros-and-agent-scripts). | Example 1: Greet the customer. <br><br> Example 2: Hi {customer}  |
+    | Name | Provide a name for the script step; this appears for the representative at runtime. You can use slugs for specifying the name of the step. To learn more, see [Slugs](automation-dictionary-keys.md#slugs-for-productivity-tools-macros-and-scripts). | Example 1: Greet the customer. <br><br> Example 2: Hi {customer}  |
     |Unique Name |A unique identifier in the <*prefix*>_<*name*> format.<br>**Important:** The following are required for the unique name:<br><ul><li> The prefix can only be alphanumeric and its length must be between 3 to 8 characters.</li> <li>An underscore must be there between the prefix and name.</li></ul>| Greet_script|
     |Owner|By default, the signed in user is displayed as the owner.| Clay Roddy |
     |Script | The script for which the script step is being created.| Chat session script|
