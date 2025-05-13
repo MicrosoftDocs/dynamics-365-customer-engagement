@@ -1,7 +1,7 @@
 ---
 title: Create and manage customer accounts
 description: Learn how to create and use service account and billing accounts in Dynamics 365 Field Service.
-ms.date: 05/08/2024
+ms.date: 05/12/2025
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
@@ -38,7 +38,7 @@ For example, a wine producer corporation owns several vineyards. Each vineyard i
 
     - **Billing Account**: Sets the billing account on the work order when this account is selected as the service account. If no billing account is specified, the service account acts as both the service account and the billing account.
 
-    - **Product Price List**: Sets the [price list](create-price-list.md) for this account. If a billing account is specified, work orders use the price list in the billing account record. If the selected price list doesn't contain products or services, the list price on the product record is used.
+    - **Price List**: Sets the [price list](create-price-list.md) for this account. If a billing account is specified, work orders use the price list in the billing account record. If the selected price list doesn't contain products or services, the list price on the product record is used.
 
     - **Tax Exempt**: Determines whether sales tax is added to the price of work orders. Set to **Yes** to *not* add sales tax. Set to **No** to [specify a sales tax code](set-up-tax-codes.md) for the work order price and invoice.
 
