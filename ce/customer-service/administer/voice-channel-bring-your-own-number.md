@@ -51,7 +51,8 @@ In the **Bring your own number via Azure Direct Routing** section you can either
       - **msdyn_phoneinboundenabled**: Indicates whether the phone number can receive calls. Set to **True** if you want to receive calls on this number.
       - **msdyn_phoneoutboundenabled**: Indicates whether the phone number can make calls. Set to **True** if you want to make calls on this number.
     > [!NOTE]
-     > We recommend that you upload 100 numbers at a time. 
+    > We recommend that you upload 100 numbers at a time. 
+
     1. Select **Upload** and upload the CSV file. The application validates the file and displays a success message if the file is valid. If the file is invalid, it displays an error message with details about the errors in the file.
     1. Select Import numbers. Once the import is successful the phone numbers are displayed on the Phone numbers page.
     1. On the **Phone Numbers** page, select **Import status** to view the status of the import. 
