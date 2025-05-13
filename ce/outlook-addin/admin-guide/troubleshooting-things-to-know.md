@@ -7,7 +7,7 @@ ms.reviewer: smurkute
 
 ms.suite:
 ms.tgt_pltfrm:
-ms.topic: article
+ms.topic: troubleshooting-general
 applies_to: 
   - Dynamics 365 apps 
 ms.assetid: b61a8103-1686-47ef-ab28-1a547d61f8f8

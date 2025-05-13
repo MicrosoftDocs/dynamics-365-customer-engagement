@@ -2,7 +2,7 @@
 title: "Sign in to Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to sign in to Omnichannel for Customer Service through Unified Service Desk client application."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

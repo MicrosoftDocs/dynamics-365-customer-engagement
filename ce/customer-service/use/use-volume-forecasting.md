@@ -2,7 +2,7 @@
 title: Forecast case and conversation volumes, and service representatives for conversations
 description: Learn how to use forecast reports to predict service representative, case, and conversation volumes in Dynamics 365 Customer Service.
 ms.date: 02/10/2025
-ms.topic: conceptual
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -67,7 +67,7 @@ Before you can use the forecast reports, ensure that your administrator assigned
 
 ### Navigation
 
-You can view the forecast reports in the Customer Service workspace or Omnichannel for Customer Service app. You can navigate to the **Forecast** dashboard as follows:
+You can view the forecast reports in the Copilot Service workspace app. You can navigate to the **Forecast** dashboard as follows:
 
 - In the default view, go to the hamburger menu, and then select **Forecast**.
 - If the enhanced multisession workspace view is enabled, select **Forecast** on the site map.

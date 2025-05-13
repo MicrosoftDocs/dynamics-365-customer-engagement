@@ -1,6 +1,6 @@
 ---
-title: Set up a pay-as-you-go plan
-description: Learn how to set up and manage pay-as-you-go billing for AI-driven capabilities in Dynamics 365.
+title: Manage consumption-based billing and capacity
+description: Learn how to set up and manage consumption-based billing for AI-driven capabilities in Dynamics 365.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -10,11 +10,11 @@ ms.date: 03/28/2025
 ms.custom: bap-template
 ---
 
-# Set up a pay-as-you-go plan
+# Manage consumption-based billing and capacity
 
 This article explains how to set up a pay-as-you-go plan and manage capacity and usage for the plan.
 
-## Consumption-based billing
+## Set up consumption-based billing
 
 Selected Copilot and agent capabilities in Dynamics 365 use consumption-based billing, charging per use. These capabilities use Microsoft Copilot Studio messages for AI interactions and tasks, like retrieving information and responding to prompts. Messages are the billing units that measure usage. The number of messages per event depends on its complexity. Learn more about messages in [Message scenarios](/microsoft-copilot-studio/requirements-messages-management#message-scenarios).  
 

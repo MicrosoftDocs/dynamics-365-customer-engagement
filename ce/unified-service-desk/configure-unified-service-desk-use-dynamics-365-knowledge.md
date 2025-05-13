@@ -2,7 +2,7 @@
 title: Knowledge base search with model-driven apps in Unified Service Desk
 description: Use the KM Control and Unified Interface KM Control to allow agents to search the knowledge base in Microsoft Dataverse with model-driven apps in Unified Service Desk.
 ms.date: 03/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 search.audienceType:

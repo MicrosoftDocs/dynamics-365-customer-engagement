@@ -1,7 +1,7 @@
 ---
 title: Merge cases
 description: Learn about how to merge cases when multiple cases are created about the same issue in different channels.
-ms.date: 12/13/2024
+ms.date: 04/21/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -53,7 +53,7 @@ In the Customer Service Hub, you can merge cases from the dashboard streams or f
 
 ## Merge cases from a list of case records  
 
-1. In Customer Service Hub, select **Cases** in the site map. In Customer Service workspace, select the **My Active Cases** view on the **Customer Service Agent Dashboard**.
+1. In Customer Service Hub, select **Cases** in the site map. In Copilot Service workspace, select the **My Active Cases** view on the **Customer Service Agent Dashboard**.
 
 1. Select at least two active case records that you want to merge, and then on the command bar, select **Merge Cases**.
 

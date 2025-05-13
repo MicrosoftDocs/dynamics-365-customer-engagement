@@ -1,7 +1,7 @@
 ---
 title: Create and manage data masking rules
 description: Learn how to create and manage data masking rules to block sensitive data in Omnichannel for Customer Service.
-ms.date: 03/03/2025
+ms.date: 04/24/2025
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -42,7 +42,7 @@ As an administrator, you can delete or modify the out-of-the-box masking rules a
    > [!div class=mx-imgBorder]
    > ![Create a masking rule.](../media/new-masking-rule.png "Create a masking rule")
 
-1. In the site map of Customer Service admin center or Contact Center admin center, in **Agent experience**, select **Productivity**.
+1. In the site map of Copilot Service admin center, in **Support experience**, select **Productivity**.
 
 1.	Select **Manage** for **Data masking**.
 

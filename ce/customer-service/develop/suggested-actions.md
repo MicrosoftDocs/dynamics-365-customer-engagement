@@ -2,7 +2,7 @@
 title: Suggested actions for a Copilot Studio bot
 description: Display suggested actions vertically to a customer in a chat widget.
 ms.date: 11/17/2023
-ms.topic: conceptual
+ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

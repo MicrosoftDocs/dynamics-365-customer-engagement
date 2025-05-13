@@ -2,7 +2,7 @@
 title: "Post migration steps | MicrosoftDocs"
 description: "Learn about the tasks you must perform after migrating configurations from legacy web client to the Unified Interface app."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

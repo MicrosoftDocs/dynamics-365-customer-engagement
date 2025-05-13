@@ -1,7 +1,7 @@
 ---
 title: Configure a WhatsApp channel through Twilio
 description: Use this article to learn how to configure the WhatsApp channel through Twilio.
-ms.date: 03/05/2025
+ms.date: 04/14/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -17,9 +17,9 @@ ms.custom: bap-template
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
-The WhatsApp channel feature lets you integrate WhatsApp through Twilio with either the Customer Service admin center or Contact Center admin center application to engage with customers who prefer to use the WhatsApp channel.
+The WhatsApp channel feature lets you integrate WhatsApp through Twilio with either the Copilot Service admin center application to engage with customers who prefer to use the WhatsApp channel.
 
-The success of social media customer service, like all other customer service, depends on the quality of care provided. Communications from customer service representatives (service representatives or representatives) should be timely, accurate, sensitive, brief, and friendly, which ultimately improves the customer satisfaction and brand loyalty.
+The success of social media customer service, like all other customer service, depends on the quality of care provided. Communications from representatives should be timely, accurate, sensitive, brief, and friendly, which ultimately improves the customer satisfaction and brand loyalty.
 
 ## Prerequisites
 
@@ -41,7 +41,7 @@ The success of social media customer service, like all other customer service, d
 >
 > Before April 1, 2025, we recommend that you complete the following actions to avoid service disruptions:
 > - Migrate your existing WhatsApp templates to the [Content Template Builder in Twilio](https://go.microsoft.com/fwlink/?linkid=2306633).
-> - In either the Dynamics 365 Contact Center or Customer Service admin center app, update your [WhatsApp message templates](configure-whatsapp-channel.md#configure-whatsapp-message-templates) to use **Content Template SID** instead of **Template Name**.
+> - In the Copilot Service admin center app, update your [WhatsApp message templates](configure-whatsapp-channel.md#configure-whatsapp-message-templates) to use **Content Template SID** instead of **Template Name**.
 >
 > Currently, each content template set can have one language only. If you want to use the same template in multiple languages, you must create a separate content template for each language. Learn more in [Create a content template](https://www.twilio.com/docs/content/create-templates-with-the-content-template-builder).
 
@@ -58,13 +58,13 @@ The success of social media customer service, like all other customer service, d
 
 ## Fetch Twilio account details
 
-To integrate a WhatsApp channel through Twilio with the Customer Service admin center or Contact Center admin center application, you need to go to your Twilio account and fetch the **ACCOUNT SID** and **AUTH TOKEN** values. Save the values as they're required to configure a WhatsApp channel through the admin application.
+To integrate a WhatsApp channel through Twilio with the Copilot Service admin center application, you need to go to your Twilio account and fetch the **ACCOUNT SID** and **AUTH TOKEN** values. Save the values as they're required to configure a WhatsApp channel through the admin application.
 
 Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch the details.
 
 ## Create a WhatsApp channel
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Channels** in **Customer support**. The **Channels** page displays.
+1. In the site map of Copilot Service admin center, select **Channels** in **Customer support**. The **Channels** page displays.
     
 1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page displays.
    
@@ -107,13 +107,13 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
 
 1. Configure work distribution. Learn more in [Work distribution settings](create-workstreams.md#configure-work-distribution).
 
-1. Optionally, [add an agent](create-workstreams.md#add-a-bot-to-a-workstream).
+1. Optionally, [add an agent](create-workstreams.md#add-an-agent-to-a-workstream).
 
 1. Based on your business needs, in **Advanced settings**, configure the following options:
    - [Sessions](session-templates.md)
    - [Agent notifications](notification-templates.md#out-of-the-box-notification-templates)
-   - [Context variables](manage-context-variables.md#add-context-variables))
-   - [Smart assist bots](../develop/smart-assist-bot.md)
+   - [Context variables](manage-context-variables.md#add-context-variables)
+   - [Smart assist agents](../develop/smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
 ### Configure WhatsApp message templates

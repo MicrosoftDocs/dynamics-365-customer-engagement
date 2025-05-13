@@ -2,7 +2,7 @@
 title: "Agent Scripting (Hosted Control) | MicrosoftDocs"
 description: "Learn how to create the Agent Scripting hosted control in Unified Service Desk. Also, learn about all the predefined UII actions supported by it."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

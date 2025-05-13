@@ -6,7 +6,7 @@ ms.reviewer: pehecke
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: concept-article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 2abb6e22-c64c-4f87-8b55-9f4405103cec

@@ -2,7 +2,7 @@
 title: Remove validation on contact and customer for cases in Customer Service
 description: Learn how to remove validation on contact and customer for cases in Dynamics 365 Customer Service
 ms.date: 04/28/2025
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

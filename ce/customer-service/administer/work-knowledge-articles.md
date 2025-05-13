@@ -1,11 +1,11 @@
 ---
 title: Work with knowledge articles
 description: This topic provides information about working with the new native knowledge management capabilities in Dynamics 365 Customer Service.
-ms.date: 07/01/2024
+ms.date: 05/02/2025
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: article
+ms.topic: how-to
 search.audienceType: 
   - developer
 searchScope: 
@@ -24,7 +24,7 @@ searchScope:
 The new knowledge experience enables you to create rich knowledge articles along with versioning and translation support. The new knowledge experience uses the `KnowledgeArticle` entity to store and manage knowledge natively in Dynamics 365 Customer Service.  
     
 > [!NOTE]
-> The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means that we do not expect you to use these entities anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. For more information, see the section **Deprecated knowledge entities** at the end of this topic. 
+> The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means that we do not expect you to use these entities anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. Learn more in [Deprecated knowledge entities](#deprecated-knowledge-entities).
   
 <a name="Create"></a>   
 
@@ -170,7 +170,7 @@ _serviceProxy.Associate(Account.EntityLogicalName, accountId, newRelationship, r
   
 <a name="Search"></a>   
 ## Search knowledge articles using full-text search  
- Knowledge articles in Dynamics 365 Customer Service, including their versions and translations, are full-text indexed and support SQL Server full-text search. For more information about full-text search, see [SQL Server: Full-text Search](/sql/relational-databases/search/full-text-search).  
+ Knowledge articles in Dynamics 365 Customer Service, including their versions and translations, are full-text indexed and support SQL Server full-text search. Learn more about full-text search, in [SQL Server: Full-text Search](/sql/relational-databases/search/full-text-search).  
   
  Use the <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message to search knowledge article from your applications to find the information you are looking for. The <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message lets you use inflectional stem matching (allows for a different tense or inflection to be substituted for the search text) and specify query criteria (using FetchXML or QueryExpression to specify filtering, ordering, sorting, and paging) to find knowledge articles with specified text. You can also choose to remove multiple versions of the same articles in the search results and filter on the knowledge article state while searching for a text.  
 
@@ -182,7 +182,7 @@ The following legacy entities have been deprecated. More information: [Deprecate
 - [KbArticleComment](/power-apps/developer/data-platform/reference/entities/kbarticlecomment) 
 - [KbArticleTemplate](/power-apps/developer/data-platform/reference/entities/kbarticletemplate)  
 
-Legacy knowledge entities are not accessible as of December 1, 2020. We strongly recommend that you move to the KnowledgeArticle entity.  For more information about creating a knowledge article in Unified Interface, see [Create and manage knowledge articles](../use/customer-service-hub-user-guide-knowledge-article.md).  
+Legacy knowledge entities are not accessible as of December 1, 2020. We strongly recommend that you move to the KnowledgeArticle entity.  Learn more in [Create and manage knowledge articles](../use/customer-service-hub-user-guide-knowledge-article.md).  
 
 Use the following for help with migration:  
 - Use SDK, WebAPI, or Microsoft Power Automate depending on your scenarios.  

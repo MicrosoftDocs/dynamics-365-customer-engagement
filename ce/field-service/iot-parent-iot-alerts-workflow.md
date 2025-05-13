@@ -2,7 +2,7 @@
 title: IoT - Parent IoT Alerts workflow
 description: "Links potential redundant IoT alerts to an existing parent alert."
 ms.date: 03/15/2024
-ms.topic: conceptual
+ms.topic: article
 ms.author: vhorvath
 author: vhorvathms
 search.audienceType: 

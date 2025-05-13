@@ -3,7 +3,7 @@ title: "Add products to an opportunity | MicrosoftDocs"
 description: "Develop your opportunity by defining product bundles or families that makes easier for you to choose products for upsell and cross-sell."
 ms.date: 09/09/2024
 ms.service: dynamics-365-sales
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
