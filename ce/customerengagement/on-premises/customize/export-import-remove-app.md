@@ -4,7 +4,7 @@ description: "After an app is created, it can be exported by the maker and impor
 keywords: 
 
 ms.custom: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps

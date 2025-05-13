@@ -4,7 +4,7 @@ description: "Site maps define the navigation for your app. Learn how to use the
 keywords: 
 
 ms.custom: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps

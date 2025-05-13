@@ -4,7 +4,7 @@ description: "Learn about configuring the Azure Cosmos DB for SQL API Data Provi
 keywords: SQL API
 
 ms.custom: 
-ms.topic: article
+ms.topic: best-practice
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps
