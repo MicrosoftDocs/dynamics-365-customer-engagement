@@ -42,7 +42,7 @@ If you are using requirement details to define the allocation method, manually s
 This scenario schedules a requirement without a related work order.  
 
 > [!NOTE]
-> To schedule a multi-day work order with the schedule assistant, you must manually add a related requirement with an allocation method to a schedulable entity and delete or disregard the automatically created ones. Alternatively, you can manually [customize requirement detail records with **Specify Pattern**](#schedule-a-multi-day-requirement-with-customized-details). The requirement needs an allocation method set before saving and the requirements that are automatically created by schedulable entities have an allocation method of **None** by default.
+> To schedule a multi-day work order with the schedule assistant, you must manually add a related requirement with an allocation method to a schedulable entity and delete or disregard the automatically created ones. Alternatively, you can manually [customize requirement detail records with **Specify Pattern**](#specify-patterns-for-requirements). The requirement needs an allocation method set before saving and the requirements that are automatically created by schedulable entities have an allocation method of **None** by default.
 
 1. Create a multi-day requirement record with an allocation method set. Provide details such as skills, roles, resource preferences, and service territory to define the eligible resources.
 
@@ -64,7 +64,7 @@ You can define how to split a long-running requirement into individual bookings.
 
 1. Create a multi-day requirement record. Provide details such as skills, roles, resource preferences, and service territory to define the eligible resources. Select **Save**.
 
-1. Select **Specify Pattern**. Then, select **Add detail**
+1. Select **Specify Pattern**. Then, select **Add detail**.
 
 1. Choose the requirement and set the duration, start time, and end times for the time window. Then select **Apply**.
 
