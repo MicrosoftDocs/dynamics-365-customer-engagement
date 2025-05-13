@@ -3,7 +3,7 @@ title: Configure a post-call survey in the voice channel
 description: Learn about how to configure a post-call survey for the voice channel in Omnichannel for Customer Service.
 author: lalexms
 ms.author: laalexan
-ms.date: 03/03/2025
+ms.date: 05/13/2025
 ms.topic: how-to
 ms.collection:
 ms.reviewer: laalexan
@@ -117,7 +117,6 @@ You can view the survey results on the **Analytics > Sessions** tab.
 
 [Introduction to the voice channel](voice-channel.md)  
 [Outbound calling](voice-channel-outbound-calling.md)  
-[Route incoming calls to agents](../voice-channel-route-queues.md)  
 [Integrate an Azure bot](../configure-bot.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
