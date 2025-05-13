@@ -2,7 +2,7 @@
 title: Download and email chat transcripts
 description: This topic provides information on how to download or email chat transcripts in Dynamics 365 Customer Service.
 ms.topic: how-to
-ms.date: 02/05/2025
+ms.date: 05/13/2025
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -20,7 +20,7 @@ Chat for Dynamics 365 Contact Center allows customers to download and email a co
 
 To configure options to download and email chat transcripts for both customers and customer service representatives:
 
-1. In Customer Service admin center or Contact Center admin center, select the workstream of the chat widget in which you want to configure the settings.
+1. In Copilot Service admin center or Contact Center admin center, select the workstream of the chat widget in which you want to configure the settings.
 
 2. Select **Edit** for the chat channel that you want to update, and then select the **User features** tab.
 
