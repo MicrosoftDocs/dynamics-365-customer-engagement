@@ -2,7 +2,7 @@
 title: "Add or remove sample data in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Explore Dynamics 365 Sales Professional with sample data."
 ms.date: 02/27/2025
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

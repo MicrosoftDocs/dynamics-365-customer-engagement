@@ -1,8 +1,8 @@
 ---
-title: "Configure payment profiles | MicrosoftDocs"
-description: "This article provides steps to help you configure payment profiles in Omnichannel for Customer Service."
+title: Configure payment profiles
+description: Learn how to configure payment profiles in Omnichannel for Customer Service.
 ms.date: 03/03/2025
-ms.topic: article
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan

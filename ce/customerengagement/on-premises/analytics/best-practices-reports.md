@@ -6,7 +6,7 @@ ms.reviewer:
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: best-practice
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 5e78f1bf-9124-4a83-b049-c257e8237ff3

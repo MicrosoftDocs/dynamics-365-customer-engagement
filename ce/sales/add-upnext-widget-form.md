@@ -2,7 +2,7 @@
 title: Add the up next widget to a custom form
 description: Learn how to add the Up next widget to your custom sales forms for easier access and improved productivity in Dynamics 365 Sales.
 ms.date: 06/28/2024
-ms.topic: article
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag

@@ -2,7 +2,7 @@
 title: "Configure export preferences for ZoomInfo app"
 description: "Use the export preference to choose which record types you want to export and limit the number of records to export in each record type."
 ms.date: 04/30/2025
-ms.topic: article
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag

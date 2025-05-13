@@ -2,7 +2,7 @@
 title: Set up Community forums
 description: Learn how to configure a Community forum in Dynamics 365 Customer Service.
 ms.date: 09/18/2024
-ms.topic: article
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan

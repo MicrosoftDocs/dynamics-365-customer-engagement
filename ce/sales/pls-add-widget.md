@@ -3,7 +3,7 @@ title: Add the lead scoring widget to a form
 description: Learn how to display the predictive lead scoring widget on your custom forms in Dynamics 365 Sales.
 ms.date: 12/06/2024
 ms.custom: 
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

@@ -5030,6 +5030,26 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/ms365-consent-types.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#exchange-integration-for-ra",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/provide-consent-office365.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#exchange-integration-for-ra",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/configure-relationship-analytics.md",
+      "redirect_url": "/dynamics365/sales/enable-ri",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/configure-who-knows-whom.md",
+      "redirect_url": "/dynamics365/sales/enable-ri",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/admin/set-up-onenote-integration-in-dynamics-365.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/basics/collaborate-with-team",
       "redirect_document_id": "false"

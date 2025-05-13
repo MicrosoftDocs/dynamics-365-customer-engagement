@@ -4,7 +4,7 @@ description: "Use this topic to get the download link and prerequisites for Dyna
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: article
+ms.topic: how-to
 ms.date: 03/12/2024
 ms.custom: 
   - "dyn365-a11y"

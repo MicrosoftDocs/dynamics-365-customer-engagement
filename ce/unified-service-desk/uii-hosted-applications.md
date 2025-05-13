@@ -2,7 +2,7 @@
 title: "UII hosted applications in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the types of UII hosted applications such as global, session, and dynamic hosted applications."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

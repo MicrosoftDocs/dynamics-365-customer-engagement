@@ -2,7 +2,7 @@
 title: "Terminologies in the performance report | MicrosoftDocs"
 description: "Learn about the terminologies used in the Unified Service Desk Performance Report generated using Unified Service Desk Performance Analyzer"
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

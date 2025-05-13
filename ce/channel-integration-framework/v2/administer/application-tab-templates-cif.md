@@ -1,8 +1,8 @@
 ---
 title: Manage application tab templates in Dynamics 365 Channel Integration Framework 2.0 
 description: Learn how to manage application tab templates in Dynamics 365 Channel Integration Framework 2.0.
-ms.date: 05/05/2025
-ms.topic: conceptual
+ms.date: 12/10/2024
+ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

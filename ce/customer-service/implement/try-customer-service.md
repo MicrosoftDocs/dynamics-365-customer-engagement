@@ -17,7 +17,7 @@ Dynamics 365 Customer Service offers a 30-day free trial. After a quick sign-up,
 **To sign up for the trial**:
 
 1. Go to the [Try Dynamics 365 Customer Service](https://dynamics.microsoft.com/customer-service/overview/) page and select **Try for free**.
-1. Follow the onscreen guidance to enter the [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa) or your personal email ID, such as alansteiner@gmail.com, and your contact information.
+1. Follow the onscreen guidance to enter the email associated with your Microsoft account or your personal email ID, such as alansteiner@gmail.com, and your contact information.
 
 > [!NOTE]
 > - Check the availability of the product in the region you want to try before you sign up for a trial.
