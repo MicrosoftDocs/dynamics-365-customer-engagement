@@ -5,7 +5,7 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ms.topic: how-to 
-ms.date: 01/24/2024
+ms.date: 05/13/2024
 ms.custom: bap-template 
 ---
 
@@ -31,7 +31,7 @@ Depending on how your inbox is configured, you might see any of the following ch
 
 ## View the inbox
 
-1. In Customer Service workspace or Contact Center workspace, select **Inbox** on the site map.
+1. In Copilot Service workspace or Contact Center workspace, select **Inbox** on the site map.
 
 1. Select **Cases** or **Conversations** to view a respective list of assigned items.
    
