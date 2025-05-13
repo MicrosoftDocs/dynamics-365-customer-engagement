@@ -1,7 +1,7 @@
 ---
 title: Enable Microsoft Teams meetings in Customer Service
-description: Learn how to enable Microsoft Teams meetings functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace.
-ms.date: 01/15/2025
+description: Learn how to enable Microsoft Teams meetings functionality in Dynamics 365 Customer Service and Dynamics 365 Copilot Service workspace.
+ms.date: 05/13/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -37,7 +37,7 @@ To enable Teams integration in Customer Service, the following prerequisites mus
 
 Complete the following steps to enable Teams meeting integration.
 
-1. In the site map of Customer Service admin center or Contact Center admin center, go to **Agent experience** > **Collaboration**.
+1. In the site map of Copilot Service admin center or Contact Center admin center, go to **Support experience** > **Collaboration**.
     
 1. In **Meeting integration using Teams (preview)**, select **Manage**.
    
