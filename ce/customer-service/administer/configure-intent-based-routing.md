@@ -61,7 +61,8 @@ A user group can be a part of many intent groups and an intent group can be asso
    
          The selections indicate the languages and regions that the user group supports. During runtime, the user group attributes are implicitly matched based on the requirements for the work item. You don't have to write mapping rules for the user group attributes. You can also set the language and regions for each user in the user management page.
       
-         The language and region are supported as new out-of-the-box entities. You can configure the list of supported languages and regions as explained here.
+         The language and region are supported as new out-of-the-box entities.
+   
    - On the **Users** tab:
       1. Select **Add**, and in the list that appears, choose the users that you want to add.
       1. Select **Add**.
