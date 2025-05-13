@@ -37,43 +37,12 @@ If you are using requirement details to define the allocation method, manually s
 
 1. Select **Book** and the system creates multiple bookings across multiple days.
 
-## Create and edit patterns for requirements
-
-You can define how to split a long-running requirement into individual bookings. With patterns, you can customize the requirement details beyond the default allocation methods.
-
-1. Go to **Resource Scheduling** > **Resource Requirements** and select the requirement.
-
-1. Select **Specify Pattern**. Then, select **Add detail**
-
-1. Choose the requirement and set the duration, start time, and end times for the time window.
-
-   For example, the time window is from 9am to 5pm with a three hour duration. When you schedule that requirement detail, the system books a resource for three hours between 9am and 5pm. Note that the duration must be shorter than the time window.
-
-1. To edit an existing requirement detail, select it to open the **Edit detail** pane. Change the duration or time window and save the changes.
-1. To edit multiple details at once, select the requirement and select **Edit all within range** on the details pane. Under **Duration summary**, each date range that has at least one detail shows. Adjust the allocated duration where needed. Use the settings under **Duration allocation** to control how to distribute the changed durations across multiple details. 
-
-When decreasing duration, there are two options:
-
-- Proportionally distributed: The decrease in duration is split among all contained details in proportion to their respective durations, so that all are decreased by the same percentage.
-- Subtracted from total: The decrease is subtracted from the total length of all contained details. This new total is then evenly distributed among contained details. 
-
-When increasing duration, there are four options:
-
-- Proportionally Distributed: The increase in duration is split among all contained details in proportion to their respective durations, so that all are increased by the same percentage.
-- Front loaded: The increase in duration is added to the first contained detail until it hits capacity. It is then added to the next detail and so on. 
-- Distributed Evenly: The increase is split evenly among all contained details.
-- Added to total: The increase is added to the total length of all contained details. This new total is then evenly distributed among all contained details. 
-
-To delete a detail, select the detail from the calendar and select the **Delete**.
-
-### Use work hours templates
-
-Alternatively, you can set up a work hours template, which you can assign to a resource requirement. The system generates resource requirements details based on the work hours template.
-
 ## Schedule a multi-day requirement with the schedule assistant
 
+This scenario schedules a requirement without a related work order.  
+
 > [!NOTE]
-> This scenario schedules a requirement without a related work order. To schedule a multi-day work order with the schedule assistant, you must manually add a related requirement with an allocation method to a schedulable entity and delete or disregard the automatically created ones. Alternatively, you can manually create requirement detail records with **Specify Pattern** for the auto-created requirement. The requirement needs an allocation method set before saving and the requirements that are automatically created by schedulable entities have an allocation method of **None** by default.
+> To schedule a multi-day work order with the schedule assistant, you must manually add a related requirement with an allocation method to a schedulable entity and delete or disregard the automatically created ones. Alternatively, you can manually [customize requirement detail records with **Specify Pattern**](#schedule-a-multi-day-requirement-with-customized-details). The requirement needs an allocation method set before saving and the requirements that are automatically created by schedulable entities have an allocation method of **None** by default.
 
 1. Create a multi-day requirement record with an allocation method set. Provide details such as skills, roles, resource preferences, and service territory to define the eligible resources.
 
@@ -81,11 +50,53 @@ Alternatively, you can set up a work hours template, which you can assign to a r
 
    The system automatically creates requirement details and splits them into segments based on the duration and the allocation method. The requirement details are based on the requirement's calendar. Edit them by selecting **Modify Calendar** on the resource requirement record.
 
-    :::image type="content" source="../../field-service/media/scheduling-multi-day-requirement-30-requirement-details.png" alt-text="Screenshot of resource requirement details..":::
+    :::image type="content" source="../../field-service/media/scheduling-multi-day-requirement-30-requirement-details.png" alt-text="Screenshot of resource requirement details.":::
 
 1. Select **Book** to launch the schedule assistant for the multi-day requirement.
 
-Resources with availability and that meet the other attributes will show as results. Choose a resource, the dates, and select **Book** to create multiple bookings according to the pattern of the allocation method.
+Resources with availability and that meet the other attributes show as results. Choose a resource, the dates, and select **Book** to create multiple bookings according to the pattern of the allocation method.
+
+## Specify patterns for requirements
+
+You can define how to split a long-running requirement into individual bookings. With patterns, you can customize the requirement details beyond the default allocation methods.
+
+### Create patterns for requirements
+
+1. Create a multi-day requirement record. Provide details such as skills, roles, resource preferences, and service territory to define the eligible resources. Select **Save**.
+
+1. Select **Specify Pattern**. Then, select **Add detail**
+
+1. Choose the requirement and set the duration, start time, and end times for the time window. Then select **Apply**.
+
+   For example, the time window is from 9am to 5pm with a three hour duration. When you schedule that requirement detail, the system books a resource for three hours between 9am and 5pm. Note that the duration must be shorter than the time window.
+
+1. Add as many detail records as needed. Then select **Save**.
+
+### Edit patterns for requirements
+
+1. To edit an existing requirement detail, select it to open the **Edit detail** pane. Change the duration or time window and save the changes.
+
+   To edit multiple details at once, select the requirement and select **Edit all within range** on the details pane.
+
+   :::image type="content" source="../../field-service/media/scheduling-multi-day-requirement-edit-pattern.png" alt-text="Screenshot of Edit details pane for Specify Pattern.":::
+
+1. Under **Duration summary**, each date range that has at least one detail shows. Adjust the allocated duration where needed.
+
+1. Use the settings under **Duration allocation** to control how to distribute the changed durations across multiple details.
+
+   When decreasing duration, there are two options:
+
+   - **Proportionally distributed**: The decrease in duration is split among all contained details in proportion to their respective durations, so that all are decreased by the same percentage.
+   - **Subtracted from total**: The decrease is subtracted from the total length of all contained details. This new total is then evenly distributed among contained details.
+
+   When increasing duration, there are four options:
+
+   - **Proportionally distributed**: The increase in duration is split among all contained details in proportion to their respective durations, so that all are increased by the same percentage.
+   - **Front loaded**: The increase in duration is added to the first contained detail until it hits capacity. It is then added to the next detail and so on. 
+   - **Distributed evenly**: The increase is split evenly among all contained details.
+   - **Added to total**: The increase is added to the total length of all contained details. This new total is then evenly distributed among all contained details. 
+
+Alternatively, you can set up a work hours template, which you can assign to a resource requirement. The system generates resource requirements details based on the work hours template.
 
 ## Schedule a multi-day requirement to multiple resources
 
@@ -105,7 +116,7 @@ Resources with availability and that meet the other attributes will show as resu
 >
 > - The system can't schedule requirement groups for multiple days.
 
-### Next steps
+## Next steps
 
 - [Allocation methods](/dynamics365/project-operations/psa/FAQ-allocation-methods)
 - [Multi-resource scheduling](../../field-service/multi-resource-scheduling-requirement-groups.md)
