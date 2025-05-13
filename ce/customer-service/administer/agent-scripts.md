@@ -35,11 +35,11 @@ Scripts reduce the human errors involved, because representatives know which act
 
 Create scripts in the admin center by following these steps:
 
-1. In the **Copilot Service admin center** site map, select **Productivity** in **Support experience**. 
+1. In the site map of Copilot Service admin center, select **Productivity** in **Support experience**. 
 1. On the **Productivity** page, select **Manage** for **Scripts**. 
 1. On the **Scripts** page, select **New**.
 
-The following procedure is an example of an script for a chat session. You can modify the procedure for other types of sessions your representatives are likely to come across.
+The following procedure is an example of a script for a chat session. You can modify the procedure for other types of sessions your representatives are likely to come across.
 
 1. On the **New Script** page, specify the following:
 
@@ -52,7 +52,7 @@ The following procedure is an example of an script for a chat session. You can m
 
 2. Select **Save**. The **Script steps** appears.
 
-3. In the **Script steps** section, select **New Script step**. **Quick Create: Script step** appears.
+3. In the **Script steps** section, select **New Script step**. The **Quick Create: Script step** page appears.
 
 4. Specify the following fields in the quick-create form.
  

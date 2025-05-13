@@ -29,7 +29,7 @@ Having this information ready can help representatives reduce the hold time that
 - Recent cases
 - Timeline
 
-For active conversations, you can view the **Active Conversation** form on the representative dashboard of the Copilot Service workspace or Omnichannel for Customer Service app. The **Active Conversation** form doesn't display details of closed conversations. To view closed conversations, use the **Closed work items** section of the representative dashboard. More information: [View representative dashboard and conversations](oc-agent-dashboard.md)
+For active conversations, you can view the **Active Conversation** form on the representative dashboard of the Copilot Service workspace app. The **Active Conversation** form doesn't display details of closed conversations. To view closed conversations, use the **Closed work items** section of the representative dashboard. More information: [View representative dashboard and conversations](oc-agent-dashboard.md)
 
 If your administrator has enabled the **Customise active conversation form**  in Copilot Service admin center, you'll see the following options on the **Active Conversation** page:  
 
