@@ -7,7 +7,7 @@ ms.reviewer: lavanyakr
 ms.topic: concept-article
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
-ms.date: 12/18/2024
+ms.date: 05/14/2025
 ---
 
 # FAQ about Copilot in Dynamics 365 Sales
@@ -104,10 +104,8 @@ Copilot determines whether a document is a sales document or not based on the co
 
 When you open Copilot in Dynamics 365 Sales, Copilot doesn't respond, and you might see a message stating that Copilot is unable to connect and to try again later. There could be several reasons why Copilot isn't working as expected. One of the reason could be that your organization has [Data Loss Prevention (DLP) policies](/power-platform/admin/wp-data-loss-prevention) which are blocking the following connectors.  
 
-- HTTP
 - Microsoft Dataverse
 - Direct Line channels in Copilot Studio
-- Application Insights in Copilot Studio  
 
 You must unblock these connectors and then group them together in a policy (business or non-business) to allow Copilot to work as expected. Follow these steps to unblock the connectors:
 
