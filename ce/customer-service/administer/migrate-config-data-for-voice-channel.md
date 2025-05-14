@@ -1,8 +1,8 @@
 ---
-title: "Migrate unified routing data for the voice channel | MicrosoftDocs"
-description: "Learn to migrate the voice channel data from source to target environments in Omnichannel for Customer Service."
-ms.date: 07/01/2024
-ms.topic: Upgrade-and-migration-article
+title: Migrate unified routing data for the voice channel
+description: Learn to migrate the voice channel data from source to target environments in Omnichannel for Customer Service.
+ms.date: 05/14/2025
+ms.topic: upgrade-and-migration-article
 author: mgandham
 ms.author: nenellim
 ms.reviewer: nenellim
