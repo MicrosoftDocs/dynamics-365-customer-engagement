@@ -1,7 +1,7 @@
 ---
 title: Work order summary report
 description: Learn how to use work order summary reports in Dynamics 365 Field Service.
-ms.date: 08/30/2024
+ms.date: 05/13/2025
 ms.reviewer: mhart
 ms.topic: article
 ms.custom: bap-template
@@ -14,6 +14,9 @@ ms.author: jasonshotts
 
 # Work order summary report
 
+[!INCLUDE[reports-remove.md](../includes/reports-remove.md)]
+
+<!---
 Operations managers are responsible for managing work orders in order to provide timely support for their customers. To better understand what actions might be needed for better field service performance, reports provide help to monitor key operational metrics.
 
 [!INCLUDE[fs-report-workarounds](../includes/fs-report-workarounds.md)]
@@ -83,3 +86,4 @@ To access the work order summary report, open the **Field Service** app, go to *
 - [Optimization summary report](rso-optimization-summary-report.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+--->
