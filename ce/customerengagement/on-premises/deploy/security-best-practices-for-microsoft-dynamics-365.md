@@ -6,7 +6,7 @@ ms.custom: ""
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: best-practice
 applies_to: 
   - "Dynamics 365 (on-premises)"
 ms.assetid: 7f994f43-58d2-44c9-bbce-54baa3278d29

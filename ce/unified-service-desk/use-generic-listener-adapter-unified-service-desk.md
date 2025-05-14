@@ -2,7 +2,7 @@
 title: "Use the generic listener adapter in Unified Service Desk | MicrosoftDocs"
 description: "Understand how the generic listener adapter works as a testing tool for integrating Unified Service Desk with CTI middleware applications."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

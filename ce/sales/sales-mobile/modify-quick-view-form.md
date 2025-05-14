@@ -1,8 +1,8 @@
 ---
 title: Manage forms
 description: Manage quick view forms or use Unified Interface forms in the Microsoft Dynamics 365 Sales mobile app.
-ms.date: 02/27/2023
-ms.topic: article
+ms.date: 05/02/2025
+ms.topic: how-to
 author: sbmjais
 ms.author: shjais
 ms.reviewer: shjais 

@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.date: 11/28/2024
+ms.date: 04/24/2025
 ms.custom: bap-template
 ---
 
@@ -24,7 +24,7 @@ Your administrator must have enabled the setting to generate knowledge drafts fr
 
 ## Use Copilot to generate knowledge drafts
 
-Use the following steps to generate a knowledge draft while you are resolving a case or after you have resolved the case in Customer Service workspace.
+Use the following steps to generate a knowledge draft while you are resolving a case or after you have resolved the case in Copilot Service workspace.
 
 1. In your list of active cases, select and open the case that you need to resolve.
 1. On the **Resolve Case** dialog, select the **Propose new knowledge article for this case** checkbox, and then select **Resolve**. The **Propose new knowledge (preview)** dialog displays a draft with title, issue, cause, and resolution in a rich text editor.

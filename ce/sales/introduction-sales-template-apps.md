@@ -3,7 +3,7 @@ title: Analyze your sales data with Power BI
 description: Learn about analyzing your sales data by using Power BI template apps.
 ms.date: 02/27/2025
 ms.collection: get-started
-ms.topic: article
+ms.topic: concept-article
 author: sbmjais
 ms.author: shjais
 ms.reviewer: shjais 

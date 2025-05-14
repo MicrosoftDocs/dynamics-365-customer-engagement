@@ -1,7 +1,7 @@
 ---
 title: Customer Service dashboards | Microsoft Docs
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs to manage contact centers.
-ms.date: 02/12/2024
+ms.date: 05/14/2025
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -71,7 +71,7 @@ The following tables are used for Customer Service historical analytics:
 ### Related information
 
 [Introduction to Customer Service insights](../implement/introduction-customer-service-analytics.md)    
-[Configure Customer Service insights for Customer Service Hub and Customer Service workspace](../administer/configure-customer-service-analytics-insights-csh.md)   
+[Configure Customer Service insights for Customer Service Hub and Copilot Service workspace](../administer/configure-customer-service-analytics-insights-csh.md)   
 [Manage bookmarks](manage-bookmarks.md)  
 [Customize visual display](customize-reports.md#customize-visual-display)  
 [Customize data models of historical analytics reports in Customer Service](../administer/model-customize-reports.md)   

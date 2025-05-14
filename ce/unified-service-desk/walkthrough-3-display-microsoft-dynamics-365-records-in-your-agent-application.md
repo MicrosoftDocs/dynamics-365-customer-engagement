@@ -2,7 +2,7 @@
 title: "Walkthrough 3: Display account and contact records in agent applications | MicrosoftDocs"
 description: "Use this walkthrough to understand the prerequisites and procedures for displaying account and contact records in your agent applications. "
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

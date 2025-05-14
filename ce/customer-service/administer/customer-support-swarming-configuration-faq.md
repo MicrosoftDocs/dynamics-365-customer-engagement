@@ -2,7 +2,7 @@
 title: "Customer support swarming configuration FAQ | MicrosoftDocs"
 description: "This article answers some commonly asked questions about configuring customer support swarming for cases in Dynamics 365 Customer Service and Microsoft Teams."
 ms.date: 01/04/2023
-ms.topic: article
+ms.topic: reference
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan

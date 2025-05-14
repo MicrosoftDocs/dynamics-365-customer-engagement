@@ -1,7 +1,7 @@
 ---
 title: Customize the Active Conversation form
 description: Learn how to add or remove custom controls, customize form layout, and add web resources to the Active Conversation form in Omnichannel for Customer Service.
-ms.date: 02/05/2025
+ms.date: 04/23/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -18,7 +18,7 @@ You can customize the following for the **Active Conversation** page:
 - Add or remove custom controls
 - Add a web resource or iFrame to the form
 - Customize the layout
-- Add custom fields if the **Customize active conversation form** in Customer Service admin center is enabled.
+- Add custom fields if the **Customize active conversation form** in Copilot Service admin center is enabled.
 - Embed canvas apps
 
 > [!NOTE]
@@ -96,7 +96,7 @@ To customize labels on the conversation form:
 
 1. Select the recently saved file, select **Save**, and then publish the changes.
 
-1. To view the published changes, in the Customer Service workspace, manually refresh the page containing the conversation summary form.
+1. To view the published changes, in the Copilot Service workspace, manually refresh the page containing the conversation summary form.
 
 ## Timeline
 
@@ -111,8 +111,8 @@ You can customize the timeline dropdown labels for case, account, and contact by
 
 [Omnichannel system customizers](omnichannel-customizer.md)  
 [Customize the conversation form](customize-session-form.md)  
-[Configure agent and supervisor configurations in Unified Service Desk](../../unified-service-desk/oc-customizer/create-agent-supervisor-configurations-unified-service-desk.md)  
-[Configure notification for agents](../../unified-service-desk/oc-customizer/configure-notification-screen-pop-agents.md)  
+[Configure representative and supervisor configurations in Unified Service Desk](../../unified-service-desk/oc-customizer/create-agent-supervisor-configurations-unified-service-desk.md)  
+[Configure notification for representatives](../../unified-service-desk/oc-customizer/configure-notification-screen-pop-agents.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

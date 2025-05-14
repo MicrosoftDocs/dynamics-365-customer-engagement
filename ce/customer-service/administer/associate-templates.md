@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.date: 01/27/2025
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Associate templates with workstreams

@@ -2,7 +2,7 @@
 title: Enable real-time customer sentiment with sentiment analysis
 description: Analyze real-time customer sentiment to improve team performance and customer satisfaction.
 ms.date: 6/14/2024
-ms.topic: article
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -36,7 +36,7 @@ To let service representatives and supervisors see the customer's satisfaction l
 
 ### Enable sentiment analysis
 
-You can enable the sentiment analysis feature in the Customer Service admin center or Contact Center admin center app.
+You can enable the sentiment analysis feature in the Copilot Service admin center app.
 
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
 1. In the **Sentiment analysis** section, select **Manage**.

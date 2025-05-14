@@ -1,11 +1,11 @@
 ---
 title: Overview of agents
 description: Get an overview of agents and how you can configure and use them in Omnichannel for Customer Service.
-ms.date: 03/03/2025
+ms.date: 04/21/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.topic: conceptual
+ms.topic: overview
 ms.collection:
 ms.custom: bap-template
 ---
@@ -17,7 +17,7 @@ ms.custom: bap-template
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
-An AI agent (agent) is a program that provides automated responses in a conversational manner to a customer. It can also help resolve customer queries by using case deflection. An agent can also collect basic information from a customer and then provide it to a customer service representative (service representative or representative) to work further on the issue raised by the customer.  
+An AI agent is a program that provides automated responses in a conversational manner to a customer. It can also help resolve customer queries by using case deflection. An agent can also collect basic information from a customer and then provide it to a customer service representative (service representative or representative) to work further on the issue raised by the customer.  
 
 An agent eases the load on your customer service service representatives by handling basic queries. This saves your representatives' time so they can work on more complex issues. You can configure your agents to escalate a query to a human representative as required, or when requested by the customer.
 

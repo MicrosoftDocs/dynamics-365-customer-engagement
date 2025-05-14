@@ -2,7 +2,7 @@
 title: "Configure enhanced diagnostic logging for custom hosted controls | MicrosoftDocs"
 description: "Learn how to configure diagnostic logging to record operational events and errors in the client application, and troubleshoot performance issues."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

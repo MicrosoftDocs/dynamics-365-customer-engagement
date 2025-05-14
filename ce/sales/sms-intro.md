@@ -1,7 +1,7 @@
 ---
 title: Engage with customers through text messages
 description: Enable your sellers to send text messages (SMS) to customers and refer previous communications in context without leaving the application or losing view of customers' details.
-ms.date: 02/16/2024
+ms.date: 05/06/2025
 ms.topic: overview
 author: udaykirang
 ms.author: udag

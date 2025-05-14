@@ -5,7 +5,7 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ms.date: 09/09/2024
-ms.topic: article
+ms.topic: how-to
 
 ---
 

@@ -2,7 +2,7 @@
 title: Version history archive
 description: Archive of earlier release notes of the Dynamics 365 Field Service version history.
 ms.date: 06/04/2024
-ms.topic: conceptual
+ms.topic: release-notes
 author: m-hartmann
 ms.author: mhart
 ---

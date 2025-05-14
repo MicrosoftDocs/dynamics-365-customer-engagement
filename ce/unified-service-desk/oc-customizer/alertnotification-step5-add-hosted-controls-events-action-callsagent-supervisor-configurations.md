@@ -2,7 +2,7 @@
 title: "Add hosted control, events, forms, action calls | MicrosoftDocs"
 description: "Learn how to add a hosted control, events, forms, and action calls to use Omnichannel for Customer Service in Unified Service Desk."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

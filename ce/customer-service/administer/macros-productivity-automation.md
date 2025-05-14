@@ -4,9 +4,9 @@ description: Learn about how to use productivity automation macros in Dynamics 3
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: conceptual 
+ms.topic: reference
 ms.collection: 
-ms.date: 04/30/2025
+ms.date: 05/07/2025
 ms.custom: bap-template 
 ---
 
@@ -244,11 +244,11 @@ Perform the following steps to create a macro that opens an email template of ca
    - **Email recipients**: `${anchor._customerid_value@OData.Community.Display.V1.FormattedValue}`
    - **Entity Logical Name**: `incident` 
 1. Add the **autofill form fields** action to populate the To and Regarding fields. The attributes are as follows: 
-     - **Entity logical name**: `Email`
+     - **Entity logical name**: `email`
      - **Attribute Name**: to
      - **Attribute Value**: `[{"id":"${anchor._customerid_value}","entitytype":"contact","name":"${anchor._customerid_value@OData.Community.Display.V1.FormattedValue}"}]`
      - **Attribute Name**: regardingobjectid
-     -  **Attribute Value**: `[{"id":"${anchor.incidentid}"},"name":"${anchor.title}","entitytype":"incident"}]`
+     -  **Attribute Value**: `[{"id":"${anchor.incidentid}","name":"${anchor.title}","entitytype":"incident"}]`
 
 ### Example 2: Open an email template from a conversation
 
@@ -259,11 +259,11 @@ Perform the following steps to create a macro that opens an email template of ca
    - **Email recipients**: `${customerName}`
    - **Entity Logical Name**: `${customerEntityName}` 
 1. Add the **autofill form fields** action to populate the To and Regarding fields. The attributes are as follows: 
-    - **Entity logical name**: `Email`
+    - **Entity logical name**: `email`
     - **Attribute Name**: to
     - **Attribute Value**: `[{"id":"${customerRecordId}", "entitytype":"contact","name":"${customerName}"}]`
     - **Attribute Name**: regardingobjectid
-    - **Attribute Value**: `[{"id":"${customerRecordId}"},"entitytype":"contact","name": "${customerName}"}]`|
+    - **Attribute Value**: `[{"id":"${customerRecordId}","entitytype":"contact","name": "${customerName}"}]`|
 
 ### Example 3: Open an email template with multiple recipients
 

@@ -2,7 +2,7 @@
 title: "Extend Unified Service Desk | MicrosoftDocs"
 description: "Use this topic to understand how you can use UII components to extend Unified Service Desk to integrate with external applications and CTI systems."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: overview
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
