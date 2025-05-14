@@ -7,7 +7,7 @@ Requirements can be scheduled across multiple days and weeks. Dispatchers can sc
 
 Manually scheduling a multi-day requirement on the schedule board allows you to choose the allocation method to determine the breakdown of the bookings created when scheduling.
 
-If you are using requirement details to define the allocation method, manually scheduling the requirement will ignore them. Use the [schedule assistant](#schedule-a-multi-day-requirement-with-the-schedule-assistant) instead.
+If you're using requirement details to define the allocation method, manually scheduling the requirement on the schedule board ignores them. Use the [schedule assistant](#schedule-a-multi-day-requirement-with-the-schedule-assistant) instead.
 
 1. Create a multi-day requirement record. Provide details such as skills, roles, resource preferences, and service territory to define the eligible resources.
 
@@ -16,7 +16,7 @@ If you are using requirement details to define the allocation method, manually s
 1. Change the view to daily, weekly, or monthly.
 
    > [!CAUTION]
-   > Don't drag and drop multi-day requirement to a resource on the hourly board view. It will create a long continuous booking through non-working hours.
+   > Don't drag and drop multi-day requirement to a resource on the hourly board view. It creates a long continuous booking through nonworking hours.
 
 1. Select the multi-day requirement in the requirements pane.
 
@@ -31,6 +31,7 @@ If you are using requirement details to define the allocation method, manually s
     - Percentage capacity: Books the resource for a percentage of capacity for the specified from and to dates.
     - Evenly Distribute Hours: Books the resource for a specified number of hours, distributing the time evenly per day over the specified from and to dates.
     - Front Load Hours: Books the resource for a specified number of hours, front-loading the per-day hours over the specified from and to dates. The front load method considers existing bookings and available capacity.
+    - Fixed Time: Books the resource for the specified date and time without regard to the resource's capacity
 
     > [!NOTE]
     > Full Capacity, Percentage Capacity, Evenly Distribute Hours, and Fixed time can lead to overbooking.
@@ -70,7 +71,7 @@ You can define how to split a long-running requirement into individual bookings.
 
 1. Choose the requirement and set the duration, start time, and end times for the time window. Then select **Apply**.
 
-   For example, the time window is from 9am to 5pm with a three hour duration. When you schedule that requirement detail, the system books a resource for three hours between 9am and 5pm. Note that the duration must be shorter than the time window.
+   For example, the time window is from 9am to 5pm with a three hour duration. When you schedule that requirement detail, the system books a resource for three hours between 9am and 5pm. The duration must be shorter than the time window.
 
 1. Add as many detail records as needed. Then select **Save**.
 
@@ -88,13 +89,13 @@ You can define how to split a long-running requirement into individual bookings.
 
    When decreasing duration, there are two options:
 
-   - **Proportionally distributed**: The decrease in duration is split among all contained details in proportion to their respective durations, so that all are decreased by the same percentage.
+   - **Proportionally distributed**: The decrease in duration is split among all contained details in proportion to their respective durations, so that all decrease by the same percentage.
    - **Subtracted from total**: The decrease is subtracted from the total length of all contained details. This new total is then evenly distributed among contained details.
 
    When increasing duration, there are four options:
 
-   - **Proportionally distributed**: The increase in duration is split among all contained details in proportion to their respective durations, so that all are increased by the same percentage.
-   - **Front loaded**: The increase in duration is added to the first contained detail until it hits capacity. It is then added to the next detail and so on.
+   - **Proportionally distributed**: The increase in duration is split among all contained details in proportion to their respective durations, so that all increase by the same percentage.
+   - **Front loaded**: The increase in duration is added to the first contained detail until it hits capacity. Then it's added to the next detail and so on.
    - **Distributed evenly**: The increase is split evenly among all contained details.
    - **Added to total**: The increase is added to the total length of all contained details. This new total is then evenly distributed among all contained details.
 
