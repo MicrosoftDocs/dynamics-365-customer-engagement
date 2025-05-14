@@ -1,11 +1,7 @@
 ---
 title: View smart assist suggestions
 description: Learn how to view smart assist suggestions in Copilot Service workspace.
-<<<<<<< HEAD
-ms.date: 04/28/2025
-=======
 ms.date: 04/30/2025
->>>>>>> 6292c7e18843762de2aa963b846e199a9c287f2b
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
