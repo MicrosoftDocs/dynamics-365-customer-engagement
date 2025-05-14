@@ -7,12 +7,15 @@ ms.reviewer: mhart
 ms.service: dynamics-365-field-service
 ms.subservice: resource-scheduling-optimization
 ms.topic: conceptual 
-ms.date: 08/30/2024
+ms.date: 05/13/2025
 ms.custom: bap-template
 ---
 
 # Resource Scheduling Optimization admin report
 
+[!INCLUDE[reports-remove.md](../includes/reports-remove.md)]
+
+<!---
 The admin report in the Resource Scheduling Optimization Add-in analyzes when and how Resource Scheduling Optimization runs, but not the actual booking results.
 
 [!INCLUDE[fs-report-workarounds](../includes/fs-report-workarounds.md)]
@@ -45,3 +48,4 @@ To access the admin report, open **Resource Scheduling Optimization** and go to 
 - [Create an optimization schedule](rso-optimization-schedule.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+--->

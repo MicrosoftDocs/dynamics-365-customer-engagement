@@ -1,7 +1,7 @@
 ---
 title: Enable conversations to be assigned automatically
 description: Instructions for enabling autoassign of conversations.
-ms.date: 03/03/2025
+ms.date: 04/28/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -21,7 +21,7 @@ Some customer conversation requests, such as those coming from a Facebook channe
 
 Perform the following steps:
 
-1. In Customer Service admin center, in the site map, go to **Workspaces** under **Agent experience**.
+1. In Copilot Service admin center, in the site map, go to **Workspaces** under **Support experience**.
 
 2. Select **Manage** for **Notification templates**.
 
@@ -42,7 +42,7 @@ When a representative rejects an incoming conversation, it's routed back to the 
 
 Perform the following steps to enable the incoming conversations to be assigned automatically:
 
-1. In Customer Service admin center, in the site map, go to **Workspaces** under **Agent experience**.
+1. In Copilot Service admin center, in the site map, go to **Workspaces** under **Support experience**.
 
 2. Select **Manage** for **Notification templates**.
 
