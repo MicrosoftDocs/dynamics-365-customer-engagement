@@ -23,7 +23,7 @@ Intent-based routing is an advanced approach that uses generative AI to enhance 
 - [Customer Intent Agent is enabled](/dynamics365/contact-center/administer/manage-customer-intent-agent#enable-customer-intent-agent).
 - [Lines of business are created](/dynamics365/contact-center/administer/manage-customer-intent-agent#manage-lines-of-business).
 - [Intent discovery is set up](/dynamics365/contact-center/administer/manage-customer-intent-agent#manage-intent-discovery-setup).
-- [intents are created and in approved state](/dynamics365/contact-center/administer/manage-customer-intent-agent#manage-intents).
+- [Intents are created and in approved state](/dynamics365/contact-center/administer/manage-customer-intent-agent#manage-intents).
 - [Intent groups are created](/dynamics365/contact-center/administer/manage-customer-intent-agent#manage-intent-groups).
 
 ## How intent-based routing works
@@ -61,7 +61,8 @@ A user group can be a part of many intent groups and an intent group can be asso
    
          The selections indicate the languages and regions that the user group supports. During runtime, the user group attributes are implicitly matched based on the requirements for the work item. You don't have to write mapping rules for the user group attributes. You can also set the language and regions for each user in the user management page.
       
-         The language and region are supported as new out-of-the-box entities. You can configure the list of supported languages and regions as explained here.
+         The language and region are supported as new out-of-the-box entities.
+   
    - On the **Users** tab:
       1. Select **Add**, and in the list that appears, choose the users that you want to add.
       1. Select **Add**.
@@ -97,12 +98,12 @@ The mapping is channel agnostic. For example, if you want the same user group to
 
 In intent-based routing, users aren't required to be part of queues. However, for record channel, a user assigned to the queue item must be a member of the queue, otherwise, the queue item update fails and assignment fails. Learn about how [unified routing affects queue items](../develop/unified-routing-impact-on-APIs.md). Therefore, we recommend that you update your record queues to be public for intent-based routing. If you prefer to use private queues for intent-based routing, make sure that users are added to the user groups and queues.
 
-|Routing type | Queue Type           | Users Association                                   |
+|Routing type | Queue Type           | Users Association             |
 |---|----------------------|----------------------------------------------------|
 | Intent-based routing | Public <br> recommended approach |Add users to user groups only|
-|Intent-based routing | Private               | Add users to both user groups and queues           |
-| Traditional routing | Public   |Add users to both user groups and queues           |
-|Traditional routing| Private<br>Recommended approach              |  Add users to both user groups and queues |
+|Intent-based routing | Private  | Add users to both user groups and queues |
+| Traditional routing | Public   |Add users to both user groups and queues  |
+|Traditional routing| Private<br>Recommended approach   |  Add users to both user groups and queues |
 
 ## Assign workstream to lines of business
 
@@ -144,7 +145,7 @@ When the service representative opens a case that’s routed through intent, the
 
 ### What happens when you save and route or transfer a case
 
-When a service representative uses **Save & Route** on a case to reroute it because the original intent was incorrect or for some other reason, they can select a new intent on the dialog that appears. Otherwise, the system determines the intent anew, and retriggers the routing 
+When a service representative uses **Save & Route** on a case to reroute it because the original intent was incorrect or for some other reason, they can select a new intent on the dialog that appears. Otherwise, the system determines the intent anew, and retriggers the routing. 
 
 :::image type="content" source="../media/screenshot-save-and-route.png" alt-text="Screenshot of save and route with intent UI.":::
 
