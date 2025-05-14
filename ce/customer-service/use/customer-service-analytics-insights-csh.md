@@ -1,7 +1,7 @@
 ---
 title: Customer Service dashboards | Microsoft Docs
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs to manage contact centers.
-ms.date: 04/24/2025
+ms.date: 05/14/2025
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -34,9 +34,9 @@ The following dashboard reports are available for Customer Service historical an
 
 The Summary dashboard gives you a broad overview of the customer service experience in your organization. It uses AI technology to show you topics that are generating the highest volume and emerging topics with the highest rate of change in volume. More information: [Summary dashboard](summary-dashboard-cs.md)
 
-### Representative
+### Agent
 
-The Customer Service Representative dashboard shows charts and KPIs for individual service representatives and overall representative performance. More information: [Customer Service Representative dashboard](agent-dashboard-cs.md)
+The Agent dashboard shows charts and KPIs for individual service representatives and overall representative performance. More information: [Agent dashboard](agent-dashboard-cs.md)
 
 ### Case Topics
 
