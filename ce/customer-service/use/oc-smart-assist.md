@@ -14,13 +14,15 @@ ms.collection: bap-ai-copilot
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
 Smart assist is an intelligent assistant that provides real-time recommendations to you, thereby helping you take actions during your interactions with customers. It shows relevant recommendations such as knowledge articles, similar cases, and the next-best steps.
 
 By default, the productivity pane is enabled. The smart assist cards appear on the productivity pane.
 
 ## How smart assist suggestions work
 
-The smart assist bot interprets the conversation in the communication panel and provides real-time recommendations.
+The smart assist agent interprets the conversation in the communication panel and provides real-time recommendations.
 
 The recommendations appear in the user interface as cards. The most recent card (recommendation) appears at the top on the control. If you feel a recommendation doesn't meet the context of the conversation, you can choose to dismiss the card.
 
@@ -30,7 +32,7 @@ When a conversation is escalated from an AI agent, the service representative ne
 
 ### Related information
 
-[Smart assist for agents (admin)](../administer/smart-assist.md)  
+[Smart assist for representatives (admin)](../administer/smart-assist.md)  
 [View smart assist suggestions using AI](oc-view-ai-suggested-cases-articles.md)  
 
 
