@@ -90,7 +90,7 @@ Grant **User**-level permissions for *read*, *write*, *create*, *append*, *appen
 
 1. (Optional) [Add resources for custom web research](#add-resources-for-custom-web-research).
 
-1. To help the agent identify leads that are a good fit for further engagement, in the **Qualification** section, define your **Ideal customer profile**.
+1. <a name="ideal-customer-profile"></a>To help the agent identify leads that are a good fit for further engagement, in the **Qualification** section, define your **Ideal customer profile**.
 
    - Enter or select the criteria that describe your target customer, including industries, company size, customer location, and job titles.
    - Under **Where to find these criteria in Dataverse**, verify the prepopulated fields from out-of-the-box Dataverse tables that the agent should look at to compare the criteria.
@@ -113,7 +113,7 @@ Use custom criteria to define characteristics that are important for your ideal 
 
 1. On the [Sales Qualification Agent settings page](#set-up-and-activate-the-agent), scroll down to **Qualification** > **Ideal customer profile**.
 
-1. Select **Add custom criterion**.
+1. Select **Add custom criterion**.  
     :::image type="content" source="media/sqa-ideal-customer-profile-custom-criterion.png" alt-text="Screenshot of adding custom criterion to ideal customer profile configuration.":::
 
 1. Enter the name of the custom criterion. For example, enter **Environmental Sustainability Initiatives**.  
@@ -126,8 +126,10 @@ Use custom criteria to define characteristics that are important for your ideal 
 1. If you added a URL, provide instructions for the agent to extract the information you're looking for.
 
     - Specify what information you want the agent to extract from the website. 
-    - Select the Dataverse field that's most relevant to the information you want to extract by adding a forward slash (/). 
-      For example, you could say, "Look at the company's sustainability report and identify their key environmental initiatives /". The forward slash opens a dropdown list of available fields in the Dataverse table.  Select a table and field from the list. In this example, Lead > Company Name is selected.  The instruction is now "Look at the company's sustainability report and identify their key environmental initiatives based on  {{Lead.Company Name}}."
+    - Select the Dataverse field that's most relevant to the information you want to extract by adding a forward slash (/).  
+      For example, you could say, "Look at the company's sustainability report and identify their key environmental initiatives /". The forward slash opens a dropdown list of available fields in the Dataverse table.  Select a table and field from the list. In this example, Lead > Company Name is selected.  The instruction is now "Look at the company's sustainability report and identify their key environmental initiatives based on  {{Lead.Company Name}}."  
+
+    :::image type="content" source="media/sqa-ideal-customer-profile-custom-criterion-instruction.png" alt-text="Screenshot of adding instructions for the custom criterion.":::
 
 1. Select **Add**.  
 
@@ -148,7 +150,6 @@ After the agent is published, you can start monitoring the capacity it consumes 
 1. on the **Licensing** page, under **Products**, select **Copilot Studio**.
 
    The page displays usage consumption by product, agent, and environment.
-
 
 ## Deactivate the agent
 
