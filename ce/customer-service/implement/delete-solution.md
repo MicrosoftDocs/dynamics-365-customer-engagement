@@ -26,43 +26,43 @@ For example, if you plan to remove omnichannel solutions from your organization,
 You must not remove the following out-of-the-box solutions that come preinstalled in your Customer Service organization.
 - msdyn_UnifiedRoutingForEntity
 - UnifiedRouting
-  - MLDecisionEngine
-  - msdyn_OmnichannelSharedBase
-  - msdyn_OmnichannelBase
-  - msdyn_OmnichannelBaseApp
-  - msdyn_D365CTQMIProd
-  - msdyn_D365CTQMITest
-  - msdyn_D365CTQMIGCC
-  - OCBaseURBase
-  - AgentAvailabilityStatus
-  - AgentGroupManager
-  - AssignmentSQLCacheSyncPluginManager
-  - msdyn_OmnichannelSBR
-  - msdyn_OmnichannelSBRPatch
-  - OCISBR
-  - OCIER
-  - OCSR
-  - OOBLanguageAndRegion
-  - msdyn_CCASentimentRoutingAI
-  - msdyn_ConversationInsight
-  - msdyn_ProductivityMacrosApplicationOC
-  - msdyn_ContactCenterManagementPermissions__Public
-  - msdyn_OmnichannelBotEnabler
-  - msdyn_OmnichannelBotExtension
-  - msdyn_OmnichannelConversationExtension
-  - msdyn_OmnichannelPrime
-  - msdyn_OmnichannelComponentDeprecation
-  - msdyn_OmnichannelPrimeAnchor
-  - msdyn_OmnichannelAutomatedMessages
-  - msdyn_OmnichannelChatConfiguration
-  - msdyn_OmnichannelSpamConfig
-  - msdyn_OmnichannelRichmessages
-  - msdyn_OmnichannelPaymentConfig
-  - msdyn_OmnichannelAuthenticationConfig
-  - msdyn_OmnichannelBotChannelConfiguration
-  - msdyn_OmnichannelMessaging
-  - msdyn_ContactCenterEnablementPermissions__Public
-  - msdyn_ContactCenterEnablement
+- MLDecisionEngine
+- msdyn_OmnichannelSharedBase
+- msdyn_OmnichannelBase
+- msdyn_OmnichannelBaseApp
+- msdyn_D365CTQMIProd
+- msdyn_D365CTQMITest
+- msdyn_D365CTQMIGCC
+- OCBaseURBase
+- AgentAvailabilityStatus
+- AgentGroupManager
+- AssignmentSQLCacheSyncPluginManager
+- msdyn_OmnichannelSBR
+- msdyn_OmnichannelSBRPatch
+- OCISBR
+- OCIER
+- OCSR
+- OOBLanguageAndRegion
+- msdyn_CCASentimentRoutingAI
+- msdyn_ConversationInsight
+- msdyn_ProductivityMacrosApplicationOC
+- msdyn_ContactCenterManagementPermissions__Public
+- msdyn_OmnichannelBotEnabler
+- msdyn_OmnichannelBotExtension
+- msdyn_OmnichannelConversationExtension
+- msdyn_OmnichannelPrime
+- msdyn_OmnichannelComponentDeprecation
+- msdyn_OmnichannelPrimeAnchor
+- msdyn_OmnichannelAutomatedMessages
+- msdyn_OmnichannelChatConfiguration
+- msdyn_OmnichannelSpamConfig
+- msdyn_OmnichannelRichmessages
+- msdyn_OmnichannelPaymentConfig
+- msdyn_OmnichannelAuthenticationConfig
+- msdyn_OmnichannelBotChannelConfiguration
+- msdyn_OmnichannelMessaging
+- msdyn_ContactCenterEnablementPermissions__Public
+- msdyn_ContactCenterEnablement
 
 ## Uninstall solutions
 
