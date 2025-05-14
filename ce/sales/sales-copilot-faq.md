@@ -113,13 +113,8 @@ You must unblock these connectors and then group them together in a policy (busi
 1. Go to **Data policies** > **Data loss prevention** and create a new policy or edit an existing policy.
 1. In the Prebuilt connectors section, search for the following connectors, and then unblock and configure them as shown below:
 
-    - **HTTP**:  
-        1. Select **More options** > **Configure connector** > **Configure endpoints**.
-        1. Add the endpoints: `https://dataverse/*` and `https://adaptivecards.io/*` and select **Action** as **Allow** for each endpoint.  
-        1. Select **Save**.  
     - **Microsoft Dataverse**: To know more about the Microsoft Dataverse connector, see [Microsoft Dataverse](/connectors/commondataserviceforapps).  
     - **Direct Line channels in Copilot Studio**  
-    - **Application Insights in Copilot Studio**
 
 1. After you've unblocked and configured the connectors, ensure that the connectors are grouped together (in business or non-business) in the policy.
 1. Save and close the policy.
