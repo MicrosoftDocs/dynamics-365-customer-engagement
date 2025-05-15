@@ -1,7 +1,7 @@
 ---
 title: Create message templates
 description: Learn how to create message templates for reusable messages in Omnichannel for Customer Service.
-ms.date: 03/03/2025
+ms.date: 04/25/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -19,7 +19,7 @@ Message templates enable the one-time creation of reusable messages that can be 
 
 **To create a message template**
 
-1. In the site map of Customer Service admin center or Contact Center admin center, in **Agent experience**, select **Productivity**.
+1. In the site map of Copilot Service admin center, in **Support experience**, select **Productivity**.
    
 1. Select **Manage** for **Message templates**.
 

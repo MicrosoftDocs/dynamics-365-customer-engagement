@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 10/11/2024
+ms.date: 04/28/2025
 ms.custom: bap-template 
 ---
 
@@ -39,9 +39,9 @@ The social profiles are supported for the following channels.
 
 ## View social profiles
 
-As an agent, you can see the active social profile information, such as the customer, profile name, social channel, and related social profiles.
+As a customer service representative (service representative or representative), you can see the active social profile information, such as the customer, profile name, social channel, and related social profiles.
 
-1. In the Customer Service workspace or Contact Center workspace app, select the **Search** box, and scroll to the bottom of the list.
+1. In the Copilot Service workspace app, select the **Search** box, and scroll to the bottom of the list.
 
 1. Select **Search for rows in a table using advanced filters**.
 

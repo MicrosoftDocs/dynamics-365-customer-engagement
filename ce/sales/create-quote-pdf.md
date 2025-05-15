@@ -1,7 +1,7 @@
 ---
 title: Export sales records to PDF
 description: Learn how to create professional, read-only PDF files of sales records in Dynamics 365 using standard Word templates.
-ms.date: 03/15/2024
+ms.date: 05/07/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -74,8 +74,7 @@ If you're using Dynamics 365 for phones on a mobile device, the capability for g
 
 2. On the command bar, select **Create PDF** and then select the template you want to use to create the PDF. 
 
-    > [!div class="mx-imgBorder"]
-    > ![A quote form showing the Create PDF button on the command bar.](media/create-pdf.png "A quote form showing the Create PDF button on the command bar")
+    :::image type="content" source="media/create-pdf.png" alt-text="Screenshot of a quote form showing the Create PDF button on the command bar.":::
 
 3. In the dialog box that appears, save or download the PDF.
 
