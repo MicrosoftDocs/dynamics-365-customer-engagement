@@ -1,7 +1,7 @@
 ---
 title: Integrate your own custom channel using Direct Line
 description: This article provides information on how you can integrate custom messaging channels using Direct Line API 3.0.
-ms.date: 07/19/2022
+ms.date: 05/15/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -118,7 +118,7 @@ This Activity object includes the following attributes:
 |**id**| Indicates the identifier that the adapter uses to respond to outbound messages. |
 |**channelData**| Indicates channel data that consists of `channelType`, `conversationcontext`, and `customercontext`. |
 |**channelType**| Indicates the channel name through which the customer is sending messages. For example, MessageBird, KakaoTalk, Snapchat |
-|**conversationcontext**| Refers to a dictionary object that holds the context variables defined in the workstream. Omnichannel for Customer Service uses this information to route the conversation to the right customer service representative (service representative or representative). For example:<br>"conversationcontext ":{ "ProductName" : "Xbox", "Issue":"Installation" }<br>In this example, the context routes the conversation to the service representative who deals with Xbox installation.|
+|**conversationcontext**| Refers to a dictionary object that holds the context variables defined in the workstream. Omnichannel for Customer Service uses this information to route the conversation to the right customer service representative (service representative or representative). For example:<br>"conversationcontext ":{ "ProductName": "Xbox", "Issue":"Installation" }<br>In this example, the context routes the conversation to the service representative who deals with Xbox installation.|
 |**customercontext**| Refers to a dictionary object that holds the customer details such as phone number and email address. Omnichannel for Customer Service uses this information to identify the user's contact record.<br>"customercontext":{ "email":email@email.com, "phonenumber":"1234567890" }|
 
 ```javascript
@@ -190,7 +190,7 @@ The sample JSON payload is as follows:
 
 3. Send the activity to the message relay processor.
 
-After building the activity payload, it calls the message relay processor's PostActivityAsync method to send the activity to Direct Line. The channel adapter should also pass the event handler, which the relay processor will invoke when it receives an outbound message from Omnichannel for Customer Service through Direct Line.
+After building the activity payload, it calls the message relay processor's PostActivityAsync method to send the activity to Direct Line. The channel adapter should also pass the event handler, which the relay processor invokes when it receives an outbound message from Omnichannel for Customer Service through Direct Line.
 
 #### Process outbound activities
 
@@ -263,7 +263,7 @@ The channel adapter calls the REST API to send an outbound response to the chann
 
 ### Message relay processor
 
-The message relay processor receives the inbound activity from the channel adapter and does the activity model validation. Before sending this activity to Direct Line, the relay processor checks whether the conversation is active for the particular activity.
+The message relay processor receives the inbound activity from the channel adapter and does the activity model validation. The relay processor checks whether the conversation is active for the particular activity, before sending this activity to Direct Line
 
 To look up whether the conversation is active, the relay processor maintains a collection of active conversations in a dictionary. This dictionary contains key as User ID, which uniquely identifies the user and Value as an object of the following class:
 
@@ -290,7 +290,7 @@ public class DirectLineConversation
 }
 ```
 
-If conversation is not active for the activity received by the relay processor, it does the following steps:
+If conversation isn't active for the activity received by the relay processor, it does the following steps:
 
 1. Starts a conversation with Direct Line and stores the conversation object sent by Direct Line against the user ID in the dictionary.
 
@@ -386,7 +386,7 @@ private async Task PollActivitiesFromBotAsync(string conversationId, Activity in
 ```
 
 > [!NOTE]
-> At the heart of the code that receives the message is the GetActivitiesAsync method that takes `ConversationId` and `watermark` as parameters. The purpose of the `watermark` parameter is to retrieve the messages that aren't yet delivered by Direct Line. If the watermark parameter is specified, the conversation replays from the watermark, so that no messages are lost.
+> At the heart of the code that receives the message is the GetActivitiesAsync method that takes `ConversationId` and `watermark` as parameters. The purpose of the `watermark` parameter is to retrieve the messages that aren't delivered by Direct Line. If the watermark parameter is specified, the conversation replays from the watermark, so that no messages are lost.
 
 ### Send the activity to Direct Line
 
