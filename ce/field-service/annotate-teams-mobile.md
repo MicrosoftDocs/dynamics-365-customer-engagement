@@ -2,7 +2,7 @@
 title: Use spatial annotations in Teams
 description: Use Microsoft Teams to annotate in a Dynamics 365 Field Service environment.
 author:  prashantyvr
-ms.date: 05/05/2025
+ms.date: 05/13/2025
 ms.topic: how-to
 ms.author: prashan
 ms.reviewer: v-wendysmith
@@ -24,7 +24,7 @@ Spatial annotations can greatly enhance your communication and collaboration, es
 
 ## Prerequisites
 
-To use this Augmented Reality (AR) feature, your mobile device must support it.
+To use this Augmented Reality (AR) feature, those who share their space for annotating must have AR capability:
 
 - [Android phones and tablets with ARCore support](https://developers.google.com/ar/devices)
 - [iOS iPhones and iPads with ARKit support](https://developers.google.com/ar/devices#ios)
@@ -76,4 +76,4 @@ For best results, the person should do a quick scan of the area they want to ann
 - Ensure even lighting conditions to detect surfaces and objects clearly.
 - Use textured surfaces to provide more visual feature points to track, rather than uniform, shiny, or translucent surfaces.
 
-If something interrupts the camera, tracking might temporarily be lost and annotations are unavailable. The system can recover when the camera detects familiar feature points again. The message "Please wait while Mixed Reality user re-establishes tracking" appears. Wait a moment for the camera to re-establishe tracking so annotations are available.
+If something interrupts the camera, tracking might temporarily be lost and annotations are unavailable. The system can recover when the camera detects familiar feature points again. The message "Please wait while Mixed Reality user re-establishes tracking" appears. Wait a moment for the camera to re-establish tracking so annotations are available.
