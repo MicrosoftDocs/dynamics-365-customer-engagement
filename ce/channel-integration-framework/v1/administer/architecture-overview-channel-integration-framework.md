@@ -1,11 +1,11 @@
 ---
-title: "Architecture overview of Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
-description: "Get an overview of Dynamics 365 Channel Integration Framework 1.0 and its architecture that lets you integrate with third-party channel providers."
+title: Architecture overview of Dynamics 365 Channel Integration Framework 1.0 
+description: Get an overview of Dynamics 365 Channel Integration Framework 1.0 and its architecture that lets you integrate with third-party channel providers.
 author: gandhamm
 ms.topic: overview
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 08/02/2022
+ms.date: 05/15/2025
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
