@@ -1,6 +1,6 @@
 ---
 title: Manage custom productivity tools
-description: Learn how to manage the custom productivity tools to improve agent productivity in Customer Service.
+description: Learn how to manage the custom productivity tools to improve representative productivity in Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -24,7 +24,7 @@ The productivity pane supports custom productivity tools developed as custom pag
 Make sure that the following prerequisites are met:
 
 - You have the **Productivity tools administrator** security role. To learn more, see [Assign roles and enable users](../implement/add-users-assign-roles.md).
-- Customer service representatives and supervisors have the **Productivity tools user** security role. To learn more, see Assign roles and enable users.
+- Customer service representatives (service representatives or representatives) and supervisors have the **Productivity tools user** security role. To learn more, see Assign roles and enable users.
 - A custom page or a Power Apps component framework control to be hosted as a custom productivity tool. To learn more, see [Overview of custom pages for model-driven apps](/power-apps/maker/model-driven-apps/model-app-page-overview) and [Power Apps component framework](/power-apps/developer/component-framework/overview).
 
 ## Configure a custom productivity tool

@@ -4,7 +4,7 @@ ms.custom:
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.assetid: aad03a11-ce75-40dc-883a-370b03e4a5dc
 caps.latest.revision: 6
 robots: noindex,nofollow
