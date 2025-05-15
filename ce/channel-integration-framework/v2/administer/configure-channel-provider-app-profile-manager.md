@@ -28,9 +28,9 @@ More information:
 
 ## Configure a non-Microsoft channel provider
 
-1. Go to the Customer Service admin center, and perform the following steps
+1. Go to the Copilot Service admin center, and perform the following steps
    
-    1. In the site map, select **Workspaces** in **Agent experience**. The **Workspaces** page opens.
+    1. In the site map, select **Workspaces** in **Support experience**. The **Workspaces** page opens.
     
     2. Select **Manage** for **Third party voice channel provider**.
     
