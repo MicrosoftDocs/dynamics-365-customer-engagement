@@ -137,7 +137,7 @@ More information: [User presence isn’t loading or user is shown as unknown](/t
 
 ### Why should I check or update channel URLs in Dynamics 365 Channel Integration Framework 2.0?
 
-When you deploy or update the Customer Service workspace app profile, the Channel URL field in the Dynamics 365 Channel Integration Framework 2.0 settings for omnichannel gets overwritten. So after a deployment, the Channel Integration Framework product might point to a different URL. So, check and ensure that the Channel URL field in Dynamics 365 Channel Integration Framework 2.0 always points to the correct URL. More information: [Configure a third-party channel provider](v2/administer/configure-channel-provider-app-profile-manager.md#configure-a-third-party-channel-provider)
+When you deploy or update the Customer Service workspace app profile, the Channel URL field in the Dynamics 365 Channel Integration Framework 2.0 settings for omnichannel gets overwritten. So after a deployment, the Channel Integration Framework product might point to a different URL. So, check and ensure that the Channel URL field in Dynamics 365 Channel Integration Framework 2.0 always points to the correct URL. More information: [Configure a third-party channel provider](v2/administer/configure-channel-provider-app-profile-manager.md#configure-a-non-microsoft-channel-provider)
 
 ### Why do tabs reload when an agent switches session tabs or switches from session tab to widget?
 
