@@ -1,7 +1,7 @@
 ---
 title: FAQ about Teams chat in Customer Service
 description: Learn about the frequently asked questions (FAQ) about setting up Teams chat in customer engagement apps.
-ms.date: 06/21/2024
+ms.date: 05/15/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
