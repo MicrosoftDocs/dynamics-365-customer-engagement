@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to
-ms.date: 03/29/2024
+ms.date: 05/15/2025
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -26,11 +26,11 @@ More information:
 - [Agent experience profiles](../../../customer-service/administer/overview.md)
 - [Customer Service admin center](../../../customer-service/implement/cs-admin-center.md)
 
-## Configure a third-party channel provider
+## Configure a non-Microsoft channel provider
 
-1. Go to the Customer Service admin center, and perform the following steps
+1. Go to the Copilot Service admin center, and perform the following steps
    
-    1. In the site map, select **Workspaces** in **Agent experience**. The **Workspaces** page opens.
+    1. In the site map, select **Workspaces** in **Support experience**. The **Workspaces** page opens.
     
     2. Select **Manage** for **Third party voice channel provider**.
     
@@ -43,11 +43,11 @@ More information:
 |Unique Name|A unique identifier in the <*prefix*>_<*name*> format. <br>**IMPORTANT:** The following are required for the unique name:<ul><li> The prefix has to be alphanumeric with a length of 3-8 characters.</li><li>The prefix must include an underscore</li></ul>|
 |Label|The label is displayed as the title on the widget.|
 |Channel URL|The URL of the provider to host in the widget. See the JavaScript APIs on how to develop communication widget with Dynamics 365 Channel Integration Framework. If the URL isn't in the specified format, the application displays a warning. Select **Restore** to reset the URL to the expected value. |
-|Enable Outbound Communication|Selecting a phone number in the Dynamics 365 Unified Interface page, the widget initiates the call or outbound communication.|
+|Enable Outbound Communication|If you select a phone number in the Dynamics 365 Unified Interface page, the widget initiates the call or outbound communication.|
 |Channel Order|The order of precedence of the channel providers. That is, the priority to display the channel for the agents and Unified Interface apps.|
-|Api Version|The version of the Channel Integration Framework APIs.|
+|API Version|The version of the Channel Integration Framework APIs.|
 |Trusted Domain| An additional domain if the initial landing URL and the final domain from which the communication widget is hosted are different. Add the domain (URL) to access the Channel Integration Framework APIs. |
-|Custom Parameters|This takes a text blob as input and `Microsoft.CIFramework.getEnvironment` will return this as value of key `customParams`.|
+|Custom Parameters|This takes a text blob as input and `Microsoft.CIFramework.getEnvironment` returns this as value of key `customParams`.|
 |Sandbox Configuration| Channel URL loads as an iFrame webresource in the sandbox mode. Use this field to configure the list of sandbox attributes for the Channel URL. You can add multiple attributes separated by commas.|
 |Enable Analytics|Select `Yes` if you'd like to enable analytics for your channel provider.|
 
@@ -69,7 +69,7 @@ More information:
 3. Select a provider from the **Active Channel Providers** list, and do one of the following:
 
     - To deactivate the channel provider, select **Deactivate**. In the **Confirm Deactivation** dialog, select **Yes**. You can reactivate the channel later by selecting **Activate**.
-    - To delete the channel provider, select **Delete**. In the **Confirm Deletion** dialog, select **Yes** if you're sure you want to delete the channel provider. Note that you can't reactivate the channel provider after it's deleted.
+    - To delete the channel provider, select **Delete**. In the **Confirm Deletion** dialog, select **Yes** if you're sure you want to delete the channel provider. You can't reactivate the channel provider after it is deleted.
 
 ### Related information
 
