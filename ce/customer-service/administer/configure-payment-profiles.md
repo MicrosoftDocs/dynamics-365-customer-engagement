@@ -1,7 +1,7 @@
 ---
 title: Configure payment profiles
 description: Learn how to configure payment profiles in Omnichannel for Customer Service.
-ms.date: 03/03/2025
+ms.date: 05/15/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -29,11 +29,11 @@ Before adding an Apple Pay payment profile, make sure to complete the Apple Pay 
 
 ### Create an Apple Pay payment profile
 
-1. In the site map of Customer Service admin center or Contact Center admin center app, select **Customer settings**, and then select **Manage for Payment profiles**. A list of existing records is shown.
+1. In the site map of Copilot Service admin center app, select **Customer settings**, and then select **Manage for Payment profiles**. A list of existing records is shown.
 
 1. Select **Add** at the top of the page to create a new record.	
 
-1. In the **Create new payment profile** pages, provide the following details:<br>
+1. In the **Create new Payment profile** page, provide the following details:<br>
 
      - On the **Channel type** page, enter a name and select Apple Messages for Business as the channel type. By default, the only channel type currently supported is Apple Messages for Business.<br>
 
@@ -59,7 +59,7 @@ Before adding an Apple Pay payment profile, make sure to complete the Apple Pay 
      
      - **Supported Networks**: The networks that support transactions between your Apple Pay merchant account and card issuers.<br>
 
-1. On the **Rich messages** page, select **Add**, and then select one or more Apple Pay rich messages to associate with this authentication setting. <br>
+1. On the **Rich message** page, select **Add**, and then select one or more Apple Pay rich messages to associate with this authentication setting. <br>
 An Apple Pay-type rich message may be associated to more than one payment profile. This association is because each channel instance may only support one payment profile. <br>
 
 1. Review the **Summary** page, and then select **Finish**. The authentication setting is configured. 
