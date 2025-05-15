@@ -23,7 +23,7 @@ You can customize the appearance of [!INCLUDE[pn_unified_service_desk](../includ
  [Customize themes in Unified Service Desk](../unified-service-desk/customize-themes-in-unified-service-desk.md)
 
 ### See also
- [XAML overview](/dotnet/desktop/wpf/fundamentals/xaml)
+ [XAML overview](/dotnet/desktop/wpf/xaml/)
  [Overview of configuring agent application](../unified-service-desk/configure-agent-application-unified-service-desk.md)
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
  [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](/previous-versions/dynamicsusd-2/administrators-guide/dn499779(v=usd.2))
