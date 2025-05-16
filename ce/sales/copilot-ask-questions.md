@@ -14,6 +14,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
+ai-usage: ai-assisted
 ---
 
 # Ask Copilot about recent changes to your sales records
