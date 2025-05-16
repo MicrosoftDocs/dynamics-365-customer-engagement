@@ -19,11 +19,11 @@ Make sure that you have the required security role or equivalent permissions.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage security roles in service scheduling](../administer/manage-security-roles.md)
 
-You can schedule a business closure in the Customer Service admin center or Customer Service Hub app.
+You can schedule a business closure in the Copilot Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps and perform the following steps.
 
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+   ### [Copilot Service admin center](#tab/copilotserviceadmincenter)
 
     1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
     1. In the **Business closure** section, select **Manage**.
@@ -33,7 +33,7 @@ You can schedule a business closure in the Customer Service admin center or Cust
     1. In the site map, go to **Scheduling**.
     1. From the list of entity records, select **Business Closures** in **Settings**.
       
-   The **Business Closures** view is displayed. If you have any closures already scheduled, they're listed. You can sort the views using the dropdown menus beside **Name**, **Start Time**, **End Time**, and **Duration**.
+   The **Business Closures** view is displayed. If you have any closures already scheduled, they're listed. You can sort the views using the dropdown menus beside **Name**, **Start**, **End**, and **Duration**.
 
 1. On the command bar, select **New** to schedule a new business closure. </br>
  
@@ -48,8 +48,8 @@ You can schedule a business closure in the Customer Service admin center or Cust
          The first 12 characters of the name appear on each day of the closure on the calendar view of the affected resource's **Work Hours**.  
   
     -  If the closure is an all-day event, leave **All Day Event** set to **Yes**. The application automatically enters the duration of *one day*.
-    -  If the closure isn't an all-day event, select **No** for **All Day Event**. In **Start Time** and **End Time**, select the start and end dates and times for the closure.
-    - If you want to enter duration instead of an end time, select the **Start Time**, and then select the length of the closure in **Duration**. The application automatically calculates the end time for you. 
+    -  If the closure isn't an all-day event, select **No** for **All Day Event**. In **Start** and **End**, select the start and end dates and times for the closure.
+    - If you want to enter duration instead of an end time, select the **Start**, and then select the length of the closure in **Duration**. The application automatically calculates the end time for you. 
   
 1.  To save this business closure, select **OK**.  
   
