@@ -1,7 +1,7 @@
 ---
-title: View a social profile in social care sample application (Dynamics 365 Customer Service) | MicrosoftDocs
+title: View a social profile in social care sample application (Dynamics 365 Customer Service)
 description: See how to view a social profile in social care sample application in Dynamics 365 Customer Service
-ms.date: 01/31/2025
+ms.date: 04/29/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -29,7 +29,7 @@ Track the high influencers and the customers for your business, and save them as
   
 ## View a social profile  
   
-1. In the site map of Customer Service workspace, select **Social profiles**. The list of social profiles created in the application appears.  
+1. In the site map of Copilot Service workspace, select **Social profiles**. The list of social profiles created in the application appears.  
   
 2. Double-click any social profile to see the complete details. The social profile form shows the name, profile link of the contact, and the cases associated with this social profile. You can also view the influencer score if it is included as part of the social feed.
   
