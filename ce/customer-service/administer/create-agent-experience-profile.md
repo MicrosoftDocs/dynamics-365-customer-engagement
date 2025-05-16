@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.date: 05/05/2025
-ms.topic: article
+ms.topic: how-to
 ---
 
 # Create and use experience profiles

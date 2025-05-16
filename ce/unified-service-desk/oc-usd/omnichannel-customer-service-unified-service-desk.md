@@ -2,7 +2,7 @@
 title: "Omnichannel on Unified Service Desk | MicrosoftDocs"
 description: "Omnichannel for Customer Service solution is an application that you need to deploy on Unified Service Desk client application."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: concept-article
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

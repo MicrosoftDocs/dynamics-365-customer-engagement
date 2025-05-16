@@ -1,7 +1,7 @@
 ---
 title: Enable missed notifications
 description: Learn about managing notifications that the representatives miss.
-ms.date: 03/03/2025
+ms.date: 04/28/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-With the missed notifications feature, you can choose to automatically set agent presence to inactive, so that no new tasks are assigned when customer service representatives (service representatives or representatives) miss notifications for incoming chat requests. In addition to the status change, a message bar indicating that a notification has been missed will be displayed on the agent dashboard. Representatives can reset their status by using the reset presence option displayed with the notification or by manually changing their status.
+With the missed notifications feature, you can choose to automatically set agent presence to inactive, so that no new tasks are assigned when customer service representatives (service representatives or representatives) miss notifications for incoming chat requests. In addition to the status change, a message bar indicating that a notification has been missed will be displayed on the Customer Service Representative dashboard. Representatives can reset their status by using the reset presence option displayed with the notification or by manually changing their status.
 
 > [!IMPORTANT]
 > 
@@ -23,7 +23,7 @@ With the missed notifications feature, you can choose to automatically set agent
 
 ## Enable automatic update of representative presence when a notification is missed
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Workspaces** in **Agent experience**, and then select **Notification templates**.
+1. In the site map of Copilot Service admin center, select **Workspaces** in **Support experience**, and then select **Notifications**.
 
 1. On the **Omnichannel Configuration** page, select the **Missed Notifications** tab.
 

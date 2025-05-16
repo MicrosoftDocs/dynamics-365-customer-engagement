@@ -2,7 +2,7 @@
 title: "Attach customer summary-related action calls to events | MicrosoftDocs"
 description: "Learn how to attach the customer summary-related action calls to events for agents using Omnichannel for Customer Service."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

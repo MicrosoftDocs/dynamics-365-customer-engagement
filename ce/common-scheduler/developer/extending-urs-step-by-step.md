@@ -6,7 +6,7 @@ ms.author: mkelleher
 ms.date: 04/18/2024
 ms.reviewer: mhart
 ms.subservice: common-scheduler
-ms.topic: article
+ms.topic: how-to
 ---
 
 # Sample: Extend Universal Resource Scheduling with a custom language constraint

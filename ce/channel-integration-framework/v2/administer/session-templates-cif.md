@@ -1,7 +1,7 @@
 ---
 title: Manage session templates in Dynamics 365 Channel Integration Framework 2.0
 description: Learn how to manage session templates in Dynamics 365 Channel Integration Framework 2.0.
-ms.date: 12/10/2024
+ms.date: 05/05/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -11,9 +11,9 @@ ms.custom: bap-template
 
 # Manage session templates in Dynamics 365 Channel Integration Framework 2.0
 
-Session templates are a combination of attributes and application tab information that are reusable. You can manage session templates in Customer Service admin center.
+Session templates are a combination of attributes and application tab information that are reusable. You can manage session templates in Copilot Service admin center.
 
-When an agent accepts an incoming conversation request, a session is started. The system opens an application that you (an administrator) defined as **Anchor Tab** in the application tab panel. The **Anchor Tab** isn't closable. Simultaneously, the system expands the communication panel for you to exchange messages with the customer. 
+When a customer service representative accepts an incoming conversation request, a session is started. The system opens an application that you (an administrator) defined as **Anchor Tab** in the application tab panel. The **Anchor Tab** isn't closable. Simultaneously, the system expands the communication panel for you to exchange messages with the customer. 
 
 Session templates are used to define a session experience like the one described, such as: 
 
@@ -31,7 +31,7 @@ A session template is the place where, as an administrator, you need to define t
 
 ## Create a session template 
 
-To create or manage a session template, go to the agent experience profile. For more information, see [Create a session template](../../../customer-service/administer/session-templates.md#create-a-session-template) in the agent experience profiles documentation.
+To create or manage a session template, go to the experience profile. For more information, see [Create a session template](../../../customer-service/administer/session-templates.md#create-a-session-template) in the experience profiles documentation.
 
 > [!NOTE]
 > Dynamics 365 Channel Integration Framework must be enabled to load generic session templates with the [createsession](../../../customer-service/develop/reference/methods/createSession.md) API.

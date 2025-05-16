@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
-ms.date: 04/30/2024 
+ms.date: 05/15/2025 
 ms.custom: bap-template 
 ---
 
@@ -60,5 +60,5 @@ On the required form, add the **Attachment Control** component. Learn more in [A
 ### Related information
 
 [Case management in multisession apps](../use/enh-casemgmt-csw.md)   
-[Get started with Customer Service workspace](../implement/csw-overview.md) 
+[Get started with Copilot Service workspace](../implement/csw-overview.md) 
 

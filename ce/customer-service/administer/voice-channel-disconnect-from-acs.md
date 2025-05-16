@@ -1,7 +1,7 @@
 ---
 title: Disconnect from Azure Communication Services resources
 description: Learn how you can disconnect an Azure Communication Services resource.
-ms.date: 08/29/2024
+ms.date: 04/28/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -25,9 +25,10 @@ To permanently release or remove one or more phone numbers from your organizatio
 
 ## Disconnect from an Azure Communication Services resource
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Channels** in **Customer support**. The **Channels** page appears.
+1. In the site map of Copilot Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
 1. Select **Manage** for **Phone numbers**.
-1. Select **Advanced** on the menu. The **Manage Azure Communication Services** dialog opens.
+1. Select **Advanced** on the menu. The **Manage telephony** dialog opens.
+1. Select the **Azure Communications Services** tab.
 1. Select **Disconnect** for **Disconnect from Azure**. A dialog that asks you to confirm the disconnection displays.
 1. Select **Disconnect** again.
    Any phone numbers associated with the resource are no longer displayed on the **Phone numbers** page.

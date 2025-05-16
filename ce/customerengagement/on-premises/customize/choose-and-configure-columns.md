@@ -4,7 +4,7 @@ description: "The way you configure columns in a view is very important to its v
 keywords: 
 
 ms.custom: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 31bfcf18-58c3-491c-91b5-f9b0f5424852

@@ -2,7 +2,7 @@
 title: Manage parent and child cases
 description: Learn how to create a child case and manage parent and child cases.
 ms.date: 12/13/2024
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

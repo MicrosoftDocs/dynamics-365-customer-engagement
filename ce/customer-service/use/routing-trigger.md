@@ -1,8 +1,8 @@
 ---
 title: Route records manually using unified routing 
 description: Learn how to route records manually using the Save & Route option on the form command bar and Apply Routing Rule on the home page grid.
-ms.date: 07/01/2024
-ms.topic: article
+ms.date: 04/25/2025
+ms.topic: how-to
 author: "neeranelli"
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -27,7 +27,7 @@ To manually route records:
 
 3. Select **Route**. The record is routed based on the record routing configuration.
 
-If unified routing is enabled, on the **Customer Service Agent Dashboard** page, you must use the system view **Cases Available to Work On** to pick cases to work on.
+If unified routing is enabled, on the **Customer Service Representative Dashboard** page, you must use the system view **Cases Available to Work On** to pick cases to work on.
 
 ### Related information
 

@@ -1,7 +1,7 @@
 ---
 title: Configure route-to-queue rules
 description: Follow the steps in this article to configure a route-to-queue ruleset for a workstream in unified routing.
-ms.date: 03/20/2025
+ms.date: 04/21/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -41,7 +41,7 @@ When you configure this feature, the system picks a queue from the available lis
 
 ## Configure rules in route-to-queue ruleset
 
-1. In Contact Center admin center or Customer Service admin center, navigate to the **Workstreams** page, and then select a workstream.
+1. In Copilot Service admin center, navigate to the **Workstreams** page, and then select a workstream.
 
 1. In the **Routing rules** section, select **Create ruleset** next to **Route to queues**, and then select **Create Rule** in **Decision list**.
 
