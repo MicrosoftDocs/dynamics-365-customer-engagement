@@ -130,7 +130,9 @@ Total bot conversation = CALCULATE(DISTINCTCOUNTNOBLANK(FactSession[Conversation
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-The total number of inbound conversations that a service representative received directly or were escalated by an AI agent. 
+The total number of inbound conversations that a service representative received directly or were escalated by an AI agent.
+
+In Omnichannel real-time dashboards, this metric is termed as **Total conversations offered**.
 
 ### DAX query and Dataverse reference
 
@@ -200,10 +202,10 @@ Outgoing conversations = ​CALCULATE (​DISTINCTCOUNTNOBLANK ( FactConversatio
 
 ### Related metric
 
-- **Incoming conversations**: The total inbound conversations, including direct-to-representative and bot escalations.
+- **Incoming conversations**: The number of incoming conversations directed to service representatives.
 - **Direct service representative**: Total number of conversations through any channel (voice or digital) that includes both open, active, and closed conversations for both, inbound and outbound traffic, directly from the representative without involving voice or agent.
 
-## Engaged conversations
+## Total conversations handled
 
 *Applies to Omnichannel historical dashboards.*
 
