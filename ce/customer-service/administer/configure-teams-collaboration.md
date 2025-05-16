@@ -52,7 +52,7 @@ The AI suggestions are supported in geographical locations that AI suggestions f
 
 Perform the following steps:
 
-1. In the site map of Contact Center admin center or Copilot Service admin center, go to **Support experience** > **Collaboration**.
+1. In the site map of Copilot Service admin center, go to **Support experience** > **Collaboration**.
     
 1. In **Embedded chat using Teams**, select **Manage**.
 
