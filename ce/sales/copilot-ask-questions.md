@@ -1,7 +1,7 @@
 ---
 title: Ask Copilot about recent changes to your sales records
 description: Learn how to ask Copilot in Dynamics 365 Sales questions to know what's new with your leads, opportunities, accounts, and records assigned to you.
-ms.date: 10/10/2024
+ms.date: 05/16/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -14,6 +14,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
+ai-usage: ai-assisted
 ---
 
 # Ask Copilot about recent changes to your sales records
@@ -26,7 +27,7 @@ Ask Copilot to update you on the latest changes to your sales records, get a lis
 Use this prompt to get a list of sales records that were recently updated.  
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).
-1. Select **View Prompts** above the Copilot chat box, select **Ask questions** > **What's new with my sales records**, and then select **Enter**.
+1. Select **View Prompts** above the Copilot chat box, select **Ask questions** > **What's new with my sales records**, and then press **Enter**.
 
     :::image type="content" source="media/whats-new-with-myrecords.png" alt-text="Screenshot of the Copilot response for What's new with my sales records.":::
 
@@ -49,7 +50,7 @@ Copilot can help you stay on top of your assignments by listing the accounts, le
 - Records that were created and assigned to you in the last 15 days.
 - Records that don't have any activity (emails, calls, or appointments) so far.
 
-[Open Copilot](use-sales-copilot.md#open-copilot), select **View Prompts** above the Copilot chat box, select **Ask questions** > **What's newly assigned to me**, and select **Enter**.
+[Open Copilot](use-sales-copilot.md#open-copilot), select **View Prompts** above the Copilot chat box, select **Ask questions** > **What's newly assigned to me**, and press **Enter**.
 
 Copilot lists the records that meet the conditions. Hover over a record in the list and select **Summarize** to view the record summary.
 
@@ -60,7 +61,7 @@ Copilot lists the records that meet the conditions. Hover over a record in the l
 Copilot can help you catch up on any updates to your account, lead, or opportunity records in the last seven days or since you last signed in.
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).
-1. Select **View Prompts** above the Copilot chat box, select **Ask questions** > **What's changed for *record type***, and select **Enter**.
+1. Select **View Prompts** above the Copilot chat box, select **Ask questions** > **What's changed for *record type***, and press **Enter**.
 
     - When a record is opened, Copilot displays the list of recent changes to it.
     - When in grid view, Copilot lists the records for which you have read access. Hover over a record and select **Get updates**.
@@ -70,7 +71,7 @@ Copilot can help you catch up on any updates to your account, lead, or opportuni
 
 1. To get the list of changes to a specific account, lead, or opportunity, type **/** and then start typing the name of the account, lead, or opportunity.
 
-    :::image type="content" source="media/copilot-lead-catchup.png" alt-text="Screenshot of a lead catch up in the Copilot chat pane.":::
+    :::image type="content" source="media/copilot-lead-catchup.png" alt-text="Screenshot of what's changed for an opportunity in the Copilot chat pane.":::
 
 1. To learn more about the updated information or activity, select **Know more in audit history**.
 

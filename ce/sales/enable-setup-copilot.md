@@ -9,6 +9,7 @@ ms.collection: bap-ai-copilot
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
+ai-usage: ai-assisted
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
