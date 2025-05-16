@@ -5,7 +5,7 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ms.topic: overview
-ms.date: 01/21/2025
+ms.date: 05/16/2025
 
 ---
 
@@ -14,11 +14,9 @@ ms.date: 01/21/2025
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 Collaboration features make it easy for customer service representatives (service representatives or representatives) to find the help they need in Microsoft Teams from within the following apps:
-- Dynamics 365 Customer Service admin center
+- Dynamics 365 Copilot Service admin center
 - Dynamics 365 Customer Service Hub
-- Dynamics 365 Customer Service workspace
-- Dynamics 365 Contact Center admin center
-- Dynamics 365 Contact Center workspace
+- Dynamics 365 Copilot Service workspace
 - Your custom apps
 
 Service representatives can use collaboration features to find experts, chat with peers in Teams, and set meetings. Collaboration helps turn your business into a unified and cohesive customer service center.
