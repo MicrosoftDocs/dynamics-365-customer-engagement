@@ -1,11 +1,11 @@
 ---
 title: Associate templates with workstreams
-description: Learn how to associate the different templates with workstreams that will be used for incoming conversations.
+description: Learn how to associate the different templates with workstreams that can be used for incoming conversations.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.date: 04/28/2025
-ms.topic: concept-article
+ms.topic: how-to
 ---
 
 # Associate templates with workstreams
@@ -20,11 +20,11 @@ After a customer service representative (service representative or representativ
 
 After you create a workstream, you can modify the default templates that are attached to the workstream.
 
-1. In the site map of Copilot Service admin center, select **Workstreams**.
+1. In the site map of Copilot Service admin center, select **Workstreams** under **Support experience**.
 1. Select the workstream for which you want to modify the template, and expand the **Show advanced settings** section.
 1. Select **Edit** beside **Sessions**, and on the **Sessions** panel that appears, select a template in the **Default template** list.
 1. Select **Save and close**.
-1. Select **Edit** beside **Customer service representative notifications**, and on the **Customer service representative notifications** panel that appears, select a template for each of the following types of notifications:
+1. Select **Edit** for **Customer service representative notifications**, and on the **Customer service representative notifications** panel that appears, select a template for each of the following types of notifications:
     - Incoming unauthenticated
     - Incoming authenticated
     - Consult
