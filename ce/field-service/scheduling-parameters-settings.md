@@ -1,7 +1,7 @@
 ---
 title: Configure scheduling parameters
 description: Learn about settings related to resource scheduling in Dynamics 365 Field Service.
-ms.date: 05/14/2025
+ms.date: 05/16/2025
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher

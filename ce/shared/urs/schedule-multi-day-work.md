@@ -9,7 +9,7 @@ Manually scheduling a multi-day requirement on the schedule board allows you to 
 
 If you're using requirement details to define the allocation method, manually scheduling the requirement on the schedule board ignores them. Use the [schedule assistant](#schedule-a-multi-day-requirement-with-the-schedule-assistant) instead.
 
-1. Create a multi-day requirement record. Provide details such as skills, roles, resource preferences, and service territory to define the eligible resources.
+1. Create a multi-day requirement record. Provide details such as skills, roles, resource preferences, and service territory to define the eligible resources, if applicable.
 
 1. Go to **Resource Scheduling** > **Schedule Board**.
 
@@ -31,10 +31,9 @@ If you're using requirement details to define the allocation method, manually sc
     - Percentage capacity: Books the resource for a percentage of capacity for the specified from and to dates.
     - Evenly Distribute Hours: Books the resource for a specified number of hours, distributing the time evenly per day over the specified from and to dates.
     - Front Load Hours: Books the resource for a specified number of hours, front-loading the per-day hours over the specified from and to dates. The front load method considers existing bookings and available capacity.
-    - Fixed Time: Books the resource for the specified date and time without regard to the resource's capacity
 
     > [!NOTE]
-    > Full Capacity, Percentage Capacity, Evenly Distribute Hours, and Fixed time can lead to overbooking.
+    > Full Capacity, Percentage Capacity, and Evenly Distribute Hours can lead to overbooking.
 
 1. Select **Book** and the system creates multiple bookings across multiple days.
 
@@ -75,15 +74,19 @@ You can define how to split a long-running requirement into individual bookings.
 
 1. Add as many detail records as needed. Then select **Save**.
 
+1. Use the schedule assistant to book the requirement.
+
 ### Edit patterns for requirements
 
-1. To edit an existing requirement detail, select it to open the **Edit detail** pane. Change the duration or time window and save the changes.
+To edit existing requirement details made with patterns, select the requirement and then **Specify Pattern**.
+
+1. To edit one requirement detail, select it. The **Edit detail** pane appears. Change the duration or time window and save the changes.
 
    To edit multiple details at once, select the requirement and select **Edit all within range** on the details pane.
 
-   :::image type="content" source="../../field-service/media/scheduling-multi-day-requirement-edit-pattern.png" alt-text="Screenshot of Edit details pane for Specify Pattern.":::
-
 1. Under **Duration summary**, each date range that has at least one detail shows. Adjust the allocated duration where needed. To delete, select the ellipsis (**&hellip;**) to the left of duration and then select **Delete**.
+
+   :::image type="content" source="../../field-service/media/scheduling-multi-day-requirement-edit-pattern.png" alt-text="Screenshot of Edit details pane for Specify Pattern.":::
 
 1. Use the settings under **Duration allocation** to control how to distribute the changed durations across multiple details.
 
