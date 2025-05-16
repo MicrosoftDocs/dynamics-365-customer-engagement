@@ -17,7 +17,7 @@ To protect a customer service representative's (service representative or repres
 > [!NOTE]
 > The selected service representative's name is displayed in the chat widget only while chatting with a customer. For consultation or chat transfer, the full name of the representative is used.
 
-1. In the Customer Service admin center or Contact Center admin center, go to the workstream of the chat widget in which you need to configure the settings. 
+1. In the Copilot Service admin center, go to the workstream of the chat widget in which you need to configure the settings. 
 1. Select edit for the required chat widget, and on the **Chat channel Settings** page, go to the **Chat widget** tab.
 
 1. In the **Agent display name** field, select one of the following options:
