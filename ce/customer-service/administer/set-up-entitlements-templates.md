@@ -1,7 +1,7 @@
 ---
 title: Set up entitlements quickly with templates
 description: See how to set up entitlements quickly with templates in Dynamics 365 Customer Service.
-ms.date: 06/21/2024
+ms.date: 04/29/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -19,11 +19,11 @@ ms.custom:
 Quickly create other entitlements prefilled with the basic information like the start and end date, service level agreement (SLA), allocation type, and total term by using an entitlement template in Dynamics 365 Customer Service. For example, create a template for a standard entitlement, and then apply this template for every standard customer in your organization.  
 
 > [!NOTE]
-> With the latest release of Dynamics 365 Customer Service app, entitlement templates in service terms are available in the Customer Service admin center app. We recommend that you create and manage entitlement templates using the new experience.
+> With the latest release of Dynamics 365 Customer Service app, entitlement templates in service terms are available in the Copilot Service admin center app. We recommend that you create and manage entitlement templates using the new experience.
 
 ## Create an entitlement template  
 
-You can create an entitlement template in the Customer Service admin center app.
+You can create an entitlement template in the Copilot Service admin center app.
   
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
   
@@ -33,9 +33,9 @@ You can create an entitlement template in the Customer Service admin center app.
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../../includes/proc-dont-have-correct-permissions.md)]  
 
-1. In the site map of Customer Service admin center, select **Service terms** in **Operations**. The **Service Terms** page appears.
+1. In the site map of Copilot Service admin center, select **Service terms** in **Operations**. The **Service Terms** page appears.
 
-1. In the **Entitlement Templates** section, select **Manage**. The **All Entitlement Templates** view is displayed. You can switch between various system views using the drop-down list.  
+1. In the **Entitlements** section, select **Manage** for **Entitlement Templates**. The **All Entitlement Templates** view is displayed. You can switch between various system views using the drop-down list.  
 
     > [!NOTE]
     > In the Customer Service app, [!INCLUDE[proc_settings_service_management](../../includes/proc-settings-service-management.md)] and select **Entitlement Templates**.
