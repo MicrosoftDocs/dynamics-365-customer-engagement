@@ -22,9 +22,9 @@ ms.custom:
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-This article provides an overview of conversation metrics available in Dynamics 365 Customer Service, that help you analyze key performance indicators (KPIs) to make strategic decisions, track customer service representative (service representative or representative) and AI agent performance, and improve customer satisfaction.
+This article provides an overview of the conversation metrics that are available in Dynamics 365 Customer Service that can help you analyze key performance indicators (KPIs). These conversation metrics can help you make strategic decisions, track customer service representative (service representative or representative) and AI agent performance, and improve overall customer satisfaction.
 
-It also provides detailed guidance on calculating key conversation metrics. By using Power BI reports and Dataverse calculations, you can gain valuable insights into customer service efficiency and improve overall customer satisfaction. [Understand the conversation workflow](../use/overview-analytics-data-model.md#understand-the-conversation-workflow) to effectively utilize these metrics and improve customer service operations and decision-making. 
+This article also provides detailed guidance about calculating key conversation metrics. By using Power BI reports and Dataverse calculations, you can gain valuable insights into customer service efficiency. [Understand the conversation workflow](../use/overview-analytics-data-model.md#understand-the-conversation-workflow) to effectively utilize these metrics and improve customer service operations and decision-making. 
 
 Learn more about [Session metrics](../use/session-metrics.md#session-metrics) and [Service representative metrics](../use/service-rep-metrics.md#service-representative-metrics).
 
@@ -32,7 +32,7 @@ Learn more about [Session metrics](../use/session-metrics.md#session-metrics) an
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Total conversations include all interactions initiated by customers or representatives and engaged by agents, including ones that might be escalated to service representatives. It's a comprehensive metric used to evaluate the performance and effectiveness of agent interactions.
+Total conversations includes all interactions initiated by customers or representatives and engaged by agents, including ones that might be escalated to service representatives. It's a comprehensive metric that's used to evaluate the performance and effectiveness of agent interactions.
 
 Learn more in [conversation states](../use/oc-conversation-state.md#understand-conversation-states).
 
@@ -81,7 +81,7 @@ Total conversations_FactConversation = CALCULATE(COUNTROWS(FactConversation))​
 
 Total number of conversations during the selected period involving Voice, IVR, chat, or digital agents, across all statuses (active and closed conversations).
 
- Total Bot Conversations = Bot Deflected Conversations + Bot Escalated Conversations
+Total Bot Conversations = Bot Deflected Conversations + Bot Escalated Conversations
 
 ### DAX query and Dataverse reference
 
@@ -116,7 +116,7 @@ Total bot conversation = CALCULATE(DISTINCTCOUNTNOBLANK(FactSession[Conversation
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)  |
 |Attributes |- systemuser.msdyn_BotApplicationId​ <br>- msdyn_liveworkstream.msdyn_streamsource |
-|Filters  |- Filter the records to include only the ecords where BotApplicationId isn't null. <br> - msdyn_liveworkstream.msdyn_streamsource isn't equal to '192350000'. |
+|Filters  |- Filter the records to include only the records where BotApplicationId isn't null. <br> - msdyn_liveworkstream.msdyn_streamsource isn't equal to '192350000'. |
 
 ---
 
@@ -226,7 +226,7 @@ IsEngaged = CALCULATE(TRUE(),FactConversation[IsOffered], FactConversation[IsAge
 |---------|---------|
 |Dataverse entities |- [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)​ <br> - Systemuser​ <br>- msdyn_sessionparticipantevent |
 |Attributes |- systemuser.msdyn_botapplicationid <br> - msdyn_sessionparticipant.msdyn_joinedon <br> - msdyn_ocliveworkitem.msdyn_channel<br> - msdyn_ocliveworkitem.msdyn_channelinstanceid |
-|Filters  | - Filter the FactConversations table to​ exclude rows where msdyn_channel is equal to '192350000' and msdyn_channelinstanceid is NULL. <br>-  IsAgentInvolved is used if there's atleast one session with IsAgentSession set to true. <br>- IsAgentSession is set to true if systemuser.msdyn_botapplicationid isn't null.​ <br> - IsAgentAcceptedSession is set as follows:​ If systemuser.msdyn_botapplicationid is empty or NULL and msdyn_sessionparticipant.msdyn_joinedon isn't empty, then IsAgentAcceptedSession is 1.​ Otherwise, its 0.​ |
+|Filters  | - Filter the FactConversations table to​ exclude rows where msdyn_channel is equal to '192350000' and msdyn_channelinstanceid is NULL. <br>-  IsAgentInvolved is used if there's atleast one session with IsAgentSession set to true. <br>- IsAgentSession is set to true if systemuser.msdyn_botapplicationid isn't null.​ <br> - IsAgentAcceptedSession is set as follows:​ If systemuser.msdyn_botapplicationid is empty or NULL and msdyn_sessionparticipant.msdyn_joinedon isn't empty, then IsAgentAcceptedSession is 1.​ Otherwise, it's 0.​ |
 
 ## Abandoned conversations
 
@@ -257,7 +257,7 @@ Abandoned conversations = ​SUMX(FactConversation, IF (FactConversation[IsAband
 
 *Applies to Omnichannel real-time dashboard.*
 
-This metric is a measure of the time, in seconds, before a  service representative responds to a customer's request. In other words, it represents the amount of time that the customer spends waiting for the first response from a service representative. Service representative availability, a high volume of requests, and increased handle time are some factors that can affect customer wait time. A shorter wait time indicates that customers get faster issue resolution and have a better support experience.
+This metric is a measure of the time, in seconds, before a service representative responds to a customer's request. In other words, it represents the amount of time that the customer spends waiting for the first response from a service representative. Service representative availability, a high volume of requests, and increased handle time are some factors that can affect customer wait time. A shorter wait time indicates that customers get faster issue resolution and have a better support experience.
 
 If an AI agent or IVR handles the customer before it escalates the issue to a service representative, the calculation is based on the time between the point when the AI agent or IVR escalates the incoming conversation to a service representative and the point when the service representative accepts the conversation. If the customer abandons the conversation, the calculation is based on the time between the point when the AI agent or IVR escalates the conversation to a service representative and the point when the customer disconnects the conversation.
 
@@ -399,7 +399,7 @@ For the **Chat** report, this metric is the sum of the active chat time and acti
 
 :::image type="content" source="../media/aht_chat.png" alt-text="Screenshot of average handle time for chat.":::
 
-This metric can be viewed in two formats: seconds and *hh:mm:ss*.
+This metric can be viewed in two formats: seconds and hh:mm:ss.
 
 ### DAX query and Dataverse reference
 
@@ -628,7 +628,7 @@ Avg. conversation time (sec) = ​AVERAGE (FactConversation[ConversationTimeInSe
 
 This metric is a measure of the average time that a service representative spends completing any necessary tasks after the customer disconnects. These tasks might include documenting the conversation, updating notes, or updating the customer's information. This metric measures the time from the start of wrap-up to when the service representative closes the conversation. If multiple representatives handled the conversation, only the last representative's wrap-up time is counted.
 
-This metric can be viewed in two formats: seconds and *hh:mm:ss*. 
+This metric can be viewed in two formats: seconds and hh:mm:ss. 
 
 
 ### DAX query and Dataverse reference
@@ -796,7 +796,7 @@ Wrap-up conversations = SUMX ( FactConversation, IF ( FactConversation[statuscod
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
 The abandoned rate refers to the percentage of incoming conversation requests that are terminated before a representative engages with the customer. This can happen in both representative and AI agent scenarios. There are two primary types:​
-- Abandoned before assignment: The customer leaves before being assigned to any representative.​
+- Abandoned before assignment: The customer leaves before being assigned to a representative.​
 - Abandoned after assignment: The customer is assigned to a representative but disconnects before the representative accepts the conversation.
 
 ### DAX query and Dataverse reference
