@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 05/09/2025
+ms.date: 05/16/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -924,6 +924,100 @@ Avg. conversation inactive time (min) = CALCULATE(AVERAGE(FactConversation[InAct
 
 ## Average first response time
 
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+This metric captures how quickly agents acknowledge or begin engaging with customers. It is typically measured in seconds or minutes and is used to assess the efficiency of initial engagement.
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+Avg. time for first response (min) = ​
+
+CALCULATE (AVERAGE (FactConversation[FirstResponseTime] ) / 60.00,FactConversation[IsOutbound] <> "1")
+
+```
 
 
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem) |
+|Attributes |- msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel |
+|Filters  |- Filter the FactConversations table to include only rows where Ensure that msdyn_channelinstanceid is NULL.​ <br> - Exclude rows where msdyn_channel is'192350000’​. <br> - msdyn_ocliveworkitem.msdyn_isoutbound is not set to 1​.|
 
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Avg. first response time (sec) = AVERAGE(FactConversation[ReponseTimeInSecondsAdjustedForOperationHour])
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |  [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_liveworkstream |
+|Attributes  | - msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_liveworkstream.msdyn_streamsource <br> - msdyn_ocliveworkitem.msdyn_firstresponsetime​ <br> - msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel  |
+|Filters  | - Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL and​  msdyn_isagentsession set to 1​. Avg. first response time (sec) is defined by msdyn_ocliveworkitem.msdyn_firstresponsetimeinms​. <br> - Exclude rows where msdyn_streamsource is'192350000'​. ​|
+
+---
+
+## Transfer rate
+
+*Applies to Omnichannel historical dashboards.*
+
+This metric refers to the percentage of customer conversations​ that are transferred from one representative to another​, an agent to a live representative, or one department or queue to another​. This metric is typically expressed as a percentage of total conversations.​
+
+​Transfer Rate (%) = (Number of Transferred Conversations / Total Conversations) × 100​
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+**DAX query**
+
+```dax
+
+Transfer rate_FactConversation = var rate = CALCULATE(FactConversation[_TransferedConversationCount]
+/ FactConversation[Totalconversations_FactConversation], FactConversation[StatusId] = "4", FactConversation[IsAgentAccepted] = "1") return
+IF(ISBLANk(rate) && NOT(ISBLANK([Total
+conversations_FactConversation])), 0, rate)
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_sessionparticipant, systemuser |
+|Attributes  |-  msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel​ <br>- msdyn_ocliveworkitem.statuscode​ <br> - msdyn_ocliveworkite.msdyn_transfercount msdyn_sessionparticipant.msdyn_joinedon ​<br> -  systemuser.msdyn_botapplicationid|
+|Filters  | - Filter the FactConversations table to include only rows where Ensure that msdyn_channelinstanceid is NULL.​ <br> - Exclude rows where msdyn_channel is'192350000’. <br> - Include msdyn_ocliveworkitem.statuscode set to 4​. <br> - Ensure that systemuser.msdyn_botapplicationid  AND msdyn_sessionparticipant.msdyn_joinedon is not null​. <br> - IsAgentAcceptedSession is set as follows:​ If systemuser.msdyn_botapplicationid is empty or NULL and msdyn_sessionparticipant.msdyn_joinedon is not empty, then IsAgentAcceptedSession is 1.​ Otherwise, its 0.​ <br> - 
+Transfer rate is defined by msdyn_ocliveworkitem.msdyn_transfercount > 0​.​|
+
+## Transfer conversation count
+
+*Applies to Omnichannel historical dashboards.*
+
+​This metric tracks how many conversations were handed off from one representative to another representative​, a representative to a queue​, a representative to a PSTN number or Teams user​.
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+**DAX query**
+
+```dax
+TransferedConversationCount = CALCULATE(COUNTROWS(FactConversation), FactConversation[TransferCount] >0)
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)|
+|Attributes  |- msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel​ <br> - msdyn_ocliveworkite.msdyn_transfercount 
+|Filters  | - Filter the FactConversations table to include only rows where Ensure that msdyn_channelinstanceid is NULL.​  <br>- Exclude rows where msdyn_channel is'192350000’. <br> - Transfer count is defined by msdyn_ocliveworkite.msdyn_transfercount > 0 . ​|
