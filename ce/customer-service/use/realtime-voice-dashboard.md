@@ -4,9 +4,9 @@ description: Discover key metrics and interactive charts in the Voice report of 
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
-ms.date: 02/03/2025
+ms.date: 04/30/2025
 search.audienceType:
   - admin
   - customizer
@@ -21,8 +21,6 @@ ms.custom:
 # View and understand the Voice report in Omnichannel real-time analytics
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
-
-
 
 The **Voice** report gives you insights into key metrics across the voice channel. You can filter this report by time, queue, time zone, conversation status, direction, and skills. For more information, go to [Overview of the real-time Omnichannel analytics dashboard](intro-realtime-analytics-dashboard.md).
 

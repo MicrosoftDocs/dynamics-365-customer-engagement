@@ -2,7 +2,7 @@
 title: "Clone and edit a sequence in sales accelerator"
 description: "You can clone and edit a sequence when there's a change in the process of selling in your organization."
 ms.date: 12/31/2024
-ms.topic: article
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag

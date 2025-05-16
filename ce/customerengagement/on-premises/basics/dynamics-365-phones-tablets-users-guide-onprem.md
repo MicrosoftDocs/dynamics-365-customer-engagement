@@ -5,7 +5,7 @@ ms.custom:
 ms.reviewer: smurkute
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: Dynamics 365 apps
 ms.assetid: 6828238b-1645-4710-a192-0014acb03196
 caps.latest.revision: 97

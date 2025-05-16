@@ -4,8 +4,8 @@ description: Use this article to get information about features that are depreca
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.topic: conceptual
-ms.date: 03/17/2025
+ms.topic: concept-article
+ms.date: 05/14/2025
 ms.custom: bap-template
 ms.collection:
 ---
@@ -19,6 +19,14 @@ Administrators and IT professionals can use this information to prepare for futu
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
+## setClickToAct (JavaScript API Reference) to be deprecated on October 31, 2025
+
+In Dynamics 365 Channel Integration Framework versions 1 and 2, the setClickToAct (JavaScript API Reference) API will be deprecated on October 31, 2025. If you need to change outbound configuration for your channel provider, review [Enable outbound communication (ClickToAct) in Dynamics 365 Channel Integration Framework 2.0](../../channel-integration-framework/v2/administer/enable-outbound-communication-clicktoact.md).
+
+## Effort estimation model in unified routing is deprecated
+
+The [effort estimation model in unified routing](../administer/use-effort-estimation-for-routing.md) is deprecated as of May 02, 2025. The support for the feature will end and the feature will be removed on June 02, 2025.
+
 ## Auto-summarization of ongoing conversations is deprecated in April 2025
 
 Starting April 16, 2025, we no longer support the auto-summarization of ongoing conversations in Customer Service apps. We recommend that you use [Copilot-generated conversation summary](/dynamics365/contact-center/use/copilot-summarize-conversations#view-a-conversation-summary).
@@ -30,7 +38,7 @@ Starting April 18, 2025, we'll no longer support the classic rich text editor ex
 
 ## Case and knowledge suggestions in smart assist are deprecated
 
-Starting June 02, 2025, we'll no longer support [case and knowledge suggestions](../use/oc-view-ai-suggested-cases-articles.md) via smart assist in Customer Service. We recommend that you [make Copilot available to your customer service representatives](../administer/configure-copilot-features.md#make-copilot-available-to-agents).
+Starting June 02, 2025, we'll no longer support [case and knowledge suggestions](../use/oc-view-ai-suggested-cases-articles.md) via smart assist in Customer Service. We recommend that you [make Copilot available to your customer service representatives](../administer/configure-copilot-features.md#make-copilot-available-to-representatives).
 
 ## Dynamics 365 Unified Service Desk to be deprecated in April 2026
 

@@ -2,7 +2,7 @@
 title: Use sites to manage your service locations | Microsoft Docs
 description: Learn how to use sites to manage your service locations in Dynamics 365 Customer Service.
 ms.date: 03/20/2023
-ms.topic: article
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan

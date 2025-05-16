@@ -1,7 +1,7 @@
 ---
 title: Turn on and set up Copilot in Dynamics 365 Sales
 description: Learn how to turn on and set up Copilot in Dynamics 365 Sales to improve sales productivity and effectiveness. 
-ms.date: 03/18/2025
+ms.date: 05/16/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -9,6 +9,7 @@ ms.collection: bap-ai-copilot
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
+ai-usage: ai-assisted
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -26,7 +27,9 @@ If you turned off Copilot in Dynamics 365 Sales, it remains turned off. Otherwis
 - Organizations in [regions where an Azure OpenAI Service endpoint is available](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features).  
 - Organizations that [provide consent for data movement across regions](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features) and [select the monthly release channel](/power-apps/maker/model-driven-apps/channel-change) for the sales app.
 
-For all other organizations, an admin must provide consent for cross-region data movement in the Power Platform admin center and then turn on Copilot in the Sales Hub app. This article provides instructions for providing consent for data movement, turning Copilot on or off, and training Copilot to understand your business-specific terms.
+For all other organizations, an admin must provide consent for cross-region data movement in the Power Platform admin center and then turn on Copilot in the Sales Hub app. This article provides instructions for providing consent for data movement and turning Copilot on or off.
+
+Even if your organization is in a region where an Azure OpenAI Service endpoint is available, we suggest enabling cross-region data movement as a fallback option. This helps avoid interruption to Copilot service in case of an Open AI service outage in your region.
 
 Throughout this article, the term "sales app" refers to apps that have lead and opportunity tables and aren't on the [exclusion list](sales-copilot-faq.md#are-there-any-applications-where-copilot-in-dynamics-365-sales-cant-be-used).
 
@@ -73,42 +76,6 @@ Turning on Copilot features enables the chat and embedded Copilot experiences in
 1. To get all Copilot preview features automatically, select **Try our newest preview features before they're rolled out to everyone**.
 
 1. Select **Save**.
-
-<a name="add-glossary"></a>
-
-## Train Copilot to understand your business terms (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
-You can add domain-specific terms and acronyms to a glossary to train Copilot in Dynamics 365 Sales to understand your business terms. Let's say that you have a custom field called **Estd Revenue** in the **Opportunity** table that stores the estimated revenue for an opportunity. You can add a glossary term to help Copilot understand that when sellers ask about "opportunity revenue," they're referring to the **Estd Revenue** column in the **Opportunity** table.
-
-> [!NOTE]
-> The glossary feature is available only in English.
-
-1. Open [Copilot Studio](https://copilotstudio.microsoft.com) and select your Dynamics 365 Sales environment.
-
-1. Select **Agents** > **Copilot in Dynamics 365 Sales**.
-1. Select **SalesSpecificQnA** under **Knowledge** section.
-1. Select the **Glossary** section and enter the term and description and select **Next** to add the term. [See some sample terms and descriptions](#sample-terms-and-descriptions).
-   :::image type="content" source="media/Natural_chat_Glossary.png" alt-text="Screenshot of the glossary configuration page in Copilot Studio.":::
-
-1. To add the term to the glossary, select **Next**.
-
-1. Select **Save** when you're finished adding terms.
-
-Allow 15 minutes for new or updated glossary terms to become available in the Copilot chat experience in Dynamics 365 Sales.
-
-### Sample terms and descriptions
-
-The following table provides sample terms and descriptions that you can add to the glossary to help Copilot understand your business terms. Terms and descriptions are case-insensitive.
-
-| Scenario | Term  | Description |
-|----------|-------|-------------|
-| Acronym | VP | "VP" refers to "Vice President" value in "JobTitle" column in "Contact" table |
-| Custom ownership (the record owner isn't the activity owner) | activity owner | "activity owner" is identified by "partyid" column in "activityparty" table |
-| Custom field (a table uses a custom field instead of the out-of-the-box system fields) | opportunity revenue | "opportunity revenue" refers to "Estd revenue" column in "Opportunity" table |
-| Complex rules or filters | overdue task | "overdue task" refers to "state code" column with value "open" in "Task" table and "scheduled end date" column with value less than today in "Task" table |
 
 ## Add the Copilot page site map entry to a sales app
 

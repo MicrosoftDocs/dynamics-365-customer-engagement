@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.date: 04/14/2025
-ms.topic: article
+ms.topic: how-to
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
@@ -147,7 +147,7 @@ The out-of-the-box templates are as follows.
    | General|Autoaccept voice/chat calls | This option is displayed only if **Auto-assign work items** is enabled. Set to **Yes** for a representative to automatically accept a conversation.| The default value is **No**. <br> **Note:** This setting is in preview. <br> More information: [Enable automatic acceptance of conversations](enable-auto-assign-conversations.md).|
    | General | Accept Button | Specify a text for the accept button. This text appears for the representatives to accept a conversation request. | The default value is **Accept** that changes to **Open** when the **Auto-assign work items** value is **Yes**. You can change the text as per your requirement. |
    | General | Reject Button | Set the toggle to yes if you want to show the reject button to representatives. <br> After you set the toggle to **Yes**, the default label for the button appears. | Reject <br><br> **Note:** This is the default value. You can change the text as per your requirement. The **Reject Button** is disabled when the **Auto-assign work items** value is **Yes**. |
-   | General | Show desktop notifications | Specify **Always** to show notifications always or **When app is in background** to show notifications only if the Copilot Service workspace or Omnichannel for Customer Service isn't in focus. | When app is in background <br><br> **Note:** <br> The default value is Never. <br> To learn more, see [Desktop notifications](#desktop-notifications) and [Receive notifications when app is in background](../use/oc-notifications.md#receive-notifications-when-the-app-is-in-the-background). |
+   | General | Show desktop notifications | Specify **Always** to show notifications always or **When app is in background** to show notifications only if the Copilot Service workspace isn't in focus. | When app is in background <br><br> **Note:** <br> The default value is Never. <br> To learn more, see [Desktop notifications](#desktop-notifications) and [Receive notifications when app is in background](../use/oc-notifications.md#receive-notifications-when-the-app-is-in-the-background). |
 
     > [!div class=mx-imgBorder] 
     > ![Create notification template.](../media/notification-template-default-entity.png "Create notification template")

@@ -91,11 +91,11 @@ The **Call Metrics** tab of the Conversation Form displays the following details
 
 **Post-conversation survey**
 
-Users with the Omnichannel Supervisor role can't access survey results. You can view the following details:
+You can view the following details from the post-conversation survey:
 
 - **CSAT**: The customer satisfaction score of the conversation. The score can be between 0 to 5.
 
-- **`<Verbatim>`**: Free text.
+- **`<Verbatim Customer Utterance>`**: User response in free text.
 - **First Contact Resolution**: The choice must contain the **Yes** word.
 - **Net Promoter Score**: The score can be between 0 to 10.
 

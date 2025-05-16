@@ -1,7 +1,7 @@
 ---
 title: Buy a Dynamics 365 Field Service license
 description: Learn how to purchase licenses for Dynamics 365 Field Service.
-ms.date: 02/26/2024
+ms.date: 05/12/2025
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts

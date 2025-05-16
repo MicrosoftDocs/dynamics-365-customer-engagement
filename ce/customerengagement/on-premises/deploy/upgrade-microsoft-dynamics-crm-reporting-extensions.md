@@ -6,7 +6,7 @@ ms.custom: ""
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: upgrade-and-migration-article
 applies_to: 
   - "Dynamics 365 (on-premises)"
 ms.assetid: 46ee23c4-f2d5-4744-83c0-e05f21385346

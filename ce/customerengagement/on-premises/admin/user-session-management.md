@@ -6,7 +6,7 @@ ms.reviewer:
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 599f849d-c4cb-4b1c-84a0-9fde48a1601a

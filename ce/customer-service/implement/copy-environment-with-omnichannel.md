@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: 
-ms.date: 03/03/2025
+ms.date: 04/24/2025
 ms.custom: bap-template
 ai.usage: ai-assisted
 ---
@@ -88,9 +88,9 @@ If you chose the full copy option, it can take up to an hour for the data to app
 
 ## Configure real-time and historical analytics
 
-1. To make sure that [real-time analytics reports](../administer/enable-realtime-analytics-dashboard-administrator.md) reflect information in the target environment, on the real-time analytics page in the Customer Service admin center, turn off **Enable Omnichannel real-time analytics**, and then turn it back on.
+1. To make sure that [real-time analytics reports](../administer/enable-realtime-analytics-dashboard-administrator.md) reflect information in the target environment, on the real-time analytics page in the Copilot Service admin center, turn off **Enable Omnichannel real-time analytics**, and then turn it back on.
 
-1. To make sure that [historical analytics reports](../administer/oc-historical-analytics-reports.md) reflect information in the target environment, on the historical analytics page in the Customer Service admin center, turn off **Enable Omnichannel historical analytics report**, and then turn it back on.
+1. To make sure that [historical analytics reports](../administer/oc-historical-analytics-reports.md) reflect information in the target environment, on the historical analytics page in the Copilot Service admin center, turn off **Enable Omnichannel historical analytics report**, and then turn it back on.
 
 ### Related information
 

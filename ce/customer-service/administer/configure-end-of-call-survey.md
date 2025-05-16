@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to
 ms.collection: 
-ms.date: 03/03/2025
+ms.date: 05/05/2025
 ms.custom: bap-template 
 ---
 
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-Use the **Voice call experiences** page in Contact Center admin center or Customer Service admin center to configure the following features:
+Use the **Voice call experiences** page in Copilot Service admin center to configure the following features:
 
 - [Configure representative call quality feedback survey](#configure-representative-call-quality-feedback-survey)
 - [Disable taking a customer off hold automatically](#disable-taking-a-customer-off-hold-automatically)
@@ -27,11 +27,11 @@ Customer service representatives (service representatives or representatives) ca
 
 Perform the following steps to enable representative call quality surveys:
 
-1. In Customer Service admin center or Contact Center admin center, select **Workspaces** and then select **Voice call experiences**. You can enable the survey from **Voice settings** in voice workstreams. 
-3. Switch the **Agent call quality survey** toggle to **On**.
+1. In Copilot Service admin center, select **Workspaces** in **Support experience** and then select **Voice call experiences**. You can enable the survey from **Voice settings** in voice workstreams. 
+3. Switch the **Customer service representative call quality survey** toggle to **On**.
 4. Specify the frequency at which the survey should be presented to the representative. Optionally, you can also switch the **Set survey duration** toggle to **On** and specify the duration during which the survey must appear for the representative.
 
- :::image type="content" source="../media/voice-configure-rating.png" alt-text="Screen shot of the Agent call quality survey page." :::
+ :::image type="content" source="../media/voice-configure-rating.png" alt-text="Screen shot of the Customer service representative call quality survey page." :::
 
 ### Store and view survey data
 
@@ -56,8 +56,8 @@ ACSCallSurvey
 ## Disable taking a customer off hold automatically
 
 When you transfer a call to another representative, the customer is automatically put on hold. The customer is removed from hold automatically when the secondary representative accepts the transferred call. To disable this behavior, and manually take the customer off hold, perform the following steps:
-- In Customer Service admin center or Contact Center admin center, select **Workspaces** and then select **Voice call experiences**.
-- Turn off the **Un-hold customer after agent transfer is accepted** toggle. 
+- In Copilot Service admin center, select **Workspaces** and then select **Voice call experiences**.
+- Turn off the **Un-hold customer after representative transfer is accepted** toggle. 
 
 ## Next steps
 

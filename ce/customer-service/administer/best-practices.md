@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.date: 04/29/2025
-ms.topic: article
+ms.topic: best-practice
 search.audienceType:
   - admin
   - customizer

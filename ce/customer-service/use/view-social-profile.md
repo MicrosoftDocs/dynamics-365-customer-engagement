@@ -2,7 +2,7 @@
 title: View a social profile in social care sample application (Dynamics 365 Customer Service)
 description: See how to view a social profile in social care sample application in Dynamics 365 Customer Service
 ms.date: 04/29/2025
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

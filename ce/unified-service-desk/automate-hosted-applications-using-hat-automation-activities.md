@@ -2,7 +2,7 @@
 title: "Automate hosted applications using HAT automation activities | MicrosoftDocs"
 description: "Learn about the Hosted Application Toolkit (HAT) Software Factory that you can use to automate hosted applications."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
