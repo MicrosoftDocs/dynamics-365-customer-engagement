@@ -32,7 +32,7 @@ Learn more about [Session metrics](../use/session-metrics.md#session-metrics) an
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Total conversations include all interactions initiated by customers or representatives and engaged by agents, including those that may be escalated to service representatives. It is a comprehensive metric used to evaluate the performance and effectiveness of agent interactions.
+Total conversations include all interactions initiated by customers or representatives and engaged by agents, including ones that might be escalated to service representatives. It's a comprehensive metric used to evaluate the performance and effectiveness of agent interactions.
 
 Learn more in [conversation states](../use/oc-conversation-state.md#understand-conversation-states).
 
@@ -116,7 +116,7 @@ Total bot conversation = CALCULATE(DISTINCTCOUNTNOBLANK(FactSession[Conversation
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)  |
 |Attributes |- systemuser.msdyn_BotApplicationId​ <br>- msdyn_liveworkstream.msdyn_streamsource |
-|Filters  |- Filter the records to include only those where BotApplicationId isn't null. <br> - msdyn_liveworkstream.msdyn_streamsource isn't equal to '192350000'. |
+|Filters  |- Filter the records to include only the ecords where BotApplicationId isn't null. <br> - msdyn_liveworkstream.msdyn_streamsource isn't equal to '192350000'. |
 
 ---
 
@@ -130,7 +130,7 @@ Total bot conversation = CALCULATE(DISTINCTCOUNTNOBLANK(FactSession[Conversation
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-The total number of inbound conversations that a service representative received directly or were escalated by an AI agent.
+The total number of inbound conversations that a service representative received directly or are escalated by an AI agent.
 
 In Omnichannel real-time dashboards, this metric is termed as **Total conversations offered**.
 
@@ -324,7 +324,7 @@ Avg. conversation first wait time (sec) =​
 
 *Applies to Omnichannel real-time and historical dashboards.*
 
-This metric measures how quickly the service team responds to customer requests. It is calculated by dividing the total queue wait time (after the issue is escalated from an AI agent to a service representative) by the number of handled conversations. A lower average speed to answer means faster issue resolution and a better customer experience.
+This metric measures how quickly the service team responds to customer requests. It's calculated by dividing the total queue wait time (after the issue is escalated from an AI agent to a service representative) by the number of handled conversations. A lower average speed to answer means faster issue resolution and a better customer experience.
 
 For an AI agent conversation, this metric measures the time from when the AI agent escalates the incoming conversation to when a service representative accepts it.
 
@@ -713,7 +713,7 @@ SUMX (FactConversation,​
 
 *Applies to Omnichannel real-time dashboards.*
 
-The total number of active service representative conversations. Includes conversations that were assigned to a service representative, accepted and actively engaged by the representative. This includes all inbound and outbound conversations across all channels (digital, voice, and cases).
+The total number of active service representative conversations. Includes conversations that were assigned to a service representative, accepted and actively engaged by the representative. Includes all inbound and outbound conversations across all channels (digital, voice, and cases).
 
 ### DAX query and Dataverse reference
 
@@ -828,7 +828,7 @@ IF(ISBLANK(rate), 0, rate)​
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), systemuser |
 |Attributes | - msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel​ <br> - msdyn_ocliveworkitem.msdyn_isoutbound​ <br> -  systemuser.msdyn_botapplicationid  |
-|Filters  | - Filter the FactConversations table to include only rows where, msdyn_channelinstanceid is NULL.​ <br>- Exclude rows where msdyn_channel is'192350000, which have atleast one [systemuser.msdyn_botapplicationid  != null ]​ <br> - Direction is defined by msdyn_isoutbound and not to set 1​​ |
+|Filters  | - Filter the FactConversations table to include only rows where, msdyn_channelinstanceid is NULL.​ <br>- Exclude rows where msdyn_channel is'192350000, which have atleast one [systemuser.msdyn_botapplicationid  != null ]​ <br> - Direction is defined by msdyn_isoutbound and not to set 1​.​ |
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -906,7 +906,7 @@ Avg. conversation active time (min) = CALCULATE(AVERAGE(FactConversation[ActiveT
 
 *Applies to Omnichannel historical dashboards.*
 
-The metric refers to the average amount of time during a conversation when an agent is not actively engaged with the customer. This is especially relevant in chat and digital messaging channels, where agents often handle multiple sessions concurrently.​ Inactive time is the duration when a conversation is open but the agent is not focused on it—either because they’ve switched to another session or are not interacting with the customer. 
+The metric refers to the average amount of time during a conversation when an agent isn't actively engaged with the customer. This is especially relevant in chat and digital messaging channels, where agents often handle multiple sessions concurrently.​ Inactive time is the duration when a conversation is open but the agent isn't focused on it—either because they’ve switched to another session or aren't interacting with the customer. 
 
 ### DAX query and Dataverse reference
 
@@ -924,7 +924,7 @@ Avg. conversation inactive time (min) = CALCULATE(AVERAGE(FactConversation[InAct
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_sessionparticipant |
 |Attributes  |-  msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel​ <br> - msdyn_ocliveworkitem.msdyn_statuscode​ <br> - msdyn_sessionparticipant.msdyn_joinedon​ <br> - msdyn_sessionparticipant.msdyn_inactivetime|
-|Filters  | - Filter the FactConversations table to include only rows where Ensure that msdyn_channelinstanceid is NULL.​ <br> - Exclude rows where msdyn_channel is'192350000’ . <br> -  Include msdyn_ocliveworkitem.statuscode set to 4​. <br> - InactiveTimeInSeconds is calculated by​ msdyn_sessionparticipant.msdyn_inactivetime and​ isAgentAccepted set to 1 or msdyn_sessionparticipant.msdyn_joinedon​. ​|
+|Filters  | - Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL.​ <br> - Exclude rows where msdyn_channel is'192350000’ . <br> -  Include msdyn_ocliveworkitem.statuscode set to 4​. <br> - InactiveTimeInSeconds is calculated by​ msdyn_sessionparticipant.msdyn_inactivetime and​ isAgentAccepted set to 1 or msdyn_sessionparticipant.msdyn_joinedon​. ​|
 
 
 
@@ -932,7 +932,7 @@ Avg. conversation inactive time (min) = CALCULATE(AVERAGE(FactConversation[InAct
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-This metric captures how quickly agents acknowledge or begin engaging with customers. It is typically measured in seconds or minutes and is used to assess the efficiency of initial engagement.
+This metric captures how quickly agents acknowledge or begin engaging with customers. It's typically measured in seconds or minutes and is used to assess the efficiency of initial engagement.
 
 ### DAX query and Dataverse reference
 
@@ -953,7 +953,7 @@ Avg. time for first response (min) = ​CALCULATE (AVERAGE (FactConversation[Fir
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem) |
 |Attributes |- msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel |
-|Filters  |- Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL.​ <br> - Exclude rows where msdyn_channel is'192350000’​. <br> - msdyn_ocliveworkitem.msdyn_isoutbound is not set to 1​.|
+|Filters  |- Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL.​ <br> - Exclude rows where msdyn_channel is'192350000’​. <br> - msdyn_ocliveworkitem.msdyn_isoutbound isn't set to 1​.|
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -1001,7 +1001,7 @@ conversations_FactConversation])), 0, rate)
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_sessionparticipant, systemuser |
 |Attributes  |-  msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel​ <br>- msdyn_ocliveworkitem.statuscode​ <br> - msdyn_ocliveworkite.msdyn_transfercount msdyn_sessionparticipant.msdyn_joinedon ​<br> -  systemuser.msdyn_botapplicationid|
-|Filters  | - Filter the FactConversations table to include only rows where Ensure that msdyn_channelinstanceid is NULL.​ <br> - Exclude rows where msdyn_channel is'192350000’. <br> - Include msdyn_ocliveworkitem.statuscode set to 4​. <br> - Ensure that systemuser.msdyn_botapplicationid  AND msdyn_sessionparticipant.msdyn_joinedon is not null​. <br> - IsAgentAcceptedSession is set as follows:​ If systemuser.msdyn_botapplicationid is empty or NULL and msdyn_sessionparticipant.msdyn_joinedon is not empty, then IsAgentAcceptedSession is 1.​ Otherwise, its 0.​ <br> -Transfer rate is defined by msdyn_ocliveworkitem.msdyn_transfercount > 0​.​|
+|Filters  | - Filter the FactConversations table to include only rows where Ensure that msdyn_channelinstanceid is NULL.​ <br> - Exclude rows where msdyn_channel is'192350000’. <br> - Include msdyn_ocliveworkitem.statuscode set to 4​. <br> - Ensure that systemuser.msdyn_botapplicationid  AND msdyn_sessionparticipant.msdyn_joinedon isn't null​. <br> - IsAgentAcceptedSession is set as follows:​ If systemuser.msdyn_botapplicationid is empty or NULL and msdyn_sessionparticipant.msdyn_joinedon isn't empty, then IsAgentAcceptedSession is 1.​ Otherwise, its 0.​ <br> -Transfer rate is defined by msdyn_ocliveworkitem.msdyn_transfercount > 0​.​|
 
 
 
@@ -1027,5 +1027,5 @@ TransferedConversationCount = CALCULATE(COUNTROWS(FactConversation), FactConvers
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)|
 |Attributes  |- msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel​ <br> - msdyn_ocliveworkite.msdyn_transfercount 
-|Filters  | - Filter the FactConversations table to include only rows where Ensure that msdyn_channelinstanceid is NULL.​  <br>- Exclude rows where msdyn_channel is'192350000’. <br> - Transfer count is defined by msdyn_ocliveworkite.msdyn_transfercount > 0 . ​|
+|Filters  | - Filter the FactConversations table to include only rows where Ensure that msdyn_channelinstanceid is NULL.​  <br>- Exclude rows where msdyn_channel is'192350000’. <br> - Transfer count is defined by msdyn_ocliveworkite.msdyn_transfercount > 0. ​|
 
