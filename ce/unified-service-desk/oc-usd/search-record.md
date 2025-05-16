@@ -4,7 +4,7 @@ description: "This article provides information on how to search for records and
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.topic: article
+ms.topic: how-to
 ms.date: 06/27/2024
 monikerRange: '>= dynamics-usd-4.1'
 ms.custom: evergreen

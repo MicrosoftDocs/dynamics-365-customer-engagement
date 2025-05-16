@@ -2,7 +2,7 @@
 title: Edit setting of the Dynamics 365 app
 description: Learn how to edit settings of the Dynamics 365 app
 ms.date: 08/19/2024
-ms.topic: article
+ms.topic: how-to
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais

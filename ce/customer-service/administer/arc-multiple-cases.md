@@ -4,7 +4,7 @@ description: Create multiple cases from an email sent to multiple mailboxes to i
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
 ms.date: 12/13/2024
 ms.custom:
@@ -20,7 +20,7 @@ ms.custom:
 
 When an email is sent to multiple mailboxes (To, Cc, or Bcc) that are queue-enabled in Customer Service, the email gets converted to only one case using automatic record creation rules. Sometimes, [multiple cases do get created for an email sent to multiple mailboxes](arc-faqs.md#why-do-multiple-cases-get-created-from-a-single-email) but the email gets associated only to one case and is displayed on one of the case timelines only.
 
-As an administrator, you can enable this feature to ensure that multiple cases (one for each queue-enabled mailbox) are created when multiple mailboxes are added as recipients in the email. With the ability to create multiple cases from an email, customer service representatives (service representatives) can do the following:
+As an administrator, you can enable this feature to ensure that multiple cases (one for each queue-enabled mailbox) are created when multiple mailboxes are added as recipients in the email. With the ability to create multiple cases from an email, customer service representatives (service representatives or representatives) can do the following:
 
 - With multiple cases being created, email appears in the timeline for all cases. So, service representatives can respond to customers’ issues using any case timeline.
 

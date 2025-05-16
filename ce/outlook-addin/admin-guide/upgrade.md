@@ -7,7 +7,7 @@ ms.reviewer: smurkute
 
 ms.suite:
 ms.tgt_pltfrm:
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 applies_to: 
   - Dynamics 365 apps 
 ms.assetid: 65f15bc1-3295-4b62-8cf2-1b3ff65b7064

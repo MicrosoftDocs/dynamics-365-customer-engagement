@@ -5,7 +5,7 @@ keywords: Microsoft Dynamics 365 Customer Engagement (on-premises); Customer Ser
 author: shwetamurkute
 applies_to: Dynamics 365 Customer Engagement (on-premises)
 ms.author: smurkute
-ms.topic: article
+ms.topic: how-to
 
 ms.assetid: bb4e7609-3e32-46b3-8b19-ce700f99715c
 search.audienceType: 

@@ -6,12 +6,15 @@ ms.author: anilmur
 ms.reviewer: mhart
 ms.service: dynamics-365-field-service
 ms.topic: overview 
-ms.date: 03/28/2025
+ms.date: 05/13/2025
 ms.custom: bap-template 
 ---
 
 # Reports overview
 
+[!INCLUDE[reports-remove.md](../includes/reports-remove.md)]
+
+<!--- 
 Reports are a collection of charts and visuals, built with Microsoft Power BI. They're based on a data set to get a quick view into core metrics. Resource and operations managers can monitor key operational metrics to gauge the performance of resources and their scheduling strategy. Reports can help explore important business-related questions, such as:
 
 - Are my resources being used efficiently over a given time period?
@@ -128,3 +131,5 @@ Resource Scheduling Optimization entities:
 - [Optimization summary report](rso-optimization-summary-report.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
+--->

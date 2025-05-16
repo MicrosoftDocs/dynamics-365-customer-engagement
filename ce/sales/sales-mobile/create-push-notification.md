@@ -2,7 +2,7 @@
 title: Create custom push notifications for the Dynamics 365 Sales mobile app
 description: Learn to create custom push notifications for the Dynamics 365 Sales mobile app.
 ms.date: 08/29/2024
-ms.topic: article
+ms.topic: how-to
 author: sbmjais
 ms.author: shjais
 ms.reviewer: shjais 

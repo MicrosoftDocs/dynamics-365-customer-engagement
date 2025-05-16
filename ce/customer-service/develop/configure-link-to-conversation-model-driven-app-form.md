@@ -2,7 +2,7 @@
 title: Configure Link to conversation button in model-driven app entity form
 description: Learn how to configure Link to conversation button in model-driven app form for service representatives.
 ms.date: 04/29/2025
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

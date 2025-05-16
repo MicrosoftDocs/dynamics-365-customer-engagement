@@ -4,7 +4,7 @@ description: "Privacy notices for Sales Insights capabilities such as, standard 
 keywords: "privacy notice, privacy statement addition"
 ms.date: 02/27/2025
 ms.custom: "dyn365-ai-sales"
-ms.topic: article
+ms.topic: legal
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag

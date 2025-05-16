@@ -2,7 +2,7 @@
 title: Implement a custom scenario for smart assist agent
 description: Use this topic to learn how to enable similar case suggestions and use custom actions to build your custom smart assist agents.
 ms.date: 04/29/2025
-ms.topic: article
+ms.topic: reference
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

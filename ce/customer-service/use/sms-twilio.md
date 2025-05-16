@@ -2,7 +2,7 @@
 title: Representative experience for Twilio channels
 description: Learn about the representative experience when interacting with conversations that originate from the Twilio SMS channel.
 ms.date: 04/29/2025
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

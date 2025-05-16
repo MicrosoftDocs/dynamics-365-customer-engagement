@@ -2,7 +2,7 @@
 title: Configure and view your team page in conversation intelligence app
 description: Configure your team page with information on levels of hierarchy, top performers, and delete sellers data.
 ms.date: 10/31/2022
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

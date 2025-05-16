@@ -2,7 +2,7 @@
 title: "Reuse entity search definition in your custom code | MicrosoftDocs"
 description: "Find information about reusing entity search definitions in your custom code using the EntitySearchRequest message."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

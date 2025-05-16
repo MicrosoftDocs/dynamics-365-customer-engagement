@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: get-started 
-ms.date: 03/31/2025
+ms.date: 05/15/2025
 ms.custom: bap-template 
 ---
 
@@ -27,11 +27,12 @@ Administrators must have the CSR Manager or System Administrator role.
 
 ## Configure autonomous case follow-up and closure
 
-Perform the following steps to set up autonomous case follow-up and closure:
+Perform the following steps in Copilot Service admin center to set up autonomous case follow-up and closure:
 
+1. Select **Case settings** in **Customer support**. The **Case settings** page appears.
 1. On the **Case settings** page, select **Manage** for **Case Management Agent**.
-2. On the **Case Management Agent** page, select **Autonomous case follow-up and closure**.
-3. On the page that appears, select **Turn on the case follow-up and closure automation**.
+1. On the **Case Management Agent** page, select **Autonomous case follow-up and closure (preview)**.
+1. On the page that appears, select **Turn on the case follow-up and closure automation**.
 1. Select **Add** to create a new rule for case follow-up and closure.
 1. In **Rules**, specify the following information. The AI agent evaluates the rules and when the conditions match, initiates the follow-up and closure process.
    - **Rule name**

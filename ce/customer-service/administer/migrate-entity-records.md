@@ -2,7 +2,7 @@
 title: Migrate data from legacy Service Scheduling using migration tool
 description: Migrate data from legacy Service scheduling to the new experience using a migration tool, ensuring dependencies are resolved and errors troubleshot effectively.
 ms.date: 04/09/2025
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -42,7 +42,7 @@ Follow these steps to migrate entity records from legacy scheduling experience t
     The tool considers all the Service activities that are scheduled to start and completed within the date range.
 
     > [!Note]
-    > - The migration tool doesn’t consider the records whose status is marked as Ignore. To learn more, see [Understand migration status](#understand-migration-summary-and-troubleshoot).
+    > - The migration tool doesn’t consider the records whose status is marked as Ignore. Learn more in [Understand migration status](#understand-migration-summary-and-troubleshoot).
     >
     > - If you create any records after you start the migration, the new entity records will not be fetched and migrated.
 

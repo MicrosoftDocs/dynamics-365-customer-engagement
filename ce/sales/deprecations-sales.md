@@ -2,7 +2,7 @@
 title: Removed or deprecated features in Dynamics 365 Sales
 description: Visit this page to see the deprecating features in Dynamics 365 Sales.
 ms.date: 01/09/2024
-ms.topic: article
+ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -24,7 +24,6 @@ The features that have been removed or deprecated in  Dynamics 365 Sales are lis
 ## Exchange integration for relationship intelligence
 
 Effective April 2025, the native Exchange integration for relationship intelligence is deprecated. If you want Dynamics 365 Sales to use emails and meetings from Exchange to generate insights, [enable server-side synchronization for Exchange](configure-email.md). Otherwise, insights are generated only using emails and data stored in Dynamics 365.
-
 
 ## Copilot for email in side pane
 

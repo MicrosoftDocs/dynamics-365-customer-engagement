@@ -1,7 +1,7 @@
 ---
 title: Manage phone numbers
 description: Use this article to understand how you can acquire new phone numbers, and also view, update, and release existing phone numbers in Dynamics 365 Contact Center.
-ms.date: 03/15/2025
+ms.date: 05/05/2025
 ms.custom: bap-template
 ms.topic: how-to
 author: gandhamm
@@ -32,7 +32,7 @@ As an administrator, you can purchase phone numbers and calling plans, decide wh
 
 ## View phone numbers
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Channels** in **Customer support**. The **Channels** page appears.
+1. In the site map of Copilot Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
 
    You see a list of all available phone numbers together with their carrier name, calling plan details, associated workstream, connection status, and other details.
 
@@ -47,9 +47,9 @@ As an administrator, you can purchase phone numbers and calling plans, decide wh
 
 You can purchase new phone numbers for your organization after you check for the prerequisites, install the voice channel, and successfully connect to an Azure Communication Services resource.
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Channels** in **Customer support**. The **Channels** page appears.
+1. In the site map of Copilot Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
 1. Select **Manage** for **Phone numbers**.
-1. On the **Phone numbers** page, select **New number**. The **Add phone number** dialog opens.
+1. On the **Phone numbers** page, select **Add ACS number**. The **Add phone number** dialog opens.
 1. On the **Features** page, do the following:
 
    a. Select **Country/Region** from the dropdown list. The list of available plans for the selected country or region appears.
@@ -118,7 +118,7 @@ You can also assign personal phone numbers to customer service representatives, 
 
 If you want to change the calling plan, or upgrade the calling or SMS plans on a particular number, you can do so by editing the phone number. For example, if you hadn't selected any SMS plans, you can upgrade to the **Send SMS** or **Send and receive SMS** plans; if you selected only the **Send SMS** option, you can now upgrade to the **Send and receive SMS** plans.
 
-1. In Customer Service admin center or Contact Center admin center, go to the **Phone numbers** page. The list of the available phone numbers for your business is displayed.
+1. In Copilot Service admin center, go to the **Phone numbers** page. The list of the available phone numbers for your business is displayed.
 1. Select a phone number and then select **Edit**. The **Edit phone number** dialog with the current plan type, calling plan, and SMS plan is displayed.
 1. Make any changes to your call or SMS plans, and select **Save and Close**.
 
@@ -136,7 +136,7 @@ If you no longer need a phone number, you can release it from your organization'
 > When you release a phone number, you actually delete it from Dynamics 365, so release a number only if you're sure that you don't need it at all.
 > To disconnect phone numbers from an Azure Communication Services resource, see [Disconnect from Azure Communication Services resource](voice-channel-disconnect-from-acs.md).
 
-1. In Customer Service admin center or Contact Center admin center, go to the **Phone numbers** page. The list of the available phone numbers for your business is displayed.
+1. In Copilot Service admin center, go to the **Phone numbers** page. The list of the available phone numbers for your business is displayed.
 2. Select a phone number and select **Release number**. The **Release number** dialog requesting you to confirm the number deletion is displayed.
 3. Select **OK** if you're sure you don't need the number. The phone number is removed from your organization and is no longer displayed in the **Phone numbers** list.
 

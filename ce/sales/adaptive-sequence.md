@@ -2,7 +2,7 @@
 title: Add condition steps to sequences
 description: Discover how to use adaptive sequences in sales accelerator to define condition steps that guide the path of a sequence.
 ms.date: 06/19/2024
-ms.topic: article
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
