@@ -102,6 +102,8 @@ To edit existing requirement details made with patterns, select the requirement 
    - **Distributed evenly**: The increase is split evenly among all contained details.
    - **Added to total**: The increase is added to the total length of all contained details. This new total is then evenly distributed among all contained details.
 
+1. Use the schedule assistant to book the requirement.
+
 ## Schedule a multi-day requirement to multiple resources
 
 1. From a multi-day resource requirement, go to **Related** > **Requirement Details** and select **Specify Pattern**. Edit and override the requirement details pattern created by the allocation method.
