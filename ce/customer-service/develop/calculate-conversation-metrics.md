@@ -790,3 +790,140 @@ Wrap-up conversations =    SUMX ( FactConversation, IF ( FactConversation[status
 ### Related metric
 
 - **Agents in wrap-up conversations**: Number of representatives handling conversations that are in wrap-up state.
+
+## Abandoned rate
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+The abandoned rate refers to the percentage of incoming conversation requests that are terminated before a representative engages with the customer. This can happen in both representative and AI agent scenarios. There are two primary types:​
+- Abandoned before assignment: The customer leaves before being assigned to any representative.​
+- Abandoned after assignment: The customer is assigned to a representative but disconnects before the representative accepts the conversation.
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+Abandon rate_FactConversation = ​
+
+var abandoned = CALCULATE(FactConversation[Incoming conversations_FactConversation], FactConversation[IsOffered], NOT FactConversation[IsAgentAccepted])​
+
+var source = FactConversation[Incoming conversations_FactConversation]​
+
+var rate = DIVIDE(abandoned, source, 0)​
+
+return​
+
+IF(ISBLANK(rate), 0, rate)​
+
+```
+
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), systemuser |
+|Attributes | - msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel​ <br> - msdyn_ocliveworkitem.msdyn_isoutbound​ <br> -  systemuser.msdyn_botapplicationid  |
+|Filters  | - Filter the FactConversations table to include only rows where, msdyn_channelinstanceid is NULL.​ <br>- Exclude rows where msdyn_channel is'192350000, which have atleast one [systemuser.msdyn_botapplicationid  != null ]​ <br> - Direction is defined by msdyn_isoutbound and not to set 1​​ |
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Conversations abandoned rate = ​
+
+DIVIDE(SUMX(FactConversation,IF(FactConversation[IsAbandoned] && NOT FactConversation[DirectionCode],1,0)),SUMX (FactConversation, IF ( NOT FactConversation[DirectionCode], 1, BLANK () )),BLANK ())
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem),  systemuser |
+|Attributes  | - msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_liveworkstream.msdyn_streamsource <br> - msdyn_ocliveworkitem.msdyn_isoutbound​ <br> - msdyn_ocliveworkitem.isagentsession​ <br> - msdyn_ocliveworkitem.msdyn_isabandoned​ <br> -  systemuser.msdyn_botapplicationid    |
+|Filters  | - Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL,​ msdyn_isabandoned is set to 1 and​  msdyn_isagentsession set to 1​. <br> - Direction is defined by msdyn_isoutbound and not set to 1​. <br> - Exclude rows where msdyn_streamsource is'192350000'​.​|
+
+## Average time to abandon (sec)
+
+*Applies to Omnichannel real-time dashboards.*
+
+This metric is used in contact center analytics to measure how long, on an average, a customer waits before abandoning a conversation, typically before being connected to a representative.​ This metric captures the average duration (in seconds).
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+**DAX query**
+
+```dax
+
+Avg. time to abandon (sec) = ​
+
+AVERAGEX (FactConversation, IF (FactConversation[IsAbandoned] && FactConversation[StatusCode] == 4 && NOT FactConversation[DirectionCode], DATEDIFF(FactConversation[FirstWaitStartedOn], FactConversation[ClosedOn], SECOND),BLANK ()))
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_liveworkstream |
+|Attributes  |-  msdyn_ocliveworkitem.msdyn_statuscode​ <br> - msdyn_liveworkstream.msdyn_isabandoned msdyn_ocliveworkitem.msdyn_isoutbound​ <br> - msdyn_ocliveworkitem.msdyn_firstwaitstartedon msdyn_ocliveworkitem.msdyn_closedon |
+|Filters  | - Filter the FactConversations table to include only rows where statuscode is 4,​ msdyn_isabandoned is set to 1​. <br> - Direction is defined by msdyn_isoutbound and not set to 1​. Avg. time to abandon (sec) is defined by date difference between msdyn_ocliveworkitem.msdyn_firstwaitstartedon and msdyn_ocliveworkitem.msdyn_closedon ​|
+
+## Average conversation active time
+
+*Applies to Omnichannel historical dashboards.*
+
+This metric measures the actual time spent by an agent actively handling a conversation, either through chat or voice, across all sessions. It excludes passive durations like hold time or inactive wrap-up time.​
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+**DAX query**
+
+```dax
+
+Avg. conversation active time (min) = CALCULATE(AVERAGE(FactConversation[ActiveTimeInSeconds]) / 60.00, FactConversation[StatusId] = "4", FactConversation[IsAgentAccepted]="1")
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_sessionparticipant |
+|Attributes  |-  msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel​ <br> - msdyn_ocliveworkitem.statuscode​ <br> - msdyn_sessionparticipant.msdyn_joinedon |
+|Filters  | - Filter the FactConversations table to include only rows where Ensure that msdyn_channelinstanceid is NULL.​ <br> - Exclude rows where msdyn_channel is'192350000’ . <br> - Include msdyn_ocliveworkitem.statuscode set to 4​. <br> - ActiveTimeInMinutes is calculated by msdyn_sessionparticipant.msdyn_joinedon set 1​. ​|
+
+## Average conversation inactive time (min)
+
+*Applies to Omnichannel historical dashboards.*
+
+The metric refers to the average amount of time during a conversation when an agent is not actively engaged with the customer. This is especially relevant in chat and digital messaging channels, where agents often handle multiple sessions concurrently.​ Inactive time is the duration when a conversation is open but the agent is not focused on it—either because they’ve switched to another session or are not interacting with the customer. 
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+**DAX query**
+
+```dax
+
+Avg. conversation inactive time (min) = CALCULATE(AVERAGE(FactConversation[InActiveTimeInSeconds]) / 60.00, FactConversation[StatusId] = "4", FactConversation[IsAgentAccepted]="1")
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_sessionparticipant |
+|Attributes  |-  msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel​ <br> - msdyn_ocliveworkitem.msdyn_statuscode​ <br> - msdyn_sessionparticipant.msdyn_joinedon​ <br> - msdyn_sessionparticipant.msdyn_inactivetime|
+|Filters  | - Filter the FactConversations table to include only rows where Ensure that msdyn_channelinstanceid is NULL.​ <br> - Exclude rows where msdyn_channel is'192350000’ . <br> -  Include msdyn_ocliveworkitem.statuscode set to 4​. <br> - InactiveTimeInSeconds is calculated by​ msdyn_sessionparticipant.msdyn_inactivetime and​ isAgentAccepted set to 1 or msdyn_sessionparticipant.msdyn_joinedon​. ​|
+
+## Average first response time
+
+
+
+
