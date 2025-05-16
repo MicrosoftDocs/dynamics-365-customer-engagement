@@ -1,7 +1,7 @@
 ---
 title: Configure file attachment capability for a chat widget
 description: Learn how to configure file attachments for a chat widget in Omnichannel for Customer Service.
-ms.date: 03/03/2025
+ms.date: 04/24/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -23,7 +23,7 @@ If one representative transfers the chat to another, the representative who rece
 > [!NOTE]
 > In Unified Service Desk, if you sign in as a representative and want to attach a file while conversing with a customer, ensure that you select the required file type first and then attach the required file.
 
-1. Sign in to Customer Service admin center or Contact Center admin center.
+1. Sign in to Copilot Service admin center.
 
 1. In Customer support, go to **Channels** > **Chat**.
 
@@ -82,7 +82,7 @@ If a customer tries to attach an unsupported file type, a file larger than the a
 [Enable file attachments](enable-file-attachments.md) </br>
 [Add a chat widget](add-chat-widget.md) <br>
 [Configure a prechat survey](configure-pre-chat-survey.md) <br>
-[Configure agent display name](agent-display-name.md)<br>
+[Configure representative display name](agent-display-name.md)<br>
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>
 [Create chat authentication settings](create-chat-auth-settings.md) <br>

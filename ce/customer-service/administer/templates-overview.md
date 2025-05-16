@@ -4,7 +4,7 @@ description: Learn about templates and how to configure and use them in your con
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 07/01/2024
+ms.date: 04/30/2025
 ms.topic: overview
 
 ---
@@ -13,7 +13,7 @@ ms.topic: overview
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-When you (an agent) get an incoming conversation request, the system searches and opens the records like case, contact, or account. However, your organization might have different requirements and want to use different custom entities and correlate to a conversation.
+When you (a customer service representative) get an incoming conversation request, the system searches and opens the records like case, contact, or account. However, your organization might have different requirements and want to use different custom entities and correlate to a conversation.
 
 Also, Omnichannel for Customer Service allows you to open third-party web applications in the application tabs. Your organization might have different line-of-business applications, and while starting a session, you might want to load the line-of-business applications for a specific conversation type.
 

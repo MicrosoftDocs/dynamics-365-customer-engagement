@@ -1,17 +1,16 @@
 ---
-title: "Migrate unified routing data for the voice channel | MicrosoftDocs"
-description: "Learn to migrate the voice channel data from source to target environments in Omnichannel for Customer Service."
-ms.date: 07/01/2024
-ms.topic: Upgrade-and-migration-article
-author: mgandham
-ms.author: nenellim
+title: Migrate unified routing data for the voice channel
+description: Learn to migrate the voice channel data from source to target environments in Omnichannel for Customer Service.
+ms.date: 05/14/2025
+ms.topic: upgrade-and-migration-article
+author: gandhamm
+ms.author: mgandham
 ms.reviewer: nenellim
 ---
 
 # Migrate data for the voice channel
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
-
 
 Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for the voice channel.
 

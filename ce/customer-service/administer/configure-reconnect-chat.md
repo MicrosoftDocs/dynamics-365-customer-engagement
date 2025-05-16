@@ -1,7 +1,7 @@
 ---
 title: Configure reconnection to a chat session
 description: Learn about configuring reconnection to previous chat sessions in Omnichannel for Customer Service.
-ms.date: 02/05/2025
+ms.date: 04/24/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -45,7 +45,7 @@ You can optionally configure a redirection link for the customer to navigate to 
 
 You can enable the reconnection options in the chat widget either while setting up the chat widget for the first time, or later, based on your needs.
 
-1. In the site map of Customer Service admin center, select **Workstreams** in **Customer support**.
+1. In the site map of Copilot Service admin center, select **Workstreams** in **Customer support**.
 
 1. On the **Workstreams** page, select the workstream.
 

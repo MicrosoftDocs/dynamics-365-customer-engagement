@@ -1,10 +1,10 @@
 ---
-title: "Configure channel providers for your Dynamics 365 organization | MicrosoftDocs"
-description: "Use this article to understand how to configure channel providers in Dynamics 365 Channel Integration Framework 1.0."
+title: Configure channel providers for your Dynamics 365 organization 
+description: Use this article to understand how to configure channel providers in Dynamics 365 Channel Integration Framework 1.0.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 03/29/2024
+ms.date: 05/15/2025
 ms.topic: how-to
 ms.custom: 
   - "dyn365-a11y"
@@ -37,11 +37,11 @@ searchScope:
   |Enable Outbound Communication|When a phone number is selected on the Dynamics 365 Unified Interface page, the widget initiates the call or outbound communication.|
   |Channel Order|The order of precedence of the channel providers.|
   |API Version|The version of the Channel Integration Framework APIs.|
-  |Trusted Domain| An other domain if the initial landing URL and the final domain from which the communication widget is hosted are different. Add the domain (URL) to access the Channel Integration Framework APIs. |
+  |Trusted Domain| Another domain if the initial landing URL and the final domain from which the communication widget is hosted are different. Add the domain (URL) to access the Channel Integration Framework APIs. |
   |Select Unified Interface Apps for the Channel| The list of Unified Interface apps where the channel is displayed for the agents. |
   |Select the Roles for the Channel|The security roles that are present in Dynamics 365.<br>**IMPORTANT:** <br> To ensure that the user is able to access the channel provider, you must assign the same security role that's defined at the channel provider level, to the user.<br>**NOTE:** <br>  The channel supports individual role assignment only.|
   |Custom Parameter|This takes a text blob as input and `Microsoft.CIFramework.getEnvironment` returns this as value of key `customParams`.|
-  |Sandbox Configuration| Channel URL loads as an iFrame web resource in the sandbox mode. Use this field to configure the list of sandbox attributes for the Channel URL. You can add multiple attributes seperated by commas.|
+  |Sandbox Configuration| Channel URL loads as an iFrame web resource in the sandbox mode. Use this field to configure the list of sandbox attributes for the Channel URL. You can add multiple attributes separated by commas.|
   
   ![Channel provider configuration.](../../media/channel-provider-configuration-v1.PNG "Channel provider configuration")
 

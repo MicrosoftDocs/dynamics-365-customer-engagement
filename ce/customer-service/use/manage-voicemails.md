@@ -20,7 +20,7 @@ As a service representative, you can access the voicemails recorded by customers
 
 You can view the voicemails in one of the following ways:
 
-- On the **Customer Service Agent Dashboard**, in **My Open Activities**, select the vertical ellipses, and then select **Other Activities** > **Voicemail**.
+- On the **Customer Service Representative Dashboard**, in **My Open Activities**, select the vertical ellipses, and then select **Other Activities** > **Voicemail**.
 - On the **Omnichannel Agent Dashboard**, in **Open work items**, select the vertical ellipses for your number, and then select **Assign to me**.
 - If an inbox is configured for you, you can view the assigned and unassigned voicemails. Go to your inbox, and select **Assigned voicemails**, and then select the voicemail that you want to hear. If you access an unassigned voicemail and then close it, you won't be able to access it again.
 
@@ -44,7 +44,7 @@ You can do the following tasks for the voicemail that you open:
 
   Creates a case from a voicemail in open state. The application displays the case form and enables you to specify the relevant details required to create a case. You can see the case in the **Regarding** field. The state of the voicemail doesn't change when you create a case. The voicemail remains in the open state until you close it. If you create more than one case from the same voicemail, only the latest case is shown.<br>
 
-- **Call Recording**: Select the tab to view the original voice call recording that preceded the voicemail. If the call goes straight to voicemail and the customer didn't talk to a bot, a recording or transcript won't be available on this tab.  Additionally, if your voice workstream was set to  have transcription only and the customer talked to a bot, you won't see a call recording here, only the transcript will be available.
+- **Call Recording**: Select the tab to view the original voice call recording that preceded the voicemail. If the call goes straight to voicemail and the customer didn't talk to an agent, a recording or transcript won't be available on this tab.  Additionally, if your voice workstream was set to  have transcription only and the customer talked to an agent, you won't see a call recording here, only the transcript will be available.
 - **Download audio**: Select to download the voicemail.
 - **Share**: Select to email or copy the link to the voicemail. You can also manage the user access to the voicemail.
 
