@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-With the missed notifications feature, you can choose to automatically set agent presence to inactive, so that no new tasks are assigned when customer service representatives (service representatives or representatives) miss notifications for incoming chat requests. In addition to the status change, a message bar indicating that a notification has been missed will be displayed on the Customer Service Representative dashboard. Representatives can reset their status by using the reset presence option displayed with the notification or by manually changing their status.
+With the missed notifications feature, you can choose to automatically set agent presence to inactive, so that no new tasks are assigned when customer service representatives (service representatives or representatives) miss notifications for incoming chat requests. In addition to the status change, a message bar indicating that a notification was missed is displayed on the Customer Service Representative dashboard. Representatives can reset their status by using the reset presence option displayed with the notification or by manually changing their status.
 
 > [!IMPORTANT]
 > 
