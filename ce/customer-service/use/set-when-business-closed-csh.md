@@ -1,7 +1,7 @@
 ---
 title: Set business closures
 description: Learn how to set business closures in Dynamics 365 Customer Service
-ms.date: 12/05/2023
+ms.date: 05/16/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
