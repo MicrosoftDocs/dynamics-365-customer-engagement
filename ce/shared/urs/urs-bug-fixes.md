@@ -28,7 +28,7 @@ For information about older versions, see [Version history archive](../../field-
 
 - Fixed a bug where booking templates were not working for None type entities
 - Fixed a bug where requirement groups were reverting to UTC when using the Book button
-- Fixed a bug that was causing the schedule board to crash when quickly right clicking on new  bookings for some users
+- Fixed a bug that was causing the schedule board to crash when quickly right-clicking on new bookings for some users
   
 ## 3.12.150.423
 
