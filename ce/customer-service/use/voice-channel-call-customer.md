@@ -69,12 +69,19 @@ To test your microphone and speaker, do the following steps:
 3. Select **Call**. 
 
    > [!NOTE]
-   > If you aren't assigned an outbound profile, you won't be able to make a call.
+   > - If you aren't assigned an outbound profile, you won't be able to make a call.
+   > - You can initiate multiple calls at the same time.
 
     :::image type="content" source="../media/outbound-dialer.png" alt-text="Outbound dialer for voice calls.":::
 
-   When the call connects, you see the customer details on the conversation page. Based on your outbound calling profile, the transcription and recording starts. If your capacity profile has a limit of one outbound call at a time, you can't make another call when a call is in progress.
 
+The outbound dialer pane displays the following information:
+
+- A widget appears with the message, Communication panel loading, and the call has started.
+- When the call connects, you see the customer details on the conversation page. The widget displays the call status, and the **Mute** and **End call** call controls.
+- The call controls you select on the widget, reflect on the ongoing call in Communication panel. For example, if you select **Mute** on the widget, the call is muted in the Communication panel.
+- You can view all the active calls, inbound and outbound, on the widget.
+- If you have multiple active calls, the calls are displayed.
    > [!NOTE]
    > If you need more trial minutes or phone numbers, we recommend that you raise a request with Microsoft Support.
 
