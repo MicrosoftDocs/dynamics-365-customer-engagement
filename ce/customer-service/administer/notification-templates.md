@@ -4,7 +4,7 @@ description: Manage notification settings and templates for optimal functioning 
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 04/14/2025
+ms.date: 05/19/2025
 ms.topic: how-to
 ms.custom:
   - ai-gen-docs-bap
@@ -131,7 +131,7 @@ The out-of-the-box templates are as follows.
 ### Create a notification template
 
 1. In the site map of Copilot Service admin center, select **Workspaces** in **Support experience**.
-1. On the **Workspaces** page, select **Manage** for **Notification templates**.
+1. On the **Workspaces** page, select **Manage** for **Notifications**.
 1. On the **Templates** tab, select **New Notification Template** in the **Active Notifications Templates** area.
 
 1. Specify the following in the **New Notification** page.
@@ -141,8 +141,8 @@ The out-of-the-box templates are as follows.
     | General | Name | Specify the name for the notification. This name wouldn't be visible for the representatives at the run-time. | Authenticated chat notification |
     | General | Title | Provide a title to the notification that you want the representatives to see at the run-time. | Incoming chat  conversation |
     | General | Icon | Select web resource path to add an icon. | /webresources/msdyn_chat_icon_zfp.svg <br><br> **Note:** <br>- This is the default value. You can change the icon as your requirement. <br> - If you enable the **Show desktop notifications** option, and if you use svg icon format, then the svg icon won't be shown in the desktop notifications.  |
-    | General |Show timeout| Yes |Set **Yes** to show the timer in the notification, or **No** to hide the timer in the notification for the representatives. <br><br> **Note:** <br> - Irrespective of whether you set **Yes** or **No** to show or to hide the timeout value for the representative, the timer runs, and after the timeout duration, the notification disappears. <br> - **Yes** is the default value for the templates when you get the latest release of Omnichannel for Customer Service. <br> - When you upgrade from previous to the latest release of Omnichannel for Customer Service, then existing notification templates will show no value for this field in the user interface. However, the notification templates consider the values as **Yes**, and display the timer to the users at the runtime.<br> - If you enable the **Show desktop notifications** option, then the timer won't be shown in the desktop notifications. |
-    | General | Countdown (seconds) |Provide a duration in seconds; after this duration elapses, the notification disappears. | 120. <br><br> **Note:** This is the default value. You can change the duration as per your requirement.|
+    | General |Show Countdown| Yes |Set **Yes** to show the timer in the notification, or **No** to hide the timer in the notification for the representatives. <br><br> **Note:** <br> - Irrespective of whether you set **Yes** or **No** to show or to hide the timeout value for the representative, the timer runs, and after the timeout duration, the notification disappears. <br> - **Yes** is the default value for the templates when you get the latest release of Omnichannel for Customer Service. <br> - When you upgrade from previous to the latest release of Omnichannel for Customer Service, then existing notification templates will show no value for this field in the user interface. However, the notification templates consider the values as **Yes**, and display the timer to the users at the runtime.<br> - If you enable the **Show desktop notifications** option, then the timer won't be shown in the desktop notifications. |
+    | General | Countdown (seconds) |Provide a duration in seconds; after this duration elapses, the notification disappears. | 120. <br><br> **Note:** This is the default value. You can change the duration as per your requirement. If the countdown setting is less than 5 seconds, the desktop notification does not appear.|
    | General|Autoassign work items| Set to **Yes** to automatically assign the incoming conversation.| The default value is **No**. <br> **Note:** This setting is in preview. <br> More information: [Enable automatic acceptance of conversations](enable-auto-assign-conversations.md).|
    | General|Autoaccept voice/chat calls | This option is displayed only if **Auto-assign work items** is enabled. Set to **Yes** for a representative to automatically accept a conversation.| The default value is **No**. <br> **Note:** This setting is in preview. <br> More information: [Enable automatic acceptance of conversations](enable-auto-assign-conversations.md).|
    | General | Accept Button | Specify a text for the accept button. This text appears for the representatives to accept a conversation request. | The default value is **Accept** that changes to **Open** when the **Auto-assign work items** value is **Yes**. You can change the text as per your requirement. |
