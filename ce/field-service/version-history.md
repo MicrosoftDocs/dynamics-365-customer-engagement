@@ -34,13 +34,13 @@ For information about older versions, see [Version history archive](version-hist
 ## 8.8.134.558
 This release is a hotfix on Field Service version [8.8.134.552](/dynamics365/field-service/version-history#88134552)
 
-(Includes Universal Resource Scheduling version [3.12.150.423](/dynamics365/field-service/field-service-version-history-resource-scheduling#312150423) and Resource Scheduling controls version 1.2.89.251331)
+(Includes Universal Resource Scheduling version [3.12.150.423](/dynamics365/field-service/field-service-version-history-resource-scheduling#312150423-hotfix2) and Resource Scheduling controls version 1.2.89.251331)
 - No updates were made to Dynamics 365 Field Service in this release.
 
 ## 8.8.134.552
 This release is a hotfix on Field Service version [8.8.134.351](/dynamics365/field-service/version-history#88134351)
 
-(Includes Universal Resource Scheduling version [3.12.150.423](/dynamics365/field-service/field-service-version-history-resource-scheduling#312150423) and Resource Scheduling controls version 1.2.89.251132)
+(Includes Universal Resource Scheduling version [3.12.150.423](/dynamics365/field-service/field-service-version-history-resource-scheduling#312150423-hotfix1) and Resource Scheduling controls version 1.2.89.251132)
 - No updates were made to Dynamics 365 Field Service in this release.
 
 ## 8.8.134.351
