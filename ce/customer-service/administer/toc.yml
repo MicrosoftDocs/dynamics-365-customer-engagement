@@ -52,7 +52,7 @@
           href: manage-overflow.md
       - name: Set up record routing
         items:
-        - name: Provision unified routing for Customer Service
+        - name: Enable unified routing for Customer Service
           href: provision-unified-routing.md
         - name: Set up unified routing for records
           href: set-up-record-routing.md
