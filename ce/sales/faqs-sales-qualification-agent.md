@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ for the Sales Qualification Agent
 description: Get answers to frequently asked questions about the use of AI in the Sales Qualification Agent in Dynamics 365 Sales.
-ms.date: 10/14/2024
+ms.date: 05/20/2025
 ms.custom:
   - responsible-ai-faqs
   - ai-gen-docs-bap
