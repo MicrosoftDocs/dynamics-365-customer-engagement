@@ -27,6 +27,7 @@ The Sales Qualification Agent in Dynamics 365 Sales researches your leads, offer
 
 Before you can use the Sales Qualification Agent, your admin must [set it up](./configure-sales-qualification-agent.md) for you and your sales team.
 
+<a name="selection-criteria-for-research"></a>
 ## Selection criteria for initial research
 
 After the Sales Qualification Agent is set up, it automatically researches leads that are:
