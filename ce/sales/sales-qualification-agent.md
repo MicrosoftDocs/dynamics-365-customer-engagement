@@ -39,7 +39,7 @@ The Sales Qualification Agent helps you focus on the most promising leads and im
 
 ## Set up and use the agent
 
-Depending on your role, use the following links to configure and use the Sales qualification agent:
+Depending on your role, use the following links to configure and use the Sales Qualification Agent:
 
 | Role | Action |
 |------|--------|
