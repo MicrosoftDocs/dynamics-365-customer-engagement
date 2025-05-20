@@ -4,7 +4,7 @@ description: Manage notification settings and templates for optimal functioning 
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 05/19/2025
+ms.date: 05/20/2025
 ms.topic: how-to
 ms.custom:
   - ai-gen-docs-bap
