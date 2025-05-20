@@ -1,7 +1,7 @@
 ---
 title: Configure payment profiles
 description: Learn how to configure payment profiles in Omnichannel for Customer Service.
-ms.date: 05/15/2025
+ms.date: 05/20/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
