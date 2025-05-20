@@ -12,7 +12,7 @@ For information about older versions, see [Version history archive](../../field-
 |**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania, Singapore* | [3.12.150.423](/dynamics365/field-service/field-service-version-history-resource-scheduling#31250423) |  TBD | 06/13/2025 |
 | | *USG* | [3.12.150.423](/dynamics365/field-service/field-service-version-history-resource-scheduling#31250423) |  TBD | 06/04/2025 |
 |**Station 4** |*Europe* |  [3.12.150.423](/dynamics365/field-service/field-service-version-history-resource-scheduling#31250423) |  TBD | 06/20/2025 |
-|**Station 5** |  *North America*| [3.12.150.423](/dynamics365/field-service/field-service-version-history-resource-scheduling#31250423) |  TBD  | 06/27/2025 |
+|**Station 5** |  *North America*| [3.12.149.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214915) |  [3.12.150.423](/dynamics365/field-service/field-service-version-history-resource-scheduling#31250423)  | 05/23/2025 |
 |**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.149.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214915) | TBD | 06/25/2025 |
 |**Station 6** | *Dedicated Scale Groups* |  [3.12.149.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214915) | [3.12.150.423](/dynamics365/field-service/field-service-version-history-resource-scheduling#31250423) | 05/23/2025 |
 >[!NOTE]
@@ -20,7 +20,17 @@ For information about older versions, see [Version history archive](../../field-
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
-## 3.12.150.423
+## 3.12.150.423 (Hotfix2)
+
+**Resource Scheduling Controls:** 1.2.89.251331
+
+**Dataverse:** 4.0.140.423
+
+- Fixed a bug where booking templates were not working for None type entities
+- Fixed a bug where requirement groups were reverting to UTC when using the Book button
+- Fixed a bug that was causing the schedule board to crash when quickly right-clicking on new bookings for some users
+  
+## 3.12.150.423 (Hotfix1)
 
 **Resource Scheduling Controls:** 1.2.89.251132
 
