@@ -18,6 +18,8 @@ ms.custom: bap-template
 
 Direct callback enables customers to request a callback as soon as a customer service representative (service representative or representative) is available instead of waiting on the call. You can configure the direct callback option at the queue level by using the overflow action "direct callback" for a specific queue condition. After the call reaches the number one position in the queue, the direct callback work item is assigned to the next available representative through a notification just like any regular work item that's waiting in queue. Except that the notification identifies the work item as a callback versus a regular inbound call. After the representative accepts the work item, a callback to the customer who requested a direct callback is automatically initiated and connected to the representative. In summary, direct callback helps provide better customer experiences by avoiding waiting in queue and helps administrators staff queues more efficiently to handle peak volume periods.
 
+You can also use the `CCaaS_CreateProactiveVoiceDelivery ` API in the Proactive Engagement solution to schedule callbacks from various platforms including web, mobile applications, voice and chat agents. Learn more in [schedule callbacks from any platform](/dynamics365/contact-center/extend/api/ccaas_createproactivevoicedelivery#schedule-callbacks-from-any-platform)
+
 ## Prerequisites for direct callback
 
 The following prerequisites must be met:
@@ -59,10 +61,6 @@ The direct callback is triggered by the queue overflow conditions where the corr
 1. The call ends for the customer but the work item remains in the queue.
 1. When the work item reaches the position 1, a voice callback is initiated automatically.
 1. The callback is of the type preview dialing, in which the representative has to accept the callback using a callback-specific notification before the call is dialed.
-
-## Use CCaaS_CreateProactiveVoiceDelivery to schedule callbacks 
-
-You can use `CCaaS_CreateProactiveVoiceDelivery ` API in the Proactive Engagement solution to schedule callbacks from various platforms including web, mobile applications, voice and chat agents. Learn more in [schedule callbacks from any platform](/dynamics365/contact-center/extend/api/ccaas_createproactivevoicedelivery#schedule-callbacks-from-any-platform)
 
 ## Next steps
 
