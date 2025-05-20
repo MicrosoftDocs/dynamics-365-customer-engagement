@@ -1,7 +1,7 @@
 ---
 title: Add facilities and equipment | Microsoft Docs
 description: How to add facilities and equipment in Unified Interface-based Scheduling Service for Dynamics 365 Customer Service.
-ms.date: 05/15/2025
+ms.date: 05/20/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
