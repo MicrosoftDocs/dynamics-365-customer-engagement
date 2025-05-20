@@ -4,12 +4,7 @@ description: Learn how to activate and set up the Sales Qualification Agent in D
 ms.date: 05/20/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
-ms.custom:
-  - ai-gen-docs-bap
-  - ai-gen-desc
-  - ai-seo-date:10/04/2023
-  - bap-template
-  - ai-gen-description
+ms.custom: bap-template
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -28,7 +23,9 @@ As an admin, you need to set up the Sales Qualification Agent before your seller
 
 ## Prerequisites
 
-- A tenant admin granted consent for the agent to use Bing search and Copilot Studio and assigned sufficient capacity to run the agent.
+Ensure that the following prerequisites are met: 
+
+- Your tenant admin has granted consent for the agent to use Bing search and Copilot Studio and assigned sufficient capacity to run the agent.
   Consent settings are available in the **General Settings** > **Copilot** > **Agents (Preview)** page in the Sales Hub app settings.
 
     The agent uses the same capacity as other Copilot features in Copilot Studio. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
@@ -39,7 +36,7 @@ As an admin, you need to set up the Sales Qualification Agent before your seller
 
 - You turned on the modern UI for the Sales Hub app. Learn more in [Enabling the modern look for my app and removing the toggle](/power-apps/user/modern-fluent-design#enabling-the-modern-look-for-my-app-and-removing-the-toggle).
 
-- (Optional but recommended) Turn on Copilot in Dynamics 365 Sales to allow your sellers to get a 360-degree view of the lead and their company. Learn more in [Turn on and set up Copilot in Dynamics 365 Sales](enable-setup-copilot.md) and [Get information from Copilot](copilot-get-information.md).
+- (Optional but recommended) You turned on Copilot in Dynamics 365 Sales to allow your sellers to get a 360-degree view of the lead and their company. Learn more in [Turn on and set up Copilot in Dynamics 365 Sales](enable-setup-copilot.md) and [Get information from Copilot](copilot-get-information.md).
 
 ## Before you begin
 
@@ -51,7 +48,8 @@ Determine the products that you want the Sales Qualification Agent to help with 
 
 To ensure accurate insights and optimal capacity usage, create a security role&mdash;or use an existing one&mdash;that includes *only* the sellers who are responsible for the products you're configuring the agent for. Learn more in [Create or edit a security role to manage access](/power-platform/admin/create-edit-security-role).
 
-Avoid assigning security roles that include sellers who handle other products. It might lead to incorrect insights and unnecessary consumption of Copilot Studio capacity.
+> [!IMPORTANT]
+> Avoid assigning security roles that include sellers who handle other products. It might lead to incorrect insights and unnecessary consumption of Copilot Studio capacity.
 
 Grant **User**-level permissions for *read*, *write*, *create*, *append*, *append to*, and *assign* to the following entities:
 
@@ -79,7 +77,7 @@ Grant **User**-level permissions for *read*, *write*, *create*, *append*, *appen
    |---|---|---|
    | Team access | Select the [seller security role](#grant-permissions) that you created or identified earlier. Also select the system administrator role if the admin needs to view the agent's insights. | ContosoSalesTeam, System Administrator |
    | Company knowledge | Enter your company's name and website URL. | Contoso Ltd.; `https://www.contoso.com` |
-   | Value proposition of your offering | Describe the products or product line that the sellers in the **Team access** list handle. | A cloud-based CRM solution that helps businesses streamline sales processes, improve customer relationships, and drive revenue growth. Our platform includes features such as lead management, opportunity tracking, email integration, and analytics. |
+   | Value proposition of your offering | Describe the products or product line that the sellers in the **Team access** list handle, in natural language. | A cloud-based CRM solution that helps businesses streamline sales processes, improve customer relationships, and drive revenue growth. Our platform includes features such as lead management, opportunity tracking, email integration, and analytics. |
 
 1. In the **Data** section, **Refresh options** is set to **Medium** by default, which is ideal for most businesses. You can refresh the research data more or less often based on your business needs and available capacity.
 
@@ -113,7 +111,7 @@ The agent uses the capacity assigned to your tenant to process leads and generat
 
 Use custom criteria to define characteristics that are important for your ideal customer profile. You can map your criteria to custom fields in Dataverse or add public URLs that provide the relevant information. For example, you could add a custom criterion for "Environmental Sustainability Initiatives" and map it to a custom field in Dataverse or provide a URL that lists the company's key environmental initiatives.
 
-1. On the [Sales Qualification Agent settings page](#set-up-and-activate-the-agent), scroll down to **Qualification** > **Ideal customer profile**.
+1. On the [Sales qualification agent settings page](#set-up-and-activate-the-agent), scroll down to **Qualification** > **Ideal customer profile**.
 
 1. Select **Add custom criterion**.  
     :::image type="content" source="media/sqa-ideal-customer-profile-custom-criterion.png" alt-text="Screenshot of adding custom criterion to ideal customer profile configuration.":::

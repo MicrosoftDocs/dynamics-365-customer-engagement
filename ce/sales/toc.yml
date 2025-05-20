@@ -287,7 +287,7 @@ items:
           items:
             - name: Overview
               href: sales-qualification-agent.md
-            - name: Configure Sales Qualification Agent
+            - name: Set up the Sales Qualification Agent
               href: configure-sales-qualification-agent.md
             - name: Manage consumption-based billing
               href: copilot-consumption-based-billing.md

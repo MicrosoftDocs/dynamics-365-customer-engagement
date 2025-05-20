@@ -2,12 +2,7 @@
 title: Responsible AI FAQ for the Sales Qualification Agent
 description: Get answers to frequently asked questions about the use of AI in the Sales Qualification Agent in Dynamics 365 Sales.
 ms.date: 05/20/2025
-ms.custom:
-  - responsible-ai-faqs
-  - ai-gen-docs-bap
-  - ai-gen-desc
-  - ai-seo-date:10/03/2023
-  - bap-template
+ms.custom: bap-template
 ms.topic: faq
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
@@ -38,7 +33,7 @@ When sellers choose to send an initial outreach email to a lead, the agent draft
 
 The Sales Qualification Agent is designed to help sellers automate manual aspects of lead qualification so that they can invest more time in one-on-one interactions with top leads. The agent is intended to be used as a productivity tool to help sellers qualify leads faster and more effectively. It's not intended to replace the seller's judgment or decision-making process.
 
-- **Configuration**: Admins can configure the agent to work for specific security roles. The security roles can include sellers who sell specific products or services and target an ideal customer. Admins can also configure the attributes of the ideal customer to determine a lead's fit. ```
+- **Configuration**: Admins can configure the agent to work for specific security roles. The security roles can include sellers who sell specific products or services and target an ideal customer. Admins can also configure the attributes of the ideal customer to determine a lead's fit. 
 
 - **Research**: For each lead, sellers can access the **Lead insights** page that synthesizes insights about a lead and their company from data in Dataverse and public web sources.
 

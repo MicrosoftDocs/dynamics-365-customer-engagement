@@ -6,12 +6,7 @@ ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
   - AI-contribution
-ms.custom:
-  - ai-gen-docs-bap
-  - ai-gen-desc
-  - ai-seo-date:10/04/2023
-  - bap-template
-  - ai-gen-description
+ms.custom: bap-template
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

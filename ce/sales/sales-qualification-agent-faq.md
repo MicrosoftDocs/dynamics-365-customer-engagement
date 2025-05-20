@@ -6,12 +6,7 @@ ms.topic: faq
 ms.service: dynamics-365-sales
 content_well_notification:
   - AI-contribution
-ms.custom:
-  - ai-gen-docs-bap
-  - ai-gen-desc
-  - ai-seo-date:10/04/2023
-  - bap-template
-  - ai-gen-description
+ms.custom: bap-template
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -47,7 +42,7 @@ For instance, if your company sells software solutions for retail businesses, yo
 |------------------------------|---------------------------------------------------------------------------------------------|
 | Industries targeted          | Retail companies, including department stores, specialty retailers, e-commerce platforms, quick commerce, and grocery chains |
 | Size of the customer         | 1000 to 50000+ employees                                                                  |
-| Job Title of the lead | Procurement decision makers in retail the industry or C-Suite executives |
+| Job Title of the lead | Procurement decision makers in retail industry or C-Suite executives |
 | Annual revenue range         | $100 million to $10 billion+                                                               |
 | Location of target customers | Urban and suburban areas in North America with high consumer traffic, except New York |
 
@@ -73,14 +68,15 @@ The agent might pause for the following reasons:
 - An admin revoked one or more consents the agent needs to run.
 - No capacity is available for the agent to process leads. Ask your admin to check the capacity and resolve the issue.
 
+<a name="trigger-events"></a>
 ## Can I trigger the agent to process leads manually?
 
 No. The agent processes leads automatically when any of the following events occur:
 
+- A lead is created.
 - The lead's account is linked or updated.
 - The lead's company name is updated.
 - The lead's contact information is linked or updated.
-- A lead is created.
 
 The agent refreshes the research data of existing leads on a schedule that your admin sets. Learn more in [Set up and activate the agent](configure-sales-qualification-agent.md#set-up-and-activate-the-agent). The timestamp on the **Lead insights** page shows the last refresh date.
 
