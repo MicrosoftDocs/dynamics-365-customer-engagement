@@ -1,4 +1,4 @@
-Universal Resource Scheduling (URS) enables organizations to schedule interactions between customers and company resources. For scenarios where the customer is expected to travel to the company's location, the facility scheduling feature can coordinate physical spaces and related resources.
+Universal Resource Scheduling (URS) allows organizations to schedule interactions between customers and company resources. For scenarios where the customer is expected to travel to the company's location, the facility scheduling feature coordinates physical spaces and related resources.
 
 Typical examples include:
 
@@ -100,7 +100,7 @@ An auto repair shop has five identical bays and schedulers don't need to book ea
 
 1. [Create a facility resource](#create-a-facility-resource). On the **Work Hours** tab, enable **Capacity** and set it to 5. For more information on capacity, go to [Add work hours](../../field-service/set-up-bookable-resources.md#add-work-hours).
 
-1. [Create requirements](#create-a-requirement-for-a-facility).
+1. [Create a requirement for the facility](#create-a-requirement-for-a-facility).
 
 1. Book the requirements at the facility. The facility resource shows as available and can be double-booked up to the capacity limit (in this case, five times).
 
@@ -124,7 +124,7 @@ An auto repair shop offers transmission repairs including luxury cars. They have
    - Select **New Bookable Resource Association**.
    - Enter a name, timeframe, and select the mechanic resource for **Resource 1**.
 
-   :::image type="content" source="../../field-service/media/scheduling-facility-associate-resource.png" alt-text="Screenshot the association between the mechanic resource and facility resource.":::
+   :::image type="content" source="../../field-service/media/scheduling-facility-associate-resource.png" alt-text="Screenshot of the association between the mechanic resource and facility resource.":::
 
 1. [Create a requirement group](#create-a-requirement-for-a-facility) with one requirement for the facility (auto repair shop) and another requirement for the mechanic resource.
 
@@ -219,7 +219,7 @@ An auto repair shop wants to schedule specific bays at their facility to a pool 
    - Create a requirement for each bay.
    - Create a requirement for the pool of mechanics. Set the **Resource Type** to **Pool** and **Pool Type** to **Contact**, **User**, or **Account** depending on how you set up your mechanics.
 
-   :::image type="content" source="../../field-service/media/scheduling-facility-mechanic-pool-req-group.png" alt-text="Screenshot of requirement group showing 2 bays and a pool of mechanics.":::
+   :::image type="content" source="../../field-service/media/scheduling-facility-mechanic-pool-req-group.png" alt-text="Screenshot of requirement group showing two bays and a pool of mechanics.":::
 
      > [!TIP]
      > If you want specific mechanics to show in the results rather than the pool, set the **Resource Type** to **Contact**, **User**, or **Account** depending on how you set up your mechanics.
@@ -251,6 +251,6 @@ The location for a facility pool is taken from the parent organizational unit. I
 
 When a team is selected and booked, the latitude and longitude of the booked facility/facility pool's location is stored on the booking record. The work location is set based on the work location used when booking in the schedule assistant. In the following conditions, the work location, latitude, and longitude are set on the booking:
 
-- If bookings are created without using the schedule assistant
-- If the requirement's work location is set to facility
-- There are latitude and longitude values on the requirement
+- If bookings are created without using the schedule assistant.
+- If the requirement's work location is set to facility.
+- There are latitude and longitude values on the requirement.
