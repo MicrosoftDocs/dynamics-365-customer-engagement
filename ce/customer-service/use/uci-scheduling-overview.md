@@ -1,7 +1,7 @@
 ---
 title: Overview of the Scheduling Service | Microsoft Docs
 description: Overview of the Unified Interface-based Scheduling Service in Dynamics 365 Customer Service.
-ms.date: 05/16/2025
+ms.date: 05/20/2025
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
