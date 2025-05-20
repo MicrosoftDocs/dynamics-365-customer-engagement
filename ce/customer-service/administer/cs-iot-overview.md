@@ -1,7 +1,7 @@
 ---
 title: Connected Customer Service - Overview
 description: Overview of Connected Customer Service.
-ms.date: 05/16/2025
+ms.date: 05/20/2025
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
