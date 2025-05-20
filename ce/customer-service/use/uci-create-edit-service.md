@@ -1,7 +1,7 @@
 ---
 title: Create or edit a service | Microsoft Docs
 description: Create or edit a service in Dynamics 365 Customer Service.
-ms.date: 05/15/2025
+ms.date: 05/20/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
