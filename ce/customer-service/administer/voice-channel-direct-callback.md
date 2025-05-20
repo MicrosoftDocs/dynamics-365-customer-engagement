@@ -60,6 +60,10 @@ The direct callback is triggered by the queue overflow conditions where the corr
 1. When the work item reaches the position 1, a voice callback is initiated automatically.
 1. The callback is of the type preview dialing, in which the representative has to accept the callback using a callback-specific notification before the call is dialed.
 
+## Use CCaaS_CreateProactiveVoiceDelivery to schedule callbacks 
+
+You can use `CCaaS_CreateProactiveVoiceDelivery ` API in the Proactive Engagement solution to schedule callbacks from various platforms including web, mobile applications, voice and chat agents. Learn more in [schedule callbacks from any platform](/dynamics365/contact-center/extend/api/ccaas_createproactivevoicedelivery#schedule-callbacks-from-any-platform)
+
 ## Next steps
 
 [Manage overflow of work items in queues](manage-overflow.md)  
