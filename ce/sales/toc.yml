@@ -1389,7 +1389,7 @@ items:
       href: faqs-sales-copilot-for-email.md
     - name: Responsible AI FAQs for Sales qualification agent
       href: faqs-sales-qualification-agent.md
-    - name: Responsible AI FAQs for chat with Sales data on Microsoft 365 Copilot (preview)
+    - name: Responsible AI FAQs for chat with Sales data in Microsoft 365 Copilot (preview)
       href: Microsoft-365-Copilot-for-Sales.md
 - name: Resources for other Sales apps
   items:
