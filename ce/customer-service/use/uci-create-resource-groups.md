@@ -1,7 +1,7 @@
 ---
 title: Create resource groups | Microsoft Docs
 description: How to create resource groups in Unified Interface-based Scheduling Service for Dynamics 365 Customer Service.
-ms.date: 05/16/2025
+ms.date: 05/20/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
