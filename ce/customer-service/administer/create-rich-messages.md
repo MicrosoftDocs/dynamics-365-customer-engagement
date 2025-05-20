@@ -1,7 +1,7 @@
 ---
 title: Manage rich messages
 description: Learn how to create, publish, and update rich messages in Omnichannel for Customer Service.
-ms.date: 05/16/2025
+ms.date: 05/20/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
