@@ -48,8 +48,6 @@ Complete these tasks to set up the Dynamics 365 Sales environment for prepaid ca
 
 1. Link the Dynamics 365 Sales environment to the Power Platform environment (internal admin).
 
-   Learn more in [Linked Power Platform environments](tenant-admin-center-environments.md#linked-power-platform-environment).
-
 ### Set up pay-as-you-go
 
 Complete these tasks to set up the Dynamics 365 Sales environment for pay-as-you-go.
@@ -60,8 +58,6 @@ Complete these tasks to set up the Dynamics 365 Sales environment for pay-as-you
 
    Learn more in [Set up pay-as-you-go](/power-platform/admin/pay-as-you-go-set-up).
 1. Link the Dynamics 365 Sales environment to the Power Platform environment (internal admin).
-
-   Learn more in [Linked Power Platform environments](tenant-admin-center-environments.md#linked-power-platform-environment).
 
 ## Manage capacity and usage
 
@@ -83,5 +79,5 @@ Dynamics 365 Sales regularly checks the available capacity (quota) of Copilot St
 - [Orchestrate copilot topics and actions with generative AI](/microsoft-copilot-studio/advanced-generative-actions)  
 - [Work with Power Platform environments in Copilot Studio](/microsoft-copilot-studio/environments-first-run-experience)  
 - [Pay-as-you-go plan](/power-platform/admin/pay-as-you-go-overview)  
-- [Linked Power Platform Environments](tenant-admin-center-environments.md#linked-power-platform-environment)
+
 

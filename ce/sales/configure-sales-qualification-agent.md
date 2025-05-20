@@ -88,8 +88,6 @@ Grant **User**-level permissions for *read*, *write*, *create*, *append*, *appen
    - Default basic research: Includes insights gathered from Copilot summaries, who knows whom, related opportunities, and so on.
    - Default web research: Includes insights from predefined web resources to gather authentic information about the company's business, finances, and news.
 
-1. (Optional) [Add resources for custom web research](#add-resources-for-custom-web-research).
-
 1. <a name="ideal-customer-profile"></a>To help the agent identify leads that are a good fit for further engagement, in the **Qualification** section, define your **Ideal customer profile**.
 
    - Enter or select the criteria that describe your target customer, including industries, company size, customer location, and job titles.
