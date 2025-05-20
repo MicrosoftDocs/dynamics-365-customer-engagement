@@ -12,8 +12,6 @@ Territories help you divide your business into geographical regions for work ord
 
 Use territories with work orders and resources to help dispatchers schedule work orders to resources with a matching territory. Territories are useful filters on the schedule board, the schedule assistant, and the [Resource Scheduling Optimization add-in](rso-overview.md).
 
-[Reporting](reports.md) by region is a common use-case for many organizations. Measure KPIs such as first-time fix rate, work order count by type, or work order invoice revenue by territory.
-
 ## Create a territory
 
 Create your territories in Field Service settings or import them from Excel.

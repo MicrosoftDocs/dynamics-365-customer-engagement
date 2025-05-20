@@ -93,8 +93,6 @@ There are a few things you need to configure to enable Universal Resource Schedu
 
 ## Measure scheduling effectiveness
 
-[Look at reports and relevant KPIs](reports.md) to measure how scheduling influences your defined business objectives over time.
-
 Take a staggered approach to implement scheduling processes in your organization.
 
 1. Start with [manual scheduling using the schedule board](work-with-schedule-board.md) to familiarize yourself with the system logic and establish business processes.

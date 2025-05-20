@@ -27863,6 +27863,31 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/field-service/reports.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/work-order-summary-report.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/resource-utilization-report.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/rso-optimization-summary-report.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/rso-admin-report.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/appsource-addins.md",
       "redirect_url": "/dynamics365/field-service/overview",
       "redirect_document_id": "false"
