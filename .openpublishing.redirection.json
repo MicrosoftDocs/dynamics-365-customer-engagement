@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "ce/sales/install-lsi-solution.md",
+      "redirect_url": "/dynamics365/sales/linkedin/integrate-sales-navigator",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/understand-lsi-accounts-form.md",
+      "redirect_url": "/dynamics365/sales/linkedin/integrate-sales-navigator",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/view-copy-email-summary.md",
       "redirect_url": "/power-apps/maker/model-driven-apps/use-copilot-email-assist",
       "redirect_document_id": "false"
