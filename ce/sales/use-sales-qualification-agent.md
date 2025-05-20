@@ -17,7 +17,11 @@ ai-usage: ai-assisted
 
 # Qualify leads with the Sales Qualification Agent
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 The Sales Qualification Agent in Dynamics 365 Sales researches your leads, offers detailed insights about them, and determines if they're a good fit for your business based on an ideal customer profile. It also drafts an initial outreach email based on its research insights, saving you time and effort and improving your sales outcomes. This article describes how to use the Sales Qualification Agent to qualify your leads more effectively.
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 

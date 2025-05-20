@@ -283,7 +283,7 @@ items:
       items:
         - name: Lead management overview
           href: lead-management-overview.md
-        - name: Sales qualification agent
+        - name: Sales qualification agent (preview)
           items:
             - name: Overview
               href: sales-qualification-agent.md
@@ -934,11 +934,11 @@ items:
           href: work-invalid-email-addresses.md
         - name: Prioritize leads using predictive scores
           href: work-predictive-lead-scoring.md
-        - name: Sales qualification agent
+        - name: Sales qualification agent (preview)
           items:
             - name: Overview
               href: sales-qualification-agent.md
-            - name: Qualify leads smartly with Sales qualification agent
+            - name: Qualify leads with Sales qualification agent
               href: use-sales-qualification-agent.md
             - name: FAQ about Sales qualification agent
               href: sales-qualification-agent-faq.md

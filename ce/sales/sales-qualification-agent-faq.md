@@ -22,7 +22,12 @@ ai-usage: ai-assisted
 
 # Sales Qualification Agent FAQ
 
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 This FAQ provides answers to common questions about the Sales Qualification Agent in Dynamics 365 Sales.
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 <a name="icp"></a>
 

@@ -18,7 +18,11 @@ ms.reviewer: lavanyakr
 
 # Responsible AI FAQ for the Sales Qualification Agent
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 These frequently asked questions are intended to help you understand the effect of AI on the Sales Qualification Agent in Dynamics 365 Sales.
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## What is the Sales Qualification Agent?
 
