@@ -72,6 +72,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [IsKit](#BKMK_IsKit)
 - [IsReparented](#BKMK_IsReparented)
 - [IsStockItem](#BKMK_IsStockItem)
+- [msdyn_AlsoKnownAs](#BKMK_msdyn_AlsoKnownAs)
 - [msdyn_gdproptout](#BKMK_msdyn_gdproptout)
 - [Name](#BKMK_Name)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -155,7 +156,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |---|---|
 |Description|**Description of the product.**|
 |DisplayName|**Description**|
-|IsValidForForm|True|
+|IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`description`|
 |RequiredLevel|None|
@@ -164,7 +165,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |FormatName|TextArea|
 |ImeMode|Auto|
 |IsLocalizable|False|
-|MaxLength|2000|
+|MaxLength|1048576|
 
 ### <a name="BKMK_DMTImportState"></a> DMTImportState
 
@@ -258,6 +259,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
+
+### <a name="BKMK_msdyn_AlsoKnownAs"></a> msdyn_AlsoKnownAs
+
+|Property|Value|
+|---|---|
+|Description|**Alternate name/description for product**|
+|DisplayName|**Also Known As**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_alsoknownas`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|2000|
 
 ### <a name="BKMK_msdyn_gdproptout"></a> msdyn_gdproptout
 
@@ -1260,6 +1278,7 @@ One-To-Many Relationship: [uomschedule unit_of_measurement_schedule_products](uo
 These relationships are one-to-many. Listed by **SchemaName**.
 
 - [msdyn_product_msdyn_customerasset_Product](#BKMK_msdyn_product_msdyn_customerasset_Product)
+- [msdyn_productmap_msdyn_productid_product](#BKMK_msdyn_productmap_msdyn_productid_product)
 - [opportunity_products](#BKMK_opportunity_products)
 - [Product_Annotation](#BKMK_Product_Annotation)
 - [Product_AsyncOperations](#BKMK_Product_AsyncOperations)
@@ -1295,6 +1314,18 @@ Many-To-One Relationship: [msdyn_customerasset msdyn_product_msdyn_customerasset
 |ReferencingAttribute|`msdyn_product`|
 |ReferencedEntityNavigationPropertyName|`msdyn_product_msdyn_customerasset_Product`|
 |IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_productmap_msdyn_productid_product"></a> msdyn_productmap_msdyn_productid_product
+
+Many-To-One Relationship: [msdyn_productmap msdyn_productmap_msdyn_productid_product](msdyn_productmap.md#BKMK_msdyn_productmap_msdyn_productid_product)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_productmap`|
+|ReferencingAttribute|`msdyn_productid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_productmap_msdyn_productid_product`|
+|IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_opportunity_products"></a> opportunity_products

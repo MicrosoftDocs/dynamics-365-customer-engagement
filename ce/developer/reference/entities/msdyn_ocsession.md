@@ -7,7 +7,7 @@ ms.author: jdaly
 search.audienceType: 
   - developer
 ---
-<!--- DO NOT auto-generate this file. It has manual changes on lines 604-637. --->
+
 # Session (msdyn_ocsession) table/entity reference (Microsoft Dynamics 365)
 
 Session for interacting with a customer
@@ -601,40 +601,43 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 #### msdyn_closurereason Choices/Options
 
-|Value|Label|Description|
-|-----|-----|-----------|
-|192350000|**Default**|Indicates that no other closure reason is applicable.|
-|192350001|**AgentReject**|Indicates that the customer service representative (service representative or representative) declined the conversation.|
-|192350002|**AgentTimeout**|Indicates that the representative didn't respond to the conversation notification within the allotted time.|
-|192350003|**ConversationTimeout**|Indicates that the conversation session ended because of a time out.|
-|192350004|**AgentClosed**|Indicates that the representative ended the session, which means the representative selected the session tab "X".|
-|192350005|**ConversationClosed**|Indicates that the conversation session was closed.|
-|192350006|**AgentTransferred**|Indicates that the conversation was transferred to another representative.|
-|192350007|**AgentDisconnected**|Indicates that the representative was disconnected from the conversation.|
-|192350008|**AgentReRouted**|Indicates that the conversation was reassigned.|
-|192350009|**VirtualAgentClosed**|Indicates that the AI agent has closed the conversation.|
-|192350010|**AgentTransferToQueue**|Indicates that a representative has transferred the conversation to a different queue.|
-|192350011|**SupervisorAssignToQueue**|Indicates that a supervisor has manually assigned the conversation to a different queue.|
-|192350012|**SupervisorTransferToAgent**|Occurs when a supervisor transfers a conversation to a representative.|
-|192350013|**SystemReject**|Indicates that the system has rejected the conversation.|
-|192350014|**ForceClose**|Indicates that the supervisor forcibly closed the conversation.|
-|192350015|**OverflowQueueTransfer**|Occurs when a conversation is transferred from an overflowing queue to another queue.|
-|192350016|**OverflowEndConversation**|Occurs when a conversation ends because of overflow.|
-|192350017|**AddAgentFailed**|Occurs when an attempt to add a representative to a conversation fails.|
-|192350018|**AutoClose**|Occurs when an expired conversation is automatically closed.|
-|192350019|**SecondaryChannelClosed**|Occurs when a secondary channel is closed.|
-|192350020|**CustomerDisconnect**|Occurs when a customer disconnects from a conversation.|
-|192350021|**AgentEndConversation**|Occurs when a representative ends a conversation.|
-|192350022|**CustomerEndConversation**|Occurs when a customer ends a conversation.|
-|192350023|**QueueTransfer**|Occurs when the representative transfers a conversation to a different queue.|
-|192350024|**InqueueOverflowQueueTransfer**|Occurs when inqueue overflow triggers the transfer of conversation from one queue to another and this action closes the previous session.|
-|192350025|**InqueueOverflowEndConversation**|Occurs when inqueue overflow ends the conversation.|
-|192350026|**BotTransferToAgent**|Indicates that the AI agent has escalated the conversation.|
-|192350027|**BotEndConversation**|Indicates that the AI agent has ended the conversation.|
-|192350028|**BotCallFailureEndConversation**|When the AI agent plays a message to the caller because of some internal failure and conversation ends.|
-|192350029|**BotCallFailureExternalTransfer**|When the AI agent transfers the call to an external phone number because of some internal failure and the conversation ends.|
-|192350030|**BotCallFailurePromptAndEscalate**|The conversation doesn't end, the caller hears a prompt and wait music. The caller is then assigned to the default fallback queue where they are transferred to a representative or is handled by whatever queue behavior is defined.|
-|192350031|**BotCallFailureEscalate**|The conversation doesn't end, the caller hears wait music, and is sent to the default fallback queue, so that they can be transferred to a representative or is handled by whatever queue behavior is defined.|
+|Value|Label|
+|---|---|
+|192350000|**Default**|
+|192350001|**AgentReject**|
+|192350002|**AgentTimeout**|
+|192350003|**ConversationTimeout**|
+|192350004|**AgentClosed**|
+|192350005|**ConversationClosed**|
+|192350006|**AgentTransfered**|
+|192350007|**AgentDisconnected**|
+|192350008|**AgentReRouted**|
+|192350009|**VirtualAgentClosed**|
+|192350010|**AgentTransferToQueue**|
+|192350011|**SupervisorAssignToQueue**|
+|192350012|**SupervisorTransferToAgent**|
+|192350013|**SystemReject**|
+|192350014|**ForceClose**|
+|192350015|**OverflowQueueTransfer**|
+|192350016|**OverflowEndConversation**|
+|192350017|**AddAgentFailed**|
+|192350018|**AutoClose**|
+|192350019|**SecondaryChannelClosed**|
+|192350020|**CustomerDisconnect**|
+|192350021|**AgentEndConversation**|
+|192350022|**CustomerEndConversation**|
+|192350023|**QueueTransfer**|
+|192350024|**InqueueOverflowQueueTransfer**|
+|192350025|**InqueueOverflowEndConversation**|
+|192350026|**BotTransferToAgent**|
+|192350027|**BotEndConversation**|
+|192350028|**BotCallFailureEndConversation**|
+|192350029|**BotCallFailureExternalTransfer**|
+|192350030|**BotCallFailurePromptAndEscalate**|
+|192350031|**BotCallFailureEscalate**|
+|192350032|**CanceledByProactiveService**|
+|192350033|**ManuallyClosedConversation**|
+|192350034|**ManuallyClosedSession**|
 
 ### <a name="BKMK_msdyn_liveworkitemid"></a> msdyn_liveworkitemid
 
@@ -2453,6 +2456,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_ocsession_sessionevent_nested](#BKMK_msdyn_ocsession_sessionevent_nested)
 - [msdyn_ocsession_sessionparticipant_nested](#BKMK_msdyn_ocsession_sessionparticipant_nested)
 - [msdyn_ocsession_SyncErrors](#BKMK_msdyn_ocsession_SyncErrors)
+- [msdyn_sessionextension_sessionid_msdyn_ocsession](#BKMK_msdyn_sessionextension_sessionid_msdyn_ocsession)
 
 ### <a name="BKMK_CampaignResponse_msdyn_ocsessions"></a> CampaignResponse_msdyn_ocsessions
 
@@ -2777,6 +2781,18 @@ Many-To-One Relationship: [syncerror msdyn_ocsession_SyncErrors](syncerror.md#BK
 |ReferencedEntityNavigationPropertyName|`msdyn_ocsession_SyncErrors`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_sessionextension_sessionid_msdyn_ocsession"></a> msdyn_sessionextension_sessionid_msdyn_ocsession
+
+Many-To-One Relationship: [msdyn_sessionextension msdyn_sessionextension_sessionid_msdyn_ocsession](msdyn_sessionextension.md#BKMK_msdyn_sessionextension_sessionid_msdyn_ocsession)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_sessionextension`|
+|ReferencingAttribute|`msdyn_sessionid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_sessionextension_sessionid_msdyn_ocsession`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 

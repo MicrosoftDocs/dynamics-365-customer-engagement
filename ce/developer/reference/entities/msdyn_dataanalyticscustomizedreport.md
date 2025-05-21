@@ -119,7 +119,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Data Analytics Report Id**|
-|DisplayName|**msdyn_dataanalyticsreportid**|
+|DisplayName|**msdyn\_dataanalyticsreportid**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_dataanalyticsreportid`|
@@ -145,7 +145,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Report Id of dataverse report entity**|
-|DisplayName|**msdyn_dataversereportid**|
+|DisplayName|**msdyn\_dataversereportid**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_dataversereportid`|

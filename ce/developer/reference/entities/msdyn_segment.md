@@ -78,6 +78,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_objecttype](#BKMK_msdyn_objecttype)
 - [msdyn_objecttypecode](#BKMK_msdyn_objecttypecode)
 - [msdyn_segmentId](#BKMK_msdyn_segmentId)
+- [msdyn_segmenttype](#BKMK_msdyn_segmenttype)
 - [msdyn_sequence](#BKMK_msdyn_sequence)
 - [msdyn_triggertype](#BKMK_msdyn_triggertype)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -268,6 +269,27 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_segmentid`|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+### <a name="BKMK_msdyn_segmenttype"></a> msdyn_segmenttype
+
+|Property|Value|
+|---|---|
+|Description|**Defines the type of segment**|
+|DisplayName|**Segment Type**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_segmenttype`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|1|
+|GlobalChoiceName|`msdyn_segment_msdyn_segmenttype`|
+
+#### msdyn_segmenttype Choices/Options
+
+|Value|Label|
+|---|---|
+|1|**WorkAssignment**|
+|2|**Agent**|
 
 ### <a name="BKMK_msdyn_sequence"></a> msdyn_sequence
 
@@ -744,6 +766,8 @@ One-To-Many Relationship: [systemuser user_msdyn_segment](systemuser.md#BKMK_use
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_msdyn_segment_account](#BKMK_msdyn_msdyn_segment_account)
+- [msdyn_msdyn_segment_contact](#BKMK_msdyn_msdyn_segment_contact)
 - [msdyn_msdyn_segment_lead](#BKMK_msdyn_msdyn_segment_lead)
 - [msdyn_msdyn_segment_msdyn_assignmentrule_segment](#BKMK_msdyn_msdyn_segment_msdyn_assignmentrule_segment)
 - [msdyn_msdyn_segment_msdyn_salesroutingrun_previoussegmentid](#BKMK_msdyn_msdyn_segment_msdyn_salesroutingrun_previoussegmentid)
@@ -759,6 +783,30 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_segment_PrincipalObjectAttributeAccesses](#BKMK_msdyn_segment_PrincipalObjectAttributeAccesses)
 - [msdyn_segment_ProcessSession](#BKMK_msdyn_segment_ProcessSession)
 - [msdyn_segment_SyncErrors](#BKMK_msdyn_segment_SyncErrors)
+
+### <a name="BKMK_msdyn_msdyn_segment_account"></a> msdyn_msdyn_segment_account
+
+Many-To-One Relationship: [account msdyn_msdyn_segment_account](account.md#BKMK_msdyn_msdyn_segment_account)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`account`|
+|ReferencingAttribute|`msdyn_segmentid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_segment_account`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_segment_contact"></a> msdyn_msdyn_segment_contact
+
+Many-To-One Relationship: [contact msdyn_msdyn_segment_contact](contact.md#BKMK_msdyn_msdyn_segment_contact)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`contact`|
+|ReferencingAttribute|`msdyn_segmentid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_segment_contact`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_segment_lead"></a> msdyn_msdyn_segment_lead
 

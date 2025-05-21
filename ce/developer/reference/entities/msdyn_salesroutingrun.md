@@ -158,14 +158,14 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Value|Label|
 |---|---|
 |0|**In progress**|
-|1|**Successfully connected to a sequence**|
+|1|**Connected to a sequence**|
 |2|**Something went wrong**|
 |3|**Skipped as segmentation failed**|
 |4|**No sequence connected to this segment**|
 |5|**Sequence unchanged**|
-|6|**Seller needs additional access**|
+|6|**Seller doesn't have necessary permissions**|
 |7|**Sequence is either deleted or inactive**|
-|8|**D365WorkAssignment app user doesn't have the necessary permissions.**|
+|8|**D365WorkAssignment app user doesn't have necessary permissions.**|
 
 ### <a name="BKMK_msdyn_errormessage"></a> msdyn_errormessage
 
@@ -323,8 +323,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|
 |---|---|
-|1|**Run is in progress**|
-|2|**Owner assigned successfully**|
+|1|**Run in progress**|
+|2|**Owner assigned**|
 |3|**There was an issue with the server**|
 |4|**Record doesn't meet any conditions**|
 |5|**No sellers meet the conditions**|
@@ -332,15 +332,15 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |7|**Eligible sellers don't have capacity**|
 |8|**No assignment rule for this record's segment**|
 |9|**Owner assigned manually**|
-|10|**Record unassigned as seller lacks security role privileges**|
+|10|**Record unassigned as seller doesn't have the necessary permissions**|
 |11|**Seller not assigned as record is older than the set timeframe**|
-|12|**Found multiple eligible teams**|
+|12|**Multiple eligible teams found**|
 |13|**Couldn't find eligible team**|
-|14|**Found multiple eligible queues**|
+|14|**Multiple eligible queues found**|
 |15|**Couldn't find eligible queue**|
 |16|**Skipped as segmentation failed**|
 |17|**Rules won't run for this segment**|
-|18|**D365WorkAssignment app user doesn't have the necessary permissions.**|
+|18|**D365WorkAssignment app user doesn't have necessary permissions.**|
 
 ### <a name="BKMK_msdyn_salesroutingrunId"></a> msdyn_salesroutingrunId
 
@@ -391,7 +391,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |3|**No matching segments**|
 |4|**Matched with previous segment**|
 |5|**No segmentation required**|
-|6|**D365WorkAssignment app user doesn't have the necessary permissions.**|
+|6|**D365WorkAssignment app user doesn't have necessary permissions.**|
 
 ### <a name="BKMK_msdyn_segmentid"></a> msdyn_segmentid
 
@@ -513,8 +513,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Details|
 |---|---|
-|1|Label: **Run is in progress**<br />State:0<br />TransitionData: None|
-|2|Label: **Owner assigned successfully**<br />State:1<br />TransitionData: None|
+|1|Label: **Run in progress**<br />State:0<br />TransitionData: None|
+|2|Label: **Owner assigned**<br />State:1<br />TransitionData: None|
 |3|Label: **There was an issue with the server**<br />State:2<br />TransitionData: None|
 |4|Label: **Record doesn't meet any conditions**<br />State:2<br />TransitionData: None|
 |5|Label: **No sellers meet the conditions**<br />State:2<br />TransitionData: None|
@@ -522,15 +522,15 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |7|Label: **Eligible sellers don't have capacity**<br />State:2<br />TransitionData: None|
 |8|Label: **No assignment rule for this record's segment**<br />State:2<br />TransitionData: None|
 |9|Label: **Owner assigned manually**<br />State:1<br />TransitionData: None|
-|10|Label: **Record unassigned as seller lacks security role privileges**<br />State:2<br />TransitionData: None|
+|10|Label: **Record unassigned as seller doesn't have the necessary permissions**<br />State:2<br />TransitionData: None|
 |11|Label: **Seller not assigned as record is older than the set timeframe**<br />State:2<br />TransitionData: None|
-|12|Label: **Found multiple eligible teams**<br />State:2<br />TransitionData: None|
+|12|Label: **Multiple eligible teams found**<br />State:2<br />TransitionData: None|
 |13|Label: **Couldn't find eligible team**<br />State:2<br />TransitionData: None|
-|14|Label: **Found multiple eligible queues**<br />State:2<br />TransitionData: None|
+|14|Label: **Multiple eligible queues found**<br />State:2<br />TransitionData: None|
 |15|Label: **Couldn't find eligible queue**<br />State:2<br />TransitionData: None|
 |16|Label: **Skipped as segmentation failed**<br />State:2<br />TransitionData: None|
 |17|Label: **Rules won't run for this segment**<br />State:1<br />TransitionData: None|
-|18|Label: **D365WorkAssignment app user doesn't have the necessary permissions.**<br />State:2<br />TransitionData: None|
+|18|Label: **D365WorkAssignment app user doesn't have necessary permissions.**<br />State:2<br />TransitionData: None|
 
 ### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
 

@@ -68,6 +68,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
+- [msdyn_bulkoperationrunid](#BKMK_msdyn_bulkoperationrunid)
 - [msdyn_channel](#BKMK_msdyn_channel)
 - [msdyn_channeltype](#BKMK_msdyn_channeltype)
 - [msdyn_description](#BKMK_msdyn_description)
@@ -75,6 +76,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_publishedon](#BKMK_msdyn_publishedon)
 - [msdyn_publishedruleset](#BKMK_msdyn_publishedruleset)
+- [msdyn_streamsource](#BKMK_msdyn_streamsource)
 - [msdyn_templaterulesetId](#BKMK_msdyn_templaterulesetId)
 - [msdyn_type](#BKMK_msdyn_type)
 - [msdyn_UniqueName](#BKMK_msdyn_UniqueName)
@@ -112,6 +114,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|SystemRequired|
 |Type|ManagedProperty|
 
+### <a name="BKMK_msdyn_bulkoperationrunid"></a> msdyn_bulkoperationrunid
+
+|Property|Value|
+|---|---|
+|Description|**When Context variables are created in bulk, the runid for operation to create/update them is stored here**|
+|DisplayName|**Bulk Operation Run Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_bulkoperationrunid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|True|
+|MaxLength|100|
+
 ### <a name="BKMK_msdyn_channel"></a> msdyn_channel
 
 |Property|Value|
@@ -139,7 +158,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Used to specify the type of communication or interaction that is being routed or handled within the system, depends on the incoming Channel**|
-|DisplayName|**Channel Type**|
+|DisplayName|**Channel(Legacy)**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_channeltype`|
@@ -230,6 +249,26 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Lookup|
 |Targets|msdyn_decisionruleset|
+
+### <a name="BKMK_msdyn_streamsource"></a> msdyn_streamsource
+
+|Property|Value|
+|---|---|
+|Description|**The channel to which Template is attached**|
+|DisplayName|**Channel**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_streamsource`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_streamsource`|
+
+#### msdyn_streamsource Choices/Options
+
+|Value|Label|
+|---|---|
+|192350000|**Entity Records**|
 
 ### <a name="BKMK_msdyn_templaterulesetId"></a> msdyn_templaterulesetId
 
@@ -366,6 +405,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |1|Label: **Draft**<br />State:0<br />TransitionData: None|
 |2|Label: **Published**<br />State:0<br />TransitionData: None|
 |3|Label: **Inactive**<br />State:1<br />TransitionData: None|
+|4|Label: **Publishing**<br />State:0<br />TransitionData: None|
 
 ### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
 
@@ -616,7 +656,7 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`owningbusinessunit`|
-|RequiredLevel|SystemRequired|
+|RequiredLevel|None|
 |Type|Lookup|
 |Targets|businessunit|
 
@@ -842,6 +882,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_templateruleset_PrincipalObjectAttributeAccesses](#BKMK_msdyn_templateruleset_PrincipalObjectAttributeAccesses)
 - [msdyn_templateruleset_ProcessSession](#BKMK_msdyn_templateruleset_ProcessSession)
 - [msdyn_templateruleset_SyncErrors](#BKMK_msdyn_templateruleset_SyncErrors)
+- [msdyn_templatevariablebatchoperation_msdyn_templaterulesetid_msdyn_templateruleset](#BKMK_msdyn_templatevariablebatchoperation_msdyn_templaterulesetid_msdyn_templateruleset)
 
 ### <a name="BKMK_msdyn_templateruleset_AsyncOperations"></a> msdyn_templateruleset_AsyncOperations
 
@@ -938,6 +979,36 @@ Many-To-One Relationship: [syncerror msdyn_templateruleset_SyncErrors](syncerror
 |ReferencedEntityNavigationPropertyName|`msdyn_templateruleset_SyncErrors`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_templatevariablebatchoperation_msdyn_templaterulesetid_msdyn_templateruleset"></a> msdyn_templatevariablebatchoperation_msdyn_templaterulesetid_msdyn_templateruleset
+
+Many-To-One Relationship: [msdyn_templatevariablebatchoperation msdyn_templatevariablebatchoperation_msdyn_templaterulesetid_msdyn_templateruleset](msdyn_templatevariablebatchoperation.md#BKMK_msdyn_templatevariablebatchoperation_msdyn_templaterulesetid_msdyn_templateruleset)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_templatevariablebatchoperation`|
+|ReferencingAttribute|`msdyn_templaterulesetid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_templatevariablebatchoperation_msdyn_templaterulesetid_msdyn_templateruleset`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+
+## Many-to-Many relationships
+
+These relationships are many-to-many. Listed by **SchemaName**.
+
+### <a name="BKMK_msdyn_templatecontextvariable_msdyn_templateruleset_msdyn_templateruleset"></a> msdyn_templatecontextvariable_msdyn_templateruleset_msdyn_templateruleset
+
+See [msdyn_templatecontextvariable msdyn_templatecontextvariable_msdyn_templateruleset_msdyn_templateruleset Many-To-Many Relationship](msdyn_templatecontextvariable.md#BKMK_msdyn_templatecontextvariable_msdyn_templateruleset_msdyn_templateruleset)
+
+|Property|Value|
+|---|---|
+|IntersectEntityName|`msdyn_templatecontextvariable_msdyn_template`|
+|IsCustomizable|False|
+|SchemaName|`msdyn_templatecontextvariable_msdyn_templateruleset_msdyn_templateruleset`|
+|IntersectAttribute|`msdyn_templaterulesetid`|
+|NavigationPropertyName|`msdyn_templatecontextvariable_msdyn_templateruleset_msdyn_templateruleset`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 
