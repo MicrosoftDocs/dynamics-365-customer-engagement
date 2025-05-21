@@ -1,7 +1,7 @@
 ---
 title: Set up bookable resources
 description: Learn how to create a bookable resource and add details to distinguish it from other resources.
-ms.date: 04/02/2025
+ms.date: 05/21/2025
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
@@ -149,5 +149,10 @@ To enable features like routing, travel estimations, or the map view of the sche
    :::image type="content" source="media/resource-contact-location-example.png" alt-text="Screenshot of geo coding a contact record.":::
 
 1. Confirm geocoding works. Open the **Schedule Board** and verify that the resource appears on the map. Select a resource to highlight their location on the map.
+
+## Related information
+
+- [Show appointments on the schedule board](appointment-scheduling.md)
+- [Submit and approve time-off requests](submit-approve-time-off-requests.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
