@@ -1,7 +1,7 @@
 ---
 title: Set up intelligent skill finder model in unified routing
 description: Use the information to set up intelligent skill finder model for unified routing in Customer Service.
-ms.date: 04/25/2025
+ms.date: 05/21/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -115,6 +115,11 @@ Perform the following steps to upload the data for training your model:
 3. Select the .csv files to upload in the import tool.
 
    ![Import data file using Excel.](../media/skill-finder-excel.png "Import data file using Excel")
+
+> [!NOTE]
+> - The import allows only one file at a time. You can upload the msdyn_ocsitrainingdata file first and then msdyn_ocsitdskill.
+> - If you follow the format provided in the sample files, there is no need to manually map fields. The import wizard automatically uses the default format.
+> - Duplicate records are not allowed.
 
 4. Review the upload settings, and select **Finish** after you go through the stages. The data upload starts. The time taken for the data upload depends on the number of records.
 5. Optionally, you can select **Refresh** to see the updated status of the data upload.
