@@ -48,7 +48,7 @@ Use a solution to manage your customizations so that you can easily deploy them 
 
     - [Add a new topic to Copilot chat](/power-apps/maker/model-driven-apps/customize-copilot-chat#add-new-topic-to-copilot-chat).
       > [!NOTE]
-      > Knowledge source is not yet supported for Copilot in Dynamics 365 Sales.
+      > Knowledge source isn't supported currently for Copilot in Dynamics 365 Sales.
     - Edit the **SalesSparks** topic to [customize the prompt guide](/power-apps/maker/model-driven-apps/customize-copilot-chat#prompt-guide-customizations).
     
   > [!NOTE]
