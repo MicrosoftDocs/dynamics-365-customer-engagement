@@ -117,7 +117,7 @@ Perform the following steps to upload the data for training your model:
    ![Import data file using Excel.](../media/skill-finder-excel.png "Import data file using Excel")
 
 > [!NOTE]
-> - The import allows only one file at a time. You can upload the msdyn_ocsitrainingdata file first and then msdyn_ocsitdskill.
+> - The import allows only one file at a time. You can upload the msdyn_ocsitrainingdata file first and then the msdyn_ocsitdskill file.
 > - If you follow the format provided in the sample files, there is no need to manually map fields. The import wizard automatically uses the default format.
 > - Duplicate records are not allowed.
 
