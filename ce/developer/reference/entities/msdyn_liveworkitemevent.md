@@ -101,7 +101,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**The time at which the event is triggered.**|
-|DisplayName|**msdyn_eventtime**|
+|DisplayName|**msdyn\_eventtime**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_eventtime`|
@@ -118,7 +118,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Types of events identified.**|
-|DisplayName|**msdyn_liveworkitemevent**|
+|DisplayName|**msdyn\_liveworkitemevent**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_liveworkitemevent`|
@@ -142,7 +142,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Contains detailed information for the event for corresponding event type.**|
-|DisplayName|**msdyn_liveworkitemeventdata**|
+|DisplayName|**msdyn\_liveworkitemeventdata**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_liveworkitemeventdata`|
@@ -159,7 +159,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Unique identifier for entity instances**|
-|DisplayName|**msdyn_liveworkitemevent**|
+|DisplayName|**msdyn\_liveworkitemevent**|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`msdyn_liveworkitemeventid`|
@@ -171,7 +171,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**The unique identifier from live work item with which the current event is associated.**|
-|DisplayName|**msdyn_liveworkitemid**|
+|DisplayName|**msdyn\_liveworkitemid**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_liveworkitemid`|
@@ -242,7 +242,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Status of the msdyn_liveworkitemevent**|
+|Description|**Status of the msdyn\_liveworkitemevent**|
 |DisplayName|**Status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -263,7 +263,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Reason for the status of the msdyn_liveworkitemevent**|
+|Description|**Reason for the status of the msdyn\_liveworkitemevent**|
 |DisplayName|**Status Reason**|
 |IsValidForForm|True|
 |IsValidForRead|True|

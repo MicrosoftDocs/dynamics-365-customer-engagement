@@ -218,6 +218,10 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |100230313|**ViewHistory**|
 |100230314|**ExpandTile**|
 |100230315|**RequestSolution**|
+|100230316|**KeepIt**|
+|100230317|**Discard**|
+|100230318|**ChooseDifferentTemplate**|
+|100230319|**TemplateSelection**|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
@@ -287,6 +291,10 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |100230214|**knowledge harvest**|
 |100230215|**Resolution notes**|
 |100230216|**Chat Assist**|
+|100230217|**Teams collaboration summary**|
+|100230218|**Autonomous Case Create and Update**|
+|100230219|**Proactive Insights**|
+|100230220|**Quality Evaluation**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 

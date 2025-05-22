@@ -104,7 +104,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |FormatName|Json|
 |ImeMode|Auto|
 |IsLocalizable|False|
-|MaxLength|10000|
+|MaxLength|1000000|
 
 ### <a name="BKMK_msdyn_forecastconfigurationid"></a> msdyn_forecastconfigurationid
 
@@ -223,7 +223,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |FormatName|Json|
 |ImeMode|Auto|
 |IsLocalizable|False|
-|MaxLength|10000|
+|MaxLength|1000000|
 
 ### <a name="BKMK_msdyn_predictionon"></a> msdyn_predictionon
 

@@ -65,7 +65,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_dataformatversion](#BKMK_msdyn_dataformatversion)
 - [msdyn_externalcrmorgid](#BKMK_msdyn_externalcrmorgid)
+- [msdyn_insightlocale](#BKMK_msdyn_insightlocale)
 - [msdyn_insightsdata](#BKMK_msdyn_insightsdata)
+- [msdyn_isInsightInOriginalLocale](#BKMK_msdyn_isInsightInOriginalLocale)
 - [msdyn_metadata](#BKMK_msdyn_metadata)
 - [msdyn_Name](#BKMK_msdyn_Name)
 - [msdyn_rawinsightId](#BKMK_msdyn_rawinsightId)
@@ -101,7 +103,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**msdyn_dataformatversion**|
+|DisplayName|**msdyn\_dataformatversion**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_dataformatversion`|
@@ -118,7 +120,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**msdyn_externalcrmorgid**|
+|DisplayName|**msdyn\_externalcrmorgid**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_externalcrmorgid`|
@@ -130,12 +132,29 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|2000|
 
+### <a name="BKMK_msdyn_insightlocale"></a> msdyn_insightlocale
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**msdyn\_insightlocale**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_insightlocale`|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
 ### <a name="BKMK_msdyn_insightsdata"></a> msdyn_insightsdata
 
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**msdyn_insightsdata**|
+|DisplayName|**msdyn\_insightsdata**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_insightsdata`|
@@ -147,12 +166,28 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|1048576|
 
+### <a name="BKMK_msdyn_isInsightInOriginalLocale"></a> msdyn_isInsightInOriginalLocale
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**msdyn\_isInsightInOriginalLocale**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isInsightInOriginalLocale`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_rawinsight_msdyn_isinsightinoriginallocale`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_metadata"></a> msdyn_metadata
 
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**msdyn_metadata**|
+|DisplayName|**msdyn\_metadata**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_metadata`|
@@ -186,7 +221,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Unique identifier for entity instances**|
-|DisplayName|**msdyn_rawinsight**|
+|DisplayName|**msdyn\_rawinsight**|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`msdyn_rawinsightid`|
@@ -198,7 +233,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**msdyn_rowsize**|
+|DisplayName|**msdyn\_rowsize**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_rowsize`|
@@ -212,7 +247,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**msdyn_sourceeventgroup**|
+|DisplayName|**msdyn\_sourceeventgroup**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_sourceeventgroup`|
@@ -229,7 +264,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**msdyn_sourceeventtype**|
+|DisplayName|**msdyn\_sourceeventtype**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_sourceeventtype`|
@@ -246,7 +281,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**msdyn_sourcegroupid**|
+|DisplayName|**msdyn\_sourcegroupid**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_sourcegroupid`|
@@ -263,7 +298,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**msdyn_sourceid**|
+|DisplayName|**msdyn\_sourceid**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_sourceid`|
@@ -280,7 +315,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**msdyn_sourcetimestamp**|
+|DisplayName|**msdyn\_sourcetimestamp**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_sourcetimestamp`|
@@ -297,7 +332,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**msdyn_targets**|
+|DisplayName|**msdyn\_targets**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_targets`|
