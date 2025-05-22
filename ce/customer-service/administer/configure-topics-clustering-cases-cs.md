@@ -1,7 +1,7 @@
 ---
 title: Configure AI topic clustering for cases
 description: This article provides instructions to configure AI topic clustering for cases in the Customer Service Hub and Customer Service workspace.
-ms.date: 05/13/2025
+ms.date: 05/22/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
