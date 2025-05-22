@@ -1,7 +1,7 @@
 ---
 title: Use Teams chat 
 description: Learn how to use the Teams chat functionality. 
-ms.date: 05/12/2025
+ms.date: 05/22/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
