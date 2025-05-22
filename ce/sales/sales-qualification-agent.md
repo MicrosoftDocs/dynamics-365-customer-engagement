@@ -22,7 +22,7 @@ ai-usage: ai-assisted
 As a seller, you know that qualifying leads is crucial to your success, but it takes up a lot of your time. The Sales Qualification Agent in Dynamics 365 Sales is an AI assistant that automates the manual aspects of lead qualification. It doesn't replace your judgment or decision-making process. It's a productivity tool that helps you qualify leads faster and more effectively, so that you can invest more time in one-on-one interactions with top leads.
 
 > [!NOTE]
-> The Sales Qualification Agent is currently being rolled out to different regions in a phased manner. If you don't see the agent in your environment, it might not reached your region yet. The rollout is expected to be completed by May 31, 2025.
+> The Sales Qualification Agent is currently being rolled out to different regions in a phased manner. If you don't see the agent in your environment, it might not have reached your region yet. The rollout is expected to be completed by May 31, 2025.
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 The agent autonomously researches leads and determines if they're a good fit for further engagement. Think of it as a personal assistant that provides detailed insights about each lead, such as their background, recent activities, and news about their company:
