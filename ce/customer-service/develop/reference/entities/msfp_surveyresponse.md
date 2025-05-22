@@ -125,4 +125,3 @@ One-To-Many Relationship: [msdyn_timegroupdetail msdyn_timegroupdetail_msfp_surv
 
 [Dataverse table/entity reference](/power-apps/developer/data-platform/reference/about-entity-reference)  
 [Dataverse Web API Reference](/power-apps/developer/data-platform/webapi/reference/about)   
-<xref:Microsoft.Dynamics.CRM.msfp_surveyresponse?displayProperty=fullName>

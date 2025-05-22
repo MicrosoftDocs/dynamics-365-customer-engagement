@@ -163,7 +163,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Lookup to msdyn_capacityprofile entity**|
+|Description|**Lookup to msdyn\_capacityprofile entity**|
 |DisplayName|**Capacity profile id**|
 |IsValidForForm|True|
 |IsValidForRead|True|

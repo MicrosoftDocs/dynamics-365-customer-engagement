@@ -103,8 +103,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**msdyn_batchjob_runstatus**|
-|DisplayName|**msdyn_batchjob_runstatus**|
+|Description|**msdyn\_batchjob\_runstatus**|
+|DisplayName|**msdyn\_batchjob\_runstatus**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_batchjob_runstatus`|
@@ -120,8 +120,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**msdyn_copilotprovisioning_status**|
-|DisplayName|**msdyn_copilotprovisioning_status**|
+|Description|**msdyn\_copilotprovisioning\_status**|
+|DisplayName|**msdyn\_copilotprovisioning\_status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_copilotprovisioning_status`|
@@ -155,7 +155,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Unique identifier for entity instances**|
-|DisplayName|**msdyn_intentfeature_configurationid**|
+|DisplayName|**msdyn\_intentfeature\_configurationid**|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`msdyn_intentfeature_configurationid`|
@@ -199,8 +199,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**msdyn_packageprovisioning_status**|
-|DisplayName|**msdyn_packageprovisioning_status**|
+|Description|**msdyn\_packageprovisioning\_status**|
+|DisplayName|**msdyn\_packageprovisioning\_status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_packageprovisioning_status`|
@@ -233,8 +233,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**msdyn_target_entity_name**|
-|DisplayName|**(Deprecated) msdyn_target_entity_name**|
+|Description|**msdyn\_target\_entity\_name**|
+|DisplayName|**(Deprecated) msdyn\_target\_entity\_name**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_target_entity_name`|
@@ -292,7 +292,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Status of the msdyn_intentfeature_configuration**|
+|Description|**Status of the msdyn\_intentfeature\_configuration**|
 |DisplayName|**Status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -313,7 +313,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Reason for the status of the msdyn_intentfeature_configuration**|
+|Description|**Reason for the status of the msdyn\_intentfeature\_configuration**|
 |DisplayName|**Status Reason**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -505,7 +505,7 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`owningbusinessunit`|
-|RequiredLevel|SystemRequired|
+|RequiredLevel|None|
 |Type|Lookup|
 |Targets|businessunit|
 

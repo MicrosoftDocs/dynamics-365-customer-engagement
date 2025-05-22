@@ -232,7 +232,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |1051|**Slovak - Slovakia**|
 |1053|**Swedish - Sweden**|
 |1054|**Thai - Thailand**|
-|1055|**Turkish - Türkiye**|
+|1055|**Turkish - Turkey**|
 |1057|**Indonesian - Indonesia**|
 |1058|**Ukrainian - Ukraine**|
 |1060|**Slovenian - Slovenia**|
@@ -248,7 +248,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |2052|**Chinese - China**|
 |2070|**Portuguese - Portugal**|
 |2074|**Serbian (Latin) - Serbia**|
-|3076|**Chinese - Hong Kong SAR**|
+|3076|**Chinese - Hong Kong**|
 |3082|**Spanish - Spain**|
 |3098|**Serbian (Cyrillic) - Serbia**|
 

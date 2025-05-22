@@ -113,7 +113,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Foreign key to sentiment_topic table column: sentiment_dailytopicid**|
+|Description|**Foreign key to sentiment\_topic table column: sentiment\_dailytopicid**|
 |DisplayName|**Daily topic id**|
 |IsValidForForm|True|
 |IsValidForRead|True|
