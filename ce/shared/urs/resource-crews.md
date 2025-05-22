@@ -1,12 +1,12 @@
-Resource crews allow dispatchers to search and schedule multiple resources at once. Resource crews can include a group of employees, subcontractors, equipment, facilities, or any combination thereof who will perform the same work during a period of time. Crews speed up and simplify the scheduling process and allow team members to work together more consistently.
+Resource crews allow dispatchers to search and schedule multiple resources at once. Resource crews can include a group of employees, subcontractors, equipment, facilities, or any combination who will perform the same work during a period of time. Crews speed up and simplify the scheduling process and allow team members to work together more consistently.
 
 Dispatchers often use crews to schedule a requirement group with multiple requirements to multiple resources. However, you can schedule single requirements to crews too.
 
 Crews are ideal for scenarios where:
 
-- a group of resources will work together for some time.
-- a crew meets at a location in the morning, shares a vehicle, and is together all day from job to job.
-- a new employee is shadowing an experienced co-worker to learn new skills.
+- A group of resources will work together for some time.
+- A crew meets at a location in the morning, shares a vehicle, and is together all day from job to job.
+- A new employee is shadowing an experienced co-worker to learn new skills.
 
 ## Create a Crew
 
@@ -20,7 +20,7 @@ A crew is a bookable resource which is essentially a container for the child res
 
 1. Choose a **Crew Strategy**. There are three [Crew strategy options](#crew-strategy-options).
 
-   :::image type="content" source="../../common-scheduler/media/scheduling-crew-header.png" alt-text="Screenshot of a bookable resource set to crew.":::
+   :::image type="content" source="../../field-service/media/scheduling-crew-header.png" alt-text="Screenshot of a bookable resource set to crew.":::
 
 1. On the **Scheduling** tab, set the **Start Location** and **End Location**. For detailed descriptions of the location options, go to [Set up bookable resources](../../field-service/set-up-bookable-resources.md).
 
@@ -28,20 +28,20 @@ A crew is a bookable resource which is essentially a container for the child res
 
 ### Crew strategy options
 
-The crew strategy determines how the crew manages its work once it moves past the _Scheduled_ status (e.g. _Travelling_, _In Progress_, or _Completed_). There are three options:
+The crew strategy determines how the crew manages its work once it moves past the *Scheduled* booking status (such as *Traveling*, *In Progress*, or *Completed*). There are three options:
 
 - **Crew Leader Management**: Crew leader manages the work of a crew. Consider this option when a crew consists of multiple people. You can only have one resource designated as the leader at a time, and there must be a leader to create a work order booking.
 - **Crew Member Self-Management**: Resources can manage their own work even once the booking has begun. Choose this option for crews that are groups, which regularly work together, but may not always work together at the same place or time. Self-management also means better time capturing, which is good for organizations who bill for time spent on work. 
 - **Cascade and Accept Cascade Completely**: All resources on a crew can manage all the work throughout all statuses. It's the ideal option when a crew consists of one individual and the rest of the crew is equipment.
 
 > [!NOTE]
-> The logic associated with crew strategies will only impact work order related bookable resource bookings. If an assigned resource updates their own booking to *Completed*, the end-time value is updated to the current time stamp. If another user or crew member updates a booking status to *Completed* on behalf of an assigned resource, the booking end time preserves the previous end time value.
+> The logic associated with crew strategies only impacts work order related bookable resource bookings. If an assigned resource updates their own booking to *Completed*, the end-time value is updated to the current time stamp. If another user or crew member updates a booking status to *Completed* on behalf of an assigned resource, the booking end time preserves the previous end time value.
 >
-> Crew strategies also affect if and how a crew booking is rescheduled when there are changes made to an associated resource booking. 
+> Crew strategies also affect if and how a crew booking is rescheduled when there are changes made to an associated resource booking.
 
 ## Add resource children to a crew
 
-Relate other bookable resources to the crew as crew members. If not done already, [create the bookable resources](../../field-service/set-up-bookable-resources.md).
+Relate other bookable resources to the crew as crew members. If not done already, [create the bookable resources](../../field-service/set-up-bookable-resources.md). To select a leader for the crew, the resource type must be *User*.
 
 1. Open the *Crew* resource.
 
@@ -49,13 +49,13 @@ Relate other bookable resources to the crew as crew members. If not done already
 
 1. Select **New Bookable Resource Group**.
 
-1. Choose the **Child Resource** and set the date range when the resource will be part of the crew.
+1. Enter a name, the **Child Resource**, and the date range when the resource will be part of the crew.
 
-1. Choose the **Crew Member Type** and specify if the resource is a member of the crew or its leader. To get set as a leader, the bookable resource needs the type *user*.
+1. Choose the **Crew Member Type** and specify if the resource is a member of the crew or its leader.
 
 1. Select **Save & Close**.
 
-:::image type="content" source="../../common-scheduler/media/scheduling-crew-resource-children.png" alt-text="Screenshot of child resources of a resource crew.":::
+:::image type="content" source="../../field-service/media/scheduling-crew-resource-children.png" alt-text="Screenshot of child resources of a resource crew.":::
 
 > [!TIP]
 > Start and end location of resources are important to book onsite requirements. The system takes crew member locations from their individual resource profiles and not from the parent crew. It's important that you change the location of the crew member resource if a resource moves between crews. For example, if you want a crew to meet at a central location in the morning, specify start and end location as organization unit address for the crew header resource *and* the resource children.
