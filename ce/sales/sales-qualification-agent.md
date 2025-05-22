@@ -33,7 +33,7 @@ The agent autonomously researches leads and determines if they're a good fit for
 The Sales Qualification Agent helps you focus on the most promising leads and improve your sales outcomes.
 
 > [!NOTE]
-> The Sales Qualification Agent is currently being rolled out to different regions in a phased manner. If you don't see the agent in your environment, it might not reached your region yet. The rollout is expected to be completed by the end of May 2025.
+> The Sales Qualification Agent is currently being rolled out to different regions in a phased manner. If you don't see the agent in your environment, it might not reached your region yet. The rollout is expected to be completed by May 31, 2025.
 
 ## Set up and use the agent
 
