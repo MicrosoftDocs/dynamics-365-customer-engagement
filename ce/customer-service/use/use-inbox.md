@@ -1,6 +1,6 @@
 ---
 title: Use the inbox
-description: Learn how to use the inbox in Dynamics 365 Customer Service.
+description: Learn how to use the features in the inbox to manage your work in Dynamics 365 Customer Service.
 author: lalexms 
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -16,9 +16,9 @@ ms.custom: bap-template
 > [!NOTE]
 > Case is applicable to Customer Service only.
 
-The inbox gives you quick view of your assigned cases, conversations, and records. It's designed to be your central place to locate, manage, and complete your day-to-day work. It can help you efficiently work on high-velocity tasks, and promote inbox sessions to regular sessions when you need more time to resolve cases and finish your conversations.
+The inbox gives you quick view of your assigned cases, conversations, and records. You can use it as your central place to locate, manage, and complete your day-to-day work. It can help you efficiently work on high-velocity tasks, and promote inbox sessions to regular sessions when you need more time to resolve cases and finish your conversations.
 
-The view you see in your inbox depends on how your administrator has configured it. More information: [Configure the inbox](../administer/configure-inbox.md).
+The view you see in your inbox depends on how your administrator configured it. More information: [Configure the inbox](../administer/configure-inbox.md).
 
 Depending on how your inbox is configured, you might see any of the following channels:
 
