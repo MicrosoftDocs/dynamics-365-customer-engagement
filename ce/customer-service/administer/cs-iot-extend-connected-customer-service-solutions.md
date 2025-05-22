@@ -22,9 +22,9 @@ The Azure services and components, including the ones detailed in [Connected Cus
   
  For more information about extending these Azure services (or adding other ones) refer to the following developer resources:  
   
--   The [Microsoft Azure](https://azure.microsoft.com/) site for product descriptions, pricing and trial offers, documentation, downloads, blogs, and related resources, including the [Azure Documentation Center](/azure) for developers and administrators. Most developers prefer to download one or more [Azure SDKs](https://azure.microsoft.com/downloads/) and tools such as the [Azure Storage Explorer](https://storageexplorer.com/) and the [Azure Device Explorer](/azure/iot-fundamentals/howto-use-iot-explorer).   
+-   The [Microsoft Azure](https://azure.microsoft.com/) site: Product descriptions, pricing and trial offers, articles, downloads, blogs, and related resources. Includes the [Azure Documentation Center](/azure) for developers and administrators. Most developers prefer to download one or more [Azure SDKs](https://azure.microsoft.com/downloads/) and tools such as the [Azure Storage Explorer](https://storageexplorer.com/) and the [Azure Device Explorer](/azure/iot-fundamentals/howto-use-iot-explorer).   
   
--   [MSDN Channel 9](https://channel9.msdn.com/) for a wide selection of current and ever-growing [Azure videos and posts](https://channel9.msdn.com/tags/Azure/)    
+-   [MSDN Channel 9](https://channel9.msdn.com/): A wide selection of current and ever-growing [Azure videos and posts](https://channel9.msdn.com/tags/Azure/).   
   
 ## Extend Connected Customer Service
 
@@ -37,7 +37,7 @@ The following table lists the custom entities and processes that Connected Custo
 |-------------------------|----------|-----------------|  
 |IoT – Debounce IoT Alerts (`Microsoft.Dynamics.CRM.msdyn_ParentIoTAlerts`)|Action|Links potential redundant alerts to an existing parent alert|  
 |IoT - Parent IoT Alerts|Workflow|Calls the `IoT - Debounce IoT Alerts` action and passes 60 for the `TimespanSeconds` parameter|  
-|IoT – Register Custom Entity (`Microsoft.Dynamics.CRM.msdyn_RegisterCustomEntity`)|Action|Registers any custom entity that may or may not already have connected IoT devices. This action invokes the `IoT – Register Device` action.|  
+|IoT – Register Custom Entity (`Microsoft.Dynamics.CRM.msdyn_RegisterCustomEntity`)|Action|Registers any custom entity that may or may not include already-connected IoT devices. This action invokes the `IoT – Register Device` action.|  
 |IoT – Register Device (`Microsoft.Dynamics.CRM.msdyn_RegisterIoTDevice`)|Action|Publishes the registration requests for an IoT device|  
 |IoT – Send Test Alert (`Microsoft.Dynamics.CRM.msdyn_IoTSendTestAlert`)|Action|*Reserved for future use*|  
 |JSON-based Field Value – Get Boolean (`Microsoft.Dynamics.CRM.msdyn_JsonGetBoolean`)|Action|Reads a Boolean property in the specified JSON object|  
