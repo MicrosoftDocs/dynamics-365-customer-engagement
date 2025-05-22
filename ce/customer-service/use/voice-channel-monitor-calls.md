@@ -4,7 +4,7 @@ description: Learn how to monitor calls in the voice channel for Omnichannel for
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
-ms.date: 05/13/2025
+ms.date: 05/22/2025
 ms.topic: how-to
 
 ---
