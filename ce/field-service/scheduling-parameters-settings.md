@@ -1,7 +1,7 @@
 ---
 title: Configure scheduling parameters
 description: Learn about settings related to resource scheduling in Dynamics 365 Field Service.
-ms.date: 06/28/2024
+ms.date: 05/16/2025
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
@@ -24,6 +24,7 @@ Define settings for scheduling your resources.
 | Schedule Board Refresh Interval Seconds | Define how often the schedule board is refreshed. |
 | Auto Update Booking Travel | Enable or disable automatic updates to travel time and distance in the hourly view of the schedule board. |
 | Include Appointments | Enable [tracking of appointments for resources](./appointment-scheduling.md) on the schedule board. |
+| Enable Interday Account Names | Toggle on or off to display the service account on the booking template in the daily, weekly, or monthly view. |
 | Connect to Maps | Enable a [mapping service](./field-service-maps-address-locations.md) to calculate travel and show maps. If you want to use a specific map, enter the map API key. By default, Bing is used. |
 
 ## Schedule assistant
