@@ -70,7 +70,7 @@ You can define how to split a long-running requirement into individual bookings.
 
 1. Choose the requirement and set the duration, start time, and end times for the time window. Then select **Apply**.
 
-   For example, the time window is from 9am to 5pm with a three hour duration. When you schedule that requirement detail, the system books a resource for three hours between 9am and 5pm. The duration must be shorter than the time window.
+   For example, the time window is from 9 AM to 5 PM with a three hour duration. When you schedule that requirement detail, the system books a resource for three hours between 9 AM and 5 PM. The duration must be shorter than the time window.
 
 1. Add as many detail records as needed. Then select **Save**.
 
