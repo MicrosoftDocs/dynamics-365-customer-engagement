@@ -14,7 +14,7 @@ ms.reviewer: laalexan
 
 Chat for Dynamics 365 Contact Center allows customers to download and email a copy of their chat transcripts. When your administrator enables download and email options, customers can download or request an email of their chat transcript at any time during a chat session. At the end of the conversation, customers can request a transcript. If the customer requests an email of the chat transcript, the email is sent at the end of the conversation.
 
-**Prerequisite**: Administrators should set up mailboxes before enabling this feature, and must select the **Allow other Dynamics 365 users to send email on your behalf** checkbox for it to work. Learn more in [Dynamics 365 Email Setup](/troubleshoot/dynamics/crm/dynamics-365-email-setup-configuration) and [Dynamics 365 Email tab options](/dynamics365/customerengagement/on-premises/basics/set-personal-options#email-tab-options).
+**Prerequisite**: Administrators should set up mailboxes before enabling this feature, and must select the **Allow other Dynamics 365 users to send email on your behalf** checkbox for it to work. Learn more in [Send email on behalf of another user](../power-platform/admin/send-email-on-behalf) and [Dynamics 365 Email tab options](/dynamics365/customerengagement/on-premises/basics/set-personal-options#email-tab-options).
 
 ## Download and email chat transcripts
 
