@@ -84,7 +84,7 @@ To use the data from the Excel files, you must make sure of the following:
 
 - Name the files as msdyn_ocsitrainingdata.csv and msdyn_ocsitdskill.csv.
 
-- Ensure that the input data string is less than or equal to 5000 characters to avoid truncation.
+- Make sure that the input data string is less than or equal to 5000 characters to avoid truncation.
 
 - At a time, you can import one file only. Upload msdyn_ocsitrainingdata.csv followed by msdyn_ocsitdskill.csv.
 
