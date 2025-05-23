@@ -18,10 +18,10 @@ As an administrator, you can enable the feature that displays a customer's avera
 
 With this feature turned on, when customers are placed in the queue, they receive the notification: **Average wait time \<n\> mins.**
 
-The average wait time is calculated based on wait times from the previous 48 hours and a minimum of 50 conversations for the specific queue. This is an estimated time, and doesn't change for the customer. The average wait time is displayed only if the wait is one minute or longer. When there's no wait, the average wait time isn't displayed.
+The average wait time is calculated based on wait times from the previous 48 hours and a minimum of 50 conversations for the specific queue. This time is an estimate, and doesn't change for the customer. The average wait time is displayed only if the wait is one minute or longer. When there's no wait, the average wait time isn't displayed.
 
 > [!NOTE]
-> If skill-based routing is configured with exact skill match, the queue position that's displayed to a customer on the chat portal widget might not be accurate; therefore, the assignment of a service representative to the customer might take longer than expected.
+> If skill-based routing is configured with exact skill match, the queue position displayed to a customer on the chat portal widget might not be accurate. Therefore, the assignment of a service representative to the customer might take longer than expected.
 
 ## Enable average wait time
 
