@@ -1,7 +1,7 @@
 ---
 title: Create and manage basic queues for cases
 description: Learn how to set up basic queues to manage activities and cases in Dynamics 365 Customer Service.
-ms.date: 05/22/2025
+ms.date: 05/23/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -104,7 +104,7 @@ After you have saved the queue, the following changes happen in the SUMMARY tab:
    -  Select **Add Existing User**. Only those users that you add can work on the items in this queue. If you add a team as a member, only the existing team members can access the queue. New team members must be added manually to the queue to be able to access it.
    - The **QUEUE ITEMS** and **RECORD CREATION AND UPDATE RULES** sections appear.
 
-:::image type="content" source="../media/public-queue-summary-mini.png" alt-text="Summary view of a basic public queue." lightbox="../media/public-queue-summary.png":::
+:::image type="content" source="../media/public-queue-summary.png" alt-text="Summary view of a basic public queue." lightbox="../media/public-queue-summary.png":::
 
 ## Set up default views for routing dialogs
 
