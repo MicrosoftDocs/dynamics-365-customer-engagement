@@ -20,7 +20,7 @@ searchScope:
 
 # Configure channel providers in Dynamics 365 Channel Integration Framework 2.0
 
-Dynamics 365 Channel Integration Framework 2.0 is intended for multisession applications such as Omnichannel for Customer Service and Copilot Service workspace. You can configure channel providers for multisession applications either using Copilot Service admin center or Power Apps.
+Dynamics 365 Channel Integration Framework 2.0 is intended for multisession applications such as Omnichannel for Customer Service and Copilot Service workspace. You can configure channel providers for multisession applications using either Copilot Service admin center or Power Apps.
 
 More information: 
 - [Experience profiles](../../../customer-service/administer/overview.md)
