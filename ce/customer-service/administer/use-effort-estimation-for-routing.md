@@ -2,7 +2,7 @@
 title: Use effort estimation model in unified routing
 description: Learn how to use the effort estimation model in unified routing in Customer Service.
 ms.date: 05/02/2025
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -37,7 +37,7 @@ Some examples of how effort can be defined are as follows:
 
 You can create the effort estimation models for any record that is enabled for unified routing. You can provide the context to the model for training by selecting the attributes. At least two attributes are mandatory, and you can specify up to 10 attributes. Attributes that indicate severity and priority are useful.
 
-1. In the Customer Service admin center site map, select **Routing**. The **Routing** page appears.
+1. In the Copilot Service admin center site map, select **Routing**. The **Routing** page appears.
    
 2. Select **Manage** for **Effort-based routing**.
 

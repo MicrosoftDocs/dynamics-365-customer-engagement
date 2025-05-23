@@ -4,9 +4,8 @@ description: This page provides sample code for developers to trigger routing fo
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 05/05/2025
-ms.topic: article
-
+ms.date: 05/15/2025
+ms.topic: reference
 ---
 # Route noncase records using a plug-in
 

@@ -7,7 +7,7 @@ ms.reviewer: smurkute
 
 ms.suite:
 ms.tgt_pltfrm:
-ms.topic: article
+ms.topic: install-set-up-deploy
 applies_to: 
   - Dynamics 365 apps 
 ms.assetid: f6bb55c6-57fd-4f67-9964-31b5ec30dc73

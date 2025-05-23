@@ -1154,4 +1154,4 @@ Many-To-One Relationship: [syncerror msfp_survey_SyncErrors](syncerror.md#BKMK_m
 
 [Dataverse table/entity reference](/power-apps/developer/data-platform/reference/about-entity-reference)  
 [Dataverse Web API Reference](/power-apps/developer/data-platform/webapi/reference/about)   
-<xref:Microsoft.Dynamics.CRM.msfp_survey?displayProperty=fullName>
+

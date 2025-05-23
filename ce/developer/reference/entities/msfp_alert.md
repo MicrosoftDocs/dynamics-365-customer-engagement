@@ -2416,4 +2416,4 @@ Many-To-One Relationship: [syncerror msfp_alert_SyncErrors](syncerror.md#BKMK_ms
 
 [Dataverse table/entity reference](/power-apps/developer/data-platform/reference/about-entity-reference)  
 [Dataverse Web API Reference](/power-apps/developer/data-platform/webapi/reference/about)   
-<xref:Microsoft.Dynamics.CRM.msfp_alert?displayProperty=fullName>
+

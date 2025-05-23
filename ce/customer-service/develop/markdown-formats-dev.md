@@ -3,17 +3,17 @@ title: Markdown formats in custom channels that use Direct Line
 description: Use this article to understand how Markdown formats are passed through in custom messaging channels using Direct Line in Omnichannel for Customer Service.
 author: gandhamm
 ms.author: mgandham
-ms.date: 01/17/2023
-ms.topic: conceptual
+ms.date: 05/15/2025
+ms.topic: overview
 ms.custom: bap-template
 ms.reviewer: mgandham
 
 ---
 # Markdown formats in custom channels that use Direct Line
 
-In Omnichannel for Customer Service, you can send and receive messages formatted with Markdown in custom messaging channels using Direct Line API 3.0. As a developer, understanding how the Markdown format is passed through the channel and knowing the details of the format will help you update the HTML styling and tags in your own user interface.
+In Omnichannel for Customer Service, you can send and receive messages formatted with Markdown in custom messaging channels using Direct Line API 3.0. As a developer, understanding how the Markdown format is passed through the channel and knowing the details of the format helps you update the HTML styling and tags in your own user interface.
 
-In the Direct Line channel, when a customer service representative (service representative or representative) sends (*outbound*) a message formatted with Markdown to a Direct Line bot, the bot receives the message in a certain format. Now, if a bot receives (*inbound*) a formatted message from a customer, it must be able to correctly interpret the message that's formatted with Markdown. As a developer, you'll need to use Markdown appropriately so that the message is formatted correctly for your service representatives and customers.
+In the Direct Line channel, when a customer service representative (service representative or representative) sends (*outbound*) a message formatted with Markdown to a Direct Line bot, the bot receives the message in a certain format. Now, if a bot receives (*inbound*) a formatted message from a customer, it must be able to correctly interpret the message that's formatted with Markdown. As a developer, you need to use Markdown appropriately so that the message is formatted correctly for your service representatives and customers.
 
 ## Markdown formats
 
@@ -38,7 +38,7 @@ The following table lists the Markdown formats used in inbound messages sent by 
 
 For inbound messages, set the Markdown text to the [Activity](/azure/bot-service/rest-api/bot-framework-rest-connector-api-reference?view=azure-bot-service-4.0#activity-object&preserve-view=true) object's `text` property.
 
-For outbound messages, the Markdown text will be received in the [Activity](/azure/bot-service/rest-api/bot-framework-rest-connector-api-reference?view=azure-bot-service-4.0#activity-object&preserve-view=true) object's `text` property (similar to a normal message).
+For outbound messages, the Markdown text is received in the [Activity](/azure/bot-service/rest-api/bot-framework-rest-connector-api-reference?view=azure-bot-service-4.0#activity-object&preserve-view=true) object's `text` property (similar to a normal message).
 
 ## Next steps
 

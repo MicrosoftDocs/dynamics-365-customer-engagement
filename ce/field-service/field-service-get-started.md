@@ -86,8 +86,3 @@ Frontline workers use the mobile experience on their phone or tablet.
 
 The **Booking** tab shows the work order you scheduled to the frontline worker. Update the status of the booking and related details to indicate completion of the work order.
 
-## Analyze your operations
-
-In the Field Service web application, service managers can [analyze day-to-day operations with Power BI reports](reports.md).
-
-Reports appear under **Analytics and Insights**.

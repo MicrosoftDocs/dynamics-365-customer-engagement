@@ -4,7 +4,7 @@ description: Learn about the enhanced case management in Customer Service multis
 author: gandhamm 
 ms.author: mgandham 
 ms.reviewer: mgandham
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 04/30/2025 
 ms.custom: bap-template 
 ---

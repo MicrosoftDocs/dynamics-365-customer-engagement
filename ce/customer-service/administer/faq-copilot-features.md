@@ -2,7 +2,7 @@
 title: FAQ for copilot features
 description: FAQ for copilot features in Dynamics 365 Customer Service.
 ms.date: 12/24/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

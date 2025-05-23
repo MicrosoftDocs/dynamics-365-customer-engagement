@@ -218,7 +218,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Time range qualifier configured for this Copilot for Sales customer list. Used in conjunction with the msdyn_timerangetype field. Only used for list types other than "CRM list".**|
+|Description|**Time range qualifier configured for this Copilot for Sales customer list. Used in conjunction with the msdyn\_timerangetype field. Only used for list types other than "CRM list".**|
 |DisplayName|**Time range qualifier**|
 |IsValidForForm|True|
 |IsValidForRead|True|

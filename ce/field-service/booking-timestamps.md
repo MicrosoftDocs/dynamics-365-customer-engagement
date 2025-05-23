@@ -88,7 +88,6 @@ To view booking journals, open a bookable resource booking record and select **R
 
 ## Next steps
 
-- [Work order summary report](work-order-summary-report.md)
 - [Resource preferences](resource-preferences.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

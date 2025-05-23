@@ -316,8 +316,6 @@ items:
         href: set-up-booking-rules.md
       - name: Edit work hours calendar with APIs
         href: field-service-work-hours-calendar-api.md
-      - name: Analytics dashboard
-        href: scheduling-analytics-reports.md
       - name: Scheduling parameters (Settings)
         href: scheduling-parameters-settings.md
 
@@ -447,19 +445,6 @@ items:
       href: field-service-km-analyze.md
     - name: Submit feedback on knowledge articles
       href: field-service-km-ratings-feedback.md
-
-- name: Reports
-  items:
-    - name: Reports overview
-      href: reports.md
-    - name: Work order summary report
-      href: work-order-summary-report.md
-    - name: Resource and utilization report
-      href: resource-utilization-report.md
-    - name: Optimization summary report
-      href: rso-optimization-summary-report.md
-    - name: Admin report
-      href: rso-admin-report.md
 
 - name: Field Service Portal
   items:

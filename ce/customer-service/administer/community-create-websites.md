@@ -2,7 +2,7 @@
 title: Create new websites in Community | MicrosoftDocs
 description: Learn about how to create new websites in the Community for Dynamics 365 Customer Service.
 ms.date: 10/04/2021
-ms.topic: article
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan

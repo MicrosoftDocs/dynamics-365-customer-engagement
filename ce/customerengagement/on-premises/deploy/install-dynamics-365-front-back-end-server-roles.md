@@ -6,7 +6,7 @@ ms.custom:
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: install-set-up-deploy
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: e113ca28-98da-495a-946d-ab7dee21a25b

@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 03/03/2025
+ms.date: 05/09/2025
 ms.custom: bap-template
 ai.usage: ai-assisted
 ---
@@ -51,7 +51,7 @@ The following table lists the activities that can appear in Customer Service aud
 | subject | Categorize cases for quick service to customers. |
 | convertrule | Automatically create or update records. |
 | incident | Track multiple issues for customers. |
-| advancedsimilarityrule | View similar cases in the Customer Service admin center. |
+| advancedsimilarityrule | View similar cases in the Copilot Service admin center. |
 | SaveSettingValue | Simplify case experience for productivity. |
 | msdyn_integratedsearchprovider | Ingest knowledge search data into an organization. |
 | msdyn_kmfederatedsearchconfig | Find and share knowledge from multiple sources. |

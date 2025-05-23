@@ -2,8 +2,8 @@
 title: "Inventory Transfer (msdyn_inventorytransfer) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Inventory Transfer (msdyn_inventorytransfer) table/entity with Microsoft Dynamics 365 Field Service."
 ms.topic: generated-reference
-author: m-hartmann
-ms.author: mhart
+author: puneet-singh1
+ms.author: puneetsingh
 search.audienceType: 
   - developer
 ---
@@ -102,7 +102,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Internal field used to generate the next name upon entity creation. It is optionally copied to the msdyn_name field.**|
+|Description|**Internal field used to generate the next name upon entity creation. It is optionally copied to the msdyn\_name field.**|
 |DisplayName|**Auto-Numbering**|
 |IsValidForForm|True|
 |IsValidForRead|True|

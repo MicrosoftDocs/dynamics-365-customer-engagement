@@ -1,8 +1,8 @@
 ---
-title: Knowledge base search with model-driven apps in Unified Service Desk
+title: Use model-driven apps for knowledge base search in Unified Service Desk
 description: Use the KM Control and Unified Interface KM Control to allow agents to search the knowledge base in Microsoft Dataverse with model-driven apps in Unified Service Desk.
-ms.date: 03/27/2024
-ms.topic: article
+ms.date: 05/15/2025
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 search.audienceType:
@@ -37,9 +37,9 @@ For information about the `Search` action and its parameters, see [Search](../un
 
 ## Set the knowledge base article context
 
- The knowledge base article returned in the search result contains the metadata of the article, such as article name, private URL, public URL, and unique ID. You can use this information in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], through replacement parameters, in other hosted controls where the article will be displayed to dynamically set the tab name, or to provide contextual actions (copy link, associate or dissociate to current case (incident) article) for the current knowledge base article. To use the metadata information of an article, use the [SetArticleContext](../unified-service-desk/km-control-hosted-control.md#SetArticleContext) action to set the context of the article and pass it on to the hosted control where it will be used.
+ The knowledge base article returned in the search result contains the metadata of the article, such as article name, private URL, public URL, and unique ID. You can use this information in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], through replacement parameters, in other hosted controls where the article will be displayed to dynamically set the tab name, or to provide contextual actions (copy link, associate, or dissociate to current case (incident) article) for the current knowledge base article. To use the metadata information of an article, use the [SetArticleContext](../unified-service-desk/km-control-hosted-control.md#SetArticleContext) action to set the context of the article and pass it on to the hosted control where it's used.
 
- Additionally, you must include the `SetArticleContext` action in the `ResultOpen` event of the hosted control if you're displaying a knowledge base article in another hosted control to be able to use the context information in the target hosted control. You must include the action in the `SelectionChange` event if you'll be configuring contextual actions for a selected knowledge base article in the KM Control itself. Include it in both the events if you'll be configuring both the functionalities in your agent application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Predefined events](../unified-service-desk/km-control-hosted-control.md#events)
+ Additionally, you must include the `SetArticleContext` action in the `ResultOpen` event of the hosted control if you're displaying a knowledge base article in another hosted control to be able to use the context information in the target hosted control. You must include the action in the `SelectionChange` event if you are configuring contextual actions for a selected knowledge base article in the KM Control itself. Include it in both the events if you are configuring both the functionalities in your agent application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Predefined events](../unified-service-desk/km-control-hosted-control.md#events)
 
  For information on how to define an action call for setting the article context and include it in an event, see [Step 5: Configure hosted controls and action calls to display an article in a tab](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md#Step5) in the walkthrough.
 
@@ -61,7 +61,7 @@ articlepublicurl=[[KB Search.publicUrl]]
 ```
 
 > [!NOTE]
->If you are using the knowledge base, the `articleprivateurl` parameter isn't applicable, and therefore the respective replacement parameter (in this case, `[[KB Search.serviceDeskUri]]`) will always be null. So, you should use `articleprivateurl=[[KB Search.serviceDeskUri]+]` instead of `articleprivateurl=[[KB Search.serviceDeskUri]]` to ensure that a null or non-existent key is replaced with a blank string, or use conditions if you plan to use Dataverse . Also, the replacement parameter for `articlepublicurl` (in this case `[[KB Search.publicUrl]]`) will contain data only if the knowledge article is already published to an external portal (**Use an external portal** option is selected in the **Knowledge Base management Settings** dialog box in Dataverse).
+>If you're using the knowledge base, the `articleprivateurl` parameter isn't applicable, and therefore the respective replacement parameter (in this case, `[[KB Search.serviceDeskUri]]`) is null. So, you should use `articleprivateurl=[[KB Search.serviceDeskUri]+]` instead of `articleprivateurl=[[KB Search.serviceDeskUri]]` to ensure that a null or non-existent key is replaced with a blank string, or use conditions if you plan to use Dataverse. Also, the replacement parameter for `articlepublicurl` (in this case `[[KB Search.publicUrl]]`) will contain data only if the knowledge article is already published to an external portal (**Use an external portal** option is selected in the **Knowledge Base management Settings** dialog box in Dataverse).
 
  The following syntax shows the data parameter you can use with the `Disassociate` action on the `KM Control` (say `KB Search`) to disassociate an article from an incident record.
 

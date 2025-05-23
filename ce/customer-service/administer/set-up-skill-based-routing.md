@@ -1,7 +1,7 @@
 ---
 title: Set up skill-based routing in unified routing
 description: Use the information to set up skill-based routing for unified routing in Customer Service.
-ms.date: 12/18/2024
+ms.date: 04/20/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -18,7 +18,7 @@ The steps to configure skill-based routing are as follows:
 
 1. [Create a rating model](setup-skills-assign-agents.md#create-a-rating-model).
 2. [Create skill types and skills](setup-skills-assign-agents.md#create-skill-types).
-3. [Assign representative to skills](setup-skills-assign-agents.md#assign-agents-to-skill).
+3. [Assign representatives to skills](setup-skills-assign-agents.md#assign-representatives-to-skill).
 4. [Set exact or closest match as the default skill-matching algorithm for a workstream](create-workstreams.md#configure-work-distribution).
 5. Choose one of the following skill-classification methods:
    - [Author logical classification rules to attach skills for a workstream](configure-work-classification.md#create-logical-skill-classification-rulesets).

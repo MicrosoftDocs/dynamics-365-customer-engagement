@@ -2,7 +2,7 @@
 title: Customer Service Hub app removal and migration FAQ
 description: Learn about frequently asked questions about the Customer Service Hub app removal and migration to Customer Service workspace.
 ms.date: 03/03/2025
-ms.topic: conceptual
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan

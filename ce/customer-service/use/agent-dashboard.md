@@ -2,7 +2,7 @@
 title: Agent dashboard in Omnichannel historical analytics
 description: Learn about the Agent dashboard in Omnichannel historical analytics to better understand customer service representative performance in your organization.
 ms.date: 04/30/2025
-ms.topic: article
+ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
