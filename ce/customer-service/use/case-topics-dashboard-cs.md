@@ -1,7 +1,7 @@
 ---
 title: Topics dashboard
 description: Learn about the Topics dashboard insights to better understand agent performance in your organization.
-ms.date: 05/22/2025
+ms.date: 05/23/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -25,7 +25,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Topics dashboard
 
-The Topics dashboard shows a detailed breakdown of cases and their assigned topics. Customer Service Insights uses AI-generated topics and natural language understanding to automatically group your cases which helps you understand how different case types and topic areas affect your organization’s support performance.
+The Topics dashboard shows a detailed breakdown of cases and their assigned topics. Customer Service Insights uses AI-generated topics and natural language understanding to automatically group your cases. This functionality can help you understand how different case types and topic areas affect your organization’s support performance.
 
 ![Topics dashboard.](../media/topics-dashboard-analytics-cs.png "Topics dashboard")
 
@@ -61,7 +61,7 @@ The topics dashboard report shows the following KPIs.
 |------------|--------------|
 | Incoming cases   |  The number of cases created to support customers.     |
 | Active cases  |  The number of cases that are currently open.      |
-| Escalated rate   | The percentage of cases that have been escalated.     |
+| Escalated rate   | The percentage of cases that were escalated.     |
 | Avg. resolve time (hrs)   | The average time a representative took to resolve the case.   |
 | SLA compliance | The percentage of cases that met the defined SLA.|
 | Average CSAT    | The average customer satisfaction score, based on written feedback submitted by the customer in the Customer Voice survey.   |
@@ -102,7 +102,7 @@ The topics capability in the Customer Service historical analytics reports comes
 - Spanish 
 
 > [!NOTE]
-> While topic discovery isn't prevented and is still possible in languages that aren't listed above, there may be differences in what users experience if they leverage topics in unsupported languages.
+> While users can still use topic discovery in languages that aren't listed in this section, there might be differences in what they experience if they use topic discovery in unsupported languages.
 
 ### Related information
 
