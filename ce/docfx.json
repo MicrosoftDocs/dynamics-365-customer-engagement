@@ -338,7 +338,7 @@
         ]
       },
       "ms.reviewer": {
-        "field-service/**.*": "mhart"
+        "field-service/**.*": "puneet-singh1"
       },
       "titleSuffix": {
         "field-service/*.md": "Dynamics 365 Field Service",
