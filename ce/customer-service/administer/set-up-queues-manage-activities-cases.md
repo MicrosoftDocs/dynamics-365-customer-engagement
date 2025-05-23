@@ -120,7 +120,7 @@ To optimize customer service representative (service representative or represent
 
 1. Save and close.
 
-:::image type="content" source="../media/queue-routing-dialogs.png" alt-text="Routing dialogs in queues":::
+:::image type="content" source="../media/queue-routing-dialogs.png" alt-text="Screenshot of routing dialogs.":::
 
 At runtime, your representatives see the views that you have set for them.
 
