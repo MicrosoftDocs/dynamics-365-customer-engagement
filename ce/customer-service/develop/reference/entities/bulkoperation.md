@@ -22,6 +22,9 @@ System operation used to perform lengthy and asynchronous operations on large da
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [bulkoperation_msdyn_bookingalerts](#BKMK_bulkoperation_msdyn_bookingalerts)
+- [bulkoperation_msdyn_ocoutboundmessages](#BKMK_bulkoperation_msdyn_ocoutboundmessages)
+
 ### <a name="BKMK_bulkoperation_msdyn_bookingalerts"></a> bulkoperation_msdyn_bookingalerts
 
 Many-To-One Relationship: [msdyn_bookingalert bulkoperation_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_bulkoperation_msdyn_bookingalerts)
@@ -32,6 +35,18 @@ Many-To-One Relationship: [msdyn_bookingalert bulkoperation_msdyn_bookingalerts]
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`bulkoperation_msdyn_bookingalerts`|
 |IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `7f15e2bb-305a-468f-9af7-be865755a984`|
+
+### <a name="BKMK_bulkoperation_msdyn_ocoutboundmessages"></a> bulkoperation_msdyn_ocoutboundmessages
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage bulkoperation_msdyn_ocoutboundmessages](msdyn_ocoutboundmessage.md#BKMK_bulkoperation_msdyn_ocoutboundmessages)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`bulkoperation_msdyn_ocoutboundmessages`|
+|IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `7f15e2bb-305a-468f-9af7-be865755a984`|
 
 
