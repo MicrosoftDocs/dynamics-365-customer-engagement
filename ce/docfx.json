@@ -178,7 +178,7 @@
         "developer/reference/entities/*.md" : "05/21/2025",
         "field-service/developer/reference/entities/*.md" : "05/22/2025",
         "sales/developer/entities/*.md" : "01/26/2025",
-        "customer-service/develop/reference/entities/*.md" : "01/27/2025"
+        "customer-service/develop/reference/entities/*.md" : "05/22/2025"
       },
       "ms.custom": {
         "unified-service-desk/**.*": "evergreen"
@@ -338,7 +338,7 @@
         ]
       },
       "ms.reviewer": {
-        "field-service/**.*": "mhart"
+        "field-service/**.*": "puneet-singh1"
       },
       "titleSuffix": {
         "field-service/*.md": "Dynamics 365 Field Service",
