@@ -175,8 +175,8 @@
       "ms.date": {
         "unified-service-desk/**.*": "06/27/2024",
         "customerengagement/**.*": "12/13/2024",
-        "developer/reference/entities/*.md" : "01/23/2025",
-        "field-service/developer/reference/entities/*.md" : "02/07/2025",
+        "developer/reference/entities/*.md" : "05/21/2025",
+        "field-service/developer/reference/entities/*.md" : "05/22/2025",
         "sales/developer/entities/*.md" : "01/26/2025",
         "customer-service/develop/reference/entities/*.md" : "01/27/2025"
       },

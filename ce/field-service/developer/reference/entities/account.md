@@ -2,8 +2,8 @@
 title: "Account table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Account table/entity with Microsoft Dynamics 365 Field Service."
 ms.topic: generated-reference
-author: m-hartmann
-ms.author: mhart
+author: puneet-singh1
+ms.author: puneetsingh
 search.audienceType: 
   - developer
 ---
@@ -24,7 +24,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_BillingAccount](#BKMK_msdyn_BillingAccount)
 - [msdyn_PreferredResource](#BKMK_msdyn_PreferredResource)
 - [msdyn_SalesTaxCode](#BKMK_msdyn_SalesTaxCode)
-- [msdyn_segmentid](#BKMK_msdyn_segmentid)
 - [msdyn_ServiceTerritory](#BKMK_msdyn_ServiceTerritory)
 - [msdyn_TaxExempt](#BKMK_msdyn_TaxExempt)
 - [msdyn_TaxExemptNumber](#BKMK_msdyn_TaxExemptNumber)
@@ -71,19 +70,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Lookup|
 |Targets|msdyn_taxcode|
-
-### <a name="BKMK_msdyn_segmentid"></a> msdyn_segmentid
-
-|Property|Value|
-|---|---|
-|Description|**Unique identifier for Segment associated with account.**|
-|DisplayName|**Segment Id**|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|`msdyn_segmentid`|
-|RequiredLevel|None|
-|Type|Lookup|
-|Targets|msdyn_segment|
 
 ### <a name="BKMK_msdyn_ServiceTerritory"></a> msdyn_ServiceTerritory
 
