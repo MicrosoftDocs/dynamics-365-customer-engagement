@@ -24,7 +24,7 @@ For information about older versions, see [Version history archive](version-hist
 | | *USG* |  [8.8.134.558](/dynamics365/field-service/version-history#88134558)  |  TBD |06/04/2025 |
 |**Station 4** |*Europe* |[8.8.134.558](/dynamics365/field-service/version-history#88134558) |  TBD | 06/20/2025 |
 |**Station 5** | *North America*|  [8.8.134.558](/dynamics365/field-service/version-history#88134558)  | TBD |  06/27/2025 |
-|**Station 6** |*Government Community Cloud, DoD, China* | [8.8.133.214](/dynamics365/field-service/version-history#88133214)   |  TBD  |  08/01/2025 |
+|**Station 6** |*Government Community Cloud, DoD, China* | [8.8.133.214](/dynamics365/field-service/version-history#88133214)   |  TBD  |  06/25/2025 |
 | | *Dedicated Scale Groups* | [8.8.134.558](/dynamics365/field-service/version-history#88134558)  | TBD  |  07/04/2025 |
 >[!NOTE]
 >
