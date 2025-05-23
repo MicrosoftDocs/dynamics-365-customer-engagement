@@ -79,9 +79,6 @@ items:
 - name: "Duplicate Detection Rule"
   displayName: "DuplicateRule entity"
   href: duplicaterule.md
-- name: "Flow Capacity Assignment"
-  displayName: "flowcapacityassignment entity"
-  href: flowcapacityassignment.md
 - name: "Forecast"
   displayName: "msdyn_forecastinstance entity"
   href: /dynamics365/developer/reference/entities/msdyn_forecastinstance?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
@@ -232,7 +229,7 @@ items:
 - name: "Unit Group"
   displayName: "UoMSchedule entity"
   href: /dynamics365/developer/reference/entities/uomschedule?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
-- name: "UR RecordRouting Real-time Analytics"
+- name: "UR RecordRouting Real-time Analytics"
   displayName: "msdyn_dataanalyticsreport_ur_recordrouting_rt entity"
   href: msdyn_dataanalyticsreport_ur_recordrouting_rt.md
 - name: "wkwcolleaguesforcompany"
