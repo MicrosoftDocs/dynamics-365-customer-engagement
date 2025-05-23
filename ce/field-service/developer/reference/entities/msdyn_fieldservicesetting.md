@@ -2,8 +2,8 @@
 title: "Field Service Setting (msdyn_fieldservicesetting) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Field Service Setting (msdyn_fieldservicesetting) table/entity with Microsoft Dynamics 365 Field Service."
 ms.topic: generated-reference
-author: m-hartmann
-ms.author: mhart
+author: puneet-singh1
+ms.author: puneetsingh
 search.audienceType: 
   - developer
 ---
@@ -723,9 +723,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|
 |---|---|
-|192350000|**Cascade and Accept Cascade Completely \(Not Recommended\)**|
+|192350000|**Cascade and Accept Cascade Completely (Not Recommended)**|
 |192350001|**Crew Leader Management**|
-|192350002|**Crew Member Self\-Management**|
+|192350002|**Crew Member Self-Management**|
 
 ### <a name="BKMK_msdyn_DefaultRadiusUnit"></a> msdyn_DefaultRadiusUnit
 
@@ -1786,7 +1786,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Value|Label|
 |---|---|
 |192355200|**Manual**|
-|192355201|**Auto\-Generate from Booking Timestamps**|
+|192355201|**Auto-Generate from Booking Timestamps**|
 
 ### <a name="BKMK_msdyn_TimestampFrequency"></a> msdyn_TimestampFrequency
 
