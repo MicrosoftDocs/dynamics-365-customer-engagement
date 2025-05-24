@@ -4,7 +4,7 @@ description: Learn how to monitor calls in the voice channel for Omnichannel for
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
-ms.date: 05/22/2025
+ms.date: 05/23/2025
 ms.topic: how-to
 
 ---
@@ -34,7 +34,7 @@ To find out details about an individual conversation:
 
 ## Consult with an agent during a conversation
 
-As a supervisor, you can privately consult with a representative by sending them messages that are hidden from the customer. Consulting on a call doesn't impact your capacity.
+As a supervisor, you can privately consult with a representative by sending them messages that are hidden from the customer. Consulting on a call doesn't affect your capacity.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of monitoring a conversation.](../media/voice-channel-monitor-barge.png)
@@ -51,7 +51,7 @@ By joining a conversation, you have access to call controls that allow you to ca
 ### Related information
 
 [Introduction to the voice channel](../administer/voice-channel.md)  
-[Provision and set up the voice channel](../administer/voice-channel-install.md)  
+[Set up the voice channel](../administer/voice-channel-install.md)  
 [Set up outbound calling](../administer/voice-channel-outbound-calling.md)  
 [Route incoming calls to representatives](../voice-channel-route-queues.md)  
 [Add Azure Bot Service for conversational IVR](../voice-channel-azure-bot-service.md)  
