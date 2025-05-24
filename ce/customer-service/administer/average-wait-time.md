@@ -1,7 +1,7 @@
 ---
 title: Show customers their average wait time in a queue
 description: Learn how to show customers their average wait time.
-ms.date: 05/22/2025
+ms.date: 05/23/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
