@@ -22,6 +22,9 @@ Container for campaign activities and responses, sales literature, products, and
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [campaign_msdyn_bookingalerts](#BKMK_campaign_msdyn_bookingalerts)
+- [campaign_msdyn_ocoutboundmessages](#BKMK_campaign_msdyn_ocoutboundmessages)
+
 ### <a name="BKMK_campaign_msdyn_bookingalerts"></a> campaign_msdyn_bookingalerts
 
 Many-To-One Relationship: [msdyn_bookingalert campaign_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_campaign_msdyn_bookingalerts)
@@ -32,6 +35,18 @@ Many-To-One Relationship: [msdyn_bookingalert campaign_msdyn_bookingalerts](msdy
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`campaign_msdyn_bookingalerts`|
 |IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_campaign_msdyn_ocoutboundmessages"></a> campaign_msdyn_ocoutboundmessages
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage campaign_msdyn_ocoutboundmessages](msdyn_ocoutboundmessage.md#BKMK_campaign_msdyn_ocoutboundmessages)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`campaign_msdyn_ocoutboundmessages`|
+|IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
