@@ -97,8 +97,8 @@
            items:
            - name: Enable bot context for Copilot agents
              href: enable-bot-context-pva.md   
-          - name: Code samples for parsing activity JSON 
-            href: bot-context-json-samples.md
+         - name: Code samples for parsing activity JSON 
+           href: bot-context-json-samples.md
         - name: Configure Azure agents to escalate and end conversations
           href: bot-escalate-end-conversation.md
         - name: Download file attachments from Azure agents
