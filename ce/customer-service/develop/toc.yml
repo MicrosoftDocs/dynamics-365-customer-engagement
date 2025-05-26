@@ -85,20 +85,22 @@
           href: reference/methods/message-object.md  
       - name: AI agents
         items:
-         - name: Configure AI agent context
-           href: enable-bot-context.md
-         - name: Azure agents
-           items:
-           - name: Enable bot context for Azure bots
-             href: enable-bot-context-azure.md
-           - name: Parse event activity JSON to get bot context
-             href: parse-activity-json-to-get-bot-context.md
-         - name: Copilot Studio
-           items:
-           - name: Enable bot context for Copilot agents
-             href: enable-bot-context-pva.md   
-         - name: Code samples for parsing activity JSON 
-           href: bot-context-json-samples.md
+        - name: Configure AI agents
+          items:
+          - name: Configure AI agent context
+            href: enable-bot-context.md
+          - name: Azure agents
+            items:
+            - name: Enable bot context for Azure bots
+              href: enable-bot-context-azure.md
+            - name: Parse event activity JSON to get bot context
+              href: parse-activity-json-to-get-bot-context.md
+          - name: Copilot Studio
+            items:
+            - name: Enable bot context for Copilot agents
+              href: enable-bot-context-pva.md   
+          - name: Code samples for parsing activity JSON 
+            href: bot-context-json-samples.md
          - name: Configure Azure agents to escalate and end conversations
            href: bot-escalate-end-conversation.md
          - name: Download file attachments from Azure agents
