@@ -3,7 +3,7 @@ title: Configure a post-call survey in the voice channel
 description: Learn about how to configure a post-call survey for the voice channel in Omnichannel for Customer Service.
 author: lalexms
 ms.author: laalexan
-ms.date: 03/03/2025
+ms.date: 05/23/2025
 ms.topic: how-to
 ms.collection:
 ms.reviewer: laalexan
@@ -68,7 +68,7 @@ You can add messages or questions to a Copilot Studio IVR agent to create a post
 
 
 > [!TIP]
-> The agent author can use Power Automate to implement custom business logic to decide who receives a survey (for example, the agent may decide to survey someone random, VIP customers, and so forth)
+> The agent author can use Power Automate to implement custom business logic to decide who receives a survey. For example, the agent might decide to survey someone random, VIP customers, and so forth.
 
 ## Connect your agent 
 
@@ -82,19 +82,19 @@ You can add messages or questions to a Copilot Studio IVR agent to create a post
 
 To route the customer to the survey agent automatically after the agent hangs up, perform the following steps:
 
-1. In the Customer Service admin center or Contact Center admin center app, select your voice workstream, and then select **Edit** next to the pencil icon to modify the settings.
+1. In the Copilot Service admin center or Contact Center admin center app, select your voice workstream, and then select **Edit** next to the pencil icon to modify the settings.
 1. Under **Language**, scroll to the bottom of the dialog, and then toggle **Post-call survey** to **On**.
 1. From the dropdown menu, select the survey agent.
 1. Select **Confirm**.
 
-## Set up representative initiated survey
+## Set up agent-initiated survey
 
-To enable agent initiated feedback, create a queue where the only agent is the survey agent user.
+To enable agent-initiated feedback, create a queue where the only agent is the survey agent user.
 
    > [!div class="mx-imgBorder"]
    > ![Agent-initiated survey.](../media/voice-survey-pva-agent-initiated.png)
 
-### Try out the representative initiated survey
+### Try out the agent-initiated survey
 
 Transfer the call to the survey queue.
 
@@ -106,9 +106,9 @@ When answered, this sends the user to the agent's greeting topic.
    > [!div class="mx-imgBorder"]
    > ![Configure agent initiated survey in Copilot Studio.](../media/voice-survey-pva-agent-initiated-greeting.png)
 
-## View Survey Results
+## View survey results
 
-You can view the survey results on the **Analytics > Sessions** tab.
+You can review the survey results on the **Analytics > Sessions** tab.
 
    > [!div class="mx-imgBorder"]
    > ![Dashboard](../media/pva-view-survey-results.png)
@@ -117,7 +117,6 @@ You can view the survey results on the **Analytics > Sessions** tab.
 
 [Introduction to the voice channel](voice-channel.md)  
 [Outbound calling](voice-channel-outbound-calling.md)  
-[Route incoming calls to agents](../voice-channel-route-queues.md)  
 [Integrate an Azure bot](../configure-bot.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
