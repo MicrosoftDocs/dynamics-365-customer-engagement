@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to 
 ms.collection: 
-ms.date: 03/28/2025
+ms.date: 05/27/2025
 ms.custom: bap-template
 ---
 
@@ -26,7 +26,6 @@ The following channels only are supported:
     - WeChat
     - Apple Messages for Business 
 
-
 ## Prerequisite
 
 The Omnichannel Administrator role.
@@ -45,7 +44,9 @@ For the automatic actions to run, set up the time-out rules per workstream. You 
 1. In **Add new timeout rule**, do the following steps in **Rule details**:
    - Enter a rule name.
    - Set the **Status** toggle to active.
-   - **Trigger event**: The **Customer Non-Response Time** value is selected by default. The duration that the customer hasn't sent back a message, and the last message sent in the conversation is from the service representative. The duration is calculated by subtracting the current time from the time that representative sent the last message. The system calculates the duration only when the last message is from the service representative.
+   - **Trigger event**: Select one of the following events:
+       - **Customer Non-Response Time**: The duration that the customer hasn't sent back a message, and the last message sent in the conversation is from the service representative. The duration is calculated by subtracting the current time from the time that representative sent the last message. The system calculates the duration only when the last message is from the service representative.
+       - **Representative Non-Response Time**: The duration that the  representative hasn't sent back a message, and the last message sent in the conversation is from the customer.
    - Select a workstream that corresponds to the channels where you want the rule to run.
 1. In **Trigger conditions**, for the trigger event that you selected on the previous page, enter the following:
    - **Operator**: By default, **Greater than**.
@@ -62,7 +63,8 @@ For the automatic actions to run, set up the time-out rules per workstream. You 
            
         :::image type="content" source="../media/timeout-rule-action.png" alt-text="Screenshot of time-out rule action settings.":::
 
-   - **Autoclose conversation**: Closes the conversation automatically based on the duration that's set for the channel. The conversation moves from open, active, or waiting to the closed state and the system frees the representative capacity.
+   - **Close conversation**: Closes the conversation automatically based on the duration that's set for the channel. The conversation moves from open, active, or waiting to the closed state and the system frees the representative capacity.
+   - **Move active conversation to waiting**: For asynchronous messaging or persistent chat channels, the system moves the active conversation to the waiting state. The representative receives a notification when the customer restarts the conversation. Rpresentatives can restart the conversation from their inbox.
 1. Select **Done**. The rule that you created is listed on the **Timeout rules** page. 
 1. You can then set a priority for the rules by entering a value. If two conditions are same, then priority determines the time-out rule to run. The workstream rules are independent of each other and follow the priority of their workstream order.
 
