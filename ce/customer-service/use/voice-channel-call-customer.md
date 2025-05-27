@@ -77,14 +77,13 @@ To test your microphone and speaker, do the following steps:
 
 The outbound dialer pane displays the following information:
 
-- A widget appears with the message, Communication panel loading, and the call has started.
+- A widget appears with the message, Communication panel loading, and that the call has started.
 - When the call connects, you see the customer details on the conversation page. The widget displays the call status, and the **Mute** and **End call** call controls.
 - The call controls you select on the widget, reflect on the ongoing call in Communication panel. For example, if you select **Mute** on the widget, the call is muted in the Communication panel.
 - You can view all the active calls, inbound and outbound, on the widget.
 - If you have multiple active calls, the calls are displayed.
-   > [!NOTE]
-   > If you need more trial minutes or phone numbers, we recommend that you raise a request with Microsoft Support.
 
+    :::image type="content" source="../media/outbound-dialer-improvement.png" alt-text="Screenshot of widget with Outbound dialer for voice calls.":::
 
 
 ### Related information
