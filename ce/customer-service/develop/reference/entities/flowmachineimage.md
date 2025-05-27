@@ -13,7 +13,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Flow Machine Image (flowmachineimage) table extends the [Microsoft Dataverse Flow Machine Image (flowmachineimage) table](/power-apps/developer/data-platform/reference/entities/flowmachineimage).
+> The Microsoft Dynamics 365 Customer Service Flow Machine Image (flowmachineimage) table extends the [Microsoft Dynamics 365 Flow Machine Image (flowmachineimage) table](/dynamics365/developer/reference/entities/flowmachineimage).
 
 
 

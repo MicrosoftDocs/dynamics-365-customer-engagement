@@ -122,3 +122,4 @@ The Sales Qualification Agent ranks leads based on how well they match the ideal
 ## Related information
 
 - [Sales Qualification Agent FAQ](sales-qualification-agent-faq.md)
+- [Set up the Sales Qualification Agent](configure-sales-qualification-agent.md)

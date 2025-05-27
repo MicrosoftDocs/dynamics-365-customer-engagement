@@ -1,5 +1,5 @@
 ---
-title: Enable Copilot features in Customer Service
+title: Manage Copilot features in Customer Service
 description: Learn how to enable the various Copilot features in Customer Service.
 author: gandhamm
 ms.author: mgandham
@@ -14,11 +14,7 @@ ms.collection: bap-ai-copilot
 
 Copilot in Customer Service provides real-time AI assistance that helps customer service representatives (service representatives or representatives) automate time-consuming tasks to handle cases efficiently and resolve issues faster so that they can deliver value to customers.
 
-When you enable the Copilot features, representatives can do the following actions in the Copilot Service workspace app: 
-- Respond to questions
-- Compose an email
-- Draft a chat response
-- Summarize a case and conversation
+When you turn on Copilot features, representatives can respond to questions, compose emails, draft chat responses, and summarize case and conversations in the Copilot Service workspace app.
 
 However, for representatives to use these features in Customer Service Hub and custom apps, you must perform the steps in [Enable Copilot features](copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps). 
 
@@ -63,7 +59,7 @@ Learn about supported languages for Copilot in [Language support for AI-based an
 
 ## Data sharing for copilot features
 
-You can enable data sharing for Dynamics 365 copilot features in the Power Platform admin center app. Data sharing allows Microsoft to capture and manually review customer data, including, but not limited to, users' natural language inputs, outputs, and related telemetry to build, improve, and/or validate Microsoft's features, services, machine learning models, and related systems for Dynamics 365 and Power Platform Copilot AI features. We don't use customer data to train Azure OpenAI Service foundation models.
+You can turn on data sharing for Dynamics 365 copilot features in the Power Platform admin center app. Data sharing allows Microsoft to capture and manually review customer data, including, but not limited to, users' natural language inputs, outputs, and related telemetry to build, improve, and/or validate Microsoft's features, services, machine learning models, and related systems for Dynamics 365 and Power Platform Copilot AI features. We don't use customer data to train Azure OpenAI Service foundation models.
 
 Learn more in [Tenant settings](/power-platform/admin/tenant-settings) and [FAQ for optional data sharing for Copilot AI features in Dynamics 365 and Power Platform](/power-platform/faqs-copilot-data-sharing).
 
@@ -71,8 +67,8 @@ Learn more in [Tenant settings](/power-platform/admin/tenant-settings) and [FAQ 
 
 In Copilot Service admin center, on the [**Copilot for questions and emails**](/dynamics365/contact-center/administer/copilot-enable-help-pane) or [**Summaries**](/dynamics365/contact-center/administer/copilot-enable-summary) pages, the application displays the following message and links:
 
-- An error message to enable data movement across regions if you're in a region where Copilot features aren't available by default or if you want to opt out of using Copilot.
-- A link to the Power Platform admin center app to enable data movement across regions.
+- An error message to allow data movement across regions if you're in a region where Copilot features aren't available by default or if you want to opt out of using Copilot.
+- A link to the Power Platform admin center app to allow data movement across regions.
 - The data movement status.
 - A link to review the terms and conditions. You can select **Opt in** to continue with the setup.  
 
@@ -80,11 +76,16 @@ In Copilot Service admin center, on the [**Copilot for questions and emails**](/
 
 ## Opt out of using Copilot features
 
-In Copilot Service admin center, opt out from the Copilot features on the **Copilot for questions and emails** or **Summaries** page. When you opt out, the application erases the training data. If you want to use the features again, you must consent to the terms of use and opt in.
+In Copilot Service admin center, opt out from the Copilot features on the **Copilot for questions and emails** or **Summaries** page. You can navigate to these pages using one of the following navigation options:
+
+- **Support Experience** > **Productivity** 
+- **Operations** > **Insights** 
+
+When you opt out, the application erases the training data. If you want to use the features again, you must consent to the terms of use and opt in.
 
 ## Make Copilot available to representatives
 
-For representatives to be able to use the Copilot features in Copilot Service workspace, you need to enable the Copilot features in [Experience profiles](add-profile-default.md). By default, representatives added to the out-of-the-box experience profiles can use the Copilot features.
+In order for representatives to be able to use the Copilot features in Copilot Service workspace, you need to enable the Copilot features in [Add users to experience profiles](add-profile-default.md). By default, representatives added to the out-of-the-box experience profiles can use the Copilot features.
 
 If you want to limit the features that representatives can use, you can create a custom experience profile and enable the required features. You can then [assign the custom profile to the representatives](add-profile-default.md).
 
@@ -139,11 +140,11 @@ Out of the box, users with the Customer Service Representative role only can use
 ## Next steps
 
 [Enable Copilot case and conversation summaries](/dynamics365/contact-center/administer/copilot-enable-summary)  
-[Enable Copilot help pane](/dynamics365/contact-center/administer/copilot-enable-help-pane)  
-[Display Copilot case summary on custom case forms](copilot-powerapps-settings.md)  
+[Enable features in Copilot pane](/dynamics365/contact-center/administer/copilot-enable-help-pane)  
+[Configure copilot features for custom case forms and custom apps](copilot-powerapps-settings.md)  
 
 ### Related information
  
-[Use Copilot features](../use/use-copilot-features.md)  
-[Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)  
+[Draft a chat response](../use/use-copilot-features.md)  
+[Responsible AI FAQ for Copilot in Customer Servic](../implement/faq-responsible-ai-copilot.md)  
 [FAQ for Copilot in Customer Service](faq-copilot-features.md)  
