@@ -45,8 +45,8 @@ For the automatic actions to run, set up the time-out rules per workstream. You 
    - Enter a rule name.
    - Set the **Status** toggle to active.
    - **Trigger event**: Select one of the following events:
-       - **Customer Non-Response Time**: The duration that the customer hasn't sent back a message, and the last message sent in the conversation is from the service representative. The duration is calculated by subtracting the current time from the time that representative sent the last message. The system calculates the duration only when the last message is from the service representative.
-       - **Representative Non-Response Time**: The duration that the representative hasn't sent back a message, and the last message sent in the conversation is from the customer. The duration is calculated by subtracting the current time from the time that customer sent the last message. The system calculates the duration only when the last message is from the customer.
+       - **Customer Non-Response Time**: The non-responsive time of the customer after the last message from the representative. The duration is calculated by subtracting the current time from the time that representative sent the last message. The system calculates the duration only when the last message is from the service representative.
+       - **Representative Non-Response Time**: The non-responsive time of the representative after the last message from the customer. The duration is calculated by subtracting the current time from the time that customer sent the last message. The system calculates the duration only when the last message is from the customer.
    - Select a workstream that corresponds to the channels where you want the rule to run.
 1. In **Trigger conditions**, for the trigger event that you selected on the previous page, enter the following:
    - **Operator**: By default, **Greater than**.
