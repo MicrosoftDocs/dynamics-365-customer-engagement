@@ -842,8 +842,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`subject`|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
-|Format|Text|
-|FormatName|Text|
+|Format|TextArea|
+|FormatName|TextArea|
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|200|

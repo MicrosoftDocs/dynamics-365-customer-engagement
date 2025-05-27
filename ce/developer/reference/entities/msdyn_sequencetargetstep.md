@@ -167,7 +167,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Shows which msdyn_sequencestep_type this was before it was converted to current step type**|
+|Description|**Shows which msdyn\_sequencestep\_type this was before it was converted to current step type**|
 |DisplayName|**Converted To Manual From**|
 |IsValidForForm|True|
 |IsValidForRead|True|

@@ -87,7 +87,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**For internal use only. State of the msdyn_teamschatassociation**|
+|Description|**For internal use only. State of the msdyn\_teamschatassociation**|
 |DisplayName|**Entity Record's state**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -205,7 +205,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**For internal use only. Status of the msdyn_teamschatassociation**|
+|Description|**For internal use only. Status of the msdyn\_teamschatassociation**|
 |DisplayName|**Status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -226,7 +226,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**For internal use only. Reason for the status of the msdyn_teamschatassociation**|
+|Description|**For internal use only. Reason for the status of the msdyn\_teamschatassociation**|
 |DisplayName|**Status Reason**|
 |IsValidForForm|True|
 |IsValidForRead|True|

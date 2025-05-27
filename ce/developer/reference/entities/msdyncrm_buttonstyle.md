@@ -576,10 +576,10 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|
 |---|---|
-|164230000|**_self**|
-|164230001|**_blank**|
-|164230002|**_parent**|
-|164230003|**_top**|
+|164230000|**\_self**|
+|164230001|**\_blank**|
+|164230002|**\_parent**|
+|164230003|**\_top**|
 
 ### <a name="BKMK_msdyncrm_textdecoration"></a> msdyncrm_textdecoration
 

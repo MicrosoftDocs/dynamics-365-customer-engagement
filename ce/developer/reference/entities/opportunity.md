@@ -914,7 +914,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**msdyn_similaropportunities**|
+|DisplayName|**msdyn\_similaropportunities**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_similaropportunities`|
@@ -2664,6 +2664,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [lead_qualifying_opportunity](#BKMK_lead_qualifying_opportunity)
 - [lk_leadtoopportunitysalesprocess_opportunityid](#BKMK_lk_leadtoopportunitysalesprocess_opportunityid)
 - [lk_opportunitysalesprocess_opportunityid](#BKMK_lk_opportunitysalesprocess_opportunityid)
+- [msdyn_activitymapping_opportunity](#BKMK_msdyn_activitymapping_opportunity)
 - [msdyn_msdyn_salescopilotinsight_opportunity_msdyn_targetentityid](#BKMK_msdyn_msdyn_salescopilotinsight_opportunity_msdyn_targetentityid)
 - [msdyn_opportunity_dailyopportunitykpiitem_entityid](#BKMK_msdyn_opportunity_dailyopportunitykpiitem_entityid)
 - [msdyn_opportunity_msdyn_mostcontacted_regardingObjectId](#BKMK_msdyn_opportunity_msdyn_mostcontacted_regardingObjectId)
@@ -2769,6 +2770,18 @@ Many-To-One Relationship: [opportunitysalesprocess lk_opportunitysalesprocess_op
 |ReferencedEntityNavigationPropertyName|`opportunity_opportunitysalesprocess`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_activitymapping_opportunity"></a> msdyn_activitymapping_opportunity
+
+Many-To-One Relationship: [msdyn_activitymapping msdyn_activitymapping_opportunity](msdyn_activitymapping.md#BKMK_msdyn_activitymapping_opportunity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_activitymapping`|
+|ReferencingAttribute|`msdyn_regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_activitymapping_opportunity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_salescopilotinsight_opportunity_msdyn_targetentityid"></a> msdyn_msdyn_salescopilotinsight_opportunity_msdyn_targetentityid
 

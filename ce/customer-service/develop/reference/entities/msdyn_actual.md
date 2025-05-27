@@ -725,7 +725,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350005|**Unbilled Sales**|
 |192350006|**Billed Sales**|
 |192350007|**Resourcing Unit Cost**|
-|192350008|**Inter\-Organizational Sales**|
+|192350008|**Inter-Organizational Sales**|
 
 ### <a name="BKMK_msdyn_Unit"></a> msdyn_Unit
 
@@ -1220,7 +1220,7 @@ One-To-Many Relationship: [businessunit business_unit_msdyn_actual](businessunit
 |ReferencingAttribute|`owningbusinessunit`|
 |ReferencingEntityNavigationPropertyName|`owningbusinessunit`|
 |IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_lk_msdyn_actual_createdby"></a> lk_msdyn_actual_createdby
 
