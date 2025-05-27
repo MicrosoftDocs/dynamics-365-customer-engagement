@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 04/16/2025
+ms.date: 05/27/2025
 ms.custom: bap-template
 ms.collection:
 searchScope:
@@ -82,6 +82,7 @@ You can manage queues on the **Queues** page, and perform operations such as sea
 - Select a queue to edit the users, assignment methods, or operating hour record.
 
 - Select a queue on the **Queues** page, select **Copy** on the command menu, and then select **Copy** in the *<queue_name>* dialog. The queue is copied and inherits the settings of the queue you copied from, including its name, prefixed with **Copy of**.
+- Select a queue and then select **Share** to share with users or teams in your organization. In the **Share records** dialog that appears, select the users or teams. You can also set the permissions for each user or team. When you share a record permission, it doesn't automatically grant privileges to all the records of the related tables. You need to create a custom plugin to set permissions for the related tables listed for the queue when you set permissions for the parent table record.
 
 > [!IMPORTANT]
 > If unified routing is enabled, make sure that the **Queue** form, which is the default form, exists and hasn't been removed through customization. Otherwise, you aren't able to create a basic queue in Customer Service Hub.
