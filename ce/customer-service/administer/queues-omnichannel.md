@@ -1,6 +1,6 @@
 ---
 title: Create and manage queues for unified routing
-description: Create and manage advanced queues, know how fallback and default queues work in unified routing in Customer Service.
+description: Create and manage advanced queues, and learn how fallback and default queues work in unified routing in Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -25,7 +25,7 @@ Queues are used to collect and distribute workload among customer service repres
 
 ## How work items are routed to queues
 
-You can create separate queues for each line of business such as billing, investment, and products. When a customer query is raised for any of the areas, it's routed to the corresponding designated queue based on how you define route to queues in the classification. You can also set up a customer support availability matrix by using a combination of queues, operating hour schedules, and routing rules.
+You can create separate queues for each line of business such as billing, investment, and products. When a customer query is raised for any of the areas, it routes to the corresponding designated queue based on how you define route to queues in the classification. You can also set up a customer support availability matrix by using a combination of queues, operating hour schedules, and routing rules.
 
 In an enterprise scenario, you can have various supervisors handling different issues, and therefore, different types of queues are required to handle the various scenarios. Accordingly, routing rules are set up based on the complexity of issues that need to be handled.
 
@@ -85,7 +85,7 @@ You can manage queues on the **Queues** page, and perform operations such as sea
 - Select a queue and then select **Share** to share with users or teams in your organization. In the **Share records** dialog that appears, select the users or teams. You can also set the permissions for each user or team. When you share a record permission, it doesn't automatically grant privileges to all the records of the related tables. You need to create a custom plugin to set permissions for the related tables listed for the queue when you set permissions for the parent table record.
 
 > [!IMPORTANT]
-> If unified routing is enabled, make sure that the **Queue** form, which is the default form, exists and hasn't been removed through customization. Otherwise, you aren't able to create a basic queue in Customer Service Hub.
+> If unified routing is enabled, make sure that the **Queue** form, which is the default form, exists and wasn't removed through customization. Otherwise, you aren't able to create a basic queue in Customer Service Hub.
 
 ### How fallback queues work
 
@@ -93,7 +93,7 @@ To efficiently manage the work items, you can configure a fallback queue per wor
 
 For existing workstreams, you can configure the fallback queue on the workstream page. If you choose to create a queue, you need to add users. By default, the assignment method for the fallback queue is highest capacity.
 
-If any overflow settings exist, they are overruled and work items are routed to the fallback queues in the following scenarios:
+If any overflow settings exist, they're overruled and work items are routed to the fallback queues in the following scenarios:
 
 - Work item encounters an error during classification.
 - Work item encounters an error when running a route-to-queue rule.
