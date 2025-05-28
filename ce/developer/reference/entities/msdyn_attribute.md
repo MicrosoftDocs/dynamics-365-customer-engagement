@@ -128,7 +128,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**The data field that the attribute will use to associate the attribute with the lead. Eg. msdyn_countrycode.**|
+|Description|**The data field that the attribute will use to associate the attribute with the lead. Eg. msdyn\_countrycode.**|
 |DisplayName|**Data field linked to attribute**|
 |IsValidForForm|True|
 |IsValidForRead|True|

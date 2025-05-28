@@ -731,4 +731,4 @@ Many-To-One Relationship: [syncerror msfp_localizedemailtemplate_SyncErrors](syn
 
 [Dataverse table/entity reference](/power-apps/developer/data-platform/reference/about-entity-reference)  
 [Dataverse Web API Reference](/power-apps/developer/data-platform/webapi/reference/about)   
-<xref:Microsoft.Dynamics.CRM.msfp_localizedemailtemplate?displayProperty=fullName>
+

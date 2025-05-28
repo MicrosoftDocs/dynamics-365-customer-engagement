@@ -808,4 +808,4 @@ Many-To-One Relationship: [syncerror msfp_surveyreminder_SyncErrors](syncerror.m
 
 [Dataverse table/entity reference](/power-apps/developer/data-platform/reference/about-entity-reference)  
 [Dataverse Web API Reference](/power-apps/developer/data-platform/webapi/reference/about)   
-<xref:Microsoft.Dynamics.CRM.msfp_surveyreminder?displayProperty=fullName>
+

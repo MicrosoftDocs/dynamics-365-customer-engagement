@@ -100,7 +100,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Control if Add Particiapnt featrue is enabled or not**|
-|DisplayName|**msdyn_addparticipantenabled**|
+|DisplayName|**msdyn\_addparticipantenabled**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_addparticipantenabled`|
@@ -251,7 +251,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**In Teams dialer settings page, were all security roles selected or not**|
-|DisplayName|**msdyn_SecurityRolesAllSelected**|
+|DisplayName|**msdyn\_SecurityRolesAllSelected**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_securityrolesallselected`|
@@ -280,7 +280,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Control if Calls Transfer featrue is enabled or not (controlled by admin in Teams calls settings page)**|
-|DisplayName|**msdyn_transfercallsenabled**|
+|DisplayName|**msdyn\_transfercallsenabled**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_transfercallsenabled`|
@@ -296,8 +296,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**json to store all msdyn_teamsdialeradminsettings fields, to avoid changing this file when adding a field**|
-|DisplayName|**msdyn_valuesjson**|
+|Description|**json to store all msdyn\_teamsdialeradminsettings fields, to avoid changing this file when adding a field**|
+|DisplayName|**msdyn\_valuesjson**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_valuesjson`|

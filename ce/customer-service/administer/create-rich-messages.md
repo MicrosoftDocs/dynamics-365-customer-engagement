@@ -1,7 +1,7 @@
 ---
 title: Manage rich messages
 description: Learn how to create, publish, and update rich messages in Omnichannel for Customer Service.
-ms.date: 03/03/2025
+ms.date: 05/20/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -19,7 +19,7 @@ By creating and publishing channel-specific rich messages, your organization's c
 
 ## Create rich messages for Apple Messages for Business
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Productivity** in **Agent experience**.
+1. In the site map of Copilot Service admin center, select **Productivity** in **Support experience**.
 1. On the **Productivity** page, select **Manage** for **Rich messages**.
 1. Select **New**, and then enter the following information:
     - **Name**: A descriptive name that'll be used by customer service representatives (service representatives or representatives) to search for rich messages.
@@ -35,7 +35,7 @@ By creating and publishing channel-specific rich messages, your organization's c
       - Video Rich Link
       - Website Rich Link
    - **Tags**: A message type tag is automatically added to each rich message. In addition to the type tag, any relevant search tags can be added to the rich message. These tags can help representatives identify the correct rich message when they search for rich messages.
-   - **Allow agents to configure**: Some rich message types allow representatives to update the contents before sending to customers. By enabling configurations, representatives can make single-use customizations, which don't affect the original rich message made here. Representative editing can be enabled for the following rich message types:
+   - **Allow customer service representative to configure**: Some rich message types allow representatives to update the contents before sending to customers. By enabling configurations, representatives can make single-use customizations, which don't affect the original rich message made here. Representative editing can be enabled for the following rich message types:
       - List picker
       - Suggested reply
       - Time picker
@@ -297,7 +297,7 @@ Type: ```string``` - Required: Yes
 |Description | Limitation |
 |------------|--------------|
 |Message contents | Images aren't currently supported for authentication.|
-|Agent | Authentication request-type rich messages don't currently support representative configuration.|
+|Representative | Authentication request-type rich messages don't currently support representative configuration.|
 
 
 #### Custom JSON

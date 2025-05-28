@@ -1,7 +1,7 @@
 ---
 title: Create and manage basic queues for cases
 description: Learn how to set up basic queues to manage activities and cases in Dynamics 365 Customer Service.
-ms.date: 04/14/2025
+ms.date: 05/23/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -104,11 +104,13 @@ After you have saved the queue, the following changes happen in the SUMMARY tab:
    -  Select **Add Existing User**. Only those users that you add can work on the items in this queue. If you add a team as a member, only the existing team members can access the queue. New team members must be added manually to the queue to be able to access it.
    - The **QUEUE ITEMS** and **RECORD CREATION AND UPDATE RULES** sections appear.
 
+:::image type="content" source="../media/public-queue-summary.png" alt-text="Summary view of a basic public queue." lightbox="../media/public-queue-summary.png":::
+
 ## Set up default views for routing dialogs
 
 To optimize customer service representative (service representative or representative) efficiency, you can set up custom views that contain a filtered list of queues. These queues are relevant to the type of cases that the service representatives handle. You can then set the view as the default from which they can pick a queue or user to route the work items.
 
-1. In the site map of Customer Service admin center, go to **Customer support**, and then select **Queues**.
+1. In the site map of Copilot Service admin center, go to **Customer support**, and then select **Queues**.
 
 1. On the page that appears, select **Manage** for **Routing dialogs**.
 
@@ -117,6 +119,8 @@ To optimize customer service representative (service representative or represent
     - **Route queue item**: Set a default view that'll appear for the representatives when they open the **Route Queued Item** dialog to route a case on the **Queues** page,
 
 1. Save and close.
+
+:::image type="content" source="../media/queue-routing-dialogs.png" alt-text="Screenshot of routing dialogs.":::
 
 At runtime, your representatives see the views that you have set for them.
 

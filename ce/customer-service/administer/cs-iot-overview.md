@@ -1,7 +1,7 @@
 ---
-title: "Connected Customer Service - Overview| MicrosoftDocs"
-description: "Overview of Connected Customer Service."
-ms.date: 03/03/2025
+title: Connected Customer Service - Overview
+description: Overview of Connected Customer Service.
+ms.date: 05/20/2025
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -130,12 +130,12 @@ A list of Connected Customer Service actions that service representatives can ta
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the case history for a device.](../media/cs-iot-view-case-histories-devices.png)
 
-## Connected Customer Service in Customer Service workspace
+## Connected Customer Service in Copilot Service workspace
 
-The Connected Customer Service solution is available in Customer Service workspace:
+The Connected Customer Service solution is available in Copilot Service workspace:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Connected Customer Service experience in Customer Service workspace.](../media/cs-iot-csw.png)
+> ![Screenshot of the Connected Customer Service experience in Copilot Service workspace.](../media/cs-iot-csw.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

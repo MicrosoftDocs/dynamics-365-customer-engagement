@@ -1723,8 +1723,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Result of the assignment rule process**|
-|DisplayName|**Assignment Rule Result**|
+|Description|**(Deprecated)Result of the assignment rule process**|
+|DisplayName|**(Deprecated)Assignment Rule Result**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_salesassignmentresult`|
@@ -3462,6 +3462,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [Lead_SyncErrors](#BKMK_Lead_SyncErrors)
 - [Lead_Tasks](#BKMK_Lead_Tasks)
 - [lk_leadtoopportunitysalesprocess_leadid](#BKMK_lk_leadtoopportunitysalesprocess_leadid)
+- [msdyn_activitymapping_lead](#BKMK_msdyn_activitymapping_lead)
 - [msdyn_lead_dailyleadkpiitem_entityid](#BKMK_msdyn_lead_dailyleadkpiitem_entityid)
 - [msdyn_lead_msdyn_duplicatedetectionpluginrun_baserecordid](#BKMK_msdyn_lead_msdyn_duplicatedetectionpluginrun_baserecordid)
 - [msdyn_lead_msdyn_duplicateleadmapping](#BKMK_msdyn_lead_msdyn_duplicateleadmapping)
@@ -4068,6 +4069,18 @@ Many-To-One Relationship: [leadtoopportunitysalesprocess lk_leadtoopportunitysal
 |ReferencedEntityNavigationPropertyName|`lead_leadtoopportunitysalesprocess`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_activitymapping_lead"></a> msdyn_activitymapping_lead
+
+Many-To-One Relationship: [msdyn_activitymapping msdyn_activitymapping_lead](msdyn_activitymapping.md#BKMK_msdyn_activitymapping_lead)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_activitymapping`|
+|ReferencingAttribute|`msdyn_regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_activitymapping_lead`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_lead_dailyleadkpiitem_entityid"></a> msdyn_lead_dailyleadkpiitem_entityid
 

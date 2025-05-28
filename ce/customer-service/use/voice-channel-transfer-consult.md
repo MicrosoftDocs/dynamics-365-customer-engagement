@@ -1,7 +1,7 @@
 ---
 title: Transfer calls and consult with users
 description: Use this article to understand how the customer service representatives can use the transfer and consult options to make and receive customer calls.
-ms.date: 05/05/2025
+ms.date: 05/26/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -109,7 +109,7 @@ When you initiate a consult, the following actions occur:
    - **Consult with external PSTN number**: Select the **Number Pad**. On the number pad that appears, enter the customer's area code, phone number, and then select **Call** to make your call. 
      By default, the consultation is private. The customer is on hold while the primary representative speaks with the new participant. You can also have a public consultation, where the customer is actively involved in the conversation by taking them off hold. <br>
 
-   - **Consult with Teams user**: Select **Teams** and use the search option to search for and select the Microsoft Teams user you'd like to consult with. Learn more at [Enable voice consult with Microsoft Teams users](../administer/voice-consult-microsoft-teams-user.md).
+   - **Consult with Teams user**: Select **Teams** and use the search option to search for and select the Microsoft Teams user you'd like to consult with. Learn more at [Enable voice consult with Microsoft Teams users](../administer/voice-consult-microsoft-teams-user.md). If you've migrated to the enhanced voice experience, PSTN doesn't appear on the Teams tab. Enter the phone number of the Teams user directly in the external transfer tab.
 
         > [!div class="mx-imgBorder"]
         > ![Screenshot of Teams consult](../media/oc-consult-teams.png)<br>

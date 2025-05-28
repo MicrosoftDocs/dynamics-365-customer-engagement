@@ -2,8 +2,8 @@
 title: "Purchase Order Product (msdyn_purchaseorderproduct) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Purchase Order Product (msdyn_purchaseorderproduct) table/entity with Microsoft Dynamics 365 Field Service."
 ms.topic: generated-reference
-author: m-hartmann
-ms.author: mhart
+author: puneet-singh1
+ms.author: puneetsingh
 search.audienceType: 
   - developer
 ---
@@ -359,7 +359,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Shows the total cost of this product. This is calculated by (Unit Cost * Units) + Additional Cost + Commission Costs**|
+|Description|**Shows the total cost of this product. This is calculated by (Unit Cost \* Units) \+ Additional Cost \+ Commission Costs**|
 |DisplayName|**Total Cost**|
 |IsValidForForm|True|
 |IsValidForRead|True|

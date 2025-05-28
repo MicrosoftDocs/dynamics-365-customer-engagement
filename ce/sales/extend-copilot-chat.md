@@ -6,11 +6,7 @@ ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
   - AI-contribution
-ms.custom:
-  - bap-template
-  - ai-gen-docs-bap
-  - ai-gen-desc
-  - ai-seo-date:10/02/2023
+ms.custom: bap-template
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 author: lavanyakr01
@@ -35,7 +31,6 @@ You can customize the following aspects of the Copilot chat experience in Dynami
 
 > [!NOTE]
 >- This article applies only to Copilot in Dynamics 365 Sales. You can also customize Copilot in other model-driven apps. Learn more at [Customize Copilot chat using Copilot Studio(preview)](/power-apps/maker/model-driven-apps/customize-copilot-chat).
->- Knowledge source is not yet supported for Copilot in Dynamics 365 Sales.
 
 ## Prerequisites for customization
 
@@ -52,6 +47,8 @@ Use a solution to manage your customizations so that you can easily deploy them 
 1. Customize the following aspects of Copilot chat experience:
 
     - [Add a new topic to Copilot chat](/power-apps/maker/model-driven-apps/customize-copilot-chat#add-new-topic-to-copilot-chat).
+      > [!NOTE]
+      > Knowledge source isn't supported currently for Copilot in Dynamics 365 Sales.
     - Edit the **SalesSparks** topic to [customize the prompt guide](/power-apps/maker/model-driven-apps/customize-copilot-chat#prompt-guide-customizations).
     
   > [!NOTE]

@@ -23,6 +23,7 @@ Business that represents a customer or potential customer. The company that is b
 These relationships are one-to-many. Listed by **SchemaName**.
 
 - [account_msdyn_bookingalerts](#BKMK_account_msdyn_bookingalerts)
+- [account_msdyn_ocoutboundmessages](#BKMK_account_msdyn_ocoutboundmessages)
 - [msdyn_account_msdyn_actual_AccountCustomer](#BKMK_msdyn_account_msdyn_actual_AccountCustomer)
 - [msdyn_account_msdyn_actual_AccountVendor](#BKMK_msdyn_account_msdyn_actual_AccountVendor)
 
@@ -36,6 +37,18 @@ Many-To-One Relationship: [msdyn_bookingalert account_msdyn_bookingalerts](msdyn
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`account_msdyn_bookingalerts`|
 |IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: `CRMActivity.RollupRelatedByParty`<br />ViewId: `00000000-0000-0000-00aa-000010001903`|
+
+### <a name="BKMK_account_msdyn_ocoutboundmessages"></a> account_msdyn_ocoutboundmessages
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage account_msdyn_ocoutboundmessages](msdyn_ocoutboundmessage.md#BKMK_account_msdyn_ocoutboundmessages)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`account_msdyn_ocoutboundmessages`|
+|IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: `CRMActivity.RollupRelatedByParty`<br />ViewId: `00000000-0000-0000-00aa-000010001903`|
 
 ### <a name="BKMK_msdyn_account_msdyn_actual_AccountCustomer"></a> msdyn_account_msdyn_actual_AccountCustomer

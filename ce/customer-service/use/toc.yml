@@ -84,8 +84,6 @@
               href: /power-apps/user/insert-email-template?context=/dynamics365/context/customer-service-context
             - name: Personalize emails with dynamic text
               href: /power-apps/user/email-dynamic-text?context=/dynamics365/context/customer-service-context          
-            - name: Customize an email template using the template editor
-              href: /power-apps/user/cs-template-options?context=/dynamics365/context/customer-service-context
             - name: Convert an email to a template
               href: /power-apps/user/email-template-convert?context=/dynamics365/context/customer-service-context
             - name: Create a signature for emails
@@ -393,7 +391,7 @@
         - name: Use knowledge analytics
           href: knowledge-search-analytics-cs.md
         - name: Use Copilot analytics
-          href: copilot-analytics-report.md
+          href: /dynamics365/customer-service/use/copilot-analytics-report?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: Monitor conversations
           items: 
             - name: Monitor, assign, transfer, and forcibly end conversations

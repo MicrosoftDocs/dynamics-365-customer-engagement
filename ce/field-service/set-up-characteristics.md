@@ -1,7 +1,7 @@
 ---
 title: Specify characteristics for resources
 description: Assign characteristics to resources and work orders to list the skills needed to complete the job.
-ms.date: 08/12/2024
+ms.date: 05/23/2025
 ms.topic: how-to
 ms.custom: bap-template
 author: ryanchen8
@@ -86,7 +86,10 @@ Before users can specify enhanced characteristics, a Field Service administrator
 With enhanced characteristics enabled, you can add more information to *Bookable Resource Characteristic* records.
 
 A section for **Supporting Information** shows on the record. You can provide an **ID**, **Issue Date**, **Expiration Date**, and a **Description** of a characteristic that relates to a specific resource.
-  
+
+> [!NOTE]
+> With enhanced characteristics, the system doesn't allow duplicate *Bookable Resource Characteristic* records with the same combination of **Name**, **Characteristic**, **Rating Value**, **ID**, **Issue Date**, and **Expiration Date**.
+
 ## Assign characteristics to work orders  
   
 1. Open a [work order](create-work-order.md).

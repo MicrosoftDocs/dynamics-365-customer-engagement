@@ -32,7 +32,7 @@ Define basic properties of the price list.
 1. Select **Save**.
 
 > [!NOTE]
-> Organizations that use Field Service in combination with Dynamics 365 Project Operations find more fields and related tabs on a price list record, some of them showing by default. *Context*, *Role price*, *Role price markups*, *Time Unit*, and *Category prices* are concepts which Project Operations introduces but Field Service pricing and costing doesn't support.
+> Organizations that use Field Service in combination with Dynamics 365 Project Operations find more fields and related tabs on a price list record, some of them showing by default. *Role price*, *Role price markups*, and *Category prices* are concepts which Project Operations introduces but Field Service pricing and costing doesn't support.
 
 ## Add price list items  
 
