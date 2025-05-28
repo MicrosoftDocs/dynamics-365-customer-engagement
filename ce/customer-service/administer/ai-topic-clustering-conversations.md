@@ -1,7 +1,7 @@
 ---
 title: Configure AI topic clustering for conversations
 description: Configure topic cLustering for conversations using AI.
-ms.date: 02/06/2025
+ms.date: 05/28/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -11,12 +11,12 @@ ms.collection: bap-ai-copilot
 
 # Configure AI topic clustering for conversations
 
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
-
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+> [!NOTE]
+> The legacy version of Case and Conversation Topics in Customer Service and Contact Center is deprecated as of May 30, 2025. Learn more in [Deprecations in Customer Service][Legacy version of Conversation Topics in Customer Service and Contact Center is deprecated](../implement/deprecations-customer-service.md#legacy-version-of-conversation-topics-in-customer-service-and-contact-center-is-deprecated).
 
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 Customer Service Insights uses AI to give you insights into your customer service data by grouping semantically related conversations and generating a topic. New incoming conversations that match this topic are automatically added to the topic group. This can help you identify areas for improvement that impact system performance.
 
