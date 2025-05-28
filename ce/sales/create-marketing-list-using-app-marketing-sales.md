@@ -1,7 +1,7 @@
 ---
 title: Create a marketing list using in-app marketing
 description: A marketing list can include any one type of customer record, such as leads, accounts, or contacts. Add members to the list statically or dynamically.
-ms.date: 06/20/2024
+ms.date: 05/28/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -40,7 +40,7 @@ You can create two types of marketing lists:
     :::image type="content" source="media/marketing-list-summary-example.png" alt-text="Screenshot of marketing list summary area.":::
 
     > [!NOTE]
-    >  To look up records in the **Owner** field, first select **Save**, or you'll lose your changes.
+    >  To look up records in the **Owner** field, first select **Save**, or you lose your changes.
 
 4. In the **Targeted at** field, select the type of record you want to include in the marketing list. You can't change this field after you save the record.
 
@@ -69,7 +69,7 @@ You can manage members in a static marketing list by using one of the following 
 This option allows you to add members to a marketing list by searching through the records.
 
 1. Open a marketing list, select the three-dot menu on the command bar.
-2. Select the right arrow next to **Manage Members**, and then select **Add using Lookup**.
+2. Select the drop-down arrow next to **Manage Members**, and then select **Add using Lookup**.
 3. In the **Lookup Records** dialog box, select your search criteria.
 4. Select the records that you want to add, and then select **Add**.
 
@@ -78,7 +78,7 @@ This option allows you to add members to a marketing list by searching through t
 This option allows you to add members to a marketing list in bulk based on a search criteria.
 
 1. Open a marketing list, select the three-dot menu on the command bar.
-2. Select the right arrow next to **Manage Members** and then select **Add using Advanced Find**.
+2. Select the drop-down arrow next to **Manage Members** and then select **Add using Advanced Find**.
 3. In the **Add members using advanced find** dialog box, the entity that the marketing list is targeted at is automatically selected.
 4. In the **Use Saved View** drop-down box, select a view for the selected entity, which will be used for filtering.
 5. Select **Add**, and then select **Add row**, to define the search criteria. For example, to find all the contacts in the Seattle city, in the first box select the field as **Address 1: City**. Then, in the second box, select the query relational operator as **Equals**. In the third box, type **Seattle**. You can select fields from the current record type, or from related record types.
@@ -92,7 +92,7 @@ This option allows you to add members to a marketing list in bulk based on a sea
 This option allows you to remove members from a marketing list in bulk based on a search criteria.
 
 1. Open a marketing list, select the three-dot menu on the command bar.
-2. Select the right arrow next to **Manage Members**, and then select **Remove using Advanced Find**.
+2. Select the drop-down arrow next to **Manage Members**, and then select **Remove using Advanced Find**.
 3. In the **Remove members using advanced find** dialog box, the entity that the marketing list is targeted at is automatically selected.
 4. In the **Use Saved View** drop-down box, select a view for the selected entity, which will be used for filtering.
 5. Select **Add**, and then select **Add row**, to define the search criteria. For example, to find all the contacts in the Seattle city, in the first box select the field as **Address 1: City**. Then, in the second box, select the query relational operator as **Equals**. In the third box, type **Seattle**. You can select fields from the current record type, or from related record types.
@@ -103,14 +103,14 @@ This option allows you to remove members from a marketing list in bulk based on 
     - Remove all
     
 > [!NOTE]
-> For the better performance of application and avoid time outs, remove the members in the marketing list in groups of 10000 at a time. For example, if there are 20000 members in a marketing list and you want to remove the members. Remove 10000 members first and then remove the other 10000.
+> For the better performance of application and avoid time outs, remove the members in the marketing list in groups of 10000 at a time. For example, if there are 20000 members in a marketing list and you want to remove the members. Remove 10,000 members first and then remove the other 10000.
 
 ### Evaluate using Advanced Find
 
 After you add members to a marketing list, you can evaluate which members to keep in the marketing list based on search criteria. This option is useful when you want to keep only those members who meet certain criteria.
 
 1. Open a marketing list, select the three-dot menu on the command bar.
-2. Select the right arrow next to **Manage Members**, and then select **Evaluate using Advanced Find**.
+2. Select the drop-down arrow next to **Manage Members**, and then select **Evaluate using Advanced Find**.
 3. In the **Evaluate members using advanced find** dialog box, the entity that the marketing list is targeted at is automatically selected.
 4. In the **Use Saved View** drop-down box, select a view for the selected entity, which will be used for filtering.
 5. Select **Add**, and then select **Add row**, to define the search criteria. For example, to find all the contacts in the Seattle city, in the first box select the field as **Address 1: City**. Then, in the second box, select the query relational operator as **Equals**. In the third box, type **Seattle**. You can select fields from the current record type, or from related record types.
