@@ -29,14 +29,19 @@ Changes from [ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer/data-p
 
 |Value|Label|
 |---|---|
-|10632|**Customer Voice alert**|
-|10642|**Customer Voice survey invite**|
-|10644|**Customer Voice survey response**|
-|10694|**Overflow Action Config**|
-|10718|**Ongoing conversation (Deprecated)**|
-|10730|**Conversation**|
-|10747|**Session**|
-|10942|**Copilot Transcript**|
+|10224|**Teams chat**|
+|10240|**Knowledge Article Template**|
+|10359|**Invite Redemption**|
+|10360|**Portal Comment**|
+|10456|**IoT Alert**|
+|10667|**Customer Voice alert**|
+|10677|**Customer Voice survey invite**|
+|10679|**Customer Voice survey response**|
+|10736|**Overflow Action Config**|
+|10760|**Ongoing conversation (Deprecated)**|
+|10772|**Conversation**|
+|10789|**Session**|
+|10993|**Copilot Transcript**|
 
 
 

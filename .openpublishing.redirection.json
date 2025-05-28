@@ -1,6 +1,36 @@
 {
   "redirections": [
    {
+   "source_path": "ce/sales/developer/entities/flowmachineimage.md",
+   "redirect_url": "/dynamics365/developer/reference/entities/flowmachineimage",
+   "redirect_document_id": "false"
+   }, 
+   {
+      "source_path": "ce/sales/developer/entities/msdyn_migrationtracker.md",
+      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_migrationtracker",
+      "redirect_document_id": "false"
+   }, 
+   {
+      "source_path": "ce/sales/developer/entities/msdyn_pmsimulation.md",
+      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_pmsimulation",
+      "redirect_document_id": "false"
+   }, 
+   {
+      "source_path": "ce/sales/developer/entities/organization.md",
+      "redirect_url": "/dynamics365/developer/reference/entities/organization",
+      "redirect_document_id": "false"
+   }, 
+   {
+      "source_path": "ce/sales/developer/entities/quotedetail.md",
+      "redirect_url": "/dynamics365/developer/reference/entities/quotedetail",
+      "redirect_document_id": "false"
+   }, 
+   {
+      "source_path": "ce/sales/developer/entities/territory.md",
+      "redirect_url": "/dynamics365/developer/reference/entities/territory",
+      "redirect_document_id": "false"
+   }, 
+   {
       "source_path": "ce/customer-service/develop/reference/entities/quotedetail.md",
       "redirect_url": "/dynamics365/developer/reference/entities/quotedetail",
       "redirect_document_id": "false"
