@@ -278,6 +278,8 @@ items:
         href: schedule-with-travel-time.md
       - name: Time constraints
         href: schedule-time-constraints.md
+      - name: Time zones
+        href: schedule-timezone-agnostic.md
       - name: Preferred resources
         href: resource-preferences.md
       - name: Quick scheduling
