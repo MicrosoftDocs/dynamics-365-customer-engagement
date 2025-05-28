@@ -13,7 +13,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 # Configure AI topic clustering for cases
 
 > [!NOTE]
-> The legacy version of Case and Conversation Topics in Customer Service and Contact Center is deprecated as of May 30, 2025. Learn more in [Deprecations in Customer Service][Legacy version of Conversation Topics in Customer Service and Contact Center is deprecated](../implement/deprecations-customer-service.md#legacy-version-of-conversation-topics-in-customer-service-and-contact-center-is-deprecated).
+> The legacy version of Case and Conversation Topics in Customer Service and Contact Center is deprecated as of May 30, 2025. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md#legacy-version-of-conversation-topics-in-customer-service-and-contact-center-is-deprecated).
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
