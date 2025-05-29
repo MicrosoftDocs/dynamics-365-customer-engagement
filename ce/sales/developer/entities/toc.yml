@@ -64,6 +64,9 @@ items:
 - name: "Conversation Tag"
   displayName: "msdyn_ConversationTag entity"
   href: /dynamics365/developer/reference/entities/msdyn_conversationtag?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
+- name: "Copilot component"
+  displayName: "botcomponent entity"
+  href: botcomponent.md
 - name: "Data Map"
   displayName: "ImportMap entity"
   href: importmap.md
@@ -76,9 +79,6 @@ items:
 - name: "Duplicate Detection Rule"
   displayName: "DuplicateRule entity"
   href: duplicaterule.md
-- name: "Flow Machine Image"
-  displayName: "flowmachineimage entity"
-  href: flowmachineimage.md
 - name: "Forecast"
   displayName: "msdyn_forecastinstance entity"
   href: /dynamics365/developer/reference/entities/msdyn_forecastinstance?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
@@ -112,9 +112,6 @@ items:
 - name: "Marketing List"
   displayName: "List entity"
   href: /dynamics365/developer/reference/entities/list?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
-- name: "Migration tracker"
-  displayName: "msdyn_migrationtracker entity"
-  href: msdyn_migrationtracker.md
 - name: "Opportunity"
   displayName: "Opportunity entity"
   href: /dynamics365/developer/reference/entities/opportunity?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
@@ -136,12 +133,6 @@ items:
 - name: "Order Product"
   displayName: "SalesOrderDetail entity"
   href: /dynamics365/developer/reference/entities/salesorderdetail?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
-- name: "Organization"
-  displayName: "Organization entity"
-  href: organization.md
-- name: "PM Simulation"
-  displayName: "msdyn_pmsimulation entity"
-  href: msdyn_pmsimulation.md
 - name: "Predictive Model Score"
   displayName: "msdyn_predictivemodelscore entity"
   href: /dynamics365/developer/reference/entities/msdyn_predictivemodelscore?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
@@ -181,9 +172,6 @@ items:
 - name: "Quote Product"
   displayName: "QuoteDetail entity"
   href: /dynamics365/developer/reference/entities/quotedetail?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
-- name: "Quote Product"
-  displayName: "QuoteDetail entity"
-  href: quotedetail.md
 - name: "Recording"
   displayName: "msdyn_ocrecording entity"
   href: /dynamics365/developer/reference/entities/msdyn_ocrecording?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
@@ -223,15 +211,15 @@ items:
 - name: "Seller attribute value"
   displayName: "msdyn_attributevalue entity"
   href: /dynamics365/developer/reference/entities/msdyn_attributevalue?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
+- name: "Sequence"
+  displayName: "msdyn_sequence entity"
+  href: msdyn_sequence.md
 - name: "Similarity Rule"
   displayName: "SimilarityRule entity"
   href: similarityrule.md
 - name: "SLA"
   displayName: "SLA entity"
   href: sla.md
-- name: "Territory"
-  displayName: "Territory entity"
-  href: territory.md
 - name: "Transcript"
   displayName: "msdyn_transcript entity"
   href: /dynamics365/developer/reference/entities/msdyn_transcript?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
@@ -241,9 +229,15 @@ items:
 - name: "Unit Group"
   displayName: "UoMSchedule entity"
   href: /dynamics365/developer/reference/entities/uomschedule?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
+- name: "UR RecordRouting Real-time Analytics"
+  displayName: "msdyn_dataanalyticsreport_ur_recordrouting_rt entity"
+  href: msdyn_dataanalyticsreport_ur_recordrouting_rt.md
 - name: "wkwcolleaguesforcompany"
   displayName: "msdyn_wkwcolleaguesforcompany entity"
   href: /dynamics365/developer/reference/entities/msdyn_wkwcolleaguesforcompany?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "wkwcolleaguesforcontact"
   displayName: "msdyn_wkwcolleaguesforcontact entity"
   href: /dynamics365/developer/reference/entities/msdyn_wkwcolleaguesforcontact?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
+- name: "Work Stream"
+  displayName: "msdyn_liveworkstream entity"
+  href: msdyn_liveworkstream.md

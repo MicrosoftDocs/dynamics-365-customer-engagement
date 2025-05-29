@@ -282,7 +282,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Type of the members that can be stored in the marketing list. Please do not remove from form!**|
+|Description|**Type of the members that can be stored in the marketing list. Please do not remove from form\!**|
 |DisplayName|**Member Type**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -740,7 +740,7 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`owningbusinessunit`|
-|RequiredLevel|SystemRequired|
+|RequiredLevel|None|
 |Type|Lookup|
 |Targets|businessunit|
 

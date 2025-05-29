@@ -754,6 +754,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_appconfiguration_ProcessSession](#BKMK_msdyn_appconfiguration_ProcessSession)
 - [msdyn_appconfiguration_SyncErrors](#BKMK_msdyn_appconfiguration_SyncErrors)
 - [msdyn_appcopilotconfig_msdyn_appconfig](#BKMK_msdyn_appcopilotconfig_msdyn_appconfig)
+- [msdyn_chtappcopilotconfig_msdyn_appconfig](#BKMK_msdyn_chtappcopilotconfig_msdyn_appconfig)
 
 ### <a name="BKMK_msdyn_appconfiguration_AsyncOperations"></a> msdyn_appconfiguration_AsyncOperations
 
@@ -884,6 +885,18 @@ Many-To-One Relationship: [msdyn_appcopilotconfiguration msdyn_appcopilotconfig_
 |ReferencingEntity|`msdyn_appcopilotconfiguration`|
 |ReferencingAttribute|`msdyn_appconfigurationid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_appcopilotconfig_msdyn_appconfig`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_chtappcopilotconfig_msdyn_appconfig"></a> msdyn_chtappcopilotconfig_msdyn_appconfig
+
+Many-To-One Relationship: [msdyn_chtprofileconfiguration msdyn_chtappcopilotconfig_msdyn_appconfig](msdyn_chtprofileconfiguration.md#BKMK_msdyn_chtappcopilotconfig_msdyn_appconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_chtprofileconfiguration`|
+|ReferencingAttribute|`msdyn_appconfigurationid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_chtappcopilotconfig_msdyn_appconfig`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

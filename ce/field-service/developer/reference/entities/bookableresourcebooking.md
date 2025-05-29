@@ -2,8 +2,8 @@
 title: "Bookable Resource Booking (BookableResourceBooking) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Bookable Resource Booking (BookableResourceBooking) table/entity with Microsoft Dynamics 365 Field Service."
 ms.topic: generated-reference
-author: m-hartmann
-ms.author: mhart
+author: puneet-singh1
+ms.author: puneetsingh
 search.audienceType: 
   - developer
 ---
@@ -195,7 +195,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |690970002|**Mobile**|
 |690970003|**Manual**|
 |690970004|**Schedule Assistant**|
-|690970005|**System \- Agreement Schedule**|
+|690970005|**System - Agreement Schedule**|
 
 ### <a name="BKMK_msdyn_BookingSetupMetadataId"></a> msdyn_BookingSetupMetadataId
 

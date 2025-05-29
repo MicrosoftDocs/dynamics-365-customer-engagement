@@ -17,6 +17,18 @@ Grouping of security privileges. Users are assigned roles that authorize their a
 
 
 
+## Customized columns/attributes
+
+Microsoft Dynamics 365 modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
+
+### <a name="BKMK_IsSystemGenerated"></a> IsSystemGenerated
+
+Changes from [IsSystemGenerated (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/role#BKMK_IsSystemGenerated)
+
+|Property|Value|
+|---|---|
+|RequiredLevel|SystemRequired|
+
 
 ## One-to-Many relationships
 

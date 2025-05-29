@@ -1,7 +1,7 @@
 ---
 title: Enable Microsoft Teams meetings in Customer Service
-description: Learn how to enable Microsoft Teams meetings functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace.
-ms.date: 01/15/2025
+description: Learn how to enable Microsoft Teams meetings functionality in Dynamics 365 Customer Service and Dynamics 365 Copilot Service workspace.
+ms.date: 05/23/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -31,13 +31,13 @@ To enable Teams integration in Customer Service, the following prerequisites mus
 
 - You must have a Dynamics 365 Customer Service license for your organization.
 - As an administrator, you must configure the ability for representatives in your organization to add and join Teams meetings in the Power Platform admin center app. Learn more in [Manage feature settings - Power Platform](/power-platform/admin/settings-features) 
-- Optional: Configure the ability to sync calendars so that any meetings that are created in Dynamics 365 apps will show up on calendars in Microsoft Outlook and Teams. Learn more in [Set up server-side synchronization of email, appointments, contacts, and tasks - Power Platform](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)
+- Optional: Configure the ability to sync calendars so that any meetings that are created in Dynamics 365 apps show up on calendars in Microsoft Outlook and Teams. Learn more in [Set up server-side synchronization of email, appointments, contacts, and tasks - Power Platform](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)
 
 ## Enable Teams meeting integration
 
 Complete the following steps to enable Teams meeting integration.
 
-1. In the site map of Customer Service admin center or Contact Center admin center, go to **Agent experience** > **Collaboration**.
+1. In the site map of Copilot Service admin center or Contact Center admin center, go to **Support experience** > **Collaboration**.
     
 1. In **Meeting integration using Teams (preview)**, select **Manage**.
    
@@ -89,7 +89,7 @@ To see appointments in Teams, enable mailbox record integration by following the
 1. For **Appointments, Contact, and Tasks**, select **Server-Side Synchronization**.
 1. Select the mailbox record, and then select **APPROVE EMAIL** on the ribbon.
 1. Select the mailbox record again, and then select **TEST & ENABLE MAILBOX** on the ribbon.
-1. Refresh the record until you see **Success** for the status. Then you can create an appointment with a Teams meeting and it'll be added to the Teams calendar.
+1. Refresh the record until you see **Success** for the status. Then you can create an appointment with a Teams meeting and it is added to the Teams calendar.
 
    
 ### Related information

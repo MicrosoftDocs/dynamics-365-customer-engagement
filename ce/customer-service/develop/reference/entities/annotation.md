@@ -27,7 +27,7 @@ Changes from [ObjectId (Microsoft Dataverse)](/power-apps/developer/data-platfor
 
 |Property|Value|
 |---|---|
-|Targets|msdyn_actual, msdyn_bookingalert, msdyn_bookingalertstatus, msdyn_bookingrule, msdyn_organizationalunit, msdyn_priority, msdyn_requirementcharacteristic, msdyn_requirementresourcecategory, msdyn_requirementresourcepreference, msdyn_requirementstatus, msdyn_resourcerequirement, msdyn_resourcerequirementdetail, msdyn_resourceterritory, msdyn_systemuserschedulersetting, msdyn_timegroup, msdyn_timegroupdetail, msdyn_transactionorigin|
+|Targets|msdyn_actual, msdyn_amsbuild, msdyn_amsmodel, msdyn_amsprofile, msdyn_amsprofilesettings, msdyn_amstag, msdyn_bookingalert, msdyn_bookingalertstatus, msdyn_bookingrule, msdyn_ocoutboundmessage, msdyn_organizationalunit, msdyn_priority, msdyn_requirementcharacteristic, msdyn_requirementresourcecategory, msdyn_requirementresourcepreference, msdyn_requirementstatus, msdyn_resourcerequirement, msdyn_resourcerequirementdetail, msdyn_resourceterritory, msdyn_systemuserschedulersetting, msdyn_timegroup, msdyn_timegroupdetail, msdyn_transactionorigin|
 
 
 ## Many-to-One relationships
@@ -35,9 +35,15 @@ Changes from [ObjectId (Microsoft Dataverse)](/power-apps/developer/data-platfor
 These relationships are many-to-one. Listed by **SchemaName**.
 
 - [msdyn_actual_Annotations](#BKMK_msdyn_actual_Annotations)
+- [msdyn_amsbuild_Annotations](#BKMK_msdyn_amsbuild_Annotations)
+- [msdyn_amsmodel_Annotations](#BKMK_msdyn_amsmodel_Annotations)
+- [msdyn_amsprofile_Annotations](#BKMK_msdyn_amsprofile_Annotations)
+- [msdyn_amsprofilesettings_Annotations](#BKMK_msdyn_amsprofilesettings_Annotations)
+- [msdyn_amstag_Annotations](#BKMK_msdyn_amstag_Annotations)
 - [msdyn_bookingalert_Annotations](#BKMK_msdyn_bookingalert_Annotations)
 - [msdyn_bookingalertstatus_Annotations](#BKMK_msdyn_bookingalertstatus_Annotations)
 - [msdyn_bookingrule_Annotations](#BKMK_msdyn_bookingrule_Annotations)
+- [msdyn_ocoutboundmessage_Annotations](#BKMK_msdyn_ocoutboundmessage_Annotations)
 - [msdyn_organizationalunit_Annotations](#BKMK_msdyn_organizationalunit_Annotations)
 - [msdyn_priority_Annotations](#BKMK_msdyn_priority_Annotations)
 - [msdyn_requirementcharacteristic_Annotations](#BKMK_msdyn_requirementcharacteristic_Annotations)
@@ -62,6 +68,71 @@ One-To-Many Relationship: [msdyn_actual msdyn_actual_Annotations](msdyn_actual.m
 |ReferencedAttribute|`msdyn_actualid`|
 |ReferencingAttribute|`objectid`|
 |ReferencingEntityNavigationPropertyName|`objectid_msdyn_actual`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_amsbuild_Annotations"></a> msdyn_amsbuild_Annotations
+
+One-To-Many Relationship: [msdyn_amsbuild msdyn_amsbuild_Annotations](msdyn_amsbuild.md#BKMK_msdyn_amsbuild_Annotations)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_amsbuild`|
+|ReferencedAttribute|`msdyn_amsbuildid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyn_amsbuild`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_amsmodel_Annotations"></a> msdyn_amsmodel_Annotations
+
+One-To-Many Relationship: [msdyn_amsmodel msdyn_amsmodel_Annotations](msdyn_amsmodel.md#BKMK_msdyn_amsmodel_Annotations)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_amsmodel`|
+|ReferencedAttribute|`msdyn_amsmodelid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyn_amsmodel`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_amsprofile_Annotations"></a> msdyn_amsprofile_Annotations
+
+One-To-Many Relationship: [msdyn_amsprofile msdyn_amsprofile_Annotations](msdyn_amsprofile.md#BKMK_msdyn_amsprofile_Annotations)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_amsprofile`|
+|ReferencedAttribute|`msdyn_amsprofileid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyn_amsprofile`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_amsprofilesettings_Annotations"></a> msdyn_amsprofilesettings_Annotations
+
+One-To-Many Relationship: [msdyn_amsprofilesettings msdyn_amsprofilesettings_Annotations](msdyn_amsprofilesettings.md#BKMK_msdyn_amsprofilesettings_Annotations)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_amsprofilesettings`|
+|ReferencedAttribute|`msdyn_amsprofilesettingsid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyn_amsprofilesettings`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_amstag_Annotations"></a> msdyn_amstag_Annotations
+
+One-To-Many Relationship: [msdyn_amstag msdyn_amstag_Annotations](msdyn_amstag.md#BKMK_msdyn_amstag_Annotations)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_amstag`|
+|ReferencedAttribute|`msdyn_amstagid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyn_amstag`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 
@@ -101,6 +172,19 @@ One-To-Many Relationship: [msdyn_bookingrule msdyn_bookingrule_Annotations](msdy
 |ReferencedAttribute|`msdyn_bookingruleid`|
 |ReferencingAttribute|`objectid`|
 |ReferencingEntityNavigationPropertyName|`objectid_msdyn_bookingrule`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_ocoutboundmessage_Annotations"></a> msdyn_ocoutboundmessage_Annotations
+
+One-To-Many Relationship: [msdyn_ocoutboundmessage msdyn_ocoutboundmessage_Annotations](msdyn_ocoutboundmessage.md#BKMK_msdyn_ocoutboundmessage_Annotations)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocoutboundmessage`|
+|ReferencedAttribute|`activityid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyn_ocoutboundmessage`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

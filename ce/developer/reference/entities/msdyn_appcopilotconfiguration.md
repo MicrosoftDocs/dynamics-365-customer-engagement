@@ -154,6 +154,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |829050009|**Knowledge harvesting from case**|
 |829050010|**Intent-based suggestions (preview)**|
 |829050011|**Inbox - Suggested Next Actions View**|
+|829050012|**Email to case manual creation**|
 
 ### <a name="BKMK_msdyn_enabled"></a> msdyn_enabled
 

@@ -1,8 +1,8 @@
 ---
 
-title: Pooling speeds up model-driven app pages in Unified Service Desk
-description: Use pooling in Unified Service Desk to improve the performance of model-driven app page loading in Edge WebView2, Chrome, or IE processes.
-ms.date: 03/27/2024
+title: Load app pages faster with pooling in Unified Service Desk
+description: Use pooling in Unified Service Desk to improve the performance of model-driven app page loading in Microsoft Edge WebView2, Chrome, or IE processes.
+ms.date: 05/15/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -113,7 +113,7 @@ To prevent Unified Service Desk from crashing, you can do one of the following:
 
 By default, second inline navigation is blocked when using Edge WebView2 process&mdash;that is, the option is enabled by default. However, if you want to allow the second inline navigation&mdash;in other words, disable the option&mdash;create the **BlockEdgeWebView2ProcessSecondInlineNavigation** UII option and set the value as **False**.
 
-After adding the UII option, if you set the value as **True**, then the option is enabled and will block the second inline navigation.
+After you add the UII option, if you set the value as **True**, then the option is enabled and blocks the second inline navigation.
 
 1. Sign in to the Dynamics 365 instance.
 
@@ -275,7 +275,7 @@ Use the **ShowNavBar** UII option if you want to show the nav bar for all the en
 
 When an application (hosted control) is initialized and you perform an inline navigation to another entity page by using the same application (hosted control), then the second navigation also occurs inline. If you have a specific window navigation rule between two instances of the same entity type (such as a **Route Window** action and an **In Place** type), then the window navigation rule loops in a recursive manner, causing Unified Service Desk to crash.
 
-For example, with Chrome process pooling, if you've set a window navigation rule to navigate from an account tab to another account tab, with the **Route Window** action and **In Place** type, the window navigation rule loops in a recursive manner, causing Unified Service Desk to crash.
+For example, with Chrome process pooling, if you set a window navigation rule to navigate from an account tab to another account tab, with the **Route Window** action and **In Place** type, the window navigation rule loops in a recursive manner, causing Unified Service Desk to crash.
 
 To avoid the crash of Unified Service Desk, you can do one of the following:
 
@@ -320,12 +320,12 @@ After adding the UII option, if you set the value as **True**, the option is ena
 
 > [!NOTE]
 >
-> Because support for Internet Explorer 11 is deprecated, support for IE process has also been discontinued in Unified Service Desk. More information: [Deprecation announcement](../../customer-service/implement/deprecations-customer-service.md#internet-explorer-11-support-for-dynamics-365-and-microsoft-power-platform-is-deprecated)
+> Because support for Internet Explorer 11 is deprecated, IE process is no longer supported in Unified Service Desk. More information: [Deprecation announcement](../../customer-service/implement/deprecations-customer-service.md#internet-explorer-11-support-for-dynamics-365-and-microsoft-power-platform-is-deprecated)
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] always maintains a pool of Internet Explorer instances for hosted controls to use. Opening a hosted control by using a pooled Internet Explorer instance enhances the performance of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
 > [!NOTE]
 > - The Internet Explorer pooling feature supports only CRM entity pages hosted in the CRM Page hosted control.
-> - When you enable the pooling feature and open a CRM Page hosted control, you can see in Task Manager that [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] creates a number of Internet Explorer Process instances for hosted controls to use. 
+> - When you enable the pooling feature and open a CRM Page hosted control, you can see in Task Manager that [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] creates many Internet Explorer Process instances for hosted controls to use. 
 > - The performance of the Internet Explorer pooling feature is dependent on the resources available on the client computer.
 ### Enable pooling for IE process
 
