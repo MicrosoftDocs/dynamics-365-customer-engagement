@@ -1,6 +1,6 @@
 ---
 title: Configure live conversation counter to view customer wait time
-description: 
+description: Track and manage customer wait time in live chat with the conversation counter. Configure SLA alerts to ensure timely responses.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27

@@ -1,6 +1,6 @@
 ---
 title: Monitor customer wait time through live conversation counter
-description: 
+description: Monitor customer wait time in live chats with the conversation counter. Stay compliant with SLAs and respond faster using color-coded indicators.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
