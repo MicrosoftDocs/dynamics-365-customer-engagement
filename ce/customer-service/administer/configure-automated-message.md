@@ -22,7 +22,7 @@ As an administrator, you can also overwrite or deactivate the preconfigured, out
 
 You can view a list of all representative and customer-facing automated messages in your Omnichannel for Customer Service environment.
 
-> [!Note]
+> [!NOTE]
 > Automated messages aren't shown in the customer chat transcript.
 
 1. In the site map of Copilot Service admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
