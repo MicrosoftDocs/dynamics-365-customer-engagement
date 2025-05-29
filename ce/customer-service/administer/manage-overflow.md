@@ -4,7 +4,7 @@ description: Learn how to set up overflow conditions and actions for your voice,
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 04/15/2025
+ms.date: 05/30/2025
 ms.topic: how-to
 ms.custom:
  - bap-template
@@ -41,9 +41,12 @@ If you don't set up overflow handling, then by default, the work item is added t
 
 ## Handle overflow before a work item is queued
 
-Unified routing checks for overflow conditions after evaluating the route-to-queue rules and before directing a work item to a queue. If an overflow action transfers the work item to another queue, or a supervisor assigns the work item to a service representative or transfers it to another, the work item is assigned to the representative or the queue without any further overflow checks.
+Unified routing checks for overflow conditions after evaluating the route-to-queue rules and before directing a work item to a queue. The system does the check once only for each work item before it enters a queue.
 
-The system considers the following factors when it checks for overflow conditions before a work item is queued:
+If an overflow action transfers the work item to another queue, or a supervisor assigns the work item to a service representative or transfers it to another representative, the system assigns the work item to the representative or queue without any further pre-queue overflow checks.
+
+
+The system considers the following factors when it checks for overflow conditions before queueing up a work item:
 
 - If multiple queues match the route-to-queue rules, the system routes the work item to the first one that's not overflowing.
 
@@ -127,7 +130,7 @@ If a work item is routed to a fallback queue because of errors or route-to-queue
     - **Transfer to an external number**
     - **Voicemail**
 
-    The average wait time for a queue is calculated by taking the average wait time of at least 50 conversations in the queue during the previous 48 hours. If the number of conversations in the previous 48 hours is less than 50, the **Average wait time** overflow condition isn't evaluated.
+    Learn about average wait time in [Show customers their average wait time in a queue](average-wait-time.md).
 
 ### Configure rule-specific overflow conditions for before a work item is queued
 
@@ -151,7 +154,7 @@ When a work item is handled by an overflow action instead of being assigned to a
 
 ## Handle overflow when a work item is queued
 
-When a work item is in a queue and the actual wait is long, the system can reroute it to another queue that has representatives available.
+When a work item is in a queue and the actual wait is long because no representatives are available or have declined the notification, then the system triggers overflow and reroutes the work item to another queue that has representatives available.
 
 1. In the site map of Copilot Service admin center, select **Customer support** > **Queues**.
 
