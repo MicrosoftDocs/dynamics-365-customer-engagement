@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
 ms.collection:
-ms.date: 02/02/2024
+ms.date: 04/25/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -38,7 +38,7 @@ You must have the **System Administrator** or similar security role to perform t
 
    Focused view is now enabled for your organization.  
 
-### See also
+## Related information
 
 [Configure focused view as default](set-focused-view-as-default.md)  
 [View and manage records in focused view](focused-view.md)

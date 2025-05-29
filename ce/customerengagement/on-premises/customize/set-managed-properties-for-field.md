@@ -2,7 +2,6 @@
 title: "Set managed properties for a field in Dynamics 365 Customer Engagement (on-premises)"
 description: "If a field is customizable, you can set options to True or False, including whether a display name, requirement level, or other properties can be changed."
 ms.custom: 
-ms.date: 04/29/2019
 ms.reviewer: 
 
 ms.suite: 

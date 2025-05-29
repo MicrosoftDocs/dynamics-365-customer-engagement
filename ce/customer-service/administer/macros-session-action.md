@@ -3,17 +3,20 @@ title: Use session connector macros
 description: Learn how to use session connector to create macros.
 author: gandhamm
 ms.author: mgandham
-ms.topic: conceptual 
+ms.reviewer: mgandham
+ms.topic: how-to
 ms.collection: 
-ms.date: 05/06/2024
+ms.date: 05/05/2025
 ms.custom: bap-template 
 ---
 
 # Use session connector macros
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 You can use session connector actions to perform session-related operations. Session connector macros enable you to add actions such as getting the ID, refreshing a tab, passing the tab ID, setting focus to a tab based on the tab ID, opening a tab template, and refreshing session context.
 
-You can use the actions any number of times across different macros to automate and perform operations related to a session in Customer Service workspace.
+You can use the actions any number of times across different macros to automate and perform operations related to a session in Copilot Service workspace.
 
 ## Get the current tab 
 
@@ -21,7 +24,7 @@ This action gets the details of the current tab in Customer Service. The action 
 
 ## Refresh the tab
 
-Refreshes a tab in the Customer Service workspace session. This action contains the following field.
+Refreshes a tab in the Copilot Service workspace session. This action contains the following field.
 
    | Field | Description |
    |-----------------|-----------------------------|
@@ -40,7 +43,7 @@ Perform the following steps to create a macro to resolve a case, get the ID, and
  
 ## Focus on the tab
 
-Enables you to focus on a tab in the Customer Service workspace session. This action contains the following field.
+Enables you to focus on a tab in the Copilot Service workspace session. This action contains the following field.
 
    | Field | Description | 
    |-----------------|-----------------------------|
@@ -70,12 +73,12 @@ Opens the specified application in a new tab with the attributes you define. The
 
 To create a macro that opens a tab template passing the tab template's unique name as a parameter and open a tab template based on the tab template's unique name, Add the **Open application tab** action with the following attributes: 
  - **Page type**: `Entity Record`
- - **Application Template ID** : bde86e2f-6bd1-48a9-baf9-dae720aa9f45
+ - **Application Template ID** : 6a6a6a6a-7777-bbbb-8888-9c9c9c9c9c9c
 
  
 ## Refresh the session context
 
-Refreshes the session context in Customer Service workspace for entity sessions. For example, if you launch an entity session for a case record, the session context variables are defined when the session starts. However, if you update the case title, the session context isn't updated. Therefore, macros use the cached information. You can add the **Refresh the session context** step after starting the macro run to use the latest information.
+Refreshes the session context in Copilot Service workspace for entity sessions. For example, if you launch an entity session for a case record, the session context variables are defined when the session starts. However, if you update the case title, the session context isn't updated. Therefore, macros use the cached information. You can add the **Refresh the session context** step after starting the macro run to use the latest information.
 
 ### Example: Update the case title and then create a task with the updated case title 
 
@@ -93,7 +96,7 @@ Perform the following steps to create a macro that updates the case title and th
 
 ## Set session context 
 
-Creates a variable in the session context. Use the action to create your own session variables to validate conditions or track how agents navigate through agent scripts. 
+Creates a variable in the session context. Use the action to create your own session variables to validate conditions or track how customer service representatives (service representatives or representatives) navigate through scripts. 
 
    | Field | Description | 
    |-----------------|-----------------------------|
@@ -102,7 +105,7 @@ Creates a variable in the session context. Use the action to create your own ses
 
 ### Example: Create a session context variable to track the agent script path 
 
-Perform the following tasks to add a workflow that creates a session context variable when a user switches from one agent script to another and then, uses the session variable context for further macro runs:
+Perform the following tasks to add a workflow that creates a session context variable when a user switches from one script to another and then, uses the session variable context for further macro runs:
 1. Add **Set focus to an agent script** with the **Agent Script Unique Name** attribute set to `new_agentscript_highpriority`.
 1. Add the **Set session context** action with the following attributes:
     - **Attribute Name**: `firstProcess`

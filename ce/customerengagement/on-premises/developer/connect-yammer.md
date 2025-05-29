@@ -2,7 +2,6 @@
 title: "Connect to Yammer (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Read about how you can connect Dynamics 365 Customer Engagement (on-premises) to Yammer."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

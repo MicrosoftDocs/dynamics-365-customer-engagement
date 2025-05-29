@@ -1,18 +1,18 @@
 ---
-title: "UII Application Integration Framework | MicrosoftDocs"
-description: "Learn information about UII Application Integration Framework that enables the integration and automation of applications."
-ms.date: 11/29/2016
-ms.topic: article
+title: UII Application Integration Framework 
+description: Learn information about UII Application Integration Framework that enables the integration and automation of applications.
+ms.date: 05/15/2025
+ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # UII Application Integration Framework
-The [!INCLUDE[pn_application_integration_framework_aif](../includes/pn-application-integration-framework-aif-md.md)] in [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-inteface-integration-uii-md.md)] enables the integration and automation of applications. Through [!INCLUDE[pn_aif_acronym](../includes/pn-aif-acronym-md.md)], applications can be launched and automated for a variety of purposes, for example, to reduce copy and paste. It also provides session management capabilities, which allows applications to be isolated from each other based on a session key. This separation helps to enforce data security and easier application management for the user.  
+The [!INCLUDE[pn_application_integration_framework_aif](../includes/pn-application-integration-framework-aif-md.md)] in [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-inteface-integration-uii-md.md)] enables the integration and automation of applications. Through [!INCLUDE[pn_aif_acronym](../includes/pn-aif-acronym-md.md)], applications can be launched and automated for various purposes, for example, to reduce copy and paste. It also provides session management capabilities, which allows applications to be isolated from each other based on a session key. This separation helps to enforce data security and easier application management for the user.  
   
  [!INCLUDE[pn_aif_acronym](../includes/pn-aif-acronym-md.md)] uses the [!INCLUDE[pn_composite_ui_application_block](../includes/pn-composite-ui-application-block-md.md)] tools and services for messaging, visual containment, application loading, and state management. For more information, and to download the application block, see [MSDN:  HYPERLINK "https://msdn.microsoft.com/library/aa480450.aspx" Smart Client – Composite UI Application Block](/previous-versions/msp-n-p/ff648747(v=pandp.10)).  
   
@@ -28,7 +28,7 @@ The [!INCLUDE[pn_application_integration_framework_aif](../includes/pn-applicati
   
 - **UI Shell framework**: Provides a unified framework for developing unified desktop application shells by providing base UII services classes that simplify [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym-md.md)] development. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [UI Shell Framework](ui-shell-framework.md)  
   
-- **Composition engine**: The [!INCLUDE[pn_aif_acronym](../includes/pn-aif-acronym-md.md)] uses the [!INCLUDE[pn_composite_ui_application_block](../includes/pn-composite-ui-application-block-md.md)] tools and services for messaging (event broker), visual containment (workspaces), application loading (module loader), and state management. Application Integration Framework leverages the Composite UI Application Block to provide functionality and guidance for constructing host environments that can combine and present the user interfaces for each hosted application. Application Integration Framework also allows applications to share information and events, so changes made in one pane can affect the other hosted applications.  
+- **Composition engine**: The [!INCLUDE[pn_aif_acronym](../includes/pn-aif-acronym-md.md)] uses the [!INCLUDE[pn_composite_ui_application_block](../includes/pn-composite-ui-application-block-md.md)] tools and services for messaging (event broker), visual containment (workspaces), application loading (module loader), and state management. Application Integration Framework uses the Composite UI Application Block to provide functionality and guidance for constructing host environments that can combine and present the user interfaces for each hosted application. Application Integration Framework also allows applications to share information and events, so changes made in one pane can affect the other hosted applications.  
   
 - **Centralized management**: The configuration of the hosted applications, actions, workflows, and security are managed through the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm-md.md)] web client.  
   

@@ -2,10 +2,9 @@
 title: "Set grid properties for Unified Interface apps in Dynamics 365 Customer Engagement (on-premises)"
 description: "As an app maker working with a Unified Interface app, you can configure the Read Only Grid control and its properties for custom grids and lists."
 keywords: 
-ms.date: 01/09/2019
 
 ms.custom: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps

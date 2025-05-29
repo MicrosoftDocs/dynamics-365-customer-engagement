@@ -3,7 +3,6 @@ title: "Backup folder already exists | Microsoft Docs"
 description: Environment diagnostics warning that the backup folder already exists
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

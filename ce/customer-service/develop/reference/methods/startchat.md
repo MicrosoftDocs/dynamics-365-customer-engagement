@@ -5,6 +5,7 @@ ms.date: 11/07/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # startChat
 
@@ -43,7 +44,7 @@ None
 
 ```
 
-### See also
+### Related information
 
 [setAuthTokenProvider](setAuthTokenProvider.md)<br />
 [setContextProvider](setContextProvider.md)<br />

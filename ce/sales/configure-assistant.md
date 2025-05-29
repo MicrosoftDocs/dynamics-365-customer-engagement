@@ -1,7 +1,7 @@
 ---
 title: Configure the assistant
 description: Configure the assistant to help sellers track their daily actions and communications through actionable insight cards.
-ms.date: 03/29/2024
+ms.date: 04/14/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -16,13 +16,6 @@ ms.custom:
 # Configure the assistant
 
 Configure the assistant to help sellers track their daily actions and communications through a collection of actionable insight cards.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Configure the standard and premium assistant
 
@@ -53,12 +46,12 @@ More information: [Security roles and privileges](/dynamics365/customer-engageme
 1. Do the following actions as described according to your requirements:  
 
     - **To turn on (enable) the insight cards**, select the cards that are shaded, and then select **Turn on cards**.  
-        In this example, the cards **Recent Meetings (Exchange)** and **Email Opened** are selected.  
+        In this example, the cards **Today's top people** and **Closed date coming soon** are selected.  
         :::image type="content" source="media/si-admin-assistant-turn-on-cards.png" alt-text="Screenshot showing the cards selected to turn on":::  
         More information: [Turn on or off the insight cards](turn-on-off-insight-cards.md)
 
     - **To turn off (disable) the insight cards**, select the cards that are turned on, and then select **Turn off cards**.  
-        In this example, the cards **SuggestedContacts** and **Upcoming Flight** are selected.  
+        In this example, the cards **Recent meeting** and **Missed closed date** are selected.  
         :::image type="content" source="media/si-admin-assistant-turn-off-cards.png" alt-text="Screenshot showing the cards selected to turn off":::
 
     - **To see a preview of a card**, get more details about it&mdash;such as a description and the time it was last modified&mdash;or turn it on or off, select the card.  
@@ -113,7 +106,7 @@ Teasers are disabled in your organization.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Introduction to administer Sales Insights](intro-admin-guide-sales-insights.md)  
 [Create insight cards](create-insight-cards-flow.md)  

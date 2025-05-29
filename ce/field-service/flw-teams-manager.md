@@ -130,7 +130,7 @@ While you're viewing a work order, you can also:
 
 Add installation manuals, maintenance documents, specifications, or troubleshooting tips relevant to a work order. Attachments enable technicians to ask Copilot questions and quickly obtain answers allowing for quicker diagnostics and problem-solving. As technicians work on jobs, they can interact with Copilot for real-time advice.
 
-To add knowledge articles, go to [Link a knowledge article to a work order](field-service-knowledge-management.md#link-a-knowledge-article-to-a-work-order).
+To add knowledge articles, go to [Link a knowledge article to a work order](field-service-km-link.md#link-a-knowledge-article-to-a-work-order).
 
 To add notes, Microsoft Word, or PDF documents, perform the following steps.
 

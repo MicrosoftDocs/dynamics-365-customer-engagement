@@ -1,11 +1,10 @@
 ---
 title: "Pending asynchronous events were detected | Microsoft Docs"
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: concept-article
 ms.assetid: 7756c9aa-9088-4897-85af-f638524e1558
 caps.latest.revision: 3
 robots: noindex,nofollow

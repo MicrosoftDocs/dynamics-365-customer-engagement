@@ -2,12 +2,11 @@
 title: "Upgrade and enable a Language Pack | Microsoft Docs"
 description: Learn how to upgrade and enable a language pack in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "10/01/2018"
 
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: upgrade-and-migration-article
 applies_to: 
   - "Dynamics 365 (on-premises)"
 ms.assetid: 7f3a16a4-241b-4a20-ac90-30a3ecebeccc

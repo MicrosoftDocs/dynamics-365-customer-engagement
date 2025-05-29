@@ -2,7 +2,6 @@
 title: "Customize entities, relationships, and fields in Dynamics 365 Customer Engagement (on-premises)"
 description: "Use the articles in this section to learn how to customize entities, entity relationships, and fields within Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 04/30/2019
 ms.reviewer: 
 
 ms.suite: 

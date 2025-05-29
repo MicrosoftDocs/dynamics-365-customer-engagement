@@ -2,7 +2,6 @@
 title: "Security roles in Dynamics 365 Customer Engagement (on-premises)"
 description: "To control data access, you must set up security roles. Learn about the level of access allowed per role and the privileges that define what a user can do."
 ms.custom: 
-ms.date: 10/14/2021
 ms.reviewer: 
 
 ms.suite: 
@@ -14,8 +13,8 @@ applies_to:
   - PowerApps
 ms.assetid: 460766f2-4b19-4406-8fd0-fff46d4cbb5e
 caps.latest.revision: 21
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 

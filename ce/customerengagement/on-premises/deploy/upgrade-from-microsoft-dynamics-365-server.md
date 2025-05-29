@@ -2,12 +2,11 @@
 title: "Upgrade Dynamics 365 Server | Microsoft Docs"
 description: Learn how to upgrade a server in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "10/01/2018"
 
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: upgrade-and-migration-article
 applies_to: 
   - "Dynamics 365 (on-premises)"
 ms.assetid: 5a236c3e-0ef5-4e30-84ed-e624485a5585

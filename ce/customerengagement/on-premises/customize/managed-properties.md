@@ -2,12 +2,11 @@
 title: "Set managed property for a view in Dynamics 365 Customer Engagement (on-premises)"
 description: "By default, most views have the Customizable managed property set to true. However, you can follow these steps within System Views if you need to turn it off."
 ms.custom: 
-ms.date: 12/04/2018
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps

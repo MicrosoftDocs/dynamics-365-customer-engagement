@@ -2,7 +2,7 @@
 title: Create an opportunity (Dynamics 365 Sales)"
 description: Learn about creating a new opportunity or an opportunity from a qualified lead. An opportunity contains sales information like quotes, sales orders, and invoices.
 ms.date: 03/01/2023
-ms.topic: article
+ms.topic: reference
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
@@ -92,7 +92,7 @@ You can create an opportunity from a qualified lead or you can create a new oppo
   
  The opportunity close activity contains information about the user that created the activity, and the date and time when it was created. It also contains the information about the estimated revenue, close date, and competitor. You can add notes that explain the reasons why you closed the opportunity.  
   
-### See also  
+## Related information  
  [Opportunity Tables](opportunity-entities.md)   
  [Converting an Opportunity to a Quote, Sales Order or Invoice](convert-opportunity-quote-sales-order-invoice.md)   
  [Product Catalog Tables](product-catalog-entities.md)   

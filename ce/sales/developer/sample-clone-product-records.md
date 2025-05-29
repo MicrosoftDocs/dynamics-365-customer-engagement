@@ -31,7 +31,7 @@ This sample code is for Dynamics 365 Sales. [Download the Product Catalog sample
 ## Example  
  [!code-csharp[ProductCatalog#CloneProducts](../../snippets/csharp/CRMV8/productcatalog/cs/cloneproducts.cs#cloneproducts)]  
   
-### See also  
+## Related information  
  [Create and manage product families, products and bundles](create-manage-product-families-products-bundles-product-properties.md)   
  [Product catalog tables](product-catalog-entities.md)
 

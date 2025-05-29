@@ -2,12 +2,11 @@
 title: "Use Editable Grid control in Dynamics 365 Customer Engagement (on-premises)"
 description: "Follow these steps to enable grid editing using the Editable Grid custom control. This allows users to do direct editing in grids and subgrids from any device."
 ms.custom: 
-ms.date: 04/10/2020
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps
@@ -114,7 +113,7 @@ In previous releases of Dynamics 365 Customer Engagement (on-premises), users co
 
 > [!NOTE] 
 > - To save an editable grid change within a subgrid, the user must explicitly save before navigating out of the form.
-> - If you are using legacy forms (versions prior to Dynamics CRM 2016) and enable an editable grid on a subgrid, the editable subgrid will not be rendered. System administrators can turn off legacy forms in system settings, if needed.
+> - If you're using legacy forms (versions prior to Dynamics CRM 2016) and enable an editable grid on a subgrid, the editable subgrid won't be rendered. System administrators can turn off legacy forms in system settings, if needed.
   
 1.  Open solution explorer.  
   
@@ -122,7 +121,7 @@ In previous releases of Dynamics 365 Customer Engagement (on-premises), users co
   
 3.  Select the appropriate control, and then select **Change Properties** on the ribbon.  
   
-4.  In the **Set Properties** dialog box, select **Controls**, select **Add Control**, and then follow the same steps listed above.  
+4.  In the **Set Properties** dialog box, select **Controls**, select **Add Control**, and then follow the same steps listed before.  
   
 ## Supported out-of-the-box entities
 
@@ -133,38 +132,38 @@ This table lists the standard entities and client types that are supported with 
 |Account<br /><br /> Appointment<br /><br /> Bookable Resource<br /><br /> Bookable Resource Booking<br /><br /> Bookable Resource Booking Header<br /><br /> Bookable Resource Category<br /><br /> Bookable Resource Category Assn<br /><br /> Bookable Resource Characteristic<br /><br /> Bookable Resource Group<br /><br /> Booking Status<br /><br /> Case<br /><br /> Category<br /><br /> Characteristic<br /><br /> Competitor<br /><br /> Contact<br /><br /> Email<br /><br /> Entitlement<br /><br /> Feedback<br /><br /> Invoice<br /><br /> Knowledge Article<br /><br /> Knowledge Article Views<br /><br /> Knowledge Base Record<br /><br /> Lead<br /><br /> Opportunity<br /><br /> Order<br /><br /> Phone Call<br /><br /> Price List<br /><br /> Product<br /><br /> Queue<br /><br /> Quote<br /><br /> Rating Model<br /><br /> Rating Value<br /><br /> SLA KPI Instance<br /><br /> Social Activity<br /><br /> Social Profile<br /><br /> Sync Error<br /><br /> Task<br /><br /> Team<br /><br /> User|Activity<br /><br /> Attachment<br /><br /> Channel Access Profile Rule Item<br /><br /> Competitor Address<br /><br /> Connection<br /><br /> Connection Role<br /><br /> Email Signature<br /><br /> Email Template<br /><br /> Expired Process<br /><br /> Invoice Product<br /><br /> Knowledge Article Incident<br /><br /> Lead To Opportunity Sales<br /><br /> Process<br /><br /> Mailbox<br /><br /> New Process<br /><br /> Note<br /><br /> Opportunity Product<br /><br /> Opportunity Sales Process<br /><br /> Order Product<br /><br /> Organization<br /><br /> Phone to Case Process<br /><br /> Price List Item<br /><br /> Queue Item<br /><br /> Quote Product<br /><br /> Sharepoint Document<br /><br /> Translation Process|Campaign<br /><br /> Campaign Activity<br /><br /> Campaign Response<br /><br /> Channel Access Profile<br /><br /> Channel Access Profile Rule<br /><br /> Contract<br /><br /> Entitlement Template<br /><br /> External Party<br /><br /> Marketing List<br /><br /> Position<br /><br /> Quick Campaign<br /><br /> Recurring Appointment<br /><br /> Sales Literature<br /><br /> SLA|  
  
 ##  Data types that aren't editable in an editable grid
-The following data types aren't editable in editable grids: Customer and Partylist Lookup fields; Composite (address) fields; State/Status fields; Lookup entity-related fields (for example, the Account entity includes a contact lookup, where the Contact field is editable but the EmailAdress(Contact) field is not editable).  
+The following data types aren't editable in editable grids: Customer and Partylist Lookup fields; Composite (address) fields; State/Status fields; Lookup entity-related fields (for example, the Account entity includes a contact lookup, where the Contact field is editable but the EmailAdress(Contact) field isn't editable).  
 
-## Group by views work on client side only
-Grouping behavior works only on the client side and does not span pages. Group by is a client only function and works only on one page of data. Group by does not show you all options based on your complete data set on the platform. Group by shows grouping only on the current page. You can disable the grouping by using the property on custom control configuration. More information: [Make main grids editable](#make-main-grids-editable)
+## Group by views work on the client side only
+Grouping behavior works only on the client side and doesn't span pages. Group by is a client-only function and works only on one page of data. Group by doesn't show you all options based on your complete data set on the platform. Group by shows grouping only on the current page. You can disable the grouping by using the property on the custom control configuration. More information: [Make main grids editable](#make-main-grids-editable)
 
-## Business rules work only if conditional field is a column on the grid
+## Business rules work only if the conditional field is a column on the grid
 
-Business Rules on an editable grid are supported only if the conditional field is also a column on the grid. If the field is not a column the business rules won’t work. Verify that each field referenced in the business rule is also included on the form. Note that business rules on an editable grid do not fire if the editable grid is configured on a dashboard page.
+Business Rules on an editable grid are supported only if the conditional field is also a column on the grid. If the field isn't a column the business rules won’t work. Verify that each field referenced in the business rule is also included on the form. Business rules on an editable grid don't fire if the editable grid is configured on a dashboard page.
 
 ## Keyboard support and shortcuts for editable grids
 
-Editable grids are fully accessible, and provides excellent keyboard support including several keyboard shortcuts for improved productivity. The list of available shortcuts can be found here: [Use keyboard shortcuts in editable grids](../basics/keyboard-shortcuts.md#editable-grids-views)
+Editable grids are fully accessible, and provide excellent keyboard support including several keyboard shortcuts for improved productivity. The list of available shortcuts can be found here: [Use keyboard shortcuts in editable grids](../basics/keyboard-shortcuts.md#editable-grids-views)
 
 ## Frequently asked questions (FAQs)
 
-Below are some of the most fequently asked questions related to editable grids.
+Below are some of the most frequently asked questions related to editable grids.
 
 ### I want to configure my look-up column to a certain view, but I don't see it in the **Available Columns** dropdown in the configuration?
 
-Ensure that the look-up column that you want to configure is not a "Regarding" column. This is a special column type and it doesn't have support for configuring the view definitions on the Editable Grid configuration dialog. 
+Ensure that the look-up column that you want to configure isn't a "Regarding" column. This is a special column type and it doesn't have support for configuring the view definitions on the Editable Grid configuration dialog. 
 
 ### Why isn't my business rule working for my column?
 
-Ensure that the column where the business rule is applied is a part of your current view. A business rule doen't pull all the fields for an entity, only those fields which are present in the current view. So, if your business rule is on a column which is not available, it won't run. <!-- Hiding this because it isn't clear what the intent is. Also note that no business rules will run in this case and not just the business rule that was applied on one column. -->
+Ensure that the column where the business rule is applied is a part of your current view. A business rule doesn't pull all the fields for an entity, only those fields, which are present in the current view. So, if your business rule is on a column, which isn't available, it won't run. <!-- Hiding this because it isn't clear what the intent is. Also note that no business rules will run in this case and not just the business rule that was applied on one column. -->
 
 ### Why is my grid read only when I have configured it to be editable?
 
-Ensure that you are not using legacy Form rendering. Editable grids are not supported on legacy forms.
+Ensure that you aren't using legacy Form rendering. Editable grids aren't supported on legacy forms.
 
-### Why can't I use editable grids on phones?
+### Why can't I use editable grids on mobile and desktop applications?
 
-Based on customer feedback, we have removed the editable grid experience from phones. When using a editable grid on a phone, you will see a read-only version of the list control.  
+Based on customer feedback, we removed the editable grid experience from mobile and desktop applications. When you use an editable grid in an application, you see a read-only version of the list control.  
 
 ### Why can't I use record navigation in a form when coming from an editable grid?
 

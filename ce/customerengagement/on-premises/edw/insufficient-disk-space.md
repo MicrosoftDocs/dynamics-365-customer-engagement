@@ -3,11 +3,10 @@ title: "There is insufficient disk space to install Microsoft Dynamics 365 for C
 description: Environment diagnostics warning that there's insufficient disk space.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.assetid: feda0c30-2ae7-48a9-9824-608871f66354
 caps.latest.revision: 3
 robots: noindex,nofollow

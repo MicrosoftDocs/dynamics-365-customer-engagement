@@ -1,23 +1,21 @@
 ---
-title: Parse event activity JSON to get bot context
-description: Use this article to understand how you can parse the activity JSON to extract bot context.
-ms.date: 07/21/2023
-ms.topic: how-to
+title: Parse event activity JSON to get agent context
+description: Use this article to understand how you can parse the activity JSON to extract agent context.
+ms.date: 04/30/2025
+ms.topic: reference
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ms.collection:
 ---
-# Parse event activity JSON to get bot context
+# Parse event activity JSON to get agent context
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+The Omnichannel for Customer Service context messages are sent as event activity to AI agents. Context information such as customer info, live work item, or conversation ID, is sent to the agent as part of an activity JSON. The JSON can be of type **startConversation** for most channels and **ConversationUpdate** for voice conversations. 
 
-The Omnichannel for Customer Service context messages are sent as event activity to bots. Context information such as customer info, live work item, or conversation ID, is sent to the bot as part of an activity JSON. The JSON can be of type **startConversation** for most channels and **ConversationUpdate** for voice conversations. 
+## Fetch and use context for agents in your agent code
 
-## Fetch and use context for bots in your bot code
-
- To process these context messages, use activity handlers and override them in your bot code. For information on how to use activity handlers, see [Event-driven conversations using an activity handler](/azure/bot-service/bot-activity-handler-concept?view=azure-bot-service-4.0&tabs=csharp&preserve-view=true).
+ To process these context messages, use activity handlers and override them in your agent code. For information on how to use activity handlers, see [Event-driven conversations using an activity handler](/azure/bot-service/bot-activity-handler-concept?view=azure-bot-service-4.0&tabs=csharp&preserve-view=true).
 
 In the following example, when the event activity is received, the `OnEventActivityAsync` method is called to fetch and use the context. 
 
@@ -39,9 +37,9 @@ protected override async Task OnEventActivityAsync(ITurnContext<IEventActivity> 
 
 [Code samples for parsing activity JSON](bot-context-json-samples.md)  
 
-### See also
+### Related information
 
 [setContextProvider](reference/methods/setContextProvider.md)  
-[Integrate an Azure bot](../administer/configure-bot-azure.md)  
+[Integrate an Azure agent](../administer/configure-bot-azure.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -5,6 +5,7 @@ ms.date: 04/04/2022
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # runMacro
 
@@ -37,7 +38,7 @@ Microsoft.ProductivityMacros.runMacro(macroName).then(function(success){
 });
 ```
 
-### See also
+### Related information
 
 [Overview of Productivity Tools](../../../administer/productivity-tools.md)<br />
 [Automate tasks with macros](../../../administer/macros.md)

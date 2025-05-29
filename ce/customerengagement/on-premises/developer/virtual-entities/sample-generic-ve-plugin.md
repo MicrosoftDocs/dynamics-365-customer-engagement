@@ -2,7 +2,6 @@
 title: "Sample: Generic virtual entity data provider plug-in (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Sample demonstrates how to implement a generic custom Dynamics 365 Customer Engagement virtual entity plug-in."
 ms.custom: 
-ms.date: 05/01/2018
 ms.reviewer: pehecke
 
 ms.suite: 

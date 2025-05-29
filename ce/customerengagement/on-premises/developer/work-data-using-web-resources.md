@@ -2,7 +2,6 @@
 title: "Work with Dynamics 365 Customer Engagement (on-premises) data using web resources (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "This doc explains how you can use JavaScript web resources to access Dynamics 365 Customer Engagement (on-premises) data from within the application."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

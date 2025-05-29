@@ -2,18 +2,17 @@
 title: "Use Quick Create in Dynamics 365 Customer Engagement (on-premises)"
 description: "The Quick Create commands make it fast and easy to enter contacts or other information. Start by filling out only a few fields, then enter more details later."
 ms.custom:
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
-author: sericks007
+author: shwetamurkute
 ms.assetid: 201e9f66-56e7-4f58-b51e-9c73cf5f50b8
 caps.latest.revision: 19
-ms.author: sericks
+ms.author: smurkute
 search.audienceType: 
   - enduser
 

@@ -2,9 +2,10 @@
 title: "Quickstart  Build your own Connected Customer Service (IoT) solution | MicrosoftDocs"
 description: "Learn how to build your own Connected Customer Service solution that integrates IoT data with Dynamics 365 Customer Service."
 ms.date: 04/03/2020
-ms.topic: article
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ---
 
 # Quickstart: Build your own Connected Customer Service (IoT) solution

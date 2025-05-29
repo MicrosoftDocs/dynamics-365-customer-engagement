@@ -2,18 +2,17 @@
 title: "Edit report default filter in Dynamics 365 Customer Engagement (on-premises)"
 description: "If your report has a default filter, you can change it to show the data you want to see. Choose a report, select Edit Default Filter, and modify the criteria."
 ms.custom: 
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: db9fe062-8682-4739-b162-2fb9109977bb
 caps.latest.revision: 35
-author: sericks007
-ms.author: sericks
+author: shwetamurkute
+ms.author: smurkute
 search.audienceType: 
   - enduser
 

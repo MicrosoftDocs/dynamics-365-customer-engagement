@@ -1,8 +1,8 @@
 ---
 title: Configure tables for quick creation of records and activities in the Dynamics 365 Sales mobile app
 description: Learn to configure tables for quick creation of records and activities in the Dynamics 365 Sales mobile app.
-ms.date: 03/31/2023
-ms.topic: article
+ms.date: 05/02/2025
+ms.topic: how-to
 author: sbmjais
 ms.author: shjais
 ms.reviewer: shjais 
@@ -11,14 +11,6 @@ ms.reviewer: shjais
 # Configure tables for quick creation of records and activities 
 
 The Dynamics 365 Sales mobile app supports quick creation of records and activities. As an administrator, you can control which records and activities are available for quick creation and which fields are available in the quick creation form.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System administrator <br>  More information: [Predefined security roles for Sales](../security-roles-for-sales.md)|
-
 
 ## Enable a table or an activity for quick creation
 
@@ -65,7 +57,7 @@ Currently, quick creation supports the following field types:
 - Memo
 - Generic Text
 
-### See also
+## Related information
 
 [Use the Dynamics 365 Sales mobile app](use-sales-mobile-app.md)    
 [Learn the basics](learn-basics-mobile-app.md)

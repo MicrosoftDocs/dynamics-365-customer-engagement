@@ -5,6 +5,7 @@ ms.date: 02/29/2024
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Set the idle time threshold for average handle time
@@ -46,7 +47,7 @@ Xrm.WebApi.retrieveMultipleRecords(entityName, "").then((result) => {
 });
 ```
 
-## See also
+## Related information
 
 [View and understand Ongoing Conversations dashboard](../use/ongoing-conversations-dashboard.md)
 

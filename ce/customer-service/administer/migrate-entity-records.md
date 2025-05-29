@@ -1,16 +1,20 @@
 ---
-title: "Migrate data from legacy Service Scheduling using migration tool | MicrosoftDocs"
-description: "This topic provides information on how to migrate entity records using migration tool to Unified Interface Service Scheduling in Dynamics 365 Customer Service."
-ms.date: 10/11/2019
-ms.topic: article
-author: neeranelli
-ms.author: nenellim
-search.audienceType: 
+title: Migrate data from legacy Service Scheduling using migration tool
+description: Migrate data from legacy Service scheduling to the new experience using a migration tool, ensuring dependencies are resolved and errors troubleshot effectively.
+ms.date: 04/09/2025
+ms.topic: upgrade-and-migration-article
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
+search.audienceType:
   - admin
   - customizer
   - enduser
-ms.custom: 
+ms.custom:
   - dyn365-customerservice
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:04/09/2025
 ---
 
 # Migrate data from legacy Service scheduling using migration tool
@@ -21,11 +25,11 @@ Follow these steps to migrate entity records from legacy scheduling experience t
 
 2. Select **Scheduling** from **Change area**.
 
-3. Select **Data migration** under **Tools**. The **Migrate to Service scheduling on Unified Interface** page displays the **Last run status**. If you've never run the tool, then the **Date** and **Status** field will be blank.
+3. Select **Data migration** under **Tools**. The **Migrate to Service scheduling on Unified Interface** page displays the **Last run status**. If you've never run the tool, then the **Date** and **Status** field are blank.
 
     ![Data Migration.](../media/data-migration.png "Data Migration")
 
-4. Review the details and select **Next** in the **Migrate to Service scheduling on Unified Interface** page. The **Step 1/3: Configuration data** page appears that displays the name of the entity records and the total number of records that will be migrated.
+4. Review the details and select **Next** in the **Migrate to Service scheduling on Unified Interface** page. The **Step 1/3: Configuration data** page appears that displays the name of the entity records and the total number of records that are to be migrated.
 
 5. Specify the following in the **Step 2/3: Service Activities** page and select **Migrate**.
 
@@ -33,16 +37,16 @@ Follow these steps to migrate entity records from legacy scheduling experience t
     |----------------------------|-------------------------------|---------------------------------------|
     | Migrate Service Activities | Set the toggle to **On** to migrate the service activities. | On |
     | Start date | Select a start date from the date picker. | 6/20/2019. <br> **Note:** This is an example value. |
-    | End date | Select a end date from the date picker. | 9/23/2019. <br> **Note:** This is an example value. |
+    | End date | Select an end date from the date picker. | 9/23/2019. <br> **Note:** This is an example value. |
 
-    The tool considers all the Service activities that are scheduled to start and be completed within the date range.
+    The tool considers all the Service activities that are scheduled to start and completed within the date range.
 
     > [!Note]
-    > - The migration tool doesn’t consider the records whose status is marked as Ignore. To learn more, see [Understand migration status](#understand-migration-summary-and-troubleshoot).
+    > - The migration tool doesn’t consider the records whose status is marked as Ignore. Learn more in [Understand migration status](#understand-migration-summary-and-troubleshoot).
     >
     > - If you create any records after you start the migration, the new entity records will not be fetched and migrated.
 
-6. Review the information in the confirmation dialog and select **Migrate**. Once you migrate, the action cannot be undone.
+6. Review the information in the confirmation dialog and select **Migrate**. Once you migrate, the action can't be undone.
 
 7. Review the status of the migration. If the migration is successful, select **Done**, and the migration status page is displayed.
  
@@ -60,7 +64,7 @@ The status column displays two types of migration statuses for the entity record
 
 ### View errors
 
-If the migration of one or more entity records has failed, the status column displays for which entity records the error has occurred.
+If the migration of one or more entity records has failed, the status column displays the entity records for which the error has occurred.
 
    ![Migration with errors.](../media/migration-step4.png "Migration with errors")
 
@@ -101,7 +105,7 @@ Let us take the preceding example to learn how to resolve the error.
 
 2. Open a new browser window and go to `https://<dynamics org url>api/data/v9.0/services(<Guid>)`. For example, `https://<dynamics org url>api/data/v9.0/services(3979D7DB-F5DA-E911-A81F-000D3A6D4947)`.
 
-   Now, you find the record name. In our case, it is **Bike technicians**, which is a **Resource Categories** entity in the new service scheduling experience.
+   Now, you find the record name. In our case, it's **Bike technicians**, which is a **Resource Categories** entity in the new service scheduling experience.
 
 3. Select **View Errors** against the **Resource Categories** record in the **Data Migration Wizard** tab. 
 
@@ -114,7 +118,7 @@ Let us take the preceding example to learn how to resolve the error.
 
 5. Review the migration status, if there are any errors, investigate in a similar way as explained in this example.
 
-## See also
+## Related information
 
 [Introduction to migration of entity records](introduction-migration-entity-records.md)
 

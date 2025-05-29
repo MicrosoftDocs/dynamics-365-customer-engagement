@@ -2,12 +2,11 @@
 title: "Configure Exchange folder-level tracking rules (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Learn how to configure Exchange folder-level tracking rules"
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 4cd28905-1af7-42aa-a9d8-27c271dfcb8c

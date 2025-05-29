@@ -3,10 +3,10 @@ title: Create a new case when email subject changes
 description: Define whether a new case should be created when the email subject changes on a reply or a forwarded email with regex expressions.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 11/01/2023
+ms.date: 05/06/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -17,21 +17,21 @@ ms.custom:
 
 # Create a new case when email subject changes
 
-When a customer replies to an email after modifying or removing the content in the subject, a new case isn't created in Dynamics 365. This behavior happens because the InReplyTo value of the reply email matches the messageID of the previous email that’s already in Dynamics 365. This creates an email correlation, and the case associated with the previous email is linked with the reply email. As a result, the automatic record creation and update rule skips the case creation, even if the subject changes.
+When a customer replies to an email after modifying or removing the content in the subject, a new case isn't created in Dynamics 365 because the InReplyTo value of the reply email matches the messageID of the previous email that’s already in Dynamics 365. This creates an email correlation, and the case associated with the previous email is linked with the reply email. As a result, the automatic record creation and update rule skips the case creation, even if the subject changes.
 
 Administrators can use regex expressions to define whether a new case should be created when the email subject changes on a reply or a forwarded email that has a related active or resolved case.
 
-This topic describes the customization steps that you can perform to create a new case when an email subject changes.
+This article describes the customization steps that you can perform to create a new case when an email subject changes.
 
 ## Prerequisites
 
-Make sure to enable the **Skipped** and **Ready for Power Automate** monitored options for the activity monitor in the Customer Service admin center app. More information: [Use activity monitor to review and track rules](manage-activity-arc.md)
+Make sure to enable the **Skipped** and **Ready for Power Automate** monitored options for the activity monitor in the Copilot Service admin center app. Learn more in [Use activity monitor to review and track rules](manage-activity-arc.md).
 
 ## How it works
 
 A new default Boolean field, named correlatedsubjectchanged, is available for the email entity. The field is populated as true or false for inreplyto-correlated emails, and detects changes in the subject field of the email. A default regex is available that ignores the prefixes **Re:**, **re:**, or **RE:** in the email response, and then compares the subject with the correlated email’s subject. If the subject matches, the Boolean value, correlatedsubjectchanged, is set to false. 
 
-However, the default regex doesn’t ignore the prefixes **Fw:**, **FW:**, or **FWD:** in the forwarded email, so the Boolean value, correlatedsubjectchanged, is set to true in these cases, and if an email is forwarded, a new case is created. You can customize the default regex if it doesn't match your requirements. You can write regex expressions for multiple languages. For more information, go to [Regular Expression Language - Quick Reference](/dotnet/standard/base-types/regular-expression-language-quick-reference). To edit the regex, use the OrgDbOrgSetting tool and follow the [guidance](https://github.com/seanmcne/OrgDbOrgSettings).
+However, the default regex doesn’t ignore the prefixes **Fw:**, **FW:**, or **FWD:** in the forwarded email, so the Boolean value, correlatedsubjectchanged, is set to true in these cases, and if an email is forwarded, a new case is created. You can customize the default regex if it doesn't match your requirements. You can write regex expressions for multiple languages. Learn more in [Regular Expression Language - Quick Reference](/dotnet/standard/base-types/regular-expression-language-quick-reference). To edit the regex, use the OrgDbOrgSetting tool and follow the [guidance](https://github.com/seanmcne/OrgDbOrgSettings).
 
 ## Customization steps to create a new case
 
@@ -62,7 +62,7 @@ To define whether automatic record creation and update rules must create a new c
             - An existing entity is already connected with this record.
             - An active case is already connected with this record.
             - A resolved case is already connected with this record.
-            - The rule requires a connected case to be resolved for a specific amount of time before creating a new one. This connected case has been resolved for less than the amount of time selected.
+            - The rule requires a connected case to be resolved for a specific amount of time before creating a new one. This connected case is resolved for less than the amount of time selected.
 
     1. Retrieve the email record. Enter **RowID** as **Monitored activity item (Value)**.
     
@@ -74,4 +74,4 @@ To define whether automatic record creation and update rules must create a new c
     
         :::image type="content" source="../media/arc_sub_change.png" alt-text="Screenshot describes the email subject change flow."lightbox="../media/arc_sub_change.png":::
         
-    By performing the steps, the automatic record creation and update rule can be conditionally bypassed (based on email subject change condition) and a new case can be created.
+    After you complete the steps, the automatic record creation and update rule can be conditionally bypassed (based on email subject change condition) and a new case can be created.

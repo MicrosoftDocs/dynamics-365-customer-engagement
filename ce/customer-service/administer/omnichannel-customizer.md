@@ -1,18 +1,18 @@
 ---
-title: "Omnichannel engagement hub for system customizers | MicrosoftDocs"
-description: "Overview topic containing links to procedures for customizing session, quick view, and Active Conversation forms in Omnichannel for Customer Service."
-ms.date: 07/01/2019
-ms.topic: article
+title: Omnichannel engagement hub for system customizers
+description: Overview topic that provides links to procedures to customize session, quick view, and Active Conversation forms in Omnichannel for Customer Service.
+ms.date: 02/05/2025
+ms.topic: overview
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 # Omnichannel system customizers
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 ## Overview
 
-Every organization has a unique way of working. Some organizations have well-defined business processes, and some don’t. As a system customizer, you can customize the forms for your agents and supervisors to cater to your business process and workflow requirements.
+Every organization has a unique way of working. Some organizations have well-defined business processes, and some don’t. As a system customizer, you can customize the forms for your customer service representatives and supervisors to cater to your business process and workflow requirements.
 
 ## In this section
 

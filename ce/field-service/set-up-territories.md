@@ -1,8 +1,8 @@
 ---
 title: Service territories for accounts, work orders, and resources.
 description: Learn how to use territories for accounts, work orders, and scheduling in Dynamics 365 Field Service.
-ms.date: 05/06/2024
-ms.topic: article
+ms.date: 05/28/2024
+ms.topic: how-to
 author: ryanchen8
 ms.author: chenryan
 ---
@@ -11,8 +11,6 @@ ms.author: chenryan
 Territories help you divide your business into geographical regions for work order management, scheduling, and reporting. You can group customers, work orders, and resources based on a custom region.
 
 Use territories with work orders and resources to help dispatchers schedule work orders to resources with a matching territory. Territories are useful filters on the schedule board, the schedule assistant, and the [Resource Scheduling Optimization add-in](rso-overview.md).
-
-[Reporting](reports.md) by region is a common use-case for many organizations. Measure KPIs such as first-time fix rate, work order count by type, or work order invoice revenue by territory.
 
 ## Create a territory
 

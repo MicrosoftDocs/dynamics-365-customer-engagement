@@ -1,18 +1,18 @@
 ---
 title: "UIA Pattern List in Unified Service Desk | MicrosoftDocs"
-description: "Use this topic to get a list of UI automation patterns, such as InvokePatternIdentifiers.Pattern, used in Unified Service Desk."
-ms.date: 08/23/2017
-ms.topic: article
+description: "Use this article to get a list of UI automation patterns, such as InvokePatternIdentifiers.Pattern, used in Unified Service Desk."
+ms.date: 06/27/2024
+ms.topic: overview
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # UIA Pattern List in Unified Service Desk
-This topic lists the UIA patterns.  
+This article lists the UIA patterns.  
   
 1. [InvokePatternIdentifiers.Pattern](/dotnet/api/system.windows.automation.invokepatternidentifiers.pattern)  
   
@@ -35,7 +35,7 @@ This topic lists the UIA patterns.
    DDA can be extended to add a new pattern.  
   
 > [!NOTE]
->  When UIADDA is used with any application, UIA requires that the application be in focus before any interaction can occur with the application. This means that any automation will require that a Focus activity occur before any interaction with controls can take place, including registering for an event. If there is subsequent interaction with controls on another application, that application must be brought into focus.  `Dynamic positioning` must be used instead of `set parent` when using the UIADDA with non-WPF applications.  If an application is hosted outside, focus is not required.  
+>  When UIADDA is used with any application, UIA requires that the application is in focus before any interaction can occur with the application. This means that any automation requires that a Focus activity occur before any interaction with controls can take place, including registering for an event. If there's subsequent interaction with controls on another application, that application must be brought into focus. `Dynamic positioning` must be used instead of `set parent` when using the UIADDA with non-WPF applications. If an application is hosted outside, focus isn't required.  
   
 ### See also  
  [UIADDA](../unified-service-desk/uiadda.md)   

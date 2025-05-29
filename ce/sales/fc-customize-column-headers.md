@@ -1,7 +1,7 @@
 ---
 title: Customize column headers in the forecast grid
 description: Learn how to customize the column headers of the forecast grid.
-ms.date: 12/16/2022
+ms.date: 10/01/2024
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -12,13 +12,6 @@ ms.custom: bap-template
 # Customize column headers in the forecast grid
 
 You can customize column headers in the forecast grid using Power Apps code components. For example, you can translate the column name or add a tooltip for additional context.  
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System administrator or customizer <br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## How to customize the header
 

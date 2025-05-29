@@ -1,7 +1,6 @@
 ---
 title: "The configuration database version is not valid | Microsoft Docs"
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

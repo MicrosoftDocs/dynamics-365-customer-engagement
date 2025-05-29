@@ -4,8 +4,8 @@ description: Learn about the system requirements for using the Sales Hub and Sal
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.topic: conceptual 
-ms.date: 01/02/2023
+ms.topic: concept-article 
+ms.date: 03/31/2025
 ms.custom: bap-template 
 ---
 
@@ -32,12 +32,12 @@ The system and license requirements to use the sales apps are as follows:
 For a list of regions supported for product availability and data location, see [Infrastructure and availability PDF](https://aka.ms/dynamics_365_international_availability_deck).
 
 > [!NOTE]
-> Sales Premium features are supported only in specific regions. For more information, see [In which region is Sales Premium available?](faq-region-language.md#in-which-region-is-sales-premium-available).
+> Sales Premium features are supported only in specific regions. For more information, see [In which region is Sales Premium available?](faq-region-language.md#in-which-countryregion-is-sales-premium-available).
 
 ## Supported languages
 
 For a list of languages supported by the Sales Hub and Sales Professional apps, see the [Language availability report](https://dynamics.microsoft.com/en-us/availability-reports/languagereport/) for Dynamics 365 Sales.
 
 > [!NOTE]
-> Sales Premium features are supported only in specific languages. For more information, see [What languages are supported now?](faq-region-language.md#what-languages-are-supported-for-sales-premium-features).  
+> Sales Premium features are supported only in specific languages. For more information, see [What languages are supported?](faq-region-language.md#what-languages-are-supported-for-sales-premium-features).  
 

@@ -2,7 +2,6 @@
 title: "Sample: Set the state of a workflow (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The sample shows how to change the state of a workflow, through activating and deactivating it, by using the SetStateRequest message. In addition, the sample shows how to create a custom XAML workflow."
 keywords:
-ms.date: 1/14/2018
 
 ms.custom:
 ms.topic: sample
@@ -24,7 +23,7 @@ search.audienceType:
 
 [!INCLUDE[cc-sample-note](./includes/cc-sample-note.md)]
 
-Download the sample: [Workflow](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/Workflow).
+Download the sample: [Workflow](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/Workflow).
 
 ## Prerequisites
 
@@ -34,7 +33,7 @@ Download the sample: [Workflow](https://github.com/microsoft/PowerApps-Samples/t
 
 [!INCLUDE[cc-how-to-run-PA-samples](./includes/cc-how-to-run-PA-samples.md)]
 
-Consult the sample's [README](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/Workflow/README.md) for additional information about the sample.
+Consult the sample's [README](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/CSharp/Workflow/README.md) for additional information about the sample.
 
 ## Demonstrates
 
@@ -42,7 +41,7 @@ This sample shows how to change the state of a workflow, through activating and 
 
 ## Example
 
-[SetStateWorkflow.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/Workflow/Workflow/SetStateWorkflow.cs)
+[SetStateWorkflow.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/CSharp/Workflow/Workflow/SetStateWorkflow.cs)
 
 ### See also
 

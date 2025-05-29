@@ -1,21 +1,19 @@
 ---
-title: "Replacement parameters in Unified Service Desk | MicrosoftDocs"
-description: "Learn to view replacement parameters to pull data from data elements. Also find information about system replacement parameters."
-ms.date: 08/23/2017
-ms.topic: article
+title: Replacement parameters in Unified Service Desk 
+description: Learn to view replacement parameters to pull data from data elements. Also find information about system replacement parameters.
+ms.date: 05/15/2025
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Replacement parameters in Unified Service Desk
 
-
-
-Replacement parameters can be used throughout the application to pull data from data elements (called data parameters) captured during the execution of the application that augment and include the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context. The context consists of name/value string pairs that change frequently as data is discovered from various ways while the application is used. Replacement parameters are used for a variety of tasks such as specifying URL query strings, generating script output in scriptlets, specifying search values for entity searches, Computer Telephone Integration (CTI), and specifying input for actions being called on other hosted controls. Replacement parameters are the key elements that enable a high degree of configuration or customization in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] without having to use the code.  
+Replacement parameters can be used throughout the application to pull data from data elements (called data parameters) captured during the execution of the application that augment and include the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context. The context consists of name/value string pairs that change frequently as data is discovered from various ways while the application is used. Replacement parameters are used for various tasks such as specifying URL query strings, generating script output in scriptlets, specifying search values for entity searches, Computer Telephone Integration (CTI), and specifying input for actions being called on other hosted controls. Replacement parameters are the key elements that enable a high degree of configuration or customization in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] without having to use the code.  
   
  For information on how you can use replacement parameters to configure your agent application, see [Use replacement parameters to configure Unified Service Desk](../unified-service-desk/use-replacement-parameters-configure-unified-service-desk.md).  
   
@@ -28,11 +26,11 @@ Replacement parameters can be used throughout the application to pull data from 
   
 1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client, and sign in to the Dynamics 365 instance where you have installed the sample packages.  
   
-2. In the main screen of the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client, click the down arrow next to the gear on the top-right corner, and select **Debug**. The Debugger appears.  
+2. In the main screen of the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client, select the down arrow next to the gear on the top-right corner, and select **Debug**. The Debugger appears.  
   
    ![Debug option to open Debugger.](../unified-service-desk/media/usd-view-debugger.png "Debug option to open Debugger")  
   
-3. In the Debugger, click **Data Parameters** to view the replacement parameters.  
+3. In the Debugger, select **Data Parameters** to view the replacement parameters.  
   
    ![Replacement parameters on Data Parameters tab.](../unified-service-desk/media/usd-replacement-parameters.PNG "Replacement parameters on Data Parameters tab")  
   
@@ -42,7 +40,7 @@ Replacement parameters can be used throughout the application to pull data from 
   
 - `[[$User.fullname]]`  
   
-  These values will change as the user interacts in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. Action calls will pick up the current value and use in its parameter list, or wherever else it may be used. Any time the variables are updated, a **NotifyContextChange** event is fired in the base controls even if the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context didn’t change itself. This allows features like the Session Lines to recheck the values of the replacement parameters to see if it needs to update its display.  
+  These values change as the user interacts in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. Action calls pick up the current value and use in its parameter list, or wherever else it may be used. Any time the variables are updated, a **NotifyContextChange** event is fired in the base controls even if the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context didn’t change itself. This allows features like the Session Lines to recheck the values of the replacement parameters to see if it needs to update its display.  
   
 <a name="SystemReplacementParameters"></a>   
 ## System Replacement Parameters  
@@ -79,7 +77,7 @@ Replacement parameters can be used throughout the application to pull data from 
   
 <a name="Debug"></a>   
 ### $Debug  
- This is a special replacement value used only within a Scriptlet to determine if it is being called by the debug window. Particularly when scriptlets are causing actions to be performed on the system, we test this parameter to determine if we should skip the block of code to avoid side effects when debugging. The following scriptlet would launch the Account hosted control and display the tab when the debug window is opened.  
+ This is a special replacement value used only within a Scriptlet to determine if it's being called by the debug window. Particularly when scriptlets are causing actions to be performed on the system, we test this parameter to determine if we should skip the block of code to avoid side effects when debugging. The following scriptlet would launch the Account hosted control and display the tab when the debug window is opened.  
   
 ```  
 CRMGlobalManager.GetApp(“Account”);  
@@ -91,7 +89,7 @@ CRMGlobalManager.GetApp(“Account”);
 If ([[$Debug]]!= true) CRMGlobalManager.GetApp(“Account”);  
 ```  
   
- This will avoid the side effect and still provide useful information to the debugger.  
+ This avoids the side effect and still provide useful information to the debugger.  
   
 <a name="Global"></a>   
 ### $Global  
@@ -111,21 +109,21 @@ If ([[$Debug]]!= true) CRMGlobalManager.GetApp(“Account”);
 [[$Resources.MyButtonName]+]  
 ```  
   
- Depending on the selected language for the user, appropriate localized text will be used.  
+ Depending on the selected language for the user, appropriate localized text is used.  
   
- It is also important to note here that these replacement parameters, and therefore the .resx files that are loaded, may contain replacement parameter syntax itself. After `$Resources` values are replaced, they are rechecked for additional replacement parameters. In this way, even though you are providing language specific strings, you may substitute data from the rest of the application into this string as well.  
+ It's also important to note here that these replacement parameters, and therefore the .resx files that are loaded, may contain replacement parameter syntax itself. After `$Resources` values are replaced, they're rechecked for additional replacement parameters. In this way, even though you're providing language specific strings, you may substitute data from the rest of the application into this string as well.  
   
  For information about adding localized resources to configure [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Add multilanguage support for your agent applications](../unified-service-desk/add-multilanguage-support-agent-applications.md).  
   
 <a name="Return"></a>   
 ### $Return  
- Some actions return a string value. This string value is placed into the $Return replacement parameter using the name of the action call. It will follow this pattern:  
+ Some actions return a string value. This string value is placed into the $Return replacement parameter using the name of the action call. It follows this pattern:  
   
 ```  
 [[$Return.ActionCallName]]  
 ```  
   
- An example of this would be calling CreateEntity on Global Manager. This will create a record, and return the GUID of the new record. This new GUID will be in the `$Return` replacement parameter list and can be used as input to the next action.  
+ An example of this would be calling CreateEntity on Global Manager. This creates a record, and return the GUID of the new record. This new GUID will be in the `$Return` replacement parameter list and can be used as input to the next action.  
   
 <a name="Session"></a>   
 ### $Session  
@@ -144,9 +142,9 @@ If ([[$Debug]]!= true) CRMGlobalManager.GetApp(“Account”);
   
 <a name="Subject"></a>   
 ### $Subject  
- A useful capability in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is to auto-populate the subject tree in a new case that is created on behalf of the user. Sometimes you’ll want to auto-populate the subject field but you need to know the correct values to use, which can change from system to system.  
+ A useful capability in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is to auto-populate the subject tree in a new case that is created on behalf of the user. Sometimes you want to auto-populate the subject field but you need to know the correct values to use, which can change from system to system.  
   
- With this entry, you can refer to a specific subject when you are creating the case, by using the following replacement parameter.  
+ With this entry, you can refer to a specific subject when you're creating the case, by using the following replacement parameter.  
   
 ```  
 [[$Subject.Default Subject.Id]][[$Subject.Default Subject.LogicalName]]  
@@ -158,7 +156,7 @@ If ([[$Debug]]!= true) CRMGlobalManager.GetApp(“Account”);
   
 <a name="User"></a>   
 ### $User  
- This replacement parameter group is automatically populated with the contents of the current user’s record in the model-driven app. For example, if the administrator extends the system user entity in the model-driven app to include an agent id, the agent id will appear in this list. This can be used to configure special user settings.  
+ This replacement parameter group is automatically populated with the contents of the current user’s record in the model-driven app. For example, if the administrator extends the system user entity in the model-driven app to include an agent id, the agent id appears in this list. This can be used to configure special user settings.  
   
 ### See also  
  [Use replacement parameters to configure Unified Service Desk](../unified-service-desk/use-replacement-parameters-configure-unified-service-desk.md)   

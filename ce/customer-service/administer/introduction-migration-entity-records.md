@@ -5,6 +5,7 @@ ms.date: 10/11/2019
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 search.audienceType: 
   - admin
   - customizer
@@ -49,7 +50,7 @@ Consider the following scenarios before you begin migration:
 
 After successful installation, you can access scheduling in the Customer Service Hub sitemap.
 
-## See also
+## Related information
 
 [Plan your migration](plan-migration.md)
 

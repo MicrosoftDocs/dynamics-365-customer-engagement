@@ -3,7 +3,6 @@ title: "Microsoft Dynamics 365 for Customer Engagement Reporting Extensions must
 description: Environment diagnostics warning that Reporting Extensions aren't installed.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

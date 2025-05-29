@@ -1,7 +1,7 @@
 ---
 title: Create a work order
 description: Create a work order to coordinate and schedule resources and activities for installations, repairs, or preventive maintenance.
-ms.date: 02/15/2024
+ms.date: 04/04/2025
 ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
@@ -22,7 +22,7 @@ A work order is often created from a case, an [agreement](set-up-customer-agreem
 
 1. Select **New**.
 
-   :::image type="content" source="media/create-new-work-order-list.png" alt-text="Screenshot of the active work orders list in Field Service.":::
+   :::image type="content" source="media/create-new-work-order-list.png" alt-text="Screenshot of a list of work orders in Field Service.":::
 
 1. At a minimum, enter information in the following required fields.
 
@@ -30,11 +30,11 @@ A work order is often created from a case, an [agreement](set-up-customer-agreem
     - For **Work Order Type**, select a work order type from the list or [create a new work order type](create-work-order-types.md).
     - For **System Status**, select **Unscheduled**.
     - For **Price List**, select a price list from list or [create a new price list](create-price-list.md).
-    - Choose if the work order is **Taxable** or not. If the work order isn't taxable work order products and services aren't considered taxable either, regardless of the taxable setting on the product or service.
+    - If [taxes are enabled](set-up-tax-codes.md), choose if the work order is **Taxable** or not. If the work order isn't taxable, work order products and services aren't considered taxable either, regardless of the taxable setting on the product or service.
   
-1. Provide optional information for the work order as applicable. You can also add service tasks, products, or services later.
+1. Provide optional information for the work order such as service tasks, products, services, or knowledge articles. You can also add this information later.
 
-   If you don't add a service task or incident type to the work order, the system sets the estimated duration of the work order to the default booking duration. You can change ths value by updating the Booking Setup Metadata for the msdyn_workorder entity. For more information, see [Edit settings for entities enabled for scheduling](/dynamics365/field-service/schedule-new-entity#edit-settings-for-enabled-entities).
+   If you don't add a service task or incident type to the work order, the system sets the estimated duration of the work order to the default booking duration. You can change this value by updating the Booking Setup Metadata for the [msdyn_workorder table](./developer/reference/entities/msdyn_workorder.md). For more information, go to [Edit settings for entities enabled for scheduling](/dynamics365/field-service/schedule-new-entity#edit-settings-for-enabled-entities).
   
 1. Select **Save** or **Save and close**.
 

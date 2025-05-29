@@ -1,10 +1,11 @@
 ---
 title: Search and open records of incoming conversations
 description: Demonstrates how you can use the Dynamics 365 Channel Integration Framework 1.0 APIs to search and open records of incoming conversations.
-ms.date: 03/21/2024
+ms.date: 05/05/2025
 author: gandhamm
 ms.author: mgandham
-ms.topic: article
+ms.reviewer: mgandham
+ms.topic: how-to
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -17,11 +18,11 @@ The sample covers four scenarios:
 
 - Customer's contact number matches one record in Dynamics 365. The record is retrieved using the [searchAndOpenRecords](../develop/reference/microsoft-ciframework/searchAndOpenRecords.md) API.
 
-- Customer's contact number matches multiple records of same entity type in Dynamics 365. The records are retrieved using the [searchAndOpenRecords](../develop/reference/microsoft-ciframework/searchAndOpenRecords.md) API.
+- Customer's contact number matches multiple records of the same entity type in Dynamics 365. The records are retrieved using the [searchAndOpenRecords](../develop/reference/microsoft-ciframework/searchAndOpenRecords.md) API.
 
 - Customer's contact number matches multiple records of multiple entity types in Dynamics 365. The Account entity and Contact entity records are searched for the contact number of the incoming call and then the search results are displayed on the console.
 
-- Customer's contact number does not match any record in Dynamics 365, so we search and open empty results and then create a new record for the customer using the [createRecord](../develop/reference/microsoft-ciframework/createRecord.md) API.
+- Customer's contact number doesn't match any record in Dynamics 365, so we search and open empty results and then create a new record for the customer using the [createRecord](../develop/reference/microsoft-ciframework/createRecord.md) API.
 
 ## Prerequisites
 
@@ -29,13 +30,13 @@ The sample covers four scenarios:
 - A valid Microsoft Azure subscription is required to publish the sample app to Azure.
 
 > [!IMPORTANT]
-> This tutorial is a continuation of [Getting started with building a simple communication widget](getting-started-simple-widget.md). If you have not created a simple *Hello World!* widget yet that can be hosted on Dynamics 365 Channel Integration Framework, we suggest you read that first.
+> This tutorial is a continuation of [Getting started with building a simple communication widget](getting-started-simple-widget.md). If you haven't created a simple *Hello World!* widget yet that can be hosted on Dynamics 365 Channel Integration Framework, we suggest you read that first.
 
 ## Build the widget
 
 1. Open the basic widget that you created using the steps mentioned in [Get started with building a simple communication widget](getting-started-simple-widget.md) in Visual Studio 2017.
 
-2. Open the `Index.cshtml` file and replace the code in the file with the code given below. 
+2. Open the `Index.cshtml` file and replace the code in the file with the following code. 
 
    ![Open Index.cshtml file from solution explorer.](../../media/cif-helloworld-solution-explorer.PNG "Open Index.cshtml file from solution explorer")<br />
 
@@ -204,7 +205,7 @@ Follow the steps mentioned in [Publish and configure the widget](getting-started
 
   ![Published sample widget in Unified Interface apps.](../../media/cif-search-records-publish-app.PNG "Published sample widget in Unified Interface apps")<br />
 
-### See also
+### Related information
 
 [Build a simple communication widget](getting-started-simple-widget.md)  
 [Sample code for softphone integration](sample-softphone-integration.md)  

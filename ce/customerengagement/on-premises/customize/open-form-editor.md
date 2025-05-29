@@ -2,12 +2,11 @@
 title: "Open form editor in Dynamics 365 Customer Engagement (on-premises)"
 description: "This page walks you through three ways to open the form editor: through the command bar, through the default solution, or through an unmanaged solution."
 ms.custom: 
-ms.date: 04/29/2019
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 author: Mattp123

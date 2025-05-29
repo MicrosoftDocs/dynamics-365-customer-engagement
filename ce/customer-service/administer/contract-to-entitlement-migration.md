@@ -5,6 +5,7 @@ ms.date: 07/10/2020
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 search.audienceType: 
   - admin
   - customizer
@@ -149,7 +150,7 @@ For business requirements, if a resolved case needs to be updated, perform the f
 >
 > **Example**: The contract lines associated with the product Armband 100 can be associated in the case list that is linked to another product, Armband 150. However, in entitlements, an error will occur when you link an entitlement associated with a product, Armband 100, with a case linked to Armband 150.
 
-### See also
+### Related information
 
 [Important changes (deprecations) coming](/power-platform/important-changes-coming)  
 [SDK code samples in basic update](/powerapps/developer/common-data-service/org-service/entity-operations-update-delete#basic-update)

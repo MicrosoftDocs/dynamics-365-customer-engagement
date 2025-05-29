@@ -1,8 +1,8 @@
 ---
 title: Manage contacts in the Dynamics 365 Sales mobile app
 description: Learn how to create and manage contacts in the Dynamics 365 Sales mobile app
-ms.date: 03/31/2023
-ms.topic: article
+ms.date: 05/02/2025
+ms.topic: how-to
 author: sbmjais
 ms.author: shjais
 ms.reviewer: shjais 
@@ -17,15 +17,6 @@ In the Dynamics 365 Sales mobile app, you can view, edit, and create contacts.
 - [Edit contact details](#edit-contact-details)
 
 - [Create contact](#create-contact)
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](../security-roles-for-sales.md#primary-sales-roles)|
-
-
 
 ## View details
 
@@ -46,8 +37,7 @@ The Meeting details page displays contacts are invited for the meeting. Also, th
 
 In the following example, the details of a recent contact shown on the home page are displayed in a quick view form:   
 
-> [!div class="mx-imgBorder"]
-> ![Open contact details.](media/sm-open-contact.png "Open contact details") 
+:::image type="content" source="media/sm-open-contact.png" alt-text="Screenshot of opening contact details in a quick view form.":::
 
 ## Edit contact details
 
@@ -83,12 +73,11 @@ If you need to create a contact that doesn't already exist in your Dynamics 365 
     
 1. Tap **Create new contact**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Create contact.](media/sm-create-contact.png "Create contact")
+    :::image type="content" source="media/sm-create-contact.png" alt-text="Screenshot of creating a new contact from the Meetings page.":::
     
 3.  In the **Create new contact** form, fill in the details, and then tap **Save**.
 
-### See also
+## Related information
 
 [Learn the basics](learn-basics-mobile-app.md)   
 [View meetings](view-agenda.md)

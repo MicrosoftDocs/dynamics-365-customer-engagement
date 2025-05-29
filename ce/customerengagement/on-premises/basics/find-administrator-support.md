@@ -2,18 +2,17 @@
 title: "Find system administrator in Dynamics 265 Customer Engagement (on-premises)"
 description: "You may have an issue that requires working with your Dynamics 365 Customer Engagement (on-premises) administrator. Use Advanced Find to learn who they are."
 ms.custom: 
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: ffa6c917-3ad1-48ee-9d8f-428fa3f97215
 caps.latest.revision: 12
-author: sericks007
-ms.author: sericks
+author: shwetamurkute
+ms.author: smurkute
 search.audienceType: 
   - enduser
 

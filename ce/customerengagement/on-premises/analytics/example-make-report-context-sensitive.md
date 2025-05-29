@@ -2,12 +2,11 @@
 title: "Make a report context sensitive in Dynamics 365 Customer Engagement (on-premises)"
 description: "The following example describes how to create and configure a context-sensitive report in Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 06/28/2021
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: ca807b45-a280-40d4-94d5-ed6ef619a144

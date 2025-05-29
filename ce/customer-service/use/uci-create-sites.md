@@ -2,9 +2,10 @@
 title: Use sites to manage your service locations | Microsoft Docs
 description: Learn how to use sites to manage your service locations in Dynamics 365 Customer Service.
 ms.date: 03/20/2023
-ms.topic: article
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 search.audienceType: 
   - admin
   - customizer
@@ -47,7 +48,7 @@ Before you begin, make sure you have the System Administrator or System Customiz
 
 4. Enter the details and select **Save**.
 
-### See also  
+### Related information  
 
 [Unified Interface-based service scheduling overview](uci-scheduling-overview.md)
 

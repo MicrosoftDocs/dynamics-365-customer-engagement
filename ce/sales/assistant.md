@@ -1,7 +1,7 @@
 ---
 title: Assistant for Dynamics 365 Sales
 description: Stay on top of your day with the Assistant feature in Dynamics 365 Sales. Get tailored and actionable insights to help you succeed.
-ms.date: 09/08/2023
+ms.date: 06/28/2024
 ms.topic: overview
 ms.collection: get-started
 author: udaykirang

@@ -1,8 +1,8 @@
 ---
 title: Track and manage activities
 description: Track and manage customer communications with Sales activities such as emails, phone calls, tasks, and appointments.
-ms.date: 03/29/2024
-ms.topic: article
+ms.date: 04/15/2025
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -26,25 +26,19 @@ The system automatically timestamps every activity and shows who created it. You
 
 To get the most out of Dynamics 365 Sales, it's important for everyone in the organization to track all their customer interactions by adding an activity for every email, phone call, task, or appointment. That way, a customer's history is complete. 
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
 ## Find your activities
 
 You can find your activities under **My Work** in the site map.  
 
 ## See activities in List, Calendar, or Kanban view
 
->[!NOTE]
->- The **Save As** option is available only when your administrator adds one or more view types to the **Activity** grid through system customizations.  
->- To add the **Kanban** view to the **Activity** grid, see [Add the Kanban control to Opportunity or Activity entities](add-kanban-control.md). By following the steps in the article, you can add other views such as **Calendar** and **Pipeline view**.
+> [!NOTE]
+> - The **Save As** option is available only when your administrator adds one or more view types to the **Activity** grid through system customizations.  
+> - To add the **Kanban** view to the **Activity** grid, see [Add the Kanban control to Opportunity or Activity entities](add-kanban-control.md). By following the steps in the article, you can add other views such as **Calendar** and **Pipeline view**.
 
 1. In the site map, select **Activities**.
 
-1. On the command bar, select **Show As**, and then the view type such as, **Kanban** or **Calendar**.
+1. On the command bar, select the view type such as **Kanban** or **Calendar**.
 
     :::image type="content" source="media/activity-show-as-kanban-view.png" alt-text="Screenshot of different views available in the activity grid.":::
   
@@ -55,6 +49,10 @@ The following view types are supported for the **Activity** grid:
 - **Kanban.** Shows a visual representation of your sales activities in their different states. This lets you see the status of every activity in your pipeline and drag them to move from one status to another (for example, Open, Completed, Canceled, Scheduled). More information: [Work with activities in the Kanban view](activity-kanban-view.md)
 
 ## Change your activities view
+
+1. In the site map, under **My Work** select **Activities**.
+
+1. From the **Activities** menu, select **My Activities**.
 
 You can use views to see the activities you want. For example, you can use the **My Activities** view to see activities assigned to you and **My Team Members' Activities** view to see your team's activities. 
 
@@ -68,7 +66,7 @@ You can also use the **Due** filter to see the activities that are due in a spec
 
 ## Create or edit a new activity
 
-You can create independent activities that aren't associated with any customer or sales record. To do so, in the site map, select **Activities** and then on the command bar, select **Email, **Phone Call**, or **Task**, depending on which activity you want to create.
+You can create independent activities that aren't associated with any customer or sales record. To do so, in the site map, select **Activities** and then on the command bar, select **Email**, **Phone Call**, or **Task**, depending on which activity you want to create.
 
 Or, to edit an existing activity record, open the activity by selecting its title.
 
@@ -96,7 +94,8 @@ Otherwise, to keep a history of your interactions with a customer, you should ad
   
 **To add an activity for yourself:**
 
-1. On the navigation bar, select **Create** and then select **Activities** > ***Activity type***.  
+1. In the site map, under **My Work** select **Activities**.
+1. On the command bar, select the type of activity you want to add, such as **Task** or **Email**.  
 1. Fill in the fields and then select **Save and Close**.  
   
 ## Attach a document  
@@ -147,6 +146,6 @@ Here are some suggestions about how to use activities to your organization's bes
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Work with activities in the Kanban view](activity-kanban-view.md)  

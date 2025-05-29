@@ -2,7 +2,6 @@
 title: "Create accessible web resources (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The topic introduces general guidance and links to more resources that will help you design web resource user interface elements that are accessible to people with disabilities."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

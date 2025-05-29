@@ -2,7 +2,6 @@
 title: "Manage date and time data type in Dynamics 365 Customer Engagement (on-premises)"
 description: "The Date and Time data type is used in many system entity fields. Learn about the options you have for setting and changing the format and behavior."
 ms.custom: 
-ms.date: 11/08/2018
 ms.reviewer: 
 
 ms.suite: 

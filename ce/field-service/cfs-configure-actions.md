@@ -1,7 +1,7 @@
 ---
 title: Set up IoT provider actions
 description: Learn how to set up IoT provider actions to automate various aspects of Dynamics 365 Connected Field Service operations.
-ms.date: 06/21/2023
+ms.date: 09/04/2024
 ms.subservice: connected-field-service
 ms.topic: how-to
 ms.author: vhorvath
@@ -15,7 +15,7 @@ ms.custom:
 
 # Set up IoT provider actions
 
-After [you set up an IoT (Internet of Things) provider](./cfs-custom-iot-provider.md), you can specify a set of actions to trigger based on the data that's captured from your organization's IoT devices. Along with five predefined actions, you can create [custom actions](/power-apps/developer/data-platform/custom-actions) that are associated with your provider to automate various aspects of your Connected Field Service operations.
+After [you set up an IoT (Internet of Things) provider](./cfs-custom-iot-provider.md), you can specify a set of actions to trigger based on the captured data from your organization's IoT devices. Along with five predefined actions, you can create [custom actions](/power-apps/developer/data-platform/custom-actions) that are associated with your provider to automate various aspects of your Connected Field Service operations.
 
 The following actions come with Connected Field Service:
 

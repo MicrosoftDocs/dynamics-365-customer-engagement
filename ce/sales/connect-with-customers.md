@@ -1,7 +1,7 @@
 ---
 title: Connect with customers through your work list or the Up next widget
 description: Learn how to use the Up next widget or the My work list to connect with customers by phone, email, and Teams meeting in Dynamics 365 Sales.
-ms.date: 04/23/2024
+ms.date: 05/20/2025
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -16,13 +16,6 @@ As a seller using Dynamics 365 Sales, you can connect with your customers daily 
 When a sequence contains a customer contact activity, your [work list](prioritize-sales-pipeline-through-work-list.md#view-my-records-by-using-the-work-list) and the [**Up next**](understand-the-up-next-widget.md) widget display the corresponding icon (phone, email, or Teams meeting). After you make the phone call, send the email, or attend the meeting, you'll mark the activity complete and continue with the next activity in the sequence. If an activity doesn't need to be completed or you can't connect with a customer, you can [skip or snooze the activity](#skip-or-snooze-an-activity). You can add notes to activities to help you remember important information.
 
 By default, activities are assigned to the owner of the record. When the owner of the record changes, the current active step remains with the previous owner, while the next steps in the sequence will be automatically assigned to the new owner. The owner of the record can also assign a particular activity to a team or an individual. To do this, on the worklist card or the Up next widget, select **More options** > **Assign** and choose the user or team accordingly.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles) |
 
 ## Call a customer
 
@@ -158,7 +151,7 @@ If you can't connect with a customer by the due date and want to follow up later
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)  
 [Understand the Up next widget](understand-the-up-next-widget.md)  

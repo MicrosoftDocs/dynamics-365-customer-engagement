@@ -1,10 +1,11 @@
 ---
 title: Enable custom time calculation of SLA KPIs
-description: Enable custom time calculation of SLA KPIs by defining an API interface and adding a custom logic to calculate the time.
-ms.date: 12/29/2023
-ms.topic: article
+description: Enable custom time calculation for SLA KPIs by defining an API interface, adding custom logic, and registering the plug-in with your organization.
+ms.date: 04/30/2025
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 search.audienceType:
   - admin
   - customizer
@@ -51,13 +52,12 @@ To enable your own custom time calculation, define an API interface that has a f
 1. [Write the plug-in](/powerapps/developer/data-platform/write-plug-in).
 
     For information on selecting the plug-in that you need, go to [Scenarios and plug-ins](#scenarios-and-plug-ins).
-1. Go to the Plug-in registration tool and register the plug-in that you created with your organization, to link it to the custom action created in step 3. 
-
-    For information on registering a plug-in, go to [Register a plug-in](/power-apps/developer/data-platform/tutorial-write-plug-in#register-plug-in).
+1. To link it to the custom action created in step 3, go to the Plug-in registration tool and register the plug-in that you created with your organization.
+    Learn more about plug-in, in [Register a plug-in](/power-apps/developer/data-platform/tutorial-write-plug-in#register-plug-in).
 
     :::image type="content" source="../media/register-plug-in.png" alt-text="Register and link the plug-in":::
 
-1. In Customer Service admin center, add or edit the previously created custom action with the SLA Item:
+1. In Copilot Service admin center, add or edit the previously created custom action with the SLA Item:
     1. Set the **Allow Custom Time Calculation** toggle to **Yes**.
     1. In the **Custom Time Calculation Process** field, select the custom action created in step 3.
     1. Select **Save and Close**.
@@ -267,10 +267,10 @@ Add the workflow process and save the SLA item. To avoid this issue, make sure t
 
 ### Error code: 10000006
 
-Error message: "Workflow for the Custom Time Calculation Process for SLA Item {0} is missing. {Placeholder="{0}"} refers to the SLA Item ID."
+Error message: "Workflow for the Custom Time Calculation Process for SLA Item {0} is missing. {Placeholder="{0}"} refers to the SLA Item id."
 
 ### Reason
-The error occurs if the Custom Time Calculation Workflow is enabled during SLA activation and the workflow process action is associated with the SLA Item with valid GUID but the workflow is deleted.
+The error occurs if the Custom Time Calculation Workflow is enabled during SLA activation, the workflow process action is associated with the SLA Item with valid GUID, but the workflow is deleted.
 
 ### Resolution
 You must correct the invalid workflow. Remove the existing workflow from the SLA Item, create a new workflow, and then add the new workflow to the same SLA item. To avoid this issue, make sure you don't delete any workflow manually or as part of the deployment process. Also, make sure to verify your changes before importing directly to a production environment.
@@ -278,7 +278,7 @@ You must correct the invalid workflow. Remove the existing workflow from the SLA
 ### Error code: 10000007
 
 Error message: "Plugin implementation is missing for the Custom Time Calculation Process in SLA Item {0}
-{Placeholder="{0}"} refers to sla item id."
+{Placeholder="{0}"} refers to slab item id."
 
 ### Reason
 The error occurs if the Custom Time Calculation Workflow is enabled but the associated plugin SDK messaging process step is missing or the plugin isn't registered.
@@ -294,7 +294,7 @@ Error message: "Warning or the failure time returned by Custom Time Calculation 
 The error occurs if the Custom Time Calculation Workflow action returns an invalid **Failure Time** for **requestType getEndTime**.
 
 ### Resolution
-You need to debug to find out why the custom workflow process isn't returning proper values. To avoid this issue, make sure that you add and test all the scenarios before deploying the scenarios to production. For example, this includes various SLA item applications and Pause or Resume scenarios.
+You need to debug to find out why the custom workflow process isn't returning proper values. To avoid the issue, make sure that you add and test all the scenarios before deploying the scenarios to production. For example, this includes various SLA item applications and Pause or Resume scenarios.
 
 ### Error code: 10000009
 
@@ -305,11 +305,11 @@ Error message: "Elapsed Time returned by Custom Time Calculation Process for the
 The error occurs if the Custom Time Calculation Workflow action returns an invalid **Elapsed Time** for **requestType getElapsedTime**.
 
 ### Resolution
-You need to debug to find out why the custom workflow process isn't returning proper values when the case was paused and resumed. To avoid this issue, make sure you add and test all the scenarios before deploying the scenarios to production. For example, this includes Pause or Resume scenarios.
+You need to debug to find out why the custom workflow process isn't returning proper values when the case was paused and resumed. To avoid the issue, make sure you add and test all the scenarios before deploying the scenarios to production. For example, this includes Pause or Resume scenarios.
 
 ### Error code: 10000010
 
-Error message: "Workflow for the Custom Time Calculation Process {0} for SLA Item {1} is not found."
+Error message: "Workflow for the Custom Time Calculation Process {0} for SLA Item {1} isn't found."
 
 ### Reason
 The error occurs if the custom action for custom time calculation isn't found in the system.
@@ -321,7 +321,7 @@ You need to debug and find out if the custom action is present in the system wit
 ## FAQ
 For more information about custom time calculation of SLA KPIs, go to [FAQ about custom time calculation of SLA KPIs](faqs-custom-time-sla-kpis.md#).
 
-### See also
+### Related information
 
 [Define service-level agreements](define-service-level-agreements.md)
  

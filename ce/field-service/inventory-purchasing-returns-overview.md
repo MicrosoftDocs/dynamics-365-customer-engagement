@@ -1,22 +1,19 @@
 ---
-title: "Overview of inventory, purchasing, and returns in Dynamics 365 Field Service | MicrosoftDocs"
-description: Learn about inventory, purchasing, and returns in Dynamics 365 Field Service
-ms.date: 01/09/2020
-
+title: Overview of inventory, purchasing, and returns
+description: Learn about inventory, purchasing, and returns in Dynamics 365 Field Service.
+ms.date: 01/15/2025
 ms.topic: overview
-
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: jacoh
 author: jasonccohen
+ms.custom: bap-template
 ---
 
 # Overview of inventory, purchasing, and returns
 
-
-
-Dynamics 365 Field Service inventory capabilities include:
+Inventory capabilities in Dynamics 365 Field Service include:
 
 - Warehousing
 - Inventory adjustments and transfers
@@ -25,118 +22,104 @@ Dynamics 365 Field Service inventory capabilities include:
 - Returns
 - Inventory journals
 
-For basic inventory requirements, many organizations utilize the above capabilities included with Field Service. For more complex inventory and pricing requirements, Field Service is designed to integrate with enterprise resource planning (ERP) systems. A common example is integrating with [Dynamics 365 Supply Chain Management](/dynamics365/supply-chain/sales-marketing/prospect-to-cash) using a pre-built [common data service "prospect to cash" template](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3?src=office&tab=Overview).
+Before you use inventory, purchasing, and returns, it's critical that you're familiar with [product catalog capabilities](create-product-or-service.md) in Field Service. Products are tracked in inventory only if their **Field Service Type** field is set to *Inventory*. Otherwise, inventory changes aren't shown when you add products to work orders, purchase orders, and return merchandise authorizations (RMAs).
 
-## Prerequisites
+To give a resource access to create and edit inventory-related tables, add the *Inventory Purchase* security role to their existing security role.
 
-- Knowledge of [Field Service product catalog capabilities](./create-product-or-service.md) is critical before using inventory, purchasing, and returns.
+For basic inventory requirements, many organizations use the out-of-box capabilities. For more complex inventory and pricing requirements, Field Service is designed to integrate with enterprise resource planning (ERP) systems. In one common example, Field Service integrates with [Dynamics 365 Supply Chain Management](/dynamics365/supply-chain/sales-marketing/prospect-to-cash) by using a prebuilt [Dataverse "Prospect to cash" template](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3?src=office&tab=Overview).
 
-> [!Note]
-> Only products that have a **Field Service Type** set to **Inventory** are tracked in inventory. Keep this in mind when adding products to work orders, purchase orders, and return merchandise authorizations (RMAs) and expecting to see inventory changes.
+The following diagram illustrates the flow of inventory, purchasing, and returns in Field Service.
 
+:::image type="content" source="media/warehouse-inv-purchase-returns-diagram.png" alt-text="Diagram showing the flow of inventory, purchasing, and returns in Field Service.":::
 
 ## Warehouses and product inventory
 
-A warehouse in Field Service is any company location that holds inventory. This includes static and mobile locations such as:
+In Field Service, a warehouse is any company location that holds inventory. Warehouses include both static and mobile locations, such as:
 
 - Warehouses
 - Technician trucks
 - Distribution centers
 - Loading docks
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a warehouse in Field Service.](./media/inventory-warehouse.png)
+Inventory at each warehouse is updated based on used work order products, purchase order returns, adjustments, and transfers. Updates are recorded in the related **Product Inventory** table.
 
+:::image type="content" source="media/inventory-product-inventory.svg" alt-text="Screenshot of product inventory in the main warehouse.":::
 
-Inventory at each warehouse is updated based on used work order products, purchase orders, returns, adjustments, and transfers. This is recorded in the related **Product Inventory** entity.
+For each product in the warehouse, the system tracks the following information:
 
+- **Quantity Available**: The number of units that remain to be sold.
+- **Quantity Allocated**: The number of units that are currently listed on work orders as allocated work order products.
+- **Quantity on Hand**: The sum of **Quantity Available** and **Quantity Allocated** values. Basically, this field represents units still physically present in your warehouse, even if they're already committed to work.
+- **Quantity on Order**: The number of units that are currently listed on purchase orders, but aren't received and added to inventory. Basically, this field represents units that are on the way.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of product inventory.](./media/inventory-product-inventory.png)
-
-For each product at the warehouse, the system tracks:
-
-- **Quantity Available** - how many units remain to be sold.
-- **Quantity Allocated** - how many units are currently listed on work orders as allocated work order products.
-- **Quantity on Hand** - sum of quantity available and quantity allocated. Basically, unsold units.
-- **Quantity on Order** - how many units are currently listed on purchase orders, but haven't been received and added to inventory. Basically, units that are on the way.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a new product inventory.](./media/inventory-warehouse-product-inventory.png)
+> [!NOTE]
+> By adding a warehouse to each bookable resource, you can define the default warehouse that is used when that bookable resource uses a work order product.
 
 ## Inventory adjustments and transfers
 
-**Inventory Adjustments** is a feature that lets you manually add or subtract inventory from warehouses. This feature is typically used for routine checkups to reflect shrinkage and defects, and compare expected inventory to actual inventory, adjusting for the difference.
+Use inventory adjustments to manually add inventory to warehouses or subtract inventory from warehouses. For example, use them during routine checkups to reflect shrinkage and defects, and to compare expected inventory to actual inventory. You can then adjust for the difference.
 
+:::image type="content" source="media/inventory-adjustment.svg" alt-text="Screenshot of an inventory adjustment.":::
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an inventory adjustment.](./media/inventory-adjustment.png)
+Use inventory transfers to transfer inventory from a source warehouse to a destination warehouse. For example, you can transfer inventory from a warehouse to a technician's truck.
 
-**Inventory Transfers** is a feature that lets you transfer inventory from a source warehouse to a destination warehouse. The most common example of this is transferring inventory from a warehouse to a technician’s truck.
+:::image type="content" source="media/inventory-transfer.svg" alt-text="Screenshot of an inventory transfer.":::
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an inventory transfer.](./media/inventory-transfer.png)
-
-
-You can also enable adjustments and transfers on the Field Service mobile app to allow technicians to meet in the field and record an inventory transfer from one truck to another, for example.
+You can also enable adjustments and transfers on the Field Service mobile app. For example, you can create an inventory transfer if technicians meet in the field and transfer inventory from one truck to another.
 
 ## Work order inventory
 
-Adding products to work orders and using them affects inventory. 
+Inventory is affected when products are added to work orders and used. 
 
-For example, adding a product as estimated and allocated (**Line Status** set to **Estimated**, **Allocated** and **Yes**) reserves a portion of inventory from the specified warehouse, though it doesn’t actually deduct it.
+For example, a product is added as estimated and allocated (that is, the **Line Status** field is set to *Estimated*, and the **Allocated** field is set to *Yes*). In this case, a portion of inventory is reserved from the specified warehouse, but it isn't deducted.
 
-If a work order product is used during a work order (**Line Status** set to **Used**), the inventory at the related warehouse is deducted by the work order product quantity. Typically, the warehouse listed on a work order product is the technician's truck.
-
+If a work order product is used during a work order (that is, the **Line Status** field is set to *Used*), the inventory at the related warehouse is deducted by the quantity of the work order product. Typically, the warehouse that is listed on a work order product is a technician's truck.
 
 ## Purchase orders
 
-Purchase orders (POs) are used to order products to a warehouse or directly to a work order to complete on-site work. 
+Purchase orders (POs) are used to order products for a warehouse. They're also used to order products directly for a work order so that on-site work can be completed.
 
-The purchase order process includes:
+The purchase order process includes the following steps:
 
-1. Requesting products from a vendor by creating a **Purchase Order** and adding **Purchase Order Products**.
-2. Gaining approval.
-3. Documenting receipt of products by creating a PO receipt and PO Receipt Products. This will add the received products to warehouse inventory or as work order products.
-
+1. Request products from a vendor by creating a purchase order and adding purchase order products.
+1. Gain approval.
+1. Document the receipt of products. Create a purchase order receipt and a purchase order receipt product to add the received products to warehouse inventory, or to add them as work order products.
 
 ## Returns
 
-Sometimes the same organization that installs parts and equipment at a customer's location needs to process a return of that product or customer asset.
+Sometimes, the same organization that installs parts and equipment at a customer's location must process a return of the product or customer asset. You can issue credits to customers who initiate returns. You can also track returns as part of a customer asset's service history.
 
-Common examples for why returns may be initiated include:
+Common reasons why returns are initiated include:
 
-- The part or equipment is defective
-- The customer is dissatisfied
-- A repair is needed and the repair will not take place on-site, but back at the service provider's or manufacturer's location
-- The equipment was at the customer's location as part of a lease that is ending and will not be renewed
+- The part or equipment is defective.
+- The customer is dissatisfied.
+- A repair is needed, but it isn't occurring on-site. Instead, it's occurring at the service provider's or manufacturer's location.
+- The equipment is at the customer's location as part of a lease that is ending and isn't being renewed.
 
-Field Service supports three out-of-the-box returns:
+Field Service supports three out-of-box return types:
 
 - Return to warehouse
 - Return to vendor
 - Change of equipment ownership
 
-There are three steps when issuing a return:
-1. Create return merchandise authorizations (RMAs): all product returns are initiated with RMAs The RMA designates the products to be returned, as well as all other important information, such as pricing. It also specifies a processing action, which is the type of return. 
-2. Create RMA receipt: the return isn’t finalized until an RMA receipt is created. The RMA receipt confirms the correct product and quantity were received, as well as date and person handling the receipt.
-3. Inventory and customer asset adjustments are carried out: this is done automatically in the background.
+To issue a return, follow these steps:
 
+1. Create an RMA. The RMA indicates the products that can be returned and other important information, such as pricing. It also specifies a processing action, which is the type of return.
+1. Create an RMA receipt. The return isn't finalized until an RMA receipt is created. The RMA receipt confirms that the correct product and quantity were received. It also indicates the date of the receipt and the person who handled it.
 
-Other important features of RMAs include the ability to issue credits to customers who initiate returns, and the ability to track returns as part of customer asset service history.
+The system automatically adjusts inventory and customer assets.
 
 ## Inventory journals
 
-All inventory transactions are recorded in the **Inventory Journals** entity, which can be found via an advanced find. For example, when one product is allocated to a work order, an inventory journal is created that increases quantity allocated by one. When that same product is then used to complete the work order, another inventory journal is created that decreases quantity on hand. This happens for all increases and decreases of product inventory. Basically, inventory journals serve as an inventory ledger within Field Service.
+All inventory transactions are recorded in inventory journals. For example, when one product is allocated to a work order, an inventory journal is created that increases the allocated quantity by one. When that same product is used to complete the work order, another inventory journal is created that decreases the on-hand quantity. Journals are recorded for all increases and decreases of product inventory. Basically, inventory journals serve as an inventory ledger in Field Service.
 
-Most importantly, inventory journals are sometimes used to integrate Field Service inventory transactions into external ERP systems, depending on how the integration is architected. To make integrations easier and more flexible, [inventory journals can be manually created](./manual-inventory-journals.md). 
+Most importantly, inventory journals are sometimes used to integrate Field Service inventory transactions with external ERP systems, depending on the architecture of the integration. To make integrations easier and more flexible, [inventory journals can be manually created](manual-inventory-journals.md).
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of advanced find in Dynamics 365.](./media/work-order-product-inv-journals.png)
+## Next steps
 
-## Configuration considerations
-- Adding the **Inventory Purchase** security role to a user's existing security role (dispatcher or resource) will give them access to create and edit inventory-related entities such as warehouse, purchase orders, and RMAs.
-- By adding a warehouse to each bookable resource, you can define the default warehouse that will be used when that bookable resource uses a work order product.
+- [Create a warehouse to track inventory](create-warehouse.md)
+- [Create a purchase order](create-purchase-order.md)
+- [Process a return (RMA and RTV)](process-return.md)
+- [Use manual inventory journals](manual-inventory-journals.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

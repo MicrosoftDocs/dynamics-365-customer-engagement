@@ -3,7 +3,6 @@ title: "Could not find file install.xml | Microsoft Docs"
 description: Environment diagnostics warning that Setup can't find install.xml.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

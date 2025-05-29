@@ -2,12 +2,11 @@
 title: "Add form navigation to related entity in Dynamics 365 Customer Engagement (on-premises)"
 description: "In the form navigation pane, add links to related entities. When a user clicks one of these in a record, the associated view for the entity is displayed."
 ms.custom: 
-ms.date: 11/08/2018
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 author: Mattp123

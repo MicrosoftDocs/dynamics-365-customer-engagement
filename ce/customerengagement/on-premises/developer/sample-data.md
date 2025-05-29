@@ -2,7 +2,6 @@
 title: "Sample data for Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn about installing and uninstalling sample data programmatically for an organization using InstallSampleDataRequest and UninstallSampleDataRequest."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

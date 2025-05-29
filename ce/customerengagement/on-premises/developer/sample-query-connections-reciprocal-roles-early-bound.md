@@ -2,7 +2,6 @@
 title: "Sample: Query connections by reciprocal roles (early bound) | MicrosoftDocs"
 description: "The sample demonstrates how to create matching roles and find a matching for a particular role."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 
@@ -22,7 +21,7 @@ search.audienceType:
 ---
 # Sample: Query connections by reciprocal roles (early bound)
 
-This sample shows how to create matching roles and then find a matching role for a particular role. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/QueryByReciprocalRole).
+This sample shows how to create matching roles and then find a matching role for a particular role. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/QueryByReciprocalRole).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

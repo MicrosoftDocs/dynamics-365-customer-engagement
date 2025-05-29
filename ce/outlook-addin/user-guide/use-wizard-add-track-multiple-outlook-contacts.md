@@ -3,11 +3,11 @@ title: "Use a wizard to add and track multiple Outlook contacts in Dynamics 365 
 description: Learn how to use the Add Contacts wizard to add and track multiple Outlook contacts in Dynamics 365 for Outlook.
 ms.custom: 
 ms.date: 01/11/2016
-ms.reviewer: 
+ms.reviewer: smurkute 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 apps 
   - Dynamics 365 apps (on-premises)
@@ -17,8 +17,8 @@ applies_to:
   - Dynamics CRM Online
 ms.assetid: dda44f4b-fe64-4514-bcc1-e02d9a642bd4
 caps.latest.revision: 48
-author: mduelae
-ms.author: mkaur
+author: shwetamurkute
+ms.author: bharavar
 search.audienceType: 
   - admin
   - customizer

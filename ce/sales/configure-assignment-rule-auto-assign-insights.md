@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to 
 ms.collection: 
-ms.date: 06/09/2023
+ms.date: 04/02/2025
 ms.custom: bap-template 
 ---
 
@@ -21,28 +21,21 @@ For the **Seller insights** option to appear in assignment rules, the **Insights
 > [!NOTE]
 > To learn more about assignment rules, go to [Manage assignment rules for routing](create-manage-assignment-rules.md).
 
-## License and role requirements
-
-| Requirement type | You must have |
-|------------------|---------------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
-
 ## Configure an assignment rule
 
 1. Sign in to your sales app.
 1. In the lower-left corner of the page, go to **Change area** \> **Sales Insights settings**.
-1. Under **Sales accelerator**, select **Assignment rules**.
-1. On the **Assignment rules** page, in the **Select type** list, select **Insights (preview)**.
-1. Select **\+ New rule**.
-1. In the **Create assignment rule** dialog box, enter the following information:
+1. Under **Sales accelerator**, select **Work assignment**. 
+1. On the **Work assignment** page, in the **Record type** list, select **Insights (preview)**.
+1. Select the **Add assignment rule**.
+1. In the **Add assignment rule** pane, enter the following information:
 
-    - Under **Rule name**, enter a name for the rule.
-    - Under **Select eligible assign insights to a seller or a team for this rule**, in the **Choose segment** list, select a segment to group the insights.
+    - **Rule name**: Enter a name for the rule.
+    - **Eligible insights for this rule**: Select the segment for which this rule will apply.
 
-        If a segment doesn't exist, select **\+ New segment** in the **Choose segment** list. When you create segments for insights, select **Insights** as the record type to help when you select the attributes that are related to the `msdyn_salessuggestion` entity. [Learn more about how to create segments.](create-and-activate-a-segment.md)
+        If a segment doesn't exist, select **\+ New segment** in the list. When you create segments for insights, select **Insights** as the record type to help when you select the attributes that are related to the `msdyn_salessuggestion` entity. [Learn more about how to create segments.](create-and-activate-a-segment.md)
 
-    - Under **Assign insights to a seller or a team**, select the ownership type and sellers to assign the insights to.
+    - Under **Assign these insights to a seller or a team**, select the ownership type and sellers to assign the insights to.
 
         | Ownership type | Description |
         |----------------|-------------|
@@ -66,7 +59,7 @@ For the **Seller insights** option to appear in assignment rules, the **Insights
         - In the account team, secondary owners can view the insights but can't work on them until the primary owner assigns them.
         - You can add multiple secondary owners to the rule, or you can assign a security role as the secondary owner.
 
-1. Select **Create rule**. The rule is created, and appropriate insights are displayed to the appropriate sellers or team.
+1. Select **Save**. The rule is created, and appropriate insights are displayed to the appropriate sellers or team.
 
 ## Examples
 
@@ -129,7 +122,7 @@ Configure the rule as follows for this scenario:
 
         Here, the area manager role can have multiple users in the team. One user is randomly selected as the primary owner to assign insights to. All other users in the same group are secondary owners. The specialist and sales representative roles can also have multiple users. They are all considered secondary owners.
 
-### See also
+## Related information
 
 [Enable seller insights](enable-seller-insights.md)  
 [Manage assignment rules for routing](create-manage-assignment-rules.md)  

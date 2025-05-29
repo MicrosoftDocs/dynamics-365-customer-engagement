@@ -1,16 +1,16 @@
 ---
 title: Use Dataverse search to find information
 description: Learn how to work with the advanced Dataverse search to find relevant information in Dynamics 365 Field Service.
-ms.date: 11/15/2023
+ms.date: 10/08/2024
 ms.reviewer: mhart
-ms.topic: conceptual
+ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
 ---
 
 # Use Dataverse search to find information
 
-Dynamics 365 Field Service stores data as tables in Microsoft Dataverse. You can configure Dataverse search to surface the tables that are relevant to your organization.
+Dynamics 365 Field Service stores data as tables in Microsoft Dataverse. You can configure Dataverse search to surface the tables that are relevant to your organization. For table reference information, go to [Dynamics 365 Field Service table/entity reference](./developer/reference/about-entity-reference.md)
 
 ## Enable Dataverse search
 

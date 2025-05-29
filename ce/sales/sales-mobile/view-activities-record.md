@@ -1,8 +1,8 @@
 ---
 title: View activities for a record in the Dynamics 365 Sales mobile app
 description: Instructions to view activities for a record in the Dynamics 365 Sales mobile app
-ms.date: 03/31/2023
-ms.topic: article
+ms.date: 05/02/2025
+ms.topic: how-to
 author: sbmjais
 ms.author: shjais
 ms.reviewer: shjais 
@@ -14,15 +14,6 @@ You can view upcoming and overdue activities related to a record or contact in t
 
 > [!NOTE]
 > The mobile app supports only task and phone call activities. To view all associated activity types, use the Sales Hub app.
-
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Professional, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](../security-roles-for-sales.md#primary-sales-roles)|
-|  |  |
 
 
 ## View activities
@@ -152,7 +143,7 @@ You can reassign an activity to a team or another user from Unified Interface.
 4. In the **User or team** field, browse and select the user you want to assign the activity to.
 
 
-### See also
+## Related information
 
 [Manage records](open-record.md)  
 [Manage contacts](create-contact.md)  

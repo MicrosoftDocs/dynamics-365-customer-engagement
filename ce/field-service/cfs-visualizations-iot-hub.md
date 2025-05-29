@@ -1,7 +1,7 @@
 ---
 title: Visualize IoT device readings
 description: Learn how to better understand the state of a device and its repair history with visualized device readings in Connected Field Service.
-ms.date: 10/05/2023
+ms.date: 07/04/2024
 ms.subservice: connected-field-service
 ms.topic: how-to
 ms.custom: bap-template
@@ -9,8 +9,12 @@ ms.author: vhorvath
 author: vhorvathms
 ---
 
-# Visualize IoT device readings
+# Visualize IoT device readings (retired)
 
+> [!IMPORTANT]
+> The device readings chart is no longer available. It relied on Azure Time Series Insights, which was retired on July 7, 2024. Learn more: [Migrate from Time Series Insights](/azure/time-series-insights/migration-to-fabric).
+
+<!--
 To help you understand the current state of a device, its repair history, and the effect of performed work orders, Connected Field Service displays near real-time device readings and historical sensor measurements in a chart alongside the service history.
 
 The device readings chart is available on the IoT alert, work order, case, device, and asset forms. It supports Azure IoT Hub and [custom IoT providers](cfs-custom-iot-provider.md).
@@ -57,7 +61,7 @@ Open the **Device Readings** tab on IoT alert, work order, case, device, or asse
 
 ## View device readings on the mobile app
 
-Device readings and summary tiles work on the Dynamics 365 Field Service mobile app when connected to the internet. For more information, see [Connected Field Service on the mobile app](./cfs-mobile-powerapp.md#view-summary-tiles-and-device-readings)  
+Device readings and summary tiles work on the Dynamics 365 Field Service mobile app when connected to the internet. For more information, see [Connected Field Service on the mobile app](mobile/iot-mobile.md#view-summary-tiles-and-device-readings)  
 
 ## Error codes
 
@@ -85,5 +89,7 @@ Use the following table to troubleshoot error codes related to device readings.
 
 - [Create IoT alerts and convert IoT alerts into work orders](cfs-iot-alerts.md)
 - [Send commands to devices in Connected Field Service](cfs-commands.md)
+
+-->
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

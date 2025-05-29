@@ -3,6 +3,7 @@ title: resolveSlug method (app profile manager) JavaScript API Reference
 description: Learn about the resolveSlug API of app profile manager in Customer Service workspace.
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.date: 04/02/2024
 ms.topic: reference
 ---

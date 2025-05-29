@@ -1,21 +1,21 @@
 ---
 title: "User Notes (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the User Notes type of hosted control and the predefined UII actions associated with it."
-ms.date: 12/31/2019
-ms.topic: article
+ms.date: 06/27/2024
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # User Notes (Hosted Control)
-Use **User Notes** hosted control type to provide agents with a scratch pad to type notes during an interaction. Language specific spell checking can be applied to this component by calling the **SetLanguage** action. This component does not automatically pick up the current language of the user, by design. The ability to change the language used is intended to provide the ability to set the language appropriate for the transaction. For example, consider there is a bilingual agent that can speak English and Spanish. The IVR may pass the language selection from the phone system to the agent application’s CTI adapter. This language selection can then be used to set the spell check language for this hosted control.
+Use **User Notes** hosted control type to provide agents with a scratch pad to type notes during an interaction. Language specific spell checking can be applied to this component by calling the **SetLanguage** action. This component doesn't automatically pick up the current language of the user, by design. The ability to change the language used is intended to provide the ability to set the language appropriate for the transaction. For example, consider there's a bilingual agent that can speak English and Spanish. The IVR may pass the language selection from the phone system to the agent application’s CTI adapter. This language selection can then be used to set the spell check language for this hosted control.
 
 > [!NOTE]
->  This hosted control does not automatically populate replacement parameters. The [UpdateReplacementParameters](#UpdateReplacementParameters) action can be called to take the current notes and populate the replacement parameters. The replacement parameters can be used to copy the notes to the case.  
+>  This hosted control doesn't automatically populate replacement parameters. The [UpdateReplacementParameters](#UpdateReplacementParameters) action can be called to take the current notes and populate the replacement parameters. The replacement parameters can be used to copy the notes to the case.  
   
 <a name="Create"></a>   
 ## Create a User Notes hosted control  
@@ -28,7 +28,7 @@ Use **User Notes** hosted control type to provide agents with a scratch pad to t
   
 - From the **Unified Service Desk Component Type** drop-down list, select **User Notes**.  
   
-- In the **Display Group** field, specify a panel where this hosted control will be displayed. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels](../unified-service-desk/panels-panel-types-panel-layouts.md#Panels).  
+- In the **Display Group** field, specify a panel where this hosted control is displayed. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels](../unified-service-desk/panels-panel-types-panel-layouts.md#Panels).  
   
 <a name="Actions"></a>   
 ## Predefined UII actions  
@@ -64,7 +64,7 @@ Use **User Notes** hosted control type to provide agents with a scratch pad to t
 |LogicalName|The logical name of the entity for creating a new instance.|  
   
 > [!NOTE]
->  The rest of the parameters should consist of name=value pairs. These are the additional pre-populated values in the form for creating a new record for the specified entity. For more information about using this action, see step 4 in [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md).
+>  The rest of the parameters should consist of name=value pairs. These are the other pre-populated values in the form for creating a new record for the specified entity. For more information about using this action, see step 4 in [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md).
 
 ### Open_CRM_Page
  Opens an existing instance of the entity specified and identified by the ID, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the popup should be displayed.
@@ -88,7 +88,7 @@ Use **User Notes** hosted control type to provide agents with a scratch pad to t
 
 <a name="SetSize"></a>
 ### SetSize
- This action explicitly sets the width and height of the hosted control. This is particularly useful when using "auto" in your panel layouts.
+ This action explicitly sets the width and height of the hosted control. This is useful when using "auto" in your panel layouts.
 
 |Parameter|Description|
 |---------------|-----------------|
@@ -104,10 +104,10 @@ Use **User Notes** hosted control type to provide agents with a scratch pad to t
  The following predefined events are available for this hosted control type.
 
 ### Loaded
- Occurs when the hosted control has finished loading.
+ Occurs when the hosted control loads.
 
 ### PopupRouted
- Occurs after a popup has been routed by the system.
+ Occurs after a popup is routed by the system.
 
 |Parameter|Description|
 |---------------|-----------------|

@@ -1,18 +1,18 @@
 ---
 title: "Use data driven adapters in Unified Service Desk | MicrosoftDocs"
 description: "Learn about data-driven adapters, their types, and how you can create new adapters or extend existing ones in Unified Service Desk."
-ms.date: 08/23/2017
-ms.topic: article
+ms.date: 06/27/2024
+ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Use data driven adapters (DDAs) in Unified Service Desk
-Data-driven adapters (DDAs) are the adapters leveraged generally by the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)]. These adapters are generic assemblies that handle only the interaction with the UI and do not contain business processes. The [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] SDK ships with a DDA that provides a common set of functions that allows you to host and access a wide range of applications. However, you might require additional functionality depending on the type of application. There are various ways of extending the existing functionality, such as creating a new DDA (and using it in a composite DDA with outer DDAs) and extending an existing DDA.  
+Data-driven adapters (DDAs) are the adapters used generally by the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)]. These adapters are generic assemblies that handle only the interaction with the UI and don't contain business processes. The [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] SDK ships with a DDA that provides a common set of functions that allows you to host and access a wide range of applications. However, you might require additional functionality depending on the type of application. There are various ways of extending the existing functionality, such as creating a new DDA (and using it in a composite DDA with outer DDAs) and extending an existing DDA.  
   
 ## In This Section  
  [Types of Data Driven Adapters](../unified-service-desk/use-data-driven-adapters-ddas.md#types)  
@@ -39,7 +39,7 @@ Data-driven adapters (DDAs) are the adapters leveraged generally by the [!INCLUD
   
 <a name="create"></a>   
 ## Creating a DDA  
- You can create a new DDA by simply inheriting the [DataDrivenAdapterBase](/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.datadrivenadapterbase) class.  
+ You can create a new DDA by inheriting the [DataDrivenAdapterBase](/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.datadrivenadapterbase) class.  
   
  The class has the constructor which can be overloaded.  
   
@@ -94,13 +94,13 @@ Data-driven adapters (DDAs) are the adapters leveraged generally by the [!INCLUD
   
 ```  
   
- If you are using the HAT Software Factory, it will create the `InitString`. The application can then be deployed to the server from the software factory.  
+ If you're using the HAT Software Factory, it creates the `InitString`. The application can then be deployed to the server from the software factory.  
   
- If you are directly adding a hosted application using the Admin UI, you do not need to create the complete `InitString`. You only need to specify the <`DataDrivenAdapterBindings`> section and add it to the `Automation Xml` tab.  
+ If you're directly adding a hosted application using the Admin UI, you don't need to create the complete `InitString`. You only need to specify the <`DataDrivenAdapterBindings`> section and add it to the `Automation Xml` tab.  
   
 <a name="custom"></a>   
 ## Using DDAs in custom application adapters  
- Although DDAs were initially conceived to support automations within the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)], they can also be used by custom adapters to achieve useful results. The following code sample, taken from a custom adapter, illustrates how custom adapters can use DDAs, and illustrates the general advantages of DDAs. As the sample illustrates, the use of DDAs allows a separation of code and configuration information.  
+ Although DDAs were initially conceived to support automations within the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)], they can be used by custom adapters to achieve useful results. The following code sample, taken from a custom adapter, illustrates how custom adapters can use DDAs, and illustrates the general advantages of DDAs. As the sample illustrates, the use of DDAs allows a separation of code and configuration information.  
   
 ```csharp  
 DataDrivenAdapter Dda;  

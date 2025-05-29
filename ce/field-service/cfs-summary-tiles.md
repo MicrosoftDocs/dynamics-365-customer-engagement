@@ -1,88 +1,76 @@
 ---
-title: "Summary tiles in Connected Field Service | MicrosoftDocs"
-description: Learn about summary tiles in Connected Field Service for Dynamics 365 Field Service
-ms.date: 01/05/2021
+title: View and edit device summary tiles
+description: Learn how to view and edit summary tiles in Connected Field Service for Dynamics 365 Field Service.
+ms.date: 09/04/2024
 ms.subservice: connected-field-service
-ms.topic: article
+ms.topic: how-to
 ms.author: vhorvath
 author: vhorvathms
 ---
 
-# Summary tiles in Connected Field Service
+# View and edit device summary tiles in Connected Field Service
 
-Summary tiles give a numeric overview of important metrics related to IoT devices. For example, users can see an average of recent device readings or the number of work orders generated from an IoT alert. Summary tiles are visible on IoT devices, Iot alerts, and customer asset records.
+Summary tiles give a numeric overview of important metrics related to Internet of Things (IoT) devices. For example, users can see an average of recent device readings or the number of work orders generated from an IoT alert. Summary tiles are visible on IoT devices, Iot alerts, and customer asset records. Summary tile calculations respect security roles. The summary information changes based on what the signed-in user has access to.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Boiler 2022 IOT device summary tiles displaying the Avg Temperature, Avg Humidity, New Alerts, and New Work Orders.](./media/cfs-device-readings-history.png)
+> ![Screenshot of the Boiler 2022 IoT device summary tiles displaying the average temperature and humidity, New Alerts, and New Work Orders.](./media/cfs-device-readings-history.png)
 
-## Prerequisites
+## Prerequisite
 
-- Field Service version 8.8.2+
+Field Service version 8.8.2+
 
-## Default summary tiles
+## View the default summary tiles
 
-After a new IoT device is created, there are three default summary tiles: 
+After you [create an IoT device](cfs-register-devices.md), the **IoT Device** page displays three default summary tiles.
 
 - New IoT alerts related to the IoT device in the last day.
 - New cases related to the IoT device in the last 30 days.
 - New work orders related to the IoT device in the last 30 days.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the summary tiles on an IoT device in Field Service.](./media/cfs-summary-tiles-default.png)
+1. In Dynamics 365 Field Service under **Assets**, select **IoT Devices**.
 
-If an IoT device is registered with Azure IoT (or a custom IoT provider) and has successfully pulled device data into Field Service, summary tiles for the first two device properties are automatically created. In the following example screenshot, there are summary tiles for average temperature and average humidity for the last seven days. Temperature and humidity are the first two device properties in the first device data pull.
+1. Open an IoT device.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Boiler 2022 IOT device summary tiles displaying the Avg Temperature and the Avg Humidity for the past 7 days highlighted with a red border.](./media/cfs-device-readings-history-edited.png)
+   :::image type="content" source="media/cfs-summary-tiles-default.svg" alt-text="Screenshot of the summary tiles on an IoT device in Field Service.":::
 
-> [!Note]
-> The device summaries use the device data history information on the device record, which updates with a slight delay (30-60min); however, you can use the **Pull Device Data** option to get the latest data from Azure IoT.
+   If the device is registered with Azure IoT or a custom IoT provider and device data is pulled into Field Service, the first two device properties automatically appear. Temperature and humidity are the first two device properties in the first device data pull.
 
+   :::image type="content" source="media/cfs-device-readings-history-edited.svg" alt-text="Screenshot of the IoT device summary tiles displaying the Avg Temperature and the Avg Humidity for the past seven days.":::
+
+   The device summaries use the device data history information on the device record, which updates with a slight delay (30-60 min). You can select **Pull Device Data** to get the latest data from Azure IoT.
 
 ## Edit summary tiles
 
-You can also edit existing summary tiles or create new ones.
+You can create summary tiles or edit existing tiles. Changes to summary tiles are saved to the related IoT device. When that IoT device is related to IoT alerts or customer assets, the changes are reflected on the summary tiles. You can display up to six summary tiles.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an IoT device showing the option to edit summary tiles.](./media/cfs-summary-tiles-edit.png)
+1. To edit an existing summary tile, select the vertical ellipsis &vellip; > **Edit**. To create a summary tile, select **+**.
 
-When creating new summary tiles, choose if it should relate to a **Device Measurement** (like temperature or humidity as examples) or a **Device Event** (like the creation of a work order).
+   :::image type="content" source="media/cfs-summary-tiles-edit.png" alt-text="Screenshot of an IoT device showing the option to edit summary tiles.":::
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a new IoT device visualization configuration.](./media/cfs-summary-tiles-edit2.png)
+1. Choose if the information should relate to a **Device Measurement** (such as temperature or humidity) or a **Device Event** (such as the creation of a work order).
 
-Edits to summary tiles are saved to the related IoT device. When that IoT device is related to IoT alerts or customer assets, the changes to the summary tiles will follow.
-
-You can display up to six summary tiles.
+1. Enter the rest of the configuration and select **Save & Close**.
 
 ## Add summary tiles via device categories
 
-Organizations often want to apply summary tiles to a group of IoT devices, rather than edit the summary tiles on each IoT device. To apply summary tiles to a group of IoT devices, associate the tiles with device categories.
+Organizations often want to apply summary tiles to a group of IoT devices, rather than edit the summary tiles on each IoT device. To apply summary tiles to a group of IoT devices, associate the tiles with device categories. [Editing summary tiles](#edit-summary-tiles) for an IoT device overrides the summary tiles applied through device categories.
 
-Go to **Settings** > **Device Categories**.
+1. In Dynamics Field Service, go to the **Settings** area.  
 
-Select or create a new device category.
+1. Under **IoT**, select **Device Categories**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an IoT device category in Field Service.](./media/cfs-summary-tiles-device-categories.png)
+1. Select or [create a new device category](cfs-device-categories.md).
 
-From the device category record, create a new IoT Device visualization configuration. Each configuration corresponds to a summary tile.
+1. Open the device category and select the **IoT Device Visualization Configuration** tab.
 
-Make sure your IoT devices are related to the device category. You can add all IoT devices that belong to the category from the device category. Alternatively, there is a field on each IoT device to associate a category.
+1. Select **New IoT Device Visualization Configuration**. Each configuration corresponds to a summary tile. 
 
-> [!Note]
-> Manually editing summary tiles for an IoT device will override the summary tiles applied through device categories.
+1. Select **Save & Close**.
+
+1. Make sure your IoT devices are related to the device category. You can add all IoT devices that belong to the category from the device category. Alternatively, there's a field on each IoT device to associate a category.
 
 ## View summary tiles on the mobile app
 
-Summary tiles and device readings are viewable on the Dynamics 365 Field Service mobile app when connected to the internet. For more information, see [Work with IoT data on the mobile app](./cfs-mobile-powerapp.md#view-summary-tiles-and-device-readings).
-
-## Configuration considerations
-
-- The device summary is only displayed on customer assets if there is one related device, even though multiple devices can be related to one customer asset.
-
-## Additional notes
-
-- Summary tile calculations respect security roles and will change based on the number of alerts, work orders, and so on, that the signed-in user has access to.
+Summary tiles and device readings are viewable on the Dynamics 365 Field Service mobile app when connected to the internet. For more information, go to [Work with IoT data on the mobile app](./cfs-mobile-powerapp.md#view-summary-tiles-and-device-readings).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

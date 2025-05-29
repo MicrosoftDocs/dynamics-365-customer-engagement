@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: udag
 ms.topic: overview 
 ms.collection: get-started 
-ms.date: 06/09/2023
+ms.date: 09/20/2024
 ms.custom: bap-template 
 ---
 
@@ -24,18 +24,15 @@ Seller insights are generated based on data from custom insights models. These m
 
 ## How can I use the seller insights feature?
 
-Depending on your role, you can use the seller insights feature in the following ways:
+Depending on your role, you can use the seller insights feature in the following ways:  
 
-- **System administrator or a similar role**:
-
-    - Import your custom insights model, and map the attributes with the `msdyn_salessuggestion` entity attributes. For more information, go to [Import a custom insights model into Dataverse](import-insights-model-into-dataverse.md).
-    - Enable the seller insights feature. For more information, go to [Enable seller insights](enable-seller-insights.md).
-    - Configure who can use the seller insights feature. For more information, go to [Manage access to view insights](manage-access-view-insights.md).
-    - Configure assignment rules to automatically assign insights to sellers. For more information, go to [Configure assignment rules to automatically assign insights](configure-assignment-rule-auto-assign-insights.md).
-
-- **Sales manager, seller, or any other similar role**:
-
-    - View insights on records.
-    - Perform actions based on insights. These actions include connecting a sequence, creating an activity, assigning an insight to a seller, reassigning an insight to yourself, and declining or closing an insight.
+- **System administrator or a similar role**:  
+    - Import your custom insights model, and map the attributes with the `msdyn_salessuggestion` entity attributes. For more information, go to [Import a custom insights model into Dataverse](import-insights-model-into-dataverse.md).  
+    - Enable the seller insights feature. For more information, go to [Enable seller insights](enable-seller-insights.md).  
+    - Configure who can use the seller insights feature. For more information, go to [Manage access to view insights](manage-access-view-insights.md).  
+    - Configure assignment rules to automatically assign insights to sellers. For more information, go to [Configure assignment rules to automatically assign insights](configure-assignment-rule-auto-assign-insights.md).  
+- **Sales manager, seller, or any other similar role**:  
+    - View insights on records.  
+    - Perform actions based on insights. These actions include connecting a sequence, creating an activity, assigning an insight to a seller, reassigning an insight to yourself, and declining or closing an insight.  
 
     For more information, go to [View and work on seller insights](view-understand-insights.md).

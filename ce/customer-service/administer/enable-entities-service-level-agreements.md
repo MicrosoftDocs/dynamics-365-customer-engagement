@@ -1,16 +1,19 @@
 ---
-title: Enable entities for service level agreements
-description: Learn how to enable entities for service-level agreements in Dynamics 365 Customer Service.
-ms.date: 03/12/2024
-ms.topic: article
+title: Enable entities for service-level agreements
+description: Step-by-step guide to enable entities for service-level agreements (SLAs) in Dynamics 365 Customer Service, including prerequisites and supported entities.
+ms.date: 05/02/2025
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
   - enduser
 ms.custom: 
   - dyn365-customerservice
+  - SLA
+  - Dynamics365
 ---
 
 # Enable entities for service-level agreements
@@ -39,13 +42,13 @@ You can create enhanced SLAs for entities that are enabled for an SLA. A system 
 - Activity entities such as Email, PhoneCall, and Appointment&mdash;but not RecurringAppointment or its instances.  
 
   > [!NOTE]
-  >  SLAs can also be enabled for custom entities and custom activities. More information: [Enable custom entities for service-level agreements](enable-custom-entities-sla.md#enable-custom-entities-for-service-level-agreements)
+  > SLAs can also be enabled for custom entities and custom activities. Learn more in [Enable custom entities for service-level agreements](enable-custom-entities-sla.md#enable-custom-entities-for-service-level-agreements).
   
 ## Enable from Power Apps
 
 1. Sign in to [make.powerapps.com](https://make.powerapps.com) and select your environment.
 1. Select **Solutions** > **Default Solution**.
-1. From **Objects**, select **Table**.
+1. From **Objects**, select **Tables**.
 1. Find the entity page name on the list and open it.
 1. On the entity page, in the **Table properties** section, select **Properties**.
     1. On the **Edit table** dialog, expand **Advanced options**.
@@ -69,9 +72,9 @@ You can create enhanced SLAs for entities that are enabled for an SLA. A system 
 1. Select **Save and close**. SLA is enabled for the entity.
 1. Select **Save and close**, and then select **Publish All Customizations**.
   
-## See Also
+## Related information
 
- [Configure service level agreements](define-service-level-agreements.md)
+[Configure service level agreements](define-service-level-agreements.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

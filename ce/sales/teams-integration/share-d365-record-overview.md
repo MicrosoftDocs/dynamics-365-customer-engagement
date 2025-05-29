@@ -1,8 +1,8 @@
 ---
 title: Overview about sharing and updating Dynamics 365 records within Microsoft Teams conversations
 description: Learn how to share and update Dynamics 365 records within Microsoft Teams conversations
-ms.date: 05/24/2022
-ms.topic: article
+ms.date: 04/29/2025
+ms.topic: concept-article
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
@@ -28,14 +28,14 @@ When having a conversation with other people over Teams, you might want to share
 -   Add chat conversations as notes and tasks with the click of a button.
 
 > [!NOTE]
-> The functionality of sharing Dynamics 365 records in Teams is not supported on mobile devices.
+> The functionality of sharing Dynamics 365 records in Teams isn't supported on mobile devices.
 
 The information in the interactive card is displayed using the view of type **Quick Find View** of a table. To change the information displayed in the cards, admins can [edit the columns](/power-apps/maker/model-driven-apps/choose-and-configure-columns) in the [**Quick Find View**](/power-apps/maker/model-driven-apps/create-edit-views#system-views) view of a table as per the requirement.
 
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4XVnt]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=86512709-3ed0-4f56-bd65-5a06a904293c]
 
-### See also
+## Related information
 
 [Enable sales teams to work with Dynamics 365 records within Microsoft Teams conversations](share-d365-record-admin.md)  
 [Access the Dynamics 365 app through messaging extensions](access-d365-app.md)   

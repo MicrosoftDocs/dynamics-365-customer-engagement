@@ -1,15 +1,14 @@
 ---
-title: "Install the Unified Service Desk client | MicrosoftDocs"
-description: "Learn how to install and upgrade Unified Service Desk client using the Setup Wizard and using the command line."
-ms.date: 05/26/2023
-ms.topic: article
+title: Install the Unified Service Desk client 
+description: Learn how to install and upgrade Unified Service Desk client using the Setup Wizard and using the command line.
+ms.date: 05/15/2025
+ms.topic: install-set-up-deploy
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+ms.custom: evergreen
 tags: MigrationHO
 ---
 
@@ -40,11 +39,11 @@ Make sure your computer meets all requirements before you install the [!INCLUDE[
   
 4. On the Unified Service Desk Installation screen, choose from the following options:  
   
-   - The [!INCLUDE[pn_Microsoft_.Net_Framework](../../includes/pn-microsoft-net-framework.md)] and [!INCLUDE[pn_Windows_Identity_Foundation](../../includes/pn-windows-identity-foundation.md)] prerequisites. You can’t remove these from the installation if these prerequisites are not already installed.  
+   - The [!INCLUDE[pn_Microsoft_.Net_Framework](../../includes/pn-microsoft-net-framework.md)] and [!INCLUDE[pn_Windows_Identity_Foundation](../../includes/pn-windows-identity-foundation.md)] prerequisites. You can’t remove these from the installation if these prerequisites aren't already installed.  
   
-   - **Unified Service Desk**. Because [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is the core component of setup, you cannot continue unless it is selected.  
+   - **Unified Service Desk**. Because [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is the core component of setup, you can't continue unless it's selected.  
   
-   - **Create a desktop shortcut for Unified Service Desk**. By default, a shortcut will be created for easy launching of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client from the desktop. 
+   - **Create a desktop shortcut for Unified Service Desk**. By default, a shortcut is created for easy launching of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client from the desktop. 
   
 5. Select **Install**.  
   
@@ -65,7 +64,7 @@ Make sure your computer meets all requirements before you install the [!INCLUDE[
 
 1. On a computer where a previous version of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client is installed, sign in to the computer as a user with local Administrators group membership, and then double-click the SetupUnifiedServiceDesk.exe file to begin the upgrade.  
   
-2. When setup detects the previous version of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, you'll see the following information:  
+2. When setup detects the previous version of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, you see the following information:  
   
    **An older version of Unified Service Desk is already installed on your computer. Setup will upgrade Unified Service Desk on your computer**.  
   
@@ -95,8 +94,8 @@ Make sure your computer meets all requirements before you install the [!INCLUDE[
 |------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | install<br /><br /> uninstall<br /><br /> help | Required parameter that performs one of the following functions depending on which parameter you choose:<br /><br /> -   Install. Installs or, if a previous version exists, upgrades the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.<br />-   Uninstall. Uninstalls the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. This is a maintenance mode option that is only available when the application is already installed.<br />-   Help. Shows information about setup, such as supported parameters and usage. |
 |                       /S                       |                                                                                                                                                                                                                                                                                Silent mode. No setup UI is displayed.                                                                                                                                                                                                                                                                                |
-|                  destination                   |                                                                                                                                               The folder where the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client files will be installed. By default, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is installed in the c:\program files\Microsoft Dynamics 365 Customer Engagement USD\ folder.                                                                                                                                                |
-|            Shortcut = [y &#124; n]             |                                                                                                                                                           Shortcut=y creates a shortcut to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application on the user’s desktop. If you don’t set this parameter, the shortcut is defaulted to y. When you specify Shortcut=n, a shortcut is not created.                                                                                                                                                            |
+|                  destination                   |                                                                                                                                               The folder where the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client files are installed. By default, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is installed in the c:\program files\Microsoft Dynamics 365 Customer Engagement USD\ folder.                                                                                                                                                |
+|            Shortcut = [y &#124; n]             |                                                                                                                                                           Shortcut=y creates a shortcut to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application on the user’s desktop. If you don’t set this parameter, the shortcut is defaulted to y. When you specify Shortcut=n, a shortcut isn't created.                                                                                                                                                            |
 |                      help                      |                                                                                                                                                                                                                                                                                  Shows a list of valid parameters.                                                                                                                                                                                                                                                                                   |
   
 ### Examples  
@@ -107,7 +106,7 @@ This example installs or upgrades the [!INCLUDE[pn_unified_service_desk](../../i
 SetupUnifiedServiceDesk.exe install Shortcut=y /S  
 ```  
 
-This example uninstalls the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. Note that no UI displays, even when the /S parameter is not used.  
+This example uninstalls the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. No UI displays, even when the /S parameter isn't used.  
   
 ```  
 SetupUnifiedServiceDesk.exe uninstall  

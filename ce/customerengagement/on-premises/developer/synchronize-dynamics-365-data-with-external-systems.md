@@ -2,7 +2,6 @@
 title: "Synchronize Dynamics 365 Customer Engagement (on-premises) data with external systems (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Learn how to synchronize and integrate Dynamics 365 Customer Engagement (on-premises) data with data that is stored in other systems"
 ms.custom:
-ms.date: 10/01/2019
 author: Jimdaly
 
 ms.suite:
@@ -58,8 +57,8 @@ You can reduce the complexity involved with data integration scenarios by using 
 
 ## Samples
 
-[Sample: Insert or update a record using Upsert](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/InsertRecordUsingUpsert)<br />
-[Sample: Synchronize data with external systems using change tracking](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/Changetracking)<br />
+[Sample: Insert or update a record using Upsert](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/InsertRecordUsingUpsert)<br />
+[Sample: Synchronize data with external systems using change tracking](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/Changetracking)<br />
 
 ## Related Sections
 

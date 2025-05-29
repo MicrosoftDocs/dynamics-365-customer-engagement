@@ -2,18 +2,17 @@
 title: "Use the calendar in Dynamics 365 Customer Engagement (on-premises)"
 description: "Use the calendar to view your appointments and activities. Follow these steps to change the calendar view, see appointment summaries, or edit details."
 ms.custom: 
-ms.date: 09/15/2018
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 20ba9141-2816-4311-ade2-97dafd86e2bf
 caps.latest.revision: 28
-author: sericks007
-ms.author: sericks
+author: shwetamurkute
+ms.author: smurkute
 search.audienceType: 
   - enduser
 

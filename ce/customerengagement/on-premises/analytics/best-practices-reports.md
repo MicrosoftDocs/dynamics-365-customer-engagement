@@ -2,12 +2,11 @@
 title: "Report best practices for Dynamics 365 Customer Engagement (on-premises)"
 description: "The following best practices can help you produce reports that are easier to write, comply with established standards, and execute with improved efficiency."
 ms.custom: 
-ms.date: 06/28/2021
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: best-practice
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 5e78f1bf-9124-4a83-b049-c257e8237ff3

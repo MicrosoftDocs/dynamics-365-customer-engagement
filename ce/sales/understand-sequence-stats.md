@@ -1,8 +1,8 @@
 ---
 title: "Understand the sequence stats page"
 description: "View and understand the sequence's success rate and the state of records that are connected. "
-ms.date: 02/10/2023
-ms.topic: article
+ms.date: 03/31/2025
+ms.topic: concept-article
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -12,16 +12,9 @@ ms.reviewer: udag
 
 The stats about sequences provide insights on the performance of a sequence, such as success rate and the state of records that are connected. The data helps you view the sequences that are doing better and emerging with high conversion rates. 
 
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Sales Manager or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
 ## Who can view the stats page?
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Vmxe]
+>[!VIDEO https://learn-video.azurefd.net/vod/player?id=dd7439b0-227c-4159-9bc2-f83f96fde185]
 
 By default, the users with sales manager and sequence manager roles can view the stats page. For other roles to view the reporting page, contact your administrator to get read access at the organizational level for the sales acceleration reports table. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
 
@@ -34,12 +27,10 @@ By default, the users with sales manager and sequence manager roles can view the
 **To view the sequence stats**
 
 1.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
-2.	Under **Sales accelerator**, select **Sequence**.
+2.	Under **Sales accelerator**, select **Sequences**.
 3.	On the **Sequences** page, select the **Sequence stats** tab.
-    The **Sequences** tab opens.
 
-    >[!div class="mx-imgBorder"]
-    >![The sequence stats page.](media/sa-sequence-stats-page.png "The sequence stats page")
+    :::image type="content" source="media/sa-sequence-stats-page.png" alt-text="Screenshot of the sequence stats page.":::
 
 ## Understand the sequence stats page
 
@@ -55,8 +46,7 @@ Select the timeframe for which you want to view the data. When you've made your 
 -	1 year
 -	2 years
 
->[!div class="mx-imgBorder"]
->![Choose a timeframe to view data.](media/sa-sequence-stats-page-choose-time.png "Choose a timeframe to view data")
+:::image type="content" source="media/sa-sequence-stats-page-choose-time.png" alt-text="Screenshot of choosing a timeframe to view data.":::
 
 For example, if you want to view the data for the last 90 days, select **Last 90 days** from the date dropdown list. The table will be refreshed to show data for the last 90 days.
 
@@ -69,8 +59,7 @@ The **Success Rate** column displays the trend of the sequence with its successf
 >[!NOTE]
 >The **Success Rate** column is available only for lead and opportunity record types.  
 
->[!div class="mx-imgBorder"]
->![The Success rate column.](media/sa-sequence-stats-page-column-success-rate.png "The success rate column")  
+:::image type="content" source="media/sa-sequence-stats-page-column-success-rate.png" alt-text="Screenshot of the Success Rate column in the sequence stats page.":::    
  
 The trend shows how a sequence is performing in the selected timeframe compared to that of the previous timeframe. For example, if you select 30 days and a sequence related to the lead record type shows an upward trend (green), this shows that the sequence has performed better in converting leads into opportunities in the current 30 days when compared to the previous 30 days. Green indicates improvement, red indicates a downward trend, and orange indicates that there has been no change in the success rate.
 
@@ -78,7 +67,7 @@ The percentage shows the average number of records that are successfully convert
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Sequence reporting](customize-sales-accelerator-sellers.md#sequence-reporting)    
 [Understand sales acceleration reporting](understand-sales-acceleration-reporting.md)

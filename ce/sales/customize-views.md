@@ -1,8 +1,8 @@
 ---
 title: Create and customize views
 description: Explore how to customize views in Sales, create system views and personal views, and adjust column widths and filters for tailored data presentation.
-ms.date: 03/29/2024
-ms.topic: article
+ms.date: 02/11/2025
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -17,13 +17,6 @@ ms.custom:
 
 In Dynamics 365 Sales, use views to define how a list of records for a specific entity is displayed.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|------------------|---------------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Sales Manager, Sales Professional Manager, or Vice President of Sales<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## What's a view
 
 A view defines:
@@ -31,7 +24,7 @@ A view defines:
 - The columns to be displayed.
 - The width of columns displayed.
 - How the list of records is sorted by default.
-- What default filters are applied to restrict which records will appear in the list.
+- What default filters are applied to restrict which records appear in the list.
 
 The records that are visible in individual views are displayed in a list, sometimes called a grid, which frequently provides options so that people can change the default sorting, column widths, and filters to more easily see the data that’s important to them. Views also define the data source for charts that are used in the application.
 
@@ -45,7 +38,7 @@ There are two types of views in Dynamics 365 Sales:
 
 - **Personal views**
 
-     Personal views are created by individual users. They are visible only to that user or to other users they choose to share their personal views with. As a user, you can create a new personal view based on a system or public view. You can't create a system or public view based on a personal view.
+     Personal views are created by individual users. They are visible only to that user or to other users they choose to share their personal views with. As a user, you can create a new personal view based on a system or public view. You can't create a system or public view based on a personal view. [Learn more about sharing personal views](/powerapps/user/grid-filters-advanced#manage-and-share-personal-views).
 
 ## Create a system view
 
@@ -54,7 +47,7 @@ Depending on the license you have, select one of the following tabs for more inf
 # [Sales Premium and Sales Enterprise](#tab/SE)
 
 1. Sign in to [Power Apps](https://make.powerapps.com/).
-2. Follow the instructions in [Create and edit public or system model-driven app views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer?context=/dynamics365/context/sales-context) to create views.
+2. Follow the instructions in [Create and edit public or system model-driven app views](/power-apps/maker/model-driven-apps/create-or-edit-model-driven-app-view?context=/dynamics365/context/sales-context) to create or customize system views.
 
 # [Sales Professional](#tab/SP)
 
@@ -139,7 +132,7 @@ When the arrow is pointing up, the sort order is ascending. When the arrow is po
 You can change the order of the columns already included in your view.
 
 1. Select the column you want to move.
-2. Drag the column to the position you want to move it to. You will see a visual indicator when you hold the column over an allowed position.
+2. Drag the column to the position you want to move it to. You see a visual indicator when you hold the column over an allowed position.
 
     :::image type="content" source="media/rearrange-columns.png" alt-text="Screenshot of the view designer with columns being rearranged":::
 
@@ -188,7 +181,7 @@ When you select **Group And**, records that meet both criteria are displayed in 
 
 ### Save a view
 
-As you are working on your view, save it often to avoid losing any changes.
+As you're working on your view, save it often to avoid losing any changes.
 
 - In the designer, choose one of the following in the upper-right corner:
   - To save without closing the designer, select **Save**
@@ -215,9 +208,10 @@ More information:
 - [Apply filters](/powerapps/user/grid-filters-advanced#filter-editor)
 - [Create a personal view](/powerapps/user/grid-filters-advanced#create-personal-views)
 
+
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Customize forms](customize-forms.md)  
 [Customize business process flows](customize-business-process-flows.md)

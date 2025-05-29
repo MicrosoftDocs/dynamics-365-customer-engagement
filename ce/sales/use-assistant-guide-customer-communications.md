@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to 
-ms.date: 09/08/2023
+ms.date: 03/17/2025
 ms.custom: bap-template
 ---
 
@@ -16,12 +16,6 @@ The assistant helps you to stay on top of your customer communications. By analy
 - Evaluating your communications and notifying you when a contact or account has been inactive for a while.
 - Identifying email messages that might be waiting for a reply.
 - Alerting you when an opportunity is nearing its close date.
-
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
 ## Prerequisites
 
@@ -88,8 +82,7 @@ You can perform actions such as open, snooze, dismiss, like, or dislike on the c
 
 When you open the assistant, it displays the name and basic description of each card. Select and open the card to view further details. Typically, a card consists of the elements illustrated in the following image.
 
-> [!div class="mx-imgBorder"]
-> ![Elements of an insight card](media/assistant-elements-of-an-insight-card.png "Elements of an insight card")
+:::image type="content" source="media/assistant-elements-of-an-insight-card.png" alt-text="Screenshot of the elements of an insight card." lightbox="media/assistant-elements-of-an-insight-card.png":::
 
 1. **Main content area**: Shows the title of the record the card refers to, its summary, card type, and other basic information.
 
@@ -107,7 +100,7 @@ When you open the assistant, it displays the name and basic description of each 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Configure the assistant](configure-assistant.md)  
 [Turn on or off the insight cards](turn-on-off-insight-cards.md)  

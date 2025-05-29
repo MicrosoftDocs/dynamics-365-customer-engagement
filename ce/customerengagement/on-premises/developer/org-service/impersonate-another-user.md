@@ -2,7 +2,6 @@
 title: "Impersonate another user (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Learn how to impersonate another user using Web API. You can do that by adding a request header named MSCRMCallerID with a GUID value equal to the impersonated user’s systemuserid before sending the request to the web service"
 ms.custom: 
-ms.date: 04/29/2019
 ms.reviewer: pehecke
 
 ms.suite: 

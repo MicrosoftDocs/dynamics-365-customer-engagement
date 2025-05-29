@@ -4,9 +4,9 @@ description: Utilization is the amount of time a resource is scheduled to work. 
 ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.date: 10/04/2023
-ms.topic: conceptual
-author: clearab
-ms.author: anclear
+ms.topic: how-to
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Resource utilization on the schedule board in Universal Resource Scheduling

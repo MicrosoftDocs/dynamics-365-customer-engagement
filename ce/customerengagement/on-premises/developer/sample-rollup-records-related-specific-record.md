@@ -2,7 +2,6 @@
 title: "Sample: Rollup records related to a specific record (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The sample demonstrates how to roll up opportunities by the parent account. "
 ms.custom:
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite:
@@ -23,7 +22,7 @@ search.audienceType:
 
 # Sample: Rollup records related to a specific record
 
-This sample shows how to roll up opportunities by the parent account. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/RollupSpecificRecords).
+This sample shows how to roll up opportunities by the parent account. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/RollupSpecificRecords).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

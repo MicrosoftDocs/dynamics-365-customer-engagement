@@ -1,21 +1,26 @@
 ---
 title: Email knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
-description: Learn how you can email knowledge articles in Dynamics 365 Customer Service.
-ms.date: 08/25/2022
-ms.topic: article
+description: Email knowledge articles by selecting the ellipsis, copying the URL, or using the Email button to autopopulate details and send via mail.
+ms.date: 04/09/2025
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
-search.audienceType: 
+ms.reviewer: sdas
+search.audienceType:
   - admin
   - customizer
   - enduser
-ms.custom: 
+ms.custom:
   - dyn365-customerservice
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:04/09/2025
 ---
 
 # Email a knowledge article
 
-## Email options
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 You can share the knowledge article link or knowledge article content through mail by selecting the ellipsis next to an article.
 
@@ -34,7 +39,7 @@ Use the **Email** button to send the knowledge article via mail. When you select
 
 You can perform these actions for only published or expired articles.
 
-### See also
+### Related information
 
 [Link and unlink knowledge articles](link-articles.md#link-and-unlink-knowledge-articles)
 

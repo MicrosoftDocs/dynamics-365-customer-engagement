@@ -2,9 +2,10 @@
 title: "Visualize device readings | MicrosoftDocs"
 description: "Learn how to enable and use device readings in Connected Customer Service for Azure IoT Central."
 ms.date: 08/31/2023
-ms.topic: article
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ---
 
 # Visualize device readings

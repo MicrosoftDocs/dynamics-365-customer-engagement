@@ -3,7 +3,6 @@ title: "Deployment Web service domain user account | Microsoft Docs"
 description: Environment diagnostics warning that there's a problem with the domain user account specified.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

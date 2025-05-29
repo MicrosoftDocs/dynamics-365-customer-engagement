@@ -2,12 +2,11 @@
 title: "Configure OData v4 Data Provider in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to configure the OData v4 Data Provider to connect Dynamics 365 with an OData web service to integrate external data."
 ms.custom: 
-ms.date: 01/14/2019
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: best-practice
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps

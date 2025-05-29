@@ -1,18 +1,21 @@
 ---
-title: "Configure Omnichannel Agent Dashboard for agents | MicrosoftDocs"
-description: "Learn how to configure Omnichannel Agent Dashboard for agents using Omnichannel for Customer Service."
-ms.date: 07/01/2019
+title: Configure Omnichannel Agent Dashboard for representatives 
+description: Learn how to configure Omnichannel Agent Dashboard for agents using Omnichannel for Customer Service.
+ms.date: 05/05/2025
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 monikerRange: '>= dynamics-usd-4.1'
+ms.custom: evergreen
 ---
 
-# Configure Omnichannel Agent Dashboard for agents overview
+
+# Configure Omnichannel Agent Dashboard for representatives 
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-This topic describes how to set up an Omnichannel Agent Dashboard for agents to view the conversation (work items). When agents accept an incoming conversation notification request, they use the Omnichannel Agent Dashboard to engage with the customer.
+This topic describes how to set up an Omnichannel Agent Dashboard for customer service representatives (service representatives or representatives) to view the conversation (work items). When representatives accept an incoming conversation notification request, they use the Omnichannel Agent Dashboard to engage with the customer.
 
 ## Prerequisites 
 
@@ -34,7 +37,7 @@ The steps for configuring an Omnichannel Agent Dashboard in Unified Service Desk
 
 3. Attach the action calls to events.
 
-4. Add the hosted controls, actions, and events to the agent and supervisor configurations.
+4. Add the hosted controls, actions, and events to the representatives and supervisor configurations.
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 1: Create Omnichannel Agent Dashboard hosted control](agent-dashboard-step1-create-hosted-control.md)

@@ -1396,7 +1396,7 @@ For sample schema to get all the required records, see [Sample schema for unifie
 [Verify migration of records](migrate-config-data-verify.md)  
 
 
-### See also
+### Related information
 
 [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data)  
 [Overview of data migration for records](migrate-config-data-for-records-overview.md)  

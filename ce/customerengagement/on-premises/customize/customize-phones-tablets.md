@@ -2,12 +2,11 @@
 title: "Dynamics 365 customization for phones and tablets"
 description: "You can customize Dynamics 365 to be optimized for phone and tablet. Learn about the customization options for forms, navigation, commands, and more."
 ms.custom: 
-ms.date: 06/18/2019
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 author: mattp123

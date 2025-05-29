@@ -1,8 +1,8 @@
 ---
 title: Use Microsoft Teams meeting integration in Sales Hub
 description: Learn how to create and join a Teams meeting from Sales Hub.
-ms.date: 07/22/2022
-ms.topic: article
+ms.date: 05/22/2025
+ms.topic: concept-article
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
@@ -44,7 +44,7 @@ The lifecycle of a meeting can be divided into three stages, each with specific 
 
   - [Use the Dynamics 365 app to view and update record information](work-with-d365-app.md#view-record-details-before-or-after-a-meeting)
 
-### See also
+## Related information
 
 [Enable Microsoft Teams meeting integration](enable-teams-meeting-integration.md)    
 [Customize record details in the side panel](customize-record-side-panel.md)   

@@ -2,7 +2,6 @@
 title: "Customize entity attribute metadata (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about the AttributeMetadata class to retrieve existing attributes. This class is returned by the RetrieveAttributeRequest message. The AttributeMetadata class inherits from the abstract MetadataBase class. "
 ms.custom: 
-ms.date: 11/03/2017
 ms.reviewer: pehecke
 
 ms.suite: 

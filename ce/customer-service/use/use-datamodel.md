@@ -3,20 +3,25 @@ title: Use the out-of-the-box data model in your custom reports
 description: Learn how to use the out-of-the-box data model in your custom reports. 
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to 
 ms.collection: 
-ms.date: 06/12/2023
+ms.date: 04/30/2025
 ms.custom: bap-template
 ---
 
 # Use the out-of-the-box data model in your custom reports
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+> [!Note]
+> Case information is applicable to Customer Service only.
+
 This articles describes how you can create a new report that leverages the out-of-the-box data model. You can also extend this report and add new metrics based on the available data within the Dynamics 365 Customer Service dataset.
 
 ## Prerequisites
 
-- Your administrator must enable data model customization. More information: [Enable Power BI data model customization](../administer/model-customize-reports.md#enable-power-bi-data-model-customization)
+- Your administrator must enable data model customization. Learn more in [Enable Power BI data model customization](../administer/model-customize-reports.md#enable-power-bi-data-model-customization).
 - You must have the required [Power BI permissions](../administer/model-customize-reports.md#prerequisites).
 
 ## Create a new report based on Dynamics 365 Customer Service dataset
@@ -64,7 +69,7 @@ If you need to create a metric within the existing entities (as described in [Sc
 
 1. Right-click the entity for which you want to create your new metric.
 
-1. Enter the Data Analysis Expressions (DAX) logic for real-time metrics after selecting the required attributes such as name and data type. For more information about DAX, go to [DAX function reference](/dax/dax-function-reference).
+1. Enter the Data Analysis Expressions (DAX) logic for real-time metrics after selecting the required attributes such as name and data type. Learn more in [DAX function reference](/dax/dax-function-reference).
 
 1. Save your measure and include it in your visualization as required.
 
@@ -178,7 +183,7 @@ Here's an example that describes how to filter the out-of-the-box Customer Servi
  
 ## Publish reports back to Dynamics 365 Customer Service  
 
-After you've created the new reports, you can enable your Dynamics 365 users to be able to view these reports from the Customer Service workspace app. Work with your administrator to ensure that the viewers have appropriate access to [view and embed](../administer/configure-customer-service-analytics-insights-csh.md) these reports in Dynamics 365.  
+After you've created the new reports, you can enable your Dynamics 365 users to be able to view these reports from the Copilot Service workspace app. Work with your administrator to ensure that the viewers have appropriate access to [view and embed](../administer/configure-customer-service-analytics-insights-csh.md) these reports in Dynamics 365.  
 
 ## Next steps
 

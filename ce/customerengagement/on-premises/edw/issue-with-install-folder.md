@@ -3,11 +3,10 @@ title: "Setup detected an issue with the install folder specified | Microsoft Do
 description: Environment diagnostics warning that Setup detected issues with the specified install folder.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.assetid: 59e4e570-a944-4dcc-ab79-829605e26bf9
 caps.latest.revision: 4
 robots: noindex,nofollow

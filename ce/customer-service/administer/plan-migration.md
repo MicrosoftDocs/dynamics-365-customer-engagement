@@ -2,9 +2,10 @@
 title: "Plan migration of entity records | MicrosoftDocs"
 description: "Learn how to migrate entity records from the legacy Service Scheduling to Unified Interface Service Scheduling in Dynamics 365 Customer Service"
 ms.date: 10/11/2019
-ms.topic: article
+ms.topic: reference
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 search.audienceType: 
   - admin
   - customizer
@@ -88,7 +89,7 @@ To ignore an entity record during migration, perform the following steps.
 
 7. Select **Publish** to publish the customizations.
 
-### See also
+### Related information
 
 [Introduction to migration of entity records](introduction-migration-entity-records.md)
 

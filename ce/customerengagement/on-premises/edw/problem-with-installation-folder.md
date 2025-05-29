@@ -1,11 +1,10 @@
 ---
 title: "Setup detected a problem with the specified installation folder | Microsoft Docs"
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.assetid: 6e6927b6-bf20-4c37-b912-074f01307c3d
 caps.latest.revision: 5
 robots: noindex,nofollow

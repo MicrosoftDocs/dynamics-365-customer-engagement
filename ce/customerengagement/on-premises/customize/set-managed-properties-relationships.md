@@ -2,7 +2,6 @@
 title: "Set managed properties for relationships in Dynamics 365 Customer Engagement (on-premises)"
 description: "You can set the Can Be Customized managed property for an entity relationship to control all changes that can be made to the relationship."
 ms.custom: 
-ms.date: 04/29/2019
 ms.reviewer: 
 
 ms.suite: 

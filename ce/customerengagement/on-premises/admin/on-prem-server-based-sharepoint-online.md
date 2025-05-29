@@ -2,12 +2,10 @@
 title: "SharePoint Online integration with Dynamics 365 Customer Engagement (on-premises)"
 description: "Follow these steps to configure server-based integration between Dynamics 365 Customer Engagement (on-premises) and SharePoint Online."
 ms:assetid: 24245deb-48cb-4c13-adfe-efa2fe94b3cd
-ms.date: 04/16/2020
-
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: how-to
 applies_to: 
   - "Dynamics 365 (on-premises)"
 ms.author: matp
@@ -115,6 +113,9 @@ The following software feature is required to run the Windows PowerShell cmdlets
 6.  Set the Azure Active Directory Service Principal Name (SPN) in SharePoint.
     
     Replace *\*.contoso.com* with the domain name where Microsoft Dynamics 365 Server is located.
+    
+    > [!IMPORTANT]
+    > Only asymmetric keys are supported as the **Type** parameter in the `New-MsolServicePrincipalCredential` command. Symmetric or password keys aren't secure and are disabled.
     
     ```powershell
     $RootDomain = “*.contoso.com”

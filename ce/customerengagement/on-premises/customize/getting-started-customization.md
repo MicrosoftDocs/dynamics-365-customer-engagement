@@ -1,12 +1,11 @@
 ---
 title: "Begin customization of Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to get started building and customizing business apps to more closely fit your organization’s industry, nomenclature, and unique business processes."
-ms.date: 12/04/2018
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: get-started
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps

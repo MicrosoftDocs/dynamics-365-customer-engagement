@@ -2,12 +2,11 @@
 title: "Sort records in a view in Dynamics 365 Customer Engagement (on-premises)"
 description: "When creating or editing a view, select Configure Sorting to sort the way records appear in the view. You can choose between ascending or descending order." 
 ms.custom: 
-ms.date: 11/09/2018
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 author: Mattp123

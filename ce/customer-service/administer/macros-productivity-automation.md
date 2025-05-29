@@ -1,16 +1,18 @@
 ---
-title: Use productivity automation macros 
+title: Create productivity automation macros 
 description: Learn about how to use productivity automation macros in Dynamics 365 Customer Service.
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: 
-ms.topic: conceptual 
+ms.reviewer: mgandham
+ms.topic: reference
 ms.collection: 
-ms.date: 05/14/2024
+ms.date: 05/07/2025
 ms.custom: bap-template 
 ---
 
-# Use productivity automation macros
+# Create productivity automation macros
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
  You can automate the following tasks with productivity automation macros: 
 
@@ -19,10 +21,11 @@ ms.custom: bap-template
 - resolve cases
 - search knowledge base
 - clone records
-- set focus to another agent script
+- set focus to another script
 - open email templates
 - auto fill form fields
 - set and retrieve variables and values in the session context
+- create a custom macro that allows integration with third-party web pages and applications
 
  You can use the productivity automation actions any number of times across different macros to automate and perform model-driven app operations.
 
@@ -124,8 +127,8 @@ Perform the following steps to create a macro that opens the task form and then 
     - **Entity logical name**: `task`
     - **Attribute Name**: subject
     - **Attribute Value**: Follow up task regarding `${anchor.ticketnumber}`
-    - **Attribute Name**: regrdingobjectid
-    - **Attribute Value**: `{{"id":"${anchor.incidentid}","name":"${anchor.title}","entitytype":"incident"}}`
+    - **Attribute Name**: regardingobjectid
+    - **Attribute Value**: `[{"id":"${anchor.incidentid}","name":"${anchor.title}","entitytype":"incident"}]`
 
 ### Example 2: Open a task form and populate form fields from a conversation
 
@@ -136,8 +139,8 @@ Perform the following steps to create a macro that opens the task form and then 
    - **Entity logical name**: `task`
    - **Attribute Name**: subject
    - **Attribute Value**: Follow up task regarding `${anchor.customerName}`
-   - **Attribute Name**: regrdingobjectid
-   - **Attribute Value**: `"${customerName}","entitytype":"${customerEntityName}"}}`
+   - **Attribute Name**: regardingobjectid
+   - **Attribute Value**: `[{ "id" : "${customerRecordId}", "name": "${customerName}","entitytype":"${customerEntityName}"}]`
 
 #### Update an existing record
 
@@ -184,7 +187,7 @@ Use the action to resolve a case. The action contains the following fields.
 
 ### Example: Macro to resolve a case
 
-Perform the following steps to create a macro that resolves a case. When agents resolve a case using macro, the tab isn't automatically refreshed, so more steps are recommended for a better user experience.
+Perform the following steps to create a macro that resolves a case. When customer service representatives (service representatives or representatives) resolve a case using macro, the tab isn't automatically refreshed, so more steps are recommended for a better user experience.
 
 1. Add the **Action to resolve case** action to pass the billable time as a numeric value and the Incident ID is the record ID that needs to be resolved, with the following attributes:
   - **Incident ID**: `${anchor.incidentid}`
@@ -193,6 +196,30 @@ Perform the following steps to create a macro that resolves a case. When agents 
 1. Add the **Get the current tab** session connector.
 1. Add the **Refresh the tab** session action to refresh the tab with the following attributes:
     -**Tab ID**: Tab ID
+
+## Execute JavaScript
+
+This action is used to create a custom macro action that can seamlessly send and receive information from non-Microsoft web pages and applications from Customer Service. The action contains the following fields.
+
+   | Field | Description | 
+   |-----------------|-----------------------------|
+   | Web Resource Name |  Specify the JavaScript code that you want to run as a [web resource in Dataverse](/power-apps/maker/model-driven-apps/create-edit-web-resources). <br>This field is mandatory. |
+   | Custom Macro Function |  Specify the name of the function that you want to run. <br>This field is mandatory. |
+   | Attribute Name | Specify the attribute logical name you want to update.|
+   | Attribute Value | Specify the attribute value that's updated for the attribute. |
+
+### Example
+
+Perform the following steps to create a custom macro that makes an API call to a non-Microsoft application and then opens a new form to create a record with the response of the API call:
+
+1. Add the **Execute Javascript** action. The attributes are as follows: 
+   - **Web Resource Name**: Your JavaScript code saved as a webresource.
+   - **Custom Macro Function**: retriveSuggestion
+1. Add the **Open a new form to create a record** action that opens a new form to create a record. The following are the attributes:
+   - **Entity logical name**: `task`
+   - **Attribute Name**: subject
+   - **Attribute Value**: Generic Macro Action Output
+
 
 ## Open an email form with predefined template
 
@@ -217,11 +244,11 @@ Perform the following steps to create a macro that opens an email template of ca
    - **Email recipients**: `${anchor._customerid_value@OData.Community.Display.V1.FormattedValue}`
    - **Entity Logical Name**: `incident` 
 1. Add the **autofill form fields** action to populate the To and Regarding fields. The attributes are as follows: 
-     - **Entity logical name**: `Email`
+     - **Entity logical name**: `email`
      - **Attribute Name**: to
      - **Attribute Value**: `[{"id":"${anchor._customerid_value}","entitytype":"contact","name":"${anchor._customerid_value@OData.Community.Display.V1.FormattedValue}"}]`
      - **Attribute Name**: regardingobjectid
-     -  **Attribute Value**: `[{"id":"${anchor.incidentid}"},"name":"${anchor.title}","entitytype":"incident"}]`
+     -  **Attribute Value**: `[{"id":"${anchor.incidentid}","name":"${anchor.title}","entitytype":"incident"}]`
 
 ### Example 2: Open an email template from a conversation
 
@@ -232,11 +259,11 @@ Perform the following steps to create a macro that opens an email template of ca
    - **Email recipients**: `${customerName}`
    - **Entity Logical Name**: `${customerEntityName}` 
 1. Add the **autofill form fields** action to populate the To and Regarding fields. The attributes are as follows: 
-    - **Entity logical name**: `Email`
+    - **Entity logical name**: `email`
     - **Attribute Name**: to
     - **Attribute Value**: `[{"id":"${customerRecordId}", "entitytype":"contact","name":"${customerName}"}]`
     - **Attribute Name**: regardingobjectid
-    - **Attribute Value**: `[{"id":"${customerRecordId}"},"entitytype":"contact","name": "${customerName}"}]`|
+    - **Attribute Value**: `[{"id":"${customerRecordId}","entitytype":"contact","name": "${customerName}"}]`|
 
 ### Example 3: Open an email template with multiple recipients
 
@@ -364,19 +391,20 @@ Perform the following steps to create a macro to clone an existing case. The exi
    - **Attribute Value**: `[{"id": "${anchor.incidentid}","name":"${anchor.title}","entitytype":"incident"}]`
    - **Attribute Name**: ticketnumber
    - **Attribute Value**:  
-1. Add the **Save the record** action to generate and set the ticketnumber for the child case.</li></ol>|
+1. Add the **Save the record** action to generate and set the ticketnumber for the child case.</li></ol>
 
-## Set Agent Script focus
+## Set Script focus
 
-Sets the focus on an agent script that needs to run next. The agent script is set in focus in the **Agent scripts** dropdown on the app side pane. For example, if the agent needs to process a refund complaint. The agent uses different scripts to greet, initiate a complaint request, and process the refund. You can define macros that set the focus on the agent scripts that need to be run for each stage of the refund process. The action contains the following field.
+Sets the focus on a script that needs to run next. The script is set in focus in the **Scripts** dropdown on the app side pane. For example, if the service representative needs to process a refund complaint. The service representative uses different scripts to greet, initiate a complaint request, and process the refund. You can define macros that set the focus on the scripts that need to be run for each stage of the refund process. The script in focus must be associated with the session template. The action contains the following field.
 
    | Field | Description |
    |-----------------|-----------------------------|
-   | Agent Script Unique Name   |  Specify the agent script that needs to be in focus.  | 
+   | Agent Script Unique Name   |  Specify the script that needs to be in focus.  | 
 
-### Example: Update the priority of a case and set focus to another agent script
+### Example: Update the priority of a case and set focus to another script
 
-Perform the following steps to create a macro that updates the priority of a case to high and then switches to another agent script.
+Perform the following steps to create a macro that updates the priority of a case to high and then switches to another script.
+
 1. Add the **Update an existing record** action with the following attributes:
     - **Entity record ID**: `${anchor.incidentid}`
     - **Entity logical name**: `incident`

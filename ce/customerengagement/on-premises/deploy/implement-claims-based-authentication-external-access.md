@@ -2,12 +2,11 @@
 title: "Implement claims-based authentication: external access | Microsoft Docs"
 description: Learn how to implement claims-based authentication for external access with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "10/01/2018"
 
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: how-to
 applies_to: 
   - "Dynamics 365 (on-premises)"
 ms.assetid: d3fc4925-4aaa-4f42-bd5b-2efeab0dd7c2

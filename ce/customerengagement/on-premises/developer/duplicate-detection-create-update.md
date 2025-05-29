@@ -2,7 +2,6 @@
 title: "Manage duplicate detection for create and update operations (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Read how to detect duplicates during create and update operations using the Dynamics 365 Customer Engagement Web API and Organization service."
 ms.custom: 
-ms.date: 11/15/2017
 ms.reviewer: pehecke
 
 ms.suite: 

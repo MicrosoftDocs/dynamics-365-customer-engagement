@@ -1,7 +1,7 @@
 ---
 title: FAQs for work order update (preview)
 description: Get answers to common questions about how the AI-powered work order update feature in the Dynamics 365 Field Service mobile app helps you quickly update details of a work order.
-ms.date: 11/29/2023
+ms.date: 11/12/2024
 ms.custom:
   - responsible-ai-faqs
   - bap-template
@@ -34,7 +34,7 @@ A typical workflow for the frontline worker involves updating data fields within
 - It's available only in the new field service mobile user experience.
 - Copilot can only update the fields of a predefined schema.
 - This feature requires an active internet connection. It's not available while users are offline.
-- We evaluated the feature in English only. You can get inaccurate responses with other languages.
+- We evaluated the feature in English only. You can get inaccurate responses with other languages. [Explore Copilot features by geography and languages](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 

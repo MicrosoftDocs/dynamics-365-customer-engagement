@@ -2,19 +2,18 @@
 title: "Monitor forward vs individual mailboxes in Dynamics 365 Customer Engagement (on-premises)"
 description: "You can monitor individual mailboxes, but many organizations will want to choose to monitor a forward mailbox to reduce administrative effort."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: ddd3e2d0-7b6d-463f-b413-e8e1ea371daa
 caps.latest.revision: 18
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 

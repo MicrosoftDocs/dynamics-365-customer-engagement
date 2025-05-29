@@ -2,7 +2,6 @@
 title: "Use workflow processes in Dynamics 365 Customer Engagement (on-premises)"
 description: "Workflows automate business processes that don't need user interaction. Learn more about when to start then, how to run them, and what actions they perform."
 ms.custom: 
-ms.date: 01/14/2019
 ms.reviewer: 
 
 ms.suite: 

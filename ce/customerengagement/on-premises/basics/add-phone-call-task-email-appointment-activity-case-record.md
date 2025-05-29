@@ -2,18 +2,17 @@
 title: "Add activities in Dynamics 365 Customer Engagement (on-premises)"
 description: "Activities help you keep track of all customer communications. Learn how to add activities to a record, such as a phone call, task, email, or appointment."
 ms.custom: 
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: b72fe4a3-30b8-4dc4-9b93-e87e5cdb7ef0
 caps.latest.revision: 39
-author: sericks007  
-ms.author: sericks
+author: shwetamurkute  
+ms.author: smurkute
 search.audienceType: 
   - enduser
 

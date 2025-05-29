@@ -1,15 +1,18 @@
 ---
-title: Security roles for agent experience profiles
-description: Overview of the security roles for agent experience profiles.
+title: Roles and privileges associated with experience profiles
+description: Overview of the security roles for experience profiles.
 author: neeranelli
 ms.author: nenellim
-ms.date: 12/14/2023
-ms.topic: conceptual
+ms.reviewer: nenellim
+ms.date: 04/21/2025
+ms.topic: concept-article
 ms.collection:
 ms.custom: bap-template
 ---
 
 # Roles and privileges associated with experience profiles
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 The following roles are available:
 
@@ -18,7 +21,7 @@ The following roles are available:
 
 If your organization uses custom roles, and you want a user with the custom role to manage app profiles, then you can assign the App Profile Manager Administrator role or manually add the privileges that pertain to the App Profile Manager Administrator role to the custom role.
 
-## Roles for Customer Service workspace
+## Roles for Copilot Service workspace
 
 By default, the privileges that pertain to the App Profile User role are added to the Customer Service Representative and CSR Manager roles out of the box. You need to manually provide the App Profile Manager Administrator role to the user who creates app profiles, templates, productivity tools, and channel provider configurations.
 
@@ -88,7 +91,7 @@ The App Profile User has the following privileges.
 | Append to macro session | prvAppendTomsdyn_macrosession |
 | Append macro session | prvAppendmsdyn_macrosession |
 
-### See also
+### Related information
  
 [Users and roles in Omnichannel for Customer Service](../implement/add-users-assign-roles.md)  
 

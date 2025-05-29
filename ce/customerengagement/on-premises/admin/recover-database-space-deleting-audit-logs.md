@@ -2,19 +2,18 @@
 title: "Delete audit logs from Dynamics 365 Customer Engagement (on-premises)"
 description: "When you enable auditing, the system stores the change history audit logs within the database. You can delete old and unwanted logs to clean up your space."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 99ea6ece-c35a-4f0e-85a4-26622ba9db67
 caps.latest.revision: 7
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 ---

@@ -1,23 +1,23 @@
 ---
 title: FAQ about Facebook channel setup
 description: Review frequently asked questions (FAQ) about Facebook channel configuration in Omnichannel for Customer Service.
-ms.date: 04/04/2024
-ms.topic: conceptual
+ms.date: 03/03/2025
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 ms.custom: bap-template
 ---
 
 # FAQ about Facebook channel setup
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 This article provides answers to frequently asked questions (FAQs) about configuring the Facebook channel in Omnichannel for Customer Service.
 
-## Why aren't agents able to receive messages that are sent from Facebook? 
+## Why aren't representatives able to receive messages that are sent from Facebook? 
 
-If agents who use Omnichannel for Customer Service aren't receiving Facebook messages, it's likely because their customers lack the necessary roles or permissions. The assignment of roles or permissions might vary slightly, depending on whether the Facebook app is in production or development mode. 
+If customer service representatives who use Omnichannel for Customer Service aren't receiving Facebook messages, it's likely because their customers lack the necessary roles or permissions. The assignment of roles or permissions might vary slightly, depending on whether the Facebook app is in production or development mode. 
 
 **App in production mode**: 
 - If the customer is using the Facebook page for messaging for the first time, they must request pages_messaging permission from their Facebook app. After the request is approved, any Facebook user can send messages to your business page.
@@ -39,7 +39,7 @@ If you grant roles to an existing Facebook user, make sure the user has a Meta D
 
 If you're creating a test user within the Facebook app, select to automatically install the app, and select the pages_messaging permission.​
 
-### See also
+### Related information
 
 [Configure a Facebook channel](configure-facebook-channel.md)<br>
 [Understand and create workstreams](create-workstreams.md)<br>

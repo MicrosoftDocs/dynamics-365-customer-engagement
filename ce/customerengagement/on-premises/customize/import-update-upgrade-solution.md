@@ -2,12 +2,11 @@
 title: "Import a solution into Dynamics 365 Customer Engagement (on-premises)"
 description: "Follow these steps to import a new solution or update an existing one in Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 07/11/2019
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps

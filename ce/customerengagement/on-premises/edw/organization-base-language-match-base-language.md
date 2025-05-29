@@ -3,7 +3,6 @@ title: "The organization base language does not match the server base language |
 description: Environment diagnostics warning that the organization base language doesn't match the server.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

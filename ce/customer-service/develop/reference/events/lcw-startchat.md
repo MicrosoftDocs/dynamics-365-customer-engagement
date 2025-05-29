@@ -1,10 +1,11 @@
 ---
-title: "lcw:startChat | MicrosoftDocs"
-description: lcw startChat event (Omnichannel for Customer Service JavaScript API reference)
-ms.topic: article
-ms.date: 11/10/2021
+title: lcw:startChat 
+description: lcw startChat event (Omnichannel for Customer Service JavaScript API reference).
+ms.topic: reference
+ms.date: 03/18/2025
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # lcw:startChat event (Omnichannel for Customer Service JavaScript API reference)
 
@@ -24,7 +25,7 @@ window.addEventListener("lcw:startChat", function handleLivechatStartedEvent(){
 });
 ```
 
-### See also
+### Related information
 
 [lcw:ready](lcw-ready.md)  
 [lcw:error](lcw-error.md)  

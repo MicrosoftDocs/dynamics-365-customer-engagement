@@ -1,14 +1,17 @@
 ---
-title: "Unified Interface Page hosted control to load a page from a model-driven app | MicrosoftDocs"
-description: "Learn to create the Unified Interface Page hosted control. Also find information about the predefined UII actions supported by it."
-ms.date: 11/12/2020
-ms.topic: article
+title: Unified Interface Page hosted control to load a page from a model-driven app 
+description: Learn to create the Unified Interface Page hosted control. Also find information about the predefined UII actions supported by it.
+ms.date: 05/15/2025
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
+ms.custom: evergreen
 ---
+
 
 # Unified Interface Page (hosted control)
 
@@ -16,11 +19,11 @@ search.audienceType:
 
 Use the Unified Interface Page hosted control type to load a URL or page from Unified Interface apps in model-driven apps. When a model-driven app page is loaded within a hosted control of this type, it automatically scans the page for data from the entity, and automatically populates the replacement parameters.
   
-This hosted control type exposes a number of predefined UII actions and events that are unique to the handling of model-driven apps [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)], including list manipulation action and a find action for displaying a quick search or advanced search page.
+This hosted control type exposes many predefined UII actions and events that are unique to the handling of model-driven apps [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)], including list manipulation action and a find action for displaying a quick search or advanced search page.
 
 ## Create a Unified Interface Page hosted control
 
-While you're creating a new hosted control, the fields on the **New Hosted Control** screen will vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the Unified Interface Page hosted control type.
+While you're creating a new hosted control, the fields on the **New Hosted Control** screen varies based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the Unified Interface Page hosted control type.
 
 On the **New Hosted Control** screen:
 
@@ -32,7 +35,7 @@ On the **New Hosted Control** screen:
 
 - In the **Common Properties** area, select the **Application is Global** check box to set the hosted control as global. Global hosted controls can be displayed outside of a customer session. Controls like the agent's dashboard, wall, or search are common uses for global hosted controls. Global hosted controls don't have a session-specific state, so when you change sessions, these same global hosted controls remain. If this check box isn't selected, the hosted control becomes session-based. Session-based controls exist in the context of the customer session. If the user changes to another session, all the pages from the previous session are hidden.
 
-- The **Display Group** field displays the panel where this hosted control will be displayed. **MainPanel** is the most common choice for this hosted control type.
+- The **Display Group** field displays the panel where this hosted control is displayed. **MainPanel** is the most common choice for this hosted control type.
 
 More information: [Create or edit a hosted control](create-edit-hosted-control.md)
 
@@ -50,11 +53,11 @@ This action loads a specific associated view. These views are typically accessed
 | Id                | The ID of the main entity record for which to display the associated entity records.                                    |
 | navItemId         | The ID of the navigation item corresponding to the associated entity. More information: [formContext.ui.navigation](/dynamics365/customer-engagement/developer/clientapi/reference/formcontext-ui-navigation)      |
 | hideCommandBar    | If this parameter is supplied and False, the page will be displayed along with the model-driven app command bar. |
-| hideNavigationBar | If this parameter is supplied and False, the page will be displayed along with the model-driven app navigation bar.     |
+| hideNavigationBar | If this parameter is supplied and False, the page is displayed along with the model-driven app navigation bar.     |
 
 ### Close
 
-This action is used to close the hosted control. Unlike the **CloseActive** action, if this tab (hosted control) is displaying more than one page, this action will close all the pages displayed in the tab in your agent application.
+This action is used to close the hosted control. Unlike the **CloseActive** action, if this tab (hosted control) is displaying more than one page, this action closes all the pages displayed in the tab in your agent application.
 
 ### CloseActive
 
@@ -142,11 +145,11 @@ This action is used to navigate to a model-driven app URL. The App Id for the ap
 </tr>
 <tr class="even">
 <td>HideCommandBar</td>
-<td>If this parameter is supplied and True, the inner frame will be displayed without loading the model-driven app command bar.</td>
+<td>If this parameter is supplied and True, the inner frame is displayed without loading the model-driven app command bar.</td>
 </tr>
 <tr class="odd">
 <td>HideNavigationBar</td>
-<td>If this parameter is supplied and True, the form will be displayed without loading the model-driven app navigation bar.</td>
+<td>If this parameter is supplied and True, the form is displayed without loading the model-driven app navigation bar.</td>
 </tr>
 <tr class="even">
 <td>Frame</td>
@@ -160,7 +163,7 @@ Alternatively, the data can be passed as an encoded string with its header type 
 </tr>
 <tr class="even">
 <td>header</td>
-<td>A string value that contains additional HTTP headers to send to the server. When the postdata parameter is used in the <b>Navigate</b> action, you should also specify an appropriate value for the header parameter, for example Content-Type:application/x-www-form-urlencoded<br />
+<td>A string value that contains additional HTTP headers to send to the server. When the postdata parameter is used in the <b>Navigate</b> action, you should also specify an appropriate value for the header parameter, for example Content-Type: application/x-www-form-urlencoded<br />
 <br />
 If a Unified Service Desk POST event triggers the <b>Navigate</b> action, the default value of this parameter should be header=[[header]+]<br />
 <br />
@@ -177,7 +180,7 @@ Example: <code>header=$Multiline(accessToken;dummyAccessToken==</code><br />
 
 ### New\_CRM\_Page
 
-Creates a page for creating a new record of the entity specified, and treats the page as a pop-up window from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record will be displayed.
+Creates a page for creating a new record of the entity specified, and treats the page as a pop-up window from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.
 
 | Parameter   | Description                                                 |
 |-------------|-------------------------------------------------------------|
@@ -226,7 +229,7 @@ This action injects JavaScript into the main frame of the application. You shoul
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|  *See description* |The data parameter is the JavaScript that will be injected into the form. **Note:** The replacement parameters can be used in the script, and they'll be replaced before the script is executed.|
+|  *See description* |The data parameter is the JavaScript that is injected into the form. **Note:** The replacement parameters can be used in the script, and they are replaced before the script is executed.|
 | Frame | When frames exist on the page, this parameter specifies the name of the frame in which to inject the JavaScript. |
 
 ### RunXrmCommand
@@ -248,7 +251,7 @@ The other parameters to the function are customer-defined and can be used to pas
 
 #### Example
 
-You want to execute **RunXrmCommand** action to fill the form attributes of a entity form, where the entity form is hosted by a Unified Interface Page type of hosted control. The value you want to fill, from the perspective of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], is a replacement parameter&mdash;`[[$Context.Key1]]`.
+You want to execute **RunXrmCommand** action to fill the form attributes of an entity form, where the entity form is hosted by a Unified Interface Page type of hosted control. The value you want to fill, from the perspective of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], is a replacement parameter&mdash;`[[$Context.Key1]]`.
 
 To execute the action, you need to write JavaScript type web resource (say, webResource1), and then write a function in the web resource.
 
@@ -272,7 +275,7 @@ functionName = fillAttributeValue
 
 ### SetSize
 
-This action explicitly sets the width and height of the hosted control. This is particularly useful when using "auto" in your panel layouts.
+This action explicitly sets the width and height of the hosted control. This is useful when using "auto" in your panel layouts.
 
 | Parameter | Description                       |
 |-----------|-----------------------------------|

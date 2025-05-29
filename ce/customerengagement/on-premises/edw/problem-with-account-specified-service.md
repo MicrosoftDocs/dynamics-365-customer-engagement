@@ -1,7 +1,6 @@
 ---
 title: "There is a problem with the account specified to run the Microsoft Dynamics 365 for Customer Engagement service | Microsoft Docs"
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

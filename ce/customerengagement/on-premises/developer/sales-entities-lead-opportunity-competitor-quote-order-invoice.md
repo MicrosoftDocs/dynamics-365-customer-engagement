@@ -2,7 +2,6 @@
 title: "Sales entities (lead, opportunity, competitor, quote, order, invoice) (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about sales entities to manage tracking leads, opportunities, competitors, and managing quotes, orders, products, and sales goals of a sales process."
 ms.custom: 
-ms.date: 02/28/2023
 ms.reviewer: pehecke
 ms.topic: article
 applies_to: 

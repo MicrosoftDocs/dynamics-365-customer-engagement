@@ -2,7 +2,6 @@
 title: "Sample code for Dynamics 365 Customer Engagement (on-premises) processes (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "This section contains code examples that show how to use the workflow (process) entity"
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

@@ -2,12 +2,11 @@
 title: "Before you upgrade: issues and considerations | Microsoft Docs"
 description: Learn what's required before you upgrade Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "10/01/2018"
 
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: upgrade-and-migration-article
 applies_to: 
   - "Dynamics 365 (on-premises)"
 ms.assetid: 89f41190-e266-450d-b3c9-95b09eef5f63

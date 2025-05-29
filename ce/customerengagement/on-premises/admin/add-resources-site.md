@@ -2,19 +2,18 @@
 title: "Add resources to a site in Dynamics 365 Customer Engagement (on-premises)"
 description: "After you create a site for a new location, you can add resources such as users, equipment, or facilities."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
-author: jimholtz
+author: Mattp123
 ms.assetid: 71cdcd4d-09f8-48e0-b15a-e860dd325169
 caps.latest.revision: 14
-ms.author: jimholtz
+ms.author: matp
 search.audienceType: 
   - admin
 ---

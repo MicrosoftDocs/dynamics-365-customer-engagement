@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 06/23/2023
+ms.date: 03/31/2025
 ms.custom: bap-template 
 ---
 
@@ -92,7 +92,7 @@ The following sample includes unpacked solutions for Dataverse and plugins proje
 
     `pac solution pack --zipfile C:\tmp\SampleSmsChannelSolution.zip -f src\Solutions\Samples\SampleSmsChannel\SampleSmsChannel.Solution\unmanaged --packagetype Both`
 
-### See also
+## Related information
 
 [Add custom SMS channel](add-custom-sms-provider-intro.md)  
 [Configure SMS provider](configure-sms-provider.md)

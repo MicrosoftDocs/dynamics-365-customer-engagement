@@ -2,12 +2,11 @@
 title: "Install Microsoft Dynamics 365 Reporting Extensions using a command prompt | Microsoft Docs"
 description: Learn how to install reporting extensions using a command prompt for Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "10/01/2018"
 
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 applies_to: 
   - "Dynamics 365 (on-premises)"
 ms.assetid: 252a0933-68d9-45bd-9662-71cb819f9604

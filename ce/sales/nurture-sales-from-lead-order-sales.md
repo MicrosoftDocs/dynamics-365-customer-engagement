@@ -1,13 +1,12 @@
 ---
 title: Understand the sales process
-description: Use the out-of-the-box sales process to close more deals and improve customer satisfaction.
-ms.date: 03/31/2023
+description: Explore the sales process, from lead generation to closing a sale.
+ms.date: 05/29/2024
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.custom: bap-template
-searchScope: 
+searchScope:
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
   - D365-Entity-opportunity
@@ -16,6 +15,11 @@ searchScope:
   - Customer Engagement
   - Dynamics 365
   - Sales
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:05/08/2024
 ---
 # Understand the sales process
 
@@ -25,14 +29,13 @@ Your sales process begins with a lead—someone who is interested in the product
 
 Also, the specific process stages and terminology used by organizations vary based on factors such as, industry, sales strategies, product offerings, or the types of customers they target. Though the actual processes are different, a typical sales process resembles a flow shown in the following diagram:
 
-> [!div class="mx-imgBorder"]
-> ![A typical process of sales](media/sales-process.png "A typical process of sales")
+:::image type="content" source="media/sales-process.svg" alt-text="Screenshot of A typical process of sales."::: 
 
 Each stage typically maps to a specific sales record type. For example, during the qualifying stage, sellers are generally working with a lead. A lead represents someone with an interest in what you are selling. The goal of a lead is to qualify and advance it to the next stage in the sales process, such as the develop stage.
 
 Let's look at an example on how this sales processes is used to implement a sales lifecycle solution in an organization. The following image shows what a sales lifecycle might look like from start to end:
 
-:::image type="content" source="media/sales-process-start-end.png" alt-text="A typical process of sales from start to end" lightbox="media/sales-process-start-end.png":::
+:::image type="content" source="media/sales-process-start-end.svg" alt-text="A typical process of sales from start to end" lightbox="media/sales-process-start-end.svg":::
 
 Your sales process begins with a lead—someone who is interested in the products or services you provide. Your leads might be automatically generated, or they might come from other sources, such as website opt-in pages, email queries, or business cards you gather at trade shows.
 
@@ -55,7 +58,7 @@ Your sales process begins with a lead—someone who is interested in the product
 > [!NOTE]
 > Your [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] system might look different because it was customized. This walkthrough guides you through the basic sales process, but your organization might offer further training for your system.
 
-### See Also   
+## Related information   
 [Overview of Sales](../sales-enterprise/user-guide.md)
 
 

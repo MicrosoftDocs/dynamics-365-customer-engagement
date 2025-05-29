@@ -4,9 +4,8 @@ description: "To edit a main form and add or change components in Dynamics 365 C
 keywords: Main forms; Customer service; Customer Service Hub; Dynamics 365 Customer Engagement (on-premises)
 author: Mattp123
 ms.author: matp
-ms.date: 02/09/2019
 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps

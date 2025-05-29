@@ -1,118 +1,113 @@
 ---
-title: Service level agreements (SLAs) for work orders
-description: Learn about service Level Agreements (SLAs) for work orders in Dynamics 365 Field Service.
-ms.date: 10/10/2022
-ms.topic: article
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: lmasieri
-ms.author: lmasieri
+title: Service-level agreements (SLAs) for work orders
+description: Learn how to set up service-level agreements (SLAs) for work orders in Dynamics 365 Field Service.
+ms.date: 03/27/2025
+ms.topic: how-to
+author: jasonccohen
+ms.author: jacoh
 ---
 
-# Service level agreements (SLA) for work orders
+# Define service-level agreements (SLAs) for work orders
 
-Dynamics 365 Field Service builds on the [Service Level Agreement (SLA) functionality](/training/paths/work-with-entitlements-and-slas-in-microsoft-dynamics-365-for-customer-service/) of Dynamics 365 Customer Service.
+Service-level agreements (SLAs) define service expectations such as arrival and resolution times. SLAs can be tracked using key performance indicators (KPIs), such as work order arrival time. In Field Service, SLAs help organizations ensure work orders get the right level of attention in a timely manner.
 
-SLAs help organizations ensure work orders get the right level of attention in a timely manner.
+For example, a field service organization offers an SLA to their customers. They promise that field technicians will arrive within 4 hours from the time an emergency priority work order is created. The organization wants to display a warning status after 2 hours. For other examples, go to [Implement service level agreements for work orders](/dynamics365/guidance/resources/fs-implementing-sla-work-order).
 
-For example, a field service organization offers an SLA to their customers. They promise that field technicians arrive within 3 hours from the time a work order is created. The organization wants a warning status displayed after 90 minutes and to use the SLA timer during the scheduling process.
-
-For more information on SLAs, go to [Define SLAs](../customer-service/administer/define-service-level-agreements.md).
-
-In this article, you'll learn how to associate SLAs to Field Service work orders.
+To use SLAs for work orders, first enable the SLA functionality for your environment. Then, define the SLAs and KPIs, and associate the SLAs to work orders.
 
 ## Prerequisites
 
-- Field Service v8.3+
-- Knowledge of [Dynamics 365 Service Level Agreements](../customer-service/administer/define-service-level-agreements.md)
+Knowledge of [Dynamics 365 service-level agreements](../customer-service/administer/define-service-level-agreements.md).
 
 ## Enable SLA functionality for Field Service
 
-1. Go to **Advanced Settings**.
+Turn on the SLA setting to enable SLA functionality and then add the SLA field to the work order form.
 
-   :::image type="content" source="media/advanced-settings-dynamics365.png" alt-text="Screenshot of the Advanced Settings option in Dynamics 365.":::
+1. Sign in to [Power Apps](https://make.powerapps.com/) and select your environment.
 
-1. Go to **Customizations** > **Customize the System**.
+1. Select **Tables** > **All**.
 
-1. Expand **Entities** and select **Work Order**.
+1. Search for and select **Work Order**. Then, select **Properties**.
 
-1. In the **Communication & Collaboration** section, select **Enable for SLA**.
+   :::image type="content" source="media/sla-power-apps-table.svg" alt-text="Screenshot of the Work Order table in Power Apps.":::
 
-   :::image type="content" source="media/work-order-sla-enable-work-order-1.png" alt-text="Screenshot of Enable SLA on Work Order.":::
+1. Select **Advanced options** and select **Setting up service level agreements**.
 
-1. Select **Save** and **Publish Customizations**.
+   :::image type="content" source="media/sla-power-apps-enable-work-order.png" alt-text="Screenshot of editing the Work Order table in Power Apps highlighting the SLA setting.":::
 
-## Create SLA KPIs
+1. Select **Save**. Then, select **Publish**.
 
-You can create new SLA KPI instances by going to **Advanced Settings** > **Customizations** > **Customize the System** > **Entities** > **SLA KPI Instance** > **1:N Relationships** > **New 1-to-Many Relationship**.
+### Add the SLA field to the work order form
 
-:::image type="content" source="media/work-order-sla-kpi-instance.png" alt-text="Screenshot of Field Service SLA Configuration.":::
+1. From the **Work Order** table in Power Apps, select **Forms**. Select the work order form that your organization uses.
 
-## Add SLA KPIs to Field Service
-
-1. In Field Service change to the **Settings** area. In the **General** section, select **Field Service Settings**.
-
-1. Go to the **Field Service SLA Configuration** tab to select the **SLA KPI Instances** for Field Service. By default, there's an SLA related to work order arrival times.
-
-   SLA KPI instances help track how often your organization meets SLAs by establishing a relationship between the SLA and work order entities. An SLA can have multiple SLA KPI Instances. If more than one SLA KPI matches for a work order, the one that was first created applies with priority.
-
-## Create SLA
-
-Now we're going to create a new SLA.
-
-1. Go to **Advanced Settings**.
-
-   :::image type="content" source="media/advanced-settings-dynamics365.png" alt-text="Screenshot of the Advanced Settings option in Dynamics 365.":::
-
-1. Go to **Service Management** > **Service Level Agreements**
-
-1. Select **New**.
-
-1. Enter a **Name** and choose **Work Order**  from the **Entity** list.
-
-   :::image type="content" source="media/work-order-sla-create-sla-add-work-order-4.png" alt-text="Screenshot of creating a new SLA for Work Order entity.":::
-
-1. If applicable, assign a business hours calendar and select **Save**.
-
-   :::image type="content" source="media/work-order-sla-add-sla-details-5.png" alt-text="Screenshot of assigning a Business Hours calendar.":::
-
-   > [!NOTE]
-   > You can create multiple SLAs and business hour calendars. However, a work order can only have one SLA assigned.
-
-1. In the SLA Details section, select **New** to add details to the SLA:
-
-    - **Name**: Name of the SLA detail.
-    - **SLA KPI**: Choose the SLA KPI this SLA item relates to.
-    - **Applicable When**: Define the clauses that this SLA applies to. For example, if a work order priority is high.
-    - **Success Criteria**: Define the clauses that are considered a successful completion of a work order within an SLA. For example, if a field technician arrives on site and the work order system status changes to **Open-In Progress**.
-    - **SLA Item Failure**: Choose the time frame in which the work order must meet the success criteria. This setting respects the business hours of the SLA. Example: An SLA has a success parameter of 3 hours. Business hours are Monday through Friday from 9 AM to 5 PM. A work order created at 4 PM on Friday is within the SLA if success criteria are met by Monday at 11 AM.
-    - **SLA Item Warning**: Choose the time frame after which a warning shows on the work order.
-
-    :::image type="content" source="media/work-order-sla-add-actions-6.png" alt-text="Screenshot of creating SLA Details on the KPI that was identified as Arrival Time related. Information screen.":::
-
-1. **Save & Close** the SLA item and select **Activate** on the SLA.
-
-## Add the SLA to a work order
-
-1. Go to **Advanced Settings** > **Customizations** > **Customize the System**.
-
-1. Expand **Components** > **Entities** > **Work Order** > **Forms**. Select the **Work Order** form.
-
-1. Add the SLA field to the form. The SLA field is created when SLA functionality is enabled for the work order entity.
+1. Add the SLA field to the form. The SLA field is created when SLA functionality is enabled for the work order table.
 
    :::image type="content" source="media/work-order-add-sla-field-8.png" alt-text="Screenshot of adding the SLA field to the Work Order form.":::
 
-1. **Save** the form and select **Publish All Customizations**.
+1. **Save and publish** the form.
 
-Moving forward, you can associate an SLA on a work order record.
+## Create an SLA
 
-## Schedule a work order to meet SLA  
+1. From Field Service, change to the Power Platform Environment Settings app.
 
-Once a work order is associated with an SLA, the **Time From Promised** and **Time To Promised** fields will be populated on the work order according to the SLA, appropriate SLA Item, and business hours of the SLA. These fields will populate along with other system jobs, which may typically take up to 5 minutes.
+1. Under **Business**, select **Service Management** > **Service level agreements**.
 
-Scheduling capabilities like the schedule assistant consider these fields and therefore will respect the SLA.
+   :::image type="content" source="media/power-platform-env-settings-sla.png" alt-text="Screenshot of the Power Platform Environment Settings highlighting the SLA setting.":::
 
-Pausing an SLA timer on the work order will update **Time From Promised** and **Time To Promised** fields when resumed.
+1. Select **New** and enter the following information:
+   - **Name**: A descriptive name for the SLA.
+   - **Primary entity**: Work Order
+   - **Description**: The specific requirements for the SLA.
+
+1. Select **Save**.
+
+1. In the **SLA Items** section, select **New SLA Item**.
+
+1. Enter the following information:
+   - **Name**: Enter a unique name of this SLA item.
+   - **KPI**: Select an existing SLA KPI or select **New SLA KPI**. For a new SLA KPI, enter the following information and then save:
+     - **Name**: Enter the name of the SLA KPI.
+     - **Owner**: The user creating the SLA is populated by default. You can specify a different owner.
+     - **Entity Name**: Select **Work Order**.
+     - **KPI Field**: Select the respective KPI field. For example, if you're creating an SLA KPI to define the time within which a technician must arrive, select **Work Order Arrival Time KPI**.
+     - **Applicable From**: Select a value based on which the warning and failure time are measured. For example, if you select **Created On**, the warning and failure start time for an SLA are calculated from the date and time when the work order was created.
+
+   - **Allow Pause and Resume** (optional): Enable this option if you want the SLA to be paused during the time the record is on hold.
+   - **Allow Custom Time Calculation** (optional): Enable this option and select the calculation you want to use to calculate the time.
+   - **Business Hours** (optional): To assign business hours, select a value. The SLA is calculated based on the business hours and business closure that you define. Learn more: [Create customer service schedule and define the work hours](../customer-service/administer/create-customer-service-schedule-define-work-hours.md)
+
+1. In the **Applicable When** section, define the conditions for when the SLA can be applied for the work order. For example, when a work order has an emergency priority.
+
+    The SLA is triggered when the *applicable when* condition is met throughout. If the *applicable when* condition isn't met after an SLA is triggered, the SLA KPI instance gets canceled. We recommend that you don't use fields that are updated frequently because any change to the field value might lead to cancellation of the SLA item.
+
+1. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA. For example, the technician arrives at the work order location.
+
+1. In the **Pause Configurations** section that appears only when **Allow Pause and Resume** is enabled, do the following:
+   1. Set the toggle to **Yes** for **Override Criteria** to pause the SLA item. This setting overrides the pause settings defined at the entity level, if any, in Service Configuration or at the SLA KPI level.
+   2. Select **Add** to define the conditions for pausing the SLA item.
+
+1. In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed. If you don't need **Warning Duration**, you can set it to null so that SLAs don't reach the **Nearing noncompliance** status.
+
+   > [!NOTE]
+   > The failure and warning time is calculated after considering the business hours selected in the SLA record. If you don't set the business hours record (customer service schedule), the work hours are considered to be all day, every day.
+
+   :::image type="content" source="media/power-platform-env-settings-sla-item.png" alt-text="Screenshot of the Power Platform Environment Settings SLA item pane.":::
+
+1. Select **Save**. Define other SLA items if needed.
+
+1. Save the SLA. Then, select **Activate**.
+
+1. To set this SLA as the default, select **Set As Default**. You can have multiple service-level agreements active, but only one can be set as the default.
+
+## Schedule a work order to meet an SLA  
+
+[Create a work order](create-work-order.md) in Field Service and select the SLA. Then, save it. The **Promised window** fields populate on the work order according to the SLA, appropriate SLA item, and business hours of the SLA. Scheduling capabilities like the schedule assistant consider these fields. If the SLA uses the **Work Order Resolution KPI**, the Promised window fields don't populate.
+
+:::image type="content" source="media/work-order-with-sla.png" alt-text="Screenshot of a work order highlighting the SLA and Promised window fields.":::
+
+## More information
+
+[Implement service level agreements for work orders](/dynamics365/guidance/resources/fs-implementing-sla-work-order)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

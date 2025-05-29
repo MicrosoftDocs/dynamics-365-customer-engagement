@@ -2,12 +2,11 @@
 title: "Install Microsoft Dynamics 365 Report Authoring Extension using a command prompt | Microsoft Docs"
 description: Learn how to install report authoring extension using a command prompt with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "10/01/2018"
 
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 applies_to: 
   - "Dynamics 365 (on-premises)"
 ms.assetid: 44fd7c36-e818-4426-965d-c94eef03fd7b

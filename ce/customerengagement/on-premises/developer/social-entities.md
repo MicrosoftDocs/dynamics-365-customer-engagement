@@ -2,7 +2,6 @@
 title: "Social entities (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Learn about social entites that offers social Activity to track social posts, social profile to track a contact’s presence in social media, and convert the social posts to case"
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

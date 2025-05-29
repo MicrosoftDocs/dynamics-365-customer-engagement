@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page
   author: m-hartmann
   ms.author: mhart
-  ms.date: 10/20/2023
+  ms.date: 10/24/2024
   ms.custom: bap-template
   hide_bc: true
 
@@ -77,13 +77,13 @@ additionalContent:
         text: Set up booking statuses
     - title: Administer mobile app
       links:
-      - url: mobile-power-app-get-started.md
+      - url: mobile/set-up-field-service-mobile.md
         text: Install Field Service mobile app
-      - url: mobile-powerapp-booking-maps.md
+      - url: mobile/booking-maps.md
         text: Enable booking maps
-      - url: mobile-power-app-system-offline.md
+      - url: mobile/best-practices-limitations-offline-profile.md
         text: Configure offline capabilities
-      - url: mobile-power-app-push-notifications.md
+      - url: mobile/enable-push-notifications.md
         text: Enable push notifications
     - title: Administer add-ons
       links:
@@ -131,11 +131,11 @@ additionalContent:
         text: Use the schedule board
     - title: Mobile app
       links:
-      - url: mobile-power-app-overview.md
+      - url: mobile/overview.md
         text: Mobile app overview
-      - url: mobile-power-app-use.md
+      - url: mobile/get-work-done-mobile-app.md
         text: Use the mobile app
-      - url: mobile-powerapp-booking-maps.md#view-booking-map-on-mobile-app
+      - url: mobile/booking-maps.md#view-booking-map-on-mobile-app
         text: View booking map
     - title: Agreements, inventory, and purchasing
       links:
@@ -157,14 +157,14 @@ additionalContent:
         text: Integrate with finance and operations
       - url: business-central-integration.md
         text: Integrate with Dynamics 365 Business Central
-    - title: IoT in Field Service
+    - title: Copilot in Field Service
       links:
-      - url: connected-field-service.md
-        text: IoT integration overview
-      - url: cfs-custom-iot-provider.md
-        text: Create IoT providers
-      - url: cfs-iot-alerts.md
-        text: Create IoT alerts and convert to work orders
+      - url: copilot-side-pane.md
+        text: Copilot side pane in the web app
+      - url: work-order-recap.md
+        text: Work order summary
+      - url: responsible-ai-overview.md
+        text: Responsible AI overview
     - title: Resource Scheduling Optimization Add-in
       links:
       - url: rso-overview.md

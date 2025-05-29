@@ -2,7 +2,6 @@
 title: "Build Windows client applications using the XRM tools (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "XRM tooling is a set of APIs that provides support for building Windows client applications for Dynamics 365 Customer Engagement (on-premises)"
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: pehecke
 
 ms.suite: 

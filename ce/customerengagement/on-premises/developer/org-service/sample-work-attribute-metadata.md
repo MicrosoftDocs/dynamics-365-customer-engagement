@@ -2,7 +2,6 @@
 title: "Sample: Work with attribute metadata (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to perform various actions on attributes."
 keywords:
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.custom:
@@ -18,7 +17,7 @@ search.audienceType:
 
 # Sample: Work with attribute metadata
 
-This sample shows how to perform various actions on attributes. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/WorkWithAttributes).
+This sample shows how to perform various actions on attributes. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/WorkWithAttributes).
 
 [!include[cc-sample-note](../includes/cc-sample-note.md)]
 

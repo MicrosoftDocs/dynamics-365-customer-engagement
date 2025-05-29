@@ -3,7 +3,6 @@ title: "Fragmented indexes were detected in the Microsoft Dynamics 365 for Custo
 description: Environment diagnostics warning that fragmented indexes were found.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

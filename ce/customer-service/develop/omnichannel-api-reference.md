@@ -5,7 +5,7 @@ ms.date: 05/24/2022
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 ---
 # Omnichannel JavaScript API Reference
 
@@ -24,7 +24,7 @@ The following JavaScript methods can be used to perform various operations with 
 | [unlinkFromConversation](reference/methods/unlinkFromConversation.md) | Unlinks an already linked entity record of type customer (account or contact) or case from a conversation. |
 | [sendMessageToConversation](reference/methods/sendMessageToConversation.md)   | Sends messages to a conversation programmatically.   |
 
-### See also
+### Related information
 
 [Omnichannel for Customer Service for developers](omnichannel-developer.md)  
 [Live chat SDK reference](omnichannel-reference.md)  

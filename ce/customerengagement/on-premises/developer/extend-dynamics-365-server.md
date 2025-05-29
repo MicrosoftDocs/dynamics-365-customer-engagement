@@ -2,7 +2,6 @@
 title: "Extend Dynamics 365 Customer Engagement (on-premises) on the server (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The section describes capabilities to extend Dynamics 365 Customer Engagement (on-premises) on the server. Compared to extensions you can apply on the client, extensions performed on the server are applied consistently regardless of the client application used to interact with the platform."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

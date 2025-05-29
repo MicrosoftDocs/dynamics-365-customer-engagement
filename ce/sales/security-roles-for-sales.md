@@ -1,15 +1,17 @@
 ---
 title: Predefined security roles for Sales
 description: Predefined security roles define permissions and access levels specific to different sales personas. Assign users to appropriate security roles to grant them adequate access to the system.
-ms.date: 10/18/2023
-ms.topic: article
+ms.date: 01/29/2025
+ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ---
 # Predefined security roles for Sales
 
-Predefined security roles define permissions and access levels specific to different sales personas. [Assign users to appropriate security roles](#assign-security-roles-to-users) to grant them adequate access to the system.
+Predefined security roles define permissions and access levels that the default sales personas need. [Assign users to appropriate security roles](#assign-security-roles-to-users) to grant them adequate access to the system.
+
+You can create custom security roles based on the predefined security roles and modify permissions and access levels to suit your needs. The predefined security roles are updated with new permissions and access levels as new features are added to the application. For example, if you create a custom security role based on the Sales Manager role, your custom role will not automatically inherit the new permissions and access levels that are added to the Sales Manager role. You must manually add them to your custom role. If you get permission errors, try assigning the user a predefined security role. If the user can perform the task, you can then either modify the custom role to include the missing permissions or create a custom role based on the predefined security role and reapply the customizations.
 
 ## Predefined security roles
 
@@ -55,7 +57,7 @@ The following table lists the roles that you can assign to users who need to per
 | --- | --- | --- | --- |
 | Forecast Manager | Sales manager or an equivalent role who's responsible for configuring forecasts in the organization. | Sales Enterprise and Sales Premium | Configure, clone, deactivate, adjust, or delete a forecast. |
 | Forecast User | Any user in the organization who needs access to the forecast data for tracking and analysis | Sales Enterprise and Sales Premium | View forecast and drill-down forecast data |
-| Sequence Manager | Sales manager or an equivalent role who creates and manages sequences, segments, and assignment rules for the organization. | Sales Enterprise and Sales Premium | Create, edit, delete, and deactivate the following features in the sales accelerator<ul><li>Sequences</li><li>Segments</li><li>Assignment rules</li></ul> |
+| Sequence Manager | Sales manager or an equivalent role who creates and manages sequences, segments, and assignment rules for the organization.<br>**Note**: When using this role, ensure that you also have Basic User or a similar role. | Sales Enterprise and Sales Premium | Create, edit, delete, and deactivate the following features in the sales accelerator<ul><li>Sequences</li><li>Segments</li><li>Assignment rules</li></ul> |
 
 ## App access roles
 
@@ -86,18 +88,14 @@ Associate one or more security roles to a user depending on their roles and resp
 
 Follow these steps:
 
-1. In the Sales Hub app, select the Settings icon in the top-right
-   corner, and select **Advanced Settings**.
+1. In the sales app, go to **Settings** > **Advanced Settings**.
+1. Go to **System** > **Security**.
+1. Select **Users**, and then select the user account.
+1. On the command bar, select **Manage security roles**, and choose the roles that you want to assign to the user.
+1. Select **Save**.
+1. Notify the user and ask them to verify that they have the permissions they need.
 
-2. Select **Settings** in the Business Management interface, and
-   go to **Security** under **System**.
-
-3. Select **Users**, and then select the user account.
-
-4. Select **Manage Roles**, and choose the roles that you want to assign to the user.
-
-5. Notify the user and ask them to verify that they have the permissions they need.
-
-### See also   
+## Related information   
 
 [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
+

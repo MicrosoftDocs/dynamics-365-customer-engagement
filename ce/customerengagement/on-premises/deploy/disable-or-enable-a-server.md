@@ -2,12 +2,11 @@
 title: "Disable or enable a server | Microsoft Docs"
 description: Learn how to disable and enabled a Dynamics 365 server in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
-ms.date: 10/01/2018
 
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 15b52516-5f58-4cfc-b597-6f8209bb4a6b

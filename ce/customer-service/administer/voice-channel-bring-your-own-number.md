@@ -1,16 +1,18 @@
 ---
-title: "Bring your own carrier | MicrosoftDocs"
-description: "Use this article to understand how you can bring your own carrier to Dynamics 365 via Azure Direct Routing."
-ms.date: 09/28/2023
-ms.service: dynamics-365-customerservice
-ms.topic: article
+title: Bring your own carrier
+description: Use this article to understand how you can bring your own carrier to Dynamics 365 via Azure Direct Routing.
+ms.date: 04/07/2025
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
+ms.custom: bap-template
+
 ---
 
 # Bring your own carrier
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Azure Communication Services direct routing enables you to connect your existing telephony infrastructure with Azure so that you can retain your existing carrier and phone numbers, and streamline inter-office call transfers.
 
@@ -30,19 +32,9 @@ Azure Communication Services direct routing enables you to connect your existing
 
 ## Bring your own phone number via direct routing
 
-1. In Dynamics 365, go to one of the admin apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+1. In the site map of Copilot Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
     
-    2. Select **Manage** for **Phone numbers**.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-    In the site map, select **Phone numbers** in **General settings**.
+1. Select **Manage** for **Phone numbers**.
 
 1. Select **Advanced** on the menu.
 
@@ -55,11 +47,11 @@ Azure Communication Services direct routing enables you to connect your existing
     - **Number type**: Select whether toll-free or a local phone number.
     - **Calling plans**: Select whether you can make or receive calls on the phone number.
         > [!Note]
-        > SMS is not supported with direct routing.
+        > SMS isn't supported with direct routing.
 
-4. Select **Add number**.
+1. Select **Add number**.
 
-The new phone number will be displayed in the **Phone numbers** list and is ready for setup. You can now [connect it to a voice workstream](voice-channel-inbound-calling.md), [configure outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling), or even [assign it to an agent](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-agents).
+The new phone number appears in the **Phone numbers** list and is ready for setup. You can now [connect it to a voice workstream](voice-channel-inbound-calling.md), [configure outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling), or even [assign it to a customer service representative](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-representatives).
 
 ## SBC best practices
 
@@ -67,10 +59,11 @@ The new phone number will be displayed in the **Phone numbers** list and is read
 - To avoid call timeout, ensure that the following settings for Secure Real-time Transport Protocol (SRTP) are configured:
   - Reset SRTP Upon Re-key = Disable
   - Generate SRTP Keys = Only if Required
-- Ensure that you have sufficient transcoding licenses if your service provider and Azure Communication Services don't support the same codec.
-
+- Make sure that you have sufficient transcoding licenses if your service provider and Azure Communication Services don't support the same codec.
+- If your direct routing SBC is behind a firewall, make sure that the SIP Application Layer Gateway is disabled. Also, make sure that the media endpoint communicating with Azure Communication Services is using a public IP address, not a private one.
+- Make sure that your SBC is using a DNS server located within the same region where Dynamics 365 is hosted to avoid latency issues.
   
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  

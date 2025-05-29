@@ -5,10 +5,10 @@ ms.date: 01/25/2022
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 # Start a chat proactively
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 You can help improve customer satisfaction by anticipating areas where customers need help, and then engaging them through chat when they've been browsing your website for some time.
 
@@ -411,7 +411,7 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
  });
 ```
 
-### See also
+### Related information
 
 [startProactiveChat API](reference/methods/startProactiveChat.md)  
 [Manage custom context](send-context-starting-chat.md)  

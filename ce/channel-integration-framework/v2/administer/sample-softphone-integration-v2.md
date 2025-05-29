@@ -1,24 +1,23 @@
 ---
-title: "Softphone integration with Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Get the sample code for softphone integration using Dynamics 365 Channel Integration Framework 2.0 with Dynamics 365 model-driven apps."
-ms.date: 11/17/2020
-ms.topic: article
+title: Softphone integration with Dynamics 365 Channel Integration Framework 2.0
+description: Get the sample code for softphone integration using Dynamics 365 Channel Integration Framework 2.0 with Dynamics 365 model-driven apps.
+ms.date: 12/10/2024
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
-ms.custom: 
-  - "dyn365-a11y"
-  - "dyn365-developer"
+ms.reviewer: mgandham
+ms.custom: bap-template
 ---
 # Sample code for softphone integration using Dynamics 365 Channel Integration Framework 2.0
 
 [Download](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/channel-integration-framework/TwilioSampleInteg_version2) softphone integration sample for Microsoft Dynamics 365 Channel Integration Framework version 2.0.
 
 > [!NOTE]
-> The sample code is not supported on Internet Explorer and on browsers that do not have webRTC support. More information: [WebRTC](https://webrtc.org/)
+> The sample code isn't supported in Internet Explorer and browsers that do not have webRTC support. Learn more in [WebRTC](https://webrtc.org/)
 
 ## Prerequisites
 
-- Omnichannel for Dynamics 365 Customer Service
+- Omnichannel for Dynamics 365 Customer Service.
 - A valid Azure subscription is required to publish the sample app to Azure.
 
   > [!Note]
@@ -28,7 +27,7 @@ ms.custom:
 
 ## Publish a sample app to Azure
 
-1. Open the solution **SampleInteg.sln** using Visual Studio 2017.
+1. Open **SampleInteg.sln** using Visual Studio 2017.
 2. In **Solution Explorer**, right-click on the solution and build the complete solution.
 3. In **Solution Explorer**, right-click on the project **SampleInteg**  and select **Publish**.
 4. Select **Start** to launch the **Publish** wizard.
@@ -49,13 +48,13 @@ ms.custom:
 2. Use the sample code for the **capability-token** function.<br> Refer to the function from the readme file packaged with the sample softphone integration in the [Dynamics 365 Insider Portal](https://go.microsoft.com/fwlink/p/?linkid=2025867).
 
 > [!Note]
-> Save the URL for the **capability-token** function you obtain from the above sample code. For example, the URL is `https://sampleinteg.sample/capability-token`.
+> Save the URL for the **capability-token** function you obtain from the sample code. For example, the URL is `https://sampleinteg.sample/capability-token`.
 
 <a name="bkmk_Configure"></a>
 
 ## Configure sample app in Dynamics 365
 
-1. Note the base URL of the Dynamics 365 organization from where all web resources are stored. For an online org, this should be of the form `https://<orgname>.crmXX.dynamics.com`. For example: `https://sampleorg.crm10.dynamics.com`
+1. Note the base URL of the Dynamics 365 organization from where all web resources are stored. For an online org, the URL should be in the format, `https://<orgname>.crmXX.dynamics.com`. For example: `https://sampleorg.crm10.dynamics.com`
 
 1. Get the **Dynamics 365 Channel Integration Framework** solution. For more information, see [Get Dynamics 365 Channel Integration Framework](../../v1/administer/get-channel-integration-framework.md).
 
@@ -71,8 +70,8 @@ ms.custom:
    |Channel Order| 0 |
    |API Version| 2.0 |
    |Trusted Domains|The domain (URL) that can access the Channel Integration Framework APIs.|
-   |Select the Unified Interface Apps for the Channel| The list of Unified Interface apps where the channel is displayed for the agents. |
-   |Select Roles for the Channel|The security roles that are present in Dynamics 365.<br>**Note:** If you do not assign any role, the channel provider is shown to all users assigned for the Dynamics 365 Unified Interface app.|
+   |Select the Unified Interface Apps for the Channel| The list of Unified Interface apps where the channel is displayed for the customer service representatives. |
+   |Select Roles for the Channel|The security roles that are present in Dynamics 365.<br>**Note:** If you don't assign any role, the channel provider is shown to all users assigned for the Dynamics 365 Unified Interface app.|
 
 3. Launch the Unified Interface app to see the communication widget on the left side.<br><br>
 
@@ -91,17 +90,17 @@ ms.custom:
 
 4. On the sign-in screen, provide authentication details to connect to your Dynamics 365 instance from where you want to import data. If you have multiple organizations on the Dynamics 365 server, and want to select the organization to which to import the configuration data, select the **Always display list of available orgs** check box. Select **Login**.
 
-5. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select a Dynamics 365 apps organization to connect to.
+5. If you have multiple organizations, and you select the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select a Dynamics 365 apps organization.
 
 6. Provide the data file (data.zip) to be imported. Browse to the data file and select it. Select **Import Data**.
 
-7. This step is applicable only if the data that you are importing contains the user information of the source system. Enter mapping user information on the target system. You can either map all of them to the user who is running the import process or map to individual users by using a user map file (.xml). If you choose the latter, you will have to either specify an existing user map file or the tool can generate it for you. If you generate a new file, fill in the mapping user name in the New parameter for every user on the source server. Select the user map file in the tool when you are done, and select **OK**.
+7. This step is applicable only if the data that you're importing contains the user information of the source system. Enter mapping user information on the target system. You can either map all of them to the user who is running the import process or map to individual users by using a user map file (.xml). If you choose the latter, you have to either specify an existing user map file or the tool can generate it for you. If you generate a new file, fill in the mapping user name in the New parameter for every user on the source server. Select the user map file in the tool when you're done, and select **OK**.
 
 8. The next screen displays the import status of your records. The data import is done in multiple passes to first import the foundation data while queuing up the dependent data, and then import the dependent data in the subsequent passes to handle any data dependencies or linkages. This ensures clean and consistent data import.
 
 9. Select **Finish** to close the tool.
 
-## See also
+## Related information
 
 [Get Dynamics 365 Channel Integration Framework](../../v1/administer/get-channel-integration-framework.md)
 

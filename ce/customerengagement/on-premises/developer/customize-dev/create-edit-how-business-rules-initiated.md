@@ -2,7 +2,6 @@
 title: "Create or edit how business rules are initiated | MicrosoftDocs"
 description: "Business rules allow for defining logic that takes place in a form. Business rules provide an alternative to form scripts because they can be defined within a user interface without writing code."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

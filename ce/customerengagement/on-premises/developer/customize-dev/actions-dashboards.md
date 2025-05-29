@@ -2,7 +2,6 @@
 title: "Actions on dashboards (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about performing actions such as create, retrieve, update, or delete, on organization-owned and user-owned dashboards. "
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 
@@ -34,7 +33,7 @@ You can perform actions such as create, retrieve, update, or delete, on organiza
   
   After you update an organization-owned dashboard, you must publish the metadata changes to make it visible across the organization. You can use the <xref:Microsoft.Crm.Sdk.Messages.PublishAllXmlRequest> message or <xref:Microsoft.Crm.Sdk.Messages.PublishXmlRequest> message to publish the changes made for an organization-owned dashboard. For a sample code that demonstrates this, see [Sample: Create, Retrieve, Update and Delete (CRUD) a Dashboard](sample-create-retrieve-update-delete-dashboard.md).  
   
-  For a list of supported messages on the organization-owned dashboard entity, see [SystemForm Entity](../entities/systemform.md).  
+  For a list of supported messages on the organization-owned dashboard entity, see [SystemForm table](/power-apps/developer/data-platform/reference/entities/systemform).  
   
 ## Actions on a User-Owned Dashboard  
  You can perform the following actions on a user-owned dashboard (`UserForm`):  
@@ -47,7 +46,7 @@ You can perform actions such as create, retrieve, update, or delete, on organiza
   
 - Collaborate with other users and teams on specific areas by sharing a user-owned dashboard with them using the <xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>, <xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>, and <xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest> messages.  
   
-  For a list of supported messages on the user-owned dashboard entity, see [UserForm Entity](../entities/userform.md).  
+  For a list of supported messages on the user-owned dashboard entity, see [UserForm Entity](/power-apps/developer/data-platform/reference/entities/userform).  
   
 ### See also  
  [Dashboards for Microsoft Dynamics 365 Customer Engagement](analyze-data-with-dashboards.md)   
