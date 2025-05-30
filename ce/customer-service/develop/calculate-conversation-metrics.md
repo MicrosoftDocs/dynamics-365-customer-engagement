@@ -880,7 +880,7 @@ Avg. time to abandon (sec) = ​AVERAGEX (FactConversation, IF (FactConversation
 
 *Applies to Omnichannel historical dashboards.*
 
-Average conversation active time measures the actual time spent by an agent actively handling a conversation, either through chat or voice, across all sessions. It excludes passive durations like hold time or inactive wrap-up time.​
+Average conversation active time measures the actual time spent by an agent actively handling a conversation, either through chat or voice, across all sessions. Passive durations such as hold time or inactive wrap-up time aren't considered.​
 
 ### DAX query and Dataverse reference
 
