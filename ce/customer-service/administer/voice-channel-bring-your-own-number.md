@@ -67,7 +67,9 @@ In the **Bring your own number via Azure Direct Routing** section you can either
       - **Calling plans**: Select whether you can make or receive calls on the phone number.
          > [!Note]
          > SMS isn't supported with direct routing.
- ---
+
+---
+
 1. Select **Add number**.
 
 The new phone number appears in the **Phone numbers** list and is ready for setup. You can now [connect it to a voice workstream](voice-channel-inbound-calling.md), [configure outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling), or even [assign it to a customer service representative](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-representatives).
