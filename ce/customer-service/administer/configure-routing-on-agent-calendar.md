@@ -35,8 +35,8 @@ With shift bookings, the routing engine considers the shift activity type to det
 ## Enable shift-based routing
 
 1. In the site map of Copilot Service admin center, select **Workforce management** under **Operations**.
-1. In the **Shift based routing (preview)** section, select **Manage**.
-1. On the **Shift based routing (preview)** page, turn on the **Enable routing based on shift bookings** toggle, and then select **Save**.
+1. In the **Shift based routing** section, select **Manage**.
+1. On the **Shift based routing** page, turn on the **Enable routing based on shift bookings** toggle, and then select **Save**.
 
 ## Import external schedule data
 
