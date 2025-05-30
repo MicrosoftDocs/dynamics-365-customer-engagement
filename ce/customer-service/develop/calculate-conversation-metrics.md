@@ -854,7 +854,7 @@ DIVIDE(SUMX(FactConversation,IF(FactConversation[IsAbandoned] && NOT FactConvers
 
 *Applies to Omnichannel real-time dashboards.*
 
-Average time to abandon (sec) is used in contact center analytics to measure how long, on an average, a customer waits before abandoning a conversation, typically before being connected to a representative.​ This metric captures the average duration (in seconds).
+Average time to abandon (sec) measures how long, on an average, a customer waits before abandoning a conversation, before being connected to a representative.​ This metric captures the average duration (in seconds).
 
 ### DAX query and Dataverse reference
 
