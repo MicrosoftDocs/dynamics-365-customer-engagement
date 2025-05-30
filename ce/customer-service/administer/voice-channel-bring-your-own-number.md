@@ -46,7 +46,7 @@ Azure Communication Services direct routing enables you to connect your existing
       - **Country/Region**: Select the country or region the phone number belongs to.
       - **Number type**: Select whether toll-free or a local phone number.  
    1. The application displays the PhoneNumber.csv link once you specify the carrier, country or region, and number type. Download the CSV file and fill in the following details for all the phone numbers you want to add in bulk:
-      - **msdyn_phonenumber**: Indicates the phone number that you own and configured in your SBC. The maximum length of the phone number is 15 digits. When the phone number has greater than 10 digits, you must enclose the number in double quotes. For example, "123456789012345". You don't have to append "+" to the phone number. The application automatically appends "+" to the phone number when you upload the CSV file.
+      - **msdyn_phonenumber**: Shows the phone number that you own and configured in your SBC. The maximum length of the phone number is 15 digits. When the phone number has greater than 10 digits, you must enclose the number in double quotes. For example, "123456789012345". You don't need to add "+" to the phone number. The application adds "+" automatically when you upload the CSV file.
       - **msdyn_phoneinboundenabled**: Shows whether the phone number can receive calls. Set to **True** to receive calls on this number.
       - **msdyn_phoneoutboundenabled**: Indicates whether the phone number can make calls. Set to **True** if you want to make calls on this number.
     > [!NOTE]
