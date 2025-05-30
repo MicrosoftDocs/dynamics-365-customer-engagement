@@ -620,7 +620,7 @@ Avg. conversation time (sec) = ​AVERAGE (FactConversation[ConversationTimeInSe
 
 ### Related metric
 
-- **Conversation time**: Conversation time measures the time from when the customer initiates a request to when the service representative wraps up the conversation.
+- **Conversation time**: Conversation time is the duration from when a customer starts a request until a service representative completes the conversation.
 
 ## Average conversation wrap-up time
 
