@@ -38,7 +38,7 @@ Learn more in [conversation states](../use/oc-conversation-state.md#understand-c
 
 ### DAX query and Dataverse reference
 
-The following Data Analysis Expression (DAX) query and the corresponding Dataverse entities are used in the Power BI semantic model. Learn more in [DAX queries](https://learn.microsoft.com/dax/dax-queries).
+The following Data Analysis Expression (DAX) query and the corresponding Dataverse entities are used in the Power BI semantic model. Learn more in [DAX queries](/dax/dax-queries). 
 
 ### [Historical analytics](#tab/historicalpage)
 
