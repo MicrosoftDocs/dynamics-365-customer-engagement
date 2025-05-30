@@ -324,7 +324,7 @@ Avg. conversation first wait time (sec) =​
 
 *Applies to Omnichannel real-time and historical dashboards.*
 
-Average speed to answer measures how quickly the service team responds to customer requests. It's calculated by dividing the total queue wait time (after the issue is escalated from an AI agent to a service representative) by the number of handled conversations. A lower average speed to answer means faster issue resolution and a better customer experience.
+Average speed to answer measures how quickly the service team responds to customer requests. It's the total queue wait time (after the conversation is escalated from an AI agent to a service representative) divided by the number of handled conversations. A lower average speed to answer indicates a faster issue resolution and better customer experience.
 
 For an AI agent conversation, this metric measures the time from when the AI agent escalates the incoming conversation to when a service representative accepts it.
 
