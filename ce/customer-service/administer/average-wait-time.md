@@ -20,6 +20,8 @@ With this feature turned on, when customers are placed in the queue, they receiv
 
 For a specific queue, the system calculates the average wait time based on wait times from the previous conversations in the queue. An "exponential moving average” algorithm is used for calculating the current average wait time. The current average has higher weight but gradually moves closer to the wait time from the latest conversations. The wait time calculation runs in the background every 10 minutes. A minimum of 20 conversations are required before the customers can be shown the wait time. If the queue doesn't receive conversations for seven days, then the system resets the calculated average wait time. To restart the calculation and display the average wait times again, 20 conversations are required again.
 
+Thw time is an estimate, and doesn't change for the customer. The system displays the average wait time to the customer only if the wait is one minute or longer.
+
 > [!NOTE]
 > If skill-based routing is configured with exact skill match, the queue position displayed to a customer on the chat portal widget might not be accurate. Therefore, the assignment of a service representative to the customer might take longer than expected.
 
