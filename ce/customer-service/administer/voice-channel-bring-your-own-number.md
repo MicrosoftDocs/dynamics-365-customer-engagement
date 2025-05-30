@@ -53,7 +53,7 @@ Azure Communication Services direct routing enables you to connect your existing
     > We recommend that you upload 100 numbers at a time. 
 
     1. Select **Upload** and upload the CSV file. The application validates the file and displays a success message if the file is valid. If the file is invalid, it displays an error message with details about the errors in the file.
-    1. Select Import numbers. After the import is successful the phone numbers are displayed on the Phone numbers page.
+    1. Select **Import numbers**. After the import is successful, the phone numbers appear on the **Phone numbers** page.
     1. On the **Phone Numbers** page, select **Import status** to view the status of the import. 
   
   ### [Add number](#tab/addnumber)
