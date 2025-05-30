@@ -12,25 +12,25 @@ ms.custom: bap-template
 
 # Configure shift-based routing for work items
 
-Configure assignment rules to route and assign cases and conversations based on customer service representatives' (service representative or representative) shift bookings in the Dynamics 365 system or schedules imported from external systems. By verifying representatives' schedules in advance, organizations can route tasks to only those service representatives who are available, and reduce the risk of delays. 
+Configure assignment rules to route and assign cases and conversations based on shift bookings of customer service representatives (service representative or representative). The shift bookings can be in the Dynamics 365 system or schedules imported from external systems. By verifying representatives' schedules in advance, organizations can route tasks to only those  representatives who are available, and reduce the risk of delays. 
 
 You can incorporate shift assignments and time-off considerations into the routing process to foster an employee-centric approach, and streamline operational workflows for productivity and improved retention rates.
 
 > [!NOTE]
 > Routing based on external schedules isn't supported in the Government Community Cloud (GCC) or sovereign clouds.
 
-With shift bookings, the routing engine considers the shift activity type to determine if a representative can be considered for assignment. If the shift activity type associated with the shift booking is "non assignable", such as training or lunch break, then the representative isn't considered for assignment. Learn how to [configure shift activity types](/dynamics365/contact-center/administer/wfm-shift-activity-types).
+With shift bookings, the routing engine considers the shift activity type to determine if a representative can be considered for assignment. If the shift activity type associated with the shift booking is "non assignable" like training or lunch break, then the representative isn't considered for assignment. Learn how to [configure shift activity types](/dynamics365/contact-center/administer/wfm-shift-activity-types).
 
 ## Prerequisites
 
-- [Workforce Management for Customer Service](configure-agent-calendar.md#enable-workforce-management) is enabled in your environment, or a non-Microsoft adapter is configured to import representative schedules from an external system. If you're importing external schedules using the non-Microsoft adapter, opt in every representative ([bookableresource](../develop/reference/entities/bookableresource.md)) into shift-based routing by setting the **msdyn_generatecalendarfromshift** column of the corresponding bookableresource entry to **True**.
+- [Workforce Management for Customer Service](configure-agent-calendar.md#enable-workforce-management) is enabled in your environment, or a non-Microsoft adapter is configured to import representative schedules from an external system. If you're importing external schedules using the non-Microsoft adapter, opt in every representative ([bookableresource](../develop/reference/entities/bookableresource.md)) into shift-based routing by setting the **msdyn_generatecalendarfromshift** column of the corresponding `bookableresource` entry to **True**.
 - [Shift bookings](/dynamics365/contact-center/use/wfm-shift-plan) are created in the Dynamics 365 system.
 - [Unified routing](provision-unified-routing.md) is enabled and set up.
 - [Workstreams](create-workstreams.md) and [advanced queues](queues-omnichannel.md) are set up.
 - [Custom assignment method](configure-assignment-rules.md) is configured for the queue.
-- You must have a third-party adapter configured to import representative schedules from an external system. Without an adapter in place, external schedules can't be surfaced in the representative calendar, and representatives can't view their schedules in Dynamics 365 Customer Service.
+- You must have a non-Microsoft adapter configured to import representative schedules from an external system. Without an adapter in place, external schedules can't be surfaced in the representative calendar, and representatives can't view their schedules in Dynamics 365 Customer Service.
 - Shift-based routing is enabled.
-- When you are importing external schedules using the third-party adapter, opt in every representative ([bookableresource](../develop/reference/entities/bookableresource.md)) into shift-based routing by setting the **msdyn_generatecalendarfromshift** column of the corresponding bookableresource entry to **True**.
+- When you're importing external schedules using the non-Microsoft adapter, opt in every representative ([`bookable resource`](../develop/reference/entities/bookableresource.md)) into shift-based routing by setting the **msdyn_generatecalendarfromshift** column of the corresponding `bookableresource` entry to **True**.
 
 ## Enable shift-based routing
 
@@ -48,7 +48,7 @@ Alternatively, you can use [Organization Service](/power-apps/developer/data-pla
 
 1. In the site map of Copilot Service admin center, select **Queues**, and then select **Manage** in the **Advanced queues** area.
 1. Select the queue that you want to configure the assignment rule for, select the [custom assignment](configure-assignment-rules.md) method, and select **Edit**.
-1. Create a rule or modify an existing rule and do the following:
+1. Create a rule or modify an existing rule and do the following steps:
     1. In **Conditions**, select **Add row**, and then select **Calendar schedule**. The **Is working** value is automatically selected.
     1. Save and close.
 
@@ -60,7 +60,7 @@ View the [conversation diagnostics in Azure Application Insights](configure-conv
 
 ## How shift-based routing works
 
-The imported schedules from external systems are represented in Dynamics 365 as "bookings". You can also create shift bookings natively in the Dynamics 365 system in Customer Service. The [bookableresourcebooking](../develop/reference/entities/bookableresourcebooking.md) entity stores this information. Shift bookings are added as activities to a shift plan that's assigned to a representative. The representative is recorded as a bookable resource and each of them with one or more bookings has a corresponding entry in the [bookableresource](../develop/reference/entities/bookableresource.md) entity.
+The imported schedules from external systems are represented in Dynamics 365 as "bookings". You can also create shift bookings natively in the Dynamics 365 system in Customer Service. The [bookableresourcebooking](../develop/reference/entities/bookableresourcebooking.md) entity stores this information. Shift bookings are added as activities to a shift plan assigned to a representative. The representative is recorded as a bookable resource and each of them with one or more bookings has a corresponding entry in the [bookableresource](../develop/reference/entities/bookableresource.md) entity.
 
 Shift-based routing is applicable only when booking-based routing is enabled at organization level for all queues.
 
