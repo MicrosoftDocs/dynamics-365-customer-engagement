@@ -124,6 +124,7 @@ For a selected workstream, expand **Advanced settings** to configure the followi
 - [Context variables](manage-context-variables.md)
 - [Smart assist agents](../develop/smart-assist-bot.md)
 - [Quick replies](create-quick-replies.md)
+- [Configure live conversation counter to view customer wait time](configure-live-conv-counter.md)
 
 ### Add an agent to a workstream
 
