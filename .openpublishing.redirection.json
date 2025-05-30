@@ -26059,6 +26059,21 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/introduction-sales-template-apps.md",
+      "redirect_url": "/dynamics365/sales/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/configure-sales-template-apps.md",
+      "redirect_url": "/dynamics365/sales/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/customize-template-apps.md",
+      "redirect_url": "/dynamics365/sales/overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales-enterprise/help-hub.md",
       "redirect_url": "/dynamics365/sales/help-hub",
       "redirect_document_id": "false"

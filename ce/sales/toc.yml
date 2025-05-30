@@ -707,14 +707,6 @@ items:
               href: /powerapps/user/track-your-progress-with-dashboard-and-charts?context=/dynamics365/context/sales-context
         - name: Add reporting features to your app
           href: /powerapps/maker/model-driven-apps/add-reporting-to-app?context=/dynamics365/context/sales-context
-        - name: PowerBI Templates
-          items:
-            - name: Analyze your sales data using Power BI template apps
-              href: introduction-sales-template-apps.md
-            - name: Configure Power BI template apps to work with Dynamics 365 Sales
-              href: configure-sales-template-apps.md
-            - name: Customize Power BI template apps for Dynamics 365 Sales
-              href: customize-template-apps.md
         - name: Enable sales usage reports
           href: enable-sales-usage-reports.md
     - name: Integrate LinkedIn Sales Navigator
