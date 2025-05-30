@@ -1,18 +1,18 @@
 ---
-title: Integrate a third-party IVR system with voice channel
-description: Use this article to understand how you can integrate third-party IVR systems with the voice channel and set up contextual call transfer via Azure direct routing.
-ms.date: 05/05/2024
+title: Integrate a non-Microsoft IVR system with voice channel
+description: Use this article to understand how you can integrate non-Microsoft IVR systems with the voice channel and set up contextual call transfer via Azure direct routing.
+ms.date: 05/15/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ---
 
-# Integrate a third-party IVR system with voice channel
+# Integrate a non-Microsoft IVR system with voice channel
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-[Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing) lets you integrate a third-party interactive voice response (IVR) system with the voice channel, and perform a contextual call transfer between them.
+[Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing) lets you integrate a non-Microsoft interactive voice response (IVR) system with the voice channel, and perform a contextual call transfer between them.
 
 ## Prerequisites
 
@@ -23,13 +23,13 @@ Before you proceed with this section, you must be familiar with the following co
 
 ## Set up contextual call transfer using Azure direct routing
 
-This section lists the high-level steps you must perform to enable contextual call transfer between a third-party IVR system and the voice channel.
+This section lists the high-level steps you must perform to enable contextual call transfer between a non-Microsoft IVR system and the voice channel.
 
-1. Set up Azure direct routing and connect a Session Border Controller (SBC), which is linked to the third-party IVR system, with Azure Communication Services resource, which is in turn connected to the application.
+1. Set up Azure direct routing and connect a Session Border Controller (SBC), which is linked to the non-Microsoft IVR system, with Azure Communication Services resource, which is in turn connected to the application.
 
-1. Follow the steps in the section [Bring your own phone number](voice-channel-bring-your-own-number.md) to register the phone number that’s assigned to the third-party IVR system with the application.
+1. Follow the steps in the section [Bring your own phone number](voice-channel-bring-your-own-number.md) to register the phone number that’s assigned to the non-Microsoft IVR system with the application.
 
-1. To transfer a call from the IVR system, issue an SIP (Session Initiation Protocol) INVITE request to the Azure Communication Services resource that'll transfer the call to the Azure resource that's connected to th application.
+1. To transfer a call from the IVR system, issue an SIP (Session Initiation Protocol) INVITE request to the Azure Communication Services resource that will transfer the call to the Azure resource that's connected to th application.
 
 1. To include context in the payload, populate the SIP UUI (User-to-User Information) header with context data: "User-to-User": "param1=value1;param2=value2". For SIP UUI header with context data, the following formats are supported:
 
@@ -53,10 +53,10 @@ This section lists the high-level steps you must perform to enable contextual ca
     
     The SIP UUI payload is automatically converted into context data that can be used in the voice channel for routing and to show relevant information to the customer service representative.
 
-You can now call the phone number assigned to the third-party IVR system and achieve a contextual call transfer with the voice channel.
+You can now call the phone number assigned to the non-Microsoft IVR system and achieve a contextual call transfer with the voice channel.
 
 > [!NOTE]
-> Call record and transcriptions from the third-party IVR call with the customer aren't available for service representatives.
+> Call record and transcriptions from the non-Microsoft IVR call with the customer aren't available for service representatives.
 
 ### Related information
 

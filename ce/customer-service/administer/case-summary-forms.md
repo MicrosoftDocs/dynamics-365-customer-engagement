@@ -70,7 +70,7 @@ Go to **Copilot Service admin center** > **Productivity** > **Summaries** page a
 
 ```
 
-### msdyn_excludefromslist
+### msdyn_excludefromlist
 
 Exclude specific forms from displaying summaries. You can specify the form ID of the forms that shouldn't  display summaries. 
 

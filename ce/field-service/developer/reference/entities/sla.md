@@ -2,8 +2,8 @@
 title: "SLA table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the SLA table/entity with Microsoft Dynamics 365 Field Service."
 ms.topic: generated-reference
-author: m-hartmann
-ms.author: mhart
+author: puneet-singh1
+ms.author: puneetsingh
 search.audienceType: 
   - developer
 ---
@@ -335,11 +335,11 @@ Changes from [ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer/data-p
 |10386|**Power Pages Site AI Feedback**|
 |10391|**Catalog Submission Files**|
 |10392|**Package Submission Store**|
-|10393|**Processor Registration**|
+|10393|**processor registration**|
 |10394|**signal**|
-|10395|**Signal Registration**|
+|10395|**signal registration**|
 |10396|**trait**|
-|10397|**Trait Registration**|
+|10397|**trait registration**|
 |10398|**List Operation**|
 |10399|**Marketing Form Display Attributes**|
 |10400|**Database Version**|
@@ -442,8 +442,8 @@ Changes from [ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer/data-p
 |10523|**Productivity pane configuration**|
 |10524|**Pane tab configuration**|
 |10525|**Pane tool configuration**|
-|10527|**Agent script**|
-|10528|**Agent script step**|
+|10527|**Script**|
+|10528|**Script step**|
 |10530|**Action Input Parameter**|
 |10531|**Action Output Parameter**|
 |10532|**Macro Action Template**|
@@ -812,7 +812,7 @@ Changes from [ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer/data-p
 |10909|**Bot Session**|
 |10910|**Automated action rule**|
 |10911|**Automated action rules mapping**|
-|10912|**Agent Copilot Setting**|
+|10912|**Representative Copilot Setting**|
 |10913|**Copilot Summarization Setting**|
 |10914|**intent**|
 |10915|**intentattribute**|
@@ -834,7 +834,7 @@ Changes from [ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer/data-p
 |10931|**Case Suggestion**|
 |10932|**Case Suggestion Request Payload**|
 |10933|**Case Suggestions Data Souce**|
-|10934|**Agent Preference For Copilot**|
+|10934|**User Preference For Copilot**|
 |10935|**Copilot assisted case form fill settings**|
 |10936|**Copilot Interaction**|
 |10937|**Copilot Interaction Data**|
@@ -866,7 +866,7 @@ Changes from [ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer/data-p
 |10963|**Forecast**|
 |10964|**Knowledge analytics**|
 |10965|**Model Customization analytics**|
-|10966|**UR RecordRouting Real-time Analytics**|
+|10966|**Real-time analytics for record routing**|
 |10967|**Forecast Summary and Setting**|
 |10968|**Keywords Description Suggestion Setting**|
 |10969|**Conversation Summary Interaction**|
@@ -1041,6 +1041,71 @@ Changes from [ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer/data-p
 |11184|**Sales Copilot Insight Card State**|
 |11185|**Email analytics**|
 |11308|**LOB Backfill Status**|
+|11309|**msdyn_historicalcaseharvestbatch**|
+|11310|**msdyn_historicalcaseharvestrun**|
+|11311|**Knowledge Harvest Job Record**|
+|11312|**Plan**|
+|11313|**Plan Artifact**|
+|11314|**Plan Attachment**|
+|11323|**Agent Group Language**|
+|11324|**Agent Group Region**|
+|11325|**Agent Language**|
+|11326|**Agent Region**|
+|11327|**Language Hierarchy**|
+|11328|**Region**|
+|11338|**TextDataRecordsIndexingStatus**|
+|11347|**Case Management Agent for case closure Activity**|
+|11348|**Case Management Agent for case closure Monitoring**|
+|11349|**Template Context Variable**|
+|11350|**Template Variable Batch Operation**|
+|11352|**Data Workspace**|
+|11361|**Entity Cluster Configuration**|
+|11367|**Sales Copilot Job Status**|
+|11369|**Workflow Metadata**|
+|11370|**Lead Intelligence Insight**|
+|11371|**Lead Intelligence Insight Entity Link**|
+|11372|**Activity Mapping**|
+|11379|**Business Process**|
+|11380|**Flow Aggregation**|
+|11381|**FederatedKnowledgeMetadataRefresh**|
+|11382|**Work Stream Bot Mapping**|
+|11383|**Conversation disposition code map**|
+|11384|**OC Disposition Code**|
+|11385|**Inbox Personalized Configuration**|
+|11386|**Session Analytics**|
+|11387|**Sales Copilot Knowledge Base**|
+|11388|**Case sentiment settings**|
+|11389|**Data Processing Event**|
+|11390|**Saving Rule**|
+|11391|**Tag**|
+|11392|**Tagged Flow Session**|
+|11393|**Tagged Process**|
+|11394|**Last Agent**|
+|11395|**Agent Group Matching Criteria**|
+|11396|**Agent Matching Criteria**|
+|11397|**Matching Criteria**|
+|11398|**Conversation Matching Criteria**|
+|11399|**FederatedKnowledgeCitation**|
+|11400|**Product Map**|
+|11401|**CHT App Profile Configuration**|
+|11402|**Live Conversation Counter Condition**|
+|11403|**AI Model Catalog**|
+|11404|**AI Evaluation Configuration**|
+|11405|**AI Evaluation Run**|
+|11406|**AI Test Case**|
+|11407|**AI Test Case Document**|
+|11408|**AI Test Case Input**|
+|11409|**AI Test Run**|
+|11410|**AI Test Run Batch**|
+|11411|**UnstructuredFileSearchEntity**|
+|11412|**UnstructuredFileSearchRecord**|
+|11413|**Sensitivity Label**|
+|11414|**Email Address Configuration**|
+|11415|**indexedtrait**|
+|11422|**Approval Process**|
+|11423|**Approval Stage Approval**|
+|11424|**Approval Stage Condition**|
+|11425|**Approval Stage Order**|
 
 ## One-to-Many relationships
 

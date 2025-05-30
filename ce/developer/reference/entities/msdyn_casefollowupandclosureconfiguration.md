@@ -70,9 +70,11 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_followupemailattributes](#BKMK_msdyn_followupemailattributes)
 - [msdyn_followuptrigger](#BKMK_msdyn_followuptrigger)
 - [msdyn_followupwaittimes](#BKMK_msdyn_followupwaittimes)
+- [msdyn_isfullautonomous](#BKMK_msdyn_isfullautonomous)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_numoffollowups](#BKMK_msdyn_numoffollowups)
 - [msdyn_preresolutionperiod](#BKMK_msdyn_preresolutionperiod)
+- [msdyn_ruleorder](#BKMK_msdyn_ruleorder)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [statecode](#BKMK_statecode)
 - [statuscode](#BKMK_statuscode)
@@ -240,6 +242,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|1048576|
 
+### <a name="BKMK_msdyn_isfullautonomous"></a> msdyn_isfullautonomous
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Is Full Autonomous**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isfullautonomous`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_casefollowupandclosureconfiguration_msdyn_isfullautonomous`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
 |Property|Value|
@@ -294,6 +312,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|2147483647|
 |MinValue|-2147483648|
+
+### <a name="BKMK_msdyn_ruleorder"></a> msdyn_ruleorder
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Rule Order**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_ruleorder`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|1|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
@@ -687,12 +719,38 @@ One-To-Many Relationship: [organization organization_msdyn_casefollowupandclosur
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_autocaseclosureagentactivity_msdyn_casefollowupandclosureconfigurationid_configurationid](#BKMK_msdyn_autocaseclosureagentactivity_msdyn_casefollowupandclosureconfigurationid_configurationid)
+- [msdyn_autocaseclosureagentmonitoring_msdyn_casefollowupandclosureconfiguration_configurationid](#BKMK_msdyn_autocaseclosureagentmonitoring_msdyn_casefollowupandclosureconfiguration_configurationid)
 - [msdyn_casefollowupandclosureconfiguration_AsyncOperations](#BKMK_msdyn_casefollowupandclosureconfiguration_AsyncOperations)
 - [msdyn_casefollowupandclosureconfiguration_BulkDeleteFailures](#BKMK_msdyn_casefollowupandclosureconfiguration_BulkDeleteFailures)
 - [msdyn_casefollowupandclosureconfiguration_MailboxTrackingFolders](#BKMK_msdyn_casefollowupandclosureconfiguration_MailboxTrackingFolders)
 - [msdyn_casefollowupandclosureconfiguration_PrincipalObjectAttributeAccesses](#BKMK_msdyn_casefollowupandclosureconfiguration_PrincipalObjectAttributeAccesses)
 - [msdyn_casefollowupandclosureconfiguration_ProcessSession](#BKMK_msdyn_casefollowupandclosureconfiguration_ProcessSession)
 - [msdyn_casefollowupandclosureconfiguration_SyncErrors](#BKMK_msdyn_casefollowupandclosureconfiguration_SyncErrors)
+
+### <a name="BKMK_msdyn_autocaseclosureagentactivity_msdyn_casefollowupandclosureconfigurationid_configurationid"></a> msdyn_autocaseclosureagentactivity_msdyn_casefollowupandclosureconfigurationid_configurationid
+
+Many-To-One Relationship: [msdyn_autocaseclosureagentactivity msdyn_autocaseclosureagentactivity_msdyn_casefollowupandclosureconfigurationid_configurationid](msdyn_autocaseclosureagentactivity.md#BKMK_msdyn_autocaseclosureagentactivity_msdyn_casefollowupandclosureconfigurationid_configurationid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_autocaseclosureagentactivity`|
+|ReferencingAttribute|`msdyn_casefollowupandclosureconfigurationid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_autocaseclosureagentactivity_msdyn_casefollowupandclosureconfigurationid_configurationid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_autocaseclosureagentmonitoring_msdyn_casefollowupandclosureconfiguration_configurationid"></a> msdyn_autocaseclosureagentmonitoring_msdyn_casefollowupandclosureconfiguration_configurationid
+
+Many-To-One Relationship: [msdyn_autocaseclosureagentmonitoring msdyn_autocaseclosureagentmonitoring_msdyn_casefollowupandclosureconfiguration_configurationid](msdyn_autocaseclosureagentmonitoring.md#BKMK_msdyn_autocaseclosureagentmonitoring_msdyn_casefollowupandclosureconfiguration_configurationid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_autocaseclosureagentmonitoring`|
+|ReferencingAttribute|`msdyn_casefollowupandclosureconfigurationid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_autocaseclosureagentmonitoring_msdyn_casefollowupandclosureconfiguration_configurationid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_casefollowupandclosureconfiguration_AsyncOperations"></a> msdyn_casefollowupandclosureconfiguration_AsyncOperations
 

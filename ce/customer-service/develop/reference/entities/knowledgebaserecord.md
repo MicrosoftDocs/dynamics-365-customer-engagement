@@ -22,6 +22,9 @@ Metadata of knowledge base (KB) articles associated with Microsoft Dynamics 365 
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [knowledgebaserecord_msdyn_bookingalerts](#BKMK_knowledgebaserecord_msdyn_bookingalerts)
+- [knowledgebaserecord_msdyn_ocoutboundmessages](#BKMK_knowledgebaserecord_msdyn_ocoutboundmessages)
+
 ### <a name="BKMK_knowledgebaserecord_msdyn_bookingalerts"></a> knowledgebaserecord_msdyn_bookingalerts
 
 Many-To-One Relationship: [msdyn_bookingalert knowledgebaserecord_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_knowledgebaserecord_msdyn_bookingalerts)
@@ -32,6 +35,18 @@ Many-To-One Relationship: [msdyn_bookingalert knowledgebaserecord_msdyn_bookinga
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`knowledgebaserecord_msdyn_bookingalerts`|
 |IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_knowledgebaserecord_msdyn_ocoutboundmessages"></a> knowledgebaserecord_msdyn_ocoutboundmessages
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage knowledgebaserecord_msdyn_ocoutboundmessages](msdyn_ocoutboundmessage.md#BKMK_knowledgebaserecord_msdyn_ocoutboundmessages)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`knowledgebaserecord_msdyn_ocoutboundmessages`|
+|IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 

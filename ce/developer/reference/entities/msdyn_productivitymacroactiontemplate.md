@@ -225,7 +225,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Sets the value of macro connector**|
-|DisplayName|**FUNDU_MACRO_CONNECTOR**|
+|DisplayName|**FUNDU\_MACRO\_CONNECTOR**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_macroconnector`|

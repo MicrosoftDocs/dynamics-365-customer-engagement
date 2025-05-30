@@ -1,7 +1,7 @@
 ---
 title: Manage text message conversations
 description: Manage customer conversations through incoming and outgoing text messages for your sales outreach.
-ms.date: 04/23/2024
+ms.date: 05/21/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag

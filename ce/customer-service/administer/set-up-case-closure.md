@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: get-started 
-ms.date: 03/31/2025
+ms.date: 05/26/2025
 ms.custom: bap-template 
 ---
 
@@ -27,11 +27,12 @@ Administrators must have the CSR Manager or System Administrator role.
 
 ## Configure autonomous case follow-up and closure
 
-Perform the following steps to set up autonomous case follow-up and closure:
+Perform the following steps in Copilot Service admin center to set up autonomous case follow-up and closure:
 
+1. Select **Case settings** in **Customer support**. The **Case settings** page appears.
 1. On the **Case settings** page, select **Manage** for **Case Management Agent**.
-2. On the **Case Management Agent** page, select **Autonomous case follow-up and closure (preview)**.
-3. On the page that appears, select **Turn on the case follow-up and closure automation**.
+1. On the **Case Management Agent** page, select **Autonomous case follow-up and closure (preview)**.
+1. On the page that appears, select **Turn on the case follow-up and closure automation**.
 1. Select **Add** to create a new rule for case follow-up and closure.
 1. In **Rules**, specify the following information. The AI agent evaluates the rules and when the conditions match, initiates the follow-up and closure process.
    - **Rule name**
@@ -58,17 +59,17 @@ In Power Apps, make sure that the **CSCaseClosure Agent Flow**, **CSCaseFollowup
 1. The default Cloud flows in the organization are displayed. Select edit for each of **CSCaseClosure Agent Flow**, **CSCaseFollowup Agent flow**, and **CSCaseClosure Representative Flow**. The connection status of the flow should be **Connected**.
 
 
-:::image type="content" source="../media/powerapps-flow-status.png" alt-text="screenshot of connection status of flow.":::
+:::image type="content" source="../media/powerapps-flow-status.png" alt-text="Screenshot of connection status of flow.":::
 
 ## Example
 
-The AI agent should automatically initiate the case follow-up process for cases related to **Contoso Coffee** issues where the case age is greater than 7 days and the service representative sets the case **Status Reason** to **On Hold**. The agent should send three follow-up emails every 48 hours. If the customer doesn't respond after the third follow-up, the service representative can close the case.
+The AI agent should automatically initiate the case follow-up process for cases related to **Contoso Coffee** issues where the case age is greater than seven days and the service representative sets the case **Status Reason** to **On Hold**. The agent should send three follow-up emails every 48 hours. If the customer doesn't respond after the third follow-up, the service representative can close the case.
 
 **Configuration Example:**
 - **Rule:** Contoso Coffee follow-up and closure  
 - **Condition Configuration:**  
   - Case Title equals "Contoso Coffee"  
-  - **AND** Case Age greater than 7 days   
+  - **AND** Case Age greater than seven days   
   - **Follow-up trigger:** Status Reason = "Awaiting "  
   - **Number of follow-ups:** 3  
   - **Follow-up wait times:**  

@@ -26,43 +26,43 @@ For example, if you plan to remove omnichannel solutions from your organization,
 You must not remove the following out-of-the-box solutions that come preinstalled in your Customer Service organization.
 - msdyn_UnifiedRoutingForEntity
 - UnifiedRouting
-  - MLDecisionEngine
-  - msdyn_OmnichannelSharedBase
-  - msdyn_OmnichannelBase
-  - msdyn_OmnichannelBaseApp
-  - msdyn_D365CTQMIProd
-  - msdyn_D365CTQMITest
-  - msdyn_D365CTQMIGCC
-  - OCBaseURBase
-  - AgentAvailabilityStatus
-  - AgentGroupManager
-  - AssignmentSQLCacheSyncPluginManager
-  - msdyn_OmnichannelSBR
-  - msdyn_OmnichannelSBRPatch
-  - OCISBR
-  - OCIER
-  - OCSR
-  - OOBLanguageAndRegion
-  - msdyn_CCASentimentRoutingAI
-  - msdyn_ConversationInsight
-  - msdyn_ProductivityMacrosApplicationOC
-  - msdyn_ContactCenterManagementPermissions__Public
-  - msdyn_OmnichannelBotEnabler
-  - msdyn_OmnichannelBotExtension
-  - msdyn_OmnichannelConversationExtension
-  - msdyn_OmnichannelPrime
-  - msdyn_OmnichannelComponentDeprecation
-  - msdyn_OmnichannelPrimeAnchor
-  - msdyn_OmnichannelAutomatedMessages
-  - msdyn_OmnichannelChatConfiguration
-  - msdyn_OmnichannelSpamConfig
-  - msdyn_OmnichannelRichmessages
-  - msdyn_OmnichannelPaymentConfig
-  - msdyn_OmnichannelAuthenticationConfig
-  - msdyn_OmnichannelBotChannelConfiguration
-  - msdyn_OmnichannelMessaging
-  - msdyn_ContactCenterEnablementPermissions__Public
-  - msdyn_ContactCenterEnablement
+- MLDecisionEngine
+- msdyn_OmnichannelSharedBase
+- msdyn_OmnichannelBase
+- msdyn_OmnichannelBaseApp
+- msdyn_D365CTQMIProd
+- msdyn_D365CTQMITest
+- msdyn_D365CTQMIGCC
+- OCBaseURBase
+- AgentAvailabilityStatus
+- AgentGroupManager
+- AssignmentSQLCacheSyncPluginManager
+- msdyn_OmnichannelSBR
+- msdyn_OmnichannelSBRPatch
+- OCISBR
+- OCIER
+- OCSR
+- OOBLanguageAndRegion
+- msdyn_CCASentimentRoutingAI
+- msdyn_ConversationInsight
+- msdyn_ProductivityMacrosApplicationOC
+- msdyn_ContactCenterManagementPermissions__Public
+- msdyn_OmnichannelBotEnabler
+- msdyn_OmnichannelBotExtension
+- msdyn_OmnichannelConversationExtension
+- msdyn_OmnichannelPrime
+- msdyn_OmnichannelComponentDeprecation
+- msdyn_OmnichannelPrimeAnchor
+- msdyn_OmnichannelAutomatedMessages
+- msdyn_OmnichannelChatConfiguration
+- msdyn_OmnichannelSpamConfig
+- msdyn_OmnichannelRichmessages
+- msdyn_OmnichannelPaymentConfig
+- msdyn_OmnichannelAuthenticationConfig
+- msdyn_OmnichannelBotChannelConfiguration
+- msdyn_OmnichannelMessaging
+- msdyn_ContactCenterEnablementPermissions__Public
+- msdyn_ContactCenterEnablement
 
 ## Uninstall solutions
 
@@ -80,10 +80,10 @@ You must not remove the following out-of-the-box solutions that come preinstalle
     |-------|-------------------------------------------------- |-------|
     |	1	| `ProductivityToolsAnchor`	                        |		|
     |	2	| `msdyn_OmnichannelProductivityToolsSettings`	    |		|
-    |	3	| `msdyn_Smartassist_managed`                    	| Required for Customer Service Hub and Customer Service workspace |
+    |	3	| `msdyn_Smartassist_managed`                    	| Required for Customer Service Hub and Copilot Service workspace |
     |	4	| `msdyn_ProductivityPaneControl_managed`	        |		|
     |	5	| `msdyn_AgentGuidance_managed`	                    |		|
-    |	6	| `msdyn_Agentscript_managed`	                    | Required for Customer Service Hub and Customer Service workspace |
+    |	6	| `msdyn_Agentscript_managed`	                    | Required for Customer Service Hub and Copilot Service workspace |
     |	7	| `OmnichannelPrimeChatAnchor`                    	|		|
     |	8	| `OmnichannelPrimeSMSAnchor`	                    |		|
     |	9	| `OmnichannelPrimeFacebookAnchor` 	                |		|
@@ -113,7 +113,7 @@ You must not remove the following out-of-the-box solutions that come preinstalle
 
 ## Uninstall Omnichannel historical analytics solutions
 
-1. Disable Omnichannel historical analytics in the Insights section of Customer Service admin center. Learn more in [Configure Omnichannel historical analytics reports](/dynamics365/customer-service/oc-historical-analytics-reports).
+1. Disable Omnichannel historical analytics in the Insights section of Copilot Service admin center. Learn more in [Configure Omnichannel historical analytics reports](/dynamics365/customer-service/oc-historical-analytics-reports).
 
 2. On the **Solutions** page, select and uninstall the following solutions, one at a time, in the following order:
    1. `msdyn_InsightsAnalyticsOCConfiguration`

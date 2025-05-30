@@ -1,6 +1,6 @@
 ---
-title: "Agent Copilot Setting (msdyn_agentcopilotsetting) table/entity reference (Microsoft Dynamics 365)"
-description: "Includes schema information and supported messages for the Agent Copilot Setting (msdyn_agentcopilotsetting) table/entity with Microsoft Dynamics 365."
+title: "Representative Copilot Setting (msdyn_agentcopilotsetting) table/entity reference (Microsoft Dynamics 365)"
+description: "Includes schema information and supported messages for the Representative Copilot Setting (msdyn_agentcopilotsetting) table/entity with Microsoft Dynamics 365."
 ms.topic: generated-reference
 author: JimDaly
 ms.author: jdaly
@@ -8,13 +8,13 @@ search.audienceType:
   - developer
 ---
 
-# Agent Copilot Setting (msdyn_agentcopilotsetting) table/entity reference (Microsoft Dynamics 365)
+# Representative Copilot Setting (msdyn_agentcopilotsetting) table/entity reference (Microsoft Dynamics 365)
 
 
 
 ## Messages
 
-The following table lists the messages for the Agent Copilot Setting (msdyn_agentcopilotsetting) table.
+The following table lists the messages for the Representative Copilot Setting (msdyn_agentcopilotsetting) table.
 Messages represent operations that can be performed on the table. They may also be events.
 
 | Name <br />Is Event? |Web API Operation |SDK for .NET |
@@ -40,12 +40,12 @@ Messages represent operations that can be performed on the table. They may also 
 
 ## Properties
 
-The following table lists selected properties for the Agent Copilot Setting (msdyn_agentcopilotsetting) table.
+The following table lists selected properties for the Representative Copilot Setting (msdyn_agentcopilotsetting) table.
 
 |Property|Value|
 | --- | --- |
-| **DisplayName** | **Agent Copilot Setting** |
-| **DisplayCollectionName** | **Agent Copilot Settings** |
+| **DisplayName** | **Representative Copilot Setting** |
+| **DisplayCollectionName** | **Representative Copilot Settings** |
 | **SchemaName** | `msdyn_agentcopilotsetting` |
 | **CollectionSchemaName** | `msdyn_agentcopilotsettings` |
 | **EntitySetName** | `msdyn_agentcopilotsettings`|
@@ -62,6 +62,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
+- [msdyn_adminprompts](#BKMK_msdyn_adminprompts)
+- [msdyn_agentassistanyentityconfig](#BKMK_msdyn_agentassistanyentityconfig)
 - [msdyn_agentassistenabled](#BKMK_msdyn_agentassistenabled)
 - [msdyn_agentassistkbfilter](#BKMK_msdyn_agentassistkbfilter)
 - [msdyn_agentassistkbfilterlive](#BKMK_msdyn_agentassistkbfilterlive)
@@ -88,6 +90,10 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_copilotemailenabledmode](#BKMK_msdyn_copilotemailenabledmode)
 - [msdyn_copilotembedsettings](#BKMK_msdyn_copilotembedsettings)
 - [msdyn_copilotenabled](#BKMK_msdyn_copilotenabled)
+- [msdyn_copilotrecommendedemailtemplatesenabled](#BKMK_msdyn_copilotrecommendedemailtemplatesenabled)
+- [msdyn_csplugindefaultonstatus](#BKMK_msdyn_csplugindefaultonstatus)
+- [msdyn_defaultonoptout](#BKMK_msdyn_defaultonoptout)
+- [msdyn_disablecopilotengagedanalytics](#BKMK_msdyn_disablecopilotengagedanalytics)
 - [msdyn_displayname](#BKMK_msdyn_displayname)
 - [msdyn_dvcopilotstatus](#BKMK_msdyn_dvcopilotstatus)
 - [msdyn_dynamicfilterconfig](#BKMK_msdyn_dynamicfilterconfig)
@@ -98,6 +104,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_emailassistkbfilterlive](#BKMK_msdyn_emailassistkbfilterlive)
 - [msdyn_emailassisturl](#BKMK_msdyn_emailassisturl)
 - [msdyn_emailsentimentenabled](#BKMK_msdyn_emailsentimentenabled)
+- [msdyn_emailtocasemanualflowenabled](#BKMK_msdyn_emailtocasemanualflowenabled)
+- [msdyn_embeddablecopilotwidgetconfiguration](#BKMK_msdyn_embeddablecopilotwidgetconfiguration)
+- [msdyn_followuppromptsenabled](#BKMK_msdyn_followuppromptsenabled)
 - [msdyn_interactionsenabled](#BKMK_msdyn_interactionsenabled)
 - [msdyn_isdeterministicknowledgeenabled](#BKMK_msdyn_isdeterministicknowledgeenabled)
 - [msdyn_isdvcopilotenabled](#BKMK_msdyn_isdvcopilotenabled)
@@ -112,6 +121,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_knowledgeconnectorpublishstatus](#BKMK_msdyn_knowledgeconnectorpublishstatus)
 - [msdyn_lasttrainingstatus](#BKMK_msdyn_lasttrainingstatus)
 - [msdyn_lasttrainingtime](#BKMK_msdyn_lasttrainingtime)
+- [msdyn_logknowledgesnippet](#BKMK_msdyn_logknowledgesnippet)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_pluginconfiguration](#BKMK_msdyn_pluginconfiguration)
 - [msdyn_proactivepromptsenabled](#BKMK_msdyn_proactivepromptsenabled)
@@ -155,12 +165,46 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|SystemRequired|
 |Type|ManagedProperty|
 
+### <a name="BKMK_msdyn_adminprompts"></a> msdyn_adminprompts
+
+|Property|Value|
+|---|---|
+|Description|**Stores admin configured prompts and description**|
+|DisplayName|**Admin prompts**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_adminprompts`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
+
+### <a name="BKMK_msdyn_agentassistanyentityconfig"></a> msdyn_agentassistanyentityconfig
+
+|Property|Value|
+|---|---|
+|Description|**Stores custom entities configurations for agent assist.**|
+|DisplayName|**Agent assist any entity configuration**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_agentassistanyentityconfig`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
+
 ### <a name="BKMK_msdyn_agentassistenabled"></a> msdyn_agentassistenabled
 
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**Agent Assist Enabled**|
+|DisplayName|**Ask A Question Enabled**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_agentassistenabled`|
@@ -176,7 +220,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**Agent Assist KB Filter**|
+|DisplayName|**Representative Assist KB Filter**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_agentassistkbfilter`|
@@ -193,7 +237,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**Agent Assist KB Filter Live**|
+|DisplayName|**Representative Assist KB Filter Live**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_agentassistkbfilterlive`|
@@ -210,7 +254,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**Agent Assist Url**|
+|DisplayName|**Representative Assist Url**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_agentassisturl`|
@@ -227,7 +271,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Unique identifier for entity instances**|
-|DisplayName|**Agent Copilot Setting**|
+|DisplayName|**Representative Copilot Setting**|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`msdyn_agentcopilotsettingid`|
@@ -239,7 +283,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**(Deprecated) Agent List**|
+|DisplayName|**(Deprecated) Representative List**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_agentlist`|
@@ -256,7 +300,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**(Deprecated) All Agents Enabled**|
+|DisplayName|**(Deprecated) All Representatives Enabled**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_allagentsenabled`|
@@ -288,7 +332,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**Allow agents to translate summaries**|
+|DisplayName|**Allow customer service representatives to translate summaries**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_allowtranslation`|
@@ -536,7 +580,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Indicates the mode of enablement for email assist.**|
-|DisplayName|**msdyn_copilotemailenabledmode**|
+|DisplayName|**msdyn\_copilotemailenabledmode**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_copilotemailenabledmode`|
@@ -581,6 +625,76 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_agentcopilotsetting_msdyn_copilotenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_copilotrecommendedemailtemplatesenabled"></a> msdyn_copilotrecommendedemailtemplatesenabled
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Copilot Recommended Email Templates Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_copilotrecommendedemailtemplatesenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_agentcopilotsetting_msdyn_copilotrecommendedemailtemplatesenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_csplugindefaultonstatus"></a> msdyn_csplugindefaultonstatus
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**CS plugin defaulton status**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_csplugindefaultonstatus`|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
+|DefaultFormValue|0|
+|GlobalChoiceName|`msdyn_agentcopilotsetting_msdyn_csplugindefaultonstatus`|
+
+#### msdyn_csplugindefaultonstatus Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**NotTriggered**|
+|1|**DefaultOn**|
+|2|**DefaultOnSkipped**|
+
+### <a name="BKMK_msdyn_defaultonoptout"></a> msdyn_defaultonoptout
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Opt out of default on for service copilot features**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_defaultonoptout`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_agentcopilotsetting_msdyn_defaultonoptout`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_disablecopilotengagedanalytics"></a> msdyn_disablecopilotengagedanalytics
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Disable copilot engaged analytics**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_disablecopilotengagedanalytics`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_agentcopilotsetting_msdyn_disablecopilotengagedanalytics`|
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
@@ -742,7 +856,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**Agents can choose to select view sentiment of the email.**|
+|DisplayName|**Customer service representatives can choose to select view sentiment of the email.**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_emailsentimentenabled`|
@@ -750,6 +864,55 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_agentcopilotsetting_msdyn_emailsentimentenabled`|
 |DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_emailtocasemanualflowenabled"></a> msdyn_emailtocasemanualflowenabled
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Allows Email to Case manual creation**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_emailtocasemanualflowenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_agentcopilotsetting_msdyn_emailtocasemanualflowenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_embeddablecopilotwidgetconfiguration"></a> msdyn_embeddablecopilotwidgetconfiguration
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Embeddable Copilot Widget Configuration**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_embeddablecopilotwidgetconfiguration`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
+
+### <a name="BKMK_msdyn_followuppromptsenabled"></a> msdyn_followuppromptsenabled
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Follow-up Prompts Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_followuppromptsenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_agentcopilotsetting_msdyn_followuppromptsenabled`|
+|DefaultValue|True|
 |True Label|Yes|
 |False Label|No|
 
@@ -829,7 +992,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_agentcopilotsetting_msdyn_isknowledgehubconnectorsourceenabled`|
-|DefaultValue|True|
+|DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
 
@@ -853,8 +1016,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Determines whether or not agents have the ability to edit their KB filters**|
-|DisplayName|**Allow Agent Edit KB filters**|
+|Description|**Determines whether or not customer service representatives have the ability to edit their KB filters**|
+|DisplayName|**Allow Representative Edit KB filters**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_kbfilterallowagentedit`|
@@ -986,6 +1149,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Format|DateAndTime|
 |ImeMode|Auto|
 |SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_logknowledgesnippet"></a> msdyn_logknowledgesnippet
+
+|Property|Value|
+|---|---|
+|Description|**Whether to log knowledge snippets**|
+|DisplayName|**Log Knowledge Snippet**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_logknowledgesnippet`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_agentcopilotsetting_msdyn_logknowledgesnippet`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
@@ -1148,7 +1327,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**Use Agent Language Enabled**|
+|DisplayName|**Use Representative Language Enabled**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_useagentlanguage`|
@@ -1197,7 +1376,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Status of the Agent Copilot Setting**|
+|Description|**Status of the Representative Copilot Setting**|
 |DisplayName|**Status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -1218,7 +1397,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Reason for the status of the Agent Copilot Setting**|
+|Description|**Reason for the status of the Representative Copilot Setting**|
 |DisplayName|**Status Reason**|
 |IsValidForForm|True|
 |IsValidForRead|True|

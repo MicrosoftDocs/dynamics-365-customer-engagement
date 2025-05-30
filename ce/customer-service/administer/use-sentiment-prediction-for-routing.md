@@ -1,16 +1,19 @@
 ---
-title: "Use sentiment prediction in unified routing | MicrosoftDocs"
-description: "Learn how to enable and use sentiment prediction in unified routing in Customer Service."
-ms.date: 02/04/2025
+title: Use sentiment prediction in unified routing
+description: Learn how to enable and use sentiment prediction in unified routing in Customer Service.
+ms.date: 04/28/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
+ms.custom: bap-template
 ---
 
 # Use sentiment prediction-based model in work classification (preview)
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 Sentiment prediction for routing enables organizations to use the end customer sentiment scores as a factor in classifying work items to route to customer service representatives (service representatives or representatives).
 
@@ -34,9 +37,7 @@ The sentiment model is configured to look for and use the messages provided by t
 
 ## Enable sentiment prediction
 
-**To enable sentiment prediction**
-
-1. In the site map of Customer Service admin center, select **Routing**. The **Routing** page appears.
+1. In the site map of Copilot Service admin center, select **Routing**. The **Routing** page appears.
 
 2. Select **Manage** for **Sentiment prediction for routing**.
 
@@ -51,7 +52,6 @@ You can optionally test the sentiment model by using the dry run option. You can
 1. On the **Sentiment Prediction for routing (preview)** page, select **Dry run**.
 
 2. On the **Dry run** panel, enter a word or phrase, such as "I am frustrated", and select **Test**. The model predicts the sentiment score, category, and the keyword that helped determine the score.
-
 
 ## Create classification rules based on sentiment prediction model
 
@@ -84,8 +84,6 @@ Additional work classification rules can then be created using the output from t
 ## Create route-to-queue rules
 
 Create route-to-queue rules to route the work items based on the sentiment prediction.
-
-**To create route-to-queue rules**
 
 1. For the workstream in which you created the rule based on sentiment prediction, in **Routing rules**, select **Create ruleset** or **See more** for **Route to queues** to create a rule. Learn more in [Configure route-to-queues rulesets and rules](configure-route-to-queue-rules.md).
 

@@ -177,7 +177,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |FormatName|Text|
 |ImeMode|Auto|
 |IsLocalizable|False|
-|MaxLength|4000|
+|MaxLength|13000|
 
 ### <a name="BKMK_msdynmkt_eventmetadataId"></a> msdynmkt_eventmetadataId
 

@@ -1,7 +1,7 @@
 ---
 title: Set up Join a Teams call for customer service representatives
 description: Learn how to set up Join a Teams call in Dynamics 365 Customer Service.
-ms.date: 01/21/2025
+ms.date: 05/20/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 Join a Teams call is a feature that helps customer service representatives (service representatives or representatives) in your organization give their customers a more personalized support experience by using Teams to share their screen, connect through video, and offer remote control assistance. Customers don’t need to have a Teams license or previous experience using Teams.
 
-This feature is turned on by default in Customer Service workspace or Contact Center workspace.
+This feature is turned on by default in Copilot Service workspace.
 
 ## Prerequisites
 
@@ -28,13 +28,13 @@ Ensure that the following prerequisites are met:
 
 ## Set up the ability for representatives to invite customers to join Teams calls
 
-By default, the Join a Teams call feature is turned on out of the box in Customer Service workspace for agent profiles that have Omnichannel for Customer Service enabled.  
+By default, the Join a Teams call feature is turned on out of the box in Copilot Service workspace for agent profiles that have Omnichannel for Customer Service enabled.  
 
 If you previously disabled it and need to turn it back on, start with Step 1.  
 
 If you want to complete the configuration for custom agent profiles, start with Step 4. 
    
-1. In Customer Service admin center or Contact Center admin center, go to **Agent experience** > **Collaboration**.
+1. In Copilot Service admin center, go to **Support experience** > **Collaboration**.
 	
 1. In **Join a Teams call**, select **Manage**.
 
@@ -42,7 +42,7 @@ If you want to complete the configuration for custom agent profiles, start with 
 
 1. If you want to enable custom agent profiles that aren't set by default to invite customers to join Teams calls, you must manually enable it for those profiles. Select **Manage** next to **Turn on for specific multisession users.** Learn more in [Add the Teams chat setting page for specific multisession users](configure-teams-chat.md#add-the-teams-chat-settings-page-for-specific-multisession-users)
 
-1. Save the changes. The Join a Teams call feature is now enabled for users in Customer Service workspace or Contact Center workspace.
+1. Save the changes. The Join a Teams call feature is now enabled for users in Copilot Service workspace.
 
 ### Related information
 

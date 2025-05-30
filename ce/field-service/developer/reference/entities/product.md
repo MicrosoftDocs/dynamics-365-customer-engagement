@@ -2,8 +2,8 @@
 title: "Product table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Product table/entity with Microsoft Dynamics 365 Field Service."
 ms.topic: generated-reference
-author: m-hartmann
-ms.author: mhart
+author: puneet-singh1
+ms.author: puneetsingh
 search.audienceType: 
   - developer
 ---
@@ -76,7 +76,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Value|Label|
 |---|---|
 |690970000|**Inventory**|
-|690970001|**Non\-Inventory**|
+|690970001|**Non-Inventory**|
 |690970002|**Service**|
 
 ### <a name="BKMK_msdyn_PurchaseName"></a> msdyn_PurchaseName

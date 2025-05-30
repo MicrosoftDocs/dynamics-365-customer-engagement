@@ -17,18 +17,6 @@ A unique value associated with a rating model that allows providing a user frien
 
 
 
-## Customized columns/attributes
-
-Microsoft Dynamics 365 Customer Service modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
-
-### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
-
-Changes from [OwningBusinessUnit (Microsoft Dynamics 365)](/dynamics365/developer/reference/entities/ratingvalue#BKMK_OwningBusinessUnit)
-
-|Property|Value|
-|---|---|
-|RequiredLevel|None|
-
 
 ## One-to-Many relationships
 

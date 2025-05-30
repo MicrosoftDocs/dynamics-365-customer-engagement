@@ -35,11 +35,11 @@ Scripts reduce the human errors involved, because representatives know which act
 
 Create scripts in the admin center by following these steps:
 
-1. In the **Copilot Service admin center** site map, select **Productivity** in **Support experience**. 
+1. In the site map of Copilot Service admin center, select **Productivity** in **Support experience**. 
 1. On the **Productivity** page, select **Manage** for **Scripts**. 
 1. On the **Scripts** page, select **New**.
 
-The following procedure is an example of an script for a chat session. You can modify the procedure for other types of sessions your representatives are likely to come across.
+The following procedure is an example of a script for a chat session. You can modify the procedure for other types of sessions your representatives are likely to come across.
 
 1. On the **New Script** page, specify the following:
 
@@ -52,13 +52,13 @@ The following procedure is an example of an script for a chat session. You can m
 
 2. Select **Save**. The **Script steps** appears.
 
-3. In the **Script steps** section, select **New Script step**. **Quick Create: Script step** appears.
+3. In the **Script steps** section, select **New Script step**. The **Quick Create: Script step** page appears.
 
 4. Specify the following fields in the quick-create form.
  
     | Field | Description | Example Value |
     |--------------------|------------------------------|-------------------------------------------|
-    | Name | Provide a name for the script step; this appears for the representative at runtime. You can use slugs for specifying the name of the step. To learn more, see [Slugs](automation-dictionary-keys.md#slugs-for-productivity-tools-macros-and-agent-scripts). | Example 1: Greet the customer. <br><br> Example 2: Hi {customer}  |
+    | Name | Provide a name for the script step; this appears for the representative at runtime. You can use slugs for specifying the name of the step. To learn more, see [Slugs](automation-dictionary-keys.md#slugs-for-productivity-tools-macros-and-scripts). | Example 1: Greet the customer. <br><br> Example 2: Hi {customer}  |
     |Unique Name |A unique identifier in the <*prefix*>_<*name*> format.<br>**Important:** The following are required for the unique name:<br><ul><li> The prefix can only be alphanumeric and its length must be between 3 to 8 characters.</li> <li>An underscore must be there between the prefix and name.</li></ul>| Greet_script|
     |Owner|By default, the signed in user is displayed as the owner.| Clay Roddy |
     |Script | The script for which the script step is being created.| Chat session script|
@@ -122,15 +122,15 @@ You can build the expression in the **Scripts** tab in the sessions template.
 
 5. In the **If true** step, select **Add an action**. The **Condition** step is displayed. To learn about conditions, see [Use the automation dictionary to pass context data parameters](#use-the-automation-dictionary-to-pass-context-data-parameters).
 
-6. Select the **Customer Service** tab, and then select **Set default agent script**.
+6. Select the **Customer Service** tab, and then select **Set default script**.
 
     > [!div class=mx-imgBorder] 
-    > ![Set default agent script.](../media/agent-script-build-expression2.png "Set default agent script")
+    > ![Set default script.](../media/agent-script-build-expression2.png "Set default script")
 
-7. Select a script from the **Agent script** list.
+7. Select a script from the **Script** list.
 
     > [!div class=mx-imgBorder] 
-    > ![Select default agent script.](../media/agent-script-set-default.png "Select default agent script")
+    > ![Select default script.](../media/agent-script-set-default.png "Select default script")
 
 8. Follow steps 4 through 7 for the **If false** step.
 
@@ -144,13 +144,13 @@ As an administrator, you need to configure the condition by using the automation
 
 The automation dictionary provides you certain data parameter keys that you can use to build your condition. These parameter keys are resolved and replaced by contextual values at runtime.
 
-To learn about the slugs for productivity tools, see [Slugs](automation-dictionary-keys.md#slugs-for-productivity-tools-macros-and-agent-scripts).
+To learn about the slugs for productivity tools, see [Slugs](automation-dictionary-keys.md#slugs-for-productivity-tools-macros-and-scripts).
 
-To learn more, see [Use the automation dictionary to pass data parameter keys](automation-dictionary-keys.md#pass-data-parameter-in-macros-and-agent-scripts).
+To learn more, see [Use the automation dictionary to pass data parameter keys](automation-dictionary-keys.md#pass-data-parameter-in-macros-and-scripts).
 
 ### Related information
 
-[Agent scripts](../use/oc-agent-scripts.md)  
+[Scripts](../use/oc-agent-scripts.md)  
 [Macros](macros.md)  
 [Smart assist](smart-assist.md)  
 [Session templates](session-templates.md)  
