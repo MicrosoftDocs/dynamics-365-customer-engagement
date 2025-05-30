@@ -1,7 +1,7 @@
 ---
 title: Recalculate service-level agreements
 description: Learn how to configure the recalculation of SLAs in Dynamics 365 Customer Service.
-ms.date: 01/30/2025
+ms.date: 05/06/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -28,11 +28,11 @@ The terminal states for SLA KPI Instances are succeeded, canceled, and noncompli
 
 ## Enable recalculation of SLAs that reach terminal status
 
-You can enable the recalculation of SLAs that reach the terminal status in the Customer Service admin center or Customer Service Hub apps.
+You can enable the recalculation of SLAs that reach the terminal status in the Copilot Service admin center app.
 
-1. In the site map of Customer Service admin center, select **Service Terms** in **Operations**.
+1. In the site map of Copilot Service admin center, select **Service terms** in **Operations**.
 
-1. In the **Other SLA Settings** section, select **Manage**. The **Service Configuration Settings** view is displayed.
+1. In the **Other SLA Settings** section, select **Manage**. The **Service Configuration Settings** view appears.
 
 1. In **Recalculate SLA on terminal status**, switch the toggle to **Yes**, and then select **Save**.
 

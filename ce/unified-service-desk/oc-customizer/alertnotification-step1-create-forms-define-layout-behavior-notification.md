@@ -2,7 +2,7 @@
 title: "Create forms to define the layout and behavior of the notification | MicrosoftDocs"
 description: "Learn how to create forms to define layout and behavior of the alert notification in Omnichannel for Customer Service."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

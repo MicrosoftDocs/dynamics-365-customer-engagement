@@ -1,6 +1,6 @@
 ---
-title: "Agent script (msdyn_productivityagentscript) table/entity reference (Microsoft Dynamics 365)"
-description: "Includes schema information and supported messages for the Agent script (msdyn_productivityagentscript) table/entity with Microsoft Dynamics 365."
+title: "Script (msdyn_productivityagentscript) table/entity reference (Microsoft Dynamics 365)"
+description: "Includes schema information and supported messages for the Script (msdyn_productivityagentscript) table/entity with Microsoft Dynamics 365."
 ms.topic: generated-reference
 author: JimDaly
 ms.author: jdaly
@@ -8,13 +8,13 @@ search.audienceType:
   - developer
 ---
 
-# Agent script (msdyn_productivityagentscript) table/entity reference (Microsoft Dynamics 365)
+# Script (msdyn_productivityagentscript) table/entity reference (Microsoft Dynamics 365)
 
-Agent script v2
+Script
 
 ## Messages
 
-The following table lists the messages for the Agent script (msdyn_productivityagentscript) table.
+The following table lists the messages for the Script (msdyn_productivityagentscript) table.
 Messages represent operations that can be performed on the table. They may also be events.
 
 | Name <br />Is Event? |Web API Operation |SDK for .NET |
@@ -46,12 +46,12 @@ Messages represent operations that can be performed on the table. They may also 
 
 ## Properties
 
-The following table lists selected properties for the Agent script (msdyn_productivityagentscript) table.
+The following table lists selected properties for the Script (msdyn_productivityagentscript) table.
 
 |Property|Value|
 | --- | --- |
-| **DisplayName** | **Agent script** |
-| **DisplayCollectionName** | **Agent scripts** |
+| **DisplayName** | **Script** |
+| **DisplayCollectionName** | **Scripts** |
 | **SchemaName** | `msdyn_productivityagentscript` |
 | **CollectionSchemaName** | `msdyn_productivityagentscripts` |
 | **EntitySetName** | `msdyn_productivityagentscripts`|
@@ -111,7 +111,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Description of the agent scrip**|
+|Description|**Description of the script**|
 |DisplayName|**Description**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -128,7 +128,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Language for agent script**|
+|Description|**Language for script**|
 |DisplayName|**Language**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -160,7 +160,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Unique identifier for entity instances**|
-|DisplayName|**Agent script**|
+|DisplayName|**Script**|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`msdyn_productivityagentscriptid`|
@@ -230,7 +230,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Status of the Agent script**|
+|Description|**Status of the Script**|
 |DisplayName|**Status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -251,7 +251,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Reason for the status of the Agent script**|
+|Description|**Reason for the status of the Script**|
 |DisplayName|**Status Reason**|
 |IsValidForForm|True|
 |IsValidForRead|True|

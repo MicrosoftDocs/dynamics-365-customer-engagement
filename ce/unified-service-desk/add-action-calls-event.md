@@ -2,7 +2,7 @@
 title: "Add action calls to an event | MicrosoftDocs"
 description: "Learn how to add multiple action calls to an event and specify the order in which they must be run."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

@@ -2520,4 +2520,4 @@ Many-To-One Relationship: [syncerror msfp_surveyinvite_SyncErrors](syncerror.md#
 
 [Dataverse table/entity reference](/power-apps/developer/data-platform/reference/about-entity-reference)  
 [Dataverse Web API Reference](/power-apps/developer/data-platform/webapi/reference/about)   
-<xref:Microsoft.Dynamics.CRM.msfp_surveyinvite?displayProperty=fullName>
+

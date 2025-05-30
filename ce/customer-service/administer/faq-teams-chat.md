@@ -1,8 +1,8 @@
 ---
 title: FAQ about Teams chat in Customer Service
 description: Learn about the frequently asked questions (FAQ) about setting up Teams chat in customer engagement apps.
-ms.date: 06/21/2024
-ms.topic: conceptual
+ms.date: 05/20/2025
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -17,7 +17,7 @@ View answers to questions about setting up Teams chat in customer engagement app
 
 ## How do I turn off Teams collaboration?
 
-1. In the site map of Customer Service admin center or Contact Center admin center, in **Agent experience**, select **Collaboration**.
+1. In the site map of Copilot Service admin center, in **Support experience**, select **Collaboration**.
     
 1. In **Embedded chat using Teams**, select **Manage**.
    
@@ -27,7 +27,7 @@ View answers to questions about setting up Teams chat in customer engagement app
 
 ## How do I turn on Teams collaboration for specific apps?
 
-1. In the site map of Customer Service admin center or Contact Center admin center, in **Agent experience**, select **Collaboration**.
+1. In the site map of Copilot Service admin center, in **Support experience**, select **Collaboration**.
     
 1. In **Embedded chat using Teams**, select **Manage**.
    
@@ -36,7 +36,7 @@ View answers to questions about setting up Teams chat in customer engagement app
 1. Select **Turn on for selected Dynamics 365 apps**, and then select the desired apps.
 
    > [!NOTE]
-   > If you’re using Teams chat for the first time or previously enabled the setting, Customer Service workspace, Contact Center workspace, and Customer Service Hub are preselected and appear in the list of selected apps.
+   > If you’re using Teams chat for the first time or previously enabled the setting, Copilot Service workspace and Customer Service Hub are preselected and appear in the list of selected apps.
 
 1. Save your changes.
 

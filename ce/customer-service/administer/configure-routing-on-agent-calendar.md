@@ -6,9 +6,8 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: 
-ms.date: 04/24/2025
+ms.date: 04/25/2025
 ms.custom: bap-template
----
 
 # Configure routing based on shift bookings
 
@@ -27,11 +26,16 @@ With shift bookings, the routing engine considers the shift activity type to det
 - Shift bookings are created in the Dynamics 365 system.
 - [Unified routing](provision-unified-routing.md) is enabled and set up.
 - [Workstreams](create-workstreams.md) and [advanced queues](queues-omnichannel.md) are set up.
-- [Custom assignment method](configure-assignment-rules.md) is configured for the queue and the Calendar schedule attribute is used in custom assignment conditions.
+- [Custom assignment method](configure-assignment-rules.md) is configured for the queue.
+- You must have a third-party adapter configured to import representative schedules from an external system. Without an adapter in place, external schedules can't be surfaced in the representative calendar, and representatives can't view their schedules in Dynamics 365 Customer Service.
+- Shift-based routing is enabled.
+- When you are importing external schedules using the third-party adapter, opt in every representative ([bookableresource](../develop/reference/entities/bookableresource.md)) into shift-based routing by setting the **msdyn_generatecalendarfromshift** column of the corresponding bookableresource entry to **True**.
 
 ## Enable shift-based routing
 
-Follow the steps in [Enable shift-based routing](/dynamics365/contact-center/administer/wfm-enable-shift-based-routing#enable-shift-based-routing) to turn on the feature.
+1. In the Copilot Service admin center site map, select **Workforce management** under **Operations**.
+1. In the **Shift based routing (preview)** section, select **Manage**.
+1. On the **Shift based routing (preview)** page, turn on the **Enable routing based on shift bookings** toggle, and then select **Save**.
 
 ## Import external schedule data
 
@@ -41,8 +45,8 @@ Alternatively, you can use [Organization Service](/power-apps/developer/data-pla
 
 ## Configure an assignment rule
 
-1. In the site map of Copilot Service admin center, select **Queues**, and then select **Manage** in the **Advanced queues** area.
-1. Select the queue for which you want to configure the assignment rule, select the [custom assignment](configure-assignment-rules.md) method, and select **Edit**.
+1. In the Copilot Service admin center site map, select **Queues**, and then select **Manage** in the **Advanced queues** area.
+1. Select the queue that you want to configure the assignment rule for, select the [custom assignment](configure-assignment-rules.md) method, and select **Edit**.
 1. Create a rule or modify an existing rule and do the following:
     1. In **Conditions**, select **Add row**, and then select **Calendar schedule**. The **Is working** value is automatically selected.
     1. Save and close.
@@ -73,5 +77,5 @@ If representative doesn't have a booking when assignment is attempted, no work i
 
 ### Related information
 
-[Use Customer Service workspace](../implement/csw-overview.md)  
-[View the agent calendar](../use/use-agent-calendar.md)  
+[Use Copilot Service workspace](../implement/csw-overview.md)  
+[View the representative calendar](../use/use-agent-calendar.md)  

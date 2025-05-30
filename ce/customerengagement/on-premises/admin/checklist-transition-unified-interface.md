@@ -4,7 +4,7 @@ description: "Use this checklist to ensure you're prepared for a transition from
 ms.custom: ""
 ms.reviewer: matp
 
-ms.topic: "article"
+ms.topic: checklist
 author: "Mattp123"
 ms.author: "haybass"
 search.audienceType: 

@@ -232,7 +232,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Unique identifier for entity instances**|
-|DisplayName|**msdyn_wkwcolleaguesforcontact**|
+|DisplayName|**msdyn\_wkwcolleaguesforcontact**|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`msdyn_wkwcolleaguesforcontactid`|
@@ -260,7 +260,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Status of the msdyn_wkwcolleaguesforcontact**|
+|Description|**Status of the msdyn\_wkwcolleaguesforcontact**|
 |DisplayName|**Status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -281,7 +281,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Reason for the status of the msdyn_wkwcolleaguesforcontact**|
+|Description|**Reason for the status of the msdyn\_wkwcolleaguesforcontact**|
 |DisplayName|**Status Reason**|
 |IsValidForForm|True|
 |IsValidForRead|True|

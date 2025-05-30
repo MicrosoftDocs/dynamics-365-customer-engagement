@@ -1,8 +1,8 @@
 ---
 title: Overview of service-level agreements
 description: Configure and manage service-level agreements (SLAs) to track support policies and provide customers with measured and predictable service.
-ms.date: 12/13/2024
-ms.topic: article
+ms.date: 04/22/2025
+ms.topic: overview
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -56,7 +56,7 @@ Creating KPIs for your SLAs helps define the success, failure, or warning criter
 
 #### Create SLAs
 
-After you create the SLA KPIs, you can create SLAs from the Customer Service admin center or Customer Service Hub app. Creating an SLA includes creating an SLA and SLA item, configuring actions for the SLA item, and then activating the SLA. More information: [Create SLAs <a name="create-slas"></a>](../administer/define-service-level-agreements.md)
+After you create the SLA KPIs, you can create SLAs from the Copilot Service admin center or Customer Service Hub app. Creating an SLA includes creating an SLA and SLA item, configuring actions for the SLA item, and then activating the SLA. More information: [Create SLAs <a name="create-slas"></a>](../administer/define-service-level-agreements.md)
 
 #### Apply SLAs
 
@@ -73,7 +73,7 @@ After you configure and apply your SLAs, you can manage the various aspects of y
 
 #### Calculate SLA KPIs
 
-- You can manage the calculation of SLA KPIs. You can enable the recalculation of SLA KPIs that reach the terminal status in the Customer Service admin center or Customer Service Hub app. More information: [Enable recalculation of SLAs that reach terminal status](../administer/enable-sla-recalculation.md#enable-recalculation-of-slas-that-reach-terminal-status). 
+- You can manage the calculation of SLA KPIs. You can enable the recalculation of SLA KPIs that reach the terminal status in the Copilot Service admin center or Customer Service Hub app. More information: [Enable recalculation of SLAs that reach terminal status](../administer/enable-sla-recalculation.md#enable-recalculation-of-slas-that-reach-terminal-status). 
 
 - Additionally, you can enable the custom time calculation and custom recalculation of SLA KPIs. More information: [Enable custom time calculation of SLA KPIs](../administer/enable-sla-custom-time-calculation.md#enable-custom-time-calculation-of-sla-kpis) and [Enable custom recalculation of SLA KPIs](../administer/enable-sla-force-recalculation.md#enable-custom-recalculation-of-sla-kpis)
 

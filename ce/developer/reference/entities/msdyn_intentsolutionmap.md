@@ -77,6 +77,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_order](#BKMK_msdyn_order)
 - [msdyn_queueid](#BKMK_msdyn_queueid)
 - [msdyn_reviewstate](#BKMK_msdyn_reviewstate)
+- [msdyn_rootknowledgearticleid](#BKMK_msdyn_rootknowledgearticleid)
 - [msdyn_solutiontype](#BKMK_msdyn_solutiontype)
 - [msdyn_source](#BKMK_msdyn_source)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -117,7 +118,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Lookup to Agent Group**|
+|Description|**Lookup to Customer Service Representative Group**|
 |DisplayName|**agentgroupid**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -198,7 +199,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**order of agents within the condition**|
+|Description|**order of customer service representatives within the condition**|
 |DisplayName|**order**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -243,11 +244,24 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350001|**Approved**|
 |192350002|**Discarded**|
 
+### <a name="BKMK_msdyn_rootknowledgearticleid"></a> msdyn_rootknowledgearticleid
+
+|Property|Value|
+|---|---|
+|Description|**Lookup to Knowledge Article**|
+|DisplayName|**Root Knowledge Article Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_rootknowledgearticleid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|knowledgearticle|
+
 ### <a name="BKMK_msdyn_solutiontype"></a> msdyn_solutiontype
 
 |Property|Value|
 |---|---|
-|Description|**Solution Type of the Solution (Skill/ Agent Group/ Knowledge Article)**|
+|Description|**Solution Type of the Solution (Skill/ Representative Group/ Knowledge Article)**|
 |DisplayName|**solutiontype**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -615,7 +629,7 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`owningbusinessunit`|
-|RequiredLevel|SystemRequired|
+|RequiredLevel|None|
 |Type|Lookup|
 |Targets|businessunit|
 
@@ -696,6 +710,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_intentsolutionmap_agentgroupid_msdyn_agentgroup](#BKMK_msdyn_intentsolutionmap_agentgroupid_msdyn_agentgroup)
 - [msdyn_intentsolutionmap_intentfamilyid_msdyn_intentfamily](#BKMK_msdyn_intentsolutionmap_intentfamilyid_msdyn_intentfamily)
 - [msdyn_intentsolutionmap_intentid_msdyn_intent](#BKMK_msdyn_intentsolutionmap_intentid_msdyn_intent)
+- [msdyn_intentsolutionmap_knowledgearticleid_knowledgearticle](#BKMK_msdyn_intentsolutionmap_knowledgearticleid_knowledgearticle)
 - [msdyn_intentsolutionmap_queueid_queue](#BKMK_msdyn_intentsolutionmap_queueid_queue)
 - [owner_msdyn_intentsolutionmap](#BKMK_owner_msdyn_intentsolutionmap)
 - [team_msdyn_intentsolutionmap](#BKMK_team_msdyn_intentsolutionmap)
@@ -815,6 +830,19 @@ One-To-Many Relationship: [msdyn_intent msdyn_intentsolutionmap_intentid_msdyn_i
 |ReferencedAttribute|`msdyn_intentid`|
 |ReferencingAttribute|`msdyn_intentid`|
 |ReferencingEntityNavigationPropertyName|`msdyn_intentid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_intentsolutionmap_knowledgearticleid_knowledgearticle"></a> msdyn_intentsolutionmap_knowledgearticleid_knowledgearticle
+
+One-To-Many Relationship: [knowledgearticle msdyn_intentsolutionmap_knowledgearticleid_knowledgearticle](knowledgearticle.md#BKMK_msdyn_intentsolutionmap_knowledgearticleid_knowledgearticle)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`knowledgearticle`|
+|ReferencedAttribute|`knowledgearticleid`|
+|ReferencingAttribute|`msdyn_rootknowledgearticleid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_rootknowledgearticleid`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

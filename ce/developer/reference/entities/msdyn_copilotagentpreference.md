@@ -1,6 +1,6 @@
 ---
-title: "Agent Preference For Copilot (msdyn_copilotagentpreference) table/entity reference (Microsoft Dynamics 365)"
-description: "Includes schema information and supported messages for the Agent Preference For Copilot (msdyn_copilotagentpreference) table/entity with Microsoft Dynamics 365."
+title: "User Preference For Copilot (msdyn_copilotagentpreference) table/entity reference (Microsoft Dynamics 365)"
+description: "Includes schema information and supported messages for the User Preference For Copilot (msdyn_copilotagentpreference) table/entity with Microsoft Dynamics 365."
 ms.topic: generated-reference
 author: JimDaly
 ms.author: jdaly
@@ -8,13 +8,13 @@ search.audienceType:
   - developer
 ---
 
-# Agent Preference For Copilot (msdyn_copilotagentpreference) table/entity reference (Microsoft Dynamics 365)
+# User Preference For Copilot (msdyn_copilotagentpreference) table/entity reference (Microsoft Dynamics 365)
 
 
 
 ## Messages
 
-The following table lists the messages for the Agent Preference For Copilot (msdyn_copilotagentpreference) table.
+The following table lists the messages for the User Preference For Copilot (msdyn_copilotagentpreference) table.
 Messages represent operations that can be performed on the table. They may also be events.
 
 | Name <br />Is Event? |Web API Operation |SDK for .NET |
@@ -47,12 +47,12 @@ Messages represent operations that can be performed on the table. They may also 
 
 ## Properties
 
-The following table lists selected properties for the Agent Preference For Copilot (msdyn_copilotagentpreference) table.
+The following table lists selected properties for the User Preference For Copilot (msdyn_copilotagentpreference) table.
 
 |Property|Value|
 | --- | --- |
-| **DisplayName** | **Agent Preference For Copilot** |
-| **DisplayCollectionName** | **Agent Preferences For Copilot** |
+| **DisplayName** | **User Preference For Copilot** |
+| **DisplayCollectionName** | **Representative Preferences For Copilot** |
 | **SchemaName** | `msdyn_copilotagentpreference` |
 | **CollectionSchemaName** | `msdyn_copilotagentpreferences` |
 | **EntitySetName** | `msdyn_copilotagentpreferences`|
@@ -68,6 +68,7 @@ The following table lists selected properties for the Agent Preference For Copil
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_agentprompts](#BKMK_msdyn_agentprompts)
 - [msdyn_copilotagentpreferenceId](#BKMK_msdyn_copilotagentpreferenceId)
 - [msdyn_kbfilterscope](#BKMK_msdyn_kbfilterscope)
 - [msdyn_name](#BKMK_msdyn_name)
@@ -94,12 +95,29 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MaxValue|2147483647|
 |MinValue|-2147483648|
 
+### <a name="BKMK_msdyn_agentprompts"></a> msdyn_agentprompts
+
+|Property|Value|
+|---|---|
+|Description|**Stores prompts based on representative preference**|
+|DisplayName|**Representative prompts**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_agentprompts`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
+
 ### <a name="BKMK_msdyn_copilotagentpreferenceId"></a> msdyn_copilotagentpreferenceId
 
 |Property|Value|
 |---|---|
 |Description|**Unique identifier for entity instances**|
-|DisplayName|**Agent Preference For Copilot**|
+|DisplayName|**User Preference For Copilot**|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`msdyn_copilotagentpreferenceid`|
@@ -203,7 +221,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Status of the Agent Preference For Copilot**|
+|Description|**Status of the User Preference For Copilot**|
 |DisplayName|**Status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -224,7 +242,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Reason for the status of the Agent Preference For Copilot**|
+|Description|**Reason for the status of the User Preference For Copilot**|
 |DisplayName|**Status Reason**|
 |IsValidForForm|True|
 |IsValidForRead|True|

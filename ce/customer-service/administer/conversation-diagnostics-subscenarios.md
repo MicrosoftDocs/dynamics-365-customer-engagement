@@ -4,9 +4,9 @@ description: Learn about subscenarios metadata for conversation diagnostics in A
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
-ms.date: 03/03/2025
+ms.date: 05/29/2025
 ms.custom: bap-template
 ---
 
@@ -24,9 +24,8 @@ The conversation diagnostics scenario captures data related to unified routing, 
 
 | Subscenarios                    | Description                                           |
 |---------------------------------|-------------------------------------------------------|
-| AgentAccept                     | Service representative accepts the work item assignment                |
-| AgentAssignment                 | Representative assigned by unified routing                   |
-| AgentAvailabilityTrigger        | Assignment triggered when new representative is available |
+| AgentAccept                     | Service representative accepts the work item assignment              |
+| AgentAssignment                 | Assignment attempted by unified routing when new work item is added to the queue. It can also include assignment to a representative when they become available.                   |
 | AgentCloseSession               | Representative closed the session with the customer                    |
 | AgentEndConversation            | Representative ended the conversation                          |
 | AgentPickAssignment             | Representative picked the work item                                |
@@ -43,7 +42,6 @@ The conversation diagnostics scenario captures data related to unified routing, 
 | InitiateAgentConsult            | Representative requested consultation with another representative for a conversation |
 | LeavePublicAgentConsult         | Representative left the public consultation for the conversation |
 | ManualAssignment                | Representative or supervisor manually assigned the conversation |
-| NewWorkItemTrigger              | Assignment triggered due to new work item added to queue |
 | QueueTransfer                   | Conversation transferred to a different queue by representatives |
 | RTQ                             | Queue assignment by unified routing                   |
 | SupervisorForceCloseConversation| Supervisor forcefully closed conversation             |

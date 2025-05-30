@@ -1,7 +1,7 @@
 ---
 title: Export and import app configuration data
 description: Export and import app configuration data for Omnichannel for Customer Service using the Configuration Migration tool.
-ms.date: 03/17/2025
+ms.date: 04/25/2025
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -18,7 +18,7 @@ ms.custom:
 After you've used Omnichannel for Customer Service in a test environment, you can export some of your app configuration data to a live production environment. Use the configuration management tool to export and import the data. Learn more in [Download the Configuration Migration tool from NuGet using the PowerShell script](/powerapps/developer/data-platform/download-tools-nuget).
 
 > [!IMPORTANT]
-> Channel configurations are specific to the environment in which they're created, so exporting and importing complete configurations as-is won't work. We recommend that you create the configurations using the Customer Service admin center or Contact Center admin center app.
+> Channel configurations are specific to the environment in which they're created, so exporting and importing complete configurations as-is won't work. We recommend that you create the configurations using the Copilot Service admin center app.
 
 While you can use the Configuration Migration tool to export and import entity data, omnichannel-related configurations contain different entities that have internal dependencies. Therefore, you must bring together the required data by following a very specific process. For example, if you've already imported the context variables and then try to import preconversation configuration, which also creates context variables, the import might not work. Similarly, you must import all the internal entities, such as ruleset configurations that contain decision rulesets and contracts, for the import of workstreams and record queues to be successful.
 

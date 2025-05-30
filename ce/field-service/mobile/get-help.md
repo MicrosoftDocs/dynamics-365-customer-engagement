@@ -2,7 +2,7 @@
 title: Get help for the Field Service mobile app
 description: Learn about the ways you can get help for the Field Service mobile app.
 ms.subservice: field-service-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: bap-template
 ms.date: 08/28/2024
 author: JonBaker007

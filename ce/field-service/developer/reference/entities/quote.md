@@ -2,8 +2,8 @@
 title: "Quote table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Quote table/entity with Microsoft Dynamics 365 Field Service."
 ms.topic: generated-reference
-author: m-hartmann
-ms.author: mhart
+author: puneet-singh1
+ms.author: puneetsingh
 search.audienceType: 
   - developer
 ---
@@ -96,7 +96,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Value|Label|
 |---|---|
 |192350000|**Item based**|
-|690970002|**Service\-Maintenance Based**|
+|690970002|**Service-Maintenance Based**|
 
 ### <a name="BKMK_msdyn_QuoteLineEndDate"></a> msdyn_QuoteLineEndDate
 

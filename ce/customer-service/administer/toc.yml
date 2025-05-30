@@ -52,7 +52,7 @@
           href: manage-overflow.md
       - name: Set up record routing
         items:
-        - name: Provision unified routing for Customer Service
+        - name: Enable unified routing for Customer Service
           href: provision-unified-routing.md
         - name: Set up unified routing for records
           href: set-up-record-routing.md
@@ -310,8 +310,6 @@
         href: customer-service-hub-user-guide-email-font-admin.md
       - name: Configure the enhanced insert email template dialog
         href: /power-apps/user/customize-insert-email-template?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-      - name: Configure the enhanced email template editor page
-        href: /power-apps/user/cs-email-template-builder?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Add Copilot prompts to email templates
         href: add-prompt-email-template.md
       - name: Enable enhanced experience for email attachments
@@ -434,6 +432,8 @@
         href: /dynamics365/contact-center/administer/install-manage-desktop-app?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Support emergency calls made by agents
         href: voice-channel-emergency-calling.md
+      - name: Configure Teams Phone in voice channel (preview)
+        href: /dynamics365/contact-center/administer/configure-teams-phone-in-voice-channel?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Forward your Teams calls to digital contact center
         href: voice-forward-calls.md
       - name: Configure voicemail to manage inbound calls
@@ -478,12 +478,16 @@
       items:
       - name: Overview of autonomous service agents
         href: /dynamics365/contact-center/administer/autonomous-agents-overview?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Manage consumption-based billing, capacity
+        href: setup-pay-as-you-go.md
       - name: Customer Intent Agent
         items:
         - name: Overview of Customer Intent Agent
           href: /dynamics365/contact-center/administer/overview-customer-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
         - name: Manage Customer Intent Agent
           href: /dynamics365/contact-center/administer/manage-customer-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Configure intent-based routing
+          href: configure-intent-based-routing.md
         - name: Enable intent-based suggestions for service representatives
           href: /dynamics365/contact-center/administer/enable-intent-for-service-reps?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
         - name: Configure intent-based suggestions for Copilot agents
@@ -499,9 +503,7 @@
         - name: Enable Customer Knowledge Management Agent
           href: admin-km-agent.md
         - name: Configure connection references
-          href: admin-km-agent-connections.md  
-      - name: Set up a pay-as-you-go plan
-        href: setup-pay-as-you-go.md
+          href: admin-km-agent-connections.md
     - name: Chat
       items:
       - name: Introduction to the chat channel
@@ -528,6 +530,8 @@
         href: show-queue.md
       - name: Show customers their average wait time in a queue
         href: average-wait-time.md
+      - name: Configure live conversation counter to view customer wait time
+        href: configure-live-conv-counter.md
       - name: Delete a channel instance
         href: delete-channel.md
       - name: Manage enhanced Active Conversation settings
@@ -584,6 +588,8 @@
         href: preconfig-auto-message-triggers-async-channels.md
     - name: Advanced settings for chat and channels
       items:
+      - name: Deploy chat widgets using a single tag
+        href: deploy-using-single-tag.md
       - name: Configure operating hours
         href: create-operating-hours.md
       - name: Configure and manage custom presence
@@ -657,13 +663,15 @@
       - name: Manage Copilot features in Customer Service
         href: configure-copilot-features.md
       - name: Make Copilot available to agents
-        href: configure-copilot-features.md#make-copilot-available-to-agents
+        href: configure-copilot-features.md#make-copilot-available-to-representatives
       - name: Case and conversation summaries
         items:
         - name: Enable summarization of cases and conversations
           href: /dynamics365/contact-center/administer/copilot-enable-summary?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
         - name: Enable case summaries
           href: /dynamics365/contact-center/administer/copilot-enable-summary#enable-case-summaries?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
+        - name: Understand auto-enabled Copilot summaries
+          href: case-summary-forms.md
         - name: Enable conversation summaries
           href: /dynamics365/contact-center/administer/copilot-enable-summary##enable-conversation-summaries?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
       - name: Configure custom record summaries for service representatives
@@ -685,10 +693,10 @@
       - name: Enable Copilot to create knowledge from cases
         href: enable-copilot-suggest-knowledge-from-cases.md
       - name: View feedback data
-        href: configure-copilot-features.md#record-agent-interactions-with-copilot
+        href: configure-copilot-features.md#record-representative-interactions-with-copilot
       - name: Copilot architecture diagram
         href: /digital-contact-center-platform/guidance/dynamics-365-customer-service-copilot-architecture?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-      - name: Manage fields Copilot uses for case summaries
+      - name: Manage case and custom record summary
         href: copilot-map-custom-fields.md
       - name: Customize Copilot conversation summaries
         href: /dynamics365/contact-center/administer/customize-copilot-conv-summary?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            

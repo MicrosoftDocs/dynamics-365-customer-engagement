@@ -2,7 +2,7 @@
 title: Introduction to the chat channel
 description: Learn about the chat channel to quickly resolve customer queries with features like quick replies, whisper, barge, consult, and transfer.
 ms.date: 02/05/2025
-ms.topic: conceptual
+ms.topic: reference
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan

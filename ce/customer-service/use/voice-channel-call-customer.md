@@ -27,7 +27,7 @@ Make sure that the administrator has assigned a voice queue and an outbound capa
 
 To test your microphone and speaker, do the following steps:
 
-1. In Customer Service workspace or Contact Center workspace, select the **Launch dialer** phone icon on the menu bar and then select the **Settings** icon. 
+1. In Copilot Service workspace, select the **Launch dialer** phone icon on the menu bar and then select the **Settings** icon. 
 1. In the **Speaker** and **Microphone** sections, select the speaker and microphone to test. If you have multiple devices, the default devices that are currently in use appear. The speaker that you select is the primary ringer and plays notifications for calls and chat notifications.
 1. In the **Secondary Ringer** section, select the device to be used to amplify or extend incoming call notifications. This is useful in noisy environments where the primary device's ringtone is low or difficult to hear. 
    > [!NOTE]
@@ -49,7 +49,7 @@ To test your microphone and speaker, do the following steps:
 
 ## Make a call using the outbound dialer
 
-1. In Customer Service workspace or Contact Center workspace, go to **Contacts**, and then select a customer to call.
+1. In Copilot Service workspace, go to **Contacts**, and then select a customer to call.
 2. On the **Active Conversation** page, locate the **Mobile Phone** field, and then select the call icon to call the customer. You can also select the **Launch dialer** phone icon on the menu bar to quickly call a customer.
      The **Dial number** panel appears. You can perform the following actions:<br>
      - Search for a contact or account by name. The results are displayed in a dropdown. You can select **Account** or **Contact** to filter the results further. Once you select the customer's name, the application displays the customer's phone number, name, country/region, country code, and outbound profile that you can use to make the call.

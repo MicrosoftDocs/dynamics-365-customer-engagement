@@ -1,7 +1,7 @@
 ---
 title: Enable calendar export and import with SLAs
-description: Enable the export or import of a calendar with its corresponding SLAs from the Customer Service admin center or Customer Service Hub app.
-ms.date: 12/03/2024
+description: Enable the export or import of a calendar with its corresponding SLAs from the Copilot Service admin center or Customer Service Hub app.
+ms.date: 05/06/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -26,9 +26,9 @@ You can replicate the SLA settings in another environment by exporting the solut
 
 ## Export or import a calendar with SLAs
 
-You can enable the export or import of a calendar from the Customer Service admin center app.
+You can enable the export or import of a calendar from the Copilot Service admin center app.
 
-1. In the site map of Customer Service admin center, select **Service terms** in **Operations**. The **Service Terms** page appears.
+1. In the site map of Copilot Service admin center, select **Service terms** in **Operations**. The **Service terms** page appears.
 
 1. In the **Other SLA Settings** section, select **Manage**. The **Service Configuration Settings** page appears.
 

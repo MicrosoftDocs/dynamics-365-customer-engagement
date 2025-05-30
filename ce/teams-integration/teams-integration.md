@@ -2,7 +2,7 @@
 title: Overview of Microsoft Teams integration with Dynamics 365 apps
 description: Dynamics 365 for Microsoft Teams integration enables users to easily work with customer engagement apps and share files directly from Microsoft Teams.
 ms.date: 11/26/2024
-ms.topic: article
+ms.topic: concept-article
 author: sbmjais
 ms.author: shjais
 ---

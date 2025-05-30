@@ -2,7 +2,7 @@
 title: "Customize sign in and splash screens in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to customize the branding of sign in and splash screens in Unified Service Desk by modifying XAML styles."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

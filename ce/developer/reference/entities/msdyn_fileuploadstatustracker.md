@@ -176,7 +176,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**msdyn_forecastconfigurationid**|
+|DisplayName|**msdyn\_forecastconfigurationid**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_forecastconfigurationid`|
@@ -189,7 +189,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**msdyn_forecastrecurrenceupdatedetailslist**|
+|DisplayName|**msdyn\_forecastrecurrenceupdatedetailslist**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_forecastrecurrenceupdatedetailslist`|

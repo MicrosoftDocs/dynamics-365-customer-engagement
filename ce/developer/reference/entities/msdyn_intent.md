@@ -73,6 +73,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_intentharvesting_batchjobstatusid](#BKMK_msdyn_intentharvesting_batchjobstatusid)
 - [msdyn_intentId](#BKMK_msdyn_intentId)
 - [msdyn_intentstring](#BKMK_msdyn_intentstring)
+- [msdyn_is_selfserve_enabled](#BKMK_msdyn_is_selfserve_enabled)
 - [msdyn_isgroup](#BKMK_msdyn_isgroup)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_occurrencecount](#BKMK_msdyn_occurrencecount)
@@ -153,8 +154,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Look up to msdyn_intentharvesting_batchjobstatus table**|
-|DisplayName|**msdyn_intentharvesting_batchjobstatusid**|
+|Description|**Look up to msdyn\_intentharvesting\_batchjobstatus table**|
+|DisplayName|**msdyn\_intentharvesting\_batchjobstatusid**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_intentharvesting_batchjobstatusid`|
@@ -179,7 +180,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Text of intent string**|
-|DisplayName|**msdyn_intentstring**|
+|DisplayName|**msdyn\_intentstring**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_intentstring`|
@@ -190,6 +191,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|2000|
+
+### <a name="BKMK_msdyn_is_selfserve_enabled"></a> msdyn_is_selfserve_enabled
+
+|Property|Value|
+|---|---|
+|Description|**Indicates if this is enabled for self serve**|
+|DisplayName|**Is Self-Serve Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_is_selfserve_enabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_intent_msdyn_is_selfserve_enabled`|
+|DefaultValue|False|
+|True Label|True|
+|False Label|False|
 
 ### <a name="BKMK_msdyn_isgroup"></a> msdyn_isgroup
 
@@ -243,7 +260,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**occurrence count of the intent in last 12 months**|
-|DisplayName|**occurrencecount_last12months**|
+|DisplayName|**occurrencecount\_last12months**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_occurrencecount_last12months`|
@@ -257,7 +274,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**occurrence count of the intent in last 30 days**|
-|DisplayName|**occurrencecount_last30days**|
+|DisplayName|**occurrencecount\_last30days**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_occurrencecount_last30days`|
@@ -634,7 +651,7 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`owningbusinessunit`|
-|RequiredLevel|SystemRequired|
+|RequiredLevel|None|
 |Type|Lookup|
 |Targets|businessunit|
 

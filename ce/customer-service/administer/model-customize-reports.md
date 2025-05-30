@@ -1,8 +1,8 @@
 ---
 title: Model customization of historical and real-time analytics reports in Customer Service
 description: Learn how to customize historical and real-time analytics reports in Dynamics 365 Customer Service using Power BI.
-ms.date: 03/21/2025
-ms.topic: article
+ms.date: 04/22/2025
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -30,11 +30,11 @@ The key capabilities of model customization include the ability to:
 
 - Publish the customized report to a specific Microsoft Fabric workspace.
 
-- Customize the report site map and enable users to access the reports natively from the Customer Service workspace app.
+- Customize the report site map and enable users to access the reports natively from the Copilot Service workspace app.
 
 - Auto refresh reports as soon as source data is updated.
 
-Enable data model customization for historical and real-time analytics reports in Customer Service admin center, and then complete the following tasks:
+Enable data model customization for historical and real-time analytics reports in Copilot Service admin center, and then complete the following tasks:
 
 1. Select a Microsoft Fabric workspace.
 1. Provision the data models and copy of reports.
@@ -50,7 +50,7 @@ Before you begin, you must complete the following prerequisites:
 
 - Enable insights features in Customer Service:
 
-  - If you're enabling historical data model customization, you must enable at least one of the historical reports, such as Customer Service historical analytics, Omnichannel historical analytics, or knowledge analytics. For more information, see [Configure analytics and insights dashboards](configure-customer-service-analytics-insights-csh.md).
+  - If you're enabling historical data model customization, you must enable at least one of the historical reports, such as Customer Service historical analytics, Omnichannel historical analytics, or Knowledge analytics. For more information, see [Configure analytics and insights dashboards](configure-customer-service-analytics-insights-csh.md).
   - If you're enabling real-time data model customization, you must enable real-time analytics for Omnichannel. For more information, see [Configure analytics and insights dashboards](configure-customer-service-analytics-insights-csh.md).
 
 - Create a Microsoft Entra ID security group:
@@ -78,7 +78,7 @@ Before you begin, you must complete the following prerequisites:
 
 ## Enable Power BI data model customization
 
- 1. In the Customer Service admin center site map, select **Insights** in **Operations**.
+ 1. In the Copilot Service admin center site map, select **Insights** in **Operations**.
  1. On the **Insights** page in the **Report settings** section:
      - For historical, select **Embedded Power BI extensibility - Historical data model customization** and then select **Manage**.
      - For real time, select **Embedded Power BI extensibility - Real-time data model customization** and then select **Manage**.
@@ -121,11 +121,11 @@ You need to provide report authors and viewers with **Allow recipients to build 
 
 When you select the **Customized Power BI Report** link, the Microsoft Fabric workspace where the sample reports are provided appears in a lineage view. These reports are the copy of your out-of-the-box reports and can be edited and modified. You must provide access to the workspace only if your organization plans on using these copies to develop reports.
 
-Select **Access**, and provide **Contributor** access to your report authors and **Viewer** access to users who view these or any other reports built in this Microsoft Fabric workspace. If you plan to embed the report back to Dynamics 365 Customer Service, you must provide **Member** access to the supervisors for them to view the embedded report within the Customer Service workspace. For more information on data permissions, see [Manage semantic model access permissions (preview)](/power-bi/connect-data/service-datasets-manage-access-permissions).
+Select **Access**, and provide **Contributor** access to your report authors and **Viewer** access to users who view these or any other reports built in this Microsoft Fabric workspace. If you plan to embed the report back to Dynamics 365 Customer Service, you must provide **Member** access to the supervisors for them to view the embedded report within the Copilot Service workspace. For more information on data permissions, see [Manage semantic model access permissions (preview)](/power-bi/connect-data/service-datasets-manage-access-permissions).
 
 ## Step 4: Embed customized reports back to Dynamics 365
 
-After your report authors create and publish the customized reports, you can allow Dynamics users to access these reports from the Customer service workspace. This step is optional.
+After your report authors create and publish the customized reports, you can allow Dynamics users to access these reports from the Copilot service workspace. This step is optional.
 
 1. Select the data model reports.
 
@@ -149,7 +149,7 @@ After your report authors create and publish the customized reports, you can all
 
 The dropdown list is populated with the reports in the workspace configured on Step 1. The preferred report name appears for your Dynamics users when they access the reports. You can add a maximum of 40 reports.
 
-The customized reports site map in the Customer service workspace is shared between historical and real-time data model customization features. You can reorder the reports on both historical and real time admin pages. For both historical and real time, you can modify or delete reports added from the respective historical and real-time data model customization pages only.
+The customized reports site map in the Copilot service workspace is shared between historical and real-time data model customization features. You can reorder the reports on both historical and real time admin pages. For both historical and real time, you can modify or delete reports added from the respective historical and real-time data model customization pages only.
 
 You can also perform supervisor actions like [assign, transfer, monitor, and force close](../use/realtime-ongoing.md#assign-transfer-monitor-or-force-close-conversations-in-customized-reports) on model customized reports.
 
@@ -163,7 +163,7 @@ As an administrator with Premium capacity, you must first enable [automatic page
 
 To enable automatic page refresh for specific reports:
 
-1. Download the real-time report from your Customer Service workspace app.
+1. Download the real-time report from your Copilot Service workspace app.
 1. Go to **Visualizations** > **Format page**.
 1. Switch the **Page refresh** toggle to **On**.
 1. Select **Auto page refresh** from the **Refresh type** dropdown list.
@@ -174,9 +174,9 @@ In case you change the report name, perform the steps provided in [Step 4: Embed
 
 ## View customized reports
 
-If you customized the Customer Service workspace app, you must complete the following steps to view the reports.
+If you customized the Copilot Service workspace app, you must complete the following steps to view the reports.
 
-1. On the Customer Service workspace app tile, select the ellipsis for **More Options** and then select **Open in App Designer**.
+1. On the Copilot Service workspace app tile, select the ellipsis for **More Options** and then select **Open in App Designer**.
 1. Select **New**.
 1. On the **New page** dialog, select **URL**, and then select **Next**.
 1. Enter the following information and then select **Add**.

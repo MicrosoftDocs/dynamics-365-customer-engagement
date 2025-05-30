@@ -1,9 +1,9 @@
 ---
 title: Configure a preconversation survey
-description: Configure a preconversation survey in Customer Service admin center to ask customers questions before they start a conversation.
+description: Configure a preconversation survey in Copilot Service admin center to ask customers questions before they start a conversation.
 author: neeranelli
 ms.author: nenellim
-ms.date: 06/14/2024
+ms.date: 04/23/2025
 ms.topic: how-to
 ms.collection:
 ms.reviewer: nenellim
@@ -21,7 +21,7 @@ ms.custom:
 
 For the chat channel, you can configure a survey that users can respond to when they access the widget to start a conversation.
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Workstreams** in **Customer support**.
+1. In the site map of Copilot Service admin center, select **Workstreams** in **Customer support**.
 
 1. Select the workstream for the chat channel in which you want to configure the preconversation survey.
 
@@ -64,7 +64,7 @@ More information: [Automatically identify customers using preconversation respon
 ### Related information
 
 [Add a chat widget](add-chat-widget.md)  
-[Configure agent display name](agent-display-name.md)  
+[Configure representative display name](agent-display-name.md)  
 [Configure file attachment capability](configure-file-attachment.md)  
 [Create quick replies](create-quick-replies.md)  
 [Create and manage operating hours](create-operating-hours.md)   

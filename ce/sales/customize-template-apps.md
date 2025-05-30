@@ -2,7 +2,7 @@
 title: Customize Power BI template apps for Sales
 description: Learn how to customize Power BI template apps for Dynamics 365 Sales. Extend reports with custom fields to better visualize your sales data.
 ms.date: 02/25/2025
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

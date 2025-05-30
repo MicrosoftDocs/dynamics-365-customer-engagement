@@ -1,10 +1,10 @@
 ---
 title: Configure Microsoft Teams chats in Customer Service
 description: Learn how to configure Microsoft Teams chat functionality in Dynamics 365 Customer Service.
-ms.date: 01/21/2025
+ms.date: 04/24/2025
 author: lalexms
 ms.author: laalexan
-ms.topic: article
+ms.topic: how-to
 ms.reviewer: laalexan
 search.audienceType: 
   - admin
@@ -16,16 +16,16 @@ search.audienceType:
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-You can configure the ability for customer service representatives (service representatives or representatives) to chat in Microsoft Teams from within Customer Service Hub, Customer Service workspace, Contact Center workspace, and your custom apps. Teams chat is also available in other customer engagement apps such as Dynamics 365 Field Service and Dynamics 365 Sales.
+You can configure the ability for customer service representatives (service representatives or representatives) to chat in Microsoft Teams from within Customer Service Hub, Copilot Service workspace, and your custom apps. Teams chat is also available in other customer engagement apps such as Dynamics 365 Field Service and Dynamics 365 Sales.
 
 > [!NOTE]
-> Teams chat is already enabled for Customer Service workspace, Contact Center workspace, and Customer Service Hub, and you can select other apps that you want to enable it for. 
+> Teams chat is already enabled for Copilot Service workspace and Customer Service Hub, and you can select other apps that you want to enable it for. 
 
 When the feature is enabled for an app, representatives who work on customer records can start a new chat or connect an existing chat to a record. They can collaborate efficiently without switching context or leaving the application. Connecting the associated chats to a record can help representatives maintain all the chats related to the record in one place. You can also configure an optional introduction note that representatives can use to provide further context when collaborating in Teams.
 
 ## Enable or disable Teams chat
 
-If you’re using the Customer Service workspace, Contact Center workspace, or Customer Service Hub apps, Teams chat is automatically enabled. If you want to use Teams chat in other customer engagement apps, you must manually enable it. Teams chat also requires certain permissions to access Teams data.
+If you’re using the Copilot Service workspace or Customer Service Hub apps, Teams chat is automatically enabled. If you want to use Teams chat in other customer engagement apps, you must manually enable it. Teams chat also requires certain permissions to access Teams data.
 
 ### Permissions required
 
@@ -84,9 +84,9 @@ The following data security and privacy considerations apply for Teams chat func
 ### Access the Teams settings
 
 > [!NOTE]
-> Teams settings are enabled by default for the Customer Service workspace and Customer Service Hub apps. If you’re using either of these apps, you can skip this section. If you want to enable Teams chat for other apps, follow these steps.
+> Teams settings are enabled by default for the Copilot Service workspace and Customer Service Hub apps. If you’re using either of these apps, you can skip this section. If you want to enable Teams chat for other apps, follow these steps.
 
-1. In the site map of Customer Service admin app, in **Agent experience**, select **Collaboration**.
+1. In the site map of Copilot Service admin app, in **Support experience**, select **Collaboration**.
     
 1. In **Embedded chat using Teams**, select **Manage**.
 
@@ -94,33 +94,33 @@ The following data security and privacy considerations apply for Teams chat func
 
 1. Select one of the following options:
    - **Turn on for all Dynamics 365 apps** – Enables Teams chat for all supported Dynamics 365 apps in your organization, including any that you add in the future.
-    - **Turn on for selected Dynamics 365 apps** – Enables Teams chat for the apps you choose. If your organization already uses Teams, the selection you made previously remains. If you didn't previously set up Teams, it's on by default for the Customer Service workspace and Customer Service Hub apps.
+    - **Turn on for selected Dynamics 365 apps** – Enables Teams chat for the apps you choose. If your organization already uses Teams, the selection you made previously remains. If you didn't previously set up Teams, it's on by default for the Copilot Service workspace and Customer Service Hub apps.
 
 1. Save the changes.<br>
-   Teams settings are now enabled for Dynamics 365 Customer Service Hub, Customer Service workspace, and your custom apps (and also Field Service and Sales customer engagement apps, if you're using them). You can open a record and verify if you’re able to view the chats and channels related to the record.
+   Teams settings are now enabled for Dynamics 365 Customer Service Hub, Copilot Service workspace, and your custom apps (and also Field Service and Sales customer engagement apps, if you're using them). You can open a record and verify if you’re able to view the chats and channels related to the record.
     
 ### Add the Teams chat settings page for specific multisession users
 
 If you're using the default profile, once you complete the steps in [Add the Teams chat settings page to the sitemap of your app](#add-the-teams-collaboration-and-chat-settings-page-to-the-sitemap-of-your-app), Teams chat is enabled.
 
-If you want Teams chat to work for specific users, you must enable the feature for your custom profile. Learn more about creating custom profiles in [Agent experience profiles](add-profile-default.md).
+If you want Teams chat to work for specific users, you must enable the feature for your custom profile. Learn more about creating custom profiles in [Experience profiles](add-profile-default.md).
 
 To enable Teams chat settings for a custom multisession user, complete the following steps:
 
-1. Create the custom profile from the default profile. Learn more in [Create and use agent experience profiles](/dynamics365/customer-service/administer/create-agent-experience-profile)
+1. Create the custom profile from the default profile. Learn more in [Create and use experience profiles](/dynamics365/customer-service/administer/create-agent-experience-profile)
 
-1. In the site map, in **Agent experience**, select **Collaboration**.
+1. In the site map, in **Support experience**, select **Collaboration**.
     
 1. In **Embedded chat using Teams**, select **Manage**.
     
-1. Ensure that the toggle for **Turn on Microsoft Teams chats inside Dynamics 365** is set to **Yes**, and then in **Turn on for specific multisession users**, select **Manage**. The **Agent experiences profiles** page is displayed.
+1. Ensure that the toggle for **Turn on Microsoft Teams chats inside Dynamics 365** is set to **Yes**, and then in **Turn on for specific multisession users**, select **Manage**. The **Experiences profiles** page is displayed.
 
 1. Select the profile to open it.
 
 1. On the profile page, you can take the following actions:
    - **Add users**: Learn more in [Assign profiles to users](/dynamics365/app-profile-manager/app-profile-manager#assign-profiles-to-users)
-   - **Add an entity session template**: Learn more in [Manage session templates](/dynamics365/app-profile-manager/session-templates?tabs=customerserviceadmincenter)
-   - **Enable the inbox**: Learn more in [Configure the inbox for agents](configure-inbox.md)
+   - **Add an entity session template**: Learn more in [Manage session templates](session-templates.md)
+   - **Enable the inbox**: Learn more in [Configure the inbox for representatives](configure-inbox.md)
    - **Enable productivity pane features**: Learn more in [Productivity pane overview](productivity-pane.md)
    - **Set up channel providers**: Learn more in [Overview of productivity tools](/dynamics365/app-profile-manager/productivity-tools)
 
@@ -128,7 +128,7 @@ To enable Teams chat settings for a custom multisession user, complete the follo
 
 After you enable Teams chats, you can connect the chats to different record types. Standard record types, including case, account, contacts, knowledge article, and email, are available out-of-the-box, or you can add your desired record type.
 
-1. In the site map of the admin app, in **Agent experience**, select **Collaboration**.
+1. In the site map of the admin app, in **Support experience**, select **Collaboration**.
     
 1. In **Embedded chat using Teams**, select **Manage**.
    
@@ -141,7 +141,7 @@ After you enable Teams chats, you can connect the chats to different record type
 
 To add a record type to connect chats to in Dynamics 365 records:
 
-1. In the site map, in **Agent experience**, select **Collaboration**.
+1. In the site map, in **Support experience**, select **Collaboration**.
     
 1. In **Embedded chat using Teams**, select **Manage**.
    
@@ -192,7 +192,7 @@ You can assign the ability to disconnect chats to record owners or users who con
 
 **To enable or disable user-specific rights to disconnect chats:**
 
-1. In the site map of the admin app, in **Agent experience**, select **Collaboration**.
+1. In the site map of the admin app, in **Support experience**, select **Collaboration**.
     
 1. In **Embedded chat using Teams**, select **Manage**.
    
@@ -215,7 +215,7 @@ The following table details the apps and security roles where the disconnect cha
 
 **To edit disconnect chat rights to security roles:**
 
-1. In the site map of the admin app, in **Agent experience**, select **Collaboration**.
+1. In the site map of the admin app, in **Support experience**, select **Collaboration**.
     
 1. In **Embedded chat using Teams**, select **Manage**.
 1. On the **Microsoft Teams collaboration and chat** page, scroll down to **More settings**.
@@ -262,7 +262,7 @@ The ability for users to join existing chats related to cases is especially usef
 
 **To turn on or off the join chat capability for a record type**:
 
-1. In the site map, in **Agent experience**, select **Collaboration**.
+1. In the site map, in **Support experience**, select **Collaboration**.
     
 1. In **Embedded chat using Teams**, select **Manage**.
    
@@ -329,7 +329,7 @@ Additionally, if the representative assigned to the record changes, the new repr
 - For multisession users, you must enable Teams integration in the productivity pane for the app profile assigned to the signed-in user in order for them to be able to select **Open chat** on the timeline. 
 
 ### Enable representatives to view Teams chats on a connected record’s timeline:
-1. In the site map, in **Agent experience**, select **Collaboration**.
+1. In the site map, in **Support experience**, select **Collaboration**.
     
 1. In **Embedded chat using Teams**, select **Manage**. 
  
@@ -343,6 +343,6 @@ Additionally, if the representative assigned to the record changes, the new repr
 [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)  
 [Microsoft Teams integration FAQ](/dynamics365/teams-integration/teams-in-dynamics-faq)  
 [Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md)  
-[Collaborate with AI-suggested agents in Microsoft Teams](../use/use-ai-suggested-contacts-teams.md)  
+[Collaborate with AI-suggested representatives in Microsoft Teams](../use/use-ai-suggested-contacts-teams.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
