@@ -1,5 +1,5 @@
 ---
-title: Configure routing based on shift bookings
+title: Configure shift-based routing for work items
 description: Learn how to configure routing of work items to representatives based on shift schedules of representatives.
 author: neeranelli
 ms.author: nenellim
@@ -10,7 +10,7 @@ ms.date: 04/25/2025
 ms.custom: bap-template
 ---
 
-# Configure routing based on shift bookings
+# Configure shift-based routing for work items
 
 Configure assignment rules to route and assign cases and conversations based on customer service representatives' (service representative or representative) shift bookings in the Dynamics 365 system or schedules imported from external systems. By verifying representatives' schedules in advance, organizations can route tasks to only those service representatives who are available, and reduce the risk of delays. 
 
