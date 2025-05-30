@@ -41,7 +41,7 @@ Azure Communication Services direct routing enables you to connect your existing
   ### [Import multiple numbers](#tab/importmultiplenumbers)
   
    1. Select **Import multiple numbers** to upload phone numbers in bulk. The **Import multiple numbers** pane appears.
-   1. In **Import multiple numbers** pane, enter the following details.
+   1. In the **Import multiple numbers** pane, enter the following details.
       - **Carrier**: Indicates the carrier to which the phone number belongs. If the carrier doesn’t exist yet, you can create a new record.
       - **Country/Region**: Select the country or region the phone number belongs to.
       - **Number type**: Select whether toll-free or a local phone number.  
