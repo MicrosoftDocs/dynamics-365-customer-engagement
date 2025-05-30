@@ -1,7 +1,7 @@
 ---
 title: Removed or deprecated features in Dynamics 365 Sales
 description: Visit this page to see the deprecating features in Dynamics 365 Sales.
-ms.date: 01/09/2024
+ms.date: 05/30/2025
 ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -86,5 +86,9 @@ You can switch to basic auto capture to get activity suggestions. However, no al
 
 Effective March 31, 2022, the Opportunity at Risk (sentiment detection) and Opportunity at Risk (phrase detection) cards are deprecated. After May 30, 2022, these cards will no longer be supported.     
 The Opportunity at Risk cards, both sentiment detection and phrase detection, have been disabled from the backend and insights are no longer generated. However, these cards are still visible through the Settings page. When users are trying to activate these cards, activation fails.
+
+## Power BI template apps for Dynamics 365 Sales are deprecated
+
+Effective May 2025, Sales Analytics for Dynamics 365 Sales and Process Analytics for Dynamics 365 Sales template apps are deprecated and will no longer be available for download. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
