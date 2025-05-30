@@ -50,8 +50,8 @@ Azure Communication Services direct routing enables you to connect your existing
       - **msdyn_phoneinboundenabled**: Shows whether the phone number can receive calls. Set to **True** to receive calls on this number.
       - **msdyn_phoneoutboundenabled**: Shows if the phone number can make calls. Set to **True** to make calls with this number.
     
-    > [!NOTE]
-    > We recommend that you upload 100 numbers at a time. 
+     > [!NOTE]
+     > We recommend that you upload 100 numbers at a time. 
 
     1. Select **Upload** and upload the CSV file. The application validates the file and displays a success message if the file is valid. If the file is invalid, it displays an error message with details about the errors in the file.
     1. Select **Import numbers**. After the import is successful, the phone numbers appear on the **Phone numbers** page.
