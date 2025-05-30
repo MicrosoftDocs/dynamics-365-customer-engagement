@@ -932,7 +932,7 @@ Avg. conversation inactive time (min) = CALCULATE(AVERAGE(FactConversation[InAct
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Average first response time captures how quickly agents acknowledge or begin engaging with customers. It's typically measured in seconds or minutes and is used to assess the efficiency of initial engagement.
+Average first response time measures how quickly agents acknowledge or begin engaging with customers. It's measured in seconds or minutes and is used to assess the efficiency of initial engagement.
 
 ### DAX query and Dataverse reference
 
