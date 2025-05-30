@@ -1009,7 +1009,7 @@ conversations_FactConversation])), 0, rate)
 
 *Applies to Omnichannel historical dashboards.*
 
-Transfer conversation count tracks how many conversations were handed off from one representative to another representative​, a representative to a queue​, a representative to a PSTN number or Teams user​.
+Transfer conversation count is the number of conversations handed off from one representative to another representative​, a representative to a queue​, a representative to a PSTN number or Teams user​.
 
 ### DAX query and Dataverse reference
 
