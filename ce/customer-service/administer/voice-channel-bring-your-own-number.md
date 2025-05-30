@@ -1,7 +1,7 @@
 ---
 title: Bring your own carrier
 description: Use this article to understand how you can bring your own carrier to Dynamics 365 via Azure Direct Routing.
-ms.date: 04/07/2025
+ms.date: 06/03/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -36,9 +36,8 @@ Azure Communication Services direct routing enables you to connect your existing
     
 1. Select **Manage** for **Phone numbers**.
 
-1. Select **Advanced** on the menu.
+1. Select **Advanced** on the menu. In the **Bring your own number via Azure Direct Routing** section you can either add one phone number at a time or import multiple phone numbers in bulk. 
 
-In the **Bring your own number via Azure Direct Routing** section you can either add one phone number at a time or import multiple phone numbers in bulk.
   ### [Import multiple numbers](#tab/importmultiplenumbers)
   
    1. Select **Import multiple numbers** to upload phone numbers in bulk. The **Import multiple numbers** pane appears.
@@ -68,9 +67,9 @@ In the **Bring your own number via Azure Direct Routing** section you can either
          > [!Note]
          > SMS isn't supported with direct routing.
 
----
+  ---
 
-1. Select **Add number**.
+4. Select **Add number**.
 
 The new phone number appears in the **Phone numbers** list and is ready for setup. You can now [connect it to a voice workstream](voice-channel-inbound-calling.md), [configure outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling), or even [assign it to a customer service representative](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-representatives).
 
