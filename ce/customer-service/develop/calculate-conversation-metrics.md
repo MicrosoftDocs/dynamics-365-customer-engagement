@@ -288,7 +288,7 @@ SUMX (FactConversation, IF (NOT FactConversation[DirectionCode], FactConversatio
 
 ### Related metrics
 
-- [Average conversation first wait time](#average-conversation-first-wait-time): Average conversation first wait time is the total wait time for customers waiting in the queue divided by the total number of customers handled.
+- [Average conversation first wait time](#average-conversation-first-wait-time): Average conversation first wait time is the total wait time for customers waiting in the queue divided by the total number of handled conversations.
 - **Longest wait time**: Longest wait time is a measure of the longest first wait time among unaccepted incoming conversations.
 - **Conversations in queue**: The number of conversations waiting for a service representative to be assigned or accept the conversation.
 
@@ -387,7 +387,7 @@ AVERAGEX (FactConversation,IF (FactConversation[IsAgentAccepted] && NOT FactConv
 
 *Applies to Omnichannel real-time dashboards.*
 
-Conversation handle time is the time that service representatives spend actively helping customers and resolving their issues. The system aggregates the time that multiple service representatives spend when they handle a conversation. This metric also includes time that service representatives spend wrapping up the conversation after the customer disconnects, and the time spent in updating notes or contact details. The time that subject matter experts or other service representatives spend consulting on the conversation isn't considered.
+Conversation handle time is the time that service representatives spend actively helping customers and resolving their issues. The system aggregates the time that multiple service representatives spend when they handle a conversation transferred to them. This metric also includes time that service representatives spend wrapping up the conversation after the customer disconnects, and the time spent in updating notes or contact details. The time that subject matter experts or other service representatives spend consulting on the conversation isn't considered.
 
 For chat and digital messaging, a service representative is actively working on a conversation if it's open in the Copilot Service workspace or Contact Service workspace app. When handling multiple conversations, only the time spent on the open tab is factored in the handle time calculation.
 
