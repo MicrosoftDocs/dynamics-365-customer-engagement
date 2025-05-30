@@ -978,7 +978,7 @@ Avg. first response time (sec) = AVERAGE(FactConversation[ReponseTimeInSecondsAd
 
 *Applies to Omnichannel historical dashboards.*
 
-Transfer rate refers to the percentage of customer conversations​ that are transferred from one representative to another​, an agent to a live representative, or one department or queue to another​. This metric is typically expressed as a percentage of total conversations.​
+Transfer rate refers to the percentage of customer conversations​ that are transferred from one representative to another​, an agent to a live representative, or one department or queue to another​. This metric is expressed as a percentage of total conversations.​
 
 ​Transfer Rate (%) = (Number of Transferred Conversations / Total Conversations) × 100​
 
