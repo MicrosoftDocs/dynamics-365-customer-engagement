@@ -58,7 +58,7 @@ Azure Communication Services direct routing enables you to connect your existing
   
   ### [Add number](#tab/addnumber)
    1. Select **Add number** to add a single phone number. The **Add your own phone number** dialog appears.
-   1. In the **Add your own phone number** dialog, enter the following details.
+   1. On the **Add your own phone number** dialog, enter the following details.
       - **Phone number**: Indicates the phone number that you own and configured in your SBC. 
       - **Carrier**: Indicates the carrier to which the phone number belongs. If the carrier doesn’t exist yet, you can create a new record.
       - **Country/Region**: Select the country or region the phone number belongs to.
