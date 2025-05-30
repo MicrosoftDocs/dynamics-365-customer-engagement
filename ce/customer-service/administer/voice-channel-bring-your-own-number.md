@@ -62,7 +62,7 @@ Azure Communication Services direct routing enables you to connect your existing
       - **Phone number**: Indicates the phone number that you own and configured in your SBC. 
       - **Carrier**: Indicates the carrier for the phone number. If the carrier doesn’t exist, create a new record.
       - **Country/Region**: Select the country or region the phone number belongs to.
-      - **Number type**: Select whether toll-free or a local phone number.
+      - **Number type**: Select whether the number is toll-free or local.
       - **Calling plans**: Select whether you can make or receive calls on the phone number.
          > [!Note]
          > SMS isn't supported with direct routing.
