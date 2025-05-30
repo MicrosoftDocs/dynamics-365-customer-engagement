@@ -160,7 +160,7 @@
           href: automation-dictionary-keys.md
         - name: FAQ about adding users to agent experience profile
           href: faq-agent-experience-profile.md
-    - name: Workforce management
+    - name: Manage your workforce
       items:
       - name: Configure the agent calendar view
         href: configure-agent-calendar.md 

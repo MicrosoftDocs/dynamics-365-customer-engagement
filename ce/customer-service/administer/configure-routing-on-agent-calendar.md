@@ -8,6 +8,7 @@ ms.topic: how-to
 ms.collection: 
 ms.date: 04/25/2025
 ms.custom: bap-template
+---
 
 # Configure routing based on shift bookings
 
@@ -33,7 +34,7 @@ With shift bookings, the routing engine considers the shift activity type to det
 
 ## Enable shift-based routing
 
-1. In the Copilot Service admin center site map, select **Workforce management** under **Operations**.
+1. In the site map of Copilot Service admin center, select **Workforce management** under **Operations**.
 1. In the **Shift based routing (preview)** section, select **Manage**.
 1. On the **Shift based routing (preview)** page, turn on the **Enable routing based on shift bookings** toggle, and then select **Save**.
 
@@ -45,7 +46,7 @@ Alternatively, you can use [Organization Service](/power-apps/developer/data-pla
 
 ## Configure an assignment rule
 
-1. In the Copilot Service admin center site map, select **Queues**, and then select **Manage** in the **Advanced queues** area.
+1. In the site map of Copilot Service admin center, select **Queues**, and then select **Manage** in the **Advanced queues** area.
 1. Select the queue that you want to configure the assignment rule for, select the [custom assignment](configure-assignment-rules.md) method, and select **Edit**.
 1. Create a rule or modify an existing rule and do the following:
     1. In **Conditions**, select **Add row**, and then select **Calendar schedule**. The **Is working** value is automatically selected.
