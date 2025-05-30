@@ -767,7 +767,7 @@ Waiting conversations =​
 
 *Applies to Omnichannel real-time dashboards.*
 
-Wrap-up conversations is a count of conversations that are currently in a [Wrap-up state](../use/oc-conversation-state.md#wrap-up).
+Wrap-up conversations is a count of conversations that are currently in the [Wrap-up state](../use/oc-conversation-state.md#wrap-up).
 
 ### DAX query and Dataverse reference
 
