@@ -257,7 +257,7 @@ Abandoned conversations = ​SUMX(FactConversation, IF (FactConversation[IsAband
 
 *Applies to Omnichannel real-time dashboard.*
 
-Conversation first wait time is a measure of the time, in seconds, before a service representative responds to a customer's request. In other words, it represents the amount of time that the customer spends waiting for the first response from a service representative. Service representative availability, a high volume of requests, and increased handle time are some factors that can affect customer wait time. A shorter wait time indicates that customers get faster issue resolution and have a better support experience.
+Conversation first wait time is a measure of the time, in seconds, before a service representative responds to a customer's request. It represents the amount of time the customer spends waiting for the first response from a service representative. Factors such as service representative availability, a high volume of requests, and increased handle time can affect customer wait time. A shorter wait time indicates a faster issue resolution and better support experience.
 
 If an AI agent or IVR handles the customer before it escalates the issue to a service representative, the calculation is based on the time between the point when the AI agent or IVR escalates the incoming conversation to a service representative and the point when the service representative accepts the conversation. If the customer abandons the conversation, the calculation is based on the time between the point when the AI agent or IVR escalates the conversation to a service representative and the point when the customer disconnects the conversation.
 
