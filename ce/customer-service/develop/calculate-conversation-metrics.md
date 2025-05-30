@@ -298,7 +298,7 @@ You can use [Session wait time](../use/session-metrics.md#session-wait-time) met
 
 *Applies to Omnichannel historical dashboard.*
 
-Average conversation first wait time is calculated by dividing the total queue wait time by the number of handled conversations.
+Average conversation first wait time is the total queue wait time divided by the number of handled conversations.
 
 ### DAX query and Dataverse reference
 
