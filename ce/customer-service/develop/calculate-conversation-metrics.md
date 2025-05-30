@@ -288,7 +288,7 @@ SUMX (FactConversation, IF (NOT FactConversation[DirectionCode], FactConversatio
 
 ### Related metrics
 
-- [Average conversation first wait time](#average-conversation-first-wait-time): Average conversation first wait time is calculated by dividing the total wait time for customers who are waiting in the queue by the total number of customers who were handled.
+- [Average conversation first wait time](#average-conversation-first-wait-time): Average conversation first wait time is the total wait time for customers waiting in the queue divided by the total number of customers handled.
 - **Longest wait time**: Longest wait time is a measure of the longest first wait time among unaccepted incoming conversations.
 - **Conversations in queue**: The number of conversations waiting for a service representative to be assigned or accept the conversation.
 
