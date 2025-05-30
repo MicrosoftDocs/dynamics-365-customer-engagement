@@ -89,6 +89,6 @@ The Opportunity at Risk cards, both sentiment detection and phrase detection, ha
 
 ## Power BI template apps for Dynamics 365 Sales are deprecated
 
-Effective May 30, 2025, Sales Analytics for Dynamics 365 Sales and Process Analytics for Dynamics 365 Sales template apps are deprecated and will no longer be available for download. 
+Effective May 2025, Sales Analytics for Dynamics 365 Sales and Process Analytics for Dynamics 365 Sales template apps are deprecated and will no longer be available for download. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
