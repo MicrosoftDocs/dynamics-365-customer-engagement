@@ -49,10 +49,9 @@ Azure Communication Services direct routing enables you to connect your existing
       - **msdyn_phonenumber**: Shows the phone number that you own and configured in your SBC. The maximum length of the phone number is 15 digits. When the phone number has greater than 10 digits, you must enclose the number in double quotes. For example, "123456789012345". You don't need to add "+" to the phone number. The application adds "+" automatically when you upload the CSV file.
       - **msdyn_phoneinboundenabled**: Shows whether the phone number can receive calls. Set to **True** to receive calls on this number.
       - **msdyn_phoneoutboundenabled**: Shows if the phone number can make calls. Set to **True** to make calls with this number.
-    1. Select **Upload** and upload the CSV file. The application validates the file and displays a success message if the file is valid. If the file is invalid, it displays an error message with details about the errors in the file.  
-    
-      > [!NOTE]
-      > We recommend that you add 100 numbers at a time. 
+    1. Select **Upload** and upload the CSV file. The application validates the file and displays a success message if the file is valid. If the file is invalid, it displays an error message with details about the errors in the file.      
+    > [!NOTE]
+    > We recommend that you add 100 numbers at a time. 
     1. Select **Import numbers**. After the import is successful, the phone numbers appear on the **Phone numbers** page.
     1. On the **Phone Numbers** page, select **Import status** to view the status of the import. 
   
