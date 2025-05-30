@@ -60,8 +60,8 @@ You can manage members in a static marketing list by using one of the following 
 > [!NOTE]
 > - You can only add active records to a static marketing list.
 > - To add more than 30,000 members to a static marketing list, you must either be a part of the Salesperson security role or higher, or have the **List Operation** permission.
-> - :::image type="content" source="media/listoperation.png" alt-text="Screenshot of Listoperation permission in the custom entities tab.":::
-> -  When you add up to 30000 members to the marketing list, the add operation is performed synchronously. However, when the number of members exceeds 30000, the add operation is performed asynchronously in batches of 1000.
+> - :::image type="content" source="media/listoperation.png" alt-text="Screenshot of List operation permission in the custom entities tab.":::
+> -  When you add up to 30,000 members to the marketing list, the add operation is performed synchronously. However, when the number of members exceeds 30000, the add operation is performed asynchronously in batches of 1000.
 > - You can add up to 120,000 members to a static marketing list through a single Add operation. If you need to add more than 120,000 members to a static marketing list, split those members and perform multiple add operations. One way to do this is by using the [Advanced Find](#add-using-advanced-find) dialog to create queries that return less than 120,000 members. Alternatively, depending on your scenario, you can also consider using a dynamic marketing list instead of static list. More information: [Create a dynamic marketing list](#define-the-member-selection-criteria-for-a-dynamic-marketing-list)
 
 ### Add using Lookup
@@ -103,7 +103,7 @@ This option allows you to remove members from a marketing list in bulk based on 
     - Remove all
     
 > [!NOTE]
-> For the better performance of application and avoid time outs, remove the members in the marketing list in groups of 10000 at a time. For example, if there are 20000 members in a marketing list and you want to remove the members. Remove 10,000 members first and then remove the other 10000.
+> For the better performance of application and avoid time outs, remove the members in the marketing list in groups of 10000 at a time. For example, if there are 20,000 members in a marketing list and you want to remove the members. Remove 10,000 members first and then remove the other 10000.
 
 ### Evaluate using Advanced Find
 
@@ -138,11 +138,11 @@ After you create a campaign or quick campaign, you can associate it to your mark
 
   > [!NOTE]
   > - If you don't have any campaigns, or if you want to create a new one, you can select **New**.
-  > - If you don't have any quick campaigns, the Quick Campaign Wizard will start.
+  > - If you don't have any quick campaigns, the Quick Campaign Wizard starts.
 
 ## Customized marketing list form
 
-If you're using a custom form for a marketing list that doesn't include certain fields, you'll see the following message: 'The form is missing the following elements: 'query', 'membertype', 'accountsUCI', 'contactsUCI', 'leadsUCI', 'dynamic_accounts', 'dynamic_contacts', 'dynamic_leads'. Functionalities will be affected.
+If you're using a custom form for a marketing list that doesn't include certain fields, you see the following message: 'The form is missing the following elements: 'query', 'membertype', 'accountsUCI', 'contactsUCI', 'leadsUCI', 'dynamic_accounts', 'dynamic_contacts', 'dynamic_leads'. Functionalities will be affected.
 
 The elements listed in the message are required to populate the members list that is included in the default form. If your custom form doesn't display the members list, you can ignore the message.
 
