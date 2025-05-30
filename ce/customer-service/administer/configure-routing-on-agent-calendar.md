@@ -24,7 +24,7 @@ With shift bookings, the routing engine considers the shift activity type to det
 ## Prerequisites
 
 - [Workforce Management for Customer Service](configure-agent-calendar.md#enable-workforce-management) is enabled in your environment, or a non-Microsoft adapter is configured to import representative schedules from an external system. If you're importing external schedules using the non-Microsoft adapter, opt in every representative ([bookableresource](../develop/reference/entities/bookableresource.md)) into shift-based routing by setting the **msdyn_generatecalendarfromshift** column of the corresponding bookableresource entry to **True**.
-- Shift bookings are created in the Dynamics 365 system.
+- [Shift bookings](/dynamics365/contact-center/use/wfm-shift-plan) are created in the Dynamics 365 system.
 - [Unified routing](provision-unified-routing.md) is enabled and set up.
 - [Workstreams](create-workstreams.md) and [advanced queues](queues-omnichannel.md) are set up.
 - [Custom assignment method](configure-assignment-rules.md) is configured for the queue.
