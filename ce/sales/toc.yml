@@ -631,10 +631,6 @@ items:
           href: ri-overview.md
         - name: Enable relationship intelligence
           href: enable-ri.md
-        - name: Configure relationship analytics and health
-          href: configure-relationship-analytics.md
-        - name: Configure who knows whom
-          href: configure-who-knows-whom.md
         - name: Insights generated from Microsoft 365 data
           href: insights-from-m365.md
         - name: Microsoft 365 consent types
