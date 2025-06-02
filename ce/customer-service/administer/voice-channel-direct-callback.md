@@ -4,7 +4,7 @@ description: Learn how to configure and use direct callback in the voice channel
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 12/14/2024
+ms.date: 06/02/2025
 ms.topic: how-to
 ms.custom: bap-template
 ---
