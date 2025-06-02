@@ -46,7 +46,7 @@ Perform the following steps:
 
 ## Enable the enhanced dialer experience
 
-When the service representative selects **Call** in the outbound dialer, a widget appears on the dialer pane and shows the status of the call. Representatives can also initiate multiple calls from the dialer. Learn more in [Make a call using the outbound dialer](../use/use/voice-channel-call-customer.md#make-a-call-using-the-outbound-dialer)
+When the service representative selects **Call** in the outbound dialer, a widget appears on the dialer pane and shows the status of the call. Representatives can also initiate multiple calls from the dialer. Learn more in [Make a call using the outbound dialer](../use/voice-channel-call-customer.md#make-a-call-using-the-outbound-dialer)
 
 Perform the following steps to enable the widget:
 
