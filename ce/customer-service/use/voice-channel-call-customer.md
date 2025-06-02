@@ -33,7 +33,7 @@ To test your microphone and speaker, do the following steps:
    > [!NOTE]
    > - You can set a secondary ringer only if you have multiple devices connected to your system.
    > - If the device set as a secondary ringer is disconnected, incoming call notifications won't be extended.
-   > - If the secondary ringer is unavailable, for example, when your laptop is out of range for your headset's Bluetooth connection, the application removes the secondary ringer. You must reconfigure the secondary ringer after you reconnect the device.
+   > - If the secondary ringer is unavailable (for example, when your laptop is out of range for your headset's Bluetooth connection), the application removes the secondary ringer. You must reconfigure the secondary ringer after you reconnect the device.
 
 4. Select the following options:
     - **Test speaker**. The application plays a sound that stops automatically after 15 seconds. 
@@ -41,7 +41,7 @@ To test your microphone and speaker, do the following steps:
     - **Make a test call**: The following actions occur:
        - The **Active Conversation** form opens with the message that a test call is in progress. 
        - The **Communication Panel** displays the device settings and the **End call** button. 
-       - When you select device settings, you can see the speaker and microphone. A visual indicator is displayed against the device to indicate that it is connected. 
+       - When you select device settings, you can see the speaker and microphone. A visual indicator appears and indicates that the device is connected. 
 
     > [!NOTE]
     > You can select the **Device settings** or use **Settings** in the **Dialer** to test your microphone and speaker when you're in an ongoing call. 
@@ -77,17 +77,16 @@ To test your microphone and speaker, do the following steps:
 
 The outbound dialer pane displays the following information:
 
-- A widget appears with the message, Communication panel loading, and that the call has started.
-- When the call connects, you see the customer details on the conversation page. The widget displays the call status, and the **Mute** and **End call** call controls.
-- The call controls you select on the widget, reflect on the ongoing call in Communication panel. For example, if you select **Mute** on the widget, the call is muted in the Communication panel.
-- You can view all the active calls, inbound and outbound, on the widget.
+- A widget appears with the message, "Communication panel loading", and indicates that the call has started.
+- When the call connects, the customer details appear on the conversation page. The widget displays the call status and the **Mute** and **End call** call controls.
+- The call controls you select on the widget reflect on the ongoing call in the Communication panel. For example, if you select **Mute** on the widget, the call is indicated as muted in the Communication panel.
+- You can view all the active calls, including inbound and outbound, on the widget.
 - If you have multiple active calls, the calls are displayed.
 
     :::image type="content" source="../media/outbound-dialer-improvement.png" alt-text="Screenshot of widget with Outbound dialer for voice calls.":::
 
 
 ### Related information
-
 
 [Use agent dashboard and call controls in the voice channel](/dynamics365/contact-center/use/voice-channel-agent-experience)    
 [Overview of the voice channel](../administer/voice-channel.md)  
