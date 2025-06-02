@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 05/16/2025
+ms.date: 05/30/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -38,7 +38,7 @@ Learn more in [conversation states](../use/oc-conversation-state.md#understand-c
 
 ### DAX query and Dataverse reference
 
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+The following Data Analysis Expression (DAX) query and corresponding Dataverse entities are used in the Power BI semantic model. Learn more in [DAX queries](/dax/dax-queries). 
 
 ### [Historical analytics](#tab/historicalpage)
 
@@ -257,7 +257,7 @@ Abandoned conversations = ​SUMX(FactConversation, IF (FactConversation[IsAband
 
 *Applies to Omnichannel real-time dashboard.*
 
-This metric is a measure of the time, in seconds, before a service representative responds to a customer's request. In other words, it represents the amount of time that the customer spends waiting for the first response from a service representative. Service representative availability, a high volume of requests, and increased handle time are some factors that can affect customer wait time. A shorter wait time indicates that customers get faster issue resolution and have a better support experience.
+Conversation first wait time is a measure of the time, in seconds, before a service representative responds to a customer's request. It represents the amount of time the customer spends waiting for the first response from a service representative. Factors such as service representative availability, a high volume of requests, and increased handle time can affect customer wait time. A shorter wait time indicates a faster issue resolution and better support experience.
 
 If an AI agent or IVR handles the customer before it escalates the issue to a service representative, the calculation is based on the time between the point when the AI agent or IVR escalates the incoming conversation to a service representative and the point when the service representative accepts the conversation. If the customer abandons the conversation, the calculation is based on the time between the point when the AI agent or IVR escalates the conversation to a service representative and the point when the customer disconnects the conversation.
 
@@ -288,8 +288,8 @@ SUMX (FactConversation, IF (NOT FactConversation[DirectionCode], FactConversatio
 
 ### Related metrics
 
-- [Average conversation first wait time](#average-conversation-first-wait-time): This metric is calculated by dividing the total wait time for customers who are waiting in the queue by the total number of customers who were handled.
-- **Longest wait time**: This metric is a measure of the longest first wait time among unaccepted incoming conversations.
+- [Average conversation first wait time](#average-conversation-first-wait-time): Average conversation first wait time is the total wait time for customers waiting in the queue divided by the total number of handled conversations.
+- **Longest wait time**: Longest wait time is a measure of the longest first wait time among unaccepted incoming conversations.
 - **Conversations in queue**: The number of conversations waiting for a service representative to be assigned or accept the conversation.
 
 You can use [Session wait time](../use/session-metrics.md#session-wait-time) metrics to calculate the time spent by customers waiting in individual queues when they're transferred from one service representative to another.
@@ -298,7 +298,7 @@ You can use [Session wait time](../use/session-metrics.md#session-wait-time) met
 
 *Applies to Omnichannel historical dashboard.*
 
-This metric is calculated by dividing the total queue wait time by the number of handled conversations.
+Average conversation first wait time is the total queue wait time divided by the number of handled conversations.
 
 ### DAX query and Dataverse reference
 
@@ -324,7 +324,7 @@ Avg. conversation first wait time (sec) =​
 
 *Applies to Omnichannel real-time and historical dashboards.*
 
-This metric measures how quickly the service team responds to customer requests. It's calculated by dividing the total queue wait time (after the issue is escalated from an AI agent to a service representative) by the number of handled conversations. A lower average speed to answer means faster issue resolution and a better customer experience.
+Average speed to answer measures how quickly the service team responds to customer requests. It's the total queue wait time (after the conversation is escalated from an AI agent to a service representative) divided by the number of handled conversations. A lower average speed to answer indicates a faster issue resolution and better customer experience.
 
 For an AI agent conversation, this metric measures the time from when the AI agent escalates the incoming conversation to when a service representative accepts it.
 
@@ -387,13 +387,13 @@ AVERAGEX (FactConversation,IF (FactConversation[IsAgentAccepted] && NOT FactConv
 
 *Applies to Omnichannel real-time dashboards.*
 
-This metric is a measure of the time that service representatives spend actively helping customers and resolving their issues. If multiple service representatives handle a conversation, the time that all the service representatives spend is aggregated. This metric also includes time that service representatives spend wrapping up the conversation after the customer disconnects, and the time spent in updating notes or contact details. However, it excludes time that subject matter experts or other service representatives spend consulting on the conversation.
+Conversation handle time is the time that service representatives spend actively helping customers and resolving their issues. The system aggregates the time that multiple service representatives spend when they handle a conversation transferred to them. This metric also includes time that service representatives spend wrapping up the conversation after the customer disconnects, and the time spent in updating notes or contact details. The time that subject matter experts or other service representatives spend consulting on the conversation isn't considered.
 
 For chat and digital messaging, a service representative is actively working on a conversation if it's open in the Copilot Service workspace or Contact Service workspace app. When handling multiple conversations, only the time spent on the open tab is factored in the handle time calculation.
 
 For the **Voice** report, this metric is the sum of total talk time, total hold time, and total active wrap-up time or after-call work, divided by the number of calls handled, where:
 
-:::image type="content" source="../media/aht_voice.png" alt-text="Screenshot of how average handle time is calculated for voice.":::
+:::image type="content" source="../media/aht_voice.png" alt-text="Screenshot of average handle time for voice.":::
 
 For the **Chat** report, this metric is the sum of the active chat time and active wrap-up time, divided by the number of chats handled, where:
 
@@ -564,7 +564,7 @@ Avg. conversation talk time (sec) = AVERAGE(FactConversation[ConversationTalkTim
 ---
 ### Related metric
 
-- **Conversation talk time**: This metric is calculated based on the total talk time across all conversations.
+- **Conversation talk time**: Conversation talk time is calculated based on the total talk time across all conversations.
 
 ## Average conversation time
 
@@ -620,13 +620,13 @@ Avg. conversation time (sec) = ​AVERAGE (FactConversation[ConversationTimeInSe
 
 ### Related metric
 
-- **Conversation time**: This metric measures the time from when the customer initiates a request to when the service representative wraps up the conversation.
+- **Conversation time**: Conversation time is the duration from when a customer starts a request until a service representative completes the conversation.
 
 ## Average conversation wrap-up time
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-This metric is a measure of the average time that a service representative spends completing any necessary tasks after the customer disconnects. These tasks might include documenting the conversation, updating notes, or updating the customer's information. This metric measures the time from the start of wrap-up to when the service representative closes the conversation. If multiple representatives handled the conversation, only the last representative's wrap-up time is counted.
+Average conversation wrap-up time is a measure of the average time that a service representative spends completing any necessary tasks after the customer disconnects. These tasks might include documenting the conversation, updating notes, or updating the customer's information. This metric measures the time from the start of wrap-up to when the service representative closes the conversation. If multiple representatives handled the conversation, only the last representative's wrap-up time is counted.
 
 This metric can be viewed in two formats: seconds and hh:mm:ss. 
 
@@ -767,7 +767,7 @@ Waiting conversations =​
 
 *Applies to Omnichannel real-time dashboards.*
 
-This metric is a count of conversations that are currently in a [Wrap-up state](../use/oc-conversation-state.md#wrap-up).
+Wrap-up conversations is a count of conversations that are currently in the [Wrap-up state](../use/oc-conversation-state.md#wrap-up).
 
 ### DAX query and Dataverse reference
 
@@ -854,7 +854,7 @@ DIVIDE(SUMX(FactConversation,IF(FactConversation[IsAbandoned] && NOT FactConvers
 
 *Applies to Omnichannel real-time dashboards.*
 
-This metric is used in contact center analytics to measure how long, on an average, a customer waits before abandoning a conversation, typically before being connected to a representative.​ This metric captures the average duration (in seconds).
+Average time to abandon (sec) measures how long, on an average, a customer waits before abandoning a conversation, before being connected to a representative.​ This metric captures the average duration (in seconds).
 
 ### DAX query and Dataverse reference
 
@@ -880,7 +880,7 @@ Avg. time to abandon (sec) = ​AVERAGEX (FactConversation, IF (FactConversation
 
 *Applies to Omnichannel historical dashboards.*
 
-This metric measures the actual time spent by an agent actively handling a conversation, either through chat or voice, across all sessions. It excludes passive durations like hold time or inactive wrap-up time.​
+Average conversation active time measures the actual time spent by an agent actively handling a conversation, either through chat or voice, across all sessions. Passive durations such as hold time or inactive wrap-up time aren't considered.​
 
 ### DAX query and Dataverse reference
 
@@ -932,7 +932,7 @@ Avg. conversation inactive time (min) = CALCULATE(AVERAGE(FactConversation[InAct
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-This metric captures how quickly agents acknowledge or begin engaging with customers. It's typically measured in seconds or minutes and is used to assess the efficiency of initial engagement.
+Average first response time measures how quickly agents acknowledge or begin engaging with customers. It's measured in seconds or minutes and is used to assess the efficiency of initial engagement.
 
 ### DAX query and Dataverse reference
 
@@ -978,7 +978,7 @@ Avg. first response time (sec) = AVERAGE(FactConversation[ReponseTimeInSecondsAd
 
 *Applies to Omnichannel historical dashboards.*
 
-This metric refers to the percentage of customer conversations​ that are transferred from one representative to another​, an agent to a live representative, or one department or queue to another​. This metric is typically expressed as a percentage of total conversations.​
+Transfer rate refers to the percentage of customer conversations​ that are transferred from one representative to another​, an agent to a live representative, or one department or queue to another​. This metric is expressed as a percentage of total conversations.​
 
 ​Transfer Rate (%) = (Number of Transferred Conversations / Total Conversations) × 100​
 
@@ -1009,7 +1009,7 @@ conversations_FactConversation])), 0, rate)
 
 *Applies to Omnichannel historical dashboards.*
 
-​This metric tracks how many conversations were handed off from one representative to another representative​, a representative to a queue​, a representative to a PSTN number or Teams user​.
+Transfer conversation count is the number of conversations handed off from one representative to another representative​, a representative to a queue​, a representative to a PSTN number or Teams user​.
 
 ### DAX query and Dataverse reference
 

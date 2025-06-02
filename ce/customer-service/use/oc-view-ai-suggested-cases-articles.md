@@ -1,7 +1,7 @@
 ---
 title: View smart assist suggestions for knowledge articles and similar cases using AI
 description: View smart assist suggestions for knowledge articles and similar cases using AI.
-ms.date: 01/27/2025
+ms.date: 05/29/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
