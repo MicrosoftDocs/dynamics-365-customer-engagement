@@ -19,7 +19,7 @@ You can launch the outbound dialer from the menu bar, **Contacts** or **Active c
 
 ## Prerequisites
 
-Make sure that the administrator has assigned a voice queue and an outbound capacity profile to your user profile. Learn more in [Manage contact center users](../administer/users-user-profiles.md#manage-contact-center-users).
+Make sure that your administrator assigned a voice queue and an outbound capacity profile to your user profile. Learn more in [Manage contact center users](../administer/users-user-profiles.md#manage-contact-center-users).
 
 ## Test call controls, make a test call 
 
@@ -29,10 +29,10 @@ To test your microphone and speaker, do the following steps:
 
 1. In Copilot Service workspace, select the **Launch dialer** phone icon on the menu bar and then select the **Settings** icon. 
 1. In the **Speaker** and **Microphone** sections, select the speaker and microphone to test. If you have multiple devices, the default devices that are currently in use appear. The speaker that you select is the primary ringer and plays notifications for calls and chat notifications.
-1. In the **Secondary Ringer** section, select the device to be used to amplify or extend incoming call notifications. This is useful in noisy environments where the primary device's ringtone is low or difficult to hear. 
+1. In the **Secondary Ringer** section, select the device to be used to amplify or extend incoming call notifications. This feature is useful in noisy environments where the primary device's ringtone is low or difficult to hear. 
    > [!NOTE]
    > - You can set a secondary ringer only if you have multiple devices connected to your system.
-   > - If the device set as a secondary ringer is disconnected, incoming call notifications won't be extended.
+   > - If the device set as a secondary ringer is disconnected, incoming call notifications aren't extended.
    > - If the secondary ringer is unavailable (for example, when your laptop is out of range for your headset's Bluetooth connection), the application removes the secondary ringer. You must reconfigure the secondary ringer after you reconnect the device.
 
 4. Select the following options:
@@ -54,22 +54,22 @@ To test your microphone and speaker, do the following steps:
      The **Dial number** panel appears. You can perform the following actions:<br>
      - Search for a contact or account by name. The results are displayed in a dropdown. You can select **Account** or **Contact** to filter the results further. Once you select the customer's name, the application displays the customer's phone number, name, country/region, country code, and outbound profile that you can use to make the call.
        > [!NOTE]
-       > For a contact, you'll see the business number and the mobile number. For an account you'll see the main phone number.   
+       > For a contact, you see the business number and the mobile number. For an account, you see the main phone number.   
      - On the input box, you can copy, type in a number, or select a number from the recently dialed numbers. The country code dropdown displays the list of supported countries and regions that you can call. 
-     - View and call from the most recently dialed called numbers. By default, the last 20 calls that you’ve received or made are displayed.
+     - View and call from the most recently dialed called numbers. By default, the last 20 calls that you received or made are displayed.
      - You can select the customer's name in **Recents** to view the customer's account or contact details in a new session.
-     - In the profile dropdown, the outbound profile and the phone number that you're using to make the call is displayed. This is the outbound calling number that is displayed on the customer's phone when they receive your call. 
+     - In the profile dropdown, the outbound profile and the phone number that you're using to make the call is displayed. This number is the outbound calling number that appears on the customer's phone when they receive your call. 
      - Select **Set default** in the profile dropdown to set an outbound profile as the default profile for all your calls.
      - You can call those phone numbers only whose regions are configured in the outbound profiles.
      - When you select a country/region from the dropdown, the appropriate country code is populated in the phone number field. If you change the country code while making an outbound call, the new country/region becomes the default code.
      - The dropdown displays the list of supported countries and regions from all the outbound profiles assigned to you. 
-     - When you enter the number you'd like to call, the application identifies the outbound profile that has the dialed number's country or region configured.
+     - When you enter the number you want to call, the application identifies the outbound profile that has the dialed number's country/region configured.
      - By default, the number pad is hidden. To display the number pad, select the number pad icon.
 
 3. Select **Call**. 
 
    > [!NOTE]
-   > - If you aren't assigned an outbound profile, you won't be able to make a call.
+   > - If you aren't assigned an outbound profile, you can't make a call.
    > - You can initiate multiple calls at the same time.
 
     :::image type="content" source="../media/outbound-dialer.png" alt-text="Outbound dialer for voice calls.":::
@@ -77,7 +77,7 @@ To test your microphone and speaker, do the following steps:
 
 The outbound dialer pane displays the following information:
 
-- A widget appears with the message, "Communication panel loading", and indicates that the call has started.
+- A widget appears with the message, "Communication panel loading", and indicates that the call started.
 - When the call connects, the customer details appear on the conversation page. The widget displays the call status and the **Mute** and **End call** call controls.
 - The call controls you select on the widget reflect on the ongoing call in the Communication panel. For example, if you select **Mute** on the widget, the call is indicated as muted in the Communication panel.
 - You can view all the active calls, including inbound and outbound, on the widget.
