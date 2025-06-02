@@ -1,7 +1,7 @@
 ---
 title: Configure automated messages
 description: Learn how to configure automated messages that can be sent through a channel in your contact center.
-ms.date: 04/24/2025
+ms.date: 05/29/2025
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -21,6 +21,9 @@ As an administrator, you can also overwrite or deactivate the preconfigured, out
 ## Display a list of all automated messages
 
 You can view a list of all representative and customer-facing automated messages in your Omnichannel for Customer Service environment.
+
+> [!NOTE]
+> Automated messages aren't shown in the customer chat transcript.
 
 1. In the site map of Copilot Service admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
 1. In the **Automated messages** section, select **Manage**. The **Automated messages** page is displayed.
