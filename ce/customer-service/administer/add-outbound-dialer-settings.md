@@ -26,12 +26,12 @@ This article describes how you can configure various settings for the outbound d
 
 ## Enable service representatives to search for contacts and open records from outbound dialer
 
-In the outbound dialer, customer  can search for customers by name. Representatives can also select and open a customer's record from the recently dialed number list. Once the representative initiates a call, a widget is displayed on the dialer pane with the status of the call.
+In the outbound dialer, service representatives can search for customers by name. They can also select and open a customer's record from the recently dialed number list. When the representative initiates a call, a widget appears on the dialer pane and shows the status of the call.
 
 ### Prerequisites
 
--  Enable [Dataverse search](/power-platform/admin/configure-relevance-search-organization) for your environment in Power Platform admin center. 
-- Configure the minimum number of characters that should trigger the search. More information: [Lookup behavior](/power-platform/admin/settings-behavior#settings).
+- Enable [Dataverse search](/power-platform/admin/configure-relevance-search-organization) for your environment in Power Platform admin center. 
+- Configure the minimum number of characters that should trigger the search. Learn more in [Lookup behavior](/power-platform/admin/settings-behavior#settings).
 
 ### Configure search by name, open records
 
@@ -41,12 +41,12 @@ Perform the following steps:
 1.  Select and [edit the following setting definitions](/power-apps/maker/data-platform/create-edit-configure-settings#updating-a-setting-definition):
    - **Enhanced outbound dialer April 2024 improvements**: Enables representatives to select and open customers records from the recently dialed number list in the outbound dialer.
    - **Enhanced outbound dialer contact search experience**: Enables representatives to search for contacts and accounts by name.
-3. Select the setting definitions, and set the **Setting environment value** option to **Yes**. More information: [Update a setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#updating-a-setting-definition).
+3. Select the setting definitions, and set the **Setting environment value** option to **Yes**. Learn more in [Update a setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#updating-a-setting-definition).
 4. Save and publish the changes.
 
-## Enable enhanced dialer experience
+## Enable the enhanced dialer experience
 
-Once the service representative selects **Call** in the outbound dialer, a widget is displayed on the dialer pane with the status of the call. Representatives can also initiate multiple calls from the dialer. Learn more in [Make a call using the outbound dialer](../use/use/voice-channel-call-customer.md#make-a-call-using-the-outbound-dialer)
+When the service representative selects **Call** in the outbound dialer, a widget appears on the dialer pane and shows the status of the call. Representatives can also initiate multiple calls from the dialer. Learn more in [Make a call using the outbound dialer](../use/use/voice-channel-call-customer.md#make-a-call-using-the-outbound-dialer)
 
 Perform the following steps to enable the widget:
 
