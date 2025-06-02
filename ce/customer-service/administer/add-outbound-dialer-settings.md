@@ -1,6 +1,6 @@
 ---
-title: Enable service representatives to search for contacts and open records from outbound dialer
-description: Enable service representatives to search for customer contacts or accounts by name, open records from Recents tab in the outbound dialer. 
+title: Configure outbound dialer settings
+description: Enable administrators to configure outbound dialer settings.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -15,18 +15,25 @@ ms.custom:
   - ai-gen-desc
 ---
 
-# Enable service representatives to search for contacts and open records from outbound dialer 
+# Configure outbound dialer settings
+
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-In the outbound dialer, customer service representatives (service representatives or representatives) can search for customers by name. Representatives can also select and open a customer's record from the recently dialed number list.
+Customer service representatives (service representatives or representatives) can place a call to a customer using the outbound dialer.
 
-## Prerequisites
+This article describes how you can configure various settings for the outbound dialer in the Copilot Service admin center. 
+
+## Enable service representatives to search for contacts and open records from outbound dialer
+
+In the outbound dialer, customer  can search for customers by name. Representatives can also select and open a customer's record from the recently dialed number list. Once the representative initiates a call, a widget is displayed on the dialer pane with the status of the call.
+
+### Prerequisites
 
 -  Enable [Dataverse search](/power-platform/admin/configure-relevance-search-organization) for your environment in Power Platform admin center. 
 - Configure the minimum number of characters that should trigger the search. More information: [Lookup behavior](/power-platform/admin/settings-behavior#settings).
 
-## Configure search by name, open records
+### Configure search by name, open records
 
 Perform the following steps:
 
@@ -37,4 +44,13 @@ Perform the following steps:
 3. Select the setting definitions, and set the **Setting environment value** option to **Yes**. More information: [Update a setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#updating-a-setting-definition).
 4. Save and publish the changes.
 
+## Enable enhanced dialer experience
+
+Once the service representative selects **Call** in the outbound dialer, a widget is displayed on the dialer pane with the status of the call. Representatives can also initiate multiple calls from the dialer. Learn more in [Make a call using the outbound dialer](../use/use/voice-channel-call-customer.md#make-a-call-using-the-outbound-dialer)
+
+Perform the following steps to enable the widget:
+
+1. In Copilot Service admin center, select **Miscellaneous** in **Operations**.
+1. Select **Manage** for **New and upcoming features**. The **New and upcoming features** page appears.
+1. Select  **New outbound calling experience**.
 
