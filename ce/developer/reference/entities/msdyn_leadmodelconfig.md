@@ -181,7 +181,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**msdyn_featurestate**|
+|DisplayName|**msdyn\_featurestate**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_featurestate`|

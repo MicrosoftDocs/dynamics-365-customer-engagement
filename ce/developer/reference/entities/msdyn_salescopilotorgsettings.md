@@ -188,7 +188,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Status of the msdyn_salescopilotorgsettings**|
+|Description|**Status of the msdyn\_salescopilotorgsettings**|
 |DisplayName|**Status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -209,7 +209,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Reason for the status of the msdyn_salescopilotorgsettings**|
+|Description|**Reason for the status of the msdyn\_salescopilotorgsettings**|
 |DisplayName|**Status Reason**|
 |IsValidForForm|True|
 |IsValidForRead|True|

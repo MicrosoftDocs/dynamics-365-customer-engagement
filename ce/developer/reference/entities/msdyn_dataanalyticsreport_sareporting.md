@@ -105,7 +105,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Unique identifier for entity instances**|
-|DisplayName|**DataAnalyticsReport_SAReporting**|
+|DisplayName|**DataAnalyticsReport\_SAReporting**|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`msdyn_dataanalyticsreport_sareportingid`|
@@ -210,7 +210,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Status of the DataAnalyticsReport_SAReporting**|
+|Description|**Status of the DataAnalyticsReport\_SAReporting**|
 |DisplayName|**Status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -231,7 +231,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Reason for the status of the DataAnalyticsReport_SAReporting**|
+|Description|**Reason for the status of the DataAnalyticsReport\_SAReporting**|
 |DisplayName|**Status Reason**|
 |IsValidForForm|True|
 |IsValidForRead|True|

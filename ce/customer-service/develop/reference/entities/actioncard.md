@@ -27,12 +27,15 @@ Changes from [RegardingObjectId (Microsoft Dataverse)](/power-apps/developer/dat
 
 |Property|Value|
 |---|---|
-|Targets|msdyn_bookingalert|
+|Targets|msdyn_bookingalert, msdyn_ocoutboundmessage|
 
 
 ## Many-to-One relationships
 
 These relationships are many-to-one. Listed by **SchemaName**.
+
+- [msdyn_bookingalert_ActionCards](#BKMK_msdyn_bookingalert_ActionCards)
+- [msdyn_ocoutboundmessage_ActionCards](#BKMK_msdyn_ocoutboundmessage_ActionCards)
 
 ### <a name="BKMK_msdyn_bookingalert_ActionCards"></a> msdyn_bookingalert_ActionCards
 
@@ -44,6 +47,19 @@ One-To-Many Relationship: [msdyn_bookingalert msdyn_bookingalert_ActionCards](ms
 |ReferencedAttribute|`activityid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_bookingalert`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocoutboundmessage_ActionCards"></a> msdyn_ocoutboundmessage_ActionCards
+
+One-To-Many Relationship: [msdyn_ocoutboundmessage msdyn_ocoutboundmessage_ActionCards](msdyn_ocoutboundmessage.md#BKMK_msdyn_ocoutboundmessage_ActionCards)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocoutboundmessage`|
+|ReferencedAttribute|`activityid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocoutboundmessage`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

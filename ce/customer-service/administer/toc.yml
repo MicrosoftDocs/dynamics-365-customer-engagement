@@ -160,11 +160,11 @@
           href: automation-dictionary-keys.md
         - name: FAQ about adding users to agent experience profile
           href: faq-agent-experience-profile.md
-    - name: Workforce management
+    - name: Manage your workforce
       items:
       - name: Configure the agent calendar view
         href: configure-agent-calendar.md 
-      - name: Configure routing based on agent calendar (preview)
+      - name: Configure shift-based routing for work items
         href: configure-routing-on-agent-calendar.md
     - name: Community
       items:
@@ -530,6 +530,8 @@
         href: show-queue.md
       - name: Show customers their average wait time in a queue
         href: average-wait-time.md
+      - name: Configure live conversation counter to view customer wait time
+        href: configure-live-conv-counter.md
       - name: Delete a channel instance
         href: delete-channel.md
       - name: Manage enhanced Active Conversation settings

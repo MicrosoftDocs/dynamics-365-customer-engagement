@@ -25,6 +25,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_bookingstatusid](#BKMK_msdyn_bookingstatusid)
 - [msdyn_BookingType](#BKMK_msdyn_BookingType)
 - [msdyn_ResourceRequirement](#BKMK_msdyn_ResourceRequirement)
+- [msdyn_TzaEndTime](#BKMK_msdyn_TzaEndTime)
+- [msdyn_TzaStartTime](#BKMK_msdyn_TzaStartTime)
 
 ### <a name="BKMK_msdyn_bookableresourceid"></a> msdyn_bookableresourceid
 
@@ -86,6 +88,40 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Lookup|
 |Targets|msdyn_resourcerequirement|
 
+### <a name="BKMK_msdyn_TzaEndTime"></a> msdyn_TzaEndTime
+
+|Property|Value|
+|---|---|
+|Description|**End date and time of the booking summary in time zone independent format**|
+|DisplayName|**End Date Time Zone Independent**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_tzaendtime`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|TimeZoneIndependent|
+|Format|DateAndTime|
+|ImeMode|Inactive|
+|SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_TzaStartTime"></a> msdyn_TzaStartTime
+
+|Property|Value|
+|---|---|
+|Description|**Start date and time of the booking summary in time zone independent format**|
+|DisplayName|**Start Date Time Zone Independent**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_tzastarttime`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|TimeZoneIndependent|
+|Format|DateAndTime|
+|ImeMode|Inactive|
+|SourceTypeMask|0|
+
 
 ## Many-to-One relationships
 
@@ -139,6 +175,9 @@ One-To-Many Relationship: [msdyn_resourcerequirement msdyn_resourcerequirement_b
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [bookableresourcebookingheader_msdyn_bookingalerts](#BKMK_bookableresourcebookingheader_msdyn_bookingalerts)
+- [bookableresourcebookingheader_msdyn_ocoutboundmessages](#BKMK_bookableresourcebookingheader_msdyn_ocoutboundmessages)
+
 ### <a name="BKMK_bookableresourcebookingheader_msdyn_bookingalerts"></a> bookableresourcebookingheader_msdyn_bookingalerts
 
 Many-To-One Relationship: [msdyn_bookingalert bookableresourcebookingheader_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_bookableresourcebookingheader_msdyn_bookingalerts)
@@ -149,6 +188,18 @@ Many-To-One Relationship: [msdyn_bookingalert bookableresourcebookingheader_msdy
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`bookableresourcebookingheader_msdyn_bookingalerts`|
 |IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `7f15e2bb-305a-468f-9af7-be865755a984`|
+
+### <a name="BKMK_bookableresourcebookingheader_msdyn_ocoutboundmessages"></a> bookableresourcebookingheader_msdyn_ocoutboundmessages
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage bookableresourcebookingheader_msdyn_ocoutboundmessages](msdyn_ocoutboundmessage.md#BKMK_bookableresourcebookingheader_msdyn_ocoutboundmessages)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`bookableresourcebookingheader_msdyn_ocoutboundmessages`|
+|IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `7f15e2bb-305a-468f-9af7-be865755a984`|
 
 

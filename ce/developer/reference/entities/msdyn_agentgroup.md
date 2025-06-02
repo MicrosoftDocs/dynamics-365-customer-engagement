@@ -498,7 +498,7 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`owningbusinessunit`|
-|RequiredLevel|SystemRequired|
+|RequiredLevel|None|
 |Type|Lookup|
 |Targets|businessunit|
 
@@ -710,6 +710,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_agentgroup_PrincipalObjectAttributeAccesses](#BKMK_msdyn_agentgroup_PrincipalObjectAttributeAccesses)
 - [msdyn_agentgroup_ProcessSession](#BKMK_msdyn_agentgroup_ProcessSession)
 - [msdyn_agentgroup_SyncErrors](#BKMK_msdyn_agentgroup_SyncErrors)
+- [msdyn_agentgroupmatchingcriteria_agentgroupid_msdyn_agentgroup](#BKMK_msdyn_agentgroupmatchingcriteria_agentgroupid_msdyn_agentgroup)
 - [msdyn_agentgroupmembership_agentgroupid_msdyn_agentgroup](#BKMK_msdyn_agentgroupmembership_agentgroupid_msdyn_agentgroup)
 - [msdyn_agentgroupregion_agentgroupid_msdyn_agentgroup](#BKMK_msdyn_agentgroupregion_agentgroupid_msdyn_agentgroup)
 - [msdyn_intentfamily_msdyn_defaultusergroup_msdyn_agentgroup](#BKMK_msdyn_intentfamily_msdyn_defaultusergroup_msdyn_agentgroup)
@@ -813,6 +814,18 @@ Many-To-One Relationship: [syncerror msdyn_agentgroup_SyncErrors](syncerror.md#B
 |ReferencedEntityNavigationPropertyName|`msdyn_agentgroup_SyncErrors`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_agentgroupmatchingcriteria_agentgroupid_msdyn_agentgroup"></a> msdyn_agentgroupmatchingcriteria_agentgroupid_msdyn_agentgroup
+
+Many-To-One Relationship: [msdyn_agentgroupmatchingcriteria msdyn_agentgroupmatchingcriteria_agentgroupid_msdyn_agentgroup](msdyn_agentgroupmatchingcriteria.md#BKMK_msdyn_agentgroupmatchingcriteria_agentgroupid_msdyn_agentgroup)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_agentgroupmatchingcriteria`|
+|ReferencingAttribute|`msdyn_agentgroupid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_agentgroupmatchingcriteria_agentgroupid_msdyn_agentgroup`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_agentgroupmembership_agentgroupid_msdyn_agentgroup"></a> msdyn_agentgroupmembership_agentgroupid_msdyn_agentgroup
 

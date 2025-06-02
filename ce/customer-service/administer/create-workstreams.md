@@ -1,7 +1,7 @@
 ---
 title: Create and manage workstreams
 description: Learn about how to create and manage workstreams.
-ms.date: 04/14/2025
+ms.date: 05/27/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -124,6 +124,7 @@ For a selected workstream, expand **Advanced settings** to configure the followi
 - [Context variables](manage-context-variables.md)
 - [Smart assist agents](../develop/smart-assist-bot.md)
 - [Quick replies](create-quick-replies.md)
+- [Configure live conversation counter to view customer wait time](configure-live-conv-counter.md)
 
 ### Add an agent to a workstream
 
@@ -151,8 +152,9 @@ Select a workstream to perform any of the following actions:
 
 - **Edit**: Lets you edit the workstream, such as add a new channel or update the existing settings.
 - **Copy**: Lets you create a copy of the workstream with all the properties, such as the rules, so that you can reuse the configured workstream in another organization. The copied workstream name is prefixed with "Copy of "*`<workstream>`*.
-- **Delete**: Lets you delete the workstream if you no longer need it in your organization. You can't delete workstreams that are used in intake rules for record routing. You are prompted to remove the dependencies and then try to delete the workstream.
+- **Delete**: Lets you delete the workstream if you no longer need it in your organization. You can't delete workstreams that are used in intake rules for record routing. You're prompted to remove the dependencies and then try to delete the workstream.
 - **Fallback queue**: Select an existing queue or create a queue to set as the fallback queue. More information: [Fallback queues](queues-omnichannel.md#how-fallback-queues-work)
+- **Share**: Select a workstream to share with users or teams in your organization. In the **Share records** dialog that appears, select the users or teams. You can also set the permissions for each user or team. When you share a record permission, it doesn't automatically grant privileges to all the records of the related tables. You need to create a custom plugin to set permissions for the related tables listed for the workstream when you set permissions for the parent table record.
 
 ### Representative affinity
 
@@ -160,7 +162,7 @@ The representative affinity feature makes sure that work items are assigned to t
 
 Agent affinity is enabled by default for persistent chat, SMS, social channels, and Microsoft Teams. In these channels, when a conversation moves from the waiting to active state, it might not get assigned to the same representative who had previously handled it. You can set the **Keep same agent for entire conversation** toggle to **Yes** when you configure the work distribution for the workstream to reassign the conversation to the representative. This helps save the effort to reorient the representative or set the context about the customer issue again. 
 
-However, for live chat, there's no waiting state. So, when the state of the conversation changes from active to open state, it is reassigned to the same representative. The representative can choose to reject the assigned conversation via the notification pane.
+However, for live chat, there's no waiting state. So, when the state of the conversation changes from active to open state, it's reassigned to the same representative. The representative can choose to reject the assigned conversation via the notification pane.
 
 > [!NOTE]
 > Agent affinity is applicable for push type of work distribution only.

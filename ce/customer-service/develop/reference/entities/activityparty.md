@@ -22,6 +22,9 @@ Person or group associated with an activity. An activity can have multiple activ
 
 These relationships are many-to-one. Listed by **SchemaName**.
 
+- [msdyn_bookingalert_activity_parties](#BKMK_msdyn_bookingalert_activity_parties)
+- [msdyn_ocoutboundmessage_activity_parties](#BKMK_msdyn_ocoutboundmessage_activity_parties)
+
 ### <a name="BKMK_msdyn_bookingalert_activity_parties"></a> msdyn_bookingalert_activity_parties
 
 One-To-Many Relationship: [msdyn_bookingalert msdyn_bookingalert_activity_parties](msdyn_bookingalert.md#BKMK_msdyn_bookingalert_activity_parties)
@@ -32,6 +35,19 @@ One-To-Many Relationship: [msdyn_bookingalert msdyn_bookingalert_activity_partie
 |ReferencedAttribute|`activityid`|
 |ReferencingAttribute|`activityid`|
 |ReferencingEntityNavigationPropertyName|`activityid_msdyn_bookingalert_activityparty`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocoutboundmessage_activity_parties"></a> msdyn_ocoutboundmessage_activity_parties
+
+One-To-Many Relationship: [msdyn_ocoutboundmessage msdyn_ocoutboundmessage_activity_parties](msdyn_ocoutboundmessage.md#BKMK_msdyn_ocoutboundmessage_activity_parties)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocoutboundmessage`|
+|ReferencedAttribute|`activityid`|
+|ReferencingAttribute|`activityid`|
+|ReferencingEntityNavigationPropertyName|`activityid_msdyn_ocoutboundmessage_activityparty`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
