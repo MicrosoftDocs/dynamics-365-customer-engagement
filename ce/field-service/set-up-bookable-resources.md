@@ -1,7 +1,7 @@
 ---
 title: Set up bookable resources
 description: Learn how to create a bookable resource and add details to distinguish it from other resources.
-ms.date: 05/21/2025
+ms.date: 06/02/2025
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
