@@ -156,7 +156,7 @@ When a work item is handled by an overflow action instead of being assigned to a
 
 ## Handle overflow when a work item is queued
 
-When a work item is in a queue and the actual wait is long because no representatives are available or have declined the notification, then the system triggers overflow and reroutes the work item to another queue that has representatives available.
+When a work item is in a queue and the actual wait is long because representatives aren't available or have declined the notification, then the system triggers overflow and reroutes the work item to another queue that has representatives available.
 
 1. In the site map of Copilot Service admin center, select **Customer support** > **Queues**.
 
