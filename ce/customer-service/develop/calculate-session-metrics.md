@@ -27,7 +27,7 @@ Learn more about [Calculate conversation metrics](calculate-conversation-metrics
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-An omnichannel session, or msdyn_ocsession, is a table or entity in Microsoft Dynamics 365 that represents a session for interacting with a customer. This table includes various messages that represent operations or events that can be performed on the table, such as assigning, associating, creating, and updating records. Each conversation with the user is split into multiple sessions. The first session is the first interaction with the user, this could be answered by the bot or direct agent. If bot is the first session, then if the conversation is escalated, the second session is usually with the human agent interaction. 
+An omnichannel session, or msdyn_ocsession, is a table or entity in Microsoft Dynamics 365 that represents a session with a customer. This table includes various messages that represent operations or events that can be performed on the table, such as assigning, associating, creating, and updating records. Each conversation with the customer is split into multiple sessions. The first session is the first interaction with the customer, and answered by the either the agent or the representative. If the agent is the first session, and the conversation is escalated, the second session is usually with a human agent. 
 
 ### DAX query and Dataverse reference
 
@@ -161,7 +161,7 @@ Session rejection rate = ​DIVIDE ( SUMX ( FactSession,​ IF ( FactSession[Ses
 ### Related metrics
 
 - **Rejected sessions**: The total number of sessions that the service representative declined.
-- **Session time to reject**: The average time that service representatives take to reject work that is assigned to them. This metric measures the time from when the customer request is assigned to a service representative to when the service representative rejects the request.
+- **Session time to reject**: The average time that service representatives take to reject work that is assigned to them. This metric measures the time from when a customer request is assigned to a service representative until the service representative rejects the request.
 
 ## Session timeout rate
 
