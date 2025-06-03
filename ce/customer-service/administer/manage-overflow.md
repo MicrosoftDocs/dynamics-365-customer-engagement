@@ -4,7 +4,7 @@ description: Learn how to set up overflow conditions and actions for your voice,
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 05/30/2025
+ms.date: 06/03/2025
 ms.topic: how-to
 ms.custom:
  - bap-template
@@ -41,10 +41,12 @@ If you don't set up overflow handling, then by default, the work item is added t
 
 ## Handle overflow before a work item is queued
 
-Unified routing checks for overflow conditions after evaluating the route-to-queue rules and before directing a work item to a queue. The system does the check once only for each work item before it enters a queue.
+Unified routing checks for overflow conditions after evaluating the route-to-queue rules and before directing a work item to a queue.
+
+> [!NOTE]
+> The system does the check once only for each work item before it enters a queue.
 
 If an overflow action transfers the work item to another queue, or a supervisor assigns the work item to a service representative or transfers it to another representative, the system assigns the work item to the representative or queue without any further pre-queue overflow checks.
-
 
 The system considers the following factors when it checks for overflow conditions before queueing up a work item:
 
