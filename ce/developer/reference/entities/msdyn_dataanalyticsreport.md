@@ -179,7 +179,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Report Id of dataverse report entity**|
-|DisplayName|**msdyn_dataversereportid**|
+|DisplayName|**msdyn\_dataversereportid**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_dataversereportid`|

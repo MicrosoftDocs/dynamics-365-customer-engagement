@@ -77,7 +77,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**User access right value**|
-|DisplayName|**msdyn_accessrightsmask**|
+|DisplayName|**msdyn\_accessrightsmask**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_accessrightsmask`|

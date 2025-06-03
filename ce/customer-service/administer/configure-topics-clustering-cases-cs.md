@@ -1,7 +1,7 @@
 ---
 title: Configure AI topic clustering for cases
 description: This article provides instructions to configure AI topic clustering for cases in the Customer Service Hub and Customer Service workspace.
-ms.date: 02/06/2025
+ms.date: 05/23/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -57,7 +57,7 @@ The AI Insights charts that appear on the Customer Service Insights dashboards a
 
 AI discovered topics in Customer Service historical analytics are often prime candidates for automation in Copilot agents. If Copilot Studio is available in the region that your Customer Service organization is in, you can enable the feature.
 
-1. In Customer Service admin center, go to **Insights** > **Topics clustering for cases** > **Manage**.
+1. In Copilot Service admin center, go to **Insights** > **Topics clustering for cases** > **Manage**.
 1. In the **Topic automation** section of the **Topic clustering for case** page, enable the toggle.
 
 

@@ -32,20 +32,31 @@ Changes from [Record1ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer
 
 |Value|Label|
 |---|---|
-|10627|**Profile Album**|
-|10632|**Customer Voice alert**|
-|10642|**Customer Voice survey invite**|
-|10644|**Customer Voice survey response**|
-|10718|**Ongoing conversation (Deprecated)**|
-|10730|**Conversation**|
-|10747|**Session**|
-|10863|**Sequence**|
-|10865|**Sequence Target**|
-|10877|**Assignment Rule**|
-|10880|**Assignment Map**|
-|10887|**Insight**|
-|10896|**Suggestion Principal Object Access**|
-|10942|**Copilot Transcript**|
+|10358|**Invitation**|
+|10359|**Invite Redemption**|
+|10378|**Publishing State Transition Rule**|
+|10380|**Shortcut**|
+|10392|**Website**|
+|10434|**Customer Asset**|
+|10456|**IoT Alert**|
+|10457|**IoT Device**|
+|10458|**IoT Device Category**|
+|10459|**IoT Device Command**|
+|10463|**IoT Device Registration History**|
+|10662|**Profile Album**|
+|10667|**Customer Voice alert**|
+|10677|**Customer Voice survey invite**|
+|10679|**Customer Voice survey response**|
+|10760|**Ongoing conversation (Deprecated)**|
+|10772|**Conversation**|
+|10789|**Session**|
+|10909|**Sequence**|
+|10911|**Sequence Target**|
+|10923|**Assignment Rule**|
+|10926|**Assignment Map**|
+|10933|**Insight**|
+|10942|**Suggestion Principal Object Access**|
+|10993|**Copilot Transcript**|
 
 ### <a name="BKMK_Record2ObjectTypeCode"></a> Record2ObjectTypeCode
 
@@ -55,20 +66,31 @@ Changes from [Record2ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer
 
 |Value|Label|
 |---|---|
-|10627|**Profile Album**|
-|10632|**Customer Voice alert**|
-|10642|**Customer Voice survey invite**|
-|10644|**Customer Voice survey response**|
-|10718|**Ongoing conversation (Deprecated)**|
-|10730|**Conversation**|
-|10747|**Session**|
-|10863|**Sequence**|
-|10865|**Sequence Target**|
-|10877|**Assignment Rule**|
-|10880|**Assignment Map**|
-|10887|**Insight**|
-|10896|**Suggestion Principal Object Access**|
-|10942|**Copilot Transcript**|
+|10358|**Invitation**|
+|10359|**Invite Redemption**|
+|10378|**Publishing State Transition Rule**|
+|10380|**Shortcut**|
+|10392|**Website**|
+|10434|**Customer Asset**|
+|10456|**IoT Alert**|
+|10457|**IoT Device**|
+|10458|**IoT Device Category**|
+|10459|**IoT Device Command**|
+|10463|**IoT Device Registration History**|
+|10662|**Profile Album**|
+|10667|**Customer Voice alert**|
+|10677|**Customer Voice survey invite**|
+|10679|**Customer Voice survey response**|
+|10760|**Ongoing conversation (Deprecated)**|
+|10772|**Conversation**|
+|10789|**Session**|
+|10909|**Sequence**|
+|10911|**Sequence Target**|
+|10923|**Assignment Rule**|
+|10926|**Assignment Map**|
+|10933|**Insight**|
+|10942|**Suggestion Principal Object Access**|
+|10993|**Copilot Transcript**|
 
 
 

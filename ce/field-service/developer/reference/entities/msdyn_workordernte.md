@@ -2,8 +2,8 @@
 title: "Work order not-to-exceed (msdyn_workordernte) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Work order not-to-exceed (msdyn_workordernte) table/entity with Microsoft Dynamics 365 Field Service."
 ms.topic: generated-reference
-author: m-hartmann
-ms.author: mhart
+author: puneet-singh1
+ms.author: puneetsingh
 search.audienceType: 
   - developer
 ---
@@ -183,8 +183,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|
 |---|---|
-|192350100|**Not\-to\-exceed**|
-|192350200|**User\-specified**|
+|192350100|**Not-to-exceed**|
+|192350200|**User-specified**|
 |192350300|**Approved quote**|
 
 ### <a name="BKMK_msdyn_ntetype"></a> msdyn_ntetype

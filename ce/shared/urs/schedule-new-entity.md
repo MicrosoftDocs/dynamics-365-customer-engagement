@@ -54,6 +54,7 @@ Edit booking settings for entities you enabled for scheduling.
     | Disable requirement auto creation for   bookings | Defines if the system creates a requirement for a booking. | Yes: Disable automated requirement creation.<br>     No: Enable automated booking creation. |
     | Default requirement completed status | Sets the default value to use when a requirement moves into *Completed* state. | Available requirement statuses. |
     | Available duration minimum (%) | Defines the availability of a resource in relation to the booking duration. For example, if the value is 50 and the booking takes four hours. The system only considers resources for the job that have at least two hours available. | 0 to 100. |
+    | Ignore time zone in Schedule Assistant| Defines if the system uses Coordinated Universal Time (UTC) or the resource's local time zone. | Yes: Use time zone agnostic scheduling.<br>     No: Use standard scheduling. |
 
 1. In the **Attribute Mapping** section, choose values on the target entity that match with the requirement fields.
 

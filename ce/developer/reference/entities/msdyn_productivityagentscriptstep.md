@@ -1,6 +1,6 @@
 ---
-title: "Agent script step (msdyn_productivityagentscriptstep) table/entity reference (Microsoft Dynamics 365)"
-description: "Includes schema information and supported messages for the Agent script step (msdyn_productivityagentscriptstep) table/entity with Microsoft Dynamics 365."
+title: "Script step (msdyn_productivityagentscriptstep) table/entity reference (Microsoft Dynamics 365)"
+description: "Includes schema information and supported messages for the Script step (msdyn_productivityagentscriptstep) table/entity with Microsoft Dynamics 365."
 ms.topic: generated-reference
 author: JimDaly
 ms.author: jdaly
@@ -8,13 +8,13 @@ search.audienceType:
   - developer
 ---
 
-# Agent script step (msdyn_productivityagentscriptstep) table/entity reference (Microsoft Dynamics 365)
+# Script step (msdyn_productivityagentscriptstep) table/entity reference (Microsoft Dynamics 365)
 
 
 
 ## Messages
 
-The following table lists the messages for the Agent script step (msdyn_productivityagentscriptstep) table.
+The following table lists the messages for the Script step (msdyn_productivityagentscriptstep) table.
 Messages represent operations that can be performed on the table. They may also be events.
 
 | Name <br />Is Event? |Web API Operation |SDK for .NET |
@@ -46,12 +46,12 @@ Messages represent operations that can be performed on the table. They may also 
 
 ## Properties
 
-The following table lists selected properties for the Agent script step (msdyn_productivityagentscriptstep) table.
+The following table lists selected properties for the Script step (msdyn_productivityagentscriptstep) table.
 
 |Property|Value|
 | --- | --- |
-| **DisplayName** | **Agent script step** |
-| **DisplayCollectionName** | **Agent script steps** |
+| **DisplayName** | **Script step** |
+| **DisplayCollectionName** | **Script steps** |
 | **SchemaName** | `msdyn_productivityagentscriptstep` |
 | **CollectionSchemaName** | `msdyn_productivityagentscriptsteps` |
 | **EntitySetName** | `msdyn_productivityagentscriptsteps`|
@@ -116,7 +116,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Action type for agent script step**|
+|Description|**Action type for script step**|
 |DisplayName|**Action type**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -138,8 +138,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Unique identifier for agent script associated with agent script step.**|
-|DisplayName|**Agent script**|
+|Description|**Unique identifier for script associated with script step.**|
+|DisplayName|**Script**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_agentscriptid`|
@@ -151,7 +151,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Description for agent script step**|
+|Description|**Description for script step**|
 |DisplayName|**Description**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -168,7 +168,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Unique identifier for macro associated with agent script step**|
+|Description|**Unique identifier for macro associated with script step**|
 |DisplayName|**Target macro**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -213,7 +213,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Unique identifier for entity instances**|
-|DisplayName|**Agent script step**|
+|DisplayName|**Script step**|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`msdyn_productivityagentscriptstepid`|
@@ -224,7 +224,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Unique identifier for target script associated with agent script step**|
+|Description|**Unique identifier for target script associated with script step**|
 |DisplayName|**Target script**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -313,7 +313,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Status of the Agent script step**|
+|Description|**Status of the Script step**|
 |DisplayName|**Status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -334,7 +334,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Reason for the status of the Agent script step**|
+|Description|**Reason for the status of the Script step**|
 |DisplayName|**Status Reason**|
 |IsValidForForm|True|
 |IsValidForRead|True|
