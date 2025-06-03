@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 04/24/2025
+ms.date: 03/06/2025
 ms.custom: bap-template 
 ---
 
@@ -27,11 +27,11 @@ Learn more about [Calculate conversation metrics](calculate-conversation-metrics
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-An omnichannel session, or msdyn_ocsession, is a table/entity in Microsoft Dynamics 365 that represents a session for interacting with a customer. This table includes various messages that represent operations or events that can be performed on the table, such as assigning, associating, creating, and updating records. Each conversation with the user is split into multiple sessions. The first session is the first interaction with the user, this could be answered by the bot or direct agent. If bot is the first session, then if the conversation is escalated, the second session is the human agent interaction. 
+An omnichannel session, or msdyn_ocsession, is a table or entity in Microsoft Dynamics 365 that represents a session for interacting with a customer. This table includes various messages that represent operations or events that can be performed on the table, such as assigning, associating, creating, and updating records. Each conversation with the user is split into multiple sessions. The first session is the first interaction with the user, this could be answered by the bot or direct agent. If bot is the first session, then if the conversation is escalated, the second session is usually with the human agent interaction. 
 
 ### DAX query and Dataverse reference
 
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+The following Data Analysis Expression (DAX) query and the corresponding Dataverse entities are used in the Power BI semantic model. Learn more in [DAX queries](/dax/dax-queries). 
 
 ### [Historical analytics](#tab/historicalpage)
 
@@ -72,7 +72,7 @@ Need info
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-**Need info**
+Sessions rejected indicates that the service representative declined the conversation.
 
 ### DAX query and Dataverse reference
 
@@ -118,7 +118,7 @@ Sessions rejected = SUMX(FactSessionParticipant,​ IF (FactSessionParticipant[L
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-The rate at which service representatives reject work that is assigned to them. It's calculated by dividing the total number of sessions that service representatives rejected by the total number of sessions assigned to them.
+Session rejection rate indicates the rate at which service representatives reject work that is assigned to them. It's calculated by dividing the total number of sessions that service representatives rejected by the total number of sessions assigned to them.
 
 ### DAX query and Dataverse reference
 
@@ -160,7 +160,7 @@ Session rejection rate = ​DIVIDE ( SUMX ( FactSession,​ IF ( FactSession[Ses
 
 ### Related metrics
 
-- **Rejected sessions**: The total number of times that service representatives rejected work that was assigned to them.
+- **Rejected sessions**: The total number of sessions that the service representative declined.
 - **Session time to reject**: The average time that service representatives take to reject work that is assigned to them. This metric measures the time from when the customer request is assigned to a service representative to when the service representative rejects the request.
 
 ## Session timeout rate
