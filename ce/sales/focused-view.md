@@ -1,7 +1,7 @@
 ---
 title: View and manage records in focused view
 description: Change the general list view to focused view for contact, account, lead, and opportunity entities in Dynamics 365 Sales.
-ms.date: 02/04/2025
+ms.date: 05/30/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -54,7 +54,8 @@ Focused view is categorized into the following sections.
    - **Search, filter, and sort**: These options are displayed at the top of the work list item view. You can search, filter, and sort the records that you want to view in the list to quickly identify only the records that you want to work with. You can also switch between focused view and list view. The attributes available in the view are displayed as filters and sort. These attributes include fields added through [workspace customizations](customize-workspace-sales-accelerator.md#manage-filters) in the sales accelerator, and any new fields added to the work list card through card customization.  
 
       > [!NOTE]
-      > The following attributes types are not supported in filter and sort&mdash;Owner, Lookup, Customer, Uniqueidentifier, related entities, and advanced filter that are created through workspace customizations.
+      > - The following attributes types are not supported in filter and sort&mdash;Uniqueidentifier, related entities, and advanced filter that are created through workspace customizations.
+      > - Filters aren't supported on mobile devices.
 
       For lead and opportunity entities, filters might display deprecated attribute options. To remove these filters, go to work list card customization and remove the **Predictive scoring** field.  
 
