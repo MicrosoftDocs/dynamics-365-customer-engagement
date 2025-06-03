@@ -48,7 +48,7 @@ Unified routing prioritizes work within individual queues and across queues. Pri
 
 The oldest conversation or work item in the queue is assigned first. For asynchronous messaging channels such as persistent chat, WhatsApp, and Facebook, the oldest conversation is determined based on the last interaction time. For example, if the first contact on WhatsApp for a customer is on Monday, and the initial problem is resolved by Tuesday but the conversation isn't closed, it goes into the [waiting state](../use/oc-conversation-state.md). If the same customer comes back on Thursday afternoon with a new question while new customers are waiting in the queue since Thursday morning, the returning customer is prioritized only after the customers who are waiting since Thursday morning.
 
-For record queues, the first-in-first-out assignment method is based on the time the record was routed, which is when the associated live work item is created. Learn more in [Understand how unified routing affects queue items and live work items for routed records](../develop/unified-routing-impact-on-apis).
+For record queues, the first-in-first-out assignment method is based on the time the record was routed, which is when the associated live work item is created. Learn more in [Understand how unified routing affects queue items and live work items for routed records](../develop/unified-routing-impact-on-apis.md).
 
 If you want to prioritize assignment based on conversation creation time, you can use custom prioritization rules.
 
