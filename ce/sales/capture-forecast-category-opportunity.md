@@ -2,7 +2,7 @@
 title: "Capture forecast category for opportunity"
 description: "Capture the forecast category to indicate the confidence level of an opportunity getting converted into a sale."
 ms.date: 12/2/2024
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -12,13 +12,6 @@ ms.custom:
 # Capture forecast category for opportunity 
 
 Capture the forecast category to indicate the confidence level of an opportunity getting converted into a sale.
-
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager<br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## Select option set 
 

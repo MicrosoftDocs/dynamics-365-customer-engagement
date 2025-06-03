@@ -6,7 +6,7 @@ ms.date: 05/20/2021
 ms.reviewer: smurkute
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: Dynamics 365 apps
 ms.assetid: 0dfd6100-b4ed-4959-9acb-cc0a1dbbb6d6
 caps.latest.revision: 99
@@ -20,10 +20,6 @@ search.audienceType:
 # Customize App for Outlook to auto populate data from an Outlook item to a quick create case table 
 
 Use the quick create form in App for Outlook to auto populate information from an Outlook item to the quick create form for the Case table. You can only enable the quick create auto-populate option for the case table.
-
-![Demo of how to create a case table using quick create.](media/email-to-case.gif)
-
-
 
 These fields that will be populated automatically:
 

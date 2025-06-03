@@ -1,752 +1,175 @@
 ---
-title: BookingStatus table (Microsoft Dataverse)| MicrosoftDocs
-description: Includes schema information and supported messages for the BookingStatus table.
-ms.date: 01/18/2024
-ms.topic: "reference"
+title: "Booking Status (BookingStatus) table/entity reference (Microsoft Dynamics 365 Customer Service)"
+description: "Includes schema information and supported messages for the Booking Status (BookingStatus) table/entity with Microsoft Dynamics 365 Customer Service."
+ms.topic: generated-reference
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: mgandham
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
 ---
-# BookingStatus table/entity reference
+
+# Booking Status (BookingStatus) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Allows creation of multiple sub statuses mapped to a booking status option.
 
-**Added by**: Scheduling Solution
+> [!NOTE]
+> The Microsoft Dynamics 365 Customer Service Booking Status (BookingStatus) table extends the [Microsoft Dynamics 365 Booking Status (BookingStatus) table](/dynamics365/developer/reference/entities/bookingstatus).
 
 
-## Messages
-
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/bookingstatuses(*bookingstatusid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/bookingstatuses<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|CreateMultiple|<xref href="Microsoft.Dynamics.CRM.CreateMultiple?text=CreateMultiple Action" />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/bookingstatuses(*bookingstatusid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/bookingstatuses(*bookingstatusid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/bookingstatuses<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/bookingstatuses(*bookingstatusid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/bookingstatuses(*bookingstatusid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
-|UpdateMultiple|<xref href="Microsoft.Dynamics.CRM.UpdateMultiple?text=UpdateMultiple Action" />|<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
-
-## Properties
-
-|Property|Value|
-|--------|-----|
-|CollectionSchemaName|BookingStatus|
-|DisplayCollectionName|Booking Statuses|
-|DisplayName|Booking Status|
-|EntitySetName|bookingstatuses|
-|IsBPFEntity|False|
-|LogicalCollectionName|bookingstatuses|
-|LogicalName|bookingstatus|
-|OwnershipType|UserOwned|
-|PrimaryIdAttribute|bookingstatusid|
-|PrimaryNameAttribute|name|
-|SchemaName|BookingStatus|
-
-<a name="writable-attributes"></a>
 
 ## Writable columns/attributes
 
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
-- [BookingStatusId](#BKMK_BookingStatusId)
-- [Description](#BKMK_Description)
-- [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_ImageUrl](#BKMK_msdyn_ImageUrl)
+- [msdyn_OptimizationMethod](#BKMK_msdyn_OptimizationMethod)
 - [msdyn_ServiceAppointmentStatus](#BKMK_msdyn_ServiceAppointmentStatus)
 - [msdyn_StatusColor](#BKMK_msdyn_StatusColor)
-- [Name](#BKMK_Name)
-- [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
-- [OwnerId](#BKMK_OwnerId)
-- [OwnerIdType](#BKMK_OwnerIdType)
-- [StateCode](#BKMK_StateCode)
-- [Status](#BKMK_Status)
-- [StatusCode](#BKMK_StatusCode)
-- [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)
-- [TransactionCurrencyId](#BKMK_TransactionCurrencyId)
-- [UTCConversionTimeZoneCode](#BKMK_UTCConversionTimeZoneCode)
-
-
-### <a name="BKMK_BookingStatusId"></a> BookingStatusId
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier of the booking status.|
-|DisplayName|Booking Status|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|bookingstatusid|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
-
-
-### <a name="BKMK_Description"></a> Description
-
-|Property|Value|
-|--------|-----|
-|Description|Type a detailed description for the booking status.|
-|DisplayName|Description|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|description|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
-
-|Property|Value|
-|--------|-----|
-|Description|Sequence number of the import that created this record.|
-|DisplayName|Import Sequence Number|
-|Format|None|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|importsequencenumber|
-|MaxValue|2147483647|
-|MinValue|-2147483648|
-|RequiredLevel|None|
-|Type|Integer|
-
 
 ### <a name="BKMK_msdyn_ImageUrl"></a> msdyn_ImageUrl
 
-**Added by**: Universal Resource Scheduling Solution
-
 |Property|Value|
-|--------|-----|
-|Description|The URL for a web resource image.|
-|DisplayName|Image Url|
-|FormatName|Text|
-|IsLocalizable|False|
+|---|---|
+|Description|**The URL for a web resource image.**|
+|DisplayName|**Image Url**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_imageurl|
-|MaxLength|200|
+|LogicalName|`msdyn_imageurl`|
 |RequiredLevel|Recommended|
 |Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|200|
 
+### <a name="BKMK_msdyn_OptimizationMethod"></a> msdyn_OptimizationMethod
+
+|Property|Value|
+|---|---|
+|Description|**Whether bookings with this status should be optimized, locked or ignored during optimization.**|
+|DisplayName|**Optimization Method**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_optimizationmethod`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue||
+|GlobalChoiceName|`msdyn_bookingstatusoptimizationmethod`|
+
+#### msdyn_OptimizationMethod Choices/Options
+
+|Value|Label|
+|---|---|
+|192350000|**Optimize**|
+|192350001|**Do Not Move**|
+|192350002|**Ignore**|
 
 ### <a name="BKMK_msdyn_ServiceAppointmentStatus"></a> msdyn_ServiceAppointmentStatus
 
-**Added by**: Core Service Scheduling - Base Solution Solution
-
 |Property|Value|
-|--------|-----|
+|---|---|
 |Description||
-|DisplayName|ServiceAppointment Status|
+|DisplayName|**ServiceAppointment Status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_serviceappointmentstatus|
+|LogicalName|`msdyn_serviceappointmentstatus`|
 |RequiredLevel|None|
 |Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_serviceappointmentstatus`|
 
 #### msdyn_ServiceAppointmentStatus Choices/Options
 
 |Value|Label|
-|-----|-----|
-|3|Pending|
-|4|Reserved|
-|6|In Progress|
-|7|Arrived|
-|8|Completed|
-|9|Canceled|
-|10|No Show|
-
-
+|---|---|
+|3|**Pending**|
+|4|**Reserved**|
+|6|**In Progress**|
+|7|**Arrived**|
+|8|**Completed**|
+|9|**Canceled**|
+|10|**No Show**|
 
 ### <a name="BKMK_msdyn_StatusColor"></a> msdyn_StatusColor
 
-**Added by**: Universal Resource Scheduling Solution
-
 |Property|Value|
-|--------|-----|
+|---|---|
 |Description||
-|DisplayName|Status Color|
-|FormatName|Text|
-|IsLocalizable|False|
+|DisplayName|**Status Color**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_statuscolor|
-|MaxLength|100|
+|LogicalName|`msdyn_statuscolor`|
 |RequiredLevel|Recommended|
 |Type|String|
-
-
-### <a name="BKMK_Name"></a> Name
-
-|Property|Value|
-|--------|-----|
-|Description|Type the name of the booking status.|
-|DisplayName|Name|
+|Format|Text|
 |FormatName|Text|
+|ImeMode|Auto|
 |IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|name|
 |MaxLength|100|
-|RequiredLevel|SystemRequired|
-|Type|String|
 
 
-### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
+## Customized columns/attributes
 
-|Property|Value|
-|--------|-----|
-|DateTimeBehavior|UserLocal|
-|Description|Date and time that the record was migrated.|
-|DisplayName|Record Created On|
-|Format|DateOnly|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|overriddencreatedon|
-|RequiredLevel|None|
-|Type|DateTime|
+Microsoft Dynamics 365 Customer Service modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
 
+### <a name="BKMK_Description"></a> Description
 
-### <a name="BKMK_OwnerId"></a> OwnerId
+Changes from [Description (Microsoft Dynamics 365)](/dynamics365/developer/reference/entities/bookingstatus#BKMK_Description)
 
 |Property|Value|
-|--------|-----|
-|Description|Owner Id|
-|DisplayName|Owner|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|ownerid|
-|RequiredLevel|SystemRequired|
-|Targets|systemuser,team|
-|Type|Owner|
+|---|---|
+|DisplayName|**Description**|
 
 
-### <a name="BKMK_OwnerIdType"></a> OwnerIdType
+## One-to-Many relationships
 
-**Added by**: Active Solution Solution
+These relationships are one-to-many. Listed by **SchemaName**.
 
-|Property|Value|
-|--------|-----|
-|Description|Owner Id Type|
-|DisplayName||
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|owneridtype|
-|RequiredLevel|SystemRequired|
-|Type|EntityName|
+- [msdyn_bookingstatus_bookableresourcebookingheader_bookingstatusid](#BKMK_msdyn_bookingstatus_bookableresourcebookingheader_bookingstatusid)
+- [msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCanceledStatus](#BKMK_msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCanceledStatus)
+- [msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCommittedStatus](#BKMK_msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCommittedStatus)
 
+### <a name="BKMK_msdyn_bookingstatus_bookableresourcebookingheader_bookingstatusid"></a> msdyn_bookingstatus_bookableresourcebookingheader_bookingstatusid
 
-### <a name="BKMK_StateCode"></a> StateCode
+Many-To-One Relationship: [bookableresourcebookingheader msdyn_bookingstatus_bookableresourcebookingheader_bookingstatusid](bookableresourcebookingheader.md#BKMK_msdyn_bookingstatus_bookableresourcebookingheader_bookingstatusid)
 
 |Property|Value|
-|--------|-----|
-|Description|Status of the Booking Status|
-|DisplayName|Status|
-|IsValidForCreate|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|statecode|
-|RequiredLevel|SystemRequired|
-|Type|State|
+|---|---|
+|ReferencingEntity|`bookableresourcebookingheader`|
+|ReferencingAttribute|`msdyn_bookingstatusid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_bookingstatus_bookableresourcebookingheader_bookingstatusid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-#### StateCode Choices/Options
+### <a name="BKMK_msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCanceledStatus"></a> msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCanceledStatus
 
-|Value|Label|DefaultStatus|InvariantName|
-|-----|-----|-------------|-------------|
-|0|Active|1|Active|
-|1|Inactive|2|Inactive|
-
-
-
-### <a name="BKMK_Status"></a> Status
+Many-To-One Relationship: [msdyn_bookingsetupmetadata msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCanceledStatus](msdyn_bookingsetupmetadata.md#BKMK_msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCanceledStatus)
 
 |Property|Value|
-|--------|-----|
-|Description|Select whether the booking status should be proposed, committed or canceled.|
-|DisplayName|Status|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|status|
-|RequiredLevel|SystemRequired|
-|Type|Picklist|
+|---|---|
+|ReferencingEntity|`msdyn_bookingsetupmetadata`|
+|ReferencingAttribute|`msdyn_defaultbookingcanceledstatus`|
+|ReferencedEntityNavigationPropertyName|`msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCanceledStatus`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-#### Status Choices/Options
+### <a name="BKMK_msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCommittedStatus"></a> msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCommittedStatus
 
-|Value|Label|
-|-----|-----|
-|1|Proposed|
-|2|Committed|
-|3|Canceled|
-
-
-
-### <a name="BKMK_StatusCode"></a> StatusCode
+Many-To-One Relationship: [msdyn_bookingsetupmetadata msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCommittedStatus](msdyn_bookingsetupmetadata.md#BKMK_msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCommittedStatus)
 
 |Property|Value|
-|--------|-----|
-|Description|Reason for the status of the Booking Status|
-|DisplayName|Status Reason|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|statuscode|
-|RequiredLevel|None|
-|Type|Status|
+|---|---|
+|ReferencingEntity|`msdyn_bookingsetupmetadata`|
+|ReferencingAttribute|`msdyn_defaultbookingcommittedstatus`|
+|ReferencedEntityNavigationPropertyName|`msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCommittedStatus`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-#### StatusCode Choices/Options
 
-|Value|Label|State|
-|-----|-----|-----|
-|1|Active|0|
-|2|Inactive|1|
 
+### See also
 
+[Dataverse table/entity reference](/power-apps/developer/data-platform/reference/about-entity-reference)  
+[Dataverse Web API Reference](/power-apps/developer/data-platform/webapi/reference/about)   
 
-### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
-
-|Property|Value|
-|--------|-----|
-|Description|For internal use only.|
-|DisplayName|Time Zone Rule Version Number|
-|Format|None|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|timezoneruleversionnumber|
-|MaxValue|2147483647|
-|MinValue|-1|
-|RequiredLevel|None|
-|Type|Integer|
-
-
-### <a name="BKMK_TransactionCurrencyId"></a> TransactionCurrencyId
-
-|Property|Value|
-|--------|-----|
-|Description|Exchange rate for the currency associated with the BookingStatus with respect to the base currency.|
-|DisplayName|Currency|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|transactioncurrencyid|
-|RequiredLevel|None|
-|Targets|transactioncurrency|
-|Type|Lookup|
-
-
-### <a name="BKMK_UTCConversionTimeZoneCode"></a> UTCConversionTimeZoneCode
-
-|Property|Value|
-|--------|-----|
-|Description|Time zone code that was in use when the record was created.|
-|DisplayName|UTC Conversion Time Zone Code|
-|Format|None|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|utcconversiontimezonecode|
-|MaxValue|2147483647|
-|MinValue|-1|
-|RequiredLevel|None|
-|Type|Integer|
-
-<a name="read-only-attributes"></a>
-
-## Read-only columns/attributes
-
-These columns/attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
-
-- [CreatedBy](#BKMK_CreatedBy)
-- [CreatedByName](#BKMK_CreatedByName)
-- [CreatedByYomiName](#BKMK_CreatedByYomiName)
-- [CreatedOn](#BKMK_CreatedOn)
-- [CreatedOnBehalfBy](#BKMK_CreatedOnBehalfBy)
-- [CreatedOnBehalfByName](#BKMK_CreatedOnBehalfByName)
-- [CreatedOnBehalfByYomiName](#BKMK_CreatedOnBehalfByYomiName)
-- [ExchangeRate](#BKMK_ExchangeRate)
-- [ModifiedBy](#BKMK_ModifiedBy)
-- [ModifiedByName](#BKMK_ModifiedByName)
-- [ModifiedByYomiName](#BKMK_ModifiedByYomiName)
-- [ModifiedOn](#BKMK_ModifiedOn)
-- [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
-- [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
-- [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [OwnerIdName](#BKMK_OwnerIdName)
-- [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
-- [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
-- [OwningBusinessUnitName](#BKMK_OwningBusinessUnitName)
-- [OwningTeam](#BKMK_OwningTeam)
-- [OwningUser](#BKMK_OwningUser)
-- [TransactionCurrencyIdName](#BKMK_TransactionCurrencyIdName)
-- [VersionNumber](#BKMK_VersionNumber)
-
-
-### <a name="BKMK_CreatedBy"></a> CreatedBy
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier of the user who created the record.|
-|DisplayName|Created By|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|createdby|
-|RequiredLevel|None|
-|Targets|systemuser|
-|Type|Lookup|
-
-
-### <a name="BKMK_CreatedByName"></a> CreatedByName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|createdbyname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|createdbyyominame|
-|MaxLength|100|
-|RequiredLevel|SystemRequired|
-|Type|String|
-
-
-### <a name="BKMK_CreatedOn"></a> CreatedOn
-
-|Property|Value|
-|--------|-----|
-|DateTimeBehavior|UserLocal|
-|Description|Date and time when the record was created.|
-|DisplayName|Created On|
-|Format|DateAndTime|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|createdon|
-|RequiredLevel|None|
-|Type|DateTime|
-
-
-### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier of the delegate user who created the record.|
-|DisplayName|Created By (Delegate)|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|createdonbehalfby|
-|RequiredLevel|None|
-|Targets|systemuser|
-|Type|Lookup|
-
-
-### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|createdonbehalfbyname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|createdonbehalfbyyominame|
-|MaxLength|100|
-|RequiredLevel|SystemRequired|
-|Type|String|
-
-
-### <a name="BKMK_ExchangeRate"></a> ExchangeRate
-
-|Property|Value|
-|--------|-----|
-|Description|Exchange rate for the currency associated with the bookingstatus with respect to the base currency.|
-|DisplayName|ExchangeRate|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|exchangerate|
-|MaxValue|100000000000|
-|MinValue|0.000000000001|
-|Precision|12|
-|RequiredLevel|None|
-|Type|Decimal|
-
-
-### <a name="BKMK_ModifiedBy"></a> ModifiedBy
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier of the user who modified the record.|
-|DisplayName|Modified By|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|modifiedby|
-|RequiredLevel|None|
-|Targets|systemuser|
-|Type|Lookup|
-
-
-### <a name="BKMK_ModifiedByName"></a> ModifiedByName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|modifiedbyname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|modifiedbyyominame|
-|MaxLength|100|
-|RequiredLevel|SystemRequired|
-|Type|String|
-
-
-### <a name="BKMK_ModifiedOn"></a> ModifiedOn
-
-|Property|Value|
-|--------|-----|
-|DateTimeBehavior|UserLocal|
-|Description|Date and time when the record was modified.|
-|DisplayName|Modified On|
-|Format|DateAndTime|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|modifiedon|
-|RequiredLevel|None|
-|Type|DateTime|
-
-
-### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier of the delegate user who modified the record.|
-|DisplayName|Modified By (Delegate)|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|modifiedonbehalfby|
-|RequiredLevel|None|
-|Targets|systemuser|
-|Type|Lookup|
-
-
-### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|modifiedonbehalfbyname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|modifiedonbehalfbyyominame|
-|MaxLength|100|
-|RequiredLevel|SystemRequired|
-|Type|String|
-
-
-### <a name="BKMK_OwnerIdName"></a> OwnerIdName
-
-|Property|Value|
-|--------|-----|
-|Description|Name of the owner|
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|owneridname|
-|MaxLength|100|
-|RequiredLevel|SystemRequired|
-|Type|String|
-
-
-### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
-
-|Property|Value|
-|--------|-----|
-|Description|Yomi name of the owner|
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|owneridyominame|
-|MaxLength|100|
-|RequiredLevel|SystemRequired|
-|Type|String|
-
-
-### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for the business unit that owns the record|
-|DisplayName|Owning Business Unit|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|owningbusinessunit|
-|RequiredLevel|None|
-|Targets|businessunit|
-|Type|Lookup|
-
-
-### <a name="BKMK_OwningBusinessUnitName"></a> OwningBusinessUnitName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|owningbusinessunitname|
-|MaxLength|100|
-|RequiredLevel|SystemRequired|
-|Type|String|
-
-
-### <a name="BKMK_OwningTeam"></a> OwningTeam
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for the team that owns the record.|
-|DisplayName|Owning Team|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|owningteam|
-|RequiredLevel|None|
-|Targets|team|
-|Type|Lookup|
-
-
-### <a name="BKMK_OwningUser"></a> OwningUser
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for the user that owns the record.|
-|DisplayName|Owning User|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|owninguser|
-|RequiredLevel|None|
-|Targets|systemuser|
-|Type|Lookup|
-
-
-### <a name="BKMK_TransactionCurrencyIdName"></a> TransactionCurrencyIdName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|transactioncurrencyidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_VersionNumber"></a> VersionNumber
-
-|Property|Value|
-|--------|-----|
-|Description|Version Number|
-|DisplayName|Version Number|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|versionnumber|
-|MaxValue|9223372036854775807|
-|MinValue|-9223372036854775808|
-|RequiredLevel|None|
-|Type|BigInt|
-
-
-
-### Related information
-
-[Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
-[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Install ZoomInfo app
 description: The ZoomInfo app for Dynamics 365 helps the sales teams to accelerate business growth with accurate information on contact, account, or leads.
-ms.date: 09/20/2024
+ms.date: 04/30/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -11,13 +11,6 @@ ms.reviewer: udag
 # Install ZoomInfo app  
 
 The ZoomInfo app for Dynamics 365 helps the sales teams accelerate business growth with accurate contact and account information in their preferred Dynamics 365 Sales workflows.  
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Prerequisites
 

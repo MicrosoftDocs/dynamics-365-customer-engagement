@@ -97,11 +97,11 @@ items:
     - name: Create work order resolutions
       href: work-order-resolutions.md
     - name: License compliance
-      items: 
+      items:
         - name: License compliance overview
           href: license-compliance-overview.md
         - name: License compliance for Field Service
-          href: license-compliance-field-service.md  
+          href: license-compliance-field-service.md
 
 - name: Copilot in Field Service
   items:
@@ -112,7 +112,7 @@ items:
         - name: Work order summary
           href: work-order-recap.md
         - name: Work order update
-          href: work-order-update.md 
+          href: work-order-update.md
     - name: Use Copilot in the Microsoft 365 integration
       items:
         - name: Work order creation in Outlook
@@ -139,6 +139,8 @@ items:
       href: inspections-overview.md
     - name: Create and view inspections
       href: inspections.md
+    - name: Create inspection templates with Copilot
+      href: inspections-copilot.md
     - name: Advanced inspection options
       href: inspections-advanced.md
     - name: Run reports on inspections
@@ -225,19 +227,31 @@ items:
   items:
     - name: Overview of Microsoft Teams integration
       href: /dynamics365/teams-integration/teams-integration?context=/dynamics365/context/field-service-context
-    - name: Collaborate on work orders with Microsoft Teams
+    - name: Set up Teams integration
+      href: field-service-teams-collab-admin.md
+    - name: Collaborate on work orders with Teams
       href: field-service-teams-collaboration.md
-    - name: Use the personal dashboard in Teams
-      href: /dynamics365/teams-integration/teams-personal-use?context=/dynamics365/context/field-service-context
     - name: Manage documents in Teams
       href: /dynamics365/teams-integration/teams-doc-management?context=/dynamics365/context/field-service-context
-    - name: Use Teams mobile to annotate in a user's environment (preview)
+    - name: Use spatial annotations in Teams
       href: annotate-teams-mobile.md
 
 - name: Scheduling
   items:
   - name: Universal Resource Scheduling for Field Service overview
     href: universal-resource-scheduling-for-field-service.md
+  - name: Scheduling Operations Agent (preview)
+    items:
+      - name: Overview
+        href: soa-overview.md
+      - name: Set up the Scheduling Operations Agent
+        href: soa-setup.md
+      - name: Use the Scheduling Operations Agent
+        href: soa-run.md
+      - name: Improve the Scheduling Operations Agent's suggestions
+        href: soa-tips.md
+      - name: Scheduling Operations Agent FAQ
+        href: faqs-soa.md
   - name: Schedule board
     items:
       - name: Use the schedule board
@@ -264,6 +278,8 @@ items:
         href: schedule-with-travel-time.md
       - name: Time constraints
         href: schedule-time-constraints.md
+      - name: Time zones
+        href: schedule-timezone-agnostic.md
       - name: Preferred resources
         href: resource-preferences.md
       - name: Quick scheduling
@@ -302,8 +318,6 @@ items:
         href: set-up-booking-rules.md
       - name: Edit work hours calendar with APIs
         href: field-service-work-hours-calendar-api.md
-      - name: Analytics dashboard
-        href: scheduling-analytics-reports.md
       - name: Scheduling parameters (Settings)
         href: scheduling-parameters-settings.md
 
@@ -327,8 +341,10 @@ items:
         href: mobile/scan-barcode.md
       - name: Enable push notifications
         href: mobile/enable-push-notifications.md
-      - name: Track and audit location data
+      - name: Enable location tracking
         href: mobile/track-technician-location.md
+      - name: Enable technicians to create service reports
+        href: mobile/create-service-report-admin.md
       - name: Configure geofencing
         href: mobile/configure-geofencing.md
       - name: Manage apps with Intune
@@ -341,7 +357,7 @@ items:
       - name: Download the mobile app
         href: mobile/download-mobile-app.md
       - name: Use the Unified Interface app
-        items:  
+        items:
         - name: Get work done
           href: mobile/get-work-done-mobile-app.md
         - name: Work offline
@@ -360,7 +376,7 @@ items:
     - name: Customize the mobile app
       items:
         - name: Customize with Power Apps
-          href: mobile/power-apps-customization.md 
+          href: mobile/power-apps-customization.md
         - name: Change the navigation and views
           href: mobile/customize-navigation-views.md
         - name: Change the booking calendar
@@ -412,7 +428,7 @@ items:
       href: manual-inventory-journals.md
 
 - name: Knowledge articles
-  items: 
+  items:
     - name: Overview
       href: field-service-km-overview.md
     - name: Create knowledge articles
@@ -431,19 +447,6 @@ items:
       href: field-service-km-analyze.md
     - name: Submit feedback on knowledge articles
       href: field-service-km-ratings-feedback.md
- 
-- name: Reports
-  items:
-    - name: Reports overview
-      href: reports.md
-    - name: Work order summary report
-      href: work-order-summary-report.md
-    - name: Resource and utilization report
-      href: resource-utilization-report.md
-    - name: Optimization summary report
-      href: rso-optimization-summary-report.md
-    - name: Admin report
-      href: rso-admin-report.md
 
 - name: Field Service Portal
   items:
@@ -536,7 +539,7 @@ items:
       - name: Configure the add-in
         href: rso-configuration.md
       - name: Manage optimization scopes
-        href: rso-optimization-scope.md 
+        href: rso-optimization-scope.md
       - name: Define optimization goals
         href: rso-optimization-goal.md
       - name: Create optimization schedules
@@ -608,6 +611,9 @@ items:
     - name: Customize the booking card
       href: customize-booking-card.md
 
+- name: Field Service table reference
+  href: developer/reference/entities/toc.yml
+
 - name: Troubleshooting and FAQ
   items:
   - name: Troubleshoot with Solution Health Hub
@@ -633,6 +639,10 @@ items:
       href: faqs-work-order-recap.md
     - name: FAQ about work order update
       href: faqs-work-order-update.md
+    - name: FAQ about inspection templates with Copilot
+      href: faqs-inspection-designer.md
+    - name: FAQ about the Scheduling Operations Agent (preview)
+      href: faqs-soa.md
 
 - name: More resources
   items:

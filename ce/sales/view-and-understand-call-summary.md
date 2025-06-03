@@ -2,7 +2,7 @@
 title: View and understand call summary page in Conversation Intelligence app
 description: Use call summary a get a high-level view of how a conversation with customer went, and includes action items and relevant keywords, timeline, transcript.
 ms.date: 11/05/2024
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -16,13 +16,6 @@ The information on the call summary page helps both sellers and managers:
 
 - Sellers can quickly ramp up on past conversations with customers, and highlight important topics and commitments.
 - Managers can get a high-level view of how their team is managing their relationships with customers.  
-
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
 
 ## Prerequisites
 

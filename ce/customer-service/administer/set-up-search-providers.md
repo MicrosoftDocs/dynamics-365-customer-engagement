@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 06/21/2024
+ms.date: 04/30/2025
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -37,7 +37,7 @@ You can set up one of the following as a search provider:
 
 In Microsoft Cloud for Sovereignty, the external search providers feature is available for use in Government Community Cloud (GCC) only.
   
-To view search results, your customer service representatives (representatives) must have access to external content.
+To view search results, your customer service representatives (service representatives or representatives) must have access to external content.
 
 Use the integrated search provider option to set up third-party knowledge sources, such as enterprise websites that are based on the site map protocol. For more information, see [Manage integrated search providers](add-search-provider.md#manage-integrated-search-providers).
 
@@ -47,7 +47,7 @@ Use the integrated search provider option to set up third-party knowledge source
 >
 > Before you set up a search provider, ensure that your firewall doesn't block the https://www.d365ccafpi.com/ domain. Otherwise, users will encounter errors.
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the site map of Copilot Service admin center, select **Knowledge** in **Support experience**. The **Knowledge** page appears.
 
 1. In the **External search providers** section, select **Manage**.
       > [!NOTE]

@@ -15,13 +15,6 @@ ai-usage: ai-assisted
 
 Close the opportunity when you've won or lost the deal. Closing the opportunity helps you track the sales pipeline and forecast future sales.
 
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
 ## Close an opportunity  
 
 1. In the Sales Hub sitemap, select **Opportunities**.  

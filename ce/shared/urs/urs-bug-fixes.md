@@ -1,4 +1,3 @@
-  
 ## Release schedule
 
 When a new version of Universal Resource Scheduling releases, it becomes available in different geographic regions at different times. The table shows estimates for when the next release will become available in the region of your environment.
@@ -8,18 +7,79 @@ For information about older versions, see [Version history archive](../../field-
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [3.12.148.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214812) | TBD | 02/28/2025 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.146.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312146.16) |  [3.12.148.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214812) | 01/17/2025 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania, Singapore* |[3.12.146.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312146.16) |  [3.12.148.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214812) | 01/24/2025 |
-| | *USG* |[3.12.146.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312146.16) |  [3.12.148.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214812) | 01/17/2025 |
-|**Station 4** |*Europe* |   [3.12.146.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312146.16) |  [3.12.148.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214812) | 01/10/2025 |
-|**Station 5** |  *North America*|[3.12.145.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214525) |  [3.12.146.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312146.16)  | 01/10/2025 |
-|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.145.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214525) |  [3.12.146.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312146.16)  | 01/17/2025 |
-|**Station 6** | *Dedicated Scale Groups* |  [3.12.144.84](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214484) |[3.12.145.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214525) | 01/17/2025 |
+|**Station 1** |  *First Release*| [3.12.150.423](/dynamics365/field-service/field-service-version-history-resource-scheduling#31250423) | TBD | 05/30/2025 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.150.423](/dynamics365/field-service/field-service-version-history-resource-scheduling#31250423) |  TBD | 06/06/2025 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania, Singapore* | [3.12.150.423](/dynamics365/field-service/field-service-version-history-resource-scheduling#31250423) |  TBD | 06/13/2025 |
+| | *USG* | [3.12.150.423](/dynamics365/field-service/field-service-version-history-resource-scheduling#31250423) |  TBD | 06/04/2025 |
+|**Station 4** |*Europe* |  [3.12.150.423](/dynamics365/field-service/field-service-version-history-resource-scheduling#31250423) |  TBD | 06/20/2025 |
+|**Station 5** |  *North America*| [3.12.150.423](/dynamics365/field-service/field-service-version-history-resource-scheduling#31250423)  |  TBD | 06/27/2025 |
+|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.149.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214915) | TBD | 06/25/2025 |
+|**Station 6** | *Dedicated Scale Groups* |  [3.12.150.423](/dynamics365/field-service/field-service-version-history-resource-scheduling#31250423)  | TBD | 07/04/2025 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.150.423 (Hotfix2)
+
+**Resource Scheduling Controls:** 1.2.89.251331
+
+**Dataverse:** 4.0.140.423
+
+- Fixed a bug where booking templates were not working for None type entities
+- Fixed a bug where requirement groups were reverting to UTC when using the Book button
+- Fixed a bug that was causing the schedule board to crash when quickly right-clicking on new bookings for some users
+  
+## 3.12.150.423 (Hotfix1)
+
+**Resource Scheduling Controls:** 1.2.89.251132
+
+**Dataverse:** 4.0.140.423
+
+- Fixed a bug that was causing "Move To" to not function for some users on the schedule board. 
+- Various security enhancements.
+  
+## 3.12.150.416
+
+**Resource Scheduling Controls:** 1.2.89.250863
+
+**Dataverse:** 4.0.140.416
+
+- Users can now change the resource view while the crew allocation tool is loading.
+- Fixed a bug that was causing the booking card tooltip to refresh when loaded.
+- Fixed a bug that was causing the schedule board to scroll when a booking was dragged off the schedule grid.
+- Fixed a bug that was causing schedule assistant to respect the user time zone instead of the requirement's time zone when launched from  the requirement form.
+- Fixed a bug that was inverting booking start/end times in booking rule parameters.
+- Fixed a bug that was causing the wrong duration to be shown in the create booking panel after saving.
+- Horizontal scroll location is now maintained on the schedule board when switching views. 
+- Fixed a bug that was impacting the display of working days on the schedule board.
+- Improved Scheduling Operations Agent error messaging when the start of an optimization range is in the middle of a break.
+- Various visual improvements for Scheduling Operations Agent.
+- Various security enhancements.
+
+## 3.12.149.15
+
+**Resource Scheduling Controls:** 1.2.88.250442
+
+**Dataverse:** 4.0.139.15
+
+- Released [**Scheduling Operations Agent**, an agent in Dynamics 365 Field Service ](../../field-service/soa-overview.md)that helps dispatchers improve the schedule of a single technician quickly and efficiently. This new feature is enabled across stations on a separate schedule: 
+    - Station 2: March 28, 2025
+    - Station 3 - March 31, 2025
+    - Europe - April 1, 2025
+    - North America - April 2, 2025
+- Fixed a bug impacting requirement tooltips on the schedule board map. 
+- Booking statuses in the booking panel are now sorted alphabetically.
+- Fixed a bug that was improperly calculating remaining and fulfilled durations when deleting a booking spanning multiple days or when deleting multiple bookings. 
+- The lookup records panel's advanced lookup feature now defaults to the view the requirements panel is currently using on the schedule board. 
+- Fixed a bug that was causing schedule assistant to crash for some users when opened in a small window and then expanded.
+- Fixed an issue impacting crews when incrementing the date range on a schedule board tab with many resources.
+- The schedule board now scrolls when a requirement or map pin is dragged to the side.
+- Fixed a bug that was impacting switching requirement panel tabs when "show default requirement panels" setting is disabled.
+- Users can now switch the selected resources view in the Crew Allocation tool while resources are still loading. 
+- Users can now minimize the requirement details panel in schedule assistant when no resources are displayed.
+- Various accessibility enhancements.
+
 
 ## 3.12.148.12
 
@@ -39,7 +99,7 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.136.16
 
-- Fixed various time zone related bugs in Schedule Assistant.
+- Fixed various time zone related bugs in schedule assistant.
 - Fixed a bug causing duplicate months to appear for some users in monthly view of the schedule board.
 - Fixed a bug causing incorrect dates in requirement details for some users.
 - Fixed a bug causing incorrect dates to be selected when dragging the cursor in multiday views on the schedule board.

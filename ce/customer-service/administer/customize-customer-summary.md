@@ -1,7 +1,7 @@
 ---
 title: Customize the Active Conversation form
 description: Learn how to add or remove custom controls, customize form layout, and add web resources to the Active Conversation form in Omnichannel for Customer Service.
-ms.date: 08/22/2024
+ms.date: 04/23/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -18,7 +18,7 @@ You can customize the following for the **Active Conversation** page:
 - Add or remove custom controls
 - Add a web resource or iFrame to the form
 - Customize the layout
-- Add custom fields if the **Customize active conversation form** in Customer Service admin center is enabled.
+- Add custom fields if the **Customize active conversation form** in Copilot Service admin center is enabled.
 - Embed canvas apps
 
 > [!NOTE]
@@ -43,7 +43,7 @@ This section includes **Pre-chat survey** and **Visitor details**. The details o
 
 The **Visitor details** tab provides some information such as the customer is authenticated or not, browser used by the customer for contacting support, an operating system used by the customer, location of the customer, interacting language of the customer, and so on. In addition, conversation and transfer details.
 
-If the customer signs in to the portal to initiate a chat with the support, then as an agent, you can see the **Authenticated** field value as **Yes** in the **Visitor details** tab of the **Conversation summary** section. Otherwise, the **Authenticated** field value is shown as **No**.
+If the customer signs in to the portal to initiate a chat with the support, then as a customer service representative, you can see the **Authenticated** field value as **Yes** in the **Visitor details** tab of the **Conversation summary** section. Otherwise, the **Authenticated** field value is shown as **No**.
 
 ## Issue snapshot
 
@@ -96,7 +96,7 @@ To customize labels on the conversation form:
 
 1. Select the recently saved file, select **Save**, and then publish the changes.
 
-1. To view the published changes, in the Customer Service workspace, manually refresh the page containing the conversation summary form.
+1. To view the published changes, in the Copilot Service workspace, manually refresh the page containing the conversation summary form.
 
 ## Timeline
 
@@ -111,8 +111,8 @@ You can customize the timeline dropdown labels for case, account, and contact by
 
 [Omnichannel system customizers](omnichannel-customizer.md)  
 [Customize the conversation form](customize-session-form.md)  
-[Configure agent and supervisor configurations in Unified Service Desk](../../unified-service-desk/oc-customizer/create-agent-supervisor-configurations-unified-service-desk.md)  
-[Configure notification for agents](../../unified-service-desk/oc-customizer/configure-notification-screen-pop-agents.md)  
+[Configure representative and supervisor configurations in Unified Service Desk](../../unified-service-desk/oc-customizer/create-agent-supervisor-configurations-unified-service-desk.md)  
+[Configure notification for representatives](../../unified-service-desk/oc-customizer/configure-notification-screen-pop-agents.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

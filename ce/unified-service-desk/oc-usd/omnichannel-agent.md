@@ -2,7 +2,7 @@
 title: "Omnichannel for agent using Unified Service Desk | MicrosoftDocs"
 description: "Learn about the Omnichannel for Customer Service for agent using Unified Service Desk."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

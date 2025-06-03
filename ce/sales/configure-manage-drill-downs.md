@@ -2,7 +2,7 @@
 title: "Configure and manage drill-down entities for a forecast"
 description: "Configure drill-down entities to help sellers understand what values are constituting their forecast projections."
 ms.date: 10/01/2024
-ms.topic: article
+ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -19,13 +19,6 @@ searchScope:
 # Configure and manage drill-down entities
 
 Configure drill-down entities to help sellers understand what values are constituting their forecast projections.
-
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## What are drill-down entities
 

@@ -1,8 +1,8 @@
 ---
 title: Export sales records to PDF
 description: Learn how to create professional, read-only PDF files of sales records in Dynamics 365 using standard Word templates.
-ms.date: 03/15/2024
-ms.topic: article
+ms.date: 05/07/2025
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -19,13 +19,6 @@ searchScope:
 # Export sales records to PDF  
 
 Share sales records with your customers in a professional, read-only PDF format, created using your standard Word templates.  
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
 ## Prerequisites
 
@@ -81,8 +74,7 @@ If you're using Dynamics 365 for phones on a mobile device, the capability for g
 
 2. On the command bar, select **Create PDF** and then select the template you want to use to create the PDF. 
 
-    > [!div class="mx-imgBorder"]
-    > ![A quote form showing the Create PDF button on the command bar.](media/create-pdf.png "A quote form showing the Create PDF button on the command bar")
+    :::image type="content" source="media/create-pdf.png" alt-text="Screenshot of a quote form showing the Create PDF button on the command bar.":::
 
 3. In the dialog box that appears, save or download the PDF.
 
@@ -119,7 +111,7 @@ You can also generate a PDF file and directly email it to a customer.
 **Answer:** No. If SharePoint is enabled for the entity for which you're generating a PDF, the PDF file will be saved to the SharePoint location by default.  <br>
 
 **Question:** Is the PDF generation capability available on all entities? <br>
-**Answer** No. The PDF generation capability is available only on seven out-of-the-box entities: Account, Contact, Lead, Opportunity, Quote, Order, Invoice. With 2020 release wave 2, the PDF generation capability is enhanced to support custom entities.<br>
+**Answer** Yes. The PDF generation capability is available on all out-of-the-box entities and custom entities that have templates associated with them. <br>
 
 **Question:** Does the generated PDF file support custom fonts? <br>
 **Answer:** The fonts in the generated file are limited to the fonts installed on the server that generates the PDF files. Here's a list of supported fonts:

@@ -2,7 +2,7 @@
 title: Configure Microsoft Teams chat in Dynamics 365 Sales 
 description: Enable Teams chat to help users effectively collaborate on their sales records without having to leave the application.
 ms.date: 07/26/2024
-ms.topic: article
+ms.topic: how-to
 author: sbmjais
 ms.author: shjais
 ms.reviewer: shjais 
@@ -11,13 +11,6 @@ ms.reviewer: shjais
 # Configure Microsoft Teams chat in Dynamics 365 Sales
 
 Enable Teams chat to help users effectively collaborate on their sales records without having to leave the application.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | <ul><li>Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or any Dynamics 365 customer engagement app license</li> <li>Microsoft Teams license</li></ul>  <br>More information: <ul><li>[Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/)</li><li>[Microsoft Teams pricing](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options?activetab=pivot:primaryr2&rtc=1)</li><li>[Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409)</li></ul> |
-| **Security roles** | System Administrator<br>  More information: [Predefined security roles for Sales](../security-roles-for-sales.md)|
 
 ## Overview
 

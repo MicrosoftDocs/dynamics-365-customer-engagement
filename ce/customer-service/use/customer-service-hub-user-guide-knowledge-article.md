@@ -1,8 +1,8 @@
 ---
 title: Create and manage knowledge articles
 description: Create knowledge articles to address customer questions, issues, and feedback with images, videos, formatting, and media.
-ms.date: 12/05/2024
-ms.topic: article
+ms.date: 04/24/2025
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -32,7 +32,7 @@ searchScope:
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 
-Turn your customer questions, issues, and feedback into knowledge articles, so that customer service representatives (representatives) can benefit from them. Add images and videos to your articles to explain things better and make the articles engaging. You can author, edit, search, publish, and translate the knowledge articles in the Customer Service Hub, Customer Service workspace or Contact Center workspace.
+Turn your customer questions, issues, and feedback into knowledge articles, so that customer service representatives (service representatives or representatives) can benefit from them. Add images and videos to your articles to explain things better and make the articles engaging. You can author, edit, search, publish, and translate the knowledge articles in the Customer Service Hub, Copilot Service workspace.
 
 Knowledge articles can address any number of issues your customers encounter while using your organization's product or services. Types of knowledge articles can include solutions to common issues, product or feature documentation, answers to frequently asked questions (FAQ), product briefs, and more.
   
@@ -44,11 +44,11 @@ Knowledge articles can address any number of issues your customers encounter whi
 
 Make sure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the roles of knowledge manager, customer service manager, or customer service representative. Perform the following steps:
   
-1. In the application site map, go to **Service** > **Knowledge Articles**.  
+1. In the site map of Copilot Service workspace application, go to **Service** > **Knowledge Articles**.  
   
 1. Select **New**.  The **New Knowledge Article** page appears.
   
-1. On the **Content** tab, **Article Content** section, fill in the following details:  
+1. On the **Content** tab, **ARTICLE CONTENT** section, fill in the following details:  
   
    - **Title**: Type a descriptive title that communicates the subject and purpose of the article in a concise manner.  
   
@@ -56,7 +56,7 @@ Make sure that you have Create and Read permissions on the Knowledge Article ent
 
    - **Description**: Type or select a short description of the article. The description appears in the search results and is used for search engine optimization.
    
-       :::image type="content" source="../media/v9-add-cont_article.png" alt-text="Add article content":::
+     :::image type="content" source="../media/ka-new-article-page.png" alt-text="Screenshot of new knowledge article page.":::
  
 1. In the **CONTENT** section, add the content for your knowledge article.  
   
@@ -90,9 +90,9 @@ If your administrator enabled keywords and description suggestions, you can sele
 
 However, either the **Title** or **Content** fields&mdash;or any other corresponding mapped fields set by the administrator&mdash;must contain some value for suggestions to be generated. If any of the fields that the model uses to generate suggestions are empty, you see messages such as "There was a problem finding suggested keywords" or "There was a problem finding a suggested description."
 
-1. In the article **Content** section, add the content for your knowledge article and then select **Save**. The **View suggested keywords and description** link appears.
+1. In the article **Content** section, add the content for your knowledge article and then select **Save**. The suggested keywords and description feature is enabled.
 
-1. Select the **View suggested keywords and description** link.
+1. Select **View** in **SUGGESTED KEYWORDS AND DESCRIPTION**.
 
       :::image type="content" source="../media/v9-view-suggested-keywords.png" alt-text="View suggested keywords and description link":::
 
@@ -275,7 +275,7 @@ To attach a file to a knowledge article:
 
 2. Choose from the following file locations:
     - **My Device** lets you browse and select files from your local device.
-    - **Previous Uploads** opens a search pane where you can search and select from files that were previously uploaded to Customer Service Hub, Customer Service workspace, or Contact Center workspace.
+    - **Previous Uploads** opens a search pane where you can search and select from files that were previously uploaded to Customer Service Hub, Copilot Service workspace.
 
 ### Work with file attachments
 

@@ -1,7 +1,7 @@
 ---
 title: Create or edit campaign using in-app marketing
 description: Learn how to create campaigns to store your marketing information and activities, and to measure the success of your efforts through in-app marketing.
-ms.date: 06/20/2024
+ms.date: 05/27/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -37,14 +37,6 @@ Promote your business, expand your reach to new customers, and improve sales by 
 - Target marketing lists  
   
 Campaigns can include planning activities that you want to perform before you launch the campaign, and other campaign activities that you want to manage as part of the campaign. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add an activity to a campaign using in-app marketing](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)  
-
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
 
 ## Create or edit a campaign
 

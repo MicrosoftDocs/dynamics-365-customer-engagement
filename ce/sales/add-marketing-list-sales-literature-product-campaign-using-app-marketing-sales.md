@@ -1,7 +1,7 @@
 ---
 title: Add assets to campaigns using in-app marketing
 description: Depending on the marketing context of a campaign, add assets such as a marketing list, sales literature, or product to a campaign using in-app marketing.
-ms.date: 06/20/2024
+ms.date: 05/27/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -22,14 +22,6 @@ searchScope:
 # Add a marketing list, sales literature, or product to a campaign using in-app marketing
 
 Add all items to the campaign that your organization needs in this marketing context. Usually you need to add marketing lists, but you might also want to refer campaigns to products and related campaigns, or you might want to add sales literature that documents sales procedures.
-
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
 
 ## Add product list, product, or sales literature to a campaign
 

@@ -1,8 +1,8 @@
 ---
 title: Set up rules to automatically create or update records
 description: Automatically create or update records from incoming activities, such as emails, social activities, or custom activities, without the need for coding.
-ms.date: 06/21/2024
-ms.topic: article
+ms.date: 04/15/2025
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -295,7 +295,7 @@ Every default or custom activity has an **Additional Parameters** attribute. Thi
 
  For any record creation and update rule to apply to a matching incoming activity, after you add the rule items, you must activate the rule.  
 
-1.  In the site map of Customer Service admin center, go to **Customer support** > **Case settings**.
+1.  In the site map of Copilot Service admin center, go to **Customer support** > **Case settings**.
 
 2.  Select **Automatic record creation and update rules** > **Manage**.  
 

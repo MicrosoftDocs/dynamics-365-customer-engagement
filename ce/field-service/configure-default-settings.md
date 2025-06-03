@@ -1,7 +1,7 @@
 ---
 title: Set defaults for work orders, bookings, the schedule board, and agreements
 description: Learn how to set defaults for work orders, bookings, the schedule board, and agreements in Dynamics 365 Field Service.
-ms.date: 09/03/2024
+ms.date: 05/23/2025
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -80,7 +80,7 @@ This settings tab lets you define several default values and basic settings rela
 | ------------- | -------------- |
 |**General section**||
 |  Default work order completed status  | Choose whether the default booking status for a completed work order is **Completed** or **Posted**. For more information, go to [Set up booking statuses](set-up-booking-statuses.md).   |
-|  Default Warehouse   |    Select the default warehouse that work order products will be taken from unless specified otherwise. For more information, go to [Create a warehouse](create-warehouse.md).   |
+|  Default Warehouse   |    Specify the default warehouse for work order products when a warehouse is required and isn't specified on the **Work Order Product**. The system doesn't automatically populate the warehouse for all work order products. It only uses this default if a warehouse is required and left blank. Learn more in [Create a warehouse](create-warehouse.md).   |
 | Timestamp Frequency | Choose when the system updates the timestamp for a booking. |
 | Suggest Reparenting Customer Assets | Warn users when a customer asset gets added to a work order that doesn't relate to the work order's service account. If set to *Yes*, the system offers to map the customer asset to the work order's service account. When set to *No*, the warning and suggestion don't show. |
 | Calculate Price | Work orders contain pricing-related fields and functions. By default, this field is set to *Yes*, which enables pricing-related fields and logic. Changing the setting to *No* removes all pricing-related fields and disables the pricing logic, so work orders won't generate invoices after completion.|
@@ -109,8 +109,8 @@ Field Service agreements allow organizations to automatically generate work orde
 |  Option   |    Description    |
 |------------|-------------------|
 | Auto Generate Work Order for Agreement Booking  |  Select whether the system should automatically generate work orders based on agreements. If set to *No*, users have to create the work orders manually. |
-| Generate Booking Dates X Months in Advance    | Agreement booking dates help organizations plan for maintenance. If an agreement spans a long time period, you might not want to generate all booking dates at once. Agreements generate booking dates based on the agreement booking setup recurrence schedule. With autogenerate enabled, the system creates a work order booking on these dates. This setting determines how many months in advance the system generates the work order booking. |
-|   Generate Invoice Dates X Months in Advance   | Agreements generate invoice dates based on the agreement invoice setup recurrence schedule. With autogenerate enabled, the system creates an invoice record on these dates. This setting determines how many months in advance the system generates the invoice dates.   |
+| Generate Booking Dates X Months in Advance    | Agreement booking dates help organizations plan for maintenance. If an agreement spans a long time period, you might not want to generate all booking dates at once. Agreements generate booking dates based on the agreement booking setup recurrence schedule. With autogenerate enabled, the system creates a work order booking on these dates. This setting determines how many months in advance the system generates the agreement booking dates. |
+|   Generate Invoice Dates X Months in Advance   | Agreements generate invoice dates based on the agreement invoice setup recurrence schedule. With autogenerate enabled, the system creates an invoice record on these dates. This setting determines how many months in advance the system generates the agreement invoice dates.   |
 |  Pre/Post Booking Flexibility Date Field Population  | When configuring an agreement, you can define pre- and post-booking flexibility fields. These fields set the time frame in which each work order should get booked. This setting defines whether work orders generated from agreements populate this time frame in the *Date Window Start/End* or the *Time From/To Promised* fields. This setting also controls whether the *Date Window Start/End* fields are visible on the work order. If the agreement is set to populate *Date Window Start/End*, these fields are visible on the work order; otherwise, they're hidden by default.|
 | Generate Agreement Work Order X Days in Advance |  Number of days in before the booking date when the system generates the work order record.  |
 |  Generate Agreement Invoices X Days in Advance  |  Number of days in before the invoice date when the system generates the invoice record. |

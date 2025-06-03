@@ -4,7 +4,7 @@ description: Discover the different Dynamics 365 Sales licenses available and ho
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 11/12/2024
 ---
 

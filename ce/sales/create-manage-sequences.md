@@ -1,7 +1,7 @@
 ---
 title: Manage conditional workflows with sequences
 description: Manage conditional workflows with sequences. Help sales managers enforce best practices and prioritize activities for sellers.
-ms.date: 03/29/2024
+ms.date: 04/11/2025
 ms.topic: overview
 author: udaykirang
 ms.author: udag
@@ -15,13 +15,6 @@ ms.custom:
 # Manage conditional workflows with sequences
 
 Sequences help sales managers enforce best practices by introducing a set of consecutive activities for sellers to follow during the course of their day. A manager can connect sequences to leads and opportunities that appear in a seller's work queue, to help sellers prioritize activities to focus on selling, be more productive, and better align to business processes.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator, Sequence manager, or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Permission requirements to manage sequences
 

@@ -4,7 +4,7 @@ description: Learn how relationship analytics KPIs are calculated in Dynamics 36
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.topic: conceptual 
+ms.topic: concept-article 
 ms.date: 07/25/2024
 ms.custom: bap-template
 ---

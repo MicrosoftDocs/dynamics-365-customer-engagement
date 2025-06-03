@@ -1,7 +1,7 @@
 ---
 title: Add activity to campaign in in-app marketing
 description: Learn how to create, distribute, and assign planning and campaign activities to a marketing campaign to make it successful.
-ms.date: 08/29/2024
+ms.date: 05/28/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -24,14 +24,6 @@ searchScope:
 Make your marketing campaigns successful by creating, distributing, and assigning planning and campaign activities in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].  
 
 
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
- 
 ## Planning and campaign activities
  
 Planning activities are those you want to perform before you launch the campaign, and campaign activities are those you want to manage as part of the campaign. Examples of planning and campaign activities you can add include:  
@@ -86,7 +78,7 @@ When you add and distribute a campaign activity, an activity is created for each
 
     c.  **Channel.** Select the channel through which the communication for this activity must be sent. For example, the channel might be phone, letter, or email.  
       > [!NOTE]
-      > Supported channels are email, appointment, phone call, fax, and letter. Custom activities or other out-of-the-box activities are not supported.  
+      > Supported channels are email, appointment, phone call, fax, and letter. Custom activities or other out-of-the-box activities aren't supported.  
     
     d.  Scheduled start and end date. Enter the expected date and time that the activity is scheduled to start and end.   
 
@@ -102,7 +94,7 @@ When you add and distribute a campaign activity, an activity is created for each
     | Selected *table type* | Activity is created for these records to be acted on based on the activity type mentioned in the channel for the campaign activity. |
     | Excluded *table type* | The users in this section have opted out of any **Marketing Materials** or opted out of certain types of marketing materials such as email or phone calls. This information for the respective record can be seen on the **Details** tab of the record (account, contact, or lead). The other reason to be excluded could be lack of information. For example, for a campaign activity through **Email** channel, the records with no associated email ID will be excluded. |  
     
-5. Save the changes. You'll specify the actual details of the activity when you [distribute the campaign](#distribute-a-campaign-activity) activity. For example, for an email activity, you'll draft the email content when you distribute the activity.
+5. Save the changes. You specify the actual details of the activity when you [distribute the campaign](#distribute-a-campaign-activity) activity. For example, for an email activity, you draft the email content when you distribute the activity.
 
     The marketing list from which the campaign activity is created is automatically added in the Marketing list section. To add more marketing lists, select the **More Commands** icon ![More Commands icon.](media/more-commands-button.png "More Commands icon"), and then select **Add Existing Marketing List**. 
 

@@ -2,7 +2,7 @@
 title: Add the up next widget to a custom form
 description: Learn how to add the Up next widget to your custom sales forms for easier access and improved productivity in Dynamics 365 Sales.
 ms.date: 06/28/2024
-ms.topic: article
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -14,12 +14,6 @@ ms.custom:
 # Add the Up next widget to a custom form 
 
 Display the Up next widget on your customized forms through sales accelerator configuration in Dynamics 365 Sales.
-
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## What is the Up next widget?
 
