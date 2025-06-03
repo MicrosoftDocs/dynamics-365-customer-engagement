@@ -1,7 +1,7 @@
 ---
 title: Assignment methods for queues
 description: Learn about the different assignment methods for queues and how you can use them in unified routing.
-ms.date: 04/28/2025
+ms.date: 06/03/2025
 ms.topic: concept-article
 author: neeranelli
 ms.author: nenellim
@@ -27,8 +27,7 @@ Use assignment methods to determine how to assign work items. You can use the ou
 
 The auto assignment process in unified routing matches incoming work items with the best-suited customer service representatives (service representative or representative) based on the configured assignment rules. This continuous process consists of multiple assignment cycles and a default block size of work items.
 
-Each cycle picks up the top unassigned work items in the applicable default block size and attempts to match each work item with an appropriate representative. Work items that aren't assigned to representatives because of their unavailability or because no matching skill was found are routed back to the queue.
-The next assignment cycle picks up the next block of the top-priority items that includes new work items.
+Each cycle picks up the top unassigned work items in the applicable default block size and attempts to match each work item with an appropriate representative. Work items that aren't assigned to representatives because of their unavailability or because no matching skill was found are routed back to the queue. The next assignment cycle picks up the next block of the top-priority items that includes new work items.
 
 When eligible representatives aren't found for the work items, the assignment cycle keeps retrying to assign the top number of default sized block items as applicable for the channel.
 
@@ -49,11 +48,11 @@ Unified routing prioritizes work within individual queues and across queues. Pri
 
 The oldest conversation or work item in the queue is assigned first. For asynchronous messaging channels such as persistent chat, WhatsApp, and Facebook, the oldest conversation is determined based on the last interaction time. For example, if the first contact on WhatsApp for a customer is on Monday, and the initial problem is resolved by Tuesday but the conversation isn't closed, it goes into the [waiting state](../use/oc-conversation-state.md). If the same customer comes back on Thursday afternoon with a new question while new customers are waiting in the queue since Thursday morning, the returning customer is prioritized only after the customers who are waiting since Thursday morning.
 
-However, if you want to prioritize assignment based on conversation creation time, you can use custom prioritization rules.
+For record queues, the first-in-first-out assignment method is based on the time the record was routed, which is when the associated live work item is created. Learn more in [Understand how unified routing affects queue items and live work items for routed records](../develop/unified-routing-impact-on-apis).
 
-For record queues, the first-in-first-out assignment method is based on the creation time of the associated live work item for the record.
+If you want to prioritize assignment based on conversation creation time, you can use custom prioritization rules.
 
-When customer service representatives are subscribed to multiple queues, you can use the [Queue priority](queues-omnichannel.md#configure-queue-prioritization) field of the queue to prioritize work across queues. Work from the higher priority queues is assigned first over lower priority queues. Queues can also be given the same priority. In such a case:
+When service representatives are subscribed to multiple queues, you can use the [Queue priority](queues-omnichannel.md#configure-queue-prioritization) field of the queue to prioritize work across queues. Work from the higher priority queues is assigned first over lower priority queues. Queues can also be given the same priority. In such a case:
 - If they have the default first-in-first-out ordering, the oldest item across all these queues is assigned first.
 - If they have custom prioritization rules, then the queues are ordered alphabetically based on the queue names to determine the highest priority work. 
 
@@ -64,7 +63,7 @@ For example, lets look at a setup with the following four queues, all with prior
 - **VIP Support and Premium Support**: Default first-in-first-out prioritization
 - **Order Support and Invoice Inquiries**: Custom prioritization rules
 
-For a support representative who is subscribed to all the four queues, they receive the oldest item from the VIP Support and Premium support queues. If these two queues don't have eligible items for the representative, work from the Invoice Inquiries queue is assigned next followed by the work from the Order Support queue. 
+For a representative who is subscribed to all the four queues, they receive the oldest item from the VIP Support and Premium support queues. If these two queues don't have eligible items for the representative, work from the Invoice Inquiries queue is assigned next followed by the work from the Order Support queue. 
 
 > [!NOTE]
 > We recommend that you assign distinct queue priorities to queues with custom prioritization rules. Even if the queues have the same prioritization ruleset, they're considered to be distinct.
@@ -199,7 +198,6 @@ The assignment ruleset is an ordered list of assignment rules. Each assignment r
 In the assignment rule, the system user attributes are matched with the requirement of the work item. When you select static match, the condition is formed on the System User entity attribute and static values. When you select dynamic match, the conditions on the left are based on the system user root entity and the conditions on the right are based on the conversation root entity. You can drill down to two levels on the conversation root entity to form the rule conditions. An assignment rule with the dynamic match and static match is as follows.
 
 :::image type="content" source="../media/assignment-rule-root-entity.png" alt-text="Screenshot of an assignment rule with dynamic match and static match conditions.":::
-
 
 ### Components of an assignment rule
 
