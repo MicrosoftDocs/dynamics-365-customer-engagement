@@ -15,15 +15,9 @@ ms.reviewer: lavanyakr
 ai-usage: ai-assisted
 ---
 
-# Customize Copilot in Dynamics 365 Sales (preview)
+# Customize Copilot in Dynamics 365 Sales
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-Customize Copilot chat to make it more intelligent and relevant for your organization. 
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
-You can customize the following aspects of the Copilot chat experience in Dynamics 365 Sales:
+Customize Copilot chat to make it more intelligent and relevant for your organization. You can customize the following aspects of the Copilot chat experience in Dynamics 365 Sales:
 
 - Add additional topics to help Copilot learn from your organization's data, content, and processes.
 - Customize the prompt guide to include the most relevant prompts for your organization.
@@ -37,9 +31,13 @@ You can customize the following aspects of the Copilot chat experience in Dynami
 To customize Copilot in Dynamics 365 Sales, you must have the **Copilot Studio Author** role. Contact your tenant administrator to assign the role to you in the Power Platform Admin Center. To know more about the role, see [Copilot Studio authors](/microsoft-copilot-studio/billing-licensing#copilot-studio-authors).  
 
 
-## Customize Copilot using Copilot Studio
+## Customize Copilot using Copilot Studio (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
 Use a solution to manage your customizations so that you can easily deploy them across different environments. Learn more at [Create a solution in Copilot Studio](/microsoft-copilot-studio/authoring-solutions-overview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 1. Sign in to [Copilot Studio](https://copilotstudio.microsoft.com/).
 1. Select your Dynamics 365 environment and then select **Agents**.
@@ -56,10 +54,7 @@ Use a solution to manage your customizations so that you can easily deploy them 
 
 <a name="add-glossary"></a>
 
-## Add glossary to help Copilot understand your business terms (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+## Add glossary to help Copilot understand your business terms
 
 You can train Copilot in Dynamics 365 Sales to understand your business terms. Use glossary to map your business terms to columns in your tables so that sellers can seamlessly ask Copilot questions using your business terms. Let's say that you have a custom field called **custom revenue** in the **opportunity** table that stores the estimated revenue for an opportunity. You can add a glossary term to help Copilot understand that **opportunity revenue** refers to the **custom revenue** column in the **opportunity** table.
 
