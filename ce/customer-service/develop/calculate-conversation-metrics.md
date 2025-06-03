@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 05/30/2025
+ms.date: 06/03/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -393,11 +393,11 @@ For chat and digital messaging, a service representative is actively working on 
 
 For the **Voice** report, this metric is the sum of total talk time, total hold time, and total active wrap-up time or after-call work, divided by the number of calls handled, where:
 
-:::image type="content" source="../media/aht_voice.png" alt-text="Screenshot of average handle time for voice.":::
+:::image type="content" source="../media/aht-voice.png" alt-text="Screenshot of average handle time for voice.":::
 
 For the **Chat** report, this metric is the sum of the active chat time and active wrap-up time, divided by the number of chats handled, where:
 
-:::image type="content" source="../media/aht_chat.png" alt-text="Screenshot of average handle time for chat.":::
+:::image type="content" source="../media/aht-chat.png" alt-text="Screenshot of average handle time for digital messaging and chat.":::
 
 This metric can be viewed in two formats: seconds and hh:mm:ss.
 
