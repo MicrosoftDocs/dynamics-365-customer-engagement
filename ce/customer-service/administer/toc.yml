@@ -160,11 +160,11 @@
           href: automation-dictionary-keys.md
         - name: FAQ about adding users to agent experience profile
           href: faq-agent-experience-profile.md
-    - name: Workforce management
+    - name: Manage your workforce
       items:
       - name: Configure the agent calendar view
         href: configure-agent-calendar.md 
-      - name: Configure routing based on agent calendar (preview)
+      - name: Configure shift-based routing for work items
         href: configure-routing-on-agent-calendar.md
     - name: Community
       items:
@@ -424,7 +424,7 @@
         href: voice-channel-inbound-calling.md
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
-      - name: Enable agents to search for contacts and open records from outbound dialer 
+      - name: Configure outbound dialer settings 
         href: add-outbound-dialer-settings.md  
       - name: Use Azure Virtual Desktop to access voice channel
         href: /dynamics365/contact-center/administer/configure-voice-avd?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
