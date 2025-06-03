@@ -1,7 +1,7 @@
 ---
 title: Bring your own carrier
 description: Use this article to understand how you can bring your own carrier to Dynamics 365 via Azure Direct Routing.
-ms.date: 06/03/2025
+ms.date: 06/04/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
