@@ -44,13 +44,11 @@ Use a solution to manage your customizations so that you can easily deploy them 
 1. Select **Copilot in Dynamics 365 Sales** to customize Copilot in Dynamics 365 Sales.
 1. Customize the following aspects of Copilot chat experience:
 
-    - [Add a new topic to Copilot chat](/power-apps/maker/model-driven-apps/customize-copilot-chat#add-new-topic-to-copilot-chat).
+    - [Add a new topic to Copilot chat](/power-apps/maker/model-driven-apps/customize-copilot-chat#add-new-topic-to-copilot-chat). The [Image](/microsoft-copilot-studio/authoring-send-message#add-an-image) and [Video](/microsoft-copilot-studio/authoring-send-message#add-an-image) message types from agent to user aren't supported. As a workaround, you can use Adaptive Cards.
       > [!NOTE]
-      > Knowledge source isn't supported currently for Copilot in Dynamics 365 Sales.
+      >- Knowledge source isn't supported currently for Copilot in Dynamics 365 Sales.
+      >- The [Image](/microsoft-copilot-studio/authoring-send-message#add-an-image) and [Video](/microsoft-copilot-studio/authoring-send-message#add-an-image) message types from agent to user aren't supported. As a workaround, you can use Adaptive Cards.
     - Edit the **SalesSparks** topic to [customize the prompt guide](/power-apps/maker/model-driven-apps/customize-copilot-chat#prompt-guide-customizations).
-    
-  > [!NOTE]
-  > The [Image](/microsoft-copilot-studio/authoring-send-message#add-an-image) and [Video](/microsoft-copilot-studio/authoring-send-message#add-an-image) message types from agent to user aren't supported. As a workaround, you can use Adaptive Cards.
 
 <a name="add-glossary"></a>
 
