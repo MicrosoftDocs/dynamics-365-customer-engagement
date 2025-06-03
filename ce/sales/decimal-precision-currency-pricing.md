@@ -2,7 +2,7 @@
 title: Decimal precision in currency and pricing
 description: Explore the role of decimal precision in currency and pricing, including its impact on rounding calculations and field-level precision.
 ms.date: 01/31/2025
-ms.topic: article
+ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

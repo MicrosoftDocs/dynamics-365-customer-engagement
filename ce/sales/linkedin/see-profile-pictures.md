@@ -2,7 +2,7 @@
 title: See LinkedIn profile photos for matched leads in Dynamics 365
 description: For leads and contacts that are matched to a LinkedIn member profile, you can follow these steps to enable the system to display profile photos.
 ms.date: 01/31/2025
-ms.topic: article
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.custom: 

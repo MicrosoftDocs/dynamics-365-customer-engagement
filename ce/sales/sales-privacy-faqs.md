@@ -2,7 +2,7 @@
 title: Privacy and security FAQs
 description: Find a list of frequently asked questions that are related to privacy and security in Dynamics 365 Sales.
 ms.date: 11/04/2024
-ms.topic: article
+ms.topic: faq
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -27,7 +27,8 @@ Yes, the Dynamics 365 Sales data is stored in the Power Platform environment and
 
 Yes, the Dynamics 365 Sales data can be encrypted using CMK. For more information, see [Manage your customer-managed encryption key](/power-platform/admin/customer-managed-key).
 
-Most of the Dynamics 365 Sales features fully support Customer Lockbox, except for conversation intelligence. 
+> [!IMPORTANT]
+> Most of the Dynamics 365 Sales features fully support CMK, except for conversation intelligence. 
 
 
 ## Related information

@@ -1,8 +1,8 @@
 ---
 title: Assignment methods for queues
 description: Learn about the different assignment methods for queues and how you can use them in unified routing.
-ms.date: 02/19/2025
-ms.topic: conceptual
+ms.date: 04/28/2025
+ms.topic: concept-article
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -95,29 +95,51 @@ For example, three representatives, Lesa, Alicia, and Alan, are available with t
 
 ### Least active
 
-The system assigns a work item to the representative who is least active among all the representatives in voice queues who match the required skills, presence, and capacity.
+The system assigns a work item to the representative who is least active among all the representatives in voice and messaging queues and who matches the required skills, presence, and capacity.
 
-The assignment method uses "the time since last capacity is released for a voice call" and the [**Block capacity for wrap-up**](create-workstreams.md#configure-work-distribution) setting configured in the workstream to determine the least-active representative and routes the next incoming call to them.
+The assignment method uses "the time since last capacity is released for a voice or messaging conversation" and the [**Block capacity for wrap-up**](create-workstreams.md#configure-work-distribution) setting configured in the workstream to determine the least-active representative and routes the next incoming call to them.
 
-For example, Oscar Ward and Victoria Burke are two representatives with same skills who work in the Orders and Refunds voice queues. Oscar has a call that comes in at 1:00 PM in the Orders queue. Victoria takes a call at 1:05 PM in the Refund queue. Oscar’s issue takes 15 minutes to close. Victoria solves their customer problem in five minutes. The next call comes in at 1:20 PM in the Orders queue.
- 
-Because least active routing considers the idle time of representatives, and the last capacity release for Victoria was earlier than Oscar, the new call is assigned to Victoria.
+Let's see how it works with the following examples.
+
+**Scenario 1**
+
+Oscar Ward and Victoria Burke are two service representatives with the same skills. Oscar works on the **Members Messaging** queue, while Victoria works on **Members Messaging** and **Returns Voice** queues.
+
+- **Number of conversations with Oscar**: 1 chat
+- **Number of conversations with Victoria**: 1 call and 1 chat
+
+At 1:00 PM, a new chat conversation arrives.
+
+Because Oscar has fewer concurrent conversations than Victoria, the new chat is assigned to Oscar.
+
+**Scenario 2**
+
+Maya and Hailey are two service representatives with the same skills. Maya works on the **Orders Messaging** queue, while Hailey works on **Orders Messaging** and **Delivery Voice** queues. 
+
+Let's assume that Hailey is working on a call and chat at the same time while Maya is engaged in two chat conversations.
+
+Maya completes one of the chats at 1:55 PM, and Hailey completes the chat at 2:00 PM. A new chat conversation arrives at 2:05 PM.
+
+- **Number of conversations with Hailey**: 1 call
+- **Number of conversations with Maya**: 1 chat
+
+Because both Maya and Hailey have the same concurrent assignments, the least active assignment strategy considers the last capacity release time across both voice and messaging queues.
+
+Maya is determined to be least active compared to Hailey and therefore, the new chat is assigned to Maya.
 
 Routing to the least-active representative assignment strategy helps in a balanced distribution of work items across representatives, and results in higher representative efficiency and improved customer satisfaction.
 
-You can also build a [custom report](model-customize-reports.md) to track an representative's "last capacity release time" and understand the assignment distribution across representatives.
+You can also build a [custom report](model-customize-reports.md) to track a representative's "last capacity release time" and understand the assignment distribution across representatives. The data about the representative's last capacity release time is available in the "msdyn_agentchannelstate" Dataverse entity.
 
 > [!IMPORTANT]
 >
-> The least-active assignment method is available for the voice channel only and is the default selection when you create a voice queue.
+> The least-active assignment method is available for the voice and messaging channels only and is the default selection when you create a voice queue.
 >
 > This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making—and should not be used to make—decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users may be monitored, recorded, or stored.
 
-You can also create a custom assignment method to suit your business needs.
-
 ### Create new
 
-The system lets you create and use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed. You can create the following rulesets:
+You can also create a custom assignment method to suit your business needs. The system lets you create and use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed. You can create the following rulesets:
 
 - **Prioritization rulesets**: Lets you define the order in which the work items are assigned to representatives when they're available to take more work.
 - **Assignment rulesets**: Represent a set of conditions that are used to select representatives and use an order by option to sort the matching representatives.
@@ -259,7 +281,7 @@ You can update the OData call as follows to modify the limit.
 
 [Configure assignment methods and rules](configure-assignment-rules.md)  
 [FAQ about unified routing in Customer Service, Omnichannel for Customer Service](unified-routing-faqs.md)  
-[Diagnostics for unified routing](unified-routing-diagnostics.md)  
+[Conversation diagnostics](configure-conversation-diagnostics.md)  
 [Create workstreams](create-workstreams.md)  
 [Create queues](queues-omnichannel.md)  
 [Set up unified routing for records](set-up-record-routing.md)  

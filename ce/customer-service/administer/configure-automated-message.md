@@ -1,7 +1,7 @@
 ---
 title: Configure automated messages
 description: Learn how to configure automated messages that can be sent through a channel in your contact center.
-ms.date: 04/07/2025
+ms.date: 05/29/2025
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -13,6 +13,8 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
 You can configure Omnichannel for Customer Service to send automated messages through a channel, such as chat, voice, SMS, or social channels. The **Automated messages** tab in each channel instance enables you to create channel-specific and locale-specific text. You can customize, deactivate, and activate messages specific to customer and customer service representative (service representative or representative) at the channel level.
 As an administrator, you can also overwrite or deactivate the preconfigured, out-of-the-box automated messages for any channel instance. The preconfigured automated message triggers are listed in [this section](#preconfigured-automated-message-triggers).
 
@@ -20,7 +22,10 @@ As an administrator, you can also overwrite or deactivate the preconfigured, out
 
 You can view a list of all representative and customer-facing automated messages in your Omnichannel for Customer Service environment.
 
-1. In the site map of Customer Service admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
+> [!NOTE]
+> Automated messages aren't shown in the customer chat transcript.
+
+1. In the site map of Copilot Service admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
 1. In the **Automated messages** section, select **Manage**. The **Automated messages** page is displayed.
 
     > [!div class=mx-imgBorder]
@@ -72,7 +77,7 @@ You can customize automated messages at the channel instance level. For example,
 
 ### Add custom automated messages
 
-Complete the following steps for the channel in which you want to create custom automated messages in the Customer Service admin center app:
+Complete the following steps for the channel in which you want to create custom automated messages in the Copilot Service admin center app:
 
 1. Go to the workstream, and then edit the channel instance.
 2. On the **Behaviors** page, select **Add message** in the **Custom automated messages** area.
@@ -86,7 +91,7 @@ Complete the following steps for the channel in which you want to create custom 
 
 | **Message trigger** | **Definition** | **When to trigger** | Message recipient
 |-----------------|------------|-----------------|-------------------|
-| Greeting Message for Async Channels and Voice | The automated message played for the customer as soon as the call is connected. <br>**Note**<br> If the AI agent (agent) is enabled, ensure that the automated greeting message is different from the agent message. | You can set it up to be played as the first message that the customer should hear when they call the digital contact center. | Customer |
+| Greeting Message for Async Channels and Voice | The automated message played for the customer as soon as the call is connected. <br>**Note**<br> If the AI agent is enabled, ensure that the automated greeting message is different from the agent message. | You can set it up to be played as the first message that the customer should hear when they call the digital contact center. | Customer |
 | Agent assigned to a conversation | Message displayed to the customer when the representative is assigned to the conversation. | The representative is assigned to the conversation. | Customer |
 | Agent couldn't be assigned to conversation | Message displayed to the customer when the representative assignment fails. | Work distribution fails or when routing is unable to add the representative to the chat due to system failure. For example, no representatives are available in the queue, or the default queue isn't found. <br>**Note**<br> This trigger isn't applicable to a scenario when a matching representative can't be identified based on the assignment configuration. |Customer |
 | Agent disconnected from conversation | Message displayed to the customer when the representative gets disconnected. | The representative gets disconnected due to browser tab closure, browser closure, offline presence, or network issue.  | Customer |
@@ -111,7 +116,7 @@ Complete the following steps for the channel in which you want to create custom 
 | Queue overflow conditions where the corresponding action is direct callback| The system presents an automated message to the customer that asks if they prefer a callback by the representative instead of waiting in the queue.| The first automated message plays after the customer waits for 30 seconds and then repeats after every 120 seconds until the customer selects the option, ends the call, or is connected to a representative.| Customer |
 
 > [!NOTE]
-> The supported locale is mentioned in the out-of-the-box system messages that you can see in Contact Center admin center or Customer Service admin center.
+> The supported locale is mentioned in the out-of-the-box system messages that you can see in Copilot Service admin center.
 
 
 ## Best practices for using automated messages

@@ -1,7 +1,7 @@
 ---
 title: Historical analytics for unified routing in Omnichannel for Customer Service
 description: Learn about the KPIs that are available in the historical analytics report for Omnichannel for Customer Service.
-ms.date: 02/10/2025
+ms.date: 04/28/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -22,7 +22,7 @@ With the introduction of unified routing, an advanced and elaborate set of capab
 
 The Unified routing report provides routing-specific KPIs and metrics that can be used by supervisors and administrators to track the success of their routing strategy. They can also track the incorrectly routed work items and configurations and correct them to improve the routing effectiveness and thereby customer satisfaction.
 
-The report appears as a tab in the Omnichannel historical analytics report if your administrator has enabled the corresponding setting on the **Insights** page in the Customer Service admin center app.
+The report appears as a tab in the Omnichannel historical analytics report if your administrator has enabled the corresponding setting on the **Insights** page in the Copilot Service admin center app.
 
 :::image type="content" source="../media/oc-ha-unified-routing.png" alt-text="Historical analytics for unified routing in Omnichannel for Customer Service.":::
 

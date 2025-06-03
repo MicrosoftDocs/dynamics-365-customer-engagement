@@ -4,7 +4,7 @@ description: The new schedule board is faster, with better usability and additio
 ms.date: 05/08/2024
 ms.reviewer: mhart
 ms.subservice: common-scheduler
-ms.topic: article
+ms.topic: concept-article
 author: mkelleher-msft
 ms.author: mkelleher
 ---

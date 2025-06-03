@@ -2,7 +2,7 @@
 title: "Add stakeholders, sales team, and competitors for the opportunity | MicrosoftDocs"
 description: "Add people that you're working with on the opportunity as stakeholders and sales team."
 ms.date: 09/09/2024
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

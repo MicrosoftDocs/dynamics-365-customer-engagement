@@ -124,6 +124,9 @@ One-To-Many Relationship: [msdyn_timegroupdetail msdyn_timegroupdetail_ActivityP
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [activity_pointer_msdyn_bookingalert](#BKMK_activity_pointer_msdyn_bookingalert)
+- [activity_pointer_msdyn_ocoutboundmessage](#BKMK_activity_pointer_msdyn_ocoutboundmessage)
+
 ### <a name="BKMK_activity_pointer_msdyn_bookingalert"></a> activity_pointer_msdyn_bookingalert
 
 Many-To-One Relationship: [msdyn_bookingalert activity_pointer_msdyn_bookingalert](msdyn_bookingalert.md#BKMK_activity_pointer_msdyn_bookingalert)
@@ -134,6 +137,18 @@ Many-To-One Relationship: [msdyn_bookingalert activity_pointer_msdyn_bookingaler
 |ReferencingAttribute|`activityid`|
 |ReferencedEntityNavigationPropertyName|`activity_pointer_msdyn_bookingalert`|
 |IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_activity_pointer_msdyn_ocoutboundmessage"></a> activity_pointer_msdyn_ocoutboundmessage
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage activity_pointer_msdyn_ocoutboundmessage](msdyn_ocoutboundmessage.md#BKMK_activity_pointer_msdyn_ocoutboundmessage)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`activityid`|
+|ReferencedEntityNavigationPropertyName|`activity_pointer_msdyn_ocoutboundmessage`|
+|IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 

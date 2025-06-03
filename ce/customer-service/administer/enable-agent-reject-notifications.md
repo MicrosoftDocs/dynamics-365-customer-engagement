@@ -1,8 +1,8 @@
 ---
-title: "Enable automatic status update on rejection of work assignment| MicrosoftDocs"
-description: "Learn about managing agent reject notifications in Customer Service"
-ms.date: 06/14/2024
-ms.topic: article
+title: Enable automatic status update on rejection of work assignment
+description: Learn about managing agent reject notifications in Customer Service
+ms.date: 05/09/2025
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -16,13 +16,13 @@ You can enable agent presence to be updated automatically to **Do not disturb** 
 
 > [!IMPORTANT]
 > 
-> - Work items will continue to be routed to the agent if **Do not disturb** is an allowed presence in the workstream. More information: [Create workstreams for unified routing](create-workstreams.md)
+> - Work items get routed to the agent if **Do not disturb** is an allowed presence in the workstream. Learn more in [Create workstreams for unified routing](create-workstreams.md).
 > - Automatic change of agent status when agent rejects a notification is not supported in Omnichannel for Customer Service on Unified Service Desk.
 
 ## Enable automatic update of agent presence
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Workspaces** in **Agent experience**.
-1. On the **Workspaces** page, select **Manage** for **Notification templates**.
+1. In the site map of Copilot Service admin center, select **Workspaces** in **Support experience**.
+1. On the **Workspaces** page, select **Manage** for **Notifications**.
 1. On the **Omnichannel Configuration** page, select the **Agent Reject** tab.  
 1. Set the **Change agent status to "Do not disturb" after a notification is rejected** toggle to **Yes**. The **Status name** and **Status description** settings appear.
 1. Select **Save**.

@@ -4,9 +4,9 @@ description: Ensure reliability and stability of the service with built-in limit
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
-ms.date: 03/03/2025
+ms.date: 05/09/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -18,7 +18,7 @@ ms.custom:
 
 The built-in limits are designed to ensure reliability and stability of the service. Use the Ideas forum to request changes.
 
-The following table lists the built-in limits for the embedded version of insights that can be accessed through the Customer Service workspace and Omnichannel for Customer Service apps. This table explains the service limits for Customer Service historical analytics reports.
+The following table lists the built-in limits for the embedded version of insights that can be accessed through the Copilot Service workspace and Omnichannel for Customer Service apps. This table explains the service limits for Copilot Service historical analytics reports.
 
 | Area | Limits | Notes |
 | ------------ | ------------- | ----------------- |

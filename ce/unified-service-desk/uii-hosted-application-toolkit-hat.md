@@ -2,7 +2,7 @@
 title: "UII Hosted Application Toolkit (HAT) in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the Hosted Application Toolkit (HAT) that facilitates the task of automating the user interface (UI) of a hosted application."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: get-started
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

@@ -2,8 +2,8 @@
 title: "Time Source (msdyn_timeentrysetting) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Time Source (msdyn_timeentrysetting) table/entity with Microsoft Dynamics 365 Field Service."
 ms.topic: generated-reference
-author: m-hartmann
-ms.author: mhart
+author: puneet-singh1
+ms.author: puneetsingh
 search.audienceType: 
   - developer
 ---
@@ -131,7 +131,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**The source type of the time entry. See the msdyn_timeentrysourcetype OptionSet for more information.**|
+|Description|**The source type of the time entry. See the msdyn\_timeentrysourcetype OptionSet for more information.**|
 |DisplayName|**Source Type**|
 |IsValidForForm|True|
 |IsValidForRead|True|

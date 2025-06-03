@@ -6,7 +6,7 @@ ms.reviewer:
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: troubleshooting-general
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 886fee0f-d97b-4baf-9019-63ee11cdf329

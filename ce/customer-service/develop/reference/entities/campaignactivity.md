@@ -22,6 +22,9 @@ Task performed, or to be performed, by a user for planning or running a campaign
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [campaignactivity_msdyn_bookingalerts](#BKMK_campaignactivity_msdyn_bookingalerts)
+- [campaignactivity_msdyn_ocoutboundmessages](#BKMK_campaignactivity_msdyn_ocoutboundmessages)
+
 ### <a name="BKMK_campaignactivity_msdyn_bookingalerts"></a> campaignactivity_msdyn_bookingalerts
 
 Many-To-One Relationship: [msdyn_bookingalert campaignactivity_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_campaignactivity_msdyn_bookingalerts)
@@ -32,6 +35,18 @@ Many-To-One Relationship: [msdyn_bookingalert campaignactivity_msdyn_bookingaler
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`campaignactivity_msdyn_bookingalerts`|
 |IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `7f15e2bb-305a-468f-9af7-be865755a984`|
+
+### <a name="BKMK_campaignactivity_msdyn_ocoutboundmessages"></a> campaignactivity_msdyn_ocoutboundmessages
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage campaignactivity_msdyn_ocoutboundmessages](msdyn_ocoutboundmessage.md#BKMK_campaignactivity_msdyn_ocoutboundmessages)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`campaignactivity_msdyn_ocoutboundmessages`|
+|IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `7f15e2bb-305a-468f-9af7-be865755a984`|
 
 

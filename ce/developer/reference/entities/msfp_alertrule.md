@@ -744,4 +744,4 @@ Many-To-One Relationship: [msfp_alert msfp_msfp_alertrule_msfp_alert_alertrule](
 
 [Dataverse table/entity reference](/power-apps/developer/data-platform/reference/about-entity-reference)  
 [Dataverse Web API Reference](/power-apps/developer/data-platform/webapi/reference/about)   
-<xref:Microsoft.Dynamics.CRM.msfp_alertrule?displayProperty=fullName>
+
