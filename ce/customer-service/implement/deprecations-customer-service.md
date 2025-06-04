@@ -23,7 +23,7 @@ Administrators and IT professionals can use this information to prepare for futu
 
 In Dynamics 365 Channel Integration Framework versions 1 and 2, the setClickToAct (JavaScript API Reference) API will be deprecated on October 31, 2025. If you need to change outbound configuration for your channel provider, review [Enable outbound communication (ClickToAct) in Dynamics 365 Channel Integration Framework 2.0](../../channel-integration-framework/v2/administer/enable-outbound-communication-clicktoact.md).
 
-## Omnichannel agent and supervisor dashboard experiences to be deprecated December 1, 2025
+## Omnichannel agent and supervisor dashboard experiences to be deprecated on December 1, 2025
 
 The Omnichannel dashboard experiences in Copilot Service workspace will be deprecated on December 1, 2025. Support will end on December 1, 2027. This upcoming change affects customers who use the agent or supervisor dashboard experiences. We recommend that you transition to the [inbox experience](../use/use-inbox.md) and [Omnichannel real-time analytics report](../use/intro-realtime-analytics-dashboard.md) in the Copilot Service workspace app. 
 
