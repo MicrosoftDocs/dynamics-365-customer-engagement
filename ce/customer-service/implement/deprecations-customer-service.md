@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: concept-article
-ms.date: 06/01/2025
+ms.date: 06/04/2025
 ms.custom: bap-template
 ms.collection:
 ---
@@ -33,18 +33,18 @@ Copilot Service workspace offers modern customer service experiences, with featu
 
 The [effort estimation model in unified routing](../administer/use-effort-estimation-for-routing.md) is deprecated as of May 02, 2025. The support for the feature will end and the feature will be removed on June 02, 2025.
 
-## Auto-summarization of ongoing conversations is deprecated in April 2025
+## Auto-summarization of ongoing conversations is deprecated
 
 Starting April 16, 2025, we no longer support the auto-summarization of ongoing conversations in Customer Service apps. We recommend that you use [Copilot-generated conversation summary](/dynamics365/contact-center/use/copilot-summarize-conversations#view-a-conversation-summary).
 
 
-## Rich text editor classic experience to be deprecated in April 2025
+## Rich text editor classic experience is deprecated
 
-Starting April 18, 2025, we'll no longer support the classic rich text editor experience in Customer Service apps. The new, modernized rich text editor is the default experience, and customers who are using the classic experience will be upgraded automatically. Learn more in [Modern text editor enhancements](/power-apps/maker/model-driven-apps/rich-text-editor-control#modern-text-editor-enhancements).
+As of April 18, 2025, the classic rich text editor experience is deprecated in Customer Service apps. The new, modernized rich text editor is the default experience, and customers who used the classic experience were upgraded automatically. Learn more in [Modern text editor enhancements](/power-apps/maker/model-driven-apps/rich-text-editor-control#modern-text-editor-enhancements).
 
 ## Case and knowledge suggestions in smart assist are deprecated
 
-Starting June 02, 2025, we'll no longer support [case and knowledge suggestions](../use/oc-view-ai-suggested-cases-articles.md) via smart assist in Customer Service. We recommend that you [make Copilot available to your customer service representatives](../administer/configure-copilot-features.md#make-copilot-available-to-representatives).
+Starting June 02, 2025, we no longer support [case and knowledge suggestions](../use/oc-view-ai-suggested-cases-articles.md) via smart assist in Customer Service. We recommend that you [make Copilot available to your customer service representatives](../administer/configure-copilot-features.md#make-copilot-available-to-representatives).
 
 ## Dynamics 365 Unified Service Desk to be deprecated in April 2026
 
@@ -54,9 +54,9 @@ Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend 
 
 As of October 2024, the legacy provisioning of Omnichannel for Customer Service in Power Platform admin center is deprecated and is no longer be accessible. This deprecation is being done in phases. To provision channels, use the new [provisioning experience](/dynamics365/contact-center/implement/provision-channels) in Contact Center admin center or Customer Service admin center.
 
-## Customer Service Hub app to be removed for new organizations with Enterprise licenses in February 2025
+## Customer Service Hub app is removed for new organizations with Enterprise licenses
 
-Effective February 2025, the Customer Service Hub app is no longer available for all new organizations with Enterprise licenses. We'll continue to support the application for all existing organizations and new customers with license types other than Enterprise (for example, Customer Service Professional licenses). We recommend that existing customers migrate to Customer Service workspace. Learn more in [Migrate to Customer Service workspace from removed or deprecated apps](../administer/migrate-to-csw.md).
+Effective February 2025, the Customer Service Hub app is no longer available for all new organizations with Enterprise licenses. We continue to support the application for all existing organizations and new customers with license types other than Enterprise (for example, Customer Service Professional licenses). We recommend that existing customers migrate to Customer Service workspace. Learn more in [Migrate to Customer Service workspace from removed or deprecated apps](../administer/migrate-to-csw.md).
 
 ## Diagnostics in unified routing is deprecated
 
