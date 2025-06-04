@@ -1,7 +1,7 @@
 ---
 title: Linking records to Microsoft Teams channels FAQs 
 description: Discover answers to common questions about Linking Dynamics 365 records to Microsoft Teams channels.
-ms.date: 03/15/2024
+ms.date: 06/04/2025
 ms.topic: troubleshooting
 author: sbmjais
 ms.author: shjais
@@ -18,7 +18,7 @@ The tenant admin must provide consent for the enterprise application to be creat
 
 ## The documentation refers to _Microsoft 365 tenant admin permissions_. What does this mean
 
-Microsoft 365 tenant admin permissions means the directory admin or a tenant admin.
+Microsoft 365 tenant admin permissions mean the directory admin or a tenant admin.
    
 ## Is the activation for Dynamics 365 for all environments or per environment
 
