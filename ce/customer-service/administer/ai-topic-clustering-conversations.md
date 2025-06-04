@@ -1,7 +1,7 @@
 ---
 title: Configure AI topic clustering for conversations
 description: Configure topic cLustering for conversations using AI.
-ms.date: 05/28/2025
+ms.date: 06/04/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -14,7 +14,7 @@ ms.collection: bap-ai-copilot
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 > [!NOTE]
-> The legacy version of Case and Conversation Topics in Customer Service and Contact Center is deprecated as of May 30, 2025. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md#legacy-version-of-conversation-topics-in-customer-service-and-contact-center-is-deprecated).
+> The legacy version of Case and Conversation Topics in Customer Service and Contact Center is deprecated as of July 31, 2025. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md#legacy-version-of-conversation-topics-in-customer-service-and-contact-center-is-deprecated).
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 

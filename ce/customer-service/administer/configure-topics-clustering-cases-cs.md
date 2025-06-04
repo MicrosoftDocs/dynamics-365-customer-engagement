@@ -1,7 +1,7 @@
 ---
 title: Configure AI topic clustering for cases
 description: This article provides instructions to configure AI topic clustering for cases in the Customer Service Hub and Customer Service workspace.
-ms.date: 05/28/2025
+ms.date: 06/04/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -13,7 +13,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 # Configure AI topic clustering for cases
 
 > [!NOTE]
-> The legacy version of Case and Conversation Topics in Customer Service and Contact Center is deprecated as of May 30, 2025. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md#legacy-version-of-conversation-topics-in-customer-service-and-contact-center-is-deprecated).
+> The legacy version of Case and Conversation Topics in Customer Service and Contact Center is deprecated as of July 31, 2025. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md#legacy-version-of-conversation-topics-in-customer-service-and-contact-center-is-deprecated).
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
