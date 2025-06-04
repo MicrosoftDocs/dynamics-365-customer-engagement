@@ -1,7 +1,7 @@
 ---
 title: Configure automated messages
 description: Learn how to configure automated messages that can be sent through a channel in your contact center.
-ms.date: 04/24/2025
+ms.date: 05/29/2025
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -21,6 +21,9 @@ As an administrator, you can also overwrite or deactivate the preconfigured, out
 ## Display a list of all automated messages
 
 You can view a list of all representative and customer-facing automated messages in your Omnichannel for Customer Service environment.
+
+> [!NOTE]
+> Automated messages aren't shown in the customer chat transcript.
 
 1. In the site map of Copilot Service admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
 1. In the **Automated messages** section, select **Manage**. The **Automated messages** page is displayed.
@@ -111,6 +114,9 @@ Complete the following steps for the channel in which you want to create custom 
 |Offer customer callback |The callback message played for the customer when the wait times are longer than expected.| The customer calls and wait time is long.| Customer |
 | Customer callback response | When the customer presses 1 on the call menu, a confirmation message is played to indicate the customer choice.| Customer presses 1 on the call menu. The response to offer customer callback message is played.| Customer |
 | Queue overflow conditions where the corresponding action is direct callback| The system presents an automated message to the customer that asks if they prefer a callback by the representative instead of waiting in the queue.| The first automated message plays after the customer waits for 30 seconds and then repeats after every 120 seconds until the customer selects the option, ends the call, or is connected to a representative.| Customer |
+| Prompt and transfer to external number| The voice agent plays the automated message, "please hold while we transfer your call to an agent", and then transfers the call to a specified external number. You can customize this message. |You can set it up to trigger a fallback message whenever the Copilot agent becomes unresponsive at any point during the customer’s call.| Customer |
+| Prompt and escalate | The voice agent plays the automated message, "please hold while we transfer your call to an agent", and then transfers the call to a customer service representative. You can customize this message.  |You can set it up to trigger a fallback message whenever the Copilot agent becomes unresponsive at any point during the customer’s call.| Customer |
+| Prompt and hang up | The voice agent plays the automated message,"we're currently unable to process your call. We apologize for the inconvenience. Please try calling us again later", and then ends the call. You can customize this message. |You can set it up to trigger a fallback message whenever the Copilot agent becomes unresponsive at any point during the customer’s call.| Customer |
 
 > [!NOTE]
 > The supported locale is mentioned in the out-of-the-box system messages that you can see in Copilot Service admin center.
