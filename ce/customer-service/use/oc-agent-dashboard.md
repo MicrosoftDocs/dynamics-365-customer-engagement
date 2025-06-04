@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection:
-ms.date: 04/21/2025
+ms.date: 06/03/2025
 ms.custom: bap-template
 ---
 
@@ -14,6 +14,8 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
+> [!Note]
+> The Omnichannel dashboard experiences in Copilot Service workspace will be deprecated on December 1, 2025. Support will end on December 1, 2027. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md#omnichannel-agent-and-supervisor-dashboard-experiences-to-be-deprecated-december-1-2025).
 
 When you sign in to the Copilot Service workspace app, the Omnichannel Agent Dashboard is the default view. You can set any dashboard as the default view by selecting the **Set As Default** option. The dashboard displays the following streams:
 
