@@ -21,7 +21,7 @@ Administrators and IT professionals can use this information to prepare for futu
 
 ## Legacy version of Case and Conversation Topics in Customer Service and Contact Center is deprecated
 
-The legacy version of Conversation Topics in Dynamics 365 Customer Service and Dynamics 365 Contact Center is deprecated as of May 30, 2025. The support for the feature will end and the feature will be removed on July 31, 2025.
+Starting July 31, 2025, the legacy version of Case and Conversation Topics features in Dynamics 365 Customer Service and Dynamics 365 Contact Center will reach end of support. After July 31, 2025, this feature will be removed, and users will no longer be able to use it in Dynamics 365 Customer Service and Dynamics 365 Contact Center.  
 
 ## setClickToAct (JavaScript API Reference) to be deprecated on October 31, 2025
 
