@@ -1,7 +1,7 @@
 ---
 title: Linking records to Microsoft Teams channels FAQs 
 description: Discover answers to common questions about Linking Dynamics 365 records to Microsoft Teams channels.
-ms.date: 06/04/2025
+ms.date: 06/05/2025
 ms.topic: troubleshooting
 author: sbmjais
 ms.author: shjais
@@ -12,19 +12,19 @@ ms.custom: bap-template
 
 # Linking records to Microsoft Teams channels FAQs 
 
-## Does the tenant admin need to do anything to set up Microsoft Teams Integration
+## 1. Does the tenant admin need to do anything to set up Microsoft Teams Integration
 
 The tenant admin must provide consent for the enterprise application to be created in Microsoft Entra ID and add delegate permissions for Teams. This happens automatically when the Enhanced Collaboration Experience is enabled in the system settings of your customer engagement app.
 
-## The documentation refers to _Microsoft 365 tenant admin permissions_. What does this mean
+## 2. The documentation refers to _Microsoft 365 tenant admin permissions_. What does this mean
 
 Microsoft 365 tenant admin permissions mean the directory admin or a tenant admin.
    
-## Is the activation for Dynamics 365 for all environments or per environment
+## 3. Is the activation for Dynamics 365 for all environments or per environment
 
 Consent is given to all instances within a tenant, but the admin needs to manually enable functionality for each instance.
 
-## What active directory privileges are given to the customer engagement apps
+## 4. What active directory privileges are given to the customer engagement apps
 
 - **Delegated permissions**:  Group.ReadWrite.All and User.Read.All
 - **Dynamics 365 Microsoft Teams Collaboration Integration (Enterprise application), permissions**:  Group.ReadWrite.All and User.Read.All
