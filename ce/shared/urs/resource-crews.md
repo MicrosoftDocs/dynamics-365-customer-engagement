@@ -8,15 +8,13 @@ Crews are ideal for scenarios where:
 - A crew meets at a location in the morning, shares a vehicle, and is together all day from job to job.
 - A new employee is shadowing an experienced coworker to learn new skills.
 
-## Create a Crew
+## Create a crew
 
 A crew is a bookable resource which is essentially a container for the child resources who are members of the crew.
 
-1. In Field Service, change to the **Resources** area.
+1. Open the **Resources** area, select **Resources** and then select **New**.
 
-1. In the **Resource** section, select **Resources**, and then select **New**.
-
-1. Choose **Crew** as the **Resource Type**.
+1. On the **General** tab, set **Resource Type** to **Crew**.
 
 1. Provide a **Name** and choose the **Time Zone** for the crew.
 
@@ -41,13 +39,11 @@ The crew strategy determines how the crew manages its work once it moves past th
 >
 > Crew strategies also affect if and how a crew booking is rescheduled when there are changes made to an associated resource booking.
 
-## Add resource children to a crew
+### Add resource children to a crew
 
 Relate other bookable resources to the crew as crew members. If not done already, [create the bookable resources](../../field-service/set-up-bookable-resources.md). To select a leader for the crew, the resource type must be *User*.
 
-1. Open the *Crew* resource.
-
-1. Select **Related** > **Resource's Children**.
+1. On a resource crew record, go to **Related** > **Resource's Children**.
 
 1. Select **New Bookable Resource Group**.
 

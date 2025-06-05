@@ -19,7 +19,9 @@ In general, to use facility scheduling, you create a facility resource, configur
 
 ## Create a facility resource
 
-1. Go to **Resource Scheduling > Resources** and select **New**. Select **Facility** as the **Resource Type** and enter a name for the facility and the time zone.
+1. Open the **Resources** area, select **Resources** and then select **New**.
+
+1. On the **General** tab, set **Resource Type** to **Facility** and enter a name for the facility and the time zone.
 
 1. On the **Scheduling** tab, enter the following information:
 
