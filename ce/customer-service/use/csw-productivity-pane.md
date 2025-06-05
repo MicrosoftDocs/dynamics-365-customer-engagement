@@ -51,7 +51,7 @@ The productivity pane stays collapsed for entities that don't have productivity 
 
 The productivity pane places focus on the first control that has data for any table. Typically, the order is smart assist, scripts and macros, and then knowledge controls. For example, if you open an account record that has only scripts configured, when the record opens, the productivity pane expands and the focus is on the scripts and macros. 
 
-Learn more about how to add users and configure options in productivity pane in [Assign users, templates, configure productivity pane, channels](../create-agent-experience-profile#assign-users-templates-configure-productivity-pane-channels).
+Learn more about how to add users and configure options in productivity pane in [Assign users, templates, configure productivity pane, channels](../administer/create-agent-experience-profile#assign-users-templates-configure-productivity-pane-channels).
 
 ## Smart assist
 
