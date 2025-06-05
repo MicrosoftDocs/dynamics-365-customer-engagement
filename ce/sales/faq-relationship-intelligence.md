@@ -1,7 +1,7 @@
 ---
 title: Relationship intelligence FAQs
 description: Get answers to frequently asked questions about relationship analytics and health, and who knows whom.
-ms.date: 03/15/2024
+ms.date: 06/03/2025
 ms.topic: faq
 author: udaykirang
 ms.author: udag
@@ -60,7 +60,7 @@ To view the fields that determine the similar won deals at that point in time, s
 
 ### Why am I not seeing some of my colleagues in the who knows whom suggestions?
 
-If you know that a colleague has interacted with a customer but their information is not shown in Who Knows Whom widget, it could be due to the following reasons:
+If you know that a colleague has interacted with a customer but their information isn't shown in Who Knows Whom widget, it could be due to the following reasons:
 
 **Basic insights:** 
 
