@@ -22,7 +22,7 @@ Learn more about billing and rates in [Power Platform Licensing Guide](https://g
 
 ### Set up billing model
 
-Dynamics 365 supports two billing models: prepaid capacity and pay-as-you-go. The prepaid capacity model uses Copilot Studio message pack subscriptions, which are a licensing option for Microsoft Copilot Studio that you purchase in advance. The pay-as-you-go model charges for the actual number of messages consumed by agents during the month. Learn more in [Copilot licensing](/microsoft-copilot-studio/billing-licensing).
+Dynamics 365 supports two billing models: prepaid capacity and pay-as-you-go. The prepaid capacity model uses Copilot Studio message pack subscriptions, which are a licensing option for Microsoft Copilot Studio that you purchase in advance. The pay-as-you-go model charges for the actual number of messages consumed by agents during the month. Learn more in [Copilot studio licensing](/microsoft-copilot-studio/billing-licensing).
 
 Both models require that you link your Dynamics 365 environment to a Power Platform environment.
 
@@ -62,7 +62,7 @@ Dynamics 365 regularly checks the available capacity (quota) of Copilot Studio m
 
 - [Assign licenses and manage access to Copilot Studio](/microsoft-copilot-studio/requirements-licensing?tabs=web)  
 - [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing)  
-- [Disable or limit sharing of agents](/microsoft-copilot-studio/admin-sharing-controls-limits)  
-- [Orchestrate copilot topics and actions with generative AI](/microsoft-copilot-studio/advanced-generative-actions)  
+- [Control how agents are shared](/microsoft-copilot-studio/admin-sharing-controls-limits)  
+- [Orchestrate agent behavior with generative AI](/microsoft-copilot-studio/advanced-generative-actions)  
 - [Work with Power Platform environments in Copilot Studio](/microsoft-copilot-studio/environments-first-run-experience)  
 - [Pay-as-you-go plan](/power-platform/admin/pay-as-you-go-overview)
