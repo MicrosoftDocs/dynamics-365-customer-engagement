@@ -22,7 +22,7 @@ Customer Knowledge Management Agent lets you autonomously turn cases and case-re
 
 - You're using the out-of-the-box case entities.
 - [Dynamics 365 knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management) is configured.
-- You enabled Dynamics 365 knowledge base to be indexed by Copilot. You can utilize the internal knowledge base resources only for generating responses. Learn more in [Configure knowledge sources](copilot-enable-help-pane.md#configure-knowledge-sources).
+- You enabled Copilot to access Dynamics 365 knowledge base. You can utilize the internal knowledge base resources only for generating responses. Learn more in [Configure knowledge sources](copilot-enable-help-pane.md#configure-knowledge-sources).
 - You [configured connection references for Customer Knowledge Management Agent flow (preview)](admin-km-agent-connections.md#configure-connection-references-for-customer-knowledge-management-agent-flow-preview).
 - [Manage consumption-based billing and capacity](setup-pay-as-you-go.md).
 
@@ -40,7 +40,7 @@ Real-time knowledge creation is triggered when a customer service representative
 
 ### Control which cases real-time creation should create articles from 
 
-You can create multiple rules to control which conditions must be met for a resolved case to be processed by Customer Knowledge Management Agent in real time. For example, you may limit this process to cases owned by a certain user, or any other fields on the case.  
+You can create multiple rules to control which conditions must be met for a resolved case to be processed by Customer Knowledge Management Agent in real time. For example, you might limit this process to cases owned by a certain user, or any other fields on the case.  
 
 1. In the **Real-time creation** section, select **Manage rules**.
 1. In the **Manage rules** dialog, select **New** to add a new rule.

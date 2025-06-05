@@ -31,13 +31,13 @@ These insights help supervisors identify and address gaps, enhance the knowledge
 
 ## Prerequisites
 
-- Your administrator has turned on [Customer Knowledge Management Agent ](../administer/admin-km-agent.md) and enabled the **Real-time creation** and **Creation from historical cases** options.
+- Your administrator turns on [Customer Knowledge Management Agent ](../administer/admin-km-agent.md) and enabled the **Real-time creation** and **Creation from historical cases** options.
 
-- Your administrator has enabled the **Record user interactions with AI, including user actions and their feedback on AI suggestions** option, on the **Customer Knowledge Management Agent (preview)** > **User experience data** section.
+- Your administrator enables the **Record user interactions with AI, including user actions and their feedback on AI suggestions** option, on the **Customer Knowledge Management Agent (preview)** > **User experience data** section.
 
 ## Overall performance dashboard
 
-:::image type="content" source="../media/overall-performance.png" alt-text="Screenshot of the overall performance dashboard for Customer Knowledge Management Agent":::
+:::image type="content" source="../media/overall-performance.png" alt-text="Screenshot of the overall performance dashboard for Customer Knowledge Management Agent.":::
 
 ## Metrics in Overall performance report
 
