@@ -1,7 +1,7 @@
 ---
 title: Support for live chat and asynchronous channels
 description: Get information on the support for adaptive cards, suggested actions, emojis, stickers, file attachments, and message formatting in live chat and asynchronous channels.
-ms.date: 03/03/2025
+ms.date: 06/06/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -20,11 +20,11 @@ ms.reviewer: mgandham
 
 The following table lists the rich cards that are supported across different channels when you're using AI agents (agents). The support categories are intentionally broad because many possible combinations of cards, features, and channels are applicable. We recommend that you use the information in the table as a base reference, and test each of your cards in the required channels.
 
-| Channel | Hero card | Thumbnail card | Audio card | Card carousel |
+| Channel | Hero card | Thumbnail card | Audio card | Card carousel | Manual sign-in card |
 |---------------|-----------|-------------|------------|----|
-| Microsoft Teams  | ✔    |  ✔   |  ✖  | ✔  |
-| LINE    | ✔ | ✔ | 🌐  | ✔|
-| Custom (Direct Line) | ✔ |  ✔ | ✔*  | ✔* |
+| Microsoft Teams  | ✔    |  ✔   |  ✖  | ✔  | ✔ |
+| LINE    | ✔ | ✔ | 🌐  | ✔| ✖ |
+| Custom (Direct Line) | ✔ |  ✔ | ✔*  | ✔* | ✖ |
 
 ✔: Supported; card is supported fully with the exception that some channels support a subset of the card actions. The number of actions allowed on each card might be limited that varies by channel.
 
