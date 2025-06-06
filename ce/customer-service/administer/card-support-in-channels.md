@@ -21,7 +21,7 @@ ms.reviewer: mgandham
 The following table lists the rich cards that are supported across different channels when you're using AI agents (agents). The support categories are intentionally broad because many possible combinations of cards, features, and channels are applicable. We recommend that you use the information in the table as a base reference, and test each of your cards in the required channels.
 
 | Channel | Hero card | Thumbnail card | Audio card | Card carousel | Manual sign-in card |
-|---------------|-----------|-------------|------------|----|
+|---------------|-----------|-------------|------------|----|------|
 | Microsoft Teams  | ✔    |  ✔   |  ✖  | ✔  | ✔ |
 | LINE    | ✔ | ✔ | 🌐  | ✔| ✖ |
 | Custom (Direct Line) | ✔ |  ✔ | ✔*  | ✔* | ✖ |
