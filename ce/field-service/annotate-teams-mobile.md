@@ -2,7 +2,7 @@
 title: Use spatial annotations in Teams
 description: Use Microsoft Teams to annotate in a Dynamics 365 Field Service environment.
 author:  prashantyvr
-ms.date: 05/13/2025
+ms.date: 06/06/2025
 ms.topic: how-to
 ms.author: prashan
 ms.reviewer: v-wendysmith
@@ -24,22 +24,26 @@ Spatial annotations can greatly enhance your communication and collaboration, es
 
 ## Prerequisites
 
-To use this Augmented Reality (AR) feature, those who share their space for annotating must have AR capability:
+- At least one person on the call has a Dynamics 365 Field Service, Guides, or Remote Assist license.
 
-- [Android phones and tablets with ARCore support](https://developers.google.com/ar/devices)
-- [iOS iPhones and iPads with ARKit support](https://developers.google.com/ar/devices#ios)
+- The mobile user who shares their space for annotating must have Augmented Reality (AR) capability:
+
+  - [Android phones and tablets with ARCore support](https://developers.google.com/ar/devices)
+  - [iOS iPhones and iPads with ARKit support](https://developers.google.com/ar/devices#ios)
 
 For successful use of spatial annotations, go to [Best practices](#best-practices).
 
 ## Use spatial annotations
 
-You can use spatial annotations in Microsoft Teams calls as long as one person has a Dynamics 365 Field Service, Guides, or Remote Assist license. Microsoft Teams desktop users can use spatial annotations in a mobile user's space. Use the **Spatial Annotations** toolbar in Teams to add spatial annotations.
+Use the **Spatial Annotations** toolbar in Teams. For others to view the toolbar, a mobile user must select **Spatial Annotations** from the menu and start presenting. After presenting starts, everyone else on the call can view the toolbar.
 
 1. While in a mobile call, select **Spatial Annotations**.
 
-   :::image type="content" source="../field-service/media/teams-mobile-spatial-annotations.png" alt-text="Screenshot of Teams on a mobile phone showing the Spatial Annotations selection":::
+   :::image type="content" source="../field-service/media/spatial-annotations-menu.jpg" alt-text="Screenshot of Teams on a mobile phone showing the Spatial Annotations selection":::
 
-1. Use the **Spatial Annotations** toolbar to place 3D arrows or draw in your space for other callers to see or annotate in another user's space.
+1. Start presenting. The **Spatial Annotations** toolbar displays for all users on the call.
+
+1. Use the toolbar to place 3D arrows or draw in your space for other callers to see or annotate in another user's space.
 
    |Button|Description|
    |---------|----------------------------------------------------|
@@ -62,7 +66,7 @@ Make sure your Teams admin has [enabled meetings for external users](/microsoftt
 
 1. Create a Teams meeting or start a call with one participant having a Dynamics 365 Field Service, Guides, or Remote Assist license and invite your other participants.
 
-1. All participants can [use spatial annotations](#use-spatial-annotations) as long as one person on the call has a Field Service, Guides, or Remote Assist license.
+1. All participants can [use spatial annotations](#use-spatial-annotations) as long as one person on the call has a Field Service, Guides, or Remote Assist license. The **Spatial Annotations** toolbar appears for all users on the call after a mobile user starts presenting.
 
 ## Best practices
 
