@@ -1,7 +1,7 @@
 ---
 title: Integrate a Copilot agent
 description: Use this article to get instructions on how to integrate a Copilot agent in your contact center.
-ms.date: 04/11/2025
+ms.date: 06/09/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -125,7 +125,6 @@ In the voice channel, the system doesn't listen for the **closeOmnichannelConver
 | **Adaptive cards**</br>An adaptive card is a customizable card that can contain any combination of text, speech, images, buttons, and input fields.|<ul><li> You can build an adaptive card by adding a skill through Copilot Studio. Learn more in [Use Microsoft Bot Framework Skills in Copilot Studio](/power-virtual-agents/advanced-use-skills) </li><li> Adaptive card styling isn't supported.</li></ul> |
 | **Typing**</br>An agent receives a typing activity to indicate that the user is typing a response. An agent may send a typing activity to indicate to the user that it's working to fulfill a request or compile a response. | Typing indicators don't appear. |
 | **Format bot messages**</br>You can set the optional `TextFormat` property to control how the text content of your message is rendered. | <ul><li> Copilot Studio doesn't support Markdown with images and text. </li><li>When Copilot Studio sends Markdown text, there's an extra space between lines. </li></ul>|
-| **OAuth card in Microsoft Teams**</br>Using a chat agent and presenting an OAuth card in the Microsoft Teams channel. | In Copilot Studio, the sign-in node presents an OAuth card and it doesn't work properly. |
 
 ## Privacy notice
 
