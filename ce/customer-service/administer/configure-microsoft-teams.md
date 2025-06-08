@@ -1,6 +1,6 @@
 ---
 title: Configure Microsoft Teams channel
-description: Learn about the Microsoft Teams channel and how to configure the channel.
+description: Learn about the Microsoft Teams channel and how to configure it as an engagement channel.
 ms.date: 06/09/2025
 ms.topic: how-to
 author: neeranelli
@@ -82,7 +82,7 @@ Make sure that the following prerequisites are met:
        - Customers can send file attachments
        - Service representatives can send file attachments
 
-    1. Verify the settings on the **Summary** page, and select **Finish**. The Teams channel instance is configured.
+    1. Verify the settings on the **Summary** page, and then select **Finish**. The Teams channel instance is configured.
 
 1. Configure routing rules. Learn more in [Configure work classification](configure-work-classification.md).
 
@@ -114,7 +114,7 @@ Make sure that the following prerequisites are met:
 
 ## Configure authentication
 
-To enable sign-in on MCS bots, follow these steps:
+To enable sign-in on Microsoft Copilot Studio bots, follow these steps:
 
 1. Complete the steps in [Configure user authentication with Microsoft Entra ID](/microsoft-copilot-studio/configuration-authentication-azure-ad).
 
