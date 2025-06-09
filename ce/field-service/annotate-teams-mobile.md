@@ -2,7 +2,7 @@
 title: Use spatial annotations in Teams
 description: Use Microsoft Teams to annotate in a Dynamics 365 Field Service environment.
 author:  prashantyvr
-ms.date: 06/06/2025
+ms.date: 06/09/2025
 ms.topic: how-to
 ms.author: prashan
 ms.reviewer: v-wendysmith
@@ -42,6 +42,8 @@ Use the **Spatial Annotations** toolbar in Teams. For others to view the toolbar
    :::image type="content" source="../field-service/media/spatial-annotations-menu.jpg" alt-text="Screenshot of Teams on a mobile phone showing the Spatial Annotations selection":::
 
 1. Start presenting. The **Spatial Annotations** toolbar displays for all users on the call.
+
+   :::image type="content" source="../field-service/media/calling-annotations-spatial-annotation-toolbar.png" alt-text="Screenshot of the Teams Spatial Annotations toolbar.":::
 
 1. Use the toolbar to place 3D arrows or draw in your space for other callers to see or annotate in another user's space.
 
