@@ -37,7 +37,7 @@ For information about older versions, see [Version history archive](../../field-
 - Manually typing dates is now possible in all available date formats.
 - Fixed a bug that was allowing users to resize imported appointments.
 - Fixed a bug that was causing booking rules not to execute when making a booking from the booking panel. 
-- Fixed a bug that was causing SOA to display al routes on the first day in the map view.
+- Fixed a bug that was causing SOA to display all routes on the first day in the map view.
 
 ## 3.12.150.423 (Hotfix2)
 
