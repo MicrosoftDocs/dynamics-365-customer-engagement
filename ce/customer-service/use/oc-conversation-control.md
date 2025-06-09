@@ -1,11 +1,12 @@
 ---
 title: View the communication panel for conversations
 description: Learn what you can do as a representative in the communication panel when you interact with the customer.
-ms.date: 04/15/2025
+ms.date: 07/31/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
+ms.custom: bap-template
 ---
 
 # View the communication panel for conversations
@@ -39,7 +40,7 @@ The following table lists the options and the keyboard shortcuts that you can us
  
 | Annotation | Option     | Description                                   | command |
 |------|------------------|-----------------------------------------------|----------|
-|  1   | Quick replies    | Send templatized messages created by you as personal quick replies or quick replies created by your administrator | `/q` |
+|  1   | Quick replies    | Send templated messages created by you as personal quick replies or quick replies created by your administrator | `/q` |
 |  2   | Consult          | View list to consult with other users | `/c` |
 |  3   | Transfer         | View list to transfer the request | `/t` and `/tq` |
 |  4   | Add to chat      | Is enabled when the second representative accepts a consult request||
@@ -60,7 +61,7 @@ Use the following options to use quick replies in your conversation:
 
    :::image type="content" source="../media/view-all-quick-replies.png" alt-text="Vew all quick replies option that lets you see quick replies in the right pane.":::
 
-The quick replies can be created either by the administrator or by you. You can create personal quick replies if the administrator has enabled the option. The quick replies you created are available on the **Personal** tab of the **Quick replies** panel, and those created by the administrator are available on the **All** tab. Use the personal quick replies when you're in a conversation with a customer by doing the following:
+You or the administrator can create the quick replies. You can create personal quick replies if the administrator has enabled the option. Your quick replies are available on the **Personal** tab of the **Quick replies** panel, and those created by the administrator are available on the **All** tab. Use the personal quick replies when you're in a conversation with a customer by doing the following:
 
 1. Select the quick responses icon ![quick responses icon.](../media/personal-quick-reply-icon.png) at the bottom of your conversation window. The **Quick replies** panel displays the available predefined messages on the **All** and **Personal** tabs.
 2. Select the **Personal** tab, and type the number sign (#) in the compose box to list the tags and search for the personal quick replies that are available for your use.
@@ -111,7 +112,6 @@ The following events occur when you select the **Consult** button:
    
 - The primary representative can add the secondary representative to the customer conversation by selecting the people icon. The secondary representative can join the customer conversation only after the primary representative selects to add the representative.
 
-
 Additionally, the following considerations apply:
 
 - You can use the UI buttons to collapse and expand the consult pane. When the primary representative selects the option to take notes, the consult pane is in collapsed mode.
@@ -126,16 +126,16 @@ After you type **/c** in the communication panel messaging area, you can continu
 
 ## Transfer conversations
 
-In the communication panel, you can transfer the work item either to an representative or a queue. The transfer can be performed only after consult with the representative has been established. Without bringing representatives in to consult, only transfer to queues are available. If operating hours have been configured for the queues, you can successfully transfer the conversation to only those queues that are operational at the transfer time.
+If your administrator has enabled the **Transfer to representatives** setting in the Copilot Service admin center, you can transfer the conversation to another representative.
+
+In the communication panel, you can transfer the work item either to a representative or queue. If operating hours have been configured for the queues, you can successfully transfer the conversation to only those queues that are operational at the transfer time.
+
+:::image type="content" source="../media/screenshot-transfer-option.png" alt-text="Use the transfer option to transfer a conversation.":::
 
 > [!NOTE]
 > When you transfer a conversation to a queue that doesn't have any representatives, the application automatically sets the status of the conversation to Closed.
 
-
- > [!div class=mx-imgBorder]
- > ![Use the transfer option to launch the transfer list.](../media/oceh-cc-options-ellipsis-tansfer.png "Use the transfer option to launch the transfer list")
-
-After the transfer is complete, the representative who initiated the transfer will no longer be able to participate in the conversation.
+After the transfer is complete, the representative who initiated the transfer can't participate in the conversation any more. The primary representative's capacity and presence status are updated accordingly.
 
 Representatives whose presence is set to Busy-DND, Away, or Offline don't appear in the representative list of the transfer pane.
 
@@ -149,8 +149,7 @@ When skill-based routing is enabled, then during the transfer, the **Transfer** 
 
 When a conversation needs to be transferred from one queue to another, the matching criteria that were used in the conversation will be reused to find a representative in the new queue. For example, if exact match had been used to attach the skills to the conversation, the same criteria is used to find the representative in the new queue.
 
-> [!div class="mx-imgBorder"]
-> ![Transfer queue list.](../media/oceh-cc-transfer-queue-list.png "Transfer queue list")
+:::image type="content" source="../media/screenshot-transfer-to-representative.png" alt-text="Screenshot of selecting a representative to transfer the conversation.":::
 
 ### Search representatives or queues for transfer of conversation requests
 

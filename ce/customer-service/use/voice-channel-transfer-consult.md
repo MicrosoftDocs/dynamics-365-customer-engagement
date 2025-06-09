@@ -1,11 +1,12 @@
 ---
 title: Transfer calls and consult with users
 description: Use this article to understand how the customer service representatives can use the transfer and consult options to make and receive customer calls.
-ms.date: 05/26/2025
+ms.date: 07/31/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
+ms.custom: bap-template
 ---
 
 # Transfer calls and consult with users in the voice channel
@@ -20,7 +21,8 @@ To familiarize yourself with the call controls, see [Understand how to use the a
 
 ## Prerequisite
 
-The settings to transfer the calls and consult with another service representative is enabled by your administrator.
+- To transfer the calls to another service representative, the **Transfer to representative** setting in Copilot Service admin center is enabled by your administrator .
+- To transfer calls to an external PSTN number or a Teams user, the transfer settings must be enabled in the voice channel instance settings.
 
 ## Transfer calls
 
@@ -39,12 +41,14 @@ When you receive an incoming call, you can transfer the call to a service repres
 
 1. Based on your requirement, perform one of the following steps.
 
-    - **Transfer to a queue**: Select **Queue**, search for the queue you want to transfer the call to, and then select **Transfer**. The customer is put on hold. The representative who picks up the transferred call becomes the primary representative and you become the secondary  and are removed from the call.<br>
+    - **Transfer to a representative**: On the **Representative** tab, search for the representative you want to transfer the call to. Select the representative from the search results, and then select **Transfer**. The customer is put on hold. The representative who picks up the transferred call becomes the primary representative and you become the secondary representative and are removed from the call. Your capacity and presence status are updated accordingly.
+    - **Transfer to a queue**: Select **Queue**, search for the queue you want to transfer the call to, and then select **Transfer**. The customer is put on hold. The representative who picks up the transferred call becomes the primary representative and you become the secondary and are removed from the call.
+    
       > [!NOTE]
       > - When you transfer a call to a queue that doesn't have any service representatives, the application automatically ends the call and sets the status to Closed.
       > - If you transfer a call from a phone number linked to an inbound or outbound profile to a queue with a Copilot agent, the agent can only speak to the customer and end the call. The agent can't transfer the call to another agent or external number, even when you have configured the Escalation topic in Copilot Studio.
 
-        :::image type="content" source="../media/oceh-cc-transfer-queue-list.png" alt-text="A screenshot of the transfer to queue.":::
+        :::image type="content" source="../media/screenshot-transfer-to-representative.png" alt-text="Screenshot of selecting a representative to transfer the conversation.":::
     
     - **Transfer to an external PSTN number or Teams user**: Select **Number pad**. On the number pad that appears, enter the customer's area or region code, phone number, and then select **Call** to make your call. 
     -  **Transfer to Teams user**: Select **Teams**, and use the search option to search for a Microsoft Teams user. The results are filtered based on the name and the live presence of the users in Microsoft Teams. <br> 
@@ -53,7 +57,6 @@ When you receive an incoming call, you can transfer the call to a service repres
 
     > [!NOTE]
     > In the embedded and standalone experiences of Dynamics 365 Contact Center, the enhanced voice options only are available.
-
 
     ### [Enhanced voice](#tab/enhancedvoicestack)
 
