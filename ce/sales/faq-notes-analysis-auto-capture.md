@@ -1,7 +1,7 @@
 ---
 title: Notes analysis and auto capture FAQs
 description: Get answers to frequently asked questions about notes analysis and auto capture.
-ms.date: 03/15/2024
+ms.date: 06/05/2025
 ms.topic: faq
 author: udaykirang
 ms.author: udag
