@@ -68,7 +68,7 @@ The **Details** tab of the **Conversation - Conversation Form** displays the con
 
 **Summary**
 
-- The system generates the conversation summary when the conversation ends.  If no summary is generated when the call or chat ends, such as the call or chat ended with an AI agent, then a new summary is generated when the transcript viewer appears.
+If your administrator has configured Copilot to generate summaries once a conversation ends, the conversation summary appears on the form when the conversation ends. If no summary is generated when the call or chat ends, such as the call or chat ended with an AI agent, then a new summary is generated when the transcript viewer appears.
 
 > [!NOTE]
 > If you open the conversation before the transcription is processed, the summary isn't available; refresh the summary when the transcription appears.
