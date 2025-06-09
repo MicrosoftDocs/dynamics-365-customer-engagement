@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service version history
 description: Release schedule and version history for Dynamics 365 Field Service.
-ms.date: 05/23/2025
+ms.date: 06/06/2025
 ms.topic: overview
 author: jshotts
 ms.author: jasonshotts
@@ -18,18 +18,38 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.134.558](/dynamics365/field-service/version-history#88134558)  | TBD | 05/30/2025 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.134.558](/dynamics365/field-service/version-history#88134558) |  TBD |06/06/2025 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [8.8.134.558](/dynamics365/field-service/version-history#88134558) |  TBD  |06/13/2025 |
-| | *USG* |  [8.8.134.558](/dynamics365/field-service/version-history#88134558)  |  TBD |06/04/2025 |
-|**Station 4** |*Europe* |[8.8.134.558](/dynamics365/field-service/version-history#88134558) |  TBD | 06/20/2025 |
-|**Station 5** | *North America*|  [8.8.134.558](/dynamics365/field-service/version-history#88134558)  | TBD |  06/27/2025 |
-|**Station 6** |*Government Community Cloud, DoD, China* | [8.8.133.214](/dynamics365/field-service/version-history#88133214)   |  TBD  |  06/25/2025 |
-| | *Dedicated Scale Groups* | [8.8.134.558](/dynamics365/field-service/version-history#88134558)  | TBD  |  07/04/2025 |
+|**Station 1** |  *First Release*| [8.8.135.227](/dynamics365/field-service/version-history#88135227)  | TBD | 07/04/2025 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.135.227](/dynamics365/field-service/version-history#88135227) |  TBD |07/11/2025 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [8.8.134.558](/dynamics365/field-service/version-history#88134558) |  [8.8.135.227](/dynamics365/field-service/version-history#88135227)   |06/13/2025 |
+| | *USG* |  [8.8.135.227](/dynamics365/field-service/version-history#88135227)  |  TBD |07/18/2025 |
+|**Station 4** |*Europe* |[8.8.134.558](/dynamics365/field-service/version-history#88134558) |  [8.8.135.227](/dynamics365/field-service/version-history#88135227)  | 06/20/2025 |
+|**Station 5** | *North America*|  [8.8.134.558](/dynamics365/field-service/version-history#88134558)  | [8.8.135.227](/dynamics365/field-service/version-history#88135227)  |  06/27/2025 |
+|**Station 6** |*Government Community Cloud, DoD, China* | [8.8.133.214](/dynamics365/field-service/version-history#88133214)   |  [8.8.135.227](/dynamics365/field-service/version-history#88135227)   |  06/25/2025 |
+| | *Dedicated Scale Groups* | [8.8.134.558](/dynamics365/field-service/version-history#88134558)  | [8.8.135.227](/dynamics365/field-service/version-history#88135227)   |  07/04/2025 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.135.227
+(Includes Universal Resource Scheduling version [3.12.151.455](/dynamics365/field-service/field-service-version-history-resource-scheduling#312151455) and Resource Scheduling controls version 1.2.90.251391)
+
+- **Purchase Order Receipt**
+    - Fixed an issue where deleting a Purchase Order Receipt Product could incorrectly reduce the quantity or billed amount twice.
+- **Booking Card on Work Order**
+    - Fixed a bug where the Post button required two clicks when the Work Order was set to Completed.
+    - Addressed a UI issue where the date/time control had a transparent background. 
+- **Work Order Form**
+    - Resolved intermittent behavior requiring two clicks to post a Work Order using the new form.
+    - Fixed an exception error when saving a Work Order Product with an empty Total Amount after posting.
+- **Agreement-Generated Work Orders**
+    - Fixed inconsistent updates to the Primary Incident Estimated Duration field on Work Orders auto-generated from Agreement Booking Setups (ABS). Previously, the duration updated multiple times before finalizing, causing downstream issues for F&O integrations.
+- **Customer Asset Form**
+    - Added check to prevent errors that could occur when the functional location tab is missing
+- **Service Tasks Grid**
+    - Pagination now displays properly on the Service Tasks grid.
+- **Work Order Product/Service Grid**
+    - Fixed an issue where only one item was deleted when bulk deleting multiple records from the Products/Services grid.
 
 ## 8.8.134.558
 This release is a hotfix on Field Service version [8.8.134.552](/dynamics365/field-service/version-history#88134552)
