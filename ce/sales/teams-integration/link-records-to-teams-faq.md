@@ -1,7 +1,7 @@
 ---
 title: Linking records to Microsoft Teams channels FAQs 
 description: Discover answers to common questions about Linking Dynamics 365 records to Microsoft Teams channels.
-ms.date: 06/05/2025
+ms.date: 06/09/2025
 ms.topic: troubleshooting
 author: sbmjais
 ms.author: shjais
@@ -12,31 +12,31 @@ ms.custom: bap-template
 
 # Linking records to Microsoft Teams channels FAQs 
 
-## 1. Does the tenant admin need to do anything to set up Microsoft Teams Integration
+## Does the tenant admin need to do anything to set up Microsoft Teams Integration
 
 The tenant admin must provide consent for the enterprise application to be created in Microsoft Entra ID and add delegate permissions for Teams. This happens automatically when the Enhanced Collaboration Experience is enabled in the system settings of your customer engagement app.
 
-## 2. The documentation refers to _Microsoft 365 tenant admin permissions_. What does this mean
+## The documentation refers to _Microsoft 365 tenant admin permissions_. What does this mean
 
 Microsoft 365 tenant admin permissions mean the directory admin or a tenant admin.
    
-## 3. Is the activation for Dynamics 365 for all environments or per environment
+## Is the activation for Dynamics 365 for all environments or per environment
 
 Consent is given to all instances within a tenant, but the admin needs to manually enable functionality for each instance.
 
-## 4. What active directory privileges are given to the customer engagement apps
+## What active directory privileges are given to the customer engagement apps
 
 - **Delegated permissions**:  Group.ReadWrite.All and User.Read.All
 - **Dynamics 365 Microsoft Teams Collaboration Integration (Enterprise application), permissions**:  Group.ReadWrite.All and User.Read.All
 
-## 5. Is it enough to have only Microsoft Teams admin privileges to activate this Microsoft Teams Integration
+## Is it enough to have only Microsoft Teams admin privileges to activate this Microsoft Teams Integration
 
 Enabling Microsoft Teams integration has nothing to with Teams admin privileges. You need to have tenant admin permission to enable Microsoft Teams integration. 
 
-## 6. Which Service Principle (App ID) will receive this permission
+## Which Service Principle (App ID) will receive this permission
 
 The App used for this integration, which is the customer engagement app and Microsoft Teams integration.
 
-## 7. What happens when the consent is provided
+## What happens when the consent is provided
 
 Apart from consent, a flag is set internally in your customer engagement app that indicates the feature is enabled. The flag is also used to control user interface behavior such as showing a user the **Collaborate**  command.
