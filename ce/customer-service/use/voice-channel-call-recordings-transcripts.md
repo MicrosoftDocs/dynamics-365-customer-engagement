@@ -109,9 +109,8 @@ The following considerations apply:
 
 - If a survey isn't enabled for a conversation, or not completed, the **Post-conversation survey** tab is hidden.
 
-- If one of the three values aren't set up to be collected in a survey, they are hidden.
+- If one of the three values (**CSAT**, **First Contact Resolution**, or **Net Promoter Score**) aren't collected in a survey, they are hidden.
 - If the customer doesn't provide a value, the corresponding label isn't displayed in the survey results.
-- Conversations that have surveys are assigned to the Copilot survey agent after the conversation ends and not to the representatives. The representative can view the conversation in **Activities**.
 
 **Conversation Journey**
 
