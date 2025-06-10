@@ -54,11 +54,11 @@ Omnichannel real-time analytics reports are on by default. You can use the Custo
 
 ## View Omnichannel real-time analytics reports
 
-To view the reports in Customer Service workspace or Contact Center workspace, see [Access reports](../use/intro-realtime-analytics-dashboard.md#access-reports).
+To view the reports in Copilot Service workspace, see [Access reports](../use/intro-realtime-analytics-dashboard.md#access-reports).
 
-If you customized the Customer Service workspace or Contact Center workspace app, you must complete the following steps to be able to view the reports.
+If you customized the Copilot Service workspace app, complete the following steps to view the reports.
 
-1. On the Customer Service workspace or Contact Center workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
+1. On the Copilot Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**. This takes you to Power Apps.
 1. Select **New**.
 1. On the **New page** dialog, select **URL**, and then select **Next**.
 1. Enter the following information, and then select **Add**
@@ -75,6 +75,18 @@ If you customized the Customer Service workspace or Contact Center workspace app
     - **Client**: **Web**.
     - **Outlook shortcut**: **Pass parameters** and **Offline availability**
 1. Select **Save**, and then select **Publish**.
+
+## Keep the report state when you switch session tabs
+
+Keep the current state of your real-time reports, even when you switch session tabs. If you customized the Copilot Service workspace app, complete the following steps to view the reports.
+
+1. On the Copilot Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**. This takes you to Power Apps.
+1. Select **Omnichannel real-time reports** from **Navigation**.
+1. In **Display options**, from the **Content Type** dropdown list, select **Table**.
+1. From the **Table** dropdown list, select **Omnichannel Realtime analytics**.
+1. Select **Save** and then select **Publish**.
+
+After you finish these steps, the state remains the same when you reopen the report.
 
 ### Related information
 
