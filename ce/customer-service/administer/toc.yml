@@ -98,8 +98,6 @@
           href: manage-routing-diagnostics-data.md
       - name: Manage routing rules templates
         href: manage-routing-rules-templates.md
-      - name: Use best practices to set up unified routing
-        href: unified-routing-best-practices.md
       - name: FAQ about unified routing
         href: unified-routing-faqs.md
       - name: View diagnostics for unified routing
