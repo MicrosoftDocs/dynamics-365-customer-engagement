@@ -54,7 +54,7 @@ For example, if you set 10 min as the update interval, the automatic time tracke
 
 ## Enable case handling time for service representatives
 
-For service representatives to see the case handling time widget on the case form, you must enable the **Case handling time** feature in **Experience profiles**. 
+To show the case handling time widget on the case form for service representatives, enable the **Case handling time** feature in **Experience profiles**.
 
 Perform the following steps:
 
