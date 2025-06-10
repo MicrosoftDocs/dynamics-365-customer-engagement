@@ -26,7 +26,7 @@ When conversations end in your contact center, users can view the recordings and
 
 ## Prerequisites
 
-- Call recordings and transcripts are enabled by your administrator.
+- Your administrator enabled call recordings and transcripts.
 - Omnichannel agent or Omnichannel supervisor role.
 - To access recordings and transcripts, users with other roles need at least read-level access to the **Activity** table.
 - To view conversation summaries, users with other roles need at least read-level access to the **ConversationInsights** table. 
@@ -68,7 +68,7 @@ The **Details** tab of the **Conversation - Conversation Form** displays the con
 
 **Summary**
 
-If your administrator has configured Copilot to generate summaries once a conversation ends, the conversation summary appears on the form when the conversation ends. If no summary is generated when the call or chat ends, such as the call or chat ended with an AI agent, then a new summary is generated when the transcript viewer appears.
+If your administrator configured Copilot to generate summaries once a conversation ends, the conversation summary appears on the form when the conversation ends. If no summary is generated when the call or chat ends, such as the call or chat ended with an AI agent, then a new summary is generated when the transcript viewer appears.
 
 > [!NOTE]
 > If you open the conversation before the transcription is processed, the summary isn't available; refresh the summary when the transcription appears.
@@ -80,7 +80,7 @@ If your administrator has configured Copilot to generate summaries once a conver
 - **Download transcript**: Open an HTML file of the conversation transcript in your browser.
   
    > [!NOTE]
-   > Inline images and rendering of videos is not supported in downloaded transcripts.
+   > Inline images and rendering of videos isn't supported in downloaded transcripts.
 
 **Call Metrics**
 
@@ -109,7 +109,7 @@ The following considerations apply:
 
 - If a survey isn't enabled for a conversation, or not completed, the **Post-conversation survey** tab is hidden.
 
-- If one of the three values (**CSAT**, **First Contact Resolution**, or **Net Promoter Score**) aren't collected in a survey, they are hidden.
+- If one of the three values (**CSAT**, **First Contact Resolution**, or **Net Promoter Score**) aren't collected in a survey, they're hidden.
 - If the customer doesn't provide a value, the corresponding label isn't displayed in the survey results.
 
 **Conversation Journey**
