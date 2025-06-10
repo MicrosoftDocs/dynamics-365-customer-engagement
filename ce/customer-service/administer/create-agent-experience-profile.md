@@ -4,7 +4,7 @@ description: Learn how to create and manage experience profiles for customized s
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 06/05/2025
+ms.date: 06/10/2025
 ms.topic: how-to
 ---
 
@@ -61,6 +61,7 @@ For the experience profile that you created, you can add users and configure opt
       - Join a Teams call
       - Teams chats
       - Smart assist
+      - Case handling time
       
       Turn on the toggle against each option in the **Productivity Pane** to enable it for the service representative.
    - In the **Inbox** section, select **Edit** to enable the inbox view. Service representatives can view all their work items on one screen and prioritize tasks and efficiently work on multiple tasks.
