@@ -4,7 +4,7 @@ description: Learn how to create and manage experience profiles for customized s
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 06/05/2025
+ms.date: 06/10/2025
 ms.topic: how-to
 ---
 
