@@ -41,7 +41,7 @@ To display the case handling time widget on a case form, follow these steps:
     > - In Customer Service Hub, you must add the widget to the case form for automatic time to be tracked.
   1. Save and publish the changes.
 
-
+You can also view the time tracker records in the [msdyn_timetracker](../../developer/reference/entities/msdyn_timetracker.md) table.
 
 ## Set the update interval
 
