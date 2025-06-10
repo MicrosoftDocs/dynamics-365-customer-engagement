@@ -54,7 +54,7 @@ To test your microphone and speaker, do the following steps:
      The **Dial number** panel appears. You can perform the following actions:<br>
      - Search for a contact or account by name. The results are displayed in a dropdown. You can select **Account** or **Contact** to filter the results further. Once you select the customer's name, the application displays the customer's phone number, name, country/region, country code, and outbound profile that you can use to make the call.
        > [!NOTE]
-       > - Make sure you clear the country code field before you search for a contact or account. If you don't clear the country code, the search by contact or account name feature isn't available.
+       > - To search for a contact or account, clear the existing country code.
        > - For a contact, you see the business number and the mobile number. For an account, you see the main phone number.   
      - On the input box, you can copy, type in a number, or select a number from the recently dialed numbers. The country code dropdown displays the list of supported countries and regions that you can call. 
      - View and call from the most recently dialed called numbers. By default, the last 20 calls that you received or made are displayed.
