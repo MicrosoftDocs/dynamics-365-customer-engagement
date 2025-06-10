@@ -12,7 +12,7 @@ Crews are ideal for scenarios where:
 
 A crew is a bookable resource which is essentially a container for the child resources who are members of the crew.
 
-1. Open the **Resources** area, select **Resources** and then select **New**.
+1. Open the **Resources** area, select **Resources**, and then select **New**.
 
 1. On the **General** tab, set **Resource Type** to **Crew**.
 
@@ -30,14 +30,14 @@ A crew is a bookable resource which is essentially a container for the child res
 
 The crew strategy determines how the crew manages its work once it moves past the *Scheduled* booking status (such as *Traveling*, *In Progress*, or *Completed*). There are three options:
 
-- **Crew Leader Management**: Crew leader manages the work of a crew. Consider this option when a crew consists of multiple people. You can only have one resource designated as the leader at a time, and there must be a leader to create a work order booking.
+- **Crew Leader Management**: Crew leader manages the work of a crew. Consider this option when a crew consists of multiple people. You can only have one resource designated as the leader at a time, and there must be a leader to create a work order booking. The leader must be a *User* resource type.
 - **Crew Member Self-Management**: Resources can manage their own work even once the booking begins. Choose this option for crews that are groups, which regularly work together, but might not always work together at the same place or time. Self-management also means better time capturing, which is good for organizations who bill for time spent on work. 
 - **Cascade and Accept Cascade Completely**: All resources on a crew can manage all the work throughout all statuses. It's the ideal option when a crew consists of one individual and the rest of the crew is equipment.
 
 > [!NOTE]
-> The logic associated with crew strategies only impacts work order related bookable resource bookings. If an assigned resource updates their own booking to *Completed*, the end-time value is updated to the current time stamp. If another user or crew member updates a booking status to *Completed* on behalf of an assigned resource, the booking end time preserves the previous end time value.
+> The logic associated with crew strategies affects bookable resource bookings related to work orders. If an assigned resource marks their own booking to *Completed*, the end-time is updated to the current time stamp. However, if another user or crew member marks the booking to *Completed* on behalf of an assigned resource, the end time remains unchanged.
 >
-> Crew strategies also affect if and how a crew booking is rescheduled when there are changes made to an associated resource booking.
+> Crew strategies influence the rescheduling of crew bookings when there are changes made to an associated resource booking.
 
 ### Add resource children to a crew
 
@@ -56,7 +56,7 @@ Relate other bookable resources to the crew as crew members. If not done already
 :::image type="content" source="../../field-service/media/scheduling-crew-resource-children.png" alt-text="Screenshot of child resources of a resource crew.":::
 
 > [!TIP]
-> Start and end location of resources are important to book onsite requirements. The system takes crew member locations from their individual resource profiles and not from the parent crew. It's important that you change the location of the crew member resource if a resource moves between crews. For example, if you want a crew to meet at a central location in the morning, specify start and end location as organization unit address for the crew header resource *and* the resource children.
+> The start and end location of resources are important to book onsite requirements. The system takes crew member locations from their individual resource profiles and not from the parent crew. It's important that you change the location of the crew member resource if a resource moves between crews. For example, if you want a crew to meet at a central location in the morning, specify start and end location as organization unit address for both the crew header resource and the resource children.
 
 ## Schedule a crew
 
@@ -74,7 +74,7 @@ Scheduling a job to an individual crew member affects the availability of the en
 
 ### Schedule single requirements to a crew
 
-Assign a single requirement to the *Crew* resource to create a booking for the entire crew using the schedule board or schedule assistant. If you assign a single requirement to a single crew member, only that single resource gets a booking.
+Assign a single requirement to the crew resource type to create a booking for the entire crew using the schedule board or schedule assistant. If you assign a single requirement to a single crew member, only that single resource gets a booking.
 
 Booking a crew books all crew members and the crew under the following conditions:
 
@@ -106,25 +106,30 @@ When the schedule assistant searches for availability, the crew might need more 
 
 ## Quickly change a resource's crew membership for a day
 
-You can quickly make membership changes for crew resources by changing the crew allocation. Swap a resource from one crew to another, add an unassigned resource to a crew, or remove a resource from a crew. These changes apply for a single day in the crew's time zone. All future bookings for that day reflect the changes on the members' schedules.
+You can quickly make membership changes for crew resources by changing the crew allocation. Swap a resource from one crew to another, add an unassigned resource to a crew, or remove a resource from a crew. These changes apply for a single day in the crew's time zone. All future bookings for that day reflect the changes on the members' schedules. You can edit up to 15 crews simultaneously.
+
+New members get a full day membership in the crew's time zone. Removed members get their existing crew memberships split with a full day gap. If there are small overlaps without bookings, the conflicting memberships are resolved in favor of the target crew. For example, when moving a resource from a crew in one time zone to an adjacent time zone.
 
 > [!NOTE]
-> To make changes to crews for longer than a day, edit the crew configuration directly.
+> To make changes to crews for longer than a day, edit the crew resource directly.
 
-To access the crew allocation tool, go to the **Resources** page and open a view that has at least one crew type resource. Select **Crew Allocation** in the command bar. The tool opens the current day based on your local time and you change it using the date picker. Crews show in the tool according to their order in the view. You can edit up to 15 crews simultaneously.
+1. Open the **Resources** area, select **Resources**, and then open a view that has at least one crew resource type.
 
-Use drag and drop to move resources between crews or assign available resources to a crew. To remove a resource from a crew, select the resource and select **Remove** in the command bar. You can select multiple resources by holding the Control/Command key while making your selection.
+1. Select **Crew Allocation** in the command bar. The tool opens to the current day based on your local time. The bottom pane shows resources that are available for work but not members of a crew for the selected day. This list doesn't consider the resource capacity. You can change the view and search for resources by name.
 
-Save your changes to update a crew. The system processes membership changes. New members get a full day membership in the crew's time zone. Removed members get their existing crew memberships split with a full day gap. If there are small overlaps without bookings, the conflicting memberships are resolved in favor of the target crew. For example, when moving a resource from a crew in one time zone to an adjacent time zone. During processing, the system doesn't allow further changes.
+   :::image type="content" source="../../field-service/media/scheduling-crew-allocation-tool.png" alt-text="Screenshot of crew allocation page.":::
 
-After the membership changes conclude, bookings begin to cascade asynchronously. New members get active bookings moved until after the day of the assignment in the crew. Members who are removed from a crew have their crew bookings canceled. Wait a few minutes for the changes to process.
+1. Change to the date for the change in resources.
+
+1. To select multiple resources, select the **Control** and **Command** key while making your selections.
+
+   - To move resources between crews or assign an available resource to a crew, use drag and drop.
+
+   - To remove a resource from a crew, select the resource and select **Remove** in the command bar.
+
+1. Select **Save**. The system processes membership changes. Wait a few minutes for the changes to process. During processing, the system doesn't allow further changes.
+
+After the membership changes conclude, bookings begin to cascade asynchronously. New members get active bookings moved until after the day of the assignment in the crew. Members who are removed from a crew have their crew bookings canceled.
 
 > [!NOTE]
-> If the leader on a leader-managed crew is moved to a different crew, they lose their leadership status for that day, even if they're returned to their original crew. To select a new leader or to restore this status, edit the crew configuration directly.
-
-
-### Crew allocation tool components
-
-- Crew membership grid: Each crew has information about the number of resources that are available and expected for that crew, and the crew's time zone. An added resource is a member of that crew that from 12:00am to 12:00am in the crew's time zone. Resources that are assigned to the crew are listed alphabetically if they have a membership range that includes most of the given day in the crew's time zone.
-- Bookings grid: A section shows all bookings that the crew has for the day. You can open the booking records for more details but you can't change them in the crew allocation tool.
-- Available resources pane: It lists resources that are available for work but not members of a crew for the selected day. This list doesn't consider the resource capacity. It only shows resources that are working on this day. You can change the view and search for resources by name.
+> If the leader on a leader-managed crew is moved to a different crew, they lose their leadership status for that day, even if they're returned to their original crew. To select a new leader or to restore this status, edit the crew resource directly.

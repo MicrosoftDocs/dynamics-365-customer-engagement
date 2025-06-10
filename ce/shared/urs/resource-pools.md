@@ -42,7 +42,7 @@ Add members to a pool. The location of the pool member is taken from the pool.
 
 1. On a resource pool record, go to **Related** > **Resource's Children**.
 
-1. Select **New Bookable Resource Group** and enter a **Name** for the resource. This related entity is called [BookableResourceGroup](../../field-service/developer/reference/entities/bookableresourcegroup).
+1. Select **New Bookable Resource Group** and enter a **Name** for the resource. This related entity is called [BookableResourceGroup](../../field-service/developer/reference/entities/bookableresourcegroup.md).
 
 1. Choose a **Child Resource** and set a date range for the pool membership. Crews and other pools can't be made a child of a pool.
 
