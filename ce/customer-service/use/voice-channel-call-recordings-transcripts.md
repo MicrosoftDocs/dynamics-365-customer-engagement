@@ -1,7 +1,7 @@
 ---
-title: View call recording and transcripts for voice channel
-description: Use this article to learn how to view call recordings and transcripts.
-ms.date: 04/07/2025
+title: View conversation transcripts and call recordings
+description: Use this article to learn how to view conversation transcripts and call recordings.
+ms.date: 06/10/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -9,7 +9,7 @@ ms.reviewer: mgandham
 ms.custom: bap-template
 ---
 
-# View call recordings and transcripts
+# View conversation transcripts and call recordings
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
@@ -17,7 +17,7 @@ When conversations end in your contact center, users can view the recordings and
 - Sentiment analysis
 - Key metrics
 - AI summary
-- Post-call survey results
+- Post-conversation survey results
 - Sessions that are part of the conversation
 - AI summary on voicemails of the entire transcript
 
@@ -26,7 +26,7 @@ When conversations end in your contact center, users can view the recordings and
 
 ## Prerequisites
 
-- Call recordings and transcripts are enabled by your administrator.
+- Your administrator enabled call recordings and transcripts.
 - Omnichannel agent or Omnichannel supervisor role.
 - To access recordings and transcripts, users with other roles need at least read-level access to the **Activity** table.
 - To view conversation summaries, users with other roles need at least read-level access to the **ConversationInsights** table. 
@@ -38,34 +38,37 @@ Customer service representatives (service representative or representative) and 
 
 Users with the System Administrator role can access conversations that are handled by other service representatives.
 
-## Call recording and transcript controls
+## Use recording and transcript controls
 
-The **Details** tab of the **Conversation - Conversation Form** displays the call recording details.
+The **Details** tab of the **Conversation - Conversation Form** displays the conversation transcript and call recording details.
 
 :::image type="content" source="../media/voice-channel-recording.png" alt-text="Screenshot of call recording and transcript controls." lightbox="../media/voice-channel-recording.png":::
 
 **Recording playback**
 
+> [!NOTE]
+> This section is applicable to voice calls only.
+
 - **Play**: Select the button to listen to the conversation audio.
 
 - **Rewind** or **Fast-forward**: Select the buttons to either rewind in 10-second increments or fast-forward in 30-second increments.
 - **Volume**: Move the slider to adjust the volume to your required level.
-- **Download audio**: Download an .mp4 audio file of the complete conversation.
+- **Download audio**: Download an .mp4 audio file of the complete call.
 - **Speed**: From the dropdown menu, select the playback speed of the conversation, whether slower or faster. **Normal** is the default, and is the speed in which the conversation was recorded.
 - **Conversation scroll bar**: Move the scroll bar to any point of the conversation, or listen to it from beginning to end. When you select a location in the recording visualization, the transcript also moves to the same place in the conversation.
 
-The **Overview** bar on the **Conversation Form** displays the following details:
-- **Channel**: The type of communication conducted.
+**Overview**
 
+- **Channel**: The type of communication conducted.
 - **Status**: The state of the communication.
-- **Queue**: The queue the call was conducted in.
-- **Workstream**: The workstream the call was conducted in.
+- **Queue**: The queue the conversation was conducted in.
+- **Workstream**: The workstream the conversation was conducted in.
 - **Skills**: The list of agent skills.
 - **Regarding**: The link to the case or customer record.
 
 **Summary**
 
-- The system generates the conversation summary when the conversation ends.  If no summary is generated when the call or chat ends, such as the call or chat ended with an AI agent, then a new summary is generated when the transcript viewer appears.
+If your administrator configured Copilot to generate summaries after a conversation ends, the conversation summary appears on the form when the conversation ends. If no summary is generated when the call or chat ends, such as the call or chat ended with an AI agent, then a new summary is generated when the transcript viewer appears.
 
 > [!NOTE]
 > If you open the conversation before the transcription is processed, the summary isn't available; refresh the summary when the transcription appears.
@@ -77,9 +80,12 @@ The **Overview** bar on the **Conversation Form** displays the following details
 - **Download transcript**: Open an HTML file of the conversation transcript in your browser.
   
    > [!NOTE]
-   > Inline images and rendering of videos is not supported in downloaded transcripts.
+   > Inline images and rendering of videos isn't supported in downloaded transcripts.
 
-The **Call Metrics** tab of the Conversation Form displays the following details:
+**Call Metrics**
+
+> [!NOTE]
+> This section is applicable to voice calls only.
 
 - **Sentiment**: The average sentiment of the call.
 
@@ -103,13 +109,12 @@ The following considerations apply:
 
 - If a survey isn't enabled for a conversation, or not completed, the **Post-conversation survey** tab is hidden.
 
-- If one of the three values aren't set up to be collected in a survey, they are hidden.
+- If one of the three values (**CSAT**, **First Contact Resolution**, or **Net Promoter Score**) aren't collected in a survey, they're hidden.
 - If the customer doesn't provide a value, the corresponding label isn't displayed in the survey results.
-- Calls that have surveys are assigned to the Copilot survey agent after the call ends and not to the representatives. The representative can view the calls in **Activities**.
 
 **Conversation Journey**
 
-Displays details about the number of agents assigned to the call, other participants, and the duration, date, and time of each leg of the conversation.
+Displays details about the number of agents assigned to the conversation, other participants, and the duration, date, and time of each leg of the conversation.
 
 - The system generates a session every time a new primary agent is assigned to the conversation.
 
