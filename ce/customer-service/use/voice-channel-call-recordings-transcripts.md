@@ -1,7 +1,7 @@
 ---
 title: View conversation transcripts and call recordings
 description: Use this article to learn how to view conversation transcripts and call recordings.
-ms.date: 04/07/2025
+ms.date: 06/10/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
