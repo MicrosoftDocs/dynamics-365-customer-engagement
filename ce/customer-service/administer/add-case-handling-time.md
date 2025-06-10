@@ -66,7 +66,7 @@ Perform the following steps:
 1. Select **Save and close**.
 
 > [!NOTE]
-> When the **Enable case handling time** checkbox is selected, the service representative sees the case handling widget on the case form even if the **Case handling time** feature isn't enabled in **Case settings**.
+> When the **Enable case handling time** checkbox is selected, the service representative sees the case handling widget on the case form, even if the **Case handling time** feature isn't enabled in **Case settings**.
 
 ## Delete time tracker records
 
