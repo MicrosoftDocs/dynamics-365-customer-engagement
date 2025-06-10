@@ -1,32 +1,34 @@
 ---
-title: Implement a custom scenario for smart assist bot
-description: Use this topic to learn how to enable similar case suggestions and use custom actions to build your custom smart assist bots.
-ms.date: 01/31/2025
-ms.topic: article
+title: Implement a custom scenario for smart assist agent
+description: Use this topic to learn how to enable similar case suggestions and use custom actions to build your custom smart assist agents.
+ms.date: 04/29/2025
+ms.topic: reference
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ---
 
-# Implement a custom scenario for smart assist bot
+# Implement a custom scenario for smart assist agent
 
-This topic provides information on how you can enable similar case suggestions in your smart assist bot.
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
+This topic provides information on how you can enable similar case suggestions in your smart assist AI agent.
 
 ## Prerequisites
 
 > [!IMPORTANT]
-> Read the topic [Build a smart assist bot](smart-assist-bot.md) for information on how to get started with building a custom smart assist bot. 
+> Read the topic [Build a smart assist agent](smart-assist-bot.md) for information on how to get started with building a custom smart assist agent. 
 
-- You need to have an understanding on how to create a bot using [Azure Bot Service](/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&preserve-view=true). When you register your bot with Azure Bot Service, you obtain `Microsoft App ID` and `Client secret` which you need to update the `appsettings.json` file in the bot.
-- Create a Language Understanding (LUIS) app by following the instructions mentioned in [Add natural language understanding to your bot](/azure/bot-service/bot-builder-howto-v4-luis?tabs=csharp&view=azure-bot-service-4.0&preserve-view=true). See the section [Retrieve application information from the LUIS.ai portal](/azure/bot-service/bot-builder-howto-v4-luis?tabs=csharp&view=azure-bot-service-4.0&preserve-view=true#retrieve-application-information-from-the-luisai-portal) for information on how to retrieve the values you need to setup the bot.
+- You need to have an understanding on how to create an agent using [Azure Bot Service](/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&preserve-view=true). When you register your agent with Azure Bot Service, you obtain `Microsoft App ID` and `Client secret` which you need to update the `appsettings.json` file in the agent.
+- Create a Language Understanding (LUIS) app by following the instructions mentioned in [Add natural language understanding to your agent](/azure/bot-service/bot-builder-howto-v4-luis?tabs=csharp&view=azure-bot-service-4.0&preserve-view=true). See the section [Retrieve application information from the LUIS.ai portal](/azure/bot-service/bot-builder-howto-v4-luis?tabs=csharp&view=azure-bot-service-4.0&preserve-view=true#retrieve-application-information-from-the-luisai-portal) for information on how to retrieve the values you need to setup the agent.
 
 ## Scenario: Similar case suggestion
 
-This scenario enables you to suggest similar cases with open case action button. The customer service agent is presented with a list of similar cases as a recommendation. The agent clicks on the case that they finds most similar and relevant, and then goes to the case note and looks at the resolution in note. The agent suggests the same resolution to the customer over chat.
+This scenario enables you to suggest similar cases with open case action button. The customer service representative (service representative or representative) is presented with a list of similar cases as a recommendation. The representative clicks on the case that they finds most similar and relevant, and then goes to the case note and looks at the resolution in note. The representative suggests the same resolution to the customer over chat.
 
 ### Generate intent to interpret the context of the conversation
 
-It is necessary analyze the conversation and understand its context before recommending an action to the agent. Use [Language Understanding (LUIS)](https://luis.ai) to find the intent of the ongoing conversation. Here is an example on how you can create a LUIS app to find intent from a given text: [Quickstart: Use prebuilt Home automation app](/azure/cognitive-services/luis/luis-get-started-create-app).
+It is necessary analyze the conversation and understand its context before recommending an action to the representative. Use [Language Understanding (LUIS)](https://luis.ai) to find the intent of the ongoing conversation. Here is an example on how you can create a LUIS app to find intent from a given text: [Quickstart: Use prebuilt Home automation app](/azure/cognitive-services/luis/luis-get-started-create-app).
 
 You can create intents for each issue type or topic that you want to address for incoming requests from customers or the most common topics being discussed.  
 
@@ -34,11 +36,11 @@ For the example scenario of similar case recommendations for "printer noise" iss
 
 ### Author adaptive cards to display recommendations in the smart assist UI
 
-[Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI. The smart assist bot interprets the conversation context in real-time and provides recommendations to the agents.
+[Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI. The smart assist agent interprets the conversation context in real-time and provides recommendations to the representatives.
 
 ### Custom actions for implementing custom functionalities
 
-Custom actions can help you implement custom functionalities in your smart assist bot.
+Custom actions can help you implement custom functionalities in your smart assist agent.
 
 The steps for enabling the similar case scenario are as follows:
 
@@ -139,9 +141,9 @@ You can use the client-side APIs to open knowledge base articles. See [Client AP
 
 ## Related information
 
-[Build a smart assist bot](smart-assist-bot.md)<br />
-[Sample code: Smart Assist for Bots](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot)<br />
-[Smart assist for agents](../administer/smart-assist.md)
+[Build a smart assist agent](smart-assist-bot.md)<br />
+[Sample code: Smart Assist for agents](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot)<br />
+[Smart assist for representatives](../administer/smart-assist.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

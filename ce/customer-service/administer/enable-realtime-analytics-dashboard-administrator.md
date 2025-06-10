@@ -2,7 +2,7 @@
 title: Manage real-time analytics reports in Omnichannel for Customer Service
 description: Configure real-time analytics in Omnichannel for Customer Service to give supervisors access to metrics and KPIs.
 ms.date: 02/03/2025
-ms.topic: article
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -42,7 +42,7 @@ Omnichannel real-time analytics reports are on by default. You can use the Custo
 
 1. Sign in to Dynamics 365, and on the apps page, select Customer Service admin center.
     > [!Note]
-    > The Customer Service admin center app is automatically installed in all the Customer Service organizations. More information: [Get started with Customer Service admin center](../implement/cs-admin-center.md#get-started-with-customer-service-admin-center)
+    > The Copilot Service admin center app is automatically installed in all the Customer Service organizations. More information: [Get started with Copilot Service admin center](../implement/cs-admin-center.md#get-started-with-copilot-service-admin-center)
 
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
 

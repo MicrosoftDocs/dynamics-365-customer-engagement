@@ -2,7 +2,7 @@
 title: "Create a record | MicrosoftDocs"
 description: "Learn how you can create a record by using the various methods in the Omnichannel for Customer Service app from within the Unified Service Desk client application."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

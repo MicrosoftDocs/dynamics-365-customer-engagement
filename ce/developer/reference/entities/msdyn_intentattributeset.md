@@ -216,7 +216,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**occurrence count of the intent-attribute set in last 12 months**|
-|DisplayName|**occurrencecount_last12months**|
+|DisplayName|**occurrencecount\_last12months**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_occurrencecount_last12months`|
@@ -230,7 +230,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**occurrence count of the intent-attribute set in last 30 days**|
-|DisplayName|**occurrencecount_last30days**|
+|DisplayName|**occurrencecount\_last30days**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_occurrencecount_last30days`|
@@ -616,7 +616,7 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`owningbusinessunit`|
-|RequiredLevel|SystemRequired|
+|RequiredLevel|None|
 |Type|Lookup|
 |Targets|businessunit|
 

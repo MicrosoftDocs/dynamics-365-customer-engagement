@@ -83,13 +83,13 @@
           href: smart-assist-scenario.md
         - name: Retrieve and format rich messages
           href: reference/methods/message-object.md  
-      - name: Bots
+      - name: AI agents
         items:
-        - name: Configure bot context
+        - name: Configure AI agent context
           items:
-          - name: Configure bot context
+          - name: Configure AI agent context
             href: enable-bot-context.md
-          - name: Azure bots
+          - name: Azure agents
             items:
             - name: Enable bot context for Azure bots
               href: enable-bot-context-azure.md
@@ -97,20 +97,24 @@
               href: parse-activity-json-to-get-bot-context.md
           - name: Copilot Studio
             items:
-            - name: Enable bot context for Copilot Studio bots
+            - name: Enable bot context for Copilot agents
               href: enable-bot-context-pva.md   
           - name: Code samples for parsing activity JSON 
             href: bot-context-json-samples.md
-        - name: Configure Azure bots to escalate and end conversations
+        - name: Configure Azure agents to escalate and end conversations
           href: bot-escalate-end-conversation.md
-        - name: Download file attachments from Azure bot
+        - name: Download file attachments from Azure agents
           href: download-attachments-bot.md
-        - name: Get Microsoft Teams user details from Azure bot
+        - name: Get Microsoft Teams user details from Azure agents
           href: user-details-teams-azure-bot.md
         - name: Display suggested actions in a vertical layout
           href: suggested-actions.md
         - name: Pass authentication token to bot during single sign-on in live chat
           href: pass-auth-token-sso-live-chat.md
+      - name: Metrics and queries
+        items:
+        - name: Calculate conversation metrics
+          href: calculate-conversation-metrics.md
       - name: Extend Customer Service
         items: 
         - name: Extend Omnichannel for Customer Service

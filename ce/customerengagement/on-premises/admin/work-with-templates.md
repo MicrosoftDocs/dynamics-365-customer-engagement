@@ -6,7 +6,7 @@ ms.reviewer:
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 ms.assetid: 5aa5e647-2770-411d-b9df-f1ca323e6a62
 caps.latest.revision: 9
 author: Mattp123

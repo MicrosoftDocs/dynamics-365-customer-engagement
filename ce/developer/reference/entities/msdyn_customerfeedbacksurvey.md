@@ -62,6 +62,7 @@ The following table lists selected properties for the Customer feedback survey (
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_customconfig](#BKMK_msdyn_customconfig)
 - [msdyn_customerfeedbackbotstatus](#BKMK_msdyn_customerfeedbackbotstatus)
 - [msdyn_customerfeedbacksurveyId](#BKMK_msdyn_customerfeedbacksurveyId)
 - [msdyn_customerfeedbacksurveyname](#BKMK_msdyn_customerfeedbacksurveyname)
@@ -88,6 +89,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|2147483647|
 |MinValue|-2147483648|
+
+### <a name="BKMK_msdyn_customconfig"></a> msdyn_customconfig
+
+|Property|Value|
+|---|---|
+|Description|**This attribute is used to store the custom configuration for the surveys. e.g. Skip Validation value to support cross org Surveys**|
+|DisplayName|**Custom Config**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_customconfig`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|5000|
 
 ### <a name="BKMK_msdyn_customerfeedbackbotstatus"></a> msdyn_customerfeedbackbotstatus
 

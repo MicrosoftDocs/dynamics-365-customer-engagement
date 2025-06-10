@@ -2,7 +2,7 @@
 title: Omnichannel Conversation Topics Dashboard | Microsoft Docs
 description: Learn about the Conversation topics dashboard in Omnichannel historical analytics to better understand customer service representative performance in your organization.
 ms.date: 02/10/2025
-ms.topic: article
+ms.topic: concept-article
 author: gandhamm
 ms.collection: bap-ai-copilot
 ms.author: mgandham
@@ -23,10 +23,6 @@ The Topics dashboard shows a detailed breakdown of conversations and their assig
 
 > [!div class="mx-imgBorder"]
 > ![Omnichannel Conversation Topics dashboard.](../media/oc-topics.png "Omnichannel Conversation Topics dashboard")
-
-### Access the Topics dashboard
-
-[!INCLUDE[cc-navigation](../../includes/cc-navigation.md)]
 
 ## Report Details
 

@@ -105,7 +105,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Unique identifier for entity instances**|
-|DisplayName|**DataAnalyticsReport_Forecast**|
+|DisplayName|**DataAnalyticsReport\_Forecast**|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`msdyn_dataanalyticsreport_forecastid`|
@@ -210,7 +210,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Status of the DataAnalyticsReport_forecast**|
+|Description|**Status of the DataAnalyticsReport\_forecast**|
 |DisplayName|**Status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -231,7 +231,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Reason for the status of the DataAnalyticsReport_forecast**|
+|Description|**Reason for the status of the DataAnalyticsReport\_forecast**|
 |DisplayName|**Status Reason**|
 |IsValidForForm|True|
 |IsValidForRead|True|

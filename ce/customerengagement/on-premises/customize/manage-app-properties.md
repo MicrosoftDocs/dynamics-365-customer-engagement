@@ -4,7 +4,7 @@ description: "App properties define important details about the app, like its ti
 keywords: 
 
 ms.custom: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps

@@ -635,6 +635,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350029|**BotCallFailureExternalTransfer**|
 |192350030|**BotCallFailurePromptAndEscalate**|
 |192350031|**BotCallFailureEscalate**|
+|192350032|**CanceledByProactiveService**|
+|192350033|**ManuallyClosedConversation**|
+|192350034|**ManuallyClosedSession**|
 
 ### <a name="BKMK_msdyn_liveworkitemid"></a> msdyn_liveworkitemid
 
@@ -2453,6 +2456,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_ocsession_sessionevent_nested](#BKMK_msdyn_ocsession_sessionevent_nested)
 - [msdyn_ocsession_sessionparticipant_nested](#BKMK_msdyn_ocsession_sessionparticipant_nested)
 - [msdyn_ocsession_SyncErrors](#BKMK_msdyn_ocsession_SyncErrors)
+- [msdyn_sessionextension_sessionid_msdyn_ocsession](#BKMK_msdyn_sessionextension_sessionid_msdyn_ocsession)
 
 ### <a name="BKMK_CampaignResponse_msdyn_ocsessions"></a> CampaignResponse_msdyn_ocsessions
 
@@ -2777,6 +2781,18 @@ Many-To-One Relationship: [syncerror msdyn_ocsession_SyncErrors](syncerror.md#BK
 |ReferencedEntityNavigationPropertyName|`msdyn_ocsession_SyncErrors`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_sessionextension_sessionid_msdyn_ocsession"></a> msdyn_sessionextension_sessionid_msdyn_ocsession
+
+Many-To-One Relationship: [msdyn_sessionextension msdyn_sessionextension_sessionid_msdyn_ocsession](msdyn_sessionextension.md#BKMK_msdyn_sessionextension_sessionid_msdyn_ocsession)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_sessionextension`|
+|ReferencingAttribute|`msdyn_sessionid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_sessionextension_sessionid_msdyn_ocsession`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 

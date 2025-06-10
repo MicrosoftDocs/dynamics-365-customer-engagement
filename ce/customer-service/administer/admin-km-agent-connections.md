@@ -1,12 +1,12 @@
 ---
 title: Configure connection references for Customer Knowledge Management Agent flow (preview)
-description: Configure connection references for Customer Knowledge Management Agent flow with Microsoft Dataverse and Copilot Studio in preview mode.
+description: Learn how to configure connection references for Customer Knowledge Management Agent flow with Microsoft Dataverse and Copilot Studio.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 04/04/2025
+ms.date: 05/09/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -49,7 +49,7 @@ In [Power Automate](https://powerautomate.microsoft.com), search for **Knowledge
 1. In [Microsoft Copilot Studio](https://copilotstudio.microsoft.com), select your environment, and then search for the **CustomerServiceKnowledgeHarvest** agent. 
 1. [Publish the agent](/microsoft-copilot-studio/publication-fundamentals-publish-channels?tabs=web).
 
-Once done, go to the Customer Service admin center and [enable Customer Knowledge Management Agent](admin-km-agent.md#enable-customer-knowledge-management-agent).
+Once done, go to the Copilot Service admin center and [enable Customer Knowledge Management Agent](admin-km-agent.md#enable-customer-knowledge-management-agent).
  
 ## Related information
 

@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.date: 02/06/2025
+ms.date: 04/25/2025
 ms.custom: bap-template
 ---
 
@@ -25,13 +25,13 @@ Copilot can now generate case summaries in the "ask a question" side pane. Custo
 
 ## Enable case summaries
 
-1. In Customer Service admin center, go to **Productivity** under **Agent experience**, and select **Manage** for **Copilot for questions and emails**.
+1. In Copilot Service admin center, go to **Productivity** under **Support experience**, and select **Manage** for **Copilot for questions and emails**.
 1. On the **Copilot for questions and emails** page, select **Ask a question**.
 1. Save and close.
 1. On the **Productivity** page, select **Manage** for **Plugins for generative AI (Preview)**.
 1. Select Customer Service (preview), and select **Turn on**.
 1. On the **Manage user access** menu, select one of the following user access types, and select **Next**.
-    - All agents who have Copilot
+    - All representatives who have Copilot.
     - **Specific user roles**: Representatives with the roles that you select are granted access to the feature.
 1. On the **Define inputs(optional)** page, select the checkboxes according to your business requirements and select **Next**.
 1. If you'd like to save the plugin data, select the checkbox on the **Step 4 of 4** page.

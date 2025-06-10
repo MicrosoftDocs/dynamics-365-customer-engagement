@@ -6,7 +6,7 @@ ms.custom:
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: concept-article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
   - Dynamics CRM 2016

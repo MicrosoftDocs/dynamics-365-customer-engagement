@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 05/10/2024
+ms.date: 05/07/2025
 ms.custom: bap-template
 ---
 
@@ -28,7 +28,7 @@ Grant **Create**, **Read**, **Write**, and **Delete** privileges to applicable s
 
 [!INCLUDE [Lightbox tip](../../../shared-content/shared/lightbox-tip.md)]
 
-1. In Customer Service workspace or Contact Center workspace, open one of the following reports, **Customer Service historical analytics**, **Omnichannel historical analytics**, **Omnichannel real-time analytics**, or **Knowledge analytics**.
+1. In Copilot Service workspace, open one of the following reports, **Customer Service historical analytics**, **Omnichannel historical analytics**, **Omnichannel real-time analytics**, or **Knowledge analytics**.
 
 1. On the report page, select a tab, such as **Queue**.
 

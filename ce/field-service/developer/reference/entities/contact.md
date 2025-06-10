@@ -2,8 +2,8 @@
 title: "Contact table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Contact table/entity with Microsoft Dynamics 365 Field Service."
 ms.topic: generated-reference
-author: m-hartmann
-ms.author: mhart
+author: puneet-singh1
+ms.author: puneetsingh
 search.audienceType: 
   - developer
 ---
@@ -16,23 +16,6 @@ Person with whom a business unit has a relationship, such as customer, supplier,
 > The Microsoft Dynamics 365 Field Service Contact table extends the [Microsoft Dynamics 365 Contact table](/dynamics365/developer/reference/entities/contact).
 
 
-
-## Writable columns/attributes
-
-These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
-
-### <a name="BKMK_msdyn_segmentid"></a> msdyn_segmentid
-
-|Property|Value|
-|---|---|
-|Description|**Unique identifier for Segment associated with contact.**|
-|DisplayName|**Segment Id**|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|`msdyn_segmentid`|
-|RequiredLevel|None|
-|Type|Lookup|
-|Targets|msdyn_segment|
 
 
 ## One-to-Many relationships

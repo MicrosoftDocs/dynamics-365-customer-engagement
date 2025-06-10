@@ -64,6 +64,11 @@ Changes from [Record1ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer
 |9700|**Entitlement**|
 |9701|**Entitlement Channel**|
 |9703|**Entitlement Template Channel**|
+|10331|**Invitation**|
+|10332|**Invite Redemption**|
+|10351|**Publishing State Transition Rule**|
+|10353|**Shortcut**|
+|10365|**Website**|
 |10406|**Customer Asset**|
 |10428|**IoT Alert**|
 |10429|**IoT Device**|
@@ -123,6 +128,11 @@ Changes from [Record2ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer
 |9700|**Entitlement**|
 |9701|**Entitlement Channel**|
 |9703|**Entitlement Template Channel**|
+|10331|**Invitation**|
+|10332|**Invite Redemption**|
+|10351|**Publishing State Transition Rule**|
+|10353|**Shortcut**|
+|10365|**Website**|
 |10406|**Customer Asset**|
 |10428|**IoT Alert**|
 |10429|**IoT Device**|

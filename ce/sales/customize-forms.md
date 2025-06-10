@@ -2,7 +2,7 @@
 title: Customize forms
 description: Learn how to use the form designer in Dynamics 365 Sales to customize the forms that your sellers use to enter and find information.
 ms.date: 02/11/2025
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

@@ -2,8 +2,8 @@
 title: "Incident Type Service (msdyn_incidenttypeservice) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Incident Type Service (msdyn_incidenttypeservice) table/entity with Microsoft Dynamics 365 Field Service."
 ms.topic: generated-reference
-author: m-hartmann
-ms.author: mhart
+author: puneet-singh1
+ms.author: puneetsingh
 search.audienceType: 
   - developer
 ---

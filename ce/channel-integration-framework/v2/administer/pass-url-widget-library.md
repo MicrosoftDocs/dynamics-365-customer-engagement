@@ -4,8 +4,8 @@ description: Read how you can pass the URL of your Dynamics 365 instance to the 
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: conceptual
-ms.date: 12/10/2024
+ms.topic: reference
+ms.date: 05/15/2025
 ms.custom: bap-template
 ---
 

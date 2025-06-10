@@ -5,7 +5,7 @@ Utilization is the amount of time a dispatcher schedules a resource to work. The
 ## Calculate resource utilization
 
 > [!NOTE]
-> Resource capacity and requirement effort are not considered in utilization calculations.
+> Resource capacity and requirement effort aren't considered in utilization calculations.
 
 Utilization percentage derives from **Total Booked Hours** divided by **Total Working Hours** in the selected date range.
 
@@ -30,7 +30,3 @@ So the resource has a utilization of 25% ((10 / (5 x 8)) x 100)).
 Your [business processes can use several booking statuses](../../field-service/set-up-booking-statuses.md), such as traveling, in progress, on break, and completed. Each of them maps to a booking status of either *Committed*, *Proposed*, or *Canceled*. Bookings map to the *Committed* status when confirmed and a resource completes the work. The *Proposed* status suggests unconfirmed work. The *Canceled* status notifies stakeholders that the booking is no longer scheduled.
 
 The utilization metric ignores bookings with a *Proposed* or *Canceled* booking status.
-
-## Next steps
-
-- [Resource and utilization report](../../field-service/resource-utilization-report.md)

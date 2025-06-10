@@ -437,7 +437,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**msdyn_suggestionsource**|
+|DisplayName|**msdyn\_suggestionsource**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_suggestionsource`|

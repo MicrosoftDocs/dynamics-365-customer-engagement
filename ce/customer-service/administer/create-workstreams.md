@@ -1,7 +1,7 @@
 ---
 title: Create and manage workstreams
 description: Learn about how to create and manage workstreams.
-ms.date: 01/27/2025
+ms.date: 05/27/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -14,7 +14,8 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
 
 A workstream is a container to enrich, route, and assign work items, and can be associated with a channel, such as live chat, voice, or case.
 
@@ -36,7 +37,7 @@ The administrator who configures workstreams must be a system administrator or h
 
 ## Create a workstream
 
-You can create workstreams for unified routing in the Customer Service admin center app.
+You can create workstreams for unified routing in the Copilot Service admin center app.
 
 1. In the site map of admin center, select **Workstreams** in **Customer support**.
 
@@ -57,7 +58,7 @@ You can create workstreams for unified routing in the Customer Service admin cen
     - **Record**: This box appears if you selected the type as **Record**. Select the record from the list. More information: [Set up record routing](set-up-record-routing.md)
     
     - **Work distribution mode**: Select **Push** or **Pick**. You can't edit this setting later.
-         - In **Push** mode, the system routes the work item to customer service representatives (service representatives or representatives) automatically using a message alert. You can configure the push work item to be explicitly picked up. For voice, push mode only is available.
+         - In **Push** mode, the system routes the work item to representatives automatically using a message alert. You can configure the push work item to be explicitly picked up. For voice, push mode only is available.
          - In **Pick** mode, the system routes the work item to service representatives when they explicitly pick the work item from the **Open work items** in the representative's dashboard.
     
     - In **Fallback queue**, select one of the following options:
@@ -112,7 +113,7 @@ In the **Work distribution** area of a workstream, you can either accept the def
 
 - **Allowed presences**: Select the presence statuses in which representatives can be assigned work. Don't select the **Inactive** and **Do not disturb** statuses if you don't want to assign new work items to representatives when they [miss](manage-missed-notifications.md) or [reject](enable-agent-reject-notifications.md) notifications.
 - **Default skill matching algorithm**: Select **Exact Match**, **Closest Match**, or **None**.
-- **Keep same agent for entire conversation**: Set the toggle to **Yes** if you want the conversation to remain assigned to the originally assigned agent. Learn more in [Agent affinity](#agent-affinity).
+- **Keep same representative for entire conversation**: Set the toggle to **Yes** if you want the conversation to remain assigned to the originally assigned representative. Learn more in [Representative affinity](#representative-affinity).
 
 ### Configure advanced settings
 
@@ -121,45 +122,47 @@ For a selected workstream, expand **Advanced settings** to configure the followi
 - [Sessions](session-templates.md)
 - [Agent notifications](notification-templates.md#out-of-the-box-notification-templates)
 - [Context variables](manage-context-variables.md)
-- [Smart assist bots](../develop/smart-assist-bot.md)
+- [Smart assist agents](../develop/smart-assist-bot.md)
 - [Quick replies](create-quick-replies.md)
+- [Configure live conversation counter to view customer wait time](configure-live-conv-counter.md)
 
-### Add a bot to a workstream
+### Add an agent to a workstream
 
-To add a bot to a workstream, you must configure the bot and make it available for selection.
+To add an agent to a workstream, you must configure the agent and make it available for selection.
 
-For Copilot Studio bots, see [Connect omnichannel to your Copilot Studio bot](/power-virtual-agents/configuration-hand-off-omnichannel#connect-omnichannel-to-your-power-virtual-agents-bot).
-For Azure bots, see [Integrate Azure bots](../configure-bot.md#integrate-azure-bots-with-omnichannel-for-customer-service).
+For agents created in Copilot Studio, see [Connect omnichannel to your Copilot agent](/power-virtual-agents/configuration-hand-off-omnichannel#connect-omnichannel-to-your-power-virtual-agents-bot).
+For agents created in Azure, see [Integrate Azure agents](../configure-bot.md#integrate-azure-bots-with-omnichannel-for-customer-service).
 
-1. In Customer Service admin center or Contact Center admin center, go to **Workstreams**, and select a workstream.
+1. In Copilot Service admin center, go to **Workstreams**, and select a workstream.
 2. For the selected workstream and channel, in the **Bot** area, select **Add bot**.
-3. In the **Add a bot** dialog, select the required bot from the **Name** dropdown list, and then select **Save and close**.
+3. In the **Add a bot** dialog, select the required agent from the **Name** dropdown list, and then select **Save and close**.
 
-When a work item needs assignment, the classification rules run, and the work distribution system checks and routes the work item to the bot if the selected workstream has a bot. After a bot is added to the workstream, the incoming work item is first routed to the selected bot at runtime.
+When a work item needs assignment, the classification rules run, and the work distribution system checks and routes the work item to the agent if the selected workstream has an agent. After an agent is added to the workstream, the incoming work item is first routed to the selected agent at runtime.
 
 > [!NOTE]
 > 
-> - Bots can receive conversations only if they're added to push-based workstreams.
-> - We recommend that you don't add bots to workstreams that are meant for record routing.
+> - Agents can receive conversations only if they're added to push-based workstreams.
+> - We recommend that you don't add agents to workstreams that are meant for record routing.
 
 ### Manage workstreams
 
-You can manage workstreams on the workstreams page of any of the Customer Service admin or Contact Center admin center apps.
+You can manage workstreams on the workstreams page of the Copilot Service admin center app.
 
 Select a workstream to perform any of the following actions:
 
 - **Edit**: Lets you edit the workstream, such as add a new channel or update the existing settings.
 - **Copy**: Lets you create a copy of the workstream with all the properties, such as the rules, so that you can reuse the configured workstream in another organization. The copied workstream name is prefixed with "Copy of "*`<workstream>`*.
-- **Delete**: Lets you delete the workstream if you no longer need it in your organization. You can't delete workstreams that are used in intake rules for record routing. You are prompted to remove the dependencies and then try to delete the workstream.
+- **Delete**: Lets you delete the workstream if you no longer need it in your organization. You can't delete workstreams that are used in intake rules for record routing. You're prompted to remove the dependencies and then try to delete the workstream.
 - **Fallback queue**: Select an existing queue or create a queue to set as the fallback queue. More information: [Fallback queues](queues-omnichannel.md#how-fallback-queues-work)
+- **Share**: Select a workstream to share with users or teams in your organization. In the **Share records** dialog that appears, select the users or teams. You can also set the permissions for each user or team. When you share a record permission, it doesn't automatically grant privileges to all the records of the related tables. You need to create a custom plugin to set permissions for the related tables listed for the workstream when you set permissions for the parent table record.
 
-### Agent affinity
+### Representative affinity
 
-The agent affinity feature makes sure that work items are assigned to the service representatives based on their work history. When a waiting conversation becomes active, it's automatically reassigned to the same representative who handled the conversation previously, irrespective of the representative's capacity and presence. However, the agent affinity setting must align with the notification template settings that's associated with the workstream. If auto assign work items is set to no in the notification template, the system overrides the agent affinity setting.
+The representative affinity feature makes sure that work items are assigned to the service representatives based on their work history. When a waiting conversation becomes active, it's automatically reassigned to the same representative who handled the conversation previously, irrespective of the representative's capacity and presence. However, the agent affinity setting must align with the notification template settings that's associated with the workstream. If auto assign work items is set to no in the notification template, the system overrides the agent affinity setting.
 
 Agent affinity is enabled by default for persistent chat, SMS, social channels, and Microsoft Teams. In these channels, when a conversation moves from the waiting to active state, it might not get assigned to the same representative who had previously handled it. You can set the **Keep same agent for entire conversation** toggle to **Yes** when you configure the work distribution for the workstream to reassign the conversation to the representative. This helps save the effort to reorient the representative or set the context about the customer issue again. 
 
-However, for live chat, there's no waiting state. So, when the state of the conversation changes from active to open state, it is reassigned to the same representative. The representative can choose to reject the assigned conversation via the notification pane.
+However, for live chat, there's no waiting state. So, when the state of the conversation changes from active to open state, it's reassigned to the same representative. The representative can choose to reject the assigned conversation via the notification pane.
 
 > [!NOTE]
 > Agent affinity is applicable for push type of work distribution only.

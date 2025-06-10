@@ -2,7 +2,7 @@
 title: "Tutorials and resources (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "This topic lists the walkthroughs that are included in the SDK, and tells you where to find videos, training, and sample code to get you started with development for Dynamics 365 Customer Engagement (on-premises)."
 ms.reviewer: pehecke
-ms.topic: article
+ms.topic: tutorial
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 author: JimDaly

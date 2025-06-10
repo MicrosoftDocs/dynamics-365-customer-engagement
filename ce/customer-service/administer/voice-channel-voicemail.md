@@ -3,7 +3,7 @@ title: Configure voicemail to manage inbound calls
 description: Configure voicemail to manage inbound calls, route voicemails to representatives, and reduce on-hold wait times.
 author: neeranelli
 ms.author: nenellim
-ms.date: 12/14/2024
+ms.date: 04/21/2025
 ms.topic: how-to
 ms.reviewer: nenellim
 ms.collection:
@@ -16,10 +16,9 @@ ms.custom:
 
 # Configure voicemail to manage inbound calls
 
-[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
-
 
 Voicemails help your customers record messages for customer service representatives (service representatives or representatives) when they come across long wait times or their direct calls to representatives are unanswered. You can reduce on-hold calls when customers communicate their concerns promptly through voicemails and call back later for a status check.
 
@@ -38,7 +37,7 @@ The prerequisites are as follows:
 - The [voice channel](voice-channel-install.md) is enabled.
 - [Unified routing](provision-unified-routing.md) is enabled.
 - [Agent presence](../use/oc-manage-presence-status.md) works correctly, which is required to open a voicemail.
-- The operating hours message at the voice workstream level isn't set because it overrides the voice queue-level overflow setup that the system needs for the voicemail feature to work. If you set the operating hours message for the voice workstream, the system plays the message and disconnects the call.
+- The operating hours setting at the voice workstream level isn't turned on, because it overrides the voice queue-level overflow setup that the system needs for the voicemail feature to work. If you turn on the operating hours setting for the voice workstream, the system plays the message and disconnects the call.
 - The [call recording and SMS services](voice-channel-configure-services.md) are enabled.
 
 ## Configure voicemail to manage overflow of voice calls
@@ -78,9 +77,9 @@ Out of the box, **Default Individual Voicemail Workstream** is available to rout
 
 ## Configure voicemail views in inbox for representatives
 
-1. In Customer Service admin center or Contact Center admin center, in the site map, select **Workspaces** under **Agent experience**.
+1. In Copilot Service admin center, in the site map, select **Workspaces** under **Support experience**.
 
-1. Select **Manage** for **Agent experience profiles** and select the profile that you want to edit.
+1. Select **Manage** for **Support experience profiles** and select the profile that you want to edit.
 
 1. Edit the inbox and enable it.
 
@@ -100,7 +99,7 @@ Out of the box, **Default Individual Voicemail Workstream** is available to rout
 More information:
 
 - [Configure the inbox](configure-inbox.md)
-- [Create and use agent experience profiles](create-agent-experience-profile.md)
+- [Create and use support experience profiles](create-agent-experience-profile.md)
 
 ## How voicemail works
 
@@ -108,7 +107,7 @@ The voicemail record is set up for routing out of the box. Voicemails are catego
 
 ### Individual voicemails
 
-Individual voicemails are triggered through direct inward dialing and are routed to the default individual voicemail workstream. For voicemail to work for representatives, they must be signed in to the Contact Center workspace or Customer Service workspace app and presence loaded, at least once. If the representative is signed in and presence is offline, the representative must decline the call notification. 
+Individual voicemails are triggered through direct inward dialing and are routed to the default individual voicemail workstream. For voicemail to work for representatives, they must be signed in to the Copilot Service workspace app and presence loaded, at least once. If the representative is signed in and presence is offline, the representative must decline the call notification. 
 
 > [!NOTE]
 > Representatives receive voicemails only if they are signed in to the app and presence loads at least once. If the representative is signed in and their presence is set to offline, they must decline the call to receive the voicemail.
@@ -142,7 +141,7 @@ Supervisors can view the voicemails on the **Omnichannel Ongoing Conversations D
 
 ### View the default settings
 
-1. In Customer Service admin center or Contact Center admin center, select **Routing** in the site map, and then select **Manage** for **Setup record routing**. Voicemail is listed under **Record types** on the page that appears.
+1. In Copilot Service admin center, select **Routing** in the site map, and then select **Manage** for **Setup record routing**. Voicemail is listed under **Record types** on the page that appears.
 
 1. Select **Voicemail**. The **Voicemail routing hub** page displays the following default settings:
 

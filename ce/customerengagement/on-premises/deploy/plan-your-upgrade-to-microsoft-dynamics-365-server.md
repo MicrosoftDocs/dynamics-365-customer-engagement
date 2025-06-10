@@ -6,7 +6,7 @@ ms.custom:
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 1755c489-1b3e-490e-acfb-d1ff68384ff4

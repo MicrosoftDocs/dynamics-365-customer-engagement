@@ -124,7 +124,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**Msdyn_Iotalert**|
+|DisplayName|**Msdyn\_Iotalert**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`bpf_msdyn_iotalertid`|

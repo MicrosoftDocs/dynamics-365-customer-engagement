@@ -14,7 +14,7 @@ By default, the Resource Scheduling Optimization add-in for Dynamics 365 Field S
 
 Administrators can change the settings of an optimization goal to allow travel time outside of working hours. Then, enable the resources that can travel outside working hours.
 
-[Resource utilization](resource-utilization-report.md) might improve if travel time isn't considered part of a technician's work hours.
+Resource utilization might improve if travel time isn't considered part of a technician's work hours.
 
 To allow travel outside of working hours:
 

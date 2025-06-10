@@ -4,17 +4,27 @@ description: Monitor and filter backlog work items in real-time to improve workf
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
-ms.date: 03/12/2025
+ms.date: 04/02/2025
 ms.custom: bap-template
 ---
 
 # View and understand real-time analytics for record routing in the backlog work items report 
 
-The backlog work items report is similar to the ongoing work items report with focus on all work items, even when older than 24 hours since the last work item update. It allows you to filter based on any created-on date period in the past. Content can be filtered by created on, queue, agent, workstream, work item skill, and time zone.
+The Backlog work items report is similar to the Ongoing work items report, with focus on all work items created in the last two days. You can filter content by created on, queue, agent, work item skill, and time zone.
 
-Besides filtering, the report also provides four KPIs to track all-up volumes within the selected filter for total work items, active work items, unassigned work items, and closed work items. It allows you to easily identify overall case or record volume, and provides easy identification of unassigned work items for triage based on priority.
+Besides filtering, the report also provides the following KPIs to track all-up volumes within the selected filter. 
+
+
+|KPIs  |Description |
+|---------|---------|
+|Total work items   | Total number of workitems created in the last two days.|
+|Assigned work items  | Number of workitems created in the last two days that are currently assigned. |
+|Unassigned work items    | Number of workitems created in the last two days that aren't yet assigned. |
+|Agents online   |   Number of agents online at the moment.|
+
+It allows you to easily identify overall case or record volume, and provides easy identification of unassigned work items for triage based on priority.
 
 :::image type="content" source="../media/record-routing-backlog.png" alt-text="Screenshot of real-time analytics for backlog items report":::
 
@@ -22,10 +32,10 @@ Besides filtering, the report also provides four KPIs to track all-up volumes wi
 |KPIs |Description |
 |---------|---------|
 |Subject     |  Case or record title.  |
-|Queue    |  Queue that the work item has been routed to.    |
-|Status    |   Open or active, where open has not yet been assigned to a customer service representative (service representative or representative).      |
+|Queue    |  Queue that the work item is routed to.    |
+|Status    |   Open or active, where open hasn't yet been assigned to a customer service representative (service representative or representative).      |
 |Work item age     |  Time in days since case or record was created.      |
-|Assigned agent    |  Service representative the work item is assigned to. |
+|Agent name    |  Service representative the work item is assigned to. |
 |Created on    |   Date and time stamp of when the work item was created.      |
 |Case     |   Unique number id of conversation linked case record.      |
 |Priority    |   Priority of conversation linked case record.|

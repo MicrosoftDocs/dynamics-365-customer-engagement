@@ -5,14 +5,14 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.date: 07/01/2024
-ms.topic: article
+ms.topic: how-to
 ---
 
 # Create a record for conversations
 
 
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 > [!Note]
 > Case information is applicable to Customer Service only.

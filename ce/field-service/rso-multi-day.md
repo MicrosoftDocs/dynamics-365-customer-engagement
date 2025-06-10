@@ -4,7 +4,7 @@ description: Learn how the Resource Scheduling Optimization add-in for Dynamics 
 author: AnilMur
 ms.author: anilmur
 ms.date: 06/11/2024
-ms.topic: conceptual
+ms.topic: how-to
 ms.subservice: resource-scheduling-optimization
 ---
 

@@ -145,7 +145,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Response for the provisioning action**|
-|DisplayName|**msdyn_provisioningresponse**|
+|DisplayName|**msdyn\_provisioningresponse**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_provisioningresponse`|

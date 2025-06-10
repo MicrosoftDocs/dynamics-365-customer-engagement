@@ -1,7 +1,7 @@
 ---
 title: Create and manage users and user profiles
 description: This article provides steps that you can perform to manage users in Omnichannel for Customer Service.
-ms.date: 03/03/2025
+ms.date: 04/10/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -16,7 +16,7 @@ ms.custom: bap-template
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
-Use the information in this article to manage your customer service representative (service representative or representative) users for Customer Service. The enhanced user management experience is a simplified UI that eases the complexity of configuring the various settings required for your service representative users to provide customer service optimally.
+Use the information in this article to manage your service representatives in Customer Service. The enhanced user management experience is a simplified UI that eases the complexity of configuring the various settings required for your representatives to provide customer service optimally.
 
 You can manage the following settings for the users in bulk:
 
@@ -31,13 +31,12 @@ On the user management page, the following three views are available:
 - **All users**: Lists all the Customer Service users.
 - **Swarm experts**: Lists users who are assigned to be swarm experts.
 
-The enhanced user management experience is available in Customer Service admin center only.
 
 ## Manage contact center users
 
 The attributes that you want to add must be configured in the system. You can update up to 200 users in a single step. For the selected users, you can update up to five attributes in a single step. If you need to update more than five attributes for the selected users, you can save the changes and then update the next set of attributes.
 
-1. Sign in to Dynamics 365, and go to the Customer Service admin center app.
+1. Sign in to Dynamics 365, and go to the Copilot Service admin center app.
 
 1. Select **User management** under **Customer support** in the site map.
 
@@ -113,7 +112,7 @@ Users should be configured as a bookable resource so that they can be assigned w
 1. Add the user to the required queue that's configured for unified routing. Learn more in [Configure queues for unified routing](queues-omnichannel.md).
 
    > [!NOTE]
-   > AI agents in a queue are modeled as a bookable resource and therefore will be considered for assignment. However, we recommend that you don't add AI agents to queues that are used for routing records.
+   > Agents in a queue are modeled as a bookable resource and therefore will be considered for assignment. However, we recommend that you don't add agents to queues that are used for routing records.
 
 All users who are assigned the **Omnichannel administrator**, **Omnichannel supervisor**, or **Omnichannel agent** security role can use Omnichannel for Customer Service.
 

@@ -4,7 +4,7 @@ description: Learn about the Conversation dashboard insights to better understan
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection: bap-ai-copilot
 ms.date: 02/10/2025
 ms.custom: bap-template
@@ -31,11 +31,6 @@ By default, the dashboard shows you the KPIs for the past month and for all chan
 
 > [!NOTE]
 > If you switch to a different dashboard, the filter you specified persists, and is applied to the data on all dashboards.
-
-
-### Access the Conversation dashboard
-
- [!INCLUDE[cc-navigation](../../includes/cc-navigation.md)]
 
 ## Report details
 

@@ -610,7 +610,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**parent_survey_response_new**|
+|DisplayName|**parent\_survey\_response\_new**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msfp_parent_survey_response_new`|
@@ -2596,4 +2596,4 @@ Many-To-One Relationship: [syncerror msfp_surveyresponse_SyncErrors](syncerror.m
 
 [Dataverse table/entity reference](/power-apps/developer/data-platform/reference/about-entity-reference)  
 [Dataverse Web API Reference](/power-apps/developer/data-platform/webapi/reference/about)   
-<xref:Microsoft.Dynamics.CRM.msfp_surveyresponse?displayProperty=fullName>
+

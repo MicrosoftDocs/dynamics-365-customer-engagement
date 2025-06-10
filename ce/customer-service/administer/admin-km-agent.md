@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection: 
-ms.date: 04/04/2025
+ms.date: 05/09/2025
 ms.custom: bap-template
 ---
 
@@ -22,13 +22,13 @@ Customer Knowledge Management Agent lets you autonomously turn cases and case-re
 
 - You're using the out-of-the-box case entities.
 - [Dynamics 365 knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management) is configured.
-- You enabled Dynamics 365 knowledge base to be indexed by Copilot. You can utilize the internal knowledge base resources only for generating responses. Learn more in [Configure knowledge sources](copilot-enable-help-pane.md#configure-knowledge-sources).
+- You enabled Copilot to access Dynamics 365 knowledge base. You can utilize the internal knowledge base resources only for generating responses. Learn more in [Configure knowledge sources](copilot-enable-help-pane.md#configure-knowledge-sources).
 - You [configured connection references for Customer Knowledge Management Agent flow (preview)](admin-km-agent-connections.md#configure-connection-references-for-customer-knowledge-management-agent-flow-preview).
-- [Set up a pay-as-you-go plan](setup-pay-as-you-go.md#set-up-a-pay-as-you-go-plan).
+- [Manage consumption-based billing and capacity](setup-pay-as-you-go.md).
 
 ## Enable Customer Knowledge Management Agent
 
-In Customer Service admin center, go to **Agent experience** > **Knowledge** > **Customer Knowledge Management Agent (preview)**, and then select **Manage**. The **Customer Knowledge Management Agent (preview)** page appears.
+In Copilot Service admin center, go to **Support experience** > **Knowledge** > **Customer Knowledge Management Agent (preview)**, and then select **Manage**. The **Customer Knowledge Management Agent (preview)** page appears.
 
 Select from the following options as required for Customer Knowledge Management Agent.
 
@@ -40,7 +40,7 @@ Real-time knowledge creation is triggered when a customer service representative
 
 ### Control which cases real-time creation should create articles from 
 
-You can create multiple rules to control which conditions must be met for Customer Knowledge Management Agent to process a resolved case in real time. For example, you may limit this process to cases owned by a certain user, or any other fields on the case.  
+You can create multiple rules to control which conditions must be met for a resolved case to be processed by Customer Knowledge Management Agent in real time. For example, you might limit this process to cases owned by a certain user, or any other fields on the case.  
 
 1. In the **Real-time creation** section, select **Manage rules**.
 1. In the **Manage rules** dialog, select **New** to add a new rule.
@@ -83,7 +83,7 @@ Articles with the **Non Compliant** status can't be published.
 
 ## Auto publish articles
 
-You can control whether the AI agent can automatically publish articles that comply with **Compliance Status** you set. You can also select the target audience that can view the published articles.
+You can control whether the AI agent can automatically publish articles that comply with the **Compliance Status** you set. You can also select the target audience that can view the published articles.
 
 To set the auto-publishing of articles created by Customer Knowledge Management Agent, on the **Customer Knowledge Management Agent (preview)** page, **Auto publishing** section, select the **Automatically publish compliant articles as soon as they’re created** option.
 

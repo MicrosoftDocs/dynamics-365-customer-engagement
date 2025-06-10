@@ -2,7 +2,7 @@
 title: "Walkthrough: Create a UII WPF Hosted Control | MicrosoftDocs"
 description: "Use this walkthrough to understand the prerequisites and procedures for building WPF-based UII hosted controls."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
