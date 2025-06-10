@@ -15,7 +15,7 @@ ms.topic: how-to
 
 Use data masking to block sensitive data such as credit card information, social security number (SSN), or even profanity in a conversation. You can create a masking rule and define a [regular expression](/dotnet/standard/base-types/regular-expression-language-quick-reference) to identify the sensitive information and replace it with the masked characters. Any masked text in a conversation is also masked in the conversation transcript. Data masking works for chat and asynchronous channels.
 
-Masking rules can be configured to apply to messages sent by a customer, a customer service representative (service representative or representative), or both. You must make sure that the masking rules you want applied are set to **Active**.If not, they aren't applied to the selections you make.
+Masking rules can be configured to apply to messages sent by a customer, a customer service representative (service representative or representative), or both. You must make sure that the masking rules you want applied are set to **Active**. If not, then they aren't applied to the selections you make.
 
    > [!div class=mx-imgBorder]
    > ![Data masking rules.](../media/general-masking-rules.png "Data masking rules")
@@ -42,7 +42,7 @@ As an administrator, you can delete or modify the out-of-the-box masking rules a
    > [!div class=mx-imgBorder]
    > ![Create a masking rule.](../media/new-masking-rule.png "Create a masking rule")
 
-1. In the site map of Copilot Service admin center, in **Support experience**, select **Productivity**.
+1. In the site map of Copilot Service admin center, select **Productivity** in **Support experience**.
 
 1.	Select **Manage** for **Data masking**.
 
