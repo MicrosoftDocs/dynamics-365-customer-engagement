@@ -61,6 +61,7 @@ For the experience profile that you created, you can add users and configure opt
       - Join a Teams call
       - Teams chats
       - Smart assist
+      - Case handling time
       
       Turn on the toggle against each option in the **Productivity Pane** to enable it for the service representative.
    - In the **Inbox** section, select **Edit** to enable the inbox view. Service representatives can view all their work items on one screen and prioritize tasks and efficiently work on multiple tasks.
