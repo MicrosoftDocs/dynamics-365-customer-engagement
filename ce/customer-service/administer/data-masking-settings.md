@@ -1,7 +1,7 @@
 ---
 title: Create and manage data masking rules
 description: Learn how to create and manage data masking rules to block sensitive data in Omnichannel for Customer Service.
-ms.date: 04/24/2025
+ms.date: 06/10/2025
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -13,7 +13,7 @@ ms.topic: how-to
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-Use data masking to block sensitive data such as credit card information, social security number (SSN), or even profanity in a conversation. You can create a masking rule and define a regular expression to identify the sensitive information and replace it with the masked characters. Any masked text in a conversation is also masked in the conversation transcript. Data masking works for chat and asynchronous channels.
+Use data masking to block sensitive data such as credit card information, social security number (SSN), or even profanity in a conversation. You can create a masking rule and define a [regular expression](../../dotnet/standard/base-types/regular-expression-language-quick-reference) to identify the sensitive information and replace it with the masked characters. Any masked text in a conversation is also masked in the conversation transcript. Data masking works for chat and asynchronous channels.
 
 Masking rules can be configured to apply to messages sent by a customer, a customer service representative (service representative or representative), or both. You must make sure that the masking rules you want applied are set to **Active**; otherwise, they won't apply to the selections you make.
 
