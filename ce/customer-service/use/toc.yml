@@ -192,7 +192,7 @@
           href: manage-voicemails.md
         - name: Transfer calls and consult with other users
           href: voice-channel-transfer-consult.md
-        - name: View call recordings and transcripts
+        - name: View conversation transcripts and call recordings
           href: voice-channel-call-recordings-transcripts.md
         - name: Monitor voice calls
           href: voice-channel-monitor-calls.md
@@ -236,6 +236,8 @@
           href: oc-conv-state-chat-disconnect.md
         - name: Understand conversation states
           href: oc-conversation-state.md
+        - name: View conversation transcripts and call recordings
+          href: voice-channel-call-recordings-transcripts.md          
         - name: Create a record
           href: oc-create-record.md
         - name: Search, link, and unlink a record
