@@ -34,7 +34,7 @@ To display the case handling time widget on a case form, follow these steps:
       - **View**: Set this value to **All Time Trackers**.
       - **Allow users to add time logs**: Set this value to **True** or **False**, depending on whether you want representatives to manually add time on the case. The default is **True**.
       - **Show users only their contributed time**: Set this value to **True** or **False**, depending on whether you want representatives to see only their own time or the total time of all representatives on the case. The default is **False**.
-      - **Make CHT widget visible to users**: Set this value to **False** if you want the time tracking widget to be hidden from the representatives. However, the application still tracks time in the background. The default is **True**. 
+      - **Make CHT widget visible to users**: Set this value to **False** to hide the time tracking widget from representatives. However, the application still tracks time in the background. The default is **True**. 
     1. Select **Show related records**.
     > [!NOTE]
     >  - In Copilot Service workspace, the application tracks the time automatically in the background whenever a representative opens the case and the case form is in focus, even if you don't add the widget to the case form. You can create reports on automatic time tracked per representative for each case.
