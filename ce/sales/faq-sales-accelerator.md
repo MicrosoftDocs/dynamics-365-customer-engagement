@@ -1,7 +1,7 @@
 ---
 title: Sales accelerator FAQs
 description: Get answers to frequently asked questions about sales accelerator.
-ms.date: 03/15/2024
+ms.date: 06/09/2025
 ms.topic: faq
 author: udaykirang
 ms.author: udag
