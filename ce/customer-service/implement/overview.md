@@ -64,9 +64,9 @@ The following capabilities are available in the different app experiences, depen
 
 **Legend**
 
-Yes: Generally available.
+**Yes**: Generally available.
 
-No: Not available
+**No**: Not available
 
 ## Available anywhere, on any device
 

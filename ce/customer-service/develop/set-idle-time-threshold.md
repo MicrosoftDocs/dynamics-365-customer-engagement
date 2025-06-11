@@ -49,6 +49,6 @@ Xrm.WebApi.retrieveMultipleRecords(entityName, "").then((result) => {
 
 ## Related information
 
-[Ongoing conversation report in Omnichannel real-time analytics dashboard](realtime-ongoing.md)  
+[Ongoing conversation report in Omnichannel real-time analytics dashboard](../use/realtime-ongoing.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
