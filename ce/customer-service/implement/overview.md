@@ -40,33 +40,33 @@ Use Customer Service to:
 
 ## Administer Customer Service
 
-You can configure and manage the different capabilities in Customer Service by using the Customer Service admin center app based on the licensing module that you've purchased.
+You can configure and manage the different capabilities in Customer Service by using the Copilot Service admin center app based on the licensing module that you've purchased.
 
-- **Customer Service admin center**: Use the app to manage the different features of Customer Service in one place. You can configure all the features of the customer support, operations, and agent experiences through this app. You can manage core customer service and other features, such as service terms, service scheduling, and all the channels in Omnichannel for Customer Service. More information: [Customer Service admin center at a glance](cs-admin-center.md)
+- **Copilot Service admin center**: Use the app to manage the different features of Customer Service in one place. You can configure all the features of the customer support, operations, and agent experiences through this app. You can manage core customer service and other features, such as service terms, service scheduling, and all the channels in Omnichannel for Customer Service. More information: [Copilot Service admin center at a glance](cs-admin-center.md)
 
 ## Use agent apps to service customers
 
 The following capabilities are available in the different app experiences, depending on your needs. In the following table, select the app of your choice to read more about the details of the user experience in each app.
 
-|  Features | [Customer Service workspace](csw-overview.md) | [Omnichannel for Customer Service (Deprecated)](introduction-omnichannel.md) | [Customer Service Hub](../use/user-guide-customer-service-hub.md) | [Customer Service Team Member](customer-service-team-member.md) |
+|  Features | [Copilot Service workspace](csw-overview.md) | [Omnichannel for Customer Service (Deprecated)](introduction-omnichannel.md) | [Customer Service Hub](../use/user-guide-customer-service-hub.md) | [Customer Service Team Member](customer-service-team-member.md) |
 |---------------------------------------------------------------------|------------|------------|------------|------------|
-| Multisession          | ✔ | ✔ | ✖ | ✖ |
-| Case management  | ✔ |  ✔  |  ✔  |  ✔  | 
-| Conversations (with Chat or Digital Messaging Offers)  | ✔ | ✔ |✖  | ✖ |
-| Channels (with Digital Messaging Offer)  | ✔ | ✔ |✖  | ✖ |
-|Voice channel (with Voice Channel for Dynamics 365 Customer Service)| ✔ | ✔ |✖  | ✖ |
-| Knowledge management  |  ✔  |  ✔  |✔| Read-only | 
-| Insights, analytics, and dashboards | ✔ | ✔| ✔ | ✖ | 
-| Service scheduling  | ✔ | Not applicable | ✔ | ✖ | 
-| Connected Service with IoT  |✔  | ✖ | ✔  | ✖ |
-| Extensibility  | ✔ with Channel Integration Framework version 2.0, custom messaging channel | ✔ with Channel Integration Framework version 2.0, custom messaging channel, Mobile SDK | ✔ with Channel Integration Framework version 1.0 | ✖ | 
-| Unified Interface compliant  | ✔ | ✔ | ✔ | ✔ |
+| Multisession          | Yes | Yes | No | No |
+| Case management  | Yes |  Yes  |  Yes  |  Yes  | 
+| Conversations (with Chat or Digital Messaging Offers)  | Yes | Yes |No  | No |
+| Channels (with Digital Messaging Offer)  | Yes | Yes |No  | No |
+|Voice channel (with Voice Channel for Dynamics 365 Customer Service)| Yes | Yes | No  | No |
+| Knowledge management  |  Yes  |  Yes  |Yes| Read-only | 
+| Insights, analytics, and dashboards | Yes | Yes| Yes | No | 
+| Service scheduling  | Yes | Not applicable | Yes | No | 
+| Connected Service with IoT  |Yes  | No | Yes  | No |
+| Extensibility  | Yes, with Channel Integration Framework version 2.0, custom messaging channel | Yes, with Channel Integration Framework version 2.0, custom messaging channel, Mobile SDK | Yes, with Channel Integration Framework version 1.0 |No | 
+| Unified Interface compliant  | Yes | Yes | Yes | Yes |
 
 **Legend**
 
-✔: Generally available.
+Yes: Generally available.
 
-✖: Not available
+No: Not available
 
 ## Available anywhere, on any device
 
@@ -81,8 +81,6 @@ If you're using a mobile device with Dynamics 365 for phones and tablets install
 
 ![csh-mobile.](../media/ChooseAnApp_1.png "Customer Service Hub on mobile")
 
-> [!NOTE]
-> Looking forward to upgrade to the Customer Service Workspace or Customer Service Hub app? See [Upgrade to Customer Service Hub](../administer/upgrade-ish-csh.md)
 
 > [!NOTE]
 > If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../../customerengagement/on-premises/customize/edit-entities.md#enable-or-disable-entity-options).
@@ -95,7 +93,7 @@ For more details about app accessibility and privacy compliance, see [Accessibil
 
 ## Get Started with Customer Service
 
-- [Customer Service Workspace](customer-service-workspace-system-requirements.md)
+- [Copilot Service Workspace](customer-service-workspace-system-requirements.md)
 - [Omnichannel for Customer Service](introduction-omnichannel.md)
 - [Customer Service Hub](../use/user-guide-customer-service-hub.md)
 

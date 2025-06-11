@@ -1,7 +1,7 @@
 ---
-title: "Set idle time threshold | Microsoft Docs"
-description: "Learn how to set the idle time threshold."
-ms.date: 02/29/2024
+title: Set idle time threshold
+description: Learn how to set the idle time threshold.
+ms.date: 06/11/2025
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
@@ -16,7 +16,7 @@ You can configure the idle time threshold to pause the handle time computation o
 
 ## How to set the idle time threshold
 
-In the Customer Service admin center app, select the **F12** key to open the command prompt, and then run the following:
+In the Copilot Service admin center app, select the **F12** key to open the command prompt, and then run the following:
 
 ```JavaScript
 let entityName = "msdyn_channelprovider"
@@ -49,6 +49,6 @@ Xrm.WebApi.retrieveMultipleRecords(entityName, "").then((result) => {
 
 ## Related information
 
-[View and understand Ongoing Conversations dashboard](../use/ongoing-conversations-dashboard.md)
+[Ongoing conversation report in Omnichannel real-time analytics dashboard](realtime-ongoing.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
