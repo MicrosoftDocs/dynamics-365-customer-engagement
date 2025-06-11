@@ -1,7 +1,7 @@
 ---
 title: Configure representative display name for a chat widget
 description: This article provides procedural information to configure a representative's display name for a chat widget.
-ms.date: 05/20/2025
+ms.date: 06/11/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -22,9 +22,9 @@ To protect a customer service representative's (service representative or repres
 
 1. In the **Agent display name** field, select one of the following options:
 
-    - **Full name:** Full name of the representative.
+    - **Full name:** Full name of the representative. By default, full name is selected.
 
-    - **First name:** First name of the representative. By default, first name is selected.
+    - **First name:** First name of the representative.
 
     - **Last name:** Last name of the representative.
 
