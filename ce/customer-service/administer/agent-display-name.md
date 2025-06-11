@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-To protect a customer service representative's (service representative or representative) privacy, you can configure your chat widget to display either the full name, first name, last name, or nickname of the service representative to the customers. If you'd like to hide their identity and anonymize, choose to display the nickname. The values for the names are retrieved from the user record created in Dynamics 365. Learn more about creating users in [Create users in model-driven applications and assign security roles](/power-platform/admin/create-users-assign-online-security-roles). You can add nickname of a user in the Omnichannel user record.
+To help protect a customer service representative's (service representative or representative) privacy, you can configure your chat widget to display a specific name for them. You can choose to display the representative's full name, first name, last name, or a nickname to customers. If you'd like to hide the representative's identity and anonymize, choose to display the nickname. The values for the names are retrieved from the user record created in Dynamics 365. Learn more about creating users in [Create users in model-driven applications and assign security roles](/power-platform/admin/create-users-assign-online-security-roles). You can add nickname of a user in the Omnichannel user record.
 
 > [!NOTE]
 > The selected service representative's name is displayed in the chat widget only while chatting with a customer. For consultation or chat transfer, the full name of the representative is used.
