@@ -1,7 +1,7 @@
 ---
 title: Work with the Dynamics 365 app in a Teams meeting
 description: Learn how to work with the Dynamics 365 app in a Teams meeting.
-ms.date: 08/09/2022
+ms.date: 05/22/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -20,7 +20,7 @@ Work with the Dynamics 365 app in a Teams meeting.
 With the Dynamics 365 app, you can view information about a linked record before the meeting, in the side panel during the meeting, and after the meeting.
 
 > [!NOTE]
-> The Dynamics 365 app for Teams is available only in the Teams desktop app. If you are working in Teams web client or Teams mobile app, the Dynamics 365 app will not be visible.
+> The Dynamics 365 app for Teams is available only in the Teams desktop app. If you're working in Teams web client or Teams mobile app, the Dynamics 365 app will not be visible.
 
 ## View record details before or after a meeting
 

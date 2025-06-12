@@ -2,8 +2,8 @@
 title: "Rating Value (RatingValue) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Rating Value (RatingValue) table/entity with Microsoft Dynamics 365 Field Service."
 ms.topic: generated-reference
-author: m-hartmann
-ms.author: mhart
+author: puneet-singh1
+ms.author: puneetsingh
 search.audienceType: 
   - developer
 ---
@@ -16,18 +16,6 @@ A unique value associated with a rating model that allows providing a user frien
 > The Microsoft Dynamics 365 Field Service Rating Value (RatingValue) table extends the [Microsoft Dynamics 365 Rating Value (RatingValue) table](/dynamics365/developer/reference/entities/ratingvalue).
 
 
-
-## Customized columns/attributes
-
-Microsoft Dynamics 365 Field Service modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
-
-### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
-
-Changes from [OwningBusinessUnit (Microsoft Dynamics 365)](/dynamics365/developer/reference/entities/ratingvalue#BKMK_OwningBusinessUnit)
-
-|Property|Value|
-|---|---|
-|RequiredLevel|None|
 
 
 ## One-to-Many relationships

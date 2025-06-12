@@ -13,16 +13,16 @@ ms.custom:
 
 # How to get Dynamics 365 Channel Integration Framework 2.0
 
-Dynamics 365 Channel Integration Framework 2.0 is available with Customer Service workspace and Omnichannel for Customer Service.
+Dynamics 365 Channel Integration Framework 2.0 is available with Copilot Service workspace and Omnichannel for Customer Service.
 
 More information:
 
-- [Customer Service workspace](../../../customer-service/implement/csw-overview.md)
+- [Copilot Service workspace](../../../customer-service/implement/csw-overview.md)
 - [Provision Omnichannel for Customer Service](/dynamics365/contact-center/implement/provision-channels).
 
 ## Prerequisites
 
-Identify the Dynamics 365 instance for which you want to use the Customer Service workspace or Omnichannel for Customer Service.
+Identify the Dynamics 365 instance for which you want to use the Copilot Service workspace or Omnichannel for Customer Service.
 
 ### Related information
 

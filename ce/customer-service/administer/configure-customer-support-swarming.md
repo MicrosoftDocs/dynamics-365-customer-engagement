@@ -1,7 +1,7 @@
 ---
 title: Configure customer support swarming for complex cases
 description: Learn how to configure customer support swarming for cases in Dynamics 365 Customer Service and Microsoft Teams.
-ms.date: 01/16/2025
+ms.date: 05/23/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -50,7 +50,7 @@ If you're new to using customer support swarming, you can use the step-by-step g
 
 If it's your first time accessing the guided setup, follow these steps: 
 
-1. In Customer Service admin center, go to the sitemap, and then in **Agent experience**, select **Collaboration**. 
+1. In Copilot Service admin center, go to the sitemap, and then in **Support experience**, select **Collaboration**. 
 
 1. On the **Collaboration** page, on the top banner, select **Get started**. The swarm set-up page is displayed.
 
@@ -84,7 +84,7 @@ Use the following image and legend to understand the layout of the customer supp
 |5 | Experts | Displays a list of experts and their skills who are configured for swarming.
 |6 | Condition rules | Conditions that define which skills to attach to swarms. The attached skills are then used to find and invite experts to swarms. |
 |7 | Automatically add to swarm | Team contacts automatically added to swarms because of their relationship to the customer or the representative assigned to the issue. |
-|8 | Agent guide | Administrator-provided guidance to help representatives know what content to include to begin a swarm or manage the swarm process. |
+|8 | Representative guide | Administrator-provided guidance to help representatives know what content to include to begin a swarm or manage the swarm process. |
 
 To configure customer support swarming, you must have administrator privileges and complete the following steps.
 
@@ -93,7 +93,7 @@ To configure customer support swarming, you must have administrator privileges a
 
 ### Turn on Embedded chat using Teams
 
-You can set up Embedded chat using Teams in the Customer Service admin center. The settings you configure for embedded chat using Teams in the Customer Service admin center app are carried over to the Customer Service Hub app.
+You can set up Embedded chat using Teams in the Copilot Service admin center app. The settings you configure for embedded chat using Teams in the Copilot Service admin center app are carried over to the Customer Service Hub app.
 
 1. Select **Collaboration** in the site map. The **Collaboration** page is displayed.
 1. Next to **Embedded chat using Teams**, select **Manage**.
@@ -180,7 +180,7 @@ To use the new skill in customer support swarming, you must attach it to a user.
 
 If the skills you want to use to match experts to swarms are stored in another system outside of Dataverse, you can import them using Excel using the following steps.
 
-1. In the Customer Service admin center site map, select **User management**. The **User management** page is displayed.
+1. In the Copilot Service admin center site map, select **User management**. The **User management** page is displayed.
 1. Next to **Skills**, select **Manage**.
 1. On the skills page, select the list of skills, and then select **Export to Excel**.
 
@@ -266,11 +266,11 @@ Swarm contacts can optionally include any of the following persons.
  - The administrator of the team the representative is a member of.
  - The owner of the related account.
 
-## Edit the agent guide
+## Edit the representative guide
 
-The agent guide is the direction provided by you, as the administrator, that appears in the swarm form when the representative opens it. The agent guide helps ensure that your representative types the right questions. It provides helpful context to effectively match skills and experts. 
+The representative guide is the direction provided by you, as the administrator, that appears in the swarm form when the representative opens it. The representative guide helps ensure that your representative types the right questions. It provides helpful context to effectively match skills and experts. 
 
-When creating the agent guide, keep the following things in mind:
+When creating the representative guide, keep the following things in mind:
  
  - You can edit the guide content, and the guide you create applies to all different swarm types. It can't be further customized.
  
@@ -278,9 +278,9 @@ When creating the agent guide, keep the following things in mind:
  
  - The guide template has a 2,000-character limit.
 
-To create the agent guide, perform the following steps.
+To create the representative guide, perform the following steps.
 
-1. On the **Agent guide** card, select **Edit**. The **Agent guide** page is displayed.
+1. On the **Representative guide** card, select **Edit**. The **Representative guide** page is displayed.
 
    > [!div class="mx-imgBorder"] 
    > ![Swarm agent guide.](../media/swarm-agent-guide.png "Swarm agent guide page")

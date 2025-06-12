@@ -22,6 +22,9 @@ Prospect or potential sales opportunity. Leads are converted into accounts, cont
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [lead_msdyn_bookingalerts](#BKMK_lead_msdyn_bookingalerts)
+- [lead_msdyn_ocoutboundmessages](#BKMK_lead_msdyn_ocoutboundmessages)
+
 ### <a name="BKMK_lead_msdyn_bookingalerts"></a> lead_msdyn_bookingalerts
 
 Many-To-One Relationship: [msdyn_bookingalert lead_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_lead_msdyn_bookingalerts)
@@ -32,6 +35,18 @@ Many-To-One Relationship: [msdyn_bookingalert lead_msdyn_bookingalerts](msdyn_bo
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`lead_msdyn_bookingalerts`|
 |IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: `CRMActivity.RetrieveByParty`<br />ViewId: `00000000-0000-0000-00aa-000010001903`|
+
+### <a name="BKMK_lead_msdyn_ocoutboundmessages"></a> lead_msdyn_ocoutboundmessages
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage lead_msdyn_ocoutboundmessages](msdyn_ocoutboundmessage.md#BKMK_lead_msdyn_ocoutboundmessages)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`lead_msdyn_ocoutboundmessages`|
+|IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: `CRMActivity.RetrieveByParty`<br />ViewId: `00000000-0000-0000-00aa-000010001903`|
 
 

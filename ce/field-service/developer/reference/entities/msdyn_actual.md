@@ -2,8 +2,8 @@
 title: "Actual (msdyn_actual) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Actual (msdyn_actual) table/entity with Microsoft Dynamics 365 Field Service."
 ms.topic: generated-reference
-author: m-hartmann
-ms.author: mhart
+author: puneet-singh1
+ms.author: puneetsingh
 search.audienceType: 
   - developer
 ---
@@ -346,7 +346,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350001|**Customer Invoice Created**|
 |192350002|**Customer Invoice Posted**|
 |192350003|**Canceled**|
-|690970000|**Work order closed \- posted**|
+|690970000|**Work order closed - posted**|
 
 ### <a name="BKMK_msdyn_BillingType"></a> msdyn_BillingType
 
@@ -696,7 +696,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Value|Label|
 |---|---|
 |690970000|**Inventory**|
-|690970001|**Non\-Inventory**|
+|690970001|**Non-Inventory**|
 |690970002|**Service**|
 
 ### <a name="BKMK_msdyn_Quantity"></a> msdyn_Quantity
@@ -852,7 +852,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350005|**Unbilled Sales**|
 |192350006|**Billed Sales**|
 |192350007|**Resourcing Unit Cost**|
-|192350008|**Inter\-Organizational Sales**|
+|192350008|**Inter-Organizational Sales**|
 
 ### <a name="BKMK_msdyn_Unit"></a> msdyn_Unit
 

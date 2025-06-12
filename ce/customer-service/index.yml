@@ -62,7 +62,7 @@ additionalContent:
       - url: implement/persona-privilege-mapping.md
         text: Set up personas and privileges in Customer Service and Omnichannel for Customer Service
       - url: implement/customer-service-workspace-system-requirements.md
-        text: System requirements for Customer Service workspace  
+        text: System requirements for Copilot Service workspace  
   - title: Administer and develop
     items:
     - title: Configure
@@ -188,9 +188,9 @@ additionalContent:
     - title: Explore your apps
       links:
       - url: implement/cs-admin-center.md
-        text: Admins, use Customer Service admin center
+        text: Admins, use Copilot Service admin center
       - url: implement/csw-overview.md
-        text: Agents, use Customer Service workspace
+        text: Agents, use Copilot Service workspace
       - url: implement/customer-service-team-member.md
         text: Team members, use Customer Service Team Member  
   - title: Related products

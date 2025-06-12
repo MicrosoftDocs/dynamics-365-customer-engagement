@@ -1,7 +1,7 @@
 ---
 title: Work with tasks in a Teams meeting
 description: Learn how to work with tasks in a Teams meeting.
-ms.date: 08/09/2022
+ms.date: 05/22/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 author: sbmjais
