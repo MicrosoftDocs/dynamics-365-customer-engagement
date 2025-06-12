@@ -55,7 +55,7 @@ The agent refreshes research data either daily, every three days, or weekly. You
       If your organization uses server-side sync, the email is sent directly from Dynamics 365. If it doesn't, the draft email opens in Outlook and you can edit and send it there. Learn more in [Why don't I see the **Review email** or **Draft email** option?](sales-qualification-agent-faq.md#cant-see-email-options) in the Sales Qualification Agent FAQ.
 
    - **More insights** opens the [**Lead insights** page](#lead-insights-page), which offers a 360-degree view of the lead and includes the date the agent last updated its research data.  
-     :::image type="content" source="media/lead-insights-page-sqa.png" alt-text="Screenshot of the Lead insights page showing the Sales Qualification Agent's insights about a lead.":::
+     :::image type="content" source="media/lead-insights-page.png" alt-text="Screenshot of the Lead insights page showing the Sales Qualification Agent's insights about a lead.":::
 
 ### Lead insights page
 
