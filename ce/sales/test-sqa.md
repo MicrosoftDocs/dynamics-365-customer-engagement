@@ -20,7 +20,9 @@ After you activate the Sales Qualification Agent (SQA) in Dynamics 365, you can 
 
 To effectively test the Sales Qualification Agent, follow these recommendations:
 
-- Create a simple Ideal Customer Profile (ICP) that is easy to remember while creating example leads. Include only a few criteria, such as industry, annual revenue, and job title. For example, you can set the industry to "Technology", annual revenue to $5M-$10M, and the job title to "Manager". 
+- Create a simple Ideal Customer Profile (ICP) that is easy to remember while creating example leads. Include only a few criteria, such as industry, annual revenue, and job title. For example, you can set the industry to "Technology", annual revenue to $5M-$10M, and the job title to "Manager".
+
+  :::image type="content" source="media/simple-icp.png" alt-text="Screenshot of a simple ICP with industry, annual revenue, and job title criteria.":::
 
 - Create a few leads that exactly match the ICP, a few that match partially, and a few that don't match at all. This will help you evaluate the agent's ability to differentiate between high, medium, and low fit leads.
 
@@ -31,9 +33,12 @@ To effectively test the Sales Qualification Agent, follow these recommendations:
 1. Open a sample lead that you created.
 1. Wait for a few seconds for the notification banner to appear.
 1. Select **More insights** on the banner.
-1. On the **Lead insights** page, validate the following:
+1. The **Lead insights** page opens. The following screenshot shows lead insights for Microsoft:
 
-   - The **Key insights** section contains a valid recommendation based on the lead's information and the configured ICP. The recommendation should indicate whether the lead is a high, medium, or low fit for your business.
+     :::image type="content" source="media/lead-insights-microsoft.png" alt-text="Screenshot of the lead insights page for Microsoft.":::  
+1. Validate the following:
+
+   - The **Key insights** section contains a valid recommendation based on the lead's information and the configured ICP. The recommendation should indicate whether the lead is a high, medium, or low fit for your business. 
 
    - The lead is categorized correctly based on the configured ICP. The categorization is based on the match percentage between the lead's information and the ICP criteria. The match percentage is calculated as follows:
 
