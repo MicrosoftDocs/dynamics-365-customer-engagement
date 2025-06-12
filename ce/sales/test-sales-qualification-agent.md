@@ -48,7 +48,7 @@ To effectively test the Sales Qualification Agent, follow these recommendations:
    
 ## Step 2: Validate Research
 
-On the lead insights page of a lead, validate the following:
+On the Lead insights page of a lead, validate the following:
 
 - The lead insights and account insights are accurate, relevant, and useful for the sales team.
 - The **Who knows whom** section provides relevant connections within your organization that can help in the outreach process.
