@@ -14,7 +14,7 @@ Resource pool scheduling is ideal for several scenarios:
 
 We recommended creating pools that use the same resource type. If you want to create groups with different types of resources, [create a crew](../../field-service/resource-crews.md).
 
-1. Open the **Resources** area, select **Resources** and then select **New**.  
+1. Open the **Resources** area, select **Resources**, and then select **New**.  
 
 1. On the **General** tab, set **Resource Type** to **Pool** and choose a **Pool Type**.
 
@@ -37,9 +37,6 @@ We recommended creating pools that use the same resource type. If you want to cr
 
 Add members to a pool. The location of the pool member is taken from the pool.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of pool children view.](../../field-service/media/scheduling-resource-pool-children.png)
-
 1. On a resource pool record, go to **Related** > **Resource's Children**.
 
 1. Select **New Bookable Resource Group** and enter a **Name** for the resource. This related entity is called [BookableResourceGroup](../../field-service/developer/reference/entities/bookableresourcegroup.md).
@@ -47,6 +44,8 @@ Add members to a pool. The location of the pool member is taken from the pool.
 1. Choose a **Child Resource** and set a date range for the pool membership. Crews and other pools can't be made a child of a pool.
 
 1. Select **Save**. Add other pool members as needed.
+
+   :::image type="content" source="../../field-service/media/scheduling-resource-pool-children.png" alt-text="Screenshot of pool children view.":::
 
 ## Book a pool with the schedule assistant
 
@@ -59,7 +58,7 @@ Pool resources don't show as available in the schedule assistant if the pool is 
 1. Select the pool resource and a time slot and select **Book & Exit**.
 
 > [!NOTE]
-> The schedule assistant won't return resource pools for onsite work requirements.
+> The schedule assistant doesn't return resource pools for onsite work requirements.
 
 ## Manage a pool on the schedule board
 
@@ -69,16 +68,20 @@ Pool resources don't show as available in the schedule assistant if the pool is 
 
 1. Right-click the resource pool and select **View Group Members** to see the pool and pool members.
 
+   :::image type="content" source="../../field-service/media/scheduling-resource-pool-view-members.png" alt-text="Screenshot showing the result of a right-click on a pool resource to view pool members.":::
+
 ### Assign pool bookings
 
-Assign specific resources to a requirement booked to a pool. Bookings assigned to pool member resources during non-working hours count against the capacity of the pool resource twice.
+Assign specific resources to a requirement booked to a pool. Bookings assigned to pool member resources during nonworking hours count against the capacity of the pool resource twice.
 
-There are three ways to change a booking assignment:
+1. To change a booking assignment, choose one of the following options:
 
-1. **Manually drag and drop**: Select and drag a booking from the resource pool and drag it to one of the pool members.
+    - **Manually drag and drop**: Select and drag a booking from the resource pool and drag it to one of the pool members.
 
-1. **Substitution**: Right-click a booking in the resource pool, select **Book Substitute** and choose a pool member.
+    - **Substitution**: Right-click a booking in the resource pool, select **Book Substitute**, and choose a pool member.
 
-1. **Rebook**: Right-click a pool booking and select **Rebook**. Edit the filter criteria to no longer search for pools, but to search for Contact, User, and Account type resources.
+    - **Rebook**: Right-click a pool booking and select **Rebook**. Edit the filter criteria to no longer search for pools, but to search for Contact, User, and Account type resources.
 
-The duration resets to the default booking duration. Edit the end time to match the original duration. Then, cancel the original pool booking.
+    The duration resets to the default booking duration.
+
+1. Edit the end time to match the original duration. Then, cancel the original pool booking.
