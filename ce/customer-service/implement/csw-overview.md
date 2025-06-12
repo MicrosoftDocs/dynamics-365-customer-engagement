@@ -117,7 +117,7 @@ Here are a few things to note when you use Copilot Service workspace in your org
 The following limitations apply to Copilot Service workspace:
 - When you switch between tabs or sessions:
   - Subgrid controls don't retain the filter or sort conditions.
-  - Web resources, form components, custom pages, and third-party websites don't retain the state of the page. For example, form components might preserve unsaved values for text fields but not others like lookup fields.
+  - Web resources, form components, custom pages, and third-party websites don't retain the state of the page. For example, form components might persist unsaved values for text fields but not for lookup fields.
   - When you change the status record in a tab, the corresponding record that's open in a grid or subgrid of another tab doesn't refresh automatically.
 - Copilot Service workspace isn't supported in mobile devices, Unified Service Desk, Microsoft Teams, and with Dynamics 365 Customer Engagement (on-premises).
 
