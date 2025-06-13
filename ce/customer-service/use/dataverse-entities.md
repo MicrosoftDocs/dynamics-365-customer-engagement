@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: reference
 ms.collection: 
-ms.date: 05/06/2025
+ms.date: 06/13/2025
 ms.custom: bap-template
 ---
 
@@ -62,6 +62,8 @@ The article describes the Dataverse entities used in historical and real-time an
 - queueitem
 - msdyn_copilotinteraction
 - email
+- msdyn_sessionextension.msdyn_overflowcondition
+- msdyn_sessionextension.msdyn_overflowaction 
 
 ## Entities used in real-time analytics
 
@@ -86,6 +88,8 @@ The article describes the Dataverse entities used in historical and real-time an
 - bookableresourcecharacteristic
 - msdyn_ocliveworkitemcharacteristic
 - choiceLabel (new entity for option set in real-time)
+- msdyn_sessionextension.msdyn_overflowcondition
+- msdyn_sessionextension.msdyn_overflowaction 
 
 ## Next steps
 
