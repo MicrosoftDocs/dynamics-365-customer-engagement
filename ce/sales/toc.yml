@@ -192,6 +192,8 @@ items:
           href: extend-copilot-chat.md
         - name: Copilot in Dynamics 365 Sales FAQ
           href: sales-copilot-faq.md
+        - name: Connect to Dynamics 365 Sales with Model Context Protocol (preview)
+          href: use-mcp-in-sales.md
     - name: Overview of focused view
       href: configure-focused-view.md
       items:
