@@ -1,7 +1,7 @@
 ---
 title: Test the Sales Qualification Agent
 description: Learn how to test the Sales Qualification Agent in Dynamics 365 Sales and evaluate its accuracy and performance.
-ms.date: 06/10/2025
+ms.date: 06/13/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -35,7 +35,7 @@ To effectively test the Sales Qualification Agent, follow these recommendations:
 1. Select **More insights** on the banner.
 1. The **Lead insights** page opens. The following screenshot shows lead insights for Microsoft:
 
-     :::image type="content" source="media/lead-insights-microsoft.png" alt-text="Screenshot of the lead insights page for Microsoft.":::  
+     :::image type="content" source="media/lead-insights-page.png" alt-text="Screenshot of the lead insights page for Microsoft.":::  
 1. Validate the following insights:
 
    - The **Key insights** section contains a valid recommendation based on the lead's information and the configured ICP. The recommendation should indicate whether the lead is a high, medium, or low fit for your business. 
