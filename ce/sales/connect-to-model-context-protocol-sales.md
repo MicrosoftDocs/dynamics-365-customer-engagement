@@ -14,7 +14,6 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:10/03/2023
-ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
