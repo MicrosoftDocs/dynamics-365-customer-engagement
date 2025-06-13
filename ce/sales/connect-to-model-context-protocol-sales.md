@@ -21,7 +21,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
-Model Context Protocol (MCP) is a powerful new standard that enables seamless integration between your favorite AI assistants, such as ChatGPT and Claude, and Dynamics 365 Sales. It can also be used to integrate with AI agents such as Microsoft Copilot Studio agents. With the Sales MCP server, you can extend your AI agents and AI assistants with sales-specific tools and create custom experiences for your sellers. The MCP server is a set of APIs that enable the interaction with Dynamics 365 Sales data and functionality.
+Model Context Protocol (MCP) is a powerful new standard that enables seamless integration between your favorite AI assistants, such as ChatGPT and Claude, and Dynamics 365 Sales. It can also be used to integrate with AI agents such as Microsoft Copilot Studio agents. With the Sales MCP server, you can extend your AI agents and AI assistants with sales-specific tools and create custom experiences for your sellers. The MCP server includes a set of APIs that enable the interaction with Dynamics 365 Sales data and functionality.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -32,7 +32,7 @@ You can integrate the Sales MCP server with your Microsoft Copilot Studio agent,
 
 ## Tools supported by the Sales MCP Server
 
-The following table lists the tools supported by the Model Context Protocol (MCP) server in Dynamics 365 Sales. These tools allow you to qualify leads, draft and send outreach emails to leads.
+The following table lists the tools supported by the Model Context Protocol (MCP) server in Dynamics 365 Sales. These tools allow you to list leads, qualify leads, and draft and send outreach emails to leads.
 
 
 | Tool Name              | Purpose                                                                                                   |
