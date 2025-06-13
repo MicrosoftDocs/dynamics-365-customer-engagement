@@ -1,6 +1,6 @@
 ---
-title: View and understand the Summary report in Omnichannel real-time analytics
-description: Concept description #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
+title: View and understand the Overflow report in Omnichannel real-time analytics
+description: Monitor overflow conditions, direct callbacks, and agent-customer interactions in Omnichannel real-time analytics Overflow report.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -10,14 +10,11 @@ ms.date: 06/13/2025
 ms.custom: bap-template
 ---
 
-
 # View and understand the Overflow report in Omnichannel real-time analytics
 
-Enhance the existing analytics data model, to provide insights into calls that meet queue specific overflow conditions and overflow actions. Currently, there’s no analytics available to track direct callback activity, and the out-of-the-box analytics categorize voicemails as abandoned conversations.  
+The Overflow report in Omnichannel real-time analytics helps supervisors and call center managers gain visibility into conversations that trigger overflow conditions, such as callbacks and voicemails. By using this report, you can track key metrics related to overflow actions, understand customer and agent interactions during overflow scenarios, and customize data models to generate detailed, actionable insights. 
 
-Supervisors lack insight into conversations that go through overflows leading up to voicemail or callbacks. Analytics for voicemails and direct callback actions for overflows will give supervisors insights into these overflow actions via custom reporting and help them plan efficiently. 
-
-You can enable detailed reporting on direct callback actions for high-volume call centers.  You can add specific attributes to the data model to facilitate the creation of detailed reports. These attributes will help track the number of direct callback offers, customer opt-ins, callback initiations, and successful connections. The attributes generate both real-time and historical reports, allowing call centers to monitor and analyze callback performance over different time periods. 
+Enable detailed reporting on direct callback actions for high-volume call centers by adding specific attributes to the data model. These attributes track direct callback offers, customer opt-ins, callback initiations, and successful connections. They support both real-time and historical reports, so call centers can monitor and analyze callback performance over time. This topic explains how to view and interpret the Overflow report, describes the available metrics, and provides guidance on customizing reports to meet your organization’s needs.
 
 ## Direct callback and general overflow actions
 
