@@ -51,7 +51,7 @@ Use the extensibility feature to create a new report that leverages the out-of-t
 | Callback not initiated  |Conversation where direct callback has not yet been initiated. |
 |Callback not offered   | Conversation where direct callback has not been offered to customer because the overflow condition was not met. |
 | Callback offered   | Conversations where callback is offered   |
-| Callback opted in    | |
+| Callback opted in    | Conversation where direct callback was offered and customer accepted or opted-in. |
 | Direct callback  | Conversation where overflow action was direct callback   |
 | End call   |  Conversation where overflow action was end call   |
 | Inqueue  |  Conversations where overflow condition was met when work item is queued.   |
