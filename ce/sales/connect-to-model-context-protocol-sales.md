@@ -25,11 +25,15 @@ Model Context Protocol (MCP) is a powerful new standard that enables seamless in
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
+## Prerequisites
+
+Ensure that the Dataverse Model Context Protocol (MCP) server is set up and running. Learn more in [Connect to Dataverse with Model Context Protocol (preview)](/power-apps/maker/data-platform/data-platform-mcp).
+
 ## Integrate Sales MCP Server with AI agents and assistants
 
-You can integrate the Sales MCP server with your Microsoft Copilot Studio agent, or any other AI agent or assistant that supports the MCP standard. The steps for connecting to the Sales MCP server are similar to that of the Dataverse MCP server. Follow the instructions in the Dataverse MCP server documentation to connect to the Sales MCP server as well: 
+You can integrate the Sales MCP server with your Microsoft Copilot Studio agent, or any other AI agent or assistant that supports the MCP standard. The steps for connecting to the Sales MCP server are similar to that of the Dataverse MCP server. 
 
-- To connect to the MCP server in Microsoft Copilot Studio, follow the steps in [Use the Dataverse MCP server in Microsoft Copilot Studio](/power-apps/maker/data-platform/data-platform-mcp#use-the-dataverse-mcp-server-in-microsoft-copilot-studio).
+- To connect to the Sales MCP server in Microsoft Copilot Studio, follow the steps in [Use the Dataverse MCP server in Microsoft Copilot Studio](/power-apps/maker/data-platform/data-platform-mcp#use-the-dataverse-mcp-server-in-microsoft-copilot-studio) and select **Dynamics 365 Sales MCP server** when prompted to select the server under **Microsoft Dataverse Connector**. 
 
 - To connect to the MCP server in Claude, follow the steps in [Configure and use the Dataverse MCP server in Claude](/power-apps/maker/data-platform/data-platform-mcp#configure-and-use-the-dataverse-mcp-server-in-claude). 
 
@@ -53,22 +57,25 @@ Let's explore some example scenarios to understand how you can use the Sales MCP
 
 ### Scenario 1: Sales team uploads leads (event attendees) from Excel into Dynamics 365 Sales
 
-| Action performed                                                                                   | Tools used                                 |
-|----------------------------------------------------------------------------------------|---------------------------------------------|
-| For each event attendee, the agent gets the lead record and gets Copilot lead summary to determine if they’re a good fit | `ListLeads` #Sales<br>`InvokeLeadSummary` #Sales  |
-| For each lead that is a good fit, drafts an outreach email                             | `DraftOutreachEmail` #Sales                   |
-| When a lead responds, converts lead to a new opportunity                               | Qualify #Sales                              |
-| If the lead confirms interest, creates a quote in D365 Sales or D365 Business Central  | `CreateQuote` #Sales #BusinessCentral        |
-| Upon customer/seller approval, creates order in Dynamics 365 Business Central or an ERP system | `CreateOrder` #BusinessCentral               |
+| Action performed                                                                                   | Tools used                                 | MCP Server used         |
+|----------------------------------------------------------------------------------------|---------------------------------------------|-------------------------|
+| For each event attendee, the agent gets the lead record and gets Copilot lead summary to determine if they’re a good fit | `ListLeads` <br>`InvokeLeadSummary`  | Sales MCP server        |
+| For each lead that is a good fit, drafts an outreach email                             | `DraftOutreachEmail`                    | Sales MCP server        |
+| When a lead responds, converts lead to a new opportunity                               | `QualifyLeadToOpportunity`              | Sales MCP server        |
+| If the lead confirms interest, creates a quote in Dynamics 365 Business Central        | `CreateQuote`                 | Business Central MCP server |
+| Upon customer/seller approval, creates order in Dynamics 365 Business Central          | `CreateOrder`                 | Business Central MCP server |
 
 ### Scenario 2: A lead comes from a marketing campaign to the website
 
 The lead starts a chat: "I'm looking for metal packaging for cold pressed olive oil. Can you tell me what options you have?"
 
-| Action performed                                                                                                                                                                                           | Tools used                                         |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
-| Agent checks if they're an existing lead, fetches the lead record, and gets Copilot lead summary from Dynamics 365 Sales. Through the summary, the agent learns that the lead is a decision maker, has previously done business, and prefers sustainable packaging. | `ListLead` and `InvokeLeadSummary`  |
-| Agent searches online to understand the type of packaging attributes olive oil requires and finds that opaque and slim bottles work best.                                                            | None required; agent uses Bing search from Copilot Studio |
-| Based on this, the agent pulls the right products from Dynamics 365 and proposes them to the customer. (Insert relevant text for the chat)                                                                  | `GetProducts` #Dynamics 365 Supply Chain                    |
-| Optional: If the lead confirms interest, creates a quote in Dynamics 365 Sales or Dynamics 365 Business Central.                                                                                                    | `CreateQuote` #Sales #BusinessCentral               |
+| Action performed                                                                                                                                                                                           | Tools used                                         | MCP Server used                |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|-------------------------------|
+| Agent checks if they're an existing lead, fetches the lead record, and gets Copilot lead summary from Dynamics 365 Sales. Through the summary, the agent learns that the lead is a decision maker, has previously done business, and prefers sustainable packaging. | `ListLeads`, `InvokeLeadSummary`                   | Sales MCP server               |
+| Agent searches online to understand the type of packaging attributes olive oil requires and finds that opaque and slim bottles work best.                                                            | None required; agent uses Bing search from Copilot Studio | Not applicable                 |
+| Based on this, the agent pulls the right products from Dynamics 365 and proposes them to the customer.                                                                   | `GetProducts`                                      | Dataverse MCP server and custom connector      |
+| Optional: If the lead confirms interest, creates a quote in Dynamics 365 Business Central.                                                                                          | `CreateQuote`                                      | Business Central MCP server |
 
+## Related information
+
+- [Video: Using Claude Desktop to engage directly with Dynamics 365 Sales](https://www.youtube.com/watch?v=H_CbRy3Pb88)
