@@ -126,7 +126,7 @@ After you type **/c** in the communication panel messaging area, you can continu
 
 ## Transfer conversations
 
-In the communication panel, you can transfer the work item either to an representative or a queue. The transfer can be performed only after consult with the representative has been established. Without bringing representatives in to consult, only transfer to queues are available. If operating hours have been configured for the queues, you can successfully transfer the conversation to only those queues that are operational at the transfer time.
+In the communication panel, you can transfer the work item either to a representative or queue. The transfer can be performed only after consult with the representative has been established. Without bringing representatives in to consult, only transfer to queues are available. If operating hours have been configured for the queues, you can successfully transfer the conversation to only those queues that are operational at the transfer time.
 
 > [!NOTE]
 > When you transfer a conversation to a queue that doesn't have any representatives, the application automatically sets the status of the conversation to Closed.

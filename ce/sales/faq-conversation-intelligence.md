@@ -1,7 +1,7 @@
 ---
 title: Conversation intelligence FAQs
 description: Get answers to frequently asked questions about conversation intelligence.
-ms.date: 03/15/2024
+ms.date: 06/12/2025
 ms.topic: faq
 author: udaykirang
 ms.author: udag
