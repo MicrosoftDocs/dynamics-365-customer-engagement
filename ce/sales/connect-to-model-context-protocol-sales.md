@@ -21,22 +21,22 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
-Model Context Protocol (MCP) is a powerful new standard that enables seamless integration between your favorite AI assistants, such as ChatGPT and Claude, and Dynamics 365 Sales. It can also be used to integrate with AI agents such as Microsoft Copilot Studio agents. With the Sales MCP server, you can extend your AI agents and AI assistants with sales-specific tools and create custom experiences for your sellers. The MCP server includes a set of APIs that enable the interaction with Dynamics 365 Sales data and functionality.
+Model Context Protocol (MCP) is a powerful new standard that enables seamless integration between your favorite AI assistants, such as ChatGPT and Claude, and Dynamics 365 Sales. MCP can also be used to integrate with AI agents such as Microsoft Copilot Studio agents. With the Sales MCP server, you can extend your AI agents and AI assistants with sales-specific tools and create custom experiences for your sellers. The MCP server includes a set of APIs that enable the interaction with Dynamics 365 Sales data and functionality.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Integrate Sales MCP Server with AI agents and assistants
 
-You can integrate the Sales MCP server with your Microsoft Copilot Studio agent, or any other AI agent or assistant that supports the MCP standard. The steps for connecting to the Sales MCP server are similar to connecting to the Dataverse MCP server.
+You can integrate the Sales MCP server with your Microsoft Copilot Studio agent, or any other AI agent or assistant that supports the MCP standard. The steps for connecting to the Sales MCP server are similar to that of the Dataverse MCP server. Follow the instructions in the Dataverse MCP server documentation to connect to the Sales MCP server as well: 
 
 - To connect to the MCP server in Microsoft Copilot Studio, follow the steps in [Use the Dataverse MCP server in Microsoft Copilot Studio](/power-apps/maker/data-platform/data-platform-mcp#use-the-dataverse-mcp-server-in-microsoft-copilot-studio).
 
 - To connect to the MCP server in Claude, follow the steps in [Configure and use the Dataverse MCP server in Claude](/power-apps/maker/data-platform/data-platform-mcp#configure-and-use-the-dataverse-mcp-server-in-claude). 
 
 
-## Tools supported by the Sales MCP Server
+## Tools supported
 
-The following table lists the tools supported by the Model Context Protocol (MCP) server in Dynamics 365 Sales. These tools allow you to list leads, qualify leads, and draft and send outreach emails to leads.
+The following table lists the tools supported by the Sales Model Context Protocol (MCP) server. These tools allow you to list leads, qualify leads, and draft and send outreach emails to leads.
 
 
 | Tool Name              | Purpose                                                                                                   |
@@ -49,9 +49,9 @@ The following table lists the tools supported by the Model Context Protocol (MCP
 
 ## What can you do with the Sales MCP server?
 
-The Sales MCP server provides a set of tools that can be used to interact with Dynamics 365 Sales data and functionality. Let's explore some scenarios where you can use the Sales MCP server for a seamless integration with AI agents or assistants.
+Let's explore some example scenarios to understand how you can use the Sales MCP server to enhance your sales processes with AI agents or assistants.
 
-**Scenario 1: Sales team uploads leads (event attendees) from Excel into Dynamics 365 Sales**
+### Scenario 1: Sales team uploads leads (event attendees) from Excel into Dynamics 365 Sales
 
 | Action performed                                                                                   | Tools used                                 |
 |----------------------------------------------------------------------------------------|---------------------------------------------|
@@ -61,7 +61,9 @@ The Sales MCP server provides a set of tools that can be used to interact with D
 | If the lead confirms interest, creates a quote in D365 Sales or D365 Business Central  | Create quote #Sales #BusinessCentral        |
 | Upon customer/seller approval, creates order in Dynamics 365 Business Central or an ERP system | Create order #BusinessCentral               |
 
-**Scenario 2: A lead comes from a marketing campaign to the website and starts chat "I'm looking for metal packaging for cold pressed olive oil. Can you tell me what options you have?"**
+### Scenario 2: A lead comes from a marketing campaign to the website
+
+The lead starts a chat: "I'm looking for metal packaging for cold pressed olive oil. Can you tell me what options you have?"
 
 | Action performed                                                                                                                                                                                           | Tools used                                         |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
