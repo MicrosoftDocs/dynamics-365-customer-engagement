@@ -17,7 +17,7 @@ search.audienceType:
 # Configure Bing Maps to be displayed on forms
 
 > [!IMPORTANT]
-> The Bing Maps control uses the Bing Maps for Enterprise service. The Bing Maps for Enterprise service is deprecated and when used with a Free (Basic) account will be retired on June 30th, 2025. More information: [Bing Maps coverage](https://learn.microsoft.com/en-us/bingmaps/coverage/)
+> The Bing Maps control uses the Bing Maps for Enterprise service. The Bing Maps for Enterprise service is deprecated and when used with a Free (Basic) account will be retired on June 30th, 2025. More information: [Bing Maps coverage](/bingmaps/coverage/)
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Configure a map on a form](/powerapps/maker/model-driven-apps/configure-bing-maps-legacy)
 
