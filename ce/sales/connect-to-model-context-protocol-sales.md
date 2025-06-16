@@ -55,11 +55,11 @@ Let's explore some example scenarios to understand how you can use the Sales MCP
 
 | Action performed                                                                                   | Tools used                                 |
 |----------------------------------------------------------------------------------------|---------------------------------------------|
-| For each event attendee, the agent gets the lead record and gets Copilot lead summary to determine if they’re a good fit | Get Lead #Sales<br>Get Lead Summary #Sales  |
-| For each lead that is a good fit, drafts an outreach email                             | Get Outreach Email #Sales                   |
+| For each event attendee, the agent gets the lead record and gets Copilot lead summary to determine if they’re a good fit | `ListLeads` #Sales<br>`InvokeLeadSummary` #Sales  |
+| For each lead that is a good fit, drafts an outreach email                             | `DraftOutreachEmail` #Sales                   |
 | When a lead responds, converts lead to a new opportunity                               | Qualify #Sales                              |
-| If the lead confirms interest, creates a quote in D365 Sales or D365 Business Central  | Create quote #Sales #BusinessCentral        |
-| Upon customer/seller approval, creates order in Dynamics 365 Business Central or an ERP system | Create order #BusinessCentral               |
+| If the lead confirms interest, creates a quote in D365 Sales or D365 Business Central  | `CreateQuote` #Sales #BusinessCentral        |
+| Upon customer/seller approval, creates order in Dynamics 365 Business Central or an ERP system | `CreateOrder` #BusinessCentral               |
 
 ### Scenario 2: A lead comes from a marketing campaign to the website
 
