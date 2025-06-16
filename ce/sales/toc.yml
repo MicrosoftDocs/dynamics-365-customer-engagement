@@ -172,7 +172,7 @@ items:
               href: match-fields-between-dynamics365-zoominfo.md
             - name: Customize the ZoomInfo app
               href: customize-zoominfo-app.md
-    - name: Set up Copilot
+    - name: Set up Copilot and AI features
       items:
         - name: Copilot overview
           href: copilot-overview.md
@@ -192,6 +192,8 @@ items:
           href: extend-copilot-chat.md
         - name: Copilot in Dynamics 365 Sales FAQ
           href: sales-copilot-faq.md
+        - name: Connect to Dynamics 365 Sales with Model Context Protocol (preview)
+          href: connect-to-model-context-protocol-sales.md
     - name: Overview of focused view
       href: configure-focused-view.md
       items:
