@@ -24,7 +24,7 @@ Apple Messages for Business supports rich messaging experiences, allowing custom
 
 ## Prerequisites
 
-Before you configure the Apple Messages for Business channel in Contact Center admin center or Copilot Service admin center, ensure that the following prerequisites are met:
+Before you configure the Apple Messages for Business channel in Copilot Service admin center, ensure that the following prerequisites are met:
 
 1. Register your business with Apple Business Register. Learn more in [Apple Business Register](https://register.apple.com/)
 1. Enable Messages for Business and create a Messages for Business account for your brand. Learn more in [Apple Messages for Business Accounts Introduction](https://register.apple.com/resources/messages/messaging-documentation/).
