@@ -45,7 +45,7 @@ You can create a geo location provider record in the Copilot Service admin cente
 
 ## Enable visitor location detection
 
-If you're using Copilot Service admin center or Contact Center admin center app, perform the following steps:
+If you're using the Copilot Service admin center app, perform the following steps:
 
 1. Go to the chat channel settings of the chat widget in which you want to enable geo location.
 
