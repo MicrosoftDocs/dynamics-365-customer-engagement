@@ -6,7 +6,7 @@ You can enable outbound communication either with or without customization, as f
 
 To enable outbound communication for your channel, you must perform the following:
 
-1. Using Customer Service admin center, enable outbound communication for the specific channel provider. More information: [Configure channel provider for outbound communication](#configure-channel-provider-for-outbound-communication)
+1. Using Copilot Service admin center, enable outbound communication for the specific channel provider. More information: [Configure channel provider for outbound communication](#configure-channel-provider-for-outbound-communication)
 
 2. In the Unified Interface form, add the **Channel communication control** to the **Phone** field for which you want to enable outbound communication (ClickToAct), and publish the customizations. More information: [Add the Channel Communication Control to the Unified Interface form](#add-the-channel-communication-control-to-the-unified-interface-form)
 
@@ -16,7 +16,7 @@ To enable outbound communication for your channel, you must perform the followin
 
 ## Configure channel provider for outbound communication
 
-Using Customer Service admin center, do the following:
+Using Copilot Service admin center, do the following:
 
 1. In the site map, select **Workspaces** in **Agent experience**. The **Workspaces** page opens.
     
