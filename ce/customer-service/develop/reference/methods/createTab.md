@@ -1,7 +1,7 @@
 ---
 title: createTab method (app profile manager) JavaScript API Reference 
 description: Learn about the createTab API of app profile manager in Copilot Service workspace.
-ms.date: 06/17/2026
+ms.date: 06/17/2025
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham

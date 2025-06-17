@@ -19,7 +19,7 @@ By default, Copilot Service workspace is shown to the following user profiles:
 
 If your business still requires the Omnichannel for Customer Service app, use the steps in this article to [enable it](#enable-the-omnichannel-for-customer-service-app).
 
-If you don't want the Copilot Service workspace app to be visible for any of the above profiles, follow the steps in [Disable the Copilot Service workspace app](#disable-the-customer-service-workspace-app) to remove it from the apps page in your environment.
+If you don't want the Copilot Service workspace app to be visible for any of the above profiles, follow the steps in [Disable the Copilot Service workspace app](#disable-the-copilot-service-workspace-app) to remove it from the apps page in your environment.
 
 ## Enable the Omnichannel for Customer Service app 
 
