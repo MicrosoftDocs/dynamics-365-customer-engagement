@@ -33,7 +33,7 @@ Before you configure the Apple Messages for Business channel in Copilot Service 
 
 ## Configure an Apple Messages for Business channel instance
 
-1. In the site map of Contact Center admin center or Copilot Service admin center, select **Channels** in **Customer Support**.
+1. In the site map of Copilot Service admin center, select **Channels** in **Customer Support**.
 
 1. Go to **Accounts** > **Messaging accounts** > **Manage**, and then on the **Accounts and channels** page, select **Add account**.
 
