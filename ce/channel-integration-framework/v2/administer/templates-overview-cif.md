@@ -22,7 +22,7 @@ To choose the applications the representatives open for every session, according
 - [Application tab templates](application-tab-templates-cif.md)
 - [Notification templates](notification-templates-cif.md)
 
-These templates are managed in **Customer Service admin center** > **Support experiences** > **Workspaces**.
+These templates are managed in **Copilot Service admin center** > **Support experiences** > **Workspaces**.
 
 > [!WARNING]
 > It is recommended that you don’t edit the out-of-the-box sample templates in the package because it affects the functionality.

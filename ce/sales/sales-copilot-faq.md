@@ -84,7 +84,7 @@ Copilot in Dynamics 365 Sales can't be turned on for the following applications:
 - msdyn_ResourceScheduling (Resource Scheduling)
 - AppforOutlookModule (Dynamics 365 Outlook app)
 - Customerservicehub (Customer Service Hub)
-- msdyn_CustomerServiceWorkspace (Customer Service Workspace)
+- msdyn_CustomerServiceWorkspace (Copilot Service Workspace)
 - OmniChannelEngagementHub (Omnichannel Engagement Hub)
 - msdyn_ProjectService (Project Service)
 
