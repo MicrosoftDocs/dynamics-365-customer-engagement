@@ -2,7 +2,7 @@
   href: unified-service-desk.md
 - name: Release history
   href: release-history.md
-- name: Migrate to Customer Service workspace
+- name: Migrate to Copilot Service workspace
   href: admin/migrate-to-csw.md
 - name: What's new
   items:

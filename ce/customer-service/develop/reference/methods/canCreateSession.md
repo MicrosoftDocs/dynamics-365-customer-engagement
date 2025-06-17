@@ -1,7 +1,7 @@
 ---
 title: canCreateSession method (app profile manager) JavaScript API Reference 
-description: Learn about the canCreateSession API of app profile manager in Customer Service workspace.
-ms.date: 12/10/2024
+description: Learn about the canCreateSession API of app profile manager in Copilot Service workspace.
+ms.date: 06/17/2025
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -14,7 +14,7 @@ ms.custom: bap-template
 Allows you to check whether a new session can be created.
 
 > [!Note]
-> Customer Service workspace lets you open up to 10 sessions simultaneously. If you open more than 10 sessions, then the following message is displayed: "Maximum sessions reached. Close a session before opening another."
+> Copilot Service workspace lets you open up to 10 sessions simultaneously. If you open more than 10 sessions, then the following message is displayed: "Maximum sessions reached. Close a session before opening another."
 
 ## Syntax
 

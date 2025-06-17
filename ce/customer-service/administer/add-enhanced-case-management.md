@@ -36,7 +36,7 @@ You can configure the tab users must be redirected to when they select the open 
 You can choose to display the legacy case resolution dialog box that appears when a representative selects **Resolve case**. You'll need to add and configure the **Enable minimal case resolution dialog** setting definition in Power Apps to revert to the legacy case resolution dialog.
 
 > [!NOTE]
-> - You can revert to the legacy case resolution dialog only if the **Case settings** > **Other settings** > **Resolve case dialog** is set to **Standard dialog** in Customer Service admin center.
+> - You can revert to the legacy case resolution dialog only if the **Case settings** > **Other settings** > **Resolve case dialog** is set to **Standard dialog** in Copilot Service admin center.
 > - If **Resolve case dialog**  is set to **Customizable dialog** or **Quick create dialog**, to add **Duration**, **Billable TIme**, **Total Time** and other customizations, perform the steps in [Modify the case resolution dialog](modify-case-resolution-dialog.md).
 
 Perform the following steps:
