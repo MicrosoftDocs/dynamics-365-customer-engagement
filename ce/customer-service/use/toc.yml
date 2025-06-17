@@ -6,7 +6,7 @@
         href: ../index.yml
       - name: Welcome to Dynamics 365 Customer Service
         href: ../implement/overview.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
-      - name: Use Customer Service workspace
+      - name: Use Copilot Service workspace
         href: ../implement/csw-overview.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
       - name: Use Customer Service Team Member
         href: ../implement/customer-service-team-member.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
@@ -288,7 +288,7 @@
           href: supported-channels-social-profiles.md  
       - name: Agent productivity tools
         items: 
-        - name: Productivity pane in Customer Service workspace
+        - name: Productivity pane in Copilot Service workspace
           href: csw-productivity-pane.md
         - name: View smart assist suggestions for knowledge articles and similar cases
           href: oc-view-ai-suggested-cases-articles.md

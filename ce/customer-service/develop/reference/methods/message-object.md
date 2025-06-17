@@ -1,7 +1,7 @@
 ---
 title: Retrieve and format rich messages
 description: Learn about the MessageObject type used in the sendMessageToConversation method in Omnichannel JavaScript API.
-ms.date: 06/14/2024
+ms.date: 06/17/2025
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -19,7 +19,7 @@ This articles describes how you can programmatically retrieve and format rich me
 
 ## Retrieve the rich message payload
 
-1. In the site map of Customer Service admin center, select **Productivity** in **Agent experience**.
+1. In the site map of Copilot Service admin center, select **Productivity** in **Agent experience**.
 1. On the **Productivity** page, select **Manage** for **Rich messages**.
 1. From the list of all available list messages, select a rich message that you'd like to send to the conversation.
 1. Select the **Details** tab and select **Copy** under the **Rich message JSON** field. 

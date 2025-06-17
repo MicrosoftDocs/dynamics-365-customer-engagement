@@ -34,7 +34,7 @@ Some of the key benefits of customer support swarming include:
 - Reduced average time to resolution
 - Accelerated on-the-job training for representatives
 
-Swarming features are available in Dynamics 365 Customer Service workspace, Customer Service Hub, and custom apps. Swarming works with either the Microsoft Teams desktop or web apps.
+Swarming features are available in Copilot Service workspace, Customer Service Hub, and custom apps. Swarming works with either the Microsoft Teams desktop or web apps.
 
 ### Prerequisites
 
