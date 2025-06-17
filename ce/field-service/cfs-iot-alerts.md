@@ -47,6 +47,8 @@ As IoT device information flows into Azure IoT Hub, you can create rules that di
    - **(1)**: The bottom pane shows all incoming IoT messages from the connected device.
    - **(2)**: The top pane shows the JSON that creates the IoT alerts from the IoT messages.
 
+<!--- Remove 
+
 ### Trigger IoT alerts with the simulator
 
 Set up the simulator to simulate IoT devices and data so that device data is pulled into Field Service.
@@ -93,10 +95,11 @@ Set up the simulator to simulate IoT devices and data so that device data is pul
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of the Azure resource group.](./media/cfs-iot-alert-logic-app.png)
+--->
 
 ## View IoT alerts in Field Service
 
-In our example with the simulator, an IoT alert was created in Field Service because the temperature reading in an IoT message exceeded 70 degrees.
+In this example, an IoT alert was created in Field Service because the temperature reading in an IoT message exceeded 70 degrees.
 
 1. In Dynamics 365 Field Service, under **Assets**, select **IoT Alerts**.
 

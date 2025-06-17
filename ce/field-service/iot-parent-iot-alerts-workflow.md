@@ -32,6 +32,6 @@ This workflow is enabled by default. Users can edit or deactivate it.
 |Name|Type|Nullable|Unicode|Description|  
 |----------|----------|--------------|-------------|-----------------|  
 |TimespanSeconds|Edm.Int32|false||Determines the time window to consider when parenting (or suppressing) an alert, from 60 to 180 seconds.|
-| | | | | |
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
