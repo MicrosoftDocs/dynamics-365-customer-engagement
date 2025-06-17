@@ -54,11 +54,11 @@ Omnichannel real-time analytics reports are on by default. You can use the Copil
 
 ## View Omnichannel real-time analytics reports
 
-To view the reports in Customer Service workspace or Contact Center workspace, see [Access reports](../use/intro-realtime-analytics-dashboard.md#access-reports).
+To view the reports in Copilot Service workspace, see [Access reports](../use/intro-realtime-analytics-dashboard.md#access-reports).
 
-If you customized the Customer Service workspace or Contact Center workspace app, you must complete the following steps to be able to view the reports.
+If you customized the Copilot Service workspace app, you must complete the following steps to be able to view the reports.
 
-1. On the Customer Service workspace or Contact Center workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
+1. On the Copilot Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
 1. Select **New**.
 1. On the **New page** dialog, select **URL**, and then select **Next**.
 1. Enter the following information, and then select **Add**
