@@ -28,7 +28,7 @@ You can reap the benefits of using Microsoft Copilot out of the box without the 
 
 ## What does removal mean?
 
-Removal means Microsoft plans to remove a feature or app after on a specific date. In this case, as of February 2025, the Customer Service Hub app will no longer be available for all new organizations with Enterprise licenses. We continue to support the application for all existing organizations and new customers who have other license types other than Enterprise (for example, Customer Service Professional licenses). However, we recommend that all existing customers migrate to Copilot Service workspace
+Removal means Microsoft plans to remove a feature or app after on a specific date. In this case, as of February 2025, the Customer Service Hub app will no longer be available for all new organizations with Enterprise licenses. We continue to support the application for all existing organizations and new customers who have other license types other than Enterprise (for example, Customer Service Professional licenses). However, we recommend that all existing customers migrate to Copilot Service workspace.
 
 ## Can I continue to use the Customer Service Hub app?
 
