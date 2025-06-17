@@ -18,7 +18,8 @@ Use priority records to prioritize your work orders. You can assign a custom col
 1. Enter the following information:
 
     - **Name**: Enter a name for the priority.
-    - **Level of Importance**: Specify a number from *1* through *10* to define the level of importance of the priority. For example, for an urgent priority, you might set the level of importance to *10*.
+    - **Level of Importance**: Choose a number from *1* through *10* to define the level of importance of the priority. For example, for an urgent priority, you might set the level of importance to *10*.
+    - **Priority Value**: Specify a number from *1* through *100*. This value is used by the [Scheduling Operations Agent](./soa-overview.md) for scheduling optimization operations.
     - **Priority Color**: Specify a color for the priority.
 
 1. Select **Save**.
