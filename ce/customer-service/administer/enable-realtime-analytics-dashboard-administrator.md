@@ -20,7 +20,7 @@ ms.custom:
 
 > [!IMPORTANT]
 >
-> This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with customer service representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their customer service representatives that their communications with end users may be monitored, recorded, or stored.
+> This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature isn't intended for use in making, and shouldn't be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with customer service representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their customer service representatives that their communications with end users may be monitored, recorded, or stored.
 
 > [!NOTE]
 >  Any visual customizations that you might have made on the preview version will be overwritten when your organization gets upgraded to the latest generally available version. Future updates to the data model will be backward compatible and visual customizations will be retained. More information: [Future data model updates](../use/customize-reports.md#future-data-model-updates)
@@ -54,11 +54,11 @@ Omnichannel real-time analytics reports are on by default. You can use the Copil
 
 ## View Omnichannel real-time analytics reports
 
-To view the reports in Customer Service workspace or Contact Center workspace, see [Access reports](../use/intro-realtime-analytics-dashboard.md#access-reports).
+To view the reports in Copilot Service workspace, see [Access reports](../use/intro-realtime-analytics-dashboard.md#access-reports).
 
-If you customized the Customer Service workspace or Contact Center workspace app, you must complete the following steps to be able to view the reports.
+If you customized the Copilot Service workspace app, you must complete the following steps to be able to view the reports.
 
-1. On the Customer Service workspace or Contact Center workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
+1. On the Copilot Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
 1. Select **New**.
 1. On the **New page** dialog, select **URL**, and then select **Next**.
 1. Enter the following information, and then select **Add**

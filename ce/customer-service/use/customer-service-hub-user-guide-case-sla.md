@@ -1,6 +1,6 @@
 ---
 title: Understand SLAs
-description: Understand how to track and view SLAs with the help of interactive dashboards in Customer Service workspace for Dynamics 365 Customer Service.
+description: Understand how to track and view SLAs with the help of interactive dashboards in Copilot Service workspace for Dynamics 365 Customer Service.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
