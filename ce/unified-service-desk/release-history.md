@@ -1,7 +1,7 @@
 ---
 title: Release history (Unified Service Desk)
 description: Find information about all the documentation updates made in various versions of Unified Service Desk.
-ms.date: 09/27/2024
+ms.date: 06/17/2025
 ms.topic: whats-new
 author: gandhamm
 ms.author: mgandham
@@ -24,7 +24,7 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 
 
 > [!IMPORTANT]
-> Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using [Customer Service workspace](../customer-service/implement/csw-overview.md). Learn more in [Transition from Unified Service Desk to Customer Service workspace](https://www.microsoft.com/dynamics-365/blog/it-professional/2025/01/22/transition-from-unified-service-desk-to-customer-service-workspace/).
+> Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using [Copilot Service workspace](../customer-service/implement/csw-overview.md). Learn more in [Transition from Unified Service Desk to Copilot Service workspace](https://www.microsoft.com/dynamics-365/blog/it-professional/2025/01/22/transition-from-unified-service-desk-to-customer-service-workspace/).
 
 ## Release history for Unified Service Desk 4.3.0, January 2025
 
@@ -40,7 +40,7 @@ This release includes migration changes from Azure Active Directory Authenticati
 <a name="Release_4_2"></a>
 
 > [!IMPORTANT]
-> Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using [Customer Service workspace](../customer-service/implement/csw-overview.md). Learn more in [Transition from Unified Service Desk to Customer Service workspace](https://www.microsoft.com/dynamics-365/blog/it-professional/2025/01/22/transition-from-unified-service-desk-to-customer-service-workspace/).
+> Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using [Copilot Service workspace](../customer-service/implement/csw-overview.md). Learn more in [Transition from Unified Service Desk to Copilot Service workspace](https://www.microsoft.com/dynamics-365/blog/it-professional/2025/01/22/transition-from-unified-service-desk-to-customer-service-workspace/).
 
 ## Release history for Unified Service Desk 4.2.0.71, September 2024
 
@@ -87,7 +87,7 @@ The list provides an overview of documentation updates made in this release of U
 ::: moniker range="dynamics-usd-4.1"
 
 > [!IMPORTANT]
-> Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using [Customer Service workspace](../customer-service/implement/csw-overview.md). Learn more in [Transition from Unified Service Desk to Customer Service workspace](https://www.microsoft.com/dynamics-365/blog/it-professional/2025/01/22/transition-from-unified-service-desk-to-customer-service-workspace/).
+> Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using [Copilot Service workspace](../customer-service/implement/csw-overview.md). Learn more in [Transition from Unified Service Desk to Copilot Service workspace](https://www.microsoft.com/dynamics-365/blog/it-professional/2025/01/22/transition-from-unified-service-desk-to-customer-service-workspace/).
 
 ## Release history for Unified Service Desk 4.1.1.1433, December 2020
 

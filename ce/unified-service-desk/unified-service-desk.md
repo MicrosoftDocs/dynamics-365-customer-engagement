@@ -87,7 +87,7 @@ ms.custom: evergreen
 <tr>
 <td>
 <h2> Migrate </h2>
-<li><a href="admin/migrate-to-csw.md" data-raw-source="[Migrate to Customer Service workspace](admin/migrate-to-csw.md)">Migrate to Customer Service workspace</a></li>
+<li><a href="admin/migrate-to-csw.md" data-raw-source="[Migrate to Copilot Service workspace](admin/migrate-to-csw.md)">Migrate to Copilot Service workspace</a></li>
 <br> </br>
 <br> </br>
 </td>

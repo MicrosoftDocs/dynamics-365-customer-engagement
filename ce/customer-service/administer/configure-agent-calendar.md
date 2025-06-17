@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-As an administrator or a supervisor, you can help customer service representatives (service representatives or representatives) in your organization view their work schedules. The **My Schedule** view in the Customer Service workspace app lets service representatives quickly view their working hours, nonworking hours, breaks, and any scheduled time off.
+As an administrator or a supervisor, you can help customer service representatives (service representatives or representatives) in your organization view their work schedules. The **My Schedule** view in the Copilot Service workspace app lets service representatives quickly view their working hours, nonworking hours, breaks, and any scheduled time off.
 
 The calendar view is a read-only visual that provides daily, weekly, and monthly views of a representative's schedule. It also has an agenda view that provides a list-type view of the representative's schedule.
 
@@ -35,7 +35,7 @@ The calendar view is a read-only visual that provides daily, weekly, and monthly
 
 ## Enable the agent calendar
 
-1. In the Customer Service admin center site map, select **Workforce management**.
+1. In the Copilot Service admin center site map, select **Workforce management**.
 
 1. In the **Agent calendar** section, select **Manage**. The **Agent calendar** page is displayed.
 
@@ -49,7 +49,7 @@ The shift booking list view lets supervisors view the bookings that are imported
 
 Administrators can utilize this view to verify the proper functioning of the third-party adapter booking sync process.
 
-1. In Customer Service workspace, expand the site map, and then select **Shift Bookings**.
+1. In Copilot Service workspace, expand the site map, and then select **Shift Bookings**.
    
 1. Select the **All Shift Bookings** view.
 
@@ -76,6 +76,6 @@ To enable Workforce Management, complete the following steps:
 
 ## Next Steps
 
-[Get started with Customer Service workspace](../implement/csw-overview.md)  
+[Get started with Copilot Service workspace](../implement/csw-overview.md)  
 [Use the agent calendar view](../use/use-agent-calendar.md)
 
