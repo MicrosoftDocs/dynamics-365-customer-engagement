@@ -23,7 +23,7 @@ ms.custom:
 > Case is applicable to Customer Service only.
 
 
-The Teams chat embedded in Customer Service Hub, Copilot Service workspace, Contact Center workspace, or custom apps can help you more quickly find the right coworkers to collaborate with. This collaboration can help you more quickly resolve customer issues.
+The Teams chat embedded in Customer Service Hub, Copilot Service workspace, or custom apps can help you more quickly find the right coworkers to collaborate with. This collaboration can help you more quickly resolve customer issues.
 
 To use suggested contacts, your administrator must enable the feature. For the case record type, there are two types of suggestions: AI and rules-based. Other record types enabled for connected chats may only have rules-based suggestions.
 -  AI: Suggestions based on cases that were resolved by other customer service representatives (service representatives or representatives). Learn more in [Collaborate with AI-suggested contacts in Microsoft Teams](/dynamics365/customer-service/use-ai-suggested-contacts-teams)
