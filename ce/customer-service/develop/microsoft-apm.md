@@ -1,6 +1,6 @@
 ---
 title: "App profile manager JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager methods and properties to manage tabs and sessions in Copilot Service workspace."
+description: Learn about the app profile manager methods and properties to manage tabs and sessions in Copilot Service workspace.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
