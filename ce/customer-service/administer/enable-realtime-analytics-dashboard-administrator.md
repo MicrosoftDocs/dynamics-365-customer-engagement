@@ -1,7 +1,7 @@
 ---
 title: Manage real-time analytics reports in Omnichannel for Customer Service
 description: Configure real-time analytics in Omnichannel for Customer Service to give supervisors access to metrics and KPIs.
-ms.date: 02/03/2025
+ms.date: 06/17/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -38,9 +38,9 @@ Omnichannel real-time analytics reports are on by default for the following role
 
 ## Manage Omnichannel real-time analytics reports
 
-Omnichannel real-time analytics reports are on by default. You can use the Customer Service admin center app to turn off the Omnichannel real-time analytics reports.
+Omnichannel real-time analytics reports are on by default. You can use the Copilot Service admin center app to turn off the Omnichannel real-time analytics reports.
 
-1. Sign in to Dynamics 365, and on the apps page, select Customer Service admin center.
+1. Sign in to Dynamics 365, and on the apps page, select Copilot Service admin center.
     > [!Note]
     > The Copilot Service admin center app is automatically installed in all the Customer Service organizations. More information: [Get started with Copilot Service admin center](../implement/cs-admin-center.md#get-started-with-copilot-service-admin-center)
 
