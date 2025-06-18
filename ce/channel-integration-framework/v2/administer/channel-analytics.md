@@ -66,7 +66,7 @@ The `updateConversation` API can be invoked if the channel provider wants to enr
 
 Channel Analytics can be enabled at a Dynamics 365 Channel Integration Framework provider level. It can be enabled using the Web API.
 
-### Use Customer Service admin center
+### Use Copilot Service admin center
 
 1. Navigate to **Workspaces**.
 1. Select **Third Party Provider**.

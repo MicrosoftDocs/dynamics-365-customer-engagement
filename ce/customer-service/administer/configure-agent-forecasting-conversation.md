@@ -1,6 +1,6 @@
 ---
 title: Configure service representative forecasting for conversations
-description: Learn how to configure customer service representative forecasting for conversations in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace.
+description: Learn how to configure customer service representative forecasting for conversations in Dynamics 365 Customer Service and Dynamics 365 Copilot Service workspace.
 ms.date: 03/03/2025
 ms.topic: how-to
 author: lalexms
@@ -93,7 +93,7 @@ To be able to access the forecast reports, users in your organization must have 
 
 ## Enable the Agent forecasting for conversation reports
 
-1. In the Customer Service admin center app, in **Operations**, select **Insights**. The **Insights** page appears.
+1. In the Copilot Service admin center app, in **Operations**, select **Insights**. The **Insights** page appears.
 
 1. Under the **Report settings** section, next to **Agent forecasting for conversation**, select **Manage**. The **Agent forecasting for conversation** page appears.
 

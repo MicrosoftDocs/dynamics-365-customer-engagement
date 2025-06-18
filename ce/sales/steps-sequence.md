@@ -1,7 +1,7 @@
 ---
 title: Add steps to define activities for sequences
 description: Explore steps to define activities for sequences in sales accelerator, including A/B test, email activity, text message activity and more.
-ms.date: 01/24/2025
+ms.date: 06/17/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -102,6 +102,7 @@ Creates an automated email activity for sellers to communicate with customers. W
 >[!NOTE]
 >- Verify that required email templates are created in your organization. More information: [Create templates for email](/power-platform/admin/create-templates-email?context=/dynamics365/context/sales-context)   
 >- Configure [the email engagement feature](configure-email-engagement.md) in your organization before you start using the automated email step.
+>- The account to which the automated email is sent must have a primary contact with an email address. If the account doesn't have one, the automated email won't be sent and the sequence won't move to the next step. To continue the sequence, send the email manually to the account.  
 
 To add the automated email activity step:
 
