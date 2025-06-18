@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: concept-article
 ms.collection: 
-ms.date: 05/06/2025
+ms.date: 06/18/2025
 ms.custom: bap-template
 ---
 
@@ -38,6 +38,19 @@ Supervisors can access and view these dashboards from the Copilot Service worksp
 **Real time**
 
 - [Omnichannel real-time analytics dashboards](../use/intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboard): Monitor key operational metrics in real-time and make course corrections at the appropriate time to help keep service levels high.
+
+## Keep the report state when you switch session tabs
+
+The reports retain their current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the following steps to view the reports.
+
+1. On the Copilot Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**. This takes you to Power Apps.
+1. In **Pages**, from **Navigation**, select the required report view. Here's an example, **Omnichannel real-time analytics view**.
+1. From **Omnichannel real-time analytics**, go to **Settings** > **Display options**.
+1. In **Display options**, from the **Content type** dropdown list, select **Table**.
+1. From the **Table** dropdown list, select **Omnichannel Realtime analytics**.
+1. Select **Save and Publish**.
+
+After you finish these steps, the state remains the same when you reopen the report.
 
 ## Customize features
 

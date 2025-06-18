@@ -78,19 +78,6 @@ If you customized the Copilot Service workspace app, you must complete the follo
     - **Outlook shortcut**: **Pass parameters** and **Offline availability**
 1. Select **Save**, and then select **Publish**.
 
-## Keep the report state when you switch session tabs
-
-The reports retain their current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the following steps to view the reports.
-
-1. On the Copilot Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**. This takes you to Power Apps.
-1. In **Pages**, from **Navigation**, select **Omnichannel real-time analytics view**.
-1. From **Omnichannel real-time analytics**, go to **Settings** > **Display options**.
-1. In **Display options**, from the **Content type** dropdown list, select **Table**.
-1. From the **Table** dropdown list, select **Omnichannel Realtime analytics**.
-1. Select **Save and Publish**.
-
-After you finish these steps, the state remains the same when you reopen the report.
-
 ### Related information
 
 [Overview of Omnichannel real-time analytics reports](../use/intro-realtime-analytics-dashboard.md)  
