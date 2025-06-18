@@ -39,7 +39,7 @@ Supervisors can access and view these dashboards from the Copilot Service worksp
 
 - [Omnichannel real-time analytics dashboards](../use/intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboard): Monitor key operational metrics in real-time and make course corrections at the appropriate time to help keep service levels high.
 
-## Keep the report state when you switch session tabs
+### Keep the report state when you switch session tabs
 
 The reports retain their current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the following steps to view the reports.
 
