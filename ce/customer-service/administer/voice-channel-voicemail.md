@@ -65,15 +65,17 @@ The following considerations apply:
 * You can't route voicemails to voice queues because the system categorizes them as records.
 
 
-## Use voicemail to manage direct calls to service representatives
+## Use voicemail to manage direct inbound calls to service representatives
 
-If a service representative misses a direct call and voicemail is configured, the system presents an option to the customer to record a voicemail. The representative might not answer the call because of one of the following reasons:
+If a service representative misses a direct call to their inbound profile number and voicemail is configured, the system presents an option to the customer to record a voicemail. The representative might not answer the call because of one of the following reasons:
 
 - Service representative rejects the call
 - Call timed out
 - Agent presence shows as "offline" or "do not disturb"
 
-Out of the box, **Default Individual Voicemail Workstream** is available to route the individual voicemails to the default individual voicemail queue.
+Out of the box, **Default Individual Voicemail Workstream** is available to route the individual voicemails to the default individual voicemail queue.  The representative must be added to the default individual voicemail queue to be assigned the voicemail. 
+
+The voicemail message played to the customer is not customizable. It will prompt the customer to leave a voicemail for the representative by name.
 
 ## Configure voicemail views in inbox for representatives
 
