@@ -20,7 +20,7 @@ ms.custom:
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-Voicemails help your customers record messages for customer service representatives (service representatives or representatives) when they come across long wait times or their direct calls to representatives are unanswered. You can reduce on-hold calls when customers communicate their concerns promptly through voicemails and call back later for a status check.
+Voicemails help your customers record messages for service representatives when they come across long wait times or their direct calls to representatives are unanswered. You can reduce on-hold calls when customers communicate their concerns promptly through voicemails and call back later for a status check.
 
 The salient features of voicemail are as follows:
 
