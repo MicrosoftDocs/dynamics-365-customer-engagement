@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 With the [previous announcement](../implement/deprecations-customer-service.md#customer-service-hub-app-is-removed-for-new-organizations-with-enterprise-licenses) that the Customer Service Hub service representative-facing app would be removed for new organizations with Enterprise licenses, the app is now hidden in these environments. By default, Copilot Service workspace is shown to the Customer Service representative profile.
 
-If your business still requires the Customer Service Hub app, complete the steps to enable it in [Migrate from Customer Service Hub to Copilot Service workspace](../administer/faq-csh-removal.md#im-an-existing-enterprise-customer-and-still-need-to-use=customer-service-hub-how-do-i-enable-it).
+If your business still requires the Customer Service Hub app, complete the steps to enable it in [Migrate from Customer Service Hub to Copilot Service workspace](../administer/faq-csh-removal.md#im-an-existing-enterprise-customer-and-still-need-to-use-customer-service-hub-how-do-i-enable-it).
 
 ## Open Customer Service Hub
 
