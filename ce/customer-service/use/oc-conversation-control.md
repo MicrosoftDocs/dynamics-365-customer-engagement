@@ -1,7 +1,7 @@
 ---
 title: View the communication panel for conversations
 description: Learn what you can do as a representative in the communication panel when you interact with the customer.
-ms.date: 07/31/2025
+ms.date: 06/31/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -143,11 +143,11 @@ Use the keyboard command to see the list of representatives and/or the superviso
 
 Use the keyboard command to see the list of queues to transfer the conversation request. Press the forward slash (/) key and the letters T and Q (**/tq**).
 
-**/t** (forward slash, letter t) launches the **Agent** and **Queue** tabs. Select either tab and then select the representative or the queue from the list to transfer the conversation. The **/t** command keeps the focus on the Agent tab whereas the **/tq** command keeps the focus on the Queue tab.
+**/t** (forward slash, letter t) launches the **Representatives** and **Queues** tabs. Select either tab and then select the representative or the queue from the list to transfer the conversation. The **/t** command keeps the focus on the **Representatives** tab whereas the **/tq** command keeps the focus on the **Queues** tab.
 
 When skill-based routing is enabled, then during the transfer, the **Transfer** panel shows users sorted in the order of matching skills. A check for representative skills isn't done by the app and the conversation can be transferred to any representative irrespective of the skill match.
 
-When a conversation needs to be transferred from one queue to another, the matching criteria that were used in the conversation will be reused to find a representative in the new queue. For example, if exact match had been used to attach the skills to the conversation, the same criteria is used to find the representative in the new queue.
+When a conversation needs to be transferred from one queue to another, the matching criteria that were used in the conversation is reused to find a representative in the new queue. For example, if exact match was used to attach the skills to the conversation, the same criteria is used to find the representative in the new queue.
 
 :::image type="content" source="../media/screenshot-transfer-to-representative.png" alt-text="Screenshot of selecting a representative to transfer the conversation.":::
 
@@ -155,6 +155,7 @@ When a conversation needs to be transferred from one queue to another, the match
 
 After you type **/t** or **/tq** in the communication panel messaging area, you can continue typing the name of the participant and if it's present, the representative or queues names are filtered and displayed to you.
 
+**/taq** (forward slash, letter t, letter a, letter q) helps you search for the queue in the **Representatives** tab of the transfer window.
 
 ## Take notes specific to conversations
 
