@@ -83,13 +83,13 @@ Here's what each entity record type is used for:
 
 2. Select **...** to go to **Training**, and access the documentation site to view the **Help Center**. 
 
-3. You can also access **Service Management** from the site map. Service Management lets you define all the customer service admin settings from the Customer Service Hub site map.  Select **...** to go to **Service Management**.
+3. You can also access **Service Management** from the site map. Service Management lets you define all the customer service admin settings from the Customer Service Hub site map. Select **...** to go to **Service Management**.
 
     [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
 4. Select **Favorites and Recent** ![recent-button.](../media/fav-and-recent.png) to get a list of recently viewed records, or to review pinned favorites.
 
-   For a mobile device, the site map is displayed as illustrated in the following image:
+   For a mobile device, the site map appears as illustrated in the following image:
 
    ![mobile-site map.](../media/mobile-sitemap.png "Customer Service Hub site map on mobile")
 
@@ -145,7 +145,7 @@ The stages in the business process flow are displayed in floating mode, or docke
 
 ![Business process flows.](../media/business-process-flow.png "Business process flows")
   
-If there's more than one process to follow, you can switch between them by selecting **Process** > **Switch Process** on the command bar, and then selecting the process you want to use.  Or you can choose to abandon the process if it no longer applies.
+If there's more than one process to follow, you can switch between them by selecting **Process** > **Switch Process** on the command bar, and then selecting the process you want to use. Or you can choose to abandon the process if it no longer applies.
   
  When a business process flow based on multiple entities is applied to a case or a knowledge article, the following limitations apply:  
   
@@ -265,7 +265,7 @@ In Dynamics 365 Customer Service, the following activities are supported:
 
 #### Open Activities view
 
-In the Customer Service Hub site map, select **Service** > **Activities**. The **My Activities** view is displayed.
+In the Customer Service Hub site map, select **Service** > **Activities**. The **My Activities** view appears.
 
 ![activities-email.](../media/activities-csh-email.png "Activities view")
 
@@ -277,11 +277,11 @@ In the Customer Service Hub site map, select **Service** > **Activities**. The *
 
 - Explore the command bar options to create a new activity like new **Task**, **Email**, **Appointment**, or **Phone call**.
   
-  For example: To create a new email, select **Email** from the command bar.  The New Email activity form is displayed.
+  For example: To create a new email, select **Email** from the command bar. The **New Email activity** form appears.
   
 - Select **...** in the command bar and go to **Open Dashboards** to directly open activity dashboard.
 
-- To view the status of an activity, select the activity record. The status is displayed in the bottom left corner of the activity form.
+- To view the status of an activity, select the activity record. The status appears in the bottom-left corner of the activity form.
 
 ### Insert a knowledge article into an email
 
@@ -291,18 +291,18 @@ You can insert a knowledge article in an email in Dynamics 365 Customer Engageme
 
 1. On an email form where you're drafting, place your cursor where you want to place the knowledge article or its link, and then select **Insert Knowledge Article**.
 
-   The **Select knowledge article to insert** screen is displayed. 
+   The **Select knowledge article to insert** screen appears. 
    
   > [!div class="mx-imgBorder"]
   > ![Select knowledge article to insert.](../media/email-insert-knowledge-article.png "Select knowledge article to insert page") 
 
 2. Search for the article you want to include. Learn more about searching for knowledge articles in [Search for knowledge articles in the Customer Service Hub](../use/search-knowledge-articles-csh.md).
 
-   A list of available articles is displayed. You can select an article in the search results to view it in the preview pane.
+   A list of available articles appears. You can select an article in the search results to view it in the preview pane.
   
 3. When you find the article you want to include, take one of the following actions:
 
-   - To insert an article into the email, select the **Insert content** icon for the article in the search results or in the article preview pane, select **Insert article content** at the top of the pane. This action inserts the content into the body of your email and close the **Select knowledge article to insert** page.
+   - To insert an article into the email, select the **Insert content** icon for the article in the search results or in the article preview pane, select **Insert article content** at the top of the pane. This action inserts the content into the body of your email and closes the **Select knowledge article to insert** page.
    
       > [!div class="mx-imgBorder"]
       > ![Insert content into email.](../media/email-knowledge-article-insert-content.png "Insert an article into email by selecting either the Insert content icon from the search results or Insert article content from the preview pane")
@@ -312,7 +312,7 @@ You can insert a knowledge article in an email in Dynamics 365 Customer Engageme
     > - To insert a knowledge article into a field that's enabled for using the rich text editor options, you must first configure the custom rich text editor for the field. Learn more about this configuration in [Customize the email experience](../administer/customer-service-hub-user-guide-email-font-admin.md).
     > - If you add more than one field, and then select **Insert Knowledge Article**, by default, the knowledge article is inserted into the first field in the form.
 
-  - If your administrator set up an external portal that supports a URL format, you can include a link. Learn more in [Set up knowledge management (Customer Service Hub)](../administer/set-up-knowledge-management-embedded-knowledge-search.md). To insert an article as a link in the email, select the **URL** icon for the article in the search results or in the article preview pane, select **Insert URL** at the top of the pane. This action inserts a link to the article into the body of your email and close the **Select knowledge article to insert** page. 
+  - If your administrator set up an external portal that supports a URL format, you can include a link. Learn more in [Set up knowledge management (Customer Service Hub)](../administer/set-up-knowledge-management-embedded-knowledge-search.md). To insert an article as a link in the email, select the **URL** icon for the article in the search results or in the article preview pane, select **Insert URL** at the top of the pane. This action inserts a link to the article into the body of your email and closes the **Select knowledge article to insert** page. 
    
       > [!div class="mx-imgBorder"]
       > ![Insert a link to the content into email.](../media/email-knowledge-article-insert-url.png "Insert a link to an article into an emaill by selecting either the Insert URL icon from the search results or Insert URL at the top of the preview pane") 
@@ -324,22 +324,22 @@ Use queues to organize, prioritize, and monitor the progress of your work. In Dy
 
 **Open Queues view**
 
-In the Customer Service Hub site map, select **Service** > **Queues**. The queues view is displayed.
+In the Customer Service Hub site map, select **Service** > **Queues**. The queues view appears.
 
 ![Queues view.](../media/queues-view.png "Queues view")
 
 - Use the drop-down lists to switch between the views and the various queues.
 - Select a record in the queues view to:
-    - **Edit** the record
-    - **Route** the record
-    - **Pick** the record. It's then assigned to you and is moved to your queue.
-    - **Release** the record. It's then assigned back to the queue owner for others to pick up.
+    - **Edit** the record.
+    - **Route** the record.
+    - **Pick** the record. It's assigned to you and moved to your queue.
+    - **Release** the record. It's assigned back to the queue owner for others to pick up.
 
 Learn more about how to add a case to a queue in [Add a case to a queue](../use/customer-service-hub-user-guide-case-queues-and-routing.md).
 
 ## Create a new site
 
-To create a new site, go to **Advanced find** ![Advanced find.](../media/advanced-find-icon.png "Advanced find"). Then you can customize other entity forms (for example, Account) by adding this site field.
+To create a new site, go to **Advanced find** ![Advanced find.](../media/advanced-find-icon.png "Advanced find"). Then, you can customize other entity forms (for example, Account) by adding this site field.
 
   ![Create a new site.](../media/add-site-to-any-entity-1a.png "Create New Site")
  
@@ -350,7 +350,6 @@ To create a new Facility/Equipment item, go to **Advanced find** ![Advanced find
   ![Create New Facility/Equipment.](../media/add-site-to-any-entity-1b.png "Create New Facility/Equipment")
 
 ### Related information
-
 
 [Create and design forms for Customer Service Hub](../administer/create-design-forms-customer-service-hub.md)  
 [Track your cases efficiently and act on them quickly](../use/customer-service-hub-user-guide-case-sla.md)  
