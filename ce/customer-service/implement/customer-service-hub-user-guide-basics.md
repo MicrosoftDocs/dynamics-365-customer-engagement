@@ -8,7 +8,7 @@ ms.author: laalexan
 ms.reviewer: laalexan
 ---
 
-# Learn the basics of the Customer Service Hub
+# Learn the basics of Customer Service Hub
 
 With the [previous announcement](../implement/deprecations-customer-service.md#customer-service-hub-app-is-removed-for-new-organizations-with-enterprise-licenses) that the Customer Service Hub service representative-facing app would be removed for new organizations with Enterprise licenses, the app is now hidden in these environments. By default, Copilot Service workspace is shown to the Customer Service representative profile.
 
