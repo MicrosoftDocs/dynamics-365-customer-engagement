@@ -54,7 +54,7 @@ If you're an existing customer and need to set up Customer Service Hub in your e
 
 1. In the search field, type either “msdyn_AllowCSHAppHide” or “Enable or disable the ability to hide the CSH application”, and then select it in the search results. The **Edit Allow CSH App Hide** dialog appears.
 
-1.	Change **Current Value** to **No**, and then select **Save**.
+1. Change **Current Value** to **No**, and then select **Save**.
 
 1. Open Copilot Service admin center, and then on the site map, select **New and upcoming features** in **Miscellaneous**.
 
