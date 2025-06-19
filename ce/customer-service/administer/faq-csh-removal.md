@@ -38,14 +38,30 @@ Yes. If you're already using Customer Service Hub, you can continue to use it. A
 
 You can use the Copilot Service workspace app.
 
-## I'm an existing enterprise customer and still need to use Customer Service Hub. How do I enable it?
-
-If you're an existing customer and need to set up Customer Service Hub in your enterprise environment for testing purposes, complete the steps in [Enable the Customer Service Hub app](../implement/customer-service-hub-user-guide-basics.md#enable-the-customer-service-hub-app).
-
 ## What's the best way to get familiar with Copilot Service workspace?
 
 Learn more in [Copilot Service workspace in a day](https://go.microsoft.com/fwlink/?linkid=2300097).
 
+## I'm an existing enterprise customer and still need to use Customer Service Hub. How do I enable it?
+
+If you're an existing customer and need to set up Customer Service Hub in your enterprise environment for testing purposes, complete the steps in this section.
+
+1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083).
+
+1. Select **Solutions**, and then select your environment.
+
+1. Go to **Environment Variables**. The **Add existing environment variables** page appears.
+
+1. In the search field, type either “msdyn_AllowCSHAppHide” or “Enable or disable the ability to hide the CSH application”, and then select it in the search results. The **Edit Allow CSH App Hide** dialog appears.
+
+1.	Change **Current Value** to **No**, and then select **Save**.
+
+1. Open Copilot Service admin center, and then select **New and upcoming features** under **Miscellaneous**.
+
+1. On the **New and upcoming features** page, select the checkbox for **Provider icon configuration**.
+
+1. Select **Save and close**.
+ 
 ### Related information
 [Migrate to Copilot Service workspace from removed or deprecated apps](migrate-to-csw.md)  
 [Get started with Copilot Service workspace](../implement/csw-overview.md)  
