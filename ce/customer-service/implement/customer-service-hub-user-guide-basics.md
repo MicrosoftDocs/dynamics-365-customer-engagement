@@ -17,7 +17,7 @@ If your business still requires the Customer Service Hub app, complete the steps
 ## Open Customer Service Hub
 
 > [!NOTE]
-> These options in this section are available only to users with the Customer Service app access role, System Administrator role, or System Customizer role.
+> The options in this section are available only to users with the Customer Service app access role, System Administrator role, or System Customizer role.
 
 The Customer Service Hub app is available to use on a desktop browser and on a mobile device for managing knowledge articles and case management. You can open the Customer Service Hub in one the following ways:  
 
