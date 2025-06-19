@@ -1,7 +1,7 @@
 ---
 title: "Learn the basics of the Customer Service Hub app | MicrosoftDocs"
-description: "Learn the basics of the Customer Service Hub for Customer Service"
-ms.date: 06/04/2025
+description: "Learn the basics of the Customer Service Hub for Dynamics 365 Customer Service"
+ms.date: 06/19/2025
 ms.topic: concept-article
 author: lalexms
 ms.author: laalexan
@@ -10,28 +10,16 @@ ms.reviewer: laalexan
 
 # Learn the basics of the Customer Service Hub
 
-## Enable the Customer Service Hub app
-
 With the [previous announcement](../implement/deprecations-customer-service.md#customer-service-hub-app-is-removed-for-new-organizations-with-enterprise-licenses) that the Customer Service Hub service representative-facing app would be removed for new organizations with Enterprise licenses, the app is now hidden in these environments. By default, Copilot Service workspace is shown to the Customer Service representative profile.
 
-If your business still requires the Customer Service Hub app, use the steps in this section to enable it. For migration information, go to [Migrate from Customer Service Hub to Copilot Service workspace](../administer/migrate-to-csw.md).
-
-1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083).
-
-1. Select **Environment** on the top navigation bar. The **Select environment** pane is displayed.
-
-1. Search for your environment, and then select it.
-
-1. On the site map, select **Apps**, and then select the ellipsis next to **Customer Service Hub**.
-
-1. Select **Activate**. Customer Service Hub then becomes visible on your environment's apps page.
+If your business still requires the Customer Service Hub app, complete the steps to enable it in [Migrate from Customer Service Hub to Copilot Service workspace](../administer/migrate-to-csw.md#Im-an-existing-enterprise-customer-and-still-need-to-use=customer-service-hub-how-do-i-enable-it).
 
 ## Open Customer Service Hub
 
-The Customer Service Hub app is available to use on a desktop browser and on a mobile device for managing knowledge articles and case management. You can open the Customer Service Hub in one the following ways:  
-
 > [!NOTE]
-> These options are available only to users with the Customer Service app access role, System Administrator role, or System Customizer role.
+> These options in this section are available only to users with the Customer Service app access role, System Administrator role, or System Customizer role.
+
+The Customer Service Hub app is available to use on a desktop browser and on a mobile device for managing knowledge articles and case management. You can open the Customer Service Hub in one the following ways:  
 
 **Desktop browser**
   
