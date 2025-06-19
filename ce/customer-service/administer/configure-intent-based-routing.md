@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.date: 05/12/2025
+ms.date: 06/19/2025
 ms.custom: bap-template
 ---
 
@@ -150,6 +150,14 @@ When a service representative uses **Save & Route** on a case to reroute it beca
 :::image type="content" source="../media/screenshot-save-and-route.png" alt-text="Screenshot of save and route with intent UI.":::
 
 When the representative uses **Add to a queue** to transfer the case to a queue, if the destination queue is intent enabled, the intent is determined again with line of business, intent group, and agent group. The work moves to the chosen destination queue and is assigned to a user from the identified user group. If the destination queue isn’t intent enabled, the case is assigned to the destination queue without any changes.
+
+### Fallback options
+
+If the intent-based routing fails to identify a user group, the fallback options are as follows:
+- **No line of business determined**: Routing happens via regular unified routing flow.
+- **Line of business determined, intent not determined**: The conversation is assigned to the fallback user group configured at the line of business level.
+- **Line of business and intent determined, intent group not determined**: The conversation is assigned to the fallback user group configured at the line of business level.
+- **Line of business, intent, and intent group determined, but no matching user group found**: The conversation is assigned to the default user group configured at the intent group level.
 
 ## Conversation diagnostics
 
