@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 This article contains frequently asked questions about the removal of the Customer Service Hub app for new organizations with Enterprise licenses and migration to Copilot Service workspace.
 
-## Why is the Copilot Service workspace app replacing Customer Service Hub for new organizations with Enterprise licenses?
+## Why has the Copilot Service workspace app replaced Customer Service Hub for new organizations with Enterprise licenses?
 
 Copilot Service workspace offers improved customer service representative (service representative or representative) efficiency as a multisession app with a browser-like, tabbed experience in a single window. In contrast, Customer Service Hub is a single-session app that requires service representatives to open multiple browser windows to manage their work items.
 
@@ -28,7 +28,7 @@ You can reap the benefits of using Microsoft Copilot out of the box without the 
 
 ## What does removal mean?
 
-Removal means Microsoft plans to remove a feature or app after on a specific date. In this case, as of February 2025, the Customer Service Hub app is no longer be available for all new organizations with Enterprise licenses. We continue to support the application for all existing organizations and new customers who have other license types other than Enterprise (for example, Customer Service Professional licenses). However, we recommend that all existing customers migrate to Copilot Service workspace.
+Removal means Microsoft plans to remove a feature or app after on a specific date. In this case, as of February 2025, the Customer Service Hub app is no longer available for all new organizations with Enterprise licenses. We continue to support the application for all existing organizations and new customers who have other license types other than Enterprise (for example, Customer Service Professional licenses). However, we recommend that all existing customers migrate to Copilot Service workspace.
 
 ## Can I continue to use the Customer Service Hub app?
 
@@ -52,7 +52,7 @@ If you're an existing customer and need to set up Customer Service Hub in your e
 
 1. Select **Environment Variables**. The **Add existing environment variables** page appears.
 
-1. In the search field, type either “msdyn_AllowCSHAppHide” or “Enable or disable the ability to hide the CSH application”, and then select it in the search results. The **Edit Allow CSH App Hide** dialog appears.
+1. In the search field, type either "msdyn_AllowCSHAppHide" or "Enable or disable the ability to hide the CSH application", and then select it in the search results. The **Edit Allow CSH App Hide** dialog appears.
 
 1. Change **Current Value** to **No**, and then select **Save**.
 
