@@ -41,7 +41,7 @@ When the feature is enabled, while working on sales records, sellers can start a
 Teams chat is now enabled for all Dynamics 365 apps of the apps you selected. You can open a record and verify whether you're able to view the chats and channels related to the record. More information: [Open Teams chats and channels related to a record](using-teams-chat-in-dynamics.md#open-teams-chats-and-channels-related-to-a-record)
 
 > [!NOTE]
-> Teams chat is enabled by default for the Customer Service workspace and Customer Service Hub apps.
+> Teams chat is enabled by default for the Copilot Service workspace and Customer Service Hub apps.
 
 
 ## Add the Teams settings page to the sitemap of a custom app

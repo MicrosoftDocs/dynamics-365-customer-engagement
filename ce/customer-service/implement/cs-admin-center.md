@@ -1,6 +1,6 @@
 ---
-title: Customer Service admin center
-description: Get started with Customer Service admin center to configure the various features and settings in Customer Service.
+title: Copilot Service admin center
+description: Get started with Copilot Service admin center to configure the various features and settings in Customer Service.
 ms.date: 12/13/2024
 ms.topic: landing-page
 ms.collection: get-started

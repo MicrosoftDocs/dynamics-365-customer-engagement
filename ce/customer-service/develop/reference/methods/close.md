@@ -1,6 +1,6 @@
 ---
 title: "close method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the close API of app profile manager in Customer Service workspace."
+description: "Learn about the close API of app profile manager in Copilot Service workspace."
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

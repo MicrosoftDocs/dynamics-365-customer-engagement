@@ -125,7 +125,7 @@ The following limitations apply to Copilot Service workspace:
 
 The legacy layout is deprecated and was removed in October 2023.
 
-:::image type="content" source="../media/csw-overview-mini.png" alt-text="Screenshot of the default Customer Service workspace, with items labeled according to the legend in the table" lightbox="../media/csw-overview.png":::
+:::image type="content" source="../media/csw-overview-mini.png" alt-text="Screenshot of the default Copilot Service workspace, with items labeled according to the legend in the table" lightbox="../media/csw-overview.png":::
 
 
 ### Turn off the close session dialog

@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting and FAQs
 description: This article provides links to troubleshooting resources and frequently asked question articles for Dynamics 365 Sales.
-ms.date: 03/15/2024
+ms.date: 06/16/2025
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
