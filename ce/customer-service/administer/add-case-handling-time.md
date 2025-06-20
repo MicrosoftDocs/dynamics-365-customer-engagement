@@ -5,13 +5,11 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
-ms.date: 05/05/2025 
+ms.date: 06/10/2025 
 ms.custom: bap-template 
 ---
 
 # Configure case handling time widget to case forms 
-
-
 
 Case handling time is the total time customer service representatives (service representatives or representatives) actively work on a case. It includes activities such as communicating  with customers, troubleshooting, researching, collaborating, or updating case details, like adding notes.
 
@@ -36,13 +34,14 @@ To display the case handling time widget on a case form, follow these steps:
       - **View**: Set this value to **All Time Trackers**.
       - **Allow users to add time logs**: Set this value to **True** or **False**, depending on whether you want representatives to manually add time on the case. The default is **True**.
       - **Show users only their contributed time**: Set this value to **True** or **False**, depending on whether you want representatives to see only their own time or the total time of all representatives on the case. The default is **False**.
+      - **Make CHT widget visible to users**: Set this value to **False** to hide the time tracking widget from representatives. However, the application still tracks time in the background. The default is **True**. 
     1. Select **Show related records**.
     > [!NOTE]
     >  - In Copilot Service workspace, the application tracks the time automatically in the background whenever a representative opens the case and the case form is in focus, even if you don't add the widget to the case form. You can create reports on automatic time tracked per representative for each case.
     > - In Customer Service Hub, you must add the widget to the case form for automatic time to be tracked.
   1. Save and publish the changes.
 
-
+You can also view the time tracker records in the [msdyn_timetracker](../../developer/reference/entities/msdyn_timetracker.md) table.
 
 ## Set the update interval
 
@@ -52,6 +51,22 @@ The update interval is the time between each update of the database and the widg
 - Automatically refreshes the case handling time widget to display the updated time.
 
 For example, if you set 10 min as the update interval, the automatic time tracked on the case is updated to the database and the widget after every 10 min. If two representatives open the same case at the same time, after 10 min, the widget displays 20 mins as the total time tracked on the case.
+
+## Enable case handling time for service representatives
+
+To show the case handling time widget on the case form for service representatives, enable the **Case handling time** feature in **Experience profiles**.
+
+Perform the following steps:
+
+1. In Copilot Service admin center, select **Workspaces** in **Support experience**. The **Workspaces** page appears.
+1. Select **Manage** for **Experience profiles**. The **Experience profiles** page appears.
+1. Select the required experience profile. 
+1. In the **Case Handling Time** section, select **Edit**.
+1. Select the **Enable case handling time** checkbox.
+1. Select **Save and close**.
+
+> [!NOTE]
+> When the **Enable case handling time** checkbox is selected, the service representative sees the case handling widget on the case form, even if the **Case handling time** feature isn't enabled in **Case settings**.
 
 ## Delete time tracker records
 

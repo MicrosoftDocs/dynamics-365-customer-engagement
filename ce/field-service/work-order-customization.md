@@ -138,7 +138,7 @@ To enable Bing Maps button in form designer, at least one of the attributes of t
 1. Import the solution to the affected environment.
 
 > [!TIP]
-> If the map control is still not visible on the form after following these steps, try removing the active form customizations.
+> If the map control is still not visible on the form after following these steps, try removing the active form customizations.
 
 ## Components for the new work order experience
 

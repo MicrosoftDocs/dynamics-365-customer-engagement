@@ -48,15 +48,15 @@ Starting June 02, 2025, we no longer support [case and knowledge suggestions](..
 
 ## Dynamics 365 Unified Service Desk to be deprecated in April 2026
 
-Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using [Customer Service workspace](../implement/csw-overview.md). Learn more in [Transition from Unified Service Desk to Customer Service workspace](https://www.microsoft.com/dynamics-365/blog/it-professional/2025/01/22/transition-from-unified-service-desk-to-customer-service-workspace/).
+Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using [Copilot Service workspace](../implement/csw-overview.md). Learn more in [Transition from Unified Service Desk to Copilot Service workspace](https://www.microsoft.com/dynamics-365/blog/it-professional/2025/01/22/transition-from-unified-service-desk-to-customer-service-workspace/).
 
 ## Provisioning of Omnichannel for Customer Service in Power Platform admin center is deprecated
 
-As of October 2024, the legacy provisioning of Omnichannel for Customer Service in Power Platform admin center is deprecated and is no longer be accessible. This deprecation is being done in phases. To provision channels, use the new [provisioning experience](/dynamics365/contact-center/implement/provision-channels) in Contact Center admin center or Customer Service admin center.
+As of October 2024, the legacy provisioning of Omnichannel for Customer Service in Power Platform admin center is deprecated and is no longer be accessible. This deprecation is being done in phases. To provision channels, use the new [provisioning experience](/dynamics365/contact-center/implement/provision-channels) in Copilot Service admin center.
 
 ## Customer Service Hub app is removed for new organizations with Enterprise licenses
 
-Effective February 2025, the Customer Service Hub app is no longer available for all new organizations with Enterprise licenses. We continue to support the application for all existing organizations and new customers with license types other than Enterprise (for example, Customer Service Professional licenses). We recommend that existing customers migrate to Customer Service workspace. Learn more in [Migrate to Customer Service workspace from removed or deprecated apps](../administer/migrate-to-csw.md).
+Effective February 2025, the Customer Service Hub app is no longer available for all new organizations with Enterprise licenses. We continue to support the application for all existing organizations and new customers with license types other than Enterprise (for example, Customer Service Professional licenses). We recommend that existing customers migrate to Copilot Service workspace. Learn more in [Migrate to Copilot Service workspace from removed or deprecated apps](../administer/migrate-to-csw.md).
 
 ## Diagnostics in unified routing is deprecated
 
@@ -97,21 +97,21 @@ Effective April 30, 2024, Omnichannel intraday insights reports aren't available
 
 ## Some admin apps are deprecated
 
-With the release of the Customer Service admin center app that consolidates admin experiences across the Customer Service suite, the following admin experiences are deprecated and no longer supported as of April 2023.
+With the release of the Copilot Service admin center app that consolidates admin experiences across the Customer Service suite, the following admin experiences are deprecated and no longer supported as of April 2023.
 
 - Service Management area in the Customer Service Hub app
 - Omnichannel admin center
 - **App profile manager**: Removed as of April 2023.
 
-Also, as of October 2022, the Omnichannel admin center and the service management area in Customer Service Hub are hidden by default in newly created organizations and environments. You can bring them back, but we recommend that you start using the Customer Service admin center app to perform tasks like manage cases, and configure unified routing, channels, and agent experience profiles. Learn more in [Get started with Customer Service admin center](cs-admin-center.md).
+Also, as of October 2022, the Omnichannel admin center and the service management area in Customer Service Hub are hidden by default in newly created organizations and environments. You can bring them back, but we recommend that you start using the Copilot Service admin center app to perform tasks like manage cases, and configure unified routing, channels, and agent experience profiles. Learn more in [Get started with Copilot Service admin center](cs-admin-center.md).
 
 ## Omnichannel Administration app is deprecated and removed as of July 2023
 
-Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. Learn more in [Get started with Customer Service admin center](cs-admin-center.md).
+Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the Copilot Service admin center app to configure the latest features, such as unified routing and voice channel. Learn more in [Get started with Copilot Service admin center](cs-admin-center.md).
 
 ## Omnichannel for Customer Service agent-facing app is deprecated and removed as of June 2024
 
-Effective April 2023, the Omnichannel for Customer Service agent-facing app is deprecated. Support is available until June 2024. We recommend that you migrate your omnichannel configuration to Customer Service workspace. Learn more in [Migrate to Customer Service workspace from deprecated or removed apps](../administer/migrate-to-csw.md).
+Effective April 2023, the Omnichannel for Customer Service agent-facing app is deprecated. Support is available until June 2024. We recommend that you migrate your omnichannel configuration to Copilot Service workspace. Learn more in [Migrate to Copilot Service workspace from deprecated or removed apps](../administer/migrate-to-csw.md).
 
 ## setContextProvider method for authenticated chat is deprecated
 

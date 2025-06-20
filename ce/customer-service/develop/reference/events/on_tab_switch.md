@@ -1,6 +1,6 @@
 ---
 title: ON_TAB_SWITCH event JavaScript API Reference
-description: Learn about the ON_TAB_SWITCH event in Customer Service workspace.
+description: Learn about the ON_TAB_SWITCH event in Copilot Service workspace.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
