@@ -1,7 +1,7 @@
 ---
 title: Customer Service Hub app removal and migration FAQ
 description: Learn about frequently asked questions about the Customer Service Hub app removal and migration to Copilot Service workspace.
-ms.date: 06/19/2025
+ms.date: 06/20/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -46,11 +46,9 @@ Learn more in [Copilot Service workspace in a day](https://go.microsoft.com/fwli
 
 If you're an existing customer and need to set up Customer Service Hub in your enterprise environment for testing purposes, complete the steps in this section.
 
-1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083).
+1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and then select your solution.
 
-1. Select **Solutions**, and then select your environment.
-
-1. Select **Environment Variables**. The **Add existing environment variables** page appears.
+1. Select **Default Solutions**, and then select **Environment Variables**. The **Add existing environment variables** page appears.
 
 1. In the search field, type either "msdyn_AllowCSHAppHide" or "Enable or disable the ability to hide the CSH application", and then select it in the search results. The **Edit Allow CSH App Hide** dialog appears.
 
