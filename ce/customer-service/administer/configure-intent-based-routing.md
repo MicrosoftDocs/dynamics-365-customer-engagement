@@ -1,6 +1,6 @@
 ---
 title: Configure intent-based routing (preview)
-description: Learn how to configure and manage intent-based routing within your organization that enables you to optimize your customer service operations and improve overall customer satisfaction.
+description: Learn how to configure and manage intent-based routing within your organization to optimize your customer service operations and improve overall customer satisfaction.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -38,11 +38,11 @@ Intent-based routing is an advanced approach that uses generative AI to enhance 
 
 ## Enable intent-based routing
 
-By using generative AI, capture customer intents for incoming conversations and map them to solutions tailored to fulfill requests. The intent groups are manually mapped to one or more user groups.
+You can use generative AI to capture customer intents for incoming conversations and map them to solutions tailored to fulfill requests. The intent groups are manually mapped to one or more user groups.
 
 After you enable intent-based routing, you can control at the line of business-level to route some conversations using intent, and some through the conventional unified routing method.
 
-You need to add lines of business if you want to enable intent-based routing for a selective set of workstreams and queues. Otherwise, intent-based routing is enabled for the whole organization.
+If you want to enable intent-based routing for a selective set of workstreams and queues, add those lines of business. Otherwise, intent-based routing is enabled for the whole organization.
 
 ## Create user groups
 
@@ -72,7 +72,7 @@ A user group can be a part of many intent groups and an intent group can be asso
 
 You must map the user groups with intent groups so that for an incoming conversation, the intent and intent group are determined, and the appropriate user group is identified from the identified intent group.
 
-If multiple conditions in the intent group to user groups mapping match the work item requirement, then the user group is selected based on the order in which they are listed on the **User groups** tab.
+If multiple conditions in the intent group to user groups mapping match the work item requirement, then the user group is selected based on the order in which they're listed on the **User groups** tab.
 
 If none of the user groups match, the default user group configured for the intent group is selected. You can also set up a fallback user group for a line of business to which a conversation can be routed when no intents or intent groups are identified or fail to match.
 
@@ -84,7 +84,7 @@ If none of the user groups match, the default user group configured for the inte
 
    :::image type="content" source="../media/screenshot-of-manage-intent-groups.png" alt-text="Screenshot of manage intent groups in intent-based routing." lightbox="../media/screenshot-of-manage-intent-groups.png":::
 
-The mapping is channel agnostic. For example, if you want the same user group to serve cases and chats and you want to write mapping rules on case and chat attributes, you must write rules addressing both the channels and use an OR operator between the two rule groups as seen in the following screenshot. The mapping rules are optional and by default user groups serve all channels for which intent-based routing is configured.
+The mapping is channel agnostic. For example, if you want the same user group to serve cases and chats and you want to write mapping rules on case and chat attributes, you must write rules that address both the channels and use an OR operator between the two rule groups, as seen in the following screenshot. The mapping rules are optional, and by default, user groups serve all channels for which intent-based routing is configured.
 
   :::image type="content" source="../media/screenshot-of-rules-for-channels.png" alt-text="Screenshot that shows the OR condition between channels.":::
 
@@ -121,7 +121,7 @@ You need to write classification rules to enrich live work item with the languag
 
 ## Configure the assignment method
 
-Follow the steps in [Assignment methods for queues](assignment-methods.md) to select an out-of-the-box assignment method. Even though users are not required to be a part of the queues, you can continue to configure the assignment strategy for the queues. During runtime, after a queue is identified, the system determines the user group. Then, based on the assignment strategy configured in the queue, the conversation is assigned to a user from the user group. 
+Follow the steps in [Assignment methods for queues](assignment-methods.md) to select an out-of-the-box assignment method. Even though users aren't required to be a part of the queues, you can continue to configure the assignment strategy for the queues. During runtime, after a queue is identified, the system determines the user group. Then, based on the assignment strategy configured in the queue, the conversation is assigned to a user from the user group. 
 
 > [!NOTE]
 > The check for user language and region is implicitly done for the out-of-the-box assignment method.
