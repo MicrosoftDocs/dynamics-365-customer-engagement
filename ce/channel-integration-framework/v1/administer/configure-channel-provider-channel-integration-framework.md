@@ -22,18 +22,19 @@ searchScope:
 
 ## Prerequisite
 
-If you want to configure the provider icon, do the following step:
+If you want to configure the channel provider icon, do the following steps:
 
-1.In the site map of Copilot Service admin center, go to **Miscellaneous** under **Operations**, and select **Manage** for **New and upcoming features**.
+1. In the site map of Copilot Service admin center, go to **Miscellaneous** under **Operations**, and select **Manage** for **New and upcoming features**.
+
 1. On the page that appears, select **Provider icon configuration**, and save.
 
 ## Configure a channel provider
 
 1. On the apps page of Dynamics 365, select Channel Integration Framework.
 
-1. On the Active Channel Providers page, select **New**.
+1. On the **Active Channel Providers** page, select **New**.
 
-1. In the New Channel Integration Framework v1.0 Provider page, enter the following information.
+1. In the **New Channel Integration Framework v1.0 Provider** page, enter the following information.
 
   | Field | Description |
   |-------|-------|
@@ -56,13 +57,13 @@ If you want to configure the provider icon, do the following step:
   >
   > - The msdyn_ciprovider entity is accessible only for the administrator roles and therefore the panel doesn't load for non-administrator roles. To load the panel for non-administrator roles, create a new role and provide read access to the msdyn_ciprovider entity. Then, add the role to the users who are accessing Dynamics 365 Channel Integration Framework.
   > - Sandbox attributes such as allow-forms, allow-popups, allow-scripts, allow-same-origin, allow-modals, allow-downloads are configured by default.
+  > - If you enable the provider icon, the pane supports the expanded mode only.
 
 ### Runtime behavior
 
-Launch the Unified Interface app that you specified to see the communication widget of the channel provider on the right side of the pane. The pane supports the expanded mode only.
+Launch the Unified Interface app that you specified to see the communication widget of the channel provider on the right side of the pane. The following screenshot shows the experience where the channel provide icon is enabled.
 
 :::image type="content" source="../../media/channel-widget-v1.png" alt-text="Screenshot of the Channel widget at runtime in version 1." lightbox="../../media/channel-widget-v1.png":::
-
 
 ### Related information
 
