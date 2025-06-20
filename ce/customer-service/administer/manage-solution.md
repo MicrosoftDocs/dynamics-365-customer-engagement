@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 05/06/2025
+ms.date: 06/20/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -139,8 +139,34 @@ If you have calendars added to the SLA, open the org in the classic view, and th
 
 To import or export the calendar with SLAs for any orgs, you must enable the setting.
 
+### Best practices
+
+- Maintain a single managed solution for SLAs. Include all SLA components—SLAs, SLA KPIs, and action flows—in the same solution. Avoid layering SLAs, such as having SLA or SLA KPI components in both unmanaged and managed solutions. 
+
+- If you create SLAs for custom entities or customize out-of-box entities for SLAs, make sure all components are in the same solution as the SLA. Use this solution to update customizations if the solution layer is on top of these entities. Avoid active layer customizations on these components in target organizations. 
+
+- Don't divide the SLA and its components into multiple solutions.
+
+- Don’t create SLAs directly in the production environment. If you create SLAs in production, don’t use any SLA KPIs from managed solutions. Use only SLA KPIs that you create in production.
+
+- Don't migrate SLAs individually in each environment. Migrate SLAs in a lower organization, and then move them to higher organizations by using a managed solution.
+
 ## Related information
+
+[Manage solutions with SLAs](manage-solution.md#manage-solutions-with-slas)  
+
+[Enable calendar export and import with SLAs](export-import-solution.md#enable-calendar-export-and-import-with-slas)  
 
 [Upgrade solution troubleshooting](/troubleshoot/dynamics-365/customer-service/service-level-agreements/slaitem-changes-missing-upgrade)  
 
-[Enable calendar export and import with SLAs](export-import-solution.md#enable-calendar-export-and-import-with-slas)
+[A managed solution cannot overwrite the SLAItem component error](/troubleshoot/dynamics-365/customer-service/service-level-agreements/solution-contains-slakpi-butnot-slaitem)   
+
+[Changes to an SLA item record through an upgrade solution aren't shown in Dynamics 365 Customer Service](/troubleshoot/dynamics-365/customer-service/service-level-agreements/slaitem-changes-missing-upgrade)  
+
+[Can't import solution with active SLAs and SLAs are deactivated when a solution is imported](/troubleshoot/dynamics-365/customer-service/service-level-agreements/import-solution-active-slas)  
+
+[SLA's state changes to Draft after importing a solution](/troubleshoot/dynamics-365/customer-service/service-level-agreements/sla-draft-state-post-solution-import)  
+
+[Uninstall operation deletes the base layer for the component](/troubleshoot/dynamics-365/customer-service/service-level-agreements/sla-item-delete-operation-encountered-some-errors)  
+
+[Deleting SLAs or SLA items shows an error in Unified Interface during a solution upgrade or manual deletion](/troubleshoot/dynamics-365/customer-service/import-export-or-upgrade/sla-deletion-error-messages)
