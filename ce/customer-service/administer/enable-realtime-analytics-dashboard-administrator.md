@@ -1,7 +1,7 @@
 ---
 title: Manage real-time analytics reports in Omnichannel for Customer Service
 description: Configure real-time analytics in Omnichannel for Customer Service to give supervisors access to metrics and KPIs.
-ms.date: 06/18/2025
+ms.date: 06/20/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -36,7 +36,8 @@ The following real-time analytics reports are available:
 
 Omnichannel real-time analytics reports are on by default for the following roles: System Administrator, Omnichannel Administrator, Omnichannel Supervisor, Analytics Reports author, and CSR manager. To configure user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 
-The reports retain their current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the steps provided [here](analytics_overview.md#keep-the-report-state-when-you-switch-session-tabs) to keep the report state.
+> [!NOTE]
+> The reports retain their current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the steps provided [here](analytics_overview.md#keep-the-report-state-when-you-switch-session-tabs) to keep the report state.
 
 ## Manage Omnichannel real-time analytics reports
 

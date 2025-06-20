@@ -1,7 +1,7 @@
 ---
 title: Manage historical analytics reports in Omnichannel for Customer Service
 description: Use this article to learn how to configure historical analytics reports for Omnichannel for Customer Service.
-ms.date: 06/18/2025
+ms.date: 06/20/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -33,7 +33,8 @@ The historical analytics reports include:
 - [Conversation Topics](../use/oc-conversation-topics-dashboard.md)
 - [Unified routing](../use/oc-historical-analytics-unified-routing.md)
 
-The reports retain their current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the steps provided [here](analytics_overview.md#keep-the-report-state-when-you-switch-session-tabs) to keep the report state.
+> [!NOTE]
+> The reports retain their current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the steps provided [here](analytics_overview.md#keep-the-report-state-when-you-switch-session-tabs) to keep the report state.
 
 
 ## Manage Omnichannel historical analytics reports

@@ -1,7 +1,7 @@
 ---
 title: Manage historical analytics reports in Customer Service
 description: Learn how to configure Customer Service historical analytics reports in Omnichannel for Customer Service.
-ms.date: 06/18/2025
+ms.date: 06/20/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -33,7 +33,8 @@ After you enable the reports, you can access them in one of the following ways:
 
 - In Customer Service Hub, in **Service**, in the site map, select **Customer Service historical analytics**.
 
-The reports retain their current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the steps provided [here](analytics_overview.md#keep-the-report-state-when-you-switch-session-tabs) to keep the report state.
+> [!NOTE]
+> The reports retain their current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the steps provided [here](analytics_overview.md#keep-the-report-state-when-you-switch-session-tabs) to keep the report state.
 
 ## Manage Customer Service historical analytics reports
 

@@ -2,7 +2,7 @@
 title: Manage knowledge analytics
 description: Learn how to configure Knowledge analytics dashboards.
 ms.topic: how-to
-ms.date: 06/18/2025
+ms.date: 06/20/2025
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -19,9 +19,8 @@ By default, the Knowledge analytics dashboard is enabled for the System Administ
 
 
 > [!NOTE]
-> Knowledge analytics provides data that's based on internal knowledge search and doesn't provide information about customer search behavior.
-
-The report retains it current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the steps provided [here](analytics_overview.md#keep-the-report-state-when-you-switch-session-tabs) to keep the report state.
+> - Knowledge analytics provides data that's based on internal knowledge search and doesn't provide information about customer search behavior.
+> - The report retains it current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the steps provided [here](analytics_overview.md#keep-the-report-state-when-you-switch-session-tabs) to keep the report state.
 
 ## Manage Knowledge analytics dashboard
 
