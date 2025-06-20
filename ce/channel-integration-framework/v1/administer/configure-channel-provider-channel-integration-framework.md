@@ -4,7 +4,7 @@ description: Use this article to understand how to configure channel providers i
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 05/15/2025
+ms.date: 06/20/2025
 ms.topic: how-to
 ms.custom: 
   - "dyn365-a11y"
@@ -20,14 +20,20 @@ searchScope:
 
 # Configure a channel provider for your Dynamics 365 organization
 
+## Prerequisite
 
-1. Sign in to Dynamics 365.
+If you want to configure the provider icon, do the following step:
 
-2. Search for and select **Channel Integration Framework**.
+1.In the site map of Copilot Service admin center, go to **Miscellaneous** under **Operations**, and select **Manage** for **New and upcoming features**.
+1. On the page that appears, select **Provider icon configuration**, and save.
 
-3.	Select **New** to add a new provider.
+## Configure a channel provider
 
-4.	In the **New Channel** page, specify the following:
+1. On the apps page of Dynamics 365, select Channel Integration Framework.
+
+1. On the Active Channel Providers page, select **New**.
+
+1. In the New Channel Integration Framework v1.0 Provider page, enter the following information.
 
   | Field | Description |
   |-------|-------|
@@ -36,28 +42,26 @@ searchScope:
   |Channel URL|The URL of the provider to host in the widget. See the JavaScript APIs on how to develop communication widgets with Dynamics 365 Channel Integration Framework.|
   |Enable Outbound Communication|When a phone number is selected on the Dynamics 365 Unified Interface page, the widget initiates the call or outbound communication.|
   |Channel Order|The order of precedence of the channel providers.|
+  |Channel Provider Icon| Allows to select an icon for the channel provider. The icon appears on the right pane of the agent app at runtime.| 
   |API Version|The version of the Channel Integration Framework APIs.|
   |Trusted Domain| Another domain if the initial landing URL and the final domain from which the communication widget is hosted are different. Add the domain (URL) to access the Channel Integration Framework APIs. |
   |Select Unified Interface Apps for the Channel| The list of Unified Interface apps where the channel is displayed for the agents. |
   |Select the Roles for the Channel|The security roles that are present in Dynamics 365.<br>**IMPORTANT:** <br> To ensure that the user is able to access the channel provider, you must assign the same security role that's defined at the channel provider level, to the user.<br>**NOTE:** <br>  The channel supports individual role assignment only.|
-  |Custom Parameter|This takes a text blob as input and `Microsoft.CIFramework.getEnvironment` returns this as value of key `customParams`.|
+  |Custom Parameters|This takes a text blob as input and `Microsoft.CIFramework.getEnvironment` returns this as value of key `customParams`.|
   |Sandbox Configuration| Channel URL loads as an iFrame web resource in the sandbox mode. Use this field to configure the list of sandbox attributes for the Channel URL. You can add multiple attributes separated by commas.|
   
-  ![Channel provider configuration.](../../media/channel-provider-configuration-v1.PNG "Channel provider configuration")
+    :::image type="content" source="../../media/channel-provider-configuration-version1.png" alt-text="Screenshot of channel provider configuration version one." lightbox="../../media/channel-provider-configuration-version1.png:::  
 
   > [!NOTE]
-
-  > - The msdyn_ciprovider entity is accessible only for the administrator roles and hence the panel doesn't load for non-administrator roles. To load the panel for non-administrator roles, create a new role and provide read access to the msdyn_ciprovider entity. Then, add the role to the users who are accessing Dynamics 365 Channel Integration Framework.
+  >
+  > - The msdyn_ciprovider entity is accessible only for the administrator roles and therefore the panel doesn't load for non-administrator roles. To load the panel for non-administrator roles, create a new role and provide read access to the msdyn_ciprovider entity. Then, add the role to the users who are accessing Dynamics 365 Channel Integration Framework.
   > - Sandbox attributes such as allow-forms, allow-popups, allow-scripts, allow-same-origin, allow-modals, allow-downloads are configured by default.
 
-5. Launch the Unified Interface app to see the communication widget on the right side.<br><br>
+### Runtime behavior
 
-**The communication widget in the minimized mode**<br><br>
-![Communication widget in the minimized mode.](../../media/widget-minimized-mode.PNG "Communication widget in the minimized mode")
-<br><br>
+Launch the Unified Interface app that you specified to see the communication widget of the channel provider on the right side of the pane. The pane supports the expanded mode only.
 
-**The communication widget in the expanded mode**<br><br>
-![Communication widget in the expanded mode.](../../media/widget-expanded-mode.PNG "Communication widget in the expanded mode")
+:::image type="content" source="../../media/channel-widget-v1.png" alt-text="Screenshot of the Channel widget at runtime in version 1." lightbox="../../media/channel-widget-v1.png":::
 
 
 ### Related information
