@@ -51,7 +51,7 @@ If you want to configure the channel provider icon, do the following steps:
   |Custom Parameters|This takes a text blob as input and `Microsoft.CIFramework.getEnvironment` returns this as value of key `customParams`.|
   |Sandbox Configuration| Channel URL loads as an iFrame web resource in the sandbox mode. Use this field to configure the list of sandbox attributes for the Channel URL. You can add multiple attributes separated by commas.|
   
-:::image type="content" source="../../media/channel-provider-configuration-version1.png" alt-text="Screenshot of channel provider configuration version one." lightbox="../../media/channel-provider-configuration-version1.png:::  
+:::image type="content" source="../../media/channel-provider-configuration-version1.png" alt-text="Screenshot of channel provider configuration version one." lightbox="../../media/channel-provider-configuration-version1.png":::  
 
   > [!NOTE]
   >
