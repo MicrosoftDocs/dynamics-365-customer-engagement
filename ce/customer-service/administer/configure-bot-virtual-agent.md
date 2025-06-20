@@ -1,7 +1,7 @@
 ---
 title: Integrate a Copilot agent
 description: Use this article to get instructions on how to integrate a Copilot agent in your contact center.
-ms.date: 06/09/2025
+ms.date: 06/20/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
