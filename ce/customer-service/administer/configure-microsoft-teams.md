@@ -1,7 +1,7 @@
 ---
 title: Configure Microsoft Teams channel
 description: Learn about the Microsoft Teams channel and how to configure it as an engagement channel.
-ms.date: 06/09/2025
+ms.date: 06/20/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
