@@ -25,7 +25,7 @@ Requirement groups bundle requirements commonly scheduled together. For example,
    > [!div class="mx-imgBorder"]
    > ![Screenshot of requirement group with two options.](../../common-scheduler/media/scheduling-multi-resource-2-options.png)
 
-1. Add requirements and fill in the fields in the columns. All requirements within a requirement group must have the same duration. Change the duration of individual bookings after booking the requirement group.
+1. Add requirements and fill in the fields in the columns. All requirements within a requirement group must have the same duration. Change the duration of individual bookings after booking the requirement group by setting the **Cascade Crew Changes** option on the **Scheduling** tab of the booking to **No**.
 
 1. To add more details to a resource requirement, select **Open Form** and enter more filters for the schedule assistant. For example, on the **Scheduling** tab, choose the work location.
 
