@@ -16,27 +16,25 @@ Use territories with work orders and resources to help dispatchers schedule work
 
 Create your territories in Field Service settings or import them from Excel.
 
-:::image type="content" source="media/territories.png" alt-text="Screenshot of the list of territories.":::
-  
 1. In **Field Service**, open the **Settings** area.
 
-1. In the **General** section, select **Territories**.
-  
-1. Select **New** to create a territory record.
+1. Under **General**, select **Territories**, and then select **New**.
 
-   - **Name**: Name of the territory.  
-  
-   - **Manager**: User who manages the territory.
-  
-   - **Description**: Enter information to include for this territory.
+1. Enter a **Territory Name**.
 
-   - **Parent**: Choose a parent territory to define territory hierarchy.
+1. Enter the following information (optional).
+
+   - **Manager**: The specific user who manages the territory.
+
+   - **Parent**: The parent territory if this territory is in a hierarchy.
   
 1. Select **Save & Close**.  
 
+:::image type="content" source="media/territories.png" alt-text="Screenshot of the list of territories.":::
+  
 ## Assign resources to territories
 
-Bookable resources like field technicians, equipment, or facilities can belong to one or more territories. Resources can be a part of multiple territories.
+Bookable resources like field technicians, equipment, or facilities can belong to one or more territories.
   
 1. Open the **Resources** area. In the **Resource** section, select **Resources**.
 
