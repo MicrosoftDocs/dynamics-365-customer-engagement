@@ -22,7 +22,7 @@ searchScope:
 
 ## Prerequisite
 
-If you want to configure the channel provider icon, do the following steps:
+If you want to use the channel provider icon, do the following steps:
 
 1. In the site map of Copilot Service admin center, go to **Miscellaneous** under **Operations**, and select **Manage** for **New and upcoming features**.
 
@@ -61,7 +61,7 @@ If you want to configure the channel provider icon, do the following steps:
 
 ### Runtime behavior
 
-Launch the Unified Interface app that you specified to see the communication widget of the channel provider on the right side of the pane. The following screenshot shows the experience where the channel provide icon is enabled.
+Launch the Unified Interface app that you specified to see the communication widget of the channel provider on the right pane. The following screenshot shows the experience where the channel provider icon is enabled.
 
 :::image type="content" source="../../media/channel-widget-v1.png" alt-text="Screenshot of the Channel widget at runtime in version 1." lightbox="../../media/channel-widget-v1.png":::
 
