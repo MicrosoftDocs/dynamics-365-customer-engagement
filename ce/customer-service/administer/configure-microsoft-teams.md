@@ -114,7 +114,7 @@ Make sure that the following prerequisites are met:
 
 ## Configure authentication
 
-To enable sign-in on Microsoft Copilot Studio bots, follow these steps:
+To enable sign-in on Microsoft Copilot agents, follow these steps:
 
 1. Complete the steps in [Configure user authentication with Microsoft Entra ID](/microsoft-copilot-studio/configuration-authentication-azure-ad).
 
