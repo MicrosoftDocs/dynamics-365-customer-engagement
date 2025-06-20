@@ -28,7 +28,7 @@ The following capabilities are available for the agent conversations:
 - Analyze the agent transcript that's available in Microsoft Dataverse after the conversation is completed.
 - Configure routing rules to selectively route incoming requests to agents based on context, such as issue type or customer type. For example, you can route low-complexity issues to agents, or route the conversation to a sales or support agent based on the webpage browsing history of the customer.
 - Monitor the agent conversations in real time by using the supervisor dashboard, which includes details such as customer sentiment.
-- Use the historical dashboards to get insights into the effectiveness of the agents through metrics, such as resolution rate, escalation rate, resolution time, escalation time, and average sentiment.
+- Use the historical dashboards to get insights into the effectiveness of the agents through metrics. Available insights include resolution rate, escalation rate, resolution time, escalation time, and average sentiment.
 
 When a conversation is escalated from an agent to a representative, the representative can see the full transcript of the agent conversation and get complete context while engaging with the customer. Learn more in [Enable an agent to escalate and end conversation](/dynamics365/customer-service/develop/bot-escalate-end-conversation?context=/dynamics365/contact-center/context/extend-context).
 
@@ -87,7 +87,7 @@ You can add an agent to the queue so that the agent can receive conversations fr
 
 ## Automatically close a conversation
 
-When an agent receives a conversation that isn't escalated to a service representative, the conversation is closed if the customer abandons it. The conversation will also be closed automatically after 30 minutes of inactivity.
+When an agent receives a conversation that isn't escalated to a service representative, the conversation closes if the customer abandons it. The conversation also closes automatically after 30 minutes of inactivity.
 
 This conversation appears in the Omnichannel Agent dashboard with the status set to **Closed** and **Resolved/abandoned** state in the Copilot Studio dashboard. Learn more in [Session outcomes over time chart](/power-virtual-agents/analytics-summary#session-outcomes-over-time-chart).
 
@@ -101,7 +101,7 @@ In the voice channel, the system doesn't listen for the **closeOmnichannelConver
 
 1. Select **Go to authoring canvas**, and in **Add node**, select **Call an action**, and then select **Create a flow**.
 
-1. On the Power Automate window that opens on a new tab, do the following:
+1. On the Power Automate window that opens on a new tab, do the following steps:
    1. In the **Return value(s) to Power Virtual Agents** box, select **Add an output**, and then select **Yes/No**.
    2. In the **Enter title** box, enter CloseOmnichannelConversation, which is the Omnichannel for Customer Service context variable name.
    3. In the **Enter a value to respond** box, select the **Expression** tab, and then enter **bool(true)** to build the expression, and select **OK**.
@@ -128,7 +128,7 @@ In the voice channel, the system doesn't listen for the **closeOmnichannelConver
 
 ## Privacy notice
 
-You understand that your data might be transmitted and shared with external systems and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages are shared with the agent which could be interacting with a third-party system based on the integration done by you. Learn more about how we process your data in [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
+You understand that your data might be transmitted and shared with external systems and that your data might flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages are shared with the agent, which could be interacting with a non-Microsoft system based on the integration done by you. Learn more about how we process your data in [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
 
 ### Troubleshoot issues for agents
 
