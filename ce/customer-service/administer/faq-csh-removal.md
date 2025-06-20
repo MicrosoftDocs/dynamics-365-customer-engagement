@@ -48,7 +48,7 @@ If you're an existing customer and need to set up Customer Service Hub in your e
 
 1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and then select your solution.
 
-1. Select **Default Solutions**, and then select **Environment Variables**. The **Add existing environment variables** page appears.
+1. Select **Default Solutions**, and then select **Environment variables**. The **Add existing environment variables** page appears.
 
 1. In the search field, type either "msdyn_AllowCSHAppHide" or "Enable or disable the ability to hide the CSH application", and then select it in the search results. The **Edit Allow CSH App Hide** dialog appears.
 
