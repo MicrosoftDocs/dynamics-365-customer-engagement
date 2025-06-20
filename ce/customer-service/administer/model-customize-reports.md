@@ -152,7 +152,7 @@ The dropdown list is populated with the reports in the workspace configured on S
 The customized reports site map in the Copilot service workspace is shared between historical and real-time data model customization features. You can reorder the reports on both historical and real time admin pages. For both historical and real time, you can modify or delete reports added from the respective historical and real-time data model customization pages only.
 
 > [!NOTE]
-> For custom reports thay you deploy in the Copilot service workspace, you must manually update the semantic data model to get the updates, then refresh and redeploy the custom reports. 
+> For custom reports thay you deploy in the Copilot service workspace, manually update the semantic data model to get the updates, then refresh and redeploy the custom reports. 
 
 You can also perform supervisor actions like [assign, transfer, monitor, and force close](../use/realtime-ongoing.md#assign-transfer-monitor-or-force-close-conversations-in-customized-reports) on model customized reports.
 
