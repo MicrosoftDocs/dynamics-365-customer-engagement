@@ -130,18 +130,15 @@ After the import is complete, refresh the organization to view the imported solu
 
 After the import completes, a confirmation message is displayed.
 
-> [!NOTE]
-> We recommend that you maintain a single solution for SLAs. All entities, related and custom, get added to the solution during solution export only.
-
 ## Next steps
 
 If you have calendars added to the SLA, open the org in the classic view, and then go to **SLA settings** and set **Enable calendar export and import** to **Yes**.
 
 To import or export the calendar with SLAs for any orgs, you must enable the setting.
 
-### Best practices
+## Best practices
 
-- Maintain a single managed solution for SLAs. Include all SLA components—SLAs, SLA KPIs, and action flows—in the same solution. Avoid layering SLAs, such as having SLA or SLA KPI components in both unmanaged and managed solutions. 
+- Maintain a single managed solution for SLAs. Include all SLA components—SLAs, SLA KPIs, and action flows—in the same solution. Avoid layering SLAs, such as having SLA or SLA KPI components in both unmanaged and managed solutions. All entities, related and custom, get added to the solution during solution export only.
 
 - If you create SLAs for custom entities or customize out-of-box entities for SLAs, make sure all components are in the same solution as the SLA. Use this solution to update customizations if the solution layer is on top of these entities. Avoid active layer customizations on these components in target organizations. 
 
