@@ -74,7 +74,7 @@ The unassigned work item remains in the queue until you manually assign it to a 
 
 ### What happens when a conversation is assigned to a queue that doesn't have any representatives?
 
-The conversation is closed automatically by the system.
+The conversation is closed automatically by the system. Records, such as cases, remain in the queue and aren't auto assigned.
 
 ### Can advanced queues be associated with a mailbox?
 
