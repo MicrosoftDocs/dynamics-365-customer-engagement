@@ -125,57 +125,57 @@ The following metadata can be a part of the custom dimensions in the **Traces** 
     - **CapacityProfiles**: Required representative capacity profiles for the work item
     - **RequiredSkills**: Skills required by the representative to work on the work item
 
-### Subscenario: AgentAccept
+### Subscenario: CSRAccepted
 
 - **Omnichannel.description**: Captures the information when representative accepts the conversation:
     - **Success**:
-        1. Representative with ID xxxx assigned to the conversation xxxx. AgentAccept request completed.
-        1. Representative with ID xxxx already assigned to the Conversation xxxx. AgentAccept request completed.
+        1. Representative with ID xxxx assigned to the conversation xxxx. CSRAccepted request completed.
+        1. Representative with ID xxxx already assigned to the Conversation xxxx. CSRAccepted request completed.
     - **Failure**:
-        1. Representative with ID xxxx not found in the session xxxx for conversation xxxx. AgentAccept request failed.
-        1. **Scenario**: AgentAccept for conversation: xxxx failed with exception: xxxx.
+        1. Representative with ID xxxx not found in the session xxxx for conversation xxxx. CSRAccepted request failed.
+        1. **Scenario**: CSRAccepted for conversation: xxxx failed with exception: xxxx.
 - **Omnichannel.target_agent.id**: Captures the ID of the representative who accepts the conversation.
 - **Channel type**: Channel from which work item originated.
 
-### Subscenario: SupervisorForceCloseConversation
+### Subscenario: SupervisorForceClosedConversation
 
 - **Omnichannel.description**: Captures the information when supervisor attempts to forcefully close the conversation:
     - **Success**: 
-        1. **Scenario**: SupervisorForceCloseConversation for Conversation: {Conversation ID} completed successfully.
+        1. **Scenario**: SupervisorForceClosedConversation for Conversation: {Conversation ID} completed successfully.
     - **Failure**: 
         1. SupervisorForceClose request didn't get processed as the state is already closed for Conversation xxxx
-        2. **Scenario**: SupervisorForceCloseConversation for Conversation: xxxx failed with exception: xxxx
+        2. **Scenario**: SupervisorForceClosedConversation for Conversation: xxxx failed with exception: xxxx
 - **omnichannel.initiator_agent.id**: The ID of the supervisor initiating the action.
 - **Channel type**: Channel from which work item originated.
 
-### Subscenario: CustomerEndConversation
+### Subscenario: CustomerEndedConversation
 
 - **Omnichannel.description**: Captures the information when customer ends the conversation.
     - Success: 
-      **Scenario**: CustomerEndConversation for Conversation: {Conversation ID} completed successfully.
+      **Scenario**: CustomerEndedConversation for Conversation: {Conversation ID} completed successfully.
     - **Failure**: 
       1. Customer EndConversation request failed for ConversationId: xxxx as conversation state doesn't support the operation. Conversation state: xxxx
       1. Customer EndConversation request failed for ConversationId: xxxx as the conversation is already in closed state
-      1. **Scenario**: CustomerEndConversation for Conversation: xxxx failed with exception: xxxx
+      1. **Scenario**: CustomerEndedConversation for Conversation: xxxx failed with exception: xxxx
 - **Channel type**: Channel from which work item originated.
 
-### Subscenario: QueueTransfer
+### Subscenario: TransferToQueue
 
 - **Omnichannel.description**: Captures the information when representative attempts to transfer the conversation to another queue.
     - **Success**: 
-      **Scenario**: QueueTransfer for Conversation: {Conversation ID} completed successfully for Target Queue: xxxx with QueueId: xxxx.
+      **Scenario**: TransferToQueue for Conversation: {Conversation ID} completed successfully for Target Queue: xxxx with QueueId: xxxx.
     - **Failure**: 
-      **Scenario**: QueueTransfer for Conversation: xxxx failed with exception: xxxx
+      **Scenario**: TransferToQueue for Conversation: xxxx failed with exception: xxxx
 - **omnichannel.initiator_agent.id**: The ID of the representative initiating the transfer.
 - **Channel type**: Channel from which work item originated.
 
-### Subscenario: InitiateAgentConsult
+### Subscenario: ConsultToCSRInitiated
 
 - **Omnichannel.description**: Captures the information about representative initiating consult request for the conversation.
     - **Success**: 
-      **Scenario**: InitiateAgentConsult for Conversation: {Conversation ID} completed successfully for ConsultType: xxxx under ConversationAccess: xxxx
+      **Scenario**: ConsultToCSRInitiated for Conversation: {Conversation ID} completed successfully for ConsultType: xxxx under ConversationAccess: xxxx
     - **Failure**: 
-      **Scenario**: AgentTransfer for Conversation: xxxx failed with exception: xxxx
+      **Scenario**: CSRInitiatedTransfer for Conversation: xxxx failed with exception: xxxx
 - **omnichannel.initiator_agent.id**:	Captures the ID of the representative initiating the consult request
 - **Omnichannel.target_agent.id**: Captures the ID of the representative receiving the consult request
 - **Channel type**:	Channel from which work item originated.
@@ -183,24 +183,24 @@ The following metadata can be a part of the custom dimensions in the **Traces** 
 ### Subscenario: Other subscenarios for agents and supervisors
 
 - **Subscenarios**:
-    - AgentReject
-    - AgentTimeout
-    - AgentRejoined
-    - AgentPickAssignment
-    - BotEscalationToHuman
-    - AgentEndConversation
-    - AgentCloseSession
-    - ConversationClose
-    - BotAssignedToConversation
-    - AgentTransfer
-    - SupervisorTransferToAgent
+    - CSRRejected    
+    - CSRNotificationTimeout
+    - CSRRejoined
+    - CSRPickedConversation
+    - CopilotAgentEscalationToCSR
+    - CSREndedConversation
+    - CSRClosedSession
+    - ConversationClosed
+    - CopliotAgentAssignedToConversation
+    - CSRInitiatedTransfer
+    - SupervisorInitiatedTransfer
     - CloseConsult
-    - LeavePublicAgentConsult
+    - CSRLeftPublicConsult
 - **Omnichannel.description**: Captures the information when the representative or supervisor takes an action on the conversation.
     - **Success**: {Subscenario} for Conversation: {Conversation ID} completed successfully.
-      **Example**: AgentReject for Conversation: XXXX completed successfully.
+      **Example**: CSRRejected for Conversation: XXXX completed successfully.
     - **Failure**: {Subscenario} for Conversation: {Conversation ID} failed with exception: {scenarioException.Message}
-      **Example**: AgentCloseSession for Conversation: XXXX failed with exception: Too many requests.
+      **Example**: CSRClosedSession for Conversation: XXXX failed with exception: Too many requests.
 - **Omnichannel.initiator_agent.id**:	Captures the ID of the representative initiating the action (As applicable)
 - **Omnichannel.target_agent.i**d: Captures the ID of the representative receiving the action (As applicable)
 - **Channel type**:	Channel from which work item originated
