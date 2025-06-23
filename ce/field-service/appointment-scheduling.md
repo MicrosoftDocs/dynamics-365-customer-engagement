@@ -9,7 +9,7 @@ ms.author: mkelleher
 
 # Show appointments on the schedule board
 
-Organizations often use appointments in Dynamics 365 applications. For example, when a customer service rep creates a service appointment to help a customer with an issue.
+Organizations often use appointments in Dynamics 365 applications. For example, when a customer service representative creates a service appointment to help a customer with an issue.
 
 You can use the schedule board to show [Dynamics 365 appointments](/dynamics365/customer-engagement/web-api/appointment) alongside bookings. Include appointments on the schedule board and during the scheduling process so dispatchers see the availability.
 
@@ -17,7 +17,7 @@ You can use the schedule board to show [Dynamics 365 appointments](/dynamics365/
 
 Enable appointment scheduling for all resources in your organization.
 
-1. Open the **Resource Scheduling** app.
+1. Open the **Resource Scheduling** application.
 
 1. Change to the **Settings** area and go to **Administration** > **Scheduling Parameters**.
 
@@ -29,7 +29,7 @@ Enable appointment scheduling for all resources in your organization.
 
 With appointments enabled on the environment, you can change the setting for individual resources.
 
-1. Select **Resources**.
+1. In the **Resource Scheduling** application, select **Resources**.
 
 1. Open a bookable resource, select the **Scheduling** tab, and set **Include Appointments** to **Yes**.
 
@@ -39,9 +39,9 @@ With appointments enabled on the environment, you can change the setting for ind
 
 There are several ways to create Dataverse appointments. For example:
 
-- In [Dynamics 365 Customer Service Hub, using Activities](/dynamics365/customer-service/customer-service-hub-user-guide-basics#understand-activities)
+- In [Dynamics 365 Customer Service Hub using Activities](/dynamics365/customer-service/customer-service-hub-user-guide-basics#understand-activities)
 - In [Dynamics 365 Sales Professional using Activities](/dynamics365/sales-professional/manage-activities)
-- In Outlook, using [server-side synchronization](/power-platform/admin/server-side-synchronization) and the [Tracked to Dynamics 365](/power-platform/admin/use-outlook-category-track-appointments-emails) category so it appears as a Dataverse appointment record.
+- In Outlook using [server-side synchronization](/power-platform/admin/server-side-synchronization) and the [tracked to Dynamics 365](/power-platform/admin/use-outlook-category-track-appointments-emails) category so it appears as a Dataverse appointment record.
 
 ## View appointments on the schedule board
 
