@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: concept-article
-ms.date: 06/04/2025
+ms.date: 06/23/2025
 ms.custom: bap-template
 ms.collection:
 ---
@@ -21,7 +21,7 @@ Administrators and IT professionals can use this information to prepare for futu
 
 ## Legacy version of Case and Conversation Topics in Customer Service and Contact Center is deprecated
 
-Starting July 31, 2025, the legacy version of Case and Conversation Topics features in Dynamics 365 Customer Service and Dynamics 365 Contact Center will reach end of support. After July 31, 2025, this feature will be removed, and users will no longer be able to use it in Dynamics 365 Customer Service and Dynamics 365 Contact Center.  
+Starting Jun 20, 2025, the legacy version of [Cases](../administer/configure-topics-clustering-cases-cs.md#configure-ai-topic-clustering-for-cases) and [Conversation Topics](../administer/ai-topic-clustering-conversations.md#configure-ai-topic-clustering-for-conversations) in Dynamics 365 Customer Service and Dynamics 365 Contact Center is deprecated and will reach the end of support. After August 31, 2025, this feature will be removed, and users won't be able to use it in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
 
 ## setClickToAct (JavaScript API Reference) to be deprecated on October 31, 2025
 

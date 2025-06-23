@@ -1,7 +1,7 @@
 ---
 title: Configure AI topic clustering for conversations
 description: Configure topic cLustering for conversations using AI.
-ms.date: 06/04/2025
+ms.date: 06/23/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -14,7 +14,7 @@ ms.collection: bap-ai-copilot
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 > [!NOTE]
-> The legacy version of Case and Conversation Topics in Customer Service and Contact Center is deprecated as of July 31, 2025. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md#legacy-version-of-conversation-topics-in-customer-service-and-contact-center-is-deprecated).
+> Starting Jun 20, 2025, the legacy version of [Cases](../administer/configure-topics-clustering-cases-cs.md#configure-ai-topic-clustering-for-cases) and [Conversation Topics](../administer/ai-topic-clustering-conversations.md#configure-ai-topic-clustering-for-conversations) in Dynamics 365 Customer Service and Dynamics 365 Contact Center is deprecated and will reach the end of support. After August 31, 2025, this feature will be removed, and users won't be able to use it in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
