@@ -98,6 +98,7 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
     > [!NOTE]
     > At runtime, when you pause an SLA KPI instance and resume it, the SLA KPI instance is canceled and a new SLA KPI instance is created.
+    > **Failure Time**, **Warning Time** and **Applicable from** field used in SLAKPI should have the *datetime* datatype and not date. 
 
 1. Select **Activate**. The SLA KPI is saved and activated.
 
@@ -182,6 +183,8 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
    - **Name**: Enter a name.
    - **KPI**: Select an SLA KPI.
    - **Allow Pause and Resume**: (Optional.) Enable this option if you want the SLA to be paused during the time the record is on hold. For each enabled entity for the SLA, you can set each status considered "on hold" in the **Other SLA Settings** > **Manage** > **Service Configuration Settings** page.
+      > [!NOTE]
+      > **Allow Pause and Resume** can't be toggled after SLAItem is saved for the first time. 
    - **Business Hours**: (Optional.) To assign business hours, select a value. The SLA is calculated based on the business hours and business closure that you define. More information: [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md).
   
 1. In the **Applicable When** section, define the conditions for when the SLA can be applied for the entity.
