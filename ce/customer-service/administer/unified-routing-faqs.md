@@ -72,7 +72,7 @@ A case remains with the service representative that it was initially assigned to
 
 The unassigned work item remains in the queue until you manually assign it to a representative or route it to another queue. Learn more in [How assignment rulesets work](assignment-methods.md#how-assignment-rulesets-work).
 
-### What happens When a conversation is assigned to a queue that doesn't have any representatives?
+### What happens when a conversation is assigned to a queue that doesn't have any representatives?
 
 The conversation is closed automatically by the system.
 
