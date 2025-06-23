@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: concept-article
 ms.collection:
-ms.date: 05/29/2025
+ms.date: 06/23/2025
 ms.custom: bap-template
 ---
 
@@ -22,31 +22,34 @@ When the system routes a work item, its corresponding data starts appearing in A
 
 The conversation diagnostics scenario captures data related to unified routing, AI agent, customer service representative (service representative or representative), and supervisor actions. The following table contains data about the subscenarios corresponding to the scenario.
 
-| Subscenarios                    | Description                                           |
-|---------------------------------|-------------------------------------------------------|
-| AgentAccept                     | Service representative accepts the work item assignment              |
-| AgentAssignment                 | Assignment attempted by unified routing when new work item is added to the queue. It can also include assignment to a representative when they become available.                   |
-| AgentCloseSession               | Representative closed the session with the customer                    |
-| AgentEndConversation            | Representative ended the conversation                          |
-| AgentPickAssignment             | Representative picked the work item                                |
-| AgentReject                     | Representative rejects the work item assignment                |
-| AgentRejoined                   | Representative rejoined the call or conversation               |
-| AgentTimeout                    | Representative failed to accept the work item assignment       |
-| AgentTransfer                   | Representative transferred the conversation to another representative   |
-| BotEscalationToHuman            | AI agent escalated to a representative               |
-| Classification                  | Work item classification by unified routing           |
-| CloseAgentConsult               | Representative closed the consultation request for the conversation |
-| ConversationClose               | Conversation closed by system                         |
-| CustomerDisconnect              | Customer disconnected from the call or conversation   |
-| CustomerEndConversation         | Customer ended the conversation                       |
-| InitiateAgentConsult            | Representative requested consultation with another representative for a conversation |
-| LeavePublicAgentConsult         | Representative left the public consultation for the conversation |
-| ManualAssignment                | Representative or supervisor manually assigned the conversation |
-| QueueTransfer                   | Conversation transferred to a different queue by representatives |
-| RTQ                             | Queue assignment by unified routing                   |
-| SupervisorForceCloseConversation| Supervisor forcefully closed conversation             |
-| SupervisorTransferToAgent       | Supervisor transferred the conversation to another representative |
-| TransferAssignment              | Supervisor or representative transferred the conversation          |
+| Subscenarios                       | Description                                           |
+|------------------------------------|-------------------------------------------------------|
+| Classification                     | Work item classification by unified routing.           |
+| ConsultToCSRClosed                 | Representative closed the consultation request for the conversation. |
+| ConversationClosed                 | Conversation closed by system.                         |
+| ConversationCreated                | Conversation created by system. |
+| ConsultToCSRInitiated              | Representative requested consultation with another representative for a conversation. |
+| CopilotAgentAssignedToConversation | A Copilot agent is assigned to the conversation.|
+| CopilotAgentEscalationToCSR        | AI agent escalated the conversation to a representative.               |
+| CSRAccepted                        | Service representative accepts the work item assignment.              |
+| CSRAssignment                      | Assignment attempted by unified routing when new work item is added to the queue. It can also include assignment to a representative when they become available.                   |
+| CSRAvailabilityCheck               | Check if any service representative is available. |
+| CSRClosedSession                   | Representative closed the session with the customer.                    |
+| CSREndedConversation               | Representative ended the conversation.                          |
+| CSRInitiatedTransfer               | Representative transferred the conversation to another representative.   |
+| CSRLeftPublicConsult               | Representative left the public consultation for the conversation. |
+| CSRNotificationTimeout             | Representative failed to accept the work item assignment.       |
+| CSRPickedConversation              | Representative picked the work item.                                |
+| CSRRejected                        | Representative rejected the work item assignment.                |
+| CSRRejoined                        | Representative rejoined the call or conversation.               |
+| CustomerDisconnected               | Customer disconnected from the call or conversation.   |
+| CustomerEndedConversation          | Customer ended the conversation.                       |
+| ManualAssignment                   | Representative or supervisor manually assigned the conversation. |
+| RouteToQueue                       | Queue assignment by unified routing.                   |
+| SupervisorForceClosedConversation  | Supervisor forcefully closed the conversation.             |
+| SupervisorInitiatedTransfer        | Supervisor transferred the conversation to another representative. |
+| TransferAssignment                 | Supervisor or representative transferred the conversation.          |
+| TransferToQueue                    | Conversation transferred to a different queue by the representative. |
 
 ## Understand conversation logs
 
