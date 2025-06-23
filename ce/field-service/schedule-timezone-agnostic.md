@@ -24,7 +24,7 @@ With admin permissions, [edit the booking settings](./schedule-new-entity.md#edi
 Follow these steps to book using a time zone agnostic calendar:
 
 1. Select **Book** on a bookable entity, such as a work order, or **Find Availability** on the schedule board, to open the schedule assistant.
-1. The schedule assistant automatically converts all resource availability and requirement start and end times to UTC, and shows them in the Gantt view, which is now always locked to UTC.
+1. The schedule assistant automatically converts all start and end times for resources and requirements to UTC. It also shows these times in the Gantt chart, which is now always set to UTC.
    For example, two resources work from 9 AM to 5 PM. One resource works Eastern Time, and the other in Pacific Time. Both resource availabilities show as 9 AM to 5 PM UTC.
 1. Book the requirement using the schedule assistant. You can move bookings within the schedule assistant Gantt view, or use the **Move to** option.
 1. When you exit the schedule assistant, it converts the bookings back to the resource’s local time zone and shows them on the schedule board.
