@@ -16,7 +16,7 @@ ms.collection: bap-ai-copilot
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 > [!NOTE]
-> Starting Jun 20, 2025, the legacy version of [Cases](../administer/configure-topics-clustering-cases-cs.md#configure-ai-topic-clustering-for-cases) and [Conversation Topics](../administer/ai-topic-clustering-conversations.md#configure-ai-topic-clustering-for-conversations) in Dynamics 365 Customer Service and Dynamics 365 Contact Center is deprecated and will reach the end of support. After August 31, 2025, this feature will be removed, and users won't be able to use it in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
+> Starting Jun 20, 2025, the legacy version of Conversation Topics in Dynamics 365 Customer Service and Dynamics 365 Contact Center is deprecated and will reach the end of support. After August 31, 2025, this feature will be removed, and users won't be able to use it in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
 
 Customer Service Insights uses AI to give you insights into your customer service data by grouping semantically related conversations and generating a topic. New incoming conversations that match this topic are automatically added to the topic group. This can help you identify areas for improvement that impact system performance.
 
