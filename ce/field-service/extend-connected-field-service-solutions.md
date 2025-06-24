@@ -27,7 +27,7 @@ Azure services and components, including the ones detailed in [Connected Field S
  Although extending these Azure services or adding other ones is beyond the scope of this article, there are several resources available:  
   
 - [Microsoft Azure](https://azure.microsoft.com/) site for product descriptions, pricing, and trial offers.
-- [Azure Documentation Center](https://learn.microsoft.com/azure/developer/) for developers and administrators.
+- [Azure Documentation Center](/azure/developer/) for developers and administrators.
 - [Azure software development kits (SDKs)](https://azure.microsoft.com/downloads/) and tools.
 - [Shows](/shows/) for a wide selection of current and ever-growing videos.
   
