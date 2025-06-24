@@ -110,7 +110,7 @@ If there are details that you or your swarm experts want to document or update i
 
 To create a swarm-related task, complete the following steps:
 
-1. On the swarm page in Customer Service workspace, select the **Swarm activities** page.
+1. On the swarm page in Copilot Service workspace, select the **Swarm activities** page.
 1. In **Timeline**, select the **Add** (+) icon, and then select **Task** on the dropdown menu. The **Quick Create: Task** pane opens on the right-hand side of the page.
 1. (Optional) In the **Owner** field, as the creator of the task, you're listed by default. You can add others if desired by typing their names.
 1. (Optional) Enter a **Description** of what you need to do.
@@ -143,7 +143,7 @@ When you close a case, either by resolving or canceling it, links to any open sw
 
 When a swarm has completed, you can close it by completing the following steps:
 
-1. On the **Swarm** page in Customer Service workspace, select **Resolve swarm**. 
+1. On the **Swarm** page in Copilot Service workspace, select **Resolve swarm**. 
 1. (Optional): In the **Resolve this swarm?** dialog box, enter details that describe the solution.
 1. Select **Resolve swarm**.
 
@@ -157,7 +157,7 @@ After the swarm is resolved, a Dynamics 365 bot posts to the Teams chat to indic
 
 You can reactivate a swarm by completing the following steps:
 
-1. In Customer Service workspace, on the sitemap, select **Swarms** in **Service**.
+1. In Copilot Service workspace, on the sitemap, select **Swarms** in **Service**.
 1. On the **Swarm** page, from the dropdown list, select **All swarms**, and then select the swarm you want to reactivate.
 1. On the **Case details** page, select **Reactivate swarm**.
 
@@ -167,7 +167,7 @@ After the swarm is reactivated, a Dynamics 365 bot posts to the Teams chat to in
 
 You can cancel a swarm that's in progress by completing the following steps:
 
-1. In Customer Service workspace, on the sitemap, select **Swarms** in **Service**.
+1. In Copilot Service workspace, on the sitemap, select **Swarms** in **Service**.
 1. On the **Swarm** page, select **Active swarms** from the dropdown menu, and then select the swarm you want to cancel.
 1. On the **Case details** page, select **Cancel swarm**.
 1. On the **Cancel this swarm?** dialog, select the reason you want to cancel the swarm from the dropdown list, and then select **Cancel swarm**.
@@ -176,7 +176,7 @@ After the swarm is canceled, a Dynamics 365 bot posts to the Teams chat to indic
 
 ### View associated swarms
 
-You can see the swarms that are associated with a case from the record. To view the associated swarms, in Customer Service workspace, go to the **Details** tab, and then view the **Associated swarms** card.
+You can see the swarms that are associated with a case from the record. To view the associated swarms, in Copilot Service workspace, go to the **Details** tab, and then view the **Associated swarms** card.
 
 ### Swarm views
 

@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to
 ms.collection: 
-ms.date: 06/02/2025
+ms.date: 06/13/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -52,5 +52,5 @@ Perform the following steps to enable the widget:
 
 1. In Copilot Service admin center, select **Miscellaneous** in **Operations**.
 1. Select **Manage** for **New and upcoming features**. The **New and upcoming features** page appears.
-1. Select  **New outbound calling experience**.
+1. Select  **Enable voice controls in dialer**.
 

@@ -54,11 +54,12 @@ To test your microphone and speaker, do the following steps:
      The **Dial number** panel appears. You can perform the following actions:<br>
      - Search for a contact or account by name. The results are displayed in a dropdown. You can select **Account** or **Contact** to filter the results further. Once you select the customer's name, the application displays the customer's phone number, name, country/region, country code, and outbound profile that you can use to make the call.
        > [!NOTE]
-       > For a contact, you see the business number and the mobile number. For an account, you see the main phone number.   
+       > - To search for a contact or account, clear the existing country code.
+       > - For a contact, you see the business number and the mobile number. For an account, you see the main phone number.   
      - On the input box, you can copy, type in a number, or select a number from the recently dialed numbers. The country code dropdown displays the list of supported countries and regions that you can call. 
-     - View and call from the most recently dialed called numbers. By default, the last 20 calls that you received or made are displayed.
-     - You can select the customer's name in **Recents** to view the customer's account or contact details in a new session.
-     - In the profile dropdown, the outbound profile and the phone number that you're using to make the call is displayed. This number is the outbound calling number that appears on the customer's phone when they receive your call. 
+     - View and call the most recently dialed numbers. By default, the last 20 calls you received or made are shown. Select **Call** to call a number. If you select a number from the **Recents** list, the call uses the same outbound profile as the original call, irrespective of the outbound profile currently selected in the dialer.
+     - You can select the customer's name in **Recents** to view the customer's account or contact details in a new session. 
+     - The **Profile** dropdown shows the outbound profile and the phone number that you're using to make the call. The outbound calling number appears on the customer's phone when they receive your call. The selected outbound profile applies only if you type the number.
      - Select **Set default** in the profile dropdown to set an outbound profile as the default profile for all your calls.
      - You can call those phone numbers only whose regions are configured in the outbound profiles.
      - When you select a country/region from the dropdown, the appropriate country code is populated in the phone number field. If you change the country code while making an outbound call, the new country/region becomes the default code.
