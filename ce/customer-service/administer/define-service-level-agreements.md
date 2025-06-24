@@ -1,7 +1,7 @@
 ---
 title: Configure service-level agreements in Dynamics 365 Customer Service
 description: Learn how to configure service-level agreements in Dynamics 365 Customer Service.
-ms.date: 04/22/2025
+ms.date: 06/24/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -97,8 +97,8 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
    2. Select **Add** to define the conditions in which the SLA KPI can be paused.
 
     > [!NOTE]
-    > At runtime, when you pause an SLA KPI instance and resume it, the SLA KPI instance is canceled and a new SLA KPI instance is created.
-    > **Failure Time**, **Warning Time** and **Applicable from** field used in SLAKPI should have the *datetime* datatype and not date. 
+    > - At runtime, when you pause an SLA KPI instance and resume it, the SLA KPI instance is canceled and a new SLA KPI instance is created.
+    > - The **Failure Time**, **Warning Time** and **Applicable from** fields used in SLA KPI should have the *datetime* datatype and not date. 
 
 1. Select **Activate**. The SLA KPI is saved and activated.
 
@@ -184,8 +184,8 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
    - **KPI**: Select an SLA KPI.
    - **Allow Pause and Resume**: (Optional.) Enable this option if you want the SLA to be paused during the time the record is on hold. For each enabled entity for the SLA, you can set each status considered "on hold" in the **Other SLA Settings** > **Manage** > **Service Configuration Settings** page.
       > [!NOTE]
-      > **Allow Pause and Resume** can't be toggled after SLAItem is saved for the first time. 
-   - **Business Hours**: (Optional.) To assign business hours, select a value. The SLA is calculated based on the business hours and business closure that you define. More information: [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md).
+      > You can't toggle the **Allow Pause and Resume** option after you save the SLA Item for the first time.
+   - **Business Hours**: (Optional.) To assign business hours, select a value. The SLA is calculated based on the business hours and business closure that you define. Learn more in [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md).
   
 1. In the **Applicable When** section, define the conditions for when the SLA can be applied for the entity.
 
@@ -252,7 +252,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
     h. Save and exit Power Automate.
 
     > [!NOTE]
-    > More information: [Configure connectors in Power Automate](/connectors/commondataserviceforapps/)
+    > Learn more in [Configure connectors in Power Automate](/connectors/commondataserviceforapps/)
 
 1. Select **Save & Close** on the SLA item dialog box.
 
@@ -261,7 +261,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 1. Select **Activate**. The SLA is activated.
 
 ## Apply SLAs
-To understand how you can apply SLAs, see [Apply service-level agreements](apply-slas.md#apply-slas)
+Learn how you can apply SLAs, in [Apply service-level agreements](apply-slas.md#apply-slas).
 
 ### Related information
 
