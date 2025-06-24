@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to 
 ms.collection: 
-ms.date: 12/13/2024
+ms.date: 06/17/2025
 ms.custom: bap-template 
 ---
 
@@ -26,7 +26,7 @@ This article explains how you can customize the Power Automate flow to monitor i
 
 Perform the following steps to create a new condition that checks if the incoming email is related to a resolved case.
 
-1.  In the Customer Service admin center site map, go to the **Automatic record creation and update rules** and then select **Email to case - create new case** to edit the rule.
+1.  In the Copilot Service admin center site map, go to the **Automatic record creation and update rules** and then select **Email to case - create new case** to edit the rule.
 
 1. Go to the **Condition builder** tab and complete the following fields in the **Condition** panel.
 

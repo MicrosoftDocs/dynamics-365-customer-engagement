@@ -1,6 +1,6 @@
 ---
-title: "App profile manager JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager methods and properties to manage tabs and sessions in Customer Service workspace."
+title: App profile manager JavaScript API Reference
+description: Learn about the app profile manager methods and properties to manage tabs and sessions in Copilot Service workspace.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -10,7 +10,7 @@ ms.topic: reference
 
 # App profile manager JavaScript API Reference
 
-The app profile manager JavaScript API Reference includes methods and properties to manage tabs and sessions in Customer Service workspace.
+The app profile manager JavaScript API Reference includes methods and properties to manage tabs and sessions in Copilot Service workspace.
 
 ## Prerequisite
 
@@ -18,7 +18,7 @@ You must have App Profile user or Productivity tools user security roles to use 
 
 ## Session management
 
-The following methods and properties allow you to manage sessions in Customer Service workspace.
+The following methods and properties allow you to manage sessions in Copilot Service workspace.
 
 | Method | Description |
 |--------|-------------|
@@ -42,7 +42,7 @@ The following methods and properties allow you to manage sessions in Customer Se
 
 ## Tab management
 
-The following methods and properties allow you to manage tabs in Customer Service workspace.
+The following methods and properties allow you to manage tabs in Copilot Service workspace.
 
 | Method | Description |
 |--------|-------------|
@@ -66,7 +66,7 @@ The following methods and properties allow you to manage tabs in Customer Servic
 
 ## Context management
 
-The following method allows you to manage the session context in Customer Service workspace.
+The following method allows you to manage the session context in Copilot Service workspace.
 
 | Method | Description |
 |--------|-------------|

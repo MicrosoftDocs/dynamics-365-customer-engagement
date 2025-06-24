@@ -1,7 +1,7 @@
 ---
 title: Work order architecture
 description: Learn about the architecture of the work order process in Dynamics 365 Field Service.
-ms.date: 05/06/2024
+ms.date: 06/16/2025
 author: jshotts
 ms.author: jasonshotts
 ms.topic: concept-article

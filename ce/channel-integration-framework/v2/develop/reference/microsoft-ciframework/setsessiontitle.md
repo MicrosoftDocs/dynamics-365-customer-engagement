@@ -1,7 +1,7 @@
 ---
 title: setSessionTitle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 
 description: Learn about setSessionTitle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0.
-ms.date: 12/10/2024
+ms.date: 06/17/2025
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -13,7 +13,7 @@ ms.custom: bap-template
 
  >[!NOTE]
  > - This content applies to Dynamics 365 Channel Integration Framework version 2.0 only.
- > - Session management APIs allow you to integrate multisession experiences in Customer Service workspace app only.
+ > - Session management APIs allow you to integrate multisession experiences in Copilot Service workspace app only.
  > - Use this API only when the focused session belongs to the provider or if it is either the home or default session.
 
 Sets the session title, if the session belongs to the channel provider.

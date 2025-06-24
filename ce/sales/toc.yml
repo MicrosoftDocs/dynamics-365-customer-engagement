@@ -172,7 +172,7 @@ items:
               href: match-fields-between-dynamics365-zoominfo.md
             - name: Customize the ZoomInfo app
               href: customize-zoominfo-app.md
-    - name: Set up Copilot
+    - name: Set up Copilot and AI features
       items:
         - name: Copilot overview
           href: copilot-overview.md
@@ -192,6 +192,8 @@ items:
           href: extend-copilot-chat.md
         - name: Copilot in Dynamics 365 Sales FAQ
           href: sales-copilot-faq.md
+        - name: Connect to Dynamics 365 Sales with Model Context Protocol (preview)
+          href: connect-to-model-context-protocol-sales.md
     - name: Overview of focused view
       href: configure-focused-view.md
       items:
@@ -667,10 +669,6 @@ items:
               href: configure-view-your-team-page-sales-app.md
             - name: Configure conversation content
               href: configure-keywords-competitors-sales-app.md
-            - name: Prepare for the migration to Dataverse
-              href: prepare-for-ci-migration-to-dataverse.md
-            - name: Manage conversation intelligence data in Dataverse
-              href: conversation-intelligence-data-storage.md
             - name: Data retention and deletion through Privacy
               href: data-retention-deletion-policy-sales-app.md
         - name: Configure in conversation intelligence app
