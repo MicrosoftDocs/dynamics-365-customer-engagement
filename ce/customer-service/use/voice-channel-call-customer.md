@@ -57,7 +57,7 @@ To test your microphone and speaker, do the following steps:
        > - To search for a contact or account, clear the existing country code.
        > - For a contact, you see the business number and the mobile number. For an account, you see the main phone number.   
      - On the input box, you can copy, type in a number, or select a number from the recently dialed numbers. The country code dropdown displays the list of supported countries and regions that you can call. 
-     - View and call from the most recently dialed called numbers. By default, the last 20 calls that you received or made are displayed. You can select **Call** to call the number. If you select a number from the **Recents** list, the call is made using the same outbound profile as the original call, irrespective of the outbound profile currently selected in the dialer.
+     - View and call the most recently dialed numbers. By default, the last 20 calls you received or made are shown. Select **Call** to call a number. If you select a number from the **Recents** list, the call uses the same outbound profile as the original call, irrespective of the outbound profile currently selected in the dialer.
      - You can select the customer's name in **Recents** to view the customer's account or contact details in a new session. 
      - The **Profile** dropdown shows the outbound profile and the phone number that you're using to make the call. The outbound calling number appears on the customer's phone when they receive your call. The selected outbound profile applies only if you type the number.
      - Select **Set default** in the profile dropdown to set an outbound profile as the default profile for all your calls.
