@@ -31,39 +31,6 @@ items:
 - name: "Contact"
   displayName: "Contact entity"
   href: /dynamics365/developer/reference/entities/contact?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
-- name: "Conversation Action Item"
-  displayName: "msdyn_ConversationActionItem entity"
-  href: /dynamics365/developer/reference/entities/msdyn_conversationactionitem?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
-- name: "Conversation Aggregated Insights"
-  displayName: "msdyn_ConversationAggregatedInsights entity"
-  href: /dynamics365/developer/reference/entities/msdyn_conversationaggregatedinsights?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
-- name: "Conversation Participant Insights"
-  displayName: "msdyn_ConversationParticipantInsights entity"
-  href: /dynamics365/developer/reference/entities/msdyn_conversationparticipantinsights?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
-- name: "Conversation Participant Sentiment"
-  displayName: "msdyn_ConversationParticipantSentiment entity"
-  href: /dynamics365/developer/reference/entities/msdyn_conversationparticipantsentiment?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
-- name: "Conversation Question"
-  displayName: "msdyn_ConversationQuestion entity"
-  href: /dynamics365/developer/reference/entities/msdyn_conversationquestion?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
-- name: "Conversation Sentiment"
-  displayName: "msdyn_ConversationSentiment entity"
-  href: /dynamics365/developer/reference/entities/msdyn_conversationsentiment?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
-- name: "Conversation Signal"
-  displayName: "msdyn_ConversationSignal entity"
-  href: /dynamics365/developer/reference/entities/msdyn_conversationsignal?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
-- name: "Conversation Subject"
-  displayName: "msdyn_ConversationSubject entity"
-  href: /dynamics365/developer/reference/entities/msdyn_conversationsubject?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
-- name: "Conversation Summary Suggestion"
-  displayName: "msdyn_ConversationSummarySuggestion entity"
-  href: /dynamics365/developer/reference/entities/msdyn_conversationsummarysuggestion?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
-- name: "Conversation System Tag"
-  displayName: "msdyn_ConversationSystemTag entity"
-  href: /dynamics365/developer/reference/entities/msdyn_conversationsystemtag?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
-- name: "Conversation Tag"
-  displayName: "msdyn_ConversationTag entity"
-  href: /dynamics365/developer/reference/entities/msdyn_conversationtag?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Copilot component"
   displayName: "botcomponent entity"
   href: botcomponent.md
