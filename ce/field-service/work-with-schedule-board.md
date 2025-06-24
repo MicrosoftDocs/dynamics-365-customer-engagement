@@ -11,6 +11,12 @@ ms.author: mkelleher
 
 [!INCLUDE[use-schedule-board.md](../shared/urs/use-schedule-board.md)]
 
+## View appointments on the schedule board
+
+If your [organization enabled appointments](appointment-scheduling.md#enable-appointments-for-your-organization), you can view them on the schedule board. Appointments are read-only and you can't move them. They show for all required attendees and the owner. Hover over an appointment to see more details.
+
+Appointments that are marked *Private* in Outlook and synced to Dynamics 365 won't show their subject on the schedule board.
+
 ## Automated scheduling with Resource Scheduling Optimization
 
 The following features are only available for organizations using the [Resource Scheduling Optimization Add-in for Dynamics 365 Field Service](rso-overview.md).
