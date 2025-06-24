@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 06/13/2025
+ms.date: 06/24/2025
 ms.custom: bap-template
 ---
 
@@ -40,23 +40,17 @@ Use the extensibility feature to create a new report that leverages the out-of-t
 | Callback measures | Definitions|
 | --------------- | --------------- |
 | Assign to queue anyway    |  Conversations where overflow action triggered is assign to queue anyway.   |
-| Callback accepted by agent    | Conversation where direct callback was accepted by agent, meaning that the callback request was accepted.   |
-| Callback connected to customer   | Conversation where customer was added to direct callback call. This can be a customer answering the call or the call reaching voicemail.   |
-| Callback initiated    |  Conversation where direct callback was first in queue and callback was initiated.   |
-| Callback not accepted by agent  | Conversation where direct callback notification was not (yet) accepted by an agent.    |
-| Callback not connected to customer  | Conversation where customer has not been added to the callback. This can be because call connection is still ongoing or connection was never established.   |
-| Callback not initiated  |Conversation where direct callback has not yet been initiated. |
-|Callback not offered   | Conversation where direct callback has not been offered to customer because the overflow condition was not met. |
-| Callback offered   | Conversations where callback is offered   |
+|Callback not offered   | Conversation where direct callback hasn't been offered to customer because the overflow condition wasn't met.  |
+| Callback offered   | Conversations where callback is offered. |
 | Callback opted in    | Conversation where direct callback was offered and customer accepted or opted-in. |
-| Direct callback  | Conversation where overflow action was direct callback   |
-| End call   |  Conversation where overflow action was end call   |
+| Direct callback  | Conversation where overflow action was direct callback.   |
+| End call   |  Conversation where overflow action was end call. |
 | Inqueue  |  Conversations where overflow condition was met when work item is queued.   |
 | Out of operating hours| Conversation where overflow conditions met is out of operating hours. |
 | Prequeue |  Conversation where overflow condition was met before workitem is queued.   |
 |​ Send to voicemail​ | Conversation where overflow action was voicemail.  |
-|Transfer to a different queue | Conversation where overflow action was transfer to a different queue.  |
-|Transfer to an external number |  Conversation where overflow action was transfer to an external number.  |
+|Transfer to a different queue | Conversation where overflow action was transferred to a different queue.  |
+|Transfer to an external number |  Conversation where overflow action was transferred to an external number.  |
 
 ## Related information 
 
