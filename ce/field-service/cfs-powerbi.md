@@ -1,7 +1,7 @@
 ---
 title: View reports for Connected Field Service
 description: Learn how to use reports for Connected Field Service.
-ms.date: 05/17/2024
+ms.date: 06/25/2025
 ms.subservice: connected-field-service
 ms.author: vhorvath
 author: vhorvathms
