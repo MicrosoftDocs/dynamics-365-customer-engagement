@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 03/06/2025
+ms.date: 06/24/2025
 ms.custom: bap-template 
 ---
 
@@ -259,6 +259,57 @@ Sessions timedout = SUMX(FactSessionParticipant,​ IF ( FactSessionParticipant[
 
 ---
 
+## Average session wait time 
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+Need definition
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+Avg. wait time (sec)_FactSession = CALCULATE(AVERAGE(FactSession[WaitTime]))
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | 
+|Attributes | |
+|Filters  | All Conversations where, Exclude in-transit record with msdyn_eventreason '192350001' and Hold event with msdyn_eventtype '192350001'​ <br> - Exclude sessions from 'Entity Records' channel and SMS filter​ <br> - Case when ClosedOnDateTime is null then null else Timestampdiff(Second,msdyn_ocsession.msdyn_sessioncreatedon, Coalesce(msdyn_ocsession.msdyn_agentacceptedon,​ msdyn_ocsession.msdyn_sessionclosedon which is !=null)​
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+The following data is yet to be reviewed
+
+Session wait time (sec) = SUM(FactSession[SessionWaitTimeInSeconds])
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |  systemuser, msdyn_sessionparticipant  |
+|Attributes  | - msdyn_sessionparticipant.msdyn_leftonreason​, <br> - systemuser.msdyn_botapplicationid      |
+|Filters  | - All Conversations where​ systemuser.msdyn_botapplicationid IS NULL AND msdyn_ocliveworkitem.statuscode IN
+(1,2,3,4,5,6,7)​ Date difference in second (msdyn_ocsession.msdyn_sessioncreatedon, Coalesce(msdyn_ocsession.msdyn_agent
+acceptedon or msdyn_ocsession.msdyn_sessionclosedon which is !=null)|
+
+---
+
+
+
+
 ## Transferred sessions
 
 *Applies to Omnichannel real-time dashboard.*
@@ -285,7 +336,7 @@ Transferred sessions = ​SUMX ( FactSession, IF ( FactSession[IsTransferredOut]
 
 ---
 
-## Transfer rate session
+## Session transfer rate
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
@@ -379,7 +430,7 @@ Session time to reject (sec) = SUM(FactSession[TimeToRejectInSeconds])
 
 ---
 
-## Time to accept (sec)
+## Session time to accept (sec)
 
 *Applies to Omnichannel real-time dashboards.*
 
