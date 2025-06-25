@@ -1,7 +1,7 @@
 ---
-title: Omnichannel Conversation Topics Dashboard | Microsoft Docs
+title: Omnichannel Conversation Topics Dashboard
 description: Learn about the Conversation topics dashboard in Omnichannel historical analytics to better understand customer service representative performance in your organization.
-ms.date: 02/10/2025
+ms.date: 06/25/2025
 ms.topic: concept-article
 author: gandhamm
 ms.collection: bap-ai-copilot
@@ -13,11 +13,10 @@ ms.reviewer: mgandham
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
-
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-
+> [!NOTE]
+> Starting Jun 20, 2025, the legacy AI topic clustering for conversation topics in Dynamics 365 Customer Service and Dynamics 365 Contact Center is deprecated and will reach the end of support. After August 31, 2025, this feature will be removed, and users won't be able to use it in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
 
 The Topics dashboard shows a detailed breakdown of conversations and their assigned topics. Customer Service Insights uses AI-generated topics and natural language understanding to automatically group your conversations to help you better understand how different topic areas are impacting your organization’s support performance. 
 
