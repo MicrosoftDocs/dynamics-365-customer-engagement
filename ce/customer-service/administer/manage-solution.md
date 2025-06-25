@@ -144,9 +144,9 @@ To import or export the calendar with SLAs for any orgs, you must enable the set
 
 - Don't divide the SLA and its components into multiple solutions.
 
-- Don’t create SLAs directly in the production environment. If you create SLAs in production, don’t use any SLA KPIs from managed solutions. Use only SLA KPIs that you create in production.
+- Don’t create SLAs directly in the production environment. If you create SLAs in production, use only SLA KPIs that you create in production. Don’t use any SLA KPIs from managed solutions.
 
-- Don't migrate SLAs individually in each environment. Configure SLAs in a source environment and deploy them to target environments using a managed solution.
+- Set up SLAs in a source environment, and then deploy them to target environments with a managed solution. Avoid migrating SLAs individually in each environment.
 
 ## Related information
 
