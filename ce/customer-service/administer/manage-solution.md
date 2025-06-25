@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 06/20/2025
+ms.date: 06/25/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -138,15 +138,15 @@ To import or export the calendar with SLAs for any orgs, you must enable the set
 
 ## Best practices
 
-- Maintain a single managed solution for SLAs. Include all SLA components—SLAs, SLA KPIs, and action flows—in the same solution. Avoid layering SLAs, such as having SLA or SLA KPI components in both unmanaged and managed solutions. All entities, related and custom, get added to the solution during solution export only.
+- Keep all SLA components—SLAs, SLA KPIs, and action flows—in a single managed solution. Don’t layer SLAs by including SLA or SLA KPI components in both unmanaged and managed solutions. All related and custom entities are added to the solution only during export.
 
-- If you create SLAs for custom entities or customize out-of-box entities for SLAs, make sure all components are in the same solution as the SLA. Use this solution to update customizations if the solution layer is on top of these entities. Avoid active layer customizations on these components in target organizations. 
+- When you create SLAs for custom entities or customize out-of-the-box entities to support SLAs, include all related components in the same solution as the SLA. Apply updates by using this solution only when it’s the top layer on those entities. Don’t make direct customizations to these components in target environments. 
 
 - Don't divide the SLA and its components into multiple solutions.
 
 - Don’t create SLAs directly in the production environment. If you create SLAs in production, don’t use any SLA KPIs from managed solutions. Use only SLA KPIs that you create in production.
 
-- Don't migrate SLAs individually in each environment. Migrate SLAs in a lower organization, and then move them to higher organizations by using a managed solution.
+- Don't migrate SLAs individually in each environment. Configure SLAs in a source environment and deploy them to target environments using a managed solution.
 
 ## Related information
 
