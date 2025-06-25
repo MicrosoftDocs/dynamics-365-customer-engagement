@@ -1,7 +1,7 @@
 ---
 title: Create IoT alerts and convert IoT alerts into work orders
 description: Learn how to create IoT alerts and convert IoT alerts into work orders with Connected Field Service for Dynamics 365 Field Service.
-ms.date: 09/04/2024
+ms.date: 06/24/2025
 ms.subservice: connected-field-service
 ms.topic: how-to
 applies_to:
@@ -47,56 +47,9 @@ As IoT device information flows into Azure IoT Hub, you can create rules that di
    - **(1)**: The bottom pane shows all incoming IoT messages from the connected device.
    - **(2)**: The top pane shows the JSON that creates the IoT alerts from the IoT messages.
 
-### Trigger IoT alerts with the simulator
-
-Set up the simulator to simulate IoT devices and data so that device data is pulled into Field Service.
-
-1. To find the simulator URL, sign in to your Azure subscription, and then select the app service resource type under the newly created resource group.
-
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of resource groups in Azure.](./media/cfs-iot-alert-simulator1.png)
-
-1. The URL appears in the top-right corner. Copy the URL. 
-
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot showing where to find the URL in the resource group.](./media/cfs-iot-alert-simulator2.png)
-
-1. Paste the URL into your browser’s address bar to load the page.  
-  
-1. When the simulator page opens, select **Connection** at the top.  
-  
-1. Enter the IoT hub host name and key. The host is the name of the IoT Hub resource in the Azure portal. 
-
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of the "configure connection" dialog in Azure.](./media/cfs-iot-alert-simulator-connection.png)
-
-1. To access the key, select the IoT Hub resource and go to the shared access policies. Then, copy the primary key for **iothubowner**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of Azure IoT Hub showing the primary key.](./media/cfs-simulator-connection.png)
-  
-1. Select the IoT hub in the **Resource Group**.  
-  
-1. On the left under **General**, select **Shared access policies** to get the host name and primary key.  
-  
-1. Ensure **Connection status** is marked as **Connected** and then close the dialog box.  
-
-1. Send a test command by using the sample simulator. For example, select the temperature and increase it to above 70 degrees. The simulator is preprogrammed to create an IoT alert if the temperature is above 70 degrees.
-
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of the IoT alert simulator.](./media/cfs-iot-alert-simulator3.png)
-
-   > [!Note]
-   > **Not using Azure IoT Hub?** Creating IoT alerts in Field Service based on IoT messages in your custom IoT provider is supported. For more information, see this article: [Extensible IoT data sources for Connected Field Service](cfs-custom-iot-provider.md). 
-
-   After the rule is created in Stream Analytics, the logic app creates IoT alerts based on the rule criteria. 
-
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of the Azure resource group.](./media/cfs-iot-alert-logic-app.png)
-
 ## View IoT alerts in Field Service
 
-In our example with the simulator, an IoT alert was created in Field Service because the temperature reading in an IoT message exceeded 70 degrees.
+In this example, an IoT alert was created in Field Service because the temperature reading in an IoT message exceeded 70 degrees.
 
 1. In Dynamics 365 Field Service, under **Assets**, select **IoT Alerts**.
 
@@ -106,7 +59,7 @@ In our example with the simulator, an IoT alert was created in Field Service bec
 
 ## Convert an IoT alert to a work order
 
-To take action against the IoT alert, use the business process flow that's built into  Field Service.
+To take action against the IoT alert, use the business process flow in Field Service.
 
 1. In Dynamics 365 Field Service, under **Assets**, select **IoT Alerts**.
 
@@ -140,7 +93,7 @@ Multiple IoT alerts might be created for the same IoT device for the same issue.
 
 ## IoT alerts parenting
 
-When an IoT alert is created in Connected Field Service, aggregation rules decide if the alert should be parented under another existing alert since the alert might be for a device or asset that already has an open alert. With autoparenting, you can avoid overrunning the alert list with many alerts for the same issue.
+When an IoT alert is created in Connected Field Service, aggregation rules determine whether the alert should be parented under an existing alert for the same device or asset that already has an open alert. With autoparenting, you can avoid overrunning the alert list with many alerts for the same issue.
 
 1. Under **IoT**, select **Settings** > **Alert Aggregation Rules**.
 
@@ -167,7 +120,7 @@ To make the five-minute rule longer or shorter, modify the workflow "debounce" p
 1. Select **View properties**.
 1. Change the value based on the number of seconds you want for the debounce period. Then, select **Save and Close**.
 
-To completely turn off the autoparent feature, disable the workflow or flow depending on whether your organization uses enhanced background processing controlled through Field Service settings. For more information, go to [Use Enhanced Background Processing](/dynamics365/field-service/configure-default-settings#other-settings).
+To completely turn off the autoparent feature, disable the workflow or flow depending on whether your organization uses enhanced background processing controlled through Field Service settings. Learn more in [Use Enhanced Background Processing](/dynamics365/field-service/configure-default-settings#other-settings).
 
 :::image type="content" source="media/iot-alert-parenting-4.png" alt-text="Power Apps showing IoT Parent Alerts with turning off highlighted.":::
 

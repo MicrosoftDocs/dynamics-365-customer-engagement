@@ -15,7 +15,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 > [!NOTE]
-> Starting Jun 20, 2025, the legacy AI topic clustering for cases in Dynamics 365 Customer Service and Dynamics 365 Contact Center is deprecated and will reach the end of support. After August 31, 2025, this feature will be removed, and users won't be able to use it in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
+> Starting June 20, 2025, the legacy AI topic clustering for cases in Dynamics 365 Customer Service and Dynamics 365 Contact Center is deprecated and will reach the end of support. After August 31, 2025, this feature will be removed, and users won't be able to use it in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
 
 Customer Service Insights uses AI to provide insights into your customer service data by grouping semantically related cases and generating a topic. New cases that match the generated topic are automatically added to the topic group. This action helps you identify areas of improvement that affect system performance.
 
