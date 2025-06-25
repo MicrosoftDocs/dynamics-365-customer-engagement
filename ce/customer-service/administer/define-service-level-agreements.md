@@ -1,7 +1,7 @@
 ---
 title: Configure service-level agreements in Dynamics 365 Customer Service
 description: Learn how to configure service-level agreements in Dynamics 365 Customer Service.
-ms.date: 06/24/2025
+ms.date: 06/25/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -98,7 +98,7 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
     > [!NOTE]
     > - At runtime, when you pause an SLA KPI instance and resume it, the SLA KPI instance is canceled and a new SLA KPI instance is created.
-    > - The **Failure Time**, **Warning Time** and **Applicable from** fields used in SLA KPI should have the *datetime* datatype and not date. 
+    > - The **Failure Time**, **Warning Time**, and **Applicable from** fields used in SLA KPI should have the *datetime* datatype, not date. 
 
 1. Select **Activate**. The SLA KPI is saved and activated.
 
