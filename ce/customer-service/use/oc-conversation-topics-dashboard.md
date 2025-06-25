@@ -67,7 +67,7 @@ AI-discovered topics in Omnichannel Historical Analytics are often prime candida
 
 After a topic is identified as a good automation candidate, the automation workflow can be triggered by selecting Copilot Studio on the **Topics** metrics grid or by selecting **Details** and then **Automate to Bot** in the drill -down view. This opens the topic editing form.
 
-Suggested trigger phrases and the topics related to the case title are provided. The first step is to select the Copilot agent that's ideal for adding the topic to. If no AI agent exists, select **Create Bot**. You are redirected to the Copilot Studio application for AI agent creation. You can modify both the topic name and trigger phrases, and for trigger phrases; you can further add to the trigger phrases. After this step is complete, select **Automate Continue**. 
+Suggested trigger phrases and the topics related to the case title are provided. The first step is to select the Copilot agent that's ideal for adding the topic to. If no AI agent exists, select **Create Bot**. You are redirected to the Copilot Studio application for AI agent creation. You can modify the topic name and trigger phrases. You can also add more trigger phrases.  After this step is complete, select **Automate Continue**. 
 
 > [!NOTE]
 > AI agents created through the Microsoft Teams channel won't be listed in the AI agent selection list.
