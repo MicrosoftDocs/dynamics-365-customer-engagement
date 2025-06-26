@@ -18,7 +18,7 @@ ms.custom: bap-template
 Copilot filters help you generate responses based on a specific set of articles. Filters provide immediate context and reduce the chance of you getting irrelevant responses when you use Copilot.
 
 > [!NOTE]
-> We recommend that the appropriate knowledge content is available for the filters you set so that you can see the expected responses. 
+> We recommend you ensure that the appropriate knowledge content is available for the filters you set so that you see the expected responses. 
 
 Administrators can configure different filter settings for you. The following actions are applicable based on the filter settings:
  
