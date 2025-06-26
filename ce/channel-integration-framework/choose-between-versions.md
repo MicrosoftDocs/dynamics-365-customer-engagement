@@ -1,11 +1,11 @@
 ---
-title: "Choose between Dynamics 365 Channel Integration Framework 1.0 and 2.0 | MicrosoftDocs"
-description: "Know the feature differences between Dynamics 365 Channel Integration Framework versions 1.0 and 2.0., so you can choose the one that best suits your business needs."
+title: Choose between Dynamics 365 Channel Integration Framework 1.0 and 2.0 
+description: Know the feature differences between Dynamics 365 Channel Integration Framework versions 1.0 and 2.0, so you can choose the one that best suits your business needs.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 12/10/2024
-ms.topic: article
+ms.date: 06/26/2025
+ms.topic: concept-article
 ms.custom: bap-template
 ---
 

@@ -3,7 +3,7 @@ title: Enable formatted messages
 description: Use this topic to understand how to enable your representatives to send and receive formatted messages in Omnichannel for Customer Service.
 author: gandhamm
 ms.author: mgandham
-ms.date: 05/05/2025
+ms.date: 06/26/2025
 ms.topic: how-to
 ms.custom: bap-template
 ms.reviewer: mgandham
@@ -32,6 +32,6 @@ Your customer service representatives (service representatives or representative
 ### Related information
 
 [Support for formatted messages](card-support-in-channels.md#support-for-formatted-messages)  
-[Markdown formats in custom channels that use Direct Line](../develop/markdown-formats-dev.md)  
+[Markdown formats in custom channels that use Direct Line](../develop/bring-your-own-channel.md#markdown-formats-in-custom-channels)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

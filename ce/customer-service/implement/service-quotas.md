@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to
-ms.date: 12/12/2024
+ms.date: 06/26/2025
 ms.custom: bap-template
 ---
 
@@ -17,7 +17,7 @@ Service quotas are the limits on resources, configurations, and items provided a
 
 > [!NOTE]
 > - All limits are at an organization level unless otherwise specified.
-> - If you need a higher limit on a measure that's indicated as adjustable, contact Microsoft Support to check whether the limit can be increased.
+> - If you need a higher limit on an adjustable measure, contact Microsoft Support to check whether the limit can be increased.
 
 ## Configuration limits
 
@@ -65,7 +65,7 @@ Service quotas are the limits on resources, configurations, and items provided a
 
 Microsoft regularly conducts scale and stress tests on the services that run Omnichannel for Customer Service. These tests are performed at multiples of the peak volume observed in customer production traffic. While the services can sustain high loads, we understand that you might want to verify your own load profile against the services. Your load profile can include customizations, integrations, local networks, or other bespoke solutions that you integrate. Make sure that you perform load tests according to the [Microsoft Cloud Penetration Testing Rules of Engagement](https://www.microsoft.com/msrc/pentest-rules-of-engagement).
 
-Load tests often generate synthetic traffic that targets specific endpoints or use cases and might approach or exceed quotas and limits for your environment. If you are concerned that your stress test might be flagged by the rules of engagement, we recommend that you work with Microsoft Support to have your tests reviewed before running them. For more information on Microsoft Cloud use rights, see [Licensing Use Rights](https://www.microsoft.com/licensing/docs/view/licensing-use-rights).
+Load tests often generate synthetic traffic that targets specific endpoints or use cases and might approach or exceed quotas and limits for your environment. If you're concerned that your stress test might be flagged by the rules of engagement, we recommend that you work with Microsoft Support to have your tests reviewed before running them. For more information on Microsoft Cloud use rights, see [Licensing Use Rights](https://www.microsoft.com/licensing/docs/view/licensing-use-rights).
 
 ## Next steps
 
