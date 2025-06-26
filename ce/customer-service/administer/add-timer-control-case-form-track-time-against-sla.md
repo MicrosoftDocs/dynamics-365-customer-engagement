@@ -49,7 +49,7 @@ Do the following steps to add the SLA timer control for the case entity.
 2. Select **Customize the System**, and in the **Solutions** page, expand **Entities** under **Components**.
 3. Select the entity for which you want to add the SLA Timer control, and in the **Forms** view, select the corresponding form. In this example, let us select the Case entity, and the **Case for interactive experience** form.
 4. On the page that appears, on the **Insert** tab, insert a section, and then insert a subgrid.
-5. Double-click the subgrid, and in the **Set Properties** dialog, enter the necessary details. On the **Display** tab, **Data Source** section:
+5. Double-click the subgrid, and then in the **Set Properties** dialog, enter the necessary details. On the **Display** tab, **Data Source** section:
    1. For **Records**, select **Only Related Records**.
     
         Selecting **All Record Types** retrieves all the SLA KPI instances present in the organization and might lead to performance issues.
@@ -84,7 +84,7 @@ After you add the SLA timer control for a SLA-enabled entity, you can customize 
 
    :::image type="content" source="../media/sla-timer-customized-label.png" alt-text="SLA timer customized label option":::
 
-1. In the **Configured Property "Customized Label"** dialog, select the **Bind to a static value** option and enter the values for multiple language codes.
+1. In the **Configured Property "Customized Label"** dialog, select the **Bind to a static value** option, and then enter the values for multiple language codes.
 
     :::image type="content" source="../media/sla-timer_configure_property.png" alt-text="SLA timer configure property dialog":::
    - The language code value must be of the following format:
