@@ -36,7 +36,7 @@ When you configure Azure and Copilot agents in Dynamics 365 Contact Center, use 
 
 - Make sure the voice agent that presents the greeting to the customer is [configured for the workstream](create-workstreams.md#add-an-agent-to-a-workstream) and not for the queue. This way, routing engine isn't required to be engaged and agent engagement is quicker.
 
-- Configure the voice agent to play an initial greeting prompt first, then line up any other tasks, such as data look up, after the first prompt is played. To make sure that any background noise from customer doesn't abort the initial greeting from agent, configure the prompt with [barge-in disabled](/microsoft-copilot-studio/voice-configuration#barge-in-disable-scenarios).
+- Configure the voice agent to play an initial greeting and then line up any other tasks, such as data look up. To make sure that any background noise from customer doesn't abort the initial greeting from agent, configure the prompt with [barge-in disabled](/microsoft-copilot-studio/voice-configuration#barge-in-disable-scenarios).
 
 - If data lookup is required, configure [latency prompt](/microsoft-copilot-studio/voice-configuration#add-a-latency-message-for-long-running-operations) to the caller to indicate acknowledgement so that your caller doesn't go through silence. You can use the minimum playback time setting even if the background look up operation completes while the message is playing. The default setting is 5000 ms.
 
