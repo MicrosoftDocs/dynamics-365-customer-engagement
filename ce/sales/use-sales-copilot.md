@@ -1,7 +1,7 @@
 ---
 title: Ask Copilot questions
 description: Learn how to use Copilot in Dynamics 365 Sales to summarize sales records, catch up on recent changes, prepare for meetings, and answer sales-related questions.
-ms.date: 01/28/2025
+ms.date: 06/26/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -65,8 +65,8 @@ If Copilot isn't there, ask your admin to turn on Copilot preview features. If y
 Whether you're using Copilot in a side pane or in full-screen view, you can interact with it in the following ways:
 
 - [Ask a question in natural language](#chat-with-copilot-in-NL) in the Copilot chat box.
-- Select one of the suggestions.
-- To get a list of predefined requests, or *prompts*, that Copilot can help you with, select the notebook icon (Copilot side pane) or **View Prompts** (full-screen view) above the Copilot chat box. [Learn more about predefined prompts](copilot-prompt-guide.md).
+- Select one of the suggestions from the card. 
+- To get a list of predefined requests, or *prompts*, that Copilot can help you with, select **View Prompts** (notebook icon) above the Copilot chat box. [Learn more about predefined prompts](copilot-prompt-guide.md).
 
 ## Turn off Bing search
 

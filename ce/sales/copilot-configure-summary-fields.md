@@ -1,7 +1,7 @@
 ---
 title: Configure fields for generating summaries and recent changes
 description: Learn how to configure fields for generating summaries and recent changes list in Copilot for leads, opportunities, and accounts.
-ms.date: 02/14/2025
+ms.date: 06/26/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -61,6 +61,7 @@ By default, Copilot uses a set of predefined fields to generate [summaries](copi
 
 1. Save your changes.
 
+<a name="add-summary-widget-to-custom-forms"></a>
 ## Add the opportunity summary widget to custom forms
 
 The opportunity summary widget includes an AI-generated summary of the opportunity record. This widget is available in the opportunity form by default. If you have a custom form, you can add the opportunity summary widget to it.
@@ -71,6 +72,7 @@ The opportunity summary widget includes an AI-generated summary of the opportuni
 1. Open your custom form for which you want to add the opportunity summary widget.
 1. On the command bar, select **Component** and then add the **1-column section** component to the form as a placeholder for the widget.
 1. From the **Component** site map, select Display and then add the **Record summary** to the newly added column.  
+   :::image type="content" source="media/record-summary-component.png" alt-text="Screenshot of the Record summary component in the Components site map.":::
 
     The opportunity summary widget is added to the form.
 
