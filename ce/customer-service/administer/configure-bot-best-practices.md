@@ -44,7 +44,7 @@ When you configure Azure and Copilot agents in Dynamics 365 Contact Center, use 
 
 - If Power Automate is used to access data, the voice agent pauses until the flow completes, therefore, there's latency. Use the [Power Automate dashboard](/power-platform/admin/analytics-flow?tabs=new) to monitor and optimize flow performance to minimize delays during live conversations.
 
-- If you need a static message before the voice agent brings a more personalized prompt to the customer, then use [system greeting messages](configure-automated-message.md#preconfigured-automated-message-triggers). After the uninterruptible system message is played, the voice agent can be lined up. Make sure to avoid redundancy in voice agent greeting and system greeting.
+- If a static message must be played before the voice agent greets the customer with a more personalized prompt, then use [system greeting messages](configure-automated-message.md#preconfigured-automated-message-triggers). After the uninterruptible system message plays, the voice agent is lined up. Make sure to avoid redundancy in voice agent greeting and system greeting.
 
 ### Best practices to handle silence during a conversation with the voice agent
 
