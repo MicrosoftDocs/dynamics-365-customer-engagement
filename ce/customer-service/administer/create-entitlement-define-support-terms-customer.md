@@ -20,7 +20,7 @@ ms.custom:
 
 # Create entitlements to define support terms
 
-Define what kind of support your customers are eligible for by creating entitlements in Dynamics 365 Customer Service. With entitlements, you specify the support term based on number of hours or number of cases. The customer’s support level can vary based on the product or service that the customer purchased. Customers who have purchased different products can be entitled to different support levels. This information helps the customer service representatives (service representatives) verify what the customers are eligible for and create cases for them accordingly.  
+Define what kind of support your customers are eligible for by creating entitlements in Dynamics 365 Customer Service. With entitlements, you specify the support term based on number of hours or number of cases. The customer’s support level can vary based on the product or service that the customer purchased. Customers who purchased different products might be entitled to different support levels. This information helps customer service representatives (service representatives) verify what the customers are eligible for and create cases for them accordingly.  
 
 ## Create an entitlement
 
