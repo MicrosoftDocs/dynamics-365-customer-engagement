@@ -34,7 +34,7 @@ The following table describes the availability of Copilot features across apps.
 
 Yes<sup>1</sup>: Available, but configuration is required in Power Apps 
 
-Learn more in [Copilot feature availability across applications](/contact-center/use/copilot-feature-availability).
+Learn more in [Copilot feature availability across applications](/dynamics365/contact-center/use/copilot-feature-availability).
 
 ## Why does Copilot come back with a different response to the same exact input? 
 

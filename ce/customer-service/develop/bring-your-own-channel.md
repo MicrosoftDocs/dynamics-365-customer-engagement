@@ -431,7 +431,6 @@ Learn more about markdown formats in [Markdown formats for chat messages](../use
 ## Next steps
 
 [Support for live chat and asynchronous channels](../administer/card-support-in-channels.md)  
-[Markdown formats in custom channels that use Direct Line](../develop/markdown-formats-dev.md)   
 
 ### Related information
 
