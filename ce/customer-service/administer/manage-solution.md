@@ -31,7 +31,7 @@ This section provides steps on how to create, export, import, and upgrade a solu
 
 1. Go to your Dynamics 365 organization.
 1. Go to **Advanced Settings** > **Settings** > **Customization** > **Solutions**.
-1. Select **New**. This takes you to the Power Apps portal.
+1. Select **New**. This action takes you to the Power Apps portal.
 1. In the **General** tab, fill the required mandatory fields.
     - **Display Name**: The name shown in the list of solutions. You can change this later.
     - **Name**: The unique name of the solution. This name is generated using the value you enter in the **Display Name** field. You can edit this name before you save the solution, but after you save the solution, you can’t change it.
