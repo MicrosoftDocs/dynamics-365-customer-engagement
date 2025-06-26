@@ -36,7 +36,7 @@ The software settings to ensure seamless integration are as follows:
 
 **Firewall and security**: [Add the URLs and IP addresses to the allowlist](system-requirements-omnichannel.md#allow-access-to-websites) to allow communication between your system and the Omnichannel servers and prevent any security-related issues during your interactions. Make sure that the firewall configuration aligns with the [guidelines](/azure/communication-services/concepts/voice-video-calling/network-requirements#firewall-configuration) in Azure Communication Services.
 
-**Telemetry insights**: Within the same geo/region location, network latencies are usually less than 150 ms. Enable [telemetry insights](/dynamics365/guidance/implementation-portal/telemetry-insights) to understand where delays come from. These insights could also be used for evaluating performance of form load and API throttling.
+**Telemetry insights**: Within the same geo/region location, network latencies are usually less than 150 ms. Enable [telemetry insights](/dynamics365/guidance/implementation-portal/telemetry-insights) to understand where delays come from. These insights can also be used to evaluate the performance of form load and API throttling.
 
 **Desktop companion application**: If service representatives notice delay in joining calls after they accept the conversation through the notification, they can install and use the [Desktop companion application](/dynamics365/contact-center/administer/install-manage-desktop-app) to join calls. In the event of web app call connectivity issues, Desktop companion application can help maintain the call connection.
 
