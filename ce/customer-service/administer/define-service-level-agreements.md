@@ -56,11 +56,11 @@ To configure SLAs in Copilot Service admin center:
 
 - Identify target entities and add customizations. To add customizations in target entities to track SLAs, complete these steps:
 
-   1. Create a lookup field on the entity for which an SLA has to be configured, and relate it to an SLA KPI instance. Lookup fields are created so that you can view the SLA in the timer on the entity form and track your SLAs. To learn more, see [Create and edit fields](../../customerengagement/on-premises/customize/create-edit-fields.md#create-and-edit-fields).
+   1. Create a lookup field on the entity for which an SLA has to be configured, and relate it to an SLA KPI instance. Lookup fields are created so that you can view the SLA in the timer on the entity form and track your SLAs. Learn more in [Create and edit fields](../../customerengagement/on-premises/customize/create-edit-fields.md#create-and-edit-fields).
    For example, to track an SLA on a case for "escalated by KPI", you need to create a field as **EscalatedByKPI** on the Case entity, and provide the **Data Type** as **Lookup** and **Target Record Type** as **SLA KPI Instance**.
 
    2. Use the lookup field to configure a timer to help users estimate the amount of time they have to complete a task—typically as specified in an SLA.<br>
-   To configure a timer, add the timer control to an entity form. The timer control initially displays a countdown timer to show the time remaining to complete the task. To learn more, see [Add a timer control to the Case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md).
+   To configure a timer, add the timer control to an entity form. The timer control initially displays a countdown timer to show the time remaining to complete the task. Learn more in [Add a timer control to the Case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md).
 
 > [!NOTE]
 > - In Unified Interface, the **Elapsed Time** and **Paused On** attributes of an SLA KPI Instance contain values that are equivalent to the **Onhold Time** and **Last Onhold Time** attributes respectively, of the target record, such as case and account in the web client.
@@ -261,7 +261,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 1. Select **Activate**. The SLA is activated.
 
 ## Apply SLAs
-Learn how you can apply SLAs, in [Apply service-level agreements](apply-slas.md#apply-slas).
+Learn how you can apply SLAs in [Apply service-level agreements](apply-slas.md#apply-slas).
 
 ### Related information
 
