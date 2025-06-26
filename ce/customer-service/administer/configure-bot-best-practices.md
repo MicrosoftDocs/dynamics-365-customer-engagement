@@ -38,7 +38,7 @@ When you configure Azure and Copilot agents in Dynamics 365 Contact Center, use 
 
 - Configure the voice agent to play an initial greeting and then line up any other tasks, such as data look up. To make sure that any background noise from customer doesn't abort the initial greeting from agent, configure the prompt with [barge-in disabled](/microsoft-copilot-studio/voice-configuration#barge-in-disable-scenarios).
 
-- If data lookup is required, configure [latency prompt](/microsoft-copilot-studio/voice-configuration#add-a-latency-message-for-long-running-operations) to the caller to indicate acknowledgement so that your caller doesn't go through silence. You can use the minimum playback time setting even if the background look up operation completes while the message is playing. The default setting is 5000 ms.
+- If data lookup is required, configure a [latency message](/microsoft-copilot-studio/voice-configuration#add-a-latency-message-for-long-running-operations). The message indicates an acknowledgement of a delay so that your caller doesn't go through silence. You can use the minimum playback time setting even if the background lookup operation completes while the message is playing. The default setting is 5000 ms.
 
 - To avoid prolonged silence if data lookup is delayed, use the various options that Copilot Studio provides to access external data. Some options are Dataverse connectors, custom connectors, and prebuilt Power Automate connectors. [HTTP requests](/microsoft-copilot-studio/authoring-http-node) offer the best performance for data outside Customer Service or Dynamics 365 Contact Center. The built-in Dataverse connectors are most efficient for accessing data within Dynamics 365.
 
