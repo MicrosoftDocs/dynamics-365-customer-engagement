@@ -68,7 +68,7 @@ Service Scheduling is available in the Customer Service Hub site map. We recomme
    Resource groups are users, facilities, or equipment that can be scheduled interchangeably.  
   
    > [!NOTE]
-   >  You can save a service without defining a selection rule, but you can'tschedule that service. Learn more in [Create or edit a selection rule](create-simple-selection-rule.md).
+   >  You can save a service without defining a selection rule, but you can't schedule that service. Learn more in [Create or edit a selection rule](create-simple-selection-rule.md).
   
 7.  When you’re ready to save your data, select **Save**.  
 
