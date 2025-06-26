@@ -30,7 +30,7 @@ You can't reuse or purchase the trial phone number. After your free calling time
 > You don't need to connect to Azure Communication Services to use trial numbers.
 ## End the trial
 
-If you want to end the trial before it expires, select **End trial** on the **Phone numbers** page. Then, you are able to connect to Azure Communication Services using new or existing resources. More information: [Connect to Azure Communication Services](voice-channel-acs-resource.md)
+If you want to end the trial before it expires, select **End trial** on the **Phone numbers** page. Then, you can connect to Azure Communication Services using new or existing resources. Learn more in [Connect to Azure Communication Services](voice-channel-acs-resource.md).
 
 > [!IMPORTANT]
 > You can't recover trial phone number and any related data after the trial organization expires and is deprovisioned.
