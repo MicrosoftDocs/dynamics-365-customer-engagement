@@ -1,7 +1,7 @@
 ---
 title: Integrate your own custom channel using Direct Line
 description: This article provides information on how you can integrate custom messaging channels using Direct Line API 3.0.
-ms.date: 05/15/2025
+ms.date: 06/27/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -413,6 +413,20 @@ If the conversation is active for the activity received by the relay processor, 
 ## End a conversation
 
 To end the conversation, see [End a conversation in Direct Line](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-end-conversation?view=azure-bot-service-4.0&preserve-view=true).
+
+## Markdown formats in custom channels
+
+You can send and receive messages formatted with Markdown in custom messaging channels using Direct Line API 3.0. Understanding how the Markdown format is passed through the channel and knowing the details of the format helps you update the HTML styling and tags in your own user interface.
+
+In the Direct Line channel, when a customer service representative (service representative or representative) sends (*outbound*) a message formatted with Markdown to a Direct Line bot, the bot receives the message in a certain format. Now, if a bot receives (*inbound*) a formatted message from a customer, it must be able to correctly interpret the message that's formatted with Markdown. As a developer, you need to use Markdown appropriately so that the message is formatted correctly for your service representatives and customers.
+
+Learn more about markdown formats in [Markdown formats for chat messages](../use/markdown-formats-agents.md#markdown-formats-for-chat-messages).
+
+> [!Note]
+> - Currently, we don't support the **<Shift + Enter>** key combination to add multiple line breaks.
+> - For inbound messages, set the Markdown text to the [Activity](/azure/bot-service/rest-api/bot-framework-rest-connector-api-reference?view=azure-bot-service-4.0#activity-object&preserve-view=true) object's `text` property.
+> - For outbound messages, the Markdown text is received in the [Activity](/azure/bot-service/rest-api/bot-framework-rest-connector-api-reference?view=azure-bot-service-4.0#activity-object&preserve-view=true) object's `text` property (similar to a normal message).
+
 
 ## Next steps
 

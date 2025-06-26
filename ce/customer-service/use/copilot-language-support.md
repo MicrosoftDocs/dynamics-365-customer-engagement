@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.collection: bap-ai-copilot
 ms.topic: how-to
 ms.reviewer: mgandham
-ms.date: 11/28/2024
+ms.date: 06/27/2025
 ms.custom: bap-template 
 ---
 
@@ -18,7 +18,7 @@ The key features are as follows:
 
 - Copilot detects your UI language and generates responses from cases and conversations in the language present in the UI.
 - Copilot uses those knowledge articles that are tagged with the language that's same as the UI language to generate responses.
-- When the input text contains mixed languages, Copilot generates responses in your UI language.
+- Copilot generates responses in your UI language, when the input text contains a mix of multiple languages. 
 - Copilot tries to generate responses in your preferred UI language even if that isn't an officially supported language.
 
 ## Scenarios
@@ -32,7 +32,7 @@ The following scenarios can help you understand the language Copilot uses to gen
 | The UI language is set to Spanish. The knowledge articles are in Spanish. The service representative asks a question in Spanish. | Copilot displays the results in Spanish. |
 | The  UI language is set to Spanish. The service representative asks a question in French. | Copilot displays the results in Spanish. |
 |  The UI language is set to Spanish. The knowledge articles are in the English language only. The service representative asks a question in Spanish.| No response is generated. |
-| The UI language is set to Japanese. The Bing Market language is set to Japanese and the location is set to ja-JP. The service representatives asks a question that Copilot responds to with content from the public web pages. | Copilot returns responses if the restricted Bing search results are available in the set [market code](/bing/search-apis/bing-web-search/reference/market-codes) of ja-JP. |
+| The UI language is set to Japanese. The Bing Market language is set to Japanese and the location is set to ja-JP. The service representative asks a question that Copilot responds to with content from the public web pages. | Copilot returns responses if the restricted Bing search results are available in the set [market code](/bing/search-apis/bing-web-search/reference/market-codes) of ja-JP. |
 
 
 ### Related information
