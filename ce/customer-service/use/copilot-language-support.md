@@ -18,7 +18,7 @@ The key features are as follows:
 
 - Copilot detects your UI language and generates responses from cases and conversations in the language present in the UI.
 - Copilot uses those knowledge articles that are tagged with the language that's same as the UI language to generate responses.
-- Copilot generates responses in your UI language, when the input text contains a mix of multiple languages. 
+- Copilot generates responses in your UI language, when the input text contains multiple languages. 
 - Copilot tries to generate responses in your preferred UI language even if that isn't an officially supported language.
 
 ## Scenarios
