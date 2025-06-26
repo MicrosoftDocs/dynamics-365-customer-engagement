@@ -79,7 +79,7 @@ The new phone number appears in the **Phone numbers** list and is ready for setu
 - Make sure that you have sufficient transcoding licenses if your service provider and Azure Communication Services don't support the same codec.
 - Make sure that the SIP Application Layer Gateway is disabled if your direct routing SBC is behind a firewall. Also, make sure that the media endpoint communicating with Azure Communication Services is using a public IP address, not a private one.
 - Make sure that your SBC is using a DNS server located within the same region where Dynamics 365 is hosted to avoid latency issues.
-- A practical way to transmit user-to-user information (UUI) into Dynamics 365 is by encoding key-value pairs (KVP) as hex values. Instead of sending a single string, structure your UUI data as one or more KVPs, like casenumber=12345678. Only then apply hexadecimal encoding to the complete string. For example, if you want to send the case number, format it as:  
+- A practical way to transmit user-to-user information (UUI) to Dynamics 365 is by encoding key-value pairs (KVP) as hex values. Instead of sending a single string, structure your UUI data as one or more KVPs, like casenumber=12345678. Only then apply hexadecimal encoding to the complete string. For example, if you want to send the case number, format it as:  
 casenumber=12345678 
   Then, encode the entire KVP string in hexadecimal: 
   636173656E756D6265723D3132333435363738;encoding=hex 
