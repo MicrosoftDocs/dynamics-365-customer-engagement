@@ -58,7 +58,7 @@ You can add the **Customer 360** card to a custom form in Copilot Service worksp
 1. Select the required form.
 1. In the form designer, select **Table columns** from the left navigation, clear the **Show only unused table columns** checkbox.
 1. Select **Customer**, and then drag it on the form.
-1. In the **Properties** section of the **Customer** lookup, do the following steps:
+1. In the **Properties** section of the **Customer** lookup, follow these steps:
     1. Select **Components**, and then select **Add Component**.
     1. Select **Form**.
     1. On **Add Form**, select **Related form**. The **Add related form** flyout appears. Specify the following information:
