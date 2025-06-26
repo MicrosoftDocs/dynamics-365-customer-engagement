@@ -40,7 +40,8 @@ The incoming messages (replies) are attached to a record with the phone number f
 -	Active record receives the message over the inactive record.
 -	Updated most recently.
 
-When you receive messages from a number for a record, make sure the number is in one of these fields&mdash;`mobilephone`, `telephone1`, or `telephone2`. If the phone number is in any other field, text messages aren't received for that record. Instead, a new lead is created and incoming messages are linked to that lead.
+> [!IMPORTANT]
+> When you receive messages from a number associated with a record, make sure the number is in one of these fields&mdash;`mobilephone`, `telephone1`, or `telephone2`. If the phone number is in any other field, text messages aren't linked to that record. Instead, a new lead is created, and incoming messages are linked to that lead.
   
 ## Open text message conversations
 
