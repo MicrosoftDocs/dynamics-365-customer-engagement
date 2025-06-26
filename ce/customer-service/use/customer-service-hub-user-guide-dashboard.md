@@ -2,7 +2,7 @@
 title: Manage service cases using interactive dashboards
 description: Understand dashboards and manage cases in Customer Service Hub in Dynamics 365 Customer Service.
 ms.date: 01/31/2025
-ms.topic: article
+ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

@@ -4,7 +4,7 @@ description: Explore real-time analytics for agent reports. Use filters and KPIs
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: concept-article
+ms.topic: conceptual
 ms.collection: 
 ms.date: 04/09/2025
 ms.custom: bap-template

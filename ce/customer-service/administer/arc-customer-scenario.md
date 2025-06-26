@@ -4,7 +4,7 @@ description: Understand how automatic record creation rules work in customer sce
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: concept-article
+ms.topic: conceptual
 ms.collection:
 ms.date: 12/13/2024
 ms.custom:

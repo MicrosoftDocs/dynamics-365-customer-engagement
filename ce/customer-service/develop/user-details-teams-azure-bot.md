@@ -5,7 +5,7 @@ ms.date: 04/29/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.topic: article
+ms.topic: conceptual
 ---
 
 # Get user details on Microsoft Teams from Azure agent
