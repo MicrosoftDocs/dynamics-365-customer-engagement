@@ -157,7 +157,7 @@ The following table list the text styles that are supported by Microsoft Teams, 
 [Overview of channels](../use/channels.md)  
 [Enable file attachments](enable-file-attachments.md)  
 [Enable formatted messages](enable-formatted-messages.md)  
-[Markdown formats in custom channels that use Direct Line](../develop/markdown-formats-dev.md)  
+[Markdown formats in custom channels that use Direct Line](../develop/bring-your-own-channel.md#markdown-formats-in-custom-channels)  
 [Markdown formats for representatives](../use/markdown-formats-agents.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
