@@ -20,7 +20,7 @@ For information about setting up the trial and licensing requirements, see [Cust
 
 ## How trial phone numbers work
 
-The trial phone number is a toll-free US number, so you are able to call this number from within US only. To be able to receive international calls, we recommend that you use a geographic US number as your second trial number. If you're calling the geographic number from outside the US, then international carrier rates apply.
+The trial phone number is a toll-free US number and can only be called from within the US. To receive international calls, we recommend that you use a geographic US number as your second trial number. If you're calling the geographic number from outside the US, then international carrier rates apply.
 
 Your voice trial automatically ends after the free calling time elapses. You can also manually end the trial before the free calling time elapses. More information: [End the trial](#end-the-trial)
 
