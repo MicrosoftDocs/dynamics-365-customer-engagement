@@ -1,7 +1,7 @@
 ---
 title: Stay ahead with Copilot
 description: Learn how to prepare for upcoming meetings and catch up on emails with Copilot in Dynamics 365 Sales.
-ms.date: 11/29/2024
+ms.date: 06/26/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -30,7 +30,7 @@ If you have meetings scheduled on your Outlook calendar in the next seven days, 
 > Currently, meeting preparation is available only for opportunities.
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).  
-1. Select **Stay ahead** > **Prepare for sales appointments**.  
+1. Select **Stay ahead** > **Prepare for sales meetings**.  
     Copilot lists the meetings scheduled for the current day and the next seven days from the records that you have access to. The meetings listed here have an external participant whose email address is linked to a contact in Dynamics 365, and this email address must be associated with an opportunity.
 
     > [!NOTE]
