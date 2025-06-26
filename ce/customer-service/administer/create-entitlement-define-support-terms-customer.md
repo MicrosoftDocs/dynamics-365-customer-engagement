@@ -47,7 +47,7 @@ You can create an entitlement in the Copilot Service admin center app.
   
      - **Start Date**: Choose the date from which the customer is entitled for support.  
   
-     - **End Date**: Choose the date after which the customer is longer entitled for support.  
+     - **End Date**: Choose the date after which the customer is no longer entitled for support.  
   
      - **Restrict based on entitlement terms**: Select **Yes** to make sure that cases aren't created when the entitlement term is over. Service representatives can't create cases when **Remaining Terms** is less than zero or when the term remaining for a channel is less than zero.
       
