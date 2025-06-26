@@ -1,8 +1,8 @@
 ---
-title: Agent dashboard | Microsoft Docs
+title: Agent dashboard
 description: Learn about the Agent dashboard insights to better understand customer service representative performance in your organization.
-ms.date: 05/13/2025
-ms.topic: article
+ms.date: 06/26/2025
+ms.topic: concept-article
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
