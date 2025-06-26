@@ -98,7 +98,7 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
     > [!NOTE]
     > - At runtime, when you pause an SLA KPI instance and resume it, the SLA KPI instance is canceled and a new SLA KPI instance is created.
-    > - The **Failure Time**, **Warning Time**, and **Applicable from** fields used in SLA KPI should have the *datetime* datatype, not date. 
+    > - The **Failure Time**, **Warning Time**, and **Applicable from** fields used in the SLA KPI should have the *datetime* datatype, not date. 
 
 1. Select **Activate**. The SLA KPI is saved and activated.
 
