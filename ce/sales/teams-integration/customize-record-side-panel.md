@@ -1,7 +1,7 @@
 ---
 title: Customize the side panel to view record details during a meeting
 description: Learn how to customize the side panel to view record details during a meeting.
-ms.date: 06/24/2025
+ms.date: 06/26/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -49,7 +49,7 @@ The following customizations are not supported:
 2. Select the environment, and then select **Tables** > **All**.
 
     :::image type="content" source="./media/tmi-select-all-tables.png" alt-text="Select all tables.":::
-
+    
 3. Search for and select the table.
 
 4. Select the **Forms** tab, and then select the **In Context Form** form.
