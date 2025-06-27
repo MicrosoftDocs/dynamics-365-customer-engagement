@@ -1,7 +1,7 @@
 ---
 title: Use trial phone numbers in the voice channel
 description: Use this article to understand how you can use trial phone numbers in Dynamics 365.
-ms.date: 07/01/2024
+ms.date: 06/27/2025
 ms.custom: bap-template
 ms.topic: how-to
 author: gandhamm
@@ -20,20 +20,20 @@ For information about setting up the trial and licensing requirements, see [Cust
 
 ## How trial phone numbers work
 
-The trial phone number is a toll-free US number, so you'll be able to call this number from within US only. To be able to receive international calls, we recommend that you use a geographic US number as your second trial number. If you're calling the geographic number from outside the US, then international carrier rates will apply.
+The trial phone number is a toll-free US number and can only be called from within the US. To receive international calls, we recommend that you use a geographic US number as your second trial number. If you're calling the geographic number from outside the US, then international carrier rates apply.
 
 Your voice trial automatically ends after the free calling time elapses. You can also manually end the trial before the free calling time elapses. More information: [End the trial](#end-the-trial)
 
-You can't reuse or purchase the trial phone number. After your free calling time has elapsed, you can either [purchase new phone numbers](voice-channel-manage-phone-numbers.md) or request Microsoft Support for more calling minutes. 
+You can't reuse or purchase the trial phone number. After your free calling time elapses, you can either [purchase new phone numbers](voice-channel-manage-phone-numbers.md) or request Microsoft Support for more calling minutes. 
 
 > [!NOTE]
 > You don't need to connect to Azure Communication Services to use trial numbers.
 ## End the trial
 
-If you want to end the trial before it expires, select **End trial** on the **Phone numbers** page. Then, you'll be able to connect to Azure Communication Services using new or existing resources. More information: [Connect to Azure Communication Services](voice-channel-acs-resource.md)
+If you want to end the trial before it expires, select **End trial** on the **Phone numbers** page. Then, you can connect to Azure Communication Services using new or existing resources. Learn more in [Connect to Azure Communication Services](voice-channel-acs-resource.md).
 
 > [!IMPORTANT]
-> You can't recover trial phone number and any related data after the trial organization has expired and been deprovisioned.
+> You can't recover trial phone number and any related data after the trial organization expires and is deprovisioned.
 
 ## Next steps
 

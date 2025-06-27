@@ -35629,7 +35629,18 @@
     },
     {"source_path": "ce/customer-service/use/oc-metrics-dimensions.md",
       "redirect_url": "/dynamics365/customer-service/develop/calculate-conversation-metrics",
-      "redirect_document_id": false}  
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/develop/create-a-conversion-plugin.md",
+      "redirect_url": "/dynamics365/customer-service/develop/int-search-metadata-schema",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/develop/markdown-formats-dev.md",
+      "redirect_url": "/dynamics365/customer-service/develop/bring-your-own-channel",
+      "redirect_document_id": "false"
+    }  
 
   ]
 }
