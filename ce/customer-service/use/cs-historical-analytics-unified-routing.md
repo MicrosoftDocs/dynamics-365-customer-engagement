@@ -2,7 +2,7 @@
 title: Historical analytics for unified routing in Customer Service
 description: Learn about the KPIs that are available in the historical analytics report for Customer Service.
 ms.date: 01/13/2025
-ms.topic: article
+ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

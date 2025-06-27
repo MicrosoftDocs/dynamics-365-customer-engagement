@@ -4,7 +4,7 @@ description: Use this article to get information about features that are depreca
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.topic: concept-article
+ms.topic: conceptual
 ms.date: 06/23/2025
 ms.custom: bap-template
 ms.collection:

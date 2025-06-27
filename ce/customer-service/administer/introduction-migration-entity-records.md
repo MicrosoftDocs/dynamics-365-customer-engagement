@@ -2,7 +2,7 @@
 title: Introduction to migration of entity records
 description: Learn how to migrate entity records from the legacy Service Scheduling to Unified Interface Service Scheduling.
 ms.date: 06/04/2025
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

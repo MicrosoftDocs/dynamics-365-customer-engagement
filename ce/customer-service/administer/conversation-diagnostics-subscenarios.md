@@ -4,7 +4,7 @@ description: Learn about subscenarios metadata for conversation diagnostics in A
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.topic: concept-article
+ms.topic: conceptual
 ms.collection:
 ms.date: 06/23/2025
 ms.custom: bap-template

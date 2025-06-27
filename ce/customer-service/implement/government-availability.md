@@ -2,7 +2,7 @@
 title: Dynamics 365 US Government and Customer Service availability
 description: Learn about Dynamics 365 US Government and Customer Service feature availability.
 ms.date: 08/30/2024
-ms.topic: concept-article
+ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
