@@ -100,7 +100,6 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 - Agent
 - Topics
 - Bot
-- Overflow
 
 
 ### Data model
