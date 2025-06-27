@@ -11,6 +11,8 @@ Open the **Schedule Board**, choose the tab to configure, and select **Scheduler
 :::image type="content" source="../../field-service/media/scheduler-settings.png" alt-text="Screenshot of the Board view settings pane on the Schedule Board.":::
 
 - **Time Zone**: Sets the time zone that the schedule board uses. The times for bookings in different time zones adapt to the selection.
+- **Working time**: Defines the working hours for the schedule board. The working time is used to determine when resources are available for scheduling. It is only applied to the hourly view of the schedule board.
+- **Working days**: Defines the working days for the schedule board. The working days are used to determine when resources are available for scheduling. It is only applied to the hourly view of the schedule board.
 - **Time resolution**: Time intervals for the hourly view.
 - **Row height**: Defines the height of resource rows.
 - **Optimization goal**: Applicable when using the [Resource Scheduling Optimization add-in for Dynamics 365 Field Service](../../field-service/rso-overview.md). Defines which [optimization goal](../../field-service/rso-optimization-goal.md) the system uses to recommend resources.
@@ -18,6 +20,7 @@ Open the **Schedule Board**, choose the tab to configure, and select **Scheduler
 - **Apply territory filter to requirements**: Defines whether the resource filter for [territory](../../field-service/set-up-territories.md) also applies to requirements in the bottom pane.
 - **Show booked percentage**: Shows or hides the percentage of total work time booked on the schedule board.
 - **Show bookings proportional to duration**: Bookings on the daily, weekly, and monthly views show proportional to their duration instead of stacked.
+- **Show travel duration**: Shows or hides travel time in the hourly view.
 
 **All board settings** opens the [board settings](#board-settings).
 
@@ -225,4 +228,4 @@ For more information, see [Edit the schedule board booking template](../../commo
 
 Use this section to configure requirement views at the bottom of the schedule board. You can change the order in which they appear on the schedule board.
 
-There are default requirement views automatically available. Turn off **Hide default requirement panels** to remove them. Use the **Apply territory filter to requirements** setting to filter requirements in addition to resources with an active a territory filter on the schedule board.
+There are default requirement views automatically available. Turn off **Show default requirement panels** to remove them. Use the **Apply territory filter to requirements** setting to filter requirements in addition to resources with an active a territory filter on the schedule board.
