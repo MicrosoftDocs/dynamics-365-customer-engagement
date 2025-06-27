@@ -2,7 +2,7 @@
 title: Historical analytics for unified routing in Omnichannel for Customer Service
 description: Learn about the KPIs that are available in the historical analytics report for Omnichannel for Customer Service.
 ms.date: 04/28/2025
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
