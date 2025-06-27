@@ -5,10 +5,10 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.collection: null
+ms.collection: bap-ai-copilot
 ms.date: 06/30/2025
 ms.custom:
-  - bap-template
+  - bap-template 
 
 ---
 
