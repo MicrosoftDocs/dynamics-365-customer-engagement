@@ -59,19 +59,25 @@ The agent refreshes research data either daily, every three days, or weekly. You
 
 The **Lead insights** page includes the following information.
 
+- **Connected accounts and contacts**: Select the link icon next to the lead's name to view the accounts and contacts that are connected to the lead. If the lead isn't connected to any account or contact, the agent automatically connects to the most relevant account and contact records based on the lead's email address, domain, and company name.
+
+  If the connected records aren't accurate, select **Disconnect** to remove the connection and then connect the lead to a different account or contact.
+
 - **Key insights**: This section summarizes key insights about the lead, including why it is or isn't a good fit for your business based on the ideal customer profile.
 
   To review the outreach email that the agent generated for you, select **Draft email**. It's ready for you to send, but you should review it and make any needed changes before you send it. Learn more in [Why don't I see the **Review email** or **Draft email** option?](sales-qualification-agent-faq.md#cant-see-email-options) in the Sales Qualification Agent FAQ.
 
   If your company uses Dynamics 365 Customer Insights - Journeys, key insights also include recent marketing activities, such as email opens, link clicks, event registrations and attendance, and form submissions.
 
-- **Email validation**: The agent performs two checks on a lead's primary email address: whether it's a valid address and whether it's a work or personal address. These checks help make sure that the lead's email address is active, deliverable, and relevant for business communications.
+- **Email validation**: The agent performs the following checks on a lead's primary email address to ensure that the lead's email address is active, deliverable, and relevant for business communications:
 
   - **Email validity**: The agent looks for [email validation errors](work-invalid-email-addresses.md) to make sure that the address is properly formatted and deliverable. If the email address is invalid, the agent prompts you to enter a valid address.
   - **Email type**: The agent determines whether the address is a work or personal email address and labels it in the interface.
 
   To mark the address as valid or invalid and work or personal, you can select the email icon next to the address.  
   :::image type="content" source="media/email-validation-sqa.png" alt-text="Screenshot of the email validity and type.":::
+
+  If you don't see email validation information, email validation might not be enabled for your organization. Reach out to your admin to enable it in Sales Qualification Agent settings.
 
 - **About lead**: This section includes a summary of key fields, opportunities that are open with the lead, and your colleagues who interacted with the lead in emails or meetings.
 
