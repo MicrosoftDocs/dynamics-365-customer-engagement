@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: reference
 ms.collection: 
-ms.date: 06/13/2025
+ms.date: 06/27/2025
 ms.custom: bap-template
 ---
 
@@ -61,9 +61,7 @@ The article describes the Dataverse entities used in historical and real-time an
 - msdyn_ocvoicemail
 - queueitem
 - msdyn_copilotinteraction
-- email
-- msdyn_sessionextension.msdyn_overflowcondition
-- msdyn_sessionextension.msdyn_overflowaction 
+- email 
 
 ## Entities used in real-time analytics
 

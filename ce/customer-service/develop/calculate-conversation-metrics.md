@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 06/24/2025
+ms.date: 06/27/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -1029,52 +1029,6 @@ TransferedConversationCount = CALCULATE(COUNTROWS(FactConversation), FactConvers
 |Attributes  |- msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel​ <br> - msdyn_ocliveworkite.msdyn_transfercount 
 |Filters  | - Filter the FactConversations table to include only rows where Ensure that msdyn_channelinstanceid is NULL.​  <br>- Exclude rows where msdyn_channel is'192350000’. <br> - Transfer count is defined by msdyn_ocliveworkite.msdyn_transfercount > 0. ​|
 
-## Assign to queue anyway
-
-*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
-
-Conversations where overflow action triggered is assign to queue anyway. 
-
-### DAX query and Dataverse reference
-
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
-
-### [Historical analytics](#tab/historicalpage)
-
-**DAX query**
-
-```dax
-
-Assign to queue anyway = CALCULATE(DISTINCTCOUNT(FactSession[ConversationId_FS]), FactSession[IsRemainInQueue] = 1)
-
-```
-
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | msdyn_sessionextension |
-|Attributes |msdyn_sessionextension.msdyn_overflowaction |
-|Filters  |msdyn_sessionextension.msdyn_overflowaction = '419550005'|
-
-### [Real-time analytics](#tab/realtimepage)
-
-**DAX query**
-
-```dax
-
-Assign to queue anyway = CALCULATE(DISTINCTCOUNT(FactSessionExtension[ConversationId]), FactSessionExtension[IsRemainInQueue]
-= 1)
-
-```
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | msdyn_sessionextension |
-|Attributes  | msdyn_sessionextension.msdyn_overflowaction  |
-|Filters  | msdyn_sessionextension.msdyn_overflowaction = '419550005'​|
-
----
-
 
 ## Callback not offered​
 
@@ -1100,8 +1054,9 @@ Callback not offered = [Incoming conversations_FactSession] - [Callback offered]
 |Element|Value  |
 |---------|---------|
 |Dataverse entities | msdyn_sessionextension |
-|Attributes |msdyn_session.msdyn_isoutbound|
-|Filters  | msdyn_session.msdyn_isoutbound = FALSE -> For Incoming conversations_FactSessoin |
+|Attributes |msdyn_session.msdyn_isoutbound,​ <br> - msdyn_sessionextension.msdyn_overflowaction, ​<br> - 
+msdyn_sessionextension.msdyn_overflowtriggertimestamp|
+|Filters  | msdyn_session.msdyn_isoutbound = FALSE,​ <br> - msdyn_sessionextension.msdyn_overflowaction = '419550001',​ <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null |
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -1116,8 +1071,8 @@ Callback not offered = [IncomingConversationsFSE] - [Callback offered]
 |Element|Value  |
 |---------|---------|
 |Dataverse entities | msdyn_sessionextension |
-|Attributes  | msdyn_session.msdyn_isoutbound |
-|Filters  | msdyn_session.msdyn_isoutbound = FALSE -> For IncomingConversationsFSE​​|
+|Attributes  | msdyn_session.msdyn_isoutbound,​ <br> - msdyn_sessionextension.msdyn_overflowaction, ​<br> -  msdyn_sessionextension.msdyn_overflowtriggertimestamp |
+|Filters  | msdyn_session.msdyn_isoutbound = FALSE,​ <br> - msdyn_sessionextension.msdyn_overflowaction = '419550001',​ <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null​​|
 
 ---
 
@@ -1147,7 +1102,7 @@ Callback offered = CALCULATE(DISTINCTCOUNT(FactSession[ConversationId_FS]), NOT(
 |---------|---------|
 |Dataverse entities | msdyn_sessionextension |
 |Attributes |- msdyn_sessionextension.msdyn_overflowaction <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp|
-|Filters  | - msdyn_sessionextension.msdyn_overflowaction = '419550001' <br> -msdyn_sessionextension.msdyn_overflowtriggertimestamp |
+|Filters  | - msdyn_sessionextension.msdyn_overflowaction = '419550001'​, <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null​ |
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -1163,7 +1118,7 @@ Callback offered = CALCULATE(DISTINCTCOUNT([ConversationId]), NOT(ISBLANK(FactSe
 |---------|---------|
 |Dataverse entities | msdyn_sessionextension |
 |Attributes  | - msdyn_sessionextension.msdyn_overflowaction <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp|
-|Filters  | - msdyn_sessionextension.msdyn_overflowaction = '419550001'​​ <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp|
+|Filters  | - msdyn_sessionextension.msdyn_overflowaction = '419550001'​, <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp is noy null​ |
 
 ---
 
@@ -1193,7 +1148,7 @@ Callback opted in = CALCULATE(DISTINCTCOUNT(FactSession[ConversationId_FS]), NOT
 |---------|---------|
 |Dataverse entities | msdyn_sessionextension |
 |Attributes |msdyn_sessionextension.msdyn_callbackacceptedtime|
-|Filters  | need info|
+|Filters  | msdyn_sessionextension.msdyn_callbackacceptedtime is not null|
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -1210,16 +1165,16 @@ NOT(ISBLANK(FactSessionExtension[CallbackOptedInTime]))
 |---------|---------|
 |Dataverse entities | msdyn_sessionextension |
 |Attributes  | msdyn_sessionextension.msdyn_callbackacceptedtime|
-|Filters  |need info|
+|Filters  |msdyn_sessionextension.msdyn_callbackacceptedtime is not null|
 
 ---
 
 
-## Direct callback
+## Callback not opted in
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Conversation where overflow action was direct callback.
+Conversation where direct callback was offered and customer didn't accept or opt-in.
 
 ### DAX query and Dataverse reference
 
@@ -1231,7 +1186,7 @@ The following DAX query and the corresponding Dataverse entities are used in the
 
 ```dax
 
-Direct callback = CALCULATE(DISTINCTCOUNT(FactSession[ConversationId_FS]), FactSession[IsCallbackOffered] = 1)
+Callback not opted in = [Callback Offered] - [Callback opted in]
 
 ```
 
@@ -1239,8 +1194,8 @@ Direct callback = CALCULATE(DISTINCTCOUNT(FactSession[ConversationId_FS]), FactS
 |Element|Value  |
 |---------|---------|
 |Dataverse entities | msdyn_sessionextension |
-|Attributes | msdyn_sessionextension.msdyn_overflowaction|
-|Filters  | msdyn_sessionextension.msdyn_overflowaction = '419550001' |
+|Attributes |- msdyn_sessionextension.msdyn_callbackacceptedtime,​ <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp|
+|Filters  | msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null​, <br> - msdyn_sessionextension.msdyn_callbackacceptedtime is null​|
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -1248,337 +1203,14 @@ Direct callback = CALCULATE(DISTINCTCOUNT(FactSession[ConversationId_FS]), FactS
 
 ```dax
 
-Direct callback = CALCULATE(DISTINCTCOUNT(FactSessionExtension[ConversationId]), FactSessionExtension[IsCallbackOffered] = 1)
+Callback not opted in = [Callback Offered] - [Callback opted in]
 
 ```
 
 |Element|Value  |
 |---------|---------|
 |Dataverse entities | msdyn_sessionextension |
-|Attributes  | msdyn_sessionextension.msdyn_overflowaction|
-|Filters  | msdyn_sessionextension.msdyn_overflowaction = '419550001'|
-
----
-
-
-## End call
-
-*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
-
-Conversation where overflow action was end call.
-
-### DAX query and Dataverse reference
-
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
-
-### [Historical analytics](#tab/historicalpage)
-
-**DAX query**
-
-```dax
-
-End call = CALCULATE(DISTINCTCOUNT(FactSession[ConversationId_FS]), FactSession[IsEndConversation] = 1)
-
-```
-
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | msdyn_sessionextension |
-|Attributes | msdyn_sessionextension.msdyn_overflowaction|
-|Filters  | msdyn_sessionextension.msdyn_overflowaction = '419550000' |
-
-### [Real-time analytics](#tab/realtimepage)
-
-**DAX query**
-
-```dax
-
-End call = CALCULATE(DISTINCTCOUNT(FactSessionExtension[ConversationId]), FactSessionExtension[IsEndConversation] = 1)
-
-```
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | msdyn_sessionextension |
-|Attributes  | msdyn_sessionextension.msdyn_overflowaction|
-|Filters  | msdyn_sessionextension.msdyn_overflowaction = '419550000'|
-
----
-
-
-## Inqueue
-
-*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
-
-Conversations where overflow condition was met when work item is queued.
-
-### DAX query and Dataverse reference
-
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
-
-### [Historical analytics](#tab/historicalpage)
-
-**DAX query**
-
-```dax
-
-Inqueue = CALCULATE(DISTINCTCOUNT(FactSession[ConversationId_FS]), FactSession[IsInQueue] = 1)
-
-```
-
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | msdyn_sessionextension |
-|Attributes |msdyn_sessionextension.msdyn_overflowcondition|
-|Filters  | msdyn_sessionextension.msdyn_overflowcondition = '419550003' |
-
-### [Real-time analytics](#tab/realtimepage)
-
-**DAX query**
-
-```dax
-
-Inqueue = CALCULATE(DISTINCTCOUNT(FactSessionExtension[ConversationId]), FactSessionExtension[IsInQueue] = 1)
-```
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | msdyn_sessionextension |
-|Attributes  | msdyn_sessionextension.msdyn_overflowcondition|
-|Filters  | msdyn_sessionextension.msdyn_overflowcondition = '419550003'|
-
----
-
-
-## Out of operating hours
-
-*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
-
-Conversation where overflow conditions met is out of operating hours.
-
-### DAX query and Dataverse reference
-
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
-
-### [Historical analytics](#tab/historicalpage)
-
-**DAX query**
-
-```dax
-
-Out of operating hours = CALCULATE(DISTINCTCOUNT(FactSession[ConversationId_FS]), FactSession[IsOutOfOperatingHours] = 1)
-
-```
-
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | msdyn_sessionextension |
-|Attributes | msdyn_sessionextension.msdyn_overflowcondition|
-|Filters  | msdyn_sessionextension.msdyn_overflowcondition = '419550000' |
-
-### [Real-time analytics](#tab/realtimepage)
-
-**DAX query**
-
-```dax
-
-Out of operating hours = CALCULATE(DISTINCTCOUNT(FactSessionExtension[ConversationId]), FactSessionExtension[IsOutOfOperatingHours] = 1)
-
-```
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | msdyn_sessionextension |
-|Attributes  |msdyn_sessionextension.msdyn_overflowcondition|
-|Filters  | msdyn_sessionextension.msdyn_overflowcondition = '419550000'|
-
----
-
-
-## Prequeue
-
-*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
-
-Conversation where overflow condition was met before workitem is queued.
-
-### DAX query and Dataverse reference
-
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
-
-### [Historical analytics](#tab/historicalpage)
-
-**DAX query**
-
-```dax
-
-Prequeue = CALCULATE(DISTINCTCOUNT(FactSession[ConversationId_FS]), FactSession[IsPreQueue] = 1)
-
-```
-
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | msdyn_sessionextension |
-|Attributes | msdyn_sessionextension.msdyn_overflowcondition |
-|Filters  | - msdyn_sessionextension.msdyn_overflowcondition = '419550001' or <br> - msdyn_sessionextension.msdyn_overflowcondition = '419550002'|
-
-### [Real-time analytics](#tab/realtimepage)
-
-**DAX query**
-
-```dax
-
-Prequeue = CALCULATE(DISTINCTCOUNT(FactSessionExtension[ConversationId]), FactSessionExtension[IsPreQueue] = 1)
-
-```
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | msdyn_sessionextension |
-|Attributes  | msdyn_sessionextension.msdyn_overflowcondition |
-|Filters  | - msdyn_sessionextension.msdyn_overflowcondition = '419550001' or <br> - msdyn_sessionextension.msdyn_overflowcondition = '419550002'|
-
----
-
-
-
-## Send to voicemail
-
-*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
-
-Conversation where overflow action was voicemail.
-
-### DAX query and Dataverse reference
-
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
-
-### [Historical analytics](#tab/historicalpage)
-
-**DAX query**
-
-```dax
-
-Send to voicemail = CALCULATE(DISTINCTCOUNT(FactSession[ConversationId_FS]), FactSession[IsVoicemail] = 1)
-
-```
-
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | msdyn_sessionextension |
-|Attributes | msdyn_sessionextension.msdyn_overflowaction|
-|Filters  | msdyn_sessionextension.msdyn_overflowaction = '419550003'|
-
-### [Real-time analytics](#tab/realtimepage)
-
-**DAX query**
-
-```dax
-
-Send to voicemail = CALCULATE(DISTINCTCOUNT(FactSessionExtension[ConversationId]), FactSessionExtension[IsVoicemail] = 1)
-
-```
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | msdyn_sessionextension |
-|Attributes  | msdyn_sessionextension.msdyn_overflowaction |
-|Filters  | msdyn_sessionextension.msdyn_overflowaction = '419550003'|
-
----
-
-
-## Transfer to a different queue
-
-*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
-
-Conversation where overflow action was transferred to a different queue.
-
-### DAX query and Dataverse reference
-
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
-
-### [Historical analytics](#tab/historicalpage)
-
-**DAX query**
-
-```dax
-
-Transfer to a different queue = CALCULATE(DISTINCTCOUNT(FactSession[ConversationId_FS]), FactSession[IsTransferToQueue] = 1)
-
-```
-
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | msdyn_sessionextension |
-|Attributes | msdyn_sessionextension.msdyn_overflowaction|
-|Filters  | msdyn_sessionextension.msdyn_overflowaction = '419550004'|
-
-### [Real-time analytics](#tab/realtimepage)
-
-**DAX query**
-
-```dax
-
-Transfer to a different queue = CALCULATE(DISTINCTCOUNT(FactSessionExtension[ConversationId]), FactSessionExtension[IsTransferToQueue] = 1)
-
-```
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | msdyn_sessionextension |
-|Attributes  | msdyn_sessionextension.msdyn_overflowaction|
-|Filters  | msdyn_sessionextension.msdyn_overflowaction = '419550004'|
-
----
-
-
-
-## Transfer to  an external number
-
-*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
-
-Conversation where overflow action was transferred to a different queue.
-
-### DAX query and Dataverse reference
-
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
-
-### [Historical analytics](#tab/historicalpage)
-
-**DAX query**
-
-```dax
-
-Transfer to an external number = CALCULATE(DISTINCTCOUNT(FactSession[ConversationId_FS]), FactSession[IsExternalTransfer] = 1)
-
-```
-
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | msdyn_sessionextension |
-|Attributes | msdyn_sessionextension.msdyn_overflowaction|
-|Filters  | msdyn_sessionextension.msdyn_overflowaction = '419550002'|
-
-### [Real-time analytics](#tab/realtimepage)
-
-**DAX query**
-
-```dax
-
-Transfer to an external number = CALCULATE(DISTINCTCOUNT(FactSessionExtension[ConversationId]), FactSessionExtension[IsExternalTransfer] = 1)
-
-```
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | msdyn_sessionextension |
-|Attributes  | msdyn_sessionextension.msdyn_overflowaction|
-|Filters  | msdyn_sessionextension.msdyn_overflowaction = '419550002'|
+|Attributes  | msdyn_sessionextension.msdyn_callbackacceptedtime,​ <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp|
+|Filters  | - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null​, <br> - msdyn_sessionextension.msdyn_callbackacceptedtime is null​|
 
 ---
