@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 12/13/2024
+ms.date: 06/26/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap

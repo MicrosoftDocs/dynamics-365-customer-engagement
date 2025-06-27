@@ -4,8 +4,8 @@ description: Understand how to track and view SLAs with the help of interactive 
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
-ms.date: 12/13/2024
+ms.topic: concept-article
+ms.date: 06/26/2025
 search.audienceType: 
   - admin
   - customizer
@@ -88,7 +88,7 @@ The **Active Duration (min)** and **Elapsed Time (min)** fields for an SLA KPI I
 
 Active duration calculation is asynchronous by default.
 
-You might need to refresh the views that have an **Active Duration (min)** field after any create or update operation. You may also need to review any customizations associated with the **Active Duration** attribute of the SLA KPI instance.
+You might need to refresh the views that have an **Active Duration (min)** field after any create or update operation. You might also need to review any customizations associated with the **Active Duration** attribute of the SLA KPI instance.
 
 You can view the active duration and elapsed time on the **SLA** tab of the custom entity as well.
 

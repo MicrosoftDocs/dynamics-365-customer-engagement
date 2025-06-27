@@ -1,7 +1,7 @@
 ---
 title: Create quick replies
 description: Learn how to set up quick replies for representatives in Copilot Service admin center.
-ms.date: 05/13/2025
+ms.date: 06/26/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
