@@ -4,7 +4,7 @@ description: Understand key metrics to evaluate service representatives' perform
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: concept-article
+ms.topic: conceptual
 ms.collection:
 ms.date: 04/14/2025
 ms.custom:
