@@ -5,8 +5,9 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: lalexms
 ms.topic: how-to 
-ms.date: 01/27/2025
-ms.custom: bap-template 
+ms.date: 06/27/2025
+ms.custom: bap-template
+ms.collection: bap-ai-copilot
 ---
 
 # Configure custom record summaries for service representatives
