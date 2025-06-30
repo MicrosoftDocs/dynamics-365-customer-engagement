@@ -1,7 +1,7 @@
 ---
 title: Welcome to Dynamics 365 Customer Service
 description: Overview of Dynamics 365 Customer Service.
-ms.date: 06/14/2024
+ms.date: 06/30/2025
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -19,7 +19,7 @@ ms.collection: get-started
 
 Welcome to Dynamics 365 Customer Service! We're delighted to offer you a suite of capabilities to ensure your business can deliver the best customer service experience possible to your customers. We believe that knowing your customers enables you to personalize each experience and optimizes your agents' productivity so you can earn customers for life.
 
-The agent experience is the heart of Dynamics 365 Customer Service. The key to improving satisfaction in service delivery is enabling agents to take customer requests from any channel, handle multiple sessions at a time, interact with multiple apps without losing context, and enhance their workflow with productivity tools.  
+The customer service representative (service representative, representative) experience is the heart of Dynamics 365 Customer Service. The key to improving satisfaction in service delivery is enabling representatives to take customer requests from any channel, handle multiple sessions at a time, interact with multiple apps without losing context, and enhance their workflow with productivity tools.  
 
 We offer several app experiences for you to choose from, depending on your support organization's needs.
 
@@ -83,15 +83,15 @@ If you're using a mobile device with Dynamics 365 for phones and tablets install
 
 
 > [!NOTE]
-> If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../../customerengagement/on-premises/customize/edit-entities.md#enable-or-disable-entity-options).
+> If you have previously installed any portal solution, to create a case in the Customer Service Hub app or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../../customerengagement/on-premises/customize/edit-entities.md#enable-or-disable-entity-options).
 
-## Accessibility and privacy in the Customer Service Apps
+## Accessibility and privacy in the Customer Service apps
 
 Customer Service is committed to inclusive design and accessible content. The apps are designed around accessibility to help all users be effortlessly productive.
 
 For more details about app accessibility and privacy compliance, see [Accessibility and privacy](../use/user-guide-customer-service-hub.md#accessibility-and-privacy).
 
-## Get Started with Customer Service
+## Get started with Customer Service
 
 - [Copilot Service Workspace](customer-service-workspace-system-requirements.md)
 - [Omnichannel for Customer Service](introduction-omnichannel.md)
