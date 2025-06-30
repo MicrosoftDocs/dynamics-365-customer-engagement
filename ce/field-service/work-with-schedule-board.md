@@ -1,7 +1,7 @@
 ---
 title: Use the schedule board in Field Service
 description: Learn about the schedule board experience in Dynamics 365 Field Service.
-ms.date: 05/14/2024
+ms.date: 06/26/2025
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
@@ -15,7 +15,7 @@ ms.author: mkelleher
 
 If your [organization enabled appointments](appointment-scheduling.md#enable-appointments-for-your-organization), you can view them on the schedule board. Appointments are read-only and you can't move them. They show for all required attendees and the owner. Hover over an appointment to see more details.
 
-Appointments that are marked *Private* in Outlook and synced to Dynamics 365 won't show their subject on the schedule board.
+Appointments marked *Private* in Outlook and synced to Dynamics 365 don't show their subject on the schedule board.
 
 ## Automated scheduling with Resource Scheduling Optimization
 

@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: overview
 ms.collection:
-ms.date: 01/28/2025
+ms.date: 06/26/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
