@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 06/03/2025
+ms.date: 06/30/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -1029,3 +1029,185 @@ TransferedConversationCount = CALCULATE(COUNTROWS(FactConversation), FactConvers
 |Attributes  |- msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel​ <br> - msdyn_ocliveworkite.msdyn_transfercount 
 |Filters  | - Filter the FactConversations table to include only rows where Ensure that msdyn_channelinstanceid is NULL.​  <br>- Exclude rows where msdyn_channel is'192350000’. <br> - Transfer count is defined by msdyn_ocliveworkite.msdyn_transfercount > 0. ​|
 
+
+## Callback not offered​
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+Conversation where a direct callback isn't offered to the customer because the overflow condition isn't met.
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+Callback not offered = [Incoming conversations_FactSession] - [Callback offered]
+
+```
+
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | - [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) <br> - [msdyn_ocliveworkitem](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem) |
+|Attributes |- [msdyn_ocliveworkitem.msdyn_isoutbound](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem#BKMK_msdyn_isoutbound) <br> - [msdyn_sessionextension.msdyn_overflowaction](/dynamics365/developer/reference/entities/msdyn_sessionextension#msdyn_overflowaction-choicesoptions) <br> - [msdyn_sessionextension.msdyn_overflowtriggertimestamp](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowTriggerTimestamp)|
+|Filters  | - msdyn_ocliveworkitem.msdyn_isoutbound = FALSE <br> - msdyn_sessionextension.msdyn_overflowaction is set to '419550001’ for DirectCallback <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null |
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Callback not offered = [IncomingConversationsFSE] - [Callback offered]
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | - [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) <br> - [msdyn_ocliveworkitem](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem) |
+|Attributes  |- [msdyn_ocliveworkitem.msdyn_isoutbound](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem#BKMK_msdyn_isoutbound) <br> - [msdyn_sessionextension.msdyn_overflowaction](/dynamics365/developer/reference/entities/msdyn_sessionextension#msdyn_overflowaction-choicesoptions) <br> - [msdyn_sessionextension.msdyn_overflowtriggertimestamp](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowTriggerTimestamp)|
+|Filters  | - msdyn_ocliveworkitem.msdyn_isoutbound = FALSE​ <br> - msdyn_sessionextension.msdyn_overflowaction = '419550001’ for DirectCallBack <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null|
+
+---
+
+
+## Callback offered​
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+Conversations where direct callback is offered.
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+Callback offered = CALCULATE(DISTINCTCOUNT(FactSession[ConversationId_FS]), NOT(ISBLANK(FactSession[CallbackOfferedDateTime])))
+
+```
+
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) |
+|Attributes | - [msdyn_sessionextension.msdyn_overflowaction](/dynamics365/developer/reference/entities/msdyn_sessionextension#msdyn_overflowaction-choicesoptions) <br> - [msdyn_sessionextension.msdyn_overflowtriggertimestamp](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowTriggerTimestamp)|
+|Filters  | - msdyn_sessionextension.msdyn_overflowaction is set to '419550001’ for DirectCallback​ <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null​|
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Callback offered = CALCULATE(DISTINCTCOUNT([ConversationId]), NOT(ISBLANK(FactSessionExtension[CallbackOfferedTime]))
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) |
+|Attributes  |  - [msdyn_sessionextension.msdyn_overflowaction](/dynamics365/developer/reference/entities/msdyn_sessionextension#msdyn_overflowaction-choicesoptions) <br> - [msdyn_sessionextension.msdyn_overflowtriggertimestamp](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowTriggerTimestamp)|
+|Filters  | - msdyn_sessionextension.msdyn_overflowaction is set to '419550001’ for DirectCallback​ <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null​. |
+
+---
+
+
+## Callback not opted in
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+Conversation where direct callback is offered but the customer didn't accept or opt-in.
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+Callback not opted in = [Callback Offered] - [Callback opted in]
+
+```
+
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension)|
+|Attributes |- [msdyn_sessionextension.msdyn_callbackacceptedtime](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_CallbackAcceptedTime) <br> - [msdyn_sessionextension.msdyn_overflowtriggertimestamp](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowTriggerTimestamp)|
+|Filters  | - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null​ <br> - msdyn_sessionextension.msdyn_callbackacceptedtime is null​. ​|
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Callback not opted in = [Callback Offered] - [Callback opted in]
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) |
+|Attributes  | - [msdyn_sessionextension.msdyn_callbackacceptedtime](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_CallbackAcceptedTime) <br> - [msdyn_sessionextension.msdyn_overflowtriggertimestamp](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowTriggerTimestamp)|
+|Filters  | - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null​ <br> - msdyn_sessionextension.msdyn_callbackacceptedtime is null​. ​|
+
+---
+
+
+## Callback opted in
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+Conversation where direct callback is offered and customer accepted or opted in.
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+Callback opted in = CALCULATE(DISTINCTCOUNT(FactSession[ConversationId_FS]), NOT(ISBLANK(FactSession[CallbackOptedInDateTime])))
+
+```
+
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) |
+|Attributes |[msdyn_sessionextension.msdyn_callbackacceptedtime](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_CallbackAcceptedTime)|
+|Filters  | msdyn_sessionextension.msdyn_callbackacceptedtime is not null|
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Callback opted in = CALCULATE(DISTINCTCOUNT([ConversationId]), NOT(ISBLANK(FactSessionExtension[CallbackOptedInTime])))
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) |
+|Attributes  | [msdyn_sessionextension.msdyn_callbackacceptedtime](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_CallbackAcceptedTime)|
+|Filters  |msdyn_sessionextension.msdyn_callbackacceptedtime is not null|
+
+---
