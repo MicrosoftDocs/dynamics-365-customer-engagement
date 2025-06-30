@@ -1125,7 +1125,7 @@ Callback offered = CALCULATE(DISTINCTCOUNT([ConversationId]), NOT(ISBLANK(FactSe
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Conversation where direct callback iss offered but the customer didn't accept or opt-in.
+Conversation where direct callback is offered but the customer didn't accept or opt-in.
 
 ### DAX query and Dataverse reference
 
@@ -1171,7 +1171,7 @@ Callback not opted in = [Callback Offered] - [Callback opted in]
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Conversation where direct callback is offered and customer accepted or opted-in.
+Conversation where direct callback is offered and customer accepted or opted in.
 
 ### DAX query and Dataverse reference
 
