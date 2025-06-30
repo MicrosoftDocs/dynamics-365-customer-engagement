@@ -1,8 +1,8 @@
 ---
 title: Create or change a service (Dynamics 365 Customer Service)
 description: Learn how to use the service records in Dynamics 365 Customer Service to predefine the specifics of the services provided.
-ms.date: 09/06/2024
-ms.topic: article
+ms.date: 06/26/2025
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -35,11 +35,7 @@ Service Scheduling is available in the Customer Service Hub site map. We recomme
   
 3.  Select **Services**.  
   
-4.  To create a new service, select **New**.  
-  
-     -OR-  
-  
-     To edit a service, open a service from the list.  
+4.  To create a new service, select **New**, or to edit a service, open a service from the list.  
   
 5.  Type or modify information in the text boxes.  
   
@@ -72,7 +68,7 @@ Service Scheduling is available in the Customer Service Hub site map. We recomme
    Resource groups are users, facilities, or equipment that can be scheduled interchangeably.  
   
    > [!NOTE]
-   >  You can save a service without defining a selection rule, but you won’t be able to schedule that service. Learn more in [Create or edit a selection rule](create-simple-selection-rule.md).
+   >  You can save a service without defining a selection rule, but you can't schedule that service. Learn more in [Create or edit a selection rule](create-simple-selection-rule.md).
   
 7.  When you’re ready to save your data, select **Save**.  
 

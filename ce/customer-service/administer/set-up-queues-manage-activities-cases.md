@@ -1,7 +1,7 @@
 ---
 title: Create and manage basic queues for cases
 description: Learn how to set up basic queues to manage activities and cases in Dynamics 365 Customer Service.
-ms.date: 02/04/2025
+ms.date: 05/23/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -23,8 +23,6 @@ searchScope:
 ---
 
 # Create and manage basic queues for cases
-
-[!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
 
 [!INCLUDE[cc-trial-sign-up](../../includes/cc-trial-sign-up.md)]
 
@@ -73,10 +71,10 @@ Make sure that you have the Sales or Marketing Manager, Customer Service Manager
 
 ## Create a queue
 
-1. In the site map of Customer Service admin center, select **Queues** in **Customer support**.
+1. In the site map of Copilot Service admin center, select **Queues** in **Customer support**.
     
 1. On the **Queues** page, select **Manage** for **Basic queues**.
-  
+
 1. To create a queue, select **New**. To edit a queue, select the queue in the list of queues, and then select **Edit** on the command bar.  
   
 1. Enter the following information in the **Summary** tab:
@@ -84,7 +82,7 @@ Make sure that you have the Sales or Marketing Manager, Customer Service Manager
       - **Name**: Enter the name of the queue.  
       - **Type**: Select whether the queue is a private or public queue. 
           If you’re creating a private queue, you’ll need to add members to this queue manually. In the **Members** section, select **Add** to add members to the queue. Only these members will be able to work on the items in this queue.  
-      - **Incoming Email**: Enter the email address that'll receive all messages sent to the queue.  
+      - **Incoming Email**: Enter the email address that'll receive all messages sent to the queue. 
       - **Description**: Enter a description.
   
    - In the **EMAIL SETTINGS** section, you can do the following:
@@ -106,11 +104,13 @@ After you have saved the queue, the following changes happen in the SUMMARY tab:
    -  Select **Add Existing User**. Only those users that you add can work on the items in this queue. If you add a team as a member, only the existing team members can access the queue. New team members must be added manually to the queue to be able to access it.
    - The **QUEUE ITEMS** and **RECORD CREATION AND UPDATE RULES** sections appear.
 
+:::image type="content" source="../media/public-queue-summary.png" alt-text="Summary view of a basic public queue." lightbox="../media/public-queue-summary.png":::
+
 ## Set up default views for routing dialogs
 
 To optimize customer service representative (service representative or representative) efficiency, you can set up custom views that contain a filtered list of queues. These queues are relevant to the type of cases that the service representatives handle. You can then set the view as the default from which they can pick a queue or user to route the work items.
 
-1. In the site map of Customer Service admin center, go to **Customer support**, and then select **Queues**.
+1. In the site map of Copilot Service admin center, go to **Customer support**, and then select **Queues**.
 
 1. On the page that appears, select **Manage** for **Routing dialogs**.
 
@@ -119,6 +119,8 @@ To optimize customer service representative (service representative or represent
     - **Route queue item**: Set a default view that'll appear for the representatives when they open the **Route Queued Item** dialog to route a case on the **Queues** page,
 
 1. Save and close.
+
+:::image type="content" source="../media/queue-routing-dialogs.png" alt-text="Screenshot of routing dialogs.":::
 
 At runtime, your representatives see the views that you have set for them.
 
@@ -139,15 +141,15 @@ For all cases that are automatically created from incoming email and social post
 Alternatively, you can manually add cases and activities to queues. Learn more in [Add a case to a queue](../use/customer-service-hub-user-guide-case-queues-and-routing.md#add-a-case-to-a-queue).
 
   
-## Assign items to agents
+## Assign items to representatives
 
-Queues share cases or activities as a group until they're removed from the queue or accepted by a service representative who assumes responsibility for handling them. Representatives can pick the items for themselves, or a customer service manager can manually route these cases to them, or to other queues, users, and teams.  
+Queues share cases or activities as a group until they're removed from the queue or accepted by a representative who assumes responsibility for handling them. Representatives can pick the items for themselves, or a customer service manager can manually route these cases to them, or to other queues, users, and teams.  
 
 To assign items in the queue to representatives, select **Assign** after selecting one or more items in the queues grid. In the **Assign Queue** box, you can choose to assign to other users or teams.
 
 > [!NOTE]
 >
-> - When two service representatives simultaneously add cases to the queue, the system creates two queue items instead of a single queue item.
+> - When two representatives simultaneously add cases to the queue, the system creates two queue items instead of a single queue item.
 > - If you've created workflows or used custom API to assign cases, and if one of the cases is assigned to two representatives at the same time, then the system creates two queue items instead of a single queue item.
 > - When one representative picks a case created by another, and releases it from the queue, the case gets assigned to the queue owner and not to the representative who created the case.
 

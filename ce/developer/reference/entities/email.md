@@ -35,6 +35,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_emailengagementinteractions](#BKMK_msdyn_emailengagementinteractions)
 - [msdyn_RecipientList](#BKMK_msdyn_RecipientList)
 - [msdyn_sentiment](#BKMK_msdyn_sentiment)
+- [msdyn_sentimentreason](#BKMK_msdyn_sentimentreason)
 - [ServiceId](#BKMK_ServiceId)
 
 ### <a name="BKMK_msdyn_copilotengaged"></a> msdyn_copilotengaged
@@ -106,6 +107,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Value|Label|
 |---|---|
 |0|**N/A**|
+|6|**Failure**|
 |7|**Very negative**|
 |8|**Negative**|
 |9|**Slightly negative**|
@@ -113,6 +115,27 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |11|**Slightly positive**|
 |12|**Positive**|
 |13|**Very positive**|
+
+### <a name="BKMK_msdyn_sentimentreason"></a> msdyn_sentimentreason
+
+|Property|Value|
+|---|---|
+|Description|**Sentiment Reason**|
+|DisplayName|**Sentiment Reason**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_sentimentreason`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_email_msdyn_sentimentreason`|
+
+#### msdyn_sentimentreason Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**Transient**|
+|1|**NonTransient**|
 
 ### <a name="BKMK_ServiceId"></a> ServiceId
 
@@ -514,6 +537,8 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [email_activitymonitor](#BKMK_email_activitymonitor)
 - [email_campaignresponse](#BKMK_email_campaignresponse)
 - [msdyn_email_email_msdyn_emailsentiment](#BKMK_msdyn_email_email_msdyn_emailsentiment)
+- [msdyn_email_msdyn_autocaseclosureagentactivity_activityid](#BKMK_msdyn_email_msdyn_autocaseclosureagentactivity_activityid)
+- [msdyn_email_msdyn_autocaseclosureagentactivity_autocaseclosureagentgeneratedemailid](#BKMK_msdyn_email_msdyn_autocaseclosureagentactivity_autocaseclosureagentgeneratedemailid)
 - [msdyn_email_msdyn_originatingqueue_email](#BKMK_msdyn_email_msdyn_originatingqueue_email)
 - [msdyn_msdyn_conversationactionitem_email_msdyn_CreatedActivity](#BKMK_msdyn_msdyn_conversationactionitem_email_msdyn_CreatedActivity)
 - [msdyn_msdyn_salescopilotinsight_email_msdyn_activityid](#BKMK_msdyn_msdyn_salescopilotinsight_email_msdyn_activityid)
@@ -552,6 +577,30 @@ Many-To-One Relationship: [msdyn_emailsentiment msdyn_email_email_msdyn_emailsen
 |ReferencingEntity|`msdyn_emailsentiment`|
 |ReferencingAttribute|`msdyn_email`|
 |ReferencedEntityNavigationPropertyName|`msdyn_email_email_msdyn_emailsentiment`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_email_msdyn_autocaseclosureagentactivity_activityid"></a> msdyn_email_msdyn_autocaseclosureagentactivity_activityid
+
+Many-To-One Relationship: [msdyn_autocaseclosureagentactivity msdyn_email_msdyn_autocaseclosureagentactivity_activityid](msdyn_autocaseclosureagentactivity.md#BKMK_msdyn_email_msdyn_autocaseclosureagentactivity_activityid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_autocaseclosureagentactivity`|
+|ReferencingAttribute|`msdyn_activityid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_email_msdyn_autocaseclosureagentactivity_activityid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_email_msdyn_autocaseclosureagentactivity_autocaseclosureagentgeneratedemailid"></a> msdyn_email_msdyn_autocaseclosureagentactivity_autocaseclosureagentgeneratedemailid
+
+Many-To-One Relationship: [msdyn_autocaseclosureagentactivity msdyn_email_msdyn_autocaseclosureagentactivity_autocaseclosureagentgeneratedemailid](msdyn_autocaseclosureagentactivity.md#BKMK_msdyn_email_msdyn_autocaseclosureagentactivity_autocaseclosureagentgeneratedemailid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_autocaseclosureagentactivity`|
+|ReferencingAttribute|`msdyn_autocaseclosureagentgeneratedemailid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_email_msdyn_autocaseclosureagentactivity_autocaseclosureagentgeneratedemailid`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

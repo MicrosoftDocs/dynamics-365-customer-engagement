@@ -1,8 +1,8 @@
 ---
-title: Omnichannel Conversation Topics Dashboard | Microsoft Docs
+title: Omnichannel Conversation Topics Dashboard
 description: Learn about the Conversation topics dashboard in Omnichannel historical analytics to better understand customer service representative performance in your organization.
-ms.date: 02/10/2025
-ms.topic: article
+ms.date: 06/25/2025
+ms.topic: conceptual
 author: gandhamm
 ms.collection: bap-ai-copilot
 ms.author: mgandham
@@ -13,24 +13,19 @@ ms.reviewer: mgandham
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
-
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-
+> [!NOTE]
+> Starting June 20, 2025, the legacy AI topic clustering for conversation topics in Dynamics 365 Customer Service and Dynamics 365 Contact Center is deprecated and will reach the end of support. After August 31, 2025, this feature will be removed, and users won't be able to use it in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
 
 The Topics dashboard shows a detailed breakdown of conversations and their assigned topics. Customer Service Insights uses AI-generated topics and natural language understanding to automatically group your conversations to help you better understand how different topic areas are impacting your organization’s support performance. 
 
 > [!div class="mx-imgBorder"]
 > ![Omnichannel Conversation Topics dashboard.](../media/oc-topics.png "Omnichannel Conversation Topics dashboard")
 
-### Access the Topics dashboard
-
-[!INCLUDE[cc-navigation](../../includes/cc-navigation.md)]
-
 ## Report Details
 
-The key performance indicator summary charts summarize the KPIs for the specified time and the percent change over the period. You can filter these areas by duration, channel, queue, customer service representatives (service representatives or representatives), conversation status, and time zone. 
+The key performance indicator (KPI) summary charts summarize the KPIs for the specified time and the percent change over the period. You can filter these areas by duration, channel, queue, customer service representatives (service representatives or representatives), conversation status, and time zone. 
 
 KPIs for the following areas are displayed: 
 
@@ -51,9 +46,9 @@ The topics metrics chart displays the following metrics.
 | Volume | The total conversation volume from customers. |
 | Volume change | The change in conversation volume from customers over the specified duration. |
 | Avg. conversation handle time (min) | The average total conversation active time across engaged conversations.  |
-| Avg. CSAT | The average CSAT score provided by customers from Customer Voice survey responses. This is only available if Dynamics 365 Customer Voice has been configured as a post-conversation survey tool.  |
+| Avg. CSAT | The average CSAT score provided by customers from Customer Voice survey responses. This is only available if Dynamics 365 Customer Voice is configured as a post-conversation survey tool.  |
 | CSAT impact | The impact (downward or upward) that the conversations in the selected topic group are driving the overall organization CSAT. |
-| Avg. sentiment | The average of customer sentiment based on verbatim provided in survey responses. Only available if Customer Voice has been configured as a post conversation survey tool. |
+| Avg. sentiment | The average of customer sentiment based on verbatim provided in survey responses. Only available if Customer Voice is configured as a post conversation survey tool. |
 | Sentiment impact | The impact (downward or upward) that the conversations in the selected topic group are driving the overall organization sentiment.  |
 | Copilot Studio icon | Supervisors can use this icon to select the topic for automation to Copilot Studio. |
 
@@ -68,11 +63,11 @@ To access the drill-down, select any metric value for the topic you're intereste
 
 ## Topic automation to Copilot Studio
 
-AI-discovered topics in Omnichannel Historical Analytics are often prime candidates as topics for automation in Copilot agents. If Copilot Studio is available in the region that your Customer Service organization is in, the feature can be enabled by your organization's administrator.  
+AI-discovered topics in Omnichannel Historical Analytics are often prime candidates as topics for automation in Copilot agents. If Copilot Studio is available in the region that your Customer Service organization is in, the feature is enabled by your organization's administrator.  
 
-After a topic is identified as a good automation candidate, the automation workflow can be triggered by selecting Copilot Studio on the **Topics** metrics grid or by selecting **Details** and then **Automate to Bot** in the drill -down view. This will open the topic editing form.
+After a topic is identified as a good automation candidate, the automation workflow can be triggered by selecting Copilot Studio on the **Topics** metrics grid or by selecting **Details** and then **Automate to Bot** in the drill -down view. This opens the topic editing form.
 
-Suggested trigger phrases and the topics related to the case title are provided. The first step is to select the Copilot agent that's ideal for adding the topic to. If no AI agent exists, select **Create Bot**. You'll be redirected to the Copilot Studio application for AI agent creation. You can modify both the topic name and trigger phrases, and in the case of trigger phrases; you can add additional ones. After this step is complete, select **Automate Continue** . The Copilot Studio topic will redirect to Copilot Studio for completion of authoring.
+Suggested trigger phrases and the topics related to the case title are provided. The first step is to select the Copilot agent that's ideal for adding the topic to. If no AI agent exists, select **Create Bot**. You are redirected to the Copilot Studio application for AI agent creation. You can modify the topic name and trigger phrases. You can also add more trigger phrases.  After this step is complete, select **Automate Continue**. 
 
 > [!NOTE]
 > AI agents created through the Microsoft Teams channel won't be listed in the AI agent selection list.

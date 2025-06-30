@@ -2,7 +2,7 @@
 title: "Administration Guide for Unified Service Desk 3.0 | MicrosoftDocs"
 description: "Use this topic to get a high-level overview of the Unified Service Desk Administration Guide and its content."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: get-started
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

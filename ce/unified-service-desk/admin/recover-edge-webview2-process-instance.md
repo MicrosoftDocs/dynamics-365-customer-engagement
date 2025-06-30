@@ -2,7 +2,7 @@
 title: "Recover Edge WebView2 Process instances in Unified Service Desk | MicrosoftDocs"
 description: "Learn about recovering an Edge WebView2 Process instance in Unified Service Desk."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: troubleshooting-general
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

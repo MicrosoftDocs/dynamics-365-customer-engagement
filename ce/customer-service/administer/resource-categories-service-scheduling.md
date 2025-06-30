@@ -1,8 +1,8 @@
 ---
-title: Set up resource categories for Service Scheduling (Dynamics 365 Customer Service)
+title: Set up resource categories for Service Scheduling
 description: Know how to create and set up resource categories for service scheduling in Dynamics 365 Customer Service.
-ms.date: 09/09/2024
-ms.topic: article
+ms.date: 05/09/2025
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -20,7 +20,7 @@ ms.custom:
 
 With bookable resource categories, you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment.
 
-Learn more in [Multi-resource scheduling with requirement groups](/dynamics365/customer-engagement/common-scheduler/multi-resource-scheduling-requirement-groups)
+Learn more in [Multi-resource scheduling with requirement groups](/dynamics365/customer-engagement/common-scheduler/multi-resource-scheduling-requirement-groups).
 
 ## Create a new resource category
 
@@ -28,14 +28,14 @@ Make sure that you have the required security role or equivalent permissions.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
-You can create a new resource category in the Customer Service admin center or Customer Service Hub app.
+You can create a new resource category in the Copilot Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
 
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+   ### [Copilot Service admin center](#tab/customerserviceadmincenter)
 
  
-    1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
+    1. In the site map, select **Service Scheduling** in **Operations**. The **Service scheduling** page appears.
     2. In the **Resource categories** section, select **Manage**.
         
         The **Active Resource Categories** view is displayed. You can switch between various system views using the dropdown list.  

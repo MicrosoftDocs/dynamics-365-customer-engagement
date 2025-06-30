@@ -1,8 +1,8 @@
 ---
 title: Configure AI topic clustering for conversations
-description: Configure topic cLustering for conversations using AI.
-ms.date: 02/06/2025
-ms.topic: article
+description: Configure topic clustering for conversations using AI.
+ms.date: 06/23/2025
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -11,12 +11,12 @@ ms.collection: bap-ai-copilot
 
 # Configure AI topic clustering for conversations
 
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
-
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
+> [!NOTE]
+> Starting June 20, 2025, the legacy AI topic clustering for conversation topics in Dynamics 365 Customer Service and Dynamics 365 Contact Center is deprecated and will reach the end of support. After August 31, 2025, this feature will be removed, and users won't be able to use it in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
 
 Customer Service Insights uses AI to give you insights into your customer service data by grouping semantically related conversations and generating a topic. New incoming conversations that match this topic are automatically added to the topic group. This can help you identify areas for improvement that impact system performance.
 
@@ -44,7 +44,7 @@ The Summary and Model run summary views provide key information about how the to
 
 AI discovered topics in Omnichannel historical analytics are often prime candidates as topics for automation in Copilot agents. If Copilot Studio is available in the region that your Customer Service organization is in, you can enable the feature.
 
-1. In Customer Service admin center or Contact Center admin center, go to **Insights** > **Topics clustering for conversations** > **Manage**.
+1. In Copilot Service admin center, go to **Insights** > **Topics clustering for conversations** > **Manage**.
 1. In the **Topic automation** section of the **Topic clustering for conversation** page, enable the toggle.
 
 > [!NOTE]

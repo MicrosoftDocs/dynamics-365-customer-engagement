@@ -1,3 +1,4 @@
+toc:
 - name: Dynamics 365 Customer Service
   items:
   - name: Implement Dynamics 365 Customer Service
@@ -14,11 +15,11 @@
           href: try-customer-service.md
         - name: Customer Service trial FAQ
           href: trial-faq.md
-      - name: Customer Service workspace
+      - name: Copilot Service workspace
         href: csw-overview.md
       - name: Customer Service Team Member
         href: customer-service-team-member.md
-      - name: Customer Service admin center
+      - name: Copilot Service admin center
         href: cs-admin-center.md
       - name: Customer Service Hub
         href: customer-service-hub-user-guide-basics.md
@@ -36,7 +37,7 @@
       items:
       - name: System requirements for Customer Service
         href: csh-system-requirements.md
-      - name: System requirements for Customer Service workspace
+      - name: System requirements for Copilot Service workspace
         href: customer-service-workspace-system-requirements.md
       - name: System requirements for Omnichannel for Customer Service
         href: system-requirements-omnichannel.md
@@ -94,12 +95,14 @@
         href: persona-privilege-mapping.md
     - name: Known issues in Customer Service and Omnichannel for Customer Service
       href: https://go.microsoft.com/fwlink/p/?linkid=2165393
-    - name: Compliance certifications of Omnichannel for Customer Service
+    - name: Compliance certifications for Customer Service
       href: compliance-certifications.md
   - name: Responsible AI
     items:
     - name: Overview
       href: responsible-ai-overview.md
+    - name: Responsible AI FAQ for AI Agents (Preview)
+      href: /dynamics365/contact-center/implement/faq-rai-ai-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
     - name: Responsible AI FAQ for Copilot in Customer Service
       href: faq-responsible-ai-copilot.md
   - name: Resources

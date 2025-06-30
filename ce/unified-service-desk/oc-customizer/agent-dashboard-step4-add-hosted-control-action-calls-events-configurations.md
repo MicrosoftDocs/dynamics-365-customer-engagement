@@ -2,7 +2,7 @@
 title: "Add hosted control, action calls, and events to the configurations | MicrosoftDocs"
 description: "Learn how to add a hosted control, action calls, and events to the configurations for agents using Omnichannel for Customer Service in Unified Service Desk."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

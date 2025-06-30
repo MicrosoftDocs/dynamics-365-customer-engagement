@@ -4,9 +4,9 @@ description: Learn about the Dataverse entities used in historical and real-time
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: reference
 ms.collection: 
-ms.date: 12/09/2024
+ms.date: 06/27/2025
 ms.custom: bap-template
 ---
 
@@ -61,7 +61,7 @@ The article describes the Dataverse entities used in historical and real-time an
 - msdyn_ocvoicemail
 - queueitem
 - msdyn_copilotinteraction
-- email
+- email 
 
 ## Entities used in real-time analytics
 

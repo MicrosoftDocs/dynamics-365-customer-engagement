@@ -2,7 +2,7 @@
 title: Manage access to Ongoing Conversations dashboard
 description: Instructions to view Ongoing Conversations dashboard for Omnichannel for Customer Service app on web.
 ms.date: 11/28/2024
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

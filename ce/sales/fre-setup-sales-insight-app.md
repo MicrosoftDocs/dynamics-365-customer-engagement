@@ -2,7 +2,7 @@
 title: Set up the conversation intelligence app
 description: Configure conversation intelligence to suit your requirements by setting up storage, granting app permissions, and defining tracked keywords and competitors.
 ms.date: 09/08/2023
-ms.topic: article
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag

@@ -1,8 +1,8 @@
 ---
 title: Configure service-level agreements in Dynamics 365 Customer Service
 description: Learn how to configure service-level agreements in Dynamics 365 Customer Service.
-ms.date: 01/27/2025
-ms.topic: article
+ms.date: 06/25/2025
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -19,7 +19,7 @@ ms.collection: get-started
 
 [!INCLUDE[cc-trial-sign-up](../../includes/cc-trial-sign-up.md)]
 
-With service-level agreements (SLAs) configured in Customer Service Hub, you can:
+With service-level agreements (SLAs) configured in Copilot Service admin center, you can:
 
 - Use out-of-the-box actions in Microsoft Power Automate.
 - Define work hours, and pause and resume SLAs at the SLA KPI level and SLA item level, which helps you track SLA items for different work hours based on priority and criteria. The pause settings at SLA KPI level or SLA item level give you added flexibility to define pause conditions at a more granular level.
@@ -27,7 +27,7 @@ With service-level agreements (SLAs) configured in Customer Service Hub, you can
 
 ![SLA pause and resume.](../media/SLA-pause-resume.png "SLA pause and resume")
 
-To configure SLAs in Customer Service Hub:
+To configure SLAs in Copilot Service admin center:
 
 1. [Review prerequisites](#prerequisites).
 2. [Create SLA KPIs](#create-sla-kpis).
@@ -39,7 +39,7 @@ To configure SLAs in Customer Service Hub:
 
 ## Prerequisites
 
-- Administrators and customer service representatives must have specific roles and privileges to work with the various entities related to SLA, for example, SLA, SLA KPI, and SLA KPI instances. Review the following requirements before configuring SLAs for your organization.
+- Administrators and customer service representatives (service representatives or representatives) must have specific roles and privileges to work with the various entities related to SLA, for example, SLA, SLA KPI, and SLA KPI instances. Review the following requirements before configuring SLAs for your organization.
 
     For administrators:
     - **CSR Manager** role or its equivalent roles and privileges.
@@ -48,7 +48,7 @@ To configure SLAs in Customer Service Hub:
     - SLA, SLA KPI, SLA KPI instances: Create permission at the business-unit level, delete permission at the parent-child level, and other permissions at the organization level.
     - Power Automate License is available for the user creating actions on SLA KPI instance statuses. 
 
-    For customer service representatives:
+    For service representatives:
     - **Customer Service Representative** role or its equivalent roles and privileges.
     - Read privileges at the organization level for SLA, SLA KPI, SLA KPI instances. 
 
@@ -56,11 +56,11 @@ To configure SLAs in Customer Service Hub:
 
 - Identify target entities and add customizations. To add customizations in target entities to track SLAs, complete these steps:
 
-   1. Create a lookup field on the entity for which an SLA has to be configured, and relate it to an SLA KPI instance. Lookup fields are created so that you can view the SLA in the timer on the entity form and track your SLAs. To learn more, see [Create and edit fields](../../customerengagement/on-premises/customize/create-edit-fields.md#create-and-edit-fields).
+   1. Create a lookup field on the entity for which an SLA has to be configured, and relate it to an SLA KPI instance. Lookup fields are created so that you can view the SLA in the timer on the entity form and track your SLAs. Learn more in [Create and edit fields](../../customerengagement/on-premises/customize/create-edit-fields.md#create-and-edit-fields).
    For example, to track an SLA on a case for "escalated by KPI", you need to create a field as **EscalatedByKPI** on the Case entity, and provide the **Data Type** as **Lookup** and **Target Record Type** as **SLA KPI Instance**.
 
    2. Use the lookup field to configure a timer to help users estimate the amount of time they have to complete a task—typically as specified in an SLA.<br>
-   To configure a timer, add the timer control to an entity form. The timer control initially displays a countdown timer to show the time remaining to complete the task. To learn more, see [Add a timer control to the Case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md).
+   To configure a timer, add the timer control to an entity form. The timer control initially displays a countdown timer to show the time remaining to complete the task. Learn more in [Add a timer control to the Case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md).
 
 > [!NOTE]
 > - In Unified Interface, the **Elapsed Time** and **Paused On** attributes of an SLA KPI Instance contain values that are equivalent to the **Onhold Time** and **Last Onhold Time** attributes respectively, of the target record, such as case and account in the web client.
@@ -70,7 +70,7 @@ To configure SLAs in Customer Service Hub:
 
 SLA KPIs are performance indicators, such as First Response or Resolve by, that you want to track.
 
-1. In the site map of Customer Service admin center, select **Service Terms** in **Operations**. The **Service Terms** page appears.
+1. In the site map of Copilot Service admin center, select **Service terms** in **Operations**. The **Service terms** page appears.
 
 1. In the **SLA KPIs** section, select **Manage**. The **Active SLAKPIs** view is displayed.
 
@@ -97,11 +97,12 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
    2. Select **Add** to define the conditions in which the SLA KPI can be paused.
 
     > [!NOTE]
-    > At runtime, when you pause an SLA KPI instance and resume it, the SLA KPI instance is canceled and a new SLA KPI instance is created.
+    > - At runtime, when you pause an SLA KPI instance and resume it, the SLA KPI instance is canceled and a new SLA KPI instance is created.
+    > - The **Failure Time**, **Warning Time**, and **Applicable from** fields used in the SLA KPI should have the *datetime* datatype, not date. 
 
 1. Select **Activate**. The SLA KPI is saved and activated.
 
-When customer service representatives (service representatives) create an SLA KPI instance for an entity other than the case entity, the **Regarding** column appears as blank on Unified Interface, and as **(No name)** on the web client. This functionality is a by-design behavior, and is also applicable to custom entities.
+When service representatives create an SLA KPI instance for an entity other than the case entity, the **Regarding** column appears as blank on Unified Interface, and as **(No name)** on the web client. This functionality is a by-design behavior, and is also applicable to custom entities.
 
 If you choose to show the entity name for your service representatives, perform the steps [provided](#configure-sla-kpi-instance-entity-name-through-advanced-find).
 
@@ -155,7 +156,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 ### Create an SLA
 
-1. In the site map of Customer Service admin center, select **Service Terms** in **Operations**. The **Service Terms** page appears.
+1. In the site map of Copilot Service admin center, select **Service terms** in **Operations**. The **Service terms** page appears.
 
 1. In the **Service Level Agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements** view is displayed. You can switch between various system views using the dropdown list.  
 
@@ -171,9 +172,9 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 ### Create an SLA item
 
-1. In the site map of Customer Service admin center, select **Service Terms** in **Operations**. The **Service Terms** page appears.
+1. In the site map of Copilot Service admin center, select **Service terms** in **Operations**. The **Service terms** page appears.
 
-1. In the **Service Level Agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements** view is displayed. Select the SLA for which you want to add an SLA item.
+1. In the **Service-level agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements from Unified Interface** view is displayed. Select the SLA for which you want to add an SLA item.
 
 1. On the page that appears, select **New SLA Item**. The **New SLA Item** dialog box appears.
 
@@ -182,7 +183,9 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
    - **Name**: Enter a name.
    - **KPI**: Select an SLA KPI.
    - **Allow Pause and Resume**: (Optional.) Enable this option if you want the SLA to be paused during the time the record is on hold. For each enabled entity for the SLA, you can set each status considered "on hold" in the **Other SLA Settings** > **Manage** > **Service Configuration Settings** page.
-   - **Business Hours**: (Optional.) To assign business hours, select a value. The SLA is calculated based on the business hours and business closure that you define. More information: [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md).
+      > [!NOTE]
+      > You can't toggle the **Allow Pause and Resume** option after you save the SLA Item for the first time.
+   - **Business Hours**: (Optional.) To assign business hours, select a value. The SLA is calculated based on the business hours and business closure that you define. Learn more in [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md).
   
 1. In the **Applicable When** section, define the conditions for when the SLA can be applied for the entity.
 
@@ -249,7 +252,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
     h. Save and exit Power Automate.
 
     > [!NOTE]
-    > More information: [Configure connectors in Power Automate](/connectors/commondataserviceforapps/)
+    > Learn more in [Configure connectors in Power Automate](/connectors/commondataserviceforapps/)
 
 1. Select **Save & Close** on the SLA item dialog box.
 
@@ -258,7 +261,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 1. Select **Activate**. The SLA is activated.
 
 ## Apply SLAs
-To understand how you can apply SLAs, see [Apply service-level agreements](apply-slas.md#apply-slas)
+Learn how you can apply SLAs in [Apply service-level agreements](apply-slas.md#apply-slas).
 
 ### Related information
 

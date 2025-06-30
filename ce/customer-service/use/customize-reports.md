@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 01/09/2025
+ms.date: 04/30/2025
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -25,7 +25,7 @@ Visualize key performance indicators (KPIs) and trends for standard contact cent
 - Add new pivots and pages. For example, create a pivot or page that's dedicated to a specific queue with queue-level metrics.
 - Rearrange out-of-the-box report layouts and change themes.
 
-You can customize Customer Service historical, Omnichannel historical, and Omnichannel real-time analytics reports in the Customer Service workspace and Contact Center workspace apps. You can't customize unified routing and knowledge analytics reports.
+You can customize the Customer Service historical, Omnichannel historical, Omnichannel real-time analytics, and Real-time analytics for record routing reports in the Copilot Service workspace app. You can't customize unified routing and knowledge analytics reports.
 
 > [!NOTE]
 > - After you customize and publish a report, all customizations become visible to all users in your organization.
@@ -35,11 +35,11 @@ You can customize Customer Service historical, Omnichannel historical, and Omnic
 
 - To edit analytics reports, users must have the **Analytics Report Author** role. Learn more in [Assign roles to users](../implement/add-users-assign-roles.md#assign-roles-to-users).
 
-- You don't need a Power BI license to customize the Customer Service historical, Omnichannel historical, and Omnichannel real-time analytics reports embedded in the Customer Service workspace or the Contact Center workspace.
+- You don't need a Power BI license to customize the Customer Service historical, Omnichannel historical, and Omnichannel real-time analytics reports embedded in Copilot Service workspace.
 
 ## Customize the display of analytics reports
 
-1. In Customer Service workspace or Contact Center workspace, open the **Omnichannel real-time analytics**, **Omnichannel historical analytics**, or **Customer Service historical analytics** report.
+1. In Copilot Service workspace, open the **Omnichannel real-time analytics**, **Omnichannel historical analytics**, or **Customer Service historical analytics** report.
 
 1. Select **Edit report** to open the embedded Power BI editor.
 

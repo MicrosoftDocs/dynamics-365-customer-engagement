@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to get content recommendations and answers from SharePoint
 description: Discover how integrating SharePoint with Sales allows Copilot to recommend product-related documents and answer queries from stored files.
-ms.date: 01/15/2025
+ms.date: 06/26/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -64,9 +64,8 @@ The **Show related files** prompt lists the files that meet the following criter
 <a name="copilot-content-qa"></a>
 ## Get answers from SharePoint documents
 
-As a seller, you might have to refer to documents such as contracts, technical documents, and marketing collateral to answer questions from your customers. If these documents are stored in SharePoint, Copilot can help you find answers from the documents and summarize them for you.
+As a seller, you might have to refer to documents such as contracts, technical documents, and marketing collateral to answer questions from your customers. If these documents are stored in SharePoint, Copilot can help you find answers from the documents and summarize them for you. Learn more about [asking questions in your preferred language](#asking-questions-in-your-preferred-language).
 
-You can ask questions in your preferred language. Copilot searches for answers from all the SharePoint documents that you have access to, irrespective of the language of the documents and responds in your preferred language. For a list of supported languages, see [this report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
 **To get answers from SharePoint documents**
 
@@ -82,6 +81,22 @@ You can ask questions in your preferred language. Copilot searches for answers f
     Copilot searches for answers from the sales data stored in Dataverse first. After the result is displayed, you'll see a follow-up prompt.  
 1. Select the follow-up prompt **Search for the answer in SharePoint**.  
    If the answer is available in SharePoint, Copilot summarizes the answer and provides links to the corresponding documents in SharePoint.
+
+
+### Asking questions in your preferred language
+
+You can ask Copilot questions in your preferred language. Copilot searches for answers from all the SharePoint documents that you have access to and responds back in your preferred language. If the language used in the question and the SharePoint document is different, Copilot might not be able to provide answers or might provide inaccurate answers.
+
+The following table explains the different scenarios:
+
+| Preferred language | Question language | Document language | Copilot response |
+|---|-------------------|-------------------|------------------|
+| English  | German           | German          | English          |
+| French  | French           | French          | French           |
+| English | English           | German            | Might not provide accurate answers |
+
+For a list of languages supported as a preferred language, see [this report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
+
 
 ### Tips for asking the right questions
 

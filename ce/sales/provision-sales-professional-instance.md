@@ -2,7 +2,7 @@
 title: Install the Sales Professional app
 description: Learn how to install the Sales Professional app in a Power Platform environment that has Dynamics 365 apps enabled.
 ms.date: 07/17/2024
-ms.topic: article
+ms.topic: install-set-up-deploy
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

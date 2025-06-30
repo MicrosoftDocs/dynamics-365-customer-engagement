@@ -2,8 +2,8 @@
 title: Edit the booking and work order form
 description: Learn how to edit the booking and work order form for the Dynamics 365 Field Service mobile app.
 ms.subservice: field-service-mobile
-ms.topic: conceptual
-ms.date: 01/06/2025
+ms.topic: how-to
+ms.date: 06/19/2025
 author: JonBaker007
 ms.author: jobaker
 ---
@@ -20,7 +20,9 @@ In Field Service, booking and work order forms are closely related. When a techn
 
 In your web browser, go to the **Field Service Mobile** model-driven app and select **Options**, then **Open in App Designer**. Go to the **Bookable Resource Booking** table and find the **Booking and Work Order** form. For detailed steps, see [Create, edit, or configure forms using the form designer](/powerapps/maker/model-driven-apps/create-and-edit-forms).
 
-Change the following forms from the *Work Order* and *Bookable Resource Booking* tables to update the combined work order and booking form in the mobile app.
+To respect field mapping from the work order when a new work order is created, the **Work Order Product**, **Work Order Service Task**, and **Work Order Service** controls must be contained within the work order form.
+
+To update the combined work order and booking form in the mobile app, change the following forms from the *Work Order* and *Bookable Resource Booking* tables:
 
 - Work Order - Customer
 - Work Order - Service

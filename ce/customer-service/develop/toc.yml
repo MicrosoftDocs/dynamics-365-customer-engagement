@@ -28,7 +28,7 @@
         - name: Extend transformer logic on templates
           href: extend-transformer-logic-template.md
         - name: Transform, map external source data to knowledge fields
-          href: create-a-conversion-plugin.md  
+          href: int-search-metadata-schema.md#transform-map-external-source-data-to-knowledge-fields
         - name: Configure the faceted search results web template from your portal
           href: configure-faceted-search-results.md          
       - name: Chat
@@ -70,7 +70,7 @@
           - name: Test the custom messaging channel
             href: test-custom-channel-sample-html.md
           - name: Markdown formats in custom channels that use Direct Line
-            href: markdown-formats-dev.md   
+            href: bring-your-own-channel.md#markdown-formats-in-custom-channels
       - name: Copilot in Customer Service
         items:  
         - name: Download Copilot transcripts and interaction data
@@ -83,13 +83,13 @@
           href: smart-assist-scenario.md
         - name: Retrieve and format rich messages
           href: reference/methods/message-object.md  
-      - name: Bots
+      - name: AI agents
         items:
-        - name: Configure bot context
+        - name: Configure AI agent context
           items:
-          - name: Configure bot context
+          - name: Configure AI agent context
             href: enable-bot-context.md
-          - name: Azure bots
+          - name: Azure agents
             items:
             - name: Enable bot context for Azure bots
               href: enable-bot-context-azure.md
@@ -97,20 +97,24 @@
               href: parse-activity-json-to-get-bot-context.md
           - name: Copilot Studio
             items:
-            - name: Enable bot context for Copilot Studio bots
+            - name: Enable bot context for Copilot agents
               href: enable-bot-context-pva.md   
           - name: Code samples for parsing activity JSON 
             href: bot-context-json-samples.md
-        - name: Configure Azure bots to escalate and end conversations
+        - name: Configure Azure agents to escalate and end conversations
           href: bot-escalate-end-conversation.md
-        - name: Download file attachments from Azure bot
+        - name: Download file attachments from Azure agents
           href: download-attachments-bot.md
-        - name: Get Microsoft Teams user details from Azure bot
+        - name: Get Microsoft Teams user details from Azure agents
           href: user-details-teams-azure-bot.md
         - name: Display suggested actions in a vertical layout
           href: suggested-actions.md
         - name: Pass authentication token to bot during single sign-on in live chat
           href: pass-auth-token-sso-live-chat.md
+      - name: Metrics and queries
+        items:
+        - name: Calculate conversation metrics
+          href: calculate-conversation-metrics.md
       - name: Extend Customer Service
         items: 
         - name: Extend Omnichannel for Customer Service
@@ -282,13 +286,17 @@
               - name: ON_SESSION_SWITCH
                 href: reference/events/on_session_switch.md  
               - name: ON_SESSION_CLOSED
-                href: reference/events/on_session_closed.md     
+                href: reference/events/on_session_closed.md 
+              - name: ON_TAB_SWITCH    
+                href: reference/events/on_tab_switch.md
             - name: Methods
               items: 
                - name: getEventPublisherTopic
                  href: reference/methods/getEventPublisherTopic.md       
           - name: Readme
             href: https://go.microsoft.com/fwlink/p/?linkid=2141982
+        - name: Session closure reasons
+          href: /dynamics365/contact-center/extend/closure-reasons-descriptions?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml  
     - name: Responsible AI
       items:
       - name: Overview

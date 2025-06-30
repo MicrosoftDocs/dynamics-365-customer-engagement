@@ -4,9 +4,9 @@ description: Learn about the predefined prompts that are available in Copilot in
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.topic: conceptual 
+ms.topic: concept-article 
 ms.collection: get-started 
-ms.date: 11/27/2024
+ms.date: 06/26/2025
 ms.custom: bap-template
 ---
 
@@ -25,8 +25,8 @@ The prompt guide in Copilot in Dynamics 365 Sales provides predefined prompts th
 | **Ask questions** > **What's new with my sales records** | Get a list of your sales records that were updated in the last seven days. | [What's new with my sales records](copilot-ask-questions.md#whats-new-with-my-sales-records) |
 | **Ask questions** > **What's newly assigned to me** | Get a list of leads and opportunities that were assigned to you in the last 15 days. | [What's newly assigned to me](copilot-ask-questions.md#whats-newly-assigned-to-me) |
 | **Ask questions** > **What's changed for *record type*** | Get a list of updates to your account, lead, or opportunity records in the last seven days or since you last signed in. This prompt is available only when auditing is enabled. | [Show recent changes](copilot-ask-questions.md#get-recent-changes) |
-| **Stay ahead** > **Prepare for sales appointments** | Prepare better for your sales appointments with a summary of notes from the last three months and the most recent email thread on the timeline of the related record. | [Prepare for sales appointments](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments) |
-| **Stay ahead** > **Show emails that need follow up** | Get a list of emails that you haven't replied to. | [Show emails that need followup](copilot-stay-ahead.md#display-unanswered-emails) |
+| **Stay ahead** > **Prepare for sales meetings** | Prepare better for your sales meetings with a summary of notes from the last three months and the most recent email thread on the timeline of the related record. | [Prepare for sales meetings](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments) |
+| **Stay ahead** > **Show emails that need follow up** | Get a list of emails that you haven't replied to. | [Show emails that need follow up](copilot-stay-ahead.md#display-unanswered-emails) |
 
 
 ## Related information

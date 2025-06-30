@@ -2,7 +2,7 @@
 title: Add preferred resources for a requirement
 description: Learn how you can restrict the resources that are matched to a requirement in Dynamics 365 Field Service.
 ms.date: 06/11/2024
-ms.topic: conceptual
+ms.topic: how-to
 author: ryanchen8
 ms.author: chenryan
 ms.custom: bap-template

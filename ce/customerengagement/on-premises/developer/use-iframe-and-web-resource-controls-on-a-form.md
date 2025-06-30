@@ -5,7 +5,7 @@ ms.reviewer: pehecke
 description: "Learn how to work with IFRAME and web resources in model-driven apps using JavaScript."
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 ms.assetid: 1d1b53cb-bfee-4fba-9bea-ea9e6e31309d
 author: JimDaly
 ms.author: jdaly

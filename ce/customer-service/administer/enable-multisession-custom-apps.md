@@ -1,7 +1,7 @@
 ---
 title: Enable multisession experience and productivity tools in custom apps (preview)
 description: Learn how to enable the multisession experience and productivity tools in custom apps.
-ms.date: 01/22/2025
+ms.date: 04/25/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -14,13 +14,13 @@ ms.collection:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The browser-like tabbed experience in Customer Service workspace helps customer service representatives (service representatives or representatives) handle multiple sessions concurrently. Representatives can work on multiple cases and conversations, and perform other activities in a single workspace app. You can enable this experience and productivity tools for your representatives who use custom model-driven app.
+The browser-like tabbed experience in Copilot Service workspace helps customer service representatives (service representatives or representatives) handle multiple sessions concurrently. Representatives can work on multiple cases and conversations, and perform other activities in a single workspace app. You can enable this experience and productivity tools for your representatives who use custom model-driven app.
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 
-Make sure that the [system requirements for Customer Service workspace](../implement/customer-service-workspace-system-requirements.md) are met.
+Make sure that the [system requirements for Copilot Service workspace](../implement/customer-service-workspace-system-requirements.md) are met.
 
 ## How it works
 
@@ -28,9 +28,9 @@ The process for enabling the multisession experience and productivity tools for 
 
 1. Create a model-driven app from a solution in your development environment. Learn more in [Build your first model-driven app](/power-apps/maker/model-driven-apps/build-first-model-driven-app).
 
-2. In Customer Service admin center, enable the multisession and productivity tools for the custom app as explained in the section that follows.
+2. In Copilot Service admin center, enable the multisession and productivity tools for the custom app as explained in the section that follows.
 
-3. Validate the changes and test the experience in the custom app. The productivity tools settings are applied to the user account based on the agent experience profile that’s assigned to the user. Learn more in [Agent experience profiles](./overview.md).
+3. Validate the changes and test the experience in the custom app. The productivity tools settings are applied to the user account based on the experience profile that’s assigned to the user. Learn more in [Experience profiles](./overview.md).
 
 4. Export the solution from the development environment that contains the model-driven app and the corresponding sitemap. The multisession navigation settings are included in the app module by default. Learn more in [Export solutions](/power-apps/maker/data-platform/export-solutions).
 
@@ -40,9 +40,9 @@ The process for enabling the multisession experience and productivity tools for 
 
 Perform the following steps to enable the experience.
 
-1. In the site map of Customer Service admin center, go to **Workspaces**. 
+1. In the site map of Copilot Service admin center, go to **Workspaces**. 
 
-1. Select **Manage** in **Productivity settings for model-driven apps**.
+1. Select **Manage** in **Productivity setting for model-driven apps**.
 
 1. Select the custom model-driven app you want to use and select **Edit**.
 

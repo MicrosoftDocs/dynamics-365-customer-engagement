@@ -72,6 +72,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_description](#BKMK_msdyn_description)
 - [msdyn_intentbasedroutingenabled](#BKMK_msdyn_intentbasedroutingenabled)
 - [msdyn_intentfamilyId](#BKMK_msdyn_intentfamilyId)
+- [msdyn_iscaseintentfromactivityenabled](#BKMK_msdyn_iscaseintentfromactivityenabled)
 - [msdyn_isdefault](#BKMK_msdyn_isdefault)
 - [msdyn_isenabled](#BKMK_msdyn_isenabled)
 - [msdyn_Name](#BKMK_msdyn_Name)
@@ -113,7 +114,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Default user group to be used when no agent group is identified**|
+|Description|**Default user group to be used when no user group is identified**|
 |DisplayName|**Default User Group**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -166,6 +167,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_intentfamilyid`|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+### <a name="BKMK_msdyn_iscaseintentfromactivityenabled"></a> msdyn_iscaseintentfromactivityenabled
+
+|Property|Value|
+|---|---|
+|Description|**Is Case Intent from Activity Enabled for Intentfamily**|
+|DisplayName|**Is Case Intent from Activity Enabled for Intentfamily**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_iscaseintentfromactivityenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_intentfamily_ismsdyn_caseintentfromactivityenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_isdefault"></a> msdyn_isdefault
 
@@ -549,7 +566,7 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`owningbusinessunit`|
-|RequiredLevel|SystemRequired|
+|RequiredLevel|None|
 |Type|Lookup|
 |Targets|businessunit|
 

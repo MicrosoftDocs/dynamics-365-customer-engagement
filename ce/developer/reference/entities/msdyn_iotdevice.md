@@ -268,7 +268,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**[Deprecated] Last Command Sent**|
+|DisplayName|**\[Deprecated\] Last Command Sent**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_lastcommandsent`|
@@ -281,7 +281,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**[Deprecated] Last Command Sent Time**|
+|DisplayName|**\[Deprecated\] Last Command Sent Time**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_lastcommandsenttime`|

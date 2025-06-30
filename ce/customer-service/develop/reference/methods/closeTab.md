@@ -1,7 +1,7 @@
 ---
 title: closeTab method (app profile manager) JavaScript API Reference 
-description: Learn about the closeTab API of app profile manager in Customer Service workspace.
-ms.date: 12/10/2024
+description: Learn about the closeTab API of app profile manager in Copilot Service workspace.
+ms.date: 06/17/2025
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 Closes the specified app tab in the current session.
 
-> [!Note]
+> [!NOTE]
 > The anchor tab of a session (the first tab) cannot be closed.
 
 ## Syntax

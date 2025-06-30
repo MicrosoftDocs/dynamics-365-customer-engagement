@@ -1,8 +1,8 @@
 ---
 title: Manage knowledge analytics
 description: Learn how to configure Knowledge analytics dashboards.
-ms.date: 02/03/2025
-ms.topic: article
+ms.topic: how-to
+ms.date: 06/20/2025
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -13,24 +13,24 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-
 The Knowledge analytics dashboard is designed to provide your supervisors and knowledge workers with valuable insights into how your customer service representatives are searching and using knowledge articles.
 
 By default, the Knowledge analytics dashboard is enabled for the System Administrator, Knowledge Manager, and CSR Manager roles. To configure user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 
 
 > [!NOTE]
-> Knowledge analytics provides data that's based on internal knowledge search and doesn't provide information about customer search behavior.
+> - Knowledge analytics provides data that's based on internal knowledge search and doesn't provide information about customer search behavior.
+> - The report retains it current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the steps provided [here](analytics_overview.md#keep-the-report-state-when-you-switch-session-tabs) to keep the report state.
 
 ## Manage Knowledge analytics dashboard
 
-Use the Customer Service admin center app to enable or disable knowledge analytics reports.
+Use the Copilot Service admin center app to enable or disable knowledge analytics reports.
 
-1. In the site map of Customer Service admin center, select **Insights** in **Operations**. The **Insights** page appears.
+1. In the site map of Copilot Service admin center, select **Insights** in **Operations**. The **Insights** page appears.
 
-1. In **Knowledge analytics**, select **Manage**. The **Knowledge analytics** page is displayed.
+1. In **Knowledge analytics**, select **Manage**. The **Knowledge analytics** appears.
     
-      :::image type="content" source="../media/knowledge-analytics_csac.png" alt-text="Screenshot of the Insights page in Custom service admin center":::
+      :::image type="content" source="../media/knowledge-analytics_csac.png" alt-text="Screenshot of the Insights page in Copilot Service admin center":::
 
 1. Set the **Enable Knowledge analytics** toggle to **On** to enable the reports or set the toggle to **Off** to disable the reports.
 
@@ -38,7 +38,7 @@ Use the Customer Service admin center app to enable or disable knowledge analyti
 
 ## Configure Search term insights dashboard
 
-1. In the site map of Customer Service admin center, select **Insights** in **Operations**. The **Insights** page appears.
+1. In the site map of Copilot Service admin center, select **Insights** in **Operations**. The **Insights** page appears.
 
 1. In the **Knowledge analytics** section, select **Manage**. The **Knowledge analytics** page is displayed.
 
@@ -50,11 +50,11 @@ Use the Customer Service admin center app to enable or disable knowledge analyti
 
 - To view the reports in Customer Service Hub, go to **Service** > **Insights** > **Knowledge analytics**.
 
-- To view the reports in Customer Service workspace, select the hamburger menu, and then select **Knowledge analytics** in the site map. The **Article insights** dashboard is displayed. The **Search term insights** are displayed if you previously configured the steps in [Configure Search term insights dashboard](#configure-search-term-insights-dashboard).
+- To view the reports in Copilot Service workspace, select the hamburger menu, and then select **Knowledge analytics** in the site map. The **Article insights** dashboard is displayed. The **Search term insights** are displayed if you previously configured the steps in [Configure Search term insights dashboard](#configure-search-term-insights-dashboard).
 
-If you customized the Customer Service workspace app, you must complete the following steps to be able to view the reports.
+If you customized the Copilot Service workspace app, you must complete the following steps to be able to view the reports.
 
-1. On the Customer Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
+1. On the Copilot Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
 1. Select **New**.
 1. On the **New page** dialog, select **Dataverse Table** for Knowledge analytics, and then select **Next**.
 1. To add a Dataverse table, select the **Select existing table** option, and then select **Knowledge analytics**.

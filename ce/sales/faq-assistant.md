@@ -1,8 +1,8 @@
 ---
 title: Assistant FAQs
 description: Get answers to frequently asked questions about the assistant.
-ms.date: 3/15/2024
-ms.topic: troubleshooting
+ms.date: 06/04/2025
+ms.topic: faq
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag

@@ -81,14 +81,28 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_EnableRealTimeTranslation](#BKMK_msdyn_EnableRealTimeTranslation)
 - [msdyn_enablesoundnotifications](#BKMK_msdyn_enablesoundnotifications)
 - [msdyn_inactive_presence_lookup](#BKMK_msdyn_inactive_presence_lookup)
+- [msdyn_isconsulttoagentenabled](#BKMK_msdyn_isconsulttoagentenabled)
+- [msdyn_isconsulttoagentenabledformessaging](#BKMK_msdyn_isconsulttoagentenabledformessaging)
+- [msdyn_isconsulttoagentenabledforvoice](#BKMK_msdyn_isconsulttoagentenabledforvoice)
+- [msdyn_isconsulttoqueueenabled](#BKMK_msdyn_isconsulttoqueueenabled)
+- [msdyn_isconsulttoqueueenabledformessaging](#BKMK_msdyn_isconsulttoqueueenabledformessaging)
+- [msdyn_isconsulttoqueueenabledforvoice](#BKMK_msdyn_isconsulttoqueueenabledforvoice)
 - [msdyn_isdefaultpersonamapped](#BKMK_msdyn_isdefaultpersonamapped)
 - [msdyn_ispersonalizationofsoundenabled](#BKMK_msdyn_ispersonalizationofsoundenabled)
 - [msdyn_isPersonalMessagesEnabled](#BKMK_msdyn_isPersonalMessagesEnabled)
 - [msdyn_ispersonasecurityrolemappingenabled](#BKMK_msdyn_ispersonasecurityrolemappingenabled)
 - [msdyn_IsSkillBasedRoutingEnabled](#BKMK_msdyn_IsSkillBasedRoutingEnabled)
+- [msdyn_istransfertoagentenabled](#BKMK_msdyn_istransfertoagentenabled)
+- [msdyn_istransfertoagentenabledformessaging](#BKMK_msdyn_istransfertoagentenabledformessaging)
+- [msdyn_istransfertoagentenabledforvoice](#BKMK_msdyn_istransfertoagentenabledforvoice)
+- [msdyn_istransfertoqueueenabled](#BKMK_msdyn_istransfertoqueueenabled)
+- [msdyn_istransfertoqueueenabledformessaging](#BKMK_msdyn_istransfertoqueueenabledformessaging)
+- [msdyn_istransfertoqueueenabledforvoice](#BKMK_msdyn_istransfertoqueueenabledforvoice)
 - [msdyn_IsUpdateSkillsEnabled](#BKMK_msdyn_IsUpdateSkillsEnabled)
+- [msdyn_IsWEMShiftBasedRoutingEnabled](#BKMK_msdyn_IsWEMShiftBasedRoutingEnabled)
 - [msdyn_maskforagent](#BKMK_msdyn_maskforagent)
 - [msdyn_maskforcustomer](#BKMK_msdyn_maskforcustomer)
+- [msdyn_maximumnumberofattemptsforconsulttoqueue](#BKMK_msdyn_maximumnumberofattemptsforconsulttoqueue)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_number_of_declines_allowed](#BKMK_msdyn_number_of_declines_allowed)
 - [msdyn_omnichannelconfigurationId](#BKMK_msdyn_omnichannelconfigurationId)
@@ -472,6 +486,90 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Lookup|
 |Targets|msdyn_presence|
 
+### <a name="BKMK_msdyn_isconsulttoagentenabled"></a> msdyn_isconsulttoagentenabled
+
+|Property|Value|
+|---|---|
+|Description|**Consult to agent.**|
+|DisplayName|**Consult to agent**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isconsulttoagentenabled`|
+|RequiredLevel|SystemRequired|
+|Type|Integer|
+|MaxValue|1|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_isconsulttoagentenabledformessaging"></a> msdyn_isconsulttoagentenabledformessaging
+
+|Property|Value|
+|---|---|
+|Description|**Consult to agent for messaging.**|
+|DisplayName|**Consult to agent for messaging**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isconsulttoagentenabledformessaging`|
+|RequiredLevel|SystemRequired|
+|Type|Integer|
+|MaxValue|1|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_isconsulttoagentenabledforvoice"></a> msdyn_isconsulttoagentenabledforvoice
+
+|Property|Value|
+|---|---|
+|Description|**Consult to agent for voice.**|
+|DisplayName|**Consult to agent for voice**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isconsulttoagentenabledforvoice`|
+|RequiredLevel|SystemRequired|
+|Type|Integer|
+|MaxValue|1|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_isconsulttoqueueenabled"></a> msdyn_isconsulttoqueueenabled
+
+|Property|Value|
+|---|---|
+|Description|**Consult to queue.**|
+|DisplayName|**Consult to queue**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isconsulttoqueueenabled`|
+|RequiredLevel|SystemRequired|
+|Type|Integer|
+|MaxValue|1|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_isconsulttoqueueenabledformessaging"></a> msdyn_isconsulttoqueueenabledformessaging
+
+|Property|Value|
+|---|---|
+|Description|**Consult to queue for messsaging.**|
+|DisplayName|**Consult to queue for messaging**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isconsulttoqueueenabledformessaging`|
+|RequiredLevel|SystemRequired|
+|Type|Integer|
+|MaxValue|1|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_isconsulttoqueueenabledforvoice"></a> msdyn_isconsulttoqueueenabledforvoice
+
+|Property|Value|
+|---|---|
+|Description|**Consult to queue for voice.**|
+|DisplayName|**Consult to queue for voice**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isconsulttoqueueenabledforvoice`|
+|RequiredLevel|SystemRequired|
+|Type|Integer|
+|MaxValue|1|
+|MinValue|0|
+
 ### <a name="BKMK_msdyn_isdefaultpersonamapped"></a> msdyn_isdefaultpersonamapped
 
 |Property|Value|
@@ -552,6 +650,90 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |True Label|Yes|
 |False Label|No|
 
+### <a name="BKMK_msdyn_istransfertoagentenabled"></a> msdyn_istransfertoagentenabled
+
+|Property|Value|
+|---|---|
+|Description|**Transfer to agent.**|
+|DisplayName|**Transfer to agent**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_istransfertoagentenabled`|
+|RequiredLevel|SystemRequired|
+|Type|Integer|
+|MaxValue|1|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_istransfertoagentenabledformessaging"></a> msdyn_istransfertoagentenabledformessaging
+
+|Property|Value|
+|---|---|
+|Description|**Transfer to agent for messaging.**|
+|DisplayName|**Transfer to agent for messaging**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_istransfertoagentenabledformessaging`|
+|RequiredLevel|SystemRequired|
+|Type|Integer|
+|MaxValue|1|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_istransfertoagentenabledforvoice"></a> msdyn_istransfertoagentenabledforvoice
+
+|Property|Value|
+|---|---|
+|Description|**Transfer to agent for voice.**|
+|DisplayName|**Transfer to agent for voice**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_istransfertoagentenabledforvoice`|
+|RequiredLevel|SystemRequired|
+|Type|Integer|
+|MaxValue|1|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_istransfertoqueueenabled"></a> msdyn_istransfertoqueueenabled
+
+|Property|Value|
+|---|---|
+|Description|**Transfer to queue.**|
+|DisplayName|**Transfer to queue**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_istransfertoqueueenabled`|
+|RequiredLevel|SystemRequired|
+|Type|Integer|
+|MaxValue|1|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_istransfertoqueueenabledformessaging"></a> msdyn_istransfertoqueueenabledformessaging
+
+|Property|Value|
+|---|---|
+|Description|**Transfer to queue for messaging.**|
+|DisplayName|**Transfer to queue for messaging**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_istransfertoqueueenabledformessaging`|
+|RequiredLevel|SystemRequired|
+|Type|Integer|
+|MaxValue|1|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_istransfertoqueueenabledforvoice"></a> msdyn_istransfertoqueueenabledforvoice
+
+|Property|Value|
+|---|---|
+|Description|**Transfer to queue for voice.**|
+|DisplayName|**Transfer to queue for voice**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_istransfertoqueueenabledforvoice`|
+|RequiredLevel|SystemRequired|
+|Type|Integer|
+|MaxValue|1|
+|MinValue|0|
+
 ### <a name="BKMK_msdyn_IsUpdateSkillsEnabled"></a> msdyn_IsUpdateSkillsEnabled
 
 |Property|Value|
@@ -564,6 +746,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_omnichannelconfiguration_msdyn_msdyn_isupdateskillsenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_IsWEMShiftBasedRoutingEnabled"></a> msdyn_IsWEMShiftBasedRoutingEnabled
+
+|Property|Value|
+|---|---|
+|Description|**Enable Shift Based Routing for Agents & Supervisors**|
+|DisplayName|**Enable Shift Based Routing**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_iswemshiftbasedroutingenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_omnichannelconfiguration_msdyn_iswemshiftbasedroutingenabled`|
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
@@ -599,6 +797,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DefaultValue|True|
 |True Label|Yes|
 |False Label|No|
+
+### <a name="BKMK_msdyn_maximumnumberofattemptsforconsulttoqueue"></a> msdyn_maximumnumberofattemptsforconsulttoqueue
+
+|Property|Value|
+|---|---|
+|Description|**Maximum consult attempts.**|
+|DisplayName|**Maximum consult attempts**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_maximumnumberofattemptsforconsulttoqueue`|
+|RequiredLevel|SystemRequired|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|1|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 

@@ -1,8 +1,8 @@
 ---
 title: Product and price list FAQs
 description: Get answers to frequently asked questions about product and price list.
-ms.date: 03/15/2024
-ms.topic: troubleshooting
+ms.date: 06/09/2025
+ms.topic: faq
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag

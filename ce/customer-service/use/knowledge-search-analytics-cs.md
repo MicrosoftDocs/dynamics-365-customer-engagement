@@ -1,8 +1,8 @@
 ---
 title: Knowledge article and search term analytics dashboards
 description: Learn about the knowledge article and search term analytics dashboards to better understand customer service representative performance in your organization.
-ms.date: 02/03/2025
-ms.topic: article
+ms.topic: conceptual
+ms.date: 05/06/2025
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -46,11 +46,11 @@ The Articles insights dashboard represents the following metrics.
 | Avg. feedback rating trend | The average feedback rating provided by the consumers of the knowledge articles. |
 | Most viewed articles | The top 20 articles used, along with visitors, average feedback rating, linked cases and shares metrics. |
 | Linked cases | The total number of cases that were linked to the articles. |
-| Shares | The total number of the article that were shared by the support representative. |
+| Shares | The total number of articles that were shared by the customer service representative (service representative or represntative). |
 
 ## Search term insights
 
-The Search term insights dashboard is designed to provide supervisors and knowledge workers with valuable insights into how customer service representatives find and use knowledge articles.
+The Search term insights dashboard is designed to provide supervisors and knowledge workers with valuable insights into how representatives find and use knowledge articles.
 
 Your administrator must enable the dashboard for you to access it. More information: [Configure Knowledge search insights](../administer/enable-knowledge-search-insights.md).
 
@@ -87,6 +87,12 @@ The knowledge Search term insights dashboard represents the following metrics.
 Use the Timezone option available in the reports to view the  time information according to the time zone that you specify. You can save your preferred time zone settings for reports as bookmarks. The bookmarks allow you to switch between reports in various time zones, without having to set the time zone. More information: [Manage bookmarks for reports](manage-bookmarks.md#manage-bookmarks-for-reports)
 
 :::image type="content" source="../media/knowledge-analytics-timezone.png" alt-text="Screenshot shows Timezone view in reports":::
+
+## Overall performance (Preview)
+
+[!INCLUDE preview-banner]
+
+You can view this report if your administrator has enabled the **Customer Knowledge Management Agent (preview)** and enabled the **Real-time creation** and **Creation from historical cases** options. Learn more in [Manage Customer Knowledge Management Agent (preview)](../administer/admin-km-agent.md#manage-customer-knowledge-management-agent-preview).
 
 ### Related information
 

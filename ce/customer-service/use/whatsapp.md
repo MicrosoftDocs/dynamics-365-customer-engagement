@@ -1,12 +1,12 @@
 ---
-title: WhatsApp channel agent experience in Omnichannel for Customer Service
-description: Learn about the agent experience for conversations that come through WhatsApp channel in Omnichannel for Customer Service.
-ms.date: 03/21/2024
+title: WhatsApp channel representative experience
+description: Learn about the representative experience for conversations that come through the WhatsApp channel.
+ms.date: 04/30/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.topic: article
-ms.collection: get-started
+ms.topic: conceptual
+ms.collection:
 ---
 
 # Use WhatsApp channel
@@ -26,12 +26,12 @@ You'll receive a notification when a customer requests a WhatsApp conversation. 
 **Unauthenticated customer incoming notification**
 
 > [!div class=mx-imgBorder]
-> ![WhatsApp chat agent notification](../media/whatsapp-agent-notif.png "WhatsApp chat agent notification")
+> ![WhatsApp chat representative notification](../media/whatsapp-agent-notif.png "WhatsApp chat representative notification")
 
 **Authenticated customer incoming notification**
 
 > [!div class=mx-imgBorder]
-> ![WhatsApp chat agent notification-unauthenticated](../media/whatsapp-agent-notif2.png "WhatsApp chat agent notification-unauthenticated")
+> ![WhatsApp chat representative notification-unauthenticated](../media/whatsapp-agent-notif2.png "WhatsApp chat representative notification-unauthenticated")
 
 In the application, you can:
 
@@ -42,7 +42,7 @@ In the application, you can:
 - [Manage sessions](oc-manage-sessions.md)
 - [Manage applications](oc-manage-applications.md)
 - Use productivity tools
-    - [Use agent scripts](oc-agent-scripts.md)
+    - [Use scripts](oc-agent-scripts.md)
     - [View Smart assist cards](oc-smart-assist.md)
     - [Use productivity pane](../administer/productivity-pane.md)
 - [Create a record](oc-create-record.md)

@@ -1,8 +1,8 @@
 ---
 title: Use Microsoft Teams meetings 
 description: Learn how to use Microsoft Teams meetings integration 
-ms.date: 01/22/2025
-ms.topic: article
+ms.date: 06/17/2025
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -132,7 +132,7 @@ Select the Dynamics 365 app icon in the meeting toolbar at the upper-right area 
 
 > [!NOTE] 
 > - The record side panel supports only Contact, Opportunity, Lead, Account, and Case tables. 
-> - Case records are supported in the Customer Service Hub and Customer Service workspace app only.
+> - Case records are supported in the Customer Service Hub and Copilot Service workspace app only.
  
 :::image type="content" source="../media/teams-meeting-side-panel.png" alt-text="Record side panel in a Teams meeting.":::
 

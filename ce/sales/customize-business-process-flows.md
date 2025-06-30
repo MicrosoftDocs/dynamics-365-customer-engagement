@@ -1,8 +1,8 @@
 ---
 title: Create or customize a business process flow
 description: Learn to customize business process flows in Sales, ensuring consistent data entry and customer interaction while reducing training costs.
-ms.date: 05/30/2024
-ms.topic: article
+ms.date: 06/20/2025
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -17,7 +17,7 @@ ms.custom:
 
 With Dynamics 365 Sales, you can help ensure that users enter data consistently and follow the same steps every time they work with a customer by creating a business process flow. For example, you might want to create a business process flow to have everyone handle customer service requests the same way, or to require that users get approval for an invoice before submitting an order.  
 
-## How do business process flows help? 
+## How do business process flows help?
 
 Business process flows use the same underlying technology as other processes, but the capabilities that they provide are very different from other features that use processes.
 

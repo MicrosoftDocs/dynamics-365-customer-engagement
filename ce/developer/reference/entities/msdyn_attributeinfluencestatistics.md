@@ -212,7 +212,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Is Valid**|
-|DisplayName|**msdyn_isvalid**|
+|DisplayName|**msdyn\_isvalid**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_isvalid`|

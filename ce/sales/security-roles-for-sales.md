@@ -2,14 +2,16 @@
 title: Predefined security roles for Sales
 description: Predefined security roles define permissions and access levels specific to different sales personas. Assign users to appropriate security roles to grant them adequate access to the system.
 ms.date: 01/29/2025
-ms.topic: article
+ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ---
 # Predefined security roles for Sales
 
-Predefined security roles define permissions and access levels specific to different sales personas. [Assign users to appropriate security roles](#assign-security-roles-to-users) to grant them adequate access to the system.
+Predefined security roles define permissions and access levels that the default sales personas need. [Assign users to appropriate security roles](#assign-security-roles-to-users) to grant them adequate access to the system.
+
+You can create custom security roles based on the predefined security roles and modify permissions and access levels to suit your needs. The predefined security roles are updated with new permissions and access levels as new features are added to the application. For example, if you create a custom security role based on the Sales Manager role, your custom role will not automatically inherit the new permissions and access levels that are added to the Sales Manager role. You must manually add them to your custom role. If you get permission errors, try assigning the user a predefined security role. If the user can perform the task, you can then either modify the custom role to include the missing permissions or create a custom role based on the predefined security role and reapply the customizations.
 
 ## Predefined security roles
 

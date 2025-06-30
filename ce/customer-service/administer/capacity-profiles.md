@@ -1,7 +1,7 @@
 ---
 title: Create and manage capacity profiles
 description: Learn how to create and manage capacity profiles for service representatives, and set custom limits for the profiles.
-ms.date: 01/17/2025
+ms.date: 04/16/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -20,7 +20,6 @@ You can create capacity profiles and assign them to your customer service repres
 - The administrator can block the assignment of extra work to the service representatives when they're working on certain channels, such as phone calls.
 - The supervisor can override the representative's configured capacity and assign work to user manually.
 - The representative's capacity might display a negative value when the representative manually picks a work item or is assigned a conversation forcibly that results in negative capacity. This is applicable for both capacity profiles and unit-based capacity.
-- In the assignment rule, you can create a rule to find the representative whose capacity profile matches that of the work item.
 - We recommend that you configure either capacity profiles or capacity units in your organization, but not both.
 - The capacity isn't considered when the representative takes part in consult or monitors a conversation.
 
@@ -41,7 +40,7 @@ Create a capacity profile, and use it in a workstream for routing work items.
 
 For a capacity profile, you can add or remove users and edit any setting except reset frequency. If you no longer require the profile, you can delete it.
 
-1. In the site map of Customer Service admin center, select **User management** in **Customer support**. The **User management** page appears.
+1. In the site map of Copilot Service admin center, select **User management** in **Customer support**. The **User management** page appears.
    
 1. Select the **Manage** option for **Capacity profile**.
 
@@ -63,7 +62,7 @@ For a capacity profile, you can add or remove users and edit any setting except 
 1. On the **Users** tab, select **Add user**, and in the **Users** list, select the users. Alternatively, use the **Search** option to search for and add the user.
 
    > [!IMPORTANT]
-   > Users must be configured as a bookable resource to be assigned the capacity profile. More information: [Manage users](users-user-profiles.md).
+   > Users must be configured as a bookable resource to be assigned the capacity profile. Learn more in [Manage users](users-user-profiles.md).
 
 1. Select **Add user**. The capacity profile is assigned to the user.
 
@@ -75,7 +74,7 @@ For selective representatives, you can define a work item limit that's different
 
 To set the custom limits, do the following steps:
 
-1. In Customer Service admin center, select **User management** under **Customer support**, and on the page that appears, select **Manage** for **Enhanced user management**.
+1. In Copilot Service admin center, select **User management** under **Customer support**, and on the page that appears, select **Manage** for **Enhanced user management**.
 1. In **Contact center users**, select the representatives for whom you want to allocate a custom limit, and then select **Update user attributes** > **Update capacity profiles**.
 1. On the **Update Capacity profiles** pane, in **Capacity profiles**, select a profile, and in **Custom limit**, enter a value according to your business need.
 1. Select **Add to all**. The capacity profile with the custom limit is added to the users in the list. 
@@ -127,8 +126,8 @@ var data = {msdyn_maxunits: 5} // the value denotes the custom limit
 
 After you create the capacity profiles, configure the following settings to assign work items to representatives at runtime:
 
-- Set the capacity profile in the work distribution settings. The system applies the profile to all the work items routed through the workstream. More information: [Configure work distribution](create-workstreams.md#configure-work-distribution)
-- Set the capacity profile in a classification ruleset for the workstream as a rule output. Append the new capacity profile to the work item. During assignment, unified routing looks for the representative who has available capacity in both the profiles, the default profile from the workstream and the appended profile from the classification. More information: [Create classification rulesets based on capacity profiles](configure-work-classification.md#create-classification-rulesets-based-on-capacity-profiles)
+- Set the capacity profile in the work distribution settings. The system applies the profile to all the work items routed through the workstream. Learn more in [Configure work distribution](create-workstreams.md#configure-work-distribution).
+- Set the capacity profile in a classification ruleset for the workstream as a rule output. Append the new capacity profile to the work item. During assignment, unified routing looks for the representative who has available capacity in both the profiles, the default profile from the workstream and the appended profile from the classification. Learn more in [Create classification rulesets based on capacity profiles](configure-work-classification.md#create-classification-rulesets-based-on-capacity-profiles).
 
 You need not define assignment rules specific to capacity profiles at queue level to find representatives with matching capacity profiles. If capacity profile is attached to a work item, then the system ensures that the assigned representative has the matching capacity profile.
 

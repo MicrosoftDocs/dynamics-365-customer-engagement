@@ -1,7 +1,7 @@
 ---
 title: Create message templates
 description: Learn how to create message templates for reusable messages in Omnichannel for Customer Service.
-ms.date: 06/14/2024
+ms.date: 04/25/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -19,7 +19,7 @@ Message templates enable the one-time creation of reusable messages that can be 
 
 **To create a message template**
 
-1. In the site map of Customer Service admin center or Contact Center admin center, in **Agent experience**, select **Productivity**.
+1. In the site map of Copilot Service admin center, in **Support experience**, select **Productivity**.
    
 1. Select **Manage** for **Message templates**.
 
@@ -44,12 +44,12 @@ Message templates enable the one-time creation of reusable messages that can be 
     | {FullName{Customer}}  | The full name of the customer who initiated the conversation. |
     | {LastName{Customer}}| The family name of the customer.|
     | {NickName{Customer}}| The nickname for the customer.|
-    | {FullName{Agent}}| The full name of the agent who is assigned to the conversation.|
-    | {FirstName{Agent}}| The first name of the agent.|
-    | {LastName{Agent}}| The family name of the agent.|
-    | {Nickname{Agent}}| The nickname for the agent.|
+    | {FullName{Agent}}| The full name of the customer service representative (service representative or representative) who is assigned to the conversation.|
+    | {FirstName{Agent}}| The first name of the service representative.|
+    | {LastName{Agent}}| The family name of the representative.|
+    | {Nickname{Agent}}| The nickname for the representative.|
 
-      For more information, see [Slugs](automation-dictionary-keys.md#slugs).
+      Learn more in [Slugs](automation-dictionary-keys.md#slugs).
     
 1. Select **Save & Close** to see your localized message appear in the list of message templates.
 

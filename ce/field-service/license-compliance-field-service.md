@@ -4,7 +4,7 @@ description: Discover the rules in the Power Apps solution checker that identify
 author: vhorvathms
 ms.author: vhorvath
 ms.reviewer: mhart
-ms.topic: conceptual
+ms.topic: article
 ms.collection: get-started
 ms.date: 05/15/2024
 ---
@@ -17,7 +17,7 @@ The lists are subject to change as we add more tables, operations, and controls 
 
 ## Tables that require a license
 
-To create, update, and delete operations on the following tables require a qualified Dynamics 365 license. Reading from these tables doesn't require a license. When you run the solution checker on your solution, it checks for the presence of restricted tables.
+To create, update, and delete operations on the following tables, a qualified Dynamics 365 license is required. Reading from these tables doesn't require a license. When you run the solution checker on your solution, it checks for the presence of restricted tables.
 
 - msdyn_purchaseorder
 - msdyn_purchaseorderreceipt

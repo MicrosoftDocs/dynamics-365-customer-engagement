@@ -4,7 +4,7 @@ description: See what's new and changed in the Universal Resource Scheduling sol
 ms.date: 06/06/2024
 ms.reviewer: mhart
 ms.subservice: common-scheduler
-ms.topic: conceptual
+ms.topic: release-notes
 author: m-hartmann
 ms.author: mhart
 ---

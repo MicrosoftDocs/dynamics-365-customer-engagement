@@ -3,7 +3,7 @@ title: Configure voicemail to manage inbound calls
 description: Configure voicemail to manage inbound calls, route voicemails to representatives, and reduce on-hold wait times.
 author: neeranelli
 ms.author: nenellim
-ms.date: 12/14/2024
+ms.date: 06/19/2025
 ms.topic: how-to
 ms.reviewer: nenellim
 ms.collection:
@@ -16,12 +16,11 @@ ms.custom:
 
 # Configure voicemail to manage inbound calls
 
-[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-
-Voicemails help your customers record messages for customer service representatives (service representatives or representatives) when they come across long wait times or their direct calls to representatives are unanswered. You can reduce on-hold calls when customers communicate their concerns promptly through voicemails and call back later for a status check.
+Voicemails help your customers record messages for service representatives when they come across long wait times or their direct calls to representatives are unanswered. You can reduce on-hold calls when customers communicate their concerns promptly through voicemails and call back later for a status check.
 
 The salient features of voicemail are as follows:
 
@@ -29,7 +28,7 @@ The salient features of voicemail are as follows:
 - If you don't want to use the out-of-the-box prompt for the voicemail, you can customize it in the [automated message](configure-automated-message.md#customize-automated-messages-at-the-channel-level) or [workstream settings](voice-channel-inbound-calling.md).
 - Voicemails are always transcribed irrespective of whether you enable the voice call transcription.
 - If the customer is unable to record the voicemail, an automated message plays for the customer that informs them that the system couldn't record their voicemail and they should call back again.
-- The agent can't offer to take a voicemail. The call must be escalated to a representative. The system offers the voicemail option if the representative isn't available.
+- The AI agent can't offer to take a voicemail. The call must be escalated to a representative. The system offers the voicemail option if the representative isn't available.
 
 ## Prerequisites for voicemail
 
@@ -38,7 +37,7 @@ The prerequisites are as follows:
 - The [voice channel](voice-channel-install.md) is enabled.
 - [Unified routing](provision-unified-routing.md) is enabled.
 - [Agent presence](../use/oc-manage-presence-status.md) works correctly, which is required to open a voicemail.
-- The operating hours message at the voice workstream level isn't set because it overrides the voice queue-level overflow setup that the system needs for the voicemail feature to work. If you set the operating hours message for the voice workstream, the system plays the message and disconnects the call.
+- The operating hours setting at the voice workstream level isn't turned on, because it overrides the voice queue-level overflow setup that the system needs for the voicemail feature to work. If you turn on the operating hours setting for the voice workstream, the system plays the message and disconnects the call.
 - The [call recording and SMS services](voice-channel-configure-services.md) are enabled.
 
 ## Configure voicemail to manage overflow of voice calls
@@ -55,7 +54,7 @@ You can also configure overflow override in the route-to-queue rule of a workstr
 
 Out of the box, **Default Group Voicemail Workstream** is available to route the group voicemails to the default group voicemail queue.
 
-You can configure routing rules to route voicemail that your customer has recorded on your organization's phone number. In the rule condition, select **Organization phone number** in **Work classification** or **Create Intake rule** and add the required phone number to route the voicemail. When you define the intake or classification conditions, specify the following settings:
+You can configure routing rules to route a voicemail that your customer records on your organization's phone number. In the rule condition, select **Organization phone number** in **Work classification** or **Create Intake rule** and add the required phone number to route the voicemail. When you define the intake or classification conditions, specify the following settings:
 
 - The phone number with the country/region code, if you select the **Equals** operator.
 - The phone number without the country/region code, if you select the **Contains** operator.
@@ -65,22 +64,23 @@ The following considerations apply:
 * To route voicemails, avoid defining rules based on skills or sentiment category for the missed conversation attribute because the rules might not work as expected.
 * You can't route voicemails to voice queues because the system categorizes them as records.
 
+## Use voicemail to manage direct inbound calls to service representatives
 
-## Use voicemail to manage direct calls to service representatives
-
-If a service representative misses a direct call and voicemail is configured, the system presents an option to the customer to record a voicemail. The representative might not answer the call because of one of the following reasons:
+If a service representative misses a direct call to their inbound profile number and voicemail is configured, the system presents an option to the customer to record a voicemail. The representative might not answer the call because of one of the following reasons:
 
 - Service representative rejects the call
 - Call timed out
 - Agent presence shows as "offline" or "do not disturb"
 
-Out of the box, **Default Individual Voicemail Workstream** is available to route the individual voicemails to the default individual voicemail queue.
+Out of the box, **Default Individual Voicemail Workstream** is available to route the individual voicemails to the default individual voicemail queue. You must add the representative to the default individual voicemail queue for the system to assign the voicemails.
+
+The voicemail message played to the customer isn't customizable. The message prompts the customer to leave a voicemail for the representative by name.
 
 ## Configure voicemail views in inbox for representatives
 
-1. In Customer Service admin center or Contact Center admin center, in the site map, select **Workspaces** under **Agent experience**.
+1. In Copilot Service admin center, in the site map, select **Workspaces** under **Support experience**.
 
-1. Select **Manage** for **Agent experience profiles** and select the profile that you want to edit.
+1. Select **Manage** for **Support experience profiles** and select the profile that you want to edit.
 
 1. Edit the inbox and enable it.
 
@@ -97,10 +97,7 @@ Out of the box, **Default Individual Voicemail Workstream** is available to rout
      - Unassigned
      - Resolved
 
-More information:
-
-- [Configure the inbox](configure-inbox.md)
-- [Create and use agent experience profiles](create-agent-experience-profile.md)
+Learn more about [Configure the inbox](configure-inbox.md) and [Create and use support experience profiles](create-agent-experience-profile.md).
 
 ## How voicemail works
 
@@ -108,7 +105,7 @@ The voicemail record is set up for routing out of the box. Voicemails are catego
 
 ### Individual voicemails
 
-Individual voicemails are triggered through direct inward dialing and are routed to the default individual voicemail workstream. For voicemail to work for representatives, they must be signed in to the Contact Center workspace or Customer Service workspace app and presence loaded, at least once. If the representative is signed in and presence is offline, the representative must decline the call notification. 
+Individual voicemails are triggered through direct inward dialing and are routed to the default individual voicemail workstream. For voicemail to work for representatives, they must be signed in to the Copilot Service workspace app and presence loaded, at least once. If the representative is signed in and presence is offline, the representative must decline the call notification. 
 
 > [!NOTE]
 > Representatives receive voicemails only if they are signed in to the app and presence loads at least once. If the representative is signed in and their presence is set to offline, they must decline the call to receive the voicemail.
@@ -129,7 +126,6 @@ If an overflow condition of a queue triggers the voicemail, it routes to the def
 - Voicemails left for every voice queue are routed to the group voicemail queue.
 - For a more elaborate routing set up for voicemails, configure the required voicemail queues and route-to-queues rules to route to these queues.
 
-
 ### Manage voicemail capacity
 
 By default, the voicemail workstream capacity is set to zero.
@@ -138,11 +134,11 @@ However, if you let voicemails take up capacity, the capacity restriction applie
 
 Because the individual voicemail workstream has a custom assignment rule, capacity isn't taken into account, and voicemails are always pushed to the representative corresponding to the direct inward dialing number.
 
-Supervisors can view the voicemails on the **Omnichannel Ongoing Conversations Dashboard**.
+Supervisors can view the voicemails in the [Ongoing coversation report](../use/realtime-ongoing.md).
 
 ### View the default settings
 
-1. In Customer Service admin center or Contact Center admin center, select **Routing** in the site map, and then select **Manage** for **Setup record routing**. Voicemail is listed under **Record types** on the page that appears.
+1. In the site map of Copilot Service admin center, select **Routing**, and then select **Manage** for **Setup record routing**. Voicemail is listed under **Record types** on the page that appears.
 
 1. Select **Voicemail**. The **Voicemail routing hub** page displays the following default settings:
 
@@ -162,6 +158,5 @@ Supervisors can view the voicemails on the **Omnichannel Ongoing Conversations D
 [Manage voicemails](../use/manage-voicemails.md)  
 [Configure direct callback](voice-channel-direct-callback.md)  
 [Omnichannel Voicemail dashboard](../use/oc-voicemail-dashboard.md)  
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
