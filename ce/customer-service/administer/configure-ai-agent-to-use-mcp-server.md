@@ -27,17 +27,16 @@ You can use Microsoft Copilot Studio to build custom agents for service teams th
 - Microsoft Copilot Studio.
 - System administrator or Omnichannel Administrator role.
 - Dataverse MCP server is set up. Learn more in [Connect to Dataverse with model context protocol](/power-apps/maker/data-platform/data-platform-mcp)
-- D365 Service MCP server is configured and appears in Copilot Studio tools list.
+- D365 Service MCP server is configured and appears in Copilot Studio tools list. Learn more in [Microsoft MCP connectors available in Copilot Studio](/microsoft-copilot-studio/agent-extend-action-mcp#microsoft-mcp-connectors-available-in-copilot-studio).
 - Dataverse MCP server in Claude is set up. Learn more in [Configure and use the Dataverse MCP server in Claude](/power-apps/maker/data-platform/data-platform-mcp#configure-and-use-the-dataverse-mcp-server-in-claude).
     - Make sure that you update the JSON for the MCP server in Claude to provide the connection details of the MCP server for Dynamics 365 Customer Service. Learn more in [Update the JSON file for the MCP server in Claude](/power-apps/maker/data-platform/data-platform-mcp#configure-dataverse-mcp-server-in-claude-desktop).
 
 ## Configure AI agent based on MCP server
 
 1. In Copilot Studio, select **AI agents**, and create a new agent or select an existing agent.
-1. Select **Tools**, and on the page that appears, select **Add a tool**.
-1. On the **Add tool** dialog, select **Model Context Protocol**.
+1. Perform the steps in [Add tools from an existing MCP connector to an agent](/microsoft-copilot-studio/agent-extend-action-mcp#add-tools-from-an-existing-mcp-connector-to-an-agent).
 1. Search and select **D365 Service MCP Server**.
-1. If the connection isn't configured, make sure that you configure the connection and it's connected.
+1. If the connection isn't configured, make sure that you configure the connection and verify it.
 1. Select **Add to agent**. The MCP server is added to the agent.
 1. Select **Publish** on the top right corner.
 
@@ -52,7 +51,7 @@ You can use Microsoft Copilot Studio to build custom agents for service teams th
 
 ## Use the AI agent
 
-After you configure the AI agent, your service representatives can use it to resolve customer issues in Copilot Service workspace. The following tools are available in the MCP server for Customer Service.
+After you configure the AI agent, your service representatives can use it to resolve customer issues in Copilot Service workspace. The following tools are available in the MCP server for Customer Service as seen in Copilot Studio.
 
 |Tool name|	Description|
 |---|---|
