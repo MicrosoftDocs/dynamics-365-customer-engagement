@@ -1053,10 +1053,10 @@ Callback not offered = [Incoming conversations_FactSession] - [Callback offered]
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | msdyn_sessionextension, <br>-  msdyn_ocliveworkitem |
-|Attributes |- [msdyn_session.msdyn_isoutbound](/developer/reference/entities/msdyn_ocliveworkitem#BKMK_msdyn_isoutbound),​ <br> - [msdyn_sessionextension.msdyn_overflowaction](/developer/reference/entities/msdyn_sessionextension#msdyn_overflowaction-choicesoptions), ​<br> - 
+|Dataverse entities | - msdyn_sessionextension, <br>-  msdyn_ocliveworkitem |
+|Attributes |- [msdyn_session.msdyn_isoutbound](/developer/reference/entities/msdyn_ocliveworkitem#BKMK_msdyn_isoutbound)<br>- [msdyn_sessionextension.msdyn_overflowaction](/developer/reference/entities/msdyn_sessionextension#msdyn_overflowaction-choicesoptions) ​<br>- 
 [msdyn_sessionextension.msdyn_overflowtriggertimestamp](/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowTriggerTimestamp)|
-|Filters  | msdyn_session.msdyn_isoutbound = FALSE,​ <br> - msdyn_sessionextension.msdyn_overflowaction = '419550001’ for DirectCallBack,​ <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null |
+|Filters  | - msdyn_session.msdyn_isoutbound = FALSE,​ <br> - msdyn_sessionextension.msdyn_overflowaction = '419550001’ for DirectCallBack,​ <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null |
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -1071,9 +1071,9 @@ Callback not offered = [IncomingConversationsFSE] - [Callback offered]
 |Element|Value  |
 |---------|---------|
 |Dataverse entities | msdyn_sessionextension |
-|Attributes  | - [msdyn_session.msdyn_isoutbound](/developer/reference/entities/msdyn_ocliveworkitem#BKMK_msdyn_isoutbound),​ <br> - [msdyn_sessionextension.msdyn_overflowaction](/developer/reference/entities/msdyn_sessionextension#msdyn_overflowaction-choicesoptions), ​<br> - 
+|Attributes  |- [msdyn_session.msdyn_isoutbound](/developer/reference/entities/msdyn_ocliveworkitem#BKMK_msdyn_isoutbound)​ <br>- [msdyn_sessionextension.msdyn_overflowaction](/developer/reference/entities/msdyn_sessionextension#msdyn_overflowaction-choicesoptions) ​<br>- 
 [msdyn_sessionextension.msdyn_overflowtriggertimestamp](/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowTriggerTimestamp) |
-|Filters  | msdyn_session.msdyn_isoutbound = FALSE,​ <br> - msdyn_sessionextension.msdyn_overflowaction = '419550001',​ <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null​​|
+|Filters  | - msdyn_session.msdyn_isoutbound = FALSE,​ <br> - msdyn_sessionextension.msdyn_overflowaction = '419550001',​ <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null​​|
 
 ---
 
@@ -1211,7 +1211,7 @@ Callback not opted in = [Callback Offered] - [Callback opted in]
 |Element|Value  |
 |---------|---------|
 |Dataverse entities | msdyn_sessionextension |
-|Attributes  | msdyn_sessionextension.msdyn_callbackacceptedtime,​ <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp|
+|Attributes  | - msdyn_sessionextension.msdyn_callbackacceptedtime,​ <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp|
 |Filters  | - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null​, <br> - msdyn_sessionextension.msdyn_callbackacceptedtime is null​|
 
 ---
