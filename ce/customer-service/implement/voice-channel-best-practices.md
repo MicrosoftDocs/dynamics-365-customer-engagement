@@ -38,7 +38,7 @@ The software settings to ensure seamless integration are as follows:
 
 **Telemetry insights**: Within the same geo/region location, network latencies are usually less than 150 ms. Enable [telemetry insights](/dynamics365/guidance/implementation-portal/telemetry-insights) to understand where delays come from. These insights can also be used to evaluate the performance of form load and API throttling.
 
-**Desktop companion application**: If service representatives notice a delay in joining calls after they accept the conversation through the notification, they can install and use the [Desktop companion application](/dynamics365/contact-center/administer/install-manage-desktop-app) to join calls. In the event of web app call connectivity issues, Desktop companion application can help maintain the call connection.
+**Desktop companion application**: If representatives experience a delay in joining calls after accepting the notification, they can install and use the [Desktop companion application](/dynamics365/contact-center/administer/install-manage-desktop-app) to join calls and maintain connectivity.
 
 ### Related information
 
