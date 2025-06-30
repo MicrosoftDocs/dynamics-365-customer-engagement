@@ -46,7 +46,7 @@ When you configure Azure and Copilot agents in Dynamics 365 Contact Center, use 
 
 ### Best practices to handle silence during a conversation with the voice agent
 
-- Configure a delay between messages using the [delay activity](/microsoft-copilot-studio/authoring-send-event-activities#sending-other-activity-types) option to introduce a pause between messages that makes interactions feel more natural. By default, the delay is set to 500 ms, and you can change it to control exactly how long the pause lasts before the next message is sent.
+- Configure a delay between messages using the [delay activity](/microsoft-copilot-studio/authoring-send-event-activities#sending-other-activity-types) option to introduce a pause between messages that makes interactions feel more natural. The default delay setting is 500 ms. You can modify the value to make the pause shorter or longer.
 
 ## Considerations for context variables
 
