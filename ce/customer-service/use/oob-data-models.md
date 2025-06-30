@@ -242,7 +242,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |FactSessionParticipant	|Avg. monitor time (min)	|The time spent on the monitor from when the service representative joined to when they left in session participant. |
 |FactSessionParticipant	|Consult sessions	|The number of sessions a user accepts in mode = consult.|
 |FactSessionParticipant	|Monitor sessions	|The number of sessions a user accepts in mode = monitor.|
-|FactSession	|IsCallbackOffered | Conversations where overflow action triggered is direct callback. |
+|FactSession	|IsCallbackOffered | Conversations where overflow action triggered is direct callback. msdyn_sessionextension.msdyn_overflowaction is set to '419550001’ for DirectCallback|
 
 
 ## Omnichannel voice analytics
