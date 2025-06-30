@@ -1,7 +1,7 @@
 ---
 title: Enable AI suggestions for cases and knowledge articles
 description: Enable AI suggestions for cases and knowledge articles in Dynamics 365 Customer Service.
-ms.date: 11/28/2024
+ms.date: 06/30/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -22,7 +22,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 > [!NOTE]
 > Case information is applicable to Customer Service only.
 
-With the use of AI, suggestions about similar cases that were previously resolved successfully help customer service representatives (service representatives or representatives) find the right solutions quickly, increase their productivity, and provide better and faster service to customers.
+With the use of AI, customer service representatives in your organization can review similar cases that were previously resolved successfully. This feature can help them find the right solutions quickly, increase their productivity, and provide better and faster service to customers.
 
 The key highlights of the feature are as follows:
 
@@ -31,18 +31,18 @@ The key highlights of the feature are as follows:
 - Capability of the AI model to process up to 1 million of the most recent cases for listing them at runtime.
 
 > [!NOTE]
-> - The AI suggestions feature is currently available in a few geographical locations only. More information: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
+> - The AI suggestions feature is currently available in a few geographical locations only. Learn more in [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
 > - After you enable AI suggestions, if representatives don't interact with the AI-suggested content for 21 days, the feature is deactivated. The administrator can enable it again.
 
 ## Prerequisites
 
 Make sure that the following requirements are met:
 
-- Copilot Service workspace is installed and accessible. More information: [Copilot Service workspace](../implement/csw-overview.md)
-- The	productivity pane is enabled. More information: [Productivity pane](productivity-pane.md).
+- Copilot Service workspace is installed and accessible. Learn more in [Copilot Service workspace](../implement/csw-overview.md).
+- The	productivity pane is enabled. Learn more in [Productivity pane](productivity-pane.md).
 - The System Administrator role is granted.
-- The workflow processes used by the AI model and AI configuration entities are in the activated status. More information: [Workflow processes](#workflow-processes).
-- If administration mode is enabled, make sure that background operations are also enabled. More information: [Administration Mode](/power-platform/admin/admin-mode).
+- The workflow processes used by the AI model and AI configuration entities are in the activated status. Learn more in [Workflow processes](#workflow-processes).
+- If administration mode is enabled, make sure that background operations are also enabled. Learn more in [Administration Mode](/power-platform/admin/admin-mode).
 - For the AI suggestions to work, customer-managed keys should be disabled.
 
 ## How AI suggestions for similar cases and knowledge articles work
@@ -76,7 +76,7 @@ If the language verification passes, the suggestions are displayed in the langua
 
 - For similar case suggestions, the language selected in the user's **User Interface Language** settings is used to display similar cases and knowledge article suggestions.
 
-- For knowledge article suggestions, smart assist first checks for the language that's set in the **Knowledge Personalization** settings. If no language setting is found, the user's **User Interface Language** setting is used to display knowledge article suggestions. More information: [Personalize your knowledge search article filters](../use/filter-articles.md#personalize-your-knowledge-search-article-filters).
+- For knowledge article suggestions, smart assist first checks for the language that's set in the **Knowledge Personalization** settings. If no language setting is found, the user's **User Interface Language** setting is used to display knowledge article suggestions. Learn more in [Personalize your knowledge search article filters](../use/filter-articles.md#personalize-your-knowledge-search-article-filters).
 
 ## Enable AI suggestions for similar cases
 
