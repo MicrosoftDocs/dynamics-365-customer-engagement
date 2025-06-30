@@ -70,3 +70,5 @@ After you configure the AI agent, your service representatives can use it to res
 ### Related information
 
 [Blog: The autonomous enterprise: How generative AI is reshaping business applications](https://www.microsoft.com/dynamics-365/blog/business-leader/2025/05/20/the-autonomous-enterprise-how-generative-ai-is-reshaping-business-applications/)  
+[Extend your agent with Model Context Protocol](/microsoft-copilot-studio/agent-extend-action-mcp)  
+[Core MCP concepts](https://modelcontextprotocol.io/quickstart/server#core-mcp-concepts)  
