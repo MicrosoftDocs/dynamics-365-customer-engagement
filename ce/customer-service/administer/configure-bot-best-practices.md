@@ -1,7 +1,7 @@
 ---
 title: Best practices for configuring AI agents
 description: This article lists the best practices that you can follow when you configure Azure and Copilot agents in your contact center.
-ms.date: 06/25/2025
+ms.date: 06/30/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -19,8 +19,6 @@ ms.collection:
 ## Best practices
 
 When you configure Azure and Copilot agents in Dynamics 365 Contact Center, use the following best practices:
-
- - If you're using a Copilot AI agent to create a low latency greeting, make sure you configure the AI agent for the workstream. The AI agent is triggered before your custom routing logic is run. Learn more about best practices for Copilot agents in [Optimize agents to minimize latency](/microsoft-copilot-studio/guidance/optimize-minimize-latency).
 
 - In a queue, if both AI agents (agents) and customer service representatives (service representatives or representatives) are available, set the agent’s capacity higher than all representatives. An agent’s capacity isn't reduced even after a work item is assigned to it. This ensures that any conversation routed to the queue is first picked up by the agent.
 
@@ -40,11 +38,11 @@ When you configure Azure and Copilot agents in Dynamics 365 Contact Center, use 
 
 - If data lookup is required, configure a [latency message](/microsoft-copilot-studio/voice-configuration#add-a-latency-message-for-long-running-operations). The message indicates an acknowledgement of a delay so that your caller doesn't go through silence. You can use the minimum playback time setting even if the background lookup operation completes while the message is playing. The default setting is 5000 ms.
 
-- To avoid prolonged silence if data lookup is delayed, use the various options that Copilot Studio provides to access external data. Some options are Dataverse connectors, custom connectors, and prebuilt Power Automate connectors. [HTTP requests](/microsoft-copilot-studio/authoring-http-node) offer the best performance for data outside Customer Service or Dynamics 365 Contact Center. The built-in Dataverse connectors are most efficient for accessing data within Dynamics 365.
+- To avoid prolonged silence if data lookup is delayed, use options such as Dataverse connectors, custom connectors, and prebuilt Power Automate connectors that Copilot Studio provides to access external data. [HTTP requests](/microsoft-copilot-studio/authoring-http-node) offer the best performance for data outside Customer Service or Dynamics 365 Contact Center. The built-in Dataverse connectors are most efficient for accessing data within Dynamics 365.
 
-- If Power Automate is used to access data, the voice agent pauses until the flow completes, therefore, there's latency. Use the [Power Automate dashboard](/power-platform/admin/analytics-flow?tabs=new) to monitor and optimize flow performance to minimize delays during live conversations.
+- If you use Power Automate to access data, the voice agent pauses until the flow completes, therefore, there's latency. Use the [Power Automate dashboard](/power-platform/admin/analytics-flow?tabs=new) to monitor and optimize flow performance to minimize delays during live conversations.
 
-- If a static message must be played before the voice agent greets the customer with a more personalized prompt, then use [system greeting messages](configure-automated-message.md#preconfigured-automated-message-triggers). After the uninterruptible system message plays, the voice agent is lined up. Make sure to avoid redundancy in voice agent greeting and system greeting.
+- If you need to play a static message before the voice agent greets the customer with a more personalized prompt, then use [system greeting messages](configure-automated-message.md#preconfigured-automated-message-triggers). After the uninterruptible system message plays, the voice agent is lined up. Make sure to avoid redundancy in voice agent greeting and system greeting.
 
 ### Best practices to handle silence during a conversation with the voice agent
 
@@ -57,8 +55,10 @@ When you configure context variables, check for the following conditions:
 
 ### Related information
 
+[Best practices for setting up the voice channel](../implement/voice-channel-best-practices.md)  
 [Integrate an Azure agent](configure-bot-azure.md)  
 [Integrate a Copilot agent](configure-bot-virtual-agent.md)  
+[Optimize agents to minimize latency](/microsoft-copilot-studio/guidance/optimize-minimize-latency)  
 [Configure AI agents to escalate and end conversations](../develop/bot-escalate-end-conversation.md)  
 [Manage context variables](manage-context-variables.md)  
 [Context variables for an agent](context-variables-for-bot.md)  
