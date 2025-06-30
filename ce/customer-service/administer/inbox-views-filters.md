@@ -1,7 +1,7 @@
 ---
 title: Inbox out of box views and filters
 description: Learn about the inbox views and filters that are available out of the box.
-ms.date: 06/30/2027
+ms.date: 06/30/2025
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
