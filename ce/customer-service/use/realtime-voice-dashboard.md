@@ -4,7 +4,7 @@ description: Discover key metrics and interactive charts in the Voice report of 
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: concept-article
+ms.topic: conceptual
 ms.collection:
 ms.date: 04/30/2025
 search.audienceType:

@@ -4,7 +4,7 @@ description: Learn to view and understand real-time analytics for queue reports.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: concept-article
+ms.topic: conceptual
 ms.collection:
 ms.date: 05/09/2025
 ms.custom: bap-template

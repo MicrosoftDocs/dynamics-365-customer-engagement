@@ -16,13 +16,13 @@ Apply filters to define which resources show on the schedule board. You can [con
 
 Filter values are pulled from the *Bookable Resource* entity.
 
-Select the ellipsis (&hellip;) > **Select Resources** to choose a subset of all resources for the schedule board. Applying filters then only filters the selected resources.
+In **Resource filters**, select the ellipsis (&hellip;) > **Select Resources** to choose a subset of all resources for the schedule board. Applying filters then only filters the selected resources.
 
-To make the applied filter configuration the default for all schedule boards, select **&hellip;** > **Save as default**.
+To make the applied filter configuration the default for all schedule boards, select **&hellip;** > **Save as default** in **Resource filters**.
 
-Select **Reset to default** to remove all applied filters. The list of selected resources resets when you remove the resources from the selection.
+In **Resource filters**, select **Reset to default** to remove all applied filters. The list of selected resources resets when you remove the resources from the selection.
 
-Select **Apply** to see the changes on the schedule board.
+In **Resource filters**, select **Apply** to see the changes on the schedule board.
 
 ### Time scale
 
