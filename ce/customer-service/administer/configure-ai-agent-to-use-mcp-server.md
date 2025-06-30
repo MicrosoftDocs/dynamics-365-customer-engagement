@@ -16,7 +16,7 @@ ms.custom:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Whether you're a developer building an AI agent to automate a part of the service workflow, or a customer service representative using AI agents such as ChatGPT and Claude to get work done, you can connect Customer Service to your agents with the Model Context Protocol (MCP) server.
+Whether you're a developer building an AI agent to automate a part of the service workflow, or a customer service representative using AI assistants such as ChatGPT and Claude to get work done, you can connect Customer Service to your agents with the Model Context Protocol (MCP) server.
 
 You can use Microsoft Copilot Studio to build custom agents for service teams that include the Dynamics 365 Customer Service MCP server or connect Dynamics 365 with any other agent platform that supports the MCP protocol. By using the Customer Service MCP server in combination with MCP servers from other business applications such as Sales and ERP systems, you can also automate complex cross-functional business operations with ease. For example, an order can be generated through the Dynamics 365 Business Central MCP server, after an MCP client is engaged with the Customer Service MCP server.
 
@@ -24,7 +24,7 @@ You can use Microsoft Copilot Studio to build custom agents for service teams th
 
 ## Prerequisites
 
-- Microsoft Copilot Studio.
+- Access to Copilot Studio.
 - System administrator or Omnichannel Administrator role.
 - Dataverse MCP server is set up. Learn more in [Connect to Dataverse with model context protocol](/power-apps/maker/data-platform/data-platform-mcp)
 - D365 Service MCP server is configured and appears in Copilot Studio tools list. Learn more in [Microsoft MCP connectors available in Copilot Studio](/microsoft-copilot-studio/agent-extend-action-mcp#microsoft-mcp-connectors-available-in-copilot-studio).
