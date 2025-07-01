@@ -1,7 +1,7 @@
 ---
 title: Sales Qualification Agent FAQ
 description: Find answers to frequently asked questions about the Sales Qualification Agent in Dynamics 365 Sales, which helps sellers qualify leads and improve sales outcomes.
-ms.date: 05/20/2025
+ms.date: 07/01/2025
 ms.topic: faq
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -94,7 +94,7 @@ The **Review email** option appears in the banner, and the **Draft email** optio
 - Your organization is using server-side synchronization. Ask your admin if you're not sure.
 - The lead's email address is available.
 
-<a name="no-email-validation>
+<a name="no-email-validation">
 ## Why didn't the agent validate the lead's email address?
 
 The agent validates the lead's email address only if the following conditions are met:
