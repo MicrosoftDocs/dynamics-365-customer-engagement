@@ -40,9 +40,9 @@ Use Customer Service to:
 
 ## Administer Customer Service
 
-You can configure and manage the different capabilities in Customer Service by using the Copilot Service admin center app based on the licensing module that you've purchased.
+You can configure and manage the different capabilities in Customer Service based on the licensing module you purchased.
 
-- **Copilot Service admin center**: Use the app to manage the different features of Customer Service in one place. You can configure all the features of the customer support, operations, and agent experiences through this app. You can manage core customer service and other features, such as service terms, service scheduling, and all the channels in Omnichannel for Customer Service. More information: [Copilot Service admin center at a glance](cs-admin-center.md)
+- **Copilot Service admin center**: Use the app to manage the different features of Customer Service in one place. You can configure all the features of the customer support, operations, and agent experiences through this app. You can manage core customer service and other features, such as service terms, service scheduling, and all the channels in Omnichannel for Customer Service. Learn more in [Copilot Service admin center at a glance](cs-admin-center.md)
 
 ## Use agent apps to service customers
 
@@ -71,19 +71,19 @@ The following capabilities are available in the different app experiences, depen
 ## Available anywhere, on any device
 
 > [!NOTE]
-> For mobile devices, you can install the applicable app for your device. More information: [Install Dynamics 365 for phones and tablets](../../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
+> For mobile devices, you can install the applicable app for your device. Learn more in [Install Dynamics 365 for phones and tablets](../../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
 
-If you're using a desktop browser, you'll see the various Customer Service apps in the app switcher as shown here.
+If you use a desktop browser, then you can view the various Customer Service apps in the app switcher, as shown in the following image.
 
 ![open-sitemap.](../media/open-csh-sitemap-overview.png "Customer Service Hub sitemap")
 
-If you're using a mobile device with Dynamics 365 for phones and tablets installed, you'll see the app tiles in the app switcher as shown here.
+If you use a mobile device with Dynamics 365 for phones and tablets installed, you can view the app tiles in the app switcher, as shown in the following image.
 
 ![csh-mobile.](../media/ChooseAnApp_1.png "Customer Service Hub on mobile")
 
 
 > [!NOTE]
-> If you have previously installed any portal solution, to create a case in the Customer Service Hub app or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../../customerengagement/on-premises/customize/edit-entities.md#enable-or-disable-entity-options).
+> If you previously installed any portal solution, to create a case in the Customer Service Hub app or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. Learn more in [Turn off Read-only in mobile option](../../customerengagement/on-premises/customize/edit-entities.md#enable-or-disable-entity-options).
 
 ## Accessibility and privacy in the Customer Service apps
 
