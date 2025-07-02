@@ -1,7 +1,7 @@
 ---
 title: Historical analytics for unified routing in Omnichannel for Customer Service
 description: Learn about the KPIs that are available in the historical analytics report for Omnichannel for Customer Service.
-ms.date: 04/28/2025
+ms.date: 07/02/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -14,6 +14,9 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
+> [!NOTE]
+> Starting June 30, 2025, the legacy version of Historical analytics for unified routing in Omnichannel for Customer Service is deprecated in Dynamics 365 Customer Service and Dynamics 365 Contact Center. Support ends on August 31, 2025, after which this feature will be removed.
 
 
 With the introduction of unified routing, an advanced and elaborate set of capabilities are available for organizations to enhance their routing configurations. Supervisors and business administrators need metrics to track how these advanced routing capabilities are helping their businesses serve their customers.
