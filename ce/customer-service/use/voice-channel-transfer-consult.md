@@ -70,7 +70,7 @@ When you receive an incoming call, you can transfer the call to a service repres
        - Customer hears ringing.
        - The original call ends and a new call begins.
        - Customers don't hear a message before the call ends if the external user doesn't accept the call.
-       - The external receives the call from the caller ID of the customer.
+       - The external user receives the call from the caller ID of the customer.
 
     ### [Existing voice](#tab/existingvoicestack)
  
