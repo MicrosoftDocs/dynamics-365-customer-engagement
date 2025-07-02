@@ -69,7 +69,7 @@ You can use Microsoft Copilot Studio to build custom agents for service teams th
 
    :::image type="content" source="../media/screenshot-of-ai-agent-with-mcp-server.png" alt-text="Screenshot of an AI agent configured with MCP server in Copilot Studio.":::
 
-1. If you have used a new AI agent, on the **Channels** tab, select **Dynamics 365 Customer Service** and perform the steps to connect the agent to the telephony system in Customer Service.
+1. If you have used a new AI agent, on the **Channels** tab, select **Dynamics 365 Customer Service** and perform the steps to connect the agent to Customer Service.
 
 ## Use the AI agent
 
