@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: conceptual
-ms.date: 06/23/2025
+ms.date: 07/02/2025
 ms.custom: bap-template
 ms.collection:
 ---
@@ -18,6 +18,10 @@ Administrators and IT professionals can use this information to prepare for futu
 
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+
+## Legacy version of Case and Conversation Topics in Customer Service and Contact Center is deprecated
+
+Starting June 30, 2025, the legacy version of [Historical analytics for unified routing in Omnichannel for Customer Service](../use/oc-historical-analytics-unified-routing.md#historical-analytics-for-unified-routing) and [Historical analytics for unified routing in Customer Service](../use/cs-historical-analytics-unified-routing.md#historical-analytics-for-unified-routing-in-customer-service) in Dynamics 365 Customer Service and Dynamics 365 Contact Center are deprecated. Support ends on August 31, 2025.
 
 ## Legacy version of Case and Conversation Topics in Customer Service and Contact Center is deprecated
 
