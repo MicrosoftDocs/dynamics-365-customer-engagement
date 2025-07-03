@@ -2,7 +2,7 @@
 title: Allow updates to resolved and canceled cases
 description: Allow resolved and canceled cases to be updated through Power Automate flows, API.
 ms.date: 04/24/2025
-ms.topic: concept-article
+ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

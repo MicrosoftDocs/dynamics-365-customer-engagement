@@ -1,7 +1,7 @@
 ---
 title: Understand the sales process
 description: Explore the sales process, from lead generation to closing a sale.
-ms.date: 05/29/2024
+ms.date: 06/18/2025
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
@@ -33,7 +33,7 @@ Also, the specific process stages and terminology used by organizations vary bas
 
 Each stage typically maps to a specific sales record type. For example, during the qualifying stage, sellers are generally working with a lead. A lead represents someone with an interest in what you are selling. The goal of a lead is to qualify and advance it to the next stage in the sales process, such as the develop stage.
 
-Let's look at an example on how this sales processes is used to implement a sales lifecycle solution in an organization. The following image shows what a sales lifecycle might look like from start to end:
+Let's look at an example on how this sales process is used to implement a sales lifecycle solution in an organization. The following image shows what a sales lifecycle might look like from start to end:
 
 :::image type="content" source="media/sales-process-start-end.svg" alt-text="A typical process of sales from start to end" lightbox="media/sales-process-start-end.svg":::
 

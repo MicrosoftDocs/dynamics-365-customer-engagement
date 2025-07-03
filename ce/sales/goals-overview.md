@@ -1,7 +1,7 @@
 ---
 title: Define and track your sales goals
 description: Define, track, and measure performance-based Sales and Customer Service goals in Dynamics 365.
-ms.date: 05/31/2024
+ms.date: 06/18/2025
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
@@ -43,7 +43,7 @@ Typically, a manager's goal is a total of the goals assigned to their staff. A l
 
 A staff goal is a child goal of a manager's goal, which in turn can have a parent goal at the regional level, and so on. A goal can have only one parent goal, but a parent goal can have multiple child goals.
 
-Deleting a parent goal does not delete the child goals. Deleting a parent goal only removes the reference to the parent goal for the child goals.
+Deleting a parent goal doesn't delete the child goals. Deleting a parent goal only removes the reference to the parent goal for the child goals.
 
 The goal rollup is done from the bottom of the hierarchy to the top. During rollup, the parent goal total is the sum of all its child goals.
 
@@ -74,7 +74,7 @@ More information: [Create or edit a goal metric](create-edit-goal-metric.md)
 
 Rollup fields are used to calculate the actual and in-progress values for a goal metric.
 
-You must have at least one of the following rollup fields, but you cannot have more than one per type.
+You must have at least one of the following rollup fields, but you can't have more than one per type.
 
 - **Actual:** Can be modified as Actual (Money), Actual (Integer), or Actual (Decimal), depending on the data type of the goal metric. This shows the actual amount or count of finished measurable results, such as closed invoices or sales called completed.
 
@@ -108,7 +108,7 @@ You can set a fiscal period, such as a quarter or year, or a custom period, such
 
 If your organization merges with another organization that uses different time periods, you can change yours to match with the new organization.
 
-Changing a fiscal year or fiscal period does not automatically change the dates for the goals; you will need to update them to show the new dates as a separate step.
+Changing a fiscal year or fiscal period doesn't automatically change the dates for the goals; you need to update them to show the new dates as a separate step.
 
 More information: [Create or edit goals](create-edit-goal-sales.md)
 
@@ -122,6 +122,6 @@ You can set up a customized dashboard to list goals you track, or a report that 
 
 User roles limit what each user can see, depending on what type of access they have and what kinds of records they need to view. Dynamics 365 allows you to set security on an entity or on a specific field. This helps to keep access to information from users who should not see it.
 
-Setting goals is typically a multi-layered process in which child goals roll up into parent goals. A user might create a goal using entities or fields that the user is restricted from viewing, or they might be able to add child goals that include entities or fields they can not view.
+Setting goals is typically a multi-layered process in which child goals roll up into parent goals. A user might create a goal using entities or fields that the user is restricted from viewing, or they might be able to add child goals that include entities or fields they cannot view.
 
-For example, User One creates a goal that references a restricted entity that User One has permission to view. User Two cannot view this entity in User One's goal, but can create a parent goal that includes it. When User Two rolls up the parent goal's results, User Two sees aggregated rollup data that includes data from the restricted entity, but still cannot see User One's restricted data by itself.
+For example, User One creates a goal that references a restricted entity that User One has permission to view. User Two can't view this entity in User One's goal, but can create a parent goal that includes it. When User Two rolls up the parent goal's results, User Two sees aggregated rollup data that includes data from the restricted entity, but still cannot see User One's restricted data by itself.
