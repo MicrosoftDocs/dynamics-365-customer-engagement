@@ -49,6 +49,7 @@ Depending on your role, use the following links to configure and use the Sales Q
 | Role | Action |
 |------|--------|
 | Admin | [Set up the Sales Qualification Agent](configure-sales-qualification-agent.md) |
+| Admin and seller | [Test the Sales Qualification Agent](test-sales-qualification-agent.md) |
 | Seller | [Qualify leads with the Sales Qualification Agent](use-sales-qualification-agent.md) |
 
 ## Related information

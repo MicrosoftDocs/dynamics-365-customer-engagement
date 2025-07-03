@@ -1,7 +1,7 @@
 ---
 title: Grant or revoke access to the Sales Hub app
 description: Grant or revoke access to Sales Hub to a security role or to specific users so that sellers can access the app and use its features.
-ms.date: 06/25/2024
+ms.date: 07/02/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -15,11 +15,14 @@ As an administrator, you decide which users or security roles should have access
 
 As an administrator, you can either grant or revoke access to a security role or to specific users.
 
-1. On the Dynamics 365 apps page, locate the **Sales Hub** card under **Published apps** section. Select **...** (**More options**), and then select **Manage Roles**.
+1. On the Sales Hub app or any Dynamics 365 app, select the app name in the top navigation bar to open the **Apps** page.
 
-    :::image type="content" source="media/saleshub-manageroles.png" alt-text="Screenshot showing the Manage Roles pane, with roles that already have access highlighted in blue.":::
+1. Locate the **Sales Hub** card under **Published apps** section. Select **...** (**More options**), and then select **Manage Roles**.
 
-    The security roles that already have access are highlighted in blue.
+
+:::image type="content" source="media/saleshub-manageroles.png" alt-text="Screenshot of the Manage Roles pane, with roles that already have access highlighted in blue.":::
+
+The security roles that already have access are highlighted in blue.
 
 1. Take one of the following actions:
 
