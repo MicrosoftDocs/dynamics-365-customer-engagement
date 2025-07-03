@@ -4,7 +4,7 @@ description: Use this article to understand how to configure channel providers i
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 06/20/2025
+ms.date: 07/04/2025
 ms.topic: how-to
 ms.custom: 
   - "dyn365-a11y"
@@ -57,7 +57,7 @@ If you want to use the channel provider icon, do the following steps:
   >
   > - The msdyn_ciprovider entity is accessible only for the administrator roles and therefore the panel doesn't load for non-administrator roles. To load the panel for non-administrator roles, create a new role and provide read access to the msdyn_ciprovider entity. Then, add the role to the users who are accessing Dynamics 365 Channel Integration Framework.
   > - Sandbox attributes such as allow-forms, allow-popups, allow-scripts, allow-same-origin, allow-modals, allow-downloads are configured by default.
-  > - If you enable the provider icon, the pane supports the expanded mode only.
+  > - If you enable the provider icon, the pane supports the expanded and hidden mode only.
 
 ### Runtime behavior
 
