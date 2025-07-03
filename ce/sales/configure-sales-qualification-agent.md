@@ -1,7 +1,7 @@
 ---
 title: Set up the Sales Qualification Agent
 description: Learn how to activate and set up the Sales Qualification Agent in Dynamics 365 Sales to help your sellers use AI for effective lead qualification.
-ms.date: 07/01/2025
+ms.date: 07/03/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -89,10 +89,6 @@ Grant **User**-level permissions for *read*, *write*, *create*, *append*, *appen
    - **High:** Data is refreshed every day. This option is ideal for businesses that always need the latest information, but it consumes more capacity.
    - **Medium:** Data is refreshed every three days. This option is suitable for businesses that need regular updates but don't require daily insights. It balances performance and data accuracy.
    - **Low:** Data is refreshed every seven days. This option consumes the least capacity and is suitable for businesses that don't need frequent updates and want to save capacity.
-
-1. In the **Email Address Validation** section, make the following selections: 
-    1. Select **Check email validation** to validate email addresses and classify them as personal or work emails. This helps the agent generate outreach emails only for leads with valid email addresses.
-    1. If you're using a custom field for email addresses, select the field from the drop-down list. The drop-down lists all email address fields in the **Lead** table. By default, the agent uses the **EMailAddress1** field in the **Lead** table to validate email addresses.
 
 1. In the **Research** section, review the resources that the agent uses to gather information about leads. The following sources are set for you and can't be edited:
 

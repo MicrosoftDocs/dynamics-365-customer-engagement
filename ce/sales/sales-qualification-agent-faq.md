@@ -93,12 +93,3 @@ The **Review email** option appears in the banner, and the **Draft email** optio
 
 - Your organization is using server-side synchronization. Ask your admin if you're not sure.
 - The lead's email address is available.
-
-<a name="no-email-validation">
-## Why didn't the agent validate the lead's email address?
-
-The agent validates the lead's email address only if the following conditions are met:
-
-- Email validation is enabled for the agent. Ask your admin if you're not sure.
-
-- There's a mismatch between the email address field you used for the lead and the email address field configured for email validation in the Sales Qualification Agent settings.
