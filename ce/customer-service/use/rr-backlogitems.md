@@ -4,7 +4,7 @@ description: Monitor and filter backlog work items in real-time to improve workf
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: concept-article
+ms.topic: conceptual
 ms.collection:
 ms.date: 04/02/2025
 ms.custom: bap-template

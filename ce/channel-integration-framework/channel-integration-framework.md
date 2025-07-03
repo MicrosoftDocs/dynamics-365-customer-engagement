@@ -4,7 +4,7 @@ description: Use this topic for getting started with Dynamics 365 Channel Integr
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 12/10/2024
+ms.date: 06/27/2025
 ms.topic: overview
 ms.custom: 
 ---

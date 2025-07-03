@@ -4,7 +4,7 @@ description: Learn how to use the Backlog conversations report to monitor conver
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
-ms.topic: concept-article
+ms.topic: conceptual
 ms.collection: 
 ms.date: 05/14/2025
 ms.custom: bap-template

@@ -52,6 +52,5 @@ Formatted messages are supported in channels such as Microsoft Teams, WhatsApp, 
 ### Related information
 
 [Bring your own custom messaging channel using Direct Line](../develop/bring-your-own-channel.md)  
-[Markdown formats in custom channels that use Direct Line](../develop/markdown-formats-dev.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

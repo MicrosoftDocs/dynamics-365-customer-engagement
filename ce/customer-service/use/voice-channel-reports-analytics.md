@@ -5,7 +5,7 @@ ms.date: 07/01/2024
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.topic: concept-article
+ms.topic: conceptual
 ms.custom:
 - bap-template
 - dyn365-customerservice

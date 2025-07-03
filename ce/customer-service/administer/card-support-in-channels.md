@@ -1,8 +1,8 @@
 ---
 title: Support for live chat and asynchronous channels
 description: Get information on the support for adaptive cards, suggested actions, emojis, stickers, file attachments, and message formatting in live chat and asynchronous channels.
-ms.date: 06/11/2025
-ms.topic: concept-article
+ms.date: 06/20/2025
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.custom: bap-template
@@ -22,19 +22,19 @@ The following table lists the rich cards that are supported across different cha
 
 The Apple Messages for Business, SMS, and WhatsApp social channels don't support any cards listed in the following table.
 
-| Channel | Hero card | Thumbnail card | Audio card | Card carousel |
-|---------------|-----------|-------------|------------|----|
-| Microsoft Teams  | Yes    |  Yes   |  No  | Yes  |
-| LINE    | Yes | Yes | No<sup>**2**</sup>  | Yes|
-| Custom (Direct Line) | Yes |  Yes | Yes<sup>**1**</sup>  | Yes<sup>**1**</sup> |
+| Channel | Hero card | Thumbnail card | Audio card | Card carousel | Manual sign-in card |
+|---------------|-----------|-------------|------------|----|-----|
+| Microsoft Teams  | Yes    |  Yes   |  No  | Yes  | Yes |
+| LINE    | Yes | Yes | No<sup>**2**</sup>  | Yes| No |
+| Custom (Direct Line) | Yes |  Yes | Yes<sup>**1**</sup>  | Yes<sup>**1**</sup> | No |
 
 **Yes**: Supported; card is supported fully with the exception that some channels support a subset of the card actions. The number of actions allowed on each card might be limited that varies by channel.
 
 <sup>**1**</sup> : Card elements are supported in the Webchat version of custom channel that uses Direct Line, but not in the Android version.
 
-<sup>**2**</sup>: Card is converted to unformatted text, links might not be active, images might not be displayed, or media might not work. The behavior might vary by channel.
+<sup>**2**</sup>: Card is converted to unformatted text. Links might not be active, images might not be displayed, or media might not work. The behavior might vary by channel.
 
-**No**: No support
+**No**: No support.
 
 Learn more in [Send and Receive Media with WhatsApp Messaging on Twilio](https://support.twilio.com/hc/articles/360017961894-Sending-and-Receiving-Media-with-WhatsApp-Messaging-on-Twilio-Beta-).
 
@@ -88,8 +88,8 @@ All file types are supported for live chat, provided the file sizes are within t
 >
 > - For Microsoft Teams, when a customer sends an emoji from the Teams client, the representative receives a PNG image. When a representative sends a GIF image (outbound), the customer receives a PNG image.
 > - The custom channels that use Direct Line support different types of file attachments, but it's up to the client to implement them.
-> - For LINE inbound and outbound messages, when a GIF image is sent, the recipient will receive a JPG image.
-> - For WhatsApp messages, when a customer sends an attachment in document format (for example, a DOCX, XLSX, or TXT file), the representative will receive the attachment name as message text. We recommend converting documents to PDF format before sending them as attachments.
+> - For LINE inbound and outbound messages, when a GIF image is sent, the recipient receives a JPG image.
+> - For WhatsApp messages, when a customer sends an attachment in document format (for example, a DOCX, XLSX, or TXT file), the representative receives the attachment name as message text. We recommend that you convert documents to PDF format before you send them as attachments.
 > - For newly created Twilio accounts, you must disable a security setting that blocks the ability to send media files. Learn more in [Extended notice and update on security changes: HTTP Authentication for Voice and Messaging Media enabled by default](https://go.microsoft.com/fwlink/p/?linkid=2248938).
 
 ## Support for emojis
@@ -145,7 +145,7 @@ The following table list the text styles that are supported by Microsoft Teams, 
 > [!NOTE]
 > - Apple Messages for Business and SMS channels don't support formatted messages.
 > - A few text styles such as blockquote, headers, numbered lists, and unordered lists, are currently not supported across some channels.
-> - [Rich messages](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-messages) are not supported in WhatsApp channel through Azure Communication Services.
+> - [Rich messages](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-messages) aren't supported in WhatsApp channel through Azure Communication Services.
 
 ## Next steps
 
@@ -157,7 +157,7 @@ The following table list the text styles that are supported by Microsoft Teams, 
 [Overview of channels](../use/channels.md)  
 [Enable file attachments](enable-file-attachments.md)  
 [Enable formatted messages](enable-formatted-messages.md)  
-[Markdown formats in custom channels that use Direct Line](../develop/markdown-formats-dev.md)  
+[Markdown formats in custom channels that use Direct Line](../develop/bring-your-own-channel.md#markdown-formats-in-custom-channels)  
 [Markdown formats for representatives](../use/markdown-formats-agents.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
