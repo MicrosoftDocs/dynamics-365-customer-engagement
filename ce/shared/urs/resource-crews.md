@@ -10,7 +10,7 @@ Crews are ideal for scenarios where:
 
 ## Create a crew
 
-A crew is a bookable resource which is essentially a container for the child resources who are members of the crew.
+A crew is a bookable resource, which is essentially a container for the child resources who are members of the crew.
 
 1. Open the **Resources** area, select **Resources**, and then select **New**.
 
@@ -47,7 +47,7 @@ Relate other bookable resources to the crew as crew members. If not done already
 
 1. Select **New Bookable Resource Group**.
 
-1. Enter a name, the **Child Resource**, and the date range when the resource will be part of the crew.
+1. Enter a name, the **Child Resource**, and the date range when the resource is part of the crew.
 
 1. Choose the **Crew Member Type** and specify if the resource is a member of the crew or its leader.
 
@@ -61,6 +61,9 @@ Relate other bookable resources to the crew as crew members. If not done already
 ## Schedule a crew
 
 You can schedule a single requirement to a crew manually through the schedule board or with [schedule assistant](../../field-service/schedule-assistant.md). To [schedule a requirement group to a crew](#schedule-requirement-groups-for-the-crew-with-the-schedule-assistant), use schedule assistant.
+
+> [!NOTE]
+> To schedule a requirement to a crew with schedule assistant, set the requirement's resource type to crew.
 
 ### View crews on the schedule board
 
