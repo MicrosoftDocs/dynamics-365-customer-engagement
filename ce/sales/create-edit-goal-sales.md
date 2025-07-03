@@ -50,29 +50,29 @@ Use goals to keep track of your progress on achieving target revenue.
 
 1. On the **Targets** tab, specify a target value against which the results of the goal rollup are measured. The target type depends on the **Amount Data Type** selected for the goal metric that you chose for this goal. You will see one of the following fields:
 
-   - **Target (Decimal)**. Required. This field is available if the goal **Metric Type** is **Amount** and the **Amount Data Type** is **Decimal**.
-   - **Target (Money)**. Required. This field is available if the goal **Metric Type** is **Amount** and the **Amount Data** Type is **Money**.
-   - **Target (Integer)**. Required. This field is available if the goal **Metric Type** is **Amount** and the **Amount Data** Type is **Integer** or if the goal **Metric Type** is **Count**.
+   - **Target (Decimal)**: Required. This field is available if the goal **Metric Type** is **Amount** and the **Amount Data Type** is **Decimal**.
+   - **Target (Money)**: Required. This field is available if the goal **Metric Type** is **Amount** and the **Amount Data** Type is **Money**.
+   - **Target (Integer)**: Required. This field is available if the goal **Metric Type** is **Amount** and the **Amount Data** Type is **Integer** or if the goal **Metric Type** is **Count**.
 
 1. If the goal metric you are using has **Track Stretch Target** selected, you will also see one of the following fields:
 
-   - **Stretched Target (Decimal)**. Required. This field is available if the goal **Metric Type** is **Amount** and the **Amount Data Type** is **Decimal**.
-   - **Stretched Target (Money)**. Required. This field is available if the goal **Metric Type** is **Amount** and the **Amount Data Type** is **Money**.
-   - **Stretched Target (Integer)**. Required. This field is available if the goal **Metric Type** is **Amount** and the **Amount Data Type** is **Integer** or if the goal Metric Type is **Count**.
+   - **Stretched Target (Decimal)**: Required. This field is available if the goal **Metric Type** is **Amount** and the **Amount Data Type** is **Decimal**.
+   - **Stretched Target (Money)**: Required. This field is available if the goal **Metric Type** is **Amount** and the **Amount Data Type** is **Money**.
+   - **Stretched Target (Integer)**: Required. This field is available if the goal **Metric Type** is **Amount** and the **Amount Data Type** is **Integer** or if the goal Metric Type is **Count**.
 
 1. To add an existing goal as a child goal of this goal, on the **Child Goals** tab, select the **Add Existing Goal** button.
 
 1. The **Actuals** tab shows the actual value achieved towards the target as of the last rolled-up date. Select **Recalculate** to update the actuals for the goal based on the latest data. 
 
-   - **Actual (Money)**. If the goal metric uses **Money** as the **Amount Data Type**, this field shows the total amount of money achieved towards the goal as of the last rolled-up date.
-   - **In-progress (Money)**. If the goal metric uses **Money** as the **Amount Data Type**, this field shows the amount of money achieved towards the goal since the last time the actuals were calculated.
-   - **Percentage Achieved**. If the goal metric is **Decimal** or **Integer**, this field shows the percentage of the goal that is complete as of the last rolled-up date.
-   - **Last Rolled Up Date**. This field shows the last date and time that the actuals were recalculated.
+   - **Actual (Money)**: If the goal metric uses **Money** as the **Amount Data Type**, this field shows the total amount of money achieved towards the goal as of the last rolled-up date.
+   - **In-progress (Money)**: If the goal metric uses **Money** as the **Amount Data Type**, this field shows the amount of money achieved towards the goal since the last time the actuals were calculated.
+   - **Percentage Achieved**: If the goal metric is **Decimal** or **Integer**, this field shows the percentage of the goal that is complete as of the last rolled-up date.
+   - **Last Rolled Up Date**: This field shows the last date and time that the actuals were recalculated.
 
 1. On the **Goal Criteria** tab, define the criteria that will be used for rolling up the Actuals data against the goal.
 
-   - **Roll Up Only From Child Goals**. If you want to limit the data used for the roll up to only child goals, select **Yes**. To allow other data to be used for the roll ups, select **No**.
-   - **Record Set for Rollup**. If you want to limit the records that can be included in the roll up to only those records owned by the goal owner, select **Owned by goal owner**. To allow all records to be included in the roll up data, select **All**.
+   - **Roll Up Only From Child Goals**: If you want to limit the data used for the roll up to only child goals, select **Yes**. To allow other data to be used for the roll ups, select **No**.
+   - **Record Set for Rollup**: If you want to limit the records that can be included in the roll up to only those records owned by the goal owner, select **Owned by goal owner**. To allow all records to be included in the roll up data, select **All**.
 
 1. On the **Notes** tab, enter any notes for this goal.
 
