@@ -106,5 +106,5 @@ If your model isn't ready to publish or isn't performing well, try the following
 ## Related information
 
 [Prioritize leads through scores](work-predictive-lead-scoring.md)  
-[Configure predictive lead scoring](configure-predictive-lead-scoring.md)
-[Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
+[Configure predictive lead scoring](configure-predictive-lead-scoring.md)  
+[Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md)  
