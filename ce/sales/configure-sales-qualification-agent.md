@@ -110,7 +110,7 @@ Grant **User**-level permissions for *read*, *write*, *create*, *append*, *appen
 
 1. Select **Activate**.
 
-The status changes to **Active**. The agent starts processing the last 100 leads, starting with the most recently created ones.
+The status changes to **Active**. The agent starts processing the last 100 leads, starting with the most recently created ones. You can now test the agent to ensure it's working as expected. Learn more in [Test the Sales Qualification Agent](test-sales-qualification-agent.md).
 
 The agent uses the capacity assigned to your tenant to process leads and generate insights. If you don't have enough capacity to activate it, a banner appears at the top of the page. Select the Power Platform admin center link in the banner to add more capacity, or save the agent settings and come back later to activate it.
 
