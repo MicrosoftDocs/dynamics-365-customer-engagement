@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection: 
-ms.date: 05/09/2025
+ms.date: 07/03/2025
 ms.custom: bap-template
 ---
 
@@ -23,14 +23,16 @@ Customer Knowledge Management Agent lets you autonomously turn cases and case-re
 - You're using the out-of-the-box case entities.
 - [Dynamics 365 knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management) is configured.
 - You enabled Copilot to access Dynamics 365 knowledge base. You can utilize the internal knowledge base resources only for generating responses. Learn more in [Configure knowledge sources](copilot-enable-help-pane.md#configure-knowledge-sources).
-- You [configured connection references for Customer Knowledge Management Agent flow (preview)](admin-km-agent-connections.md#configure-connection-references-for-customer-knowledge-management-agent-flow-preview).
+- For real-time creation, you [configured connection references for Customer Knowledge Management Agent flow (preview)](admin-km-agent-connections.md#configure-connection-references-for-customer-knowledge-management-agent-flow-preview).
 - [Manage consumption-based billing and capacity](setup-pay-as-you-go.md).
 
 ## Enable Customer Knowledge Management Agent
 
 In Copilot Service admin center, go to **Support experience** > **Knowledge** > **Customer Knowledge Management Agent (preview)**, and then select **Manage**. The **Customer Knowledge Management Agent (preview)** page appears.
 
-Select from the following options as required for Customer Knowledge Management Agent.
+You can harvest from cases and their associated conversation summaries, emails, notes as well as from conversations.
+For cases and conversations, select from the following options as required for Customer Knowledge Management Agent.
+
 
 ## Enable real-time knowledge creation
 
@@ -40,35 +42,37 @@ Real-time knowledge creation is triggered when a customer service representative
 
 ### Control which cases real-time creation should create articles from 
 
-You can create multiple rules to control which conditions must be met for a resolved case to be processed by Customer Knowledge Management Agent in real time. For example, you might limit this process to cases owned by a certain user, or any other fields on the case.  
+You can create multiple rules to control which conditions must be met for a resolved case to be processed by Customer Knowledge Management Agent in real time. For example, you might limit this process to cases or conversations owned by a certain user, or any other fields on the case or conversation.  
 
 1. In the **Real-time creation** section, select **Manage rules**.
 1. In the **Manage rules** dialog, select **New** to add a new rule.
 1. In the **New knowledge creation rules** dialog, enter a rule name, condition name, and then add your conditions.
 1. Select **Save**.
 
-### Control which case attributes are used to create knowledge articles in real-time  
+### Control which case attributes are used to create knowledge articles in real-time and historical
 
-Customer Knowledge Management Agent uses **Case Title**, **Case Description**, **Product**, **Subject**, **Email Content**, **Conversation Summary**, and **Case Notes** to create an article. You can remap all the fields except **Email Content** and **Conversation Summary** to your own record types and data fields.  
+Customer Knowledge Management Agent uses **Case Title**, **Case Description**, **Product**, **Subject**, **Email Content**, **Conversation Summary**, and **Case Notes** to create an article. You can remap all the fields except **Email Content** and **Conversation Summary** to your own record types and data fields. You can't change the attributes used for conversations. 
  
-1. In the **Real-time creation** section, select **Manage attributes**. The **Manage data** page appears. 
-You can map which record types and data fields are used for each element. You can choose to include and exclude data.
+1. On the **Case** card select **Manage attributes**. The **Manage data** page appears. You can map which record types and data fields are used for each element. You can choose to include and exclude data.
 1. Select **Save and Close**.
 1. Select **Save** on the **Customer Knowledge Management Agent (preview)** settings page.
 
+> [!NOTE]
+> For historical creation, mapped entities must have **Change Tracking** enabled and added to the **Entity Analytics Configuration**.
+
 ## Enable historical knowledge creation
 
-When enabled, the agent looks at all the cases that meet the conditions specified, and then determines if new articles are needed by comparing the content of the cases with the existing Dynamics 365 knowledge base. If a new article is needed, it creates a new article by using the content of one or more historical cases that meet the configured conditions.  
+When enabled, the agent looks at all the cases that meet the conditions specified, and then determines if new articles are needed by comparing the content of the cases or conversations with the existing Dynamics 365 knowledge base. If a new article is needed, it creates a new article by using the content of one or more historical cases that meet the configured conditions.  
 
-1. In the **Creation from historical cases** section, select the **Let copilot use information from historical cases to create knowledge articles** option.
+1. In the **Creation from historical cases/conversations** section, select the **Let copilot use information from historical cases/conversations to create knowledge articles** option.
 1. Select **Manage rules** to configure the conditions for the harvest.
 1. On the **Default rule** dialog, enter a rule name, condition name, and then add your conditions to filter historical articles.
 1. Select **Save**.
 1. Select **Save** on the **Customer Knowledge Management Agent** settings page.
-1. Select **Start** on the **Creation from historical cases** section. 
+1. Select **Start** on the **Creation from historical cases/conversations** section. 
 Once you select start, you see that the article creation is in progress. You can see the creation process log by selecting the **View creation process log** link.
 
-Creation from historical cases is a long-running process, which can't be stopped once it starts. The process can create articles from a maximum of 100,000 cases and runs until all the 100,000 cases are processed. We recommend that you perform historical knowledge creation in batches. 
+Creation from historical cases/conversations is a long-running process, which can't be stopped once it starts. The process can create articles from a maximum of 100,000 cases/conversations and runs until all the 100,000 cases/conversations are processed. We recommend that you perform historical knowledge creation in batches. 
 
 ## Set the default compliance state of created articles
 
