@@ -35637,6 +35637,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/customerengagement/on-premises/admin/on-prem-server-based-sharepoint-online.md",
+      "redirect_url": "on-prem-server-configure-azure-app-with-sharepoint-access",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/develop/markdown-formats-dev.md",
       "redirect_url": "/dynamics365/customer-service/develop/bring-your-own-channel",
       "redirect_document_id": "false"
