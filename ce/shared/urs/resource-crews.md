@@ -60,7 +60,7 @@ Relate other bookable resources to the crew as crew members. If not done already
 
 ## Schedule a crew
 
-You can schedule a single requirement to a crew manually through the schedule board or with [schedule assistant](../../field-service/schedule-assistant.md). To [schedule a requirement group to a crew](#schedule-requirement-groups-for-the-crew-with-the-schedule-assistant), use schedule assistant.
+You can schedule a single requirement to a crew manually through the schedule board or with [schedule assistant](../../field-service/schedule-assistant.md). To [schedule a requirement group to a crew](#schedule-requirement-groups-for-the-crew-with-the-schedule-assistant), use schedule assistant. Note that to schedule a requirement to a crew with schedule assistant, the requirement must have its resource type set to crew.
 
 ### View crews on the schedule board
 
