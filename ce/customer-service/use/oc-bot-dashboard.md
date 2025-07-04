@@ -50,7 +50,7 @@ Based on your administrator's configuration of the **Add historical analytics fo
  | Bot engagement rate |  The percentage of Copilot Studio sessions that moved into an engaged state. A session is considered engaged when any of the following conditions occur:<ul><li>A non-system topic is triggered</li><li>The session is escalated</li><li>The fallback topic is triggered</li><li>A conversational boosting topic is triggered</li></ul>. Learn more in [analyze agent performance and usage](/microsoft-copilot-studio/analytics-summary).|
  | Bot resolution rate | TThe percentage of Copilot Studio sessions that were resolved. A session is considered resolved when the End of Conversation topic is triggered and the user either confirms resolution, the session time out, or the Confirmed Success topic is triggered during the session. |
  | Bot abandon rate  | The percentage of engaged Copilot Studio sessions that were abandoned. A session is considered abandoned if it times out without reaching a resolved or escalated state. |
- | Bot CSAT | The graphical view of the average Customer Satisfaction (CSAT) score from users who responded to a survey at the end of a bot session. If this metric appears blank, AI agents may not be configured to request feedback through surveys. |
+ | Bot CSAT | The graphical view of the average Customer Satisfaction (CSAT) score from users who responded to a survey after a bot session. If this metric is blank, it indicates that AI agents aren't set up to request feedback through surveys. |
 
  The following table shows the bot KPI chart metrics.
 
