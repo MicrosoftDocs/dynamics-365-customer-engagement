@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: gandhamm
 ms.topic: faq
 ms.collection: bap-ai-copilot
-ms.date: 03/28/2025
+ms.date: 07/09/2025
 ms.custom: 
 - bap-template
 - responsible-ai-faq
@@ -18,7 +18,7 @@ These frequently asked questions (FAQ) describe the AI impact of generative orch
 
 ## What is NLU and how is it used in agents?
 
-Natural Language Understanding (NLU) is the foundation for interpreting user statements and converting them into meaningful actions within AI agents. In Microsoft Copilot Studio agents built for Dynamics 365 Contact Center, NLU enables agents to understand customer queries, extract intent, and respond appropriately. NLU is essential for both digital and voice interactions, allowing agents to interpret natural human language, identify key information, and deliver relevant responses. By accurately understanding customer needs, NLU-powered agents can provide more intelligent, responsive service experiences that enhance customer satisfaction and streamline interactions across channels.
+Natural Language Understanding (NLU) is the foundation for interpreting user statements and converting them into meaningful actions within AI agents. In Microsoft Copilot Studio agents built for Dynamics 365 Contact Center, NLU enables agents to understand customer queries, extract intent, and respond appropriately. NLU is essential for both digital and voice interactions, allowing agents to interpret natural human language, identify key information, and deliver relevant responses. By accurately understanding customer needs, NLU-powered agents can provide more intelligent, responsive service experiences that enhance customer satisfaction and streamline interactions across channels. Learn more in [NLU overview](/microsoft-copilot-studio/nlu-overview).
 
 ## What NLU options are available in Microsoft Copilot Studio?
 

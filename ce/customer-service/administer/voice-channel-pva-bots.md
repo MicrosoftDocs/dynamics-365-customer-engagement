@@ -4,7 +4,7 @@ description: Learn about how to add a Copilot agent to use in the voice channel.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 06/30/2025
+ms.date: 07/09/2025
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
@@ -24,6 +24,9 @@ The following voice capabilities are available for the Copilot agents:
 - Adjust the voice output by using [speech synthesis markup language (SSML)](/microsoft-copilot-studio/voice-configuration#format-speech-synthesis-with-ssml). You can change the tone, pitch, and speed of the voice that interacts with customers.
 - You can also upload your audio files to use in the agent. For example, you can upload a custom greeting or a message that plays when the agent can't understand the customer's request. Learn more in [Play secure audio file from Copilot Studio](/dynamics365/guidance/resources/copilot-studio-play-audio-file).
 - Enable [barge-in](/microsoft-copilot-studio/voice-configuration#enable-barge-in) to let customers interrupt the Copilot agent at any time. You can also use long-running operation messages to let customers know that the voice-enabled Copilot is working on their request.
+- Select the most appropriate option for your agent&mdash classic orchestration where agents respond by triggering topics whose phrases match most closely to user queries or generative AI which enables your agent to choose the best actions, knowledge, and topics to answer user queries or respond to event triggers. Learn more in [Orchestrate agent behavior with generative AI](/microsoft-copilot-studio/advanced-generative-actions)
+- If you don't select generative orchestration, you can use the **Language Understanding** section in Copilot Studio to then select between **Microsoft Copilot Studio NLU** or **Microsoft Copilot Studio NLU+** to enhance how your agent interprets customer intentions and extracts meaning from conversations. Learn more in [Configure NLU+](/microsoft-copilot-studio/nlu-plus-configure).
+If you select **Microsoft Copilot Studio NLU**, processing is done within Copilot Studio. For **Microsoft Copilot Studio NLU+**, data processing happens within Dynamics.  
 - Control the call flow by [transferring](/microsoft-copilot-studio/voice-configuration#transfer-a-call-to-an-agent-or-external-phone-number) or [terminating](/microsoft-copilot-studio/voice-configuration#configure-call-termination) calls. If a customer wants to talk to a live representative, the voice copilot can transfer the call to an available representative or an external phone number. If the voice copilot can't solve the customer issue, it can end the call and give an appropriate message.
 
 ## Supported languages and locale codes

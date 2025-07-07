@@ -1,7 +1,7 @@
 ---
 title: Integrate a Copilot agent
 description: Use this article to get instructions on how to integrate a Copilot agent in your contact center.
-ms.date: 06/20/2025
+ms.date: 07/09/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -25,7 +25,7 @@ The following capabilities are available for the agent conversations:
 - Seamlessly integrate your agent with all channels without needing to add channel-specific code in the agent.
 - Configure interactive voice response (IVR) capabilities for voice-enabled agents.
 - Select the most appropriate option for your agent&mdash classic orchestration where agents respond by triggering topics whose phrases match most closely to user queries or generative AI which enables your agent to choose the best actions, knowledge, and topics to answer user queries or respond to event triggers. Learn more in [Orchestrate agent behavior with generative AI](/microsoft-copilot-studio/advanced-generative-actions)
-- If you select generative orchestration, you can use the **Language Understanding** section in Copilot Studio to then select between NLU or NLU+ to enhance how your agent interprets customer intentions and extracts meaning from conversations.
+- If you select generative orchestration, you can use the **Language Understanding** section in Copilot Studio to then select between NLU or NLU+ to enhance how your agent interprets customer intentions and extracts meaning from conversations. Learn more in [Configure NLU+](/microsoft-copilot-studio/nlu-plus-configure).
 - Configure contextual transfers to service representatives.
 - Analyze the agent transcript that's available in Microsoft Dataverse after the conversation is completed.
 - Configure routing rules to selectively route incoming requests to agents based on context, such as issue type or customer type. For example, you can route low-complexity issues to agents, or route the conversation to a sales or support agent based on the webpage browsing history of the customer.
