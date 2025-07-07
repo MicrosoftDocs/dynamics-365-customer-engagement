@@ -22,6 +22,7 @@ Messages represent operations that can be performed on the table. They may also 
 | `Assign`<br />Event: True |`PATCH` /msdyn_ocliveworkitems(*activityid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) the `ownerid` property. |<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
 | `Associate`<br />Event: True |[Associate records](/power-apps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api) |[Associate records](/power-apps/developer/data-platform/org-service/entity-operations-associate-disassociate#use-the-associate-method-or-associaterequest)|
 | `BulkRetain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.BulkRetain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
+| `CCaaS_InitiateQueueConsult`<br />Event: False |**CCaaS_InitiateQueueConsult action** |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Create`<br />Event: True |`POST` /msdyn_ocliveworkitems<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api) |[Create records](/power-apps/developer/data-platform/org-service/entity-operations-create#basic-create)|
 | `CreateMultiple`<br />Event: True |<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
 | `Delete`<br />Event: True |`DELETE` /msdyn_ocliveworkitems(*activityid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete) |[Delete records](/power-apps/developer/data-platform/org-service/entity-operations-update-delete#basic-delete)|
@@ -1343,7 +1344,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Unique identifier for msdyn_omnichannelqueue associated with Conversation**|
+|Description|**Unique identifier for msdyn\_omnichannelqueue associated with Conversation**|
 |DisplayName|**Queue**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -3484,6 +3485,7 @@ One-To-Many Relationship: [site site_msdyn_ocliveworkitems](site.md#BKMK_site_ms
 These relationships are one-to-many. Listed by **SchemaName**.
 
 - [CampaignResponse_msdyn_ocliveworkitems](#BKMK_CampaignResponse_msdyn_ocliveworkitems)
+- [msdyn_conversationdispositioncodemap_ocliveworkitem](#BKMK_msdyn_conversationdispositioncodemap_ocliveworkitem)
 - [msdyn_msdyn_ocliveworkitem_msdyn_cdsentityengagementctx_liveworkitemid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_cdsentityengagementctx_liveworkitemid)
 - [msdyn_msdyn_ocliveworkitem_msdyn_conversationinsight_ConversationId](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_conversationinsight_ConversationId)
 - [msdyn_msdyn_ocliveworkitem_msdyn_conversationsummaryinteraction_conversationid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_conversationsummaryinteraction_conversationid)
@@ -3498,6 +3500,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_msdyn_ocliveworkitem_msdyn_ocrecording_liveworkitemid_recordingtarget](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocrecording_liveworkitemid_recordingtarget)
 - [msdyn_msdyn_ocliveworkitem_msdyn_ocrequest_LiveWorkItemId](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocrequest_LiveWorkItemId)
 - [msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid)
+- [msdyn_msdyn_ocliveworkitem_msdyn_productmap_msdyn_recordid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_productmap_msdyn_recordid)
 - [msdyn_msdyn_ocliveworkitem_msdyn_salesocmessage_conversationid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_salesocmessage_conversationid)
 - [msdyn_msdyn_ocliveworkitem_msdyn_suggestioninteraction_msdyn_suggestionfor](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_suggestioninteraction_msdyn_suggestionfor)
 - [msdyn_msdyn_ocliveworkitem_msdyn_suggestionrequestpayload](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_suggestionrequestpayload)
@@ -3523,7 +3526,9 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_ocliveworkitem_ProcessSession](#BKMK_msdyn_ocliveworkitem_ProcessSession)
 - [msdyn_ocliveworkitem_QueueItems](#BKMK_msdyn_ocliveworkitem_QueueItems)
 - [msdyn_ocliveworkitem_SyncErrors](#BKMK_msdyn_ocliveworkitem_SyncErrors)
+- [msdyn_ocliveworkitemmatchingcriteria_ocliveworkitemid_msdyn_ocliveworkitem](#BKMK_msdyn_ocliveworkitemmatchingcriteria_ocliveworkitemid_msdyn_ocliveworkitem)
 - [msdyn_readtracker_poly_msdyn_ocliveworkitem](#BKMK_msdyn_readtracker_poly_msdyn_ocliveworkitem)
+- [msdyn_sessionextension_ocliveworkitemid_msdyn_ocliveworkitem](#BKMK_msdyn_sessionextension_ocliveworkitemid_msdyn_ocliveworkitem)
 
 ### <a name="BKMK_CampaignResponse_msdyn_ocliveworkitems"></a> CampaignResponse_msdyn_ocliveworkitems
 
@@ -3536,6 +3541,18 @@ Many-To-One Relationship: [campaignresponse CampaignResponse_msdyn_ocliveworkite
 |ReferencedEntityNavigationPropertyName|`CampaignResponse_msdyn_ocliveworkitems`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_conversationdispositioncodemap_ocliveworkitem"></a> msdyn_conversationdispositioncodemap_ocliveworkitem
+
+Many-To-One Relationship: [msdyn_conversationdispositioncodemap msdyn_conversationdispositioncodemap_ocliveworkitem](msdyn_conversationdispositioncodemap.md#BKMK_msdyn_conversationdispositioncodemap_ocliveworkitem)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationdispositioncodemap`|
+|ReferencingAttribute|`msdyn_ocliveworkitemid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_conversationdispositioncodemap_ocliveworkitem`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_cdsentityengagementctx_liveworkitemid"></a> msdyn_msdyn_ocliveworkitem_msdyn_cdsentityengagementctx_liveworkitemid
 
@@ -3702,6 +3719,18 @@ Many-To-One Relationship: [msdyn_ocsession msdyn_msdyn_ocliveworkitem_msdyn_ocse
 |ReferencingEntity|`msdyn_ocsession`|
 |ReferencingAttribute|`msdyn_liveworkitemid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_productmap_msdyn_recordid"></a> msdyn_msdyn_ocliveworkitem_msdyn_productmap_msdyn_recordid
+
+Many-To-One Relationship: [msdyn_productmap msdyn_msdyn_ocliveworkitem_msdyn_productmap_msdyn_recordid](msdyn_productmap.md#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_productmap_msdyn_recordid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_productmap`|
+|ReferencingAttribute|`msdyn_recordid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_ocliveworkitem_msdyn_productmap_msdyn_recordid`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
@@ -4005,6 +4034,18 @@ Many-To-One Relationship: [syncerror msdyn_ocliveworkitem_SyncErrors](syncerror.
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_ocliveworkitemmatchingcriteria_ocliveworkitemid_msdyn_ocliveworkitem"></a> msdyn_ocliveworkitemmatchingcriteria_ocliveworkitemid_msdyn_ocliveworkitem
+
+Many-To-One Relationship: [msdyn_ocliveworkitemmatchingcriteria msdyn_ocliveworkitemmatchingcriteria_ocliveworkitemid_msdyn_ocliveworkitem](msdyn_ocliveworkitemmatchingcriteria.md#BKMK_msdyn_ocliveworkitemmatchingcriteria_ocliveworkitemid_msdyn_ocliveworkitem)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocliveworkitemmatchingcriteria`|
+|ReferencingAttribute|`msdyn_ocliveworkitemid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocliveworkitemmatchingcriteria_ocliveworkitemid_msdyn_ocliveworkitem`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_readtracker_poly_msdyn_ocliveworkitem"></a> msdyn_readtracker_poly_msdyn_ocliveworkitem
 
 Many-To-One Relationship: [msdyn_readtracker msdyn_readtracker_poly_msdyn_ocliveworkitem](msdyn_readtracker.md#BKMK_msdyn_readtracker_poly_msdyn_ocliveworkitem)
@@ -4015,6 +4056,18 @@ Many-To-One Relationship: [msdyn_readtracker msdyn_readtracker_poly_msdyn_oclive
 |ReferencingAttribute|`msdyn_regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_readtracker_poly_msdyn_ocliveworkitem`|
 |IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_sessionextension_ocliveworkitemid_msdyn_ocliveworkitem"></a> msdyn_sessionextension_ocliveworkitemid_msdyn_ocliveworkitem
+
+Many-To-One Relationship: [msdyn_sessionextension msdyn_sessionextension_ocliveworkitemid_msdyn_ocliveworkitem](msdyn_sessionextension.md#BKMK_msdyn_sessionextension_ocliveworkitemid_msdyn_ocliveworkitem)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_sessionextension`|
+|ReferencingAttribute|`msdyn_ocliveworkitemid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_sessionextension_ocliveworkitemid_msdyn_ocliveworkitem`|
+|IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 

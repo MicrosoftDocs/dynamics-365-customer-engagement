@@ -129,6 +129,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |100000001|**ResolveCase**|
 |100000002|**EmailFollowup**|
 |100000003|**ReplyToCustomer**|
+|100000004|**GatherIntentDetails**|
+|100000005|**SuggestResolution**|
 
 ### <a name="BKMK_msdyn_Name"></a> msdyn_Name
 

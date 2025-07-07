@@ -4,19 +4,15 @@ description: Learn how to use the Backlog conversations report to monitor conver
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
-ms.topic: concept-article
+ms.topic: conceptual
 ms.collection: 
-ms.date: 05/09/2025
+ms.date: 05/14/2025
 ms.custom: bap-template
 ---
 
 # View and understand the Backlog conversation report in Omnichannel real-time analytics
 
 The Backlog conversation report lists all open, active, and waiting conversations that were created in the last 30 days. It allows you to view persistent chats that are longer than 24 hrs.
-
-## Prerequisites
-
-You must contact Microsoft Support to turn on this feature.
 
 ## Key metrics
 

@@ -4,7 +4,7 @@ description: Learn about the enhanced case management in Customer Service multis
 author: gandhamm 
 ms.author: mgandham 
 ms.reviewer: mgandham
-ms.topic: concept-article
+ms.topic: conceptual
 ms.date: 04/30/2025 
 ms.custom: bap-template 
 ---
@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Enhanced case management in multisession apps
 
-The Customer Service workspace offers an enhanced case management experience. Customer service representatives (service representatives or representatives) can verify and edit customer details without switching tabs, and can update existing cases without interrupting the case creation flow. The enhanced experience also helps prevent case duplication.
+The Copilot Service workspace offers an enhanced case management experience. Customer service representatives (service representatives or representatives) can verify and edit customer details without switching tabs, and can update existing cases without interrupting the case creation flow. The enhanced experience also helps prevent case duplication.
 
 ## Create cases by using a quick create from
 
@@ -56,7 +56,7 @@ Depending on the settings that are enabled for you, the form that opens is eithe
 
 ## Create a case from the main case form
 
-You can create a new case from the main case form. The layout depends on whether your administrator enabled the enhanced full case form in Customer Service admin center.
+You can create a new case from the main case form. The layout depends on whether your administrator enabled the enhanced full case form in Copilot Service admin center.
 
 Depending on the settings that are enabled for you, either the enhanced full case form or the default main case form opens.
 
@@ -73,7 +73,7 @@ Depending on the settings that are enabled for you, either the enhanced full cas
 
    ### [Default main case form: Case](#tab/fullcaseform)
     
-   On the **Case for Multisession experience** form, which is the default case form for Customer Service workspace, you can do the following: 
+   On the **Case for Multisession experience** form, which is the default case form for Copilot Service workspace, you can do the following: 
 
    - See color coded **Case Status** fields and **Priority** icons.
    - See the **Attachment** tab. The attachment tab displays the attachments that are linked to the case. You can upload attachments from this tab only if your administrator configured the attachment control.
@@ -120,5 +120,5 @@ When you create a new case and specify a customer or an account, or open a case 
 ### Related information
 
 [Enable enhanced case forms for multisession apps](../administer/case-enh-config.md)<br>
-[Get started with Customer Service workspace](../implement/csw-overview.md)<br>
+[Get started with Copilot Service workspace](../implement/csw-overview.md)<br>
 [View Active conversation to get available information about customers](../use/oc-customer-summary.md)

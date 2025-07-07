@@ -80,6 +80,8 @@ items:
           href: incident-type-overview.md
         - name: Create incident types
           href: configure-incident-types.md
+    - name: Work order customization considerations
+      href: work-order-customization.md
     - name: Service task types
       href: set-up-service-task-types.md
     - name: Agreement sub-statuses
@@ -110,7 +112,11 @@ items:
         - name: Side pane chat
           href: copilot-side-pane.md
         - name: Work order summary
-          href: work-order-recap.md
+          items:
+            - name: Enable work order summary
+              href: enable-work-order-recap.md
+            - name: Summarize work orders
+              href: use-work-order-recap.md  
         - name: Work order update
           href: work-order-update.md
     - name: Use Copilot in the Microsoft 365 integration
@@ -130,8 +136,6 @@ items:
       href: work-order-experience.md
     - name: Create a new work order
       href: create-work-order.md
-    - name: Work order customization considerations
-      href: work-order-customization.md
 
 - name: Inspections
   items:
@@ -278,6 +282,8 @@ items:
         href: schedule-with-travel-time.md
       - name: Time constraints
         href: schedule-time-constraints.md
+      - name: Time zones
+        href: schedule-timezone-agnostic.md
       - name: Preferred resources
         href: resource-preferences.md
       - name: Quick scheduling
@@ -291,7 +297,11 @@ items:
       - name: Pools
         href: resource-pools.md
       - name: Facilities
-        href: facility-scheduling.md
+        items:
+         - name: Schedule a facility
+           href: facility-scheduling.md
+         - name: Facility scheduling examples
+           href: facility-scheduling-examples.md
       - name: Advanced filters
         href: schedule-assistant-advanced-filters.md
       - name: Search resource availability API
@@ -316,8 +326,6 @@ items:
         href: set-up-booking-rules.md
       - name: Edit work hours calendar with APIs
         href: field-service-work-hours-calendar-api.md
-      - name: Analytics dashboard
-        href: scheduling-analytics-reports.md
       - name: Scheduling parameters (Settings)
         href: scheduling-parameters-settings.md
 
@@ -447,19 +455,6 @@ items:
       href: field-service-km-analyze.md
     - name: Submit feedback on knowledge articles
       href: field-service-km-ratings-feedback.md
-
-- name: Reports
-  items:
-    - name: Reports overview
-      href: reports.md
-    - name: Work order summary report
-      href: work-order-summary-report.md
-    - name: Resource and utilization report
-      href: resource-utilization-report.md
-    - name: Optimization summary report
-      href: rso-optimization-summary-report.md
-    - name: Admin report
-      href: rso-admin-report.md
 
 - name: Field Service Portal
   items:

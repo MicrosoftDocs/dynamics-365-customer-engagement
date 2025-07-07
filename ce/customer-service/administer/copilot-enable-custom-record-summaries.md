@@ -5,8 +5,9 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: lalexms
 ms.topic: how-to 
-ms.date: 01/27/2025
-ms.custom: bap-template 
+ms.date: 06/27/2025
+ms.custom: bap-template
+ms.collection: bap-ai-copilot
 ---
 
 # Configure custom record summaries for service representatives
@@ -24,7 +25,9 @@ You can customize to:
 
 ## Configure the custom record summary
 
-1. Perform the steps in [Manage case and custom record summary](copilot-map-custom-fields.md) to configure the custom record summary record.
+To configure the custom record summary, complete the following steps.
+
+1. Perform the steps in [Manage case and custom record summary](copilot-map-custom-fields.md).
 1. Copy the **Developer summary ID** to use in the Configure the summary control on entity forms section.
 
 ### Example 
@@ -37,7 +40,7 @@ For example, you want to generate an account summary with account name, account 
 
 To add the custom record summary to the related forms, perform the steps in [Display case summary on custom case forms](copilot-powerapps-settings.md). 
 
-For example, if you want to display the account summary in Customer Service workspace, perform the following steps:
+For example, if you want to display the account summary in Copilot Service workspace, perform the following steps:
 
 1. Select **Tables** > **Account**.
 1. Select **Forms** > **Account for multisession experience**.

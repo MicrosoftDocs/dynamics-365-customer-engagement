@@ -1,7 +1,7 @@
 ---
 title: Enable supervisor access to manage conversations | MicrosoftDocs
-description: How to enable supervisors to monitor, assign, transfer, and close conversations in the Customer Service admin center app.
-ms.date: 6/14/2024
+description: How to enable supervisors to monitor, assign, transfer, and close conversations in the Copilot Service admin center app.
+ms.date: 6/17/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -17,7 +17,7 @@ As an administrator, you can enable your supervisors to take specific actions on
 
 ## Configure supervisor settings
 
-1. In the site map of Customer Service admin center, select **Insights** in **Operations**. The **Insights** page appears.
+1. In the site map of Copilot Service admin center, select **Insights** in **Operations**. The **Insights** page appears.
 1. In the **Ongoing conversation insights** section, select **Manage**. The **Omnichannel Configuration.Supervisor Settings** page is displayed.
 
 2. To enable the supervisors to perform the following actions, set the corresponding toggles to **Yes**:

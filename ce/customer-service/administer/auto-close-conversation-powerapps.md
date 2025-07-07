@@ -1,7 +1,7 @@
 ---
 title: Close conversations automatically
 description: Use this article to understand how to configure the auto-close duration of conversations.
-ms.date: 03/03/2025
+ms.date: 06/27/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -32,25 +32,25 @@ The following table describes the channel, status reason, and default configured
  | Channel | Existing status reason | Default configured time | Description |
  |--------------------|-------|-------------|--------------------------------------|
  | Chat | Open |  20 min   | For a chat channel, a conversation in the **Open** state for more than 20 minutes is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
- | Chat | Active | None | For a chat channel, a conversation in the Active state won't be automatically closed. |
+ | Chat | Active | None | For a chat channel, a conversation in the Active state isn't automatically closed. |
  | Chat | Wrap-up | 15 minutes | For a chat channel, a conversation that is in the **Wrap-up** stage for more than 15 minutes is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Wrap-up** to the **Closed** state. |
  |  |  |  |  |
- | Records (Case) | Open | None | For a records (case) channel, a conversation that's **Open** will be closed if the corresponding record is deleted. |
- | Records (Case) | Active | None | For a records (case) channel, a conversation that's  **Active** will be closed if the corresponding record is deleted. |
+ | Records (Case) | Open | None | For a records (case) channel, a conversation that's **Open** is closed if the corresponding record is deleted. |
+ | Records (Case) | Active | None | For a records (case) channel, a conversation that's  **Active** is closed if the corresponding record is deleted. |
  |  |  |  |  |
 | Voice | Open |  30 days   | The conversation is eligible for automatic closure after the default time, 30 days, elapses. The conversation is moved from the **Open** to **Closed** state when the scheduler runs after the elapsed time.|
- | Voice | Active | 2 hours | The conversation is eligible for automatic closure after the default time, 2 hours, elapses. The conversation is moved from the **Active** to **Wrap-up** state when the scheduler runs after the elapsed time. |
- | Voice | Wrap-up | 1 day | The conversation is eligible for automatic closure after the default time, 1 day, elapses. The conversation is moved from the **Wrap-up** to **Closed** state when the scheduler runs after the elapsed time. |
+ | Voice | Active | Two hours | The conversation is eligible for automatic closure after the default time, 2 hours, elapses. The conversation is moved from the **Active** to **Wrap-up** state when the scheduler runs after the elapsed time. |
+ | Voice | Wrap-up | One day | The conversation is eligible for automatic closure after the default time, one day, elapses. The conversation is moved from the **Wrap-up** to **Closed** state when the scheduler runs after the elapsed time. |
  |  |  |  |  |
- | SMS, Teams, persistent chat, and social | Open | 30 days | In an asynchronous channel&mdash;such as SMS, Teams, persistent chat, or a social channel&mdash;a conversation that has been in the **Open** state for more than 30 days is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
- | SMS, Teams, and social | Active | 30 days | In an asynchronous channel&mdash;such as SMS, Teams, or a social channel&mdash;a conversation that has been in the **Active** state for more than 30 days is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Active** to the **Closed** state. |
- | SMS, Teams, persistent chat, and social | Wrap-up | One day | In an asynchronous channel&mdash;such as SMS, Teams, persistent chat, or a social channel&mdash;a conversation that has been in the **Wrap-up** state for more than one day is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Wrap-up** to the **Closed** state. |
+ | SMS, Teams, persistent chat, and social | Open | 30 days | In an asynchronous channel&mdash;such as SMS, Teams, persistent chat, or a social channel&mdash;a conversation that's in the **Open** state for more than 30 days is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
+ | SMS, Teams, and social | Active | 30 days | In an asynchronous channel&mdash;such as SMS, Teams, or a social channel&mdash;a conversation that's in the **Active** state for more than 30 days is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Active** to the **Closed** state. |
+ | SMS, Teams, persistent chat, and social | Wrap-up | One day | In an asynchronous channel&mdash;such as SMS, Teams, persistent chat, or a social channel&mdash;a conversation that's in the **Wrap-up** state for more than one day is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Wrap-up** to the **Closed** state. |
 
 ### Conversation in waiting
 
 A conversation in **Waiting** is moved to the **Closed** state when the conversation is inactive for a specified time. The inactive time can be set in the workstream for the **Auto-close after inactivity** option, based on which the conversation will be moved to the closed state after the criteria is met.
 
-For example, when you set **Auto-close after inactivity** to 5 minutes, the conversation is moved to the **Closed** state if it has been in **Waiting** for more than 5 minutes.
+For example, when you set **Auto-close after inactivity** to 5 minutes, the conversation is moved to the **Closed** state if it's in **Waiting** for more than 5 minutes.
 
 > [!NOTE]
 > The **Auto-close after inactivity**  option is available for persistent chat, SMS, social, and Microsoft Teams channels only.

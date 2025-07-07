@@ -22,6 +22,7 @@ Organizational knowledge for internal and external use.
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [msdyn_creationmode](#BKMK_msdyn_creationmode)
+- [msdyn_sourceofcreation](#BKMK_msdyn_sourceofcreation)
 - [SetProductAssociations](#BKMK_SetProductAssociations)
 
 ### <a name="BKMK_msdyn_creationmode"></a> msdyn_creationmode
@@ -44,6 +45,29 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |---|---|
 |0|**Manual**|
 |1|**Copilot**|
+
+### <a name="BKMK_msdyn_sourceofcreation"></a> msdyn_sourceofcreation
+
+|Property|Value|
+|---|---|
+|Description|**Option set to hold details about article origin, if it is generated from Real Time Harvesting/ Bulk Harvesting/ knowledge draft assist/ Manual**|
+|DisplayName|**Source of Creation**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_sourceofcreation`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|0|
+|GlobalChoiceName|`msdyn_knowledgearticle_msdyn_sourceofcreation`|
+
+#### msdyn_sourceofcreation Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**Manual**|
+|1|**DraftAssist**|
+|2|**RealTimeHarvest**|
+|3|**BulkHarvest**|
 
 ### <a name="BKMK_SetProductAssociations"></a> SetProductAssociations
 
@@ -82,6 +106,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [knowledgearticle_QuoteCloses](#BKMK_knowledgearticle_QuoteCloses)
 - [KnowledgeArticle_ServiceAppointments](#BKMK_KnowledgeArticle_ServiceAppointments)
 - [msdyn_copilotknowledgeinteraction_knowledgearticleid_knowledgearticle](#BKMK_msdyn_copilotknowledgeinteraction_knowledgearticleid_knowledgearticle)
+- [msdyn_intentsolutionmap_knowledgearticleid_knowledgearticle](#BKMK_msdyn_intentsolutionmap_knowledgearticleid_knowledgearticle)
 - [msdyn_knowledgearticle_msdyn_kbenrichment_kbid](#BKMK_msdyn_knowledgearticle_msdyn_kbenrichment_kbid)
 - [msdyn_knowledgearticle_msdyn_knowledgearticlesuggestion_suggestedentity](#BKMK_msdyn_knowledgearticle_msdyn_knowledgearticlesuggestion_suggestedentity)
 - [msdyn_knowledgearticle_msdyn_suggestioninteraction_msdyn_suggestedentity](#BKMK_msdyn_knowledgearticle_msdyn_suggestioninteraction_msdyn_suggestedentity)
@@ -275,6 +300,18 @@ Many-To-One Relationship: [msdyn_copilotknowledgeinteraction msdyn_copilotknowle
 |ReferencingEntity|`msdyn_copilotknowledgeinteraction`|
 |ReferencingAttribute|`msdyn_knowledgearticleid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_copilotknowledgeinteraction_knowledgearticleid_knowledgearticle`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_intentsolutionmap_knowledgearticleid_knowledgearticle"></a> msdyn_intentsolutionmap_knowledgearticleid_knowledgearticle
+
+Many-To-One Relationship: [msdyn_intentsolutionmap msdyn_intentsolutionmap_knowledgearticleid_knowledgearticle](msdyn_intentsolutionmap.md#BKMK_msdyn_intentsolutionmap_knowledgearticleid_knowledgearticle)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_intentsolutionmap`|
+|ReferencingAttribute|`msdyn_rootknowledgearticleid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_intentsolutionmap_knowledgearticleid_knowledgearticle`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

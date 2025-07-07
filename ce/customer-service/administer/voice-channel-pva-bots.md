@@ -4,7 +4,7 @@ description: Learn about how to add a Copilot agent to use in the voice channel.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 05/05/2025
+ms.date: 06/30/2025
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
@@ -16,7 +16,6 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-
 To route customer calls to the best department, diagnose issues, collect information, and give recommendations, conversational IVR agents speak to customers when they call. Copilot Studio makes it easy to author Interactive Voice Response (IVR) agents, and you can use the same agents for other channels, like chat and voice.
 
 The following voice capabilities are available for the Copilot agents:
@@ -24,10 +23,7 @@ The following voice capabilities are available for the Copilot agents:
 - Collect customer input through speech or [Dual-Tone Multi-Frequency (DTMF)](/microsoft-copilot-studio/voice-dtmf). Customers can talk without using a prompt script, and Copilot understands their commands or questions. Customers can also enter data by pressing keys on their phone keypad. The Copilot agent detects when customers stop speaking using silence detection and responds accordingly.
 - Adjust the voice output by using [speech synthesis markup language (SSML)](/microsoft-copilot-studio/voice-configuration#format-speech-synthesis-with-ssml). You can change the tone, pitch, and speed of the voice that interacts with customers.
 - You can also upload your audio files to use in the agent. For example, you can upload a custom greeting or a message that plays when the agent can't understand the customer's request. Learn more in [Play secure audio file from Copilot Studio](/dynamics365/guidance/resources/copilot-studio-play-audio-file).
-- Enable [barge-in](/microsoft-copilot-studio/voice-configuration#enable-barge-in) to let customers interrupt Copilot at any time. You can also use long-running operation messages to let customers know that the voice-enabled Copilot is working on their request.
-- Select the most appropriate option for your agent&mdash classic orchestration where agents respond by triggering topics whose phrases match most closely to user queries or generative AI which enables your agent to choose the best actions, knowledge, and topics to answer user queries or respond to event triggers. Learn more in [Orchestrate agent behavior with generative AI](/microsoft-copilot-studio/advanced-generative-actions)
-- If you don't select generative orchestration, you can use the **Language Understanding** section in Copilot Studio to then select between **Microsoft Copilot Studio NLU** or **Microsoft Copilot Studio NLU+** to enhance how your agent interprets customer intentions and extracts meaning from conversations.  
-If you select **Microsoft Copilot Studio NLU**, processing is done within Copilot Studio. For **Microsoft Copilot Studio NLU+**, data processing happens within Dynamics.  
+- Enable [barge-in](/microsoft-copilot-studio/voice-configuration#enable-barge-in) to let customers interrupt the Copilot agent at any time. You can also use long-running operation messages to let customers know that the voice-enabled Copilot is working on their request.
 - Control the call flow by [transferring](/microsoft-copilot-studio/voice-configuration#transfer-a-call-to-an-agent-or-external-phone-number) or [terminating](/microsoft-copilot-studio/voice-configuration#configure-call-termination) calls. If a customer wants to talk to a live representative, the voice copilot can transfer the call to an available representative or an external phone number. If the voice copilot can't solve the customer issue, it can end the call and give an appropriate message.
 
 ## Supported languages and locale codes
@@ -53,7 +49,7 @@ In the voice channel, you can configure the following features for the IVR agent
 
 ## Automatically end conversations
 
-The duration of a bot-handled voice call can be one hour only. The call is disconnected if it doesn't end or escalated. The limit isn't applicable after the call is transferred to an agent or an external number.
+The duration of a bot-handled voice call can be one hour only. The call is disconnected if it doesn't end or is escalated. The limit isn't applicable after the call is transferred to an agent or an external number.
 
 ## Next steps
 
@@ -61,7 +57,8 @@ The duration of a bot-handled voice call can be one hour only. The call is disco
 
 ### Related information
 
-[Overview of the voice channel](/dynamics365/customer-service/administer/voice-channel)  
-[Configure context variables](/dynamics365/customer-service/administer/context-variables-for-bot)  
-[Manage your bots](/dynamics365/customer-service/administer/manage-your-bots?context=/dynamics365/contact-center/context/administer-context)  
-[Set up a multilingual bot in Copilot Studio](/dynamics365/customer-service/administer/set-up-multilingual-pva-bot)  
+[Overview of the voice channel](voice-channel.md)  
+[Configure context variables](context-variables-for-bot.md)  
+[Manage your bots](manage-your-bots.md)   
+[Set up a multilingual bot in Copilot Studio](set-up-multilingual-pva-bot.md)  
+[Use best practices for configuring AI agents](configure-bot-best-practices.md)  

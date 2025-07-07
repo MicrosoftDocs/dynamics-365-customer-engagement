@@ -6,7 +6,7 @@
       href: ../index.yml
     - name: Welcome to Dynamics 365 Customer Service
       href: ../implement/overview.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-    - name: Use Customer Service admin center
+    - name: Use Copilot Service admin center
       href: ../implement/cs-admin-center.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
     - name: Troubleshoot and FAQs
       items:
@@ -52,7 +52,7 @@
           href: manage-overflow.md
       - name: Set up record routing
         items:
-        - name: Provision unified routing for Customer Service
+        - name: Enable unified routing for Customer Service
           href: provision-unified-routing.md
         - name: Set up unified routing for records
           href: set-up-record-routing.md
@@ -98,8 +98,6 @@
           href: manage-routing-diagnostics-data.md
       - name: Manage routing rules templates
         href: manage-routing-rules-templates.md
-      - name: Use best practices to set up unified routing
-        href: unified-routing-best-practices.md
       - name: FAQ about unified routing
         href: unified-routing-faqs.md
       - name: View diagnostics for unified routing
@@ -160,11 +158,11 @@
           href: automation-dictionary-keys.md
         - name: FAQ about adding users to agent experience profile
           href: faq-agent-experience-profile.md
-    - name: Workforce management
+    - name: Manage your workforce
       items:
       - name: Configure the agent calendar view
         href: configure-agent-calendar.md 
-      - name: Configure routing based on agent calendar (preview)
+      - name: Configure shift-based routing for work items
         href: configure-routing-on-agent-calendar.md
     - name: Community
       items:
@@ -310,8 +308,6 @@
         href: customer-service-hub-user-guide-email-font-admin.md
       - name: Configure the enhanced insert email template dialog
         href: /power-apps/user/customize-insert-email-template?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-      - name: Configure the enhanced email template editor page
-        href: /power-apps/user/cs-email-template-builder?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Add Copilot prompts to email templates
         href: add-prompt-email-template.md
       - name: Enable enhanced experience for email attachments
@@ -426,7 +422,7 @@
         href: voice-channel-inbound-calling.md
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
-      - name: Enable agents to search for contacts and open records from outbound dialer 
+      - name: Configure outbound dialer settings 
         href: add-outbound-dialer-settings.md  
       - name: Use Azure Virtual Desktop to access voice channel
         href: /dynamics365/contact-center/administer/configure-voice-avd?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
@@ -532,6 +528,8 @@
         href: show-queue.md
       - name: Show customers their average wait time in a queue
         href: average-wait-time.md
+      - name: Configure live conversation counter to view customer wait time
+        href: configure-live-conv-counter.md
       - name: Delete a channel instance
         href: delete-channel.md
       - name: Manage enhanced Active Conversation settings
@@ -675,7 +673,9 @@
         - name: Enable conversation summaries
           href: /dynamics365/contact-center/administer/copilot-enable-summary##enable-conversation-summaries?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
       - name: Configure custom record summaries for service representatives
-        href: copilot-enable-custom-record-summaries.md    
+        href: copilot-enable-custom-record-summaries.md
+      - name: Configure Copilot to use MCP server (preview)
+        href: configure-ai-agent-to-use-mcp-server.md
       - name: Enable Copilot help pane features
         items:
         - name: Enable features in Copilot pane
@@ -802,7 +802,7 @@
           href: scheduling.entities.md
         - name: Set up the Service Scheduling experience
           href: scheduling-experience.md
-        - name: Access scheduling in the Customer Service workspace and Customer Service Hub
+        - name: Access scheduling in Copilot Service workspace and Customer Service Hub
           href: access-scheduling.md
         - name: Install Service Scheduling from Power Platform admin center
           href: install-service-scheduling-from-power-platform.md
@@ -876,11 +876,11 @@
         href: cs-iot-security-roles.md
     - name: Migration solutions
       items:
-      - name: Migrate from removed or deprecated apps to Customer Service workspace
+      - name: Migrate from removed or deprecated apps to Copilot Service workspace
         items:
-        - name: Migrate from deprecated or removed apps to Customer Service workspace
+        - name: Migrate from deprecated or removed apps to Copilot Service workspace
           href: migrate-to-csw.md
-        - name: Enable Omnichannel for Customer Service and disable Customer Service workspace
+        - name: Enable Omnichannel for Customer Service and disable Copilot Service workspace
           href: enable-oc-disable-csw.md
       - name: Migrate configuration data for records channel using solutions
         href: migrate-record-routing-config-using-solutions.md
@@ -922,7 +922,7 @@
           href: migrate-entity-records.md
       - name: Migration FAQ
         items: 
-          - name: FAQ on migration from Customer Service Hub to Customer Service workspace
+          - name: FAQ on migration from Customer Service Hub to Copilot Service workspace
             href: faq-csh-removal.md
           - name: FAQ on migration from Omnichannel for Customer Service app
             href: migrate-oc-faq.md
@@ -934,7 +934,7 @@
         href: enable-audit-tables.md
     - name: Known issues in Customer Service and Omnichannel for Customer Service
       href: https://go.microsoft.com/fwlink/p/?linkid=2165393
-    - name: FAQ about Customer Service admin center
+    - name: FAQ about Copilot Service admin center
       href: faq-customer-service-admin-center.md
     - name: FAQ about Omnichannel for Customer Service
       href: faqs.md

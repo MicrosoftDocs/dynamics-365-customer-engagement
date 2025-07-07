@@ -1,6 +1,6 @@
 ---
 title: sessionId property (app profile manager) JavaScript API Reference 
-description: Learn about the sessionId property of app profile manager in Customer Service workspace.
+description: Learn about the sessionId property of app profile manager in Copilot Service workspace.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

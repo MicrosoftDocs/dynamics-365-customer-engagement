@@ -35,7 +35,7 @@ Copilot in Dynamics 365 Sales can only get information from records and files th
 
 ## Chat in natural language or use predefined prompts
 
-Copilot in Dynamics 365 Sales supports natural language chat. You can ask Copilot questions related to your sales records or sales-specific terms. You can also use predefined prompts to get the information you need. Copilot provides suggestions for prompts based on the context of the record you're viewing. The Prompt guide lists all the predefined prompts that Copilot supports.
+Copilot in Dynamics 365 Sales supports natural language chat. You can ask Copilot questions related to your sales records or sales-specific terms. You can also use predefined prompts to get the information you need. Copilot provides suggestions for prompts based on the context of the record you're viewing. 
   
 Learn more in [Ask questions of Copilot in Dynamics 365 Sales](use-sales-copilot.md). 
 
@@ -44,6 +44,7 @@ Learn more in [Ask questions of Copilot in Dynamics 365 Sales](use-sales-copilot
 Copilot offers the following capabilities:
 
 - [Record summarization](#record-summarization)
+- [Embedded experiences](#embedded-experiences)
 - [Recent changes](#recent-changes)
 - [Information assistance](#information-assistance)
 - [Meeting preparation](#meeting-preparation)
@@ -56,9 +57,9 @@ Record summarization gives you a quick summary of your opportunity, lead, and ac
 
 Learn more:
 
-- [Summarize an account](copilot-get-information.md#summarize-an-account-)
+- [Summarize an account](copilot-get-information.md#summarize-an-account)
 - [Summarize an opportunity](copilot-get-information.md#summarize-an-opportunity)
-- [Summarize a lead](copilot-get-information.md#summarize-a-lead-)
+- [Summarize a lead](copilot-get-information.md#summarize-a-lead)
 - [Change the fields in the record summary](copilot-configure-summary-fields.md)
 
 ## Embedded experiences

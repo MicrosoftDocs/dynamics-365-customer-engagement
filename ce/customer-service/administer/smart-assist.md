@@ -4,7 +4,7 @@ description: Learn how to smartly assist representatives with the next-best step
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 04/30/2025
+ms.date: 06/11/2025
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -16,7 +16,7 @@ ms.custom: bap-template
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 > [!NOTE]
-> The case and knowledge suggestions in smart assist will no longer be supported starting June 02, 2025. Learn more in [deprecations in Customer Service](../implement/deprecations-customer-service.md).
+> The case and knowledge suggestions in smart assist aren't supported starting June 02, 2025. Learn more in [deprecations in Customer Service](../implement/deprecations-customer-service.md).
 
 The new-age customer service industry is moving toward the vision of being intelligent rather than process-driven while interacting with customers. Pivoting on intelligence capabilities helps unleash the productivity of representatives to perform better on key performance indicators and&mdash;at the same time&mdash;deliver better customer experience.
 
@@ -48,7 +48,8 @@ The smart assist feature can be enabled across all channels, such as Chat for Dy
   - Develop a smart assist bot and integrate it with Omnichannel for Customer Service. The smart-assist bot interprets the conversation context in real time and provides suggestions to representatives. For information: [Build a smart assist bot using Azure Bot Service](../develop/smart-assist-bot.md).
 
   > [!NOTE]
-  > Microsoft Copilot agents aren't supported as smart assist agents.
+  > - Microsoft Copilot agents aren't supported as smart assist agents.
+  > - End conversation command isn't supported in the smart assist agents.
 
 ## Enable AI suggestions for similar cases and knowledge articles
 

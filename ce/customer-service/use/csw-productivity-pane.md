@@ -1,7 +1,7 @@
 ---
 title: Overview of productivity pane | MicrosoftDocs
 description: Overview of productivity pane in Dynamics 365 Copilot Service workspace.
-ms.date: 04/24/2025
+ms.date: 06/05/2025
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -50,6 +50,8 @@ Two things to keep in mind about the productivity pane modes:
 The productivity pane stays collapsed for entities that don't have productivity controls configured to use it. For example, if you open an account record, which typically doesn't have smart assist or knowledge enabled for it, or if scripts or macros aren't enabled by your administrator, the pane remains collapsed. 
 
 The productivity pane places focus on the first control that has data for any table. Typically, the order is smart assist, scripts and macros, and then knowledge controls. For example, if you open an account record that has only scripts configured, when the record opens, the productivity pane expands and the focus is on the scripts and macros. 
+
+Learn more about how to add users and configure options in productivity pane in [Assign users, templates, configure productivity pane, channels](../administer/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels).
 
 ## Smart assist
 

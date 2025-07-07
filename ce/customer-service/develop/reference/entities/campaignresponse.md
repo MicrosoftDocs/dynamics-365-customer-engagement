@@ -22,6 +22,9 @@ Response from an existing or a potential new customer for a campaign.
 
 These relationships are many-to-one. Listed by **SchemaName**.
 
+- [CampaignResponse_msdyn_bookingalerts](#BKMK_CampaignResponse_msdyn_bookingalerts)
+- [CampaignResponse_msdyn_ocoutboundmessages](#BKMK_CampaignResponse_msdyn_ocoutboundmessages)
+
 ### <a name="BKMK_CampaignResponse_msdyn_bookingalerts"></a> CampaignResponse_msdyn_bookingalerts
 
 One-To-Many Relationship: [msdyn_bookingalert CampaignResponse_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_CampaignResponse_msdyn_bookingalerts)
@@ -32,6 +35,19 @@ One-To-Many Relationship: [msdyn_bookingalert CampaignResponse_msdyn_bookingaler
 |ReferencedAttribute|`activityid`|
 |ReferencingAttribute|`originatingactivityid`|
 |ReferencingEntityNavigationPropertyName|`originatingactivityid_msdyn_bookingalert_campaignresponse`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Cascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_CampaignResponse_msdyn_ocoutboundmessages"></a> CampaignResponse_msdyn_ocoutboundmessages
+
+One-To-Many Relationship: [msdyn_ocoutboundmessage CampaignResponse_msdyn_ocoutboundmessages](msdyn_ocoutboundmessage.md#BKMK_CampaignResponse_msdyn_ocoutboundmessages)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocoutboundmessage`|
+|ReferencedAttribute|`activityid`|
+|ReferencingAttribute|`originatingactivityid`|
+|ReferencingEntityNavigationPropertyName|`originatingactivityid_msdyn_ocoutboundmessage_campaignresponse`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `Cascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

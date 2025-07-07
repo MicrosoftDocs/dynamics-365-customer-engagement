@@ -112,7 +112,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Unique identifier for entity instances**|
-|DisplayName|**msdyn_orgchartnode**|
+|DisplayName|**msdyn\_orgchartnode**|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`msdyn_orgchartnodeid`|
@@ -195,7 +195,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Status of the msdyn_orgchartnode**|
+|Description|**Status of the msdyn\_orgchartnode**|
 |DisplayName|**Status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -216,7 +216,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Reason for the status of the msdyn_orgchartnode**|
+|Description|**Reason for the status of the msdyn\_orgchartnode**|
 |DisplayName|**Status Reason**|
 |IsValidForForm|True|
 |IsValidForRead|True|

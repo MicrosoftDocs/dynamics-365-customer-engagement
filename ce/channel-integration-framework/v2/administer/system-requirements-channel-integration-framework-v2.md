@@ -1,8 +1,8 @@
 ---
 title: System requirements for Dynamics 365 Channel Integration Framework 2.0
 description: Learn about the system requirements for Dynamics 365 Channel Integration Framework 2.0 and how to get started using it.
-ms.date: 12/10/2024
-ms.topic: article
+ms.date: 05/15/2025
+ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

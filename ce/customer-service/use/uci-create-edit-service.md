@@ -1,7 +1,7 @@
 ---
 title: Create or edit a service | Microsoft Docs
 description: Create or edit a service in Dynamics 365 Customer Service.
-ms.date: 10/05/2020
+ms.date: 05/20/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -28,9 +28,9 @@ A service requires at least one selection rule and one or more resources, resour
 
 1. Make sure that you have the Manager, Vice President, CEO-Business Manager, System Administrator, or System Customizer security role or equivalent permissions. 
 
-2. Navigate to the Customer Service admin center or Customer Service Hub app, and perform the following steps:
+2. Navigate to the Copilot Service admin center or Customer Service Hub app, and perform the following steps:
 
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+   ### [Copilot Service admin center](#tab/copilotserviceadmincenter)
 
     1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
     1. In the **Service** section, select **Manage**.

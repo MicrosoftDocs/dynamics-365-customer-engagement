@@ -1,7 +1,7 @@
 ---
 title: Configure AI topic clustering for cases
-description: This article provides instructions to configure AI topic clustering for cases in the Customer Service Hub and Customer Service workspace.
-ms.date: 02/06/2025
+description: This article provides instructions to configure AI topic clustering for cases in the Customer Service Hub and Copilot Service workspace.
+ms.date: 06/23/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -12,10 +12,10 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Configure AI topic clustering for cases
 
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
-
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
+> [!NOTE]
+> Starting June 20, 2025, the legacy AI topic clustering for cases in Dynamics 365 Customer Service and Dynamics 365 Contact Center is deprecated and will reach the end of support. After August 31, 2025, this feature will be removed, and users won't be able to use it in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
 
 Customer Service Insights uses AI to provide insights into your customer service data by grouping semantically related cases and generating a topic. New cases that match the generated topic are automatically added to the topic group. This action helps you identify areas of improvement that affect system performance.
 
@@ -57,7 +57,7 @@ The AI Insights charts that appear on the Customer Service Insights dashboards a
 
 AI discovered topics in Customer Service historical analytics are often prime candidates for automation in Copilot agents. If Copilot Studio is available in the region that your Customer Service organization is in, you can enable the feature.
 
-1. In Customer Service admin center, go to **Insights** > **Topics clustering for cases** > **Manage**.
+1. In Copilot Service admin center, go to **Insights** > **Topics clustering for cases** > **Manage**.
 1. In the **Topic automation** section of the **Topic clustering for case** page, enable the toggle.
 
 

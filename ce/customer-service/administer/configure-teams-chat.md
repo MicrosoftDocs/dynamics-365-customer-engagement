@@ -119,7 +119,7 @@ To enable Teams chat settings for a custom multisession user, complete the follo
 
 1. On the profile page, you can take the following actions:
    - **Add users**: Learn more in [Assign profiles to users](/dynamics365/app-profile-manager/app-profile-manager#assign-profiles-to-users)
-   - **Add an entity session template**: Learn more in [Manage session templates](/session-templates.md)
+   - **Add an entity session template**: Learn more in [Manage session templates](session-templates.md)
    - **Enable the inbox**: Learn more in [Configure the inbox for representatives](configure-inbox.md)
    - **Enable productivity pane features**: Learn more in [Productivity pane overview](productivity-pane.md)
    - **Set up channel providers**: Learn more in [Overview of productivity tools](/dynamics365/app-profile-manager/productivity-tools)

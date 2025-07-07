@@ -1,7 +1,7 @@
 ---
 title: Configure service representative forecasting for conversations
-description: Learn how to configure customer service representative forecasting for conversations in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace.
-ms.date: 03/03/2025
+description: Learn how to configure customer service representative forecasting for conversations in Dynamics 365 Customer Service and Dynamics 365 Copilot Service workspace.
+ms.date: 06/30/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -25,7 +25,7 @@ ms.custom:
 This article describes how to set up customer service representative (service representative or representative) forecasting for conversation in your organization.
 
 > [!IMPORTANT]
-> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with customer service representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their customer service representatives that their communications with end users may be monitored, recorded, or stored.
+> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature isn't intended for use in making, and shouldn't be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws that relate to accessing individual employee analytics and monitoring, recording, and storing communications with end users. Customers are also responsible for adequately notifying end users that their communications with customer service representatives might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before they use the feature with them. Customers are also encouraged to have a mechanism in place to inform their customer service representatives that their communications with end users might be monitored, recorded, or stored.
 
 ## Overview
 
@@ -50,7 +50,7 @@ Supervisors can use the Agent forecasting for conversation report in the followi
 - Automatically detect seasonality from historical traffic with the settings option to import your holiday calendar. This automatic detection helps the forecasting model to accurately predict case or conversation volume during special, seasonal events.
 
 > [!NOTE]
-> Be aware of the following when using the Forecast report:
+> Be aware of the following functionality when using the Forecast report:
 >
 > - Forecasts might misstate volume estimates for many reasons, including unanticipated trends or business developments.
 >
@@ -93,7 +93,7 @@ To be able to access the forecast reports, users in your organization must have 
 
 ## Enable the Agent forecasting for conversation reports
 
-1. In the Customer Service admin center app, in **Operations**, select **Insights**. The **Insights** page appears.
+1. In the Copilot Service admin center app, in **Operations**, select **Insights**. The **Insights** page appears.
 
 1. Under the **Report settings** section, next to **Agent forecasting for conversation**, select **Manage**. The **Agent forecasting for conversation** page appears.
 

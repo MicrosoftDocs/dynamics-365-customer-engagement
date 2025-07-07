@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 05/09/2025
+ms.date: 06/30/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -22,9 +22,9 @@ ms.custom:
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-This article provides an overview of conversation metrics available in Dynamics 365 Customer Service, that help you analyze key performance indicators (KPIs) to make strategic decisions, track customer service representative (service representative or representative) and AI agent performance, and improve customer satisfaction.
+This article provides an overview of the conversation metrics that are available in Dynamics 365 Customer Service that can help you analyze key performance indicators (KPIs). These conversation metrics can help you make strategic decisions, track customer service representative (service representative or representative) and AI agent performance, and improve overall customer satisfaction.
 
-It also provides detailed guidance on calculating key conversation metrics. By using Power BI reports and Dataverse calculations, you can gain valuable insights into customer service efficiency and improve overall customer satisfaction. [Understand the conversation workflow](../use/overview-analytics-data-model.md#understand-the-conversation-workflow) to effectively utilize these metrics and improve customer service operations and decision-making. 
+This article also provides detailed guidance about calculating key conversation metrics. By using Power BI reports and Dataverse calculations, you can gain valuable insights into customer service efficiency. [Understand the conversation workflow](../use/overview-analytics-data-model.md#understand-the-conversation-workflow) to effectively utilize these metrics and improve customer service operations and decision-making. 
 
 Learn more about [Session metrics](../use/session-metrics.md#session-metrics) and [Service representative metrics](../use/service-rep-metrics.md#service-representative-metrics).
 
@@ -32,13 +32,13 @@ Learn more about [Session metrics](../use/session-metrics.md#session-metrics) an
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Total conversations include all interactions initiated by customers or representatives and engaged by agents, including those that may be escalated to service representatives. It is a comprehensive metric used to evaluate the performance and effectiveness of agent interactions.
+Total conversations includes all interactions initiated by customers or representatives and engaged by agents, including ones that might be escalated to service representatives. It's a comprehensive metric that's used to evaluate the performance and effectiveness of agent interactions.
 
 Learn more in [conversation states](../use/oc-conversation-state.md#understand-conversation-states).
 
 ### DAX query and Dataverse reference
 
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+The following Data Analysis Expression (DAX) query and corresponding Dataverse entities are used in the Power BI semantic model. Learn more in [DAX queries](/dax/dax-queries). 
 
 ### [Historical analytics](#tab/historicalpage)
 
@@ -81,7 +81,7 @@ Total conversations_FactConversation = CALCULATE(COUNTROWS(FactConversation))​
 
 Total number of conversations during the selected period involving Voice, IVR, chat, or digital agents, across all statuses (active and closed conversations).
 
- Total Bot Conversations = Bot Deflected Conversations + Bot Escalated Conversations
+Total Bot Conversations = Bot Deflected Conversations + Bot Escalated Conversations
 
 ### DAX query and Dataverse reference
 
@@ -116,7 +116,7 @@ Total bot conversation = CALCULATE(DISTINCTCOUNTNOBLANK(FactSession[Conversation
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)  |
 |Attributes |- systemuser.msdyn_BotApplicationId​ <br>- msdyn_liveworkstream.msdyn_streamsource |
-|Filters  |- Filter the records to include only those where BotApplicationId isn't null. <br> - msdyn_liveworkstream.msdyn_streamsource isn't equal to '192350000'. |
+|Filters  |- Filter the records to include only the records where BotApplicationId isn't null. <br> - msdyn_liveworkstream.msdyn_streamsource isn't equal to '192350000'. |
 
 ---
 
@@ -130,7 +130,9 @@ Total bot conversation = CALCULATE(DISTINCTCOUNTNOBLANK(FactSession[Conversation
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-The total number of inbound conversations that a service representative received directly or were escalated by an AI agent. 
+The total number of inbound conversations that a service representative received directly or are escalated by an AI agent.
+
+In the Summary tab of Omnichannel real-time dashboard, incoming conversations are **Total conversations offered**.
 
 ### DAX query and Dataverse reference
 
@@ -200,10 +202,10 @@ Outgoing conversations = ​CALCULATE (​DISTINCTCOUNTNOBLANK ( FactConversatio
 
 ### Related metric
 
-- **Incoming conversations**: The total inbound conversations, including direct-to-representative and bot escalations.
+- **Incoming conversations**: The number of incoming conversations directed to service representatives.
 - **Direct service representative**: Total number of conversations through any channel (voice or digital) that includes both open, active, and closed conversations for both, inbound and outbound traffic, directly from the representative without involving voice or agent.
 
-## Engaged conversations
+## Total conversations handled
 
 *Applies to Omnichannel historical dashboards.*
 
@@ -224,7 +226,7 @@ IsEngaged = CALCULATE(TRUE(),FactConversation[IsOffered], FactConversation[IsAge
 |---------|---------|
 |Dataverse entities |- [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)​ <br> - Systemuser​ <br>- msdyn_sessionparticipantevent |
 |Attributes |- systemuser.msdyn_botapplicationid <br> - msdyn_sessionparticipant.msdyn_joinedon <br> - msdyn_ocliveworkitem.msdyn_channel<br> - msdyn_ocliveworkitem.msdyn_channelinstanceid |
-|Filters  | - Filter the FactConversations table to​ exclude rows where msdyn_channel is equal to '192350000' and msdyn_channelinstanceid is NULL. <br>-  IsAgentInvolved is used if there's atleast one session with IsAgentSession set to true. <br>- IsAgentSession is set to true if systemuser.msdyn_botapplicationid isn't null.​ <br> - IsAgentAcceptedSession is set as follows:​ If systemuser.msdyn_botapplicationid is empty or NULL and msdyn_sessionparticipant.msdyn_joinedon isn't empty, then IsAgentAcceptedSession is 1.​ Otherwise, its 0.​ |
+|Filters  | - Filter the FactConversations table to​ exclude rows where msdyn_channel is equal to '192350000' and msdyn_channelinstanceid is NULL. <br>-  IsAgentInvolved is used if there's atleast one session with IsAgentSession set to true. <br>- IsAgentSession is set to true if systemuser.msdyn_botapplicationid isn't null.​ <br> - IsAgentAcceptedSession is set as follows:​ If systemuser.msdyn_botapplicationid is empty or NULL and msdyn_sessionparticipant.msdyn_joinedon isn't empty, then IsAgentAcceptedSession is 1.​ Otherwise, it's 0.​ |
 
 ## Abandoned conversations
 
@@ -255,7 +257,7 @@ Abandoned conversations = ​SUMX(FactConversation, IF (FactConversation[IsAband
 
 *Applies to Omnichannel real-time dashboard.*
 
-This metric is a measure of the time, in seconds, before a  service representative responds to a customer's request. In other words, it represents the amount of time that the customer spends waiting for the first response from a service representative. Service representative availability, a high volume of requests, and increased handle time are some factors that can affect customer wait time. A shorter wait time indicates that customers get faster issue resolution and have a better support experience.
+Conversation first wait time is a measure of the time, in seconds, before a service representative responds to a customer's request. It represents the amount of time the customer spends waiting for the first response from a service representative. Factors such as service representative availability, a high volume of requests, and increased handle time can affect customer wait time. A shorter wait time indicates a faster issue resolution and better support experience.
 
 If an AI agent or IVR handles the customer before it escalates the issue to a service representative, the calculation is based on the time between the point when the AI agent or IVR escalates the incoming conversation to a service representative and the point when the service representative accepts the conversation. If the customer abandons the conversation, the calculation is based on the time between the point when the AI agent or IVR escalates the conversation to a service representative and the point when the customer disconnects the conversation.
 
@@ -286,8 +288,8 @@ SUMX (FactConversation, IF (NOT FactConversation[DirectionCode], FactConversatio
 
 ### Related metrics
 
-- [Average conversation first wait time](#average-conversation-first-wait-time): This metric is calculated by dividing the total wait time for customers who are waiting in the queue by the total number of customers who were handled.
-- **Longest wait time**: This metric is a measure of the longest first wait time among unaccepted incoming conversations.
+- [Average conversation first wait time](#average-conversation-first-wait-time): Average conversation first wait time is the total wait time for customers waiting in the queue divided by the total number of handled conversations.
+- **Longest wait time**: Longest wait time is a measure of the longest first wait time among unaccepted incoming conversations.
 - **Conversations in queue**: The number of conversations waiting for a service representative to be assigned or accept the conversation.
 
 You can use [Session wait time](../use/session-metrics.md#session-wait-time) metrics to calculate the time spent by customers waiting in individual queues when they're transferred from one service representative to another.
@@ -296,7 +298,7 @@ You can use [Session wait time](../use/session-metrics.md#session-wait-time) met
 
 *Applies to Omnichannel historical dashboard.*
 
-This metric is calculated by dividing the total queue wait time by the number of handled conversations.
+Average conversation first wait time is the total queue wait time divided by the number of handled conversations.
 
 ### DAX query and Dataverse reference
 
@@ -322,7 +324,7 @@ Avg. conversation first wait time (sec) =​
 
 *Applies to Omnichannel real-time and historical dashboards.*
 
-This metric measures how quickly the service team responds to customer requests. It is calculated by dividing the total queue wait time (after the issue is escalated from an AI agent to a service representative) by the number of handled conversations. A lower average speed to answer means faster issue resolution and a better customer experience.
+Average speed to answer measures how quickly the service team responds to customer requests. It's the total queue wait time (after the conversation is escalated from an AI agent to a service representative) divided by the number of handled conversations. A lower average speed to answer indicates a faster issue resolution and better customer experience.
 
 For an AI agent conversation, this metric measures the time from when the AI agent escalates the incoming conversation to when a service representative accepts it.
 
@@ -385,19 +387,19 @@ AVERAGEX (FactConversation,IF (FactConversation[IsAgentAccepted] && NOT FactConv
 
 *Applies to Omnichannel real-time dashboards.*
 
-This metric is a measure of the time that service representatives spend actively helping customers and resolving their issues. If multiple service representatives handle a conversation, the time that all the service representatives spend is aggregated. This metric also includes time that service representatives spend wrapping up the conversation after the customer disconnects, and the time spent in updating notes or contact details. However, it excludes time that subject matter experts or other service representatives spend consulting on the conversation.
+Conversation handle time is the time that service representatives spend actively helping customers and resolving their issues. The system aggregates the time that multiple service representatives spend when they handle a conversation transferred to them. This metric also includes time that service representatives spend wrapping up the conversation after the customer disconnects, and the time spent in updating notes or contact details. The time that subject matter experts or other service representatives spend consulting on the conversation isn't considered.
 
 For chat and digital messaging, a service representative is actively working on a conversation if it's open in the Copilot Service workspace or Contact Service workspace app. When handling multiple conversations, only the time spent on the open tab is factored in the handle time calculation.
 
-For the **Voice** report, this metric is the sum of total talk time, total hold time, and total wrap-up time or after-call work, divided by the number of calls handled, where:
+For the **Voice** report, this metric is the sum of total talk time, total hold time, and total active wrap-up time or after-call work, divided by the number of calls handled, where:
 
-:::image type="content" source="../media/aht_voice.png" alt-text="Screenshot of how average handle time is calculated for voice.":::
+:::image type="content" source="../media/aht-voice.png" alt-text="Screenshot of average handle time for voice.":::
 
 For the **Chat** report, this metric is the sum of the active chat time and active wrap-up time, divided by the number of chats handled, where:
 
-:::image type="content" source="../media/aht_chat.png" alt-text="Screenshot of average handle time for chat.":::
+:::image type="content" source="../media/aht-chat.png" alt-text="Screenshot of average handle time for digital messaging and chat.":::
 
-This metric can be viewed in two formats: seconds and *hh:mm:ss*.
+This metric can be viewed in two formats: seconds and hh:mm:ss.
 
 ### DAX query and Dataverse reference
 
@@ -562,7 +564,7 @@ Avg. conversation talk time (sec) = AVERAGE(FactConversation[ConversationTalkTim
 ---
 ### Related metric
 
-- **Conversation talk time**: This metric is calculated based on the total talk time across all conversations.
+- **Conversation talk time**: Conversation talk time is calculated based on the total talk time across all conversations.
 
 ## Average conversation time
 
@@ -618,15 +620,15 @@ Avg. conversation time (sec) = ​AVERAGE (FactConversation[ConversationTimeInSe
 
 ### Related metric
 
-- **Conversation time**: This metric measures the time from when the customer initiates a request to when the service representative wraps up the conversation.
+- **Conversation time**: Conversation time is the duration from when a customer starts a request until a service representative completes the conversation.
 
 ## Average conversation wrap-up time
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-This metric is a measure of the average time that a service representative spends completing any necessary tasks after the customer disconnects. These tasks might include documenting the conversation, updating notes, or updating the customer's information. This metric measures the time from the start of wrap-up to when the service representative closes the conversation. If multiple representatives handled the conversation, only the last representative's wrap-up time is counted.
+Average conversation wrap-up time is a measure of the average time that a service representative spends completing any necessary tasks after the customer disconnects. These tasks might include documenting the conversation, updating notes, or updating the customer's information. This metric measures the time from the start of wrap-up to when the service representative closes the conversation. If multiple representatives handled the conversation, only the last representative's wrap-up time is counted.
 
-This metric can be viewed in two formats: seconds and *hh:mm:ss*. 
+This metric can be viewed in two formats: seconds and hh:mm:ss. 
 
 
 ### DAX query and Dataverse reference
@@ -711,7 +713,7 @@ SUMX (FactConversation,​
 
 *Applies to Omnichannel real-time dashboards.*
 
-The total number of active service representative conversations. Includes conversations that were assigned to a service representative, accepted and actively engaged by the representative. This includes all inbound and outbound conversations across all channels (digital, voice, and cases).
+The total number of active service representative conversations. Includes conversations that were assigned to a service representative, accepted and actively engaged by the representative. Includes all inbound and outbound conversations across all channels (digital, voice, and cases).
 
 ### DAX query and Dataverse reference
 
@@ -765,7 +767,7 @@ Waiting conversations =​
 
 *Applies to Omnichannel real-time dashboards.*
 
-This metric is a count of conversations that are currently in a [Wrap-up state](../use/oc-conversation-state.md#wrap-up).
+Wrap-up conversations is a count of conversations that are currently in the [Wrap-up state](../use/oc-conversation-state.md#wrap-up).
 
 ### DAX query and Dataverse reference
 
@@ -775,7 +777,7 @@ The following DAX query and the corresponding Dataverse entities are used in the
 
 ```dax
 
-Wrap-up conversations =    SUMX ( FactConversation, IF ( FactConversation[statuscode] == 5, 1, 0 ) ) 
+Wrap-up conversations = SUMX ( FactConversation, IF ( FactConversation[statuscode] == 5, 1, 0 ) ) 
 
 ```
 
@@ -788,3 +790,424 @@ Wrap-up conversations =    SUMX ( FactConversation, IF ( FactConversation[status
 ### Related metric
 
 - **Agents in wrap-up conversations**: Number of representatives handling conversations that are in wrap-up state.
+
+## Abandoned rate
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+The abandoned rate refers to the percentage of incoming conversation requests that are terminated before a representative engages with the customer. This can happen in both representative and AI agent scenarios. There are two primary types:​
+- Abandoned before assignment: The customer leaves before being assigned to a representative.​
+- Abandoned after assignment: The customer is assigned to a representative but disconnects before the representative accepts the conversation.
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+Abandon rate_FactConversation = ​
+
+var abandoned = CALCULATE(FactConversation[Incoming conversations_FactConversation], FactConversation[IsOffered], NOT FactConversation[IsAgentAccepted])​
+
+var source = FactConversation[Incoming conversations_FactConversation]​
+
+var rate = DIVIDE(abandoned, source, 0)​
+
+return​
+
+IF(ISBLANK(rate), 0, rate)​
+
+```
+
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), systemuser |
+|Attributes | - msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel​ <br> - msdyn_ocliveworkitem.msdyn_isoutbound​ <br> -  systemuser.msdyn_botapplicationid  |
+|Filters  | - Filter the FactConversations table to include only rows where, msdyn_channelinstanceid is NULL.​ <br>- Exclude rows where msdyn_channel is'192350000, which have atleast one [systemuser.msdyn_botapplicationid  != null ]​ <br> - Direction is defined by msdyn_isoutbound and not to set 1​.​ |
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Conversations abandoned rate = ​
+
+DIVIDE(SUMX(FactConversation,IF(FactConversation[IsAbandoned] && NOT FactConversation[DirectionCode],1,0)),SUMX (FactConversation, IF ( NOT FactConversation[DirectionCode], 1, BLANK () )),BLANK ())
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem),  systemuser |
+|Attributes  | - msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_liveworkstream.msdyn_streamsource <br> - msdyn_ocliveworkitem.msdyn_isoutbound​ <br> - msdyn_ocliveworkitem.isagentsession​ <br> - msdyn_ocliveworkitem.msdyn_isabandoned​ <br> -  systemuser.msdyn_botapplicationid    |
+|Filters  | - Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL,​ msdyn_isabandoned is set to 1 and​  msdyn_isagentsession set to 1​. <br> - Direction is defined by msdyn_isoutbound and not set to 1​. <br> - Exclude rows where msdyn_streamsource is'192350000'​.​|
+
+---
+
+## Average time to abandon (sec)
+
+*Applies to Omnichannel real-time dashboards.*
+
+Average time to abandon (sec) measures how long, on an average, a customer waits before abandoning a conversation, before being connected to a representative.​ This metric captures the average duration (in seconds).
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+**DAX query**
+
+```dax
+
+Avg. time to abandon (sec) = ​AVERAGEX (FactConversation, IF (FactConversation[IsAbandoned] && FactConversation[StatusCode] == 4 && NOT FactConversation[DirectionCode], DATEDIFF(FactConversation[FirstWaitStartedOn], FactConversation[ClosedOn], SECOND),BLANK ()))
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_liveworkstream |
+|Attributes  |-  msdyn_ocliveworkitem.msdyn_statuscode​ <br> - msdyn_liveworkstream.msdyn_isabandoned <br> - msdyn_ocliveworkitem.msdyn_isoutbound​ <br> - msdyn_ocliveworkitem.msdyn_firstwaitstartedon msdyn_ocliveworkitem.msdyn_closedon |
+|Filters  | - Filter the FactConversations table to include only rows where statuscode is 4,​ msdyn_isabandoned is set to 1​. <br> - Direction is defined by msdyn_isoutbound and not set to 1​. Avg. time to abandon (sec) is defined by date difference between msdyn_ocliveworkitem.msdyn_firstwaitstartedon and msdyn_ocliveworkitem.msdyn_closedon ​|
+
+
+
+## Average conversation active time
+
+*Applies to Omnichannel historical dashboards.*
+
+Average conversation active time measures the actual time spent by an agent actively handling a conversation, either through chat or voice, across all sessions. Passive durations such as hold time or inactive wrap-up time aren't considered.​
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+**DAX query**
+
+```dax
+
+Avg. conversation active time (min) = CALCULATE(AVERAGE(FactConversation[ActiveTimeInSeconds]) / 60.00, FactConversation[StatusId] = "4", FactConversation[IsAgentAccepted]="1")
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_sessionparticipant |
+|Attributes  |-  msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel​ <br> - msdyn_ocliveworkitem.statuscode​ <br> - msdyn_sessionparticipant.msdyn_joinedon |
+|Filters  | - Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL.​ <br> - Exclude rows where msdyn_channel is'192350000’ . <br> - Include msdyn_ocliveworkitem.statuscode set to 4​. <br> - ActiveTimeInMinutes is calculated by msdyn_sessionparticipant.msdyn_joinedon set 1​. ​|
+
+
+
+## Average conversation inactive time (min)
+
+*Applies to Omnichannel historical dashboards.*
+
+The metric refers to the average amount of time during a conversation when an agent isn't actively engaged with the customer. This is especially relevant in chat and digital messaging channels, where agents often handle multiple sessions concurrently.​ Inactive time is the duration when a conversation is open but the agent isn't focused on it—either because they’ve switched to another session or aren't interacting with the customer. 
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+**DAX query**
+
+```dax
+
+Avg. conversation inactive time (min) = CALCULATE(AVERAGE(FactConversation[InActiveTimeInSeconds]) / 60.00, FactConversation[StatusId] = "4", FactConversation[IsAgentAccepted]="1")
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_sessionparticipant |
+|Attributes  |-  msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel​ <br> - msdyn_ocliveworkitem.msdyn_statuscode​ <br> - msdyn_sessionparticipant.msdyn_joinedon​ <br> - msdyn_sessionparticipant.msdyn_inactivetime|
+|Filters  | - Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL.​ <br> - Exclude rows where msdyn_channel is'192350000’ . <br> -  Include msdyn_ocliveworkitem.statuscode set to 4​. <br> - InactiveTimeInSeconds is calculated by​ msdyn_sessionparticipant.msdyn_inactivetime and​ isAgentAccepted set to 1 or msdyn_sessionparticipant.msdyn_joinedon​. ​|
+
+
+
+## Average first response time
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+Average first response time measures how quickly agents acknowledge or begin engaging with customers. It's measured in seconds or minutes and is used to assess the efficiency of initial engagement.
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+Avg. time for first response (min) = ​CALCULATE (AVERAGE (FactConversation[FirstResponseTime] ) / 60.00,FactConversation[IsOutbound] <> "1")
+
+```
+
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem) |
+|Attributes |- msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel |
+|Filters  |- Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL.​ <br> - Exclude rows where msdyn_channel is'192350000’​. <br> - msdyn_ocliveworkitem.msdyn_isoutbound isn't set to 1​.|
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Avg. first response time (sec) = AVERAGE(FactConversation[ReponseTimeInSecondsAdjustedForOperationHour])
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |  [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_liveworkstream |
+|Attributes  | - msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_liveworkstream.msdyn_streamsource <br> - msdyn_ocliveworkitem.msdyn_firstresponsetime​ <br> - msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel  |
+|Filters  | - Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL and​  msdyn_isagentsession set to 1​. Avg. first response time (sec) is defined by msdyn_ocliveworkitem.msdyn_firstresponsetimeinms​. <br> - Exclude rows where msdyn_streamsource is'192350000'​. ​|
+
+---
+
+
+## Transfer rate
+
+*Applies to Omnichannel historical dashboards.*
+
+Transfer rate refers to the percentage of customer conversations​ that are transferred from one representative to another​, an agent to a live representative, or one department or queue to another​. This metric is expressed as a percentage of total conversations.​
+
+​Transfer Rate (%) = (Number of Transferred Conversations / Total Conversations) × 100​
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+**DAX query**
+
+```dax
+
+Transfer rate_FactConversation = var rate = CALCULATE(FactConversation[_TransferedConversationCount]
+/ FactConversation[Totalconversations_FactConversation], FactConversation[StatusId] = "4", FactConversation[IsAgentAccepted] = "1") return
+IF(ISBLANk(rate) && NOT(ISBLANK([Total
+conversations_FactConversation])), 0, rate)
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_sessionparticipant, systemuser |
+|Attributes  |-  msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel​ <br>- msdyn_ocliveworkitem.statuscode​ <br> - msdyn_ocliveworkite.msdyn_transfercount msdyn_sessionparticipant.msdyn_joinedon ​<br> -  systemuser.msdyn_botapplicationid|
+|Filters  | - Filter the FactConversations table to include only rows where Ensure that msdyn_channelinstanceid is NULL.​ <br> - Exclude rows where msdyn_channel is'192350000’. <br> - Include msdyn_ocliveworkitem.statuscode set to 4​. <br> - Ensure that systemuser.msdyn_botapplicationid  AND msdyn_sessionparticipant.msdyn_joinedon isn't null​. <br> - IsAgentAcceptedSession is set as follows:​ If systemuser.msdyn_botapplicationid is empty or NULL and msdyn_sessionparticipant.msdyn_joinedon isn't empty, then IsAgentAcceptedSession is 1.​ Otherwise, its 0.​ <br> -Transfer rate is defined by msdyn_ocliveworkitem.msdyn_transfercount > 0​.​|
+
+
+
+## Transfer conversation count
+
+*Applies to Omnichannel historical dashboards.*
+
+Transfer conversation count is the number of conversations handed off from one representative to another representative​, a representative to a queue​, a representative to a PSTN number or Teams user​.
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+**DAX query**
+
+```dax
+
+TransferedConversationCount = CALCULATE(COUNTROWS(FactConversation), FactConversation[TransferCount] >0)
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)|
+|Attributes  |- msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel​ <br> - msdyn_ocliveworkite.msdyn_transfercount 
+|Filters  | - Filter the FactConversations table to include only rows where Ensure that msdyn_channelinstanceid is NULL.​  <br>- Exclude rows where msdyn_channel is'192350000’. <br> - Transfer count is defined by msdyn_ocliveworkite.msdyn_transfercount > 0. ​|
+
+
+## Callback not offered​
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+Conversation where a direct callback isn't offered to the customer because the overflow condition isn't met.
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+Callback not offered = [Incoming conversations_FactSession] - [Callback offered]
+
+```
+
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | - [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) <br> - [msdyn_ocliveworkitem](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem) |
+|Attributes |- [msdyn_ocliveworkitem.msdyn_isoutbound](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem#BKMK_msdyn_isoutbound) <br> - [msdyn_sessionextension.msdyn_overflowaction](/dynamics365/developer/reference/entities/msdyn_sessionextension#msdyn_overflowaction-choicesoptions) <br> - [msdyn_sessionextension.msdyn_overflowtriggertimestamp](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowTriggerTimestamp)|
+|Filters  | - msdyn_ocliveworkitem.msdyn_isoutbound = FALSE <br> - msdyn_sessionextension.msdyn_overflowaction is set to '419550001’ for DirectCallback <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null |
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Callback not offered = [IncomingConversationsFSE] - [Callback offered]
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | - [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) <br> - [msdyn_ocliveworkitem](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem) |
+|Attributes  |- [msdyn_ocliveworkitem.msdyn_isoutbound](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem#BKMK_msdyn_isoutbound) <br> - [msdyn_sessionextension.msdyn_overflowaction](/dynamics365/developer/reference/entities/msdyn_sessionextension#msdyn_overflowaction-choicesoptions) <br> - [msdyn_sessionextension.msdyn_overflowtriggertimestamp](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowTriggerTimestamp)|
+|Filters  | - msdyn_ocliveworkitem.msdyn_isoutbound = FALSE​ <br> - msdyn_sessionextension.msdyn_overflowaction = '419550001’ for DirectCallBack <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null|
+
+---
+
+
+## Callback offered​
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+Conversations where direct callback is offered.
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+Callback offered = CALCULATE(DISTINCTCOUNT(FactSession[ConversationId_FS]), NOT(ISBLANK(FactSession[CallbackOfferedDateTime])))
+
+```
+
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) |
+|Attributes | - [msdyn_sessionextension.msdyn_overflowaction](/dynamics365/developer/reference/entities/msdyn_sessionextension#msdyn_overflowaction-choicesoptions) <br> - [msdyn_sessionextension.msdyn_overflowtriggertimestamp](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowTriggerTimestamp)|
+|Filters  | - msdyn_sessionextension.msdyn_overflowaction is set to '419550001’ for DirectCallback​ <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null​|
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Callback offered = CALCULATE(DISTINCTCOUNT([ConversationId]), NOT(ISBLANK(FactSessionExtension[CallbackOfferedTime]))
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) |
+|Attributes  |  - [msdyn_sessionextension.msdyn_overflowaction](/dynamics365/developer/reference/entities/msdyn_sessionextension#msdyn_overflowaction-choicesoptions) <br> - [msdyn_sessionextension.msdyn_overflowtriggertimestamp](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowTriggerTimestamp)|
+|Filters  | - msdyn_sessionextension.msdyn_overflowaction is set to '419550001’ for DirectCallback​ <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null​. |
+
+---
+
+
+## Callback not opted in
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+Conversation where direct callback is offered but the customer didn't accept or opt-in.
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+Callback not opted in = [Callback Offered] - [Callback opted in]
+
+```
+
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension)|
+|Attributes |- [msdyn_sessionextension.msdyn_callbackacceptedtime](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_CallbackAcceptedTime) <br> - [msdyn_sessionextension.msdyn_overflowtriggertimestamp](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowTriggerTimestamp)|
+|Filters  | - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null​ <br> - msdyn_sessionextension.msdyn_callbackacceptedtime is null​. ​|
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Callback not opted in = [Callback Offered] - [Callback opted in]
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) |
+|Attributes  | - [msdyn_sessionextension.msdyn_callbackacceptedtime](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_CallbackAcceptedTime) <br> - [msdyn_sessionextension.msdyn_overflowtriggertimestamp](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowTriggerTimestamp)|
+|Filters  | - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null​ <br> - msdyn_sessionextension.msdyn_callbackacceptedtime is null​. ​|
+
+---
+
+
+## Callback opted in
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+Conversation where direct callback is offered and customer accepted or opted in.
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+Callback opted in = CALCULATE(DISTINCTCOUNT(FactSession[ConversationId_FS]), NOT(ISBLANK(FactSession[CallbackOptedInDateTime])))
+
+```
+
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) |
+|Attributes |[msdyn_sessionextension.msdyn_callbackacceptedtime](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_CallbackAcceptedTime)|
+|Filters  | msdyn_sessionextension.msdyn_callbackacceptedtime is not null|
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Callback opted in = CALCULATE(DISTINCTCOUNT([ConversationId]), NOT(ISBLANK(FactSessionExtension[CallbackOptedInTime])))
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) |
+|Attributes  | [msdyn_sessionextension.msdyn_callbackacceptedtime](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_CallbackAcceptedTime)|
+|Filters  |msdyn_sessionextension.msdyn_callbackacceptedtime is not null|
+
+---

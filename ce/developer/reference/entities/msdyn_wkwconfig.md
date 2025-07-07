@@ -70,6 +70,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_currentstatus](#BKMK_msdyn_currentstatus)
 - [msdyn_emailtemplateid](#BKMK_msdyn_emailtemplateid)
+- [msdyn_isfrecomplete](#BKMK_msdyn_isfrecomplete)
 - [msdyn_isWKWEnabled](#BKMK_msdyn_isWKWEnabled)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_wkwconfigId](#BKMK_msdyn_wkwconfigId)
@@ -137,6 +138,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100|
+
+### <a name="BKMK_msdyn_isfrecomplete"></a> msdyn_isfrecomplete
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**isfrecomplete**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isfrecomplete`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_wkwconfig_msdyn_isfrecomplete`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_isWKWEnabled"></a> msdyn_isWKWEnabled
 

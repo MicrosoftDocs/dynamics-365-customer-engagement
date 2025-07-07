@@ -4,8 +4,8 @@ description: Learn how reports are grouped and how filters affect report groups 
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: concept-article
-ms.date: 02/14/2023
+ms.topic: conceptual
+ms.date: 05/15/2025
 ms.custom: bap-template
 ---
 

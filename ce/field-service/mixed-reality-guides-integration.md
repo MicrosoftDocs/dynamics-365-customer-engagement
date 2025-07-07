@@ -1,7 +1,7 @@
 ---
 title: Integrate Guides with Field Service
 description: Learn how to integrate Dynamics 365 Field Service with Dynamics 365 Guides so technicians can follow a guide while addressing a work order.
-ms.date: 04/05/2024
+ms.date: 06/24/2025
 ms.topic: how-to
 author: josephshum-msft
 ms.author: jshum
@@ -47,6 +47,6 @@ The Guides HoloLens app shows work orders for the current day and the following 
 
 - Long service task names are cut off in the HoloLens user interface.
 
-- When assigning a guide to a Field Service service task, the system allows you to create a new guide. Don't use this option to create a new guide. Guides must be created using the Dynamics 365 Guides PC app or HoloLens app.
+- When you assign a guide to a Field Service service task, the system allows you to create a new guide. Don't use this option to create a new guide. Guides must be created using the Dynamics 365 Guides PC app or HoloLens app.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

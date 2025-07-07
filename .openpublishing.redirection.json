@@ -1,5 +1,70 @@
 {
   "redirections": [
+   {
+   "source_path": "ce/sales/developer/entities/flowmachineimage.md",
+   "redirect_url": "/dynamics365/developer/reference/entities/flowmachineimage",
+   "redirect_document_id": "false"
+   }, 
+   {
+      "source_path": "ce/sales/developer/entities/msdyn_migrationtracker.md",
+      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_migrationtracker",
+      "redirect_document_id": "false"
+   }, 
+   {
+      "source_path": "ce/sales/developer/entities/msdyn_pmsimulation.md",
+      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_pmsimulation",
+      "redirect_document_id": "false"
+   }, 
+   {
+      "source_path": "ce/sales/developer/entities/organization.md",
+      "redirect_url": "/dynamics365/developer/reference/entities/organization",
+      "redirect_document_id": "false"
+   }, 
+   {
+      "source_path": "ce/sales/developer/entities/quotedetail.md",
+      "redirect_url": "/dynamics365/developer/reference/entities/quotedetail",
+      "redirect_document_id": "false"
+   }, 
+   {
+      "source_path": "ce/sales/developer/entities/territory.md",
+      "redirect_url": "/dynamics365/developer/reference/entities/territory",
+      "redirect_document_id": "false"
+   }, 
+   {
+      "source_path": "ce/customer-service/develop/reference/entities/quotedetail.md",
+      "redirect_url": "/dynamics365/developer/reference/entities/quotedetail",
+      "redirect_document_id": "false"
+   }, 
+   {
+      "source_path": "ce/customer-service/develop/reference/entities/msdyn_pmsimulation.md",
+      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_pmsimulation",
+      "redirect_document_id": "false"
+   }, 
+   {
+      "source_path": "ce/customer-service/develop/reference/entities/flowlog.md",
+      "redirect_url": "/dynamics365/developer/reference/entities/workflowlog",
+      "redirect_document_id": "false"
+    },
+        {
+      "source_path": "ce/sales/conversation-intelligence-data-storage.md",
+      "redirect_url": "/dynamics365/sales/create-azure-repo",
+      "redirect_document_id": "false"
+    },
+        {
+      "source_path": "ce/sales/prepare-for-ci-migration-to-dataverse.md",
+      "redirect_url": "/dynamics365/sales//create-azure-repo",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/install-lsi-solution.md",
+      "redirect_url": "/dynamics365/sales/linkedin/integrate-sales-navigator",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/understand-lsi-accounts-form.md",
+      "redirect_url": "/dynamics365/sales/linkedin/integrate-sales-navigator",
+      "redirect_document_id": "false"
+    },
     {
       "source_path": "ce/sales/view-copy-email-summary.md",
       "redirect_url": "/power-apps/maker/model-driven-apps/use-copilot-email-assist",
@@ -1226,23 +1291,8 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_oc_geolocationprovider.md",
-      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_oc_geolocationprovider",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocbotchannelregistration.md",
-      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_ocbotchannelregistration",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocbotchannelregistrationsecret.md",
       "redirect_url": "/dynamics365/developer/reference/entities/msdyn_ocbotchannelregistrationsecret",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_occhannelconfiguration.md",
-      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_occhannelconfiguration",
       "redirect_document_id": "false"
     },
     {
@@ -1253,11 +1303,6 @@
     {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocexternalcontext.md",
       "redirect_url": "/dynamics365/developer/reference/entities/msdyn_ocexternalcontext",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_oclanguage.md",
-      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_oclanguage",
       "redirect_document_id": "false"
     },
     {
@@ -1655,11 +1700,6 @@
       "redirect_document_id": "false"
    },
    {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_authenticationsettings.md",
-      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_authenticationsettings",
-      "redirect_document_id": "false"
-   },
-   {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_bookableresourcecapacityprofile.md",
       "redirect_url": "/dynamics365/developer/reference/entities/msdyn_bookableresourcecapacityprofile",
       "redirect_document_id": "false"
@@ -1732,11 +1772,6 @@
    {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_entityroutingconfiguration.md",
       "redirect_url": "/dynamics365/developer/reference/entities/msdyn_entityroutingconfiguration",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_liveworkstream.md",
-      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_liveworkstream",
       "redirect_document_id": "false"
    },
    {
@@ -1835,11 +1870,6 @@
       "redirect_document_id": "false"
    },
    {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocsystemmessage.md",
-      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_ocsystemmessage",
-      "redirect_document_id": "false"
-   },
-   {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_octag.md",
       "redirect_url": "/dynamics365/developer/reference/entities/msdyn_octag",
       "redirect_document_id": "false"
@@ -1857,11 +1887,6 @@
    {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_omnichannelsyncconfig.md",
       "redirect_url": "/dynamics365/developer/reference/entities/msdyn_omnichannelsyncconfig",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_operatinghour.md",
-      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_operatinghour",
       "redirect_document_id": "false"
    },
    {
@@ -2020,16 +2045,6 @@
       "redirect_document_id": "false"
    },
    {
-      "source_path": "ce/customer-service/develop/reference/entities/socialprofile.md",
-      "redirect_url": "/dynamics365/developer/reference/entities/socialprofile",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocprovisioningstate.md",
-      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_ocprovisioningstate",
-      "redirect_document_id": "false"
-   },
-   {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocrecording.md",
       "redirect_url": "/dynamics365/developer/reference/entities/msdyn_ocrecording",
       "redirect_document_id": "false"
@@ -2055,26 +2070,6 @@
       "redirect_document_id": "false"
    },
    {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_chatansweroption.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_chatquestionnaireresponse.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_chatquestionnaireresponseitem.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_chatwidgetlanguage.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_consoleapplicationsessiontemplate.md",
       "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
       "redirect_document_id": "false"
@@ -2085,47 +2080,12 @@
       "redirect_document_id": "false"
    },
    {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_customengagementctx.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_entityconfig.md",
       "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
       "redirect_document_id": "false"
    },
    {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_facebookengagementctx.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_lineengagementctx.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_livechatconfig.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_livechatengagementctx.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_livechatwidgetlocation.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_liveconversation.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_localizedsurveyquestion.md",
       "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
       "redirect_document_id": "false"
    },
@@ -2140,72 +2100,12 @@
       "redirect_document_id": "false"
    },
    {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocapplepay.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_occommunicationprovidersetting.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_occommunicationprovidersettingentry.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_occustommessagingchannel.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocfbapplication.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocfbpage.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_oclinechannelconfig.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocliveworkitemparticipant.md",
       "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
       "redirect_document_id": "false"
    },
    {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocoutboundconfiguration.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocoutboundmessage.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocphonecallengagementctx.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocphonenumber.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocsmssettingsecret.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_octeamschannelconfig.md",
       "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
       "redirect_document_id": "false"
    },
@@ -2225,21 +2125,6 @@
       "redirect_document_id": "false"
    },
    {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocwechatchannelconfig.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocwhatsappchannelaccount.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocwhatsappchannelnumber.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_omnichannelqueue.md",
       "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
       "redirect_document_id": "false"
@@ -2255,22 +2140,12 @@
       "redirect_document_id": "false"
    },
    {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_questionsequence.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_routingruleinstance.md",
       "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
       "redirect_document_id": "false"
    },
    {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_rulesetdependencymapping.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_scenario.md",
       "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
       "redirect_document_id": "false"
    },
@@ -2285,21 +2160,6 @@
       "redirect_document_id": "false"
    },
    {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_smsengagementctx.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_smsnumber.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_surveyquestion.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_systemuser_msdyn_omnichannelqueue.md",
       "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
       "redirect_document_id": "false"
@@ -2310,17 +2170,7 @@
       "redirect_document_id": "false"
    },
    {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_wechatengagementctx.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_wemaccess.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-   },
-   {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_whatsappengagementctx.md",
       "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
       "redirect_document_id": "false"
    },
@@ -26219,6 +26069,21 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/introduction-sales-template-apps.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#power-bi-template-apps-for-dynamics-365-sales-are-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/configure-sales-template-apps.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#power-bi-template-apps-for-dynamics-365-sales-are-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/customize-template-apps.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#power-bi-template-apps-for-dynamics-365-sales-are-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales-enterprise/help-hub.md",
       "redirect_url": "/dynamics365/sales/help-hub",
       "redirect_document_id": "false"
@@ -27850,6 +27715,31 @@
     {
       "source_path": "ce/field-service/scheduling-analytics-reports.md",
       "redirect_url": "/dynamics365/field-service/reports",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/reports.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/work-order-summary-report.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/resource-utilization-report.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/rso-optimization-summary-report.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/rso-admin-report.md",
+      "redirect_url": "/dynamics365/field-service/overview",
       "redirect_document_id": "false"
     },
     {
@@ -30675,6 +30565,11 @@
     {
       "source_path": "ce/customer-service/use/voice-channel-agent-experience.md",
       "redirect_url": "/dynamics365/contact-center/use/voice-channel-agent-experience",
+      "redirect_document_id": false
+    },
+        {
+      "source_path": "ce/customer-service/use/copilot-analytics-report.md",
+      "redirect_url": "/dynamics365/contact-center/use/copilot-analytics-report",
       "redirect_document_id": false
     },
     {
@@ -35399,7 +35294,7 @@
     },
     {
       "source_path": "ce/field-service/mobile-powerapp-booking-work-order-form.md",
-      "redirect_url": "/dynamics365/field-service/mobile/change-work-order-form",
+      "redirect_url": "/dynamics365/field-service/mobile/change-work-order-booking-form",
       "redirect_document_id": false
     },
     {
@@ -35583,16 +35478,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocgooglebusinessmessagesagentaccount.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/entities/overview-entity-ref",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocgooglebusinessmessagespartneraccount.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/entities/overview-entity-ref",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "ce/customer-service/implement/omnichannel-provision-license.md",
       "redirect_url": "/dynamics365/contact-center/implement/provision-channels",
       "redirect_document_id": false
@@ -35744,7 +35629,23 @@
     },
     {"source_path": "ce/customer-service/use/oc-metrics-dimensions.md",
       "redirect_url": "/dynamics365/customer-service/develop/calculate-conversation-metrics",
-      "redirect_document_id": false}  
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/develop/create-a-conversion-plugin.md",
+      "redirect_url": "/dynamics365/customer-service/develop/int-search-metadata-schema",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/admin/on-prem-server-based-sharepoint-online.md",
+      "redirect_url": "on-prem-server-configure-azure-app-with-sharepoint-access",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/develop/markdown-formats-dev.md",
+      "redirect_url": "/dynamics365/customer-service/develop/bring-your-own-channel",
+      "redirect_document_id": "false"
+    }  
 
   ]
 }

@@ -1,7 +1,7 @@
 ---
 title: Forecast case and conversation volumes, and service representatives for conversations
 description: Learn how to use forecast reports to predict service representative, case, and conversation volumes in Dynamics 365 Customer Service.
-ms.date: 02/10/2025
+ms.date: 06/30/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -28,17 +28,17 @@ ms.custom:
 This article describes how to navigate the forecast reports in Customer Service so that you can successfully meet the staffing demands of your organization.
 
 > [!IMPORTANT]
-> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with customer service representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their customer service representatives that their communications with end users may be monitored, recorded, or stored.
+> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature isn't intended for use in making, and shouldn't be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws that relate to accessing individual employee analytics and monitoring, recording, and storing communications with end users. Customers are also responsible to adequately notify end users that their communications with customer service representatives might be monitored, recorded, or stored and, as required by applicable laws. Customers are also responsible for obtaining consent from end users before they use the feature with them. Customers are also encouraged to have a mechanism in place to inform their customer service representatives that their communications with end users might be monitored, recorded, or stored.
 
 ## Overview
 
-Customer service supervisors need to to ensure that they have an adequate number of customer service representatives (service representatives or representatives) available to serve their customers. Overcapacity results in higher costs, while under capacity results in longer customer wait times, which negatively affects customer satisfaction.
+Customer service supervisors need to to ensure that they have an adequate number of customer service representatives (service representatives or representatives) available to serve their customers. Overcapacity results in higher costs, while under capacity results in longer customer wait time, which negatively affects customer satisfaction.
 
-As a supervisor, you can use the forecast reports to help plan the right level of staffing for your business which is based on the predicted volume of cases and conversations, along with the predicted service representative demand for conversations.
+As a supervisor, you can use the forecast reports to help plan the right level of staffing for your business that's based on the predicted volume of cases and conversations, along with the predicted service representative demand for conversations.
 
 You can use the forecast reports for service representative, case, and conversation volumes in the following ways:
 
-- Forecast upcoming case and conversation volumes based on historical traffic and the number of service representatives needed to meet the forecasted conversation volume. For conversation volume forecasting, if your administrator has configured AI agents for your conversational channels, the system excludes conversations that AI agents handle without having a service representative join the conversation. This function ensures that you can rely on the predicted conversation volumes for service representative staffing.
+- Forecast upcoming case and conversation volumes based on historical traffic and the number of service representatives needed to meet the forecasted conversation volume. For conversation volume forecasting, if your administrator configured AI agents for your conversational channels, the system excludes conversations that AI agents handle without having a service representative join the conversation. This function ensures that you can rely on the predicted conversation volumes for service representative staffing.
 
 - Visualize forecasted volumes and service representative demand on a daily basis, for a time range up to six months, depending on how many days of cases or conversations were created in the past. This forecast can be used to plan service representative resourcing and recruitment, to meet future demand.
 
@@ -53,7 +53,7 @@ You can use the forecast reports for service representative, case, and conversat
 Learn more about how the forecast models work for this feature in [How agent forecasting for conversation works](../administer/configure-agent-forecasting-conversation.md#how-agent-forecasting-for-conversation-works) and [How case volume forecasting works](../administer/configure-volume-forecasting.md#how-case-forecasting-works).
 
 > [!NOTE]
-> Be aware of the following when using the Forecast report:
+> Be aware of the following functionality when using the Forecast report:
 >
 > - Forecasts might misstate volume estimates for many reasons, including unanticipated trends or business developments.
 >
@@ -106,7 +106,7 @@ The **Confidence level** for the forecasted data is displayed on the right-hand 
 
 :::image type="content" source="../media/case-forecast-actuals.png" alt-text="View of confidence level in Forecast report.":::
 
-Hover on the future side (dash line) of the report to show a range that includes an upper and lower-bound confidence range, that indicates the amount of possible variance which could occur from the predicted volume number.
+Hover on the future side (dash line) of the report to show a range that includes an upper and lower-bound confidence range, that indicates the amount of possible variance that could occur from the predicted volume number.
 
 ### View volume forecasting by numbers
 
@@ -134,7 +134,7 @@ The **Agents for conversations** report allows you to select the rollup method i
 
 - **Average**: This method averages the available data at a level in the date and time hierarchy to roll up to the next higher level in the hierarchy.
 
-- **Maximum**: This method picks the maximum from the available data at a level in the date and time hierarchy to roll up to the next higher level in the hierarchy. This method is the default rollup which is selected when you access the report for the first time.
+- **Maximum**: This method picks the maximum from the available data at a level in the date and time hierarchy to roll up to the next higher level in the hierarchy. This method is the default rollup that's selected when you access the report for the first time.
 
 - **Minimum**: This method picks the minimum from the available data at a level in the date and time hierarchy to roll up to the next higher level in the hierarchy.
 
