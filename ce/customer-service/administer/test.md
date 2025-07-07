@@ -37,28 +37,39 @@ You can use the case management agent to do the following actions:
 - [Create and manage workstreams](create-workstreams.md) and [Create and manage queues for unified routing](queues-omnichannel.md) are set up.
 -  [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center application.
 - The Autonomous Case Management agent uses the Data Entry Agent in the background. The Power Platform [Pay-as-you-go plan](/power-platform/admin/pay-as-you-go-overview) mandates the usage of an Azure subscription the system charges when the agent runs. Make sure you [Set up consumption-based billing](setup-pay-as-you-go.md).
+- Transcription is enabled for the channels that support voice conversations. For more information, see [Enable transcription for voice channels](voice-channel-configure-transcripts.md#enable-call-recording-and-transcription-for-voice).
+-  We recommend that you enable audit history and make sure service representatives have the required access to the case and related entities that the AI agent updates. Learn more in [Manage Dataverse auditing](/power-platform/admin/manage-dataverse-auditing).
+
+### Descriptions in power apps
 
 
 ## Configure autonomous case updates
 
-1. In **Customer support**, select **Case settings**.
-2. On the **Case settings** page, select **Manage** for **Case Management Agent**.
-3. On the **Case Management Agent** page, select
+In Copilot Service admin center, do the following steps for the AI agent to predict and update case fields autonomously based on an ongoing conversation or an incoming email. 
 
-
-In Copilot Service admin center, follow these steps:
+> [!NOTE]
+> If you don’t configure update rules, the AI agent won’t update case fields automatically.
 
 1. In **Customer support**, select **Case settings**.
 2. On the **Case settings** page, select **Manage** for **Case Management Agent**.
 3. On the **Case Management Agent** page, select **Case creation and update with autonomous AI assistance (preview)**.
-4. In the page that appears, select the channels that AI can use to create or update cases. You can select **Chat** and **Email**. 
-1. On the **Default list of fields for AI prediction**, specify the fields the agent must fill in the case form using information from the chat or email conversation.  
-   - For a conversation, the agent evaluates the conversation and then creates a case only if there’s enough context in the conversation to predict the default fields.  
-   - New cases are created from emails based on the automatic record creation rules configured. The Case Management Agent populates the fields in the case created by the record creation rules if there’s enough context available in the email. Fields populated during case creation remains unchanged by the agent.
-1. Optionally, in **Rules for case update with AI assistance**, specify the fields the agent must update from an ongoing conversation or incoming email after creating a case. If you don't specify update rules, the agent updates the fields you added in the previous step.
+1. In the page that appears, in **Case update by AI agent (any channel)**, select **Create** to define a rule that sets the conditions for the agent to predict and update case fields based on an ongoing conversation or an incoming email. Specify the following:
+   - A unique name for the rule. 
+   - Define the conditions under which the AI agent should apply the rule. If not defined, the rule is applied to all cases.
+   - On the **Default list of fields for AI prediction**, specify the fields the agent must fill in the case form using information from the chat or email conversation.  
+   - In **Rules for case update with AI assistance**, specify the fields the agent must update from an ongoing conversation or incoming email after creating a case.
+   - Select **Save**.
+1. The system runs the case update rules in the order they're listed. You can select the arrow buttons to reorder the rules as needed.
+1. Select **Activate** to activate the rules.
 
-> [!NOTE]
-> We recommend that you enable audit history and make sure service representatives have the required access to the case and related entities that the AI agent updates. Learn more in [Manage Dataverse auditing](/power-platform/admin/manage-dataverse-auditing).
+## Configure autonomous case creation
+   
+1. To enable the AI agent to autonomously create cases for all the provisioned channels in the environment, select the **Make Case Processing Agent available for case creation from conversations** in the **Case creation and update (preview)** > **Case creation by AI agent (from chats and calls)**.
+1. In **Fields for AI prediction**, specify the fields the agent must fill in the case form using information from the conversation.  
+
+## Configure AI-assisted case creation for service representatives
+
+Select the channels from which customer service representatives can create cases with AI assistance. When enabled, the AI agent analyzes the conversation or email and suggests case details. Agents can review and confirm these AI-generated suggestions before the case is created.
 
 ## Enable service representatives to use autonomous Case Management Agent
 
@@ -84,9 +95,9 @@ When a customer initiates a chat conversation with the service representative, t
 For the agent to run this scenario, specify the following in the **Case creation and update with autonomous AI assistance (preview)** page:
  
 - **Channel**: Chat  
-- **Default list of fields for AI prediction**: Issue description, Contact  
+- **Fields for AI prediction**: Issue description, Contact  
 
-For an ongoing conversation, if the service representative selects **Update from conversation** the AI agent must update the **Issue description** and **Contact** fields, if there are any updates. Additionally, the **Product**, **Priority**, and **Serial number** fields should also be updated if the case category is set to **product defect**. 
+For an ongoing conversation, the AI agent must update the **Issue description** and **Contact** fields, if there are any updates. Additionally, the **Product**, **Priority**, and **Serial number** fields should also be updated if the case category is set to **product defect**. 
 
 For the agent to execute this scenario, in addition to the **Issue description** and **Contact** fields set in **Default list of fields for AI prediction** specify the following in the **Case creation and update with autonomous AI assistance (preview)** page:
 
@@ -98,8 +109,6 @@ For the agent to execute this scenario, in addition to the **Issue description**
     - **Value:** Product defect  
   - Specify fields for AI prediction when this condition is met:  
     - **Product**, **Priority**, **Serial number**
-
-
 
 ## Next steps
 
