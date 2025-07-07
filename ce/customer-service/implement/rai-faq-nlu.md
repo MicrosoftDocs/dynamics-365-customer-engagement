@@ -1,5 +1,5 @@
 ---
-title: esponsible AI FAQs for NLUs in AI agents
+title: Responsible AI FAQs for NLUs in AI agents
 description: This FAQ provides information about the  NLUs in AI agents in Dynamics 365 Contact Center and Dynamics 365 Customer Service. 
 author: gandhamm
 ms.author: mgandham
@@ -18,7 +18,7 @@ These frequently asked questions (FAQ) describe the AI impact of generative orch
 
 ## What is NLU and how is it used in agents?
 
-Natural Language Understanding (NLU) is the foundation for interpreting user statements and converting them into meaningful actions within AI agents. In Microsoft Copilot Studio agents built for Dynamics 365 Contact Center, NLU enables agents to understand customer queries, extract intent, and respond appropriately. NLU is essential for both digital and voice interactions, allowing agents to interpret natural human language, identify key information, and deliver relevant responses. By accurately understanding customer needs, NLU-powered agents can provide more intelligent, responsive service experiences that enhance customer satisfaction and streamline interactions across channels. Learn more in [NLU overview](/microsoft-copilot-studio/nlu-overview).
+Natural Language Understanding (NLU) is the foundation for interpreting user statements and converting them into meaningful actions within AI agents. In Microsoft Copilot Studio agents built for Dynamics 365 Contact Center, NLU enables agents to understand intents, extract meaning, and respond appropriately. NLU is essential for both digital and voice interactions, allowing agents to interpret natural human language, identify key information, and deliver relevant responses. By accurately understanding customer needs, NLU-powered agents can provide more intelligent, responsive service experiences that enhance customer satisfaction and streamline interactions across channels. Learn more in [NLU overview](/microsoft-copilot-studio/nlu-overview).
 
 ## What NLU options are available in Microsoft Copilot Studio?
 
@@ -36,8 +36,9 @@ When selecting an NLU option, it's important to thoroughly review the capabiliti
 ## How do the underlying technologies differ between NLU options?
 Classic Orchestration NLUs rely on customer-provided training data to create Dynamic Language Models (DLMs) that are used at runtime. Generative AI NLUs leverage pre-trained Large Language Models (LLMs), which may offer different capabilities but also different considerations for responsible deployment.
 
-## What transparency considerations should I be aware of when implementing generative orchestration?
-When implementing generative orchestration, be aware that each NLU choice impacts your agent's behavior and performance in different ways. Ensure you understand how the system interprets user inputs, makes decisions, and generates responses. This transparency is crucial for maintaining trust with your customers and ensuring your agent behaves as expected.
+## What transparency considerations should I keep in mind when implementing generative orchestration?
+
+When implementing generative orchestration, it’s important to understand how your chosen [NLU model](/microsoft-copilot-studio/nlu-overview) influences your AI agent’s behavior and performance. Be aware of how the system interprets user inputs, determines actions, and generates responses. Maintaining transparency in these processes helps build trust with your customers and ensures your agent’s actions align with your intended outcomes.
 
 ## Related information
 
