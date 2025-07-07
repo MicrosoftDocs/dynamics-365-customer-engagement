@@ -1,7 +1,7 @@
 ---
 title: Integrate Field Service bookings with Outlook calendars
 description: Set up Microsoft Online Exchange to integrate with Dynamics 365 Field Service to synchronize bookings.
-ms.date: 03/03/2025
+ms.date: 07/07/2025
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -9,17 +9,18 @@ ms.author: jasonshotts
 
 # Integrate bookings with Outlook calendars
 
-Frontline workers can have all their appointments, company meetings, personal events, and bookings in one calendar. Any bookings created against a work order synchronize with the worker’s mailbox, so they show up as appointments in Microsoft Outlook. Synchronization occurs every 15 minutes.
+Frontline workers can have all their appointments, company meetings, personal events, and bookings in one calendar. Any bookings created against a work order synchronize with the worker’s mailbox, so they show up as appointments in Microsoft Outlook. Synchronization occurs within 15 minutes.
 
 The synchronization of bookings into Outlook works only one way. Events set up in Outlook don't appear in Field Service as bookings. Data flows from Dataverse into Exchange, potentially crossing geographic boundaries.
 
 ## Set up the Exchange integration
 
-Set up user mailboxes to synchronize with Microsoft Exchange Online. If tasks, contacts, or appointments synchronization are already set up for a user, bookings from Field Service start synchronizing automatically. No other set up is required.
+Set up user mailboxes to synchronize with Microsoft Exchange Online. If tasks, contacts, or appointments synchronization are already set up for a user, bookings from Field Service start synchronizing automatically. No other set up is required. Learn more about [tasks, contacts, and appointments synchronization](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks).
 
 ### Prerequisites
 
-- You have an Exchange admin role for your tenant and a Dynamics 365 System Admin role *or* the delegated mailbox approver role in Dynamics 365.
+- You have a Dynamics 365 System Admin role.
+- You have an Exchange admin role for your tenant *or* the delegated mailbox approver role in Dynamics 365.
 - The Exchange server and the Field Service application must be in the same tenant.
 
 ### Set up the integration
@@ -84,14 +85,20 @@ When a booking is deleted in Field Service and synced with Exchange, the appoint
 - The appointment is in the future.
 - The appointment wasn't [logically deleted](/power-platform/admin/sync-logic#ignore-logically-deleted-items-during-sync).
 
-If all these conditions aren't met, the appointment still exists in Exchange, but it's unlinked. For more information, go to [Synchronization logic for appointments, contacts, and tasks](/power-platform/admin/sync-logic#syncing-canceled-and-deleted-appointments-from-dynamics-365-to-exchange).  
+If all these conditions aren't met, the appointment still exists in Exchange, but it's unlinked. Learn more: [Synchronization logic for appointments, contacts, and tasks](/power-platform/admin/sync-logic#syncing-canceled-and-deleted-appointments-from-dynamics-365-to-exchange).  
 
 ### Limitations
 
 - Updates to the booking are required to reflect changes to the work order in Outlook.
-- Updates only to the work order aren't reflected in Outlook until the booking is changed.
 - Users can be set up to sync with only one environment at a time.
 - Only bookings tied to a work order synchronize.
-- Bookings synchronize one week in the past and up to two weeks in the future. Because of this control, the bookings that sync might display warnings. These warnings are normal.
+- Bookings synchronize one week in the past and up to two weeks in the future. The system view that controls this behavior is un-editable and appears with warnings. If you would like the ability to change what fields get synced and the window of bookings that sync, please submit an idea on our [Dynamics 365 Field Service ideas form](https://experience.dynamics.com/ideas/categories/list/?category=a2fa5aca-3f2d-e811-813c-e0071b6ad011&forum=bee3d862-df65-e811-a95d-000d3a1be7ad).
+
+## Troubleshooting
+
+For privilege errors, go to:
+
+- [PrivilegeDenied error occurs when using Server-Side Synchronization](/previous-versions/troubleshoot/dynamics/crm/privilegedenied-error-when-using-server-side-sync)
+- [Privilege or permission error for Outlook](/troubleshoot/power-platform/dataverse/d365-app-outlook/privilege-error-occurs-when-using-dynamics-365-app-for-outlook#more-information)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
