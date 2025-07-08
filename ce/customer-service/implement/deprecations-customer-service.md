@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: conceptual
-ms.date: 06/23/2025
+ms.date: 07/09/2025
 ms.custom: bap-template
 ms.collection:
 ---
@@ -35,7 +35,7 @@ Copilot Service workspace offers modern customer service experiences, with featu
 
 ## Effort estimation model in unified routing is deprecated
 
-The [effort estimation model in unified routing](../administer/use-effort-estimation-for-routing.md) is deprecated as of May 02, 2025. The support for the feature will end and the feature will be removed on June 02, 2025.
+The effort estimation model in unified routing was deprecated on May 02, 2025. The support for the feature ended and the feature was removed on June 02, 2025.
 
 ## Auto-summarization of ongoing conversations is deprecated
 
