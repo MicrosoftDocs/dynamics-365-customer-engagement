@@ -497,7 +497,7 @@ Avg. session handle time (sec) = AVERAGE(FactSession[AgentHandlingTimeInSeconds]
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Session participant consult rejection count is the number of consult sessions that a representative rejects after another representative requests a consult during a customer interaction. This metric is tracked at the session participant level and reflects individual representative responses to consult requests, rather than the overall session outcome.
+Session participant consult rejection count is the number of consultation requests from other representatives that a representative declines. This metric is tracked at the session participant level and is the individual representative responses to consult requests, and not the overall session outcome.
 
 
 ### DAX query and Dataverse reference
