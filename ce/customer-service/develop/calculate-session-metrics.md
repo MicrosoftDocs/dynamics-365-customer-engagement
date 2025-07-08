@@ -443,7 +443,7 @@ Session handle time (sec) = SUM(FactSession[AgentHandlingTimeInSeconds])
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Average session handle time is the average duration a representative spends actively managing a single session, such as a chat, voice call, or messaging interaction with a customer. This metric includes:
+Average session handle time is the average duration a representative spends actively managing a single chat, voice call, or messaging session. This metric includes:
 
 - Active session time: The duration when the representative is directly interacting with the customer.
 - Hold time: The time the customer spends on hold.
