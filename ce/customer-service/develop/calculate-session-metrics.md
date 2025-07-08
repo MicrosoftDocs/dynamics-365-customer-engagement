@@ -446,7 +446,7 @@ Session handle time (sec) = SUM(FactSession[AgentHandlingTimeInSeconds])
 Average session handle time is the average duration a representative spends actively managing a single chat, voice call, or messaging session. This metric includes:
 
 - Active session time: The duration when the representative is directly interacting with the customer.
-- Hold time: The time the customer spends on hold.
+- Hold time: The time the customer is put on hold.
 - Wrap-up time: The time spent by the representative completing notes or follow-up tasks after the session ends.
 
 Average Session Handle Time = Total handle time across sessions / Number of sessions handled​. This metric is tracked per agent and per session, and can be aggregated across teams or time periods for reporting.
