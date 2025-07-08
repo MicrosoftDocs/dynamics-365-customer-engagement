@@ -24,7 +24,6 @@ The following capabilities are available for the agent conversations:
 
 - Seamlessly integrate your agent with all channels without needing to add channel-specific code in the agent.
 - Configure interactive voice response (IVR) capabilities for voice-enabled agents.
-- Select the most appropriate option for your agent, classic orchestration where agents respond by triggering topics whose phrases match most closely to user queries or generative AI which enables your agent to choose the best actions, knowledge, and topics to answer user queries or respond to event triggers. Learn more in [Orchestrate agent behavior with generative AI](/microsoft-copilot-studio/advanced-generative-actions)
 - [!INCLUDE[cc-natural-language-model](../../includes/cc-natural-language-model.md)]  
 - Configure contextual transfers to service representatives.
 - Analyze the agent transcript that's available in Microsoft Dataverse after the conversation is completed.
