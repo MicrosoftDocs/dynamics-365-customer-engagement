@@ -58,6 +58,7 @@ In Copilot Service admin center, do the following steps for the AI agent to pred
 > [!NOTE]
 > - If you don’t configure update rules, the AI agent won’t update case fields automatically.
 > - The AI agent can predict and update fields of the following data types:
+>   - Lookup fields. Upto 50 options are supported for each lookup field.
 >   - Boolean
 >   - Integer
 >   - Choice
