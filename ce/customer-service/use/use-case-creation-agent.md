@@ -14,16 +14,16 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Case Management Agent uses chat conversations and incoming emails  to create cases and fill in relevant case fields. It can also update case fields during ongoing conversations, eliminating the need for manual case creation and reducing errors.
+The Case Management Agent uses chat, digital messaging, and voice channel conversations and to create cases. It can also update case fields during ongoing conversations or from incoming emails  eliminating the need for manual case creation and reducing errors.
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 
 ## Autonomous case creation
 
-The agent creates cases automatically from chat conversations and incoming emails.
+The agent creates cases automatically from conversations.
 
-### Chat
+### Conversations
 
 When you accept a conversation routed directly or escalated by a self-assist agent with enough context, the Case Management Agent performs the following actions:
 

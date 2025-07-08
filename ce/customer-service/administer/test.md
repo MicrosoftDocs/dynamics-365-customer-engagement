@@ -40,15 +40,32 @@ You can use the case management agent to do the following actions:
 - Transcription is enabled for the channels that support voice conversations. For more information, see [Enable transcription for voice channels](voice-channel-configure-transcripts.md#enable-call-recording-and-transcription-for-voice).
 -  We recommend that you enable audit history and make sure service representatives have the required access to the case and related entities that the AI agent updates. Learn more in [Manage Dataverse auditing](/power-platform/admin/manage-dataverse-auditing).
 
-### Descriptions in power apps
+### Update field and option set descriptions in Power Apps
 
+To help the AI agent make better predictions when filling lookup fields, we recommend adding descriptive information to your lookup records. Perform the following steps in Power Apps:
+
+- For the AI agent to understand the context of each field, add meaningful field descriptions in your table columns. This helps the AI better interpret what the data represents during predictions. For example, for the **Account Number** column in the Account table, add a description like: "This is an account number, and account numbers start with ACC."
+-  Define what each choice value represents to enable the AI agent make smarter, more relevant suggestions when creating or updating records—reducing manual errors and improving efficiency. Do the following:
+  - For the required lookup entity, add a new optional text field on to contain a description of a record.
+  - For each choice value in the lookup field, add a description that explains its meaning and usage.
+  - Update the **Quick Find** view of the lookup entity to include the new description field as a column.
+  - Save and publish the changes.
 
 ## Configure autonomous case updates
 
 In Copilot Service admin center, do the following steps for the AI agent to predict and update case fields autonomously based on an ongoing conversation or an incoming email. 
 
 > [!NOTE]
-> If you don’t configure update rules, the AI agent won’t update case fields automatically.
+> - If you don’t configure update rules, the AI agent won’t update case fields automatically.
+> - The AI agent can predict and update fields of the following data types:
+>   - Boolean
+>   - Integer
+>   - Choice
+>   - Option Set
+>   - Currency
+>   - Multiple Lines of Text
+>   - Single line of text
+>   - Email
 
 1. In **Customer support**, select **Case settings**.
 2. On the **Case settings** page, select **Manage** for **Case Management Agent**.
