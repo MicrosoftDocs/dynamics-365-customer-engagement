@@ -24,8 +24,6 @@ An omnichannel session, or msdyn_ocsession, is an entity in Microsoft Dynamics 3
 
 This article also explains how to calculate key session metrics. By using Power BI reports and Dataverse calculations, you can gain actionable insights into customer service efficiency and enhance overall customer satisfaction.
 
-Learn more about [Calculate conversation metrics](calculate-conversation-metrics.md#calculate-conversation-metrics) and [Service representative metrics](../use/service-rep-metrics.md#service-representative-metrics).
-
 
 ## Sessions rejected
 
@@ -197,8 +195,7 @@ Sessions timed out = ​CALCULATE(DISTINCTCOUNT(FactSession[SessionId]), FactSes
 |Element|Value  |
 |---------|---------|
 |Dataverse entities | msdyn_ocsession, systemuser, msdyn_ocsessionparticipantevent|
-|Attributes |- msdyn_ocsessionparticipantevent.msdyn_eventtype​, <br> - msdyn_ocsessionparticipantevent.msdyn_eventreason​, <br> - msdyn_ocsession.msdyn_sessionid​ <br> - msdyn_ocsession.msdyn_closurereason ​<br> - 
-systemuser.msdyn_botapplicationid   |
+|Attributes |- msdyn_ocsessionparticipantevent.msdyn_eventtype​<br> - msdyn_ocsessionparticipantevent.msdyn_eventreason​<br> - msdyn_ocsession.msdyn_sessionid​ <br> - msdyn_ocsession.msdyn_closurereason​<br> - systemuser.msdyn_botapplicationid   |
 |Filters  | - Session is calculated based on msdyn_ocsession.msdyn_sessionid​ ​<br> - Exclude sessions from 'Entity Records' channel and SMS filter using msdyn_ocliveworkitem.msdyn_channel != '192350000' and​ msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL respectively​ ​<br> - Exclude in-transit record with msdyn_eventreason '192350001' and Hold event with msdyn_eventtype '192350001'​ ​<br> - IsAgentSession is obtained from systemuser.msdyn_botapplicationid  is not null​ ​<br> - Agent timeout session is obtained by msdyn_ocsession.msdyn_closurereason set to 192350002​  |
 
 ### [Real-time analytics](#tab/realtimepage)
@@ -232,7 +229,7 @@ Transferred sessions are customer interactions—such as chats, voice calls, or 
 - Representative-to-representative: A representative manually transfers a session to another representative, often due to skill mismatch or workload balancing.
 - Representative-to-queue: The session is routed to a different queue for reassignment, typically for escalation or specialized support.
 - Agent-to-representative: An agent escalates the session to a representative, either at the customer’s request or due to business rules (such as maximum retries or unsupported intent).
-- External transfers: In some setups, sessions can be transferred to external phone numbers or contact centers (for example, via SIP routing), depending on system configuration.
+- External transfers: In some setups, sessions can be transferred to external phone numbers or contact centers. For example, through Session Initiation Protocol (SIP) routing, depending on system configuration.
 
 ​
 ### DAX query and Dataverse reference
@@ -551,6 +548,6 @@ Consult requests rejected = SUMX (​FactSessionParticipant, IF (FactSessionPart
 
 ## Related information
 
-[Calculate conversation metrics](calculate-conversation-metrics.md#calculate-conversation-metrics)
+[Calculate conversation metrics](calculate-conversation-metrics.md#calculate-conversation-metrics)  
 
-
+[Service representative metrics](../use/service-rep-metrics.md#service-representative-metrics).
