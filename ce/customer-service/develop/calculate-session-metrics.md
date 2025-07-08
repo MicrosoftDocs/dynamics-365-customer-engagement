@@ -66,7 +66,7 @@ IF (FactSessionParticipant[LeftOnReason] ==
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem) msdyn_ocsession, systemuser |
+|Dataverse entities | [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem),  msdyn_ocsession, systemuser |
 |Attributes  | - msdyn_ocliveworkitem.statuscode​, <br> - msdyn_ocsession.msdyn_state​, <br> - msdyn_ocsession.msdyn_closurereason ​<br> - systemuser.msdyn_botapplicationid |
 |Filters  | - Filter the FactConversations table to include only rows msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. <br> - IsAgentSession occurs when systemuser.msdyn_botapplicationid isn't null​. <br> - Agent Rejected session occurs when the msdyn_ocsession.msdyn_closurereason is set to 192350001​. |
 
