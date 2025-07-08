@@ -20,16 +20,16 @@ ms.custom: bap-template
 
 This article explains how to use session metrics to track agent performance, monitor key performance indicators (KPIs), and improve customer satisfaction in Dynamics 365 Customer Service.
 
-An omnichannel session (msdyn_ocsession) represents a customer interaction and captures events such as assigning, associating, creating, and updating records. A single conversation may include multiple sessions, starting with the initial interaction, typically handled by an agent, and followed by additional sessions if the conversation is escalated to another customer service representative (service representative or representative).
+An omnichannel session (msdyn_ocsession) represents a customer interaction and captures events such as assigning, associating, creating, and updating records. A single conversation might include multiple sessions, starting with the initial interaction, typically handled by an agent, and followed by more sessions if the conversation is escalated to another customer service representative (service representative or representative).
 
-The following sections describes session metrics calculations using Power BI reports and Dataverse calculations, helping you gain actionable insights and optimize service operations.
+The following sections describe session metrics calculations using Power BI reports and Dataverse calculations, helping you gain actionable insights and optimize service operations.
 
 
 ## Sessions rejected
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Sessions rejected indicates the total number of sessions within a conversation that the service representative declines. 
+Sessions rejected indicate the total number of sessions within a conversation that the service representative declines. 
 
 ### DAX query and Dataverse reference
 
@@ -128,7 +128,7 @@ IF ( FactSession[SessionClosureReasonCode] == 192350001, 1, 0 ) ), SUMX (FactSes
 
 *Applies to Omnichannel real-time dashboards.*
 
-Time to reject (seconds) is the average time a representative takes to reject a session after it's assigned. It tracks the duration between the when the session is assigned and when the representative selects **Reject**, helping supervisors understand how quickly agents respond while declining work items.
+Time to reject (seconds) is the average time a representative takes to reject a session after it's assigned. It tracks the duration between when the session is assigned and when the representative selects **Reject**, helping supervisors understand how quickly agents respond while declining work items.
 
 ### DAX query and Dataverse reference
 
@@ -412,7 +412,7 @@ SUM(FactSession[TimeToAcceptInSeconds])
 
 *Applies to Omnichannel real-time dashboards.*
 
-Session handle time is the total time a representative spends working on a customer session, including the live interaction and any follow-up or wrap-up activities. Tracked per session, this metric can be aggregated across conversations or agents for performance analysis. This KPI provides insights on:
+Session handle time is the total time a representative spends working on a customer session, including the live interaction and any follow-up or wrap-up activities. This metric is tracked per session and can be aggregated across conversations or agents for performance analysis. This KPI provides insights on:
 
 - Agent productivity and workload
 - Inefficiencies in handling customer interactions
@@ -435,7 +435,7 @@ Session handle time (sec) = SUM(FactSession[AgentHandlingTimeInSeconds])
 |---------|---------|
 |Dataverse entities |  [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_ocsession, msdyn_sessionparticipant, systemuser  |
 |Attributes  |  - msdyn_ocliveworkitem.statuscode​ <br> - msdyn_ocsession.msdyn_agentacceptedon ​<br> - systemuser.msdyn_botapplicationid ​<br> - msdyn_sessionparticipant_msdyn_activetime |
-|Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​. ​<br> - Session handle time is when msdyn_ocsession.msdyn_agentacceptedon isn't null then msdyn_sessionparticipant.msdyn_activetime else null​ ​<br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​ |
+|Filters  | - IsAgentSession occurs when from systemuser.msdyn_botapplicationid is null​. ​<br> - Session handle time is when msdyn_ocsession.msdyn_agentacceptedon isn't null then msdyn_sessionparticipant.msdyn_activetime else null​ ​<br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​ |
 
 ---
 
@@ -538,14 +538,14 @@ Consult requests rejected = SUMX (​FactSessionParticipant, IF (FactSessionPart
 |---------|---------|
 |Dataverse entities |  msdyn_sessionparticipant, systemuser  |
 |Attributes  | - msdyn_sessionparticipant.msdyn_leftonreason​ ​<br> - msdyn_sessionparticipant_msdyn_mode​ ​<br> - systemuser.msdyn_botapplicationid|
-|Filters  | - Conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentReject" and​ msdyn_sessionparticipant.msdyn_mode = 192350003​ <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid isn't null​. |
+|Filters  | - Conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentReject" and​ msdyn_sessionparticipant.msdyn_mode = 192350003​ <br> - Session participant is FactSessionParticipant where systemuser.msdyn_botapplicationid isn't null​. |
 
 ---
 
 ### Related metrics
 
-- **Session participant**: The list of participants within a single session. Each session includes at least one participant, who can be a service representative, AI agent, or IVR agent. Additional participants may be added in **Monitor** or **Consult** scenarios.
-- **Session participant count**: The total number of service representatives involved in assisting a customer. This includes the primary representative assigned to the session and any subject matter experts who were consulted. Use the SessionParticipationType dimension to analyze this metric and obtain more statistics.
+- **Session participant**: The list of participants within a single session. Each session includes at least one participant, who can be a service representative, AI agent, or IVR agent. More participants may be added in **Monitor** or **Consult** scenarios.
+- **Session participant count**: The total number of service representatives involved in assisting a customer, and includes the primary representative assigned to the session and any subject matter experts who were consulted. Use the SessionParticipationType dimension to analyze this metric and obtain more statistics.
 
 ## Related information
 
