@@ -384,7 +384,7 @@ Time to accept (seconds) is the average duration it takes for a representative t
 
 - Responsiveness of representatives
 - Potential delays in customer engagement
-- Optimize routing logic and representative availability
+- Effectiveness of routing logic and representative availability
 
 
 ### DAX query and Dataverse reference
