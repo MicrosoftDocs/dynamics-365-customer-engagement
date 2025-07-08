@@ -76,7 +76,8 @@ IF (FactSessionParticipant[LeftOnReason] ==
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Session rejection rate indicates the rate at which service representatives reject work that is assigned to them. It's calculated by dividing the total number of sessions that service representatives reject by the total number of sessions assigned to them. A rejected session occurs when a representative actively declines an incoming work item by selecting Reject on the notification, rather than allowing it to time out.
+Session rejection rate indicates the rate at which service representatives reject work that is assigned to them. 
+Session Rejection Rate =​ Number of sessions rejected by agents / Total number of sessions assigned to agents. A rejected session occurs when a representative actively declines an incoming work item by selecting Reject on the notification, rather than allowing it to time out.
 
 ### DAX query and Dataverse reference
 
@@ -277,7 +278,7 @@ Transferred sessions = ​SUMX ( FactSession, IF ( FactSession[IsTransferredOut]
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Session transfer rate is the percentage of customer sessions that are transferred from one representative, agent, or queue to another during an interaction. It's calculated by dividing the number of transferred sessions by the total number of incoming sessions and multiplying by 100. A session transfer can occur in the following scenarios:
+Session transfer rate is the percentage of customer sessions that are transferred from one representative, agent, or queue to another during an interaction. Session transfer rate = Number of transferred sessions / Total number of incoming sessions × 100. A session transfer can occur in the following scenarios:
 
 - A representative manually transfers a session to another representative or queue.
 - An agent escalates the session to a representative.
@@ -448,7 +449,7 @@ Average session handle time is the average duration a representative spends acti
 - Hold time: The time the customer spends on hold.
 - Wrap-up time: The time spent by the representative completing notes or follow-up tasks after the session ends.
 
-Average session handle time is calculated by dividing the total handle time across all sessions by the number of sessions handled. This metric is tracked per agent and per session, and can be aggregated across teams or time periods for reporting.
+Average Session Handle Time = Total handle time across sessions / Number of sessions handled​. This metric is tracked per agent and per session, and can be aggregated across teams or time periods for reporting.
 
 ### DAX query and Dataverse reference
 
