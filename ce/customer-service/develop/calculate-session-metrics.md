@@ -545,7 +545,7 @@ Consult requests rejected = SUMX (​FactSessionParticipant, IF (FactSessionPart
 ### Related metrics
 
 - **Session participant**: The list of participants within a single session. Each session includes at least one participant, who can be a service representative, agent, or IVR. Additional participants may be added in scenarios such as Monitor or Consult.
-- **Session participant count**: The total number of service representatives involved in assisting a customer. This includes the primary representative assigned to the session and any subject matter experts who were consulted. Use the SessionParticipationType dimension to analyze this metric and obtain more statistics.
+- **Session participant count**: The total number of service representatives involved in assisting a customer. This includes the primary representative assigned to the session and any subject matter experts who were consulted. Use the SessionParticipationType dimension to analyze this metric and obtain further information.
 
 ## Related information
 
