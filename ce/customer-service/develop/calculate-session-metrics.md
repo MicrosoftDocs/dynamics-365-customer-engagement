@@ -18,18 +18,18 @@ ms.custom: bap-template
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
-This article provides an overview of session metrics in Dynamics 365 Customer Service. Analyze key performance indicators (KPIs), make strategic decisions, track agent performance, and improve customer satisfaction by using these metrics.
+This article explains how to use session metrics to track agent performance, monitor key performance indicators (KPIs), and improve customer satisfaction in Dynamics 365 Customer Service.
 
-An omnichannel session, or msdyn_ocsession, is an entity in Microsoft Dynamics 365 that represents an interaction with a customer. This entity records various events or operations, such as assigning, associating, creating, and updating records. Each customer conversation can be divided into multiple sessions. The initial session is the first interaction, handled by either an agent or a representative. If an agent manages the first session and the conversation is escalated, a representative typically handles the next session.
+An omnichannel session (msdyn_ocsession) represents a customer interaction and captures events such as assigning, associating, creating, and updating records. A single conversation may include multiple sessions, starting with the initial interaction, typically handled by an agent, and followed by additional sessions if the conversation is escalated to another customer service representative (service representative or representative).
 
-This article also explains how to calculate key session metrics. By using Power BI reports and Dataverse calculations, you can gain actionable insights into customer service efficiency and enhance overall customer satisfaction.
+The following sections describes session metrics calculations using Power BI reports and Dataverse calculations, helping you gain actionable insights and optimize service operations.
 
 
 ## Sessions rejected
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Sessions rejected indicate the total count of sessions within a conversation that the service representative declines. 
+Sessions rejected indicates the total number of sessions within a conversation that the service representative declines. 
 
 ### DAX query and Dataverse reference
 
