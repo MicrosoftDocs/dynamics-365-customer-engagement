@@ -122,7 +122,7 @@ IF ( FactSession[SessionClosureReasonCode] == 192350001, 1, 0 ) ), SUMX (FactSes
 ### Related metrics
 
 - [Sessions rejected](#sessions-rejected): Indicates the total count of sessions within a conversation declined by the service representative.
-- **Session time to reject (sec)**: The average duration it takes for a service representative to reject an assigned work item. This metric captures the time between when a customer request is assigned and when the representative selects Reject.
+- **Session time to reject (sec)**: The average duration a service representative takes to reject an assigned work item. This metric measures the time between when a customer request is assigned to a representative and when the representative select **Reject** on the notification.
 
 ## Session timeout rate
 
