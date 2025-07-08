@@ -1,7 +1,7 @@
 ---
 title: Quickly schedule work orders and requirements
 description: Learn about quick scheduling with Dynamics 365 Field Service.
-ms.date: 11/26/2024
+ms.date: 07/02/2025
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
