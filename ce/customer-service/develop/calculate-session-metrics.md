@@ -124,6 +124,33 @@ IF ( FactSession[SessionClosureReasonCode] == 192350001, 1, 0 ) ), SUMX (FactSes
 - [Sessions rejected](#sessions-rejected): Indicates the total count of sessions within a conversation declined by the service representative.
 - **Session time to reject (sec)**: The average duration it takes for a service representative to reject an assigned work item. This metric captures the time between when a customer request is assigned and when the representative selects **Reject**.
 
+## Time to reject (sec)
+
+*Applies to Omnichannel real-time dashboards.*
+
+Time to reject (seconds) is the average time a representative takes to reject a session after it's assigned. It tracks the duration between the when the session is assigned and when the representative selects **Reject**, helping supervisors understand how quickly agents respond while declining work items.
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+**DAX query**
+
+```dax
+
+Session time to reject (sec) = SUM(FactSession[TimeToRejectInSeconds])
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |  [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_ocsession, systemuser  |
+|Attributes  | - msdyn_ocliveworkitem.statuscode​, <br> - msdyn_ocsession.msdyn_closurereason , <br> - systemuser.msdyn_botapplicationid, <br> -msdyn_ocsession.msdyn_agentassignedon |
+|Filters  | - IsAgentSession occurs when systemuser.msdyn_botapplicationid is null​. <br> - When msdyn_ocsession.msdyn_closurereason is set to 192350001 then use the date difference in secs between msdyn_ocsession.msdyn_agentassignedon, msdyn_ocsession.msdyn_sessionclosedon​ <br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. |
+
+---
+
+
 ## Sessions timeout
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
@@ -170,7 +197,6 @@ Sessions timedout = SUMX(FactSessionParticipant,​ IF ( FactSessionParticipant[
 |Filters  | - IsAgentSession occurs when systemuser.msdyn_botapplicationid is null​. <br> - msdyn_sessionparticipant.msdyn_leftonreason = "AgentTimeout"​.|
 
 ---
-
 
 
 
@@ -325,7 +351,7 @@ DIVIDE (SUMX ( FactSession, IF ( FactSession[IsTransferredOut], 1, 0 ) ),​ SUM
 
 *Applies to Omnichannel historical dashboards.*
 
-An incoming session is a new customer interaction—such as a chat, voice call, or SMS—that enters the system and is routed to an available representative or agent for handling.
+An incoming session is a new customer chat, voice call, or SMS interaction that is handles by an AI agent or routed to an available representative.
 
 It represents a work item created when a customer initiates contact through any supported channel (for example, live chat or voice). The session is then queued for assignment based on routing rules, agent availability, and skill matching.
 
@@ -348,31 +374,7 @@ Incoming conversations_FactSession = ​CALCULATE(DISTINCTCOUNTNOBLANK(FactSessi
 |Attributes | - msdyn_ocsessionparticipantevent.msdyn_eventtype​ <br> - msdyn_ocsessionparticipantevent.msdyn_eventreason​ ​ <br> - msdyn_ocsession.msdyn_sessionid​ ​ <br> - msdyn_ocsession.msdyn_closurereason ​​ <br> - systemuser.msdyn_botapplicationid  ​​ <br> - msdyn_ocliveworkitem.msdyn_isoutbound​ ​ <br> - msdyn_ocliveworkitem.msdyn_channel​ ​ <br> - msdyn_ocliveworkitem.msdyn_channelinstanceid |
 |Filters  |- Session is calculated based on msdyn_ocsession.msdyn_sessionid which needs to have atleast one AgentSession through systemuser.msdyn_botapplicationid  isn't null​. <br> - Exclude sessions from 'Entity Records' channel and SMS filter using msdyn_ocliveworkitem.msdyn_channel != '192350000' and​ msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL respectively​ <br> - Exclude in-transit record with msdyn_eventreason '192350001' and Hold event with msdyn_eventtype '192350001'​. <br> - Incoming session occurs when msdyn_ocliveworkitem.msdyn_isoutbound isn't set to 1​. |
 
-## Time to reject (sec)
 
-*Applies to Omnichannel real-time dashboards.*
-
-Time to reject (seconds) is the average time it takes for a representative to reject a session after it's assigned. It measures the interval between when a session is assigned and when the representative explicitly selects **Reject**. This metric helps supervisors understand how quickly agents respond to incoming work items, particularly when they choose not to handle them.
-
-### DAX query and Dataverse reference
-
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
-
-**DAX query**
-
-```dax
-
-Session time to reject (sec) = SUM(FactSession[TimeToRejectInSeconds])
-
-```
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities |  [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_ocsession, systemuser  |
-|Attributes  | - msdyn_ocliveworkitem.statuscode​, <br> - msdyn_ocsession.msdyn_closurereason , <br> - systemuser.msdyn_botapplicationid, <br> -msdyn_ocsession.msdyn_agentassignedon |
-|Filters  | - IsAgentSession occurs when systemuser.msdyn_botapplicationid is null​. <br> - When msdyn_ocsession.msdyn_closurereason is set to 192350001 then use the date difference in secs between msdyn_ocsession.msdyn_agentassignedon, msdyn_ocsession.msdyn_sessionclosedon​ <br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. |
-
----
 
 ## Session time to accept (sec)
 
