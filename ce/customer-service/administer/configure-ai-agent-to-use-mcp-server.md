@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.date: 07/02/2025
+ms.date: 07/08/2025
 ms.custom:
   - bap-template 
 
@@ -28,7 +28,7 @@ You can use Microsoft Copilot Studio to build custom agents for service teams th
 - System administrator or Omnichannel Administrator role.
 - D365 Service MCP server is configured and appears in Copilot Studio tools list. Learn more in [Microsoft MCP connectors available in Copilot Studio](/microsoft-copilot-studio/agent-extend-action-mcp#microsoft-mcp-connectors-available-in-copilot-studio).
 - The MCP server in Claude is set up for Customer Service. Learn more in [Configure and use the Dataverse MCP server in Claude](/power-apps/maker/data-platform/data-platform-mcp#configure-and-use-the-dataverse-mcp-server-in-claude).
-    - Make sure that you update the JSON for the MCP server in Claude to provide the connection details of the MCP server for Dynamics 365 Customer Service. Learn more in [Update the JSON file for the MCP server in Claude](/power-apps/maker/data-platform/data-platform-mcp#configure-dataverse-mcp-server-in-claude-desktop).
+    - Make sure that you update the JSON for the MCP server in Claude to provide the connection details of the MCP server for Dynamics 365 Customer Service.
     - A sample JSON format is as follows.
       Use a &lt;friendly name&gt; for your Customer Service MCP server that you can easily remember, for example: *MyServiceMCPServer*. 
 
