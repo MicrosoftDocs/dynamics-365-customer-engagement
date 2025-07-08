@@ -17,62 +17,21 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-This article provides an overview of conversation metrics available in Dynamics 365 Customer Service, that help you analyze key performance indicators (KPIs) to make strategic decisions, track customer service representative (service representative or representative) and AI agent performance, and improve customer satisfaction.
 
-It also provides detailed guidance on calculating key conversation metrics. By using Power BI reports and Dataverse calculations, you can gain valuable insights into customer service efficiency and improve overall customer satisfaction. [Understand the conversation workflow](../use/overview-analytics-data-model.md#understand-the-conversation-workflow) to effectively utilize these metrics and improve customer service operations and decision-making. 
+This article provides an overview of session metrics available in Dynamics 365 Customer Service, that help you analyze key performance indicators (KPIs) to make strategic decisions, track customer service representative (service representative or representative) and agent performance, and improve customer satisfaction.
+
+An omnichannel session, or msdyn_ocsession, is an entity in Microsoft Dynamics 365 that represents an interaction with a customer. This entity records various events or operations, such as assigning, associating, creating, and updating records. Each customer conversation can be divided into multiple sessions. The initial session is the first interaction, handled by either an agent or a representative. If the first session is managed by an agent and the conversation is escalated, the subsequent session is typically handled by a representative.
+
+This article also explains how to calculate key session metrics. By using Power BI reports and Dataverse calculations, you can gain actionable insights into customer service efficiency and enhance overall customer satisfaction.
 
 Learn more about [Calculate conversation metrics](calculate-conversation-metrics.md#calculate-conversation-metrics) and [Service representative metrics](../use/service-rep-metrics.md#service-representative-metrics).
 
-## Session
-
-*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
-
-An omnichannel session, or msdyn_ocsession, is a table or entity in Microsoft Dynamics 365 that represents a session with a customer. This table includes various messages that represent operations or events that can be performed on the table, such as assigning, associating, creating, and updating records. Each conversation with the customer is split into multiple sessions. The first session is the first interaction with the customer, and answered by the either the agent or the representative. If the agent is the first session, and the conversation is escalated, the second session is usually with a human agent. 
-
-### DAX query and Dataverse reference
-
-The following Data Analysis Expression (DAX) query and the corresponding Dataverse entities are used in the Power BI semantic model. Learn more in [DAX queries](/dax/dax-queries). 
-
-### [Historical analytics](#tab/historicalpage)
-
-**DAX query**
-
-```dax
-
-Info
-
-```
-
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities |Need info |
-|Attributes | Need info|
-|Filters  |Need info |
-
-### [Real-time analytics](#tab/realtimepage)
-
-**DAX query**
-
-```dax
-
-Need info
-
-```
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities |  Need info  |
-|Attributes  |    Need info    |
-|Filters  | Need info|
-
----
 
 ## Sessions rejected
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Indicates the total count of sessions within a conversation declined by the service representative. 
+Sessions rejected indicate the total count of sessions within a conversation that are declined by the service representative. 
 
 ### DAX query and Dataverse reference
 
@@ -119,8 +78,7 @@ IF (FactSessionParticipant[LeftOnReason] ==
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Session rejection rate indicates the rate at which service representatives reject work that is assigned to them. It's calculated by dividing the total number of sessions that service representatives rejected by the total number of sessions assigned to them. A rejected session is one where the representative declines the
-incoming work item ​by selecting Reject on a notification, as opposed to letting it time out.
+Session rejection rate indicates the rate at which service representatives reject work that is assigned to them. It's calculated by dividing the total number of sessions that service representatives reject by the total number of sessions assigned to them. A rejected session occurs when a representative actively declines an incoming work item by selecting Reject on the notification, rather than allowing it to time out.
 
 ### DAX query and Dataverse reference
 
@@ -156,7 +114,7 @@ IF ( FactSession[SessionClosureReasonCode] == 192350001, 1, 0 ) ), SUMX (FactSes
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities |  msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_ocsession, systemuser  |
+|Dataverse entities |  [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_ocsession, systemuser  |
 |Attributes  | - msdyn_ocliveworkitem.statuscode​, <br> - msdyn_ocsession.msdyn_state​, <br> - msdyn_ocsession.msdyn_closurereason, <br> - systemuser.msdyn_botapplicationid     |
 |Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​. <br> - Agent Rejected session is obtained by msdyn_ocsession.msdyn_closurereason set to 192350001​ <br> - Agent Rejected session is obtained by msdyn_ocsession.msdyn_state set to 192350002​ <br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. ​|
 
@@ -164,14 +122,14 @@ IF ( FactSession[SessionClosureReasonCode] == 192350001, 1, 0 ) ), SUMX (FactSes
 
 ### Related metrics
 
-- **Rejected sessions**: The total number of sessions that the service representative declined.
-- **Session time to reject**: The average time that service representatives take to reject work that is assigned to them. This metric measures the time from when a customer request is assigned to a service representative until the service representative rejects the request.
+- [Sessions rejected](#sessions-rejected): Indicates the total count of sessions within a conversation declined by the service representative.
+- **Session time to reject (sec)**: The average duration it takes for a service representative to reject an assigned work item. This metric captures the time between when a customer request is assigned and when the representative selects Reject.
 
 ## Session timeout rate
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Session timeout rate is the percentage of sessions that expire due to agent inactivity, which means that the representative neither ​accepted nor rejected the session request.​ It's calculated as the number of timed-out sessions divided by the total assigned sessions mulitplied by 100.
+Session timeout rate represents the percentage of sessions that expire because the representative didn't accept or reject the session request. It's calculated by dividing the number of timed-out sessions by the total number of assigned sessions, then multiplying by 100.
 
 ### DAX query and Dataverse reference
 
@@ -213,13 +171,13 @@ Session timeout rate = ​ DIVIDE (SUMX (FactSession, IF ( FactSession[SessionCl
 
 ### Related metric
 
-- **Timeout sessions**: The total number of times that service representatives didn't respond to the work that was assigned to them.
+- [Sessions timeout](#sessions-timeout): Sessions timeout refers to customer sessions that are neither accepted nor rejected by a representative within a specified time window, resulting in the system automatically expiring or closing the session.
 
 ## Sessions timeout
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Sessions timeout in refers to the customer sessions that aren't accepted or rejected by a representative within a defined time window, causing the system to automatically expire or close the session.
+Sessions timeout refers to customer sessions that are neither accepted nor rejected by a representative within a specified time window, resulting in the system automatically expiring or closing the session.
 
 ### DAX query and Dataverse reference
 
@@ -263,70 +221,19 @@ Sessions timedout = SUMX(FactSessionParticipant,​ IF ( FactSessionParticipant[
 
 ---
 
-## Average session wait time 
-
-*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
-
-Need definition
-
-### DAX query and Dataverse reference
-
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
-
-### [Historical analytics](#tab/historicalpage)
-
-**DAX query**
-
-```dax
-
-Avg. wait time (sec)_FactSession = CALCULATE(AVERAGE(FactSession[WaitTime]))
-
-```
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | 
-|Attributes | |
-|Filters  | All Conversations where, Exclude in-transit record with msdyn_eventreason '192350001' and Hold event with msdyn_eventtype '192350001'​ <br> - Exclude sessions from 'Entity Records' channel and SMS filter​ <br> - Case when ClosedOnDateTime is null then null else Timestampdiff(Second,msdyn_ocsession.msdyn_sessioncreatedon, Coalesce(msdyn_ocsession.msdyn_agentacceptedon,​ msdyn_ocsession.msdyn_sessionclosedon which is !=null)​
-
-### [Real-time analytics](#tab/realtimepage)
-
-**DAX query**
-
-```dax
-
-The following data is yet to be reviewed
-
-Session wait time (sec) = SUM(FactSession[SessionWaitTimeInSeconds])
-
-```
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities |  systemuser, msdyn_sessionparticipant  |
-|Attributes  | - msdyn_sessionparticipant.msdyn_leftonreason​, <br> - systemuser.msdyn_botapplicationid      |
-|Filters  | - All Conversations where​ systemuser.msdyn_botapplicationid IS NULL AND msdyn_ocliveworkitem.statuscode IN
-(1,2,3,4,5,6,7)​ Date difference in second (msdyn_ocsession.msdyn_sessioncreatedon, Coalesce(msdyn_ocsession.msdyn_agent
-acceptedon or msdyn_ocsession.msdyn_sessionclosedon which is !=null)|
-
----
-
-
 
 
 ## Transferred sessions
 
 *Applies to Omnichannel real-time and historical dashboard.*
 
-Transferred sessions refer to customer interactions such as chats, voice calls, or messaging sessions that are​ handed off from one representative, agent, or queue to another during the course of the engagement.​ A session transfer can occur in several ways:​
+Transferred sessions are customer interactions—such as chats, voice calls, or messaging sessions—that are handed off from one representative, agent, or queue to another during the engagement. Transfers can occur in several ways:
 
-- Representative-to-representative transfer: A representative manually transfers a session to another representative, often due to skill mismatch or for workload balancing.​
+- Representative-to-representative: A representative manually transfers a session to another representative, often due to skill mismatch or workload balancing.
+- Representative-to-queue: The session is routed to a different queue for reassignment, typically for escalation or specialized support.
+- Agent-to-representative: An agent escalates the session to a representative, either at the customer’s request or due to business rules (such as maximum retries or unsupported intent).
+- External transfers: In some setups, sessions can be transferred to external phone numbers or contact centers (for example, via SIP routing), depending on system configuration.
 
-- Representative-to-Queue transfer: The session is routed to a different queue for reassignment, typically when escalation or specialized support is needed.​
-
-- Agent-to-representative transfer: An agent escalates the session to a representative, either because the user requested it or due to a business rule (for example, maximum retries or unsupported intent).​
-
-- External transfers: In some configurations, sessions can be transferred to external phone numbers or contact centers (for example, via SIP routing). However, this depends on the system setup​.
 ​
 ### DAX query and Dataverse reference
 
@@ -373,14 +280,11 @@ Transferred sessions = ​SUMX ( FactSession, IF ( FactSession[IsTransferredOut]
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Session transfer rate refers to the percentage of customer sessions that are ​transferred from one representative or queue to another during the course of handling an interaction​. It's calculated as the number of transferred sessions divided by the total number of incoming sessions, mulitplied by 100. A transferred session can occur when:​
+Session transfer rate is the percentage of customer sessions that are transferred from one representative, agent, or queue to another during an interaction. It is calculated by dividing the number of transferred sessions by the total number of incoming sessions and multiplying by 100. A session transfer can occur in the following scenarios:
 
-- A representative manually transfers a session to another representative or queue.​
-
-- An agent escalates the session to a representative.​
-
+- A representative manually transfers a session to another representative or queue.
+- An agent escalates the session to a representative.
 - The system reroutes the session due to skill mismatch or availability constraints.
-
 
 ### DAX query and Dataverse reference
 
@@ -425,9 +329,9 @@ DIVIDE (SUMX ( FactSession, IF ( FactSession[IsTransferredOut], 1, 0 ) ),​ SUM
 
 *Applies to Omnichannel historical dashboards.*
 
-An incoming session refers to a new customer interaction, such as a chat, voice call, SMS that comes to the system and is routed to an available representative or agent for handling.​
+An incoming session is a new customer interaction—such as a chat, voice call, or SMS—that enters the system and is routed to an available representative or agent for handling.
 
-It's essentially a work item that represents a customer's request for support. It's created when a customer initiates contact through any supported channel (for example, live chat, voice, etc.) and is queued for assignment based on routing rules, agent availability, and skill matching.
+It represents a work item created when a customer initiates contact through any supported channel (for example, live chat or voice). The session is then queued for assignment based on routing rules, agent availability, and skill matching.
 
 
 ### DAX query and Dataverse reference
@@ -452,9 +356,7 @@ Incoming conversations_FactSession = ​CALCULATE(DISTINCTCOUNTNOBLANK(FactSessi
 
 *Applies to Omnichannel real-time dashboards.*
 
-Time to reject (seconds) refers to the average duration a representative takes to reject a session after it has been
-assigned to them. It's the time interval between when a session is assigned to a representative and when the representative
-explicitly selects Reject. This metric is part of the broader session lifecycle analytics, helping supervisors understand how quickly agents respond to incoming work items, especially when they choose not to handle them.
+Time to reject (seconds) is the average time it takes for a representative to reject a session after it has been assigned. It measures the interval between when a session is assigned and when the representative explicitly selects Reject. This metric helps supervisors understand how quickly agents respond to incoming work items, particularly when they choose not to handle them.
 
 ### DAX query and Dataverse reference
 
@@ -480,12 +382,10 @@ Session time to reject (sec) = SUM(FactSession[TimeToRejectInSeconds])
 
 *Applies to Omnichannel real-time dashboards.*
 
-Time to Accept (seconds) refers to the average time it takes for a representative to​ accept a session, such as a chat, voice call, or a messaging request after it has been routed to them.​ Tracking time to accept helps supervisors and operations teams:​ 
+Time to accept (seconds) is the average duration it takes for a representative to accept a session—such as a chat, voice call, or messaging request—after it has been routed to them. Tracking this metric helps supervisors and operations teams:
 
-- Evaluate representative responsiveness​
-
-- Identify potential delays in customer engagement​
-
+- Evaluate how responsive representatives are
+- Identify potential delays in customer engagement
 - Optimize routing logic and representative availability
 
 
@@ -514,12 +414,10 @@ SUM(FactSession[TimeToAcceptInSeconds])
 
 *Applies to Omnichannel real-time dashboards.*
 
-Session handle time refers to the total duration a representative actively ​engages with a customer session, including the time spent during the live ​interaction and any follow-up or wrap-up activities.​ This metric is tracked per session and can be aggregated across conversations or representative for performance analysis. This metric is a KPI used to:​
+Session handle time is the total time a representative spends actively engaging with a customer session. This includes the duration of the live interaction as well as any follow-up or wrap-up activities. The metric is tracked for each session and can be aggregated across conversations or representatives for performance analysis. It serves as a KPI to:
 
-- Measure agent productivity and workload​
-
-- Identify inefficiencies in handling customer interactions​
-
+- Measure agent productivity and workload
+- Identify inefficiencies in handling customer interactions
 - Benchmark service levels across channels (chat, voice, messaging)
 
 
@@ -547,18 +445,13 @@ Session handle time (sec) = SUM(FactSession[AgentHandlingTimeInSeconds])
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Average session handle time refers to the average amount of time a representative spends actively handling a single
-session, such as a chat, voice call, or messaging interaction with a customer. Average session handle time includes:​
+Average session handle time is the average duration a representative spends actively managing a single session, such as a chat, voice call, or messaging interaction with a customer. This metric includes:
 
-- Active session time: The duration when the representative is directly engaged with the customer (for example, chat or voice).​
+- Active session time: The period when the representative is directly engaged with the customer (for example, during a chat or voice call).
+- Hold time: The time the customer spends on hold.
+- Wrap-up time: The time spent by the representative completing notes or follow-up tasks after the session ends.
 
-- Hold time: The duration when the customer is placed on hold.​
-
-- Wrap-up time: The duration spent completing notes or follow-up tasks after the session ends.​
-
-It is calculated as the total handle time across sessions divided by the number of sessions handled​. This metric is tracked per agent and per session, and can be aggregated across teams or time periods for reporting.
-
-
+Average session handle time is calculated by dividing the total handle time across all sessions by the number of sessions handled. This metric is tracked per agent and per session, and can be aggregated across teams or time periods for reporting.
 
 ### DAX query and Dataverse reference
 
@@ -600,13 +493,14 @@ Avg. session handle time (sec) = AVERAGE(FactSession[AgentHandlingTimeInSeconds]
 
 ### Related metric
 
-- **Session handle time**: The time that service representatives spend helping customers on assigned customer requests.
+- [Session handle time](#session-handle-time): Session handle time refers to the total duration a representative actively engages with a customer session, including the time spent during the live interaction and any follow-up or wrap-up activities. 
 
 ## Session participant consult rejection count
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Session participant consult rejection count refers to the number of consult​ sessions explicitly rejected by representatives after being requested by another representative during a customer interaction. This metric is tracked at the session participant level, and reflects individual representative responses to consult requests, and not the overall session outcome.
+Session participant consult rejection count refers to the number of consult sessions that representatives explicitly reject after being requested by another representative during a customer interaction. This metric is tracked at the session participant level and reflects individual representative responses to consult requests, rather than the overall session outcome.
+
 
 ### DAX query and Dataverse reference
 
@@ -652,8 +546,8 @@ Consult requests rejected = SUMX (​FactSessionParticipant, IF (FactSessionPart
 
 ### Related metrics
 
-- **Session participant**: The list of participants within a single session. A session contains at least one session participant; participant can be a service representative, agent, or IVR. Additional participants can be added to the same session in scenarios like Monitor or Consult.
-- **Session participant count**: The total number of service representatives who were involved in helping a customer. Includes the primary service representative assigned to work on the session and any subject matter experts who were consulted. You can use the SessionParticipationType dimension to analyze this metric and get further statistics.
+- **Session participant**: The list of participants within a single session. Each session includes at least one participant, who can be a service representative, agent, or IVR. Additional participants may be added in scenarios such as Monitor or Consult.
+- **Session participant count**: The total number of service representatives involved in assisting a customer. This includes the primary representative assigned to the session as well as any subject matter experts who were consulted. Use the SessionParticipationType dimension to analyze this metric and obtain additional statistics.
 
 ## Related information
 
