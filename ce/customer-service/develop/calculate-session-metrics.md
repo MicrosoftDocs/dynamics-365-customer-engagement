@@ -124,54 +124,6 @@ IF ( FactSession[SessionClosureReasonCode] == 192350001, 1, 0 ) ), SUMX (FactSes
 - [Sessions rejected](#sessions-rejected): Indicates the total count of sessions within a conversation declined by the service representative.
 - **Session time to reject (sec)**: The average duration it takes for a service representative to reject an assigned work item. This metric captures the time between when a customer request is assigned and when the representative selects **Reject**.
 
-## Session timeout rate
-
-*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
-
-Session timeout rate represents the percentage of sessions that expire because the representative didn't accept or reject the session request. Session Timeout Rate (%) = (Number of timed-out sessions/Total assigned sessions) × 100
-
-### DAX query and Dataverse reference
-
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
-
-### [Historical analytics](#tab/historicalpage)
-
-**DAX query**
-
-```dax
-
-Session timeout rate = ​DIVIDE(IF ([Sessions timed out] = BLANK (),0, [Sessions timed out]), [Incoming sessions_FactSession], BLANK())
-
-```
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | msdyn_ocsession, systemuser, msdyn_ocsessionparticipantevent |
-|Attributes |- msdyn_ocsessionparticipantevent.msdyn_eventtype​, <br> - msdyn_ocsessionparticipantevent.msdyn_eventreason​, <br> - msdyn_ocsession.msdyn_sessionid​,  <br> - msdyn_ocsession.msdyn_closurereason, <br> - systemuser.msdyn_botapplicationid   |
-|Filters  | - Session is calculated based on msdyn_ocsession.msdyn_sessionid​. <br> - Exclude sessions from 'Entity Records' channel and SMS filter using msdyn_ocliveworkitem.msdyn_channel != '192350000' and​ msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL respectively​ <br> - Exclude in-transit record with msdyn_eventreason '192350001' and Hold event with msdyn_eventtype '192350001.' <br> - IsAgentSession is obtained from systemuser.msdyn_botapplicationid  isn't null​ <br> - Agent Rejected session occurs when msdyn_ocsession.msdyn_closurereason is set to 192350002​ |
-
-### [Real-time analytics](#tab/realtimepage)
-
-**DAX query**
-
-```dax
-
-Session timeout rate = ​ DIVIDE (SUMX (FactSession, IF ( FactSession[SessionClosureReasonCode] == 192350002, 1, 0 ) ), SUMX ( FactSession,IF (FactSession[SessionStateCode] == 192350002, 1, BLANK () ) ),BLANK ())
-
-```
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities |systemuser, msdyn_sessionparticipant   |
-|Attributes  | - msdyn_sessionparticipant.msdyn_leftonreason​, <br> - systemuser.msdyn_botapplicationid |
-|Filters  | - IsAgentSession occurs when systemuser.msdyn_botapplicationid is null​. <br> - msdyn_sessionparticipant.msdyn_leftonreason = "AgentTimeout"​|
-
----
-
-### Related metric
-
-- [Sessions timeout](#sessions-timeout): A session times out when a representative doesn't accept or reject a customer session within a set time. The system then automatically closes the session.
-
 ## Sessions timeout
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
@@ -219,6 +171,56 @@ Sessions timedout = SUMX(FactSessionParticipant,​ IF ( FactSessionParticipant[
 
 ---
 
+
+
+
+## Session timeout rate
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+Session timeout rate represents the rate at which [sessions timeout](#sessions-timeout). Session Timeout Rate (%) = (Number of timed-out sessions/Total assigned sessions) × 100.
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+Session timeout rate = ​DIVIDE(IF ([Sessions timed out] = BLANK (),0, [Sessions timed out]), [Incoming sessions_FactSession], BLANK())
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | msdyn_ocsession, systemuser, msdyn_ocsessionparticipantevent |
+|Attributes |- msdyn_ocsessionparticipantevent.msdyn_eventtype​, <br> - msdyn_ocsessionparticipantevent.msdyn_eventreason​, <br> - msdyn_ocsession.msdyn_sessionid​,  <br> - msdyn_ocsession.msdyn_closurereason, <br> - systemuser.msdyn_botapplicationid   |
+|Filters  | - Session is calculated based on msdyn_ocsession.msdyn_sessionid​. <br> - Exclude sessions from 'Entity Records' channel and SMS filter using msdyn_ocliveworkitem.msdyn_channel != '192350000' and​ msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL respectively​ <br> - Exclude in-transit record with msdyn_eventreason '192350001' and Hold event with msdyn_eventtype '192350001.' <br> - IsAgentSession is obtained from systemuser.msdyn_botapplicationid  isn't null​ <br> - Agent Timeout session occurs when msdyn_ocsession.msdyn_closurereason is set to 192350002​ |
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Session timeout rate = ​ DIVIDE (SUMX (FactSession, IF ( FactSession[SessionClosureReasonCode] == 192350002, 1, 0 ) ), SUMX ( FactSession,IF (FactSession[SessionStateCode] == 192350002, 1, BLANK () ) ),BLANK ())
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |systemuser, msdyn_sessionparticipant   |
+|Attributes  | - msdyn_sessionparticipant.msdyn_leftonreason​, <br> - systemuser.msdyn_botapplicationid |
+|Filters  | - IsAgentSession occurs when systemuser.msdyn_botapplicationid is null​. <br> - msdyn_sessionparticipant.msdyn_leftonreason = "AgentTimeout"​|
+
+---
+
+### Related metric
+
+- [Sessions timeout](#sessions-timeout): A session times out when a representative doesn't accept or reject a customer session within a set time. The system then automatically closes the session.
 
 
 ## Transferred sessions
@@ -278,11 +280,7 @@ Transferred sessions = ​SUMX ( FactSession, IF ( FactSession[IsTransferredOut]
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Session transfer rate is the percentage of customer sessions that are transferred from one representative, agent, or queue to another during an interaction. Session transfer rate = Number of transferred sessions / Total number of incoming sessions × 100. A session transfer can occur in the following scenarios:
-
-- A representative manually transfers a session to another representative or queue.
-- An agent escalates the session to a representative.
-- The system reroutes the session due to skill mismatch or availability constraints.
+Session transfer rate is the percentage of customer sessions that are [transferred](#transferred-sessions). Session transfer rate = Number of transferred sessions / Total number of incoming sessions × 100. A session transfer can occur in the following scenarios:
 
 ### DAX query and Dataverse reference
 
