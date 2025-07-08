@@ -1,7 +1,7 @@
 ---
 title: Frequently asked questions about unified routing
 description: Learn about the frequently asked questions (FAQs) for unified routing.
-ms.date: 04/28/2025
+ms.date: 07/04/2025
 ms.topic: faq
 author: neeranelli
 ms.author: nenellim
@@ -71,6 +71,10 @@ A case remains with the service representative that it was initially assigned to
 ### How are unassigned work items in a queue handled if no matching representative is found?
 
 The unassigned work item remains in the queue until you manually assign it to a representative or route it to another queue. Learn more in [How assignment rulesets work](assignment-methods.md#how-assignment-rulesets-work).
+
+### What happens when a conversation is assigned to a queue that doesn't have any representatives?
+
+The conversation is closed automatically by the system. Records, such as cases, remain in the queue and aren't auto assigned.
 
 ### Can advanced queues be associated with a mailbox?
 

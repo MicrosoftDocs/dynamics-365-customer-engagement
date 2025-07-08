@@ -20,12 +20,14 @@ Booking alerts are often created through automation - either a flow, plugin or t
 
 1. Select **Save & Close**.
 
-You can edit the fields inside a booking alert by editing the **Booking Alert Template** in the schedule board tab settings. For more information, see [schedule board tab settings](/dynamics365/field-service/schedule-board-tab-settings#other-settings).
+You can edit the fields inside a booking alert by editing the **Booking Alert Template** in the schedule board tab settings. Learn more in [schedule board tab settings](/dynamics365/field-service/schedule-board-tab-settings#booking-alerts-template).
+
+When you create a booking alert, the system automatically creates one *Booking Alert Status* record for every assignee so every user can snooze or dismiss alerts individually. When deleting records, remember the relationship *Booking > Booking Alert > Booking Alert Status*.
 
 ## View the booking alert
 
-When the due date is reached, the alert appears on the **Booking Alerts** side pane on the schedule board. Assignees can view or snooze the active alert. Assignees can set the snooze time. Assignees can dismiss all alerts.
+When the due date is reached, the alert appears on the **Booking Alerts** side pane on the schedule board. Assignees can view or snooze the active alert. Assignees can set the snooze time and dismiss all alerts.
+
+:::image type="content" source="../../field-service/media/view-booking-alert.png" alt-text="Screenshot showing the Booking Alerts pane on the schedule board.":::
 
 Alerts for **Bookable Resource Bookings** also show in the schedule board alongside a booking time slot.
-
-When you create a booking alert, the system automatically creates one *Booking Alert Status* record for every assignee so every user can snooze or dismiss alerts individually. When deleting records, keep the relationship *Booking > Booking Alert > Booking Alert Status* in mind.

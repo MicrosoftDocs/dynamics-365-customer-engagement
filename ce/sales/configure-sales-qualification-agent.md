@@ -1,7 +1,7 @@
 ---
 title: Set up the Sales Qualification Agent
 description: Learn how to activate and set up the Sales Qualification Agent in Dynamics 365 Sales to help your sellers use AI for effective lead qualification.
-ms.date: 06/19/2025
+ms.date: 07/03/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -81,10 +81,10 @@ Grant **User**-level permissions for *read*, *write*, *create*, *append*, *appen
    | Field | Input | Example input |
    |---|---|---|
    | Team access | Select the [seller security role](#grant-permissions) that you created or identified earlier. Also select the system administrator role if the admin needs to view the agent's insights. | ContosoSalesTeam, System Administrator |
-   | Company knowledge | Enter your company's name and website URL. | Contoso Ltd.; `https://www.contoso.com` |
+   | Company info | Enter your company's name and website URL. | Contoso Ltd.; `https://www.contoso.com` |
    | Value proposition of your offering | Describe the products or product line that the sellers in the **Team access** list handle, in natural language. | A cloud-based CRM solution that helps businesses streamline sales processes, improve customer relationships, and drive revenue growth. Our platform includes features such as lead management, opportunity tracking, email integration, and analytics. |
 
-1. In the **Data** section, **Refresh options** is set to **Medium** by default, which is ideal for most businesses. You can refresh the research data more or less often based on your business needs and available capacity.
+1. In the **General** section, **Refresh frequency** is set to **Medium** by default, which is ideal for most businesses. You can refresh the research data more or less often based on your business needs and available capacity.
 
    - **High:** Data is refreshed every day. This option is ideal for businesses that always need the latest information, but it consumes more capacity.
    - **Medium:** Data is refreshed every three days. This option is suitable for businesses that need regular updates but don't require daily insights. It balances performance and data accuracy.
@@ -110,7 +110,7 @@ Grant **User**-level permissions for *read*, *write*, *create*, *append*, *appen
 
 1. Select **Activate**.
 
-The status changes to **Active**. The agent starts processing the last 100 leads, starting with the most recently created ones.
+The status changes to **Active**. The agent starts processing the last 100 leads, starting with the most recently created ones. You can now test the agent to ensure it's working as expected. Learn more in [Test the Sales Qualification Agent](test-sales-qualification-agent.md).
 
 The agent uses the capacity assigned to your tenant to process leads and generate insights. If you don't have enough capacity to activate it, a banner appears at the top of the page. Select the Power Platform admin center link in the banner to add more capacity, or save the agent settings and come back later to activate it.
 

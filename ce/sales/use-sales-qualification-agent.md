@@ -1,7 +1,7 @@
 ---
 title: Qualify leads with the Sales Qualification Agent
 description: Learn how to use the Sales Qualification Agent in Dynamics 365 Sales to qualify leads more effectively and improve sales outcomes.
-ms.date: 05/20/2025
+ms.date: 07/03/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -53,39 +53,23 @@ The agent refreshes research data either daily, every three days, or weekly. You
    - **Review email** opens a draft outreach email that the agent generated for you based on its insights. It's ready for you to send, but you should review it and make any needed changes before you send it. [Why don't I see the **Review email** or **Draft email** option?](sales-qualification-agent-faq.md#cant-see-email-options) in the Sales Qualification Agent FAQ.
 
    - **More insights** opens the [**Lead insights** page](#lead-insights-page), which offers a 360-degree view of the lead and includes the date the agent last updated its research data.  
-     :::image type="content" source="media/lead-insights-page.png" alt-text="Screenshot of the Lead insights page showing the Sales Qualification Agent's insights about a lead.":::
+     :::image type="content" source="media/lead-insights-page-annotated.png" alt-text="Screenshot of the Lead insights page showing the Sales Qualification Agent's insights about a lead with annotations.":::
+    The next section describes each annotated segment in the screenshot.
 
 ### Lead insights page
 
 The **Lead insights** page includes the following information.
 
-- **Key insights**: This section summarizes key insights about the lead, including why it is or isn't a good fit for your business based on the ideal customer profile.
 
-  To review the outreach email that the agent generated for you, select **Draft email**. It's ready for you to send, but you should review it and make any needed changes before you send it. Learn more in [Why don't I see the **Review email** or **Draft email** option?](sales-qualification-agent-faq.md#cant-see-email-options) in the Sales Qualification Agent FAQ.
-
-  If your company uses Dynamics 365 Customer Insights - Journeys, key insights also include recent marketing activities, such as email opens, link clicks, event registrations and attendance, and form submissions.
-
-- **Email validation**: The agent performs two checks on a lead's primary email address: whether it's a valid address and whether it's a work or personal address. These checks help make sure that the lead's email address is active, deliverable, and relevant for business communications.
-
-  - **Email validity**: The agent looks for [email validation errors](work-invalid-email-addresses.md) to make sure that the address is properly formatted and deliverable. If the email address is invalid, the agent prompts you to enter a valid address.
-  - **Email type**: The agent determines whether the address is a work or personal email address and labels it in the interface.
-
-  To mark the address as valid or invalid and work or personal, you can select the email icon next to the address.  
-  :::image type="content" source="media/email-validation-sqa.png" alt-text="Screenshot of the email validity and type.":::
-
-- **About lead**: This section includes a summary of key fields, opportunities that are open with the lead, and your colleagues who interacted with the lead in emails or meetings.
-
-  You can also view contact suggestions for the lead based on the lead's email address. To manually connect a contact record to the lead to enrich the agent's insights, select **Connect a contact record**.
-
-- **About account**: This section includes a summary of key details about the account based on insights that the agent pulls from the web.
-
-  - **Business overview**: Insights on the company's industry, size, products and services, and mission statement.
-
-  - **Finances**: Insights on the company's financial health and key financial metrics.
-
-  - **Account news**: Insights from relevant news articles, such as product launches, leadership changes, contracts or clients won, community involvement, awards, and recognition.
-
-   If an account record is connected to the lead, you can also view other contacts at the account that you can reach out to, and opportunities that are open with the account. To manually connect an account record to the lead, select **Connect an account**.
+| Number on the screenshot | Section                        | Description |
+|--------|--------------------------------|---------------|
+| 1 | Header: Connected accounts and contacts | Select the link icon next to the lead's name to view the accounts and contacts that are connected to the lead. If the lead isn't connected to any account or contact, the agent automatically connects to the most relevant account and contact records based on the lead's email address, domain, and company name. If the connected records aren't accurate, select **Disconnect** to remove the connection and then connect the lead to a different account or contact. <br> Note: Once you manually connect a record, the agent uses that connection for future research. |
+| 2 | Header: Email validation | The agent performs checks on a lead's primary email address to ensure it is active, deliverable, and relevant for business communications. Checks include: **Email validity** (properly formatted and deliverable; prompts for correction if invalid) and **Email type** (work or personal, labeled in the interface). You can mark the address as valid/invalid and work/personal by selecting the email icon. |
+| 3 | Key insights | Summarizes key insights about the lead, including why it is or isn't a good fit for your business based on the ideal customer profile. To review the outreach email the agent generated, select **Draft email**. Review and edit as needed before sending. If your company uses Dynamics 365 Customer Insights - Journeys, key insights also include recent marketing activities such as email opens, link clicks, event registrations and attendance, and form submissions. |
+| 4 | Who can make an introduction | Lists people who can introduce you to the lead, including mutual connections and colleagues who interacted with the lead in emails or meetings. |
+| 5 | Business overview | Provides insights on the company's industry, size, products and services, and mission statement. |
+| 6 | Finances | Offers insights on the company's financial health and key financial metrics. |
+| 7 | Account news | Shares insights from relevant news articles, such as product launches, leadership changes, contracts or clients won, community involvement, awards, and recognition.  
 
 These insights about your leads seamlessly bridge the gap between marketing engagement data and sales, saving you&mdash;and your company&mdash;significant time and costs. You can focus on the most valuable opportunities faster and drive more personalized outreach and engagement.
 

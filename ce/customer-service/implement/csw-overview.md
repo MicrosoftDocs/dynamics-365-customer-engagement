@@ -1,7 +1,7 @@
 ---
 title: Overview of the Copilot Service workspace application for Dynamics 365 Customer Service
 description: Overview of Copilot Service workspace for Dynamics 365 Customer Service.
-ms.date: 05/05/2025
+ms.date: 06/30/2025
 ms.topic: overview
 author: gandhamm
 ms.author: mgandham
@@ -134,14 +134,6 @@ The legacy layout is deprecated and was removed in October 2023.
 1. In the console window, enter the following command: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_SuppressSessionCloseWarning",true)`
 1. Refresh the app page.
 
-### Turn on legacy navigation (deprecated)
-
-> [!NOTE]
-> The legacy navigation is deprecated and will be removed in a future release.
-
-1. With Copilot Service workspace open, press the F12 key to open the developer tools window.
-1. In the console window, type the following command and press **Enter**: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultisessionNavigationImprovements",false)`
-1. Refresh the app page.
 
 ### Training resources
 

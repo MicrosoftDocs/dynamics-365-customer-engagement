@@ -1,8 +1,8 @@
 ---
 title: Customer Service Hub system requirements
 description: System requirements for Customer Service Hub.
-ms.date: 12/13/2024
-ms.topic: article
+ms.date: 06/26/2025
+ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

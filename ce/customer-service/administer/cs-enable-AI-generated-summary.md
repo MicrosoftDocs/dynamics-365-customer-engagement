@@ -2,7 +2,7 @@
 title: Set up auto-summarization for conversations in Dynamics 365 Customer Service
 description: Add an AI-generated summary of an ongoing customer conversation in Dynamics 365 Customer Service.
 ms.date: 05/05/2025
-ms.topic: concept-article
+ms.topic: conceptual
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: mgandham

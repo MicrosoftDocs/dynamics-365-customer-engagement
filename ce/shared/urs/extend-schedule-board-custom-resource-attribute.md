@@ -6,7 +6,7 @@ Each bookable resource has a cost based on factors like seniority and certificat
 
 ## Step 1: Add the new attribute to the bookable resource entity
 
-Go to **Customizations** > **Customize the System** > **Bookable Resource** > **Fields** and add a new field named **Resource Cost** with the schema name **tsp_resourcecost**.
+In the **Power Platform Environment Settings** app, go to **Customizations** > **Customize the System** > **Bookable Resource** > **Columns** and add a new column named **Resource Cost** with the schema name **tsp_resourcecost**.
 
 Use the data type **Option Set** and select the existing option set **Level of Importance** to use a list of values from 1 to 10.
 
@@ -14,13 +14,13 @@ Add the newly created field to the form before you **Publish** the changes.
 
 ## Step 2: Create or update a schedule board
 
-Go to the schedule board that you want to add the new resource cost attribute to.
+In the **Field Service** or **Resource Scheduling** app, go to the schedule board that you want to add the new resource cost attribute to.
 
 ## Step 3: Modify the resource cell template
 
 The resource cost indicator should be displayed in the resource cell template. [Font Awesome](https://fontawesome.com/) can be used to display icons, such as €, $, £.
 
-The HTML first draws five gray icons as a background, and then yellow icons as foreground. The number of the foreground icons is mapped to the value of the resource cost. For example, a resource cost value of 2 is 20%, so only one of the five yellow Euro icons show.
+The HTML first draws five gray icons as a background, and then yellow icons as foreground. The number of the foreground icons is mapped to the value of the resource cost. For example, a resource cost value of 2 is 20%, so only one of the five yellow Euro icons shows.
 
 Open the schedule board settings, under **Other**, create a custom **Resource cell template**.
 
@@ -73,7 +73,7 @@ Insert the following code snippet into the custom resource cell template. Change
     </div>
 ```
 > [!NOTE]
-> Javascript is not supported in the resource cell template.
+> JavaScript isn't supported in the resource cell template.
 
 
 
