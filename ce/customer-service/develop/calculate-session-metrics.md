@@ -412,7 +412,7 @@ SUM(FactSession[TimeToAcceptInSeconds])
 
 *Applies to Omnichannel real-time dashboards.*
 
-Session handle time is the total time a representative spends actively engaging with a customer session. This includes the duration of the live interaction and any follow-up or wrap-up activities. The metric is tracked for each session and can be aggregated across conversations or representatives for performance analysis. It serves as a KPI to:
+Session handle time is the total time a representative spends working on a customer session, including the live interaction and any follow-up or wrap-up activities. Tracked per session, this metric can be aggregated across conversations or agents for performance analysis. This KPI provides insights on:
 
 - Measure agent productivity and workload
 - Identify inefficiencies in handling customer interactions
