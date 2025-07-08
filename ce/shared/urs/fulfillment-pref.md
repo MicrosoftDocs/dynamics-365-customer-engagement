@@ -12,32 +12,29 @@ For example, a heating and cooling company wants to group air-conditioning insta
 
 ## Create a fulfillment preference
 
-1. In Universal Resource Scheduling, open the **Settings** area. Under **Scheduling**, select **Fulfillment Preferences** and select **New**.
+1. In Resource Scheduling, open the **Settings** area. Under **Scheduling**, select **Fulfillment Preferences** and select **New**.
 
 1. Enter a **Name** and **Save** the record.
 
-1. To define an interval, go to the **Interval** tab.
-   - Choose an **Interval** to define the duration between two available time slots. 
-   - Set the time for **Intervals begin** to define the start time for when options are available, depending on resource availability and working hours. 
-   - Enter the number of **Results per Interval** to limit how many options the system presents for a time slot.
+1. To define an interval, go to the **Interval** tab and enter the following information:
+
+   - **Interval**: The duration between two available time slots.
+
+   - **Intervals Begin**: The start time for when options are available, depending on resource availability and working hours. If you are combining an interval and time group, see [Use intervals and time groups together](#use-intervals-and-time-groups-together).
+
+   - **Results per Interval**: The number of results to limit how many options the system presents for a time slot.
 
    :::image type="content" source="../../field-service/media/fulfillment-preferences-interval.png" alt-text="Screenshot fo a fulfillment preferences record on the Intervals tab.":::
 
-1. To add a time group, go to the **Details** tab and select **New Time Group Detail**. Enter a **Name** and choose a **Start Time** and **End Time**.
+1. To add a time group, go to the **Details** tab and select **New Time Group Detail**.
+
+1. Enter a **Name** and choose a **Start Time** and **End Time**.
 
    :::image type="content" source="../../field-service/media/fulfillment-preferences-time-group.png" alt-text="Screenshot of a time group record.":::
 
-### Associate fulfillment preference to a requirement or requirement group
+### Use intervals and time groups together
 
-Open a requirement and go to the **Scheduling** tab to choose the **Fulfillment Preference**. For a requirement group, you can choose it in the **Fulfillment Preference** column. However, requirement groups only supports intervals. Time groups aren't supported for requirement groups.
-
-### Book a requirement
-
-Open a resource requirement and select **Book** to schedule the requirement. The start and end times match the fulfillment preference you defined for the requirement.
-
-## Using intervals and time groups together
-
-You can add both an interval and a time group to the same fulfillment preference, but first review these important considerations.
+To add both an interval and a time group to the same fulfillment preference, keep these important considerations in mind.
 
 - Don't add a value for **Interval Begins**. The interval begins at the time of the earliest time group.
 
@@ -52,3 +49,11 @@ You can add both an interval and a time group to the same fulfillment preference
   - If the **Reset Interval per Time Group Detail** is set to **Yes**, the appointments would be:
 
     8:00 AM, 9:30 AM, 11:00 AM (not 12:30 PM because it's blocked for lunch), **1:00 PM** (resetting for the next time group detail), 2:30 PM, and 4:00 PM.
+
+## Associate fulfillment preference to a requirement or requirement group
+
+Open a requirement and go to the **Scheduling** tab to choose the **Fulfillment Preference**. For a requirement group, you can choose it in the **Fulfillment Preference** column. However, requirement groups only supports intervals. Time groups aren't supported for requirement groups.
+
+### Book a requirement
+
+Open a resource requirement and select **Book** to schedule the requirement. The start and end times match the fulfillment preference you defined for the requirement.
