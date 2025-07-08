@@ -76,8 +76,8 @@ IF (FactSessionParticipant[LeftOnReason] ==
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Session rejection rate indicates the rate at which service representatives reject work that is assigned to them. 
-Session Rejection Rate =​ Number of sessions rejected by agents / Total number of sessions assigned to agents. A rejected session occurs when a representative actively declines an incoming work item by selecting Reject on the notification, rather than allowing it to time out.
+Session rejection rate is the rate at which service representatives reject work that's assigned to them. 
+Session Rejection Rate =​ Number of sessions rejected by agents / Total number of sessions assigned to agents. A session is considered rejected when a representative selects **Reject** on the incoming work item notification, rather than letting it time out.
 
 ### DAX query and Dataverse reference
 
@@ -122,7 +122,7 @@ IF ( FactSession[SessionClosureReasonCode] == 192350001, 1, 0 ) ), SUMX (FactSes
 ### Related metrics
 
 - [Sessions rejected](#sessions-rejected): Indicates the total count of sessions within a conversation declined by the service representative.
-- **Session time to reject (sec)**: The average duration a service representative takes to reject an assigned work item. This metric measures the time between when a customer request is assigned to a representative and when the representative select **Reject** on the notification.
+- **Session time to reject (sec)**: The average duration it takes for a service representative to reject an assigned work item. This metric captures the time between when a customer request is assigned and when the representative selects **Reject**.
 
 ## Session timeout rate
 
@@ -225,9 +225,9 @@ Sessions timedout = SUMX(FactSessionParticipant,​ IF ( FactSessionParticipant[
 
 *Applies to Omnichannel real-time and historical dashboard.*
 
-Transferred sessions are customer interactions—such as chats, voice calls, or messaging sessions—that are handed off from one representative, agent, or queue to another during the engagement. Transfers can occur in several ways:
+Transferred sessions are customer interactions—such as chats, voice calls, or messaging sessions—that are handed off from one representative, agent, or queue to another during the conversation. Transfers can occur in several ways:
 
-- **Representative-to-representative**: A representative transfers a session to another representative, often due to skill mismatch or workload balancing.
+- Representative-to-representative: A representative manually transfers a session to another representative, often due to skill mismatch or workload balancing.
 - Representative-to-queue: The session is routed to a different queue for reassignment, typically for escalation or specialized support.
 - Agent-to-representative: An agent escalates the session to a representative, either at the customer’s request or due to business rules (such as maximum retries or unsupported intent).
 - External transfers: In some setups, sessions can be transferred to external phone numbers or contact centers. For example, through Session Initiation Protocol (SIP) routing, depending on system configuration.
@@ -354,7 +354,7 @@ Incoming conversations_FactSession = ​CALCULATE(DISTINCTCOUNTNOBLANK(FactSessi
 
 *Applies to Omnichannel real-time dashboards.*
 
-Time to reject (seconds) is the average time it takes for a representative to reject a session after it's assigned. It measures the interval between when a session is assigned and when the representative explicitly selects Reject. This metric helps supervisors understand how quickly agents respond to incoming work items, particularly when they choose not to handle them.
+Time to reject (seconds) is the average time it takes for a representative to reject a session after it's assigned. It measures the interval between when a session is assigned and when the representative explicitly selects **Reject**. This metric helps supervisors understand how quickly agents respond to incoming work items, particularly when they choose not to handle them.
 
 ### DAX query and Dataverse reference
 
@@ -497,7 +497,7 @@ Avg. session handle time (sec) = AVERAGE(FactSession[AgentHandlingTimeInSeconds]
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Session participant consult rejection count is the number of consultation requests from other representatives that a representative declines. This metric is tracked at the session participant level and is the individual representative responses to consult requests, and not the overall session outcome.
+Session participant consult rejection count is the number of consult sessions that a representative rejects after another representative requests a consult during a customer interaction. This metric is tracked at the session participant level and reflects individual representative responses to consult requests, rather than the overall session outcome.
 
 
 ### DAX query and Dataverse reference
@@ -545,7 +545,7 @@ Consult requests rejected = SUMX (​FactSessionParticipant, IF (FactSessionPart
 ### Related metrics
 
 - **Session participant**: The list of participants within a single session. Each session includes at least one participant, who can be a service representative, agent, or IVR. Additional participants may be added in scenarios such as Monitor or Consult.
-- **Session participant count**: The total number of service representatives involved in assisting a customer. This includes the primary representative assigned to the session and any subject matter experts who were consulted. Use the SessionParticipationType dimension to analyze this metric and obtain further information.
+- **Session participant count**: The total number of service representatives involved in assisting a customer. This includes the primary representative assigned to the session and any subject matter experts who were consulted. Use the SessionParticipationType dimension to analyze this metric and obtain more statistics.
 
 ## Related information
 
