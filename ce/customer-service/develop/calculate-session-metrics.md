@@ -1,6 +1,6 @@
 ---
 title: Calculate session metrics
-description: 
+description: Learn to calculate and interpret session metrics to drive strategic decisions and enhance customer experiences.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -18,9 +18,9 @@ ms.custom: bap-template
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
-This article provides an overview of session metrics available in Dynamics 365 Customer Service, that help you analyze key performance indicators (KPIs) to make strategic decisions, track customer service representative (service representative or representative) and agent performance, and improve customer satisfaction.
+This article provides an overview of session metrics in Dynamics 365 Customer Service. Analyze key performance indicators (KPIs), make strategic decisions, track agent performance, and improve customer satisfaction by using these metrics.
 
-An omnichannel session, or msdyn_ocsession, is an entity in Microsoft Dynamics 365 that represents an interaction with a customer. This entity records various events or operations, such as assigning, associating, creating, and updating records. Each customer conversation can be divided into multiple sessions. The initial session is the first interaction, handled by either an agent or a representative. If the first session is managed by an agent and the conversation is escalated, the subsequent session is typically handled by a representative.
+An omnichannel session, or msdyn_ocsession, is an entity in Microsoft Dynamics 365 that represents an interaction with a customer. This entity records various events or operations, such as assigning, associating, creating, and updating records. Each customer conversation can be divided into multiple sessions. The initial session is the first interaction, handled by either an agent or a representative. If an agent manages the first session and the conversation is escalated, a representative typically handles the next session.
 
 This article also explains how to calculate key session metrics. By using Power BI reports and Dataverse calculations, you can gain actionable insights into customer service efficiency and enhance overall customer satisfaction.
 
@@ -29,7 +29,7 @@ This article also explains how to calculate key session metrics. By using Power 
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Sessions rejected indicate the total count of sessions within a conversation that are declined by the service representative. 
+Sessions rejected indicate the total count of sessions within a conversation that the service representative declines. 
 
 ### DAX query and Dataverse reference
 
@@ -50,7 +50,7 @@ Sessions rejected = ​CALCULATE(DISTINCTCOUNT(FactSession[SessionId]), FactSess
 |---------|---------|
 |Dataverse entities | msdyn_ocsessionparticipantevent, msdyn_ocsession, systemuser|
 |Attributes |- msdyn_ocsessionparticipantevent.msdyn_eventtype​ <br> - msdyn_ocsessionparticipantevent.msdyn_eventreason <br> - msdyn_ocsession.msdyn_sessionid​ <br> - msdyn_ocsession.msdyn_closurereason ​<br> - systemuser.msdyn_botapplicationid  |
-|Filters  |- Session is calculated based on msdyn_ocsession.msdyn_sessionid <br> - Exclude in-transit record with msdyn_eventreason '192350001' and Hold event with msdyn_eventtype '192350001'. <br> - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is not null. <br> - Agent Rejected session is obtained by msdyn_ocsession.msdyn_closurereason set to 192350001. <br> - Exclude sessions from 'Entity Records' channel and SMS filter using msdyn_ocliveworkitem.msdyn_channel != '192350000' and​ msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL respectively.|
+|Filters  |- Session is calculated based on msdyn_ocsession.msdyn_sessionid <br> - Exclude in-transit record with msdyn_eventreason '192350001' and Hold event with msdyn_eventtype '192350001'. <br> - IsAgentSession is when systemuser.msdyn_botapplicationid isn't null. <br> - Agent Rejected session is msdyn_ocsession.msdyn_closurereason set to 192350001. <br> - Exclude sessions from 'Entity Records' channel and SMS filter using msdyn_ocliveworkitem.msdyn_channel != '192350000' and​ msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL respectively.|
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -68,7 +68,7 @@ IF (FactSessionParticipant[LeftOnReason] ==
 |---------|---------|
 |Dataverse entities | [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem) msdyn_ocsession, systemuser |
 |Attributes  | - msdyn_ocliveworkitem.statuscode​, <br> - msdyn_ocsession.msdyn_state​, <br> - msdyn_ocsession.msdyn_closurereason ​<br> - systemuser.msdyn_botapplicationid |
-|Filters  | - Filter the FactConversations table to include only rows msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. <br> - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is not null​. <br> - Agent Rejected session is obtained by msdyn_ocsession.msdyn_closurereason set to 192350001​. |
+|Filters  | - Filter the FactConversations table to include only rows msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. <br> - IsAgentSession occurs when systemuser.msdyn_botapplicationid isn't null​. <br> - Agent Rejected session occurs when the msdyn_ocsession.msdyn_closurereason is set to 192350001​. |
 
 ---
 
@@ -97,7 +97,7 @@ sessions_FactSession], BLANK())
 |---------|---------|
 |Dataverse entities | msdyn_ocsession, systemuser, msdyn_ocsessionparticipantevent |
 |Attributes | - msdyn_ocsessionparticipantevent.msdyn_eventtype​, <br> - msdyn_ocsessionparticipantevent.msdyn_eventreason​, <br> - msdyn_ocsession.msdyn_sessionid​ <br> - msdyn_ocsession.msdyn_closurereason, <br> - systemuser. msdyn_botapplicationid  |
-|Filters  | - Session is calculated based on msdyn_ocsession.msdyn_sessionid​ <br> - Exclude sessions from 'Entity Records' channel and SMS filter using msdyn_ocliveworkitem.msdyn_channel != '192350000' and​ msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL respectively​ <br> - Exclude in-transit record with msdyn_eventreason '192350001' and Hold event with msdyn_eventtype '192350001'​ <br>- IsAgentSession is obtained from systemuser.msdyn_botapplicationid  is not null​ <br> - Agent Rejected session is obtained by msdyn_ocsession.msdyn_closurereason set to 192350001​ ​|
+|Filters  | - Session is calculated based on msdyn_ocsession.msdyn_sessionid​ <br> - Exclude sessions from 'Entity Records' channel and SMS filter using msdyn_ocliveworkitem.msdyn_channel != '192350000' and​ msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL respectively​ <br> - Exclude in-transit record with msdyn_eventreason '192350001' and Hold event with msdyn_eventtype '192350001'​ <br>- IsAgentSession occurs when systemuser.msdyn_botapplicationid isn't null​ <br> - Agent Rejected session occurs when msdyn_ocsession.msdyn_closurereason is set to 192350001​ ​|
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -114,7 +114,7 @@ IF ( FactSession[SessionClosureReasonCode] == 192350001, 1, 0 ) ), SUMX (FactSes
 |---------|---------|
 |Dataverse entities |  [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_ocsession, systemuser  |
 |Attributes  | - msdyn_ocliveworkitem.statuscode​, <br> - msdyn_ocsession.msdyn_state​, <br> - msdyn_ocsession.msdyn_closurereason, <br> - systemuser.msdyn_botapplicationid     |
-|Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​. <br> - Agent Rejected session is obtained by msdyn_ocsession.msdyn_closurereason set to 192350001​ <br> - Agent Rejected session is obtained by msdyn_ocsession.msdyn_state set to 192350002​ <br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. ​|
+|Filters  | - IsAgentSession occurs when systemuser.msdyn_botapplicationid is null​. <br> - Agent Rejected session occurs when msdyn_ocsession.msdyn_closurereason is set to 192350001​ <br> - Agent Rejected session occurs when msdyn_ocsession.msdyn_state is set to 192350002​ <br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. ​|
 
 ---
 
@@ -147,7 +147,7 @@ Session timeout rate = ​DIVIDE(IF ([Sessions timed out] = BLANK (),0, [Session
 |---------|---------|
 |Dataverse entities | msdyn_ocsession, systemuser, msdyn_ocsessionparticipantevent |
 |Attributes |- msdyn_ocsessionparticipantevent.msdyn_eventtype​, <br> - msdyn_ocsessionparticipantevent.msdyn_eventreason​, <br> - msdyn_ocsession.msdyn_sessionid​,  <br> - msdyn_ocsession.msdyn_closurereason, <br> - systemuser.msdyn_botapplicationid   |
-|Filters  | - Session is calculated based on msdyn_ocsession.msdyn_sessionid​. <br> - Exclude sessions from 'Entity Records' channel and SMS filter using msdyn_ocliveworkitem.msdyn_channel != '192350000' and​ msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL respectively​ <br> - Exclude in-transit record with msdyn_eventreason '192350001' and Hold event with msdyn_eventtype '192350001'​. <br> - IsAgentSession is obtained from systemuser.msdyn_botapplicationid  is not null​ <br> - Agent Rejected session is obtained by msdyn_ocsession.msdyn_closurereason set to 192350002​ |
+|Filters  | - Session is calculated based on msdyn_ocsession.msdyn_sessionid​. <br> - Exclude sessions from 'Entity Records' channel and SMS filter using msdyn_ocliveworkitem.msdyn_channel != '192350000' and​ msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL respectively​ <br> - Exclude in-transit record with msdyn_eventreason '192350001' and Hold event with msdyn_eventtype '192350001.' <br> - IsAgentSession is obtained from systemuser.msdyn_botapplicationid  isn't null​ <br> - Agent Rejected session occurs when msdyn_ocsession.msdyn_closurereason is set to 192350002​ |
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -163,19 +163,19 @@ Session timeout rate = ​ DIVIDE (SUMX (FactSession, IF ( FactSession[SessionCl
 |---------|---------|
 |Dataverse entities |systemuser, msdyn_sessionparticipant   |
 |Attributes  | - msdyn_sessionparticipant.msdyn_leftonreason​, <br> - systemuser.msdyn_botapplicationid |
-|Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​. <br> - msdyn_sessionparticipant.msdyn_leftonreason = "AgentTimeout"​|
+|Filters  | - IsAgentSession occurs when systemuser.msdyn_botapplicationid is null​. <br> - msdyn_sessionparticipant.msdyn_leftonreason = "AgentTimeout"​|
 
 ---
 
 ### Related metric
 
-- [Sessions timeout](#sessions-timeout): Sessions timeout refers to customer sessions that are neither accepted nor rejected by a representative within a specified time window, resulting in the system automatically expiring or closing the session.
+- [Sessions timeout](#sessions-timeout): A session times out when a representative doesn't accept or reject a customer session within a set time. The system then automatically closes the session.
 
 ## Sessions timeout
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Sessions timeout refers to customer sessions that are neither accepted nor rejected by a representative within a specified time window, resulting in the system automatically expiring or closing the session.
+A session times out when a representative doesn't accept or reject a customer session within a set time. The system then automatically closes the session.
 
 ### DAX query and Dataverse reference
 
@@ -196,7 +196,7 @@ Sessions timed out = ​CALCULATE(DISTINCTCOUNT(FactSession[SessionId]), FactSes
 |---------|---------|
 |Dataverse entities | msdyn_ocsession, systemuser, msdyn_ocsessionparticipantevent|
 |Attributes |- msdyn_ocsessionparticipantevent.msdyn_eventtype​<br> - msdyn_ocsessionparticipantevent.msdyn_eventreason​<br> - msdyn_ocsession.msdyn_sessionid​ <br> - msdyn_ocsession.msdyn_closurereason​<br> - systemuser.msdyn_botapplicationid   |
-|Filters  | - Session is calculated based on msdyn_ocsession.msdyn_sessionid​ ​<br> - Exclude sessions from 'Entity Records' channel and SMS filter using msdyn_ocliveworkitem.msdyn_channel != '192350000' and​ msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL respectively​ ​<br> - Exclude in-transit record with msdyn_eventreason '192350001' and Hold event with msdyn_eventtype '192350001'​ ​<br> - IsAgentSession is obtained from systemuser.msdyn_botapplicationid  is not null​ ​<br> - Agent timeout session is obtained by msdyn_ocsession.msdyn_closurereason set to 192350002​  |
+|Filters  | - Session is calculated based on msdyn_ocsession.msdyn_sessionid​ ​<br> - Exclude sessions from 'Entity Records' channel and SMS filter using msdyn_ocliveworkitem.msdyn_channel != '192350000' and​ msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL respectively​ ​<br> - Exclude in-transit record with msdyn_eventreason '192350001' and Hold event with msdyn_eventtype '192350001'​ ​<br> - IsAgentSession occurs when systemuser.msdyn_botapplicationid isn't null​ ​<br> - Agent timeout session occurs when msdyn_ocsession.msdyn_closurereason is set to 192350002​  |
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -214,7 +214,7 @@ Sessions timedout = SUMX(FactSessionParticipant,​ IF ( FactSessionParticipant[
 |---------|---------|
 |Dataverse entities |  systemuser, msdyn_sessionparticipant  |
 |Attributes  | - msdyn_sessionparticipant.msdyn_leftonreason​, <br> - systemuser.msdyn_botapplicationid      |
-|Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​. <br> - msdyn_sessionparticipant.msdyn_leftonreason = "AgentTimeout"​.|
+|Filters  | - IsAgentSession occurs when systemuser.msdyn_botapplicationid is null​. <br> - msdyn_sessionparticipant.msdyn_leftonreason = "AgentTimeout"​.|
 
 ---
 
@@ -251,7 +251,7 @@ Transfer count = ​CALCULATE (​ DISTINCTCOUNT ( 'FactSession'[SessionId] ),�
 |---------|---------|
 |Dataverse entities |msdyn_ocsession |
 |Attributes | msdyn_ocsession.msdyn_closurereason|
-|Filters  |Agent Transferred session is obtained by msdyn_ocsession.msdyn_closurereason set to 192350006 or 192350010|
+|Filters  |Agent Transferred session occurs when msdyn_ocsession.msdyn_closurereason is set to 192350006 or 192350010|
 
 
 
@@ -269,7 +269,7 @@ Transferred sessions = ​SUMX ( FactSession, IF ( FactSession[IsTransferredOut]
 |---------|---------|
 |Dataverse entities | [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_ocsession, systemuser  |
 |Attributes  | - msdyn_ocliveworkitem.statuscode​, <br> - msdyn_ocsession.msdyn_closurereason, <br> - systemuser.msdyn_botapplicationid |
-|Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​ <br> - Agent Rejected session is obtained by msdyn_ocsession.msdyn_closurereason set to 192350006 or 192350010​ <br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. |
+|Filters  | - IsAgentSession occurs when systemuser.msdyn_botapplicationid is null​ <br> - Agent Rejected session occurs when msdyn_ocsession.msdyn_closurereason is set to 192350006 or 192350010​ <br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. |
 
 ---
 
@@ -277,7 +277,7 @@ Transferred sessions = ​SUMX ( FactSession, IF ( FactSession[IsTransferredOut]
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Session transfer rate is the percentage of customer sessions that are transferred from one representative, agent, or queue to another during an interaction. It is calculated by dividing the number of transferred sessions by the total number of incoming sessions and multiplying by 100. A session transfer can occur in the following scenarios:
+Session transfer rate is the percentage of customer sessions that are transferred from one representative, agent, or queue to another during an interaction. It's calculated by dividing the number of transferred sessions by the total number of incoming sessions and multiplying by 100. A session transfer can occur in the following scenarios:
 
 - A representative manually transfers a session to another representative or queue.
 - An agent escalates the session to a representative.
@@ -302,7 +302,7 @@ Transfer rate_FactSession = ​CALCULATE (DIVIDE (IF ( [_QueueTransferCount] = B
 |---------|---------|
 |Dataverse entities |  msdyn_ocsession, systemuser, msdyn_ocsessionparticipantevent|
 |Attributes |- msdyn_ocsessionparticipantevent.msdyn_eventtype​, <br> - msdyn_ocsessionparticipantevent.msdyn_eventreason​, <br> - msdyn_ocsession.msdyn_sessionid​, <br> - msdyn_ocsession.msdyn_closurereason, <br> - systemuser.msdyn_botapplicationid |
-|Filters  | - Session is calculated based on msdyn_ocsession.msdyn_sessionid​, <br> - Exclude sessions from 'Entity Records' channel and SMS filter using msdyn_ocliveworkitem.msdyn_channel != '192350000' and​ msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL respectively​. <br> - Exclude in-transit record with msdyn_eventreason '192350001' and Hold event with msdyn_eventtype '192350001'​. <br> - IsAgentSession is obtained from systemuser.msdyn_botapplicationid  is not null​ <br> - Agent Transfer to Queue session is obtained by msdyn_ocsession.msdyn_closurereason set to 192350006 OR 192350010​ |
+|Filters  | - Session is calculated based on msdyn_ocsession.msdyn_sessionid​, <br> - Exclude sessions from 'Entity Records' channel and SMS filter using msdyn_ocliveworkitem.msdyn_channel != '192350000' and​ msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL respectively​. <br> - Exclude in-transit record with msdyn_eventreason '192350001' and Hold event with msdyn_eventtype '192350001'​. <br> - IsAgentSession occurs when systemuser.msdyn_botapplicationid isn't null​ <br> - Agent Transfer to Queue session occurs when msdyn_ocsession.msdyn_closurereason is set to 192350006 OR 192350010​ |
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -318,7 +318,7 @@ DIVIDE (SUMX ( FactSession, IF ( FactSession[IsTransferredOut], 1, 0 ) ),​ SUM
 |---------|---------|
 |Dataverse entities |  [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_ocsession, systemuser  |
 |Attributes  | - msdyn_ocliveworkitem.statuscode​, <br> - msdyn_ocsession.msdyn_closurereason, <br> - systemuser.msdyn_botapplicationid,  <br> - msdyn_ocsession.msdyn_agentacceptedon|
-|Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​, <br> - msdyn_ocsession.msdyn_agentacceptedon is not null​ <br> - msdyn_ocsession.msdyn_closurereason set to 192350006 or 192350010​. <br>-  All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. |
+|Filters  | - IsAgentSession occurs when systemuser.msdyn_botapplicationid is null​, <br> - msdyn_ocsession.msdyn_agentacceptedon isn't null​ <br> - msdyn_ocsession.msdyn_closurereason set to 192350006 or 192350010​. <br>-  All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. |
 
 ---
 
@@ -347,13 +347,13 @@ Incoming conversations_FactSession = ​CALCULATE(DISTINCTCOUNTNOBLANK(FactSessi
 |---------|---------|
 |Dataverse entities | [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_ocsession, systemuser, msdyn_ocsessionparticipantevent |
 |Attributes | - msdyn_ocsessionparticipantevent.msdyn_eventtype​ <br> - msdyn_ocsessionparticipantevent.msdyn_eventreason​ ​ <br> - msdyn_ocsession.msdyn_sessionid​ ​ <br> - msdyn_ocsession.msdyn_closurereason ​​ <br> - systemuser.msdyn_botapplicationid  ​​ <br> - msdyn_ocliveworkitem.msdyn_isoutbound​ ​ <br> - msdyn_ocliveworkitem.msdyn_channel​ ​ <br> - msdyn_ocliveworkitem.msdyn_channelinstanceid |
-|Filters  |- Session is calculated based on msdyn_ocsession.msdyn_sessionid which needs to have atleast one AgentSession through systemuser.msdyn_botapplicationid  is not null​. <br> - Exclude sessions from 'Entity Records' channel and SMS filter using msdyn_ocliveworkitem.msdyn_channel != '192350000' and​ msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL respectively​ <br> - Exclude in-transit record with msdyn_eventreason '192350001' and Hold event with msdyn_eventtype '192350001'​. <br> - Incoming session is defined through msdyn_ocliveworkitem.msdyn_isoutbound is not set to 1​. |
+|Filters  |- Session is calculated based on msdyn_ocsession.msdyn_sessionid which needs to have atleast one AgentSession through systemuser.msdyn_botapplicationid  isn't null​. <br> - Exclude sessions from 'Entity Records' channel and SMS filter using msdyn_ocliveworkitem.msdyn_channel != '192350000' and​ msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL respectively​ <br> - Exclude in-transit record with msdyn_eventreason '192350001' and Hold event with msdyn_eventtype '192350001'​. <br> - Incoming session occurs when msdyn_ocliveworkitem.msdyn_isoutbound isn't set to 1​. |
 
 ## Time to reject (sec)
 
 *Applies to Omnichannel real-time dashboards.*
 
-Time to reject (seconds) is the average time it takes for a representative to reject a session after it has been assigned. It measures the interval between when a session is assigned and when the representative explicitly selects Reject. This metric helps supervisors understand how quickly agents respond to incoming work items, particularly when they choose not to handle them.
+Time to reject (seconds) is the average time it takes for a representative to reject a session after it's assigned. It measures the interval between when a session is assigned and when the representative explicitly selects Reject. This metric helps supervisors understand how quickly agents respond to incoming work items, particularly when they choose not to handle them.
 
 ### DAX query and Dataverse reference
 
@@ -371,7 +371,7 @@ Session time to reject (sec) = SUM(FactSession[TimeToRejectInSeconds])
 |---------|---------|
 |Dataverse entities |  [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_ocsession, systemuser  |
 |Attributes  | - msdyn_ocliveworkitem.statuscode​, <br> - msdyn_ocsession.msdyn_closurereason , <br> - systemuser.msdyn_botapplicationid, <br> -msdyn_ocsession.msdyn_agentassignedon |
-|Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​. <br> - When msdyn_ocsession.msdyn_closurereason is set to 192350001 then use the date difference in secs between msdyn_ocsession.msdyn_agentassignedon, msdyn_ocsession.msdyn_sessionclosedon​ <br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. |
+|Filters  | - IsAgentSession occurs when systemuser.msdyn_botapplicationid is null​. <br> - When msdyn_ocsession.msdyn_closurereason is set to 192350001 then use the date difference in secs between msdyn_ocsession.msdyn_agentassignedon, msdyn_ocsession.msdyn_sessionclosedon​ <br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. |
 
 ---
 
@@ -379,7 +379,7 @@ Session time to reject (sec) = SUM(FactSession[TimeToRejectInSeconds])
 
 *Applies to Omnichannel real-time dashboards.*
 
-Time to accept (seconds) is the average duration it takes for a representative to accept a session—such as a chat, voice call, or messaging request—after it has been routed to them. Tracking this metric helps supervisors and operations teams:
+Time to accept (seconds) is the average duration it takes for a representative to accept a session—such as a chat, voice call, or messaging request—after the session is routed to them. Tracking this metric helps supervisors and operations teams:
 
 - Evaluate how responsive representatives are
 - Identify potential delays in customer engagement
@@ -403,7 +403,7 @@ SUM(FactSession[TimeToAcceptInSeconds])
 |---------|---------|
 |Dataverse entities |  [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_ocsession, systemuser  |
 |Attributes  | -  msdyn_ocliveworkitem.statuscode​ <br> - msdyn_ocsession.msdyn_closurereason ​<br> - systemuser.msdyn_botapplicationid ​<br> - msdyn_ocsession.msdyn_agentacceptedon <br> -msdyn_ocsession.msdyn_agentassignedon |
-|Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​. <br> - Time to accept in secs is defined by difference between msdyn_ocsession.msdyn_agentassignedon and msdyn_ocsession.msdyn_agentacceptedon​. <br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. |
+|Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​. <br> - Time to accept in secs is the difference between msdyn_ocsession.msdyn_agentassignedon and msdyn_ocsession.msdyn_agentacceptedon​. <br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​. |
 
 ---
 
@@ -411,7 +411,7 @@ SUM(FactSession[TimeToAcceptInSeconds])
 
 *Applies to Omnichannel real-time dashboards.*
 
-Session handle time is the total time a representative spends actively engaging with a customer session. This includes the duration of the live interaction as well as any follow-up or wrap-up activities. The metric is tracked for each session and can be aggregated across conversations or representatives for performance analysis. It serves as a KPI to:
+Session handle time is the total time a representative spends actively engaging with a customer session. This includes the duration of the live interaction and any follow-up or wrap-up activities. The metric is tracked for each session and can be aggregated across conversations or representatives for performance analysis. It serves as a KPI to:
 
 - Measure agent productivity and workload
 - Identify inefficiencies in handling customer interactions
@@ -434,7 +434,7 @@ Session handle time (sec) = SUM(FactSession[AgentHandlingTimeInSeconds])
 |---------|---------|
 |Dataverse entities |  [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_ocsession, msdyn_sessionparticipant, systemuser  |
 |Attributes  |  - msdyn_ocliveworkitem.statuscode​ <br> - msdyn_ocsession.msdyn_agentacceptedon ​<br> - systemuser.msdyn_botapplicationid ​<br> - msdyn_sessionparticipant_msdyn_activetime |
-|Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​. ​<br> - Session handle time is defined by ​When msdyn_ocsession.msdyn_agentacceptedon is not null then msdyn_sessionparticipant.msdyn_activetime else null​ ​<br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​ |
+|Filters  | - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​. ​<br> - Session handle time is when msdyn_ocsession.msdyn_agentacceptedon isn't null then msdyn_sessionparticipant.msdyn_activetime else null​ ​<br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​ |
 
 ---
 
@@ -469,7 +469,7 @@ onds]) / 60.00 , FactSession[StatusCode] = "2",FactSession[IsAgentSession] = "1"
 |---------|---------|
 |Dataverse entities | msdyn_ocsessionparticipantevent, systemuser, msdyn_ocsession, msdyn_sessionparticipant|
 |Attributes | - msdyn_ocsessionparticipantevent.msdyn_eventtype​, <br> - msdyn_ocsessionparticipantevent.msdyn_eventreason ​<br> - msdyn_ocsession.msdyn_sessionid​ <br> - msdyn_ocsession.msdyn_closurereason ​<br> - systemuser.msdyn_botapplicationid <br> - msdyn_sessionparticipant.msdyn_activetime​ <br> - msdyn_sessionparticipant.msdyn_joinedon  |
-|Filters  | - Session is calculated based on msdyn_ocsession.msdyn_sessionid​ ​<br> - Exclude in-transit record with msdyn_eventreason '192350001' and Hold event with msdyn_eventtype '192350001'​ ​<br> - Exclude sessions from 'Entity Records' channel and SMS filter using msdyn_ocliveworkitem.msdyn_channel != '192350000' and​ msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL respectively​ ​<br> - IsAgentSession is obtained from systemuser.msdyn_botapplicationid  is not null​ ​<br> - msdyn_sessionparticipant.msdyn_activetime != null and msdyn_sessionparticipant.msdyn_joinedon is not null​|
+|Filters  | - Session is calculated based on msdyn_ocsession.msdyn_sessionid​ ​<br> - Exclude in-transit record with msdyn_eventreason '192350001' and Hold event with msdyn_eventtype '192350001'​ ​<br> - Exclude sessions from 'Entity Records' channel and SMS filter using msdyn_ocliveworkitem.msdyn_channel != '192350000' and​ msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL respectively​ ​<br> - IsAgentSession is obtained from systemuser.msdyn_botapplicationid  isn't null​ ​<br> - msdyn_sessionparticipant.msdyn_activetime != null and msdyn_sessionparticipant.msdyn_joinedon isn't null​|
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -483,20 +483,20 @@ Avg. session handle time (sec) = AVERAGE(FactSession[AgentHandlingTimeInSeconds]
 |---------|---------|
 |Dataverse entities |  [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_ocsession, msdyn_sessionparticipant, systemuser  |
 |Attributes  | - msdyn_ocliveworkitem.statuscode​ <br> - msdyn_ocsession.msdyn_agentacceptedon ​<br> - systemuser.msdyn_botapplicationid ​<br> - msdyn_sessionparticipant_msdyn_activetime  |
-|Filters  |  - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​ <br> - Session handle time is defined by ​When msdyn_ocsession.msdyn_agentacceptedon is not null then msdyn_sessionparticipant.msdyn_activetime else null​. <br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​ |
+|Filters  |  - IsAgentSession is obtained from systemuser.msdyn_botapplicationid is null​ <br> - Session handle time is when msdyn_ocsession.msdyn_agentacceptedon isn't null then msdyn_sessionparticipant.msdyn_activetime else null​. <br> - All conversations where msdyn_ocliveworkitem.statuscode is set to any value between 1 to 7​ |
 
 
 ---
 
 ### Related metric
 
-- [Session handle time](#session-handle-time): Session handle time refers to the total duration a representative actively engages with a customer session, including the time spent during the live interaction and any follow-up or wrap-up activities. 
+- [Session handle time](#session-handle-time): Session handle time is the total time a representative spends on a customer session, including live interaction and follow-up or wrap-up activities.
 
 ## Session participant consult rejection count
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Session participant consult rejection count refers to the number of consult sessions that representatives explicitly reject after being requested by another representative during a customer interaction. This metric is tracked at the session participant level and reflects individual representative responses to consult requests, rather than the overall session outcome.
+Session participant consult rejection count is the number of consult sessions that a representative rejects after another representative requests a consult during a customer interaction. This metric is tracked at the session participant level and reflects individual representative responses to consult requests, rather than the overall session outcome.
 
 
 ### DAX query and Dataverse reference
@@ -544,7 +544,7 @@ Consult requests rejected = SUMX (​FactSessionParticipant, IF (FactSessionPart
 ### Related metrics
 
 - **Session participant**: The list of participants within a single session. Each session includes at least one participant, who can be a service representative, agent, or IVR. Additional participants may be added in scenarios such as Monitor or Consult.
-- **Session participant count**: The total number of service representatives involved in assisting a customer. This includes the primary representative assigned to the session as well as any subject matter experts who were consulted. Use the SessionParticipationType dimension to analyze this metric and obtain additional statistics.
+- **Session participant count**: The total number of service representatives involved in assisting a customer. This includes the primary representative assigned to the session and any subject matter experts who were consulted. Use the SessionParticipationType dimension to analyze this metric and obtain more statistics.
 
 ## Related information
 
