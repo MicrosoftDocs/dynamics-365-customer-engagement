@@ -383,7 +383,7 @@ Incoming conversations_FactSession = ​CALCULATE(DISTINCTCOUNTNOBLANK(FactSessi
 Time to accept (seconds) is the average duration it takes for a representative to accept a session—such as a chat, voice call, or messaging request—after the session is routed to them. This metric provides supervisors and operations teams insights on:
 
 - Responsiveness of representatives
-- Identify potential delays in customer engagement
+- Potential delays in customer engagement
 - Optimize routing logic and representative availability
 
 
