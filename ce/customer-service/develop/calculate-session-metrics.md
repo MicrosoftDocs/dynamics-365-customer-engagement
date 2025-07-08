@@ -127,7 +127,7 @@ IF ( FactSession[SessionClosureReasonCode] == 192350001, 1, 0 ) ), SUMX (FactSes
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Session timeout rate represents the percentage of sessions that expire because the representative didn't accept or reject the session request. It's calculated by dividing the number of timed-out sessions by the total number of assigned sessions, then multiplying by 100.
+Session timeout rate represents the percentage of sessions that expire because the representative didn't accept or reject the session request. Session Timeout Rate (%) = (Number of timed-out sessions/Total assigned sessions) × 100
 
 ### DAX query and Dataverse reference
 
