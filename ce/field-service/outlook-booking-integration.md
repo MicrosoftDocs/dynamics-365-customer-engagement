@@ -1,5 +1,5 @@
 ---
-title: Integrate Field Service bookings with Outlook calendars
+title: Integrate Field Service bookings with Outlook calendars (preview)
 description: Set up Microsoft Online Exchange to integrate with Dynamics 365 Field Service to synchronize bookings.
 ms.date: 07/07/2025
 ms.topic: how-to
@@ -7,11 +7,16 @@ author: jshotts
 ms.author: jasonshotts
 ---
 
-# Integrate bookings with Outlook calendars
+# Integrate bookings with Outlook calendars (preview)
+
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
 Frontline workers can have all their appointments, company meetings, personal events, and bookings in one calendar. Any bookings created against a work order synchronize with the worker’s mailbox, so they show up as appointments in Microsoft Outlook. Synchronization occurs within 15 minutes.
 
 The synchronization of bookings into Outlook works only one way. Events set up in Outlook don't appear in Field Service as bookings. Data flows from Dataverse into Exchange, potentially crossing geographic boundaries.
+
+> [!IMPORTANT]
+> This is an early access feature, which means that it's currently available only on [opted-in](/power-platform/admin/opt-in-early-access-updates) instances. You can opt in for early access on any instance, but we recommend that you do so only on trial, test, or sandbox instances.
 
 ## Set up the Exchange integration
 
@@ -92,7 +97,7 @@ If all these conditions aren't met, the appointment still exists in Exchange, bu
 - Updates to the booking are required to reflect changes to the work order in Outlook.
 - Users can be set up to sync with only one environment at a time.
 - Only bookings tied to a work order synchronize.
-- Bookings synchronize one week in the past and up to two weeks in the future. The system view that controls this behavior is un-editable and appears with warnings. If you would like the ability to change what fields get synced and the window of bookings that sync, please submit an idea on our [Dynamics 365 Field Service ideas form](https://experience.dynamics.com/ideas/categories/list/?category=a2fa5aca-3f2d-e811-813c-e0071b6ad011&forum=bee3d862-df65-e811-a95d-000d3a1be7ad).
+- Bookings synchronize one week in the past and up to two weeks in the future. The system view that controls this behavior is uneditable and appears with warnings. If you would like the ability to change what fields get synced and the window of bookings that sync, submit an idea on our [Dynamics 365 Field Service ideas form](https://experience.dynamics.com/ideas/categories/list/?category=a2fa5aca-3f2d-e811-813c-e0071b6ad011&forum=bee3d862-df65-e811-a95d-000d3a1be7ad).
 
 ## Troubleshooting
 
