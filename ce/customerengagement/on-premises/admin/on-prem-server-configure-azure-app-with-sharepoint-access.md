@@ -52,6 +52,8 @@ Create an app registration with API permission to SharePoint. Learn more about r
 
 ## Server setup prerequisites 
 
+1. Apply update from [Service Update 1.36 for Microsoft Dynamics CRM (on-premises) 9.1 - Microsoft Support](https://support.microsoft.com/en-us/topic/service-update-1-36-for-microsoft-dynamics-crm-on-premises-9-1-c5ff4dd4-1fbd-427e-b35a-3680b79bbe0f)
+
 1. Download the NuGet package for assembly "Microsoft.Identity.Client" version 4.11.0.
    1. Open https://www.nuget.org/packages/Microsoft.Identity.Client/4.11.0#readme-body-tab
    1. Under **About**, select **Download package**
@@ -173,6 +175,27 @@ finally {
 } 
 ```
 
+If the PowerShell script returns "No certificate found with CertificateType 'S2STokenIssuer'.", then 
+
+1. Find the CRM server with the deployment tools role
+1. Log on using a CRM deployment administrator
+1. Replace **@crmCertFile** with the full path certificate file and run the PowerShell script as an administrator
+   
+   ```PowerShell
+   add-pssnapin microsoft.crm.powershell
+   
+   $CrmCertificate = "@crmCertFile" 
+
+   Params = @{
+       CertificateType = S2STokenIssuer
+       StoreName = My
+       StoreLocation = LocalMachine
+       StoreFindType = FindBySubjectDistinguishedName
+       DataFile = $CrmCertificate
+   }
+   Set-CrmCertificate @Params
+   ```
+      
 ## Upload the existing certificate to Azure application certificates 
 
 1. Open a web browser and go to the Azure portal for the Azure AD app that was created in the first section.
