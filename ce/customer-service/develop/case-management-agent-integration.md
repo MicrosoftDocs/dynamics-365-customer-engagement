@@ -14,8 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Case Management Agent can invoke the custom AI agents built in Microsoft Copilot Studio to handle customer service cases autonomously. This integration enables automated case processing where the CPA interacts with a custom agent to resolve customer issues through case conversations, reducing manual intervention and improving response times.
-The integration supports both fully autonomous and semi-autonomous case resolution scenarios, allowing organizations to customize their case management workflow based on business requirements.
+The Case Management Agent integrates with custom AI agents built in Microsoft Copilot Studio to autonomously handle customer service cases. This integration enables automated case processing, where the Case Management Agent collaborates with a custom agent to resolve customer issues during case conversations, reducing manual effort and improving response times. The integration supports both fully autonomous and semi-autonomous case resolution scenarios, allowing organizations to tailor their case management workflows to meet specific business needs.
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
