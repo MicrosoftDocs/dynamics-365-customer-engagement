@@ -43,8 +43,9 @@ The integration supports both fully autonomous and semi-autonomous case resoluti
         "handlingOptions":  {
         “needsReview”: true / false, // only to be used along with customer interaction states - Question / Resolved
       } // optional
-     }
-  ```
+      }
+     ```
+
 1. Based on the response of the custom agent, the Case Management Agent does the following actions:
 
    | **Scenario**                                        | **Custom Agent Output** | **Action by Case Management Agent**       |
@@ -55,7 +56,6 @@ The integration supports both fully autonomous and semi-autonomous case resoluti
    | Custom agent completes task, no Case Management Agent action required | NoAction                | No further action    |
    | Custom agent requests automatic case closure        | ResolveCase             | The AI agent closes the case.     |
 
----
 
 Throughout the process, the `conversationID` is maintained to preserve context across multiple Case Management Agent and custom AI agent interactions for the same case.
 
