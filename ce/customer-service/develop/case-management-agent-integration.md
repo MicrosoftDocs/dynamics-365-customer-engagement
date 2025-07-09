@@ -43,7 +43,7 @@ The integration supports both fully autonomous and semi-autonomous case resoluti
         "handlingOptions":  {
         “needsReview”: true / false, // only to be used along with customer interaction states - Question / Resolved
       } // optional
-    }
+     }
   ```
 1. Based on the response of the custom agent, the Case Management Agent does the following actions:
 
@@ -55,6 +55,7 @@ The integration supports both fully autonomous and semi-autonomous case resoluti
 | Custom agent completes task, no Case Management Agent action required | NoAction                | No further action    |
 | Custom agent requests automatic case closure        | ResolveCase             | The AI agent closes the case.     |
 
+---
 
 Throughout the process, the `conversationID` is maintained to preserve context across multiple Case Management Agent and custom AI agent interactions for the same case.
 
@@ -65,23 +66,24 @@ In this scenario, the customer is requesting a refund for a recent order.
 1. A customer sends an email linked to caseID 12345 about a refund request.
 2. The Case Management Agent processes the email and recognized "refund" as the intent and invokes the custom AI agent with this input:
    ```json
-   {
+    {
      "caseId": "12345"
-   }
+    }
    ```
 3. The Custom Agent looks up the case details and realizes it needs the refund amount. It responds with:
+
    ```json
    {
      "responseType": "Question",
      "message": "Could you please confirm the refund amount?"
    }
    ```
-4. The Case Management Agent sends an email to the customer to confirm the refund amount.
-5. Once the customer responds, the Case Management Agent invokes the custom agent again with the same case ID. The Custom Agent processes the refund and responds with:
+1. The Case Management Agent sends an email to the customer to confirm the refund amount.
+1. Once the customer responds, the Case Management Agent invokes the custom agent again with the same case ID. The Custom Agent processes the refund and responds with:
    ```json
    {
      "responseType": "Resolved",
      "message": "Refund has been processed successfully."
    }
    ```
-7. The Case Management Agent updates the case as resolved and sends an email to the customer that their refund is processed.
+1. The Case Management Agent updates the case as resolved and sends an email to the customer that their refund is processed.
