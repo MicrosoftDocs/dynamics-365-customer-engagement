@@ -28,28 +28,29 @@ The integration supports both fully autonomous and semi-autonomous case resoluti
 ## How the integration works
 
 1. For an incoming email linked to a case, the case resolution feature of the Case Management Agent identifies the intent of the email and if there's a custom AI agent linked to the intent, invokes the custom AI agent. The Case Management Agent sends a request to the custom agent as follows. The message includes the case ID, which Copilot Studio custom agent uses to retrieve the case details and context from the Dataverse.
-       ```json
-        {
+
+    ```json
+     {
          "caseId": "<case-id>"
-        } 
-        ```
+     } 
+    ```
 1. The custom agent responds with the required details in the following format:
 
-```json
-{
-   "responseType": "Question / Resolved / UnableToResolve / NoAction / ResolveCase",
-   "message": "<agent output>", // optional
-   "handlingOptions":  {
-       “needsReview”: true / false, // only to be used along with customer interaction states - Question / Resolved
-     } // optional
-        }
-```
+    ```json
+     {
+       "responseType": "Question / Resolved / UnableToResolve / NoAction / ResolveCase",
+       "message": "<agent output>", // optional
+        "handlingOptions":  {
+        “needsReview”: true / false, // only to be used along with customer interaction states - Question / Resolved
+      } // optional
+    }
+  ```
 1. Based on the response of the custom agent, the Case Management Agent does the following actions:
 
 | **Scenario**                                        | **Custom Agent Output** | **Action by Case Management Agent**       |
 | --------------------------------------------------- | ----------------------- | -------------------- |
-| Custom agent requires more information from the customer| Question            | <ol> Based on the workflow configured, the following actions occur: <ul><li> For a fully-autonomous case resolution workflow, the AI agent drafts and sends and email with the required information to the customer.</li><li> For a semi-autonomous case resolution workflow, the AI agent drafts the email with the required information. Customer service representative sends the email to the customer.</li></ul><li>Once the customer responds, the AI agent sends the information to the custom AI agent.</li>|
-| Custom agent resolves and sends output              | Resolved                | <ol> Based on the workflow configured, the following actions occur: <ul><li> For a fully-autonomous case resolution workflow, the AI agent drafts and sends the resolution email to the customer.</li><li> For a semi-autonomous case resolution workflow, the AI agent drafts the resolution email. Customer service representative sends the email to the customer.</li></ul><li>The AI agent triggers case follow-up and closure, if configured.</li>|
+| Custom agent requires more information from the customer| Question            | <ol><li> Based on the workflow configured, the following actions occur: <ul><li> For a fully-autonomous case resolution workflow, the AI agent drafts and sends and email with the required information to the customer.</li><li> For a semi-autonomous case resolution workflow, the AI agent drafts the email with the required information. Customer service representative sends the email to the customer.</li></ul></li><li>Once the customer responds, the AI agent sends the information to the custom AI agent.</li>|
+| Custom agent resolves and sends output              | Resolved                | <ol><li> Based on the workflow configured, the following actions occur: <ul><li> For a fully-autonomous case resolution workflow, the AI agent drafts and sends the resolution email to the customer.</li><li> For a semi-autonomous case resolution workflow, the AI agent drafts the resolution email. Customer service representative sends the email to the customer.</li></ul></li><li>The AI agent triggers case follow-up and closure, if configured.</li>|
 | Custom agent cannot resolve                         | UnableToResolve         | The AI agent escalates the case to a service representative.|
 | Custom agent completes task, no Case Management Agent action required | NoAction                | No further action    |
 | Custom agent requests automatic case closure        | ResolveCase             | The AI agent closes the case.     |
