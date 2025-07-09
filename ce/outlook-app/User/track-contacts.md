@@ -19,6 +19,9 @@ search.audienceType:
 
 # Track contacts
 
+> [!NOTE]
+> Starting October 1, 2025, the contact tracking feature in the Dynamics 365 App for Outlook isn't supported in the classic Outlook app. As an alternative, to track contacts, add them to Dynamics 365 Sales manually. Contact tracking isn't available in the new Outlook app.
+
 Access your Outlook contacts and Dynamics 365 contacts and see which contacts are tracked. You can also link an Outlook contact to an account in your Dynamics 365 app.
 
 You admin must enable your Dynamics 365 mailbox for appointments, contacts, and tasks to use the track contacts feature. 
