@@ -152,7 +152,7 @@ To know how sales managers use:
 When a phone system is configured in your organization, sellers can make calls directly through the sales accelerator feature. Under **Phone number priority**, select the phone numbers for **Default**, **Fallback1**, and **Fallback2**. When sellers initiate calls through a sequence step or the work list, the softphone chooses the phone numbers in the order they're listed.
 
 >[!IMPORTANT]
->To use the phone number priority feature, you must have an [active channel provider](channel-integration-framework/v1/administer/configure-channel-provider-channel-integration-framework) and [Teams calling enabled](configure-microsoft-teams-dialer.md) for your organization. If these aren't configured, the phone number priority feature won't be available.
+>To use the phone number priority feature, you must have an [active channel provider](../channel-integration-framework/v1/administer/configure-channel-provider-channel-integration-framework) and [Teams calling enabled](configure-microsoft-teams-dialer.md) for your organization. If these aren't configured, the phone number priority feature won't be available.
 
 For example, you can select **Business Phone** in **Default**, **Mobile Phone** in **Fallback1**, and **Home Phone** in **Fallback2**. When sellers initiate a call, the number in the **Default** option is dialed if it's available. If it isn't available, the call goes to the next option.
 
