@@ -188,5 +188,3 @@ finally {
    1. Add the **Description**, and then select **Add**.
 
 The newly created certificate is shown in the **Certificates** list.
-
-
