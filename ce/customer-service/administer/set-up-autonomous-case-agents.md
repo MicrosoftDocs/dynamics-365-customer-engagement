@@ -101,11 +101,11 @@ By default, service representatives added to the out-of-the-box experience profi
    -  Select **Manage** for **Case Management Agent**, and then select **agent experience profiles** in **Case creation and update with autonomous AI assistance** > **Agent access**.
    - **Customer Support** > **Case settings** > **Case Management Agent** > **Case follow-up and closure** > **Agent access** > **agent experience profiles**
 2. Select the required experience profile.
-3. In the **Copilot AI features** section:
-   - Select **Edit** and then enable the required features:  
-     - **Autonomous case creation and update from conversations**  
-     - **Autonomous case follow-up and closure**
-
+3. In the **Copilot AI features** section do the following actions:
+     - Select **From conversations** in **Autonomous case creation and update**.
+     - In **Form fill assistance for cases** select **During case creation from conversation** and **During case creation from email** to indicate which channels the AI agent can assist service representatives in creating cases.
+  
+  
 ## Record representative interactions with the AI agent
 
 In **Agent experience data from Representative experience data**, you can select **Record transcripts of representative interactions with AI, including representative actions, and their feedback on AI suggestions** to record and understand how representatives are interacting with the AI agent and how the agent is performing in a support organization. Representatives can also share feedback about AI agent actions, which helps Copilot perform better. You can also download and use the data to analyze knowledge sources, and build usage reports.

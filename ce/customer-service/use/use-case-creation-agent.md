@@ -66,7 +66,18 @@ On the case form, an AI toolbox appears and allows you to do the following actio
 
 ### AI-assisted case creation 
 
-When you create a case manually from a conversation or an email, the AI agent predicts the values for all the available case fields and populates them. You can review the values and make changes before you save the case.
+The AI agent predicts the values for all the available case fields when and populates them when you manually create a case as follows:
+
+- When you select **New Case** on the **Active Conversation** form for an ongoing conversation.
+- When you select **Convert to case** on the Email form for an email conversation.
+
+The case appears in a new tab. You can do the following actions: 
+
+- You can review the values that the agent predicted. A visual indicator indicates that the values were predicted by the AI agent.
+- An AI toolbox appears and allows you to do the following actions:
+   - [Use Copilot's form fill assistance](/power-apps/user/form-filling-assistance).
+   - Select **Accept suggestions** to accept all the predicted values. Alternatively, you can hover over the field to accept or reject the predicted value one at a time. 
+   - Provide feedback.
 
 If your administrator configured autonomous case updates, the AI agent then updates the case fields with information from ongoing conversations or incoming emails, autonomously.
 
