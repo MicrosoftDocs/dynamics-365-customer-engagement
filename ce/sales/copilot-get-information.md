@@ -1,7 +1,7 @@
 ---
 title: Get information from Copilot
 description: Learn how to use Copilot in Dynamics 365 Sales to get information about your pipeline, summarize leads and opportunities, and get the latest news about your accounts.
-ms.date: 04/30/2025
+ms.date: 07/09/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -19,6 +19,9 @@ ms.collection: bap-ai-copilot
 # Get information from Copilot
 
 Use Copilot to get information about your pipeline, summarize your opportunities, leads, and accounts, and get the latest news about your accounts. You can either use predefined prompts or ask questions in natural language. This article describes some of the prompts that you can use to get information from Copilot. [Learn more about chatting with Copilot in natural language](use-sales-copilot.md#chat-with-copilot-in-NL).
+
+>[!NOTE]
+>Summarization of opportunities, leads, and accounts is not available in the following regions&mdash; Korea (KOR), Norway (NOR), South Africa (ZAF), and Singapore (SGP).
 
 <a name="copilot-show-pipeline"></a>
 

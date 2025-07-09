@@ -20,6 +20,9 @@ ms.collection: bap-ai-copilot
 
 Stay ahead of your work by asking Copilot to help you prepare for meetings and catch up on emails that need your attention. You can either use predefined prompts or ask questions in natural language. This article describes some of the predefined prompts you can use to stay ahead with Copilot. Learn more about [chatting with Copilot in natural language](use-sales-copilot.md#chat-with-copilot-in-NL).
 
+>[!NOTE]
+>The prepare for sales meetings feature is not available in the following regions&mdash; Korea (KOR), Norway (NOR), South Africa (ZAF), and Singapore (SGP).
+
 <a name="copilot-meeting-prep"></a>
 
 ## Prepare for upcoming sales appointments
