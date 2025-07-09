@@ -78,7 +78,7 @@ No. The agent processes leads automatically when any of the following events occ
 - The lead's company name is updated.
 - The lead's contact information is linked or updated.
 
-The agent refreshes the research data of existing leads on a schedule that your admin sets. Learn more in [Set up and activate the agent](configure-sales-qualification-agent.md#set-up-and-activate-the-agent). The timestamp on the **Lead insights** page shows the last refresh date.
+The agent refreshes the research data of existing leads after every 24 hours.
 
 ## What activities consume Copilot Studio capacity?
 

@@ -84,12 +84,6 @@ Grant **User**-level permissions for *read*, *write*, *create*, *append*, *appen
    | Company info | Enter your company's name and website URL. | Contoso Ltd.; `https://www.contoso.com` |
    | Value proposition of your offering | Describe the products or product line that the sellers in the **Team access** list handle, in natural language. | A cloud-based CRM solution that helps businesses streamline sales processes, improve customer relationships, and drive revenue growth. Our platform includes features such as lead management, opportunity tracking, email integration, and analytics. |
 
-1. In the **General** section, **Refresh frequency** is set to **Medium** by default, which is ideal for most businesses. You can refresh the research data more or less often based on your business needs and available capacity.
-
-   - **High:** Data is refreshed every day. This option is ideal for businesses that always need the latest information, but it consumes more capacity.
-   - **Medium:** Data is refreshed every three days. This option is suitable for businesses that need regular updates but don't require daily insights. It balances performance and data accuracy.
-   - **Low:** Data is refreshed every seven days. This option consumes the least capacity and is suitable for businesses that don't need frequent updates and want to save capacity.
-
 1. In the **Research** section, review the resources that the agent uses to gather information about leads. The following sources are set for you and can't be edited:
 
    - Default basic research: Includes insights gathered from Copilot summaries, who knows whom, related opportunities, and so on.
