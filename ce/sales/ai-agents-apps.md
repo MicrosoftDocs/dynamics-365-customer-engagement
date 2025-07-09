@@ -1,12 +1,14 @@
 ---
 title: Copilot Studio agents and app registrations for sales agents
-description: 
+description: Learn about Copilot Studio agents and Microsoft Entra app registrations used by various Dynamics 365 Sales agents.
 ms.date: 07/09/2025
 ms.topic: concept-article
 ms.service: dynamics-365-sales
-content_well_notification:
-  - AI-contribution
-ms.custom: bap-template
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-description
+  - ai-seo-date:07/09/2025
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -21,20 +23,20 @@ Each agent in Dynamics 365 Sales can use multiple Microsoft Copilot Studio (MCS)
 
 When an MCS agent is created, Copilot Studio automatically generates an app registration in Microsoft Entra. These app registrations are managed at the tenant level. Learn more about app registrations at [App registration, certificates, and configuration values for Copilot Studio](/microsoft-copilot-studio/requirements-certificates-configuration-values).
 
-The total number of app registrations depends on the number of organizations (orgs) in the tenant and the number of agents each org uses. For example, if a tenant has 30 orgs and each org uses 5 agents, Copilot Studio will create 150 app registrations (30 orgs × 5 agents each = 150 registrations) in Microsoft Entra.
+The total number of app registrations depends on the number of organizations (orgs) in the tenant and the number of agents each org uses. For example, if a tenant has 30 Dynamics 365 Sales orgs and each org uses 5 agents, Copilot Studio will create 150 app registrations (30 orgs × 5 agents each = 150 registrations) in Microsoft Entra.
 
 This article lists the Copilot Studio agents and the corresponding app registrations for all Dynamics 365 Sales agents.
  
 ## Sales Qualification Agents (SQA)  
 
-The Sales Qualification Agent (SQA) helps sales teams qualify leads effortlessly by providing detailed insights about each lead, such as their background, recent activities, and news about their company. 
+The Sales Qualification Agent (SQA) helps sales teams qualify leads effortlessly by autonomously researching leads, determining if they're a good fit for further engagement, and drafting an outreach email to the lead. Learn more about SQA in [Sales Qualification Agent overview](sales-qualification-agent.md).
 
 The Sales Qualification Agent (SQA) uses the following Copilot Studio agents:
 
-- **D365 Sales Agent - Outreach**: This agent focuses on reaching out to potential leads and engaging them through various communication channels.
-- **D365 Sales Agent - Readiness**: This agent ensures that the sales team is prepared with the necessary information and resources to effectively engage with leads.
 - **D365 Sales Agent - Research**: This agent conducts research to gather insights and data that can help in understanding leads and tailoring the sales approach.
-- **D365 Sales Agent - Email Validation**: This agent verifies the accuracy and validity of email addresses to ensure effective communication with leads.
+- **D365 Sales Agent - Readiness**: This agent determines if the lead is a good fit for further engagement by analyzing the lead's profile against the ideal customer profile.
+- **D365 Sales Agent - Outreach**: This agent drafts an outreach email to the lead, making it easier for sales professionals to initiate contact.
+- **D365 Sales Agent - Email Validation**: This agent verifies the validity of a lead's email ID and categorizes it as personal or work.
 
 ## Copilot in Dynamics 365 Sales
 
