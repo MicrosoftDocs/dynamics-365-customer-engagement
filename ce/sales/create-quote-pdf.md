@@ -107,8 +107,11 @@ Regardless of the number of SharePoint document locations that exist for a recor
 
 ### How to generate an accessible PDF file?
 
-The Export to PDF functionality leverages a Word feature that doesn't generate a fully accessible PDF. If the generated PDF isn't sufficient from the accessibility perspective, you can export the record to a Word document and follow these steps:
+The Export to PDF functionality leverages a Word feature that doesn't generate a fully accessible PDF. If the generated PDF isn't sufficient from the accessibility perspective, follow these steps:
 
+1. [Create a word template](/power-platform/admin/using-word-templates-dynamics-365) that complies with your accessibility standards.
+1. [Upload the template to the sales app](/power-platform/admin/using-word-templates-dynamics-365#step-4-upload-the-word-template-back-into-customer-engagement-apps).
+1. Export a record to word and use the template you created.
 1. Open the document in Microsoft Word.
 1. Select **File** > **Export** > **Create PDF/XPS Document**.
 1. Select **Options** and ensure that the **Document structure tags for accessibility** option is selected.
