@@ -36,7 +36,7 @@ After the Sales Qualification Agent is set up, it automatically researches leads
 - created in the last 14 days
 - owned by sellers who have a security role that allows them to access the agent.
 
-The agent refreshes research data daily. The agent is also triggered after certain events, such as when a lead is created or updated. Learn about the trigger events in [Sales Qualification Agent FAQ](sales-qualification-agent-faq.md#trigger-events).
+The agent processes the leads only once, unless significant changes are made to the lead. Learn more about trigger events in [When does the agent run?](sales-qualification-agent-faq.md#trigger-events).
 
 ## Qualify leads
 
