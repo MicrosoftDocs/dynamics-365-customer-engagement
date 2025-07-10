@@ -26,9 +26,51 @@ This article provides detailed metrics to evaluate the performance and efficienc
 
 ## Average first response time
 
-First response time is a measure of the time that customers spend waiting for the initial response from a service representative. This metric measures the time from when a customer initiates a conversation (or an AI agent escalates it) to when a service representative accepts and responds. The time is adjusted based on operating hours. First response time provides insight into how quickly a service representative responded to the customer. For messages, this time represents how soon the service representative sent the first response to customer. 
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-The system calculates average first response time by dividing the total first response time across all engaged conversations by the number of engaged conversations. The time can be viewed in two formats: seconds and *hh:mm:ss*.
+Average first response time is the average time an agent takes to reply to a customer after the customer starts a conversation. The time is adjusted for operating hours.
+
+The system calculates average first response time by dividing the total first response time for all engaged conversations by the number of engaged conversations. You can view the time in seconds or in hh:mm:ss format.
+
+### DAX query and Dataverse reference
+
+The following Data Analysis Expression (DAX) query and corresponding Dataverse entities are used in the Power BI semantic model. Learn more in [DAX queries](/dax/dax-queries). 
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+Avg. time for first response (min) = ​CALCULATE (AVERAGE (FactConversation[FirstResponseTime] ) / 60.00,FactConversation [IsOutbound] <> "1")
+
+```
+
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem) |
+|Attributes |- msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel |
+|Filters  |- Filter the FactConversations table to include only rows where <br> - Ensure that msdyn_channelinstanceid is NULL.<br> - Exclude rows where msdyn_channel is'192350000’ |
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Avg. first response time (sec) = AVERAGE(FactConversation[ReponseTimeInSecondsAdjustedForOperationHour])
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |  [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_liveworkstream  |
+|Attributes  | - msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_liveworkstream.msdyn_streamsource <br> - msdyn_ocliveworkitem.msdyn_firstresponsetime​ <br> - msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel  |
+|Filters  | - Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL and​ msdyn_isagentsession set to 1​. <br> - Avg. first response time (sec) is defined by msdyn_ocliveworkitem.msdyn_firstresponsetimeinms​ <br> - Exclude rows where msdyn_streamsource is'192350000'​ ​|
+
+---
+
 
 ## Average service representative response time
 
@@ -36,9 +78,49 @@ Service representative response time is the average time that customers who send
 
 The time can be viewed in two formats: seconds and *hh:mm:ss*.
 
-## Service representative response service level
+## Conversations in service level (10,20,30,40,50,60,120 secs)
 
-The percentage of customer messages that have a service representative response time of less than 60 seconds.
+Conversation in service level (10 seconds) refers to the customer interactions (usually calls or chats) that are answered ​within 10 seconds. 
+Service levels are measured in intervals of 10, 20, 30, 40, 50, 60, 120 seconds.
+
+### DAX query and Dataverse reference
+
+The following Data Analysis Expression (DAX) query and corresponding Dataverse entities are used in the Power BI semantic model. Learn more in [DAX queries](/dax/dax-queries). 
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+xxx
+
+```
+
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | |
+|Attributes | |
+|Filters  | |
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |   |
+|Attributes  |  |
+|Filters  | ​ ​|
+
+---
 
 ## Total capacity units
 
