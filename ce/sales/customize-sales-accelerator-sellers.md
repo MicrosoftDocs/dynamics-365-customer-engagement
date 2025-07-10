@@ -166,7 +166,7 @@ Follow these steps:
 
     :::image type="content" source="media/sa-sequence-settings.png" alt-text="Screenshot of selecting Settings on the Sequences page.":::        
 
-4. On the **Settings** page, select **Phone number priority**.      
+4. On the **Settings** page, select **Phone number priority**.  
     
     :::image type="content" source="media/sa-phone-number-priority.png" alt-text="Screenshot of configuring the phone number priority for calling customers.":::      
 

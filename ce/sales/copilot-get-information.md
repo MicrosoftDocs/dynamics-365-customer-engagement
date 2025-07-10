@@ -20,11 +20,7 @@ ms.collection: bap-ai-copilot
 
 Use Copilot to get information about your pipeline, summarize your opportunities, leads, and accounts, and get the latest news about your accounts. You can either use predefined prompts or ask questions in natural language. This article describes some of the prompts that you can use to get information from Copilot. [Learn more about chatting with Copilot in natural language](use-sales-copilot.md#chat-with-copilot-in-NL).
 
->[!NOTE]
->Summarization of opportunities, leads, and accounts is not available in the following regions&mdash; Korea (KOR), Norway (NOR), South Africa (ZAF), and Singapore (SGP).
-
 <a name="copilot-show-pipeline"></a>
-
 ## Show my pipeline
 
 Copilot can provide a list of open opportunities that are assigned to you, sorted by the estimated close date.

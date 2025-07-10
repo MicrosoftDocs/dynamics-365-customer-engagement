@@ -66,9 +66,6 @@ The **Show related files** prompt lists the files that meet the following criter
 
 As a seller, you might have to refer to documents such as contracts, technical documents, and marketing collateral to answer questions from your customers. If these documents are stored in SharePoint, Copilot can help you find answers from the documents and summarize them for you. Learn more about [asking questions in your preferred language](#asking-questions-in-your-preferred-language).
 
->[!NOTE]
->Copilot to get answers from SharePoint documents is not available in the following regions&mdash; Korea (KOR), Norway (NOR), South Africa (ZAF), and Singapore (SGP).
-
 **To get answers from SharePoint documents**
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot) and select **View Prompts** above the Copilot chat box.  
