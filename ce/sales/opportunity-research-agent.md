@@ -19,3 +19,32 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
+The Opportunity Research Agent in Dynamics 365 Sales empowers sales professionals to work more efficiently on complex, high-value deals. By automatically gathering insights from multiple sources and providing actionable recommendations, the agent helps sellers stay informed, identify risks, and engage the right stakeholders. Following are some of the key features and benefits of the Opportunity Research Agent: 
+
+**Streamlined research experience:** Automatically aggregates insights from CRM, customer communications, public sources, and internal repositories, minimizing context-switching and research overhead.
+
+**Opportunity catchup:** Sellers can ramp up quickly with opportunity summaries, including deal size, target close date, customer pain points, and recent updates. 
+
+**Stakeholder intelligence:** The agent tracks stakeholder changes in real time, auto-classifies roles (such as economic buyer or champion), and flags new decision-makers or influencers&mdash;helping sellers build relationships with the right people.
+
+**Competitor highlights:** Competitor mentions are detected from emails, meetings, or CRM entries, with timely alerts and tailored strategies based on past deal history. 
+
+**Actionable risk mitigation:** The agent surfaces actionable risk signals, such as stalled momentum or loss of key stakeholders, and recommends mitigation steps to keep deals moving forward.
+
+**Opportunity relevance signals:** The agent highlights related deals with the same customer or in similar contexts, enabling sellers to apply proven approaches and increase win rates.
+
+**CRM hygiene:** CRM hygiene is maintained automatically, with stakeholder info updated from emails and meetings, ensuring data accuracy with zero manual effort.
+
+**Sales enablement:** Sellers also gain instant access to winning sales materials, playbooks, and past deal assets directly in the opportunity view. These resources equip sellers to deliver targeted pitches and respond confidently.
+
+## Capacity usage
+
+The Sales Qualification Agent uses the capacity assigned to your tenant to process leads and generate insights. You can set up either prepaid capacity or pay-as-you-go capacity for the agent. Use the following resources to learn more about setting up capacity and monitoring usage: 
+
+- [Manage consumption-based billing for agent capabilities](copilot-consumption-based-billing.md)
+- [View the agent's usage consumption](configure-sales-qualification-agent.md#view-the-agents-usage-consumption)
+
+## Responsible AI
+
+Opportunity Research Agent is built with responsible AI principles in mind. The agent has been carefully evaluated to ensure that it meets quality standards and is designed to be used as a productivity tool. For more information about the agent's responsible AI practices, go to [Responsible AI FAQ for the Opportunity Research Agent](faqs-opportunity-research-agent.md).
+
