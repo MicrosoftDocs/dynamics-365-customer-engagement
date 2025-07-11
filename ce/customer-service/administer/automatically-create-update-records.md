@@ -60,7 +60,7 @@ These activities can be converted to any default (system) entity records or cust
 
 ## Configure rules to create or update records automatically
 
-You can configure a rule that when active runs for incoming emails. By using the feature to create rules, you can define the conditions for when a rule can be run.
+You can configure a rule that when active, runs for incoming emails. By using the feature to create rules, you can define the conditions for when a rule can be run.
 
 You can configure the rules in the Copilot Service admin center app.
  
