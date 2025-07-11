@@ -192,7 +192,7 @@ To process emails from known senders only, do the following steps in Power Autom
 
 1. On the Power Automate workflow page, accept the default connection settings, and select **Continue**.
 
-1. On the page that's displayed, in the **Is this email sender a contact or an account** step, for the **If no** option, make sure that the **Terminate when no valid customer found** option is available.
+1. On the page that displays, in the **Is this email sender a contact or an account** step, for the **If no** option, make sure that the **Terminate when no valid customer found** option is available.
 
 1. Save the changes.
 
@@ -228,7 +228,7 @@ To create a contact for unknown senders of email, configure the following option
 
 ### Create contacts for unknown senders using rule owner context
 
-By default, a contact for unknown email sender is created with the email recipient's context. To switch to use the rule owner permissions to create the new contact, you can configure the msdyn_ArcCreateContactWithRuleOwner environment variable as follows:
+By default, the system creates a contact for unknown email sender with the email recipient's context. To switch to use the rule owner permissions to create the new contact, you can configure the msdyn_ArcCreateContactWithRuleOwner environment variable as follows:
 
 1. Go to the [Power Apps](https://make.powerapps.com) portal.
 
