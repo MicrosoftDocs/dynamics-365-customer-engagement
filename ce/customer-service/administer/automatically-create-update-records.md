@@ -1,7 +1,7 @@
 ---
 title: Automatically create or update records in Dynamics 365 Customer Service
-description: Learn how to automatically create or update records by setting up rules in Dynamics 365 Customer Service.
-ms.date: 04/22/2025
+description: Learn how to set up rules to automatically create or update records from emails and activities.
+ms.date: 07/11/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -26,7 +26,7 @@ searchScope:
 
 [!INCLUDE[cc-trial-sign-up](../../includes/cc-trial-sign-up.md)]
 
-You can automatically create or update system or custom records from incoming activities, such as emails, social activities, and custom activities. In this section, you'll learn about creating rules for automatically creating records for cases from incoming emails.
+You can automatically create or update system or custom records from incoming activities, such as emails, social activities, and custom activities. In this article, you'll learn how to create rules to automatically create records for cases from incoming emails.
 
 > [!NOTE]
 > Modern automatic record creation and update rules isn't supported on on-premises environments.
@@ -55,38 +55,37 @@ These activities can be converted to any default (system) entity records or cust
 
 ## Prerequisites
 
-Make sure that the following prerequisites are met:
-
 - Permissions, roles, and the Power Automate license to create automatic record creation rules.
 - Information on the queues for which you want to create the rules.
 
-## Configure rules for creating or updating records automatically
+## Configure rules to create or update records automatically
 
-You can configure a rule that when active will be run for incoming emails. By using the feature to create rules, you can define the conditions for when a rule can be run.
+You can configure a rule that when active runs for incoming emails. By using the feature to create rules, you can define the conditions for when a rule can be run.
 
 You can configure the rules in the Copilot Service admin center app.
-
  
-1. In the site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
-1. In the **Automatic record creation and update rules** section, select **Manage**. The **All Record Creation and Update Rules** page is displayed.
+1. In the site map, select **Case Settings** in **Customer Support**. The **Case settings** page appears.
+1. In the **Automatic record creation and update rules** section, select **Manage**. The **Record Creation and update rules** page appears.
 
-1. Select **New**. The **New Record Creation and Update Rule** page is displayed.
+1. Select **New**. The **New Record Creation and Update Rule** page appears.
 
-1. On the **Basic** tab, in **Step one details**, enter the following details:
+1. On the **Basic** tab, in **Step one: details**, enter the following:
   
    - **Rule name**: Enter a name for the rule.
-   - **Queue to monitor**: Select a queue on which the rule will be activated. For email activity, you must select a queue to be able to activate the rule.
+   - **Queue scope**: Select **Track multiple queues** or **Track single queue**, depending on whether you want to add multiple or a single queue for the rule.
+   - **Queue to monitor**: Select a queue for which the rule must be activated. For email activity, you must select a queue to be able to activate the rule. If you have selected multiple queues, select and add the required queues from the **Add Existing Queue** option.
    - **Activity type to monitor**: Select **Email** in the list.
+    > [!NOTE]
+    > - You must link the rule to a queue to activate the rule.
+    > - You can't use a queue as part of both single and mulitple queues tracking rule. You need to deactivate the existing rule to be able to use the queue for a new tracking rule.
+    > - You can't convert a single queue automatic record creation and update rule into a multiple queues automatic record creation and update rule and vice versa. You need to create a new rule to set up a multiple tracking rule. 
 
 1. Select **Save**. The **Step two: conditions to evaluate and actions to take** area is enabled.
 
-   > [!div class=mx-imgBorder]
-   > ![Automatically create record rule.](../media/arc-csh-rule.png " Automatically create record rule")
-
-1. In **Step two: conditions to evaluate and actions to take**, select **New**. The **Condition builder** page is displayed.
+  1. In **Step two: conditions to evaluate and actions to take**, select **New**. The **Condition builder** page appears.
    
-   > [!NOTE]
-   > You must add a minimum of one condition for the rule to run successfully.
+       > [!NOTE]
+       > You must add a minimum of one condition for the rule to run successfully.
 
 1. Perform the following steps:
 
@@ -102,11 +101,11 @@ You can configure the rules in the Copilot Service admin center app.
 
       iii. Add related entity
 
-1. In **Actions to take** > **Record to create**, make sure the value is **Case**. A case will be created if the conditions specified are met for the email activity.
+1. In **Actions to take** > **Record to create**, make sure the value is **Case**. A case gets created if the conditions specified are met for the email activity.
 
-1. In **Configure in Microsoft Power Automate**, select **Save and open in Power Automate**. The Power Automate application opens in a new tab where you can configure criteria that must be evaluated for the email activity. To learn more about using Power Automate, see the [documentation for Power Automate](/power-automate/getting-started).
+1. In **Configure in Microsoft Power Automate**, select **Save and open in Power Automate**. The Power Automate application opens in a new tab where you can configure the criteria that must be evaluated for the email activity. Learn more in [Power Automate](/power-automate/getting-started).
 
-1. Select **Save & Close**. The condition builder is closed.
+1. Select **Save & Close**. The condition builder closes.
 
 1. In **Step three: additional actions to take after matching with a condition**, select an option based on your requirement for **Automatically reply to email**.
 
@@ -116,13 +115,13 @@ You can configure the rules in the Copilot Service admin center app.
    > ![Automatically create record rule configured.](../media/arc-csh-rule-all-steps-configured.png " Automatically create record rule configured")
 
   > [!NOTE]
-  > The rule will be in the draft status until you activate it.
+  > The rule remains in the draft status until you activate it.
 
 ## How do record creation and update rules work with queues
 
  In a record creation and update rule, when you specify a queue for a source type, any incoming activity from that source is added as a queue item for that specified queue. That is, if a rule for a particular source activity and queue combination is active, the rule processes the incoming activity on that queue to create or update records. When an email is processed by an automatic record creation rule, a queue item is created. If the email has the queue's email in the blind carbon copy (Bcc) or carbon copy (Cc), a queue item is created from server-side sync. By default, two queue items are created if the email has the queue's email in both the "To" and "Bcc" or "Cc" fields. To control the creation of the queue items, you can set the **CreateQueueItemForSynchronizingMailbox** toggle in your organization's configuration settings. Learn more in [Create queue items from synchronized email messages](/power-platform/admin/create-queue-items-from-synchronized-email-messages).
 
- For an email source type, you must specify a queue. For all other source types including custom activities, it is optional.  
+ For an email source type, you must specify a queue. For all other source types including custom activities, it's optional.  
 
 > [!NOTE]
 > When an automatic record creation rule is applied to an Email queue item, it gets deactivated.
@@ -137,7 +136,7 @@ On the **Advanced** tab of the **Record creation and update rule** page for a ru
 
    - **Allow emails from unknown senders**: Set it to yes, if you want records to be created when email messages arrive from senders whose email addresses aren't present in any contact or account records.
 
-        This option, with the Automatically create records in Dynamics 365 for Customer Engagement option in the rule owner's Personal Options, determines whether a case and contact record is created. To learn more, see [Set personal options](../../customerengagement/on-premises/basics/set-personal-options.md).
+        This option, with the Automatically create records in Dynamics 365 for Customer Engagement option in the rule owner's Personal Options, determines whether a case and contact record is created. Learn more in [Set personal options](../../customerengagement/on-premises/basics/set-personal-options.md).
 
    - **Manage unknown senders by**: Select one of the following options:
      - **Creating a new contact automatically**: Specify if you want a contact to be created automatically.
