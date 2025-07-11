@@ -26,7 +26,7 @@ searchScope:
 
 [!INCLUDE[cc-trial-sign-up](../../includes/cc-trial-sign-up.md)]
 
-You can automatically create or update system or custom records from incoming activities, such as emails, social activities, and custom activities. In this article, you'll learn how to create rules to automatically create records for cases from incoming emails.
+You can automatically create or update system or custom records from incoming activities, such as emails, social activities, and custom activities. In this article, learn how to create rules to automatically create records for cases from incoming emails.
 
 > [!NOTE]
 > Modern automatic record creation and update rules isn't supported on on-premises environments.
@@ -37,7 +37,7 @@ Every organization has multiple applications to capture customer interactions. T
 
 A record creation and update rule consist of rule items. The rule items define the conditions to create or update records, and also define the actions or steps to be taken on the records.
 
-When a case record is created through an automatic record creation rule, and the rule owner is a team, the owner of the case record will be the team's administrator user.
+When a case record is created through an automatic record creation rule, and the rule owner is a team, the owner of the case record is the team's administrator user.
 
 ## Activities and entities supported by rules for creating or updating records automatically
 
@@ -77,7 +77,7 @@ You can configure the rules in the Copilot Service admin center app.
    - **Activity type to monitor**: Select **Email** in the list.
     > [!NOTE]
     > - You must link the rule to a queue to activate the rule.
-    > - You can't use a queue as part of both single and mulitple queues tracking rule. You need to deactivate the existing rule to be able to use the queue for a new tracking rule.
+    > - You can't use a queue as part of both single and multiple queues tracking rule. You need to deactivate the existing rule to be able to use the queue for a new tracking rule.
     > - You can't convert a single queue automatic record creation and update rule into a multiple queues automatic record creation and update rule or vice versa. You need to create a new rule to set up a multiple tracking rule. 
 
 1. Select **Save**. The **Step two: conditions to evaluate and actions to take** area is enabled.
@@ -119,7 +119,7 @@ You can configure the rules in the Copilot Service admin center app.
 
 ## How do record creation and update rules work with queues
 
- In a record creation and update rule, when you specify a queue for a source type, any incoming activity from that source is added as a queue item for that specified queue. That is, if a rule for a particular source activity and queue combination is active, the rule processes the incoming activity on that queue to create or update records. When an email is processed by an automatic record creation rule, a queue item is created. If the email has the queue's email in the blind carbon copy (Bcc) or carbon copy (Cc), a queue item is created from server-side sync. By default, two queue items are created if the email has the queue's email in both the "To" and "Bcc" or "Cc" fields. To control the creation of the queue items, you can set the **CreateQueueItemForSynchronizingMailbox** toggle in your organization's configuration settings. Learn more in [Create queue items from synchronized email messages](/power-platform/admin/create-queue-items-from-synchronized-email-messages).
+ In a record creation and update rule, when you specify a queue for a source type, any incoming activity from that source is added as a queue item for that specified queue. That is, if a rule for a particular source activity and queue combination is active, the rule processes the incoming activity on that queue to create or update records. When an automatic record creation rule processes an email, a queue item is created. If the email has the queue's email in the blind carbon copy (Bcc) or carbon copy (Cc), a queue item is created from server-side sync. By default, two queue items are created if the email has the queue's email in both the "To" and "Bcc" or "Cc" fields. To control the creation of the queue items, you can set the **CreateQueueItemForSynchronizingMailbox** toggle in your organization's configuration settings. Learn more in [Create queue items from synchronized email messages](/power-platform/admin/create-queue-items-from-synchronized-email-messages).
 
  For an email source type, you must specify a queue. For all other source types including custom activities, it's optional.  
 
@@ -149,11 +149,11 @@ On the **Advanced** tab of the **Record creation and update rule** page for a ru
 
    - **Wait for a specific amount of time after the connected case has been resolved**: Select **Yes**, and then select a time value in the **Select the amount of time** box that appears. No new case is created until the specified period of time lapses, after a related case is resolved.
 
-      - If you have set the value to **Yes** and specify one hour, and a case exists for a printer issue, when an email comes for the same printer issue, another case won't be created until one hour lapses after the existing printer issue case is resolved.
+      - If you set the value to **Yes** and specify one hour, and a case exists for a printer issue, when an email comes for the same printer issue, another case won't be created until one hour lapses after the existing printer issue case is resolved.
     
-       The resolved case won't be re-opened automatically when the incoming email is associated with it. However, you can configure flows using Power Automate, to re-open a resolved case when an incoming email is associated with the resolved case.
+       The resolved case won't be reopened automatically when the incoming email is associated with it. However, you can configure flows using Power Automate, to reopen a resolved case when an incoming email is associated with the resolved case.
 
-      - If set to **No**, no case is created if a related case exists.
+      - If set to **No**, the system doesn't create a case if a related case exists.
 
       > [!NOTE]
       > If you want a case to be created without any time lapse, then set **Wait for a specific amount of time after the connected case has been resolved** to **Yes** and don't select any time duration in the **Select the amount of time** box.
@@ -164,7 +164,7 @@ On the **Advanced** tab of the **Record creation and update rule** page for a ru
 
 ## Change the order of rule items to be evaluated
 
-The rules are run in the order they're listed in the rule items list. If the incoming activity matches the condition specified in the rule item one, the case is created and the rest of the rule items aren't evaluated. You can reorder the rule items when more than one rule item exists for a rule.
+The rules are run in the order they're listed in the rule items list. If the incoming activity matches the condition specified in the rule item one, the system creates the case and the rest of the rule items aren't evaluated. You can reorder the rule items when more than one rule item exists for a rule.
 
 ## Manually map a contact in Power Automate<a name="configure-in-power-automate"></a>
 
@@ -174,7 +174,7 @@ Perform the following steps to manually map a contact in Power Automate:
 2. In the **Step two: conditions to evaluate and actions to take** area, select the rule item for which you want to manually map the contact in Power Automate.
 3. On the page that appears, on the **Condition builder** tab, select **Save and open Power Automate**. The Power Automate workflow opens on a new tab.
    1. Accept the default connection settings, and select **Continue**.
-   2. On the page that's displayed, in the **Is this email sender a contact or an account** step, for the **If no** option, select the ellipses for **Terminate when no valid customer found**, and select **Delete**.
+   2. On the page that displays, in the **Is this email sender a contact or an account** step, for the **If no** option, select the ellipses for **Terminate when no valid customer found**, and select **Delete**.
    3. Select **OK** on the confirmation dialog.
    4. In the **Create a record (don't rename this step)** step of the workflow, specify the required value in the **Customer (Contacts)** box.
    5. Make sure that you remove the default mappings from **Contact (Contacts)** and **Customer (Accounts)**.
