@@ -137,7 +137,7 @@ In this example, v3 of schedule assistant API, which allows for web API calls, i
 
 ``` json
 {
-    "Version": "3",
+    "Version": "4",
     "IsWebApi": true,
     "Requirement": {
         "msdyn_fromdate": "2021-07-14T00:00:00Z",
@@ -183,6 +183,13 @@ In this example, v3 of schedule assistant API, which allows for web API calls, i
                     "@odata.type": "Microsoft.Dynamics.CRM.expando",
                     "value": "cc19f004-4483-ee11-8178-000d3a5c32c3"
                 }
+            ],
+            "Roles@odata.type": "Collection(Microsoft.Dynamics.CRM.expando)",
+            "Roles": [
+                {
+                    "@odata.type": "Microsoft.Dynamics.CRM.expando",
+                    "value": "76998e42-744c-f011-877d-6045bdfb899e"
+                }
             ]
         }
     }
@@ -194,7 +201,7 @@ The following example demonstrates proper usage of entity collections. In this c
 
 ```json
 {
-    "Version": "3",
+    "Version": "4",
     "IsWebApi": true,
     "Requirement": {
         "msdyn_fromdate": "2021-07-14T00:00:00Z",
@@ -261,5 +268,4 @@ The following example demonstrates proper usage of entity collections. In this c
         }
     }
 }
-
 ```
