@@ -73,19 +73,19 @@ You can configure the rules in the Copilot Service admin center app.
   
    - **Rule name**: Enter a name for the rule.
    - **Queue scope**: Select **Track multiple queues** or **Track single queue**, depending on whether you want to add multiple or a single queue for the rule.
-   - **Queue to monitor**: Select a queue for which the rule must be activated. For email activity, you must select a queue to be able to activate the rule. If you have selected multiple queues, select and add the required queues from the **Add Existing Queue** option.
+   - **Queue to monitor**: Select a queue for which the rule must be activated. For email activity, you must select a queue to be able to activate the rule. If you selected multiple queues, select and add the required queues from the **Add Existing Queue** option.
    - **Activity type to monitor**: Select **Email** in the list.
     > [!NOTE]
     > - You must link the rule to a queue to activate the rule.
     > - You can't use a queue as part of both single and mulitple queues tracking rule. You need to deactivate the existing rule to be able to use the queue for a new tracking rule.
-    > - You can't convert a single queue automatic record creation and update rule into a multiple queues automatic record creation and update rule and vice versa. You need to create a new rule to set up a multiple tracking rule. 
+    > - You can't convert a single queue automatic record creation and update rule into a multiple queues automatic record creation and update rule or vice versa. You need to create a new rule to set up a multiple tracking rule. 
 
 1. Select **Save**. The **Step two: conditions to evaluate and actions to take** area is enabled.
 
   1. In **Step two: conditions to evaluate and actions to take**, select **New**. The **Condition builder** page appears.
    
        > [!NOTE]
-       > You must add a minimum of one condition for the rule to run successfully.
+       > For the rule to run successfully, you must add at least one condition.
 
 1. Perform the following steps:
 
