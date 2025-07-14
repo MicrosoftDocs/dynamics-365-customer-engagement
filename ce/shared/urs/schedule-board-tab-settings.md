@@ -46,7 +46,7 @@ You can open the board settings in two ways:
 
 - **Shared With:** Decides which users can view and edit the schedule board tab.
   - Everyone
-  - Specific People: See [Share a schedule board tab with specific people](#share-a-schedule-board-tab-with-specific-people)
+  - Specific People: Go to [Share a schedule board tab with specific people](#share-a-schedule-board-tab-with-specific-people)
   - Just Me
 
 - **Edit defaults:** Lets you choose the default tab settings when new schedule boards are created. When values in a particular schedule board tab setting show **< Default View >**, it means the value is coming from the default tab settings.
