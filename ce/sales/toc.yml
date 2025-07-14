@@ -194,6 +194,12 @@ items:
           href: sales-copilot-faq.md
         - name: Connect to Dynamics 365 Sales with Model Context Protocol (preview)
           href: connect-to-model-context-protocol-sales.md
+    - name: AI agents
+      items:
+        - name: Opportunity Research Agent 
+          href: opportunity-research-agent.md
+        - name: Configure Opportunity Research Agent
+          href: configure-opportunity-research-agent.md
     - name: Overview of focused view
       href: configure-focused-view.md
       items:
@@ -788,6 +794,12 @@ items:
               href: understand-copilot-summaries.md
         - name: Copilot in Dynamics 365 Sales FAQ
           href: sales-copilot-faq.md
+    - name: AI agents
+      items:
+        - name: Opportunity Research Agent 
+          href: opportunity-research-agent.md
+        - name: Work on opportunities handed over by Opportunity Research Agent
+          href: use-opportunity-research-agent.md
     - name: Overview of focused view
       href: configure-focused-view.md
       items:
@@ -1359,6 +1371,8 @@ items:
       href: faqs-sales-copilot-for-email.md
     - name: Responsible AI FAQs for Sales Qualification Agent
       href: faqs-sales-qualification-agent.md
+    - name: Responsible AI FAQs for Opportunity Research Agent
+      href: faqs-about-opportunity-research.md
     - name: Responsible AI FAQs for chat with Sales data in Microsoft 365 Copilot (preview)
       href: Microsoft-365-Copilot-for-Sales.md
 - name: Resources for other Sales apps

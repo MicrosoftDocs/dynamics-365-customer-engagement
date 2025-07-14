@@ -29,7 +29,7 @@ Ensure that the following prerequisites are met:
 
 - You have a Microsoft Copilot Studio license and your org has sufficient Copilot Studio capacity to run the agent. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
 
-- Server-side synchronization is configured for sellers who will use the Opportunity Research Agent. This step is important for the agent to access the sellers' emails and meetings, which are essential for gathering insights and updating CRM records. Learn more in [Configure server-side synchronization](server-side-synchronization.md).
+- Server-side synchronization is configured for sellers who own the opportunities that the agent will handle. This step is important for the agent to access the sellers' emails and meetings, which are essential for gathering insights and updating sales records. Learn more in [Configure server-side synchronization](server-side-synchronization.md).
 
 - You modified Data Loss Prevention (DLP) policies to allow external connections. Learn more in [Configure data loss prevention policies for agents](/microsoft-copilot-studio/admin-data-loss-prevention).
 
@@ -41,7 +41,8 @@ As the agent consumes capacity, it is important to plan and configure it to hand
 
 - Determine the products that you want the Opportunity Research Agent to handle. The products should be handled by a single sales team. If your company sells multiple products through different sales teams, pick one product line.
 - Determine the type of opportunities that you want the Opportunity Research Agent to handle. For example, you might want it to handle only the opportunities that are **Hot** and of high value.
-- Ensure that server-side synchronization is configured for all sellers who own the opportunities that the agent will handle. 
+- Ensure that server-side synchronization is configured for all sellers who own the opportunities that the agent will handle.
+- The agent uses the machine learning models in predictive opportunity scoring and similar won deals for risk assessment and stakeholder and competitor intelligence respectively. If these models are not configured in your environment, they're configured automatically when you start the agent.
 
 ## Step 3: Set up the Opportunity Research Agent
 
@@ -70,14 +71,15 @@ As the agent consumes capacity, it is important to plan and configure it to hand
 
 1. In the **Selection criteria** tab, specify the following information:
    - **Segment name:** Enter a name for the segment that the agent will handle, such as "Microsoft 365 Opportunities".
- 
+     > [!NOTE]
+       The agent doesn't use the segmentation feature in Dynamics 365 Sales. The segment name is only used to identify the opportunities that the agent will handle.
+
    - **Description:** Enter a description for the segment, such as "Opportunities related to Microsoft 365 products".
    - **Filter conditions:** Define the filter conditions for the segment. Opportunities that match these conditions will be handled by the agent. For example, to handle only the opportunities that are **Hot** and of high value, you can specify the following conditions:
      - Rating equals **Hot**.
      - Est. revenue greater than or equal to $100,000.
      - Status equals **Open**.
-    > [!IMPORTANT]
-    > Ensure that you don't have any other segment that matches the same criteria. Otherwise, the opportunities will never be assigned to the agent.
+
 1. After starting the agent for the first time, the agent filters opportunities created in the last 30 days by default and then applies the filter conditions that you specified. To select a smaller duration, select the check box **Consider opportunities created in the last** and specify the number of days.
 1. Select **Simulate** to view a limited set of opportunities that match the filter conditions. This helps you verify that the agent is picking the right opportunities.
   :::image type="content" source="media/opportunity-research-agent-selection-criteria.png" alt-text="Screenshot of the Selection criteria tab for Opportunity Research Agent.":::
@@ -96,12 +98,26 @@ As the agent consumes capacity, it is important to plan and configure it to hand
 
 1. In the **Opportunity assessment** tab, specify the fields that the agent will use to assess the importance and risk of the opportunities. 
     - **Monetary value:** Select the field that represents the monetary value of the opportunity, such as **Est. revenue**. This field determines the importance of the opportunity.
-    - Estimated close date: Select the field that represents the estimated close date of the opportunity, such as **Est. close date**. This field helps the agent assess the urgency of the opportunity and identify potential risks.
+    - **Estimated close date**: Select the field that represents the estimated close date of the opportunity, such as **Est. close date**. This field helps the agent assess the urgency of the opportunity and identify potential risks.
 
 ### Configure knowledge for generating research insights
 
-1. In the **Research insights** tab, specify the knowledge that the agent will use to generate research insights for the opportunities. The agent uses this knowledge to gather information about your account, and your competitive landscape.
-   - **Company insights:** Select reliable knowledge sources that you want the agent to use to gather insights about the company associated with the opportunity.
-   - **Competitors:** Add the competitors that you want the agent to consider while generating insights. The agent uses this information to provide competitive intelligence and help sellers understand the competitive landscape.
-   
-Select **Manage** to add or remove knowledge sources in Copilot Studio for accounts and competitors. Learn more in [Knowledge sources overview](/microsoft-copilot-studio/knowledge-copilot-studio).
+1. In the **Research insights** tab, specify the knowledge sources that the agent must use to generate research insights for the opportunities. 
+   > [!NOTE]
+   > The Sales Qualification Agent and Opportunity Research Agent share the same knowledge sources for account insights. The knowledge sources that you add to or remove from one of the agents will be reflected in the other agent as well. If you're already seeing the knowledge sources, it's possible that those are already configured for the Sales Qualification Agent.
+
+1. Under **Company insights**, select **Manage** to add reliable knowledge sources that you want the agent to use to gather insights about the account associated with the opportunity.
+   The D365 Sales Agent - Research agent's **Knowledge** page opens in Copilot Studio.
+1. Under **Competitors**, select **Manage** to add the competitors that you want the agent to consider while generating insights. The agent uses this information to provide competitive intelligence and help sellers understand the competitive landscape. By default, the agent collects insights from public web sources. However, you can also add knowledge sources that are specific to your organization, such as battle cards and positioning documents.
+1. Select **Manage** to add or remove knowledge sources for competitor insights. 
+   The **D365 Sales Agent - Competitors** agent's **Knowledge** page opens in Copilot Studio. 
+   Learn more about creating knowledge sources in [Knowledge sources overview](/microsoft-copilot-studio/knowledge-copilot-studio).
+> [!NOTE]
+> If you have multiple documents, be sure to group the documents after uploading them to the knowledge source. Learn more in Copilot Studio documentation.
+
+## Start the agent
+
+Start the agent only after you have configured all the settings and verified that they are correct. The agent will begin processing the opportunities that match the selection criteria right after you start it.
+
+Select **Start agent** on the **Opportunity Research Agent** settings page.
+The agent is started and its status is set to **On** on the **AI agents** page. The agent starts processing the opportunities that match the selection criteria and generate research insights based on the configured knowledge sources. This process might take some time, depending on the number of opportunities and the complexity of the knowledge sources.
