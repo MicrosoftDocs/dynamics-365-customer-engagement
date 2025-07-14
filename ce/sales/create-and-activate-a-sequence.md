@@ -1,7 +1,7 @@
 ---
 title: Sequence creation and activation in the sales accelerator
 description: Create and activate a sequence by defining a set of activities as steps that sellers should follow while handling records in Dynamics 365 Sales.
-ms.date: 06/17/2024
+ms.date: 07/11/2025
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -19,19 +19,17 @@ Also, sellers can create and activate sequences for themselves and use the seque
 ## Create a sequence
 
 1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.
-2. Under **Sales accelerator**, select **Sequence**.  
+2. Under **Sales accelerator**, select **Sequences**.  
 3. On the **Sequences** page, select **New sequence**.   
-    > [!div class="mx-imgBorder"]
-    > ![Select New to create a sequence.](media/sequence-select-new-sequence.png "Select New to create a sequence")   
+    :::image type="content" source="media/sequence-select-new-sequence.png" alt-text="Screenshot of selecting New to create a sequence in Dynamics 365 Sales.":::
 
 4. In the **Create a sequence** dialog, select one of the following options to create the sequence:  
 
     - **Use template**: Use the templates to quickly set up sequences. Sequence templates provide a set of activities to guide sellers with the next best action to take to achieve a task, such as getting introduced to a lead and winning the deal. More information: [Sequence templates](sequence-templates.md)  
     
     - **Use blank sequence**: Use a blank sequence to create a sequence from scratch.   
-        
-    > [!div class="mx-imgBorder"]
-    > ![Select an option to create a sequence.](media/sequence-select-option-create-sequence.png "Select an option to create a sequence")     
+             
+    :::image type="content" source="media/sequence-select-option-create-sequence.png" alt-text="Screenshot of selecting an option to create a sequence in Dynamics 365 Sales.":::
 
 5. In the **Define sequence properties** dialog, enter the following information.
 
@@ -41,14 +39,12 @@ Also, sellers can create and activate sequences for themselves and use the seque
     | Description | A description of the sequence. (Optional) |
     | Entity | The entity type for which you want to apply this sequence. By default, the Lead entity type is selected. |   
 
-    > [!div class="mx-imgBorder"]
-    > ![Create a sequence dialog.](media/sequence-create-sequence.png "Create a sequence dialog")   
+    :::image type="content" source="media/sequence-create-sequence.png" alt-text="Screenshot of the Create a sequence dialog in Dynamics 365 Sales.":::
 
 6. Select **Next**.     
     The sequence designer page opens.
 
-    > [!div class="mx-imgBorder"]
-    > ![The sequence designer page.](media/sequence-designer-page.png "The sequence designer page")   
+    :::image type="content" source="media/sequence-designer-page.png" alt-text="Screenshot of the sequence designer page in Dynamics 365 Sales.":::
 
     By default, the **Sequence start here** step is added to sequence as the first step.  
 
@@ -94,8 +90,7 @@ Deactivate the sequence before you assign it to users or a team.
     >[!NOTE]
     >You can have up to 250 active sequences at a time in your organization.        
 
-    > [!div class="mx-imgBorder"]
-    > ![Select activate sequence.](media/sequence-select-activate-sequence.png "Select activate sequence")  
+    :::image type="content" source="media/sequence-select-activate-sequence.png" alt-text="Screenshot of selecting Activate to activate a sequence in Dynamics 365 Sales.":::
 
 1. Select **Activate** in the confirmation message that appears.   
     > [!NOTE]
@@ -103,8 +98,7 @@ Deactivate the sequence before you assign it to users or a team.
 
     The sequence is activated and listed in the sequence designer home page. Also, you can see the status of the sequence beside the name and a confirmation message.  
 
-    > [!div class="mx-imgBorder"]
-    > ![Sequence activated and status.](media/sequence-activate-sequence-confirmation.png "Sequence activated and status")  
+    :::image type="content" source="media/sequence-activate-sequence-confirmation.png" alt-text="Screenshot of the confirmation message and status after activating a sequence in Dynamics 365 Sales.":::
 
 Next, you connect the active sequence to records. More information: [Connect a sequence to records](connect-a-sequence-to-records.md)
 
@@ -115,8 +109,7 @@ On the sequence home page, you can do the following tasks:
 - Reorder the columns by dragging them to the location you want in the grid.
 - Search is available only on the name and description of the sequence.
 
-> [!div class="mx-imgBorder"]
-> ![Sequence designer home page.](media/sequence-home-page.png "Sequence designer home page")    
+:::image type="content" source="media/sequence-home-page.png" alt-text="Screenshot of the Sequence designer home page in Dynamics 365 Sales.":::
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
