@@ -1,5 +1,5 @@
 ---
-title: Set up the Opportunity Research Agent
+title: Configure  the Opportunity Research Agent
 description: Learn how to set up and configure the Opportunity Research Agent in Dynamics 365 Sales.
 ms.date: 07/09/2025
 ms.topic: overview
@@ -15,11 +15,13 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure Opportunity Research Agent
+# Configure the Opportunity Research Agent
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 As an administrator, you can configure the Opportunity Research Agent in Dynamics 365 Sales to help sales professionals gain insights and recommendations for the opportunities they are working on. The agent automatically gathers information from various sources, providing a streamlined research experience, stakeholder and competitor intelligence, and actionable risk mitigation strategies.
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Step 1: Verify prerequisites
 
@@ -40,6 +42,7 @@ Ensure that the following prerequisites are met:
 As the agent consumes capacity, it is important to plan and configure it to handle the right opportunities. Here are some considerations to keep in mind before you set up the Opportunity Research Agent: 
 
 - Determine the products that you want the Opportunity Research Agent to handle. The products should be handled by a single sales team. If your company sells multiple products through different sales teams, pick one product line.
+
 - Determine the type of opportunities that you want the Opportunity Research Agent to handle. For example, you might want it to handle only the opportunities that are **Hot** and of high value.
 - Ensure that server-side synchronization is configured for all sellers who own the opportunities that the agent will handle.
 - The agent uses the machine learning models in predictive opportunity scoring and similar won deals for risk assessment and stakeholder and competitor intelligence respectively. If these models are not configured in your environment, they're configured automatically when you start the agent.
@@ -70,9 +73,7 @@ As the agent consumes capacity, it is important to plan and configure it to hand
 ### Configure selection criteria for opportunities
 
 1. In the **Selection criteria** tab, specify the following information:
-   - **Segment name:** Enter a name for the segment that the agent will handle, such as "Microsoft 365 Opportunities".
-     > [!NOTE]
-       The agent doesn't use the segmentation feature in Dynamics 365 Sales. The segment name is only used to identify the opportunities that the agent will handle.
+   - **Segment name:** Enter a name for the segment that the agent will handle, such as "Microsoft 365 Opportunities". The agent doesn't use the segmentation feature in Dynamics 365 Sales. The segment name is only used to identify the opportunities that the agent will handle.
 
    - **Description:** Enter a description for the segment, such as "Opportunities related to Microsoft 365 products".
    - **Filter conditions:** Define the filter conditions for the segment. Opportunities that match these conditions will be handled by the agent. For example, to handle only the opportunities that are **Hot** and of high value, you can specify the following conditions:
@@ -87,18 +88,19 @@ As the agent consumes capacity, it is important to plan and configure it to hand
 
 ### Configure refresh frequency
 
-1. In the **Refresh frequency** tab, specify how frequently you want the agent to refresh the research data for the opportunities. The frequency is set to **Medium** by default, which is ideal for most businesses. You can refresh the research data more or less often based on how quickly your market and competitive landscape change and the available Copilot Studio capacity.
+ the **Refresh frequency** tab, specify how frequently you want the agent to refresh the research data for the opportunities. The frequency is set to **Medium** by default, which is ideal for most businesses. You can refresh the research data more or less often based on how quickly your market and competitive landscape change and the available Copilot Studio capacity.
 
-   - **High:** Data is refreshed every day. This option is ideal for businesses that always need the latest information, but it consumes more capacity.
-   - **Medium:** Data is refreshed every three days. This option is suitable for businesses that need regular updates but don't require daily insights. It balances performance and data accuracy.
-   - **Low:** Data is refreshed every seven days. This option consumes the least capacity and is suitable for businesses that don't need frequent updates and want to save capacity.
+- **High:** Data is refreshed every day. This option is ideal for businesses that always need the latest information, but it consumes more capacity.
+- **Medium:** Data is refreshed every three days. This option is suitable for businesses that need regular updates but don't require daily insights. It balances performance and data accuracy.
+- **Low:** Data is refreshed every seven days. This option consumes the least capacity and is suitable for businesses that don't need frequent updates and want to save capacity.
 
 
 ### Configure fields for importance and risk assessment
 
-1. In the **Opportunity assessment** tab, specify the fields that the agent will use to assess the importance and risk of the opportunities. 
-    - **Monetary value:** Select the field that represents the monetary value of the opportunity, such as **Est. revenue**. This field determines the importance of the opportunity.
-    - **Estimated close date**: Select the field that represents the estimated close date of the opportunity, such as **Est. close date**. This field helps the agent assess the urgency of the opportunity and identify potential risks.
+In the **Opportunity assessment** tab, specify the fields that the agent will use to assess the importance and risk of the opportunities. 
+
+- **Monetary value:** Select the field that represents the monetary value of the opportunity, such as **Est. revenue**. This field determines the importance of the opportunity.
+- **Estimated close date**: Select the field that represents the estimated close date of the opportunity, such as **Est. close date**. This field helps the agent assess the urgency of the opportunity and identify potential risks.
 
 ### Configure knowledge for generating research insights
 

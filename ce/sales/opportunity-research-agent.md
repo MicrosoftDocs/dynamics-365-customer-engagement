@@ -19,7 +19,13 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Opportunity Research Agent in Dynamics 365 Sales empowers sales professionals to work more efficiently on complex, high-value deals. The agent automatically gathers insights from multiple sources and provides actionable recommendations. These insights help sellers stay informed, identify risks, and engage the right stakeholders. Following are some of the key features and benefits of the Opportunity Research Agent:
+The Opportunity Research Agent in Dynamics 365 Sales empowers sales professionals to work more efficiently on complex, high-value deals. The agent automatically gathers insights from multiple sources and provides actionable recommendations. These insights help sellers stay informed, identify risks, and engage the right stakeholders. 
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+## What can the agent do for you?
+
+Following are some of the key features and benefits of the Opportunity Research Agent:
 
 **Streamlined research experience:** Automatically aggregates insights from CRM, customer communications, public sources, and internal repositories, minimizing context-switching and research overhead.
 

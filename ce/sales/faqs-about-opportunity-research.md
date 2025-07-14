@@ -15,10 +15,12 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-## FAQs about Opportunity Research Agent
+## FAQs about Opportunity Research Agent (preview)
 
 These frequently asked questions are intended to help you understand the
 impact of AI on Opportunity Research Agent in Dynamics 365 Sales.
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## What is the Opportunity Research Agent?
 
