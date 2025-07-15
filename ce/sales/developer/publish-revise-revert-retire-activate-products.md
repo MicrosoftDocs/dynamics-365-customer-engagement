@@ -1,7 +1,7 @@
 ---
 title: Publish, revise, revert, retire, and activate products (product lifecycle)
 description: Programmatically control the product lifecycle through the draft, active, under revision, and retired states.
-ms.date: 06/28/2024
+ms.date: 06/30/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag

@@ -1,7 +1,7 @@
 ---
 title: Configure the faceted search results web template from your portal
 description: Know how the faceted search results web template can be configured from your portal.
-ms.date: 07/31/2024
+ms.date: 06/26/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -21,7 +21,7 @@ You can view and search for knowledge article attachments on the portal based on
 
 1. In the site map of Portal Management, go to **Content** area and select **Web Templates**. You can sign in to Portal Management from multiple locations. Learn more in [Portal Management app overview](/power-pages/configure/portal-management-app).
 1. From the **Active Web Templates** dropdown list, select your knowledge article web template.
-1. On the **Web Template** page, select the **General** tab, add the following snippet to the **Source** field.
+1. On the **Web Template** page, select the **General** tab, and then add the following snippet to the **Source** field.
 
   
   ```JavaScript                        

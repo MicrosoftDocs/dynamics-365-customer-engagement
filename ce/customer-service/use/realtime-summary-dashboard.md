@@ -4,7 +4,7 @@ description: View and understand the Summary report in Omnichannel real-time ana
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: concept-article
+ms.topic: conceptual
 ms.collection:
 ms.date: 05/09/2025
 ms.custom:

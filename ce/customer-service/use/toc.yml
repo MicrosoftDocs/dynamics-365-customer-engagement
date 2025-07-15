@@ -357,7 +357,7 @@
           - name: Agent report
             href: rr-agent.md            
           - name: Backlog work items report
-            href: rr-backlogitems.md  
+            href: rr-backlogitems.md
         - name: Use Customer Service historical analytics dashboards
           items: 
           - name: Customer Service historical analytics dashboards
@@ -413,7 +413,7 @@
           - name: Conversation metrics
             href: /dynamics365/customer-service/develop/calculate-conversation-metrics?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
           - name: Session metrics
-            href: session-metrics.md
+            href: /dynamics365/customer-service/develop/calculate-session-metrics?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
           - name: Service representative metrics
             href: service-rep-metrics.md
         - name: Personalize analytics
@@ -496,6 +496,8 @@
         href: /dynamics365/contact-center/implement/faq-rai-ai-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Responsible AI FAQ for Copilot in Customer Service
         href: ../implement/faq-responsible-ai-copilot.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Responsible AI FAQs for NLUs in AI agents
+        href: /dynamics365/contact-center/implement/natural-language-ai-faq?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml         
     - name: Resources
       items:
       - name: Training

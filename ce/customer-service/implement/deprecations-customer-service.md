@@ -4,8 +4,8 @@ description: Use this article to get information about features that are depreca
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.topic: concept-article
-ms.date: 06/04/2025
+ms.topic: conceptual
+ms.date: 07/10/2025
 ms.custom: bap-template
 ms.collection:
 ---
@@ -19,19 +19,23 @@ Administrators and IT professionals can use this information to prepare for futu
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
+## Legacy version of Case and Conversation Topics in Customer Service and Contact Center is deprecated
+
+Starting June 20, 2025, the legacy AI topic clustering for [Cases](../administer/configure-topics-clustering-cases-cs.md#configure-ai-topic-clustering-for-cases) and [Conversation Topics](../administer/ai-topic-clustering-conversations.md#configure-ai-topic-clustering-for-conversations) in Dynamics 365 Customer Service and Dynamics 365 Contact Center is deprecated and will reach the end of support. After August 31, 2025, this feature will be removed, and users won't be able to use it in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
+
 ## setClickToAct (JavaScript API Reference) to be deprecated on October 31, 2025
 
 In Dynamics 365 Channel Integration Framework versions 1 and 2, the setClickToAct (JavaScript API Reference) API will be deprecated on October 31, 2025. If you need to change outbound configuration for your channel provider, review [Enable outbound communication (ClickToAct) in Dynamics 365 Channel Integration Framework 2.0](../../channel-integration-framework/v2/administer/enable-outbound-communication-clicktoact.md).
 
 ## Omnichannel agent and supervisor dashboard experiences to be deprecated on December 1, 2025
 
-The Omnichannel dashboard experiences in Copilot Service workspace will be deprecated on December 1, 2025. Support will end on December 1, 2027. This upcoming change affects customers who use the agent or supervisor dashboard experiences. We recommend that you transition to the [inbox experience](../use/use-inbox.md) and [Omnichannel real-time analytics report](../use/intro-realtime-analytics-dashboard.md) in the Copilot Service workspace app. 
+The Omnichannel dashboard experiences in Copilot Service workspace will be deprecated on December 1, 2025. Support will end on December 1, 2026. This upcoming change affects customers who use the agent or supervisor dashboard experiences. We recommend that you transition to the [inbox experience](../use/use-inbox.md) and [Omnichannel real-time analytics report](../use/intro-realtime-analytics-dashboard.md) in the Copilot Service workspace app. 
 
 Copilot Service workspace offers modern customer service experiences, with features like multi-entity support, read and unread configurations, card configuration, and Copilot-suggested actions. The inbox is the recommended solution for customer service representatives to manage their work items. The inbox is continuously being updated with more AI features and enhanced configurations. [Get started with a trial version of Copilot Service workspace](https://www.microsoft.com/dynamics-365/products/customer-service).
 
 ## Effort estimation model in unified routing is deprecated
 
-The [effort estimation model in unified routing](../administer/use-effort-estimation-for-routing.md) is deprecated as of May 02, 2025. The support for the feature will end and the feature will be removed on June 02, 2025.
+The effort estimation model in unified routing was deprecated on May 02, 2025. The support for the feature ended and the feature was removed on June 02, 2025.
 
 ## Auto-summarization of ongoing conversations is deprecated
 

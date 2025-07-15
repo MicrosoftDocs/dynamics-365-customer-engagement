@@ -68,10 +68,12 @@ When you receive an incoming call, you can transfer the call to a service repres
        - The original call continues. 
        - If the external user doesn't accept the call, customers hear a system message before the call ends.
        - Post call survey is sent to the customer if the external user or Teams user ends the call.
+       - The external user receives the call from the caller ID of the contact center phone number the customer originally called.
     - **Disabled**
        - Customer hears ringing.
        - The original call ends and a new call begins.
        - Customers don't hear a message before the call ends if the external user doesn't accept the call.
+       - The external user receives the call from the caller ID of the customer.
 
     ### [Existing voice](#tab/existingvoicestack)
  

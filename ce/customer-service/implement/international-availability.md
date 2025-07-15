@@ -2,7 +2,7 @@
 title: International availability of Omnichannel for Customer Service
 description: Discover which geographic locations and languages are supported by Omnichannel for Customer Service.
 ms.date: 03/17/2025
-ms.topic: concept-article
+ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
 ms.collection:

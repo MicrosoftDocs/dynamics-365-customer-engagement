@@ -12,14 +12,14 @@ By default, a new schedule board tab is visible only to the user who creates it 
 
    - **Everyone** exposes the tab to all users who can access the schedule board.
    - **Just Me** restricts the tab to you only.
-   - **Specific People** shares the tab with other users that you choose.
+   - **Specific People** [shares the tab with other users that you choose](#choose-users-to-share-the-schedule-board-tab).
 
    > [!NOTE]
    > Every user with the Schedule Board Setting read privilege set to User can see tabs shared with them. Admins can create custom security roles. Users with higher privileges to Schedule Board Setting records can access schedule board tabs even if they aren't shared with them directly. Managing schedule board access for teams by creating custom security roles and editing permissions isn't supported. Instead, choose users to share the schedule board tab.
 
 ## Choose users to share the schedule board tab
 
-The schedule board saves tabs as records in the *Schedule Board Settings* table. To share a tab, use the [Schedule board settings management control](/dynamics365/guidance/resources/fs-schedule-board-settings-management-control).
+The schedule board saves tabs as records in the *Schedule Board Settings* table. To share a tab with specific people, use the [Schedule board settings management control](/dynamics365/guidance/resources/fs-schedule-board-settings-management-control).
 
 > [!TIP]
 > Alternatively, you can also directly access a schedule board settings record by finding the relevant ID with this URL: `[OrgUrl]/api/data/v9.2/msdyn_scheduleboardsettings`.
