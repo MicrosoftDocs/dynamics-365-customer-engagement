@@ -122,6 +122,7 @@ When you initiate a consult, the following actions occur:
 
 [Overview of the voice channel](../administer/voice-channel.md)  
 [Enable voice consult with Microsoft Teams users](../administer/voice-consult-microsoft-teams-user.md)  
+[Enable transfer of conversations to representatives](../administer/enable-transfer-consult.md)  
 [Call a customer](voice-channel-call-customer.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

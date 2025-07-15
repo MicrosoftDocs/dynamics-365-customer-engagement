@@ -126,7 +126,7 @@ After you type **/c** in the communication panel messaging area, you can continu
 
 ## Transfer conversations
 
-If your administrator has enabled the **Transfer to representatives** setting in the Copilot Service admin center, you can transfer the conversation to another representative.
+If your administrator has enabled the [**Transfer to representatives**](../administer/enable-transfer-consult.md) setting in the Copilot Service admin center, you can transfer the conversation to another representative.
 
 In the communication panel, you can transfer the work item either to a representative or queue. If operating hours have been configured for the queues, you can successfully transfer the conversation to only those queues that are operational at the transfer time.
 
