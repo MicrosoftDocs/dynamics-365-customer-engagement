@@ -70,6 +70,7 @@ The following table contains the list of context variables available in Omnichan
 To have your Copilot agent read context variables from Omnichannel, do the following steps:
 
 1. On the **Topics** page, select **Add a topic** > **from blank**.
+
 1. Enter a name for your topic, such as **Set context variables**, and save it.
 1. Add a new node to the topic, and select **Variable management > Set a variable value**.
 1. In your new node, under **Set variable** select **Create a new variable**.
@@ -80,7 +81,7 @@ To have your Copilot agent read context variables from Omnichannel, do the follo
 1. Close the **Variable properties** pane.
 1. In your node, enter a value in **To value** that matches the data type your agent expects. For example, if your agent should use the customer's phone number from omnichannel, set it to Activity.From.Name.
   
-  :::image type="content" source="../media/configure-bot-context-variable.png" alt-text="Screenshot of a context variable in a topic in Copilot Studio.":::  
+    :::image type="content" source="../media/configure-bot-context-variable.png" alt-text="Screenshot of a context variable in a topic in Copilot Studio.":::  
 
 1. Save and publish the changes.
 
@@ -95,7 +96,7 @@ The global variables that are created in Copilot Studio can be passed to Omnicha
 Make sure that you have the following details:
 
 - The Omnichannel for Customer Service context variable, such as msdyn_contact_msdyn_ocliveworkitem_Customer.
-- The schema details
+- The schema details.
 
 A copy of the sample schema details is as follows:
 
