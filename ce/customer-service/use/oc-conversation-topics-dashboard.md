@@ -2,6 +2,7 @@
 title: Omnichannel Conversation Topics Dashboard
 description: Learn about the Conversation topics dashboard in Omnichannel historical analytics to better understand customer service representative performance in your organization.
 ms.date: 06/25/2025
+ms.update-cycle: 180-days
 ms.topic: conceptual
 author: gandhamm
 ms.collection: bap-ai-copilot

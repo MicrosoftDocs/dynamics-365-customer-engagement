@@ -2,6 +2,7 @@
 title: Configure fields for generating summaries and recent changes
 description: Learn how to configure fields for generating summaries and recent changes list in Copilot for leads, opportunities, and accounts.
 ms.date: 06/26/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
