@@ -1,7 +1,7 @@
 ---
 title: Integrate Field Service bookings with Outlook calendars (preview)
 description: Set up Microsoft Online Exchange to integrate with Dynamics 365 Field Service to synchronize bookings.
-ms.date: 07/07/2025
+ms.date: 07/21/2025
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -57,11 +57,11 @@ Set up user mailboxes to synchronize with Microsoft Exchange Online. If tasks, c
 
 ## Booking synchronization
 
-Bookings synchronize one week in the past and up to two weeks in the future. If synchronization is disabled, synchronized records aren’t deleted. New records don't synchronize.
+Bookings synchronize one week in the past and up to two weeks in the future. If synchronization is disabled, synchronized records aren’t deleted and new records don't synchronize.
 
 ### Create and edit bookings
 
-When a booking is scheduled for a work order, it appears in the technician’s Outlook calendar after synchronization occurs, every 10 to 15 minutes. A link is created. The appointment includes: the work order date, time window, work order number, and location. The booking has a default priority.
+When a booking is scheduled for a work order, it appears in the technician’s Outlook calendar after synchronization occurs, every 10 to 15 minutes. A link is created. The appointment includes: the work order date, time window, work order number, and location. The appointment has a default priority.
 
 A change to the booking time window or location in Field Service triggers an update to Outlook during synchronization. If only the work order is updated in Field Service, Outlook isn’t updated.
 
