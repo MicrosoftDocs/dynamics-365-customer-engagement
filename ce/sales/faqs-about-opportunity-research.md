@@ -1,5 +1,5 @@
 ---
-title: Opportunity Research Agent overview
+title: Responsible AI FAQ about the Opportunity Research Agent
 description: Learn how the Opportunity Research Agent in Dynamics 365 Sales helps sales professionals by providing insights and recommendations for the deals they are working on.
 ms.date: 07/09/2025
 ms.topic: overview
