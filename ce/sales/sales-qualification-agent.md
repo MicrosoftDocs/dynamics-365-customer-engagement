@@ -1,25 +1,40 @@
 ---
-title: Sales Qualification Agent overview
-description: Learn how the Sales Qualification Agent in Dynamics 365 Sales can be your personal assistant in qualifying leads and improving sales outcomes.
-ms.date: 05/22/2025
+title: Sales Qualification Agents overview
+description: Learn how the Sales Qualification Agents in Dynamics 365 Sales can be your personal assistant in qualifying leads and improving sales outcomes.
+ms.date: 07/31/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
   - AI-contribution
 ms.custom: bap-template
-author: lavanyakr01
-ms.author: lavanyakr
-ms.reviewer: lavanyakr
+author: udaykirang
+ms.author: udaykirang
+ms.reviewer: udaykirang
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Sales Qualification Agent overview
+# Sales Qualification Agents overview
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-As a seller, you know that qualifying leads is crucial to your success, but it takes up a lot of your time. The Sales Qualification Agent in Dynamics 365 Sales is an AI assistant that automates the manual aspects of lead qualification. It doesn't replace your judgment or decision-making process. It's a productivity tool that helps you qualify leads faster and more effectively, so that you can invest more time in one-on-one interactions with top leads.
+Sales teams often struggle to keep up with the volume of inbound leads from websites, events, and webinars, leading to missed opportunities and idle leads in CRM. Sales qualification agents in Dynamics 365 Sales are AI assistants that automate manual lead qualification. They help you qualify leads faster and more effectively, so you can spend more time interacting with top leads.
+
+Sales Qualification Agents are classified into two types:
+
+- **Research agent**: Previously known as the sales qualification agent, is an AI assistant that automates the manual aspects of lead qualification. It doesn't replace your judgment or decision-making process. It provides detailed insights about each lead, such as their background, recent activities, and news about their company. Think of it as a personal assistant that provides detailed insights about each lead, such as their background, recent activities, and news about their company:
+
+    - **Background**: Understand the lead's role, company, and industry.
+    - **Insights**: Get insights about whether to engage with the lead or not. Know more about the lead's recent activities, such as their recent opportunities, colleagues who worked with the leads, and why this lead matches your ideal customer profile.
+    - **News**: Stay updated with the latest news about the lead's company and industry.
+
+    The Sales Qualification Agent helps you focus on the most promising leads and improve your sales outcomes.
+
+- **Engage agent**: An autonomous sales qualification agent powered by AI helps you manage high lead volumes. The agent works on assigned leads based on your selection criteria, like lead source, rating, or geography. The **Research** agent is a part of the **Engage** agent's functionality. Additionally, the Engage agent autonomously engages with each lead, follows up, and evaluates fit based on your seller hand-off rules. Leads that demonstrate purchase intent and meet most of your criteria are handed over to sellers for qualification, while those that don’t are handed over to supervisors for disqualification, ensuring your sales team focuses only on high-potential opportunities.  
+
+
+
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
