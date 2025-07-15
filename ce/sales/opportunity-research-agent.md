@@ -54,3 +54,11 @@ The Sales Qualification Agent uses the capacity assigned to your tenant to proce
 
 Opportunity Research Agent is built with responsible AI principles in mind. The agent has been carefully evaluated to ensure that it meets quality standards and is designed to be used as a productivity tool. For more information about the agent's responsible AI practices, go to [FAQs about Opportunity Research Agent](faqs-about-opportunity-research.md).
 
+## How to set up and use the agent
+
+Depending on your role, use the following links to configure and use the Opportunity Research Agent:
+
+| Role | Action |
+|------|--------|
+| Admin | [Configure the Opportunity Research Agent](configure-opportunity-research-agent.md) |
+| Seller | [Work on opportunities handed over by the Opportunity Research Agent](use-opportunity-research-agent.md) |
