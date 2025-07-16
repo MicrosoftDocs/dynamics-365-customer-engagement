@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.date: 07/16/2025
+ms.date: 07/17/2025
 ms.custom: bap-template
 ---
 
@@ -134,7 +134,8 @@ You can customize the case form to display the intent and intent group that the 
    
     :::image type="content" source="../media/screenshot-of-multisession-case-intent-attribute.png" alt-text="Screenshot of multisession case form for intent and intent group.":::
 
-1. Import the IntentLib.js script file as a webresource and add it to the form as a form library. The script helps fetch the current attributes for the intent and intent group fields and populates them in the UI. You can download the script file from [here](x). Learn more in [Create or edit model-driven app web resources to extend an app](/power-apps/maker/model-driven-apps/create-edit-web-resources)
+1. Download and import the [intentLib.js](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/intent-based-routing/intentLib.js) script file as a webresource and add it to the form as a form library. The script helps fetch the current attributes for the intent and intent group fields and populates them in the UI. You can download the script file from [here](x). Learn more in [Create or edit model-driven app web resources to extend an app](/power-apps/maker/model-driven-apps/create-edit-web-resources)
+
 1. Go to **Form Properties** to link the script and the attach PopulateIntent function to the **OnLoad** event of the form.
 
 ### Runtime behavior
