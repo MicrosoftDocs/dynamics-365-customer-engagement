@@ -106,9 +106,11 @@ Depending on the settings that are enabled for you, you'll see one of the follow
 
 ## Set disposition codes
 
-If your administrator has enabled disposition codes, the **Disposition Code** section appears on the form. During the conversation, use the **Search codes** drop down to select a disposition code that best describes the outcome of the conversation. 
+If your administrator has enabled disposition codes, the **Disposition Code** section appears on the form. During the conversation, do the following:
+ - Set **Category** to filter the available codes.
+ - Select the disposition code that best describes the outcome of the conversation in **Search codes** drop down. You can select up to the maximum number of disposition codes set by your administrator.
 
-You need to specify a disposition code for the close button (**X**) to appear for the session.
+If your administrator has configured the disposition codes to be mandatory to close a session, you must select a disposition code before you can close the conversation. If you don't select a code, a pop up will appear when you try to close the conversation.
 
    :::image type="content" source="../media/disposition-code.png" alt-text="View disposition code section":::
 
