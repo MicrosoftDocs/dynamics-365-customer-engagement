@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection: 
-ms.date: 06/20/2025
+ms.date: 07/16/2025
 ms.custom: bap-template
 ---
 
@@ -38,6 +38,8 @@ Supervisors can access and view these dashboards from the Copilot Service worksp
 **Real time**
 
 - [Omnichannel real-time analytics dashboards](../use/intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboard): Monitor key operational metrics in real-time and make course corrections at the appropriate time to help keep service levels high.
+
+- [Real-time analytics for record routing](../use/rr-overview.md#overview-of-real-time-analytics-for-record-routing): Monitor key operational metrics in real-time for record routing to enhance agent performance and customer support.
 
 ### Keep the report state when you switch session tabs
 
