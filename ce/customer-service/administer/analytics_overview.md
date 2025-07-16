@@ -29,11 +29,11 @@ Supervisors can access and view these dashboards from the Copilot Service worksp
 
 **Historical**
 
-- [Customer Service historical analytics dashboards](../use/customer-service-analytics-insights-csh.md#customer-service-historical-analytics-reports): Use the performance summary and detailed reports on cases, service representatives, and topics to improve customer service.
+- [Customer Service historical analytics dashboards](../use/customer-service-analytics-insights-csh.md#customer-service-historical-analytics-reports): To help improve customer service, use the performance summary and detailed reports on cases, service representatives, and topics.
 
-- [Omnichannel historical analytics dashboards](../use/omnichannel-analytics-insights.md): Use key performance indicators coupled with AI-generated insights to get a view into the support operations across various channels.
+- [Omnichannel historical analytics dashboards](../use/omnichannel-analytics-insights.md): To get a view into the support operations across various channels, use key performance indicators coupled with AI-generated insights.
 
-- [Knowledge analytics reports](../use/knowledge-search-analytics-cs.md): Use article and search term insights to understand how service representatives use knowledge articles to resolve customer issues.
+- [Knowledge analytics reports](../use/knowledge-search-analytics-cs.md): To understand how service representatives use knowledge articles to resolve customer issues, use article and search term insights.
 
 **Real time**
 
@@ -45,7 +45,7 @@ Supervisors can access and view these dashboards from the Copilot Service worksp
 
 The reports retain their current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the following steps to retain the report state.
 
-1. On the Copilot Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**. This takes you to Power Apps.
+1. On the Copilot Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**. This navigation takes you to Power Apps.
 1. In **Pages**, from **Navigation**, select the required report view. Here's an example. Select **Omnichannel real-time analytics view**.
 1. From **Omnichannel real-time analytics**, go to **Settings** > **Display options**.
 1. In **Display options**, from the **Content type** dropdown list, select **Table**.
