@@ -21,6 +21,8 @@ ai-usage: ai-assisted
 
 Sales teams often struggle to keep up with the volume of inbound leads from websites, events, and webinars, leading to missed opportunities and idle leads in CRM. Sales qualification agents in Dynamics 365 Sales are AI assistants that automate manual lead qualification. They help you qualify leads faster and more effectively, so you can spend more time interacting with top leads.
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
 Sales Qualification Agents are classified into two types:
 
 - **Research agent**: Previously known as the sales qualification agent, is an AI assistant that automates the manual aspects of lead qualification. It doesn't replace your judgment or decision-making process. It provides detailed insights about each lead, such as their background, recent activities, and news about their company. Think of it as a personal assistant that provides detailed insights about each lead, such as their background, recent activities, and news about their company:
@@ -32,11 +34,6 @@ Sales Qualification Agents are classified into two types:
     The Sales Qualification Agent helps you focus on the most promising leads and improve your sales outcomes.
 
 - **Engage agent**: An autonomous sales qualification agent powered by AI helps you manage high lead volumes. The agent works on assigned leads based on your selection criteria, like lead source, rating, or geography. The **Research** agent is a part of the **Engage** agent's functionality. Additionally, the Engage agent autonomously engages with each lead, follows up, and evaluates fit based on your seller hand-off rules. Leads that demonstrate purchase intent and meet most of your criteria are handed over to sellers for qualification, while those that don’t are handed over to supervisors for disqualification, ensuring your sales team focuses only on high-potential opportunities.  
-
-
-
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 The agent autonomously researches leads and determines if they're a good fit for further engagement. Think of it as a personal assistant that provides detailed insights about each lead, such as their background, recent activities, and news about their company:
 
