@@ -85,6 +85,9 @@ To have your Copilot agent read context variables from Omnichannel, do the follo
 
 1. Save and publish the changes.
 
+> [!NOTE]
+> You can access the `Activity.From.Name` variable from the Conversation Start topic only. We recommend that you create a global variable in the Conversation Start topic, set the value of the variable to `Activity.From.Name` and then use the global variable in other topics. This way, you can access the customer's phone number in any topic of your Copilot Studio agent.  
+
 During a conversation, the data from the Omnichannel context variable is set in the Copilot Studio variables and can be used in the agent's logic. 
 
 The agent can also set Omnichannel context variables during a conversation. To set an Omnichannel variable from your Copilot Studio logic, make sure that your agent is using the correct variable name and set the value in the "To value" property in your variable management node. Copilot Studio hands off the variable to Omnichannel during transfer to a customer service representative. This is often used to link the conversation to a case when the agent escalates the conversation to a service representative. More information on how to link records in Omnichannel from this data: [Link customer and case to a conversation](record-identification-rule.md#link-customer-and-case-to-conversations-when-agent-escalates-or-ends-conversations)
