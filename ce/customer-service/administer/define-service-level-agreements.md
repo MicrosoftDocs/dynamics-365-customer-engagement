@@ -1,7 +1,7 @@
 ---
 title: Configure service-level agreements in Dynamics 365 Customer Service
 description: Learn how to configure service-level agreements in Dynamics 365 Customer Service.
-ms.date: 06/25/2025
+ms.date: 07/16/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -35,7 +35,8 @@ To configure SLAs in Copilot Service admin center:
 4. [Apply SLAs](apply-slas.md#apply-slas)
 
 > [!NOTE]
-> You can create SLAs only in environments that have customer engagement apps such as Customer Service, as SLAs are available by default in these apps.
+> - You can create SLAs only in environments that have customer engagement apps such as Customer Service, as SLAs are available by default in these apps.
+> - We recommend that you don't add customizations to the SLA admin configuration form—including SLA, SLA KPI, and SLA item forms—as we don't provide support for issues arising out of such customizations.
 
 ## Prerequisites
 
