@@ -40,7 +40,7 @@ To configure SLAs in Copilot Service admin center:
 
 ## Prerequisites
 
-- Administrators and customer service representatives (service representatives or representatives) must have specific roles and privileges to work with the various entities related to SLA, for example, SLA, SLA KPI, and SLA KPI instances. Review the following requirements before configuring SLAs for your organization.
+- Administrators and customer service representatives (service representatives or representatives) must have specific roles and privileges to work with the various entities that are related to SLA. For example, SLA, SLA KPI, and SLA KPI instances. Review the following requirements before configuring SLAs for your organization.
 
     For administrators:
     - **CSR Manager** role or its equivalent roles and privileges.
@@ -153,7 +153,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 4. Activate the SLA.
 
 > [!NOTE]
-> SLAs that are created in either the web client or Unified Interface can be viewed in both the web client and Unified Interface, but can be edited only where they were created.
+> SLAs that are created in either the web client or Unified Interface are viewable in both the web client and Unified Interface, but can be edited only where they were created.
 
 ### Create an SLA
 
@@ -195,7 +195,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 1. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
 
   > [!IMPORTANT]
-  > If you specify the success condition on the same entity on which applicable when is defined, a recommendation message is displayed with the suggestion that you don't use the same entity. You can choose to select **OK** if your organization needs the conditions to be configured on the same entity.
+  > If you specify the success condition on the same entity on which applicable when it's defined, a recommendation message displays with the suggestion that you don't use the same entity. You can select **OK** if your organization needs the conditions to be configured on the same entity.
 
 1. In the **Pause Configurations** section that appears only when **Allow Pause and Resume** is enabled, do the following:
    1. Set the toggle to **Yes** for **Override Criteria** to pause the SLA item. This setting overrides the pause settings defined at the entity level, if any, in Service Configuration or at the SLA KPI level.
