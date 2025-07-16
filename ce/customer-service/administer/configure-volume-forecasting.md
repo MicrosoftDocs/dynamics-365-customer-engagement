@@ -2,6 +2,7 @@
 title: Configure case volume forecasting
 description: Learn how to configure the Forecast report for cases in Dynamics 365 Copilot Service workspace.
 ms.date: 06/17/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan

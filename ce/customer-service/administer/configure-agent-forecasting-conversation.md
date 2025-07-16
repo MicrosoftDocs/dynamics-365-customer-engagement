@@ -2,6 +2,7 @@
 title: Configure service representative forecasting for conversations
 description: Learn how to configure customer service representative forecasting for conversations in Dynamics 365 Customer Service and Dynamics 365 Copilot Service workspace.
 ms.date: 06/30/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan

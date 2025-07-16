@@ -2,6 +2,7 @@
 title: Integrate a Copilot agent
 description: Use this article to get instructions on how to integrate a Copilot agent in your contact center.
 ms.date: 07/09/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

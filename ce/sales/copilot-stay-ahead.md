@@ -2,6 +2,7 @@
 title: Stay ahead with Copilot
 description: Learn how to prepare for upcoming meetings and catch up on emails with Copilot in Dynamics 365 Sales.
 ms.date: 06/26/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:

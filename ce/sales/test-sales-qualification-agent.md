@@ -2,6 +2,7 @@
 title: Test the Sales Qualification Agent
 description: Learn how to test the Sales Qualification Agent in Dynamics 365 Sales and evaluate its accuracy and performance.
 ms.date: 06/13/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template

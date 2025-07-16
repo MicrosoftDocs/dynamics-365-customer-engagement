@@ -2,6 +2,7 @@
 title: Responsible AI FAQ for the Sales Qualification Agent
 description: Get answers to frequently asked questions about the use of AI in the Sales Qualification Agent in Dynamics 365 Sales.
 ms.date: 05/20/2025
+ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.topic: faq
 search.app: salescopilot-docs
