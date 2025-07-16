@@ -2,6 +2,7 @@
 title: Enable work order summary with Copilot in Field Service
 description: Use Copilot in Field Service to generate AI-powered work order summaries, quickly understand work order status, and take the next steps.
 ms.date: 06/09/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh

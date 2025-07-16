@@ -2,6 +2,7 @@
 title: Customize Copilot in Dynamics 365 Sales
 description: Learn how to extend Copilot in Dynamics 365 Sales to customize the welcome message, add prompts, and the prompt guide.
 ms.date: 06/03/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:

@@ -2,6 +2,7 @@
 title: Connect to Dynamics 365 Sales with Model Context Protocol (preview)
 description: Learn how to connect to Dynamics 365 Sales with Model Context Protocol (MCP) and integrate it with AI agents or models.
 ms.date: 06/19/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
