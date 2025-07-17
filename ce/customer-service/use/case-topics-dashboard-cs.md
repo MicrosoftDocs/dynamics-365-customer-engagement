@@ -2,6 +2,7 @@
 title: Topics dashboard
 description: Learn about the Topics dashboard insights to better understand agent performance in your organization.
 ms.date: 06/30/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan

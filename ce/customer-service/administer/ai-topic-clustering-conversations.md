@@ -2,6 +2,7 @@
 title: Configure AI topic clustering for conversations
 description: Configure topic clustering for conversations using AI.
 ms.date: 06/23/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham

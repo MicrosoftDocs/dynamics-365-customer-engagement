@@ -2,6 +2,7 @@
 title: FAQ about work order summary with Copilot and summary configuration
 description: Get answers to common questions about how the AI-powered work order summary feature in Dynamics 365 Field Service helps you quickly understand the status and details of a work order.
 ms.date: 12/06/2024
+ms.update-cycle: 180-days
 ms.custom:
   - responsible-ai-faqs
   - ai-gen-docs-bap
