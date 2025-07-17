@@ -2,6 +2,7 @@
 title: View smart assist suggestions
 description: Learn how to view smart assist suggestions in Copilot Service workspace.
 ms.date: 04/30/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
