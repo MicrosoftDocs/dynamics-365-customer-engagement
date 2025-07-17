@@ -24,7 +24,7 @@ The data about the recent actions is stored in an entity for the conversation th
 
 ## Prerequisites
 
-Make sure that a developer has added a code snippet to retrieve the steps customers have done and [pass history as context]((../develop/reference/methods/setContextProvider.md#pass-customers-self-service-as-context)) in the self-service portal that is configured for your organization.
+Make sure that a developer has added a code snippet to retrieve the steps customers have done and [pass history as context]((../../developer/reference/methods/setContextProvider.md#pass-customers-self-service-as-context)) in the self-service portal that is configured for your organization.
 
 ## Enable self service
 
@@ -36,9 +36,6 @@ You can enable the self service feature in the Copilot Service admin center app.
 
 1. Set the **Self service** toggle to **Yes**.
 
-   > [!div class='mx-imgBorder']
-   > ![Enable self service.](../media/enable-self-service.png "Enable self service")
- 
 1. Select **Save**. The **Self service** tab appears for the representative when a customer starts a chat.
 
 ### Related information
