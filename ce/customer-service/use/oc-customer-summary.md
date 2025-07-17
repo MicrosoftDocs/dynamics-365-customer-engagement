@@ -110,7 +110,7 @@ If your administrator has enabled disposition codes, the **Disposition Code** se
  - Set **Category** to filter the available codes.
  - Select the disposition code that best describes the outcome of the conversation in **Search codes** drop down. You can select up to the maximum number of disposition codes set by your administrator.
 
-If your administrator has configured the disposition codes to be mandatory to close a session, you must select a disposition code before you can close the conversation. If you don't select a code, a pop up will appear when you try to close the conversation.
+If your administrator has configured the disposition codes to be mandatory to close a session, you must select a disposition code before you can close the conversation. If you don't select a code, a pop up appears when you try to close the conversation.
 
    :::image type="content" source="../media/disposition-code.png" alt-text="View disposition code section":::
 
