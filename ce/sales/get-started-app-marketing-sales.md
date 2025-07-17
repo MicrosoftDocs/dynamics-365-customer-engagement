@@ -2,6 +2,7 @@
 title: Get started with in-app marketing
 description: Learn how to promote your business and improve sales with targeted marketing campaigns in Dynamics 365 Sales.
 ms.date: 05/28/2025
+ms.update-cycle: 1095-days
 ms.collection: get-started
 ms.topic: overview
 ms.custom: 
