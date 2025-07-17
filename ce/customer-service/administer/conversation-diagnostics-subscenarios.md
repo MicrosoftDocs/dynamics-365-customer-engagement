@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: conceptual
 ms.collection:
-ms.date: 06/23/2025
+ms.date: 07/18/2025
 ms.custom: bap-template
 ---
 
@@ -124,6 +124,57 @@ The following metadata can be a part of the custom dimensions in the **Traces** 
     - **AllowedPresences**: Allowed representative presences for the work item
     - **CapacityProfiles**: Required representative capacity profiles for the work item
     - **RequiredSkills**: Skills required by the representative to work on the work item
+
+### Subscenario: IntentDetermination
+
+- **id**: 
+- **Omnichannel.intent_details**:
+  - **ActiveIntentFamilyId**:
+  - **ActiveIntentId**:
+  - **ActiveIntentName**:
+  - **InputFields**:
+- **omnichannel.intent_group_details**: 
+  - **ActiveIntentGroupId**:
+  - **ActiveIntentGroupName**:
+- o**mnichannel.is_intent_determined**: True or false.
+- **omnichannel.is_intent_group_determined**: True or false.
+
+
+### Subscenario: LineOfBusinessIdentification
+
+- **id**:
+- **omnichannel.additional_info**:
+  - **IntentFamilyRulesInformation**:
+  - **IsFamilyEnabledForIntentBasedRouting**: Returns true or false.
+  - **LOBID**: GUID of the line of business.
+  - **LOBName**: Line of business name.
+
+
+
+### Subscenario: UserGroupIdentification
+
+- **id**:
+- **RuleHitPolicy**:
+- **RuleSetInfo**: Provides information on the rules that are run.
+  - **RuleId**: Line of business evaluation rule ID.
+  - **Status**:
+      - **Processed**: Rule was evaluated but didn't match.
+      - **Applied**: Rule was evaluated and output was chosen.
+      - **Not processed**: Not evaluated.
+  - **Order**: Rule order.
+  - **RuleItem**:
+  - **Condition**: Defined in lines of business rule.
+  - **UserGroupOutput**:
+   - **id**:
+   - **Name**:
+   - **Languages**: Live work item language that was matched with the user group.
+   - **Regions**: Live work item region that was matched with the user group.
+- **omnichannel.is_user_group_determined**: Returns true or false.
+- **omnichannel.user_group_detail**:
+
+    
+
+
 
 ### Subscenario: CSRAccepted
 
