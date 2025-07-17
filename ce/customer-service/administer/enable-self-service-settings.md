@@ -24,7 +24,7 @@ The data about the recent actions is stored in an entity for the conversation th
 
 ## Prerequisites
 
-Make sure that a developer has added a code snippet to retrieve the steps customers have done and [pass history as context]((../../developer/reference/methods/setContextProvider.md#pass-customers-self-service-as-context)) in the self-service portal that is configured for your organization.
+Make sure that a developer has added a code snippet to retrieve the steps customers have done and [pass history as context](../develop/reference/methods/setContextProvider.md) in the self-service portal that is configured for your organization.
 
 ## Enable self service
 
