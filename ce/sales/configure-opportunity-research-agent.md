@@ -35,6 +35,10 @@ Ensure that the following prerequisites are met:
 
 - You modified Data Loss Prevention (DLP) policies to allow external connections. Learn more in [Configure data loss prevention policies for agents](/microsoft-copilot-studio/admin-data-loss-prevention).
 
+- If you're using a custom security role for your sales team, ensure that the role has Organization-level `Read` access to the following entities to view the research insights:
+  - Opportunity Research Result (msdyn_OpportunityResearchResult)
+  - Opportunity Research Indicator (msdyn_OpportunityResearchIndicator)
+
 - (Optional but recommended) You turned on Copilot in Dynamics 365 Sales to allow your sellers to get a 360-degree view of the lead and their company. Learn more in [Turn on and set up Copilot in Dynamics 365 Sales](enable-setup-copilot.md) and [Get information from Copilot](copilot-get-information.md).
 
 ## Step 2: Plan your implementation
@@ -53,7 +57,7 @@ As the agent consumes capacity, it is important to plan and configure it to hand
 
 1. Go to **General Settings** > **AI command center**.
 1. Select **Create agent** under **Agent manager**.
-1. On the **AI agents** page, select **Prerequisites** to ensure that all prerequisites are met. 
+1. On the **AI agents** page, select **Prerequisites** and ensure that all prerequisites are met. 
    :::image type="content" source="media/opportunity-research-agent-prerequisites.png" alt-text="Screenshot of the Prerequisites page for Opportunity Research Agent."::: 
 1. If all the prerequisites are met, select **Create** and then select **Opportunity Research Agent**.
   The Opportunity Research Agent settings page opens.
@@ -86,6 +90,7 @@ As the agent consumes capacity, it is important to plan and configure it to hand
   :::image type="content" source="media/opportunity-research-agent-selection-criteria.png" alt-text="Screenshot of the Selection criteria tab for Opportunity Research Agent.":::
 
 
+
 ### Configure refresh frequency
 
  the **Refresh frequency** tab, specify how frequently you want the agent to refresh the research data for the opportunities. The frequency is set to **Medium** by default, which is ideal for most businesses. You can refresh the research data more or less often based on how quickly your market and competitive landscape change and the available Copilot Studio capacity.
@@ -106,7 +111,7 @@ In the **Opportunity assessment** tab, specify the fields that the agent will us
 
 1. In the **Research insights** tab, specify the knowledge sources that the agent must use to generate research insights for the opportunities. 
    > [!NOTE]
-   > The Sales Qualification Agent and Opportunity Research Agent share the same knowledge sources for account insights. The knowledge sources that you add to or remove from one of the agents will be reflected in the other agent as well. If you're already seeing the knowledge sources, it's possible that those are already configured for the Sales Qualification Agent.
+   > The Sales Qualification Agent and Opportunity Research Agent share the same knowledge sources for account insights. The knowledge sources that you add to or remove from one of the agents will be reflected in the other agent as well. If you see knowledge sources already, it's possible that those are configured for the Sales Qualification Agent. Do not remove them unless you want to remove them from both agents.
 
 1. Under **Company insights**, select **Manage** to add reliable knowledge sources that you want the agent to use to gather insights about the account associated with the opportunity.
    The D365 Sales Agent - Research agent's **Knowledge** page opens in Copilot Studio.
@@ -117,7 +122,7 @@ In the **Opportunity assessment** tab, specify the fields that the agent will us
 > [!NOTE]
 > If you have multiple documents, be sure to group the documents after uploading them to the knowledge source. Learn more in Copilot Studio documentation.
 
-## Start the agent
+## Start or stop the agent
 
 Start the agent only after you have configured all the settings and verified that they are correct. The agent will begin processing the opportunities that match the selection criteria right after you start it.
 

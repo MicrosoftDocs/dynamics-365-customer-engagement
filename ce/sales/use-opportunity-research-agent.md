@@ -21,11 +21,21 @@ ai-usage: ai-assisted
 
 The Opportunity Research Agent in Dynamics 365 Sales empowers you to work more efficiently on complex, high-value deals. The agent automatically gathers insights from multiple sources, assesses risk to the opportunity, and provides actionable recommendations. After completing the research, the agent hands over the opportunity to you to take action.
 
+## Prerequisites
+
+You need the following prerequisites:
+
+- Your admin has configured the Opportunity Research Agent for your organization. 
+- You're part of the sales team that works on the segment of opportunities that your admin has configured the agent for.
+- You have the necessary permissions to view and work on the opportunities handed over by the agent.
+- Your Exchange inbox is configured for server-side synchronization. This is required for the agent to gather insights from your emails and meetings.
+
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## View opportunities handed over by the Opportunity Research Agent
 
 1. In the Sales Hub app, select **Opportunities**.
+
 1. From the views drop-down, select **My top opportunities from AI agent**.  
    :::image type="content" source="media/opportunities-from-agent.png" alt-text="Screenshot of the My top opportunities from AI agent view in the Sales Hub app.":::
    The view lists all the opportunities that the agent researched on and includes the importance and risk for each opportunity. The list includes only opportunities with high and medium importance.

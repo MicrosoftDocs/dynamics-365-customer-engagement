@@ -32,3 +32,7 @@ By default, the research data is refreshed once in three days. Your admin can ch
 ## Why do knowledge sources from Sales Qualification Agent appear in Opportunity Research Agent?
 
 The Sales Qualification Agent and Opportunity Research Agent share the same Copilot Studio agent for research. Hence, the knowledge sources are shared among both the sales agents for research insights. Any additions or deletions to the knowledge sources in one agent are reflected in the other.
+
+## Why did the Opportunity Research Agent pause?
+
+The agent pauses when the admin turns it off. You'll see the following message in the banner: "Opportunity Research Agent paused, data may be outdated and actions may be disabled." Contact your admin to turn on the agent. 
