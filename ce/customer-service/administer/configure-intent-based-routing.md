@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.date: 06/20/2025
+ms.date: 07/17/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -129,14 +129,15 @@ Follow the steps in [Assignment methods for queues](assignment-methods.md) to se
 
 ## Customize the case form to display intent labels
 
-During runtime, to indicate the intent and intent group that the case belongs to, you can customize the case form to display the labels on the **Summary** tab of the case.
+You can customize the case form to display the intent and intent group that the case belongs to. These fields aren't available out of the box, and you must manually create and add them to display on the **Summary** tab of the case.
 
 1. In Power Apps, edit the **Case for multisession form** to add the intent and intent group fields. Learn more in [Add or delete columns to a form](/power-apps/maker/model-driven-apps/add-move-or-delete-fields-on-form).
    
     :::image type="content" source="../media/screenshot-of-multisession-case-intent-attribute.png" alt-text="Screenshot of multisession case form for intent and intent group.":::
 
-1. Import the PopulateIntent script file as a webresource. The script helps fetch the current attributes for the intent and intent group fields and populates them in the UI.
-1. Go to **Form Properties** to link the script and attach it to the **OnLoad** event.
+1. Download and import the [intentLib.js](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/intent-based-routing/intentLib.js) script file as a webresource and add it to the form as a form library. The script helps fetch the current attributes for the intent and intent group fields and populates them in the UI. Learn more in [Create or edit model-driven app web resources to extend an app](/power-apps/maker/model-driven-apps/create-edit-web-resources).
+
+1. Go to **Form Properties** to link the script and the attach PopulateIntent function to the **OnLoad** event of the form.
 
 ### Runtime behavior
 
