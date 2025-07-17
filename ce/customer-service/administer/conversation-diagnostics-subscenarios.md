@@ -127,6 +127,8 @@ The following metadata can be a part of the custom dimensions in the **Traces** 
 
 ### Subscenario: IntentDetermination
 
+Displays information about the intent and intent group determined for the conversation.
+
 - **id**: 
 - **Omnichannel.intent_details**:
   - **ActiveIntentFamilyId**:
@@ -142,6 +144,8 @@ The following metadata can be a part of the custom dimensions in the **Traces** 
 
 ### Subscenario: LineOfBusinessIdentification
 
+Displays information on the line of business identified for the conversation.
+
 - **id**:
 - **omnichannel.additional_info**:
   - **IntentFamilyRulesInformation**:
@@ -149,9 +153,9 @@ The following metadata can be a part of the custom dimensions in the **Traces** 
   - **LOBID**: GUID of the line of business.
   - **LOBName**: Line of business name.
 
-
-
 ### Subscenario: UserGroupIdentification
+
+Displays information on the user group identified for the conversation.
 
 - **id**:
 - **RuleHitPolicy**:
