@@ -32,7 +32,7 @@ You can enable the self service feature in the Copilot Service admin center app.
 
 1. In the site map of admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
 
-1. In the **Self service** section, select **Manage**. The **Omnichannel Configuration . Self service settings** page is displayed.      
+1. In the **Self service** section, select **Manage**. The **Omnichannel Configuration . Self service settings** page appears.    
 
 1. Set the **Self service** toggle to **Yes**.
 
