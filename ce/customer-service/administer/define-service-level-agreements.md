@@ -195,7 +195,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 1. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
 
   > [!IMPORTANT]
-  > If you specify the success condition on the same entity on which applicable when it's defined, a recommendation message displays with the suggestion that you don't use the same entity. You can select **OK** if your organization needs the conditions to be configured on the same entity.
+  > If you specify the success condition on the same entity on which applicable when is defined, a recommendation message appears with the suggestion that you don't use the same entity. You can select **OK** if your organization needs the conditions to be configured on the same entity.
 
 1. In the **Pause Configurations** section that appears only when **Allow Pause and Resume** is enabled, do the following:
    1. Set the toggle to **Yes** for **Override Criteria** to pause the SLA item. This setting overrides the pause settings defined at the entity level, if any, in Service Configuration or at the SLA KPI level.
