@@ -183,6 +183,9 @@
       "ms.custom": {
         "unified-service-desk/**.*": "evergreen"
       },
+      "ms.update-cycle": {
+        "unified-service-desk/**.*": "1095-days"
+      },
       "ms.subservice": {
         "channel-integration-framework/**.*": "channel-integration-framework",
         "sales/sales-mobile/**.*": "d365-sales-mobile",
