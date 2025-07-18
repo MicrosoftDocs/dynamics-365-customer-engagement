@@ -4,6 +4,7 @@ description: Learn about the key features and limitations of the new user experi
 ms.topic: how-to
 ms.subservice: field-service-mobile
 ms.date: 10/10/2024
+ms.update-cycle: 180-days
 author: JonBaker007
 ms.author: jobaker
 ms.collection: bap-ai-copilot 

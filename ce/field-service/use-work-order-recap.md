@@ -2,6 +2,7 @@
 title: Summarize work orders with Copilot in Field Service
 description: Generate a work order summary with Copilot in Dynamics 365 Field Service to quickly understand work order status and next steps.
 ms.date: 06/09/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh

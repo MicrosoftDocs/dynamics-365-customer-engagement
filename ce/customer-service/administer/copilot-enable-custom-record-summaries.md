@@ -6,6 +6,7 @@ ms.author: laalexan
 ms.reviewer: lalexms
 ms.topic: how-to 
 ms.date: 06/27/2025
+ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.collection: bap-ai-copilot
 ---

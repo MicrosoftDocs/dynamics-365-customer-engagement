@@ -1,7 +1,7 @@
 ---
 title: Search resource availability API
 description: Learn how to use an API to find eligible resources in Field Service. 
-ms.date: 07/14/2025
+ms.date: 07/16/2025
 ms.topic: reference
 author: mkelleher
 ms.author: mkelleher
@@ -40,9 +40,9 @@ The settings entity isn't an entity that exists in the Dataverse; however, it's 
 | ConsiderTravelTime | Boolean | Set this to _True_ if travel time should be considered when computing potential time slots on the resource's calendar. | No | True
 | MovePastStartDateToCurrentDate | Boolean | Set this to _True_ to move a start date in the past to the current date. | No | False
 | UseRealTimeResourceLocation | Boolean | Set this to _True_ if the real-time location of resources should be used when computing potential time slots on the resource's calendar. | No | False
-| SortOrder | Entity | The sort order can be specified using an entity collection. Each entity in the collection represents one sort criteria. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.expando`. The following are the attributes you need to populate: <ol> <li> **Name** (_String_): The sort criteria <li>**SortOrder** (_Integer_): The sort direction (0 for ascending and 1 for descending) | No | None
+| SortOrder | EntityCollection | Specify the sort order by using an entity collection. Each entity in the collection represents one sort criteria, and can only sort `Resources` from the response but not `TimeSlots`. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.expando`. The following are the attributes you need to populate: <ol> <li> **Name** (_String_): The sort criteria <li>**SortOrder** (_Integer_): The sort direction (0 for ascending and 1 for descending) | No | None
 | MaxResourceTravelRadius | Entity | This attribute specifies the maximum that can be defined in an entity. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.expando`. The following are the attributes you need to populate: <ol> <li> **Value** (_Decimal_): The radius <li> **Unit** (_Integer_): The distance unit. See msdyn_distance unit option set for possible values. | No| 0 km. If that's the case, no resources are returned for onsite requirements.
-| MaxNumberOfResourcesToEvaluate | Integer | This attribute defines a limit on the number of resources that are considered for the request. | No | If this attribute is not included in the API call, the system uses the Resource Availability Retrieval Limit from schedulable entity definition as defined in [Edit settings for enabled entities](schedule-new-entity.md#edit-settings-for-enabled-entities). If included in the call, it will overwrite the defined Resource Availability Retrieval Limit.
+| MaxNumberOfResourcesToEvaluate | Integer | This attribute defines a limit on the number of resources that are considered for the request. | No | If this attribute is not included in the API call, the system uses the Resource Availability Retrieval Limit from schedulable entity definition as defined in [Edit settings for enabled entities](schedule-new-entity.md#edit-settings-for-enabled-entities). If included in the call, it overwrites the defined Resource Availability Retrieval Limit.
 | ConsiderOutlookSchedules | Boolean | Set this to _True_ if schedules from Outlook should be considered. Only available in versions 3.1.0 and later | No | False
 
 ### Resource specification entity
@@ -82,7 +82,7 @@ At the highest level, the output has the following four parameters. The results 
 
 | Name | Type | Description |
 | --- | --- | --- | 
-| TimeSlots | EntityCollection | A collection of time slot results. For more information, see (time slot entity)[#time-slots-entity] section. |
+| TimeSlots | EntityCollection | A collection of time slot results. For more information, see [time slot entity](#time-slots-entity) section. |
 | Resources | EntityCollection | A collection of resource results. Resources are represented as a collection of entities with the following attributes: <ol> <li> **BookableResource** (_Entity_): The bookable resource entity that is available for the requirement. <li> **TotalAvailableTime** (_Double_): The total available time for the resource to perform the requirement. |
 | Related | Entity | Related resources represent resources and time slots of resources that aren't directly qualified for the requested requirement but are related. For example, if a crew member qualifies for a requirement, then the other members of that crew would be related results. <ol> <li> **Timeslots** (*EntityCollection*): Time slots of related resources. The definition of time slots is the same as described in the [time slots section](#time-slots-entity). <li> **Resources** (*EntityCollection*): The related resources. The definition of resources is the same as described in the resources attribute definition. |
 | Exceptions | Entity | This attribute contains information about any exception that occurred and information about if and where the resource search was truncated. <ol> <li> **Message** (_String_): Exception message <li> **ResourcesTruncatedAt** (_Integer_): If the number of resources exceeded the retrieval limit; the number where the resources where truncated. |
