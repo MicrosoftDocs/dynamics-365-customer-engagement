@@ -1,7 +1,7 @@
 ---
 title: Configure advanced options for inspections
 description: Learn about advanced ways of working with inspections in Dynamics 365 Field Service.
-ms.date: 06/04/2024
+ms.date: 07/15/2025
 ms.topic: how-to
 ms.custom: bap-template
 author: josephshum-msft
@@ -20,7 +20,9 @@ Watch a brief video overview:
 
 An inspection can look and act differently depending on how the technician answers. Add branching and conditional logic in the **Logic** section of the inspection designer. The inspection must be in a draft status.
 
-1. Open a draft inspection and select **Logic**.
+1. In Field Service, change to the **Settings** area. Under **Work Orders**, select **Inspection Templates**.
+
+1. Open a draft inspection, select the **Logic** tab, and then **Create rule**.
 
 1. To define a condition, select a question and response.
 
@@ -38,7 +40,9 @@ An inspection can look and act differently depending on how the technician answe
 
 1. Continue to add conditions and actions if needed and then select **Apply rule & close**.
 
-1. Add other rules if needed.
+   :::image type="content" source="media/inspection-logic.png" alt-text="Screenshot of Logic tab with a condition and action.":::
+
+1. Add other rules if needed and then select **Save & Close**.
 
 ## Copy an inspection
 
@@ -58,7 +62,7 @@ When you publish an inspection, it becomes read-only. To change it, you need to 
 
 Revising an inspection doesn't change service tasks retroactively. Service tasks keep the inspection version that was active when the task was created.
 
-1. Open the list of inspections and select one.
+1. Open the inspection.
 
 1. Select **Revise** in the command bar.
 
@@ -74,11 +78,9 @@ Revising an inspection doesn't change service tasks retroactively. Service tasks
 
 Export an inspection as a PDF file to send the questions in an email. Although the questions can be answered in the file, they no longer interact with the Dynamics 365 system (for example, lookups don't work), and they don't flow back into Field Service.
 
-1. Open the list of inspections and select one.
+1. Open the inspection you want to export.
 
 1. Select **Export** > **Export to PDF** to download the file.
-
-:::image type="content" source="media/export-inspection-template.png" alt-text="Screenshot of the export as PDF option.":::
 
 ## Export inspection responses as a PDF file
 
@@ -92,7 +94,7 @@ Open the work order service task in a new window and select **Export Responses**
 
 Administrators can export inspections as JSON objects to import them to another environment; for example, from a test environment to a production environment.
 
-1. Open the list of inspections and select one.
+1. Open the inspection you want to export.
 
 1. Select **Export** > **Export to json** to download the file in JSON format.
 
@@ -103,7 +105,7 @@ Add a variation of an inspection for each language your technicians speak.
 > [!IMPORTANT]
 > [Turn on languages in your environment](/power-platform/admin/enable-languages) to let technicians view translated inspections in the mobile app.
 
-1. Open the list of inspections, select one, and then select the **Translation** tab.
+1. Open the inspection and then select the **Translation** tab.
 
 1. Select a language from the list and enter the translation for each question.
 
@@ -111,7 +113,9 @@ Add a variation of an inspection for each language your technicians speak.
 
 ## Associate inspections with customer assets
 
-Associate an inspection to a customer asset to let technicians know which asset to inspect and to build a [service history](service-history.md). Enter the customer asset in the **Service Task Relates To** tab of the work order service task that uses the inspection.
+Associate an inspection to a customer asset to let technicians know which asset to inspect and to build a [service history](service-history.md).
+
+Open the work order service task in a new window and scroll to **Customer Asset**. Select the asset or create it.
 
 :::image type="content" source="media/inspections-wost-customer-asset.png" alt-text="Screenshot of the work order service task showing the Service Task Relates To tab, highlighting an associated customer asset.":::
 
