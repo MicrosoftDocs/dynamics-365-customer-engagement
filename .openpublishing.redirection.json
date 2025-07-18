@@ -35670,8 +35670,7 @@
     {
       "source_path": "ce/customer-service/administer/migrate-config-data-for-records.md",
       "redirect_url": "/dynamics365/customer-service/administer/migrate-record-routing-config-using-solutions",
-      "redirect_document_id": false
-    }        
+      "redirect_document_id": false       
     },
     {"source_path": "ce/customer-service/use/oc-metrics-dimensions.md",
       "redirect_url": "/dynamics365/customer-service/develop/calculate-conversation-metrics",
