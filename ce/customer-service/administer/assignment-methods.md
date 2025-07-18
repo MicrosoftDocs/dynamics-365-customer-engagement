@@ -237,7 +237,7 @@ The assignment rules are composed of the following items:
 
   - **Ordering Attributes**:
 
-    - **Least active**: Is available for voice queues only. The work item is routed to the representative who is least active among all the representatives who match skills, presence, and capacity. Learn more in the [Types of assignment methods](#types-of-assignment-methods) section.
+    - **Least active**: Is available for voice and messaging queues only. The work item is routed to the representative who is least active among all the representatives who match skills, presence, and capacity. Learn more in the [Types of assignment methods](#types-of-assignment-methods) section.
     - Round robin
     - Unit-based available capacity
     - Profile-based available capacity
