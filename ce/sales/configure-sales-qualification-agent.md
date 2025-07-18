@@ -1,26 +1,25 @@
 ---
-title: Set up the Sales Qualification Agent
+title: Set up and configure the Sales Qualification Agent
 description: Learn how to activate and set up the Sales Qualification Agent in Dynamics 365 Sales to help your sellers use AI for effective lead qualification.
-ms.date: 07/03/2025
-ms.update-cycle: 180-days
+ms.date: 07/31/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template
-author: lavanyakr01
-ms.author: lavanyakr
-ms.reviewer: lavanyakr
+author: udaykirang
+ms.author: udag
+ms.reviewer: udag
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Set up the Sales Qualification Agent
+# Set up and configure the Sales Qualification Agent
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-As an admin, you need to set up the Sales Qualification Agent before your sellers can use it for lead research, ideal customer profile (ICP) fit assessment, and initial email outreach. This article discusses how to configure the details about your company and products you sell, your ideal customer profile, and other settings to help the agent align with your company's sales strategy and goals.
-
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+As an admin, you need to set up the Sales Qualification Agent before your sellers can use it for lead research, ideal customer profile (ICP) fit assessment, and initial email outreach. This article discusses how to configure the details about your company and products you sell, your ideal customer profile, and other settings to help the agent align with your company's sales strategy and goals.
 
 ## Prerequisites
 
