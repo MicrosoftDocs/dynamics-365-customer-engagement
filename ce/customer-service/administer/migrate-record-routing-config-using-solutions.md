@@ -5,7 +5,7 @@ author: mjfjesus
 ms.author: marcoje
 ms.reviewer: marcoje
 ms.topic: how-to
-ms.date: 04/23/2024
+ms.date: 07/16/2025
 ms.custom: bap-template
 ---
 
@@ -64,66 +64,63 @@ For more information on solutions go to [Solutions in Power Apps](/power-apps/ma
 
 ## Migrate configuration for skill-based routing rulesets
 
-If skill-based routing rulesets are used in your setup, perform the steps to migrate the corresponding configuration.
+If skill-based routing rulesets are used in your unified routing setup, perform the steps to migrate the corresponding configuration.
 
-For sample schema to get all the required records, go to [Sample schema for skill-based routing configuration](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20skill-based%20routing.xml).
+For sample schema to get all the required records, see [Sample schema for skill-based routing configuration](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20skill-based%20routing.xml).
 
-1. Use the Configuration Migration tool to create the schema and export data from the source environment (organization) for skill-based routing configuration.
+1. Use the Configuration Migration tool to create the schema and export data from the source organization for skill-based routing configuration.
   
-   - **Entity display name**: When you create the schema, select the tables (entities) in the sequence as mentioned in the following table.
-   - **Attribute display name**: We recommend that you select the columns (attributes) defined in the table. You don't need to select the out-of-the-box system-defined columns like **Created By**, **Created On**, **Modified By**, **Modified On**, and **Owner**. You can select custom columns if necessary.
+    - **Entity display name**: When you create the schema, select the entities in the sequence that's mentioned in the table.
+    - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system-defined attributes like Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes if necessary.
 
-    > [!IMPORTANT]
-    > For the **Characteristic** table, you must manually create **bookableresourcecharacteristictype** Global choice-value in the target environment, or use a solution to migrate it from the source environment, if necessary.
+	> [!IMPORTANT]
+    > You must manually create bookableresourcecharacteristictype (Global option set value) in the target organization, if necessary.
 
-    |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
-    |---------|---------|---------|
-    |Characteristic (characteristic)    | <ul><li>Characteristic Type (characteristictype)</li><li>Characteristic (characteristicid)</li><li>Description (description)</li><li>Name (name)</li></ul> |         |
-    |Rating Model (ratingmodel)     |<ul><li>Max Rating Value (maxratingvalue)</li><li>Min Rating Value (minratingvalue)</li><li>Name (name)</li><li>Rating Model (ratingmodelid)</li></ul>         |         |
-    |Rating Value (ratingvalue)     | <ul><li>Name (name)</li><li>Rating Model (ratingmodel)</li><li>Rating Value (ratingvalueid)</li><li>Value (value)</li></ul> |         |
-
-1. Generate the schema and save it.
-
-1. Export the data and generate the compressed (.zip) file.
-
-1. Use the Configuration Migration tool and select the option to import data into the target environment using the compressed file.
-
-## Migrate configuration for new capacity profiles
-
-If you configured new capacity profiles in your setup, perform the steps to migrate the corresponding configuration.
-
-For sample schema to get all the required records, go to [Sample schema for capacity profiles](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20capacity%20profiles.xml).
-
-> [!TIP]
-> After you migrate a new capacity profile using the Configuration Migration tool, migrate the updates using solutions.
-
-1. Use the Configuration Migration tool to create the schema and export data in the source environment for capacity profile configuration.
-   - **Entity display name**: When you create the schema, select the tables (entities) from the list in the same sequence as mentioned in the following table.
-   - **Attribute display name**: We recommend that you select the columns (attributes) defined in the table. You don't need to select the out-of-the-box system defined columns like **Created By**, **Created On**, **Modified By**, **Modified On**, and **Owner**. You can select custom columns, if necessary.
-   - **Use FetchXML to filter records**: For each selected table, use the appropriate FetchXML query that's mentioned in the table to get single, multiple, or all records based on your requirement. For single or multiple rows, you need to use the source environment to get the correct name in uiname and GUID in value. If required, you can use the **ADVANCED FIND** menu item to construct the appropriate FetchXML query.
-
-    |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
-    |---------|---------|---------|
-    |Capacity Profile (msdyn_capacityprofile)     | <ul><li>Block Assignment (msdyn_blockassignment)</li><li>Capacity Profile (msdyn_capacityprofileid)</li><li>Default Max Units (msdyn_defaultmaxunits)</li><li>Name (msdyn_name)</li><li>Reset Duration (msdyn_resetduration)</li><li>Unique Name (msdyn_uniquename)</li></ul> | **Sample 1: For all capacity profile records**<br>`<fetch>` <br>  `  <entity name="msdyn_capacityprofile">` <br>`    <filter type="and">`<br>`      <condition attribute="ismanaged" operator="eq" value="0" />`<br>`    </filter>`<br>`  </entity>`<br>  `</fetch>`<br><br> **Sample 2: For a single capacity profile record** <br> `<fetch>` <br>`  <entity name="msdyn_capacityprofile">`<br>`    <filter type="and">`<br>`      <condition attribute="msdyn_capacityprofileid" operator="eq" uiname="Demo Capacity Profile 1" uitype="msdyn_capacityprofile" value="{F57CFE3C-14BD-D53E-F423-A1E7F9749DFB}" />`<br> `    </filter>`<br> `  </entity>`<br> `</fetch>` <br><br> **Sample 3: For multiple capacity profile records** <br> `<fetch>`<br> `  <entity name="msdyn_capacityprofile">`<br> `    <filter type="and">` <br> `      <condition attribute="msdyn_capacityprofileid" operator="in">`<br>`        <value uiname="Demo Capacity Profile 1" uitype="msdyn_capacityprofile">{F57CFE3C-14BD-D53E-F423-A1E7F9749DFB}</value>`<br> `        <value uiname="Demo Capacity Profile 2" uitype="msdyn_capacityprofile">{D0B8ABFB-4A9F-0B1F-6FF4-8003E29A623C}</value>`<br>`      </condition>`<br>`    </filter>`<br>`  </entity>`<br>`</fetch>` |
+   |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
+   |---------|---------|---------|
+   |Characteristic (characteristic)    | <ul><li>Characteristic Type (characteristictype)</li><li>Characteristic (characteristicid)</li><li>Description (description)</li><li>Name (name)</li></ul> |         |
+   |Rating Model (ratingmodel)     |<ul><li>Max Rating Value (maxratingvalue)</li><li>Min Rating Value (minratingvalue)</li><li>Name (name)</li><li>Rating Model (ratingmodelid)</li></ul>         |         |
+   |Rating Value (ratingvalue)     | <ul><li>Name (name)</li><li>Rating Model (ratingmodel)</li><li>Rating Value (ratingvalueid)</li><li>Value (value)</li></ul> |         |
 
 1. Generate the schema and save it.
 
-1. Export the data and generate the compressed (.zip) file.
+1. Export the data and generate the compressed (zip) file.
 
-1. Open the Configuration Migration tool and select the option to import data into the target environment.
+1. Use the Configuration Migration tool, and select the option to import data into the target organization using the compressed file.
 
-## Migrate configuration for queues
+## Migrate configuration for capacity profiles
 
-Use the Configuration Migration tool to create the schema and export data from the source environment for the queue configuration.
-   - **Entity display name**: When you create the schema, select the tables (entities) from the list in the same sequence as mentioned in the following table.
-   - **Attribute display name**: We recommend that you select the columns (attributes) defined in the table. You don't need to select the out-of-the-box system defined columns like **Created By**, **Created On**, **Modified By**, **Modified On**, and **Owner**. You can select custom columns, if necessary.
-   - **Use FetchXML to filter records**: For each selected table, use the appropriate FetchXML query that's mentioned in the table to get single, multiple, or all records based on your requirement. For single or multiple rows, you need to use the source environment to get the correct name in uiname and GUID in value. If required, you can use the **ADVANCED FIND** menu item to construct the appropriate FetchXML query.
-   - Configure import settings: For the **Decision contract** table, ensure that you select the **Do not update existing records** checkbox.
+If you have configured capacity profiles in your unified routing setup, perform the steps to migrate the corresponding configuration.
+
+For sample schema to get all the required records, see [Sample schema for capacity profiles](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20capacity%20profiles.xml).
+
+1. Use the Configuration Migration tool to create the schema and export data in source organization for capacity profiles configuration.
+
+    [!INCLUDE[ur-migration](../../includes/cc-ur-migration.md)]
+
+    The following table summarizes the entities and corresponding FetchXML samples.
+
+    |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
+    |---------|---------|---------|
+    |Capacity Profile (msdyn_capacityprofile)     | <ul><li>Block Assignment (msdyn_blockassignment)</li><li> Capacity Profile (msdyn_capacityprofileid)</li><li>Default Max Units (msdyn_defaultmaxunits)</li>Name (msdyn_name)</li><li> Reset Duration(msdyn_resetduration)</li><li>Unique Name (msdyn_uniquename)</li></ul> | **Sample 1: For all capacity profile records**<br>`  <fetch>` <br>  `<entity name="msdyn_capacityprofile">` <br>`<filter type="and">`<br>`<condition attribute="ismanaged" operator="eq" value="0" />`<br>`</filter>`<br>`</entity>`<br>  `</fetch>`<br><br> **Sample 2: For a single capacity profile record** <br> `<fetch>` <br>`<entity name="msdyn_capacityprofile">`<br>`<filter type="and">`<br>`<condition attribute="msdyn_capacityprofileid" operator="eq" uiname="Demo Capacity Profile 1" uitype="msdyn_capacityprofile" value="{F57CFE3C-14BD-D53E-F423-A1E7F9749DFB}" />`<br> `</filter>`<br> `</entity>`<br> `</fetch>` <br><br> **Sample 3: For multiple capacity profile records** <br> `<fetch>`<br> `<entity name="msdyn_capacityprofile">`<br> `<filter type="and">` <br> `<condition attribute="msdyn_capacityprofileid" operator="in">`<br>`<value uiname="Demo Capacity Profile 1" uitype="msdyn_capacityprofile">{F57CFE3C-14BD-D53E-F423-A1E7F9749DFB}</value>`<br> `<value uiname="Demo Capacity Profile 2" uitype="msdyn_capacityprofile">{D0B8ABFB-4A9F-0B1F-6FF4-8003E29A623C}</value>`<br>`</condition>`<br>`</filter>`<br>`</entity>`<br>`</fetch>` |
+
+2. Generate the schema and save it.
+
+3. Export the data and generate the compressed (zip) file.
+
+4. Use the Configuration Migration tool, and select the option to import data into the target organization.
+
+## Migrate configuration for record queues
+
+Use the Configuration Migration tool to create the schema and export data from the source organization for the record queues configuration.
+
+[!INCLUDE[ur-migration](../../includes/cc-ur-migration.md)]
 
 If you're using the out-of-the-box assignment methods for queues, such as highest capacity and round robin, skip the following entities:
-   - Decision rule set
-   - Assignment configuration
-   - Assignment configuration step
+
+- Decision rule set
+- Assignment configuration
+- Assignment configuration step
 
 The assignment rulesets must be available in the system before the Configuration Migration tool imports the selection criteria. Hence, you need to perform the following steps in the specified order to migrate configuration for record queues:
 
@@ -154,7 +151,7 @@ The following table summarizes the entities and corresponding FetchXML samples.
 |  Assignment Configuration (msdyn_assignmentconfiguration)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Description (msdyn_description)</li><li>Is Active Configuration (msdyn_isactiveconfiguration)</li><li>Name (msdyn_name)</li><li>Queue (msdyn_queueid)</li><li>Unique Name (msdyn_uniquename)</li></ul>  | [**Sample 1: Assignment configuration for all record queues**](#BKMK1all-ur-ac) <br> <br>[**Sample 2: Assignment configuration for a single record queue**](#BKMK2single-ur-ac) <br> <br>[**Sample 3: Assignment configuration for multiple record queues**](#BKMK3multiple-ur-ac) <br>   |
 |  Assignment Configuration Step without selection criteria (msdyn_assignmentconfigurationstep)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Assignment Configuration Step (msdyn_assignmentconfigurationstepid)</li><li>Is default ruleset (msdyn_isdefaultruleset)</li><li>Name (msdyn_name)</li><li>Rule Set (msdyn_rulesetid)</li><li>Step Order (msdyn_steporder)</li><li>Step Type (msdyn_type)</li><li>Unique Name (msdyn_uniquename)</li></ul>  |  [**Sample 1: Assignment configuration step for all record queues without selection criteria defined**](#BKMK1nsc-ur-acs) <br> <br> [**Sample 2: Assignment configuration step for a single record queue without selection criteria defined**](#BKMK2nsc-ur-acs) <br> <br> [**Sample 3: Assignment configuration step for multiple record queues without selection criteria defined**](#BKMK3nsc-ur-acs) <br>   |
 |Operating Hour (msdyn_operatinghour)|<ul><li>Description (msdyn_description)</li><li>Name (msdyn_name)</li><li>Operating Hour (msdyn_operatinghourid)</li><li>Status (statecode)</li><li>Status Reason (statuscode)</li></ul>|[**Sample 1: Operating Hours for all record queues**](#BKMK1-oh)<br><br>[**Sample 2: Operating Hours for a single record queue**](#BKMK2-oh) <br><br>[**Sample 3: Operating Hours for multiple record queues**](#BKMK3-oh) |
-|Overflow Action Config (msdyn_overflowactionconfig)|<ul><li> Name (msdyn_name)</li><li>Overflow Action Config (msdyn_overflowactionconfigid)</li><li>Overflow Action Data (msdyn_overflowactiondata)</li><li>Overflow Action Type (msdyn_overflowactiontype)</li><li>Status (statecode)</li><li>Status Reason (statuscode)</li></ul>|[**FetchXML for overflow action configurations**](#BKMK1-ov)|
+|Overflow Action Config (msdyn_overflowactionconfig)|<ul><li> Name (msdyn_name)</li><li>Overflow Action Config (msdyn_overflowactionconfigid)</li><li>Overflow Action Data (msdyn_overflowactiondata)</li><li>Overflow Action Type (msdyn_overflowactiontype)</li><li>Status (statecode)</li><li>Status Reason (statuscode)</li></ul>|[**Sample 1: Overflow Action Config filtered to specific records**](#BKMK1-ov)|
 
 Perform the following steps to export and import the rulesets:
 
@@ -782,18 +779,30 @@ XMLCopy
 
 ## Migrate configuration for intake rules and record workstreams
 
-Use the following steps to migrate intake rules and record workstreams from the source environment to the destination environment.
+Do the steps in the following sections in the order specified to migrate intake rules and record workstreams from the source environment to the destination environment.
+
+### Create a solution for record routing workstreams
 
 1. Create a solution to export configurations from the source environment for record routing workstreams.
 1. Add the required records to the solution using the **Add existing button** in the command bar.
-1. Select the **Work Stream (msdyn_liveworkstream)** table. Related records from the following tables are automatically added to the solution:
-   - Capacity Profile (msdyn_capacityprofile)—new records must be migrated using the Configuration Migration tool.
-   - Master entity routing configuration (msdyn_masterentityroutingconfiguration).
-   - Decision contract (msdyn_decisioncontract)—for both intake rules and record workstreams.
-   - Decision rule set (msdyn_decisionruleset)—for both intake rules and record workstreams.
-   - Routing configuration (msdyn_routingconfiguration).
-   - Routing configuration step (msdyn_routingconfigurationstep).
-   - Operating Hour (msdyn_operatinghour).
+1. Select the **Work Stream (msdyn_liveworkstream)** table. When you add the Work Stream table, related records from the following tables are automatically added to the solution:
+  - Capacity Profile (msdyn_capacityprofile) - These records must be migrated using the Configuration Migration tool.
+  - Master Entity Routing Configuration (msdyn_masterentityroutingconfiguration).
+  - Decision Contract (msdyn_decisioncontract) for intake rules and record workstreams.
+  - Decision Rule Set (msdyn_decisionruleset) for intake rules and record workstreams.
+  - Routing Configuration (msdyn_routingconfiguration).
+  - Routing Configuration Step (msdyn_routingconfigurationstep).
+  - Ruleset Entity Mapping (msdyn_rulesetdependencymapping).
+
+### Add relationships
+
+You must add routable object relationships based on the unique identifiers of routed records. These records are generated from entities that have been enabled for Unified Routing and require at least one Workstream to be configured such as `msdyn_ocliveworkitem_email_msdyn_routableobjectid` and `msdyn_ocliveworkitem_incident_msdyn_routableobjectid`.
+
+1. Navigate to the solution editor and select **Add Existing**
+1. Select Conversation tables.
+1. Make sure that **Include all objects** and **Include table metadata** options are cleared.
+- Select **Edit Object** and search for `RoutableObjectId`
+- Select the required relationships based on the Workstream types that have been added to your solution.
 
 ## Next steps
 
