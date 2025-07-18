@@ -1,7 +1,7 @@
 ---
 title: Learn the basics of Dynamics 365 Sales
 description: Quickly onboard and learn about Dynamics 365 Sales and its user interface.
-ms.date: 06/27/2024
+ms.date: 07/11/2025
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr

@@ -345,6 +345,8 @@ items:
           href: mobile/offline-data-sync.md
         - name: Best practices and limitations
           href: mobile/best-practices-limitations-offline-profile.md
+      - name: Customize the Field Service mobile app
+        href: mobile/customize-mobile-app.md
       - name: Configure barcode scanning
         href: mobile/scan-barcode.md
       - name: Enable push notifications
@@ -380,26 +382,6 @@ items:
           href: mobile/optimize-image-size.md
       - name: Use the new experience
         href: mobile/do-work-newux.md
-
-    - name: Customize the mobile app
-      items:
-        - name: Customize with Power Apps
-          href: mobile/power-apps-customization.md
-        - name: Change the navigation and views
-          href: mobile/customize-navigation-views.md
-        - name: Change the booking calendar
-          href: mobile/customize-booking-calendar.md
-        - name: Link to the mobile app
-          href: mobile/deeplink-mobile.md
-        - name: Create workflows and scripts
-          href: mobile/automate-business-processes.md
-        - name: Change the booking and work order form
-          href: mobile/change-work-order-booking-form.md
-        - name: Add a custom app module to the mobile app
-          href: mobile/custom-app-module-mobile.md
-        - name: Optimize performance for mobile customizations
-          href: mobile/improve-mobile-performance.md
-
     - name: Get help
       href: mobile/get-help.md
 

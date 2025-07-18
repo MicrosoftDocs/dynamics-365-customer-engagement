@@ -4,6 +4,7 @@ description: Learn about the key features and limitations of the new user experi
 ms.topic: how-to
 ms.subservice: field-service-mobile
 ms.date: 10/10/2024
+ms.update-cycle: 180-days
 author: JonBaker007
 ms.author: jobaker
 ms.collection: bap-ai-copilot 
@@ -17,7 +18,7 @@ The new user experience in the Dynamics 365 Field Service mobile app helps servi
 
 The agenda view in the new mobile experience is optimized for frontline workers. It supports quick access to key actions such as updating the booking status, getting directions, or access to Copilot.
 
-Admins can [configure the agenda view to show fields relevant to the organization's business needs](/dynamics365/field-service/mobile/customize-booking-calendar).
+Admins can [configure the agenda view to show fields relevant to the organization's business needs](/dynamics365/guidance/resources/fs-mobile-booking-calendar).
 
 ### Agenda view time update
 
