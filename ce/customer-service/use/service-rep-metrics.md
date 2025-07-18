@@ -85,18 +85,9 @@ The related metrics aren't available by default. Select **Edit report** to find 
 
 - **Average consult time**: The average time that service representatives spend helping other service representatives on consult requests. It's calculated by dividing the total time spent by service representatives on these requests by the total number of consult requests accepted. You can display the average consult time in seconds or in the hh:mm:ss format.
 
-- **Consult acceptance rate**: The total number of sessions accepted by a service representative out of all the requested to consult sessions.
-
 - **Consult not acceptance rate**: The total number of consult sessions that a service representative didn't accept, including timed-out and rejected requests.
 
 - **Consult rejection rate**: The total number of consult sessions rejected by a service representative out of all requested sessions.
-
-- **Consults requested**: The total number of requested consult sessions.
-
-- **Consult requests accepted**:
-The total number of consult sessions requested and accepted by a service representative.
-
-- **Consult requests not accepted**: The total number of requested consult sessions that weren't accepted by a service representative.
 
 - **Consult requests rejected**: The total number of requested consult sessions that were rejected by a service representative.
 
@@ -107,6 +98,239 @@ The total number of consult sessions requested and accepted by a service represe
 - **Consult sessions**: The total number of sessions that are under consult. Available only for the omnichannel historical out-of-the-box dashboard.
 
 - **Consult timed out rate**: The total number of requested consult sessions that timed out.
+
+
+## Consult acceptance rate
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+The total number of sessions accepted by a service representative out of all the requested to consult sessions.
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+Consult acceptance rate = DIVIDE(SUMX (​FactSessionParticipant,​ IF (​FactSessionParticipant[AgentJoinedDateTime] <> BLANK() && FactSessionParticipant[ModeId] = "192350003",​ 1,​ 0​)),SUMX (FactSessionParticipant, 
+IF (​FactSessionParticipant[ModeId] = "192350003",​ 1,​ BLANK()​)​), BLANK())
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | msdyn_sessionparticipant|
+|Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode|
+|Filters  |-  All Conversations where msdyn_sessionparticipant.msdyn_mode = 192350003 AND AgentJoinedDateTime is defined by msdyn_sessionparticipant.msdyn_joinedon not equal to blank. |
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Consult acceptance rate = DIVIDE(SUMX (​FactSessionParticipant,​ IF (​FactSessionParticipant[AgentJoinedDateTime] <> BLANK() && FactSessionParticipant[ModeId] = "192350003",​ 1,​ 0​)),SUMX (FactSessionParticipant, 
+IF (​FactSessionParticipant[ModeId] = "192350003",​ 1,​ BLANK()​)​), BLANK())
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | systemuser, msdyn_sessionparticipant  |
+|Attributes |- msdyn_sessionparticipant.msdyn_mode​ <br> - msdyn_sessionparticipant.msdyn_joinedon​ <br> - systemuser.msdyn_botapplicationid  |
+|Filters  |- All conversations where FactSessionParticipant is obtained from systemuser.msdyn_botapplicationid is null​ <br> - msdyn_sessionparticipant.msdyn_joinedon is not blank​ <br> - msdyn_sessionparticipant.msdyn_mode set to 192350003 ​|
+
+---
+
+
+## Consults requested
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+The total number of requested consult sessions.
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+Consult requested = SUMX (​FactSessionParticipant,​ IF (FactSessionParticipant[ModeId] = "192350003", 1, 0  ) )
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | msdyn_sessionparticipant|
+|Attributes |- msdyn_sessionparticipant.msdyn_mode
+|Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode set to 192350003 |
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Consult requested = SUMX (​FactSessionParticipant,​ IF (FactSessionParticipant[ModeId] = 192350003,1, 0  ) )
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | systemuser, msdyn_sessionparticipant  |
+|Attributes |- msdyn_sessionparticipant.msdyn_mode​ <br> - systemuser.msdyn_botapplicationid   |
+|Filters  |- All conversations where FactSessionParticipant is obtained from systemuser.msdyn_botapplicationid is null​ <br> - msdyn_sessionparticipant.msdyn_mode set to 192350003 ​​|
+
+---
+
+## Consult requests accepted
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+The total number of consult sessions requested and accepted by a service representative.
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+Consult requests accepted = SUMX (​FactSessionParticipant,​ IF (FactSessionParticipant[AgentJoinedDateTime] <>
+BLANK() && FactSessionParticipant[ModeId] =
+"192350003",​ 1, 0) )
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | msdyn_sessionparticipant|
+|Attributes |- msdyn_sessionparticipant.msdyn_joinedon​ <br> - msdyn_sessionparticipant_msdyn_mode
+|Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode = 192350003 AND AgentJoinedDateTime is defined by msdyn_sessionparticipant.msdyn_joinedon not equal to blank |
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Consult requests accepted = SUMX (​FactSessionParticipant,​ IF (FactSessionParticipant[AgentJoinedOn] <> BLANK() &&
+FactSessionParticipant[ModeId] = 192350003,1, 0 ) )
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | msdyn_sessionparticipant, systemuser  |
+|Attributes |- msdyn_sessionparticipant.msdyn_joinedon​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid |
+|Filters  |- All Conversations where ​msdyn_sessionparticipant.msdyn_joined is not null or blank and​ msdyn_sessionparticipant.msdyn_mode = 192350003​ <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid is not null​ ​​|
+
+---
+
+## Consult requests not accepted
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+The total number of requested consult sessions that weren't accepted by a service representative.
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+Consult requests not accepted = SUMX (​FactSessionParticipant,​ IF (FactSessionParticipant[AgentJoinedDateTime] ==
+BLANK() && FactSessionParticipant[ModeId] = "192350003",1, 0 ) )
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | msdyn_sessionparticipant|
+|Attributes |- msdyn_sessionparticipant.msdyn_joinedon​ <br> - msdyn_sessionparticipant_msdyn_mode
+|Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode = 192350003 AND AgentJoinedDateTime is defined by msdyn_sessionparticipant.msdyn_joinedon equal to blank  |
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Consult requests not accepted = SUMX (​FactSessionParticipant,​ IF (​FactSessionParticipant[AgentJoinedOn] == BLANK() &&
+FactSessionParticipant[ModeId] = 192350003,​ 1, 0 ))
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | msdyn_sessionparticipant, systemuser  |
+|Attributes |- msdyn_sessionparticipant.msdyn_joinedon​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
+|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_joinedon is null or blank and​ msdyn_sessionparticipant.msdyn_mode = 192350003​. <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid is not null​. ​​|
+
+---
+
+## Session participant consult rejection count
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+(Need info)
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+Consult requests rejected = SUMX (​FactSessionParticipant,​ IF (FactSessionParticipant[LeftOnReason] == "AgentReject"
+&& FactSessionParticipant[ModeId] = "192350003", 1, 0 ))
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | msdyn_sessionparticipant|
+|Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode
+|Filters  |-  All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentReject" and​ msdyn_sessionparticipant.msdyn_mode = 192350003 |
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Consult requests not accepted = SUMX (​FactSessionParticipant,​ IF (​FactSessionParticipant[AgentJoinedOn] == BLANK() &&
+FactSessionParticipant[ModeId] = 192350003,​ 1, 0 ))
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | msdyn_sessionparticipant, systemuser  |
+|Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
+|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentReject” and​ msdyn_sessionparticipant.msdyn_mode = 192350003​ <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid is not null​. ​​|
+
+---
+
+
 
 ## Related information
 
