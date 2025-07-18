@@ -6,7 +6,7 @@ ms.reviewer: pehecke
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: install-set-up-deploy
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 f1_keywords: 

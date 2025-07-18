@@ -1,8 +1,8 @@
 ---
 title: getFocusedSession method (app profile manager) JavaScript API Reference 
-description: Learn about the getFocusedSession API of app profile manager in Customer Service workspace.
+description: Learn about the getFocusedSession API of app profile manager in Copilot Service workspace.
 ms.topic: reference
-ms.date: 12/13/2024
+ms.date: 06/17/2025
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

@@ -65,6 +65,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_allowcreatecase](#BKMK_msdyn_allowcreatecase)
 - [msdyn_allowcrossgeo](#BKMK_msdyn_allowcrossgeo)
 - [msdyn_allowtranslation](#BKMK_msdyn_allowtranslation)
+- [msdyn_applicableformslist](#BKMK_msdyn_applicableformslist)
 - [msdyn_autoenabled](#BKMK_msdyn_autoenabled)
 - [msdyn_autoenableddone](#BKMK_msdyn_autoenableddone)
 - [msdyn_casesummaryconfiguration](#BKMK_msdyn_casesummaryconfiguration)
@@ -72,11 +73,15 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_consentacceptedon](#BKMK_msdyn_consentacceptedon)
 - [msdyn_conversationsummaryconfiguration](#BKMK_msdyn_conversationsummaryconfiguration)
 - [msdyn_copilotsummarizationsettingId](#BKMK_msdyn_copilotsummarizationsettingId)
+- [msdyn_disabledforplatformsummary](#BKMK_msdyn_disabledforplatformsummary)
 - [msdyn_enabled](#BKMK_msdyn_enabled)
+- [msdyn_excludeformslist](#BKMK_msdyn_excludeformslist)
 - [msdyn_featureaccessrolelist](#BKMK_msdyn_featureaccessrolelist)
 - [msdyn_interactionsenabled](#BKMK_msdyn_interactionsenabled)
+- [msdyn_isdefaultconfig](#BKMK_msdyn_isdefaultconfig)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_ondemandenabled](#BKMK_msdyn_ondemandenabled)
+- [msdyn_relatedrecordconfiguration](#BKMK_msdyn_relatedrecordconfiguration)
 - [msdyn_systemmetadata](#BKMK_msdyn_systemmetadata)
 - [msdyn_useagentlanguage](#BKMK_msdyn_useagentlanguage)
 - [msdyn_whenagentjoinsenabled](#BKMK_msdyn_whenagentjoinsenabled)
@@ -150,7 +155,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**Allow agents to translate summaries**|
+|DisplayName|**Allow customer service representatives to translate summaries**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_allowtranslation`|
@@ -160,6 +165,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
+
+### <a name="BKMK_msdyn_applicableformslist"></a> msdyn_applicableformslist
+
+|Property|Value|
+|---|---|
+|Description|**Forms to which this summarization setting applies**|
+|DisplayName|**Applicable forms list**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_applicableformslist`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
 
 ### <a name="BKMK_msdyn_autoenabled"></a> msdyn_autoenabled
 
@@ -272,6 +294,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
+### <a name="BKMK_msdyn_disabledforplatformsummary"></a> msdyn_disabledforplatformsummary
+
+|Property|Value|
+|---|---|
+|Description|**Disabled for Platform Summary**|
+|DisplayName|**Disabled for Platform Summary**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_disabledforplatformsummary`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_copilotsummarizationsetting_msdyn_disabledforplatformsummary`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_enabled"></a> msdyn_enabled
 
 |Property|Value|
@@ -287,6 +325,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
+
+### <a name="BKMK_msdyn_excludeformslist"></a> msdyn_excludeformslist
+
+|Property|Value|
+|---|---|
+|Description|**Forms where this summarization setting is not valid**|
+|DisplayName|**Exclude forms list**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_excludeformslist`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
 
 ### <a name="BKMK_msdyn_featureaccessrolelist"></a> msdyn_featureaccessrolelist
 
@@ -317,6 +372,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_copilotsummarizationsetting_msdyn_interactionsenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_isdefaultconfig"></a> msdyn_isdefaultconfig
+
+|Property|Value|
+|---|---|
+|Description|**Default config for summarization**|
+|DisplayName|**Is Default Config**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isdefaultconfig`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_copilotsummarizationsetting_msdyn_isdefaultconfig`|
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
@@ -354,6 +425,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |True Label|Yes|
 |False Label|No|
 
+### <a name="BKMK_msdyn_relatedrecordconfiguration"></a> msdyn_relatedrecordconfiguration
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Related Record Configuration**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_relatedrecordconfiguration`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100000|
+
 ### <a name="BKMK_msdyn_systemmetadata"></a> msdyn_systemmetadata
 
 |Property|Value|
@@ -376,7 +464,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**Use Agent Language Enabled**|
+|DisplayName|**Use Representative Language Enabled**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_useagentlanguage`|
@@ -392,7 +480,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**Enable When Agent Joins**|
+|DisplayName|**Enable When Representative Joins**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_whenagentjoinsenabled`|

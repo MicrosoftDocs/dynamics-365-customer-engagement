@@ -1,7 +1,8 @@
 ---
 title: Configure Microsoft Teams collaboration
 description: Learn how to configure collaboration with Microsoft Teams in Customer Service.
-ms.date: 01/21/2025
+ms.date: 04/29/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -52,7 +53,7 @@ The AI suggestions are supported in geographical locations that AI suggestions f
 
 Perform the following steps:
 
-1. In the site map of Contact Center admin center or Customer Service admin center, go to **Agent experience** > **Collaboration**.
+1. In the site map of Copilot Service admin center, go to **Support experience** > **Collaboration**.
     
 1. In **Embedded chat using Teams**, select **Manage**.
 
@@ -76,5 +77,5 @@ Perform the following steps:
 ### Related information
 
 [Collaborate with AI-suggested contacts in Microsoft Teams chat](../use/use-ai-suggested-contacts-teams.md)  
-[Overview of Customer Service workspace](../implement/csw-overview.md)  
+[Overview of Copilot Service workspace](../implement/csw-overview.md)  
 

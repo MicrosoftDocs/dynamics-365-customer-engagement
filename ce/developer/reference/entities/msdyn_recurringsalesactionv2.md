@@ -166,8 +166,13 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |19|**Similar opportunities**|
 |20|**Stalled opportunities**|
 |21|**Opportunities to focus**|
-|22|**Check Azure Storage for Sales Skill Usage Data**|
-|23|**Sync sales skill usage data from azure storage to CDS**|
+|22|**Check Azure Storage for copilot usage data**|
+|23|**Sync copilot usage data from Azure Storage to MDL**|
+|24|**Clean up expired Email NBA records**|
+|25|**Refresh PBI report through PBIE service**|
+|26|**Who Knows Whom**|
+|27|**Schedule ODOS deprecation**|
+|28|**Clean up expired activity mapping records**|
 
 ### <a name="BKMK_msdyn_IsRecurrencePatternSchedule"></a> msdyn_IsRecurrencePatternSchedule
 

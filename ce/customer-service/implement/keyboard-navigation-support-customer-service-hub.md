@@ -1,8 +1,8 @@
 ---
-title: Keyboard shortcuts for the Customer Service Hub | Microsoft Docs
+title: Keyboard shortcuts for the Customer Service Hub
 description: Use the keyboard shortcuts to perform common tasks in Customer Service Hub.
-ms.date: 04/01/2018
-ms.topic: article
+ms.date: 04/30/2025
+ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -39,7 +39,8 @@ The Customer Service Hub app is based on Unified Interface. To see the list of k
 |Select multiple continuous records in a list or queue.|	Shift + Down/Up arrow|
 |Select multiple discontinuous records in a list or queue.|	Press Ctrl, go to the desired record, and then use the spacebar to select the record|
 
-## Related information
+### Related information
+
 [Customer Service Hub – User's guide](../use/user-guide-customer-service-hub.md)
 
 

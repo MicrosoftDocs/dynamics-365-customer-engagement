@@ -2,7 +2,7 @@
 title: "Session Tabs (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "Learn to create the Session Tabs hosted control. Also find information about the predefined UII actions supported by it."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

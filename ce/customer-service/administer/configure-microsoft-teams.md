@@ -1,7 +1,7 @@
 ---
 title: Configure Microsoft Teams channel
-description: Learn about the Microsoft Teams channel and how to configure the channel.
-ms.date: 04/04/2025
+description: Learn about the Microsoft Teams channel and how to configure it as an engagement channel.
+ms.date: 06/20/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -82,13 +82,13 @@ Make sure that the following prerequisites are met:
        - Customers can send file attachments
        - Service representatives can send file attachments
 
-    1. Verify the settings on the **Summary** page, and select **Finish**. The Teams channel instance is configured.
+    1. Verify the settings on the **Summary** page, and then select **Finish**. The Teams channel instance is configured.
 
 1. Configure routing rules. Learn more in [Configure work classification](configure-work-classification.md).
 
 1. Configure work distribution. Learn more in [Work distribution settings](create-workstreams.md#configure-work-distribution).
 
-1. Add an AI agent (agent). Learn more in [Configure an agent](create-workstreams.md#add-a-bot-to-a-workstream).
+1. Add an AI agent (agent). Learn more in [Configure an agent](create-workstreams.md#add-an-agent-to-a-workstream).
 
 1. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](session-templates.md)
@@ -112,10 +112,31 @@ Make sure that the following prerequisites are met:
   > [!NOTE]
   > If you receive an error when trying to add an agent to the team, refer to [Prepare your Microsoft 365 tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant).
 
+## Configure authentication
+
+To enable sign-in on Microsoft Copilot agents, follow these steps:
+
+1. Complete the steps in [Configure user authentication with Microsoft Entra ID](/microsoft-copilot-studio/configuration-authentication-azure-ad).
+
+1. Update the Teams app to include the botframework domains:
+    1. In the Teams app, select the ellipses (...), and then select **Developer Portal**. The **Developer Portal** page appears.
+
+    1. On the **Apps** tab, select the app that you configured.
+       
+    1. Select **Domains** under **Configure**.
+       
+    1. Select **Add a domain**. The **Add domain** dialog appears.
+
+    1. Type *.botframework.com, and then select **Add**.
+
+    1. Select **Add a domain** again.
+
+    1. Type *.*botframework.com, and then select **Add**. 
+
 
 ### Related information
 
-[Overview of chanels](../use/channels.md)  
+[Overview of channels](../use/channels.md)  
 [Configure automated messages](configure-automated-message.md)  
 [Use Microsoft Teams channel](../use/teams-channel.md)  
 [Delete a configured channel](delete-channel.md)  

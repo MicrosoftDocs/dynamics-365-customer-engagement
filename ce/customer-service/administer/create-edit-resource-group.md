@@ -1,8 +1,9 @@
 ---
-title: Create or change a resource group (Dynamics 365 Customer Service) 
+title: Create or change a resource group
 description: Learn how to use resource groups to group users, facilities, and equipment as part of the selection rules for a service in Dynamics 365 Customer Service.
-ms.date: 09/06/2024
-ms.topic: article
+ms.date: 05/09/2025
+ms.update-cycle: 1095-days
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -23,17 +24,17 @@ Resource Groups are referred as Resource Categories. Learn more in [Create and m
   
 1. [!INCLUDE[proc_settings_bus_management](../../includes/proc-settings-bus-management.md)]  
   
-2.  Select **Resource Groups**.  
+2.  Select **Resource Group**.  
   
 3.  On the Actions toolbar, select **New**.  
   
-4.  In the **Resource Groups** form, enter the required information:  
+4.  In the **New Resource Group** form, enter the required information:  
   
     - **Name**  
   
          You must enter a name for the resource group. The application doesn't check that the name is unique.  
   
-    - **Business Unit**  
+    - **Business Unit Id**  
   
          To locate and select a business unit, select the **Lookup** button ![Lookup button.](../media/crm-ua-lookup-v4.gif "Lookup button").  
   
@@ -61,16 +62,16 @@ Resource Groups are referred as Resource Categories. Learn more in [Create and m
   
 1.  [!INCLUDE[proc_settings_bus_management](../../includes/proc-settings-bus-management.md)]
   
-2.  Select **Resource Groups**.  
+2.  Select **Resource Group**.  
   
 3.  Open the resource group you want to change.  
   
-4.  In the **Resource Groups** form, change the information.  
+4.  In the **Resource Group** form, change the information.  
   
 5.  Select **Save** or **Save and Close**.  
   
 > [!NOTE]
->  Resource groups are published automatically when you save and close the form. If the new resource group doesn’t appear in the list of available resource groups for a service, or if changes aren't appearing, you can manually publish the change by selecting **Publish** on the **Resource Groups** page.  
+>  Resource groups are published automatically when you save and close the form. If the new resource group doesn’t appear in the list of available resource groups for a service, or if changes aren't appearing, you can manually publish the change by selecting **Publish** on the **Resource Group** page.  
 >   
 >  To remove a resource, select the resource you want to remove from the resource group. On the Actions toolbar, select **More Actions**, and then select **Remove Resources**.  
 >   

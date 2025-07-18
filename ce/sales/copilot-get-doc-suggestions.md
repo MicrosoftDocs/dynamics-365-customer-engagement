@@ -1,7 +1,8 @@
 ---
 title: Use Copilot to get content recommendations and answers from SharePoint
 description: Discover how integrating SharePoint with Sales allows Copilot to recommend product-related documents and answer queries from stored files.
-ms.date: 03/27/2025
+ms.date: 07/09/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -65,7 +66,6 @@ The **Show related files** prompt lists the files that meet the following criter
 ## Get answers from SharePoint documents
 
 As a seller, you might have to refer to documents such as contracts, technical documents, and marketing collateral to answer questions from your customers. If these documents are stored in SharePoint, Copilot can help you find answers from the documents and summarize them for you. Learn more about [asking questions in your preferred language](#asking-questions-in-your-preferred-language).
-
 
 **To get answers from SharePoint documents**
 

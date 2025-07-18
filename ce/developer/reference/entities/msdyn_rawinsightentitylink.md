@@ -64,7 +64,10 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_crmactivityid](#BKMK_msdyn_crmactivityid)
 - [msdyn_externalcrmorgid](#BKMK_msdyn_externalcrmorgid)
+- [msdyn_insightindex](#BKMK_msdyn_insightindex)
 - [msdyn_name](#BKMK_msdyn_name)
+- [msdyn_processingretrycount](#BKMK_msdyn_processingretrycount)
+- [msdyn_processingstatus](#BKMK_msdyn_processingstatus)
 - [msdyn_rawinsightentitylinkconfirmedby](#BKMK_msdyn_rawinsightentitylinkconfirmedby)
 - [msdyn_rawinsightentitylinkId](#BKMK_msdyn_rawinsightentitylinkId)
 - [msdyn_rawinsightsourcegroupid](#BKMK_msdyn_rawinsightsourcegroupid)
@@ -98,7 +101,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Unique identifier for the corresponding CRM activity**|
-|DisplayName|**msdyn_crmactivityid**|
+|DisplayName|**msdyn\_crmactivityid**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_crmactivityid`|
@@ -115,11 +118,28 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Unique identifier of External CRM organization.**|
-|DisplayName|**msdyn_externalcrmorgid**|
+|DisplayName|**msdyn\_externalcrmorgid**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_externalcrmorgid`|
 |RequiredLevel|ApplicationRequired|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|2000|
+
+### <a name="BKMK_msdyn_insightindex"></a> msdyn_insightindex
+
+|Property|Value|
+|---|---|
+|Description|**Index of the RawInsight Item**|
+|DisplayName|**InsightIndex**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_insightindex`|
+|RequiredLevel|None|
 |Type|String|
 |Format|Text|
 |FormatName|Text|
@@ -144,12 +164,43 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|100|
 
+### <a name="BKMK_msdyn_processingretrycount"></a> msdyn_processingretrycount
+
+|Property|Value|
+|---|---|
+|Description|**Retry count**|
+|DisplayName|**msdyn\_processingretrycount**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_processingretrycount`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_processingstatus"></a> msdyn_processingstatus
+
+|Property|Value|
+|---|---|
+|Description|**Raw insight link status**|
+|DisplayName|**msdyn\_processingstatus**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_processingstatus`|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|2000|
+
 ### <a name="BKMK_msdyn_rawinsightentitylinkconfirmedby"></a> msdyn_rawinsightentitylinkconfirmedby
 
 |Property|Value|
 |---|---|
 |Description|**Identifier of the source that confirmed the matched link**|
-|DisplayName|**msdyn_rawinsightentitylinkconfirmedby**|
+|DisplayName|**msdyn\_rawinsightentitylinkconfirmedby**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_rawinsightentitylinkconfirmedby`|
@@ -166,7 +217,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Unique identifier for entity instances**|
-|DisplayName|**msdyn_rawinsightentitylinkid**|
+|DisplayName|**msdyn\_rawinsightentitylinkid**|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`msdyn_rawinsightentitylinkid`|
@@ -178,7 +229,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Unique id of the source group (e.g: Email thread id) used to generate rawinsight**|
-|DisplayName|**msdyn_rawinsightsourcegroupid**|
+|DisplayName|**msdyn\_rawinsightsourcegroupid**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_rawinsightsourcegroupid`|
@@ -195,7 +246,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**unique identifier of the rawinsight source**|
-|DisplayName|**msdyn_rawinsightsourceid**|
+|DisplayName|**msdyn\_rawinsightsourceid**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_rawinsightsourceid`|
@@ -212,7 +263,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Type of the source used to generate rawinsight**|
-|DisplayName|**msdyn_rawinsightsourcetype**|
+|DisplayName|**msdyn\_rawinsightsourcetype**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_rawinsightsourcetype`|

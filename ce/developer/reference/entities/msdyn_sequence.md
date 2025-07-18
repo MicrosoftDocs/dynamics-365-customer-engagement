@@ -293,8 +293,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Indicates whether wait time computation setting is enabled for the sequence to honor seller availability based on bussiness days.**|
-|DisplayName|**Wait time computation setting for the sequence.**|
+|Description|**Indicates whether wait time computation setting is enabled for the sequence to honor seller availability based on business days.**|
+|DisplayName|**Wait Time Computation Setting for the Sequence**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_iswaittimecomputationenabledatsequencelevel`|
@@ -302,8 +302,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_sequence_msdyn_iswaittimecomputationenabledatsequencelevel`|
 |DefaultValue|False|
-|True Label||
-|False Label||
+|True Label|Enabled|
+|False Label|Disabled|
 
 ### <a name="BKMK_msdyn_maxstepcount"></a> msdyn_maxstepcount
 

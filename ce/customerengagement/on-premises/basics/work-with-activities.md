@@ -155,7 +155,26 @@ To attach a document:
      That way, your task will "roll up" under the account automatically, and you and other people on your team will see the task when they're looking at the contact, and when they're looking at the account for Imported Sports. (And they'll know you've got it handled.)  
   
 
- 
+  
+<a name="DeleteClosedAndCancelledActivities"></a>
+
+## Delete closed and cancelled activities
+
+Closed and cancelled activities can be deleted only by the following users:
+
+1. Administrators
+2. Administrators who are impersonating the system user. More information: [Impersonate another user](../developer/org-service/impersonate-another-user.md).
+
+<a name="UpdateClosedOrCancelledActivities"></a>
+
+## Update cancelled or closed activities
+
+ Only the following users can update closed or cancelled activities:
+
+ 1. Administrators
+ 2. Administrators impersonating the system user.
+ 3. Non-administrators impersonating administrators.
+More information: [Impersonate another user](../developer/org-service/impersonate-another-user.md). 
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
@@ -295,18 +314,6 @@ To attach a document:
   
      That way, your task will "roll up" under the account automatically, and you and other people on your team will see the task when they're looking at the contact, and when they're looking at the account for Imported Sports. (And they'll know you've got it handled.)  
   
-<a name="UpdateClosedOrCancelledActivities"></a>
-   
-## Who can update Cancelled or Closed Activities
- Only the following users can update closed or cancelled activities:
-
- 1. Administrators
- 2. Administrators impersonating the System User
- 3. Non-administrators impersonating administrators
-
-More information: [Impersonate another user](../developer/org-service/impersonate-another-user.md). 
- 
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
 

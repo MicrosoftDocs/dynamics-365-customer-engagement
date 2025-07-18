@@ -23,6 +23,7 @@ Person with whom a business unit has a relationship, such as customer, supplier,
 These relationships are one-to-many. Listed by **SchemaName**.
 
 - [contact_msdyn_bookingalerts](#BKMK_contact_msdyn_bookingalerts)
+- [contact_msdyn_ocoutboundmessages](#BKMK_contact_msdyn_ocoutboundmessages)
 - [msdyn_contact_msdyn_actual_ContactCustomer](#BKMK_msdyn_contact_msdyn_actual_ContactCustomer)
 - [msdyn_contact_msdyn_actual_ContactVendor](#BKMK_msdyn_contact_msdyn_actual_ContactVendor)
 
@@ -36,6 +37,18 @@ Many-To-One Relationship: [msdyn_bookingalert contact_msdyn_bookingalerts](msdyn
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`contact_msdyn_bookingalerts`|
 |IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: `CRMActivity.RollupRelatedByParty`<br />ViewId: `00000000-0000-0000-00aa-000010001903`|
+
+### <a name="BKMK_contact_msdyn_ocoutboundmessages"></a> contact_msdyn_ocoutboundmessages
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage contact_msdyn_ocoutboundmessages](msdyn_ocoutboundmessage.md#BKMK_contact_msdyn_ocoutboundmessages)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`contact_msdyn_ocoutboundmessages`|
+|IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: `CRMActivity.RollupRelatedByParty`<br />ViewId: `00000000-0000-0000-00aa-000010001903`|
 
 ### <a name="BKMK_msdyn_contact_msdyn_actual_ContactCustomer"></a> msdyn_contact_msdyn_actual_ContactCustomer

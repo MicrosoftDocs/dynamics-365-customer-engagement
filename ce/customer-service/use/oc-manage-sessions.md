@@ -1,8 +1,8 @@
 ---
 title: Manage sessions in the workspace app
-description: Learn how to start and manage sessions using the session panel in Customer Service workspace.
+description: Learn how to start and manage sessions using the session panel in Copilot Service workspace.
 ms.date: 03/31/2025
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

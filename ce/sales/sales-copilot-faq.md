@@ -7,7 +7,8 @@ ms.reviewer: lavanyakr
 ms.topic: concept-article
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
-ms.date: 12/18/2024
+ms.date: 05/14/2025
+ms.update-cycle: 180-days
 ---
 
 # FAQ about Copilot in Dynamics 365 Sales
@@ -84,7 +85,7 @@ Copilot in Dynamics 365 Sales can't be turned on for the following applications:
 - msdyn_ResourceScheduling (Resource Scheduling)
 - AppforOutlookModule (Dynamics 365 Outlook app)
 - Customerservicehub (Customer Service Hub)
-- msdyn_CustomerServiceWorkspace (Customer Service Workspace)
+- msdyn_CustomerServiceWorkspace (Copilot Service Workspace)
 - OmniChannelEngagementHub (Omnichannel Engagement Hub)
 - msdyn_ProjectService (Project Service)
 
@@ -104,10 +105,8 @@ Copilot determines whether a document is a sales document or not based on the co
 
 When you open Copilot in Dynamics 365 Sales, Copilot doesn't respond, and you might see a message stating that Copilot is unable to connect and to try again later. There could be several reasons why Copilot isn't working as expected. One of the reason could be that your organization has [Data Loss Prevention (DLP) policies](/power-platform/admin/wp-data-loss-prevention) which are blocking the following connectors.  
 
-- HTTP
 - Microsoft Dataverse
 - Direct Line channels in Copilot Studio
-- Application Insights in Copilot Studio  
 
 You must unblock these connectors and then group them together in a policy (business or non-business) to allow Copilot to work as expected. Follow these steps to unblock the connectors:
 
@@ -115,13 +114,8 @@ You must unblock these connectors and then group them together in a policy (busi
 1. Go to **Data policies** > **Data loss prevention** and create a new policy or edit an existing policy.
 1. In the Prebuilt connectors section, search for the following connectors, and then unblock and configure them as shown below:
 
-    - **HTTP**:  
-        1. Select **More options** > **Configure connector** > **Configure endpoints**.
-        1. Add the endpoints: `https://dataverse/*` and `https://adaptivecards.io/*` and select **Action** as **Allow** for each endpoint.  
-        1. Select **Save**.  
     - **Microsoft Dataverse**: To know more about the Microsoft Dataverse connector, see [Microsoft Dataverse](/connectors/commondataserviceforapps).  
     - **Direct Line channels in Copilot Studio**  
-    - **Application Insights in Copilot Studio**
 
 1. After you've unblocked and configured the connectors, ensure that the connectors are grouped together (in business or non-business) in the policy.
 1. Save and close the policy.

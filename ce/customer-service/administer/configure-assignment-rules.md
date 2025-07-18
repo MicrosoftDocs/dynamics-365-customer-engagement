@@ -1,7 +1,7 @@
 ---
 title: Configure assignment methods for queues
 description: Contains steps on how to configure the different assignment methods for queues in your contact center.
-ms.date: 02/04/2025
+ms.date: 07/10/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -13,21 +13,21 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-After creating queues, if you want to use custom assignment methods, you'll create assignment rulesets comprising rules.
-
-You can create the custom assignment methods in the admin center app.
+After creating queues, if you want to use custom assignment methods, you can create assignment rulesets comprising rules.
 
 In unified routing, the process of creating assignment rulesets involves the following steps:
 
 1. **Create assignment rulesets**: For each assignment ruleset, you'll configure the conditions and order by option.
 
-1. **Create selection criteria**: If you create more than one assignment ruleset, you'll need to define the rules for the selection criteria. The selection criteria determines the ruleset that should be run out of the many that exist. Learn more in [Configure selection criteria](#configure-selection-criteria).
+1. **Create selection criteria**: If you create more than one assignment ruleset, you need to define the rules for the selection criteria. The selection criteria determines the ruleset that should be run out of the many that exist. Learn more in [Configure selection criteria](#configure-selection-criteria).
+
+## Prerequisite
+
+[Template rulesets](manage-routing-rules-templates.md) are available if you want to create assignment rulesets based on templates.
 
 ## Create an assignment method and configure rules
 
-Follow the steps to create a custom assignment method:
-
-1. In the site map of Customer Service admin center, select **Queues** in **Customer support**.
+1. In the site map of Copilot Service admin center, select **Queues** in **Customer support**.
 
 1. On the **Queues** page, select **Manage** for **Advanced queues**.
 
@@ -37,18 +37,21 @@ Follow the steps to create a custom assignment method:
 
 1. Select the ruleset, and select **Edit**. The options to configure prioritization rulesets and assignment rulesets are displayed.
 
-1. Do the following to set up prioritization rulesets:
+1. Set up prioritization rulesets as follows:
 
-   a. On the **Create Prioritization Ruleset** dialog, enter a name and description for the ruleset, and select **Create**.
+   1. On the **Create Prioritization Ruleset** dialog, select one of the following options:
+      - **Template ruleset**: Select a ruleset template in the list. You can't modify the decision rules at the queue level.
+      - **Copy from template**: Select a ruleset template to make a copy. You can modify the decision rules and save as a new ruleset.
+      - **New ruleset**: Enter a name and description for the ruleset, and select **Create**.
 
-   b. On the **Decision list** page, select **Create rule**, and on the **Create prioritization rule** dialog, enter a rule name and define the conditions when the rule should be run. By default, the root record for which you're creating the rule is selected and displayed at the top of the condition builder.
+   1. On the **Decision list** page, select **Create rule**, and on the **Create prioritization rule** dialog, enter a rule name and define the conditions when the rule should be run. By default, the root record for which you're creating the rule is selected and displayed at the top of the condition builder.
 
-   c. To route the work item to customer service representatives (service representatives or representatives), select the attribute on which you want to define the order by.
+   1. To route the work item to customer service representatives (service representatives or representatives), select the attribute on which you want to define the order by.
 
-   d. Create as many rules as needed.
+   1. Create as many rules as needed.
 
-    > [!NOTE]
-    > For routing records, we recommend that you manage the custom prioritization rules through the UI only and not create or update them through scripts.
+      > [!NOTE]
+      > For routing records, we recommend that you manage the custom prioritization rules through the UI only and not create or update them through scripts.
 
 1. To create an assignment ruleset, on the **Assignment method** page, select **Create ruleset**.
 
@@ -67,7 +70,7 @@ Follow the steps to create a custom assignment method:
    c. **Order by**: Select an attribute to define the order of work assignment if multiple service representatives match the condition.
 
       - **Ordering Attributes**:
-         - **Least active**: Is available for voice channel queues only. Work item is routed to the representative who is the least active among all who match the skills, presence, and capacity. Learn more in [Types of assignment methods](assignment-methods.md#types-of-assignment-methods).
+         - **Least active**: Is available for voice and messaging channel queues only. Work item is routed to the representative who is the least active among all who match the skills, presence, and capacity. Learn more in [Types of assignment methods](assignment-methods.md#types-of-assignment-methods).
          - Round Robin
          - Unit-based available capacity
          - Profile-based available capacity
@@ -84,7 +87,7 @@ Follow the steps to create a custom assignment method:
   
 1. You can sort the order in which the rules should be evaluated during work assignment. For other tasks that you can do, such as copy, edit, and delete, see [Options available for rulesets](configure-work-classification.md#options-available-for-rulesets).
 
-1. If you create more than one assignment ruleset, a warning message is displayed that alerts you to define the selection criteria to run the rulesets.
+   If you create more than one assignment ruleset, a warning message is displayed that alerts you to define the selection criteria to run the rulesets.
 
    Create a sample assignment rule with the following conditions.
 
@@ -95,15 +98,29 @@ Follow the steps to create a custom assignment method:
    | Available capacity | Is greater than             | Dynamic match | Conversation.Workstream.Capacity          |
 
    > [!NOTE]
-   > If you want to define a condition on unit-based capacity of users, then use the Available capacity attribute only as suggested in the example. Use the "is greater than" operator to ensure that available capacity is more than the required capacity.
+   > If you want to define a condition on unit-based capacity of users, then use the **Available capacity** attribute only as suggested in the example. Use the "is greater than" operator to make sure that available capacity is more than the required capacity.
 
    ![Sample assignment rule.](../media/ur-sample-assign-rule.png "Sample assignment rule")
+
+Custom assignment method supports the following engagement context tables only:
+
+- **Entity Routing Context**: msdyn_cdsentityengagementctx
+- **Facebook Engagement Context**: msdyn_facebookengagementctx
+- **Live Chat Context**: msdyn_livechatengagementctx
+- **SMS Engagement Context**: msdyn_smsengagementctx
+- **WeChat Engagement Context**: msdyn_wechatengagementctx
+- **Twitter Engagement Context**: msdyn_twitterengagementctx
+- **Custom Messaging Engagement Context**: msdyn_customengagementctx
+- **LINE Engagement Context**: msdyn_lineengagementctx
+- **WhatsApp Engagement Context**: msdyn_whatsappengagementctx
+- **Teams Engagement Context**: msdyn_teamschannelengagementctx
+- **Apple messages for business engagement context**: msdyn_ocapplemessagesforbusinessengagementctx
 
 ### Configure selection criteria
 
 The selection criterion lets you define a set of conditions to determine the ruleset to be run when the condition is met. You should define the selection criteria when you configure more than one ruleset in the custom assignment method. After the ruleset is picked up by the work assignment engine, if no rule matches in the selection criteria or if no selection criterion is met, the system runs the default ruleset.
 
-Follow these steps to configure the selection criteria for the assignment rulesets:
+Configure the selection criteria for the assignment rulesets as follows:
 
 1. For the assignment method, in the **Assignment** section, select **Create rule**, and in the **Decision list** area, select **Create rule**.
 
@@ -116,6 +133,7 @@ Follow these steps to configure the selection criteria for the assignment rulese
 ### Related information
 
 [Create workstreams](create-workstreams.md)  
+[Manage routing rules templates](manage-routing-rules-templates.md)  
 [Create queues](queues-omnichannel.md)  
 [Set up records for unified routing](set-up-record-routing.md)  
 [Set up skill-based routing for unified routing](set-up-skill-based-routing.md)  

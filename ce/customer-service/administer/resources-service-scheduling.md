@@ -1,8 +1,9 @@
 ---
 title: Set up resources for Service Scheduling (Dynamics 365 Customer Service)
 description: Know how to create and set up resources for service scheduling in Dynamics 365 Customer Service.
-ms.date: 08/20/2024
-ms.topic: article
+ms.date: 04/30/2025
+ms.update-cycle: 1095-days
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -23,11 +24,11 @@ A resource in Service Scheduling is anything that needs to be scheduled. You can
 
 Make sure that you have the required security role or equivalent permissions. Learn more in [Manage security roles in service scheduling](manage-security-roles.md)
 
-You can create a new bookable resource in the Customer Service admin center app or Customer Service Hub app.
+You can create a new bookable resource in the Copilot Service admin center app or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
 
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+   ### [Copilot Service admin center](#tab/copilotserviceadmincenter)
    
     1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
     2. In the **Resources** section, select **Manage**.                   
@@ -91,11 +92,11 @@ You can create a new bookable resource in the Customer Service admin center app 
 
 ## Set work hours for the resources
 
-You can set work hours for the bookable resources where you can define when the resources are available to be booked for services in the Customer Service admin center or Customer Service Hub app.
+You can set work hours for the bookable resources where you can define when the resources are available to be booked for services in the Copilot Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
 
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+   ### [Copilot Service admin center](#tab/copilotserviceadmincenter)
 
     1. In the site map, select **Service scheduling** in **Operations**.
     2.  In the **Resources** section, select **Manage**.
@@ -104,7 +105,7 @@ You can set work hours for the bookable resources where you can define when the 
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
-    1. In the Customer Service Hub site map, go to **Scheduling**.
+    1. In the site map, go to **Scheduling**.
     2. From the list of entity records, select **Resources** in **Scheduling**.
        
       The **Active Bookable Resources** view appears. 

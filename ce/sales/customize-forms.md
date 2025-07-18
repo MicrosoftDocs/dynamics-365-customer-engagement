@@ -1,8 +1,8 @@
 ---
 title: Customize forms
 description: Learn how to use the form designer in Dynamics 365 Sales to customize the forms that your sellers use to enter and find information.
-ms.date: 02/11/2025
-ms.topic: article
+ms.date: 07/02/2025
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -13,14 +13,16 @@ ms.custom:
 
 # Customize forms
 
-In Dynamics 365 Sales, sellers use forms to interact with the data they need to do their work. It's important that the forms they use are designed to allow them to find or enter the information they need quickly. Use the form designer to customize the forms included with Dynamics 365 Sales to meet your sales organization's specific needs.
+In Dynamics 365 Sales, sellers use forms to interact with the data they need to do their work. It's important that the forms they use are designed to allow them to find or enter the information they need quickly. Use the form designer to customize the forms included with Dynamics 365 Sales to meet your sales organization's specific needs. The following screenshot shows an example of an account form in the Sales app:
+
+:::image type="content" source="media/account-form.png" alt-text="Screenshot of an account form in the Sales app.":::
 
 > [!IMPORTANT]
 > You should only customize forms in the Sales app. Don't customize forms outside the app.
 
 ## How do forms relate to entities?
 
-A form is a set of fields, or table columns, that match the information your organization tracks for an entity. For example, your organization might have columns in an Orders table that track customers' orders and their requested reorder dates. In this example, Orders are the entity and OrderNumber, Quantity, and ReorderDate are fields in a form that sellers use to manage reorders.
+A form is a set of fields, or table columns, that match the information your organization tracks for an entity. For example, your organization might have columns in an Orders table that track customers' orders and their requested reorder dates. In this example, Orders are the entity and OrderNumber, Quantity, and ReorderDate are fields in a form that sellers use to manage orders.
 
 When you publish a customized form, you're publishing an updated version of the entity that's associated with the form.
 
@@ -43,7 +45,7 @@ Select the appropriate tab for your license:
 
 1. Sign in to [Power Apps](https://make.powerapps.com/).
 
-1. Follow the instructions in [Create and customize a model-driven app form](/powerapps/maker/model-driven-apps/create-and-edit-a-model-driven-form?context=/dynamics365/context/sales-context) to create or customize a form.  
+1. Follow the instructions in [Create and customize a model-driven app form](/powerapps/maker/model-driven-apps/create-and-edit-a-model-driven-form?context=/dynamics365/context/sales-context) to create or customize a form.
 
 # [Sales Professional](#tab/SP)
 

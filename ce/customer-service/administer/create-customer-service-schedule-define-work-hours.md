@@ -1,17 +1,20 @@
 ---
-title: "Create customer service schedule and define work hours (Dynamics 365 Customer Service) | MicrosoftDocs"
-description: "Learn how to create a customer service schedule and define the work hours for Dynamics 365 Customer Service."
-ms.date: 05/24/2023
-ms.topic: article
+title: Create customer service schedule and define work hours (Dynamics 365 Customer Service)
+description: Create a customer service schedule, define work hours and holidays in Customer Service to manage SLA time tracking effectively.
+ms.date: 05/02/2025
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-search.audienceType: 
+search.audienceType:
   - admin
   - customizer
   - enduser
-ms.custom: 
+ms.custom:
   - dyn365-customerservice
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:04/09/2025
 ---
 
 # Create customer service schedule and define the work hours
@@ -20,7 +23,7 @@ To define when your service or support team is available for providing support t
   
 For SLA time tracking, make sure you add a holiday schedule to the customer service schedule, and associate this customer service schedule to the SLA record.
 
-You can create the service schedule and define work hours in Dynamics 365 Customer Engagement (on-premises) 9.1 also. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#new-work-hour-calendar-in-service-scheduling)
+You can create the service schedule and define work hours in Dynamics 365 Customer Engagement (on-premises) 9.1 also. Learn more in [New features in Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#new-work-hour-calendar-in-service-scheduling).
 
   
 ## Create a customer service schedule  
@@ -33,7 +36,7 @@ You can create the service schedule and define work hours in Dynamics 365 Custom
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../../includes/proc-dont-have-correct-permissions.md)]  
 
-1. Navigate to the Customer Service admin center app, and perform the following steps:
+1. Navigate to the Copilot Service admin center app, and perform the following steps:
 
 1. In the site map, select **Calendar** in **Operations**. The **Calendar** page appears.
 1. In the **Customer service calendar** section, select **Manage**. The **All Customer Service Calendars** view is displayed. You can switch between various system views using the drop-down list.  
@@ -49,19 +52,19 @@ You can create the service schedule and define work hours in Dynamics 365 Custom
   
       - **Are the same each day**: The schedule is the same for every day of the week. After you select this option, to select the days of the week that the customer support is available, select **Set Work Hours**.  
   
-           To set the work hours for the days, select **Set Work Hours**. For more information, see [Define work hours for the customer service schedule](#define-the-work-hours-for-the-schedule).  
+           To set the work hours for the days, select **Set Work Hours**. Learn more in [Define work hours for the customer service schedule](#define-the-work-hours-for-the-schedule).  
   
       - **Vary by day**: The new schedule is different for one or more days of the week. After you select this option, select the days of the week that the customer support is available, and also specify the work hours for each day.  
   
       - **24 x 7 support**: The customer support is available 24 hours a day and all days of the week.  
   
-   2. For **Work Days**, select the checkbox for each day that the customer support resources will be available and working.  
+   2. For **Work Days**, select the checkbox for each day that the customer support resources are available and working.  
   
-   3. For **Holiday Schedule**, select **Observe** to specify when your service organization will be closed.  
+   3. For **Holiday Schedule**, select **Observe** to specify when your service organization is closed.  
   
        If you selected **Observe**, select a holiday schedule from the lookup box. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Set up a holiday schedule](set-up-holiday-schedule.md)  
   
-1. In the **Time Zone** dropdown box, under **Select the time zone**, select the time zone in which your customer support resources will work. If applicable, the daylight saving time is taken into account for the selected time zone.
+1. In the **Time Zone** dropdown box, under **Select the time zone**, select the time zone in which your customer support resources work. If applicable, the daylight saving time is taken into account for the selected time zone.
   
 1. Select **Save**.  
 

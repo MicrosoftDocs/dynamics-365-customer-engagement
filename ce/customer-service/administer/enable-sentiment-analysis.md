@@ -1,8 +1,8 @@
 ---
 title: Enable real-time customer sentiment with sentiment analysis
 description: Analyze real-time customer sentiment to improve team performance and customer satisfaction.
-ms.date: 6/14/2024
-ms.topic: article
+ms.date: 6/30/2025
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -20,23 +20,23 @@ ms.custom:
 
 
 > [!IMPORTANT]
-> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature isn't intended for use in making, and shouldn't be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with customer service representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their customer service representatives that their communications with end users may be monitored, recorded, or stored.
+> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature isn't intended for use in making, and customers shouldn't use it to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws. This responsibility includes laws that relate to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This responsibility also includes the requirement that customers adequately notify end users that their communications with customer service representatives might be monitored, recorded, or stored and, as required by applicable laws, and obtain consent from end users before they use the feature with them. Customers are also encouraged to have a mechanism in place to inform their customer service representatives that their communications with end users may be monitored, recorded, or stored.
 
 > [!NOTE]
 > Supervisor and customer service representatives (service representatives or representatives) sentiment notifications aren't available in Omnichannel for Customer Service on Unified Service Desk.
 
-Sentiment analysis settings in Omnichannel for Customer Service provide service representatives and supervisors with real-time insight regarding how customers are interacting with service representatives during chat sessions.
+Sentiment analysis settings in Omnichannel for Customer Service provide service representatives and supervisors with real-time insight regarding how customers interact with service representatives during chat sessions.
 
 ## Sentiment analysis
 
-To let service representatives and supervisors see the customer's satisfaction levels instantly during customer communication, you need to enable sentiment analysis.
+To let service representatives and supervisors see the customer's satisfaction levels instantly during customer communication, you must enable sentiment analysis.
 
 > [!NOTE]
 > Sentiment analysis is enabled by default.
 
 ### Enable sentiment analysis
 
-You can enable the sentiment analysis feature in the Customer Service admin center or Contact Center admin center app.
+You can enable the sentiment analysis feature in the Copilot Service admin center app.
 
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
 1. In the **Sentiment analysis** section, select **Manage**.
@@ -51,14 +51,14 @@ After you enable real-time customer sentiment, you can view scores in the [Omnic
 
 Service representatives can view the customer sentiment in the communication panel for a conversation session that is active and in focus. For a session that isn't in focus, the alert is shown on the session panel.
 
-You can show alerts to the service representatives when a customer's sentiment decreases to or below a particular value. You can set the customer's sentiment to any of the following values:
+You can show alerts to the service representatives when a customer's sentiment decreases to or lowers to a particular value. You can set the customer's sentiment to any of the following values:
 
 - Don't show alerts
 - Slightly negative
 - Negative
 - Very negative
 
-For example, you set the threshold value as **Slightly negative**. When the customer's sentiment reaches **Slightly negative** or any other sentiment value below this, an alert is displayed to the service representative.
+For example, you set the threshold value as **Slightly negative**. When the customer's sentiment reaches **Slightly negative** or any other sentiment value lower than this level, an alert is displayed to the service representative.
 
 1. Navigate to the **Sentiment analysis** page.
 2. In the **Agent settings** section, select a value from the **Show alerts when a customer's sentiment decreases to or below** list. The options are:
@@ -69,7 +69,7 @@ For example, you set the threshold value as **Slightly negative**. When the cust
     - Negative
 
       > [!div class=mx-imgBorder]
-      > ![Show alerts when a customer's sentiment decreases to or below.](../media/monitor-real-time-agent.png "Show alerts when a customer's sentiment decreases to or below")
+      > ![Show alerts when a customer's sentiment decreases to or lower than level.](../media/monitor-real-time-agent.png "Show alerts when a customer's sentiment decreases to falls lower than a value")
 
 To turn off service representative alerts, select **Don't show alerts**.
 
@@ -77,7 +77,7 @@ To turn off service representative alerts, select **Don't show alerts**.
 
 Supervisors can use the **Omnichannel Ongoing Conversations** dashboard to view customer sentiment in real time during conversations between customers and service representatives.
 
-You can show notifications to the supervisors when a customer's sentiment decreases to a particular value or below it. The supervisor must be assigned to the queue to receive sentiment notifications.
+You can show notifications to the supervisors when a customer's sentiment decreases to or falls lower than a particular value. The supervisor must be assigned to the queue to receive sentiment notifications.
 
 You can set the sentiment threshold to any of the following values:
 
@@ -97,7 +97,7 @@ For example, you set the threshold value as **Slightly negative**. When the cust
     - Very negative
 
     > [!div class=mx-imgBorder]
-    > ![Send notifications when a customer's sentiment decreases to or below.](../media/monitor-real-time-supervisor.png "Send notifications when a customer's sentiment decreases to or below")
+    > ![Send notifications when a customer's sentiment decreases to or falls lower.](../media/monitor-real-time-supervisor.png "Send notifications when a customer's sentiment decreases to or falls lower")
 
 To turn off supervisor notifications, select **Don't send notifications**.
 

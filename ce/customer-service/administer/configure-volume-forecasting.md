@@ -1,8 +1,9 @@
 ---
 title: Configure case volume forecasting
-description: Learn how to configure the Forecast report for cases in Dynamics 365 Customer Service workspace.
-ms.date: 11/28/2024
-ms.topic: article
+description: Learn how to configure the Forecast report for cases in Dynamics 365 Copilot Service workspace.
+ms.date: 06/17/2025
+ms.update-cycle: 180-days
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -85,7 +86,7 @@ To access the forecast report, users in your organization must have a role with 
 
 ## Enable the case forecasting report
 
-1. In the Customer Service admin center app, under **Operations**, select **Insights**. The **Insights** page is displayed.
+1. In the Copilot Service admin center app, under **Operations**, select **Insights**. The **Insights** page is displayed.
 
 1. Under the **Report settings** section, next to **Case forecasting**, select **Manage**. The **Case forecasting** page appears.
 

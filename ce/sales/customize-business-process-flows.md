@@ -1,8 +1,8 @@
 ---
 title: Create or customize a business process flow
 description: Learn to customize business process flows in Sales, ensuring consistent data entry and customer interaction while reducing training costs.
-ms.date: 05/30/2024
-ms.topic: article
+ms.date: 06/20/2025
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

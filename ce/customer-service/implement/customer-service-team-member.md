@@ -1,7 +1,7 @@
 ---
 title: Customer Service Team Member app 
 description: Learn about the Customer Service Team Member app and how to install and use it.
-ms.date: 04/23/2024
+ms.date: 06/04/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

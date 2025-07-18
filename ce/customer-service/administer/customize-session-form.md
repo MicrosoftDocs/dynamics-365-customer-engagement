@@ -2,7 +2,7 @@
 title: Customize session forms
 description: Learn how to customize session forms in Omnichannel for Customer Service to meet your business needs.
 ms.date: 02/05/2025
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

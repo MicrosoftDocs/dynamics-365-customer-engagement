@@ -2,7 +2,7 @@
 title: Configure offline data synchronization
 description: Learn how offline data is synchronized to the server in the Dynamics 365 Field Service mobile app.
 ms.date: 11/04/2024
-ms.topic: conceptual
+ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
 ms.author: jobaker
@@ -24,9 +24,9 @@ Dependencies that are based on selected relationships and custom filters that in
 
 ## Sync settings and online mode 
 
-Admins can [enable more sync settings](/power-apps/mobile/offline-sync-icon#offline-sync-settings-preview) for end users to provide more control over the sync experience. For example, an option to sync only when the device is connected to a Wi-Fi network. These settings can help save mobile device bandwidth and battery life when technicians work in areas with regularly poor cellular connectivity.
+Admins can [enable more sync settings](/power-apps/mobile/offline-sync-icon#offline-sync-settings) for end users to provide more control over the sync experience. For example, an option to sync only when the device is connected to a Wi-Fi network. These settings can help save mobile device bandwidth and battery life when technicians work in areas with regularly poor cellular connectivity.
 
-Admins can also [activate online mode](/power-apps/mobile/offline-sync-icon#online-mode-preview) (preview) for the offline-first application. This setting provides frontline workers the option to switch from offline mode to online mode, allowing them to view live Dataverse data outside the parameters of their offline profile configuration. While in this mode, the application continues to sync data and changes back to offline mode if network connection is lost.  
+Admins can also [activate online mode](/power-apps/mobile/offline-sync-icon#online-mode) for the offline-first application. This setting provides frontline workers the option to switch from offline mode to online mode, allowing them to view live Dataverse data outside the parameters of their offline profile configuration. While in this mode, the application continues to sync data and changes back to offline mode if network connection is lost.  
 
 ## Sync conflicts
 

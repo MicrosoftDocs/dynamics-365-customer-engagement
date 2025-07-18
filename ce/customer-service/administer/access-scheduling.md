@@ -1,28 +1,29 @@
 ---
-title: Access scheduling in the Customer Service workspace and Customer Service Hub
-description: Learn how to access scheduling in the Customer Service workspace and Customer Service Hub apps.
+title: Access scheduling in the Copilot Service workspace and Customer Service Hub
+description: Learn how to access scheduling in the Copilot Service workspace and Customer Service Hub apps.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to 
-ms.date: 07/31/2024
+ms.date: 05/09/2025
+ms.update-cycle: 1095-days
 ms.custom:
 - bap-template
 - evergreen 
 ---
 
-# Access scheduling in the Customer Service workspace and Customer Service Hub
+# Access scheduling in the Copilot Service workspace and Customer Service Hub
 
-You can access scheduling through Customer Service workspace and Customer Service Hub apps.
+You can access scheduling through Copilot Service workspace and Customer Service Hub apps.
 
-In Customer Service workspace, select the + icon to expand the menu to view a list of forms, views, and activities, and then select either **Service Activities** or **Scheduling** to open the feature in a new tab.
+In Copilot Service workspace, select the + icon to expand the menu to view a list of forms, views, and activities, and then select either **Service Activities** or **Scheduling** to open the feature in a new tab.
 
-  :::image type="content" source="../media/csw-service-scheduling.png" alt-text="Access scheduling from Customer Service workspace":::
+  :::image type="content" source="../media/csw-service-scheduling.png" alt-text="Access scheduling from Copilot Service workspace":::
 
   - **Service Activities**
    
 
-  :::image type="content" source="../media/csw-service-activities.png" alt-text="View service activities in Customer Service workspace":::
+  :::image type="content" source="../media/csw-service-activities.png" alt-text="View service activities in Copilot Service workspace":::
   - **Scheduling**
 
   :::image type="content" source="../media/csw-schedule-board-urs.png" alt-text="Screenshot of service resource scheduling":::
@@ -38,7 +39,7 @@ Select ![change area.](../media/change-area-icon.png) to go to **Scheduling** an
 
 Configure all your entity records in the new experience from the user interface.
 
-Make sure that you have the correct security role or equivalent permissions. Learn more at [Manage security roles in service scheduling](manage-security-roles.md).
+Make sure that you have the correct security role or equivalent permissions. Learn more in [Manage security roles in service scheduling](manage-security-roles.md).
 
 > [!IMPORTANT]
 > You need to follow the order as given in the [Scheduling scenario](basics-service-service-scheduling.md#scheduling-scenario) while configuring entity records in the new scheduling experience.

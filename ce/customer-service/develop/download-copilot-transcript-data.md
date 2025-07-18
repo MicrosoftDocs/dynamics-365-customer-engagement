@@ -6,7 +6,8 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 03/20/2025
+ms.date: 05/05/2025
+ms.update-cycle: 180-days
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -20,7 +21,7 @@ Customer service representatives (service representatives or representatives) us
 
 ## Prerequisites
 
-- Make sure that the **Agent experience data** checkbox is selected in [**Copilot help pane**](../administer/copilot-enable-help-pane.md), so that the transaction and interaction data is stored by the system in Dataverse.
+- Make sure that the **Support experience data** checkbox is selected in [**Copilot for questions and emails**](../administer/copilot-enable-help-pane.md), so that the transaction and interaction data is stored by the system in Dataverse.
 - Make sure you're logged in with the Omnichannel administrator or Omnichannel supervisor role.
 
 ## Retrieve conversation summary
@@ -222,7 +223,7 @@ For example, while working on a case, the service representative asks Copilot "H
        {
          "id": "eba9e9d5-71e2-9502-0bca-9387246fb094",
          "requestId": "93893746-e203-e9b6-18b9-887d68d18daf",
-         "message": "To book a trip, follow these steps:\n\n1. Go to the travel portal.\n2. Click on \"Travel\" and then select \"Book a Trip\".\n3. Fill in your name, contact information, and the dates of your trip.\n4. Choose your destination from the drop-down menu. Here's the data you'll be working with:\n\n```json\n{\n    \"id\": \"11bb11bb-cc22-dd33-ee44-55ff55ff55ff\",\n    \"title\": \"Booking Travel\",\n    \"source\": \"internal_kb\"\n}\n```\n\n5. Select a hotel from the drop-down menu and specify the check-in and check-out dates. If you don't want to book a hotel, you can check the \"I do not want to book a hotel\" box.\n6. Choose the type of rental car you want. If you don't want to rent a car, you can check the \"I do not want to rent a car\" box.\n7. Click \"Submit\".\n\nOnce you've submitted your booking request, you will receive a follow-up communication from an agent with a quote. You can also add any notes or additional information by clicking on the case from the My Bookings screen.",
+         "message": "To book a trip, follow these steps:\n\n1. Go to the travel portal.\n2. Click on \"Travel\" and then select \"Book a Trip\".\n3. Fill in your name, contact information, and the dates of your trip.\n4. Choose your destination from the drop-down menu. Here's the data you'll be working with:\n\n```json\n{\n    \"id\": \"11bb11bb-cc22-dd33-ee44-55ff55ff55ff\",\n    \"title\": \"Booking Travel\",\n    \"source\": \"internal_kb\"\n}\n```\n\n5. Select a hotel from the drop-down menu and specify the check-in and check-out dates. If you don't want to book a hotel, you can check the \"I do not want to book a hotel\" box.\n6. Choose the type of rental car you want. If you don't want to rent a car, you can check the \"I do not want to rent a car\" box.\n7. Click \"Submit\".\n\nOnce you've submitted your booking request, you will receive a follow-up communication from a representative with a quote. You can also add any notes or additional information by clicking on the case from the My Bookings screen.",
          "sequence": 1,
          "user": "bot",
          "timestamp": 1711052776968,

@@ -1,7 +1,8 @@
 ---
 title: Configure Copilot to use specific SharePoint folders
 description: Learn how to configure Copilot to look at specific SharePoint locations to get content recommendations and answers from SharePoint.
-ms.date: 10/22/2024
+ms.date: 06/26/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -19,14 +20,15 @@ Sales organizations often store documents that are related to products and sales
 The results that Copilot returns are based on the permissions that users have in SharePoint. If a user doesn't have access to a SharePoint folder, Copilot doesn't show results from that location.
 
 
-## Prerequisite
+## Prerequisites
 
-Copy the Path URL of the SharePoint folders that you want to configure for Copilot to use. Open the folder in SharePoint and select the information icon to copy the **Path** URL as shown in the following image.
+- You must have the SharePoint Online license.
+
+- Copy the Path URL of the SharePoint folders that you want to configure for Copilot to use. Open the folder in SharePoint and select the information icon to copy the **Path** URL as shown in the following image.
 
 :::image type="content" source="media/sharepoint-path.png" alt-text="Screenshot of the details pane in SharePoint with information icon and Path fields highlighted.":::
 
 ## Configure SharePoint folders
-
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
 

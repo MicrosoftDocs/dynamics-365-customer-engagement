@@ -4,7 +4,7 @@ description: When scheduling entities, you can set parameters to control when th
 ms.date: 06/07/2024
 ms.reviewer: mhart
 ms.subservice: common-scheduler
-ms.topic: conceptual
+ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
 ---

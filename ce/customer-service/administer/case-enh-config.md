@@ -5,16 +5,16 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
-ms.date: 09/30/2024
+ms.date: 06/27/2025
 ms.custom: bap-template 
 ---
 
 # Enable enhanced case forms for multisession apps
 
-Enable the enhanced **Quick case form** and **Full case form**  options so that the enhanced quick case form and full case form open when customer service representatives (service representatives or representatives) create a new case in Customer Service workspace.
+Enable the enhanced **Quick case form** and **Full case form**  options so that the enhanced quick case form and full case form open when customer service representatives (service representatives or representatives) create a new case in Copilot Service workspace.
 
 > [!NOTE]
-> The enhanced case creation experience is available only in the Customer Service workspace app.
+> The enhanced case creation experience is available only in the Copilot Service workspace app.
 
 
 Watch this video to understand enhanced case form and how to set it up.
@@ -23,7 +23,7 @@ Watch this video to understand enhanced case form and how to set it up.
 
 ## Enable enhanced case experience
 
-1. In Customer Service admin center, go to **Case Settings**.
+1. In Copilot Service admin center, go to **Case Settings**.
 1. Select **Manage** for **Enhanced case experience**.
 1. Switch the **Enhanced case experience** toggle to **Yes**.
    - To enable the enhanced full case form:
@@ -45,7 +45,7 @@ Watch this video to understand enhanced case form and how to set it up.
 The following image displays the run time experience of the components that  are available by default in the enhanced full case form. You can use these components to customize other forms. 
 
 > [!NOTE]
-> - In the **Case for multisession experience** form, which is the default case form for Customer Service workspace, **OptionSet Wrapper**, **Queue Item Control**, **Due open activities control**, and **Attachment Control** components are enabled by default.
+> - In the **Case for multisession experience** form, which is the default case form for Copilot Service workspace, **OptionSet Wrapper**, **Queue Item Control**, **Due open activities control**, and **Attachment Control** components are enabled by default.
 > - You can learn more about how these components are displayed on the **Case for multisession experience** form realtime in [Default main case form: Case](../use/enh-casemgmt-csw.md#create-a-case-from-the-main-case-form) section.
 
 
@@ -70,4 +70,4 @@ You can add these default components to other forms and customize them. Learn mo
 ### Related information
 
 [Case management in multisession apps](../use/enh-casemgmt-csw.md)<br>
-[Get started with Customer Service workspace](../implement/csw-overview.md)
+[Get started with Copilot Service workspace](../implement/csw-overview.md)

@@ -1,10 +1,10 @@
 ---
 title: Search, link, and unlink records in Omnichannel for Customer Service
-description: Learn how to search, link, and unlink records. Also learn how to link records to conversations.
+description: Learn how to search, link, and unlink records. Also, learn how to link records to conversations.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 01/14/2025
+ms.date: 06/11/2025
 ms.topic: how-to
 ms.custom: bap-template
 
@@ -52,6 +52,9 @@ During an inline search, the search results are displayed and you can select a r
 You can link one contact or account only in the customer (**Contact** or **Account**) section and one case in the **Case** section.
 
 If you close a linked conversation, the case isn't closed automatically.
+
+> [!NOTE]
+> In Dynamics 365 Contact Center, you can't link a case if case management isn't available.
 
 ## Search for records by using relevance search
 

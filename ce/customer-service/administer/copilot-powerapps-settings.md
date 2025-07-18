@@ -5,7 +5,8 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to
-ms.date: 01/07/2025 
+ms.date: 05/05/2025 
+ms.update-cycle: 180-days
 ms.custom: bap-template 
 ms.collection: bap-ai-copilot
 ---
@@ -16,7 +17,7 @@ You can configure the Copilot case summary on custom case forms and enable the C
 
 ## Display Copilot case summary on custom case forms
 
-When you enable the Copilot case summary feature, agents can see the case summary by default on out-of-the-box case forms. You can perform the following steps for the application to display the Copilot case summary on your custom case forms.
+When you enable the Copilot case summary feature, customer service representatives (service representatives or representatives) can see the case summary by default on out-of-the-box case forms. You can perform the following steps for the application to display the Copilot case summary on your custom case forms.
 
 1. In [Power Apps](https://make.powerapps.com/), add the **msdyn_CopilotCaseSummaryLibrary.js** web resource to your solution. Learn more in [Add a web resource to a solution](/power-apps/maker/model-driven-apps/create-edit-web-resources#add-a-web-resource-to-a-solution).
 1. Select **Add existing** > **More** > **Developer** > **Custom Control**.
@@ -34,7 +35,7 @@ When you enable the Copilot case summary feature, agents can see the case summar
 
 ### Display case summary only when enabled
 
-You must also configure the following settings to make sure that copilot summary doesn't load on the custom case form when the Copilot case summary feature isn't enabled or the agent experience profile linked to the agent doesn't have **Copilot** option enabled:
+You must also configure the following settings to make sure that copilot summary doesn't load on the custom case form when the Copilot case summary feature isn't enabled or the experience profile linked to the representative doesn't have **Copilot** option enabled:
 
 1. In Power Apps, add the event handler function for the On Change event. Learn more in [Add or remove event handler function to event using UI](/power-apps/developer/model-driven-apps/clientapi/events-forms-grids?tabs=add-event-handlers-unified-interface#add-or-remove-event-handler-function-to-event-using-ui).
 1. Specify the following details in **Configure Event**:
@@ -54,7 +55,7 @@ You can enable the Copilot features for custom apps in your organization. Perfor
 1. In [Power Apps](https://make.powerapps.com/), add the **Customer Service Copilot Enabled** setting definition. Learn more in [add an existing setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#adding-an-existing-setting-definition).
 1. In the **Edit Customer Service Copilot Enabled** pane, in the **Setting app values** section, for a required app, set the  **New app value** to **Yes**. Learn more in [Update a setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#updating-a-setting-definition).
 
-   :::image type="content" source="../media/powerapps-setting-definition-copilot.png" alt-text="Screenshot of the Power Apps setting defintiion." :::
+   :::image type="content" source="../media/powerapps-setting-definition-copilot.png" alt-text="Screenshot of the Power Apps setting definition." :::
 
 ### Next steps
 

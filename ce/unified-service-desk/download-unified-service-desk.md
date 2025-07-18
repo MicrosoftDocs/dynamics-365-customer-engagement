@@ -1,7 +1,7 @@
 ---
-title: "Download Unified Service Desk  | MicrosoftDocs"
-description: "Learn how to download Unified Service Desk, client applications, and other tools to manage your Unified Service Desk implementation."
-ms.date: 06/27/2024
+title: Download Unified Service Desk 
+description: Learn how to download Unified Service Desk, client applications, and other tools to manage your Unified Service Desk implementation.
+ms.date: 05/15/2025
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -14,11 +14,11 @@ ms.custom: evergreen
 ---
 
 # Download Unified Service Desk and administration tools
-This topic provides information about the location from where you can download Unified Service Desk solutions and the client application, and other tools that help you administer and manage your Unified Service Desk efficiently.
+This article provides information about the location from where you can download Unified Service Desk solutions and the client application, and other tools that help you administer and manage your Unified Service Desk efficiently.
 
 ## Download Unified Service Desk
 
-This topic provides information about the location from where you can download various versions of Unified Service Desk solutions and the client application. For information about:
+This article provides information about the location from where you can download various versions of Unified Service Desk solutions and the client application. For information about:
 - System requirements to install a version of Unified Service Desk, see [Unified Service Desk System Requirements](admin/unified-service-desk-system-requirements.md)
 - Deploying Unified Service Desk solution or installing the client application, see [Install, deploy, and upgrade Unified Service Desk](admin/install-upgrade-deploy-unified-service-desk.md)
 
@@ -26,7 +26,7 @@ This topic provides information about the location from where you can download v
 ::: moniker range="dynamics-usd-4.3"
 
 > [!IMPORTANT]
-> Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using [Customer Service workspace](../customer-service/implement/csw-overview.md). Learn more in [Transition from Unified Service Desk to Customer Service workspace](https://www.microsoft.com/dynamics-365/blog/it-professional/2025/01/22/transition-from-unified-service-desk-to-customer-service-workspace/).
+> Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using [Copilot Service workspace](../customer-service/implement/csw-overview.md). Learn more in [Transition from Unified Service Desk to Copilot Service workspace](https://www.microsoft.com/dynamics-365/blog/it-professional/2025/01/22/transition-from-unified-service-desk-to-customer-service-workspace/).
 
 |  Version  |  Download Location |
 |------------------|---------------|
@@ -37,7 +37,7 @@ This topic provides information about the location from where you can download v
 ::: moniker range="dynamics-usd-4.2"
 
 > [!IMPORTANT]
-> Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using [Customer Service workspace](../customer-service/implement/csw-overview.md). Learn more in [Transition from Unified Service Desk to Customer Service workspace](https://www.microsoft.com/dynamics-365/blog/it-professional/2025/01/22/transition-from-unified-service-desk-to-customer-service-workspace/).
+> Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using [Copilot Service workspace](../customer-service/implement/csw-overview.md). Learn more in [Transition from Unified Service Desk to Copilot Service workspace](https://www.microsoft.com/dynamics-365/blog/it-professional/2025/01/22/transition-from-unified-service-desk-to-customer-service-workspace/).
 
 |  Version  |  Download Location |
 |------------------|---------------|
@@ -48,7 +48,7 @@ This topic provides information about the location from where you can download v
 ::: moniker range="dynamics-usd-4.1"
 
 > [!IMPORTANT]
-> Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using [Customer Service workspace](../customer-service/implement/csw-overview.md). Learn more in [Transition from Unified Service Desk to Customer Service workspace](https://www.microsoft.com/dynamics-365/blog/it-professional/2025/01/22/transition-from-unified-service-desk-to-customer-service-workspace/).
+> Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using [Copilot Service workspace](../customer-service/implement/csw-overview.md). Learn more in [Transition from Unified Service Desk to Copilot Service workspace](https://www.microsoft.com/dynamics-365/blog/it-professional/2025/01/22/transition-from-unified-service-desk-to-customer-service-workspace/).
 
 |  Version  |  Download Location |
 |------------------|---------------|

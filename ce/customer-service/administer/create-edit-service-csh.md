@@ -1,8 +1,9 @@
 ---
 title: Create or change a service in Service Scheduling (Dynamics 365 Customer Service)
 description: Know how to create or change a service in service scheduling in Dynamics 365 Customer Service.
-ms.date: 08/20/2024
-ms.topic: article
+ms.date: 05/20/2025
+ms.update-cycle: 1095-days
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -32,11 +33,11 @@ Make sure that you have the required security role or equivalent permissions.
 
 Learn more in [Manage security roles in service scheduling](manage-security-roles.md).
 
-You can create a service in the Customer Service admin center or Customer Service Hub app.
+You can create a service in the Copilot Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
 
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+   ### [Copilot Service admin center](#tab/copilotserviceadmincenter)
 
     1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
     2. In the **Service** section, select **Manage**.

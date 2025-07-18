@@ -32,7 +32,7 @@ Before you set up the offline profile, consider these important guidelines:
 
 - **Don't use "All records" as an offline filter**. The offline profile is the gate that controls the amount of data to download to users' devices. Technically, there's no limit to the number of records the offline profile supports. Practically, however, the less data that gets downloaded the faster and more efficient syncing is. Don't use "All records" as a table filter, and avoid wide date ranges. For example, rather than downloading all customer asset records, download only the records that are related to scheduled work orders. It reduces the number of customer asset records that need to be synced without affecting the work at hand.
 
-- **Use offline JavaScript**. Organizations often need to run workflows on mobile devices to execute business processes. However, Power Automate flows only run when the device has a network connection or on the next sync. If you need to run workflows on the device on-demand and without Internet access, use offline JavaScript instead. [Learn more about workflows and scripts for the Field Service mobile app](automate-business-processes.md).
+- **Use offline JavaScript**. Organizations often need to run workflows on mobile devices to execute business processes. However, Power Automate flows only run when the device has a network connection or on the next sync. If you need to run workflows on the device on-demand and without Internet access, use offline JavaScript instead. [Learn more about workflows and scripts for the Field Service mobile app](/dynamics365/guidance/resources/fs-mobile-automate-business-processes).
 
 [Learn more best practices for using mobile apps offline](/power-apps/mobile/mobile-offline-guidelines).
 
@@ -69,7 +69,7 @@ To reduce the amount of data the mobile app uses, consider the following actions
 - Limit views and forms to the minimum required.
 - Use default views that filter data to only the data that's important to the field worker. For example, my recent bookings instead of all bookings.
 - Allow image resolution to default to smaller file sizes for photo capture.
-- Review other [performance considerations for customizing the mobile app](/dynamics365/field-service/mobile/improve-mobile-performance).
+- Review other [performance considerations for customizing the mobile app](/dynamics365/guidance/resources/fs-improve-mobile-performance).
 
 ## Next steps
 

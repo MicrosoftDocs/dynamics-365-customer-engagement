@@ -1,8 +1,8 @@
 ---
 title: Configure knowledge management
 description: Learn how to configure the settings for knowledge management in Dynamics 365 Customer Service.
-ms.date: 10/01/2024
-ms.topic: article
+ms.date: 04/22/2025
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -45,7 +45,7 @@ After knowledge management is set up, users are able to:
 
 ## Setup overview
 
-You can set up knowledge management on the Customer Service admin center, Contact Center admin center, or manually for a model-driven app.
+You can set up knowledge management on the Copilot Service admin center, or manually for a model-driven app.
 
 - [Set up knowledge management](#set-up-knowledge-management)
 - [Set up knowledge management settings page manually for a model-driven app](#set-up-knowledge-management-settings-page-manually-for-a-model-driven-app)
@@ -62,12 +62,12 @@ After you configure knowledge management on your app, you must also set up the v
   
 [!INCLUDE[proc_permissions_system_admin_and_customizer](../../includes/proc-permissions-system-admin-and-customizer.md)] You must also be the tenant administrator of [!INCLUDE[pn_MS_Office_365](../../includes/pn-ms-office-365.md)].
 
- You can set up knowledge management in the Customer Service admin center or Contact Center admin center app.
+ You can set up knowledge management in the Copilot Service admin center app.
   
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the site map of Copilot Service admin center, select **Knowledge** in **Support experience**. The **Knowledge** page appears.
 
 1. In the **Record types** section, select **Manage**.
-      1. On the **Record Types** page, add and configure the record types for which you want to turn on knowledge management. Learn more in [Configure knowledge search control on app side pane for an entity record](configure-knowledge-search-control-productivity-pane.md). By default, knowledge management is enabled for **Case** and **Conversation** record types. The ability to set up knowledge search control for app side pane is available only in the Customer Service admin center or Contact Center admin center app.
+      1. On the **Record Types** page, add and configure the record types for which you want to turn on knowledge management. Learn more in [Configure knowledge search control on app side pane for an entity record](configure-knowledge-search-control-productivity-pane.md). By default, knowledge management is enabled for **Case** and **Conversation** record types. The ability to set up knowledge search control for app side pane is available only in the Copilot Service admin center app.
 1. In the **General Settings** section, select **Manage**. The **General Settings** page appears.
       1. In the **Search results display count** section, select the display count from the dropdown. This option is only available for the app side pane knowledge base search control, and standalone knowledge base search control in single session and multisession apps.
       b. In the **Feedback** section, set the **Enable feedback** toggle to **Yes**. Learn more in [Submit ratings and feedback for knowledge articles](../use/submit-feedback.md#submit-ratings-and-feedback-for-knowledge-articles).
@@ -128,9 +128,9 @@ Knowledge articles can be configured with their portal URLs, and then service re
 > [!NOTE]
 > Before you can configure knowledge articles with their own URLs, you must create a portal using your domain name. Learn more about creating a portal at [Create a portal in an environment containing customer engagement apps](/powerapps/maker/portals/create-dynamics-portal).
 
-You can configure a knowledge base article URL in the Customer Service admin center or Contact Center admin center app.
+You can configure a knowledge base article URL in the Copilot Service admin center app.
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the site map of Copilot Service admin center, select **Knowledge** in **Support experience**. The **Knowledge** page appears.
 1. On the **Knowledge** page, go to the **Portal** section and select **Manage**. The **Portal** page appears.
 1. On the **Portal** page, go to the **Support portal connection** section.
 
@@ -144,9 +144,9 @@ The knowledge base article link is now active and can be copied and shared.
 
 ## Update knowledge article attachments for portal
 
-With the knowledge article attachments option, you can stop using notes attachments for the portal. To use knowledge article attachments for the portal, you must enable the feature in the Customer Service admin center or Contact Center admin center app.
+With the knowledge article attachments option, you can stop using notes attachments for the portal. To use knowledge article attachments for the portal, you must enable the feature in the Copilot Service admin center app.
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the site map of Copilot Service admin center, select **Knowledge** in **Support experience**. The **Knowledge** page appears.
 1. In the **Portals** section, select **Manage**. The **Portal** page appears.
 1. On the **Portals** page, go to the **Sync knowledge article attachments to portal** section.
 1. Set the **Sync attachments to portal** toggle to **Yes**.
@@ -171,9 +171,9 @@ You can enable the knowledge search to work by the `searchmode=all` logic, which
 - Article 1: Contoso coffee order price
 - Article 2: Coffee machine order for Contoso
 
-You can set up the knowledge search logic in the Customer Service admin center or Contact Center admin center app.
+You can set up the knowledge search logic in the Copilot Service admin center app.
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Knowledge** in **Agent experience**.
+1. In the site map of Copilot Service admin center, select **Knowledge** in **Support experience**.
 1. On the **Knowledge** page, in the **General settings** section, select **Manage**. The **General settings** page appears.
 
 1. In the **Knowledge search experience** section, set the **Set search mode as all** toggle to **Yes**.
@@ -186,9 +186,9 @@ Learn more in [Search across table data using Dataverse search](/power-platform/
 
 You can help service representatives improve their productivity by setting the **Enable suggest as you type** toggle to **Yes**. This feature provides suggestions on the most relevant records as service representatives type keywords in the search box. The search phrase is matched against the title of the article, and the matching results appear in a flyout menu. The matched text is highlighted to show the presence of the keyword.
 
-When a customer service representative selects the record, the system displays the article inline on the knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as an inline view in the independent knowledge search control. Learn more in [Use suggest-as-you-type](../use/search-knowledge-articles-csh.md#save-time-searching-with-suggest-as-you-type).
+When a customer service representative selects the record, the system displays the article inline on the knowledge search control embedded on a form, on an application tab in Copilot Service workspace, and as an inline view in the independent knowledge search control. Learn more in [Use suggest-as-you-type](../use/search-knowledge-articles-csh.md#save-time-searching-with-suggest-as-you-type).
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Knowledge** in **Agent experience**.
+1. In the site map of Copilot Service admin center, select **Knowledge** in **Support experience**.
 2. On the **Knowledge** page, in the **General settings** section, select **Manage**. The **General settings** page appears.
 3. In the **Knowledge search experience** section, set the **Enable suggest as you type** toggle to **Yes**.
 4. Select **Save**.
@@ -199,7 +199,7 @@ When a customer service representative selects the record, the system displays t
 
 Knowledge search shows the recently accessed results for keyword searches made by service representatives across different cases without initiating any search. This feature helps service representatives directly review and use the articles across similar cases without searching for the keyword again.
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Knowledge** in **Agent experience**.
+1. In the site map of Copilot Service admin center, select **Knowledge** in **Support experience**.
 2. On the **Knowledge** page, in the **General settings** section, select **Manage**. The **General settings** page appears.
 3. In the **Knowledge search experience** section, set the **Show recently viewed knowledge articles** toggle to **Yes**.
 1. Select the number of articles you want displayed from the **Number of recently viewed articles shown** drop-down list. You can show a min of one to a max of eight articles.

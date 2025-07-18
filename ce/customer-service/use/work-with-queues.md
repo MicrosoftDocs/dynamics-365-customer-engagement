@@ -1,7 +1,7 @@
 ---
 title: Work with queues
 description: Learn how to work with queues, find queue items, and pick work items from queues.
-ms.date: 02/04/2025
+ms.date: 05/15/2025
 ms.topic: how-to 
 author: gandhamm
 ms.author: mgandham
@@ -20,12 +20,10 @@ The option for customer service representatives to manage their queues and items
 
 Use the view list and queue list to filter and find items in queues.
 
-1. In the Customer Service workspace or Customer Service Hub, select  **Queues**.
+1. In the Copilot Service workspace or Customer Service Hub, select  **Queues**.
 2. Select a view, and then select a filter to see the items you want.
 
    ![Queues view list.](../media/queues_view_list.png "Customer Service Hub Queues View List") 
-
-3. From the **All items** dropdown list, select the pin icon to pin the view that you want to appear on your dashboard. 
 
 1. The following options are available for view lists:
    - **All Items in Selected Queues**: Displays all the cases from a selected queue.

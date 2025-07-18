@@ -1,7 +1,7 @@
 ---
 title: Omnichannel for Customer Service system requirements
 description: Learn about the prerequisites, system requirements, and accessible websites for deploying and using Omnichannel for Customer Service.
-ms.date: 03/03/2025
+ms.date: 04/07/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -18,7 +18,7 @@ This article provides information about the prerequisites and system requirement
 
 You can deploy Omnichannel for Customer Service over a Customer Service application and use it in the following ways:
 
-- Customer Service workspace agent app - Web experience on the Unified Interface application
+- Copilot Service workspace app - Web experience on the Unified Interface application
 - Unified Service Desk client application (deprecated). Learn more in [Deprecations in Customer Service](deprecations-customer-service.md).
 
 ## Prerequisites
@@ -131,7 +131,7 @@ The Government community cloud links that should be made accessible are as follo
 ### Related information
 
 [Introduction to Omnichannel for Customer Service](introduction-omnichannel.md)  
-[Get started with Customer Service admin center](cs-admin-center.md)  
+[Get started with Copilot Service admin center](cs-admin-center.md)  
 [Agents using Unified Service Desk](../../unified-service-desk/oc-usd/omnichannel-agent.md)  
 [Agents using Omnichannel for Customer Service](../use/omnichannel-customer-service-app-agent.md)  
 [Best practices for setting up the voice channel](voice-channel-best-practices.md)  

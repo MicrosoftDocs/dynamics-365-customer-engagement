@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: 
-ms.date: 03/31/2025
+ms.date: 05/26/2025
 ms.custom: bap-template
 ---
 
@@ -15,12 +15,12 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Case Management Agent automates case creation and thereby reduces manual effort and data entry errors.
+The Case Management Agent automates case creation which reduces manual effort and data entry errors.
 
-The agent creates and updates cases from,
+The agent creates and updates cases in two main ways:
 
-- From conversations: The agent analyzes chat; predicts and populates the relevant field values; and updates case details during the conversation.
-- From emails: [Automatic record creation and update rules](automatically-create-update-records.md) create cases from emails. After a case is created using these rules, the agent updates the case fields based on the ongoing email interactions with customers.
+- **From conversations**: While chatting with customers, the agent picks up on key details, fills in the necessary information, and keeps the case updated as the conversation goes on.
+- **From emails**: When customers send emails, cases are created through the [Automatic record creation and update rules](automatically-create-update-records.md) create cases from emails. After a case is created using these rules, the agent updates the case fields based on the ongoing email interactions with customers.
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -29,15 +29,16 @@ The agent creates and updates cases from,
 - Administrators must have the CSR Manager or System Administrator role.
 - Customer service representatives (service representatives or representatives) must have the Omnichannel Agent and Customer Service Representative role.
 - Enable [AI form fill assistance](/power-platform/admin/settings-features#ai-form-fill-assistance) in the Power Platform admin center application.
-- [Automatic record creation and update rules](automatically-create-update-records.md) are set up to create case records from emails.
-- [Provision the chat channel](/dynamics365/contact-center/implement/provision-channels) and make sure that [authentication settings are configured](create-chat-auth-settings.md). 
-- [Workstreams](create-workstreams.md) and [queues](queues-omnichannel.md) are set up.
--  [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center application.
+- [Automatically create or update records](automatically-create-update-records.md) are set up to create case records from emails.
+- [Provision channels in Dynamics 365 Contact Center](/dynamics365/contact-center/implement/provision-channels) and make sure you [configure authentication settings](create-chat-auth-settings.md). 
+- [Create and manage workstreams](create-workstreams.md) and [Create and manage queues for unified routing](queues-omnichannel.md) are set up.
+-  [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center application.
+- The Autonomous Case Management agent uses the Data Entry Agent in the background. The Power Platform [Pay-as-you-go plan](/power-platform/admin/pay-as-you-go-overview) mandates the usage of an Azure subscription the system charges when the agent runs. Make sure you [Set up consumption-based billing](setup-pay-as-you-go.md).
 
 
 ## Configure autonomous case creation and update
 
-In Customer Service admin center, follow these steps:
+In Copilot Service admin center, follow these steps:
 
 1. In **Customer support**, select **Case settings**.
 2. On the **Case settings** page, select **Manage** for **Case Management Agent**.
@@ -45,7 +46,7 @@ In Customer Service admin center, follow these steps:
 4. In the page that appears, select the channels that AI can use to create or update cases. You can select **Chat** and **Email**. 
 1. On the **Default list of fields for AI prediction**, specify the fields the agent must fill in the case form using information from the chat or email conversation.  
    - For a conversation, the agent evaluates the conversation and then creates a case only if there’s enough context in the conversation to predict the default fields.  
-   - New cases are created from emails based on the automatic record creation rules configured. The Case Management Agent populates the fields in the case created by the record creation rules if there’s enough context available in the email. Fields populated when the case is created aren't overwritten by the agent.
+   - New cases are created from emails based on the automatic record creation rules configured. The Case Management Agent populates the fields in the case created by the record creation rules if there’s enough context available in the email. Fields populated during case creation remains unchanged by the agent.
 1. Optionally, in **Rules for case update with AI assistance**, specify the fields the agent must update from an ongoing conversation or incoming email after creating a case. If you don't specify update rules, the agent updates the fields you added in the previous step.
 
 > [!NOTE]
@@ -53,7 +54,7 @@ In Customer Service admin center, follow these steps:
 
 ## Enable service representatives to use autonomous Case Management Agent
 
-For service representatives to use the Case Management Agent in Copilot Service workspace, enable the autonomous case creation and update, case follow-up, and closure in **agent experience profiles**.
+For service representatives to use the Case Management Agent in Copilot Service workspace, allow the autonomous case creation and update, case follow-up, and closure in **agent experience profiles**.
 
 By default, service representatives added to the out-of-the-box experience profiles can use the autonomous Case Management Agent.
 
@@ -94,4 +95,4 @@ For the agent to execute this scenario, in addition to the **Issue description**
 
 ## Next steps
 
- [Use autonomous case management agents (preview)](../use/use-case-creation-agent.md)
+ [Use Case Management Agent to create and update cases (preview](../use/use-case-creation-agent.md)

@@ -5,7 +5,7 @@ ms:assetid: 26cad581-33b0-4025-9964-d289363c4245
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: how-to
 applies_to: 
   - "Dynamics 365 (on-premises)"
 ms.author: matp

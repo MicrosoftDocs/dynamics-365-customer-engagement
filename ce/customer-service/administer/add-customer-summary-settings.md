@@ -13,10 +13,16 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
+
 The enhanced Active Conversation experience displays the customer and case details that are relevant to your business. When you enable the **Enhanced active conversation form** option, the **Customer 360**, **Case details**, and **Recent cases** components are available on the **Active Conversation** form by default. You can further customize these components in Power Apps.
+
+> [!NOTE]
+> - Case-related information applies to Customer Service only.
+> - The enhanced Active Conversation experience works with the `omnichannel_customer360` out-of-the-box customer summary anchor tab only.  Learn more in [Manage application tab template](application-tab-templates.md).
 
 - **Customer details**: Use the **Customer 360** component in **Account** > **Account form for Conversation Customer Card** form or **Contact** > **Contact form for Conversation Customer Card** to customize the details displayed on **Customer details**.
 - **Case details**: Use the **Customer 360** component in **Case** > **Case for Customer Card** form to customize the details displayed on **Case details**. 
+
 - You can also set the required view to display case details in the **Issue Snapshot**. By default, the **Default view** is set to **Case Lookup View**.
 
  Learn more in [Configure components to display customer details and recent records](add-display-components-to-case-form.md).
@@ -29,10 +35,10 @@ Watch this video to understand enhanced active conversation form settings and ho
 
 To enable the enhanced Active Conversation form and customize the form, perform the following steps:
 
-1. In Customer Service admin center, go to **Workspaces**.
-1. Select **Manage** for **Active conversation form settings** in **Workspaces**.
+1. In Copilot Service admin center, go to **Workspaces**.
+1. Select **Manage** for **Conversation form settings** in **Workspaces**.
 1. Select the following options:
-    - **Enhanced active conversation form** to enable the enhanced Active Conversation experience. The following features are available as a part of the enhanced experience:
+    - **Enhanced Active Conversation form** to enable the enhanced Active Conversation experience. The following features are available as a part of the enhanced experience:
       - Configurable **Customer 360** and **Case details** card with inline edit capabilities. 
       - **Recent cases** card with color coded priority and status fields.
       - The default form selector to switch between active and closed conversations is hidden.
@@ -103,4 +109,4 @@ Perform the following steps to revert to the required default experience:
 ### Related information
 
 [View customer information on Active Conversation form](../use/oc-customer-summary.md) <br>
-[Get started with Customer Service workspace](../implement/csw-overview.md)
+[Get started with Copilot Service workspace](../implement/csw-overview.md)

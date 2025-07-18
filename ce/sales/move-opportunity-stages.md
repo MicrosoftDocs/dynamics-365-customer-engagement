@@ -1,7 +1,7 @@
 ---
 title: Move the opportunity through different stages
 description: Learn about the different stages of an opportunity and how to move the opportunity through the stages.
-ms.date: 06/18/2024
+ms.date: 07/11/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

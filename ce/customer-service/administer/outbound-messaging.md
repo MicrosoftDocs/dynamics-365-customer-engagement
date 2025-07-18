@@ -1,7 +1,7 @@
 ---
 title: Configure outbound messaging in Omnichannel for Customer Service
 description: Learn about how to configure outbound messaging in Omnichannel for Customer Service.
-ms.date: 03/07/2025
+ms.date: 06/27/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -33,7 +33,7 @@ As an administrator, you can do the following tasks:
 
 Set up templates to send outbound messages. To create a template, consider the scenarios that require your organization to send outbound messages.
 
-1. Sign in to the Customer Service admin center or Contact Center admin center app.
+1. Sign in to the Copilot Service admin center.
 
 2. Create a template for your outbound message.
 
@@ -45,17 +45,17 @@ Set up templates to send outbound messages. To create a template, consider the s
     >
     > Before April 1, 2025, we recommend that you complete the following actions to avoid service disruptions:
     > - Migrate your existing WhatsApp templates to the [Content Template Builder in Twilio](https://go.microsoft.com/fwlink/?linkid=2306633).
-    > - In either the Dynamics 365 Contact Center or Customer Service admin center app, update your [WhatsApp message templates](configure-whatsapp-channel.md#configure-whatsapp-message-templates) to use **Content Template SID** instead of **Template Name**.
+    > - In Copilot Service admin center app, update your [WhatsApp message templates](configure-whatsapp-channel.md#configure-whatsapp-message-templates) to use **Content Template SID** instead of **Template Name**.
     > - If you're using an active outbound flow, [update your previously created template](#update-a-previously-created-twilio-template).<br>
     >
     > Currently, each content template set can have one language only. If you want to use the same template in multiple languages, you must create a separate content template for each language. For more information, refer to [Create a content template](https://www.twilio.com/docs/content/create-templates-with-the-content-template-builder).
 
 ## Set up outbound configuration
 
-You can set up the outbound configuration in the Customer Service admin center or Contact Center admin center app.
+You can set up the outbound configuration in the Copilot Service admin center app.
 
 1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page displays.
-1. In the **Outbound** section, select **Manage**. The **Active Outbound Configurations** page displays.
+1. In the **Outbound** section, select **Manage**. The **Active Outbound Configurations** page appears.
 1. Select **New**, and then on the **New Outbound Configuration** page, enter the details for the settings mentioned in the following table.
 
     | Field               | Description| Sample value                       |
@@ -83,7 +83,7 @@ Power Automate provides a low-code platform for workflow and process automation.
 
 **To set up a Power Automate flow**
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Productivity** in **Agent experience**. The **Productivity** page displays.
+1. In the site map of Copilot Service admin center, select **Productivity** in **Support experience**. The **Productivity** page appears.
 2. In the **Message templates** section, select **Manage**. The **Message template view** page displays.
 
 3. Select **Flow** at the top of the screen, and then select **Create a flow**.
@@ -170,7 +170,7 @@ When the customer responds back to the outbound messages, the customer's message
 
 Before you begin, make sure that you [migrated your templates to the Content Template Builder in Twilio](https://go.microsoft.com/fwlink/?linkid=2306633).
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Workstreams**, and then go to your WhatsApp Twilio workstream.
+1. In the site map of Copilot Service admin center, select **Workstreams**, and then go to your WhatsApp Twilio workstream.
 1. Select **Edit**. The WhatsApp workstream page displays.
 1. Select the **Behaviors** tab, and then under **WhatsApp-approved message templates**, select the template you created previously, and then select **Edit**. The **Edit message template** page displays.
 1. In **Name**, replace the name with the **Content Template SID** in Twilio Content Template Builder. The **Content Template SID** is the unique identifier for the template in Twilio.

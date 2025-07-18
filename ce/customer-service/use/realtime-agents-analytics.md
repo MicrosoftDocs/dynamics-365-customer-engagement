@@ -1,12 +1,12 @@
 ---
-title: View and understand the Agents report in Omnichannel real-time analytics
-description: Understand customer service representative performance and optimize allocation in real-time with the Omnichannel Agents report.
+title: View and understand the Agent report in Omnichannel real-time analytics
+description: Understand customer service representative performance and optimize allocation in real-time with the Omnichannel Agent report.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 03/27/2025
+ms.date: 05/09/2025
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -15,21 +15,21 @@ ms.custom:
   - ai-seo-date:10/05/2023
 ---
 
-# View and understand the Agents report in Omnichannel real-time analytics
+# View and understand the Agent report in Omnichannel real-time analytics
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The **Agents** report consists of metrics that provide an overview of customer service representatives (service representatives or representatives) performance to help contact center managers optimize the allocation of service representatives in real time. This capability is crucial for ensuring that customers receive the best possible support.
+The **Agent** report consists of metrics that provide an overview of customer service representatives (service representatives or representatives) performance to help contact center managers optimize the allocation of service representatives in real time. This capability is crucial for ensuring that customers receive the best possible support.
 
-The **Agents** report provides information about the capacity and status of service representatives for the last 24 hours. By drilling down to view details such as capacity at each service representative's level, you can quickly identify and allocate resources to address any staffing shortages. In this way, you help ensure that customers receive support when they need it.
+The **Agent** report provides information about the capacity and status of service representatives for the last 24 hours. By drilling down to view details such as capacity at each service representative's level, you can quickly identify and allocate resources to address any staffing shortages. In this way, you help ensure that customers receive support when they need it.
 
 You can also sort service representatives by skills by using the **Skills** filter. In the **Agent list** section, when you hover over a service representative's name, the skill set and proficiency of the service representative appears. You can review the skills and then assign the best service representative required to solve the issue at hand.
 
 You can select the **All** filter to view the performance of service representatives across all channels. Alternatively, you can select a channel to view channel-specific service representative performance. You can also filter areas by time, queue, time zone, and conversation status. Learn more in [Overview of Omnichannel Real-time analytics dashboards](intro-realtime-analytics-dashboard.md).
 
-[Learn more about the metrics that are shown on the Agents report.](oc-metrics-dimensions.md)
+[Learn more about the metrics that are shown on the Agent report.](oc-metrics-dimensions.md)
 
-:::image type="content" source="../media/realtime-agent insights.png" alt-text="Screenshot of real-time Agents report.":::
+:::image type="content" source="../media/realtime-agent insights.png" alt-text="Screenshot of real-time Agent report.":::
 
 ## Agent details drill-down
 

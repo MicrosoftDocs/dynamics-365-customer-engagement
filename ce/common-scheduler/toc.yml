@@ -23,7 +23,11 @@
   - name: Resource crew scheduling
     href: resource-crews.md
   - name: Facility scheduling
-    href: facility-scheduling.md
+    items:
+    - name: Schedule a facility
+      href: facility-scheduling.md
+    - name: Facility scheduling examples
+      href: facility-scheduling-examples.md
   - name: Resource pools
     href: resource-pools.md
   - name: Time constraints

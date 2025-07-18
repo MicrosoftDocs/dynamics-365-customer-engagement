@@ -1,6 +1,6 @@
 ---
-title: "UR RecordRouting Real-time Analytics (msdyn_dataanalyticsreport_ur_recordrouting_rt) table/entity reference (Microsoft Dynamics 365)"
-description: "Includes schema information and supported messages for the UR RecordRouting Real-time Analytics (msdyn_dataanalyticsreport_ur_recordrouting_rt) table/entity with Microsoft Dynamics 365."
+title: "Real-time analytics for record routing (msdyn_dataanalyticsreport_ur_recordrouting_rt) table/entity reference (Microsoft Dynamics 365)"
+description: "Includes schema information and supported messages for the Real-time analytics for record routing (msdyn_dataanalyticsreport_ur_recordrouting_rt) table/entity with Microsoft Dynamics 365."
 ms.topic: generated-reference
 author: JimDaly
 ms.author: jdaly
@@ -8,13 +8,13 @@ search.audienceType:
   - developer
 ---
 
-# UR RecordRouting Real-time Analytics (msdyn_dataanalyticsreport_ur_recordrouting_rt) table/entity reference (Microsoft Dynamics 365)
+# Real-time analytics for record routing (msdyn_dataanalyticsreport_ur_recordrouting_rt) table/entity reference (Microsoft Dynamics 365)
 
-UR RecordRouting Real-time Analytics
+Real-time analytics for record routing
 
 ## Messages
 
-The following table lists the messages for the UR RecordRouting Real-time Analytics (msdyn_dataanalyticsreport_ur_recordrouting_rt) table.
+The following table lists the messages for the Real-time analytics for record routing (msdyn_dataanalyticsreport_ur_recordrouting_rt) table.
 Messages represent operations that can be performed on the table. They may also be events.
 
 | Name <br />Is Event? |Web API Operation |SDK for .NET |
@@ -40,12 +40,12 @@ Messages represent operations that can be performed on the table. They may also 
 
 ## Properties
 
-The following table lists selected properties for the UR RecordRouting Real-time Analytics (msdyn_dataanalyticsreport_ur_recordrouting_rt) table.
+The following table lists selected properties for the Real-time analytics for record routing (msdyn_dataanalyticsreport_ur_recordrouting_rt) table.
 
 |Property|Value|
 | --- | --- |
-| **DisplayName** | **UR RecordRouting Real-time Analytics** |
-| **DisplayCollectionName** | **UR RecordRouting Real-time Analytics** |
+| **DisplayName** | **Real-time analytics for record routing** |
+| **DisplayCollectionName** | **Real-time analytics for record routing** |
 | **SchemaName** | `msdyn_dataanalyticsreport_ur_recordrouting_rt` |
 | **CollectionSchemaName** | `msdyn_dataanalyticsreport_ur_recordrouting_rts` |
 | **EntitySetName** | `msdyn_dataanalyticsreport_ur_recordrouting_rtes`|
@@ -105,7 +105,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Unique identifier for entity instances**|
-|DisplayName|**DataAnalyticsReport_UR_RT**|
+|DisplayName|**DataAnalyticsReport\_UR\_RT**|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`msdyn_dataanalyticsreport_ur_recordrouting_rtid`|
@@ -210,7 +210,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Status of the DataAnalyticsReport_UR_RT**|
+|Description|**Status of the DataAnalyticsReport\_UR\_RT**|
 |DisplayName|**Status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -231,7 +231,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Reason for the status of the DataAnalyticsReport_UR_RT**|
+|Description|**Reason for the status of the DataAnalyticsReport\_UR\_RT**|
 |DisplayName|**Status Reason**|
 |IsValidForForm|True|
 |IsValidForRead|True|

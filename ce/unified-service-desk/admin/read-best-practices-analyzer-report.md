@@ -2,7 +2,7 @@
 title: "Read Best Practices Analyzer Report | MicrosoftDocs"
 description: "Use this topic to understand the layout of the Best Practices Analyzer report and analyze the results of the report."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: best-practice
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

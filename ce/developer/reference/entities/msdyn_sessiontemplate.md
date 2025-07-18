@@ -319,7 +319,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**msdyn_Type**|
+|DisplayName|**msdyn\_Type**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_type`|

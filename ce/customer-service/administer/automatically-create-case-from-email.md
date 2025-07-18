@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 06/21/2024
+ms.date: 04/22/2025
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -33,7 +33,7 @@ Reduce the need for manually creating cases from incoming emails and increase th
    
 ## Create cases automatically using rules
 
-1. In the site map of Customer Service admin center, go to **Case Settings** > **Automatic record creation and update rules** > **Manage**.
+1. In the site map of Copilot Service admin center, go to **Case Settings** > **Automatic record creation and update rules** > **Manage**.
 
 1. To create a new case creation rule, select **New**.  
 
@@ -44,10 +44,10 @@ Reduce the need for manually creating cases from incoming emails and increase th
 1. Type or modify information in the fields.  
 
    - **Rule name**: Type the name of the queue the rule is defined for.  
+   
+   - **Queue to monitor**: Select the queue that the rule applies to. For example, if you want to convert email messages and then send them to the Support queue, select that queue here. 
 
-   - **Activity type to monitor**: Select **Email** to indicate that cases will be created automatically from email messages.  
-
-   - **Queue to monitor**: Select the queue that the rule applies to. For example, if you want to convert email messages and then send them to the Support queue, select that queue here.  
+   - **Activity type to monitor**: Select **Email** to indicate that cases will be created automatically from email messages.   
 
      > [!NOTE]
      >  You can associate only one rule per source type to a specific queue. If you’re creating a rule to convert an email to a case, make sure you specify an email address for this queue.  Otherwise, automatic case creation for email won’t work. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create and manage queues](set-up-queues-manage-activities-cases.md)

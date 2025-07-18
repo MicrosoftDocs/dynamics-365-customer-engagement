@@ -1,8 +1,9 @@
 ---
 title: Add facilities and equipment for service scheduling
 description: Learn how to add facilities and equipment for service scheduling in Dynamics 365 Customer Service.
-ms.date: 09/06/2024
-ms.topic: article
+ms.date: 06/26/2025
+ms.update-cycle: 1095-days
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -20,7 +21,7 @@ ms.custom:
 
 Facilities and equipment are resources you use to perform services for your customers. Facilities can be physical spaces, like service bays or conference rooms, and equipment could be tools or other assets. To ensure optimal services for your customers, add these resources to Dynamics 365 Customer Service.  
 
-Service Scheduling is available in the Customer Service Hub site map. We recommend that you create facilities and equipment using the new experience. Learn more in [Add facilities and equipments to schedule service](add-facilities-equipment-ss-csh.md).
+Service Scheduling is available in the Customer Service Hub site map. We recommend that you create facilities and equipment using the new experience. Learn more in [Add facilities and equipment to schedule service](add-facilities-equipment-ss-csh.md).
   
 ## Add a facility or equipment  
   
@@ -34,7 +35,7 @@ Service Scheduling is available in the Customer Service Hub site map. We recomme
   
 2. [!INCLUDE[proc_settings_service_management](../../includes/proc-settings-service-management.md)]  
   
-     -OR-  
+      Or
   
    [!INCLUDE[proc_settings_bus_management](../../includes/proc-settings-bus-management.md)]
   

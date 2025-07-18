@@ -91,7 +91,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Unique identifier for entity instances**|
-|DisplayName|**Casetopic_Incident**|
+|DisplayName|**Casetopic\_Incident**|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`msdyn_casetopic_incidentid`|
@@ -162,7 +162,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Status of the Casetopic_Incident**|
+|Description|**Status of the Casetopic\_Incident**|
 |DisplayName|**Status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -183,7 +183,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Reason for the status of the Casetopic_Incident**|
+|Description|**Reason for the status of the Casetopic\_Incident**|
 |DisplayName|**Status Reason**|
 |IsValidForForm|True|
 |IsValidForRead|True|

@@ -1,7 +1,7 @@
 ---
 title: Make and receive Teams calls in Dynamics 365
 description: Make and receive calls directly from Dynamics 365 with Microsoft Teams dialer and analyze conversations for real-time insights.
-ms.date: 08/26/2024
+ms.date: 06/30/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -26,8 +26,7 @@ Microsoft Teams dialer helps you to be more productive and get work done effecti
 
 Sign in to your sales app and select the phone (![Phone icon.](media/phone-icon.png "Phone icon")) icon in the upper-right corner of the page to open the **Calls** pane and view the dial pad.
 
-> [!div class="mx-imgBorder"]
-> ![Open Microsoft Teams dialer.](media/teams-dialer-open-dialer.png "Open Microsoft Teams dialer")
+:::image type="content" source="media/teams-dialer-open-dialer.png" alt-text="Screenshot of opening the Microsoft Teams dialer in Dynamics 365 Sales.":::
 
 > [!IMPORTANT]
 >- The dialer won't work if third-party cookies are blocked in the private or incognito window of your browser. To use the dialer, select the **Third-party cookie blocking** icon in your browser and select **Allow cookies**.
@@ -73,8 +72,7 @@ You can use Microsoft Teams to call a customer directly from the dialer, a recor
 
     Your work list opens. You can see the phone call activities that are pending for the day. In this example, the phone call activity for **Nancy Anderson** is pending for the day.
 
-    > [!div class="mx-imgBorder"]
-    > ![Open your work list.](media/teams-dialer-open-work-list.png "Open your work list")
+    :::image type="content" source="media/teams-dialer-open-work-list.png" alt-text="Screenshot of opening your work list in Dynamics 365 Sales.":::
 
 1. Select ![Phone icon.](media/phone-icon.png "Phone icon") corresponding to the work item.
 
@@ -88,8 +86,7 @@ You can use Microsoft Teams to call a customer directly from the dialer, a recor
 1. Open the Teams dialer.
 1. Enter the phone number of the customer, or search for the customer through dialer search box.
 
-    > [!div class="mx-imgBorder"]
-    > ![Search for or call a phone number manually.](media/teams-dialer-call-number-manually.png "Search for or call a phone number manually")
+    :::image type="content" source="media/teams-dialer-call-number-manually.png" alt-text="Screenshot of searching for or calling a phone number manually in the Teams dialer.":::
 
 1. Select **Call**.
 
@@ -97,8 +94,7 @@ You can use Microsoft Teams to call a customer directly from the dialer, a recor
 
 You can receive calls in Dynamics 365 Sales. When a call is received, a notification is displayed in the upper-right corner of the page, as shown in the following image:
 
-> [!div class="mx-imgBorder"]
-> ![Call receiving notification in Teams.](media/teams-dialer-receive-call-notification.png "Call receiving notification in Teams")
+:::image type="content" source="media/teams-dialer-receive-call-notification.png" alt-text="Screenshot of the call receiving notification in Teams within Dynamics 365 Sales.":::
 
 The caller name is automatically displayed when the phone number is associated with a record. For example, Kenny Smith is a lead and has the mobile number +1 123 456 7890 associated with their record. When you receive a call from +1 123 456 7890, the name Kenny Smith is automatically displayed; you can select the name in the notification to open the record.
 

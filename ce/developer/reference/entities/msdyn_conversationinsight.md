@@ -79,6 +79,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_conversationinsighttarget](#BKMK_msdyn_conversationinsighttarget)
 - [msdyn_conversationinsighttargetIdType](#BKMK_msdyn_conversationinsighttargetIdType)
 - [msdyn_copilotsummary](#BKMK_msdyn_copilotsummary)
+- [msdyn_copilotsummaryrequestcontext](#BKMK_msdyn_copilotsummaryrequestcontext)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_summary](#BKMK_msdyn_summary)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -264,6 +265,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_copilotsummary`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|102400|
+
+### <a name="BKMK_msdyn_copilotsummaryrequestcontext"></a> msdyn_copilotsummaryrequestcontext
+
+|Property|Value|
+|---|---|
+|Description|**Defines the Copilot summary request context**|
+|DisplayName|**Copilot Summary Request Context**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_copilotsummaryrequestcontext`|
 |RequiredLevel|None|
 |Type|Memo|
 |Format|Text|

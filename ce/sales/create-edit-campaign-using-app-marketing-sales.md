@@ -1,7 +1,8 @@
 ---
 title: Create or edit campaign using in-app marketing
 description: Learn how to create campaigns to store your marketing information and activities, and to measure the success of your efforts through in-app marketing.
-ms.date: 06/20/2024
+ms.date: 05/27/2025
+ms.update-cycle: 1095-days
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

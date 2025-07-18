@@ -2,7 +2,7 @@
 title: Customization best practices
 description: Learn how to get the most out of your Dynamics 365 Field Service customizations.
 ms.date: 06/25/2024
-ms.topic: conceptual
+ms.topic: best-practice
 author: lmasieri
 ms.author: lmasieri
 ---
@@ -129,6 +129,6 @@ To monitor the health of your environment, regularly [run the Solution Health Hu
 
 ## Mobile app performance considerations
 
-Customizing the mobile app can affect performance. Learn more in [Performance considerations when customizing the mobile app](mobile/improve-mobile-performance.md).
+Customizing the mobile app can affect performance. Learn more in [Performance considerations when customizing the mobile app](/dynamics365/guidance/resources/fs-improve-mobile-performance).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

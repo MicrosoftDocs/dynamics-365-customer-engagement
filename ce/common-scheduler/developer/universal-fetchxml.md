@@ -7,7 +7,7 @@ ms.date: 06/06/2024
 ms.reviewer: mhart
 
 ms.subservice: common-scheduler
-ms.topic: article
+ms.topic: reference
 ---
 
 # Extend Universal Resource Scheduling with Universal FetchXML

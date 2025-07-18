@@ -4,7 +4,7 @@ description: Learn how to set up overflow conditions and actions for your voice,
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 02/28/2025
+ms.date: 06/03/2025
 ms.topic: how-to
 ms.custom:
  - bap-template
@@ -15,7 +15,9 @@ ms.custom:
 
 # Manage overflow of work items in queues
 
-When a new work item arrives, unified routing in Dynamics 365 Customer Service directs it to the customer service representative (service representative or representative) who's best suited to work on it. But what happens if all the service representatives who could work on it are already at maximum capacity? And how do you handle work items that arrive when your call center is closed? Overflow handling in Customer Service helps you manage both surge conditions and after-hours calls.
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
+When a new work item arrives, unified routing in Dynamics 365 Customer Service directs it to the representative who's best suited to work on it. But what happens if all the service representatives who could work on it are already at maximum capacity? And how do you handle work items that arrive when your call center is closed? Overflow handling in Customer Service helps you manage both surge conditions and after-hours calls.
 
 A queue's overflow handling options can trigger actions either before or after a work item is queued.
 
@@ -39,9 +41,14 @@ If you don't set up overflow handling, then by default, the work item is added t
 
 ## Handle overflow before a work item is queued
 
-Unified routing checks for overflow conditions after evaluating the route-to-queue rules and before directing a work item to a queue. If an overflow action transfers the work item to another queue, or a supervisor assigns the work item to a service representative or transfers it to another, the work item is assigned to the representative or the queue without any further overflow checks.
+Unified routing checks for overflow conditions after evaluating the route-to-queue rules and before directing a work item to a queue.
 
-The system considers the following factors when it checks for overflow conditions before a work item is queued:
+> [!NOTE]
+> The system does the check once only for each work item before it enters a queue.
+
+If an overflow action transfers the work item to another queue, or a supervisor assigns the work item to a service representative or transfers it to another representative, the system assigns the work item to the representative or queue without any further pre-queue overflow checks.
+
+The system considers the following factors when it checks for overflow conditions before queueing up a work item:
 
 - If multiple queues match the route-to-queue rules, the system routes the work item to the first one that's not overflowing.
 
@@ -78,7 +85,7 @@ If a work item is routed to a fallback queue because of errors or route-to-queue
 
 ### Configure overflow conditions for before a work item is queued
 
-1. In the Customer Service admin center site map, select **Customer support** > **Queues**.
+1. In the site map of Copilot Service admin center, select **Customer support** > **Queues**.
 
 1. Select **Advanced queues**, and then select the queue you want to manage overflow for.
 
@@ -125,13 +132,13 @@ If a work item is routed to a fallback queue because of errors or route-to-queue
     - **Transfer to an external number**
     - **Voicemail**
 
-    The average wait time for a queue is calculated by taking the average wait time of at least 50 conversations in the queue during the previous 48 hours. If the number of conversations in the previous 48 hours is less than 50, the **Average wait time** overflow condition isn't evaluated.
+    Learn about average wait time in [Show customers their average wait time in a queue](average-wait-time.md).
 
 ### Configure rule-specific overflow conditions for before a work item is queued
 
 Sometimes you might not want an overflow action to run for specific types of work items or for priority customers. Let's say that a priority customer calls, the queue to which they're routed is overflowing, and the queue is set to end the call or keep the customer waiting. Either action might violate the service-level agreement that you have with your customer. In this scenario, you might want to configure rule-specific overflow conditions for the queue in the workstream's route-to-queue rules.
 
-1. In the Customer Service admin center site map, select **Customer support** > **Workstreams**.
+1. In the site map of Copilot Service admin center, select **Customer support** > **Workstreams**.
 
 1. Select the workstream, and then select the route-to-queue rule in which the queue is configured.
 
@@ -149,9 +156,9 @@ When a work item is handled by an overflow action instead of being assigned to a
 
 ## Handle overflow when a work item is queued
 
-When a work item is in a queue and the actual wait is long, the system can reroute it to another queue that has representatives available.
+When a work item is in a queue and the actual wait is long because representatives aren't available or have declined the notification, then the system triggers overflow and reroutes the work item to another queue that has representatives available.
 
-1. In the site map of Customer Service admin center, select **Customer support** > **Queues**.
+1. In the site map of Copilot Service admin center, select **Customer support** > **Queues**.
 
 1. Select **Advanced queues**, and then select the queue you want to manage overflow for.
 
@@ -200,7 +207,7 @@ If a queued work item is moved to another queue because of long wait times, and 
 
 If you set **End call** or **End conversation** as an overflow action, you can edit the automated message that informs the customer that no representatives are available.
 
-1. In the Customer Service admin center site map, select **Customer support** > **Customer settings**.
+1. In the site map of Copilot Service admin center, select **Customer support** > **Customer settings**.
 
 1. Select **Automated messages**.
 

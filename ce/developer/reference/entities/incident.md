@@ -104,6 +104,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [LastOnHoldTime](#BKMK_LastOnHoldTime)
 - [MasterId](#BKMK_MasterId)
 - [MessageTypeCode](#BKMK_MessageTypeCode)
+- [msdyn_casesentiment](#BKMK_msdyn_casesentiment)
 - [msdyn_CaseSurveyInviteUrl](#BKMK_msdyn_CaseSurveyInviteUrl)
 - [msdyn_copilotengaged](#BKMK_msdyn_copilotengaged)
 - [msdyn_iotalert](#BKMK_msdyn_iotalert)
@@ -729,6 +730,33 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |---|---|
 |0|**Public Message**|
 |1|**Private Message**|
+
+### <a name="BKMK_msdyn_casesentiment"></a> msdyn_casesentiment
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Sentiment**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_casesentiment`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|0|
+|GlobalChoiceName|`msdyn_case_msdyn_casesentiment`|
+
+#### msdyn_casesentiment Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**N/A**|
+|7|**Very negative**|
+|8|**Negative**|
+|9|**Slightly negative**|
+|10|**Neutral**|
+|11|**Slightly positive**|
+|12|**Positive**|
+|13|**Very positive**|
 
 ### <a name="BKMK_msdyn_CaseSurveyInviteUrl"></a> msdyn_CaseSurveyInviteUrl
 
@@ -2234,6 +2262,8 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [lk_phonetocaseprocess_incidentid](#BKMK_lk_phonetocaseprocess_incidentid)
 - [msdyn_incident_feedback_context](#BKMK_msdyn_incident_feedback_context)
 - [msdyn_incident_msdyn_aicontactsuggestion_sourcerecord](#BKMK_msdyn_incident_msdyn_aicontactsuggestion_sourcerecord)
+- [msdyn_incident_msdyn_autocaseclosureagentactivity_incidentid](#BKMK_msdyn_incident_msdyn_autocaseclosureagentactivity_incidentid)
+- [msdyn_incident_msdyn_autocaseclosureagentmonitoring_incidentid](#BKMK_msdyn_incident_msdyn_autocaseclosureagentmonitoring_incidentid)
 - [msdyn_incident_msdyn_caseenrichment_caseid](#BKMK_msdyn_incident_msdyn_caseenrichment_caseid)
 - [msdyn_incident_msdyn_casesuggestion_suggestedentity](#BKMK_msdyn_incident_msdyn_casesuggestion_suggestedentity)
 - [msdyn_incident_msdyn_casesuggestionrequestpayload_caseid](#BKMK_msdyn_incident_msdyn_casesuggestionrequestpayload_caseid)
@@ -2243,6 +2273,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_incident_msdyn_iotalert_Case](#BKMK_msdyn_incident_msdyn_iotalert_Case)
 - [msdyn_incident_msdyn_ocliveworkitem](#BKMK_msdyn_incident_msdyn_ocliveworkitem)
 - [msdyn_incident_msdyn_originatingqueue_createdincidentid](#BKMK_msdyn_incident_msdyn_originatingqueue_createdincidentid)
+- [msdyn_incident_msdyn_productmap_msdyn_recordid](#BKMK_msdyn_incident_msdyn_productmap_msdyn_recordid)
 - [msdyn_incident_msdyn_suggestioninteraction_msdyn_suggestedentity](#BKMK_msdyn_incident_msdyn_suggestioninteraction_msdyn_suggestedentity)
 - [msdyn_incident_msdyn_suggestioninteraction_msdyn_suggestionfor](#BKMK_msdyn_incident_msdyn_suggestioninteraction_msdyn_suggestionfor)
 - [msdyn_incident_msdyn_suggestionrequestpayload](#BKMK_msdyn_incident_msdyn_suggestionrequestpayload)
@@ -2830,6 +2861,30 @@ Many-To-One Relationship: [msdyn_aicontactsuggestion msdyn_incident_msdyn_aicont
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_incident_msdyn_autocaseclosureagentactivity_incidentid"></a> msdyn_incident_msdyn_autocaseclosureagentactivity_incidentid
+
+Many-To-One Relationship: [msdyn_autocaseclosureagentactivity msdyn_incident_msdyn_autocaseclosureagentactivity_incidentid](msdyn_autocaseclosureagentactivity.md#BKMK_msdyn_incident_msdyn_autocaseclosureagentactivity_incidentid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_autocaseclosureagentactivity`|
+|ReferencingAttribute|`msdyn_incidentid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_incident_msdyn_autocaseclosureagentactivity_incidentid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_incident_msdyn_autocaseclosureagentmonitoring_incidentid"></a> msdyn_incident_msdyn_autocaseclosureagentmonitoring_incidentid
+
+Many-To-One Relationship: [msdyn_autocaseclosureagentmonitoring msdyn_incident_msdyn_autocaseclosureagentmonitoring_incidentid](msdyn_autocaseclosureagentmonitoring.md#BKMK_msdyn_incident_msdyn_autocaseclosureagentmonitoring_incidentid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_autocaseclosureagentmonitoring`|
+|ReferencingAttribute|`msdyn_incidentid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_incident_msdyn_autocaseclosureagentmonitoring_incidentid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_incident_msdyn_caseenrichment_caseid"></a> msdyn_incident_msdyn_caseenrichment_caseid
 
 Many-To-One Relationship: [msdyn_caseenrichment msdyn_incident_msdyn_caseenrichment_caseid](msdyn_caseenrichment.md#BKMK_msdyn_incident_msdyn_caseenrichment_caseid)
@@ -2936,6 +2991,18 @@ Many-To-One Relationship: [msdyn_originatingqueue msdyn_incident_msdyn_originati
 |ReferencingAttribute|`msdyn_createdincidentid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_incident_msdyn_originatingqueue_createdincidentid`|
 |IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_incident_msdyn_productmap_msdyn_recordid"></a> msdyn_incident_msdyn_productmap_msdyn_recordid
+
+Many-To-One Relationship: [msdyn_productmap msdyn_incident_msdyn_productmap_msdyn_recordid](msdyn_productmap.md#BKMK_msdyn_incident_msdyn_productmap_msdyn_recordid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_productmap`|
+|ReferencingAttribute|`msdyn_recordid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_incident_msdyn_productmap_msdyn_recordid`|
+|IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_incident_msdyn_suggestioninteraction_msdyn_suggestedentity"></a> msdyn_incident_msdyn_suggestioninteraction_msdyn_suggestedentity

@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: conceptual
 ms.collection:
-ms.date: 03/03/2025
+ms.date: 06/23/2025
 ms.custom: bap-template
 ---
 
@@ -22,33 +22,34 @@ When the system routes a work item, its corresponding data starts appearing in A
 
 The conversation diagnostics scenario captures data related to unified routing, AI agent, customer service representative (service representative or representative), and supervisor actions. The following table contains data about the subscenarios corresponding to the scenario.
 
-| Subscenarios                    | Description                                           |
-|---------------------------------|-------------------------------------------------------|
-| AgentAccept                     | Service representative accepts the work item assignment                |
-| AgentAssignment                 | Representative assigned by unified routing                   |
-| AgentAvailabilityTrigger        | Assignment triggered when new representative is available |
-| AgentCloseSession               | Representative closed the session with the customer                    |
-| AgentEndConversation            | Representative ended the conversation                          |
-| AgentPickAssignment             | Representative picked the work item                                |
-| AgentReject                     | Representative rejects the work item assignment                |
-| AgentRejoined                   | Representative rejoined the call or conversation               |
-| AgentTimeout                    | Representative failed to accept the work item assignment       |
-| AgentTransfer                   | Representative transferred the conversation to another representative   |
-| BotEscalationToHuman            | AI agent escalated to a representative               |
-| Classification                  | Work item classification by unified routing           |
-| CloseAgentConsult               | Representative closed the consultation request for the conversation |
-| ConversationClose               | Conversation closed by system                         |
-| CustomerDisconnect              | Customer disconnected from the call or conversation   |
-| CustomerEndConversation         | Customer ended the conversation                       |
-| InitiateAgentConsult            | Representative requested consultation with another representative for a conversation |
-| LeavePublicAgentConsult         | Representative left the public consultation for the conversation |
-| ManualAssignment                | Representative or supervisor manually assigned the conversation |
-| NewWorkItemTrigger              | Assignment triggered due to new work item added to queue |
-| QueueTransfer                   | Conversation transferred to a different queue by representatives |
-| RTQ                             | Queue assignment by unified routing                   |
-| SupervisorForceCloseConversation| Supervisor forcefully closed conversation             |
-| SupervisorTransferToAgent       | Supervisor transferred the conversation to another representative |
-| TransferAssignment              | Supervisor or representative transferred the conversation          |
+| Subscenarios                       | Description                                           |
+|------------------------------------|-------------------------------------------------------|
+| Classification                     | Work item classification by unified routing.           |
+| ConsultToCSRClosed                 | Representative closed the consultation request for the conversation. |
+| ConversationClosed                 | Conversation closed by system.                         |
+| ConversationCreated                | Conversation created by system. |
+| ConsultToCSRInitiated              | Representative requested consultation with another representative for a conversation. |
+| CopilotAgentAssignedToConversation | A Copilot agent is assigned to the conversation.|
+| CopilotAgentEscalationToCSR        | AI agent escalated the conversation to a representative.               |
+| CSRAccepted                        | Service representative accepts the work item assignment.              |
+| CSRAssignment                      | Assignment attempted by unified routing when new work item is added to the queue. It can also include assignment to a representative when they become available.                   |
+| CSRAvailabilityCheck               | Check if any service representative is available. |
+| CSRClosedSession                   | Representative closed the session with the customer.                    |
+| CSREndedConversation               | Representative ended the conversation.                          |
+| CSRInitiatedTransfer               | Representative transferred the conversation to another representative.   |
+| CSRLeftPublicConsult               | Representative left the public consultation for the conversation. |
+| CSRNotificationTimeout             | Representative failed to accept the work item assignment.       |
+| CSRPickedConversation              | Representative picked the work item.                                |
+| CSRRejected                        | Representative rejected the work item assignment.                |
+| CSRRejoined                        | Representative rejoined the call or conversation.               |
+| CustomerDisconnected               | Customer disconnected from the call or conversation.   |
+| CustomerEndedConversation          | Customer ended the conversation.                       |
+| ManualAssignment                   | Representative or supervisor manually assigned the conversation. |
+| RouteToQueue                       | Queue assignment by unified routing.                   |
+| SupervisorForceClosedConversation  | Supervisor forcefully closed the conversation.             |
+| SupervisorInitiatedTransfer        | Supervisor transferred the conversation to another representative. |
+| TransferAssignment                 | Supervisor or representative transferred the conversation.          |
+| TransferToQueue                    | Conversation transferred to a different queue by the representative. |
 
 ## Understand conversation logs
 
@@ -124,57 +125,57 @@ The following metadata can be a part of the custom dimensions in the **Traces** 
     - **CapacityProfiles**: Required representative capacity profiles for the work item
     - **RequiredSkills**: Skills required by the representative to work on the work item
 
-### Subscenario: AgentAccept
+### Subscenario: CSRAccepted
 
 - **Omnichannel.description**: Captures the information when representative accepts the conversation:
     - **Success**:
-        1. Representative with ID xxxx assigned to the conversation xxxx. AgentAccept request completed.
-        1. Representative with ID xxxx already assigned to the Conversation xxxx. AgentAccept request completed.
+        1. Representative with ID xxxx assigned to the conversation xxxx. CSRAccepted request completed.
+        1. Representative with ID xxxx already assigned to the Conversation xxxx. CSRAccepted request completed.
     - **Failure**:
-        1. Representative with ID xxxx not found in the session xxxx for conversation xxxx. AgentAccept request failed.
-        1. **Scenario**: AgentAccept for conversation: xxxx failed with exception: xxxx.
+        1. Representative with ID xxxx not found in the session xxxx for conversation xxxx. CSRAccepted request failed.
+        1. **Scenario**: CSRAccepted for conversation: xxxx failed with exception: xxxx.
 - **Omnichannel.target_agent.id**: Captures the ID of the representative who accepts the conversation.
 - **Channel type**: Channel from which work item originated.
 
-### Subscenario: SupervisorForceCloseConversation
+### Subscenario: SupervisorForceClosedConversation
 
 - **Omnichannel.description**: Captures the information when supervisor attempts to forcefully close the conversation:
     - **Success**: 
-        1. **Scenario**: SupervisorForceCloseConversation for Conversation: {Conversation ID} completed successfully.
+        1. **Scenario**: SupervisorForceClosedConversation for Conversation: {Conversation ID} completed successfully.
     - **Failure**: 
         1. SupervisorForceClose request didn't get processed as the state is already closed for Conversation xxxx
-        2. **Scenario**: SupervisorForceCloseConversation for Conversation: xxxx failed with exception: xxxx
+        2. **Scenario**: SupervisorForceClosedConversation for Conversation: xxxx failed with exception: xxxx
 - **omnichannel.initiator_agent.id**: The ID of the supervisor initiating the action.
 - **Channel type**: Channel from which work item originated.
 
-### Subscenario: CustomerEndConversation
+### Subscenario: CustomerEndedConversation
 
 - **Omnichannel.description**: Captures the information when customer ends the conversation.
     - Success: 
-      **Scenario**: CustomerEndConversation for Conversation: {Conversation ID} completed successfully.
+      **Scenario**: CustomerEndedConversation for Conversation: {Conversation ID} completed successfully.
     - **Failure**: 
       1. Customer EndConversation request failed for ConversationId: xxxx as conversation state doesn't support the operation. Conversation state: xxxx
       1. Customer EndConversation request failed for ConversationId: xxxx as the conversation is already in closed state
-      1. **Scenario**: CustomerEndConversation for Conversation: xxxx failed with exception: xxxx
+      1. **Scenario**: CustomerEndedConversation for Conversation: xxxx failed with exception: xxxx
 - **Channel type**: Channel from which work item originated.
 
-### Subscenario: QueueTransfer
+### Subscenario: TransferToQueue
 
 - **Omnichannel.description**: Captures the information when representative attempts to transfer the conversation to another queue.
     - **Success**: 
-      **Scenario**: QueueTransfer for Conversation: {Conversation ID} completed successfully for Target Queue: xxxx with QueueId: xxxx.
+      **Scenario**: TransferToQueue for Conversation: {Conversation ID} completed successfully for Target Queue: xxxx with QueueId: xxxx.
     - **Failure**: 
-      **Scenario**: QueueTransfer for Conversation: xxxx failed with exception: xxxx
+      **Scenario**: TransferToQueue for Conversation: xxxx failed with exception: xxxx
 - **omnichannel.initiator_agent.id**: The ID of the representative initiating the transfer.
 - **Channel type**: Channel from which work item originated.
 
-### Subscenario: InitiateAgentConsult
+### Subscenario: ConsultToCSRInitiated
 
 - **Omnichannel.description**: Captures the information about representative initiating consult request for the conversation.
     - **Success**: 
-      **Scenario**: InitiateAgentConsult for Conversation: {Conversation ID} completed successfully for ConsultType: xxxx under ConversationAccess: xxxx
+      **Scenario**: ConsultToCSRInitiated for Conversation: {Conversation ID} completed successfully for ConsultType: xxxx under ConversationAccess: xxxx
     - **Failure**: 
-      **Scenario**: AgentTransfer for Conversation: xxxx failed with exception: xxxx
+      **Scenario**: CSRInitiatedTransfer for Conversation: xxxx failed with exception: xxxx
 - **omnichannel.initiator_agent.id**:	Captures the ID of the representative initiating the consult request
 - **Omnichannel.target_agent.id**: Captures the ID of the representative receiving the consult request
 - **Channel type**:	Channel from which work item originated.
@@ -182,24 +183,24 @@ The following metadata can be a part of the custom dimensions in the **Traces** 
 ### Subscenario: Other subscenarios for agents and supervisors
 
 - **Subscenarios**:
-    - AgentReject
-    - AgentTimeout
-    - AgentRejoined
-    - AgentPickAssignment
-    - BotEscalationToHuman
-    - AgentEndConversation
-    - AgentCloseSession
-    - ConversationClose
-    - BotAssignedToConversation
-    - AgentTransfer
-    - SupervisorTransferToAgent
+    - CSRRejected    
+    - CSRNotificationTimeout
+    - CSRRejoined
+    - CSRPickedConversation
+    - CopilotAgentEscalationToCSR
+    - CSREndedConversation
+    - CSRClosedSession
+    - ConversationClosed
+    - CopliotAgentAssignedToConversation
+    - CSRInitiatedTransfer
+    - SupervisorInitiatedTransfer
     - CloseConsult
-    - LeavePublicAgentConsult
+    - CSRLeftPublicConsult
 - **Omnichannel.description**: Captures the information when the representative or supervisor takes an action on the conversation.
     - **Success**: {Subscenario} for Conversation: {Conversation ID} completed successfully.
-      **Example**: AgentReject for Conversation: XXXX completed successfully.
+      **Example**: CSRRejected for Conversation: XXXX completed successfully.
     - **Failure**: {Subscenario} for Conversation: {Conversation ID} failed with exception: {scenarioException.Message}
-      **Example**: AgentCloseSession for Conversation: XXXX failed with exception: Too many requests.
+      **Example**: CSRClosedSession for Conversation: XXXX failed with exception: Too many requests.
 - **Omnichannel.initiator_agent.id**:	Captures the ID of the representative initiating the action (As applicable)
 - **Omnichannel.target_agent.i**d: Captures the ID of the representative receiving the action (As applicable)
 - **Channel type**:	Channel from which work item originated

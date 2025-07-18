@@ -1,11 +1,11 @@
 ---
-title: "Choose between Dynamics 365 Channel Integration Framework 1.0 and 2.0 | MicrosoftDocs"
-description: "Know the feature differences between Dynamics 365 Channel Integration Framework versions 1.0 and 2.0., so you can choose the one that best suits your business needs."
+title: Choose between Dynamics 365 Channel Integration Framework 1.0 and 2.0 
+description: Know the feature differences between Dynamics 365 Channel Integration Framework versions 1.0 and 2.0, so you can choose the one that best suits your business needs.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 12/10/2024
-ms.topic: article
+ms.date: 06/26/2025
+ms.topic: concept-article
 ms.custom: bap-template
 ---
 
@@ -32,9 +32,9 @@ More information: [Dynamics 365 Channel Integration Framework 1.0](v1/administer
 
 ## Dynamics 365 Channel Integration Framework 2.0
 
-You can use Dynamics 365 Channel Integration Framework 2.0 to integrate telephony channel providers of your choice if your organization is using the multi-session apps, such as Omnichannel for Customer Service and Customer Service workspace.
+You can use Dynamics 365 Channel Integration Framework 2.0 to integrate telephony channel providers of your choice if your organization is using the multi-session apps, such as Omnichannel for Customer Service and Copilot Service workspace.
 
-Using Dynamics 365 Channel Integration Framework 2.0 with multisession apps, such as Omnichannel for Customer Service and Customer Service workspace, enables you to use cross-channel analytics.
+Using Dynamics 365 Channel Integration Framework 2.0 with multisession apps, such as Omnichannel for Customer Service and Copilot Service workspace, enables you to use cross-channel analytics.
 
 More information: [Channel Analytics](v2/administer/channel-analytics.md)  
 More information: [Dynamics 365 Channel Integration Framework 2.0](v2/administer/overview-channel-integration-framework.md)
@@ -48,8 +48,8 @@ The following matrix explains the various aspects of versions 1.0 and 2.0.
 |Feature| Version 1.0 | Version 2.0 |
 |--------------------------------|---------------------------|-------------------------------|
 |Session| Single-session  | Multisession|
-|Model-driven app | <li>Dynamics 365 Customer Service <br> <li>Dynamics 365 Sales <br> <li>Dynamics 365 Project Service <br> <li>Dynamics 365 Field Service | <li> Omnichannel for Customer Service<br /><li> Customer Service workspace |
-|Deployment/provisioning|Using Dynamics 365 Channel Integration Framework 1.0 model-driven app|Deployed with Customer Service workspace and Omnichannel for Customer Service|
+|Model-driven app | <li>Dynamics 365 Customer Service <br> <li>Dynamics 365 Sales <br> <li>Dynamics 365 Project Service <br> <li>Dynamics 365 Field Service | <li> Omnichannel for Customer Service<br /><li> Copilot Service workspace |
+|Deployment/provisioning|Using Dynamics 365 Channel Integration Framework 1.0 model-driven app|Deployed with Copilot Service workspace and Omnichannel for Customer Service|
 |Communication panel | Right side | Left side |
 |Communication panel modes | <li>Minimized <br> <li>Expanded | <li>Docked <br> <li>Minimized <br> <li>Hidden |
 |Features| <li> Support for one channel provider at any time <br> <li> Communication panel management |<li> Support for multiple telephony channel providers <br> <li> Communication panel management <br> <li> Channel analytics <br> <li> Notification management templates<br> <li> Application tab management templates<br> <li> Session management templates |

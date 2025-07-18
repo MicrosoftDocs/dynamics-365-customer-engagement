@@ -13,7 +13,7 @@ ms.custom:
 
 # Configure SMS provider
 
-This article explains how to set up the SMS service provider with phone numbers in Dynamics 365 Sales. 
+This article explains how to set up the SMS service provider with phone numbers in Dynamics 365 Sales.  
 
 Currently, the following providers are supported:
 

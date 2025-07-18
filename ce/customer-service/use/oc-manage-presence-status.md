@@ -1,7 +1,7 @@
 ---
 title: Manage presence in Omnichannel for Customer Service
 description: Learn how to view and update your presence status in Omnichannel for Customer Service.
-ms.date: 04/01/2025
+ms.date: 07/16/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -21,14 +21,15 @@ Presence is an indication of your customer service representatives' (service rep
 
 The prerequisites for presence status to load correctly are as follows:
 
-- The omnichannel provider URL is correct. Check using the [agent diagnostics tool](use-agent-diagnostics.md) in Customer Service workspace.
+- [Omnichannel for Customer Service is provisioned](/dynamics365/contact-center/implement/provision-channels#set-up-channels) or [Unified routing is enabled](../administer/provision-unified-routing.md).
+
+- The omnichannel provider URL is correct. Check using the [agent diagnostics tool](use-agent-diagnostics.md) in Copilot Service workspace.
 - The representative is assigned the [Omnichannel agent or Omnichannel supervisor role](../implement/add-users-assign-roles.md). If custom roles are used, the representative or supervisor [persona mapping](../administer/role-persona-mapping.md) must be configured.
 - The representative is assigned an [experience profile](../administer/add-profile-default.md).
 - The [**All active channels**](../administer/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels) setting is enabled in the experience profile.
-- [Omnichannel for Customer Service is provisioned](/dynamics365/contact-center/implement/provision-channels#set-up-channels) or [Unified routing is enabled](../administer/provision-unified-routing.md).
-- [Cookies are enabled in agent's browser](../implement/system-requirements-omnichannel.md#system-requirements-for-omnichannel-for-customer-service).
+- [Cookies are enabled in representative's browser](../implement/system-requirements-omnichannel.md#system-requirements-for-omnichannel-for-customer-service).
 - The following URL is listed as allowed: https://*.service.signalr.net
-- **New Presence with fewer clicks** is selected in **Operations** > **New and upcoming features** in the site map of Contact Center admin center or Customer Service admin center.
+- **New Presence with fewer clicks** is selected in **Operations** > **New and upcoming features** in the site map of Copilot Service admin center.
 
 
 ## View out-of-the-box presence statuses
@@ -65,14 +66,14 @@ Learn more in [Configure custom presence status](../administer/presence-custom-p
 
 ### Default presence
 
-You can specify a default presence for representatives when they sign in to Customer Service workspace. Depending on the admin configuration, default presence allows the representatives to immediately start the work or have some time before they start work. If you don’t configure any default presence, the application sets **Available** as the default.
+You can specify a default presence for representatives when they sign in to Copilot Service workspace. Depending on the admin configuration, default presence allows the representatives to immediately start the work or have some time before they start work. If you don’t configure any default presence, the application sets **Available** as the default.
 
 Learn more in [Configure default presence for representatives](../administer/users-user-profiles.md#manage-users-using-the-classic-experience).
 
 
 ## How presence is calculated when representatives sign in
 
-When the representative signs in to Customer Service workspace, the system sets the representative’s presence based on the following factors:
+When the representative signs in to Copilot Service workspace, the system sets the representative’s presence based on the following factors:
 
 - Default presence configuration
 - Representative capacity
@@ -112,8 +113,8 @@ When the representative sets the presence manually as **Do not disturb**, **Offl
     For live chat and voice channels, you can avoid assigning new work items when representatives miss or reject notifications. Make sure that you don't include the **Inactive** and **Do not disturb** statuses in the allowed presence setting of the corresponding channel workstream.
 
   - If the representative is disconnected, the system captures the current presence status and immediately sets the status as **Offline**. If the representative signs back in within 2.5 minutes, the system restores the presence status. If the representative doesn't sign back in by 2.5 minutes, the system recalculates the presence that it needs to set. The following actions by the representative are considered for disconnection:
-    - Closes the Customer Service workspace browser tab or the tab goes into sleep mode. Disable the sleep mode for tabs to keep presence intact on inactive browser tabs.
-    - Signs out of Customer Service workspace.
+    - Closes the Copilot Service workspace browser tab or the tab goes into sleep mode. Disable the sleep mode for tabs to keep presence intact on inactive browser tabs.
+    - Signs out of Copilot Service workspace.
     - Closes or signs out of the device.
     - Experiences Internet disruption.
 

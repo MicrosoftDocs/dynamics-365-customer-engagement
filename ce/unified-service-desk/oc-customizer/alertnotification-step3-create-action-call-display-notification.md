@@ -2,7 +2,7 @@
 title: "Create Omnichannel Alert Notification-related action calls | MicrosoftDocs"
 description: "Learn how to create Omnichannel Alert Notification-related action calls that can be used to show notifications in Omnichannel for Customer Service."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
