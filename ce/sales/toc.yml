@@ -287,10 +287,12 @@ items:
           href: lead-management-overview.md
         - name: Sales Qualification Agent (preview)
           items:
-            - name: Overview
+            - name: Overviewdl
               href: sales-qualification-agent.md
-            - name: Set up and configure Sales Qualification Agent
+            - name: Set up and configure Sales Qualification Agents
               href: configure-sales-qualification-agent.md
+            - name: Open the Sales Qualification Agent settings
+              href: open-sales-qualification-agent-settings.md
             - name: Manage consumption-based billing
               href: copilot-consumption-based-billing.md
             - name: Sales Qualification Agent FAQ
