@@ -2,6 +2,7 @@
 title: Sales Qualification Agent FAQ
 description: Find answers to frequently asked questions about the Sales Qualification Agent in Dynamics 365 Sales, which helps sellers qualify leads and improve sales outcomes.
 ms.date: 07/10/2025
+ms.update-cycle: 180-days
 ms.topic: faq
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -67,6 +68,20 @@ The agent might pause for the following reasons:
 
 - An admin revoked one or more consents the agent needs to run.
 - No capacity is available for the agent to process leads. Ask your admin to check the capacity and resolve the issue.
+- Your org is using an older version of the agent. Upgrade to the latest version to continue using the agent. Learn more in [Upgrade your Sales Qualification Agent](upgrade-sales-qualification-agent.md).
+
+## Why did the Sales Qualification Agent go into Draft mode?
+
+If you're using the 4.3 version of the Sales Qualification Agent (part of the April 2025 public preview), it will be set to Draft mode after the 7.3 release is deployed in your environment. Learn more in [Upgrade your Sales Qualification Agent](upgrade-sales-qualification-agent.md).
+
+## Why can't I access the research pages of leads that were previously processed by the agent? 
+
+If your organization is using the 4.3 version of the Sales Qualification Agent (part of the April 2025 public preview), the research pages for leads that were previously processed by the agent will not be accessible until the agent is reconfigured. After the agent is reconfigured, the leads are evaluated once again based on the given selection criteria. Learn more in [Upgrade your Sales Qualification Agent](upgrade-sales-qualification-agent.md).
+
+
+## Why are my 4.3 agent settings not preserved after the upgrade?
+
+Due to a technological change in the agent's architecture, the settings from the 4.3 version of the Sales Qualification Agent can't be preserved during the upgrade to the 7.3 version.  
 
 <a name="trigger-events"></a>
 ## When does the agent run?
