@@ -1,7 +1,7 @@
 ---
 title: Field Service integration with finance and operations applications
 description: Synchronize inventories and budgeting items between Dynamics 365 Field Service and finance and operations applications.
-ms.date: 05/21/2025
+ms.date: 07/17/2025
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
@@ -259,7 +259,14 @@ This integration supports the use of [Microsoft-managed](/dynamics365/fin-ops-co
 
 [Project Operations resource/non-stocked integration](/dynamics365/project-operations/environment/resource-dual-write-overview) doesn't allow the Field Service integration to work with the same legal entities that have are enabled for the resource/non-stocked integrated scenario. However, it can work in the same environments for other legal entities.
 
-Offline virtual tables are currently not supported, which is why it's critical to [set up the defaulting logic for locations](finance-operations-integration-setup.md#configure-inventory-and-warehouse-management-in-warehouses) so that transactions don't get blocked.
+Manual updates to virtual table lookups aren't supported in offline mode, which is why it's critical to [set up the defaulting logic for locations](finance-operations-integration-setup.md#configure-inventory-and-warehouse-management-in-warehouses) so that transactions don't get blocked. There are several virtual table lookups:
+- Work order has a lookup to **F&O Project**
+  - You don't need to populate this while offline.
+- Work order product has a lookup to **Inventory Location** and **Line Property**
+  - The **Line Property** value must be default.
+  - The **Inventory Location** value succeeds if you [set up the defaulting logic for locations](finance-operations-integration-setup.md#configure-inventory-and-warehouse-management-in-warehouses).
+- Work order service has a lookup to **Line Property**
+  - The **Line Property** value must be default.
 
 The following processes or features available in the finance and operation apps aren't supported or aren't reflected in Field Service out-of-the-box for this integration:
 
@@ -271,7 +278,7 @@ The following processes or features available in the finance and operation apps 
 
 - The integration currently supports limited alignment of data updates from project journals back to its respective work order transaction. When a Field Service user creates or updates a work order product or service, those updates sync with the respective journal. However, expense journal lines, hours journal lines, or item journal lines only sync the defaulted line property and a reference to the active journal line for the record. Other changes to the respective Field Service transaction record aren't synced from their respective line journals.
 
-- Work order products and work order service records have a **Discount %** and **Estimated Discount** percent field. At this time, the integration doesn't synchronize these discount concepts. The respective journals which they generate don't have such a concept and. The system hides this field on the default forms when the integration is enabled.
+- Work order products and work order service records have a **Discount %** and **Estimated Discount** percent field. At this time, the integration doesn't synchronize these discount concepts. The respective journals, which they generate, don't have such a concept. The system hides this field on the default forms when the integration is enabled.
 
 > [!NOTE]
 > When using entitlements, apply a specialized price list instead of a discount.
