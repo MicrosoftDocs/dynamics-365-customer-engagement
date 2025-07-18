@@ -76,19 +76,19 @@ You must perform the steps in the order they're listed to migrate your configura
 
 ## Migrate configuration using a solution
 
-If you use custom session templates and notifications in your live chat routing setup, perform the steps outlined in [Migrate configuration using a solution](migrate-config-data-for-records.md#migrate-configuration-using-a-solution).
+If you use custom session templates and notifications in your live chat routing setup, perform the steps outlined in [Migrate configuration using a solution](migrate-record-routing-config-using-solutions.md).
 
 ## Migrate skill-based configuration
 
-If skill-based routing rulesets are used in your unified routing setup, perform the steps outlined in [Export and import data for skill-based routing](migrate-config-data-for-records.md#migrate-configuration-for-skill-based-routing-rulesets). Make sure to adjust any filtering fetch xml appropriately for live chat.
+If skill-based routing rulesets are used in your unified routing setup, perform the steps outlined in [Export and import data for skill-based routing](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-skill-based-routing-rulesets). Make sure to adjust any filtering fetch xml appropriately for live chat.
 
 ## Migrate configuration for capacity profiles
 
-If you configured capacity profiles in your unified routing setup, perform the steps outlined in [Export and import data for capacity profiles](migrate-config-data-for-records.md#migrate-configuration-for-capacity-profiles). Make sure to adjust any filtering fetch xml appropriately for live chat.
+If you configured capacity profiles in your unified routing setup, perform the steps outlined in [Export and import data for capacity profiles](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-new-capacity-profiles). Make sure to adjust any filtering fetch xml appropriately for live chat.
 
 ## Migrate configuration for live chat queues
 
-For migrating queues for live chat, perform the steps outlined in [Migrate data for unified routing-based record queues](migrate-config-data-for-records.md#migrate-configuration-for-record-queues). Make sure to adjust any filtering fetch xml appropriately for live chat.
+For migrating queues for live chat, perform the steps outlined in [Migrate data for unified routing-based record queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-queues). Make sure to adjust any filtering fetch xml appropriately for live chat.
 
 ## Migrate configuration for live chat workstreams
 

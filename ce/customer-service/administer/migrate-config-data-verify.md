@@ -25,7 +25,7 @@ ms.custom: bap-template
 [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data)  
 [Overview of data migration for records](migrate-config-data-for-records-overview.md)  
 [Use FetchXML query to filter records](use-fetchxml-filter-records.md)  
-[Migrate configuration data for records](migrate-config-data-for-records.md)  
+[Migrate configuration data for records](migrate-record-routing-config-using-solutions.md)  
 [Troubleshoot migration of records](migrate-config-data-troubleshoot.md)  
 [Migrate configuration data for live chat](migrate-config-data-for-live-chat.md)  
 [Migrate configuration data for voice channel](migrate-config-data-for-voice-channel.md)   
