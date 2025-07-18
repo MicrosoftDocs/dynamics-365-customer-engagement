@@ -84,11 +84,11 @@ If skill-based routing rulesets are used in your unified routing setup, perform 
 
 ## Migrate configuration for capacity profiles
 
-If you have configured capacity profiles in your unified routing setup, perform the steps outlined in [Export and import data for capacity profiles](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-new-capacity-profiles). Make sure to adjust any filtering fetch xml appropriately for custom channel.
+If you have configured capacity profiles in your unified routing setup, perform the steps outlined in [Export and import data for capacity profiles](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-capacity-profiles). Make sure to adjust any filtering fetch xml appropriately for custom channel.
 
 ## Migrate configuration for custom channel queues
 
-For migrating queues for custom channel, perform the steps outlined in [Migrate data for unified routing-based record queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-queues). Make sure to adjust any filtering fetch xml appropriately for custom channel.
+For migrating queues for custom channel, perform the steps outlined in [Migrate data for unified routing-based record queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-record-queues). Make sure to adjust any filtering fetch xml appropriately for custom channel.
 
 ## Migrate configuration for custom channel workstreams
 

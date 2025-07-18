@@ -21,7 +21,7 @@ ms.custom: bap-template
 If you see a difference in the migrated records between the source and target organizations, then you must delete the unmanaged entity records and repeat the migration process. 
 In the target organization, perform the following steps:
 
-1. For queues, revert the entities in the reverse order of the serial number (**S.No** column) that's listed in the migration article at [Migrate configuration for record queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-queues). Migrate the entities in this order:
+1. For queues, revert the entities in the reverse order of the serial number (**S.No** column) that's listed in the migration article at [Migrate configuration for record queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-record-queues). Migrate the entities in this order:
 
     1. Assignment Configuration Step
     2. Assignment Configuration
@@ -45,7 +45,7 @@ In the target organization, perform the following steps:
 
 ## Next steps
 
-1. [Migrate queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-queues)  
+1. [Migrate queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-record-queues)  
 2. [Migrate intake rules](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-intake-rules-and-record-workstreams)  
 3. [Migrate workstreams](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-intake-rules-and-record-workstreams)  
 

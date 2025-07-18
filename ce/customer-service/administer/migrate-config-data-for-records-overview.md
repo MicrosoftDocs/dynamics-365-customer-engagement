@@ -54,10 +54,10 @@ Check for the following before you migrate your configuration data:
 Perform the steps in the following order to successfully migrate your configuration data from the source to the target organization. 
 
 1. [Use FetchXML query to filter records](use-fetchxml-filter-records.md)
-1. [Migrate configuration using a solution](/migrate-record-routing-config-using-solutions.md#migrate-configuration-for-session-templates-and-notification-templates)
+1. [Migrate configuration using a solution](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-session-templates-and-notification-templates)
 1. [Migrate skill-based routing rulesets](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-skill-based-routing-rulesets)
-1. [Migrate capacity profiles](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-new-capacity-profiles)
-1. [Migrate queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-queues)
+1. [Migrate capacity profiles](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-capacity-profiles)
+1. [Migrate queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-record-queues)
 1. [Migrate intake rules and record workstreams](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-intake-rules-and-record-workstreams)
 
 

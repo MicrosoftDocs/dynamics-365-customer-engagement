@@ -81,11 +81,11 @@ If skill-based routing rulesets are used in your SMS routing setup, perform the 
 
 ## Migrate configuration for capacity profiles
 
-If you have configured capacity profiles in your SMS routing setup, perform the steps outlined in [Export and import data for capacity profiles](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-new-capacity-profiles). Make sure to adjust any filtering fetch xml appropriately for SMS. 
+If you have configured capacity profiles in your SMS routing setup, perform the steps outlined in [Export and import data for capacity profiles](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-capacity-profiles). Make sure to adjust any filtering fetch xml appropriately for SMS. 
 
 ## Migrate configuration for SMS queues
 
-For migrating queues for SMS, perform the steps outlined in [Migrate data for unified routing-based record queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-queues). Make sure to adjust any filtering fetch xml appropriately for SMS.
+For migrating queues for SMS, perform the steps outlined in [Migrate data for unified routing-based record queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-record-queues). Make sure to adjust any filtering fetch xml appropriately for SMS.
 
 ##  Migrate configuration for SMS workstreams
 

@@ -79,11 +79,11 @@ If skill-based routing rulesets are used in your unified routing setup, perform 
 
 ## Migrate configuration capacity profiles
 
-If you have configured capacity profiles in your voice routing setup, perform the steps outlined in [Export and import data for capacity profiles](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-new-capacity-profiles).
+If you have configured capacity profiles in your voice routing setup, perform the steps outlined in [Export and import data for capacity profiles](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-capacity-profiles).
 
 ## Migrate configuration for voice channel queues
 
-For exporting and importing queues for the voice channel, perform the steps outlined in [Migrate data for unified routing-based record queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-new-capacity-profiles).
+For exporting and importing queues for the voice channel, perform the steps outlined in [Migrate data for unified routing-based record queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-record-queues).
 
 ## Migrate configuration for voice channel workstreams
 
