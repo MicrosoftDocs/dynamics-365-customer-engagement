@@ -208,7 +208,7 @@ The time that a service representative spent in a presence status.
 
 ## Consult
 
-This metric represents the service representative participation **Consult** mode. You can use these metrics to customize the visual display of your reports. Learn more in [Customize visual display](customize-reports.md#customize-visual-display).
+This metric represents the service representative participation **Consult** mode. You can use these metrics to customize the visual display of your reports. Learn more in [Customize visual display](../use/customize-reports.md#customize-visual-display).
 
 The related metrics aren't available by default. Select **Edit report** to find the following metrics in your data model when you search for **Consult**. 
 
@@ -660,8 +660,8 @@ AVERAGEX(FactSessionParticipant, IF(FactSessionParticipant[AgentJoinedOn] <> BLA
 
 ## Related information
 
-[Customize visual display](customize-reports.md#customize-visual-display)  
+[[Customize visual display](../use/customize-reports.md#customize-visual-display) 
 [Calculate conversation metrics](../develop/calculate-conversation-metrics.md#calculate-conversation-metrics)  
-[Session metrics](session-metrics.md#session-metrics)
+[Calculate session metrics](calculate-session-metrics.md#calculate-session-metrics)
 
 
