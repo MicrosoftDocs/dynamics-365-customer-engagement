@@ -35,7 +35,7 @@ Lead qualification is an evolving process which requires experimentation, contin
 1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  
 1. Edit the sections as required and then select **Apply changes**.  
 
-    :::type="content" source="media/sqa-settings-edit-page.png" alt-text="Screenshot of editing the Sales Qualification Agent in settings page.":::
+    :::image type="content" source="media/sqa-settings-edit-page.png" alt-text="Screenshot of editing the Sales Qualification Agent in settings page.":::
 
 1. On the confirmation dialog, select **Apply changes** to confirm the changes.
 
@@ -52,7 +52,7 @@ Stop the agent when you don’t want to use it in your organization. Stopping th
 1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  
 1. On the agent settings page, select **Stop agent**.  
 
-    :::type="content" source="media/sqa-settings-stop-agent-page.png" alt-text="Screenshot of stopping the Sales Qualification Agent in settings page.":::
+    :::image type="content" source="media/sqa-settings-stop-agent-page.png" alt-text="Screenshot of stopping the Sales Qualification Agent in settings page.":::
 
 1. On the confirmation message select **Stop agent**.  
 

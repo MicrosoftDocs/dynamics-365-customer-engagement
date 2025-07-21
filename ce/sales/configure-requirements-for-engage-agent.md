@@ -23,7 +23,7 @@ ai-usage: ai-assisted
 
 Before you configure the agents, ensure that prerequisites are configured in your Dynamics 365 Sales environment. Depending on the agent type, you must configure the requirements as follows:
 
-| Prerequisite | Agent type | Description |
+| Prerequisite | Applicable for | Description |
 |--------------|------------|-------------|
 | Create application in Azure | Research and Engage agents | An Azure AD application is required to securely authenticate the agent’s Dataverse Application User, enabling it to act independently via app-based access.<br>More information: [Create application in Azure](#create-application-in-azure) |
 | Create a shared mailbox | Engage agent | The agent mailbox that will be used to send emails and follow-ups in compliance with your org’s policies.<br>More information: [Create a shared mailbox](#create-a-shared-mailbox) |
@@ -54,7 +54,7 @@ To learn more about app creation, see [Quickstart: Register an app in Microsoft 
 
 ## Create a shared mailbox
 
-1. Ensure that you have one of the following roles in Microsoft Office 365 admin portal&madsh; **Office 365 Global Administrator**, **Exchange Administrator**, or **Exchange Recipient Administrator**.
+1. Ensure that you have one of the following roles in Microsoft Office 365 admin portal&mdash; **Office 365 Global Administrator**, **Exchange Administrator**, or **Exchange Recipient Administrator**.
 1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  
 1. In the agent settings page, go to the **Prerequisites** section, and in the **Create shared mailbox** section, select **Set up**.
 
