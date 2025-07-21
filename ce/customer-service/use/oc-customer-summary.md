@@ -109,7 +109,7 @@ Depending on the settings that are enabled for you, you'll see one of the follow
 If your administrator has enabled disposition codes, the **Disposition Code** section appears on the form. During the conversation, do the following:
  - Set **Category** to filter the available codes.
  - Select the disposition code that best describes the outcome of the conversation in **Search codes**. 
-    - You can select disposition codes associated with specific workstream or disposition codes that are available in all workstream. 
+    - You can select disposition codes associated with a specific workstream or those that are available in all workstreams. 
     - You can select up to the maximum number of disposition codes set by your administrator.
 
 If your administrator has configured the disposition codes to be mandatory to close a session, you must select a disposition code before you can close the conversation. If you don't select a code, a pop up appears when you try to close the conversation.
