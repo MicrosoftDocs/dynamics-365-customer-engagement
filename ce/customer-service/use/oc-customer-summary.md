@@ -108,7 +108,7 @@ Depending on the settings that are enabled for you, you'll see one of the follow
 
 If your administrator has enabled disposition codes, the **Disposition Code** section appears on the form. During the conversation, do the following:
  - Set **Category** to filter the available codes.
- - Select the disposition code that best describes the outcome of the conversation in **Search codes** drop down. 
+ - Select the disposition code that best describes the outcome of the conversation in **Search codes**. 
     - You can select disposition codes associated with specific workstream or disposition codes that are available in all workstream. 
     - You can select up to the maximum number of disposition codes set by your administrator.
 
