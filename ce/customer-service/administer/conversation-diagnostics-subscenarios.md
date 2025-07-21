@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: conceptual
 ms.collection:
-ms.date: 07/18/2025
+ms.date: 07/21/2025
 ms.custom: bap-template
 ---
 
@@ -78,8 +78,8 @@ The following metadata can be a part of the custom dimensions in the **Traces** 
       - **Applied**: Work item met rule conditions and output was chosen.
       - **Not processed**: Rule conditions not evaluated for this work item.
   - **Order**: Rule order
-  - **RuleItem**: Classification rule name
-  - **Condition**: Defined in classification rule
+  - **RuleItem**: Classification rule name.
+  - **Condition**: Defined in classification rule.
 
 ### Subscenario: Route-to-queue
 
@@ -91,39 +91,39 @@ The following metadata can be a part of the custom dimensions in the **Traces** 
       - **Processed**: Work item didn't meet the rule conditions.
       - **Matched**: Work item met rule conditions, but output wasn't chosen.
       - **Applied**: Work item met rule conditions and output was chosen.
-  - **Order**: Rule order
-  - **RuleItem**: Route-to-queue rule name
-  - **Condition**: Defined in Route-to-queue rule
+  - **Order**: Rule order.
+  - **RuleItem**: Route-to-queue rule name.
+  - **Condition**: Defined in Route-to-queue rule.
   - **Output**:
-      - **ID**: Output queue ID
-      - **DisplayName**: Output queue name
+      - **ID**: Output queue ID.
+      - **DisplayName**: Output queue name.
 - **OverflowInfo**:
-  - **OverflowTrigger** : Condition that's evaluated for overflow
+  - **OverflowTrigger** : Condition that's evaluated for overflow.
   - **Overflow action**: Action that’s performed on the work item. Learn more in [Handle queue overflow](manage-overflow.md).
 - **Omnichannel.description**: Appears when work item is routed to the fallback queue. An example is "Valid route to queue rules are missing in workstream. Routed to fallback queue."
 - **Omnichannel.result**: The queue to which the work item is finally routed. If overflow is configured, the final queue is determined after overflow evaluation. The output is as follows:
-    - **DisplayName**: Queue name
-    - **ID**: Queue ID
+    - **DisplayName**: Queue name.
+    - **ID**: Queue ID.
 - **AgentDetails**: Provides information about the representative as follows:
-    - **AgentId**: Representative ID
-    - **AadUserId**: User ID
-    - **Skills**: Skills assigned to the representative
-    - **BasePresenceStatus**: Base presence of the representative
-    - **CurrentPresence**: Current presence of representative
-    - **AvailableCapacity**: Available representative capacity units
-    - **CapacityProfiles**: Capacity profiles associated with representative
+    - **AgentId**: Representative ID.
+    - **AadUserId**: User ID.
+    - **Skills**: Skills assigned to the representative.
+    - **BasePresenceStatus**: Base presence of the representative.
+    - **CurrentPresence**: Current presence of representative.
+    - **AvailableCapacity**: Available representative capacity units.
+    - **CapacityProfiles**: Capacity profiles associated with representative.
 - **IsAgentAssigned**:
-    - **True**: Representative is assigned to conversation
-    - **False**: Representative isn't assigned to conversation
+    - **True**: Representative is assigned to conversation.
+    - **False**: Representative isn't assigned to conversation.
 - **Omnichannel.work_item.details**:
-    - **ConversationId**: Work item ID
-    - **SessionId**: Session ID
-    - **QueueId**: Queue ID where work item is queued
-    - **WorkStreamId**: Workstream ID associated with work item
-    - **RequiredCapacityUnits**: Required representative capacity in units for the work item
-    - **AllowedPresences**: Allowed representative presences for the work item
-    - **CapacityProfiles**: Required representative capacity profiles for the work item
-    - **RequiredSkills**: Skills required by the representative to work on the work item
+    - **ConversationId**: Work item ID.
+    - **SessionId**: Session ID.
+    - **QueueId**: Queue ID where work item is queued.
+    - **WorkStreamId**: Workstream ID associated with work item.
+    - **RequiredCapacityUnits**: Required representative capacity in units for the work item.
+    - **AllowedPresences**: Allowed representative presences for the work item.
+    - **CapacityProfiles**: Required representative capacity profiles for the work item.
+    - **RequiredSkills**: Skills required by the representative to work on the work item.
 
 ### Subscenario: IntentDetermination
 
@@ -131,13 +131,12 @@ Displays information about the intent and intent group determined for the conver
 
 - **id**: 
 - **Omnichannel.intent_details**:
-  - **ActiveIntentFamilyId**:
-  - **ActiveIntentId**:
+  - **ActiveIntentFamilyId**: Line of business ID.
+  - **ActiveIntentId**: Intent ID.
   - **ActiveIntentName**:
-  - **InputFields**:
 - **omnichannel.intent_group_details**: 
-  - **ActiveIntentGroupId**:
-  - **ActiveIntentGroupName**:
+  - **ActiveIntentGroupId**: Intent group ID.
+  - **ActiveIntentGroupName**: Intent group name.
 - o**mnichannel.is_intent_determined**: True or false.
 - **omnichannel.is_intent_group_determined**: True or false.
 
@@ -148,7 +147,7 @@ Displays information on the line of business identified for the conversation.
 
 - **id**:
 - **omnichannel.additional_info**:
-  - **IntentFamilyRulesInformation**:
+  - **IntentFamilyRulesInformation**: Rules evaluated for identifying line of business.
   - **IsFamilyEnabledForIntentBasedRouting**: Returns true or false.
   - **LOBID**: GUID of the line of business.
   - **LOBName**: Line of business name.
@@ -158,7 +157,7 @@ Displays information on the line of business identified for the conversation.
 Displays information on the user group identified for the conversation.
 
 - **id**:
-- **RuleHitPolicy**:
+- **RuleHitPolicy**: Hit-first or Hit-all.
 - **RuleSetInfo**: Provides information on the rules that are run.
   - **RuleId**: Line of business evaluation rule ID.
   - **Status**:
@@ -166,19 +165,15 @@ Displays information on the user group identified for the conversation.
       - **Applied**: Rule was evaluated and output was chosen.
       - **Not processed**: Not evaluated.
   - **Order**: Rule order.
-  - **RuleItem**:
+  - **RuleItem**: Rule name.
   - **Condition**: Defined in lines of business rule.
   - **UserGroupOutput**:
-   - **id**:
-   - **Name**:
+   - **id**: Identified user group ID.
+   - **Name**: Identified user group name.
    - **Languages**: Live work item language that was matched with the user group.
    - **Regions**: Live work item region that was matched with the user group.
 - **omnichannel.is_user_group_determined**: Returns true or false.
-- **omnichannel.user_group_detail**:
-
-    
-
-
+- **omnichannel.user_group_detail**: Details of the user group identified.
 
 ### Subscenario: CSRAccepted
 
