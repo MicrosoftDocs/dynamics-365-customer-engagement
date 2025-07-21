@@ -42,7 +42,7 @@ Ensure that the following prerequisites are met:
 
 - (Optional but recommended) You turned on Copilot in Dynamics 365 Sales to allow your sellers to get a 360-degree view of the lead and their company. Learn more in [Turn on and set up Copilot in Dynamics 365 Sales](enable-setup-copilot.md) and [Get information from Copilot](copilot-get-information.md).
 
-    
+
 ## Before you begin
 
 Determine the products that you want the Sales Qualification Agent to help with and the [ideal customer profile (ICP)](sales-qualification-agent-faq.md#icp) for those products. The products should be handled by a single sales team and have a similar ideal customer profile. If your company sells multiple lines through different sales teams, pick one product line.
