@@ -33,7 +33,9 @@ Follow these steps:
 1. In the **Agent manager** section, select **Create agent**.  
     The AI agent page opens.
 
-1. To create an agent, select **Create**.  
+1. To create an agent, select **Create** and then select **Research** or **Engage** based on your requirement.  
+
+    :::type="content" source="media/sqa-settings-create-agent-page.png" alt-text="Screenshot of creating a Sales Qualification Agent in settings page."::: 
 
 1. To edit or deactivate the agent, select the agent name.
 
