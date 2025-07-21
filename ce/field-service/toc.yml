@@ -586,21 +586,6 @@ items:
     - name: Dynamics 365 US Government cloud
       href: /power-platform/admin/microsoft-dynamics-365-government
 
-- name: Customize Field Service
-  items:
-    - name: Customization overview
-      href: field-service-customizations.md
-    - name: Best practices
-      href: field-service-customization-best-practices.md
-    - name: Customize columns (fields)
-      href: field-service-customize-columns-fields.md
-    - name: Customize forms
-      href: field-service-customize-forms.md
-    - name: Write complex business logic (plugins + JavaScript)
-      href: field-service-customize-scripts.md
-    - name: Customize the booking card
-      href: customize-booking-card.md
-
 - name: Field Service table reference
   href: developer/reference/entities/toc.yml
 
