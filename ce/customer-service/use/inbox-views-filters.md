@@ -1,7 +1,7 @@
 ---
 title: Use views and filters in the inbox
 description: Learn about the inbox views and filters that are available out of the box.
-ms.date: 06/30/2025
+ms.date: 07/22/2025
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
