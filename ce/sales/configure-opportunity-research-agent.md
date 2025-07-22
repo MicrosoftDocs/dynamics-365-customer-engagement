@@ -70,8 +70,6 @@ As the agent consumes capacity, it is important to plan and configure it to hand
 1. On the **Automation level** section, select **Research**.
 1. Scroll down to the **Prerequisites** section and confirm that server-side synchronization is configured for the mailboxes of sellers who will use the agent. The agent can't verify this automatically. So, select **Mark as done** only if it is configured as described in the [Plan your implementation](#step-1-plan-your-implementation) section.
 
-1. On the **Prerequisites** tab, confirm whether server-side synchronization is configured for sellers who will use the agent. The agent can't verify this automatically. So, select **Mark as done** only if it is configured.
-
 ## Step 3: Configure the agent
 
 After verifying the prerequisites, define the agent and company profile, selection criteria for opportunities, refresh frequency, fields for importance and risk assessment, and knowledge sources for generating research insights.
