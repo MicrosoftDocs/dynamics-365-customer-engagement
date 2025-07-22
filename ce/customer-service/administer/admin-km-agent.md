@@ -82,7 +82,7 @@ Xrm.WebApi.createRecord('entityanalyticsconfig', {'parententitylogicalname':'{EN
 
 ## Enable historical knowledge creation
 
-When enabled, the agent looks at all the cases that meet the conditions specified, and then determines if new articles are needed by comparing the content of the cases or conversations with the existing Dynamics 365 knowledge base. If a new article is needed, it creates a new article by using the content of one or more historical cases that meet the configured conditions.  
+When enabled, the agent considers all the cases and conversations that meet the specified conditions and then determines if new articles are needed by comparing the content of the cases or conversations with the existing knowledge base. The agent then creates a new article, if required, based on the content of the cases and conversations.
 
 1. Select the **Cases** or the **Conversations** tab.
 
