@@ -1,7 +1,7 @@
 ---
 title: Add condition steps to sequences
 description: Discover how to use adaptive sequences in sales accelerator to define condition steps that guide the path of a sequence.
-ms.date: 07/21/2025
+ms.date: 07/22/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -41,7 +41,7 @@ Conditions in the adaptive sequences work as defined only when **Sales Insights 
 
     :::image type="content" source="media/sa-condition-enable-process-select-sequence-solution.png" alt-text="Screenshot of searching and selecting the Sales Insights Adaptive sequence timeout flow.":::
  
-:::image type="content" source="media/sa-condition-enable-process-turn-on-adaptive-sequence-timeout-flow.png" alt-text="Screenshot of enabling the Sales Insights Adaptive sequence timeout flow in Power Automate.":::
+    :::image type="content" source="media/sa-condition-enable-process-turn-on-adaptive-sequence-timeout-flow.png" alt-text="Screenshot of enabling the Sales Insights Adaptive sequence timeout flow in Power Automate.":::
 
     The process is enabled.
 
