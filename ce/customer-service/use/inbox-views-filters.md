@@ -52,4 +52,4 @@ By default, the application applies filters on all views, irrespective of the ta
 
 ### Related information
 [Configure the inbox](../administer/configure-inbox.md)  
-[Use the inbox](../use/use-inbox.md)  
+[Use the inbox](use-inbox.md)  
