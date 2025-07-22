@@ -28,10 +28,11 @@ ai-usage: ai-assisted
 
 After you configure the agent, the **Start agent** option is active.  
 
-:::type="content" source="media/sqa-settings-start-agent.png" alt-text="Screenshot of selecting start agent option on the Sales Qualification Agent settings page.":::
+:::image type="content" source="media/sqa-settings-start-agent.png" alt-text="Screenshot of selecting start agent option on the Sales Qualification Agent settings page.":::
 
 A confirmation message is displayed, select **Start agent** to start the agent. The agent might take a few seconds to start, and you can continue working while the agent is being started. Upon successful activation, the agent is listed under the AI agents home page with status as **On**. As soon as the agent is started, the agent starts processing the leads that match the [configured selection criteria]().
 
 ## Related information
 
+- [Configure the Sales Qualification Agent](configure-sales-qualification-agent.md)  
 - [Manage the Sales Qualification Agent](manage-sales-qualification-agent.md)

@@ -52,11 +52,11 @@ The difference between the Research and Engage agents lies in their functionalit
 
 The Sales Qualification Agents are designed to assist you in the lead qualification process. Here are some key concepts to understand:
 
-**Ideal customer profile (ICP)**: Applicable for both research and engage agents, the ICP is a set of criteria that defines the characteristics of your ideal customer. The agent uses this profile to evaluate leads and determine their fit. More information: 
+**Ideal customer profile (ICP)**: Applicable for both research and engage agents, the ICP is a set of criteria that defines the characteristics of your ideal customer. The agent uses this profile to evaluate leads and determine their fit. More information: [What is the ideal customer profile and how is the fit determined?](sales-qualification-agent-concepts.md#what-is-the-ideal-customer-profile-and-how-is-the-fit-determined)
 
-**Purchase interest**: Applicable for the engage agent, purchase interest is an indicator of the lead's intent to buy. The agent evaluates leads based on their engagement and interest level. More information: 
+**Purchase interest**: Applicable for the engage agent, purchase interest is an indicator of the lead's intent to buy. The agent evaluates leads based on their engagement and interest level. More information: [What is purchase interest and how is it determined?](sales-qualification-agent-concepts.md#what-is-purchase-interest-and-how-is-it-determined)
 
-**BANT (Budget, Authority, Need, Timing)**: Applicable for the engage agent, BANT is a framework used to evaluate leads based on their budget, authority, need, and timing. The agent uses this framework to assess the lead's potential and readiness to buy. More information: 
+**BANT (Budget, Authority, Need, Timing)**: Applicable for the engage agent, BANT is a framework used to evaluate leads based on their budget, authority, need, and timing. The agent uses this framework to assess the lead's potential and readiness to buy. More information: [What is BANT and how is the fitment calculated?](sales-qualification-agent-concepts.md#what-is-bant-and-how-is-the-fitment-calculated)
 
 ## How to use the agent
 

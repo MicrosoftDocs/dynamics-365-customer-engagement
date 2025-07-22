@@ -49,14 +49,15 @@ Ensure that the following prerequisites are met:
 Review the following considerations before you start deploying the autonomous Sales Qualification Agent:
 
 - Only one agent can be deployed in an environment. The Sales Qualification Agent supports the following levels of automation:  
+
     - **Research**: Analyze the assigned leads and draft outreach email based on the insights. Hand over the leads to sellers with the recommended next set of actions.  
     - **Research and engage (full autonomous)**: Analyze and autonomously engage with the customer. Hand over the leads to sellers with detected purchase interest and customer profile fit based on configured handoff criteria.  
 
     > [!NOTE]
     > You can have only one agent in an organization irrespective of the automation level.
 
-- **Deactivation** of the agent will prevent new leads from being assigned/processed by the agent. Existing leads which are already in pipeline (orchestration), will continue until the lead is handed over to seller or supervisor for next steps.
-- You can’t delete an agent once configured. Contact Microsoft support to delete the agent from your organization.
+- **Stopping the agent** will prevent new leads from being assigned/processed by the agent. Existing leads which are already in pipeline (orchestration), will continue until the lead is handed over to seller or supervisor for next steps.  
+- You can’t delete an agent once configured. Contact Microsoft support to delete the agent from your organization.  
 - Once an agent is published, we **recommend** only a few select fields to be edited. Sections that have tag "Avoid edits" should not be edited as it can lead to the agent being in bad state.
 
 ## Before you begin
