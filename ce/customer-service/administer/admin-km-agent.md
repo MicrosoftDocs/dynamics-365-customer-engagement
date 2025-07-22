@@ -42,12 +42,12 @@ Real-time knowledge creation is triggered when a customer service representative
 
 You can create multiple rules to control which conditions must be met for a resolved case or conversation to be processed by Customer Knowledge Management Agent in real time. For example, you might limit this process to cases or conversations owned by a certain user, or any other fields on the case or conversation.  
 
-1. From either the **Case** or **Conversations** tab, in the **Real-time creation** section, select **Manage rules** 
+1. From either the **Case** or **Conversations** tab, in the **Real-time creation** section, select **Manage rules**. 
 1. In the **Manage rules** dialog, select **New** to add a new rule.
 1. In the **New knowledge creation rules** dialog, enter a rule name, condition name, and then add your conditions.
 1. Select **Save**.
 
-### Control which case attributes are used to create knowledge articles in real-time and historical
+### Control which case attributes are used to create knowledge articles in historical and real-time
 
 Customer Knowledge Management Agent uses **Case Title**, **Case Description**, **Product**, **Subject**, **Email Content**, **Conversation Summary**, and **Case Notes** to create an article. You can remap all the fields except **Email Content** and **Conversation Summary** to your own record types and data fields. You can't change the attributes used for conversations.
  
