@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: conceptual
 ms.collection:
-ms.date: 07/21/2025
+ms.date: 07/22/2025
 ms.custom: bap-template
 ---
 
@@ -166,12 +166,12 @@ Displays information on the user group identified for the conversation.
       - **Not processed**: Not evaluated.
   - **Order**: Rule order.
   - **RuleItem**: Rule name.
-  - **Condition**: Defined in lines of business rule.
+  - **Condition**: Conditions evaluated in intent group-user group mapping.
   - **UserGroupOutput**:
    - **id**: Identified user group ID.
    - **Name**: Identified user group name.
-   - **Languages**: Live work item language that was matched with the user group.
-   - **Regions**: Live work item region that was matched with the user group.
+   - **Languages**: Languages supported by the user group.
+   - **Regions**: Regions supported by the user group.
 - **omnichannel.is_user_group_determined**: Returns true or false.
 - **omnichannel.user_group_detail**: Details of the user group identified.
 
