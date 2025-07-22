@@ -26,8 +26,8 @@ Before you configure the agents, ensure that prerequisites are configured in you
 | Prerequisite | Applicable for | Description |
 |--------------|------------|-------------|
 | Create application in Azure | Research and Engage agents | An Azure AD application is required to securely authenticate the agent’s Dataverse Application User, enabling it to act independently via app-based access.<br>More information: [Create application in Azure](#create-application-in-azure) |
-| Create a shared mailbox | Engage agent | The agent mailbox that will be used to send emails and follow-ups in compliance with your org’s policies.<br>More information: [Create a shared mailbox](#create-a-shared-mailbox) |
 | Create an app user in Dataverse | Research and Engage agents | Create a Dataverse app user so the agent can act independently, like send emails, own records, and more.<br>More information: [Create an app user in Dataverse](#create-an-app-user-in-dataverse) |
+| Create a shared mailbox | Engage agent | The agent mailbox that will be used to send emails and follow-ups in compliance with your org’s policies.<br>More information: [Create a shared mailbox](#create-a-shared-mailbox) |
 | Configuring server-side synchronization | Engage agent | Connect Dynamics 365 Sales and Exchange to sync emails, contacts, tasks, and calendar.<br>More information: [Configuring server-side synchronization](#configuring-server-side-synchronization) |
 
 ## Create application in Azure
@@ -52,6 +52,23 @@ Before you configure the agents, ensure that prerequisites are configured in you
 
 To learn more about app creation, see [Quickstart: Register an app in Microsoft Entra ID](/entra/identity-platform/quickstart-register-app?tabs=certificate%2Cexpose-a-web-api).  
 
+## Create an app user in Dataverse
+
+1. Ensure that you have the **System Administrator** role for your Dynamics 365 organization.  
+1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  
+1. In the agent settings page, go to the **Prerequisites** section, and in the **Create an app user in Dataverse** section, select **Set up**.  
+
+    :::image type="content" source="media/sqa-settings-create-app-user.png" alt-text="Screenshot of selecting set up in the create an app user in Dataverse section.":::
+
+1. In Power Platform admin center, select the environment where you want to create the app user.  
+1. Go to **Settings** > **Users + permissions** > **Application users** and then select **+ New app user**.  
+1. In the **Create a new app user** pane, select **+ Add an app** and then add the application (Application client ID) that is registered in Azure.  
+1. Enter the business unit name, and enter the security role for the app user as **AIsalesperson**.  
+1. Select **Save**.  
+1. Go back to the agent settings page and select the **Mark as done** checkbox in the **Create an app user in Dataverse** section. You must select this checkbox to proceed with the agent configuration.  
+
+To learn more about app users, see [Manage application users in the Power Platform admin center](/power-platform/admin/manage-application-users).
+
 ## Create a shared mailbox
 
 1. Ensure that you have one of the following roles in Microsoft Office 365 admin portal&mdash; **Office 365 Global Administrator**, **Exchange Administrator**, or **Exchange Recipient Administrator**.
@@ -73,23 +90,6 @@ To learn more about app creation, see [Quickstart: Register an app in Microsoft 
 
 To learn more about shared mailboxes, see [Shared mailboxes in Exchange Online](/exchange/collaboration-exo/shared-mailboxes).
 
-## Create an app user in Dataverse
-
-1. Ensure that you have the **System Administrator** role for your Dynamics 365 organization.  
-1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  
-1. In the agent settings page, go to the **Prerequisites** section, and in the **Create an app user in Dataverse** section, select **Set up**.  
-
-    :::image type="content" source="media/sqa-settings-create-app-user.png" alt-text="Screenshot of selecting set up in the create an app user in Dataverse section.":::
-
-1. In Power Platform admin center, select the environment where you want to create the app user.  
-1. Go to **Settings** > **Users + permissions** > **Application users** and then select **+ New app user**.  
-1. In the **Create a new app user** pane, select **+ Add an app** and then add the application (Application client ID) that is registered in Azure.  
-1. Enter the business unit name, and enter the security role for the app user as **AIsalesperson**.  
-1. Select **Save**.  
-1. Go back to the agent settings page and select the **Mark as done** checkbox in the **Create an app user in Dataverse** section. You must select this checkbox to proceed with the agent configuration.  
-
-To learn more about app users, see [Manage application users in the Power Platform admin center](/power-platform/admin/manage-application-users).
-
 ## Configuring server-side synchronization
 
 1. Ensure that you have the following roles:  
@@ -97,7 +97,7 @@ To learn more about app users, see [Manage application users in the Power Platfo
     - **Office 365 Global Administrator** or **Exchange Administrator** in Microsoft Office 365 admin portal.  
 1. In the agent settings page, go to the **Prerequisites** section, and in the **Configure server side sync** section, select **Set up**.  
 
-    ::::image type="content" source="media/sqa-settings-configure-server-side-sync.png" alt-text="Screenshot of selecting set up in the configure server side sync section.":::
+    :::image type="content" source="media/sqa-settings-configure-server-side-sync.png" alt-text="Screenshot of selecting set up in the configure server side sync section.":::
 
     > [!NOTE]
     > You can also configure server-side synchronization in your Dynamics 365 organization by going to **Advanced Settings** > **System** > **Email Configuration** > **Mailboxes**.

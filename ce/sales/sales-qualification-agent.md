@@ -48,6 +48,16 @@ The difference between the Research and Engage agents lies in their functionalit
 | Functionality | Provides insights and recommendations | Engages with leads and manages follow-ups |
 | Decision-making | Allows seller to make decisions on engagement and qualification | Automatically engages and hands over to seller for qualification |
 
+## Understand Sales Qualification Agent concepts
+
+The Sales Qualification Agents are designed to assist you in the lead qualification process. Here are some key concepts to understand:
+
+**Ideal customer profile (ICP)**: Applicable for both research and engage agents, the ICP is a set of criteria that defines the characteristics of your ideal customer. The agent uses this profile to evaluate leads and determine their fit. More information: 
+
+**Purchase interest**: Applicable for the engage agent, purchase interest is an indicator of the lead's intent to buy. The agent evaluates leads based on their engagement and interest level. More information: 
+
+**BANT (Budget, Authority, Need, Timing)**: Applicable for the engage agent, BANT is a framework used to evaluate leads based on their budget, authority, need, and timing. The agent uses this framework to assess the lead's potential and readiness to buy. More information: 
+
 ## How to use the agent
 
 The usage of the Sales Qualification Agents depend on your role in the sales process. 
