@@ -30,7 +30,7 @@ Customer Knowledge Management Agent lets you autonomously turn cases and case-re
 
 In Copilot Service admin center, go to **Support experience** > **Knowledge** > **Customer Knowledge Management Agent (preview)**, and then select **Manage**. The **Customer Knowledge Management Agent (preview)** page appears.
 
-You can harvest from cases, associated conversation summaries, emails, notes, and conversations. For cases and conversations, select from the following options as required for Customer Knowledge Management Agent.
+You can harvest knowledge articles from cases, associated conversation summaries, emails, notes, and conversations. For cases and conversations, select from the options in the following sections as required for Customer Knowledge Management Agent.
 
 ## Enable real-time knowledge creation
 
