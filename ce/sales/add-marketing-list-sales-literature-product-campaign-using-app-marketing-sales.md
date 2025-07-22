@@ -2,6 +2,7 @@
 title: Add assets to campaigns using in-app marketing
 description: Depending on the marketing context of a campaign, add assets such as a marketing list, sales literature, or product to a campaign using in-app marketing.
 ms.date: 05/27/2025
+ms.update-cycle: 1095-days
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

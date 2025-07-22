@@ -2,6 +2,7 @@
 title: Create or change a service (Dynamics 365 Customer Service)
 description: Learn how to use the service records in Dynamics 365 Customer Service to predefine the specifics of the services provided.
 ms.date: 06/26/2025
+ms.update-cycle: 1095-days
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
