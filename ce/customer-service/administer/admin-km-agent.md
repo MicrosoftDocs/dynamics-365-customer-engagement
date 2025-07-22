@@ -40,7 +40,7 @@ Real-time knowledge creation is triggered when a customer service representative
 
 ### Control which cases or conversations real-time creation should create articles from 
 
-You can create multiple rules to control which conditions must be met for a resolved case or conversation to be processed by Customer Knowledge Management Agent in real time. For example, you might limit this process to cases or conversations owned by a certain user, or any other fields on the case or conversation.  
+You can create multiple rules to specify the conditions that must be met for a resolved case or closed conversation to be processed by Customer Knowledge Management Agent in real time. For example, you might limit this process to cases or conversations owned by a certain user, or any other fields on the case or conversation.
 
 1. From either the **Case** or **Conversations** tab, in the **Real-time creation** section, select **Manage rules**. 
 1. In the **Manage rules** dialog, select **New** to add a new rule.
