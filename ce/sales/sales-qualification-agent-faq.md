@@ -76,7 +76,12 @@ If you're using the 4.3 version of the Sales Qualification Agent (part of the Ap
 
 ## Why can't I access the research pages of leads that were previously processed by the agent? 
 
-If your organization is using the 4.3 version of the Sales Qualification Agent (part of the April 2025 public preview), the research pages for leads that were previously processed by the agent will not be accessible until the agent is reconfigured. After the agent is reconfigured, the leads are evaluated once again based on the given selection criteria. Learn more in [Upgrade your Sales Qualification Agent](upgrade-sales-qualification-agent.md).
+The possible causes for this issue are:
+
+- Your agent is upgraded to the 7.3 version.
+- The lead no longer fulfills the selection criteria defined in the agent configuration.
+
+Learn more in [Upgrade your Sales Qualification Agent](upgrade-sales-qualification-agent.md).
 
 
 ## Why are my 4.3 agent settings not preserved after the upgrade?
