@@ -42,7 +42,7 @@ Real-time knowledge creation is triggered when a customer service representative
 
 You can create multiple rules to specify the conditions that must be met for a resolved case or closed conversation to be processed by Customer Knowledge Management Agent in real time. For example, you might limit this process to cases or conversations owned by a certain user, or any other fields on the case or conversation.
 
-1. From either the **Case** or **Conversations** tab, in the **Real-time creation** section, select **Manage rules**. 
+1. From the **Case** or **Conversations** tab, in the **Real-time creation** section, select **Manage rules**. 
 1. In the **Manage rules** dialog, select **New** to add a new rule.
 1. In the **New knowledge creation rules** dialog, enter a rule name, condition name, and then add your conditions.
 1. Select **Save**.
