@@ -49,7 +49,7 @@ You can create multiple rules to specify the conditions that must be met for a r
 
 ### Control which case attributes are used to create knowledge articles in historical
 
-Customer Knowledge Management Agent uses **Case Title**, **Case Description**, **Product**, **Subject**, **Email Content**, **Conversation Summary**, and **Case Notes** to create an article. You can remap all the fields except **Email Content** and **Conversation Summary** to your own record types and data fields. You can't change the attributes used for conversations.
+Customer Knowledge Management Agent uses **Case Title**, **Case Description**, **Product**, **Subject**, **Email Content**, **Conversation Summary**, and **Case Notes** to create an article. You can modify all the fields except **Email Content** and **Conversation Summary**. You can't change the attributes used for conversations.
  
 1. In the **Case** section, select **Manage attributes**. The **Manage data** page appears. 
 You can map which record types and data fields are used for each element. You can choose to include and exclude data.
