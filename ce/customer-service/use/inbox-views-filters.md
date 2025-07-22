@@ -51,5 +51,5 @@ By default, the application applies filters on all views, irrespective of the ta
 - The top 500 records, sorted in descending in order by the **Modified on** field. 
 
 ### Related information
-[Configure the inbox](configure-inbox.md)  
+[Configure the inbox](../administer/configure-inbox.md)  
 [Use the inbox](../use/use-inbox.md)  
