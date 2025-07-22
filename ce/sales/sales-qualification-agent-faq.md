@@ -81,7 +81,7 @@ The possible causes for this issue are:
 - Your agent is upgraded to the 7.3 version.
 - The lead no longer fulfills the selection criteria defined in the agent configuration.
 
-Learn more in [Upgrade your Sales Qualification Agent](upgrade-sales-qualification-agent.md).
+The previous research data is stored in msdyn_leadagentresult (lead agent result) and msdyn_accountresearchresult (account research result). Learn more in [Upgrade your Sales Qualification Agent](upgrade-sales-qualification-agent.md).
 
 
 ## Why are my 4.3 agent settings not preserved after the upgrade?
