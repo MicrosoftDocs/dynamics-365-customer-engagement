@@ -38,9 +38,9 @@ Ensure that the following prerequisites are met:
     :::image type="content" source="mailbox-status.png" alt-text="Screenshot of a user mailbox in Dynamics 365 Sales with status indicators.":::
 
     > [!IMPORTANT]
-    >- Make sure that the personalization option for emails is set to **All email messages** in the sellers' personalization settings. This option can be set from the **Settings** > **Personalization settings** page in Dynamics 365 Sales.
+    >- Make sure that the personalization option for emails is set to **All email messages** in the sellers' personalization settings. By default, this option is set to **Email messages in response to Dynamics 365 email**. Sellers can change this setting from the **Settings** > **Personalization settings** > **Emails**  > **Track** in Dynamics 365 Sales.  
     >- :::image type="content" source="media/email-track-personal-options.png" alt-text="Screenshot of the Personalization settings page in Dynamics 365 Sales with the All email messages option selected.":::
-    >- You can either notify the sellers to set this option or use the **User Settings Utility** in [XRMToolBox](/power-apps/developer/data-platform/community-tools) to select the sellers and set the `Track email messages` setting to **All email messages**.
+    >- You can either notify the sellers to set this option or use the **User Settings Utility** in [XRMToolBox](/power-apps/developer/data-platform/community-tools) to select multiple sellers and set the `Track email messages` setting to **All email messages**.
 
 - You modified Data Loss Prevention (DLP) policies to allow external connections. Learn more in [Configure data loss prevention policies for agents](/microsoft-copilot-studio/admin-data-loss-prevention).
 
