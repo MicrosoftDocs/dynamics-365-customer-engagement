@@ -58,14 +58,14 @@ If skill-based routing rulesets are used in your channel routing setup, perform 
 
 ## Migrate configuration for new capacity profiles
 
-If you have configured new capacity profiles in your channel routing setup, perform the steps outlined in [Migrate configuration for new capacity profiles](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-new-capacity-profiles). Make sure to adjust any filtering FetchXML appropriately for all channels.
+If you have configured new capacity profiles in your channel routing setup, perform the steps outlined in [Migrate configuration for new capacity profiles](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-skill-based-routing-rulesets). Make sure to adjust any filtering FetchXML appropriately for all channels.
 
 > [!TIP]
 > After you migrate a new capacity profile using the Configuration Migration tool, updates can be migrated using solutions.
 
 ## Migrate configuration for queues
 
-For migrating channel queues, perform the steps outlined in [Migrate configuration for queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-queues). Make sure to adjust any filtering FetchXML appropriately for all channels you want to migrate.
+For migrating channel queues, perform the steps outlined in [Migrate configuration for queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-record-queues). Make sure to adjust any filtering FetchXML appropriately for all channels you want to migrate.
 
 ## Migrate configuration for channel workstreams and channel settings
 

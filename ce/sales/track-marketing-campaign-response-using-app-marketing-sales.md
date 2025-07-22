@@ -2,6 +2,7 @@
 title: Track campaign responses by using in-app marketing
 description: Learn how to track replies to your campaigns by using manual or automatic campaign responses in Dynamics 365 Sales.
 ms.date: 05/28/2025
+ms.update-cycle: 1095-days
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

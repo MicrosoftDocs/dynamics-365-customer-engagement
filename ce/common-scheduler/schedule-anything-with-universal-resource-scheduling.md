@@ -1,8 +1,8 @@
 ---
 title: "Overview of Universal Resource Scheduling in Dynamics 365"
 description: "Schedule any entity using Universal Resource Scheduling. Make sure you meet the prerequisites, then follow these steps for scheduling an entity."
-ms.date: 02/15/2024
-ms.reviewer: mhart
+ms.date: 07/07/2025
+ms.reviewer: v-wendysmith
 ms.subservice: common-scheduler
 ms.topic: overview
 author: mkelleher-msft
@@ -19,21 +19,21 @@ Universal Resource Scheduling is a Dynamics 365 solution that allows organizatio
 - Dynamics 365 Project Operations: [Staff projects with consultants who have availability and the appropriate skill set](/dynamics365/project-operations/psa/overview).
 
 > [!CAUTION]
-> Administrators of apps listed above, which have a dependency on the Universal Resource Scheduling, have access to all default entities of the Universal Resource Scheduling solution. If a user creates a trial for one of these applications, they get admin permissions for the trial, which gives them access to these entities.
+> Administrators of these three apps, which rely on Universal Resource Scheduling, can access all default entities within the Universal Resource Scheduling solution. If a user creates a trial for one of these applications, they get admin permissions and can access all the entities.
 
 ## Prerequisites
 
  Before you can use Universal Resource Scheduling, make sure you have:  
   
-- Dynamics 365 Field Service, Project Operations, or Customer Service.
+- Dynamics 365 Field Service, Project Operations, or Customer Service application.
   
-- User credentials with the Universal Resource Scheduling security role, in order to manage the solution once it has been deployed.
+- User credentials with the Universal Resource Scheduling security role.
   
 ## Enable scheduling for another entity
 
 You can also enable scheduling for another entity, including custom entities. Once enabled, the system creates a resource requirement record related to the entity. This way, when you create a resource requirement, the system automatically checks which entity the resource requirement is for.
 
-For more information, see [Enable an entity for scheduling in Universal Resource Scheduling](schedule-new-entity.md).
+Learn more: [Enable an entity for scheduling in Universal Resource Scheduling](schedule-new-entity.md).
   
 ## Schedule something
 
@@ -51,7 +51,7 @@ A plugin checks the relationships and automatically sets the booking setup metad
   
 1. From the main menu, go to **Resource Scheduling** > **Schedule Board**.  
   
-2. From the **Booking Requirement** list, select an unscheduled booking and drag the item to an available resource/time slot on the schedule board.  
+2. From the **Booking Requirement** list, select an unscheduled booking and drag the item to an available resource and time slot on the schedule board.  
   
 Or select **Book** on an entity record that has scheduling enabled, then use the schedule assistant to book the requirement.  
 

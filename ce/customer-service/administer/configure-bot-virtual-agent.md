@@ -1,7 +1,8 @@
 ---
 title: Integrate a Copilot agent
 description: Use this article to get instructions on how to integrate a Copilot agent in your contact center.
-ms.date: 06/20/2025
+ms.date: 07/09/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -24,6 +25,7 @@ The following capabilities are available for the agent conversations:
 
 - Seamlessly integrate your agent with all channels without needing to add channel-specific code in the agent.
 - Configure interactive voice response (IVR) capabilities for voice-enabled agents.
+- [!INCLUDE[cc-natural-language-model](../../includes/cc-natural-language-model.md)]  
 - Configure contextual transfers to service representatives.
 - Analyze the agent transcript that's available in Microsoft Dataverse after the conversation is completed.
 - Configure routing rules to selectively route incoming requests to agents based on context, such as issue type or customer type. For example, you can route low-complexity issues to agents, or route the conversation to a sales or support agent based on the webpage browsing history of the customer.

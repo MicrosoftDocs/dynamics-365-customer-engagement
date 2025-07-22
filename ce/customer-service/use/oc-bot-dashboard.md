@@ -1,7 +1,7 @@
 ---
 title: Bot dashboard
 description: Learn about the bot dashboard in historical analytics to better understand customer service representative performance in your organization.
-ms.date: 03/24/2025
+ms.date: 07/02/2025
 ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
@@ -44,13 +44,13 @@ Based on your administrator's configuration of the **Add historical analytics fo
 
  | KPI | Description |
  | ------- | ------------------ |
- | Total bot conversations | The number of conversations initiated by the customer and engaged by a bot. |
- | Bot escalation rate |  The percentage of bot sessions that were escalated by an AI agent to a service representative or to an external phone number.  |
- | Total bot sessions |  The total number of bot sessions within the specified time period. A bot session is any conversation where an AI agent is invoked, whether at the beginning, during, or end. A single AI agent conversation can include multiple sessions, based on the number of topics the agent traverses while interacting with the customer. For example, if a customer uses a returns AI agent for both an exchange and a return, the system counts this as two bot sessions, even though it is one conversation.   |
- | Bot engagement rate |  The percentage of total bot sessions that are engaged sessions. An engaged bot session is a session in which a user-created topic (as opposed to a system topic) is triggered, or the session ends in an escalation. Engaged bot sessions can have one of three outcomes: they're either resolved, escalated, or abandoned. |
- | Bot resolution rate | The percentage of sessions that were closed by interacting with an AI agent out of all the sessions engaged by the same agent. |
- | Bot abandon rate  | The percentage of engaged bot sessions that are abandoned. An abandoned session is an engaged session that isn't resolved or escalated after one hour from the beginning of the session. |
- | Bot CSAT | The graphical view of the average of customer satisfaction (CSAT) scores for bot sessions in which customers respond to an end-of-session request to take the survey. |
+ | Total bot conversations | The total number of conversations initiated during the selected time period involving AI agents across all supported channels: voice, chat, and digital messaging. This includes both active and closed conversations.|
+ | Bot escalation rate | The percentage of AI agent conversations escalated by the AI agent to a service representative or an external phone number. |
+ | Total bot sessions |  The total number of Copilot Studio sessions initiated during the selected time period. A session begins when the AI agent is triggered to handle a specific topic. A single conversation can include multiple sessions if the user interacts with the agent on different topics. For example, if a customer uses the same AI agent to initiate both a return and an exchange, it's counted as two sessions within one conversation. |
+ | Bot engagement rate |  The percentage of Copilot Studio sessions that are in an engaged state. A session is considered engaged if any of the following conditions are met:<ul><li>A non-system topic is triggered</li><li>The session is escalated</li><li>The fallback topic is triggered</li><li>A conversational boosting topic is triggered</li></ul> Learn more in [analyze agent performance and usage](/microsoft-copilot-studio/analytics-summary).|
+ | Bot resolution rate | The percentage of resolved Copilot Studio sessions. A session is considered resolved when the End of Conversation topic is triggered and the user either confirms resolution, session is timed out, or the Confirmed Success topic is triggered during the session. |
+ | Bot abandon rate  | The percentage of engaged Copilot Studio sessions that are abandoned. A session is considered abandoned if it times out without reaching a resolved or escalated state. |
+ | Bot CSAT | The graphical view of the average Customer Satisfaction (CSAT) score from users who responded to a survey after a bot session. If this metric is blank, it indicates that AI agents aren't set up to request feedback through surveys. |
 
  The following table shows the bot KPI chart metrics.
 

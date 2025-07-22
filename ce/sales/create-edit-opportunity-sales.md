@@ -1,7 +1,7 @@
 ---
 title: Create or edit opportunities
 description: An opportunity is a deal you're ready to win. Create an opportunity record for a lead who's ready to buy.
-ms.date: 06/27/2024
+ms.date: 07/10/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

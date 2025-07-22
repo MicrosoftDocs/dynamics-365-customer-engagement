@@ -16,24 +16,23 @@ Apply filters to define which resources show on the schedule board. You can [con
 
 Filter values are pulled from the *Bookable Resource* entity.
 
-In **Resource filters**, select the ellipsis (&hellip;) > **Select Resources** to choose a subset of all resources for the schedule board. Applying filters then only filters the selected resources.
+In **Resource filters**, select the ellipsis (&hellip;) > **Select Resources** to choose a subset of all resources for the schedule board. Select **Apply** to see the changes on the schedule board.
 
-To make the applied filter configuration the default for all schedule boards, select **&hellip;** > **Save as default** in **Resource filters**.
+- To make the applied filter configuration the default for all schedule boards, select **&hellip;** > **Save as default**.
 
-In **Resource filters**, select **Reset to default** to remove all applied filters. The list of selected resources resets when you remove the resources from the selection.
-
-In **Resource filters**, select **Apply** to see the changes on the schedule board.
+- To remove all applied filters, select **Reset to default**. The list of selected resources resets when you remove the resources from the selection.
 
 ### Time scale
 
 Switch between hourly, daily, weekly, and monthly views of the board. Choose the weekly or monthly views to see scheduled jobs at a higher level.
->[!NOTE]
->Weekly view will always consider Sunday as the start of the week regardless of day visibility settings. 
+
+> [!NOTE]
+> The weekly view always considers Sunday as the start of the week regardless of day visibility settings.
 
 ### View type
 
-- **Gantt**: A Gantt chart is a type of bar chart that illustrates a schedule. Use it to show activities over time. The position and length of an activity reflects the start date, duration, and end date.
-- **List**: Shows resources in a list. Expanding a resource shows the selected time granularity in the selected time frame. You can change columns in the list.
+- **Gantt**: Illustrates the schedule in a Gantt bar chart. Use it to show activities over time. The position and length of an activity reflects the start date, duration, and end date.
+- **List**: Shows resources in a list. Expand a resource to show the selected time granularity in the selected time frame. You can change columns in the list.
 
 ### Date range
 
@@ -53,26 +52,25 @@ Select **Show more schedule board actions** (&hellip;) > **Print schedule board*
 
 ### Contextual details
 
-To see more details about the selected booking, resource, or requirement, open the details pane.
+To see more details about the selected booking, resource, or requirement, select the **Details panel** icon.
 
 ### Booking alerts
 
-To see your active booking alerts or create a new alert, select the bell icon. For more information, see [Create and view booking alerts](../../common-scheduler/booking-alert.md)
+To see your active booking alerts or create a new alert, select the bell icon. Learn more: [Create and view booking alerts](../../common-scheduler/booking-alert.md)
 
 ### Map view
 
 To see resources and requirements on a map, select the **Map view** icon.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board with map view.](../../field-service/media/Schedule-Board-New-Map-02.png)
+:::image type="content" source="../../field-service/media/Schedule-Board-New-Map-02.png" alt-text="Screenshot of the schedule board with map view.":::
 
 On the map view, select a resource to see their planned route. The numbers indicate in which order requirements are scheduled to a resource.
 
-Change the date to see the map for a different day. Zoom out of the map to see grouped requirements and resources. Quickly identify areas with unscheduled jobs and start scheduling these jobs to the nearest resources. Select **View settings** to set which items show on the map.
+Change the date to see the map for a different day. Zoom out of the map to see grouped requirements and resources. Quickly identify areas with unscheduled jobs and start scheduling these jobs to the nearest resources. Select the **View settings** icon to set which items show on the map.
 
 You can drag an unscheduled requirement pin from the map to the resource timeline and schedule it to that resource. You can also drag the resource route to a nearby unscheduled requirement to schedule it and add it to the resource route.
 
-On each resource pin associated with a user, there's an indicator icon representing how long ago the resource's location was detected. Green indicates that the user was seen since the start of the current day. A grey question mark indicates that the location was last detected yesterday or earlier. 
+On each resource pin associated with a user, there's an indicator icon representing how long ago the resource's location was detected. Green indicates that the user was seen since the start of the current day. A grey question mark indicates that the location was last detected yesterday or earlier.
 
 ### Refresh board
 
@@ -91,17 +89,17 @@ Select the **Focus mode** icon to change to full screen mode.
 
 ### Legend
 
-View all color codes and icons for  status, priority, timeline, and travel time. Select the ellipsis (&hellip;) > **Legend**.
+View all color codes and icons for  status, priority, timeline, and travel time. Select the **ellipsis (&hellip;)** > **Legend**.
 
 ### Board view settings
 
-Select the ellipsis (&hellip;) > **Scheduler settings** to open the board view settings. For more information about board view settings, see [Configure the schedule board tab settings](../../common-scheduler/schedule-board-tab-settings.md).
+Select the **ellipsis (&hellip;)** > **Scheduler settings** to open the board view settings. Learn more: [Configure the schedule board tab settings](../../common-scheduler/schedule-board-tab-settings.md).
 
 ## Resource list
 
-Right-click a resource's name and to show more options about the resource.
+Right-click a resource's name to show more options about the resource.
 
-- Choose **View resource card** to see details like the resource's skills and roles. From here, you can also initiate a message, email, or phone call.
+- Choose **View resource card** to see the resource's skills and roles. You can also initiate a message, email, or phone call.
 - Choose **Get driving directions** to get the driving directions for a work day.
 
 ## Requirement pane
@@ -109,17 +107,15 @@ Right-click a resource's name and to show more options about the resource.
 The requirement pane is where you find unscheduled requirements. Each column can be sorted and filtered by accessing a drop-down menu next to each column header. 
 
 > [!NOTE]
-> Filtering is not supported on the **Owner** column on the *Unscheduled Work Orders* tab
+> Filtering isn't supported on the **Owner** column on the *Unscheduled Work Orders* tab
 
-Select a single requirement from the requirement pane and select **Find availability** to launch the [schedule assistant](../../common-scheduler/schedule-assistant.md).
-
-The schedule assistant lists available and matching resources that you can book for the requirement.
+Select a single requirement from the requirement pane and select **Find availability** to launch the [schedule assistant](../../common-scheduler/schedule-assistant.md). The schedule assistant lists available and matching resources that you can book for the requirement.
 
 ## Bookings on the timeline
 
 You can move a booking to a resource on the current schedule board tab, or change the start date/time, or both
 
-Right-click the booking on th schedule board and select **Move to**. Reassign the booking to any resource on the current schedule board tab, or change the start date and the start time of the booking. To assign the booking to a resource that doesn't show on this schedule board, select the filter icon in the resource field and change the filter from **Resources on this tab** to **All resources**. Select **Update** to apply the changes.
+Right-click the booking on the schedule board and select **Move to**. Reassign the booking to any resource on the current schedule board tab, or change the start date and the start time of the booking. To assign the booking to a resource that doesn't show on this schedule board, select the filter icon in the resource field and change the filter from **Resources on this tab** to **All resources**. Select **Update** to apply the changes.
 
 ## Change Time Granularity
 
@@ -137,7 +133,7 @@ The schedule board is accessible through a URL that loads the web resource. The 
 
 :::image type="content" source="../../field-service/media/schedule-board-copy-link.png" alt-text="Screenshot of the Copy link option on the schedule board.":::
 
-For more information about how to construct the URL, see: [Open the schedule board from a URL](../../common-scheduler/schedule-board-url.md).
+For more information about how to construct the URL, go to: [Open the schedule board from a URL](../../common-scheduler/schedule-board-url.md).
 
 ## Cached settings when loading the schedule board
 

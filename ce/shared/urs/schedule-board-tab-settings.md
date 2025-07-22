@@ -1,6 +1,10 @@
 Schedule board settings in Universal Resource Scheduling let you define the layout and functions of schedule board tabs and the schedule board in general. By default, every user with out-of-box security roles can access the schedule board. Admins can [create custom security roles](/power-platform/admin/security-roles-privileges) with the *Schedule Board Setting* privilege to restrict access to certain roles.
 
-There are two levels of settings for the schedule board. [Board view settings](#board-view-settings) mainly define the layout of a schedule board. [Board settings](#board-settings) contain more detailed settings and enable customizations.
+There are two levels of settings for the schedule board.
+
+- [Board view settings](#board-view-settings) mainly define the layout of a schedule board.
+
+- [Board settings](#board-settings) contain more detailed settings and enable customizations.
 
 ## Board view settings
 
@@ -26,12 +30,15 @@ Open the **Schedule Board**, choose the tab to configure, and select **Scheduler
 
 ## Board settings
 
-Board settings are more detailed and let you define settings for a specific board tab and default settings that apply to all tabs. You can get to the board settings in two ways:
+Board settings are more detailed and let you define settings for a specific board tab and default settings that apply to all tabs.
 
-- Select the vertical ellipsis &vellip; next to the schedule board tab name and choose **Board settings**.
-- Open the **Scheduler settings** and select **All board settings**.
+You can open the board settings in two ways:
 
-:::image type="content" source="../../field-service/media/schedule-board-tab-settings-access.png" alt-text="Screenshot of accessing schedule board tab settings.":::
+- For a specific board tab, select the vertical ellipsis &vellip; next to the schedule board tab name and choose **Board settings**.
+
+- For all tabs, open the **Scheduler settings** and select **All board settings**.
+
+:::image type="content" source="../../field-service/media/schedule-board-tab-settings-access.png" alt-text="Screenshot of accessing schedule board view settings.":::
 
 ### Basic section
 
@@ -39,7 +46,7 @@ Board settings are more detailed and let you define settings for a specific boar
 
 - **Shared With:** Decides which users can view and edit the schedule board tab.
   - Everyone
-  - Specific People: See [Share a schedule board tab with specific people](#share-a-schedule-board-tab-with-specific-people)
+  - Specific People: Go to [Share a schedule board tab with specific people](#share-a-schedule-board-tab-with-specific-people)
   - Just Me
 
 - **Edit defaults:** Lets you choose the default tab settings when new schedule boards are created. When values in a particular schedule board tab setting show **< Default View >**, it means the value is coming from the default tab settings.
