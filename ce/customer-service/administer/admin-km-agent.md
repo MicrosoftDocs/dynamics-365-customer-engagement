@@ -36,7 +36,7 @@ You can harvest knowledge articles from cases, associated conversation summaries
 
 From the **Case** or **Conversations** tab, in the **Real-time creation** section, select the **Let Copilot use information from current case to create knowledge articles** option for cases or **Let Copilot use information from current chat and messaging conversations to create knowledge articles** option for conversations.
 
-Real-time knowledge creation is triggered when a customer service representative (service representative) resolves a case or closes a conversation. It determines whether a new knowledge article is needed by comparing the content of the case or conversation with the existing knowledge articles in Dynamics 365 knowledge base. If an article is needed, the Customer Knowledge Management Agent creates the article using the case or conversation content.  
+Real-time knowledge creation is triggered when a customer service representative (service representative) resolves a case or closes a conversation. The agent determines whether a new knowledge article is needed by comparing the content of the case or conversation with the existing knowledge articles in Dynamics 365 knowledge base. If an article is required, the Customer Knowledge Management Agent creates the article using the case or conversation content.  
 
 ### Control which cases or conversations real-time creation should create articles from 
 
