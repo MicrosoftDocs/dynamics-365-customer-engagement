@@ -19,7 +19,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-As an administrator, you can configure the Opportunity Research Agent in Dynamics 365 Sales to help sales professionals gain insights and recommendations for the opportunities they are working on. The agent automatically gathers information from various sources, providing a streamlined research experience, stakeholder and competitor intelligence, and actionable risk mitigation strategies.
+As an administrator, you can configure the Opportunity Research Agent in Dynamics 365 Sales to help sales professionals gain insights and recommendations for the opportunities they are working on. The agent automatically gathers information from various sources, providing a streamlined research experience, stakeholder and competitor intelligence, and actionable risk mitigation strategies. Learn more in [Opportunity Research Agent overview](opportunity-research-agent.md).
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -31,7 +31,16 @@ Ensure that the following prerequisites are met:
 
 - You have a Microsoft Copilot Studio license and your org has sufficient Copilot Studio capacity to run the agent. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
 
-- Server-side synchronization is configured for sellers who own the opportunities that the agent will handle. This step is important for the agent to access the sellers' emails and meetings, which are essential for gathering insights and updating sales records. Learn more in [Configure server-side synchronization](server-side-synchronization.md).
+- Server-side synchronization is configured for the mailboxes of sellers who own the opportunities that the agent will research on. This step is important for the agent to access the sellers' emails and meetings, which are essential for gathering insights and updating sales records. 
+    - [Create an email server profile for Exchange Online](/power-platform/admin/connect-exchange-online?tabs=new#create-an-email-server-profile-for-exchange-online).
+    - [Configure default email processing and synchronization](/power-platform/admin/connect-exchange-online?tabs=new#configure-default-email-processing-and-synchronization).
+    - [Configure mailboxes](/power-platform/admin/connect-exchange-online?tabs=new#configure-mailboxes) of sellers who own the opportunities and [approve the mailboxes](/power-platform/admin/connect-exchange-online?tabs=new#approve-mailboxes). When the configuration is successful, the **Incoming Email Status** and **Outgoing Email Status** for the mailbox are set to **Success**.
+    :::image type="content" source="mailbox-status.png" alt-text="Screenshot of a user mailbox in Dynamics 365 Sales with status indicators.":::
+
+    > [!IMPORTANT]
+    >- Make sure that the personalization option for emails is set to **All email messages** in the sellers' personalization settings. This option can be set from the **Settings** > **Personalization settings** page in Dynamics 365 Sales.
+    >- :::image type="content" source="media/email-track-personal-options.png" alt-text="Screenshot of the Personalization settings page in Dynamics 365 Sales with the All email messages option selected.":::
+    >- You can either notify the sellers to set this option or use the **User Settings Utility** in [XRMToolBox](/power-apps/developer/data-platform/community-tools) to select the sellers and set the `Track email messages` setting to **All email messages**.
 
 - You modified Data Loss Prevention (DLP) policies to allow external connections. Learn more in [Configure data loss prevention policies for agents](/microsoft-copilot-studio/admin-data-loss-prevention).
 
@@ -49,7 +58,7 @@ As the agent consumes capacity, it is important to plan and configure it to hand
 
 - Determine the type of opportunities that you want the Opportunity Research Agent to handle. For example, you might want it to handle only the opportunities that are **Hot** and of high value.
 - Ensure that server-side synchronization is configured for all sellers who own the opportunities that the agent will handle.
-- The agent uses the machine learning models in predictive opportunity scoring and similar won deals for risk assessment and stakeholder and competitor intelligence respectively. If these models are not configured in your environment, they're configured automatically when you start the agent.
+- The agent uses the machine learning model in predictive opportunity scoring for risk assessment. If you haven't configured scoring in your environment, it's configured automatically when you start the agent.
 
 ## Step 3: Set up the Opportunity Research Agent
 

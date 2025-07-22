@@ -1,6 +1,6 @@
 ---
-title: Work on opportunities handed over by the Opportunity Research Agent
-description: Learn how to work on opportunities handed over by the Opportunity Research Agent. 
+title: Work on opportunities researched by the Opportunity Research Agent
+description: Learn how to work on opportunities researched by the Opportunity Research Agent.
 ms.date: 07/14/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -15,24 +15,24 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Work on opportunities handed over by the Opportunity Research Agent
+# Work on opportunities researched by the Opportunity Research Agent
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Opportunity Research Agent in Dynamics 365 Sales empowers you to work more efficiently on complex, high-value deals. The agent automatically gathers insights from multiple sources, assesses risk to the opportunity, and provides actionable recommendations. After completing the research, the agent hands over the opportunity to you to take action.
+The Opportunity Research Agent in Dynamics 365 Sales makes it easy for you to focus on the most important opportunities. By identifying high-value and at-risk opportunities, the agent helps you prioritize your efforts. With critical insights and recommendations, you can quickly ramp up on opportunities, engage the right stakeholders, and mitigate risks effectively.
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 
 You need the following prerequisites:
 
 - Your admin has configured the Opportunity Research Agent for your organization. 
-- You're part of the sales team that works on the segment of opportunities that your admin has configured the agent for.
-- You have the necessary permissions to view and work on the opportunities handed over by the agent.
-- Your Exchange inbox is configured for server-side synchronization. This is required for the agent to gather insights from your emails and meetings.
+- You're part of the sales team that works on the segment of opportunities that the agent is configured for.
+- You have the necessary permissions to view and work on the opportunities researched by the agent.
+- Your Exchange mailbox is configured for server-side synchronization. This is required for the agent to gather insights from your emails and meetings.
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
-## View opportunities handed over by the Opportunity Research Agent
+## View opportunities researched by the Opportunity Research Agent
 
 1. In the Sales Hub app, select **Opportunities**.
 
@@ -44,16 +44,16 @@ You need the following prerequisites:
 
 1. Open an opportunity.
    You'll see a **Summary** card at the top of the page, displaying a quick summary of the research outcome and actionable recommendation, if any.
-1. Select **Research opportunity**.
+1. Select **Research this opportunity**.
    The Opportunity research page opens with the complete research insights and recommendations.
 
 ## Opportunity research page
 
 The Opportunity research page includes the following sections:
 
-**Risk mitigation:** This section is displayed only for opportunities that are at risk. The agent assesses the risk based on the information available in the opportunity and its related entities, such as account, product, and stakeholders. The agent also provides recommendations to mitigate the risk. These recommendations are based on similar deals in the past and the current context of the opportunity.
+**Risk mitigation:** This section is displayed only for opportunities that are at risk. The agent assesses the risk based on the information available in the opportunity and its related entities, such as account, product, and stakeholders. The agent also provides recommendations to mitigate the risk.
 
-If the risk and the recommended action seem relevant, take the action and select **Mark as done**. Otherwise, mark the risk as **Not relevant**.
+If the risk and the recommended action seem relevant, take the action and select **Mark as done**. Otherwise, mark the risk as **Not relevant** so that the agent can learn from your feedback and remove the risk from the list of risks for the opportunity.
 
 **Key insights:** This section provides a quick overview of the deal and its importance. It also includes what happened so far and how much time you should invest in the deal, along with next steps, if any.
 
