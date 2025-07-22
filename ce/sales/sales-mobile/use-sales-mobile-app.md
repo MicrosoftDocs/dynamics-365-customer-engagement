@@ -1,7 +1,7 @@
 ---
 title: Using the Dynamics 365 Sales mobile app
 description: Instructions for using the Dynamics 365 Sales mobile app
-ms.date: 06/13/2024
+ms.date: 07/16/2025
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -22,13 +22,13 @@ You can sign in to the Dynamics 365 Sales mobile app by using the work email add
 
 2. On the welcome screen, tap **Sign in**.
 
-    ![Sign in screen.](media/sm-sign-in.png "Sign in screen")
+    :::image type="content" source="media/sm-sign-in.png" alt-text="Screenshot of the sign in screen in the Dynamics 365 Sales mobile app.":::
 
 3. Enter your email and password.
 
 4. From the list of apps, tap the app you want to use.
 
-    ![Select an app.](media/sm-apps-list.png "Select an app")
+    :::image type="content" source="media/sm-apps-list.png" alt-text="Screenshot of selecting an app from the list in the Dynamics 365 Sales mobile app.":::
 
 ### Sign out from the app
 
@@ -36,11 +36,11 @@ You can sign in to the Dynamics 365 Sales mobile app by using the work email add
 
 2. Tap **Settings**.
 
-    ![Tap Settings.](media/sm-select-settings.png "Tap Settings")
+    :::image type="content" source="media/sm-select-settings.png" alt-text="Screenshot of tapping Settings in the Dynamics 365 Sales mobile app.":::
 
 3. Under the **Account** section, tap **Sign out**.
 
-    ![Sign out.](media/sm-settings-panel.png "Sign out")
+:::image type="content" source="media/sm-settings-panel.png" alt-text="Screenshot of the Settings panel with the Sign out option in the Dynamics 365 Sales mobile app.":::
 
 ## View non-production apps
 
@@ -62,7 +62,7 @@ There are two ways in which you can view non-production apps.
 
 2. Turn on the **Show non-production apps** toggle.
 
-    ![Show non-production apps toggle.](media/non-prod-apps-toggle.png "Show non-production apps toggle")
+:::image type="content" source="media/non-prod-apps-toggle.png" alt-text="Screenshot of the Show non-production apps toggle in the Dynamics 365 Sales mobile app settings.":::
 
 3. In the confirmation message, tap **Confirm**.
 
@@ -92,7 +92,7 @@ There are two ways in which you can view non-production apps.
 
 4. Turn on the **Show non-production apps** toggle.
 
-    ![Show non-production apps toggle.](media/non-prod-apps-toggle.png "Show non-production apps toggle")
+:::image type="content" source="media/non-prod-apps-toggle.png" alt-text="Screenshot of the Show non-production apps toggle in the Dynamics 365 Sales mobile app settings.":::
 
 5. In the confirmation message, tap **Confirm**.
 
@@ -105,12 +105,11 @@ There are two ways in which you can view non-production apps.
 
 When you sign in and select the app for the first time, you'll see the display cards. Review the display cards on the app and on the last card, select **Let's go** to move to the home page.
 
-![Second welcome screen.](media/sm-welcome-screen1.png "Second welcome screen")
+:::image type="content" source="media/sm-welcome-screen1.png" alt-text="Screenshot of the second welcome screen in the Dynamics 365 Sales mobile app.":::
 
 The home page is displayed as shown in the following example screen:
 
-> [!div class="mx-imgBorder"]
-> ![Sales mobile app home page.](media/sa-home-page.png "Sales mobile app home page") 
+:::image type="content" source="media/sa-home-page.png" alt-text="Screenshot of the Sales mobile app home page in Dynamics 365 Sales.":::
 
 ## Related information
 
