@@ -51,7 +51,7 @@ You can create multiple rules to control which conditions must be met for a reso
 
 Customer Knowledge Management Agent uses **Case Title**, **Case Description**, **Product**, **Subject**, **Email Content**, **Conversation Summary**, and **Case Notes** to create an article. You can remap all the fields except **Email Content** and **Conversation Summary** to your own record types and data fields. You can't change the attributes used for conversations.
  
-1. On the **Case** card select **Manage attributes**. The **Manage data** page appears. 
+1. In the **Case** section, select **Manage attributes**. The **Manage data** page appears. 
 You can map which record types and data fields are used for each element. You can choose to include and exclude data.
 1. Select **Save and Close**.
 1. Select **Save** on the **Customer Knowledge Management Agent (preview)** settings page.
@@ -69,7 +69,7 @@ To enable change tracking:
 
 To add mapped entities to the Entity Analytics Configuration:
 
-1. Oen the model-driven app ( `https://<org>.crm.dynamics.com/...` ).   
+1. Open the model-driven app ( `https://<org>.crm.dynamics.com/...` ).   
 2. Press **F12** to open the browser’s **Developer Tools**, and then select the **Console** tab.   
 3. Copy the following script snippet, update **ENTITY_NAME**, and paste it into the console.
 4. Press **Enter** to run the script.
@@ -86,11 +86,10 @@ When enabled, the agent looks at all the cases that meet the conditions specifie
 
 1. Select the **Cases** or the **Conversations** tab.
 
-### [Case](#tab/case)
+    ### [Case](#tab/case)
     a. In the **Creation from historical cases** section, select the **Let copilot use information from historical cases to create knowledge articles** option.
-### [Conversations](#tab/conversations)
+    ### [Conversations](#tab/conversations)
     a. In the **Creation from historical conversations** section, select the **Let copilot use information from historical chat and messaging conversations to create knowledge articles** option.
----
 
 1. Select **Manage rules** to configure the conditions for the harvest.
 1. On the **Default rule** dialog, enter a rule name, condition name, and then add your conditions to filter historical articles.
@@ -110,7 +109,7 @@ To set the default compliance state of articles created by Customer Knowledge Ma
 Articles with the **Non Compliant** status can't be published.
 
 > [!NOTE]
-> Customer Knowledge Management Agent removes personally identifiable information (PII) from the case data before drafting articles. However, the agent might not detect all instances of sensitive information.
+> Customer Knowledge Management Agent removes personal data from the case data before drafting articles. However, the agent might not detect all instances of sensitive information.
 
 ## Auto publish articles
 
