@@ -34,13 +34,13 @@ You can harvest from cases and their associated conversation summaries, emails, 
 
 ## Enable real-time knowledge creation
 
-In the **Real-time creation** section, select the **Let Copilot use information from current case to create knowledge articles** option.
+In the **Real-time creation** section, select the **Let Copilot use information from current case/conversation to create knowledge articles** option.
 
-Real-time knowledge creation is triggered when a customer service representative (service representative) resolves a case. It determines whether a new knowledge article is needed by comparing the content of the case with the existing knowledge articles in Dynamics 365 knowledge base. If an article is needed, the Customer Knowledge Management Agent creates the article using the case content.  
+Real-time knowledge creation is triggered when a customer service representative (service representative) resolves a case or closes a conversation. It determines whether a new knowledge article is needed by comparing the content of the case or conversation with the existing knowledge articles in Dynamics 365 knowledge base. If an article is needed, the Customer Knowledge Management Agent creates the article using the case or conversation content.  
 
-### Control which cases real-time creation should create articles from 
+### Control which cases or conversations real-time creation should create articles from 
 
-You can create multiple rules to control which conditions must be met for a resolved case to be processed by Customer Knowledge Management Agent in real time. For example, you might limit this process to cases or conversations owned by a certain user, or any other fields on the case  or conversation.  
+You can create multiple rules to control which conditions must be met for a resolved case or conversation to be processed by Customer Knowledge Management Agent in real time. For example, you might limit this process to cases or conversations owned by a certain user, or any other fields on the case  or conversation.  
 
 1. In the **Real-time creation** section, select **Manage rules**.
 1. In the **Manage rules** dialog, select **New** to add a new rule.
@@ -58,6 +58,27 @@ You can map which record types and data fields are used for each element. You ca
 
 > [!NOTE]
 > For historical creation, mapped entities must have **Change Tracking** enabled and added to the **Entity Analytics Configuration**.
+
+To enable change tracking:
+ 
+1. Sign in to [Power Apps](https://make.powerapps.com). 
+2. Search and select the tbale you want to configure from **Dataverse** > **Tables**.
+3. Select **More commands**  (…) > **Properties**. 
+5. On the **Edit table** dialog, expand **Advanced options**. 
+6. Turn on **Track changes** and then select  **Save**. 
+
+To add mapped entities to the Entity Analytics Configuration:
+
+1. Oen the model-driven app ( `https://<org>.crm.dynamics.com/...` ).   
+2. Press **F12** to open the browser’s Developer Tools, and then select the **Console** tab.   
+3. Copy the following script snippet, update **ENTITY_NAME**, and paste it into the console.
+4. Press **Enter** to run the script.
+
+```javascript
+
+Xrm.WebApi.createRecord('entityanalyticsconfig', {'parententitylogicalname':'{ENTITY_NAME}','isenabledforadls': true})
+
+ ``` 
 
 ## Enable historical knowledge creation
 
