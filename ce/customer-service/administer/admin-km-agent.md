@@ -47,7 +47,7 @@ You can create multiple rules to control which conditions must be met for a reso
 1. In the **New knowledge creation rules** dialog, enter a rule name, condition name, and then add your conditions.
 1. Select **Save**.
 
-### Control which case attributes are used to create knowledge articles in historical and real-time
+### Control which case attributes are used to create knowledge articles in historical
 
 Customer Knowledge Management Agent uses **Case Title**, **Case Description**, **Product**, **Subject**, **Email Content**, **Conversation Summary**, and **Case Notes** to create an article. You can remap all the fields except **Email Content** and **Conversation Summary** to your own record types and data fields. You can't change the attributes used for conversations.
  
@@ -57,9 +57,9 @@ You can map which record types and data fields are used for each element. You ca
 1. Select **Save** on the **Customer Knowledge Management Agent (preview)** settings page.
 
 > [!NOTE]
-> For historical creation, mapped entities must have **Change Tracking** enabled and added to the **Entity Analytics Configuration**.
+> If you encounter issues during historical creation, try enabling **Track changes** for the mapped entities and adding them to the **Entity Analytics Config** table.
 
-To enable change tracking:
+To enable track changes:
  
 1. Sign in to [Power Apps](https://make.powerapps.com). 
 2. Search and select the table you want to configure from **Dataverse** > **Tables**.
@@ -67,7 +67,7 @@ To enable change tracking:
 5. On the **Edit table** dialog, expand **Advanced options**. 
 6. Turn on **Track changes** and then select **Save**. 
 
-To add mapped entities to the Entity Analytics Configuration:
+To add mapped entities to the **Entity Analytics Config** table:
 
 1. Open the model-driven app ( `https://<org>.crm.dynamics.com/...` ).   
 2. Press **F12** to open the browser’s **Developer Tools**, and then select the **Console** tab.   
