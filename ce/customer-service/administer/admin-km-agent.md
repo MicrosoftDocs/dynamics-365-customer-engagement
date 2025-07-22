@@ -58,7 +58,7 @@ You can map which record types and data fields are used for each element. You ca
 1. Select **Save and Close**.
 1. Select **Save** on the **Customer Knowledge Management Agent (preview)** settings page.
 
-**Enable track changes and add mapped entities to the **Entity Analytics Config** table.**
+**Enable track changes and add mapped entities to the **Entity Analytics Config** table**
 
 If you encounter issues during historical creation, try enabling **Track changes** for the mapped entities and adding them to the **Entity Analytics Config** table.
 
