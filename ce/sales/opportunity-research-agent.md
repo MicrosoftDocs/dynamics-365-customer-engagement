@@ -19,7 +19,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Opportunity Research Agent in Dynamics 365 Sales helps sales professionals move deals forward by providing most critical insights at every stage of the opportunity. It aggregates information from CRM records, email conversations, and real-time web research into a single view. This view provides sellers with vital account context, buyer needs and pain points, overall deal health, stakeholder engagement signals, competitor activity, and emerging risks. When a risk is detected, the agent provides a clear, targeted mitigation recommendation—so sellers can address issues promptly, keep momentum high, and close more opportunities faster.
+The Opportunity Research Agent in Dynamics 365 Sales helps sales professionals move deals forward by providing most critical insights at every stage of the opportunity. It aggregates information from CRM records, email conversations, and real-time web research into a single view. This view provides sellers with vital account context, buyer needs and pain points, overall deal health, stakeholder engagement signals, competitor insights, and emerging risks. When a risk is detected, the agent provides a clear, targeted mitigation recommendation so that sellers can address issues promptly, keep momentum high, and close more opportunities faster.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -27,9 +27,9 @@ The Opportunity Research Agent in Dynamics 365 Sales helps sales professionals m
 
 Following are some of the key features and benefits of the Opportunity Research Agent:
 
-**Streamlined research experience:** Automatically aggregates insights from CRM, customer communications, public sources, and internal repositories, minimizing context-switching and research overhead.
+**Streamlined research experience:** Automatically aggregates insights from CRM, customer communications, public sources, and internal repositories; thus minimizing context-switching and research overhead.
 
-**Opportunity catchup:** Sellers can ramp up quickly with opportunity summaries, including deal size, target close date, customer pain points, and recent updates.
+**Opportunity catchup:** Sellers can quickly ramp up with the opportunity summary, which includes deal size, target close date, customer pain points, and recent updates.
 
 **Stakeholder intelligence:** The agent tracks stakeholder changes in real time, classifies roles (such as economic buyer or champion), and flags new decision-makers or influencers&mdash;helping sellers build relationships with the right people.
 
