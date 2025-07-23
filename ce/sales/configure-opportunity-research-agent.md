@@ -35,7 +35,7 @@ As the agent consumes capacity, it is important to plan and configure it to hand
 - The agent uses the machine learning model in predictive opportunity scoring for risk assessment. If you haven't configured scoring in your environment, it's configured automatically when you start the agent.
 - Modify Data Loss Prevention (DLP) policies to allow external connections. Learn more in [Configure data loss prevention policies for agents](/microsoft-copilot-studio/admin-data-loss-prevention).
 
-- If you're using a custom security role for your sales team that'll be using the agent, ensure that the role has Organization-level `Read` access to the following entities to view the research insights:
+- If you're using a custom security role for your sales team that'll be using the agent, ensure that the role has `Basic`-level `Read` access to the following entities to view the research insights:
   - Opportunity Research Result (msdyn_OpportunityResearchResult)
   - Opportunity Research Indicator (msdyn_OpportunityResearchIndicator)
 
@@ -154,7 +154,7 @@ By default, the agent generates research insights for your competitors from publ
 
 1. In the **Research insights** section, go to **Competitor insights**.
 
-1. Under **Key competitors**, select **+ Competitor** to add competitors for the product line that the agent will work on. 
+1. Under **Key competitors**, select **+ Competitor** to add competitors for the product line that the agent will work on. If no competitors are specified, the agent will look for competitor mentions in the opportunity and customer conversations.
 
 1. Select **Add** or **Manage** to add or remove knowledge sources for competitor insights. 
    The **D365 Sales Agent - Competitors** agent's **Knowledge** page opens in Copilot Studio. 
