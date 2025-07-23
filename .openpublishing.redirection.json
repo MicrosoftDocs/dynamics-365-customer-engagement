@@ -35695,7 +35695,12 @@
       "source_path": "ce/customer-service/administer/use-effort-estimation-for-routing.md",
       "redirect_url": "/dynamics365/customer-service/administer/overview-unified-routing",
       "redirect_document_id": "false"
-    }  
+    },
+    {
+      "source_path": "ce/customer-service/administer/inbox-views-filters.md",
+      "redirect_url": "/dynamics365/customer-service/use/inbox-views-filters",
+      "redirect_document_id": "false"
+    }      
 
   ]
 }
