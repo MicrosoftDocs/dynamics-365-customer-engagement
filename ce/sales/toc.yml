@@ -798,7 +798,7 @@ items:
       items:
         - name: Opportunity Research Agent 
           href: opportunity-research-agent.md
-        - name: Work on opportunities handed over by Opportunity Research Agent
+        - name: Work on opportunities researched by Opportunity Research Agent
           href: use-opportunity-research-agent.md
     - name: Overview of focused view
       href: configure-focused-view.md
