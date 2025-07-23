@@ -30,7 +30,7 @@ You need the following prerequisites:
 - Your admin has configured the Opportunity Research Agent for your organization. 
 - You're part of the sales team that works on the segment of opportunities that the agent is configured for.
 - You have the necessary permissions to view and work on the opportunities researched by the agent.
-- Your Exchange mailbox is configured for server-side synchronization. This is required for the agent to gather insights from your emails and meetings.
+- Your mailbox is configured to track **All email messages**. This is required for the agent to gather insights from your emails and meetings. Learn more in [Configure server-side synchronization](configure-opportunity-research-agent.md#configure-server-side-synchronization).
 
 ## View opportunities researched by the Opportunity Research Agent
 
@@ -40,7 +40,7 @@ You need the following prerequisites:
    :::image type="content" source="media/opportunities-from-agent.png" alt-text="Screenshot of the My top opportunities from AI agent view in the Sales Hub app.":::
    The view lists all the opportunities that the agent researched on and includes the importance and risk for each opportunity. The list includes only opportunities with high and medium importance.
    > [!NOTE]
-   > Importance is calculated based on the estimated revenue of the opportunity and risk is calculated based on the estimated close date of the opportunity and its predictive score. Learn more about predictive score in [Prioritize opportunities through predictive scores](work-predictive-opportunity-scoring.md)
+   > The agent uses the estimated revenue, estimated close date, predictive score, and other factors to calculate the importance and risk of the opportunities.  
 
 1. Open an opportunity.
    You'll see a **Summary** card at the top of the page, displaying a quick summary of the research outcome and actionable recommendation, if any.
@@ -51,7 +51,7 @@ You need the following prerequisites:
 
 The Opportunity research page includes the following sections:
 
-**Risk mitigation:** This section is displayed only for opportunities that are at risk. The agent assesses the risk based on the information available in the opportunity and its related entities, such as account, product, and stakeholders. The agent also provides recommendations to mitigate the risk.
+**Risk mitigation:** This section is displayed only for opportunities that are at risk. The agent assesses the risk based on the information available in the opportunity and its related entities, such as account and stakeholders. The agent also provides recommendations to mitigate the risk.
 
 If the risk and the recommended action seem relevant, take the action and select **Mark as done**. Otherwise, mark the risk as **Not relevant** so that the agent can learn from your feedback and remove the risk from the list of risks for the opportunity.
 

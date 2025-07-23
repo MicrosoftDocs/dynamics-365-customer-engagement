@@ -29,11 +29,11 @@ Following are some of the key features and benefits of the Opportunity Research 
 
 **Streamlined research experience:** Automatically aggregates insights from CRM, customer communications, public sources, and internal repositories; thus minimizing context-switching and research overhead.
 
-**Opportunity catchup:** Sellers can quickly ramp up with the opportunity summary, which includes deal size, target close date, customer pain points, and recent updates.
+**Opportunity catchup:** Sellers can quickly ramp up by reviewing key insights and key signals for the opportunity. The insights and signals include deal context, buyer needs, pain points, recent updates, and overall deal health. These insights help the seller understand the importance and urgency of the opportunity, and how to best position themselves to win.
 
-**Stakeholder intelligence:** The agent tracks stakeholder changes in real time, classifies roles (such as economic buyer or champion), and flags new decision-makers or influencers&mdash;helping sellers build relationships with the right people.
+**Stakeholder intelligence:** The agent tracks stakeholder changes in real time, classifies their roles (such as economic buyer or champion), and flags new decision-makers or influencers&mdash;helping sellers build relationships with the right people.
 
-**Competitor highlights:** Competitor mentions are detected from emails, meetings, and CRM entries, with timely alerts and tailored strategies based on past deal history.
+**Competitor insights:** Competitor insights are gathered from web research, internal sources such as battle cards, and mentions detected from emails, meetings, and CRM entries.
 
 **Actionable risk mitigation:** The agent surfaces actionable risk signals, such as stalled momentum or loss of key stakeholders, and recommends mitigation steps to keep deals moving forward.
 

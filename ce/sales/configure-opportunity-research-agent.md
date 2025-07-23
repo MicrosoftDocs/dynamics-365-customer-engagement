@@ -31,17 +31,7 @@ As the agent consumes capacity, it is important to plan and configure it to hand
 - Determine the products that you want the Opportunity Research Agent to handle. The products should be handled by a single sales team. If your company sells multiple products through different sales teams, pick one product line.
 
 - Determine the segment of opportunities that you want the Opportunity Research Agent to handle. For example, you might want it to handle only the opportunities that are **Hot** and of high value.
-- Identify the sellers who will work on the segment of opportunities that the agent will research on. The agent uses the sellers' emails and meetings to gather insights and update sales records. Ensure that server-side synchronization is configured for their mailboxes. Follow these steps to configure server-side synchronization:
-  - [Create an email server profile for Exchange Online](/power-platform/admin/connect-exchange-online?tabs=new#create-an-email-server-profile-for-exchange-online).
-  - [Configure default email processing and synchronization](/power-platform/admin/connect-exchange-online?tabs=new#configure-default-email-processing-and-synchronization).
-  - [Configure mailboxes](/power-platform/admin/connect-exchange-online?tabs=new#configure-mailboxes) of sellers who own the opportunities and [approve the mailboxes](/power-platform/admin/connect-exchange-online?tabs=new#approve-mailboxes). When the configuration is successful, the **Incoming Email Status** and **Outgoing Email Status** for the mailbox are set to **Success**.
-    :::image type="content" source="mailbox-status.png" alt-text="Screenshot of a user mailbox in Dynamics 365 Sales with status indicators.":::
-
-    > [!IMPORTANT]
-    >- Make sure that the personalization option for emails is set to **All email messages** in the sellers' personalization settings. By default, this option is set to **Email messages in response to Dynamics 365 email**. Sellers can change this setting from the **Settings** > **Personalization settings** > **Emails**  > **Track** in Dynamics 365 Sales.  
-    >- :::image type="content" source="media/email-track-personal-options.png" alt-text="Screenshot of the Personalization settings page in Dynamics 365 Sales with the All email messages option selected.":::
-    >- You can either notify the sellers to set this option or use the **User Settings Utility** in [XRMToolBox](/power-apps/developer/data-platform/community-tools) to select multiple sellers and set the `Track email messages` setting to **All email messages**.
-
+- Identify the sellers who will work on the segment of opportunities that the agent will research on and [configure server-side synchronization for their mailboxes](#configure-server-side-synchronization).
 - The agent uses the machine learning model in predictive opportunity scoring for risk assessment. If you haven't configured scoring in your environment, it's configured automatically when you start the agent.
 - Modify Data Loss Prevention (DLP) policies to allow external connections. Learn more in [Configure data loss prevention policies for agents](/microsoft-copilot-studio/admin-data-loss-prevention).
 
@@ -49,6 +39,24 @@ As the agent consumes capacity, it is important to plan and configure it to hand
   - Opportunity Research Result (msdyn_OpportunityResearchResult)
   - Opportunity Research Indicator (msdyn_OpportunityResearchIndicator)
 
+### Configure server-side synchronization
+
+After you identify the sellers who work on the segment of opportunities that the agent will research on, you must configure server-side synchronization for their mailboxes. This step is required to enable the agent to access emails and meetings related to the opportunities from the sellers' mailboxes.  
+
+Follow these steps to configure server-side synchronization:
+
+1. [Create an email server profile for Exchange Online](/power-platform/admin/connect-exchange-online?tabs=new#create-an-email-server-profile-for-exchange-online).
+
+1. [Configure default email processing and synchronization](/power-platform/admin/connect-exchange-online?tabs=new#configure-default-email-processing-and-synchronization).
+1. [Configure mailboxes](/power-platform/admin/connect-exchange-online?tabs=new#configure-mailboxes) of sellers who own the opportunities and [approve their mailboxes](/power-platform/admin/connect-exchange-online?tabs=new#approve-mailboxes). When the configuration is successful, the **Incoming Email Status** and **Outgoing Email Status** for the mailbox are set to **Success**.
+    :::image type="content" source="mailbox-status.png" alt-text="Screenshot of a user mailbox in Dynamics 365 Sales with status indicators.":::
+1. Make sure that the personalization option for emails is set to **All email messages** in the sellers' personalization settings. By default, this option is set to **Email messages in response to Dynamics 365 email**. Do *ONE* of the following:
+
+    - Notify the sellers to set this option from **Settings** > **Personalization settings** > **Emails**  > **Track** > **All email messages** in Dynamics 365 Sales.
+      :::image type="content" source="media/email-track-personal-options.png" alt-text="Screenshot of the Personalization settings page in Dynamics 365 Sales with the All email messages option selected.":::
+
+    - Use the **User Settings Utility** in [XRMToolBox](/power-apps/developer/data-platform/community-tools) to select multiple sellers and set the `Track email messages` setting to **All email messages**.
+      :::image type="content" source="media/xrmtoolbox-email-tracking.png" alt-text="Screenshot of the User Settings Utility in XRMToolBox with the Track email messages option set to All email messages.":::
 
 ## Step 2: Verify prerequisites
 
@@ -67,8 +75,7 @@ As the agent consumes capacity, it is important to plan and configure it to hand
   The Opportunity Research Agent settings page opens.
   :::image type="content" source="media/opportunity-research-agent-settings.png" alt-text="Screenshot of the Opportunity Research Agent settings page.":::
 
-1. On the **Automation level** section, select **Research**.
-1. Scroll down to the **Prerequisites** section and confirm that server-side synchronization is configured for the mailboxes of sellers who will use the agent. The agent can't verify this automatically. So, select **Mark as done** only if it is configured as described in the [Plan your implementation](#step-1-plan-your-implementation) section.
+1. Scroll down to the **Prerequisites** section and confirm that server-side synchronization is configured for the mailboxes of sellers who will use the agent. The agent can't verify this automatically. So, select **Mark as done** only if it is configured as described in the [Configure server-side synchronization](#configure-server-side-synchronization) section.
 
 ## Step 3: Configure the agent
 
@@ -90,7 +97,8 @@ After verifying the prerequisites, define the agent and company profile, selecti
    - **Segment name:** Enter a name for the segment that the agent will handle, such as "Microsoft 365 Opportunities". The agent doesn't use the segmentation feature in Dynamics 365 Sales. The segment name is only used to identify the opportunities that the agent will handle.
 
    - **Description:** Enter a description for the segment, such as "Opportunities related to Microsoft 365 products".
-   - **Filter conditions:** Define the filter conditions for the segment. Opportunities that match these conditions will be handled by the agent. For example, to handle only the opportunities that are **Hot** and of high value, you can specify the following conditions:
+   - **Filter conditions:** Define the filter conditions for the segment. Opportunities that are **open** and match these conditions will be handled by the agent. 
+     For example, to handle only the opportunities that are **Hot** and of high value, you can specify the following conditions:
      - Rating equals **Hot**.
      - Est. revenue greater than or equal to $100,000.
      - Status equals **Open**.
@@ -112,25 +120,49 @@ After verifying the prerequisites, define the agent and company profile, selecti
 
 ### Configure fields for importance and risk assessment
 
-In the **Opportunity assessment** tab, specify the fields that the agent will use to assess the importance and risk of the opportunities. 
+In the **Opportunity assessment** tab, specify the fields that the agent should use as a factor to assess the importance and risk of the opportunities. The agent also uses many other factors to calculate the importance and risk of the opportunities. 
 
 - **Monetary value:** Select the field that represents the monetary value of the opportunity, such as **Est. revenue**. This field determines the importance of the opportunity.
 - **Estimated close date**: Select the field that represents the estimated close date of the opportunity, such as **Est. close date**. This field helps the agent assess the urgency of the opportunity and identify potential risks.
 
-### Configure knowledge for generating research insights
+### Configure knowledge for generating account insights
 
-1. In the **Research insights** tab, specify the knowledge sources that the agent must use to generate research insights for the opportunities. 
+By default, the agent generates research insights for your accounts from public web sources. However, you can configure additional knowledge sources, both from your internal knowledge base and external websites, to help the agent generate more relevant and reliable insights.
+
+1. In the **Research insights** section, go to **Company insights** > **Knowledge sources for insight**.
    > [!NOTE]
-   > The Sales Qualification Agent and Opportunity Research Agent share the same knowledge sources for account insights. The knowledge sources that you add to or remove from one of the agents will be reflected in the other agent as well. If you see knowledge sources already, it's possible that those are configured for the Sales Qualification Agent. Do not remove them unless you want to remove them from both agents.
+   > If the Sales Qualification Agent and Opportunity Research Agent are in the same environment, they share the same knowledge sources for account insights. The knowledge sources that you add to or remove from one of the agents will be reflected in the other agent as well. If you see knowledge sources already, it's possible that those are configured for the Sales Qualification Agent. Do not remove them unless you want to remove them from both the agents.
 
-1. Under **Company insights**, select **Manage** to add reliable knowledge sources that you want the agent to use to gather insights about the account associated with the opportunity.
-   The D365 Sales Agent - Research agent's **Knowledge** page opens in Copilot Studio.
-1. Under **Competitors**, select **Manage** to add the competitors that you want the agent to consider while generating insights. The agent uses this information to provide competitive intelligence and help sellers understand the competitive landscape. By default, the agent collects insights from public web sources. However, you can also add knowledge sources that are specific to your organization, such as battle cards and positioning documents.
-1. Select **Manage** to add or remove knowledge sources for competitor insights. 
-   The **D365 Sales Agent - Competitors** agent's **Knowledge** page opens in Copilot Studio. 
-   Learn more about creating knowledge sources in [Knowledge sources overview](/microsoft-copilot-studio/knowledge-copilot-studio).
+1. Select **Add** or **Manage** to add or manage knowledge sources for account insights. 
+   The **D365 Sales Agent - Research agent**'s **Knowledge** page opens in Copilot Studio.
+
+1. Add the knowledge sources that you refer to while researching accounts, such as specific websites, internal documents, or knowledge bases. The agent uses this information to provide account context and insights about the opportunities. Learn more about creating knowledge sources in [Knowledge sources overview](/microsoft-copilot-studio/knowledge-copilot-studio).
+
+1. After you add the knowledge sources in Copilot Studio, return to the **Opportunity Research Agent** settings page in Dynamics 365 Sales. At this point, you can test the agent's output based on the knowledge sources you added.
+    1. Scroll up to the **How this works** section and copy the test snippet under Step 2.
+    1. Open Copilot Studio and paste the json snippet in the **Test your agent** chat window of the **D365 Sales Agent - Research agent**.
+    1. Modify the companyName and accountDomain values in the snippet to one of your accounts and select **Send**.
+    1. Review the agent's response to ensure it is using the knowledge sources you added.
+1. In Copilot Studio, select **Publish** to publish the changes to the Research agent.
+
+### Configure knowledge for generating competitor insights
+
+By default, the agent generates research insights for your competitors from public web sources. However, you can configure additional knowledge sources such as battle cards, positioning briefs that show competitive advantages, and product comparisons. The agent uses this information to provide competitive intelligence and help sellers understand the competitive landscape.
+ 
 > [!NOTE]
-> If you have multiple documents, be sure to group the documents after uploading them to the knowledge source. Learn more in Copilot Studio documentation.
+> You can only upload slide decks or documents as knowledge sources for competitor insights.
+
+1. In the **Research insights** section, go to **Competitor insights**.
+
+1. Under **Key competitors**, select **+ Competitor** to add competitors for the product line that the agent will work on. 
+
+1. Select **Add** or **Manage** to add or remove knowledge sources for competitor insights. 
+   The **D365 Sales Agent - Competitors** agent's **Knowledge** page opens in Copilot Studio. 
+
+1. Select **Add knowledge** and then select **Upload file**.
+1. Select the documents. You can group similar documents into a group to help the agent understand the context better. For example, you can group all documents related to a specific competitor. Select **Upload** > **Upload as a group** to upload the documents as a group.
+   :::image type="content" source="media/group-upload-copilot-studio.png" alt-text="Screenshot of the Group upload option in Copilot Studio.":::
+   You can also group individual documents into a single group after uploading them. Select a document in the Knowledge page and select **Create file group** to create a group and add the document to it.
 
 ## Step 4: Start or stop the agent
 
