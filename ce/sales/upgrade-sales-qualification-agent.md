@@ -20,30 +20,56 @@ ai-usage: ai-assisted
 The following upgrade scenarios are supported for the Sales Qualification Agent in Dynamics 365 Sales:
 
 - **Upgrade the agent to 7.3**: This upgrade is available for customers who signed up for the April 2025 public preview of the Sales Qualification Agent.
-- **Upgrade the agent to handle both research and engagement**: This upgrade is available for customers who're currently using the research agent and want to extend its capabilities to include engagement tasks.
+- **Upgrade the agent to handle both research and engagement**: This upgrade is available for customers who're currently using the Research mode of the agent and want to extend its capabilities to include engagement as well.
 
 
-## Upgrade the agent to 7.3
+## Considerations for upgrading the agent to 7.3
 
-After the 7.3 release is deployed in your environment, your existing Sales Qualification Agent will be set to the **Draft** mode. This change will impact the following functionalities:
+After the 7.3 release is deployed in your environment, your existing Sales Qualification Agent is automatically set to the **Draft** mode. This change impacts the following functionalities:
 
-- The agent will not be able to process new leads until it is reconfigured.
+- The agent can't process new leads until it is upgraded to 7.3.
 
-- For leads that are already processed by the agent, sellers will be able to see the lead insights until the agent is reconfigured. Sellers will see a notification informing them that the admin needs to reconfigure the agent.
-- When you reconfigure the agent, existing agent settings won't be preserved. So, make note of your current settings if you'd like to continue with the same settings. Learn more about configuring the 7.3 Sales Qualification Agent in [Set up the Sales Qualification Agent](configure-sales-qualification-agent.md).
+- For leads that are already processed by the agent, sellers can see the lead insights until the agent is reconfigured. Sellers will see a notification informing them that the admin needs to reconfigure the agent.
+- When you upgrade or reconfigure the agent, existing agent settings are preserved.
 - After the agent is reconfigured, leads that fulfill the selection criteria will get processed:
     - If a lead that was previously processed by the agent still fulfills the selection criteria, the agent processes it again for research and generates the outreach email.
+ 
     - For leads that no longer fulfill the selection criteria, sellers will only see the lead summary on the Lead research page. The seller is informed that due to the recent changes to agent settings, the research pages for some leads may not be available.
     :::image type="content" source="media/lead-research-not-accessible-banner.png" alt-text="Screenshot of the lead research page for leads that are not processed by the agent after upgrade.":::
     > [!NOTE]
-    > The previous research data is stored in msdyn_leadagentresult (lead agent result) and msdyn_accountresearchresult (account research result).
+    > You can access the previous research data from the msdyn_leadagentresult (lead agent result) and msdyn_accountresearchresult (account research result) tables.
+ 
 
-## Upgrade the agent to handle both research and engagement
+## Upgrade the agent to 7.3
 
-You can upgrade your Research agent to the Engage agent, which includes both research and engagement capabilities. Downgrading from the Engage agent to the Research agent is not supported.
+1. From the **App Settings** area, select **Dynamics 365 AI Hub**. 
+   In the list of agents, you'll see that your Sales Qualification Agent is in **Draft** mode.
 
-- If you're using the 4.3 version of the Sales Qualification Agent (part of the April 2025 public preview), you can upgrade to the Engage agent by following the steps in [Set up the Sales Qualification Agent](configure-sales-qualification-agent.md). Though the research-related settings are the same as the previous version, they won't be preserved during the upgrade. So, make note of your current settings if you'd like to continue with the same settings.
+1. Select the agent.
+   The **Edit agent** page opens with your existing agent settings.
+1. Review the settings and make changes if needed. If you want to upgrade the agent to handle both research and engagement, you'll see additional prerequisites and settings. Learn more in [Set up and configure the Sales Qualification Agent](configure-sales-qualification-agent.md)
+1. Select **Start agent** when you're ready to upgrade the agent.
+   The agent is turned **On** and starts processing leads that fulfill the selection criteria.
 
-- If you're using the 7.3 version of the Research Agent and want to upgrade to the Engage agent, the research-related settings will be preserved during the upgrade. You can just configure the engagement-related settings. Learn more about configuring the Engage agent in [Set up the Sales Qualification Agent](configure-sales-qualification-agent.md).
+## Considerations for upgrading the agent to handle both research and engagement
 
+- You can upgrade your Sales Qualification Agent from the Research mode to Engage mode, which includes both research and engagement capabilities. 
 
+- Downgrading from the Engage mode to the Research mode is not supported.
+- You can upgrade both the 4.3 and 7.3 versions of the Sales Qualification Agent to handle both research and engagement.
+- The research-related settings will be preserved during the upgrade. You can just configure the engagement-related settings. 
+
+## Upgrade the agent from research to engagement
+
+1. From the **App Settings** area, select **Dynamics 365 AI Hub**.
+
+1. Select the agent with type **Sales Qualification Agent** and skill **Research**.
+   The **Edit agent** page opens with your existing settings for research.
+1. In the **Automation** section, select **Engage**.
+1. Scroll down and complete the additional prerequisites for engagement and select **Next**.
+   Until all prerequisites are marked as Done, the **Next** button is disabled and the left pane isn't loaded with the settings.
+   :::image type="content" source="media/upgrade-confirmation-message.png" alt-text="Screenshot of the confirmation message for upgrading the agent to handle both research and engagement.":::
+   After you confirm the upgrade, the agent will be set to **Draft** mode. Leads that are already in progress will continue to be processed, but no new leads will be processed until the agent is reconfigured and started.
+1. Review each section and configure additional settings for engagement. Learn more about configuring engagement in [Set up the Sales Qualification Agent](configure-sales-qualification-agent.md). 
+1. Select **Start agent** when you're ready to upgrade the agent.
+   The agent is turned **On** and starts processing leads that fulfill the selection criteria and starts engaging with the leads that meet the hand off criteria.
