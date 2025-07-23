@@ -28,7 +28,8 @@ The Opportunity Research Agent in Dynamics 365 Sales makes it easy for you to fo
 You need the following prerequisites:
 
 - Your admin has configured the Opportunity Research Agent for your organization. 
-- You're part of the sales team that works on the segment of opportunities that the agent is configured for.
+
+- You're part of the sales team that works on the product and opportunity segment that the agent is configured for.
 - You have the necessary permissions to view and work on the opportunities researched by the agent.
 - Your mailbox is configured to track **All email messages**. This is required for the agent to gather insights from your emails and meetings. Learn more in [Configure server-side synchronization](configure-opportunity-research-agent.md#configure-server-side-synchronization).
 
@@ -59,4 +60,4 @@ If the risk and the recommended action seem relevant, take the action and select
 
 **Key signals:** This section includes the recent communications and activities related to the opportunity and key updates that the seller should be aware of to take the deal forward.
 
-**Deeper insights:** This section includes the entire research spectrum. This includes stakeholders insights, pain points and needs, opportunity health based on MEDDPICC framework, and account, product, and competitor insights. The insights in this section contribute to the Key insights and Key signals sections.
+**Deeper insights:** This section includes the entire research spectrum. This includes stakeholders insights, pain points and needs, opportunity health based on MEDDPICC framework, and account, product, and competitor insights. The insights in this section contribute to the **Key insights** and **Key signals** sections.

@@ -154,7 +154,7 @@ By default, the agent generates research insights for your competitors from publ
 
 1. In the **Research insights** section, go to **Competitor insights**.
 
-1. Under **Key competitors**, select **+ Competitor** to add competitors for the product line that the agent will work on. If no competitors are specified, the agent will look for competitor mentions in the opportunity and customer conversations.
+1. Under **Key competitors**, select **+ Competitor** to add competitors for the product line that the agent will work on. The agent first looks for competitors in the opportunity and customer conversations and then uses the competitors that you specify here. 
 
 1. Select **Add** or **Manage** to add or remove knowledge sources for competitor insights. 
    The **D365 Sales Agent - Competitors** agent's **Knowledge** page opens in Copilot Studio. 
