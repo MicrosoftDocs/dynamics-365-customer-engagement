@@ -1,7 +1,7 @@
 ---
 title: Try channels
 description: Learn how you can try channels in Customer Service to connect and engage with your customers in real time.
-ms.date: 04/14/2025
+ms.date: 07/25/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -37,7 +37,7 @@ You must obtain one of the following subscriptions through the Microsoft 365 adm
 - For voice channel, make sure that trial is supported in the [cloud location](../administer/voice-channel-region-availability.md)
 
 > [!IMPORTANT]
-> - If you don't have one of these subscriptions, or if you purchased your subscription somewhere other than Web Direct, then the option to try channels isn't be available in the Microsoft 365 admin center. In such cases, we recommend that you use the [Customer Service trial](https://dynamics.microsoft.com/customer-service/overview/).
+> - If you don't have one of these subscriptions, or if you purchased your subscription somewhere other than Web Direct, then the option to try channels isn't be available in the Microsoft 365 admin center. In such cases, we recommend that you use the [Customer Service trial](https://www.microsoft.com/dynamics-365/products/customer-service).
 > - 90-days trials obtained through Customer Digital Experiences won't have Omnichannel for Customer Service enabled. Use the 30-days free trial if you want to use Omnichannel for Customer Service. 
 
 For information about the Digital Messaging license, pricing, and prerequisites, see the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
@@ -108,7 +108,6 @@ To view videos on Omnichannel for Customer Service, see [Videos](../use/videos.m
 [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels)  
 [Configure a chat channel](../administer/set-up-chat-widget.md)  
 [Configure an SMS channel using Azure Communication Services](../administer/configure-sms-channel-acs.md)  
-[Configure a Facebook channel](../administer/configure-facebook-channel.md)  
 [Try Customer Service](try-customer-service.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
