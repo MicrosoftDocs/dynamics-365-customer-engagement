@@ -38,7 +38,7 @@ By default, the application defines a set of criteria. You can update any out-of
 
    :::image type="content" source="media/sqa-ideal-customer-profile.png" alt-text="Screenshot of the ideal customer profile configuration in Sales Qualification Agent settings.":::
 
-1. Select **Add** to add a different field from the lead table or other related tables. 
+1. Select **Add** to add a different field from the lead table or other related tables.  
      > [!TIP]
      > If you're just testing the agent, you can create a simple ideal customer profile that includes only a few criteria, such as industry and job title. This will make it easier to create leads that match the profile and validate the agent's functionality. For example, you can set the industry to "Technology" and the job title to "Manager". After this succeeds, you can gradually add more criteria that are relevant to your business.
 
@@ -48,7 +48,7 @@ By default, the application defines a set of criteria. You can update any out-of
 
 Use custom criteria to define characteristics that are important for your ideal customer profile. You can map your criteria to custom fields in Dataverse or add public URLs that provide the relevant information. For example, you could add a custom criterion for "Environmental Sustainability Initiatives" and map it to a custom field in Dataverse or provide a URL that lists the company's key environmental initiatives.
 
-1. On the [Sales qualification agent settings page](#set-up-and-activate-the-agent), scroll down to the end of the Hand off criteria section.
+1. [Open the Sales Qualification Agent settings page](open-sales-qualification-agent-settings.md) and go to the **Handoff criteria** section.
 
 1. Select **New custom criterion**.  
 
@@ -70,3 +70,11 @@ Use custom criteria to define characteristics that are important for your ideal 
 
 1. Select **Add**.  
    The custom criterion is now added to the hand off criteria section. 
+
+### Next step
+
+[Configure assignment rules for the Sales Qualification Agent](configure-sqa-assignment-rules.md)
+
+### Related information
+
+[Configure the Sales Qualification Agent](configure-sales-qualification-agent.md)
