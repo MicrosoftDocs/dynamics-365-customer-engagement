@@ -31,8 +31,7 @@ Follow these steps:
     :::image type="content" source="media/sqa-settings-home-page.png" alt-text="Screenshot of the Sales Qualification Agent settings home page.":::
 
 1. In the **Agent manager** section, select **Create and manage agent**.  
-    The **AI agent** page opens.
-
+    The **AI agent** page opens.  
 1. To create an agent:
     1. Select **Create**.  
     1. In the **Sales Qualification Agent** section, select **Choose**.  

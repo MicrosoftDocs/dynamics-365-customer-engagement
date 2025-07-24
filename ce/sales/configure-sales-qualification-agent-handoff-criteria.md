@@ -48,7 +48,7 @@ By default, the application defines a set of criteria. You can update any out-of
 
 Use custom criteria to define characteristics that are important for your ideal customer profile. You can map your criteria to custom fields in Dataverse or add public URLs that provide the relevant information. For example, you could add a custom criterion for "Environmental Sustainability Initiatives" and map it to a custom field in Dataverse or provide a URL that lists the company's key environmental initiatives.
 
-1. On the [Sales qualification agent settings page](#set-up-and-activate-the-agent), scroll down to the end of the Hand off criteria section.
+1. [Open the Sales Qualification Agent settings page](open-sales-qualification-agent-settings.md) and go to the **Handoff criteria** section.
 
 1. Select **New custom criterion**.  
 

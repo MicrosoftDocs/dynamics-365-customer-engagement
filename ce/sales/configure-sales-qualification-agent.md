@@ -60,7 +60,7 @@ Review the following considerations before you start deploying the autonomous Sa
 - You can’t delete an agent once configured. Contact Microsoft support to delete the agent from your organization.  
 - Once an agent is published, we **recommend** only a few select fields to be edited. Sections that have tag "Avoid edits" should not be edited as it can lead to the agent being in bad state.
 
-## Set up and configure Sales Qualification Agent
+## Set up Sales Qualification Agent
 
 The Sales Qualification Agent is categorized into two types&mdash;Research and Engage&mdash;depending on the level of automation you want to achieve. The configuration steps are similar for both types, but the Engage agent has additional settings such as adding email signature, customized email instructions, and configuring BANT criteria for handoff. Let's look at the steps to set up and configure the agents.
 
@@ -99,7 +99,6 @@ Alternatively, you can add the **Salesperson** or **Sales Manager** role to the 
 The following image shows the permissions to access research insights as an example:
 
 :::image type="content" source="media/sqa-custom-role-permissions.png" alt-text="Screenshot of the permissions to grant to a custom security role for use with the Sales Qualification Agent in Dynamics 365 Sales.":::
-
 
 ## View the agent's usage consumption
 
