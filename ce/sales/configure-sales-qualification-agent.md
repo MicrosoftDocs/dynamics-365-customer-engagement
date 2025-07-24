@@ -38,6 +38,7 @@ Ensure that the following prerequisites are met:
 - You turned on the modern UI for the Sales Hub app. Learn more in [Enabling the modern look for my app and removing the toggle](/power-apps/user/modern-fluent-design#enabling-the-modern-look-for-my-app-and-removing-the-toggle).
 
 - You modified Data Loss Prevention (DLP) policies to allow the following connectors:
+  
     | Connector                                 | Why is it required?                                                                                   |
     |--------------------------------------------|-------------------------------------------------------------------------------------------------------|
     | Knowledge source with public websites and data | The agent needs it to access public data for enrichment.     |
