@@ -40,10 +40,10 @@ Ensure that the following prerequisites are met:
 - You modified Data Loss Prevention (DLP) policies to allow the following connectors:
     | Connector                                 | Why is it required?                                                                                   |
     |--------------------------------------------|-------------------------------------------------------------------------------------------------------|
-    | Knowledge source with public websites and data | Required for the agent to access public data for enrichment.     |
-    | Microsoft Copilot Studio                       | Required as Copilot Studio is the core platform for building and deploying the SQA.                      |
-    | Knowledge source with SharePoint or OneDrive      | Possibly required if the agent is configured to use internal documents on SharePoint or OneDrive for enrichment.                         |
-    | Knowledge source with documents                | Possibly required if the agent is configured to use internal documents for enrichment.                   |
+    | Knowledge source with public websites and data | The agent needs it to access public data for enrichment.     |
+    | Microsoft Copilot Studio                       | Copilot Studio is the core platform for building and deploying the agent.                      |
+    | Knowledge source with SharePoint or OneDrive      | Required only if the agent is configured to use internal documents on SharePoint or OneDrive for enrichment.                         |
+    | Knowledge source with documents                | Required only if the agent is configured to use internal documents for enrichment.                   |
 
    Learn more in [Configure data loss prevention policies for agents](/microsoft-copilot-studio/admin-data-loss-prevention).
 
