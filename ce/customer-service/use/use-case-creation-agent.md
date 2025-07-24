@@ -35,7 +35,7 @@ When you accept a conversation routed directly or escalated by a self-assist age
 
 If the conversation doesn't contain enough context to populate the mandatory fields, the agent doesn't create a case when you accept the conversation. However, when you end the conversation, the agent creates a case if enough information is available and the case isn't created manually.
 
-On the case form, an AI toolbox appears and allows you to do the following actions:
+On the case form, an AI toolbar appears and allows you to do the following actions:
 
 - [Use Copilot's form fill assistance](/power-apps/user/form-filling-assistance).
 - View a message that indicates that the AI agent created the case.
@@ -54,7 +54,7 @@ The AI agent updates the fields configured by the administrator as follows:
 
 - **For a case created from an email**: The agent populates the fields with context from incoming emails linked to the case. 
 
-On the case form, an AI toolbox appears and allows you to do the following actions:
+On the case form, an AI toolbar appears and allows you to do the following actions:
 
 - [Use Copilot's form fill assistance](/power-apps/user/form-filling-assistance).
 - View a message that indicates that the AI agent updated the case fields.
@@ -74,7 +74,7 @@ The AI agent predicts the values for all the available case fields when and popu
 The case appears in a new tab. You can do the following actions: 
 
 - You can review the values that the agent predicted. A visual indicator indicates that the values were predicted by the AI agent.
-- An AI toolbox appears and allows you to do the following actions:
+- An AI toolbar appears and allows you to do the following actions:
    - [Use Copilot's form fill assistance](/power-apps/user/form-filling-assistance).
    - Select **Accept suggestions** to accept all the predicted values. Alternatively, you can hover over the field to accept or reject the predicted value one at a time. 
    - Provide feedback.

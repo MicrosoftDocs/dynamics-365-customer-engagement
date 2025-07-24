@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Case Management Agent streamlines the case creation and management process, reducing manual effort and data entry errors.
+The Case Management Agent streamlines the case management process, reducing manual effort and data entry errors.
 
 You can use the creation and update feature of the Case Management Agent to do the following actions:
 
@@ -33,23 +33,26 @@ You can use the creation and update feature of the Case Management Agent to do t
 - Customer service representatives (service representatives or representatives) must have the Omnichannel Agent and Customer Service Representative role.
 - Enable [AI form fill assistance](/power-platform/admin/settings-features#ai-form-fill-assistance) in the Power Platform admin center application.
 - [Automatically create or update records](automatically-create-update-records.md) are set up to create case records from emails.
-- [Provision channels in Dynamics 365 Contact Center](/dynamics365/contact-center/implement/provision-channels) and make sure you [configure authentication settings](create-chat-auth-settings.md). 
+- [Provision channels in Dynamics 365 Contact Center](/dynamics365/contact-center/implement/provision-channels).
+- Make sure you [configure authenticated chat](create-chat-auth-settings.md). The Case Management Agent can create and update cases from authenticated chats only.
 - [Create and manage workstreams](create-workstreams.md) and [Create and manage queues for unified routing](queues-omnichannel.md) are set up.
 -  [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center application.
 - The Autonomous Case Management agent uses the Data Entry Agent in the background. The Power Platform [Pay-as-you-go plan](/power-platform/admin/pay-as-you-go-overview) mandates the usage of an Azure subscription the system charges when the agent runs. Make sure you [Set up consumption-based billing](setup-pay-as-you-go.md).
 - Transcription is enabled for the channels that support voice conversations. For more information, see [Enable transcription for voice channels](voice-channel-configure-transcripts.md#enable-call-recording-and-transcription-for-voice).
 -  We recommend that you enable audit history and make sure service representatives have the required access to the case and related entities that the AI agent updates. Learn more in [Manage Dataverse auditing](/power-platform/admin/manage-dataverse-auditing).
 
-### Update field and option set descriptions in Power Apps
+### Update field and lookup descriptions in Power Apps
 
 To help the AI agent make better predictions for lookup fields, add descriptive information to your lookup records. Do the following steps in Power Apps:
 
 - Add meaningful field descriptions in your table columns to help the AI understand the context. For example, in the **Account Number** column of the **Account** table, add a description like: "This is an account number. Account numbers start with ACC."
--  Define what each choice value in an option set represents so the AI agent can make relevant suggestions, reducing manual errors and improving efficiency:
-    - For the required lookup entity, add a new optional text field to contain a description of the record.
-    - Add a description to each choice value in the lookup field to explain its meaning and usage.
+-  Do the following steps to improve the AI agent's prediction accuracy with lookup fields:
+    - For the required lookup entity, add a new optional text field to contain a description of the record if a description field doesn't exist.n on.
+    - Add the meaning and usage for the description fields in the lookup records. 
     - Update the **Quick Find** view of the lookup entity to include the new description field as a column.
     - Save and publish the changes.
+    
+  For example, consider case categories like "Billing" and "Account Issues". When a customer writes "I can't access my account to pay my bill," it fits both categories. By adding clear descriptions to each lookup record, the AI agent can make more accurate predictions. If you include descriptions to the "Billing" category such as "Questions about charges and invoices, payment processing issues, refund requests," and  "Login problems and password resets, profile updates and settings, account access difficulties" to "Account issues", the AI agent categorizes the customer's message as "Account Issues" because the primary problem relates to account access rather than billing.
 
 ## Configure autonomous case updates
 
