@@ -20,7 +20,7 @@ The synchronization of bookings into Outlook works only one way. Events set up i
 
 ## Set up the Exchange integration
 
-Set up user mailboxes to synchronize with Microsoft Exchange Online. If tasks, contacts, or appointments synchronization are already set up for a user, bookings from Field Service start synchronizing automatically. No other set up is required. Learn more about [tasks, contacts, and appointments synchronization](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks).
+Set up user mailboxes to synchronize with Microsoft Exchange Online. If tasks, contacts, or appointments synchronization are already set up for a user, bookings from Field Service start synchronizing automatically. No other setup is required. Learn more about [tasks, contacts, and appointments synchronization](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks).
 
 ### Prerequisites
 
