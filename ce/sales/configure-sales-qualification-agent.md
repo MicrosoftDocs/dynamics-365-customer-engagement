@@ -96,7 +96,7 @@ The following image shows the permissions to access research insights as an exam
    - Enter or select the criteria that describe your target customer, including industries, company size, customer location, and job titles.
    - Under **Where to find these criteria in Dataverse**, verify the prepopulated fields from out-of-the-box Dataverse tables that the agent should look at to compare the criteria.
      > [!TIP]
-     > If you're just testing the agent, you can create a simple ideal customer profile that includes only a few criteria, such as industry and job title. This will make it easier to create leads that match the profile and validate the agent's functionality. For example, you can set the industry to "Technology" and the job title to "Manager". After this succeeds, you can gradually add more criteria that are relevant to your business.
+     > If you're just testing the agent, you can create a simple ideal customer profile that includes only a few criteria, such as industry and job title. This setup makes it easier to create leads that match the profile and validate the agent's functionality. For example, you can set the industry to "Technology" and the job title to "Manager". After this profile succeeds, you can gradually add more criteria that are relevant to your business.
 
       If you want to use custom fields or tables, [add custom criteria to your ideal customer profile](#add-custom-criteria-to-your-ideal-customer-profile).
 
