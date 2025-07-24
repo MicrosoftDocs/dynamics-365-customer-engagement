@@ -35239,12 +35239,22 @@
     },
     {
       "source_path": "ce/field-service/mobile-power-app-configure.md",
-      "redirect_url": "/dynamics365/field-service/mobile/customize-navigation-views",
+      "redirect_url": "/dynamics365/field-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/mobile/customize-navigation-views.md",
+      "redirect_url": "/dynamics365/guidance/resources/fs-mobile-navigation-views",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/field-service/mobile-powerapp-deeplink.md",
       "redirect_url": "/dynamics365/field-service/mobile/deeplink-mobile",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/mobile/deeplink-mobile.md",
+      "redirect_url": "/dynamics365/guidance/resources/fs-mobile-deeplink",
       "redirect_document_id": false
     },
     {
@@ -35268,6 +35278,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/field-service/mobile/improve-mobile-performance.md",
+      "redirect_url": "/dynamics365/guidance/resources/fs-improve-mobile-performance",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/field-service/cfs-mobile-powerapp.md",
       "redirect_url": "/dynamics365/field-service/mobile/iot-mobile",
       "redirect_document_id": false
@@ -35288,6 +35303,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/field-service/mobile/automate-business-processes.md",
+      "redirect_url": "/dynamics365/guidance/resources/fs-mobile-automate-business-processes",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/field-service/work-offline-mobile-app.md",
       "redirect_url": "/dynamics365/field-service/mobile/work-offline",
       "redirect_document_id": false
@@ -35298,8 +35318,18 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/field-service/mobile/change-work-order-booking-form.md",
+      "redirect_url": "/dynamics365/guidance/resources/fs-mobile-change-work-order-booking-form",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/field-service/mobile-powerapp-customize-booking-calendar.md",
       "redirect_url": "/dynamics365/field-service/mobile/customize-booking-calendar",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/mobile/customize-booking-calendar.md",
+      "redirect_url": "/dynamics365/guidance/resources/fs-mobile-booking-calendar",
       "redirect_document_id": false
     },
     {
@@ -35328,6 +35358,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/field-service/mobile/power-apps-customization.md",
+      "redirect_url": "/dynamics365/guidance/resources/fs-power-apps-customization",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/field-service/mobile-power-app-system-barcode-scanning.md",
       "redirect_url": "/dynamics365/field-service/mobile/scan-barcode",
       "redirect_document_id": false
@@ -35350,6 +35385,11 @@
     {
       "source_path": "ce/field-service/mobile-powerapp-copy-app-module.md",
       "redirect_url": "/dynamics365/field-service/mobile/custom-app-module-mobile",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/mobile/custom-app-module-mobile.md",
+      "redirect_url": "/dynamics365/guidance/resources/fs-mobile-custom-app-module",
       "redirect_document_id": false
     },
     {
@@ -35626,6 +35666,11 @@
       "source_path": "ce/customer-service/use/sms-channel-overview.md",
       "redirect_url": "/dynamics365/customer-service/administer/sms-channel-overview",
       "redirect_document_id": false
+    },  
+    {
+      "source_path": "ce/customer-service/administer/migrate-config-data-for-records.md",
+      "redirect_url": "/dynamics365/customer-service/administer/migrate-record-routing-config-using-solutions",
+      "redirect_document_id": false       
     },
     {"source_path": "ce/customer-service/use/oc-metrics-dimensions.md",
       "redirect_url": "/dynamics365/customer-service/develop/calculate-conversation-metrics",
@@ -35650,7 +35695,12 @@
       "source_path": "ce/customer-service/administer/use-effort-estimation-for-routing.md",
       "redirect_url": "/dynamics365/customer-service/administer/overview-unified-routing",
       "redirect_document_id": "false"
-    }  
+    },
+    {
+      "source_path": "ce/customer-service/administer/inbox-views-filters.md",
+      "redirect_url": "/dynamics365/customer-service/use/inbox-views-filters",
+      "redirect_document_id": "false"
+    }      
 
   ]
 }

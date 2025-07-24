@@ -73,19 +73,19 @@ You must perform the steps in the order they're listed to migrate your configura
 
 ## Migrate configuration using a solution
 
-If you use custom session templates and notifications in your SMS routing setup, perform the steps outlined in [Migrate configuration using a solution](migrate-config-data-for-records.md#migrate-configuration-using-a-solution).
+If you use custom session templates and notifications in your SMS routing setup, perform the steps outlined in [Migrate configuration using a solution](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-session-templates-and-notification-templates).
 
 ## Migrate skill-based configuration
 
-If skill-based routing rulesets are used in your SMS routing setup, perform the steps outlined in [Export and import data for skill-based routing](migrate-config-data-for-records.md#migrate-configuration-for-skill-based-routing-rulesets). Make sure to adjust any filtering fetch xml appropriately for SMS.
+If skill-based routing rulesets are used in your SMS routing setup, perform the steps outlined in [Export and import data for skill-based routing](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-skill-based-routing-rulesets). Make sure to adjust any filtering fetch xml appropriately for SMS.
 
 ## Migrate configuration for capacity profiles
 
-If you have configured capacity profiles in your SMS routing setup, perform the steps outlined in [Export and import data for capacity profiles](migrate-config-data-for-records.md#migrate-configuration-for-capacity-profiles). Make sure to adjust any filtering fetch xml appropriately for SMS. 
+If you have configured capacity profiles in your SMS routing setup, perform the steps outlined in [Export and import data for capacity profiles](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-capacity-profiles). Make sure to adjust any filtering fetch xml appropriately for SMS. 
 
 ## Migrate configuration for SMS queues
 
-For migrating queues for SMS, perform the steps outlined in [Migrate data for unified routing-based record queues](migrate-config-data-for-records.md#migrate-configuration-for-record-queues). Make sure to adjust any filtering fetch xml appropriately for SMS.
+For migrating queues for SMS, perform the steps outlined in [Migrate data for unified routing-based record queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-record-queues). Make sure to adjust any filtering fetch xml appropriately for SMS.
 
 ##  Migrate configuration for SMS workstreams
 

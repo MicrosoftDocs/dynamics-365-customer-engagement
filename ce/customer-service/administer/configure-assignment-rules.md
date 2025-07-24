@@ -1,7 +1,7 @@
 ---
 title: Configure assignment methods for queues
 description: Contains steps on how to configure the different assignment methods for queues in your contact center.
-ms.date: 04/08/2025
+ms.date: 07/10/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -101,6 +101,20 @@ In unified routing, the process of creating assignment rulesets involves the fol
    > If you want to define a condition on unit-based capacity of users, then use the **Available capacity** attribute only as suggested in the example. Use the "is greater than" operator to make sure that available capacity is more than the required capacity.
 
    ![Sample assignment rule.](../media/ur-sample-assign-rule.png "Sample assignment rule")
+
+Custom assignment method supports the following engagement context tables only:
+
+- **Entity Routing Context**: msdyn_cdsentityengagementctx
+- **Facebook Engagement Context**: msdyn_facebookengagementctx
+- **Live Chat Context**: msdyn_livechatengagementctx
+- **SMS Engagement Context**: msdyn_smsengagementctx
+- **WeChat Engagement Context**: msdyn_wechatengagementctx
+- **Twitter Engagement Context**: msdyn_twitterengagementctx
+- **Custom Messaging Engagement Context**: msdyn_customengagementctx
+- **LINE Engagement Context**: msdyn_lineengagementctx
+- **WhatsApp Engagement Context**: msdyn_whatsappengagementctx
+- **Teams Engagement Context**: msdyn_teamschannelengagementctx
+- **Apple messages for business engagement context**: msdyn_ocapplemessagesforbusinessengagementctx
 
 ### Configure selection criteria
 

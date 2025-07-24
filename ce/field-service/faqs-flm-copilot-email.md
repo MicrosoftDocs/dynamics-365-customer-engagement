@@ -2,6 +2,7 @@
 title: FAQ about draft email responses using Copilot in Field Service for Outlook
 description:  Get answers to common questions about the AI technology used to draft email responses in the Dynamics 365 Field Service for Outlook.
 ms.date: 08/08/2024
+ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq

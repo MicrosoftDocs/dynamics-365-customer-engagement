@@ -2,6 +2,7 @@
 title: Configure in-app marketing settings
 description: Learn how to configure in-app marketing settings to define various aspects of campaigning, including creating campaign responses automatically.
 ms.date: 01/24/2025
+ms.update-cycle: 1095-days
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
