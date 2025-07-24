@@ -38,7 +38,7 @@ By default, the application defines a set of criteria. You can update any out-of
 
    :::image type="content" source="media/sqa-ideal-customer-profile.png" alt-text="Screenshot of the ideal customer profile configuration in Sales Qualification Agent settings.":::
 
-1. Select **Add** to add a different field from the lead table or other related tables. 
+1. Select **Add** to add a different field from the lead table or other related tables.  
      > [!TIP]
      > If you're just testing the agent, you can create a simple ideal customer profile that includes only a few criteria, such as industry and job title. This will make it easier to create leads that match the profile and validate the agent's functionality. For example, you can set the industry to "Technology" and the job title to "Manager". After this succeeds, you can gradually add more criteria that are relevant to your business.
 
@@ -70,3 +70,11 @@ Use custom criteria to define characteristics that are important for your ideal 
 
 1. Select **Add**.  
    The custom criterion is now added to the hand off criteria section. 
+
+### Next step
+
+[Configure assignment rules for the Sales Qualification Agent](configure-sqa-assignment-rules.md)
+
+### Related information
+
+[Configure the Sales Qualification Agent](configure-sales-qualification-agent.md)

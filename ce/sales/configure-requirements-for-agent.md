@@ -1,5 +1,5 @@
 ---
-title: Configure requirements for the agent
+title: Configure requirements for Sales Qualification Agent
 description: Learn how to configure the requirements for the research and engage agents in Dynamics 365 Sales.
 ms.topic: how-to 
 ms.date: 07/31/2025
@@ -15,7 +15,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure requirements for the agent
+# Configure requirements for Sales Qualification Agent
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -97,7 +97,7 @@ To learn more about app users, see [Manage application users in the Power Platfo
     - **Office 365 Global Administrator** or **Exchange Administrator** in Microsoft Office 365 admin portal.  
 1. In the agent settings page, go to the **Prerequisites** section, and in the **Configure server side sync** section, select **Set up**.  
 
-    ::::image type="content" source="media/sqa-settings-configure-server-side-sync.png" alt-text="Screenshot of selecting set up in the configure server side sync section.":::
+    :::image type="content" source="media/sqa-settings-configure-server-side-sync.png" alt-text="Screenshot of selecting set up in the configure server side sync section.":::
 
     > [!NOTE]
     > You can also configure server-side synchronization in your Dynamics 365 organization by going to **Advanced Settings** > **System** > **Email Configuration** > **Mailboxes**.
@@ -109,4 +109,3 @@ To learn more about app users, see [Manage application users in the Power Platfo
 ## Related information
 
 [Configure the Sales Qualification Agent](configure-sales-qualification-agent.md)
-

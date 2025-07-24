@@ -60,9 +60,27 @@ Review the following considerations before you start deploying the autonomous Sa
 - You can’t delete an agent once configured. Contact Microsoft support to delete the agent from your organization.  
 - Once an agent is published, we **recommend** only a few select fields to be edited. Sections that have tag "Avoid edits" should not be edited as it can lead to the agent being in bad state.
 
-## Before you begin
+## Set up and configure Sales Qualification Agent
 
-Determine the products that you want the Sales Qualification Agent to help with and the [ideal customer profile (ICP)](sales-qualification-agent-faq.md#icp) for those products. The products should be handled by a single sales team and have a similar ideal customer profile. If your company sells multiple lines through different sales teams, pick one product line.
+The Sales Qualification Agent is categorized into two types&mdash;Research and Engage&mdash;depending on the level of automation you want to achieve. The configuration steps are similar for both types, but the Engage agent has additional settings such as adding email signature, customized email instructions, and configuring BANT criteria for handoff. Let's look at the steps to set up and configure the agents.
+
+**Follow these steps**:
+
+1. Open the [Sales Qualification Agent settings page](open-sales-qualification-agent-settings.md).  
+1. Configure the following prerequisites before you set up the agent.  
+
+    |&nbsp; | Research | Engage |
+    |-|----------|--------|
+    | Prerequisites | [Create an app in Azure](configure-requirements-for-sqa-agent.md#create-application-in-azure)<br>[Create an app user in Dataverse](configure-requirements-for-sqa-agent.md#create-an-app-user-in-dataverse)  | [Create an app in Azure](configure-requirements-for-sqa-agent.md#create-application-in-azure)<br>[Create an app user in Dataverse](configure-requirements-for-sqa-agent.md#create-an-app-user-in-dataverse)<br>[Create a shared mailbox](configure-requirements-for-sqa-agent.md#create-a-shared-mailbox)<br>[Configure server-side synchronization](configure-requirements-for-sqa-agent.md#configuring-server-side-synchronization) |  
+
+1. [Configure general information](sales-qualification-agent-general-settings.md) for agent such as profile, company info, and products.  
+1. [Configure selection criteria](sales-qualification-agent-selection-criteria.md) for the agent process the leads.  
+1. [Configure email instructions and address validation](configure-email-instructions-and-address-validation.md) for the agent.
+1. [Configure handoff criteria](configure-sales-qualification-agent-handoff-criteria.md) for the agent to identify leads that are a good fit for further engagement.  
+1. [Configure assignment rules](configure-sqa-assignment-rules.md) for the agent to assign processed leads to the appropriate sellers.  
+1. [Configure knowledge sources](configure-sqa-knowledge-source.md) for research insights, outreach, and follow-up emails.
+1. (Engage only) [Run simulation to review the agent's outreach emails](run-simulation-sqa-outreach-email.md) are customized and relevant to the leads.  
+1. After you are satisfied with the configuration, start the agent. More information: [Start the Sales Qualification Agent](start-sales-qualification-agent.md)
 
 <a name="grant-permissions"></a>
 
@@ -82,104 +100,15 @@ The following image shows the permissions to access research insights as an exam
 
 :::image type="content" source="media/sqa-custom-role-permissions.png" alt-text="Screenshot of the permissions to grant to a custom security role for use with the Sales Qualification Agent in Dynamics 365 Sales.":::
 
-<a name="open-the-sales-qualification-agent-settings-page"></a>
-## Set up and activate the agent
-
-1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
-
-1. Go to **General Settings** > **Copilot** > **Agents (preview)**.
-
-   If the **Before you get started** section appears on the **Agents** page, it means that the required consents and capacity aren't configured. A tenant admin needs to complete the prerequisites before you can set up the agent.
-
-   :::image type="content" source="media/sqa-configuration-page.png" alt-text="Screenshot of the Sales Qualification Agent settings page in Sales Hub Copilot agent settings.":::
-
-1. In the **General** section, enter details about your company, products you sell, and who should have access to the agent. The following table describes the fields you need to fill out and provides example input.
-
-   | Field | Input | Example input |
-   |---|---|---|
-   | Team access | Select the [seller security role](#grant-permissions) that you created or identified earlier. Also select the system administrator role if the admin needs to view the agent's insights. | ContosoSalesTeam, System Administrator |
-   | Company info | Enter your company's name and website URL. | Contoso Ltd.; `https://www.contoso.com` |
-   | Value proposition of your offering | Describe the products or product line that the sellers in the **Team access** list handle, in natural language. | A cloud-based CRM solution that helps businesses streamline sales processes, improve customer relationships, and drive revenue growth. Our platform includes features such as lead management, opportunity tracking, email integration, and analytics. |
-
-1. In the **Research** section, review the resources that the agent uses to gather information about leads. The following sources are set for you and can't be edited:
-
-   - Default basic research: Includes insights gathered from Copilot summaries, who knows whom, related opportunities, and so on.
-   - Default web research: Includes insights from predefined web resources to gather authentic information about the company's business, finances, and news.
-
-1. <a name="ideal-customer-profile"></a>To help the agent identify leads that are a good fit for further engagement, in the **Qualification** section, define your **Ideal customer profile**.
-
-   - Enter or select the criteria that describe your target customer, including industries, company size, customer location, and job titles.
-   - Under **Where to find these criteria in Dataverse**, verify the prepopulated fields from out-of-the-box Dataverse tables that the agent should look at to compare the criteria.
-     > [!TIP]
-     > If you're just testing the agent, you can create a simple ideal customer profile that includes only a few criteria, such as industry and job title. This will make it easier to create leads that match the profile and validate the agent's functionality. For example, you can set the industry to "Technology" and the job title to "Manager". After this succeeds, you can gradually add more criteria that are relevant to your business.
-
-      If you want to use custom fields or tables, [add custom criteria to your ideal customer profile](#add-custom-criteria-to-your-ideal-customer-profile).
-
-   :::image type="content" source="media/sqa-ideal-customer-profile.png" alt-text="Screenshot of the ideal customer profile configuration in Sales Qualification Agent settings.":::
-
-1. Review the settings to make sure that they align with your company's sales strategy and goals.
-
-1. Select **Activate**.
-
-The status changes to **Active**. The agent starts processing the last 100 leads, starting with the most recently created ones. You can now test the agent to ensure it's working as expected. Learn more in [Test the Sales Qualification Agent](test-sales-qualification-agent.md).
-
-The agent uses the capacity assigned to your tenant to process leads and generate insights. If you don't have enough capacity to activate it, a banner appears at the top of the page. Select the Power Platform admin center link in the banner to add more capacity, or save the agent settings and come back later to activate it.
-
-## Add custom criteria to your ideal customer profile
-
-Use custom criteria to define characteristics that are important for your ideal customer profile. You can map your criteria to custom fields in Dataverse or add public URLs that provide the relevant information. For example, you could add a custom criterion for "Environmental Sustainability Initiatives" and map it to a custom field in Dataverse or provide a URL that lists the company's key environmental initiatives.
-
-1. On the [Sales qualification agent settings page](#set-up-and-activate-the-agent), scroll down to **Qualification** > **Ideal customer profile**.
-
-1. Select **Add custom criterion**.  
-    :::image type="content" source="media/sqa-ideal-customer-profile-custom-criterion.png" alt-text="Screenshot of adding custom criterion to ideal customer profile configuration.":::
-
-1. Enter the name of the custom criterion. For example, enter **Environmental Sustainability Initiatives**.  
-1. Tell the agent where to find the information to evaluate the custom criterion. You can choose one of the following options:
-
-    - Select **Select Dataverse field(s)**, and then select the field that you want to map to the custom criterion.
-
-    - Select **Or add public URL**, and then enter the URL of the website that provides the information. Make sure that the website is publicly accessible and doesn't require authentication.
-
-1. If you added a URL, provide instructions for the agent to extract the information you're looking for.
-
-    - Specify what information you want the agent to extract from the website. 
-    - Select the Dataverse field that's most relevant to the information you want to extract by adding a forward slash (/).  
-      For example, you could say, "Look at the company's sustainability report and identify their key environmental initiatives /". The forward slash opens a dropdown list of available fields in the Dataverse table.  Select a table and field from the list. In this example, Lead > Company Name is selected.  The instruction is now "Look at the company's sustainability report and identify their key environmental initiatives based on  {{Lead.Company Name}}."  
-
-    :::image type="content" source="media/sqa-ideal-customer-profile-custom-criterion-instruction.png" alt-text="Screenshot of adding instructions for the custom criterion.":::
-
-1. Select **Add**.  
-
-1. Enter a value for the newly added custom criterion. For example, if the company should have at least three major environmental initiatives, enter >=3.
 
 ## View the agent's usage consumption
 
 After the agent is published, you can start monitoring the capacity it consumes and how much capacity is left. Learn more in [What activities consume Copilot Studio capacity?](sales-qualification-agent-faq.md#what-activities-consume-copilot-studio-capacity) in the Sales Qualification Agent FAQ.
 
-1. In the Sales Hub app **Change area**, select **App Settings** > **Copilot** > **Agents (preview)**.
+1. Go to the Dynamics 365 AI hub page.  
+1. In the **AI optimization hub** section, select **See insights**.  
 
-   :::image type="content" source="media/view-usage-consumption.png" alt-text="Screenshot of the view usage consumption option.":::
-
-1. On the **Copilot agents** page, select **View usage consumption**. You're redirected to the **Licensing** page in the Power Platform admin center.
-
-    This option is available only after the agent is published.
-
-1. on the **Licensing** page, under **Products**, select **Copilot Studio**.
-
-   The page displays usage consumption by product, agent, and environment.
-
-## Deactivate the agent
-
-If you no longer want the Sales Qualification Agent to run in your environment or need to save capacity, you can deactivate it.
-
-When the agent is deactivated, it doesn't process new leads or update existing lead insights. However, insights it already generated remain available.
-
-1. [Open the Sales Qualification Agent settings page](#set-up-and-activate-the-agent).
-2. Scroll down to the bottom of the page.
-3. Select **Deactivate**.
-
-The agent's status changes to **Deactivating** until the process is complete. Once deactivated, the status changes to **Inactive**.
+<!-- Lavanya to work on this section-->
 
 ## Related information
 
