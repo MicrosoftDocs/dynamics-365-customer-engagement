@@ -126,14 +126,14 @@ After you type **/c** in the communication panel messaging area, you can continu
 
 ## Transfer conversations
 
-If your administrator has enabled the [**Transfer to representatives**](../administer/enable-transfer-consult.md) setting in the Copilot Service admin center, you can transfer the conversation to another representative.
+If your administrator has enabled the [**Transfer to representatives**](../administer/enable-transfer-consult.md) setting in the Copilot Service admin center, the **Representatives** tab appears when you select the transfer icon and you can transfer the conversation to another representative.
 
-In the communication panel, you can transfer the work item either to a representative or queue. If operating hours have been configured for the queues, you can successfully transfer the conversation to only those queues that are operational at the transfer time.
+In the communication panel, you can transfer the work item to a representative or queue. If operating hours are configured for the queues, you can successfully transfer the conversation to those queues only that are operational at the transfer time.
 
 :::image type="content" source="../media/screenshot-transfer-option.png" alt-text="Use the transfer option to transfer a conversation.":::
 
 > [!NOTE]
-> When you transfer a conversation to a queue that doesn't have any representatives, the application automatically sets the status of the conversation to Closed.
+> When you transfer a conversation to a queue, the assignment strategy runs to find the best representative in the queue. If the queue doesn't have any representatives, the application automatically sets the status of the conversation to Closed.
 
 After the transfer is complete, the representative who initiated the transfer can't participate in the conversation any more. The primary representative's capacity and presence status are updated accordingly.
 

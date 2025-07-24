@@ -25,6 +25,10 @@ System administrator or Omnichannel administrator role.
 1. On the **Consult and transfer** page, enable the **transfer to representatives** toggle.
 1. Select **Save**.
 
+## Runtime experience
+
+Only after you enable the transfer to representatives setting, your service representatives can see the **Representatives** tab on the communication panel. The tab also appears when the representative wants to transfer conversations to another representative after engaging in a consultation with them.
+
 ## Related information
 
 [Transfer conversations to representatives](../use/oc-conversation-control.md#transfer-conversations)  
