@@ -1,7 +1,7 @@
 ---
 title: Set up the Sales Qualification Agent
 description: Learn how to activate and set up the Sales Qualification Agent in Dynamics 365 Sales to help your sellers use AI for effective lead qualification.
-ms.date: 07/03/2025
+ms.date: 07/24/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -37,7 +37,15 @@ Ensure that the following prerequisites are met:
 
 - You turned on the modern UI for the Sales Hub app. Learn more in [Enabling the modern look for my app and removing the toggle](/power-apps/user/modern-fluent-design#enabling-the-modern-look-for-my-app-and-removing-the-toggle).
 
-- You modified Data Loss Prevention (DLP) policies to allow external connections. Learn more in [Configure data loss prevention policies for agents](/microsoft-copilot-studio/admin-data-loss-prevention).
+- You modified Data Loss Prevention (DLP) policies to allow the following connectors:
+    | Connector                                 | Why is it required?                                                                                   |
+    |--------------------------------------------|-------------------------------------------------------------------------------------------------------|
+    | Knowledge source with public websites and data | Required for the agent to access public data for enrichment.     |
+    | Microsoft Copilot Studio                       | Required as Copilot Studio is the core platform for building and deploying the SQA.                      |
+    | Knowledge source with SharePoint or OneDrive      | Possibly required if the agent is configured to use internal documents on SharePoint or OneDrive for enrichment.                         |
+    | Knowledge source with documents                | Possibly required if the agent is configured to use internal documents for enrichment.                   |
+
+   Learn more in [Configure data loss prevention policies for agents](/microsoft-copilot-studio/admin-data-loss-prevention).
 
 - You configured server-side synchronization by integrating Dynamics 365 with Exchange. Learn more in [Set up email by integrating with Exchange](configure-email.md). If server-side synchronization isn't set up, the agent doesn't generate outreach emails.
 
