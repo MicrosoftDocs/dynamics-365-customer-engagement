@@ -19,23 +19,21 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Opportunity Research Agent in Dynamics 365 Sales helps sales professionals move deals forward by providing most critical insights at every stage of the opportunity. It aggregates information from CRM records, email conversations, and real-time web research into a single view. This view provides sellers with vital account context, buyer needs and pain points, overall deal health, stakeholder engagement signals, competitor insights, and emerging risks. When a risk is detected, the agent provides a clear, targeted mitigation recommendation so that sellers can address issues promptly, keep momentum high, and close more opportunities faster.
+Closing complex deals isn’t just about selling well. You need to build trust, manage relationships, and keep track of many quick changes—like customer conversations, updates from your team, and what competitors are doing—all of which can affect your deal.
+
+The Opportunity Research Agent in Dynamics 365 Sales helps you stay ahead by surfacing emerging risks early, spotlighting the most promising opportunities, and synthesizing insights from across your data sources into one clear view.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-## What can the agent do for you?
+The Opportunity Research Agent doesn’t replace your judgment. It equips you with sharper visibility, so you can focus on the right opportunities and move decisively. The agent pulls together CRM updates, email threads, meeting intelligence, and real-time web research to deliver timely, actionable insights:
 
-Following are some of the key features and benefits of the Opportunity Research Agent:
+**Detect risks early:** Whether it’s a disengaged stakeholder, slowing momentum, or competitive pressure, the agent flags risks and recommends targeted actions to keep your deal moving forward.
+**Prioritize with confidence:** Based on real-time signals, see which deals are gaining traction, which are at risk, and where your effort will drive the most impact.
+**Get the full picture, fast:** View buyer needs, stakeholder roles, competitor mentions, and deal health in one unified place without having to sift through multiple sources. The agent synthesizes insights from CRM, emails, meetings, and web research to give you a comprehensive view of your deal.
 
-**Streamlined research experience:** Automatically aggregates insights from CRM, customer communications, public sources, and internal repositories; thus minimizing context-switching and research overhead.
+The following screenshot shows the Opportunity Research Agent in action, providing insights and recommendations for an opportunity:
 
-**Opportunity catchup:** Sellers can quickly ramp up by reviewing key insights and key signals for the opportunity. The insights and signals include deal context, buyer needs, pain points, recent updates, and overall deal health. These insights help the seller understand the importance and urgency of the opportunity, and how to best position themselves to win.
-
-**Stakeholder intelligence:** The agent tracks stakeholder changes in real time, classifies their roles (such as economic buyer or champion), and flags new decision-makers or influencers&mdash;helping sellers build relationships with the right people.
-
-**Competitor insights:** Competitor insights are gathered from web research, internal sources such as battle cards, and mentions detected from emails, meetings, and CRM entries.
-
-**Actionable risk mitigation:** The agent surfaces actionable risk signals, such as stalled momentum or loss of key stakeholders, and recommends mitigation steps to keep deals moving forward.
+:::image type="content" source="media/opportunity-research-insights-with-risk.png" alt-text="Screenshot of the Opportunity Research Agent providing insights and risk mitigation recommendations for an opportunity.":::
 
 ## Capacity usage
 
@@ -55,4 +53,4 @@ Depending on your role, use the following links to configure and use the Opportu
 | Role | Action |
 |------|--------|
 | Admin | [Configure the Opportunity Research Agent](configure-opportunity-research-agent.md) |
-| Seller | [Work on opportunities handed over by the Opportunity Research Agent](use-opportunity-research-agent.md) |
+| Seller | [Work on opportunities researched by the Opportunity Research Agent](use-opportunity-research-agent.md) |

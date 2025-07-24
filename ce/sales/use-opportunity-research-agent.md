@@ -44,9 +44,11 @@ You need the following prerequisites:
    > The agent uses the estimated revenue, estimated close date, predictive score, and other factors to calculate the importance and risk of the opportunities.  
 
 1. Open an opportunity.
-   You'll see a **Summary** card at the top of the page, displaying a quick summary of the research outcome and actionable recommendation, if any.
-1. Select **Research this opportunity**.
+   After a few seconds, you'll see a **Summary** section at the top of the page, displaying a quick summary of the research outcome and actionable recommendation, if any.
+   :::image type="content" source="media/opportunity-research-summary.png" alt-text="Screenshot of the Opportunity research summary section.":::
+1. Select **See full research**.
    The Opportunity research page opens with the complete research insights and recommendations.
+   :::image type="content" source="media/opportunity-research-insights-with-no-risk.png" alt-text="Screenshot of the Opportunity research page with research insights and recommendations for risk mitigation.":::
 
 ## Opportunity research page
 
