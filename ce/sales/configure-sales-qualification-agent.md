@@ -50,7 +50,7 @@ Determine the products that you want the Sales Qualification Agent to help with 
 
 <a name="grant-permissions"></a>
 
-## Create a custom security role and grant permissions
+## Grant permissions to custom security role
 
 If you're using custom security roles for your sales team instead of the out-of-the-box **Salesperson** or **Sales Manager** role, you need to grant specific permissions to the custom roles. This permission is necessary for sellers to access the insights generated and work on the leads handed over by the agent. Learn more about granting permissions in [Define the privileges and properties of a security role](/power-platform/admin/security-roles-privileges?tabs=new#define-the-privileges-and-properties-of-a-security-role).
 
