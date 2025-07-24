@@ -590,7 +590,7 @@ items:
         - name: Create a work order
           href: finance-operations-integration-create-wo.md
     - name: Integrate bookings with Outlook calendars (preview)
-      href: outlook-booking-integration.md
+      href: outlook-integration.md
     - name: Microsoft Planner
       href: planner-sync.md
     - name: Dynamics 365 Supply Chain Management

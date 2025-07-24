@@ -49,6 +49,6 @@ Combine Field Service work orders and Microsoft Planner tasks in a single task m
 
 ## Integrate bookings with Outlook calendars (preview)
 
-Dynamics 365 Field Service frontline workers can have all their appointments, company meetings, personal events, and bookings in one calendar. [Learn more about Integrate bookings with Outlook calendars (preview)](outlook-booking-integration.md).
+Dynamics 365 Field Service frontline workers can have all their appointments, company meetings, personal events, and bookings in one calendar. [Learn more about Integrate bookings with Outlook calendars (preview)](outlook-integration.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
