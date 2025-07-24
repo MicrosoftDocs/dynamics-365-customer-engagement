@@ -2,11 +2,11 @@ Fulfillment preferences customize how the schedule assistant displays results fo
 
 ## Intervals
 
-Intervals define the length of the times slots the schedule assistant results are displayed in, and the start time for subsequent bookings. For example, with 30-minute intervals, the schedule assistant displays a resource available at 9:27 AM as available at 9:30 AM and books the start time (arrival time) for 9:30 AM. Travel time is included for onsite requirements and work orders, meaning travel time begins before 9:30 AM, and a field resource would arrive and start work at 9:30 AM.
+Intervals determine the duration of each time slot shown in the schedule assistant and the starting point for subsequent bookings. For example, with 30-minute intervals, the schedule assistant displays a resource available at 9:27 AM as available at 9:30 AM and books the start time (arrival time) for 9:30 AM. Travel time is included for onsite requirements and work orders, meaning travel time begins before 9:30 AM, and a field resource would arrive and start work at 9:30 AM.
 
 ## Time groups
 
-Time groups enable schedulers to search and view results as blocks of time when using the schedule assistant. Unlike intervals, time groups don't influence the start time of subsequent booking. Time groups organize results, but leave the start time/arrival time as-is, based on the particular resource's schedule.
+Time groups allow schedulers to view availability in blocks of time within the schedule assistant. They differ from intervals by preserving the original start and arrival times as defined by each resource’s schedule.
 
 For example, a heating and cooling company wants to group air-conditioning installations in two blocks. They create morning (8:00 AM to 12:00 PM) and afternoon (1:00 PM to 5:00 PM) blocks, with a one-hour break for lunch in between. They communicate a morning or afternoon time range to customers for when the installation crew arrives.
 
@@ -20,11 +20,11 @@ For example, a heating and cooling company wants to group air-conditioning insta
 
    - **Interval**: The duration between two available time slots.
 
-   - **Intervals Begin**: The start time for when options are available, depending on resource availability and working hours. If you are combining an interval and time group, see [Use intervals and time groups together](#use-intervals-and-time-groups-together).
+   - **Intervals Begin**: The start time for when options are available, depending on resource availability and working hours. If you're combining an interval and time group, see [Use intervals and time groups together](#use-intervals-and-time-groups-together).
 
    - **Results per Interval**: The number of results to limit how many options the system presents for a time slot.
 
-   :::image type="content" source="../../field-service/media/fulfillment-preferences-interval.png" alt-text="Screenshot fo a fulfillment preferences record on the Intervals tab.":::
+     :::image type="content" source="../../field-service/media/fulfillment-preferences-interval.png" alt-text="Screenshot fo a fulfillment preferences record on the Intervals tab.":::
 
 1. To add a time group, go to the **Details** tab and select **New Time Group Detail**.
 
@@ -52,7 +52,7 @@ To add both an interval and a time group to the same fulfillment preference, kee
 
 ## Associate fulfillment preference to a requirement or requirement group
 
-Open a requirement and go to the **Scheduling** tab to choose the **Fulfillment Preference**. For a requirement group, you can choose it in the **Fulfillment Preference** column. However, requirement groups only supports intervals. Time groups aren't supported for requirement groups.
+Open a requirement and go to the **Scheduling** tab to choose the **Fulfillment Preference**. For a requirement group, you can choose it in the **Fulfillment Preference** column. However, requirement groups only support intervals. Time groups aren't supported for requirement groups.
 
 ### Book a requirement
 

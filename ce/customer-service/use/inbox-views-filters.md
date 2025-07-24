@@ -1,7 +1,7 @@
 ---
-title: Inbox out of box views and filters
+title: Use views and filters in the inbox
 description: Learn about the inbox views and filters that are available out of the box.
-ms.date: 06/30/2025
+ms.date: 07/22/2025
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -10,7 +10,7 @@ ms.topic: how-to
 ms.custom: bap-template
 ---
 
-# Views and filters for the inbox
+# Use views and filters in the inbox
 
 The following tables contain details about the views and filters that are available by default for the inbox.
 
@@ -44,11 +44,12 @@ The following tables contain details about the views and filters that are availa
 | Voicemail | Unassigned | The **Owner** field isn't set to current user, and the **Worked by** field isn't set. |<ul><li>The **Owner** field isn't equal to the current user.</li><li>The **Worked by** field isn't set.</li><li>The record's **Status Reason** is set to **Open**.
 | Voicemail | Resolved | The **Owner** or **Worked by** field of the record is set to the current user, and the **Status Reason** field is set to **Closed**. |<ul><li>The **Owner** or **Worked by** field of the record is equal to the current user.</li><li>The **Status Reason** of the record is set to **Closed**.</li></ui> |
 
-## Applied filters (non-table specific)
 
-- Last 90 days, based on the **Modified on** field.
-- Top 500 records, descending in order by the **Modified on** field.
+By default, the application applies filters on all views, irrespective of the table. The views display the following:
+
+- Workitems from the last 90 days, based on the **Modified on** field
+- The top 500 records, sorted in descending in order by the **Modified on** field. 
 
 ### Related information
-[Configure the inbox](configure-inbox.md)  
-[Use the inbox](../use/use-inbox.md)  
+[Configure the inbox](../administer/configure-inbox.md)  
+[Use the inbox](use-inbox.md)  

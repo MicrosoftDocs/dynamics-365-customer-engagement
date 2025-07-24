@@ -94,6 +94,8 @@
         items:
           - name: Use the inbox
             href: use-inbox.md
+          - name: Use views and filters in the inbox
+            href: inbox-views-filters.md            
           - name: Create personalized inbox views
             href: inbox-create-personalized-view.md
       - name: Timeline

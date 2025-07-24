@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 05/09/2025
+ms.date: 07/16/2025
 ms.custom: bap-template
 ---
 
@@ -79,11 +79,11 @@ An incoming email from a customer might get converted to multiple cases. When a 
     
     1. Select **Web resources** > **New**, and fill in the following information:
     
-        - **Name**: fis_customers
+        - **Name**: FIS_Customers.js
         
         - **Type**: Script
         
-        - **File**: (See attached file named Fis_Customers.js)
+        - **File**: [FIS_Customers.js](https://github.com/barbaricprogrammer/Dynamics365-Apps-Samples/blob/f87b730464fef6e103e8ee2e62c35e4974578831/customer-service/automatic-record-creation/ReplyWithOnlyCurrentCase/FIS_Customers.js)
 
 1. Create an unmanaged solution and add the **Activities** entity, with no dependencies.
 
