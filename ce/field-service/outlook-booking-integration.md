@@ -48,7 +48,7 @@ Set up user mailboxes to synchronize with Microsoft Exchange Online. If tasks, c
    - Select **Test & Enable Mailbox** and confirm.
    - Select **Save & Close**.
 
-   :::image type="content" source="media/ppac-mailbox-edit.png" alt-text="Screenshot of editing a mailbox through Power Platform admin center.":::
+   :::image type="content" source="media/power-platform-mailbox-edit.png" alt-text="Screenshot of editing a mailbox through Power Platform admin center.":::
 
 1. To confirm that a mailbox is ready, refresh the mailbox screen and check for a success status.
 
@@ -75,7 +75,7 @@ The following fields populate the first time the booking is scheduled. Any updat
 - Account
 - Primary Contact
 
-:::image type="content" source="media/outlook-exchange-wo.png" alt-text="Screenshot of booking details for a work order in Outlook.":::
+:::image type="content" source="media/outlook-exchange-work-order.png" alt-text="Screenshot of booking details for a work order in Outlook.":::
 
 ### Cancel bookings
 
