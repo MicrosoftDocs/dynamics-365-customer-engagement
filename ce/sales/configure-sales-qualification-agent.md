@@ -80,7 +80,7 @@ The Sales Qualification Agent is categorized into two types&mdash;Research and E
 1. [Configure assignment rules](configure-sqa-assignment-rules.md) for the agent to assign processed leads to the appropriate sellers.  
 1. [Configure knowledge sources](configure-sqa-knowledge-source.md) for research insights, outreach, and follow-up emails.
 1. (Engage only) [Run simulation to review the agent's outreach emails](run-simulation-sqa-outreach-email.md) are customized and relevant to the leads.  
-1. After you are satisfied with the configuration, start the agent. More information: [Start the Sales Qualification Agent](start-sales-qualification-agent.md)
+1. After you are satisfied with the configuration, [start the agent](start-sales-qualification-agent.md).
 
 <a name="grant-permissions"></a>
 

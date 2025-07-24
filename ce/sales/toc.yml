@@ -287,12 +287,35 @@ items:
           href: lead-management-overview.md
         - name: Sales Qualification Agent (preview)
           items:
-            - name: Overviewdl
+            - name: Overview
               href: sales-qualification-agent.md
             - name: Set up and configure Sales Qualification Agents
               href: configure-sales-qualification-agent.md
-            - name: Open the Sales Qualification Agent settings
-              href: open-sales-qualification-agent-settings.md
+              items:
+                - name: Open the Sales Qualification Agent settings
+                  href: open-sales-qualification-agent-settings.md
+                - name: Configure general settings
+                  href: sales-qualification-agent-general-settings.md
+                - name: Configure selection criteria
+                  href: sales-qualification-agent-selection-criteria.md
+                - name: Configure email instructions and address validation
+                  href: configure-email-instructions-and-address-validation.md
+                - name: Configure handoff criteria
+                  href: configure-sales-qualification-agent-handoff-criteria.md
+                - name: configure assignment rules
+                  href: configure-sqa-assignment-rules.md  
+                - name: Configure knowledge source
+                  href: configure-sqa-knowledge-source.md
+                - name: Run simulation to review outreach email content
+                  href: run-simulation-sqa-outreach-email.md
+            - name: Start the Sales Qualification Agent
+              href: start-sales-qualification-agent.md
+            - name: Manage Sales Qualification Agent
+              href: manage-sales-qualification-agent.md
+            - name: Configure requirements for Sales Qualification Agent
+              href: configure-requirements-for-sqa-agent.md    
+            - name: Understand Sales Qualification Agent concepts
+              href: sales-qualification-agent-concepts.md  
             - name: Manage consumption-based billing
               href: copilot-consumption-based-billing.md
             - name: Sales Qualification Agent FAQ
