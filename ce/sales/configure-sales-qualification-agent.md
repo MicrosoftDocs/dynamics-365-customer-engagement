@@ -46,13 +46,13 @@ Ensure that the following prerequisites are met:
     
 ## Before you begin
 
-Determine the products that you want the Sales Qualification Agent to help with and the [ideal customer profile (ICP)](sales-qualification-agent-faq.md#icp) for those products.. The products should be handled by a single sales team and have a similar ideal customer profile. If your company sells multiple products through different sales teams, pick one product line.
+Determine the products that you want the Sales Qualification Agent to help with and the [ideal customer profile (ICP)](sales-qualification-agent-faq.md#icp) for those products. The products should be handled by a single sales team and have a similar ideal customer profile. If your company sells multiple products through different sales teams, pick one product line.
 
 <a name="grant-permissions"></a>
 
 ## Grant permissions to custom security roles
 
-If you're using custom security roles for your sales team instead of the out-of-the-box **Salesperson** or **Sales Manager** role, you need to grant specific permissions to the custom roles. This permission is necessary for sellers to access the insights generated and work on the leads handed over by the agent. Learn more about granting permissions in [Define the privileges and properties of a security role](/power-platform/admin/security-roles-privileges?tabs=new#define-the-privileges-and-properties-of-a-security-role).
+If you're using custom security roles for your sales team instead of the out-of-the-box **Salesperson** or **Sales Manager** role, you need to grant specific permissions to the custom roles. These permissions are necessary for sellers to access the insights generated and work on the leads handed over by the agent. Learn more about granting permissions in [Define the privileges and properties of a security role](/power-platform/admin/security-roles-privileges?tabs=new#define-the-privileges-and-properties-of-a-security-role).
 
 You can either add the **Salesperson** or **Sales Manager** role to the users who'll be working on these leads or assign the following permissions to the custom security role:
 
