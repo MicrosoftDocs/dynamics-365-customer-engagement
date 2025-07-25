@@ -1,6 +1,6 @@
 ---
 title: Enable transfer of conversations to representatives
-description: Learn about how to enable the transfer settings for conversations.
+description: Learn about how to enable the transfer settings for conversations so that representatives can efficiently select a supervisor or another representative to transfer the conversation.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Enable transfer of conversations to representatives
 
-You can enable the transfer of conversations to representatives in your contact center. This allows service representatives to transfer conversations to other representatives, making sure that customers receive the assistance they need.
+You can enable the transfer of conversations to customer service representatives (service representatives or representatives) in your contact center. This allows service representatives to transfer conversations to other representatives, making sure that customers receive the assistance they need.
 
 ## Prerequisite
 
