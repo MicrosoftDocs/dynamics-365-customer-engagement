@@ -46,7 +46,7 @@ This article discusses how to download the FetchXL query and edit it in the Conf
 
 ## Next steps
 
-[Migrate configuration data for records](migrate-config-data-for-records.md)  
+[Migrate configuration data for records](migrate-record-routing-config-using-solutions.md)  
 
 ### Related information
 

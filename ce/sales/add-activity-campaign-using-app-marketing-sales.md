@@ -2,6 +2,7 @@
 title: Add activity to campaign in in-app marketing
 description: Learn how to create, distribute, and assign planning and campaign activities to a marketing campaign to make it successful.
 ms.date: 05/28/2025
+ms.update-cycle: 1095-days
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

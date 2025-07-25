@@ -1,7 +1,7 @@
 ---
 title: Use 3D models with customer assets
 description: Learn how to use 3D models in Dynamics 365 Field Service.
-ms.date: 07/01/2024
+ms.date: 07/21/2025
 ms.topic: how-to
 applies_to: 
   - "Dynamics 365 (online)"
@@ -12,7 +12,7 @@ ms.author: jobaker
 
 # Use 3D models with customer assets
 
-Organizations can upload 3D models into Dynamics 365 Field Service. Field technicians can then refer to them while they work in the field. Typically, a 3D model is related to a specific product or customer asset, and helps field technicians with equipment repair and other tasks. Instead of having to record videos or write long manuals, field service organizations can use pre-existing 3D models to generate what are effectively 3D knowledge articles.
+Organizations upload 3D models into Dynamics 365 Field Service. Field technicians refer to these models while they work in the field. A 3D model usually relates to a specific product or customer asset and helps field technicians fix equipment and complete other tasks. Instead of recording videos or writing long manuals, field service organizations use existing 3D models as 3D knowledge articles.
 
 You can configure 3D models by using a many-to-many (N:N) relationship between the 3D model and customer asset entities. This relationship enables 3D models to be associated with customer assets.
 
@@ -31,10 +31,10 @@ You can configure 3D models by using a many-to-many (N:N) relationship between t
 
 1. In Field Service, select the **Service** area.
 1. Under **Assets**, select **Assets**.
-1. Open the desired customer asset record.
+1. Open the customer asset record.
 1. Select **Related** > **Three-Dimensional Models**.
 
-    :::image type="content" source="media/3Dmodel.png" alt-text="Screenshot showing how to access 3D models for an asset.":::
+    :::image type="content" source="media/3Dmodel.png" alt-text="Screenshot showing how to access the Three-Dimensional Models option for an asset.":::
 
 1. Select **Add Existing Three-Dimensional Model**.
 1. Select **New Record** > **Three-Dimensional Model**.
@@ -42,9 +42,9 @@ You can configure 3D models by using a many-to-many (N:N) relationship between t
 1. In the **Storage Type** field, select **Note Attachment**.
 1. Select **Save**.
 
-    :::image type="content" source="media/3Dmodel-new.svg" alt-text="Screenshot of a new 3D model.":::
+    :::image type="content" source="media/3Dmodel-new.svg" alt-text="Screenshot showing how to add a new 3D model and associate it with customer asset.":::
 
-1. In the **Timeline** section, select the paperclip icon, browse to your 3D file, and then select **Open**.
+1. In the **Timeline** section, select the paperclip icon, browse to your 3D file, and select **Open**.
 1. In the **Title** field, enter a title for the note. Then select **Add note**.
 1. Select **Save & Close**.
 1. Select **Add** to associate the 3D model with the customer asset.

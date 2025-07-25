@@ -2,6 +2,7 @@
 title: Create a marketing list using in-app marketing
 description: A marketing list can include any one type of customer record, such as leads, accounts, or contacts. Add members to the list statically or dynamically.
 ms.date: 05/28/2025
+ms.update-cycle: 1095-days
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
