@@ -60,7 +60,7 @@ The agent uses product information to generate suggestions during hand off and t
 
 ## Next step
 
-[Configure selection criteria](configure-sqa-selection-criteria.md)
+[Configure selection criteria](sales-qualification-agent-selection-criteria.md)
 
 ## Related information
 
