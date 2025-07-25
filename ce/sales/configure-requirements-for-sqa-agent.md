@@ -21,14 +21,14 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-Before you configure the agents, ensure that prerequisites are configured in your Dynamics 365 Sales environment. Depending on the agent type, you must configure the requirements as follows:
+Before you configure the agents, ensure that prerequisites are configured in your Dynamics 365 Sales environment. Depending on the type of automation, you must configure the requirements as follows:
 
-| Prerequisite | Agent type | Description |
+| Prerequisite | Applicable for | Description |
 |--------------|------------|-------------|
-| Create application in Azure | Research and Engage agents | An Azure AD application is required to securely authenticate the agent’s Dataverse Application User, enabling it to act independently via app-based access.<br>More information: [Create application in Azure](#create-application-in-azure) |
-| Create a shared mailbox | Engage agent | The agent mailbox that will be used to send emails and follow-ups in compliance with your org’s policies.<br>More information: [Create a shared mailbox](#create-a-shared-mailbox) |
-| Create an app user in Dataverse | Research and Engage agents | Create a Dataverse app user so the agent can act independently, like send emails, own records, and more.<br>More information: [Create an app user in Dataverse](#create-an-app-user-in-dataverse) |
-| Configuring server-side synchronization | Engage agent | Connect Dynamics 365 Sales and Exchange to sync emails, contacts, tasks, and calendar.<br>More information: [Configuring server-side synchronization](#configuring-server-side-synchronization) |
+| Create application in Azure | Research and Engage | An Azure AD application is required to securely authenticate the agent’s Dataverse Application User, enabling it to act independently via app-based access.<br>More information: [Create application in Azure](#create-application-in-azure) |
+| Create an app user in Dataverse | Research and Engage | Create a Dataverse app user so the agent can act independently, like send emails, own records, and more.<br>More information: [Create an app user in Dataverse](#create-an-app-user-in-dataverse) |
+| Create a shared mailbox | Engage | The agent mailbox that will be used to send emails and follow-ups in compliance with your org’s policies.<br>More information: [Create a shared mailbox](#create-a-shared-mailbox) |
+| Configuring server-side synchronization | Engage | Connect Dynamics 365 Sales and Exchange to sync emails, contacts, tasks, and calendar.<br>More information: [Configuring server-side synchronization](#configuring-server-side-synchronization) |
 
 ## Create application in Azure
 
