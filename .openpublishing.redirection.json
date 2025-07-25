@@ -35393,6 +35393,36 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/field-service/field-service-customization-best-practices.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-customize-best-practices",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/field-service-customizations.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-customize-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/field-service-customize-columns-fields.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-customize-columns-fields",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/field-service-customize-forms.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-customize-forms",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/field-service-customize-scripts.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-customize-scripts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/customize-booking-card.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-customize-booking-card",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/customer-service/developer/reference/entities/msdyn_conversationmessageblock.md",
       "redirect_url": "/dynamics365/developer/reference/entities/msdyn_conversationmessageblock",
       "redirect_document_id": false

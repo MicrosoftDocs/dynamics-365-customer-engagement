@@ -56,11 +56,11 @@ additionalContent:
         text: Configure default settings
     - title: Customize 
       links: 
-      - url: field-service-customizations.md
+      - url: /dynamics365/guidance/resources/field-service-customize-overview
         text: Customize Field Service
-      - url: field-service-customization-best-practices.md
+      - url: /dynamics365/guidance/resources/field-service-customize-best-practices
         text: Best practices
-      - url: field-service-customize-forms.md
+      - url: /dynamics365/guidance/resources/field-service-customize-forms
         text: Customize forms
       
   - title: Administer
