@@ -28,24 +28,11 @@ The Sales Qualification Agent in Dynamics 365 Sales researches your leads, offer
 
 Before you can use the Sales Qualification Agent, your admin must [set it up](./configure-sales-qualification-agent.md) for you and your sales team.
 
-<a name="selection-criteria-for-research"></a>
-## Selection criteria for initial research
-
-After the Sales Qualification Agent is set up, it automatically researches leads that are:
-
-- open
-- created in the last 14 days
-- owned by sellers who have a security role that allows them to access the agent.
-
-The agent processes the leads only once, unless significant changes are made to the lead. Learn more about trigger events in [When does the agent run?](sales-qualification-agent-faq.md#trigger-events).
-
 ## Qualify leads
 
 1. In the Sales Hub app, go to **Leads**.
 
-1. Select a lead from the focused view or read-only grid view.
-
-    After a few seconds, if the lead meets the agent's [selection criteria](#selection-criteria-for-research), a banner appears at the top of the lead form. The banner includes the agent's recommendation and two action buttons: **Review email** and **More insights**.
+1. From the views drop-down, select *Leads from the AI Agent*. 
 
     :::image type="content" source="media/sqa-banner.png" alt-text="Screenshot of a lead form showing the Sales Qualification Agent's recommendation, with the agent banner highlighted.":::
 
