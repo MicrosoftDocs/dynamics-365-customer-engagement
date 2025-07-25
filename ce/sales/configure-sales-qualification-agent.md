@@ -62,7 +62,7 @@ Review the following considerations before you start deploying the autonomous Sa
 
 ## Set up Sales Qualification Agent
 
-The Sales Qualification Agent is categorized into two types&mdash;Research and Engage&mdash;depending on the level of automation you want to achieve. The configuration steps are similar for both types, but the Engage agent has additional settings such as adding email signature, customized email instructions, and configuring BANT criteria for handoff. Let's look at the steps to set up and configure the agents.
+The Sales Qualification Agent is categorized into two types&mdash;Research and Engage&mdash;depending on the level of automation you want to achieve. The configuration steps are similar for both types, but the Engage has additional settings such as adding email signature, customized email instructions, and configuring BANT criteria for handoff to work autonomously. Let's look at the steps to set up and configure the agents.
 
 **Follow these steps**:
 
@@ -75,7 +75,7 @@ The Sales Qualification Agent is categorized into two types&mdash;Research and E
 
 1. [Configure general information](sales-qualification-agent-general-settings.md) for agent such as profile, company info, and products.  
 1. [Configure selection criteria](sales-qualification-agent-selection-criteria.md) for the agent process the leads.  
-1. [Configure email instructions and address validation](configure-email-instructions-and-address-validation.md) for the agent.
+1. [Configure email instructions and address validation](sales-qualification-agent-email-instruction-validation.md) for the agent.
 1. [Configure handoff criteria](configure-sales-qualification-agent-handoff-criteria.md) for the agent to identify leads that are a good fit for further engagement.  
 1. [Configure assignment rules](configure-sqa-assignment-rules.md) for the agent to assign processed leads to the appropriate sellers.  
 1. [Configure knowledge sources](configure-sqa-knowledge-source.md) for research insights, outreach, and follow-up emails.

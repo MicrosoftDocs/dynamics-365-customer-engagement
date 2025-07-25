@@ -55,4 +55,13 @@ The agent uses product information to generate suggestions during hand off and t
 
 1. [Open the Sales Qualification Agent settings](open-sales-qualification-agent-settings.md) page.
 
-1. In the **Products** section, enter the value proposition of your products or services, highlighting their key benefits and features. This information helps the agent understand what to emphasize when engaging with leads.
+1. In the **Products** section, enter the value proposition of your products or services, highlighting their key benefits and features. This information helps the agent understand what to emphasize when engaging with leads.  
+
+
+## Next step
+
+[Configure selection criteria](configure-sqa-selection-criteria.md)
+
+## Related information
+
+[Configure the Sales Qualification Agent](configure-sales-qualification-agent.md)
