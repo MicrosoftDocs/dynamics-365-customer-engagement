@@ -23,7 +23,7 @@ Define the ideal customer profile and BANT (Budget, Authority, Need, and Timelin
 
 ## Configure the ideal customer profile and BANT criteria
 
-Both Research and Engage agents use the ideal customer profile to identify leads that match your target customer characteristics. However, BANT criteria are only used by the Engage Agent to determine whether to engage with a lead.
+Both Research and Engage modes use the ideal customer profile to identify leads that match your target customer characteristics. However, BANT criteria are only used by the Engage mode to determine whether to engage with a lead.
 
 By default, the application defines a set of criteria. You can update any out-of-the-box criteria to add or remove attributes. Also, you can create a custom criterion.
 
@@ -31,7 +31,7 @@ By default, the application defines a set of criteria. You can update any out-of
 
 1. In the **Handoff criteria** section, enter or select the criteria that describe your ideal customer profile, including industries, employee size, decision making roles, customer location, and annual revenue. 
 
-1. (Engage Agent only) Specify the BANT (Budget, Authority, Need, Timing) criteria to help the agent identify leads it should engage with.
+1. (Engage mode only) Specify the BANT (Budget, Authority, Need, Timing) criteria to help the agent identify leads it should engage with.
  
 1. Under each criteria, expand the **Where's this info stored** section to verify the fields used by default
       to evaluate the criteria. You can change these fields if needed.

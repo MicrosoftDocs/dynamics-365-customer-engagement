@@ -5,9 +5,9 @@ ms.date: 07/31/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
