@@ -588,6 +588,8 @@
         href: create-operating-hours.md
       - name: Configure and manage custom presence
         href: presence-custom-presence.md
+      - name: Enable transfer of conversations
+        href: enable-transfer-consult.md
       - name: Configure file attachments
         href: configure-file-attachment.md
       - name: Enable file attachments
