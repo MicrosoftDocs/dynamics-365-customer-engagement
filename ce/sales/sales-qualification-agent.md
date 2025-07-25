@@ -1,5 +1,5 @@
 ---
-title: Sales Qualification Agent overview
+title: Sales Qualification Agents overview
 description: Learn how the Sales Qualification Agent in Dynamics 365 Sales can be your personal assistant in qualifying leads and improving sales outcomes.
 ms.date: 05/22/2025
 ms.update-cycle: 180-days
@@ -22,21 +22,15 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-Sales teams often struggle to keep up with the volume of inbound leads from websites, events, and webinars, leading to missed opportunities and idle leads in CRM. Sales qualification agents in Dynamics 365 Sales are AI assistants that automate manual lead qualification. They help you qualify leads faster and more effectively, so you can spend more time interacting with top leads.
+Sales teams often struggle to keep up with the volume of inbound leads from websites, events, and webinars, leading to missed opportunities and idle leads in CRM. Sales qualification agents in Dynamics 365 Sales are AI assistants that automate manual lead qualification. They help you qualify leads faster and more effectively, so you can spend more time interacting with top leads. These agents don't replace your judgment or decision-making process.
 
 ## Types of Sales Qualification Agents
 
 Sales Qualification Agents are classified into two types:
 
-- **Research**: An AI assistant that automates the manual aspects of lead qualification. It doesn't replace your judgment or decision-making process. It provides detailed insights about each lead, such as their background, recent activities, and news about their company. Think of it as a personal assistant that provides detailed insights about each lead, such as their background, recent activities, and news about their company:
+- **Research**: An AI assistant that automates the research aspect of lead qualification. The agent works on assigned leads based on your selection criteria, such as lead source, rating, or geography. It provides detailed insights about each lead&mdash;their background, recent opportunities, and news about their company. The agent evaluates the lead's fit with your ideal customer profile and generates an initial outreach email for leads that meet your criteria. Sellers can use these insights to make informed decisions about which leads to pursue and send the outreach email to.
 
-    - **Background**: Understand the lead's role, company, and industry.
-    - **Insights**: Get insights about whether to engage with the lead or not. Know more about the lead's recent activities, such as their recent opportunities, colleagues who worked with the leads, and why this lead matches your ideal customer profile.
-    - **News**: Stay updated with the latest news about the lead's company and industry.
-
-    This helps you focus on the most promising leads and improve your sales outcomes.
-
-- **Engage**: An AI assistant that helps you manage high lead volumes. The agent works on assigned leads based on your selection criteria, like lead source, rating, or geography. Additionally, the agent autonomously engages with each lead, follows up, and evaluates fit based on your seller hand-off rules. Leads that demonstrate purchase intent and meet most of your criteria are handed over to sellers for qualification, while those that don’t are handed over to supervisors for disqualification, ensuring your sales team focuses only on high-potential opportunities.  
+- **Engage**: An AI assistant that helps you manage high lead volumes. The agent works on assigned leads based on your selection criteria, such as lead source, rating, or geography. Additionally, the agent autonomously engages with each lead, follows up, and evaluates fit based on your seller hand-off rules. Leads that demonstrate purchase intent and meet most of your criteria are handed over to sellers for qualification, while those that don’t are handed over to supervisors for disqualification, ensuring your sales team focuses only on high-potential opportunities.  
 
 ## Difference between Research and Engage
 
@@ -44,9 +38,9 @@ The difference between the Research and Engage lies in their functionality and l
 
 | Feature | Research | Engage |
 |---------|----------------|---------------|
-| Autonomy | Research and provides insights to sellers. | Research, provides insights, and engages and qualifies leads autonomously. |
+| Autonomy | Researches, provides insights to sellers, and generates outreach emails. | Researches, provides insights, and engages and qualifies leads autonomously. |
 | Functionality | Provides insights and recommendations. | Engages with leads and manages follow-ups. |
-| Decision-making | Allows seller to make decisions on engagement and qualification. | Automatically engages and hands over to seller for qualification. |
+| Decision-making | Allows seller to make decisions on engagement and qualification. | Automatically engages and hands over the lead to seller for qualification. |
 
 ## Understand Sales Qualification Agent concepts
 
@@ -56,7 +50,7 @@ The Sales Qualification Agents are designed to assist you in the lead qualificat
 
 **Purchase interest**: Applicable for the engage agent, purchase interest is an indicator of the lead's intent to buy. The agent evaluates leads based on their engagement and interest level. More information: [What is purchase interest and how is it determined?](sales-qualification-agent-concepts.md#what-is-purchase-interest-and-how-is-it-determined)
 
-**BANT (Budget, Authority, Need, Timing)**: Applicable for the engage agent, BANT is a framework used to evaluate leads based on their budget, authority, need, and timing. The agent uses this framework to assess the lead's potential and readiness to buy. More information: [What is BANT and how is the fitment calculated?](sales-qualification-agent-concepts.md#what-is-bant-and-how-is-the-fitment-calculated)
+**BANT (Budget, Authority, Need, Timeline)**: Applicable for the engage agent, BANT is a framework used to evaluate leads based on their budget, authority, need, and timeline. The agent uses this framework to assess the lead's potential and readiness to buy. More information: [What is BANT and how is the fit calculated?](sales-qualification-agent-concepts.md#what-is-bant-and-how-is-the-fit-calculated)
 
 ## How to use the agent
 

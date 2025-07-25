@@ -134,7 +134,7 @@ The following signal types are analyzed to determine the purchase interest based
     | Medium | I’d love to see how others use your tool. Can you share some examples? | Interested but not necessarily tied to a decision. | It would be great to see case studies but there are no plans to implement yet. |
     | Low | Do you have any customer testimonials? | General curiosity, not tied to a buying decision. | &mdash; |
 
-## What is BANT and how is the fitment calculated?
+## What is BANT and how is the fit calculated?
 
 The BANT criteria is a qualification methodology that helps determine whether a lead is ready for handover to the seller. BANT is known as Budget, Authority, Need, and Timeline. Here's a breakdown of each component:  
 
