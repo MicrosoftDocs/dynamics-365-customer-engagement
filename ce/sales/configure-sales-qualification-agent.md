@@ -25,10 +25,9 @@ As an admin, you need to set up the Sales Qualification Agent before your seller
 
 Ensure that the following prerequisites are met: 
 
-- Your tenant admin has granted consent for the agent to use Bing search and Copilot Studio and assigned sufficient capacity to run the agent.
-  Consent settings are available in the **General Settings** > **Copilot** > **Agents (Preview)** page in the Sales Hub app settings.
-
-    The agent uses the same capacity as other Copilot features in Copilot Studio. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
+- Your tenant admin has granted the following consent:
+    - Consent for data movement across regions and Bing search. Learn more in [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot?tabs=new)
+    - The agent needs Copilot Studio capacity to run. Ensure that you have enough capacity. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
 
 - You have admin permissions in Dynamics 365 Sales.
 
@@ -48,7 +47,7 @@ Ensure that the following prerequisites are met:
 
 - You configured server-side synchronization by integrating Dynamics 365 with Exchange. Learn more in [Set up email by integrating with Exchange](configure-email.md). If server-side synchronization isn't set up, the agent doesn't generate outreach emails.
 
-- [Enable in-app notifications for your organization](/power-apps/developer/model-driven-apps/clientapi/send-in-app-notifications?tabs=clientapi#enable-the-in-app-notification-feature) to notify sellers and supervisors on lead handoffs.
+- You enabled in-app notifications to notify sellers and supervisors about lead handoffs. Learn more in [Enable in-app notifications for your organization](/power-apps/developer/model-driven-apps/clientapi/send-in-app-notifications?tabs=clientapi#enable-the-in-app-notification-feature).
 
 - (Optional but recommended) You turned on Copilot in Dynamics 365 Sales to allow your sellers to get a 360-degree view of the lead and their company. Learn more in [Turn on and set up Copilot in Dynamics 365 Sales](enable-setup-copilot.md) and [Get information from Copilot](copilot-get-information.md).
 
@@ -56,10 +55,10 @@ Ensure that the following prerequisites are met:
 
 Review the following considerations before you start deploying the autonomous Sales Qualification Agent:
 
-- Only one agent can be deployed in an environment. The Sales Qualification Agent supports the following levels of automation:  
+- Only one type of agent can be deployed in an environment. The Sales Qualification Agent supports the following levels of automation:  
 
-    - **Research**: Analyze the assigned leads and draft outreach email based on the insights. Hand over the leads to sellers with the recommended next set of actions.  
-    - **Research and engage (full autonomous)**: Analyze and autonomously engage with the customer. Hand over the leads to sellers with detected purchase interest and customer profile fit based on configured handoff criteria.  
+    - **Research**: Analyzes assigned leads and drafts outreach email based on the insights. Hands over the leads to sellers with the recommended next set of actions.  
+    - **Research and engage (full autonomous)**: Analyzes and autonomously engages with the customer. Hands over the leads to sellers with detected purchase interest and customer profile fit based on configured handoff criteria.  
 
     > [!NOTE]
     > You can have only one agent in an organization irrespective of the automation level.
