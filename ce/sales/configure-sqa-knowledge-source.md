@@ -36,6 +36,22 @@ Add knowledge sources in Copilot Studio to surface key insights such as customer
 
     To know more about adding knowledge sources, see [Add knowledge to an agent](/microsoft-copilot-studio/knowledge-add-existing-copilot).
 
+## Example of knowledge sources
+
+Your seller’s company sells GPUs. The administrator has added a recent report covering market share analysis of the prospective companies in the GPU market, so that the agent can use this to research any lead that comes from these companies.
+Later, the administrator adds an internal CSV file capturing tech spending projections of major tech companies. This will ensure that the agent will gather financial and strategic priority information from a trusted internal document.
+
+## Best practices
+
+The following are some best practices to consider while adding knowledge sources:
+
+- **Keep descriptions specific**. Adding descriptions such as “Dataverse table with Assets Under Management by client” is more helpful than just “Finance table”.  
+- **Limit public sites**. Too many broad domains dilute relevance; add the few that best match your industry.  
+- **Review security**. The agent will only present data that the signed-in seller is permitted to access.  
+- **Monitor capacity**. Large files and frequent refreshes consume AI credits; track usage in Power Platform admin center.  
+
+With curated knowledge sources, the Sales Qualification Agent becomes a best researcher that understands your organization and surfaces the insights your sellers value most.
+
 ## Next step
 
 - [Start the Sales Qualification Agent](start-sales-qualification-agent.md)

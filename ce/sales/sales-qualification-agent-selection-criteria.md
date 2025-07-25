@@ -64,10 +64,8 @@ Read the [create and activate a segment](wa-create-and-activate-a-segment.md#cre
 
 ## Next step
 
-[Configure email instructions and address validation](configure-email-instructions-and-address-validation.md)
+[Configure email instructions and address validation](sales-qualification-agent-email-instruction-validation.md)
 
 ## Related information
 
 [Configure the Sales Qualification Agent](configure-sales-qualification-agent.md)
-
-
