@@ -81,47 +81,113 @@ Create an app registration with API permission to SharePoint. Learn more about r
 1. Open **SQL Server Management Studio** and copy in this SQL script.
 
 ```SQL
+-- Set transaction isolation level to READ UNCOMMITTED.
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+ 
+--Customer need to provide the AAD app id that is to be used for authentication to SharePoint online.
+DECLARE @byoaAppId NVARCHAR(36) = '<appId>';
+--Customer need to provide the tenant id for SharePoint online.
+DECLARE @tenantId NVARCHAR(36) = '<tenantId>';
+ 
+-- Validate required parameters
+IF ((@byoaAppId IS NULL OR TRY_CONVERT(UNIQUEIDENTIFIER, @byoaAppId) IS NULL)
+    OR (@tenantId IS NULL OR TRY_CONVERT(UNIQUEIDENTIFIER, @tenantId) IS NULL))
+        THROW 51001, 'Both Customer AAD App ID and Tenant ID must be provided and valid UNIQUEIDENTIFIERs.', 1;
+ 
+SET @byoaAppId = CONVERT(UNIQUEIDENTIFIER, @byoaAppId);
+SET @tenantId = CONVERT(UNIQUEIDENTIFIER, @tenantId);
+ 
 IF (SELECT COUNT(*)
-FROM OrganizationBase WITH (NOLOCK)) <> 1
-	THROW 51000, 'Organization records does not equal 1', 1
+    FROM OrganizationBase) <> 1
+      THROW 51000, 'Organization records does not equal 1', 1
  
 DECLARE @organizationId UNIQUEIDENTIFIER  = (SELECT OrganizationId
-FROM OrganizationBase WITH (NOLOCK));
+                                             FROM OrganizationBase);
 DECLARE @utcNow DATETIME = GetUtcDate();
-DECLARE @principalId UNIQUEIDENTIFIER = '00000003-0000-0ff1-ce00-000000000000';
+DECLARE @sharePointOnlinePrincipalId UNIQUEIDENTIFIER = '00000003-0000-0ff1-ce00-000000000000';
+DECLARE @sharePointOnlineAppId UNIQUEIDENTIFIER = '38616d01-8e81-42dd-82fb-b68f2cecac3a';
 DECLARE @applicationName NVARCHAR(100) = 'Microsoft SharePoint Online';
-DECLARE @byoaAppId UNIQUEIDENTIFIER = '<appId>';
---Customer need to provide the app id.
-DECLARE @tenantId UNIQUEIDENTIFIER = '<tenantId';
  
-BEGIN TRANSACTION InsertRows
+BEGIN TRY
+    BEGIN TRANSACTION InsertRows;
  
-INSERT INTO [dbo].[PartnerApplicationBase]
-	([PrincipalId]
-	,[StateCode]
-	,[Name]
-	,[UseAuthorizationServer]
-	,[PartnerApplicationId]
-	,[StatusCode]
-	,[ApplicationRole]
-	,[OrganizationId]
-	,[CreatedOn]
-	,[ModifiedOn]
-	,[TenantId])
-VALUES
-	(@principalId
-	, 0
-	, @applicationName
-	, 1
-	, @byoaAppId
-	, 1
-	, 1
-	, @organizationId
-	, @utcNow
-	, @utcNow
-	, @tenantId)
+    -- Handle Microsoft-provided SharePoint Online app
+    -- Check current state of Microsoft SharePoint Online record
+    DECLARE @microsoftAppExists BIT = 0;
+    DECLARE @microsoftAppNeedsUpdate BIT = 0;
  
-COMMIT TRANSACTION InsertRows
+    SELECT @microsoftAppExists = 1,
+           @microsoftAppNeedsUpdate = CASE 
+                 WHEN TenantId IS NULL OR TenantId <> @tenantId THEN 1 
+                 ELSE 0 
+                 END
+    FROM PartnerApplicationBase
+    WHERE PrincipalId = @sharePointOnlinePrincipalId
+         AND OrganizationId = @organizationId
+         AND Name = @applicationName
+         AND PartnerApplicationId = @sharePointOnlineAppId;
+ 
+    IF @microsoftAppExists = 1 AND @microsoftAppNeedsUpdate = 1
+    BEGIN
+        -- Update existing Microsoft record with correct TenantId
+        UPDATE PartnerApplicationBase
+        SET TenantId = @tenantId,
+            ModifiedOn = @utcNow
+        WHERE PrincipalId = @sharePointOnlinePrincipalId
+              AND OrganizationId = @organizationId
+              AND Name = @applicationName
+              AND PartnerApplicationId = @sharePointOnlineAppId;
+    END
+    ELSE IF @microsoftAppExists = 1
+    BEGIN
+        SELECT 'Partner Application record already exists and is correct for Microsoft SharePoint Online with app ID ' + CAST(@sharePointOnlineAppId AS NVARCHAR(36)) AS Message;
+    END
+    ELSE
+    BEGIN
+        -- Insert new Microsoft record
+        INSERT INTO [dbo].[PartnerApplicationBase]
+           ([PrincipalId], [StateCode], [Name], [UseAuthorizationServer], [PartnerApplicationId],
+           [StatusCode], [ApplicationRole], [Organizationid], [CreatedOn], [ModifiedOn], [TenantId])
+        VALUES
+           (@sharePointOnlinePrincipalId, 0, @applicationName, 1, @sharePointOnlineAppId,
+            1, 1, @organizationId, @utcNow, @utcNow, @tenantId);
+    END
+ 
+    -- Handle customer-provided AAD app
+    IF NOT EXISTS (
+        SELECT 1
+        FROM PartnerApplicationBase
+        WHERE PrincipalId = @sharePointOnlinePrincipalId
+              AND OrganizationId = @organizationId
+              AND Name = @applicationName
+              AND PartnerApplicationId = @byoaAppId)
+    BEGIN
+        -- Insert customer AAD app record
+        INSERT INTO [dbo].[PartnerApplicationBase]
+           ([PrincipalId], [StateCode], [Name], [UseAuthorizationServer], [PartnerApplicationId],
+           [StatusCode], [ApplicationRole], [Organizationid], [CreatedOn], [ModifiedOn], [TenantId])
+        VALUES
+           (@sharePointOnlinePrincipalId, 0, @applicationName, 1, @byoaAppId,
+            1, 1, @organizationId, @utcNow, @utcNow, @tenantId);
+    END
+    ELSE
+    BEGIN
+        SELECT 'Partner Application record already exists for Microsoft SharePoint Online with app ID ' + CAST(@byoaAppId AS NVARCHAR(36)) AS Message;
+    END
+ 
+    COMMIT TRANSACTION InsertRows;
+END TRY
+BEGIN CATCH
+    IF @@TRANCOUNT > 0
+        ROLLBACK TRANSACTION InsertRows;
+ 
+    -- Log error details for script-level errors
+    SELECT
+    ERROR_NUMBER() AS ErrorNumber,
+    ERROR_SEVERITY() AS ErrorSeverity,
+    ERROR_STATE() AS ErrorState,
+    ERROR_LINE() AS ErrorLine;
+END CATCH
 ```
 
 1. In the script, update the **@byoaAppId** and **@tenantId** variables with the **Application ID** and **Tenant ID** values you copied earlier from the Microsoft Azure portal in the [Create an Azure application with SharePoint permissions](#create-an-azure-application-with-sharepoint-permissions) section of this article.
