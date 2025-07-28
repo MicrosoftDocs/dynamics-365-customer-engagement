@@ -71,4 +71,4 @@ To revoke External Access and disable this feature, run
 ### Related information
 
 [Introduction to the voice channel](voice-channel.md)  
-[Agent consult with Microsoft Teams users](../use/voice-channel-transfer-consult.md)  
+[Representative consult with Microsoft Teams users](../use/voice-channel-transfer-consult.md)  
