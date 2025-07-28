@@ -33,10 +33,10 @@ As a supervisor or administrator, you can monitor the performance of the Sales Q
    - **See handed over leads**: Opens the **Leads handed over by AI agent** view that lists all leads that were handed over to the seller for followup and qualification during the selected time period.
 
 1. Depending on the agent mode, you may see different metrics and insights in the dashboard:
-   - [View metrics for research only mode](#view-metrics-for-research-only-mode)
-   - [View metrics for engage mode](#view-metrics-for-engage-mode)
+   - [View metrics related to research only mode](#view-metrics-related-to-research-only-mode)
+   - [View metrics related to engage mode](#view-metrics-related-to-engage-mode)
 
-## View metrics for research only mode
+## View metrics related to research only mode
 
 If your admin has configured the Sales Qualification Agent to run in research only mode, you can view the agent's effectiveness in researching leads, generating outreach emails, disqualifying low fit leads, and handing over promising leads to sellers. In this mode, the agent doesn't send outreach emails to leads or engage with leads.
 
@@ -59,7 +59,7 @@ If your admin has configured the Sales Qualification Agent to run in research on
     - **Handed over to sellers**: Includes leads that were handed over to sellers by the agent and any disqualified leads that were reassigned by the supervisor to the seller.
 
 
-## View metrics for engage mode
+## View metrics related to engage mode
 
 If your admin has configured the Sales Qualification Agent to run in research and engage mode, you can view the agent's effectiveness in researching leads, engaging with leads, disqualifying low fit leads, and handing over promising leads to sellers. In this mode, the agent autonomously sends outreach emails to leads and engages with them based on their responses.
 
