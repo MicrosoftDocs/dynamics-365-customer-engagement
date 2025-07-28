@@ -308,7 +308,7 @@
         items: 
         - name: Copilot feature availability across applications
           href: /dynamics365/contact-center/use/copilot-feature-availability?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
-        - name: Summarize cases
+        - name: Use Copilot-generated case summaries
           href: copilot-use-summary.md
         - name: Use Copilot case summary in model-driven apps
           href: /power-apps/user/copilot-case-summary?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
