@@ -19,11 +19,11 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
 Open the Sales Qualification Agent settings to configure or manage the Research and Engage agent.
 
-Follow these steps:
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+**Follow these steps**:
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.  
 1. Go to **General settings** > **Dynamics 365 AI hub**.
@@ -32,12 +32,11 @@ Follow these steps:
 
 1. In the **Agent manager** section, select **Create and manage agent**.  
     The **AI agent** page opens.  
-1. To create an agent:
+1. To create an agent:  
     1. Select **Create**.  
     1. In the **Sales Qualification Agent** section, select **Choose**.  
     1. Select the automation level&mdash;**Research** or **Engage** based on your requirement.  
-
-1. To edit or deactivate the agent, in the AI agents page, select the agent name.
+1. To edit or deactivate the agent, in the AI agents page, select the agent name.  
 
 ## Related information
 

@@ -29,12 +29,10 @@ By default, the application defines a set of criteria. You can update any out-of
 
 1. [Open the Sales Qualification Agent settings](open-sales-qualification-agent-settings.md) page.
 
-1. In the **Handoff criteria** section, enter or select the criteria that describe your ideal customer profile, including industries, employee size, decision making roles, customer location, and annual revenue. 
+1. In the **Handoff criteria** section, enter or select the criteria that describe your ideal customer profile, including industries, employee size, decision making roles, customer location, and annual revenue.  
 
-1. (Engage mode only) Specify the BANT (Budget, Authority, Need, Timing) criteria to help the agent identify leads it should engage with.
- 
-1. Under each criteria, expand the **Where's this info stored** section to verify the fields used by default
-      to evaluate the criteria. You can change these fields if needed.
+1. (Engage mode only) Specify the BANT (Budget, Authority, Need, Timing) criteria to help the agent identify leads it should engage with.  
+1. Under each criteria, expand the **Where's this info stored** section to verify the fields used by default to evaluate the criteria. You can change these fields if needed.
 
    :::image type="content" source="media/sqa-ideal-customer-profile.png" alt-text="Screenshot of the ideal customer profile configuration in Sales Qualification Agent settings.":::
 
@@ -77,4 +75,5 @@ Use custom criteria to define characteristics that are important for your ideal 
 
 ### Related information
 
-[Configure the Sales Qualification Agent](configure-sales-qualification-agent.md)
+- [Configure the Sales Qualification Agent](configure-sales-qualification-agent.md)
+- [Understand Sales Qualification Agent concepts](sales-qualification-agent-concepts.md)

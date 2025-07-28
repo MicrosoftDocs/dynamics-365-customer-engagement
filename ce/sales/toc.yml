@@ -289,10 +289,10 @@ items:
           items:
             - name: Overview
               href: sales-qualification-agent.md
-            - name: Set up and configure Sales Qualification Agents
+            - name: Set up and configure the agent
               href: configure-sales-qualification-agent.md
               items:
-                - name: Open the Sales Qualification Agent settings
+                - name: Open the settings page
                   href: open-sales-qualification-agent-settings.md
                 - name: Configure general settings
                   href: sales-qualification-agent-general-settings.md
@@ -308,9 +308,9 @@ items:
                   href: configure-sqa-knowledge-source.md
                 - name: Run simulation to review outreach email content
                   href: run-simulation-sqa-outreach-email.md
-            - name: Start the Sales Qualification Agent
+            - name: Start the agent
               href: start-sales-qualification-agent.md
-            - name: Manage Sales Qualification Agent
+            - name: Manage the agent
               href: manage-sales-qualification-agent.md
             - name: Configure requirements for Sales Qualification Agent
               href: configure-requirements-for-sqa-agent.md    
@@ -1382,11 +1382,11 @@ items:
       href: faqs-sales-copilot-natural-language.md
     - name: Responsible AI FAQs for email in Copilot
       href: faqs-sales-copilot-for-email.md
-    - name: Responsible AI FAQs about Sales Qualification Agent
+    - name: Responsible AI FAQs about Sales Qualification Agents
       items:
-        - name: Responsible AI FAQs about Research Agent
+        - name: Responsible AI FAQs about Research mode
           href: faqs-sales-qualification-agent.md
-        - name: Responsible AI FAQs about Engage Agent
+        - name: Responsible AI FAQs about Engage mode
           href: faqs-sales-qualification-agent-engage.md
       href: faqs-sales-qualification-agent.md
     - name: Responsible AI FAQs for chat with Sales data in Microsoft 365 Copilot (preview)

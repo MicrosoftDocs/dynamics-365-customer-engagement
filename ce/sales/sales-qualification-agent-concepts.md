@@ -19,15 +19,15 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
 The concepts described in this article are applicable for the Sales Qualification Agent in Dynamics 365 Sales and applicable for both Research and Engage agents. The concepts help you understand how the agent evaluates leads and determines their fit for your organization. Further, the agent uses these concepts to provide insights and recommendations for lead qualification.
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## What is the ideal customer profile and how is the fit determined?
 
 The *ideal customer profile* (ICP) is a detailed description of a customer who would benefit the most from your company's products or services. Your ideal customer profile might include characteristics like industry, company size, job title of the lead, location, and annual revenue.
 
-The ICP fit is determined based on the attributes defined in [the Ideal customer profile section of the agent configuration](configure-sales-qualification-agent.md#ideal-customer-profile). The agent categorizes leads into three categories based on the ICP attributes:
+The ICP fit is determined based on the attributes defined in [the Ideal customer profile section of the agent configuration](configure-sales-qualification-agent-handoff-criteria.md#configure-the-ideal-customer-profile-and-bant-criteria). The agent categorizes leads into three categories based on the ICP attributes:
 
 - **High fit**: The lead matches more than 70% of the ICP attributes. This indicates that the lead is a strong candidate for your products or services.
 - **Moderate fit**: The lead matches 50% to 70% of the ICP attributes. This indicates that the lead may be a potential candidate for your products or services, and can be pursued after the high fit leads.
@@ -148,4 +148,4 @@ The BANT criteria can be detected from various sources such as emails, CRM confi
 ## Related information
 
 - [Sales Qualification Agent overview](sales-qualification-agent.md)  
-- [Configure requirements for the agent](configure-requirements-for-engage-agent.md)
+- [Configure Sales Qualification Agent](configure-sales-qualification-agent.md)

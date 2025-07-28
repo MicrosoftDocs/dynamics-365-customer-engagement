@@ -38,7 +38,7 @@ Before you configure the agents, ensure that prerequisites are configured in you
 
     :::image type="content" source="media/sqa-settings-create-app-in-azure.png" alt-text="Screenshot of selecting set up in the create app in Azure section.":::
 
-1. In the **Register an application** page, enter a name, select the account type (usually **Accounts in this organizational directory only**), and if applicable, enter a relevant redirect URI. 
+1. In the **Register an application** page, enter a name, select the account type (usually **Accounts in this organizational directory only**), and if applicable, enter a relevant redirect URI.  
 
     :::image type="content" source="media/sqa-settings-azure-app-registration.png" alt-text="Screenshot of the new registration page in Azure.":::
 
