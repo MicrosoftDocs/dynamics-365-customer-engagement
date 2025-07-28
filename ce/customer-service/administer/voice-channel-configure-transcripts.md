@@ -68,6 +68,10 @@ To view translated voice transcripts for calls, you must enable call recording, 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of closed conversation list.](../media/voice-channel-conversations-list.png)
 
+## Set up bulk download of call recordings
+
+You can create a Power Automate flow to download call recordings in bulk. Learn more in [Download call recordings in bulk](/dynamics365/contact-center/extend/download-call-recodings-bulk).
+
 ### Storage location of your recordings and cost
  
 For components within the Microsoft stack, the data doesn’t cross geographical boundaries during transit. The bring-your-own-carrier model has dependencies on third parties with components outside the Microsoft stack, and the data needs to be reviewed end-to-end. 
