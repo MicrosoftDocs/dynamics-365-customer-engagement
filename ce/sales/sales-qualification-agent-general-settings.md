@@ -36,7 +36,6 @@ Define the agent profile, company information, and product information to set th
    - **AI disclaimer**: Enter a disclaimer that will be included in the emails sent by the agent. This disclaimer informs recipients that the email is sent by an AI agent and not a human. Work with your legal team to ensure the disclaimer meets your organization's requirements.
    - **Other terms**: Enter any other terms that the agent should include in its communications with leads. This could include terms of service, privacy policy links, or any other relevant information.
 
-
 ## Configure company information
 
 The agent uses company information to generate personalized outreach emails and engage with your customers. Be sure to provide a real company name and website to ensure that the research insights and outreach emails are relevant.
@@ -56,7 +55,6 @@ The agent uses product information to generate suggestions during hand off and t
 1. [Open the Sales Qualification Agent settings](open-sales-qualification-agent-settings.md) page.
 
 1. In the **Products** section, enter the value proposition of your products or services, highlighting their key benefits and features. This information helps the agent understand what to emphasize when engaging with leads.  
-
 
 ## Next step
 

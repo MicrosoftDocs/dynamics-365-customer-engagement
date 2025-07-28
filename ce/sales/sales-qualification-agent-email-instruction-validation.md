@@ -44,4 +44,12 @@ Configure the instructions that the agent should use to ensure that the email fo
 
 ## Configure email validation settings
 
-By default, the agent uses the Email (`emailaddress1`) field in the Lead table to validate email addresses. If you're a using a different field to capture email addresses, you can select that field in the **Email validation** section. The drop-down lists all the email fields (including custom fields) in the Lead table.
+By default, the agent uses the Email (`emailaddress1`) field in the Lead table to validate email addresses. If you're a using a different field to capture email addresses, you can select that field in the **Email validation** section. The drop-down lists all the email fields (including custom fields) in the Lead table.  
+
+## Next step
+
+[Configure hand-off criteria](configure-sales-qualification-agent-handoff-criteria.md)
+
+## Related information
+
+[Configure Sales Qualification Agent settings](configure-sales-qualification-agent.md)

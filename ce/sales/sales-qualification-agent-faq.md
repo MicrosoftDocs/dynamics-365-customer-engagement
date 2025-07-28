@@ -113,4 +113,6 @@ Viewing insights that have been generated doesn't consume capacity.
 The **Review email** option appears in the banner, and the **Draft email** option appears on the **Lead insights** page, only if the following conditions are met:
 
 - Your organization is using server-side synchronization. Ask your admin if you're not sure.
-- The lead's email address is available.
+- The lead's email address is available.  
+ 
+ 

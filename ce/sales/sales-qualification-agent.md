@@ -20,37 +20,36 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
 Sales teams often struggle to keep up with the volume of inbound leads from websites, events, and webinars, leading to missed opportunities and idle leads in CRM. Sales qualification agents in Dynamics 365 Sales are AI assistants that automate manual lead qualification. They help you qualify leads faster and more effectively, so you can spend more time interacting with top leads. These agents don't replace your judgment or decision-making process.
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Types of Sales Qualification Agents
 
-Sales Qualification Agents are classified into two types:
+Sales Qualification Agents are available in two modes:
 
 - **Research**: An AI assistant that automates the research aspect of lead qualification. The agent works on assigned leads based on your selection criteria, such as lead source, rating, or geography. It provides detailed insights about each lead&mdash;their background, recent opportunities, and news about their company. The agent evaluates the lead's fit with your ideal customer profile and generates an initial outreach email for leads that meet your criteria. Sellers can use these insights to make informed decisions about which leads to pursue and send the outreach email to.
 
 - **Engage**: An AI assistant that helps you manage high lead volumes. The agent works on assigned leads based on your selection criteria, such as lead source, rating, or geography. Additionally, the agent autonomously engages with each lead, follows up, and evaluates fit based on your seller hand-off rules. Leads that demonstrate purchase intent and meet most of your criteria are handed over to sellers for qualification, while those that don’t are handed over to supervisors for disqualification, ensuring your sales team focuses only on high-potential opportunities.  
 
-## Difference between Research and Engage
+## Difference between Research and Engage modes
 
-The difference between the Research and Engage lies in their functionality and level of autonomy.  
+The difference between the Research and Engage modes lies in their functionality and level of autonomy.  
 
 | Feature | Research | Engage |
-|---------|----------------|---------------|
-| Autonomy | Researches, provides insights to sellers, and generates outreach emails. | Researches, provides insights, and engages and qualifies leads autonomously. |
-| Functionality | Provides insights and recommendations. | Engages with leads and manages follow-ups. |
+|---------|----------|--------|
+| Autonomy | Researches, provides insights and recommendations, and generates outreach emails. | Researches, provides insights, and engages and qualifies leads autonomously. |
 | Decision-making | Allows seller to make decisions on engagement and qualification. | Automatically engages and hands over the lead to seller for qualification. |
 
 ## Understand Sales Qualification Agent concepts
 
 The Sales Qualification Agents are designed to assist you in the lead qualification process. Here are some key concepts to understand how the agents work on leads and help you qualify leads:
 
-**Ideal customer profile (ICP)**: Applicable for both research and engage agents, the ICP is a set of criteria that defines the characteristics of your ideal customer. The agent uses this profile to evaluate leads and determine their fit. More information: [What is the ideal customer profile and how is the fit determined?](sales-qualification-agent-concepts.md#what-is-the-ideal-customer-profile-and-how-is-the-fit-determined)
+**Ideal customer profile (ICP)**: Applicable for both Research and Engage modes, the ICP is a set of criteria that defines the characteristics of your ideal customer. The agent uses this profile to evaluate leads and determine their fit. More information: [What is the ideal customer profile and how is the fit determined?](sales-qualification-agent-concepts.md#what-is-the-ideal-customer-profile-and-how-is-the-fit-determined)
 
-**Purchase interest**: Applicable for the engage agent, purchase interest is an indicator of the lead's intent to buy. The agent evaluates leads based on their engagement and interest level. More information: [What is purchase interest and how is it determined?](sales-qualification-agent-concepts.md#what-is-purchase-interest-and-how-is-it-determined)
+**Purchase interest**: Applicable for the Engage mode, purchase interest is an indicator of the lead's intent to buy. The agent evaluates leads based on their engagement and interest level. More information: [What is purchase interest and how is it determined?](sales-qualification-agent-concepts.md#what-is-purchase-interest-and-how-is-it-determined)
 
-**BANT (Budget, Authority, Need, Timeline)**: Applicable for the engage agent, BANT is a framework used to evaluate leads based on their budget, authority, need, and timeline. The agent uses this framework to assess the lead's potential and readiness to buy. More information: [What is BANT and how is the fit calculated?](sales-qualification-agent-concepts.md#what-is-bant-and-how-is-the-fit-calculated)
+**BANT (Budget, Authority, Need, Timeline)**: Applicable for the Engage mode, BANT is a framework used to evaluate leads based on their budget, authority, need, and timeline. The agent uses this framework to assess the lead's potential and readiness to buy. More information: [What is BANT and how is the fit calculated?](sales-qualification-agent-concepts.md#what-is-bant-and-how-is-the-fit-calculated)
 
 ## How to use the agent
 
@@ -67,7 +66,7 @@ The usage of the Sales Qualification Agents depend on your role in the sales pro
 The Sales Qualification Agents uses the capacity assigned to your tenant to process leads and generate insights. You can set up either prepaid capacity or pay-as-you-go capacity for the agent. Use the following resources to learn more about setting up capacity and monitoring usage:  
 
 - [Manage consumption-based billing for agent capabilities](copilot-consumption-based-billing.md)
-- [View the agent's usage consumption](configure-sales-qualification-agent.md#view-the-agents-usage-consumption)
+- [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new)
 
 ## Responsible AI
 

@@ -19,9 +19,9 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
 Add knowledge sources in Copilot Studio to surface key insights such as customer testimonials and case studies, that can be included in outreach and follow-up emails, and used for researching your leads. You must add these knowledge sources in Microsoft Copilot Studio for the agent to use them.  
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 **Follow these steps**:
 
@@ -52,10 +52,10 @@ The following are some best practices to consider while adding knowledge sources
 
 With curated knowledge sources, the Sales Qualification Agent becomes a best researcher that understands your organization and surfaces the insights your sellers value most.
 
-## Next step
+## Next steps
 
-- [Start the Sales Qualification Agent](start-sales-qualification-agent.md)
 - [Run simulation to review outreach email content](run-simulation-sqa-outreach-email.md)
+- [Start the Sales Qualification Agent](start-sales-qualification-agent.md)
 
 ## Related information
 

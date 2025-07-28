@@ -19,12 +19,12 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
 Once the leads are qualified based on the handoff criteria, the agent hands them over to sellers or teams based on your selection. The agent uses the round robin distribution to assign leads fairly among the selected sellers or team.
 
 > [!NOTE]
 > Supervisors and sellers must have the salesperson role assigned to them and have at least read permission for the leads handed over by the agent.  
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 **Follow these steps**:
 
