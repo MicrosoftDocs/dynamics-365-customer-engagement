@@ -59,7 +59,7 @@ Read the [create and activate a segment](wa-create-and-activate-a-segment.md#cre
     - **Add related entity**: Add a condition that's based on the attributes of related tables. Select an attribute in the **Related Entity** list, then select **Contains data** or **Does not contain data**, and then define the condition.  
 1. Select the **Consider leads created in the last** option and specify the number of days for the segment to consider leads that are created in specified date for segmentation.  
     For example, if you specify 30 days, the segment considers leads that are created in the last 30 days in your organization for segmentation.  
-1. (Optional) When you've finished defining the conditions, select Simulate to view a list of records that satisfy the conditions.  
+1. (Optional) When you've finished defining the conditions, select **Preview leads** to view a list of records that satisfy the conditions.  
     If you are satisfied with the results, you can continue with the next configuration step.
 
 ## Next step
