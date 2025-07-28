@@ -32,7 +32,7 @@ Calling services are charged on a per minute per participant basis at 0.004 per 
 
 Representatives can transfer or consult with Microsoft Teams users on certain Teams clients only. Learn more at [Supported Teams clients](/azure/communication-services/concepts/call-automation/call-automation-teams-interop#supported-teams-clients).
 
-If the Teams user rejects the call or is unavailable, there isn't an option to leave a voicemail for the caller and the call isn't forwarded to another number. The call from Dynamics 365 is considered a group call, and Teams doesn't honor voicemail or call forwarding settings when you add a Teams user to a group call.
+If the Teams user rejects the call or is unavailable, there isn't an option to leave a voicemail for the caller and the call isn't forwarded to another number. The call from Dynamics 365 is considered as a group call, and Teams doesn't honor voicemail or call forwarding settings when you add a Teams user to a group call.
 
 To enable the consult and transfer experience through VOIP, perform the following prerequisites:
 
@@ -41,11 +41,11 @@ To enable the consult and transfer experience through VOIP, perform the followin
    - Azure Communication Services: [Firewall configuration](/azure/communication-services/concepts/voice-video-calling/network-requirements#firewall-configuration)
    - Microsoft Teams: [Skype for Business Online and Microsoft Teams](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
 - The Teams users who are added to calls must have [Teams Phone System Licenses](/microsoftteams/setting-up-your-phone-system) assigned.
--  Enterprise Voice must be enabled. To enable Enterprise Voice, run the following Powershell command.
+-  Enterprise Voice must be enabled. To enable Enterprise Voice, run the following PowerShell command.
     ```powershell
     Set-CSPhoneNumberAssignment –Identity [user email address] -EnterpriseVoiceEnabled $true
     ```
--  [External Access Policy](/azure/communication-services/concepts/interop/enable-interoperability-teams#4-enable-tenant-policy) must be enabled.  Run the following Powershell command to enable External Access:
+-  [External Access Policy](/azure/communication-services/concepts/interop/enable-interoperability-teams#4-enable-tenant-policy) must be enabled. Run the following PowerShell command to enable External Access:
     ```powershell
     Set-CsExternalAccessPolicy -Identity Global -EnableAcsFederationAccess $true
     ```
