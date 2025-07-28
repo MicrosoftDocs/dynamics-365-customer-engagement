@@ -62,7 +62,7 @@ On the case form, an AI toolbar appears and allows you to do the following actio
 - Provide feedback.
 
 > [!NOTE]
-> If case fields configured for AI agent updates are updated manually, the AI agent doesn’t overwrite the manual updates.
+> Based on your [administrator's configuration](../administer/set-up-autonomous-case-agents.md#configure-autonomous-case-updates), if case fields configured for AI agent updates are updated manually, the AI agent either overwrites the manual updates or leaves them intact.
 
 ### AI-assisted case creation 
 

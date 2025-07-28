@@ -30,7 +30,6 @@ You can use the creation and update feature of the Case Management Agent to do t
 ## Prerequisites
 
 - Administrators must have the CSR Manager or System Administrator role.
-- Customer service representatives (service representatives or representatives) must have the Omnichannel Agent and Customer Service Representative role.
 - Enable [AI form fill assistance](/power-platform/admin/settings-features#ai-form-fill-assistance) in the Power Platform admin center application.
 - [Automatically create or update records](automatically-create-update-records.md) are set up to create case records from emails.
 - [Provision channels in Dynamics 365 Contact Center](/dynamics365/contact-center/implement/provision-channels).
@@ -81,6 +80,7 @@ In the Copilot Service admin center, configure the AI agent to predict and updat
    - Select **Save**.
 1. The system runs case update rules in the order they're listed. You can select the arrow buttons to reorder the rules as needed.
 1. Select **Activate** to activate the rules.
+1. Select **Allow AI agent to override human edits during autonomous updates** for the AI agent to overwrite fields previously edited by service representatives during autonomous case update. 
 
 ## Configure autonomous case creation
 
