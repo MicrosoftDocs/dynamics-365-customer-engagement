@@ -20,6 +20,9 @@ Customer service isn't always limited to contact centers. Employees within the e
 
 With this feature, SMEs can participate in customer service conversations from Microsoft Teams directly without having to configure a phone number. Any Teams users in your tenant who is displayed in the Teams search box can receive calls from your representatives.
 
+> [!NOTE]
+> This feature only enables consult and transfer to Teams users via VOIP. Teams auto attendants and call queues are not supported. 
+
 ## Enable representatives to consult with Microsoft Teams users via VOIP
 
 > [!NOTE]
