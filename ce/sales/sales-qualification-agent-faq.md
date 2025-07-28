@@ -31,7 +31,7 @@ This FAQ provides answers to common questions about the Sales Qualification Agen
 
 The *ideal customer profile* (ICP) is a detailed description of a customer who would benefit the most from your company's products or services. Your ideal customer profile might include characteristics like industry, company size, job title of the lead, location, and annual revenue.
 
-The ICP fit is determined based on the attributes defined in [the Ideal customer profile section of the agent configuration](configure-sales-qualification-agent.md#ideal-customer-profile). The agent categorizes leads into three categories based on the ICP attributes:
+The ICP fit is determined based on the attributes defined in [the Ideal customer profile section of the agent configuration](configure-sales-qualification-agent-handoff-criteria.md#configure-the-ideal-customer-profile-and-bant-criteria). The agent categorizes leads into three categories based on the ICP attributes:
 
 - **High fit**: The lead matches more than 70% of the ICP attributes. This indicates that the lead is a strong candidate for your products or services.
 - **Moderate fit**: The lead matches 50% to 70% of the ICP attributes. This indicates that the lead may be a potential candidate for your products or services, and can be pursued after the high fit leads.
@@ -60,7 +60,7 @@ The following table provides a few sample leads and their ICP fit category based
 
 ## Why don't I see the insights banner in the lead form?
 
-The insights banner appears only for leads that the agent researched. Learn more in [Selection criteria for research](use-sales-qualification-agent.md#selection-criteria-for-research).
+The insights banner appears only for leads that the agent researched. Learn more in [Selection criteria for research](use-sales-qualification-agent.md).
 
 ## Why did the agent pause?
 

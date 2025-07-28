@@ -19,9 +19,9 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
 As an administrator, you can manage the Sales Qualification Agent in your organization by editing or stopping the agent.
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Edit the Sales Qualification Agent
 
@@ -34,11 +34,7 @@ Lead qualification is an evolving process which requires experimentation, contin
 
 1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  
 1. Edit the sections as required and then select **Apply changes**.  
-
-    :::image type="content" source="media/sqa-settings-edit-page.png" alt-text="Screenshot of editing the Sales Qualification Agent in settings page.":::
-
-1. On the confirmation dialog, select **Apply changes** to confirm the changes.
-
+1. On the confirmation dialog, select **Apply changes** to confirm the changes.  
     Applying the changes might take a few seconds to update the settings, you can continue working while the changes are being applied.  
 
 The updated agent is active, and new leads are processed based on the updated settings. However, leads that are already processed based on the previous agent configurations will not be reprocessed.
