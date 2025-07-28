@@ -23,8 +23,8 @@ With this feature, SMEs can participate in customer service conversations from M
 ## Enable representatives to consult with Microsoft Teams users via VOIP
 
 > [!NOTE]
-> - Consult and transfer to Microsoft Teams users via PSTN on the **Teams** tab of the dialer isn't supported. Use the **External number** tab to call numbers via PSTN.
-> - You can enable consult and transfer to Teams users via VOIP only. [Teams auto attendants](/microsoftteams/create-a-phone-system-auto-attendant) and [call queues](/microsoftteams/create-a-phone-system-call-queue) aren't supported.
+> - Consult with and transfer to Microsoft Teams users via PSTN on the **Teams** tab of the dialer isn't supported. Use the **External number** tab to call numbers via PSTN.
+> - You can enable consult with and transfer to Teams users via VOIP only. [Teams auto attendants](/microsoftteams/create-a-phone-system-auto-attendant) and [call queues](/microsoftteams/create-a-phone-system-call-queue) aren't supported.
 
 To allow the representatives to consult with Microsoft Teams users, enable the **External Microsoft Teams users** in **Consult** and **Transfer** settings in the voice channel section of the voice workstream.
 
