@@ -1,10 +1,10 @@
 ---
-title: Enable voice consult with Microsoft Teams user for the voice channel
-description: Learn how to enable the consulted experience between a voice channel customer service representative and a Microsoft Teams user.
+title: Enable voice consult with Microsoft Teams user in the voice channel
+description: Learn how to enable the consult experience between a customer service representative and Microsoft Teams user in the voice channel in Dynamics 365 Contact Center and Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 02/07/2025
+ms.date: 07/28/2025
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
@@ -16,14 +16,15 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-Customer service isn't always limited to contact centers. Employees within the enterprise are often required to assist customer service representatives (service representative or representative) in customer service scenarios and talk to customers directly for highly technical or VIP engagements. You can enable your representative to consult with or transfer voice calls in Omnichannel for Customer Service to subject matter experts (SMEs) in Microsoft Teams using Voice Over Internet Protocol (VOIP). This feature is available through Azure Communication Services Call Automation.
+Customer service isn't always limited to contact centers. Employees within the enterprise are often required to assist service representatives in customer service scenarios and talk to customers directly for highly technical or VIP engagements. You can enable your representative to consult with or transfer voice calls in Omnichannel for Customer Service to subject matter experts (SMEs) in Microsoft Teams using Voice Over Internet Protocol (VOIP). This feature is available through Azure Communication Services Call Automation.
 
 With this feature, SMEs can participate in customer service conversations from Microsoft Teams directly without having to configure a phone number. Any Teams users in your tenant who is displayed in the Teams search box can receive calls from your representatives.
 
 ## Enable representatives to consult with Microsoft Teams users via VOIP
 
 > [!NOTE]
-> Consult and transfer to Microsoft Teams users via PSTN on the **Teams** tab of the dialer isn't supported. Use the **External number** tab to call numbers via PSTN.
+> - Consult and transfer to Microsoft Teams users via PSTN on the **Teams** tab of the dialer isn't supported. Use the **External number** tab to call numbers via PSTN.
+> - You can enable consult and transfer to Teams users via VOIP only. [Teams auto attendants](/microsoftteams/create-a-phone-system-auto-attendant) and [call queues](/microsoftteams/create-a-phone-system-call-queue) aren't supported.
 
 To allow the representatives to consult with Microsoft Teams users, enable the **External Microsoft Teams users** in **Consult** and **Transfer** settings in the voice channel section of the voice workstream.
 
