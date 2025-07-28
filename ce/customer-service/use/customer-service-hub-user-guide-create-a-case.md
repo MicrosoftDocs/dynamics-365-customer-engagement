@@ -116,6 +116,6 @@ Make sure that you have the Customer Service Manager or Customer Service Represe
 
 [Learn the basics of the Customer Service Hub ](../implement/customer-service-hub-user-guide-basics.md)  
 [Use the Main form and its components](../../customerengagement/on-premises/customize/use-main-form-and-components.md)  
-[Use Copilot to resolve cases faster](../use/copilot-use-summary.md#summarize-cases)  
+[Use Copilot to resolve cases faster](../use/copilot-use-summary.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
