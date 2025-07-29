@@ -16,7 +16,7 @@ ai-usage: ai-assisted
 
 # Monitor leads handled by the Sales Qualification Agent
 
-As a supervisor or administrator, you can monitor the performance of the Sales Qualification Agent and the leads it handles to verify its effectiveness. The supervisor workspace includes a dashboard that provides insights into the agent's performance, including the percentage of leads handled by the agent, revenue generated from these leads, and a few email engagement metrics.
+As a supervisor or administrator, you can monitor the performance of the Sales Qualification Agent and the leads it handles to verify its effectiveness. The supervisor workspace includes a dashboard that provides insights into the agent's performance, including the percentage of leads handled by the agent, revenue generated from these leads, and customer engagement effectiveness. 
 
 ## View the supervisor dashboard
 
@@ -24,12 +24,12 @@ As a supervisor or administrator, you can monitor the performance of the Sales Q
 1. Under General settings, select **Dynamics 365 AI hub**.
 1. In the **AI Optimization** card, select **See insights**.
    The supervisor workspace opens, displaying various cards that provide insights into the Sales Qualification Agent's performance.  
-1. Verify the Last refreshed date and time to ensure the data is up-to-date. If needed, you can refresh the dashboard by selecting the **Refresh** icon.
+1. Verify the Last refreshed date and time to ensure the data is up-to-date. The data is refreshed when you open the dashboard. If needed, you can refresh the dashboard by selecting the **Refresh** icon.
 1. Select the **Time period** filter to specify the period for which you want to view the data. By default, the dashboard shows data for the last 7 days.
 1. To view the list of leads handled by the agent, select any of the following buttons:
 
    - **See disqualified leads**: Opens the **Leads disqualified by AI agent** view that lists leads that were disqualified by the agent during the selected time period. Open a lead to view the details of the disqualification in the **Lead insights** page. If you don't agree with the disqualification, select **Reassign** to assign the lead to a seller for follow-up and qualification.
-   - **See leads in process**: Opens the **Leads in process by AI agent** view that lists all leads that are currently in process by the agent. This list includes leads that are assigned to the agent for processing.
+   - **See leads in process**: Opens the **Leads in process by AI agent** view that lists all leads that the agent is currently processing. This includes leads that are being researched and leads that are being engaged with (engage mode only).
    - **See handed over leads**: Opens the **Leads handed over by AI agent** view that lists all leads that were handed over to the seller for followup and qualification during the selected time period.
 
 1. Depending on the agent mode, you may see different metrics and insights in the dashboard:
@@ -52,11 +52,14 @@ If your admin has configured the Sales Qualification Agent to run in research on
 - **Business metrics**: Displays the following metrics:
 
 - **Lead processing funnel**: This funnel chart includes the number of leads at each stage of the lead processing funnel, including the total number of leads assigned to the agent, leads in progress, disqualified, failed, and handed over to the sellers. Hover over the funnel chart to view the flow and the number of leads at each stage. This chart includes the following categories:
-    - **Leads assigned**: Includes leads that were assigned to the agent for processing.
-    - **In progress**: Includes leads that are currently being processed by the agent for research and outreach email generation.
-    - **Leads disqualified**: Includes leads that were disqualified by the agent due to low fit. If the supervisor reassigns the disqualified leads to a seller, they are included in the **Handed over to sellers** category.
-    - **Failed**: Includes leads that failed to engage with the agent or were not successfully processed.
-    - **Handed over to sellers**: Includes leads that were handed over to sellers by the agent and any disqualified leads that were reassigned by the supervisor to the seller.
+
+    | Category                | Description |
+    |-------------------------|-------------|
+    | **Leads assigned**      | Leads assigned to the agent for processing. |
+    | **In progress**         | Leads currently being processed for research and outreach email generation. |
+    | **Leads disqualified**  | Leads disqualified by the agent due to low fit. Disqualified leads that are reassigned by a supervisor are included in **Handed over to sellers**. |
+    | **Failed**              | Leads that failed to engage with the agent or were not successfully processed. |
+    | **Handed over to sellers** | Leads handed over to sellers by the agent, including disqualified leads reassigned by the supervisor. |
 
 
 ## View metrics related to engage mode
@@ -82,16 +85,28 @@ If your admin has configured the Sales Qualification Agent to run in research an
     | Email response rate | The percentage of leads that responded to the outreach email sent by the agent, compared to the total number of outreach emails sent by the agent. | Leads that responded to outreach emails ÷ Total outreach emails sent by agent × 100 |
     | Customer queries responded | The number of customer queries that the agent responded to during the selected time period. | Count of customer queries responded by agent |
 
-- **Business metrics**: The following table shows the business metrics and funnel categories:
+- **Business metrics**: 
 
-    | Metric/Category | Description |
-    |-----------------|-------------|
-    | **Lead processing funnel** | This funnel chart includes the number of leads at each stage of the lead processing funnel, including the total number of leads assigned to the agent, leads in progress, disqualified, blocked, failed, handed over to the seller, and converted into opportunities. |
-    | **Customer engagement funnel** | This funnel chart includes the number of leads at each stage of the customer engagement funnel, including the total number of outreach emails sent, customer responses received, and no response received. The customer responses are further divided into the following categories: |
-    | In progress | Includes leads that the agent is currently engaging with. |
+    - **Lead processing funnel:** This funnel chart includes the number of leads at each stage of the lead processing funnel. The following table describes the categories in the funnel chart:
+
+    | Category                | Description |
+    |-------------------------|-------------|
+    | **Leads assigned**      | Leads assigned to the agent for processing. |
+    | **In progress**         | Leads currently being processed for research and outreach email generation. |
+    | **Blocked** | Leads that the agent couldn't autonomously process due to an open question that the agent couldn't answer. These leads are assigned to the seller who owned the lead. |
+    | **Disqualified**  | Leads disqualified by the agent due to low fit. Disqualified leads that are reassigned by a supervisor are included in **Handed over to sellers**. |
+    | **Failed**              | Leads that failed to engage with the agent or were not successfully processed. |
+    | **Handed over to sellers** | Leads handed over to sellers by the agent, including disqualified leads reassigned by the supervisor. |
+    | **Opportunities created** | Leads that were handed over by the agent and converted into opportunities. |
+
+    - **Customer engagement funnel**: This funnel chart includes the number of leads at each stage of the customer engagement funnel, including the total number of outreach emails sent, customer responses received, and no response received. The customer responses are further divided into the following categories: 
+ 
+    | Category                | Description |
+    |-------------------------|-------------|
+    | **In progress** | Includes leads that the agent is currently engaging with. |
     | Autonomous engagements | Includes leads that the agent has completed the engagement with, either by disqualifying them or handing them over to the seller with a positive buying intent. |
-    | Transferred to sellers | Includes leads that are handed over to the seller for follow-up and qualification. This number includes leads that have been handed over with positive intent and leads with an open question that the agent couldn't resolve. |
-    | Handover failed | Includes leads that the agent couldn't hand over to the seller due to technical issues or other reasons. These leads are assigned to the seller who owned the lead. |
+    | **Transferred to sellers** | Includes leads that are handed over to the seller for follow-up and clarification. This number doesn't include leads that were handed over with positive intent. |
+    | **Handover failed** | Includes leads that the agent couldn't hand over to the seller due to technical issues or other reasons. These leads are assigned to the seller who owned the lead. |
 
     - **Lead classification**: Displays the leads handled by the agent, categorized by their rating such as, **Hot**, **Warm**, and **Cold**.
     

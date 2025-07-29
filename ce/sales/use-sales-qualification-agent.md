@@ -20,13 +20,27 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Sales Qualification Agent in Dynamics 365 Sales researches your leads, offers detailed insights about them, and determines if they're a good fit for your business based on your ideal customer profile. It also drafts an initial outreach email based on its research insights, saving you time and effort and improving your sales outcomes. This article describes how to use the Sales Qualification Agent to qualify your leads more effectively. 
+Depending on the level of autonomy your admin has configured, the Sales Qualification Agent can help you qualify leads by automatically completing the following tasks:
+
+- **Research only mode**
+    - Researches leads and determines whether they are a good fit for your business based on the ideal customer profile.
+    - Provides insights about the lead, such as company information, financial health, and recent news. 
+    - Hands off the lead to you if it fits your ideal customer profile or disqualifies the lead if it isn't a good fit.
+    - Generates a draft outreach email for you to review and send.
+
+- **Research and engage mode**
+    - Researches leads and determines whether they are a good fit for your business based on the ideal customer profile and BANT criteria (Budget, Authority, Need, and Timelines).
+    - Sends a personalized outreach email to the lead based on its insights.
+    - Provides insights about the lead, such as company information, financial health, and recent news.
+    - Engages with the lead based on their responses to the outreach email.
+    - Sends follow-up emails to the lead based on their responses and engagement.
+    - Hands off the lead to you when it detects positive intent or disqualifies the lead if it isn't a good fit or detects negative intent.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 
-Before you can use the Sales Qualification Agent, your admin must [set it up](./configure-sales-qualification-agent.md) for you and your sales team. 
+Before you can use the Sales Qualification Agent, your admin must [set it up](./configure-sales-qualification-agent.md) for you and your sales team.
 
 ## Qualify leads
 
