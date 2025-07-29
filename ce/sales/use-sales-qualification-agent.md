@@ -62,60 +62,82 @@ When the ideal customer profile (ICP) fit for a lead is high or medium, the agen
 
 ---
 
-You get notified when a lead is handed over to you. If you missed that, open the **Leads handed over by AI Agent** view to view all the leads handed over to you.
-
 
 ## View leads handed over by the agent
 
+You get notified when a lead is handed over to you. If you missed that, follow these steps to view the leads handed over by the Sales Qualification Agent.
+
 1. In the Sales Hub app, go to **Leads**.
+
 1. From the views drop-down, select **Leads handed over by AI Agent**.
-1. 
+1. Select a lead.
+   - If you're in the focused view, you'll see the **Lead insights** page for the lead.
 
-    
-
-# [Research](#tab/research)
-
-
-# [Engage](#tab/engage)
-
----
-## View leads disqualified by the agent
-
-## View leads that the agent is blocked on
-
-
-## Qualify leads
-
-1. In the Sales Hub app, go to **Leads**.
-
-1. From the views drop-down, select *Leads from the AI Agent*. 
-
-    :::image type="content" source="media/sqa-banner.png" alt-text="Screenshot of a lead form showing the Sales Qualification Agent's recommendation, with the agent banner highlighted.":::
-
-1. Select an action button:
-
-   - **Review email** opens a draft outreach email that the agent generated for you based on its insights. It's ready for you to send, but you should review it and make any needed changes before you send it. [Why don't I see the **Review email** or **Draft email** option?](sales-qualification-agent-faq.md#cant-see-email-options) in the Sales Qualification Agent FAQ.
-
-   - **More insights** opens the [**Lead insights** page](#lead-insights-page), which offers a 360-degree view of the lead and includes the date the agent last updated its research data.  
-     :::image type="content" source="media/lead-insights-page-annotated.png" alt-text="Screenshot of the Lead insights page showing the Sales Qualification Agent's insights about a lead with annotations.":::
-    The next section describes each annotated segment in the screenshot.
+   - If you're in the read-only grid view, you'll see the lead form. Wait for a few seconds for the page to load the research summary at the top of the lead form. The summary includes recommended actions and reasons for recommendation. Select **See full research** to view the **Lead insights** page.
 
 ### Lead insights page
 
-The **Lead insights** page includes the following information.
+The **Lead insights** page offers a 360-degree view of the lead, key insights, and provides recommended actions. Most of the insights are the same in both modes of the agent. In the following sections, we highlight the differences where applicable.
+
+#### Header
+
+The following screenshot shows the header of the **Lead insights** page in research and engage mode.
+
+:::image type="content" source="media/leads-insights-page-header.png" alt-text="Screenshot of the header of the Lead insights page in research and engage mode.":::
+
+- **Lead information**: Provides key details about the lead, including topic, job title, company name, phone number, primary email address, and lead rating. Learn more about [lead rating](sales-qualification-agent-concepts.md#how-does-the-agent-determine-the-lead-rating).
+
+- **Connected accounts and contacts**: Select the link icon next to the lead's name to view the accounts and contacts that are connected to the lead. If the lead isn't connected to any account or contact, the agent automatically connects to the most relevant account and contact records based on the lead's email address, domain, and company name. If the connected records aren't accurate, select **Disconnect** to remove the connection and then connect the lead to a different account or contact.  
+Once you manually connect a record, the agent uses that connection for future research.
+- **Email validation**: The agent performs checks on a lead's primary email address to ensure it is active, deliverable, and relevant for business communications. Checks include **Email validity** (properly formatted and deliverable; prompts for correction if invalid) and **Email type** (work or personal, labeled in the interface). You can mark the address as valid/invalid and work/personal by selecting the email icon.
+
+- **Research timestamp**: Displays the date and time when the agent last updated its research data for the lead. This helps you understand how current the insights are. The agent doesn't refresh the research data unless there's a change that significantly impacts the current evaluation of the lead. Learn more about the trigger events in [When does the agent run?](sales-qualification-agent-faq.md#when-does-the-agent-run)
+
+#### Suggested action
+
+The following screenshot shows the **Suggested action** section of the **Lead insights** page in research and engage mode.
+
+:::image type="content" source="media/lead-insights-page-suggested-action.png" alt-text="Screenshot of the Suggested action section of the Lead insights page in research and engage mode.":::
+
+This section summarizes the lead's alignment with the hand off criteria and provides recommended actions. Select the call-to-action button to take action. The following actions are available:
+  
+- **Research mode**: The **Draft email** action lets you view the pre-generated outreach email and send it to the lead.  
+- **Engage mode**: The **Draft email** action lets you view the response to a pending inquiry from the lead, if any. The **Qualify** action lets you qualify the lead.
+
+#### Key insights
+
+The following screenshot shows the **Key insights** section of the **Lead insights** page in research and engage mode.
+
+:::image type="content" source="media/lead-insights-page-key-insights.png" alt-text="Screenshot of the Key insights section of the Lead insights page in research and engage mode.":::
+
+- **What happened to this lead? (Available only in Engage mode)**: Includes an interaction summary that outlines any CRM activities such as emails, phone calls, appointments, and Customer Insights - Journeys interactions that the agent had with the lead. This section helps the seller quickly get up to speed with all the interactions between the agent and the lead.
+
+- **Why this lead is rated hot, warm, or cold**: Summarizes the key reasons for rating the lead as hot, warm, or cold. See [How does the agent determine the lead rating?](sales-qualification-agent-concepts.md#how-does-the-agent-determine-the-lead-rating).
+
+- **How was this generated?**: Displays the signal strength and the series of steps that explains how the agent generated the insights. **Signal strength** indicates the quality and completeness of the input data used to generate the insights. The higher the signal strength, the more reliable the insights are. The following screenshot shows the signal strength and steps in research mode.
+:::image type="content" source="media/lead-insights-page-explainer.png" alt-text="Screenshot of the How was this generated section of the Lead insights page in research mode.":::
+
+#### Deeper insights
+
+**Company overview, finances, and news**
+
+The agent searches the public web for information about the lead’s company. If your admin has configured custom knowledge sources for research, the agent prioritizes looking for information from those specified websites.
+
+- **Overview:** Fetches general information about the lead’s company, such as industry, location, company size, products and services sold, and whether it is B2B or B2C. Outlines the company’s strategic priorities and how those relate to your offerings.
+- **Finances:** Summarizes the company’s financial health, outlines key financial metrics, and interprets what they mean for your sales approach.
+- **News:** Summarizes up to three recent news articles and explains how they relate to your offerings.
 
 
-| Number on the screenshot | Section                        | Description |
-|--------|--------------------------------|---------------|
-| 1 | Header: Connected accounts and contacts | Select the link icon next to the lead's name to view the accounts and contacts that are connected to the lead. If the lead isn't connected to any account or contact, the agent automatically connects to the most relevant account and contact records based on the lead's email address, domain, and company name. If the connected records aren't accurate, select **Disconnect** to remove the connection and then connect the lead to a different account or contact. <br> Note: Once you manually connect a record, the agent uses that connection for future research. |
-| 2 | Header: Email validation | The agent performs checks on a lead's primary email address to ensure it is active, deliverable, and relevant for business communications. Checks include: **Email validity** (properly formatted and deliverable; prompts for correction if invalid) and **Email type** (work or personal, labeled in the interface). You can mark the address as valid/invalid and work/personal by selecting the email icon. |
-| 3 | Key insights | Summarizes key insights about the lead, including why it is or isn't a good fit for your business based on the ideal customer profile. To review the outreach email the agent generated, select **Draft email**. Review and edit as needed before sending. If your company uses Dynamics 365 Customer Insights - Journeys, key insights also include recent marketing activities such as email opens, link clicks, event registrations and attendance, and form submissions. |
-| 4 | Who can make an introduction | Lists people who can introduce you to the lead, including mutual connections and colleagues who interacted with the lead in emails or meetings. |
-| 5 | Business overview | Provides insights on the company's industry, size, products and services, and mission statement. |
-| 6 | Finances | Offers insights on the company's financial health and key financial metrics. |
-| 7 | Account news | Shares insights from relevant news articles, such as product launches, leadership changes, contracts or clients won, community involvement, awards, and recognition.  
+## View leads disqualified by the agent
 
-These insights about your leads seamlessly bridge the gap between marketing engagement data and sales, saving you&mdash;and your company&mdash;significant time and costs. You can focus on the most valuable opportunities faster and drive more personalized outreach and engagement.
+Leads disqualified by the agent are not handed over to sellers. If you're a supervisor, you can view these leads to understand why the agent disqualified them and reassign them to a seller if you think they are worth pursuing.
+
+1. In the Sales Hub app, go to **Leads**.
+1. From the views drop-down, select **Leads disqualified by AI Agent**.
+1. Open a lead to view the reason for disqualification. The reason is displayed in the **Lead insights** page under the **Suggested action** section. 
+1. If you think the lead is worth pursuing, select **Reassign** to assign it to a seller. 
+   The lead is handed over to a seller based on the [assignment rule configured by the admin](configure-sqa-assignment-rules.md).
+
 
 ## Filter leads by priority ranking
 
