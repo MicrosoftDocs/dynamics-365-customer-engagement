@@ -941,6 +941,8 @@ items:
               href: sales-qualification-agent.md
             - name: Qualify leads with Sales Qualification Agent
               href: use-sales-qualification-agent.md
+            - name: Monitor leads handled by the Sales Qualification Agent
+              href: monitor-leads-by-sales-qualification-agent.md
             - name: FAQ about Sales Qualification Agent
               href: sales-qualification-agent-faq.md
         - name: Populate scores using your own model

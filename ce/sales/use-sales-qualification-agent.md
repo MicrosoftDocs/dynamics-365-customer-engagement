@@ -1,6 +1,6 @@
 ---
-title: Qualify leads with the Sales Qualification Agent
-description: Learn how to use the Sales Qualification Agent in Dynamics 365 Sales to qualify leads more effectively and improve sales outcomes.
+title: Work on leads handed over by the Sales Qualification Agent
+description: 
 ms.date: 07/03/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
@@ -16,7 +16,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Qualify leads with the Sales Qualification Agent
+# Work on leads handed over by the Sales Qualification Agent
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -41,6 +41,48 @@ Depending on the level of autonomy your admin has configured, the Sales Qualific
 ## Prerequisites
 
 Before you can use the Sales Qualification Agent, your admin must [set it up](./configure-sales-qualification-agent.md) for you and your sales team.
+
+## Lead hand over scenarios
+
+When a lead meets the selection criteria, it gets assigned to the agent for processing. After the agent processes the lead, it hands over the lead to you for further action. Depending on the mode configured by your admin, the hand over can happen at different stages. Select a tab to learn more about the handover scenarios. 
+
+> [!NOTE]
+> If the lead doesn't meet the handoff criteria defined by your admin, the agent disqualifies it. The lead continues to be assigned to the agent.
+
+# [Research](#tab/research)
+
+When the ideal customer profile (ICP) fit for a lead is high or medium, the agent hands over the lead to a seller as per the [assignment rule configured by the admin](configure-sqa-assignment-rules.md).
+
+# [Engage](#tab/engage)
+
+- The agent hands over the lead in the following scenarios:
+    - The lead meets the ICP and BANT criteria, sends a positive response to the outreach email, or shows positive intent.
+    - The agent can't detect the lead's intent.
+    - The agent is blocked on the lead as it's unable to find the answer to the lead's question.
+
+---
+
+You get notified when a lead is handed over to you. If you missed that, open the **Leads handed over by AI Agent** view to view all the leads handed over to you.
+
+
+## View leads handed over by the agent
+
+1. In the Sales Hub app, go to **Leads**.
+1. From the views drop-down, select **Leads handed over by AI Agent**.
+1. 
+
+    
+
+# [Research](#tab/research)
+
+
+# [Engage](#tab/engage)
+
+---
+## View leads disqualified by the agent
+
+## View leads that the agent is blocked on
+
 
 ## Qualify leads
 

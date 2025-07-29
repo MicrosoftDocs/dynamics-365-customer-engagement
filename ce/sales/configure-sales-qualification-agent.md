@@ -61,8 +61,15 @@ Review the following considerations before you start deploying the autonomous Sa
 
 ## Grant permissions to custom security role
 
-If you're using custom security roles for your sales team instead of the out-of-the-box roles, you have two options. You can either grant specific permissions to the custom roles, or assign the Salesperson or Sales Manager role to users who'll be working on leads handled by the agent. This permission is necessary for sellers to access the insights generated and work on the leads handed over by the agent. Learn more about granting permissions in [Define the privileges and properties of a security role](/power-platform/admin/security-roles-privileges?tabs=new#define-the-privileges-and-properties-of-a-security-role).
+If you're using custom security roles for your sales team instead of the out-of-the-box roles, you have two options. 
 
+- Grant the necessary permissions, listed in the following table, to the custom role. This option is recommended if you want to allow all the users with the custom role to work on leads handed over by the agent.
+
+- Assign the out-of-the-box roles&mdash;Salesperson or Sales Manager&mdash;only to users who'll be working on leads handed over by the agent. This option is recommended if you want to allow only a subset of users with the custom role to work on the agent-handed-over leads.
+
+Learn more about granting permissions in [Define the privileges and properties of a security role](/power-platform/admin/security-roles-privileges?tabs=new#define-the-privileges-and-properties-of-a-security-role).
+
+**Permissions required for custom security roles:**
 
 | Purpose | Entity name (Logical name) | Permissions |
 |---------|----------------------------|-------------|
