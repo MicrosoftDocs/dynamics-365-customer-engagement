@@ -67,7 +67,9 @@ To view translated voice transcripts for calls, you must enable call recording, 
   
    > [!div class="mx-imgBorder"]
    > ![Screenshot of closed conversation list.](../media/voice-channel-conversations-list.png)
-
+[!NOTE]
+   > Transcript timestaps are grouped by two-minute intervals to account for potentital drifts caused by delays.
+   
 ## Set up bulk download of call recordings
 
 You can create a Power Automate flow to download call recordings in bulk. Learn more in [Download call recordings in bulk](/dynamics365/contact-center/extend/download-call-recordings-bulk).
