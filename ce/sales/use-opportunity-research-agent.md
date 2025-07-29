@@ -1,5 +1,5 @@
 ---
-title: Work on opportunities handed over by the Opportunity Research Agent
+title: Work on opportunities handled by the Opportunity Research Agent
 description: Learn how to work on opportunities handled by the Opportunity Research Agent.
 ms.date: 07/14/2025
 ms.topic: how-to
@@ -15,7 +15,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Work on opportunities handed over by the Opportunity Research Agent
+# Work on opportunities handled by the Opportunity Research Agent
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
