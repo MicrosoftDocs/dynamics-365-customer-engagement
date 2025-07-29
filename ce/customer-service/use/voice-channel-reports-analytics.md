@@ -1,7 +1,7 @@
 ---
 title: Voice channel historical analytics and call insights
-description: Learn about the analytics reports and call insights that are available in the voice channel in Contact Center.
-ms.date: 07/01/2024
+description: Learn about the analytics reports and call insights that are available in the voice channel in Dynamics 365 Contact Center and Customer Service.
+ms.date: 07/30/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
