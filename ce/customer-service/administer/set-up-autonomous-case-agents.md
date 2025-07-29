@@ -48,7 +48,7 @@ To help the AI agent make better predictions for lookup fields, add descriptive 
 -  Do the following steps to improve the AI agent's prediction accuracy with lookup fields:
     - For the required lookup entity, add a new optional text field to contain a description of the record if a description field doesn't exist.n on.
     - Add the meaning and usage for the description fields in the lookup records. 
-    - Update the **Quick Find** view of the lookup entity to include the new description field as a column.
+    - Update the **Quick Find** view of the lookup entity to include the new description field as a column. 
     - Save and publish the changes.
     
   For example, consider case categories like "Billing" and "Account Issues". When a customer writes "I can't access my account to pay my bill," it fits both categories. By adding clear descriptions to each lookup record, the AI agent can make more accurate predictions. If you include descriptions to the "Billing" category such as "Questions about charges and invoices, payment processing issues, refund requests," and  "Login problems and password resets, profile updates and settings, account access difficulties" to "Account issues", the AI agent categorizes the customer's message as "Account Issues" because the primary problem relates to account access rather than billing.
