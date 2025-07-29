@@ -1,7 +1,7 @@
 ---
 title: "Overview of Universal Resource Scheduling in Dynamics 365"
 description: "Schedule any entity using Universal Resource Scheduling. Make sure you meet the prerequisites, then follow these steps for scheduling an entity."
-ms.date: 07/07/2025
+ms.date: 07/25/2025
 ms.reviewer: v-wendysmith
 ms.subservice: common-scheduler
 ms.topic: overview
@@ -22,13 +22,9 @@ Universal Resource Scheduling is a Dynamics 365 solution that allows organizatio
 > Administrators of these three apps, which rely on Universal Resource Scheduling, can access all default entities within the Universal Resource Scheduling solution. If a user creates a trial for one of these applications, they get admin permissions and can access all the entities.
 
 ## Prerequisites
+  
+- You have access to the Dynamics 365 Field Service, Project Operations, or Customer Service application.
 
- Before you can use Universal Resource Scheduling, make sure you have:  
-  
-- Dynamics 365 Field Service, Project Operations, or Customer Service application.
-  
-- User credentials with the Universal Resource Scheduling security role.
-  
 ## Enable scheduling for another entity
 
 You can also enable scheduling for another entity, including custom entities. Once enabled, the system creates a resource requirement record related to the entity. This way, when you create a resource requirement, the system automatically checks which entity the resource requirement is for.
