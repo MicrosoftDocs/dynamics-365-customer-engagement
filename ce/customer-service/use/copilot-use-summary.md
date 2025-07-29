@@ -1,17 +1,17 @@
 ---
-title: Use Copilot to summarize cases
-description: Learn how representatives can use Copilot to summarize cases in Copilot Service workspace.
+title: Use Copilot-generated case summaries
+description: Learn how representatives can use Copilot-generated case summaries to address and resolve customer issues in Dynamics 365 Customer Service.
 author: gandhamm 
 ms.author: mgandham 
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 05/05/2025
+ms.date: 07/28/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template 
 ---
 
-# Summarize cases
+# Use Copilot generated case summary
 
 [!INCLUDE[cc-feature-availability-cs-only](../../includes/cc-feature-availability-cs-only.md)]
 

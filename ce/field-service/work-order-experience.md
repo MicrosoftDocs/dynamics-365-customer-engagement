@@ -1,7 +1,7 @@
 ---
 title: New work order experience
 description: Learn about the new work order experience in Dynamics 365 Field Service, including how to manage work orders and customize forms.
-ms.date: 06/26/2024
+ms.date: 07/18/2025
 ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
@@ -32,7 +32,7 @@ The work order list control isn't available for mobile devices.
 
 The new editable grid shows key information, such as status, service account, priority, and booked resources for your work orders. Links take you to related records. You can update the status and priority of work orders directly on the grid. [Update more more fields in a side pane](#side-pane). To find information quickly, apply filters to the grid. To switch between the legacy read-only grid and the new editable grid, select **Show As** in the command bar.
 
-:::image type="content" source="media/work-order-list-grid.png" alt-text="Screenshot of the new Work Orders view in the refreshed Field Service user experience, with the Show As button highlighted.":::
+:::image type="content" source="media/work-order-list-grid-new.png" alt-text="Screenshot of the new Work Orders view in the refreshed Field Service user experience, with the Show As button highlighted.":::
 
 > [!TIP]
 > The new work order experience doesn't support filters. However, you can select **Show as** and switch to the read-only grid to bring back the classic experience with filtering capabilities.
@@ -41,7 +41,7 @@ The new editable grid shows key information, such as status, service account, pr
 
 The work order side pane is a simplified version of the work order details form. It provides easy access to quick actions like status updates, booking a work order, and editing instructions.
 
-:::image type="content" source="media/work-order-side-pane.png" alt-text="Screenshot of the new Work Orders view, with the side pane icon highlighted in the item list and the side pane open.":::
+:::image type="content" source="media/work-order-side-pane-new.png" alt-text="Screenshot of the new Work Orders view, with the side pane icon highlighted in the item list and the side pane open.":::
 
 To open a work order in the side pane, hover over a work order in the list and select the **Work Order Side Pane** icon.
 
@@ -84,13 +84,13 @@ The new, dynamic card for bookings is the key change in the new work order form.
 
 For now, the dynamic card supports only work orders with a single requirement.
 
-Work orders are primarily designed for less than 5 bookings. It can support more if you don't use the new work order form's booking control and instead use the related bookings tab. However, hundreds of bookings lead to unexpected behavior.
+Work orders are primarily designed for fewer than five bookings. It can support more if you don't use the new work order form's booking control and instead use the related bookings tab. However, hundreds of bookings lead to unexpected behavior.
 
 The **Booking** card contains different information, depending on the work order's status.
 
 - **Unscheduled**: Get booking suggestions that fit the required or promised timeframe and the required skills. For each resource, the card shows the suggested appointment time and the travel time from the technician's previous appointment. If no suggestion works, select **Find more availability** to open the schedule assistant and choose a resource to book.
 
-- **Scheduled**: View the technician's contact information, the time and duration of the appointment, and the expected travel time.  You can start a phone call or email using the default client set in your browser. The **Message** link opens Microsoft Teams. You can change the booking's status and rebook it if needed.
+- **Scheduled**: View the technician's contact information, the time and duration of the appointment, and the expected travel time. You can start a phone call or email using the default client set in your browser. The **Message** link opens Microsoft Teams. You can change the booking's status and rebook it if needed.
 
 - **Completed**: View a summary of the work, including the resolution and the number of products and services the technician used. If the work order isn't posted, you can review the information and then post it or [print a service report](mobile/create-service-report.md). If the work order has been posted, you can print the service report and view or print the invoice.
 
@@ -156,7 +156,7 @@ For more information about customizing work orders, see [Customization considera
 In the near future, the new work order experience becomes the new default view for all organizations automatically. To opt out from the planned change, an admin needs to change a setting for your organization.
 
 > [!NOTE]
-> The update to the new work order experience won't override any of your custom logic to set default forms.
+> The update to the new work order experience doesn't override your custom logic to set default forms.
 
 ### Opt out from the new experience
 
