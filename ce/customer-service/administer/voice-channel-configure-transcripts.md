@@ -70,7 +70,7 @@ To view translated voice transcripts for calls, you must enable call recording, 
 
 ## Set up bulk download of call recordings
 
-You can create a Power Automate flow to download call recordings in bulk. Learn more in [Download call recordings in bulk](/dynamics365/contact-center/extend/download-call-recodings-bulk).
+You can create a Power Automate flow to download call recordings in bulk. Learn more in [Download call recordings in bulk](/dynamics365/contact-center/extend/download-call-recordings-bulk).
 
 ### Storage location of your recordings and cost
  
