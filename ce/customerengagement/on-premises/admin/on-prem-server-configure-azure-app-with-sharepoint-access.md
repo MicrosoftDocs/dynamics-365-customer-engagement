@@ -190,11 +190,11 @@ BEGIN CATCH
 END CATCH
 ```
 
-1. In the script, update the **@byoaAppId** and **@tenantId** variables with the **Application ID** and **Tenant ID** values you copied earlier from the Microsoft Azure portal in the [Create an Azure application with SharePoint permissions](#create-an-azure-application-with-sharepoint-permissions) section of this article.
+2. In the script, update the **@byoaAppId** and **@tenantId** variables with the **Application ID** and **Tenant ID** values you copied earlier from the Microsoft Azure portal in the [Create an Azure application with SharePoint permissions](#create-an-azure-application-with-sharepoint-permissions) section of this article.
 
-1. Verify the database and then execute the script.
+3. Verify the database and then execute the script.
 
-1. Confirm by running the select query `SELECT *  FROM [PartnerApplicationBase]`and verifying the **PartnerApplicationId** and **TenantId** fields.
+4. Confirm by running the select query `SELECT *  FROM [PartnerApplicationBase]`and verifying the **PartnerApplicationId** and **TenantId** fields.
 
 ## Upload certificate in Azure app certificates
 
