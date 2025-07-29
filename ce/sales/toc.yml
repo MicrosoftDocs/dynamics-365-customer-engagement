@@ -973,6 +973,8 @@ items:
               href: personalize-pipeline-view.md
         - name: Work with opportunities in the Kanban view
           href: opportunity-kanban-view.md
+        - name: Work on opportunities handed over by the Sales Qualification Agent
+          href: use-sales-qualification-agent.md
         - name: Price calculation for opportunity, quote, order, and invoice records
           href: price-calculation-opportunity-quote-order-invoice-records.md
         - name: How are stakeholders and sales team members tracked for opportunities?

@@ -34,7 +34,7 @@ Copilot can provide a list of open opportunities that are assigned to you, sorte
 
 ## Summarize an opportunity
 
-Open [Copilot in a side pane](use-sales-copilot.md#chat-with-copilot-in-a-side-pane), and then open an opportunity to have Copilot automatically summarize it for you.
+Open [Copilot side pane](use-sales-copilot.md#chat-with-copilot-in-a-side-pane), and then open an opportunity to have Copilot automatically summarize it for you.
 
 Alternatively, type **Summarize opportunity /** from anywhere in the app or from the [Copilot full-screen view](use-sales-copilot.md#open-copilot-immersive) to ask Copilot to summarize a specific opportunity.
 
@@ -59,6 +59,10 @@ By default, when you open an opportunity, the opportunity summary widget is disp
 :::image type="content" source="media/copilot-opportunity-summary-widget.png" alt-text="Screenshot of the Copilot opportunity summary widget in the Opportunity form.":::
 
 If the opportunity summary widget isn't displayed in the **Opportunity** form, contact your administrator, and ask them to [turn it on](copilot-configure-summary-fields.md#admin-opportunity-summary-widget).
+
+### View deeper research insights for the opportunity
+
+If the Opportunity Research Agent is configured for your organization, you can view the research insights for the opportunity. The insights provide a comprehensive overview of the opportunity, including risk mitigation, key insights and signals, and deeper insights on various aspects of the opportunity, such as stakeholders, pain points, needs, and opportunity health. Learn more in [Work on opportunities handed over by the Opportunity Research Agent](use-opportunity-research-agent.md).
 
 ## Summarize a lead
 <a name="copilot-summarize-lead"></a>

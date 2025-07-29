@@ -30,7 +30,7 @@ As the agent consumes capacity, it is important to plan and configure it to hand
 
 - Determine the products that you want the Opportunity Research Agent to handle. The products should be handled by a single sales team. If your company sells multiple products through different sales teams, pick one product line.
 
-- Determine the segment of opportunities that you want the Opportunity Research Agent to handle. For example, you might want it to handle only the opportunities that are **Hot** and of high value.
+- Determine the segment of opportunities that you want the Opportunity Research Agent to handle. For example, you might want it to handle only the opportunities that are **Hot** and with an estimated revenue of $100,000 or more. 
 - Identify the sellers who will work on the segment of opportunities that the agent will research on and [configure server-side synchronization for their mailboxes](#configure-server-side-synchronization).
 - The agent uses the machine learning model in predictive opportunity scoring for risk assessment. If you haven't configured scoring in your environment, it's configured automatically when you start the agent.
 - Modify Data Loss Prevention (DLP) policies to allow external connections. Learn more in [Configure data loss prevention policies for agents](/microsoft-copilot-studio/admin-data-loss-prevention).
@@ -38,6 +38,8 @@ As the agent consumes capacity, it is important to plan and configure it to hand
 - If you're using a custom security role for your sales team that'll be using the agent, ensure that the role has `Basic`-level `Read` access to the following entities to view the research insights:
   - Opportunity Research Result (msdyn_OpportunityResearchResult)
   - Opportunity Research Indicator (msdyn_OpportunityResearchIndicator)
+  - Opportunity Research Agent Trigger (OpportunityResearchAgentTrigger)
+  - Opportunity Research User Interactions (OpportunityResearchUserInteractions)
 
 ### Configure server-side synchronization
 
