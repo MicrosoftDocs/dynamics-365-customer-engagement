@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # View and understand real-time analytics for record routing in the ongoing work items report
 
-The Ongoing work items report lists all open and active state work items modified in the past 24 hours or today per time zone setting. Content is filtered by modified on, queue, agent, work item status, work item skill, and time zone.
+The Ongoing work items report lists all open and active state work items modified in the past 24 hours or today per time zone setting. The system filters content by modified on, queue, agent, work item status, work item skill, and time zone.
 
 This report is specifically for real-time tracking of recent cases or records. In this view, you can easily identify work items that are created but aren't assigned to a customer service representative (service representative or representative). It can help you ensure that all new work items that need attention are triaged. Work items can be assigned, transferred, or removed from within the dashboard.
 
@@ -35,9 +35,7 @@ For longer time periods, you can use [the backlog work items report](rr-backlogi
 When a list item is selected, it can be assigned to a service representative, transferred to another queue, or removed.
 
 > [!NOTE]
-> When a work item is transferred to a different queue, it can affect automatic assignment since the criteria for assignment doesn’t change
-  upon transfer. In scenarios of push (automatic assignment), supervisors need to ensure that the destination queue has users who
-  meet the criteria for work item assignment.
+> When a work item is transferred to a different queue, it can affect automatic assignment since the criteria for assignment don’t change upon transfer. In scenarios of push (automatic assignment), supervisors need to ensure that the destination queue has users who meet the criteria for work item assignment.
 
 **Remove** closes the work item (conversation) but not the case.
 
