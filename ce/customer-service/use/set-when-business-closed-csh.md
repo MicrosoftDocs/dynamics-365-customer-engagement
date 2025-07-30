@@ -25,9 +25,7 @@ You can schedule a business closure in the Copilot Service admin center.
 1. In the **Business closure** section, select **Manage**.
 1. On the command bar, select **New** to schedule a new business closure. </br>
  
-   You can also select **New** from the business closure grid to create a new business closure record.
-
-   A **Quick create** dialog appears.
+   You can also select **New** from the business closure grid to create a new business closure record. A **Schedule a Business Closure** dialog appears.
   
 1.  In the **Schedule a Business Closure** dialog, specify the following information:  
   
