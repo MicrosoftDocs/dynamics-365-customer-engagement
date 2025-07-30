@@ -22,29 +22,11 @@ The following scenarios are supported for SMS:
 
 Service representatives can't proactively reach out to customers by starting an SMS conversation in the app used by the representatives.
 
-You can use the same toll-free phone number from Azure Communications Services for the SMS channel, and for inbound and outbound calling in the voice channel. The toll-free SMS is currently available in United States, Canada, and Puerto Rico only. The Azure Communication Services-based short codes for the SMS channel are available in the United States, Canada, and United Kingdom.
-
-The Azure Communication Services-based mobile numbers for the SMS channel are available in the following regions/countries:
-
-- Australia
-
-- Belgium
-- Denmark
-- Finland
-- Ireland
-- Latvia
-- Netherlands
-- Poland
-- Sweden
-- United Kingdom
+You can use the same toll-free phone number from Azure Communications Services for the SMS channel, and for inbound and outbound calling in the voice channel.
 
 Learn more about numbers and eligibility in [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
 
 For the best SMS delivery experience, we recommend that you submit a toll-free verification application for your toll-free numbers. Learn more about the verification process in [How do I submit a toll-free verification?](/azure/communication-services/concepts/sms/sms-faq#toll-free-verification).
-
-## Prerequisite
-
-You must obtain an active subscription of **Dynamics 365 Customer Service Digital Messaging**. Learn about licenses and pricing in [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). You can also purchase add-ins on the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?LinkId=866544). Learn about how to [buy add-ons](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true).
 
 ## Supported SMS channels
 
