@@ -35,7 +35,9 @@ Watch this video to learn how the Opportunity Research Agent helps you focus on 
 The agent pulls together CRM updates, email threads, meeting intelligence, and real-time web research to deliver timely, actionable insights:
 
 **Detect risks early:** Whether it’s a disengaged stakeholder, slowing momentum, or competitive pressure, the agent flags risks and recommends targeted actions to keep your deal moving forward.  
+
 **Prioritize with confidence:** Based on real-time signals, see which deals are gaining traction, which are at risk, and where your effort will drive the most impact.  
+
 **Get the full picture, fast:** View buyer needs, stakeholder roles, competitor mentions, and deal health in one unified place without having to sift through multiple sources. The agent synthesizes insights from CRM, emails, meetings, and web research to give you a comprehensive view of your deal.  
 
 ## Capacity usage

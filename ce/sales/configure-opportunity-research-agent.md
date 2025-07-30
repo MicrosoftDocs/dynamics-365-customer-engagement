@@ -33,7 +33,16 @@ As the agent consumes capacity, it is important to plan and configure it to hand
 - Determine the segment of opportunities that you want the Opportunity Research Agent to handle. For example, you might want it to handle only the opportunities that are **Hot** and with an estimated revenue of $100,000 or more. 
 - Identify the sellers who will work on the segment of opportunities that the agent will research on and [configure server-side synchronization for their mailboxes](#configure-server-side-synchronization).
 - The agent uses the machine learning model in predictive opportunity scoring for risk assessment. If you haven't configured scoring in your environment, it's configured automatically when you start the agent.
-- Modify Data Loss Prevention (DLP) policies to allow external connections. Learn more in [Configure data loss prevention policies for agents](/microsoft-copilot-studio/admin-data-loss-prevention).
+- Modify Data Loss Prevention (DLP) policies to allow the following connectors:
+  
+    | Connector                                 | Why is it required?                                                                                   |
+    |--------------------------------------------|-------------------------------------------------------------------------------------------------------|
+    | Knowledge source with public websites and data | The agent needs it to access public data for enrichment.     |
+    | Microsoft Copilot Studio                       | Copilot Studio is the core platform for building and deploying the agent.                      |
+    | Knowledge source with SharePoint or OneDrive      | Required only if the agent is configured to use internal documents on SharePoint or OneDrive for enrichment.                         |
+    | Knowledge source with documents                | Required only if the agent is configured to use internal documents for enrichment.                   |
+
+   Learn more in [Configure data loss prevention policies for agents](/microsoft-copilot-studio/admin-data-loss-prevention).
 
 - If you're using a custom security role for your sales team that'll be using the agent, ensure that the role has `Basic`-level `Read` access to the following entities to view the research insights:
   - Opportunity Research Result (msdyn_OpportunityResearchResult)
@@ -43,7 +52,7 @@ As the agent consumes capacity, it is important to plan and configure it to hand
 
 ### Configure server-side synchronization
 
-After you identify the sellers who work on the segment of opportunities that the agent will research on, you must configure server-side synchronization for their mailboxes. This step is required to enable the agent to access emails and meetings related to the opportunities from the sellers' mailboxes.  
+After you identify the sellers who work on the segment of opportunities that the agent will research on, you must configure server-side synchronization for their mailboxes. This step is required to allow the agent to access emails and meetings related to the opportunities from the sellers' mailboxes.  
 
 Follow these steps to configure server-side synchronization:
 
@@ -129,7 +138,7 @@ In the **Opportunity assessment** tab, specify the fields that the agent should 
 
 ### Configure knowledge for generating account insights
 
-By default, the agent generates research insights for your accounts from public web sources. However, you can configure additional knowledge sources, both from your internal knowledge base and external websites, to help the agent generate more relevant and reliable insights.
+By default, the agent generates research insights for your accounts from public web sources. However, you can configure additional knowledge sources, both from your internal knowledge base and external websites, to help the agent generate more relevant and reliable insights. Learn about the best practices for configuring knowledge sources.
 
 1. In the **Research insights** section, go to **Company insights** > **Knowledge sources for insight**.
    > [!NOTE]
@@ -138,7 +147,7 @@ By default, the agent generates research insights for your accounts from public 
 1. Select **Add** or **Manage** to add or manage knowledge sources for account insights. 
    The **D365 Sales Agent - Research agent**'s **Knowledge** page opens in Copilot Studio.
 
-1. Add the knowledge sources that you refer to while researching accounts, such as specific websites, internal documents, or knowledge bases. The agent uses this information to provide account context and insights about the opportunities. Learn more about creating knowledge sources in [Knowledge sources overview](/microsoft-copilot-studio/knowledge-copilot-studio).
+1. Add the knowledge sources that you refer to while researching accounts, such as specific websites, internal documents, or knowledge bases. The agent uses this information to provide account context and insights about the opportunities. Learn more about the [best practices for configuring knowledge sources](#best-practices-for-configuring-knowledge-sources).
 
 1. After you add the knowledge sources in Copilot Studio, return to the **Opportunity Research Agent** settings page in Dynamics 365 Sales. At this point, you can test the agent's output based on the knowledge sources you added.
     1. Scroll up to the **How this works** section and copy the test snippet under Step 2.
@@ -149,7 +158,7 @@ By default, the agent generates research insights for your accounts from public 
 
 ### Configure knowledge for generating competitor insights
 
-By default, the agent generates research insights for your competitors from public web sources. However, you can configure additional knowledge sources such as battle cards, positioning briefs that show competitive advantages, and product comparisons. The agent uses this information to provide competitive intelligence and help sellers understand the competitive landscape.
+By default, the agent generates research insights for your competitors from public web sources. However, you can configure additional knowledge sources such as battle cards, positioning briefs that show competitive advantages, and product comparisons. The agent uses this information to provide competitive intelligence and help sellers understand the competitive landscape. Learn more about the [best practices for configuring knowledge sources](#best-practices-for-configuring-knowledge-sources).
  
 > [!NOTE]
 > You can only upload slide decks or documents as knowledge sources for competitor insights.
@@ -165,6 +174,16 @@ By default, the agent generates research insights for your competitors from publ
 1. Select the documents. You can group similar documents into a group to help the agent understand the context better. For example, you can group all documents related to a specific competitor. Select **Upload** > **Upload as a group** to upload the documents as a group.
    :::image type="content" source="media/group-upload-copilot-studio.png" alt-text="Screenshot of the Group upload option in Copilot Studio.":::  
    You can also group individual documents into a single group after uploading them. Select a document in the Knowledge page and select **Create file group** to create a group and add the document to it.
+
+#### Best practices for configuring knowledge sources
+
+Consider the following best practices while configuring knowledge sources for the Opportunity Research Agent:
+
+- Keep descriptions specific. Adding descriptions such as “Dataverse table with Assets Under Management by client” is more helpful than just “Finance table”.
+- Limit public sites. Too many broad domains dilute relevance; add the few that best match your industry.
+- Review security. The agent will only present data that the signed-in seller is permitted to access.
+- Monitor capacity. Large files and frequent refreshes consume AI credits; track usage in Power Platform admin center.
+- With curated knowledge sources, the agent becomes a best researcher that understands your organization and surfaces the insights your sellers value most.
 
 ## Step 4: Start or stop the agent
 
