@@ -1,9 +1,9 @@
 ---
-title: "Configure historical analytics for voice | MicrosoftDocs"
-description: Learn about how to configure historical analytics the voice channel in Dynamics 365 Contact Center.
+title: Configure historical analytics for voice 
+description: Learn about how to configure historical analytics the voice channel in Dynamics 365 Contact Center or Customer Service.
 ms.custom:
 - dyn365-customerservice
-ms.date: 06/14/2024
+ms.date: 07/30/2025
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
