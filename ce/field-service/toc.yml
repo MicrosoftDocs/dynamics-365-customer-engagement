@@ -84,8 +84,6 @@ items:
       href: work-order-customization.md
     - name: Service task types
       href: set-up-service-task-types.md
-    - name: Agreement sub-statuses
-      href: set-up-agreement-sub-statuses.md
     - name: Service level agreements
       href: sla-work-orders.md
     - name: Use Dataverse search
@@ -387,12 +385,14 @@ items:
 
 - name: Agreements and preventive maintenance
   items:
-    - name: Agreements overview
-      href: agreements-overview.md
-    - name: Set up agreements
-      href: set-up-customer-agreements.md
-    - name: Agreement sub-statuses
-      href: set-up-agreement-sub-statuses.md
+    - name: Agreements
+      items:
+        - name: Agreements overview
+          href: agreements-overview.md
+        - name: Set up agreements
+          href: set-up-customer-agreements.md
+        - name: Set up agreement substatuses
+          href: set-up-agreement-sub-statuses.md
     - name: Entitlements
       items:
         - name: Entitlements overview
