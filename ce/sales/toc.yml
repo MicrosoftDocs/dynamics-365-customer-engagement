@@ -939,7 +939,7 @@ items:
           items:
             - name: Overview
               href: sales-qualification-agent.md
-            - name: Qualify leads with Sales Qualification Agent
+            - name: Work on leads handed over by the Sales Qualification Agent
               href: use-sales-qualification-agent.md
             - name: Monitor leads handled by the Sales Qualification Agent
               href: monitor-leads-by-sales-qualification-agent.md

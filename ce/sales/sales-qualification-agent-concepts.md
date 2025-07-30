@@ -145,6 +145,24 @@ The BANT criteria is a qualification methodology that helps determine whether a 
 
 The BANT criteria can be detected from various sources such as emails, CRM configuration, and research. The agent continuously analyzes incoming emails for interest and once identified, the lead is ready to be transferred to the seller. The BANT model provides input on BANT fit of a lead, which helps in determining the qualification.
 
+## How does the agent determine the lead rating?
+
+**Research mode:**
+
+The agent determines the lead rating based on the alignment with the Ideal Customer Profile (ICP) and any engagement signals from Customer Insights - Journeys in terms of email opens, link clicks, event registrations and attendance, and form submissions.
+
+**Engage mode:**
+
+The agent determines the lead rating based on the Fit, Intent, Recency, Engagement (FIRE) framework and signals from Customer Insights - Journeys. The FIRE framework is used to evaluate leads and provide insights for qualification.
+
+- **Fit**: Measures how well the lead aligns with the Ideal Customer Profile (ICP) criteria, such as industry, company size, location, and role.
+- **Intent**: Assesses the lead’s level of interest based on signals like purchase inquiries, pricing requests, demo requests, or stated business challenges.
+- **Recency**: Evaluates the freshness of the interactions or engagements relative to `currentDateTime`:
+    - Interactions within 7 days are considered recent.
+    - Interactions between 8 and 21 days are considered moderate.
+    - Interactions older than 21 days are considered old.
+- **Engagement**: Assesses the frequency, quality, and depth of interactions, including opened emails, replies, booked meetings, and downloads.
+
 ## Related information
 
 - [Sales Qualification Agent overview](sales-qualification-agent.md)  
