@@ -34,12 +34,20 @@ Sales Qualification Agents are available in two modes:
 
 ## Difference between Research and Engage modes
 
-The difference between the Research and Engage modes lies in their functionality and level of autonomy.  
+The following table summarizes the difference between the Research and Engage modes:
 
-| Feature | Research | Engage |
-|---------|----------|--------|
-| Autonomy | Researches, provides insights and recommendations, and generates outreach emails. | Researches, provides insights, and engages and qualifies leads autonomously. |
-| Decision-making | Allows seller to make decisions on engagement and qualification. | Automatically engages and hands over the lead to seller for qualification. |
+| Functionality                              | Research-only | Research and engage |
+|--------------------------------------------|:--------:|:------:|
+| Research leads                             |    Y     |   Y    |
+| Check ICP criteria                         |    Y     |   Y    |
+| Check BANT criteria                        |    Y     |   Y    |
+| Generate outreach emails                   |    Y     |   Y    |
+| Send outreach emails                       |    N     |   Y    |
+| Detect positive intent based on responses  |    N     |   Y    |
+| Send follow-up emails and clarify questions|    N     |   Y    |
+| Hand over promising leads to sellers       |    Y     |   Y    |
+| Hand over disqualified leads to supervisors|    Y     |   Y    |
+
 
 ## Understand Sales Qualification Agent concepts
 
@@ -59,7 +67,7 @@ The usage of the Sales Qualification Agents depend on your role in the sales pro
 |------|----------|--------|
 | Admin | [Set up and configure Sales Qualification Agent](configure-sales-qualification-agent.md)<br>[Test the Sales Qualification Agent](test-sales-qualification-agent.md) | [Set up and configure Sales Qualification Agent](configure-sales-qualification-agent.md)<br>[Test the Sales Qualification Agent](test-sales-qualification-agent.md) |
 | Seller | [Qualify leads with the Sales Qualification Agent](use-sales-qualification-agent.md) | Engage with leads and manage follow-ups |
-| Supervisor | &mdash; | Monitor agent performance and lead hand-offs |
+| Supervisor | [Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md) <br> [View metrics related to research only mode](monitor-leads-by-sales-qualification-agent.md#view-metrics-related-to-research-only-mode) | [Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md)<br> [View metrics related to engage mode](monitor-leads-by-sales-qualification-agent.md#view-metrics-related-to-engage-mode) |
 
 ## Capacity usage
 
