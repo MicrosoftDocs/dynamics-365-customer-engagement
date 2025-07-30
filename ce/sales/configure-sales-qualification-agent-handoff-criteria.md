@@ -27,12 +27,26 @@ Both Research and Engage modes use the ideal customer profile to identify leads 
 
 By default, the application defines a set of criteria. You can update any out-of-the-box criteria to add or remove attributes. Also, you can create a custom criterion.
 
-1. [Open the Sales Qualification Agent settings](open-sales-qualification-agent-settings.md) page.
-
+1. [Open the Sales Qualification Agent settings](open-sales-qualification-agent-settings.md) page.  
 1. In the **Handoff criteria** section, enter or select the criteria that describe your ideal customer profile, including industries, employee size, decision making roles, customer location, and annual revenue.  
+1. (Engage mode only) Specify the BANT (Budget, Authority, Need, Timing) criteria to help the agent identify leads it should engage with. The agent uses [purchase interest signals](sales-qualification-agent-concepts.md#what-is-purchase-interest-and-how-is-it-determined) along with BANT to evaluate leads and determine whether to engage with them. The agent evaluates the leads in the following order&mdash;need, timeline, budget, and authority.  
+   The following table explains when a lead is qualified or disqualified based on the configured criteria:  
 
-1. (Engage mode only) Specify the BANT (Budget, Authority, Need, Timing) criteria to help the agent identify leads it should engage with.  
-1. Under each criteria, expand the **Where's this info stored** section to verify the fields used by default to evaluate the criteria. You can change these fields if needed.
+    | Criteria type | Value | Qualify or disqualify? |
+    |---------------|-------|------------------------|
+    | Purchase interest | Positive | Qualify |
+    |                   | Negative | Disqualify |
+    | BANT score | Medium or above matches at least two criteria | Qualify |
+    |            | Low with one or no matches | Disqualify |
+
+    When all qualification criteria are selected and handover is done in the following ways:
+    - If a lead satisfies both BANT and purchase interest criteria, then the lead is handed over to a seller or team with the lead readiness summary and recommended next set of actions.  
+    - If a lead doesn’t satisfy any one criteria type, then the lead is disqualified. Upon disqualification, a summary is generated for the lead with reasons for disqualification and handed over to the supervisor for review in the supervisor dashboard.
+
+   >[!NOTE]
+   > If you don't want the agent to use BANT, you can leave the fields empty. However, we recommend that you define the BANT criterion to help the agent identify leads that it should engage with. When BANT is not defined, the agent uses only the [purchase interest signals](sales-qualification-agent-concepts.md#what-is-purchase-interest-and-how-is-it-determined) to evaluate leads and determine whether to engage with them.
+
+1. Under each criteria, expand the **Where's this info stored** section to verify the fields used by default to evaluate the criteria. You can change these fields if needed.  
 
    :::image type="content" source="media/sqa-ideal-customer-profile.png" alt-text="Screenshot of the ideal customer profile configuration in Sales Qualification Agent settings.":::
 

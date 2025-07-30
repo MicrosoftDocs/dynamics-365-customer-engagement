@@ -56,14 +56,14 @@ The following table provides a few sample leads and their ICP fit category based
 
 ## What is purchase interest and how is it determined?
 
-Purchase interest identifies a lead’s readiness to buy your product or services, is determined based on the emails that are sent and received. The agent runs a model to analyze the content and data patterns for signals in all emails from your leads as soon as they are received.  
+Purchase interest identifies a lead’s readiness to buy your product or services, is determined based on the emails that are sent and received. The agent sends emails with open-ended questions to gauge the lead's interest and analyzes responses based on the value proposition of your product or service, received emails, and follow-up. The agent runs a model to analyze content and data patterns for signals in all emails from your leads as soon as they're received.  
 After analysis, the model identifies purchase interest as either positive or negative based on the confidence level. Along with this, the model also records the reason which helps in preparing the handover summary for the seller.  
 
 ### Positive purchasing interest
 
 Positive purchasing interest refers to the level of interest a potential customer shows in purchasing your product or service and classified into high, medium, and low intent.  
 
-- **High intent**: Indicates a strong interest in purchasing. For example, if a lead asks, can you send me the pricing details for your enterprise plan? We’re finalizing our budget this week. This shows a specific pricing inquiry along with urgency to decide.
+- **High intent**: Indicates a strong interest in purchasing. For example, if a lead asks, I'm interested in the pricing details for your enterprise plan. Please share the details. We’re finalizing our budget this week. This shows a specific pricing inquiry along with urgency to decide.
 - **Medium intent**: Indicates a moderate purchase interest. For example, if a lead says, we’re exploring different pricing options. Could you clarify the differences between your plans? This shows interest but not urgency, indicating they are still in the research phase.
 - **Low intent**: Indicates a low interest. For example, if a lead says, do you have a general pricing page I can check? This shows no strong intent and casual browsing.
 
