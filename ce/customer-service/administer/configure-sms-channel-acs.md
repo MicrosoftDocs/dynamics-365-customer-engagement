@@ -27,20 +27,30 @@ This article discusses how you can configure an SMS channel using Azure Communic
 
   If you're using an existing phone number that isn't enabled for SMS, then you can upgrade your plan. For more information, refer to [Edit phone numbers](voice-channel-manage-phone-numbers.md#edit-phone-numbers)
 
-## Configure Azure Communication Services-based short code for SMS
+## Configure Azure Communication Services-based mobile numbers, short code for SMS
 
-With Azure Communication Services-based short code for SMS, your customer service representatives can send high-volume, time-sensitive messages using preapproved short codes, to make sure of reliable delivery.
-The provisioning and management of the short codes is simplified for your organization as it can be handled within the Azure ecosystem.
+With Azure Communication Services-based short code and mobile numbers for SMS, your customer service representatives (service representatives or representatives) can do the following tasks:
+
+- **Mobile numbers**: Send and receive SMS messages using standard mobile numbers.
+- **Short code**: Send high-volume, time-sensitive messages using preapproved short codes to make sure of reliable delivery.
+
+The provisioning and management of the mobile numbers and short codes is simplified for your organization as it can be handled within the Azure ecosystem. Organizations easily acquire, configure, and oversee SMS capabilities directly through Azure. This integration supports seamless deployment into contact center environments, enabling efficient two-way customer communication at scale. 
+
+### Set up a Mobile Number 
+
+Follow the steps in [Quickstart: Get and manage phone numbers using Azure Communication Services](/azure/communication-services/quickstarts/telephony/get-phone-number) to apply for a mobile number in Azure Communication Services.
 
 ### Set up a short code
 
 Follow the steps in [Apply for a short code](/azure/communication-services/quickstarts/sms/apply-for-short-code) to apply for the SMS short code in Azure Communication Services.
 
-### Assign the short code in contact center
+### Assign the short code, mobile number in contact center
+
+After you acquire a short code or mobile number, perform the following steps:
 
 1. In the site map of Copilot Service admin center, select **Channels** under **Customer support**, select **Manage** for **Phone numbers**.
 1. On the page that appears, select **Advanced**.
-1. On the **Manage Azure Communication Services** dialog, select **Sync** for **Sync from Azure**. After the sync is complete, the SMS short code that you acquired in Azure Communication Services is displayed in the phone numbers list.
+1. On the **Manage Azure Communication Services** dialog, select **Sync** for **Sync from Azure**. After the sync is complete, the SMS short code or the SMS mobile number that you acquired in Azure Communication Services is displayed in the phone numbers list.
 
 ## Configure a workstream for the SMS channel
 
@@ -65,6 +75,26 @@ Follow the steps in [Apply for a short code](/azure/communication-services/quick
    - [Context variables](manage-context-variables.md#add-context-variables)
    - [Smart assist bots](../develop/smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
+
+### Number types and region/country supported in contact center
+
+The following table lists the number types and region/country supported in Dynamics 365 Contact Center.
+
+| Supported destination | Toll-free   | Short code | Mobile number  |
+|-----------------------|-------------|------------|----------------|
+| United States         | Yes         | Yes        | No             |
+| Canada                | Yes         | Yes        | No             |
+| Puerto Rico           | Yes         | No         | No             |
+| United Kingdom        | No          | Yes        | Yes            |
+| Australia             | No          | No         | Yes            |
+| Ireland               | No          | No         | Yes            |
+| Finland               | No          | No         | Yes            |
+| Denmark               | No          | No         | Yes            |
+| Netherlands           | No          | No         | Yes            |
+| Sweden                | No          | No         | Yes            |
+| Poland                | No          | No         | Yes            |
+| Belgium               | No          | No         | Yes            |
+| Latvia                | No          | No         | Yes            |
 
 ## Next steps
 

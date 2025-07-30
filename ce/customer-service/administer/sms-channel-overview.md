@@ -18,7 +18,7 @@ The SMS channel in the application allows your organization to connect to custom
 The following scenarios are supported for SMS:
 
 - Service representatives can receive SMS conversations from customers and then exchange messages.
-- Admins can configure Power Automate flows to proactively send outbound messages, such as campaigns, to customers.
+- Admins can configure Power Automate flows to proactively send outbound messages such as campaigns to customers.
 
 Service representatives can't proactively reach out to customers by starting an SMS conversation in the app used by the representatives.
 
