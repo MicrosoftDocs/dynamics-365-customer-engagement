@@ -29,7 +29,7 @@ You can schedule a business closure in the Copilot Service admin center.
 
    A **Quick create** dialog appears.
   
-1.  In the **Schedule a Business Closure** dialog, type or modify information:  
+1.  In the **Schedule a Business Closure** dialog, specify the following information:  
   
     - For **Name**, type a name that describes the purpose of the closure.
   
