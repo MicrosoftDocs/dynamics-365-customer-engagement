@@ -1,6 +1,6 @@
 ---
 title: Enable transfer of conversations to representatives
-description: Learn about how to enable the transfer settings for conversations so that representatives can efficiently select a supervisor or another representative to transfer the conversation.
+description: Learn about how to enable the transfer settings for conversations so that representatives can efficiently select a supervisor or another representative to transfer the conversation in Dynamics 365 Contact Center and Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
