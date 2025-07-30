@@ -89,9 +89,9 @@ After verifying the prerequisites, define the agent and company profile, selecti
 
 1. In the **Company info** tab, enter the following information:
     1. Enter your company name and website URL. 
-    1. Enter the value proposition of the products associated with the opportunities that the agent will handle. For example, "Microsoft 365 is a cloud-based productivity suite that includes Office applications, email, and collaboration tools."
-    The agent uses the company information to gather insights about the company and its products.
-
+    1. Enter the value proposition of the products associated with the opportunities that the agent will handle. 
+       Providing a clear value proposition helps the agent focus its account research on the most relevant information. Instead of returning broad or generic insights about a company, the agent uses the value proposition to tailor its research and deliver insights that are specific to your product and its impact for the customer.
+       For example, if the agent is handling opportunities related to a coffee machine, you can specify "Our smart vending machine offers a variety of premium blends, customizable to your taste, with zero wait time, and minimal maintenance." instead of "We sell coffee machines to businesses."
 
 ### Configure selection criteria for opportunities
 
@@ -105,8 +105,8 @@ After verifying the prerequisites, define the agent and company profile, selecti
      - Est. revenue greater than or equal to $100,000.
      - Status equals **Open**.
 
-1. After starting the agent for the first time, the agent filters opportunities created in the last 30 days by default and then applies the filter conditions that you specified. To select a smaller duration, select the check box **Consider opportunities created in the last** and specify the number of days.
-1. Select **Simulate** to view a limited set of opportunities that match the filter conditions. This helps you verify that the agent is picking the right opportunities.
+1. By default, the agent only considers new opportunities created after the agent is turned on. If you want the agent to also research on opportunities created before it was enabled, select the **Consider opportunities created in the last** checkbox and specify the number of days for the look back period.
+2. Select **Simulate** to view a set of opportunities that match the filter conditions. This is not the full list, but it helps you verify that the agent is picking the right opportunities.
   :::image type="content" source="media/opportunity-research-agent-selection-criteria.png" alt-text="Screenshot of the Selection criteria tab for Opportunity Research Agent.":::
 
 
@@ -163,7 +163,7 @@ By default, the agent generates research insights for your competitors from publ
 
 1. Select **Add knowledge** and then select **Upload file**.
 1. Select the documents. You can group similar documents into a group to help the agent understand the context better. For example, you can group all documents related to a specific competitor. Select **Upload** > **Upload as a group** to upload the documents as a group.
-   :::image type="content" source="media/group-upload-copilot-studio.png" alt-text="Screenshot of the Group upload option in Copilot Studio.":::
+   :::image type="content" source="media/group-upload-copilot-studio.png" alt-text="Screenshot of the Group upload option in Copilot Studio.":::  
    You can also group individual documents into a single group after uploading them. Select a document in the Knowledge page and select **Create file group** to create a group and add the document to it.
 
 ## Step 4: Start or stop the agent

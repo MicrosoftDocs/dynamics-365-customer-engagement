@@ -19,7 +19,9 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Closing complex deals isn’t just about selling well. You need to build trust, manage relationships, and keep track of many quick changes—like customer conversations, updates from your team, and what competitors are doing—all of which can affect your deal. The Opportunity Research Agent doesn’t replace your judgment. It equips you with sharper visibility, so you can focus on the right opportunities and move decisively.
+Closing complex deals isn’t just about selling well. You need to build trust, manage relationships, and keep track of many quick changes—like customer conversations, updates from your team, and what competitors are doing—all of which can affect your deal.
+
+The Opportunity Research Agent in Dynamics 365 Sales helps you stay ahead by surfacing emerging risks early, spotlighting the most promising opportunities, and synthesizing insights from across your data sources into one clear view. The agent doesn’t replace your judgment. It equips you with sharper visibility, so you can focus on the right opportunities and move decisively.
 
 Watch this video to learn how the Opportunity Research Agent helps you focus on the most important opportunities and provides insights and recommendations to close deals faster:
 
@@ -30,13 +32,11 @@ Watch this video to learn how the Opportunity Research Agent helps you focus on 
 
 ## How does the Opportunity Research Agent help you?
 
-The Opportunity Research Agent in Dynamics 365 Sales helps you stay ahead by surfacing emerging risks early, spotlighting the most promising opportunities, and synthesizing insights from across your data sources into one clear view.
-
 The agent pulls together CRM updates, email threads, meeting intelligence, and real-time web research to deliver timely, actionable insights:
 
-**Detect risks early:** Whether it’s a disengaged stakeholder, slowing momentum, or competitive pressure, the agent flags risks and recommends targeted actions to keep your deal moving forward.
-**Prioritize with confidence:** Based on real-time signals, see which deals are gaining traction, which are at risk, and where your effort will drive the most impact.
-**Get the full picture, fast:** View buyer needs, stakeholder roles, competitor mentions, and deal health in one unified place without having to sift through multiple sources. The agent synthesizes insights from CRM, emails, meetings, and web research to give you a comprehensive view of your deal.
+**Detect risks early:** Whether it’s a disengaged stakeholder, slowing momentum, or competitive pressure, the agent flags risks and recommends targeted actions to keep your deal moving forward.  
+**Prioritize with confidence:** Based on real-time signals, see which deals are gaining traction, which are at risk, and where your effort will drive the most impact.  
+**Get the full picture, fast:** View buyer needs, stakeholder roles, competitor mentions, and deal health in one unified place without having to sift through multiple sources. The agent synthesizes insights from CRM, emails, meetings, and web research to give you a comprehensive view of your deal.  
 
 ## Capacity usage
 
