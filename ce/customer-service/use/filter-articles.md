@@ -34,7 +34,7 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
 
 ## Personalize your knowledge search article filters
 
-If your administrator has configured knowledge filter personalization settings, as a customer service representative (service representative or representative), you can select the filters you want to use.
+If your administrator configured knowledge filter personalization settings, as a customer service representative (service representative or representative), you can select the filters you want to use.
 
 You can do the following actions:
 - Set preselects
@@ -61,7 +61,7 @@ The knowledge base search control also enables you to sort the knowledge article
 
 :::image type="content" source="../media/csw-sort-km.png" alt-text="Sort knowledge article":::
 
-Select the up-arrow icon to view the sorting options and select an option from the following: 
+Select the up-arrow icon to view the sorting options and select an option from the following sort list: 
 
 - Relevance
 - Number of views
@@ -89,7 +89,7 @@ In the following illustration, the case subject is **Xbox**. If automatic filter
 
 ![Select Auto filter results.](../media/ka-select-auto-filter-results.png "Select Auto filter results")
   
-However, if the **Auto-filter results** checkbox isn't selected, you can see more articles that aren't related to the subject. These are the results from the entire knowledge base.
+However, if the **Auto-filter results** checkbox isn't selected, you can see more articles that aren't related to the subject. These results are from the entire knowledge base.
 
 ![Deselect Auto-filter results.](../media/ka-deselect-auto-filter-results.png "Deselect Auto-filter results")
 
