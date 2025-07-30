@@ -20,18 +20,18 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Depending on the level of autonomy your admin has configured, the Sales Qualification Agent can help you qualify leads by automatically completing the following tasks:
+Depending on the automation level your admin has configured, the Sales Qualification Agent can help you qualify leads by automatically by completing the following tasks:
 
-- **Research-only mode**
+- **Research-only mode**:
     - Researches leads and determines whether they are a good fit for your business based on the ideal customer profile.
     - Provides insights about the lead, such as company information, financial health, and recent news. 
     - Hands off the lead to you if it fits your ideal customer profile or disqualifies the lead if it isn't a good fit.
     - Generates a draft outreach email for you to review and send.
 
-- **Research and engage mode**
+- **Research and engage mode**:
     - Researches leads and determines whether they are a good fit for your business based on the ideal customer profile and BANT criteria (Budget, Authority, Need, and Timelines).
-    - Sends a personalized outreach email to the lead based on its insights.
     - Provides insights about the lead, such as company information, financial health, and recent news.
+    - Sends a personalized outreach email to the lead based on its insights.
     - Engages with the lead based on their responses to the outreach email.
     - Sends follow-up emails to the lead based on their responses and engagement.
     - Hands off the lead to you when it detects positive intent or disqualifies the lead if it isn't a good fit or detects negative intent.
@@ -40,28 +40,31 @@ Depending on the level of autonomy your admin has configured, the Sales Qualific
 
 ## Prerequisites
 
-Before you can use the Sales Qualification Agent, your admin must [set it up](./configure-sales-qualification-agent.md) for you and your sales team.
+- Your admin has [set up the Sales Qualification Agent](./configure-sales-qualification-agent.md) for your org.
+- Check with your admin about the following details:
+  - The mode of the agent (Research-only or Research and engage).
+  - The selection criteria for leads that the agent will handle.
+  - The ideal customer profile (ICP) and BANT criteria configured to determine the lead's fit.
+  - The assignment rules for agent handover.
+  This information helps you understand how the agent will process leads and what actions you need to take.
 
-## Lead hand over scenarios
+## Lead hand over process
 
-When a lead meets the selection criteria, it gets assigned to the agent for processing. After the agent processes the lead, it hands over the lead to you for further action. Depending on the mode configured by your admin, the hand over can happen at different stages. Select a tab to learn more about the handover scenarios. 
+The lead hand over process goes through the following stages:
 
-> [!NOTE]
-> If the lead doesn't meet the handoff criteria defined by your admin, the agent disqualifies it. The lead continues to be assigned to the agent.
+1. When a lead meets the selection criteria defined by your admin, it gets assigned to the agent for processing. 
+1. After the agent processes the lead and completes its analysis, it hands over the lead to you for further action. Depending on the mode configured by your admin, the hand over happens at different stages.
+    - **Research-only mode**:
+        When the ideal customer profile (ICP) fit for a lead is high or medium, the agent hands over the lead to a seller as per the [assignment rule configured by the admin](configure-sqa-assignment-rules.md) for outreach and engagement. If the ICP fit is low, the agent disqualifies the lead. The lead continues to be assigned to the agent.
+    - **Research and engage mode**:
+        The agent hands over the lead in the following scenarios:
+        - The lead meets the ICP and BANT criteria, sends a positive response to the outreach email, or shows positive intent. In this case, you can review the research and engagement summary and qualify the lead if appropriate.
+        - The agent can't detect the lead's intent. Review the research and engagement summary and follow up with the lead to determine their purchase intent.
+        - The agent is blocked on the lead as it's unable to find the answer to the lead's question. Respond to the lead's question and follow up with the lead.
+       If the lead doesn't meet the hand off criteria, the agent disqualifies the lead. The lead continues to be assigned to the agent in this case.
 
-# [Research](#tab/research)
-
-When the ideal customer profile (ICP) fit for a lead is high or medium, the agent hands over the lead to a seller as per the [assignment rule configured by the admin](configure-sqa-assignment-rules.md).
-
-# [Engage](#tab/engage)
-
-- The agent hands over the lead in the following scenarios:
-    - The lead meets the ICP and BANT criteria, sends a positive response to the outreach email, or shows positive intent.
-    - The agent can't detect the lead's intent.
-    - The agent is blocked on the lead as it's unable to find the answer to the lead's question.
-
----
-
+    > [!NOTE]
+    > If the assignment rule is set to assign leads to a team, the agent assigns the lead in a round-robin fashion to the team members.
 
 ## View leads handed over by the agent
 
@@ -73,7 +76,10 @@ You get notified when a lead is handed over to you. If you missed that, follow t
 1. Select a lead.
    - If you're in the focused view, you'll see the **Lead insights** page for the lead.
 
-   - If you're in the read-only grid view, you'll see the lead form. Wait for a few seconds for the page to load the research summary at the top of the lead form. The summary includes recommended actions and reasons for recommendation. Select **See full research** to view the **Lead insights** page.
+   - If you're in the read-only grid view, you'll see the lead form. Wait for a few seconds for the page to load the research summary at the top of the lead form.  
+    :::image type="content" source="media/lead-research-insights-summary.png" alt-text="Screenshot of the lead research insights summary at the top of the lead form.":::
+
+      The summary includes recommended actions and reasons for recommendation. Select **See full research** to view the **Lead insights** page.
 
 ### Lead insights page
 
@@ -81,14 +87,14 @@ The **Lead insights** page offers a 360-degree view of the lead, key insights, a
 
 #### Header
 
-The following screenshot shows the header of the **Lead insights** page in research and engage mode.
+The following screenshot shows the header of the **Lead insights** page in Research and engage mode.
 
 :::image type="content" source="media/leads-insights-page-header.png" alt-text="Screenshot of the header of the Lead insights page in research and engage mode.":::
 
-- **Lead information**: Provides key details about the lead, including topic, job title, company name, phone number, primary email address, and lead rating. Learn more about [lead rating](sales-qualification-agent-concepts.md#how-does-the-agent-determine-the-lead-rating).
+- **Lead information**: Provides key details about the lead, including topic, job title, company name, phone number, primary email address, and lead rating. Learn more about [how lead rating is calculated](sales-qualification-agent-concepts.md#how-does-the-agent-determine-the-lead-rating).
 
 - **Connected accounts and contacts**: Select the link icon next to the lead's name to view the accounts and contacts that are connected to the lead. If the lead isn't connected to any account or contact, the agent automatically connects to the most relevant account and contact records based on the lead's email address, domain, and company name. If the connected records aren't accurate, select **Disconnect** to remove the connection and then connect the lead to a different account or contact.  
-Once you manually connect a record, the agent uses that connection for future research.
+If you manually connect a record, the agent uses that connection for future research.
 - **Email validation**: The agent performs checks on a lead's primary email address to ensure it is active, deliverable, and relevant for business communications. Checks include **Email validity** (properly formatted and deliverable; prompts for correction if invalid) and **Email type** (work or personal, labeled in the interface). You can mark the address as valid/invalid and work/personal by selecting the email icon.
 
 - **Research timestamp**: Displays the date and time when the agent last updated its research data for the lead. This helps you understand how current the insights are. The agent doesn't refresh the research data unless there's a change that significantly impacts the current evaluation of the lead. Learn more about the trigger events in [When does the agent run?](sales-qualification-agent-faq.md#when-does-the-agent-run)
@@ -102,19 +108,20 @@ The following screenshot shows the **Suggested action** section of the **Lead in
 This section summarizes the lead's alignment with the hand off criteria and provides recommended actions. Select the call-to-action button to take action. The following actions are available:
   
 - **Research-only mode**: The **Draft email** action lets you view the pre-generated outreach email and send it to the lead.  
-- **Engage mode**: The **Draft email** action lets you view the response to a pending inquiry from the lead, if any. The **Qualify** action lets you qualify the lead.
+- **Research and engage mode**: The **Draft email** action lets you view the response to a pending inquiry from the lead, if any. The **Qualify** action lets you qualify the lead.
 
 #### Key insights
 
-The following screenshot shows the **Key insights** section of the **Lead insights** page in research and engage mode.
+The following screenshot shows the **Key insights** section of the **Lead insights** page in Research and engage mode.
 
 :::image type="content" source="media/lead-insights-page-key-insights.png" alt-text="Screenshot of the Key insights section of the Lead insights page in research and engage mode.":::
 
-- **What happened to this lead? (Available only in Engage mode)**: Includes an interaction summary that outlines any CRM activities such as emails, phone calls, appointments, and Customer Insights - Journeys interactions that the agent had with the lead. This section helps the seller quickly get up to speed with all the interactions between the agent and the lead.
+- **What happened to this lead? (Available only in Research and engage mode)**: Includes an interaction summary that outlines any CRM activities such as emails, phone calls, appointments, and Customer Insights - Journeys interactions that the agent had with the lead. This section helps the seller quickly get up to speed with all the interactions between the agent and the lead.
 
 - **Why this lead is rated hot, warm, or cold**: Summarizes the key reasons for rating the lead as hot, warm, or cold. See [How does the agent determine the lead rating?](sales-qualification-agent-concepts.md#how-does-the-agent-determine-the-lead-rating).
 
-- **How was this generated?**: Displays the signal strength and the series of steps that explains how the agent generated the insights. **Signal strength** indicates the quality and completeness of the input data used to generate the insights. The higher the signal strength, the more reliable the insights are. The following screenshot shows the signal strength and steps in research-only mode.
+- **How was this generated?**: Displays the signal strength and the series of steps that explains how the agent generated the insights. **Signal strength** indicates the quality and completeness of the input data used to generate the insights. The higher the signal strength, the more reliable the insights are. The following screenshot shows the signal strength and steps in Research-only mode.
+
 :::image type="content" source="media/lead-insights-page-explainer.png" alt-text="Screenshot of the How was this generated section of the Lead insights page in research-only mode.":::
 
 #### Deeper insights

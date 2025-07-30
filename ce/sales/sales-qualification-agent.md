@@ -24,13 +24,13 @@ Sales teams often struggle to keep up with the volume of inbound leads from webs
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-## Types of Sales Qualification Agents
+## Sales Qualification Agent modes
 
-Sales Qualification Agents are available in two modes:
+Sales Qualification Agent is available in two modes:
 
-- **Research**: An AI assistant that automates the research aspect of lead qualification. The agent works on assigned leads based on your selection criteria, such as lead source, rating, or geography. It provides detailed insights about each lead&mdash;their background, recent opportunities, and news about their company. The agent evaluates the lead's fit with your ideal customer profile and generates an initial outreach email for leads that meet your criteria. Sellers can use these insights to make informed decisions about which leads to pursue and send the outreach email to.
+- **Research-only mode**: An AI assistant that automates the research aspect of lead qualification. The agent works on assigned leads based on your selection criteria, such as lead source, rating, or geography. It provides detailed insights about each lead&mdash;their background, recent opportunities, and news about their company. The agent evaluates the lead's fit with your ideal customer profile and generates an initial outreach email for leads that meet your criteria. Sellers can use these insights to make informed decisions about which leads to pursue and send the outreach email to.
 
-- **Engage**: An AI assistant that helps you manage high lead volumes. The agent works on assigned leads based on your selection criteria, such as lead source, rating, or geography. Additionally, the agent autonomously engages with each lead, follows up, and evaluates fit based on your seller hand-off rules. Leads that demonstrate purchase intent and meet most of your criteria are handed over to sellers for qualification, while those that don’t are handed over to supervisors for disqualification, ensuring your sales team focuses only on high-potential opportunities.  
+- **Research and engage mode**: An AI assistant that helps you manage high lead volumes by researching and engaging with leads. The agent works on assigned leads based on your selection criteria, such as lead source, rating, or geography. Additionally, the agent autonomously engages with each lead, follows up, and evaluates fit based on your seller hand-off rules. Leads that demonstrate purchase intent and meet most of your criteria are handed over to sellers for qualification, while those that don’t are handed over to supervisors for disqualification, ensuring your sales team focuses only on high-potential opportunities.
 
 ## Difference between Research-only and Research and engage modes
 

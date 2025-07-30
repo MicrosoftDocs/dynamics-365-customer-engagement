@@ -1,6 +1,6 @@
 ---
 title: Configure hand off criteria for the Sales Qualification Agent
-description: Configure ideal customer profile, budget, authority, need, and timing criteria for the Sales Qualification Agent to effectively qualify leads.
+description: Configure ideal customer profile, budget, authority, need, and timeline criteria for the Sales Qualification Agent to effectively qualify leads.
 ms.date: 07/31/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -29,7 +29,7 @@ By default, the application defines a set of criteria. You can update any out-of
 
 1. [Open the Sales Qualification Agent settings](open-sales-qualification-agent-settings.md) page.  
 1. In the **Handoff criteria** section, enter or select the criteria that describe your ideal customer profile, including industries, employee size, decision making roles, customer location, and annual revenue.  
-1. (Research and engage mode only) Specify the BANT (Budget, Authority, Need, Timing) criteria to help the agent identify leads it should engage with. The agent uses [purchase interest signals](sales-qualification-agent-concepts.md#what-is-purchase-interest-and-how-is-it-determined) along with BANT to evaluate leads and determine whether to engage with them. The agent evaluates the leads in the following order&mdash;need, timeline, budget, and authority.  
+1. (Research and engage mode only) Specify the BANT (Budget, Authority, Need, Timeline) criteria to help the agent identify leads it should engage with. The agent uses [purchase interest signals](sales-qualification-agent-concepts.md#what-is-purchase-interest-and-how-is-it-determined) along with BANT to evaluate leads and determine whether to engage with them. The agent evaluates the leads in the following order&mdash;need, timeline, budget, and authority.  
    The following table explains when a lead is qualified or disqualified based on the configured criteria:  
 
     | Criteria type | Value | Qualify or disqualify? |
@@ -39,7 +39,7 @@ By default, the application defines a set of criteria. You can update any out-of
     | BANT score | Medium or above matches at least two criteria | Qualify |
     |            | Low with one or no matches | Disqualify |
 
-    When all qualification criteria are selected and handover is done in the following ways:
+    When all qualification criteria are selected, the handover is done in the following ways:
     - If a lead satisfies both BANT and purchase interest criteria, then the lead is handed over to a seller or team with the lead readiness summary and recommended next set of actions.  
     - If a lead doesn’t satisfy any one criteria type, then the lead is disqualified. Upon disqualification, a summary is generated for the lead with reasons for disqualification and handed over to the supervisor for review in the supervisor dashboard.
 
