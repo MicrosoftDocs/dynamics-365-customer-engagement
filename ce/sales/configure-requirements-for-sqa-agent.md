@@ -1,6 +1,6 @@
 ---
 title: Configure requirements for Sales Qualification Agent
-description: Learn how to configure the requirements for the research-only and research and engage modes of the Sales Qualification Agent in Dynamics 365 Sales.
+description: Learn how to configure the requirements for the Research-only and Research and engage modes of the Sales Qualification Agent in Dynamics 365 Sales.
 ms.topic: how-to
 ms.date: 07/31/2025
 ms.service: dynamics-365-sales
