@@ -1,7 +1,7 @@
 ---
 title: Set business closures
-description: Learn how to set business closures in Dynamics 365 Customer Service
-ms.date: 05/20/2025
+description: Set business closures in Dynamics 365 Customer Service.
+ms.date: 07/30/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -17,33 +17,21 @@ Prevent the scheduling of resources on holidays and other nonwork days by defini
 
 Make sure that you have the required security role or equivalent permissions. 
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage security roles in service scheduling](../administer/manage-security-roles.md)
+Learn more in [Manage security roles in service scheduling](../administer/manage-security-roles.md).
 
-You can schedule a business closure in the Copilot Service admin center or Customer Service Hub app.
+You can schedule a business closure in the Copilot Service admin center.
 
-1. Go to one of the apps and perform the following steps.
-
-   ### [Copilot Service admin center](#tab/copilotserviceadmincenter)
-
-    1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
-    1. In the **Business closure** section, select **Manage**.
-
-   ### [Customer Service Hub](#tab/customerservicehub)
-
-    1. In the site map, go to **Scheduling**.
-    1. From the list of entity records, select **Business Closures** in **Settings**.
-      
-   The **Business Closures** view is displayed. If you have any closures already scheduled, they're listed. You can sort the views using the dropdown menus beside **Name**, **Start**, **End**, and **Duration**.
-
+1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
+1. In the **Business closure** section, select **Manage**.
 1. On the command bar, select **New** to schedule a new business closure. </br>
  
    You can also select **New** from the business closure grid to create a new business closure record.
 
-   A quick create dialog box is displayed.
+   A **Quick create** dialog appears.
   
-1.  In the **Schedule a Business Closure** dialog box, type or modify information in the text boxes:  
+1.  In the **Schedule a Business Closure** dialog, type or modify information:  
   
-    - In the **Name** box, type a name that describes the purpose of the closure.
+    - For **Name**, type a name that describes the purpose of the closure.
   
          The first 12 characters of the name appear on each day of the closure on the calendar view of the affected resource's **Work Hours**.  
   
