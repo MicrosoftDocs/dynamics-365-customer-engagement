@@ -17,7 +17,7 @@ To configure and use the voice channel for your business needs, you need to inst
 
 ## Prerequisite
 
-You must obtain an active subscription of **Dynamics 365 Customer Service Voice Channel Add-in** or **Dynamics 365 Customer Service Digital Messaging and Voice Add-in**. Learn about licenses and pricing in [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). You can also purchase add-ins on the [Microsoft 365 admin center](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true).
+Specific licensing requirements apply to use the voice channel in Dynamics 365 Contact Center and Customer Service. Learn about licenses and pricing in [Dynamics 365 Pricing](https://go.microsoft.com/fwlink/?linkid=2309515) and [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). You can also purchase add-ins on the [Microsoft 365 admin center](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true).
 
 ## Install the voice channel
 
