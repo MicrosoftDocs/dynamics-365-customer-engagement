@@ -31,6 +31,7 @@ For the best SMS delivery experience, we recommend that you submit a toll-free v
 ## Supported SMS channels
 
 In the application, you can configure the following SMS channels:
+
 - SMS channel using Azure Communication Services
 - SMS channel for Twilio
 

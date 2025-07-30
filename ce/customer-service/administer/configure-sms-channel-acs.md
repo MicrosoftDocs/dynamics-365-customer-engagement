@@ -1,6 +1,6 @@
 ---
 title: Configure an SMS channel using Azure Communication Services
-description: This article includes instructions for configuring an SMS channel using Azure Communication Services.
+description: This article includes instructions for configuring an SMS channel in Dynamics 365 Contact Center using Azure Communication Services.
 ms.date: 08/01/2025
 ms.topic: how-to
 author: gandhamm
@@ -13,19 +13,19 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-This article discusses how you can configure an SMS channel using Azure Communication Services.
+This article discusses how you can configure the SMS channel in Dynamics 365 Contact Center using Azure Communication Services.
 
 ## Prerequisites
 
-- Purchase and install the voice channel for Dynamics 365 Customer Service. For more information, refer to [Provision Omnichannel for Customer Service](/dynamics365/contact-center/implement/provision-channels) and [Install voice channel](voice-channel-install.md)
+- Purchase and install the voice channel for Dynamics 365 Customer Service. Learn more in [Provision Omnichannel for Customer Service](/dynamics365/contact-center/implement/provision-channels) and [Install voice channel](voice-channel-install.md)
 
-- Connect to Azure Communication Services. For more information, refer to [Connect to Azure Communication Services](voice-channel-acs-resource.md)
+- Connect to Azure Communication Services. Learn more in [Connect to Azure Communication Services](voice-channel-acs-resource.md)
   
-  If you connected your existing Azure Communication Services resource, ensure that you enabled SMS services. For more information, refer to [Enable call recording and SMS services](voice-channel-configure-services.md).
+  If you connected your existing Azure Communication Services resource, make sure that you enabled SMS services. Learn more in [Enable call recording and SMS services](voice-channel-configure-services.md).
 
-- Set up a phone number and enable it for SMS services. Ensure that you select **Send SMS** or **Send and receive SMS** options when you choose your phone number feature in Copilot Service admin center. For more information, refer to [Acquire new phone numbers](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers)
+- Set up a phone number and enable it for SMS services. Ensure that you select **Send SMS** or **Send and receive SMS** options when you choose your phone number feature in Copilot Service admin center. Learn more in [Acquire new phone numbers](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers).
 
-  If you're using an existing phone number that isn't enabled for SMS, then you can upgrade your plan. For more information, refer to [Edit phone numbers](voice-channel-manage-phone-numbers.md#edit-phone-numbers)
+  If you're using an existing phone number that isn't enabled for SMS, then you can upgrade your plan. Learn more in [Edit phone numbers](voice-channel-manage-phone-numbers.md#edit-phone-numbers).
 
 ## Configure Azure Communication Services-based mobile numbers, short code for SMS
 
@@ -36,7 +36,7 @@ With Azure Communication Services-based short code and mobile numbers for SMS, y
 
 The provisioning and management of the mobile numbers and short codes is simplified for your organization as it can be handled within the Azure ecosystem. Organizations easily acquire, configure, and oversee SMS capabilities directly through Azure. This integration supports seamless deployment into contact center environments, enabling efficient two-way customer communication at scale. 
 
-### Set up a Mobile Number 
+### Set up a mobile number
 
 Follow the steps in [Quickstart: Get and manage phone numbers using Azure Communication Services](/azure/communication-services/quickstarts/telephony/get-phone-number) to apply for a mobile number in Azure Communication Services.
 
@@ -59,11 +59,11 @@ After you acquire a short code or mobile number, perform the following steps:
    1. On the **SMS setup** page, select a number from the list.
    1. On the **Language** page, select the language that you want to set as the default.
    1. On the **Behaviors** page, configure the following options:
-     - **Channel operation hours:** Set the toggle to **On**, and then select an operating hour record. For more information, refer to: [Configure operating hours](create-operating-hours.md)
+     - **Channel operation hours:** Set the toggle to **On**, and then select an operating hour record. Learn more in [Configure operating hours](create-operating-hours.md)
      - [Configure custom automated messages](configure-automated-message.md).
      - [Configure post-conversation survey](configure-post-conversation-survey.md).
           > [!NOTE]
-          > File attachments aren't supported in the SMS channel using Azure Communication Services. <br>
+          > File attachments aren't supported in the SMS channel using Azure Communication Services.
    
    1. Verify the settings on the **Summary** page, and then select **Finish**. The SMS channel is now configured.
 1. [Configure routing rules](configure-work-classification.md).
@@ -103,11 +103,11 @@ The following table lists the Azure Communication Services-based number types an
 ### Related information
 
 [Overview of channels](../use/channels.md)  
-[Overview of SMS channels](../use/sms-channel-overview.md)  
+[Overview of SMS channels](sms-channel-overview.md)  
 [Understand and create workstreams](create-workstreams.md)  
-[Configure SMS channel for Twilio](Configure-sms-channel-twilio.md)   
+[Configure SMS channel for Twilio](Configure-sms-channel-twilio.md)  
 [Delete a configured channel](delete-channel.md)  
 [SMS FAQ](faqs.md#sms)  
-[Support for live chat and asynchronous channels](../use/channels.md)  
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
