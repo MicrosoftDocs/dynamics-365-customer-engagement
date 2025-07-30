@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: faq
 ms.collection: bap-ai-copilot
-ms.date: 03/17/2025
+ms.date: 07/30/2025
 ms.update-cycle: 180-days
 ms.custom: 
 - bap-template
@@ -41,7 +41,6 @@ Copilot provides the following main features:
 - **Summarize a custom record**: Copilot provides representatives with a summary of a record based on fields that the administrator configures for the custom table so that representatives can quickly catch up on the important details of a support record.
 
 - **Generate resolution notes**: Copilot provides representatives with a summary of case details, emails, and notes linked to the case on the **Ask a question** tab, so they can close the case or incident faster.
-
 
 ## What is the system’s intended use?
 
