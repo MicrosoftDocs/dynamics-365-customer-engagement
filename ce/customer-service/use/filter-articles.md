@@ -36,11 +36,11 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
 
 If your administrator has configured knowledge filter personalization settings, as a customer service representative (service representative or representative), you can select the filters you want to use.
 
-You can do the following:
+You can do the following actions:
 - Set preselects
 - Activate or deactivate a filter
 
-Only the filters that your administrator configures are viewable. If your administrator deactivates a filter, that filter becomes invisible without notifying you. If you notice that a filter has suddenly disappeared, contact your administrator for assistance. If your administrator disables all filters, you won't see any filters, and a message, "No filters have been configured. Contact your administrator." appears.
+Only the filters that your administrator configures are viewable. If your administrator deactivates a filter, that filter becomes invisible without notifying you. If you notice that a filter suddenly disappears, contact your administrator for assistance. If your administrator disables all filters, you don't see any filters and the following message appears: "No filters have been configured. Contact your administrator."
 
 Any personalization you make to your filter selections is also be applicable to the form-based knowledge control and standalone knowledge base search page.
 
@@ -81,7 +81,7 @@ To view the auto-filtered results:
 2. If you want to disable the automatic filtering option and search the entire knowledge base for articles, deselect **Auto-filter results**.  
 
     > [!NOTE]
-    > Your administrator or system customizer must enable **Users can turn off automatic filtering** option for you to see the **Auto-filter results** option. If the **Users can turn off automatic filtering** option isn't enabled, you'll always see the auto-filtered results. Learn more in [Configure automatic filtering](../administer/add-knowledge-base-search-control-forms.md#configure-automatic-filtering-for-the-web-client).
+    > Your administrator or system customizer must enable **Users can turn off automatic filtering** option for you to see the **Auto-filter results** option. If the **Users can turn off automatic filtering** option isn't enabled, you always see the auto-filtered results. Learn more in [Configure automatic filtering](../administer/add-knowledge-base-search-control-forms.md#configure-automatic-filtering-for-the-web-client).
 
 Here's an example.
 
