@@ -1,6 +1,6 @@
 ---
 title: View and understand real-time analytics for record routing in the backlog work items report 
-description:  Monitor and filter backlog work items with real-time analytics. View KPIs, track volumes, and identify unassigned items for improved workflow efficiency and prioritization.
+description: Monitor and filter backlog work items with real-time analytics. View KPIs, track volumes, and identify unassigned items for improved workflow efficiency and prioritization.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -19,9 +19,9 @@ Besides filtering, the report also provides the following KPIs to track all-up v
 
 |KPIs  |Description |
 |---------|---------|
-|Total work items   | Total number of workitems created in the last two days.|
-|Assigned work items  | Number of workitems created in the last two days that are currently assigned. |
-|Unassigned work items    | Number of workitems created in the last two days that aren't yet assigned. |
+|Total work items   | Total number of work items created in the last two days.|
+|Assigned work items  | Number of work items created in the last two days that are currently assigned. |
+|Unassigned work items    | Number of work items created in the last two days that aren't yet assigned. |
 |Agents online   |   Number of agents online at the moment.|
 
 It allows you to easily identify overall case or record volume, and provides easy identification of unassigned work items for triage based on priority.
