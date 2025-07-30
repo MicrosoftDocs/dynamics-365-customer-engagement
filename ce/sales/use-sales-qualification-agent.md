@@ -22,7 +22,7 @@ ai-usage: ai-assisted
 
 Depending on the level of autonomy your admin has configured, the Sales Qualification Agent can help you qualify leads by automatically completing the following tasks:
 
-- **Research only mode**
+- **Research-only mode**
     - Researches leads and determines whether they are a good fit for your business based on the ideal customer profile.
     - Provides insights about the lead, such as company information, financial health, and recent news. 
     - Hands off the lead to you if it fits your ideal customer profile or disqualifies the lead if it isn't a good fit.
@@ -101,7 +101,7 @@ The following screenshot shows the **Suggested action** section of the **Lead in
 
 This section summarizes the lead's alignment with the hand off criteria and provides recommended actions. Select the call-to-action button to take action. The following actions are available:
   
-- **Research mode**: The **Draft email** action lets you view the pre-generated outreach email and send it to the lead.  
+- **Research-only mode**: The **Draft email** action lets you view the pre-generated outreach email and send it to the lead.  
 - **Engage mode**: The **Draft email** action lets you view the response to a pending inquiry from the lead, if any. The **Qualify** action lets you qualify the lead.
 
 #### Key insights
@@ -114,8 +114,8 @@ The following screenshot shows the **Key insights** section of the **Lead insigh
 
 - **Why this lead is rated hot, warm, or cold**: Summarizes the key reasons for rating the lead as hot, warm, or cold. See [How does the agent determine the lead rating?](sales-qualification-agent-concepts.md#how-does-the-agent-determine-the-lead-rating).
 
-- **How was this generated?**: Displays the signal strength and the series of steps that explains how the agent generated the insights. **Signal strength** indicates the quality and completeness of the input data used to generate the insights. The higher the signal strength, the more reliable the insights are. The following screenshot shows the signal strength and steps in research mode.
-:::image type="content" source="media/lead-insights-page-explainer.png" alt-text="Screenshot of the How was this generated section of the Lead insights page in research mode.":::
+- **How was this generated?**: Displays the signal strength and the series of steps that explains how the agent generated the insights. **Signal strength** indicates the quality and completeness of the input data used to generate the insights. The higher the signal strength, the more reliable the insights are. The following screenshot shows the signal strength and steps in research-only mode.
+:::image type="content" source="media/lead-insights-page-explainer.png" alt-text="Screenshot of the How was this generated section of the Lead insights page in research-only mode.":::
 
 #### Deeper insights
 

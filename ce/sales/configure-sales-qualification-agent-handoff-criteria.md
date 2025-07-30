@@ -23,13 +23,13 @@ Define the ideal customer profile and BANT (Budget, Authority, Need, and Timelin
 
 ## Configure the ideal customer profile and BANT criteria
 
-Both Research and Engage modes use the ideal customer profile to identify leads that match your target customer characteristics. However, BANT criteria are only used by the Engage mode to determine whether to engage with a lead.
+Both Research-only and Research and engage modes use the ideal customer profile to identify leads that match your target customer characteristics. However, BANT criteria are only used by the Research and engage mode to determine whether to engage with a lead.
 
 By default, the application defines a set of criteria. You can update any out-of-the-box criteria to add or remove attributes. Also, you can create a custom criterion.
 
 1. [Open the Sales Qualification Agent settings](open-sales-qualification-agent-settings.md) page.  
 1. In the **Handoff criteria** section, enter or select the criteria that describe your ideal customer profile, including industries, employee size, decision making roles, customer location, and annual revenue.  
-1. (Engage mode only) Specify the BANT (Budget, Authority, Need, Timing) criteria to help the agent identify leads it should engage with. The agent uses [purchase interest signals](sales-qualification-agent-concepts.md#what-is-purchase-interest-and-how-is-it-determined) along with BANT to evaluate leads and determine whether to engage with them. The agent evaluates the leads in the following order&mdash;need, timeline, budget, and authority.  
+1. (Research and engage mode only) Specify the BANT (Budget, Authority, Need, Timing) criteria to help the agent identify leads it should engage with. The agent uses [purchase interest signals](sales-qualification-agent-concepts.md#what-is-purchase-interest-and-how-is-it-determined) along with BANT to evaluate leads and determine whether to engage with them. The agent evaluates the leads in the following order&mdash;need, timeline, budget, and authority.  
    The following table explains when a lead is qualified or disqualified based on the configured criteria:  
 
     | Criteria type | Value | Qualify or disqualify? |

@@ -19,7 +19,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The concepts described in this article are applicable for the Sales Qualification Agent in Dynamics 365 Sales and applicable for both Research and Engage agents. The concepts help you understand how the agent evaluates leads and determines their fit for your organization. Further, the agent uses these concepts to provide insights and recommendations for lead qualification.
+The concepts described in this article are applicable for the Sales Qualification Agent in Dynamics 365 Sales and applicable for both Research-only mode and Research and engage modes. The concepts help you understand how the agent evaluates leads and determines their fit for your organization. Further, the agent uses these concepts to provide insights and recommendations for lead qualification.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -147,7 +147,7 @@ The BANT criteria can be detected from various sources such as emails, CRM confi
 
 ## How does the agent determine the lead rating?
 
-**Research mode:**
+**Research-only mode:**
 
 The agent determines the lead rating based on the alignment with the Ideal Customer Profile (ICP) and any engagement signals from Customer Insights - Journeys in terms of email opens, link clicks, event registrations and attendance, and form submissions.
 

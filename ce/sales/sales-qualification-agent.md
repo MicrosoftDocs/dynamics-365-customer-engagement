@@ -32,9 +32,9 @@ Sales Qualification Agents are available in two modes:
 
 - **Engage**: An AI assistant that helps you manage high lead volumes. The agent works on assigned leads based on your selection criteria, such as lead source, rating, or geography. Additionally, the agent autonomously engages with each lead, follows up, and evaluates fit based on your seller hand-off rules. Leads that demonstrate purchase intent and meet most of your criteria are handed over to sellers for qualification, while those that don’t are handed over to supervisors for disqualification, ensuring your sales team focuses only on high-potential opportunities.  
 
-## Difference between Research and Engage modes
+## Difference between Research-only and Research and engage modes
 
-The following table summarizes the difference between the Research and Engage modes:
+The following table summarizes the difference between the Research-only and Research and engage modes:
 
 | Functionality                              | Research-only | Research and engage |
 |--------------------------------------------|:--------:|:------:|
@@ -53,7 +53,7 @@ The following table summarizes the difference between the Research and Engage mo
 
 The Sales Qualification Agents are designed to assist you in the lead qualification process. Here are some key concepts to understand how the agents work on leads and help you qualify leads:
 
-**Ideal customer profile (ICP)**: Applicable for both Research and Engage modes, the ICP is a set of criteria that defines the characteristics of your ideal customer. The agent uses this profile to evaluate leads and determine their fit. More information: [What is the ideal customer profile and how is the fit determined?](sales-qualification-agent-concepts.md#what-is-the-ideal-customer-profile-and-how-is-the-fit-determined)
+**Ideal customer profile (ICP)**: Applicable for both Research-only and Research and engage modes, the ICP is a set of criteria that defines the characteristics of your ideal customer. The agent uses this profile to evaluate leads and determine their fit. More information: [What is the ideal customer profile and how is the fit determined?](sales-qualification-agent-concepts.md#what-is-the-ideal-customer-profile-and-how-is-the-fit-determined)
 
 **Purchase interest**: Applicable for the Engage mode, purchase interest is an indicator of the lead's intent to buy. The agent evaluates leads based on their engagement and interest level. More information: [What is purchase interest and how is it determined?](sales-qualification-agent-concepts.md#what-is-purchase-interest-and-how-is-it-determined)
 
@@ -67,7 +67,7 @@ The usage of the Sales Qualification Agents depend on your role in the sales pro
 |------|----------|--------|
 | Admin | [Set up and configure Sales Qualification Agent](configure-sales-qualification-agent.md)<br>[Test the Sales Qualification Agent](test-sales-qualification-agent.md) | [Set up and configure Sales Qualification Agent](configure-sales-qualification-agent.md)<br>[Test the Sales Qualification Agent](test-sales-qualification-agent.md) |
 | Seller | [Qualify leads with the Sales Qualification Agent](use-sales-qualification-agent.md) | Engage with leads and manage follow-ups |
-| Supervisor | [Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md) <br> [View metrics related to research only mode](monitor-leads-by-sales-qualification-agent.md#view-metrics-related-to-research-only-mode) | [Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md)<br> [View metrics related to engage mode](monitor-leads-by-sales-qualification-agent.md#view-metrics-related-to-engage-mode) |
+| Supervisor | [Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md) <br> [View metrics related to research-only mode](monitor-leads-by-sales-qualification-agent.md#view-metrics-related-to-research-only-mode) | [Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md)<br> [View metrics related to research and engage mode](monitor-leads-by-sales-qualification-agent.md#view-metrics-related-to-engage-mode) |
 
 ## Capacity usage
 

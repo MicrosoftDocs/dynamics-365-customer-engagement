@@ -20,7 +20,7 @@ ai-usage: ai-assisted
 The following upgrade scenarios are supported for the Sales Qualification Agent in Dynamics 365 Sales:
 
 - **Upgrade the agent to 7.3**: This upgrade is available for customers who signed up for the April 2025 public preview of the Sales Qualification Agent.
-- **Upgrade the agent to handle both research and engagement**: This upgrade is available for customers who're currently using the Research mode of the agent and want to extend its capabilities to include engagement as well.
+- **Upgrade the agent to handle both research and engagement**: This upgrade is available for customers who're currently using the Research-only mode of the agent and want to extend its capabilities to include engagement as well.
 
 
 ## Considerations for upgrading the agent to 7.3
@@ -53,9 +53,9 @@ After the 7.3 release is deployed in your environment, your existing Sales Quali
 
 ## Considerations for upgrading the agent to handle both research and engagement
 
-- You can upgrade your Sales Qualification Agent from the Research mode to Engage mode, which includes both research and engagement capabilities. 
+- You can upgrade your Sales Qualification Agent from the Research-only mode to Engage mode, which includes both research and engagement capabilities. 
 
-- Downgrading from the Engage mode to the Research mode is not supported.
+- Downgrading from the Research and engage mode to the Research-only mode is not supported.
 - You can upgrade both the 4.3 and 7.3 versions of the Sales Qualification Agent to handle both research and engagement.
 - The research-related settings will be preserved during the upgrade. You can just configure the engagement-related settings. 
 

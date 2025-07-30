@@ -19,7 +19,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Open the Sales Qualification Agent settings to configure or manage the Research and Engage agent.
+Open the Sales Qualification Agent settings to configure or manage the Sales Qualification Agent.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 

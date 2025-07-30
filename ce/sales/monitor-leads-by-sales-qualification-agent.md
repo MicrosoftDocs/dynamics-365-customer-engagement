@@ -29,18 +29,18 @@ As a supervisor or administrator, you can monitor the performance of the Sales Q
 1. To view the list of leads handled by the agent, select any of the following buttons:
 
    - **See disqualified leads**: Opens the **Leads disqualified by AI agent** view that lists leads that were disqualified by the agent during the selected time period. Open a lead to view the details of the disqualification in the **Lead insights** page. If you don't agree with the disqualification, select **Reassign** to assign the lead to a seller for follow-up and qualification.
-   - **See leads in process**: Opens the **Leads in process by AI agent** view that lists all leads that the agent is currently processing. This includes leads that are being researched and leads that are being engaged with (engage mode only).
+   - **See leads in process**: Opens the **Leads in process by AI agent** view that lists all leads that the agent is currently processing. This includes leads that are being researched and leads that are being engaged with (research and engage mode only).
    - **See handed over leads**: Opens the **Leads handed over by AI agent** view that lists all leads that were handed over to the seller for followup and qualification during the selected time period.
 
 1. Depending on the agent mode, you may see different metrics and insights in the dashboard:
-   - [View metrics related to research only mode](#view-metrics-related-to-research-only-mode)
-   - [View metrics related to engage mode](#view-metrics-related-to-engage-mode)
+   - [View metrics related to research-only mode](#view-metrics-related-to-research-only-mode)
+   - [View metrics related to research and engage mode](#view-metrics-related-to-engage-mode)
 
-## View metrics related to research only mode
+## View metrics related to research-only mode
 
-If your admin has configured the Sales Qualification Agent to run in research only mode, you can view the agent's effectiveness in researching leads, generating outreach emails, disqualifying low fit leads, and handing over promising leads to sellers. In this mode, the agent doesn't send outreach emails to leads or engage with leads.
+If your admin has configured the Sales Qualification Agent to run in research-only mode, you can view the agent's effectiveness in researching leads, generating outreach emails, disqualifying low fit leads, and handing over promising leads to sellers. In this mode, the agent doesn't send outreach emails to leads or engage with leads.
 
-:::image type="content" source="media/supervisor-dashboard-research-mode.png" alt-text="Screenshot of the supervisor dashboard for research only mode":::
+:::image type="content" source="media/supervisor-dashboard-research-mode.png" alt-text="Screenshot of the supervisor dashboard for research-only mode":::
 
 - **Top metrics**: The following table shows the key performance metrics:
 
