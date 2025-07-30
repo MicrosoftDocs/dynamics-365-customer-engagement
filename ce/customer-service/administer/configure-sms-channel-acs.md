@@ -78,7 +78,7 @@ After you acquire a short code or mobile number, perform the following steps:
 
 ### Number types and region/country supported in contact center
 
-The following table lists the number types and region/country supported in Dynamics 365 Contact Center.
+The following table lists the Azure Communication Services-based number types and region/country supported in Dynamics 365 Contact Center.
 
 | Supported destination | Toll-free   | Short code | Mobile number  |
 |-----------------------|-------------|------------|----------------|
