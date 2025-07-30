@@ -1,12 +1,12 @@
 ---
 title: Overview of data model customization
-description: Learn about data model customization and how it can help you with your organization's metrics.
+description: Discover how data model customization in Dynamics 365 Customer Service helps you create custom KPIs, modify metrics, and build tailored analytics reports for your organization.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: overview
 ms.collection:
-ms.date: 02/03/2025
+ms.date: 07/30/2025
 ms.custom: bap-template
 ---
 
@@ -67,16 +67,16 @@ Dynamics 365 Customer Service provisions and maintains this workspace. The Dynam
 > [!NOTE]
 > This single data model supports both case and conversation analytics. Knowledge analytics and unified routing analytics aren't available for customization.  
 
-Each time the out-of-the-box data model is updated because of newer release versions, the data model that's deployed to the managed workspace is also updated to ensure that your organization gets the latest updates, which include newer metrics, updates to logic of existing metrics, and bug fixes.  
+Each time the out-of-the-box data model is updated because of newer release versions, the data model deployed to the managed workspace is also updated to ensure that your organization gets the latest updates, which include newer metrics, updates to logic of existing metrics, and bug fixes.  
  
 > [!NOTE]
-> We recommend treating the dataset in the managed workspace as read-only. We recommend that you don't make changes to this dataset, as it might lead to report malfunction. Any changes made to the data model in the managed workspace will be overwritten whenever a newer version is released. 
+> We recommend treating the dataset in the managed workspace as read-only. We recommend that you don't make changes to this dataset, as it might lead to report malfunction. Any changes made to the data model in the managed workspace is overwritten whenever a newer version is released. 
 
 ### Customer workspace
 
 A copy of the out-of-the-box reports is created in this workspace. During the configuration, you can either create a new workspace or specify an existing workspace.
 
-Depending on the features you enabled, you may see up to three different reports created in the workspace you selected for historical data model customization and one report in the real-time data model customization.
+Depending on the features you enabled, you might see up to three different reports created in the workspace you selected for historical data model customization and one report in the real-time data model customization.
 
 ### [Historical data model customization](#tab/historicaldatamodelcustomization)
 

@@ -1,7 +1,7 @@
 ---
 title: Filter knowledge articles
 description: Learn how you can filter knowledge articles.
-ms.date: 02/03/2025
+ms.date: 07/30/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -40,7 +40,7 @@ You can do the following:
 - Set preselects
 - Activate or deactivate a filter
 
-Only the filters that your administrator has configured are viewable. If your administrator deactivates a filter, that filter becomes invisible without notifying you. If you notice that a filter has suddenly disappeared, contact your administrator for assistance. If your administrator disables all filters, you won't see any filters, and a message, "No filters have been configured. Contact your administrator." appears.
+Only the filters that your administrator configures are viewable. If your administrator deactivates a filter, that filter becomes invisible without notifying you. If you notice that a filter has suddenly disappeared, contact your administrator for assistance. If your administrator disables all filters, you won't see any filters, and a message, "No filters have been configured. Contact your administrator." appears.
 
 Any personalization you make to your filter selections is also be applicable to the form-based knowledge control and standalone knowledge base search page.
 

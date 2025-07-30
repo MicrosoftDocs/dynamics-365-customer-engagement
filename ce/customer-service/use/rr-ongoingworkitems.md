@@ -6,13 +6,13 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 04/02/2025
+ms.date: 07/30/2025
 ms.custom: bap-template
 ---
 
 # View and understand real-time analytics for record routing in the ongoing work items report
 
-The Ongoing work items report lists all open and active state work items that have been modified in the past 24 hours or today per time zone setting. Content can be filtered by modifed on, queue, agent, work item status, work item skill, and time zone.
+The Ongoing work items report lists all open and active state work items modified in the past 24 hours or today per time zone setting. Content is filtered by modified on, queue, agent, work item status, work item skill, and time zone.
 
 This report is specifically for real-time tracking of recent cases or records. In this view, you can easily identify work items that are created but aren't assigned to a customer service representative (service representative or representative). It can help you ensure that all new work items that need attention are triaged. Work items can be assigned, transferred, or removed from within the dashboard.
 
@@ -24,7 +24,7 @@ For longer time periods, you can use [the backlog work items report](rr-backlogi
 |---------|---------|
 |Subject     |   Case or record title.    |
 |Queue    |     Queue that the work item is routed to.    |
-|Status    |  Open or active, where open hasn't been assigned to a service representative. |
+|Status    |  Open or active, where open isn't assigned to a service representative. |
 |Work item age    |Time in days since case or record was created.|
 |Agent name  |The service representative the work item is assigned to.        |
  |Created on    |    Date and time stamp of when the work item was created.   |

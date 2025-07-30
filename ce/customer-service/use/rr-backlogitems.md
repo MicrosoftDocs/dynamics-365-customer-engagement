@@ -1,12 +1,12 @@
 ---
 title: View and understand real-time analytics for record routing in the backlog work items report 
-description: Monitor and filter backlog work items in real-time to improve workflow efficiency and prioritization.
+description:  Monitor and filter backlog work items with real-time analytics. View KPIs, track volumes, and identify unassigned items for improved workflow efficiency and prioritization.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 04/02/2025
+ms.date: 07/30/2025
 ms.custom: bap-template
 ---
 
@@ -33,7 +33,7 @@ It allows you to easily identify overall case or record volume, and provides eas
 |---------|---------|
 |Subject     |  Case or record title.  |
 |Queue    |  Queue that the work item is routed to.    |
-|Status    |   Open or active, where open hasn't yet been assigned to a customer service representative (service representative or representative).      |
+|Status    |   Open or active, where open isn't assigned to a customer service representative (service representative or representative).      |
 |Work item age     |  Time in days since case or record was created.      |
 |Agent name    |  Service representative the work item is assigned to. |
 |Created on    |   Date and time stamp of when the work item was created.      |
