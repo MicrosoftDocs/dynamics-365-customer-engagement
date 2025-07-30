@@ -1,6 +1,6 @@
 ---
 title: Configure experience profiles
-description: Learn how to create and manage experience profiles for customized service representative experiences.
+description: Learn how to create and manage experience profiles for customized service representative experiences in Dynamics 365 Contact Center and Customer Service.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

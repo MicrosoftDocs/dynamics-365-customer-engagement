@@ -1,11 +1,11 @@
 ---
-title: "Verify migration of records | MicrosoftDocs"
-description: "Learn to verify your migration of data pertaining to records enabled for unified routing from source to target environments in Omnichannel for Customer Service."
+title: Verify migration of records
+description: Learn to verify your migration of data pertaining to records enabled for unified routing from source to target environments in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 07/01/2024
+ms.date: 07/30/2025
 ms.custom: bap-template
 ---
 
