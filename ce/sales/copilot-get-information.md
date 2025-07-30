@@ -35,11 +35,8 @@ Copilot can provide a list of open opportunities that are assigned to you, sorte
 > [!IMPORTANT]
 > This is an early access feature. You can [opt in](/power-platform/admin/opt-in-early-access-updates) to use it for testing and adoption in your environments.
 
-With the existing experience, the summaries are displayed in the Copilot side pane and the Copilot full-screen view. With the enhanced experience, the summaries are displayed on the top of the record in an insight bar. Thus reducing the need to switch between the record and the Copilot side pane or full-screen view.  
-
-> [!NOTE]
-> Summaries will not be available in the Copilot side pane when you switch to the enhanced experience.  
-
+With the existing experience, by default, the records are summarized when the Copilot side pane is opened. With the enhanced experience, the summaries are displayed on the top of the record in an insight bar and not in the Copilot side pane. However, you can still summarize the record in the Copilot side pane using the prompts.
+The enhanced experience reduces the need to switch between the record and the Copilot side pane or full-screen view.  
 The summary insight bar is available for opportunities, leads, and accounts.  
 
 :::image type="content" source="media/copilot-summary-insight-bar.png" alt-text="Screenshot of the Copilot summary insight bar for a lead record in Dynamics 365 Sales.":::
