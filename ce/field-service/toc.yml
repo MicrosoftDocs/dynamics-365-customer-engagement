@@ -84,8 +84,6 @@ items:
       href: work-order-customization.md
     - name: Service task types
       href: set-up-service-task-types.md
-    - name: Agreement sub-statuses
-      href: set-up-agreement-sub-statuses.md
     - name: Service level agreements
       href: sla-work-orders.md
     - name: Use Dataverse search
@@ -387,12 +385,14 @@ items:
 
 - name: Agreements and preventive maintenance
   items:
-    - name: Agreements overview
-      href: agreements-overview.md
-    - name: Set up agreements
-      href: set-up-customer-agreements.md
-    - name: Agreement sub-statuses
-      href: set-up-agreement-sub-statuses.md
+    - name: Agreements
+      items:
+        - name: Agreements overview
+          href: agreements-overview.md
+        - name: Set up agreements
+          href: set-up-customer-agreements.md
+        - name: Set up agreement substatuses
+          href: set-up-agreement-sub-statuses.md
     - name: Entitlements
       items:
         - name: Entitlements overview
@@ -626,7 +626,7 @@ items:
     - name: Implementation guidance
       href: /dynamics365/guidance/resources/fs-index
     - name: Video library
-      href: https://www.youtube.com/channel/UC7Rd031NCJZekAkNU2bb8Kg/
+      href: https://www.youtube.com/@MSD365Community/videos
     - name: Community forum
       href: https://community.dynamics.com/forums/thread/?groupid=74407f3d-21f7-403c-a59d-456e2a7dd7f9
     - name: Submit a feature request

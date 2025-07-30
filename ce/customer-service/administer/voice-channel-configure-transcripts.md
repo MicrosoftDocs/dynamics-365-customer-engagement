@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.reviwer: nenellim
-ms.date: 04/16/2025
+ms.date: 07/28/2025
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -67,6 +67,10 @@ To view translated voice transcripts for calls, you must enable call recording, 
   
    > [!div class="mx-imgBorder"]
    > ![Screenshot of closed conversation list.](../media/voice-channel-conversations-list.png)
+
+## Set up bulk download of call recordings
+
+You can create a Power Automate flow to download call recordings in bulk. Learn more in [Download call recordings in bulk](/dynamics365/contact-center/extend/download-call-recordings-bulk).
 
 ### Storage location of your recordings and cost
  

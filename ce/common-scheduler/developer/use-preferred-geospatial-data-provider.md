@@ -1,16 +1,16 @@
 ---
 title: "Use preferred geospatial data provider in Universal Resource Scheduling"
 description: "Learn how to use the geospatial data provider of your choice instead of the default Bing Maps by creating a custom plug-in."
-ms.date: 01/29/2018
+ms.date: 07/28/2025
 searchScope: 
   - Field Service
   - Project Service
-ms.reviewer: mhart
+ms.reviewer: puneet-singh1
 
 ms.subservice: common-scheduler
 ms.topic: how-to
-author: m-hartmann
-ms.author: mhart
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 # Extend Universal Resource Scheduling actions to use your preferred geospatial data provider
 

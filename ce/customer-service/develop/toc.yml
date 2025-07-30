@@ -71,6 +71,10 @@
             href: test-custom-channel-sample-html.md
           - name: Markdown formats in custom channels that use Direct Line
             href: bring-your-own-channel.md#markdown-formats-in-custom-channels
+      - name: Voice
+        items:
+        - name: Download call recordings in bulk
+          href: /dynamics365/contact-center/extend/download-call-recordings-bulk?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml      
       - name: Copilot in Customer Service
         items:  
         - name: Download Copilot transcripts and interaction data

@@ -1,18 +1,17 @@
 ---
-title: Troubleshoot migration of records | MicrosoftDocs
+title: Troubleshoot migration of records
 description: Learn to troubleshoot issues with migrating data pertaining to records enabled for unified routing from source to target environments in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: troubleshooting
-ms.date: 07/01/2024
+ms.date: 07/30/2025
 ms.custom: bap-template
 ---
 
 # Troubleshoot migration of records
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
-
 
 [!INCLUDE[ur-migration considerations](../../includes/cc-ur-migration-considerations.md)]
 
@@ -28,7 +27,6 @@ In the target organization, perform the following steps:
     3. Decision ruleset
     4. Decision contract
     5. Queue
-
 
 2. For workstreams, revert the entities in the reverse order of their serial number (**S.No** column) that's listed in the migration article at [Migrate configuration for record workstreams](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-intake-rules-and-record-workstreams). Migrate the entities in this order:
     1. Workstream capacity profile

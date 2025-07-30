@@ -1,12 +1,12 @@
 ---
 title: Calculate conversation metrics
-description: Learn to use Power BI and Dataverse for calculating essential conversation metrics and improving service efficiency.
+description: Learn how to calculate conversation metrics in Dynamics 365 Customer Service. Discover key performance indicators to improve contact center or call center interactions.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 07/22/2025
+ms.date: 07/28/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -22,7 +22,7 @@ ms.custom:
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-This article provides an overview of the conversation metrics that are available in Dynamics 365 Customer Service that can help you analyze key performance indicators (KPIs). These conversation metrics can help you make strategic decisions, track customer service representative (service representative or representative) and AI agent performance, and improve overall customer satisfaction.
+This article explains how to calculate conversation metrics in Dynamics 365 Customer Service. These metrics help you analyze key performance indicators (KPIs), make strategic decisions, track customer service representative (service representative or representative) and AI agent performance, and improve customer satisfaction.
 
 This article also provides detailed guidance about calculating key conversation metrics. By using Power BI reports and Dataverse calculations, you can gain valuable insights into customer service efficiency. [Understand the conversation workflow](../use/overview-analytics-data-model.md#understand-the-conversation-workflow) to effectively utilize these metrics and improve customer service operations and decision-making. 
 
@@ -205,7 +205,7 @@ Outgoing conversations = ​CALCULATE (​DISTINCTCOUNTNOBLANK ( FactConversatio
 - **Incoming conversations**: The number of incoming conversations directed to service representatives.
 - **Direct service representative**: Total number of conversations through any channel (voice or digital) that includes both open, active, and closed conversations for both, inbound and outbound traffic, directly from the representative without involving voice or agent.
 
-## Total conversations handled
+## Total handled conversations
 
 *Applies to Omnichannel historical dashboards.*
 
@@ -393,7 +393,7 @@ For chat and digital messaging, a service representative is actively working on 
 
 For the **Voice** report, this metric is the sum of total talk time, total hold time, and total active wrap-up time or after-call work, divided by the number of calls handled, where:
 
-:::image type="content" source="../media/aht-voice.png" alt-text="Screenshot of average handle time for voice.":::
+:::image type="content" source="../media/aht-voice.png" alt-text="Screenshot of average conversation handle time for voice in Dynamics 365 Customer Service.":::
 
 For the **Chat** report, this metric is the sum of the active chat time and active wrap-up time, divided by the number of chats handled, where:
 
