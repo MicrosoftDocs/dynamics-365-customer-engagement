@@ -56,11 +56,11 @@ additionalContent:
         text: Configure default settings
     - title: Customize 
       links: 
-      - url: field-service-customizations.md
+      - url: /dynamics365/guidance/resources/field-service-customize-overview
         text: Customize Field Service
-      - url: field-service-customization-best-practices.md
+      - url: /dynamics365/guidance/resources/field-service-customize-best-practices
         text: Best practices
-      - url: field-service-customize-forms.md
+      - url: /dynamics365/guidance/resources/field-service-customize-forms
         text: Customize forms
       
   - title: Administer
@@ -142,7 +142,7 @@ additionalContent:
       - url: set-up-customer-agreements.md
         text: Agreements to automatically generate work orders and invoices
       - url: set-up-agreement-sub-statuses.md
-        text: Agreement sub-statuses
+        text: Agreement substatuses
       - url: inventory-purchasing-returns-overview.md
         text: Inventory, purchasing, and returns
     - title: Integrations

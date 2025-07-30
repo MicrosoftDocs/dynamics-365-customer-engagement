@@ -1,22 +1,22 @@
 ---
-title: Configure AI agent to use Model Context Protocol (preview)
-description: Learn how to configure AI agents with Model Context Protocol and use in resolving customer issues.
+title: Connect to Customer Service with Model Context Protocol (preview)
+description: Learn how to configure AI agents with Model Context Protocol and use in Customer Service to resolve customer issues.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.date: 07/02/2025
+ms.date: 07/24/2025
+ms.update-cycle: 180-days
 ms.custom:
   - bap-template 
-
 ---
 
-# Configure AI agent to use Model Context Protocol (preview)
+# Connect to Customer Service with Model Context Protocol (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Whether you're a developer building an AI agent to automate a part of the service workflow, or a customer service representative using an AI assistant such as Claude to get work done, you can connect Customer Service with the Model Context Protocol (MCP) server.
+Whether you're a developer building an AI agent to automate a part of the service workflow, or a customer service representative using an AI assistant such as Claude to resolve customer issues efficiently, you can connect Customer Service with the Model Context Protocol (MCP) server.
 
 You can use Microsoft Copilot Studio to build custom agents for service teams that include the Dynamics 365 Customer Service MCP server or connect Dynamics 365 with any other agent platform that supports the MCP protocol. By using the Customer Service MCP server in combination with MCP servers from other business applications such as Sales and ERP systems, you can also automate complex cross-functional business operations with ease. For example, an order can be generated through the Dynamics 365 Business Central MCP server, after an MCP client is engaged with the Customer Service MCP server.
 
@@ -28,7 +28,7 @@ You can use Microsoft Copilot Studio to build custom agents for service teams th
 - System administrator or Omnichannel Administrator role.
 - D365 Service MCP server is configured and appears in Copilot Studio tools list. Learn more in [Microsoft MCP connectors available in Copilot Studio](/microsoft-copilot-studio/agent-extend-action-mcp#microsoft-mcp-connectors-available-in-copilot-studio).
 - The MCP server in Claude is set up for Customer Service. Learn more in [Configure and use the Dataverse MCP server in Claude](/power-apps/maker/data-platform/data-platform-mcp#configure-and-use-the-dataverse-mcp-server-in-claude).
-    - Make sure that you update the JSON for the MCP server in Claude to provide the connection details of the MCP server for Dynamics 365 Customer Service. Learn more in [Update the JSON file for the MCP server in Claude](/power-apps/maker/data-platform/data-platform-mcp#configure-dataverse-mcp-server-in-claude-desktop).
+    - Make sure that you update the JSON for the MCP server in Claude to provide the connection details of the MCP server for Dynamics 365 Customer Service.
     - A sample JSON format is as follows.
       Use a &lt;friendly name&gt; for your Customer Service MCP server that you can easily remember, for example: *MyServiceMCPServer*. 
 
@@ -58,7 +58,7 @@ You can use Microsoft Copilot Studio to build custom agents for service teams th
            }
         ```
 
-## Configure AI agent based on MCP server
+## Configure an AI agent based on MCP server
 
 1. In Copilot Studio, select **AI agents**, and create a new agent or select an existing agent.
 1. Perform the steps in [Add tools from an existing MCP connector to an agent](/microsoft-copilot-studio/agent-extend-action-mcp#add-tools-from-an-existing-mcp-connector-to-an-agent).

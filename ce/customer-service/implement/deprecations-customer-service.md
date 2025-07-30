@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: conceptual
-ms.date: 06/23/2025
+ms.date: 07/10/2025
 ms.custom: bap-template
 ms.collection:
 ---
@@ -29,13 +29,13 @@ In Dynamics 365 Channel Integration Framework versions 1 and 2, the setClickToAc
 
 ## Omnichannel agent and supervisor dashboard experiences to be deprecated on December 1, 2025
 
-The Omnichannel dashboard experiences in Copilot Service workspace will be deprecated on December 1, 2025. Support will end on December 1, 2027. This upcoming change affects customers who use the agent or supervisor dashboard experiences. We recommend that you transition to the [inbox experience](../use/use-inbox.md) and [Omnichannel real-time analytics report](../use/intro-realtime-analytics-dashboard.md) in the Copilot Service workspace app. 
+The Omnichannel dashboard experiences in Copilot Service workspace will be deprecated on December 1, 2025. Support will end on December 1, 2026. This upcoming change affects customers who use the agent or supervisor dashboard experiences. We recommend that you transition to the [inbox experience](../use/use-inbox.md) and [Omnichannel real-time analytics report](../use/intro-realtime-analytics-dashboard.md) in the Copilot Service workspace app. 
 
 Copilot Service workspace offers modern customer service experiences, with features like multi-entity support, read and unread configurations, card configuration, and Copilot-suggested actions. The inbox is the recommended solution for customer service representatives to manage their work items. The inbox is continuously being updated with more AI features and enhanced configurations. [Get started with a trial version of Copilot Service workspace](https://www.microsoft.com/dynamics-365/products/customer-service).
 
 ## Effort estimation model in unified routing is deprecated
 
-The [effort estimation model in unified routing](../administer/use-effort-estimation-for-routing.md) is deprecated as of May 02, 2025. The support for the feature will end and the feature will be removed on June 02, 2025.
+The effort estimation model in unified routing was deprecated on May 02, 2025. The support for the feature ended and the feature was removed on June 02, 2025.
 
 ## Auto-summarization of ongoing conversations is deprecated
 

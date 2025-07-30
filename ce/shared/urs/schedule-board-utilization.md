@@ -19,11 +19,11 @@ Formula: ((Total booked hours  in date range)/(Total working hours x days in dat
 
 A resource works an eight-hour shift, Monday to Friday. The date range on the schedule board shows a seven-day week, Monday to Sunday.
 
-Total working hours are 40 hours (5 x 8 hours).
+Total working hours are 40 hours (8 hours x 5 days).
 
 If the dispatcher books the resource for 10 hours throughout the work week, their total working hours are 10.
 
-So the resource has a utilization of 25% ((10 / (5 x 8)) x 100)).
+So the resource has a utilization of 25% ((10 / (8 x 5)) x 100).
 
 ### Booking status influence on utilization
 

@@ -2,6 +2,7 @@
 title: FAQs for work order update (preview)
 description: Get answers to common questions about how the AI-powered work order update feature in the Dynamics 365 Field Service mobile app helps you quickly update details of a work order.
 ms.date: 11/12/2024
+ms.update-cycle: 180-days
 ms.custom:
   - responsible-ai-faqs
   - bap-template

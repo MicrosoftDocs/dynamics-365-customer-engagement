@@ -2,6 +2,7 @@
 title: Create or change a resource group
 description: Learn how to use resource groups to group users, facilities, and equipment as part of the selection rules for a service in Dynamics 365 Customer Service.
 ms.date: 05/09/2025
+ms.update-cycle: 1095-days
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas

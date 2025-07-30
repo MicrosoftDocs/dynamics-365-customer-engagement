@@ -94,6 +94,8 @@
         items:
           - name: Use the inbox
             href: use-inbox.md
+          - name: Use views and filters in the inbox
+            href: inbox-views-filters.md            
           - name: Create personalized inbox views
             href: inbox-create-personalized-view.md
       - name: Timeline
@@ -306,7 +308,7 @@
         items: 
         - name: Copilot feature availability across applications
           href: /dynamics365/contact-center/use/copilot-feature-availability?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
-        - name: Summarize cases
+        - name: Use Copilot-generated case summaries
           href: copilot-use-summary.md
         - name: Use Copilot case summary in model-driven apps
           href: /power-apps/user/copilot-case-summary?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
@@ -413,7 +415,7 @@
           - name: Conversation metrics
             href: /dynamics365/customer-service/develop/calculate-conversation-metrics?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
           - name: Session metrics
-            href: session-metrics.md
+            href: /dynamics365/customer-service/develop/calculate-session-metrics?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
           - name: Service representative metrics
             href: service-rep-metrics.md
         - name: Personalize analytics
@@ -496,6 +498,8 @@
         href: /dynamics365/contact-center/implement/faq-rai-ai-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Responsible AI FAQ for Copilot in Customer Service
         href: ../implement/faq-responsible-ai-copilot.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Responsible AI FAQs for NLUs in AI agents
+        href: /dynamics365/contact-center/implement/natural-language-ai-faq?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml         
     - name: Resources
       items:
       - name: Training

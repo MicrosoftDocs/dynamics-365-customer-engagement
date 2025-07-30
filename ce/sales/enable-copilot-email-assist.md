@@ -8,6 +8,7 @@ ms.topic: how-to
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot 
 ms.date: 04/30/2025
+ms.update-cycle: 180-days
 ms.custom: bap-template 
 ---
 

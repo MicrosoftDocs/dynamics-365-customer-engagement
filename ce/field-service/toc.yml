@@ -84,8 +84,6 @@ items:
       href: work-order-customization.md
     - name: Service task types
       href: set-up-service-task-types.md
-    - name: Agreement sub-statuses
-      href: set-up-agreement-sub-statuses.md
     - name: Service level agreements
       href: sla-work-orders.md
     - name: Use Dataverse search
@@ -345,6 +343,8 @@ items:
           href: mobile/offline-data-sync.md
         - name: Best practices and limitations
           href: mobile/best-practices-limitations-offline-profile.md
+      - name: Customize the Field Service mobile app
+        href: mobile/customize-mobile-app.md
       - name: Configure barcode scanning
         href: mobile/scan-barcode.md
       - name: Enable push notifications
@@ -380,37 +380,19 @@ items:
           href: mobile/optimize-image-size.md
       - name: Use the new experience
         href: mobile/do-work-newux.md
-
-    - name: Customize the mobile app
-      items:
-        - name: Customize with Power Apps
-          href: mobile/power-apps-customization.md
-        - name: Change the navigation and views
-          href: mobile/customize-navigation-views.md
-        - name: Change the booking calendar
-          href: mobile/customize-booking-calendar.md
-        - name: Link to the mobile app
-          href: mobile/deeplink-mobile.md
-        - name: Create workflows and scripts
-          href: mobile/automate-business-processes.md
-        - name: Change the booking and work order form
-          href: mobile/change-work-order-booking-form.md
-        - name: Add a custom app module to the mobile app
-          href: mobile/custom-app-module-mobile.md
-        - name: Optimize performance for mobile customizations
-          href: mobile/improve-mobile-performance.md
-
     - name: Get help
       href: mobile/get-help.md
 
 - name: Agreements and preventive maintenance
   items:
-    - name: Agreements overview
-      href: agreements-overview.md
-    - name: Set up agreements
-      href: set-up-customer-agreements.md
-    - name: Agreement sub-statuses
-      href: set-up-agreement-sub-statuses.md
+    - name: Agreements
+      items:
+        - name: Agreements overview
+          href: agreements-overview.md
+        - name: Set up agreements
+          href: set-up-customer-agreements.md
+        - name: Set up agreement substatuses
+          href: set-up-agreement-sub-statuses.md
     - name: Entitlements
       items:
         - name: Entitlements overview
@@ -589,6 +571,8 @@ items:
           href: finance-operations-integration-setup.md
         - name: Create a work order
           href: finance-operations-integration-create-wo.md
+    - name: Integrate bookings with Outlook calendars (preview)
+      href: outlook-integration.md
     - name: Microsoft Planner
       href: planner-sync.md
     - name: Dynamics 365 Supply Chain Management
@@ -603,21 +587,6 @@ items:
       href: https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-for-field-services
     - name: Dynamics 365 US Government cloud
       href: /power-platform/admin/microsoft-dynamics-365-government
-
-- name: Customize Field Service
-  items:
-    - name: Customization overview
-      href: field-service-customizations.md
-    - name: Best practices
-      href: field-service-customization-best-practices.md
-    - name: Customize columns (fields)
-      href: field-service-customize-columns-fields.md
-    - name: Customize forms
-      href: field-service-customize-forms.md
-    - name: Write complex business logic (plugins + JavaScript)
-      href: field-service-customize-scripts.md
-    - name: Customize the booking card
-      href: customize-booking-card.md
 
 - name: Field Service table reference
   href: developer/reference/entities/toc.yml
@@ -657,7 +626,7 @@ items:
     - name: Implementation guidance
       href: /dynamics365/guidance/resources/fs-index
     - name: Video library
-      href: https://www.youtube.com/channel/UC7Rd031NCJZekAkNU2bb8Kg/
+      href: https://www.youtube.com/@MSD365Community/videos
     - name: Community forum
       href: https://community.dynamics.com/forums/thread/?groupid=74407f3d-21f7-403c-a59d-456e2a7dd7f9
     - name: Submit a feature request

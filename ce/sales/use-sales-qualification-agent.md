@@ -2,6 +2,7 @@
 title: Qualify leads with the Sales Qualification Agent
 description: Learn how to use the Sales Qualification Agent in Dynamics 365 Sales to qualify leads more effectively and improve sales outcomes.
 ms.date: 07/03/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -36,7 +37,7 @@ After the Sales Qualification Agent is set up, it automatically researches leads
 - created in the last 14 days
 - owned by sellers who have a security role that allows them to access the agent.
 
-The agent refreshes research data either daily, every three days, or weekly. Your admin determines the refresh frequency based on your company's business needs. The agent is also triggered after certain events, such as when a lead is created or updated. Learn about the trigger events in [Sales Qualification Agent FAQ](sales-qualification-agent-faq.md#trigger-events).
+The agent processes the leads only once, unless significant changes are made to the lead. Learn more about trigger events in [When does the agent run?](sales-qualification-agent-faq.md#trigger-events).
 
 ## Qualify leads
 
