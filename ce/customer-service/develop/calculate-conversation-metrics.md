@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 07/28/2025
+ms.date: 07/31/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -257,13 +257,7 @@ Abandoned conversations = ​SUMX(FactConversation, IF (FactConversation[IsAband
 
 *Applies to Omnichannel real-time dashboard.*
 
-Conversation first wait time is a measure of the time, in seconds, before a service representative responds to a customer's request. It represents the amount of time the customer spends waiting for the first response from a service representative. Factors such as service representative availability, a high volume of requests, and increased handle time can affect customer wait time. A shorter wait time indicates a faster issue resolution and better support experience.
-
-If an AI agent or IVR handles the customer before it escalates the issue to a service representative, the calculation is based on the time between the point when the AI agent or IVR escalates the incoming conversation to a service representative and the point when the service representative accepts the conversation. If the customer abandons the conversation, the calculation is based on the time between the point when the AI agent or IVR escalates the conversation to a service representative and the point when the customer disconnects the conversation.
-
-If the customer reaches a service representative queue directly, the calculation is based on the time between the point when the customer creates the request and the point when a service representative accepts the conversation. If the customer abandons the conversation, the calculation is based on the time between the point when the customer creates the request and the point when the customer disconnects the conversation.
-
-This metric is available in two formats: seconds and *hh:mm:ss*.
+Conversation first wait time measures how long a customer waits for a service representative to accept their conversation. This includes wait time after escalation from an agent, direct queue entry, or until the customer disconnects, if abandoned. The duration is measured in seconds.
 
 ### DAX query and Dataverse reference
 
@@ -288,7 +282,7 @@ SUMX (FactConversation, IF (NOT FactConversation[DirectionCode], FactConversatio
 
 ### Related metrics
 
-- [Average conversation first wait time](#average-conversation-first-wait-time): Average conversation first wait time is the total wait time for customers waiting in the queue divided by the total number of handled conversations.
+- [Average conversation first wait time](#average-conversation-first-wait-time): Average conversation first wait time is the average duration (in seconds) a customer waits for a service representative to accept the conversation after escalation from an agent or direct queue entry, or until disconnection, if abandoned.
 - **Longest wait time**: Longest wait time is a measure of the longest first wait time among unaccepted incoming conversations.
 - **Conversations in queue**: The number of conversations waiting for a service representative to be assigned or accept the conversation.
 
@@ -298,7 +292,7 @@ You can use [Session wait time](../use/session-metrics.md#session-wait-time) met
 
 *Applies to Omnichannel historical dashboard.*
 
-Average conversation first wait time is the total queue wait time divided by the number of handled conversations.
+Average conversation first wait time is the average duration (in seconds) a customer waits for a service representative to accept the conversation after escalation from an agent or direct queue entry, or until disconnection, if abandoned.
 
 ### DAX query and Dataverse reference
 
@@ -324,13 +318,7 @@ Avg. conversation first wait time (sec) =​
 
 *Applies to Omnichannel real-time and historical dashboards.*
 
-Average speed to answer measures how quickly the service team responds to customer requests. It's the total queue wait time (after the conversation is escalated from an AI agent to a service representative) divided by the number of handled conversations. A lower average speed to answer indicates a faster issue resolution and better customer experience.
-
-For an AI agent conversation, this metric measures the time from when the AI agent escalates the incoming conversation to when a service representative accepts it.
-
-If the conversation enters the service representative queue directly, this metric measures the time from when the request is created to when a representative accepts the conversation.
-
-This metric is available in two formats: seconds and hh:mm:ss.
+Average speed to answer is the average time (in seconds) for a service representative to accept a conversation after it's escalated from an agent or enters a direct queue.
 
 #### Related metrics
 
@@ -854,7 +842,7 @@ DIVIDE(SUMX(FactConversation,IF(FactConversation[IsAbandoned] && NOT FactConvers
 
 *Applies to Omnichannel real-time dashboards.*
 
-Average time to abandon (sec) measures how long, on an average, a customer waits before abandoning a conversation, before being connected to a representative.​ This metric captures the average duration (in seconds).
+Average time to abandon is the average time (in seconds) that customers wait before leaving a conversation when no service representative joins. This includes conversations escalated from an agent or those that enter a direct queue but are abandoned before any agent interaction occurs.
 
 ### DAX query and Dataverse reference
 
