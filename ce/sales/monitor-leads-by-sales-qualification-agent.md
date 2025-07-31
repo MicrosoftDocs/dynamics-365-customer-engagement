@@ -106,7 +106,7 @@ If your admin has configured the Sales Qualification Agent to run in research an
     | **In progress** | Includes leads that the agent is currently engaging with. |
     | Autonomous engagements | Includes leads that the agent has completed the engagement with, either by disqualifying them or handing them over to the seller with a positive buying intent. |
     | **Transferred to sellers** | Includes leads that are handed over to the seller for follow-up and clarification. This number doesn't include leads that were handed over with positive intent. |
-    | **Handover failed** | Includes leads that the agent couldn't hand over to the seller due to technical issues or other reasons. These leads are assigned to the seller who owned the lead. |
+    | **Handover failed** | Includes leads that the agent couldn't hand off to the seller due to technical issues or other reasons. These leads are assigned to the seller who owned the lead. |
 
     - **Lead classification**: Displays the leads handled by the agent, categorized by their rating such as, **Hot**, **Warm**, and **Cold**.
     

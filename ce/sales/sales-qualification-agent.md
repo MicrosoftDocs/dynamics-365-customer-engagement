@@ -45,8 +45,8 @@ The following table summarizes the difference between the Research-only and Rese
 | Send outreach emails                       |    N     |   Y    |
 | Detect positive intent based on responses  |    N     |   Y    |
 | Send follow-up emails and clarify questions|    N     |   Y    |
-| Hand over promising leads to sellers       |    Y     |   Y    |
-| Hand over disqualified leads to supervisors|    Y     |   Y    |
+| Hand off promising leads to sellers       |    Y     |   Y    |
+| Hand off disqualified leads to supervisors|    Y     |   Y    |
 
 
 ## Understand Sales Qualification Agent concepts

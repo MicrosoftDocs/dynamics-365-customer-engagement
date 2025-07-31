@@ -39,9 +39,9 @@ By default, the application defines a set of criteria. You can update any out-of
     | BANT score | Medium or above matches at least two criteria | Qualify |
     |            | Low with one or no matches | Disqualify |
 
-    When all qualification criteria are selected, the handover is done in the following ways:
+    When all qualification criteria are selected, the handoff is done in the following ways:
     - If a lead satisfies both BANT and purchase interest criteria, then the lead is handed over to a seller or team with the lead readiness summary and recommended next set of actions.  
-    - If a lead doesn’t satisfy any one criteria type, then the lead is disqualified. Upon disqualification, a summary is generated for the lead with reasons for disqualification and handed over to the supervisor for review in the supervisor dashboard.
+    - If a lead doesn’t satisfy any one criteria type, then the lead is disqualified. Upon disqualification, a summary is generated for the lead with reasons for disqualification. The lead is then added to the disqualified leads list for the supervisor to review.
 
    >[!NOTE]
    > If you don't want the agent to use BANT, you can leave the fields empty. However, we recommend that you define the BANT criterion to help the agent identify leads that it should engage with. When BANT is not defined, the agent uses only the [purchase interest signals](sales-qualification-agent-concepts.md#what-is-purchase-interest-and-how-is-it-determined) to evaluate leads and determine whether to engage with them.

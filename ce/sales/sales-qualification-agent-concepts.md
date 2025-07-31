@@ -57,7 +57,7 @@ The following table provides a few sample leads and their ICP fit category based
 ## What is purchase interest and how is it determined?
 
 Purchase interest identifies a lead’s readiness to buy your product or services, is determined based on the emails that are sent and received. The agent sends emails with open-ended questions to gauge the lead's interest and analyzes responses based on the value proposition of your product or service, received emails, and follow-up. The agent runs a model to analyze content and data patterns for signals in all emails from your leads as soon as they're received.  
-After analysis, the model identifies purchase interest as either positive or negative based on the confidence level. Along with this, the model also records the reason which helps in preparing the handover summary for the seller.  
+After analysis, the model identifies purchase interest as either positive or negative based on the confidence level. Along with this, the model also records the reason which helps in preparing the handoff summary for the seller.  
 
 ### Positive purchasing interest
 
@@ -136,7 +136,7 @@ The following signal types are analyzed to determine the purchase interest based
 
 ## What is BANT and how is the fit calculated?
 
-The BANT criteria is a qualification methodology that helps determine whether a lead is ready for handover to the seller. BANT is known as Budget, Authority, Need, and Timeline. Here's a breakdown of each component:  
+The BANT criteria is a qualification methodology that helps determine whether a lead is ready for handoff to the seller. BANT is known as Budget, Authority, Need, and Timeline. Here's a breakdown of each component:  
 
 - **Budget**: Evaluates if the prospect has the financial resources to afford the product or service. For example, if the lead's budget is between $10M - $20M, it meets the criteria.  
 - **Authority**: Identifies if the prospect is the decision-maker or has the influence to make the purchase decision. For instance, if the lead is a decision-maker, it meets the criteria.  

@@ -45,15 +45,15 @@ Depending on the automation level your admin has configured, the Sales Qualifica
   - The mode of the agent (Research-only or Research and engage).
   - The selection criteria for leads that the agent will handle.
   - The ideal customer profile (ICP) and BANT criteria configured to determine the lead's fit.
-  - The assignment rules for agent handover.
+  - The assignment rules for agent handoff.  
   This information helps you understand how the agent will process leads and what actions you need to take.
 
-## Lead hand over process
+## Lead handoff process
 
-The lead hand over process goes through the following stages:
+The lead handoff process goes through the following stages:
 
 1. When a lead meets the selection criteria defined by your admin, it gets assigned to the agent for processing. 
-1. After the agent processes the lead and completes its analysis, it hands over the lead to you for further action. Depending on the mode configured by your admin, the hand over happens at different stages.
+1. After the agent processes the lead and completes its analysis, it hands over the lead to you for further action. Depending on the mode configured by your admin, the handoff happens at different stages.
     - **Research-only mode**:
         When the ideal customer profile (ICP) fit for a lead is high or medium, the agent hands over the lead to a seller as per the [assignment rule configured by the admin](configure-sqa-assignment-rules.md) for outreach and engagement. If the ICP fit is low, the agent disqualifies the lead. The lead continues to be assigned to the agent.
     - **Research and engage mode**:
