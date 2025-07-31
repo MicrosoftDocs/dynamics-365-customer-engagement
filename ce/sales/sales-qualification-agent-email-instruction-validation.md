@@ -29,7 +29,7 @@ You can further personalize the outreach emails to meet your compliance needs, k
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-## Configure personalization settings
+## Configure email instructions
 
 Configure the instructions that the agent should use to ensure that the email follows compliance requirements and personalize the email based on the lead's information. The agent uses these instructions to draft outreach emails to leads. 
 

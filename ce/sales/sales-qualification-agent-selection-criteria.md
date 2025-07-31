@@ -47,7 +47,6 @@ Read the [create and activate a segment](wa-create-and-activate-a-segment.md#cre
     | Rating | Equals | Cold | The lead’s rating should be cold, which requires nurturing and consistent follow-up. |
     | Lead Source | Does not equal | Employee Referral and Partner | Exclude the leads that are sourced from employee referrals and partners. |
     | Email | Contains data | &mdash;| Emails from the leads should contain data such as information related to sales, customer, or feedback. |
-    | Parent Account for lead | Does not contain data | &mdash; | The lead does not have any associated parent account information. |
 
     > [!NOTE]
     > You can have up to 10 conditions at any given time including conditions that are based on groups and related entities.

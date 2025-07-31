@@ -31,6 +31,7 @@ Ensure that the following prerequisites are met:
 - You have admin permissions in Dynamics 365 Sales.  
 - You have a Copilot Studio license. Learn more in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).  
 - You turned on the modern UI for the Sales Hub app. Learn more in [Enabling the modern look for my app and removing the toggle](/power-apps/user/modern-fluent-design#enabling-the-modern-look-for-my-app-and-removing-the-toggle).  
+- You turned on AI prompts feature in Power Platform and Copilot Studio. Learn more in [Enable AI prompts in Power Platform and Copilot Studio](/ai-builder/administer#enable-or-disable-ai-prompts-in-power-platform-and-copilot-studio). 
 - You modified Data Loss Prevention (DLP) policies to allow the following connectors:
 
     | Connector | Why is it required? |
@@ -53,7 +54,7 @@ Review the following considerations before you start deploying the autonomous Sa
     - **Research-only mode**: Analyzes assigned leads and drafts outreach email based on the insights and provides recommended actions.  
     - **Research and engage mode**: Analyzes and autonomously engages with the customer. Hands over the leads to sellers with detected purchase interest and customer profile fit based on configured handover criteria.  
 - You can **upgrade** from **Research-only** mode to the **Research and engage** mode later, but not the other way around.  
-- **Stopping the agent** will prevent new leads from being assigned/processed by the agent. Existing leads which are already in pipeline (orchestration), will continue until the lead is handed over to seller or supervisor for next steps.  
+- **Stopping the agent** will prevent new leads from being assigned/processed by the agent. Existing leads which are already in pipeline (orchestration), will continue until the lead is either handed over to a seller or added to the supervisor dashboard for next steps.  
 - You can’t **delete** an agent once configured. Contact Microsoft support to delete the agent from your organization.  
 - Once an agent is published, we **recommend** only a few select fields to be edited. Sections that have tag "Avoid edits" should not be edited as it can lead to the agent being in bad state.  
 
