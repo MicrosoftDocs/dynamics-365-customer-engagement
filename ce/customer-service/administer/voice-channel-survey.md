@@ -30,7 +30,6 @@ You can obtain customer consent for post-call surveys as follows:
 - **Agent-initiated**: Towards the end of a call, the agent can ask the customer if they want to take a survey.
     If the customer says yes, the agent manually transfers the call to the survey agent.
 
-
 We recommend that you have two agents if your organization wants to use Copilot Studio for both IVR and survey scenarios.
 
 ## Create a survey agent in Copilot Studio
