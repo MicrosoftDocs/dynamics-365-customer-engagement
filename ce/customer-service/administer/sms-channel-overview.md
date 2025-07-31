@@ -1,6 +1,6 @@
 ---
 title: Overview of SMS channels
-description: Learn more about SMS channels and how to configure them so that service representatives can better assist their customers in Dynamics 365 Contact Center. 
+description: Set up SMS messaging channels for your service representatives in Dynamics 365 Contact Center using Azure Communication Services or Twilio. 
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

@@ -1,6 +1,6 @@
 ---
 title: Configure an SMS channel using Azure Communication Services
-description: This article includes instructions for configuring an SMS channel in Dynamics 365 Contact Center using Azure Communication Services.
+description: Learn how to configure an SMS channel in Dynamics 365 Contact Center using Azure Communication Services.
 ms.date: 08/01/2025
 ms.topic: how-to
 author: gandhamm
@@ -34,7 +34,7 @@ With Azure Communication Services-based short code and mobile numbers for SMS, y
 - **Mobile numbers**: Send and receive SMS messages using standard mobile numbers.
 - **Short code**: Send high-volume, time-sensitive messages using preapproved short codes to make sure of reliable delivery.
 
-The provisioning and management of the mobile numbers and short codes is simplified for your organization as it can be handled within the Azure ecosystem. Organizations easily acquire, configure, and oversee SMS capabilities directly through Azure. This integration supports seamless deployment into contact center environments, enabling efficient two-way customer communication at scale. 
+The provisioning and management of the mobile numbers and short codes is simplified for your organization as it can be handled within the Azure ecosystem. Organizations easily acquire, configure, and oversee SMS capabilities directly through Azure. The integration with Azure Communication Services supports seamless deployment into contact center environments, enabling efficient two-way customer communication at scale.
 
 ### Set up a mobile number
 
@@ -49,12 +49,14 @@ Follow the steps in [Apply for a short code](/azure/communication-services/quick
 After you acquire a short code or mobile number, perform the following steps:
 
 1. In the site map of Copilot Service admin center, select **Channels** under **Customer support**, select **Manage** for **Phone numbers**.
+
 1. On the page that appears, select **Advanced**.
-1. On the **Manage Azure Communication Services** dialog, select **Sync** for **Sync from Azure**. After the sync is complete, the SMS short code or the SMS mobile number that you acquired in Azure Communication Services is displayed in the phone numbers list.
+1. On the **Manage Azure Communication Services** dialog, select **Sync** for **Sync from Azure**. After the sync is complete, the SMS short code or the SMS mobile number that you acquired in Azure Communication Services appears in the phone numbers list.
 
 ## Configure a workstream for the SMS channel
 
 1. Go to the **Workstreams** page, and open the workstream that you created.
+
 1. In the **Set up your SMS channel** section, select **Set up SMS**, and then configure the following options.
    1. On the **SMS setup** page, select a number from the list.
    1. On the **Language** page, select the language that you want to set as the default.
