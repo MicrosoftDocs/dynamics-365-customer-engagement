@@ -1,7 +1,7 @@
 ---
 title: Set up the mobile app
 description: Learn how to install and set up the Dynamics 365 Field Service mobile app.
-ms.date: 03/28/2025
+ms.date: 07/30/2025
 ms.topic: how-to
 ms.subservice: field-service-mobile
 ms.collection: get-started
@@ -67,7 +67,7 @@ After enabling the new mobile experience, you can choose to enable preview featu
 
 1. Enable the features that your users can access:
 
-   - [Summarize records with Copilot in Field Service](../work-order-recap.md)
+   - [Summarize work orders with Copilot](../use-work-order-recap.md)
    - [AI-powered work order update (preview)](../work-order-update.md)
 
 ### Limitations of the new experience
