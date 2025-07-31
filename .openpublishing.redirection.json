@@ -35730,6 +35730,11 @@
       "source_path": "ce/customer-service/administer/inbox-views-filters.md",
       "redirect_url": "/dynamics365/customer-service/use/inbox-views-filters",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/work-order-recap.md",
+      "redirect_url": "/dynamics365/field-service/use-work-order-recap",
+      "redirect_document_id": false
     }      
 
   ]
