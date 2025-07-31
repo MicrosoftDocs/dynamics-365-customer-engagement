@@ -72,7 +72,7 @@ Sales, requiring no workflow changes from the user.
 
 ## How was the Opportunity Research Agent evaluated? What metrics are used to measure performance?
 
-<!-- To be filled -->
+The Opportunity Research Agent was rigorously evaluated on curated real-world scenarios, with clear success criteria for each of its outputs. The team assembled diverse sample opportunities (varying industries, company types, deal stages, etc.) and measured the agent’s performance against a detailed quality rubric. Each aspect of the agent’s report – from the deal overview and key insights to risk identification and stakeholder analysis – was checked for factual accuracy, completeness of insights, and relevance/clarity to ensure it aligned with the ground-truth data. We iteratively refined the model until it met our quality benchmarks, meaning the agent’s answers passed a high percentage of these criteria (exceeding the threshold we set for “high quality” output). This ensures the Opportunity Research Agent consistently produces reliable, accurate deal insights before being released to users.
 
 ## What are the limitations of the Opportunity Research Agent? How can users minimize the impact of these limitations?
 
@@ -97,7 +97,7 @@ The following limitations apply to the Opportunity Research Agent:
     - New competitor connection is added to the opportunity.
     - Estimated revenue or close date of the opportunity are changed. For event-based triggers, the agent can process at most *n* opportunities at a given time.
 
-## What operational factors and settings allow for effective and responsible use of the Opportunity Research Agent (part of Deal Close Agent)?
+## What operational factors and settings allow for effective and responsible use of the Opportunity Research Agent?
 
 The Opportunity Research Agent has a configuration experience that allows an admin to personalize the agent to work for their specific sales team:
 
@@ -118,6 +118,6 @@ The Opportunity Research Agent has a configuration experience that allows an adm
   that is available on Public web, emails and meeting transcripts. So, the more information available about an opportunity, the better your
   outputs will be.
 
-## Which languages are supported by Opportunity Research (part of Deal Close Agent)?
+## Which languages are supported by Opportunity Research?
 
 Opportunity Research is currently only supported in English.
