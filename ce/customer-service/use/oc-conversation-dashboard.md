@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection: bap-ai-copilot
-ms.date: 02/10/2025
+ms.date: 07/30/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
