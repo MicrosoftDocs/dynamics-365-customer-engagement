@@ -76,7 +76,7 @@ To configure the voice channel, you need to associate the workstream with a phon
 
    - Turn on the toggle for the service representatives to be able to transfer calls and consult with external numbers and Microsoft Teams users. Learn more in [Transfer calls to external numbers and Teams users](#transfer-calls-to-external-numbers-and-teams-users).
    
-   - Turn on the **Post-call survey** toggle and perform the steps in [Enable the post-call survey for the voice channel](dynamics365/contact-center/administer/configure-surveys#enable-the-post-call-survey-for-the-voice-channel).
+   - Turn on the **Post-call survey** toggle and perform the steps in [Enable the post-call survey for the voice channel](/dynamics365/contact-center/administer/configure-surveys#enable-the-post-call-survey-for-the-voice-channel).
 
 1. On the **Summary** page, select **Save and close**.
 
