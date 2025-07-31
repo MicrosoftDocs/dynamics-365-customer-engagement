@@ -25,7 +25,7 @@ Depending on the automation level your admin has configured, the Sales Qualifica
 - **Research-only mode**:
     - Researches leads and determines whether they are a good fit for your business based on the ideal customer profile.
     - Provides insights about the lead, such as company information, financial health, and recent news. 
-    - Hands off the lead to you if it fits your ideal customer profile or disqualifies the lead if it isn't a good fit.
+    - Hands over the lead to a seller if it fits your ideal customer profile. Else, disqualifies the lead and notifies the supervisor.
     - Generates a draft outreach email for you to review and send.
 
 - **Research and engage mode**:
@@ -34,7 +34,7 @@ Depending on the automation level your admin has configured, the Sales Qualifica
     - Sends a personalized outreach email to the lead based on its insights.
     - Engages with the lead based on their responses to the outreach email.
     - Sends follow-up emails to the lead based on their responses and engagement.
-    - Hands off the lead to you when it detects positive intent or disqualifies the lead if it isn't a good fit or detects negative intent.
+    - Hands over the lead to you when it detects positive intent. Else, disqualifies the lead and notifies the supervisor. Additional handover scenarios are explained in the Lead handover process section below.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -45,23 +45,23 @@ Depending on the automation level your admin has configured, the Sales Qualifica
   - The mode of the agent (Research-only or Research and engage).
   - The selection criteria for leads that the agent will handle.
   - The ideal customer profile (ICP) and BANT criteria configured to determine the lead's fit.
-  - The assignment rules for agent handoff.  
+  - The assignment rules for agent handover.  
   This information helps you understand how the agent will process leads and what actions you need to take.
 
-## Lead handoff process
+## Lead handover process
 
-The lead handoff process goes through the following stages:
+The lead handover process goes through the following stages:
 
 1. When a lead meets the selection criteria defined by your admin, it gets assigned to the agent for processing. 
-1. After the agent processes the lead and completes its analysis, it hands over the lead to you for further action. Depending on the mode configured by your admin, the handoff happens at different stages.
+1. After the agent processes the lead and completes its analysis, it hands over the lead to you for further action. Depending on the mode configured by your admin, the handover happens at different stages.
     - **Research-only mode**:
-        When the ideal customer profile (ICP) fit for a lead is high or medium, the agent hands over the lead to a seller as per the [assignment rule configured by the admin](configure-sqa-assignment-rules.md) for outreach and engagement. If the ICP fit is low, the agent disqualifies the lead. The lead continues to be assigned to the agent.
+        When the ideal customer profile (ICP) fit for a lead is high or medium, the agent hands over the lead to a seller as per the [assignment rule configured by the admin](configure-sqa-assignment-rules.md) for outreach and engagement. If the ICP fit is low, the agent disqualifies the lead and notifies the supervisor. The lead continues to be assigned to the agent in this case.
     - **Research and engage mode**:
         The agent hands over the lead in the following scenarios:
         - The lead meets the ICP and BANT criteria, sends a positive response to the outreach email, or shows positive intent. In this case, you can review the research and engagement summary and qualify the lead if appropriate.
         - The agent can't detect the lead's intent. Review the research and engagement summary and follow up with the lead to determine their purchase intent.
         - The agent is blocked on the lead as it's unable to find the answer to the lead's question. Respond to the lead's question and follow up with the lead.
-       If the lead doesn't meet the hand off criteria, the agent disqualifies the lead. The lead continues to be assigned to the agent in this case.
+        If the lead doesn't meet the hand over criteria, the agent disqualifies the lead and notifies the supervisor. The lead continues to be assigned to the agent in this case.
 
     > [!NOTE]
     > If the assignment rule is set to assign leads to a team, the agent assigns the lead in a round-robin fashion to the team members.
@@ -105,7 +105,7 @@ The following screenshot shows the **Suggested action** section of the **Lead in
 
 :::image type="content" source="media/lead-insights-page-suggested-action.png" alt-text="Screenshot of the Suggested action section of the Lead insights page in research and engage mode.":::
 
-This section summarizes the lead's alignment with the hand off criteria and provides recommended actions. Select the call-to-action button to take action. The following actions are available:
+This section summarizes the lead's alignment with the hand over criteria and provides recommended actions. Select the call-to-action button to take action. The following actions are available:
   
 - **Research-only mode**: The **Draft email** action lets you view the pre-generated outreach email and send it to the lead.  
 - **Research and engage mode**: The **Draft email** action lets you view the response to a pending inquiry from the lead, if any. The **Qualify** action lets you qualify the lead.
@@ -140,39 +140,14 @@ The agent searches the public web for information about the lead’s company. If
 Leads disqualified by the agent are not handed over to sellers. If you're a supervisor, you can view these leads to understand why the agent disqualified them and reassign them to a seller if you think they are worth pursuing.
 
 1. In the Sales Hub app, go to **Leads**.
+
 1. From the views drop-down, select **Leads disqualified by AI Agent**.
-1. Open a lead to view the reason for disqualification. The reason is displayed in the **Lead insights** page under the **Suggested action** section. 
-1. If you think the lead is worth pursuing, select **Reassign** to assign it to a seller. 
+   > [!NOTE]
+   > Though this view is meant for supervisors, it is also available to sellers unless your admin has set the `EnableRoleBasedSystemViews` setting to **true**.
+1. Open a lead to view the reason for disqualification. The reason is displayed in the **Lead insights** page under the **Suggested action** section.
+1. If you think the lead is worth pursuing, select **Reassign** to assign it to a seller.
    The lead is handed over to a seller based on the [assignment rule configured by the admin](configure-sqa-assignment-rules.md).
 
-
-## Filter leads by priority ranking
-
-The Sales Qualification Agent ranks leads based on how well they match the ideal customer profile. Instead of manually sorting through leads, you can filter them based on whether the agent ranked them as high, medium, or low priority. Focusing on the most promising leads can help improve your sales outcomes.
-
-1. In the Sales Hub app, select **Leads**.
-
-1. If you're in the focused view, switch to the read-only grid.
-
-1. On the **My Open Leads** page, select **Edit filters**.
-
-    **Owner** should already be set to **Equals current user**, and **Status** should equal **Open**.
-
-1. Add a filter for **Related entity** with the following values:
-
-    - **Related entity**: Select **Lead Agent Results**.
-    - **Operator**: Select **Contains data**.
-
-1. Add a filter for a field in the **Lead Agent Results** entity with the following values:
-
-    - **Field**: Select **Qualification Result Rank**.
-    - **Operator**: Select **Equals**.
-    - **Value**: Select the ranks, such as **High** and **Medium**.
-
-   :::image type="content" source="media/agent-ranked-leads-list.png" alt-text="Screenshot showing the Edit filters pane for the Leads table with a filter on Qualification Result Rank applied.":::
-
-1. Apply the filters.  
-    Leads that match the specified qualification rank criteria are displayed.
 
 ## Related information
 

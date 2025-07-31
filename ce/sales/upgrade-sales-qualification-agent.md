@@ -72,4 +72,4 @@ After the 7.3 release is deployed in your environment, your existing Sales Quali
    After you confirm the upgrade, the agent will be set to **Draft** mode. Leads that are already in progress will continue to be processed, but no new leads will be processed until the agent is reconfigured and started.
 1. Review each section and configure additional settings for engagement. Learn more about configuring engagement in [Set up the Sales Qualification Agent](configure-sales-qualification-agent.md). 
 1. Select **Start agent** when you're ready to upgrade the agent.
-   The agent is turned **On** and starts processing leads that fulfill the selection criteria and starts engaging with the leads that meet the hand off criteria.
+   The agent is turned **On** and starts processing leads that fulfill the selection criteria and starts engaging with the leads that meet the hand over criteria.

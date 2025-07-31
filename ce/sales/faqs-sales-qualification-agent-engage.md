@@ -20,7 +20,7 @@ These frequently asked questions help you understand the impact of AI on the Res
 
 ## What is the Research and engage mode in Copilot?
 
-The Research and engage mode automates the sales development workflow by dynamically researching, engaging, and answering questions to determine lead intent and handoff qualified leads to sales. It proactively gathers insights from internal and external sources, enabling data-driven decision-making. The agent focuses on lower priority leads that sellers can't manage due to volume, helping qualify and convert them into opportunities. The agent engages with leads simultaneously through personalized emails and follow-ups, ensuring consistent and efficient outreach. By identifying buying intent, it transitions leads further along the sales journey, allowing sellers to focus on high-potential opportunities. This intelligent automation enhances efficiency and improves conversion rates, making the sales qualification process more effective and scalable.
+The Research and engage mode automates the sales development workflow by dynamically researching, engaging, and answering questions to determine lead intent and handover qualified leads to sales. It proactively gathers insights from internal and external sources, enabling data-driven decision-making. The agent focuses on lower priority leads that sellers can't manage due to volume, helping qualify and convert them into opportunities. The agent engages with leads simultaneously through personalized emails and follow-ups, ensuring consistent and efficient outreach. By identifying buying intent, it transitions leads further along the sales journey, allowing sellers to focus on high-potential opportunities. This intelligent automation enhances efficiency and improves conversion rates, making the sales qualification process more effective and scalable.
 
 ## How is the Research and engage mode intended to be used?
 
@@ -39,7 +39,7 @@ The agent was evaluated for each use case using curated datasets and quality met
 - **Research:** Evaluated using a dataset covering various company types and industries, based on 15 criteria, iterated until a passing threshold was met.
 - **Ideal customer profile match:** Used synthetic leads to test output accuracy, iterated until accuracy threshold was surpassed.
 - **Outreach:** Generated personalized emails and evaluated quality based on binary, evaluative, and comparative criteria, iterated until pass rates and similarity scores were met.
-- **Follow up:** Generated responses based on customer emails and knowledge articles, handed off to human sellers when needed, and evaluated groundedness using search results and LLM ratings.
+- **Follow up:** Generated responses based on customer emails and knowledge articles, handed over to human sellers when needed, and evaluated groundedness using search results and LLM ratings.
 
 ## What are the limitations of the Research and engage mode? How can users minimize the impact of these limitations?
 

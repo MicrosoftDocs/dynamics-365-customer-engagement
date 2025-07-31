@@ -39,7 +39,7 @@ By default, the application defines a set of criteria. You can update any out-of
     | BANT score | Medium or above matches at least two criteria | Qualify |
     |            | Low with one or no matches | Disqualify |
 
-    When all qualification criteria are selected, the handoff is done in the following ways:
+    When all qualification criteria are selected, the handover is done in the following ways:
     - If a lead satisfies both BANT and purchase interest criteria, then the lead is handed over to a seller or team with the lead readiness summary and recommended next set of actions.  
     - If a lead doesn’t satisfy any one criteria type, then the lead is disqualified. Upon disqualification, a summary is generated for the lead with reasons for disqualification. The lead is then added to the disqualified leads list for the supervisor to review.
 

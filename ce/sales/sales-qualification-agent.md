@@ -38,15 +38,15 @@ The following table summarizes the difference between the Research-only and Rese
 
 | Functionality                              | Research-only | Research and engage |
 |--------------------------------------------|:--------:|:------:|
-| Research leads                             |    Y     |   Y    |
-| Check ICP criteria                         |    Y     |   Y    |
-| Check BANT criteria                        |    Y     |   Y    |
-| Generate outreach emails                   |    Y     |   Y    |
-| Send outreach emails                       |    N     |   Y    |
-| Detect positive intent based on responses  |    N     |   Y    |
-| Send follow-up emails and clarify questions|    N     |   Y    |
-| Hand off promising leads to sellers       |    Y     |   Y    |
-| Hand off disqualified leads to supervisors|    Y     |   Y    |
+| Research leads                             |    ✅     |   ✅    |
+| Check ICP criteria                         |    ✅     |   ✅    |
+| Check BANT criteria                        |    ❌     |   ✅    |
+| Generate outreach emails                   |    ✅     |   ✅    |
+| Send outreach emails                       |    ❌     |   ✅    |
+| Detect positive intent based on responses  |    ❌     |   ✅    |
+| Send follow-up emails and clarify questions|    ❌     |   ✅    |
+| Hand over promising leads to sellers       |    ✅     |   ✅    |
+| Notify supervisors about disqualified leads |   ✅     |   ✅    |
 
 
 ## Understand Sales Qualification Agent concepts
@@ -66,7 +66,7 @@ The usage of the Sales Qualification Agents depend on your role in the sales pro
 | Role | Research | Engage |
 |------|----------|--------|
 | Admin | [Set up and configure Sales Qualification Agent](configure-sales-qualification-agent.md)<br>[Test the Sales Qualification Agent](test-sales-qualification-agent.md) | [Set up and configure Sales Qualification Agent](configure-sales-qualification-agent.md)<br>[Test the Sales Qualification Agent](test-sales-qualification-agent.md) |
-| Seller | [Qualify leads with the Sales Qualification Agent](use-sales-qualification-agent.md) | Engage with leads and manage follow-ups |
+| Seller | [Work on leads handed over by the Sales Qualification Agent](use-sales-qualification-agent.md) | [Work on leads handed over by the Sales Qualification Agent](use-sales-qualification-agent.md) |
 | Supervisor | [Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md) <br> [View metrics related to research-only mode](monitor-leads-by-sales-qualification-agent.md#view-metrics-related-to-research-only-mode) | [Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md)<br> [View metrics related to research and engage mode](monitor-leads-by-sales-qualification-agent.md#view-metrics-related-to-engage-mode) |
 
 ## Capacity usage

@@ -47,7 +47,7 @@ If your admin has configured the Sales Qualification Agent to run in research-on
     | Metric | Description | Formula |
     |--------|-------------|---------|
     | Autonomous processing rate | The percentage of leads the agent could confidently process on its own, either by handing over promising leads to sellers or disqualifying them due to low fit, compared to the total number of leads processed by the agent. | (Leads handed over to sellers + Leads disqualified due to low fit) ÷ Total leads processed by agent × 100 |
-    | AI Agent handoff rate | The percentage of leads that were handed over to the sellers, compared to the total number of leads processed by the agent. | Leads handed over to sellers ÷ Total leads processed by agent × 100 |
+    | AI Agent handover rate | The percentage of leads that were handed over to the sellers, compared to the total number of leads processed by the agent. | Leads handed over to sellers ÷ Total leads processed by agent × 100 |
 
 - **Business metrics**: Displays the following metrics:
 
@@ -81,7 +81,7 @@ If your admin has configured the Sales Qualification Agent to run in research an
     | Metric | Description | Formula |
     |--------|-------------|---------|
     | Lead research completion rate | The percentage of leads for which the agent completed the research, compared to the total number of leads assigned to the agent. | Leads with completed research ÷ Total leads assigned to agent × 100 |
-    | AI agent lead handoff rate | The percentage of leads that were handed over to the seller with positive buying intent, compared to the total number of leads processed by the agent. | Leads handed over with positive buying intent ÷ Total leads processed by agent × 100 |
+    | AI agent lead handover rate | The percentage of leads that were handed over to the seller with positive buying intent, compared to the total number of leads processed by the agent. | Leads handed over with positive buying intent ÷ Total leads processed by agent × 100 |
     | Email response rate | The percentage of leads that responded to the outreach email sent by the agent, compared to the total number of outreach emails sent by the agent. | Leads that responded to outreach emails ÷ Total outreach emails sent by agent × 100 |
     | Customer queries responded | The number of customer queries that the agent responded to during the selected time period. | Count of customer queries responded by agent |
 
@@ -106,7 +106,7 @@ If your admin has configured the Sales Qualification Agent to run in research an
     | **In progress** | Includes leads that the agent is currently engaging with. |
     | Autonomous engagements | Includes leads that the agent has completed the engagement with, either by disqualifying them or handing them over to the seller with a positive buying intent. |
     | **Transferred to sellers** | Includes leads that are handed over to the seller for follow-up and clarification. This number doesn't include leads that were handed over with positive intent. |
-    | **Handover failed** | Includes leads that the agent couldn't hand off to the seller due to technical issues or other reasons. These leads are assigned to the seller who owned the lead. |
+    | **Handover failed** | Includes leads that the agent couldn't hand over to the seller due to technical issues or other reasons. These leads are assigned to the seller who owned the lead. |
 
     - **Lead classification**: Displays the leads handled by the agent, categorized by their rating such as, **Hot**, **Warm**, and **Cold**.
     

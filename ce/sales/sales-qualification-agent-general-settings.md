@@ -50,7 +50,7 @@ The agent uses company information to generate personalized outreach emails and 
 
 ## Configure product information
 
-The agent uses product information to generate suggestions during hand off and to provide relevant product details in outreach emails. 
+The agent uses product information to generate suggestions during hand over and to provide relevant product details in outreach emails. 
 
 1. [Open the Sales Qualification Agent settings](open-sales-qualification-agent-settings.md) page.
 

@@ -42,7 +42,7 @@ Ensure that the following prerequisites are met:
 
    Learn more in [Configure data loss prevention policies for agents](/microsoft-copilot-studio/admin-data-loss-prevention).  
 - You configured server-side synchronization by integrating Dynamics 365 with Exchange. Learn more in [Set up email by integrating with Exchange](configure-email.md). If server-side synchronization isn't set up, the agent doesn't generate outreach emails.  
-- You enabled in-app notifications to notify sellers and supervisors about lead handoffs. Learn more in [Enable in-app notifications for your organization](/power-apps/developer/model-driven-apps/clientapi/send-in-app-notifications?tabs=clientapi#enable-the-in-app-notification-feature).  
+- You enabled in-app notifications to notify sellers and supervisors about lead handovers. Learn more in [Enable in-app notifications for your organization](/power-apps/developer/model-driven-apps/clientapi/send-in-app-notifications?tabs=clientapi#enable-the-in-app-notification-feature).  
 - (Optional but recommended) You turned on Copilot in Dynamics 365 Sales to allow your sellers to get a 360-degree view of the lead and their company. Learn more in [Turn on and set up Copilot in Dynamics 365 Sales](enable-setup-copilot.md) and [Get information from Copilot](copilot-get-information.md).
 
 ## Considerations
@@ -51,7 +51,7 @@ Review the following considerations before you start deploying the autonomous Sa
 
 - Only one of the following modes can be deployed in an organization:  
     - **Research-only mode**: Analyzes assigned leads and drafts outreach email based on the insights and provides recommended actions.  
-    - **Research and engage mode**: Analyzes and autonomously engages with the customer. Hands over the leads to sellers with detected purchase interest and customer profile fit based on configured handoff criteria.  
+    - **Research and engage mode**: Analyzes and autonomously engages with the customer. Hands over the leads to sellers with detected purchase interest and customer profile fit based on configured handover criteria.  
 - You can **upgrade** from **Research-only** mode to the **Research and engage** mode later, but not the other way around.  
 - **Stopping the agent** will prevent new leads from being assigned/processed by the agent. Existing leads which are already in pipeline (orchestration), will continue until the lead is handed over to seller or supervisor for next steps.  
 - You can’t **delete** an agent once configured. Contact Microsoft support to delete the agent from your organization.  
@@ -83,7 +83,7 @@ The following image shows the permissions to access research insights as an exam
 
 ## Set up Sales Qualification Agent
 
-The Sales Qualification Agent is available in two modes&mdash;Research-only mode and Research and engage mode&mdash;depending on the level of automation you want to achieve. The configuration steps are similar for both types, but the Engage has additional settings such as adding email signature, customized email instructions, and configuring BANT criteria for handoff to work autonomously. Let's look at the steps to set up and configure the agents.
+The Sales Qualification Agent is available in two modes&mdash;Research-only mode and Research and engage mode&mdash;depending on the level of automation you want to achieve. The configuration steps are similar for both types, but the Engage has additional settings such as adding email signature, customized email instructions, and configuring BANT criteria for handover to work autonomously. Let's look at the steps to set up and configure the agents.
 
 **Follow these steps**:
 
