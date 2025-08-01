@@ -56,13 +56,13 @@ After the 7.3 release is deployed in your environment, your existing Sales Quali
 
 ## Considerations for upgrading the agent to handle both research and engagement
 
-- You can upgrade your Sales Qualification Agent from the Research-only mode to Engage mode, which includes both research and engagement capabilities. 
+- You can upgrade your Sales Qualification Agent from the Research-only mode to Research and engage mode, which includes both research and engagement capabilities.
 
 - Downgrading from the Research and engage mode to the Research-only mode isn't supported.
-- You can upgrade both the 4.3 and 7.3 versions of the Sales Qualification Agent to handle both research and engagement.
-- The research-related settings are preserved during the upgrade. You can just configure the engagement-related settings. 
+- You can upgrade from both the April 2025 preview version and 7.3 Research-only mode to Research and engage mode.
+- The research-related settings are preserved during the upgrade. You can just configure the engagement-related settings.
 
-## Upgrade the agent from research to engagement
+## Upgrade the agent from Research-only to Research and engage mode
 
 1. From the **App Settings** area, select **Dynamics 365 AI Hub**.
 
