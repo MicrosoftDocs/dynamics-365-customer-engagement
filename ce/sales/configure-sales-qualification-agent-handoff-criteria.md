@@ -1,5 +1,5 @@
 ---
-title: Configure hand off criteria for the Sales Qualification Agent (preview)
+title: Configure handoff criteria for the Sales Qualification Agent (preview)
 description: Configure ideal customer profile, budget, authority, need, and timeline criteria for the Sales Qualification Agent to effectively qualify leads.
 ms.date: 08/01/2025
 ms.topic: how-to
@@ -13,7 +13,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure hand off criteria for the Sales Qualification Agent (preview)
+# Configure handoff criteria for the Sales Qualification Agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -46,7 +46,9 @@ By default, the application defines a set of criteria. You can update any out-of
    >[!NOTE]
    > If you don't want the agent to use BANT, you can leave the fields empty. However, we recommend that you define the BANT criterion to help the agent identify leads that it should engage with. When BANT is not defined, the agent uses only the [purchase interest signals](sales-qualification-agent-concepts.md#what-is-purchase-interest-and-how-is-it-determined) to evaluate leads and determine whether to engage with them.
 
-1. Under each criteria, expand the **Where's this info stored** section to verify the fields used by default to evaluate the criteria. You can change these fields if needed.  
+1. Select **Generate** to generate the ideal customer profile and BANT criteria based on the value proposition you entered in the **Value proposition** field. The agent uses this information to understand your business and generate the ideal customer profile and BANT criteria.
+
+1. Under each criteria, expand the **Where's this info stored** section to verify the fields used by default to evaluate the criteria. You can change these fields if needed.
 
    :::image type="content" source="media/sqa-ideal-customer-profile.png" alt-text="Screenshot of the ideal customer profile configuration in Sales Qualification Agent settings.":::
 
@@ -54,9 +56,9 @@ By default, the application defines a set of criteria. You can update any out-of
      > [!TIP]
      > If you're just testing the agent, you can create a simple ideal customer profile that includes only a few criteria, such as industry and job title. This will make it easier to create leads that match the profile and validate the agent's functionality. For example, you can set the industry to "Technology" and the job title to "Manager". After this succeeds, you can gradually add more criteria that are relevant to your business.
 
-      If you want to use custom fields or tables, [add a custom criterion](#add-custom-criteria-to-your-hand-off-criteria).
+      If you want to use custom fields or tables, [add a custom criterion](#add-custom-criteria-to-your-handoff-criteria).
 
-## Add custom criteria to your hand off criteria
+## Add custom criteria to your handoff criteria
 
 Use custom criteria to define characteristics that are important for your ideal customer profile. You can map your criteria to custom fields in Dataverse or add public URLs that provide the relevant information. For example, you could add a custom criterion for "Environmental Sustainability Initiatives" and map it to a custom field in Dataverse or provide a URL that lists the company's key environmental initiatives.
 
@@ -81,7 +83,7 @@ Use custom criteria to define characteristics that are important for your ideal 
     :::image type="content" source="media/sqa-ideal-customer-profile-custom-criterion-instruction.png" alt-text="Screenshot of adding instructions for the custom criterion.":::
 
 1. Select **Add**.  
-   The custom criterion is now added to the hand off criteria section. 
+   The custom criterion is now added to the handoff criteria section. 
 
 ### Next step
 
