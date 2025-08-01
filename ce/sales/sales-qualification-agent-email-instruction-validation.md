@@ -1,6 +1,6 @@
 ---
 title: Configure email settings for the Sales Qualification Agent (preview)
-description: 
+description: Learn how to configure email instructions and address validation to personalize your Sales Qualification Agent's outreach.
 ms.date: 08/01/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
