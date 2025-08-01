@@ -28,11 +28,10 @@ The experience discussed in this article is for survey agents that you create in
 You can obtain customer consent for post-call surveys as follows:
 
 - **Automatic - implicit**: The IVR agent informs the customer about a post-call survey at the end of the call. 
-    After the agent disconnects, the call is automatically transferred to a post-call survey agent.
-- **Automatic - explicit**: The IVR agent asks the customer if they want to participate in a post-call survey. The consent is saved in a `va_SurveyConsent` Boolean variable. If the customer consents, the call is automatically transferred to the post-call survey agent at the end of the call. If the customer says no, the call ends when the agent hangs up.
+    After the representative disconnects, the call is automatically transferred to a post-call survey agent.
+- **Automatic - explicit**: The IVR agent asks the customer if they want to participate in a post-call survey. The consent is saved in a `va_SurveyConsent` Boolean variable. If the customer consents, the call is automatically transferred to the post-call survey agent at the end of the call. If the customer says no, the call ends when the representative hangs up.
 - **Agent-initiated**: Towards the end of a call, the agent can ask the customer if they want to take a survey.
-    If the customer says yes, the agent manually transfers the call to the survey agent.
-
+    If the customer says yes, the representative manually transfers the call to the survey agent.
 
 We recommend that you have two agents if your organization wants to use Copilot Studio for both IVR and survey scenarios.
 
