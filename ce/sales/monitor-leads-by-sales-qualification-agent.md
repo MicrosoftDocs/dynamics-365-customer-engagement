@@ -33,7 +33,7 @@ As a supervisor or administrator, you can monitor the performance of the Sales Q
    - **See handed over leads**: Opens the **Leads handed over by AI agent** view that lists all leads that were handed over to sellers for followup and qualification during the selected time period.
    
    > [!NOTE]
-   > Though the above views are meant for supervisors, they are also available to sellers unless your admin has set the `EnableRoleBasedSystemViews` setting to **true**. However, sellers can only view leads that they have access to, based on their security roles and permissions. Learn more about changing the setting in [Environment database settings](power-platform/admin/environment-database-settings).
+   > Though the above views are meant for supervisors, they are also available to sellers unless your admin has set the `EnableRoleBasedSystemViews` setting to **true**. However, sellers can only view leads that they have access to, based on their security roles and permissions. Learn more about changing the setting in [Environment database settings](/power-platform/admin/environment-database-settings).
 
 1. Depending on the agent mode, you may see different metrics and insights in the dashboard:
    - [View metrics related to research-only mode](#view-metrics-related-to-research-only-mode)
