@@ -1,7 +1,7 @@
 ---
 title: Work on leads handed over by the Sales Qualification Agent (preview)
 description: 
-ms.date: 07/03/2025
+ms.date: 08/01/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales

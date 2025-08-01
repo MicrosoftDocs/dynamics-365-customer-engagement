@@ -1,7 +1,7 @@
 ---
 title: Configure email settings for the Sales Qualification Agent (preview)
 description: 
-ms.date: 07/31/2025
+ms.date: 08/01/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template

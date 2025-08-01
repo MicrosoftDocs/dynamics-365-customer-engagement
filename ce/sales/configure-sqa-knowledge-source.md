@@ -2,7 +2,7 @@
 title: Configure knowledge source for Sales Qualification Agent (preview)
 description: Learn how to configure knowledge sources for the Sales Qualification Agent in Dynamics 365 Sales.
 ms.topic: how-to 
-ms.date: 07/31/2025
+ms.date: 08/01/2025
 ms.service: dynamics-365-sales
 content_well_notification:
   - AI-contribution
