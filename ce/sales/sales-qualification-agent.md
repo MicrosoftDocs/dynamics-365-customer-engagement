@@ -20,9 +20,13 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
+> [!NOTE]
+> This article is for the 7.3 version of the Sales Qualification Agent, which is being rolled out gradually. To know your agent version, go to **Settings** > **About** in the Sales Hub app. To check your deployment schedule, go to [Latest version availability](/dynamics365/released-versions/dynamics365sales#latest-version-availability) and look for the 9.0.25073.10001 version. If you're using an earlier version, see [Sales Qualification Agent pre 7.3 overview](sales-qualification-agent-pre-7-3-overview.md).
+
 Sales teams often struggle to keep up with the volume of inbound leads from websites, events, and webinars, leading to missed opportunities and idle leads in CRM. Sales qualification agents in Dynamics 365 Sales are AI assistants that automate manual lead qualification. They help you qualify leads faster and more effectively, so you can spend more time interacting with top leads. These agents don't replace your judgment or decision-making process.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
 
 ## Sales Qualification Agent modes
 
