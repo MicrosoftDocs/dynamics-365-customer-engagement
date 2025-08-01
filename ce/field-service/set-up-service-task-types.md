@@ -1,7 +1,7 @@
 ---
 title: Set up service task types
 description: Learn how to set up service task types in Dynamics 365 Field Service.
-ms.date: 06/25/2024
+ms.date: 07/17/2025
 ms.topic: how-to
 ms.author: jacoh
 author: jasonccohen
@@ -14,8 +14,9 @@ In Dynamics 365 Field Service, service task types define the types of service ta
 You add service tasks either manually or by associating incident types with each work order. You can assign a duration to each service task. This duration rolls up to the work order duration.
 
 1. In Field Service, select the **Settings** area.
-1. Under **Work orders**, select **Service Task Type**.
-1. Select **New**.
+
+1. Under **Work orders**, select **Service Task Types**, and then **New**.
+
 1. Enter the following information:
 
     - **Name**: Enter a name for the service task type.
@@ -24,6 +25,9 @@ You add service tasks either manually or by associating incident types with each
     - **Description**: Enter a description of the service task.
 
 1. Select **Save**.
+
 1. In the **Notes** section, enter any other notes about the service task.
+
+1. Select **Save & Close**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

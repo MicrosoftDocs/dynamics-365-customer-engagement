@@ -19,7 +19,7 @@ Here are a few common issues the Solution Health Hub detects:
 - If processes that cause an upgrade to fail are assigned to disabled users.
 - If customized web resources lead to runtime issues.
 
-In addition to running Solution Health Hub, check out [best practices for customizing Dynamics 365 Field Service](field-service-customization-best-practices.md) and [running Solution Checker to improve scripts, plugins, HTML, and workflows](/powerapps/maker/data-platform/use-powerapps-checker)
+In addition to running Solution Health Hub, check out [best practices for customizing Dynamics 365 Field Service](/dynamics365/guidance/resources/field-service-customize-best-practices) and [running Solution Checker to improve scripts, plugins, HTML, and workflows](/powerapps/maker/data-platform/use-powerapps-checker)
 
 ## Prerequisites
 

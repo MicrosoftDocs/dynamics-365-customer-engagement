@@ -19,7 +19,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Add knowledge sources in Copilot Studio to surface key insights such as customer testimonials and case studies, that can be included in outreach and follow-up emails, and used for researching your leads. You must add these knowledge sources in Microsoft Copilot Studio for the agent to use them.  
+Add knowledge sources in Copilot Studio to surface key insights such as customer testimonials and case studies that can be included in outreach and follow-up emails and used for researching your leads. You must add these knowledge sources in Microsoft Copilot Studio for the agent to use them.  
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -27,11 +27,11 @@ Add knowledge sources in Copilot Studio to surface key insights such as customer
 
 Consider the following before you configure knowledge sources for the Sales Qualification Agent:
 
-- When you add a knowledge source to the agent, you'll be redirected to Copilot Studio. So, ensure that you have the necessary permissions to access and modify the knowledge sources in Copilot Studio. The Sales Qualification Agent uses micro agents in Copilot Studio for outreach emails, follow-up emails, and research insights. Knowledge sources added to these micro agents are only used for the specific purpose it's configured for. For example, knowledge sources added to the **Research** micro agent are only used for research insights, and not for outreach emails or follow-up emails.
+- When you add a knowledge source to the agent, you're redirected to Copilot Studio. So, ensure that you have the necessary permissions to access and modify the knowledge sources in Copilot Studio. The Sales Qualification Agent uses micro agents in Copilot Studio for outreach emails, follow-up emails, and research insights. Knowledge sources added to these micro agents are only used for the specific purpose it's configured for. For example, knowledge sources added to the **Research** micro agent are only used for research insights, and not for outreach emails or follow-up emails.
 
-- If the Sales Qualification Agent and Opportunity Research Agent are in the same environment, they share the same knowledge sources for account research insights. The knowledge sources that you add to or remove from one of the agents will be reflected in the other agent as well. If you see knowledge sources that you didn't add, it's possible that those are configured for the Opportunity Research Agent. Do not remove them unless you want to remove them from both the agents.
+- If the Sales Qualification Agent and Opportunity Research Agent are in the same environment, they share the same knowledge sources for account research insights. The knowledge sources that you add to or remove from one of the agents will be reflected in the other agent as well. If you see knowledge sources that you didn't add, it's possible that those are configured for the Opportunity Research Agent. Don't remove them unless you want to remove them from both the agents.
 
-- When you upload files from SharePoint in Copilot Studio, select the **SharePoint** option in the **Featured** section. The **SharePoint** option under the **Upload file** section is not supported. Selecting this option will block the agent from processing the leads. The following screenshot shows the correct option to select in Copilot Studio:
+- When you upload files from SharePoint in Copilot Studio, select the **SharePoint** option in the **Featured** section. The **SharePoint** option under the **Upload file** section isn't supported. Selecting this option blocks the agent from processing the leads. The following screenshot shows the correct option to select in Copilot Studio:
 
    :::image type="content" source="media/sales-qualification-agent-knowledge-source-sharepoint.png" alt-text="Screenshot showing the correct SharePoint option to select in Copilot Studio":::
 
@@ -42,22 +42,22 @@ Consider the following before you configure knowledge sources for the Sales Qual
 1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  
 1. In the **Knowledge** section, select the following options and configure the knowledge sources:  
     - **Research**: The agent uses knowledge sources to get research insights about the lead and their company. These insights include industry type, company size, financials, priorities, and news.  
-        In the **Knowledge sources for insights** section, select **Add**. You are redirected to the **Copilot Studio** page where you can add knowledge sources.  
+        In the **Knowledge sources for insights** section, select **Add**. You're redirected to the **Copilot Studio** page where you can add knowledge sources.  
 
     - **Outreach emails**: The agent uses knowledge sources to create personalized outreach emails. These emails can include relevant customer testimonials, case studies, and other insights to engage the lead effectively.  
-        In the **Knowledge sources** section, select **Add**. You are redirected to the **Copilot Studio** page where you can add knowledge sources. 
+        In the **Knowledge sources** section, select **Add**. You're redirected to the **Copilot Studio** page where you can add knowledge sources. 
     - **Follow-up emails**: This is only applicable for **Engage**. The agent uses knowledge sources to create follow-up emails to respond accurately and ask insightful questions. For an effective follow-up, add knowledge sources that include price sources, product specifications, sales playbooks, SKUs, and more.  
-        In the **Knowledge sources** section, select **Add**. You are redirected to the **Copilot Studio** page where you can add knowledge sources.  
+        In the **Knowledge sources** section, select **Add**. You're redirected to the **Copilot Studio** page where you can add knowledge sources.  
 
 > [!NOTE]
-> If you directly go to Copilot Studio and add the knowledge sources to micro agents, do not publish the changes in Copilot Studio. You might get an authentication error. Instead, open the **Knowledge** section of the Sales Qualification Agent settings page in the Sales Hub app. The newly added knowledge sources will show up. Select **Apply changes** to add the knowledge sources to the agent.
+> If you directly go to Copilot Studio and add the knowledge sources to micro agents, don't publish the changes in Copilot Studio. You might get an authentication error. Instead, open the **Knowledge** section of the Sales Qualification Agent settings page in the Sales Hub app. The newly added knowledge sources show up. Select **Apply changes** to add the knowledge sources to the agent.
 
-To know more about adding knowledge sources, see [Add knowledge to an agent](/microsoft-copilot-studio/knowledge-add-existing-copilot). If you directly add the knowledge sources to Sales Qualification Agent in Copilot Studio, they will be reflected in the Sales Qualification Agent settings page in the Sales Hub app.
+To know more about adding knowledge sources, see [Add knowledge to an agent](/microsoft-copilot-studio/knowledge-add-existing-copilot). If you directly add the knowledge sources to Sales Qualification Agent in Copilot Studio, they're reflected in the Sales Qualification Agent settings page in the Sales Hub app.
 
 ## Example of knowledge sources
 
 Your seller’s company sells GPUs. The administrator has added a recent report covering market share analysis of the prospective companies in the GPU market, so that the agent can use this to research any lead that comes from these companies.
-Later, the administrator adds an internal CSV file capturing tech spending projections of major tech companies. This will ensure that the agent will gather financial and strategic priority information from a trusted internal document.
+Later, the administrator adds an internal CSV file capturing tech spending projections of major tech companies. This ensures that the agent gathers financial and strategic priority information from a trusted internal document.
 
 ## Best practices
 
