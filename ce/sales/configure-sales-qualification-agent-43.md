@@ -1,6 +1,6 @@
 ---
 title: Set up the Sales Qualification Agent (pre-7.3 version)
-description: Learn how to activate and set up the Sales Qualification Agent in Dynamics 365 Sales to help your sellers use AI for effective lead qualification.
+description: Learn how to activate and set up the pre-7.3 version of the Sales Qualification Agent in Dynamics 365 Sales to help your sellers use AI for effective lead qualification.
 ms.date: 07/24/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
@@ -155,7 +155,7 @@ After the agent is published, you can start monitoring the capacity it consumes 
 
 1. In the Sales Hub app **Change area**, select **App Settings** > **Copilot** > **Agents (preview)**.
 
-   :::image type="content" source="media/view-usage-consumption-43.png" alt-text="Screenshot of the view usage consumption option.":::
+   :::image type="content" source="media/view-usage-consumption.png" alt-text="Screenshot of the view usage consumption option.":::
 
 1. On the **Copilot agents** page, select **View usage consumption**. You're redirected to the **Licensing** page in the Power Platform admin center.
 

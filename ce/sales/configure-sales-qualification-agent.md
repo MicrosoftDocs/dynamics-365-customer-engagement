@@ -56,10 +56,10 @@ Review the following considerations before you start deploying the autonomous Sa
 - Only one of the following modes can be deployed in an organization:  
     - **Research-only mode**: Analyzes assigned leads and drafts outreach email based on the insights and provides recommended actions.  
     - **Research and engage mode**: Analyzes and autonomously engages with the customer. Hands over the leads to sellers with detected purchase interest and customer profile fit based on configured handover criteria.  
+
 - You can **upgrade** from **Research-only** mode to the **Research and engage** mode later, but not the other way around.  
 - **Stopping the agent** will prevent new leads from being assigned/processed by the agent. Existing leads which are already in pipeline (orchestration), will continue until the lead is either handed over to a seller or added to the supervisor dashboard for next steps.  
 - You can’t **delete** an agent once configured. Contact Microsoft support to delete the agent from your organization.  
-- Once an agent is published, we **recommend** only a few select fields to be edited. Sections that have tag "Avoid edits" should not be edited as it can lead to the agent being in bad state.  
 
 <a name="grant-permissions"></a>
 

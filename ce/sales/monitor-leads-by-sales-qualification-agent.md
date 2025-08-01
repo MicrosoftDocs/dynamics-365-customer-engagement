@@ -29,14 +29,15 @@ As a supervisor or administrator, you can monitor the performance of the Sales Q
 ## View the supervisor dashboard
 
 1. In the Sales Hub app, go to **App settings**.
-1. Under General settings, select **Dynamics 365 AI hub**.
-1. In the **AI Optimization** card, select **See insights**.
+1. Under General settings, select **Dynamics 365 AI hub**.  
+1. In the **AI Optimization** card, select **See insights**.  
    The supervisor workspace opens, displaying various cards that provide insights into the Sales Qualification Agent's performance.  
-1. Verify the Last refreshed date and time to ensure the data is up-to-date. The data is refreshed when you open the dashboard. If needed, you can refresh the dashboard by selecting the **Refresh** icon.
+1. Verify the **Last refreshed** date and time to ensure the data is up-to-date. The data is refreshed when you open the dashboard. If needed, you can refresh the dashboard by selecting the **Refresh** icon.
 1. Select the **Time period** filter to specify the period for which you want to view the data. By default, the dashboard shows data for the last 7 days.
 1. To view the list of leads handled by the agent, select any of the following buttons:
 
    - **See disqualified leads**: Opens the **Leads disqualified by AI agent** view that lists leads that were disqualified by the agent during the selected time period. Open a lead to view the details of the disqualification in the **Lead insights** page. If you don't agree with the disqualification, select **Reassign** to assign the lead to a seller for follow-up and qualification.
+
    - **See leads in process**: Opens the **Leads in process by AI agent** view that lists all leads that the agent is currently processing. This includes leads that are being researched and leads that are being engaged with (research and engage mode only).
    - **See handed over leads**: Opens the **Leads handed over by AI agent** view that lists all leads that were handed over to sellers for followup and qualification during the selected time period.
    
@@ -108,6 +109,7 @@ If your admin has configured the Sales Qualification Agent to run in research an
     | **Failed**              | Leads that failed to engage with the agent or were not successfully processed. |
     | **Handed over to sellers** | Leads handed over to sellers by the agent, including disqualified leads reassigned by the supervisor. |
     | **Opportunities created** | Leads that were handed over by the agent and converted into opportunities. |
+
 
     - **Customer engagement funnel**: This funnel chart includes the number of leads at each stage of the customer engagement funnel, including the total number of outreach emails sent, customer responses received, and no response received. The customer responses are further divided into the following categories: 
  

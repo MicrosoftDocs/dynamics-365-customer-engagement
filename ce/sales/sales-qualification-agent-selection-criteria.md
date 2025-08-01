@@ -54,8 +54,7 @@ Read the [create and activate a segment](wa-create-and-activate-a-segment.md#cre
         Add more conditions as needed, for a total of 10, to further filter the records that should be assigned to the segment.
     - **Add group**: Add a group of conditions to filter records using multiple attributes that are combined by **And** or **Or**. If you select **And**, leads must meet all the conditions in the group. If you select **Or**, leads can meet any condition in the group.
     - **Add related entity**: Add a condition that's based on the attributes of related tables. Select an attribute in the **Related Entity** list, then select **Contains data** or **Does not contain data**, and then define the condition.  
-1. Select the **Consider leads created in the last** option and specify the number of days for the segment to consider leads that are created in specified date for segmentation.  
-    For example, if you specify 30 days, the segment considers leads that are created in the last 30 days in your organization for segmentation.  
+1. By default, the agent only considers new leads created after the agent is turned on. If you want the agent to also research on leads created before it was enabled, select the **Consider opportunities created in the last** checkbox and specify the number of days for the look back period.  
 1. (Optional) When you've finished defining the conditions, select **Preview leads** to view a list of records that satisfy the conditions.  
     If you are satisfied with the results, you can continue with the next configuration step.
 

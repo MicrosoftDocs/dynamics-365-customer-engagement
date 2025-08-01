@@ -151,7 +151,7 @@ The BANT criteria can be detected from various sources such as emails, CRM confi
 
 The agent determines the lead rating based on the alignment with the Ideal Customer Profile (ICP) and any engagement signals from Customer Insights - Journeys in terms of email opens, link clicks, event registrations and attendance, and form submissions.
 
-**Engage mode:**
+**Research and engage mode:**
 
 The agent determines the lead rating based on the Fit, Intent, Recency, Engagement (FIRE) framework and signals from Customer Insights - Journeys. The FIRE framework is used to evaluate leads and provide insights for qualification.
 

@@ -29,9 +29,9 @@ Define the agent profile, company information, and product information to set th
    - **Agent name**: Specify a meaningful name for the agent. 
 
    - **Agent description**: Specify a brief description of the agent's purpose and the leads it will handle.
-   - **Agent user**: Select the agent app user that you created for the agent. This user will be used to run the agent and access data.
+   - **Agent user**: Select the [agent app user you created for the agent](configure-requirements-for-sqa-agent.md#create-an-app-user-in-dataverse). This user account is used to perform all the agent tasks such as owning leads, handing over leads, sending emails, and accessing data.
 
-1. (Applicable for Engage mode) If you're configuring the agent for **Engage** mode, provide the following additional information to customize the agent's email communication:
+1. (Applicable for Research and engage mode) If you're configuring the Research and engage mode, provide the following additional information to customize the agent's email communication:
    - **Email signature**: Enter the email signature that the agent will use when sending emails to leads. This signature will be appended to the end of each email sent by the agent. Select **Modify signature** to open the Email signature editor, where you can format the signature text and add links or images.
    - **AI disclaimer**: Enter a disclaimer that will be included in the emails sent by the agent. This disclaimer informs recipients that the email is sent by an AI agent and not a human. Work with your legal team to ensure the disclaimer meets your organization's requirements.
    - **Other terms**: Enter any other terms that the agent should include in its communications with leads. This could include terms of service, privacy policy links, or any other relevant information.

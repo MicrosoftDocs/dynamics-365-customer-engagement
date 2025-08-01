@@ -40,6 +40,7 @@ Consider the following before you configure knowledge sources for the Sales Qual
 **Follow these steps**:
 
 1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  
+
 1. In the **Knowledge** section, select the following options and configure the knowledge sources:  
     - **Research**: The agent uses knowledge sources to get research insights about the lead and their company. These insights include industry type, company size, financials, priorities, and news.  
         In the **Knowledge sources for insights** section, select **Add**. You're redirected to the **Copilot Studio** page where you can add knowledge sources.  
@@ -47,12 +48,9 @@ Consider the following before you configure knowledge sources for the Sales Qual
     - **Outreach emails**: The agent uses knowledge sources to create personalized outreach emails. These emails can include relevant customer testimonials, case studies, and other insights to engage the lead effectively.  
         In the **Knowledge sources** section, select **Add**. You're redirected to the **Copilot Studio** page where you can add knowledge sources. 
     - **Follow-up emails**: This is only applicable for **Engage**. The agent uses knowledge sources to create follow-up emails to respond accurately and ask insightful questions. For an effective follow-up, add knowledge sources that include price sources, product specifications, sales playbooks, SKUs, and more.  
-        In the **Knowledge sources** section, select **Add**. You're redirected to the **Copilot Studio** page where you can add knowledge sources.  
+- In the **Knowledge sources** section, select **Add**. You're redirected to the **Copilot Studio** page where you can add knowledge sources.  
 
-> [!NOTE]
-> If you directly go to Copilot Studio and add the knowledge sources to micro agents, don't publish the changes in Copilot Studio. You might get an authentication error. Instead, open the **Knowledge** section of the Sales Qualification Agent settings page in the Sales Hub app. The newly added knowledge sources show up. Select **Apply changes** to add the knowledge sources to the agent.
-
-To know more about adding knowledge sources, see [Add knowledge to an agent](/microsoft-copilot-studio/knowledge-add-existing-copilot). If you directly add the knowledge sources to Sales Qualification Agent in Copilot Studio, they're reflected in the Sales Qualification Agent settings page in the Sales Hub app.
+To know more about adding knowledge sources in Copilot Studio, go to [Add knowledge to an agent](/microsoft-copilot-studio/knowledge-add-existing-copilot).
 
 ## Example of knowledge sources
 

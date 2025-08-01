@@ -59,30 +59,38 @@ The lead handover process goes through the following stages:
 1. After the agent processes the lead and completes its analysis, it hands over the lead to you for further action. Depending on the mode configured by your admin, the handover happens at different stages.
     - **Research-only mode**:
         When the ideal customer profile (ICP) fit for a lead is high or medium, the agent hands over the lead to a seller as per the [assignment rule configured by the admin](configure-sqa-assignment-rules.md) for outreach and engagement. If the ICP fit is low, the agent disqualifies the lead and notifies the supervisor. The lead continues to be assigned to the agent in this case.
+
     - **Research and engage mode**:
-        The agent hands over the lead in the following scenarios:
+        The agent hands over the lead to a seller as per the [assignment rule configured by the admin](configure-sqa-assignment-rules.md) in the following scenarios:
         - The lead meets the ICP and BANT criteria, sends a positive response to the outreach email, or shows positive intent. In this case, you can review the research and engagement summary and qualify the lead if appropriate.
         - The agent can't detect the lead's intent. Review the research and engagement summary and follow up with the lead to determine their purchase intent.
         - The agent is blocked on the lead as it's unable to find the answer to the lead's question. Respond to the lead's question and follow up with the lead.
-        If the lead doesn't meet the hand over criteria, the agent disqualifies the lead and notifies the supervisor. The lead continues to be assigned to the agent in this case.
+    
+    If the lead doesn't meet the hand over criteria, the agent disqualifies the lead and notifies the supervisor. The lead continues to be assigned to the agent in this case.
 
     > [!NOTE]
     > If the assignment rule is set to assign leads to a team, the agent assigns the lead in a round-robin fashion to the team members.
 
 ## View leads handed over by the agent
 
-You get notified when a lead is handed over to you. If you missed that, follow these steps to view the leads handed over by the Sales Qualification Agent.
+If you're a seller, you get notified when a lead is handed over to you. If you missed that, follow the steps in this section to view the leads handed over by the Sales Qualification Agent.
+
+> [!NOTE]
+> If you're a supervisor, you get notified when a lead is disqualified by the agent. Learn more in [Monitor leads handled by the Sales Qualification Agent (preview)](monitor-leads-by-sales-qualification-agent.md).
 
 1. In the Sales Hub app, go to **Leads**.
 
 1. From the views drop-down, select **Leads handed over by AI Agent**.
+   > [!NOTE]
+   > The agents hands over leads that [meet the handoff criteria](configure-sales-qualification-agent-handoff-criteria.md) defined by your admin. 
 1. Select a lead.
    - If you're in the focused view, you'll see the **Lead insights** page for the lead.
 
    - If you're in the read-only grid view, you'll see the lead form. Wait for a few seconds for the page to load the research summary at the top of the lead form.  
     :::image type="content" source="media/lead-research-insights-summary.png" alt-text="Screenshot of the lead research insights summary at the top of the lead form.":::
 
-      The summary includes recommended actions and reasons for recommendation. Select **See full research** to view the **Lead insights** page.
+      The summary includes recommended actions and reasons for recommendation.  
+1. Select **See full research** to view the **Lead insights** page.
 
 ### Lead insights page
 
@@ -90,9 +98,11 @@ The **Lead insights** page offers a 360-degree view of the lead, key insights, a
 
 #### Header
 
-The following screenshot shows the header of the **Lead insights** page in Research and engage mode.
+The header section includes the same information in both Research-only and Research and engage modes. The following screenshot shows the header of the **Lead insights** page:
 
 :::image type="content" source="media/leads-insights-page-header.png" alt-text="Screenshot of the header of the Lead insights page in research and engage mode.":::
+
+This section includes the basic information about the lead:
 
 - **Lead information**: Provides key details about the lead, including topic, job title, company name, phone number, primary email address, and lead rating. Learn more about [how lead rating is calculated](sales-qualification-agent-concepts.md#how-does-the-agent-determine-the-lead-rating).
 
@@ -104,7 +114,7 @@ If you manually connect a record, the agent uses that connection for future rese
 
 #### Suggested action
 
-The following screenshot shows the **Suggested action** section of the **Lead insights** page in research and engage mode.
+The following screenshot shows the **Suggested action** section of the **Lead insights** page in research and engage mode as an example.
 
 :::image type="content" source="media/lead-insights-page-suggested-action.png" alt-text="Screenshot of the Suggested action section of the Lead insights page in research and engage mode.":::
 
@@ -115,7 +125,7 @@ This section summarizes the lead's alignment with the hand over criteria and pro
 
 #### Key insights
 
-The following screenshot shows the **Key insights** section of the **Lead insights** page in Research and engage mode.
+The following screenshot shows the **Key insights** section of the **Lead insights** page in Research and engage mode as an example.
 
 :::image type="content" source="media/lead-insights-page-key-insights.png" alt-text="Screenshot of the Key insights section of the Lead insights page in research and engage mode.":::
 
@@ -125,7 +135,7 @@ The following screenshot shows the **Key insights** section of the **Lead insigh
 
 - **How was this generated?**: Displays the signal strength and the series of steps that explains how the agent generated the insights. **Signal strength** indicates the quality and completeness of the input data used to generate the insights. The higher the signal strength, the more reliable the insights are. The following screenshot shows the signal strength and steps in Research-only mode.
 
-:::image type="content" source="media/lead-insights-page-explainer.png" alt-text="Screenshot of the How was this generated section of the Lead insights page in research-only mode.":::
+    :::image type="content" source="media/lead-insights-page-explainer.png" alt-text="Screenshot of the How was this generated section of the Lead insights page in research-only mode.":::
 
 #### Deeper insights
 

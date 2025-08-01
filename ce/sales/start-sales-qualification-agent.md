@@ -29,7 +29,7 @@ ai-usage: ai-assisted
 After you configure all the settings, the **Start agent** option is enabled.  
 
 > [!NOTE]
-> For **Engage** mode, you must also [simulate outreach emails](run-simulation-sqa-outreach-email.md) to start the agent.
+> For **Research and engage** mode, you must also [simulate outreach emails](run-simulation-sqa-outreach-email.md) to start the agent.
 
 :::image type="content" source="media/sqa-settings-start-agent.png" alt-text="Screenshot of selecting start agent option on the Sales Qualification Agent settings page.":::
 

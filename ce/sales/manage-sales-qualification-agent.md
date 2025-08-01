@@ -27,9 +27,6 @@ As an administrator, you can manage the Sales Qualification Agent in your organi
 
 Lead qualification is an evolving process which requires experimentation, continuous monitoring, and iterative refinement. Edit the agent configurations to fine-tune the settings based on real-world insights, ensuring a more accurate, and efficient qualification process.
 
->[!NOTE]
->Once an agent is published, we recommend only a few select fields to be edited. Sections that have tag "Avoid edits" should not be edited as it can lead to the agent giving different results.
-
 **Follow these steps**:
 
 1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  
@@ -41,7 +38,7 @@ The updated agent is active, and new leads are processed based on the updated se
 
 ## Stop the Sales Qualification Agent
 
-Stop the agent when you don’t want to use it in your organization. Stopping the agent doesn’t delete it and retains the configuration settings.
+Stop the agent when you no longer want to use it in your organization. Stopping the agent doesn’t delete it and retains the configuration settings.
 
 **Follow these steps**:
 
@@ -54,7 +51,7 @@ Stop the agent when you don’t want to use it in your organization. Stopping th
 
     The agent is stopped, and a confirmation message is displayed on the top of the page.
 
-Leads under process before stopping the agent will be stopped for further processing. However, leads that are already processed will not be affected and will continue to be available in the application.
+Leads that are already processed will continue to be available in the application. However, new leads and leads that are in process will not be processed.
 
 > [!NOTE]
 >
