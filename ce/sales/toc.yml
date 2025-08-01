@@ -322,18 +322,18 @@ items:
               href: sales-qualification-agent-faq.md
             - name: Test the Sales Qualification Agent
               href: test-sales-qualification-agent.md
-      - name: Sales Qualification Agent (pre-7.3 version)
-        items:
-          - name: Overview (pre-7.3 version)
-            href: sales-qualification-agent-43.md
-          - name: Set up and configure the agent (pre-7.3 version)
-            href: configure-sales-qualification-agent-43.md
-          - name: Work on leads researched by the agent (pre-7.3 version)
-            href: use-sales-qualification-agent-43.md
-          - name: Sales Qualification Agent FAQ (pre-7.3 version)
-            href: sales-qualification-agent-faq-43.md
-          - name: Responsible AI FAQs about the agent (pre-7.3 version)
-            href: faqs-sales-qualification-agent-43.md
+        - name: Sales Qualification Agent (pre-7.3 version)
+          items:
+            - name: Overview (pre-7.3 version)
+              href: sales-qualification-agent-43.md
+            - name: Set up and configure the agent (pre-7.3 version)
+              href: configure-sales-qualification-agent-43.md
+            - name: Work on leads researched by the agent (pre-7.3 version)
+              href: use-sales-qualification-agent-43.md
+            - name: Sales Qualification Agent FAQ (pre-7.3 version)
+              href: sales-qualification-agent-faq-43.md
+            - name: Responsible AI FAQs about the agent (pre-7.3 version)
+              href: faqs-sales-qualification-agent-43.md
         - name: Customize lead qualification experience
           href: define-lead-qualification-experience.md
         - name: Enable duplicate lead detection
