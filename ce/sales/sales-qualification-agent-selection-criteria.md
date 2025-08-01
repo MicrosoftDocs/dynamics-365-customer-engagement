@@ -26,9 +26,7 @@ Read the [create and activate a segment](wa-create-and-activate-a-segment.md#cre
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 > [!NOTE]
->
-> - The priority of the segment is always low and one above the default segment.
-> - The agent only processes leads with company name and primary email address.
+> The priority of the segment created for the agent is always low and one above the default segment. So, ensure that the segment you're creating for the agent doesn't overlap with the segments used for work assignment to sellers. If there's an overlap, leads will be assigned to sellers instead of the agent.
 
 **Follow these steps**:
 

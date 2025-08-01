@@ -1,5 +1,5 @@
 ---
-title: Sales Qualification Agent overview
+title: Sales Qualification Agent overview (pre-7.3 version)
 description: Learn how the Sales Qualification Agent in Dynamics 365 Sales can be your personal assistant in qualifying leads and improving sales outcomes.
 ms.date: 05/22/2025
 ms.update-cycle: 180-days
@@ -16,9 +16,12 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Sales Qualification Agent overview
+# Sales Qualification Agent overview (pre-7.3 version)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+> [!NOTE]
+> This article is for the version of Sales Qualification Agent that was part of the April 2025 public preview. The latest version of the agent is available in 9.0.25073.10001 (7.3) release. To know the version in your organization, check the **Server version** in **Settings** > **About** in the Sales Hub app. To check your deployment schedule, go to [Latest version availability](/dynamics365/released-versions/dynamics365sales#latest-version-availability) and look for the 9.0.25073.10001 version. If your org has the latest version, your existing  agent will be in the Draft mode and you must [reconfigure it](upgrade-sales-qualification-agent.md) to use the agent.
 
 As a seller, you know that qualifying leads is crucial to your success, but it takes up a lot of your time. The Sales Qualification Agent in Dynamics 365 Sales is an AI assistant that automates the manual aspects of lead qualification. It doesn't replace your judgment or decision-making process. It's a productivity tool that helps you qualify leads faster and more effectively, so that you can invest more time in one-on-one interactions with top leads.
 
@@ -49,9 +52,9 @@ Depending on your role, use the following links to configure and use the Sales Q
 
 | Role | Action |
 |------|--------|
-| Admin | [Set up the Sales Qualification Agent](configure-sales-qualification-agent.md) |
-| Admin and seller | [Test the Sales Qualification Agent](test-sales-qualification-agent.md) |
-| Seller | [Qualify leads with the Sales Qualification Agent](use-sales-qualification-agent.md) |
+| Admin | [Set up the Sales Qualification Agent](configure-sales-qualification-agent-43.md) |
+| Admin and seller | [Test the Sales Qualification Agent](test-sales-qualification-agent-43.md) |
+| Seller | [Qualify leads with the Sales Qualification Agent](use-sales-qualification-agent-43.md) |
 
 ## Related information
 
