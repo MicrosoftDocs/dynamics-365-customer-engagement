@@ -1,7 +1,7 @@
 ---
 title: Manage quote, order, and invoice
 description: Understand how and when the sales transactions move to quote, order, and invoice. Learn about different quote stages and pricing behavior on orders and invoices.
-ms.date: 06/28/2024
+ms.date: 07/15/2025
 ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr

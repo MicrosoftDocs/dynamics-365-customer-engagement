@@ -1,10 +1,10 @@
 ---
 title: "Extensibility updates for Universal Resource Scheduling"
 description: "Learn about the recent extensibility updates in Universal Resource Scheduling. These include updates to queries, filter layouts, and resource cell templates."
-author: m-hartmann
-ms.author: mhart
-ms.date: 11/14/2018
-ms.reviewer: mhart
+author: mkelleher-msft
+ms.author: mkelleher
+ms.date: 07/28/2025
+ms.reviewer: puneet-singh1
 
 ms.subservice: common-scheduler
 ms.topic: article
@@ -28,7 +28,7 @@ The schedule assistant now supports a feature called intervals. When searching f
 > When scheduling a requirement group, the filter control is not yet extensible. Therefore, this feature will be available to everyone out of the box when scheduling requirement groups even if the schedule assistant filter layout was customized.
 
 #### Schedule assistant filter layout
-The default schedule assistant filter layout shipped in this update includes two new duration controls to allow you to adjust the interval and the results per interval. If you have a custom schedule assistant filter layout, you can add the below new controls to the control section in your schedule assistant filter layout configuration record.
+The default schedule assistant filter layout shipped in this update includes two new duration controls to allow you to adjust the interval and the results per interval. If you have a custom schedule assistant filter layout, you can add the following new controls to the control section in your schedule assistant filter layout configuration record.
 
 The added `Interval` property:
 ```xml
@@ -39,7 +39,7 @@ The added `ResultsPerInterval` property:
 <control type="number" key="Requirement/msdyn_resultsperinterval" label-id="FilterControl_ResultsPerInterval" min="0" default-value="0" />
 ```
 #### Retrieve constraints query
-The default retrieve constraints query shipped in this update includes the query to retrieve the `Interval` and `ResultsPerInterval` values. To change the default value for this parameter, or if you have a custom retrieve constraints query, update or add the below to your retrieve constraints query configuration record.
+The default retrieve constraints query in this update includes the query to get the `Interval` and `ResultsPerInterval` values. To change the default value for this parameter, or if you use a custom retrieve constraints query, update or add the following to your retrieve constraints query configuration record.
 
 ```html 
 <link-entity name='msdyn_timegroup' from='msdyn_timegroupid' to='msdyn_timegroup' link-type='outer' alias="tg">
@@ -55,7 +55,7 @@ The default retrieve constraints query shipped in this update includes the query
 
 #### Hide resource image
 
-The default resource cell template shipped in this update includes support for automatically hiding the resource image if the resource row in the Schedule Board is configured to a small height. If you have a custom resource cell template, add the below template updates to your resource cell template configuration record.
+The default resource cell template shipped in this update includes support for automatically hiding the resource image if the resource row in the Schedule Board is configured to a small height. If you have a custom resource cell template, add the following template updates to your resource cell template configuration record.
 
 The first and last lines are newly introduced to light up the functionality. The updated markup to hide the resource image:
 ```html
@@ -84,7 +84,7 @@ The first line is new. The updated markup to hide the second row of text in the 
 
 #### Ignore proposed bookings
 
-The default Retrieve Constraints Query shipped in this update includes a default value for the Ignore Proposed Bookings parameter used by the Schedule Assistant. To change the default value for this parameter, or if you have a custom Retrieve Constraints Query, update or add the below new property to the `Requirement` bag transformation part in your Retrieve Constraints Query configuration record.
+The default Retrieve Constraints Query shipped in this update includes a default value for the Ignore Proposed Bookings parameter used by the Schedule Assistant. To change the default value for this parameter, or if you have a custom Retrieve Constraints Query, update or add the following new property to the `Requirement` bag transformation part in your Retrieve Constraints Query configuration record.
 
 The added `IgnoreProposedBookings` property:
 ```xml
@@ -99,7 +99,7 @@ The added `IgnoreProposedBookings` property:
 
 #### Ignore proposed bookings
 
-The default Schedule Assistant Filter Layout shipped in this update includes a new checkbox control to set the Ignore Proposed Bookings parameter used by the Schedule Assistant. If you have a custom Schedule Assistant Filter Layout, add the below new control to the last `fieldset` control section in your Schedule Assistant Filter Layout configuration record.
+The default Schedule Assistant Filter Layout shipped in this update includes a new checkbox control to set the Ignore Proposed Bookings parameter used by the Schedule Assistant. If you have a custom Schedule Assistant Filter Layout, add the following new control to the last `fieldset` control section in your Schedule Assistant Filter Layout configuration record.
 
 The new `IgnoreProposedBookings` control
 ```xml
@@ -114,11 +114,11 @@ The new `IgnoreProposedBookings` control
 
 #### Schedule Board visible date range
 
-Included in this update, the Retrieve Resources Query gets as input the visible date range of the Schedule Board. This lets the query use the board's date range in its database queries. The default Retrieve Resources Query shipped in this update has not changed. However, you can now customize the query to depend on the board's visible date range.
+Included in this update, the Retrieve Resources Query gets as input the visible date range of the Schedule Board. This lets the query use the board's date range in its database queries. The default Retrieve Resources Query shipped in this update hasn't changed. However, you can now customize the query to depend on the board's visible date range.
 
 The updated input parameters available in the XPath `$input` variable are `ScheduleBoard/StartDate` and `ScheduleBoard/EndDate`.
 
-The below snippet (not shipped) shows how the new input parameters can be used to query the total number of bookings per resource in the date range visible on the board.
+The following snippet (not shipped) shows how the new input parameters can be used to query the total number of bookings per resource in the date range visible on the board.
 ```xml
 <!-- Booking join -->
 <link-entity name="bookableresourcebooking" from="resource" to="bookableresourceid" link-type="outer">
@@ -136,7 +136,7 @@ The below snippet (not shipped) shows how the new input parameters can be used t
 </link-entity>
 ```
 
-The below snippet (not shipped) shows how the Resource Cell Template can then be customized to show the total number of bookings.
+The following snippet (not shipped) shows how you can customize the resource cell template to show the total number of bookings.
 ```html
 <div>Booking Count: {{bookingcount}}</div>
 ```
@@ -148,7 +148,7 @@ The below snippet (not shipped) shows how the Resource Cell Template can then be
 
 #### Sort by total availability
 
-The default Schedule Assistant Filter Layout shipped in this update includes a new order option to sort the result of the Schedule Assistant by a resource's total availability. If you have a custom Schedule Assistant Filter Layout, add the below new order option to the `order` control in your Schedule Assistant Filter Layout configuration record.
+The default Schedule Assistant Filter Layout shipped in this update includes a new order option to sort the result of the Schedule Assistant by a resource's total availability. If you have a custom Schedule Assistant Filter Layout, add the following new order option to the `order` control in your Schedule Assistant Filter Layout configuration record.
 
 The new sort option
 ```xml

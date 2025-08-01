@@ -101,7 +101,7 @@ The Sales Qualification Agent is available in two modes&mdash;Research-only mode
 1. [Configure handoff criteria](configure-sales-qualification-agent-handoff-criteria.md) for the agent to identify leads that are a good fit for further engagement.  
 1. [Configure assignment rules](configure-sqa-assignment-rules.md) for the agent to assign processed leads to the appropriate sellers.  
 1. [Configure knowledge sources](configure-sqa-knowledge-source.md) for research insights, outreach, and follow-up emails.
-1. (**Engage only**) [Run simulation to review the agent's outreach emails](run-simulation-sqa-outreach-email.md) are customized and relevant to the leads.  
+1. (**Research and engage mode**) [Run simulation to review the agent's outreach emails](run-simulation-sqa-outreach-email.md) are customized and relevant to the leads.  
 1. After you are satisfied with the configuration, [start the agent](start-sales-qualification-agent.md).
 
 ## View the agent's usage consumption

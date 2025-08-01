@@ -1,7 +1,7 @@
 ---
 title: Schedule bookings within time constraints
-description: Learn about scheduling with time constraints in Dynamics 365 Field Service.
-ms.date: 06/05/2024
+description: Learn how to schedule within time constraints in Dynamics 365 Field Service.
+ms.date: 07/18/2025
 ms.topic: how-to
 ms.custom: bap-template
 author: mkelleher-msft

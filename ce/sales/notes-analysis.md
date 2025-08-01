@@ -1,7 +1,7 @@
 ---
 title: How notes analysis assists you with suggestion
 description: Discover how notes analysis provides intelligent suggestions for customer-related actions, aiding sales roles in timely decision-making.
-ms.date: 06/28/2024
+ms.date: 07/30/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -69,7 +69,7 @@ The following three scenarios are the examples of how to use notes analysis in y
     
 ### Scenario 2: Suggest Task Creation
 
-   - I will prepare the contract by Friday.
+   - I'll prepare the contract by Friday.
    - John to confirm the date with Contoso.
    - John, can you please send the code to them?
  
