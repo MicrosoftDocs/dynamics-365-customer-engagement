@@ -477,7 +477,7 @@
         - name: Trust center for Dynamics 365
           href: /dynamics365/contact-center/administer/trust-center?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
         - name: Security FAQs about AI agents
-          href: /dynamics365/contact-center/administer/agent-hub-security-faqs?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+          href: /dynamics365/contact-center/administer/copilot-security-faqs?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Autonomous service agents
         items:
         - name: Overview of autonomous service agents
