@@ -310,6 +310,8 @@ items:
                   href: run-simulation-sqa-outreach-email.md
             - name: Start the agent
               href: start-sales-qualification-agent.md
+            - name: Upgrade the agent
+              href: upgrade-sales-qualification-agent.md
             - name: Manage the agent
               href: manage-sales-qualification-agent.md
             - name: Configure requirements for Sales Qualification Agent
