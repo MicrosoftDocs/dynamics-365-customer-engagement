@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: overview
 ms.collection:
-ms.date: 05/09/2025
+ms.date: 07/31/2025
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -77,9 +77,8 @@ Use the filters to drill down to KPIs across the dashboard. Adjust the filters b
 
 For example, the dropdown list for the **Time** filter includes the following options:
 
-- **Include open conversations**: Show all conversations that started in the last 24 hours, and conversations that started in the last three days and are still open.
-- **Last 24 hrs**: Show all conversations that started in the last 24 hours.
-- **Today**: Shows all conversations that started on the current date in the selected time zone.
+- **Last 24 hrs**: Show all conversations started or modified in the last 24 hours.
+- **Today**: Shows all conversations started or modified in the selected time zone.
 
 ### Pause updates on report data
 
