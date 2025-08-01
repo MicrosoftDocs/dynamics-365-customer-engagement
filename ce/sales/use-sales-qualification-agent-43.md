@@ -29,7 +29,7 @@ The Sales Qualification Agent in Dynamics 365 Sales researches your leads, offer
 
 ## Prerequisites
 
-Before you can use the Sales Qualification Agent, your admin must [set it up](./configure-sales-qualification-agent.md) for you and your sales team.
+Before you can use the Sales Qualification Agent, your admin must [set it up](./configure-sales-qualification-agent-43.md) for you and your sales team.
 
 <a name="selection-criteria-for-research"></a>
 ## Selection criteria for initial research
@@ -40,7 +40,7 @@ After the Sales Qualification Agent is set up, it automatically researches leads
 - created in the last 14 days
 - owned by sellers who have a security role that allows them to access the agent.
 
-The agent processes the leads only once, unless significant changes are made to the lead. Learn more about trigger events in [When does the agent run?](sales-qualification-agent-faq.md#trigger-events).
+The agent processes the leads only once, unless significant changes are made to the lead. Learn more about trigger events in [When does the agent run?](sales-qualification-agent-faq-43.md#trigger-events).
 
 ## Qualify leads
 
@@ -54,7 +54,7 @@ The agent processes the leads only once, unless significant changes are made to 
 
 1. Select an action button:
 
-   - **Review email** opens a draft outreach email that the agent generated for you based on its insights. It's ready for you to send, but you should review it and make any needed changes before you send it. [Why don't I see the **Review email** or **Draft email** option?](sales-qualification-agent-faq.md#cant-see-email-options) in the Sales Qualification Agent FAQ.
+   - **Review email** opens a draft outreach email that the agent generated for you based on its insights. It's ready for you to send, but you should review it and make any needed changes before you send it. [Why don't I see the **Review email** or **Draft email** option?](sales-qualification-agent-faq-43.md#cant-see-email-options) in the Sales Qualification Agent FAQ.
 
    - **More insights** opens the [**Lead insights** page](#lead-insights-page), which offers a 360-degree view of the lead and includes the date the agent last updated its research data.  
      :::image type="content" source="media/lead-insights-page-annotated-43.png" alt-text="Screenshot of the Lead insights page showing the Sales Qualification Agent's insights about a lead with annotations.":::
@@ -107,5 +107,5 @@ The Sales Qualification Agent ranks leads based on how well they match the ideal
 
 ## Related information
 
-- [Sales Qualification Agent FAQ](sales-qualification-agent-faq.md)
-- [Set up the Sales Qualification Agent](configure-sales-qualification-agent.md)
+- [Sales Qualification Agent FAQ](sales-qualification-agent-faq-43.md)
+- [Set up the Sales Qualification Agent](configure-sales-qualification-agent-43.md)

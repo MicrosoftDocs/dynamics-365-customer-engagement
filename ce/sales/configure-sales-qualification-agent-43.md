@@ -117,7 +117,7 @@ The following image shows the permissions to access research insights as an exam
 
 1. Select **Activate**.
 
-The status changes to **Active**. The agent starts processing the last 100 leads, starting with the most recently created ones. You can now test the agent to ensure it's working as expected. Learn more in [Test the Sales Qualification Agent](test-sales-qualification-agent.md).
+The status changes to **Active**. The agent starts processing the last 100 leads, starting with the most recently created ones. You can now test the agent to ensure it's working as expected. Learn more in [Test the Sales Qualification Agent](test-sales-qualification-agent-43.md).
 
 The agent uses the capacity assigned to your tenant to process leads and generate insights. If you don't have enough capacity to activate it, a banner appears at the top of the page. Select the Power Platform admin center link in the banner to add more capacity, or save the agent settings and come back later to activate it.
 
@@ -151,7 +151,7 @@ Use custom criteria to define characteristics that are important for your ideal 
 
 ## View the agent's usage consumption
 
-After the agent is published, you can start monitoring the capacity it consumes and how much capacity is left. Learn more in [What activities consume Copilot Studio capacity?](sales-qualification-agent-faq.md#what-activities-consume-copilot-studio-capacity) in the Sales Qualification Agent FAQ.
+After the agent is published, you can start monitoring the capacity it consumes and how much capacity is left. Learn more in [What activities consume Copilot Studio capacity?](sales-qualification-agent-faq-43.md#what-activities-consume-copilot-studio-capacity) in the Sales Qualification Agent FAQ.
 
 1. In the Sales Hub app **Change area**, select **App Settings** > **Copilot** > **Agents (preview)**.
 
@@ -179,5 +179,5 @@ The agent's status changes to **Deactivating** until the process is complete. On
 
 ## Related information
 
-- [Sales Qualification Agent FAQ](sales-qualification-agent-faq.md)
-- [Qualify leads with the Sales Qualification Agent](use-sales-qualification-agent.md)
+- [Sales Qualification Agent FAQ](sales-qualification-agent-faq-43.md)
+- [Work on leads researched by Sales Qualification Agent (pre-7.3 version)](use-sales-qualification-agent-43.md)
