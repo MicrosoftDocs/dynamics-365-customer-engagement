@@ -15,21 +15,23 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
+> [!IMPORTANT]
+> From August 01, 2025, the post-call survey option on the **Language** tab of voice workstream is deprecated. Learn more in [Deprecations](/dynamics365/contact-center/implement/deprecations-contact-center). We recommend that you use [Configure feedback surveys using Copilot Studio (preview)](/dynamics365/contact-center/administer/configure-surveys).
+
 
 Post-call surveys help measure customer satisfaction in the contact center. Surveys are also an incentive for is AI agents (agents) to provide high-quality service. You can configure the survey to take place immediately after the call so that customers can provide their feedback while the conversation is fresh on their minds.
 
-The experience discussed in this article is for survey agents that you create in Copilot Studio. You can also configure a survey template in the admin center, which is the latest experience. Learn more in [Configure feedback surveys using Copilot Studio (preview)](/dynamics365/contact-center/administer/configure-surveys).
+The experience discussed in this article is for survey agents that you create in Copilot Studio. You can also configure a survey template in the admin center. Learn more in [Configure feedback surveys using Copilot Studio (preview)](/dynamics365/contact-center/administer/configure-surveys).
 
 You can obtain customer consent for post-call surveys as follows:
 
 - **Automatic - implicit**: The IVR agent informs the customer about a post-call survey at the end of the call. 
-    After the agent disconnects, the call is automatically transferred to a post-call survey agent.
-- **Automatic - explicit**: The IVR agent asks the customer if they want to participate in a post-call survey. The consent is saved in a `va_SurveyConsent` Boolean variable. If the customer consents, the call is automatically transferred to the post-call survey agent at the end of the call. If the customer says no, the call ends when the agent hangs up.
+    After the representative disconnects, the call is automatically transferred to a post-call survey agent.
+- **Automatic - explicit**: The IVR agent asks the customer if they want to participate in a post-call survey. The consent is saved in a `va_SurveyConsent` Boolean variable. If the customer consents, the call is automatically transferred to the post-call survey agent at the end of the call. If the customer says no, the call ends when the representative hangs up.
 - **Agent-initiated**: Towards the end of a call, the agent can ask the customer if they want to take a survey.
-    If the customer says yes, the agent manually transfers the call to the survey agent.
-
+    If the customer says yes, the representative manually transfers the call to the survey agent.
 
 We recommend that you have two agents if your organization wants to use Copilot Studio for both IVR and survey scenarios.
 
