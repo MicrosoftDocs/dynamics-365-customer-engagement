@@ -1,5 +1,5 @@
 ---
-title: Configure general settings for the Sales Qualification Agent
+title: Configure general settings for the Sales Qualification Agent (preview)
 description: Learn how to activate and set up the Sales Qualification Agent in Dynamics 365 Sales to help your sellers use AI for effective lead qualification.
 ms.date: 07/31/2025
 ms.topic: how-to
@@ -13,7 +13,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure general settings for the Sales Qualification Agent
+# Configure general settings for the Sales Qualification Agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 

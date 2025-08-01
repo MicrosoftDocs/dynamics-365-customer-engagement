@@ -1,5 +1,5 @@
 ---
-title: Configure knowledge source for Sales Qualification Agent
+title: Configure knowledge source for Sales Qualification Agent (preview)
 description: Learn how to configure knowledge sources for the Sales Qualification Agent in Dynamics 365 Sales.
 ms.topic: how-to 
 ms.date: 07/31/2025
@@ -15,7 +15,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure knowledge source for Sales Qualification Agent
+# Configure knowledge source for Sales Qualification Agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: Sales Qualification Agent FAQ
+title: Sales Qualification Agent FAQ (preview)
 description: Find answers to frequently asked questions about the Sales Qualification Agent in Dynamics 365 Sales, which helps sellers qualify leads and improve sales outcomes.
 ms.date: 07/10/2025
 ms.update-cycle: 180-days
@@ -16,7 +16,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Sales Qualification Agent FAQ
+# Sales Qualification Agent FAQ (preview)
 
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]

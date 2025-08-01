@@ -1,5 +1,5 @@
 ---
-title: Configure email settings for the Sales Qualification Agent
+title: Configure email settings for the Sales Qualification Agent (preview)
 description: 
 ms.date: 07/31/2025
 ms.topic: how-to
@@ -13,7 +13,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure email settings for the Sales Qualification Agent
+# Configure email settings for the Sales Qualification Agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 

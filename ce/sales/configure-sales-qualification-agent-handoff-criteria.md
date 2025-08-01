@@ -1,5 +1,5 @@
 ---
-title: Configure hand off criteria for the Sales Qualification Agent
+title: Configure hand off criteria for the Sales Qualification Agent (preview)
 description: Configure ideal customer profile, budget, authority, need, and timeline criteria for the Sales Qualification Agent to effectively qualify leads.
 ms.date: 07/31/2025
 ms.topic: how-to
@@ -13,7 +13,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure hand off criteria for the Sales Qualification Agent
+# Configure hand off criteria for the Sales Qualification Agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: Manage the Sales Qualification Agent
+title: Manage the Sales Qualification Agent (preview)
 description: Learn how to manage such as stop or edit the sales qualification settings in Dynamics 365 Sales.
 ms.topic: how-to 
 ms.date: 07/31/2025
@@ -15,7 +15,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Manage the Sales Qualification Agent
+# Manage the Sales Qualification Agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
