@@ -1,5 +1,5 @@
 ---
-title: Upgrade your Sales Qualification Agent
+title: Upgrade your Sales Qualification Agent (preview)
 description: Learn how the Sales Qualification Agent in Dynamics 365 Sales can be your personal assistant in qualifying leads and improving sales outcomes.
 ms.date: 07/31/2025
 ms.topic: overview
@@ -15,13 +15,16 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Upgrade your Sales Qualification Agent
+# Upgrade your Sales Qualification Agent (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 The following upgrade scenarios are supported for the Sales Qualification Agent in Dynamics 365 Sales:
 
 - **Upgrade the agent to 7.3**: This upgrade is available for customers who signed up for the April 2025 public preview of the Sales Qualification Agent.
 - **Upgrade the agent to handle both research and engagement**: This upgrade is available for customers who are currently using the Research-only mode of the agent and want to extend its capabilities to include engagement as well.
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Considerations for upgrading the agent to 7.3
 
