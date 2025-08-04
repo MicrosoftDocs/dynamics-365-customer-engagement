@@ -2,7 +2,7 @@
 title: Configure knowledge source for Sales Qualification Agent (preview)
 description: Learn how to configure knowledge sources for the Sales Qualification Agent in Dynamics 365 Sales.
 ms.topic: how-to 
-ms.date: 08/01/2025
+ms.date: 08/04/2025
 ms.service: dynamics-365-sales
 content_well_notification:
   - AI-contribution
@@ -37,25 +37,74 @@ Consider the following before you configure knowledge sources for the Sales Qual
 
 ## Add knowledge sources
 
-**Follow these steps**:
-
 1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  
 
 1. In the **Knowledge** section, select the following options and configure the knowledge sources:  
     - **Research**: The agent uses knowledge sources to get research insights about the lead and their company. These insights include industry type, company size, financials, priorities, and news.  
-        In the **Knowledge sources for insights** section, select **Add**. You're redirected to the **Copilot Studio** page where you can add knowledge sources.  
+        In the **Knowledge sources for insights** section, select **Add**. You're redirected to the **Copilot Studio** page where you can add knowledge sources. The following examples are the best sources to add as knowledge sources:
+
+        | Insight | Typical questions answered | Examples of out-of-box data sources |
+        |---------|----------------------------|-------------------------------------|
+        | Company background | What does the company do? What is its size and industry? | Company website, Wikipedia pages, Crunchbase profiles |
+        | Strategic priorities | What is the firm focusing on? Does their priority match with what we are selling? | Annual reports, earnings-call transcripts |
+        | Financials | How healthy is the business? Will they have budget to buy what we are selling? | SEC filings, Bloomberg, Dataverse finance tables |
+        | Recent news | What just happened that matters to us, and will show a need or intent for our solutions? | Bing news search |  
 
     - **Outreach emails**: The agent uses knowledge sources to create personalized outreach emails. These emails can include relevant customer testimonials, case studies, and other insights to engage the lead effectively.  
-        In the **Knowledge sources** section, select **Add**. You're redirected to the **Copilot Studio** page where you can add knowledge sources. 
+        In the **Knowledge sources** section, select **Add**. You're redirected to the **Copilot Studio** page where you can add knowledge sources.  
     - **Follow-up emails**: This is only applicable for **Engage**. The agent uses knowledge sources to create follow-up emails to respond accurately and ask insightful questions. For an effective follow-up, add knowledge sources that include price sources, product specifications, sales playbooks, SKUs, and more.  
+
 - In the **Knowledge sources** section, select **Add**. You're redirected to the **Copilot Studio** page where you can add knowledge sources.  
 
 To know more about adding knowledge sources in Copilot Studio, go to [Add knowledge to an agent](/microsoft-copilot-studio/knowledge-add-existing-copilot).
 
-## Example of knowledge sources
+## Test knowledge sources
 
-Your seller’s company sells GPUs. The administrator has added a recent report covering market share analysis of the prospective companies in the GPU market, so that the agent can use this to research any lead that comes from these companies.
-Later, the administrator adds an internal CSV file capturing tech spending projections of major tech companies. This ensures that the agent gathers financial and strategic priority information from a trusted internal document.
+After you add knowledge sources, you can test if Sales Qualification Agent is picking these sources as part of research in the Microsoft Copilot Studio test pane.
+
+**Follow these steps**:
+
+> [!NOTE]
+> In this example, we are using Contoso as the seller company and Microsoft as the lead company.
+
+1. In the research source added page, select the **Test your agent** pane.
+1. In the **Test your agent** pane, Enter the following script:  
+    `{"sellerCompanyName": "Contoso", 
+    "productInformation": "This agent is responsible for researching and qualifying high-priority leads interested in Contoso GPUs. It supports the sales team by identifying prospects with strong alignment to Contoso’s AI and HPC solutions, enabling focused and effective outreach.",
+    "companyName": "Microsoft", 
+    "accountDomain": "https://www.microsoft.com"}`  
+    
+    Replace the `sellerCompanyName` attribute with your company name, `productInformation` with your product’s value proposition that is [configured in the Products section](sales-qualification-agent-general-settings.md#configure-product-information), `companyName` with the company name where leads come from, and the `accountDomain` as company’s website.  
+
+1. Microsoft Copilot Studio takes a few seconds to generate a response in JSON code.  
+    
+    :::image type="content" source="media/sales-qualification-agent-knowledge-source-test.png" alt-text="Screenshot showing the test pane in Copilot Studio for Sales Qualification Agent":::
+
+1. Review the JSON response for the following keys&mdash;`accountFinances`, `accountOverview`.  
+    The output maps the way the seller sees in the research insights once the agent is running.  
+
+1. When you are satisfied with the output, save and activate the the knowledge source.
+    Now, sellers can see the research insights in the Sales Qualification Agent once it is running.
+
+## Example Scenario: Contoso Investment Bank targets high-net-worth (HNW) leads 
+
+Goal: Contoso’s sales operations team wants the agent to decide if a lead’s personal net worth exceeds US$5 million. If it does, they want to include tailored talking points in the outreach email.
+
+| Insight area         | Contoso data source| How to add|
+|----------------------|------------------|--------------------|
+| Financials           | SharePoint list “Client financial profiles” (NetWorth, AUM, RiskTolerance)<br> | Add as a knowledge source, describe columns, tag with financials                                 |
+| Company background   | Public site hoovers.com profile pages<br>Dunn & Bradstreet (D&B) number from Account.DUNSNumber | Add https://www.hoovers.com/ as a public website<br>D&B’s D-U-N-S number is synced to Dataverse Account table and added to Copilot Studio. |
+| Recent news          | Bloomberg RSS feed for the prospect’s company                                     | Upload the RSS XML file or connect via a news API                                            |
+| Strategic priorities | Contoso analyst reports stored in a SharePoint library                            | Add SharePoint URL                                                                           |
+
+After publishing, the agent: 
+
+- Pulls NetWorth from the SharePoint list to decide if the lead meets the High Net Worth threshold.
+
+- Uses Dunn & Bradstreet’s high-quality data to augment public sources. 
+- Surfaces company priorities from the analyst reports to suggest relevant investment products.
+- Quotes the latest Bloomberg headline in the Recent news card. 
+- Generates an email that references the lead’s net-worth range and a recent strategic move.
 
 ## Best practices
 

@@ -1,7 +1,7 @@
 ---
 title: Add the Knowledge Base Search control to Dynamics 365 Customer Service forms
 description: Know how to add the Knowledge Base Search control to Dynamics 365 Customer Service forms.
-ms.date: 07/30/2025
+ms.date: 08/04/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -69,9 +69,7 @@ Make sure that you have the System Administrator or System Customizer security r
 2. Ensure you have the Customer Service App installed, and then in the upper-right corner of the window, change **Default** to **All**.
 
 3. Select the entity for which Knowledge is enabled. To search for the entity, in the **Search** field, enter the entity name.
-   
-    ![Search for entity.](../media/knowledge-entity.png "Search for entity")
-    
+     
 4.	Select the entity name, select the **Forms** tab, and then open the form where you want to add the knowledge control. To add the control, create a section and then add a knowledge search control within it. Select **+Component** to add a new component, select **Related Data**, and then **Knowledge Search**. 
 
    > [!Note]
