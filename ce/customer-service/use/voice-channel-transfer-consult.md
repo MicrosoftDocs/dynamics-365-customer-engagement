@@ -68,7 +68,7 @@ When you receive an incoming call, you can transfer the call to a service repres
        - If the external user doesn't accept the call, customers hear a system message before the call ends.
        - Post call survey is sent to the customer if the external user or Teams user ends the call.
        - The external user receives the call from the caller ID of the contact center phone number the customer originally called.
-       - DTMF tones are not sent from the customer to the external phone number.
+       - DTMF tones aren't sent from the customer to the external phone number.
     - **Disabled**
        - Customer hears ringing.
        - The original call ends and a new call begins.
