@@ -1,5 +1,5 @@
 ---
-title: Responsible AI FAQ about the Opportunity Research Agent
+title: Responsible AI FAQ about the Opportunity Research Agent (preview)
 description: Learn about the responsible AI practices and limitations of the Opportunity Research Agent in Dynamics 365 Sales.
 ms.date: 07/09/2025
 ms.topic: overview

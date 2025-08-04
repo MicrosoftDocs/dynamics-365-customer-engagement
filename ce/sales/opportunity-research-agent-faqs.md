@@ -1,5 +1,5 @@
 ---
-title: FAQs about Opportunity Research Agent
+title: FAQs about Opportunity Research Agent (preview)
 description: Get to know answers to frequently asked questions about the Opportunity Research Agent in Dynamics 365 Sales.
 ms.date: 08/04/2025
 ms.topic: overview
@@ -19,7 +19,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# FAQs about Opportunity Research Agent 
+# FAQs about Opportunity Research Agent (preview)
 
 This article provides answers to frequently asked questions about the Opportunity Research Agent in Dynamics 365 Sales. 
 

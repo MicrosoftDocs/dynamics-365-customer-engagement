@@ -1,5 +1,5 @@
 ---
-title: Configure the Opportunity Research Agent
+title: Configure the Opportunity Research Agent (preview)
 description: Learn how to set up and configure the Opportunity Research Agent in Dynamics 365 Sales.
 ms.date: 08/04/2025
 ms.topic: overview
@@ -15,7 +15,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure the Opportunity Research Agent
+# Configure the Opportunity Research Agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -31,8 +31,11 @@ As the agent consumes capacity, it's important to plan and configure it to handl
 - Determine the products that you want the Opportunity Research Agent to handle. The products should be handled by a single sales team. If your company sells multiple products through different sales teams, pick one product line.
 
 - Determine the segment of opportunities that you want the Opportunity Research Agent to handle. For example, you might want it to handle only the opportunities that are **Hot** and with an estimated revenue of $100,000 or more. 
-- Identify the sellers who will work on the segment of opportunities that the agent will research on and [configure server-side synchronization for their mailboxes](#configure-server-side-synchronization).
+- Identify the sellers who will work on the opportunities segment that the agent will research on. You need to [configure server-side synchronization](#configure-server-side-synchronization) for the mailboxes of these sellers to allow the agent to access their emails and meetings related to the opportunities. 
 - The agent uses the machine learning model in predictive opportunity scoring for risk assessment. If you didn't configure scoring in your environment, it's configured automatically when you start the agent.
+
+## Step 2: Configure prerequisites
+
 - Modify Data Loss Prevention (DLP) policies and allow the following connectors:
   
     | Connector                                 | Why is it required?                                                                                   |
@@ -49,7 +52,7 @@ As the agent consumes capacity, it's important to plan and configure it to handl
   - Opportunity Research Indicator (msdyn_OpportunityResearchIndicator)
   - Opportunity Research Agent Trigger (OpportunityResearchAgentTrigger)
   - Opportunity Research User Interactions (OpportunityResearchUserInteractions)
-- You turned on AI prompts feature in Power Platform and Copilot Studio. Learn more in [Enable AI prompts in Power Platform and Copilot Studio](/ai-builder/administer#enable-or-disable-ai-prompts-in-power-platform-and-copilot-studio).
+- Turn on AI prompts feature in Power Platform and Copilot Studio. Learn more in [Enable AI prompts in Power Platform and Copilot Studio](/ai-builder/administer#enable-or-disable-ai-prompts-in-power-platform-and-copilot-studio).
 
 ### Configure server-side synchronization
 
@@ -70,7 +73,7 @@ After you identify the sellers who work on the segment of opportunities that the
     - Use the **User Settings Utility** in [XRMToolBox](/power-apps/developer/data-platform/community-tools) to select multiple sellers and set the `Track email messages` setting to **All email messages**.
       :::image type="content" source="media/xrmtoolbox-email-tracking.png" alt-text="Screenshot of the User Settings Utility in XRMToolBox with the Track email messages option set to All email messages.":::
 
-## Step 2: Verify prerequisites
+## Step 3: Verify prerequisites
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
 
@@ -89,7 +92,7 @@ After you identify the sellers who work on the segment of opportunities that the
 
 1. Scroll down to the **Prerequisites** section and confirm that server-side synchronization is configured for the mailboxes of sellers who will use the agent. The agent can't verify this configuration automatically. So, select **Mark as done** only if it's configured as described in the [Configure server-side synchronization](#configure-server-side-synchronization) section.
 
-## Step 3: Configure the agent
+## Step 4: Configure the agent
 
 After verifying the prerequisites, define the agent and company profile, selection criteria for opportunities, refresh frequency, fields for importance and risk assessment, and knowledge sources for generating research insights.
 
@@ -118,8 +121,6 @@ After verifying the prerequisites, define the agent and company profile, selecti
 1. By default, the agent only considers new opportunities created after the agent is turned on. If you want the agent to also research on opportunities created before it was enabled, select the **Consider opportunities created in the last** checkbox and specify the number of days for the look back period.
 2. Select **Simulate** to view a set of opportunities that match the filter conditions. This isn't the full list, but it helps you verify that the agent is picking the right opportunities.
   :::image type="content" source="media/opportunity-research-agent-selection-criteria.png" alt-text="Screenshot of the Selection criteria tab for Opportunity Research Agent.":::
-
-
 
 ### Configure refresh frequency
 
@@ -191,7 +192,7 @@ Consider the following best practices while configuring knowledge sources for th
 - Monitor capacity. Large files and frequent refreshes consume AI credits; track usage in Power Platform admin center.
 - With curated knowledge sources, the agent becomes a best researcher that understands your organization and surfaces the insights your sellers value most.
 
-## Step 4: Start or stop the agent
+## Step 5: Start or stop the agent
 
 Start the agent only after you have configured all the settings and verified that they're correct. The agent will begin processing the opportunities that match the selection criteria right after you start it.
 
