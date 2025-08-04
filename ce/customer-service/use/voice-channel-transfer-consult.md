@@ -72,7 +72,7 @@ When you receive an incoming call, you can transfer the call to a service repres
     - **Disabled**
        - Customer hears ringing.
        - The original call ends and a new call begins.
-       - The new call is not recorded and transcribed.
+       - The new call isn't recorded and transcribed.
        - Customers don't hear a message before the call ends if the external user doesn't accept the call.
        - The external user receives the call from the caller ID of the customer.
        - DTMF tones are sent from the customer to the external phone number.
