@@ -49,6 +49,7 @@ Indicates that the AI agent automatically sends the follow-up emails to customer
     - If the customer responds to the email at any point in the follow-up process, with a favorable response, the AI agent stops sending follow-up emails and the **Suggested actions** card is no longer displayed on the case form.
     - **Reply to customer**: The customer responds to the email within the follow-up duration with a response that the agent can't process or contains a negative response. Select **Draft reply** to view the email drafted by the agent in a new tab. You can edit the email and then send it to the customer.
     - **Resolve case**: The customer didn't respond to any follow-up emails you sent. Select **Resolve case** to view the **Case Resolution** dialog. You can then close any open activities and resolve the case.
+
 ---
 
 An AI generated summary of when the customer last responded to your email and the next steps you can take. You can provide feedback by selecting the Thumbs up or Thumbs down option. You can also hide or expand this summary.
