@@ -33,7 +33,7 @@ The agent uses fields like monetary value (for example, Est. revenue) and estima
 
 By default, the research data is refreshed once in three days. Your admin can change the frequency to High (daily) or Low (every seven days), depending on your business needs and Copilot Studio capacity. Learn more in [Configure the Opportunity Research Agent](configure-opportunity-research-agent.md).
 
-<a name="shared-knowledge-sources">
+<a name="shared-knowledge-sources"></a>
 ## Why do knowledge sources from Sales Qualification Agent appear in Opportunity Research Agent?
 
 The Sales Qualification Agent and Opportunity Research Agent share the same Copilot Studio agent for research. Hence, the knowledge sources are shared among both the sales agents for research insights. Any additions or deletions to the knowledge sources in one agent are reflected in the other.
@@ -46,14 +46,14 @@ The agent pauses when the admin turns it off. You see the following message in t
 <a name="unexpected-error"></a>
 ## I see "An unexpected error occurred" message. What should I do?
 
-This error message indicates that the agent is unable to fetch the research data. This could be due to a temporary issue with the agent or the underlying services. You can try the following:
+This error message indicates that the agent is unable to fetch the research data. This could be due to a temporary issue with the agent or the underlying services. You can try the following actions:
 
 - Wait for a few minutes and refresh the page.
 - If the issue persists, contact your admin to check the status of the Opportunity Research Agent and the corresponding micro agents in Copilot Studio. 
 
 
 <a name="no-insights-available"></a>
-## I see "No insights available" message. What should I do?
+## I see a "No insights available" message. What should I do?
 
 This message indicates that the agent doesn't have enough data to provide insights for the specific aspect of the opportunity. For example, if there are no competitors associated with the opportunity or no competitors were added by your admin, the agent won't be able to provide competitive insights. Similarly, if there are no connected accounts or stakeholders, the agent won't be able to provide insights on them. 
 
