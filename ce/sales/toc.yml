@@ -297,14 +297,53 @@ items:
           items:
             - name: Overview
               href: sales-qualification-agent.md
-            - name: Set up the Sales Qualification Agent
+            - name: Set up and configure the agent
               href: configure-sales-qualification-agent.md
+              items:
+                - name: Open the settings page
+                  href: open-sales-qualification-agent-settings.md
+                - name: Configure general settings
+                  href: sales-qualification-agent-general-settings.md
+                - name: Configure selection criteria
+                  href: sales-qualification-agent-selection-criteria.md
+                - name: Configure email instructions and address validation
+                  href: sales-qualification-agent-email-instruction-validation.md
+                - name: Configure handoff criteria
+                  href: configure-sales-qualification-agent-handoff-criteria.md
+                - name: Configure assignment rules
+                  href: configure-sqa-assignment-rules.md  
+                - name: Configure knowledge source
+                  href: configure-sqa-knowledge-source.md
+                - name: Run simulation to review outreach email content
+                  href: run-simulation-sqa-outreach-email.md
+            - name: Start the agent
+              href: start-sales-qualification-agent.md
+            - name: Upgrade the agent
+              href: upgrade-sales-qualification-agent.md
+            - name: Manage the agent
+              href: manage-sales-qualification-agent.md
+            - name: Configure requirements for Sales Qualification Agent
+              href: configure-requirements-for-sqa-agent.md    
+            - name: Understand Sales Qualification Agent concepts
+              href: sales-qualification-agent-concepts.md  
             - name: Manage consumption-based billing
               href: copilot-consumption-based-billing.md
             - name: Sales Qualification Agent FAQ
               href: sales-qualification-agent-faq.md
             - name: Test the Sales Qualification Agent
               href: test-sales-qualification-agent.md
+        - name: Sales Qualification Agent (pre-7.3 version)
+          items:
+            - name: Overview (pre-7.3 version)
+              href: sales-qualification-agent-43.md
+            - name: Set up and configure the agent (pre-7.3 version)
+              href: configure-sales-qualification-agent-43.md
+            - name: Work on leads researched by the agent (pre-7.3 version)
+              href: use-sales-qualification-agent-43.md
+            - name: Sales Qualification Agent FAQ (pre-7.3 version)
+              href: sales-qualification-agent-faq-43.md
+            - name: Responsible AI FAQs about the agent (pre-7.3 version)
+              href: faqs-sales-qualification-agent-43.md
         - name: Customize lead qualification experience
           href: define-lead-qualification-experience.md
         - name: Enable duplicate lead detection
@@ -928,8 +967,10 @@ items:
           items:
             - name: Overview
               href: sales-qualification-agent.md
-            - name: Qualify leads with Sales Qualification Agent
+            - name: Work on leads handed over by the Sales Qualification Agent
               href: use-sales-qualification-agent.md
+            - name: Monitor leads handled by the Sales Qualification Agent
+              href: monitor-leads-by-sales-qualification-agent.md
             - name: FAQ about Sales Qualification Agent
               href: sales-qualification-agent-faq.md
         - name: Populate scores using your own model
@@ -1373,7 +1414,12 @@ items:
       href: faqs-sales-copilot-natural-language.md
     - name: Responsible AI FAQs for email in Copilot
       href: faqs-sales-copilot-for-email.md
-    - name: Responsible AI FAQs for Sales Qualification Agent
+    - name: Responsible AI FAQs about Sales Qualification Agent
+      items:
+        - name: Responsible AI FAQs about Research-only mode
+          href: faqs-sales-qualification-agent.md
+        - name: Responsible AI FAQs about Engage mode
+          href: faqs-sales-qualification-agent-engage.md
       href: faqs-sales-qualification-agent.md
     - name: Responsible AI FAQs for Opportunity Research Agent
       href: faqs-about-opportunity-research.md

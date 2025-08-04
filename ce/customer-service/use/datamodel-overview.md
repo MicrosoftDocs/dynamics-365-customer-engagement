@@ -1,12 +1,12 @@
 ---
 title: Overview of data model customization
-description: Learn about data model customization and how it can help you with your organization's metrics.
+description: Discover how data model customization in Dynamics 365 Customer Service helps you create custom KPIs, modify metrics, and build tailored analytics reports for your organization.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: overview
 ms.collection:
-ms.date: 02/03/2025
+ms.date: 07/30/2025
 ms.custom: bap-template
 ---
 
@@ -36,11 +36,11 @@ At times, you might have scenarios where you want to modify the data that's avai
 
 - **Scenario 1**: You need to create variants of the default metrics provided in the dataset that are similar but use a different logic. For example, while service-level metrics for 10, 20, 30, 40, 60, and 120 seconds are provided in the Omnichannel real-time reports, you have a team that works on service levels of 150 seconds and wants to see that metric on the reports.  
 
-- **Scenario 2**: Your organization calculates a metric provided differently by default, but would like to compute it based on your organization's logic. For example, only the time spent by the primary customer service representatives (service representatives or representatives).  Only active service representative who owns and is assigned to the conversation is considered when calculating average handle time. Learn more in [Use report metrics](oc-metrics-dimensions.md). The time SMEs spend consulting is offered as a separate metric. Your organization wants to include this time in the handle time.
+- **Scenario 2**: Your organization calculates a metric provided differently by default, but wants to compute it based on your organization's logic. For example, only the time spent by the primary customer service representatives (service representatives or representatives). Only the active service representative who owns and is assigned to the conversation is considered when calculating average handle time. Learn more in [Use report metrics](oc-metrics-dimensions.md). The time SMEs spend consulting is offered as a separate metric. Your organization wants to include this time in the handle time.
 
-- **Scenario 3**: Your organization has customized attributes on the out-of-the-box Dynamics 365 entities, or has custom entities to support your workflows and process and would like to include those attributes, or has metrics built on those attributes in the reports. In addition, your organization wants to report on out-of-the-box attributes that aren't included by default in the reports or the dataset. For example, your organization has a customized user entity to include a region attribute and would like to get a drill-down of the resolution time by region.  
+- **Scenario 3**: Your organization has customized attributes on the out-of-the-box Dynamics 365 entities, or has custom entities to support your workflows and process and wants to include those attributes, or has metrics that are built on those attributes in the reports. In addition, your organization wants to report on out-of-the-box attributes that aren't included by default in the reports or the dataset. For example, your organization has a customized user entity to include a region attribute and wants to get a drill-down of the resolution time by region.  
 
-- **Scenario 4**: Your organization wants to build a custom dashboard that brings data from multiple applications that your organization uses. For example, you might have an existing Power BI dashboard that brings operational data from your workforce management systems, and you'd like to show Dynamics 365 data, like service representative presence, on this dashboard.
+- **Scenario 4**: Your organization wants to build a custom dashboard that brings data from multiple applications that your organization uses. For example, you might have an existing Power BI dashboard that brings operational data from your workforce management systems, and you want to show Dynamics 365 data, like service representative presence, on this dashboard.
 
 ## How data model customization helps you
 
@@ -67,16 +67,16 @@ Dynamics 365 Customer Service provisions and maintains this workspace. The Dynam
 > [!NOTE]
 > This single data model supports both case and conversation analytics. Knowledge analytics and unified routing analytics aren't available for customization.  
 
-Each time the out-of-the-box data model is updated because of newer release versions, the data model that's deployed to the managed workspace is also updated to ensure that your organization gets the latest updates, which include newer metrics, updates to logic of existing metrics, and bug fixes.  
+Each time the out-of-the-box data model updates because of newer release versions, the data model that the system deploys to the managed workspace also updates to ensure that your organization gets the latest updates, which include newer metrics, updates to logic of existing metrics, and bug fixes.  
  
 > [!NOTE]
-> We recommend treating the dataset in the managed workspace as read-only. We recommend that you don't make changes to this dataset, as it might lead to report malfunction. Any changes made to the data model in the managed workspace will be overwritten whenever a newer version is released. 
+> We recommend treating the dataset in the managed workspace as read-only. We recommend that you don't make changes to this dataset, as it might lead to report malfunction. Any changes made to the data model in the managed workspace are overwritten whenever a newer version is released. 
 
 ### Customer workspace
 
 A copy of the out-of-the-box reports is created in this workspace. During the configuration, you can either create a new workspace or specify an existing workspace.
 
-Depending on the features you enabled, you may see up to three different reports created in the workspace you selected for historical data model customization and one report in the real-time data model customization.
+Depending on the features you enabled, you might see up to three different reports created in the workspace you selected for historical data model customization and one report in the real-time data model customization.
 
 ### [Historical data model customization](#tab/historicaldatamodelcustomization)
 
