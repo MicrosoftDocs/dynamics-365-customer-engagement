@@ -194,6 +194,8 @@ items:
           href: sales-copilot-faq.md
         - name: Connect to Dynamics 365 Sales with Model Context Protocol (preview)
           href: connect-to-model-context-protocol-sales.md
+        - name: Copilot Studio agents and Entra app registrations
+          href: ai-agents-apps.md
     - name: Overview of focused view
       href: configure-focused-view.md
       items:
@@ -384,6 +386,12 @@ items:
           href: enable-opportunity-close-customization.md
         - name: Customize the Opportunity Close form
           href: customize-opportunity-close-experience.md
+        - name: Opportunity Research Agent (preview)
+          items:
+            - name: Overview 
+              href: opportunity-research-agent.md
+            - name: Configure Opportunity Research Agent
+              href: configure-opportunity-research-agent.md
         - name: Predictive opportunity scoring
           items:
             - name: Configure predictive opportunity scoring
@@ -992,6 +1000,14 @@ items:
               href: add-stakeholder.md
             - name: Move the opportunity through different stages
               href: move-opportunity-stages.md
+        - name: Opportunity Research Agent (preview)
+          items:
+          - name: Overview
+            href: opportunity-research-agent.md
+          - name: Work on opportunities researched by Opportunity Research Agent
+            href: use-opportunity-research-agent.md
+          - name: FAQs about Opportunity Research Agent
+            href: opportunity-research-agent-faqs.md
         - name: Prioritize opportunities using predictive scores
           href: work-predictive-opportunity-scoring.md
         - name: Opportunity pipeline view
@@ -1002,6 +1018,8 @@ items:
               href: personalize-pipeline-view.md
         - name: Work with opportunities in the Kanban view
           href: opportunity-kanban-view.md
+        - name: Work on opportunities handed over by the Sales Qualification Agent
+          href: use-sales-qualification-agent.md
         - name: Price calculation for opportunity, quote, order, and invoice records
           href: price-calculation-opportunity-quote-order-invoice-records.md
         - name: How are stakeholders and sales team members tracked for opportunities?
@@ -1398,13 +1416,15 @@ items:
       href: faqs-sales-copilot-natural-language.md
     - name: Responsible AI FAQs for email in Copilot
       href: faqs-sales-copilot-for-email.md
-    - name: Responsible AI FAQs about Sales Qualification Agent
+    - name: Responsible AI FAQs about Sales Qualification Agent (preview)
       items:
         - name: Responsible AI FAQs about Research-only mode
           href: faqs-sales-qualification-agent.md
         - name: Responsible AI FAQs about Engage mode
           href: faqs-sales-qualification-agent-engage.md
       href: faqs-sales-qualification-agent.md
+    - name: Responsible AI FAQs for Opportunity Research Agent (preview)
+      href: faqs-about-opportunity-research.md
     - name: Responsible AI FAQs for chat with Sales data in Microsoft 365 Copilot (preview)
       href: Microsoft-365-Copilot-for-Sales.md
 - name: Resources for other Sales apps
