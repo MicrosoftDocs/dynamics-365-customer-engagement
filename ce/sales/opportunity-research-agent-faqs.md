@@ -1,6 +1,6 @@
 ---
 title: FAQs about Opportunity Research Agent
-description: Learn how the Opportunity Research Agent in Dynamics 365 Sales helps sales professionals by providing insights and recommendations for the deals they are working on.
+description: Learn how the Opportunity Research Agent in Dynamics 365 Sales helps sales professionals by providing insights and recommendations for the deals they're working on.
 ms.date: 07/09/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -23,7 +23,7 @@ This article provides answers to frequently asked questions about the Opportunit
 
 ## How does that agent assess opportunity importance and risk?
 
-The agent uses fields like monetary value (e.g., Est. revenue) and estimated close date to assess the importance and risk of opportunities. Your admin defines these fields in the Opportunity Research Agent settings page.
+The agent uses fields like monetary value (for example, Est. revenue) and estimated close date to assess the importance and risk of opportunities. Your admin defines these fields in the Opportunity Research Agent settings page.
 
 ## How often does the Opportunity Research Agent refresh research data?
 
@@ -35,4 +35,4 @@ The Sales Qualification Agent and Opportunity Research Agent share the same Copi
 
 ## Why did the Opportunity Research Agent pause?
 
-The agent pauses when the admin turns it off. You'll see the following message in the banner: "Opportunity Research Agent paused, data may be outdated and actions may be disabled." Contact your admin to turn on the agent. 
+The agent pauses when the admin turns it off. You see the following message in the banner: "Opportunity Research Agent paused, data may be outdated and actions might be disabled." Contact your admin to turn on the agent. 

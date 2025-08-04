@@ -1,6 +1,6 @@
 ---
 title: Opportunity Research Agent overview
-description: Learn how the Opportunity Research Agent in Dynamics 365 Sales helps sales professionals by providing insights and recommendations for the deals they are working on.
+description: Learn how the Opportunity Research Agent in Dynamics 365 Sales helps sales professionals by providing insights and recommendations for the deals they're working on.
 ms.date: 08/04/2025
 ms.topic: overview
 ms.service: dynamics-365-sales

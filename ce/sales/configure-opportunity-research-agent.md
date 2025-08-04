@@ -1,5 +1,5 @@
 ---
-title: Configure  the Opportunity Research Agent
+title: Configure the Opportunity Research Agent
 description: Learn how to set up and configure the Opportunity Research Agent in Dynamics 365 Sales.
 ms.date: 08/04/2025
 ms.topic: overview
@@ -19,21 +19,21 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-As an administrator, you can configure the Opportunity Research Agent in Dynamics 365 Sales to help sales professionals gain insights and recommendations for the opportunities they are working on. The agent automatically gathers information from various sources, providing a streamlined research experience, stakeholder and competitor intelligence, and actionable risk mitigation strategies. Learn more in [Opportunity Research Agent overview](opportunity-research-agent.md).
+As an administrator, you can configure the Opportunity Research Agent in Dynamics 365 Sales to help sales professionals gain insights and recommendations for the opportunities they're working on. The agent automatically gathers information from various sources, providing a streamlined research experience, stakeholder and competitor intelligence, and actionable risk mitigation strategies. Learn more in [Opportunity Research Agent overview](opportunity-research-agent.md).
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 
 ## Step 1: Plan your implementation
 
-As the agent consumes capacity, it is important to plan and configure it to handle the right opportunities. Here are some considerations to keep in mind before you set up the Opportunity Research Agent: 
+As the agent consumes capacity, it's important to plan and configure it to handle the right opportunities. Here are some considerations to keep in mind before you set up the Opportunity Research Agent: 
 
 - Determine the products that you want the Opportunity Research Agent to handle. The products should be handled by a single sales team. If your company sells multiple products through different sales teams, pick one product line.
 
 - Determine the segment of opportunities that you want the Opportunity Research Agent to handle. For example, you might want it to handle only the opportunities that are **Hot** and with an estimated revenue of $100,000 or more. 
 - Identify the sellers who will work on the segment of opportunities that the agent will research on and [configure server-side synchronization for their mailboxes](#configure-server-side-synchronization).
-- The agent uses the machine learning model in predictive opportunity scoring for risk assessment. If you haven't configured scoring in your environment, it's configured automatically when you start the agent.
-- Modify Data Loss Prevention (DLP) policies to allow the following connectors:
+- The agent uses the machine learning model in predictive opportunity scoring for risk assessment. If you didn't configure scoring in your environment, it's configured automatically when you start the agent.
+- Modify Data Loss Prevention (DLP) policies and allow the following connectors:
   
     | Connector                                 | Why is it required?                                                                                   |
     |--------------------------------------------|-------------------------------------------------------------------------------------------------------|
@@ -52,16 +52,16 @@ As the agent consumes capacity, it is important to plan and configure it to hand
 
 ### Configure server-side synchronization
 
-After you identify the sellers who work on the segment of opportunities that the agent will research on, you must configure server-side synchronization for their mailboxes. This step is required to allow the agent to access emails and meetings related to the opportunities from the sellers' mailboxes.  
+After you identify the sellers who work on the segment of opportunities that the agent will research on, you must configure server-side synchronization for their mailboxes. This step is required to allow the agent to access emails and meetings related to the opportunities from the sellers' mailboxes.
 
-Follow these steps to configure server-side synchronization:
+**To configure server-side synchronization:**
 
 1. [Create an email server profile for Exchange Online](/power-platform/admin/connect-exchange-online?tabs=new#create-an-email-server-profile-for-exchange-online).
 
 1. [Configure default email processing and synchronization](/power-platform/admin/connect-exchange-online?tabs=new#configure-default-email-processing-and-synchronization).
 1. [Configure mailboxes](/power-platform/admin/connect-exchange-online?tabs=new#configure-mailboxes) of sellers who own the opportunities and [approve their mailboxes](/power-platform/admin/connect-exchange-online?tabs=new#approve-mailboxes). When the configuration is successful, the **Incoming Email Status** and **Outgoing Email Status** for the mailbox are set to **Success**.
     :::image type="content" source="mailbox-status.png" alt-text="Screenshot of a user mailbox in Dynamics 365 Sales with status indicators.":::
-1. Make sure that the personalization option for emails is set to **All email messages** in the sellers' personalization settings. By default, this option is set to **Email messages in response to Dynamics 365 email**. Do *ONE* of the following:
+1. Make sure that the personalization option for emails is set to **All email messages** in the sellers personalization settings. By default, this option is set to **Email messages in response to Dynamics 365 email**. Perform *ONE* of the following actions:
 
     - Notify the sellers to set this option from **Settings** > **Personalization settings** > **Emails**  > **Track** > **All email messages** in Dynamics 365 Sales.
       :::image type="content" source="media/email-track-personal-options.png" alt-text="Screenshot of the Personalization settings page in Dynamics 365 Sales with the All email messages option selected.":::
@@ -77,7 +77,7 @@ Follow these steps to configure server-side synchronization:
 1. Select **Create and manage agents** under **Agent manager**.
 1. On the **AI agents** page, select **Prerequisites** and ensure that all prerequisites are met. 
    :::image type="content" source="media/opportunity-research-agent-prerequisites.png" alt-text="Screenshot of the Prerequisites page for Opportunity Research Agent."::: 
-1. If any of them is not marked as **Done**, select the appropriate call-to-action to complete the prerequisite:
+1. If any of them isn't marked as **Done**, select the appropriate call-to-action to complete the prerequisite:
    - **Microsoft Copilot Studio capacity**: Select **Set up** to open the Power Platform admin center and set up capacity. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
    - **Bing search**: Select **Accept terms** to open the Power Platform admin center and allow Bing search under **Generative AI features** > **Bing search**.
    - **Move data across regions**: Select **Accept terms** to open the Power Platform admin center and allow data movement under **Generative AI features** > **Move data across regions**.
@@ -86,7 +86,7 @@ Follow these steps to configure server-side synchronization:
   The Opportunity Research Agent settings page opens.
   :::image type="content" source="media/opportunity-research-agent-settings.png" alt-text="Screenshot of the Opportunity Research Agent settings page.":::
 
-1. Scroll down to the **Prerequisites** section and confirm that server-side synchronization is configured for the mailboxes of sellers who will use the agent. The agent can't verify this automatically. So, select **Mark as done** only if it is configured as described in the [Configure server-side synchronization](#configure-server-side-synchronization) section.
+1. Scroll down to the **Prerequisites** section and confirm that server-side synchronization is configured for the mailboxes of sellers who will use the agent. The agent can't verify this configuration automatically. So, select **Mark as done** only if it's configured as described in the [Configure server-side synchronization](#configure-server-side-synchronization) section.
 
 ## Step 3: Configure the agent
 
@@ -99,15 +99,15 @@ After verifying the prerequisites, define the agent and company profile, selecti
 1. In the **Company info** tab, enter the following information:
     1. Enter your company name and website URL. 
     1. Enter the value proposition of the products associated with the opportunities that the agent will handle. 
-       Providing a clear value proposition helps the agent focus its account research on the most relevant information. Instead of returning broad or generic insights about a company, the agent uses the value proposition to tailor its research and deliver insights that are specific to your product and its impact for the customer.
+       Providing a clear value proposition helps the agent focus its account research on the most relevant information. Instead of returning broad or generic insights about a company, the agent uses the value proposition to tailor its research and deliver insights that are specific to your product and its effect for the customer.
        For example, if the agent is handling opportunities related to a coffee machine, you can specify "Our smart vending machine offers a variety of premium blends, customizable to your taste, with zero wait time, and minimal maintenance." instead of "We sell coffee machines to businesses."
 
 ### Configure selection criteria for opportunities
 
 1. In the **Selection criteria** tab, specify the following information:
-   - **Segment name:** Enter a name for the segment that the agent will handle, such as "Microsoft 365 Opportunities". The agent doesn't use the segmentation feature in Dynamics 365 Sales. The segment name is only used to identify the opportunities that the agent will handle.
+   - **Segment name:** Enter a name for the segment that the agent will handle, such as Microsoft 365 Opportunities. The agent doesn't use the segmentation feature in Dynamics 365 Sales. The segment name is only used to identify the opportunities that the agent will handle.
 
-   - **Description:** Enter a description for the segment, such as "Opportunities related to Microsoft 365 products".
+   - **Description:** Enter a description for the segment, such as Opportunities related to Microsoft 365 products.
    - **Filter conditions:** Define the filter conditions for the segment. Opportunities that are **open** and match these conditions will be handled by the agent. 
      For example, to handle only the opportunities that are **Hot** and of high value, you can specify the following conditions:
      - Rating equals **Hot**.
@@ -115,14 +115,14 @@ After verifying the prerequisites, define the agent and company profile, selecti
      - Status equals **Open**.
 
 1. By default, the agent only considers new opportunities created after the agent is turned on. If you want the agent to also research on opportunities created before it was enabled, select the **Consider opportunities created in the last** checkbox and specify the number of days for the look back period.
-2. Select **Simulate** to view a set of opportunities that match the filter conditions. This is not the full list, but it helps you verify that the agent is picking the right opportunities.
+2. Select **Simulate** to view a set of opportunities that match the filter conditions. This isn't the full list, but it helps you verify that the agent is picking the right opportunities.
   :::image type="content" source="media/opportunity-research-agent-selection-criteria.png" alt-text="Screenshot of the Selection criteria tab for Opportunity Research Agent.":::
 
 
 
 ### Configure refresh frequency
 
- the **Refresh frequency** tab, specify how frequently you want the agent to refresh the research data for the opportunities. The frequency is set to **Medium** by default, which is ideal for most businesses. You can refresh the research data more or less often based on how quickly your market and competitive landscape change and the available Copilot Studio capacity.
+In the **Refresh frequency** tab, specify how frequently you want the agent to refresh the research data for the opportunities. The frequency is set to **Medium** by default, which is ideal for most businesses. You can refresh the research data more or less often based on how quickly your market and competitive landscape change and the available Copilot Studio capacity.
 
 - **High:** Data is refreshed every day. This option is ideal for businesses that always need the latest information, but it consumes more capacity.
 - **Medium:** Data is refreshed every three days. This option is suitable for businesses that need regular updates but don't require daily insights. It balances performance and data accuracy.
@@ -138,11 +138,11 @@ In the **Opportunity assessment** tab, specify the fields that the agent should 
 
 ### Configure knowledge for generating account insights
 
-By default, the agent generates research insights for your accounts from public web sources. However, you can configure additional knowledge sources, both from your internal knowledge base and external websites, to help the agent generate more relevant and reliable insights. Learn about the best practices for configuring knowledge sources.
+By default, the agent generates research insights for your accounts from public web sources. However, you can configure more knowledge sources, both from your internal knowledge base and external websites, to help the agent generate more relevant and reliable insights. Learn about the best practices for configuring knowledge sources.
 
 1. In the **Research insights** section, go to **Company insights** > **Knowledge sources for insight**.
    > [!NOTE]
-   > If the Sales Qualification Agent and Opportunity Research Agent are in the same environment, they share the same knowledge sources for account insights. The knowledge sources that you add to or remove from one of the agents will be reflected in the other agent as well. If you see knowledge sources already, it's possible that those are configured for the Sales Qualification Agent. Do not remove them unless you want to remove them from both the agents.
+   > If the Sales Qualification Agent and Opportunity Research Agent are in the same environment, they share the same knowledge sources for account insights. The knowledge sources that you add to or remove from one of the agents is reflected in the other agent as well. If you see knowledge sources already, it's possible that those are configured for the Sales Qualification Agent. Don't remove them unless you want to remove them from both the agents.
 
 1. Select **Add** or **Manage** to add or manage knowledge sources for account insights. 
    The **D365 Sales Agent - Research agent**'s **Knowledge** page opens in Copilot Studio.
@@ -153,7 +153,7 @@ By default, the agent generates research insights for your accounts from public 
     1. Scroll up to the **How this works** section and copy the test snippet under Step 2.
     1. Open Copilot Studio and paste the json snippet in the **Test your agent** chat window of the **D365 Sales Agent - Research agent**.
     1. Modify the companyName and accountDomain values in the snippet to one of your accounts and select **Send**.
-    1. Review the agent's response to ensure it is using the knowledge sources you added.
+    1. Review the agent's response to ensure it's using the knowledge sources you added.
 1. In Copilot Studio, select **Publish** to publish the changes to the Research agent.
 
 ### Configure knowledge for generating competitor insights
@@ -187,7 +187,7 @@ Consider the following best practices while configuring knowledge sources for th
 
 ## Step 4: Start or stop the agent
 
-Start the agent only after you have configured all the settings and verified that they are correct. The agent will begin processing the opportunities that match the selection criteria right after you start it.
+Start the agent only after you have configured all the settings and verified that they're correct. The agent will begin processing the opportunities that match the selection criteria right after you start it.
 
 Select **Start agent** on the **Opportunity Research Agent** settings page.
 The agent is started and its status is set to **On** on the **AI agents** page. The agent starts processing the opportunities that match the selection criteria and generates research insights based on the configured knowledge sources. This process might take some time, depending on the number of opportunities and the complexity of the knowledge sources.
