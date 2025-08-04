@@ -64,7 +64,7 @@ When you receive an incoming call, you can transfer the call to a service repres
     - **Enabled**
        - Customer hears hold music.
        - The original call continues.
-       - Recording and transcription continues if not manually paused.
+       - Recording and transcription continue if they aren't manually paused.
        - If the external user doesn't accept the call, customers hear a system message before the call ends.
        - Post call survey is sent to the customer if the external user or Teams user ends the call.
        - The external user receives the call from the caller ID of the contact center phone number the customer originally called.
