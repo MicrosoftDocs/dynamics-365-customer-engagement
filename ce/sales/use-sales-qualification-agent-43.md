@@ -1,6 +1,6 @@
 ---
 title: Work on leads researched by Sales Qualification Agent (pre-7.3 version)
-description: Learn how to use the Sales Qualification Agent in Dynamics 365 Sales to qualify leads more effectively and improve sales outcomes.
+description: Learn how to use the pre-7.3 version of the Sales Qualification Agent in Dynamics 365 Sales to qualify leads more effectively and improve sales outcomes.
 ms.date: 08/01/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
@@ -20,8 +20,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-> [!NOTE]
-> This article is for the version of Sales Qualification Agent that was part of the April 2025 public preview. The latest version of the agent is available in 9.0.25073.10001 (7.3) release. To know the version in your organization, check the **Server version** in **Settings** > **About** in the Sales Hub app. To check your deployment schedule, go to [Latest version availability](/dynamics365/released-versions/dynamics365sales#latest-version-availability) and look for the 9.0.25073.10001 version. If your org has the latest version, your existing  agent will be in the Draft mode and you must [reconfigure it](upgrade-sales-qualification-agent.md) to use the agent. Learn more about the latest version in [Sales Qualification Agent overview](sales-qualification-agent.md).
+[!INCLUDE[sqa-43-note](../includes/sqa-43-note.md)]
 
 The Sales Qualification Agent in Dynamics 365 Sales researches your leads, offers detailed insights about them, and determines if they're a good fit for your business based on your ideal customer profile. It also drafts an initial outreach email based on its research insights, saving you time and effort and improving your sales outcomes. This article describes how to use the Sales Qualification Agent to qualify your leads more effectively.
 

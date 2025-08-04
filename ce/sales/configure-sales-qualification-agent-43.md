@@ -18,8 +18,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-> [!NOTE]
-> This article is for the version of Sales Qualification Agent that was part of the April 2025 public preview. The latest version of the agent is available in 9.0.25073.10001 (7.3) release. To know the version in your organization, check the **Server version** in **Settings** > **About** in the Sales Hub app. To check your deployment schedule, go to [Latest version availability](/dynamics365/released-versions/dynamics365sales#latest-version-availability) and look for the 9.0.25073.10001 version. If your org has the latest version, your existing  agent will be in the Draft mode and you must [reconfigure it](upgrade-sales-qualification-agent.md) to use the agent. Learn more about the latest version in [Sales Qualification Agent overview](sales-qualification-agent.md).
+[!INCLUDE[sqa-43-note](../includes/sqa-43-note.md)]
 
 As an admin, you need to set up the Sales Qualification Agent before your sellers can use it for lead research, ideal customer profile (ICP) fit assessment, and initial email outreach. This article discusses how to configure the details about your company and products you sell, your ideal customer profile, and other settings to help the agent align with your company's sales strategy and goals.
 
@@ -57,7 +56,7 @@ Ensure that the following prerequisites are met:
 
 ## Before you begin
 
-Determine the products that you want the Sales Qualification Agent to help with and the [ideal customer profile (ICP)](sales-qualification-agent-faq.md#icp) for those products. The products should be handled by a single sales team and have a similar ideal customer profile. If your company sells multiple products through different sales teams, pick one product line.
+Determine the products that you want the Sales Qualification Agent to help with and the [ideal customer profile (ICP)](sales-qualification-agent-concepts.md#what-is-the-ideal-customer-profile-and-how-is-the-fit-determined) for those products. The products should be handled by a single sales team and have a similar ideal customer profile. If your company sells multiple products through different sales teams, pick one product line.
 
 <a name="grant-permissions"></a>
 
