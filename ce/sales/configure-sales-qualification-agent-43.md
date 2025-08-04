@@ -56,7 +56,7 @@ Ensure that the following prerequisites are met:
 
 ## Before you begin
 
-Determine the products that you want the Sales Qualification Agent to help with and the [ideal customer profile (ICP)](sales-qualification-agent-faq.md#icp) for those products. The products should be handled by a single sales team and have a similar ideal customer profile. If your company sells multiple products through different sales teams, pick one product line.
+Determine the products that you want the Sales Qualification Agent to help with and the [ideal customer profile (ICP)](sales-qualification-agent-concepts.md#what-is-the-ideal-customer-profile-and-how-is-the-fit-determined) for those products. The products should be handled by a single sales team and have a similar ideal customer profile. If your company sells multiple products through different sales teams, pick one product line.
 
 <a name="grant-permissions"></a>
 

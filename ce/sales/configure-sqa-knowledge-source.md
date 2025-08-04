@@ -86,10 +86,25 @@ After you add knowledge sources, you can test if Sales Qualification Agent is pi
 1. When you are satisfied with the output, save and activate the the knowledge source.
     Now, sellers can see the research insights in the Sales Qualification Agent once it is running.
 
-## Example of knowledge sources
+Example Scenario: Contoso Investment Bank targets high-net-worth (HNW) leads 
 
-Your seller’s company sells GPUs. The administrator has added a recent report covering market share analysis of the prospective companies in the GPU market, so that the agent can use this to research any lead that comes from these companies.
-Later, the administrator adds an internal CSV file capturing tech spending projections of major tech companies. This ensures that the agent gathers financial and strategic priority information from a trusted internal document.
+Goal: Contoso’s sales operations team wants the agent to decide if a lead’s personal net worth exceeds US$5 million. If it does, they want to include tailored talking points in the outreach email.
+
+| Insight area         | Contoso data source| How to add|
+|----------------------|------------------|--------------------|
+| Financials           | SharePoint list “Client financial profiles” (NetWorth, AUM, RiskTolerance)<br> | Add as a knowledge source, describe columns, tag with financials                                 |
+| Company background   | Public site hoovers.com profile pages<br>Dunn & Bradstreet (D&B) number from Account.DUNSNumber | Add https://www.hoovers.com/ as a public website<br>D&B’s D-U-N-S number is synced to Dataverse Account table and added to Copilot Studio. |
+| Recent news          | Bloomberg RSS feed for the prospect’s company                                     | Upload the RSS XML file or connect via a news API                                            |
+| Strategic priorities | Contoso analyst reports stored in a SharePoint library                            | Add SharePoint URL                                                                           |
+
+After publishing, the agent: 
+
+- Pulls NetWorth from the SharePoint list to decide if the lead meets the High Net Worth threshold.
+
+- Uses Dunn & Bradstreet’s high-quality data to augment public sources. 
+- Surfaces company priorities from the analyst reports to suggest relevant investment products.
+- Quotes the latest Bloomberg headline in the Recent news card. 
+- Generates an email that references the lead’s net-worth range and a recent strategic move.
 
 ## Best practices
 
