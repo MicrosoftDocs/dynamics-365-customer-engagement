@@ -86,7 +86,7 @@ After you add knowledge sources, you can test if Sales Qualification Agent is pi
 1. When you are satisfied with the output, save and activate the the knowledge source.
     Now, sellers can see the research insights in the Sales Qualification Agent once it is running.
 
-Example Scenario: Contoso Investment Bank targets high-net-worth (HNW) leads 
+## Example Scenario: Contoso Investment Bank targets high-net-worth (HNW) leads 
 
 Goal: Contoso’s sales operations team wants the agent to decide if a lead’s personal net worth exceeds US$5 million. If it does, they want to include tailored talking points in the outreach email.
 
