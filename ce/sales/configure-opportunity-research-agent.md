@@ -49,6 +49,7 @@ As the agent consumes capacity, it's important to plan and configure it to handl
   - Opportunity Research Indicator (msdyn_OpportunityResearchIndicator)
   - Opportunity Research Agent Trigger (OpportunityResearchAgentTrigger)
   - Opportunity Research User Interactions (OpportunityResearchUserInteractions)
+- You turned on AI prompts feature in Power Platform and Copilot Studio. Learn more in [Enable AI prompts in Power Platform and Copilot Studio](/ai-builder/administer#enable-or-disable-ai-prompts-in-power-platform-and-copilot-studio).
 
 ### Configure server-side synchronization
 
@@ -145,9 +146,14 @@ By default, the agent generates research insights for your accounts from public 
    > If the Sales Qualification Agent and Opportunity Research Agent are in the same environment, they share the same knowledge sources for account insights. The knowledge sources that you add to or remove from one of the agents is reflected in the other agent as well. If you see knowledge sources already, it's possible that those are configured for the Sales Qualification Agent. Don't remove them unless you want to remove them from both the agents.
 
 1. Select **Add** or **Manage** to add or manage knowledge sources for account insights. 
-   The **D365 Sales Agent - Research agent**'s **Knowledge** page opens in Copilot Studio.
+   The **D365 Sales Agent - Research agent**'s **Knowledge** page opens in Copilot Studio. 
 
-1. Add the knowledge sources that you refer to while researching accounts, such as specific websites, internal documents, or knowledge bases. The agent uses this information to provide account context and insights about the opportunities. Learn more about the [best practices for configuring knowledge sources](#best-practices-for-configuring-knowledge-sources).
+1. Add the knowledge sources that you refer to while researching accounts, such as specific websites, internal documents, or knowledge bases. The agent uses this information to provide account context and insights about the opportunities.  
+   When you upload files from SharePoint in Copilot Studio, select the **SharePoint** option in the **Featured** section. The **SharePoint** option under the **Upload file** section isn't supported. Selecting this option blocks the agent from processing the leads. The following screenshot shows the correct option to select in Copilot Studio:
+
+   :::image type="content" source="media/sales-qualification-agent-knowledge-source-sharepoint.png" alt-text="Screenshot showing the correct SharePoint option to select in Copilot Studio":::
+
+   Learn more about the [best practices for configuring knowledge sources](#best-practices-for-configuring-knowledge-sources).
 
 1. After you add the knowledge sources in Copilot Studio, return to the **Opportunity Research Agent** settings page in Dynamics 365 Sales. At this point, you can test the agent's output based on the knowledge sources you added.
     1. Scroll up to the **How this works** section and copy the test snippet under Step 2.

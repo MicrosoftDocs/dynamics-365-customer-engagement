@@ -1,12 +1,16 @@
 ---
 title: FAQs about Opportunity Research Agent
-description: Learn how the Opportunity Research Agent in Dynamics 365 Sales helps sales professionals by providing insights and recommendations for the deals they're working on.
-ms.date: 07/09/2025
+description: Get to know answers to frequently asked questions about the Opportunity Research Agent in Dynamics 365 Sales.
+ms.date: 08/04/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
   - AI-contribution
-ms.custom: bap-template
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-description
+  - ai-seo-date:08/04/2025
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

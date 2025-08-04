@@ -36,6 +36,3 @@ This article describes the impact of the edits to the Opportunity Research Agent
 | Opportunity assessment fields | Changes applied during the next refresh. | Continue with previous fields until next refresh. |
 | Value proposition      | Changes applied during the next refresh. | Continue with previous value proposition until next refresh. |
 
-What happens if I stop the agent while it's processing the opportunities?
-What happens if I resume the agent, will it start from where it left off?
-How to trigger a manual refresh of the agent?
