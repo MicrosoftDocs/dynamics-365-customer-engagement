@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: 
-ms.date: 05/26/2025
+ms.date: 08/08/2025
 ms.custom: bap-template 
 ---
 
@@ -23,17 +23,20 @@ These capabilities eliminate the need for manual case creation and reduce errors
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
+## Prerequisites
+
+- Your administrator has [Set up Case Management Agent to create and update cases (preview)](../administer/set-up-autonomous-case-agents.md).
 
 ## Autonomous case creation
 
 When you accept a conversation routed directly or escalated by a self-assist agent with enough context, the Case Management Agent performs the following actions:
 
 - Maps the conversation context to the fields configured by the administrator and predicts their values.
-- Creates a new case that opens in a new tab in the **Active Conversation** form. A case is created only if the agent has enough context to populate all the configured fields. 
+- Creates a new case that opens in a new tab in the **Active Conversation** form. A case is created only if the agent has enough context to populate the configured fields. Only the fields for which sufficient context is available are predicted. 
 - Populates the values of the fields in the case.
 - Automatically saves the case.
 
-If the conversation doesn't contain enough context to populate the mandatory fields, the agent doesn't create a case when you accept the conversation. However, when you end the conversation, the agent creates a case if enough information is available and the case isn't created manually.
+If the conversation doesn't contain enough context to populate any of the configured fields, the agent doesn't create a case when you accept the conversation. However, when you end the conversation, the agent creates a case if enough information is available and the case isn't created manually.
 
 On the case form, an AI toolbar appears and allows you to do the following actions:
 

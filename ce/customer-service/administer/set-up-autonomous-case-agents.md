@@ -92,7 +92,10 @@ In the Copilot Service admin center, configure the AI agent to predict and updat
 To allow the AI agent to autonomously create cases across all provisioned messaging and voice channels, perform the following steps:
 
 1. Go to **Case creation and update (preview)** > **Case creation by AI agent (from chats and calls)** and select **Make Case Processing Agent available for case creation from conversations**.
-1. In **Fields for AI prediction**, specify the fields the agent must fill in the case form using information from the conversation.
+1. In **Fields for AI prediction**, specify the fields the agent must predict and populate in the case form using information from the conversation. 
+
+> [!NOTE]
+> The fields you configure for case creation aren't mandatory. The AI agent populates only those fields that have sufficient context available.
 
 ## Configure AI-assisted case creation for service representatives
 
@@ -120,7 +123,7 @@ In **Agent experience data from Representative experience data**, you can select
 
 ## Example 
 
-When a customer initiates a chat conversation with the service representative, the AI agent creates a case only if it can predict the values of **Issue description** and **Contact** fields.
+When a customer initiates a chat conversation with the service representative, the AI agent creates if it has enough context to update at least one of the **Issue description** or **Contact** fields.
 
 For the agent to run this scenario, specify the following in the **Case creation and update with autonomous AI assistance (preview)** page:
  

@@ -48,15 +48,14 @@ The msdyn_UpdatedRecords array is empty in the following scenarios:
 - The prediction model wasn't able to generate a prediction.
 
 
-
 ## Error handling
 
 The API raises exceptions in the following scenarios:
 
 - User doesn't have the required permissions to update the entity.
 - The specified entity ID doesn't exist.
-- Configuration error.
-- Exception from underlying prediction services.
+- Configuration errors.
+- Exceptions from underlying prediction services.
 
 ## Example
 
