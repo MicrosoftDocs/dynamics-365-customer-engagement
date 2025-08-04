@@ -1,7 +1,7 @@
 ---
 title: Work on opportunities handled by the Opportunity Research Agent
 description: Learn how to work on opportunities handled by the Opportunity Research Agent.
-ms.date: 07/14/2025
+ms.date: 08/04/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -31,14 +31,13 @@ You need the following prerequisites:
 
 - You're part of the sales team that works on the opportunity segment that the agent is configured for.
 - You have the necessary permissions to view and work on the opportunities researched by the agent.
-- Your mailbox is configured to track **All email messages**. This is required for the agent to gather insights from your emails and meetings. Learn more in [Configure server-side synchronization](configure-opportunity-research-agent.md#configure-server-side-synchronization).
+- Your mailbox is configured to track **All email messages**. This setting is required for the agent to gather insights from your emails and meetings. See the personalization setting explained in Step 4 in [Configure server-side synchronization](configure-opportunity-research-agent.md#configure-server-side-synchronization).
 
 ## View opportunities researched by the Opportunity Research Agent
 
 1. In the Sales Hub app, select **Opportunities**.
 
 1. From the views drop-down, select **My top opportunities from AI agent**.  
-   :::image type="content" source="media/opportunities-from-agent.png" alt-text="Screenshot of the My top opportunities from AI agent view in the Sales Hub app.":::  
    The view lists all the opportunities that the agent researched on and includes the importance and risk for each opportunity. The list includes only opportunities with high and medium importance.  
    > [!NOTE]
    > The agent uses the estimated revenue, estimated close date, predictive score, and other factors to calculate the importance and risk of the opportunities.  
