@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: get-started 
-ms.date: 05/26/2025
+ms.date: 08/08/2025
 ms.custom: bap-template 
 ---
 
@@ -37,17 +37,22 @@ Perform the following steps in Copilot Service admin center to set up autonomous
 1. In **Rules**, specify the following information. The AI agent evaluates the rules and when the conditions match, initiates the follow-up and closure process.
    - **Rule name**
    - **Conditions:** Specify the criteria for which the rule must run.
+   - **Level of automation**: Select the automation level.
+        - **Required agent automation**: The AI agent drafts follow-up emails, initiates case closure and populates the required fields, but requires the service representative to review and send the email and manually close the case. 
+        - **Full automation**: The AI agent automatically sends follow-up emails and closes the case if the customer does not respond after the specified number of follow-ups.
    - **Follow-up emails:** Fields the agent should refer to when drafting the follow-up emails. This is optional.
    - **Status Reason:** Specify the status reason that triggers a follow-up action as a suggestion to the representative.
    - **Number of follow-ups:** The number of follow-up emails the agent must send without a response from the customer before resolving a case. The application considers the email sent by the service representative without a response from the customer as the first follow-up.
    - **Follow-up wait times:** Specify the duration between follow-up emails.
+   - **Follow-up email templates**: Select **Edit** to specify the email templates that the AI agent must use to send emails for follow ups.
    - Select **Save**.
-
 5. On the **Case follow-up and closure (preview)** page, select the rule and then select **Activate**.
 1. Optionally, after creating the rules, you can:
    - Change the order in which the rules are evaluated.
    - Search for rules.
    - View the condition used for each rule by hovering over the condition.
+1. Select **Let Copilot fill out resolution details when a customer service representative wants to resolve a case** for the AI agent to automatically fill out the case resolution dialog, when the case status is set to resolved. 
+1. Select **Manage data sources** to specify the fields the AI agent must use to fill out the resolution dialog.
 
 ## Enable Power Automate flows
 
