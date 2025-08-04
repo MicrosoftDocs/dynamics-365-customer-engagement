@@ -1,11 +1,15 @@
 ---
 title: Monitor leads handled by the Sales Qualification Agent (preview)
-description: Learn how to use the Sales Qualification Agent in Dynamics 365 Sales to qualify leads more effectively and improve sales outcomes.
-ms.date: 08/01/2025
+description: Monitor Sales Qualification Agent performance in Dynamics 365 Sales with supervisor dashboard insights. Track lead processing rates, revenue generation, and engagement effectiveness.
+ms.date: 08/04/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
-ms.custom: bap-template
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-description
+  - ai-seo-date:08/04/2025
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

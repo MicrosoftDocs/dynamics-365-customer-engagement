@@ -1,6 +1,6 @@
 ---
 title: Sales Qualification Agent FAQ (pre-7.3 version)
-description: Find answers to frequently asked questions about the Sales Qualification Agent in Dynamics 365 Sales, which helps sellers qualify leads and improve sales outcomes.
+description: Find answers to frequently asked questions about the pre-7.3 version of the Sales Qualification Agent in Dynamics 365 Sales, which helps sellers qualify leads and improve sales outcomes.
 ms.date: 08/01/2025
 ms.update-cycle: 180-days
 ms.topic: faq

@@ -1,6 +1,6 @@
 ---
 title: Work on leads researched by Sales Qualification Agent (pre-7.3 version)
-description: Learn how to use the Sales Qualification Agent in Dynamics 365 Sales to qualify leads more effectively and improve sales outcomes.
+description: Learn how to use the pre-7.3 version of the Sales Qualification Agent in Dynamics 365 Sales to qualify leads more effectively and improve sales outcomes.
 ms.date: 08/01/2025
 ms.update-cycle: 180-days
 ms.topic: how-to

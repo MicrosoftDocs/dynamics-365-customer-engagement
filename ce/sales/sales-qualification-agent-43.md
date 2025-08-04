@@ -1,6 +1,6 @@
 ---
 title: Sales Qualification Agent overview (pre-7.3 version)
-description: Learn how the Sales Qualification Agent in Dynamics 365 Sales can be your personal assistant in qualifying leads and improving sales outcomes.
+description: Learn how the pre-7.3 version of the Sales Qualification Agent in Dynamics 365 Sales can be your personal assistant in qualifying leads and improving sales outcomes.
 ms.date: 08/01/2025
 ms.update-cycle: 180-days
 ms.topic: overview

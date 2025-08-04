@@ -1,13 +1,17 @@
 ---
 title: Work on leads handed over by the Sales Qualification Agent (preview)
-description: 
-ms.date: 08/01/2025
+description: Learn how to work with leads handed over by the Sales Qualification Agent in Dynamics 365 Sales. Discover research insights, handover summaries, and recommended actions for effective lead management.
+ms.date: 08/04/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
   - AI-contribution
-ms.custom: bap-template
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-description
+  - ai-seo-date:08/04/2025
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

@@ -1,10 +1,14 @@
 ---
 title: Set up and configure the Sales Qualification Agent (preview)
-description: Learn how to activate and set up the Sales Qualification Agent in Dynamics 365 Sales to help your sellers use AI for effective lead qualification.
-ms.date: 08/01/2025
+description: Set up and configure the Sales Qualification Agent to automate research, engagement, and outreach in Dynamics 365 Sales with AI-powered assistance for effective sales processes.
+ms.date: 08/04/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
-ms.custom: bap-template
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-description
+  - ai-seo-date:08/04/2025
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
