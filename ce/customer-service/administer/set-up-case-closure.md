@@ -38,7 +38,7 @@ Perform the following steps in Copilot Service admin center to set up autonomous
    - **Rule name**
    - **Conditions:** Specify the criteria for which the rule must run.
    - **Level of automation**: Select the automation level.
-        - **Required agent automation**: The AI agent drafts follow-up emails, initiates case closure and populates the required fields, but requires the service representative to review and send the email and manually close the case. 
+        - **Required agent confirmation**: The AI agent drafts follow-up emails, initiates case closure and populates the required fields, but requires the service representative to review and send the email and manually close the case. 
         - **Full automation**: The AI agent automatically sends follow-up emails and closes the case if the customer does not respond after the specified number of follow-ups.
    - **Follow-up emails:** Fields the agent should refer to when drafting the follow-up emails. This is optional.
    - **Status Reason:** Specify the status reason that triggers a follow-up action as a suggestion to the representative.
