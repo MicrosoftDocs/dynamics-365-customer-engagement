@@ -1,7 +1,7 @@
 ---
 title: "Integrate sample softphone with Dynamics 365 Sales"
 description: "Use the sample to learn how to integrate a softphone dialer in Dynamics 365 Sales."
-ms.date: 10/26/2021
+ms.date: 07/30/2025
 ms.topic: integration
 author: lavanyakr01
 ms.author: lavanyakr
@@ -23,7 +23,7 @@ This topic describes how to install a *sample* app and test the calling capabili
 
 > [!IMPORTANT]
 > -  This sample code currently has limited availability.
-> -  The sample code for softphone integration with Dynamics 365 using Dynamics 365 Channel Integration Framework is made available so customers can get early access and provide feedback. The sample code is not meant for production use and might have limited or restricted functionality.
+> -  The sample code for softphone integration with Dynamics 365 using Dynamics 365 Channel Integration Framework is made available so customers can get early access and provide feedback. The sample code isn't meant for production use and might have limited or restricted functionality.
 > -  Microsoft doesn't provide support for this sample code. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. This is subject to a separate [supplemental terms of use](../legal/supp-dynamics365-preview.md).
 
 ## Integrate and configure the sample softphone dialer

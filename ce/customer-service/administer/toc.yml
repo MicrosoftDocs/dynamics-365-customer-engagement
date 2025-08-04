@@ -470,38 +470,50 @@
         href: voice-channel-pricing-scenarios.md
       - name: FAQ about the voice channel
         href: voice-channel-faqs.md
-    - name: Autonomous service agents (preview)
+    - name: Agent hub (preview)
       items:
-      - name: Overview of autonomous service agents
-        href: /dynamics365/contact-center/administer/autonomous-agents-overview?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-      - name: Manage consumption-based billing, capacity
-        href: setup-pay-as-you-go.md
-      - name: Customer Intent Agent
+      - name: Learn guide for AI agents and Copilot features
         items:
-        - name: Overview of Customer Intent Agent
-          href: /dynamics365/contact-center/administer/overview-customer-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-        - name: Manage Customer Intent Agent
-          href: /dynamics365/contact-center/administer/manage-customer-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-        - name: Configure intent-based routing
-          href: configure-intent-based-routing.md
-        - name: Enable intent-based suggestions for service representatives
-          href: /dynamics365/contact-center/administer/enable-intent-for-service-reps?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-        - name: Configure intent-based suggestions for Copilot agents
-          href: /dynamics365/contact-center/administer/set-up-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-      - name: Case Management Agent
-        items: 
-        - name: Set up Case Management Agent to create and update cases 
-          href: set-up-autonomous-case-agents.md
-        - name: Set up Case Management Agent to resolve cases
-          href: configure-case-resolution-agent.md  
-        - name: Set up Case Management Agent to follow up and close cases
-          href: set-up-case-closure.md  
-      - name: Customer Knowledge Management Agent
+        - name: Overview of agent hub
+          href: /dynamics365/contact-center/administer/overview-agent-hub?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Trust center for Dynamics 365
+          href: /dynamics365/contact-center/administer/trust-center?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Security FAQs about Copilot in Customer Service
+          href: /dynamics365/contact-center/administer/copilot-security-faqs?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Autonomous service agents
         items:
-        - name: Enable Customer Knowledge Management Agent
-          href: admin-km-agent.md
-        - name: Configure connection references
-          href: admin-km-agent-connections.md
+        - name: Overview of autonomous service agents
+          href: /dynamics365/contact-center/administer/autonomous-agents-overview?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Manage consumption-based billing, capacity
+          href: setup-pay-as-you-go.md
+        - name: Customer Intent Agent
+          items:
+          - name: Overview of Customer Intent Agent
+            href: /dynamics365/contact-center/administer/overview-customer-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Manage Customer Intent Agent
+            href: /dynamics365/contact-center/administer/manage-customer-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Configure intent-based routing
+            href: configure-intent-based-routing.md
+          - name: Enable intent-based suggestions for service representatives
+            href: /dynamics365/contact-center/administer/enable-intent-for-service-reps?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Configure intent-based suggestions for Copilot agents
+            href: /dynamics365/contact-center/administer/set-up-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.ym
+        - name: Case Management Agent
+          items: 
+          - name: Set up Case Management Agent to create and update cases 
+            href: set-up-autonomous-case-agents.md
+          - name: Set up Case Management Agent to follow up and close cases
+            href: set-up-case-closure.md  
+        - name: Customer Knowledge Management Agent
+          items:
+          - name: Enable Customer Knowledge Management Agent
+            href: admin-km-agent.md
+          - name: Configure connection references
+            href: admin-km-agent-connections.md
+      - name: Create rollout plans to manage AI agents
+        href: /dynamics365/contact-center/administer/create-rollout-plans?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: View agent insights dashboard
+        href: /dynamics365/contact-center/use/agent-insights?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
     - name: Chat
       items:
       - name: Introduction to the chat channel
@@ -511,7 +523,7 @@
       - name: Enable resizing of communication panel
         href: csac-resize-cp.md
       - name: Configure disposition codes
-        href: /dynamics365/contact-center/administer/configure-disposition-codes?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml     
+        href: /dynamics365/contact-center/administer/configure-disposition-codes?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Configure relevance search for transcripts
         href: relevance-search-chat-transcript.md
       - name: Enable download, email of chat transcripts
@@ -739,7 +751,7 @@
       - name: Enable voice call experiences
         href: configure-end-of-call-survey.md
       - name: Configure post-call survey
-        href: voice-channel-survey.md
+        href: voice-channel-survey.md  
       - name: Configure post-conversation surveys using Customer Voice
         href: configure-post-conversation-survey.md
     - name: Analytics dashboards and insights
