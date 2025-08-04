@@ -41,7 +41,7 @@ Indicates that the AI agent automatically sends the follow-up emails to customer
     - Select the email to view the email content in a new tab. A message appears at the bottom of the email indicating that the email was generated using AI. You can also provide feedback on the email in this tab.
 - After the configured number of follow-ups are sent, the agent initiates the case resolution process. It sets the case status to resolved after populating configured case resolution fields. All open activities linked to the case are also closed. 
  
-### [Required agent confirmation](#tab/requiredagentconfirmation)
+### [Requires agent confirmation](#tab/requiredagentconfirmation)
 
  The AI agent identifies the case intent and drafts the appropriate follow-up email. However, you must review and send the email to the customer. The **Suggested actions** card displays the following actions: 
    - **Send follow-up**: The customer didn't respond to your last email within the configured duration. Select **Review and send email** to view the email drafted by the agent in a new tab. You can edit the email and then send it to the customer.
