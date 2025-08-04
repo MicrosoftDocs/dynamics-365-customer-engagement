@@ -1,7 +1,7 @@
 ---
 title: Sales Qualification Agent overview (preview)
 description: Learn how the Sales Qualification Agent in Dynamics 365 Sales can be your personal assistant in qualifying leads and improving sales outcomes.
-ms.date: 05/22/2025
+ms.date: 08/04/2025
 ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -66,14 +66,11 @@ The Sales Qualification Agent is designed to assist you in the lead qualificatio
 
 The usage of the Sales Qualification Agent depends on your role in the sales process.
 
-- **Admin** 
-    - [Set up and configure Sales Qualification Agent](configure-sales-qualification-agent.md)- [Test the Sales Qualification Agent](test-sales-qualification-agent.md) 
-- **Seller** 
-    - [Work on leads handed over by the Sales Qualification Agent](use-sales-qualification-agent.md) 
-- **Supervisor** 
-    - [Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md) 
-        - [View metrics related to research-only mode](monitor-leads-by-sales-qualification-agent.md#view-metrics-related-to-research-only-mode)
-        - [View metrics related to research and engage mode](monitor-leads-by-sales-qualification-agent.md#view-metrics-related-to-engage-mode)
+| User role | Reference |
+|-----------|-----------|
+| Administrator | [Set up and configure Sales Qualification Agent](configure-sales-qualification-agent.md)<br>[Test the Sales Qualification Agent](test-sales-qualification-agent.md) |
+| Seller | [Work on leads handed over by the Sales Qualification Agent](use-sales-qualification-agent.md) |
+| Supervisor | [Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md)|
 
 ## Capacity usage
 
@@ -84,10 +81,11 @@ The Sales Qualification Agent uses the capacity assigned to your tenant to proce
 
 ## Responsible AI
 
-Sales Qualification Agent is built with responsible AI principles in mind. The agent has been carefully evaluated to ensure that it meets quality standards and is designed to be used as a productivity tool. For more information about the agent's responsible AI practices, go to the following articles:
+Sales Qualification Agent is built with responsible AI principles in mind. The agent has been carefully evaluated to ensure that it meets quality standards and is designed to be used as a productivity tool. For more information about the agent's responsible AI practices, go to the following articles:  
+
 - [Responsible AI FAQ for the Research-only mode](faqs-sales-qualification-agent.md)
 - [Responsible AI FAQs about Research and engage mode](faqs-sales-qualification-agent-engage.md)
+
 ## Related information
 
 - [Sales Qualification Agent FAQ](sales-qualification-agent-faq.md)
-

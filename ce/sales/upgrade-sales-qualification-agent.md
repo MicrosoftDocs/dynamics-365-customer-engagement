@@ -8,7 +8,7 @@ content_well_notification:
   - AI-contribution
 ms.custom: bap-template
 author: udaykirang
-ms.author: udaykirang
+ms.author: udag
 ms.reviewer: udaykirang
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
