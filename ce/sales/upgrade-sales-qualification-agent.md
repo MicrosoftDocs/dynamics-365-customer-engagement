@@ -1,6 +1,6 @@
 ---
 title: Upgrade your Sales Qualification Agent (preview)
-description: Learn how the Sales Qualification Agent in Dynamics 365 Sales can be your personal assistant in qualifying leads and improving sales outcomes.
+description: Learn how to upgrade your Sales Qualification Agent in Dynamics 365 Sales to the latest version or extend its capabilities.
 ms.date: 07/31/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
