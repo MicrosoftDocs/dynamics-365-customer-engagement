@@ -502,6 +502,8 @@
           items: 
           - name: Set up Case Management Agent to create and update cases 
             href: set-up-autonomous-case-agents.md
+          - name: Set up Case Management Agent to resolve cases
+            href: configure-case-resolution-agent.md  
           - name: Set up Case Management Agent to follow up and close cases
             href: set-up-case-closure.md  
         - name: Customer Knowledge Management Agent

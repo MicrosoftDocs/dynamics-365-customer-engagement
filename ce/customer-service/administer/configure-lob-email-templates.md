@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: 
-ms.date: 05/26/2025
+ms.date: 08/08/2025
 ms.custom: bap-template
 ---
 
@@ -25,9 +25,9 @@ When customer service representatives (service representatives or representative
 - [Customer Intent Agent](/dynamics365/contact-center/administer/manage-customer-intent-agent) is configured with the required lines-of-business and the relevant case rules set up.
 - Email template recommendations are enabled. Learn more in [Enable Copilot to recommend email templates](/dynamics365/contact-center/administer/copilot-email-enable).
 
-## Add line-of-business to email templates
+## Configure line-of-business categories in Power Apps
 
-Perform the following steps to add line-of-business to email templates:
+Perform the following steps to add line-of-business categories that must appear in email templates:
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
 1. Select **Tables**, select the **Email Template** table, and then select **Forms**.
@@ -69,3 +69,7 @@ You have two email templates:
 - **Initiate exchange** with **Line of Business (Multi Select)** set to **Exchange**.
 
 A service representative works on a case with the case title, "Contoso coffee CX 300 Machine return". When the representative drafts an email for the case and searches for "return" in the Copilot inline email editor, Copilot automatically selects the **Initiate return** template because the case matches the **Return** line-of-business rule, then generates email content based on that template.
+
+## Related information
+
+[Draft an email in rich text editor](dynamics365/contact-center/use/use-copilot-email#use-copilot-to-draft-an-email)
