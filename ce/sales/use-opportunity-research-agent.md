@@ -115,3 +115,8 @@ The agent refreshes the research insights based on the refresh frequency configu
    :::image type="content" source="media/opportunity-research-insights-with-no-risk.png" alt-text="Screenshot of the Opportunity research page with research insights when there are no risks.":::
 - **Day N:** As the opportunity progresses, the agent continues to gather insights and discover risks. For example, if the agent identifies a risk related to a competitor's proposal, it might look like this:
    :::image type="content" source="media/opportunity-research-insights-with-risk.png" alt-text="Screenshot of the Opportunity research page with research insights when there are risks.":::
+
+## Related information
+
+- [Configure the Opportunity Research Agent (preview)](configure-opportunity-research-agent.md)
+- [FAQs about Opportunity Research Agent (preview)](faqs-about-opportunity-research.md)

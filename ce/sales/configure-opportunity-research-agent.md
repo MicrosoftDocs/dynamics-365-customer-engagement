@@ -198,3 +198,9 @@ Start the agent only after you have configured all the settings and verified tha
 
 Select **Start agent** on the **Opportunity Research Agent** settings page.
 The agent is started and its status is set to **On** on the **AI agents** page. The agent starts processing the opportunities that match the selection criteria and generates research insights based on the configured knowledge sources. This process might take some time, depending on the number of opportunities and the complexity of the knowledge sources.
+
+
+## Related information
+
+- [Work on opportunities handled by the Opportunity Research Agent (preview)](use-opportunity-research-agent.md)
+- [FAQs about Opportunity Research Agent (preview)](faqs-about-opportunity-research.md)
