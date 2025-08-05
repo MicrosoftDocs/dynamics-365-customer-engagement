@@ -200,8 +200,8 @@ END CATCH
 
 1. Open a PowerShell command session on all servers where the Dynamics 365 Server Full Server role is installed. 
 
-> [!IMPORTANT]
-> If you have a server role deployment, you must run the command described here on all Dynamics 365 servers where the Web Application Server role is running.
+   > [!IMPORTANT]
+   > If you have a server role deployment, you must run the command described here on all Dynamics 365 servers where the Web Application Server role is running.
 
 2. Change your location to the \<*drive*\>:\\Program Files\\Microsoft Dynamics CRM\\Tools folder.
 
@@ -215,7 +215,7 @@ END CATCH
     
    - **serviceAccount** ‘*DomainName\\UserName*’ or ‘Network Service’.
 
-   ```
+   ``` powershell
       serviceAccount 'contoso\\CRMWebAppServer' or ‘Network Service’. Required parameter that specifies the identity for the Web Application Server role. The identity is either a domain user account, such as *contoso\\CRMWebAppServer*, or Network Service. The identity will be granted permission to the certificate.
    ```
 
