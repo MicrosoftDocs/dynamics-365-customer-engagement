@@ -1,6 +1,6 @@
 ---
 title: "Customize live chat widgets for mobile apps | MicrosoftDocs"
-description: "Learn how to use sample code to embed live chat widget code directly in your mobile apps."
+description: "Learn about the mobile messaging SDK and how to use sample code to embed live chat widget code directly in your mobile apps."
 ms.date: 04/22/2022
 ms.topic: reference
 author: gandhamm
@@ -19,17 +19,17 @@ ms.custom:
 
 You have two options for integrating messaging in your native mobile app:
 
-* Use our native mobile SDKs for iOS and Android
-* Use the web widget inside an WebView
+* Use our native mobile software development kits (SDKs) for iOS and Android
+* Use the web widget inside a WebView
 
 We strongly recommend using the native mobile SDKs, as they deliver superior feature support and performance.
 
 ## Integrate with the Dynamics Contact Center Mobile SDKs
 
-The mobile SDKs and their documentation are hosted on Github:
+The mobile SDKs and their documentation are hosted on GitHub:
 
-* [Contact Center Messaging SDK - Android | Github](https://github.com/microsoft/ContactCenterMessagingSDK-android)
-* [Contact Center Messaging SDK - iOS | Github](https://github.com/microsoft/ContactCenterMessagingSDK-ios)
+* [Contact Center Messaging SDK - Android | GitHub](https://github.com/microsoft/ContactCenterMessagingSDK-android)
+* [Contact Center Messaging SDK - iOS | GitHub](https://github.com/microsoft/ContactCenterMessagingSDK-ios)
 
 The SDKs contain:
 * An example application to help you get started
@@ -39,9 +39,12 @@ The SDKs contain:
 
 We strongly recommend using authenticated, persistent chat with the Messaging SDKs. This provides the best customer experience for mobile usage patterns.
 
+> [!NOTE]
+> The out of the box interface is visually styled through code in your application instead of through the Admin Center
+
 ## Render the live chat widget using embedded code
 
-If the Mobile Messaging SDKs do not meet your requirements or timelines, then you can embed a web widget in your mobile app. However, embedding a chat widget code has many limitations such as reduced performance, limited mobile usability, and unavailable features.
+If the Mobile Messaging SDKs don't meet your requirements or timelines, then you can embed a web widget in your mobile app. However, embedding a chat widget code has many limitations such as reduced performance, limited mobile usability, and unavailable features.
 
 A `WebView` is an embedded browser that enables a native application to display web content. Use the `WebView` component of your mobile operating system language to enable rendering of the web version of the chat widget on mobile devices. The WebView capability is offered on both Android and iOS.
 
