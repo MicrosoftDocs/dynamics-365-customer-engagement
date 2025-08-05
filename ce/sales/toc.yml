@@ -391,7 +391,9 @@ items:
       - name: Opportunity management
         items:
           - name: Opportunity management overview
-            href: opportunity-management-overview.md
+            href: opportunity-management-overview.
+          - name: Opportunity Research Agent
+            href: opportunity-research-agent.md
           - name: Configure the opportunity pipeline view
             href: opportunity-pipeline-view-for-admins.md
           - name: Enable customization of the Opportunity Close form
