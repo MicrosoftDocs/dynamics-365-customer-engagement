@@ -213,19 +213,14 @@ END CATCH
     
    - **certificateType S2STokenIssuer**. Required parameter that specifies the type of certificate. For Customer Engagement (on-premises) and SharePoint server-based integration, only **S2STokenIssuer** is supported.
     
-   - **serviceAccount** ‘*DomainName\\UserName*’ or ‘Network Service’.
-
-   ``` powershell
-      serviceAccount 'contoso\\CRMWebAppServer' or ‘Network Service’. Required parameter that specifies the identity for the Web Application Server role. The identity is either a domain user account, such as *contoso\\CRMWebAppServer*, or Network Service. The identity will be granted permission to the certificate.
-   ```
+   - **serviceAccount** '*DomainName\\UserName*' or 'Network Service'. Required parameter that specifies the identity for the Web Application Server role. The identity is either a domain user account, such as *contoso\\CRMWebAppServer*, or Network Service. The identity will be granted permission to the certificate.
 
    - **updateCrm**. Adds the certificate information to the Microsoft Customer Engagement (on-premises) configuration database.
 
     > [!IMPORTANT]
     > Even if you have multiple Web Application Server or Asynchronous Service roles deployed, you only need to run the command with the `updateCrm` parameter once.
 
-
-   - *storeFindType FindBySubjectDistinguishedName*. Specifies the type of certificate store. By default, this value is `FindBySubjectDistinguishedName` and is recommended when you run the script.
+   - **storeFindType FindBySubjectDistinguishedName**. Specifies the type of certificate store. By default, this value is `FindBySubjectDistinguishedName` and is recommended when you run the script.
 
    > [!IMPORTANT]
    > Although the `updateCrm` and `StoreFindType` parameters are optional to run the command, these parameters are required for server-based SharePoint integration so that certificate information is added to the certification database.
