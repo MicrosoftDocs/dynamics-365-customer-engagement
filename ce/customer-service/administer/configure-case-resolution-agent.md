@@ -27,7 +27,7 @@ You can use the Case Management Agent to resolve cases by identifying case inten
 - The Case Resolution agent uses the Data Entry Agent in the background. The Power Platform [Pay-as-you-go plan](/power-platform/admin/pay-as-you-go-overview) mandates the usage of an Azure subscription the system charges when the agent runs. Make sure you [Set up consumption-based billing](setup-pay-as-you-go.md).
 - Case management agent is set up to create and update cases. Learn more in [Set up Case Management Agent to create and update cases (preview)](set-up-autonomous-case-agents.md).
 - [Customer Intent Agent](/dynamics365/contact-center/administer/manage-customer-intent-agent) is configured.
-[!INCLUDE [cc-case-management-agent.md](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE [cc-case-management-agent.md](../../includes/cc-case-management-agent.md)]
 
 ## Configure level of automation 
 
