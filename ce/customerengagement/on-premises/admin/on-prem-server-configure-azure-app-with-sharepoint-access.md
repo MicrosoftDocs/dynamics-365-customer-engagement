@@ -225,11 +225,11 @@ END CATCH
    > [!IMPORTANT]
    > Although the `updateCrm` and `StoreFindType` parameters are optional to run the command, these parameters are required for server-based SharePoint integration so that certificate information is added to the certification database.
 
-Example:
+   Example:
 
-``` powershell
-.\CertificateReconfiguration.ps1 -certificateFile c:\Personalcertfile.pfx -password personal_certfile_password -updateCrm -certificateType S2STokenIssuer -serviceAccount Domain\UserName -storeFindType FindBySubjectDistinguishedName
-```
+   ``` powershell
+   .\CertificateReconfiguration.ps1 -certificateFile c:\Personalcertfile.pfx -password personal_certfile_password -updateCrm -certificateType S2STokenIssuer -serviceAccount Domain\UserName -storeFindType FindBySubjectDistinguishedName
+   ```
 
 ## Upload certificate in Azure app certificates
 
