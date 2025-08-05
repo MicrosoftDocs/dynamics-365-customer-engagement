@@ -147,21 +147,22 @@ The BANT criteria can be detected from various sources such as emails, CRM confi
 
 ## How does the agent determine the lead rating?
 
-**Research-only mode:**
-
-The agent determines the lead rating based on the alignment with the Ideal Customer Profile (ICP) and any engagement signals from Customer Insights - Journeys in terms of email opens, link clicks, event registrations and attendance, and form submissions.
-
-**Research and engage mode:**
-
-The agent determines the lead rating based on the Fit, Intent, Recency, Engagement (FIRE) framework and signals from Customer Insights - Journeys. The FIRE framework is used to evaluate leads and provide insights for qualification.
+The agent determines the lead rating based on the Fit, Intent, Recency, Engagement (FIRE) framework:
 
 - **Fit**: Measures how well the lead aligns with the Ideal Customer Profile (ICP) criteria, such as industry, company size, location, and role.
 - **Intent**: Assesses the lead’s level of interest based on signals like purchase inquiries, pricing requests, demo requests, or stated business challenges.
-- **Recency**: Evaluates the freshness of the interactions or engagements relative to `currentDateTime`:
+- **Recency**: Evaluates the freshness of the interactions or engagements as on the date of research. The recency is categorized as follows:
     - Interactions within 7 days are considered recent.
     - Interactions between 8 and 21 days are considered moderate.
     - Interactions older than 21 days are considered old.
 - **Engagement**: Assesses the frequency, quality, and depth of interactions, including opened emails, replies, booked meetings, and downloads.
+
+The agent evaluates leads based on signals from the following sources:
+
+- Customer Insights - Journeys interaction data such as email opens, clicks, and replies.
+- Timeline activity data such as emails, appointments, and phone calls in the past 60 days.
+- Company research data such as company size, industry, and location.
+- In Research and engage mode, the agent also considers the lead's engagement with the emails sent by the agent.
 
 ## Related information
 

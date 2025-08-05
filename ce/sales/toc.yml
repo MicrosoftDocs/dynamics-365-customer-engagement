@@ -1410,11 +1410,11 @@ items:
   items:
     - name: Overview
       href: responsible-ai-overview.md
-    - name: Responsible AI FAQs for summarization in Copilot
+    - name: Responsible AI FAQs about summarization in Copilot
       href: faqs-sales-copilot-for-summarization.md
-    - name: Responsible AI FAQs for natural language chat in Copilot
+    - name: Responsible AI FAQs about natural language chat in Copilot
       href: faqs-sales-copilot-natural-language.md
-    - name: Responsible AI FAQs for email in Copilot
+    - name: Responsible AI FAQs about email in Copilot
       href: faqs-sales-copilot-for-email.md
     - name: Responsible AI FAQs about Sales Qualification Agent (preview)
       items:
@@ -1423,9 +1423,9 @@ items:
         - name: Responsible AI FAQs about Engage mode
           href: faqs-sales-qualification-agent-engage.md
       href: faqs-sales-qualification-agent.md
-    - name: Responsible AI FAQs for Opportunity Research Agent (preview)
+    - name: Responsible AI FAQs about Opportunity Research Agent (preview)
       href: faqs-about-opportunity-research.md
-    - name: Responsible AI FAQs for chat with Sales data in Microsoft 365 Copilot (preview)
+    - name: Responsible AI FAQs about chat with Sales data in Microsoft 365 Copilot (preview)
       href: Microsoft-365-Copilot-for-Sales.md
 - name: Resources for other Sales apps
   items:
