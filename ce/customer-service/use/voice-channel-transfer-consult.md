@@ -63,15 +63,19 @@ When you receive an incoming call, you can transfer the call to a service repres
     The following actions occur based on the **Use bridged transfers** setting:
     - **Enabled**
        - Customer hears hold music.
-       - The original call continues. 
+       - The original call continues.
+       - Recording and transcription continue if they aren't manually paused.
        - If the external user doesn't accept the call, customers hear a system message before the call ends.
        - Post call survey is sent to the customer if the external user or Teams user ends the call.
        - The external user receives the call from the caller ID of the contact center phone number the customer originally called.
+       - DTMF tones aren't sent from the customer to the external phone number.
     - **Disabled**
        - Customer hears ringing.
        - The original call ends and a new call begins.
+       - The new call isn't recorded and transcribed.
        - Customers don't hear a message before the call ends if the external user doesn't accept the call.
        - The external user receives the call from the caller ID of the customer.
+       - DTMF tones are sent from the customer to the external phone number.
 
     ### [Existing voice](#tab/existingvoicestack)
  

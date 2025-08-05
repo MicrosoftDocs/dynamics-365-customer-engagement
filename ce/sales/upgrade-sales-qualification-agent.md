@@ -1,6 +1,6 @@
 ---
 title: Upgrade your Sales Qualification Agent (preview)
-description: Learn how the Sales Qualification Agent in Dynamics 365 Sales can be your personal assistant in qualifying leads and improving sales outcomes.
+description: Learn how to upgrade your Sales Qualification Agent in Dynamics 365 Sales to the latest version or extend its capabilities.
 ms.date: 07/31/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -8,7 +8,7 @@ content_well_notification:
   - AI-contribution
 ms.custom: bap-template
 author: udaykirang
-ms.author: udaykirang
+ms.author: udag
 ms.reviewer: udaykirang
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
@@ -32,7 +32,7 @@ After the 7.3 release is deployed in your environment, your existing Sales Quali
 
 - The agent can't process new leads until it's upgraded to 7.3.
 
-- For leads that are already processed by the agent, sellers can see the lead insights until the agent is reconfigured. Sellers will see a notification informing them that the admin needs to reconfigure the agent.
+- For leads that are already processed by the agent, sellers can see the lead insights until the agent is reconfigured and restarted. Sellers will see a notification informing them that the admin needs to reconfigure the agent.
 - When you upgrade or reconfigure the agent, existing agent settings are preserved.
 - After the agent is reconfigured, leads that fulfill the selection criteria will get processed:
     - If a lead that was previously processed by the agent still fulfills the selection criteria, the agent processes it again for research and generates the outreach email.

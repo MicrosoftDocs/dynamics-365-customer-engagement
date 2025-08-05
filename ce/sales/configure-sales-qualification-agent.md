@@ -1,10 +1,14 @@
 ---
 title: Set up and configure the Sales Qualification Agent (preview)
-description: Learn how to activate and set up the Sales Qualification Agent in Dynamics 365 Sales to help your sellers use AI for effective lead qualification.
-ms.date: 08/01/2025
+description: Set up and configure the Sales Qualification Agent to automate research, engagement, and outreach in Dynamics 365 Sales with AI-powered assistance for effective sales processes.
+ms.date: 08/04/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
-ms.custom: bap-template
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-description
+  - ai-seo-date:08/04/2025
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -17,8 +21,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-> [!NOTE]
-> This article is for the 9.0.25073.10001 (7.3) version of the Sales Qualification Agent, which is being gradually deployed to different regions. To know the version in your organization, check the **Server version** in **Settings** > **About** in the Sales Hub app. To check your deployment schedule, go to [Latest version availability](/dynamics365/released-versions/dynamics365sales#latest-version-availability) and look for the 9.0.25073.10001 version. If your org is still on the earlier version, see [Sales Qualification Agent overview (pre-7.3 version)](sales-qualification-agent-43.md). However, the agent will go into Draft mode after the 7.3 deployment and you must [reconfigure it](upgrade-sales-qualification-agent.md) to use the agent.
+[!INCLUDE[sqa-73-note](../includes/sqa-73-note.md)]
 
 As an admin, you need to set up the Sales Qualification Agent before your sellers can use it for lead research, ideal customer profile (ICP) fit assessment, and initial email outreach. This article discusses how to configure the details about your company and products you sell, your ideal customer profile, and other settings to help the agent align with your company's sales strategy and goals.
 
@@ -106,10 +109,6 @@ The Sales Qualification Agent is available in two modes&mdash;Research-only mode
 1. [Configure knowledge sources](configure-sqa-knowledge-source.md) for research insights, outreach, and follow-up emails.
 1. (**Research and engage mode**) [Run simulation to review the agent's outreach emails](run-simulation-sqa-outreach-email.md) are customized and relevant to the leads.  
 1. After you are satisfied with the configuration, [start the agent](start-sales-qualification-agent.md).
-
-## View the agent's usage consumption
-
-After the agent is published, you can start monitoring the capacity it consumes and how much capacity is left. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new)
 
 ## Related information
 

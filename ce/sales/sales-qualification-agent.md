@@ -1,13 +1,17 @@
 ---
 title: Sales Qualification Agent overview (preview)
-description: Learn how the Sales Qualification Agent in Dynamics 365 Sales can be your personal assistant in qualifying leads and improving sales outcomes.
-ms.date: 05/22/2025
+description: Discover how Sales Qualification Agent in Dynamics 365 Sales automates lead research and engagement to help your team focus on high-potential opportunities.
+ms.date: 08/04/2025
 ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
   - AI-contribution
-ms.custom: bap-template
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-description
+  - ai-seo-date:08/04/2025
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -20,8 +24,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-> [!NOTE]
-> This article is for the 9.0.25073.10001 (7.3) version of the Sales Qualification Agent, which is being gradually deployed to different regions. To know the version in your organization, check the **Server version** in **Settings** > **About** in the Sales Hub app. To check your deployment schedule, go to [Latest version availability](/dynamics365/released-versions/dynamics365sales#latest-version-availability) and look for the 9.0.25073.10001 version. If your org is still on the earlier version, see [Sales Qualification Agent overview (pre-7.3 version)](sales-qualification-agent-43.md). However, the agent will go into Draft mode after the 7.3 deployment and you must [reconfigure it](upgrade-sales-qualification-agent.md) to use the agent.
+[!INCLUDE[sqa-73-note](../includes/sqa-73-note.md)]
 
 Sales teams often struggle to keep up with the volume of inbound leads from websites, events, and webinars, leading to missed opportunities and idle leads in CRM. Sales Qualification Agent in Dynamics 365 Sales is an agent that automate manual lead qualification. It helps you qualify leads faster and more effectively, so you can spend more time interacting with top leads. The agent doesn't replace your judgment or decision-making process.
 
@@ -67,28 +70,26 @@ The Sales Qualification Agent is designed to assist you in the lead qualificatio
 
 The usage of the Sales Qualification Agent depends on your role in the sales process.
 
-- **Admin** 
-    - [Set up and configure Sales Qualification Agent](configure-sales-qualification-agent.md)- [Test the Sales Qualification Agent](test-sales-qualification-agent.md) 
-- **Seller** 
-    - [Work on leads handed over by the Sales Qualification Agent](use-sales-qualification-agent.md) 
-- **Supervisor** 
-    - [Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md) 
-        - [View metrics related to research-only mode](monitor-leads-by-sales-qualification-agent.md#view-metrics-related-to-research-only-mode)
-        - [View metrics related to research and engage mode](monitor-leads-by-sales-qualification-agent.md#view-metrics-related-to-engage-mode)
+| User role | Reference |
+|-----------|-----------|
+| Administrator | [Set up and configure Sales Qualification Agent](configure-sales-qualification-agent.md)<br>[Test the Sales Qualification Agent](test-sales-qualification-agent.md) |
+| Seller | [Work on leads handed over by the Sales Qualification Agent](use-sales-qualification-agent.md) |
+| Supervisor | [Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md)|
 
 ## Capacity usage
 
 The Sales Qualification Agent uses the capacity assigned to your tenant to process leads and generate insights. You can set up either prepaid capacity or pay-as-you-go capacity for the agent. Use the following resources to learn more about setting up capacity and monitoring usage:  
 
 - [Manage consumption-based billing for agent capabilities](copilot-consumption-based-billing.md)
-- [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new)
+- - [View the agent's usage consumption](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new#use-the-summary-tab)
 
 ## Responsible AI
 
-Sales Qualification Agent is built with responsible AI principles in mind. The agent has been carefully evaluated to ensure that it meets quality standards and is designed to be used as a productivity tool. For more information about the agent's responsible AI practices, go to the following articles:
+Sales Qualification Agent is built with responsible AI principles in mind. The agent has been carefully evaluated to ensure that it meets quality standards and is designed to be used as a productivity tool. For more information about the agent's responsible AI practices, go to the following articles:  
+
 - [Responsible AI FAQ for the Research-only mode](faqs-sales-qualification-agent.md)
 - [Responsible AI FAQs about Research and engage mode](faqs-sales-qualification-agent-engage.md)
+
 ## Related information
 
 - [Sales Qualification Agent FAQ](sales-qualification-agent-faq.md)
-

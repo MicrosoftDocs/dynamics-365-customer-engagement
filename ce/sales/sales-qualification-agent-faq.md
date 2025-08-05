@@ -1,6 +1,6 @@
 ---
 title: Sales Qualification Agent FAQ (preview)
-description: Find answers to frequently asked questions about the Sales Qualification Agent in Dynamics 365 Sales, which helps sellers qualify leads and improve sales outcomes.
+description: Find answers to frequently asked questions about the Sales Qualification Agent in Dynamics 365 Sales.
 ms.date: 08/01/2025
 ms.update-cycle: 180-days
 ms.topic: faq
@@ -77,5 +77,13 @@ The **Review email** option appears in the banner, and the **Draft email** optio
 
 - Your organization is using server-side synchronization. Ask your admin if you're not sure.
 - The lead's email address is available.  
- 
- 
+
+
+## What does error in a supporting process mean?
+
+If you see an error that says "Insights couldn't be generated due to an error in a supporting process," it means that the agent encountered an issue while trying to generate insights for the lead. This could be due to various reasons, such as:
+
+- The lead's email address is invalid or missing. Invalid emails are flagged in the **Lead research** page with an **Invalid email** tag. 
+- The lead's account information is missing. In this case, the agent doesn't run as there's no company information to research on. 
+
+Update the lead's email address or account information to put the lead back in the agent's queue for processing.

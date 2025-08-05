@@ -1,11 +1,15 @@
 ---
 title: Monitor leads handled by the Sales Qualification Agent (preview)
-description: Learn how to use the Sales Qualification Agent in Dynamics 365 Sales to qualify leads more effectively and improve sales outcomes.
-ms.date: 08/01/2025
+description: Monitor Sales Qualification Agent performance in Dynamics 365 Sales with supervisor dashboard insights. Track lead processing rates, revenue generation, and engagement effectiveness.
+ms.date: 08/04/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
-ms.custom: bap-template
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-description
+  - ai-seo-date:08/04/2025
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -18,9 +22,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-
-> [!NOTE]
-> This article is for the 9.0.25073.10001 (7.3) version of the Sales Qualification Agent, which is being gradually deployed to different regions. To know the version in your organization, check the **Server version** in **Settings** > **About** in the Sales Hub app. To check your deployment schedule, go to [Latest version availability](/dynamics365/released-versions/dynamics365sales#latest-version-availability) and look for the 9.0.25073.10001 version. If your org is still on the earlier version, see [Sales Qualification Agent overview (pre-7.3 version)](sales-qualification-agent-43.md). However, the agent will go into Draft mode after the 7.3 deployment and you must [reconfigure it](upgrade-sales-qualification-agent.md) to use the agent.
+[!INCLUDE[sqa-73-note](../includes/sqa-73-note.md)]
 
 As a supervisor or administrator, you can monitor the performance of the Sales Qualification Agent and the leads it handles to verify its effectiveness. The supervisor workspace includes a dashboard that provides insights into the agent's performance, including the percentage of leads handled by the agent, revenue generated from these leads, and customer engagement effectiveness. 
 
@@ -38,7 +40,8 @@ As a supervisor or administrator, you can monitor the performance of the Sales Q
 
    - **See disqualified leads**: Opens the **Leads disqualified by AI agent** view that lists leads that were disqualified by the agent during the selected time period. Open a lead to view the details of the disqualification in the **Lead insights** page. If you don't agree with the disqualification, select **Reassign** to assign the lead to a seller for follow-up and qualification.
 
-   - **See leads in process**: Opens the **Leads in process by AI agent** view that lists all leads that the agent is currently processing. This includes leads that are being researched and leads that are being engaged with (research and engage mode only).
+   - **See leads in process**: Opens the **Leads in process by AI agent** view that lists all leads that the agent is currently processing. This includes leads that are being researched and leads that are being engaged with (research and engage mode only). In the research and engage mode, leads might stay in the "In process" state for a longer time if the agent is waiting for a response from the lead.
+
    - **See handed over leads**: Opens the **Leads handed over by AI agent** view that lists all leads that were handed over to sellers for followup and qualification during the selected time period.
    
    > [!NOTE]
