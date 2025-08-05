@@ -32,7 +32,7 @@ After the 7.3 release is deployed in your environment, your existing Sales Quali
 
 - The agent can't process new leads until it's upgraded to 7.3.
 
-- For leads that are already processed by the agent, sellers can see the lead insights until the agent is reconfigured. Sellers will see a notification informing them that the admin needs to reconfigure the agent.
+- For leads that are already processed by the agent, sellers can see the lead insights until the agent is reconfigured and restarted. Sellers will see a notification informing them that the admin needs to reconfigure the agent.
 - When you upgrade or reconfigure the agent, existing agent settings are preserved.
 - After the agent is reconfigured, leads that fulfill the selection criteria will get processed:
     - If a lead that was previously processed by the agent still fulfills the selection criteria, the agent processes it again for research and generates the outreach email.

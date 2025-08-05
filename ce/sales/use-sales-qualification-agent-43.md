@@ -55,13 +55,13 @@ The agent processes the leads only once, unless significant changes are made to 
 
    - **Review email** opens a draft outreach email that the agent generated for you based on its insights. It's ready for you to send, but you should review it and make any needed changes before you send it. [Why don't I see the **Review email** or **Draft email** option?](sales-qualification-agent-faq-43.md#cant-see-email-options) in the Sales Qualification Agent FAQ.
 
-   - **More insights** opens the [**Lead insights** page](#lead-insights-page), which offers a 360-degree view of the lead and includes the date the agent last updated its research data.  
-     :::image type="content" source="media/lead-insights-page-annotated-43.png" alt-text="Screenshot of the Lead insights page showing the Sales Qualification Agent's insights about a lead with annotations.":::
+   - **More insights** opens the [**Lead research** page](#lead-research-page), which offers a 360-degree view of the lead and includes the date the agent last updated its research data.  
+     :::image type="content" source="media/lead-insights-page-annotated-43.png" alt-text="Screenshot of the Lead research page showing the Sales Qualification Agent's insights about a lead with annotations.":::
     The next section describes each annotated segment in the screenshot.
 
-### Lead insights page
+### Lead research page
 
-The **Lead insights** page includes the following information.
+The **Lead research** page includes the following information.
 
 
 | Number on the screenshot | Section                        | Description |
