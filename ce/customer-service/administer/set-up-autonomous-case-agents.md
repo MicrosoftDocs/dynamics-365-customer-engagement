@@ -56,6 +56,18 @@ To help the AI agent make better predictions for lookup fields, add descriptive 
    > [!NOTE]
    > The Subject entity includes a description field by default, but we recommend not using these descriptions for lookup predictions because subject lookup views are read-only.
 
+**Best practices for lookup descriptions**
+
+We recommend that you follow these guidelines when you are adding descriptions for lookup fields:
+
+- Use simple, direct language and keep the descriptions under two or three sentences to ensure clarity. Don't add unnecessary information or domain jargon.
+- Include typical scenarios, keywords, and phrases that users might use when describing their issue. This helps the AI agent to make semantic connections between user input and the correct record.
+- Distinguish between similar records by specifying what makes each record unique, preventing confusion and improving prediction accuracy.
+- Don’t repeat the record name unless it adds clarity. Specify what the name doesn't convey about the record's intended use and scope.
+- Use labeled sections like "Use when:" or "Not for:" to provide clear boundaries and usage guidelines for the AI agent.
+- Provide synonyms, related terms, and specific examples. Avoid terms such as "general" or "miscellaneous" that lack meaningful context.
+- Avoid overly generic descriptions, excessive detail, unexplained abbreviations, and assumptions about internal business logic that the AI agent can't access or understand.
+
 ## Configure autonomous case updates
 
 In the Copilot Service admin center, configure the AI agent to predict and update case fields during an ongoing conversation or when processing an incoming email. The rules you specify in this section apply to all channels unless you explicitly configure them to apply to specific channels.
