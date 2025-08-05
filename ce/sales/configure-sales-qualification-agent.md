@@ -110,10 +110,6 @@ The Sales Qualification Agent is available in two modes&mdash;Research-only mode
 1. (**Research and engage mode**) [Run simulation to review the agent's outreach emails](run-simulation-sqa-outreach-email.md) are customized and relevant to the leads.  
 1. After you are satisfied with the configuration, [start the agent](start-sales-qualification-agent.md).
 
-## View the agent's usage consumption
-
-After the agent is published, you can start monitoring the capacity it consumes and how much capacity is left. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new)
-
 ## Related information
 
 - [Sales Qualification Agent FAQ](sales-qualification-agent-faq.md)

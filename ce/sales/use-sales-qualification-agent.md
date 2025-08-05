@@ -1,7 +1,7 @@
 ---
 title: Work on leads handed over by the Sales Qualification Agent (preview)
 description: Learn how to work with leads handed over by the Sales Qualification Agent in Dynamics 365 Sales. Discover research insights, handover summaries, and recommended actions for effective lead management.
-ms.date: 08/04/2025
+ms.date: 08/05/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -118,10 +118,13 @@ The header section includes the same information in both Research-only and Resea
 
 This section includes the basic information about the lead:
 
-- **Lead information**: Provides key details about the lead, including topic, job title, company name, phone number, primary email address, and lead rating. Learn more about [how lead rating is calculated](sales-qualification-agent-concepts.md#how-does-the-agent-determine-the-lead-rating).
+- **Lead information**: Provides key details about the lead, including topic, job title, company name, phone number, and primary email address from the lead record. This section also includes the lead rating, which the agent calculates based on various factors. Learn more about [how lead rating is calculated](sales-qualification-agent-concepts.md#how-does-the-agent-determine-the-lead-rating).
 
-- **Connected accounts and contacts**: Select the link icon next to the lead's name to view the accounts and contacts that are connected to the lead. If the lead isn't connected to any account or contact, the agent automatically connects to the most relevant account and contact records based on the lead's email address, domain, and company name. If the connected records aren't accurate, select **Disconnect** to remove the connection and then connect the lead to a different account or contact.  
-If you manually connect a record, the agent uses that connection for future research.
+- **Connected accounts and contacts**: Select the link icon next to the lead's name to view the accounts and contacts that are connected to the lead. 
+    - If the lead isn't connected to any account, the agent automatically connects to the most relevant account by matching the lead's email address with the company and domain name.
+    - If the lead isn't connected to any contact, the agent automatically connects to the most relevant contact by matching the lead's email address with the existing contacts.
+   If the connected records aren't accurate, select **Disconnect** to remove the connection and then connect the lead to a different account or contact. The connected records are used to evaluate the lead's fit and generate outreach emails.  
+
 - **Email validation**: The agent performs checks on a lead's primary email address to ensure it is active, deliverable, and relevant for business communications. Checks include **Email validity** (properly formatted and deliverable; prompts for correction if invalid) and **Email type** (work or personal, labeled in the interface). You can mark the address as valid/invalid and work/personal by selecting the email icon.
 
 - **Research timestamp**: Displays the date and time when the agent last updated its research data for the lead. This helps you understand how current the insights are. The agent doesn't refresh the research data unless there's a change that significantly impacts the current evaluation of the lead. Learn more about the trigger events in [When does the agent run?](sales-qualification-agent-faq.md#when-does-the-agent-run)
@@ -134,8 +137,13 @@ The following screenshot shows the **Suggested action** section of the **Lead re
 
 This section summarizes the lead's alignment with the hand over criteria and provides recommended actions. Select the call-to-action button to take action. The following actions are available:
   
-- **Research-only mode**: The **Draft email** action lets you view the pre-generated outreach email and send it to the lead.  
-- **Research and engage mode**: The **Draft email** action lets you view the response to a pending inquiry from the lead, if any. The **Qualify** action lets you qualify the lead.
+**Research-only mode**: 
+    - **Draft email**: Displays the pre-generated outreach email that you can review and send to the lead.
+    - **Reassign**: Lets you reassign a disqualified lead to a seller if you think it is worth pursuing.
+**Research and engage mode**: 
+    - **Draft email**: Displays the email draft for following up with the lead. 
+    - **Qualify**: Lets you qualify the lead.
+    - **Reassign**: Lets you reassign a disqualified lead to a seller if you think it is worth pursuing.
 
 #### Key insights
 
@@ -147,7 +155,11 @@ The following screenshot shows the **Key insights** section of the **Lead resear
 
 - **Why this lead is rated hot, warm, or cold**: Summarizes the key reasons for rating the lead as hot, warm, or cold. See [How does the agent determine the lead rating?](sales-qualification-agent-concepts.md#how-does-the-agent-determine-the-lead-rating).
 
-- **How was this generated?**: Displays the signal strength and the series of steps that explains how the agent generated the insights. **Signal strength** indicates the quality and completeness of the input data used to generate the insights. The higher the signal strength, the more reliable the insights are. The following screenshot shows the signal strength and steps in Research-only mode.
+- **How was this generated?**: Displays the signal strength and the series of steps that the agent performed to generate the insights. 
+
+    - **Signal strength**: Indicates the completeness and reliability of the input data used to generate the insights. The higher the signal strength, the more reliable the insights are. The agent proactively flags when it lacks sufficient or reliable data to complete the research and make a strong recommendation. This helps you distinguish between weak signals due to poor data versus lack of interest from the lead.
+    - **Steps interpretation**: Includes the chain-of-thought reasoning that the agent used to generate the insights. This helps you understand how the agent arrived at its conclusions and recommendations.
+- The following screenshot shows the signal strength and steps in Research-only mode.
 
     :::image type="content" source="media/lead-insights-page-explainer.png" alt-text="Screenshot of the How was this generated section of the Lead research page in research-only mode.":::
 
