@@ -68,18 +68,16 @@ The lead handover process goes through the following stages:
         - The lead meets the ICP and BANT criteria, sends a positive response to the outreach email, or shows positive intent. In this case, you can review the research and engagement summary and qualify the lead if appropriate.
         - The agent can't detect the lead's intent. Review the research and engagement summary and follow up with the lead to determine their purchase intent.
         - The agent is blocked on the lead as it's unable to find the answer to the lead's question. Respond to the lead's question and follow up with the lead.
-    
-    If the lead doesn't meet the hand over criteria, the agent disqualifies the lead and notifies the supervisor. The lead continues to be assigned to the agent in this case.
-
     > [!NOTE]
     > If the assignment rule is set to assign leads to a team, the agent assigns the lead in a round-robin fashion to the team members.
+    
+1. If the lead doesn't meet the hand over criteria, the agent disqualifies the lead and notifies the supervisor. The lead continues to be assigned to the agent in this case.
 
 ## View leads handed over by the agent
 
 If you're a seller, you get notified when a lead is handed over to you. If you missed that, follow the steps in this section to view the leads handed over by the Sales Qualification Agent.
 
-> [!NOTE]
-> If you're a supervisor, you get notified when a lead is disqualified by the agent. Learn more in [Monitor leads handled by the Sales Qualification Agent (preview)](monitor-leads-by-sales-qualification-agent.md).
+If you're a supervisor, you get notified when a lead is disqualified by the agent. Learn more in [View leads disqualified by the agent](#view-leads-disqualified-by-the-agent) and [Monitor leads handled by the Sales Qualification Agent (preview)](monitor-leads-by-sales-qualification-agent.md).
 
 1. In the Sales Hub app, go to **Leads**.
 
@@ -87,23 +85,36 @@ If you're a seller, you get notified when a lead is handed over to you. If you m
    > [!NOTE]
    > The agents hands over leads that [meet the handoff criteria](configure-sales-qualification-agent-handoff-criteria.md) defined by your admin. 
 1. Select a lead.
-   - If you're in the focused view, you'll see the **Lead insights** page for the lead.
+   - If you're in the focused view, you'll see the **Lead research** page for the lead.
 
    - If you're in the read-only grid view, you'll see the lead form. Wait for a few seconds for the page to load the research summary at the top of the lead form.  
     :::image type="content" source="media/lead-research-insights-summary.png" alt-text="Screenshot of the lead research insights summary at the top of the lead form.":::
 
       The summary includes recommended actions and reasons for recommendation.  
-1. Select **See full research** to view the **Lead insights** page.
+1. Select **See full research** to view the [**Lead research** page](#lead-research-page).
 
-### Lead insights page
+## View leads disqualified by the agent
 
-The **Lead insights** page offers a 360-degree view of the lead, key insights, and provides recommended actions. Most of the insights are the same in both modes of the agent. In the following sections, we highlight the differences where applicable.
+Leads disqualified by the agent are not handed over to sellers. If you're a supervisor, you can view these leads to understand why the agent disqualified them and reassign them to a seller if you think they are worth pursuing.
+
+1. In the Sales Hub app, go to **Leads**.
+
+1. From the views drop-down, select **Leads disqualified by AI Agent**.
+   > [!NOTE]
+   > Though this view is meant for supervisors, it is also available to sellers unless your admin has set the `EnableRoleBasedSystemViews` setting to **true**.
+1. Open a lead to view the reason for disqualification. The reason is displayed in the **Lead research** page under the **Suggested action** section.
+1. If you think the lead is worth pursuing, select **Reassign** to assign it to a seller.
+   The lead is handed over to a seller based on the [assignment rule configured by the admin](configure-sqa-assignment-rules.md).
+
+### Lead research page
+
+The **Lead research** page offers a 360-degree view of the lead, key insights, and provides recommended actions. Most of the insights are the same in both modes of the agent. In the following sections, we highlight the differences where applicable.
 
 #### Header
 
-The header section includes the same information in both Research-only and Research and engage modes. The following screenshot shows the header of the **Lead insights** page:
+The header section includes the same information in both Research-only and Research and engage modes. The following screenshot shows the header of the **Lead research** page:
 
-:::image type="content" source="media/leads-insights-page-header.png" alt-text="Screenshot of the header of the Lead insights page in research and engage mode.":::
+:::image type="content" source="media/leads-insights-page-header.png" alt-text="Screenshot of the header of the Lead research page in research and engage mode.":::
 
 This section includes the basic information about the lead:
 
@@ -117,9 +128,9 @@ If you manually connect a record, the agent uses that connection for future rese
 
 #### Suggested action
 
-The following screenshot shows the **Suggested action** section of the **Lead insights** page in research and engage mode as an example.
+The following screenshot shows the **Suggested action** section of the **Lead research** page in research and engage mode as an example.
 
-:::image type="content" source="media/lead-insights-page-suggested-action.png" alt-text="Screenshot of the Suggested action section of the Lead insights page in research and engage mode.":::
+:::image type="content" source="media/lead-insights-page-suggested-action.png" alt-text="Screenshot of the Suggested action section of the Lead research page in research and engage mode.":::
 
 This section summarizes the lead's alignment with the hand over criteria and provides recommended actions. Select the call-to-action button to take action. The following actions are available:
   
@@ -128,9 +139,9 @@ This section summarizes the lead's alignment with the hand over criteria and pro
 
 #### Key insights
 
-The following screenshot shows the **Key insights** section of the **Lead insights** page in Research and engage mode as an example.
+The following screenshot shows the **Key insights** section of the **Lead research** page in Research and engage mode as an example.
 
-:::image type="content" source="media/lead-insights-page-key-insights.png" alt-text="Screenshot of the Key insights section of the Lead insights page in research and engage mode.":::
+:::image type="content" source="media/lead-insights-page-key-insights.png" alt-text="Screenshot of the Key insights section of the Lead research page in research and engage mode.":::
 
 - **What happened to this lead? (Available only in Research and engage mode)**: Includes an interaction summary that outlines any CRM activities such as emails, phone calls, appointments, and Customer Insights - Journeys interactions that the agent had with the lead. This section helps the seller quickly get up to speed with all the interactions between the agent and the lead.
 
@@ -138,7 +149,7 @@ The following screenshot shows the **Key insights** section of the **Lead insigh
 
 - **How was this generated?**: Displays the signal strength and the series of steps that explains how the agent generated the insights. **Signal strength** indicates the quality and completeness of the input data used to generate the insights. The higher the signal strength, the more reliable the insights are. The following screenshot shows the signal strength and steps in Research-only mode.
 
-    :::image type="content" source="media/lead-insights-page-explainer.png" alt-text="Screenshot of the How was this generated section of the Lead insights page in research-only mode.":::
+    :::image type="content" source="media/lead-insights-page-explainer.png" alt-text="Screenshot of the How was this generated section of the Lead research page in research-only mode.":::
 
 #### Deeper insights
 
@@ -149,21 +160,6 @@ The agent searches the public web for information about the lead’s company. If
 - **Overview:** Fetches general information about the lead’s company, such as industry, location, company size, products and services sold, and whether it is B2B or B2C. Outlines the company’s strategic priorities and how those relate to your offerings.
 - **Finances:** Summarizes the company’s financial health, outlines key financial metrics, and interprets what they mean for your sales approach.
 - **News:** Summarizes up to three recent news articles and explains how they relate to your offerings.
-
-
-## View leads disqualified by the agent
-
-Leads disqualified by the agent are not handed over to sellers. If you're a supervisor, you can view these leads to understand why the agent disqualified them and reassign them to a seller if you think they are worth pursuing.
-
-1. In the Sales Hub app, go to **Leads**.
-
-1. From the views drop-down, select **Leads disqualified by AI Agent**.
-   > [!NOTE]
-   > Though this view is meant for supervisors, it is also available to sellers unless your admin has set the `EnableRoleBasedSystemViews` setting to **true**.
-1. Open a lead to view the reason for disqualification. The reason is displayed in the **Lead insights** page under the **Suggested action** section.
-1. If you think the lead is worth pursuing, select **Reassign** to assign it to a seller.
-   The lead is handed over to a seller based on the [assignment rule configured by the admin](configure-sqa-assignment-rules.md).
-
 
 ## Related information
 
