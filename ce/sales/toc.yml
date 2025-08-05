@@ -821,12 +821,12 @@ items:
             href: use-zoominfo-app-data.md
           - name: Scan business cards
             href: scan-business-cards.md
-      - name: Use Copilot
+      - name: Use Copilot and AI agents
         items:
-          - name: Copilot overview
-            href: copilot-overview.md
           - name: Use Copilot in Dynamics 365
             items:
+              - name: Copilot overview
+                href: copilot-overview.md
               - name: Ask Copilot questions
                 href: use-sales-copilot.md
               - name: Prompt guide reference
@@ -841,8 +841,26 @@ items:
                 href: copilot-get-doc-suggestions.md
               - name: Default attributes used in Copilot summaries
                 href: understand-copilot-summaries.md
-          - name: Copilot in Dynamics 365 Sales FAQ
-            href: sales-copilot-faq.md
+              - name: Copilot in Dynamics 365 Sales FAQ
+                href: sales-copilot-faq.md
+          - name: Sales Qualification Agent (preview)
+            items:
+              - name: Overview
+                href: sales-qualification-agent.md
+              - name: Work on leads handed over by the Sales Qualification Agent
+                href: use-sales-qualification-agent.md
+              - name: Monitor leads handled by the Sales Qualification Agent
+                href: monitor-leads-by-sales-qualification-agent.md
+              - name: FAQ about Sales Qualification Agent
+                href: sales-qualification-agent-faq.md
+          - name: Opportunity Research Agent (preview)
+            items:
+              - name: Overview
+                href: opportunity-research-agent.md
+              - name: Work on opportunities researched by Opportunity Research Agent
+                href: use-opportunity-research-agent.md
+              - name: FAQs about Opportunity Research Agent
+                href: opportunity-research-agent-faqs.md
       - name: Overview of focused view
         href: configure-focused-view.md
         items:
@@ -965,16 +983,6 @@ items:
             href: work-invalid-email-addresses.md
           - name: Prioritize leads using predictive scores
             href: work-predictive-lead-scoring.md
-          - name: Sales Qualification Agent (preview)
-            items:
-              - name: Overview
-                href: sales-qualification-agent.md
-              - name: Work on leads handed over by the Sales Qualification Agent
-                href: use-sales-qualification-agent.md
-              - name: Monitor leads handled by the Sales Qualification Agent
-                href: monitor-leads-by-sales-qualification-agent.md
-              - name: FAQ about Sales Qualification Agent
-                href: sales-qualification-agent-faq.md
           - name: Populate scores using your own model
             href: populate-predictive-scores.md
           - name: Qualify or convert leads
@@ -1008,14 +1016,6 @@ items:
                 href: add-stakeholder.md
               - name: Move the opportunity through different stages
                 href: move-opportunity-stages.md
-          - name: Opportunity Research Agent (preview)
-            items:
-              - name: Overview
-                href: opportunity-research-agent.md
-              - name: Work on opportunities researched by Opportunity Research Agent
-                href: use-opportunity-research-agent.md
-              - name: FAQs about Opportunity Research Agent
-                href: opportunity-research-agent-faqs.md
           - name: Prioritize opportunities using predictive scores
             href: work-predictive-opportunity-scoring.md
           - name: Opportunity pipeline view
@@ -1026,8 +1026,6 @@ items:
                 href: personalize-pipeline-view.md
           - name: Work with opportunities in the Kanban view
             href: opportunity-kanban-view.md
-          - name: Work on opportunities handed over by the Sales Qualification Agent
-            href: use-sales-qualification-agent.md
           - name: Price calculation for opportunity, quote, order, and invoice records
             href: price-calculation-opportunity-quote-order-invoice-records.md
           - name: How are stakeholders and sales team members tracked for opportunities?
