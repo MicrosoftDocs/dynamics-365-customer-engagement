@@ -24,7 +24,7 @@ The Case Management Agent follows up with customers over email. If customers don
 ## Prerequisites
 
 - Administrators must have the CSR Manager or System Administrator role.
-[!INCLUDE [cc-case-management-agent.md](../../includes/cc-feature-availability-embedded-yes.md)]
+- [!INCLUDE [cc-case-management-agent.md](../../includes/cc-feature-availability-embedded-yes.md)]
 
 ## Configure autonomous case follow-up and closure
 
