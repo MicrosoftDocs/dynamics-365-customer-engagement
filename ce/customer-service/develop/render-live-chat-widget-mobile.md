@@ -17,13 +17,31 @@ ms.custom:
 
 # Customize live chat widgets for mobile apps
 
+You have two options for integrating messaging in your native mobile app:
 
-If the live chat SDK does not meet your requirements, then you can embed a widget code in your mobile app. However, embedding a chat widget code has many limitations such as reduced performance, limited mobile usability, and unavailable features.
+* Use our native mobile SDKs for iOS and Android
+* Use the web widget inside an WebView
 
-> [!NOTE]
-> Live chat widget features&mdash;escalating to voice and video, and downloading the chat transcript&mdash;aren't supported on mobile apps.
+We strongly recommend using the native mobile SDKs, as they deliver superior feature support and performance.
+
+## Integrate with the Dynamics Contact Center Mobile SDKs
+
+The mobile SDKs and their documentation are hosted on Github:
+
+* [Contact Center Messaging SDK - Android | Github](https://github.com/microsoft/ContactCenterMessagingSDK-android)
+* [Contact Center Messaging SDK - iOS | Github](https://github.com/microsoft/ContactCenterMessagingSDK-ios)
+
+The SDKs contain:
+* An example application to help you get started
+* A configurable, out of the box messaging interface
+* A full set of messaging lifecycle functions for integrating a bespoke messaging UI, if desired
+* Support for push notifications with Azure Notification Hub
+
+We strongly recommend using authenticated, persistent chat with the Messaging SDKs. This provides the best customer experience for mobile usage patterns.
 
 ## Render the live chat widget using embedded code
+
+If the Mobile Messaging SDKs do not meet your requirements or timelines, then you can embed a web widget in your mobile app. However, embedding a chat widget code has many limitations such as reduced performance, limited mobile usability, and unavailable features.
 
 A `WebView` is an embedded browser that enables a native application to display web content. Use the `WebView` component of your mobile operating system language to enable rendering of the web version of the chat widget on mobile devices. The WebView capability is offered on both Android and iOS.
 
@@ -90,6 +108,9 @@ chatWebView.evaluateJavascript(
 ```
 
 When the chat is closed, the live chat widget triggers the [lcw:closeChat](reference/events/lcw-closechat.md) event. You can listen for this event, and perform any post-chat steps if required.
+
+> [!NOTE]
+> Some live chat widget features&mdash;escalating to voice and video, and downloading the chat transcript&mdash;aren't supported through a webview.
 
 ### Related information
 
