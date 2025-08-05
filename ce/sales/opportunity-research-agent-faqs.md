@@ -1,7 +1,7 @@
 ---
 title: FAQs about Opportunity Research Agent (preview)
 description: Get to know answers to frequently asked questions about the Opportunity Research Agent in Dynamics 365 Sales.
-ms.date: 08/04/2025
+ms.date: 08/05/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -62,4 +62,8 @@ Depending on the missing insights, add the relevant information to the opportuni
 
 ## What happens when I edit the agent settings while the agent is running?
 
-When you edit the settings of the Opportunity Research Agent, the agent goes into Draft state and stops processing new opportunities. Opportunities that are currently being processed will continue to be researched.
+When you edit the settings of the Opportunity Research Agent, the agent goes into `Draft` state and stops processing new opportunities. Opportunities that are currently being processed will continue to be researched. After the research is complete, the research insights will be available in the opportunity record. After you save and restart the agent, it will start processing new opportunities based on the updated settings.
+
+## What happens when I stop the agent?
+
+When you stop the Opportunity Research Agent, it goes into `Paused` state. The agent stops processing new opportunities. Opportunities that are currently being processed will complete the current step but might not complete the full research. The research insights for these opportunities will not be available in the opportunity record.
