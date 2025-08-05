@@ -60,6 +60,6 @@ This message indicates that the agent doesn't have enough data to provide insigh
 Depending on the missing insights, add the relevant information to the opportunity, such as competitors, connected accounts, or stakeholders.
 
 
-## What happens if I edit the Opportunity Research Agent settings after the agent has started?
+## What happens when I edit the agent settings while the agent is running?
 
 When you edit the settings of the Opportunity Research Agent, the agent goes into Draft state and stops processing new opportunities. Opportunities that are currently being processed will continue to be researched.
