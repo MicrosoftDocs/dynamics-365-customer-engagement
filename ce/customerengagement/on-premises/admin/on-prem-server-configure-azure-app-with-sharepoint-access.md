@@ -196,7 +196,7 @@ END CATCH
 
 4. Confirm by running the select query `SELECT *  FROM [PartnerApplicationBase]`and verifying the **PartnerApplicationId** and **TenantId** fields.
 
-#### Add the server-to-server certificate to the local certificate store and Customer Engagement (on-premises) configuration database
+## Add the server-to-server certificate to the local certificate store and Customer Engagement (on-premises) configuration database
 
 1.  Open a PowerShell command session on all servers where the Dynamics 365 Server Full Server role is installed. 
  
