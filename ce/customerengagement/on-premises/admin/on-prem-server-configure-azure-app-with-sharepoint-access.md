@@ -223,7 +223,7 @@ END CATCH
         
 
         > [!IMPORTANT]
-        > <P>Even if you have multiple Web Application Server or Asynchronous Service roles deployed, you only need to run the command with the updateCrm parameter once.</P>
+        > Even if you have multiple Web Application Server or Asynchronous Service roles deployed, you only need to run the command with the updateCrm parameter once.
 
     
       - *storeFindType FindBySubjectDistinguishedName*. Specifies the type of certificate store. By default, this value is FindBySubjectDistinguishedName and is recommended when you run the script.
