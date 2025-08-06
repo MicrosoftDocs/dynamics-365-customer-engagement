@@ -6,25 +6,16 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to 
 ms.collection: 
-ms.date: 05/27/2025
+ms.date: 08/06/2025
 ms.custom: bap-template
 ---
 
 # Configure time-out rules
 
-Time-out rules are useful settings that administrators can configure to enact certain automatic actions when conditions are met. The time-out rules can help businesses run their operations smoothly and meet the required service-level agreements (SLAs) when they connect with their customers through persistent chat and asynchronous messaging channels. Sometimes, AI agents are used as an equivalent to the customer service representative (service representative or representative) persona.
+Time-out rules are useful settings that administrators can configure to enact certain automatic actions when conditions are met. The time-out rules can help businesses run their operations smoothly and meet the required service-level agreements (SLAs) when they connect with their customers through the messaging channels. Sometimes, AI agents are used as an equivalent to the customer service representative (service representative or representative) persona.
 
-The following channels only are supported:
-
-- Persistent chat
-- SMS
-- Microsoft Teams
-- Social channels
-    - WhatsApp
-    - LINE
-    - Messenger
-    - WeChat
-    - Apple Messages for Business 
+> [!NOTE]
+> Time-out rules support live chat and all messaging channels except the voice channel.
 
 ## Prerequisite
 
@@ -32,10 +23,7 @@ The Omnichannel Administrator role.
 
 ## Configure the time-out rules
 
-For the automatic actions to run, set up the time-out rules per workstream. You can configure rules to perform the following actions:
-
-- **Send a message**: The system sends a message to the customer or agent based on the customer's idle time. You can send a reminder message to the customer to respond or a message to the agent to speed up their research to relay back to the customer.
-- **Automatically close the conversation**: Automatically closes the conversation after the configured minutes of customer’s idle time is passed. This frees the agent's capacity to help other customers waiting in the queue and closes the conversation so that it's not in the Waiting state.
+For the automatic actions to run, set up the time-out rules per workstream.
 
 1. In your Dynamics 365 Customer Service instance, open Copilot Service admin center.
 
@@ -60,7 +48,7 @@ For the automatic actions to run, set up the time-out rules per workstream. You 
       - **Custom automated message**: Select the language code in the **Select language** list, and enter a message text that you want to display to the agent or customer.
       - Repeat the steps to configure the message text in other languages.
       - In **Default / Fallback**, select a language to be the default language if the languages that you configure don't match the language set in the workstream.
-           
+
         :::image type="content" source="../media/timeout-rule-action.png" alt-text="Screenshot of time-out rule action settings.":::
 
    - **Close conversation**: Closes the [conversation automatically](auto-close-conversation-powerapps.md) based on the duration that's set for the channel. The conversation moves from open, active, or waiting to the closed state and the system frees the representative capacity.
