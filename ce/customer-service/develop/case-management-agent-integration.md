@@ -1,7 +1,6 @@
 ---
 title: Integrate Case Management Agent with custom Copilot Studio agents (preview)
-
-description: Learn how to set up autonomous Case Management Agent to help customer support teams efficiently handle case management tasks.
+description: Learn how to integrate autonomous Case Management Agent with custom Copilot Studio agents.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

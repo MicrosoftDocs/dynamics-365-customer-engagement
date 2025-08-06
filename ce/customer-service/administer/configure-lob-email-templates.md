@@ -72,4 +72,4 @@ A service representative works on a case with the case title, "Contoso coffee CX
 
 ## Related information
 
-[Draft an email in rich text editor](dynamics365/contact-center/use/use-copilot-email#use-copilot-to-draft-an-email)
+[Draft an email in rich text editor](/dynamics365/contact-center/use/use-copilot-email#use-copilot-to-draft-an-email)
