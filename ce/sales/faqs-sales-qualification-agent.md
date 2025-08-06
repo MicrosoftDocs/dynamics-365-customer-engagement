@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ about the Research-only mode of Sales Qualification Agent (preview)
 description: Get answers to frequently asked questions about the use of AI in the Research Agent (part of Sales Qualification Agent) in Dynamics 365 Sales.
-ms.date: 08/01/2025
+ms.date: 08/06/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.topic: faq
