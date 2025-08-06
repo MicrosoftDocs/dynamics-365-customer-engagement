@@ -97,13 +97,12 @@ Goal: Contoso’s sales operations team wants the agent to decide if a lead’s 
 | Recent news          | Bloomberg RSS feed for the prospect’s company                                     | Upload the RSS XML file or connect via a news API                                            |
 | Strategic priorities | Contoso analyst reports stored in a SharePoint library                            | Add SharePoint URL                                                                           |
 
-After you publish the knowledge sources, the agent: 
+After you publish the knowledge sources, the agent:
 
-- Pulls NetWorth from the SharePoint list to decide if the lead meets the High Net Worth threshold.
-
-- Uses Dunn & Bradstreet’s high-quality data to augment public sources. 
+- Fetches NetWorth from the SharePoint list to decide if the lead meets the high-net-worth threshold.
+- Uses Dunn & Bradstreet’s high-quality data to augment public sources.  
 - Surfaces company priorities from the analyst reports to suggest relevant investment products.
-- Quotes the latest Bloomberg headline in the Recent news card. 
+- Quotes the latest Bloomberg headline in the latest news card.  
 - Generates an email that references the lead’s net-worth range and a recent strategic move.
 
 ## Best practices

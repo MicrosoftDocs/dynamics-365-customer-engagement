@@ -52,6 +52,9 @@ As the agent consumes capacity, it's important to plan and configure it to handl
   - Opportunity Research Indicator (msdyn_OpportunityResearchIndicator)
   - Opportunity Research Agent Trigger (OpportunityResearchAgentTrigger)
   - Opportunity Research User Interactions (OpportunityResearchUserInteractions)
+  - Sales Agent Configuration v2 (prvReadmsdyn_salesagentconfigurationv2)
+  - Sales Agent Profile (prvReadmsdyn_salesagentprofile)
+
 - Turn on AI prompts feature in Power Platform and Copilot Studio. Learn more in [Enable AI prompts in Power Platform and Copilot Studio](/ai-builder/administer#enable-or-disable-ai-prompts-in-power-platform-and-copilot-studio).
 
 ### Configure server-side synchronization
