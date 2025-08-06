@@ -12,19 +12,10 @@ ms.custom: bap-template
 
 # Configure time-out rules
 
-Time-out rules are useful settings that administrators can configure to enact certain automatic actions when conditions are met. The time-out rules can help businesses run their operations smoothly and meet the required service-level agreements (SLAs) when they connect with their customers through persistent chat and asynchronous messaging channels. Sometimes, AI agents are used as an equivalent to the customer service representative (service representative or representative) persona.
+Time-out rules are useful settings that administrators can configure to enact certain automatic actions when conditions are met. The time-out rules can help businesses run their operations smoothly and meet the required service-level agreements (SLAs) when they connect with their customers through the messaging channels. Sometimes, AI agents are used as an equivalent to the customer service representative (service representative or representative) persona.
 
-The following channels only are supported:
-
-- Persistent chat
-- SMS
-- Microsoft Teams
-- Social channels
-   - WhatsApp
-   - LINE
-   - Messenger
-   - WeChat
-   - Apple Messages for Business
+> [!NOTE]
+> Time-out rules support live chat and all messaging channels except the voice channel.
 
 ## Prerequisite
 
