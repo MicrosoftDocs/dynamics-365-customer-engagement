@@ -1,6 +1,6 @@
 ---
 title: Sales Qualification Agent overview (pre-7.3 version)
-description: Learn how the Sales Qualification Agent in Dynamics 365 Sales can be your personal assistant in qualifying leads and improving sales outcomes.
+description: Learn how the pre-7.3 version of the Sales Qualification Agent in Dynamics 365 Sales can be your personal assistant in qualifying leads and improving sales outcomes.
 ms.date: 08/01/2025
 ms.update-cycle: 180-days
 ms.topic: overview
@@ -20,8 +20,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-> [!NOTE]
-> This article is for the version of Sales Qualification Agent that was part of the April 2025 public preview. The latest version of the agent is available in 9.0.25073.10001 (7.3) release. To know the version in your organization, check the **Server version** in **Settings** > **About** in the Sales Hub app. To check your deployment schedule, go to [Latest version availability](/dynamics365/released-versions/dynamics365sales#latest-version-availability) and look for the 9.0.25073.10001 version. If your org has the latest version, your existing agent will be in the Draft mode and you must [reconfigure it](upgrade-sales-qualification-agent.md) to use the agent. Learn more about the latest version in [Sales Qualification Agent overview](sales-qualification-agent.md).
+[!INCLUDE[sqa-43-note](../includes/sqa-43-note.md)]
 
 As a seller, you know that qualifying leads is crucial to your success, but it takes up a lot of your time. The Sales Qualification Agent in Dynamics 365 Sales is an AI assistant that automates the manual aspects of lead qualification. It doesn't replace your judgment or decision-making process. It's a productivity tool that helps you qualify leads faster and more effectively, so that you can invest more time in one-on-one interactions with top leads.
 
@@ -40,7 +39,7 @@ The Sales Qualification Agent helps you focus on the most promising leads and im
 The Sales Qualification Agent uses the capacity assigned to your tenant to process leads and generate insights. You can set up either prepaid capacity or pay-as-you-go capacity for the agent. Use the following resources to learn more about setting up capacity and monitoring usage: 
 
 - [Manage consumption-based billing for agent capabilities](copilot-consumption-based-billing.md)
-- [View the agent's usage consumption](configure-sales-qualification-agent-43.md#view-the-agents-usage-consumption)
+- [View the agent's usage consumption](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new#use-the-summary-tab)
 
 ## Responsible AI
 
