@@ -27,6 +27,10 @@ As an admin, you need to set up the Sales Qualification Agent before your seller
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
+Watch the following video to get an overview of the configuration process for the Sales Qualification Agent:
+
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=5148e4b9-f0d1-43e9-93b5-484c8f446c3c]
+
 ## Prerequisites
 
 Ensure that the following prerequisites are met:  

@@ -97,7 +97,7 @@ Goal: Contoso’s sales operations team wants the agent to decide if a lead’s 
 | Recent news          | Bloomberg RSS feed for the prospect’s company                                     | Upload the RSS XML file or connect via a news API                                            |
 | Strategic priorities | Contoso analyst reports stored in a SharePoint library                            | Add SharePoint URL                                                                           |
 
-After publishing, the agent: 
+After you publish the knowledge sources, the agent: 
 
 - Pulls NetWorth from the SharePoint list to decide if the lead meets the High Net Worth threshold.
 
