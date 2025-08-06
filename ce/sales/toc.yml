@@ -136,6 +136,91 @@ items:
         href: admin-guide.yml
       - name: Access admin settings
         href: admin-settings-overview.md
+      - name: Autonomous AI agents
+        items:
+          - name: Sales Qualification Agent
+            items:
+              - name: Sales Qualification Agent 7.3 (preview)
+                items:
+                  - name: Overview
+                    href: sales-qualification-agent.md
+                  - name: Set up and configure the agent
+                    href: configure-sales-qualification-agent.md
+                    items:
+                      - name: Open the settings page
+                        href: open-sales-qualification-agent-settings.md
+                      - name: Configure general settings
+                        href: sales-qualification-agent-general-settings.md
+                      - name: Configure selection criteria
+                        href: sales-qualification-agent-selection-criteria.md
+                      - name: Configure email instructions and address validation
+                        href: sales-qualification-agent-email-instruction-validation.md
+                      - name: Configure handoff criteria
+                        href: configure-sales-qualification-agent-handoff-criteria.md
+                      - name: Configure assignment rules
+                        href: configure-sqa-assignment-rules.md
+                      - name: Configure knowledge source
+                        href: configure-sqa-knowledge-source.md
+                      - name: Run simulation to review outreach email content
+                        href: run-simulation-sqa-outreach-email.md
+                  - name: Start the agent
+                    href: start-sales-qualification-agent.md
+                  - name: Upgrade the agent
+                    href: upgrade-sales-qualification-agent.md
+                  - name: Manage the agent
+                    href: manage-sales-qualification-agent.md
+                  - name: Configure requirements for Sales Qualification Agent
+                    href: configure-requirements-for-sqa-agent.md
+                  - name: Understand Sales Qualification Agent concepts
+                    href: sales-qualification-agent-concepts.md
+                  - name: Manage consumption-based billing
+                    href: copilot-consumption-based-billing.md
+                  - name: Sales Qualification Agent FAQ
+                    href: sales-qualification-agent-faq.md
+                  - name: Test the Sales Qualification Agent
+                    href: test-sales-qualification-agent.md
+              - name: Sales Qualification Agent (pre-7.3 version)
+                items:
+                  - name: Overview (pre-7.3 version)
+                    href: sales-qualification-agent-43.md
+                  - name: Set up and configure the agent (pre-7.3 version)
+                    href: configure-sales-qualification-agent-43.md
+                  - name: Work on leads researched by the agent (pre-7.3 version)
+                    href: use-sales-qualification-agent-43.md
+                  - name: Sales Qualification Agent FAQ (pre-7.3 version)
+                    href: sales-qualification-agent-faq-43.md
+                  - name: Responsible AI FAQs about the agent (pre-7.3 version)
+                    href: faqs-sales-qualification-agent-43.md
+          - name: Opportunity Research Agent (preview)
+            items:
+              - name: Overview
+                href: opportunity-research-agent.md
+              - name: Configure Opportunity Research Agent
+                href: configure-opportunity-research-agent.md
+          - name: Copilot Studio agents and Entra app registrations
+            href: ai-agents-apps.md
+      - name: Copilot in Dynamics 365 Sales
+        items:
+          - name: Copilot overview
+            href: copilot-overview.md
+          - name: Configure fields for summary and recent changes
+            href: copilot-configure-summary-fields.md
+          - name: Turn on and set up Copilot in Dynamics 365 Sales
+            href: enable-setup-copilot.md
+          - name: Configure fields for what's new
+            href: copilot-configure-whatsnew-field.md
+          - name: Configure Copilot to use SharePoint sites
+            href: copilot-sharepoint-config.md
+          - name: Enable Copilot email assist
+            href: enable-copilot-email-assist.md
+          - name: Turn on Copilot preview features
+            href: copilot-preview-features.md
+          - name: Customize Copilot in Dynamics 365 Sales
+            href: extend-copilot-chat.md
+          - name: Copilot in Dynamics 365 Sales FAQ
+            href: sales-copilot-faq.md
+          - name: Connect to Dynamics 365 Sales with Model Context Protocol (preview)
+            href: connect-to-model-context-protocol-sales.md
       - name: Digital selling capabilities in Sales Enterprise
         items:
           - name: Overview
@@ -172,93 +257,6 @@ items:
                 href: match-fields-between-dynamics365-zoominfo.md
               - name: Customize the ZoomInfo app
                 href: customize-zoominfo-app.md
-      - name: Set up Copilot and AI agents
-        items:
-          - name: Copilot
-            items:
-              - name: Copilot overview
-                href: copilot-overview.md
-              - name: Configure fields for summary and recent changes
-                href: copilot-configure-summary-fields.md
-              - name: Turn on and set up Copilot in Dynamics 365 Sales
-                href: enable-setup-copilot.md
-              - name: Configure fields for what's new
-                href: copilot-configure-whatsnew-field.md
-              - name: Configure Copilot to use SharePoint sites
-                href: copilot-sharepoint-config.md
-              - name: Enable Copilot email assist
-                href: enable-copilot-email-assist.md
-              - name: Turn on Copilot preview features
-                href: copilot-preview-features.md
-              - name: Customize Copilot in Dynamics 365 Sales
-                href: extend-copilot-chat.md
-              - name: Copilot in Dynamics 365 Sales FAQ
-                href: sales-copilot-faq.md
-              - name: Connect to Dynamics 365 Sales with Model Context Protocol (preview)
-                href: connect-to-model-context-protocol-sales.md
-          - name: Autonomous AI agents
-            items:
-              - name: Sales Qualification Agent
-                items:
-                  - name: Sales Qualification Agent (preview)
-                    items:
-                      - name: Overview
-                        href: sales-qualification-agent.md
-                      - name: Set up and configure the agent
-                        href: configure-sales-qualification-agent.md
-                        items:
-                          - name: Open the settings page
-                            href: open-sales-qualification-agent-settings.md
-                          - name: Configure general settings
-                            href: sales-qualification-agent-general-settings.md
-                          - name: Configure selection criteria
-                            href: sales-qualification-agent-selection-criteria.md
-                          - name: Configure email instructions and address validation
-                            href: sales-qualification-agent-email-instruction-validation.md
-                          - name: Configure handoff criteria
-                            href: configure-sales-qualification-agent-handoff-criteria.md
-                          - name: Configure assignment rules
-                            href: configure-sqa-assignment-rules.md
-                          - name: Configure knowledge source
-                            href: configure-sqa-knowledge-source.md
-                          - name: Run simulation to review outreach email content
-                            href: run-simulation-sqa-outreach-email.md
-                      - name: Start the agent
-                        href: start-sales-qualification-agent.md
-                      - name: Upgrade the agent
-                        href: upgrade-sales-qualification-agent.md
-                      - name: Manage the agent
-                        href: manage-sales-qualification-agent.md
-                      - name: Configure requirements for Sales Qualification Agent
-                        href: configure-requirements-for-sqa-agent.md
-                      - name: Understand Sales Qualification Agent concepts
-                        href: sales-qualification-agent-concepts.md
-                      - name: Manage consumption-based billing
-                        href: copilot-consumption-based-billing.md
-                      - name: Sales Qualification Agent FAQ
-                        href: sales-qualification-agent-faq.md
-                      - name: Test the Sales Qualification Agent
-                        href: test-sales-qualification-agent.md
-                  - name: Sales Qualification Agent (pre-7.3 version)
-                    items:
-                      - name: Overview (pre-7.3 version)
-                        href: sales-qualification-agent-43.md
-                      - name: Set up and configure the agent (pre-7.3 version)
-                        href: configure-sales-qualification-agent-43.md
-                      - name: Work on leads researched by the agent (pre-7.3 version)
-                        href: use-sales-qualification-agent-43.md
-                      - name: Sales Qualification Agent FAQ (pre-7.3 version)
-                        href: sales-qualification-agent-faq-43.md
-                      - name: Responsible AI FAQs about the agent (pre-7.3 version)
-                        href: faqs-sales-qualification-agent-43.md
-              - name: Opportunity Research Agent (preview)
-                items:
-                  - name: Overview
-                    href: opportunity-research-agent.md
-                  - name: Configure Opportunity Research Agent
-                    href: configure-opportunity-research-agent.md
-              - name: Copilot Studio agents and Entra app registrations
-                href: ai-agents-apps.md
       - name: Overview of focused view
         href: configure-focused-view.md
         items:
@@ -790,6 +788,46 @@ items:
     items:
       - name: Help resources for sellers
         href: user-guide.yml
+      - name: Autonomous AI agents
+        items:
+        - name: Sales Qualification Agent (preview)
+          items:
+            - name: Overview
+              href: sales-qualification-agent.md
+            - name: Work on leads handed over by the Sales Qualification Agent
+              href: use-sales-qualification-agent.md
+            - name: Monitor leads handled by the Sales Qualification Agent
+              href: monitor-leads-by-sales-qualification-agent.md
+            - name: FAQ about Sales Qualification Agent
+              href: sales-qualification-agent-faq.md
+        - name: Opportunity Research Agent (preview)
+          items:
+            - name: Overview
+              href: opportunity-research-agent.md
+            - name: Work on opportunities researched by Opportunity Research Agent
+              href: use-opportunity-research-agent.md
+            - name: FAQs about Opportunity Research Agent
+              href: opportunity-research-agent-faqs.md
+      - name: Use Copilot in Dynamics 365 Sales
+        items:
+          - name: Copilot overview
+            href: copilot-overview.md
+          - name: Ask Copilot questions
+            href: use-sales-copilot.md
+          - name: Prompt guide reference
+            href: copilot-prompt-guide.md
+          - name: Get information
+            href: copilot-get-information.md
+          - name: Stay ahead
+            href: copilot-stay-ahead.md
+          - name: Ask about recent changes to your sales records
+            href: copilot-ask-questions.md
+          - name: Get content recommendations and answers from SharePoint
+            href: copilot-get-doc-suggestions.md
+          - name: Default attributes used in Copilot summaries
+            href: understand-copilot-summaries.md
+          - name: Copilot in Dynamics 365 Sales FAQ
+            href: sales-copilot-faq.md
       - name: Dashboards and reports
         items:
           - name: Track your progress with dashboards and charts
@@ -819,46 +857,6 @@ items:
             href: use-zoominfo-app-data.md
           - name: Scan business cards
             href: scan-business-cards.md
-      - name: Use Copilot and AI agents
-        items:
-          - name: Use Copilot in Dynamics 365
-            items:
-              - name: Copilot overview
-                href: copilot-overview.md
-              - name: Ask Copilot questions
-                href: use-sales-copilot.md
-              - name: Prompt guide reference
-                href: copilot-prompt-guide.md
-              - name: Get information
-                href: copilot-get-information.md
-              - name: Stay ahead
-                href: copilot-stay-ahead.md
-              - name: Ask about recent changes to your sales records
-                href: copilot-ask-questions.md
-              - name: Get content recommendations and answers from SharePoint
-                href: copilot-get-doc-suggestions.md
-              - name: Default attributes used in Copilot summaries
-                href: understand-copilot-summaries.md
-              - name: Copilot in Dynamics 365 Sales FAQ
-                href: sales-copilot-faq.md
-          - name: Sales Qualification Agent (preview)
-            items:
-              - name: Overview
-                href: sales-qualification-agent.md
-              - name: Work on leads handed over by the Sales Qualification Agent
-                href: use-sales-qualification-agent.md
-              - name: Monitor leads handled by the Sales Qualification Agent
-                href: monitor-leads-by-sales-qualification-agent.md
-              - name: FAQ about Sales Qualification Agent
-                href: sales-qualification-agent-faq.md
-          - name: Opportunity Research Agent (preview)
-            items:
-              - name: Overview
-                href: opportunity-research-agent.md
-              - name: Work on opportunities researched by Opportunity Research Agent
-                href: use-opportunity-research-agent.md
-              - name: FAQs about Opportunity Research Agent
-                href: opportunity-research-agent-faqs.md
       - name: Overview of focused view
         href: configure-focused-view.md
         items:
