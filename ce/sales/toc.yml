@@ -1418,7 +1418,6 @@ items:
       - name: Responsible AI FAQs for email in Copilot
         href: faqs-sales-copilot-for-email.md
       - name: Responsible AI FAQs about Sales Qualification Agent (preview)
-        href: faqs-sales-qualification-agent.md
         items:
           - name: Responsible AI FAQs about Research-only mode
             href: faqs-sales-qualification-agent.md
