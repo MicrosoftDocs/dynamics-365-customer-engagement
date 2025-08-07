@@ -88,7 +88,7 @@ You can assign personal phone numbers to representatives to make outbound calls 
 
 ## Enable call forwarding for personal phone numbers
 
-1. Ensure that the inbound profile corresponding to the personal phone number has **Transfer to external phone numbers** enabled.
+1. Make sure that **Transfer to external phone numbers** is enabled for the inbound profile corresponding to the personal phone number.
 
 1. In the **Omnichannel** tab of the representative's user page, fill in the **Call forward** field with any PSTN phone number in E.164 format.
 
