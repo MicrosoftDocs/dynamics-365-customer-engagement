@@ -1,7 +1,7 @@
 ---
 title: Enable email validation (preview)
 description: Enable email validation for leads and contacts in Microsoft Dynamics 365 Sales to help your sellers keep their customer email addresses clean.
-ms.date: 08/22/2024
+ms.date: 08/08/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -44,11 +44,9 @@ Email validation analyzes the primary email address in lead and contact records 
 
 Email address validation looks for the following issues:
 
-- **Incorrect syntax**: An address that doesn't contain both a username and an email domain
-- **Disposable domain**: An address that contains a known disposable or temporary email domain
-- **Test or spam email addresses**: An address that contains known indicators of a test or spam address in the email header or metadata, IP address, HTML code of the email, and email content and formatting
-- **Expired email addresses**: An email account that has expired and can no longer receive or send email
-- **Emails that bounce back**: An address that can't receive a message for any reason
+- **Incorrect syntax**: An address that doesn't contain a username or an email domain.  
+- **Invalid and unknown domain**: An email domain that is invalid, couldn't be determined, or not present.  
+- **Expired email domain**: An email domain that has expired and can no longer receive or send email.  
 
 Sellers can view invalid email addresses on record forms, work list items, and the **Up next** widget in sales accelerator. More information: [Work with invalid email addresses](work-invalid-email-addresses.md)
 
