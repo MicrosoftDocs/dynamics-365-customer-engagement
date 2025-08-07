@@ -36,7 +36,7 @@ As the agent consumes capacity, it's important to plan and configure it to handl
 
 ## Step 2: Configure prerequisites
 
-- Modify Data Loss Prevention (DLP) policies and allow the following connectors:
+- Modify Data policies and allow the following connectors:
   
     | Connector                                 | Why is it required?                                                                                   |
     |--------------------------------------------|-------------------------------------------------------------------------------------------------------|
@@ -45,13 +45,16 @@ As the agent consumes capacity, it's important to plan and configure it to handl
     | Knowledge source with SharePoint or OneDrive      | Required only if the agent is configured to use internal documents on SharePoint or OneDrive for enrichment.                         |
     | Knowledge source with documents                | Required only if the agent is configured to use internal documents for enrichment.                   |
 
-   Learn more in [Configure data loss prevention policies for agents](/microsoft-copilot-studio/admin-data-loss-prevention).
+   Learn more in [Manage data policies](/power-platform/admin/prevent-data-loss?tabs=new).
 
 - If you're using a custom security role for your sales team that'll be using the agent, ensure that the role has `Basic`-level `Read` access to the following entities to view the research insights:
   - Opportunity Research Result (msdyn_OpportunityResearchResult)
   - Opportunity Research Indicator (msdyn_OpportunityResearchIndicator)
   - Opportunity Research Agent Trigger (OpportunityResearchAgentTrigger)
   - Opportunity Research User Interactions (OpportunityResearchUserInteractions)
+  - Sales Agent Configuration v2 (prvReadmsdyn_salesagentconfigurationv2)
+  - Sales Agent Profile (prvReadmsdyn_salesagentprofile)
+
 - Turn on AI prompts feature in Power Platform and Copilot Studio. Learn more in [Enable AI prompts in Power Platform and Copilot Studio](/ai-builder/administer#enable-or-disable-ai-prompts-in-power-platform-and-copilot-studio).
 
 ### Configure server-side synchronization
