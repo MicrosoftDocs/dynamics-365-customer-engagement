@@ -16,23 +16,22 @@ ms.reviewer: lavanyakr
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-These frequently asked questions are intended to help you understand the effect of AI on the Research-only mode (part of Sales Qualification Agent) in Dynamics 365 Sales.
+These frequently asked questions are intended to help you understand the effect of AI on the Research-only mode of the Sales Qualification Agent in Dynamics 365 Sales.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-## What is the Research Agent?
+## What is Research-only mode of the Sales Qualification Agent?
 
-The Research Agent is an AI agent that automates the following tasks for sellers:
+The Research-only mode of the Sales Qualification Agent automates the following tasks for sellers:
 
 - Researches leads and their companies using public web sources and data in Dataverse.
 - Synthesizes the research insights to provide a 360-degree view of the lead.
 - Uses the research insights and data in Dataverse to evaluate the lead's fit with the sales team's ideal customer profile.
+- Drafts an initial outreach email to the lead based on the research insights and lead's current interests. Sellers can review and send the draft email.
 
-When sellers choose to send an initial outreach email to a lead, the agent drafts the email based on the research insights.
+## How is the Research-only mode of the Sales Qualification Agent intended to be used?
 
-## How is the Research Agent intended to be used?
-
-The Research Agent is designed to help sellers automate manual aspects of lead qualification so that they can invest more time in one-on-one interactions with top leads. The agent is intended to be used as a productivity tool to help sellers qualify leads faster and more effectively. It's not intended to replace the seller's judgment or decision-making process.
+The Research-only mode of the Sales Qualification Agent is designed to help sellers automate the research aspect of lead qualification so that they can invest more time in one-on-one interactions with top leads. The agent is intended to be used as a productivity tool to help sellers qualify leads faster and more effectively. It's not intended to replace the seller's judgment or decision-making process.
 
 - **Configuration**: Admins can configure the agent to work for specific security roles. The security roles can include sellers who sell specific products or services and target an ideal customer. Admins can also configure the attributes of the ideal customer to determine a lead's fit. 
 
