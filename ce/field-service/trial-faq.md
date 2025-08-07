@@ -3,7 +3,7 @@ title: Dynamics 365 Field Service trial FAQ
 description: Solutions to common questions related to Dynamics 365 Field Service trial setup and management. Learn how to resolve platform and app-specific issues.
 author: jshotts
 ms.author: jasonshotts
-ms.date: 07/01/2024
+ms.date: 08/05/2025
 ms.topic: get-started
 ms.custom: template-trial-faq
 ---
@@ -14,11 +14,11 @@ ms.custom: template-trial-faq
 
 ### Can I convert the trial to a paid license?
 
-Yes, you can purchase licenses through direct credit card purchase. You can also work with sales to establish a volume licensing or enterprise agreement. For more information on pricing and purchasing, visit our [pricing page](https://dynamics.microsoft.com/pricing/).
+Yes, you can purchase licenses with a credit card or work with sales to set up a volume licensing or enterprise agreement. For pricing and purchasing details, go to our [pricing page](https://dynamics.microsoft.com/pricing/).
 
 To purchase the license using an existing account, work with the administrator of the account to apply for licenses.
 
-When you have the license to your tenant, you can publish your environment to production. You can remove the sample data. However, you must manually reset the configuration and remove any test data that you've added. We recommend that you create a fresh environment to use for your production environment and add the configurations you’d like to move forward with.
+When you have the license to your tenant, you can publish your environment to production. You can remove the sample data. However, you must manually reset the configuration and remove any test data that you added. We recommend that you create a fresh environment to use for your production environment and add the configurations you’d like to move forward with.
 
 ### What are the trial limits and quotas?
 
@@ -32,17 +32,17 @@ The following limitations apply for the trial:
 
 ### How do I start using the trial?
 
-After you sign up for the trial, you'll arrive on the app's main screen. The main screen provides links to user guides and tutorials. The bottom of the [trial signup](trial-signup.md) articles contains other links.
+After you sign up for the trial, you arrive on the app's main screen. The main screen has links to user guides and tutorials. The bottom of the [trial signup](trial-signup.md) article has other links.
 
 ### What features are available in the trial?
 
-The trial comes with guided tours and videos that highlight key product features for you to try.
+The trial includes guided tours and videos that highlight key product features you can to try.
 
-- Follow the guided tours on the Get started page to learn how Field Service can help your business schedule work intelligently and deliver proactive service using smart device alerts.
+- Follow the guided tours on the Get started page to learn how Field Service helps your business schedule work intelligently and deliver proactive service using smart device alerts.
 
-- Download the mobile app and follow the guided tour to learn how your frontline workers can use the app to manage their day and increase their first-time fix rate.  
+- Download the mobile app and follow the guided tour to learn how your frontline workers use the app to manage their day and increase their first-time fix rate.  
 
-- Set up your frontline workers and customer accounts, create and schedule work orders, and analyze your field service operations. See how Field Service works with your own business data.
+- Set up your frontline workers and customer accounts, create and schedule work orders, and analyze your field service operations. See how Field Service works with your business data.
 
 ### How do I remove sample data from the trial?
 
