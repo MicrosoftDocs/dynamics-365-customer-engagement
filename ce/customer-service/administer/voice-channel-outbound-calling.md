@@ -95,7 +95,9 @@ You can assign personal phone numbers to representatives to make outbound calls 
 1. Select **Save**.
 
 > [!NOTE]
-> - Whenever the representative is in DND or Offline presence and misses the conversation, the call will be forwarded to the PSTN phone number.  If the representative is in Available, Away, or Busy prsence and rejects or misses the conversation, the call will be sent to voicemail.
+Based on the service representative's presence, the following actions occur:
+  - Call is forwarded to the PSTN number if the status is set to DND or offline and the representative misses the call.
+  - Call is sent to voicemail if representative's presence is Available, Away, or Busy and the representative rejects or misses the call.
 
 ### Related information
 
