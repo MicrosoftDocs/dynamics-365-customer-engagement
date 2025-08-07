@@ -106,7 +106,7 @@ Copilot determines whether a document is a sales document or not based on the co
 When you open Copilot in Dynamics 365 Sales, Copilot doesn't respond, and you might see a message stating that Copilot is unable to connect and to try again later. There could be several reasons why Copilot isn't working as expected. Some of the common reasons are:
 
 - Publishing of agent might have failed when it was created for the first time. To resolve this issue, try republishing the agent. After you successfully publish the agent, you don't need to republish it unless you change the agent configuration.
-- Your organization has [Data Loss Prevention (DLP) policies](/power-platform/admin/wp-data-loss-prevention) which are blocking the following connectors.  
+- Your organization has [Data policies](/power-platform/admin/wp-data-loss-prevention) which are blocking the following connectors.  
     - Microsoft Dataverse  
     - Direct Line channels in Copilot Studio  
 
