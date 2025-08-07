@@ -86,6 +86,18 @@ You can assign personal phone numbers to representatives to make outbound calls 
 > - You can add only those users who are configured for unified routing.
 > - After you add representatives to a queue, they must refresh their dashboards after 20 minutes to be able to make calls.
 
+## Enable call forwarding for personal phone numbers
+
+1. Make sure that **Transfer to external phone numbers** is enabled for the inbound profile corresponding to the personal phone number.
+
+1. In **User Management** > **Users**, for the required user, specify a PSTN number in the E.164 format in the **Call forward** field of the **Omnichannel**.
+
+1. Select **Save**.
+
+Based on the service representative's presence, the following actions occur:
+  - Call is forwarded to the PSTN number if the status is set to DND or offline and the representative misses the call.
+  - Call is sent to voicemail if representative's presence is Available, Away, or Busy and the representative rejects or misses the call.
+
 ### Related information
 
 [Overview of the voice channel](voice-channel.md)  
