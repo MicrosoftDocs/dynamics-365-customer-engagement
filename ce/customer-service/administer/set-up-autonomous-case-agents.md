@@ -89,7 +89,7 @@ In the Copilot Service admin center, configure the AI agent to predict and updat
 3. On the **Case Management Agent** page, select **Case creation and update with autonomous AI assistance (preview)**.
 1. In the page that appears, in **Case update by AI agent (any channel)**, select **Create**. Specify the following information:
    - A unique name for the rule. 
-   - Conditions under which the AI agent applies the rule. If no conditions are defined, the rule applies to all channels.
+   - Conditions for the AI agent to apply the rule. If no conditions are defined, the rule applies to all channels.
    - Fields in **Fields for AI prediction** that the agent predicts and updates during an ongoing conversation or from an incoming email.
        - For conversations, if you don't specify update rules, the agent updates the fields you add in the **Fields for AI prediction** section in **Case creation by AI agent (from chats and calls)** sections.
        - For emails, if you don't specify they update rules, the AI agent doesn't autonomously update any fields.

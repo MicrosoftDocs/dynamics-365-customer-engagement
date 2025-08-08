@@ -26,7 +26,7 @@ The Case Management Agent integrates with custom AI agents built in Microsoft Co
 
 ## How the integration works
 
-1. For an incoming email linked to a case, the case resolution feature of the Case Management Agent identifies the intent of the email and if there's a custom AI agent linked to the intent, invokes the custom AI agent. The Case Management Agent sends a request to the custom agent as follows. The message includes the case ID, which Copilot Studio custom agent uses to retrieve the case details and context from the Dataverse.
+1. For an incoming email linked to a case, the case resolution feature of the Case Management Agent identifies the intent of the email and if there's a custom AI agent linked to the intent, invokes the custom AI agent. The Case Management Agent sends a request to the custom agent as follows. The message includes the case ID that the Copilot Studio custom agent uses to retrieve the case details and context from Dataverse.
 
     ```json
      {
