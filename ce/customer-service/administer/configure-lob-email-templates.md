@@ -22,7 +22,7 @@ When customer service representatives (service representatives or representative
 ## Prerequisites
 
 - Administrators must have the CSR Manager or System Administrator role.
-- [Customer Intent Agent](/dynamics365/contact-center/administer/manage-customer-intent-agent) is configured with the required lines-of-business and the relevant case rules set up.
+- [Customer Intent Agent](/dynamics365/contact-center/administer/manage-customer-intent-agent) is configured with the required lines of business and the relevant case rules set up.
 - Email template recommendations are enabled. Learn more in [Enable Copilot to recommend email templates](/dynamics365/contact-center/administer/copilot-email-enable).
 
 ## Configure line-of-business categories in Power Apps
