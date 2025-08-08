@@ -213,7 +213,7 @@
           - name: Use Case Management Agent to resolve cases
             href: use-case-resolution-agent.md            
           - name: Use Case Management Agent to follow up and close cases
-            href: use-follow-up-closure.md
+            href: use-case-follow-up-closure.md
         - name: Customer Knowledge Management Agent
           items:
           - name: Review knowledge articles created by the Customer Knowledge Management Agent
