@@ -27,7 +27,7 @@ Add knowledge sources in Copilot Studio to surface key insights such as customer
 
 Consider the following before you configure knowledge sources for the Sales Qualification Agent:
 
-- When you add a knowledge source to the agent, you're redirected to Copilot Studio. So, ensure that you have the necessary permissions to access and modify the knowledge sources in Copilot Studio. The Sales Qualification Agent uses micro agents in Copilot Studio for outreach emails, follow-up emails, and research insights. Knowledge sources added to these micro agents are only used for the specific purpose it's configured for. For example, knowledge sources added to the **Research** micro agent are only used for research insights, and not for outreach emails or follow-up emails.
+- When you add a knowledge source to the agent, you're redirected to Copilot Studio. So, ensure that you have the necessary permissions to access and modify the knowledge sources in Copilot Studio. The Sales Qualification Agent uses specialized, micro agents in Copilot Studio for outreach emails, follow-up emails, and research insights. Knowledge sources added to these micro agents are only used for the specific purpose it's configured for. For example, knowledge sources added to the **Research** micro agent are only used for research insights, and not for outreach emails or follow-up emails.
 
 - If the Sales Qualification Agent and Opportunity Research Agent are in the same environment, they share the same knowledge sources for account research insights. The knowledge sources that you add to or remove from one of the agents will be reflected in the other agent as well. If you see knowledge sources that you didn't add, it's possible that those are configured for the Opportunity Research Agent. Don't remove them unless you want to remove them from both the agents.
 
@@ -40,8 +40,7 @@ Consider the following before you configure knowledge sources for the Sales Qual
 1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  
 
 1. In the **Knowledge** section, select the following options and configure the knowledge sources:  
-    - **Research**: The agent uses knowledge sources to get research insights about the lead and their company. These insights include industry type, company size, financials, priorities, and news.  
-        In the **Knowledge sources for insights** section, select **Add**. You're redirected to the **Copilot Studio** page where you can add knowledge sources. The following examples are the best sources to add as knowledge sources:
+    - **Research**: The agent uses knowledge sources to get research insights about the lead and their company. These insights include industry type, company size, financials, priorities, and news. The following examples are the best sources to add as knowledge sources for research:
 
         | Insight | Typical questions answered | Examples of out-of-box data sources |
         |---------|----------------------------|-------------------------------------|
@@ -51,10 +50,9 @@ Consider the following before you configure knowledge sources for the Sales Qual
         | Recent news | What just happened that matters to us, and will show a need or intent for our solutions? | Bing news search |  
 
     - **Outreach emails**: The agent uses knowledge sources to create personalized outreach emails. These emails can include relevant customer testimonials, case studies, and other insights to engage the lead effectively.  
-        In the **Knowledge sources** section, select **Add**. You're redirected to the **Copilot Studio** page where you can add knowledge sources.  
-    - **Follow-up emails**: This is only applicable for **Engage**. The agent uses knowledge sources to create follow-up emails to respond accurately and ask insightful questions. For an effective follow-up, add knowledge sources that include price sources, product specifications, sales playbooks, SKUs, and more.  
+    - **Follow-up emails**: This is only applicable for the Research and engage mode. The agent uses knowledge sources to create follow-up emails to respond accurately and ask insightful questions. For an effective follow-up, add knowledge sources that include price sources, product specifications, sales playbooks, SKUs, and more.  
 
-- In the **Knowledge sources** section, select **Add**. You're redirected to the **Copilot Studio** page where you can add knowledge sources.  
+1. In the **Knowledge sources** section, select **Add**. You're redirected to the **Copilot Studio** page where you can add knowledge sources.  
 
 To know more about adding knowledge sources in Copilot Studio, go to [Add knowledge to an agent](/microsoft-copilot-studio/knowledge-add-existing-copilot).
 
@@ -67,7 +65,7 @@ After you add knowledge sources, you can test if Sales Qualification Agent is pi
 > [!NOTE]
 > In this example, we are using Contoso as the seller company and Microsoft as the lead company.
 
-1. In the research source added page, select the **Test your agent** pane.
+1. Open the **Research** agent in Copilot Studio.
 1. In the **Test your agent** pane, Enter the following script:  
     `{"sellerCompanyName": "Contoso", 
     "productInformation": "This agent is responsible for researching and qualifying high-priority leads interested in Contoso GPUs. It supports the sales team by identifying prospects with strong alignment to Contoso’s AI and HPC solutions, enabling focused and effective outreach.",
@@ -97,13 +95,12 @@ Goal: Contoso’s sales operations team wants the agent to decide if a lead’s 
 | Recent news          | Bloomberg RSS feed for the prospect’s company                                     | Upload the RSS XML file or connect via a news API                                            |
 | Strategic priorities | Contoso analyst reports stored in a SharePoint library                            | Add SharePoint URL                                                                           |
 
-After publishing, the agent: 
+After you publish the knowledge sources, the agent:
 
-- Pulls NetWorth from the SharePoint list to decide if the lead meets the High Net Worth threshold.
-
-- Uses Dunn & Bradstreet’s high-quality data to augment public sources. 
+- Fetches NetWorth from the SharePoint list to decide if the lead meets the high-net-worth threshold.
+- Uses Dunn & Bradstreet’s high-quality data to augment public sources.  
 - Surfaces company priorities from the analyst reports to suggest relevant investment products.
-- Quotes the latest Bloomberg headline in the Recent news card. 
+- Quotes the latest Bloomberg headline in the latest news card.  
 - Generates an email that references the lead’s net-worth range and a recent strategic move.
 
 ## Best practices
