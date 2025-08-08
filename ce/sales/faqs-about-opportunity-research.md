@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ about the Opportunity Research Agent (preview)
 description: Learn about the responsible AI practices and limitations of the Opportunity Research Agent in Dynamics 365 Sales.
-ms.date: 07/09/2025
+ms.date: 08/06/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -15,7 +15,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# FAQs about Opportunity Research Agent (preview)
+# Responsible AI FAQs about Opportunity Research Agent (preview)
 
 These frequently asked questions are intended to help you understand the
 impact of AI on Opportunity Research Agent in Dynamics 365 Sales.

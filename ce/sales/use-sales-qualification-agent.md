@@ -69,7 +69,8 @@ The lead handover process goes through the following stages:
         - The agent can't detect the lead's intent. Review the research and engagement summary and follow up with the lead to determine their purchase intent.
         - The agent is blocked on the lead as it's unable to find the answer to the lead's question. Respond to the lead's question and follow up with the lead.
     > [!NOTE]
-    > If the assignment rule is set to assign leads to a team, the agent assigns the lead in a round-robin fashion to the team members.
+    >- If the assignment rule is set to assign leads to a team, the agent assigns the lead in a round-robin fashion to the team members.
+    >- If the agent fails to process the lead due to invalid or missing email, it hands over the lead to the original seller to update the email ID.
     
 1. If the lead doesn't meet the hand over criteria, the agent disqualifies the lead and notifies the supervisor. The lead continues to be assigned to the agent in this case.
 
