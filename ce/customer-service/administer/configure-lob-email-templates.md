@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 Line-of-business (LOB) segregated email templates help organizations manage email templates for different business areas, such as specific product lines or service categories.
 
-When customer service representatives (service representatives or representatives) use Copilot to draft emails, the system selects the appropriate email template based on the LOB associated with the case. This ensures that the generated email content is relevant to the business context, reducing the need for representatives to manually choose templates.
+When customer service representatives (service representatives or representatives) use Copilot to draft emails, the system selects the appropriate email template based on the LOB associated with the case that helps keep the email content relevant to the business context.
 
   > [!NOTE]
   > If case resolution feature is set up in Case Management Agent, the AI agent generates email drafts using line-of-business specific email templates associated with a case.
