@@ -1,13 +1,13 @@
 ---
 title: Configure line of business for email templates
-description: Learn how to set up lineof business segregated email templates for Copilot recommendations.
+description: Learn how to set up line of business segregated email templates for Copilot recommendations.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: 
 ms.date: 08/08/2025
-ms.custom: bap-template
+ms.custom: bap-ai-copilot
 ---
 
 # Configure line of business for email templates
