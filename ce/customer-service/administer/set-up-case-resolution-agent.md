@@ -21,7 +21,7 @@ You can use the Case Management Agent to resolve cases by identifying case inten
 
 ## Prerequisites
 
-- Administrators must have the CSR Manager or System Administrator role.
+- The CSR Manager or System Administrator role.
 - [Create and manage workstreams](create-workstreams.md) and [Create and manage queues for unified routing](queues-omnichannel.md) are set up.
 -  [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center application.
 - The Case Resolution agent uses the Data Entry Agent in the background. The Power Platform [Pay-as-you-go plan](/power-platform/admin/pay-as-you-go-overview) mandates the usage of an Azure subscription the system charges when the agent runs. Make sure you [Set up consumption-based billing](setup-pay-as-you-go.md).
