@@ -23,7 +23,7 @@ The Case Management Agent follows up with customers over email. If customers don
 
 ## Prerequisites
 
-- Administrators must have the CSR Manager or System Administrator role.
+- The CSR Manager or System Administrator role.
 - If you configure the fully automated case follow-up and closure, the following apply to the fully-automated case follow-up and closure process:
 - application user to send and receive emails and shared inbox. Learn more in [Prerequisites](set-up-case-resolution-agent.md#prerequisites).
 - Copilot recommended email templates and default email templates configured in the **Global settings (preview)** page. Learn more in [Configure global settings](set-up-case-resolution-agent.md#configure-global-settings).
