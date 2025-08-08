@@ -30,7 +30,7 @@ Based on the follow-up rules and trigger configured by your administrator, the A
  
 ### [Fully automated case follow-up and closure](#tab/fullyautomatedcasefollowup)
  
-Automatically sends the follow-up emails to customer and then resolves the case without requiring any human intervention.
+Automatically sends the follow-up emails to customer and then resolves the case without human intervention.
   - You can view the emails sent by the AI agent in case timeline. The emails sent by Copilot have a distinct visual indicator. 
   - Select the email to view the email content in a new tab. A message appears at the bottom of the email indicating that the email was generated using AI. You can also provide feedback on the email in this tab.
   - After the configured number of follow-ups are sent, the agent initiates the case resolution process. It sets the case status to resolved after populating configured case resolution fields. All open activities linked to the case are also closed. 
