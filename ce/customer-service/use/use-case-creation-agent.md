@@ -67,7 +67,7 @@ On the case form, an AI toolbar appears and allows you to do the following actio
 > [!NOTE]
 > Based on your [administrator configuration](../administer/set-up-autonomous-case-agents.md#configure-autonomous-case-updates), if case fields configured for AI agent updates are updated manually, the AI agent either overwrites the manual updates or leaves them intact.
 
-### AI-assisted case creation 
+### Create cases with AI assistance
 
 The AI agent predicts the values for all the available case fields when and populates them when you manually create a case as follows:
 
