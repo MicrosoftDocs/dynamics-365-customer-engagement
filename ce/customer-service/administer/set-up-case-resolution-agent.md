@@ -23,7 +23,7 @@ You can use the Case Management Agent to resolve cases by identifying case inten
 
 - The CSR Manager or System Administrator role.
 - [Workstreams](create-workstreams.md) and [queues for unified routing](queues-omnichannel.md) are set up.
-- [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center application.
+- Make sure [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot) is set up in the Power Platform admin center application.
 - The case resolution feature of Case Management Agent uses the Data Entry Agent in the background. The Power Platform [Pay-as-you-go plan](/power-platform/admin/pay-as-you-go-overview) mandates the use of an Azure subscription the system charges when the agent runs. Make sure you [Set up consumption-based billing](setup-pay-as-you-go.md).
 - Case management agent is set up to create and update cases. Learn more in [Set up Case Management Agent to create and update cases (preview)](set-up-autonomous-case-agents.md).
 - [Customer Intent Agent](/dynamics365/contact-center/administer/manage-customer-intent-agent) is configured.
