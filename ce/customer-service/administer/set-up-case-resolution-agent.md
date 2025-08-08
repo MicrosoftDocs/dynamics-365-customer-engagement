@@ -7,7 +7,7 @@ ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: 
 ms.date: 08/08/2025
-ms.custom: bap-template
+ms.custom: bap-ai-copilot
 ---
 
 
@@ -74,7 +74,7 @@ Based on your configuration, for an incoming customer email, the following actio
     |----------|------------------|-----------------|
     | Can't identify intent | Sends an email to the customer requesting additional information. Invokes the update functionality of the Case Management Agent to update the case fields, based on the customer's response. | Drafts an email to the customer requesting additional information. Invokes the [update functionality](../use/use-case-creation-agent.md#autonomous-case-updates) of the Case Management Agent to update the case fields, based on the customer's response. |
     | Identifies case intent, but requires additional information to provide a resolution based on the attributes linked to the intent. | Sends an email to the customer requesting additional information. Invokes the update functionality of the Case Management Agent to update the case fields, based on the customer's response. | Drafts an email to the customer requesting additional information. Invokes the update functionality of the Case Management Agent to update the case fields, based on the customer's response. |
-    | Identifies the case intent and determines that the information is sufficient to resolve the case. | Generates a solution and sends an email to the customer with resolution details.<ul><li>If the customer accepts the resolution, the AI agent sets the status of the case to **Resolved**. Invokes the [case follow-up](../use/use-follow-up-closure.md#use-autonomous-follow-up-and-closure-of-cases) functionality to follow up with the customer for case, if case-follow up and closure is configured for the Case Management Agent.</li><li>If the customer needs further assistance, the agent routes the case to a service representative.</li></ul> | Drafts a solution and sends an email to the customer with resolution details. If the customer accepts the resolution, the case resolution agent sets the status of the case to resolved. Invokes the case follow-up functionality to follow up with the customer for case. |
+    | Identifies the case intent and determines that the information is sufficient to resolve the case. | Generates a solution and sends an email to the customer with resolution details.<ul><li>If the customer accepts the resolution, the AI agent sets the status of the case to **Resolved**. Invokes the [case follow-up](../use/use-case-follow-up-closure.md#use-autonomous-follow-up-and-closure-of-cases) functionality to follow up with the customer for case, if case-follow up and closure is configured for the Case Management Agent.</li><li>If the customer needs further assistance, the agent routes the case to a service representative.</li></ul> | Drafts a solution and sends an email to the customer with resolution details. If the customer accepts the resolution, the case resolution agent sets the status of the case to resolved. Invokes the case follow-up functionality to follow up with the customer for case. |
   
    > [!NOTE]
    > - The AI agent selects an appropriate email template using Copilot recommended templates and [line-of-business specific templates](configure-lob-email-templates.md#runtime-experience) to draft email responses.

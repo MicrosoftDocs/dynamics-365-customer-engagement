@@ -7,7 +7,7 @@ ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: 
 ms.date: 08/08/2025
-ms.custom: bap-template
+ms.custom: bap-ai-copilot
 ---
 
 

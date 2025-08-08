@@ -20,7 +20,7 @@ The Case Management Agent integrates with custom AI agents built in Microsoft Co
 
 ## Prerequisites
 
-- [Autonomous case resolution](../administer/configure-case-resolution-agent.md) is enabled for the Case Management Agent.
+- [Autonomous case resolution](../administer/set-up-case-resolution-agent.md) is enabled for the Case Management Agent.
 - Intent is enabled for the Case Management Agent.
 - A custom AI agent is created in Microsoft Copilot Studio and is added to the specific intent in Copilot Service admin center.
 

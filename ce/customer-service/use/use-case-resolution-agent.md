@@ -7,7 +7,7 @@ ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: 
 ms.date: 08/08/2025
-ms.custom: bap-template
+ms.custom: bap-ai-copilot
 ---
 
 
@@ -21,7 +21,7 @@ Autonomous case resolution identifies intent from an incoming email, automatical
 
 ## Prerequisites
 
-- Autonomous case resolution is configured. Learn more in [Set up Case Management Agent to resolve cases (preview)](../administer/configure-case-resolution-agent.md).
+- Autonomous case resolution is configured. Learn more in [Set up Case Management Agent to resolve cases (preview)](../administer/set-up-case-resolution-agent.md).
 - [Customer Intent Agent](/dynamics365/contact-center/administer/manage-customer-intent-agent) is configured.
 
 ## Use Case Management Agent to resolve case

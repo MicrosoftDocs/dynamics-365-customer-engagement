@@ -7,7 +7,7 @@ ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: 
 ms.date: 08/08/2025
-ms.custom: bap-template 
+ms.custom: bap-ai-copilot
 ---
 
 # Use Case Management Agent to create and update cases (preview)
@@ -87,4 +87,4 @@ If your administrator configured autonomous case updates, the AI agent then upda
 
 ## Next steps
 
- [Use autonomous follow-up and closure of cases](use-follow-up-closure.md)
+ [Use autonomous follow-up and closure of cases](use-case-follow-up-closure.md)
