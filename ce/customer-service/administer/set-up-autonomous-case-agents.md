@@ -111,7 +111,7 @@ To allow the AI agent to autonomously create cases across all provisioned messag
 
 ## Configure AI-assisted case creation for service representatives
 
-Select the channels from which service representatives can create cases with AI assistance. You can select **Email** or **Conversation(chats and calls)** When a service representative creates a case from a conversation or an email, the AI agent analyzes the conversation or email and predicts and populates the fields available on the case form. Service representatives can then review the predicted values and make any necessary changes before saving the case.
+Select the channels from which service representatives can create cases with AI assistance. You can select **Email** or **Conversation(chats and calls)**. When a service representative creates a case from a conversation or an email, the AI agent analyzes the conversation or email and predicts and populates the fields available on the case form. Service representatives can then review the predicted values and make any necessary changes before saving the case.
 
 ## Enable service representatives to use autonomous Case Management Agent
 
