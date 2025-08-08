@@ -31,7 +31,7 @@ Autonomous case resolution identifies intent from an incoming email, automatical
   - Visual indicators showing which questions the customer answered
   - Customer responses displayed alongside each question.
 
-- Based on your administrator's configuration for case resolution, the following actions occur.
+- Based on your administrator configuration for case resolution, the following actions occur.
 
    ### [Fully automated case resolution](#tab/fullyautomatedcaseresolution)
  
