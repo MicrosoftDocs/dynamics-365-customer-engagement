@@ -30563,11 +30563,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/customer-service/use/use-follow-up-closure.md",
+      "redirect_url": "/dynamics365/contact-center/use/use-case-follow-up-closure",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/customer-service/use/voice-channel-agent-experience.md",
       "redirect_url": "/dynamics365/contact-center/use/voice-channel-agent-experience",
       "redirect_document_id": false
-    },
-        {
+    },    
+    {
       "source_path": "ce/customer-service/use/copilot-analytics-report.md",
       "redirect_url": "/dynamics365/contact-center/use/copilot-analytics-report",
       "redirect_document_id": false
