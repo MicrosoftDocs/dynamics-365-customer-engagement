@@ -17,7 +17,7 @@ Line-of-business (LOB) segregated email templates help organizations manage emai
 When customer service representatives (service representatives or representatives) use Copilot to draft emails, the system selects the appropriate email template based on the LOB associated with the case that helps keep the email content relevant to the business context.
 
   > [!NOTE]
-  > If case resolution feature is set up in Case Management Agent, the AI agent generates email drafts using line-of-business specific email templates associated with a case.
+  > If case resolution feature is set up in Case Management Agent, the AI agent generates email drafts using email templates associated with a case specific to the line of business.
 
 ## Prerequisites
 
