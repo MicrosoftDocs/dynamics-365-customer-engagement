@@ -106,7 +106,7 @@ The email drafted by the AI agent is based on the configuration you set in **Glo
 - [Use line-of-business tagged email templates](/dynamics365/contact-center/use/use-copilot-email&tabs=richtexteditor#use-line-of-business-tagged-email-templates)
 
  
-For the configuration in our [example](#example), the AI agent first evaluates all the cases which have "Contoso Coffee" in the title and are older than 7 days. If the **Status Reason** of the case is set to "On Hold", and if the customer hasn't responded to the email sent by the AI agent in the last 48 hours, the AI agent initiates the case follow-up process. If the customer doesn't respond after the third follow-up, the AI agent populates the case resolution dialog with the required information and closes the case.
+For the configuration in our [example](#example), the AI agent first evaluates all the cases that have "Contoso Coffee" in the title and are older than 7 days. If the **Status Reason** of the case is set to "On Hold", and if the customer hasn't responded to the email sent by the AI agent in the last 48 hours, the AI agent initiates the case follow-up process. If the customer doesn't respond after the third follow-up, the AI agent populates the case resolution dialog with the required information and closes the case.
 
 
 ## Next steps
