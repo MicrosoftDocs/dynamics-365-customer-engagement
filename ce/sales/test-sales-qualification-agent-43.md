@@ -34,8 +34,8 @@ To effectively test the Sales Qualification Agent, follow these recommendations:
 ## Step 1: Validate the ICP fit
 
 1. Open a sample lead that you created.
-1. Wait for a few seconds for the notification banner to appear.
-1. Select **More insights** on the banner.
+1. Wait for a few seconds for summary widget to load.
+1. Select **See full research** on the summary widget.
 1. The **Lead research** page opens. The following screenshot shows lead research for Microsoft:
 
      :::image type="content" source="media/lead-insights-page-43.png" alt-text="Screenshot of the lead research page for Microsoft.":::  
