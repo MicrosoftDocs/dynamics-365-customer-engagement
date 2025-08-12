@@ -24,7 +24,7 @@ You have two options for integrating messaging in your native mobile app:
 
 We strongly recommend using the native mobile SDKs, as they deliver superior feature support and performance.
 
-## Integrate with the Dynamics Contact Center Mobile SDKs
+## Integrate with the Dynamics 365 Contact Center mobile SDKs
 
 The mobile SDKs and their documentation are hosted on GitHub:
 
