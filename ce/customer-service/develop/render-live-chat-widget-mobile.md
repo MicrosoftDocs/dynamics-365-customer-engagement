@@ -28,7 +28,7 @@ We strongly recommend that you use the native mobile SDKs because they deliver s
 
 The mobile SDKs and their documentation are hosted on GitHub:
 
-* [Contact Center Messaging SDK - Android | GitHub](https://github.com/microsoft/ContactCenterMessagingSDK-android)
+- [Contact Center Messaging SDK - Android | GitHub](https://github.com/microsoft/ContactCenterMessagingSDK-android)
 * [Contact Center Messaging SDK - iOS | GitHub](https://github.com/microsoft/ContactCenterMessagingSDK-ios)
 
 The SDKs contain:
