@@ -36,7 +36,7 @@ When you configure Azure and Copilot agents in Dynamics 365 Contact Center, use 
 
 - To avoid prolonged latency if data lookup is delayed, use options such as Dataverse connectors, custom connectors, and prebuilt Power Automate connectors that Copilot Studio provides to access external data. [HTTP requests](/microsoft-copilot-studio/authoring-http-node) offer the best performance for data outside Customer Service or Dynamics 365 Contact Center. The built-in Dataverse connectors are most efficient for accessing data within Dynamics 365.
 
-- You might experience latency when you use Power Automate to access data because the voice agent pauses until the flow completes. Use the [Power Automate dashboard](/power-platform/admin/analytics-flow?tabs=new) to monitor and optimize flow performance.
+- You might experience latency when you use Power Automate to access data because the AI agent pauses until the flow completes. Use the [Power Automate dashboard](/power-platform/admin/analytics-flow?tabs=new) to monitor and optimize flow performance.
 
 
 ### Best practices to handle silence before a customer engages with the voice agent
