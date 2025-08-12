@@ -22,7 +22,7 @@ You have two options for integrating messaging in your native mobile app:
 * Use our native mobile software development kits (SDKs) for iOS and Android
 * Use the web widget inside a WebView
 
-We strongly recommend using the native mobile SDKs, as they deliver superior feature support and performance.
+We strongly recommend that you use the native mobile SDKs because they deliver superior feature support and performance.
 
 ## Integrate with the Dynamics 365 Contact Center mobile SDKs
 
