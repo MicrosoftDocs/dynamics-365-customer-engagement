@@ -40,7 +40,7 @@ The SDKs contain:
 We recommend that you use authenticated, persistent chat with the messaging SDKs. This provides the best customer experience for mobile usage patterns.
 
 > [!NOTE]
-> The out-of-the-box interface is visually styled through code in your application instead of through the admin center
+> The out-of-the-box interface is visually styled through code in your application instead of through the admin center.
 
 ## Render the live chat widget using embedded code
 
