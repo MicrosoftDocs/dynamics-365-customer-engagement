@@ -11,7 +11,7 @@ metadata:
   author: udaykirang
   ms.author: udag
   ms.reviewer: udag
-  ms.date: 09/22/2023
+  ms.date: 08/12/2025
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -30,6 +30,18 @@ landingContent:
             url: /power-platform/admin/security-roles-privileges
           - text: Create or edit business units 
             url: /power-platform/admin/create-edit-business-units
+
+# Card 
+  - title: AI agents 
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+          - text: Set up and configure the Sales Qualification Agent
+            url: configure-sales-qualification-agent.md
+          - text: Configure the Opportunity Research Agent 
+            url: configure-opportunity-research-agent.md
+          - text: Copilot Studio agents and Entra app registrations for sales agents
+            url: ai-agents-apps.md
 
 # Card 
   - title: Sales & product catalog setup 

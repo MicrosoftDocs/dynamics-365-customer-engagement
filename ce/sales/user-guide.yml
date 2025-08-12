@@ -59,6 +59,26 @@ landingContent:
             url: relationship-analytics.md
 
 # Card 
+  - title: AI agents
+    linkLists:
+      - linkListType: concept
+        links:
+        - text: Sales Qualification Agent overview 
+          url: sales-qualification-agent.md
+        - text: Understand the Sales Qualification Agent concepts
+          url: sales-qualification-agent-concepts.md
+        - text: Opportunity Research Agent overview 
+          url: opportunity-research-agent.md  
+      - linkListType: how-to-guide
+        links:
+        - url: use-sales-qualification-agent.md
+          text: Work on leads handed over by the Sales Qualification Agent 
+        - url: monitor-leads-by-sales-qualification-agent.md
+          text: Monitor leads handled by the Sales Qualification Agent 
+        - url: use-opportunity-research-agent.md  
+          text: Work on opportunities handled by the Opportunity Research Agent
+
+# Card 
   - title: Copilot
     linkLists:
        - linkListType: concept

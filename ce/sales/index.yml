@@ -9,7 +9,7 @@ metadata:
   author: lavanyakr01
   ms.author: lavanyakr
   ms.reviewer: lavanyakr
-  ms.date: 02/07/2025
+  ms.date: 08/12/2025
   ms.custom: bap-template
   hide_bc: true
 
@@ -93,6 +93,12 @@ additionalContent:
         text: LinkedIn Sales Navigator integration
       - url: install-lsi-solution.md
         text: Install LinkedIn Sales Insights
+    - title: AI agents
+      links:
+      - url: configure-sales-qualification-agent.md
+        text: Set up and configure the Sales Qualification Agent
+      - url: configure-opportunity-research-agent.md
+        text: Configure the Opportunity Research Agent 
     - title: Copilot
       links: 
       - url: enable-setup-copilot.md
@@ -128,6 +134,14 @@ additionalContent:
         text: Manage opportunities
       - url: sales-transactions.md
         text: Manage quote, order, and invoice
+    - title: AI agents
+      links:
+      - url: use-sales-qualification-agent.md
+        text: Work on leads handed over by the Sales Qualification Agent 
+      - url: monitor-leads-by-sales-qualification-agent.md
+        text: Monitor leads handled by the Sales Qualification Agent 
+      - url: use-opportunity-research-agent.md  
+        text: Work on opportunities handled by the Opportunity Research Agent
     - title: Copilot
       links: 
       - url: use-sales-copilot.md
