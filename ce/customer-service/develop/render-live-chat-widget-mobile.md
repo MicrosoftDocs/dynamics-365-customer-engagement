@@ -113,7 +113,7 @@ chatWebView.evaluateJavascript(
 When the chat is closed, the live chat widget triggers the [lcw:closeChat](reference/events/lcw-closechat.md) event. You can listen for this event, and perform any post-chat steps if required.
 
 > [!NOTE]
-> Some live chat widget features&mdash;escalating to voice and video, and downloading the chat transcript&mdash;aren't supported through a webview.
+> Live chat widget features such as escalating to voice and video and downloading the chat transcript aren't supported through a webview.
 
 ### Related information
 
