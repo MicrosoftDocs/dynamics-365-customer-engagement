@@ -32,7 +32,7 @@ The mobile SDKs and their documentation are hosted on GitHub:
 - [Contact Center Messaging SDK - iOS | GitHub](https://github.com/microsoft/ContactCenterMessagingSDK-ios)
 
 The SDKs contain:
-* An example application to help you get started
+- An example application to help you get started
 * A configurable, out-of-the-box messaging interface
 * A full set of messaging lifecycle functions for integrating a bespoke messaging UI, if desired
 * Support for push notifications with Azure Notification Hub
