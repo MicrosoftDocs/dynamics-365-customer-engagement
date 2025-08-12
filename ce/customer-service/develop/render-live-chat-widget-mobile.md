@@ -20,7 +20,7 @@ ms.custom:
 You have two options for integrating messaging in your native mobile app:
 
 - Use native mobile software development kits (SDKs) for iOS and Android
-* Use the web widget inside a WebView
+- Use the web widget inside a WebView
 
 We strongly recommend that you use the native mobile SDKs because they deliver superior feature support and performance.
 
