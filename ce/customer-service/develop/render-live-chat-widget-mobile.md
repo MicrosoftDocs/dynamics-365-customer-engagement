@@ -37,7 +37,7 @@ The SDKs contain:
 * A full set of messaging lifecycle functions for integrating a bespoke messaging UI, if desired
 * Support for push notifications with Azure Notification Hub
 
-We strongly recommend using authenticated, persistent chat with the Messaging SDKs. This provides the best customer experience for mobile usage patterns.
+We recommend that you use authenticated, persistent chat with the messaging SDKs. This provides the best customer experience for mobile usage patterns.
 
 > [!NOTE]
 > The out of the box interface is visually styled through code in your application instead of through the Admin Center
