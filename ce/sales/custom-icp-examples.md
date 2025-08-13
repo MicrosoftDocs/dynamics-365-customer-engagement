@@ -91,7 +91,7 @@ The following sections provide examples of custom criteria for different industr
 
 - **Website:** [www.google.com](http://www.google.com)
 
-- **Instructions:** site:{{Company}}.com facilities OR plants OR locations
+- **Instructions:** site:{{Lead.Company Name}}.com facilities OR plants OR locations
   manufacturing. Extract plant count and earliest commissioning year.
 
 **Supplier to automotive:**
@@ -125,20 +125,20 @@ The following sections provide examples of custom criteria for different industr
 
 - **Criterion name:** Epic or Cerner
 
-- **Criterion description:** Lead is hot if {{Company}}'s primary EHR is Epic
+- **Criterion description:** Lead is hot if {{Lead.Company Name}}'s primary EHR is Epic
   or Cerner.
 
 - **Website:** [www.google.com](http://www.google.com)
 
 - **Instructions:** {{Lead.Company Name}} EHR Epic OR Cerner
   site:chimecentral.org OR site:klasresearch.com OR "EHR vendor"
-  "{{Company}}".
+  "{{Lead.Company Name}}".
 
 **Quality signal:**
 
 - **Criterion name:** readmission index
 
-- **Criterion description:** Lead is hot if {{Company}}'s heart failure
+- **Criterion description:** Lead is hot if {{Lead.Company Name}}'s heart failure
   30‑day readmission index is above national average.
 
 - **Website:** [www.medicare.gov](http://www.medicare.gov)
@@ -157,7 +157,7 @@ The following sections provide examples of custom criteria for different industr
 
 - **Website:** [www.google.com](http://www.google.com)
 
-- **Instructions:** site:{{Company}}.com blog OR engineering "Kubernetes"
+- **Instructions:** site:{{Lead.Company Name}}.com blog OR engineering "Kubernetes"
   AND ("AWS" OR "Azure" OR "GCP"). Count distinct clouds mentioned.
 
 **SaaS analytics:**
@@ -170,7 +170,7 @@ The following sections provide examples of custom criteria for different industr
 
 - **Website:** [www.google.com](http://www.google.com)
 
-- **Instructions:** site:{{Company}}.com pricing OR "Get started" signup AND
+- **Instructions:** site:{{Lead.Company Name}}.com pricing OR "Get started" signup AND
   ("Product Analyst" OR "Growth Analyst" OR "Product Analytics") past 6
   months.
 
@@ -196,7 +196,7 @@ The following sections provide examples of custom criteria for different industr
 
 - **Website:** [www.google.com](http://www.google.com)
 
-- **Instructions:** site:{{Company}}.com "store locator" OR "locations."
+- **Instructions:** site:{{Lead.Company Name}}.com "store locator" OR "locations."
   Count store locations in US+Canada; pass if ≥ 50.
 
 ## Cross‑industry, data-driven criteria
@@ -210,7 +210,7 @@ The following sections provide examples of custom criteria for different industr
 
 - **Website:** [www.google.com](http://www.google.com)
 
-- **Instructions:** site:{{Company}}.com sustainability report OR ESG "Scope
+- **Instructions:** site:{{Lead.Company Name}}.com sustainability report OR ESG "Scope
   1" OR "Scope 2".
 
 **Hiring momentum:**
@@ -222,7 +222,7 @@ The following sections provide examples of custom criteria for different industr
 
 - **Website:** [www.google.com](http://www.google.com)
 
-- **Instructions:** site:{{Company}}.com/careers "data engineer" OR "data
+- **Instructions:** site:{{Lead.Company Name}}.com/careers "data engineer" OR "data
   platform" OR "analytics" list open roles; count ≥ 10.
 
 **International expansion:**
@@ -255,7 +255,7 @@ The following sections provide examples of custom criteria for different industr
 
 - **Criterion name:** mobile presence
 
-- **Criterion description:** Lead is hot if {{Company}}'s consumer app has ≥
+- **Criterion description:** Lead is hot if {{Lead.Company Name}}'s consumer app has ≥
   4.2 rating with ≥ 1,000 reviews.
 
 - **Website:** [play.google.com](http://play.google.com)
