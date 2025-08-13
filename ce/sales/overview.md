@@ -92,7 +92,7 @@ The digital selling capabilities in Dynamics 365 Sales include built-in intellig
 
 Sales Qualification Agent autonomously researches leads using internal and external data, proactively drafts personalized customer emails, and flags high-priority leads for the next best action. The agent is available in two modes&mdash;Research-only and Research and engage.
 
-| Capability | Description | Reference links |
+| Mode| Description | Reference links |
 |------------|-------------|-----------------|
 | Research only | An automated agent qualifies leads by researching them based on selected criteria, providing insights, assessing fit, and generating outreach emails for promising leads—helping sellers prioritize effectively. | Administrator: [Set up Sales Qualification Agent](configure-sales-qualification-agent.md#set-up-sales-qualification-agent) |
 | Research and engage | An automated agent qualifies and engages leads at scale—filtering out low-potential prospects and handing off only those with strong intent, so your sales team can focus on closing. |Administrator: [Set up Sales Qualification Agent](configure-sales-qualification-agent.md#set-up-sales-qualification-agent)<br>Supervisor: [Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md)<br>Seller: [Work on leads handed over by the Sales Qualification Agent](use-sales-qualification-agent.md)|
