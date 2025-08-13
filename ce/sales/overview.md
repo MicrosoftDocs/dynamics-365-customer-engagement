@@ -1,7 +1,7 @@
 ---
 title: Welcome to Dynamics 365 Sales
 description: Transform your sales organization with Dynamics 365 Sales to build strong relationships with customers, take actions based on insights, and close deals faster.
-ms.date: 02/27/2025
+ms.date: 08/13/2025
 ms.topic: overview
 author: udaykirang
 ms.author: udag
@@ -82,11 +82,27 @@ For more information about the Copilot for Sales licensing options for Dynamics 
 
 ## Compare solutions
 
-To compare the capabilities available in each solution, view the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales?market=af#comparison-table) page. Refer to the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?linkid=866029) for more information about features included in each license.
+To compare the capabilities available in each solution, refer to the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?linkid=866029).
 
 ## How Dynamics 365 helps transform your sales organization
 
 The digital selling capabilities in Dynamics 365 Sales include built-in intelligence to equip your sales teams with adaptive guidance to better serve your customers.
+
+### Prioritize leads with an agent that works around the clock
+
+Sales Qualification Agent autonomously researches leads using internal and external data, proactively drafts personalized customer emails, and flags high-priority leads for the next best action. The agent is available in two modes&mdash;Research-only and Research and engage.
+
+| Mode| Description | Reference links |
+|-----|-------------|-----------------|
+| Research-only | Autonomously researches leads using internal and external knowledge sources, synthesizes research data to get meaningful insights, evaluates the leads' fit, and generates outreach emails for promising leads. | Administrator: [Set up Sales Qualification Agent](configure-sales-qualification-agent.md#set-up-sales-qualification-agent) |
+| Research and engage | Autonomously researches leads and engages with leads at scale—filtering out low-potential prospects and handing off only those with strong intent, so your sales team can focus on closing. |Administrator: [Set up Sales Qualification Agent](configure-sales-qualification-agent.md#set-up-sales-qualification-agent)<br>Supervisor: [Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md)<br>Seller: [Work on leads handed over by the Sales Qualification Agent](use-sales-qualification-agent.md)|
+
+### Stay ahead of the deal with agent-powered insights
+
+The Opportunity Research Agent in Dynamics 365 Sales helps you close complex deals by spotting risks early, highlighting top opportunities, and bringing all key insights into one clear view&mdash;so you can focus and act with confidence. Depending on your role, you can use the agent as follows:  
+
+- Administrator: [Configure the Opportunity Research Agent](configure-opportunity-research-agent.md)  
+- Seller: [Work on opportunities handled by the Opportunity Research Agent](use-opportunity-research-agent.md)
 
 ### Meet buyers where they are
 
@@ -101,8 +117,7 @@ Engage and interact with your customers at the right time and place, using metho
 | Meet and collaborate virtually | Provide coordinated virtual engagement with an enterprise collaboration hub that brings together colleagues, customers, and contextual customer data. | Administrator: [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)<br>Seller: [Basic Collaboration experience for Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-collaboration)|
 | Gather and act on customer feedback | See the customer’s point of view and improve sales engagement by incorporating survey insights from Dynamics 365 Customer Voice—included with Dynamics 365 Sales. | [Dynamics 365 Customer Voice documentation](/dynamics365/customer-voice/help-hub) |
 
-
-### Build relationships   
+### Build relationships  
 
 Build relationships with customers through information from LinkedIn and relationship analytics:
 
