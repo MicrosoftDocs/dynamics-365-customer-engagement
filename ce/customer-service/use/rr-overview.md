@@ -1,19 +1,29 @@
 ---
 title: Overview of real-time analytics for record routing
-description: Learn how to configure and use real-time analytics for record routing to enhance agent performance and customer support.
-author: Soumyasd27
+description: Monitor contact center performance with real-time analytics for record routing. Access dashboards, view KPIs, and analyze summary, queue, agent, and work item reports to improve productivity.
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: overview
-ms.date: 05/09/2025
-ms.custom: bap-template
+ms.date: 08/13/2025
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-description
+  - ai-seo-date:08/13/2025
 ---
 
 # Overview of real-time analytics for record routing
 
-Real-time analytics for record routing provides supervisors with critical insights into the health and key performance indicators (KPIs) of their contact centers. These analytics enable supervisors to monitor and optimize customer service representative (service representative or representative) performance and customer interactions across multiple channels. 
+## Introduction
 
-As a supervisor, you can [customize the visual display](customize-reports.md#customize-visual-display) of the reports and save your personalized views as [bookmarks](manage-bookmarks.md#manage-bookmarks-for-reports). You can efficiently manage operational metrics, service representative allocation, and ongoing cases to maintain high-service levels and customer satisfaction.
+Real-time analytics for record routing helps you monitor and improve your contact center's performance.
+
+**Key capabilities:**
+- Monitor real-time performance metrics and KPIs
+- Track service representative productivity and workload distribution
+- Analyze queue performance and backlog trends
+- [Customize the visual display](customize-reports.md#customize-visual-display) of  reports and save personalized views as [bookmarks](manage-bookmarks.md#manage-bookmarks-for-reports)
+- Access detailed insights across summary, queue, agent, and work item reports
 
 ## Security roles and permissions
 
@@ -24,9 +34,11 @@ As a supervisor, you can view the **Real-time analytics for record routing** das
 > [!NOTE]
 > If different values are shown to different users in the metrics, you must investigate the permissions for those users.
 
-## **Access reports**
+## Access reports
 
-In the default view of the Copilot Service workspace app, select **Real-time analytics for record routing** in **Service**. By default, the **Summary** report is shown. To view the **Queue**, **Agent,** **Ongoing work items**, and **Backlog work items** reports, select the appropriate tabs.
+1. In the Copilot Service workspace app, select **Real-time analytics for record routing** in **Service**.
+2. The **Summary** report opens by default.
+3. Select tabs for **Queue**, **Agent**, **Ongoing work items**, or **Backlog work items** reports.
 
 If you can't view the reports, contact your system administrator. Learn more in [Manage real-time analytics for record routing](../administer/enable-record-routing.md#manage-real-time-analytics-for-record-routing).
 

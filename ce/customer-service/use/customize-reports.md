@@ -1,6 +1,6 @@
 ---
 title: Customize visual display
-description: Edit visual data display for Dynamics 365 Customer Service analytics reports using the Power BI embedded editor. Modify key performance indicators, filter data, edit reports, customize metrics, and create organization-specific layouts.
+description: Edit visual data display for Dynamics 365 Customer Service analytics reports using the Power BI embedded editor. Modify key performance indicators, filter data, edit reports, customize metrics, and create organization-specific dashboard layouts.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
