@@ -93,7 +93,7 @@ additionalContent:
         text: LinkedIn Sales Navigator integration
       - url: install-lsi-solution.md
         text: Install LinkedIn Sales Insights
-    - title: AI agents
+    - title: Autonomous AI agents
       links:
       - url: configure-sales-qualification-agent.md
         text: Set up and configure the Sales Qualification Agent
@@ -134,7 +134,7 @@ additionalContent:
         text: Manage opportunities
       - url: sales-transactions.md
         text: Manage quote, order, and invoice
-    - title: AI agents
+    - title: Autonomous AI agents
       links:
       - url: use-sales-qualification-agent.md
         text: Work on leads handed over by the Sales Qualification Agent 

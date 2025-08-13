@@ -59,7 +59,7 @@ landingContent:
             url: relationship-analytics.md
 
 # Card 
-  - title: AI agents
+  - title: Autonomous AI agents
     linkLists:
        - linkListType: concept
          links:

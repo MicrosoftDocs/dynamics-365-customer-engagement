@@ -32,7 +32,7 @@ landingContent:
             url: /power-platform/admin/create-edit-business-units
 
 # Card 
-  - title: AI agents 
+  - title: Autonomous AI agents 
     linkLists:
        - linkListType: how-to-guide
          links:
