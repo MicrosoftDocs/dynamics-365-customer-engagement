@@ -23,7 +23,7 @@ Define the ideal customer profile and BANT (Budget, Authority, Need, and Timelin
 
 ## Configure the ideal customer profile and BANT criteria
 
-Both Research-only and Research and engage modes use the ideal customer profile to identify leads that match your target customer characteristics. However, BANT criteria are only used by the Research and engage mode to determine whether to engage with a lead.
+Both Research-only and Research and engage modes use the ideal customer profile to identify leads that match your target customer characteristics. However, BANT criteria are only used by the Research and engage mode to determine whether to engage with a lead. The ideal customer profile is also used in research and to provide contextual insights. 
 
 By default, the application defines a set of criteria. You can update any out-of-the-box criteria to add or remove attributes. Also, you can create a custom criterion.
 
