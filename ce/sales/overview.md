@@ -90,7 +90,7 @@ The digital selling capabilities in Dynamics 365 Sales include built-in intellig
 
 ### Prioritize leads with an agent that works around the clock
 
-Sales Qualification Agent works hand in hand with sellers to research leads using internal and external data, flag high-priority leads for the next best action, and proactively draft personalized customer emails.  
+Sales Qualification Agent autonomously researches leads using internal and external data, proactively drafts personalized customer emails, and flags high-priority leads for the next best action. The agent is available in two modes&mdash;Research-only and Research and engage.
 
 | Capability | Description | Reference links |
 |------------|-------------|-----------------|
