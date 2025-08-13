@@ -37,7 +37,9 @@ Configure the instructions that the agent should use to ensure that the email fo
 1. Open the **Email instructions** section. 
   
 1. Turn on **Account news** to personalize the email with the latest news about the account that are relevant to the lead's interests.  
-1. Under **Personalize email based on key fields from Lead**, select any text-based fields from the `Lead` table that you want the agent to use in the email. Think of the information you typically include in your emails to personalize the message and get the lead's attention. For example, you can select fields that capture the need, pain points, or specific interests of the lead.
+1. Under **Personalize email based on key fields from Lead**, add the following information:
+    1. Select **New field** to add a text-based field from the `Lead` table.
+    1. In the **Agent instructions** field, provide guidance on how to use the selected field in the email. For example, if you selected the **Job title** field, you might instruct the agent to tailor the email content based on the lead's job title so that it resonates with their specific role and responsibilities.
 
 ## Configure email validation settings
 
