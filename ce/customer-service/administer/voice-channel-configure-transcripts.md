@@ -21,7 +21,7 @@ As an administrator, you can enable live translation, transcription, and recordi
 > [!IMPORTANT]
 >
 > - Many countries/regions and states have laws and regulations that apply to the recording of Public Switched Telephone Network (PSTN), voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording and transcription capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.  
-> - Irrespective of whether you enable recording and transcription for voice, if you use AI agents created in Copilot Studio, a conversation transcript is automatically generated in Copilot Studio. However, when the AI agent is enabled for Dual Tone Multi-Frequency (DTMF) only, the spoken input from the caller is ignored. The caller keypad entries (DTMF tones) only are captured. The speech input isn't stored in the Copilot Studio transcript.
+> - Irrespective of whether you enable recording and transcription for voice, if you use AI agents created in Copilot Studio, a conversation transcript is automatically generated in Copilot Studio. However, when the AI agent is enabled for Dual Tone Multi-Frequency (DTMF) input only, the spoken input from the caller is ignored. The caller keypad entries (DTMF tones) only are captured. The speech input isn't stored in the Copilot Studio transcript.
 
 ## Prerequisites
 
