@@ -4,7 +4,7 @@ description: Explore comprehensive lead qualification criteria and search instru
 author: lavanyakr01
 contributors:
 ms.topic: concept-article
-ms.date: 08/13/2025
+ms.date: 08/14/2025
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ---
@@ -27,25 +27,25 @@ The following sections provide examples of custom criteria for different industr
 
 **Commercial banking:**
 
-- **Criterion name:** expansion signal
+- **Criterion name:** Expansion signal
 
 - **Criterion description:** Lead is hot if lead's company name has announced a new facility, acquisition, or market expansion within the last 18 months.
-   :::image type="content" source="media/add-custom-criterion.png" alt-text="Screenshot of the add custom criteria section.":::
+   :::image type="content" source="media/add-custom-criterion.png" alt-text="Screenshot of the custom criteria section.":::
 
 - **Website:** [www.bing.com](http://www.bing.com)
   :::image type="content" source="media/add-website-custom-criterion.png" alt-text="Screenshot of the add public website dialog.":::
 
-- **Instructions:** site:news {{Lead.Company Name}} expansion OR acquisition
+- **Instructions:** site: news {{Lead.Company Name}} expansion OR acquisition
   OR "opens new" OR "new facility" past 18 months. Capture date and
   summary; pass if ≤ 18 months.
 
-  Add a forward slash (/) to add a Dataverse field to your instruction.
+  To add a Dataverse field to your instruction, enter a forward slash (/) and then select the field from the dropdown list.
 
   :::image type="content" source="media/custom-criterion-instructions.png" alt-text="Screenshot of the provide instructions dialog.":::
 
 **Wealth management:**
 
-- **Criterion name:** recent liquidity event
+- **Criterion name:** Recent liquidity event
 
 - **Criterion description:** Lead is hot if lead's company name completed an
   IPO, SPAC, or major funding round (Series C+ or ≥ \$50M) in the last
@@ -59,7 +59,7 @@ The following sections provide examples of custom criteria for different industr
 
 **Insurance (cyber):**
 
-- **Criterion name:** security incident and renewal window
+- **Criterion name:** Security incident and renewal window
 
 - **Criterion description:** Lead is hot if lead's company name reported a
   phishing/ransomware incident in the last 12 months AND policy renewal
@@ -74,7 +74,7 @@ The following sections provide examples of custom criteria for different industr
 
 **Capital equipment:**
 
-- **Criterion name:** capacity expansion
+- **Criterion name:** Capacity expansion
 
 - **Criterion description:** Lead is hot if lead's company name announced a
   plant expansion or new production line in the last 12 months.
@@ -87,7 +87,7 @@ The following sections provide examples of custom criteria for different industr
 
 **Industrial IoT retrofit:**
 
-- **Criterion name:** multi-plant, older facilities
+- **Criterion name:** Multi-plant, older facilities
 
 - **Criterion description:** Lead is hot if lead's company name operates 3+
   manufacturing sites and at least one plant is older than 10 years.
@@ -99,7 +99,7 @@ The following sections provide examples of custom criteria for different industr
 
 **Supplier to automotive:**
 
-- **Criterion name:** program award
+- **Criterion name:** Program award
 
 - **Criterion description:** Lead is hot if lead's company name has been
   awarded an OEM or Tier‑1 program in the last 12 months.
@@ -113,7 +113,7 @@ The following sections provide examples of custom criteria for different industr
 
 **Provider size:**
 
-- **Criterion name:** staffed beds threshold
+- **Criterion name:** Staffed beds threshold
 
 - **Criterion description:** Lead is hot if total staffed beds across
   lead's company name ≥ 500.
@@ -135,11 +135,11 @@ The following sections provide examples of custom criteria for different industr
 
 - **Instructions:** {{Lead.Company Name}} EHR Epic OR Cerner
   site:chimecentral.org OR site:klasresearch.com OR "EHR vendor"
-  "{{Lead.Company Name}}".
+  "{{Lead.Company Name}}"
 
 **Quality signal:**
 
-- **Criterion name:** readmission index
+- **Criterion name:** Readmission index
 
 - **Criterion description:** Lead is hot if {{Lead.Company Name}}'s heart failure
   30‑day readmission index is above national average.
@@ -153,7 +153,7 @@ The following sections provide examples of custom criteria for different industr
 
 **DevSecOps:**
 
-- **Criterion name:** Kubernetes + multi‑cloud
+- **Criterion name:** Kubernetes + multicloud
 
 - **Criterion description:** Lead is hot if lead's company name publicly
   references Kubernetes and uses at least two public clouds.
@@ -165,7 +165,7 @@ The following sections provide examples of custom criteria for different industr
 
 **SaaS analytics:**
 
-- **Criterion name:** product-led growth signal
+- **Criterion name:** Product-led growth signal
 
 - **Criterion description:** Lead is hot if lead's company name offers
   self‑serve signup and employs a product analytics role (open role or
@@ -179,7 +179,7 @@ The following sections provide examples of custom criteria for different industr
 
 **Email security replacement:**
 
-- **Criterion name:** incident + competitor
+- **Criterion name:** Incident + competitor
 
 - **Criterion description:** Lead is hot if lead's company name had an email
   phishing incident in last 12 months AND current vendor is Proofpoint
@@ -192,7 +192,7 @@ The following sections provide examples of custom criteria for different industr
 
 ## Retail
 
-- **Criterion name:** store count threshold
+- **Criterion name:** Store count threshold
 
 - **Criterion description:** Lead is hot if lead's company name operates ≥
   50 retail stores in North America.
@@ -206,7 +206,7 @@ The following sections provide examples of custom criteria for different industr
 
 **ESG requirement:**
 
-- **Criterion name:** sustainability report presence
+- **Criterion name:** Sustainability report presence
 
 - **Criterion description:** Lead is hot if lead's company name publishes an
   annual sustainability/ESG report with Scope 1/2 metrics.
@@ -218,10 +218,10 @@ The following sections provide examples of custom criteria for different industr
 
 **Hiring momentum:**
 
-- **Criterion name:** growth signal
+- **Criterion name:** Growth signal
 
 - **Criterion description:** Lead is hot if lead's company name has 10+ open
-  roles in targeted functions (e.g., "data engineering").
+  roles in targeted functions (for example, "data engineering").
 
 - **Website:** [www.google.com](http://www.google.com)
 
@@ -230,7 +230,7 @@ The following sections provide examples of custom criteria for different industr
 
 **International expansion:**
 
-- **Criterion name:** new geography
+- **Criterion name:** New geography
 
 - **Criterion description:** Lead is hot if lead's company name opened
   offices in a new country in the past 12 months.
@@ -256,7 +256,7 @@ The following sections provide examples of custom criteria for different industr
 
 **App ratings:**
 
-- **Criterion name:** mobile presence
+- **Criterion name:** Mobile presence
 
 - **Criterion description:** Lead is hot if {{Lead.Company Name}}'s consumer app has ≥
   4.2 rating with ≥ 1,000 reviews.
@@ -271,7 +271,7 @@ The following sections provide examples of custom criteria for different industr
 
 **Competitor displacement opportunity:**
 
-- **Criterion name:** competitor displacement opportunity
+- **Criterion name:** Competitor displacement opportunity
 
 - **Criterion description:** Lead is hot if lead's company name publicly
   lists competitor X as a current vendor.
@@ -284,7 +284,7 @@ The following sections provide examples of custom criteria for different industr
 
 **Partner ecosystem fit:**
 
-- **Criterion name:** partner ecosystem fit
+- **Criterion name:** Partner ecosystem fit
 
 - **Criterion description:** Lead is hot if lead's company name is a
   certified partner in Microsoft/AWS marketplace with relevant
