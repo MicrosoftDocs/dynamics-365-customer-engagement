@@ -49,8 +49,6 @@ By default, the application defines a set of criteria. You can update any out-of
    >[!NOTE]
    > If you don't want the agent to use BANT, you can leave the fields empty. However, we recommend that you define the BANT criterion to help the agent identify leads that it should engage with. When BANT is not defined, the agent uses only the [purchase interest signals](sales-qualification-agent-concepts.md#what-is-purchase-interest-and-how-is-it-determined) to evaluate leads and determine whether to engage with them.
 
-1. Select **Generate** to generate the ideal customer profile and BANT criteria based on the value proposition you entered in the **Value proposition** field. The agent uses this information to understand your business and generate the ideal customer profile and BANT criteria.
-
 1. Under each criteria, expand the **Where's this info stored** section to verify the fields used by default to evaluate the criteria. You can change these fields if needed.
 
    :::image type="content" source="media/sqa-ideal-customer-profile.png" alt-text="Screenshot of the ideal customer profile configuration in Sales Qualification Agent settings.":::

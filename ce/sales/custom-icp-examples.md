@@ -233,12 +233,12 @@ The following sections provide examples of custom criteria for different industr
 - **Criterion name:** New geography
 
 - **Criterion description:** Lead is hot if lead's company name opened
-  offices in a new country in the past 12 months.
+  offices in a new country/region in the past 12 months.
 
 - **Website:** [www.bing.com](https://www.bing.com)
 
 - **Instructions:** {{Lead.Company Name}} opens office OR launches operations
-  in "country" OR "region" site:news past 12 months.
+  in "country/region" site:news past 12 months.
 
 ## Public-database anchored criteria
 
