@@ -25,7 +25,7 @@ As an administrator, you can enable live translation, transcription, and recordi
 
 ## Prerequisites
 
-For call recording to work as expected, allow the audio and mpeg MIME type for your environment in Power platform admin center. Learn more in [Manage privacy and security settings](/power-platform/admin/settings-privacy-security). 
+For call recording to work as expected, allow the audio and mpeg MIME type for your environment in Power Platform admin center. Learn more in [Manage privacy and security settings](/power-platform/admin/settings-privacy-security).
 
 ## Enable call recording and transcription for voice
 
@@ -55,7 +55,7 @@ To view translated voice transcripts for calls, you must enable call recording, 
 
 ## View call transcripts
 
- You can view call transcripts in Copilot Service workspace only. 
+ You can view call transcripts in Copilot Service workspace only.
  
 1. In the site map, go to manage **Users**, and then select the user whose conversations you want to view.
 2. Select the **Related** tab, and then select **Conversations** from the dropdown menu.
