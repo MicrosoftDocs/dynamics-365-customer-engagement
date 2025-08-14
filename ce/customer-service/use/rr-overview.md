@@ -15,8 +15,6 @@ ms.custom:
 
 # Overview of real-time analytics for record routing
 
-## Introduction
-
 Real-time analytics for record routing helps you monitor and improve your contact center's performance.
 
 **Key capabilities:**
