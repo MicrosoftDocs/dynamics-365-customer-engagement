@@ -1,6 +1,7 @@
 ---
 title: Overview of real-time analytics for record routing
 description: Monitor contact center performance with real-time analytics for record routing. Access dashboards, view KPIs, and analyze summary, queue, agent, and work item reports to improve productivity.
+author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: overview
