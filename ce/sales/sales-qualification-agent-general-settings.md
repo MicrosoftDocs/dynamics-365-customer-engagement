@@ -54,7 +54,7 @@ The agent uses product information to generate suggestions during hand over and 
 
 1. [Open the Sales Qualification Agent settings](open-sales-qualification-agent-settings.md) page.
 
-1. In the **Products** section, enter the value proposition of your products or services, highlighting their key benefits and features. This information helps the agent understand what to emphasize when engaging with leads.  
+1. In the **Products** section, enter the value proposition of your products or services, highlighting their key benefits and features. This information helps the agent tailor its research and generate relevant outreach emails and follow-up email. It's also used to auto-generate [handoff criteria](configure-sales-qualification-agent-handoff-criteria.md) later in the setup.
 
 ## Next step
 
