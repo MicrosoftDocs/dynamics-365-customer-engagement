@@ -38,6 +38,9 @@ The following sections provide examples of custom criteria for different industr
 - **Instructions:** site:news {{Lead.Company Name}} expansion OR acquisition
   OR "opens new" OR "new facility" past 18 months. Capture date and
   summary; pass if ≤ 18 months.
+
+  Add a forward slash (/) to add a Dataverse field to your instruction.
+
   :::image type="content" source="media/custom-criterion-instructions.png" alt-text="Screenshot of the provide instructions dialog.":::
 
 **Wealth management:**

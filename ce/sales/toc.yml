@@ -179,6 +179,8 @@ items:
                     href: sales-qualification-agent-faq.md
                   - name: Test the Sales Qualification Agent
                     href: test-sales-qualification-agent.md
+                  - name: Custom criteria examples
+                    href: custom-icp-examples.md
               - name: Sales Qualification Agent (pre-7.3 version)
                 items:
                   - name: Overview (pre-7.3 version)
