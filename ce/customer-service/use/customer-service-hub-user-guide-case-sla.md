@@ -25,7 +25,7 @@ You can see the SLA details on the SLA-enabled entity record.
 
 ### Timer control for SLA-enabled entities
 
-If your administrator has enabled the configurations to display the statuses of the configured SLA KPIs by using the SLA Timer control subgrid, you see the following details:
+If your administrator enabled the configurations to display the statuses of the configured SLA KPIs by using the SLA Timer control subgrid, you see the following details:
 
 - The different status changes that the KPIs go through.
 - When a KPI nears compliance or noncompliance, the time ticker changes to show the time in hours, minutes, and seconds, as applicable.
@@ -48,7 +48,7 @@ A sample runtime view of the SLA Timer is as follows. The SLA KPIs displayed are
 
 ![Runtime view of SLA Timers.](../media/sla-timer-runtime.png "Runtime view of SLA Timers")
 
-For SLAs that are in the expired status, your administrator can configure the SLA Timer to display the elapsed time. The timer displays the countdown using a negative value in the red color. Only those SLA Timers that have been configured to show the negative time displays the negative countdown time. More information: [Enable elapsed time for SLA Timers in expired status](../administer/add-timer-control-case-form-track-time-against-sla.md#enable-elapsed-time-for-sla-timers-in-expired-status)
+For SLAs that are in the expired status, your administrator can configure the SLA Timer to display the elapsed time. The timer displays the countdown using a negative value in the red color. Only SLA Timers that are configured to show the negative time display the negative countdown time. Learn more in [Enable elapsed time for SLA Timers in expired status](../administer/add-timer-control-case-form-track-time-against-sla.md#enable-elapsed-time-for-sla-timers-in-expired-status).
 
 :::image type="content" source="../media/sla-negative-countdown-timer.png" alt-text="Display negative countdown for SLAs in expired or terminal status.":::
 
@@ -73,7 +73,7 @@ If you put the case on hold after the warning time, then the warning time isn’
 - Has succeeded
 
 > [!NOTE]
-> - The SLA Timer continues to run after it's triggered or resumed. It includes the holiday hours, non-business hours, and pause time (only business hours) while projecting the SLA warning or failure time.  
+> - The SLA Timer continues to run after it triggers or resumes. It includes the holiday hours, non-business hours, and pause time (only business hours) while projecting the SLA warning or failure time.  
 > - The timer control auto-refreshes for **Pause** and **Resume** states to show the updated SLA. For all other states, you must refresh the page to view the refreshed SLA. Select **...** and select **Refresh** on the command bar to refresh the SLA Timer control.
 
 You can now also apply SLAs on demand. Learn more in [Apply SLAs](../administer/apply-slas.md#apply-slas).
@@ -105,7 +105,7 @@ Both **Active Duration (min)** and **Elapsed Time (min)** are calculated based o
 
 ## Know the SLA KPI instance entity name
 
-For SLA KPI instances, you see the **Regarding** column as blank on Unified Interface, and on the web client you see it as **(No name)**. This happens for all existing and custom entities other than the case entity.
+For SLA KPI instances, you see the **Regarding** column as blank on Unified Interface, and on the web client you see it as **(No name)**. This display happens for all existing and custom entities other than the case entity.
 
 Your administrator must configure the SLA KPI instance name through **Advanced Find**.
 
