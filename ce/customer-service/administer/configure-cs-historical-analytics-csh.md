@@ -53,7 +53,7 @@ Use the Copilot Service admin center app to enable or disable the reports.
 ## Enable historical analytics for unified routing
 
 > [!NOTE]
-> Starting June 30, 2025, the legacy version of [Historical analytics for unified routing in Customer Service](../use/cs-historical-analytics-unified-routing.md#historical-analytics-for-unified-routing-in-customer-service) is deprecated in Dynamics 365 Customer Service and Dynamics 365 Contact Center. Support ends on August 31, 2025, after which this feature will be removed.
+> Starting June 30, 2025, the legacy version of [Historical analytics for unified routing in Customer Service](../use/cs-historical-analytics-unified-routing.md#historical-analytics-for-unified-routing-in-customer-service) is deprecated in Dynamics 365 Customer Service and Dynamics 365 Contact Center. Support ends on August 31, 2025, after which this dashboard will be removed.
 
 Use the Copilot Service admin center app to enable or disable the reports. The metrics are available in the report after 24 hours.
 
