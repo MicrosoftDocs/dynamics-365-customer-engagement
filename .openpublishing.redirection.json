@@ -30563,11 +30563,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/customer-service/use/use-follow-up-closure.md",
+      "redirect_url": "/dynamics365/contact-center/use/use-case-follow-up-closure",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/customer-service/use/voice-channel-agent-experience.md",
       "redirect_url": "/dynamics365/contact-center/use/voice-channel-agent-experience",
       "redirect_document_id": false
-    },
-        {
+    },    
+    {
       "source_path": "ce/customer-service/use/copilot-analytics-report.md",
       "redirect_url": "/dynamics365/contact-center/use/copilot-analytics-report",
       "redirect_document_id": false
@@ -35393,6 +35398,36 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/field-service/field-service-customization-best-practices.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-customize-best-practices",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/field-service-customizations.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-customize-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/field-service-customize-columns-fields.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-customize-columns-fields",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/field-service-customize-forms.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-customize-forms",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/field-service-customize-scripts.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-customize-scripts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/customize-booking-card.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-customize-booking-card",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/customer-service/developer/reference/entities/msdyn_conversationmessageblock.md",
       "redirect_url": "/dynamics365/developer/reference/entities/msdyn_conversationmessageblock",
       "redirect_document_id": false
@@ -35695,7 +35730,17 @@
       "source_path": "ce/customer-service/administer/use-effort-estimation-for-routing.md",
       "redirect_url": "/dynamics365/customer-service/administer/overview-unified-routing",
       "redirect_document_id": "false"
-    }  
+    },
+    {
+      "source_path": "ce/customer-service/administer/inbox-views-filters.md",
+      "redirect_url": "/dynamics365/customer-service/use/inbox-views-filters",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/work-order-recap.md",
+      "redirect_url": "/dynamics365/field-service/use-work-order-recap",
+      "redirect_document_id": false
+    }      
 
   ]
 }

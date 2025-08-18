@@ -113,33 +113,25 @@ The CertificateReconfiguration.ps1 is a Windows PowerShell script that installs 
 
 3.  Run the CertificateReconfiguration.ps1 Windows PowerShell script as explained here:
     
-      - **certificateFile** *path\\Personalcertfile.pfx* . Required parameter that specifies the full path to the personal information exchange file (.pfx). More information: Working with digital certificates
+    - **certificateFile** *path\\Personalcertfile.pfx* . Required parameter that specifies the full path to the personal information exchange file (.pfx). More information: Working with digital certificates
     
-      - **password** *personal\_certfile\_password*. Required parameter that specifies the private certificate password.
+    - **password** *personal\_certfile\_password*. Required parameter that specifies the private certificate password.
     
-      - **certificateType S2STokenIssuer**. Required parameter that specifies the type of certificate. For Customer Engagement (on-premises) and SharePoint server-based integration, only **S2STokenIssuer** is supported.
-    
-      - **serviceAccount** ‘*DomainName\\UserName*’ or ‘Network Service’.
-            
-      ```   
-      serviceAccount 'contoso\\CRMWebAppServer' or ‘Network Service’. Required parameter that specifies the identity for the Web Application Server role. The identity is either a domain user account, such as *contoso\\CRMWebAppServer*, or Network Service. The identity will be granted permission to the certificate.
-      ``` 
-        
-      - **updateCrm**. Adds the certificate information to the Microsoft Customer Engagement (on-premises) configuration database.
-        
+    - **certificateType S2STokenIssuer**. Required parameter that specifies the type of certificate. For Customer Engagement (on-premises) and SharePoint server-based integration, only **S2STokenIssuer** is supported.
 
-        > [!IMPORTANT]
-        > <P>Even if you have multiple Web Application Server or Asynchronous Service roles deployed, you only need to run the command with the updateCrm parameter once.</P>
+    - **serviceAccount** '*DomainName\\UserName*' or 'Network Service'. Required parameter that specifies the identity for the Web Application Server role. The identity is either a domain user account, such as *contoso\\CRMWebAppServer*, or Network Service. The identity will be granted permission to the certificate.
 
-    
-      - *storeFindType FindBySubjectDistinguishedName*. Specifies the type of certificate store. By default, this value is FindBySubjectDistinguishedName and is recommended when you run the script.
-    
+    - **updateCrm**. Adds the certificate information to the Microsoft Customer Engagement (on-premises) configuration database.
+
+    > [!IMPORTANT]
+    > Even if you have multiple Web Application Server or Asynchronous Service roles deployed, you only need to run the command with the `updateCrm` parameter once.
+
+    - **storeFindType FindBySubjectDistinguishedName**. Specifies the type of certificate store. By default, this value is `FindBySubjectDistinguishedName` and is recommended when you run the script.
 
     > [!IMPORTANT]
     > Although the updateCrm and StoreFindType parameters are optional to run the command, these parameters are required for server-based SharePoint integration so that certificate information is added to the certification database.
 
-    
-    Example
+    Example:
     
     ``` powershell
     .\CertificateReconfiguration.ps1 -certificateFile c:\Personalcertfile.pfx -password personal_certfile_password -updateCrm -certificateType S2STokenIssuer -serviceAccount Domain\UserName -storeFindType FindBySubjectDistinguishedName

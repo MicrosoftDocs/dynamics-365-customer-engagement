@@ -1,7 +1,7 @@
 ---
 title: Share feedback in Customer Service
 description: Learn how to share any feedback that you have for the Customer Service Hub app.
-ms.date: 06/10/2024
+ms.date: 07/30/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
