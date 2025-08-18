@@ -1,7 +1,7 @@
 ---
 title: Overview of unified routing
 description: Overview of unified routing in Customer Service.
-ms.date: 04/04/2025
+ms.date: 08/18/2025
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
@@ -68,9 +68,9 @@ The intelligent skill finder depends upon the custom AI Builder category classif
 [How routing and assignment works](set-up-routing-process.md)  
 [Create workstreams for unified routing](create-workstreams.md)  
 [Set up record routing](set-up-record-routing.md)  
-[Configure work classification rulesets](configure-work-classification.md)  
-[Historical analytics for Unified routing in Customer Service](../use/cs-historical-analytics-unified-routing.md)  
-[Historical analytics for unified routing in Omnichannel for Customer Service](../use/oc-historical-analytics-unified-routing.md)  
+[Manage real-time analytics for record routing](enable-record-routing.md#manage-real-time-analytics-for-record-routing)  
+[Overview of real-time analytics for record routing](../use/rr-overview.md#overview-of-real-time-analytics-for-record-routing)  
+[Configure work classification rulesets](configure-work-classification.md)   
 [FAQ on unified routing](unified-routing-faqs.md)  
 [Export and import configuration data for the record channel](../export-import-config-data-for-records.md)  
 [Export import data for the live chat channel](../export-import-config-data-for-live-chat.md)  
