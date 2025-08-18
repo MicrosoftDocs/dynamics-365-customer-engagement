@@ -58,17 +58,23 @@ To create a hierarchy visualization chart, follow these steps:
     The **Settings** pane opens on the right side of the page.
 
 1. In the **General** tab, configure the following settings:
-   - **Expand all levels**: By default, the option is enabled and can't be disabled. The option allows users to see all levels of the hierarchy at once.
-   - **Select the column with the parent ID**: Select the column that contains the parent ID for the hierarchy. For example, the `parent account ID` column in the **Account** table defines the parent-child relationship. The list shows only self-referential columns (columns that reference the same table). Select one to link records for hierarchy visualization.  
-   - **Which view should be used**: When users open the hierarchy visualization, they should see the records based on the selected view. Use the default view or the one that is created. For example, Active accounts or All accounts.  
-   - **Which form should be shown as a tile**: Select a suitable form that should be displayed as a tile (card) in the hierarchy visualization. Use a concise tile form that shows key summary fields for each record such as account name, owner, and revenue&mdash;so users can scan the tile layout at a glance.  
-   - **Which form should be shown as details**: Select a form that should be used to display detailed information when a user selects a card in the hierarchy visualization. This form should provide comprehensive information about the record and may include additional fields not shown in the card.  
+
+    | Setting | Description |
+    |---------|-------------|
+    | Expand all levels | By default, the option is enabled and can't be disabled. The option allows users to see all levels of the hierarchy at once. |
+    | Select the column with the parent ID | Select the column that contains the parent ID for the hierarchy. For example, the `parent account ID` column in the **Account** table defines the parent-child relationship. The list shows only self-referential columns (columns that reference the same table). Select one to link records for hierarchy visualization. |
+    | Which view should be used | When users open the hierarchy visualization, they should see the records based on the selected view. Use the default view or the one that is created. For example, Active accounts or All accounts. |
+    | Which form should be shown as a tile | Select a suitable form that should be displayed as a tile (card) in the hierarchy visualization. Use a concise tile form that shows key summary fields for each record such as account name, owner, and revenue&mdash;so users can scan the tile layout at a glance. |
+    | Which form should be shown as details | Select a form that should be used to display detailed information when a user selects a card in the hierarchy visualization. This form should provide comprehensive information about the record and may include additional fields not shown in the card. |
 
     :::image type="content" source="media/hv-settings-general-tab.png" alt-text="Screenshot of the General tab in the Settings pane in the hierarchy visualization designer page.":::
 
 1. In the **Card display option** tab, configure the following settings:  
-   - **Show picture**: By default, the option is enabled and displays the record's image in the card. If no image is available, the initials of the record will be shown instead. For example, if **Maria Campbell** does not have an image, her card would be displayed as **MC**.
-   - **Card size**: Select the width and height for the card in pixels and then choose the color for the card border.
+
+    | Setting | Description |
+    |---------|-------------|
+    | Show picture | By default, the option is enabled and displays the record's image in the card. If no image is available, the initials of the record will be shown instead. For example, if **Maria Campbell** does not have an image, her card would be displayed as **MC**. |
+    | Card size | Select the width and height for the card in pixels and then choose the color for the card border. |
 
     > [!NOTE]
     > - These settings are applied to all the cards in this hierarchy visualization chart.
