@@ -86,9 +86,9 @@ Track the time taken by SLA KPI Instances to reach their terminal status during 
 
 The **Active Duration (min)** and **Elapsed Time (min)** fields for an SLA KPI Instance help you derive the exact number of business hours that were spent. The **Active Duration (min)** field shows data only when the KPI is in a **Paused** or terminal state. **Elapsed Time (min)** shows data only when the KPI is in an **In progress** or terminal state. The final value appears in the last KPI instance after the terminal state. The active duration and elapsed time data is shown in minutes.
 
-Active duration calculation is asynchronous by default.
+Active duration for cases created in the **Failure** and **Succeeded** state is null and don't show any value.
 
-You might need to refresh the views that have an **Active Duration (min)** field after any create or update operation. You might also need to review any customizations associated with the **Active Duration** attribute of the SLA KPI instance.
+Active duration calculation is asynchronous by default. You might need to refresh the views that have an **Active Duration (min)** field after any create or update operation. You might also need to review any customizations associated with the **Active Duration** attribute of the SLA KPI instance.
 
 You can view the active duration and elapsed time on the **SLA** tab of the custom entity as well.
 
