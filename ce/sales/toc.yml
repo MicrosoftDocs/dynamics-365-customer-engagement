@@ -320,6 +320,14 @@ items:
                 href: manage-excel-templates.md
               - name: Create email templates
                 href: /powerapps/user/email-template-create?context=/dynamics365/context/sales-context
+          - name: Work with hierarchy visualization (preview)
+            items:
+              - name: Overview of hierarchy visualization (preview)
+                href: hierarchy-visualization.md
+              - name: Create and activate a hierarchy visualization chart (preview)
+                href: create-activate-hierarchy-visualizations.md
+              - name: Manage hierarchy visualization (preview)
+                href: manage-hierarchy-visualizations.md
           - name: Configure email engagement
             href: configure-email-engagement.md
           - name: Enable auto capture
