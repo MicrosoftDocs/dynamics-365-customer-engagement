@@ -12,7 +12,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 # Historical analytics for unified routing in Customer Service
 
 > [!NOTE]
-> Starting June 30, 2025, the legacy version of Historical analytics for unified routing in Customer Service is deprecated in Dynamics 365 Customer Service and Dynamics 365 Contact Center. Support ends on August 31, 2025, after which this feature will be removed.
+> Starting June 30, 2025, the legacy version of Historical analytics for unified routing in Customer Service is deprecated in Dynamics 365 Customer Service and Dynamics 365 Contact Center. Support ends on August 31, 2025, after which this dashboard will be removed.
 
 With the introduction of unified routing, an advanced and elaborate set of capabilities are available for organizations to enhance their routing configurations. Supervisors and business administrators need metrics to track how these advanced routing capabilities are helping their businesses serve their customers.
 
