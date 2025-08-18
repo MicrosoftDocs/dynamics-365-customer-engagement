@@ -51,7 +51,7 @@ This configuration also enables AI-discovered topics from conversations with def
 ## Enable historical analytics for unified routing in Omnichannel for Customer Service
 
 > [!NOTE]
-> Starting June 30, 2025, the legacy version of [Historical analytics for unified routing](../use/oc-historical-analytics-unified-routing.md#historical-analytics-for-unified-routing) is deprecated in Dynamics 365 Customer Service and Dynamics 365 Contact Center. Support ends on August 31, 2025, after which this feature will be removed.
+> Starting June 30, 2025, the legacy version of [Historical analytics for unified routing in Omnichannel for Customer Service](../use/oc-historical-analytics-unified-routing.md#historical-analytics-for-unified-routing) is deprecated in Dynamics 365 Customer Service and Dynamics 365 Contact Center. Support ends on August 31, 2025, after which this feature will be removed.
 
 
 You can enable historical analytics for unified routing in the Copilot Service admin center app. The metrics are available in the report after 24 hours.

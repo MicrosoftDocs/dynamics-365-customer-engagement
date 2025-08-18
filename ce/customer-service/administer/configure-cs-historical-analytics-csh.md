@@ -59,7 +59,7 @@ Use the Copilot Service admin center app to enable or disable the reports. The m
 
 > [!IMPORTANT]
 >
-> Unified routing must be enabled to enable historical analytics for unified routing. Learn more in: [Provision unified routing for Customer Service](provision-unified-routing.md)
+> Unified routing must be enabled to enable historical analytics for unified routing. Learn more in [Provision unified routing for Customer Service](provision-unified-routing.md).
 
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      

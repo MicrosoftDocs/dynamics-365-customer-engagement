@@ -19,7 +19,7 @@ Administrators and IT professionals can use this information to prepare for futu
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
-## Legacy version of Historical analytics for unified routing is deprecated in Dynamics Customer Service and Dynamics 365 Contact Center
+## Legacy version of Historical analytics for unified routing is deprecated in Dynamics 365 Customer Service and Dynamics 365 Contact Center
 
 Starting June 30, 2025, the legacy version of [Historical analytics for unified routing in Omnichannel for Customer Service](../use/oc-historical-analytics-unified-routing.md#historical-analytics-for-unified-routing) and [Historical analytics for unified routing in Customer Service](../use/cs-historical-analytics-unified-routing.md#historical-analytics-for-unified-routing-in-customer-service) is deprecated in Dynamics 365 Customer Service and Dynamics 365 Contact Center. Support ends on August 31, 2025, after which this feature will be removed.
 
