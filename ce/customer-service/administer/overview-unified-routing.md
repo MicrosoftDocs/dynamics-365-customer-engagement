@@ -68,6 +68,8 @@ The intelligent skill finder depends upon the custom AI Builder category classif
 [How routing and assignment works](set-up-routing-process.md)  
 [Create workstreams for unified routing](create-workstreams.md)  
 [Set up record routing](set-up-record-routing.md)  
+[Manage real-time analytics for record routing](enable-record-routing.md#manage-real-time-analytics-for-record-routing)  
+[Overview of real-time analytics for record routing](../use/rr-overview.md#overview-of-real-time-analytics-for-record-routing)  
 [Configure work classification rulesets](configure-work-classification.md)   
 [FAQ on unified routing](unified-routing-faqs.md)  
 [Export and import configuration data for the record channel](../export-import-config-data-for-records.md)  
