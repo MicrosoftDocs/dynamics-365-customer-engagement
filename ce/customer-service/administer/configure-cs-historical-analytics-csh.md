@@ -1,7 +1,7 @@
 ---
 title: Manage historical analytics reports in Customer Service
 description: Learn how to configure Customer Service historical analytics reports in Omnichannel for Customer Service.
-ms.date: 06/20/2025
+ms.date: 08/18/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
