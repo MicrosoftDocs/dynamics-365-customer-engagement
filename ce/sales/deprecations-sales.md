@@ -1,7 +1,7 @@
 ---
 title: Removed or deprecated features in Dynamics 365 Sales
 description: Visit this page to see the deprecating features in Dynamics 365 Sales.
-ms.date: 05/30/2025
+ms.date: 08/19/2025
 ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -58,6 +58,10 @@ Effective October 1, 2023, the following Exchange-based cards are deprecated and
 -	Yes or No Card
 
 You can create your own cards using Power Automate. [Learn more](create-insight-cards-flow.md).
+
+## LinkedIn lead generation capabilities are deprecated
+
+Effective December 2024, LinkedIn lead generation capabilities are deprecated. You can however, develop your own custom integration. Learn more in the [LinkedIn Lead Sync Integration blog post](https://community.dynamics.com/blogs/post/?postid=fb6ed89f-67a1-ef11-8a69-7c1e520b1f9b).
 
 ## Rank optimization of insight cards is deprecated
 
