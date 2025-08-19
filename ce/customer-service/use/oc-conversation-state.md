@@ -71,7 +71,7 @@ The wrap-up state is an intermediate state after the representative ends the con
 
 - **Always block**: The capacity is blocked when the conversation is in the **Wrap-up** state. 
 - **Don't block**: The capacity is released when the conversation moves from **Active** to **Wrap-up** state.
-- **Custom time**: Capacity is blocked for the selected duration that can range from 1 to 60 minutes. Learn more in [Configure work distribution](../administer/create-workstreams.md#configure-work-distribution).
+- **Custom time**: Capacity is blocked for the selected duration that can range from 30 seconds to 60 minutes. Learn more in [Configure work distribution](../administer/create-workstreams.md#configure-work-distribution).
 
 The conversation (work item) transitions from **Wrap-up** to **Closed** under the following scenario.
 
@@ -91,7 +91,7 @@ The conversation (work item) transitions from **Wrap-up** to **Closed** under th
 
 A conversation in waiting doesn't consume a representative's capacity.
 
-When the representative closes the session by selecting the close (**X**) button but doesn't end it by selecting the **End** button on the communication panel, the conversation moves into the **Waiting** state. For example, the representative has asked for more information from the customer who is yet to respond back and the representative closes the communication panel without ending the conversation. The conversation is reassigned to the representative after the customer responds.
+When the representative closes the session by selecting the close (**X**) button but doesn't end it by selecting the **End** button on the communication panel, the conversation moves into the **Waiting** state. For example, the representative has asked for more information from the customer who is yet to revert and the representative closes the communication panel without ending the conversation. The conversation is reassigned to the representative after the customer responds.
 
 The conversation (work item) transitions from **Waiting** to **Closed**, **Active**, or **Open** under the following scenarios.
 
