@@ -963,6 +963,12 @@ items:
             items:
               - name: Use auto capture
                 href: free-auto-capture.md
+          - name: Work with hierarchy visualization (preview)
+            items:
+              - name: Overview of hierarchy visualization (preview)
+                href: hierarchy-visualization.md
+              - name: View and understand hierarchy visualization (preview)
+                href: view-hierarchy-visualizations.md
           - name: How notes analysis assists you with suggestion
             href: notes-analysis.md
           - name: Notes analysis and auto capture FAQs

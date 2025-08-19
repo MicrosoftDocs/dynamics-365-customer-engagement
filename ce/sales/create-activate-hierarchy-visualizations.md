@@ -1,47 +1,43 @@
 ---
-title: Create and activate a hierarchy visualization chart
-description: Learn how to create and activate a hierarchy visualization chart to better understand your data.
+title: Create and publish a hierarchy visualization
+description: Learn how to create and publish a hierarchy visualization to better understand your data.
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
-ms.collection: how-to
-ms.date: 08/14/2025
+ms.collection: 
+ms.date: 08/22/2025
 ms.custom: bap-template 
 ---
 
-# Create and activate a hierarchy visualization chart (preview)
+# Create and publish a hierarchy visualization (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-As an administrator, you create and activate a hierarchy visualization chart to better understand your organization's data. When a chart is created, based on the configurations, sellers can visualize complex relationships and dependencies in a clear and concise manner. You can create multiple hierarchy visualizations to address different requirements depending on your organization's needs.
+As an administrator, you can create and publish a hierarchy that allows your organization to visualize and work with complex hierarchical data. You can even create multiple hierarchy visualizations to show different relationships, or different views of the data such as active records only, or only records from certain countries.  
 
-These charts are based on tables and views, and you can select existing 1:N, N:1, and N:N relationships when adding a table. This flexibility allows for a wide range of hierarchical structures to be visualized, from simple parent-child relationships to more complex multi-table hierarchies.  
+Hierarchies are created using your existing tables, forms, relationships, and views. In this initial release, you can design and publish a hierarchy based on a N:1 self-referential relationship&mdash;one where each row in a table has an optional pointer to its parent row. Here are some examples of self-referential hierarchies:  
+
+- **Organization chart**: Based on a table of persons such as the Contact table, each person has a relationship that points at their manager.  
+- **Account hierarchy**: An account hierarchy might be a global company with subsidiaries in countries, which have regional offices, which have branch offices.
+- **Sequential process hierarchy**: You might have a hierarchy of opportunities if your company sells end-to-end services for a product. For example, where opportunity to sell, is followed by product design services, which is followed by product installation, then operational contracts, and possibly maintenance contracts. Each follows its predecessor. Being able to display multiple deals at various phases for a given buyer is a powerful visual advantage to your teams.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 
-Before you create and activate a hierarchy visualization chart, ensure the following prerequisites are met:
+Before you create and publish a hierarchy visualization, ensure the following prerequisites are met:
 
 - You must have administrator privileges.  
 - The table (entity) for which you want to create the hierarchy visualization must have a self-referential (parent-child) relationship column to define the hierarchy. For example, you can use the parent account ID for accounts.  
-- For custom tables, ensure the parent-child column is present; for out-of-box tables, verify the required relationship exists.  
-- Users must have at least read permissions for the table records to view the hierarchy visualization charts for that table.  
-- A default view is created for the hierarchy visualization determines which records are displayed in the hierarchy list. If the default view is not suitable for your organization's needs, [create a custom view](customize-views.md) that meets your requirements.  
-- [Create a form in the Power Apps maker portal](/power-apps/maker/model-driven-apps/create-and-edit-forms) to define the layout and content shown in tiles and in the detailed view when users select a tile. This form shows the most relevant data. For example, create an account form that includes the **Account**, **Primary Contact**, **Email Address**, **Status**, and **Revenue** fields. This approach makes the hierarchy visualization comprehensive and easy to understand. Create multiple forms for different hierarchy visualizations if needed.  
+- For custom tables, ensure that rows can reference a parent row in the same table. If the relationship doesn't exist, [you need to create it](/power-apps/maker/data-platform/create-edit-entity-relationships).  
+- Users must have at least read permissions to the data.  
+- A table view must exist that defines the scope of data to show in the hierarchy. By default, the hierarchy uses the Active *record type* view. You can [create a custom view](customize-views.md) if none of the default views meets your requirements.  
+- Determine what form you would like to show for the Details pane when a tile is selected. If none of the default forms meet your needs, you can [Create a form in the Power Apps maker portal](/power-apps/maker/model-driven-apps/create-and-edit-forms) to include only the fields you want. The details pane can show any form, and go full screen, so you can use the same form here that is typically used in Dynamics Sales. For example, for an account hierarchy, you can use the **Account** form, which is the same form used by Dynamics when viewing an account.
 
-## Consideration
+## Create a hierarchy visualization
 
-Review the following considerations before creating a hierarchy visualization chart:
-
-- Currently, the hierarchy visualization feature supports only one table for each hierarchy visualization chart.  
-- The hierarchy visualization is based on the relationships defined in the table schema. Ensure that the necessary relationships are in place before creating the visualization. More information: [Microsoft Dataverse table relationships](/power-platform/admin/dataverse-relationships).
-- The hierarchy visualization feature in Dynamics 365 Sales is different from the hierarchy visualization in Power Apps. More information: [Difference between hierarchy visualization in Dynamics 365 Sales and Power Apps](hierarchy-visualization.md#difference-between-hierarchy-visualization-in-dynamics-365-sales-and-power-apps). 
-
-## Create a hierarchy visualization chart
-
-To create a hierarchy visualization chart, follow these steps:
+To create a hierarchy visualization, follow these steps:
 
 1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **App Settings**.  
 1. Under **General Settings**, select **Visual hierarchy**.  
@@ -50,8 +46,7 @@ To create a hierarchy visualization chart, follow these steps:
 
     :::image type="content" source="media/hv-add-table.png" alt-text="Screenshot of selecting the Add table option in the hierarchy visualization designer page.":::
 
-1. Choose the table based on which you want to create the hierarchy visualization and then select **Add**.  
-    The selected table is the root node for the hierarchy visualization. Ensure that the selected table has a self-referential (parent-child) relationship column to define the hierarchy.
+1. Choose the desired table with the self-referential relationship and select **Add**.  
 
     :::image type="content" source="media/hv-add-table-settings-pane.png" alt-text="Screenshot of the Settings pane in the hierarchy visualization designer page.":::
 
@@ -61,11 +56,10 @@ To create a hierarchy visualization chart, follow these steps:
 
     | Setting | Description |
     |---------|-------------|
-    | Expand all levels | By default, the option is enabled and can't be disabled. The option allows users to see all levels of the hierarchy at once. |
     | Select the column with the parent ID | Select the column that contains the parent ID for the hierarchy. For example, the `parent account ID` column in the **Account** table defines the parent-child relationship. The list shows only self-referential columns (columns that reference the same table). Select one to link records for hierarchy visualization. |
-    | Which view should be used | When users open the hierarchy visualization, they should see the records based on the selected view. Use the default view or the one that is created. For example, Active accounts or All accounts. |
-    | Which form should be shown as a tile | Select a suitable form that should be displayed as a tile (card) in the hierarchy visualization. Use a concise tile form that shows key summary fields for each record such as account name, owner, and revenue&mdash;so users can scan the tile layout at a glance. |
-    | Which form should be shown as details | Select a form that should be used to display detailed information when a user selects a card in the hierarchy visualization. This form should provide comprehensive information about the record and may include additional fields not shown in the card. |
+    | Which view should be used | The hierarchy shows records from the selected table view. Accept the default or select another existing view. If needed, use the Power Platform maker portal to define your own view. |
+    | Which form should be shown as a tile | Select a form to display as a tile. A maximum of seven fields can be displayed. Only fields that display basic data types (strings, dates, and numbers) are supported. Show or hide field labels on the form to show or hide the labels on the tile. |
+    | Which form should be shown as details | Select a form to use to display detailed information when a user selects a tile. The details pane shows full forms in the narrow mobile view and can be expanded to show the form full screen. Tabbed forms are also supported. |
 
     :::image type="content" source="media/hv-settings-general-tab.png" alt-text="Screenshot of the General tab in the Settings pane in the hierarchy visualization designer page.":::
 
@@ -73,19 +67,19 @@ To create a hierarchy visualization chart, follow these steps:
 
     | Setting | Description |
     |---------|-------------|
-    | Show picture | By default, the option is enabled and displays the record's image in the card. If no image is available, the initials of the record will be shown instead. For example, if **Maria Campbell** does not have an image, her card would be displayed as **MC**. |
-    | Card size | Select the width and height for the card in pixels and then choose the color for the card border. |
+    | Show picture | Tiles can optionally show or hide a circled image for the record. When enabled, if no image is available, the initials of the record will be shown instead. For example, if **Maria Campbell** doesn't have an image, her tile would be displayed as **MC**. If initials aren't available, the default icon for the table is shown. |
+    | Card size | Select the width and height for the tile in pixels and then choose the color for the tile border. |
 
     > [!NOTE]
-    > - These settings are applied to all the cards in this hierarchy visualization chart.
-    > - We recommend using consistent card sizes and layouts for a cohesive look.
+    > - These settings are applied to all the tiles in this hierarchy visualization.
+    > - We recommend using consistent tile sizes and layouts for a cohesive look.
 
-1. Select **Save**.
-1. (Optional) Select **Preview** to see how the hierarchy visualization looks with the current settings to users. You can update the settings and preview the changes until you're satisfied with the result.  
+1. Select **Save**.  
+1. (Optional) Select **Preview** to see how the hierarchy visualization would look if published with current settings. Update settings and preview changes until you’re satisfied with the results. In **Preview** mode, you can change the selected data being viewed by clicking the record name at the top of the preview window.  
 1. Select **Publish** and then select **OK** on the confirmation message.  
-    The hierarchy visualization chart is active and available to users. 
+    The hierarchy visualization is active and available to users.  
 
-## Related topics
+## Related information
 
 - [Manage hierarchy visualization](manage-hierarchy-visualizations.md)
 <!--- [Examples of hierarchy visualization](examples-hierarchy-visualizations.md)-->
