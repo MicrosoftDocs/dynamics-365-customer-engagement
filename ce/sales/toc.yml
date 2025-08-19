@@ -322,11 +322,11 @@ items:
                 href: /powerapps/user/email-template-create?context=/dynamics365/context/sales-context
           - name: Work with hierarchy visualization (preview)
             items:
-              - name: Overview of hierarchy visualization (preview)
+              - name: Overview of hierarchy visualization
                 href: hierarchy-visualization.md
-              - name: Create and activate a hierarchy visualization chart (preview)
+              - name: Create and activate a hierarchy visualization chart
                 href: create-activate-hierarchy-visualizations.md
-              - name: Manage hierarchy visualization (preview)
+              - name: Manage hierarchy visualization
                 href: manage-hierarchy-visualizations.md
           - name: Configure email engagement
             href: configure-email-engagement.md
@@ -965,9 +965,9 @@ items:
                 href: free-auto-capture.md
           - name: Work with hierarchy visualization (preview)
             items:
-              - name: Overview of hierarchy visualization (preview)
+              - name: Overview of hierarchy visualization
                 href: hierarchy-visualization.md
-              - name: View and understand hierarchy visualization (preview)
+              - name: View and understand hierarchy visualization
                 href: view-hierarchy-visualizations.md
           - name: How notes analysis assists you with suggestion
             href: notes-analysis.md

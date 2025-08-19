@@ -14,7 +14,8 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The hierarchy visualization feature helps you understand and manage complex data structures by providing a visual representation. It takes the parent – child relationships that exist in your data, and displays it visually, allowing you to see relationships more easily than when viewing hierarchical data in a flat list.  
+Viewing hierarchical data visually makes it easier to understand relationships and dependencies across levels and make informed decisions. For example, region sales managers don't want to view their reporting tree as a flat list of records, because the meaning comes from the structure of the data. Hierarchical business data is no different. You can be far more effective with hierarchical data when they can visualize the structure and move quickly and easily across related records.  
+The hierarchy visualization takes the parent&mdash;child relationships that exist in your data, and displays it visually, allowing you to see relationships more easily than when viewing hierarchical data in a flat list.  
 Currently, you can visualize self-referential data. Self-referential means that within the table, each row can have a reference to its parent row, which is in the same table.  
   
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
@@ -36,5 +37,5 @@ Depending on your role, you can use hierarchy visualization to understand and ma
 | User role | Reference |
 |-----------|-----------|
 | Administrator | [Create and publish a hierarchy visualization](create-activate-hierarchy-visualizations.md)<br>[Manage hierarchy visualization](manage-hierarchy-visualizations.md)<br>[Examples of hierarchy visualization](examples-hierarchy-visualizations.md) |
-| Seller | [View hierarchy visualization](view-hierarchy-visualizations.md) |
+| Seller | [View and understand hierarchy visualization](view-hierarchy-visualizations.md) |
 
