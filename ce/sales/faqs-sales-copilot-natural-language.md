@@ -1,7 +1,7 @@
 ---
 title: FAQ about natural language chat in Copilot 
 description: Get answers to frequently asked questions about the natural language chat capability in Copilot in Dynamics 365 Sales.
-ms.date: 09/19/2024
+ms.date: 08/19/2025
 ms.update-cycle: 180-days
 ms.custom:
  - responsible-ai-faqs
