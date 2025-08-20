@@ -1,6 +1,6 @@
 ---
 title: Specify characteristics for resources
-description: Assign characteristics to resources and work orders to list the chacteristics needed to complete the job.
+description: Assign characteristics to resources and work orders to list the characteristics needed to complete the job.
 ms.date: 05/23/2025
 ms.topic: how-to
 ms.custom: bap-template
