@@ -1,7 +1,7 @@
 ---
 title: Set up product bundles to sell multiple items
 description: Encourage customers to buy more products instead of a single product by combining products in a bundle.
-ms.date: 08/12/2024
+ms.date: 08/20/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -84,7 +84,7 @@ Here are some things to know about bundles:
 
 10. To change properties of an individual product in the bundle, select **Edit Properties** corresponding to the product, and change the values as required.
 
-If you've added this bundle to a family, the bundle will inherit the properties from its parent family. To change the bundle's property:
+If you've added this bundle to a family, the bundle inherits the properties from its parent family. To change the bundle's property:
 
 11. Open the property, and select **Override**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](use-properties-describe-product.md)
 
