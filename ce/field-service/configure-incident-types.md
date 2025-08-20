@@ -1,7 +1,7 @@
 ---
 title: Create work order templates with incident types
 description: Learn how to configure incident types in Dynamics 365 Field Service.
-ms.date: 11/11/2024
+ms.date: 08/20/2025
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -169,7 +169,7 @@ Add [services](create-product-or-service.md) that field technicians provide.
 
    - **Characteristic**: An existing characteristic or create a new one.
 
-   - **Rating Value**: The required level of proficiency. If left blank, all proficiency levels are acceptable if the resource has the matching characteristic.
+   - **Rating Value**: The characteristic level of a resource. If left blank, all rating levels are acceptable if the resource has the matching characteristic.
 
 1. Select **Save and Close**.
 
@@ -217,7 +217,7 @@ You can add multiple incident types to a work order. For example, a machine has 
 
    The work order is updated with the related records of the newly added incident type. The order of the service tasks reflects the order in which incidents are added.
 
-   To book a work order with multiple incidents, the schedule assistant and Resource Scheduling Optimization look for a single resource to complete all incidents. With the schedule assistant, these filters can be edited at the time of scheduling as needed. If the same characteristic in different proficiency levels is required, the system looks for the most proficient resource.
+   To book a work order with multiple incidents, the schedule assistant and Resource Scheduling Optimization look for a single resource to complete all incidents. With the schedule assistant, these filters can be edited at the time of scheduling as needed. If the same characteristic in different rating levels is required, the system looks for the best rated resource.
 
 1. Select **Save**.
 
