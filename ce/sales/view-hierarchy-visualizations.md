@@ -20,19 +20,12 @@ As a seller, you can view the hierarchy visualization to better understand the r
 
 ## Open hierarchy visualization
 
-To view the hierarchy visualization, follow these steps:  
+When you open a record such as an account or a lead and if a hierarchy exists, the **Visual hierarchy** option appears on the command bar. Select the option and the hierarchy visualization page opens with a tree of tiles representing records and their relationships.
 
-1. Open the workspace such as Accounts or Leads. In the **view selector**, select the view that is specific for hierarchy visualization.  
-    For example, select the **Hierarchy Visualization** view that is created for the **Account** table in which specific data is displayed in a structured format with customizations to show specific columns, apply filters, and sort data.  
-1. Open a record.  
-1. On the tool bar, select **Visual hierarchy**.  
+> [!NOTE]
+> The **Visual hierarchy** option isn't available if the admin doesn't configure a hierarchy visualization for the table or the table has no parent record relationships.
 
-    > [!NOTE]
-    > The **Visual hierarchy** option is only available when the administrator configured a hierarchy visualization for the table.  
-
-    The hierarchy visualization page opens with a tree of tiles representing records and their relationships.
-
-<!--    :::image type="content" source="media/" alt-text="Screenshot of the hierarchy visualization."::: -->
+<!-- :::image type="content" source="media/" alt-text="Screenshot of the hierarchy visualization."::: -->
 
 ## Understand hierarchy visualization
 
@@ -40,13 +33,14 @@ Let's look at the key features and functionality of the hierarchy visualization.
 
 ### Navigating the hierarchy
 
-| Feature | Description |
-|---------|-------------|
-| Hierarchy list display | Records in the hierarchy are shown in the left pane and in the main area as tiles, with the parent node at the top and child nodes below. |
-| Record count per node | Each node displays the number of records next to the attribute name or tile. |
-| Expand/collapse nodes| Use the chevron icon to expand or collapse child nodes. Visualization adjusts automatically. |
-| Highlighting selected tiles| Select the name in the list on the left pane, the corresponding tile is highlighted in the hierarchy visualization. |
-| Switching hierarchy visualizations | If there are multiple hierarchy visualizations available for the same table, on the top right corner of the hierarchy visualization pane, select a different hierarchy visualization from the drop-down list. |
+| Number | Feature | Description |
+|--------|-------------|-------------|
+| 1 | Hierarchy list display | Records in the hierarchy are shown in the left pane and in the main area as tiles, with the parent node at the top and child nodes below. |
+| 2 | Record count per node | Each node displays the number of records next to the attribute name or tile. |
+| 3 | Expand/collapse nodes| Use the chevron icon to expand or collapse child nodes. Visualization adjusts automatically. |
+| 4 | Search and select record | Displays the record tile as main and its child records below. If any parent record exists, an option to go to its parent is displayed on the top of the tile.<br>Select the drop-down list and the **Lookup Records** pane appears. Search and select the record that you want to view. |
+| 5 | Highlighting selected tiles| Select the name in the list on the left pane, the corresponding tile is highlighted in the hierarchy visualization. |
+| 6 | Switching hierarchy visualizations | If there are multiple hierarchy visualizations available for the same table, on the top right corner of the hierarchy visualization pane, select a different hierarchy visualization from the drop-down list. |
 
 ### Interacting with the hierarchy
 
