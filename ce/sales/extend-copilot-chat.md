@@ -85,7 +85,7 @@ You can train Copilot in Dynamics 365 Sales to understand your business terms. U
 Watch these videos to learn more about customizing Copilot in Dynamics 365 Sales:
 
 > [!IMPORTANT]
-> The agent has been renamed to **Copilot in Dynamics 365 Sales**. However, the videos still show the old agent name **Sales Copilot Power Virtual Agent Bot**. We'll update the videos soon.
+> The agent has been renamed to **Copilot in Dynamics 365 Sales**. However, the videos still show the old agent name **Sales Copilot Microsoft Copilot Studio Bot**. We'll update the videos soon.
 
 [Extending Copilot in Sales Part 1](https://www.youtube.com/watch?v=638gZ8yLCIc&t=1s)  
 [Extending Copilot in Sales Part 2](https://www.youtube.com/watch?v=4u9h0OBFOiA&t=7s)  

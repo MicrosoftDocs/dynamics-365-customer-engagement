@@ -104,7 +104,7 @@ In the voice channel, the system doesn't listen for the **closeOmnichannelConver
 1. Select **Go to authoring canvas**, and in **Add node**, select **Call an action**, and then select **Create a flow**.
 
 1. On the Power Automate window that opens on a new tab, do the following steps:
-   1. In the **Return value(s) to Power Virtual Agents** box, select **Add an output**, and then select **Yes/No**.
+   1. In the **Return value(s) to Microsoft Copilot Studio** box, select **Add an output**, and then select **Yes/No**.
    2. In the **Enter title** box, enter CloseOmnichannelConversation, which is the Omnichannel for Customer Service context variable name.
    3. In the **Enter a value to respond** box, select the **Expression** tab, and then enter **bool(true)** to build the expression, and select **OK**.
    4. Save the changes, and then exit Power Automate.

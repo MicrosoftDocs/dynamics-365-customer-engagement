@@ -163,7 +163,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Boolean which mentions if the PVA session is Engaged**|
+|Description|**Boolean which mentions if the Microsoft Copilot Studio session is Engaged**|
 |DisplayName|**Bot Session IsEngaged**|
 |IsValidForForm|True|
 |IsValidForRead|True|
