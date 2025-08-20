@@ -28,7 +28,6 @@ You can do the following tasks in the communication panel:
 - Use the consult option if you need help with resolving the work item.
 - Generate a summary of the conversation. More information: [View and share auto-summarized conversations](cs-ai-generated-summary.md)
 
-
 ## Enhance productivity using keyboard commands
 
 The communication panel has options that you can use to perform actions, such as see quick replies, consult, and transfer, and launch notes control. You can also use keyboard commands to perform these actions.
@@ -40,9 +39,9 @@ The following table lists the options and the keyboard shortcuts that you can us
  
 | Annotation | Option     | Description                                   | command |
 |------|------------------|-----------------------------------------------|----------|
-|  1   | Quick replies    | Send templated messages created by you as personal quick replies or quick replies created by your administrator | `/q` |
-|  2   | Consult          | View list to consult with other users | `/c` |
-|  3   | Transfer         | View list to transfer the request | `/t` and `/tq` |
+|  1   | Quick replies    | Send templated messages created by you as personal quick replies or quick replies created by your administrator | `/q` or `/1` |
+|  2   | Consult          | View list to consult with other users | `/c` or `/4` |
+|  3   | Transfer         | View list of queues to transfer the conversation | `/t`, `/tq`, or `/2` <br> **Note**: Use `/3` to transfer directly to a queue. |
 |  4   | Add to chat      | Is enabled when the second representative accepts a consult request||
 |  5   | - Take notes <br>- Link to conversation <br>- Translation | - Take notes specific to conversation <br>- Link the record to this conversation<br> - If translation of messages is enabled, you can turn on or off the translation  ||
 |  6   | Customer sentiment | View real-time customer satisfaction levels |  |
@@ -75,10 +74,10 @@ After you type **/q** in the communication panel messaging area, you can continu
 
 You can type any of the following options in the compose box to search for the messages that are available for your use:
 
-   * Type **/q**, followed by <**keyword**>, to list messages that match the keyword.
-   * Type **/q**, followed by the number sign (**#**), to list all tags.
-   * Type **/q**, followed by <**tagname**> <**keyword**>, to list quick replies that match the tag and keyword.
-   * Type **/q**, followed by <**tagname**>, to list all quick replies that match the tag. Additionally, you can also add another tag after the <**tagname**> for example, type **/q**, followed by <**tagname**> <**tagname**>, to further refine the quick replies matching both the tags.
+  * Type **/q**, followed by <**keyword**>, to list messages that match the keyword.
+  * Type **/q**, followed by the number sign (**#**), to list all tags.
+  * Type **/q**, followed by <**tagname**> <**keyword**>, to list quick replies that match the tag and keyword.
+  * Type **/q**, followed by <**tagname**>, to list all quick replies that match the tag. Additionally, you can also add another tag after the <**tagname**> for example, type **/q**, followed by <**tagname**> <**tagname**>, to further refine the quick replies matching both the tags.
 
  > [!div class=mx-imgBorder]
  > ![Type /q and the keyword to filter the replies.](../media/oceh-send-quick-replies-filter.png "Filter replies")  
