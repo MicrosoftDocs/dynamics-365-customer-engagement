@@ -70,7 +70,7 @@ The KPIs in the conversation chart are as follows.
 | Avg. speed to answer (sec) | The average time customers waited in the queue before connecting to a service representative. (Time taken for acceptance). |
 | Avg. conversation handle time (min) | The average total conversation active time across engaged conversations. |
 | Avg. customer effort time (min) | The average time from the start of a conversation to the start of the conversation wrap-up time. |
-| Avg. conversation sentiment | The average of predicted customer sentiment in a given timeframe for a set queue or service representative, which indicates the degree of positive sentiment that customers expressed at the end of their interaction. |
+| Avg. conversation sentiment | The average of predicted customer sentiment in a given timeframe for a set queue or service representative. This data indicates the degree of positive sentiment that customers expressed at the end of their interaction. |
 | Conversations with secondary channel | The breakdown of conversations across secondary channels. |
 | Top 10 volume topics | The top 10 AI-discovered topics from conversation data sorted by conversation volume.|
 | Emerging conversation volume by topic | The top emerging AI-discovered topics, from conversation data that featured the greatest increase in volume over the duration being evaluated. |
