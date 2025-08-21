@@ -1,19 +1,15 @@
 ---
 title: Manage custom productivity tools
-description: Learn how to manage the custom productivity tools to improve representative productivity in Customer Service.
+description: Learn how to manage the custom productivity tools to improve representative productivity in Dynamics 365 Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to 
-ms.date: 04/30/2025
+ms.date: 07/21/2025
 ms.custom: bap-template
 ---
 
-# Manage custom productivity tools (preview)
-
-[This article is prerelease documentation and is subject to change.]
-
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
+# Manage custom productivity tools
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
@@ -31,7 +27,7 @@ Make sure that the following prerequisites are met:
 
 1. In Dynamics 365, go to Copilot Service admin center.
 1. In the site map, select **Productivity** in **Support experience**.
-1. On the page that appears, select **Manage** for **Productivity tools (Preview)**.
+1. On the page that appears, select **Manage** for **Productivity tools.
 1. Select **New**, and enter the following details on **New Pane tool configuration**:
 
    - **Name**: The display name of the custom productivity tool.
