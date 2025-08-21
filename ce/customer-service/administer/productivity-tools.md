@@ -4,7 +4,7 @@ description: Learn about Dynamics 365 Productivity Tools in the Omnichannel for 
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 04/21/2025
+ms.date: 08/21/2025
 ms.topic: overview
 ms.custom: bap-template
 ---
