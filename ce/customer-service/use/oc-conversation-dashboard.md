@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection: bap-ai-copilot
-ms.date: 07/30/2025
+ms.date: 08/21/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -107,8 +107,8 @@ The following table displays the conversation details and their descriptions.
 | Avg. conversation wrap-up time (min) | The average time that conversations take to wrap up across engaged conversations. |
 | Avg. incoming messages | The average of the total number of messages sent by customers.  |
 | Avg. outgoing messages | Average of the total number of messages sent as a response from a service representative. This average doesn’t include any consult or monitoring messages a supervisor or team lead sent to a service representative. |
-| Incoming messages | The average of the total number of messages sent by customers|
-| Outgoing messages | The average of the total number of messages sent as a response from a service representative. This average doesn’t include any consult or monitoring messages that a supervisor or team lead sent to a service representative. |
+| Incoming messages | The total number of messages sent by customers.|
+| Outgoing messages | The total number of messages sent as a response from a service representative. The average doesn’t include any consult or monitoring messages that a supervisor or team lead sent to a service representative. |
 
 
 ## Conversation hourly details drill down view
