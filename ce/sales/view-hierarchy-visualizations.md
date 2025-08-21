@@ -14,7 +14,8 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-As a seller, you can view the hierarchy visualization to better understand the relationships between records. Administrators must configure the hierarchy visualization for tables that you want to view. For example, if you want to see the hierarchy of accounts region-wise, the admin must configure this hierarchy visualization for the Account table with the appropriate configurations.
+As a seller, you can view the hierarchy visualization to better understand the relationships between records. Administrators must configure the hierarchy visualization for tables that you want to view.  
+For example, your administrator might publish a **Account hierarchy** that allows you to visualize customer’s related companies, regional offices, and branch locations. Your administrator may also publish a hierarchy called **Account contacts** that shows a hierarchy of people and their reporting structure and job titles associated with a given account.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
