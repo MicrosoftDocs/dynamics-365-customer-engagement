@@ -280,33 +280,33 @@ You can get the verbatim feedback provided by the representative as follows.
 
     ### [msdyn_copilotevents](#tab/copilotevents)
 
-    If you are using the `msdyn_copilotevents` table, use the following:
+     If you are using the `msdyn_copilotevents` table, use the following:
 
-    ```http
-    [Organization URI]/api/data/v9.1/msdyn_copilotevents(msdyn_copiloteventid=<GUID>,partitionid='<partitionId>')
-    ```
+     ```http
+     [Organization URI]/api/data/v9.1/msdyn_copilotevents(msdyn_copiloteventid=<GUID>,partitionid='<partitionId>')
+     ```
 
-    In our example, the Web API request is as follows:
+     In our example, the Web API request is as follows:
 
-    ```http
-    [Organization URI]/api/data/v9.2/msdyn_copilotevents(msdyn_copiloteventid=f9d841e5-34e7-ee11-904c-000d3a3bb867,partitionid='20250622-20250628-100230203')
-    ```
+     ```http
+     [Organization URI]/api/data/v9.2/msdyn_copilotevents(msdyn_copiloteventid=f9d841e5-34e7-ee11-904c-000d3a3bb867,partitionid='20250622-20250628-100230203')
+     ```
 
     ### [msdyn_copilotinteractiondata](#tab/copilotinteractiondata)
 
-    ```http
-    [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(<msdyn_copilotinteractiondataid>)
-    Accept: application/json  
-    OData-MaxVersion: 4.0  
-    OData-Version: 4.0  
-    ```
+     ```http
+     [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(<msdyn_copilotinteractiondataid>)
+     Accept: application/json  
+     OData-MaxVersion: 4.0  
+     OData-Version: 4.0  
+     ```
 
-    In our example, the Web API request is as follows:
+     In our example, the Web API request is as follows:
 
-    ```http
-    [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(807ff9e4-cbe7-ee11-904c-000d3a3bb867)
-    ```
-  ---
+     ```http
+     [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(807ff9e4-cbe7-ee11-904c-000d3a3bb867)
+     ```
+   ---
 
 3. View the verbatim feedback available in the `msdyn_verbatim` column. For our example, the feedback retrieved is as follows.<br>
 
@@ -369,32 +369,32 @@ You can download the interaction data as follows.
 
     ### [msdyn_copilotevents](#tab/copilotevents)
 
-    If you are using the msdyn_copilotevents table, use the following:
+     If you are using the msdyn_copilotevents table, use the following:
         
-    ```http
-    <org-url>/api/data/v9.2/msdyn_copilotevents(msdyn_copiloteventid=<GUID>,partitionid='<partitionId>')/msdyn_interactiondata/$value 
-    ```
+     ```http
+     <org-url>/api/data/v9.2/msdyn_copilotevents(msdyn_copiloteventid=<GUID>,partitionid='<partitionId>')/msdyn_interactiondata/$value 
+     ```
 
-    In our example, the Web API request is as follows:
+     In our example, the Web API request is as follows:
 
-    ```http
-    <org-url>/api/data/v9.2/msdyn_copilotevents(msdyn_copiloteventid=f9d841e5-34e7-ee11-904c-000d3a3bb867,partitionid='20250622-20250628-100230203')/msdyn_interactiondata/$value 
-    ```
+     ```http
+     <org-url>/api/data/v9.2/msdyn_copilotevents(msdyn_copiloteventid=f9d841e5-34e7-ee11-904c-000d3a3bb867,partitionid='20250622-20250628-100230203')/msdyn_interactiondata/$value 
+     ```
 
-    ### [msdyn_copilotinteractiondata](#tab/copilotinteractiondata)
+     ### [msdyn_copilotinteractiondata](#tab/copilotinteractiondata)
 
-    ```http
-    [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(<msdyn_copilotinteractiondataid>)/msdyn_interactiondata
-    Accept: application/json  
-    OData-MaxVersion: 4.0  
-    OData-Version: 4.0  
-    ```
+     ```http
+     [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(<msdyn_copilotinteractiondataid>)/msdyn_interactiondata
+     Accept: application/json  
+     OData-MaxVersion: 4.0  
+     OData-Version: 4.0  
+     ```
 
-    In our example, the Web API request is as follows:
+     In our example, the Web API request is as follows:
 
-    ```http
-    [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(f9d841e5-34e7-ee11-904c-000d3a3bb867)/msdyn_interactiondata
-    ```
+     ```http
+     [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(f9d841e5-34e7-ee11-904c-000d3a3bb867)/msdyn_interactiondata
+     ```
   ---
 
  3. Decode the base64 encoded data to get the transcript. You can use an online base64 decoder tool to decode the data. For our email example, the decoded interaction data is displayed as follows.
