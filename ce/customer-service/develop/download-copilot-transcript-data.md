@@ -19,7 +19,7 @@ ms.custom:
 
 Customer service representatives (service representatives or representatives) use Copilot features such as copying summaries, using a suggested reply, feedback, and chat. Copilot interactions are stored in the [Copilot Interaction (msdyn_copilotinteraction)](../../developer/reference/entities/msdyn_copilotinteraction.md), [Copilot Interaction Data (msdyn_copilotinteractiondata)](../../developer/reference/entities/msdyn_copilotinteractiondata.md), [Copilot Transcript (msdyn_copilottranscript)](../../developer/reference/entities/msdyn_copilottranscript.md), and [Copilot Transcript Data (msdyn_copilottranscriptdata)](../../developer/reference/entities/msdyn_copilottranscriptdata.md) tables in Dataverse. You can download the transcripts and interaction data using Dataverse [Web API](/power-apps/developer/data-platform/webapi/overview) or [SDK for .NET](/power-apps/developer/data-platform/org-service/overview).
 
-You can also use the msdyn_copilotevents table to track Copilot interactions. This table contains records migrated from both msdyn_copilotinteraction and msdyn_copilotinteractiondata tables and can be used to streamline analytics reporting.
+Beginning August 2025, copilot interactions are stored in the msdyn_copilotevents table. The msdyn_copilotinteraction and msdyn_copilotinteractiondata tables contain records prior to August. 
 
 ## Prerequisites
 
@@ -65,13 +65,15 @@ You can retrieve the conversation summary as follows:
 
 ## Where are my copilot interactions stored
 
-Each service representative interaction with Copilot is stored in the `msdyn_copilotinteraction` or `msdyn_copilotevents`table with a unique interaction ID. The following table lists where the corresponding interaction data is stored for each interaction type.
+Each service representative interaction with Copilot is stored in the `msdyn_copilotinteraction` or `msdyn_copilotevents` table with a unique interaction ID. The following table lists where the corresponding interaction data is stored for each interaction type.
 
 | Feature | Table |
 |---------|-------|
 |Ask a question|`msdyn_copilottranscriptdata`|
 |Feedback, case summary, write an email, suggest a response|`msdyn_copilotinteractiondata`, `msdyn_copilotevents`|
 
+> [!NOTE]
+> Copilot interaction records are stored in the `msdyn_copilotevents` table, beginning August 2025. Records prior to August are stored in the `msdyn_copilotinteraction` and `msdyn_copilotinteractiondata` tables. 
 
 ## Get msdyn_copilotinteractionid and msdyn_interactiondataid from copilot interaction records
 
@@ -83,6 +85,21 @@ Accept: application/json
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
 ```
+
+## Get msdyn_copilotinteractionid from copilot event records
+
+Before you do actions such as download a transcript or view verbatim feedback, you must retrieve the values of `msdyn_copilotinteractionid` from `msdyn_copilotevents` table. You can use the following Web API call to obtain the interaction ID in the `msdyn_copilotinteractionid` field.
+
+```http
+[Organization URI]/api/data/v9.2/msdyn_copilotevents
+Accept: application/json  
+OData-MaxVersion: 4.0  
+OData-Version: 4.0  
+```
+
+
+### Key attributes
+
 The key attributes from the record are as follows.
 
    | Attribute            |Definition               |                                                                               
