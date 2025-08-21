@@ -22,12 +22,12 @@ The features that have been removed or deprecated in  Dynamics 365 Sales are lis
 
 ## Emails that need follow-ups in Copilot in Dynamics 365 Sales
 
-Effective September 2025, the **Show emails that need follow up** prompt in Copilot in Dynamics 365 Sales will be discontinued region-wise. After the discontinuation, you can no longer view the emails that need follow-ups in Copilot in Dynamics 365 using this prompt.
-However, you can use in-flow summarization and other Copilot features for triage in key sales workflows.
+Effective September 2025, the **Show emails that need follow up** prompt in Copilot in Dynamics 365 Sales is deprecated region-wise. After the discontinuation, you can no longer view the emails that need follow-ups in Copilot in Dynamics 365 using this prompt.  
+However, you can use in-flow summarization and natural language processing capabilities to achieve similar outcomes.
 
 ## Copilot in Dynamics 365 Sales in full-screen view 
 
-Effective September 2025, the full-screen view of Copilot in Dynamics 365 Sales will be discontinued region-wise. After the discontinuation, you can no longer select, view, or use Copilot option in app’s site map.
+Effective September 2025, the full-screen view of Copilot in Dynamics 365 Sales is deprecated region-wise. After the discontinuation, you can no longer select, view, or use Copilot option in app’s site map.  
 Alternatively, you may utilize the Copilot side pane for supported functions, allowing banner summaries to appear within context rather than in an immersive canvas. This approach minimizes context switching and aligns with the strategy of engaging sellers directly within grids and forms.
 
 <a name='exchange-integration-for-ra'></a>
