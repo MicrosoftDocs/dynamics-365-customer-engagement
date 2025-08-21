@@ -105,10 +105,10 @@ The following table displays the conversation details and their descriptions.
 | Avg. conversation active time (min) | The average time that conversations remain active across engaged conversations. |
 | Avg. conversation inactive time (min) | The average time that conversations remain inactive across engaged conversations. |
 | Avg. conversation wrap-up time (min) | The average time that conversations take to wrap up across engaged conversations. |
-| Avg. incoming messages | The average of the total number of messages sent by customers.  |
-| Avg. outgoing messages | Average of the total number of messages sent as a response from a service representative. This average doesn’t include any consult or monitoring messages a supervisor or team lead sent to a service representative. |
-| Incoming messages | The total number of messages sent by customers.|
-| Outgoing messages | The total number of messages sent as a response from a service representative. The average doesn’t include any consult or monitoring messages that a supervisor or team lead sent to a service representative. |
+| Avg. incoming messages | The average of the messages sent by customers to service representatives within the representative's operating hours.  |
+| Avg. outgoing messages | Average of the messages sent by service representatives to customers within the representative's operating hours. This average doesn’t include any consult or monitoring messages a supervisor or team lead sent to a service representative. |
+| Incoming messages | The number of messages sent by customers to service representatives within the representative's operating hours.|
+| Outgoing messages | The number of messages sent by service representatives to customers within the representative's operating hours.|
 
 
 ## Conversation hourly details drill down view
