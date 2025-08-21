@@ -1,7 +1,7 @@
 ---
 title: Stay ahead with Copilot
 description: Learn how to prepare for upcoming meetings and catch up on emails with Copilot in Dynamics 365 Sales.
-ms.date: 06/26/2025
+ms.date: 08/21/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -52,6 +52,9 @@ If you have meetings scheduled on your Outlook calendar in the next seven days, 
 <a name="copilot-email-reminder"></a>
 
 ## Display unanswered emails
+
+>[!IMPORTANT]
+>Effective September 2025, the Copilot in full-screen view preview feature in Copilot in Dynamics 365 Sales will be discontinued region-wise. More information: [Emails that need follow-ups in Copilot in Dynamics 365 Sales](deprecations-sales.md#copilot-in-dynamics-365-sales-in-full-screen-view).
 
 Copilot can help make sure that you don't miss important emails by reminding you of messages that need a reply.
 
