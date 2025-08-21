@@ -27,7 +27,7 @@ However, you can use in-flow summarization and other Copilot features for triage
 
 ## Copilot in Dynamics 365 Sales in full-screen view 
 
-Effective September 2025, the Copilot in full-screen view preview feature in Copilot in Dynamics 365 Sales will be discontinued region-wise. After the discontinuation, you can no longer select, view, or use Copilot option in app’s site map.
+Effective September 2025, the full-screen view of Copilot in Dynamics 365 Sales will be discontinued region-wise. After the discontinuation, you can no longer select, view, or use Copilot option in app’s site map.
 Alternatively, you may utilize the Copilot side pane for supported functions, allowing banner summaries to appear within context rather than in an immersive canvas. This approach minimizes context switching and aligns with the strategy of engaging sellers directly within grids and forms.
 
 <a name='exchange-integration-for-ra'></a>
