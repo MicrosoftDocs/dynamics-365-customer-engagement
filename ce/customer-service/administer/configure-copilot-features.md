@@ -120,6 +120,7 @@ Out of the box, users with the Customer Service Representative role only can use
 
 |Table | Name | Create | Read | Write | Append | Append To |
 |------|------|--------|------|-------|--------|-----------|
+|Copilot event | msdyn_copilotevent | Yes | Yes | Yes | Not applicable | Not applicable |
 |Copilot interaction | msdyn_copilotinteraction | Yes | Yes | Not applicable | Yes | Not applicable |
 |Copilot interaction data | msdyn_copilotinteractiondata | Yes | Yes | Yes | Not applicable | Yes |
 |Agent Preference For Copilot | msdyn_copilotagentpreference | Yes | Yes | Yes | Not applicable | Not applicable |
@@ -135,8 +136,11 @@ Out of the box, users with the Customer Service Representative role only can use
 
 
 > [!NOTE]
-> Make sure that your users have **Miscellaneous privileges** > **prvIntelligenceUsage** assigned to the required custom security roles to access the Copilot case summary. Learn more in [Security roles and privileges](/power-platform/admin/security-roles-privileges).
- 
+> - Make sure that your users have **Miscellaneous privileges** > **prvIntelligenceUsage** assigned to the required custom security roles to access the Copilot case summary. Learn more in [Security roles and privileges](/power-platform/admin/security-roles-privileges).
+> - For custom CSR roles, make sure the role has the following permissions and corresponding access levels:
+>    - Read and Write have access level set to Basic.
+>    - Create has access level set to Global.
+> - For custom CSR Manager roles, make sure that all the permissions have access level set to Global.
 
 ## Next steps
 
