@@ -281,33 +281,32 @@ You can get the verbatim feedback provided by the representative as follows.
   > You don't have to do this step if you are using the `msdyn_copilotevents` table, as the `msdyn_copilotinteractiondataid` is already available in the `msdyn_copilotevents` table.
 1. Run the following Web API request to retrieve the verbatim feedback.
 
- ### [msdyn_copilotevents](#tab/msdyn_copilotevents)
+    ### [msdyn_copilotevents](#tab/msdyn_copilotevents)
 
-  If you are using the msdyn_copilotevents table, use the following:
+     If you are using the msdyn_copilotevents table, use the following:
 
-  ```http
-  [Organization URI]/api/data/v9.1/msdyn_copilotevents (msdyn_copiloteventid=<GUID>,partitionid='<partitionId>')
+      ```http
+       [Organization URI]/api/data/v9.1/msdyn_copilotevents (msdyn_copiloteventid=<GUID>,partitionid='<partitionId>')
       
-  ```
-  In our example, the Web API request is as follows.
+      ```
+     In our example, the Web API request is as follows.
+       ```http
+        [Organization URI]/api/data/v9.2/msdyn_copilotevents (msdyn_copiloteventid=f9d841e5-34e7-ee11-904c-000d3a3bb867,partitionid='20250622-20250628-100230203')
+      ```
+    ### [msdyn_copilotinteractiondata](#tab/msdyn_copilotinteractiondata)
 
-   ```http
-    <org-url>/api/data/v9.2/ msdyn_copilotevents (msdyn_copiloteventid=f9d841e5-34e7-ee11-904c-000d3a3bb867,partitionid='20250622-20250628-100230203')
-   ```
- ### [msdyn_copilotinteractiondata](#tab/msdyn_copilotinteractiondata)
+       ```http
+         [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(<msdyn_copilotinteractiondataid>)
+         Accept: application/json  
+         OData-MaxVersion: 4.0  
+         OData-Version: 4.0  
+      ```
+    In our example, the Web API request is as follows.
 
-  ```http
-   [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(<msdyn_copilotinteractiondataid>)
-   Accept: application/json  
-   OData-MaxVersion: 4.0  
-   OData-Version: 4.0  
-  ```
- In our example, the Web API request is as follows.
-
-  ```http
-  [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(807ff9e4-cbe7-ee11-904c-000d3a3bb867)
-   ```
----
+     ```http
+      [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(807ff9e4-cbe7-ee11-904c-000d3a3bb867)
+     ```
+  ---
 
 1. View the verbatim feedback available in the `msdyn_verbatim` column. For our example, the feedback retrieved is as follows.<br>
 
