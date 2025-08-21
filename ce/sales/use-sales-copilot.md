@@ -52,7 +52,7 @@ Select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.svg
 ### Chat with Copilot in full-screen view (preview)
 
 >[!IMPORTANT]
->Effective September 2025, the Copilot in full-screen view preview feature in Copilot in Dynamics 365 Sales will be discontinued region-wise. Learn more about the deprecation in, [Copilot in Dynamics 365 Sales in full-screen view](deprecations-sales.md#copilot-in-dynamics-365-sales-in-full-screen-view).
+>Effective September 2025, the Copilot in full-screen view preview feature in Copilot in Dynamics 365 Sales is deprecated region-wise. Learn more about the deprecation in, [Copilot in Dynamics 365 Sales in full-screen view](deprecations-sales.md#copilot-in-dynamics-365-sales-in-full-screen-view).
 
 [!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 

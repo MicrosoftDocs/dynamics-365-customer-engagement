@@ -54,7 +54,7 @@ If you have meetings scheduled on your Outlook calendar in the next seven days, 
 ## Display unanswered emails
 
 >[!IMPORTANT]
->Effective September 2025, the **Show emails that need follow up** prompt in Copilot in Dynamics 365 Sales will be discontinued region-wise. Learn more about the deprecation in [Emails that need follow-ups in Copilot in Dynamics 365 Sales](deprecations-sales.md#emails-that-need-follow-ups-in-copilot-in-dynamics-365-sales).
+>Effective September 2025, the **Show emails that need follow up** prompt in Copilot in Dynamics 365 Sales is deprecated region-wise. Learn more about the deprecation in [Emails that need follow-ups in Copilot in Dynamics 365 Sales](deprecations-sales.md#emails-that-need-follow-ups-in-copilot-in-dynamics-365-sales).
 
 Copilot can help make sure that you don't miss important emails by reminding you of messages that need a reply.
 
