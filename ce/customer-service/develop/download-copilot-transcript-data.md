@@ -275,6 +275,9 @@ The key attributes for the record are as follows.
   > PartitionID is applicable only if you are using the `msdyn_copilotevents` table.
 
 You can get the verbatim feedback provided by the representative as follows.
+1. [Get the required msdyn_copilotinteractiondata record ID value](#get-msdyn_copilotinteractionid-and-msdyn_interactiondataid-from-copilot-interaction-records) from the `msdyn_copilotinteraction` table. 
+  > [!NOTE]
+  > You don't have to do this step if you are using the `msdyn_copilotevents` table, as the `msdyn_copilotinteractiondataid` is already available in the `msdyn_copilotevents` table.
 
 2. Run the following Web API request to retrieve the verbatim feedback.
 
