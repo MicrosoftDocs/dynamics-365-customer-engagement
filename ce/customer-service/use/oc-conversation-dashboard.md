@@ -26,7 +26,7 @@ The Conversation dashboard gives you a broad overview of the customer service ex
 
 The dashboard includes various charts with graphical views of your organization's key performance indicators (KPIs).
 
-The charts for conversation volume drivers and emerging conversation volume by topic charts use natural language understanding to group support conversations as topics that are a collection of related conversations. These charts display the customer support topics that generate the most volume and emerging topics that increase rapidly in volume. This helps you identify areas of improvement that can affect support performance.
+The charts for conversation volume drivers and emerging conversation volume by topic charts use natural language understanding to group support conversations as topics that are a collection of related conversations. These charts display the customer support topics that generate the most volume and emerging topics that increase rapidly in volume. This data helps you identify areas of improvement that can affect support performance.
 
 By default, the dashboard shows you the KPIs for the past month and for all channels, queues, and customer service representatives (service representatives or representatives) in your system. You can use the data filtering options to select data for a specific time period, channel, queue, service representative, conversation status, and timezone.
 
