@@ -36,6 +36,6 @@ Depending on your role, you can use hierarchy visualization to understand and ma
 
 | User role | Reference |
 |-----------|-----------|
-| Administrator | [Create and publish a hierarchy visualization](create-activate-hierarchy-visualizations.md)<br>[Manage hierarchy visualization](manage-hierarchy-visualizations.md)<br>[Examples of hierarchy visualization](examples-hierarchy-visualizations.md) |
+| Administrator | [Create and publish a hierarchy visualization](create-activate-hierarchy-visualizations.md)<br>[Manage hierarchy visualization](manage-hierarchy-visualizations.md) |
 | Seller | [View and understand hierarchy visualization](view-hierarchy-visualizations.md) |
 

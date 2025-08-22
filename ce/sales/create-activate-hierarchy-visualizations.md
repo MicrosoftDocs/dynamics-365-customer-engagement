@@ -16,6 +16,12 @@ ms.custom: bap-template
 
 As an administrator, you can create and publish a hierarchy that allows your organization to visualize and work with complex hierarchical data. You can even create multiple hierarchy visualizations to show different relationships, or different views of the data such as active records only, or only records from certain countries.  
 
+> [!NOTE]
+>
+> - The hierarchy visualization feature is currently available out of the box for the **Account** and **Contact** tables. However, for custom tables, you need to create the self-referential relationship and configure the hierarchy visualization.  
+> - Default self-referential columns: `ParentAccountId` in the **Account** table and `parent_contactid` in the **Contact** table.  
+> - For the **Opportunity** table, there is no default self-referential column. Create a new **Many-to-One** relationship and select the **Opportunity** table as the related table. Rename the **Lookup column display** name to `Parent_OpportunityID` and leave the **Hierarchical** checkbox unchecked. Then, update the **Opportunity** form by adding the `Parent_OpportunityID` field. This update enables you to select a parent opportunity when they create or edit an opportunity, helping them establish clear relationships between opportunities.
+
 Hierarchies are created using your existing tables, forms, relationships, and views. In this initial release, you can design and publish a hierarchy based on a N:1 self-referential relationship&mdash;one where each row in a table has an optional pointer to its parent row. Here are some examples of self-referential hierarchies:  
 
 - **Organization chart**: Based on a table of persons such as the Contact table, each person has a relationship that points at their manager.  
@@ -74,6 +80,8 @@ To create a hierarchy visualization, follow these steps:
     > - These settings are applied to all the tiles in this hierarchy visualization.
     > - We recommend using consistent tile sizes and layouts for a cohesive look.
 
+    :::image type="content" source="media/hv-settings-tile-tab.png" alt-text="Screenshot of the Card display option tab in the Settings pane in the hierarchy visualization designer page.":::
+
 1. Select **Save**.  
 1. (Optional) Select **Preview** to see how the hierarchy visualization would look if published with current settings. Update settings and preview changes until you’re satisfied with the results. In **Preview** mode, you can change the selected data being viewed by clicking the record name at the top of the preview window.  
 1. Select **Publish** and then select **OK** on the confirmation message.  
@@ -81,5 +89,4 @@ To create a hierarchy visualization, follow these steps:
 
 ## Related information
 
-- [Manage hierarchy visualization](manage-hierarchy-visualizations.md)
-<!--- [Examples of hierarchy visualization](examples-hierarchy-visualizations.md)-->
+[Manage hierarchy visualization](manage-hierarchy-visualizations.md)

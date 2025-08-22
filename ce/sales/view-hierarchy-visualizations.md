@@ -26,7 +26,7 @@ When you open a record such as an account or a lead and if a hierarchy exists, t
 > [!NOTE]
 > The **Visual hierarchy** option isn't available if the admin doesn't configure a hierarchy visualization for the table or the table has no parent record relationships.
 
-<!-- :::image type="content" source="media/" alt-text="Screenshot of the hierarchy visualization."::: -->
+:::image type="content" source="media/hv-select-visual-hierarchy.png" alt-text="Screenshot of the Visual hierarchy option in the command bar.":::
 
 ## Understand hierarchy visualization
 
@@ -43,6 +43,8 @@ Let's look at the key features and functionality of the hierarchy visualization.
 | 5 | Highlighting selected tiles| Select the name in the list on the left pane, the corresponding tile is highlighted in the hierarchy visualization. |
 | 6 | Switching hierarchy visualizations | If there are multiple hierarchy visualizations available for the same table, on the top right corner of the hierarchy visualization pane, select a different hierarchy visualization from the drop-down list. |
 
+:::image type="content" source="media/hv-hierarchy-navigation.png" alt-text="Screenshot of annotations in the hierarchy visualization.":::
+
 ### Interacting with the hierarchy
 
 | Feature | Description |
@@ -54,6 +56,8 @@ Let's look at the key features and functionality of the hierarchy visualization.
 | Layout switch | To visualize the hierarchy that suits your convenience, you can switch between the vertical and horizontal layouts (rows or columns).<br>In the left pane, at the bottom left, select the option depending on your preference. |
 | Zoom and center view | Zoom in and out of the hierarchy visualization to get a better view of the relationships between records. Also, center the view on a specific record to focus on its details and relationships.<br>Select the required icon at the bottom right corner of the hierarchy visualization pane. |
 | Create new records | Create new records directly in the hierarchy visualization. On the tile, select the **More options** icon and then select the option accordingly. The record is added under the selected parent record (tile).<br>For example, a tile in the **Account** table hierarchy visualization displays two options&mdash;**Add new** and **Add existing**. Select an option to create a new record or associate an existing record with the tile. |
+
+:::image type="content" source="media/hv-hierarchy-interactions.png" alt-text="Screenshot of hierarchy visualization with details pane.":::
 
 ## Related information
 
