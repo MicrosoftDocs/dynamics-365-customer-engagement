@@ -32,7 +32,7 @@ The following sections provide examples of custom criteria for different industr
 - **Criterion description:** Lead is hot if lead's company name has announced a new facility, acquisition, or market expansion within the last 18 months.
    :::image type="content" source="media/add-custom-criterion.png" alt-text="Screenshot of the custom criteria section.":::
 
-- **Website:** [www.bing.com](https://www.bing.com)
+- **Website:** `https://bing.com`
   :::image type="content" source="media/add-website-custom-criterion.png" alt-text="Screenshot of the add public website dialog.":::
 
 - **Instructions:** site: news {{Lead.Company Name}} expansion OR acquisition
@@ -51,7 +51,7 @@ The following sections provide examples of custom criteria for different industr
   IPO, SPAC, or major funding round (Series C+ or ≥ \$50M) in the last
   24 months.
 
-- **Website:** [www.google.com](https://www.google.com)
+- **Website:** `https://bing.com`
 
 - **Instructions:** {{Lead.Company Name}} IPO OR "initial public offering" OR
   "raised Series C" OR "funding round \$" in the last 24 months. Extract
@@ -65,7 +65,7 @@ The following sections provide examples of custom criteria for different industr
   phishing/ransomware incident in the last 12 months AND policy renewal
   is within 90 days (renewal from Dataverse).
 
-- **Website:** [www.google.com](https://www.google.com)
+- **Website:** `https://bing.com`
 
 - **Instructions:** {{Lead.Company Name}} data breach OR ransomware OR
   phishing incident past 12 months. Return incident date and brief.
@@ -79,7 +79,7 @@ The following sections provide examples of custom criteria for different industr
 - **Criterion description:** Lead is hot if lead's company name announced a
   plant expansion or new production line in the last 12 months.
 
-- **Website:** [www.bing.com](https://www.bing.com)
+- **Website:** `https://bing.com`
 
 - **Instructions:** site:{{Lead.Company Name}} "press" OR "newsroom" OR
   "media" new production line OR expansion OR "adds capacity" past 12
@@ -92,7 +92,7 @@ The following sections provide examples of custom criteria for different industr
 - **Criterion description:** Lead is hot if lead's company name operates 3+
   manufacturing sites and at least one plant is older than 10 years.
 
-- **Website:** [www.google.com](https://www.google.com)
+- **Website:** `https://bing.com`
 
 - **Instructions:** site:{{Lead.Company Name}}.com facilities OR plants OR locations
   manufacturing. Extract plant count and earliest commissioning year.
@@ -104,7 +104,7 @@ The following sections provide examples of custom criteria for different industr
 - **Criterion description:** Lead is hot if lead's company name has been
   awarded an OEM or Tier‑1 program in the last 12 months.
 
-- **Website:** [www.google.com](https://www.google.com)
+- **Website:** `https://bing.com`
 
 - **Instructions:** {{Lead.Company Name}} awarded contract OR selected
   supplier OR "program award" automotive past 12 months.
@@ -118,7 +118,7 @@ The following sections provide examples of custom criteria for different industr
 - **Criterion description:** Lead is hot if total staffed beds across
   lead's company name ≥ 500.
 
-- **Website:** [www.bing.com](https://www.bing.com)
+- **Website:** `https://bing.com`
 
 - **Instructions:** {{Lead.Company Name}} hospital system staffed beds total
   OR "number of beds" site:aha.org OR site:healthgrades.com. Extract
@@ -131,7 +131,7 @@ The following sections provide examples of custom criteria for different industr
 - **Criterion description:** Lead is hot if {{Lead.Company Name}}'s primary EHR is Epic
   or Cerner.
 
-- **Website:** [www.google.com](https://www.google.com)
+- **Website:** `https://bing.com`
 
 - **Instructions:** {{Lead.Company Name}} EHR Epic OR Cerner
   site:chimecentral.org OR site:klasresearch.com OR "EHR vendor"
@@ -144,7 +144,7 @@ The following sections provide examples of custom criteria for different industr
 - **Criterion description:** Lead is hot if {{Lead.Company Name}}'s heart failure
   30‑day readmission index is above national average.
 
-- **Website:** [www.medicare.gov](https://www.medicare.gov)
+- **Website:** `https://medicare.gov`
 
 - **Instructions:** {{Lead.Company Name}} hospital compare readmission heart
   failure. Extract the index and compare to national average.
@@ -158,7 +158,7 @@ The following sections provide examples of custom criteria for different industr
 - **Criterion description:** Lead is hot if lead's company name publicly
   references Kubernetes and uses at least two public clouds.
 
-- **Website:** [www.google.com](https://www.google.com)
+- **Website:** `https://bing.com`
 
 - **Instructions:** site:{{Lead.Company Name}}.com blog OR engineering "Kubernetes"
   AND ("AWS" OR "Azure" OR "GCP"). Count distinct clouds mentioned.
@@ -171,7 +171,7 @@ The following sections provide examples of custom criteria for different industr
   self‑serve signup and employs a product analytics role (open role or
   team page) in the last 6 months.
 
-- **Website:** [www.google.com](https://www.google.com)
+- **Website:** `https://bing.com`
 
 - **Instructions:** site:{{Lead.Company Name}}.com pricing OR "Get started" signup AND
   ("Product Analyst" OR "Growth Analyst" OR "Product Analytics") past 6
@@ -185,7 +185,7 @@ The following sections provide examples of custom criteria for different industr
   phishing incident in last 12 months AND current vendor is Proofpoint
   or Mimecast (vendor from Dataverse).
 
-- **Website:** [www.google.com](https://www.google.com)
+- **Website:** `https://bing.com`
 
 - **Instructions:** {{Lead.Company Name}} phishing OR business email
   compromise OR "email security incident" past 12 months.
@@ -197,7 +197,7 @@ The following sections provide examples of custom criteria for different industr
 - **Criterion description:** Lead is hot if lead's company name operates ≥
   50 retail stores in North America.
 
-- **Website:** [www.google.com](https://www.google.com)
+- **Website:** `https://bing.com`
 
 - **Instructions:** site:{{Lead.Company Name}}.com "store locator" OR "locations."
   Count store locations in US+Canada; pass if ≥ 50.
@@ -211,7 +211,7 @@ The following sections provide examples of custom criteria for different industr
 - **Criterion description:** Lead is hot if lead's company name publishes an
   annual sustainability/ESG report with Scope 1/2 metrics.
 
-- **Website:** [www.google.com](https://www.google.com)
+- **Website:** `https://bing.com`
 
 - **Instructions:** site:{{Lead.Company Name}}.com sustainability report OR ESG "Scope
   1" OR "Scope 2".
@@ -223,7 +223,7 @@ The following sections provide examples of custom criteria for different industr
 - **Criterion description:** Lead is hot if lead's company name has 10+ open
   roles in targeted functions (for example, "data engineering").
 
-- **Website:** [www.google.com](https://www.google.com)
+- **Website:** `https://bing.com`
 
 - **Instructions:** site:{{Lead.Company Name}}.com/careers "data engineer" OR "data
   platform" OR "analytics" list open roles; count ≥ 10.
@@ -235,7 +235,7 @@ The following sections provide examples of custom criteria for different industr
 - **Criterion description:** Lead is hot if lead's company name opened
   offices in a new country/region in the past 12 months.
 
-- **Website:** [www.bing.com](https://www.bing.com)
+- **Website:** `https://bing.com`
 
 - **Instructions:** {{Lead.Company Name}} opens office OR launches operations
   in "country/region" site:news past 12 months.
@@ -249,7 +249,7 @@ The following sections provide examples of custom criteria for different industr
 - **Criterion description:** Lead is hot if lead's company name uses a
   modern CDN and WAF (Cloudflare/Akamai/Fastly).
 
-- **Website:** [builtwith.com](https://builtwith.com)
+- **Website:** `builtwith.com`
 
 - **Instructions:** {{Lead.Company Name}} technology profile CDN WAF.
   Identify providers; pass if Cloudflare/Akamai/Fastly present.
@@ -261,7 +261,7 @@ The following sections provide examples of custom criteria for different industr
 - **Criterion description:** Lead is hot if {{Lead.Company Name}}'s consumer app has ≥
   4.2 rating with ≥ 1,000 reviews.
 
-- **Website:** [play.google.com](https://play.google.com)
+- **Website:** `https://play.google.com`
 
 - **Instructions:** {{Lead.Company Name}} app. Extract rating and review
   count.
@@ -276,7 +276,7 @@ The following sections provide examples of custom criteria for different industr
 - **Criterion description:** Lead is hot if lead's company name publicly
   lists competitor X as a current vendor.
 
-- **Website:** [www.google.com](https://www.google.com)
+- **Website:** `https://bing.com`
 
 - **Instructions:** {{Lead.Company Name}} "powered by \[Competitor X\]" OR
   "case study \[Competitor X\]" OR "technology partner \[Competitor
@@ -290,8 +290,7 @@ The following sections provide examples of custom criteria for different industr
   certified partner in Microsoft/AWS marketplace with relevant
   competency.
 
-- **Website:**
-  [azuremarketplace.microsoft.com](https://azuremarketplace.microsoft.com)
+- **Website:** `https://azuremarketplace.microsoft.com`
 
 - **Instructions:** {{Lead.Company Name}} listing. Extract offer type and
   competency; pass if "Solution partner—Data & AI" or equivalent.

@@ -1,7 +1,7 @@
 ---
 title: Learn the basics of Dynamics 365 Sales
 description: Quickly onboard and learn about Dynamics 365 Sales and its user interface.
-ms.date: 07/11/2025
+ms.date: 08/19/2025
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
@@ -58,9 +58,11 @@ Copilot is an AI assistant that helps you find information related to your sales
 1. Select the Copilot icon :::image type="icon" source="media/copilot-icon.svg" border="false"::: in the top-right corner of the screen to open the Copilot side pane.
 
 1. Select **View Prompts** above the Copilot chat box to view the prompts you can use.
-     For example, select **Get info** > **Summarize opportunity**, type "/", and then select the name of an opportunity. Copilot will summarize the key details of the opportunity for you.
+     For example, select **Get info** > **Show my pipeline** to get a quick summary of opportunities in your pipeline, along with the list of key opportunities.
 
-     :::image type="content" source="media/copilot-opportunity-summary.png" alt-text="Screenshot of a Copilot opportunity summary.":::
+     :::image type="content" source="media/copilot-show-pipeline.png" alt-text="Screenshot of the response to show my pipeline prompt in Copilot.":::
+
+    Alternatively, you can type a prompt in the chat box to get the information you need. For example, type **Summarize opportunity**, and then type "/" to select the opportunity. Copilot summarizes the key details of the opportunity for you. Opportunity summary is also available at the top of the opportunity form.
 
 ## Feature highlights
 
@@ -105,6 +107,7 @@ Here are some highlights of Dynamics 365 Sales:
 - **Sales data anywhere and everywhere.** Get all your customer and sales data right on your mobile device or tablet. Whether you're visiting a customer or on the road, you can quickly pull out your device to update the opportunity with information. What’s more—you get the same consistent experience regardless of the device you use.
 
 For information on how to use Dynamics 365 Sales mobile app, see [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md)
+
 
 ## Understand the data in the app
 

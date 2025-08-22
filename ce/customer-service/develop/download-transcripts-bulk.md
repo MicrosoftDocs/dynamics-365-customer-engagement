@@ -34,6 +34,8 @@ The `documentBody` attribute in the response obtained from each of the web API r
 
 You can call the APIs using C# code and then iterate over each of the returned records, access the `documentBody` attribute, and process it to get the whole transcripts.
 
+At least one message sent by a customer is required to generate a transcript.
+
 ## Structure of the JSON transcript
 
 The transcripts you see in the link can contain different types of messages:
