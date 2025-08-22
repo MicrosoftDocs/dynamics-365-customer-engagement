@@ -1,7 +1,7 @@
 ---
 title: Removed or deprecated features in Dynamics 365 Sales
 description: Visit this page to see the deprecating features in Dynamics 365 Sales.
-ms.date: 08/21/2025
+ms.date: 08/22/2025
 ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -42,6 +42,11 @@ Effective May 2025, Sales Analytics for Dynamics 365 Sales and Process Analytics
 ## Copilot for email in side pane
 
 Effective January 2025 (app/solution version 9.2.24124.0010), composing and sending email using Copilot side pane isn't supported and is being removed in a phased manner. This effects the users who have enabled the email copilot preview. However, you can use the [Copilot email assist](enable-copilot-email-assist.md) feature to compose and [send emails through the rich text editor](/power-apps/maker/model-driven-apps/use-copilot-email-assist).  
+
+<a name='linkedin-lead-generation'></a>
+## LinkedIn lead generation capabilities
+
+Effective December 2024, LinkedIn lead generation capabilities are deprecated. You can however, develop your own custom integration. Learn more in the [LinkedIn Lead Sync Integration blog post](https://community.dynamics.com/blogs/post/?postid=fb6ed89f-67a1-ef11-8a69-7c1e520b1f9b).
 
 ## Assistant card templates
 
