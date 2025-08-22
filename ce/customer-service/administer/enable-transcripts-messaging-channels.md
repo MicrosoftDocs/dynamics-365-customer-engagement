@@ -57,7 +57,8 @@ To view transcripts in Copilot Service workspace, do the following:
    1. Right-click the three dots to view the transcript.
 
 > [!NOTE]
-> As an administrator, only you have access to the conversations that are handled by other representatives.
+> - As an administrator, only you have access to the conversations that are handled by other representatives.
+> - Specific customer data collected from post-conversation surveys isn't available in transcripts. Learn more about creating comprehensive customer feedback views in [Configure feedback surveys](/dynamics365/contact-center/administer/configure-surveys).
 
 ### Related information
 
