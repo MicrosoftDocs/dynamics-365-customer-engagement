@@ -40,7 +40,8 @@ After you complete the configuration of the Sales Qualification Agent, do the fo
     1. Draft outreach emails based on the research.  
 
     > [!NOTE]
-    > The **Start testing** option is enabled only if you complete and save the configurations.
+    > - The **Start testing** option is enabled only if you complete and save the configurations.
+    > - If testing of outreach emails fails due to unknown reasons, contact Microsoft support.
 
 1. After the research is complete, the drafts are available for review, select **Review**.  
 1. Review the drafts and provide feedback or make edits as necessary.  

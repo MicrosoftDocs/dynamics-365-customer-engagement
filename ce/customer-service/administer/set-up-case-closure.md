@@ -102,8 +102,8 @@ Based on the follow-up rules and trigger configured, the AI agent performs the f
 
 The email drafted by the AI agent is based on the configuration you set in **Global settings (preview)** or the email templates you configured in the **Case follow-up and closure (preview)** page. Learn more in:
 
-- [Use Copilot recommended email templates](/dynamics365/contact-center/use/use-copilot-email&tabs=richtexteditor#use-copilot-recommended-email-templates)
-- [Use line-of-business tagged email templates](/dynamics365/contact-center/use/use-copilot-email&tabs=richtexteditor#use-line-of-business-tagged-email-templates)
+- [Use Copilot recommended email templates](/dynamics365/contact-center/use/use-copilot-email#use-copilot-recommended-email-templates)
+- [Use line-of-business tagged email templates](/dynamics365/contact-center/use/use-copilot-email#use-email-templates-tagged-with-line-of-business)
 
  
 For the configuration in our [example](#example), the AI agent first evaluates all the cases that have "Contoso Coffee" in the title and are older than 7 days. If the **Status Reason** of the case is set to "On Hold", and if the customer hasn't responded to the email sent by the AI agent in the last 48 hours, the AI agent initiates the case follow-up process. If the customer doesn't respond after the third follow-up, the AI agent populates the case resolution dialog with the required information and closes the case.

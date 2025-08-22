@@ -10,7 +10,7 @@ search.audienceType:
 
 # Bookable Resource Characteristic (BookableResourceCharacteristic) table/entity reference (Microsoft Dynamics 365 Field Service)
 
-Associates resources with their characteristics and specifies the proficiency level of a resource for that characteristic.
+Associates resources with their characteristics and specifies the rating level of a resource for that characteristic.
 
 > [!NOTE]
 > The Microsoft Dynamics 365 Field Service Bookable Resource Characteristic (BookableResourceCharacteristic) table extends the [Microsoft Dynamics 365 Bookable Resource Characteristic (BookableResourceCharacteristic) table](/dynamics365/developer/reference/entities/bookableresourcecharacteristic).
