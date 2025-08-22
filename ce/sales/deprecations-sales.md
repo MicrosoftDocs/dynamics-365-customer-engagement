@@ -43,6 +43,11 @@ Effective May 2025, Sales Analytics for Dynamics 365 Sales and Process Analytics
 
 Effective January 2025 (app/solution version 9.2.24124.0010), composing and sending email using Copilot side pane isn't supported and is being removed in a phased manner. This effects the users who have enabled the email copilot preview. However, you can use the [Copilot email assist](enable-copilot-email-assist.md) feature to compose and [send emails through the rich text editor](/power-apps/maker/model-driven-apps/use-copilot-email-assist).  
 
+<a name='linkedin-lead-generation'></a>
+## LinkedIn lead generation capabilities
+
+Effective December 2024, LinkedIn lead generation capabilities are deprecated. You can however, develop your own custom integration. Learn more in the [LinkedIn Lead Sync Integration blog post](https://community.dynamics.com/blogs/post/?postid=fb6ed89f-67a1-ef11-8a69-7c1e520b1f9b).
+
 ## Assistant card templates
 
 Effective August 1, 2024, templates to create new assistant cards won't be available. The existing cards that are created using the templates continue to work as-is. You can continue to use the Microsoft Power Automate flow to create your custom cards. [Learn more](create-insight-cards-flow.md).
@@ -72,11 +77,6 @@ Effective October 1, 2023, the following Exchange-based cards are deprecated and
 -	Yes or No Card
 
 You can create your own cards using Power Automate. [Learn more](create-insight-cards-flow.md).
-
-<a name='linkedin-lead-generation'></a>
-## LinkedIn lead generation capabilities
-
-Effective December 2024, LinkedIn lead generation capabilities are deprecated. You can however, develop your own custom integration. Learn more in the [LinkedIn Lead Sync Integration blog post](https://community.dynamics.com/blogs/post/?postid=fb6ed89f-67a1-ef11-8a69-7c1e520b1f9b).
 
 ## Rank optimization of insight cards
 
