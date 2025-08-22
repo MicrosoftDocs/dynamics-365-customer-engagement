@@ -36,7 +36,7 @@ To configure SLAs in Copilot Service admin center:
 
 > [!NOTE]
 > - You can create SLAs only in environments that have customer engagement apps such as Customer Service, as SLAs are available by default in these apps.
-> - You can't create SLAs in the Singapore region because Power Automate flows aren't supported there.
+> - SLAs aren't supported in the Singapore region.
 > - We recommend that you don't add customizations to the SLA admin configuration form, including SLA, SLA KPI, and SLA item forms.
 
 ## Prerequisites
