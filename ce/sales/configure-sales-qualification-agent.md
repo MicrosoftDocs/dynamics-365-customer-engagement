@@ -92,59 +92,14 @@ The following image shows the permissions to access research insights as an exam
 
 :::image type="content" source="media/sqa-custom-role-permissions.png" alt-text="Screenshot of the permissions to grant to a custom security role for use with the Sales Qualification Agent in Dynamics 365 Sales.":::
 
-## Testing preparation and recommendations
-
-Before you configure the Sales Qualification Agent (SQA) for your production scenario, you can test agent functionality and evaluate its accuracy and performance on a smaller scale.
-
-To effectively test the Sales Qualification Agent, follow these recommendations in your test environment:
-
-### Create users for each role
-
-Ensure that your test environment includes:
-
-Ensure that your test environment includes:
-
-| User Role     | Details                                                                 |
-|---------------|-------------------------------------------------------------------------|
-| **Sellers**   | 3–4 users with seller role and valid email addresses.                  |
-| **Supervisors** | At least 1 user to monitor the agent and intervene when necessary.   |
-| **Mock Customer** | Test contacts representing external leads with valid email addresses. You can use email IDs in your organization's domain to avoid sending emails to real customers. |
-
-### Create test leads
-
-Ensure your test data includes the following:
-
-- **Company names**: Use real organization names for leads to ensure meaningful research insights. As the agent relies on public data, using fictitious names doesn't yield relevant insights as there's no public data available for those names. If you need to use a fictitious name for demonstration purposes, consider using the fictitious organization **Proseware** (https://proseware.azurewebsites.net/).
-
-- **Selection criteria**: When you configure the agent, you define the kind of leads the agent should process. For example, you can have agent process only **Hot** leads from a **Trade Show**. 
-    - At least 5 leads that meet the selection criteria.
-    - At least 5 leads that don't match the criteria and hence should be excluded from agent processing.
-- **Target customer criteria**: When you configure the agent, you define the characteristics of your target customer. For the purpose of testing, use a simple set of criteria, such as:
-  - Industry: Technology
-  - Annual revenue: Over $1 million
-  - Job title: C-Level Executive
-  - Location: North America
--  Out of the 30 leads that meet the selection criteria, ensure you have:
-
-    - **High fit leads**: At least 10 leads that match at least 70% of the target customer criteria. In our example, the lead should meet at least 3 of the 4 criteria.
-    - **Medium fit leads**: At least 10 leads that match between 50% and 70% of the target customer criteria.
-    - **Low fit leads**: At least 10 leads that match less than 50% of the target customer criteria.
-
-- Leads must be assigned to different sellers and contain:
-  - Mock customer email ID: Enter a valid email IDs to test the agent. Use your email ID as you would receive the outreach and followup email on this ID, without involving real customers.
-  - In a spreadsheet, create a list of leads with the following columns and your assessment of their target customer profile fit and selection criteria match. This will help you validate the agent's behavior against expected outcomes:
-    - Lead name
-    - Company name
-    - Email address
-    - Industry
-    - Annual revenue
-    - Job title
-    - Target customer profile fit (High/Medium/Low)
-    - Selection criteria match (Yes/No)
-
 ## Set up Sales Qualification Agent
 
-The Sales Qualification Agent is available in two modes&mdash;Research-only mode and Research and engage mode&mdash;depending on the level of automation you want to achieve. The configuration steps are similar for both types, but the Engage has additional settings such as adding email signature, customized email instructions, and configuring BANT criteria for handover to work autonomously. Let's look at the steps to set up and configure the agents.
+The Sales Qualification Agent is available in two modes&mdash;Research-only mode and Research and engage mode&mdash;depending on the level of automation you want to achieve. The configuration steps are similar for both types, but the Engage has additional settings such as adding email signature, customized email instructions, and configuring BANT criteria for handover to work autonomously.
+
+> [!TIP]
+> We recommend that you test the agent's functionality on a smaller scale before testing it for your production scenario. Learn more about [testing preparation and recommendations](test-sales-qualification-agent-research-engage.md).
+
+Let's look at the steps to set up and configure the agents.
 
 **Follow these steps**:
 
