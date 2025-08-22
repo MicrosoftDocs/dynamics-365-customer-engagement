@@ -35,6 +35,9 @@ After you configure all the settings, the **Start agent** option is enabled.
 
 A confirmation message is displayed, select **Start agent** to start the agent. The agent might take a few seconds to start, and you can continue working while the agent is being started. Upon successful activation, the agent is listed under the AI agents home page with status as **On**. As soon as the agent is started, the agent starts processing the leads that match the [configured selection criteria](sales-qualification-agent-selection-criteria.md).
 
+> [!NOTE]
+> If starting of agent fails due to unknown issues, contact Microsoft support.
+
 ## Related information
 
 - [Configure the Sales Qualification Agent](configure-sales-qualification-agent.md)  
