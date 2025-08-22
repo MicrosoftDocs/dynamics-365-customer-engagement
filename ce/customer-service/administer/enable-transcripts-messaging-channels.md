@@ -38,7 +38,7 @@ As an administrator, you can enable live transcription and recording of conversa
 ## View the transcripts
 You can view the conversation transcriptions in the Copilot Service admin center and Copilot Service workspace apps.
 > [!NOTE]
-> Automated messages aren't shown in the customer chat transcript.
+> Automated messages aren't displayed in the customer chat transcript.
 
 1. In the admin center site map, select **User management**, and then select **Manage** for **Users**.
 2. Select the user whose conversations you want to view.
