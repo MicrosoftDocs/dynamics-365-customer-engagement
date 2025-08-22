@@ -129,7 +129,7 @@ For example, when a card is displayed for 10 users and only four users have perf
 Also, at the bottom of each metric, a trend value is displayed for the last 30 days from the current date. For example, the metric value was 30% in the last 30 days and 40% on the current date, so the trend value displays a 10% increase in usage.
 
 > [!NOTE]
-> The metric values are refreshed for every 24 hours.
+> The metric values are refreshed every 24 hours.
 
 The following metrics are available on the card.
 
