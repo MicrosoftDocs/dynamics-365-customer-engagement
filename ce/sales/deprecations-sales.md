@@ -59,6 +59,7 @@ Effective October 1, 2023, the following Exchange-based cards are deprecated and
 
 You can create your own cards using Power Automate. [Learn more](create-insight-cards-flow.md).
 
+<a name='linkedin-lead-generation'></a>
 ## LinkedIn lead generation capabilities are deprecated
 
 Effective December 2024, LinkedIn lead generation capabilities are deprecated. You can however, develop your own custom integration. Learn more in the [LinkedIn Lead Sync Integration blog post](https://community.dynamics.com/blogs/post/?postid=fb6ed89f-67a1-ef11-8a69-7c1e520b1f9b).

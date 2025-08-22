@@ -35745,12 +35745,25 @@
     },
     {
       "source_path": "ce/sales/linkedin/install-linkedin-connector.md",
-      "redirect_url": "../../../dynamics365/sales/deprecations-sales",
+      "redirect_url": "../../../dynamics365/sales/deprecations-sales#linkedin-lead-generation",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/sales/linkedin/sync-linkedin-leads.md",
-      "redirect_url": "../../../dynamics365/sales/deprecations-sales",
+      "redirect_url": "../../../dynamics365/sales/deprecations-sales#linkedin-lead-generation",
+      "redirect_document_id": false
+    }
+    {
+      "source_path": "ce/sales/linkedin/Configure-matching-strategy.md",
+      "redirect_url": "../../../dynamics365/sales/deprecations-sales#linkedin-lead-generation",
+      "redirect_document_id": false
+    }{
+      "source_path": "ce/sales/linkedin/Connect-Dynamics-365-LinkedIn.md",
+      "redirect_url": "../../../dynamics365/sales/deprecations-sales#linkedin-lead-generation",
+      "redirect_document_id": false
+    }{
+      "source_path": "ce/sales/linkedin/review-leads.md",
+      "redirect_url": "../../../dynamics365/sales/deprecations-sales#linkedin-lead-generation",
       "redirect_document_id": false
     }
   ]
