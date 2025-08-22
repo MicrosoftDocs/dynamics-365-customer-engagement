@@ -93,7 +93,7 @@ To configure the workstream, make sure you perform the steps to create a workstr
    - [Quick replies](create-quick-replies.md)
 
 > [!NOTE]
-> Twilio's Link Shortening feature is not currently supported.
+> Twilio's link shortening feature isn't supported.
 
 ## Establish a connection between omnichannel application and Twilio
 
