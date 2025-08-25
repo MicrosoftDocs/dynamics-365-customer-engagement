@@ -36,8 +36,9 @@ As an administrator, you can enable live transcription and recording of conversa
 1. Select **Save**.
 
 ## View the transcripts
-
 You can view the conversation transcriptions in the Copilot Service admin center and Copilot Service workspace apps.
+> [!NOTE]
+> Automated messages aren't displayed in the customer chat transcript.
 
 1. In the admin center site map, select **User management**, and then select **Manage** for **Users**.
 2. Select the user whose conversations you want to view.
@@ -57,7 +58,8 @@ To view transcripts in Copilot Service workspace, do the following:
    1. Right-click the three dots to view the transcript.
 
 > [!NOTE]
-> As an administrator, only you have access to the conversations that are handled by other representatives.
+> - As an administrator, only you have access to the conversations that are handled by other representatives.
+> - Specific customer data collected from post-conversation surveys isn't available in transcripts. Learn more about creating comprehensive customer feedback views in [Configure feedback surveys](/dynamics365/contact-center/administer/configure-surveys).
 
 ### Related information
 

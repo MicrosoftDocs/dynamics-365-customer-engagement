@@ -1,7 +1,7 @@
 ---
 title: Configure predictive lead scoring
 description: Configure predictive lead scoring to help sellers prioritize leads. The predictive scoring model calculates a score for open leads based on historical data.
-ms.date: 07/04/2024
+ms.date: 08/07/2025
 ms.custom: 
 ms.topic: how-to
 author: lavanyakr01
@@ -51,7 +51,7 @@ A scoring model defines the criteria for choosing leads for training and scoring
 
    If your organization doesn't have at least 40 qualified and 40 disqualified leads that were created in the time frame identified in the **Train with leads from the past** field, you can't create a scoring model. If there are enough leads, the app generates a model by default.
 
-1. On the **Predictive lead scoring** page, change the values for fields such as business process flow, filter column, and so on if needed. For more information about these fields, see the next section [Add a model](#add-a-model). When you're done, select **Get started**.
+1. On the **Predictive lead scoring** page, change the values for fields such as business process flow, filter column, and so on, if needed. For more information about these fields, see the next section [Add a model](#add-a-model). When you're done, select **Get started**.
 
 Allow a few minutes for the app to train your model. You can leave the page and come back later.
 
@@ -63,7 +63,7 @@ The application uses standard attributes to train the model. You can [edit the m
 
       :::image type="content" source="media/pls-model-ready.png" alt-text="Screenshot of the confirmation message that appears after a scoring model is trained and ready to publish.":::
 
-2. If the model is trained but is not ready to publish, the **Model performance** field displays **Not ready to Publish**.
+2. If the model is trained but isn't ready to publish, the **Model performance** field displays **Not ready to Publish**.
 
 1. To retrain the model every 15 days, select **Retrain automatically**.
 

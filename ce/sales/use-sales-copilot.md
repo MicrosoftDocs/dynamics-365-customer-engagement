@@ -1,7 +1,7 @@
 ---
 title: Ask Copilot questions
 description: Learn how to use Copilot in Dynamics 365 Sales to summarize sales records, catch up on recent changes, prepare for meetings, and answer sales-related questions.
-ms.date: 06/26/2025
+ms.date: 08/21/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -50,6 +50,9 @@ Select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.svg
 <a name=open-copilot-immersive></a>
 
 ### Chat with Copilot in full-screen view (preview)
+
+>[!IMPORTANT]
+>Effective September 2025, the Copilot in full-screen view preview feature in Copilot in Dynamics 365 Sales is deprecated region-wise. Learn more about the deprecation in, [Copilot in Dynamics 365 Sales in full-screen view](deprecations-sales.md#copilot-in-dynamics-365-sales-in-full-screen-view).
 
 [!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
