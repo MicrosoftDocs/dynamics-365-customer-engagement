@@ -100,7 +100,7 @@ Leads disqualified by the agent are not handed over to sellers. If you're a supe
 
 1. In the Sales Hub app, go to **Leads**.
 
-1. From the views drop-down, select **Leads disqualified by AI Agent**.
+1. From the views drop-down, select **Leads disqualified by AI agent**.
    > [!NOTE]
    > Though this view is meant for supervisors, it is also available to sellers unless your admin has set the `EnableRoleBasedSystemViews` setting to **true**.
 1. Open a lead to view the reason for disqualification. The reason is displayed in the **Lead research** page under the **Suggested action** section.

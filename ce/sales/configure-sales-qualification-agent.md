@@ -118,6 +118,8 @@ Let's look at the steps to set up and configure the agents.
 1. [Configure knowledge sources](configure-sqa-knowledge-source.md) for research insights, outreach, and follow-up emails.
 1. (**Research and engage mode**) [Run simulation to review the agent's outreach emails](run-simulation-sqa-outreach-email.md) are customized and relevant to the leads.  
 1. After you are satisfied with the configuration, [start the agent](start-sales-qualification-agent.md).
+1. [Test the Sales Qualification Agent](test-sales-qualification-agent-research-engage.md)
+
 
 ## Related information
 
