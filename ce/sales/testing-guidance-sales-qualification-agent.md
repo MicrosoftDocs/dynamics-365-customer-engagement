@@ -1,6 +1,6 @@
 ---
 title: Testing preparation and recommendations for Sales Qualification Agent
-description: Learn how to test the research and engage mode of Sales Qualification Agent in Dynamics 365 Sales and evaluate its accuracy and performance.
+description: Learn how to prepare to test the research and engage mode of Sales Qualification Agent in Dynamics 365 Sales and evaluate its accuracy and performance.
 ms.date: 06/13/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
