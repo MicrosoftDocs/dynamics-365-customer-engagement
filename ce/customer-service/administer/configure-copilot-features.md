@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to
-ms.date: 05/05/2025
+ms.date: 08/22/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template 
 ms.collection: bap-ai-copilot
@@ -139,13 +139,13 @@ Out of the box, users with the Customer Service Representative role only can use
 > - Make sure that your users have **Miscellaneous privileges** > **prvIntelligenceUsage** assigned to the required custom security roles to access the Copilot case summary. Learn more in [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 > - For custom CSR roles, make sure the role has the following permissions and corresponding access levels:
 >    - Read and Write have access level set to Basic.
->         - `<RolePrivilege name="prvReadmsdyn_copilotevent" level="Basic" />`
->         - `<RolePrivilege name="prvWritemsdyn_copilotevent" level="Basic" />`
->    - Create has access level set to Global: `<RolePrivilege name="prvCreatemsdyn_copilotevent" level="Global" />`
+>        - `<RolePrivilege name="prvReadmsdyn_copilotevent" level="Basic" />`  
+>        - `<RolePrivilege name="prvWritemsdyn_copilotevent" level="Basic" />`  
+>    - Create has access level set to Global: `<RolePrivilege name="prvCreatemsdyn_copilotevent" level="Global" />`  
 > - For custom CSR Manager roles, make sure that all the permissions have access level set to Global:
-      - `<RolePrivilege name="prvReadmsdyn_copilotevent" level="Global" />`
-      - `<RolePrivilege name="prvCreatemsdyn_copilotevent" level="Global" />`
-      - `<RolePrivilege name="prvWritemsdyn_copilotevent" level="Global" />`
+>      - `<RolePrivilege name="prvReadmsdyn_copilotevent" level="Global" />`   
+>      - `<RolePrivilege name="prvCreatemsdyn_copilotevent" level="Global" />`   
+>      - `<RolePrivilege name="prvWritemsdyn_copilotevent" level="Global" />`  
 
 
 ## Next steps

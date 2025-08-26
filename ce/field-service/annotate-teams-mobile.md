@@ -2,7 +2,7 @@
 title: Use spatial annotations in Teams
 description: Use Microsoft Teams to annotate in a Dynamics 365 Field Service environment.
 author:  prashantyvr
-ms.date: 06/09/2025
+ms.date: 08/22/2025
 ms.topic: how-to
 ms.author: prashan
 ms.reviewer: v-wendysmith
@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Use spatial annotations in Teams
 
-<!--- This topic in Guides and RA. Topic is H2 in calling-annotations.md --->
+<!--- This topic is also in Guides and RA. Update these topics in calling-annotations.md (Guides) and teams-mobile-annotate.md (RA) --->
 
 Spatial annotations can greatly enhance your communication and collaboration, especially when working with remote teams. Teams desktop users (PC or Mac) can annotate in a mobile user's space. Use spatial annotations to:
 
@@ -45,7 +45,7 @@ Use the **Spatial Annotations** toolbar in Teams. For others to view the toolbar
 
    :::image type="content" source="../field-service/media/calling-annotations-spatial-annotation-toolbar.png" alt-text="Screenshot of the Teams Spatial Annotations toolbar.":::
 
-1. Use the toolbar to place 3D arrows or draw in your space for other callers to see or annotate in another user's space.
+1. Use the toolbar to place 3D arrows or draw in your space for other callers to see or annotate in another user's space. Each call participant can only undo and delete their own annotations.
 
    |Button|Description|
    |---------|----------------------------------------------------|
@@ -56,7 +56,9 @@ Use the **Spatial Annotations** toolbar in Teams. For others to view the toolbar
    |:::image type="icon" source="../field-service/media/calling-annotations-teams-erase-all-button.png":::|To delete all annotations that you added, select this button, and then select **Delete Annotations**. This action doesn't clear annotations made by other users.|
 
    > [!NOTE]
-   > Each call participant can only undo and delete their own annotations.
+   > If a participant joins a group call or meeting after spatial annotations have begun and can't annotate on the presenter's 3D space, the presenter can minimize and maximize their Teams mobile app to restore the edit annotation functionality.
+   >
+   > Alternatively, the presenter can stop and restart presenting spatial annotations. However, this action removes any annotations previously added to their 3D space.
 
 1. When you're done annotating, close the toolbar. All annotations persist even after you stop editing.
 
