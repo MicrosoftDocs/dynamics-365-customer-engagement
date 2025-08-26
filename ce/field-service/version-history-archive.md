@@ -1,7 +1,7 @@
 ---
 title: Version history archive
 description: Archive of earlier release notes of the Dynamics 365 Field Service version history.
-ms.date: 06/04/2024
+ms.date: 07/30/2025
 ms.topic: release-notes
 author: m-hartmann
 ms.author: mhart
@@ -133,7 +133,7 @@ Fixed 38 bugs across the new work order experience, insurance views on accounts,
 -	Fixed a problem preventing estimated subtotal price from showing when the estimate is 0.
 -	Fixed a problem where nothing would happen when trying to expand timeline notes from the work order side pane.
 
-- Dynamics 365 Field Service mobile app: [Work Order Recap](work-order-recap.md) preview for bookings and work orders on mobile.
+- Dynamics 365 Field Service mobile app: [Work Order Recap](use-work-order-recap.md) preview for bookings and work orders on mobile.
 
 #### 8.8.98.36
 (Includes Universal Resource Scheduling version [3.12.111.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018) and Resource Scheduling controls version 1.2.51.232411).

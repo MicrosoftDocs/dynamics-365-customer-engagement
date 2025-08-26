@@ -81,30 +81,18 @@ A valid Azure subscription is required to publish the sample app to Azure.
 
 3. Launch the Unified Interface app to see the communication widget on the right side.
 
-   **The communication widget in the minimized mode**
-
-   ![Communication widget in the minimized mode.](../../media/widget-minimized-mode.png "Communication widget in the minimized mode")
-   
-   **The communication widget in the expanded mode**
-   
-   ![Communication widget in the expanded mode.](../../media/widget-expanded-mode.png "Communication widget in the expanded mode")
-
 > [!Important]
 > - All URLs must be HTTPS.
 > - If you use a self-signed certificate for the Azure app or the Dynamics 365 org, certain browsers might reject the connection and fail to load the sample phone. As a workaround, open the Azure app in a separate tab and accept the certificate once.
-> - Ensure microphone and speaker access is not blocked by browser policy.
+> - Make sure that access to microphone and speaker isn't blocked by browser policy.
 
 ## Related information
 
-[Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)
-
-[Configure a channel provider](configure-channel-provider-channel-integration-framework.md)
-
-[Microsoft.CIFramework](../develop/reference/microsoft-ciframework.md)
-
-[Client-side events](../develop/reference/client-side-events.md)
-
-[Entity reference](../develop/reference/entities-attributes/msdyn-ciprovider.md)
+[Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)  
+[Configure a channel provider](configure-channel-provider-channel-integration-framework.md)  
+[Microsoft.CIFramework](../develop/reference/microsoft-ciframework.md)  
+[Client-side events](../develop/reference/client-side-events.md)  
+[Entity reference](../develop/reference/entities-attributes/msdyn-ciprovider.md)  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

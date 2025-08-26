@@ -4,9 +4,9 @@ description: This article provides an overview of the analytics data model in Dy
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: concept-article
+ms.topic: conceptual
 ms.collection:
-ms.date: 02/10/2025
+ms.date: 07/30/2025
 ms.custom: bap-template
 ---
 
@@ -18,7 +18,7 @@ ms.custom: bap-template
 
 This article presents an overview of the analytics data model. The application provides an out-of-box data model that consists of fact and dimension tables.
 
-- Facts, also known as metrics, represent observational or event data that you want to analyze. Fact tables logically organize KPIs. For example, the `FactConversation` table has conversation metrics such as average handle time, whereas the `FactAgent` table has service representative metrics.
+- Facts, also known as metrics, represent observational, or event data that you want to analyze. Fact tables logically organize KPIs. For example, the `FactConversation` table has conversation metrics such as average handle time, whereas the `FactAgent` table has service representative metrics.
 - Dimensions represent the attributes of the facts. You can use them to break down the data for further analysis.
 
 You can use facts and dimensions to visualize data according to your organizational requirements. For example, if you want to understand how average handle time varies by queue, you can filter the average handle time fact by the queue dimension.
@@ -60,7 +60,7 @@ The following metrics are a measure of the conversations grouped by call closure
 
     - **Ghost Conversation**: Conversations assigned to a service representative but there was no response from the customer after the conversation was connected. 
     - **Ghost Conversations Rate**: Percentage of engaged conversations that are connected to a service representative with no response from the customer. 
-    - **Conversation disconnect rate**: Percentage of conversations that were ended by the customer before a service representative ended the conversation.
+    - **Conversation disconnect rate**: Percentage of conversations ended by the customer before a service representative ended the conversation.
     - **Disconnect reason**: Represents the reason behind a customer disconnect. For chats, it represents whether the customer closed the widget, ended the conversation, or there was a system disconnect. For voice, it represents whether the customer ended the call, or the call was disconnected due to connection issues.
 
 ### Queue name
@@ -119,7 +119,7 @@ Here's a brief description of the workflow.
 
 When a customer raises a request through a channel such as voice, messaging, or chat, the system creates a conversation. A conversation represents an entire end-to-end interaction with a customer. The system can also create a conversation when a service representative calls a customer. A conversation typically originates in a workstream on a specific channel. It then routes to a queue, based on your organizational rule settings. A conversation entity holds metrics about your customer's experience with the contact center. These metrics include the current status, wait time, handle time, and current customer sentiment.
 
-A conversation can end during a single session or it can extend to multiple sessions. Session represents an assignment attempt within a single queue. Whenever a conversation is routed to a queue for assignment, a new session is created to track assignment. If the assignment is successful, the session, the "agent assigned on" and "agent accepted on" measures are updated. A session can be associated with a customer service representative, bot or IVR.
+A conversation can end during a single session or it can extend to multiple sessions. Session represents an assignment attempt within a single queue. Whenever a conversation is routed to a queue for assignment, a new session is created to track assignment. If the assignment is successful, the session, the "agent assigned on" and "agent accepted on" measures are updated. A session can be associated with a customer service representative, bot, or IVR.
 
 From this entity, you can get KPIs and metrics that describe queue performance and service representative performance. Examples include the number of requests that landed in a queue, the number of requests that service representatives rejected, and service representative handle time.
 

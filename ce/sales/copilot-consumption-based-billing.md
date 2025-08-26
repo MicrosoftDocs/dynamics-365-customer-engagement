@@ -71,6 +71,10 @@ Dynamics 365 Sales regularly checks the available capacity (quota) of Copilot St
 > [!IMPORTANT]
 > When the quota is depleted, the AI capability is unavailable until more capacity is added.
 
+## View the agent's usage consumption
+
+After the sales agent (Sales Qualification Agent or Opportunity Research Agent) is published, you can start monitoring the capacity it consumes and how much capacity is left. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new)
+
 ## Related information
 
 - [Assign licenses and manage access to Copilot Studio](/microsoft-copilot-studio/requirements-licensing?tabs=web)  

@@ -14,11 +14,11 @@
           href: try-customer-service.md
         - name: Customer Service trial FAQ
           href: trial-faq.md
-      - name: Customer Service workspace
+      - name: Copilot Service workspace
         href: csw-overview.md
       - name: Customer Service Team Member
         href: customer-service-team-member.md
-      - name: Customer Service admin center
+      - name: Copilot Service admin center
         href: cs-admin-center.md
       - name: Customer Service Hub
         href: customer-service-hub-user-guide-basics.md
@@ -36,7 +36,7 @@
       items:
       - name: System requirements for Customer Service
         href: csh-system-requirements.md
-      - name: System requirements for Customer Service workspace
+      - name: System requirements for Copilot Service workspace
         href: customer-service-workspace-system-requirements.md
       - name: System requirements for Omnichannel for Customer Service
         href: system-requirements-omnichannel.md
@@ -104,6 +104,8 @@
       href: /dynamics365/contact-center/implement/faq-rai-ai-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
     - name: Responsible AI FAQ for Copilot in Customer Service
       href: faq-responsible-ai-copilot.md
+    - name: Responsible AI FAQs for NLUs in AI agents
+      href: /dynamics365/contact-center/implement/natural-language-ai-faq?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml      
   - name: Resources
     items:
     - name: Training

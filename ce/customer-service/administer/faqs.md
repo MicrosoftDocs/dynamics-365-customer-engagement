@@ -86,7 +86,7 @@ No. Only the primary representative of the chat can initiate transfers or consul
 
 ### Why are my representatives not receiving any new conversations?
 
-New conversation requests are assigned to an representative when:
+New conversation requests are assigned to a representative when:
 
 - A new chat request comes in.
 - The incoming chat request is assigned to a queue that matches the representative’s assigned queues. You can review the queue and workstream for an incoming chat in the Omnichannel Conversation Dashboard.

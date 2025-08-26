@@ -1,7 +1,7 @@
 ---
 title: Configure travel charges
 description: Learn how to use travel charges in Dynamics 365 Field Service to bill for the cost of travel to a work site.
-ms.date: 06/12/2024
+ms.date: 07/24/2025
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
@@ -20,9 +20,8 @@ If there are multiple bookings for a single work order, multiple travel charge i
 
 ## Specify the travel charge item
 
-1. In Field Service, select the **Settings** area.
-1. Under **General**, select **Field Service Settings**.
-1. On the **Work Order / Booking** tab, in the **Travel Charge Item** field, search for and select a product.
+1. In Field Service, go to the **Settings** area and select the **Work Order / Booking** tab.
+1. In the **Travel Charge Item** field, search for and select a product.
 
     If the product doesn't exist yet, select **New Product** to create it, and add the product as a travel charge item.
 

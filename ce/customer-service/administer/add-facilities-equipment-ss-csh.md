@@ -3,6 +3,7 @@ title: Add and create new facilities and equipment for Service Scheduling in Dyn
 description: Learn how to add and create facilities and equipment for service scheduling in Dynamics 365 Customer Service.
 ms.topic: how-to
 ms.date: 05/07/2025
+ms.update-cycle: 1095-days
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas

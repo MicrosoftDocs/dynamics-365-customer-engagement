@@ -6,7 +6,7 @@
       href: ../index.yml
     - name: Welcome to Dynamics 365 Customer Service
       href: ../implement/overview.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-    - name: Use Customer Service admin center
+    - name: Use Copilot Service admin center
       href: ../implement/cs-admin-center.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
     - name: Troubleshoot and FAQs
       items:
@@ -78,8 +78,6 @@
         href: model-tables-as-skills-ur.md
       - name: Use sentiment prediction-based routing
         href: use-sentiment-prediction-for-routing.md
-      - name: Use effort estimation model for routing
-        href: use-effort-estimation-for-routing.md
       - name: Configure basic routing
         items:
         - name: Create and manage queues for cases
@@ -98,8 +96,6 @@
           href: manage-routing-diagnostics-data.md
       - name: Manage routing rules templates
         href: manage-routing-rules-templates.md
-      - name: Use best practices to set up unified routing
-        href: unified-routing-best-practices.md
       - name: FAQ about unified routing
         href: unified-routing-faqs.md
       - name: View diagnostics for unified routing
@@ -312,6 +308,8 @@
         href: /power-apps/user/customize-insert-email-template?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Add Copilot prompts to email templates
         href: add-prompt-email-template.md
+      - name: Configure line-of-business for email templates
+        href: configure-lob-email-templates.md
       - name: Enable enhanced experience for email attachments
         href: add-enhanced-attachment-control.md  
       - name: Enable enhanced recipient control for email
@@ -324,8 +322,6 @@
       items:
       - name: Configure the inbox
         href: configure-inbox.md
-      - name: Inbox views and filters
-        href: inbox-views-filters.md
     - name: Timeline
       items:
       - name: Configure timeline
@@ -474,6 +470,22 @@
         href: voice-channel-pricing-scenarios.md
       - name: FAQ about the voice channel
         href: voice-channel-faqs.md
+    - name: Agent hub (preview)
+      items:
+      - name: Learn guide for AI agents and Copilot features
+        items:
+        - name: Overview of agent hub
+          href: /dynamics365/contact-center/administer/overview-agent-hub?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Trust center for Dynamics 365
+          href: /dynamics365/contact-center/administer/trust-center?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Security FAQs about Copilot in Customer Service
+          href: /dynamics365/contact-center/administer/copilot-security-faqs?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml      
+        - name: Security FAQs about AI agents
+          href: /dynamics365/contact-center/administer/ai-agents-security-faqs?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Create rollout plans to manage AI agents
+        href: /dynamics365/contact-center/administer/create-rollout-plans?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: View agent insights dashboard
+        href: /dynamics365/contact-center/use/agent-insights?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml  
     - name: Autonomous service agents (preview)
       items:
       - name: Overview of autonomous service agents
@@ -491,13 +503,15 @@
         - name: Enable intent-based suggestions for service representatives
           href: /dynamics365/contact-center/administer/enable-intent-for-service-reps?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
         - name: Configure intent-based suggestions for Copilot agents
-          href: /dynamics365/contact-center/administer/set-up-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+          href: /dynamics365/contact-center/administer/set-up-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.ym
       - name: Case Management Agent
         items: 
-        - name: Set up Case Management Agent to create and update cases 
-          href: set-up-autonomous-case-agents.md
-        - name: Set up Case Management Agent to follow up and close cases
-          href: set-up-case-closure.md  
+          - name: Set up Case Management Agent to create and update cases 
+            href: set-up-autonomous-case-agents.md
+          - name: Set up Case Management Agent to resolve cases
+            href: set-up-case-resolution-agent.md  
+          - name: Set up Case Management Agent to follow up and close cases
+            href: set-up-case-closure.md  
       - name: Customer Knowledge Management Agent
         items:
         - name: Enable Customer Knowledge Management Agent
@@ -513,7 +527,7 @@
       - name: Enable resizing of communication panel
         href: csac-resize-cp.md
       - name: Configure disposition codes
-        href: /dynamics365/contact-center/administer/configure-disposition-codes?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml     
+        href: /dynamics365/contact-center/administer/configure-disposition-codes?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Configure relevance search for transcripts
         href: relevance-search-chat-transcript.md
       - name: Enable download, email of chat transcripts
@@ -594,6 +608,8 @@
         href: create-operating-hours.md
       - name: Configure and manage custom presence
         href: presence-custom-presence.md
+      - name: Enable transfer of conversations
+        href: enable-transfer-consult.md
       - name: Configure file attachments
         href: configure-file-attachment.md
       - name: Enable file attachments
@@ -675,7 +691,9 @@
         - name: Enable conversation summaries
           href: /dynamics365/contact-center/administer/copilot-enable-summary##enable-conversation-summaries?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
       - name: Configure custom record summaries for service representatives
-        href: copilot-enable-custom-record-summaries.md    
+        href: copilot-enable-custom-record-summaries.md
+      - name: Connect to Customer Service with MCP server (preview)
+        href: configure-ai-agent-to-use-mcp-server.md
       - name: Enable Copilot help pane features
         items:
         - name: Enable features in Copilot pane
@@ -737,7 +755,7 @@
       - name: Enable voice call experiences
         href: configure-end-of-call-survey.md
       - name: Configure post-call survey
-        href: voice-channel-survey.md
+        href: voice-channel-survey.md  
       - name: Configure post-conversation surveys using Customer Voice
         href: configure-post-conversation-survey.md
     - name: Analytics dashboards and insights
@@ -802,7 +820,7 @@
           href: scheduling.entities.md
         - name: Set up the Service Scheduling experience
           href: scheduling-experience.md
-        - name: Access scheduling in the Customer Service workspace and Customer Service Hub
+        - name: Access scheduling in Copilot Service workspace and Customer Service Hub
           href: access-scheduling.md
         - name: Install Service Scheduling from Power Platform admin center
           href: install-service-scheduling-from-power-platform.md
@@ -876,11 +894,11 @@
         href: cs-iot-security-roles.md
     - name: Migration solutions
       items:
-      - name: Migrate from removed or deprecated apps to Customer Service workspace
+      - name: Migrate from removed or deprecated apps to Copilot Service workspace
         items:
-        - name: Migrate from deprecated or removed apps to Customer Service workspace
+        - name: Migrate from deprecated or removed apps to Copilot Service workspace
           href: migrate-to-csw.md
-        - name: Enable Omnichannel for Customer Service and disable Customer Service workspace
+        - name: Enable Omnichannel for Customer Service and disable Copilot Service workspace
           href: enable-oc-disable-csw.md
       - name: Migrate configuration data for records channel using solutions
         href: migrate-record-routing-config-using-solutions.md
@@ -892,8 +910,6 @@
           href: migrate-config-data-for-records-overview.md
         - name: Use FetchXML query to filter records
           href: use-fetchxml-filter-records.md
-        - name: Migrate configuration data for records
-          href: migrate-config-data-for-records.md
         - name: Verify migration of records
           href: migrate-config-data-verify.md
         - name: Troubleshoot migration of records
@@ -908,6 +924,8 @@
         href: migrate-config-data-for-whatsapp-through-twilio.md
       - name: Migrate configuration data for custom messaging channel
         href: migrate-config-data-for-custom-channel.md
+      - name: Migrate Copilot Studio survey agents configurations
+        href: /dynamics365/contact-center/administer/migrate-survey-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml       
       - name: Migrate automatic record creation rules and SLAs
         href: migrate-automatic-record-creation-and-sla-agreements.md
       - name: Strategy for migrating from contracts to entitlements
@@ -922,7 +940,7 @@
           href: migrate-entity-records.md
       - name: Migration FAQ
         items: 
-          - name: FAQ on migration from Customer Service Hub to Customer Service workspace
+          - name: FAQ on migration from Customer Service Hub to Copilot Service workspace
             href: faq-csh-removal.md
           - name: FAQ on migration from Omnichannel for Customer Service app
             href: migrate-oc-faq.md
@@ -934,7 +952,7 @@
         href: enable-audit-tables.md
     - name: Known issues in Customer Service and Omnichannel for Customer Service
       href: https://go.microsoft.com/fwlink/p/?linkid=2165393
-    - name: FAQ about Customer Service admin center
+    - name: FAQ about Copilot Service admin center
       href: faq-customer-service-admin-center.md
     - name: FAQ about Omnichannel for Customer Service
       href: faqs.md
@@ -946,6 +964,8 @@
       href: /dynamics365/contact-center/implement/faq-rai-ai-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
     - name: Responsible AI FAQ for Copilot in Customer Service
       href: ../implement/faq-responsible-ai-copilot.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+    - name: Responsible AI FAQs for NLUs in AI agents
+      href: /dynamics365/contact-center/implement/natural-language-ai-faq?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml      
   - name: Resources
     items:
     - name: Training

@@ -6,6 +6,7 @@ ms.subservice: field-service-mobile
 ms.date: 03/11/2025
 author: JonBaker007
 ms.author: jobaker
+ms.reviewer: v-wendysmith
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
@@ -23,7 +24,7 @@ This article discusses concepts that are specific to the Field Service mobile ap
 
 An admin has to [ensure access and assign permissions to users](../users-licenses-permissions.md).
 
-After [installing and opening the mobile app](download-mobile-app.md), users can sign in. If users have access to more than one app, they have to choose which app to load. The app might download [data from the offline profile](offline-data-sync.md) to the device, which can take some time to complete.
+After users [install and open the mobile app](download-mobile-app.md), they can sign in. If users have access to more than one app, they have to choose which app to load. The app might download [data from the offline profile](offline-data-sync.md) to the device, which can take some time to complete.
 
 ## View scheduled work orders
 
@@ -67,7 +68,7 @@ When the mobile device has internet connection, users can view and interact with
 
 :::image type="content" source="../media/mobile-2020-customer-asset-navigate.png" alt-text="Renderings of three mobile devices showing information about customer assets in the Field Service mobile app.":::
 
-Sometimes, it's handy to scan a barcode to find records that have a matching barcode field, especially in the context of assets (for example, when installing a new device and making sure the serial number gets captured in the system). An administrator can [set up barcode scanning](scan-barcode.md) and add it to the relevant forms.
+Sometimes, it's handy to scan a barcode to find records that have a matching barcode field, especially in the context of assets. For example, when installing a new device and making sure the serial number gets captured in the system. An administrator can [set up barcode scanning](scan-barcode.md) and add it to the relevant forms.
 
 ## Track time
 
@@ -83,7 +84,7 @@ Watch this video to learn more about time entry in the Field Service mobile app:
 
 ## Create follow-up work orders
 
-To schedule more work for another time, users can create follow-up work orders. This might come in handy when they are working on a job and notice that something else needs fixing and they are missing the spare part.
+To schedule more work for another time, users can create follow-up work orders. For example, when they're working on a job and notice that something else needs to be fixed and they're missing the spare part.
 
 To create a follow-up work order, select the **Follow up** option in the bottom app menu. The following fields are already filled in based on the current work order:
 
@@ -98,7 +99,7 @@ To create a follow-up work order, select the **Follow up** option in the bottom 
 
 :::image type="content" source="../media/mobile-2020-follow-up.png" alt-text="Rendering of a mobile device showing the Follow-up option in the Field Service mobile app.":::
 
-After saving the work order, a dispatcher can schedule it.
+After you save the work order, a dispatcher can schedule it.
 
 If users don't see the follow-up option, an administrator needs to assign them [**create** permissions](../users-licenses-permissions.md) to the work order table.
 
@@ -113,5 +114,7 @@ Issues with the Field Service mobile app can be the result of corrupted data. Yo
 Select your profile icon in the upper-left corner, select **Reconfigure**, and confirm when you're prompted to do so.
 
 :::image type="content" source="../media/mobile-2020-offline-reconfigure.png" alt-text="Rendering of a mobile device showing the Reconfigure option in the Field Service mobile app.":::
+
+A synchronization of all data occurs, which can take some time. To avoid excessive data usage, don't reconfigure the app unless necessary.
 
 [!INCLUDE [footer-include](../../includes/footer-banner.md)]

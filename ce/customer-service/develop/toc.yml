@@ -28,7 +28,7 @@
         - name: Extend transformer logic on templates
           href: extend-transformer-logic-template.md
         - name: Transform, map external source data to knowledge fields
-          href: create-a-conversion-plugin.md  
+          href: int-search-metadata-schema.md#transform-map-external-source-data-to-knowledge-fields
         - name: Configure the faceted search results web template from your portal
           href: configure-faceted-search-results.md          
       - name: Chat
@@ -70,11 +70,21 @@
           - name: Test the custom messaging channel
             href: test-custom-channel-sample-html.md
           - name: Markdown formats in custom channels that use Direct Line
-            href: markdown-formats-dev.md   
+            href: bring-your-own-channel.md#markdown-formats-in-custom-channels
+      - name: Voice
+        items:
+        - name: Download call recordings in bulk
+          href: /dynamics365/contact-center/extend/download-call-recordings-bulk?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml      
       - name: Copilot in Customer Service
         items:  
         - name: Download Copilot transcripts and interaction data
-          href: download-copilot-transcript-data.md               
+          href: download-copilot-transcript-data.md           
+      - name: Autonomous service agents
+        items: 
+        - name: Integrate Case Management Agent with custom Copilot Studio agents (preview)
+          href: case-management-agent-integration.md    
+        - name: Use case field prediction API (preview)
+          href: use-case-field-prediction-api.md      
       - name: Agent productivity tools
         items: 
         - name: Build a smart assist bot
@@ -115,6 +125,8 @@
         items:
         - name: Calculate conversation metrics
           href: calculate-conversation-metrics.md
+        - name: Calculate session metrics
+          href: calculate-session-metrics.md
       - name: Extend Customer Service
         items: 
         - name: Extend Omnichannel for Customer Service
@@ -295,6 +307,8 @@
                  href: reference/methods/getEventPublisherTopic.md       
           - name: Readme
             href: https://go.microsoft.com/fwlink/p/?linkid=2141982
+        - name: Session closure reasons
+          href: /dynamics365/contact-center/extend/closure-reasons-descriptions?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml  
     - name: Responsible AI
       items:
       - name: Overview

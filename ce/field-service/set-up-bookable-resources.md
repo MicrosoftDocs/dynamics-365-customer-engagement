@@ -1,7 +1,7 @@
 ---
 title: Set up bookable resources
 description: Learn how to create a bookable resource and add details to distinguish it from other resources.
-ms.date: 04/02/2025
+ms.date: 08/20/2025
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
@@ -94,7 +94,7 @@ The most common attributes that distinguish resources are characteristics, terri
 
 Characteristics represent a resource's skills and certifications. For example, a specific skill like a CPR certification; more general, like accounting or web development experience; or as simple as security clearance for a specific building.
 
-A resource can have multiple characteristics. [Create the characteristic](set-up-characteristics.md), map it to a resource, and provide a proficiency rating.
+A resource can have multiple characteristics. [Create the characteristic](set-up-characteristics.md), map it to a resource, and provide a rating level.
   
 1. Open a resource record and select **Related** > **Resource Characteristics**.  
   
@@ -102,7 +102,7 @@ A resource can have multiple characteristics. [Create the characteristic](set-up
   
 1. Select a **Characteristic** from the lookup.
 
-1. (Optional) Select a **Rating Value** for skill proficiency. Depending on the [proficiency model of the characteristic](set-up-characteristics.md#create-a-proficiency-model), it could be a 1-to-10 rating, or even represent the score on a certification exam.
+1. (Optional) Select a **Rating Value** for characteristic rating. Depending on the [rating model of the characteristic](set-up-characteristics.md#create-a-rating-model), it could be a 1-to-10 rating, or even represent the score on a certification exam.
 
 1. Select **Save and Close**.
 
@@ -149,5 +149,10 @@ To enable features like routing, travel estimations, or the map view of the sche
    :::image type="content" source="media/resource-contact-location-example.png" alt-text="Screenshot of geo coding a contact record.":::
 
 1. Confirm geocoding works. Open the **Schedule Board** and verify that the resource appears on the map. Select a resource to highlight their location on the map.
+
+## Related information
+
+- [Show appointments on the schedule board](appointment-scheduling.md)
+- [Submit and approve time-off requests](submit-approve-time-off-requests.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

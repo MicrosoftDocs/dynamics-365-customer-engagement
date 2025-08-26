@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 05/09/2025
+ms.date: 06/20/2025
 ms.custom: bap-template
 ---
 
@@ -28,7 +28,10 @@ The real-time analytics for record routing dashboard is disabled by default. To 
 
 3.  On the **Real-time analytics for record routing** page, switch the **Enable real-time analytics for record routing** toggle to **On**.
 
-:::image type="content" source="../media/csac-record-routing.png" alt-text="Screenshot of the record routing option from the Customer Service admin center":::
+:::image type="content" source="../media/csac-record-routing.png" alt-text="Screenshot of the record routing option from the Copilot Service admin center":::
+
+> [!NOTE]
+> The reports retain their current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the steps provided [here](analytics_overview.md#keep-the-report-state-when-you-switch-session-tabs) to keep the report state.
 
 ## Related information
 

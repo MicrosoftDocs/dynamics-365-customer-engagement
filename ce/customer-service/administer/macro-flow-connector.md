@@ -4,7 +4,7 @@ description: Learn how to use flow connector to create macros.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: concept-article
+ms.topic: conceptual
 ms.collection: 
 ms.date: 05/15/2025
 ms.custom: bap-template 

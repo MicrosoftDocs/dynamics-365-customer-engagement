@@ -52,6 +52,8 @@ Create an app registration with API permission to SharePoint. Learn more about r
 
 ## Server setup prerequisites 
 
+1. Apply update from [Service Update 1.36 for Microsoft Dynamics CRM (on-premises) 9.1 - Microsoft Support](https://support.microsoft.com/en-us/topic/service-update-1-36-for-microsoft-dynamics-crm-on-premises-9-1-c5ff4dd4-1fbd-427e-b35a-3680b79bbe0f)
+
 1. Download the NuGet package for assembly "Microsoft.Identity.Client" version 4.11.0.
    1. Open https://www.nuget.org/packages/Microsoft.Identity.Client/4.11.0#readme-body-tab
    1. Under **About**, select **Download package**
@@ -79,54 +81,155 @@ Create an app registration with API permission to SharePoint. Learn more about r
 1. Open **SQL Server Management Studio** and copy in this SQL script.
 
 ```SQL
+-- Set transaction isolation level to READ UNCOMMITTED.
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+ 
+--Customer need to provide the AAD app id that is to be used for authentication to SharePoint online.
+DECLARE @byoaAppId NVARCHAR(36) = '<appId>';
+--Customer need to provide the tenant id for SharePoint online.
+DECLARE @tenantId NVARCHAR(36) = '<tenantId>';
+ 
+-- Validate required parameters
+IF ((@byoaAppId IS NULL OR TRY_CONVERT(UNIQUEIDENTIFIER, @byoaAppId) IS NULL)
+    OR (@tenantId IS NULL OR TRY_CONVERT(UNIQUEIDENTIFIER, @tenantId) IS NULL))
+        THROW 51001, 'Both Customer AAD App ID and Tenant ID must be provided and valid UNIQUEIDENTIFIERs.', 1;
+ 
+SET @byoaAppId = CONVERT(UNIQUEIDENTIFIER, @byoaAppId);
+SET @tenantId = CONVERT(UNIQUEIDENTIFIER, @tenantId);
+ 
 IF (SELECT COUNT(*)
-FROM OrganizationBase WITH (NOLOCK)) <> 1
-	THROW 51000, 'Organization records does not equal 1', 1
+    FROM OrganizationBase) <> 1
+      THROW 51000, 'Organization records does not equal 1', 1
  
 DECLARE @organizationId UNIQUEIDENTIFIER  = (SELECT OrganizationId
-FROM OrganizationBase WITH (NOLOCK));
+                                             FROM OrganizationBase);
 DECLARE @utcNow DATETIME = GetUtcDate();
-DECLARE @principalId UNIQUEIDENTIFIER = '00000003-0000-0ff1-ce00-000000000000';
+DECLARE @sharePointOnlinePrincipalId UNIQUEIDENTIFIER = '00000003-0000-0ff1-ce00-000000000000';
+DECLARE @sharePointOnlineAppId UNIQUEIDENTIFIER = '38616d01-8e81-42dd-82fb-b68f2cecac3a';
 DECLARE @applicationName NVARCHAR(100) = 'Microsoft SharePoint Online';
-DECLARE @byoaAppId UNIQUEIDENTIFIER = '<appId>';
---Customer need to provide the app id.
-DECLARE @tenantId UNIQUEIDENTIFIER = '<tenantId';
  
-BEGIN TRANSACTION InsertRows
+BEGIN TRY
+    BEGIN TRANSACTION InsertRows;
  
-INSERT INTO [dbo].[PartnerApplicationBase]
-	([PrincipalId]
-	,[StateCode]
-	,[Name]
-	,[UseAuthorizationServer]
-	,[PartnerApplicationId]
-	,[StatusCode]
-	,[ApplicationRole]
-	,[OrganizationId]
-	,[CreatedOn]
-	,[ModifiedOn]
-	,[TenantId])
-VALUES
-	(@principalId
-	, 0
-	, @applicationName
-	, 1
-	, @byoaAppId
-	, 1
-	, 1
-	, @organizationId
-	, @utcNow
-	, @utcNow
-	, @tenantId)
+    -- Handle Microsoft-provided SharePoint Online app
+    -- Check current state of Microsoft SharePoint Online record
+    DECLARE @microsoftAppExists BIT = 0;
+    DECLARE @microsoftAppNeedsUpdate BIT = 0;
  
-COMMIT TRANSACTION InsertRows
+    SELECT @microsoftAppExists = 1,
+           @microsoftAppNeedsUpdate = CASE 
+                 WHEN TenantId IS NULL OR TenantId <> @tenantId THEN 1 
+                 ELSE 0 
+                 END
+    FROM PartnerApplicationBase
+    WHERE PrincipalId = @sharePointOnlinePrincipalId
+         AND OrganizationId = @organizationId
+         AND Name = @applicationName
+         AND PartnerApplicationId = @sharePointOnlineAppId;
+ 
+    IF @microsoftAppExists = 1 AND @microsoftAppNeedsUpdate = 1
+    BEGIN
+        -- Update existing Microsoft record with correct TenantId
+        UPDATE PartnerApplicationBase
+        SET TenantId = @tenantId,
+            ModifiedOn = @utcNow
+        WHERE PrincipalId = @sharePointOnlinePrincipalId
+              AND OrganizationId = @organizationId
+              AND Name = @applicationName
+              AND PartnerApplicationId = @sharePointOnlineAppId;
+    END
+    ELSE IF @microsoftAppExists = 1
+    BEGIN
+        SELECT 'Partner Application record already exists and is correct for Microsoft SharePoint Online with app ID ' + CAST(@sharePointOnlineAppId AS NVARCHAR(36)) AS Message;
+    END
+    ELSE
+    BEGIN
+        -- Insert new Microsoft record
+        INSERT INTO [dbo].[PartnerApplicationBase]
+           ([PrincipalId], [StateCode], [Name], [UseAuthorizationServer], [PartnerApplicationId],
+           [StatusCode], [ApplicationRole], [Organizationid], [CreatedOn], [ModifiedOn], [TenantId])
+        VALUES
+           (@sharePointOnlinePrincipalId, 0, @applicationName, 1, @sharePointOnlineAppId,
+            1, 1, @organizationId, @utcNow, @utcNow, @tenantId);
+    END
+ 
+    -- Handle customer-provided AAD app
+    IF NOT EXISTS (
+        SELECT 1
+        FROM PartnerApplicationBase
+        WHERE PrincipalId = @sharePointOnlinePrincipalId
+              AND OrganizationId = @organizationId
+              AND Name = @applicationName
+              AND PartnerApplicationId = @byoaAppId)
+    BEGIN
+        -- Insert customer AAD app record
+        INSERT INTO [dbo].[PartnerApplicationBase]
+           ([PrincipalId], [StateCode], [Name], [UseAuthorizationServer], [PartnerApplicationId],
+           [StatusCode], [ApplicationRole], [Organizationid], [CreatedOn], [ModifiedOn], [TenantId])
+        VALUES
+           (@sharePointOnlinePrincipalId, 0, @applicationName, 1, @byoaAppId,
+            1, 1, @organizationId, @utcNow, @utcNow, @tenantId);
+    END
+    ELSE
+    BEGIN
+        SELECT 'Partner Application record already exists for Microsoft SharePoint Online with app ID ' + CAST(@byoaAppId AS NVARCHAR(36)) AS Message;
+    END
+ 
+    COMMIT TRANSACTION InsertRows;
+END TRY
+BEGIN CATCH
+    IF @@TRANCOUNT > 0
+        ROLLBACK TRANSACTION InsertRows;
+ 
+    -- Log error details for script-level errors
+    SELECT
+    ERROR_NUMBER() AS ErrorNumber,
+    ERROR_SEVERITY() AS ErrorSeverity,
+    ERROR_STATE() AS ErrorState,
+    ERROR_LINE() AS ErrorLine;
+END CATCH
 ```
 
-1. In the script, update the **@byoaAppId** and **@tenantId** variables with the **Application ID** and **Tenant ID** values you copied earlier from the Microsoft Azure portal in the [Create an Azure application with SharePoint permissions](#create-an-azure-application-with-sharepoint-permissions) section of this article.
+2. In the script, update the **@byoaAppId** and **@tenantId** variables with the **Application ID** and **Tenant ID** values you copied earlier from the Microsoft Azure portal in the [Create an Azure application with SharePoint permissions](#create-an-azure-application-with-sharepoint-permissions) section of this article.
 
-1. Verify the database and then execute the script.
+3. Verify the database and then execute the script.
 
-1. Confirm by running the select query `SELECT *  FROM [PartnerApplicationBase]`and verifying the **PartnerApplicationId** and **TenantId** fields.
+4. Confirm by running the select query `SELECT *  FROM [PartnerApplicationBase]`and verifying the **PartnerApplicationId** and **TenantId** fields.
+
+## Add the server-to-server certificate to the local certificate store and Customer Engagement (on-premises) configuration database
+
+1. Open a PowerShell command session on all servers where the Dynamics 365 Server Full Server role is installed. 
+
+   > [!IMPORTANT]
+   > If you have a server role deployment, you must run the command described here on all Dynamics 365 servers where the Web Application Server role is running.
+
+2. Change your location to the \<*drive*\>:\\Program Files\\Microsoft Dynamics CRM\\Tools folder.
+
+3. Run the CertificateReconfiguration.ps1 Windows PowerShell script as explained here:
+
+   - **certificateFile** *path\\Personalcertfile.pfx* . Required parameter that specifies the full path to the personal information exchange file (.pfx). More information: Working with digital certificates
+    
+   - **password** *personal\_certfile\_password*. Required parameter that specifies the private certificate password.
+    
+   - **certificateType S2STokenIssuer**. Required parameter that specifies the type of certificate. For Customer Engagement (on-premises) and SharePoint server-based integration, only **S2STokenIssuer** is supported.
+    
+   - **serviceAccount** '*DomainName\\UserName*' or 'Network Service'. Required parameter that specifies the identity for the Web Application Server role. The identity is either a domain user account, such as *contoso\\CRMWebAppServer*, or Network Service. The identity will be granted permission to the certificate.
+
+   - **updateCrm**. Adds the certificate information to the Microsoft Customer Engagement (on-premises) configuration database.
+
+    > [!IMPORTANT]
+    > Even if you have multiple Web Application Server or Asynchronous Service roles deployed, you only need to run the command with the `updateCrm` parameter once.
+
+   - **storeFindType FindBySubjectDistinguishedName**. Specifies the type of certificate store. By default, this value is `FindBySubjectDistinguishedName` and is recommended when you run the script.
+
+   > [!IMPORTANT]
+   > Although the `updateCrm` and `StoreFindType` parameters are optional to run the command, these parameters are required for server-based SharePoint integration so that certificate information is added to the certification database.
+
+   Example:
+
+   ``` powershell
+   .\CertificateReconfiguration.ps1 -certificateFile c:\Personalcertfile.pfx -password personal_certfile_password -updateCrm -certificateType S2STokenIssuer -serviceAccount Domain\UserName -storeFindType FindBySubjectDistinguishedName
+   ```
 
 ## Upload certificate in Azure app certificates
 
@@ -173,6 +276,27 @@ finally {
 } 
 ```
 
+If the PowerShell script returns "No certificate found with CertificateType 'S2STokenIssuer'.", then 
+
+1. Find the CRM server with the deployment tools role
+1. Log on using a CRM deployment administrator
+1. Replace **@crmCertFile** with the full path certificate file and run the PowerShell script as an administrator
+   
+   ```PowerShell
+   add-pssnapin microsoft.crm.powershell
+   
+   $CrmCertificate = "@crmCertFile" 
+
+   Params = @{
+       CertificateType = S2STokenIssuer
+       StoreName = My
+       StoreLocation = LocalMachine
+       StoreFindType = FindBySubjectDistinguishedName
+       DataFile = $CrmCertificate
+   }
+   Set-CrmCertificate @Params
+   ```
+      
 ## Upload the existing certificate to Azure application certificates 
 
 1. Open a web browser and go to the Azure portal for the Azure AD app that was created in the first section.

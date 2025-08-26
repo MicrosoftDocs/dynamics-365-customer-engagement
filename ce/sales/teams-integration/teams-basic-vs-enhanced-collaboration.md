@@ -1,7 +1,7 @@
 ---
 title: "Basic vs Enhanced Collaboration in Microsoft Teams"
 description: "Learn about the differences between Basic and Enhanced Collaboration in Microsoft Teams, including the permissions, connection setups, and more."
-ms.date: 08/09/2022
+ms.date: 06/24/2025
 ms.topic: concept-article
 author: sbmjais
 ms.author: shjais

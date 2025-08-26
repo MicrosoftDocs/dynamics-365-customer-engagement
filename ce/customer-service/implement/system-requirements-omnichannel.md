@@ -5,7 +5,7 @@ ms.date: 04/07/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.topic: concept-article
+ms.topic: conceptual
 ms.collection:
 ms.custom: bap-template
 ---
@@ -131,7 +131,7 @@ The Government community cloud links that should be made accessible are as follo
 ### Related information
 
 [Introduction to Omnichannel for Customer Service](introduction-omnichannel.md)  
-[Get started with Customer Service admin center](cs-admin-center.md)  
+[Get started with Copilot Service admin center](cs-admin-center.md)  
 [Agents using Unified Service Desk](../../unified-service-desk/oc-usd/omnichannel-agent.md)  
 [Agents using Omnichannel for Customer Service](../use/omnichannel-customer-service-app-agent.md)  
 [Best practices for setting up the voice channel](voice-channel-best-practices.md)  

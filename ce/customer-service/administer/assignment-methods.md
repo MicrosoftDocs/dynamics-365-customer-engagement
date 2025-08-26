@@ -1,8 +1,8 @@
 ---
 title: Assignment methods for queues
 description: Learn about the different assignment methods for queues and how you can use them in unified routing.
-ms.date: 06/03/2025
-ms.topic: concept-article
+ms.date: 07/18/2025
+ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -237,7 +237,7 @@ The assignment rules are composed of the following items:
 
   - **Ordering Attributes**:
 
-    - **Least active**: Is available for voice queues only. The work item is routed to the representative who is least active among all the representatives who match skills, presence, and capacity. Learn more in the [Types of assignment methods](#types-of-assignment-methods) section.
+    - **Least active**: Is available for voice and messaging queues only. The work item is routed to the least active representative who matches the required skills, presence, and capacity. Learn more in the [Types of assignment methods](#types-of-assignment-methods) section.
     - Round robin
     - Unit-based available capacity
     - Profile-based available capacity

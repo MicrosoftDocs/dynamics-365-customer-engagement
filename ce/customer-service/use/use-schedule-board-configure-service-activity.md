@@ -1,7 +1,7 @@
 ---
 title: Use the schedule board to configure service activity (Dynamics 365 Customer Service)
 description: Learn how to schedule a service activity using the schedule board in Dynamics 365 Customer Service.
-ms.date: 07/08/2024
+ms.date: 06/30/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -30,7 +30,7 @@ The schedule board is designed to lay the foundation for new capabilities for mu
 
 ### Performance
 
-The schedule board is designed for fast response e when you do the following tasks: 
+The schedule board is designed for fast response when you do the following tasks: 
 
 - Load the schedule board
 - Select schedule board tabs
@@ -41,14 +41,14 @@ The schedule board is designed for fast response e when you do the following tas
 
 ### Usability and accessibility
 
-The schedule board is a Power Apps Component Framework (PCF) control built on the Unified Client Interface, making it more flexible, supportable, and accessible. The new schedule board works better on different screen sizes and across form factors. 
+The schedule board is a Power Apps Component Framework (PCF) control that's built on the Unified Client Interface, which helps make it more flexible, supportable, and accessible. The schedule board is designed to work on different screen sizes and across form factors. 
 
-Current color schemes and ways of depicting travel time help make it easier for schedulers to see statuses and details.
+Current color schemes and ways of depicting travel time are intended to help make it easier for schedulers to see statuses and details.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an outlined "ghost booking" to preview a schedule on the schedule board.](../media/schedule-board-new-drag.png "View of outlined booking to preview schedule")
 
-For example, the preceding screenshot shows a "ghost booking" feature that helps schedulers know if a booking fits into a schedule before the booking is even scheduled.
+For example, the preceding screenshot shows a "ghost booking" feature that helps schedulers know if a booking fits into a schedule before the booking is scheduled.
 
 ### Foundation for new capabilities
 
@@ -74,7 +74,7 @@ Choose which resources should display on each schedule board tab.
 
 ## Resource cards
 
-Right-click a resource's name and then choose **View Resource Card** to see more, like the resource's skill set (characteristics) and roles. From here, you can also initiate a message, email, or phone call.
+Right-click a resource's name and then select **View Resource Card** to see more options, like the resource's skill set (characteristics) and roles. From here, you can also initiate a message, email, or phone call.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a resource card on the Customer Service schedule board.](../media/schedule-board-new-resource-card.png "Resource card view on schedule board")
@@ -114,7 +114,7 @@ You can also drag the resource route to a nearby unscheduled requirement to sche
 
 ## Daily view
 
-The schedule board supports a daily view of scheduled jobs, and supports dragging-and-dropping to the schedule.
+The schedule board supports a daily view of scheduled jobs, and supports dragging and dropping jobs to the schedule.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the daily schedule view on the new schedule board.](../media/scheduling-new-daily-view-schedule1.png "View of daily schedule on board")
@@ -216,8 +216,6 @@ For information on how to configure and use appointment scheduling, see [Include
 
 - The new schedule board is currently supported on Microsoft Edge, Chrome, and Firefox browsers.
 
-
-
 ### Add new schedule board to custom sitemap area
 
 When using a custom sitemap or an app module, you need to update the sitemap to consume the new schedule board preview.
@@ -252,7 +250,7 @@ The following snippet is what it looks like after:
 
 ### Uninstall the schedule board
 
-To uninstall the schedule board solution ("Resource Scheduling Controls"), perform the following steps.
+To uninstall the schedule board solution ("Resource Scheduling Controls"), complete the following steps.
 
 1. Go to the **Schedule Board Settings** entity customization form.
 2. Remove the new schedule board preview control from the grid.

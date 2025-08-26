@@ -1,7 +1,8 @@
 ---
 title: Configure AI topic clustering for conversations
-description: Configure topic cLustering for conversations using AI.
-ms.date: 02/06/2025
+description: Configure topic clustering for conversations using AI.
+ms.date: 06/23/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -11,12 +12,12 @@ ms.collection: bap-ai-copilot
 
 # Configure AI topic clustering for conversations
 
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
-
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
+> [!NOTE]
+> Starting June 20, 2025, the legacy AI topic clustering for conversation topics in Dynamics 365 Customer Service and Dynamics 365 Contact Center is deprecated and will reach the end of support. After August 31, 2025, this feature will be removed, and users won't be able to use it in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
 
 Customer Service Insights uses AI to give you insights into your customer service data by grouping semantically related conversations and generating a topic. New incoming conversations that match this topic are automatically added to the topic group. This can help you identify areas for improvement that impact system performance.
 

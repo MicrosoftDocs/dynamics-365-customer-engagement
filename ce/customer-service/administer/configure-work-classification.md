@@ -138,13 +138,6 @@ Do the following to configure a machine learning-based ruleset:
 
 You can create rules that are based on the sentiment prediction model to classify work items. Learn more in [Use sentiment prediction](use-sentiment-prediction-for-routing.md).
 
-## Create rulesets based on effort estimation model (preview)
-
-> [!IMPORTANT]
-> This section is pre-release documentation and is subject to change.
-
-You can create rules that are based on the effort estimation model to classify work items. Learn more in [Use effort estimation](use-effort-estimation-for-routing.md).
-
 ## Options available for rulesets
 
 After you create the rules, you can change the order in which the rules should be evaluated, search for rules, and view the condition that's been used for each rule by hovering the mouse over the condition. You can also create copies of the rules and update only the necessary information to avoid writing the conditions from scratch. You can hover the mouse over a condition to view it without having to navigate to each condition.

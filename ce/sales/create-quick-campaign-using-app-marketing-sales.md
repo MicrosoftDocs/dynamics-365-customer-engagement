@@ -2,6 +2,7 @@
 title: Create a quick campaign using in-app marketing
 description: A quick campaign is a single campaign activity meant for a specific audience. For example, sending an e-mail blast to customers in a specific region.
 ms.date: 05/28/2025
+ms.update-cycle: 1095-days
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

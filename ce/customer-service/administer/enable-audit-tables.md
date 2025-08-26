@@ -11,7 +11,7 @@ ms.custom: bap-template
 ai.usage: ai-assisted
 ---
 
-# Search Customer Service admin logs in Microsoft Purview
+# Search Copilot Service admin logs in Microsoft Purview
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 

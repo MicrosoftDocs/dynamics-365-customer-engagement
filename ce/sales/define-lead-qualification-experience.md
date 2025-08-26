@@ -47,7 +47,7 @@ The legacy experience only lets you choose whether to automatically create accou
         - [Customize opportunity creation experience for qualified leads](#customize-opportunity-creation-experience-for-qualified-leads)
         - [Enable lead summarization](#summarize-the-lead-after-its-qualified)
     
-      :::image type="content" source="media/lead-qualify-settings.png" alt-text="Screenshot of the Lead qualification settings page.":::
+      :::image type="content" source="media/new-lead-qualification.png" alt-text="Screenshot of the Lead qualification settings page.":::
 
       Turn it off to use the legacy experience.
 
@@ -70,6 +70,8 @@ In either case, if there's a matching record in the system, the duplicate detect
 ### Customize opportunity creation experience for qualified leads
 
 The following options are available only when you select **Seller** for Opportunity creation in the [new Lead qualification experience](#how-to-customize-the-lead-qualification-experience):
+
+:::image type="content" source="media/lead-qualify-settings.png" alt-text="Screenshot of the Lead qualification settings for opportunity creation.":::
 
 - Under **Modify opportunity form**, select **Add or remove fields** to customize the opportunity form that opens when a lead is qualified. The Quick create form opens in Power Apps for editing. You can add or remove fields, change the order of fields, or change the properties of fields. For more information, see [Add, move, configure, or delete columns on a form](/power-apps/maker/model-driven-apps/add-move-or-delete-fields-on-form).
 

@@ -1,7 +1,7 @@
 ---
 title: Overview of the Copilot Service workspace application for Dynamics 365 Customer Service
 description: Overview of Copilot Service workspace for Dynamics 365 Customer Service.
-ms.date: 05/05/2025
+ms.date: 06/30/2025
 ms.topic: overview
 author: gandhamm
 ms.author: mgandham
@@ -117,7 +117,7 @@ Here are a few things to note when you use Copilot Service workspace in your org
 The following limitations apply to Copilot Service workspace:
 - When you switch between tabs or sessions:
   - Subgrid controls don't retain the filter or sort conditions.
-  - Web resources, form components, custom pages, and third-party websites don't retain the state of the page.
+  - Web resources, form components, custom pages, and third-party websites don't retain the state of the page. For example, form components might retain unsaved values for text fields but not for lookup fields.
   - When you change the status record in a tab, the corresponding record that's open in a grid or subgrid of another tab doesn't refresh automatically.
 - Copilot Service workspace isn't supported in mobile devices, Unified Service Desk, Microsoft Teams, and with Dynamics 365 Customer Engagement (on-premises).
 
@@ -125,25 +125,8 @@ The following limitations apply to Copilot Service workspace:
 
 The legacy layout is deprecated and was removed in October 2023.
 
-:::image type="content" source="../media/csw-overview-mini.png" alt-text="Screenshot of the default Customer Service workspace, with items labeled according to the legend in the table" lightbox="../media/csw-overview.png":::
+:::image type="content" source="../media/csw-overview-mini.png" alt-text="Screenshot of the default Copilot Service workspace, with items labeled according to the legend in the table" lightbox="../media/csw-overview.png":::
 
-### Turn on legacy layout (deprecated)
-
-You can enable the legacy layout in one of the following ways:
-
-### [Copilot Service admin center](#tab/copilotserviceadmincenter)
-
- 1. In Copilot Service admin center, select **Miscellaneous** in **Operations**.
- 1. Select **Manage** for **New and upcoming features**.
- 1. Clear the **Multisession Layout improvements** and then select **Save**.
-
-### [Browser developer tools](#tab/broswerdevtools)
-
- 1. With Copilot Service workspace open, press the F12 key to open the developer tools window.
- 1. In the console window, type the following command and press **Enter**. `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultisessionLayoutImprovements",false)`
- 1. Refresh the app page.
-
----
 
 ### Turn off the close session dialog
 
@@ -151,14 +134,6 @@ You can enable the legacy layout in one of the following ways:
 1. In the console window, enter the following command: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_SuppressSessionCloseWarning",true)`
 1. Refresh the app page.
 
-### Turn on legacy navigation (deprecated)
-
-> [!NOTE]
-> The legacy navigation is deprecated and will be removed in a future release.
-
-1. With Copilot Service workspace open, press the F12 key to open the developer tools window.
-1. In the console window, type the following command and press **Enter**: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultisessionNavigationImprovements",false)`
-1. Refresh the app page.
 
 ### Training resources
 

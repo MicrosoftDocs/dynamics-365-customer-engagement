@@ -1,10 +1,10 @@
 ---
 title: Manage analytics for Copilot
-description: Learn how to enable Copilot analytics in the Customer Service admin center.
+description: Learn how to enable Copilot analytics in the Copilot Service admin center.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: concept-article
+ms.topic: conceptual
 ms.collection:
 ms.date: 05/06/2025
 ms.custom: bap-template

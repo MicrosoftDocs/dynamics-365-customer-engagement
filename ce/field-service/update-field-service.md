@@ -1,7 +1,7 @@
 ---
 title: Update apps and solutions
 description: Learn how to upgrade Dynamics 365 Field Service, mobile apps, and related solutions.
-ms.date: 06/28/2024
+ms.date: 08/01/2025
 ms.topic: how-to
 ms.custom: bap-template
 author: jshotts
@@ -61,19 +61,19 @@ It's possible to customize UFX queries. If a UFX query is customized, updates im
 
 ## Resource Scheduling Optimization add-in
 
-The [Resource Scheduling Optimization add-in](rso-overview.md) enables the automated scheduling of work orders, resources, and bookings. Updates are released throughout the year. An administrator has to apply the updates.
+The [Resource Scheduling Optimization add-in](rso-overview.md) lets you automate scheduling of work orders, resources, and bookings. Updates release throughout the year, and an administrator applies them.
 
 You can check for available updates in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). Go to **Resources** > **Dynamics 365 apps**, select **Resource Scheduling Optimization**, and select **Manage**.
 
 In the **RSO Deployment** dialog box, select **Upgrade to new version**.
 
-For more information, see [Manage the Resource Scheduling Optimization instance](rso-deployment.md#manage-the-resource-scheduling-optimization-instance).
+Learn more in [Manage the Resource Scheduling Optimization instance](rso-deployment.md#manage-the-resource-scheduling-optimization-instance).
 
 ## Update model-driven apps
 
-To get the latest updates to controls and other frontend items, you can set the release channel for your environment or app. Microsoft regularly provides new and updated features for your model-driven apps. The release channel defines how quickly updates in Power Apps roll out in your organization.
+To get the latest updates to controls and other frontend items, you can set the release channel for your environment or app. Microsoft regularly provides new and updated features for model-driven apps. The release channel defines how quickly updates in Power Apps roll out in your organization.
 
-For more information, see [Release channels for your model-driven app](/power-apps/maker/model-driven-apps/channel-overview).
+Learn more in [Release channels for your model-driven app](/power-apps/maker/model-driven-apps/channel-overview).
 
 ## Next steps
 

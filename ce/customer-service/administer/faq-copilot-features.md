@@ -1,7 +1,8 @@
 ---
 title: FAQ for copilot features
 description: FAQ for copilot features in Dynamics 365 Customer Service.
-ms.date: 12/24/2024
+ms.date: 06/26/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -34,13 +35,14 @@ The following table describes the availability of Copilot features across apps.
 
 Yes<sup>1</sup>: Available, but configuration is required in Power Apps 
 
+Learn more in [Copilot feature availability across applications](/dynamics365/contact-center/use/copilot-feature-availability).
 
 ## Why does Copilot come back with a different response to the same exact input? 
 
 Copilot's response to the same question can vary due to multiple factors. Copilot is built on a generative AI language models. While measures are in place to minimize response variability, there's a possibility that Copilot might generate slightly different answers. Additionally, in multiturn questions, Copilot considers the previous question's context as input. Therefore, asking Copilot the same question at the start of the session versus in the middle can result in different responses.
 
 ## Can Copilot read tables and images in my knowledge articles?
- At this time, Copilot cannot read tables and images in knowledge articles. 
+ At this time, Copilot can't read tables and images in knowledge articles. 
 
 ## What are the limitations for webpages as sources? 
 

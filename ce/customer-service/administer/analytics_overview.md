@@ -4,9 +4,9 @@ description: Learn how to activate and customize analytics and insights in Custo
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: concept-article
+ms.topic: conceptual
 ms.collection: 
-ms.date: 05/06/2025
+ms.date: 07/16/2025
 ms.custom: bap-template
 ---
 
@@ -29,15 +29,30 @@ Supervisors can access and view these dashboards from the Copilot Service worksp
 
 **Historical**
 
-- [Customer Service historical analytics dashboards](../use/customer-service-analytics-insights-csh.md#customer-service-historical-analytics-reports): Use the performance summary and detailed reports on cases, service representatives, and topics to improve customer service.
+- [Customer Service historical analytics dashboards](../use/customer-service-analytics-insights-csh.md#customer-service-historical-analytics-reports): To help improve customer service, use the performance summary and detailed reports on cases, service representatives, and topics.
 
-- [Omnichannel historical analytics dashboards](../use/omnichannel-analytics-insights.md): Use key performance indicators coupled with AI-generated insights to get a view into the support operations across various channels.
+- [Omnichannel historical analytics dashboards](../use/omnichannel-analytics-insights.md): To get a view into the support operations across various channels, use key performance indicators coupled with AI-generated insights.
 
-- [Knowledge analytics reports](../use/knowledge-search-analytics-cs.md): Use article and search term insights to understand how service representatives use knowledge articles to resolve customer issues.
+- [Knowledge analytics reports](../use/knowledge-search-analytics-cs.md): To understand how service representatives use knowledge articles to resolve customer issues, use article and search term insights.
 
 **Real time**
 
 - [Omnichannel real-time analytics dashboards](../use/intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboard): Monitor key operational metrics in real-time and make course corrections at the appropriate time to help keep service levels high.
+
+- [Real-time analytics for record routing](../use/rr-overview.md#overview-of-real-time-analytics-for-record-routing): Monitor key operational metrics in real-time for record routing to enhance agent performance and customer support.
+
+### Keep the report state when you switch session tabs
+
+The reports retain their current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the following steps to retain the report state.
+
+1. On the Copilot Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**. This navigation takes you to Power Apps.
+1. In **Pages**, from **Navigation**, select the required report view. Here's an example. Select **Omnichannel real-time analytics view**.
+1. From **Omnichannel real-time analytics**, go to **Settings** > **Display options**.
+1. In **Display options**, from the **Content type** dropdown list, select **Table**.
+1. From the **Table** dropdown list, select **Omnichannel Realtime analytics**.
+1. Select **Save and Publish**.
+
+After you finish these steps for a specific report, the state remains the same when you reopen the report.
 
 ## Customize features
 

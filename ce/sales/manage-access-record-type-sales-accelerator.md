@@ -1,7 +1,7 @@
 ---
 title: Manage access and record types for sales accelerator
 description: Manage security roles, sample data, and record types for the Dynamics 365 sales accelerator.
-ms.date: 06/17/2024
+ms.date: 07/30/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag

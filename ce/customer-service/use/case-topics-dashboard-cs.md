@@ -1,7 +1,8 @@
 ---
 title: Topics dashboard
 description: Learn about the Topics dashboard insights to better understand agent performance in your organization.
-ms.date: 05/23/2025
+ms.date: 06/30/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -33,13 +34,13 @@ To view the Topics dashboard, go to Customer Service historical analytics and se
 
 ### Access the Topics dashboard
 
-In the Copilot Service workspace app, do one of the following to view the dashboard:
+1. In the Copilot Service workspace app, do one of the following to view the dashboard:
 
-- In the default view, select the plus (+) icon, and then select **Customer Service historical analytics**.
+   - In the default view, select the plus (+) icon, and then select **Customer Service historical analytics**.
 
-- If the enhanced multisession workspace view is enabled, select the site map and then select **Customer Service historical analytics**.
+   - If the enhanced multisession workspace view is enabled, select the site map and then select **Customer Service historical analytics**.
 
-On the page that appears, select the dashboard.
+2. On the page that appears, select the dashboard.
 
 ## Key insights card
 

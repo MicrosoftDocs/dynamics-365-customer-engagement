@@ -1,7 +1,7 @@
 ---
 title: Create customized IoT solutions in Connected Customer Service
 description: Understand how to create customized IoT solutions in Connected Customer Service for Azure IoT Central.
-ms.date: 09/18/2024
+ms.date: 06/17/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -142,7 +142,7 @@ You can also manage devices by categorizing them. For example, you can categoriz
   
 ### Create a new IoT device category  
   
-1. In the site map of Customer Service admin center, go to **Operations**, and then select **Miscellaneous**.
+1. In the site map of Copilot Service admin center, go to **Operations**, and then select **Miscellaneous**.
 
 1. In the **Device Categories** section, select **Manage**. The **Active IoT Device Categories** view displays. You can switch between various system views using the dropdown list.  
 
