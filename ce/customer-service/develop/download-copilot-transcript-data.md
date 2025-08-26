@@ -88,7 +88,7 @@ OData-Version: 4.0
 
 ## Get msdyn_copilotinteractionid from copilot event records
 
-Before you do actions such as download a transcript or view verbatim feedback, you must retrieve the values of `msdyn_copilotinteractionid` from `msdyn_copilotevents` table. You can use the following Web API call to obtain the interaction ID in the `msdyn_copilotinteractionid` field.
+Before you download a transcript or view verbatim feedback, you must retrieve the values of `msdyn_copilotinteractionid` from `msdyn_copilotevents` table. You can use the following Web API call to obtain the interaction ID in the `msdyn_copilotinteractionid` field.
 
 ```http
 [Organization URI]/api/data/v9.2/msdyn_copilotevents
