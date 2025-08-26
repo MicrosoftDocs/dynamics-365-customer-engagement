@@ -1,7 +1,7 @@
 ---
 title: Bot dashboard
 description: Learn about the bot dashboard in historical analytics to better understand customer service representative performance in your organization.
-ms.date: 07/02/2025
+ms.date: 08/26/2025
 ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
