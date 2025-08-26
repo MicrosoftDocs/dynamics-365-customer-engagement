@@ -1,7 +1,7 @@
 ---
 title: Agent dashboard
 description: Learn about the Agent dashboard insights to better understand customer service representative performance in your organization.
-ms.date: 08/25/2025
+ms.date: 08/26/2025
 ms.topic: concept-article
 author: lalexms
 ms.author: laalexan

@@ -1,7 +1,7 @@
 ---
 title: Summary dashboard
 description: Learn about the Summary dashboard insights overview to better understand your organization's customer service experience.
-ms.date: 08/25/2025
+ms.date: 08/26/2025
 ms.update-cycle: 180-days
 ms.topic: concept-article
 author: lalexms
