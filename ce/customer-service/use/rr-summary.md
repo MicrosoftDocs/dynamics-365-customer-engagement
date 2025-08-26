@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 08/25/2025
+ms.date: 08/26/2025
 ms.custom: bap-template
 ---
 
@@ -18,7 +18,7 @@ The Summary report provides a summary of cases and records over time, by workstr
 
 By editing the visual display, you can add metrics to the ones already shown on the Summary report. Learn more in [Customize visual display](customize-reports.md#customize-visual-display).
 
-:::image type="content" source="../media/record-routing-summary.jpg" alt-text="Screenshot of Summary report":::
+:::image type="content" source="../media/record-routing-summary.png" alt-text="Screenshot of Summary report":::
 
 
 |KPIs| Description  |
