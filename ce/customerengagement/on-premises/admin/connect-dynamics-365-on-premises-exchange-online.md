@@ -15,6 +15,31 @@ author: rahulmital
 ---
 # Connect Customer Engagement (on-premises) to Exchange Online
 
+> [!WARNING]
+> If you have previously configured this functionality, or are currently configuring it with your Dynamics On-Premise deployment, this is important.
+>
+> This configuration uses the EWS protocol to communicate with Exchange Online which is going to be removed from Microsoft Exchange Online in October 2026.
+>
+> https://learn.microsoft.com/exchange/clients-and-mobile-in-exchange-online/deprecation-of-ews-exchange-online
+>
+> Using this feature requires manual onboarding today. Starting in October 2025, no new tenants will be onboarded to this feature.
+>
+> Below are the dates this integration will be fully decommissioned:
+>
+> On Prem Version 8x (deprecated): January 2026
+> 
+> On Prem Version 9x: October 2026
+>
+> What are my options if I need Server Side Sync functionality after October 2026?
+>
+> Please migrate to Dynamics 365 Online.
+>
+> https://learn.microsoft.com/dynamics365/guidance/fasttrack/migration
+>
+> https://learn.microsoft.com/dynamics365/guidance/migrate/opol-crm-migration-high-level-overview
+
+
+
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
 ::: moniker-end
