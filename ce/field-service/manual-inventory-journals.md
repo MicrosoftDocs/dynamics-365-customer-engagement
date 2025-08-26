@@ -47,7 +47,7 @@ You can view existing inventory journals in Power Apps.
 ## Create a manual inventory journal
 
 1. From the **Inventory Journal** table, select **Edit**.
-1. If the grid doesn't include the **Transaction Type** column, select **More** next to the column headings to show existing columns. Then add it.
+1. If the grid doesn't include the **Transaction Type** and **Unit** columns, select **More** next to the column headings to show existing columns. Then add them.
 1. Select **New row**.
 
     :::image type="content" source="media/inventory-create-manual-journal.svg" alt-text="Screenshot of a new row in the Inventory Journal table in Power Apps.":::
