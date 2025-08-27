@@ -20,7 +20,7 @@ author: DerekBraunMSFT
 >
 > Using this feature requires a manual connection process. Starting in October 2025, no new tenants will be connected to this feature.
 >
-> This integration will be removed:
+> This integration will be removed in the following months:
 >
 > - On-premises 8.0 versions (which are now deprecated): January 2026
 > - On-premises 9.0 versions: October 2026
