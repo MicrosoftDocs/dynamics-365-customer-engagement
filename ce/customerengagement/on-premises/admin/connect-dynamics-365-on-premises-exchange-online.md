@@ -10,8 +10,8 @@ applies_to:
   - Dynamics 365 (on-premises)
 ms.assetid: 5622050b-a0e8-40ca-9ed5-fc082d5212a8
 caps.latest.revision: 61
-ms.author: rahulmital 
-author: rahulmital
+ms.author: debrau 
+author: DerekBraunMSFT 
 ---
 # Connect Customer Engagement (on-premises) to Exchange Online
 
