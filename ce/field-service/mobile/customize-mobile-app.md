@@ -1,7 +1,7 @@
 ---
 title: Customize the Field Service mobile app
 description: Learn how to customize the Field Service mobile experience.
-ms.date: 08/07/2025
+ms.date: 08/26/2025
 ms.topic: how-to
 author: JonBaker007
 ms.author: jobaker
@@ -20,6 +20,7 @@ You can customize the mobile app in various ways including: editing the navigati
 - [Edit the booking and work order form](/dynamics365/guidance/resources/field-service-mobile-change-work-order-booking-form)
 - [Edit the navigation and views](/dynamics365/guidance/resources/field-service-mobile-edit-navigation-views)
 - [Optimize performance](/dynamics365/guidance/resources/field-service-mobile-improve-performance)
+- [Show more data and hide the row icon](/dynamics365/guidance/resources/field-service-mobile-expand-grid-control)
 - [Use deep links](/dynamics365/guidance/resources/field-service-mobile-use-deep-links)
 - [Use Power Apps to configure the mobile app](/dynamics365/guidance/resources/field-service-mobile-customize-powerapps)
 - [Vendor self-service for technician management](/dynamics365/guidance/resources/field-service-vendor-self-service-technician-management)
