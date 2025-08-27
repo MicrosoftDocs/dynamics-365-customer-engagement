@@ -132,7 +132,7 @@ In our second scenario, an organization wants to offer a customer free work orde
 
 1. [Create a work order](create-work-order.md) that matches the entitlement for the second scenario. On the **General** tab, the billing account on the work order matches the primary customer on the entitlement. The selected incident type lists an asset that belongs to the "Heating, Venting, and Air Conditioning" category.
 
-   :::image type="content" source="media/entitlement-work-order-scenario2.png" alt-text="Screenshot of a work order for the billing account and a customer asset the same as the entitlement." lightbox="media/entitlement-work-order2.png":::
+   :::image type="content" source="media/entitlement-work-order-scenario2.png" alt-text="Screenshot of a work order for the billing account and a customer asset the same as the entitlement." lightbox="media/entitlement-work-order-scenario2.png":::
 
 1. Open the product on the work order and scroll to the **Other** section. Make sure the correct entitlement is applied to the work order products.
 
