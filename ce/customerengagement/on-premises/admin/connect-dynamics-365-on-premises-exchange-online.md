@@ -20,14 +20,12 @@ author: DerekBraunMSFT
 >
 > Using this feature requires a manual connection process. Starting in October 2025, no new tenants will be connected to this feature.
 >
-> Below are the dates this integration will be fully decommissioned:
+> This integration will be removed:
 >
-> On-premises Version 8x (deprecated): January 2026
-> 
-> On-premises Version 9x: October 2026
+> - On-premises 8.0 versions (which are now deprecated): January 2026
+> - On-premises 9.0 versions: October 2026
 >
 > If you need server-side syncromization functionality, we recommend that you migrate to Dynamics 365 Online. Learn more in [Dynamics CRM (on-premises) to Dynamics 365 migration](/dynamics365/guidance/fasttrack/migration) and [Dynamics CRM (on-premises) to Dynamics 365 online migration process overview](/dynamics365/guidance/migrate/opol-crm-migration-high-level-overview).
->
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
