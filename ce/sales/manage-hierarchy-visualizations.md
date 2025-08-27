@@ -47,4 +47,4 @@ Follow these steps:
 
 ## Related information
 
-- [Create and publish a hierarchy visualization](create-activate-hierarchy-visualizations.md)  
+[Create and publish a hierarchy visualization](create-activate-hierarchy-visualizations.md)  
