@@ -324,7 +324,7 @@ items:
             items:
               - name: Overview of hierarchy visualization
                 href: hierarchy-visualization.md
-              - name: Create and activate a hierarchy visualization chart
+              - name: Create and activate a hierarchy visualization
                 href: create-activate-hierarchy-visualizations.md
               - name: Manage hierarchy visualization
                 href: manage-hierarchy-visualizations.md
