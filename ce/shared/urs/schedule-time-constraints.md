@@ -1,4 +1,4 @@
-When [scheduling an entity enabled for scheduling](schedule-new-entity.md), set date and time parameters to control when to book the requirement.
+When [scheduling an entity enabled for scheduling](../../common-scheduler/schedule-new-entity.md), set date and time parameters to control when to book the requirement.
 
 The time parameter fields **Time From/To Promised** and **Time Window Start/End** are available on the resource requirement entity. Use these fields when scheduling entities other than work orders.
 
