@@ -127,6 +127,8 @@
           href: calculate-conversation-metrics.md
         - name: Calculate session metrics
           href: calculate-session-metrics.md
+        - name: Calculate representative metrics
+          href: calculate-csr-metrics.md
       - name: Extend Customer Service
         items: 
         - name: Extend Omnichannel for Customer Service
