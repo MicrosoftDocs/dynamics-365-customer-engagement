@@ -105,8 +105,8 @@ In the **Work distribution** area of a workstream, you can either accept the def
   - **Profile based**: Specify a profile in the list if your administrator configured profile-based capacity.
 - **Block capacity for wrap up**: 
   - **Always block**: Is the default selection. The representative capacity is consumed until the representative or supervisor closes the conversation or the system closes them automatically based on the configured time. Learn more in [Close conversations automatically](auto-close-conversation-powerapps.md#default-time-for-automatic-closure-of-conversations).
-  - **Custom time**: The **Custom time in minutes** box is enabled where you can select a duration starting from 30 seconds to 60 minutes to block capacity. After the specified duration, the system releases the capacity and automatically resets presence.
   - **Don't block**: The representative capacity is released immediately when the conversation moves to the **Wrap-up** state.
+  - **Custom time**: Additional fields are enabled where you can select a duration starting from 30 seconds to 60 minutes to block capacity. At runtime, after the specified duration elapses, the system releases the capacity and automatically resets presence.
   
   > [!NOTE]
   > If you selected **End of Day mode** in capacity profile, representative capacity isn't reset when the duration selected in **Block capacity for wrap up** is over.

@@ -13,7 +13,6 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-
 This article explains the various states and status reasons of the conversation (work item) in Omnichannel for Customer Service.
 
 The conversation can be in an open or closed state, and can have the following status reasons:
@@ -29,7 +28,7 @@ The conversation can be in an open or closed state, and can have the following s
  *Channel* refers to SMS, voice, social, and Microsoft Teams channels supported in Omnichannel for Customer Service.
 
 > [!NOTE]
-> Additionally, the conversation might have the resolved or scheduled status reason, which is for internal use only.
+> Also, the conversation might have the resolved or scheduled status reason, which is for internal use only.
 
 ## Open
 
@@ -54,13 +53,14 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 |---------------|------------------|---------------------------------------------------------|------------|
 | Active        | Wrap-up          | The representative selects the **End** button on communication panel during the conversation with the customer. <br><br> When customer ends the conversation by selecting the **End** button on the portal chat widget (only for a chat channel). <br><br> When the customer is disconnected from the conversation (applicable only to Live chat channel).| Channel, Chat|
 | Active        | Open             | The representative disconnects the conversation and doesn't reconnect within a specified timeout period. <br><br> When the representative releases the conversation to the queue. <br><br> When the representative transfers the conversation to another queue. <br><br> When the representative closes the session while the conversation is active (applicable only to Live chat channel). | Channel, Chat |
-| Active        | Waiting          | The representative closes the session by using the close (**X**) button (not ending the conversation by selecting the **End** button) while the conversation is active.|  Channel. The status change isn't applicable to Live chat. | 
+| Active        | Waiting          | The representative closes the session by using the close (**X**) button (not ending the conversation by selecting the **End** button) while the conversation is active.|  Channel. The status change isn't applicable to Live chat. |
 | Active | Closed | The representative resolves the case (or get a record to nonactive state) and closes the session. | Record |
 | Active | Closed | The customer disconnects or ends the chat before the conversation is accepted by the representative. Learn more in [Understand disconnected chats](oc-conv-state-chat-disconnect.md). | Chat |
 
 ![Transition from active to closed, open, waiting, wrap-up, or in-progress state.](../media/oc-conversation-active.png "Active state")
 
 For call transfers in the voice channel, the system handles the capacity as follows:
+
 - **Transfer to external number**: The conversation remains in active state and the representative on the external number becomes the new primary representative. The capacity of the original representative is immediately released.
 - **Transfer to internal representative**: The conversation remains in active state, the representative becomes the new primary representative, and the original representative's capacity is immediately released. 
 - **Transfer to queue**: The conversation goes into open state while waiting in the new queue, and the primary representative’s capacity is immediately released.
@@ -69,7 +69,7 @@ For call transfers in the voice channel, the system handles the capacity as foll
 
 The wrap-up state is an intermediate state after the representative ends the conversation and does post-conversation activities, such as taking notes and updating the customer information, before moving the conversation to the **Closed** state. The representative capacity is blocked according to the duration that's specified for the **Block capacity for wrap up** setting in the workstream. 
 
-- **Always block**: The capacity is blocked when the conversation is in the **Wrap-up** state. 
+- **Always block**: The capacity is blocked when the conversation is in the **Wrap-up** state.
 - **Don't block**: The capacity is released when the conversation moves from **Active** to **Wrap-up** state.
 - **Custom time**: Capacity is blocked for the selected duration that can range from 30 seconds to 60 minutes. Learn more in [Configure work distribution](../administer/create-workstreams.md#configure-work-distribution).
 
@@ -111,11 +111,11 @@ The conversations that are completed by ending them or closing the session are c
 
 When service representatives close the conversation using the close (**X**) button on the communication panel or end the conversation using the **End** button, the system handles the two behaviors as follows:
 
-   - **End conversation using the End button**: For all the channels, the system moves the conversation to the wrap-up state where the representative's capacity is handled based on the **Block capacity for wrap-up** setting of the workstream. Learn more in [work distribution settings](../administer/create-workstreams.md).
-   - **End conversation using the End button and then close session window using the close (X) button**: For all the channels, the system closes the conversation. However, if the representative selects the close (**X**) button after the wrap-up tasks, the representative's capacity is handled based on the **Block capacity for wrap-up** setting of the workstream.
-   - **Close conversation using the close (X) button and not the End button**: When the representative uses the close (**X**) button instead of the **End** button, the system handles the conversation as follows:
-       - **Voice and chat channels**: The conversation goes into open state and the system reassigns the conversation to another available service representative.
-       - **Persistent chat and asynchronous channels**: The conversation goes into a waiting state and the representative capacity is immediately released. When the customer comes back, the conversation is resumed again.
+- **End conversation using the End button**: For all the channels, the system moves the conversation to the wrap-up state where the representative's capacity is handled based on the **Block capacity for wrap-up** setting of the workstream. Learn more in [work distribution settings](../administer/create-workstreams.md).
+- **End conversation using the End button and then close session window using the close (X) button**: For all the channels, the system closes the conversation. However, if the representative selects the close (**X**) button after the wrap-up tasks, the representative's capacity is handled based on the **Block capacity for wrap-up** setting of the workstream.
+- **Close conversation using the close (X) button and not the End button**: When the representative uses the close (**X**) button instead of the **End** button, the system handles the conversation as follows:
+  - **Voice and chat channels**: The conversation goes into open state and the system reassigns the conversation to another available service representative.
+  - **Persistent chat and asynchronous channels**: The conversation goes into a waiting state and the representative capacity is immediately released. When the customer comes back, the conversation is resumed again.
 
 Learn about close or end conversation in [Close or end a conversation](oc-conversation-control.md#close-or-end-a-conversation).
 
