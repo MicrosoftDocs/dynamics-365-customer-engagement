@@ -39,7 +39,7 @@ In Copilot Service workspace, as a supervisor, you can view the agent activities
        - Conversation ID
      Details like whether the agent was able to resolve the case, the topics it used to act on the customer issue, and interactions with a record are displayed in the feed.
 
-:::image type="content" source="../media/screenshot-agent-feed.png" alt-text="Screenshot of agent activity feed.":::
+    :::image type="content" source="../media/screenshot-agent-feed.png" alt-text="Screenshot of agent activity feed.":::
 
 You can learn more about the various options in [Supervise agents in model-driven apps with agent feed](/power-apps/user/supervise-agents-with-agent-feed).
 
