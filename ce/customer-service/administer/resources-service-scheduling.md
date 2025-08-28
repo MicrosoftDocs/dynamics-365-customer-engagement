@@ -1,7 +1,7 @@
 ---
 title: Set up resources for Service Scheduling (Dynamics 365 Customer Service)
 description: Know how to create and set up resources for service scheduling in Dynamics 365 Customer Service.
-ms.date: 04/30/2025
+ms.date: 08/28/2025
 ms.update-cycle: 1095-days
 ms.topic: how-to
 author: Soumyasd27
@@ -54,13 +54,16 @@ You can create a new bookable resource in the Copilot Service admin center app o
       - Crew
       - Facility
       - Pool
+     
+    > [!NOTE]
+    > You can't create a bookable resource with the **Equipment** or **Facility** resource type that's already mapped to another bookable resource.
       
    - The field name is automatically populated. Look up for the record. You can also create a new record using the **Quick Create** dialog. 
 
    - Select a **Time Zone**.
 
      > [!NOTE]
-     > If the Resource Type is Facility or Equipment, the time zone is  automatically populated as per the facility’s or equipment’s time zone and it isn't editable.
+     > If the Resource Type is Facility or Equipment, the time zone is automatically populated as per the facility’s or equipment’s time zone and isn't editable.
 
    - Select **Save**. A new resource is created and activated by default.
 
