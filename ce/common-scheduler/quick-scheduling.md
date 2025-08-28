@@ -5,8 +5,8 @@ ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.date: 02/24/2023
 ms.topic: how-to
-author: anilmur
-ms.author: anilmur
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Enable quick book in Universal Resource Scheduling

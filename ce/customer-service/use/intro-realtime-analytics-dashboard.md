@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: overview
 ms.collection:
-ms.date: 08/14/2025
+ms.date: 08/26/2025
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -52,7 +52,7 @@ As a supervisor, you can view the **Omnichannel real-time analytics** dashboard 
 
 ## Access reports
 
-You can view the different reports in the Copilot Service workspace app. In the default view of the application, select **Omnichannel real-time analytics** in **Service**. By default, the **Summary** report is shown. To view the **Ongoing conversation**, **Agents**, and **Voice** reports, select the appropriate tabs.
+You can view the different reports in the Copilot Service workspace app. In the default view of the application, select **Omnichannel real-time analytics** in **Service**. By default, the **Summary** report is shown. To view the **Ongoing conversation**, **Agents**, and **Voice** reports, select the appropriate option from the dropdown.
 
 If you can't view the reports, contact your system administrator. Learn more in [Manage real-time analytics reports](../administer/enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service).
 

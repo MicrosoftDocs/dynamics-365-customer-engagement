@@ -92,6 +92,9 @@ To configure the workstream, make sure you perform the steps to create a workstr
    - [Smart assist bots](../develop/smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
+> [!NOTE]
+> Twilio's link shortening feature isn't supported.
+
 ## Establish a connection between omnichannel application and Twilio
 
 
