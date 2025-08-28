@@ -214,7 +214,7 @@ Total agent work item capacity =SUM( FactAgentCapacityProfile[AgentDefaultMaxPro
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | - [msdyn_agentcapacityprofileunit](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit <br> - [msdyn_capacityprofile](/dynamics365/developer/reference/entities/msdyn_capacityprofile)|
+|Dataverse entities | - [msdyn_agentcapacityprofileunit](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit) <br> - [msdyn_capacityprofile](/dynamics365/developer/reference/entities/msdyn_capacityprofile)|
 |Attributes  | - msdyn_agentcapacityprofileunit.msdyn_defaultmaxunits |
 |Filters  | None ​|
 
@@ -255,7 +255,7 @@ Total work item capacity in use = SUM ( FactAgentCapacityProfile[OccupiedProfile
 |Element|Value  |
 |---------|---------|
 |Dataverse entities |- msdyn_agentcapacityprofileunit: Main source of agent-specific capacity data; [msdyn_agentcapacityprofileunit](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit) <br> - msdyn_capacityprofile: Provides default capacity values and blocking rules; [msdyn_capacityprofile](/dynamics365/developer/reference/entities/msdyn_capacityprofile)|
-|Attributes  | - OccupiedProfileUnits : Difference between msdyn_capacityprofile.msdyn_defaultmaxunits and  msdyn_agentcapacityprofileunit.msdyn_availablecapacityprofileunits <br> - [msdyn_capacityprofile](/dynamics365/developer/reference/entities/msdyn_capacityprofile <br> - [msdyn_agentcapacityprofileunit](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit)|
+|Attributes  | - OccupiedProfileUnits : Difference between msdyn_capacityprofile.msdyn_defaultmaxunits and  msdyn_agentcapacityprofileunit.msdyn_availablecapacityprofileunits <br> - [msdyn_capacityprofile](/dynamics365/developer/reference/entities/msdyn_capacityprofile) <br> - [msdyn_agentcapacityprofileunit](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit)|
 
 
 ### Related metrics
@@ -380,7 +380,7 @@ IF (​FactSessionParticipant[ModeId] = "192350003",​ 1,​ BLANK()​)​), B
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode|
-|Filters  |-  All Conversations where msdyn_sessionparticipant.msdyn_mode = 192350003 AND AgentJoinedDateTime is defined by msdyn_sessionparticipant.msdyn_joinedon not equal to blank. |
+|Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode = 192350003 AND AgentJoinedDateTime is defined by msdyn_sessionparticipant.msdyn_joinedon not equal to blank. |
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -611,7 +611,7 @@ Consult rejection rate = DIVIDE(SUMX (​FactSessionParticipant,​ IF (FactSess
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode
-|Filters  |-  All Conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentReject" and​ msdyn_sessionparticipant.msdyn_mode = 192350003 |
+|Filters  |-  All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentReject" and​ msdyn_sessionparticipant.msdyn_mode = 192350003 |
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -629,8 +629,8 @@ Consult rejection rate = DIVIDE(SUMX (​FactSessionParticipant,​ IF (FactSess
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
-|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentReject and 
-msdyn_sessionparticipant.msdyn_mode = 192350003​. <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid is not null​ ​​|
+|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentReject, 
+msdyn_sessionparticipant.msdyn_mode = 192350003​.  <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid is not null.​ ​​|
 
 ---
 
