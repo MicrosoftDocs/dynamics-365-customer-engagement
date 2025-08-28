@@ -45,5 +45,5 @@ You can learn more about the various options in [Supervise agents in model-drive
 
 ### Related information
 
-[Set up Case Management Agent to create and update cases](set-up-autonomous-case-agents.md)  
+[Set up Case Management Agent to create and update cases](../administer/set-up-autonomous-case-agents.md)  
 [Configure agent feed for autonomous agents](../administer/configure-agent-feed.md)
