@@ -1,7 +1,7 @@
 ---
 title: New work order experience
 description: Learn about the new work order experience in Dynamics 365 Field Service, including how to manage work orders and customize forms.
-ms.date: 07/18/2025
+ms.date: 07/30/2025
 ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
@@ -182,7 +182,7 @@ You can change back to the classic work order experience if the new experience w
 
 ### See also
 
-- [Work order recap with Copilot in Field Service (preview)](work-order-recap.md)
+- [Summarize work orders with Copilot](use-work-order-recap.md)
 - [Create work order types](create-work-order-types.md)
 - [Set up booking statuses](set-up-booking-statuses.md)
 - [Create a work order](create-work-order.md)

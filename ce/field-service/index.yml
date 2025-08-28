@@ -161,7 +161,7 @@ additionalContent:
       links:
       - url: copilot-side-pane.md
         text: Copilot side pane in the web app
-      - url: work-order-recap.md
+      - url: use-work-order-recap.md
         text: Work order summary
       - url: responsible-ai-overview.md
         text: Responsible AI overview

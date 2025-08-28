@@ -1,7 +1,7 @@
 ---
 title: Feature deprecations
 description: Learn about features that are being deprecated for Dynamics 365 Field Service.
-ms.date: 09/03/2024
+ms.date: 08/12/2025
 ms.topic: article
 ms.custom: bap-template
 ms.author: vhorvath
@@ -14,6 +14,18 @@ Features that have been deprecated in Dynamics 365 Field Service are listed in t
 
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification will span at least six months. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+
+## Dynamics 365 Field Service reports and features - May 25, 2025
+
+The following Dynamics 365 Field Service reports and features are deprecated after May 25, 2025 and aren't supported after August, 2025.
+
+ - Resource and Utilization in Field Service
+ - Work order summary in Field Service
+ - Admin Report in Resource Scheduling Optimization
+ - Optimization Summary in Resource Scheduling Optimization
+ - Calls Dashboard in Remote Assist
+
+To make your transition easier, migrate to [Microsoft Fabric](/fabric/fundamentals/microsoft-fabric-overview). Microsoft Fabric lets you recreate and customize reports to fit your organization’s needs. You can tailor dashboards and keep getting insights from your data with more flexibility and power. This move gives you a more dynamic and ready-for-the-future reporting experience.
 
 ## Dynamics 365 Field Service Plugin for Microsoft Copilot (Teams app) - January 15, 2025
 

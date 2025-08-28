@@ -1,12 +1,12 @@
 ---
 title: Use Copilot in the Dynamics 365 Field Service web application
 description: Learn how to use Copilot to summarize records, catch up on recent changes, and prepare for onsite jobs.
-ms.date: 11/12/2024
+ms.date: 07/31/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
-author: jshotts
-ms.author: jasonshotts
-ms.reviewer: mhart
+author: JonBaker007
+ms.author: jobaker
+ms.reviewer: v-wendysmith
 ms.collection: bap-ai-copilot
 ms.custom: ignite-2024
 ---
@@ -38,6 +38,16 @@ Alternatively, you can select **View Prompts** in the side pane to see a library
 - List work orders for {service account name}.
 - Who is booked for work order {work order number}?
 - What are the products used on work order {work order number}?
+
+## Customize Copilot chat (preview)
+
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
+Tailor the copilot pane for your business needs by using the customization capabilities of Copilot Studio. Enrich the copilot chat user experience with more knowledge from your public website, key company files, or company Sharepoints. Add more topics and customize them to use various trigger types or initiate actions like flows, connectors, and Dataverse plug-ins. Learn more at [Customize Copilot chat using Copilot Studio (preview)](/power-apps/maker/model-driven-apps/customize-copilot-chat).
+
+The out-of-the-box Field Service app module includes a preconfigured agent for the Copilot chat called *Copilot in Power Apps - Field Service*. For an example of customizing Copilot chat, go to [Streamline inventory visibility in Field Service](/dynamics365/guidance/resources/field-service-streamline-inventory-visibility).
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
 ## Region availability and languages supported
 

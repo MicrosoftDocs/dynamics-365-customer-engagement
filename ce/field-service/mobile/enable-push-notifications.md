@@ -3,7 +3,7 @@ title: Enable push notifications
 description: Learn how to enable push notifications for the Field Service mobile app.
 ms.subservice: field-service-mobile
 ms.topic: how-to
-ms.date: 04/10/2025
+ms.date: 08/07/2025
 author: JonBaker007
 ms.author: jobaker
 ---
@@ -57,7 +57,7 @@ Configure the following cloud flow to send frontline workers a push notification
    - **Connector**: Microsoft Dataverse
    - **Connection**: New connection
 
-1. Go back to **Solutions** and edit the solution with the name `msdyn_FieldService_patch_update`.
+1. Go back to **Solutions**, select the **All** tab, and edit the solution with the name `msdyn_FieldService_patch_update`.
 
 1. Open the details of the cloud flow called **Field Service – Notify user about booking (UCI app)**.
 

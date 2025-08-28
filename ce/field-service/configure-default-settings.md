@@ -1,7 +1,7 @@
 ---
 title: Set defaults for work orders, bookings, the schedule board, and agreements
 description: Learn how to set defaults for work orders, bookings, the schedule board, and agreements in Dynamics 365 Field Service.
-ms.date: 05/23/2025
+ms.date: 07/30/2025
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -64,7 +64,7 @@ This settings tab lets you enable toggles for preview, copilot, and a few other 
 |**Preview section**||
 | Enhanced characteristics | Enable [enhanced characteristics](set-up-characteristics.md) to add more details to a resource's characteristics. |
 |**Copilot in Field Service section**||
-| Copilot for work order | Enable [work order summary with Copilot](work-order-recap.md) to provide a summary of a work order. |
+| Copilot for work order | Enable [work order summary with Copilot](use-work-order-recap.md) to provide a summary of a work order. |
 | Copilot in Microsoft Outlook | Disable the use of copilot capabilities in Outlook for Field Service. If enabled, you agree that data might be stored and processed outside of your tenant's geographic region or compliance boundary. For more information, see [FAQ for Outlook using Copilot in Field Service.](faqs-wo-flw-copilot.md)|
 |**Other settings section**||
 | Insurance policies | Enable [insurance policies](insurance.md) to create an insurance policy. |

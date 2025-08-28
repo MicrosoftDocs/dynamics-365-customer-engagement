@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection: 
-ms.date: 04/09/2025
+ms.date: 08/26/2025
 ms.custom: bap-template
 ---
 
@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 The agent report provides an agent-centric view for case and record management. Modified on, queue, agent, agent skill, agent status, and time zone are filters that enable you to drill into the data to identify agent availability and capacity limitations to address unassigned work items.
 
-:::image type="content" source="../media/record-routing-agent.jpg" alt-text="Screenshot of agent report":::
+:::image type="content" source="../media/record-routing-agent.png" alt-text="Screenshot of agent report":::
 
 A set of KPIs help provide quick insight into the filter scope.
 
