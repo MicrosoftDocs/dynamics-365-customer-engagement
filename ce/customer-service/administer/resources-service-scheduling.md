@@ -55,8 +55,8 @@ You can create a new bookable resource in the Copilot Service admin center app o
       - Facility
       - Pool
      
-    > [!NOTE]
-    > You can't create a bookable resource with the **Equipment** or **Facility** resource type that's already mapped to another bookable resource.
+        > [!NOTE]
+        > You can't create a bookable resource with the **Equipment** or **Facility** resource type that's already mapped to another bookable resource.
       
    - The field name is automatically populated. Look up for the record. You can also create a new record using the **Quick Create** dialog. 
 
