@@ -1,12 +1,12 @@
 ---
 title: Overview of the real-time Omnichannel analytics dashboard
-description: Discover how to use an Omnichannel real-time analytics dashboard to optimize customer service representative staffing, monitor key metrics, and improve customer satisfaction.
+description: Use Omnichannel real-time analytics dashboard for contact center operations. Track key metrics and access summary, voice, agents, and ongoing conversation reports to improve team performance.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: overview
 ms.collection:
-ms.date: 07/31/2025
+ms.date: 08/26/2025
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -36,14 +36,14 @@ As a supervisor, you can use the real-time analytics reports to perform these ta
 - Review the allocation of service representatives in near-real time, and then optimize to provide top-notch support and boost customer satisfaction.
 - Improve service representative staffing, effectiveness, and utilization by reviewing the skill set and capacity profile of the service representative. You can then assign or transfer ongoing conversations by filtering through queue or service representative.
 - Monitor ongoing conversations, track customer sentiment, and intervene as required.
-- Drill down to a specific channel, queue, or service representative as required, to gain key operational insights in real time and take necessary action.
+- Drill down to a specific channel, queue, or service representative as required, to gain key operational insights in real time and take the necessary action.
 
 > [!NOTE]
-> The reports include conversations that were handled by service representatives only. They also include conversations that were escalated by the Copilot agents. However, they don't include conversations that were resolved by Copilot agents.
+> The reports include conversations that only service representatives handled. They also include conversations that Copilot agents escalated. However, they don't include conversations that Copilot agents resolved.
 
 ## Security roles and permissions
 
-Real-time analytics takes advantage of the security permissions that are defined in Dataverse. For example, if your organization has set business unit-level permissions for you, only metrics that are computed based on business unit–level data are shown to you.
+Real-time analytics takes advantage of the security permissions that are defined in Dataverse. For example, if your organization set business unit-level permissions for you, only metrics that are computed based on business unit–level data are shown to you.
 
 As a supervisor, you can view the **Omnichannel real-time analytics** dashboard in Copilot Service workspace. However, your administrator must provide the required permissions for you. [Learn how to configure user roles to access analytics and dashboards.](../administer/configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards)
 
@@ -52,7 +52,7 @@ As a supervisor, you can view the **Omnichannel real-time analytics** dashboard 
 
 ## Access reports
 
-You can view the different reports in the Copilot Service workspace app. In the default view of the application, select **Omnichannel real-time analytics** in **Service**. By default, the **Summary** report is shown. To view the **Ongoing conversation**, **Agents**, and **Voice** reports, select the appropriate tabs.
+You can view the different reports in the Copilot Service workspace app. In the default view of the application, select **Omnichannel real-time analytics** in **Service**. By default, the **Summary** report is shown. To view the **Ongoing conversation**, **Agents**, and **Voice** reports, select the appropriate option from the dropdown.
 
 If you can't view the reports, contact your system administrator. Learn more in [Manage real-time analytics reports](../administer/enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service).
 
@@ -60,7 +60,7 @@ If you can't view the reports, contact your system administrator. Learn more in 
 
 > [!NOTE]
 > - The reports don't include work items of the Entity Record channel. All entity record type queues are available in [real-time analytics for record routing dashboards](rr-overview.md#overview-of-real-time-analytics-for-record-routing) only.
-> - The reports are prefiltered based on the queues you are signed in to as a supervisor. Your view of metrics and conversations pertain to the assigned queues only, which helps ensure data privacy and relevance.
+> - The reports are prefiltered based on the queues you're signed in to as a supervisor. Your view of metrics and conversations pertain to the assigned queues only, which helps ensure data privacy and relevance.
 
 The **Omnichannel real-time analytics** dashboard consists of the following reports:
 

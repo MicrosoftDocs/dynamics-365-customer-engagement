@@ -1,7 +1,7 @@
 ---
 title: Configure outbound and inbound profiles
-description: Configure outbound and inbound profiles with various settings, such as caller ID, language, and wait music for the voice channel.
-ms.date: 04/21/2025
+description: Configure outbound and inbound profiles with various settings, such as caller ID, language, and wait music for the voice channel in Dynamics 365 Contact Center.
+ms.date: 08/14/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -25,7 +25,7 @@ Inbound profiles enable direct inward dialing to individual service representati
 
 Make sure that the following prerequisites are in place:
 
-- To create inbound profiles, you have configured and enabled a geographic type of personal number to receive calls and assigned to the representative via the **Omnichannel** tab in user settings. More information: [Manage phone numbers](voice-channel-manage-phone-numbers.md)
+- To create inbound profiles, you have configured and enabled a geographic type of personal number and assigned to the representative via the **Omnichannel** tab in user settings. More information: [Manage phone numbers](voice-channel-manage-phone-numbers.md)
 - To create outbound profiles, you have configured and enabled shared or geographic type numbers for outbound calls. In your calling plan for the number, the **Make calls** checkbox is selected.
 - You have configured [capacity profiles](capacity-profiles.md).
 - You have configured [voice queues](voice-channel-inbound-calling.md#create-a-queue-for-the-voice-channel).
@@ -49,7 +49,7 @@ Make sure that the following prerequisites are in place:
    - **Language**: Accept the default language as **English - United States** or select a language from the list.
    - **Hold music**: Select a music file to play when the call is on hold.
    - **Wait music**: Select a music file to play when the call is in waiting.
-   - **Call transfer to external phone number**: Set the toggle to **On** if you want the representative to transfer the call to a phone number outside of your organization.
+   - **Call transfer to external phone number**: Turn **On** the toggle if you want the representative to transfer the call to a phone number outside of your organization. You must enable this setting to use call forwarding for inbound profiles.
    - **Consult with Microsoft Teams user**: Set the toggle to **On** if you want the representative to consult or transfer the voice calls to subject matter experts on Microsoft Teams.
    - **Transcription and recording**: Select whether you want to transcript the call and record it. Select **None** if you don't want to.
      - **Start setting**: Is enabled when you select transcript or transcription and recording. Set to **Automatic** if the call recording and transcription needs to start immediately.

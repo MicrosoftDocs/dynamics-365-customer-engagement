@@ -5,8 +5,8 @@ ms.date: 06/06/2024
 ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.topic: article
-author: anilmur
-ms.author: anilmur
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Advanced filters for the schedule assistant in Universal Resource Scheduling

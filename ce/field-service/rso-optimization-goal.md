@@ -1,9 +1,9 @@
 ---
 title: Optimization goals in Resource Scheduling Optimization
 description: Learn about how goals are used in Resource Scheduling Optimization.
-author: AnilMur
-ms.author: anilmur
-ms.date: 03/31/2025
+author: andrewclear-ms
+ms.author: anclear
+ms.date: 08/20/2025
 ms.topic: how-to
 ms.subservice: resource-scheduling-optimization
 ---
@@ -60,7 +60,7 @@ If the constraint is removed from the goal, work is still scheduled within worki
 
 ### Meets Required Characteristics
 
-Ensures that a resource has all the required [characteristics and proficiency](set-up-characteristics.md) to complete a resource requirement.
+Ensures that a resource has all the required [characteristics and rating levels](set-up-characteristics.md) to complete a resource requirement.
 
 ### Meets Required Roles
 
@@ -148,13 +148,13 @@ Consider the list of [preferred resources](resource-preferences.md) noted on rel
 
 ### Best Matching Skill Level
 
-Resource Scheduling Optimization considers the proficiency rating when matching [characteristics](set-up-characteristics.md) required by requirements and the resources who possess those characteristics. If all required characteristics match, the system prioritizes resources with fewer skills first to keep resources available with more or unique skills for emergency work.
+Resource Scheduling Optimization considers the rating level when matching [characteristics](set-up-characteristics.md) required by requirements and the resources who possess those characteristics. If all required characteristics match, the system prioritizes resources with fewer skills first to keep resources available with more or unique skills for emergency work.
 
 This objective depends on the [Meets Required Characteristics constraint](#meets-required-characteristics) within the optimization goal.
 
 Meets Required Characteristics constraint **selected**:
 
-- Resources without the characteristic (skill) or lower-than-required proficiency ratings aren't considered.
+- Resources without the characteristic (skill) or lower-than-required  rating levels aren't considered.
 - Resources with the exact skill level are the best match and get the highest score.
 - The more overqualified a resource is, the lower their score is.
 

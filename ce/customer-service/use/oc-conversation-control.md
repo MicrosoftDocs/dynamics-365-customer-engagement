@@ -1,7 +1,7 @@
 ---
 title: View the communication panel for conversations
 description: Learn what you can do as a representative in the communication panel when you interact with the customer.
-ms.date: 07/25/2025
+ms.date: 08/21/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -28,21 +28,19 @@ You can do the following tasks in the communication panel:
 - Use the consult option if you need help with resolving the work item.
 - Generate a summary of the conversation. More information: [View and share auto-summarized conversations](cs-ai-generated-summary.md)
 
-
 ## Enhance productivity using keyboard commands
 
 The communication panel has options that you can use to perform actions, such as see quick replies, consult, and transfer, and launch notes control. You can also use keyboard commands to perform these actions.
 
- > [!div class=mx-imgBorder]
- > ![Omnichannel communication panel chat interface.](../media/oceh-conversation-control-chat-interface.png "Omnichannel communication panel chat interface")  
+:::image type="content" source="../media/oceh-conversation-control-chat-interface.png" alt-text="Screenshot of the communication panel interface that's available for service representatives.":::
 
 The following table lists the options and the keyboard shortcuts that you can use.
  
 | Annotation | Option     | Description                                   | command |
 |------|------------------|-----------------------------------------------|----------|
-|  1   | Quick replies    | Send templated messages created by you as personal quick replies or quick replies created by your administrator | `/q` |
-|  2   | Consult          | View list to consult with other users | `/c` |
-|  3   | Transfer         | View list to transfer the request | `/t` and `/tq` |
+|  1   | Quick replies    | Send templated messages created by you as personal quick replies or quick replies created by your administrator | `/q` or `/1` |
+|  2   | Consult          | View list to consult with other users | `/c` or `/4` |
+|  3   | Transfer         | View list of queues to transfer the conversation | `/t`, `/tq`, or `/2` <br> **Note**: Use `/3` to transfer directly to a queue. |
 |  4   | Add to chat      | Is enabled when the second representative accepts a consult request||
 |  5   | - Take notes <br>- Link to conversation <br>- Translation | - Take notes specific to conversation <br>- Link the record to this conversation<br> - If translation of messages is enabled, you can turn on or off the translation  ||
 |  6   | Customer sentiment | View real-time customer satisfaction levels |  |
@@ -75,13 +73,12 @@ After you type **/q** in the communication panel messaging area, you can continu
 
 You can type any of the following options in the compose box to search for the messages that are available for your use:
 
-   * Type **/q**, followed by <**keyword**>, to list messages that match the keyword.
-   * Type **/q**, followed by the number sign (**#**), to list all tags.
-   * Type **/q**, followed by <**tagname**> <**keyword**>, to list quick replies that match the tag and keyword.
-   * Type **/q**, followed by <**tagname**>, to list all quick replies that match the tag. Additionally, you can also add another tag after the <**tagname**> for example, type **/q**, followed by <**tagname**> <**tagname**>, to further refine the quick replies matching both the tags.
+  * Type **/q**, followed by <**keyword**>, to list messages that match the keyword.
+  * Type **/q**, followed by the number sign (**#**), to list all tags.
+  * Type **/q**, followed by <**tagname**> <**keyword**>, to list quick replies that match the tag and keyword.
+  * Type **/q**, followed by <**tagname**>, to list all quick replies that match the tag. Additionally, you can also add another tag after the <**tagname**> for example, type **/q**, followed by <**tagname**> <**tagname**>, to further refine the quick replies matching both the tags.
 
- > [!div class=mx-imgBorder]
- > ![Type /q and the keyword to filter the replies.](../media/oceh-send-quick-replies-filter.png "Filter replies")  
+  :::image type="content" source="../media/oceh-send-quick-replies-filter.png" alt-text="Screenshot of typing shortcut and keyword to filter the replies.":::
 
 ### Share reconnection link with customers
 
@@ -105,11 +102,11 @@ The following events occur when you select the **Consult** button:
 - The secondary representative receives a notification for the consult request.
 
 - When the secondary representative accepts the consult request, a separate pane with an option to end opens beside the communication panel for the primary representative. 
- 
+
    :::image type="content" source="../media/consult-primary-agent-view.png" alt-text="View of consult pane for the primary representative.":::
 
 - The secondary representative sees a consultation window on the page with an option to leave. They'll also have a read-only view of the messages exchanged between the primary representative and customer. Consulting on a chat conversation doesn't affect the secondary representative's capacity.
-   
+
 - The primary representative can add the secondary representative to the customer conversation by selecting the people icon. The secondary representative can join the customer conversation only after the primary representative selects to add the representative.
 
 Additionally, the following considerations apply:
@@ -117,9 +114,9 @@ Additionally, the following considerations apply:
 - You can use the UI buttons to collapse and expand the consult pane. When the primary representative selects the option to take notes, the consult pane is in collapsed mode.
 - The primary representative can end the consult or the secondary representative can leave, after which, the secondary representative won't be able to view the interaction between the primary representative and customer.
 
-You can also use a keyboard command to see the list of representatives and or supervisors who are available for consultation. Type the forward slash (/) key and the letter c (**/c**). Type forward slash and the letters cq (**/cq**) to view the list of queues.
+You can also use a keyboard command to see the list of representatives and or supervisors who are available for consultation. Type the forward slash (/) key and the letter c (**/c**). Type forward slash and the letters caq (**/caq**) to view the list of queues.
 
-> [!Note]
+> [!NOTE]
 > We recommend that you invite no more than five consulting representatives when conversing with the customer.
 
 After you type **/c** in the communication panel messaging area, you can continue typing the name of the participant and if it's present, the names are filtered and displayed to you.
@@ -165,8 +162,8 @@ To learn more, see [Take notes specific to conversation](oc-take-notes.md).
 
 ## Link to conversations
 
-> [!Note]
-> Link to conversation isn't applicable to the embed experience.
+> [!NOTE]
+> Link to conversation isn't applicable to the embedded experience in Dynamics 365 Contact Center.
 
 When you have a conversation with a customer, you can use the link option that's at the bottom of the conversation control to link the conversation to the case, account, or contact record.
 
@@ -187,7 +184,6 @@ When you select the **End** button, the conversation ends, and the customer rece
 :::image type="content" source="../media/conversation-end-close.png" alt-text="Screenshot of the communication chanel with the close and end options.":::
 
 The conversation behavior is dependent on the channel through which it comes. Learn more in [How conversations are handled on close or end](oc-conversation-state.md#how-conversations-are-handled-on-close-or-end).
-
 
 ### Related information
 
