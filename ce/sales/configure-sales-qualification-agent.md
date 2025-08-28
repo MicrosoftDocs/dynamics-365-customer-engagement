@@ -50,6 +50,7 @@ Ensure that the following prerequisites are met:
     |-----------|---------------------|
     | Knowledge source with public websites and data | The agent needs it to access public data for enrichment. |
     | Microsoft Copilot Studio | Copilot Studio is the core platform for building and deploying the agent. |
+    | Microsoft Dataverse | A data platform that securely stores data from various Microsoft products, allowing agents to access and utilize it. |
     | Knowledge source with SharePoint or OneDrive | Required only if the agent is configured to use internal documents on SharePoint or OneDrive for enrichment. |
     | Knowledge source with documents | Required only if the agent is configured to use internal documents for enrichment. |
 
