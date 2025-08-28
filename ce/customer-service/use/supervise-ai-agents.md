@@ -22,8 +22,8 @@ While you can enable the agent feed for custom generative AI agents, it's suppor
 
 ## Prerequisites
 
-Agent feed is enabled by your administrator.
-Case Management Agent is configured.
+- Agent feed is enabled by your administrator.
+- Case Management Agent is configured.
 
 ## Monitor autonomous agent activities
 
