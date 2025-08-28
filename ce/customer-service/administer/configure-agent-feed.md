@@ -1,7 +1,7 @@
 ---
 title: Configure Ai agent feed (preview)
 description: Configure agent feed for supervisors to monitor AI agent activities in your Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 08/21/2025
+ms.date: 09/01/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -34,7 +34,7 @@ To view the agent activity, you need to add the autonomous agent to the Customer
 1. In the site map, select the **Agents** icon.
 1. Under **Agent feed**, select the agent that corresponds to Case Management Agent, such as **Case followup and closure**, select the ellipses (...) > **Add to app**.
 
-   :::image type="content" source="../media/screenshot-add-agent-feed.png" alt-text="Screenshot of adding agent feed to monitor AI agents."::: 
+   :::image type="content" source="../media/screenshot-add-agent-feed.png" alt-text="Screenshot of adding agent feed to monitor AI agents.":::
 
 1. Save and publish the changes.
 1. Sign in to Copilot Service workspace with a supervisor role to verify that the agent feed appears in the site map.
@@ -42,4 +42,4 @@ To view the agent activity, you need to add the autonomous agent to the Customer
 ### Related information
 
 [Set up Case Management Agent to create and update cases](set-up-autonomous-case-agents.md)  
-[As supervisors, monitor AI agents](../use/monitor-ai-agents.md)  
+[Supervise AI agents](../use/supervise-ai-agents.md)  
