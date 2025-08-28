@@ -308,6 +308,8 @@
         href: /power-apps/user/customize-insert-email-template?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Add Copilot prompts to email templates
         href: add-prompt-email-template.md
+      - name: Configure line-of-business for email templates
+        href: configure-lob-email-templates.md
       - name: Enable enhanced experience for email attachments
         href: add-enhanced-attachment-control.md  
       - name: Enable enhanced recipient control for email
@@ -320,8 +322,6 @@
       items:
       - name: Configure the inbox
         href: configure-inbox.md
-      - name: Inbox views and filters
-        href: inbox-views-filters.md
     - name: Timeline
       items:
       - name: Configure timeline
@@ -470,6 +470,22 @@
         href: voice-channel-pricing-scenarios.md
       - name: FAQ about the voice channel
         href: voice-channel-faqs.md
+    - name: Agent hub (preview)
+      items:
+      - name: Learn guide for AI agents and Copilot features
+        items:
+        - name: Overview of agent hub
+          href: /dynamics365/contact-center/administer/overview-agent-hub?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Trust center for Dynamics 365
+          href: /dynamics365/contact-center/administer/trust-center?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Security FAQs about Copilot in Customer Service
+          href: /dynamics365/contact-center/administer/copilot-security-faqs?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml      
+        - name: Security FAQs about AI agents
+          href: /dynamics365/contact-center/administer/ai-agents-security-faqs?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Create rollout plans to manage AI agents
+        href: /dynamics365/contact-center/administer/create-rollout-plans?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: View agent insights dashboard
+        href: /dynamics365/contact-center/use/agent-insights?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml  
     - name: Autonomous service agents (preview)
       items:
       - name: Overview of autonomous service agents
@@ -487,13 +503,15 @@
         - name: Enable intent-based suggestions for service representatives
           href: /dynamics365/contact-center/administer/enable-intent-for-service-reps?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
         - name: Configure intent-based suggestions for Copilot agents
-          href: /dynamics365/contact-center/administer/set-up-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+          href: /dynamics365/contact-center/administer/set-up-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.ym
       - name: Case Management Agent
         items: 
-        - name: Set up Case Management Agent to create and update cases 
-          href: set-up-autonomous-case-agents.md
-        - name: Set up Case Management Agent to follow up and close cases
-          href: set-up-case-closure.md  
+          - name: Set up Case Management Agent to create and update cases 
+            href: set-up-autonomous-case-agents.md
+          - name: Set up Case Management Agent to resolve cases
+            href: set-up-case-resolution-agent.md  
+          - name: Set up Case Management Agent to follow up and close cases
+            href: set-up-case-closure.md  
       - name: Customer Knowledge Management Agent
         items:
         - name: Enable Customer Knowledge Management Agent
@@ -509,7 +527,7 @@
       - name: Enable resizing of communication panel
         href: csac-resize-cp.md
       - name: Configure disposition codes
-        href: /dynamics365/contact-center/administer/configure-disposition-codes?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml     
+        href: /dynamics365/contact-center/administer/configure-disposition-codes?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Configure relevance search for transcripts
         href: relevance-search-chat-transcript.md
       - name: Enable download, email of chat transcripts
@@ -590,6 +608,8 @@
         href: create-operating-hours.md
       - name: Configure and manage custom presence
         href: presence-custom-presence.md
+      - name: Enable transfer of conversations
+        href: enable-transfer-consult.md
       - name: Configure file attachments
         href: configure-file-attachment.md
       - name: Enable file attachments
@@ -652,7 +672,7 @@
         href: enable-auto-assign-conversations.md
       - name: Enable sharing of knowledge articles
         href: set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management
-      - name: Enable session restore to automatically reopen sessions and tabs (preview)
+      - name: Enable session restore to automatically reopen sessions and tabs 
         href: enable-session-restore.md
     - name: Copilot in Customer Service
       items:
@@ -672,7 +692,7 @@
           href: /dynamics365/contact-center/administer/copilot-enable-summary##enable-conversation-summaries?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
       - name: Configure custom record summaries for service representatives
         href: copilot-enable-custom-record-summaries.md
-      - name: Configure Copilot to use MCP server (preview)
+      - name: Connect to Customer Service with MCP server (preview)
         href: configure-ai-agent-to-use-mcp-server.md
       - name: Enable Copilot help pane features
         items:
@@ -735,7 +755,7 @@
       - name: Enable voice call experiences
         href: configure-end-of-call-survey.md
       - name: Configure post-call survey
-        href: voice-channel-survey.md
+        href: voice-channel-survey.md  
       - name: Configure post-conversation surveys using Customer Voice
         href: configure-post-conversation-survey.md
     - name: Analytics dashboards and insights
@@ -904,6 +924,8 @@
         href: migrate-config-data-for-whatsapp-through-twilio.md
       - name: Migrate configuration data for custom messaging channel
         href: migrate-config-data-for-custom-channel.md
+      - name: Migrate Copilot Studio survey agents configurations
+        href: /dynamics365/contact-center/administer/migrate-survey-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml       
       - name: Migrate automatic record creation rules and SLAs
         href: migrate-automatic-record-creation-and-sla-agreements.md
       - name: Strategy for migrating from contracts to entitlements

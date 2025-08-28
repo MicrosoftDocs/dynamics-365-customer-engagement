@@ -28,7 +28,7 @@ The total number of app registrations depends on the number of organizations (or
 
 This article lists the Copilot Studio agents and the corresponding app registrations for all Dynamics 365 Sales agents.
  
-## Sales Qualification Agents (SQA)  
+## Sales Qualification Agent (SQA)  
 
 The Sales Qualification Agent (SQA) helps sales teams qualify leads effortlessly by autonomously researching leads, determining if they're a good fit for further engagement, and drafting an outreach email to the lead. Learn more about SQA in [Sales Qualification Agent overview](sales-qualification-agent.md).
 

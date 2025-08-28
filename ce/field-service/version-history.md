@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service version history
 description: Release schedule and version history for Dynamics 365 Field Service.
-ms.date: 06/06/2025
+ms.date: 07/30/2025
 ms.topic: overview
 author: jshotts
 ms.author: jasonshotts
@@ -106,7 +106,7 @@ This release is a hotfix on Field Service version [8.8.134.351](/dynamics365/fie
 (Includes Universal Resource Scheduling version [3.12.145.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214525) and Resource Scheduling controls version 1.2.84.243184)
 
 - Discount % and discount amount fields will now be hidden when the Field Service and Finance and Operations integration is enabled. These fields have no impact on journals in Finance and Operations apps.
-- Bug fixes and enhancements for [Copilot summary and summary configuration](work-order-recap.md).
+- Bug fixes and enhancements for [Copilot summary and summary configuration](use-work-order-recap.md).
 
 ## 8.8.129.177
 

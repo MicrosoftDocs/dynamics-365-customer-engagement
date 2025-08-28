@@ -1,7 +1,7 @@
 ---
 title: Customize the workspace for sales accelerator
 description: Learn how to customize the sales accelerator workspace by configuring filters, sorting and work item appearances to meet seller needs.
-ms.date: 06/28/2024
+ms.date: 08/01/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag

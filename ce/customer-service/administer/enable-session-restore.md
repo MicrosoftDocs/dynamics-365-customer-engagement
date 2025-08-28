@@ -1,17 +1,15 @@
 ---
-title: Enable session restore to automatically reopen browser sessions and tabs (preview)
+title: Enable session restore to automatically reopen browser sessions and tabs 
 description: Learn how to enable session restore to automatically reload sessions and tabs in Copilot Service workspace.
 author: lalexms 
 ms.author: laalexan
 ms.reviewer: laalexan
 ms.topic: how-to 
-ms.date: 04/01/2025 
+ms.date: 08/27/2025 
 ms.custom: bap-template 
 ---
 
-# Enable session restore to automatically reopen sessions and tabs (preview)
-
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
+# Enable session restore to automatically reopen sessions and tabs 
 
 By default, when a browser is refreshed or reconnected in the Copilot Service workspace app, only the home page reloads. Service representatives must manually reopen all their sessions and application tabs, such as calls, cases, chats, and messages. Common reasons a browser might close include browser memory issues, microphone or headset problems, network instability, or accidental browser closures.
 
@@ -43,7 +41,7 @@ Before you enable the session restore feature, review the following definitions 
 - The system doesn't restore panels that are loaded using the Xrm.pane API. Panels that the system loads using the custom productivity tools feature only are restored.
 - The system can't restore generic sessions in browser tabs that were reopened using the Ctrl+Shift+T function. Generic sessions can be restored by refreshing the current browser tab only.
 - Consult conversations restoration isn't supported.
-- Sessions with the new record form open (and saved later) are restored in the new state only.
+
 
 ### Related information
 

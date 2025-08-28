@@ -1,7 +1,7 @@
 ---
 title: Topics dashboard
 description: Learn about the Topics dashboard insights to better understand agent performance in your organization.
-ms.date: 06/30/2025
+ms.date: 08/26/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: lalexms
@@ -30,7 +30,7 @@ The Topics dashboard shows a detailed breakdown of cases and their assigned topi
 
 ![Topics dashboard.](../media/topics-dashboard-analytics-cs.png "Topics dashboard")
 
-To view the Topics dashboard, go to Customer Service historical analytics and select the **Topics** tab.
+To view the Topics dashboard, go to Customer Service historical analytics and select **Topics** from the dropdown list.
 
 ### Access the Topics dashboard
 
