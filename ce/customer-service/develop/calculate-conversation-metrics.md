@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 07/31/2025
+ms.date: 08/28/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -257,7 +257,7 @@ Abandoned conversations = ​SUMX(FactConversation, IF (FactConversation[IsAband
 
 *Applies to Omnichannel real-time dashboard.*
 
-Conversation first wait time measures how long a customer waits for a service representative to accept their conversation. This includes wait time after escalation from an agent, direct queue entry, or until the customer disconnects, if abandoned. The duration is measured in seconds.
+Conversation first wait time is how long (in seconds) a customer waits for a service representative to accept the conversation. This time starts after escalation from an AI agent or direct queue entry and ends when the representative accepts the conversation or when the customer disconnects. 
 
 ### DAX query and Dataverse reference
 
@@ -318,7 +318,7 @@ Avg. conversation first wait time (sec) =​
 
 *Applies to Omnichannel real-time and historical dashboards.*
 
-Average speed to answer is the average time (in seconds) for a service representative to accept a conversation after it's escalated from an agent or enters a direct queue.
+Average speed to answer is the average time (in seconds) for a service representative to accept a conversation after it's escalated from an AI agent or enters a direct queue.
 
 #### Related metrics
 
@@ -842,7 +842,7 @@ DIVIDE(SUMX(FactConversation,IF(FactConversation[IsAbandoned] && NOT FactConvers
 
 *Applies to Omnichannel real-time dashboards.*
 
-Average time to abandon is the average time (in seconds) that customers wait before leaving a conversation when no service representative joins. This includes conversations escalated from an agent or those that enter a direct queue but are abandoned before any agent interaction occurs.
+Average time to abandon is the average time (in seconds) that customers wait before leaving a conversation when no service representative joins. This includes conversations escalated from an AI agent or those that enter a direct queue but are abandoned before any AI agent interaction occurs.
 
 ### DAX query and Dataverse reference
 
