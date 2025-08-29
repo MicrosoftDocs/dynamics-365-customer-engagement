@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 07/18/2025
+ms.date: 08/29/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -306,6 +306,8 @@ Total agents = COUNTROWS(FactAgentCapacityUnit )
 
 ## Status duration
 
+*Applies to Omnichannel real-time dashboards.*
+
 Status duration shows how long representatives stay in a presence status like Available, Busy, or Away during a selected time period. The duration appears in minutes. For example, a service representative might be in Busy status for 40 minutes.
 
 **DAX query**
@@ -319,7 +321,7 @@ Status duration (mins) = CALCULATE (SUM ( FactAgentStatusHistory[DuringInSeconds
 |Element|Value  |
 |---------|---------|
 |Dataverse entities | - [msdyn_agentstatushistory](/dynamics365/developer/reference/entities/msdyn_agentstatushistory) <br> - [msdyn_presence](/dynamics365/developer/reference/entities/msdyn_presence)|
-|Attributes  | - Calculates the difference between the [msdyn_agentstatushistory.msdyn_starttime](/dynamics365/developer/reference/entities/msdyn_agentstatushistory#BKMK_msdyn_starttime) and [msdyn_agentstatushistory.msdyn_endtime](/dynamics365/developer/reference/entities/msdyn_agentstatushistory#BKMK_msdyn_endtime). If the service representative is still in that status then it uses current UTC time instead.|
+|Attributes  | - Calculates the difference between the [msdyn_agentstatushistory.msdyn_starttime](/dynamics365/developer/reference/entities/msdyn_agentstatushistory#BKMK_msdyn_starttime) and [msdyn_agentstatushistory.msdyn_endtime](/dynamics365/developer/reference/entities/msdyn_agentstatushistory#BKMK_msdyn_endtime). The real-time dashboard shows the current UTC time while a service representative is in their current status. The end time appears only after the status changes.|
 |Filters  | - msdyn_agentstatushistory.createdon >= DATEADD(MI, -120, GETUTCDATE()) Only include records where the agent status was created within the last 120 minutes (2 hours).​|
 
 ## Consult
