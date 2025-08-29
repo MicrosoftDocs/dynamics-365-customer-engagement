@@ -1,7 +1,7 @@
 ---
 title: Manage work orders with Field Service in Teams (frontline managers)
 description: Learn how service managers and dispatchers can use the Dynamics 365 Field Service Teams app to create, view, update, and schedule work orders in Teams.
-ms.date: 05/08/2024
+ms.date: 08/29/2025
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -11,6 +11,8 @@ ms.subservice: m365-integrations
 ---
 
 # Manage work orders with Field Service in Teams (frontline managers)
+
+[!INCLUDE [m365-fs-deprecate](../includes/microsoft365-field-service-deprecation.md)]
 
 The Dynamics 365 Field Service app for Teams enables frontline managers to manage work orders without disrupting their workflow. Without leaving Teams, you can create, view, and edit work orders and quickly respond to requests for service or questions about existing requests.
 
