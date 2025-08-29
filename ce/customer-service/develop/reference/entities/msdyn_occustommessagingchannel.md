@@ -68,6 +68,7 @@ The following table lists selected properties for the Custom messaging channel (
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [managedidentityid](#BKMK_managedidentityid)
 - [msdyn_appid](#BKMK_msdyn_appid)
 - [msdyn_custombotchannelregistration](#BKMK_msdyn_custombotchannelregistration)
 - [msdyn_enablefileattachmentsforagents](#BKMK_msdyn_enablefileattachmentsforagents)
@@ -108,6 +109,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|2147483647|
 |MinValue|-2147483648|
+
+### <a name="BKMK_managedidentityid"></a> managedidentityid
+
+|Property|Value|
+|---|---|
+|Description|**Unique identifier for managed identity associated with Omnichannel custom messaging channel.**|
+|DisplayName|**ManagedIdentityId**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`managedidentityid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|managedidentity|
 
 ### <a name="BKMK_msdyn_appid"></a> msdyn_appid
 
@@ -730,6 +744,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_occustommessagingchannel_createdonbehalfby](#BKMK_lk_msdyn_occustommessagingchannel_createdonbehalfby)
 - [lk_msdyn_occustommessagingchannel_modifiedby](#BKMK_lk_msdyn_occustommessagingchannel_modifiedby)
 - [lk_msdyn_occustommessagingchannel_modifiedonbehalfby](#BKMK_lk_msdyn_occustommessagingchannel_modifiedonbehalfby)
+- [managedidentity_msdyn_occustommessagingchannel_managedidentityid](#BKMK_managedidentity_msdyn_occustommessagingchannel_managedidentityid)
 - [msdyn_msdyn_liveworkstream_msdyn_occustommessagingchannel_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_occustommessagingchannel_liveworkstreamid)
 - [msdyn_msdyn_ocbotchannelregistration_msdyn_occustommessagingchannel_custombotchannelregistration](#BKMK_msdyn_msdyn_ocbotchannelregistration_msdyn_occustommessagingchannel_custombotchannelregistration)
 - [msdyn_msdyn_oclanguage_msdyn_occustommessagingchannel_custommessagingchannellanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_occustommessagingchannel_custommessagingchannellanguage)
@@ -803,6 +818,19 @@ One-To-Many Relationship: [systemuser lk_msdyn_occustommessagingchannel_modified
 |ReferencingEntityNavigationPropertyName|`modifiedonbehalfby`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_managedidentity_msdyn_occustommessagingchannel_managedidentityid"></a> managedidentity_msdyn_occustommessagingchannel_managedidentityid
+
+One-To-Many Relationship: [managedidentity managedidentity_msdyn_occustommessagingchannel_managedidentityid](managedidentity.md#BKMK_managedidentity_msdyn_occustommessagingchannel_managedidentityid)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`managedidentity`|
+|ReferencedAttribute|`managedidentityid`|
+|ReferencingAttribute|`managedidentityid`|
+|ReferencingEntityNavigationPropertyName|`managedidentityid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_occustommessagingchannel_liveworkstreamid"></a> msdyn_msdyn_liveworkstream_msdyn_occustommessagingchannel_liveworkstreamid
 

@@ -26,6 +26,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_ConnectorsURL](#BKMK_msdyn_ConnectorsURL)
 - [msdyn_conversationmode](#BKMK_msdyn_conversationmode)
 - [msdyn_CustomerID](#BKMK_msdyn_CustomerID)
+- [msdyn_enablevoicev2](#BKMK_msdyn_enablevoicev2)
 - [msdyn_LastValidationOn](#BKMK_msdyn_LastValidationOn)
 - [msdyn_LastValidationStatus](#BKMK_msdyn_LastValidationStatus)
 - [msdyn_notificationscenarioplaceholder](#BKMK_msdyn_notificationscenarioplaceholder)
@@ -126,6 +127,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100|
+
+### <a name="BKMK_msdyn_enablevoicev2"></a> msdyn_enablevoicev2
+
+|Property|Value|
+|---|---|
+|Description|**Enable Voice V2**|
+|DisplayName|**Enable Voice V2**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_enablevoicev2`|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_liveworkstream_msdyn_enablevoicev2`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_LastValidationOn"></a> msdyn_LastValidationOn
 
@@ -375,19 +392,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 Microsoft Dynamics 365 Customer Service modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
 
-- [msdyn_direction](#BKMK_msdyn_direction)
-- [msdyn_streamsource](#BKMK_msdyn_streamsource)
-
-### <a name="BKMK_msdyn_direction"></a> msdyn_direction
-
-Changes from [msdyn_direction (Microsoft Dynamics 365)](/dynamics365/developer/reference/entities/msdyn_liveworkstream#BKMK_msdyn_direction)
-
-#### msdyn_direction Choices/Options
-
-|Value|Label|
-|---|---|
-|4|**ProactiveOutbound**|
-
 ### <a name="BKMK_msdyn_streamsource"></a> msdyn_streamsource
 
 Changes from [msdyn_streamsource (Microsoft Dynamics 365)](/dynamics365/developer/reference/entities/msdyn_liveworkstream#BKMK_msdyn_streamsource)
@@ -409,6 +413,7 @@ Changes from [msdyn_streamsource (Microsoft Dynamics 365)](/dynamics365/develope
 |192380000|**Video**|
 |192390000|**Co-browse**|
 |192400000|**Screen sharing**|
+|192440000|**Voice call**|
 |192450000|**Apple Messages for Business**|
 |192450001|**Google's Business Messages**|
 
@@ -416,6 +421,8 @@ Changes from [msdyn_streamsource (Microsoft Dynamics 365)](/dynamics365/develope
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_liveworkstream_msdyn_ocvoicechannelsetting_liveworkstreamid](#BKMK_msdyn_liveworkstream_msdyn_ocvoicechannelsetting_liveworkstreamid)
+- [msdyn_liveworkstream_msdyn_proactive_engagement_config_workstream](#BKMK_msdyn_liveworkstream_msdyn_proactive_engagement_config_workstream)
 - [msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid)
 - [msdyn_msdyn_liveworkstream_msdyn_ocapplebusinessaccount_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_ocapplebusinessaccount_liveworkstreamid)
 - [msdyn_msdyn_liveworkstream_msdyn_occustommessagingchannel_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_occustommessagingchannel_liveworkstreamid)
@@ -433,6 +440,30 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_msdyn_liveworkstream_msdyn_surveyquestion](#BKMK_msdyn_msdyn_liveworkstream_msdyn_surveyquestion)
 - [msdyn_msdyn_ocoutboundconfiguration_msdyn_liveworkstream](#BKMK_msdyn_msdyn_ocoutboundconfiguration_msdyn_liveworkstream)
 - [msdyn_ocoutboundmessage_ocliveworkstream](#BKMK_msdyn_ocoutboundmessage_ocliveworkstream)
+
+### <a name="BKMK_msdyn_liveworkstream_msdyn_ocvoicechannelsetting_liveworkstreamid"></a> msdyn_liveworkstream_msdyn_ocvoicechannelsetting_liveworkstreamid
+
+Many-To-One Relationship: [msdyn_ocvoicechannelsetting msdyn_liveworkstream_msdyn_ocvoicechannelsetting_liveworkstreamid](msdyn_ocvoicechannelsetting.md#BKMK_msdyn_liveworkstream_msdyn_ocvoicechannelsetting_liveworkstreamid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicechannelsetting`|
+|ReferencingAttribute|`msdyn_liveworkstreamid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_liveworkstream_msdyn_ocvoicechannelsetting_liveworkstreamid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_liveworkstream_msdyn_proactive_engagement_config_workstream"></a> msdyn_liveworkstream_msdyn_proactive_engagement_config_workstream
+
+Many-To-One Relationship: [msdyn_proactive_engagement_config msdyn_liveworkstream_msdyn_proactive_engagement_config_workstream](msdyn_proactive_engagement_config.md#BKMK_msdyn_liveworkstream_msdyn_proactive_engagement_config_workstream)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_engagement_config`|
+|ReferencingAttribute|`msdyn_workstream`|
+|ReferencedEntityNavigationPropertyName|`msdyn_liveworkstream_msdyn_proactive_engagement_config_workstream`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid"></a> msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid
 

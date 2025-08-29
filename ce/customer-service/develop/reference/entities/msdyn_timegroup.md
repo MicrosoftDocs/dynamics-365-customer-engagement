@@ -724,6 +724,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_timegroup_msdyn_ocliveworkitems](#BKMK_msdyn_timegroup_msdyn_ocliveworkitems)
 - [msdyn_timegroup_msdyn_ocoutboundmessages](#BKMK_msdyn_timegroup_msdyn_ocoutboundmessages)
 - [msdyn_timegroup_msdyn_ocsessions](#BKMK_msdyn_timegroup_msdyn_ocsessions)
+- [msdyn_timegroup_msdyn_ocvoicemails](#BKMK_msdyn_timegroup_msdyn_ocvoicemails)
 - [msdyn_timegroup_msfp_alerts](#BKMK_msdyn_timegroup_msfp_alerts)
 - [msdyn_timegroup_msfp_surveyinvites](#BKMK_msdyn_timegroup_msfp_surveyinvites)
 - [msdyn_timegroup_msfp_surveyresponses](#BKMK_msdyn_timegroup_msfp_surveyresponses)
@@ -1011,6 +1012,18 @@ Many-To-One Relationship: [msdyn_ocsession msdyn_timegroup_msdyn_ocsessions](msd
 |ReferencingEntity|`msdyn_ocsession`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_timegroup_msdyn_ocsessions`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_timegroup_msdyn_ocvoicemails"></a> msdyn_timegroup_msdyn_ocvoicemails
+
+Many-To-One Relationship: [msdyn_ocvoicemail msdyn_timegroup_msdyn_ocvoicemails](msdyn_ocvoicemail.md#BKMK_msdyn_timegroup_msdyn_ocvoicemails)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_timegroup_msdyn_ocvoicemails`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

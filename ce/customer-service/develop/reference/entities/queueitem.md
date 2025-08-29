@@ -30,7 +30,7 @@ Changes from [ObjectId (Microsoft Dataverse)](/power-apps/developer/data-platfor
 
 |Property|Value|
 |---|---|
-|Targets|msdyn_bookingalert, msdyn_ocoutboundmessage, msdyn_timegroup, msdyn_timegroupdetail|
+|Targets|msdyn_bookingalert, msdyn_ocoutboundmessage, msdyn_ocvoicemail, msdyn_timegroup, msdyn_timegroupdetail|
 
 
 ### <a name="BKMK_ObjectTypeCode"></a> ObjectTypeCode
@@ -41,23 +41,11 @@ Changes from [ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer/data-p
 
 |Value|Label|
 |---|---|
-|10224|**Teams chat**|
-|10240|**Knowledge Article Template**|
-|10359|**Invite Redemption**|
-|10360|**Portal Comment**|
-|10456|**IoT Alert**|
-|10667|**Customer Voice alert**|
-|10677|**Customer Voice survey invite**|
-|10679|**Customer Voice survey response**|
-|10736|**Overflow Action Config**|
-|10760|**Ongoing conversation (Deprecated)**|
-|10772|**Conversation**|
-|10789|**Session**|
-|10993|**Copilot Transcript**|
-|11089|**Booking Alert**|
-|11106|**Fulfillment Preference**|
-|11107|**Time Group Detail**|
-|11168|**Outbound message**|
+|11209|**Booking Alert**|
+|11225|**Fulfillment Preference**|
+|11226|**Time Group Detail**|
+|11293|**Voicemail**|
+|11304|**Outbound message**|
 
 ## Many-to-One relationships
 
@@ -65,6 +53,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 
 - [msdyn_bookingalert_QueueItems](#BKMK_msdyn_bookingalert_QueueItems)
 - [msdyn_ocoutboundmessage_QueueItems](#BKMK_msdyn_ocoutboundmessage_QueueItems)
+- [msdyn_ocvoicemail_QueueItems](#BKMK_msdyn_ocvoicemail_QueueItems)
 - [msdyn_timegroup_QueueItems](#BKMK_msdyn_timegroup_QueueItems)
 - [msdyn_timegroupdetail_QueueItems](#BKMK_msdyn_timegroupdetail_QueueItems)
 
@@ -91,6 +80,19 @@ One-To-Many Relationship: [msdyn_ocoutboundmessage msdyn_ocoutboundmessage_Queue
 |ReferencedAttribute|`activityid`|
 |ReferencingAttribute|`objectid`|
 |ReferencingEntityNavigationPropertyName|`objectid_msdyn_ocoutboundmessage`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocvoicemail_QueueItems"></a> msdyn_ocvoicemail_QueueItems
+
+One-To-Many Relationship: [msdyn_ocvoicemail msdyn_ocvoicemail_QueueItems](msdyn_ocvoicemail.md#BKMK_msdyn_ocvoicemail_QueueItems)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocvoicemail`|
+|ReferencedAttribute|`activityid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyn_ocvoicemail`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

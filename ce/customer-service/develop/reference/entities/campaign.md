@@ -24,6 +24,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 
 - [campaign_msdyn_bookingalerts](#BKMK_campaign_msdyn_bookingalerts)
 - [campaign_msdyn_ocoutboundmessages](#BKMK_campaign_msdyn_ocoutboundmessages)
+- [campaign_msdyn_ocvoicemails](#BKMK_campaign_msdyn_ocvoicemails)
 
 ### <a name="BKMK_campaign_msdyn_bookingalerts"></a> campaign_msdyn_bookingalerts
 
@@ -47,6 +48,18 @@ Many-To-One Relationship: [msdyn_ocoutboundmessage campaign_msdyn_ocoutboundmess
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`campaign_msdyn_ocoutboundmessages`|
 |IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_campaign_msdyn_ocvoicemails"></a> campaign_msdyn_ocvoicemails
+
+Many-To-One Relationship: [msdyn_ocvoicemail campaign_msdyn_ocvoicemails](msdyn_ocvoicemail.md#BKMK_campaign_msdyn_ocvoicemails)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`campaign_msdyn_ocvoicemails`|
+|IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
