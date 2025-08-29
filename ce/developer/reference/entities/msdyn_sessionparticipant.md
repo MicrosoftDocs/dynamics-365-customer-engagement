@@ -83,6 +83,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_holdtime](#BKMK_msdyn_holdtime)
 - [msdyn_idletime](#BKMK_msdyn_idletime)
 - [msdyn_inactivetime](#BKMK_msdyn_inactivetime)
+- [msdyn_iscapacityblocking](#BKMK_msdyn_iscapacityblocking)
 - [msdyn_joinedon](#BKMK_msdyn_joinedon)
 - [msdyn_lastupdatedon](#BKMK_msdyn_lastupdatedon)
 - [msdyn_lefton](#BKMK_msdyn_lefton)
@@ -363,6 +364,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MaxValue|2147483647|
 |MinValue|0|
 
+### <a name="BKMK_msdyn_iscapacityblocking"></a> msdyn_iscapacityblocking
+
+|Property|Value|
+|---|---|
+|Description|**Indicates if the session participant is capacity blocking**|
+|DisplayName|**Is Capacity Blocking**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_iscapacityblocking`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_sessionparticipant_msdyn_iscapacityblocking`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_joinedon"></a> msdyn_joinedon
 
 |Property|Value|
@@ -435,7 +452,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Mode of Agent participation i.e. primary, consult, monitor, preview etc.**|
+|Description|**Mode of Agent participation i.e. primary, consult, monitor, preview, standby etc.**|
 |DisplayName|**Mode**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -453,6 +470,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350003|**Consult**|
 |192350004|**Monitor**|
 |192350005|**Preview**|
+|192350006|**Standby**|
 
 ### <a name="BKMK_msdyn_modifiedon"></a> msdyn_modifiedon
 
