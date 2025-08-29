@@ -70,7 +70,8 @@ The following table contains the list of context variables available in Omnichan
 To have your Copilot agent read context variables from Omnichannel, do the following steps:
 
 1. On the **Topics** page, select **Add a topic** > **from blank**.
-
+ > [!NOTE]
+   > Please use a topic that is not invoked. We recommend creating a new topic from scratch.  
 1. Enter a name for your topic, such as **Set context variables**, and save it.
 1. Add a new node to the topic, and select **Variable management > Set a variable value**.
 1. In your new node, under **Set variable** select **Create a new variable**.
