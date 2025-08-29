@@ -32,7 +32,7 @@ To view the agent activity, you need to add the autonomous agent to the Customer
 
 1. In the site map, select **Apps**, search for Copilot Service workspace, and edit it.
 1. In the site map, select the **Agents** icon.
-1. Under **Agent feed**, select the agent that corresponds to Case Management Agent, such as **Case followup and closure**, select the ellipses (...) > **Add to app**.
+1. Under **Agent feed**, select the agent that corresponds to Case Management Agent, such as **Case Processing Agent**, select the ellipses (...) > **Add to app**.
 
    :::image type="content" source="../media/screenshot-add-agent-feed.png" alt-text="Screenshot of adding agent feed to monitor AI agents.":::
 
