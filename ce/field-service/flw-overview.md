@@ -1,7 +1,7 @@
 ---
 title: Manage Field Service work orders with Microsoft 365 overview 
 description: Learn about integrations for Dynamics 365 Field Service with Microsoft Outlook and Teams.
-ms.date: 04/18/2024
+ms.date: 08/29/2025
 ms.topic: overview
 author: jasonxian-msft
 ms.author: jasonxian
@@ -11,6 +11,8 @@ ms.subservice: m365-integrations
 ---
 
 # Manage Field Service work orders with Microsoft 365 overview
+
+[!INCLUDE [m365-fs-deprecate](../includes/microsoft365-field-service-deprecation.md)]
 
 Dynamics 365 Field Service integrations with Microsoft Outlook, Teams, and Viva Connections let frontline workers and managers create, view, and manage work orders in Outlook and Teams. A frontline manager is typically a service manager and dispatcher. A frontline worker is a technician, the one performing the repair or maintenance.
 
