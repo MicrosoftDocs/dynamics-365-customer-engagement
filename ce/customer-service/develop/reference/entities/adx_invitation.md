@@ -24,6 +24,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 
 - [adx_invitation_msdyn_bookingalerts](#BKMK_adx_invitation_msdyn_bookingalerts)
 - [adx_invitation_msdyn_ocoutboundmessages](#BKMK_adx_invitation_msdyn_ocoutboundmessages)
+- [adx_invitation_msdyn_ocvoicemails](#BKMK_adx_invitation_msdyn_ocvoicemails)
 
 ### <a name="BKMK_adx_invitation_msdyn_bookingalerts"></a> adx_invitation_msdyn_bookingalerts
 
@@ -46,6 +47,18 @@ Many-To-One Relationship: [msdyn_ocoutboundmessage adx_invitation_msdyn_ocoutbou
 |ReferencingEntity|`msdyn_ocoutboundmessage`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`adx_invitation_msdyn_ocoutboundmessages`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_adx_invitation_msdyn_ocvoicemails"></a> adx_invitation_msdyn_ocvoicemails
+
+Many-To-One Relationship: [msdyn_ocvoicemail adx_invitation_msdyn_ocvoicemails](msdyn_ocvoicemail.md#BKMK_adx_invitation_msdyn_ocvoicemails)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`adx_invitation_msdyn_ocvoicemails`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

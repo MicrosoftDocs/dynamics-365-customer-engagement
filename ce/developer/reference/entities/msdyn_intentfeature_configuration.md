@@ -73,6 +73,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_feature_status](#BKMK_msdyn_feature_status)
 - [msdyn_intentfeature_configurationId](#BKMK_msdyn_intentfeature_configurationId)
 - [msdyn_isenabled](#BKMK_msdyn_isenabled)
+- [msdyn_kbcopilotprovisioning_status](#BKMK_msdyn_kbcopilotprovisioning_status)
 - [msdyn_Name](#BKMK_msdyn_Name)
 - [msdyn_packageprovisioning_status](#BKMK_msdyn_packageprovisioning_status)
 - [msdyn_provision_trigger_time](#BKMK_msdyn_provision_trigger_time)
@@ -177,6 +178,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DefaultValue|False|
 |True Label|Enabled|
 |False Label|Disabled|
+
+### <a name="BKMK_msdyn_kbcopilotprovisioning_status"></a> msdyn_kbcopilotprovisioning_status
+
+|Property|Value|
+|---|---|
+|Description|**msdyn\_kbcopilotprovisioning\_status**|
+|DisplayName|**msdyn\_kbcopilotprovisioning\_status**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_kbcopilotprovisioning_status`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_Name"></a> msdyn_Name
 
@@ -505,7 +523,7 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`owningbusinessunit`|
-|RequiredLevel|None|
+|RequiredLevel|SystemRequired|
 |Type|Lookup|
 |Targets|businessunit|
 

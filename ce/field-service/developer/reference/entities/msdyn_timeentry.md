@@ -712,7 +712,7 @@ One-To-Many Relationship: [bookableresource msdyn_bookableresource_msdyn_timeent
 |ReferencingAttribute|`msdyn_bookableresource`|
 |ReferencingEntityNavigationPropertyName|`msdyn_bookableresource`|
 |IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msdyn_bookableresourcebooking_msdyn_timeentry_BookableResourceBooking"></a> msdyn_bookableresourcebooking_msdyn_timeentry_BookableResourceBooking
 

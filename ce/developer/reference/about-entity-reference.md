@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Enabled apps table/entity reference"
 description: "This reference contains tables added or modified when you enable Dynamics 365 apps while adding Dataverse to an environment you create"
-ms.date: 01/23/2025
+ms.date: 08/29/2025
 author: JimDaly
 ms.author: jdaly
 ms.reviewer: jdaly

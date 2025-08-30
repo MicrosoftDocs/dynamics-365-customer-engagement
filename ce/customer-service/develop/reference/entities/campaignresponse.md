@@ -24,6 +24,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 
 - [CampaignResponse_msdyn_bookingalerts](#BKMK_CampaignResponse_msdyn_bookingalerts)
 - [CampaignResponse_msdyn_ocoutboundmessages](#BKMK_CampaignResponse_msdyn_ocoutboundmessages)
+- [CampaignResponse_msdyn_ocvoicemails](#BKMK_CampaignResponse_msdyn_ocvoicemails)
 
 ### <a name="BKMK_CampaignResponse_msdyn_bookingalerts"></a> CampaignResponse_msdyn_bookingalerts
 
@@ -48,6 +49,19 @@ One-To-Many Relationship: [msdyn_ocoutboundmessage CampaignResponse_msdyn_ocoutb
 |ReferencedAttribute|`activityid`|
 |ReferencingAttribute|`originatingactivityid`|
 |ReferencingEntityNavigationPropertyName|`originatingactivityid_msdyn_ocoutboundmessage_campaignresponse`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Cascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_CampaignResponse_msdyn_ocvoicemails"></a> CampaignResponse_msdyn_ocvoicemails
+
+One-To-Many Relationship: [msdyn_ocvoicemail CampaignResponse_msdyn_ocvoicemails](msdyn_ocvoicemail.md#BKMK_CampaignResponse_msdyn_ocvoicemails)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocvoicemail`|
+|ReferencedAttribute|`activityid`|
+|ReferencingAttribute|`originatingactivityid`|
+|ReferencingEntityNavigationPropertyName|`originatingactivityid_msdyn_ocvoicemail_campaignresponse`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `Cascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

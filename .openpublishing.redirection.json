@@ -1836,11 +1836,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocsessionparticipantevent.md",
-      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_ocsessionparticipantevent",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocsessionsentiment.md",
       "redirect_url": "/dynamics365/developer/reference/entities/msdyn_ocsessionsentiment",
       "redirect_document_id": "false"
@@ -1981,11 +1976,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_sessionparticipant.md",
-      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_sessionparticipant",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_skillattachmentruleitem.md",
       "redirect_url": "/dynamics365/developer/reference/entities/msdyn_skillattachmentruleitem",
       "redirect_document_id": "false"
@@ -2016,38 +2006,13 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_unifiedroutingdiagnostic.md",
-      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_unifiedroutingdiagnostic",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_unifiedroutingrun.md",
-      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_unifiedroutingrun",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_unifiedroutingsetuptracker.md",
       "redirect_url": "/dynamics365/developer/reference/entities/msdyn_unifiedroutingsetuptracker",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_usersetting.md",
-      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_usersetting",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_visitorjourney.md",
       "redirect_url": "/dynamics365/developer/reference/entities/msdyn_visitorjourney",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/customer-service/develop/reference/entities/queue.md",
-      "redirect_url": "/dynamics365/developer/reference/entities/queue",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocrecording.md",
-      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_ocrecording",
       "redirect_document_id": "false"
     },
     {
@@ -2102,26 +2067,6 @@
     },
     {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocliveworkitemparticipant.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocphonecallengagementctx.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocvoice.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocvoicechannellanguagesetting.md",
-      "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocvoicechannelsetting.md",
       "redirect_url": "/dynamics365/customer-service/develop/reference/about-entity-reference",
       "redirect_document_id": "false"
     },

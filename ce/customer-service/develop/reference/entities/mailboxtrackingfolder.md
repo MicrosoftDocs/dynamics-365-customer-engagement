@@ -27,7 +27,7 @@ Changes from [RegardingObjectId (Microsoft Dataverse)](/power-apps/developer/dat
 
 |Property|Value|
 |---|---|
-|Targets|msdyn_actual, msdyn_amsbuild, msdyn_amsmodel, msdyn_amsprofile, msdyn_amsprofilesettings, msdyn_amstag, msdyn_azurenotificationhub, msdyn_bookableresourceassociation, msdyn_bookingalert, msdyn_bookingalertstatus, msdyn_bookingchange, msdyn_bookingrule, msdyn_bookingsetupmetadata, msdyn_businessclosure, msdyn_channel, msdyn_channelinstancesecret, msdyn_chatansweroption, msdyn_chatquestionnaireresponse, msdyn_chatquestionnaireresponseitem, msdyn_chatwidgetlanguage, msdyn_clientextension, msdyn_configuration, msdyn_customengagementctx, msdyn_facebookengagementctx, msdyn_lineengagementctx, msdyn_livechatconfig, msdyn_livechatengagementctx, msdyn_livechatwidgetlocation, msdyn_localizedsurveyquestion, msdyn_ocapplebusinessaccount, msdyn_ocapplemessagesforbusinessengagementctx, msdyn_ocapplepay, msdyn_occarrier, msdyn_occommunicationprovidersetting, msdyn_occommunicationprovidersettingentry, msdyn_occustommessagingchannel, msdyn_ocfbapplication, msdyn_ocfbpage, msdyn_ocgooglebusinessmessagesagentaccount, msdyn_ocgooglebusinessmessagesengagementctx, msdyn_ocgooglebusinessmessagespartneraccount, msdyn_oclinechannelconfig, msdyn_ocoutboundconfiguration, msdyn_ocoutboundmessage, msdyn_ocphonenumber, msdyn_ocsmschannelsetting, msdyn_ocsmssettingsecret, msdyn_octeamschannelconfig, msdyn_octwitterapplication, msdyn_octwitterhandle, msdyn_octwitterhandleprovisioningstatus, msdyn_octwitterhandlesecret, msdyn_ocwechatchannelconfig, msdyn_ocwhatsappchannelaccount, msdyn_ocwhatsappchannelnumber, msdyn_organizationalunit, msdyn_priority, msdyn_questionsequence, msdyn_requirementchange, msdyn_requirementcharacteristic, msdyn_requirementdependency, msdyn_requirementgroup, msdyn_requirementorganizationunit, msdyn_requirementrelationship, msdyn_requirementresourcecategory, msdyn_requirementresourcepreference, msdyn_requirementstatus, msdyn_resourcerequirement, msdyn_resourcerequirementdetail, msdyn_resourceterritory, msdyn_scenario, msdyn_scheduleboardsetting, msdyn_schedulingfeatureflag, msdyn_schedulingparameter, msdyn_schedulingscope, msdyn_smsengagementctx, msdyn_smsnumber, msdyn_surveyquestion, msdyn_systemuserschedulersetting, msdyn_teamschannelengagementctx, msdyn_teamsengagementctx, msdyn_timegroup, msdyn_timegroupdetail, msdyn_transactionorigin, msdyn_twitterengagementctx, msdyn_webengagementruleset, msdyn_webengagementrulesetconfig, msdyn_webengagementrulesetrevision, msdyn_webengagementsitearea, msdyn_wechatengagementctx, msdyn_whatsappengagementctx, msdyn_workhourtemplate|
+|Targets|msdyn_actual, msdyn_amsbuild, msdyn_amsmodel, msdyn_amsprofile, msdyn_amsprofilesettings, msdyn_amstag, msdyn_azurenotificationhub, msdyn_bookableresourceassociation, msdyn_bookingalert, msdyn_bookingalertstatus, msdyn_bookingchange, msdyn_bookingrule, msdyn_bookingsetupmetadata, msdyn_businessclosure, msdyn_channel, msdyn_channelinstancesecret, msdyn_chatansweroption, msdyn_chatquestionnaireresponse, msdyn_chatquestionnaireresponseitem, msdyn_chatwidgetlanguage, msdyn_clientextension, msdyn_configuration, msdyn_customengagementctx, msdyn_facebookengagementctx, msdyn_lineengagementctx, msdyn_livechatconfig, msdyn_livechatengagementctx, msdyn_livechatwidgetlocation, msdyn_localizedsurveyquestion, msdyn_ocapplebusinessaccount, msdyn_ocapplemessagesforbusinessengagementctx, msdyn_ocapplepay, msdyn_occarrier, msdyn_occommunicationprovidersetting, msdyn_occommunicationprovidersettingentry, msdyn_occustommessagingchannel, msdyn_ocexternalsecuritysetting, msdyn_ocfbapplication, msdyn_ocfbpage, msdyn_ocgatekeeperengagementctx, msdyn_ocgooglebusinessmessagesagentaccount, msdyn_ocgooglebusinessmessagesengagementctx, msdyn_ocgooglebusinessmessagespartneraccount, msdyn_oclinechannelconfig, msdyn_ocoutboundconfiguration, msdyn_ocoutboundmessage, msdyn_ocphonecallengagementctx, msdyn_ocphonemusic, msdyn_ocphonenumber, msdyn_ocsmschannelsetting, msdyn_ocsmssettingsecret, msdyn_octeamschannelconfig, msdyn_octwitterapplication, msdyn_octwitterhandle, msdyn_octwitterhandleprovisioningstatus, msdyn_octwitterhandlesecret, msdyn_ocvoice, msdyn_ocvoicechannellanguagesetting, msdyn_ocvoicechannelsetting, msdyn_ocvoicemail, msdyn_ocwechatchannelconfig, msdyn_ocwhatsappchannelaccount, msdyn_ocwhatsappchannelnumber, msdyn_organizationalunit, msdyn_priority, msdyn_proactive_eng_config_characteristic, msdyn_proactive_engagement_config, msdyn_proactive_engagement_config_attribute, msdyn_proactive_engagement_config_status, msdyn_questionsequence, msdyn_requirementchange, msdyn_requirementcharacteristic, msdyn_requirementdependency, msdyn_requirementgroup, msdyn_requirementorganizationunit, msdyn_requirementrelationship, msdyn_requirementresourcecategory, msdyn_requirementresourcepreference, msdyn_requirementstatus, msdyn_resourcerequirement, msdyn_resourcerequirementdetail, msdyn_resourceterritory, msdyn_scenario, msdyn_scheduleboardsetting, msdyn_schedulingfeatureflag, msdyn_schedulingparameter, msdyn_schedulingscope, msdyn_smsengagementctx, msdyn_smsnumber, msdyn_surveyquestion, msdyn_systemuserschedulersetting, msdyn_teamschannelengagementctx, msdyn_teamsengagementctx, msdyn_timegroup, msdyn_timegroupdetail, msdyn_transactionorigin, msdyn_twitterengagementctx, msdyn_voicechannelorganizationsetting, msdyn_webengagementruleset, msdyn_webengagementrulesetconfig, msdyn_webengagementrulesetrevision, msdyn_webengagementsitearea, msdyn_wechatengagementctx, msdyn_whatsappengagementctx, msdyn_workhourtemplate, msdyn_workstreamhmmigrationstatus|
 
 
 ## Many-to-One relationships
@@ -70,14 +70,18 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_occommunicationprovidersetting_MailboxTrackingFolders](#BKMK_msdyn_occommunicationprovidersetting_MailboxTrackingFolders)
 - [msdyn_occommunicationprovidersettingentry_MailboxTrackingFolders](#BKMK_msdyn_occommunicationprovidersettingentry_MailboxTrackingFolders)
 - [msdyn_occustommessagingchannel_MailboxTrackingFolders](#BKMK_msdyn_occustommessagingchannel_MailboxTrackingFolders)
+- [msdyn_ocexternalsecuritysetting_MailboxTrackingFolders](#BKMK_msdyn_ocexternalsecuritysetting_MailboxTrackingFolders)
 - [msdyn_ocfbapplication_MailboxTrackingFolders](#BKMK_msdyn_ocfbapplication_MailboxTrackingFolders)
 - [msdyn_ocfbpage_MailboxTrackingFolders](#BKMK_msdyn_ocfbpage_MailboxTrackingFolders)
+- [msdyn_ocgatekeeperengagementctx_MailboxTrackingFolders](#BKMK_msdyn_ocgatekeeperengagementctx_MailboxTrackingFolders)
 - [msdyn_ocgooglebusinessmessagesagentaccount_MailboxTrackingFolders](#BKMK_msdyn_ocgooglebusinessmessagesagentaccount_MailboxTrackingFolders)
 - [msdyn_ocgooglebusinessmessagesengagementctx_MailboxTrackingFolders](#BKMK_msdyn_ocgooglebusinessmessagesengagementctx_MailboxTrackingFolders)
 - [msdyn_ocgooglebusinessmessagespartneraccount_MailboxTrackingFolders](#BKMK_msdyn_ocgooglebusinessmessagespartneraccount_MailboxTrackingFolders)
 - [msdyn_oclinechannelconfig_MailboxTrackingFolders](#BKMK_msdyn_oclinechannelconfig_MailboxTrackingFolders)
 - [msdyn_ocoutboundconfiguration_MailboxTrackingFolders](#BKMK_msdyn_ocoutboundconfiguration_MailboxTrackingFolders)
 - [msdyn_ocoutboundmessage_MailboxTrackingFolders](#BKMK_msdyn_ocoutboundmessage_MailboxTrackingFolders)
+- [msdyn_ocphonecallengagementctx_MailboxTrackingFolders](#BKMK_msdyn_ocphonecallengagementctx_MailboxTrackingFolders)
+- [msdyn_ocphonemusic_MailboxTrackingFolders](#BKMK_msdyn_ocphonemusic_MailboxTrackingFolders)
 - [msdyn_ocphonenumber_MailboxTrackingFolders](#BKMK_msdyn_ocphonenumber_MailboxTrackingFolders)
 - [msdyn_ocsmschannelsetting_MailboxTrackingFolders](#BKMK_msdyn_ocsmschannelsetting_MailboxTrackingFolders)
 - [msdyn_ocsmssettingsecret_MailboxTrackingFolders](#BKMK_msdyn_ocsmssettingsecret_MailboxTrackingFolders)
@@ -86,11 +90,19 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_octwitterhandle_MailboxTrackingFolders](#BKMK_msdyn_octwitterhandle_MailboxTrackingFolders)
 - [msdyn_octwitterhandleprovisioningstatus_MailboxTrackingFolders](#BKMK_msdyn_octwitterhandleprovisioningstatus_MailboxTrackingFolders)
 - [msdyn_octwitterhandlesecret_MailboxTrackingFolders](#BKMK_msdyn_octwitterhandlesecret_MailboxTrackingFolders)
+- [msdyn_ocvoice_MailboxTrackingFolders](#BKMK_msdyn_ocvoice_MailboxTrackingFolders)
+- [msdyn_ocvoicechannellanguagesetting_MailboxTrackingFolders](#BKMK_msdyn_ocvoicechannellanguagesetting_MailboxTrackingFolders)
+- [msdyn_ocvoicechannelsetting_MailboxTrackingFolders](#BKMK_msdyn_ocvoicechannelsetting_MailboxTrackingFolders)
+- [msdyn_ocvoicemail_MailboxTrackingFolders](#BKMK_msdyn_ocvoicemail_MailboxTrackingFolders)
 - [msdyn_ocwechatchannelconfig_MailboxTrackingFolders](#BKMK_msdyn_ocwechatchannelconfig_MailboxTrackingFolders)
 - [msdyn_ocwhatsappchannelaccount_MailboxTrackingFolders](#BKMK_msdyn_ocwhatsappchannelaccount_MailboxTrackingFolders)
 - [msdyn_ocwhatsappchannelnumber_MailboxTrackingFolders](#BKMK_msdyn_ocwhatsappchannelnumber_MailboxTrackingFolders)
 - [msdyn_organizationalunit_MailboxTrackingFolders](#BKMK_msdyn_organizationalunit_MailboxTrackingFolders)
 - [msdyn_priority_MailboxTrackingFolders](#BKMK_msdyn_priority_MailboxTrackingFolders)
+- [msdyn_proactive_eng_config_characteristic_MailboxTrackingFolders](#BKMK_msdyn_proactive_eng_config_characteristic_MailboxTrackingFolders)
+- [msdyn_proactive_engagement_config_attribute_MailboxTrackingFolders](#BKMK_msdyn_proactive_engagement_config_attribute_MailboxTrackingFolders)
+- [msdyn_proactive_engagement_config_MailboxTrackingFolders](#BKMK_msdyn_proactive_engagement_config_MailboxTrackingFolders)
+- [msdyn_proactive_engagement_config_status_MailboxTrackingFolders](#BKMK_msdyn_proactive_engagement_config_status_MailboxTrackingFolders)
 - [msdyn_questionsequence_MailboxTrackingFolders](#BKMK_msdyn_questionsequence_MailboxTrackingFolders)
 - [msdyn_requirementchange_MailboxTrackingFolders](#BKMK_msdyn_requirementchange_MailboxTrackingFolders)
 - [msdyn_requirementcharacteristic_MailboxTrackingFolders](#BKMK_msdyn_requirementcharacteristic_MailboxTrackingFolders)
@@ -118,6 +130,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_timegroupdetail_MailboxTrackingFolders](#BKMK_msdyn_timegroupdetail_MailboxTrackingFolders)
 - [msdyn_transactionorigin_MailboxTrackingFolders](#BKMK_msdyn_transactionorigin_MailboxTrackingFolders)
 - [msdyn_twitterengagementctx_MailboxTrackingFolders](#BKMK_msdyn_twitterengagementctx_MailboxTrackingFolders)
+- [msdyn_voicechannelorganizationsetting_MailboxTrackingFolders](#BKMK_msdyn_voicechannelorganizationsetting_MailboxTrackingFolders)
 - [msdyn_webengagementruleset_MailboxTrackingFolders](#BKMK_msdyn_webengagementruleset_MailboxTrackingFolders)
 - [msdyn_webengagementrulesetconfig_MailboxTrackingFolders](#BKMK_msdyn_webengagementrulesetconfig_MailboxTrackingFolders)
 - [msdyn_webengagementrulesetrevision_MailboxTrackingFolders](#BKMK_msdyn_webengagementrulesetrevision_MailboxTrackingFolders)
@@ -594,6 +607,19 @@ One-To-Many Relationship: [msdyn_occustommessagingchannel msdyn_occustommessagin
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_ocexternalsecuritysetting_MailboxTrackingFolders"></a> msdyn_ocexternalsecuritysetting_MailboxTrackingFolders
+
+One-To-Many Relationship: [msdyn_ocexternalsecuritysetting msdyn_ocexternalsecuritysetting_MailboxTrackingFolders](msdyn_ocexternalsecuritysetting.md#BKMK_msdyn_ocexternalsecuritysetting_MailboxTrackingFolders)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocexternalsecuritysetting`|
+|ReferencedAttribute|`msdyn_ocexternalsecuritysettingid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocexternalsecuritysetting`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msdyn_ocfbapplication_MailboxTrackingFolders"></a> msdyn_ocfbapplication_MailboxTrackingFolders
 
 One-To-Many Relationship: [msdyn_ocfbapplication msdyn_ocfbapplication_MailboxTrackingFolders](msdyn_ocfbapplication.md#BKMK_msdyn_ocfbapplication_MailboxTrackingFolders)
@@ -617,6 +643,19 @@ One-To-Many Relationship: [msdyn_ocfbpage msdyn_ocfbpage_MailboxTrackingFolders]
 |ReferencedAttribute|`msdyn_ocfbpageid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocfbpage`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocgatekeeperengagementctx_MailboxTrackingFolders"></a> msdyn_ocgatekeeperengagementctx_MailboxTrackingFolders
+
+One-To-Many Relationship: [msdyn_ocgatekeeperengagementctx msdyn_ocgatekeeperengagementctx_MailboxTrackingFolders](msdyn_ocgatekeeperengagementctx.md#BKMK_msdyn_ocgatekeeperengagementctx_MailboxTrackingFolders)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocgatekeeperengagementctx`|
+|ReferencedAttribute|`msdyn_ocgatekeeperengagementctxid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocgatekeeperengagementctx`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -695,6 +734,32 @@ One-To-Many Relationship: [msdyn_ocoutboundmessage msdyn_ocoutboundmessage_Mailb
 |ReferencedAttribute|`activityid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocoutboundmessage`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocphonecallengagementctx_MailboxTrackingFolders"></a> msdyn_ocphonecallengagementctx_MailboxTrackingFolders
+
+One-To-Many Relationship: [msdyn_ocphonecallengagementctx msdyn_ocphonecallengagementctx_MailboxTrackingFolders](msdyn_ocphonecallengagementctx.md#BKMK_msdyn_ocphonecallengagementctx_MailboxTrackingFolders)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocphonecallengagementctx`|
+|ReferencedAttribute|`msdyn_ocphonecallengagementctxid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocphonecallengagementctx`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocphonemusic_MailboxTrackingFolders"></a> msdyn_ocphonemusic_MailboxTrackingFolders
+
+One-To-Many Relationship: [msdyn_ocphonemusic msdyn_ocphonemusic_MailboxTrackingFolders](msdyn_ocphonemusic.md#BKMK_msdyn_ocphonemusic_MailboxTrackingFolders)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocphonemusic`|
+|ReferencedAttribute|`msdyn_ocphonemusicid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocphonemusic`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -802,6 +867,58 @@ One-To-Many Relationship: [msdyn_octwitterhandlesecret msdyn_octwitterhandlesecr
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_ocvoice_MailboxTrackingFolders"></a> msdyn_ocvoice_MailboxTrackingFolders
+
+One-To-Many Relationship: [msdyn_ocvoice msdyn_ocvoice_MailboxTrackingFolders](msdyn_ocvoice.md#BKMK_msdyn_ocvoice_MailboxTrackingFolders)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocvoice`|
+|ReferencedAttribute|`msdyn_ocvoiceid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocvoice`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocvoicechannellanguagesetting_MailboxTrackingFolders"></a> msdyn_ocvoicechannellanguagesetting_MailboxTrackingFolders
+
+One-To-Many Relationship: [msdyn_ocvoicechannellanguagesetting msdyn_ocvoicechannellanguagesetting_MailboxTrackingFolders](msdyn_ocvoicechannellanguagesetting.md#BKMK_msdyn_ocvoicechannellanguagesetting_MailboxTrackingFolders)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocvoicechannellanguagesetting`|
+|ReferencedAttribute|`msdyn_ocvoicechannellanguagesettingid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocvoicechannellanguagesetting`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocvoicechannelsetting_MailboxTrackingFolders"></a> msdyn_ocvoicechannelsetting_MailboxTrackingFolders
+
+One-To-Many Relationship: [msdyn_ocvoicechannelsetting msdyn_ocvoicechannelsetting_MailboxTrackingFolders](msdyn_ocvoicechannelsetting.md#BKMK_msdyn_ocvoicechannelsetting_MailboxTrackingFolders)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocvoicechannelsetting`|
+|ReferencedAttribute|`msdyn_ocvoicechannelsettingid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocvoicechannelsetting`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocvoicemail_MailboxTrackingFolders"></a> msdyn_ocvoicemail_MailboxTrackingFolders
+
+One-To-Many Relationship: [msdyn_ocvoicemail msdyn_ocvoicemail_MailboxTrackingFolders](msdyn_ocvoicemail.md#BKMK_msdyn_ocvoicemail_MailboxTrackingFolders)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocvoicemail`|
+|ReferencedAttribute|`activityid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocvoicemail`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msdyn_ocwechatchannelconfig_MailboxTrackingFolders"></a> msdyn_ocwechatchannelconfig_MailboxTrackingFolders
 
 One-To-Many Relationship: [msdyn_ocwechatchannelconfig msdyn_ocwechatchannelconfig_MailboxTrackingFolders](msdyn_ocwechatchannelconfig.md#BKMK_msdyn_ocwechatchannelconfig_MailboxTrackingFolders)
@@ -864,6 +981,58 @@ One-To-Many Relationship: [msdyn_priority msdyn_priority_MailboxTrackingFolders]
 |ReferencedAttribute|`msdyn_priorityid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_priority`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_proactive_eng_config_characteristic_MailboxTrackingFolders"></a> msdyn_proactive_eng_config_characteristic_MailboxTrackingFolders
+
+One-To-Many Relationship: [msdyn_proactive_eng_config_characteristic msdyn_proactive_eng_config_characteristic_MailboxTrackingFolders](msdyn_proactive_eng_config_characteristic.md#BKMK_msdyn_proactive_eng_config_characteristic_MailboxTrackingFolders)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_eng_config_characteristic`|
+|ReferencedAttribute|`msdyn_proactive_eng_config_characteristicid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_proactive_eng_config_characteristic`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_proactive_engagement_config_attribute_MailboxTrackingFolders"></a> msdyn_proactive_engagement_config_attribute_MailboxTrackingFolders
+
+One-To-Many Relationship: [msdyn_proactive_engagement_config_attribute msdyn_proactive_engagement_config_attribute_MailboxTrackingFolders](msdyn_proactive_engagement_config_attribute.md#BKMK_msdyn_proactive_engagement_config_attribute_MailboxTrackingFolders)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_engagement_config_attribute`|
+|ReferencedAttribute|`msdyn_proactive_engagement_config_attributeid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_proactive_engagement_config_attribute`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_proactive_engagement_config_MailboxTrackingFolders"></a> msdyn_proactive_engagement_config_MailboxTrackingFolders
+
+One-To-Many Relationship: [msdyn_proactive_engagement_config msdyn_proactive_engagement_config_MailboxTrackingFolders](msdyn_proactive_engagement_config.md#BKMK_msdyn_proactive_engagement_config_MailboxTrackingFolders)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_engagement_config`|
+|ReferencedAttribute|`msdyn_proactive_engagement_configid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_proactive_engagement_config`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_proactive_engagement_config_status_MailboxTrackingFolders"></a> msdyn_proactive_engagement_config_status_MailboxTrackingFolders
+
+One-To-Many Relationship: [msdyn_proactive_engagement_config_status msdyn_proactive_engagement_config_status_MailboxTrackingFolders](msdyn_proactive_engagement_config_status.md#BKMK_msdyn_proactive_engagement_config_status_MailboxTrackingFolders)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_engagement_config_status`|
+|ReferencedAttribute|`msdyn_proactive_engagement_config_statusid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_proactive_engagement_config_status`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -1215,6 +1384,19 @@ One-To-Many Relationship: [msdyn_twitterengagementctx msdyn_twitterengagementctx
 |ReferencedAttribute|`msdyn_twitterengagementctxid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_twitterengagementctx`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_voicechannelorganizationsetting_MailboxTrackingFolders"></a> msdyn_voicechannelorganizationsetting_MailboxTrackingFolders
+
+One-To-Many Relationship: [msdyn_voicechannelorganizationsetting msdyn_voicechannelorganizationsetting_MailboxTrackingFolders](msdyn_voicechannelorganizationsetting.md#BKMK_msdyn_voicechannelorganizationsetting_MailboxTrackingFolders)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_voicechannelorganizationsetting`|
+|ReferencedAttribute|`msdyn_voicechannelorganizationsettingid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_voicechannelorganizationsetting`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
