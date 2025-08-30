@@ -1,7 +1,7 @@
 ---
 title: Service Scheduling FAQ
 description: Find answers to common questions about service scheduling, including license requirements, availability, and resource selection.
-ms.date: 06/26/2025
+ms.date: 08/29/2025
 ms.update-cycle: 1095-days
 ms.topic: concept-article
 author: Soumyasd27
@@ -25,11 +25,7 @@ This topic provides answers to some common questions about service scheduling, i
 
 ## What licenses do I need to enable service scheduling for my org?
  
-The new scheduling experience is available to you if you have one of the following licenses:
-
-- D365_ENTERPRISE_P1 – Customer Engagement
-- D365_ENTEPRISE_CS – Customer Service
-- D365_ENTERPRISE_CM – Case Management
+Specific licensing requirements apply when you use the feature with product environments. Learn more in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 ## Is the new scheduling experience automatically available from the Power Platform admin center?
 

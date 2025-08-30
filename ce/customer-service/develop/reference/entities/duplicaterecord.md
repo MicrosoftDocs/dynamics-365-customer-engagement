@@ -30,7 +30,7 @@ Changes from [BaseRecordId (Microsoft Dataverse)](/power-apps/developer/data-pla
 
 |Property|Value|
 |---|---|
-|Targets|msdyn_actual, msdyn_azurenotificationhub, msdyn_bookableresourceassociation, msdyn_bookingalert, msdyn_bookingalertstatus, msdyn_bookingrule, msdyn_channel, msdyn_channelinstancesecret, msdyn_chatwidgetlanguage, msdyn_clientextension, msdyn_customengagementctx, msdyn_localizedsurveyquestion, msdyn_ocapplebusinessaccount, msdyn_ocapplemessagesforbusinessengagementctx, msdyn_ocapplepay, msdyn_occarrier, msdyn_occommunicationprovidersetting, msdyn_occommunicationprovidersettingentry, msdyn_occustommessagingchannel, msdyn_ocfbapplication, msdyn_ocfbpage, msdyn_ocgooglebusinessmessagesagentaccount, msdyn_ocgooglebusinessmessagesengagementctx, msdyn_ocgooglebusinessmessagespartneraccount, msdyn_oclinechannelconfig, msdyn_ocoutboundconfiguration, msdyn_ocoutboundmessage, msdyn_ocphonenumber, msdyn_ocsmschannelsetting, msdyn_ocsmssettingsecret, msdyn_octeamschannelconfig, msdyn_octwitterapplication, msdyn_octwitterhandle, msdyn_octwitterhandleprovisioningstatus, msdyn_octwitterhandlesecret, msdyn_ocwechatchannelconfig, msdyn_ocwhatsappchannelaccount, msdyn_ocwhatsappchannelnumber, msdyn_organizationalunit, msdyn_priority, msdyn_requirementcharacteristic, msdyn_requirementdependency, msdyn_requirementgroup, msdyn_requirementorganizationunit, msdyn_requirementrelationship, msdyn_requirementresourcecategory, msdyn_requirementresourcepreference, msdyn_requirementstatus, msdyn_resourcerequirement, msdyn_resourcerequirementdetail, msdyn_resourceterritory, msdyn_scenario, msdyn_scheduleboardsetting, msdyn_schedulingfeatureflag, msdyn_smsnumber, msdyn_systemuserschedulersetting, msdyn_teamschannelengagementctx, msdyn_teamsengagementctx, msdyn_timegroup, msdyn_timegroupdetail, msdyn_transactionorigin, msdyn_twitterengagementctx, msdyn_webengagementrulesetconfig, msdyn_webengagementsitearea, msdyn_workhourtemplate|
+|Targets|msdyn_actual, msdyn_azurenotificationhub, msdyn_bookableresourceassociation, msdyn_bookingalert, msdyn_bookingalertstatus, msdyn_bookingrule, msdyn_channel, msdyn_channelinstancesecret, msdyn_chatwidgetlanguage, msdyn_clientextension, msdyn_customengagementctx, msdyn_localizedsurveyquestion, msdyn_ocapplebusinessaccount, msdyn_ocapplemessagesforbusinessengagementctx, msdyn_ocapplepay, msdyn_occarrier, msdyn_occommunicationprovidersetting, msdyn_occommunicationprovidersettingentry, msdyn_occustommessagingchannel, msdyn_ocfbapplication, msdyn_ocfbpage, msdyn_ocgatekeeperengagementctx, msdyn_ocgooglebusinessmessagesagentaccount, msdyn_ocgooglebusinessmessagesengagementctx, msdyn_ocgooglebusinessmessagespartneraccount, msdyn_oclinechannelconfig, msdyn_ocoutboundconfiguration, msdyn_ocoutboundmessage, msdyn_ocphonenumber, msdyn_ocsmschannelsetting, msdyn_ocsmssettingsecret, msdyn_octeamschannelconfig, msdyn_octwitterapplication, msdyn_octwitterhandle, msdyn_octwitterhandleprovisioningstatus, msdyn_octwitterhandlesecret, msdyn_ocvoice, msdyn_ocvoicechannellanguagesetting, msdyn_ocvoicemail, msdyn_ocwechatchannelconfig, msdyn_ocwhatsappchannelaccount, msdyn_ocwhatsappchannelnumber, msdyn_organizationalunit, msdyn_priority, msdyn_proactive_eng_config_characteristic, msdyn_proactive_engagement_config, msdyn_proactive_engagement_config_attribute, msdyn_proactive_engagement_config_status, msdyn_requirementcharacteristic, msdyn_requirementdependency, msdyn_requirementgroup, msdyn_requirementorganizationunit, msdyn_requirementrelationship, msdyn_requirementresourcecategory, msdyn_requirementresourcepreference, msdyn_requirementstatus, msdyn_resourcerequirement, msdyn_resourcerequirementdetail, msdyn_resourceterritory, msdyn_scenario, msdyn_scheduleboardsetting, msdyn_schedulingfeatureflag, msdyn_smsnumber, msdyn_systemuserschedulersetting, msdyn_teamschannelengagementctx, msdyn_teamsengagementctx, msdyn_timegroup, msdyn_timegroupdetail, msdyn_transactionorigin, msdyn_twitterengagementctx, msdyn_voicechannelorganizationsetting, msdyn_webengagementrulesetconfig, msdyn_webengagementsitearea, msdyn_workhourtemplate, msdyn_workstreamhmmigrationstatus|
 
 
 ### <a name="BKMK_DuplicateRecordId"></a> DuplicateRecordId
@@ -39,7 +39,7 @@ Changes from [DuplicateRecordId (Microsoft Dataverse)](/power-apps/developer/dat
 
 |Property|Value|
 |---|---|
-|Targets|msdyn_actual, msdyn_azurenotificationhub, msdyn_bookableresourceassociation, msdyn_bookingalert, msdyn_bookingalertstatus, msdyn_bookingrule, msdyn_channel, msdyn_channelinstancesecret, msdyn_chatwidgetlanguage, msdyn_clientextension, msdyn_customengagementctx, msdyn_localizedsurveyquestion, msdyn_ocapplebusinessaccount, msdyn_ocapplemessagesforbusinessengagementctx, msdyn_ocapplepay, msdyn_occarrier, msdyn_occommunicationprovidersetting, msdyn_occommunicationprovidersettingentry, msdyn_occustommessagingchannel, msdyn_ocfbapplication, msdyn_ocfbpage, msdyn_ocgooglebusinessmessagesagentaccount, msdyn_ocgooglebusinessmessagesengagementctx, msdyn_ocgooglebusinessmessagespartneraccount, msdyn_oclinechannelconfig, msdyn_ocoutboundconfiguration, msdyn_ocoutboundmessage, msdyn_ocphonenumber, msdyn_ocsmschannelsetting, msdyn_ocsmssettingsecret, msdyn_octeamschannelconfig, msdyn_octwitterapplication, msdyn_octwitterhandle, msdyn_octwitterhandleprovisioningstatus, msdyn_octwitterhandlesecret, msdyn_ocwechatchannelconfig, msdyn_ocwhatsappchannelaccount, msdyn_ocwhatsappchannelnumber, msdyn_organizationalunit, msdyn_priority, msdyn_requirementcharacteristic, msdyn_requirementdependency, msdyn_requirementgroup, msdyn_requirementorganizationunit, msdyn_requirementrelationship, msdyn_requirementresourcecategory, msdyn_requirementresourcepreference, msdyn_requirementstatus, msdyn_resourcerequirement, msdyn_resourcerequirementdetail, msdyn_resourceterritory, msdyn_scenario, msdyn_scheduleboardsetting, msdyn_schedulingfeatureflag, msdyn_smsnumber, msdyn_systemuserschedulersetting, msdyn_teamschannelengagementctx, msdyn_teamsengagementctx, msdyn_timegroup, msdyn_timegroupdetail, msdyn_transactionorigin, msdyn_twitterengagementctx, msdyn_webengagementrulesetconfig, msdyn_webengagementsitearea, msdyn_workhourtemplate|
+|Targets|msdyn_actual, msdyn_azurenotificationhub, msdyn_bookableresourceassociation, msdyn_bookingalert, msdyn_bookingalertstatus, msdyn_bookingrule, msdyn_channel, msdyn_channelinstancesecret, msdyn_chatwidgetlanguage, msdyn_clientextension, msdyn_customengagementctx, msdyn_localizedsurveyquestion, msdyn_ocapplebusinessaccount, msdyn_ocapplemessagesforbusinessengagementctx, msdyn_ocapplepay, msdyn_occarrier, msdyn_occommunicationprovidersetting, msdyn_occommunicationprovidersettingentry, msdyn_occustommessagingchannel, msdyn_ocfbapplication, msdyn_ocfbpage, msdyn_ocgatekeeperengagementctx, msdyn_ocgooglebusinessmessagesagentaccount, msdyn_ocgooglebusinessmessagesengagementctx, msdyn_ocgooglebusinessmessagespartneraccount, msdyn_oclinechannelconfig, msdyn_ocoutboundconfiguration, msdyn_ocoutboundmessage, msdyn_ocphonenumber, msdyn_ocsmschannelsetting, msdyn_ocsmssettingsecret, msdyn_octeamschannelconfig, msdyn_octwitterapplication, msdyn_octwitterhandle, msdyn_octwitterhandleprovisioningstatus, msdyn_octwitterhandlesecret, msdyn_ocvoice, msdyn_ocvoicechannellanguagesetting, msdyn_ocvoicemail, msdyn_ocwechatchannelconfig, msdyn_ocwhatsappchannelaccount, msdyn_ocwhatsappchannelnumber, msdyn_organizationalunit, msdyn_priority, msdyn_proactive_eng_config_characteristic, msdyn_proactive_engagement_config, msdyn_proactive_engagement_config_attribute, msdyn_proactive_engagement_config_status, msdyn_requirementcharacteristic, msdyn_requirementdependency, msdyn_requirementgroup, msdyn_requirementorganizationunit, msdyn_requirementrelationship, msdyn_requirementresourcecategory, msdyn_requirementresourcepreference, msdyn_requirementstatus, msdyn_resourcerequirement, msdyn_resourcerequirementdetail, msdyn_resourceterritory, msdyn_scenario, msdyn_scheduleboardsetting, msdyn_schedulingfeatureflag, msdyn_smsnumber, msdyn_systemuserschedulersetting, msdyn_teamschannelengagementctx, msdyn_teamsengagementctx, msdyn_timegroup, msdyn_timegroupdetail, msdyn_transactionorigin, msdyn_twitterengagementctx, msdyn_voicechannelorganizationsetting, msdyn_webengagementrulesetconfig, msdyn_webengagementsitearea, msdyn_workhourtemplate, msdyn_workstreamhmmigrationstatus|
 
 
 ## Many-to-One relationships
@@ -88,6 +88,8 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_ocfbapplication_DuplicateMatchingRecord](#BKMK_msdyn_ocfbapplication_DuplicateMatchingRecord)
 - [msdyn_ocfbpage_DuplicateBaseRecord](#BKMK_msdyn_ocfbpage_DuplicateBaseRecord)
 - [msdyn_ocfbpage_DuplicateMatchingRecord](#BKMK_msdyn_ocfbpage_DuplicateMatchingRecord)
+- [msdyn_ocgatekeeperengagementctx_DuplicateBaseRecord](#BKMK_msdyn_ocgatekeeperengagementctx_DuplicateBaseRecord)
+- [msdyn_ocgatekeeperengagementctx_DuplicateMatchingRecord](#BKMK_msdyn_ocgatekeeperengagementctx_DuplicateMatchingRecord)
 - [msdyn_ocgooglebusinessmessagesagentaccount_DuplicateBaseRecord](#BKMK_msdyn_ocgooglebusinessmessagesagentaccount_DuplicateBaseRecord)
 - [msdyn_ocgooglebusinessmessagesagentaccount_DuplicateMatchingRecord](#BKMK_msdyn_ocgooglebusinessmessagesagentaccount_DuplicateMatchingRecord)
 - [msdyn_ocgooglebusinessmessagesengagementctx_DuplicateBaseRecord](#BKMK_msdyn_ocgooglebusinessmessagesengagementctx_DuplicateBaseRecord)
@@ -116,6 +118,12 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_octwitterhandleprovisioningstatus_DuplicateMatchingRecord](#BKMK_msdyn_octwitterhandleprovisioningstatus_DuplicateMatchingRecord)
 - [msdyn_octwitterhandlesecret_DuplicateBaseRecord](#BKMK_msdyn_octwitterhandlesecret_DuplicateBaseRecord)
 - [msdyn_octwitterhandlesecret_DuplicateMatchingRecord](#BKMK_msdyn_octwitterhandlesecret_DuplicateMatchingRecord)
+- [msdyn_ocvoice_DuplicateBaseRecord](#BKMK_msdyn_ocvoice_DuplicateBaseRecord)
+- [msdyn_ocvoice_DuplicateMatchingRecord](#BKMK_msdyn_ocvoice_DuplicateMatchingRecord)
+- [msdyn_ocvoicechannellanguagesetting_DuplicateBaseRecord](#BKMK_msdyn_ocvoicechannellanguagesetting_DuplicateBaseRecord)
+- [msdyn_ocvoicechannellanguagesetting_DuplicateMatchingRecord](#BKMK_msdyn_ocvoicechannellanguagesetting_DuplicateMatchingRecord)
+- [msdyn_ocvoicemail_DuplicateBaseRecord](#BKMK_msdyn_ocvoicemail_DuplicateBaseRecord)
+- [msdyn_ocvoicemail_DuplicateMatchingRecord](#BKMK_msdyn_ocvoicemail_DuplicateMatchingRecord)
 - [msdyn_ocwechatchannelconfig_DuplicateBaseRecord](#BKMK_msdyn_ocwechatchannelconfig_DuplicateBaseRecord)
 - [msdyn_ocwechatchannelconfig_DuplicateMatchingRecord](#BKMK_msdyn_ocwechatchannelconfig_DuplicateMatchingRecord)
 - [msdyn_ocwhatsappchannelaccount_DuplicateBaseRecord](#BKMK_msdyn_ocwhatsappchannelaccount_DuplicateBaseRecord)
@@ -126,6 +134,14 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_organizationalunit_DuplicateMatchingRecord](#BKMK_msdyn_organizationalunit_DuplicateMatchingRecord)
 - [msdyn_priority_DuplicateBaseRecord](#BKMK_msdyn_priority_DuplicateBaseRecord)
 - [msdyn_priority_DuplicateMatchingRecord](#BKMK_msdyn_priority_DuplicateMatchingRecord)
+- [msdyn_proactive_eng_config_characteristic_DuplicateBaseRecord](#BKMK_msdyn_proactive_eng_config_characteristic_DuplicateBaseRecord)
+- [msdyn_proactive_eng_config_characteristic_DuplicateMatchingRecord](#BKMK_msdyn_proactive_eng_config_characteristic_DuplicateMatchingRecord)
+- [msdyn_proactive_engagement_config_attribute_DuplicateBaseRecord](#BKMK_msdyn_proactive_engagement_config_attribute_DuplicateBaseRecord)
+- [msdyn_proactive_engagement_config_attribute_DuplicateMatchingRecord](#BKMK_msdyn_proactive_engagement_config_attribute_DuplicateMatchingRecord)
+- [msdyn_proactive_engagement_config_DuplicateBaseRecord](#BKMK_msdyn_proactive_engagement_config_DuplicateBaseRecord)
+- [msdyn_proactive_engagement_config_DuplicateMatchingRecord](#BKMK_msdyn_proactive_engagement_config_DuplicateMatchingRecord)
+- [msdyn_proactive_engagement_config_status_DuplicateBaseRecord](#BKMK_msdyn_proactive_engagement_config_status_DuplicateBaseRecord)
+- [msdyn_proactive_engagement_config_status_DuplicateMatchingRecord](#BKMK_msdyn_proactive_engagement_config_status_DuplicateMatchingRecord)
 - [msdyn_requirementcharacteristic_DuplicateBaseRecord](#BKMK_msdyn_requirementcharacteristic_DuplicateBaseRecord)
 - [msdyn_requirementcharacteristic_DuplicateMatchingRecord](#BKMK_msdyn_requirementcharacteristic_DuplicateMatchingRecord)
 - [msdyn_requirementdependency_DuplicateBaseRecord](#BKMK_msdyn_requirementdependency_DuplicateBaseRecord)
@@ -168,6 +184,8 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_transactionorigin_DuplicateMatchingRecord](#BKMK_msdyn_transactionorigin_DuplicateMatchingRecord)
 - [msdyn_twitterengagementctx_DuplicateBaseRecord](#BKMK_msdyn_twitterengagementctx_DuplicateBaseRecord)
 - [msdyn_twitterengagementctx_DuplicateMatchingRecord](#BKMK_msdyn_twitterengagementctx_DuplicateMatchingRecord)
+- [msdyn_voicechannelorganizationsetting_DuplicateBaseRecord](#BKMK_msdyn_voicechannelorganizationsetting_DuplicateBaseRecord)
+- [msdyn_voicechannelorganizationsetting_DuplicateMatchingRecord](#BKMK_msdyn_voicechannelorganizationsetting_DuplicateMatchingRecord)
 - [msdyn_webengagementrulesetconfig_DuplicateBaseRecord](#BKMK_msdyn_webengagementrulesetconfig_DuplicateBaseRecord)
 - [msdyn_webengagementrulesetconfig_DuplicateMatchingRecord](#BKMK_msdyn_webengagementrulesetconfig_DuplicateMatchingRecord)
 - [msdyn_webengagementsitearea_DuplicateBaseRecord](#BKMK_msdyn_webengagementsitearea_DuplicateBaseRecord)
@@ -721,6 +739,32 @@ One-To-Many Relationship: [msdyn_ocfbpage msdyn_ocfbpage_DuplicateMatchingRecord
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_ocgatekeeperengagementctx_DuplicateBaseRecord"></a> msdyn_ocgatekeeperengagementctx_DuplicateBaseRecord
+
+One-To-Many Relationship: [msdyn_ocgatekeeperengagementctx msdyn_ocgatekeeperengagementctx_DuplicateBaseRecord](msdyn_ocgatekeeperengagementctx.md#BKMK_msdyn_ocgatekeeperengagementctx_DuplicateBaseRecord)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocgatekeeperengagementctx`|
+|ReferencedAttribute|`msdyn_ocgatekeeperengagementctxid`|
+|ReferencingAttribute|`baserecordid`|
+|ReferencingEntityNavigationPropertyName|`baserecordid_msdyn_ocgatekeeperengagementctx`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocgatekeeperengagementctx_DuplicateMatchingRecord"></a> msdyn_ocgatekeeperengagementctx_DuplicateMatchingRecord
+
+One-To-Many Relationship: [msdyn_ocgatekeeperengagementctx msdyn_ocgatekeeperengagementctx_DuplicateMatchingRecord](msdyn_ocgatekeeperengagementctx.md#BKMK_msdyn_ocgatekeeperengagementctx_DuplicateMatchingRecord)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocgatekeeperengagementctx`|
+|ReferencedAttribute|`msdyn_ocgatekeeperengagementctxid`|
+|ReferencingAttribute|`duplicaterecordid`|
+|ReferencingEntityNavigationPropertyName|`duplicaterecordid_msdyn_ocgatekeeperengagementctx`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msdyn_ocgooglebusinessmessagesagentaccount_DuplicateBaseRecord"></a> msdyn_ocgooglebusinessmessagesagentaccount_DuplicateBaseRecord
 
 One-To-Many Relationship: [msdyn_ocgooglebusinessmessagesagentaccount msdyn_ocgooglebusinessmessagesagentaccount_DuplicateBaseRecord](msdyn_ocgooglebusinessmessagesagentaccount.md#BKMK_msdyn_ocgooglebusinessmessagesagentaccount_DuplicateBaseRecord)
@@ -1085,6 +1129,84 @@ One-To-Many Relationship: [msdyn_octwitterhandlesecret msdyn_octwitterhandlesecr
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_ocvoice_DuplicateBaseRecord"></a> msdyn_ocvoice_DuplicateBaseRecord
+
+One-To-Many Relationship: [msdyn_ocvoice msdyn_ocvoice_DuplicateBaseRecord](msdyn_ocvoice.md#BKMK_msdyn_ocvoice_DuplicateBaseRecord)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocvoice`|
+|ReferencedAttribute|`msdyn_ocvoiceid`|
+|ReferencingAttribute|`baserecordid`|
+|ReferencingEntityNavigationPropertyName|`baserecordid_msdyn_ocvoice`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocvoice_DuplicateMatchingRecord"></a> msdyn_ocvoice_DuplicateMatchingRecord
+
+One-To-Many Relationship: [msdyn_ocvoice msdyn_ocvoice_DuplicateMatchingRecord](msdyn_ocvoice.md#BKMK_msdyn_ocvoice_DuplicateMatchingRecord)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocvoice`|
+|ReferencedAttribute|`msdyn_ocvoiceid`|
+|ReferencingAttribute|`duplicaterecordid`|
+|ReferencingEntityNavigationPropertyName|`duplicaterecordid_msdyn_ocvoice`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocvoicechannellanguagesetting_DuplicateBaseRecord"></a> msdyn_ocvoicechannellanguagesetting_DuplicateBaseRecord
+
+One-To-Many Relationship: [msdyn_ocvoicechannellanguagesetting msdyn_ocvoicechannellanguagesetting_DuplicateBaseRecord](msdyn_ocvoicechannellanguagesetting.md#BKMK_msdyn_ocvoicechannellanguagesetting_DuplicateBaseRecord)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocvoicechannellanguagesetting`|
+|ReferencedAttribute|`msdyn_ocvoicechannellanguagesettingid`|
+|ReferencingAttribute|`baserecordid`|
+|ReferencingEntityNavigationPropertyName|`baserecordid_msdyn_ocvoicechannellanguagesetting`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocvoicechannellanguagesetting_DuplicateMatchingRecord"></a> msdyn_ocvoicechannellanguagesetting_DuplicateMatchingRecord
+
+One-To-Many Relationship: [msdyn_ocvoicechannellanguagesetting msdyn_ocvoicechannellanguagesetting_DuplicateMatchingRecord](msdyn_ocvoicechannellanguagesetting.md#BKMK_msdyn_ocvoicechannellanguagesetting_DuplicateMatchingRecord)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocvoicechannellanguagesetting`|
+|ReferencedAttribute|`msdyn_ocvoicechannellanguagesettingid`|
+|ReferencingAttribute|`duplicaterecordid`|
+|ReferencingEntityNavigationPropertyName|`duplicaterecordid_msdyn_ocvoicechannellanguagesetting`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocvoicemail_DuplicateBaseRecord"></a> msdyn_ocvoicemail_DuplicateBaseRecord
+
+One-To-Many Relationship: [msdyn_ocvoicemail msdyn_ocvoicemail_DuplicateBaseRecord](msdyn_ocvoicemail.md#BKMK_msdyn_ocvoicemail_DuplicateBaseRecord)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocvoicemail`|
+|ReferencedAttribute|`activityid`|
+|ReferencingAttribute|`baserecordid`|
+|ReferencingEntityNavigationPropertyName|`baserecordid_msdyn_ocvoicemail`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocvoicemail_DuplicateMatchingRecord"></a> msdyn_ocvoicemail_DuplicateMatchingRecord
+
+One-To-Many Relationship: [msdyn_ocvoicemail msdyn_ocvoicemail_DuplicateMatchingRecord](msdyn_ocvoicemail.md#BKMK_msdyn_ocvoicemail_DuplicateMatchingRecord)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocvoicemail`|
+|ReferencedAttribute|`activityid`|
+|ReferencingAttribute|`duplicaterecordid`|
+|ReferencingEntityNavigationPropertyName|`duplicaterecordid_msdyn_ocvoicemail`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msdyn_ocwechatchannelconfig_DuplicateBaseRecord"></a> msdyn_ocwechatchannelconfig_DuplicateBaseRecord
 
 One-To-Many Relationship: [msdyn_ocwechatchannelconfig msdyn_ocwechatchannelconfig_DuplicateBaseRecord](msdyn_ocwechatchannelconfig.md#BKMK_msdyn_ocwechatchannelconfig_DuplicateBaseRecord)
@@ -1212,6 +1334,110 @@ One-To-Many Relationship: [msdyn_priority msdyn_priority_DuplicateMatchingRecord
 |ReferencedAttribute|`msdyn_priorityid`|
 |ReferencingAttribute|`duplicaterecordid`|
 |ReferencingEntityNavigationPropertyName|`duplicaterecordid_msdyn_priority`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_proactive_eng_config_characteristic_DuplicateBaseRecord"></a> msdyn_proactive_eng_config_characteristic_DuplicateBaseRecord
+
+One-To-Many Relationship: [msdyn_proactive_eng_config_characteristic msdyn_proactive_eng_config_characteristic_DuplicateBaseRecord](msdyn_proactive_eng_config_characteristic.md#BKMK_msdyn_proactive_eng_config_characteristic_DuplicateBaseRecord)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_eng_config_characteristic`|
+|ReferencedAttribute|`msdyn_proactive_eng_config_characteristicid`|
+|ReferencingAttribute|`baserecordid`|
+|ReferencingEntityNavigationPropertyName|`baserecordid_msdyn_proactive_eng_config_characteristic`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_proactive_eng_config_characteristic_DuplicateMatchingRecord"></a> msdyn_proactive_eng_config_characteristic_DuplicateMatchingRecord
+
+One-To-Many Relationship: [msdyn_proactive_eng_config_characteristic msdyn_proactive_eng_config_characteristic_DuplicateMatchingRecord](msdyn_proactive_eng_config_characteristic.md#BKMK_msdyn_proactive_eng_config_characteristic_DuplicateMatchingRecord)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_eng_config_characteristic`|
+|ReferencedAttribute|`msdyn_proactive_eng_config_characteristicid`|
+|ReferencingAttribute|`duplicaterecordid`|
+|ReferencingEntityNavigationPropertyName|`duplicaterecordid_msdyn_proactive_eng_config_characteristic`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_proactive_engagement_config_attribute_DuplicateBaseRecord"></a> msdyn_proactive_engagement_config_attribute_DuplicateBaseRecord
+
+One-To-Many Relationship: [msdyn_proactive_engagement_config_attribute msdyn_proactive_engagement_config_attribute_DuplicateBaseRecord](msdyn_proactive_engagement_config_attribute.md#BKMK_msdyn_proactive_engagement_config_attribute_DuplicateBaseRecord)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_engagement_config_attribute`|
+|ReferencedAttribute|`msdyn_proactive_engagement_config_attributeid`|
+|ReferencingAttribute|`baserecordid`|
+|ReferencingEntityNavigationPropertyName|`baserecordid_msdyn_proactive_engagement_config_attribute`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_proactive_engagement_config_attribute_DuplicateMatchingRecord"></a> msdyn_proactive_engagement_config_attribute_DuplicateMatchingRecord
+
+One-To-Many Relationship: [msdyn_proactive_engagement_config_attribute msdyn_proactive_engagement_config_attribute_DuplicateMatchingRecord](msdyn_proactive_engagement_config_attribute.md#BKMK_msdyn_proactive_engagement_config_attribute_DuplicateMatchingRecord)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_engagement_config_attribute`|
+|ReferencedAttribute|`msdyn_proactive_engagement_config_attributeid`|
+|ReferencingAttribute|`duplicaterecordid`|
+|ReferencingEntityNavigationPropertyName|`duplicaterecordid_msdyn_proactive_engagement_config_attribute`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_proactive_engagement_config_DuplicateBaseRecord"></a> msdyn_proactive_engagement_config_DuplicateBaseRecord
+
+One-To-Many Relationship: [msdyn_proactive_engagement_config msdyn_proactive_engagement_config_DuplicateBaseRecord](msdyn_proactive_engagement_config.md#BKMK_msdyn_proactive_engagement_config_DuplicateBaseRecord)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_engagement_config`|
+|ReferencedAttribute|`msdyn_proactive_engagement_configid`|
+|ReferencingAttribute|`baserecordid`|
+|ReferencingEntityNavigationPropertyName|`baserecordid_msdyn_proactive_engagement_config`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_proactive_engagement_config_DuplicateMatchingRecord"></a> msdyn_proactive_engagement_config_DuplicateMatchingRecord
+
+One-To-Many Relationship: [msdyn_proactive_engagement_config msdyn_proactive_engagement_config_DuplicateMatchingRecord](msdyn_proactive_engagement_config.md#BKMK_msdyn_proactive_engagement_config_DuplicateMatchingRecord)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_engagement_config`|
+|ReferencedAttribute|`msdyn_proactive_engagement_configid`|
+|ReferencingAttribute|`duplicaterecordid`|
+|ReferencingEntityNavigationPropertyName|`duplicaterecordid_msdyn_proactive_engagement_config`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_proactive_engagement_config_status_DuplicateBaseRecord"></a> msdyn_proactive_engagement_config_status_DuplicateBaseRecord
+
+One-To-Many Relationship: [msdyn_proactive_engagement_config_status msdyn_proactive_engagement_config_status_DuplicateBaseRecord](msdyn_proactive_engagement_config_status.md#BKMK_msdyn_proactive_engagement_config_status_DuplicateBaseRecord)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_engagement_config_status`|
+|ReferencedAttribute|`msdyn_proactive_engagement_config_statusid`|
+|ReferencingAttribute|`baserecordid`|
+|ReferencingEntityNavigationPropertyName|`baserecordid_msdyn_proactive_engagement_config_status`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_proactive_engagement_config_status_DuplicateMatchingRecord"></a> msdyn_proactive_engagement_config_status_DuplicateMatchingRecord
+
+One-To-Many Relationship: [msdyn_proactive_engagement_config_status msdyn_proactive_engagement_config_status_DuplicateMatchingRecord](msdyn_proactive_engagement_config_status.md#BKMK_msdyn_proactive_engagement_config_status_DuplicateMatchingRecord)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_engagement_config_status`|
+|ReferencedAttribute|`msdyn_proactive_engagement_config_statusid`|
+|ReferencingAttribute|`duplicaterecordid`|
+|ReferencingEntityNavigationPropertyName|`duplicaterecordid_msdyn_proactive_engagement_config_status`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -1758,6 +1984,32 @@ One-To-Many Relationship: [msdyn_twitterengagementctx msdyn_twitterengagementctx
 |ReferencedAttribute|`msdyn_twitterengagementctxid`|
 |ReferencingAttribute|`duplicaterecordid`|
 |ReferencingEntityNavigationPropertyName|`duplicaterecordid_msdyn_twitterengagementctx`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_voicechannelorganizationsetting_DuplicateBaseRecord"></a> msdyn_voicechannelorganizationsetting_DuplicateBaseRecord
+
+One-To-Many Relationship: [msdyn_voicechannelorganizationsetting msdyn_voicechannelorganizationsetting_DuplicateBaseRecord](msdyn_voicechannelorganizationsetting.md#BKMK_msdyn_voicechannelorganizationsetting_DuplicateBaseRecord)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_voicechannelorganizationsetting`|
+|ReferencedAttribute|`msdyn_voicechannelorganizationsettingid`|
+|ReferencingAttribute|`baserecordid`|
+|ReferencingEntityNavigationPropertyName|`baserecordid_msdyn_voicechannelorganizationsetting`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_voicechannelorganizationsetting_DuplicateMatchingRecord"></a> msdyn_voicechannelorganizationsetting_DuplicateMatchingRecord
+
+One-To-Many Relationship: [msdyn_voicechannelorganizationsetting msdyn_voicechannelorganizationsetting_DuplicateMatchingRecord](msdyn_voicechannelorganizationsetting.md#BKMK_msdyn_voicechannelorganizationsetting_DuplicateMatchingRecord)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_voicechannelorganizationsetting`|
+|ReferencedAttribute|`msdyn_voicechannelorganizationsettingid`|
+|ReferencingAttribute|`duplicaterecordid`|
+|ReferencingEntityNavigationPropertyName|`duplicaterecordid_msdyn_voicechannelorganizationsetting`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

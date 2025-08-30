@@ -39,6 +39,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 Microsoft Dynamics 365 Customer Service modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
 
+- [msdyn_streamsource](#BKMK_msdyn_streamsource)
+- [msdyn_systemmessageeventtype](#BKMK_msdyn_systemmessageeventtype)
+
 ### <a name="BKMK_msdyn_streamsource"></a> msdyn_streamsource
 
 Changes from [msdyn_streamsource (Microsoft Dynamics 365)](/dynamics365/developer/reference/entities/msdyn_ocsystemmessage#BKMK_msdyn_streamsource)
@@ -60,8 +63,40 @@ Changes from [msdyn_streamsource (Microsoft Dynamics 365)](/dynamics365/develope
 |192380000|**Video**|
 |192390000|**Co-browse**|
 |192400000|**Screen sharing**|
+|192440000|**Voice call**|
 |192450000|**Apple Messages for Business**|
 |192450001|**Google's Business Messages**|
+
+### <a name="BKMK_msdyn_systemmessageeventtype"></a> msdyn_systemmessageeventtype
+
+Changes from [msdyn_systemmessageeventtype (Microsoft Dynamics 365)](/dynamics365/developer/reference/entities/msdyn_ocsystemmessage#BKMK_msdyn_systemmessageeventtype)
+
+#### msdyn_systemmessageeventtype Choices/Options
+
+|Value|Label|
+|---|---|
+|192360000|**Offer Voicemail**|
+|192360001|**Voicemail Complete**|
+|192360002|**Voicemail Fail**|
+|192360003|**Direct agent not available**|
+|192360005|**Direct Inward Call Forwarding**|
+|192360006|**Overflow External Transfer Initiated**|
+|192360007|**Prompt and hang-up**|
+|192360008|**Prompt and transfer to external number**|
+|192360009|**Prompt and escalate**|
+|192360010|**Message for Bot Language Changed Message**|
+|192360011|**Message for Unsupported Bot Language**|
+|192360012|**Entered a confidential section of the conversation**|
+|192360013|**Exited the confidential section of the conversation**|
+|192360014|**Consent Based Recording – Customer said Yes to Recording prompt**|
+|192360015|**Consent Based Recording – Customer said No to Recording prompt**|
+|192360016|**Consent Based Recording – Did not receive Event after {n} seconds**|
+|192360017|**Consent Based Recording – Bot not configured for consent recording**|
+|192360018|**Consult with queue or user group is initiated**|
+|192360019|**Consult request failed due to system failure.**|
+|192360020|**Consult to queue or user group failed due to out of operating hours**|
+|192360021|**Consult with queue or user group is cancelled**|
+|192360022|**No service representatives found for consult with queue or user group**|
 
 ## Many-to-One relationships
 

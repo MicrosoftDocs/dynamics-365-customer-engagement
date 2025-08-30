@@ -126,6 +126,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 
 - [activity_pointer_msdyn_bookingalert](#BKMK_activity_pointer_msdyn_bookingalert)
 - [activity_pointer_msdyn_ocoutboundmessage](#BKMK_activity_pointer_msdyn_ocoutboundmessage)
+- [activity_pointer_msdyn_ocvoicemail](#BKMK_activity_pointer_msdyn_ocvoicemail)
 
 ### <a name="BKMK_activity_pointer_msdyn_bookingalert"></a> activity_pointer_msdyn_bookingalert
 
@@ -149,6 +150,18 @@ Many-To-One Relationship: [msdyn_ocoutboundmessage activity_pointer_msdyn_ocoutb
 |ReferencingAttribute|`activityid`|
 |ReferencedEntityNavigationPropertyName|`activity_pointer_msdyn_ocoutboundmessage`|
 |IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_activity_pointer_msdyn_ocvoicemail"></a> activity_pointer_msdyn_ocvoicemail
+
+Many-To-One Relationship: [msdyn_ocvoicemail activity_pointer_msdyn_ocvoicemail](msdyn_ocvoicemail.md#BKMK_activity_pointer_msdyn_ocvoicemail)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`activityid`|
+|ReferencedEntityNavigationPropertyName|`activity_pointer_msdyn_ocvoicemail`|
+|IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 

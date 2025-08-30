@@ -27,7 +27,7 @@ Changes from [RegardingObjectId (Microsoft Dataverse)](/power-apps/developer/dat
 
 |Property|Value|
 |---|---|
-|Targets|msdyn_actual, msdyn_amsbuild, msdyn_amsmodel, msdyn_amsprofile, msdyn_amsprofilesettings, msdyn_amstag, msdyn_azurenotificationhub, msdyn_bookableresourceassociation, msdyn_bookingalert, msdyn_bookingalertstatus, msdyn_bookingchange, msdyn_bookingrule, msdyn_bookingsetupmetadata, msdyn_businessclosure, msdyn_channel, msdyn_channelinstancesecret, msdyn_chatansweroption, msdyn_chatquestionnaireresponse, msdyn_chatquestionnaireresponseitem, msdyn_chatwidgetlanguage, msdyn_clientextension, msdyn_configuration, msdyn_customengagementctx, msdyn_facebookengagementctx, msdyn_lineengagementctx, msdyn_livechatconfig, msdyn_livechatengagementctx, msdyn_livechatwidgetlocation, msdyn_localizedsurveyquestion, msdyn_ocapplebusinessaccount, msdyn_ocapplemessagesforbusinessengagementctx, msdyn_ocapplepay, msdyn_occarrier, msdyn_occommunicationprovidersetting, msdyn_occommunicationprovidersettingentry, msdyn_occustommessagingchannel, msdyn_ocfbapplication, msdyn_ocfbpage, msdyn_ocgooglebusinessmessagesagentaccount, msdyn_ocgooglebusinessmessagesengagementctx, msdyn_ocgooglebusinessmessagespartneraccount, msdyn_oclinechannelconfig, msdyn_ocoutboundconfiguration, msdyn_ocoutboundmessage, msdyn_ocphonenumber, msdyn_ocsmschannelsetting, msdyn_ocsmssettingsecret, msdyn_octeamschannelconfig, msdyn_octwitterapplication, msdyn_octwitterhandle, msdyn_octwitterhandleprovisioningstatus, msdyn_octwitterhandlesecret, msdyn_ocwechatchannelconfig, msdyn_ocwhatsappchannelaccount, msdyn_ocwhatsappchannelnumber, msdyn_organizationalunit, msdyn_priority, msdyn_questionsequence, msdyn_requirementchange, msdyn_requirementcharacteristic, msdyn_requirementdependency, msdyn_requirementgroup, msdyn_requirementorganizationunit, msdyn_requirementrelationship, msdyn_requirementresourcecategory, msdyn_requirementresourcepreference, msdyn_requirementstatus, msdyn_resourcerequirement, msdyn_resourcerequirementdetail, msdyn_resourceterritory, msdyn_scenario, msdyn_scheduleboardsetting, msdyn_schedulingfeatureflag, msdyn_schedulingparameter, msdyn_schedulingscope, msdyn_smsengagementctx, msdyn_smsnumber, msdyn_surveyquestion, msdyn_systemuserschedulersetting, msdyn_teamschannelengagementctx, msdyn_teamsengagementctx, msdyn_timegroup, msdyn_timegroupdetail, msdyn_transactionorigin, msdyn_twitterengagementctx, msdyn_webengagementruleset, msdyn_webengagementrulesetconfig, msdyn_webengagementrulesetrevision, msdyn_webengagementsitearea, msdyn_wechatengagementctx, msdyn_whatsappengagementctx, msdyn_workhourtemplate|
+|Targets|msdyn_actual, msdyn_amsbuild, msdyn_amsmodel, msdyn_amsprofile, msdyn_amsprofilesettings, msdyn_amstag, msdyn_azurenotificationhub, msdyn_bookableresourceassociation, msdyn_bookingalert, msdyn_bookingalertstatus, msdyn_bookingchange, msdyn_bookingrule, msdyn_bookingsetupmetadata, msdyn_businessclosure, msdyn_channel, msdyn_channelinstancesecret, msdyn_chatansweroption, msdyn_chatquestionnaireresponse, msdyn_chatquestionnaireresponseitem, msdyn_chatwidgetlanguage, msdyn_clientextension, msdyn_configuration, msdyn_customengagementctx, msdyn_facebookengagementctx, msdyn_lineengagementctx, msdyn_livechatconfig, msdyn_livechatengagementctx, msdyn_livechatwidgetlocation, msdyn_localizedsurveyquestion, msdyn_ocapplebusinessaccount, msdyn_ocapplemessagesforbusinessengagementctx, msdyn_ocapplepay, msdyn_occarrier, msdyn_occommunicationprovidersetting, msdyn_occommunicationprovidersettingentry, msdyn_occustommessagingchannel, msdyn_ocexternalsecuritysetting, msdyn_ocfbapplication, msdyn_ocfbpage, msdyn_ocgatekeeperengagementctx, msdyn_ocgooglebusinessmessagesagentaccount, msdyn_ocgooglebusinessmessagesengagementctx, msdyn_ocgooglebusinessmessagespartneraccount, msdyn_oclinechannelconfig, msdyn_ocoutboundconfiguration, msdyn_ocoutboundmessage, msdyn_ocphonecallengagementctx, msdyn_ocphonemusic, msdyn_ocphonenumber, msdyn_ocsmschannelsetting, msdyn_ocsmssettingsecret, msdyn_octeamschannelconfig, msdyn_octwitterapplication, msdyn_octwitterhandle, msdyn_octwitterhandleprovisioningstatus, msdyn_octwitterhandlesecret, msdyn_ocvoice, msdyn_ocvoicechannellanguagesetting, msdyn_ocvoicechannelsetting, msdyn_ocvoicemail, msdyn_ocwechatchannelconfig, msdyn_ocwhatsappchannelaccount, msdyn_ocwhatsappchannelnumber, msdyn_organizationalunit, msdyn_priority, msdyn_proactive_eng_config_characteristic, msdyn_proactive_engagement_config, msdyn_proactive_engagement_config_attribute, msdyn_proactive_engagement_config_status, msdyn_questionsequence, msdyn_requirementchange, msdyn_requirementcharacteristic, msdyn_requirementdependency, msdyn_requirementgroup, msdyn_requirementorganizationunit, msdyn_requirementrelationship, msdyn_requirementresourcecategory, msdyn_requirementresourcepreference, msdyn_requirementstatus, msdyn_resourcerequirement, msdyn_resourcerequirementdetail, msdyn_resourceterritory, msdyn_scenario, msdyn_scheduleboardsetting, msdyn_schedulingfeatureflag, msdyn_schedulingparameter, msdyn_schedulingscope, msdyn_smsengagementctx, msdyn_smsnumber, msdyn_surveyquestion, msdyn_systemuserschedulersetting, msdyn_teamschannelengagementctx, msdyn_teamsengagementctx, msdyn_timegroup, msdyn_timegroupdetail, msdyn_transactionorigin, msdyn_twitterengagementctx, msdyn_voicechannelorganizationsetting, msdyn_webengagementruleset, msdyn_webengagementrulesetconfig, msdyn_webengagementrulesetrevision, msdyn_webengagementsitearea, msdyn_wechatengagementctx, msdyn_whatsappengagementctx, msdyn_workhourtemplate, msdyn_workstreamhmmigrationstatus|
 
 
 ## Many-to-One relationships
@@ -70,14 +70,18 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_occommunicationprovidersetting_AsyncOperations](#BKMK_msdyn_occommunicationprovidersetting_AsyncOperations)
 - [msdyn_occommunicationprovidersettingentry_AsyncOperations](#BKMK_msdyn_occommunicationprovidersettingentry_AsyncOperations)
 - [msdyn_occustommessagingchannel_AsyncOperations](#BKMK_msdyn_occustommessagingchannel_AsyncOperations)
+- [msdyn_ocexternalsecuritysetting_AsyncOperations](#BKMK_msdyn_ocexternalsecuritysetting_AsyncOperations)
 - [msdyn_ocfbapplication_AsyncOperations](#BKMK_msdyn_ocfbapplication_AsyncOperations)
 - [msdyn_ocfbpage_AsyncOperations](#BKMK_msdyn_ocfbpage_AsyncOperations)
+- [msdyn_ocgatekeeperengagementctx_AsyncOperations](#BKMK_msdyn_ocgatekeeperengagementctx_AsyncOperations)
 - [msdyn_ocgooglebusinessmessagesagentaccount_AsyncOperations](#BKMK_msdyn_ocgooglebusinessmessagesagentaccount_AsyncOperations)
 - [msdyn_ocgooglebusinessmessagesengagementctx_AsyncOperations](#BKMK_msdyn_ocgooglebusinessmessagesengagementctx_AsyncOperations)
 - [msdyn_ocgooglebusinessmessagespartneraccount_AsyncOperations](#BKMK_msdyn_ocgooglebusinessmessagespartneraccount_AsyncOperations)
 - [msdyn_oclinechannelconfig_AsyncOperations](#BKMK_msdyn_oclinechannelconfig_AsyncOperations)
 - [msdyn_ocoutboundconfiguration_AsyncOperations](#BKMK_msdyn_ocoutboundconfiguration_AsyncOperations)
 - [msdyn_ocoutboundmessage_AsyncOperations](#BKMK_msdyn_ocoutboundmessage_AsyncOperations)
+- [msdyn_ocphonecallengagementctx_AsyncOperations](#BKMK_msdyn_ocphonecallengagementctx_AsyncOperations)
+- [msdyn_ocphonemusic_AsyncOperations](#BKMK_msdyn_ocphonemusic_AsyncOperations)
 - [msdyn_ocphonenumber_AsyncOperations](#BKMK_msdyn_ocphonenumber_AsyncOperations)
 - [msdyn_ocsmschannelsetting_AsyncOperations](#BKMK_msdyn_ocsmschannelsetting_AsyncOperations)
 - [msdyn_ocsmssettingsecret_AsyncOperations](#BKMK_msdyn_ocsmssettingsecret_AsyncOperations)
@@ -86,11 +90,19 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_octwitterhandle_AsyncOperations](#BKMK_msdyn_octwitterhandle_AsyncOperations)
 - [msdyn_octwitterhandleprovisioningstatus_AsyncOperations](#BKMK_msdyn_octwitterhandleprovisioningstatus_AsyncOperations)
 - [msdyn_octwitterhandlesecret_AsyncOperations](#BKMK_msdyn_octwitterhandlesecret_AsyncOperations)
+- [msdyn_ocvoice_AsyncOperations](#BKMK_msdyn_ocvoice_AsyncOperations)
+- [msdyn_ocvoicechannellanguagesetting_AsyncOperations](#BKMK_msdyn_ocvoicechannellanguagesetting_AsyncOperations)
+- [msdyn_ocvoicechannelsetting_AsyncOperations](#BKMK_msdyn_ocvoicechannelsetting_AsyncOperations)
+- [msdyn_ocvoicemail_AsyncOperations](#BKMK_msdyn_ocvoicemail_AsyncOperations)
 - [msdyn_ocwechatchannelconfig_AsyncOperations](#BKMK_msdyn_ocwechatchannelconfig_AsyncOperations)
 - [msdyn_ocwhatsappchannelaccount_AsyncOperations](#BKMK_msdyn_ocwhatsappchannelaccount_AsyncOperations)
 - [msdyn_ocwhatsappchannelnumber_AsyncOperations](#BKMK_msdyn_ocwhatsappchannelnumber_AsyncOperations)
 - [msdyn_organizationalunit_AsyncOperations](#BKMK_msdyn_organizationalunit_AsyncOperations)
 - [msdyn_priority_AsyncOperations](#BKMK_msdyn_priority_AsyncOperations)
+- [msdyn_proactive_eng_config_characteristic_AsyncOperations](#BKMK_msdyn_proactive_eng_config_characteristic_AsyncOperations)
+- [msdyn_proactive_engagement_config_AsyncOperations](#BKMK_msdyn_proactive_engagement_config_AsyncOperations)
+- [msdyn_proactive_engagement_config_attribute_AsyncOperations](#BKMK_msdyn_proactive_engagement_config_attribute_AsyncOperations)
+- [msdyn_proactive_engagement_config_status_AsyncOperations](#BKMK_msdyn_proactive_engagement_config_status_AsyncOperations)
 - [msdyn_questionsequence_AsyncOperations](#BKMK_msdyn_questionsequence_AsyncOperations)
 - [msdyn_requirementchange_AsyncOperations](#BKMK_msdyn_requirementchange_AsyncOperations)
 - [msdyn_requirementcharacteristic_AsyncOperations](#BKMK_msdyn_requirementcharacteristic_AsyncOperations)
@@ -118,6 +130,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_timegroupdetail_AsyncOperations](#BKMK_msdyn_timegroupdetail_AsyncOperations)
 - [msdyn_transactionorigin_AsyncOperations](#BKMK_msdyn_transactionorigin_AsyncOperations)
 - [msdyn_twitterengagementctx_AsyncOperations](#BKMK_msdyn_twitterengagementctx_AsyncOperations)
+- [msdyn_voicechannelorganizationsetting_AsyncOperations](#BKMK_msdyn_voicechannelorganizationsetting_AsyncOperations)
 - [msdyn_webengagementruleset_AsyncOperations](#BKMK_msdyn_webengagementruleset_AsyncOperations)
 - [msdyn_webengagementrulesetconfig_AsyncOperations](#BKMK_msdyn_webengagementrulesetconfig_AsyncOperations)
 - [msdyn_webengagementrulesetrevision_AsyncOperations](#BKMK_msdyn_webengagementrulesetrevision_AsyncOperations)
@@ -594,6 +607,19 @@ One-To-Many Relationship: [msdyn_occustommessagingchannel msdyn_occustommessagin
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_ocexternalsecuritysetting_AsyncOperations"></a> msdyn_ocexternalsecuritysetting_AsyncOperations
+
+One-To-Many Relationship: [msdyn_ocexternalsecuritysetting msdyn_ocexternalsecuritysetting_AsyncOperations](msdyn_ocexternalsecuritysetting.md#BKMK_msdyn_ocexternalsecuritysetting_AsyncOperations)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocexternalsecuritysetting`|
+|ReferencedAttribute|`msdyn_ocexternalsecuritysettingid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocexternalsecuritysetting`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msdyn_ocfbapplication_AsyncOperations"></a> msdyn_ocfbapplication_AsyncOperations
 
 One-To-Many Relationship: [msdyn_ocfbapplication msdyn_ocfbapplication_AsyncOperations](msdyn_ocfbapplication.md#BKMK_msdyn_ocfbapplication_AsyncOperations)
@@ -617,6 +643,19 @@ One-To-Many Relationship: [msdyn_ocfbpage msdyn_ocfbpage_AsyncOperations](msdyn_
 |ReferencedAttribute|`msdyn_ocfbpageid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocfbpage`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocgatekeeperengagementctx_AsyncOperations"></a> msdyn_ocgatekeeperengagementctx_AsyncOperations
+
+One-To-Many Relationship: [msdyn_ocgatekeeperengagementctx msdyn_ocgatekeeperengagementctx_AsyncOperations](msdyn_ocgatekeeperengagementctx.md#BKMK_msdyn_ocgatekeeperengagementctx_AsyncOperations)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocgatekeeperengagementctx`|
+|ReferencedAttribute|`msdyn_ocgatekeeperengagementctxid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocgatekeeperengagementctx`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -695,6 +734,32 @@ One-To-Many Relationship: [msdyn_ocoutboundmessage msdyn_ocoutboundmessage_Async
 |ReferencedAttribute|`activityid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocoutboundmessage`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocphonecallengagementctx_AsyncOperations"></a> msdyn_ocphonecallengagementctx_AsyncOperations
+
+One-To-Many Relationship: [msdyn_ocphonecallengagementctx msdyn_ocphonecallengagementctx_AsyncOperations](msdyn_ocphonecallengagementctx.md#BKMK_msdyn_ocphonecallengagementctx_AsyncOperations)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocphonecallengagementctx`|
+|ReferencedAttribute|`msdyn_ocphonecallengagementctxid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocphonecallengagementctx`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocphonemusic_AsyncOperations"></a> msdyn_ocphonemusic_AsyncOperations
+
+One-To-Many Relationship: [msdyn_ocphonemusic msdyn_ocphonemusic_AsyncOperations](msdyn_ocphonemusic.md#BKMK_msdyn_ocphonemusic_AsyncOperations)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocphonemusic`|
+|ReferencedAttribute|`msdyn_ocphonemusicid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocphonemusic`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -802,6 +867,58 @@ One-To-Many Relationship: [msdyn_octwitterhandlesecret msdyn_octwitterhandlesecr
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_ocvoice_AsyncOperations"></a> msdyn_ocvoice_AsyncOperations
+
+One-To-Many Relationship: [msdyn_ocvoice msdyn_ocvoice_AsyncOperations](msdyn_ocvoice.md#BKMK_msdyn_ocvoice_AsyncOperations)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocvoice`|
+|ReferencedAttribute|`msdyn_ocvoiceid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocvoice`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocvoicechannellanguagesetting_AsyncOperations"></a> msdyn_ocvoicechannellanguagesetting_AsyncOperations
+
+One-To-Many Relationship: [msdyn_ocvoicechannellanguagesetting msdyn_ocvoicechannellanguagesetting_AsyncOperations](msdyn_ocvoicechannellanguagesetting.md#BKMK_msdyn_ocvoicechannellanguagesetting_AsyncOperations)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocvoicechannellanguagesetting`|
+|ReferencedAttribute|`msdyn_ocvoicechannellanguagesettingid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocvoicechannellanguagesetting`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocvoicechannelsetting_AsyncOperations"></a> msdyn_ocvoicechannelsetting_AsyncOperations
+
+One-To-Many Relationship: [msdyn_ocvoicechannelsetting msdyn_ocvoicechannelsetting_AsyncOperations](msdyn_ocvoicechannelsetting.md#BKMK_msdyn_ocvoicechannelsetting_AsyncOperations)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocvoicechannelsetting`|
+|ReferencedAttribute|`msdyn_ocvoicechannelsettingid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocvoicechannelsetting`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocvoicemail_AsyncOperations"></a> msdyn_ocvoicemail_AsyncOperations
+
+One-To-Many Relationship: [msdyn_ocvoicemail msdyn_ocvoicemail_AsyncOperations](msdyn_ocvoicemail.md#BKMK_msdyn_ocvoicemail_AsyncOperations)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocvoicemail`|
+|ReferencedAttribute|`activityid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocvoicemail`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msdyn_ocwechatchannelconfig_AsyncOperations"></a> msdyn_ocwechatchannelconfig_AsyncOperations
 
 One-To-Many Relationship: [msdyn_ocwechatchannelconfig msdyn_ocwechatchannelconfig_AsyncOperations](msdyn_ocwechatchannelconfig.md#BKMK_msdyn_ocwechatchannelconfig_AsyncOperations)
@@ -864,6 +981,58 @@ One-To-Many Relationship: [msdyn_priority msdyn_priority_AsyncOperations](msdyn_
 |ReferencedAttribute|`msdyn_priorityid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_priority`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_proactive_eng_config_characteristic_AsyncOperations"></a> msdyn_proactive_eng_config_characteristic_AsyncOperations
+
+One-To-Many Relationship: [msdyn_proactive_eng_config_characteristic msdyn_proactive_eng_config_characteristic_AsyncOperations](msdyn_proactive_eng_config_characteristic.md#BKMK_msdyn_proactive_eng_config_characteristic_AsyncOperations)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_eng_config_characteristic`|
+|ReferencedAttribute|`msdyn_proactive_eng_config_characteristicid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_proactive_eng_config_characteristic`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_proactive_engagement_config_AsyncOperations"></a> msdyn_proactive_engagement_config_AsyncOperations
+
+One-To-Many Relationship: [msdyn_proactive_engagement_config msdyn_proactive_engagement_config_AsyncOperations](msdyn_proactive_engagement_config.md#BKMK_msdyn_proactive_engagement_config_AsyncOperations)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_engagement_config`|
+|ReferencedAttribute|`msdyn_proactive_engagement_configid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_proactive_engagement_config`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_proactive_engagement_config_attribute_AsyncOperations"></a> msdyn_proactive_engagement_config_attribute_AsyncOperations
+
+One-To-Many Relationship: [msdyn_proactive_engagement_config_attribute msdyn_proactive_engagement_config_attribute_AsyncOperations](msdyn_proactive_engagement_config_attribute.md#BKMK_msdyn_proactive_engagement_config_attribute_AsyncOperations)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_engagement_config_attribute`|
+|ReferencedAttribute|`msdyn_proactive_engagement_config_attributeid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_proactive_engagement_config_attribute`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_proactive_engagement_config_status_AsyncOperations"></a> msdyn_proactive_engagement_config_status_AsyncOperations
+
+One-To-Many Relationship: [msdyn_proactive_engagement_config_status msdyn_proactive_engagement_config_status_AsyncOperations](msdyn_proactive_engagement_config_status.md#BKMK_msdyn_proactive_engagement_config_status_AsyncOperations)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_engagement_config_status`|
+|ReferencedAttribute|`msdyn_proactive_engagement_config_statusid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_proactive_engagement_config_status`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -1215,6 +1384,19 @@ One-To-Many Relationship: [msdyn_twitterengagementctx msdyn_twitterengagementctx
 |ReferencedAttribute|`msdyn_twitterengagementctxid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_twitterengagementctx`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_voicechannelorganizationsetting_AsyncOperations"></a> msdyn_voicechannelorganizationsetting_AsyncOperations
+
+One-To-Many Relationship: [msdyn_voicechannelorganizationsetting msdyn_voicechannelorganizationsetting_AsyncOperations](msdyn_voicechannelorganizationsetting.md#BKMK_msdyn_voicechannelorganizationsetting_AsyncOperations)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_voicechannelorganizationsetting`|
+|ReferencedAttribute|`msdyn_voicechannelorganizationsettingid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_voicechannelorganizationsetting`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

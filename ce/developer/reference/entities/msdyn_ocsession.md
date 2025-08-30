@@ -638,6 +638,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350032|**CanceledByProactiveService**|
 |192350033|**ManuallyClosedConversation**|
 |192350034|**ManuallyClosedSession**|
+|192350035|**AgentTransferToAgentGroup**|
 
 ### <a name="BKMK_msdyn_liveworkitemid"></a> msdyn_liveworkitemid
 
@@ -748,6 +749,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350045|**BotCallFailurePromptAndEscalate**|
 |192350046|**BotCallFailureEscalate**|
 |192350049|**CustomerReconnect**|
+|192350050|**AgentGroupTransfer**|
 
 ### <a name="BKMK_msdyn_queueid"></a> msdyn_queueid
 
@@ -884,6 +886,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350045|**BotCallFailurePromptAndEscalate**|
 |192350046|**BotCallFailureEscalate**|
 |192350049|**CustomerReconnect**|
+|192350050|**AgentGroupTransfer**|
 
 ### <a name="BKMK_msdyn_sessionid"></a> msdyn_sessionid
 

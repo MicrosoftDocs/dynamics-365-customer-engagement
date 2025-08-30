@@ -393,6 +393,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350000|**Geo**|
 |192350001|**Toll free**|
 |192350002|**Short code**|
+|192350003|**Mobile number**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
@@ -954,6 +955,8 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_ocphonenumber_DuplicateBaseRecord](#BKMK_msdyn_ocphonenumber_DuplicateBaseRecord)
 - [msdyn_ocphonenumber_DuplicateMatchingRecord](#BKMK_msdyn_ocphonenumber_DuplicateMatchingRecord)
 - [msdyn_ocphonenumber_MailboxTrackingFolders](#BKMK_msdyn_ocphonenumber_MailboxTrackingFolders)
+- [msdyn_ocphonenumber_msdyn_ocvoicechannelsetting_calleridphonenumberid](#BKMK_msdyn_ocphonenumber_msdyn_ocvoicechannelsetting_calleridphonenumberid)
+- [msdyn_ocphonenumber_msdyn_ocvoicechannelsetting_phonenumberid](#BKMK_msdyn_ocphonenumber_msdyn_ocvoicechannelsetting_phonenumberid)
 - [msdyn_ocphonenumber_PrincipalObjectAttributeAccesses](#BKMK_msdyn_ocphonenumber_PrincipalObjectAttributeAccesses)
 - [msdyn_ocphonenumber_ProcessSession](#BKMK_msdyn_ocphonenumber_ProcessSession)
 - [msdyn_ocphonenumber_SyncErrors](#BKMK_msdyn_ocphonenumber_SyncErrors)
@@ -1065,6 +1068,30 @@ Many-To-One Relationship: [mailboxtrackingfolder msdyn_ocphonenumber_MailboxTrac
 |ReferencedEntityNavigationPropertyName|`msdyn_ocphonenumber_MailboxTrackingFolders`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocphonenumber_msdyn_ocvoicechannelsetting_calleridphonenumberid"></a> msdyn_ocphonenumber_msdyn_ocvoicechannelsetting_calleridphonenumberid
+
+Many-To-One Relationship: [msdyn_ocvoicechannelsetting msdyn_ocphonenumber_msdyn_ocvoicechannelsetting_calleridphonenumberid](msdyn_ocvoicechannelsetting.md#BKMK_msdyn_ocphonenumber_msdyn_ocvoicechannelsetting_calleridphonenumberid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicechannelsetting`|
+|ReferencingAttribute|`msdyn_calleridphonenumberid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocphonenumber_msdyn_ocvoicechannelsetting_calleridphonenumberid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocphonenumber_msdyn_ocvoicechannelsetting_phonenumberid"></a> msdyn_ocphonenumber_msdyn_ocvoicechannelsetting_phonenumberid
+
+Many-To-One Relationship: [msdyn_ocvoicechannelsetting msdyn_ocphonenumber_msdyn_ocvoicechannelsetting_phonenumberid](msdyn_ocvoicechannelsetting.md#BKMK_msdyn_ocphonenumber_msdyn_ocvoicechannelsetting_phonenumberid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicechannelsetting`|
+|ReferencingAttribute|`msdyn_phonenumberid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocphonenumber_msdyn_ocvoicechannelsetting_phonenumberid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_ocphonenumber_PrincipalObjectAttributeAccesses"></a> msdyn_ocphonenumber_PrincipalObjectAttributeAccesses
 
