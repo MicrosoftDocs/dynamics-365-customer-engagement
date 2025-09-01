@@ -26,7 +26,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_gdproptout](#BKMK_msdyn_gdproptout)
 - [msdyn_PrimaryTimeZone](#BKMK_msdyn_PrimaryTimeZone)
 - [msdyn_salesaccelerationinsightid](#BKMK_msdyn_salesaccelerationinsightid)
-- [msdyn_segmentid](#BKMK_msdyn_segmentid)
 - [OriginatingLeadId](#BKMK_OriginatingLeadId)
 - [PreferredEquipmentId](#BKMK_PreferredEquipmentId)
 - [PreferredServiceId](#BKMK_PreferredServiceId)
@@ -101,19 +100,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Lookup|
 |Targets|msdyn_salesaccelerationinsight|
-
-### <a name="BKMK_msdyn_segmentid"></a> msdyn_segmentid
-
-|Property|Value|
-|---|---|
-|Description|**Unique identifier for Segment associated with account.**|
-|DisplayName|**Segment Id**|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|`msdyn_segmentid`|
-|RequiredLevel|None|
-|Type|Lookup|
-|Targets|msdyn_segment|
 
 ### <a name="BKMK_OriginatingLeadId"></a> OriginatingLeadId
 
@@ -314,7 +300,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [equipment_accounts](#BKMK_equipment_accounts)
 - [msdyn_insightsid_salesaccelerationinsights](#BKMK_msdyn_insightsid_salesaccelerationinsights)
 - [msdyn_msdyn_accountkpiitem_account_accountkpiid](#BKMK_msdyn_msdyn_accountkpiitem_account_accountkpiid)
-- [msdyn_msdyn_segment_account](#BKMK_msdyn_msdyn_segment_account)
 - [price_level_accounts](#BKMK_price_level_accounts)
 - [service_accounts](#BKMK_service_accounts)
 - [territory_accounts](#BKMK_territory_accounts)
@@ -370,19 +355,6 @@ One-To-Many Relationship: [msdyn_accountkpiitem msdyn_msdyn_accountkpiitem_accou
 |ReferencingEntityNavigationPropertyName|`msdyn_accountkpiid`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_msdyn_segment_account"></a> msdyn_msdyn_segment_account
-
-One-To-Many Relationship: [msdyn_segment msdyn_msdyn_segment_account](msdyn_segment.md#BKMK_msdyn_msdyn_segment_account)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_segment`|
-|ReferencedAttribute|`msdyn_segmentid`|
-|ReferencingAttribute|`msdyn_segmentid`|
-|ReferencingEntityNavigationPropertyName|`msdyn_segmentid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_price_level_accounts"></a> price_level_accounts
 
@@ -465,7 +437,6 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_account_msdyn_salesroutingrun_targetobject](#BKMK_msdyn_account_msdyn_salesroutingrun_targetobject)
 - [msdyn_account_msdyn_warranty_WarrantyHolder](#BKMK_msdyn_account_msdyn_warranty_WarrantyHolder)
 - [msdyn_account_msdyn_warranty_WarrantyProvider](#BKMK_msdyn_account_msdyn_warranty_WarrantyProvider)
-- [msdyn_msdyn_conversationparticipantinsights_account_msdyn_User](#BKMK_msdyn_msdyn_conversationparticipantinsights_account_msdyn_User)
 - [msdyn_msdyn_lastagent_account_msdyn_recordId](#BKMK_msdyn_msdyn_lastagent_account_msdyn_recordId)
 - [msdyn_msdyn_preferredagent_account_msdyn_recordId](#BKMK_msdyn_msdyn_preferredagent_account_msdyn_recordId)
 - [msdyn_msdyn_salescopilotinsight_account_msdyn_targetentityid](#BKMK_msdyn_msdyn_salescopilotinsight_account_msdyn_targetentityid)
@@ -474,6 +445,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_salesroutingdiagnostic_account_msdyn_target](#BKMK_msdyn_salesroutingdiagnostic_account_msdyn_target)
 - [msdyn_salessuggestion_account](#BKMK_msdyn_salessuggestion_account)
 - [msdyn_sequencetarget_account_msdyn_target](#BKMK_msdyn_sequencetarget_account_msdyn_target)
+- [msdyn_stakeholderresearchoutput_Account_account](#BKMK_msdyn_stakeholderresearchoutput_Account_account)
 - [msdyn_swarm_account](#BKMK_msdyn_swarm_account)
 - [opportunity_customer_accounts](#BKMK_opportunity_customer_accounts)
 - [opportunity_parent_account](#BKMK_opportunity_parent_account)
@@ -803,7 +775,7 @@ Many-To-One Relationship: [msdyn_dailyaccountkpiitem msdyn_account_dailyaccountk
 |ReferencingAttribute|`msdyn_entityid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_account_dailyaccountkpiitem_entityid`|
 |IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_account_msdyn_accountkpiitem_accountid"></a> msdyn_account_msdyn_accountkpiitem_accountid
 
@@ -925,18 +897,6 @@ Many-To-One Relationship: [msdyn_warranty msdyn_account_msdyn_warranty_WarrantyP
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: Warranties Provided<br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_msdyn_msdyn_conversationparticipantinsights_account_msdyn_User"></a> msdyn_msdyn_conversationparticipantinsights_account_msdyn_User
-
-Many-To-One Relationship: [msdyn_conversationparticipantinsights msdyn_msdyn_conversationparticipantinsights_account_msdyn_User](msdyn_conversationparticipantinsights.md#BKMK_msdyn_msdyn_conversationparticipantinsights_account_msdyn_User)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_conversationparticipantinsights`|
-|ReferencingAttribute|`msdyn_user`|
-|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_conversationparticipantinsights_account_msdyn_user`|
-|IsCustomizable|`False`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
 ### <a name="BKMK_msdyn_msdyn_lastagent_account_msdyn_recordId"></a> msdyn_msdyn_lastagent_account_msdyn_recordId
 
 Many-To-One Relationship: [msdyn_lastagent msdyn_msdyn_lastagent_account_msdyn_recordId](msdyn_lastagent.md#BKMK_msdyn_msdyn_lastagent_account_msdyn_recordId)
@@ -1032,6 +992,18 @@ Many-To-One Relationship: [msdyn_sequencetarget msdyn_sequencetarget_account_msd
 |ReferencedEntityNavigationPropertyName|`msdyn_sequencetarget_account_msdyn_target`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_stakeholderresearchoutput_Account_account"></a> msdyn_stakeholderresearchoutput_Account_account
+
+Many-To-One Relationship: [msdyn_stakeholderresearchoutput msdyn_stakeholderresearchoutput_Account_account](msdyn_stakeholderresearchoutput.md#BKMK_msdyn_stakeholderresearchoutput_Account_account)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_stakeholderresearchoutput`|
+|ReferencingAttribute|`msdyn_account`|
+|ReferencedEntityNavigationPropertyName|`msdyn_stakeholderresearchoutput_Account_account`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_swarm_account"></a> msdyn_swarm_account
 

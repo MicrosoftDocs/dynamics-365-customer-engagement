@@ -361,6 +361,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350000|**Long code**|
 |192350001|**Short code**|
 |192350002|**Toll free**|
+|192350003|**Mobile number**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 

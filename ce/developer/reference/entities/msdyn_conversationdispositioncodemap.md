@@ -71,6 +71,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_conversationdispositioncodemapId](#BKMK_msdyn_conversationdispositioncodemapId)
 - [msdyn_dispositioncodevalue](#BKMK_msdyn_dispositioncodevalue)
 - [msdyn_name](#BKMK_msdyn_name)
+- [msdyn_ocdispositioncodeid](#BKMK_msdyn_ocdispositioncodeid)
 - [msdyn_ocliveworkitemid](#BKMK_msdyn_ocliveworkitemid)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
@@ -139,6 +140,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100|
+
+### <a name="BKMK_msdyn_ocdispositioncodeid"></a> msdyn_ocdispositioncodeid
+
+|Property|Value|
+|---|---|
+|Description|**Unique identifier of the disposition code**|
+|DisplayName|**OC Disposition Code**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_ocdispositioncodeid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_ocdispositioncode|
 
 ### <a name="BKMK_msdyn_ocliveworkitemid"></a> msdyn_ocliveworkitemid
 
@@ -412,7 +426,7 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`owningbusinessunit`|
-|RequiredLevel|None|
+|RequiredLevel|SystemRequired|
 |Type|Lookup|
 |Targets|businessunit|
 
@@ -465,6 +479,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_conversationdispositioncodemap_createdonbehalfby](#BKMK_lk_msdyn_conversationdispositioncodemap_createdonbehalfby)
 - [lk_msdyn_conversationdispositioncodemap_modifiedby](#BKMK_lk_msdyn_conversationdispositioncodemap_modifiedby)
 - [lk_msdyn_conversationdispositioncodemap_modifiedonbehalfby](#BKMK_lk_msdyn_conversationdispositioncodemap_modifiedonbehalfby)
+- [msdyn_conversationdispositioncodemap_ocdispositioncode](#BKMK_msdyn_conversationdispositioncodemap_ocdispositioncode)
 - [msdyn_conversationdispositioncodemap_ocliveworkitem](#BKMK_msdyn_conversationdispositioncodemap_ocliveworkitem)
 - [owner_msdyn_conversationdispositioncodemap](#BKMK_owner_msdyn_conversationdispositioncodemap)
 - [team_msdyn_conversationdispositioncodemap](#BKMK_team_msdyn_conversationdispositioncodemap)
@@ -534,6 +549,19 @@ One-To-Many Relationship: [systemuser lk_msdyn_conversationdispositioncodemap_mo
 |ReferencingEntityNavigationPropertyName|`modifiedonbehalfby`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_conversationdispositioncodemap_ocdispositioncode"></a> msdyn_conversationdispositioncodemap_ocdispositioncode
+
+One-To-Many Relationship: [msdyn_ocdispositioncode msdyn_conversationdispositioncodemap_ocdispositioncode](msdyn_ocdispositioncode.md#BKMK_msdyn_conversationdispositioncodemap_ocdispositioncode)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocdispositioncode`|
+|ReferencedAttribute|`msdyn_ocdispositioncodeid`|
+|ReferencingAttribute|`msdyn_ocdispositioncodeid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_ocdispositioncodeid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msdyn_conversationdispositioncodemap_ocliveworkitem"></a> msdyn_conversationdispositioncodemap_ocliveworkitem
 

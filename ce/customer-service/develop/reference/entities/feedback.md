@@ -27,12 +27,15 @@ Changes from [RegardingObjectId (Microsoft Dataverse)](/power-apps/developer/dat
 
 |Property|Value|
 |---|---|
-|Targets|msdyn_ocoutboundmessage|
+|Targets|msdyn_ocoutboundmessage, msdyn_ocvoicemail|
 
 
 ## Many-to-One relationships
 
 These relationships are many-to-one. Listed by **SchemaName**.
+
+- [msdyn_ocoutboundmessage_Feedback](#BKMK_msdyn_ocoutboundmessage_Feedback)
+- [msdyn_ocvoicemail_Feedback](#BKMK_msdyn_ocvoicemail_Feedback)
 
 ### <a name="BKMK_msdyn_ocoutboundmessage_Feedback"></a> msdyn_ocoutboundmessage_Feedback
 
@@ -44,6 +47,19 @@ One-To-Many Relationship: [msdyn_ocoutboundmessage msdyn_ocoutboundmessage_Feedb
 |ReferencedAttribute|`activityid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocoutboundmessage`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocvoicemail_Feedback"></a> msdyn_ocvoicemail_Feedback
+
+One-To-Many Relationship: [msdyn_ocvoicemail msdyn_ocvoicemail_Feedback](msdyn_ocvoicemail.md#BKMK_msdyn_ocvoicemail_Feedback)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocvoicemail`|
+|ReferencedAttribute|`activityid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocvoicemail`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
