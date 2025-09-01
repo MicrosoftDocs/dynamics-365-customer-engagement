@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 05/09/2025
+ms.date: 08/29/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -34,7 +34,7 @@ The following table lists the built-in limits for the embedded version of insigh
 
 The AI suggestions for case and knowledge feature was introduced in October 2020 with service protection limits on these capabilities to maintain a consistent quality of service for all our customers. However, there aren't penalties if customers exceed predefined limits. Over time, Microsoft might adjust these limits in keeping with customer usage patterns. Microsoft provides options for customers with high usage scenarios and patterns to purchase more capacity in a manner that's minimally disruptive.
 
-Learn more about the service protection limits for AI suggestions in [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md). The total limits are pooled at the tenant level based on the number of Customer Service Enterprise user licenses that are available in the tenant.
+Learn more about the service protection limits for AI suggestions in [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md). The total limits are pooled at the tenant level based on the number of Customer Service Enterprise user licenses that are available in the tenant. Learn more in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 ## Microsoft Power Platform capacity impact
 

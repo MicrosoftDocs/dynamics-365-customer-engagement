@@ -282,7 +282,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_milestraveled`|
 |RequiredLevel|None|
 |Type|Double|
-|ImeMode|Auto|
+|ImeMode|Disabled|
 |MaxValue|1000000000|
 |MinValue|0|
 |Precision|2|
@@ -576,6 +576,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 
 - [bookableresourcebooking_msdyn_bookingalerts](#BKMK_bookableresourcebooking_msdyn_bookingalerts)
 - [bookableresourcebooking_msdyn_ocoutboundmessages](#BKMK_bookableresourcebooking_msdyn_ocoutboundmessages)
+- [bookableresourcebooking_msdyn_ocvoicemails](#BKMK_bookableresourcebooking_msdyn_ocvoicemails)
 
 ### <a name="BKMK_bookableresourcebooking_msdyn_bookingalerts"></a> bookableresourcebooking_msdyn_bookingalerts
 
@@ -599,6 +600,18 @@ Many-To-One Relationship: [msdyn_ocoutboundmessage bookableresourcebooking_msdyn
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`bookableresourcebooking_msdyn_ocoutboundmessages`|
 |IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `7f15e2bb-305a-468f-9af7-be865755a984`|
+
+### <a name="BKMK_bookableresourcebooking_msdyn_ocvoicemails"></a> bookableresourcebooking_msdyn_ocvoicemails
+
+Many-To-One Relationship: [msdyn_ocvoicemail bookableresourcebooking_msdyn_ocvoicemails](msdyn_ocvoicemail.md#BKMK_bookableresourcebooking_msdyn_ocvoicemails)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`bookableresourcebooking_msdyn_ocvoicemails`|
+|IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `7f15e2bb-305a-468f-9af7-be865755a984`|
 
 

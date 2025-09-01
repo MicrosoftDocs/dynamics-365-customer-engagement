@@ -70,14 +70,18 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_agentid](#BKMK_msdyn_agentid)
 - [msdyn_agentstatusId](#BKMK_msdyn_agentstatusId)
+- [msdyn_assignedconversationcount](#BKMK_msdyn_assignedconversationcount)
 - [msdyn_availableunitscapacity](#BKMK_msdyn_availableunitscapacity)
 - [msdyn_capacitymodifiedon](#BKMK_msdyn_capacitymodifiedon)
 - [msdyn_currentpresenceid](#BKMK_msdyn_currentpresenceid)
+- [msdyn_eventname](#BKMK_msdyn_eventname)
 - [msdyn_isagentloggedin](#BKMK_msdyn_isagentloggedin)
 - [msdyn_isblockedbysomeprofile](#BKMK_msdyn_isblockedbysomeprofile)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_presencemodifiedby](#BKMK_msdyn_presencemodifiedby)
+- [msdyn_presencemodifiedbyuserid](#BKMK_msdyn_presencemodifiedbyuserid)
 - [msdyn_presencemodifiedon](#BKMK_msdyn_presencemodifiedon)
+- [msdyn_subeventname](#BKMK_msdyn_subeventname)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -125,6 +129,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
+### <a name="BKMK_msdyn_assignedconversationcount"></a> msdyn_assignedconversationcount
+
+|Property|Value|
+|---|---|
+|Description|**Indicates the number of current active conversations assigned to the agent**|
+|DisplayName|**Assigned Conversation Count**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_assignedconversationcount`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
+
 ### <a name="BKMK_msdyn_availableunitscapacity"></a> msdyn_availableunitscapacity
 
 |Property|Value|
@@ -169,6 +187,39 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Lookup|
 |Targets|msdyn_presence|
 
+### <a name="BKMK_msdyn_eventname"></a> msdyn_eventname
+
+|Property|Value|
+|---|---|
+|Description|**Indicates the event associated with the changes in agent's presence and capacity**|
+|DisplayName|**Event Name**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_eventname`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue||
+|GlobalChoiceName|`msdyn_agentstatus_msdyn_eventname`|
+
+#### msdyn_eventname Choices/Options
+
+|Value|Label|
+|---|---|
+|192350001|**Configuration Update**|
+|192350002|**New User**|
+|192350003|**Login**|
+|192350004|**Reconnect**|
+|192350005|**Logout**|
+|192350006|**Set Presence**|
+|192350007|**Missed Notification**|
+|192350008|**Rejected Notification**|
+|192350009|**Other**|
+|192350010|**Reset Missed/Rejected Notification Presence**|
+|192350011|**Assignment Attempted With Capacity Reservation**|
+|192350012|**Session Assigned**|
+|192350013|**Session Closed**|
+|192350014|**End of Day Capacity Reset**|
+
 ### <a name="BKMK_msdyn_isagentloggedin"></a> msdyn_isagentloggedin
 
 |Property|Value|
@@ -189,8 +240,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Indicates if agent is currently blocked by some profile**|
-|DisplayName|**Is Blocked By Some Profile**|
+|Description|**Indicates if agent’s capacity is currently blocked by any capacity profile and hence, they can’t get any work assigned**|
+|DisplayName|**Is Blocked By Some Capacity Profile**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_isblockedbysomeprofile`|
@@ -222,7 +273,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Lookup to SystemUser entity**|
+|Description|**Indicates if the presence was modified by system or manually by a user**|
 |DisplayName|**Presence Modified By**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -234,6 +285,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100|
+
+### <a name="BKMK_msdyn_presencemodifiedbyuserid"></a> msdyn_presencemodifiedbyuserid
+
+|Property|Value|
+|---|---|
+|Description|**Indicates the user who modified the presence**|
+|DisplayName|**Presence Modified By User Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_presencemodifiedbyuserid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|systemuser|
 
 ### <a name="BKMK_msdyn_presencemodifiedon"></a> msdyn_presencemodifiedon
 
@@ -251,6 +315,54 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Format|DateOnly|
 |ImeMode|Auto|
 |SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_subeventname"></a> msdyn_subeventname
+
+|Property|Value|
+|---|---|
+|Description|**Indicates the sub-event associated with the changes in agent's presence and capacity**|
+|DisplayName|**Sub-event Name**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_subeventname`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue||
+|GlobalChoiceName|`msdyn_agentstatus_msdyn_subeventname`|
+
+#### msdyn_subeventname Choices/Options
+
+|Value|Label|
+|---|---|
+|192350001|**Assignment Accept**|
+|192350002|**Pick**|
+|192350003|**Assigned By Supervisor**|
+|192350004|**Transfer**|
+|192350005|**Representative Initiated Outbound Call**|
+|192350006|**Agent End Conversation**|
+|192350007|**Agent Reject**|
+|192350008|**Agent Timeout**|
+|192350009|**Conversation Timeout**|
+|192350010|**Agent Closed**|
+|192350011|**Conversation Closed**|
+|192350012|**Agent Transfered**|
+|192350013|**Agent Disconnected**|
+|192350014|**Agent Re-Routed**|
+|192350015|**Virtual Agent Closed**|
+|192350016|**Agent Transfer To Queue**|
+|192350017|**Supervisor Assign To Queue**|
+|192350018|**Supervisor Transfer To Agent**|
+|192350019|**System Reject**|
+|192350020|**Force Close**|
+|192350021|**Overflow Queue Transfer**|
+|192350022|**Overflow End Conversation**|
+|192350023|**Add Agent Failed**|
+|192350024|**Auto Close**|
+|192350025|**Customer Disconnect**|
+|192350026|**Customer End Conversation**|
+|192350027|**Queue Transfer**|
+|192350028|**Inqueue Overflow Queue Transfer**|
+|192350029|**Inqueue Overflow End Conversation**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
@@ -566,6 +678,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_agentstatus_modifiedonbehalfby](#BKMK_lk_msdyn_agentstatus_modifiedonbehalfby)
 - [msdyn_presence_msdyn_agentstatus_currentpresenceid](#BKMK_msdyn_presence_msdyn_agentstatus_currentpresenceid)
 - [msdyn_systemuser_msdyn_agentstatus_agentid](#BKMK_msdyn_systemuser_msdyn_agentstatus_agentid)
+- [msdyn_systemuser_msdyn_agentstatus_msdyn_presencemodifiedbyuserid](#BKMK_msdyn_systemuser_msdyn_agentstatus_msdyn_presencemodifiedbyuserid)
 - [owner_msdyn_agentstatus](#BKMK_owner_msdyn_agentstatus)
 - [team_msdyn_agentstatus](#BKMK_team_msdyn_agentstatus)
 - [user_msdyn_agentstatus](#BKMK_user_msdyn_agentstatus)
@@ -658,6 +771,19 @@ One-To-Many Relationship: [systemuser msdyn_systemuser_msdyn_agentstatus_agentid
 |ReferencedAttribute|`systemuserid`|
 |ReferencingAttribute|`msdyn_agentid`|
 |ReferencingEntityNavigationPropertyName|`msdyn_agentid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_systemuser_msdyn_agentstatus_msdyn_presencemodifiedbyuserid"></a> msdyn_systemuser_msdyn_agentstatus_msdyn_presencemodifiedbyuserid
+
+One-To-Many Relationship: [systemuser msdyn_systemuser_msdyn_agentstatus_msdyn_presencemodifiedbyuserid](systemuser.md#BKMK_msdyn_systemuser_msdyn_agentstatus_msdyn_presencemodifiedbyuserid)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`systemuser`|
+|ReferencedAttribute|`systemuserid`|
+|ReferencingAttribute|`msdyn_presencemodifiedbyuserid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_presencemodifiedbyuserid`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

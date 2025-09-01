@@ -16,18 +16,15 @@ Power Pages Scan Report
 > The Microsoft Dynamics 365 Power Pages Scan Report (PowerPagesScanReport) table extends the [Microsoft Dataverse Power Pages Scan Report (PowerPagesScanReport) table](/power-apps/developer/data-platform/reference/entities/powerpagesscanreport).
 
 
+## Messages
 
-## Customized columns/attributes
+The following table lists the messages for the Power Pages Scan Report (PowerPagesScanReport) table.
+Messages represent operations that can be performed on the table. They may also be events.
 
-Microsoft Dynamics 365 modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
+| Name <br />Is Event? |Web API Operation |SDK for .NET |
+| ---- | ----- |----- |
+| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 
-### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
-
-Changes from [OwningBusinessUnit (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/powerpagesscanreport#BKMK_OwningBusinessUnit)
-
-|Property|Value|
-|---|---|
-|RequiredLevel|None|
 
 
 
