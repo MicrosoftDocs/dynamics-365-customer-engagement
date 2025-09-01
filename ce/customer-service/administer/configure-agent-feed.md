@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 The agent activity monitoring experience in your contact center allows supervisors to observe AI agents interactions with customers when needed, enabling them to improve AI agents and better serve customers.
 
-While you can enable the agent feed for custom generative AI agents, it's supported for Case Management Agent only in the preview release.
+In the preview release, Case Management Agent only is supported. You can also enable any custom generative AI agents.
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
