@@ -92,7 +92,8 @@ When you initiate a consult, the following actions occur:
 - You're the primary representative. 
 - You can search for representatives to consult within the same queue or other queues. Additionally, you can filter representatives within a queue based on their skills. The application displays the representatives whose skills match the selected criteria in full or partially, along with their name, and current presence status.
 - The customer is automatically put on hold. Hold music plays for the customer.
-- When the invited collaborator joins the call, they have a consult role. Consulting on a call doesn't affect the collaborator's available capacity.
+- When the invited collaborator joins the call, they have a consult role. Consulting on a call doesn't affect the collaborator's available capacity. You can also add multiple collaborators to the consult.
+- You can put the consulting representatives on hold individually or all at once, and then take them off hold individually or all at once.
 - The primary representative must manually remove the customer from hold. During a consult, the primary representative can choose to transfer the call to the new participant. 
 - If the primary representative or customer ends the call, the call ends for everyone. 
 - If the primary representative refreshes their browser, all the participants are placed on hold until the primary representative returns to the call. 
