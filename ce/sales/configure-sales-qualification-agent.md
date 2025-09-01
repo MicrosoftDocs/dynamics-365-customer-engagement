@@ -31,8 +31,6 @@ Watch the video to get started with the agent setup:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-
-
 ## Prerequisites
 
 Ensure that the following prerequisites are met:  
@@ -97,7 +95,12 @@ The following image shows the permissions to access research insights as an exam
 
 ## Set up Sales Qualification Agent
 
-The Sales Qualification Agent is available in two modes&mdash;Research-only mode and Research and engage mode&mdash;depending on the level of automation you want to achieve. The configuration steps are similar for both types, but the Engage has additional settings such as adding email signature, customized email instructions, and configuring BANT criteria for handover to work autonomously. Let's look at the steps to set up and configure the agents.
+The Sales Qualification Agent is available in two modes&mdash;Research-only mode and Research and engage mode&mdash;depending on the level of automation you want to achieve. The configuration steps are similar for both types, but the Engage has additional settings such as adding email signature, customized email instructions, and configuring BANT criteria for handover to work autonomously.
+
+> [!TIP]
+> We recommend that you test the agent's functionality on a smaller scale before testing it for your production scenario. Learn more about [testing preparation and recommendations](test-sales-qualification-agent-research-engage.md).
+
+Let's look at the steps to set up and configure the agents.
 
 **Follow these steps**:
 
@@ -116,6 +119,8 @@ The Sales Qualification Agent is available in two modes&mdash;Research-only mode
 1. [Configure knowledge sources](configure-sqa-knowledge-source.md) for research insights, outreach, and follow-up emails.
 1. (**Research and engage mode**) [Run simulation to review the agent's outreach emails](run-simulation-sqa-outreach-email.md) are customized and relevant to the leads.  
 1. After you are satisfied with the configuration, [start the agent](start-sales-qualification-agent.md).
+1. [Test the Sales Qualification Agent](test-sales-qualification-agent-research-engage.md)
+
 
 ## Related information
 
