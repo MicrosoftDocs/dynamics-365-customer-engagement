@@ -141,11 +141,15 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |1054|**th-TH**|
 |1055|**tr-TR**|
 |1057|**id-ID**|
+|1058|**uk-UA**|
+|1060|**sl-SI**|
 |1061|**et-EE**|
 |1062|**lv-LV**|
 |1063|**lt-LT**|
+|1066|**vi-VN**|
 |1069|**eu-ES**|
 |1081|**hi-IN**|
+|1086|**ms-MY**|
 |1087|**kk-KZ**|
 |1110|**gl-ES**|
 |2052|**zh-CN**|
@@ -153,6 +157,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |2074|**sr-Latn-CS**|
 |3076|**zh-HK**|
 |3082|**es-ES**|
+|3098|**sr-Cyrl-CS**|
 
 ### <a name="BKMK_msdyn_message"></a> msdyn_message
 

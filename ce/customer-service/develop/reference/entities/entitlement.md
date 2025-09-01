@@ -24,6 +24,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 
 - [entitlement_msdyn_bookingalerts](#BKMK_entitlement_msdyn_bookingalerts)
 - [entitlement_msdyn_ocoutboundmessages](#BKMK_entitlement_msdyn_ocoutboundmessages)
+- [entitlement_msdyn_ocvoicemails](#BKMK_entitlement_msdyn_ocvoicemails)
 
 ### <a name="BKMK_entitlement_msdyn_bookingalerts"></a> entitlement_msdyn_bookingalerts
 
@@ -47,6 +48,18 @@ Many-To-One Relationship: [msdyn_ocoutboundmessage entitlement_msdyn_ocoutboundm
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`entitlement_msdyn_ocoutboundmessages`|
 |IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `7f15e2bb-305a-468f-9af7-be865755a984`|
+
+### <a name="BKMK_entitlement_msdyn_ocvoicemails"></a> entitlement_msdyn_ocvoicemails
+
+Many-To-One Relationship: [msdyn_ocvoicemail entitlement_msdyn_ocvoicemails](msdyn_ocvoicemail.md#BKMK_entitlement_msdyn_ocvoicemails)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`entitlement_msdyn_ocvoicemails`|
+|IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `7f15e2bb-305a-468f-9af7-be865755a984`|
 
 

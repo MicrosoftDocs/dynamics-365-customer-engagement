@@ -24,6 +24,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 
 - [bulkoperation_msdyn_bookingalerts](#BKMK_bulkoperation_msdyn_bookingalerts)
 - [bulkoperation_msdyn_ocoutboundmessages](#BKMK_bulkoperation_msdyn_ocoutboundmessages)
+- [bulkoperation_msdyn_ocvoicemails](#BKMK_bulkoperation_msdyn_ocvoicemails)
 
 ### <a name="BKMK_bulkoperation_msdyn_bookingalerts"></a> bulkoperation_msdyn_bookingalerts
 
@@ -47,6 +48,18 @@ Many-To-One Relationship: [msdyn_ocoutboundmessage bulkoperation_msdyn_ocoutboun
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`bulkoperation_msdyn_ocoutboundmessages`|
 |IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `7f15e2bb-305a-468f-9af7-be865755a984`|
+
+### <a name="BKMK_bulkoperation_msdyn_ocvoicemails"></a> bulkoperation_msdyn_ocvoicemails
+
+Many-To-One Relationship: [msdyn_ocvoicemail bulkoperation_msdyn_ocvoicemails](msdyn_ocvoicemail.md#BKMK_bulkoperation_msdyn_ocvoicemails)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`bulkoperation_msdyn_ocvoicemails`|
+|IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `7f15e2bb-305a-468f-9af7-be865755a984`|
 
 

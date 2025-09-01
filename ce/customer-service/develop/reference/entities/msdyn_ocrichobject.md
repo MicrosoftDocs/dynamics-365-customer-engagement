@@ -42,6 +42,7 @@ Changes from [msdyn_streamsource (Microsoft Dynamics 365)](/dynamics365/develope
 |192380000|**Video**|
 |192390000|**Co-browse**|
 |192400000|**Screen sharing**|
+|192440000|**Voice call**|
 |192450000|**Apple Messages for Business**|
 |192450001|**Google's Business Messages**|
 

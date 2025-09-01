@@ -16,6 +16,15 @@ Holds information about the redemption of an invite.
 > The Microsoft Dynamics 365 Invite Redemption (adx_inviteredemption) table extends the [Microsoft Dataverse Invite Redemption (adx_inviteredemption) table](/power-apps/developer/data-platform/reference/entities/adx_inviteredemption).
 
 
+## Messages
+
+The following table lists the messages for the Invite Redemption (adx_inviteredemption) table.
+Messages represent operations that can be performed on the table. They may also be events.
+
+| Name <br />Is Event? |Web API Operation |SDK for .NET |
+| ---- | ----- |----- |
+| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
+
 
 ## Writable columns/attributes
 

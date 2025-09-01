@@ -27,7 +27,7 @@ Changes from [ObjectId (Microsoft Dataverse)](/power-apps/developer/data-platfor
 
 |Property|Value|
 |---|---|
-|Targets|msdyn_actual, msdyn_amsbuild, msdyn_amsmodel, msdyn_amsprofile, msdyn_amsprofilesettings, msdyn_amstag, msdyn_bookingalert, msdyn_bookingalertstatus, msdyn_bookingrule, msdyn_ocoutboundmessage, msdyn_organizationalunit, msdyn_priority, msdyn_requirementcharacteristic, msdyn_requirementresourcecategory, msdyn_requirementresourcepreference, msdyn_requirementstatus, msdyn_resourcerequirement, msdyn_resourcerequirementdetail, msdyn_resourceterritory, msdyn_systemuserschedulersetting, msdyn_timegroup, msdyn_timegroupdetail, msdyn_transactionorigin|
+|Targets|msdyn_actual, msdyn_amsbuild, msdyn_amsmodel, msdyn_amsprofile, msdyn_amsprofilesettings, msdyn_amstag, msdyn_bookingalert, msdyn_bookingalertstatus, msdyn_bookingrule, msdyn_ocoutboundmessage, msdyn_ocvoicemail, msdyn_organizationalunit, msdyn_priority, msdyn_requirementcharacteristic, msdyn_requirementresourcecategory, msdyn_requirementresourcepreference, msdyn_requirementstatus, msdyn_resourcerequirement, msdyn_resourcerequirementdetail, msdyn_resourceterritory, msdyn_systemuserschedulersetting, msdyn_timegroup, msdyn_timegroupdetail, msdyn_transactionorigin|
 
 
 ## Many-to-One relationships
@@ -44,6 +44,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_bookingalertstatus_Annotations](#BKMK_msdyn_bookingalertstatus_Annotations)
 - [msdyn_bookingrule_Annotations](#BKMK_msdyn_bookingrule_Annotations)
 - [msdyn_ocoutboundmessage_Annotations](#BKMK_msdyn_ocoutboundmessage_Annotations)
+- [msdyn_ocvoicemail_Annotations](#BKMK_msdyn_ocvoicemail_Annotations)
 - [msdyn_organizationalunit_Annotations](#BKMK_msdyn_organizationalunit_Annotations)
 - [msdyn_priority_Annotations](#BKMK_msdyn_priority_Annotations)
 - [msdyn_requirementcharacteristic_Annotations](#BKMK_msdyn_requirementcharacteristic_Annotations)
@@ -185,6 +186,19 @@ One-To-Many Relationship: [msdyn_ocoutboundmessage msdyn_ocoutboundmessage_Annot
 |ReferencedAttribute|`activityid`|
 |ReferencingAttribute|`objectid`|
 |ReferencingEntityNavigationPropertyName|`objectid_msdyn_ocoutboundmessage`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_ocvoicemail_Annotations"></a> msdyn_ocvoicemail_Annotations
+
+One-To-Many Relationship: [msdyn_ocvoicemail msdyn_ocvoicemail_Annotations](msdyn_ocvoicemail.md#BKMK_msdyn_ocvoicemail_Annotations)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocvoicemail`|
+|ReferencedAttribute|`activityid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyn_ocvoicemail`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

@@ -401,7 +401,7 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`owningbusinessunit`|
-|RequiredLevel|SystemRequired|
+|RequiredLevel|None|
 |Type|Lookup|
 |Targets||
 

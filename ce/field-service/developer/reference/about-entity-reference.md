@@ -1,10 +1,10 @@
 ---
 title: "Dynamics 365 Field Service table/entity reference"
 description: "This reference contains tables added or modified when you install Field Service to an environment you create"
-ms.date: 02/07/2025
-author: m-hartmann
-ms.author: mhart
-ms.reviewer: mhart
+ms.date: 08/29/2025
+author: puneet-singh1
+ms.author: puneetsingh
+ms.reviewer: puneetsingh
 ms.topic: reference
 search.audienceType: 
   - developer

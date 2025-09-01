@@ -24,6 +24,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 
 - [invoice_msdyn_bookingalerts](#BKMK_invoice_msdyn_bookingalerts)
 - [invoice_msdyn_ocoutboundmessages](#BKMK_invoice_msdyn_ocoutboundmessages)
+- [invoice_msdyn_ocvoicemails](#BKMK_invoice_msdyn_ocvoicemails)
 - [msdyn_invoice_msdyn_actual_Invoice](#BKMK_msdyn_invoice_msdyn_actual_Invoice)
 
 ### <a name="BKMK_invoice_msdyn_bookingalerts"></a> invoice_msdyn_bookingalerts
@@ -48,6 +49,18 @@ Many-To-One Relationship: [msdyn_ocoutboundmessage invoice_msdyn_ocoutboundmessa
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`invoice_msdyn_ocoutboundmessages`|
 |IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_invoice_msdyn_ocvoicemails"></a> invoice_msdyn_ocvoicemails
+
+Many-To-One Relationship: [msdyn_ocvoicemail invoice_msdyn_ocvoicemails](msdyn_ocvoicemail.md#BKMK_invoice_msdyn_ocvoicemails)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`invoice_msdyn_ocvoicemails`|
+|IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_invoice_msdyn_actual_Invoice"></a> msdyn_invoice_msdyn_actual_Invoice
