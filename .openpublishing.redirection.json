@@ -71,6 +71,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/testing-guidance-sales-qualification-agent.md",
+      "redirect_url": "/dynamics365/sales/test-sales-qualification-agent-research-engage",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/compose-send-email-copilot.md",
       "redirect_url": "/power-apps/maker/model-driven-apps/use-copilot-email-assist",
       "redirect_document_id": "false"
