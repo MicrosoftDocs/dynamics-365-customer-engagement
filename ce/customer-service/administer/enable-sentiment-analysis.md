@@ -77,7 +77,7 @@ To turn off service representative alerts, select **Don't show alerts**.
 
 Supervisors can use the **Omnichannel Ongoing Conversations** dashboard to view customer sentiment in real time during conversations between customers and service representatives.
 
-You can show notifications to the supervisors when a customer's sentiment decreases to or falls lower than a particular value. The supervisor must be assigned to the queue to receive sentiment notifications.
+You can show notifications to the supervisors when a customer's sentiment decreases to or falls lower than a particular value. The supervisor can receive sentiment threshold alerts only when their presence is Available or Busy and they are assigned to a queue.
 
 You can set the sentiment threshold to any of the following values:
 
