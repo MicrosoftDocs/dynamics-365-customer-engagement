@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 04/22/2025
+ms.date: 09/02/2025
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
@@ -33,20 +33,17 @@ See the following articles for configuring analytics and insights:
 
 ## Configure user access to analytics and dashboards
 
-Users with the system administrator or supervisor role can access the analytics and dashboards. To grant other users access to analytics and dashboards, go the Power Platform admin center and perform the following steps:
+Users with the system administrator or supervisor role can access the analytics and dashboards. To grant other users access to analytics and dashboards, go the Power Platform admin center and [assign a security role](/power-platform/admin/assign-security-roles?tabs=new#tabpanel_1_new).
 
-1. Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) and select your environment.
+If you'd like to create a new role for analytics users, then perform the following steps:
 
-1. In the **Access** section, under **Security roles**, select **See all**. A list of security roles available in the environment is displayed.
-
-1. To add privileges to an existing role, select a role from the list of security roles, and then select **Edit** on the navigation bar. 
-   
-    If you'd like to create a new role for analytics users, then perform the following steps:
-
-    a. Select **New role** on the navigation bar. The **New Security role** dialog opens. <br>
-    b. On the **Details** tab, enter a name in the **Role Name** field.
-
-1. Select the **Custom Entities** tab, move through the list of analytics reports, and then grant **Read** privileges for the following entities:
+1. In your environment, select **Settings** in the command bar. The **Settings** page for that environment is displayed.
+1. Select **Users + permissions** > **Security roles**.
+1. Select **New role** on the navigation bar. The **Create new role** dialog opens.
+1. Enter your role name and business unit.
+1. Enter your **Member's privilege inheritance**, as applicable. Learn more in [Define the privileges and properties of a security role](/power-platform/admin/security-roles-privileges?tabs=new#define-the-privileges-and-properties-of-a-security-role).
+1. Select **Save**.
+1. Select the role that you just created and from the **Custom Tables** dropdown, move through the list of analytics reports, and then grant **Read** privileges for the following entities:
 
     |Dashboard  |Report entity  |
     |---------|---------|
@@ -56,13 +53,12 @@ Users with the system administrator or supervisor role can access the analytics 
     |[Customer Service historical analytics dashboards](../use/customer-service-analytics-insights-csh.md)     |    msdyn_dataanalyticsreport_csrmanager     |
     |[Copilot Analytics ](../use/copilot-analytics-report.md#use-copilot-analytics-report)  |    msdyn_dataanalyticsreport_copilot     |
     |[Knowledge analytics dashboards](../use/knowledge-search-analytics-cs.md#introduction-to-knowledge-analytics)| msdyn_dataanalyticsreport_ksinsights |
-
+1. To grant Read privileges, select **Permission Settings**for a table.
+1. On the **Permission Settings** dialog, provide **Read** access.
 > [!NOTE]
 > For custom roles, select **Read** privileges for [the entities used by historical and real-time analytics](../use/dataverse-entities.md), as applicable.
 
-1. Select **Save and close**.
-
-1. On the **Security roles** page, select the role that you just created or updated, and then select **Add people** to add users to the role.
+1. Select **Save**.
 
 > [!NOTE]
 > - To bookmark a report, grant **Create**, **Read**, **Write**, and **Delete** privileges to the security roles as applicable, for the **Report Bookmark** custom entity.
