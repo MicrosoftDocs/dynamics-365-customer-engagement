@@ -1,7 +1,7 @@
 ---
 title: Supervise autonomous agents using agent feed (preview)
 description: As supervisors, monitor AI agent activities in your Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 09/01/2025
+ms.date: 09/02/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
