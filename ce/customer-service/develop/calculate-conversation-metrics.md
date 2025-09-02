@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 08/28/2025
+ms.date: 09/02/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -257,7 +257,7 @@ Abandoned conversations = ​SUMX(FactConversation, IF (FactConversation[IsAband
 
 *Applies to Omnichannel real-time dashboard.*
 
-Conversation first wait time is how long (in seconds) a customer waits for a service representative to accept the conversation. This time starts after escalation from an AI agent or direct queue entry and ends when the representative accepts the conversation or when the customer disconnects. 
+Conversation first wait time is how long (in seconds) a customer waits for a service representative to accept the conversation after escalation from an AI agent or direct queue entry, or until disconnection, if the user abandons the conversation before the representative accepts the conversation.
 
 ### DAX query and Dataverse reference
 
