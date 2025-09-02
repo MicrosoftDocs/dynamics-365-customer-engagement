@@ -318,7 +318,7 @@ Avg. conversation first wait time (sec) =​
 
 *Applies to Omnichannel real-time and historical dashboards.*
 
-Average speed to answer is the average time (in seconds) for a service representative to accept a conversation after it's escalated from an AI agent or enters a direct queue.
+Average speed to answer is the average time (in seconds) for a service representative to accept a conversation after and AI agent escalates it or it enters a direct queue.
 
 #### Related metrics
 
@@ -701,7 +701,7 @@ SUMX (FactConversation,​
 
 *Applies to Omnichannel real-time dashboards.*
 
-The total number of active service representative conversations. Includes conversations that were assigned to a service representative, accepted and actively engaged by the representative. Includes all inbound and outbound conversations across all channels (digital, voice, and cases).
+The total number of active service representative conversations. Includes conversations that were assigned to a service representative, accepted, and actively engaged by the representative. Includes all inbound and outbound conversations across all channels (digital, voice, and cases).
 
 ### DAX query and Dataverse reference
 
@@ -997,7 +997,7 @@ conversations_FactConversation])), 0, rate)
 
 *Applies to Omnichannel historical dashboards.*
 
-Transfer conversation count is the number of conversations handed off from one representative to another representative​, a representative to a queue​, a representative to a PSTN number or Teams user​.
+Transfer conversation count is the number of conversations that one representative hands off to another representative​, a representative to a queue​, a representative to a PSTN number or Teams user​.
 
 ### DAX query and Dataverse reference
 
