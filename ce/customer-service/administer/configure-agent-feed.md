@@ -1,6 +1,6 @@
 ---
-title: Configure Ai agent feed (preview)
-description: Configure agent feed for supervisors to monitor AI agent activities in your Dynamics 365 Customer Service and Dynamics 365 Contact Center.
+title: Configure AI agent feed (preview)
+description: Configure agent feed for supervisors to monitor AI agent activities in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
 ms.date: 09/02/2025
 ms.topic: how-to
 author: neeranelli
@@ -26,7 +26,7 @@ Administrator role with permissions to access Power Apps.
 
 ## Add an autonomous agent feed
 
-To view the agent activity, you need to add the autonomous agent to the Customer Service workspace app in Power Apps. Learn more in [Add agents to your model-driven app](/power-apps/maker/model-driven-apps/add-agents-to-app).
+To view the agent activity, you need to add the autonomous agent to the Copilot Service workspace app in Power Apps. Learn more in [Add agents to your model-driven app](/power-apps/maker/model-driven-apps/add-agents-to-app).
 
 1. Sign in to Power Apps and select the  environment in which your contact center resides.
 
