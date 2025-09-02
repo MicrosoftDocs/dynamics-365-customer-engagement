@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 07/28/2025
+ms.date: 09/02/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -130,7 +130,7 @@ Total bot conversation = CALCULATE(DISTINCTCOUNTNOBLANK(FactSession[Conversation
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-The total number of inbound conversations that a service representative received directly or are escalated by an AI agent.
+The total number of inbound conversations that a service representative received directly or an AI agent escalated.
 
 In the Summary tab of Omnichannel real-time dashboard, incoming conversations are **Total conversations offered**.
 
@@ -257,13 +257,7 @@ Abandoned conversations = ​SUMX(FactConversation, IF (FactConversation[IsAband
 
 *Applies to Omnichannel real-time dashboard.*
 
-Conversation first wait time is a measure of the time, in seconds, before a service representative responds to a customer's request. It represents the amount of time the customer spends waiting for the first response from a service representative. Factors such as service representative availability, a high volume of requests, and increased handle time can affect customer wait time. A shorter wait time indicates a faster issue resolution and better support experience.
-
-If an AI agent or IVR handles the customer before it escalates the issue to a service representative, the calculation is based on the time between the point when the AI agent or IVR escalates the incoming conversation to a service representative and the point when the service representative accepts the conversation. If the customer abandons the conversation, the calculation is based on the time between the point when the AI agent or IVR escalates the conversation to a service representative and the point when the customer disconnects the conversation.
-
-If the customer reaches a service representative queue directly, the calculation is based on the time between the point when the customer creates the request and the point when a service representative accepts the conversation. If the customer abandons the conversation, the calculation is based on the time between the point when the customer creates the request and the point when the customer disconnects the conversation.
-
-This metric is available in two formats: seconds and *hh:mm:ss*.
+Conversation first wait time is how long (in seconds) a customer waits for a service representative to accept the conversation after escalation from an AI agent or direct queue entry, or until disconnection, if the user abandons the conversation before the representative accepts the conversation.
 
 ### DAX query and Dataverse reference
 
@@ -288,7 +282,7 @@ SUMX (FactConversation, IF (NOT FactConversation[DirectionCode], FactConversatio
 
 ### Related metrics
 
-- [Average conversation first wait time](#average-conversation-first-wait-time): Average conversation first wait time is the total wait time for customers waiting in the queue divided by the total number of handled conversations.
+- [Average conversation first wait time](#average-conversation-first-wait-time): Average conversation first wait time is the average duration (in seconds) a customer waits for a service representative to accept the conversation after escalation from an agent or direct queue entry, or until disconnection, if abandoned.
 - **Longest wait time**: Longest wait time is a measure of the longest first wait time among unaccepted incoming conversations.
 - **Conversations in queue**: The number of conversations waiting for a service representative to be assigned or accept the conversation.
 
@@ -298,7 +292,7 @@ You can use [Session wait time](../use/session-metrics.md#session-wait-time) met
 
 *Applies to Omnichannel historical dashboard.*
 
-Average conversation first wait time is the total queue wait time divided by the number of handled conversations.
+Average conversation first wait time is the average duration (in seconds) a customer waits for a service representative to accept the conversation after escalation from an agent or direct queue entry, or until disconnection, if abandoned.
 
 ### DAX query and Dataverse reference
 
@@ -324,13 +318,7 @@ Avg. conversation first wait time (sec) =​
 
 *Applies to Omnichannel real-time and historical dashboards.*
 
-Average speed to answer measures how quickly the service team responds to customer requests. It's the total queue wait time (after the conversation is escalated from an AI agent to a service representative) divided by the number of handled conversations. A lower average speed to answer indicates a faster issue resolution and better customer experience.
-
-For an AI agent conversation, this metric measures the time from when the AI agent escalates the incoming conversation to when a service representative accepts it.
-
-If the conversation enters the service representative queue directly, this metric measures the time from when the request is created to when a representative accepts the conversation.
-
-This metric is available in two formats: seconds and hh:mm:ss.
+Average speed to answer is the average time (in seconds) for a service representative to accept a conversation after and AI agent escalates it or it enters a direct queue.
 
 #### Related metrics
 
@@ -713,7 +701,7 @@ SUMX (FactConversation,​
 
 *Applies to Omnichannel real-time dashboards.*
 
-The total number of active service representative conversations. Includes conversations that were assigned to a service representative, accepted and actively engaged by the representative. Includes all inbound and outbound conversations across all channels (digital, voice, and cases).
+The total number of active service representative conversations. Includes conversations that were assigned to a service representative, accepted, and actively engaged by the representative. Includes all inbound and outbound conversations across all channels (digital, voice, and cases).
 
 ### DAX query and Dataverse reference
 
@@ -795,7 +783,7 @@ Wrap-up conversations = SUMX ( FactConversation, IF ( FactConversation[statuscod
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-The abandoned rate refers to the percentage of incoming conversation requests that are terminated before a representative engages with the customer. This can happen in both representative and AI agent scenarios. There are two primary types:​
+The abandoned rate refers to the percentage of incoming conversation requests that are terminated before a representative engages with the customer. This rate can happen in both representative and AI agent scenarios. There are two primary types:​
 - Abandoned before assignment: The customer leaves before being assigned to a representative.​
 - Abandoned after assignment: The customer is assigned to a representative but disconnects before the representative accepts the conversation.
 
@@ -854,7 +842,7 @@ DIVIDE(SUMX(FactConversation,IF(FactConversation[IsAbandoned] && NOT FactConvers
 
 *Applies to Omnichannel real-time dashboards.*
 
-Average time to abandon (sec) measures how long, on an average, a customer waits before abandoning a conversation, before being connected to a representative.​ This metric captures the average duration (in seconds).
+Average time to abandon is the average time (in seconds) that customers wait before leaving a conversation when no service representative joins. This average time includes conversations escalated from an AI agent or those that enter a direct queue but are abandoned before any AI agent interaction occurs.
 
 ### DAX query and Dataverse reference
 
@@ -906,7 +894,7 @@ Avg. conversation active time (min) = CALCULATE(AVERAGE(FactConversation[ActiveT
 
 *Applies to Omnichannel historical dashboards.*
 
-The metric refers to the average amount of time during a conversation when an agent isn't actively engaged with the customer. This is especially relevant in chat and digital messaging channels, where agents often handle multiple sessions concurrently.​ Inactive time is the duration when a conversation is open but the agent isn't focused on it—either because they’ve switched to another session or aren't interacting with the customer. 
+The metric refers to the average amount of time during a conversation when an agent isn't actively engaged with the customer. This metric is especially relevant in chat and digital messaging channels, where agents often handle multiple sessions concurrently.​ Inactive time is the duration when a conversation is open but the agent isn't focused on it—either because they’ve switched to another session or aren't interacting with the customer. 
 
 ### DAX query and Dataverse reference
 
@@ -1001,7 +989,7 @@ conversations_FactConversation])), 0, rate)
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_sessionparticipant, systemuser |
 |Attributes  |-  msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel​ <br>- msdyn_ocliveworkitem.statuscode​ <br> - msdyn_ocliveworkitem.msdyn_transfercount <br> - msdyn_sessionparticipant.msdyn_joinedon ​<br> -  systemuser.msdyn_botapplicationid|
-|Filters  | - Filter the FactConversations table to include only rows where Ensure that msdyn_channelinstanceid is NULL.​ <br> - Exclude rows where msdyn_channel is'192350000’. <br> - Include msdyn_ocliveworkitem.statuscode set to 4​. <br> - Ensure that systemuser.msdyn_botapplicationid and msdyn_sessionparticipant.msdyn_joinedon isn't null​. <br> - IsAgentAcceptedSession is set as follows:​ If systemuser.msdyn_botapplicationid is empty or NULL and msdyn_sessionparticipant.msdyn_joinedon isn't empty, then IsAgentAcceptedSession is 1.​ Otherwise, its 0.​ <br> -Transfer rate is defined by msdyn_ocliveworkitem.msdyn_transfercount > 0​.​|
+|Filters  | - Filter the FactConversations table to include only rows where Ensure that msdyn_channelinstanceid is NULL.​ <br> - Exclude rows where msdyn_channel is'192350000’. <br> - Include msdyn_ocliveworkitem.statuscode set to 4​. <br> - Ensure that systemuser.msdyn_botapplicationid and msdyn_sessionparticipant.msdyn_joinedon isn't null​. <br> - IsAgentAcceptedSession is set as follows:​ If systemuser.msdyn_botapplicationid is empty or NULL and msdyn_sessionparticipant.msdyn_joinedon isn't empty, then IsAgentAcceptedSession is 1.​ Otherwise, it's 0.​ <br> -Transfer rate is defined by msdyn_ocliveworkitem.msdyn_transfercount > 0​.​|
 
 
 
@@ -1009,7 +997,7 @@ conversations_FactConversation])), 0, rate)
 
 *Applies to Omnichannel historical dashboards.*
 
-Transfer conversation count is the number of conversations handed off from one representative to another representative​, a representative to a queue​, a representative to a PSTN number or Teams user​.
+Transfer conversation count is the number of conversations that one representative hands off to another representative​, a representative to a queue​, a representative to a PSTN number or Teams user​.
 
 ### DAX query and Dataverse reference
 
@@ -1125,7 +1113,7 @@ Callback offered = CALCULATE(DISTINCTCOUNT([ConversationId]), NOT(ISBLANK(FactSe
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Conversation where direct callback is offered but the customer didn't accept or opt-in.
+Conversation where direct callback is offered but the customer didn't accept or opt in.
 
 ### DAX query and Dataverse reference
 
