@@ -7,6 +7,12 @@ items:
 - name: "Account KPI Item"
   displayName: "msdyn_accountkpiitem entity"
   href: msdyn_accountkpiitem.md
+- name: "Account Research Agent Trigger"
+  displayName: "msdyn_accountresearchagenttrigger entity"
+  href: msdyn_accountresearchagenttrigger.md
+- name: "Account Research Result"
+  displayName: "msdyn_accountresearchresult entity"
+  href: msdyn_accountresearchresult.md
 - name: "AccountLeads"
   displayName: "AccountLeads entity"
   href: accountleads.md
@@ -82,6 +88,9 @@ items:
 - name: "Agent Channel State"
   displayName: "msdyn_agentchannelstate entity"
   href: msdyn_agentchannelstate.md
+- name: "Agent Configuration"
+  displayName: "msdyn_agentconfiguration entity"
+  href: msdyn_agentconfiguration.md
 - name: "Agent Group"
   displayName: "msdyn_agentgroup entity"
   href: msdyn_agentgroup.md
@@ -118,42 +127,30 @@ items:
 - name: "AI Configuration"
   displayName: "msdyn_AIConfiguration entity"
   href: msdyn_aiconfiguration.md
-- name: "AI Evaluation Run"
-  displayName: "msdyn_AIEvaluationRun entity"
-  href: msdyn_aievaluationrun.md
 - name: "AI Model"
   displayName: "msdyn_AIModel entity"
   href: msdyn_aimodel.md
-- name: "AI Plugin Conversation Starter"
-  displayName: "AIPluginConversationStarter entity"
-  href: aipluginconversationstarter.md
-- name: "AI Plugin Conversation Starter Mapping"
-  displayName: "AIPluginConversationStarterMapping entity"
-  href: aipluginconversationstartermapping.md
-- name: "AI Plugin Governance"
-  displayName: "AIPluginGovernance entity"
-  href: aiplugingovernance.md
-- name: "AI Plugin Governance Extended"
-  displayName: "AIPluginGovernanceExt entity"
-  href: aiplugingovernanceext.md
-- name: "AI Test Run"
-  displayName: "msdyn_AITestRun entity"
-  href: msdyn_aitestrun.md
-- name: "AI Test Run Batch"
-  displayName: "msdyn_AITestRunBatch entity"
-  href: msdyn_aitestrunbatch.md
 - name: "AIPlugin"
   displayName: "AIPlugin entity"
   href: aiplugin.md
-- name: "AIPluginAuth"
-  displayName: "AIPluginAuth entity"
-  href: aipluginauth.md
 - name: "AIPluginOperation"
   displayName: "AIPluginOperation entity"
   href: aipluginoperation.md
-- name: "AIPluginOperationResponseTemplate"
-  displayName: "AIPluginOperationResponseTemplate entity"
-  href: aipluginoperationresponsetemplate.md
+- name: "Analysis Component"
+  displayName: "msdyn_analysiscomponent entity"
+  href: msdyn_analysiscomponent.md
+- name: "Analysis Job"
+  displayName: "msdyn_analysisjob entity"
+  href: msdyn_analysisjob.md
+- name: "Analysis Override"
+  displayName: "msdyn_analysisoverride entity"
+  href: msdyn_analysisoverride.md
+- name: "Analysis Result"
+  displayName: "msdyn_analysisresult entity"
+  href: msdyn_analysisresult.md
+- name: "Analysis Result Detail"
+  displayName: "msdyn_analysisresultdetail entity"
+  href: msdyn_analysisresultdetail.md
 - name: "App profile"
   displayName: "msdyn_appconfiguration entity"
   href: msdyn_appconfiguration.md
@@ -175,15 +172,6 @@ items:
 - name: "Appointment"
   displayName: "Appointment entity"
   href: appointment.md
-- name: "Approval Stage Approval"
-  displayName: "approvalstageapproval entity"
-  href: approvalstageapproval.md
-- name: "Approval Stage Condition"
-  displayName: "approvalstagecondition entity"
-  href: approvalstagecondition.md
-- name: "Approval Stage Order"
-  displayName: "approvalstageorder entity"
-  href: approvalstageorder.md
 - name: "Article"
   displayName: "KbArticle entity"
   href: kbarticle.md
@@ -235,9 +223,15 @@ items:
 - name: "Automated action rules mapping"
   displayName: "msdyn_ocautomatedactionrulesmapping entity"
   href: msdyn_ocautomatedactionrulesmapping.md
+- name: "Autonomous Agent Entity Mapping"
+  displayName: "msdyn_autonomousagentmapping entity"
+  href: msdyn_autonomousagentmapping.md
 - name: "Autonomous case creation and update rules"
   displayName: "msdyn_autonomouscasecreationrule entity"
   href: msdyn_autonomouscasecreationrule.md
+- name: "Autonomous Profile"
+  displayName: "msdyn_autonomousprofile entity"
+  href: msdyn_autonomousprofile.md
 - name: "Available Times"
   displayName: "availabletimes entity"
   href: availabletimes.md
@@ -283,15 +277,15 @@ items:
 - name: "Bot Session"
   displayName: "msdyn_botsession entity"
   href: msdyn_botsession.md
+- name: "Bot user mapping"
+  displayName: "msdyn_botusermapping entity"
+  href: msdyn_botusermapping.md
 - name: "Bulk Delete Failure"
   displayName: "BulkDeleteFailure entity"
   href: bulkdeletefailure.md
 - name: "Bulk Operation Log"
   displayName: "BulkOperationLog entity"
   href: bulkoperationlog.md
-- name: "Business Process"
-  displayName: "businessprocess entity"
-  href: businessprocess.md
 - name: "Business Unit"
   displayName: "BusinessUnit entity"
   href: businessunit.md
@@ -331,12 +325,6 @@ items:
 - name: "Case follow up and closure configuration"
   displayName: "msdyn_casefollowupandclosureconfiguration entity"
   href: msdyn_casefollowupandclosureconfiguration.md
-- name: "Case Management Agent for case closure Activity"
-  displayName: "msdyn_autocaseclosureagentactivity entity"
-  href: msdyn_autocaseclosureagentactivity.md
-- name: "Case Management Agent for case closure Monitoring"
-  displayName: "msdyn_autocaseclosureagentmonitoring entity"
-  href: msdyn_autocaseclosureagentmonitoring.md
 - name: "Case Resolution"
   displayName: "IncidentResolution entity"
   href: incidentresolution.md
@@ -367,6 +355,9 @@ items:
 - name: "Catalog"
   displayName: "Catalog entity"
   href: catalog.md
+- name: "Catalog Submission Files"
+  displayName: "mspcat_CatalogSubmissionFiles entity"
+  href: mspcat_catalogsubmissionfiles.md
 - name: "CatalogEventStatusConfiguration"
   displayName: "msdynmkt_catalogeventstatusconfiguration entity"
   href: msdynmkt_catalogeventstatusconfiguration.md
@@ -442,6 +433,9 @@ items:
 - name: "Competitor Product"
   displayName: "CompetitorProduct entity"
   href: competitorproduct.md
+- name: "Competitor Research Agent Trigger"
+  displayName: "msdyn_competitorresearchagenttrigger entity"
+  href: msdyn_competitorresearchagenttrigger.md
 - name: "CompetitorSalesLiterature"
   displayName: "CompetitorSalesLiterature entity"
   href: competitorsalesliterature.md
@@ -502,15 +496,12 @@ items:
 - name: "Conversation Action"
   displayName: "msdyn_conversationaction entity"
   href: msdyn_conversationaction.md
-- name: "Conversation Action Item"
-  displayName: "msdyn_ConversationActionItem entity"
-  href: msdyn_conversationactionitem.md
 - name: "Conversation Action Locale"
   displayName: "msdyn_conversationactionlocale entity"
   href: msdyn_conversationactionlocale.md
-- name: "Conversation Aggregated Insights"
-  displayName: "msdyn_ConversationAggregatedInsights entity"
-  href: msdyn_conversationaggregatedinsights.md
+- name: "Conversation Analytic"
+  displayName: "msdyn_ocliveworkitemextension entity"
+  href: msdyn_ocliveworkitemextension.md
 - name: "Conversation Capacity profile"
   displayName: "msdyn_ocliveworkitemcapacityprofile entity"
   href: msdyn_ocliveworkitemcapacityprofile.md
@@ -526,45 +517,18 @@ items:
 - name: "Conversation Message Block"
   displayName: "msdyn_conversationmessageblock entity"
   href: msdyn_conversationmessageblock.md
-- name: "Conversation Participant Insights"
-  displayName: "msdyn_ConversationParticipantInsights entity"
-  href: msdyn_conversationparticipantinsights.md
-- name: "Conversation Participant Sentiment"
-  displayName: "msdyn_ConversationParticipantSentiment entity"
-  href: msdyn_conversationparticipantsentiment.md
-- name: "Conversation Question"
-  displayName: "msdyn_ConversationQuestion entity"
-  href: msdyn_conversationquestion.md
 - name: "Conversation Segment Sentiment"
   displayName: "msdyn_ConversationSegmentSentiment entity"
   href: msdyn_conversationsegmentsentiment.md
 - name: "Conversation Sentiment"
   displayName: "msdyn_ocliveworkitemsentiment entity"
   href: msdyn_ocliveworkitemsentiment.md
-- name: "Conversation Sentiment (msdyn_ConversationSentiment)"
-  displayName: "msdyn_ConversationSentiment entity"
-  href: msdyn_conversationsentiment.md
-- name: "Conversation Signal"
-  displayName: "msdyn_ConversationSignal entity"
-  href: msdyn_conversationsignal.md
-- name: "Conversation Subject"
-  displayName: "msdyn_ConversationSubject entity"
-  href: msdyn_conversationsubject.md
 - name: "Conversation Summary Interaction"
   displayName: "msdyn_conversationsummaryinteraction entity"
   href: msdyn_conversationsummaryinteraction.md
 - name: "Conversation Summary Setting"
   displayName: "msdyn_conversationsummarysetting entity"
   href: msdyn_conversationsummarysetting.md
-- name: "Conversation Summary Suggestion"
-  displayName: "msdyn_ConversationSummarySuggestion entity"
-  href: msdyn_conversationsummarysuggestion.md
-- name: "Conversation System Tag"
-  displayName: "msdyn_ConversationSystemTag entity"
-  href: msdyn_conversationsystemtag.md
-- name: "Conversation Tag"
-  displayName: "msdyn_ConversationTag entity"
-  href: msdyn_conversationtag.md
 - name: "Conversation Topic"
   displayName: "msdyn_conversationtopic entity"
   href: msdyn_conversationtopic.md
@@ -592,9 +556,9 @@ items:
 - name: "Copilot component"
   displayName: "botcomponent entity"
   href: botcomponent.md
-- name: "Copilot component collection"
-  displayName: "botcomponentcollection entity"
-  href: botcomponentcollection.md
+- name: "Copilot Event"
+  displayName: "msdyn_copilotevent entity"
+  href: msdyn_copilotevent.md
 - name: "Copilot for Sales customer list"
   displayName: "msdyn_vivacustomerlist entity"
   href: msdyn_vivacustomerlist.md
@@ -637,6 +601,9 @@ items:
 - name: "Custom API Ruleset Configuration"
   displayName: "msdyn_customapirulesetconfiguration entity"
   href: msdyn_customapirulesetconfiguration.md
+- name: "Custom Control Extended Setting"
+  displayName: "msdyn_customcontrolextendedsettings entity"
+  href: msdyn_customcontrolextendedsettings.md
 - name: "Custom Email Highlight"
   displayName: "msdyn_SciCustomEmailHighlight entity"
   href: msdyn_scicustomemailhighlight.md
@@ -745,9 +712,6 @@ items:
 - name: "Data Map"
   displayName: "ImportMap entity"
   href: importmap.md
-- name: "Data Processing Event"
-  displayName: "msdyn_AIDataProcessingEvent entity"
-  href: msdyn_aidataprocessingevent.md
 - name: "Database Version"
   displayName: "msdyn_databaseversion entity"
   href: msdyn_databaseversion.md
@@ -781,6 +745,9 @@ items:
 - name: "Discount List"
   displayName: "DiscountType entity"
   href: discounttype.md
+- name: "Disposition Code Category"
+  displayName: "msdyn_dispositioncodecategory entity"
+  href: msdyn_dispositioncodecategory.md
 - name: "Distributed Lock"
   displayName: "msdyn_distributedlock entity"
   href: msdyn_distributedlock.md
@@ -811,6 +778,9 @@ items:
 - name: "Effort model training details"
   displayName: "msdyn_iermltraining entity"
   href: msdyn_iermltraining.md
+- name: "ElasticFileAttachment"
+  displayName: "ElasticFileAttachment entity"
+  href: elasticfileattachment.md
 - name: "Email"
   displayName: "Email entity"
   href: email.md
@@ -823,6 +793,12 @@ items:
 - name: "Email Template"
   displayName: "Template entity"
   href: template.md
+- name: "Engage And Readiness Agent Result"
+  displayName: "msdyn_engageandreadinessagentresult entity"
+  href: msdyn_engageandreadinessagentresult.md
+- name: "Engage And Readiness Agent Result V2"
+  displayName: "msdyn_engagereadinessagentresult entity"
+  href: msdyn_engagereadinessagentresult.md
 - name: "Entitlement"
   displayName: "Entitlement entity"
   href: entitlement.md
@@ -853,18 +829,12 @@ items:
 - name: "Entity (Entity)"
   displayName: "Entity entity"
   href: entity.md
-- name: "Entity Analytics Config"
-  displayName: "EntityAnalyticsConfig entity"
-  href: entityanalyticsconfig.md
 - name: "Entity Attachment"
   displayName: "msdyn_entityattachment entity"
   href: msdyn_entityattachment.md
 - name: "Entity Attribute Prediction Rule"
   displayName: "msdyn_EntityAttributePredictionRule entity"
   href: msdyn_entityattributepredictionrule.md
-- name: "Entity Cluster Configuration"
-  displayName: "EntityClusterConfig entity"
-  href: entityclusterconfig.md
 - name: "Entity Delta Change"
   displayName: "msdyn_entitydeltachange entity"
   href: msdyn_entitydeltachange.md
@@ -883,6 +853,42 @@ items:
 - name: "EnvironmentSettings"
   displayName: "msdyn_scienvironmentsettings entity"
   href: msdyn_scienvironmentsettings.md
+- name: "Evaluation"
+  displayName: "msdyn_Evaluation entity"
+  href: msdyn_evaluation.md
+- name: "Evaluation category"
+  displayName: "msdyn_EvaluationCategory entity"
+  href: msdyn_evaluationcategory.md
+- name: "Evaluation criteria"
+  displayName: "msdyn_EvaluationCriteria entity"
+  href: msdyn_evaluationcriteria.md
+- name: "Evaluation criteria version"
+  displayName: "msdyn_EvaluationCriteriaVersion entity"
+  href: msdyn_evaluationcriteriaversion.md
+- name: "Evaluation Global Config"
+  displayName: "msdyn_EvaluationGlobalConfig entity"
+  href: msdyn_evaluationglobalconfig.md
+- name: "Evaluation input config"
+  displayName: "msdyn_EvaluationInputConfig entity"
+  href: msdyn_evaluationinputconfig.md
+- name: "Evaluation localized content"
+  displayName: "msdyn_EvaluationLocalizedContent entity"
+  href: msdyn_evaluationlocalizedcontent.md
+- name: "Evaluation Plan"
+  displayName: "msdyn_EvaluationPlan entity"
+  href: msdyn_evaluationplan.md
+- name: "Evaluation Plan Batch"
+  displayName: "msdyn_EvaluationPlanBatch entity"
+  href: msdyn_evaluationplanbatch.md
+- name: "Evaluation Plan Ontrigger Backlog"
+  displayName: "msdyn_evaluationplanontriggerbacklog entity"
+  href: msdyn_evaluationplanontriggerbacklog.md
+- name: "Evaluation Plan Run"
+  displayName: "msdyn_EvaluationPlanRun entity"
+  href: msdyn_evaluationplanrun.md
+- name: "Evaluation question"
+  displayName: "msdyn_EvaluationQuestion entity"
+  href: msdyn_evaluationquestion.md
 - name: "EventParameterMetadata"
   displayName: "msdynmkt_eventparametermetadata entity"
   href: msdynmkt_eventparametermetadata.md
@@ -895,6 +901,9 @@ items:
 - name: "External CRM"
   displayName: "msdyn_externalcrm entity"
   href: msdyn_externalcrm.md
+- name: "External Identity"
+  displayName: "adx_externalidentity entity"
+  href: adx_externalidentity.md
 - name: "External Record"
   displayName: "msdyn_externalrecord entity"
   href: msdyn_externalrecord.md
@@ -910,6 +919,9 @@ items:
 - name: "Field Sharing"
   displayName: "PrincipalObjectAttributeAccess entity"
   href: principalobjectattributeaccess.md
+- name: "File Upload"
+  displayName: "msdyn_FileUpload entity"
+  href: msdyn_fileupload.md
 - name: "File Upload Status Tracker"
   displayName: "msdyn_fileuploadstatustracker entity"
   href: msdyn_fileuploadstatustracker.md
@@ -922,18 +934,6 @@ items:
 - name: "Flagged spam"
   displayName: "msdyn_ocflaggedspam entity"
   href: msdyn_ocflaggedspam.md
-- name: "Flow Aggregation"
-  displayName: "flowaggregation entity"
-  href: flowaggregation.md
-- name: "Flow Credential Application"
-  displayName: "flowcredentialapplication entity"
-  href: flowcredentialapplication.md
-- name: "Flow Machine Group"
-  displayName: "flowmachinegroup entity"
-  href: flowmachinegroup.md
-- name: "Flow Machine Image"
-  displayName: "flowmachineimage entity"
-  href: flowmachineimage.md
 - name: "flowcardtype"
   displayName: "msdyn_flowcardtype entity"
   href: msdyn_flowcardtype.md
@@ -979,9 +979,6 @@ items:
 - name: "Forecasting Cache"
   displayName: "msdyn_forecastingcache entity"
   href: msdyn_forecastingcache.md
-- name: "Function"
-  displayName: "msdyn_function entity"
-  href: msdyn_function.md
 - name: "Functional Location"
   displayName: "msdyn_FunctionalLocation entity"
   href: msdyn_functionallocation.md
@@ -1006,9 +1003,6 @@ items:
 - name: "Goal Metric"
   displayName: "Metric entity"
   href: metric.md
-- name: "Governance Configuration"
-  displayName: "GovernanceConfiguration entity"
-  href: governanceconfiguration.md
 - name: "ICD Extension"
   displayName: "msdyn_ICDExtension entity"
   href: msdyn_icdextension.md
@@ -1051,9 +1045,18 @@ items:
 - name: "Intent Config"
   displayName: "msdyn_intentconfig entity"
   href: msdyn_intentconfig.md
+- name: "Intent Context History"
+  displayName: "msdyn_IntentContextHistory entity"
+  href: msdyn_intentcontexthistory.md
 - name: "Intent Group Condition"
   displayName: "msdyn_intentgroupcondition entity"
   href: msdyn_intentgroupcondition.md
+- name: "Intent Playbook"
+  displayName: "msdyn_intentplaybook entity"
+  href: msdyn_intentplaybook.md
+- name: "Intent playbook map"
+  displayName: "msdyn_intentplaybookmap entity"
+  href: msdyn_intentplaybookmap.md
 - name: "Intent Solution Map"
   displayName: "msdyn_intentsolutionmap entity"
   href: msdyn_intentsolutionmap.md
@@ -1156,9 +1159,6 @@ items:
 - name: "Knowledge Federated Article Incident"
   displayName: "msdyn_federatedarticleincident entity"
   href: msdyn_federatedarticleincident.md
-- name: "Knowledge Harvest Job Record"
-  displayName: "msdyn_knowledgeharvestjobrecord entity"
-  href: msdyn_knowledgeharvestjobrecord.md
 - name: "KPI Event Data"
   displayName: "msdyn_KPIEventData entity"
   href: msdyn_kpieventdata.md
@@ -1174,6 +1174,9 @@ items:
 - name: "Last Agent"
   displayName: "msdyn_lastagent entity"
   href: msdyn_lastagent.md
+- name: "Last message info"
+  displayName: "msdyn_lastmessageinfo entity"
+  href: msdyn_lastmessageinfo.md
 - name: "Layout Style"
   displayName: "msdyncrm_layoutstyle entity"
   href: msdyncrm_layoutstyle.md
@@ -1183,6 +1186,15 @@ items:
 - name: "Lead Address"
   displayName: "LeadAddress entity"
   href: leadaddress.md
+- name: "Lead Agent Result"
+  displayName: "msdyn_leadagentresult entity"
+  href: msdyn_leadagentresult.md
+- name: "Lead Delink Result"
+  displayName: "msdyn_leaddelinkresult entity"
+  href: msdyn_leaddelinkresult.md
+- name: "Lead Email Extension"
+  displayName: "msdyn_leademailextension entity"
+  href: msdyn_leademailextension.md
 - name: "Lead Hygiene Setting"
   displayName: "msdyn_leadhygienesetting entity"
   href: msdyn_leadhygienesetting.md
@@ -1261,6 +1273,9 @@ items:
 - name: "Mailbox Auto Tracking Folder"
   displayName: "MailboxTrackingFolder entity"
   href: mailboxtrackingfolder.md
+- name: "MakerFewShot"
+  displayName: "makerfewshot entity"
+  href: makerfewshot.md
 - name: "Marketing feature configuration"
   displayName: "msdynmkt_featureconfiguration entity"
   href: msdynmkt_featureconfiguration.md
@@ -1333,15 +1348,42 @@ items:
 - name: "Most Contacted By"
   displayName: "msdyn_mostcontactedby entity"
   href: msdyn_mostcontactedby.md
-- name: "msdyn_historicalcaseharvestbatch"
-  displayName: "msdyn_historicalcaseharvestbatch entity"
-  href: msdyn_historicalcaseharvestbatch.md
-- name: "msdyn_historicalcaseharvestrun"
-  displayName: "msdyn_historicalcaseharvestrun entity"
-  href: msdyn_historicalcaseharvestrun.md
+- name: "msdyn_agentsetting"
+  displayName: "msdyn_agentsetting entity"
+  href: msdyn_agentsetting.md
+- name: "msdyn_broadcastmessagebulkactionapiprivilege"
+  displayName: "msdyn_broadcastmessagebulkactionapiprivilege entity"
+  href: msdyn_broadcastmessagebulkactionapiprivilege.md
+- name: "msdyn_bulkassigntoqueueapiprivilege"
+  displayName: "msdyn_bulkassigntoqueueapiprivilege entity"
+  href: msdyn_bulkassigntoqueueapiprivilege.md
+- name: "msdyn_bulkforcecloseapiprivilege"
+  displayName: "msdyn_bulkforcecloseapiprivilege entity"
+  href: msdyn_bulkforcecloseapiprivilege.md
+- name: "msdyn_businessprofile"
+  displayName: "msdyn_businessprofile entity"
+  href: msdyn_businessprofile.md
+- name: "msdyn_caseaiprediction"
+  displayName: "msdyn_caseaiprediction entity"
+  href: msdyn_caseaiprediction.md
 - name: "msdyn_intentfeature_configuration"
   displayName: "msdyn_intentfeature_configuration entity"
   href: msdyn_intentfeature_configuration.md
+- name: "msdyn_intentmetrics"
+  displayName: "msdyn_intentmetrics entity"
+  href: msdyn_intentmetrics.md
+- name: "msdyn_intentmetrics_aggregate"
+  displayName: "msdyn_intentmetrics_aggregate entity"
+  href: msdyn_intentmetrics_aggregate.md
+- name: "msdyn_intentmetrics_jobdata"
+  displayName: "msdyn_intentmetrics_jobdata entity"
+  href: msdyn_intentmetrics_jobdata.md
+- name: "msdyn_ocdispositioncode_msdyn_liveworkstream"
+  displayName: "msdyn_ocdispositioncode_msdyn_liveworkstream entity"
+  href: msdyn_ocdispositioncode_msdyn_liveworkstream.md
+- name: "msdyn_organizationsolutionmap"
+  displayName: "msdyn_organizationsolutionmap entity"
+  href: msdyn_organizationsolutionmap.md
 - name: "msdyn_rawinsight"
   displayName: "msdyn_rawinsight entity"
   href: msdyn_rawinsight.md
@@ -1351,6 +1393,9 @@ items:
 - name: "msdyn_templatecontextvariable_msdyn_template"
   displayName: "msdyn_templatecontextvariable_msdyn_template entity"
   href: msdyn_templatecontextvariable_msdyn_template.md
+- name: "Multistep Form Session"
+  displayName: "adx_webformsession entity"
+  href: adx_webformsession.md
 - name: "New Process"
   displayName: "NewProcess entity"
   href: newprocess.md
@@ -1375,6 +1420,9 @@ items:
 - name: "OC Payment Profile"
   displayName: "msdyn_ocpaymentprofile entity"
   href: msdyn_ocpaymentprofile.md
+- name: "OCBulkAction"
+  displayName: "msdyn_ocbulkaction entity"
+  href: msdyn_ocbulkaction.md
 - name: "ODOSFeatureMetadata"
   displayName: "msdyn_odosfeaturemetadata entity"
   href: msdyn_odosfeaturemetadata.md
@@ -1450,12 +1498,24 @@ items:
 - name: "Originating Queue Mapping"
   displayName: "msdyn_originatingqueue entity"
   href: msdyn_originatingqueue.md
+- name: "Outreach Agent Result"
+  displayName: "msdyn_outreachagentresult entity"
+  href: msdyn_outreachagentresult.md
+- name: "Outreach Trigger Agent"
+  displayName: "msdyn_outreachtriggeragent entity"
+  href: msdyn_outreachtriggeragent.md
 - name: "Overflow Action Config"
   displayName: "msdyn_overflowactionconfig entity"
   href: msdyn_overflowactionconfig.md
 - name: "Owner"
   displayName: "Owner entity"
   href: owner.md
+- name: "PA Flow Run Tracker"
+  displayName: "msdyn_PAFlowRunTracker entity"
+  href: msdyn_paflowruntracker.md
+- name: "Package Submission Store"
+  displayName: "mspcat_PackageStore entity"
+  href: mspcat_packagestore.md
 - name: "Pane tab configuration"
   displayName: "msdyn_panetabconfiguration entity"
   href: msdyn_panetabconfiguration.md
@@ -1480,15 +1540,9 @@ items:
 - name: "Phone To Case Process"
   displayName: "PhoneToCaseProcess entity"
   href: phonetocaseprocess.md
-- name: "Plug-in"
-  displayName: "plugin entity"
-  href: plugin.md
 - name: "Plug-in Type"
   displayName: "PluginType entity"
   href: plugintype.md
-- name: "PM Simulation"
-  displayName: "msdyn_pmsimulation entity"
-  href: msdyn_pmsimulation.md
 - name: "Poll Placement"
   displayName: "mspp_pollplacement entity"
   href: mspp_pollplacement.md
@@ -1510,15 +1564,21 @@ items:
 - name: "Power BI Configuration"
   displayName: "msdyn_analytics entity"
   href: msdyn_analytics.md
-- name: "Power Pages Log"
-  displayName: "PowerPagesLog entity"
-  href: powerpageslog.md
 - name: "Power Pages Scan Report"
   displayName: "PowerPagesScanReport entity"
   href: powerpagesscanreport.md
-- name: "Power Pages Site AI Feedback"
-  displayName: "PowerPagesSiteAIFeedback entity"
-  href: powerpagessiteaifeedback.md
+- name: "Power Pages Site Published"
+  displayName: "powerpagesitepublished entity"
+  href: powerpagesitepublished.md
+- name: "powerbidatasetapdx"
+  displayName: "powerbidatasetapdx entity"
+  href: powerbidatasetapdx.md
+- name: "powerbireportapdx"
+  displayName: "powerbireportapdx entity"
+  href: powerbireportapdx.md
+- name: "PowerPagesDDOSAlert"
+  displayName: "PowerPagesDDOSAlert entity"
+  href: powerpagesddosalert.md
 - name: "PowerPagesManagedIdentity"
   displayName: "PowerPagesManagedIdentity entity"
   href: powerpagesmanagedidentity.md
@@ -1561,9 +1621,6 @@ items:
 - name: "Price List Item"
   displayName: "ProductPriceLevel entity"
   href: productpricelevel.md
-- name: "Privilege Checker Run"
-  displayName: "PrivilegeCheckerRun entity"
-  href: privilegecheckerrun.md
 - name: "Process"
   displayName: "Workflow entity"
   href: workflow.md
@@ -1636,6 +1693,9 @@ items:
 - name: "QR code style"
   displayName: "msdyncrm_qrcodestyle entity"
   href: msdyncrm_qrcodestyle.md
+- name: "Qualification Agent Trigger"
+  displayName: "msdyn_qualificationagenttrigger entity"
+  href: msdyn_qualificationagenttrigger.md
 - name: "Queue"
   displayName: "Queue entity"
   href: queue.md
@@ -1729,6 +1789,12 @@ items:
 - name: "Rich message map"
   displayName: "msdyn_ocrichobjectmap entity"
   href: msdyn_ocrichobjectmap.md
+- name: "Rich Text Attachment"
+  displayName: "msdyn_richtextfile entity"
+  href: msdyn_richtextfile.md
+- name: "Rollout Plan"
+  displayName: "msdyn_rolloutplan entity"
+  href: msdyn_rolloutplan.md
 - name: "Rollup Query"
   displayName: "GoalRollupQuery entity"
   href: goalrollupquery.md
@@ -1768,6 +1834,15 @@ items:
 - name: "Sales Acceleration settings"
   displayName: "msdyn_salesaccelerationsettings entity"
   href: msdyn_salesaccelerationsettings.md
+- name: "Sales Agent Configuration"
+  displayName: "msdyn_SalesAgentConfiguration entity"
+  href: msdyn_salesagentconfiguration.md
+- name: "Sales Agent Handover"
+  displayName: "msdyn_salesagenthandover entity"
+  href: msdyn_salesagenthandover.md
+- name: "Sales agent run"
+  displayName: "msdyn_salesagentrun entity"
+  href: msdyn_salesagentrun.md
 - name: "Sales Assignment Setting"
   displayName: "msdyn_salesassignmentsetting entity"
   href: msdyn_salesassignmentsetting.md
@@ -1804,12 +1879,18 @@ items:
 - name: "Sales Tag"
   displayName: "msdyn_salestag entity"
   href: msdyn_salestag.md
-- name: "Sales usage reporting"
-  displayName: "msdyn_usagereporting entity"
-  href: msdyn_usagereporting.md
-- name: "Sales usage telemetry reports"
-  displayName: "msdyn_dataanalyticsreport_sutreporting entity"
-  href: msdyn_dataanalyticsreport_sutreporting.md
+- name: "SalesAgentConfigurationV2"
+  displayName: "msdyn_salesagentconfigurationv2 entity"
+  href: msdyn_salesagentconfigurationv2.md
+- name: "SalesAgentExecutionConfig"
+  displayName: "msdyn_salesagentexecutionconfig entity"
+  href: msdyn_salesagentexecutionconfig.md
+- name: "SalesAgentProfile"
+  displayName: "msdyn_salesagentprofile entity"
+  href: msdyn_salesagentprofile.md
+- name: "SalesAgentUsage"
+  displayName: "msdyn_SalesAgentUsage entity"
+  href: msdyn_salesagentusage.md
 - name: "salesinsightssettings"
   displayName: "msdyn_salesinsightssettings entity"
   href: msdyn_salesinsightssettings.md
@@ -1822,15 +1903,9 @@ items:
 - name: "SARunInstance"
   displayName: "msdyn_saruninstance entity"
   href: msdyn_saruninstance.md
-- name: "Saving Rule"
-  displayName: "savingrule entity"
-  href: savingrule.md
 - name: "Scheduling Group"
   displayName: "ResourceGroup entity"
   href: resourcegroup.md
-- name: "SCI Conversation"
-  displayName: "msdyn_SCIConversation entity"
-  href: msdyn_sciconversation.md
 - name: "Script"
   displayName: "msdyn_productivityagentscript entity"
   href: msdyn_productivityagentscript.md
@@ -1843,6 +1918,15 @@ items:
 - name: "Search Configuration"
   displayName: "msdyn_searchconfiguration entity"
   href: msdyn_searchconfiguration.md
+- name: "SearchAttributeSettings"
+  displayName: "searchattributesettings entity"
+  href: searchattributesettings.md
+- name: "SearchCustomAnalyzer"
+  displayName: "searchcustomanalyzer entity"
+  href: searchcustomanalyzer.md
+- name: "SearchRelationshipSettings"
+  displayName: "searchrelationshipsettings entity"
+  href: searchrelationshipsettings.md
 - name: "Security Role"
   displayName: "Role entity"
   href: role.md
@@ -1867,9 +1951,6 @@ items:
 - name: "Seller attribute value"
   displayName: "msdyn_attributevalue entity"
   href: msdyn_attributevalue.md
-- name: "Sensitivity Label"
-  displayName: "sensitivitylabel entity"
-  href: sensitivitylabel.md
 - name: "Sentiment analysis"
   displayName: "msdyn_sentimentanalysis entity"
   href: msdyn_sentimentanalysis.md
@@ -1915,9 +1996,6 @@ items:
 - name: "Service Copilot Plugin Role"
   displayName: "msdyn_servicecopilotpluginrole entity"
   href: msdyn_servicecopilotpluginrole.md
-- name: "Service Endpoint"
-  displayName: "ServiceEndpoint entity"
-  href: serviceendpoint.md
 - name: "Session"
   displayName: "msdyn_ocsession entity"
   href: msdyn_ocsession.md
@@ -1942,6 +2020,9 @@ items:
 - name: "Session Template"
   displayName: "msdyn_sessiontemplate entity"
   href: msdyn_sessiontemplate.md
+- name: "Setting"
+  displayName: "adx_setting entity"
+  href: adx_setting.md
 - name: "ShareAs Configuration"
   displayName: "msdyn_shareasconfiguration entity"
   href: msdyn_shareasconfiguration.md
@@ -1987,18 +2068,33 @@ items:
 - name: "Social Profile"
   displayName: "SocialProfile entity"
   href: socialprofile.md
-- name: "Solution Component Attribute Configuration"
-  displayName: "solutioncomponentattributeconfiguration entity"
-  href: solutioncomponentattributeconfiguration.md
+- name: "Solution Health Rule"
+  displayName: "msdyn_solutionhealthrule entity"
+  href: msdyn_solutionhealthrule.md
+- name: "Solution Health Rule Argument"
+  displayName: "msdyn_solutionhealthruleargument entity"
+  href: msdyn_solutionhealthruleargument.md
+- name: "Solution Health Rule Set"
+  displayName: "msdyn_solutionhealthruleset entity"
+  href: msdyn_solutionhealthruleset.md
 - name: "Sound notification setting"
   displayName: "msdyn_soundnotificationsetting entity"
   href: msdyn_soundnotificationsetting.md
+- name: "Stakeholder Research Output"
+  displayName: "msdyn_StakeholderResearchOutput entity"
+  href: msdyn_stakeholderresearchoutput.md
 - name: "Subject"
   displayName: "Subject entity"
   href: subject.md
 - name: "Submodel Definition"
   displayName: "msdyn_submodeldefinition entity"
   href: msdyn_submodeldefinition.md
+- name: "Suggested Action"
+  displayName: "sa_SuggestedAction entity"
+  href: sa_suggestedaction.md
+- name: "Suggested Action Criteria"
+  displayName: "sa_SuggestedActionCriteria entity"
+  href: sa_suggestedactioncriteria.md
 - name: "Suggested Activity"
   displayName: "msdyn_suggestedactivity entity"
   href: msdyn_suggestedactivity.md
@@ -2032,6 +2128,12 @@ items:
 - name: "Suggestions Setting"
   displayName: "msdyn_suggestionssetting entity"
   href: msdyn_suggestionssetting.md
+- name: "Summary Synthesizer Input"
+  displayName: "msdyn_summarysynthesizerinput entity"
+  href: msdyn_summarysynthesizerinput.md
+- name: "summarysynthesizeroutput"
+  displayName: "msdyn_summarysynthesizeroutput entity"
+  href: msdyn_summarysynthesizeroutput.md
 - name: "Survey setting"
   displayName: "msdyn_surveysetting entity"
   href: msdyn_surveysetting.md
@@ -2060,20 +2162,17 @@ items:
   displayName: "AsyncOperation entity"
   href: asyncoperation.md
 - name: "Tag"
-  displayName: "tag entity"
-  href: tag.md
-- name: "Tag (msdyn_octag)"
   displayName: "msdyn_octag entity"
   href: msdyn_octag.md
-- name: "Tagged Flow Session"
-  displayName: "taggedflowsession entity"
-  href: taggedflowsession.md
-- name: "Tagged Process"
-  displayName: "taggedprocess entity"
-  href: taggedprocess.md
 - name: "Tagged Record"
   displayName: "msdyn_taggedrecord entity"
   href: msdyn_taggedrecord.md
+- name: "Target Customer Profile Prefill Agent Result"
+  displayName: "msdyn_tcpprefillagentresult entity"
+  href: msdyn_tcpprefillagentresult.md
+- name: "TargetCustomerProfilePrefillAgentTrigger"
+  displayName: "msdyn_targetcustomerprofileprefillagenttrigger entity"
+  href: msdyn_targetcustomerprofileprefillagenttrigger.md
 - name: "Task"
   displayName: "Task entity"
   href: task.md
@@ -2140,12 +2239,12 @@ items:
 - name: "Training Result"
   displayName: "msdyn_trainingresult entity"
   href: msdyn_trainingresult.md
-- name: "Transcript"
-  displayName: "msdyn_transcript entity"
-  href: msdyn_transcript.md
 - name: "Trigger"
   displayName: "msdynmkt_eventmetadata entity"
   href: msdynmkt_eventmetadata.md
+- name: "Trigger Sales Agent"
+  displayName: "msdyn_triggersalesagent entity"
+  href: msdyn_triggersalesagent.md
 - name: "Triggers To Sdk Message Processing Steps"
   displayName: "msdynmkt_eventmetadata_sdkmessageprocessingstep entity"
   href: msdynmkt_eventmetadata_sdkmessageprocessingstep.md
@@ -2164,12 +2263,6 @@ items:
 - name: "Unit Group"
   displayName: "UoMSchedule entity"
   href: uomschedule.md
-- name: "UnstructuredFileSearchEntity"
-  displayName: "unstructuredfilesearchentity entity"
-  href: unstructuredfilesearchentity.md
-- name: "UnstructuredFileSearchRecord"
-  displayName: "unstructuredfilesearchrecord entity"
-  href: unstructuredfilesearchrecord.md
 - name: "UntrackedAppointment"
   displayName: "msdyn_untrackedappointment entity"
   href: msdyn_untrackedappointment.md
@@ -2197,10 +2290,7 @@ items:
 - name: "User Preference For Copilot"
   displayName: "msdyn_copilotagentpreference entity"
   href: msdyn_copilotagentpreference.md
-- name: "User Settings"
-  displayName: "UserSettings entity"
-  href: usersettings.md
-- name: "User settings (msdyn_usersetting)"
+- name: "User settings"
   displayName: "msdyn_usersetting entity"
   href: msdyn_usersetting.md
 - name: "UserSettings"
@@ -2215,9 +2305,15 @@ items:
 - name: "Video style"
   displayName: "msdyncrm_videostyle entity"
   href: msdyncrm_videostyle.md
+- name: "ViewAsExampleQuestion"
+  displayName: "viewasexamplequestion entity"
+  href: viewasexamplequestion.md
 - name: "Virtual Resource Group Resource"
   displayName: "virtualresourcegroupresource entity"
   href: virtualresourcegroupresource.md
+- name: "Virtual Table Column Candidate"
+  displayName: "msdyn_virtualtablecolumncandidate entity"
+  href: msdyn_virtualtablecolumncandidate.md
 - name: "Wall View"
   displayName: "msdyn_wallsavedquery entity"
   href: msdyn_wallsavedquery.md
@@ -2263,9 +2359,6 @@ items:
 - name: "Work stream capacity profile"
   displayName: "msdyn_liveworkstreamcapacityprofile entity"
   href: msdyn_liveworkstreamcapacityprofile.md
-- name: "Workflow Metadata"
-  displayName: "WorkflowMetadata entity"
-  href: workflowmetadata.md
 - name: "WQDataSource"
   displayName: "msdyn_wqdatasource entity"
   href: msdyn_wqdatasource.md

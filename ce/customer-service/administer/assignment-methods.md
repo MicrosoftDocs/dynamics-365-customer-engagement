@@ -149,6 +149,7 @@ You can also create a custom assignment method to suit your business needs. The 
   
 > [!IMPORTANT]
 >
+> - While you can create custom assignment methods, we recommend that you use the out-of-the-box assignment methods or selection criteria that are robust and validated for most use cases.
 > - You must configure presence, capacity, and skill-matching rules in the custom assignment method because the default settings defined for the workstream won't be used in custom assignment method.
 > - The out-of-the-box assignment strategies don't consider the representative operating hours. You must write a custom assignment method by using the "is_working" operator in the rule definition.
 

@@ -28,6 +28,7 @@ Messages represent operations that can be performed on the table. They may also 
 | `GrantAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.GrantAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 | `Merge`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Merge?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.MergeRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+| `msdyn_GetSuggestedActionsForLead`<br />Event: True |**msdyn_GetSuggestedActionsForLead action** |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `QualifyLead`<br />Event: True |**QualifyLead action** |<xref:Microsoft.Crm.Sdk.Messages.QualifyLeadRequest>|
 | `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /leads(*leadid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
@@ -3463,6 +3464,8 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [Lead_Tasks](#BKMK_Lead_Tasks)
 - [lk_leadtoopportunitysalesprocess_leadid](#BKMK_lk_leadtoopportunitysalesprocess_leadid)
 - [msdyn_activitymapping_lead](#BKMK_msdyn_activitymapping_lead)
+- [msdyn_engageandreadinessagentresult_lead](#BKMK_msdyn_engageandreadinessagentresult_lead)
+- [msdyn_engagereadinessagentresult_lead](#BKMK_msdyn_engagereadinessagentresult_lead)
 - [msdyn_lead_dailyleadkpiitem_entityid](#BKMK_msdyn_lead_dailyleadkpiitem_entityid)
 - [msdyn_lead_msdyn_duplicatedetectionpluginrun_baserecordid](#BKMK_msdyn_lead_msdyn_duplicatedetectionpluginrun_baserecordid)
 - [msdyn_lead_msdyn_duplicateleadmapping](#BKMK_msdyn_lead_msdyn_duplicateleadmapping)
@@ -3472,12 +3475,19 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_lead_msdyn_mostcontactedby_regardingObjectId](#BKMK_msdyn_lead_msdyn_mostcontactedby_regardingObjectId)
 - [msdyn_lead_msdyn_salesroutingrun_targetobject](#BKMK_msdyn_lead_msdyn_salesroutingrun_targetobject)
 - [msdyn_lead_msdyn_timespent_leadlookup](#BKMK_msdyn_lead_msdyn_timespent_leadlookup)
+- [msdyn_leadagentresult_leadid](#BKMK_msdyn_leadagentresult_leadid)
+- [msdyn_leademailextension_leadid_lead](#BKMK_msdyn_leademailextension_leadid_lead)
 - [msdyn_linkeditemvalidity_polymorphic_leadid](#BKMK_msdyn_linkeditemvalidity_polymorphic_leadid)
 - [msdyn_msdyn_salescopilotinsight_lead_msdyn_targetentityid](#BKMK_msdyn_msdyn_salescopilotinsight_lead_msdyn_targetentityid)
 - [msdyn_msdyn_taggedrecord_lead_msdyn_dynamicsrecordid](#BKMK_msdyn_msdyn_taggedrecord_lead_msdyn_dynamicsrecordid)
 - [msdyn_sabackupdiagnostic_lead_msdyn_target](#BKMK_msdyn_sabackupdiagnostic_lead_msdyn_target)
+- [msdyn_salesagenthandover_regardingId_lead](#BKMK_msdyn_salesagenthandover_regardingId_lead)
+- [msdyn_salesagentrun_lead](#BKMK_msdyn_salesagentrun_lead)
 - [msdyn_salesroutingdiagnostic_lead_msdyn_target](#BKMK_msdyn_salesroutingdiagnostic_lead_msdyn_target)
 - [msdyn_sequencetarget_lead_msdyn_target](#BKMK_msdyn_sequencetarget_lead_msdyn_target)
+- [msdyn_summarysynthesizerinput_referenceobjectid_lead](#BKMK_msdyn_summarysynthesizerinput_referenceobjectid_lead)
+- [msdyn_summarysynthesizeroutput_ReferenceObjectId_lead](#BKMK_msdyn_summarysynthesizeroutput_ReferenceObjectId_lead)
+- [msdyn_triggersalesagent_regardingid_lead](#BKMK_msdyn_triggersalesagent_regardingid_lead)
 - [opportunity_originating_lead](#BKMK_opportunity_originating_lead)
 - [slakpiinstance_lead](#BKMK_slakpiinstance_lead)
 - [SourceLead_BulkOperationLogs](#BKMK_SourceLead_BulkOperationLogs)
@@ -4082,6 +4092,30 @@ Many-To-One Relationship: [msdyn_activitymapping msdyn_activitymapping_lead](msd
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_engageandreadinessagentresult_lead"></a> msdyn_engageandreadinessagentresult_lead
+
+Many-To-One Relationship: [msdyn_engageandreadinessagentresult msdyn_engageandreadinessagentresult_lead](msdyn_engageandreadinessagentresult.md#BKMK_msdyn_engageandreadinessagentresult_lead)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_engageandreadinessagentresult`|
+|ReferencingAttribute|`msdyn_regardingid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_engageandreadinessagentresult_lead`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_engagereadinessagentresult_lead"></a> msdyn_engagereadinessagentresult_lead
+
+Many-To-One Relationship: [msdyn_engagereadinessagentresult msdyn_engagereadinessagentresult_lead](msdyn_engagereadinessagentresult.md#BKMK_msdyn_engagereadinessagentresult_lead)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_engagereadinessagentresult`|
+|ReferencingAttribute|`msdyn_regardingid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_engagereadinessagentresult_lead`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_lead_dailyleadkpiitem_entityid"></a> msdyn_lead_dailyleadkpiitem_entityid
 
 Many-To-One Relationship: [msdyn_dailyleadkpiitem msdyn_lead_dailyleadkpiitem_entityid](msdyn_dailyleadkpiitem.md#BKMK_msdyn_lead_dailyleadkpiitem_entityid)
@@ -4092,7 +4126,7 @@ Many-To-One Relationship: [msdyn_dailyleadkpiitem msdyn_lead_dailyleadkpiitem_en
 |ReferencingAttribute|`msdyn_entityid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_lead_dailyleadkpiitem_entityid`|
 |IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_lead_msdyn_duplicatedetectionpluginrun_baserecordid"></a> msdyn_lead_msdyn_duplicatedetectionpluginrun_baserecordid
 
@@ -4190,6 +4224,30 @@ Many-To-One Relationship: [msdyn_timespent msdyn_lead_msdyn_timespent_leadlookup
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_leadagentresult_leadid"></a> msdyn_leadagentresult_leadid
+
+Many-To-One Relationship: [msdyn_leadagentresult msdyn_leadagentresult_leadid](msdyn_leadagentresult.md#BKMK_msdyn_leadagentresult_leadid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_leadagentresult`|
+|ReferencingAttribute|`msdyn_leadid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_leadagentresult_leadid`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_leademailextension_leadid_lead"></a> msdyn_leademailextension_leadid_lead
+
+Many-To-One Relationship: [msdyn_leademailextension msdyn_leademailextension_leadid_lead](msdyn_leademailextension.md#BKMK_msdyn_leademailextension_leadid_lead)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_leademailextension`|
+|ReferencingAttribute|`msdyn_leadid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_leademailextension_leadid_lead`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_linkeditemvalidity_polymorphic_leadid"></a> msdyn_linkeditemvalidity_polymorphic_leadid
 
 Many-To-One Relationship: [msdyn_linkedentityattributevalidity msdyn_linkeditemvalidity_polymorphic_leadid](msdyn_linkedentityattributevalidity.md#BKMK_msdyn_linkeditemvalidity_polymorphic_leadid)
@@ -4238,6 +4296,30 @@ Many-To-One Relationship: [msdyn_sabackupdiagnostic msdyn_sabackupdiagnostic_lea
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_salesagenthandover_regardingId_lead"></a> msdyn_salesagenthandover_regardingId_lead
+
+Many-To-One Relationship: [msdyn_salesagenthandover msdyn_salesagenthandover_regardingId_lead](msdyn_salesagenthandover.md#BKMK_msdyn_salesagenthandover_regardingId_lead)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_salesagenthandover`|
+|ReferencingAttribute|`msdyn_regardingid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_salesagenthandover_regardingId_lead`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_salesagentrun_lead"></a> msdyn_salesagentrun_lead
+
+Many-To-One Relationship: [msdyn_salesagentrun msdyn_salesagentrun_lead](msdyn_salesagentrun.md#BKMK_msdyn_salesagentrun_lead)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_salesagentrun`|
+|ReferencingAttribute|`msdyn_regardingid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_salesagentrun_lead`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_salesroutingdiagnostic_lead_msdyn_target"></a> msdyn_salesroutingdiagnostic_lead_msdyn_target
 
 Many-To-One Relationship: [msdyn_salesroutingdiagnostic msdyn_salesroutingdiagnostic_lead_msdyn_target](msdyn_salesroutingdiagnostic.md#BKMK_msdyn_salesroutingdiagnostic_lead_msdyn_target)
@@ -4259,6 +4341,42 @@ Many-To-One Relationship: [msdyn_sequencetarget msdyn_sequencetarget_lead_msdyn_
 |ReferencingEntity|`msdyn_sequencetarget`|
 |ReferencingAttribute|`msdyn_target`|
 |ReferencedEntityNavigationPropertyName|`msdyn_sequencetarget_lead_msdyn_target`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_summarysynthesizerinput_referenceobjectid_lead"></a> msdyn_summarysynthesizerinput_referenceobjectid_lead
+
+Many-To-One Relationship: [msdyn_summarysynthesizerinput msdyn_summarysynthesizerinput_referenceobjectid_lead](msdyn_summarysynthesizerinput.md#BKMK_msdyn_summarysynthesizerinput_referenceobjectid_lead)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_summarysynthesizerinput`|
+|ReferencingAttribute|`msdyn_referenceobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_summarysynthesizerinput_referenceobjectid_lead`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_summarysynthesizeroutput_ReferenceObjectId_lead"></a> msdyn_summarysynthesizeroutput_ReferenceObjectId_lead
+
+Many-To-One Relationship: [msdyn_summarysynthesizeroutput msdyn_summarysynthesizeroutput_ReferenceObjectId_lead](msdyn_summarysynthesizeroutput.md#BKMK_msdyn_summarysynthesizeroutput_ReferenceObjectId_lead)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_summarysynthesizeroutput`|
+|ReferencingAttribute|`msdyn_referenceobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_summarysynthesizeroutput_ReferenceObjectId_lead`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_triggersalesagent_regardingid_lead"></a> msdyn_triggersalesagent_regardingid_lead
+
+Many-To-One Relationship: [msdyn_triggersalesagent msdyn_triggersalesagent_regardingid_lead](msdyn_triggersalesagent.md#BKMK_msdyn_triggersalesagent_regardingid_lead)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_triggersalesagent`|
+|ReferencingAttribute|`msdyn_regardingid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_triggersalesagent_regardingid_lead`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

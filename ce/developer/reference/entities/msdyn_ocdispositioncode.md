@@ -30,7 +30,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_ocdispositioncodes(*msdyn_ocdispositioncodeid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_ocdispositioncodes<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -68,6 +67,9 @@ The following table lists selected properties for the OC Disposition Code (msdyn
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [IsCustomizable](#BKMK_IsCustomizable)
+- [msdyn_appliestoallworkstreams](#BKMK_msdyn_appliestoallworkstreams)
+- [msdyn_dispositioncodecategoryid](#BKMK_msdyn_dispositioncodecategoryid)
 - [msdyn_dispositioncodevalue](#BKMK_msdyn_dispositioncodevalue)
 - [msdyn_languageid](#BKMK_msdyn_languageid)
 - [msdyn_name](#BKMK_msdyn_name)
@@ -94,6 +96,47 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MaxValue|2147483647|
 |MinValue|-2147483648|
 
+### <a name="BKMK_IsCustomizable"></a> IsCustomizable
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Is Customizable**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`iscustomizable`|
+|RequiredLevel|SystemRequired|
+|Type|ManagedProperty|
+
+### <a name="BKMK_msdyn_appliestoallworkstreams"></a> msdyn_appliestoallworkstreams
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Applies to all workstreams**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_appliestoallworkstreams`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_ocdispositioncode_msdyn_appliestoallworkstreams`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_dispositioncodecategoryid"></a> msdyn_dispositioncodecategoryid
+
+|Property|Value|
+|---|---|
+|Description|**Disposition Code Category that the disposition code is linked to**|
+|DisplayName|**Disposition Code Category**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_dispositioncodecategoryid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_dispositioncodecategory|
+
 ### <a name="BKMK_msdyn_dispositioncodevalue"></a> msdyn_dispositioncodevalue
 
 |Property|Value|
@@ -108,7 +151,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Format|Text|
 |FormatName|Text|
 |ImeMode|Auto|
-|IsLocalizable|False|
+|IsLocalizable|True|
 |MaxLength|200|
 
 ### <a name="BKMK_msdyn_languageid"></a> msdyn_languageid
@@ -270,18 +313,59 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 These columns/attributes return false for both **IsValidForCreate** and **IsValidForUpdate**. Listed by **SchemaName**.
 
+- [ComponentIdUnique](#BKMK_ComponentIdUnique)
+- [ComponentState](#BKMK_ComponentState)
 - [CreatedBy](#BKMK_CreatedBy)
 - [CreatedOn](#BKMK_CreatedOn)
 - [CreatedOnBehalfBy](#BKMK_CreatedOnBehalfBy)
+- [IsManaged](#BKMK_IsManaged)
 - [ModifiedBy](#BKMK_ModifiedBy)
 - [ModifiedOn](#BKMK_ModifiedOn)
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
+- [OverwriteTime](#BKMK_OverwriteTime)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
 - [OwningTeam](#BKMK_OwningTeam)
 - [OwningUser](#BKMK_OwningUser)
+- [SolutionId](#BKMK_SolutionId)
+- [SupportingSolutionId](#BKMK_SupportingSolutionId)
 - [VersionNumber](#BKMK_VersionNumber)
+
+### <a name="BKMK_ComponentIdUnique"></a> ComponentIdUnique
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Row id unique**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`componentidunique`|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+### <a name="BKMK_ComponentState"></a> ComponentState
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Component State**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`componentstate`|
+|RequiredLevel|SystemRequired|
+|Type|Picklist|
+|DefaultFormValue||
+|GlobalChoiceName|`componentstate`|
+
+#### ComponentState Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**Published**|
+|1|**Unpublished**|
+|2|**Deleted**|
+|3|**Deleted Unpublished**|
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
@@ -326,6 +410,22 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |Type|Lookup|
 |Targets|systemuser|
 
+### <a name="BKMK_IsManaged"></a> IsManaged
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether the solution component is part of a managed solution.**|
+|DisplayName|**Is Managed**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`ismanaged`|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
+|GlobalChoiceName|`ismanaged`|
+|DefaultValue|False|
+|True Label|Managed|
+|False Label|Unmanaged|
+
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
 |Property|Value|
@@ -368,6 +468,23 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |RequiredLevel|None|
 |Type|Lookup|
 |Targets|systemuser|
+
+### <a name="BKMK_OverwriteTime"></a> OverwriteTime
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Record Overwrite Time**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`overwritetime`|
+|RequiredLevel|SystemRequired|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|UserLocal|
+|Format|DateAndTime|
+|ImeMode|Inactive|
+|SourceTypeMask|0|
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
@@ -412,7 +529,7 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`owningbusinessunit`|
-|RequiredLevel|None|
+|RequiredLevel|SystemRequired|
 |Type|Lookup|
 |Targets|businessunit|
 
@@ -442,6 +559,30 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |Type|Lookup|
 |Targets|systemuser|
 
+### <a name="BKMK_SolutionId"></a> SolutionId
+
+|Property|Value|
+|---|---|
+|Description|**Unique identifier of the associated solution.**|
+|DisplayName|**Solution**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`solutionid`|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+### <a name="BKMK_SupportingSolutionId"></a> SupportingSolutionId
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Solution**|
+|IsValidForForm|False|
+|IsValidForRead|False|
+|LogicalName|`supportingsolutionid`|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
+
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
 |Property|Value|
@@ -465,6 +606,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_ocdispositioncode_createdonbehalfby](#BKMK_lk_msdyn_ocdispositioncode_createdonbehalfby)
 - [lk_msdyn_ocdispositioncode_modifiedby](#BKMK_lk_msdyn_ocdispositioncode_modifiedby)
 - [lk_msdyn_ocdispositioncode_modifiedonbehalfby](#BKMK_lk_msdyn_ocdispositioncode_modifiedonbehalfby)
+- [msdyn_ocdispositioncode_dispositioncodecategoryid_msdyn_dispositioncodecategory](#BKMK_msdyn_ocdispositioncode_dispositioncodecategoryid_msdyn_dispositioncodecategory)
 - [msdyn_ocdispositioncode_languageid_msdyn_oclanguage](#BKMK_msdyn_ocdispositioncode_languageid_msdyn_oclanguage)
 - [owner_msdyn_ocdispositioncode](#BKMK_owner_msdyn_ocdispositioncode)
 - [team_msdyn_ocdispositioncode](#BKMK_team_msdyn_ocdispositioncode)
@@ -535,6 +677,19 @@ One-To-Many Relationship: [systemuser lk_msdyn_ocdispositioncode_modifiedonbehal
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_ocdispositioncode_dispositioncodecategoryid_msdyn_dispositioncodecategory"></a> msdyn_ocdispositioncode_dispositioncodecategoryid_msdyn_dispositioncodecategory
+
+One-To-Many Relationship: [msdyn_dispositioncodecategory msdyn_ocdispositioncode_dispositioncodecategoryid_msdyn_dispositioncodecategory](msdyn_dispositioncodecategory.md#BKMK_msdyn_ocdispositioncode_dispositioncodecategoryid_msdyn_dispositioncodecategory)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_dispositioncodecategory`|
+|ReferencedAttribute|`msdyn_dispositioncodecategoryid`|
+|ReferencingAttribute|`msdyn_dispositioncodecategoryid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_dispositioncodecategoryid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msdyn_ocdispositioncode_languageid_msdyn_oclanguage"></a> msdyn_ocdispositioncode_languageid_msdyn_oclanguage
 
 One-To-Many Relationship: [msdyn_oclanguage msdyn_ocdispositioncode_languageid_msdyn_oclanguage](msdyn_oclanguage.md#BKMK_msdyn_ocdispositioncode_languageid_msdyn_oclanguage)
@@ -592,6 +747,7 @@ One-To-Many Relationship: [systemuser user_msdyn_ocdispositioncode](systemuser.m
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_conversationdispositioncodemap_ocdispositioncode](#BKMK_msdyn_conversationdispositioncodemap_ocdispositioncode)
 - [msdyn_ocdispositioncode_AsyncOperations](#BKMK_msdyn_ocdispositioncode_AsyncOperations)
 - [msdyn_ocdispositioncode_BulkDeleteFailures](#BKMK_msdyn_ocdispositioncode_BulkDeleteFailures)
 - [msdyn_ocdispositioncode_DuplicateBaseRecord](#BKMK_msdyn_ocdispositioncode_DuplicateBaseRecord)
@@ -600,6 +756,18 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_ocdispositioncode_PrincipalObjectAttributeAccesses](#BKMK_msdyn_ocdispositioncode_PrincipalObjectAttributeAccesses)
 - [msdyn_ocdispositioncode_ProcessSession](#BKMK_msdyn_ocdispositioncode_ProcessSession)
 - [msdyn_ocdispositioncode_SyncErrors](#BKMK_msdyn_ocdispositioncode_SyncErrors)
+
+### <a name="BKMK_msdyn_conversationdispositioncodemap_ocdispositioncode"></a> msdyn_conversationdispositioncodemap_ocdispositioncode
+
+Many-To-One Relationship: [msdyn_conversationdispositioncodemap msdyn_conversationdispositioncodemap_ocdispositioncode](msdyn_conversationdispositioncodemap.md#BKMK_msdyn_conversationdispositioncodemap_ocdispositioncode)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationdispositioncodemap`|
+|ReferencingAttribute|`msdyn_ocdispositioncodeid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_conversationdispositioncodemap_ocdispositioncode`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_ocdispositioncode_AsyncOperations"></a> msdyn_ocdispositioncode_AsyncOperations
 
@@ -696,6 +864,24 @@ Many-To-One Relationship: [syncerror msdyn_ocdispositioncode_SyncErrors](syncerr
 |ReferencedEntityNavigationPropertyName|`msdyn_ocdispositioncode_SyncErrors`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+
+## Many-to-Many relationships
+
+These relationships are many-to-many. Listed by **SchemaName**.
+
+### <a name="BKMK_msdyn_ocdispositioncode_liveworkstream_msdyn_liveworkstream"></a> msdyn_ocdispositioncode_liveworkstream_msdyn_liveworkstream
+
+See [msdyn_liveworkstream msdyn_ocdispositioncode_liveworkstream_msdyn_liveworkstream Many-To-Many Relationship](msdyn_liveworkstream.md#BKMK_msdyn_ocdispositioncode_liveworkstream_msdyn_liveworkstream)
+
+|Property|Value|
+|---|---|
+|IntersectEntityName|`msdyn_ocdispositioncode_msdyn_liveworkstream`|
+|IsCustomizable|True|
+|SchemaName|`msdyn_ocdispositioncode_liveworkstream_msdyn_liveworkstream`|
+|IntersectAttribute|`msdyn_ocdispositioncodeid`|
+|NavigationPropertyName|`msdyn_ocdispositioncode_liveworkstream_msdyn_liveworkstream`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 

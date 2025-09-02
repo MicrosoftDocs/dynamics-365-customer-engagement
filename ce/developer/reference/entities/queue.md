@@ -362,6 +362,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_queue_msdyn_sessionparticipant_msdyn_cdsqueueid](#BKMK_msdyn_queue_msdyn_sessionparticipant_msdyn_cdsqueueid)
 - [msdyn_queue_msdyn_unifiedroutingrun_queue](#BKMK_msdyn_queue_msdyn_unifiedroutingrun_queue)
 - [msdyn_queue_ocruleitem](#BKMK_msdyn_queue_ocruleitem)
+- [queue_activitymonitor_queueid](#BKMK_queue_activitymonitor_queueid)
 - [queue_msdyn_entityId_msdyn_activeicdextension](#BKMK_queue_msdyn_entityId_msdyn_activeicdextension)
 - [queue_msdyn_entityId_msdyn_entityWorkstreamMap](#BKMK_queue_msdyn_entityId_msdyn_entityWorkstreamMap)
 - [queue_msdyn_entityId_msdyn_icdextension](#BKMK_queue_msdyn_entityId_msdyn_icdextension)
@@ -520,6 +521,18 @@ Many-To-One Relationship: [msdyn_ocruleitem msdyn_queue_ocruleitem](msdyn_ocrule
 |ReferencingAttribute|`msdyn_cdsqueueassignid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_queue_ocruleitem`|
 |IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_queue_activitymonitor_queueid"></a> queue_activitymonitor_queueid
+
+Many-To-One Relationship: [activitymonitor queue_activitymonitor_queueid](activitymonitor.md#BKMK_queue_activitymonitor_queueid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`activitymonitor`|
+|ReferencingAttribute|`queueid`|
+|ReferencedEntityNavigationPropertyName|`queue_activitymonitor_queueid`|
+|IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_queue_msdyn_entityId_msdyn_activeicdextension"></a> queue_msdyn_entityId_msdyn_activeicdextension

@@ -1,7 +1,7 @@
 ---
 title: Configure service-level agreements in Dynamics 365 Customer Service
 description: Learn how to configure service-level agreements in Dynamics 365 Customer Service.
-ms.date: 08/22/2025
+ms.date: 08/29/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -48,7 +48,7 @@ To configure SLAs in Copilot Service admin center:
     - **Connector**: All permissions at the business-unit level.
     - **ProcessStageParameter**: All permissions at the business-unit level.
     - SLA, SLA KPI, SLA KPI instances: Create permission at the business-unit level, delete permission at the parent-child level, and other permissions at the organization level.
-    - Power Automate License is available for the user creating actions on SLA KPI instance statuses. 
+    - [Power Automate License](https://go.microsoft.com/fwlink/?linkid=2085130) is available for the user creating actions on SLA KPI instance statuses. 
 
     For service representatives:
     - **Customer Service Representative** role or its equivalent roles and privileges.
