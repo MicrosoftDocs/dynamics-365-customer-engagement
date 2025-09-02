@@ -25,7 +25,7 @@ ms.custom:
 > [!NOTE]
 > Supervisor and customer service representatives (service representatives or representatives) sentiment notifications aren't available in Omnichannel for Customer Service on Unified Service Desk.
 
-Sentiment analysis settings in Omnichannel for Customer Service provide service representatives and supervisors with real-time insight regarding how customers interact with service representatives during chat sessions.
+Sentiment analysis settings in Omnichannel for Customer Service provide service representatives and supervisors with real-time insight regarding how customers interact with service representatives during conversation sessions.
 
 ## Sentiment analysis
 
