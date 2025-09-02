@@ -37,7 +37,7 @@ Users with the system administrator or supervisor role can access the analytics 
 
 If you'd like to create a new role for analytics users, then perform the following steps:
 
-1. In your environment, select **Settings** in the command bar. The **Settings** page for that environment is displayed.
+1. In your Power Platform admin center environment, select **Settings** in the command bar. The **Settings** page for the environment appears.
 1. Select **Users + permissions** > **Security roles**.
 1. Select **New role** on the navigation bar. The **Create new role** dialog opens.
 1. Enter your role name and business unit.
