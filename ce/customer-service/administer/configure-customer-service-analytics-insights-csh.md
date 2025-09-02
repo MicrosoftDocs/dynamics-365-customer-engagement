@@ -53,7 +53,7 @@ If you'd like to create a new role for analytics users, then perform the followi
     |[Customer Service historical analytics dashboards](../use/customer-service-analytics-insights-csh.md)     |    msdyn_dataanalyticsreport_csrmanager     |
     |[Copilot Analytics ](../use/copilot-analytics-report.md#use-copilot-analytics-report)  |    msdyn_dataanalyticsreport_copilot     |
     |[Knowledge analytics dashboards](../use/knowledge-search-analytics-cs.md#introduction-to-knowledge-analytics)| msdyn_dataanalyticsreport_ksinsights |
-1. To grant Read privileges, select **Permission Settings**for a table.
+1. To grant Read privileges, select **Permission Settings** for a table.
 1. On the **Permission Settings** dialog, provide **Read** access.
 > [!NOTE]
 > For custom roles, select **Read** privileges for [the entities used by historical and real-time analytics](../use/dataverse-entities.md), as applicable.
