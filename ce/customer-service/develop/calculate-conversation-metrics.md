@@ -130,7 +130,7 @@ Total bot conversation = CALCULATE(DISTINCTCOUNTNOBLANK(FactSession[Conversation
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-The total number of inbound conversations that a service representative received directly or are escalated by an AI agent.
+The total number of inbound conversations that a service representative received directly or an AI agent escalated.
 
 In the Summary tab of Omnichannel real-time dashboard, incoming conversations are **Total conversations offered**.
 
@@ -783,7 +783,7 @@ Wrap-up conversations = SUMX ( FactConversation, IF ( FactConversation[statuscod
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-The abandoned rate refers to the percentage of incoming conversation requests that are terminated before a representative engages with the customer. This can happen in both representative and AI agent scenarios. There are two primary types:​
+The abandoned rate refers to the percentage of incoming conversation requests that are terminated before a representative engages with the customer. This rate can happen in both representative and AI agent scenarios. There are two primary types:​
 - Abandoned before assignment: The customer leaves before being assigned to a representative.​
 - Abandoned after assignment: The customer is assigned to a representative but disconnects before the representative accepts the conversation.
 
@@ -842,7 +842,7 @@ DIVIDE(SUMX(FactConversation,IF(FactConversation[IsAbandoned] && NOT FactConvers
 
 *Applies to Omnichannel real-time dashboards.*
 
-Average time to abandon is the average time (in seconds) that customers wait before leaving a conversation when no service representative joins. This includes conversations escalated from an AI agent or those that enter a direct queue but are abandoned before any AI agent interaction occurs.
+Average time to abandon is the average time (in seconds) that customers wait before leaving a conversation when no service representative joins. This average time includes conversations escalated from an AI agent or those that enter a direct queue but are abandoned before any AI agent interaction occurs.
 
 ### DAX query and Dataverse reference
 
@@ -894,7 +894,7 @@ Avg. conversation active time (min) = CALCULATE(AVERAGE(FactConversation[ActiveT
 
 *Applies to Omnichannel historical dashboards.*
 
-The metric refers to the average amount of time during a conversation when an agent isn't actively engaged with the customer. This is especially relevant in chat and digital messaging channels, where agents often handle multiple sessions concurrently.​ Inactive time is the duration when a conversation is open but the agent isn't focused on it—either because they’ve switched to another session or aren't interacting with the customer. 
+The metric refers to the average amount of time during a conversation when an agent isn't actively engaged with the customer. This metric is especially relevant in chat and digital messaging channels, where agents often handle multiple sessions concurrently.​ Inactive time is the duration when a conversation is open but the agent isn't focused on it—either because they’ve switched to another session or aren't interacting with the customer. 
 
 ### DAX query and Dataverse reference
 
@@ -989,7 +989,7 @@ conversations_FactConversation])), 0, rate)
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_sessionparticipant, systemuser |
 |Attributes  |-  msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel​ <br>- msdyn_ocliveworkitem.statuscode​ <br> - msdyn_ocliveworkitem.msdyn_transfercount <br> - msdyn_sessionparticipant.msdyn_joinedon ​<br> -  systemuser.msdyn_botapplicationid|
-|Filters  | - Filter the FactConversations table to include only rows where Ensure that msdyn_channelinstanceid is NULL.​ <br> - Exclude rows where msdyn_channel is'192350000’. <br> - Include msdyn_ocliveworkitem.statuscode set to 4​. <br> - Ensure that systemuser.msdyn_botapplicationid and msdyn_sessionparticipant.msdyn_joinedon isn't null​. <br> - IsAgentAcceptedSession is set as follows:​ If systemuser.msdyn_botapplicationid is empty or NULL and msdyn_sessionparticipant.msdyn_joinedon isn't empty, then IsAgentAcceptedSession is 1.​ Otherwise, its 0.​ <br> -Transfer rate is defined by msdyn_ocliveworkitem.msdyn_transfercount > 0​.​|
+|Filters  | - Filter the FactConversations table to include only rows where Ensure that msdyn_channelinstanceid is NULL.​ <br> - Exclude rows where msdyn_channel is'192350000’. <br> - Include msdyn_ocliveworkitem.statuscode set to 4​. <br> - Ensure that systemuser.msdyn_botapplicationid and msdyn_sessionparticipant.msdyn_joinedon isn't null​. <br> - IsAgentAcceptedSession is set as follows:​ If systemuser.msdyn_botapplicationid is empty or NULL and msdyn_sessionparticipant.msdyn_joinedon isn't empty, then IsAgentAcceptedSession is 1.​ Otherwise, it's 0.​ <br> -Transfer rate is defined by msdyn_ocliveworkitem.msdyn_transfercount > 0​.​|
 
 
 
@@ -1113,7 +1113,7 @@ Callback offered = CALCULATE(DISTINCTCOUNT([ConversationId]), NOT(ISBLANK(FactSe
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Conversation where direct callback is offered but the customer didn't accept or opt-in.
+Conversation where direct callback is offered but the customer didn't accept or opt in.
 
 ### DAX query and Dataverse reference
 
