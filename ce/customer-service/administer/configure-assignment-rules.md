@@ -21,6 +21,9 @@ In unified routing, the process of creating assignment rulesets involves the fol
 
 1. **Create selection criteria**: If you create more than one assignment ruleset, you need to define the rules for the selection criteria. The selection criteria determines the ruleset that should be run out of the many that exist. Learn more in [Configure selection criteria](#configure-selection-criteria).
 
+> [!NOTE]
+> While you can create custom assignment methods, we recommend that you use the out-of-the-box assignment methods or selection criteria that are robust and validated for most use cases.
+
 ## Prerequisite
 
 [Template rulesets](manage-routing-rules-templates.md) are available if you want to create assignment rulesets based on templates.
