@@ -1,7 +1,7 @@
 ---
 title: Edit insight cards
-description: Manage insight cards by turning them on/off, assigning/removing roles, setting priority and editing flow. View card usage metrics for optimization.
-ms.date: 06/28/2024
+description: Manage insight cards by turning them on/off, assigning/removing roles, setting priority, and editing flow. View card usage metrics for optimization.
+ms.date: 08/06/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -37,7 +37,7 @@ To turn off or on multiple cards, select the cards that you want to turn on or o
 
 ### Turn cards on or off for a security role
 
-If you want to turn off cards for a particular security role, go to the **Insight cards** page (**Insight cards** tab) under **Assistant studio** and filter the cards based on the role. Choose the cards that you want to turn off for the selected role and select **Remove for *role name***. The cards will not show for the role that you have selected.
+If you want to turn off cards for a particular security role, go to the **Insight cards** page (**Insight cards** tab) under **Assistant studio** and filter the cards based on the role. Choose the cards that you want to turn off for the selected role and select **Remove for *role name***. The cards won't show for the role that you have selected.
 
 In this example, we have filtered the cards with the security role **Survey Owner** and chosen the cards **SuggestedContacts**, **SuggestedActivities**, and **Customer Question**. Select **Remove for Survey Owner** and the cards are turned off only for the **Survey Owner** role. 
 

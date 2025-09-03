@@ -1,7 +1,7 @@
 ---
 title: Automatically create or update records in Dynamics 365 Customer Service
 description: Learn how to set up rules to automatically create or update records from emails and activities.
-ms.date: 08/29/2025
+ms.date: 09/02/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -55,7 +55,7 @@ These activities can be converted to any default (system) entity records or cust
 
 ## Prerequisites
 
-- Permissions, roles, and the [Power Automate license](https://go.microsoft.com/fwlink/?linkid=2085130) to create automatic record creation rules.
+- Permissions, roles, and specific licenses apply to create automatic record creation rules. Learn more about licenses in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 - Information on the queues for which you want to create the rules.
 
 ## Configure rules to create or update records automatically
