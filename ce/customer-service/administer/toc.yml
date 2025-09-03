@@ -760,6 +760,10 @@
         href: configure-post-conversation-survey.md
     - name: Analytics dashboards and insights
       items:
+      - name: Supervise AI agents (preview)
+        items:
+        - name: Configure agent feed
+          href: configure-agent-feed.md
       - name: Use and customize analytics and insights
         href: analytics_overview.md
       - name: Supported regions and languages for analytics and insights
