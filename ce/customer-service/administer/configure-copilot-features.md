@@ -22,15 +22,10 @@ However, for representatives to use these features in Customer Service Hub and c
 > [!NOTE]
 > Summarize conversations is available for use in Copilot Service workspace only.
 
-
-## License requirements
-
-- Dynamics 365 Customer Service Enterprise license for summarize cases, ask a question, draft emails, and copilot analytics features.
-- Customer Service add-in (Chat, Digital Messaging, or Voice) license for draft a chat response and summarize conversations features.
-
 ## Prerequisites
 
-You must have the System Administrator role.
+- You must have the System Administrator role.
+- Specific licensing requirements apply when you use the feature with product environments. Learn more in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
 ## Region availability and data movement
 
