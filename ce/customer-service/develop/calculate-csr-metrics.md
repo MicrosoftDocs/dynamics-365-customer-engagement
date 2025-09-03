@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 08/29/2025
+ms.date: 09/03/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -202,7 +202,7 @@ Total capacity units represent the workload capacity assigned to a representativ
 
 *Applies to Omnichannel real-time dashboards.*
 
-The total default maximum capacity units assigned to agents based on their capacity profile
+The total default maximum capacity units assigned to agents based on their capacity profile.
 
 **DAX query**
 
@@ -214,7 +214,7 @@ Total agent work item capacity =SUM( FactAgentCapacityProfile[AgentDefaultMaxPro
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | - [msdyn_agentcapacityprofileunit](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit) <br> - [msdyn_capacityprofile](/dynamics365/developer/reference/entities/msdyn_capacityprofile)|
+|Dataverse entities | - [msdyn_agentcapacityprofileunit](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit) along with <br> - [msdyn_capacityprofile](/dynamics365/developer/reference/entities/msdyn_capacityprofile)|
 |Attributes  | - msdyn_agentcapacityprofileunit.msdyn_defaultmaxunits |
 |Filters  | None ​|
 
@@ -254,8 +254,8 @@ Total work item capacity in use = SUM ( FactAgentCapacityProfile[OccupiedProfile
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities |- msdyn_agentcapacityprofileunit: Main source of agent-specific capacity data; [msdyn_agentcapacityprofileunit](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit) <br> - msdyn_capacityprofile: Provides default capacity values and blocking rules; [msdyn_capacityprofile](/dynamics365/developer/reference/entities/msdyn_capacityprofile)|
-|Attributes  | - OccupiedProfileUnits : Difference between msdyn_capacityprofile.msdyn_defaultmaxunits and  msdyn_agentcapacityprofileunit.msdyn_availablecapacityprofileunits <br> - [msdyn_capacityprofile](/dynamics365/developer/reference/entities/msdyn_capacityprofile) <br> - [msdyn_agentcapacityprofileunit](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit)|
+|Dataverse entities |- [msdyn_agentcapacityprofileunit](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit): Main source of agent-specific capacity data  <br> - [msdyn_capacityprofile](/dynamics365/developer/reference/entities/msdyn_capacityprofile): Provides default capacity values and blocking rules|
+|Attributes  | - OccupiedProfileUnits : Difference between [msdyn_capacityprofile.msdyn_defaultmaxunits](/dynamics365/developer/reference/entities/msdyn_capacityprofile?branch=ss-449106-csr#BKMK_msdyn_defaultmaxunits) and [msdyn_agentcapacityprofileunit.msdyn_availablecapacityprofileunits](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit?branch=ss-449106-csr#BKMK_msdyn_availablecapacityprofileunits) <br> - msdyn_capacityprofile <br> - msdyn_agentcapacityprofileunit|
 
 
 ### Related metrics
@@ -279,7 +279,7 @@ Logged in agents = SUMX ( FactAgentCapacityUnit,IF ( NOT RELATED ( DimAgentPrese
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities |- [msdyn_presence](/dynamics365/developer/reference/entities/msdyn_presence) <br> - [msdyn_agentstatus](/dynamics365/developer/reference/entities/msdyn_agentstatus), with [systemuser](/dynamics365/developer/reference/entities/systemuser) |
+|Dataverse entities |- [msdyn_presence](/dynamics365/developer/reference/entities/msdyn_presence) <br> - [msdyn_agentstatus](/dynamics365/developer/reference/entities/msdyn_agentstatus) along with [systemuser](/dynamics365/developer/reference/entities/systemuser)|
 |Attributes  | - [msdyn_presence.msdyn_basepresencestatus](/dynamics365/developer/reference/entities/msdyn_presence#msdyn_basepresencestatus-choicesoptions) <br> - [mdyn_agentstatus.msdyn_availableunitscapacity](/dynamics365/developer/reference/entities/msdyn_agentstatus#BKMK_msdyn_availableunitscapacity)|
 |Filters  | - msdyn_presence.msdyn_basepresencestatus != 192360004 (Status isn't set to Offline) ​|
 
@@ -300,7 +300,7 @@ Total agents = COUNTROWS(FactAgentCapacityUnit )
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities |- [msdyn_agentstatus](/dynamics365/developer/reference/entities/msdyn_agentstatus), with [systemuser](/dynamics365/developer/reference/entities/systemuser) |
+|Dataverse entities |- [msdyn_agentstatus](/dynamics365/developer/reference/entities/msdyn_agentstatus), along with [systemuser](/dynamics365/developer/reference/entities/systemuser) |
 |Attributes  | - [msdyn_agentstatus.msdyn_agentid](/dynamics365/developer/reference/entities/msdyn_agentstatus#BKMK_msdyn_agentid)|
 |Filters  | - systemuser.msdyn_botapplicationid is NULL - Filters out representatives associated with a bot application. ​|
 
@@ -320,7 +320,7 @@ Status duration (mins) = CALCULATE (SUM ( FactAgentStatusHistory[DuringInSeconds
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | - [msdyn_agentstatushistory](/dynamics365/developer/reference/entities/msdyn_agentstatushistory) <br> - [msdyn_presence](/dynamics365/developer/reference/entities/msdyn_presence)|
+|Dataverse entities | - [msdyn_agentstatushistory](/dynamics365/developer/reference/entities/msdyn_agentstatushistory)  along with <br> - [msdyn_presence](/dynamics365/developer/reference/entities/msdyn_presence)|
 |Attributes  | - Calculates the difference between the [msdyn_agentstatushistory.msdyn_starttime](/dynamics365/developer/reference/entities/msdyn_agentstatushistory#BKMK_msdyn_starttime) and [msdyn_agentstatushistory.msdyn_endtime](/dynamics365/developer/reference/entities/msdyn_agentstatushistory#BKMK_msdyn_endtime). The real-time dashboard shows the current UTC time while a service representative is in their current status. The end time appears only after the status changes.|
 |Filters  | - msdyn_agentstatushistory.createdon >= DATEADD(MI, -120, GETUTCDATE()) Only include records where the agent status was created within the last 120 minutes (2 hours).​|
 
