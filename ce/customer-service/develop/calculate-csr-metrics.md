@@ -380,7 +380,7 @@ IF (​FactSessionParticipant[ModeId] = "192350003",​ 1,​ BLANK()​)​), B
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | [msdyn_sessionparticipant](dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
+|Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode|
 |Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode = 192350003 AND AgentJoinedDateTime is defined by msdyn_sessionparticipant.msdyn_joinedon not equal to blank. |
 
@@ -397,7 +397,7 @@ IF (​FactSessionParticipant[ModeId] = "192350003",​ 1,​ BLANK()​)​), B
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | [systemuser](/dynamics365/developer/reference/entities/systemuser), [msdyn_sessionparticipant](dynamics365/developer/reference/entities/msdyn_sessionparticipant)  |
+|Dataverse entities | [systemuser](/dynamics365/developer/reference/entities/systemuser), [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)  |
 |Attributes |- msdyn_sessionparticipant.msdyn_mode​ <br> - msdyn_sessionparticipant.msdyn_joinedon​ <br> - systemuser.msdyn_botapplicationid  |
 |Filters  |- All conversations where FactSessionParticipant is obtained from systemuser.msdyn_botapplicationid is null​ <br> - msdyn_sessionparticipant.msdyn_joinedon is not blank​ <br> - msdyn_sessionparticipant.msdyn_mode set to 192350003 ​|
 
@@ -426,7 +426,7 @@ Consult requested = SUMX (​FactSessionParticipant,​ IF (FactSessionParticipa
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | [msdyn_sessionparticipant](dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
+|Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_mode
 |Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode set to 192350003 |
 
@@ -442,7 +442,7 @@ Consult requested = SUMX (​FactSessionParticipant,​ IF (FactSessionParticipa
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | [systemuser](/dynamics365/developer/reference/entities/systemuser), [msdyn_sessionparticipant](dynamics365/developer/reference/entities/msdyn_sessionparticipant)  |
+|Dataverse entities | [systemuser](/dynamics365/developer/reference/entities/systemuser), [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)  |
 |Attributes |- msdyn_sessionparticipant.msdyn_mode​ <br> - systemuser.msdyn_botapplicationid   |
 |Filters  |- All conversations where FactSessionParticipant is obtained from systemuser.msdyn_botapplicationid is null​ <br> - msdyn_sessionparticipant.msdyn_mode set to 192350003 ​​|
 
@@ -472,7 +472,7 @@ BLANK() && FactSessionParticipant[ModeId] =
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | [msdyn_sessionparticipant](dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
+|Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_joinedon​ <br> - msdyn_sessionparticipant_msdyn_mode
 |Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode = 192350003 AND AgentJoinedDateTime is defined by msdyn_sessionparticipant.msdyn_joinedon not equal to blank |
 
@@ -489,7 +489,7 @@ FactSessionParticipant[ModeId] = 192350003,1, 0 ) )
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | [msdyn_sessionparticipant](dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser)  |
+|Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser)  |
 |Attributes |- msdyn_sessionparticipant.msdyn_joinedon​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid |
 |Filters  |- All Conversations where ​msdyn_sessionparticipant.msdyn_joined is not null or blank and​ msdyn_sessionparticipant.msdyn_mode = 192350003​ <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid is not null​ ​​|
 
@@ -518,7 +518,7 @@ BLANK() && FactSessionParticipant[ModeId] = "192350003",1, 0 ) )
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | [msdyn_sessionparticipant](dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
+|Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_joinedon​ <br> - msdyn_sessionparticipant_msdyn_mode
 |Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode = 192350003 AND AgentJoinedDateTime is defined by msdyn_sessionparticipant.msdyn_joinedon equal to blank  |
 
@@ -535,7 +535,7 @@ FactSessionParticipant[ModeId] = 192350003,​ 1, 0 ))
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | [msdyn_sessionparticipant](dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
+|Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
 |Attributes |- msdyn_sessionparticipant.msdyn_joinedon​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
 |Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_joinedon is null or blank and​ msdyn_sessionparticipant.msdyn_mode = 192350003​. <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid is not null​. ​​|
 
@@ -564,7 +564,7 @@ Consult requests rejected = SUMX (​FactSessionParticipant,​ IF (FactSessionP
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | [msdyn_sessionparticipant](dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
+|Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode
 |Filters  |-  All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentReject" and​ msdyn_sessionparticipant.msdyn_mode = 192350003 |
 
@@ -581,7 +581,7 @@ Consult requests rejected = SUMX (​FactSessionParticipant,​ IF (FactSessionP
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | [msdyn_sessionparticipant](dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
+|Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
 |Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentReject” and​ msdyn_sessionparticipant.msdyn_mode = 192350003​ <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid is not null​. ​​|
 
@@ -611,7 +611,7 @@ Consult rejection rate = DIVIDE(SUMX (​FactSessionParticipant,​ IF (FactSess
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | [msdyn_sessionparticipant](dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
+|Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode
 |Filters  |-  All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentReject" and​ msdyn_sessionparticipant.msdyn_mode = 192350003 |
 
@@ -629,7 +629,7 @@ Consult rejection rate = DIVIDE(SUMX (​FactSessionParticipant,​ IF (FactSess
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | [msdyn_sessionparticipant](dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
+|Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
 |Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentReject, 
 msdyn_sessionparticipant.msdyn_mode = 192350003​.  <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid is not null.​ ​​|
@@ -660,7 +660,7 @@ Consult requests timed out = SUMX(​FactSessionParticipant,​ IF (FactSessionP
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | [msdyn_sessionparticipant](dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
+|Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode
 |Filters  |-  All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentTimeout" and​ msdyn_sessionparticipant.msdyn_mode = 192350003|
 
@@ -677,7 +677,7 @@ Consult requests timed out = SUMX(​FactSessionParticipant,​ IF (FactSessionP
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | [msdyn_sessionparticipant](dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
+|Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
 |Filters  |- All Conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentTimeout" <br> - msdyn_sessionparticipant.msdyn_mode = 192350003​ <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid is not null​. ​​|
 
@@ -707,7 +707,7 @@ FactSessionParticipant[ModeId] = "192350003",​ 1, 0​)​),SUMX (​FactSessi
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | [msdyn_sessionparticipant](dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
+|Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode
 |Filters  |-  All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentTimeout" and​ msdyn_sessionparticipant.msdyn_mode = 192350003|
 
@@ -724,7 +724,7 @@ FactSessionParticipant[ModeId] = "192350003",​ 1, 0​)​),SUMX (​FactSessi
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | [msdyn_sessionparticipant](dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser)  |
+|Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser)  |
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
 |Filters  |- All Conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentTimeout" <br> - msdyn_sessionparticipant.msdyn_mode = 192350003​ <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid is not null​. ​​|
 
@@ -753,7 +753,7 @@ Avg. consult time (min) = ​CALCULATE (​DIVIDE (​IF (​SUM (FactSessionPar
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | [msdyn_sessionparticipant](dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
+|Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode
 |Filters  |-  All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentTimeout" and​ msdyn_sessionparticipant.msdyn_mode = 192350003|
 
@@ -770,7 +770,7 @@ AVERAGEX(FactSessionParticipant, IF(FactSessionParticipant[AgentJoinedOn] <> BLA
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | [msdyn_sessionparticipant](dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
+|Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
 |Filters  |- All Conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentTimeout" <br> - msdyn_sessionparticipant.msdyn_mode = 192350003​ <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid is not null​. ​​|
 
