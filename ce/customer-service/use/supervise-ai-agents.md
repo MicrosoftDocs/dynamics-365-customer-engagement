@@ -1,7 +1,7 @@
 ---
 title: Supervise autonomous agents using agent feed (preview)
 description: As supervisors, monitor AI agent activities in your Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 09/02/2025
+ms.date: 09/03/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 Use the agent activity monitoring experience in your contact center to observe AI agents interactions with customers. Agent feed helps identify issues and improve AI agents to better serve customers.
 
-While you can enable the agent feed for custom generative AI agents, it's supported for Case Management Agent only in the preview release.
+In the preview release, Case Management Agent only is supported. You can also enable any custom generative AI agents. The supervisor must also be the flow owner to view the agent feed.
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -33,7 +33,7 @@ In Copilot Service workspace, as a supervisor, you can view the agent activities
 
 1. You can do the following actions:
    - Expand **To do** to see if you need to manually complete an action.
-   - Expand **Other** to view the action types, such as orchestrate, enrich case, and act on a customer issue.
+   - Expand **Other** to view the action types, such as send email, enrich case, and act on a customer issue.
    - Select an action to view details such as follows:
        - An AI-generated summary: Provides a quick overview of what's completed by the agent. You can also view the sequence of steps, such as whether agent has created a case or sent a follow-up email.
        - Conversation ID: The conversation linked to the case.
