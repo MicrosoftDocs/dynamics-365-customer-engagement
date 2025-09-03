@@ -3,15 +3,16 @@ title: Create or edit a service | Microsoft Docs
 description: Create or edit a service in Dynamics 365 Customer Service.
 ms.date: 05/20/2025
 ms.topic: how-to
-author: lalexms
-ms.author: laalexan
-ms.reviewer: laalexan
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
   - enduser
 ms.custom: 
-  - dyn365-customerservice
+- bap-template
+- evergreen
 ---
 
 # Create or edit a service
