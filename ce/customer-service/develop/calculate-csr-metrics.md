@@ -1,6 +1,6 @@
 ---
 title: Calculate customer service representatives metrics
-description: Understand key metrics to evaluate service representatives' performance, optimize operations, and enhance customer satisfaction in customer service.
+description: Learn how to calculate key metrics for customer service representatives in Dynamics 365. Track performance, optimize operations, and improve customer satisfaction with detailed analytics.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -21,7 +21,7 @@ ms.custom:
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-This article provides detailed metrics to evaluate the performance and efficiency of customer service representatives (service representatives or representatives) in Dynamics 365 Customer Service, enabling you to optimize operations and enhance customer satisfaction.
+This article provides details on how to calculate customer service representative metrics in Dynamics 365 Customer Service. Learn to evaluate performance and efficiency of service representatives to optimize operations and enhance customer satisfaction.
 
 
 ## Average first response time
