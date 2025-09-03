@@ -15,7 +15,6 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-
 ## General
 
 ### What regions are supported?

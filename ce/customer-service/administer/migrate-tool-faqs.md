@@ -49,7 +49,7 @@ Rules that are partially migrated, or that are identified as incompletely migrat
 
 ### Do I need a separate license for Power Automate before I run migration?
 
-No. For more information about licensing guidelines, go to [What are Microsoft Power Apps and Power Automate use rights for Dynamics 365 applications?](/power-platform/admin/powerapps-flow-licensing-faq#what-are-microsoft-power-apps-and-power-automate-use-rights-for-dynamics-365-applications)
+No. For information about licensing guidelines, go to [What are Microsoft Power Apps and Power Automate use rights for Dynamics 365 applications?](/power-platform/admin/powerapps-flow-licensing-faq#what-are-microsoft-power-apps-and-power-automate-use-rights-for-dynamics-365-applications)
 
 ### Some of my rules are incomplete or partially migrated. What should I do?
 
