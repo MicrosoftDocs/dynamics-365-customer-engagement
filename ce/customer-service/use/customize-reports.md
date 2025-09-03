@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 08/14/2025
+ms.date: 09/02/2025
 ms.custom:
   - dyn365-customerservice
   - bap-template
@@ -32,6 +32,8 @@ Customize your experience with these capabilities:
 
 You can customize the Customer Service historical, Omnichannel historical, Omnichannel real-time analytics, and Real-time analytics for record routing reports in the Copilot Service workspace app. You can't customize unified routing and knowledge analytics reports.
 
+You don't need any licenses to customize the Customer Service historical, Omnichannel historical, and Omnichannel real-time analytics reports embedded in Copilot Service workspace.
+
 > [!NOTE]
 > - After you customize and publish a report, all customizations become visible to all users in your organization.
 > - You can also build new reports and new metrics using the out-of-the-box data model. Learn more in [Overview of data model customization](datamodel-overview.md).
@@ -39,8 +41,6 @@ You can customize the Customer Service historical, Omnichannel historical, Omnic
 ## Prerequisites
 
 - To edit analytics reports, users must have the **Analytics Report Author** role. Learn more in [Assign roles to users](../implement/add-users-assign-roles.md#assign-roles-to-users).
-
-- You don't need a Power BI license to customize the Customer Service historical, Omnichannel historical, and Omnichannel real-time analytics reports embedded in Copilot Service workspace.
 
 ## Customize the display of analytics reports
 

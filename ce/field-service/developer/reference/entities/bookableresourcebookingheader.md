@@ -25,6 +25,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_bookingstatusid](#BKMK_msdyn_bookingstatusid)
 - [msdyn_BookingType](#BKMK_msdyn_BookingType)
 - [msdyn_ResourceRequirement](#BKMK_msdyn_ResourceRequirement)
+- [msdyn_TzaEndTime](#BKMK_msdyn_TzaEndTime)
+- [msdyn_TzaStartTime](#BKMK_msdyn_TzaStartTime)
 
 ### <a name="BKMK_msdyn_bookableresourceid"></a> msdyn_bookableresourceid
 
@@ -85,6 +87,40 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Lookup|
 |Targets|msdyn_resourcerequirement|
+
+### <a name="BKMK_msdyn_TzaEndTime"></a> msdyn_TzaEndTime
+
+|Property|Value|
+|---|---|
+|Description|**End date and time of the booking summary in time zone independent format**|
+|DisplayName|**End Date Time Zone Independent**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_tzaendtime`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|TimeZoneIndependent|
+|Format|DateAndTime|
+|ImeMode|Inactive|
+|SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_TzaStartTime"></a> msdyn_TzaStartTime
+
+|Property|Value|
+|---|---|
+|Description|**Start date and time of the booking summary in time zone independent format**|
+|DisplayName|**Start Date Time Zone Independent**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_tzastarttime`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|TimeZoneIndependent|
+|Format|DateAndTime|
+|ImeMode|Inactive|
+|SourceTypeMask|0|
 
 
 ## Many-to-One relationships

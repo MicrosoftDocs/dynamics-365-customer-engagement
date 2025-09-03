@@ -31,7 +31,10 @@ Messages represent operations that can be performed on the table. They may also 
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [enhancededitorhtml](#BKMK_enhancededitorhtml)
+- [includetemplateforcopilotrecommendation](#BKMK_includetemplateforcopilotrecommendation)
 - [isenhancededitorenabled](#BKMK_isenhancededitorenabled)
+- [msdyn_LineofBusiness](#BKMK_msdyn_LineofBusiness)
+- [msdyn_LineofBusinessMultiselect](#BKMK_msdyn_LineofBusinessMultiselect)
 
 ### <a name="BKMK_enhancededitorhtml"></a> enhancededitorhtml
 
@@ -50,6 +53,27 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|1048576|
 
+### <a name="BKMK_includetemplateforcopilotrecommendation"></a> includetemplateforcopilotrecommendation
+
+|Property|Value|
+|---|---|
+|Description|**Determines if this template should be included in Copilot recommendations**|
+|DisplayName|**Include Template For Copilot Recommendation**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`includetemplateforcopilotrecommendation`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue||
+|GlobalChoiceName|`template_includetemplateforcopilotrecommendation`|
+
+#### includetemplateforcopilotrecommendation Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**No**|
+|1|**Yes**|
+
 ### <a name="BKMK_isenhancededitorenabled"></a> isenhancededitorenabled
 
 |Property|Value|
@@ -65,6 +89,43 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
+
+### <a name="BKMK_msdyn_LineofBusiness"></a> msdyn_LineofBusiness
+
+|Property|Value|
+|---|---|
+|Description|**LOB List**|
+|DisplayName|**Line of Business**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_lineofbusiness`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
+
+### <a name="BKMK_msdyn_LineofBusinessMultiselect"></a> msdyn_LineofBusinessMultiselect
+
+|Property|Value|
+|---|---|
+|Description|**Line of Business (Multi-select)**|
+|DisplayName|**Line of Business (Multi-select)**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_lineofbusinessmultiselect`|
+|RequiredLevel|None|
+|Type|MultiSelectPicklist|
+|DefaultFormValue||
+|GlobalChoiceName|`msdyn_lobcategory`|
+
+#### msdyn_LineofBusinessMultiselect Choices/Options
+
+|Value|Label|
+|---|---|
+|100000000|**Default line of business**|
 
 
 ## Customized columns/attributes

@@ -820,7 +820,6 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_dasfeature_dasoc_datainsightsandanalyticsfeatureid](#BKMK_msdyn_dasfeature_dasoc_datainsightsandanalyticsfeatureid)
 - [msdyn_dasfeature_dasoc_rt_datainsightsandanalyticsfeatureid](#BKMK_msdyn_dasfeature_dasoc_rt_datainsightsandanalyticsfeatureid)
 - [msdyn_dasfeature_dassareporting_datainsightsandanalyticsfeatureid](#BKMK_msdyn_dasfeature_dassareporting_datainsightsandanalyticsfeatureid)
-- [msdyn_dasfeature_dassutreporting_datainsightsandanalyticsfeatureid](#BKMK_msdyn_dasfeature_dassutreporting_datainsightsandanalyticsfeatureid)
 - [msdyn_dasfeature_dasurrt_datainsightsandanalyticsfeatureId](#BKMK_msdyn_dasfeature_dasurrt_datainsightsandanalyticsfeatureId)
 - [msdyn_dataanalyticsdataset_datainsightsandanalyticsfeatureid](#BKMK_msdyn_dataanalyticsdataset_datainsightsandanalyticsfeatureid)
 - [msdyn_datainsightsandanalyticsfeature_AsyncOperations](#BKMK_msdyn_datainsightsandanalyticsfeature_AsyncOperations)
@@ -939,18 +938,6 @@ Many-To-One Relationship: [msdyn_dataanalyticsreport_sareporting msdyn_dasfeatur
 |ReferencingEntity|`msdyn_dataanalyticsreport_sareporting`|
 |ReferencingAttribute|`msdyn_datainsightsandanalyticsfeatureid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_dasfeature_dassareporting_datainsightsandanalyticsfeatureid`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_msdyn_dasfeature_dassutreporting_datainsightsandanalyticsfeatureid"></a> msdyn_dasfeature_dassutreporting_datainsightsandanalyticsfeatureid
-
-Many-To-One Relationship: [msdyn_dataanalyticsreport_sutreporting msdyn_dasfeature_dassutreporting_datainsightsandanalyticsfeatureid](msdyn_dataanalyticsreport_sutreporting.md#BKMK_msdyn_dasfeature_dassutreporting_datainsightsandanalyticsfeatureid)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_dataanalyticsreport_sutreporting`|
-|ReferencingAttribute|`msdyn_datainsightsandanalyticsfeatureid`|
-|ReferencedEntityNavigationPropertyName|`msdyn_dasfeature_dassutreporting_datainsightsandanalyticsfeatureid`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

@@ -69,9 +69,11 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
 - [msdyn_allowagenttoedit](#BKMK_msdyn_allowagenttoedit)
+- [msdyn_description](#BKMK_msdyn_description)
 - [msdyn_locale](#BKMK_msdyn_locale)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_objectjson](#BKMK_msdyn_objectjson)
+- [msdyn_ocrichobjectgroupid](#BKMK_msdyn_ocrichobjectgroupid)
 - [msdyn_ocrichobjectId](#BKMK_msdyn_ocrichobjectId)
 - [msdyn_ocrichobjecttype](#BKMK_msdyn_ocrichobjecttype)
 - [msdyn_streamsource](#BKMK_msdyn_streamsource)
@@ -124,6 +126,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
+
+### <a name="BKMK_msdyn_description"></a> msdyn_description
+
+|Property|Value|
+|---|---|
+|Description|**A human-readable summary or notes for this rich message.**|
+|DisplayName|**Rich Message Description**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_description`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1000|
 
 ### <a name="BKMK_msdyn_locale"></a> msdyn_locale
 
@@ -223,6 +242,18 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|9999|
 
+### <a name="BKMK_msdyn_ocrichobjectgroupid"></a> msdyn_ocrichobjectgroupid
+
+|Property|Value|
+|---|---|
+|Description|**Optional grouping identifier for this rich message.**|
+|DisplayName|**Rich Object Group ID**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_ocrichobjectgroupid`|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
+
 ### <a name="BKMK_msdyn_ocrichobjectId"></a> msdyn_ocrichobjectId
 
 |Property|Value|
@@ -262,6 +293,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350006|**Apple Pay**|
 |192350007|**Authentication**|
 |192350009|**Forms**|
+|192350011|**Cards**|
 
 ### <a name="BKMK_msdyn_streamsource"></a> msdyn_streamsource
 

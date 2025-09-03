@@ -77,6 +77,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_enabled](#BKMK_msdyn_enabled)
 - [msdyn_excludeformslist](#BKMK_msdyn_excludeformslist)
 - [msdyn_featureaccessrolelist](#BKMK_msdyn_featureaccessrolelist)
+- [msdyn_interactiondatadisabled](#BKMK_msdyn_interactiondatadisabled)
 - [msdyn_interactionsenabled](#BKMK_msdyn_interactionsenabled)
 - [msdyn_isdefaultconfig](#BKMK_msdyn_isdefaultconfig)
 - [msdyn_name](#BKMK_msdyn_name)
@@ -359,6 +360,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|10000|
+
+### <a name="BKMK_msdyn_interactiondatadisabled"></a> msdyn_interactiondatadisabled
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Interaction Data Disabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_interactiondatadisabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_copilotsummarizationsetting_msdyn_interactiondatadisabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_interactionsenabled"></a> msdyn_interactionsenabled
 

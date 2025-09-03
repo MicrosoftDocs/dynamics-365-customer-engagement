@@ -81,6 +81,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_InstanceRegistrationEndpointUrlTemplate](#BKMK_msdyn_InstanceRegistrationEndpointUrlTemplate)
 - [msdyn_MessageFormId](#BKMK_msdyn_MessageFormId)
 - [msdyn_Name](#BKMK_msdyn_Name)
+- [msdyn_OutboundBatchEndpointUrlTemplate](#BKMK_msdyn_OutboundBatchEndpointUrlTemplate)
 - [msdyn_OutboundEndpointUrlTemplate](#BKMK_msdyn_OutboundEndpointUrlTemplate)
 - [msdyn_SpecialConsentLabel](#BKMK_msdyn_SpecialConsentLabel)
 - [msdyn_SpecialConsentRequired](#BKMK_msdyn_SpecialConsentRequired)
@@ -334,6 +335,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100|
+
+### <a name="BKMK_msdyn_OutboundBatchEndpointUrlTemplate"></a> msdyn_OutboundBatchEndpointUrlTemplate
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Outbound endpoint URL template**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_outboundbatchendpointurltemplate`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1000|
 
 ### <a name="BKMK_msdyn_OutboundEndpointUrlTemplate"></a> msdyn_OutboundEndpointUrlTemplate
 
