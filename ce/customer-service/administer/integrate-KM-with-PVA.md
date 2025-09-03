@@ -137,7 +137,7 @@ Perform the following steps if you want to integrate a Copilot agent with knowle
 
 1. Go to [powerautomate.microsoft.com](https://powerautomate.microsoft.com).
 
-2. On the templates page, search for the **Generate answers from Dataverse knowledge articles to Microsoft Copilot Studio** template.
+2. On the templates page, search for the **Generate answers from Dataverse knowledge articles to Power Virtual Agent** template.
 
     > [!div class="mx-imgBorder"]
     > ![Create a flow.](../media/template-KM-PVA.png "Create a flow")
@@ -173,7 +173,7 @@ Learn about managing Copilot Studio solutions in [Export and import agents using
 
 2. Above the **Message** action box, select the connector, and select **Call an action**.
 
-3. From the pop-up flow window, select the new flow named **Generate answer from Dataverse knowledge articles for Microsoft Copilot Studio**. The new action appears in the flow.
+3. From the pop-up flow window, select the new flow named **Generate answer from Dataverse knowledge articles for Power Virtual Agent**. The new action appears in the flow.
     
 4. To correctly set the input variable to the action, select **Select a variable**, and then select **bot.UnrecognizedTriggerPhrase**.
     

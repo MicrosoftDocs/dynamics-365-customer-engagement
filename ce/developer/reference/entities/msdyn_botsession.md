@@ -73,6 +73,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_csatscore](#BKMK_msdyn_csatscore)
 - [msdyn_endedon](#BKMK_msdyn_endedon)
 - [msdyn_isengaged](#BKMK_msdyn_isengaged)
+- [msdyn_lastsessionoutcome](#BKMK_msdyn_lastsessionoutcome)
+- [msdyn_lastsessionoutcomereason](#BKMK_msdyn_lastsessionoutcomereason)
 - [msdyn_Name](#BKMK_msdyn_Name)
 - [msdyn_outcome](#BKMK_msdyn_outcome)
 - [msdyn_outcomereason](#BKMK_msdyn_outcomereason)
@@ -163,7 +165,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Boolean which mentions if the Microsoft Copilot Studio session is Engaged**|
+|Description|**Boolean which mentions if the PVA session is Engaged**|
 |DisplayName|**Bot Session IsEngaged**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -174,6 +176,57 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
+
+### <a name="BKMK_msdyn_lastsessionoutcome"></a> msdyn_lastsessionoutcome
+
+|Property|Value|
+|---|---|
+|Description|**Represents the last bot session outcome.**|
+|DisplayName|**Last Bot Session Outcome**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_lastsessionoutcome`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|419570000|
+|GlobalChoiceName|`msdyn_lastsessionoutcome`|
+
+#### msdyn_lastsessionoutcome Choices/Options
+
+|Value|Label|
+|---|---|
+|419570000|**None**|
+|419570001|**Abandoned**|
+|419570002|**Escalated**|
+|419570003|**Resolved**|
+
+### <a name="BKMK_msdyn_lastsessionoutcomereason"></a> msdyn_lastsessionoutcomereason
+
+|Property|Value|
+|---|---|
+|Description|**Represents the reason for the last bot session outcome.**|
+|DisplayName|**Last Bot Session Outcome Reason**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_lastsessionoutcomereason`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|419580000|
+|GlobalChoiceName|`msdyn_lastsessionoutcomereason`|
+
+#### msdyn_lastsessionoutcomereason Choices/Options
+
+|Value|Label|
+|---|---|
+|419580000|**No Error**|
+|419580001|**User Error**|
+|419580002|**System Error**|
+|419580003|**User Exit**|
+|419580004|**Agent Transfer Without Error**|
+|419580005|**Agent Transfer Requested By User**|
+|419580006|**Resolved**|
+|419580007|**Agent Transfer Configured By Author**|
+|419580008|**Agent Transfer From Question Max Attempts**|
 
 ### <a name="BKMK_msdyn_Name"></a> msdyn_Name
 
