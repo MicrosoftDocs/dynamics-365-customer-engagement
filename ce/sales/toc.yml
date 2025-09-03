@@ -177,8 +177,6 @@ items:
                     href: copilot-consumption-based-billing.md
                   - name: Sales Qualification Agent FAQ
                     href: sales-qualification-agent-faq.md
-                  - name: Testing preparation and recommendations
-                    href: testing-guidance-sales-qualification-agent.md
                   - name: Test the Sales Qualification Agent
                     href: test-sales-qualification-agent-research-engage.md
                   - name: Custom criteria examples
