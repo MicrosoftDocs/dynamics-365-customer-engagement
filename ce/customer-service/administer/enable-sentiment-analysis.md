@@ -18,14 +18,13 @@ ms.custom:
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability.md)]
 
+Sentiment analysis provides customer service representatives (service representatives or representatives) and supervisors with real-time insights into customer interactions with service representatives during conversations.
 
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature isn't intended for use in making, and customers shouldn't use it to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws. This responsibility includes laws that relate to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This responsibility also includes the requirement that customers adequately notify end users that their communications with customer service representatives might be monitored, recorded, or stored and, as required by applicable laws, and obtain consent from end users before they use the feature with them. Customers are also encouraged to have a mechanism in place to inform their customer service representatives that their communications with end users may be monitored, recorded, or stored.
 
 > [!NOTE]
-> Supervisor and customer service representatives (service representatives or representatives) sentiment notifications aren't available in Omnichannel for Customer Service on Unified Service Desk.
-
-Sentiment analysis settings in Omnichannel for Customer Service provide service representatives and supervisors with real-time insight regarding how customers interact with service representatives during conversation sessions.
+> Supervisor and service representatives sentiment notifications aren't available in Omnichannel for Customer Service on Unified Service Desk.
 
 ## Sentiment analysis
 
