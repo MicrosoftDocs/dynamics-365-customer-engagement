@@ -1,7 +1,7 @@
 ---
 title: Lock or unlock the price for an order or invoice
 description: Enable or disable price updates for finalized orders or invoices in Sales Hub, ensuring control over pricing changes.
-ms.date: 07/26/2024
+ms.date: 08/22/2025
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -36,7 +36,7 @@ After you've finalized an order or invoice for a specific price, you can lock th
       - The **Prices Locked** field in the order or invoice is set to **Yes**.
       - The **Price Per Unit** field is locked for all the products in the order or invoice and is disabled for editing.
       - You won't be able to add write-in products to the order or invoice as you need to specify the price for write-in products.
-      - Though you can change the price list of the order or invoice, the prices of the products are not updated based on that price list.
+      - Though you can change the price list of the order or invoice, the prices of the products aren't updated based on that price list.
       - You can continue to add products to the quote at the default price, but you won't be able to edit the price.  
 4. To unlock prices and use current pricing, on the command bar, select the More Commands icon :::image type="icon" source="media/more-commands-icon.png" alt-text="Screenshot of More Commands icon" border="false":::, and then select **Use Current Pricing**.
 
