@@ -43,7 +43,8 @@ Ensure that the following prerequisites are met:
 - You have admin permissions in Dynamics 365 Sales.  
 - You have a Copilot Studio license. Learn more in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).  
 - You turned on the modern UI for the Sales Hub app. Learn more in [Enabling the modern look for my app and removing the toggle](/power-apps/user/modern-fluent-design#enabling-the-modern-look-for-my-app-and-removing-the-toggle).  
-- You turned on AI prompts feature in Power Platform and Copilot Studio. Learn more in [Enable AI prompts in Power Platform and Copilot Studio](/ai-builder/administer#enable-or-disable-ai-prompts-in-power-platform-and-copilot-studio). 
+- You turned on AI prompts feature in Power Platform and Copilot Studio. Learn more in [Enable AI prompts in Power Platform and Copilot Studio](/ai-builder/administer#enable-or-disable-ai-prompts-in-power-platform-and-copilot-studio).  
+- You enabled Direct Line channels in Copilot Studio. Learn more in [Configure web and Direct Line channel security](/microsoft-copilot-studio/configure-web-security).
 - You modified Data policies to allow the following connectors:
 
     | Connector | Why is it required? |

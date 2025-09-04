@@ -56,6 +56,7 @@ As the agent consumes capacity, it's important to plan and configure it to handl
   - Sales Agent Profile (prvReadmsdyn_salesagentprofile)
 
 - Turn on AI prompts feature in Power Platform and Copilot Studio. Learn more in [Enable AI prompts in Power Platform and Copilot Studio](/ai-builder/administer#enable-or-disable-ai-prompts-in-power-platform-and-copilot-studio).
+- You enabled Direct Line channels in Copilot Studio. Learn more in [Configure web and Direct Line channel security](/microsoft-copilot-studio/configure-web-security).
 
 ### Configure server-side synchronization
 
