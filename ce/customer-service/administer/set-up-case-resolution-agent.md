@@ -69,7 +69,7 @@ The Case Management Agent triggers the case resolution process automatically bas
 
 - For an inbound email with the **Regarding** field set to an existing case.
 - For a conversation linked to a case. When a conversation is closed and a transcript is created with the **Regarding** field set to a case.
-- When a service representative updates the **Regarding** field on an email to a case.
+- When the **Regarding** field on an email is updated to a case.
 - Call a custom API to invoke the case resolution process. InvokeCPA provides a customization point that can be called by customer plugins, Power Platform flows, or external systems to trigger case resolution processing based on customer's specific business logic or events.
 
 ## Runtime experience
