@@ -83,6 +83,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 
 - [msdyn_bookingalert_service_serviceid](#BKMK_msdyn_bookingalert_service_serviceid)
 - [msdyn_ocoutboundmessage_service_serviceid](#BKMK_msdyn_ocoutboundmessage_service_serviceid)
+- [msdyn_ocvoicemail_service_serviceid](#BKMK_msdyn_ocvoicemail_service_serviceid)
 
 ### <a name="BKMK_msdyn_bookingalert_service_serviceid"></a> msdyn_bookingalert_service_serviceid
 
@@ -106,6 +107,18 @@ Many-To-One Relationship: [msdyn_ocoutboundmessage msdyn_ocoutboundmessage_servi
 |ReferencingAttribute|`serviceid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_ocoutboundmessage_service_serviceid`|
 |IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: `CRMActivity.RetrieveByObject`<br />ViewId: `00000000-0000-0000-00aa-000010001903`|
+
+### <a name="BKMK_msdyn_ocvoicemail_service_serviceid"></a> msdyn_ocvoicemail_service_serviceid
+
+Many-To-One Relationship: [msdyn_ocvoicemail msdyn_ocvoicemail_service_serviceid](msdyn_ocvoicemail.md#BKMK_msdyn_ocvoicemail_service_serviceid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`serviceid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocvoicemail_service_serviceid`|
+|IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: `CRMActivity.RetrieveByObject`<br />ViewId: `00000000-0000-0000-00aa-000010001903`|
 
 

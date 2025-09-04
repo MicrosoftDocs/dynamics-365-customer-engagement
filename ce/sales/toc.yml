@@ -322,6 +322,14 @@ items:
                 href: manage-excel-templates.md
               - name: Create email templates
                 href: /powerapps/user/email-template-create?context=/dynamics365/context/sales-context
+          - name: Work with hierarchy visualization (preview)
+            items:
+              - name: Overview of hierarchy visualization
+                href: hierarchy-visualization.md
+              - name: Create and activate a hierarchy visualization
+                href: create-activate-hierarchy-visualizations.md
+              - name: Manage hierarchy visualization
+                href: manage-hierarchy-visualizations.md
           - name: Configure email engagement
             href: configure-email-engagement.md
           - name: Enable auto capture
@@ -360,16 +368,6 @@ items:
             href: enable-email-validation.md
           - name: Enable email validation for custom forms
             href: enable-email-validation-custom-forms.md
-          - name: Sync LinkedIn leads
-            items:
-              - name: Sync LinkedIn leads
-                href: linkedin/sync-linkedin-leads.md
-              - name: Install the LinkedIn Lead Gen solution
-                href: linkedin/install-linkedin-connector.md
-              - name: Create matching strategy to update existing LinkedIn leads
-                href: linkedin/configure-matching-strategy.md
-              - name: Connect Dynamics 365 Connector with LinkedIn
-                href: linkedin/connect-dynamics-365-linkedin.md
           - name: Predictive lead scoring
             items:
               - name: Configure predictive lead scoring
@@ -957,6 +955,12 @@ items:
             items:
               - name: Use auto capture
                 href: free-auto-capture.md
+          - name: Work with hierarchy visualization (preview)
+            items:
+              - name: Overview of hierarchy visualization
+                href: hierarchy-visualization.md
+              - name: View and understand hierarchy visualization
+                href: view-hierarchy-visualizations.md
           - name: How notes analysis assists you with suggestion
             href: notes-analysis.md
           - name: Notes analysis and auto capture FAQs
@@ -989,12 +993,6 @@ items:
             href: re-open-lead-sales.md
           - name: Nurture sales from lead to order
             href: nurture-sales-from-lead-order-sales.md
-          - name: Sync LinkedIn leads
-            items:
-              - name: Sync LinkedIn leads
-                href: linkedin/sync-linkedin-leads.md
-              - name: Review and analyze leads
-                href: linkedin/review-leads.md
           - name: Lead management FAQs
             href: faq-lead.md
       - name: Opportunity management

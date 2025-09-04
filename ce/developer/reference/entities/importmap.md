@@ -128,881 +128,640 @@ Changes from [TargetEntity (Microsoft Dataverse)](/power-apps/developer/data-pla
 |9946|**Topic History**|
 |9948|**Text Analytics Topic**|
 |9954|**Knowledge Article Incident**|
-|10088|**Credential**|
-|10089|**Desktop Flow Module**|
-|10090|**Flow Capacity Assignment**|
-|10091|**Flow Credential Application**|
-|10092|**Flow Event**|
-|10093|**Flow Machine**|
-|10094|**Flow Machine Group**|
-|10095|**Flow Machine Image**|
-|10096|**Flow Machine Image Version**|
-|10097|**Flow Machine Network**|
-|10098|**ProcessStageParameter**|
-|10099|**Work Queue**|
-|10100|**Work Queue Item**|
-|10101|**Desktop Flow Binary**|
-|10102|**Flow Log**|
-|10103|**Flow Run**|
-|10104|**Action Approval Model**|
-|10105|**Approval**|
-|10106|**Approval Request**|
-|10107|**Approval Response**|
-|10108|**Approval Step**|
-|10109|**Await All Action Approval Model**|
-|10110|**Await All Approval Model**|
-|10111|**Basic Approval Model Data**|
-|10112|**Flow Approval**|
-|10121|**Connection Reference**|
-|10122|**DVFileSearch**|
-|10123|**DVFileSearchAttribute**|
-|10124|**DVFileSearchEntity**|
-|10125|**DVTableSearch**|
-|10126|**DVTableSearchAttribute**|
-|10127|**DVTableSearchEntity**|
-|10128|**AICopilot**|
-|10129|**AIPluginAuth**|
-|10130|**AI Plugin Conversation Starter**|
-|10131|**AI Plugin Conversation Starter Mapping**|
-|10132|**AI Plugin Governance**|
-|10133|**AI Plugin Governance Extended**|
-|10134|**AIPluginOperationResponseTemplate**|
-|10135|**AIPluginTitle**|
-|10136|**SideloadedAIPlugin**|
-|10137|**AIPlugin**|
-|10138|**AIPluginExternalSchema**|
-|10139|**AIPluginExternalSchemaProperty**|
-|10140|**AIPluginInstance**|
-|10141|**AIPluginOperation**|
-|10142|**AIPluginOperationParameter**|
-|10143|**AIPluginUserSetting**|
-|10145|**AI Event**|
-|10146|**AI Builder Feedback Loop**|
-|10147|**AI Form Processing Document**|
-|10148|**AI Object Detection Image**|
-|10149|**AI Object Detection Label**|
-|10150|**AI Object Detection Bounding Box**|
-|10151|**AI Object Detection Image Mapping**|
-|10153|**AI Builder Dataset**|
-|10154|**AI Builder Dataset File**|
-|10155|**AI Builder Dataset Record**|
-|10156|**AI Builder Datasets Container**|
-|10157|**AI Builder File**|
-|10158|**AI Builder File Attached Data**|
-|10159|**Help Page**|
-|10160|**Tour**|
-|10161|**BotContent**|
-|10162|**ConversationTranscript**|
-|10163|**Copilot**|
-|10164|**Copilot component**|
-|10165|**Copilot component collection**|
-|10176|**Comment**|
-|10177|**Governance Configuration**|
-|10178|**Fabric AISkill**|
-|10179|**App Insights Metadata**|
-|10180|**Dataflow Connection Reference**|
-|10181|**Schedule**|
-|10182|**Dataflow Template**|
-|10183|**Dataflow DatalakeFolder**|
-|10184|**Data Movement Service Request**|
-|10185|**Data Movement Service Request Status**|
-|10186|**DMS Sync Request**|
-|10187|**DMS Sync Status**|
-|10188|**Knowledge Asset Configuration**|
-|10189|**Module Run Detail**|
-|10190|**QnA**|
-|10191|**Salesforce Structured Object**|
-|10192|**Salesforce Structured QnA Config**|
-|10193|**Workflow Action Status**|
-|10194|**FederatedKnowledgeConfiguration**|
-|10195|**FederatedKnowledgeEntityConfiguration**|
-|10196|**Form Mapping**|
-|10197|**Copilot Interactions**|
-|10198|**PDF Setting**|
-|10199|**Activity File Attachment**|
-|10200|**Teams chat**|
-|10201|**Service Configuration**|
-|10202|**SLA KPI**|
-|10203|**Integrated search provider**|
-|10204|**Knowledge Management Setting**|
-|10205|**Knowledge Federated Article**|
-|10206|**Knowledge Federated Article Incident**|
-|10207|**Search provider**|
-|10208|**Knowledge Article Image**|
-|10209|**Knowledge Configuration**|
-|10210|**Knowledge Interaction Insight**|
-|10211|**Knowledge Search Insight**|
-|10212|**Favorite knowledge article**|
-|10213|**Knowledge article language setting**|
-|10214|**Knowledge Article Attachment**|
-|10215|**Knowledge personalization**|
-|10216|**Knowledge Article Template**|
-|10217|**Knowledge search personal filter config**|
-|10218|**Knowledge search filter**|
-|10220|**SupportUserTable**|
-|10221|**FxExpression**|
-|10222|**Function**|
-|10223|**Plug-in**|
-|10224|**PowerfxRule**|
-|10225|**Planner Business Scenario**|
-|10226|**Planner Sync Action**|
-|10227|**Ms Graph Resource To Subscription**|
-|10228|**Virtual Entity  Metadata**|
-|10229|**Background Operation**|
-|10230|**Report Parameter**|
-|10231|**MobileOfflineProfileExtension**|
-|10232|**MobileOfflineProfileItemFilter**|
-|10233|**TeamMobileOfflineProfileMembership**|
-|10234|**UserMobileOfflineProfileMembership**|
-|10235|**OrganizationDataSyncSubscription**|
-|10236|**OrganizationDataSyncSubscriptionEntity**|
-|10237|**OrganizationDataSyncSubscriptionFnoTable**|
-|10238|**OrganizationDataSyncFnoState**|
-|10239|**OrganizationDataSyncState**|
-|10240|**ArchiveCleanupInfo**|
-|10241|**ArchiveCleanupOperation**|
-|10242|**BulkArchiveConfig**|
-|10243|**BulkArchiveFailureDetail**|
-|10244|**BulkArchiveOperation**|
-|10245|**BulkArchiveOperationDetail**|
-|10246|**EnableArchivalRequest**|
-|10247|**MetadataForArchival**|
-|10248|**ReconciliationEntityInfo**|
-|10249|**ReconciliationEntityStepInfo**|
-|10250|**ReconciliationInfo**|
-|10251|**RetentionCleanupInfo**|
-|10252|**RetentionCleanupOperation**|
-|10253|**RetentionConfig**|
-|10254|**RetentionFailureDetail**|
-|10255|**RetentionOperation**|
-|10256|**RetentionOperationDetail**|
-|10257|**RetentionSuccessDetail**|
-|10258|**CertificateCredential**|
-|10259|**Notification**|
-|10260|**User Rating**|
-|10261|**Mobile App**|
-|10262|**Insights Store Data Source**|
-|10263|**Insights Store Virtual Entity**|
-|10264|**RoleEditorLayout**|
-|10265|**Deleted Record Reference**|
-|10266|**Restore Deleted Records Configuration**|
-|10267|**App Action**|
-|10268|**App Action Migration**|
-|10269|**App Action Rule**|
-|10272|**Card**|
-|10273|**Card State Item**|
-|10276|**Entity link chat configuration**|
-|10277|**SharePoint Managed Identity**|
-|10278|**AI Insight Card**|
-|10279|**AI Skill Config**|
-|10280|**Rich Text Attachment**|
-|10281|**Custom Control Extended Setting**|
-|10282|**Timeline Pin**|
-|10283|**Virtual Connector Data Source**|
-|10284|**Virtual Table Column Candidate**|
-|10286|**PM Analysis History**|
-|10287|**PM Business Rule Automation Config**|
-|10288|**PM Calendar**|
-|10289|**PM Calendar Version**|
-|10290|**PM Inferred Task**|
-|10291|**PM Process Extended Metadata Version**|
-|10292|**PM Process Template**|
-|10293|**PM Process User Settings**|
-|10294|**PM Process Version**|
-|10295|**PM Recording**|
-|10296|**PM Simulation**|
-|10297|**PM Template**|
-|10298|**PM View**|
-|10299|**Analysis Component**|
-|10300|**Analysis Job**|
-|10301|**Analysis Override**|
-|10302|**Analysis Result**|
-|10303|**Analysis Result Detail**|
-|10304|**Solution Health Rule**|
-|10305|**Solution Health Rule Argument**|
-|10306|**Solution Health Rule Set**|
-|10307|**Power BI Dataset**|
-|10308|**powerbidatasetapdx**|
-|10309|**Power BI Mashup Parameter**|
-|10310|**Power BI Report**|
-|10311|**powerbireportapdx**|
-|10312|**File Upload**|
-|10313|**MainFewShot**|
-|10314|**MakerFewShot**|
-|10315|**SearchAttributeSettings**|
-|10316|**SearchCustomAnalyzer**|
-|10317|**SearchRelationshipSettings**|
-|10318|**SearchResultsCache**|
-|10319|**Search Telemetry**|
-|10320|**ViewAsExampleQuestion**|
-|10321|**CopilotExampleQuestion**|
-|10322|**CopilotGlossaryTerm**|
-|10323|**CopilotSynonyms**|
-|10324|**Site Component**|
-|10325|**Site**|
-|10326|**Site Language**|
-|10327|**Power Pages Site Published**|
-|10330|**External Identity**|
-|10331|**Invitation**|
-|10332|**Invite Redemption**|
-|10333|**Portal Comment**|
-|10334|**Setting**|
-|10335|**Multistep Form Session**|
-|10339|**Ad Placement**|
-|10340|**Column Permission**|
-|10341|**Column Permission Profile**|
-|10342|**Content Snippet**|
-|10343|**Basic Form**|
-|10344|**Basic Form Metadata**|
-|10345|**List**|
-|10346|**Table Permission**|
-|10347|**Page Template**|
-|10348|**Poll Placement**|
-|10349|**Power Pages Core Entity DS**|
-|10350|**Publishing State**|
-|10351|**Publishing State Transition Rule**|
-|10352|**Redirect**|
-|10353|**Shortcut**|
-|10354|**Site Marker**|
-|10355|**Site Setting**|
-|10356|**Web File**|
-|10357|**Multistep Form**|
-|10358|**Multistep Form Metadata**|
-|10359|**Form Step**|
-|10360|**Web Link**|
-|10361|**Web Link Set**|
-|10362|**Web Page**|
-|10363|**Web Page Access Control Rule**|
-|10364|**Web Role**|
-|10365|**Website**|
-|10366|**Website Access**|
-|10367|**Website Language**|
-|10368|**Web Template**|
-|10375|**Power Pages Scan Report**|
-|10376|**Power Pages Log**|
-|10377|**PowerPagesManagedIdentity**|
-|10378|**Power Pages Site AI Feedback**|
-|10383|**Catalog Submission Files**|
-|10384|**Package Submission Store**|
-|10385|**processor registration**|
-|10386|**signal**|
-|10387|**signal registration**|
-|10388|**trait**|
-|10389|**trait registration**|
-|10390|**List Operation**|
-|10391|**Marketing Form Display Attributes**|
-|10392|**Database Version**|
-|10393|**Upgrade Run**|
-|10394|**Upgrade Step**|
-|10395|**Upgrade Version**|
-|10396|**Activity monitor**|
-|10397|**Originating Queue Mapping**|
-|10398|**Unified Routing Setup Tracker**|
-|10399|**Available Times**|
-|10400|**Available Times Data Source**|
-|10401|**resource group data source**|
-|10402|**Virtual Resource Group Resource**|
-|10403|**Migration tracker**|
-|10404|**Asset Category Template Association**|
-|10405|**Asset Template Association**|
-|10406|**Customer Asset**|
-|10409|**Customer Asset Attachment**|
-|10410|**Customer Asset Category**|
-|10411|**Functional Location**|
-|10412|**Functional Location Type**|
-|10413|**Location Template Association**|
-|10414|**Functional Location Type Template Association**|
-|10415|**Property Definition**|
-|10416|**Property Asset Association**|
-|10417|**Property Location Association**|
-|10418|**Property Log**|
-|10419|**Property Template Association**|
-|10420|**Template For Properties**|
-|10421|**Warranty**|
-|10428|**IoT Alert**|
-|10429|**IoT Device**|
-|10430|**IoT Device Category**|
-|10431|**IoT Device Command**|
-|10432|**IoT Device Command Definition**|
-|10433|**IoT Device Data History**|
-|10434|**IoT Device Property**|
-|10435|**IoT Device Registration History**|
-|10436|**IoT Device Visualization Configuration**|
-|10437|**IoT Field Mapping**|
-|10438|**IoT Property Definition**|
-|10439|**IoT Provider**|
-|10440|**IoT Provider Instance**|
-|10441|**IoT Settings**|
-|10444|**IoT Alert to Case Process**|
-|10446|**Playbook Callable Context**|
-|10447|**Playbook activity**|
-|10448|**Playbook activity attribute**|
-|10449|**[DEPRECATED] Playbook category**|
-|10450|**Playbook**|
-|10451|**[DEPRECATED] Playbook template**|
-|10453|**admin_settings_entity**|
-|10454|**Collab Space Team Association**|
-|10455|**CRM Connection**|
-|10456|**External CRM**|
-|10457|**External Record**|
-|10458|**Tagged Record**|
-|10459|**Copilot for Sales customer list**|
-|10460|**msdyn_vivaentitysetting**|
-|10461|**msdyn_vivaorgextensioncred**|
-|10462|**msdyn_vivaorgsetting**|
-|10463|**msdyn_vivausersetting**|
-|10464|**Sales Copilot Insight**|
-|10465|**Org level settings for Sales Copilot apps**|
-|10466|**Sales Copilot User Setting**|
-|10467|**App profile**|
-|10468|**Application Extension**|
-|10469|**Application Tab Template**|
-|10470|**App profile role mapping**|
-|10471|**Notification Field**|
-|10472|**Notification Template**|
-|10473|**Session Template**|
-|10474|**Template Parameter**|
-|10480|**Channel Integration Framework v1.0 Provider**|
-|10481|**Notification Field (Deprecated)**|
-|10482|**Notification Template (Deprecated)**|
-|10483|**App Parameter Definition (Deprecated)**|
-|10484|**Session Templates (Deprecated)**|
-|10485|**Application Tab Template (Deprecated)**|
-|10486|**Parameter (Deprecated)**|
-|10487|**Template Tag (Deprecated)**|
-|10488|**Application Type (Deprecated)**|
-|10497|**Channel Integration Framework v2.0 Provider**|
-|10499|**Conversation Data (Deprecated)**|
-|10500|**KPI Event Data**|
-|10501|**KPI Event Definition**|
-|10502|**Session Data (Deprecated)**|
-|10503|**Session Participant Data (Deprecated)**|
-|10504|**Channel Definition**|
-|10505|**Channel Definition Consent**|
-|10506|**Channel Definition Locale**|
-|10507|**Channel Instance**|
-|10508|**Channel Instance Account**|
-|10509|**Channel Message Attachment**|
-|10510|**Channel Message Context Part**|
-|10511|**Channel Message Part**|
-|10512|**Consuming Application**|
-|10513|**msdyn_DefExtendedChannelInstance**|
-|10514|**msdyn_DefExtendedChannelInstanceAccount**|
-|10515|**Productivity pane configuration**|
-|10516|**Pane tab configuration**|
-|10517|**Pane tool configuration**|
-|10519|**Script**|
-|10520|**Script step**|
-|10522|**Action Input Parameter**|
-|10523|**Action Output Parameter**|
-|10524|**Macro Action Template**|
-|10525|**Macro Solution Configuration**|
-|10526|**Macro Connector**|
-|10527|**Macro Run History**|
-|10528|**Parameter definition**|
-|10531|**Adaptive Card Configuration**|
-|10532|**Smartassist configuration**|
-|10534|**Read Tracker**|
-|10535|**Read tracking enabled information**|
-|10536|**Microsoft Teams Graph resource Entity**|
-|10537|**msdyn_msteamssetting**|
-|10538|**msdyn_msteamssettingsv2**|
-|10539|**Microsoft Teams Collaboration entity**|
-|10540|**Teams Dialer Admin settings**|
-|10541|**Teams Contact Suggestion by AI**|
-|10542|**Contact suggestion rule**|
-|10543|**Contact suggestion ruleset**|
-|10544|**Microsoft Teams chat association entity**|
-|10545|**Microsoft Teams chat suggestion**|
-|10546|**Microsoft Orgchart node entity**|
-|10547|**Forecast Manual Adjustment History**|
-|10548|**Distributed Lock**|
-|10549|**Entity Delta Change**|
-|10550|**File Upload Status Tracker**|
-|10551|**Forecast**|
-|10552|**Forecast Configuration**|
-|10553|**Forecast definition**|
-|10554|**Forecasting Cache**|
-|10555|**Forecast Insights**|
-|10556|**Forecast**|
-|10557|**Forecast Prediction Data**|
-|10558|**Forecast Prediction Status**|
-|10559|**Forecast recurrence**|
-|10560|**Recompute Tracker**|
-|10561|**Forecast Recurrence**|
-|10562|**ShareAs Configuration**|
-|10563|**Customer email communication**|
-|10564|**GDPRData**|
-|10565|**ODOSFeatureMetadata**|
-|10566|**ODOSMetadata**|
-|10567|**Recurring Sales Action**|
-|10568|**Recurring Sales Action V2**|
-|10569|**msdyn_relationshipinsightsunifiedconfig**|
-|10570|**siconfig**|
-|10571|**SI Key Value Config**|
-|10572|**Usage Metric**|
-|10573|**Action Card Regarding**|
-|10574|**Action Card Role Setting**|
-|10575|**EntityRankingRule**|
-|10576|**flowcardtype**|
-|10577|**salesinsightssettings**|
-|10578|**Action Card Usage**|
-|10579|**Action Card Usage Aggregation**|
-|10580|**Auto Capture Rule**|
-|10581|**Auto Capture Settings**|
-|10582|**UntrackedAppointment**|
-|10583|**Suggested Activity**|
-|10584|**Suggested Activity Data Source**|
-|10585|**Suggested Contact**|
-|10586|**Suggested Contacts Data Source**|
-|10587|**Notes analysis Config**|
-|10588|**icebreakersconfig**|
-|10589|**dealmanageraccess**|
-|10590|**Deal manager settings**|
-|10591|**Account KPI Item**|
-|10592|**Activity Analysis CleanUp State**|
-|10593|**Relationship Analytics Config**|
-|10594|**Contact KPI Item**|
-|10595|**Daily Kpis for account**|
-|10596|**Daily kpis for contact**|
-|10597|**Daily kpis for lead**|
-|10598|**Daily kpis for Opportunity**|
-|10599|**Lead KPI Item**|
-|10600|**Most Contacted**|
-|10601|**Most Contacted By**|
-|10602|**Opportunity KPI Item**|
-|10603|**Relationship Analytics Metadata**|
-|10604|**Similar entities feature importance**|
-|10605|**wkwcolleaguesforcompany**|
-|10606|**wkwcolleaguesforcontact**|
-|10607|**wkwconfig**|
-|10608|**Attribute Influence Statistics**|
-|10609|**Prediction Computation Operation**|
-|10610|**Prediction Model Status**|
-|10611|**Prediction Scheduled Operation**|
-|10612|**Predictive Model Score**|
-|10613|**Predictive Score**|
-|10614|**Predictive Scoring Sync Status**|
-|10615|**Real Time Scoring**|
-|10616|**Real Time Scoring Operation**|
-|10617|**Submodel Definition**|
-|10618|**Time spent in BPF**|
-|10619|**Training Result**|
-|10620|**OpportunityModelConfig**|
-|10621|**LeadModelConfig**|
-|10622|**ModelPreviewStatus**|
-|10623|**Profile Album**|
-|10624|**Post Configuration**|
-|10625|**Post Rule Configuration**|
-|10626|**Wall View**|
-|10627|**Filter**|
-|10628|**Customer Voice alert**|
-|10629|**Customer Voice alert rule**|
-|10630|**Customer Voice survey email template**|
-|10631|**Customer Voice file response**|
-|10632|**Customer Voice localized survey email template**|
-|10633|**Customer Voice project**|
-|10634|**Customer Voice survey question**|
-|10635|**Customer Voice survey question response**|
-|10636|**Customer Voice satisfaction metric**|
-|10637|**Customer Voice survey**|
-|10638|**Customer Voice survey invite**|
-|10639|**Customer Voice survey reminder**|
-|10640|**Customer Voice survey response**|
-|10641|**Customer Voice unsubscribed recipient**|
-|10642|**Customer Service Key Value Configuration**|
-|10643|**AddToCalendar style**|
-|10644|**basestyle**|
-|10645|**Button style**|
-|10646|**Code style**|
-|10647|**Column style**|
-|10648|**Content Block**|
-|10649|**Divider style**|
-|10650|**General styles**|
-|10651|**imagestyle**|
-|10652|**Layout Style**|
-|10653|**QR code style**|
-|10654|**Text style**|
-|10655|**Video style**|
-|10656|**App state**|
-|10657|**CSAdminConfig**|
-|10658|**Custom API Ruleset Configuration**|
-|10659|**Decision contract**|
-|10660|**Decision rule set**|
-|10661|**Rulesetentitymapping**|
-|10662|**Routing diagnostic item**|
-|10663|**Routing diagnostic**|
-|10664|**Template Rule Set**|
-|10665|**Inbox card configuration**|
-|10666|**Inbox Configuration**|
-|10667|**Inbox Entity Configuration**|
-|10668|**App Profile Copilot Configuration**|
-|10669|**Swarm**|
-|10670|**Swarm participant**|
-|10671|**Swarm participant rule**|
-|10672|**Swarm role**|
-|10673|**Swarm skill**|
-|10674|**Swarm template**|
-|10675|**Autonomous case creation and update rules**|
-|10676|**Entity Attachment**|
-|10677|**Time Tracker**|
-|10678|**Customer feedback survey**|
-|10679|**Customer feedback survey invite**|
-|10680|**Customer feedback survey response**|
-|10681|**msdyn_surveyconfig**|
-|10682|**Survey setting**|
-|10683|**Entity Attribute Prediction Rule**|
-|10684|**Email Sentiment**|
-|10685|**Master Entity Routing Configuration**|
-|10686|**Routing Rule Set Setting**|
-|10687|**Assignment Configuration**|
-|10688|**Assignment Configuration Step**|
-|10689|**Capacity Profile**|
-|10690|**Overflow Action Config**|
-|10691|**Preferred Agent**|
-|10692|**Preferred Agent Customer Identity**|
-|10693|**Preferred Agent Routed Entity**|
-|10694|**Routing configuration**|
-|10695|**Routing configuration step**|
-|10696|**Bot Channel Registration**|
-|10697|**Channel Configuration**|
-|10698|**Channel State Configuration**|
-|10699|**Provisioning State**|
-|10700|**AdminAppState**|
-|10701|**Agent Status history**|
-|10702|**Power BI Configuration**|
-|10703|**Authentication Settings**|
-|10704|**Auth Settings Entry**|
-|10705|**Quick reply**|
-|10706|**Entity Routing Context**|
-|10707|**Channel Capability**|
-|10708|**Conversation Action**|
-|10709|**Conversation Action Locale**|
-|10710|**Conversation Message Block**|
-|10711|**DeletedConversation**|
-|10712|**Deprecated Workstream Entity Configuration**|
-|10713|**Entity**|
-|10714|**Ongoing conversation (Deprecated)**|
-|10715|**Live work item event**|
-|10716|**Work Stream**|
-|10717|**Masking Rule**|
-|10718|**Auto block rule**|
-|10719|**Bot Channel Registration Secret**|
-|10720|**Omnichannel channel api conversation privilege**|
-|10721|**Omnichannel channel api message privilege**|
-|10722|**Channel api method mapping**|
-|10723|**External context**|
-|10724|**Flagged spam**|
-|10725|**Language**|
-|10726|**Conversation**|
-|10729|**Context item value**|
-|10730|**Live Work Item Participant (Deprecated)**|
-|10731|**Conversation Sentiment**|
-|10732|**Context variable**|
-|10733|**Localization**|
-|10734|**OC Payment Profile**|
-|10735|**Recording**|
-|10736|**Omnichannel Request**|
-|10737|**Rich message**|
-|10738|**Rich message map**|
-|10739|**Rule Item**|
-|10740|**Sentiment daily topic**|
-|10741|**Sentiment daily topic keyword**|
-|10742|**Sentiment daily topic trending**|
-|10743|**Session**|
-|10744|**Session Participant Event**|
-|10745|**Session Sentiment**|
-|10746|**Message**|
-|10747|**Tag**|
-|10748|**Geo Location Provider**|
-|10749|**Omnichannel Configuration**|
-|10750|**Omnichannel Personalization**|
-|10751|**Omnichannel Queue (Deprecated)**|
-|10752|**Omnichannel Sync Config**|
-|10753|**Operating Hour**|
-|10754|**Personal quick reply**|
-|10755|**Personal sound setting**|
-|10756|**Persona Security Role Mapping**|
-|10757|**Presence**|
-|10758|**Provider**|
-|10759|**RoutingRequest**|
-|10760|**Search Configuration**|
-|10761|**Sentiment analysis**|
-|10762|**Session event**|
-|10763|**Session participant**|
-|10764|**Audio File**|
-|10765|**Sound notification setting**|
-|10766|**Transcript**|
-|10767|**UR notification template**|
-|10768|**UR Notification Template Mapping**|
-|10769|**User settings**|
-|10770|**Self service**|
-|10777|**Agent capacity update history**|
-|10778|**Bookable Resource Capacity Profile**|
-|10779|**Work stream capacity profile**|
-|10780|**Conversation Capacity profile**|
-|10781|**Agent Capacity Profile Unit**|
-|10782|**Agent Channel State**|
-|10783|**Agent Status**|
-|10784|**Agent Group**|
-|10785|**Agent Group Membership**|
-|10786|**Conversation Characteristic**|
-|10787|**Session Characteristic**|
-|10788|**Skill Attachment Rule**|
-|10789|**Attach Skill**|
-|10790|**Model training details**|
-|10791|**Training data import configuration**|
-|10792|**Characteristic mapping**|
-|10793|**Training record**|
-|10794|**Skill finder model**|
-|10795|**Effort estimate**|
-|10796|**Effort estimation model**|
-|10797|**Effort model training details**|
-|10798|**ConversationInsight**|
-|10799|**Active ICD Extension**|
-|10800|**Entity-Workstream Map**|
-|10801|**ICD Extension**|
-|10802|**Lock Status**|
-|10803|**Omnichannel agent assignment custom api privilege**|
-|10804|**Conversation Action Item**|
-|10805|**Conversation Aggregated Insights**|
-|10806|**Comment**|
-|10807|**Conversation Participant Insights**|
-|10808|**Conversation Participant Sentiment**|
-|10809|**Conversation Question**|
-|10810|**Conversation Segment Sentiment**|
-|10811|**Conversation Sentiment**|
-|10812|**Conversation Signal**|
-|10813|**Conversation Subject**|
-|10814|**Conversation Summary Suggestion**|
-|10815|**Conversation System Tag**|
-|10816|**Conversation Tag**|
-|10817|**Recording (Deprecated)**|
-|10818|**SCI Conversation**|
-|10819|**Custom Email Highlight**|
-|10820|**Custom Highlight**|
-|10821|**Custom Publisher**|
-|10822|**EnvironmentSettings**|
-|10823|**UserSettings**|
-|10824|**CatalogEventStatusConfiguration**|
-|10825|**Configuration**|
-|10826|**Trigger**|
-|10827|**Triggers To Sdk Message Processing Steps**|
-|10828|**EventParameterMetadata**|
-|10829|**TrackingContext**|
-|10830|**Marketing feature configuration**|
-|10831|**msdynmkt_experimentv2**|
-|10832|**ACS channel instance**|
-|10833|**ACS channel instance account**|
-|10834|**Infobip channel instance**|
-|10835|**Infobip channel instance account**|
-|10836|**Link mobility channel instance**|
-|10837|**Link mobility channel instance account**|
-|10838|**MockSmsProvider channel instance**|
-|10839|**MockSmsProvider channel instance account**|
-|10840|**TeleSign channel instance**|
-|10841|**TeleSign channel instance account**|
-|10842|**Twilio channel instance**|
-|10843|**Twilio channel instance account**|
-|10844|**Vibes channel instance**|
-|10845|**Vibes channel instance account**|
-|10846|**Predefined Placeholder**|
-|10847|**Metadata Entity Relationship**|
-|10848|**Metadata Item**|
-|10849|**Metadata Store State**|
-|10850|**DigitalSellingActiveTask**|
-|10851|**DigitalSellingCompletedTask**|
-|10852|**Sales Tag**|
-|10853|**Sequence**|
-|10854|**Sequence Stat**|
-|10855|**Sequence Target**|
-|10856|**Sequence Target Step**|
-|10857|**Sequence Template**|
-|10859|**sabackupdiagnostic**|
-|10860|**SABatchRunInstance**|
-|10861|**salesroutingdiagnostic**|
-|10862|**SARunInstance**|
-|10863|**Segment**|
-|10864|**segmentsetting**|
-|10865|**Segment property**|
-|10866|**SegmentsUtil**|
-|10867|**Assignment Rule**|
-|10868|**Seller attribute**|
-|10869|**Seller attribute value**|
-|10870|**Assignment Map**|
-|10871|**Sales Assignment Setting**|
-|10872|**Sales routing run**|
-|10874|**Extended User Setting**|
-|10875|**Sales acceleration insights**|
-|10876|**Sales Acceleration settings**|
-|10877|**Insight**|
-|10878|**Work List Suggestion**|
-|10879|**Work list suggestion source**|
-|10880|**Work List View Configuration**|
-|10881|**Work Queue Record**|
-|10882|**Work Queue Record State**|
-|10883|**Work list user setting**|
-|10884|**WQDataSource**|
-|10885|**Suggestion Assignment Rule**|
-|10886|**Suggestion Principal Object Access**|
-|10887|**Suggestion Seller Priority**|
-|10888|**Data Hygiene Setting Info**|
-|10889|**Duplicate Detection Plugin Run**|
-|10890|**Duplicate Lead Mapping**|
-|10891|**Lead Hygiene Setting**|
-|10892|**Linked Entity Attribute Validity**|
-|10893|**Sales provisioning request**|
-|10894|**SalesOmnichannel Message**|
-|10895|**Text message template**|
-|10896|**Data Analytics Admin Settings (Deprecated)**|
-|10897|**Data Analytics Report**|
-|10898|**Insights**|
-|10899|**Sales acceleration reports**|
-|10901|**Bot Session**|
-|10902|**Automated action rule**|
-|10903|**Automated action rules mapping**|
-|10904|**Representative Copilot Setting**|
-|10905|**Copilot Summarization Setting**|
-|10906|**intent**|
-|10907|**intentattribute**|
-|10908|**intentattributeset**|
-|10909|**intentattribute_entity**|
-|10910|**Intent Config**|
-|10911|**intententity**|
-|10912|**Line of Business**|
-|10913|**msdyn_intentfamily_harvestingconfiguration**|
-|10914|**msdyn_intentfeature_configuration**|
-|10915|**Intent Group Condition**|
-|10916|**msdyn_intentharvesting_batchjobstatus**|
-|10917|**msdyn_intentharvesting_batchjobstatusdetail**|
-|10918|**msdyn_intentharvesting_provisioning_status**|
-|10919|**Intent Solution Map**|
-|10920|**msdyn_intentsolution_mappingconfiguration**|
-|10921|**Case Enrichment**|
-|10922|**Case follow up and closure configuration**|
-|10923|**Case Suggestion**|
-|10924|**Case Suggestion Request Payload**|
-|10925|**Case Suggestions Data Souce**|
-|10926|**User Preference For Copilot**|
-|10927|**Copilot assisted case form fill settings**|
-|10928|**Copilot Interaction**|
-|10929|**Copilot Interaction Data**|
-|10930|**Copilot knowledge interaction**|
-|10931|**Copilot Transcript**|
-|10932|**Copilot Transcript Data**|
-|10933|**KB Enrichment**|
-|10934|**Knowledge Article Suggestion**|
-|10935|**Knowledge Article Suggestion Data Source**|
-|10936|**Next Action**|
-|10937|**Service Copilot Plugin**|
-|10938|**Service Copilot Plugin Action**|
-|10939|**Service Copilot Plugin Role**|
-|10940|**Suggestion Interaction**|
-|10941|**Suggestion request payload**|
-|10942|**Suggestions Model Summary**|
-|10943|**Suggestions Setting**|
-|10944|**Data Analytics User Customized Report**|
-|10945|**Data Analytics Dataset**|
-|10946|**Data Analytics Workspace**|
-|10947|**Report Bookmark**|
-|10948|**Agent Resource Forecasting**|
-|10949|**[Deprecated] Dynamics Customer Service Analytics**|
-|10950|**Case Topic**|
-|10951|**Case Topic Setting**|
-|10952|**Case Topic Summary**|
-|10953|**Case topic Incident mapping**|
-|10954|**Customer Service historical analytics**|
-|10955|**Forecast**|
-|10956|**Knowledge analytics**|
-|10957|**Model Customization analytics**|
-|10958|**Real-time analytics for record routing**|
-|10959|**Forecast Summary and Setting**|
-|10960|**Keywords Description Suggestion Setting**|
-|10961|**Conversation Summary Interaction**|
-|10962|**Conversation Summary Setting**|
-|10963|**Conversation Topic**|
-|10964|**Conversation Topic Setting**|
-|10965|**Conversation Topic Summary**|
-|10966|**Conversation topic Conversation mapping**|
-|10967|**Omnichannel historical analytics**|
-|10968|**Omnichannel voice historical analytics (preview) (Deprecated)**|
-|10969|**Omnichannel Realtime analytics**|
-|10970|**Copilot Analytics**|
-|11143|**LOB Backfill Status**|
-|11144|**Email analytics**|
-|11145|**Sales usage telemetry reports**|
-|11146|**Sales usage reporting**|
-|11147|**Derived insights related entity**|
-|11148|**Entity derived insights**|
-|11149|**msdyn_rawinsight**|
-|11150|**msdyn_rawinsightentitylink**|
-|11151|**Sales Copilot Email Insight**|
-|11152|**Sales Copilot Insight Card State**|
-|11153|**Agent Group Language**|
-|11154|**Agent Group Region**|
-|11155|**Agent Language**|
-|11156|**Agent Region**|
-|11157|**Language Hierarchy**|
-|11158|**Region**|
-|11159|**msdyn_historicalcaseharvestbatch**|
-|11160|**msdyn_historicalcaseharvestrun**|
-|11161|**Knowledge Harvest Job Record**|
-|11162|**Plan**|
-|11163|**Plan Artifact**|
-|11164|**Plan Attachment**|
-|11179|**Sales Copilot Job Status**|
-|11182|**Activity Mapping**|
-|11187|**TextDataRecordsIndexingStatus**|
-|11196|**Template Context Variable**|
-|11197|**Template Variable Batch Operation**|
-|11199|**Case Management Agent for case closure Activity**|
-|11200|**Case Management Agent for case closure Monitoring**|
-|11201|**Data Workspace**|
-|11207|**Entity Cluster Configuration**|
-|11215|**Workflow Metadata**|
-|11223|**Lead Intelligence Insight**|
-|11224|**Lead Intelligence Insight Entity Link**|
-|11225|**Flow Aggregation**|
-|11234|**Business Process**|
-|11235|**Tag**|
-|11236|**Tagged Flow Session**|
-|11237|**Tagged Process**|
-|11238|**Sales Copilot Knowledge Base**|
-|11239|**Data Processing Event**|
-|11240|**FederatedKnowledgeMetadataRefresh**|
-|11241|**Product Map**|
-|11242|**Inbox Personalized Configuration**|
-|11243|**Case sentiment settings**|
-|11244|**Session Analytics**|
-|11245|**Work Stream Bot Mapping**|
-|11246|**Conversation disposition code map**|
-|11247|**OC Disposition Code**|
-|11248|**Last Agent**|
-|11249|**Agent Group Matching Criteria**|
-|11250|**Agent Matching Criteria**|
-|11251|**Matching Criteria**|
-|11252|**Conversation Matching Criteria**|
-|11253|**Saving Rule**|
-|11254|**AI Model Catalog**|
-|11255|**AI Evaluation Configuration**|
-|11256|**AI Evaluation Run**|
-|11257|**AI Test Case**|
-|11258|**AI Test Case Document**|
-|11259|**AI Test Case Input**|
-|11260|**AI Test Run**|
-|11261|**AI Test Run Batch**|
-|11262|**UnstructuredFileSearchEntity**|
-|11263|**UnstructuredFileSearchRecord**|
-|11264|**Sensitivity Label**|
-|11265|**Email Address Configuration**|
-|11266|**indexedtrait**|
-|11269|**Approval Process**|
-|11270|**Approval Stage Approval**|
-|11271|**Approval Stage Condition**|
-|11272|**Approval Stage Order**|
-|11273|**FederatedKnowledgeCitation**|
-|11274|**CHT App Profile Configuration**|
-|11275|**Live Conversation Counter Condition**|
+|10439|**List Operation**|
+|10440|**Marketing Form Display Attributes**|
+|10441|**Database Version**|
+|10442|**Upgrade Run**|
+|10443|**Upgrade Step**|
+|10444|**Upgrade Version**|
+|10445|**Activity monitor**|
+|10446|**Originating Queue Mapping**|
+|10448|**Unified Routing Setup Tracker**|
+|10449|**Available Times**|
+|10450|**Available Times Data Source**|
+|10451|**resource group data source**|
+|10452|**Virtual Resource Group Resource**|
+|10453|**Migration tracker**|
+|10454|**Asset Category Template Association**|
+|10455|**Asset Template Association**|
+|10456|**Customer Asset**|
+|10459|**Customer Asset Attachment**|
+|10460|**Customer Asset Category**|
+|10461|**Functional Location**|
+|10462|**Functional Location Type**|
+|10463|**Location Template Association**|
+|10464|**Functional Location Type Template Association**|
+|10465|**Property Definition**|
+|10466|**Property Asset Association**|
+|10467|**Property Location Association**|
+|10468|**Property Log**|
+|10469|**Property Template Association**|
+|10470|**Template For Properties**|
+|10471|**Warranty**|
+|10478|**IoT Alert**|
+|10479|**IoT Device**|
+|10480|**IoT Device Category**|
+|10481|**IoT Device Command**|
+|10482|**IoT Device Command Definition**|
+|10483|**IoT Device Data History**|
+|10484|**IoT Device Property**|
+|10485|**IoT Device Registration History**|
+|10486|**IoT Device Visualization Configuration**|
+|10487|**IoT Field Mapping**|
+|10488|**IoT Property Definition**|
+|10489|**IoT Provider**|
+|10490|**IoT Provider Instance**|
+|10491|**IoT Settings**|
+|10494|**IoT Alert to Case Process**|
+|10496|**Playbook Callable Context**|
+|10497|**Playbook activity**|
+|10498|**Playbook activity attribute**|
+|10499|**[DEPRECATED] Playbook category**|
+|10500|**Playbook**|
+|10501|**[DEPRECATED] Playbook template**|
+|10503|**admin_settings_entity**|
+|10504|**Collab Space Team Association**|
+|10505|**CRM Connection**|
+|10506|**Derived insights related entity**|
+|10507|**Entity derived insights**|
+|10508|**External CRM**|
+|10509|**External Record**|
+|10510|**Lead Intelligence Insight**|
+|10511|**Lead Intelligence Insight Entity Link**|
+|10512|**msdyn_rawinsight**|
+|10513|**msdyn_rawinsightentitylink**|
+|10514|**Tagged Record**|
+|10515|**Copilot for Sales customer list**|
+|10516|**msdyn_vivaentitysetting**|
+|10517|**msdyn_vivaorgextensioncred**|
+|10518|**msdyn_vivaorgsetting**|
+|10519|**msdyn_vivausersetting**|
+|10520|**Activity Mapping**|
+|10521|**Sales Copilot Email Insight**|
+|10522|**Sales Copilot Insight**|
+|10523|**Sales Copilot Insight Card State**|
+|10524|**Sales Copilot Job Status**|
+|10525|**Sales Copilot Knowledge Base**|
+|10526|**Org level settings for Sales Copilot apps**|
+|10527|**Sales Copilot User Setting**|
+|10528|**App profile**|
+|10529|**Application Extension**|
+|10530|**Application Tab Template**|
+|10531|**App profile role mapping**|
+|10532|**Notification Field**|
+|10533|**Notification Template**|
+|10534|**Session Template**|
+|10535|**Template Parameter**|
+|10541|**Channel Integration Framework v1.0 Provider**|
+|10542|**Notification Field (Deprecated)**|
+|10543|**Notification Template (Deprecated)**|
+|10544|**App Parameter Definition (Deprecated)**|
+|10545|**Session Templates (Deprecated)**|
+|10546|**Application Tab Template (Deprecated)**|
+|10547|**Parameter (Deprecated)**|
+|10548|**Template Tag (Deprecated)**|
+|10549|**Application Type (Deprecated)**|
+|10558|**Channel Integration Framework v2.0 Provider**|
+|10560|**Conversation Data (Deprecated)**|
+|10561|**KPI Event Data**|
+|10562|**KPI Event Definition**|
+|10563|**Session Data (Deprecated)**|
+|10564|**Session Participant Data (Deprecated)**|
+|10565|**Channel Definition**|
+|10566|**Channel Definition Consent**|
+|10567|**Channel Definition Locale**|
+|10568|**Channel Instance**|
+|10569|**Channel Instance Account**|
+|10570|**Channel Message Attachment**|
+|10571|**Channel Message Context Part**|
+|10572|**Channel Message Part**|
+|10573|**Consuming Application**|
+|10574|**msdyn_DefExtendedChannelInstance**|
+|10575|**msdyn_DefExtendedChannelInstanceAccount**|
+|10576|**Productivity pane configuration**|
+|10577|**Pane tab configuration**|
+|10578|**Pane tool configuration**|
+|10580|**Script**|
+|10581|**Script step**|
+|10583|**Action Input Parameter**|
+|10584|**Action Output Parameter**|
+|10585|**Macro Action Template**|
+|10586|**Macro Solution Configuration**|
+|10587|**Macro Connector**|
+|10588|**Macro Run History**|
+|10589|**Parameter definition**|
+|10592|**Adaptive Card Configuration**|
+|10593|**Smartassist configuration**|
+|10595|**Read Tracker**|
+|10596|**Read tracking enabled information**|
+|10597|**Microsoft Teams Graph resource Entity**|
+|10598|**msdyn_msteamssetting**|
+|10599|**msdyn_msteamssettingsv2**|
+|10600|**Microsoft Teams Collaboration entity**|
+|10601|**Teams Dialer Admin settings**|
+|10602|**Teams Contact Suggestion by AI**|
+|10603|**Contact suggestion rule**|
+|10604|**Contact suggestion ruleset**|
+|10605|**Microsoft Teams chat association entity**|
+|10606|**Microsoft Teams chat suggestion**|
+|10607|**Microsoft Orgchart node entity**|
+|10608|**Forecast Manual Adjustment History**|
+|10609|**Distributed Lock**|
+|10610|**Entity Delta Change**|
+|10611|**File Upload Status Tracker**|
+|10612|**Forecast**|
+|10613|**Forecast Configuration**|
+|10614|**Forecast definition**|
+|10615|**Forecasting Cache**|
+|10616|**Forecast Insights**|
+|10617|**Forecast**|
+|10618|**Forecast Prediction Data**|
+|10619|**Forecast Prediction Status**|
+|10620|**Forecast recurrence**|
+|10621|**Recompute Tracker**|
+|10622|**Forecast Recurrence**|
+|10623|**ShareAs Configuration**|
+|10624|**Customer email communication**|
+|10625|**GDPRData**|
+|10626|**ODOSFeatureMetadata**|
+|10627|**ODOSMetadata**|
+|10628|**Recurring Sales Action**|
+|10629|**Recurring Sales Action V2**|
+|10630|**msdyn_relationshipinsightsunifiedconfig**|
+|10631|**siconfig**|
+|10632|**SI Key Value Config**|
+|10633|**Usage Metric**|
+|10634|**Action Card Regarding**|
+|10635|**Action Card Role Setting**|
+|10636|**EntityRankingRule**|
+|10637|**flowcardtype**|
+|10638|**salesinsightssettings**|
+|10639|**Action Card Usage**|
+|10640|**Action Card Usage Aggregation**|
+|10641|**Auto Capture Rule**|
+|10642|**Auto Capture Settings**|
+|10643|**UntrackedAppointment**|
+|10644|**Suggested Activity**|
+|10645|**Suggested Activity Data Source**|
+|10646|**Suggested Contact**|
+|10647|**Suggested Contacts Data Source**|
+|10648|**Notes analysis Config**|
+|10649|**icebreakersconfig**|
+|10650|**dealmanageraccess**|
+|10651|**Deal manager settings**|
+|10652|**Account KPI Item**|
+|10653|**Activity Analysis CleanUp State**|
+|10654|**Relationship Analytics Config**|
+|10655|**Contact KPI Item**|
+|10656|**Daily Kpis for account**|
+|10657|**Daily kpis for contact**|
+|10658|**Daily kpis for lead**|
+|10659|**Daily kpis for Opportunity**|
+|10660|**Lead KPI Item**|
+|10661|**Most Contacted**|
+|10662|**Most Contacted By**|
+|10663|**Opportunity KPI Item**|
+|10664|**Relationship Analytics Metadata**|
+|10665|**Similar entities feature importance**|
+|10666|**wkwcolleaguesforcompany**|
+|10667|**wkwcolleaguesforcontact**|
+|10668|**wkwconfig**|
+|10669|**Attribute Influence Statistics**|
+|10670|**Prediction Computation Operation**|
+|10671|**Prediction Model Status**|
+|10672|**Prediction Scheduled Operation**|
+|10673|**Predictive Model Score**|
+|10674|**Predictive Score**|
+|10675|**Predictive Scoring Sync Status**|
+|10676|**Real Time Scoring**|
+|10677|**Real Time Scoring Operation**|
+|10678|**Submodel Definition**|
+|10679|**Time spent in BPF**|
+|10680|**Training Result**|
+|10681|**OpportunityModelConfig**|
+|10682|**LeadModelConfig**|
+|10683|**ModelPreviewStatus**|
+|10684|**Profile Album**|
+|10685|**Post Configuration**|
+|10686|**Post Rule Configuration**|
+|10687|**Wall View**|
+|10688|**Filter**|
+|10689|**Customer Voice alert**|
+|10690|**Customer Voice alert rule**|
+|10691|**Customer Voice survey email template**|
+|10692|**Customer Voice file response**|
+|10693|**Customer Voice localized survey email template**|
+|10694|**Customer Voice project**|
+|10695|**Customer Voice survey question**|
+|10696|**Customer Voice survey question response**|
+|10697|**Customer Voice satisfaction metric**|
+|10698|**Customer Voice survey**|
+|10699|**Customer Voice survey invite**|
+|10700|**Customer Voice survey reminder**|
+|10701|**Customer Voice survey response**|
+|10702|**Customer Voice unsubscribed recipient**|
+|10703|**Customer Service Key Value Configuration**|
+|10704|**AddToCalendar style**|
+|10705|**basestyle**|
+|10706|**Button style**|
+|10707|**Code style**|
+|10708|**Column style**|
+|10709|**Content Block**|
+|10710|**Divider style**|
+|10711|**General styles**|
+|10712|**imagestyle**|
+|10713|**Layout Style**|
+|10714|**QR code style**|
+|10715|**Text style**|
+|10716|**Video style**|
+|10717|**App state**|
+|10718|**CSAdminConfig**|
+|10719|**Product Map**|
+|10720|**Custom API Ruleset Configuration**|
+|10721|**Decision contract**|
+|10722|**Decision rule set**|
+|10723|**Rulesetentitymapping**|
+|10724|**Routing diagnostic item**|
+|10725|**Routing diagnostic**|
+|10726|**Template Context Variable**|
+|10727|**Template Rule Set**|
+|10728|**Template Variable Batch Operation**|
+|10730|**Inbox card configuration**|
+|10731|**Inbox Configuration**|
+|10732|**Inbox Entity Configuration**|
+|10733|**Inbox Personalized Configuration**|
+|10734|**App Profile Copilot Configuration**|
+|10735|**Swarm**|
+|10736|**Swarm participant**|
+|10737|**Swarm participant rule**|
+|10738|**Swarm role**|
+|10739|**Swarm skill**|
+|10740|**Swarm template**|
+|10741|**Autonomous case creation and update rules**|
+|10742|**CHT App Profile Configuration**|
+|10743|**Entity Attachment**|
+|10744|**Time Tracker**|
+|10745|**Customer feedback survey**|
+|10746|**Customer feedback survey invite**|
+|10747|**Customer feedback survey response**|
+|10748|**msdyn_surveyconfig**|
+|10749|**Survey setting**|
+|10750|**Entity Attribute Prediction Rule**|
+|10751|**Email Sentiment**|
+|10752|**Agent Configuration**|
+|10753|**Autonomous Agent Entity Mapping**|
+|10754|**Autonomous Profile**|
+|10755|**Rollout Plan**|
+|10756|**Master Entity Routing Configuration**|
+|10757|**Routing Rule Set Setting**|
+|10758|**Assignment Configuration**|
+|10759|**Assignment Configuration Step**|
+|10760|**Capacity Profile**|
+|10761|**Last Agent**|
+|10762|**Overflow Action Config**|
+|10763|**Preferred Agent**|
+|10764|**Preferred Agent Customer Identity**|
+|10765|**Preferred Agent Routed Entity**|
+|10766|**Routing configuration**|
+|10767|**Routing configuration step**|
+|10768|**Bot Channel Registration**|
+|10769|**Channel Configuration**|
+|10770|**Channel State Configuration**|
+|10771|**Provisioning State**|
+|10772|**AdminAppState**|
+|10773|**Agent Status history**|
+|10774|**Power BI Configuration**|
+|10775|**Authentication Settings**|
+|10776|**Auth Settings Entry**|
+|10777|**Quick reply**|
+|10778|**Entity Routing Context**|
+|10779|**Channel Capability**|
+|10780|**Conversation Action**|
+|10781|**Conversation Action Locale**|
+|10782|**Conversation Message Block**|
+|10783|**DeletedConversation**|
+|10784|**Deprecated Workstream Entity Configuration**|
+|10785|**Entity**|
+|10786|**Ongoing conversation (Deprecated)**|
+|10787|**Live work item event**|
+|10788|**Work Stream**|
+|10789|**Masking Rule**|
+|10790|**Auto block rule**|
+|10791|**Bot Channel Registration Secret**|
+|10792|**Omnichannel channel api conversation privilege**|
+|10793|**Omnichannel channel api message privilege**|
+|10794|**Channel api method mapping**|
+|10795|**External context**|
+|10796|**Flagged spam**|
+|10797|**Language**|
+|10798|**Conversation**|
+|10801|**Context item value**|
+|10802|**Live Work Item Participant (Deprecated)**|
+|10803|**Conversation Sentiment**|
+|10804|**Context variable**|
+|10805|**Localization**|
+|10806|**OC Payment Profile**|
+|10807|**Recording**|
+|10808|**Omnichannel Request**|
+|10809|**Rich message**|
+|10810|**Rich message map**|
+|10811|**Rule Item**|
+|10812|**Sentiment daily topic**|
+|10813|**Sentiment daily topic keyword**|
+|10814|**Sentiment daily topic trending**|
+|10815|**Session**|
+|10816|**Session Participant Event**|
+|10817|**Session Sentiment**|
+|10818|**Message**|
+|10819|**Tag**|
+|10820|**Geo Location Provider**|
+|10821|**Omnichannel Configuration**|
+|10822|**Omnichannel Personalization**|
+|10823|**Omnichannel Queue (Deprecated)**|
+|10824|**Omnichannel Sync Config**|
+|10825|**Operating Hour**|
+|10826|**Personal quick reply**|
+|10827|**Personal sound setting**|
+|10828|**Persona Security Role Mapping**|
+|10829|**Presence**|
+|10830|**Provider**|
+|10831|**RoutingRequest**|
+|10832|**Search Configuration**|
+|10833|**Sentiment analysis**|
+|10834|**Session event**|
+|10835|**Session participant**|
+|10836|**Audio File**|
+|10837|**Sound notification setting**|
+|10838|**Transcript**|
+|10839|**UR notification template**|
+|10840|**UR Notification Template Mapping**|
+|10841|**User settings**|
+|10842|**Self service**|
+|10849|**Agent capacity update history**|
+|10850|**Bookable Resource Capacity Profile**|
+|10851|**Work stream capacity profile**|
+|10852|**Conversation Capacity profile**|
+|10853|**Agent Capacity Profile Unit**|
+|10854|**Agent Channel State**|
+|10855|**Agent Status**|
+|10856|**Agent Group**|
+|10857|**Agent Group Language**|
+|10858|**Agent Group Matching Criteria**|
+|10859|**Agent Group Membership**|
+|10860|**Agent Group Region**|
+|10861|**Agent Language**|
+|10862|**Agent Matching Criteria**|
+|10863|**Agent Region**|
+|10864|**Language Hierarchy**|
+|10865|**Matching Criteria**|
+|10866|**Conversation Matching Criteria**|
+|10867|**Region**|
+|10868|**Conversation Characteristic**|
+|10869|**Session Characteristic**|
+|10870|**Skill Attachment Rule**|
+|10871|**Attach Skill**|
+|10872|**Model training details**|
+|10873|**Training data import configuration**|
+|10874|**Characteristic mapping**|
+|10875|**Training record**|
+|10876|**Skill finder model**|
+|10877|**Effort estimate**|
+|10878|**Effort estimation model**|
+|10879|**Effort model training details**|
+|10880|**ConversationInsight**|
+|10881|**Active ICD Extension**|
+|10882|**Entity-Workstream Map**|
+|10883|**ICD Extension**|
+|10884|**msdyn_broadcastmessagebulkactionapiprivilege**|
+|10885|**msdyn_bulkassigntoqueueapiprivilege**|
+|10886|**msdyn_bulkforcecloseapiprivilege**|
+|10887|**Lock Status**|
+|10888|**Omnichannel agent assignment custom api privilege**|
+|10889|**OCBulkAction**|
+|10890|**Conversation Action Item**|
+|10891|**Conversation Aggregated Insights**|
+|10892|**Comment**|
+|10893|**Conversation Participant Insights**|
+|10894|**Conversation Participant Sentiment**|
+|10895|**Conversation Question**|
+|10896|**Conversation Segment Sentiment**|
+|10897|**Conversation Sentiment**|
+|10898|**Conversation Signal**|
+|10899|**Conversation Subject**|
+|10900|**Conversation Summary Suggestion**|
+|10901|**Conversation System Tag**|
+|10902|**Conversation Tag**|
+|10903|**Recording (Deprecated)**|
+|10904|**SCI Conversation**|
+|10905|**Custom Email Highlight**|
+|10906|**Custom Highlight**|
+|10907|**Custom Publisher**|
+|10908|**EnvironmentSettings**|
+|10909|**UserSettings**|
+|10910|**CatalogEventStatusConfiguration**|
+|10911|**Configuration**|
+|10912|**Trigger**|
+|10913|**Triggers To Sdk Message Processing Steps**|
+|10914|**EventParameterMetadata**|
+|10915|**TrackingContext**|
+|10916|**Marketing feature configuration**|
+|10917|**msdynmkt_experimentv2**|
+|10918|**ACS channel instance**|
+|10919|**ACS channel instance account**|
+|10920|**Infobip channel instance**|
+|10921|**Infobip channel instance account**|
+|10922|**Link mobility channel instance**|
+|10923|**Link mobility channel instance account**|
+|10924|**MockSmsProvider channel instance**|
+|10925|**MockSmsProvider channel instance account**|
+|10926|**TeleSign channel instance**|
+|10927|**TeleSign channel instance account**|
+|10928|**Twilio channel instance**|
+|10929|**Twilio channel instance account**|
+|10930|**Vibes channel instance**|
+|10931|**Vibes channel instance account**|
+|10932|**Predefined Placeholder**|
+|10933|**Metadata Entity Relationship**|
+|10934|**Metadata Item**|
+|10935|**Metadata Store State**|
+|10936|**DigitalSellingActiveTask**|
+|10937|**DigitalSellingCompletedTask**|
+|10938|**Sales Tag**|
+|10939|**Sequence**|
+|10940|**Sequence Stat**|
+|10941|**Sequence Target**|
+|10942|**Sequence Target Step**|
+|10943|**Sequence Template**|
+|10945|**sabackupdiagnostic**|
+|10946|**SABatchRunInstance**|
+|10947|**salesroutingdiagnostic**|
+|10948|**SARunInstance**|
+|10949|**Segment**|
+|10950|**segmentsetting**|
+|10951|**Segment property**|
+|10952|**SegmentsUtil**|
+|10953|**Assignment Rule**|
+|10954|**Seller attribute**|
+|10955|**Seller attribute value**|
+|10956|**Assignment Map**|
+|10957|**Sales Assignment Setting**|
+|10958|**Sales routing run**|
+|10960|**Extended User Setting**|
+|10961|**Sales acceleration insights**|
+|10962|**Sales Acceleration settings**|
+|10963|**Insight**|
+|10964|**Work List Suggestion**|
+|10965|**Work list suggestion source**|
+|10966|**Work List View Configuration**|
+|10967|**Work Queue Record**|
+|10968|**Work Queue Record State**|
+|10969|**Work list user setting**|
+|10970|**WQDataSource**|
+|10971|**Suggestion Assignment Rule**|
+|10972|**Suggestion Principal Object Access**|
+|10973|**Suggestion Seller Priority**|
+|10974|**Data Hygiene Setting Info**|
+|10975|**Duplicate Detection Plugin Run**|
+|10976|**Duplicate Lead Mapping**|
+|10977|**Lead Hygiene Setting**|
+|10978|**Linked Entity Attribute Validity**|
+|10979|**Sales provisioning request**|
+|10980|**SalesOmnichannel Message**|
+|10981|**Text message template**|
+|10982|**Data Analytics Admin Settings (Deprecated)**|
+|10983|**Data Analytics Report**|
+|10984|**Insights**|
+|10985|**Sales acceleration reports**|
+|10986|**Bot user mapping**|
+|10988|**Bot Session**|
+|10989|**Automated action rule**|
+|10990|**Automated action rules mapping**|
+|10991|**Last message info**|
+|10992|**Conversation disposition code map**|
+|10993|**Disposition Code Category**|
+|10994|**Live Conversation Counter Condition**|
+|10995|**OC Disposition Code**|
+|10996|**Work Stream Bot Mapping**|
+|10998|**Representative Copilot Setting**|
+|10999|**Copilot Summarization Setting**|
+|11000|**msdyn_agentsetting**|
+|11001|**msdyn_businessprofile**|
+|11002|**intent**|
+|11003|**intentattribute**|
+|11004|**intentattributeset**|
+|11005|**intentattribute_entity**|
+|11006|**Intent Config**|
+|11007|**Intent Context History**|
+|11008|**intententity**|
+|11009|**LOB Backfill Status**|
+|11010|**Line of Business**|
+|11011|**msdyn_intentfamily_harvestingconfiguration**|
+|11012|**msdyn_intentfeature_configuration**|
+|11013|**Intent Group Condition**|
+|11014|**msdyn_intentharvesting_batchjobstatus**|
+|11015|**msdyn_intentharvesting_batchjobstatusdetail**|
+|11016|**msdyn_intentharvesting_provisioning_status**|
+|11017|**msdyn_intentmetrics**|
+|11018|**msdyn_intentmetrics_aggregate**|
+|11019|**msdyn_intentmetrics_jobdata**|
+|11020|**Intent Playbook**|
+|11021|**Intent playbook map**|
+|11022|**Intent Solution Map**|
+|11023|**msdyn_intentsolution_mappingconfiguration**|
+|11024|**msdyn_organizationsolutionmap**|
+|11025|**Case Enrichment**|
+|11026|**Case follow up and closure configuration**|
+|11027|**Case sentiment settings**|
+|11028|**Case Suggestion**|
+|11029|**Case Suggestion Request Payload**|
+|11030|**Case Suggestions Data Souce**|
+|11031|**User Preference For Copilot**|
+|11032|**Copilot assisted case form fill settings**|
+|11033|**Copilot Event**|
+|11034|**Copilot Interaction**|
+|11035|**Copilot Interaction Data**|
+|11036|**Copilot knowledge interaction**|
+|11037|**Copilot Transcript**|
+|11038|**Copilot Transcript Data**|
+|11039|**KB Enrichment**|
+|11040|**Knowledge Article Suggestion**|
+|11041|**Knowledge Article Suggestion Data Source**|
+|11042|**Next Action**|
+|11043|**Service Copilot Plugin**|
+|11044|**Service Copilot Plugin Action**|
+|11045|**Service Copilot Plugin Role**|
+|11046|**Suggestion Interaction**|
+|11047|**Suggestion request payload**|
+|11048|**Suggestions Model Summary**|
+|11049|**Suggestions Setting**|
+|11050|**msdyn_caseaiprediction**|
+|11051|**Data Analytics User Customized Report**|
+|11052|**Data Analytics Dataset**|
+|11053|**Data Analytics Workspace**|
+|11054|**Report Bookmark**|
+|11055|**Agent Resource Forecasting**|
+|11056|**[Deprecated] Dynamics Customer Service Analytics**|
+|11057|**Case Topic**|
+|11058|**Case Topic Setting**|
+|11059|**Case Topic Summary**|
+|11060|**Case topic Incident mapping**|
+|11061|**Customer Service historical analytics**|
+|11062|**Email analytics**|
+|11063|**Forecast**|
+|11064|**Knowledge analytics**|
+|11065|**Model Customization analytics**|
+|11066|**Real-time analytics for record routing**|
+|11067|**Forecast Summary and Setting**|
+|11068|**Keywords Description Suggestion Setting**|
+|11069|**Conversation Summary Interaction**|
+|11070|**Conversation Summary Setting**|
+|11071|**Conversation Topic**|
+|11072|**Conversation Topic Setting**|
+|11073|**Conversation Topic Summary**|
+|11074|**Conversation topic Conversation mapping**|
+|11075|**Omnichannel historical analytics**|
+|11076|**Omnichannel voice historical analytics (preview) (Deprecated)**|
+|11077|**Omnichannel Realtime analytics**|
+|11078|**Copilot Analytics**|
+|11079|**Conversation Analytic**|
+|11080|**Session Analytics**|
+|11081|**Evaluation**|
+|11082|**Evaluation category**|
+|11083|**Evaluation criteria**|
+|11084|**Evaluation criteria version**|
+|11085|**Evaluation Global Config**|
+|11086|**Evaluation input config**|
+|11087|**Evaluation localized content**|
+|11088|**Evaluation Plan**|
+|11089|**Evaluation Plan Batch**|
+|11090|**Evaluation Plan Ontrigger Backlog**|
+|11091|**Evaluation Plan Run**|
+|11092|**Evaluation question**|
+|11093|**PA Flow Run Tracker**|
+|11094|**Engage And Readiness Agent Result V2**|
+|11095|**SalesAgentConfigurationV2**|
+|11096|**SalesAgentExecutionConfig**|
+|11097|**Sales Agent Handover**|
+|11098|**SalesAgentProfile**|
+|11099|**Sales agent run**|
+|11100|**Trigger Sales Agent**|
+|11101|**Account Research Agent Trigger**|
+|11102|**Account Research Result**|
+|11103|**Competitor Research Agent Trigger**|
+|11104|**Summary Synthesizer Input**|
+|11105|**summarysynthesizeroutput**|
+|11106|**Lead Agent Result**|
+|11107|**Lead Delink Result**|
+|11108|**Lead Email Extension**|
+|11109|**Outreach Agent Result**|
+|11110|**Outreach Trigger Agent**|
+|11111|**Qualification Agent Trigger**|
+|11112|**Sales Agent Configuration**|
+|11113|**SalesAgentUsage**|
+|11114|**Stakeholder Research Output**|
+|11115|**Target Customer Profile Prefill Agent Result**|
+|11116|**TargetCustomerProfilePrefillAgentTrigger**|
+|11117|**Engage And Readiness Agent Result**|
 
 
 

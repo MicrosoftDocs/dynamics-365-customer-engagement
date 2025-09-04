@@ -65,6 +65,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_crmactivityid](#BKMK_msdyn_crmactivityid)
 - [msdyn_externalcrmorgid](#BKMK_msdyn_externalcrmorgid)
 - [msdyn_insightindex](#BKMK_msdyn_insightindex)
+- [msdyn_insightname](#BKMK_msdyn_insightname)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_processingretrycount](#BKMK_msdyn_processingretrycount)
 - [msdyn_processingstatus](#BKMK_msdyn_processingstatus)
@@ -146,6 +147,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|2000|
+
+### <a name="BKMK_msdyn_insightname"></a> msdyn_insightname
+
+|Property|Value|
+|---|---|
+|Description|**Name of the RawInsight**|
+|DisplayName|**InsightName**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_insightname`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|200|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 

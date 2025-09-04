@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection: bap-ai-copilot
-ms.date: 07/30/2025
+ms.date: 08/26/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -26,7 +26,7 @@ The Conversation dashboard gives you a broad overview of the customer service ex
 
 The dashboard includes various charts with graphical views of your organization's key performance indicators (KPIs).
 
-The charts for conversation volume drivers and emerging conversation volume by topic charts use natural language understanding to group support conversations as topics that are a collection of related conversations. These charts display the customer support topics that generate the most volume and emerging topics that increase rapidly in volume. This helps you identify areas of improvement that can affect support performance.
+The charts for conversation volume drivers and emerging conversation volume by topic charts use natural language understanding to group support conversations as topics that are a collection of related conversations. These charts display the customer support topics that generate the most volume and emerging topics that increase rapidly in volume. This data helps you identify areas of improvement that can affect support performance.
 
 By default, the dashboard shows you the KPIs for the past month and for all channels, queues, and customer service representatives (service representatives or representatives) in your system. You can use the data filtering options to select data for a specific time period, channel, queue, service representative, conversation status, and timezone.
 
@@ -70,7 +70,7 @@ The KPIs in the conversation chart are as follows.
 | Avg. speed to answer (sec) | The average time customers waited in the queue before connecting to a service representative. (Time taken for acceptance). |
 | Avg. conversation handle time (min) | The average total conversation active time across engaged conversations. |
 | Avg. customer effort time (min) | The average time from the start of a conversation to the start of the conversation wrap-up time. |
-| Avg. conversation sentiment | The average of predicted customer sentiment in a given timeframe for a set queue or service representative, which indicates the degree of positive sentiment that customers expressed at the end of their interaction. |
+| Avg. conversation sentiment | The average of predicted customer sentiment in a given timeframe for a set queue or service representative. This data indicates the degree of positive sentiment that customers expressed at the end of their interaction. |
 | Conversations with secondary channel | The breakdown of conversations across secondary channels. |
 | Top 10 volume topics | The top 10 AI-discovered topics from conversation data sorted by conversation volume.|
 | Emerging conversation volume by topic | The top emerging AI-discovered topics, from conversation data that featured the greatest increase in volume over the duration being evaluated. |
@@ -105,10 +105,10 @@ The following table displays the conversation details and their descriptions.
 | Avg. conversation active time (min) | The average time that conversations remain active across engaged conversations. |
 | Avg. conversation inactive time (min) | The average time that conversations remain inactive across engaged conversations. |
 | Avg. conversation wrap-up time (min) | The average time that conversations take to wrap up across engaged conversations. |
-| Avg. incoming messages | The average of the total number of messages sent by customers.  |
-| Avg. outgoing messages | Average of the total number of messages sent as a response from a service representative. This average doesn’t include any consult or monitoring messages a supervisor or team lead sent to a service representative. |
-| Incoming messages | The average of the total number of messages sent by customers|
-| Outgoing messages | The average of the total number of messages sent as a response from a service representative. This average doesn’t include any consult or monitoring messages that a supervisor or team lead sent to a service representative. |
+| Avg. incoming messages | The average of the messages sent by customers to service representatives within the representative's operating hours.  |
+| Avg. outgoing messages | Average of the messages sent by service representatives to customers within the representative's operating hours. This average doesn’t include any consult or monitoring messages a supervisor or team lead sent to a service representative. |
+| Incoming messages | The number of messages sent by customers to service representatives within the representative's operating hours.|
+| Outgoing messages | The number of messages sent by service representatives to customers within the representative's operating hours.|
 
 
 ## Conversation hourly details drill down view

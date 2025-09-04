@@ -16,6 +16,15 @@ An activity which is used to share information between the user and the customer
 > The Microsoft Dynamics 365 Portal Comment (adx_portalcomment) table extends the [Microsoft Dataverse Portal Comment (adx_portalcomment) table](/power-apps/developer/data-platform/reference/entities/adx_portalcomment).
 
 
+## Messages
+
+The following table lists the messages for the Portal Comment (adx_portalcomment) table.
+Messages represent operations that can be performed on the table. They may also be events.
+
+| Name <br />Is Event? |Web API Operation |SDK for .NET |
+| ---- | ----- |----- |
+| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
+
 
 ## Writable columns/attributes
 

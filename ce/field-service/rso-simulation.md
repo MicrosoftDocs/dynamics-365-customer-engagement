@@ -1,16 +1,16 @@
 ---
 title: Run Resource Scheduling Optimization as a simulation
 description: Learn how to run Resource Scheduling Optimization as a simulation in Dynamics 365 Field Service.
-ms.date: 07/15/2024
+ms.date: 08/26/2025
 ms.subservice: resource-scheduling-optimization
 ms.topic: how-to
-author: AnilMur
-ms.author: anilmur
+author: andrewclear-ms
+ms.author: anclear
 ---
 
 # Run Resource Scheduling Optimization as a simulation
 
-Running an optimization as a simulation lets admins see what optimization results will look like. Review results closely before setting up a recurring schedule.
+Running an optimization as a simulation lets admins see what optimization results look like. Review results closely before setting up a recurring schedule.
 
 The simulation feature also empowers admins to review optimization results before pushing the assignments to all resources, or to discard the results and rerun by adjusting optimization parameters.
 
@@ -18,9 +18,9 @@ The simulation feature also empowers admins to review optimization results befor
 
 There are two ways to run an optimization request in simulation mode:
 
-1. **From the schedule board**: Choose a schedule board with the custom web resource for Resource Scheduling Optimization configured. Select the **Optimization** options, set the optimization parameters and choose **Run as simulation**.
+1. **From the schedule board**: Select a schedule board with the custom web resource for Resource Scheduling Optimization configured. Select the **Optimization** options, set the optimization parameters, and select **Run as simulation**.
 
-1. **From the optimization schedule**: Open the configuration of an optimization schedule and set **Run as simulation** to **Yes**. Publish the optimization schedule and run it.
+1. **From the optimization schedule**: Open the optimization schedule configuration and set **Run as simulation** to **Yes**. Publish the optimization schedule, and then run it.
 
 After reviewing the results a simulation run, you can apply or discard the changes.
 

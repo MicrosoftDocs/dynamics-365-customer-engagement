@@ -129,7 +129,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Value|Label|
 |---|---|
 |772370000|**Send customer automated message**|
-|772370001|**Send agent automated message**|
+|772370001|**Send customer service representative automated message**|
 |772370002|**Close conversation**|
 |772370003|**Move active conversation to waiting**|
 |772370004|**Release conversation back to queue for reassignment**|
@@ -587,7 +587,7 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`owningbusinessunit`|
-|RequiredLevel|None|
+|RequiredLevel|SystemRequired|
 |Type|Lookup|
 |Targets|businessunit|
 

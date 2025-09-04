@@ -1,7 +1,7 @@
 ---
 title: Feature deprecations
 description: Learn about features that are being deprecated for Dynamics 365 Field Service.
-ms.date: 08/12/2025
+ms.date: 08/29/2025
 ms.topic: article
 ms.custom: bap-template
 ms.author: vhorvath
@@ -13,11 +13,22 @@ author: vhorvathms
 Features that have been deprecated in Dynamics 365 Field Service are listed in this article.
 
 > [!IMPORTANT]
-> "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification will span at least six months. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+> "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it's officially removed. This deprecation notification spans at least six months. After removal, the feature or capability will no longer work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+
+## Dynamics 365 Field Service integrations with Microsoft Outlook, Teams, Viva Connections, and Planner - September 1, 2025
+
+The following Dynamics 365 Field Service integrations will no longer be available after October 30, 2025:
+
+- Microsoft Outlook Add-in
+- Microsoft Teams app
+- Microsoft Viva Connections
+- Microsoft Planner
+
+These integrations aren't supported after October 30, 2025. Instead, look to a simpler, more integrated Field Service experience inside Microsoft 365. Learn more at: [Field Service release plans](/dynamics365/release-plan/2025wave2/service/dynamics365-field-service/).
 
 ## Dynamics 365 Field Service reports and features - May 25, 2025
 
-The following Dynamics 365 Field Service reports and features are deprecated after May 25, 2025 and aren't supported after August, 2025.
+The following Dynamics 365 Field Service reports and features are deprecated after May 25, 2025 and aren't supported after August  2025.
 
  - Resource and Utilization in Field Service
  - Work order summary in Field Service

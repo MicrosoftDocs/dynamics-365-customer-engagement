@@ -17,52 +17,9 @@ Top level of the Microsoft Dynamics 365 business hierarchy. The organization can
 
 
 
-## Writable columns/attributes
-
-These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
-
-### <a name="BKMK_IsComputerUseInMCSEnabled"></a> IsComputerUseInMCSEnabled
-
-|Property|Value|
-|---|---|
-|Description|**Indicates whether Computer Use in MCS feature is enabled in this organization.**|
-|DisplayName|**Enable Computer Use in MCS feature for this organization**|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|`iscomputeruseinmcsenabled`|
-|RequiredLevel|SystemRequired|
-|Type|Boolean|
-|GlobalChoiceName|`organization_featureenabled`|
-|DefaultValue|True|
-|True Label|Yes|
-|False Label|No|
-
-
 ## Customized columns/attributes
 
 Microsoft Dynamics 365 Customer Service modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
-
-- [EnableEnvironmentSettingsApp](#BKMK_EnableEnvironmentSettingsApp)
-- [IsDesktopFlowVanillaImageSharingEnabled](#BKMK_IsDesktopFlowVanillaImageSharingEnabled)
-- [SchedulingEngine](#BKMK_SchedulingEngine)
-
-### <a name="BKMK_EnableEnvironmentSettingsApp"></a> EnableEnvironmentSettingsApp
-
-Changes from [EnableEnvironmentSettingsApp (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/organization#BKMK_EnableEnvironmentSettingsApp)
-
-|Property|Value|
-|---|---|
-|RequiredLevel|SystemRequired|
-
-
-### <a name="BKMK_IsDesktopFlowVanillaImageSharingEnabled"></a> IsDesktopFlowVanillaImageSharingEnabled
-
-Changes from [IsDesktopFlowVanillaImageSharingEnabled (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/organization#BKMK_IsDesktopFlowVanillaImageSharingEnabled)
-
-|Property|Value|
-|---|---|
-|RequiredLevel|SystemRequired|
-
 
 ### <a name="BKMK_SchedulingEngine"></a> SchedulingEngine
 

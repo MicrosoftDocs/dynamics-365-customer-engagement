@@ -16,31 +16,17 @@ search.audienceType:
 > The Microsoft Dynamics 365 PowerPagesManagedIdentity table extends the [Microsoft Dataverse PowerPagesManagedIdentity table](/power-apps/developer/data-platform/reference/entities/powerpagesmanagedidentity).
 
 
+## Messages
 
-## Customized columns/attributes
+The following table lists the messages for the PowerPagesManagedIdentity table.
+Messages represent operations that can be performed on the table. They may also be events.
 
-Microsoft Dynamics 365 modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
-
-### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
-
-Changes from [OwningBusinessUnit (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/powerpagesmanagedidentity#BKMK_OwningBusinessUnit)
-
-|Property|Value|
-|---|---|
-|RequiredLevel|None|
+| Name <br />Is Event? |Web API Operation |SDK for .NET |
+| ---- | ----- |----- |
+| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 
 
-## Customized relationships
 
-### Customized One-to-Many relationships
-
-#### <a name="BKMK_ComponentId_CertificateCredential_PowerPagesManagedIdentity"></a> ComponentId_CertificateCredential_PowerPagesManagedIdentity
-
-Changes from [ComponentId_CertificateCredential_PowerPagesManagedIdentity (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/powerpagesmanagedidentity#BKMK_ComponentId_CertificateCredential_PowerPagesManagedIdentity)
-
-|Property|Value|
-|---|---|
-|IsCustomizable|True|
 
 
 ### See also

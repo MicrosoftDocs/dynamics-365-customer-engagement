@@ -70,11 +70,11 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [IsCustomizable](#BKMK_IsCustomizable)
 - [msdyn_AllowedPresences](#BKMK_msdyn_AllowedPresences)
 - [msdyn_alwaysassigntolastagent](#BKMK_msdyn_alwaysassigntolastagent)
-- [msdyn_assigntolastagentonlyforsamechat](#BKMK_msdyn_assigntolastagentonlyforsamechat)
 - [msdyn_AssignWorkItemAfterDecline](#BKMK_msdyn_AssignWorkItemAfterDecline)
 - [msdyn_AutoCloseAfterInactivity](#BKMK_msdyn_AutoCloseAfterInactivity)
 - [msdyn_blockcapacityforconsult](#BKMK_msdyn_blockcapacityforconsult)
 - [msdyn_blockcapacityforwrapup](#BKMK_msdyn_blockcapacityforwrapup)
+- [msdyn_blockcapacityforwrapupinseconds](#BKMK_msdyn_blockcapacityforwrapupinseconds)
 - [msdyn_bot_queue](#BKMK_msdyn_bot_queue)
 - [msdyn_bot_rule](#BKMK_msdyn_bot_rule)
 - [msdyn_bot_user](#BKMK_msdyn_bot_user)
@@ -110,6 +110,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_outboundqueueid](#BKMK_msdyn_outboundqueueid)
 - [msdyn_recordidentificationrule](#BKMK_msdyn_recordidentificationrule)
 - [msdyn_RecordIdentificationValidationRule](#BKMK_msdyn_RecordIdentificationValidationRule)
+- [msdyn_requiredispositioncodeforworkstreamconversations](#BKMK_msdyn_requiredispositioncodeforworkstreamconversations)
 - [msdyn_restrictdownloadrecording](#BKMK_msdyn_restrictdownloadrecording)
 - [msdyn_restrictdownloadtranscript](#BKMK_msdyn_restrictdownloadtranscript)
 - [msdyn_routingcontractid](#BKMK_msdyn_routingcontractid)
@@ -117,6 +118,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_Screenpoptimeout_optionSet](#BKMK_msdyn_Screenpoptimeout_optionSet)
 - [msdyn_sessiontemplate_default](#BKMK_msdyn_sessiontemplate_default)
 - [msdyn_streamsource](#BKMK_msdyn_streamsource)
+- [msdyn_useglobalsettingsforrequiringdispositioncode](#BKMK_msdyn_useglobalsettingsforrequiringdispositioncode)
 - [msdyn_waitingtimethreshold](#BKMK_msdyn_waitingtimethreshold)
 - [msdyn_workdistributionmode](#BKMK_msdyn_workdistributionmode)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -193,22 +195,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |True Label|Yes|
 |False Label|No|
 
-### <a name="BKMK_msdyn_assigntolastagentonlyforsamechat"></a> msdyn_assigntolastagentonlyforsamechat
-
-|Property|Value|
-|---|---|
-|Description|**Assign to last agent only for the same chat**|
-|DisplayName|**Assign to last agent only for the same chat**|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|`msdyn_assigntolastagentonlyforsamechat`|
-|RequiredLevel|None|
-|Type|Boolean|
-|GlobalChoiceName|`msdyn_liveworkstream_msdyn_assigntolastagentonlyforsamechat`|
-|DefaultValue|False|
-|True Label|Yes|
-|False Label|No|
-
 ### <a name="BKMK_msdyn_AssignWorkItemAfterDecline"></a> msdyn_AssignWorkItemAfterDecline
 
 |Property|Value|
@@ -267,6 +253,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_blockcapacityforwrapup`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|43200|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_blockcapacityforwrapupinseconds"></a> msdyn_blockcapacityforwrapupinseconds
+
+|Property|Value|
+|---|---|
+|Description|**Time for which the agent's capacity is blocked for wrap up state in seconds. After this amount of time the agent's capacity will be released.**|
+|DisplayName|**Block capacity for wrap up state in seconds**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_blockcapacityforwrapupinseconds`|
 |RequiredLevel|None|
 |Type|Integer|
 |MaxValue|43200|
@@ -412,6 +412,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |1|**Outbound**|
 |2|**Direct Inbound**|
 |3|**Direct Outbound**|
+|4|**ProactiveOutbound**|
 
 ### <a name="BKMK_msdyn_durationtoqualifyforlastagent"></a> msdyn_durationtoqualifyforlastagent
 
@@ -828,6 +829,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|1048576|
 
+### <a name="BKMK_msdyn_requiredispositioncodeforworkstreamconversations"></a> msdyn_requiredispositioncodeforworkstreamconversations
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Requires disposition codes to close conversations for workstream**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_requiredispositioncodeforworkstreamconversations`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_msdyn_liveworkstream_msdyn_requiredispositioncodeforworkstreamconversations`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_restrictdownloadrecording"></a> msdyn_restrictdownloadrecording
 
 |Property|Value|
@@ -952,6 +969,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Value|Label|
 |---|---|
 |192350000|**Entity Records**|
+
+### <a name="BKMK_msdyn_useglobalsettingsforrequiringdispositioncode"></a> msdyn_useglobalsettingsforrequiringdispositioncode
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Use global settings for requiring disposition code**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_useglobalsettingsforrequiringdispositioncode`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_msdyn_liveworkstream_msdyn_useglobalsettingsforrequiringdispositioncode`|
+|DefaultValue|True|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_waitingtimethreshold"></a> msdyn_waitingtimethreshold
 
@@ -1928,7 +1961,7 @@ Many-To-One Relationship: [msdyn_liveconversationcountercondition msdyn_workstre
 |Property|Value|
 |---|---|
 |ReferencingEntity|`msdyn_liveconversationcountercondition`|
-|ReferencingAttribute|`msdyn_workstreamId`|
+|ReferencingAttribute|`msdyn_workstreamid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_workstream_liveconversationcountercond`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
@@ -1941,6 +1974,7 @@ These relationships are many-to-many. Listed by **SchemaName**.
 - [msdyn_msdyn_cannedmessage_liveworkstream](#BKMK_msdyn_msdyn_cannedmessage_liveworkstream)
 - [msdyn_msdyn_liveworkstream_systemuser](#BKMK_msdyn_msdyn_liveworkstream_systemuser)
 - [msdyn_msdyn_ocrichobject_liveworkstream](#BKMK_msdyn_msdyn_ocrichobject_liveworkstream)
+- [msdyn_ocdispositioncode_liveworkstream_msdyn_liveworkstream](#BKMK_msdyn_ocdispositioncode_liveworkstream_msdyn_liveworkstream)
 
 ### <a name="BKMK_msdyn_msdyn_cannedmessage_liveworkstream"></a> msdyn_msdyn_cannedmessage_liveworkstream
 
@@ -1980,6 +2014,19 @@ See [msdyn_ocrichobject msdyn_msdyn_ocrichobject_liveworkstream Many-To-Many Rel
 |IntersectAttribute|`msdyn_liveworkstreamid`|
 |NavigationPropertyName|`msdyn_msdyn_ocrichobject_liveworkstream`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocdispositioncode_liveworkstream_msdyn_liveworkstream"></a> msdyn_ocdispositioncode_liveworkstream_msdyn_liveworkstream
+
+See [msdyn_ocdispositioncode msdyn_ocdispositioncode_liveworkstream_msdyn_liveworkstream Many-To-Many Relationship](msdyn_ocdispositioncode.md#BKMK_msdyn_ocdispositioncode_liveworkstream_msdyn_liveworkstream)
+
+|Property|Value|
+|---|---|
+|IntersectEntityName|`msdyn_ocdispositioncode_msdyn_liveworkstream`|
+|IsCustomizable|True|
+|SchemaName|`msdyn_ocdispositioncode_liveworkstream_msdyn_liveworkstream`|
+|IntersectAttribute|`msdyn_liveworkstreamid`|
+|NavigationPropertyName|`msdyn_ocdispositioncode_liveworkstream_msdyn_liveworkstream`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 
