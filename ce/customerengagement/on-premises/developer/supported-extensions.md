@@ -3,8 +3,7 @@ title: "Supported extensions (Developer Guide for Dynamics 365 Customer Engageme
 description: "You can customize  Dynamics 365 Customer Engagement (on-premises) by using tools that are available in the Customer Engagement web application or that are described in the Dynamics 365 Customer Engagement (on-premises) SDK. These customizations are supported and can be upgraded. Customizations made using methods other than those described here are unsupported and could cause problems during updates and upgrades to Dynamics 365 Customer Engagement."
 ms.custom: 
 ms.reviewer: pehecke
-
-ms.suite: 
+ms.date: 09/05/2025
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
@@ -26,7 +25,7 @@ You can customize Dynamics 365 Customer Engagement (on-premises) by using tools 
  Topics covered in technical articles published on Microsoft sites such as MSDN or this one are supported, but might not be upgradable.  
   
 <a name="CustUsingWebApp"></a>
-   
+
 ## Customizations using Dynamics 365 Customer Engagement (on-premises) web application  
 
  There are a variety of tools included with Dynamics 365 Customer Engagement (on-premises) that you can use to customize it. Customizations made using the Dynamics 365 Customer Engagement (on-premises) tools and web application are fully supported and fully upgradeable.  
@@ -42,22 +41,22 @@ You can customize Dynamics 365 Customer Engagement (on-premises) by using tools 
 - **Using Filtered Views with external applications such as those in Microsoft Office**.  
   
 > [!NOTE]
->  *Fully supported* means that developer support can provide assistance for customizations and that application support can help customers running those modifications.  
->   
->  For more information about using the customization tools in the web application, see the [Customization Guide (Dynamics 365 Customer Engagement (on-premises))](../customize/overview.md).  
+> *Fully supported* means that developer support can provide assistance for customizations and that application support can help customers running those modifications.  
+>
+> For more information about using the customization tools in the web application, see the [Customization Guide (Dynamics 365 Customer Engagement (on-premises))](../customize/overview.md).  
   
 <a name="CustUsingSDK"></a>
-   
-## Customizations using the Dynamics 365 Customer Engagement (on-premises) SDK 
- 
+
+## Customizations using the Dynamics 365 Customer Engagement (on-premises) SDK
+
  The [!INCLUDE [pn-sdk](../includes/pn-sdk.md)], technical articles, and sample code published on this site, and information released by the Dynamics 365 Customer Engagement (on-premises) Developer Support Team are included in the area of customizations using the [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)]. The specific actions and levels of supportability and upgradeability are described later in this topic.  
   
 ### Dynamics 365 Customer Engagement (on-premises) web services
 
  Use of the web services is fully supported. This includes: Discovery Service, Organization Service,  Organization Data Service, the Web API, and the Deployment Service. We strive to keep the APIs backward compatible but reserve the right to change APIs for additional features. Entity attributes may also change in future versions. For more information, see [Write Code for Dynamics 365 Customer Engagement (on-premises)(Web Services)](extend-dynamics-365-server.md).  
   
-### Client-side JavaScript 
- 
+### Client-side JavaScript
+
  You can use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] within Dynamics 365 Customer Engagement (on-premises) in three areas:  
   
 - **Form Script event handlers**: You can configure form event handlers to call functions defined in [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resources.  
@@ -78,25 +77,25 @@ You can customize Dynamics 365 Customer Engagement (on-premises) by using tools 
 
  Modification of an unmanaged solution file is supported as described in this documentation. Certain customization tasks are performed using these steps:  
   
--   Export a solution component as an unmanaged solution.  
--   Extract the contents of the solution package.  
--   Edit the Customizations.xml file.  
--   Repackage the solutions file.  
--   Import the modified solution.  
+- Export a solution component as an unmanaged solution.  
+- Extract the contents of the solution package.  
+- Edit the Customizations.xml file.  
+- Repackage the solutions file.  
+- Import the modified solution.  
   
     > [!NOTE]
     > Changes to the Customizations.xml file must conform to the CustomizationsSolution.xsd schema. For more information, see [Schemas Used in Dynamics 365 Customer Engagement (on-premises)](schemas-used-dynamics-365.md).  
   
 The following supported tasks require this procedure:  
   
--   Ribbon customization.  
--   Application navigation customization using SiteMap.  
--   Form and dashboard customization using FormXml.  
--   Saved query customization.  
+- Ribbon customization.  
+- Application navigation customization using SiteMap.  
+- Form and dashboard customization using FormXml.  
+- Saved query customization.  
   
 ### Plug-ins
   
- The ability to create custom business logic using the plug-in mechanism described in this documentation is fully supported and upgradeable. This feature is available for all Dynamics 365 Customer Engagement (on-premises) deployments, including on-premises, IFD, and Online deploments. However, plug-ins can only be registered and executed in the sandbox (isolation) of Dynamics 365 Customer Engagement (on-premises). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Plug-ins for Extending Dynamics 365 Customer Engagement (on-premises) ](write-plugin-extend-business-processes.md)  
+ The ability to create custom business logic using the plug-in mechanism described in this documentation is fully supported and upgradeable. This feature is available for all Dynamics 365 Customer Engagement (on-premises) deployments, including on-premises, IFD, and Online deploments. However, plug-ins can only be registered and executed in the sandbox (isolation) of Dynamics 365 Customer Engagement (on-premises). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Plug-ins for Extending Dynamics 365 Customer Engagement (on-premises)](write-plugin-extend-business-processes.md)  
   
  Adding your plug-in and custom workflow activity assemblies to the `%installdir%\server\bin\` folder is supported on Dynamics 365 Customer Engagement (on-premises) on-premises and IFD server installations only.  
   
@@ -106,7 +105,7 @@ The following supported tasks require this procedure:
   
  The ability to edit XAML workflows is fully supported and upgradeable. However, this feature is available for Dynamics 365 Customer Engagement (on-premises) on-premises and IFD only. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Automate your business processes in Customer Engagement (on-premises)](automate-business-processes-customer-engagement.md)  
   
-<a name="SupportNET"></a>   
+<a name="SupportNET"></a>
 
 ## Support for .NET Framework Versions  
 
@@ -117,15 +116,17 @@ The following supported tasks require this procedure:
   > [!IMPORTANT]
   > You should build any custom client applications using [!INCLUDE [pn-net-framework-462-long](../includes/pn-net-framework-462-long.md)] or later.
   > Starting with the Dynamics 365 Customer Engagement (on-premises) version 9, only applications using Transport Level Security (TLS) 1.2 or better security will be allowed to connect. TLS 1.2 is not the default protocol used by [!INCLUDE [pn-net-framework-452-short](../includes/pn-net-framework-452-short.md)], but it is in  [!INCLUDE [pn-net-framework-462-short](../includes/pn-net-framework-462-short.md)].
-  > 
+  >
   > Enforcement of this higher standard for security will only be applied to Dynamics 365 Customer Engagement (on-premises) version 9 at this time. If your clients are designed to connect to any version or deployment type you can prepare by re-compling the application to use [!INCLUDE [pn-net-framework-462-short](../includes/pn-net-framework-462-short.md)].
   > More information: [Blog Post: Updates coming to Dynamics 365 Customer Engagement (on-premises) connection security](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/)
   
 - Any .NET assembly that is created with the Microsoft .NET Framework 4.6.2 for use in Dynamics 365 Customer Engagement (on-premises) as a Dynamics 365 Customer Engagement (on-premises) plug-in assembly or as a Dynamics 365 Customer Engagement (on-premises) custom workflow activity is supported.  
-- Any visualization (chart) that is created with [!INCLUDE[pn_NET_Framework_452_short](../includes/pn-net-framework-452-short.md)] .  
+- Any visualization (chart) that is created with [!INCLUDE[pn_NET_Framework_452_short](../includes/pn-net-framework-452-short.md)].
+
+More information: [Visual Studio and the .NET Framework](visual-studio-dot-net-framework.md)  
   
 <a name="Unsupported"></a>
-   
+
 ## Unsupported customizations
   
  Modifications to Dynamics 365 Customer Engagement (on-premises) that are made without using either the methods described in this documentation or Dynamics 365 Customer Engagement (on-premises) tools are not supported and are not preserved during updates or upgrades of Dynamics 365 Customer Engagement (on-premises). Anything that is not documented in this documentation and supporting documents is not supported. Additionally, unsupported modifications could cause problems when you update through the addition of hotfixes or service packs or upgrade Dynamics 365 Customer Engagement (on-premises). To minimize update and upgrade issues, do not modify any Dynamics 365 Customer Engagement (on-premises) file that you did not create yourself.  
@@ -152,7 +153,7 @@ The following supported tasks require this procedure:
   - Microsoft.Xrm.Sdk.dll
   - Microsoft.Xrm.Sdk.Data.dll  
   - Microsoft.Xrm.Sdk.Deployment.dll  
-  - Microsoft.Xrm.Sdk.Workflow.dll   
+  - Microsoft.Xrm.Sdk.Workflow.dll
   - Microsoft.Xrm.Tooling.Connector.dll
   - Microsoft.Xrm.Tooling.CrmConnectControl.dll
   - Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.dll
@@ -183,9 +184,8 @@ The following supported tasks require this procedure:
 - Plugin and Workflow Assemblies must contain all the necessary logic within the respective dll.  Plugins may reference some core .Net assemblies. However, we do not support dependencies on .Net assemblies that interact with low-level Windows APIs, such as the graphics design interface. Previously, Dynamics 365 Customer Engagement allowed for assemblies to refer to these interfaces, but to adhere to our security standards, changes to this behavior are required.
   
 ### See also  
- [Choose your development style for managed code](choose-development-style.md)   
- [Write Code for Dynamics 365 Customer Engagement (on-premises)(Web Services)](extend-dynamics-365-server.md)   
+ [Choose your development style for managed code](choose-development-style.md)<br/>
+ [Write Code for Dynamics 365 Customer Engagement (on-premises)(Web Services)](extend-dynamics-365-server.md)<br/>
  [Client scripting in Customer Engagement (on-premises) using JavaScript](clientapi/client-scripting.md)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

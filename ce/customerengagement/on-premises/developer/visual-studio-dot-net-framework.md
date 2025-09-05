@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio and the .NET Framework (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Learn about managed code development tools and requirements."
-keywords: 
+ms.date: 09/05/2025
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
@@ -48,6 +48,6 @@ More information: [Write plug-ins to extend business processes](write-plugin-ext
 
 [Support for .NET Framework versions](../developer/supported-extensions.md#SupportNET)<br/>
 [Supported Extensions for Dynamics 365 Customer Engagement (on-premises)](../developer/supported-extensions.md)</br/>
-[Developer Tools](../developer/developer-tools.md)</br/>
+[Developer Tools](../developer/developer-tools.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
