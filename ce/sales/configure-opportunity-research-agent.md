@@ -1,7 +1,7 @@
 ---
 title: Configure the Opportunity Research Agent (preview)
 description: Learn how to set up and configure the Opportunity Research Agent in Dynamics 365 Sales.
-ms.date: 08/04/2025
+ms.date: 09/05/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -44,6 +44,7 @@ As the agent consumes capacity, it's important to plan and configure it to handl
     | Microsoft Copilot Studio                       | Copilot Studio is the core platform for building and deploying the agent.                      |
     | Knowledge source with SharePoint or OneDrive      | Required only if the agent is configured to use internal documents on SharePoint or OneDrive for enrichment.                         |
     | Knowledge source with documents                | Required only if the agent is configured to use internal documents for enrichment.                   |
+    | Direct Line channels in Copilot Studio | Required for the agent to connect to Microsoft Copilot Studio. |
 
    Learn more in [Manage data policies](/power-platform/admin/prevent-data-loss?tabs=new).
 
