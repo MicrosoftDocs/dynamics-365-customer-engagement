@@ -11,7 +11,7 @@ ms.reviewer: lavanyakr
 
 # Add products to an opportunity
 
-Develop your opportunity by adding products, bundles or families that you want to sell,upsell, and cross-sell.
+Develop your opportunity by adding products, bundles, or families that you want to sell, upsell, and cross-sell.
 
 
 ## Find and add products to an opportunity 
