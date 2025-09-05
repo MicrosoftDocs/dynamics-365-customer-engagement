@@ -73,7 +73,7 @@ To learn more about app creation, see [Quickstart: Register an app in Microsoft 
 
 To learn more about shared mailboxes, see [Shared mailboxes in Exchange Online](/exchange/collaboration-exo/shared-mailboxes).
 
-## Create an app user in Dataverse
+## Create an app user in Dataverse and assign AISalesPerson role
 
 1. Ensure that you have the **System Administrator** role for your Dynamics 365 organization.  
 1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  
