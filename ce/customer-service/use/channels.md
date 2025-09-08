@@ -23,11 +23,11 @@ The implementation pattern for the out-of-the-box channels is as follows:
 - Establish your account and respective requirements, such as a page and app, with the channel provider. These requirements ensure that you have an entry point with the channel provider through which customers engage.
 - Configure the [workstream](../implement/cs-admin-center.md).
 - Configure the channel in Copilot Service admin center and attach it to the workstream.
-- Populate the exchange of handshake data, such as token and secrets required between the application and the channel provider. The data exchange is done in both places: the Copilot Service admin center app and the channel provider experience. 
+- Populate the exchange of handshake data, such as token and secrets required between the application and the channel provider. The data exchange is done in both places: the Copilot Service admin center app and the channel provider experience.
 
 ## License requirements
 
-An active subscription of Digital Messaging Add-in is required for SMS, social channels, Microsoft Teams, and custom messaging. Learn more in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
+Specific licensing requirements apply for using SMS, social channels, Microsoft Teams, and custom messaging. Learn more in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
 You can get the Microsoft Teams channel with the following add-on license:
 
