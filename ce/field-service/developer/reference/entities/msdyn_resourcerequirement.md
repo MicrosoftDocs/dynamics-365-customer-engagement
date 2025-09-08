@@ -104,6 +104,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_TimeWindowStart](#BKMK_msdyn_TimeWindowStart)
 - [msdyn_timezonefortimewindow](#BKMK_msdyn_timezonefortimewindow)
 - [msdyn_todate](#BKMK_msdyn_todate)
+- [msdyn_TzaFromDate](#BKMK_msdyn_TzaFromDate)
+- [msdyn_TzaToDate](#BKMK_msdyn_TzaToDate)
 - [msdyn_workhourtemplate](#BKMK_msdyn_workhourtemplate)
 - [msdyn_WorkLocation](#BKMK_msdyn_WorkLocation)
 - [msdyn_WorkOrder](#BKMK_msdyn_WorkOrder)
@@ -690,6 +692,40 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DateTimeBehavior|UserLocal|
 |Format|DateOnly|
 |ImeMode|Auto|
+|SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_TzaFromDate"></a> msdyn_TzaFromDate
+
+|Property|Value|
+|---|---|
+|Description|**From date of the resource requirement in time zone independent format**|
+|DisplayName|**From Date Time Zone Independent**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_tzafromdate`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|TimeZoneIndependent|
+|Format|DateOnly|
+|ImeMode|Inactive|
+|SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_TzaToDate"></a> msdyn_TzaToDate
+
+|Property|Value|
+|---|---|
+|Description|**To date of the resource requirement in time zone independent format**|
+|DisplayName|**To Date Time Zone Independent**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_tzatodate`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|TimeZoneIndependent|
+|Format|DateOnly|
+|ImeMode|Inactive|
 |SourceTypeMask|0|
 
 ### <a name="BKMK_msdyn_workhourtemplate"></a> msdyn_workhourtemplate

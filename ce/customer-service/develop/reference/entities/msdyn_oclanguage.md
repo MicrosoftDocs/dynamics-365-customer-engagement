@@ -32,9 +32,11 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_msdyn_oclanguage_msdyn_ocsmschannelsetting_ocsmschannelsettinglanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_ocsmschannelsetting_ocsmschannelsettinglanguage)
 - [msdyn_msdyn_oclanguage_msdyn_octeamschannelconfig_teamsaccountlanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_octeamschannelconfig_teamsaccountlanguage)
 - [msdyn_msdyn_oclanguage_msdyn_octwitterhandle_twitterhandlelanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_octwitterhandle_twitterhandlelanguage)
+- [msdyn_msdyn_oclanguage_msdyn_ocvoicechannellanguagesetting_languageid](#BKMK_msdyn_msdyn_oclanguage_msdyn_ocvoicechannellanguagesetting_languageid)
 - [msdyn_msdyn_oclanguage_msdyn_ocwechatchannelconfig_wechataccountlanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_ocwechatchannelconfig_wechataccountlanguage)
 - [msdyn_msdyn_oclanguage_msdyn_ocwhatsappchannelnumber_whatsappnumberlanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_ocwhatsappchannelnumber_whatsappnumberlanguage)
 - [msdyn_msdyn_oclanguage_msdyn_smsnumber_SMSnumberlanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_smsnumber_SMSnumberlanguage)
+- [msdyn_oclanguage_msdyn_ocvoice_languageid](#BKMK_msdyn_oclanguage_msdyn_ocvoice_languageid)
 - [msdyn_ocoutboundmessage_occustomerlocale](#BKMK_msdyn_ocoutboundmessage_occustomerlocale)
 
 ### <a name="BKMK_msdyn_msdyn_oclanguage_msdyn_livechatconfig_ocWidgetLanguage"></a> msdyn_msdyn_oclanguage_msdyn_livechatconfig_ocWidgetLanguage
@@ -157,6 +159,18 @@ Many-To-One Relationship: [msdyn_octwitterhandle msdyn_msdyn_oclanguage_msdyn_oc
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_msdyn_oclanguage_msdyn_ocvoicechannellanguagesetting_languageid"></a> msdyn_msdyn_oclanguage_msdyn_ocvoicechannellanguagesetting_languageid
+
+Many-To-One Relationship: [msdyn_ocvoicechannellanguagesetting msdyn_msdyn_oclanguage_msdyn_ocvoicechannellanguagesetting_languageid](msdyn_ocvoicechannellanguagesetting.md#BKMK_msdyn_msdyn_oclanguage_msdyn_ocvoicechannellanguagesetting_languageid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicechannellanguagesetting`|
+|ReferencingAttribute|`msdyn_languageid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_oclanguage_msdyn_ocvoicechannellanguagesetting_languageid`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_msdyn_oclanguage_msdyn_ocwechatchannelconfig_wechataccountlanguage"></a> msdyn_msdyn_oclanguage_msdyn_ocwechatchannelconfig_wechataccountlanguage
 
 Many-To-One Relationship: [msdyn_ocwechatchannelconfig msdyn_msdyn_oclanguage_msdyn_ocwechatchannelconfig_wechataccountlanguage](msdyn_ocwechatchannelconfig.md#BKMK_msdyn_msdyn_oclanguage_msdyn_ocwechatchannelconfig_wechataccountlanguage)
@@ -190,6 +204,18 @@ Many-To-One Relationship: [msdyn_smsnumber msdyn_msdyn_oclanguage_msdyn_smsnumbe
 |ReferencingEntity|`msdyn_smsnumber`|
 |ReferencingAttribute|`msdyn_ocwidgetlanguage`|
 |ReferencedEntityNavigationPropertyName|`msdyn_msdyn_oclanguage_msdyn_smsnumber_SMSnumberlanguage`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_oclanguage_msdyn_ocvoice_languageid"></a> msdyn_oclanguage_msdyn_ocvoice_languageid
+
+Many-To-One Relationship: [msdyn_ocvoice msdyn_oclanguage_msdyn_ocvoice_languageid](msdyn_ocvoice.md#BKMK_msdyn_oclanguage_msdyn_ocvoice_languageid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoice`|
+|ReferencingAttribute|`msdyn_languageid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_oclanguage_msdyn_ocvoice_languageid`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

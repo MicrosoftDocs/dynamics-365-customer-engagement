@@ -4,15 +4,15 @@ description: Learn how to use overnight scheduling with the Resource Scheduling 
 ms.date: 07/17/2024
 ms.subservice: resource-scheduling-optimization
 ms.topic: how-to
-author: AnilMur
-ms.author: anilmur
+author: andrewclear-ms
+ms.author: anclear
 ---
 
 # Optimize schedules during the night
 
-Resource Scheduling Optimization is flexible and can be configured to run optimizations based on your organization's scheduling needs. Some organizations prefer running the optimization during the night to provide frontline workers and dispatchers with the latest schedules when they start their days.
+Resource Scheduling Optimization is flexible and lets you set it up to run optimizations based on your organization's scheduling needs. Some organizations prefer running the optimization at night so frontline workers and dispatchers have the latest schedules when they start their day.  
 
-Yon can configure Resource Scheduling Optimization for overnight scheduling so it runs each night at a defined time and schedules work orders for the following day. This article discusses key settings to enable overnight scheduling.
+You can set up Resource Scheduling Optimization for overnight scheduling so it runs each night at a defined time and schedules work orders for the next day. This article explains key settings to enable overnight scheduling.  
 
 ## Configure the optimization scope for overnight scheduling
 
@@ -48,6 +48,6 @@ Yon can configure Resource Scheduling Optimization for overnight scheduling so i
   - **Hours**: Set to **12:00 AM** or some time at the night.
   - **Days Of Week**: Choose the days of business operations. For example, Monday - Friday.
 
-Based on the timer, the system checks the filters and stars an optimization request if there's a matching value. In our example, every hour, Resource Scheduling Optimization checks if the hour of the day is 12:00 AM and the day of the week is Monday through Friday.
+Based on the timer, the system checks the filters and starts an optimization request if there's a matching value. For example, every hour, Resource Scheduling Optimization checks if the hour of the day is 12:00 AM and the day of the week is Monday through Friday.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

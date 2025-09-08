@@ -1,7 +1,7 @@
 ---
 title: How Connected Field Service with IoT Hub works
 description: Learn about the architecture and data flow of Connected Field Service with IoT Hub, a solution that combines Azure IoT and Dynamics 365 Field Service.
-ms.date: 08/08/2024
+ms.date: 09/02/2025
 ms.subservice: connected-field-service
 ms.author: vhorvath
 author: vhorvathms
@@ -37,7 +37,7 @@ The main components include:
 
 - **Azure Stream Analytics**: A service that queries device data as it enters IoT Hub and detects faults based on threshold rules.
 
-- **Threshold Rules Store**: A database that stores the acceptable boundaries for device data. If data exceeds these boundaries, it's considered a fault.
+- **Threshold Rules Store**: A database that stores the acceptable boundaries for device data. Data that exceeds these boundaries is considered a fault.
 
 - **Service Bus**: A service that queues faults and transfers them to Dynamics 365. It also handles retries if the transfer fails.
 

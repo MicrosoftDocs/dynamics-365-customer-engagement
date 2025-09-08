@@ -43,6 +43,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [business_unit_msdyn_chatwidgetlanguage](#BKMK_business_unit_msdyn_chatwidgetlanguage)
 - [business_unit_msdyn_clientextension](#BKMK_business_unit_msdyn_clientextension)
 - [business_unit_msdyn_configuration](#BKMK_business_unit_msdyn_configuration)
+- [business_unit_msdyn_conversation_attribute](#BKMK_business_unit_msdyn_conversation_attribute)
 - [business_unit_msdyn_customengagementctx](#BKMK_business_unit_msdyn_customengagementctx)
 - [business_unit_msdyn_facebookengagementctx](#BKMK_business_unit_msdyn_facebookengagementctx)
 - [business_unit_msdyn_lineengagementctx](#BKMK_business_unit_msdyn_lineengagementctx)
@@ -56,13 +57,17 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [business_unit_msdyn_occommunicationprovidersetting](#BKMK_business_unit_msdyn_occommunicationprovidersetting)
 - [business_unit_msdyn_occommunicationprovidersettingentry](#BKMK_business_unit_msdyn_occommunicationprovidersettingentry)
 - [business_unit_msdyn_occustommessagingchannel](#BKMK_business_unit_msdyn_occustommessagingchannel)
+- [business_unit_msdyn_ocexternalsecuritysetting](#BKMK_business_unit_msdyn_ocexternalsecuritysetting)
 - [business_unit_msdyn_ocfbapplication](#BKMK_business_unit_msdyn_ocfbapplication)
 - [business_unit_msdyn_ocfbpage](#BKMK_business_unit_msdyn_ocfbpage)
+- [business_unit_msdyn_ocgatekeeperengagementctx](#BKMK_business_unit_msdyn_ocgatekeeperengagementctx)
 - [business_unit_msdyn_ocgooglebusinessmessagesagentaccount](#BKMK_business_unit_msdyn_ocgooglebusinessmessagesagentaccount)
 - [business_unit_msdyn_ocgooglebusinessmessagesengagementctx](#BKMK_business_unit_msdyn_ocgooglebusinessmessagesengagementctx)
 - [business_unit_msdyn_ocgooglebusinessmessagespartneraccount](#BKMK_business_unit_msdyn_ocgooglebusinessmessagespartneraccount)
 - [business_unit_msdyn_oclinechannelconfig](#BKMK_business_unit_msdyn_oclinechannelconfig)
 - [business_unit_msdyn_ocoutboundconfiguration](#BKMK_business_unit_msdyn_ocoutboundconfiguration)
+- [business_unit_msdyn_ocphonecallengagementctx](#BKMK_business_unit_msdyn_ocphonecallengagementctx)
+- [business_unit_msdyn_ocphonemusic](#BKMK_business_unit_msdyn_ocphonemusic)
 - [business_unit_msdyn_ocphonenumber](#BKMK_business_unit_msdyn_ocphonenumber)
 - [business_unit_msdyn_ocsmssettingsecret](#BKMK_business_unit_msdyn_ocsmssettingsecret)
 - [business_unit_msdyn_octeamschannelconfig](#BKMK_business_unit_msdyn_octeamschannelconfig)
@@ -70,11 +75,20 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [business_unit_msdyn_octwitterhandle](#BKMK_business_unit_msdyn_octwitterhandle)
 - [business_unit_msdyn_octwitterhandleprovisioningstatus](#BKMK_business_unit_msdyn_octwitterhandleprovisioningstatus)
 - [business_unit_msdyn_octwitterhandlesecret](#BKMK_business_unit_msdyn_octwitterhandlesecret)
+- [business_unit_msdyn_ocvoice](#BKMK_business_unit_msdyn_ocvoice)
+- [business_unit_msdyn_ocvoicechannellanguagesetting](#BKMK_business_unit_msdyn_ocvoicechannellanguagesetting)
+- [business_unit_msdyn_ocvoicechannelsetting](#BKMK_business_unit_msdyn_ocvoicechannelsetting)
 - [business_unit_msdyn_ocwechatchannelconfig](#BKMK_business_unit_msdyn_ocwechatchannelconfig)
 - [business_unit_msdyn_ocwhatsappchannelaccount](#BKMK_business_unit_msdyn_ocwhatsappchannelaccount)
 - [business_unit_msdyn_ocwhatsappchannelnumber](#BKMK_business_unit_msdyn_ocwhatsappchannelnumber)
 - [business_unit_msdyn_optimizationrequest](#BKMK_business_unit_msdyn_optimizationrequest)
 - [business_unit_msdyn_priority](#BKMK_business_unit_msdyn_priority)
+- [business_unit_msdyn_proactive_delivery](#BKMK_business_unit_msdyn_proactive_delivery)
+- [business_unit_msdyn_proactive_delivery_attribute](#BKMK_business_unit_msdyn_proactive_delivery_attribute)
+- [business_unit_msdyn_proactive_eng_config_characteristic](#BKMK_business_unit_msdyn_proactive_eng_config_characteristic)
+- [business_unit_msdyn_proactive_engagement_config](#BKMK_business_unit_msdyn_proactive_engagement_config)
+- [business_unit_msdyn_proactive_engagement_config_attribute](#BKMK_business_unit_msdyn_proactive_engagement_config_attribute)
+- [business_unit_msdyn_proactive_engagement_config_status](#BKMK_business_unit_msdyn_proactive_engagement_config_status)
 - [business_unit_msdyn_questionsequence](#BKMK_business_unit_msdyn_questionsequence)
 - [business_unit_msdyn_requirementchange](#BKMK_business_unit_msdyn_requirementchange)
 - [business_unit_msdyn_requirementcharacteristic](#BKMK_business_unit_msdyn_requirementcharacteristic)
@@ -101,6 +115,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [business_unit_msdyn_timegroupdetail](#BKMK_business_unit_msdyn_timegroupdetail)
 - [business_unit_msdyn_transactionorigin](#BKMK_business_unit_msdyn_transactionorigin)
 - [business_unit_msdyn_twitterengagementctx](#BKMK_business_unit_msdyn_twitterengagementctx)
+- [business_unit_msdyn_voicechannelorganizationsetting](#BKMK_business_unit_msdyn_voicechannelorganizationsetting)
 - [business_unit_msdyn_webengagementruleset](#BKMK_business_unit_msdyn_webengagementruleset)
 - [business_unit_msdyn_webengagementrulesetconfig](#BKMK_business_unit_msdyn_webengagementrulesetconfig)
 - [business_unit_msdyn_webengagementrulesetrevision](#BKMK_business_unit_msdyn_webengagementrulesetrevision)
@@ -110,6 +125,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [business_unit_msdyn_workhourtemplate](#BKMK_business_unit_msdyn_workhourtemplate)
 - [msdyn_bookingalert_businessunit_owningbusinessunit](#BKMK_msdyn_bookingalert_businessunit_owningbusinessunit)
 - [msdyn_ocoutboundmessage_businessunit_owningbusinessunit](#BKMK_msdyn_ocoutboundmessage_businessunit_owningbusinessunit)
+- [msdyn_ocvoicemail_businessunit_owningbusinessunit](#BKMK_msdyn_ocvoicemail_businessunit_owningbusinessunit)
 
 ### <a name="BKMK_business_unit_msdyn_actual"></a> business_unit_msdyn_actual
 
@@ -363,6 +379,18 @@ Many-To-One Relationship: [msdyn_configuration business_unit_msdyn_configuration
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_business_unit_msdyn_conversation_attribute"></a> business_unit_msdyn_conversation_attribute
+
+Many-To-One Relationship: [msdyn_conversation_attribute business_unit_msdyn_conversation_attribute](msdyn_conversation_attribute.md#BKMK_business_unit_msdyn_conversation_attribute)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversation_attribute`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_conversation_attribute`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_business_unit_msdyn_customengagementctx"></a> business_unit_msdyn_customengagementctx
 
 Many-To-One Relationship: [msdyn_customengagementctx business_unit_msdyn_customengagementctx](msdyn_customengagementctx.md#BKMK_business_unit_msdyn_customengagementctx)
@@ -519,6 +547,18 @@ Many-To-One Relationship: [msdyn_occustommessagingchannel business_unit_msdyn_oc
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_business_unit_msdyn_ocexternalsecuritysetting"></a> business_unit_msdyn_ocexternalsecuritysetting
+
+Many-To-One Relationship: [msdyn_ocexternalsecuritysetting business_unit_msdyn_ocexternalsecuritysetting](msdyn_ocexternalsecuritysetting.md#BKMK_business_unit_msdyn_ocexternalsecuritysetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocexternalsecuritysetting`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocexternalsecuritysetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_business_unit_msdyn_ocfbapplication"></a> business_unit_msdyn_ocfbapplication
 
 Many-To-One Relationship: [msdyn_ocfbapplication business_unit_msdyn_ocfbapplication](msdyn_ocfbapplication.md#BKMK_business_unit_msdyn_ocfbapplication)
@@ -540,6 +580,18 @@ Many-To-One Relationship: [msdyn_ocfbpage business_unit_msdyn_ocfbpage](msdyn_oc
 |ReferencingEntity|`msdyn_ocfbpage`|
 |ReferencingAttribute|`owningbusinessunit`|
 |ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocfbpage`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocgatekeeperengagementctx"></a> business_unit_msdyn_ocgatekeeperengagementctx
+
+Many-To-One Relationship: [msdyn_ocgatekeeperengagementctx business_unit_msdyn_ocgatekeeperengagementctx](msdyn_ocgatekeeperengagementctx.md#BKMK_business_unit_msdyn_ocgatekeeperengagementctx)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocgatekeeperengagementctx`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocgatekeeperengagementctx`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
@@ -600,6 +652,30 @@ Many-To-One Relationship: [msdyn_ocoutboundconfiguration business_unit_msdyn_oco
 |ReferencingEntity|`msdyn_ocoutboundconfiguration`|
 |ReferencingAttribute|`owningbusinessunit`|
 |ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocoutboundconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocphonecallengagementctx"></a> business_unit_msdyn_ocphonecallengagementctx
+
+Many-To-One Relationship: [msdyn_ocphonecallengagementctx business_unit_msdyn_ocphonecallengagementctx](msdyn_ocphonecallengagementctx.md#BKMK_business_unit_msdyn_ocphonecallengagementctx)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocphonecallengagementctx`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocphonecallengagementctx`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocphonemusic"></a> business_unit_msdyn_ocphonemusic
+
+Many-To-One Relationship: [msdyn_ocphonemusic business_unit_msdyn_ocphonemusic](msdyn_ocphonemusic.md#BKMK_business_unit_msdyn_ocphonemusic)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocphonemusic`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocphonemusic`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
@@ -687,6 +763,42 @@ Many-To-One Relationship: [msdyn_octwitterhandlesecret business_unit_msdyn_octwi
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_business_unit_msdyn_ocvoice"></a> business_unit_msdyn_ocvoice
+
+Many-To-One Relationship: [msdyn_ocvoice business_unit_msdyn_ocvoice](msdyn_ocvoice.md#BKMK_business_unit_msdyn_ocvoice)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoice`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocvoice`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocvoicechannellanguagesetting"></a> business_unit_msdyn_ocvoicechannellanguagesetting
+
+Many-To-One Relationship: [msdyn_ocvoicechannellanguagesetting business_unit_msdyn_ocvoicechannellanguagesetting](msdyn_ocvoicechannellanguagesetting.md#BKMK_business_unit_msdyn_ocvoicechannellanguagesetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicechannellanguagesetting`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocvoicechannellanguagesetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocvoicechannelsetting"></a> business_unit_msdyn_ocvoicechannelsetting
+
+Many-To-One Relationship: [msdyn_ocvoicechannelsetting business_unit_msdyn_ocvoicechannelsetting](msdyn_ocvoicechannelsetting.md#BKMK_business_unit_msdyn_ocvoicechannelsetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicechannelsetting`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocvoicechannelsetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_business_unit_msdyn_ocwechatchannelconfig"></a> business_unit_msdyn_ocwechatchannelconfig
 
 Many-To-One Relationship: [msdyn_ocwechatchannelconfig business_unit_msdyn_ocwechatchannelconfig](msdyn_ocwechatchannelconfig.md#BKMK_business_unit_msdyn_ocwechatchannelconfig)
@@ -744,6 +856,78 @@ Many-To-One Relationship: [msdyn_priority business_unit_msdyn_priority](msdyn_pr
 |ReferencingEntity|`msdyn_priority`|
 |ReferencingAttribute|`owningbusinessunit`|
 |ReferencedEntityNavigationPropertyName|`business_unit_msdyn_priority`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_proactive_delivery"></a> business_unit_msdyn_proactive_delivery
+
+Many-To-One Relationship: [msdyn_proactive_delivery business_unit_msdyn_proactive_delivery](msdyn_proactive_delivery.md#BKMK_business_unit_msdyn_proactive_delivery)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_delivery`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_proactive_delivery`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_proactive_delivery_attribute"></a> business_unit_msdyn_proactive_delivery_attribute
+
+Many-To-One Relationship: [msdyn_proactive_delivery_attribute business_unit_msdyn_proactive_delivery_attribute](msdyn_proactive_delivery_attribute.md#BKMK_business_unit_msdyn_proactive_delivery_attribute)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_delivery_attribute`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_proactive_delivery_attribute`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_proactive_eng_config_characteristic"></a> business_unit_msdyn_proactive_eng_config_characteristic
+
+Many-To-One Relationship: [msdyn_proactive_eng_config_characteristic business_unit_msdyn_proactive_eng_config_characteristic](msdyn_proactive_eng_config_characteristic.md#BKMK_business_unit_msdyn_proactive_eng_config_characteristic)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_eng_config_characteristic`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_proactive_eng_config_characteristic`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_proactive_engagement_config"></a> business_unit_msdyn_proactive_engagement_config
+
+Many-To-One Relationship: [msdyn_proactive_engagement_config business_unit_msdyn_proactive_engagement_config](msdyn_proactive_engagement_config.md#BKMK_business_unit_msdyn_proactive_engagement_config)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_engagement_config`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_proactive_engagement_config`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_proactive_engagement_config_attribute"></a> business_unit_msdyn_proactive_engagement_config_attribute
+
+Many-To-One Relationship: [msdyn_proactive_engagement_config_attribute business_unit_msdyn_proactive_engagement_config_attribute](msdyn_proactive_engagement_config_attribute.md#BKMK_business_unit_msdyn_proactive_engagement_config_attribute)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_engagement_config_attribute`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_proactive_engagement_config_attribute`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_proactive_engagement_config_status"></a> business_unit_msdyn_proactive_engagement_config_status
+
+Many-To-One Relationship: [msdyn_proactive_engagement_config_status business_unit_msdyn_proactive_engagement_config_status](msdyn_proactive_engagement_config_status.md#BKMK_business_unit_msdyn_proactive_engagement_config_status)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_engagement_config_status`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_proactive_engagement_config_status`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
@@ -1059,6 +1243,18 @@ Many-To-One Relationship: [msdyn_twitterengagementctx business_unit_msdyn_twitte
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_business_unit_msdyn_voicechannelorganizationsetting"></a> business_unit_msdyn_voicechannelorganizationsetting
+
+Many-To-One Relationship: [msdyn_voicechannelorganizationsetting business_unit_msdyn_voicechannelorganizationsetting](msdyn_voicechannelorganizationsetting.md#BKMK_business_unit_msdyn_voicechannelorganizationsetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_voicechannelorganizationsetting`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_voicechannelorganizationsetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_business_unit_msdyn_webengagementruleset"></a> business_unit_msdyn_webengagementruleset
 
 Many-To-One Relationship: [msdyn_webengagementruleset business_unit_msdyn_webengagementruleset](msdyn_webengagementruleset.md#BKMK_business_unit_msdyn_webengagementruleset)
@@ -1164,6 +1360,18 @@ Many-To-One Relationship: [msdyn_ocoutboundmessage msdyn_ocoutboundmessage_busin
 |ReferencingEntity|`msdyn_ocoutboundmessage`|
 |ReferencingAttribute|`owningbusinessunit`|
 |ReferencedEntityNavigationPropertyName|`msdyn_ocoutboundmessage_businessunit_owningbusinessunit`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocvoicemail_businessunit_owningbusinessunit"></a> msdyn_ocvoicemail_businessunit_owningbusinessunit
+
+Many-To-One Relationship: [msdyn_ocvoicemail msdyn_ocvoicemail_businessunit_owningbusinessunit](msdyn_ocvoicemail.md#BKMK_msdyn_ocvoicemail_businessunit_owningbusinessunit)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocvoicemail_businessunit_owningbusinessunit`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

@@ -11,7 +11,7 @@ metadata:
   author: udaykirang
   ms.author: udag
   ms.reviewer: udag
-  ms.date: 09/22/2023
+  ms.date: 08/12/2025
 
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
@@ -57,6 +57,26 @@ landingContent:
             url: project-accurate-revenue-sales-forecasting.md
           - text: View customer activity history 
             url: relationship-analytics.md
+
+# Card 
+  - title: Autonomous AI agents
+    linkLists:
+       - linkListType: concept
+         links:
+          - text: Sales Qualification Agent overview 
+            url: sales-qualification-agent.md
+          - text: Understand the Sales Qualification Agent concepts 
+            url: sales-qualification-agent-concepts.md
+          - text: Opportunity Research Agent overview 
+            url: opportunity-research-agent.md
+       - linkListType: how-to-guide
+         links:
+          - url: use-sales-qualification-agent.md
+            text: Work on leads handed over by the Sales Qualification Agent 
+          - url: monitor-leads-by-sales-qualification-agent.md
+            text: Monitor leads handled by the Sales Qualification Agent 
+          - url: use-opportunity-research-agent.md  
+            text: Work on opportunities handled by the Opportunity Research Agent
 
 # Card 
   - title: Copilot
@@ -159,7 +179,7 @@ landingContent:
             url: print-records.md
 
 # Card 
-  - title: Create a marketing campaign 
+  - title: Marketing and mobile apps
     linkLists:
        - linkListType: how-to-guide
          links:
@@ -175,12 +195,6 @@ landingContent:
             url: add-activity-campaign-using-app-marketing-sales.md
           - text: Track a marketing campaign response 
             url: track-marketing-campaign-response-using-app-marketing-sales.md
-
-# Card 
-  - title: Dynamics 365 Sales mobile app
-    linkLists:
-       - linkListType: how-to-guide
-         links:
           - text: Overview of the mobile app 
             url: sales-mobile/prereq-sales-mobile.md
           - text: Install the app on iOS and Android 

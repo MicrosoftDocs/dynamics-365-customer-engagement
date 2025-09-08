@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Sales table/entity reference"
 description: "This reference contains tables added or modified when you install Dynamics 365 Sales to an environment you create"
-ms.date: 01/26/2025
+ms.date: 08/29/2025
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

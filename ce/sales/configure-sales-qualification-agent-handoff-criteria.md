@@ -23,12 +23,15 @@ Define the ideal customer profile and BANT (Budget, Authority, Need, and Timelin
 
 ## Configure the ideal customer profile and BANT criteria
 
-Both Research-only and Research and engage modes use the ideal customer profile to identify leads that match your target customer characteristics. However, BANT criteria are only used by the Research and engage mode to determine whether to engage with a lead.
+Both Research-only and Research and engage modes use the target customer profile to identify leads that match your target customer characteristics. However, BANT criteria are only used by the Research and engage mode to determine whether to engage with a lead. The handoff criteria is also used to enrich research that produces contextual insights.
 
 By default, the application defines a set of criteria. You can update any out-of-the-box criteria to add or remove attributes. Also, you can create a custom criterion.
 
 1. [Open the Sales Qualification Agent settings](open-sales-qualification-agent-settings.md) page.  
 1. In the **Handoff criteria** section, enter or select the criteria that describe your ideal customer profile, including industries, employee size, decision making roles, customer location, and annual revenue.  
+   > [!NOTE]
+   > Alternatively, select **Generate** to auto-generate the handoff criteria based on the value proposition you specified in the [Products](sales-qualification-agent-general-settings.md) page. The agent uses this information to understand your business and generate the target customer profile.
+
 1. (Research and engage mode only) Specify the BANT (Budget, Authority, Need, Timeline) criteria to help the agent identify leads it should engage with. The agent uses [purchase interest signals](sales-qualification-agent-concepts.md#what-is-purchase-interest-and-how-is-it-determined) along with BANT to evaluate leads and determine whether to engage with them. The agent evaluates the leads in the following order&mdash;need, timeline, budget, and authority.  
    The following table explains when a lead is qualified or disqualified based on the configured criteria:  
 
@@ -46,9 +49,7 @@ By default, the application defines a set of criteria. You can update any out-of
    >[!NOTE]
    > If you don't want the agent to use BANT, you can leave the fields empty. However, we recommend that you define the BANT criterion to help the agent identify leads that it should engage with. When BANT is not defined, the agent uses only the [purchase interest signals](sales-qualification-agent-concepts.md#what-is-purchase-interest-and-how-is-it-determined) to evaluate leads and determine whether to engage with them.
 
-1. Select **Generate** to generate the ideal customer profile and BANT criteria based on the value proposition you entered in the **Value proposition** field. The agent uses this information to understand your business and generate the ideal customer profile and BANT criteria.
-
-1. Under each criteria, expand the **Where's this info stored** section to verify the fields used by default to evaluate the criteria. You can change these fields if needed.
+1. Under each criteria, expand the **Where's this info stored** section to verify the fields used by default to evaluate the criteria. You can change these fields if needed. 
 
    :::image type="content" source="media/sqa-ideal-customer-profile.png" alt-text="Screenshot of the ideal customer profile configuration in Sales Qualification Agent settings.":::
 
@@ -60,7 +61,10 @@ By default, the application defines a set of criteria. You can update any out-of
 
 ## Add custom criteria to your handoff criteria
 
-Use custom criteria to define characteristics that are important for your ideal customer profile. You can map your criteria to custom fields in Dataverse or add public URLs that provide the relevant information. For example, you could add a custom criterion for "Environmental Sustainability Initiatives" and map it to a custom field in Dataverse or provide a URL that lists the company's key environmental initiatives.
+Use custom criteria to define characteristics that are important for your ideal customer profile. You can map your criteria to custom fields in Dataverse or add public URLs that provide the relevant information. For example, you could add a custom criterion for "Environmental Sustainability Initiatives" and map it to a custom field in Dataverse or provide a URL that lists the company's key environmental initiatives. 
+
+> [!TIP]
+> For more custom criteria examples, refer to [Custom criteria examples for sales teams across industries](custom-icp-examples.md).
 
 1. [Open the Sales Qualification Agent settings page](open-sales-qualification-agent-settings.md) and go to the **Handoff criteria** section.
 

@@ -1,7 +1,7 @@
 ---
 title: Set up product bundles to sell multiple items
 description: Encourage customers to buy more products instead of a single product by combining products in a bundle.
-ms.date: 08/12/2024
+ms.date: 08/21/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

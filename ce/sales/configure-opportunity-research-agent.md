@@ -1,7 +1,7 @@
 ---
 title: Configure the Opportunity Research Agent (preview)
 description: Learn how to set up and configure the Opportunity Research Agent in Dynamics 365 Sales.
-ms.date: 08/04/2025
+ms.date: 09/05/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -44,6 +44,7 @@ As the agent consumes capacity, it's important to plan and configure it to handl
     | Microsoft Copilot Studio                       | Copilot Studio is the core platform for building and deploying the agent.                      |
     | Knowledge source with SharePoint or OneDrive      | Required only if the agent is configured to use internal documents on SharePoint or OneDrive for enrichment.                         |
     | Knowledge source with documents                | Required only if the agent is configured to use internal documents for enrichment.                   |
+    | Direct Line channels in Copilot Studio | Required for the agent to connect to Microsoft Copilot Studio. |
 
    Learn more in [Manage data policies](/power-platform/admin/prevent-data-loss?tabs=new).
 
@@ -181,8 +182,10 @@ By default, the agent generates research insights for your competitors from publ
    The **D365 Sales Agent - Competitors** agent's **Knowledge** page opens in Copilot Studio. 
 
 1. Select **Add knowledge** and then select **Upload file**.
-1. Select the documents. You can group similar documents into a group to help the agent understand the context better. For example, you can group all documents related to a specific competitor. Select **Upload** > **Upload as a group** to upload the documents as a group.
+1. Select the documents. You can group similar documents into a group to help the agent understand the context better. For example, you can group all documents related to a specific competitor. Select **Upload** > **Upload as a group** to upload the documents as a group.  
+
    :::image type="content" source="media/group-upload-copilot-studio.png" alt-text="Screenshot of the Group upload option in Copilot Studio.":::  
+
    You can also group individual documents into a single group after uploading them. Select a document in the Knowledge page and select **Create file group** to create a group and add the document to it.
 
 #### Best practices for configuring knowledge sources
@@ -202,6 +205,8 @@ Start the agent only after you have configured all the settings and verified tha
 Select **Start agent** on the **Opportunity Research Agent** settings page.
 The agent is started and its status is set to **On** on the **AI agents** page. The agent starts processing the opportunities that match the selection criteria and generates research insights based on the configured knowledge sources. This process might take some time, depending on the number of opportunities and the complexity of the knowledge sources.
 
+> [!NOTE]
+> If starting of agent fails due to unknown issues, contact Microsoft support.
 
 ## Related information
 

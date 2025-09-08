@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Customer Service table/entity reference"
 description: "This reference contains tables added or modified when you enable the Dynamics 365 Customer Service app while adding Dataverse to an environment you create"
-ms.date: 01/27/2025
+ms.date: 08/29/2025
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

@@ -80,6 +80,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
+- [queueid](#BKMK_queueid)
 - [Reason](#BKMK_Reason)
 - [RuleId](#BKMK_RuleId)
 - [statecode](#BKMK_statecode)
@@ -282,6 +283,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|SystemRequired|
 |Type|EntityName|
 
+### <a name="BKMK_queueid"></a> queueid
+
+|Property|Value|
+|---|---|
+|Description|**The queue that the monitored activity record entered.**|
+|DisplayName|**Queue**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`queueid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|queue|
+
 ### <a name="BKMK_Reason"></a> Reason
 
 |Property|Value|
@@ -319,6 +333,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |16|**Contact creation failed for this sender**|
 |17|**Error matching conditions. Contact Microsoft support.**|
 |18|**Internal failure contact Microsoft support**|
+|19|**Incorrect workflow trigger type**|
 
 ### <a name="BKMK_RuleId"></a> RuleId
 
@@ -623,6 +638,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_activitymonitor_modifiedby](#BKMK_lk_activitymonitor_modifiedby)
 - [lk_activitymonitor_modifiedonbehalfby](#BKMK_lk_activitymonitor_modifiedonbehalfby)
 - [owner_activitymonitor](#BKMK_owner_activitymonitor)
+- [queue_activitymonitor_queueid](#BKMK_queue_activitymonitor_queueid)
 - [task_activitymonitor](#BKMK_task_activitymonitor)
 - [team_activitymonitor](#BKMK_team_activitymonitor)
 - [user_activitymonitor](#BKMK_user_activitymonitor)
@@ -717,6 +733,19 @@ One-To-Many Relationship: [owner owner_activitymonitor](owner.md#BKMK_owner_acti
 |ReferencingEntityNavigationPropertyName|`ownerid`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_queue_activitymonitor_queueid"></a> queue_activitymonitor_queueid
+
+One-To-Many Relationship: [queue queue_activitymonitor_queueid](queue.md#BKMK_queue_activitymonitor_queueid)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`queue`|
+|ReferencedAttribute|`queueid`|
+|ReferencingAttribute|`queueid`|
+|ReferencingEntityNavigationPropertyName|`queueId`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_task_activitymonitor"></a> task_activitymonitor
 

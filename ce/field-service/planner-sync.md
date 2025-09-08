@@ -1,13 +1,15 @@
 ---
 title: Synchronize Microsoft Planner with Field Service (Preview)
 description: Learn how to sync work orders from Field Service with Microsoft Planner.
-ms.date: 11/08/2024
+ms.date: 08/29/2025
 ms.topic: how-to
 ms.author: jacoh
 author: jasonccohen
 ---
 
 # Synchronize Microsoft Planner with Field Service (Preview)
+
+[!INCLUDE [m365-fs-deprecate](../includes/microsoft365-field-service-deprecation.md)]
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 

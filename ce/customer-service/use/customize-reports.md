@@ -1,15 +1,18 @@
 ---
 title: Customize visual display
-description: Learn how to customize out-of-the-box reports in Dynamics 365 Customer Service using the Power BI embedded editing experience.
+description: Edit visual data display for Dynamics 365 Customer Service analytics reports using the Power BI embedded editor. Modify key performance indicators, filter data, edit reports, customize metrics, and create organization-specific dashboard layouts.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 04/30/2025
-ms.custom: 
+ms.date: 09/02/2025
+ms.custom:
   - dyn365-customerservice
   - bap-template
-search.audienceType: 
+  - ai-gen-docs-bap
+  - ai-gen-description
+  - ai-seo-date:08/13/2025
+search.audienceType:
   - admin
   - customizer
 ---
@@ -18,14 +21,18 @@ search.audienceType:
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-Visualize key performance indicators (KPIs) and trends for standard contact center workflows through the out-of-the-box analytics reports. You can use an embedded Power BI editor to customize the out-of-the-box reports to meet your organization's needs:
+Use the embedded Power BI editor to customize the visual display of analytics reports in Dynamics 365 Customer Service. This article shows you how to modify existing visualizations, add new metrics, apply data filters, and create custom layouts that align with your organizational requirements.
 
-- Reveal out-of-the-box metrics that are more relevant to your organization.
-- Modify how the data is displayed. For example, change a tabular view to a graphic that displays the trend over time.
-- Add new pivots and pages. For example, create a pivot or page that's dedicated to a specific queue with queue-level metrics.
-- Rearrange out-of-the-box report layouts and change themes.
+Customize your experience with these capabilities:
+
+- **Reveal relevant metrics**: Show out-of-the-box metrics that matter most to your organization
+- **Transform data displays**: Change tabular views to trend graphics and other visual formats
+- **Create focused views**: Add new pivots and pages for specific queues or teams
+- **Personalize layouts**: Rearrange report layouts and apply custom themes
 
 You can customize the Customer Service historical, Omnichannel historical, Omnichannel real-time analytics, and Real-time analytics for record routing reports in the Copilot Service workspace app. You can't customize unified routing and knowledge analytics reports.
+
+You don't need any licenses to customize the Customer Service historical, Omnichannel historical, and Omnichannel real-time analytics reports embedded in Copilot Service workspace.
 
 > [!NOTE]
 > - After you customize and publish a report, all customizations become visible to all users in your organization.
@@ -34,8 +41,6 @@ You can customize the Customer Service historical, Omnichannel historical, Omnic
 ## Prerequisites
 
 - To edit analytics reports, users must have the **Analytics Report Author** role. Learn more in [Assign roles to users](../implement/add-users-assign-roles.md#assign-roles-to-users).
-
-- You don't need a Power BI license to customize the Customer Service historical, Omnichannel historical, and Omnichannel real-time analytics reports embedded in Copilot Service workspace.
 
 ## Customize the display of analytics reports
 
@@ -85,7 +90,8 @@ If you customize your reports and then Microsoft changes the default data model 
 
 ### Related information
 
-[Introduction to Customer Service Insights](../implement/introduction-customer-service-analytics.md)  
-[Configure Customer Service analytics and insights](../administer/configure-customer-service-analytics-insights-csh.md)  
-[Configure Customer Service Analytics dashboards in Power BI](../implement/configure-customer-service-analytics-dashboard.md)  
-[Configure Omnichannel historical analytics](../administer/oc-historical-analytics-reports.md)
+**Getting started**: [Introduction to Customer Service Insights](../implement/introduction-customer-service-analytics.md)  
+**Initial setup**: [Configure Customer Service analytics and insights](../administer/configure-customer-service-analytics-insights-csh.md)  
+**Advanced reporting**: [Configure Customer Service Analytics dashboards in Power BI](../implement/configure-customer-service-analytics-dashboard.md)  
+**Channel-specific analytics**: [Configure Omnichannel historical analytics](../administer/oc-historical-analytics-reports.md)
+

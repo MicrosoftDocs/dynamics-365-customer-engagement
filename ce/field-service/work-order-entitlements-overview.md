@@ -1,7 +1,7 @@
 ---
 title: Entitlements for work orders overview
 description: Learn about entitlements for work orders in Dynamics 365 Field Service.
-ms.date: 07/10/2024
+ms.date: 08/21/2025
 ms.topic: how-to
 applies_to: 
   - "Dynamics 365 (online)"

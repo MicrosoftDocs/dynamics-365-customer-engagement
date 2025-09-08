@@ -1,8 +1,8 @@
 ## Release schedule
 
-When a new version of Universal Resource Scheduling releases, it becomes available in different geographic regions at different times. The table shows estimates for when the next release will become available in the region of your environment.
+When a new version of Universal Resource Scheduling is released, it's available in different geographic regions at different times. The table shows estimates for when the next release is available in the region of your environment.
 
-For information about other updates to Universal Resource Scheduling, visit the Field Service section of the [Dynamics 365 release plans](/dynamics365/release-plans/).
+For information about other updates to Universal Resource Scheduling, go to the Field Service section of the [Dynamics 365 release plans](/dynamics365/release-plans/).
 For information about older versions, see [Version history archive](../../field-service/version-history-archive.md#universal-resource-scheduling).
 
 | Station | Region | Current version | Next version | Scheduled date |
@@ -154,7 +154,7 @@ For information about older versions, see [Version history archive](../../field-
 
 - Fixed a bug that was causing some field options to be improperly populated when using schedule assistant's booking panel.
 - The Find Availability button is no longer visible when a requirement is deselected and is visible when a requirement group is selected.
-- Fixed a bug where the requirement panel's active tab was not always being cached.
+- Fixed a bug where the requirement panel's active tab wasn't always being cached.
 - Improved schedule assistant's handling of custom entities.
 - Fixed bugs impacting filtering and pagination on the requirement panel of the schedule board.
 - Fixed a bug that was causing some users to be unable to set a booking status on a work order in schedule assistant. 
@@ -176,7 +176,7 @@ For information about older versions, see [Version history archive](../../field-
 **Dataverse:** 4.0.133.37
 
 - Fixed a bug that was causing booking previews in schedule assistant to render on top of the settings panel and legend.
-- We now show an error when users try to derive capacity from group members on resources that are not pools.
+- We now show an error when users try to derive capacity from group members on resources that aren't pools.
 - Fixed a bug that was causing estimated arrival times to be set even when there were no changes.
 - Fixed a bug that was sometimes causing the wrong requirement to be booked when using schedule assistant on work orders with multiple requirements.
 
@@ -201,7 +201,7 @@ For information about older versions, see [Version history archive](../../field-
 - Fixed a bug that was causing the schedule Assistant to ignore fulfillment preferences on the initial load.
 - Fixed a bug that was impacting time labels on Specify Pattern when changing time zones.
 - Schedule Assistant is now using the updated schedule board. The framework underlying the schedule board has been updated, which reduces load times significantly and introduces usability improvements such a day line or tab reordering. For more information, see [The next chapter for the Schedule Board: Enhanced Usability and Performance](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2024/10/31/the-next-chapter-for-the-schedule-board-enhanced-usability-and-performance/).
-  Unsupported customizations to the schedule board, such as DOM manipulations, may be impacted or stop working. Additionally, the updated schedule board is not available in the Resource Scheduling Optimization add-in due to underlying limitations.  
+  Unsupported customizations to the schedule board, such as DOM manipulations, may be impacted or stop working. Additionally, the updated schedule board isn't available in the Resource Scheduling Optimization add-in due to underlying limitations.  
 
 
 ## 3.12.140.11
@@ -244,7 +244,7 @@ For information about older versions, see [Version history archive](../../field-
 - Fixed a bug that was causing some input values to persist after selecting *Reset to Default* in the board settings. 
 - Fixed a bug that was causing a *No results* message in the schedule assistant list view while results are still populating.
 - Fixed a bug that was causing issues with validating *Time Promised* windows on the schedule board when the entity and browser time zones are different.
-- Fixed a bug where the number of available hours in a day for resources were not being displayed in the Gantt view of the schedule assistant.
+- Fixed a bug where the number of available hours in a day for resources weren't being displayed in the Gantt view of the schedule assistant.
 - Working day selections are now honored even when the date range begins on a non-working day and when switching between daily and hourly views.
 
 ## 3.12.137.22
@@ -253,7 +253,7 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.127.22
 
-- Removed toggle for a feature that is not yet active.
+- Removed toggle for a feature that isn't yet active.
 - Various security enhancements.
 
 ## 3.12.141.2 - 2024 Wave 2 Early Access
@@ -285,7 +285,7 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:**  4.0.126.59
 
-- Removed toggle for a feature that is not yet active.
+- Removed toggle for a feature that isn't yet active.
 - Various security enhancements.
   
 ## 3.12.136.53
@@ -312,7 +312,7 @@ For information about older versions, see [Version history archive](../../field-
 - Improved messaging when there are no schedule assistant results due to retrieval limits.
 - Added "Today" label to the related icon on the schedule board.
 - Users can now enter text continuously in the Crew Allocation tool's resource search bar.
-- Fixed a bug where requirement groups were not being created by the system user.
+- Fixed a bug where requirement groups weren't being created by the system user.
 - Fixed a bug that was opening the details panel when selecting a resource from the Create booking panel.
 - The "Learn more" link when no results found on schedule assistant has been redirected to the appropriate documentation.
 - Fixed a bug that was causing "Switch views" to not appear in the right click menu on the schedule board.
@@ -332,7 +332,7 @@ For information about older versions, see [Version history archive](../../field-
 - Users are now notified when one of their booking rules is ignored because it is invalid, broken, or corrupted.
 - New crew member bookings are now reflected on the SB without a manual refresh.
 - Improvements to handling of capacity for requirement groups and facility resources.
-- Fixed a problem where Schedule Asisstant was not returning results when one of the Time From/To Promised fields is empty. 
+- Fixed a problem where Schedule Asisstant wasn't returning results when one of the Time From/To Promised fields is empty. 
 - Fixed a problem that was causing the Create Booking and Details panels to open in each other's place.
 - Improved full-screen experience.
 - Localization improvements.
@@ -345,7 +345,7 @@ For information about older versions, see [Version history archive](../../field-
 **Dataverse:** 4.0.122.8
 
 - Improved rendering for non-working hours on the schedule board.
-- Fixed a bug that was causing some users to experience crashes when working hours did not start at 12 am.
+- Fixed a bug that was causing some users to experience crashes when working hours didn't start at 12 am.
 - Users can now use 24-hour format to enter a time for the End Time field on the booking pane.
 - Added a button to jump to today's date on the schedule board.
 - Fixed a bug that was displaying incorrect travel times for some requirement group bookings.
@@ -366,7 +366,7 @@ For information about older versions, see [Version history archive](../../field-
 - Horizontal scroll location is now maintained when switching views on the schedule board.
 - List view on the schedule assistant now sorts all results instead of just the current page.
 - Various tooltips have been improved.
-- Fixed a bug that was cancelling all related bookings when a Project Operations user canceled a project requirement in an interday view. 
+- Fixed a bug that was canceling all related bookings when a Project Operations user canceled a project requirement in an interday view. 
 - Fixed a bug that was causing the requirement panel to crash when reordering tabs with active filters applied. 
 - Fixed a bug that was mislabeling or and duplicating certain entities in the Related tab of a bookable resource form. 
 
@@ -378,7 +378,7 @@ For information about older versions, see [Version history archive](../../field-
 **Dataverse:** 4.0.120.10
 
 - Inactive organizational units are no longer displayed on the map
-- Custom color setting for working/non-working hours are now used in aggregated views and the hourly view.
+- Custom color setting for working/non-working hours is now used in aggregated views and the hourly view.
 - Fixed a bug that prevented the selection of new some new tabs on the requirement pane. 
 - Fixed a bug with syncing changes to a booking in the schedule assistant grid.
 - Fixed a bug that was causing schedule board to crash when maximizing it from a very small window.
@@ -417,7 +417,7 @@ For information about older versions, see [Version history archive](../../field-
 
 - Users can now select which days of the week are visible on the schedule board.
 - Added a vertical line to indicate current day while in aggregated views.
-- Fixed bug where Move Bookings was not functioning properly in some time zones.
+- Fixed bug where Move Bookings wasn't functioning properly in some time zones.
 - Removed entry point to Schedule Board Settings from Booking Setup Metadata ribbon button.
 
 ## 3.12.124.11
@@ -431,7 +431,7 @@ For information about older versions, see [Version history archive](../../field-
 - Requirement proposed and fulfilled durations now update automatically when bookings are made in Schedule Assistant.
 - Fixed a bug that was impacting the Move Bookings feature for some users.
 - Various security enhancements.
-- Fixed a bug where double clicking on a booking was not opening the record while in the schedule board's hourly view.
+- Fixed a bug where double clicking on a booking wasn't opening the record while in the schedule board's hourly view.
 
 **Resource Scheduling Controls:** 1.2.63.240662
 
@@ -446,7 +446,7 @@ For information about older versions, see [Version history archive](../../field-
 - The time zone setting in the schedule board settings is now reflected when moving a booking.
 - Performance improvements when switching between schedule board tabs.
 - Various security enhancements.
-- Fixed a bug where double clicking on a booking was not opening the record while in the schedule board's hourly view.
+- Fixed a bug where double clicking on a booking wasn't opening the record while in the schedule board's hourly view.
 
 **Resource Scheduling Controls:** 1.2.62.240661
 

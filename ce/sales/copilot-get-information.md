@@ -165,6 +165,9 @@ To drill down into the details of the account, select the suggested prompts that
 
 ## Summarize proposals or sales documents <a name="copilot-doc-summarization"></a>
 
+> [!NOTE]
+> Starting from October 2025, document/proposal summary will be deprecated region-wise. Learn more in [Removed or deprecated features in Dynamics 365 Sales](deprecations-sales.md#document-summary-in-copilot). 
+
 Your records might have sales documents, such as proposals and contracts, associated with them. Copilot can summarize the content of these documents to help you understand their key points. For example, you can ask Copilot to summarize a proposal document to understand the budget, authority (decision maker), need, and timeline (BANT) of the opportunity.
 
 Copilot can summarize only PDF and Word files that it determines are related to sales based on their content length, document type, and use of sales-specific keywords. Learn more in [How does Copilot determine if a document is a sales document?](sales-copilot-faq.md#how-does-copilot-determine-if-a-document-is-a-sales-document).

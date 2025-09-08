@@ -107,6 +107,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_emailtocasemanualflowenabled](#BKMK_msdyn_emailtocasemanualflowenabled)
 - [msdyn_embeddablecopilotwidgetconfiguration](#BKMK_msdyn_embeddablecopilotwidgetconfiguration)
 - [msdyn_followuppromptsenabled](#BKMK_msdyn_followuppromptsenabled)
+- [msdyn_includespecifictemplatesforcopilotrecommendationenabled](#BKMK_msdyn_includespecifictemplatesforcopilotrecommendationenabled)
 - [msdyn_interactionsenabled](#BKMK_msdyn_interactionsenabled)
 - [msdyn_isdeterministicknowledgeenabled](#BKMK_msdyn_isdeterministicknowledgeenabled)
 - [msdyn_isdvcopilotenabled](#BKMK_msdyn_isdvcopilotenabled)
@@ -913,6 +914,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_agentcopilotsetting_msdyn_followuppromptsenabled`|
 |DefaultValue|True|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_includespecifictemplatesforcopilotrecommendationenabled"></a> msdyn_includespecifictemplatesforcopilotrecommendationenabled
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Include Specific Templates For Copilot Recommended Email Templates Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_includespecifictemplatesforcopilotrecommendationenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_agentcopilotsetting_msdyn_includespecifictemplatesforcopilotrecommendationenabled`|
+|DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
 

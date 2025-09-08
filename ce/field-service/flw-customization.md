@@ -1,7 +1,7 @@
 ---
 title: Customize the Microsoft 365 integrations for Field Service
 description: Learn how to tailor the Microsoft 365 integrations for Dynamics 365 Field Service to your business.
-ms.date: 04/18/2024
+ms.date: 08/29/2025
 ms.topic: how-to
 author: matthidinger
 ms.author: mahiding
@@ -11,6 +11,8 @@ ms.subservice: m365-integrations
 ---
 
 # Customize the Microsoft 365 integrations for Field Service
+
+[!INCLUDE [m365-fs-deprecate](../includes/microsoft365-field-service-deprecation.md)]
 
 Customize the work order and booking experiences to help frontline managers and workers accomplish their tasks faster by filling in and retrieving the specific pieces of information they need, when they need it.
 

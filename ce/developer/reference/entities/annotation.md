@@ -48,7 +48,7 @@ Changes from [ObjectId (Microsoft Dataverse)](/power-apps/developer/data-platfor
 
 |Property|Value|
 |---|---|
-|Targets|bookableresource, bookableresourcebooking, bookableresourcebookingheader, bookableresourcecategoryassn, bookableresourcecharacteristic, bookableresourcegroup, bulkoperation, campaign, campaignactivity, campaignresponse, commitment, competitor, contract, contractdetail, entitlement, entitlementchannel, entitlementtemplate, equipment, incident, incidentresolution, invoice, lead, list, msdyn_copilottranscript, msdyn_customerasset, msdyn_forecastconfiguration, msdyn_forecastpredictionstatus, msdyn_functionallocation, msdyn_iotalert, msdyn_iotdevice, msdyn_iotdevicecategory, msdyn_iotdevicecommand, msdyn_iotdeviceregistrationhistory, msdyn_liveconversation, msdyn_ocflaggedspam, msdyn_ocliveworkitem, msdyn_ocsession, msdyn_overflowactionconfig, msdyn_personalsoundsetting, msdyn_playbookinstance, msdyn_playbooktemplate, msdyn_postalbum, msdyn_salessuggestion, msdyn_soundfile, msdyn_soundnotificationsetting, msdyn_swarm, msdyn_taggedrecord, msdyn_transcript, msfp_alert, msfp_question, msfp_surveyinvite, msfp_surveyresponse, opportunity, opportunityclose, orderclose, product, quote, quoteclose, resourcespec, salesorder, service, serviceappointment|
+|Targets|bookableresource, bookableresourcebooking, bookableresourcebookingheader, bookableresourcecategoryassn, bookableresourcecharacteristic, bookableresourcegroup, bulkoperation, campaign, campaignactivity, campaignresponse, commitment, competitor, contract, contractdetail, entitlement, entitlementchannel, entitlementtemplate, equipment, incident, incidentresolution, invoice, lead, list, msdyn_copilottranscript, msdyn_customerasset, msdyn_forecastconfiguration, msdyn_forecastpredictionstatus, msdyn_functionallocation, msdyn_iotalert, msdyn_iotdevice, msdyn_iotdevicecategory, msdyn_iotdevicecommand, msdyn_iotdeviceregistrationhistory, msdyn_liveconversation, msdyn_ocflaggedspam, msdyn_ocliveworkitem, msdyn_ocsession, msdyn_overflowactionconfig, msdyn_personalsoundsetting, msdyn_playbookinstance, msdyn_playbooktemplate, msdyn_postalbum, msdyn_salessuggestion, msdyn_soundfile, msdyn_soundnotificationsetting, msdyn_summarysynthesizerinput, msdyn_summarysynthesizeroutput, msdyn_swarm, msdyn_taggedrecord, msdyn_transcript, msfp_alert, msfp_question, msfp_surveyinvite, msfp_surveyresponse, opportunity, opportunityclose, orderclose, product, quote, quoteclose, resourcespec, salesorder, service, serviceappointment|
 
 
 ## Many-to-One relationships
@@ -96,9 +96,10 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_salessuggestion_Annotations](#BKMK_msdyn_salessuggestion_Annotations)
 - [msdyn_soundfile_Annotations](#BKMK_msdyn_soundfile_Annotations)
 - [msdyn_soundnotificationsetting_Annotations](#BKMK_msdyn_soundnotificationsetting_Annotations)
+- [msdyn_summarysynthesizerinput_Annotations](#BKMK_msdyn_summarysynthesizerinput_Annotations)
+- [msdyn_summarysynthesizeroutput_Annotations](#BKMK_msdyn_summarysynthesizeroutput_Annotations)
 - [msdyn_swarm_Annotations](#BKMK_msdyn_swarm_Annotations)
 - [msdyn_taggedrecord_Annotations](#BKMK_msdyn_taggedrecord_Annotations)
-- [msdyn_transcript_Annotations](#BKMK_msdyn_transcript_Annotations)
 - [msfp_alert_Annotations](#BKMK_msfp_alert_Annotations)
 - [msfp_question_Annotations](#BKMK_msfp_question_Annotations)
 - [msfp_surveyinvite_Annotations](#BKMK_msfp_surveyinvite_Annotations)
@@ -647,6 +648,32 @@ One-To-Many Relationship: [msdyn_soundnotificationsetting msdyn_soundnotificatio
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 
+### <a name="BKMK_msdyn_summarysynthesizerinput_Annotations"></a> msdyn_summarysynthesizerinput_Annotations
+
+One-To-Many Relationship: [msdyn_summarysynthesizerinput msdyn_summarysynthesizerinput_Annotations](msdyn_summarysynthesizerinput.md#BKMK_msdyn_summarysynthesizerinput_Annotations)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_summarysynthesizerinput`|
+|ReferencedAttribute|`msdyn_summarysynthesizerinputid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyn_summarysynthesizerinput`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_summarysynthesizeroutput_Annotations"></a> msdyn_summarysynthesizeroutput_Annotations
+
+One-To-Many Relationship: [msdyn_summarysynthesizeroutput msdyn_summarysynthesizeroutput_Annotations](msdyn_summarysynthesizeroutput.md#BKMK_msdyn_summarysynthesizeroutput_Annotations)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_summarysynthesizeroutput`|
+|ReferencedAttribute|`msdyn_summarysynthesizeroutputid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyn_summarysynthesizeroutput`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
 ### <a name="BKMK_msdyn_swarm_Annotations"></a> msdyn_swarm_Annotations
 
 One-To-Many Relationship: [msdyn_swarm msdyn_swarm_Annotations](msdyn_swarm.md#BKMK_msdyn_swarm_Annotations)
@@ -670,19 +697,6 @@ One-To-Many Relationship: [msdyn_taggedrecord msdyn_taggedrecord_Annotations](ms
 |ReferencedAttribute|`msdyn_taggedrecordid`|
 |ReferencingAttribute|`objectid`|
 |ReferencingEntityNavigationPropertyName|`objectid_msdyn_taggedrecord`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
-
-### <a name="BKMK_msdyn_transcript_Annotations"></a> msdyn_transcript_Annotations
-
-One-To-Many Relationship: [msdyn_transcript msdyn_transcript_Annotations](msdyn_transcript.md#BKMK_msdyn_transcript_Annotations)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_transcript`|
-|ReferencedAttribute|`msdyn_transcriptid`|
-|ReferencingAttribute|`objectid`|
-|ReferencingEntityNavigationPropertyName|`objectid_msdyn_transcript`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

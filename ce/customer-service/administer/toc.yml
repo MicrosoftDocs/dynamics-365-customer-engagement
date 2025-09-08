@@ -672,7 +672,7 @@
         href: enable-auto-assign-conversations.md
       - name: Enable sharing of knowledge articles
         href: set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management
-      - name: Enable session restore to automatically reopen sessions and tabs (preview)
+      - name: Enable session restore to automatically reopen sessions and tabs 
         href: enable-session-restore.md
     - name: Copilot in Customer Service
       items:
@@ -924,6 +924,8 @@
         href: migrate-config-data-for-whatsapp-through-twilio.md
       - name: Migrate configuration data for custom messaging channel
         href: migrate-config-data-for-custom-channel.md
+      - name: Migrate Copilot Studio survey agents configurations
+        href: /dynamics365/contact-center/administer/migrate-survey-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml       
       - name: Migrate automatic record creation rules and SLAs
         href: migrate-automatic-record-creation-and-sla-agreements.md
       - name: Strategy for migrating from contracts to entitlements

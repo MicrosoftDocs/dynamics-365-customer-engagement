@@ -356,6 +356,11 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350072|**Supervisor force closed the conversation**|
 |192350073|**Offer customer callback**|
 |192350074|**Customer callback response**|
+|192350075|**Consult with queue or user group is initiated**|
+|192350076|**Consult with queue or user group is cancelled**|
+|192350077|**No service representatives found for consult with queue or user group**|
+|192350078|**Consult request failed due to system failure**|
+|192350079|**Consult to queue or user group failed due to out of operating hours**|
 |192370001|**Customer's message couldn't be sent: Service is down.**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn

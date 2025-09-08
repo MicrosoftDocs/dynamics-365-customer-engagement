@@ -93,13 +93,13 @@ The **Email Engagement** section includes the following indicators and controls:
 
 ## Choose the most effective delivery time <a name="DeliveryTime"></a>
 
-Your email messages might receive more or less attention depending on when they arrive in recipients' inboxes. For example, many people start their day with a full inbox, so messages that arrive overnight must compete for attention and might get put off or even forgotten. Emails that arrive later in the day might get noticed and handled right away. With email engagement, you can compose your email messages when it's convenient for you, but let Dynamics 365 Sales deliver them when it's best for your recipients.
+Your email messages might receive more or less attention depending on when they arrive in recipients' inboxes. For example, many people start their day with a full inbox, so messages that arrive overnight must compete for attention and might get put off or even forgotten. Emails that arrive later in the day might get noticed and handled right away. With email engagement, you can compose your email messages when it's convenient for you, but let Dynamics 365 Sales deliver them when it's best for your recipients.  
+The system sometimes recommends a delivery time based on the recipient's time zone. It assumes a standard workday of 8:00 AM to 5:00 PM, Monday through Friday, and suggests the next closest business hour if you're working outside the recipient's business day. If the message has more than one recipient or no address is provided, the system doesn't make a recommendation.  
+Your organization must turn on Bing Maps and the recipient must have a physical address in Sales for email engagement to determine the time zone.  
+If no recommendation is given, or if you prefer to use your own logic, you can specify any delivery time you choose.  
 
-The system sometimes recommends a delivery time based on the recipient's time zone. It assumes a standard workday of 8:00 AM to 5:00 PM, Monday through Friday, and suggests the next closest business hour if you're working outside the recipient's business day. If the message has more than one recipient or no address is provided, the system doesn't make a recommendation.
-
-Your organization must turn on Bing Maps and the recipient must have a physical address in Sales for email engagement to determine the time zone.
-
-If no recommendation is given, or if you prefer to use your own logic, you can specify any delivery time you choose.
+> [!NOTE]
+> Currently, sending emails might be delayed up to 30 minutes due to server-side synchronization issues.
 
 The delivery time feature is available for both followed and unfollowed messages.
 
