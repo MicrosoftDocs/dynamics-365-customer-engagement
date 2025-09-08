@@ -49,7 +49,7 @@ Legend:
 
 1. **Score Trend** shows the direction in which a lead is trending, such as **Improving** (up arrow), **Declining** (down arrow), **Steady** (right arrow), or **Not enough info**. Trends are calculated by comparing the current lead score with the previous score. For example, if a lead was scored 65 and is now scored 45, the **Lead Score Trend** column displays a down arrow to indicate that the lead is losing traction and needs some action from you to improve the score.
 
-1. **Grade** ranks lead based on the generated score. Leads with higher grades have more chances of converting to opportunities. Grades are categorized as A, B, C, and D, with colors green, purple, yellow, and red, respectively. Grade A (green) is the lead with the highest likelihood for conversion to an opportunity. Grade D (red) is least likely to convert. System administrators can define lead score ranges for a grade, depending on your organizational requirements.
+1. **Grade** ranks leads based on the generated score. Leads with higher grades have more chances of converting to opportunities. Grades are categorized as A, B, C, and D, with colors green, purple, yellow, and red, respectively. Grade A (green) is the lead with the highest likelihood for conversion to an opportunity. Grade D (red) is least likely to convert. System administrators can define lead score ranges for a grade, depending on your organizational requirements.
 
 ## Understand lead scoring widget
 
