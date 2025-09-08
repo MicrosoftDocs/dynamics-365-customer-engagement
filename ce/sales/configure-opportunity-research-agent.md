@@ -146,6 +146,9 @@ In the **Opportunity assessment** tab, specify the fields that the agent should 
 
 By default, the agent generates research insights for your accounts from public web sources. However, you can configure more knowledge sources, both from your internal knowledge base and external websites, to help the agent generate more relevant and reliable insights. Learn about the best practices for configuring knowledge sources.
 
+> [!NOTE]
+> Ensure that the knowledge sources that you want the agent to use are in the SharePoint folder. Any other file sources such as OneDrive are not supported.
+
 1. In the **Research insights** section, go to **Company insights** > **Knowledge sources for insight**.
    > [!NOTE]
    > If the Sales Qualification Agent and Opportunity Research Agent are in the same environment, they share the same knowledge sources for account insights. The knowledge sources that you add to or remove from one of the agents is reflected in the other agent as well. If you see knowledge sources already, it's possible that those are configured for the Sales Qualification Agent. Don't remove them unless you want to remove them from both the agents.
