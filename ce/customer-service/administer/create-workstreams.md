@@ -16,7 +16,6 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-
 A workstream is a container to enrich, route, and assign work items, and can be associated with a channel, such as live chat, voice, or case.
 
 The workstream can belong to multiple channels of the same type, like multiple chat channels. In this case, all the conversations from these channels inherit the routing and work assignment settings of the workstream they belong to.
@@ -46,21 +45,16 @@ You can create workstreams for unified routing in the Copilot Service admin cent
 1. In the **Create a workstream** dialog, enter the following details:
 
     - **Name**: Enter an intuitive name, such as **Contoso chat workstream**.
-    
     - **Type**: Select one of the following types:
          - **Messaging**
          - **Record**
          - **Voice**
-    
     - **Channel**: This box appears if you selected the type as **Messaging**. Select a channel from the list.
          If you select **Chat**, the **Make chats persistent** checkbox appears. Select the checkbox if you want to configure persistent chat. Also make sure that you select **Keep same agent for entire conversation** in the **Work distribution** settings of the workstream. More information: [Configure persistent chat](persistent-chat.md)
-    
     - **Record**: This box appears if you selected the type as **Record**. Select the record from the list. More information: [Set up record routing](set-up-record-routing.md)
-    
     - **Work distribution mode**: Select **Push** or **Pick**. You can't edit this setting later.
          - In **Push** mode, the system routes the work item to representatives automatically using a message alert. You can configure the push work item to be explicitly picked up. For voice, push mode only is available.
          - In **Pick** mode, the system routes the work item to service representatives when they explicitly pick the work item from the **Open work items** in the representative's dashboard.
-    
     - In **Fallback queue**, select one of the following options:
          - **Create new**: Enter a queue name to which work items are sent when no queue is identified in the the route-to-queue rules. You must add users to the queue after creating the workstream.
          - **Choose existing**: Select an existing queue from the dropdown list. By default, the out-of-the-box queue for the selected channel type is selected.
@@ -88,7 +82,7 @@ You can create workstreams for unified routing in the Copilot Service admin cent
 
 ### Configure routing rules
 
-Routing rules for a workstream consist of work classification rules and route-to-queue rules. For more information about how to configure routing rules, see the following articles:
+Routing rules for a workstream consist of work classification rules and route-to-queue rules. Learn about how to configure routing rules:
 
 - [Configure work classification rules](configure-work-classification.md)
 - [Configure route-to-queue rules](configure-route-to-queue-rules.md)
@@ -105,8 +99,8 @@ In the **Work distribution** area of a workstream, you can either accept the def
   - **Profile based**: Specify a profile in the list if your administrator configured profile-based capacity.
 - **Block capacity for wrap up**: 
   - **Always block**: Is the default selection. The representative capacity is consumed until the representative or supervisor closes the conversation or the system closes them automatically based on the configured time. Learn more in [Close conversations automatically](auto-close-conversation-powerapps.md#default-time-for-automatic-closure-of-conversations).
-  - **Custom time**: The **Custom time in minutes** box is enabled where you can select a duration, such as **1 minute** or **60 minutes** to block capacity. After the specified duration, the system releases the capacity and automatically resets presence.
   - **Don't block**: The representative capacity is released immediately when the conversation moves to the **Wrap-up** state.
+  - **Custom time**: Additional fields are enabled where you can select a duration starting from 30 seconds to 60 minutes to block capacity. At runtime, after the specified duration elapses, the system releases the capacity and automatically resets presence.
   
   > [!NOTE]
   > If you selected **End of Day mode** in capacity profile, representative capacity isn't reset when the duration selected in **Block capacity for wrap up** is over.
@@ -158,7 +152,7 @@ Select a workstream to perform any of the following actions:
 
 ### Representative affinity
 
-The representative affinity feature makes sure that work items are assigned to the service representatives based on their work history. When a waiting conversation becomes active, it's automatically reassigned to the same representative who handled the conversation previously, irrespective of the representative's capacity and presence. However, the agent affinity setting must align with the notification template settings that's associated with the workstream. If auto assign work items is set to no in the notification template, the system overrides the agent affinity setting.
+The representative affinity feature makes sure that work items are assigned to the service representatives based on their work history. When a waiting conversation becomes active, it's automatically reassigned to the same representative who handled the conversation previously, irrespective of the representative's capacity and presence. However, the agent affinity setting must align with the settings of the notification template that's associated with the workstream. If auto assign work items is set to no in the notification template, the system overrides the agent affinity setting.
 
 Agent affinity is enabled by default for persistent chat, SMS, social channels, and Microsoft Teams. In these channels, when a conversation moves from the waiting to active state, it might not get assigned to the same representative who had previously handled it. You can set the **Keep same agent for entire conversation** toggle to **Yes** when you configure the work distribution for the workstream to reassign the conversation to the representative. This helps save the effort to reorient the representative or set the context about the customer issue again. 
 
@@ -179,6 +173,5 @@ You can keep the default templates for sessions and notifications or update to u
 [Manage users](users-user-profiles.md)   
 [Work with queues](queues-omnichannel.md)  
 [Automatically identify customers using pre-chat responses](record-identification-rule.md)  
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

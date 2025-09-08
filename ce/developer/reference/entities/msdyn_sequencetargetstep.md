@@ -188,6 +188,13 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |5|**LinkedIn action**|
 |6|**Automated text message**|
 |7|**Automated Experimentation**|
+|8|**EmailValidation**|
+|9|**Research**|
+|10|**Outreach**|
+|11|**Engage**|
+|12|**Competitor**|
+|13|**Stakeholder**|
+|14|**Handover**|
 |4202|**Email**|
 |4210|**Phone call**|
 |4212|**Task**|
@@ -431,6 +438,13 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |5|**LinkedIn action**|
 |6|**Automated text message**|
 |7|**Automated Experimentation**|
+|8|**EmailValidation**|
+|9|**Research**|
+|10|**Outreach**|
+|11|**Engage**|
+|12|**Competitor**|
+|13|**Stakeholder**|
+|14|**Handover**|
 |4202|**Email**|
 |4210|**Phone call**|
 |4212|**Task**|

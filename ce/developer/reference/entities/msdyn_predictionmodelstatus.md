@@ -83,6 +83,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_Message](#BKMK_msdyn_Message)
 - [msdyn_ModelId](#BKMK_msdyn_ModelId)
 - [msdyn_ModelPath](#BKMK_msdyn_ModelPath)
+- [msdyn_modelsource](#BKMK_msdyn_modelsource)
 - [msdyn_ModelVersion](#BKMK_msdyn_ModelVersion)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_NextComputation](#BKMK_msdyn_NextComputation)
@@ -372,6 +373,28 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|4000|
+
+### <a name="BKMK_msdyn_modelsource"></a> msdyn_modelsource
+
+|Property|Value|
+|---|---|
+|Description|**Source of the prediction model status**|
+|DisplayName|**Model source**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_modelsource`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|192350000|
+|GlobalChoiceName|`msdyn_predictionmodelstatus_msdyn_modelsource`|
+
+#### msdyn_modelsource Choices/Options
+
+|Value|Label|
+|---|---|
+|192350000|**SalesPremiumAdmin**|
+|192350001|**SalesEnterpriseAdmin**|
+|192350002|**Agent**|
 
 ### <a name="BKMK_msdyn_ModelVersion"></a> msdyn_ModelVersion
 

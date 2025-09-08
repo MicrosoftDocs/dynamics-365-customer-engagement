@@ -64,6 +64,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_actiondata](#BKMK_msdyn_actiondata)
 - [msdyn_actiontype](#BKMK_msdyn_actiontype)
+- [msdyn_isfullautonomous](#BKMK_msdyn_isfullautonomous)
 - [msdyn_Name](#BKMK_msdyn_Name)
 - [msdyn_nextactionId](#BKMK_msdyn_nextactionId)
 - [msdyn_regarding](#BKMK_msdyn_regarding)
@@ -131,6 +132,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |100000003|**ReplyToCustomer**|
 |100000004|**GatherIntentDetails**|
 |100000005|**SuggestResolution**|
+
+### <a name="BKMK_msdyn_isfullautonomous"></a> msdyn_isfullautonomous
+
+|Property|Value|
+|---|---|
+|Description|**Whether the SNA is in full autonomous mode or semi autonomous mode**|
+|DisplayName|**Is Full Autonomous**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isfullautonomous`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_nextaction_msdyn_isfullautonomous`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_Name"></a> msdyn_Name
 

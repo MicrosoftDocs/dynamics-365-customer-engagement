@@ -1,7 +1,7 @@
 ---
 title: Resource Scheduling Optimization version history
 description: Version updates and updated features in the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service.
-ms.date: 07/22/2025
+ms.date: 08/24/2025
 ms.subservice: resource-scheduling-optimization
 ms.topic: overview
 author: DaPisani
@@ -20,28 +20,32 @@ For information about older versions, see [Version history archive](version-hist
 |Station | Region | Current version | Next version |  Scheduled date
 |------| -------|-------|-----|------|
 |**Station 1** | | |  | |
-| | *First Release* | [3.4.0.917](#340917) | [3.4.0.1406](#3401406) | 05/09/2025
+| | *First Release* | [3.4.0.917](#340917) | [3.5.0.42](#35042) | 08/22/2025
 |**Station 2** | | |  | |
-| | *South America* | [3.4.0.917](#340917) | [3.4.0.1406](#3401406) | 05/16/2025
-| | *Canada* | [3.4.0.917](#340917)  | [3.4.0.1406](#3401406) | 05/16/2025
-| | *India* | [3.4.0.917](#340917) | [3.4.0.1406](#3401406) | 05/16/2025
-| | *France* | [3.4.0.917](#340917) | [3.4.0.1406](#3401406) | 05/16/2025
-| | *United Arab Emirates* | [3.4.0.917](#340917) | [3.4.0.1406](#3401406) | 05/16/2025
+| | *South America* | [3.4.0.917](#340917) | [3.5.0.42](#35042) | 08/29/2025
+| | *Canada* | [3.4.0.917](#340917)  | [3.5.0.42](#35042) | 08/29/2025
+| | *India* | [3.4.0.917](#340917) | [3.5.0.42](#35042) | 08/29/2025
+| | *France* | [3.4.0.917](#340917) | [3.5.0.42](#35042) | 08/29/2025
+| | *United Arab Emirates* | [3.4.0.917](#340917) | [3.5.0.42](#35042) | 08/29/2025
 |**Station 3** | |  |  | |
-| | *Japan* |  [3.4.0.917](#340917)| [3.4.0.1406](#3401406) | 05/23/2025
-| | *Asia Pacific* | [3.4.0.917](#340917) | [3.4.0.1406](#3401406) | 05/23/2025
-| | *Great Britain* |[3.4.0.917](#340917) | [3.4.0.1406](#3401406) | 05/23/2025
-| | *Oceania* | [3.4.0.917](#340917) | [3.4.0.1406](#3401406) | 05/23/2025
+| | *Japan* |  [3.4.0.917](#340917)| [3.5.0.42](#35042) | 09/05/2025
+| | *Asia Pacific* | [3.4.0.917](#340917) | [3.5.0.42](#35042) | 09/05/2025
+| | *Great Britain* |[3.4.0.917](#340917) | [3.5.0.42](#35042) | 09/05/2025
+| | *Oceania* | [3.4.0.917](#340917) | [3.5.0.42](#35042) | 09/05/2025
 |**Station 4** | |  |  | |
-| | *Europe* | [3.4.0.917](#340917) | [3.4.0.1406](#3401406) | 05/30/2025
+| | *Europe* | [3.4.0.917](#340917) | [3.5.0.42](#35042) | 09/12/2025
 |**Station 5** | |  |  | |
-| | *North America* | [3.4.0.917](#340917) | [3.4.0.1406](#3401406) | 06/06/2025
+| | *North America* | [3.4.0.917](#340917) | [3.5.0.42](#35042) | 09/19/2025
 |**Station 6** | |  |  | |
-| | *Dedicated Scale Groups* | [3.4.0.917](#340917) | [3.4.0.1406](#3401406) | 06/13/2025
+| | *Dedicated Scale Groups* | [3.4.0.917](#340917) | [3.5.0.42](#35042) | 09/26/2025
 
 >[!NOTE]
 >
 > - Dates in all regions indicate the timing of the next automatic update. While most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.5.0.42
+This release contains the following:
+- Fixes related to backend infrastructure upgrade introduced in [3.5.0.25](#35025)
 
 ## 3.5.0.25
 This release contains the following:

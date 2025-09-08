@@ -202,7 +202,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DisplayName|**workstream**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|`msdyn_workstreamId`|
+|LogicalName|`msdyn_workstreamid`|
 |RequiredLevel|SystemRequired|
 |Type|Lookup|
 |Targets|msdyn_liveworkstream|
@@ -695,8 +695,8 @@ One-To-Many Relationship: [msdyn_liveworkstream msdyn_workstream_liveconversatio
 |---|---|
 |ReferencedEntity|`msdyn_liveworkstream`|
 |ReferencedAttribute|`msdyn_liveworkstreamid`|
-|ReferencingAttribute|`msdyn_workstreamId`|
-|ReferencingEntityNavigationPropertyName|`msdyn_workstreamId`|
+|ReferencingAttribute|`msdyn_workstreamid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_workstreamid`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

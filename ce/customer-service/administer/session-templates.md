@@ -4,7 +4,7 @@ description: Learn about managing session templates in Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 04/15/2025
+ms.date: 08/19/2025
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -61,7 +61,7 @@ The following out-of-the-box session templates are generic and are for use in th
     | General | Name | Specify the name of the session. This name won't be visible to the representatives at the runtime. | Chat session |
     | General | Unique Name | A unique identifier in the <*prefix*>_<*name*> format. <br>**IMPORTANT**<br> The following are required for the unique name: <ul><li>The prefix can be alphanumeric only and its length must be between 3 to 8 characters.</li><li> An underscore must be there between the prefix and name.</li></ul><br> You can select the light bulb icon, and then select **Apply** to verify whether the name you've entered meets the requirements. | msdyn_chat_custom |
     | General | Type | Select one of the following:<br> <ul><li> **Entity:** If you select entity, the **Entity** field is displayed.</li><li>**Generic:** Select when the template is  required to be assigned to any channel. </li>| Entity|
-    | General | Entity | Select an entity from the list.<br> **Note:** The option is displayed only when **Type** is entity. | Case |
+    | General | Entity | Select an entity from the list.<br> **Note:** The list displays user-owned entities only. | Case |
     | General | Title | Provide the title of the session that you want representatives to see at the runtime. | {customerName} |
     | General | Communication panel mode | Select the default mode of the panel when a session is started. Choose one of the following: <br> <ul><li> **Docked**: The panel will be in expanded mode. </li> <li> **Minimized**: The panel will be in minimized mode. <li> **Hidden**: The panel will be hidden. </ul> <br> **Note**: For an entity routing session—that is, for a case session—the communication panel mode is hidden. | Docked |
     | General | Session Icon| Select an icon to represent the channel from which the conversation is initiated so that your representative can visually identify the channel.<br> **Note**:<ul><li>Is available for generic type of templates only.</li><li>A web resource file for the icon must be deployed.</li> <li> You can use a web resource file only and not slugs to customize the session icon.</li><li>GIF files aren't supported.</li> </ul> | WhatsApp.ico|

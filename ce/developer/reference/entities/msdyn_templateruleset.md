@@ -76,7 +76,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_publishedon](#BKMK_msdyn_publishedon)
 - [msdyn_publishedruleset](#BKMK_msdyn_publishedruleset)
-- [msdyn_streamsource](#BKMK_msdyn_streamsource)
 - [msdyn_templaterulesetId](#BKMK_msdyn_templaterulesetId)
 - [msdyn_type](#BKMK_msdyn_type)
 - [msdyn_UniqueName](#BKMK_msdyn_UniqueName)
@@ -249,26 +248,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Lookup|
 |Targets|msdyn_decisionruleset|
-
-### <a name="BKMK_msdyn_streamsource"></a> msdyn_streamsource
-
-|Property|Value|
-|---|---|
-|Description|**The channel to which Template is attached**|
-|DisplayName|**Channel**|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|`msdyn_streamsource`|
-|RequiredLevel|None|
-|Type|Picklist|
-|DefaultFormValue|-1|
-|GlobalChoiceName|`msdyn_streamsource`|
-
-#### msdyn_streamsource Choices/Options
-
-|Value|Label|
-|---|---|
-|192350000|**Entity Records**|
 
 ### <a name="BKMK_msdyn_templaterulesetId"></a> msdyn_templaterulesetId
 
@@ -656,7 +635,7 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`owningbusinessunit`|
-|RequiredLevel|None|
+|RequiredLevel|SystemRequired|
 |Type|Lookup|
 |Targets|businessunit|
 

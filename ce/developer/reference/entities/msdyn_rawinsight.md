@@ -63,6 +63,7 @@ The following table lists selected properties for the msdyn_rawinsight table.
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_audienceaccess](#BKMK_msdyn_audienceaccess)
 - [msdyn_dataformatversion](#BKMK_msdyn_dataformatversion)
 - [msdyn_externalcrmorgid](#BKMK_msdyn_externalcrmorgid)
 - [msdyn_insightlocale](#BKMK_msdyn_insightlocale)
@@ -97,6 +98,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|2147483647|
 |MinValue|-2147483648|
+
+### <a name="BKMK_msdyn_audienceaccess"></a> msdyn_audienceaccess
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**msdyn\_audienceaccess**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_audienceaccess`|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_dataformatversion"></a> msdyn_dataformatversion
 

@@ -173,6 +173,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |26|**Who Knows Whom**|
 |27|**Schedule ODOS deprecation**|
 |28|**Clean up expired activity mapping records**|
+|29|**Process TSA records**|
 
 ### <a name="BKMK_msdyn_IsRecurrencePatternSchedule"></a> msdyn_IsRecurrencePatternSchedule
 
