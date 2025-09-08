@@ -814,6 +814,8 @@ items:
             href: copilot-overview.md
           - name: Ask Copilot questions
             href: use-sales-copilot.md
+          - name: Summarize records
+            href: copilot-summarize-records.md
           - name: Prompt guide reference
             href: copilot-prompt-guide.md
           - name: Get information
