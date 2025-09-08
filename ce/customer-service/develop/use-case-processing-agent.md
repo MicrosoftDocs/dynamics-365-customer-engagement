@@ -41,8 +41,8 @@ POST [Organization URI]/api/data/v9.2/msdyn_invokeCaseProcessingAgent
 
 | Property                | Type   | Required | Description |
 |-------------------------|--------|----------|-------------|
-| **action**              | String enum | Yes | Defines CPA action to run.<br>Values: <ul><li>**Resolve**: Resolve the case using the Case Management Agent's resolution capabilities.</li><li> **Enrich**: Extracts information from a source entity, such as an email, and updates the case with relevant details.</li></ul> |
-| **automationMode**      | String enum | No (applies to case resolution only) | Defines automation mode for the action. If not provided, CPA uses the mode configured in the admin experience.<br>Values: <ul><li>**Full**: AI agent resolves the case automatically without customer service representative (service representative or representative) intervention.</li>, <li>**Semi**: AI agent drafts resolution emails but requires service representative's review and approval</li></ul> |
+| **action**              | String enum | Yes | Defines CPA action to run.<br>Values: <ul><li>**Resolve**: Resolve the case using the Case Management Agent's resolution capabilities.</li><li> **Enrich**: Extracts information from a source entity, such as an email, and updates the case with relevant details.<br> The source entity must be accessible and contain relevant case information</li></ul> |
+| **automationMode**      | String enum | No | Defines automation mode for the action. This applies to case resolution only. If this value isn't provided, the agent uses the mode configured by the administrator.<br>Values: <ul><li>**Full**: AI agent resolves the case automatically without customer service representative (service representative or representative) intervention.</li>, <li>**Semi**: AI agent drafts resolution emails but requires service representative's review and approval</li></ul> |
 | **sourceContextEntity** | Entity reference string | Required for enrichment | Context entity, such as an email or a conversation.<br>Example: `"emails(0e20cf92-f663-f011-bec1-000d3a3622ba)"` |
 
 
