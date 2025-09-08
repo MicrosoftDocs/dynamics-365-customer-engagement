@@ -67,7 +67,7 @@ To view translated voice transcripts for calls, you must enable call recording, 
   
    > [!div class="mx-imgBorder"]
    > ![Screenshot of closed conversation list.](../media/voice-channel-conversations-list.png)
-[!NOTE]
+> [!NOTE]
 > Transcript timestamps are grouped by two-minute intervals to account for potential drifts caused by delays. Drift occurs when a system's recorded timestamps gradually diverge from actual event times due to polling delays and other timing inconsistencies. Grouping events into two-minute intervals helps maintain consistency by accounting for these small but accumulating discrepancies.
    
 ## Set up bulk download of call recordings
