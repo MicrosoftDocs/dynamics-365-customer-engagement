@@ -66,7 +66,7 @@ POST [Organization URI]/api/data/v9.2/msdyn_invokeCaseProcessingAgent
 
 In the example below, you can execute invoke the Case Management Agent from Dataverse plugins or custom code by executing the `msdyn_invokeCaseProcessingAgent` organization request. The agent is used to update the case using a related email entity and then resolve the case with full automation.
 
-### Example code
+
 
 ```C#
 CrmServiceClient GetService()
