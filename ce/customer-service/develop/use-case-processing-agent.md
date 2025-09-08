@@ -34,16 +34,16 @@ POST [Organization URI]/api/data/v9.2/msdyn_invokeCaseProcessingAgent
 
 | Property                | Type                    | Required | Description |
 |-------------------------|-------------------------|----------|-------------|
-| **msdyn_incidentId**    | GUID string             | Yes      | The ID of the case (incident) on which Case Management Agent should run.<br>Example: `"3895d023-a353-f011-877b-6045bd062e87"` |
+| **msdyn_incidentId**    | String             | Yes      | The ID of the case (incident) on which Case Management Agent should run.<br>Example: `"3895d023-a353-f011-877b-6045bd062e87"` |
 | **msdyn_actions**       | Stringified JSON array  | Yes      | Defines which Case Management Agent actions/capabilities to perform. See details below. |
 
 ### msdyn_actions array object
 
 | Property                | Type   | Required | Description |
 |-------------------------|--------|----------|-------------|
-| **action**              | String enum | Yes | Defines CPA action to run.<br>Values: <ul><li>**Resolve**: Resolve the case using the Case Management Agent's resolution capabilities.</li><li> **Enrich**: Extracts information from a source entity, such as an email, and updates the case with relevant details.<br> The source entity must be accessible and contain relevant case information</li></ul> |
-| **automationMode**      | String enum | No | Defines automation mode for the action. This applies to case resolution only. If this value isn't provided, the agent uses the mode configured by the administrator.<br>Values: <ul><li>**Full**: AI agent resolves the case automatically without customer service representative (service representative or representative) intervention.</li>, <li>**Semi**: AI agent drafts resolution emails but requires service representative's review and approval</li></ul> |
-| **sourceContextEntity** | Entity reference string | Required for enrichment | Context entity, such as an email or a conversation.<br>Example: `"emails(0e20cf92-f663-f011-bec1-000d3a3622ba)"` |
+| **action**              | String  | Yes | Defines CPA action to run.<br>Values: <ul><li>**Resolve**: Resolve the case using the Case Management Agent's resolution capabilities.</li><li> **Enrich**: Extracts information from a source entity, such as an email, and updates the case with relevant details.<br> The source entity must be accessible and contain relevant case information</li></ul> |
+| **automationMode**      | String | No | Defines automation mode for the action. This applies to case resolution only. If this value isn't provided, the agent uses the mode configured by the administrator.<br>Values: <ul><li>**Full**: AI agent resolves the case automatically without customer service representative (service representative or representative) intervention.</li>, <li>**Semi**: AI agent drafts resolution emails but requires service representative's review and approval</li></ul> |
+| **sourceContextEntity** | String | Yes | This is a required value for case enrichment. The source entity, such as an email or a conversation that must be used to update the case.<br>Example: `"emails(0e20cf92-f663-f011-bec1-000d3a3622ba)"` |
 
 
 ### Sample request
