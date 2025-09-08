@@ -120,7 +120,7 @@ Complete the following steps for the channel in which you want to create custom 
 
 > [!NOTE]
 > The supported locale is mentioned in the out-of-the-box system messages that you can see in Copilot Service admin center.
-
+> If post-call survey is enabled for the workstream, the system doesn't play the agent disconnect message to the customer. 
 
 ## Best practices for using automated messages
 

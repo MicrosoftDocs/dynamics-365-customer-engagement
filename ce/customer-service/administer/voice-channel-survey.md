@@ -62,7 +62,7 @@ You can add messages or questions to a Copilot Studio IVR agent to create a post
 > We recommend that you have two agents if your organization wants to use Copilot Studio for both IVR and survey scenarios.
 
 > [!div class="mx-imgBorder"]
-> ![Greetings in PVA.](../media/configure-survey-bot.png)
+> ![Greetings in Microsoft Copilot Studio.](../media/configure-survey-bot.png)
 
 
 > [!div class="mx-imgBorder"]
