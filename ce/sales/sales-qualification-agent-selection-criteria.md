@@ -64,4 +64,5 @@ Read the [create and activate a segment](wa-create-and-activate-a-segment.md#cre
 
 ## Related information
 
-[Configure the Sales Qualification Agent](configure-sales-qualification-agent.md)
+- [Configure the Sales Qualification Agent](configure-sales-qualification-agent.md)  
+- [Configure Sales Qualification Agent to use fields enriched with Zoominfo or D&B data](use-zoominfo-dnb-data-in-sales-qualification-agent.md)

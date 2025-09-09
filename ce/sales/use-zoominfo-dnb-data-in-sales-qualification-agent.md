@@ -1,5 +1,5 @@
 ---
-title: Configure Sales Qualification Agent to use fields enriched with Zoominfo or D&B data
+title: Configure Sales Qualification Agent to use fields enriched with Zoominfo or Dun & Bradstreet data
 description: Learn to configure the Sales Qualification Agent in Dynamics 365 Sales with ZoomInfo or Dun & Bradstreet enriched fields for precise lead qualification.
 author: lavanyakr01
 ms.author: lavanyakr

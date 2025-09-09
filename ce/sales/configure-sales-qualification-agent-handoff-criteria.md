@@ -112,3 +112,4 @@ The following Dataverse attribute types aren't supported for handoff criteria:
 
 - [Configure the Sales Qualification Agent](configure-sales-qualification-agent.md)
 - [Understand Sales Qualification Agent concepts](sales-qualification-agent-concepts.md)
+- [Configure Sales Qualification Agent to use fields enriched with Zoominfo or D&B data](use-zoominfo-dnb-data-in-sales-qualification-agent.md)
