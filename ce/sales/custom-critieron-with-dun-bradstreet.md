@@ -1,5 +1,5 @@
 ---
-title: Configure custom criteria using Dataverse fields synched with Dun & Bradstreet
+title: Configure Sales Qualification Agent to use Dun & Bradstreet data
 description: Discover how to integrate Dun & Bradstreet data with Dynamics 365 Sales to enrich leads and streamline qualification with custom ICP rules.
 author: lavanyakr01
 ms.author: lavanyakr
@@ -8,11 +8,11 @@ ms.date: 09/09/2025
 ms.topic: concept-article
 ---
 
-# Configure custom criteria using Dataverse fields synched with Dun & Bradstreet
+# Configure Sales Qualification Agent to use Dun & Bradstreet data
 
 The Sales Qualification Agent in Dynamics 365 Sales automates lead research and engagement by evaluating leads against your Ideal Customer Profile (ICP). You can define custom ICP criteria using Dataverse fields—many of which can be enriched with firmographic data from Dun & Bradstreet (D&B). This article explains how to configure these criteria to leverage data synced from D&B for more precise lead qualification.
 
-## Step 1: Install and set up Dun & Bradstreet sync
+## Step 1: Install and set up Dun & Bradstreet synch
 
 Before using D&B data in your custom criteria, you must install and configure the [Dun & Bradstreet Optimizer App for Microsoft](https://appsource.microsoft.com/en-us/product/dynamics-365/dnb.dnb_optimizer) from Microsoft AppSource. For step-by-step instructions, refer to the official installation guide under **Details + Support** > **Help** on the AppSource page.
 
@@ -46,7 +46,7 @@ Once Dun & Bradstreet sync is active, the following fields in the lead and accou
 
 - **D-U-N-S Number** (dunsnumber)
 
-## Step 3: Configure the Sales Qualification Agent to use the enriched fields
+## Step 3: Configure the Sales Qualification Agent to use D&B enriched fields
 
 After you synch Dun & Bradstreet data into Dataverse, you can configure the Sales Qualification Agent to use these enriched fields in the following agent configurations:
 
@@ -61,8 +61,7 @@ After you synch Dun & Bradstreet data into Dataverse, you can configure the Sale
   | Country        | address1_country  | Equals “United States”   |
   | D-U-N-S Number | dunsnumber        | Is not empty             |
 
-
-# Step 4: Validate and Monitor
+## Step 4: Validate and monitor
 
 - Use the [testing guide](test-sales-qualification-agent.md) to simulate leads with varying degrees of fit.
 
