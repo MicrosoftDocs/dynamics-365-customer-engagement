@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: overview
-ms.date: 08/14/2025
+ms.date: 08/26/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -37,7 +37,7 @@ As a supervisor, you can view the **Real-time analytics for record routing** das
 
 1. In the Copilot Service workspace app, select **Real-time analytics for record routing** in **Service**.
 2. The **Summary** report opens by default.
-3. Select tabs for **Queue**, **Agent**, **Ongoing work items**, or **Backlog work items** reports.
+3. Select the dropdown for **Queue**, **Agent**, **Ongoing work items**, or **Backlog work items** reports.
 
 If you can't view the reports, contact your system administrator. Learn more in [Manage real-time analytics for record routing](../administer/enable-record-routing.md#manage-real-time-analytics-for-record-routing).
 

@@ -21,14 +21,41 @@ Provisioning state
 
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
+- [msdyn_AutomatedCallingStatus](#BKMK_msdyn_AutomatedCallingStatus)
 - [msdyn_communicationprovidersettingid](#BKMK_msdyn_communicationprovidersettingid)
 - [msdyn_exceptiondetails](#BKMK_msdyn_exceptiondetails)
+- [msdyn_gatekeeperstatus](#BKMK_msdyn_gatekeeperstatus)
+- [msdyn_gatekeeperstatusreason](#BKMK_msdyn_gatekeeperstatusreason)
 - [msdyn_ocfbapplicationid](#BKMK_msdyn_ocfbapplicationid)
 - [msdyn_ocfbpageid](#BKMK_msdyn_ocfbpageid)
 - [msdyn_oclinechannelconfigid](#BKMK_msdyn_oclinechannelconfigid)
 - [msdyn_octeamschannelconfigid](#BKMK_msdyn_octeamschannelconfigid)
 - [msdyn_ocwhatsappchannelaccountId](#BKMK_msdyn_ocwhatsappchannelaccountId)
 - [msdyn_phonenumberid](#BKMK_msdyn_phonenumberid)
+- [msdyn_voicechannelsettingid](#BKMK_msdyn_voicechannelsettingid)
+
+### <a name="BKMK_msdyn_AutomatedCallingStatus"></a> msdyn_AutomatedCallingStatus
+
+|Property|Value|
+|---|---|
+|Description|**Automated Calling Status for Heavy Metal Migration Automated Calling feature.**|
+|DisplayName|**Automated Calling Status**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_automatedcallingstatus`|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
+|DefaultFormValue|0|
+|GlobalChoiceName|`msdyn_ocprovisioningstate_msdyn_automatedcallingstatus`|
+
+#### msdyn_AutomatedCallingStatus Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**NotTested**|
+|1|**Success**|
+|2|**Failure**|
+|3|**InProgress**|
 
 ### <a name="BKMK_msdyn_communicationprovidersettingid"></a> msdyn_communicationprovidersettingid
 
@@ -59,6 +86,49 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|8192|
+
+### <a name="BKMK_msdyn_gatekeeperstatus"></a> msdyn_gatekeeperstatus
+
+|Property|Value|
+|---|---|
+|Description|**Provisioning Status for GateKeeper**|
+|DisplayName|**GateKeeper Status**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_gatekeeperstatus`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_ocprovisioningstate_msdyn_gatekeeperstatus`|
+
+#### msdyn_gatekeeperstatus Choices/Options
+
+|Value|Label|
+|---|---|
+|715240000|**Active**|
+|715240001|**Inactive**|
+
+### <a name="BKMK_msdyn_gatekeeperstatusreason"></a> msdyn_gatekeeperstatusreason
+
+|Property|Value|
+|---|---|
+|Description|**Provisioning Status Reason for GateKeeper**|
+|DisplayName|**GateKeeper Status Reason**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_gatekeeperstatusreason`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_ocprovisioningstate_msdyn_gatekeeperstatusreason`|
+
+#### msdyn_gatekeeperstatusreason Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**Running**|
+|1|**Error**|
+|2|**Deprovisioned**|
 
 ### <a name="BKMK_msdyn_ocfbapplicationid"></a> msdyn_ocfbapplicationid
 
@@ -138,6 +208,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Lookup|
 |Targets|msdyn_ocphonenumber|
 
+### <a name="BKMK_msdyn_voicechannelsettingid"></a> msdyn_voicechannelsettingid
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**voicechannelsettingsid**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_voicechannelsettingid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_ocvoicechannelsetting|
+
 
 ## Customized columns/attributes
 
@@ -162,6 +245,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_msdyn_ocfbapplication_msdyn_ocprovisioningstate](#BKMK_msdyn_msdyn_ocfbapplication_msdyn_ocprovisioningstate)
 - [msdyn_msdyn_ocfbpage_msdyn_ocprovisioningstate](#BKMK_msdyn_msdyn_ocfbpage_msdyn_ocprovisioningstate)
 - [msdyn_msdyn_ocphonenumber_msdyn_ocprovisioningstate_phonenumberid](#BKMK_msdyn_msdyn_ocphonenumber_msdyn_ocprovisioningstate_phonenumberid)
+- [msdyn_msdyn_ocvoicechannelsetting_msdyn_ocprovisioningstate_voicechannelsettingid](#BKMK_msdyn_msdyn_ocvoicechannelsetting_msdyn_ocprovisioningstate_voicechannelsettingid)
 - [msdyn_oclinechannelconfig_msdyn_ocprovisioningstate_oclinechannelconfigid](#BKMK_msdyn_oclinechannelconfig_msdyn_ocprovisioningstate_oclinechannelconfigid)
 - [msdyn_octeamschannelconfig_msdyn_ocprovisioningstate_octeamschannelconfigid](#BKMK_msdyn_octeamschannelconfig_msdyn_ocprovisioningstate_octeamschannelconfigid)
 - [msdyn_ocwhatsappchannelaccount_msdyn_ocprovisioningstate_msdyn_ocwhatsappchannelaccountId](#BKMK_msdyn_ocwhatsappchannelaccount_msdyn_ocprovisioningstate_msdyn_ocwhatsappchannelaccountId)
@@ -217,6 +301,19 @@ One-To-Many Relationship: [msdyn_ocphonenumber msdyn_msdyn_ocphonenumber_msdyn_o
 |ReferencingEntityNavigationPropertyName|`msdyn_phonenumberid`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_msdyn_ocvoicechannelsetting_msdyn_ocprovisioningstate_voicechannelsettingid"></a> msdyn_msdyn_ocvoicechannelsetting_msdyn_ocprovisioningstate_voicechannelsettingid
+
+One-To-Many Relationship: [msdyn_ocvoicechannelsetting msdyn_msdyn_ocvoicechannelsetting_msdyn_ocprovisioningstate_voicechannelsettingid](msdyn_ocvoicechannelsetting.md#BKMK_msdyn_msdyn_ocvoicechannelsetting_msdyn_ocprovisioningstate_voicechannelsettingid)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocvoicechannelsetting`|
+|ReferencedAttribute|`msdyn_ocvoicechannelsettingid`|
+|ReferencingAttribute|`msdyn_voicechannelsettingid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_voicechannelsettingid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msdyn_oclinechannelconfig_msdyn_ocprovisioningstate_oclinechannelconfigid"></a> msdyn_oclinechannelconfig_msdyn_ocprovisioningstate_oclinechannelconfigid
 

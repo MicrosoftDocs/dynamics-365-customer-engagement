@@ -101,7 +101,7 @@
       - name: Timeline
         items: 
           - name: Use timeline
-            href: /powerapps/user/add-activities
+            href: /powerapps/user/add-activities?context=/dynamics365/context/customer-service-context
           - name: Learn about linking timeline notes with table records
             href: link-note-to-entity-task.md  
       - name: Knowledge management

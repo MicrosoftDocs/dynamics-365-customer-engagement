@@ -1,7 +1,7 @@
 ---
 title: Configure the Opportunity Research Agent (preview)
 description: Learn how to set up and configure the Opportunity Research Agent in Dynamics 365 Sales.
-ms.date: 08/04/2025
+ms.date: 09/05/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -44,6 +44,7 @@ As the agent consumes capacity, it's important to plan and configure it to handl
     | Microsoft Copilot Studio                       | Copilot Studio is the core platform for building and deploying the agent.                      |
     | Knowledge source with SharePoint or OneDrive      | Required only if the agent is configured to use internal documents on SharePoint or OneDrive for enrichment.                         |
     | Knowledge source with documents                | Required only if the agent is configured to use internal documents for enrichment.                   |
+    | Direct Line channels in Copilot Studio | Required for the agent to connect to Microsoft Copilot Studio. |
 
    Learn more in [Manage data policies](/power-platform/admin/prevent-data-loss?tabs=new).
 
@@ -144,6 +145,9 @@ In the **Opportunity assessment** tab, specify the fields that the agent should 
 ### Configure knowledge for generating account insights
 
 By default, the agent generates research insights for your accounts from public web sources. However, you can configure more knowledge sources, both from your internal knowledge base and external websites, to help the agent generate more relevant and reliable insights. Learn about the best practices for configuring knowledge sources.
+
+> [!NOTE]
+> Ensure that the knowledge sources that you want the agent to use are in the SharePoint folder. Any other file sources such as OneDrive are not supported.
 
 1. In the **Research insights** section, go to **Company insights** > **Knowledge sources for insight**.
    > [!NOTE]

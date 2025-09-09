@@ -74,6 +74,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [IsStockItem](#BKMK_IsStockItem)
 - [msdyn_AlsoKnownAs](#BKMK_msdyn_AlsoKnownAs)
 - [msdyn_gdproptout](#BKMK_msdyn_gdproptout)
+- [msdyn_scopes](#BKMK_msdyn_scopes)
 - [Name](#BKMK_Name)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [ParentProductId](#BKMK_ParentProductId)
@@ -156,7 +157,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |---|---|
 |Description|**Description of the product.**|
 |DisplayName|**Description**|
-|IsValidForForm|False|
+|IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`description`|
 |RequiredLevel|None|
@@ -292,6 +293,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
+
+### <a name="BKMK_msdyn_scopes"></a> msdyn_scopes
+
+|Property|Value|
+|---|---|
+|Description|**Different scopes that the product belongs to**|
+|DisplayName|**Scopes**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_scopes`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|True|
+|MaxLength|2000|
 
 ### <a name="BKMK_Name"></a> Name
 

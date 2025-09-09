@@ -4,13 +4,13 @@ description: Use Power Automate flows to get automated email alerts if optimizat
 ms.date: 07/09/2024
 ms.subservice: resource-scheduling-optimization
 ms.topic: how-to
-author: AnilMur
-ms.author: anilmur
+author: andrewclear-ms
+ms.author: anclear
 ---
 
 # Get email alerts for failed or canceled optimization requests
 
-Resource Scheduling Optimization runs can fail for various reasons. As a best practice, we recommend that you set up an automated workflow that monitors optimization jobs and sends alerts based job status. Microsoft Power Automate is a comprehensive end-to-end automation platform that you can use to help with monitoring and send alerts when failures occur.
+Resource Scheduling Optimization runs can fail for various reasons. As a best practice, we recommend that you set up an automated workflow that monitors optimization jobs and sends alerts based on job status. Microsoft Power Automate is a comprehensive end-to-end automation platform that helps monitor and send alerts when failures occur.
 
 ## Create a flow in Power Automate
 

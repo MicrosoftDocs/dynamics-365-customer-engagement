@@ -1,7 +1,7 @@
 ---
 title: Create entitlements for work orders
 description: Learn how to use entitlements for work orders in Dynamics 365 Field Service.
-ms.date: 07/10/2024
+ms.date: 08/25/2025
 ms.topic: how-to
 applies_to: 
   - "Dynamics 365 (online)"
@@ -31,7 +31,6 @@ This article provides two scenarios for entitlements for work orders:
 
 ## Prerequisites
 
-- Field Service v8.4+
 - Dynamics 365 Customer Service  
 - Recommended: Knowledge of Dynamics 365 [price lists](/dynamics365/customer-engagement/sales-enterprise/create-price-lists-price-list-items-define-pricing-products)
 
@@ -80,7 +79,7 @@ For this scenario, you must have a price list with associated products.
    - **Entitlement Prioritization:** For instances when multiple entitlements apply to a single work order product or service, enter a number that represents the priority of this entitlement. Entering "1" represents the highest priority.
 
    > [!NOTE]
-   > If you add products or services to the entitlement on the **Products** subgrid, the entitlement applies when the product or service matches the work order product or service.  
+   > If you add products or services to the entitlement on the Products subgrid, the entitlement applies when the product or service matches the work order product or service.
 
 1. Select **Save** and then **Activate** the entitlement.
 
@@ -92,23 +91,29 @@ To use the entitlement, create a work order.
 
 1. [Create a work order](create-work-order.md). To trigger the entitlement, make sure the billing account is the same as the primary customer of the entitlement. Select **Save**.
 
-1. Select the **Products and services** tab and create a product or service record. Open the product or service record.
+1. Select the **Products and services** tab and create a product or service record.
 
-1. Select the **Other** tab. The entitlement is automatically chosen which overrides the price list on the work order with the price list on the entitlement. In the case of [multiple entitlements](work-order-entitlements-overview.md#multiple-entitlements), the default entitlement is chosen.
+1. On the product or service record, scroll to the **Other** section. Make sure the correct entitlement is applied. The price list on the entitlement overrides the price list on the work order. If there are [multiple entitlements](work-order-entitlements-overview.md#multiple-entitlements), the default entitlement is chosen.
 
-   :::image type="content" source="media/entitlement-work-order-product1.svg" alt-text="Screenshot of entitlement applied to work order product.":::
+   :::image type="content" source="media/entitlement-work-order-product.png" alt-text="Screenshot of entitlement applied to work order product.":::
+
+1. Save and close the work order.
 
 When the work order product **Line Status** is changed from **Estimated** to **Used**, the discount percentage is applied and changes the **Estimate Total Amount**.
 
-:::image type="content" source="media/entitlement-work-order-product-discount.svg" alt-text="Screenshot of discount applied to work order product from the entitlement.":::
+:::image type="content" source="media/entitlement-work-order-product-discount1.png" alt-text="Screenshot of discount applied to work order product from the entitlement.":::
 
 ## Scenario 2: Entitlement for free products and services for an asset category
 
 In our second scenario, an organization wants to offer a customer free work order products and services for two years for work orders that relate to customer assets with a specified category. This scenario uses an entitlement application.
 
+### Create a customer asset
+
+[Create a customer asset](assets.md) with the category "Heating, Venting, and Air Conditioning" to match the category on the entitlement application.
+
 ### Create an entitlement for scenario 2
 
-1. [Create an entitlement](#create-an-entitlement) with the **% Discount** set to 100% to make the work order products and services free when the entitlement is applied.
+1. [Create an entitlement](#create-an-entitlement) with the **% Discount** set to 100% to make the work order products and services free when the entitlement is applied. Select **Save**.
 
    :::image type="content" source="media/entitlement-scenario2.svg" alt-text="Screenshot of an entitlement with the Entitlement Applications section highlighted.":::
 
@@ -123,22 +128,18 @@ In our second scenario, an organization wants to offer a customer free work orde
 
 1. **Save** and **Activate** the entitlement.
 
-### Create a customer asset
-
-[Create a customer asset](assets.md) with the category "Heating, Venting, and Air Conditioning" to match the category on the entitlement application.
-
 ### Create a work order to service the customer asset
 
 1. [Create a work order](create-work-order.md) that matches the entitlement for the second scenario. On the **General** tab, the billing account on the work order matches the primary customer on the entitlement. The selected incident type lists an asset that belongs to the "Heating, Venting, and Air Conditioning" category.
 
-   :::image type="content" source="media/entitlement-work-order2.svg" alt-text="Screenshot of a work order for the billing account and a customer asset the same as the entitlement.":::
+   :::image type="content" source="media/entitlement-work-order-scenario2.png" alt-text="Screenshot of a work order for the billing account and a customer asset the same as the entitlement." lightbox="media/entitlement-work-order-scenario2.png":::
 
-1. Open the product on the work order and select the **Other** tab. The correct entitlement is applied to the work order products.
-
-   :::image type="content" source="media/entitlement-work-order-product2.svg" alt-text="Screenshot of entitlement applied to the work order product.":::
+1. Open the product on the work order and scroll to the **Other** section. Make sure the correct entitlement is applied to the work order products.
 
 1. Select the **Estimate Information** tab. The 100% discount is applied, rendering the work order products as free. If services are included in the entitlement, the same discount applies to them.
 
-   :::image type="content" source="media/entitlement-work-order-product2-discount.svg" alt-text="Screenshot of discount making the work order product free.":::
+   :::image type="content" source="media/entitlement-work-order-product-discount2.svg" alt-text="Screenshot of discount making the work order product free.":::
+
+1. Save and close the work order.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

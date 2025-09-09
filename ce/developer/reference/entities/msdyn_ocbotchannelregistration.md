@@ -68,9 +68,11 @@ The following table lists selected properties for the Bot Channel Registration (
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_bottype](#BKMK_msdyn_bottype)
 - [msdyn_msappid](#BKMK_msdyn_msappid)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_ocbotchannelregistrationId](#BKMK_msdyn_ocbotchannelregistrationId)
+- [msdyn_tenantid](#BKMK_msdyn_tenantid)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -92,6 +94,27 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|2147483647|
 |MinValue|-2147483648|
+
+### <a name="BKMK_msdyn_bottype"></a> msdyn_bottype
+
+|Property|Value|
+|---|---|
+|Description|**The Bot type for Bot Channel Registration resource**|
+|DisplayName|**Bot Type**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_bottype`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|192350000|
+|GlobalChoiceName|`msdyn_ocbotchannelregistration_msdyn_bottype`|
+
+#### msdyn_bottype Choices/Options
+
+|Value|Label|
+|---|---|
+|192350000|**Multi tenant**|
+|192350001|**Single tenant**|
 
 ### <a name="BKMK_msdyn_msappid"></a> msdyn_msappid
 
@@ -138,6 +161,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_ocbotchannelregistrationid`|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+### <a name="BKMK_msdyn_tenantid"></a> msdyn_tenantid
+
+|Property|Value|
+|---|---|
+|Description|**Tenant id for the BCR**|
+|DisplayName|**Tenant id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_tenantid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 

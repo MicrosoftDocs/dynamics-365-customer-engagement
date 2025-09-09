@@ -1,16 +1,16 @@
 ---
 title: Run an optimization ad hoc
 description: Learn how run a schedule optimization on demand with the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service.
-author: AnilMur
-ms.author: anilmur
-ms.date: 07/16/2024
+author: andrewclear-ms
+ms.author: anclear
+ms.date: 08/25/2025
 ms.topic: how-to
 ms.subservice: resource-scheduling-optimization
 ---
 
 # Run an optimization ad hoc
 
-Typically, Resource Scheduling Optimization is run through [automated optimization schedules](rso-optimization-schedule.md). However, high-priority work sometimes comes up and leads to changes on subsequent bookings. In this case, a dispatcher might want to run the schedule optimization on demand.
+Typically, Resource Scheduling Optimization runs automatically through [optimization schedules](rso-optimization-schedule.md). Sometimes, high-priority work comes up and changes subsequent bookings. In this case, a dispatcher can run schedule optimization on demand.
 
 ## Run schedule optimization from an optimization scope
 
@@ -33,7 +33,7 @@ On the schedule board:
 
     - **Open and eligible for optimization**: This tab shows unscheduled requirements that match the scope definition, requirement range, and requirement state setting.
     - **Eligible for optimization**: This tab shows unscheduled requirements and other eligible bookings that match the scope definition, requirement range, and requirement state setting.
-    - **Excluded from optimization**: This tab shows requirements or bookings that won't be optimized because of failures such as an invalid longitude or latitude value.
+    - **Excluded from optimization**: This tab shows requirements or bookings that aren't optimized because of failures such as an invalid longitude or latitude value.
 
 - An icon on a resource indicates that the resource isn't part of the optimization scope.
 - An icon on the booking indicates that the [booking is locked](booking-lock-options.md).

@@ -1,7 +1,7 @@
 ---
 title: "Enhanced Collaboration for Microsoft Teams with Dynamics 365 app"
 description: "Learn how to use Enhanced Collaboration with Microsoft Teams, and connect a record or view to a team channel from Dynamics 365 customer engagement apps."
-ms.date: 08/16/2024
+ms.date: 08/14/2025
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -39,12 +39,12 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
 
         :::image type="content" source="media/teams-get-started-2.png" alt-text="Screenshot of the Get Started button.":::
 
-    - **If there is channel that's already connected**: Select a channel from the list and then select, **Start collaboration**. This opens Microsoft Teams and navigate to the channel that you selected. Or, connect the current record or view to a new team channel by selecting, **Create a new connection**.
+    - **If there is channel that's already connected**: Select a channel from the list and then select, **Start collaboration**. This opens Microsoft Teams and navigates to the channel that you selected. Or, connect the current record or view to a new team channel by selecting, **Create a new connection**.
 
         :::image type="content" source="media/teams-existing-channel-screen-note.png" alt-text="Screenshot of the screen to select an existing channel.":::
 
      > [!NOTE]
-     >  If you selected an existing connected team channel where you are not the owner or member in that team, then when Microsoft Teams opens, select **Join** to send request to be added to the channel. 
+     >  If you selected an existing connected team channel where you aren't the owner or member in that team, then when Microsoft Teams opens, select **Join** to send request to be added to the channel. 
 
 4. After you select **Get started** or **Create a new connection**, you'll enter into the connection process. 
 
@@ -74,11 +74,11 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
    **Step 3**: If you're the owner of the selected team, then you can add recommended teammates who either own the record or the record has been shared with them to the team member group. From the list, select any or all listed teammates. You can also use the search option to find the teammates in the list. When you're done, select **Finish**.
 
    > [!NOTE]
-   > You will see this step only if you are the owner of the selected team while connecting to a customer engagement app record. If you are connecting a view of customer engagement app to a Microsoft Teams channel, you will skip this step. For more information on how to share a record, see [Assign or share records.](/powerapps/user/assign-or-share-records).
+   > You will see this step only if you're the owner of the selected team while connecting to a customer engagement app record. If you are connecting a view of customer engagement app to a Microsoft Teams channel, you will skip this step. For more information on how to share a record, see [Assign or share records.](/powerapps/user/assign-or-share-records).
 
     :::image type="content" source="media/teams-choose-teammates-7.png" alt-text="Screenshot of choosing teammates.":::
 
-5. When the connection process is complete, the system opens Microsoft Teams and go to channel that you connected.
+5. When the connection process is complete, the system opens Microsoft Teams and goes to channel that you connected.
 
 ## Related information
 
