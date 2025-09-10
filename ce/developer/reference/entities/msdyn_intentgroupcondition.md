@@ -189,7 +189,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**Agent Group Order**|
+|DisplayName|**Representative Group Order**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_order`|

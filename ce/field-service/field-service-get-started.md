@@ -1,7 +1,7 @@
 ---
 title: Get started
 description: Learn how to get started with Dynamics 365 Field Service.
-ms.date: 10/24/2024
+ms.date: 07/30/2025
 author: jshotts
 ms.author: jasonshotts
 ms.topic: overview
@@ -59,7 +59,7 @@ Every customer of your company usually has its own account record. It lists thei
 
 ## Configure the work order summary
 
-Define the fields that Copilot uses to generate a summary of a work order. Learn more: [Configure the work order summary](work-order-recap.md#how-to-configure-the-summary).
+Define the fields that Copilot uses to generate a summary of a work order. Learn more: [Configure the work order summary](enable-work-order-recap.md#summary-configuration).
 
 ## Create a work order
 
@@ -86,8 +86,3 @@ Frontline workers use the mobile experience on their phone or tablet.
 
 The **Booking** tab shows the work order you scheduled to the frontline worker. Update the status of the booking and related details to indicate completion of the work order.
 
-## Analyze your operations
-
-In the Field Service web application, service managers can [analyze day-to-day operations with Power BI reports](reports.md).
-
-Reports appear under **Analytics and Insights**.

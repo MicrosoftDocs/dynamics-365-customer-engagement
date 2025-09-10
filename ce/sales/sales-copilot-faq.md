@@ -7,7 +7,8 @@ ms.reviewer: lavanyakr
 ms.topic: concept-article
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
-ms.date: 12/18/2024
+ms.date: 08/07/2025
+ms.update-cycle: 180-days
 ---
 
 # FAQ about Copilot in Dynamics 365 Sales
@@ -84,15 +85,14 @@ Copilot in Dynamics 365 Sales can't be turned on for the following applications:
 - msdyn_ResourceScheduling (Resource Scheduling)
 - AppforOutlookModule (Dynamics 365 Outlook app)
 - Customerservicehub (Customer Service Hub)
-- msdyn_CustomerServiceWorkspace (Customer Service Workspace)
+- msdyn_CustomerServiceWorkspace (Copilot Service Workspace)
 - OmniChannelEngagementHub (Omnichannel Engagement Hub)
 - msdyn_ProjectService (Project Service)
 
-## Why does my tenant have an app called Sales Copilot Power Virtual Agents Bot?
+## Why does my tenant have an app called Copilot in Dynamics 365 Sales?
 
-Sales Copilot Power Virtual Agents Bot is part of the Dynamics 365 Sales solution. It can't be deleted or turned off. It's installed in all Dynamics 365 Sales environments, whether Copilot in Dynamics 365 Sales is turned on or not. When Copilot in Dynamics 365 Sales is turned on, the bot is used to authenticate and authorize Copilot. If Copilot in Dynamics 365 Sales is turned off, the bot remains dormant in your environment. The bot is updated automatically.
+The Copilot in Dynamics 365 Sales app is part of the Dynamics 365 Sales solution. It can't be deleted or turned off. It's installed in all Dynamics 365 Sales environments, whether Copilot in Dynamics 365 Sales is turned on or not. When Copilot in Dynamics 365 Sales is turned on, the app is used to authenticate and authorize Copilot. If Copilot in Dynamics 365 Sales is turned off, the app remains dormant in your environment. The app is updated automatically.
 
-Power Virtual Agents is now Copilot Studio. Learn more in [Microsoft Copilot Studio overview](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio).
 
 A related app with the same name is also created for your tenant in Microsoft Azure for authentication and authorization purposes. The app is automatically renewed when it nears expiration. We recommend that you don't delete or turn off this app.
 
@@ -102,29 +102,21 @@ Copilot determines whether a document is a sales document or not based on the co
 
 ## Copilot isn't working. What should I do?
 
-When you open Copilot in Dynamics 365 Sales, Copilot doesn't respond, and you might see a message stating that Copilot is unable to connect and to try again later. There could be several reasons why Copilot isn't working as expected. One of the reason could be that your organization has [Data Loss Prevention (DLP) policies](/power-platform/admin/wp-data-loss-prevention) which are blocking the following connectors.  
+When you open Copilot in Dynamics 365 Sales, Copilot doesn't respond, and you might see a message stating that Copilot is unable to connect and to try again later. There could be several reasons why Copilot isn't working as expected. Some of the common reasons are:
 
-- HTTP
-- Microsoft Dataverse
-- Direct Line channels in Copilot Studio
-- Application Insights in Copilot Studio  
+- Publishing of agent might have failed when it was created for the first time. To resolve this issue, try republishing the agent. After you successfully publish the agent, you don't need to republish it unless you change the agent configuration.
+- Your organization has [Data policies](/power-platform/admin/wp-data-loss-prevention) which are blocking the following connectors.  
+    - Microsoft Dataverse  
+    - Direct Line channels in Copilot Studio  
 
-You must unblock these connectors and then group them together in a policy (business or non-business) to allow Copilot to work as expected. Follow these steps to unblock the connectors:
-
-1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
-1. Go to **Data policies** > **Data loss prevention** and create a new policy or edit an existing policy.
-1. In the Prebuilt connectors section, search for the following connectors, and then unblock and configure them as shown below:
-
-    - **HTTP**:  
-        1. Select **More options** > **Configure connector** > **Configure endpoints**.
-        1. Add the endpoints: `https://dataverse/*` and `https://adaptivecards.io/*` and select **Action** as **Allow** for each endpoint.  
-        1. Select **Save**.  
-    - **Microsoft Dataverse**: To know more about the Microsoft Dataverse connector, see [Microsoft Dataverse](/connectors/commondataserviceforapps).  
-    - **Direct Line channels in Copilot Studio**  
-    - **Application Insights in Copilot Studio**
-
-1. After you've unblocked and configured the connectors, ensure that the connectors are grouped together (in business or non-business) in the policy.
-1. Save and close the policy.
+    You must unblock these connectors and then group them together in a policy (business or non-business) to allow Copilot to work as expected. Follow these steps to unblock the connectors:  
+    1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).  
+    1. Go to **Data policies** > **Data loss prevention** and create a new policy or edit an existing policy.  
+    1. In the Prebuilt connectors section, search for the following connectors, and then unblock and configure them as shown below:  
+        - **Microsoft Dataverse**: To know more about the Microsoft Dataverse connector, see [Microsoft Dataverse](/connectors/commondataserviceforapps).  
+        - **Direct Line channels in Copilot Studio**  
+    1. After you've unblocked and configured the connectors, ensure that the connectors are grouped together (in business or non-business) in the policy.  
+    1. Save and close the policy.  
 
 ## Copilot for email
 

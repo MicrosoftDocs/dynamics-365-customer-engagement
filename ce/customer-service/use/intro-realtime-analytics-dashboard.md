@@ -1,12 +1,12 @@
 ---
 title: Overview of the real-time Omnichannel analytics dashboard
-description: Discover how to use an Omnichannel real-time analytics dashboard to optimize customer service representative staffing, monitor key metrics, and improve customer satisfaction.
+description: Use Omnichannel real-time analytics dashboard for contact center operations. Track key metrics and access summary, voice, agents, and ongoing conversation reports to improve team performance.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: overview
 ms.collection:
-ms.date: 02/10/2025
+ms.date: 08/26/2025
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -17,20 +17,16 @@ ms.custom:
 
 # Overview of Omnichannel real-time analytics dashboard
 
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
-
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-
-
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. It isn't intended to be used, and should **not** be used, to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements.
 >
-> Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws that are related to accessing individual employee analytics, and monitoring, recording, and storing communications with users. As part of this compliance, customers must adequately notify users that their communications with customer service representatives (service representatives) might be monitored, recorded, or stored. As required by applicable laws, customers must also obtain consent from users before they use this feature with them. In addition, customers are encouraged to have a mechanism in place to inform their service representatives that their communications with users might be monitored, recorded, or stored.
+> Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws that are related to accessing individual employee analytics, and monitoring, recording, and storing communications with users. As part of this compliance, customers must adequately notify users that their communications with customer service representatives (service representatives or representatives) might be monitored, recorded, or stored. As required by applicable laws, customers must also obtain consent from users before they use this feature with them. In addition, customers are encouraged to have a mechanism in place to inform their service representatives that their communications with users might be monitored, recorded, or stored.
 
-In the digital contact center world, supervisors must be able to react to events by optimizing the allocation of service representatives in real time to provide quick support and boost customer satisfaction. Such events include an increase in the volume of incoming customer interactions, longer call lengths, and customer service representative (service representative or representative) absenteeism. By providing visibility into overall support performance, real-time reporting helps supervisors monitor key operational metrics, make course corrections at the appropriate time, and keep service levels high.
+In the digital contact center world, supervisors must be able to react to events by optimizing the allocation of service representatives in real time to provide quick support and boost customer satisfaction. Such events include an increase in the volume of incoming customer interactions, longer call lengths, and service representative absenteeism. By providing visibility into overall support performance, real-time reporting helps supervisors monitor key operational metrics, make course corrections at the appropriate time, and keep service levels high.
 
 The real-time analytics reports provide information about the health and key performance indicators (KPIs) for your organization. They reflect the current situation in the contact center as supervisors oversee service representatives who handle customer conversations that come in through multiple channels. You can change the visual display of the reports and save your personalized views as bookmarks.
 
@@ -40,31 +36,31 @@ As a supervisor, you can use the real-time analytics reports to perform these ta
 - Review the allocation of service representatives in near-real time, and then optimize to provide top-notch support and boost customer satisfaction.
 - Improve service representative staffing, effectiveness, and utilization by reviewing the skill set and capacity profile of the service representative. You can then assign or transfer ongoing conversations by filtering through queue or service representative.
 - Monitor ongoing conversations, track customer sentiment, and intervene as required.
-- Drill down to a specific channel, queue, or service representative as required, to gain key operational insights in real time and take necessary action.
+- Drill down to a specific channel, queue, or service representative as required, to gain key operational insights in real time and take the necessary action.
 
 > [!NOTE]
-> The reports include conversations that were handled by service representatives only. They also include conversations that were escalated by the Copilot agents. However, they don't include conversations that were resolved by Copilot agents.
+> The reports include conversations that only service representatives handled. They also include conversations that Copilot agents escalated. However, they don't include conversations that Copilot agents resolved.
 
 ## Security roles and permissions
 
-Real-time analytics takes advantage of the security permissions that are defined in Dataverse. For example, if your organization has set business unit-level permissions for you, only metrics that are computed based on business unit–level data are shown to you.
+Real-time analytics takes advantage of the security permissions that are defined in Dataverse. For example, if your organization set business unit-level permissions for you, only metrics that are computed based on business unit–level data are shown to you.
 
-As a supervisor, you can view the **Omnichannel real-time analytics** dashboard in Customer Service workspace or Contact Center workspace. However, your administrator must provide the required permissions for you. [Learn how to configure user roles to access analytics and dashboards.](../administer/configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards)
+As a supervisor, you can view the **Omnichannel real-time analytics** dashboard in Copilot Service workspace. However, your administrator must provide the required permissions for you. [Learn how to configure user roles to access analytics and dashboards.](../administer/configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards)
 
 > [!NOTE]
 > If different values are shown to different users in the metrics, you must investigate the permissions for those users.
 
 ## Access reports
 
-You can view the different reports in the Customer Service workspace or Contact Center workspace app. In the default view of the applications, select **Omnichannel real-time analytics** in **Service**. By default, the **Summary** report is shown. To view the **Ongoing conversation**, **Agents**, and **Voice** reports, select the appropriate tabs.
+You can view the different reports in the Copilot Service workspace app. In the default view of the application, select **Omnichannel real-time analytics** in **Service**. By default, the **Summary** report is shown. To view the **Ongoing conversation**, **Agents**, and **Voice** reports, select the appropriate option from the dropdown.
 
 If you can't view the reports, contact your system administrator. Learn more in [Manage real-time analytics reports](../administer/enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service).
 
 ## Dashboard details
 
 > [!NOTE]
-> - The reports don't include work items of the Entity Record channel.
-> - The reports are prefiltered based on the queues you are signed in to as a supervisor. Your view of metrics and conversations pertain to the assigned queues only, which helps ensure data privacy and relevance.
+> - The reports don't include work items of the Entity Record channel. All entity record type queues are available in [real-time analytics for record routing dashboards](rr-overview.md#overview-of-real-time-analytics-for-record-routing) only.
+> - The reports are prefiltered based on the queues you're signed in to as a supervisor. Your view of metrics and conversations pertain to the assigned queues only, which helps ensure data privacy and relevance.
 
 The **Omnichannel real-time analytics** dashboard consists of the following reports:
 
@@ -81,9 +77,8 @@ Use the filters to drill down to KPIs across the dashboard. Adjust the filters b
 
 For example, the dropdown list for the **Time** filter includes the following options:
 
-- **Include open conversations**: Show all conversations that started in the last 24 hours, and conversations that started in the last three days and are still open.
-- **Last 24 hrs**: Show all conversations that started in the last 24 hours.
-- **Today**: Shows all conversations that started on the current date in the selected time zone.
+- **Last 24 hrs**: Show all conversations started or modified in the last 24 hours.
+- **Today**: Shows all conversations started or modified in the selected time zone.
 
 ### Pause updates on report data
 

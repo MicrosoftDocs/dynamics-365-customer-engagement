@@ -5,7 +5,7 @@ keywords: Main forms; Customer service; Customer Service Hub; Dynamics 365 Custo
 author: Mattp123
 ms.author: matp
 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps

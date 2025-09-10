@@ -1,7 +1,7 @@
 ---
 title: View and understand sales acceleration reporting
 description: Understand sales acceleration reporting and its role in providing insights into sequences related to leads and opportunities in your organization.
-ms.date: 06/28/2024
+ms.date: 08/05/2025
 ms.topic: concept-article
 author: udaykirang
 ms.author: udag
@@ -21,11 +21,11 @@ View and understand the report for sales acceleration to get a broad overview of
 Sales acceleration reporting gives you a broad overview of the sequences related to leads and opportunities in your organization. The reports use AI to provide insights into which sequences are doing better and emerging with the most successful conversion rates. Also, you can analyze metrics and key performance indicators (KPIs) to identify areas for improvement that might have the greatest effect on sales growth.
 
 >[!NOTE]
->- Sales acceleration reporting is not available on Government Community Cloud (GCC).
+>- Sales acceleration reporting isn't available on Government Community Cloud (GCC).
 >- The sales acceleration reporting is not supported on mobile devices.  
 >- After your administrator enables reporting, the application might take up to 24 hours to display the data in the reports. When the reports are being provisioned for the first time, the following message is displayed:  
 >:::image type="content" source="media/sa-sequence-reporting-provisioning-message.png" alt-text="Screenshot of report provisioning message.":::
->Subsequently, the reports are refreshed every 24 hours. You can view the last updated date on the upper-right corner of the page.
+>Subsequently, the reports are refreshed for every 24 hours. You can view the last updated date on the upper-right corner of the page.
 
 ## Who can view the reporting page?
 
@@ -85,7 +85,7 @@ The following metrics are displayed in the charts.
 | Associated leads/opportunities with sequence | A breakdown of sequences with the status of their associated lead or opportunity records:<br>•	Completed<br>•	Connected<br>•	Disconnected  |
 | Sequence status | A breakdown of sequences by their status:<br>•	Completed<br>•	Disconnected<br>•	Connected  |
 | Sequence steps | A breakdown of sequence steps that are added to active sequences in your organization. |
-| Sequence steps by status | A breakdown of sequence steps by their status in all the sequences that they are added to:<br>•	Completed<br>•	Canceled<br>•	Skipped<br>•	Open |
+| Sequence steps by status | A breakdown of sequence steps by their status in all the sequences that they're added to:<br>•	Completed<br>•	Canceled<br>•	Skipped<br>•	Open |
 | Email engagement | A breakdown of the status of emails that are linked to sequences through email steps. The status displayed in the chart is based on the status that's defined in the email engagement feature. More information: [Use email engagement to view message interactions](email-engagement.md) |
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]

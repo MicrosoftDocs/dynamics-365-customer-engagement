@@ -1,7 +1,7 @@
 ---
 title: Enable transcript for messaging channels
 description: Learn how to set up the transcript experience for messaging channels in Omnichannel for Customer Service.
-ms.date: 03/03/2025
+ms.date: 04/25/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -27,7 +27,7 @@ As an administrator, you can enable live transcription and recording of conversa
 > [!NOTE]
 > The transcript feature is generally available; however, in some environments, you might see a preview tag or banner in the interface. Any preview annotations for this feature can safely be ignored.
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Productivity** in **Agent experience**.
+1. In the site map of Copilot Service admin center, select **Productivity** in **Support experience**.
 
 1. On the **Productivity** page, select **Manage** for **Transcript**.
 
@@ -36,8 +36,9 @@ As an administrator, you can enable live transcription and recording of conversa
 1. Select **Save**.
 
 ## View the transcripts
-
-You can view the conversation transcriptions in the Customer Service admin center, Contact Center admin center, Contact Center workspace, and Customer Service workspace apps.
+You can view the conversation transcriptions in the Copilot Service admin center and Copilot Service workspace apps.
+> [!NOTE]
+> Automated messages aren't displayed in the customer chat transcript.
 
 1. In the admin center site map, select **User management**, and then select **Manage** for **Users**.
 2. Select the user whose conversations you want to view.
@@ -48,7 +49,7 @@ You can view the conversation transcriptions in the Customer Service admin cente
    > [!div class="mx-imgBorder"]
    > ![Screenshot of closed conversation list.](../media/voice-channel-conversations-list.png)
 
-To view transcripts in Customer Service workspace or Contact Center workspace apps, do the following:
+To view transcripts in Copilot Service workspace, do the following:
 
 1. Open the app and then switch to the **Omnichannel Agent Dashboard** view. The completed chat conversations are displayed in the **Closed work items** column.
 1. Do one of the following:<br>
@@ -57,7 +58,8 @@ To view transcripts in Customer Service workspace or Contact Center workspace ap
    1. Right-click the three dots to view the transcript.
 
 > [!NOTE]
-> As an administrator, only you have access to the conversations that are handled by other representatives.
+> - As an administrator, only you have access to the conversations that are handled by other representatives.
+> - Specific customer data collected from post-conversation surveys isn't available in transcripts. Learn more about creating comprehensive customer feedback views in [Configure feedback surveys](/dynamics365/contact-center/administer/configure-surveys).
 
 ### Related information
 

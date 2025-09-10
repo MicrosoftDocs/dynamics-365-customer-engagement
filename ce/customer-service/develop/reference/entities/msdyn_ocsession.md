@@ -21,6 +21,34 @@ Session for interacting with a customer
 
 Microsoft Dynamics 365 Customer Service modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
 
+- [msdyn_channel](#BKMK_msdyn_channel)
+- [RegardingObjectId](#BKMK_RegardingObjectId)
+
+### <a name="BKMK_msdyn_channel"></a> msdyn_channel
+
+Changes from [msdyn_channel (Microsoft Dynamics 365)](/dynamics365/developer/reference/entities/msdyn_ocsession#BKMK_msdyn_channel)
+
+#### msdyn_channel Choices/Options
+
+|Value|Label|
+|---|---|
+|19241000|**Microsoft Teams**|
+|192300000|**WhatsApp**|
+|192310000|**LINE**|
+|192320000|**WeChat**|
+|192330000|**Facebook**|
+|192340000|**SMS**|
+|192350001|**Twitter**|
+|192350002|**Custom**|
+|192360000|**Live chat**|
+|192370000|**Voice**|
+|192380000|**Video**|
+|192390000|**Co-browse**|
+|192400000|**Screen sharing**|
+|192440000|**Voice call**|
+|192450000|**Apple Messages for Business**|
+|192450001|**Google's Business Messages**|
+
 ### <a name="BKMK_RegardingObjectId"></a> RegardingObjectId
 
 Changes from [RegardingObjectId (Microsoft Dynamics 365)](/dynamics365/developer/reference/entities/msdyn_ocsession#BKMK_RegardingObjectId)

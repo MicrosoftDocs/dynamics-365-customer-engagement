@@ -6,7 +6,7 @@ ms.reviewer: pehecke
 ms.date: 02/03/2025
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 

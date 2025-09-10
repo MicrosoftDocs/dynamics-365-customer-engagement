@@ -2,7 +2,7 @@
 title: Work order lifecycle and system statuses
 description: Track the status of a work order in its lifecycle with system statuses, substatuses, and booking statuses.
 ms.date: 02/05/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: lmasieri
 ms.author: lmasieri
 ms.custom: bap-template
@@ -22,7 +22,7 @@ Work orders use system statuses, work order substatuses, and booking statuses to
 - Canceled
 
 > [!NOTE]
-> Don't add, remove, or edit the option set *values* for **Work Order System Status**. Instead, as a best practice, consider creating meaningful **Work Order Substatus** records. If that's insufficient, administrators can edit the option set *labels* to change how statuses show in the user interface. For more information, see [Don't edit option set (choice) values](field-service-customization-best-practices.md#dont-edit-option-set-choice-values).
+> Don't add, remove, or edit the option set *values* for **Work Order System Status**. Instead, as a best practice, consider creating meaningful **Work Order Substatus** records. If that's insufficient, administrators can edit the option set *labels* to change how statuses show in the user interface. For more information, see [Don't edit option set (choice) values](/dynamics365/guidance/resources/field-service-customize-best-practices#dont-edit-option-set-choice-values).
 
 **Work Order Substatuses** are noted on the work order entity and relate to and provide more detail for work order system statuses. Work order substatuses are created custom for each organization and can communicate much more granular and meaningful information about the state of a work order.
 

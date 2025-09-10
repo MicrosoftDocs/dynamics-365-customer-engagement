@@ -68,11 +68,15 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_conditionname](#BKMK_msdyn_conditionname)
 - [msdyn_conditionXml](#BKMK_msdyn_conditionXml)
 - [msdyn_followupemailattributes](#BKMK_msdyn_followupemailattributes)
+- [msdyn_followupemailtemplates](#BKMK_msdyn_followupemailtemplates)
 - [msdyn_followuptrigger](#BKMK_msdyn_followuptrigger)
 - [msdyn_followupwaittimes](#BKMK_msdyn_followupwaittimes)
+- [msdyn_incidententityname](#BKMK_msdyn_incidententityname)
+- [msdyn_isfullautonomous](#BKMK_msdyn_isfullautonomous)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_numoffollowups](#BKMK_msdyn_numoffollowups)
 - [msdyn_preresolutionperiod](#BKMK_msdyn_preresolutionperiod)
+- [msdyn_ruleorder](#BKMK_msdyn_ruleorder)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [statecode](#BKMK_statecode)
 - [statuscode](#BKMK_statuscode)
@@ -206,6 +210,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|1048576|
 
+### <a name="BKMK_msdyn_followupemailtemplates"></a> msdyn_followupemailtemplates
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Follow up Email Templates**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_followupemailtemplates`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
+
 ### <a name="BKMK_msdyn_followuptrigger"></a> msdyn_followuptrigger
 
 |Property|Value|
@@ -239,6 +260,39 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|1048576|
+
+### <a name="BKMK_msdyn_incidententityname"></a> msdyn_incidententityname
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**IncidentEntityName**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_incidententityname`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
+### <a name="BKMK_msdyn_isfullautonomous"></a> msdyn_isfullautonomous
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Is Full Autonomous**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isfullautonomous`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_casefollowupandclosureconfiguration_msdyn_isfullautonomous`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
@@ -294,6 +348,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|2147483647|
 |MinValue|-2147483648|
+
+### <a name="BKMK_msdyn_ruleorder"></a> msdyn_ruleorder
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Rule Order**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_ruleorder`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|1|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 

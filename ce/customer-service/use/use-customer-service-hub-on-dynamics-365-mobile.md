@@ -1,8 +1,8 @@
 ---
 title: Use Customer Service Hub on mobile | Microsoft Docs
 description: Use Customer Service Hub app on mobile devices like phones and tablets
-ms.date: 06/01/2018
-ms.topic: article
+ms.date: 06/04/2025
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

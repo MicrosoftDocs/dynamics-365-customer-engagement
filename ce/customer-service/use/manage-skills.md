@@ -1,7 +1,7 @@
 ---
 title: Manage skills
 description: Learn how to view or remove existing skills, and add new skills using the skill control in Omnichannel for Customer Service.
-ms.date: 05/10/2024
+ms.date: 04/28/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -42,7 +42,7 @@ The skill updates you make for your assigned work items can then be used to retr
 
 ### Related information
 
-[Allow agents to update skills](../administer/allow-agents-update-skills.md)  
+[Allow representatives to update skills](../administer/allow-agents-update-skills.md)  
 [Set up record routing](../administer/set-up-record-routing.md)  
 [Set up unified routing](../administer/set-up-routing-process.md)  
 

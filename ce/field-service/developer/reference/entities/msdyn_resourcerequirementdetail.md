@@ -2,8 +2,8 @@
 title: "Resource Requirement Detail (msdyn_resourcerequirementdetail) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Resource Requirement Detail (msdyn_resourcerequirementdetail) table/entity with Microsoft Dynamics 365 Field Service."
 ms.topic: generated-reference
-author: m-hartmann
-ms.author: mhart
+author: puneet-singh1
+ms.author: puneetsingh
 search.audienceType: 
   - developer
 ---
@@ -74,6 +74,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_resourcerequirementdetailId](#BKMK_msdyn_resourcerequirementdetailId)
 - [msdyn_resourcerequirementid](#BKMK_msdyn_resourcerequirementid)
 - [msdyn_to](#BKMK_msdyn_to)
+- [msdyn_TzaFrom](#BKMK_msdyn_TzaFrom)
+- [msdyn_TzaTo](#BKMK_msdyn_TzaTo)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -184,6 +186,40 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DateTimeBehavior|UserLocal|
 |Format|DateAndTime|
 |ImeMode|Auto|
+|SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_TzaFrom"></a> msdyn_TzaFrom
+
+|Property|Value|
+|---|---|
+|Description|**From date resource requirement detail in time zone independent format**|
+|DisplayName|**From Date Time Zone Independent**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_tzafrom`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|TimeZoneIndependent|
+|Format|DateAndTime|
+|ImeMode|Inactive|
+|SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_TzaTo"></a> msdyn_TzaTo
+
+|Property|Value|
+|---|---|
+|Description|**To date resource requirement detail in time zone independent format**|
+|DisplayName|**To Date Time Zone Independent**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_tzato`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|TimeZoneIndependent|
+|Format|DateAndTime|
+|ImeMode|Inactive|
 |SourceTypeMask|0|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn

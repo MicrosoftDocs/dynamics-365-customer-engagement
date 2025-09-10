@@ -19,6 +19,21 @@ items:
 - name: "Ad Placement"
   displayName: "mspp_adplacement entity"
   href: mspp_adplacement.md
+- name: "Adaptation Build"
+  displayName: "msdyn_amsbuild entity"
+  href: msdyn_amsbuild.md
+- name: "Adaptation Model"
+  displayName: "msdyn_amsmodel entity"
+  href: msdyn_amsmodel.md
+- name: "Adaptation Profile"
+  displayName: "msdyn_amsprofile entity"
+  href: msdyn_amsprofile.md
+- name: "Adaptation Profile Settings"
+  displayName: "msdyn_amsprofilesettings entity"
+  href: msdyn_amsprofilesettings.md
+- name: "Adaptation Tag"
+  displayName: "msdyn_amstag entity"
+  href: msdyn_amstag.md
 - name: "Agent Capacity Profile Unit"
   displayName: "msdyn_agentcapacityprofileunit entity"
   href: /dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
@@ -34,6 +49,12 @@ items:
 - name: "Agent Status history"
   displayName: "msdyn_agentstatushistory entity"
   href: /dynamics365/developer/reference/entities/msdyn_agentstatushistory?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
+- name: "Apple messages for business account"
+  displayName: "msdyn_ocapplebusinessaccount entity"
+  href: msdyn_ocapplebusinessaccount.md
+- name: "Apple messages for business engagement context"
+  displayName: "msdyn_ocapplemessagesforbusinessengagementctx entity"
+  href: msdyn_ocapplemessagesforbusinessengagementctx.md
 - name: "Appointment"
   displayName: "Appointment entity"
   href: appointment.md
@@ -51,7 +72,10 @@ items:
   href: /dynamics365/developer/reference/entities/msdyn_soundfile?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Authentication Settings"
   displayName: "msdyn_authenticationsettings entity"
-  href: /dynamics365/developer/reference/entities/msdyn_authenticationsettings?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
+  href: msdyn_authenticationsettings.md
+- name: "Azure notification hub"
+  displayName: "msdyn_azurenotificationhub entity"
+  href: msdyn_azurenotificationhub.md
 - name: "Bookable Resource"
   displayName: "BookableResource entity"
   href: bookableresource.md
@@ -118,15 +142,30 @@ items:
 - name: "Capacity Profile"
   displayName: "msdyn_capacityprofile entity"
   href: /dynamics365/developer/reference/entities/msdyn_capacityprofile?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
+- name: "Carrier"
+  displayName: "msdyn_occarrier entity"
+  href: msdyn_occarrier.md
 - name: "Case"
   displayName: "Incident entity"
   href: incident.md
+- name: "channel"
+  displayName: "msdyn_channel entity"
+  href: msdyn_channel.md
+- name: "Channel api method mapping"
+  displayName: "msdyn_occhannelapimethodmapping entity"
+  href: msdyn_occhannelapimethodmapping.md
 - name: "Channel Capability"
   displayName: "msdyn_channelcapability entity"
   href: /dynamics365/developer/reference/entities/msdyn_channelcapability?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Channel Configuration"
   displayName: "msdyn_occhannelconfiguration entity"
-  href: /dynamics365/developer/reference/entities/msdyn_occhannelconfiguration?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
+  href: msdyn_occhannelconfiguration.md
+- name: "Channel instance secret"
+  displayName: "msdyn_channelinstancesecret entity"
+  href: msdyn_channelinstancesecret.md
+- name: "Channel Integration Framework v1.0 Provider"
+  displayName: "msdyn_ciprovider entity"
+  href: msdyn_ciprovider.md
 - name: "Channel State Configuration"
   displayName: "msdyn_occhannelstateconfiguration entity"
   href: /dynamics365/developer/reference/entities/msdyn_occhannelstateconfiguration?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
@@ -136,9 +175,24 @@ items:
 - name: "Characteristic mapping"
   displayName: "msdyn_ocsitdskill entity"
   href: /dynamics365/developer/reference/entities/msdyn_ocsitdskill?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
+- name: "Chat Widget"
+  displayName: "msdyn_livechatconfig entity"
+  href: msdyn_livechatconfig.md
+- name: "Chat Widget Language(deprecated)"
+  displayName: "msdyn_chatwidgetlanguage entity"
+  href: msdyn_chatwidgetlanguage.md
+- name: "Chat Widget Location"
+  displayName: "msdyn_livechatwidgetlocation entity"
+  href: msdyn_livechatwidgetlocation.md
 - name: "Client Extension"
   displayName: "msdyn_clientextension entity"
   href: msdyn_clientextension.md
+- name: "Communication Provider Setting"
+  displayName: "msdyn_occommunicationprovidersetting entity"
+  href: msdyn_occommunicationprovidersetting.md
+- name: "Communication Provider Setting Entry"
+  displayName: "msdyn_occommunicationprovidersettingentry entity"
+  href: msdyn_occommunicationprovidersettingentry.md
 - name: "Configuration"
   displayName: "msdyn_Configuration entity"
   href: msdyn_configuration.md
@@ -166,6 +220,9 @@ items:
 - name: "Conversation Action Locale"
   displayName: "msdyn_conversationactionlocale entity"
   href: /dynamics365/developer/reference/entities/msdyn_conversationactionlocale?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
+- name: "Conversation Attribute"
+  displayName: "msdyn_conversation_attribute entity"
+  href: msdyn_conversation_attribute.md
 - name: "Conversation Capacity profile"
   displayName: "msdyn_ocliveworkitemcapacityprofile entity"
   href: /dynamics365/developer/reference/entities/msdyn_ocliveworkitemcapacityprofile?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
@@ -196,12 +253,24 @@ items:
 - name: "Currency"
   displayName: "TransactionCurrency entity"
   href: transactioncurrency.md
+- name: "Custom messaging account"
+  displayName: "msdyn_ocbotchannelregistration entity"
+  href: msdyn_ocbotchannelregistration.md
+- name: "Custom messaging channel"
+  displayName: "msdyn_occustommessagingchannel entity"
+  href: msdyn_occustommessagingchannel.md
+- name: "Custom Messaging Engagement Context"
+  displayName: "msdyn_customengagementctx entity"
+  href: msdyn_customengagementctx.md
 - name: "Customer Asset"
   displayName: "msdyn_customerasset entity"
   href: msdyn_customerasset.md
 - name: "Customer Voice alert"
   displayName: "msfp_alert entity"
   href: msfp_alert.md
+- name: "Customer Voice survey"
+  displayName: "msfp_survey entity"
+  href: msfp_survey.md
 - name: "Customer Voice survey invite"
   displayName: "msfp_surveyinvite entity"
   href: msfp_surveyinvite.md
@@ -244,27 +313,54 @@ items:
 - name: "External context"
   displayName: "msdyn_ocexternalcontext entity"
   href: /dynamics365/developer/reference/entities/msdyn_ocexternalcontext?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
+- name: "External Security Setting"
+  displayName: "msdyn_ocexternalsecuritysetting entity"
+  href: msdyn_ocexternalsecuritysetting.md
+- name: "Facebook Application"
+  displayName: "msdyn_ocfbapplication entity"
+  href: msdyn_ocfbapplication.md
+- name: "Facebook Engagement Context"
+  displayName: "msdyn_facebookengagementctx entity"
+  href: msdyn_facebookengagementctx.md
+- name: "Facebook Page"
+  displayName: "msdyn_ocfbpage entity"
+  href: msdyn_ocfbpage.md
 - name: "Facility/Equipment"
   displayName: "Equipment entity"
   href: equipment.md
 - name: "Fax"
   displayName: "Fax entity"
   href: fax.md
+- name: "Feedback"
+  displayName: "Feedback entity"
+  href: feedback.md
 - name: "Field Sharing"
   displayName: "PrincipalObjectAttributeAccess entity"
   href: principalobjectattributeaccess.md
-- name: "Flow Log"
-  displayName: "flowlog entity"
-  href: flowlog.md
-- name: "Flow Machine Image"
-  displayName: "flowmachineimage entity"
-  href: flowmachineimage.md
+- name: "FileAttachment"
+  displayName: "FileAttachment entity"
+  href: fileattachment.md
 - name: "Fulfillment Preference"
   displayName: "msdyn_timegroup entity"
   href: msdyn_timegroup.md
+- name: "Gatekeeper Engagement Context"
+  displayName: "msdyn_ocgatekeeperengagementctx entity"
+  href: msdyn_ocgatekeeperengagementctx.md
+- name: "Geo Location Provider"
+  displayName: "msdyn_oc_geolocationprovider entity"
+  href: msdyn_oc_geolocationprovider.md
 - name: "Geo Location Provider"
   displayName: "msdyn_oc_geolocationprovider entity"
   href: /dynamics365/developer/reference/entities/msdyn_oc_geolocationprovider?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
+- name: "Google's Business Messages agent account"
+  displayName: "msdyn_ocgooglebusinessmessagesagentaccount entity"
+  href: msdyn_ocgooglebusinessmessagesagentaccount.md
+- name: "Google's Business Messages engagement context"
+  displayName: "msdyn_ocgooglebusinessmessagesengagementctx entity"
+  href: msdyn_ocgooglebusinessmessagesengagementctx.md
+- name: "Google's Business Messages partner account"
+  displayName: "msdyn_ocgooglebusinessmessagespartneraccount entity"
+  href: msdyn_ocgooglebusinessmessagespartneraccount.md
 - name: "Insight"
   displayName: "msdyn_salessuggestion entity"
   href: msdyn_salessuggestion.md
@@ -288,16 +384,28 @@ items:
   href: knowledgebaserecord.md
 - name: "Language"
   displayName: "msdyn_oclanguage entity"
-  href: /dynamics365/developer/reference/entities/msdyn_oclanguage?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
+  href: msdyn_oclanguage.md
 - name: "Lead"
   displayName: "Lead entity"
   href: lead.md
 - name: "Letter"
   displayName: "Letter entity"
   href: letter.md
+- name: "LINE account"
+  displayName: "msdyn_oclinechannelconfig entity"
+  href: msdyn_oclinechannelconfig.md
+- name: "LINE Engagement Context"
+  displayName: "msdyn_lineengagementctx entity"
+  href: msdyn_lineengagementctx.md
+- name: "Live Chat Context"
+  displayName: "msdyn_livechatengagementctx entity"
+  href: msdyn_livechatengagementctx.md
 - name: "Localization"
   displayName: "msdyn_oclocalizationdata entity"
   href: /dynamics365/developer/reference/entities/msdyn_oclocalizationdata?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
+- name: "Localized Survey Question (Deprecated)"
+  displayName: "msdyn_localizedsurveyquestion entity"
+  href: msdyn_localizedsurveyquestion.md
 - name: "Macro Run History"
   displayName: "msdyn_macrosession entity"
   href: /dynamics365/developer/reference/entities/msdyn_macrosession?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
@@ -310,6 +418,9 @@ items:
 - name: "Mailbox Auto Tracking Folder"
   displayName: "MailboxTrackingFolder entity"
   href: mailboxtrackingfolder.md
+- name: "Managed Identity"
+  displayName: "ManagedIdentity entity"
+  href: managedidentity.md
 - name: "Masking Rule"
   displayName: "msdyn_maskingrule entity"
   href: /dynamics365/developer/reference/entities/msdyn_maskingrule?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
@@ -318,16 +429,25 @@ items:
   href: /dynamics365/developer/reference/entities/msdyn_masterentityroutingconfiguration?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Message"
   displayName: "msdyn_ocsystemmessage entity"
-  href: /dynamics365/developer/reference/entities/msdyn_ocsystemmessage?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
-- name: "Migration tracker"
-  displayName: "msdyn_migrationtracker entity"
-  href: msdyn_migrationtracker.md
+  href: msdyn_ocsystemmessage.md
+- name: "Microsoft Teams account"
+  displayName: "msdyn_octeamschannelconfig entity"
+  href: msdyn_octeamschannelconfig.md
 - name: "Model training details"
   displayName: "msdyn_ocsimltraining entity"
   href: /dynamics365/developer/reference/entities/msdyn_ocsimltraining?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Note"
   displayName: "Annotation entity"
   href: annotation.md
+- name: "OC Apple Pay Entity"
+  displayName: "msdyn_ocapplepay entity"
+  href: msdyn_ocapplepay.md
+- name: "OC Payment Profile"
+  displayName: "msdyn_ocpaymentprofile entity"
+  href: msdyn_ocpaymentprofile.md
+- name: "OC Twitter Handle Secret"
+  displayName: "msdyn_octwitterhandlesecret entity"
+  href: msdyn_octwitterhandlesecret.md
 - name: "Omnichannel Configuration"
   displayName: "msdyn_omnichannelconfiguration entity"
   href: /dynamics365/developer/reference/entities/msdyn_omnichannelconfiguration?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
@@ -342,7 +462,7 @@ items:
   href: /dynamics365/developer/reference/entities/msdyn_omnichannelsyncconfig?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Operating Hour"
   displayName: "msdyn_operatinghour entity"
-  href: /dynamics365/developer/reference/entities/msdyn_operatinghour?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
+  href: msdyn_operatinghour.md
 - name: "Opportunity"
   displayName: "Opportunity entity"
   href: opportunity.md
@@ -358,6 +478,12 @@ items:
 - name: "Organizational Unit"
   displayName: "msdyn_organizationalunit entity"
   href: msdyn_organizationalunit.md
+- name: "Outbound Configuration"
+  displayName: "msdyn_ocoutboundconfiguration entity"
+  href: msdyn_ocoutboundconfiguration.md
+- name: "Outbound message"
+  displayName: "msdyn_ocoutboundmessage entity"
+  href: msdyn_ocoutboundmessage.md
 - name: "Overflow Action Config"
   displayName: "msdyn_overflowactionconfig entity"
   href: /dynamics365/developer/reference/entities/msdyn_overflowactionconfig?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
@@ -382,9 +508,15 @@ items:
 - name: "Phone Call"
   displayName: "PhoneCall entity"
   href: phonecall.md
-- name: "PM Simulation"
-  displayName: "msdyn_pmsimulation entity"
-  href: msdyn_pmsimulation.md
+- name: "Phone Call Engagement Context"
+  displayName: "msdyn_ocphonecallengagementctx entity"
+  href: msdyn_ocphonecallengagementctx.md
+- name: "Phone Music"
+  displayName: "msdyn_ocphonemusic entity"
+  href: msdyn_ocphonemusic.md
+- name: "Phone Number"
+  displayName: "msdyn_ocphonenumber entity"
+  href: msdyn_ocphonenumber.md
 - name: "Poll Placement"
   displayName: "mspp_pollplacement entity"
   href: mspp_pollplacement.md
@@ -409,6 +541,24 @@ items:
 - name: "Priority"
   displayName: "msdyn_priority entity"
   href: msdyn_priority.md
+- name: "Proactive Delivery"
+  displayName: "msdyn_proactive_delivery entity"
+  href: msdyn_proactive_delivery.md
+- name: "Proactive Delivery Attribute"
+  displayName: "msdyn_proactive_delivery_attribute entity"
+  href: msdyn_proactive_delivery_attribute.md
+- name: "Proactive Engagement Configuration"
+  displayName: "msdyn_proactive_engagement_config entity"
+  href: msdyn_proactive_engagement_config.md
+- name: "Proactive Engagement Configuration Attribute"
+  displayName: "msdyn_proactive_engagement_config_attribute entity"
+  href: msdyn_proactive_engagement_config_attribute.md
+- name: "Proactive Engagement Configuration Characteristic"
+  displayName: "msdyn_proactive_eng_config_characteristic entity"
+  href: msdyn_proactive_eng_config_characteristic.md
+- name: "Proactive Engagement Configuration Status"
+  displayName: "msdyn_proactive_engagement_config_status entity"
+  href: msdyn_proactive_engagement_config_status.md
 - name: "Process Session"
   displayName: "ProcessSession entity"
   href: processsession.md
@@ -427,9 +577,15 @@ items:
 - name: "Provider"
   displayName: "msdyn_provider entity"
   href: /dynamics365/developer/reference/entities/msdyn_provider?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
+- name: "Provisioning State"
+  displayName: "msdyn_ocprovisioningstate entity"
+  href: msdyn_ocprovisioningstate.md
 - name: "Publishing State Transition Rule"
   displayName: "mspp_publishingstatetransitionrule entity"
   href: mspp_publishingstatetransitionrule.md
+- name: "Queue"
+  displayName: "Queue entity"
+  href: queue.md
 - name: "Queue"
   displayName: "Queue entity"
   href: /dynamics365/developer/reference/entities/queue?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
@@ -447,10 +603,16 @@ items:
   href: quote.md
 - name: "Quote Product"
   displayName: "QuoteDetail entity"
-  href: quotedetail.md
+  href: /dynamics365/developer/reference/entities/quotedetail?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Rating Value"
   displayName: "RatingValue entity"
   href: ratingvalue.md
+- name: "Read Tracker"
+  displayName: "msdyn_readtracker entity"
+  href: msdyn_readtracker.md
+- name: "Recording"
+  displayName: "msdyn_ocrecording entity"
+  href: msdyn_ocrecording.md
 - name: "Recurring Appointment"
   displayName: "RecurringAppointmentMaster entity"
   href: recurringappointmentmaster.md
@@ -493,6 +655,12 @@ items:
 - name: "Resource Territory"
   displayName: "msdyn_resourceterritory entity"
   href: msdyn_resourceterritory.md
+- name: "Rich message"
+  displayName: "msdyn_ocrichobject entity"
+  href: msdyn_ocrichobject.md
+- name: "Rich object map"
+  displayName: "msdyn_ocrichobjectmap entity"
+  href: msdyn_ocrichobjectmap.md
 - name: "Routing configuration"
   displayName: "msdyn_routingconfiguration entity"
   href: /dynamics365/developer/reference/entities/msdyn_routingconfiguration?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
@@ -501,10 +669,16 @@ items:
   href: /dynamics365/developer/reference/entities/msdyn_routingconfigurationstep?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Routing diagnostic"
   displayName: "msdyn_unifiedroutingrun entity"
+  href: msdyn_unifiedroutingrun.md
+- name: "Routing diagnostic"
+  displayName: "msdyn_unifiedroutingrun entity"
   href: /dynamics365/developer/reference/entities/msdyn_unifiedroutingrun?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Routing diagnostic item"
   displayName: "msdyn_unifiedroutingdiagnostic entity"
   href: /dynamics365/developer/reference/entities/msdyn_unifiedroutingdiagnostic?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
+- name: "Routing diagnostic item"
+  displayName: "msdyn_unifiedroutingdiagnostic entity"
+  href: msdyn_unifiedroutingdiagnostic.md
 - name: "Routing Rule Set Setting"
   displayName: "msdyn_routingrulesetsetting entity"
   href: /dynamics365/developer/reference/entities/msdyn_routingrulesetsetting?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
@@ -514,6 +688,9 @@ items:
 - name: "Rule Item"
   displayName: "msdyn_ocruleitem entity"
   href: /dynamics365/developer/reference/entities/msdyn_ocruleitem?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
+- name: "Scenario"
+  displayName: "msdyn_scenario entity"
+  href: msdyn_scenario.md
 - name: "Schedule Board Setting"
   displayName: "msdyn_scheduleboardsetting entity"
   href: msdyn_scheduleboardsetting.md
@@ -562,6 +739,12 @@ items:
 - name: "Session participant"
   displayName: "msdyn_sessionparticipant entity"
   href: /dynamics365/developer/reference/entities/msdyn_sessionparticipant?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
+- name: "Session participant"
+  displayName: "msdyn_sessionparticipant entity"
+  href: msdyn_sessionparticipant.md
+- name: "Session Participant Event"
+  displayName: "msdyn_ocsessionparticipantevent entity"
+  href: msdyn_ocsessionparticipantevent.md
 - name: "Session Participant Event"
   displayName: "msdyn_ocsessionparticipantevent entity"
   href: /dynamics365/developer/reference/entities/msdyn_ocsessionparticipantevent?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
@@ -586,15 +769,42 @@ items:
 - name: "SLA"
   displayName: "SLA entity"
   href: sla.md
+- name: "SMS Engagement Context"
+  displayName: "msdyn_smsengagementctx entity"
+  href: msdyn_smsengagementctx.md
+- name: "SMS Number"
+  displayName: "msdyn_smsnumber entity"
+  href: msdyn_smsnumber.md
+- name: "SMS Number settings"
+  displayName: "msdyn_ocsmschannelsetting entity"
+  href: msdyn_ocsmschannelsetting.md
+- name: "SMS Setting Secret"
+  displayName: "msdyn_ocsmssettingsecret entity"
+  href: msdyn_ocsmssettingsecret.md
 - name: "Social Activity"
   displayName: "SocialActivity entity"
   href: socialactivity.md
 - name: "Social Profile"
   displayName: "SocialProfile entity"
-  href: /dynamics365/developer/reference/entities/socialprofile?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
+  href: socialprofile.md
 - name: "Sound notification setting"
   displayName: "msdyn_soundnotificationsetting entity"
   href: /dynamics365/developer/reference/entities/msdyn_soundnotificationsetting?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
+- name: "Survey Answer Option"
+  displayName: "msdyn_chatansweroption entity"
+  href: msdyn_chatansweroption.md
+- name: "Survey Question"
+  displayName: "msdyn_surveyquestion entity"
+  href: msdyn_surveyquestion.md
+- name: "Survey Question Sequence"
+  displayName: "msdyn_questionsequence entity"
+  href: msdyn_questionsequence.md
+- name: "Survey Response"
+  displayName: "msdyn_chatquestionnaireresponse entity"
+  href: msdyn_chatquestionnaireresponse.md
+- name: "Survey Response Value"
+  displayName: "msdyn_chatquestionnaireresponseitem entity"
+  href: msdyn_chatquestionnaireresponseitem.md
 - name: "Swarm"
   displayName: "msdyn_swarm entity"
   href: msdyn_swarm.md
@@ -619,6 +829,9 @@ items:
 - name: "Teams chat"
   displayName: "chat entity"
   href: chat.md
+- name: "Teams Engagement Context"
+  displayName: "msdyn_teamschannelengagementctx entity"
+  href: msdyn_teamschannelengagementctx.md
 - name: "Territory"
   displayName: "Territory entity"
   href: territory.md
@@ -640,6 +853,18 @@ items:
 - name: "Transcript"
   displayName: "msdyn_transcript entity"
   href: /dynamics365/developer/reference/entities/msdyn_transcript?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
+- name: "Twitter account"
+  displayName: "msdyn_octwitterapplication entity"
+  href: msdyn_octwitterapplication.md
+- name: "Twitter Engagement Context"
+  displayName: "msdyn_twitterengagementctx entity"
+  href: msdyn_twitterengagementctx.md
+- name: "Twitter handle"
+  displayName: "msdyn_octwitterhandle entity"
+  href: msdyn_octwitterhandle.md
+- name: "Twitter Handle Provisioning Status"
+  displayName: "msdyn_octwitterhandleprovisioningstatus entity"
+  href: msdyn_octwitterhandleprovisioningstatus.md
 - name: "Unified Routing Setup Tracker"
   displayName: "msdyn_unifiedroutingsetuptracker entity"
   href: /dynamics365/developer/reference/entities/msdyn_unifiedroutingsetuptracker?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
@@ -649,18 +874,66 @@ items:
 - name: "Unit Group"
   displayName: "UoMSchedule entity"
   href: uomschedule.md
+- name: "UR notification template"
+  displayName: "msdyn_urnotificationtemplate entity"
+  href: msdyn_urnotificationtemplate.md
 - name: "User"
   displayName: "SystemUser entity"
   href: systemuser.md
 - name: "User settings"
   displayName: "msdyn_usersetting entity"
   href: /dynamics365/developer/reference/entities/msdyn_usersetting?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
+- name: "User settings"
+  displayName: "msdyn_usersetting entity"
+  href: msdyn_usersetting.md
+- name: "Voice"
+  displayName: "msdyn_ocvoice entity"
+  href: msdyn_ocvoice.md
+- name: "Voice Channel Language Setting"
+  displayName: "msdyn_ocvoicechannellanguagesetting entity"
+  href: msdyn_ocvoicechannellanguagesetting.md
+- name: "Voice channel organization setting"
+  displayName: "msdyn_voicechannelorganizationsetting entity"
+  href: msdyn_voicechannelorganizationsetting.md
+- name: "Voice Channel Setting"
+  displayName: "msdyn_ocvoicechannelsetting entity"
+  href: msdyn_ocvoicechannelsetting.md
+- name: "Voicemail"
+  displayName: "msdyn_ocvoicemail entity"
+  href: msdyn_ocvoicemail.md
+- name: "Web Engagement Ruleset"
+  displayName: "msdyn_webengagementruleset entity"
+  href: msdyn_webengagementruleset.md
+- name: "Web Engagement Ruleset Config"
+  displayName: "msdyn_webengagementrulesetconfig entity"
+  href: msdyn_webengagementrulesetconfig.md
+- name: "Web Engagement Ruleset Revision"
+  displayName: "msdyn_webengagementrulesetrevision entity"
+  href: msdyn_webengagementrulesetrevision.md
+- name: "Web Engagement Site Area"
+  displayName: "msdyn_webengagementsitearea entity"
+  href: msdyn_webengagementsitearea.md
 - name: "Website"
   displayName: "mspp_website entity"
   href: mspp_website.md
+- name: "WeChat account"
+  displayName: "msdyn_ocwechatchannelconfig entity"
+  href: msdyn_ocwechatchannelconfig.md
+- name: "WeChat Engagement Context"
+  displayName: "msdyn_wechatengagementctx entity"
+  href: msdyn_wechatengagementctx.md
+- name: "WhatsApp account"
+  displayName: "msdyn_ocwhatsappchannelaccount entity"
+  href: msdyn_ocwhatsappchannelaccount.md
+- name: "WhatsApp Engagement Context"
+  displayName: "msdyn_whatsappengagementctx entity"
+  href: msdyn_whatsappengagementctx.md
+- name: "WhatsApp number"
+  displayName: "msdyn_ocwhatsappchannelnumber entity"
+  href: msdyn_ocwhatsappchannelnumber.md
 - name: "Work Stream"
   displayName: "msdyn_liveworkstream entity"
-  href: /dynamics365/developer/reference/entities/msdyn_liveworkstream?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
+  href: msdyn_liveworkstream.md
 - name: "Work stream capacity profile"
   displayName: "msdyn_liveworkstreamcapacityprofile entity"
   href: /dynamics365/developer/reference/entities/msdyn_liveworkstreamcapacityprofile?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json

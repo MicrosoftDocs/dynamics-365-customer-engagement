@@ -16,6 +16,15 @@ Send invitations to existing contacts or email addresses and assign them to web 
 > The Microsoft Dynamics 365 Invitation (adx_invitation) table extends the [Microsoft Dataverse Invitation (adx_invitation) table](/power-apps/developer/data-platform/reference/entities/adx_invitation).
 
 
+## Messages
+
+The following table lists the messages for the Invitation (adx_invitation) table.
+Messages represent operations that can be performed on the table. They may also be events.
+
+| Name <br />Is Event? |Web API Operation |SDK for .NET |
+| ---- | ----- |----- |
+| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
+
 
 
 ## One-to-Many relationships

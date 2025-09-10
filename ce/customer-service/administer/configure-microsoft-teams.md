@@ -1,7 +1,7 @@
 ---
 title: Configure Microsoft Teams channel
-description: Learn about the Microsoft Teams channel and how to configure the channel.
-ms.date: 03/03/2025
+description: Learn about the Microsoft Teams channel and how to configure it as an engagement channel.
+ms.date: 06/20/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -14,7 +14,6 @@ ms.collection:
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
-
 
 Use Microsoft Teams as an engagement channel for support of internal functions&mdash;such as technical support, human resources, and finance&mdash;to allow organizations to connect their employees with internal support personnel by using the omnichannel capabilities in Dynamics 365 Contact Center or Dynamics 365 Customer Service.
 
@@ -56,7 +55,8 @@ Make sure that the following prerequisites are met:
 
 ## Configure a Microsoft Teams channel<a name="configureinoac"></a>
 
-1. In the site map of Contact Center admin center or Customer Service admin center, select **Channels** in **Customer support**.
+1. In the site map of Copilot Service admin center, select **Channels** in **Customer support**.
+
 1. In **Accounts**, for **Messaging accounts**, select **Manage**.
 
 1. On the **Accounts and channels** page, select **New account**.
@@ -82,18 +82,13 @@ Make sure that the following prerequisites are met:
        - Customers can send file attachments
        - Service representatives can send file attachments
 
-    1. Turn on the toggle for **Voice and video calls** (preview), and select an option in the **Calling options** dropdown list. At runtime, when representatives are in conversation with customers and need to use audio or video to resolve issues, the call and video options are available to them.
-
-        > [!NOTE]
-        > Voice and video calls in Microsoft Teams is in preview, therefore, we recommend that you don't use it in production. Use it only in test and development environments.
-
-    1. Verify the settings on the **Summary** page, and select **Finish**. The Teams channel instance is configured.
+    1. Verify the settings on the **Summary** page, and then select **Finish**. The Teams channel instance is configured.
 
 1. Configure routing rules. Learn more in [Configure work classification](configure-work-classification.md).
 
 1. Configure work distribution. Learn more in [Work distribution settings](create-workstreams.md#configure-work-distribution).
 
-1. Add an AI agent (agent). Learn more in [Configure an agent](create-workstreams.md#add-a-bot-to-a-workstream).
+1. Add an AI agent (agent). Learn more in [Configure an agent](create-workstreams.md#add-an-agent-to-a-workstream).
 
 1. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](session-templates.md)
@@ -117,10 +112,31 @@ Make sure that the following prerequisites are met:
   > [!NOTE]
   > If you receive an error when trying to add an agent to the team, refer to [Prepare your Microsoft 365 tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant).
 
+## Configure authentication
+
+To enable sign-in on Microsoft Copilot agents, follow these steps:
+
+1. Complete the steps in [Configure user authentication with Microsoft Entra ID](/microsoft-copilot-studio/configuration-authentication-azure-ad).
+
+1. Update the Teams app to include the botframework domains:
+    1. In the Teams app, select the ellipses (...), and then select **Developer Portal**. The **Developer Portal** page appears.
+
+    1. On the **Apps** tab, select the app that you configured.
+       
+    1. Select **Domains** under **Configure**.
+       
+    1. Select **Add a domain**. The **Add domain** dialog appears.
+
+    1. Type *.botframework.com, and then select **Add**.
+
+    1. Select **Add a domain** again.
+
+    1. Type *.*botframework.com, and then select **Add**. 
+
 
 ### Related information
 
-[Overview of chanels](../use/channels.md)  
+[Overview of channels](../use/channels.md)  
 [Configure automated messages](configure-automated-message.md)  
 [Use Microsoft Teams channel](../use/teams-channel.md)  
 [Delete a configured channel](delete-channel.md)  

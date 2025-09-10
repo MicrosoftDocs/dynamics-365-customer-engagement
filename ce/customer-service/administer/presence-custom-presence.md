@@ -1,7 +1,7 @@
 ---
 title: Configure custom presence
 description: Learn to configure custom presence in Omnichannel for Customer Service.
-ms.date: 03/03/2025
+ms.date: 06/11/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -51,7 +51,7 @@ The inactive presence isn't available for manual selection by the representative
 
 In addition to the out-of-box presence statuses, admins can configure custom presence statuses for representatives that must be mapped to a base presence. For example, if the representatives on your team want to attend a training, you can create a custom **Away – In Training** presence status. When you map a custom presence to a base presence, make sure that the configurations are logically viable. For example, if you map an available custom presence to offline base status, the application treats it as offline while the visual effect would be available.
 
-1. In the site map of Customer Service admin center or Contact Center admin center, in **Agent experience**, select **Productivity**.
+1. In the site map of Copilot Service admin center, in **Agent experience**, select **Productivity**.
    
 1. Select **Manage** for **Custom Presence**.
 

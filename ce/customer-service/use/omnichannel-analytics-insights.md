@@ -1,7 +1,7 @@
 ---
 title: Omnichannel for Customer Service dashboards
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs in Omnichannel for Customer Service to manage contact centers.
-ms.date: 02/10/2025
+ms.date: 04/21/2025
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -20,22 +20,18 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
-
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
 The insights dashboards in Omnichannel for Customer Service contain various charts and metrics to help you understand the factors that can improve customer service for your organization. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases, customer service representatives (service representatives or representatives), and topics that contribute to overall trends. The dashboards provide a view into the support operation across the various channels.
 
-You can make changes to the visual display of the dashboards and also save your personalized views as bookmarks.
+You can [customize the visual display](customize-reports.md#customize-visual-display) of the dashboards and also save your personalized views as [bookmarks](manage-bookmarks.md).
 
-## Manage dashboards
-
-To manage the dashboards, go to: [Manage historical analytics reports in Omnichannel for Customer Service](../administer/oc-historical-analytics-reports.md).
+Learn more about managing the dashboards in [Manage historical analytics reports in Omnichannel for Customer Service](../administer/oc-historical-analytics-reports.md).
 
 ## Omnichannel historical analytics reports
 
-The following dashboard reports are available for Omnichannel historical analytics.
+The following reports are available for Omnichannel historical analytics.
 
 ### Summary
 
@@ -47,7 +43,7 @@ The Conversation dashboard gives you a broad overview of the assisted support cu
 
 ### Queue
 
-The Queue dashboard gives you a broad overview of the customer service experience in your organization by providing insights into how specific queues are operating. More information: [Queue dashboard](oc-queue-dashboard.md)
+The Queue dashboard gives you a broad overview of the customer service experience in your organization by providing insights into how specific queues are operating. Learn more in [Queue dashboard](oc-queue-dashboard.md).
 
 ### Agent
 
@@ -63,6 +59,22 @@ The Topics dashboard shows a detailed breakdown of conversations and their assig
 
 > [!NOTE]
 > The reports don't include work items of the Entity Record channel.
+
+## Data model
+
+- Learn more about [Data models and report mappings for historical analytics reports in Customer Service](oob-data-models.md#data-models-and-report-mappings-for-historical-analytics-reports-in-customer-service).
+
+- Learn more about [Dataverse entities used in historical and real-time analytics](dataverse-entities.md#dataverse-entities-used-in-historical-and-real-time-analytics).
+
+## Metrics
+
+[Calculate Conversation metrics](../develop/calculate-conversation-metrics.md#calculate-conversation-metrics)   
+[Session metrics](session-metrics.md#session-metrics)  
+[Service representative metrics](service-rep-metrics.md#service-representative-metrics)
+
+## Access the dashboards
+
+[!INCLUDE[cc-navigation](../../includes/cc-navigation.md)]
 
 ## Reports refresh and data retention
 

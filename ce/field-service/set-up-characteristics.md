@@ -1,7 +1,7 @@
 ---
 title: Specify characteristics for resources
-description: Assign characteristics to resources and work orders to list the skills needed to complete the job.
-ms.date: 08/12/2024
+description: Assign characteristics to resources and work orders to list the characteristics needed to complete the job.
+ms.date: 05/23/2025
 ms.topic: how-to
 ms.custom: bap-template
 author: ryanchen8
@@ -12,13 +12,13 @@ ms.author: chenryan
 
 Characteristics are skills or attributes that resources possess. For example, they can be used to indicate a license or certification is needed for certain types of work.  
   
-Add details to work orders to describe the skills needed to complete the job. Use these details to match the skills of available workers to make sure the right person is chosen for the task.
+Add details to work orders to describe the characteristics needed to complete the job. Use these details to match the characteristics of available workers to make sure the right person is chosen for the task.
   
 ## Add characteristics  
   
 1. In Resource Scheduling, change to the **Settings** area.
 
-1. Under **Resource**, select **Skills**.
+1. Under **Resource**, select **Characteristics**.
 
 1. Select **New** to add a characteristic.
 
@@ -26,18 +26,18 @@ Add details to work orders to describe the skills needed to complete the job. Us
 
 1. Choose a **Characteristic Type**.
 
-   - **Skill**: The characteristic is specific knowledge or experience that is rated with a [proficiency level](#create-a-proficiency-model).
+   - **Skill**: The characteristic is specific knowledge or experience that is rated with a [rating level](#create-a-rating-model).
    - **Certification**: The characteristic is a designated credential, status, or level of achievement earned by a resource.
 
 1. Select **Save & Close**.
 
-## Create a proficiency model
+## Create a rating model
 
-You can define rating values in a proficiency model that's used to indicate the skill level of a resource.
+You can define rating values in a rating model that's used to indicate the characteristic level of a resource.
 
 1. In Resource Scheduling, change to the **Settings** area.
 
-1. Under **Resource**, select **Proficiency Models**.
+1. Under **Resource**, select **Rating Models**.
   
 1. Select **New** to create a new model or select an existing model.
 
@@ -86,7 +86,10 @@ Before users can specify enhanced characteristics, a Field Service administrator
 With enhanced characteristics enabled, you can add more information to *Bookable Resource Characteristic* records.
 
 A section for **Supporting Information** shows on the record. You can provide an **ID**, **Issue Date**, **Expiration Date**, and a **Description** of a characteristic that relates to a specific resource.
-  
+
+> [!NOTE]
+> With enhanced characteristics, the system doesn't allow duplicate *Bookable Resource Characteristic* records with the same combination of **Name**, **Characteristic**, **Rating Value**, **ID**, **Issue Date**, and **Expiration Date**.
+
 ## Assign characteristics to work orders  
   
 1. Open a [work order](create-work-order.md).

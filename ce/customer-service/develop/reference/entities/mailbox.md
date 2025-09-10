@@ -22,6 +22,10 @@ search.audienceType:
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_bookingalert_mailbox_sendermailboxid](#BKMK_msdyn_bookingalert_mailbox_sendermailboxid)
+- [msdyn_ocoutboundmessage_mailbox_sendermailboxid](#BKMK_msdyn_ocoutboundmessage_mailbox_sendermailboxid)
+- [msdyn_ocvoicemail_mailbox_sendermailboxid](#BKMK_msdyn_ocvoicemail_mailbox_sendermailboxid)
+
 ### <a name="BKMK_msdyn_bookingalert_mailbox_sendermailboxid"></a> msdyn_bookingalert_mailbox_sendermailboxid
 
 Many-To-One Relationship: [msdyn_bookingalert msdyn_bookingalert_mailbox_sendermailboxid](msdyn_bookingalert.md#BKMK_msdyn_bookingalert_mailbox_sendermailboxid)
@@ -31,6 +35,30 @@ Many-To-One Relationship: [msdyn_bookingalert msdyn_bookingalert_mailbox_senderm
 |ReferencingEntity|`msdyn_bookingalert`|
 |ReferencingAttribute|`sendermailboxid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_bookingalert_mailbox_sendermailboxid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocoutboundmessage_mailbox_sendermailboxid"></a> msdyn_ocoutboundmessage_mailbox_sendermailboxid
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage msdyn_ocoutboundmessage_mailbox_sendermailboxid](msdyn_ocoutboundmessage.md#BKMK_msdyn_ocoutboundmessage_mailbox_sendermailboxid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`sendermailboxid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocoutboundmessage_mailbox_sendermailboxid`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocvoicemail_mailbox_sendermailboxid"></a> msdyn_ocvoicemail_mailbox_sendermailboxid
+
+Many-To-One Relationship: [msdyn_ocvoicemail msdyn_ocvoicemail_mailbox_sendermailboxid](msdyn_ocvoicemail.md#BKMK_msdyn_ocvoicemail_mailbox_sendermailboxid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`sendermailboxid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocvoicemail_mailbox_sendermailboxid`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

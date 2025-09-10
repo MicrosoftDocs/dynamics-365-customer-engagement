@@ -1,7 +1,7 @@
 ---
 title: Set defaults for work orders, bookings, the schedule board, and agreements
 description: Learn how to set defaults for work orders, bookings, the schedule board, and agreements in Dynamics 365 Field Service.
-ms.date: 09/03/2024
+ms.date: 07/30/2025
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -64,7 +64,7 @@ This settings tab lets you enable toggles for preview, copilot, and a few other 
 |**Preview section**||
 | Enhanced characteristics | Enable [enhanced characteristics](set-up-characteristics.md) to add more details to a resource's characteristics. |
 |**Copilot in Field Service section**||
-| Copilot for work order | Enable [work order summary with Copilot](work-order-recap.md) to provide a summary of a work order. |
+| Copilot for work order | Enable [work order summary with Copilot](use-work-order-recap.md) to provide a summary of a work order. |
 | Copilot in Microsoft Outlook | Disable the use of copilot capabilities in Outlook for Field Service. If enabled, you agree that data might be stored and processed outside of your tenant's geographic region or compliance boundary. For more information, see [FAQ for Outlook using Copilot in Field Service.](faqs-wo-flw-copilot.md)|
 |**Other settings section**||
 | Insurance policies | Enable [insurance policies](insurance.md) to create an insurance policy. |
@@ -80,7 +80,7 @@ This settings tab lets you define several default values and basic settings rela
 | ------------- | -------------- |
 |**General section**||
 |  Default work order completed status  | Choose whether the default booking status for a completed work order is **Completed** or **Posted**. For more information, go to [Set up booking statuses](set-up-booking-statuses.md).   |
-|  Default Warehouse   |    Select the default warehouse that work order products will be taken from unless specified otherwise. For more information, go to [Create a warehouse](create-warehouse.md).   |
+|  Default Warehouse   |    Specify the default warehouse for work order products when a warehouse is required and isn't specified on the **Work Order Product**. The system doesn't automatically populate the warehouse for all work order products. It only uses this default if a warehouse is required and left blank. Learn more in [Create a warehouse](create-warehouse.md).   |
 | Timestamp Frequency | Choose when the system updates the timestamp for a booking. |
 | Suggest Reparenting Customer Assets | Warn users when a customer asset gets added to a work order that doesn't relate to the work order's service account. If set to *Yes*, the system offers to map the customer asset to the work order's service account. When set to *No*, the warning and suggestion don't show. |
 | Calculate Price | Work orders contain pricing-related fields and functions. By default, this field is set to *Yes*, which enables pricing-related fields and logic. Changing the setting to *No* removes all pricing-related fields and disables the pricing logic, so work orders won't generate invoices after completion.|

@@ -1,7 +1,7 @@
 ---
 title: Define product pricing
 description: Use price lists and price list items for defining price for a product. Create multiple price lists and set default price list for a territory.
-ms.date: 08/29/2024
+ms.date: 08/08/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

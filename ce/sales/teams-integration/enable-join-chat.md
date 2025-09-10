@@ -1,8 +1,8 @@
 ---
 title: Configure the ability for users to join existing connected chats
 description: Learn how to configure the ability for users to join existing connected chats.
-ms.date: 06/28/2024
-ms.topic: article
+ms.date: 07/17/2025
+ms.topic: how-to
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais

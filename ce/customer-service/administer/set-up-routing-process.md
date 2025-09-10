@@ -1,7 +1,7 @@
 ---
 title: How to set up unified routing
 description: Learn about the high-level process for setting up unified routing in Customer Service.
-ms.date: 02/02/2024
+ms.date: 04/14/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -42,7 +42,7 @@ The sequence of the tasks that you'll need to perform for setting up unified rou
 |![Step 5.](../media/step-5.png "Step 5") |[Create workstreams for record routing](set-up-record-routing.md#create-workstreams-for-record-routing)|Configure a workstream for record routing|
 |![Step 6.](../media/step-6.png "Step 6") |[Enable routing diagnostics](unified-routing-diagnostics.md#manage-routing-diagnostics)|Turn on routing diagnostics|
 
-### Try the runtime experience in Customer Service workspace
+### Try the runtime experience in Copilot Service workspace
 
 Make sure that you have the Customer Service Representative role to try the runtime experience and do the following:
 
@@ -76,6 +76,6 @@ Optionally, you can configure the following settings.
 [Set up unified routing for records](set-up-record-routing.md)  
 [Set up skill-based routing](overview-skill-work-distribution.md)  
 [Manage capacity profiles](capacity-profiles.md)  
-[Export and import configuration data for the record channel](migrate-config-data-for-records.md)  
+[Export and import configuration data for the record channel](migrate-record-routing-config-using-solutions.md)  
 [Export import data for the live chat channel](migrate-config-data-for-live-chat.md)  
 [FAQ on unified routing](unified-routing-faqs.md)  

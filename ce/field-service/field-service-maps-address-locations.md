@@ -1,7 +1,7 @@
 ---
 title: Enable location and map settings
 description: Learn all about location and map settings and how to enable them in Dynamics 365 Field Service.
-ms.date: 10/08/2024
+ms.date: 08/18/2025
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
@@ -59,7 +59,7 @@ Booking maps is a feature that allows frontline workers to see their scheduled j
 > [!div class="mx-imgBorder"]
 > ![Screenshot of bookings on a map in the Field Service mobile app.](./media/mobile-2020-booking-maps.png)
 
-For more information, see [Enable geospatial features in your environment](/powerapps/maker/canvas-apps/geospatial-overview#enable-the-geospatial-features-for-the-environment).
+For more information, see [Enable geospatial features in your environment](/powerapps/maker/canvas-apps/geospatial-overview#enable-geospatial-features-for-the-environment).
 
 ## Location tracking
 
@@ -71,6 +71,14 @@ A geofence is a virtual perimeter around a specific location. Geofencing allows 
 
 ## Use custom Bing Maps API key
 
-Enable the connection to Bing Maps to get service enhancements, such as location information for work orders and resources. When you keep the the Map API field blank, Field Service pulls location and travel time information from the Bing Maps API on your behalf. However, admins can specify their own API key to [use custom implementations](/bingmaps/spatial-data-services/data-source-management-api). Using a custom API key incurs the costs of usage on the Azure service.
+Enable the connection to Bing Maps to get service enhancements, such as location information for work orders and resources. When you keep the Map API field blank, Field Service pulls location and travel time information from the Bing Maps API on your behalf. However, admins can specify their own API key to [use custom implementations](/bingmaps/spatial-data-services/data-source-management-api). Using a custom API key incurs the costs of usage on the Azure service.
+
+Basic tier Bing Maps accounts are now deprecated and their associated API keys are no longer supported for geo-coding. Users who have been utilizing these custom API keys may now see unexpected results or errors when updating a record’s address and attempting geo-coding either automatically or manually.
+
+To fix this issue, choose one of the following options: 
+- Remove your custom key and use Universal Resource Scheduling’s default. This option is most appropriate for users without extensive custom mapping data. Navigate to [**Scheduling Parameters**](#connect-to-maps) and delete any input in the **Map Api Key** field. 
+- Upgrade to a “Bing Maps for Enterprise Key”. This option is most appropriate for users with extensive custom mapping data and is the least disruptive. Learn more at [What are my options regarding Bing Maps for Enterprise Retirement?](https://blogs.bing.com/maps/2025-01/What-are-my-options-regarding-Bing-Maps-for-Enterprise-Retirement).
+- Acquire a shared enterprise key. This option provides the same benefits as upgrading a Bing account, and might be a cost-effective option. 
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

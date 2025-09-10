@@ -1,8 +1,8 @@
 ---
 title: "Price calculation for opportunity, quote, order, and invoice records (Dynamics 365 Sales) | MicrosoftDocs"
 description: "This article explains how prices are calculated for price-related fields in the opportunity, quote, order, and invoice records in Dynamics 365 Sales."
-ms.date: 09/05/2024
-ms.topic: article
+ms.date: 08/22/2025
+ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

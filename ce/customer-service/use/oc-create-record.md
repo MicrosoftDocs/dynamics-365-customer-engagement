@@ -1,20 +1,19 @@
 ---
 title: Create records for conversations
-description: Learn how you can create conversation records using various methods.
+description: Learn how you can create conversation records using various methods in Dynamics 365 Contact Center and Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 07/01/2024
-ms.topic: article
+ms.date: 07/30/2025
+ms.topic: how-to
+ms.custom: bap-template
 ---
 
 # Create a record for conversations
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
-
-> [!Note]
+> [!NOTE]
 > Case information is applicable to Customer Service only.
 
 When no records are linked to the conversation, you can create a record. You can create a record in one of the following ways:
@@ -86,10 +85,6 @@ To create a record
 After you save the changes, you can link the record to the conversation. To learn more, see [Search and link a record to the conversation](oc-search-link-unlink-record.md#search-for-records-by-using-the-inline-search-option) 
 
 ## Create a record using the New option
-
-> [!Note]
-> Case information is applicable to Customer Service only.
-
 
 In the **Active Conversation** page, when you are trying to search a record in customer or case section, after you type few characters to search, you can use the inline **New** button to create a record. After you select the button, the **Quick Create** pane of the record appears.
 

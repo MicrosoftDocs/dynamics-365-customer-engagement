@@ -6,7 +6,7 @@ ms.reviewer: pehecke
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: get-started
 ms.assetid: fe35e880-9612-4d48-8fbe-2c2237baea32
 caps.latest.revision: 13
 author: JimDaly

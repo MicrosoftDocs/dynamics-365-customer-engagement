@@ -1,8 +1,8 @@
 ---
 title: Create and connect sequences for yourself
 description: Automate your work with sequences. Create a set of activities, personalize communication, and prioritize tasks for better productivity.
-ms.date: 06/19/2024
-ms.topic: article
+ms.date: 06/30/2025
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -39,19 +39,19 @@ The sequences that you create are available for your business unit. Other seller
 
 Create sequences by using the sequence designer. You can access the sequence designer in the following ways:
 
-- [Personal settings](#personal-settings)
+- [Sales Insights settings](#sales-insights-settings)
 - [Up next widget](#up-next-widget)
 - [Record grid view](#record-grid-view)
 
-### Personal settings
+### Sales Insights settings
 
-We recommend using personal settings to access the sequence designer. Here you can create, edit, delete, and connect sequences.
+We recommend using sales insights settings to access the sequence designer. Here you can create, edit, delete, and connect sequences.
 
 **To access the sequence designer**
 
-1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Personal settings**.
+1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.
 
-2. On the **Personal settings** page, under **Sales accelerator** > **Sequence**, select **New sequence**.
+2. On the **Sales Insights settings** page, under **Sales accelerator** > **Sequences**, select **New sequence**.
 
     :::image type="content" source="media/sequence-seller-select-new-sequence-sequences-page.png" alt-text="Screenshot of the sequences page to select a new sequence.":::
 

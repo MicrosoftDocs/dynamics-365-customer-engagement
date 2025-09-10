@@ -22,6 +22,10 @@ Contains user profile images that are stored as attachments and displayed in pos
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_postalbum_msdyn_bookingalerts](#BKMK_msdyn_postalbum_msdyn_bookingalerts)
+- [msdyn_postalbum_msdyn_ocoutboundmessages](#BKMK_msdyn_postalbum_msdyn_ocoutboundmessages)
+- [msdyn_postalbum_msdyn_ocvoicemails](#BKMK_msdyn_postalbum_msdyn_ocvoicemails)
+
 ### <a name="BKMK_msdyn_postalbum_msdyn_bookingalerts"></a> msdyn_postalbum_msdyn_bookingalerts
 
 Many-To-One Relationship: [msdyn_bookingalert msdyn_postalbum_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_postalbum_msdyn_bookingalerts)
@@ -31,6 +35,30 @@ Many-To-One Relationship: [msdyn_bookingalert msdyn_postalbum_msdyn_bookingalert
 |ReferencingEntity|`msdyn_bookingalert`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_postalbum_msdyn_bookingalerts`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_postalbum_msdyn_ocoutboundmessages"></a> msdyn_postalbum_msdyn_ocoutboundmessages
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage msdyn_postalbum_msdyn_ocoutboundmessages](msdyn_ocoutboundmessage.md#BKMK_msdyn_postalbum_msdyn_ocoutboundmessages)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_postalbum_msdyn_ocoutboundmessages`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_postalbum_msdyn_ocvoicemails"></a> msdyn_postalbum_msdyn_ocvoicemails
+
+Many-To-One Relationship: [msdyn_ocvoicemail msdyn_postalbum_msdyn_ocvoicemails](msdyn_ocvoicemail.md#BKMK_msdyn_postalbum_msdyn_ocvoicemails)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_postalbum_msdyn_ocvoicemails`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

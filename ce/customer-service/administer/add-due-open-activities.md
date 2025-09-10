@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
-ms.date: 06/10/2024 
+ms.date: 06/27/2025 
 ms.custom: bap-template 
 ---
 
@@ -23,7 +23,7 @@ You can customize other forms such as Account or Contacts, to display the due or
     - Select the **Show related records** to display the activities related to the current record only.
 1. Save and publish the customizations.
 
-## Specify tab to redirect users to view open activities
+## Specify tab to redirect users
 
 Configure the tab that the representatives must be redirected to when they select the open activities link from the **Due open activities control**. You can set this at an environment level or for a specific app.
 
@@ -38,4 +38,4 @@ Configure the tab that the representatives must be redirected to when they selec
 ### Related information
 [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
 [Case management in multisession apps](../use/enh-casemgmt-csw.md)   
-[Get started with Customer Service workspace](../implement/csw-overview.md) 
+[Get started with Copilot Service workspace](../implement/csw-overview.md) 

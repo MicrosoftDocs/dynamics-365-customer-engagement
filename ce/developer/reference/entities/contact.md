@@ -352,11 +352,12 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_contact_msdyn_salesroutingrun_targetobject](#BKMK_msdyn_contact_msdyn_salesroutingrun_targetobject)
 - [msdyn_contact_msdyn_salessuggestion](#BKMK_msdyn_contact_msdyn_salessuggestion)
 - [msdyn_linkeditemvalidity_polymorphic_contactid](#BKMK_msdyn_linkeditemvalidity_polymorphic_contactid)
-- [msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User](#BKMK_msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User)
+- [msdyn_msdyn_lastagent_contact_msdyn_recordId](#BKMK_msdyn_msdyn_lastagent_contact_msdyn_recordId)
 - [msdyn_msdyn_preferredagent_contact_msdyn_recordId](#BKMK_msdyn_msdyn_preferredagent_contact_msdyn_recordId)
 - [msdyn_msdyn_salescopilotinsight_contact_msdyn_targetentityid](#BKMK_msdyn_msdyn_salescopilotinsight_contact_msdyn_targetentityid)
 - [msdyn_msdyn_taggedrecord_contact_msdyn_dynamicsrecordid](#BKMK_msdyn_msdyn_taggedrecord_contact_msdyn_dynamicsrecordid)
 - [msdyn_sabackupdiagnostic_contact_msdyn_target](#BKMK_msdyn_sabackupdiagnostic_contact_msdyn_target)
+- [msdyn_salesagentrun_contact](#BKMK_msdyn_salesagentrun_contact)
 - [msdyn_salesroutingdiagnostic_contact_msdyn_target](#BKMK_msdyn_salesroutingdiagnostic_contact_msdyn_target)
 - [msdyn_sequencetarget_contact_msdyn_target](#BKMK_msdyn_sequencetarget_contact_msdyn_target)
 - [opportunity_customer_contacts](#BKMK_opportunity_customer_contacts)
@@ -663,7 +664,7 @@ Many-To-One Relationship: [msdyn_dailycontactkpiitem msdyn_contact_dailycontactk
 |ReferencingAttribute|`msdyn_entityid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_contact_dailycontactkpiitem_entityid`|
 |IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_contact_msdyn_contactkpiitem_contactid"></a> msdyn_contact_msdyn_contactkpiitem_contactid
 
@@ -749,17 +750,17 @@ Many-To-One Relationship: [msdyn_linkedentityattributevalidity msdyn_linkeditemv
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User"></a> msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User
+### <a name="BKMK_msdyn_msdyn_lastagent_contact_msdyn_recordId"></a> msdyn_msdyn_lastagent_contact_msdyn_recordId
 
-Many-To-One Relationship: [msdyn_conversationparticipantinsights msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User](msdyn_conversationparticipantinsights.md#BKMK_msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User)
+Many-To-One Relationship: [msdyn_lastagent msdyn_msdyn_lastagent_contact_msdyn_recordId](msdyn_lastagent.md#BKMK_msdyn_msdyn_lastagent_contact_msdyn_recordId)
 
 |Property|Value|
 |---|---|
-|ReferencingEntity|`msdyn_conversationparticipantinsights`|
-|ReferencingAttribute|`msdyn_user`|
-|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_conversationparticipantinsights_contact_msdyn_user`|
+|ReferencingEntity|`msdyn_lastagent`|
+|ReferencingAttribute|`msdyn_recordid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_lastagent_contact_msdyn_recordId`|
 |IsCustomizable|`False`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_preferredagent_contact_msdyn_recordId"></a> msdyn_msdyn_preferredagent_contact_msdyn_recordId
 
@@ -807,6 +808,18 @@ Many-To-One Relationship: [msdyn_sabackupdiagnostic msdyn_sabackupdiagnostic_con
 |ReferencingAttribute|`msdyn_target`|
 |ReferencedEntityNavigationPropertyName|`msdyn_sabackupdiagnostic_contact_msdyn_target`|
 |IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_salesagentrun_contact"></a> msdyn_salesagentrun_contact
+
+Many-To-One Relationship: [msdyn_salesagentrun msdyn_salesagentrun_contact](msdyn_salesagentrun.md#BKMK_msdyn_salesagentrun_contact)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_salesagentrun`|
+|ReferencingAttribute|`msdyn_regardingid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_salesagentrun_contact`|
+|IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_salesroutingdiagnostic_contact_msdyn_target"></a> msdyn_salesroutingdiagnostic_contact_msdyn_target

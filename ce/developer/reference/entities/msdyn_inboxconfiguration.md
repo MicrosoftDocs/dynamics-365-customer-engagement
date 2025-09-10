@@ -60,6 +60,7 @@ The following table lists selected properties for the Inbox Configuration (msdyn
 
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
+- [EnableCrossPartition](#BKMK_EnableCrossPartition)
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
 - [msdyn_appconfigurationid](#BKMK_msdyn_appconfigurationid)
@@ -75,6 +76,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [statuscode](#BKMK_statuscode)
 - [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)
 - [UTCConversionTimeZoneCode](#BKMK_UTCConversionTimeZoneCode)
+
+### <a name="BKMK_EnableCrossPartition"></a> EnableCrossPartition
+
+|Property|Value|
+|---|---|
+|Description|**Controls whether the configuration can retrieve data from all cluster partitions.**|
+|DisplayName|**EnableCrossPartition**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`enablecrosspartition`|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_inboxconfiguration_enablecrosspartition`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 

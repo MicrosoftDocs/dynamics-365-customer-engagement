@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 02/03/2025
+ms.date: 08/21/2025
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -43,11 +43,7 @@ Use the integrated search provider option to set up third-party knowledge source
 
 ## Set up a search provider
 
-> [!NOTE]
->
-> Before you set up a search provider, ensure that your firewall doesn't block the https://www.d365ccafpi.com/ domain. Otherwise, users will encounter errors.
-
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the site map of Copilot Service admin center, select **Knowledge** in **Support experience**. The **Knowledge** page appears.
 
 1. In the **External search providers** section, select **Manage**.
       > [!NOTE]

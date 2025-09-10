@@ -1,8 +1,8 @@
 ---
 title: Create entitlements to define support terms
-description: Define customer support terms by creating entitlements in Customer Service, specifying support hours/cases, product, contacts and more.
-ms.date: 12/13/2024
-ms.topic: article
+description: Define customer support terms by creating entitlements in Customer Service, specifying support hours/cases, product, contacts, and more.
+ms.date: 06/26/2025
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -20,15 +20,15 @@ ms.custom:
 
 # Create entitlements to define support terms
 
-Define what kind of support your customers are eligible for by creating entitlements in Dynamics 365 Customer Service. With entitlements, you specify the support term based on number of hours or number of cases. The customer’s support level can vary based on the product or service that the customer has purchased. Customers who’ve purchased different products can be entitled to different support levels. This information helps the customer service representatives (service representatives) verify what the customers are eligible for and create cases for them accordingly.  
+Define what kind of support your customers are eligible for by creating entitlements in Dynamics 365 Customer Service. With entitlements, you specify the support term based on number of hours or number of cases. The customer’s support level can vary based on the product or service that the customer purchased. Customers who purchased different products might be entitled to different support levels. This information helps customer service representatives (service representatives) verify what the customers are eligible for and create cases for them accordingly.  
 
 ## Create an entitlement
 
-You can create an entitlement in the Customer Service admin center app.
+You can create an entitlement in the Copilot Service admin center app.
   
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)] You can check your security permissions by following the steps in [View your user profile](../../customerengagement/on-premises/basics/view-your-user-profile.md).
 
-1. In the site map of Customer Service admin center, select **Service terms** in **Operations**. The **Service terms** page appears.
+1. In the site map of Copilot Service admin center, select **Service terms** in **Operations**. The **Service terms** page appears.
 1. In the **Entitlements** section, select **Manage**.
 
    The **All Entitlements** view is displayed. You can switch between various system views using the drop-down list.  
@@ -45,13 +45,13 @@ You can create an entitlement in the Customer Service admin center app.
   
      - **Primary Customer**: Choose the customer you’re creating this entitlement for.  
   
-     - **Start Date**: Choose the date from which the customer will be entitled for support.  
+     - **Start Date**: Choose the date from which the customer is entitled for support.  
   
-     - **End Date**: Choose the date after which the customer will no longer be entitled for support.  
+     - **End Date**: Choose the date after which the customer is no longer entitled for support.  
   
-     - **Restrict based on entitlement terms**: Select **Yes** to make sure that cases aren't created when the entitlement term is over. Service representatives won’t be able to create cases when **Remaining Terms** is less than zero or when the term remaining for a channel is less than zero.
+     - **Restrict based on entitlement terms**: Select **Yes** to make sure that cases aren't created when the entitlement term is over. Service representatives can't create cases when **Remaining Terms** is less than zero or when the term remaining for a channel is less than zero.
       
-         If you select **No**, service representatives will be able to create cases, but **Remaining Terms** is updated to a negative value.
+         If you select **No**, service representatives can create cases, but **Remaining Terms** is updated to a negative value.
 
      - **SLA**: Choose a service level agreement (SLA) record to associate the service levels or key performance indicators for the support you’re providing with this entitlement.  
      - **Owner**: Specify the owner of the entitlement.
@@ -83,7 +83,7 @@ You can create an entitlement in the Customer Service admin center app.
   
 5. Select **Save**.  
 
-When you save the entitlement, additional sections are added for a new entitlement, such as Entitlement channel, Products, and Contacts.
+When you save the entitlement, more sections are added for a new entitlement, such as Entitlement channel, Products, and Contacts.
 
 ![entitlements-csh.](../media/entitlement-csh.png)
   
@@ -91,7 +91,7 @@ When you save the entitlement, additional sections are added for a new entitleme
 
 The **Entitlement Channel** section specifies the support channel through which the customer can reach the organization and seek support.  
   
-Use this section to define the channels your customers are entitled to and track the customer support term for each channel. For example, you can add phone and email as the channels through which you’ll offer support. If you want to restrict support through the phone channel to 80 hours and email to 20 hours, create individual entitlement channel records and add their total terms.  
+Use this section to define the channels your customers are entitled to and track the customer support term for each channel. For example, you can add phone and email as the channels through which you offer support. If you want to restrict support through the phone channel to 80 hours and email to 20 hours, create individual entitlement channel records and add their total terms.  
   
 > [!NOTE]
 > You must save the entitlement record before you can add entitlement channels to an entitlement.  
@@ -107,7 +107,7 @@ Use this section to define the channels your customers are entitled to and track
  If you want the entitlement to apply to a specific product for a customer, associate the product to the entitlement.  
   
 > [!NOTE]
-> If you don't add a product, the customer will be entitled to support for all the products.  
+> If you don't add a product, the customer is entitled to support for all the products.  
   
 1. While in the entitlement record, in the **Products** section, select **...** and select **Add New Product** to add associate an existing product.  
   
@@ -120,7 +120,7 @@ Use this section to define the channels your customers are entitled to and track
  To let only certain contacts of a customer claim the entitlement for a specific product, associate the contacts with the entitlement.  
   
 > [!NOTE]
-> If you don’t add a contact, all the contacts for the specified primary customer will be entitled to support.  
+> If you don’t add a contact, all the contacts for the specified primary customer are to support.  
   
 1. While in the entitlement record, in the **Contacts** section, select **...** and select **Add Existing Contact** to associate an existing contact.  
   
@@ -139,7 +139,7 @@ Use this section to define the channels your customers are entitled to and track
 2. In the **Confirm Activation** dialog box, select **Activate**.  
   
    > [!NOTE]
-   > If the start and end date of the entitlement fall in the future, the status of the entitlement is set to **Waiting**. On the start date, the status automatically changes to **Active**. If the end date is in the past, the entitlement is set to **Expired**.  
+   > If the start and end date of the entitlement are in the future, the status of the entitlement is set to **Waiting**. On the start date, the status automatically changes to **Active**. If the end date is in the past, the entitlement is set to **Expired**.  
   
    When an entitlement is active, you can’t edit it. To deactivate an entitlement so you can edit it, on the command bar, select **Deactivate**.  
   
@@ -151,11 +151,11 @@ You can activate the entitlement and then set it as the default entitlement for 
   
 2. In the **Confirm set default** dialog box, select **OK**.  
   
-   Now the default entitlement will automatically be applied when a case is created or when a case is updated depending on what you selected for default entitlements in the system settings area. For more information, see the **Automatically apply entitlement** section in step 4 here, [System Settings dialog box - Service tab](/power-platform/admin/system-settings-dialog-box-service-tab).  
+   Now the default entitlement is automatically applied when a case is created or when a case is updated depending on what you selected for default entitlements in the system settings area. For more information, see the **Automatically apply entitlement** section in step 4 here, [System Settings dialog box - Service tab](/power-platform/admin/system-settings-dialog-box-service-tab).  
   
 ## Associate entitlements to cases
 
-In a case record, in the **Entitlement** field, select the **Lookup** button,and select an entitlement. The inline lookup shows only the active entitlement for the customer of the case.  
+In a case record, in the **Entitlement** field, select the **Lookup** button, and select an entitlement. The inline lookup shows only the active entitlement for the customer of the case.  
   
 The Entitlements section in the case record lists all the active entitlements for the customer. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)]: [See recent cases and entitlements](../implement/customer-service-hub-user-guide-basics.md#related-section)
 
@@ -165,7 +165,7 @@ If the entitlement is no longer valid, you can cancel it. To cancel an active or
   
 ## Renew an entitlement
 
-To renew a canceled or expired entitlement, open the entitlement, and then on the command bar, select **Renew**. A new entitlement will be created, and its status is set to "Draft", while the canceled or expired entitlement will remain as is. The start date of the new entitlement will be set to the current date and the end date will be set to the current date plus the number of days between the end date and start date. The data in other fields is copied as is from the old entitlement.
+To renew a canceled or expired entitlement, open the entitlement, and then on the command bar, select **Renew**. A new entitlement is created, and its status is set to "Draft", while the canceled or expired entitlement remains as is. The start date of the new entitlement will be set to the current date and the end date will be set to the current date plus the number of days between the end date and start date. The data in other fields is copied as is from the old entitlement.
 
 ### Related information  
 

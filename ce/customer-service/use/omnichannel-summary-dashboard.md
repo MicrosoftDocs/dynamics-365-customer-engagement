@@ -1,8 +1,8 @@
 ---
 title: Summary dashboard in Omnichannel historical analytics
 description: Integrate Copilot Studio and Omnichannel analytics to better understand your organization's customer service experience.
-ms.date: 02/10/2025
-ms.topic: article
+ms.date: 08/26/2025
+ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -38,10 +38,6 @@ The **Summary** dashboard provides a seamless end-to-end reporting of metrics ac
 - Get actionable insights to handle AI agent escalations and customer requests effectively, which help improve customer satisfaction and decrease costs.
 
  :::image type="content" source="../media/oc-summary-dashboard.png" alt-text="Screenshot showing the Omnichannel Historical Summary dashboard.":::
-
-### Access the Summary dashboard
-
-[!INCLUDE[cc-navigation](../../includes/cc-navigation.md)]
 
 ## Report details
 
@@ -79,21 +75,6 @@ The **Bot escalation topic metrics** section provides insights into the performa
  
 Learn more about AI agent topics and their related metrics in [Bot dashboard](oc-bot-dashboard.md).   
 
-## Language availability for topics 
-
-The topics capability in the Customer Service historical analytics reports comes with a natural language understanding model that can understand text semantics and intent in the following languages: 
-
-- English 
-- French 
-- German 
-- Italian 
-- Japanese 
-- Portuguese 
-- Simplified Chinese 
-- Spanish 
-
-> [!NOTE]
-> While topic discovery is enabled and still possible in languages that aren't listed in this section, there might be differences in experience for users who uaw topics in unsupported languages.
 
 ### Related information
 

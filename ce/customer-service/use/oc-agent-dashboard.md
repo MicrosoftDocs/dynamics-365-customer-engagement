@@ -1,27 +1,29 @@
 ---
 title: Omnichannel Agent Dashboard in Dynamics 365 Contact Center
-description: Learn about the Omnichannel Agent Dashboard that shows work items for agents who use the Customer Service workspace or Contact Center workspace.
+description: Learn about the Omnichannel Agent Dashboard that shows work items for representatives who use the Copilot Service workspace.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection:
-ms.date: 01/21/2025
+ms.date: 07/10/2025
 ms.custom: bap-template
 ---
 
-# View agent dashboard and agent conversations
+# View representative dashboard and representative conversations
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
+> [!Note]
+> The Omnichannel dashboard experiences in Copilot Service workspace will be deprecated on December 1, 2025. Support will end on December 1, 2026. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md#omnichannel-agent-and-supervisor-dashboard-experiences-to-be-deprecated-on-december-1-2025).
 
-When you sign in to the Customer Service workspace or Contact Center workspace app, the Omnichannel Agent Dashboard is the default view. You can set any dashboard as the default view by selecting the **Set As Default** option. The dashboard displays the following streams:
+When you sign in to the Copilot Service workspace app, the Omnichannel Agent Dashboard is the default view. You can set any dashboard as the default view by selecting the **Set As Default** option. The dashboard displays the following streams:
 
 - My work items
 - Open work items
 - Closed work items
 
- ![Agent dashboard of Omnichannel for Customer Service app.](../media/oceh-oc-mydashboard.png "Screenshot of Agent dashboard in the Customer Service workspace app")
+ ![Agent dashboard of Omnichannel for Customer Service app.](../media/oceh-oc-mydashboard.png "Screenshot of Agent dashboard in the Copilot Service workspace app")
 
 OCStreamcontrol, an out-of-the-box dataset control, displays conversations view for all the three streams. My work items, Open work items, and Closed work items are displayed in a card form format on the Omnichannel Agent dashboard. However, the OCStreamcontrol doesn't work on custom dashboards, and can be used with Omnichannel Agent dashboard only. 
 

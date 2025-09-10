@@ -1,20 +1,20 @@
 ---
 title: "Create plug-in to use geospatial data from Google Maps in Universal Resource Scheduling"
 description: "Reference this sample to create a custom plug-in for Universal Resource Scheduling actions to use geospatial data from Google Maps instead of Bing."
-ms.date: 04/01/2020
+ms.date: 07/28/2025
 searchScope: 
   - Field Service
   - Project Service
-ms.reviewer: mhart
+ms.reviewer: puneet-singh1
 
 ms.subservice: common-scheduler
-ms.topic: article
-author: m-hartmann
-ms.author: mhart
+ms.topic: how-to
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 # Sample: Create custom plug-in to use Google Maps API as your geospatial data provider
 
-You can use a custom plug-in to use geospatial data from a data provider of your choice instead of using the default Bing Maps API in Field Service and Project Service.
+You can use a custom plug-in to get geospatial data from your preferred data provider instead of using the default Bing Maps API in Field Service and Project Service.
 
 Sample is available here: [Custom plug-in to use Google Maps API as geospatial data provider (Dynamics 365)](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/field-service/CustomPlugin-FS-Geospatial)
 
@@ -39,7 +39,7 @@ This sample generates a plug-in assembly file: **CustomPlugin-FS-Geospatial.dll*
 
 1. Download or clone the [samples repo](https://github.com/microsoft/Dynamics365-Apps-Samples).
 2. Navigate to the location where you downloaded or cloned the repo on your computer, go to the **field-service/CustomPlugin-FS-Geospatial** folder, and double-click the **CustomPlugin-FS-Geospatial.sln** file to open the solution in Visual Studio.
-3. In Visual Studio, select **Build** > **Build Solution**. The NuGet packages used in the solution will download automatically if the option to restore NuGet packages automatically on building a project is enabled in Visual Studio. More information: [Enabling and disabling package restore](/nuget/consume-packages/package-restore#enabling-and-disabling-package-restore) 
+3. In Visual Studio, select **Build** > **Build Solution**. NuGet packages in the solution download automatically if you enable the option to restore NuGet packages when you build a project in Visual Studio. Learn more in [Enabling and disabling package restore](/nuget/consume-packages/package-restore#enabling-and-disabling-package-restore). 
 
 ## After running the sample
 

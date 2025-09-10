@@ -306,6 +306,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [organization_msdyn_casetopicsetting](#BKMK_organization_msdyn_casetopicsetting)
 - [organization_msdyn_casetopicsummary](#BKMK_organization_msdyn_casetopicsummary)
 - [organization_msdyn_channelcapability](#BKMK_organization_msdyn_channelcapability)
+- [organization_msdyn_chtprofileconfiguration](#BKMK_organization_msdyn_chtprofileconfiguration)
 - [organization_msdyn_ciprovider](#BKMK_organization_msdyn_ciprovider)
 - [organization_msdyn_contactkpiitem](#BKMK_organization_msdyn_contactkpiitem)
 - [organization_msdyn_conversationsummaryinteraction](#BKMK_organization_msdyn_conversationsummaryinteraction)
@@ -334,7 +335,6 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [organization_msdyn_dataanalyticsreport_oc](#BKMK_organization_msdyn_dataanalyticsreport_oc)
 - [organization_msdyn_dataanalyticsreport_oc_rt](#BKMK_organization_msdyn_dataanalyticsreport_oc_rt)
 - [organization_msdyn_dataanalyticsreport_sareporting](#BKMK_organization_msdyn_dataanalyticsreport_sareporting)
-- [organization_msdyn_dataanalyticsreport_sutreporting](#BKMK_organization_msdyn_dataanalyticsreport_sutreporting)
 - [organization_msdyn_dataanalyticsreport_ur_recordrouting_rt](#BKMK_organization_msdyn_dataanalyticsreport_ur_recordrouting_rt)
 - [organization_msdyn_databaseversion](#BKMK_organization_msdyn_databaseversion)
 - [organization_msdyn_datahygienesettinginfo](#BKMK_organization_msdyn_datahygienesettinginfo)
@@ -345,6 +345,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [organization_msdyn_distributedlock](#BKMK_organization_msdyn_distributedlock)
 - [organization_msdyn_duplicatedetectionpluginrun](#BKMK_organization_msdyn_duplicatedetectionpluginrun)
 - [organization_msdyn_entityderivedinsight](#BKMK_organization_msdyn_entityderivedinsight)
+- [organization_msdyn_evaluationinputconfig](#BKMK_organization_msdyn_evaluationinputconfig)
 - [organization_msdyn_forecastingcache](#BKMK_organization_msdyn_forecastingcache)
 - [organization_msdyn_forecastpredictionstatus](#BKMK_organization_msdyn_forecastpredictionstatus)
 - [organization_msdyn_forecastsettingsandsummary](#BKMK_organization_msdyn_forecastsettingsandsummary)
@@ -363,6 +364,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [organization_msdyn_nextaction](#BKMK_organization_msdyn_nextaction)
 - [organization_msdyn_occhannelconfiguration](#BKMK_organization_msdyn_occhannelconfiguration)
 - [organization_msdyn_occhannelstateconfiguration](#BKMK_organization_msdyn_occhannelstateconfiguration)
+- [organization_msdyn_ocliveworkitemextension](#BKMK_organization_msdyn_ocliveworkitemextension)
 - [organization_msdyn_oclocalizationdata](#BKMK_organization_msdyn_oclocalizationdata)
 - [organization_msdyn_ocsystemmessage](#BKMK_organization_msdyn_ocsystemmessage)
 - [organization_msdyn_octag](#BKMK_organization_msdyn_octag)
@@ -379,6 +381,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [organization_msdyn_predictivemodelscore](#BKMK_organization_msdyn_predictivemodelscore)
 - [organization_msdyn_predictivescore](#BKMK_organization_msdyn_predictivescore)
 - [organization_msdyn_presence](#BKMK_organization_msdyn_presence)
+- [organization_msdyn_productmap](#BKMK_organization_msdyn_productmap)
 - [organization_msdyn_provider](#BKMK_organization_msdyn_provider)
 - [organization_msdyn_rawinsightentitylink](#BKMK_organization_msdyn_rawinsightentitylink)
 - [organization_msdyn_readtrackingenabledinfo](#BKMK_organization_msdyn_readtrackingenabledinfo)
@@ -403,6 +406,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [organization_msdyn_servicecopilotplugin](#BKMK_organization_msdyn_servicecopilotplugin)
 - [organization_msdyn_servicecopilotpluginaction](#BKMK_organization_msdyn_servicecopilotpluginaction)
 - [organization_msdyn_servicecopilotpluginrole](#BKMK_organization_msdyn_servicecopilotpluginrole)
+- [organization_msdyn_sessionextension](#BKMK_organization_msdyn_sessionextension)
 - [organization_msdyn_shareasconfiguration](#BKMK_organization_msdyn_shareasconfiguration)
 - [organization_msdyn_sikeyvalueconfig](#BKMK_organization_msdyn_sikeyvalueconfig)
 - [organization_msdyn_similarentitiesfeatureimportance](#BKMK_organization_msdyn_similarentitiesfeatureimportance)
@@ -419,7 +423,6 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [organization_msdyn_upgradestep](#BKMK_organization_msdyn_upgradestep)
 - [organization_msdyn_upgradeversion](#BKMK_organization_msdyn_upgradeversion)
 - [organization_msdyn_usagemetric](#BKMK_organization_msdyn_usagemetric)
-- [organization_msdyn_usagereporting](#BKMK_organization_msdyn_usagereporting)
 - [organization_msdyn_usersetting](#BKMK_organization_msdyn_usersetting)
 - [organization_msdyn_wallsavedquery](#BKMK_organization_msdyn_wallsavedquery)
 - [organization_msdyn_wkwcolleaguesforcompany](#BKMK_organization_msdyn_wkwcolleaguesforcompany)
@@ -799,6 +802,18 @@ Many-To-One Relationship: [msdyn_channelcapability organization_msdyn_channelcap
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_organization_msdyn_chtprofileconfiguration"></a> organization_msdyn_chtprofileconfiguration
+
+Many-To-One Relationship: [msdyn_chtprofileconfiguration organization_msdyn_chtprofileconfiguration](msdyn_chtprofileconfiguration.md#BKMK_organization_msdyn_chtprofileconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_chtprofileconfiguration`|
+|ReferencingAttribute|`organizationid`|
+|ReferencedEntityNavigationPropertyName|`organization_msdyn_chtprofileconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_organization_msdyn_ciprovider"></a> organization_msdyn_ciprovider
 
 Many-To-One Relationship: [msdyn_ciprovider organization_msdyn_ciprovider](msdyn_ciprovider.md#BKMK_organization_msdyn_ciprovider)
@@ -1135,18 +1150,6 @@ Many-To-One Relationship: [msdyn_dataanalyticsreport_sareporting organization_ms
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_organization_msdyn_dataanalyticsreport_sutreporting"></a> organization_msdyn_dataanalyticsreport_sutreporting
-
-Many-To-One Relationship: [msdyn_dataanalyticsreport_sutreporting organization_msdyn_dataanalyticsreport_sutreporting](msdyn_dataanalyticsreport_sutreporting.md#BKMK_organization_msdyn_dataanalyticsreport_sutreporting)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_dataanalyticsreport_sutreporting`|
-|ReferencingAttribute|`organizationid`|
-|ReferencedEntityNavigationPropertyName|`organization_msdyn_dataanalyticsreport_sutreporting`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
 ### <a name="BKMK_organization_msdyn_dataanalyticsreport_ur_recordrouting_rt"></a> organization_msdyn_dataanalyticsreport_ur_recordrouting_rt
 
 Many-To-One Relationship: [msdyn_dataanalyticsreport_ur_recordrouting_rt organization_msdyn_dataanalyticsreport_ur_recordrouting_rt](msdyn_dataanalyticsreport_ur_recordrouting_rt.md#BKMK_organization_msdyn_dataanalyticsreport_ur_recordrouting_rt)
@@ -1264,6 +1267,18 @@ Many-To-One Relationship: [msdyn_entityderivedinsight organization_msdyn_entityd
 |ReferencingEntity|`msdyn_entityderivedinsight`|
 |ReferencingAttribute|`organizationid`|
 |ReferencedEntityNavigationPropertyName|`organization_msdyn_entityderivedinsight`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_organization_msdyn_evaluationinputconfig"></a> organization_msdyn_evaluationinputconfig
+
+Many-To-One Relationship: [msdyn_evaluationinputconfig organization_msdyn_evaluationinputconfig](msdyn_evaluationinputconfig.md#BKMK_organization_msdyn_evaluationinputconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_evaluationinputconfig`|
+|ReferencingAttribute|`organizationid`|
+|ReferencedEntityNavigationPropertyName|`organization_msdyn_evaluationinputconfig`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
@@ -1483,6 +1498,18 @@ Many-To-One Relationship: [msdyn_occhannelstateconfiguration organization_msdyn_
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_organization_msdyn_ocliveworkitemextension"></a> organization_msdyn_ocliveworkitemextension
+
+Many-To-One Relationship: [msdyn_ocliveworkitemextension organization_msdyn_ocliveworkitemextension](msdyn_ocliveworkitemextension.md#BKMK_organization_msdyn_ocliveworkitemextension)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocliveworkitemextension`|
+|ReferencingAttribute|`organizationid`|
+|ReferencedEntityNavigationPropertyName|`organization_msdyn_ocliveworkitemextension`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_organization_msdyn_oclocalizationdata"></a> organization_msdyn_oclocalizationdata
 
 Many-To-One Relationship: [msdyn_oclocalizationdata organization_msdyn_oclocalizationdata](msdyn_oclocalizationdata.md#BKMK_organization_msdyn_oclocalizationdata)
@@ -1673,6 +1700,18 @@ Many-To-One Relationship: [msdyn_presence organization_msdyn_presence](msdyn_pre
 |ReferencingAttribute|`organizationid`|
 |ReferencedEntityNavigationPropertyName|`organization_msdyn_presence`|
 |IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_organization_msdyn_productmap"></a> organization_msdyn_productmap
+
+Many-To-One Relationship: [msdyn_productmap organization_msdyn_productmap](msdyn_productmap.md#BKMK_organization_msdyn_productmap)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_productmap`|
+|ReferencingAttribute|`organizationid`|
+|ReferencedEntityNavigationPropertyName|`organization_msdyn_productmap`|
+|IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_organization_msdyn_provider"></a> organization_msdyn_provider
@@ -1963,6 +2002,18 @@ Many-To-One Relationship: [msdyn_servicecopilotpluginrole organization_msdyn_ser
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_organization_msdyn_sessionextension"></a> organization_msdyn_sessionextension
+
+Many-To-One Relationship: [msdyn_sessionextension organization_msdyn_sessionextension](msdyn_sessionextension.md#BKMK_organization_msdyn_sessionextension)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_sessionextension`|
+|ReferencingAttribute|`organizationid`|
+|ReferencedEntityNavigationPropertyName|`organization_msdyn_sessionextension`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_organization_msdyn_shareasconfiguration"></a> organization_msdyn_shareasconfiguration
 
 Many-To-One Relationship: [msdyn_shareasconfiguration organization_msdyn_shareasconfiguration](msdyn_shareasconfiguration.md#BKMK_organization_msdyn_shareasconfiguration)
@@ -2152,18 +2203,6 @@ Many-To-One Relationship: [msdyn_usagemetric organization_msdyn_usagemetric](msd
 |ReferencingEntity|`msdyn_usagemetric`|
 |ReferencingAttribute|`organizationid`|
 |ReferencedEntityNavigationPropertyName|`organization_msdyn_usagemetric`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_organization_msdyn_usagereporting"></a> organization_msdyn_usagereporting
-
-Many-To-One Relationship: [msdyn_usagereporting organization_msdyn_usagereporting](msdyn_usagereporting.md#BKMK_organization_msdyn_usagereporting)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_usagereporting`|
-|ReferencingAttribute|`organizationid`|
-|ReferencedEntityNavigationPropertyName|`organization_msdyn_usagereporting`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

@@ -2,8 +2,8 @@
 title: "Bookable Resource Booking (BookableResourceBooking) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Bookable Resource Booking (BookableResourceBooking) table/entity with Microsoft Dynamics 365 Field Service."
 ms.topic: generated-reference
-author: m-hartmann
-ms.author: mhart
+author: puneet-singh1
+ms.author: puneetsingh
 search.audienceType: 
   - developer
 ---
@@ -23,6 +23,7 @@ Messages represent operations that can be performed on the table. They may also 
 
 | Name <br />Is Event? |Web API Operation |SDK for .NET |
 | ---- | ----- |----- |
+| `msdyn_AsExchangeEvent`<br />Event: False |**msdyn_AsExchangeEvent action** |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `msdyn_FieldServiceBookableResourceBookingAssociateAction`<br />Event: False |**msdyn_FieldServiceBookableResourceBookingAssociateAction action** |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 
 
@@ -45,6 +46,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_effort](#BKMK_msdyn_effort)
 - [msdyn_EstimatedArrivalTime](#BKMK_msdyn_EstimatedArrivalTime)
 - [msdyn_EstimatedTravelDuration](#BKMK_msdyn_EstimatedTravelDuration)
+- [msdyn_GlobalObjectId](#BKMK_msdyn_GlobalObjectId)
 - [msdyn_InternalFlags](#BKMK_msdyn_InternalFlags)
 - [msdyn_Latitude](#BKMK_msdyn_Latitude)
 - [msdyn_Longitude](#BKMK_msdyn_Longitude)
@@ -65,6 +67,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_TotalDurationInProgress](#BKMK_msdyn_TotalDurationInProgress)
 - [msdyn_TravelTimeCalculationType](#BKMK_msdyn_TravelTimeCalculationType)
 - [msdyn_TravelTimeRescheduling](#BKMK_msdyn_TravelTimeRescheduling)
+- [msdyn_TzaEndTime](#BKMK_msdyn_TzaEndTime)
+- [msdyn_TzaStartTime](#BKMK_msdyn_TzaStartTime)
 - [msdyn_URSInternalFlags](#BKMK_msdyn_URSInternalFlags)
 - [msdyn_WorkLocation](#BKMK_msdyn_WorkLocation)
 - [msdyn_WorkOrder](#BKMK_msdyn_WorkOrder)
@@ -195,7 +199,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |690970002|**Mobile**|
 |690970003|**Manual**|
 |690970004|**Schedule Assistant**|
-|690970005|**System \- Agreement Schedule**|
+|690970005|**System - Agreement Schedule**|
 
 ### <a name="BKMK_msdyn_BookingSetupMetadataId"></a> msdyn_BookingSetupMetadataId
 
@@ -309,6 +313,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MaxValue|2147483647|
 |MinValue|0|
 
+### <a name="BKMK_msdyn_GlobalObjectId"></a> msdyn_GlobalObjectId
+
+|Property|Value|
+|---|---|
+|Description|**A unique identifier assigned by Exchange to every event created in Exchange can be used to identify the event across different mailboxes**|
+|DisplayName|**GlobalObjectId**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_globalobjectid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
 ### <a name="BKMK_msdyn_InternalFlags"></a> msdyn_InternalFlags
 
 |Property|Value|
@@ -369,7 +390,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_milestraveled`|
 |RequiredLevel|None|
 |Type|Double|
-|ImeMode|Auto|
+|ImeMode|Disabled|
 |MaxValue|1000000000|
 |MinValue|0|
 |Precision|2|
@@ -633,6 +654,40 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
+
+### <a name="BKMK_msdyn_TzaEndTime"></a> msdyn_TzaEndTime
+
+|Property|Value|
+|---|---|
+|Description|**End date and time of the booking in time zone independent format**|
+|DisplayName|**End Date Time Zone Independent**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_tzaendtime`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|TimeZoneIndependent|
+|Format|DateAndTime|
+|ImeMode|Inactive|
+|SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_TzaStartTime"></a> msdyn_TzaStartTime
+
+|Property|Value|
+|---|---|
+|Description|**Start date and time of the booking in time zone independent format**|
+|DisplayName|**Start Date Time Zone Independent**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_tzastarttime`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|TimeZoneIndependent|
+|Format|DateAndTime|
+|ImeMode|Inactive|
+|SourceTypeMask|0|
 
 ### <a name="BKMK_msdyn_URSInternalFlags"></a> msdyn_URSInternalFlags
 

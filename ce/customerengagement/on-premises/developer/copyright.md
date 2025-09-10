@@ -15,7 +15,7 @@ robots: noindex,nofollow
 search.audienceType: 
   - developer
 
-ms.topic: conceptual
+ms.topic: article
 ---
 # Copyright
 

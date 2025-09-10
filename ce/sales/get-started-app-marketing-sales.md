@@ -1,7 +1,8 @@
 ---
 title: Get started with in-app marketing
 description: Learn how to promote your business and improve sales with targeted marketing campaigns in Dynamics 365 Sales.
-ms.date: 06/20/2024
+ms.date: 05/28/2025
+ms.update-cycle: 1095-days
 ms.collection: get-started
 ms.topic: overview
 ms.custom: 
@@ -25,7 +26,7 @@ searchScope:
 Promote your business and improve sales with targeted marketing campaigns in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. Create activities for each campaign and assign them to different team members. Track customer response and costs for each campaign. Follow this step-by-step guide to get started with your marketing campaigns.  
 
 > [!NOTE]
-> In-app marketing is not fully supported in the Dynamics 365 app for Teams.
+> In-app marketing isn't fully supported in the Dynamics 365 app for Teams.
   
 ## Import contacts, accounts, and leads  
 
@@ -41,7 +42,7 @@ In the marketing area, use standard campaigns to manage the end-to-end process o
   
 In contrast to standard campaigns, you can use quick campaigns to automatically distribute a single activity to selected accounts, contacts, or leads, or to a single marketing list. The effects of a quick campaign are immediate.  
   
- ![Campaigns versus quick campaigns.](media/marketing-campaign-vs-quick-campaign.png "Campaigns versus quick campaigns")  
+  :::image type="content" source="media/marketing-campaign-vs-quick-campaign.png" alt-text="Screenshot of the comparison between campaigns and quick campaigns in Dynamics 365 Sales.":::
   
 ## Create a campaign or a quick campaign
 

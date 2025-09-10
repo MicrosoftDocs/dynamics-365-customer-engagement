@@ -2,10 +2,10 @@
 title: Add Power Apps components to case management forms 
 description: Learn how to add the right Power Apps components to case management forms.
 author: gandhamm 
-ms.author: v-slaik
-ms.reviewer: neeranelli 
-ms.topic: conceptual 
-ms.date: 03/03/2025
+ms.author: mgandham
+ms.reviewer:
+ms.topic: concept-article
+ms.date: 06/26/2025
 ms.custom: bap-template 
 ---
 

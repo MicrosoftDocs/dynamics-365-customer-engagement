@@ -1,8 +1,9 @@
 ---
 title: Summary dashboard
 description: Learn about the Summary dashboard insights overview to better understand your organization's customer service experience.
-ms.date: 02/03/2025
-ms.topic: conceptual
+ms.date: 08/26/2025
+ms.update-cycle: 180-days
+ms.topic: concept-article
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -102,7 +103,7 @@ You can view the core case metrics by channel or core case metrics in relation t
 ### Related information
 
 [Dashboard overview](customer-service-analytics-insights-csh.md)  
-[Agent dashboard](agent-dashboard-cs.md)  
+[Customer Service Representative dashboard](agent-dashboard-cs.md)  
 [Topics dashboard](case-topics-dashboard-cs.md)  
 [Manage report bookmarks](manage-bookmarks.md)  
 

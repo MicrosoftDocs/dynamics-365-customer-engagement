@@ -1,7 +1,7 @@
 ---
 title: Enable personal quick replies in Omnichannel for Customer Service
 description: Learn how to enable personal quick replies in the representative experience for Omnichannel for Customer Service.
-ms.date: 03/03/2025
+ms.date: 04/28/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -22,7 +22,7 @@ As an administrator, you can use a Power Automate utility to delete unused tags.
 
 ## Enable personal quick replies
 
-1. In the site map of Customer Service admin center or Contact Center admin center, in **Agent experience**, select **Productivity**.
+1. In the site map of Copilot Service admin center, in **Support experience**, select **Productivity**.
    
 1. For **Personal quick replies**, select **Manage**.
 

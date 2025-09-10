@@ -3,7 +3,8 @@ title: Get started with the refreshed mobile experience
 description: Learn about the key features and limitations of the new user experience for the Dynamics 365 Field Service mobile app.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-ms.date: 10/10/2024
+ms.date: 07/30/2025
+ms.update-cycle: 180-days
 author: JonBaker007
 ms.author: jobaker
 ms.collection: bap-ai-copilot 
@@ -17,7 +18,7 @@ The new user experience in the Dynamics 365 Field Service mobile app helps servi
 
 The agenda view in the new mobile experience is optimized for frontline workers. It supports quick access to key actions such as updating the booking status, getting directions, or access to Copilot.
 
-Admins can [configure the agenda view to show fields relevant to the organization's business needs](/dynamics365/field-service/mobile/customize-booking-calendar).
+Admins can [configure the agenda view to show fields relevant to the organization's business needs](/dynamics365/guidance/resources/fs-mobile-booking-calendar).
 
 ### Agenda view time update
 
@@ -29,7 +30,7 @@ Updating the booking status in the agenda view also updates some time values in 
 
 - From *Scheduled* or *Traveling* to *In progress*:
   - End time is updated to current time plus duration
-  - If arrival time is empty (the first time the technician has arrived onsite), then arrival time is updated to current time
+  - If arrival time is empty (the first time the technician arrives onsite), then arrival time is updated to current time
 
 - From *Completed* to *In progress*:
   - End time is updated to current time plus 1 minute
@@ -58,7 +59,7 @@ Swipe a booking from left to right or select the booking's menu to access its qu
 
 :::image type="content" source="../media/mobile-newux-options.png" alt-text="Screenshot of a mobile device with options of a booking in the Field Service mobile app.":::
 
-Select the directions icon on a booking tile to open the maps app and get directions. Directions use the coordinates of the address or the address string if no geolocation is available. If no address is specified, the directions icon doesn't appear.
+To open the maps app and get directions, select the directions icon on a booking tile. Directions use the coordinates of the address, or the address string if no geolocation is available. If no address is specified, the directions icon doesn't appear.
 
 To automatically change the booking status to **Traveling** every time you get directions to a work location, select **Automatically update**. You can change it later in the app settings.
 
@@ -66,11 +67,11 @@ To automatically change the booking status to **Traveling** every time you get d
 
 ## Work with Copilot
 
-The new mobile UX uses Copilot in Field Service to enable technicians with a quick and easy way of updating work orders and getting a summary of the work order. Swipe a booking to the left to open Copilot.
+The new mobile UX in Field Service lets technicians quickly update work orders and get a summary of the work order. Swipe a booking left to open Copilot.
 
 :::image type="content" source="../media/copilot-newux.png" alt-text="Screenshot of a mobile device with a swiped booking, revealing further options.":::
 
-For more information, see [AI-powered work order update (preview)](../work-order-update.md) and [Summarize records with Copilot in Field Service (preview)](../work-order-recap.md).
+Learn more in [AI-powered work order update (preview)](../work-order-update.md) and [Summarize work orders with Copilot](../use-work-order-recap.md).
 
 ## Use embedded Guides in the mobile app
 
@@ -93,6 +94,6 @@ In the new mobile user experience, app users can tap the user icon to access the
 
 > [!NOTE]
 >
-> - The new mobile UX caches changes to metadata for up to 8 hours. To see changes more quickly, users need to sign-out and sign back into the application.
-> - The new mobile UX uses the time zone and location of the device, while the forms built for Unified Interface use the system's time zone. If there's a mismatch between the device the system, users are requested to match system time with the device. If the language of the device is not enabled in the system, users might see mixed languages.
-> - Searching within lists of the new mobile UX only returns results of text-based fields. Values in other field types such as Lookup won't return results. 
+> - The new mobile UX caches metadata changes for up to 8 hours. To see changes sooner, sign out and sign in again.
+> - The new mobile UX uses the device's time zone and location, but forms built for Unified Interface use the system time zone. If the device and system time zones don't match, set the system time zone to match the device. If the device language isn't enabled in the system, you might see mixed languages.
+> - When you search lists in the new mobile UX, you only get results from text-based fields. You don't get results from other field types, like Lookup.

@@ -1,12 +1,12 @@
 ---
 title: Configure connection references for Customer Knowledge Management Agent flow (preview)
-description: Configure connection references for Customer Knowledge Management Agent flow with Microsoft Dataverse and Copilot Studio in preview mode.
+description: Learn how to configure connection references for Customer Knowledge Management Agent flow with Microsoft Dataverse and Copilot Studio.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 03/28/2025
+ms.date: 05/09/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -42,20 +42,15 @@ Learn more in [Add connection references to a solution](/power-apps/maker/data-p
  
 ## Turn on the Power Automate flow
 
-1. Go to **Flows**.
-1. From the **Cloud flows** tab, select **Knowledge Harvest Trigger Flow V2** flow.
-1. Select **Turn on**.
- 
-## Publish the Microsoft Copilot Studio bot
+In [Power Automate](https://powerautomate.microsoft.com), search for **Knowledge Harvest Trigger Flow V2** flow in **Cloud flows**, and turn it on. Learn more in [Power Automate](/power-automate/overview-cloud#find-your-flows-easily).
 
-1. Go to [Microsoft Copilot Studio](https://copilotstudio.microsoft.com), and select your environment.
-1. Select **Agents**.
-1. Search for and select **CustomerServiceKnowledgeHarvest**.
-1. Select **Publish**.
+## Publish the Microsoft Copilot Studio agent
 
-Once done, go to the Customer Service admin center and [enable Customer Knowledge Management Agent](admin-km-agent.md#enable-customer-knowledge-management-agent).
+1. In [Microsoft Copilot Studio](https://copilotstudio.microsoft.com), select your environment, and then search for the **CustomerServiceKnowledgeHarvest** agent. 
+1. [Publish the agent](/microsoft-copilot-studio/publication-fundamentals-publish-channels?tabs=web).
+
+Once done, go to the Copilot Service admin center and [enable Customer Knowledge Management Agent](admin-km-agent.md#enable-customer-knowledge-management-agent).
  
 ## Related information
 
 [Overview of cloud flows](/power-automate/overview-cloud)
-

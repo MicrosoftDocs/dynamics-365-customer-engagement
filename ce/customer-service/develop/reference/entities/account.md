@@ -23,8 +23,11 @@ Business that represents a customer or potential customer. The company that is b
 These relationships are one-to-many. Listed by **SchemaName**.
 
 - [account_msdyn_bookingalerts](#BKMK_account_msdyn_bookingalerts)
+- [account_msdyn_ocoutboundmessages](#BKMK_account_msdyn_ocoutboundmessages)
+- [account_msdyn_ocvoicemails](#BKMK_account_msdyn_ocvoicemails)
 - [msdyn_account_msdyn_actual_AccountCustomer](#BKMK_msdyn_account_msdyn_actual_AccountCustomer)
 - [msdyn_account_msdyn_actual_AccountVendor](#BKMK_msdyn_account_msdyn_actual_AccountVendor)
+- [msdyn_account_msdyn_ocvoicemail_Customer](#BKMK_msdyn_account_msdyn_ocvoicemail_Customer)
 
 ### <a name="BKMK_account_msdyn_bookingalerts"></a> account_msdyn_bookingalerts
 
@@ -35,6 +38,30 @@ Many-To-One Relationship: [msdyn_bookingalert account_msdyn_bookingalerts](msdyn
 |ReferencingEntity|`msdyn_bookingalert`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`account_msdyn_bookingalerts`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: `CRMActivity.RollupRelatedByParty`<br />ViewId: `00000000-0000-0000-00aa-000010001903`|
+
+### <a name="BKMK_account_msdyn_ocoutboundmessages"></a> account_msdyn_ocoutboundmessages
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage account_msdyn_ocoutboundmessages](msdyn_ocoutboundmessage.md#BKMK_account_msdyn_ocoutboundmessages)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`account_msdyn_ocoutboundmessages`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: `CRMActivity.RollupRelatedByParty`<br />ViewId: `00000000-0000-0000-00aa-000010001903`|
+
+### <a name="BKMK_account_msdyn_ocvoicemails"></a> account_msdyn_ocvoicemails
+
+Many-To-One Relationship: [msdyn_ocvoicemail account_msdyn_ocvoicemails](msdyn_ocvoicemail.md#BKMK_account_msdyn_ocvoicemails)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`account_msdyn_ocvoicemails`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: `CRMActivity.RollupRelatedByParty`<br />ViewId: `00000000-0000-0000-00aa-000010001903`|
 
@@ -61,6 +88,18 @@ Many-To-One Relationship: [msdyn_actual msdyn_account_msdyn_actual_AccountVendor
 |ReferencedEntityNavigationPropertyName|`msdyn_account_msdyn_actual_AccountVendor`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_account_msdyn_ocvoicemail_Customer"></a> msdyn_account_msdyn_ocvoicemail_Customer
+
+Many-To-One Relationship: [msdyn_ocvoicemail msdyn_account_msdyn_ocvoicemail_Customer](msdyn_ocvoicemail.md#BKMK_msdyn_account_msdyn_ocvoicemail_Customer)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`msdyn_customer`|
+|ReferencedEntityNavigationPropertyName|`msdyn_account_msdyn_ocvoicemail_Customer`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 

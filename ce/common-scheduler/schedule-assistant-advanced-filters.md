@@ -4,9 +4,9 @@ description: The schedule assistant provides a few advanced filters for granular
 ms.date: 06/06/2024
 ms.reviewer: mhart
 ms.subservice: common-scheduler
-ms.topic: conceptual
-author: anilmur
-ms.author: anilmur
+ms.topic: article
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Advanced filters for the schedule assistant in Universal Resource Scheduling

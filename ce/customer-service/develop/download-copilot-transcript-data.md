@@ -6,7 +6,8 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 03/20/2025
+ms.date: 05/05/2025
+ms.update-cycle: 180-days
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -18,9 +19,11 @@ ms.custom:
 
 Customer service representatives (service representatives or representatives) use Copilot features such as copying summaries, using a suggested reply, feedback, and chat. Copilot interactions are stored in the [Copilot Interaction (msdyn_copilotinteraction)](../../developer/reference/entities/msdyn_copilotinteraction.md), [Copilot Interaction Data (msdyn_copilotinteractiondata)](../../developer/reference/entities/msdyn_copilotinteractiondata.md), [Copilot Transcript (msdyn_copilottranscript)](../../developer/reference/entities/msdyn_copilottranscript.md), and [Copilot Transcript Data (msdyn_copilottranscriptdata)](../../developer/reference/entities/msdyn_copilottranscriptdata.md) tables in Dataverse. You can download the transcripts and interaction data using Dataverse [Web API](/power-apps/developer/data-platform/webapi/overview) or [SDK for .NET](/power-apps/developer/data-platform/org-service/overview).
 
+Beginning August 2025, copilot interactions are stored in the msdyn_copilotevents table. The msdyn_copilotinteraction and msdyn_copilotinteractiondata tables contain records prior to August. 
+
 ## Prerequisites
 
-- Make sure that the **Agent experience data** checkbox is selected in [**Copilot help pane**](../administer/copilot-enable-help-pane.md), so that the transaction and interaction data is stored by the system in Dataverse.
+- Make sure that the **Support experience data** checkbox is selected in [**Copilot for questions and emails**](../administer/copilot-enable-help-pane.md), so that the transaction and interaction data is stored by the system in Dataverse.
 - Make sure you're logged in with the Omnichannel administrator or Omnichannel supervisor role.
 
 ## Retrieve conversation summary
@@ -62,13 +65,15 @@ You can retrieve the conversation summary as follows:
 
 ## Where are my copilot interactions stored
 
-Each service representative interaction with Copilot is stored in the `msdyn_copilotinteraction` table with a unique interaction ID. The following table lists where the corresponding interaction data is stored for each interaction type.
+Each service representative interaction with Copilot is stored in the `msdyn_copilotinteraction` or `msdyn_copilotevents` table with a unique interaction ID. The following table lists where the corresponding interaction data is stored for each interaction type.
 
 | Feature | Table |
 |---------|-------|
 |Ask a question|`msdyn_copilottranscriptdata`|
-|Feedback, case summary, write an email, suggest a response|`msdyn_copilotinteractiondata`|
+|Feedback, case summary, write an email, suggest a response|`msdyn_copilotinteractiondata`, `msdyn_copilotevents`|
 
+> [!NOTE]
+> Copilot interaction records are stored in the `msdyn_copilotevents` table, beginning August 2025. Records prior to August are stored in the `msdyn_copilotinteraction` and `msdyn_copilotinteractiondata` tables. 
 
 ## Get msdyn_copilotinteractionid and msdyn_interactiondataid from copilot interaction records
 
@@ -80,6 +85,21 @@ Accept: application/json
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
 ```
+
+## Get msdyn_copilotinteractionid from copilot event records
+
+Before you download a transcript or view verbatim feedback, you must retrieve the values of `msdyn_copilotinteractionid` from `msdyn_copilotevents` table. You can use the following Web API call to obtain the interaction ID in the `msdyn_copilotinteractionid` field.
+
+```http
+[Organization URI]/api/data/v9.2/msdyn_copilotevents
+Accept: application/json  
+OData-MaxVersion: 4.0  
+OData-Version: 4.0  
+```
+
+
+### Key attributes
+
 The key attributes from the record are as follows.
 
    | Attribute            |Definition               |                                                                               
@@ -222,7 +242,7 @@ For example, while working on a case, the service representative asks Copilot "H
        {
          "id": "eba9e9d5-71e2-9502-0bca-9387246fb094",
          "requestId": "93893746-e203-e9b6-18b9-887d68d18daf",
-         "message": "To book a trip, follow these steps:\n\n1. Go to the travel portal.\n2. Click on \"Travel\" and then select \"Book a Trip\".\n3. Fill in your name, contact information, and the dates of your trip.\n4. Choose your destination from the drop-down menu. Here's the data you'll be working with:\n\n```json\n{\n    \"id\": \"11bb11bb-cc22-dd33-ee44-55ff55ff55ff\",\n    \"title\": \"Booking Travel\",\n    \"source\": \"internal_kb\"\n}\n```\n\n5. Select a hotel from the drop-down menu and specify the check-in and check-out dates. If you don't want to book a hotel, you can check the \"I do not want to book a hotel\" box.\n6. Choose the type of rental car you want. If you don't want to rent a car, you can check the \"I do not want to rent a car\" box.\n7. Click \"Submit\".\n\nOnce you've submitted your booking request, you will receive a follow-up communication from an agent with a quote. You can also add any notes or additional information by clicking on the case from the My Bookings screen.",
+         "message": "To book a trip, follow these steps:\n\n1. Go to the travel portal.\n2. Click on \"Travel\" and then select \"Book a Trip\".\n3. Fill in your name, contact information, and the dates of your trip.\n4. Choose your destination from the drop-down menu. Here's the data you'll be working with:\n\n```json\n{\n    \"id\": \"11bb11bb-cc22-dd33-ee44-55ff55ff55ff\",\n    \"title\": \"Booking Travel\",\n    \"source\": \"internal_kb\"\n}\n```\n\n5. Select a hotel from the drop-down menu and specify the check-in and check-out dates. If you don't want to book a hotel, you can check the \"I do not want to book a hotel\" box.\n6. Choose the type of rental car you want. If you don't want to rent a car, you can check the \"I do not want to rent a car\" box.\n7. Click \"Submit\".\n\nOnce you've submitted your booking request, you will receive a follow-up communication from a representative with a quote. You can also add any notes or additional information by clicking on the case from the My Bookings screen.",
          "sequence": 1,
          "user": "bot",
          "timestamp": 1711052776968,
@@ -257,7 +277,7 @@ For example, the Copilot's response isn't accurate and the representative select
 
 The key attributes for the record are as follows.
 
-| Attribute                     | Sample data for our example                          |
+| Attribute                     | Sample data for our example                     |
 |-------------------------------|-------------------------------------------------|
 | msdyn_copilotinteractionid    | 817ff9e4-cbe7-ee11-904c-000d3a3bb867            |
 | msdyn_scenariorequestid       | 93893746-e203-e9b6-18b9-887d68d18daf            |
@@ -266,27 +286,49 @@ The key attributes for the record are as follows.
 | msdyn_interactiontypename     | ThumbsDown                                      |
 | msdyn_interactionforid        | 1cd6023d-d326-ee11-9966-000d3a3411cf            |
 | msdyn_interactiondataid       | 807ff9e4-cbe7-ee11-904c-000d3a3bb867            |
+| partitionid                    | 20250622-20250628-100230203        |
+
+  > [!NOTE]
+  > PartitionID is applicable only if you are using the `msdyn_copilotevents` table.
 
 You can get the verbatim feedback provided by the representative as follows.
+1. [Get the required msdyn_copilotinteractiondata record ID value](#get-msdyn_copilotinteractionid-and-msdyn_interactiondataid-from-copilot-interaction-records) from the `msdyn_copilotinteraction` table. 
+  > [!NOTE]
+  > Skip this step if you're using the `msdyn_copilotevents` table. The `msdyn_copilotinteractiondataid` is already available in the `msdyn_copilotevents` table.
 
-1. [Get the required msdyn_copilotinteractiondata record ID value](#get-msdyn_copilotinteractionid-and-msdyn_interactiondataid-from-copilot-interaction-records) from the `msdyn_copilotinteraction` table.
-1. Run the following Web API request to retrieve the verbatim feedback.
+2. Run the following Web API request to retrieve the verbatim feedback.
 
-   ```http
- 
-      [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(<msdyn_copilotinteractiondataid>)
-      Accept: application/json  
-      OData-MaxVersion: 4.0  
-      OData-Version: 4.0  
-   ```
+    ### [msdyn_copilotevents](#tab/copilotevents)
 
-   In our example, the Web API request is as follows.
+     If you are using the `msdyn_copilotevents` table, use the following:
 
-    ```http
-    [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(807ff9e4-cbe7-ee11-904c-000d3a3bb867)
-    ```
+     ```http
+     [Organization URI]/api/data/v9.1/msdyn_copilotevents(msdyn_copiloteventid=<GUID>,partitionid='<partitionId>')
+     ```
 
-1. View the verbatim feedback available in the `msdyn_verbatim` column. For our example, the feedback retrieved is as follows.<br>
+     In our example, the Web API request is as follows:
+
+     ```http
+     [Organization URI]/api/data/v9.2/msdyn_copilotevents(msdyn_copiloteventid=f9d841e5-34e7-ee11-904c-000d3a3bb867,partitionid='20250622-20250628-100230203')
+     ```
+
+    ### [msdyn_copilotinteractiondata](#tab/copilotinteractiondata)
+
+     ```http
+     [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(<msdyn_copilotinteractiondataid>)
+     Accept: application/json  
+     OData-MaxVersion: 4.0  
+     OData-Version: 4.0  
+     ```
+
+     In our example, the Web API request is as follows:
+
+     ```http
+     [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(807ff9e4-cbe7-ee11-904c-000d3a3bb867)
+     ```
+   ---
+
+3. View the verbatim feedback available in the `msdyn_verbatim` column. For our example, the feedback retrieved is as follows.<br>
 
    ```json
 
@@ -321,7 +363,7 @@ You can get the verbatim feedback provided by the representative as follows.
 
 ## Download interaction data
 
-Except ask-a-question transcripts, for all other interactions between representatives and Copilot, data is stored in the `msdyn_copilotinteractiondata` table in Dataverse. 
+Except ask-a-question transcripts, for all other interactions between representatives and Copilot, data is stored in the `msdyn_copilotinteractiondata`  or `msdyn_copilotevents` table in Dataverse. 
 
 For example, an interaction can be a representative using Copilot to generate an email or a case summary. The key attributes for our example are as follows.
 
@@ -340,22 +382,40 @@ For example, an interaction can be a representative using Copilot to generate an
 You can download the interaction data as follows.
 
 1. [Get the required msdyn_copilotinteractiondata record ID value](#get-msdyn_copilotinteractionid-and-msdyn_interactiondataid-from-copilot-interaction-records) from the `msdyn_copilotinteraction` table. 
-2. Run the following Web API request to retrieve the interactions data from the `msdyn_copilotinteractiondata` table in the base64 encoded format:
+  > [!NOTE]
+  > Skip this step if you're using the `msdyn_copilotevents` table. The `msdyn_copilotinteractiondataid` is already available in the `msdyn_copilotevents` table.
 
-   ```http
-    [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(<msdyn_copilotinteractiondataid>)/msdyn_interactiondata
-    Accept: application/json  
-    OData-MaxVersion: 4.0  
-    OData-Version: 4.0  
+2. Run the following Web API request to retrieve the interactions data in the base64 encoded format:
 
-   ```
+    ### [msdyn_copilotevents](#tab/copilotevents)
 
-   In our example, the Web API request is as follows.
+     If you are using the msdyn_copilotevents table, use the following:
+        
+     ```http
+     <org-url>/api/data/v9.2/msdyn_copilotevents(msdyn_copiloteventid=<GUID>,partitionid='<partitionId>')/msdyn_interactiondata/$value 
+     ```
 
-    ```http
-      [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(f9d841e5-34e7-ee11-904c-000d3a3bb867)/msdyn_interactiondata
-    
-    ```
+     In our example, the Web API request is as follows:
+
+     ```http
+     <org-url>/api/data/v9.2/msdyn_copilotevents(msdyn_copiloteventid=f9d841e5-34e7-ee11-904c-000d3a3bb867,partitionid='20250622-20250628-100230203')/msdyn_interactiondata/$value 
+     ```
+
+     ### [msdyn_copilotinteractiondata](#tab/copilotinteractiondata)
+
+     ```http
+     [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(<msdyn_copilotinteractiondataid>)/msdyn_interactiondata
+     Accept: application/json  
+     OData-MaxVersion: 4.0  
+     OData-Version: 4.0  
+     ```
+
+     In our example, the Web API request is as follows:
+
+     ```http
+     [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(f9d841e5-34e7-ee11-904c-000d3a3bb867)/msdyn_interactiondata
+     ```
+  ---
 
  3. Decode the base64 encoded data to get the transcript. You can use an online base64 decoder tool to decode the data. For our email example, the decoded interaction data is displayed as follows.
  

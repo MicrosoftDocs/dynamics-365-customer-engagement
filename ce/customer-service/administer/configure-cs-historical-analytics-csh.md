@@ -1,8 +1,8 @@
 ---
 title: Manage historical analytics reports in Customer Service
 description: Learn how to configure Customer Service historical analytics reports in Omnichannel for Customer Service.
-ms.date: 10/08/2024
-ms.topic: article
+ms.date: 08/18/2025
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -29,13 +29,16 @@ The historical reports include:
 
 After you enable the reports, you can access them in one of the following ways:
 
-- In Customer Service workspace, select the hamburger menu, and then select **Customer Service historical analytics** in the site map.
+- In Copilot Service workspace, select the hamburger menu, and then select **Customer Service historical analytics** in the site map.
 
 - In Customer Service Hub, in **Service**, in the site map, select **Customer Service historical analytics**.
 
+> [!NOTE]
+> The reports retain their current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the steps provided [here](analytics_overview.md#keep-the-report-state-when-you-switch-session-tabs) to keep the report state.
+
 ## Manage Customer Service historical analytics reports
 
-Use the Customer Service admin center app to enable or disable the reports.
+Use the Copilot Service admin center app to enable or disable the reports.
 
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      
@@ -49,11 +52,14 @@ Use the Customer Service admin center app to enable or disable the reports.
 
 ## Enable historical analytics for unified routing
 
-Use the Customer Service admin center app to enable or disable the reports. The metrics are available in the report after 24 hours.
+> [!NOTE]
+> Starting June 30, 2025, the legacy version of [Historical analytics for unified routing in Customer Service](../use/cs-historical-analytics-unified-routing.md#historical-analytics-for-unified-routing-in-customer-service) is deprecated in Dynamics 365 Customer Service and Dynamics 365 Contact Center. Support ends on August 31, 2025, after which this dashboard will be removed.
+
+Use the Copilot Service admin center app to enable or disable the reports. The metrics are available in the report after 24 hours.
 
 > [!IMPORTANT]
 >
-> Unified routing must be enabled to enable historical analytics for unified routing. More information: [Provision unified routing for Customer Service](provision-unified-routing.md)
+> Unified routing must be enabled to enable historical analytics for unified routing. Learn more in [Provision unified routing for Customer Service](provision-unified-routing.md).
 
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      
@@ -65,9 +71,9 @@ Use the Customer Service admin center app to enable or disable the reports. The 
 
 ## View Customer Service historical analytics reports
 
-If you customized the Customer Service workspace app, you must complete the following steps to be able to view the reports.
+If you customized the Copilot Service workspace app, you must complete the following steps to be able to view the reports.
 
-1. On the Customer Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
+1. On the Copilot Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
 1. Select **New**.
 1. On the **New page** dialog, select **Dataverse Table** for Customer Service historical analytics, and then select **Next**.
 1. To add a Dataverse table, select the **Select existing table** option, and then select **Customer Service historical analytics**.

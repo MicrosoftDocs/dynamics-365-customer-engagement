@@ -175,13 +175,16 @@
       "ms.date": {
         "unified-service-desk/**.*": "06/27/2024",
         "customerengagement/**.*": "12/13/2024",
-        "developer/reference/entities/*.md" : "01/23/2025",
-        "field-service/developer/reference/entities/*.md" : "02/07/2025",
-        "sales/developer/entities/*.md" : "01/26/2025",
-        "customer-service/develop/reference/entities/*.md" : "01/27/2025"
+        "developer/reference/entities/*.md" : "08/29/2025",
+        "field-service/developer/reference/entities/*.md" : "08/29/2025",
+        "sales/developer/entities/*.md" : "08/29/2025",
+        "customer-service/develop/reference/entities/*.md" : "08/29/2025"
       },
       "ms.custom": {
         "unified-service-desk/**.*": "evergreen"
+      },
+      "ms.update-cycle": {
+        "unified-service-desk/**.*": "1095-days"
       },
       "ms.subservice": {
         "channel-integration-framework/**.*": "channel-integration-framework",
@@ -338,7 +341,7 @@
         ]
       },
       "ms.reviewer": {
-        "field-service/**.*": "mhart"
+        "field-service/**.*": "puneet-singh1"
       },
       "titleSuffix": {
         "field-service/*.md": "Dynamics 365 Field Service",

@@ -1,8 +1,8 @@
 ---
 title: FAQ about Omnichannel for Customer Service
 description: Learn about the frequently asked questions (FAQ) on the different features in Omnichannel for Customer Service and their requirements.
-ms.date: 03/21/2025
-ms.topic: conceptual
+ms.date: 04/21/2025
+ms.topic: faq
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -54,7 +54,7 @@ If you would like to try out Chat for Dynamics 365 for free, sign up for a trial
 
 ### In which apps can I use Chat for Dynamics 365?
 
-You can use Chat in the Omnichannel for Customer Service and Customer Service workspace apps.
+You can use Chat in the Omnichannel for Customer Service and Copilot Service workspace apps.
 
 ### Can I work on cases along with chats?
 
@@ -86,7 +86,7 @@ No. Only the primary representative of the chat can initiate transfers or consul
 
 ### Why are my representatives not receiving any new conversations?
 
-New conversation requests are assigned to an representative when:
+New conversation requests are assigned to a representative when:
 
 - A new chat request comes in.
 - The incoming chat request is assigned to a queue that matches the representative’s assigned queues. You can review the queue and workstream for an incoming chat in the Omnichannel Conversation Dashboard.
@@ -206,7 +206,7 @@ These controls are in place for exposing the data in reports:
 
 - Access to the Power BI reports is controlled by Power BI access roles, and sharing within the Omnichannel app. Learn more in [Configure Intraday Insights dashboard](../implement/configure-intraday-dashboard-supervisor.md).
 - Access to the Ongoing Conversation dashboard is controlled by the **Omnichannel supervisor** Dynamics role.
-- Sentiment can be turned on or off in Customer Service admin center. Learn more in [Enable sentiment analysis](../administer/enable-sentiment-analysis.md).
+- Sentiment can be turned on or off in Copilot Service admin center. Learn more in [Enable sentiment analysis](../administer/enable-sentiment-analysis.md).
 
 ## Chat widgets
 

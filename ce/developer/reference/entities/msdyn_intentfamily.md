@@ -68,10 +68,12 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
+- [msdyn_CPAAutomationLevel](#BKMK_msdyn_CPAAutomationLevel)
 - [msdyn_defaultusergroup](#BKMK_msdyn_defaultusergroup)
 - [msdyn_description](#BKMK_msdyn_description)
 - [msdyn_intentbasedroutingenabled](#BKMK_msdyn_intentbasedroutingenabled)
 - [msdyn_intentfamilyId](#BKMK_msdyn_intentfamilyId)
+- [msdyn_iscaseintentfromactivityenabled](#BKMK_msdyn_iscaseintentfromactivityenabled)
 - [msdyn_isdefault](#BKMK_msdyn_isdefault)
 - [msdyn_isenabled](#BKMK_msdyn_isenabled)
 - [msdyn_Name](#BKMK_msdyn_Name)
@@ -109,11 +111,33 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|SystemRequired|
 |Type|ManagedProperty|
 
+### <a name="BKMK_msdyn_CPAAutomationLevel"></a> msdyn_CPAAutomationLevel
+
+|Property|Value|
+|---|---|
+|Description|**CPA Automation Level for the Line of Business**|
+|DisplayName|**CPA Automation Level**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_CPAAutomationLevel`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|0|
+|GlobalChoiceName|`msdyn_intentfamily_msdyn_cpaautomationlevel`|
+
+#### msdyn_CPAAutomationLevel Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**Disabled**|
+|1|**Require agent confirmation**|
+|2|**Full automation**|
+
 ### <a name="BKMK_msdyn_defaultusergroup"></a> msdyn_defaultusergroup
 
 |Property|Value|
 |---|---|
-|Description|**Default user group to be used when no agent group is identified**|
+|Description|**Default user group to be used when no user group is identified**|
 |DisplayName|**Default User Group**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -166,6 +190,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_intentfamilyid`|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+### <a name="BKMK_msdyn_iscaseintentfromactivityenabled"></a> msdyn_iscaseintentfromactivityenabled
+
+|Property|Value|
+|---|---|
+|Description|**Is Case Intent from Activity Enabled for Intentfamily**|
+|DisplayName|**Is Case Intent from Activity Enabled for Intentfamily**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_iscaseintentfromactivityenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_intentfamily_ismsdyn_caseintentfromactivityenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_isdefault"></a> msdyn_isdefault
 
@@ -768,6 +808,8 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_intentfamily_ProcessSession](#BKMK_msdyn_intentfamily_ProcessSession)
 - [msdyn_intentfamily_SyncErrors](#BKMK_msdyn_intentfamily_SyncErrors)
 - [msdyn_intentgroupcondition_msdyn_intentfamily_msdyn_intentfamily](#BKMK_msdyn_intentgroupcondition_msdyn_intentfamily_msdyn_intentfamily)
+- [msdyn_intentplaybook_msdyn_intentfamilyid_msdyn_intentfamily](#BKMK_msdyn_intentplaybook_msdyn_intentfamilyid_msdyn_intentfamily)
+- [msdyn_intentplaybookmap_msdyn_intentfamilyid_msdyn_intentfamily](#BKMK_msdyn_intentplaybookmap_msdyn_intentfamilyid_msdyn_intentfamily)
 - [msdyn_intentsolutionmap_intentfamilyid_msdyn_intentfamily](#BKMK_msdyn_intentsolutionmap_intentfamilyid_msdyn_intentfamily)
 - [msdyn_liveworkstream_intentfamilyid_msdyn_intentfamily](#BKMK_msdyn_liveworkstream_intentfamilyid_msdyn_intentfamily)
 - [msdyn_msdyn_ocliveworkitem_msdyn_intentfamily_activeintentfamilyid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_intentfamily_activeintentfamilyid)
@@ -950,6 +992,30 @@ Many-To-One Relationship: [msdyn_intentgroupcondition msdyn_intentgroupcondition
 |ReferencingEntity|`msdyn_intentgroupcondition`|
 |ReferencingAttribute|`msdyn_intentfamily`|
 |ReferencedEntityNavigationPropertyName|`msdyn_intentgroupcondition_msdyn_intentfamily_msdyn_intentfamily`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_intentplaybook_msdyn_intentfamilyid_msdyn_intentfamily"></a> msdyn_intentplaybook_msdyn_intentfamilyid_msdyn_intentfamily
+
+Many-To-One Relationship: [msdyn_intentplaybook msdyn_intentplaybook_msdyn_intentfamilyid_msdyn_intentfamily](msdyn_intentplaybook.md#BKMK_msdyn_intentplaybook_msdyn_intentfamilyid_msdyn_intentfamily)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_intentplaybook`|
+|ReferencingAttribute|`msdyn_intentfamilyid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_intentplaybook_msdyn_intentfamilyid_msdyn_intentfamily`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_intentplaybookmap_msdyn_intentfamilyid_msdyn_intentfamily"></a> msdyn_intentplaybookmap_msdyn_intentfamilyid_msdyn_intentfamily
+
+Many-To-One Relationship: [msdyn_intentplaybookmap msdyn_intentplaybookmap_msdyn_intentfamilyid_msdyn_intentfamily](msdyn_intentplaybookmap.md#BKMK_msdyn_intentplaybookmap_msdyn_intentfamilyid_msdyn_intentfamily)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_intentplaybookmap`|
+|ReferencingAttribute|`msdyn_intentfamilyid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_intentplaybookmap_msdyn_intentfamilyid_msdyn_intentfamily`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

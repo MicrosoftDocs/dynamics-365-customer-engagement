@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 05/10/2024
+ms.date: 06/04/2025
 ms.custom: bap-template
 ---
 
@@ -46,7 +46,7 @@ This article discusses how to download the FetchXL query and edit it in the Conf
 
 ## Next steps
 
-[Migrate configuration data for records](migrate-config-data-for-records.md)  
+[Migrate configuration data for records](migrate-record-routing-config-using-solutions.md)  
 
 ### Related information
 

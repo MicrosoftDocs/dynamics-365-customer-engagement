@@ -1,13 +1,13 @@
 ---
 title: "Universal FetchXML to extend Universal Resource Scheduling"
 description: "Use Universal FetchXML to create custom queries in order to extend the schedule board and schedule assistant filters in Universal Resource Scheduling."
-author: m-hartmann
-ms.author: mhart
-ms.date: 06/06/2024
-ms.reviewer: mhart
+author: mkelleher-msft
+ms.author: mkelleher
+ms.date: 07/28/2025
+ms.reviewer: puneet-singh1
 
 ms.subservice: common-scheduler
-ms.topic: article
+ms.topic: reference
 ---
 
 # Extend Universal Resource Scheduling with Universal FetchXML

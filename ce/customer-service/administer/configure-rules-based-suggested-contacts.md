@@ -1,8 +1,8 @@
 ---
-title: "Configure rules-based suggested contacts when starting a Microsoft Teams chat in Dynamics 365 Customer Service | Microsoft Docs"
+title: Configure rules-based suggested contacts when starting a Microsoft Teams chat in Dynamics 365 Customer Service
 description: "Learn how to configure the ability to use rules-based suggested contacts."
-ms.date: 01/21/2025
-ms.topic: article
+ms.date: 05/20/2025
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -25,7 +25,7 @@ A maximum of 10 rules are supported per record type.
 
 **To enable collaboration with Microsoft Teams and chat**
 
-1. In the site map of Customer Service admin center or Contact Center admin center, in **Agent experience**, select **Collaboration**.
+1. In the site map of Copilot Service admin center, in **Support experience**, select **Collaboration**.
     
 1. In **Embedded chat using Teams**, select **Manage**.
 
@@ -33,7 +33,7 @@ A maximum of 10 rules are supported per record type.
 
 1. To get suggested contacts for any record type, perform the following steps:
    
-   1. In **Connect chat to Dynamics 365 records**, select record type for which you want to enable rules-based suggested contacts. Based on your selection, the relative settings pane appears on the right.
+   1. In **Connect Teams chats to Dynamics 365 records**, select record type for which you want to enable rules-based suggested contacts. Based on your selection, the relative settings pane appears on the right.
 
    2. In **Suggest contacts**, turn on the toggle for **Rules-based suggested contacts**.
 

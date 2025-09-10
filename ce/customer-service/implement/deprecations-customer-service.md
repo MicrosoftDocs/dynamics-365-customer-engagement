@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: conceptual
-ms.date: 03/17/2025
+ms.date: 08/18/2025
 ms.custom: bap-template
 ms.collection:
 ---
@@ -19,29 +19,56 @@ Administrators and IT professionals can use this information to prepare for futu
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
-## Rich text editor classic experience to be deprecated in April 2025
+## Legacy version of Historical analytics for unified routing is deprecated in Dynamics 365 Customer Service and Dynamics 365 Contact Center
 
-Starting April 18, 2025, we'll no longer support the classic rich text editor experience in Customer Service apps. The new, modernized rich text editor is the default experience, and customers who are using the classic experience will be upgraded automatically. Learn more in [Modern text editor enhancements](/power-apps/maker/model-driven-apps/rich-text-editor-control#modern-text-editor-enhancements).
+Starting June 30, 2025, the legacy version of [Historical analytics for unified routing in Omnichannel for Customer Service](../use/oc-historical-analytics-unified-routing.md#historical-analytics-for-unified-routing) and [Historical analytics for unified routing in Customer Service](../use/cs-historical-analytics-unified-routing.md#historical-analytics-for-unified-routing-in-customer-service) is deprecated in Dynamics 365 Customer Service and Dynamics 365 Contact Center. Support ends on August 31, 2025, after which this feature will be removed.
+
+## Legacy version of Case and Conversation Topics in Customer Service and Contact Center is deprecated
+
+Starting June 20, 2025, the legacy AI topic clustering for [Cases](../administer/configure-topics-clustering-cases-cs.md#configure-ai-topic-clustering-for-cases) and [Conversation Topics](../administer/ai-topic-clustering-conversations.md#configure-ai-topic-clustering-for-conversations) in Dynamics 365 Customer Service and Dynamics 365 Contact Center is deprecated and will reach the end of support. After August 31, 2025, this feature will be removed and users won't be able to use it in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
+
+## setClickToAct (JavaScript API Reference) to be deprecated on October 31, 2025
+
+In Dynamics 365 Channel Integration Framework versions 1 and 2, the setClickToAct (JavaScript API Reference) API will be deprecated on October 31, 2025. If you need to change outbound configuration for your channel provider, review [Enable outbound communication (ClickToAct) in Dynamics 365 Channel Integration Framework 2.0](../../channel-integration-framework/v2/administer/enable-outbound-communication-clicktoact.md).
+
+## Omnichannel agent and supervisor dashboard experiences to be deprecated on December 1, 2025
+
+The Omnichannel dashboard experiences in Copilot Service workspace will be deprecated on December 1, 2025. Support will end on December 1, 2026. This upcoming change affects customers who use the agent or supervisor dashboard experiences. We recommend that you transition to the [inbox experience](../use/use-inbox.md) and [Omnichannel real-time analytics report](../use/intro-realtime-analytics-dashboard.md) in the Copilot Service workspace app. 
+
+Copilot Service workspace offers modern customer service experiences, with features like multi-entity support, read and unread configurations, card configuration, and Copilot-suggested actions. The inbox is the recommended solution for customer service representatives to manage their work items. The inbox is continuously being updated with more AI features and enhanced configurations. [Get started with a trial version of Copilot Service workspace](https://www.microsoft.com/dynamics-365/products/customer-service).
+
+## Effort estimation model in unified routing is deprecated
+
+The effort estimation model in unified routing was deprecated on May 02, 2025. The support for the feature ended and the feature was removed on June 02, 2025.
+
+## Auto-summarization of ongoing conversations is deprecated
+
+Starting April 16, 2025, we no longer support the auto-summarization of ongoing conversations in Customer Service apps. We recommend that you use [Copilot-generated conversation summary](/dynamics365/contact-center/use/copilot-summarize-conversations#view-a-conversation-summary).
+
+
+## Rich text editor classic experience is deprecated
+
+As of April 18, 2025, the classic rich text editor experience is deprecated in Customer Service apps. The new, modernized rich text editor is the default experience, and customers who used the classic experience were upgraded automatically. Learn more in [Modern text editor enhancements](/power-apps/maker/model-driven-apps/rich-text-editor-control#modern-text-editor-enhancements).
 
 ## Case and knowledge suggestions in smart assist are deprecated
 
-Starting June 02, 2025, we'll no longer support [case and knowledge suggestions](../use/oc-view-ai-suggested-cases-articles.md) via smart assist in Customer Service. We recommend that you [make Copilot available to your customer service representatives](../administer/configure-copilot-features.md#make-copilot-available-to-agents).
+Starting June 02, 2025, we no longer support [case and knowledge suggestions](../use/oc-view-ai-suggested-cases-articles.md) via smart assist in Customer Service. We recommend that you [make Copilot available to your customer service representatives](../administer/configure-copilot-features.md#make-copilot-available-to-representatives).
 
 ## Dynamics 365 Unified Service Desk to be deprecated in April 2026
 
-Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using [Customer Service workspace](../implement/csw-overview.md). Learn more in [Transition from Unified Service Desk to Customer Service workspace](https://www.microsoft.com/dynamics-365/blog/it-professional/2025/01/22/transition-from-unified-service-desk-to-customer-service-workspace/).
+Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using [Copilot Service workspace](../implement/csw-overview.md). Learn more in [Transition from Unified Service Desk to Copilot Service workspace](https://www.microsoft.com/dynamics-365/blog/it-professional/2025/01/22/transition-from-unified-service-desk-to-customer-service-workspace/).
 
 ## Provisioning of Omnichannel for Customer Service in Power Platform admin center is deprecated
 
-As of October 2024, the legacy provisioning of Omnichannel for Customer Service in Power Platform admin center is deprecated and is no longer be accessible. This deprecation is being done in phases. To provision channels, use the new [provisioning experience](/dynamics365/contact-center/implement/provision-channels) in Contact Center admin center or Customer Service admin center.
+As of October 2024, the legacy provisioning of Omnichannel for Customer Service in Power Platform admin center is deprecated and is no longer be accessible. This deprecation is being done in phases. To provision channels, use the new [provisioning experience](/dynamics365/contact-center/implement/provision-channels) in Copilot Service admin center.
 
-## Customer Service Hub app to be removed for new organizations with Enterprise licenses in February 2025
+## Customer Service Hub app is removed for new organizations with Enterprise licenses
 
-Effective February 2025, the Customer Service Hub app is no longer available for all new organizations with Enterprise licenses. We'll continue to support the application for all existing organizations and new customers with license types other than Enterprise (for example, Customer Service Professional licenses). We recommend that existing customers migrate to Customer Service workspace. Learn more in [Migrate to Customer Service workspace from removed or deprecated apps](../administer/migrate-to-csw.md).
+Effective February 2025, the Customer Service Hub app is no longer available for all new organizations with Enterprise licenses. We continue to support the application for all existing organizations and new customers with license types other than Enterprise (for example, Customer Service Professional licenses). We recommend that existing customers migrate to Copilot Service workspace. Learn more in [Migrate to Copilot Service workspace from removed or deprecated apps](../administer/migrate-to-csw.md).
 
 ## Diagnostics in unified routing is deprecated
 
-The [diagnostics](../administer/unified-routing-diagnostics.md) feature in unified routing is deprecated as of May 09, 2024. The feature will be removed on May 08, 2025. We recommend that you use [Conversation diagnostics in Azure Application Insights](/power-platform/admin/conversation-diagnostics-application-insights) to get diagnostics information. You can delete your routing diagnostics-related data from Dataverse using the steps in [Manage routing diagnostics data](../administer/manage-routing-diagnostics-data.md). Contact Microsoft Support if you need help.
+The [diagnostics](../administer/unified-routing-diagnostics.md) feature in unified routing is deprecated as of May 09, 2024. The feature will be removed on October 01, 2025. We recommend that you use [Conversation diagnostics in Azure Application Insights](../administer/configure-conversation-diagnostics.md) to get diagnostics information. You can delete your routing diagnostics-related data from Dataverse using the steps in [Manage routing diagnostics data](../administer/manage-routing-diagnostics-data.md). Contact Microsoft Support if you need help.
 
 ## Omnichannel for Customer Service on Unified Service Desk is deprecated and will be removed in October 2025
 
@@ -78,21 +105,21 @@ Effective April 30, 2024, Omnichannel intraday insights reports aren't available
 
 ## Some admin apps are deprecated
 
-With the release of the Customer Service admin center app that consolidates admin experiences across the Customer Service suite, the following admin experiences are deprecated and no longer supported as of April 2023.
+With the release of the Copilot Service admin center app that consolidates admin experiences across the Customer Service suite, the following admin experiences are deprecated and no longer supported as of April 2023.
 
 - Service Management area in the Customer Service Hub app
 - Omnichannel admin center
 - **App profile manager**: Removed as of April 2023.
 
-Also, as of October 2022, the Omnichannel admin center and the service management area in Customer Service Hub are hidden by default in newly created organizations and environments. You can bring them back, but we recommend that you start using the Customer Service admin center app to perform tasks like manage cases, and configure unified routing, channels, and agent experience profiles. Learn more in [Get started with Customer Service admin center](cs-admin-center.md).
+Also, as of October 2022, the Omnichannel admin center and the service management area in Customer Service Hub are hidden by default in newly created organizations and environments. You can bring them back, but we recommend that you start using the Copilot Service admin center app to perform tasks like manage cases, and configure unified routing, channels, and agent experience profiles. Learn more in [Get started with Copilot Service admin center](cs-admin-center.md).
 
 ## Omnichannel Administration app is deprecated and removed as of July 2023
 
-Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. Learn more in [Get started with Customer Service admin center](cs-admin-center.md).
+Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the Copilot Service admin center app to configure the latest features, such as unified routing and voice channel. Learn more in [Get started with Copilot Service admin center](cs-admin-center.md).
 
 ## Omnichannel for Customer Service agent-facing app is deprecated and removed as of June 2024
 
-Effective April 2023, the Omnichannel for Customer Service agent-facing app is deprecated. Support is available until June 2024. We recommend that you migrate your omnichannel configuration to Customer Service workspace. Learn more in [Migrate to Customer Service workspace from deprecated or removed apps](../administer/migrate-to-csw.md).
+Effective April 2023, the Omnichannel for Customer Service agent-facing app is deprecated. Support is available until June 2024. We recommend that you migrate your omnichannel configuration to Copilot Service workspace. Learn more in [Migrate to Copilot Service workspace from deprecated or removed apps](../administer/migrate-to-csw.md).
 
 ## setContextProvider method for authenticated chat is deprecated
 

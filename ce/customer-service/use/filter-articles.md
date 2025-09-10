@@ -1,8 +1,8 @@
 ---
 title: Filter knowledge articles
 description: Learn how you can filter knowledge articles.
-ms.date: 02/03/2025
-ms.topic: article
+ms.date: 07/30/2025
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -34,13 +34,13 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
 
 ## Personalize your knowledge search article filters
 
-If your administrator has configured knowledge filter personalization settings, as a customer service representative (service representative or representative), you can select the filters you want to use.
+If your administrator configured knowledge filter personalization settings, as a customer service representative (service representative or representative), you can select the filters you want to use.
 
-You can do the following:
+You can do the following actions:
 - Set preselects
 - Activate or deactivate a filter
 
-Only the filters that your administrator has configured are viewable. If your administrator deactivates a filter, that filter becomes invisible without notifying you. If you notice that a filter has suddenly disappeared, contact your administrator for assistance. If your administrator disables all filters, you won't see any filters, and a message, "No filters have been configured. Contact your administrator." appears.
+Only the filters that your administrator configures are viewable. If your administrator deactivates a filter, that filter becomes invisible without notifying you. If you notice that a filter suddenly disappears, contact your administrator for assistance. If your administrator disables all filters, you don't see any filters and the following message appears: "No filters have been configured. Contact your administrator."
 
 Any personalization you make to your filter selections is also be applicable to the form-based knowledge control and standalone knowledge base search page.
 
@@ -61,7 +61,7 @@ The knowledge base search control also enables you to sort the knowledge article
 
 :::image type="content" source="../media/csw-sort-km.png" alt-text="Sort knowledge article":::
 
-Select the up-arrow icon to view the sorting options and select an option from the following: 
+Select the up-arrow icon to view the sorting options and select an option from the following sort list: 
 
 - Relevance
 - Number of views
@@ -81,7 +81,7 @@ To view the auto-filtered results:
 2. If you want to disable the automatic filtering option and search the entire knowledge base for articles, deselect **Auto-filter results**.  
 
     > [!NOTE]
-    > Your administrator or system customizer must enable **Users can turn off automatic filtering** option for you to see the **Auto-filter results** option. If the **Users can turn off automatic filtering** option isn't enabled, you'll always see the auto-filtered results. Learn more in [Configure automatic filtering](../administer/add-knowledge-base-search-control-forms.md#configure-automatic-filtering-for-the-web-client).
+    > Your administrator or system customizer must enable **Users can turn off automatic filtering** option for you to see the **Auto-filter results** option. If the **Users can turn off automatic filtering** option isn't enabled, you always see the auto-filtered results. Learn more in [Configure automatic filtering](../administer/add-knowledge-base-search-control-forms.md#configure-automatic-filtering-for-the-web-client).
 
 Here's an example.
 
@@ -89,7 +89,7 @@ In the following illustration, the case subject is **Xbox**. If automatic filter
 
 ![Select Auto filter results.](../media/ka-select-auto-filter-results.png "Select Auto filter results")
   
-However, if the **Auto-filter results** checkbox isn't selected, you can see more articles that aren't related to the subject. These are the results from the entire knowledge base.
+However, if the **Auto-filter results** checkbox isn't selected, you can see more articles that aren't related to the subject. These results are from the entire knowledge base.
 
 ![Deselect Auto-filter results.](../media/ka-deselect-auto-filter-results.png "Deselect Auto-filter results")
 

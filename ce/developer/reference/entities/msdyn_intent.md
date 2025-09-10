@@ -68,11 +68,15 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
+- [msdyn_description](#BKMK_msdyn_description)
 - [msdyn_harvestingsource](#BKMK_msdyn_harvestingsource)
 - [msdyn_intentfamilyid](#BKMK_msdyn_intentfamilyid)
 - [msdyn_intentharvesting_batchjobstatusid](#BKMK_msdyn_intentharvesting_batchjobstatusid)
 - [msdyn_intentId](#BKMK_msdyn_intentId)
+- [msdyn_intentsolutionrate](#BKMK_msdyn_intentsolutionrate)
 - [msdyn_intentstring](#BKMK_msdyn_intentstring)
+- [msdyn_intentvolume](#BKMK_msdyn_intentvolume)
+- [msdyn_is_selfserve_enabled](#BKMK_msdyn_is_selfserve_enabled)
 - [msdyn_isgroup](#BKMK_msdyn_isgroup)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_occurrencecount](#BKMK_msdyn_occurrencecount)
@@ -80,6 +84,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_occurrencecount_last30days](#BKMK_msdyn_occurrencecount_last30days)
 - [msdyn_parentgroupid](#BKMK_msdyn_parentgroupid)
 - [msdyn_reviewstate](#BKMK_msdyn_reviewstate)
+- [msdyn_reviewstatesource](#BKMK_msdyn_reviewstatesource)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -113,6 +118,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`iscustomizable`|
 |RequiredLevel|SystemRequired|
 |Type|ManagedProperty|
+
+### <a name="BKMK_msdyn_description"></a> msdyn_description
+
+|Property|Value|
+|---|---|
+|Description|**Description for the intent or intent group**|
+|DisplayName|**Description**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_description`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|4000|
 
 ### <a name="BKMK_msdyn_harvestingsource"></a> msdyn_harvestingsource
 
@@ -153,8 +175,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Look up to msdyn_intentharvesting_batchjobstatus table**|
-|DisplayName|**msdyn_intentharvesting_batchjobstatusid**|
+|Description|**Look up to msdyn\_intentharvesting\_batchjobstatus table**|
+|DisplayName|**msdyn\_intentharvesting\_batchjobstatusid**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_intentharvesting_batchjobstatusid`|
@@ -174,12 +196,29 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
+### <a name="BKMK_msdyn_intentsolutionrate"></a> msdyn_intentsolutionrate
+
+|Property|Value|
+|---|---|
+|Description|**Field capturing rate where solution was provided for an intent**|
+|DisplayName|**(Deprecated) Intent Solution Rate**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_intentsolutionrate`|
+|RequiredLevel|None|
+|Type|Decimal|
+|ImeMode|Auto|
+|MaxValue|100|
+|MinValue|0|
+|Precision|6|
+|SourceTypeMask|0|
+
 ### <a name="BKMK_msdyn_intentstring"></a> msdyn_intentstring
 
 |Property|Value|
 |---|---|
 |Description|**Text of intent string**|
-|DisplayName|**msdyn_intentstring**|
+|DisplayName|**msdyn\_intentstring**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_intentstring`|
@@ -190,6 +229,36 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|2000|
+
+### <a name="BKMK_msdyn_intentvolume"></a> msdyn_intentvolume
+
+|Property|Value|
+|---|---|
+|Description|**Field capturing number of records for which this intent was determined**|
+|DisplayName|**(Deprecated) Intent Volume**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_intentvolume`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_is_selfserve_enabled"></a> msdyn_is_selfserve_enabled
+
+|Property|Value|
+|---|---|
+|Description|**Indicates if this is enabled for self serve**|
+|DisplayName|**Is Self-Serve Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_is_selfserve_enabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_intent_msdyn_is_selfserve_enabled`|
+|DefaultValue|False|
+|True Label|True|
+|False Label|False|
 
 ### <a name="BKMK_msdyn_isgroup"></a> msdyn_isgroup
 
@@ -243,7 +312,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**occurrence count of the intent in last 12 months**|
-|DisplayName|**occurrencecount_last12months**|
+|DisplayName|**occurrencecount\_last12months**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_occurrencecount_last12months`|
@@ -257,7 +326,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**occurrence count of the intent in last 30 days**|
-|DisplayName|**occurrencecount_last30days**|
+|DisplayName|**occurrencecount\_last30days**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_occurrencecount_last30days`|
@@ -300,6 +369,27 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350000|**Pending**|
 |192350001|**Approved**|
 |192350002|**Discarded**|
+
+### <a name="BKMK_msdyn_reviewstatesource"></a> msdyn_reviewstatesource
+
+|Property|Value|
+|---|---|
+|Description|**Field capturing source of intent's review status**|
+|DisplayName|**Review Status Source**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_reviewstatesource`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_intentreviewstate_source`|
+
+#### msdyn_reviewstatesource Choices/Options
+
+|Value|Label|
+|---|---|
+|192350000|**AI Generated**|
+|192350002|**Admin Updated**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
@@ -857,10 +947,12 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_intent_DuplicateBaseRecord](#BKMK_msdyn_intent_DuplicateBaseRecord)
 - [msdyn_intent_DuplicateMatchingRecord](#BKMK_msdyn_intent_DuplicateMatchingRecord)
 - [msdyn_intent_MailboxTrackingFolders](#BKMK_msdyn_intent_MailboxTrackingFolders)
+- [msdyn_intent_msdyn_intentmetrics_msdyn_intentid](#BKMK_msdyn_intent_msdyn_intentmetrics_msdyn_intentid)
 - [msdyn_intent_PrincipalObjectAttributeAccesses](#BKMK_msdyn_intent_PrincipalObjectAttributeAccesses)
 - [msdyn_intent_ProcessSession](#BKMK_msdyn_intent_ProcessSession)
 - [msdyn_intent_SyncErrors](#BKMK_msdyn_intent_SyncErrors)
 - [msdyn_intententity_intentgroupid_msdyn_intent](#BKMK_msdyn_intententity_intentgroupid_msdyn_intent)
+- [msdyn_intentplaybookmap_msdyn_intentid_msdyn_intent](#BKMK_msdyn_intentplaybookmap_msdyn_intentid_msdyn_intent)
 - [msdyn_intentsolutionmap_intentid_msdyn_intent](#BKMK_msdyn_intentsolutionmap_intentid_msdyn_intent)
 - [msdyn_msdyn_intent_msdyn_intent_parentgroupid](#BKMK_msdyn_msdyn_intent_msdyn_intent_parentgroupid-one-to-many)
 - [msdyn_msdyn_intent_msdyn_intentattributeset_intentid](#BKMK_msdyn_msdyn_intent_msdyn_intentattributeset_intentid)
@@ -928,6 +1020,18 @@ Many-To-One Relationship: [mailboxtrackingfolder msdyn_intent_MailboxTrackingFol
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_intent_msdyn_intentmetrics_msdyn_intentid"></a> msdyn_intent_msdyn_intentmetrics_msdyn_intentid
+
+Many-To-One Relationship: [msdyn_intentmetrics msdyn_intent_msdyn_intentmetrics_msdyn_intentid](msdyn_intentmetrics.md#BKMK_msdyn_intent_msdyn_intentmetrics_msdyn_intentid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_intentmetrics`|
+|ReferencingAttribute|`msdyn_intentid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_intent_msdyn_intentmetrics_msdyn_intentid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_intent_PrincipalObjectAttributeAccesses"></a> msdyn_intent_PrincipalObjectAttributeAccesses
 
 Many-To-One Relationship: [principalobjectattributeaccess msdyn_intent_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_intent_PrincipalObjectAttributeAccesses)
@@ -973,6 +1077,18 @@ Many-To-One Relationship: [msdyn_intententity msdyn_intententity_intentgroupid_m
 |ReferencingEntity|`msdyn_intententity`|
 |ReferencingAttribute|`msdyn_intentgroupid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_intententity_intentgroupid_msdyn_intent`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_intentplaybookmap_msdyn_intentid_msdyn_intent"></a> msdyn_intentplaybookmap_msdyn_intentid_msdyn_intent
+
+Many-To-One Relationship: [msdyn_intentplaybookmap msdyn_intentplaybookmap_msdyn_intentid_msdyn_intent](msdyn_intentplaybookmap.md#BKMK_msdyn_intentplaybookmap_msdyn_intentid_msdyn_intent)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_intentplaybookmap`|
+|ReferencingAttribute|`msdyn_intentid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_intentplaybookmap_msdyn_intentid_msdyn_intent`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

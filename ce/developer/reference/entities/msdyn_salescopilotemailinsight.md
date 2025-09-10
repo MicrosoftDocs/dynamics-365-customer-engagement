@@ -71,6 +71,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_actiondescription](#BKMK_msdyn_actiondescription)
 - [msdyn_actiontitle](#BKMK_msdyn_actiontitle)
 - [msdyn_actiontype](#BKMK_msdyn_actiontype)
+- [msdyn_activitymappingid](#BKMK_msdyn_activitymappingid)
+- [msdyn_activitymappingidIdType](#BKMK_msdyn_activitymappingidIdType)
 - [msdyn_citations](#BKMK_msdyn_citations)
 - [msdyn_conversationid](#BKMK_msdyn_conversationid)
 - [msdyn_draftapiname](#BKMK_msdyn_draftapiname)
@@ -160,6 +162,31 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |100000001|**Schedule Meeting**|
 |100000002|**Create Task**|
 
+### <a name="BKMK_msdyn_activitymappingid"></a> msdyn_activitymappingid
+
+|Property|Value|
+|---|---|
+|Description|**Activity Mapping loookup attribute**|
+|DisplayName|**Activity Mapping loookup attribute**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_activitymappingid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_activitymapping|
+
+### <a name="BKMK_msdyn_activitymappingidIdType"></a> msdyn_activitymappingidIdType
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`msdyn_activitymappingididtype`|
+|RequiredLevel|None|
+|Type|EntityName|
+
 ### <a name="BKMK_msdyn_citations"></a> msdyn_citations
 
 |Property|Value|
@@ -181,8 +208,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Conversation id of the email message**|
-|DisplayName|**ConversationId**|
+|Description|**Deprecated**|
+|DisplayName|**Deprecated**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_conversationid`|
@@ -249,8 +276,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Internet Message id to use in SSS scenarios**|
-|DisplayName|**InternetMessageId**|
+|Description|**Deprecated**|
+|DisplayName|**Deprecated**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_internetmessageid`|
@@ -266,8 +293,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Email message id obtained from email service**|
-|DisplayName|**MessageId**|
+|Description|**Deprecated**|
+|DisplayName|**Deprecated**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_messageid`|
@@ -300,8 +327,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Primary unique id of the regarding object.**|
-|DisplayName|**RegardingId**|
+|Description|**Deprecated**|
+|DisplayName|**Deprecated**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_regardingid`|
@@ -317,8 +344,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Entity logical name of the regarding object like lead/opportunity**|
-|DisplayName|**RegardingLogicalName**|
+|Description|**Deprecated**|
+|DisplayName|**Deprecated**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_regardinglogicalname`|
@@ -654,6 +681,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_salescopilotemailinsight_createdonbehalfby](#BKMK_lk_msdyn_salescopilotemailinsight_createdonbehalfby)
 - [lk_msdyn_salescopilotemailinsight_modifiedby](#BKMK_lk_msdyn_salescopilotemailinsight_modifiedby)
 - [lk_msdyn_salescopilotemailinsight_modifiedonbehalfby](#BKMK_lk_msdyn_salescopilotemailinsight_modifiedonbehalfby)
+- [msdyn_salescopilotemailinsight_msdyn_activitymapping_msdyn_activitymappingid](#BKMK_msdyn_salescopilotemailinsight_msdyn_activitymapping_msdyn_activitymappingid)
 - [owner_msdyn_salescopilotemailinsight](#BKMK_owner_msdyn_salescopilotemailinsight)
 - [team_msdyn_salescopilotemailinsight](#BKMK_team_msdyn_salescopilotemailinsight)
 - [user_msdyn_salescopilotemailinsight](#BKMK_user_msdyn_salescopilotemailinsight)
@@ -723,6 +751,19 @@ One-To-Many Relationship: [systemuser lk_msdyn_salescopilotemailinsight_modified
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_salescopilotemailinsight_msdyn_activitymapping_msdyn_activitymappingid"></a> msdyn_salescopilotemailinsight_msdyn_activitymapping_msdyn_activitymappingid
+
+One-To-Many Relationship: [msdyn_activitymapping msdyn_salescopilotemailinsight_msdyn_activitymapping_msdyn_activitymappingid](msdyn_activitymapping.md#BKMK_msdyn_salescopilotemailinsight_msdyn_activitymapping_msdyn_activitymappingid)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_activitymapping`|
+|ReferencedAttribute|`msdyn_activitymappingid`|
+|ReferencingAttribute|`msdyn_activitymappingid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_activitymappingid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
 ### <a name="BKMK_owner_msdyn_salescopilotemailinsight"></a> owner_msdyn_salescopilotemailinsight
 
 One-To-Many Relationship: [owner owner_msdyn_salescopilotemailinsight](owner.md#BKMK_owner_msdyn_salescopilotemailinsight)
@@ -775,6 +816,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_salescopilotemailinsight_PrincipalObjectAttributeAccesses](#BKMK_msdyn_salescopilotemailinsight_PrincipalObjectAttributeAccesses)
 - [msdyn_salescopilotemailinsight_ProcessSession](#BKMK_msdyn_salescopilotemailinsight_ProcessSession)
 - [msdyn_salescopilotemailinsight_SyncErrors](#BKMK_msdyn_salescopilotemailinsight_SyncErrors)
+- [msdyn_salescopilotknowledgebase_msdyn_salescopilotemailinsight_msdyn_salescopilotemailinsightid](#BKMK_msdyn_salescopilotknowledgebase_msdyn_salescopilotemailinsight_msdyn_salescopilotemailinsightid)
 
 ### <a name="BKMK_msdyn_salescopilotemailinsight_AsyncOperations"></a> msdyn_salescopilotemailinsight_AsyncOperations
 
@@ -871,6 +913,18 @@ Many-To-One Relationship: [syncerror msdyn_salescopilotemailinsight_SyncErrors](
 |ReferencedEntityNavigationPropertyName|`msdyn_salescopilotemailinsight_SyncErrors`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_salescopilotknowledgebase_msdyn_salescopilotemailinsight_msdyn_salescopilotemailinsightid"></a> msdyn_salescopilotknowledgebase_msdyn_salescopilotemailinsight_msdyn_salescopilotemailinsightid
+
+Many-To-One Relationship: [msdyn_salescopilotknowledgebase msdyn_salescopilotknowledgebase_msdyn_salescopilotemailinsight_msdyn_salescopilotemailinsightid](msdyn_salescopilotknowledgebase.md#BKMK_msdyn_salescopilotknowledgebase_msdyn_salescopilotemailinsight_msdyn_salescopilotemailinsightid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_salescopilotknowledgebase`|
+|ReferencingAttribute|`msdyn_salescopilotemailinsightid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_salescopilotknowledgebase_msdyn_salescopilotemailinsight_msdyn_salescopilotemailinsightid`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 

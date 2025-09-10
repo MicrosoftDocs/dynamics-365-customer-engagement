@@ -22,6 +22,10 @@ search.audienceType:
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [mspp_publishingstatetransitionrule_msdyn_bookingalerts](#BKMK_mspp_publishingstatetransitionrule_msdyn_bookingalerts)
+- [mspp_publishingstatetransitionrule_msdyn_ocoutboundmessages](#BKMK_mspp_publishingstatetransitionrule_msdyn_ocoutboundmessages)
+- [mspp_publishingstatetransitionrule_msdyn_ocvoicemails](#BKMK_mspp_publishingstatetransitionrule_msdyn_ocvoicemails)
+
 ### <a name="BKMK_mspp_publishingstatetransitionrule_msdyn_bookingalerts"></a> mspp_publishingstatetransitionrule_msdyn_bookingalerts
 
 Many-To-One Relationship: [msdyn_bookingalert mspp_publishingstatetransitionrule_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_mspp_publishingstatetransitionrule_msdyn_bookingalerts)
@@ -31,6 +35,30 @@ Many-To-One Relationship: [msdyn_bookingalert mspp_publishingstatetransitionrule
 |ReferencingEntity|`msdyn_bookingalert`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`mspp_publishingstatetransitionrule_msdyn_bookingalerts`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_mspp_publishingstatetransitionrule_msdyn_ocoutboundmessages"></a> mspp_publishingstatetransitionrule_msdyn_ocoutboundmessages
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage mspp_publishingstatetransitionrule_msdyn_ocoutboundmessages](msdyn_ocoutboundmessage.md#BKMK_mspp_publishingstatetransitionrule_msdyn_ocoutboundmessages)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`mspp_publishingstatetransitionrule_msdyn_ocoutboundmessages`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_mspp_publishingstatetransitionrule_msdyn_ocvoicemails"></a> mspp_publishingstatetransitionrule_msdyn_ocvoicemails
+
+Many-To-One Relationship: [msdyn_ocvoicemail mspp_publishingstatetransitionrule_msdyn_ocvoicemails](msdyn_ocvoicemail.md#BKMK_mspp_publishingstatetransitionrule_msdyn_ocvoicemails)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`mspp_publishingstatetransitionrule_msdyn_ocvoicemails`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

@@ -63,7 +63,7 @@ To configure a Facebook channel, the following steps are required:
 
 ### Create the Facebook channel account
 
-1. In the site map of Customer Service admin center, in **Customer support**, select **Channels**.
+1. In the site map of Copilot Service admin center, in **Customer support**, select **Channels**.
 1. In **Accounts**, for **Messaging accounts**, select **Manage**.
 
 1. On the **Accounts and channels** page, select **New account**.
@@ -88,7 +88,7 @@ To configure a Facebook channel, the following steps are required:
 
 1. Save your changes.
 
-1. Open Customer Service admin center, and then go to **Channels** > **Messaging Accounts** > **Your FB Account**.
+1. Open Copilot Service admin center, and then go to **Channels** > **Messaging Accounts** > **Your FB Account**.
 
 1. On the **Account settings** page, select the **Facebook Pages** tab, and then verify that the **Provisioning state** shows as **Running**.
 
@@ -118,7 +118,7 @@ To configure a Facebook channel, the following steps are required:
 
 1. Configure work distribution. Learn more in [Work distribution settings](create-workstreams.md#configure-work-distribution).
 
-1. Optionally, you can add an AI agent. Skip this step if only human agents handle your conversations. Learn more in [Configure an agent](create-workstreams.md#add-a-bot-to-a-workstream).
+1. Optionally, you can add an AI agent. Skip this step if only human agents handle your conversations. Learn more in [Configure an agent](create-workstreams.md#add-an-agent-to-a-workstream).
 
 1. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](session-templates.md)

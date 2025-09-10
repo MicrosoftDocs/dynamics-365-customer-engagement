@@ -2,8 +2,8 @@
 title: "Booking Setup Metadata (msdyn_bookingsetupmetadata) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Booking Setup Metadata (msdyn_bookingsetupmetadata) table/entity with Microsoft Dynamics 365 Field Service."
 ms.topic: generated-reference
-author: m-hartmann
-ms.author: mhart
+author: puneet-singh1
+ms.author: puneetsingh
 search.audienceType: 
   - developer
 ---
@@ -82,6 +82,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_DisableRequirementAutoCreation](#BKMK_msdyn_DisableRequirementAutoCreation)
 - [msdyn_enablequickbook](#BKMK_msdyn_enablequickbook)
 - [msdyn_EntityLogicalName](#BKMK_msdyn_EntityLogicalName)
+- [msdyn_IgnoreTimeZoneInScheduleAssistant](#BKMK_msdyn_IgnoreTimeZoneInScheduleAssistant)
 - [msdyn_RequirementRelationshipLogicalName](#BKMK_msdyn_RequirementRelationshipLogicalName)
 - [msdyn_ResourceAvailabilityRetrievalLimit](#BKMK_msdyn_ResourceAvailabilityRetrievalLimit)
 - [msdyn_RetrieveConstraintsQuery](#BKMK_msdyn_RetrieveConstraintsQuery)
@@ -324,6 +325,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|450|
+
+### <a name="BKMK_msdyn_IgnoreTimeZoneInScheduleAssistant"></a> msdyn_IgnoreTimeZoneInScheduleAssistant
+
+|Property|Value|
+|---|---|
+|Description|**Time Zone Agnosticism applies only to single requirement in Schedule Assistant.**|
+|DisplayName|**Ignore Time Zone in Schedule Assistant**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_ignoretimezoneinscheduleassistant`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_bookingsetupmetadata_msdyn_ignoretimezoneinscheduleassistant`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_RequirementRelationshipLogicalName"></a> msdyn_RequirementRelationshipLogicalName
 

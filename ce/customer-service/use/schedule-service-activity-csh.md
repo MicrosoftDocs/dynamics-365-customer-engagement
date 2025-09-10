@@ -1,8 +1,8 @@
 ---
 title: Schedule a service activity in Service Scheduling for Dynamics 365 Customer Service
 description: Learn how to schedule a service activity in service scheduling in Dynamics 365 Customer Service.
-ms.date: 09/09/2024
-ms.topic: article
+ms.date: 05/20/2025
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -27,8 +27,19 @@ Make sure that you have the required security role or equivalent permissions.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage security roles in service scheduling](../administer/manage-security-roles.md)
 
-1. In the Customer Service Hub sitemap, go to **Scheduling**.
-2. From the list of entity records, select **Scheduling > Service Activity**.
+You can create a service in the Copilot Service workspace or Customer Service Hub app.
+
+1. Go to one of the apps, and perform the following steps.
+
+   ### [Copilot Service workspace](#tab/copilotserviceworkspace)
+
+   1. In the Copilot Service workspace sitemap, select **Service Activities** in **Service**. 
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+   1. In the Customer Service Hub sitemap, go to **Scheduling**.
+   2. From the list of entity records, select **Scheduling > Service Activities**.
+
    - The **My Service Activities** view is displayed. You can switch between various system views using the drop-down menu.
    - Select any existing service activity to learn about other options in the command bar.
 

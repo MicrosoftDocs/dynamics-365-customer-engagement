@@ -2,7 +2,7 @@
 title: "Cache-specific configuration for agents | MicrosoftDocs"
 description: "Learn about cache-specific configuration, how it works, and how you can enable the option in Unified Service Desk."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

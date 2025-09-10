@@ -78,6 +78,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_objecttype](#BKMK_msdyn_objecttype)
 - [msdyn_objecttypecode](#BKMK_msdyn_objecttypecode)
 - [msdyn_segmentId](#BKMK_msdyn_segmentId)
+- [msdyn_segmenttype](#BKMK_msdyn_segmenttype)
 - [msdyn_sequence](#BKMK_msdyn_sequence)
 - [msdyn_triggertype](#BKMK_msdyn_triggertype)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -268,6 +269,27 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_segmentid`|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+### <a name="BKMK_msdyn_segmenttype"></a> msdyn_segmenttype
+
+|Property|Value|
+|---|---|
+|Description|**Defines the type of segment**|
+|DisplayName|**Segment Type**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_segmenttype`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|1|
+|GlobalChoiceName|`msdyn_segment_msdyn_segmenttype`|
+
+#### msdyn_segmenttype Choices/Options
+
+|Value|Label|
+|---|---|
+|1|**WorkAssignment**|
+|2|**Agent**|
 
 ### <a name="BKMK_msdyn_sequence"></a> msdyn_sequence
 

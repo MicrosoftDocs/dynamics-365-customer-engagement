@@ -69,9 +69,12 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
 - [msdyn_AllowedPresences](#BKMK_msdyn_AllowedPresences)
+- [msdyn_alwaysassigntolastagent](#BKMK_msdyn_alwaysassigntolastagent)
 - [msdyn_AssignWorkItemAfterDecline](#BKMK_msdyn_AssignWorkItemAfterDecline)
 - [msdyn_AutoCloseAfterInactivity](#BKMK_msdyn_AutoCloseAfterInactivity)
+- [msdyn_blockcapacityforconsult](#BKMK_msdyn_blockcapacityforconsult)
 - [msdyn_blockcapacityforwrapup](#BKMK_msdyn_blockcapacityforwrapup)
+- [msdyn_blockcapacityforwrapupinseconds](#BKMK_msdyn_blockcapacityforwrapupinseconds)
 - [msdyn_bot_queue](#BKMK_msdyn_bot_queue)
 - [msdyn_bot_rule](#BKMK_msdyn_bot_rule)
 - [msdyn_bot_user](#BKMK_msdyn_bot_user)
@@ -81,6 +84,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_CustomerDisconnectHoldDurationForOpenConversation](#BKMK_msdyn_CustomerDisconnectHoldDurationForOpenConversation)
 - [msdyn_defaultqueue](#BKMK_msdyn_defaultqueue)
 - [msdyn_direction](#BKMK_msdyn_direction)
+- [msdyn_durationtoqualifyforlastagent](#BKMK_msdyn_durationtoqualifyforlastagent)
 - [msdyn_enableagentaffinity](#BKMK_msdyn_enableagentaffinity)
 - [msdyn_enableautomatedmessages](#BKMK_msdyn_enableautomatedmessages)
 - [msdyn_enableselectingfrompushbasedworkstreams](#BKMK_msdyn_enableselectingfrompushbasedworkstreams)
@@ -90,6 +94,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_handlingtimethreshold](#BKMK_msdyn_handlingtimethreshold)
 - [msdyn_intentfamilyid](#BKMK_msdyn_intentfamilyid)
 - [msdyn_intentfeatureenabled](#BKMK_msdyn_intentfeatureenabled)
+- [msdyn_isconversationcounterenabled](#BKMK_msdyn_isconversationcounterenabled)
 - [msdyn_isdefault](#BKMK_msdyn_isdefault)
 - [msdyn_isICDEnabled](#BKMK_msdyn_isICDEnabled)
 - [msdyn_liveworkstreamId](#BKMK_msdyn_liveworkstreamId)
@@ -99,10 +104,13 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_mode](#BKMK_msdyn_mode)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_Notification](#BKMK_msdyn_Notification)
+- [msdyn_notificationtemplate_agent_dial](#BKMK_msdyn_notificationtemplate_agent_dial)
 - [msdyn_notificationtemplate_incoming_auth](#BKMK_msdyn_notificationtemplate_incoming_auth)
+- [msdyn_notificationtemplate_pre_dial](#BKMK_msdyn_notificationtemplate_pre_dial)
 - [msdyn_outboundqueueid](#BKMK_msdyn_outboundqueueid)
 - [msdyn_recordidentificationrule](#BKMK_msdyn_recordidentificationrule)
 - [msdyn_RecordIdentificationValidationRule](#BKMK_msdyn_RecordIdentificationValidationRule)
+- [msdyn_requiredispositioncodeforworkstreamconversations](#BKMK_msdyn_requiredispositioncodeforworkstreamconversations)
 - [msdyn_restrictdownloadrecording](#BKMK_msdyn_restrictdownloadrecording)
 - [msdyn_restrictdownloadtranscript](#BKMK_msdyn_restrictdownloadtranscript)
 - [msdyn_routingcontractid](#BKMK_msdyn_routingcontractid)
@@ -110,6 +118,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_Screenpoptimeout_optionSet](#BKMK_msdyn_Screenpoptimeout_optionSet)
 - [msdyn_sessiontemplate_default](#BKMK_msdyn_sessiontemplate_default)
 - [msdyn_streamsource](#BKMK_msdyn_streamsource)
+- [msdyn_useglobalsettingsforrequiringdispositioncode](#BKMK_msdyn_useglobalsettingsforrequiringdispositioncode)
 - [msdyn_waitingtimethreshold](#BKMK_msdyn_waitingtimethreshold)
 - [msdyn_workdistributionmode](#BKMK_msdyn_workdistributionmode)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -170,6 +179,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192360003|**Away**|
 |192360004|**Offline**|
 
+### <a name="BKMK_msdyn_alwaysassigntolastagent"></a> msdyn_alwaysassigntolastagent
+
+|Property|Value|
+|---|---|
+|Description|**Always assign to last agent**|
+|DisplayName|**Always assign to last agent**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_alwaysassigntolastagent`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_liveworkstream_msdyn_alwaysassigntolastagent`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_AssignWorkItemAfterDecline"></a> msdyn_AssignWorkItemAfterDecline
 
 |Property|Value|
@@ -198,6 +223,27 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MaxValue|2147483647|
 |MinValue|0|
 
+### <a name="BKMK_msdyn_blockcapacityforconsult"></a> msdyn_blockcapacityforconsult
+
+|Property|Value|
+|---|---|
+|Description|**Block Capacity for Consult**|
+|DisplayName|**Block Capacity for Consult**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_blockcapacityforconsult`|
+|RequiredLevel|None|
+|Type|MultiSelectPicklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_msdyn_liveworkstream_msdyn_blockcapacityforconsult`|
+
+#### msdyn_blockcapacityforconsult Choices/Options
+
+|Value|Label|
+|---|---|
+|192350001|**Chat consult**|
+|192350002|**Voice consult**|
+
 ### <a name="BKMK_msdyn_blockcapacityforwrapup"></a> msdyn_blockcapacityforwrapup
 
 |Property|Value|
@@ -207,6 +253,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_blockcapacityforwrapup`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|43200|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_blockcapacityforwrapupinseconds"></a> msdyn_blockcapacityforwrapupinseconds
+
+|Property|Value|
+|---|---|
+|Description|**Time for which the agent's capacity is blocked for wrap up state in seconds. After this amount of time the agent's capacity will be released.**|
+|DisplayName|**Block capacity for wrap up state in seconds**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_blockcapacityforwrapupinseconds`|
 |RequiredLevel|None|
 |Type|Integer|
 |MaxValue|43200|
@@ -352,6 +412,21 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |1|**Outbound**|
 |2|**Direct Inbound**|
 |3|**Direct Outbound**|
+|4|**ProactiveOutbound**|
+
+### <a name="BKMK_msdyn_durationtoqualifyforlastagent"></a> msdyn_durationtoqualifyforlastagent
+
+|Property|Value|
+|---|---|
+|Description|**Duration after last conversation to qualify as last agent**|
+|DisplayName|**Duration after last conversation to qualify as last agent**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_durationtoqualifyforlastagent`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
 
 ### <a name="BKMK_msdyn_enableagentaffinity"></a> msdyn_enableagentaffinity
 
@@ -484,6 +559,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_msdyn_liveworkstream_msdyn_intentfeatureenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_isconversationcounterenabled"></a> msdyn_isconversationcounterenabled
+
+|Property|Value|
+|---|---|
+|Description|**Is Live conversation counter enabled for workstream**|
+|DisplayName|**Is Live conversation counter enabled for workstream**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isconversationcounterenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_msdyn_liveworkstream_msdyn_isconversationcounterenabled`|
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
@@ -640,6 +731,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |100000001|**Screen pop with timeout**|
 |100000002|**Screen pop with decline**|
 
+### <a name="BKMK_msdyn_notificationtemplate_agent_dial"></a> msdyn_notificationtemplate_agent_dial
+
+|Property|Value|
+|---|---|
+|Description|**Outbound agent dial template scenario**|
+|DisplayName|**Outbound Agent Dial**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_notificationtemplate_agent_dial`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|200|
+
 ### <a name="BKMK_msdyn_notificationtemplate_incoming_auth"></a> msdyn_notificationtemplate_incoming_auth
 
 |Property|Value|
@@ -649,6 +757,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_notificationtemplate_incoming_auth`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|200|
+
+### <a name="BKMK_msdyn_notificationtemplate_pre_dial"></a> msdyn_notificationtemplate_pre_dial
+
+|Property|Value|
+|---|---|
+|Description|**Outbound agent pre dial template scenario**|
+|DisplayName|**Outbound Agent Pre Dial**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_notificationtemplate_pre_dial`|
 |RequiredLevel|None|
 |Type|String|
 |Format|Text|
@@ -703,6 +828,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Disabled|
 |IsLocalizable|False|
 |MaxLength|1048576|
+
+### <a name="BKMK_msdyn_requiredispositioncodeforworkstreamconversations"></a> msdyn_requiredispositioncodeforworkstreamconversations
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Requires disposition codes to close conversations for workstream**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_requiredispositioncodeforworkstreamconversations`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_msdyn_liveworkstream_msdyn_requiredispositioncodeforworkstreamconversations`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_restrictdownloadrecording"></a> msdyn_restrictdownloadrecording
 
@@ -828,6 +969,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Value|Label|
 |---|---|
 |192350000|**Entity Records**|
+
+### <a name="BKMK_msdyn_useglobalsettingsforrequiringdispositioncode"></a> msdyn_useglobalsettingsforrequiringdispositioncode
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Use global settings for requiring disposition code**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_useglobalsettingsforrequiringdispositioncode`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_msdyn_liveworkstream_msdyn_useglobalsettingsforrequiringdispositioncode`|
+|DefaultValue|True|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_waitingtimethreshold"></a> msdyn_waitingtimethreshold
 
@@ -1578,6 +1735,8 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_msdyn_liveworkstream_msdyn_ocliveworkstreamcontextvariable_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_ocliveworkstreamcontextvariable_liveworkstreamid)
 - [msdyn_msdyn_liveworkstream_msdyn_unifiedroutingrun_workstream](#BKMK_msdyn_msdyn_liveworkstream_msdyn_unifiedroutingrun_workstream)
 - [msdyn_msdyn_liveworkstream_msdyn_urnotificationtemplatemapping_workstream](#BKMK_msdyn_msdyn_liveworkstream_msdyn_urnotificationtemplatemapping_workstream)
+- [msdyn_msdyn_liveworkstream_msdyn_workstream_bot](#BKMK_msdyn_msdyn_liveworkstream_msdyn_workstream_bot)
+- [msdyn_workstream_liveconversationcountercond](#BKMK_msdyn_workstream_liveconversationcountercond)
 
 ### <a name="BKMK_msdyn_liveworkstream_AsyncOperations"></a> msdyn_liveworkstream_AsyncOperations
 
@@ -1783,6 +1942,30 @@ Many-To-One Relationship: [msdyn_urnotificationtemplatemapping msdyn_msdyn_livew
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_workstream_bot"></a> msdyn_msdyn_liveworkstream_msdyn_workstream_bot
+
+Many-To-One Relationship: [msdyn_workstream_bot_mapping msdyn_msdyn_liveworkstream_msdyn_workstream_bot](msdyn_workstream_bot_mapping.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_workstream_bot)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_workstream_bot_mapping`|
+|ReferencingAttribute|`msdyn_workstreamid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_liveworkstream_msdyn_workstream_bot`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_workstream_liveconversationcountercond"></a> msdyn_workstream_liveconversationcountercond
+
+Many-To-One Relationship: [msdyn_liveconversationcountercondition msdyn_workstream_liveconversationcountercond](msdyn_liveconversationcountercondition.md#BKMK_msdyn_workstream_liveconversationcountercond)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_liveconversationcountercondition`|
+|ReferencingAttribute|`msdyn_workstreamid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_workstream_liveconversationcountercond`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 
 ## Many-to-Many relationships
 
@@ -1791,6 +1974,7 @@ These relationships are many-to-many. Listed by **SchemaName**.
 - [msdyn_msdyn_cannedmessage_liveworkstream](#BKMK_msdyn_msdyn_cannedmessage_liveworkstream)
 - [msdyn_msdyn_liveworkstream_systemuser](#BKMK_msdyn_msdyn_liveworkstream_systemuser)
 - [msdyn_msdyn_ocrichobject_liveworkstream](#BKMK_msdyn_msdyn_ocrichobject_liveworkstream)
+- [msdyn_ocdispositioncode_liveworkstream_msdyn_liveworkstream](#BKMK_msdyn_ocdispositioncode_liveworkstream_msdyn_liveworkstream)
 
 ### <a name="BKMK_msdyn_msdyn_cannedmessage_liveworkstream"></a> msdyn_msdyn_cannedmessage_liveworkstream
 
@@ -1830,6 +2014,19 @@ See [msdyn_ocrichobject msdyn_msdyn_ocrichobject_liveworkstream Many-To-Many Rel
 |IntersectAttribute|`msdyn_liveworkstreamid`|
 |NavigationPropertyName|`msdyn_msdyn_ocrichobject_liveworkstream`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocdispositioncode_liveworkstream_msdyn_liveworkstream"></a> msdyn_ocdispositioncode_liveworkstream_msdyn_liveworkstream
+
+See [msdyn_ocdispositioncode msdyn_ocdispositioncode_liveworkstream_msdyn_liveworkstream Many-To-Many Relationship](msdyn_ocdispositioncode.md#BKMK_msdyn_ocdispositioncode_liveworkstream_msdyn_liveworkstream)
+
+|Property|Value|
+|---|---|
+|IntersectEntityName|`msdyn_ocdispositioncode_msdyn_liveworkstream`|
+|IsCustomizable|True|
+|SchemaName|`msdyn_ocdispositioncode_liveworkstream_msdyn_liveworkstream`|
+|IntersectAttribute|`msdyn_liveworkstreamid`|
+|NavigationPropertyName|`msdyn_ocdispositioncode_liveworkstream_msdyn_liveworkstream`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 

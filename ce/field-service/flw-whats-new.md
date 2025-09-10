@@ -1,8 +1,8 @@
 ---
 title: What's new in Microsoft 365 integrations for Field Service
 description: Learn what's new in the Dynamics 365 Field Service integrations with Microsoft Outlook, Teams, and Viva Connections.
-ms.date: 05/01/2024
-ms.topic: conceptual
+ms.date: 08/29/2025
+ms.topic: whats-new
 author: jasonxian-msft
 ms.author: jasonxian
 ms.reviewer: mhart
@@ -11,6 +11,8 @@ ms.subservice: m365-integrations
 ---
 
 # What's new in Microsoft 365 integrations for Field Service
+
+[!INCLUDE [m365-fs-deprecate](../includes/microsoft365-field-service-deprecation.md)]
 
 See [supported geographies, regions, and languages](flw-overview.md#supported-geographies-regions-and-languages).
 

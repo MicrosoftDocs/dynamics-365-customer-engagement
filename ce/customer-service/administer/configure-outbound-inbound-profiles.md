@@ -1,7 +1,7 @@
 ---
 title: Configure outbound and inbound profiles
-description: Configure outbound and inbound profiles with various settings, such as caller ID, language, and wait music for the voice channel.
-ms.date: 12/16/2024
+description: Configure outbound and inbound profiles with various settings, such as caller ID, language, and wait music for the voice channel in Dynamics 365 Contact Center.
+ms.date: 08/14/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -19,20 +19,20 @@ ms.custom: bap-template
 
 Use the information in this article to create profiles that are used for direct inward dialing to specific customer service representatives (service representatives or representatives) and outbound calling. These profiles help you configure settings, such as language, wait music, and transcription settings for these calls. The profiles that you create are listed on the **Outbound and inbound profiles** page. The **Profile type** column helps distinguish the profiles.
 
-Inbound profiles enable direct inward dialing to individual service representatives, and they differ from workstreams that are used to define how inbound calls are routed and assigned to service representatives via queues. Direct inward dialing doesn't use unified routing and therefore the direct calls to service representatives aren't tracked in unified routing historical analytics.
+Inbound profiles enable direct inward dialing to individual service representatives, and they differ from workstreams that are used to define how inbound calls are routed and assigned to representatives via queues. Direct inward dialing doesn't use unified routing and therefore the direct calls to representatives aren't tracked in unified routing historical analytics.
 
 ## Prerequisites
 
 Make sure that the following prerequisites are in place:
 
-- To create inbound profiles, you have configured and enabled a geographic type of personal number to receive calls and assigned to the representative via the **Omnichannel** tab in user settings. More information: [Manage phone numbers](voice-channel-manage-phone-numbers.md)
+- To create inbound profiles, you have configured and enabled a geographic type of personal number and assigned to the representative via the **Omnichannel** tab in user settings. More information: [Manage phone numbers](voice-channel-manage-phone-numbers.md)
 - To create outbound profiles, you have configured and enabled shared or geographic type numbers for outbound calls. In your calling plan for the number, the **Make calls** checkbox is selected.
 - You have configured [capacity profiles](capacity-profiles.md).
 - You have configured [voice queues](voice-channel-inbound-calling.md#create-a-queue-for-the-voice-channel).
 
 ## Create inbound profiles
 
-1. In the Customer Service admin center or Contact Center admin center site map, select **Productivity** in **Agent experience**.
+1. In the Copilot Service admin center site map, select **Productivity** in **Support experience**.
 
 1. On the **Productivity** page, select **Manage** for **Outbound and inbound profiles**.
 
@@ -49,7 +49,7 @@ Make sure that the following prerequisites are in place:
    - **Language**: Accept the default language as **English - United States** or select a language from the list.
    - **Hold music**: Select a music file to play when the call is on hold.
    - **Wait music**: Select a music file to play when the call is in waiting.
-   - **Call transfer to external phone number**: Set the toggle to **On** if you want the representative to transfer the call to a phone number outside of your organization.
+   - **Call transfer to external phone number**: Turn **On** the toggle if you want the representative to transfer the call to a phone number outside of your organization. You must enable this setting to use call forwarding for inbound profiles.
    - **Consult with Microsoft Teams user**: Set the toggle to **On** if you want the representative to consult or transfer the voice calls to subject matter experts on Microsoft Teams.
    - **Transcription and recording**: Select whether you want to transcript the call and record it. Select **None** if you don't want to.
      - **Start setting**: Is enabled when you select transcript or transcription and recording. Set to **Automatic** if the call recording and transcription needs to start immediately.
@@ -72,15 +72,15 @@ You can define how representatives use the outbound calls and which representati
 
 1. In **Outbound info**, do the following:
    
-    - **Number label**: Enter a label to denote the business context, like Billing, that's displayed with the phone number at the representative end when they call a customer. This value is automatically populated with the phone name string on the agent dialer that the representative can edit.
+    - **Number label**: Enter a label to denote the business context, like Billing, that's displayed with the phone number at the representative end when they call a customer. This value is automatically populated with the phone name string on the dialer that the representative can edit.
 
       > [!NOTE]
-      > This label is used in the agent dialer only, and isn't a caller name delivery (CNAM) label that can be displayed to customers, as CNAM isn't supported.
+      > This label is used in the dialer only, and isn't a caller name delivery (CNAM) label that can be displayed to customers, as CNAM isn't supported.
 
     - **Queue**: Select a queue from the dropdown list.
     - **Capacity**: Select one or more capacity profiles from the dropdown list.
     - **Caller ID number**: Select a number from the list. The **(Profile Number)** label against the number indicates that the caller ID displays the same number as the profile number. It's also the default setting.<br>
-      If you select a caller ID that's different from the profile number, make sure the number has an outbound profile so that agent settings are created.
+      If you select a caller ID that's different from the profile number, make sure the number has an outbound profile so that representative settings are created.
 1. In **Outbound behaviors**, do the following: 
     - **Allow list for countries/regions**: Select the countries or regions whose numbers your representatives can call. If representatives have multiple outbound profiles, they'll see a list of countries or regions that are selected in all profiles.
       > [!NOTE]
@@ -104,7 +104,7 @@ The default profiles are available out of the box if you use the first-run exper
 - The default profiles are used as fallback profiles when representatives aren't assigned a profile.
 - You can edit the behavior and templates only but not the profile type for the default profiles.
 - The locale settings for the default profiles should be same. The locale settings can be edited in one of the default profiles only and the setting will be applicable to both the default profiles.
-- The phone number column for the default inbound profile is "undefined" because it's used as a default for all calls to service representatives phone numbers. When a customer calls, if no other inbound profile exists, the default profile is used to route the call to the service representative whose phone number is enabled for inbound calling and their capacity matches the capacity profile that's set for the default profile.
+- The phone number column for the default inbound profile is "undefined" because it's used as a default for all calls to service representatives phone numbers. When a customer calls, if no other inbound profile exists, the default profile is used to route the call to the representative whose phone number is enabled for inbound calling and their capacity matches the capacity profile that's set for the default profile.
 
 ### Edit profiles
 

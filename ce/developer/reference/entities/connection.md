@@ -64,26 +64,26 @@ Changes from [Record1ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer
 |9700|**Entitlement**|
 |9701|**Entitlement Channel**|
 |9703|**Entitlement Template Channel**|
-|10406|**Customer Asset**|
-|10428|**IoT Alert**|
-|10429|**IoT Device**|
-|10430|**IoT Device Category**|
-|10431|**IoT Device Command**|
-|10435|**IoT Device Registration History**|
-|10623|**Profile Album**|
-|10628|**Customer Voice alert**|
-|10638|**Customer Voice survey invite**|
-|10640|**Customer Voice survey response**|
-|10714|**Ongoing conversation (Deprecated)**|
-|10726|**Conversation**|
-|10743|**Session**|
-|10853|**Sequence**|
-|10855|**Sequence Target**|
-|10867|**Assignment Rule**|
-|10870|**Assignment Map**|
-|10877|**Insight**|
-|10886|**Suggestion Principal Object Access**|
-|10931|**Copilot Transcript**|
+|10456|**Customer Asset**|
+|10478|**IoT Alert**|
+|10479|**IoT Device**|
+|10480|**IoT Device Category**|
+|10481|**IoT Device Command**|
+|10485|**IoT Device Registration History**|
+|10684|**Profile Album**|
+|10689|**Customer Voice alert**|
+|10699|**Customer Voice survey invite**|
+|10701|**Customer Voice survey response**|
+|10786|**Ongoing conversation (Deprecated)**|
+|10798|**Conversation**|
+|10815|**Session**|
+|10939|**Sequence**|
+|10941|**Sequence Target**|
+|10953|**Assignment Rule**|
+|10956|**Assignment Map**|
+|10963|**Insight**|
+|10972|**Suggestion Principal Object Access**|
+|11037|**Copilot Transcript**|
 
 ### <a name="BKMK_Record2Id"></a> Record2Id
 
@@ -123,26 +123,26 @@ Changes from [Record2ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer
 |9700|**Entitlement**|
 |9701|**Entitlement Channel**|
 |9703|**Entitlement Template Channel**|
-|10406|**Customer Asset**|
-|10428|**IoT Alert**|
-|10429|**IoT Device**|
-|10430|**IoT Device Category**|
-|10431|**IoT Device Command**|
-|10435|**IoT Device Registration History**|
-|10623|**Profile Album**|
-|10628|**Customer Voice alert**|
-|10638|**Customer Voice survey invite**|
-|10640|**Customer Voice survey response**|
-|10714|**Ongoing conversation (Deprecated)**|
-|10726|**Conversation**|
-|10743|**Session**|
-|10853|**Sequence**|
-|10855|**Sequence Target**|
-|10867|**Assignment Rule**|
-|10870|**Assignment Map**|
-|10877|**Insight**|
-|10886|**Suggestion Principal Object Access**|
-|10931|**Copilot Transcript**|
+|10456|**Customer Asset**|
+|10478|**IoT Alert**|
+|10479|**IoT Device**|
+|10480|**IoT Device Category**|
+|10481|**IoT Device Command**|
+|10485|**IoT Device Registration History**|
+|10684|**Profile Album**|
+|10689|**Customer Voice alert**|
+|10699|**Customer Voice survey invite**|
+|10701|**Customer Voice survey response**|
+|10786|**Ongoing conversation (Deprecated)**|
+|10798|**Conversation**|
+|10815|**Session**|
+|10939|**Sequence**|
+|10941|**Sequence Target**|
+|10953|**Assignment Rule**|
+|10956|**Assignment Map**|
+|10963|**Insight**|
+|10972|**Suggestion Principal Object Access**|
+|11037|**Copilot Transcript**|
 
 ## Many-to-One relationships
 

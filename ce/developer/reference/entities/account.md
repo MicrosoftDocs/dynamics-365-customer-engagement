@@ -437,7 +437,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_account_msdyn_salesroutingrun_targetobject](#BKMK_msdyn_account_msdyn_salesroutingrun_targetobject)
 - [msdyn_account_msdyn_warranty_WarrantyHolder](#BKMK_msdyn_account_msdyn_warranty_WarrantyHolder)
 - [msdyn_account_msdyn_warranty_WarrantyProvider](#BKMK_msdyn_account_msdyn_warranty_WarrantyProvider)
-- [msdyn_msdyn_conversationparticipantinsights_account_msdyn_User](#BKMK_msdyn_msdyn_conversationparticipantinsights_account_msdyn_User)
+- [msdyn_msdyn_lastagent_account_msdyn_recordId](#BKMK_msdyn_msdyn_lastagent_account_msdyn_recordId)
 - [msdyn_msdyn_preferredagent_account_msdyn_recordId](#BKMK_msdyn_msdyn_preferredagent_account_msdyn_recordId)
 - [msdyn_msdyn_salescopilotinsight_account_msdyn_targetentityid](#BKMK_msdyn_msdyn_salescopilotinsight_account_msdyn_targetentityid)
 - [msdyn_sabackupdiagnostic_account_msdyn_target](#BKMK_msdyn_sabackupdiagnostic_account_msdyn_target)
@@ -445,6 +445,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_salesroutingdiagnostic_account_msdyn_target](#BKMK_msdyn_salesroutingdiagnostic_account_msdyn_target)
 - [msdyn_salessuggestion_account](#BKMK_msdyn_salessuggestion_account)
 - [msdyn_sequencetarget_account_msdyn_target](#BKMK_msdyn_sequencetarget_account_msdyn_target)
+- [msdyn_stakeholderresearchoutput_Account_account](#BKMK_msdyn_stakeholderresearchoutput_Account_account)
 - [msdyn_swarm_account](#BKMK_msdyn_swarm_account)
 - [opportunity_customer_accounts](#BKMK_opportunity_customer_accounts)
 - [opportunity_parent_account](#BKMK_opportunity_parent_account)
@@ -774,7 +775,7 @@ Many-To-One Relationship: [msdyn_dailyaccountkpiitem msdyn_account_dailyaccountk
 |ReferencingAttribute|`msdyn_entityid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_account_dailyaccountkpiitem_entityid`|
 |IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_account_msdyn_accountkpiitem_accountid"></a> msdyn_account_msdyn_accountkpiitem_accountid
 
@@ -896,17 +897,17 @@ Many-To-One Relationship: [msdyn_warranty msdyn_account_msdyn_warranty_WarrantyP
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: Warranties Provided<br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_msdyn_msdyn_conversationparticipantinsights_account_msdyn_User"></a> msdyn_msdyn_conversationparticipantinsights_account_msdyn_User
+### <a name="BKMK_msdyn_msdyn_lastagent_account_msdyn_recordId"></a> msdyn_msdyn_lastagent_account_msdyn_recordId
 
-Many-To-One Relationship: [msdyn_conversationparticipantinsights msdyn_msdyn_conversationparticipantinsights_account_msdyn_User](msdyn_conversationparticipantinsights.md#BKMK_msdyn_msdyn_conversationparticipantinsights_account_msdyn_User)
+Many-To-One Relationship: [msdyn_lastagent msdyn_msdyn_lastagent_account_msdyn_recordId](msdyn_lastagent.md#BKMK_msdyn_msdyn_lastagent_account_msdyn_recordId)
 
 |Property|Value|
 |---|---|
-|ReferencingEntity|`msdyn_conversationparticipantinsights`|
-|ReferencingAttribute|`msdyn_user`|
-|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_conversationparticipantinsights_account_msdyn_user`|
+|ReferencingEntity|`msdyn_lastagent`|
+|ReferencingAttribute|`msdyn_recordid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_lastagent_account_msdyn_recordId`|
 |IsCustomizable|`False`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_preferredagent_account_msdyn_recordId"></a> msdyn_msdyn_preferredagent_account_msdyn_recordId
 
@@ -991,6 +992,18 @@ Many-To-One Relationship: [msdyn_sequencetarget msdyn_sequencetarget_account_msd
 |ReferencedEntityNavigationPropertyName|`msdyn_sequencetarget_account_msdyn_target`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_stakeholderresearchoutput_Account_account"></a> msdyn_stakeholderresearchoutput_Account_account
+
+Many-To-One Relationship: [msdyn_stakeholderresearchoutput msdyn_stakeholderresearchoutput_Account_account](msdyn_stakeholderresearchoutput.md#BKMK_msdyn_stakeholderresearchoutput_Account_account)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_stakeholderresearchoutput`|
+|ReferencingAttribute|`msdyn_account`|
+|ReferencedEntityNavigationPropertyName|`msdyn_stakeholderresearchoutput_Account_account`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_swarm_account"></a> msdyn_swarm_account
 

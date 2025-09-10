@@ -165,7 +165,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Lookup to intent entity record associated with this c2 interaction**|
-|DisplayName|**intent_entityid**|
+|DisplayName|**intent\_entityid**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_intent_entityid`|
@@ -178,7 +178,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Unique identifier for entity instances**|
-|DisplayName|**intentattribute_entity**|
+|DisplayName|**intentattribute\_entity**|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`msdyn_intentattribute_entityid`|
@@ -320,7 +320,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Status of the intentattribute_entity**|
+|Description|**Status of the intentattribute\_entity**|
 |DisplayName|**Status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -341,7 +341,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Reason for the status of the intentattribute_entity**|
+|Description|**Reason for the status of the intentattribute\_entity**|
 |DisplayName|**Status Reason**|
 |IsValidForForm|True|
 |IsValidForRead|True|

@@ -1,8 +1,9 @@
 ---
 title: View smart assist suggestions for knowledge articles and similar cases using AI
 description: View smart assist suggestions for knowledge articles and similar cases using AI.
-ms.date: 01/27/2025
-ms.topic: article
+ms.date: 05/29/2025
+ms.update-cycle: 180-days
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

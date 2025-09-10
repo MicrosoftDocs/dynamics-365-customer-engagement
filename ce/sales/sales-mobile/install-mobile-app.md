@@ -2,7 +2,7 @@
 title: Install the Dynamics 365 Sales mobile app on iOS and Android
 description: Instructions to install the Dynamics 365 Sales mobile app on iOS and Android
 ms.date: 06/13/2024
-ms.topic: article
+ms.topic: install-set-up-deploy
 author: sbmjais
 ms.author: shjais
 ms.reviewer: shjais 

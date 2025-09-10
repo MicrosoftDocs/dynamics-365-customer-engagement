@@ -3,18 +3,21 @@ title: Set up frontline workers in your organization
 description: Learn how to set up frontline workers through the Dynamics 365 Field Service get started page.
 ms.author: jacoh
 author: jasonccohen
-ms.date: 07/09/2024
+ms.date: 07/28/2025
 ms.topic: how-to
 ms.custom: bap-template
 ---
 
 # Set up frontline workers in your organization
 
-Frontline workers in Dynamics 365 Field Service are people in your organization who are primarily scheduled for onsite jobs and who use the Dynamics 365 Field Service mobile app for their work. Set up frontline workers to ensure they can immediately engage on work order. Technically, frontline workers are a *bookable resource* record in Field Service.
+Frontline workers in Dynamics 365 Field Service are people in your organization who are primarily scheduled for onsite jobs and who use the Dynamics 365 Field Service mobile app for their work. Set up frontline workers to ensure they can immediately engage on work orders. Technically, frontline workers are a *bookable resource* record in Field Service.
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=78a4ad09-8320-4895-a69f-100cbf46ac14]
 
 On the [**Get started** page](field-service-get-started.md), admins can use a single form to set up frontline workers in their organizations to quickly get up and running.
+
+> [!TIP]
+> If you have a trial version, set up your frontline workers and your other bookable resources using the steps in [Set up bookable resources](set-up-bookable-resources.md).
 
 ## Prerequisites
 
@@ -25,7 +28,7 @@ On the [**Get started** page](field-service-get-started.md), admins can use a si
 
 1. In Field Service, change to the **Service** area and go to **Get started**.
 
-1. In the **Set up your frontline workers** section, select **Set Up**.
+1. In the **Set up your users** section, select **Set Up**.
 
 1. In the **Quick Set Up: Frontline Workers** form fill in the following details:
 
@@ -33,9 +36,9 @@ On the [**Get started** page](field-service-get-started.md), admins can use a si
    - **Characteristics**: Choose [skills and qualifications](set-up-characteristics.md) for your frontline workers.
    - **Territories**: Choose which [territories](set-up-territories.md) your frontline workers belong to.
    - **Time Zone**: Select the default time zone for the frontline workers.
-   - **Security Role** choose the [security role](/power-platform/admin/security-roles-privileges) for your frontline workers. You can add multiple security roles, including custom security roles.
-   - **Field Security Profile** choose the [column-level security profile to control access](/power-platform/admin/field-level-security) for your frontline workers. You can add multiple field security profiles, including custom field security profiles.
-   - **Mobile Offline Profile** sets the [default mobile offline profile](mobile/best-practices-limitations-offline-profile.md) your frontline workers. Only published mobile offline profiles show in the list.
+   - **Security Role**: Choose the [security role](/power-platform/admin/security-roles-privileges) for your frontline workers. You can add multiple security roles, including custom security roles.
+   - **Field Security Profile**: Choose the [column-level security profile to control access](/power-platform/admin/field-level-security) for your frontline workers. You can add multiple field security profiles, including custom field security profiles.
+   - **Mobile Offline Profile**: Set the [default mobile offline profile](mobile/best-practices-limitations-offline-profile.md) for your frontline workers. Only published mobile offline profiles show in the list.
 
 1. Select the checkbox to send an email to newly created frontline workers with a link to download the mobile app. If you can't send an email to frontline workers, get your email address approved by your admin. For more information, see [Add and approve email addresses](frontline-worker-set-up-email-approval.md).
 
@@ -45,7 +48,7 @@ On the [**Get started** page](field-service-get-started.md), admins can use a si
 
 Frontline workers are stored in the *bookable resource* table. You can view and update the details for each resource.
 
-1. In Field Service, change to the **Resources** ares and go to **Resource** > **Resources**.
+1. In Field Service, change to the **Resources** area and go to **Resource** > **Resources**.
 
 1. View or update the resource properties as needed. For more information, see [Set up bookable resources](set-up-bookable-resources.md).
 

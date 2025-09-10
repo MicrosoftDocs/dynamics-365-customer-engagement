@@ -6,7 +6,7 @@ ms.reviewer: pehecke
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: best-practice
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 42dcebf5-a624-45b9-b719-20e5882d5ca2

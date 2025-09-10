@@ -70,6 +70,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [IsCustomizable](#BKMK_IsCustomizable)
 - [msdyn_conditionsxml](#BKMK_msdyn_conditionsxml)
 - [msdyn_EntityAttributePredictionRuleId](#BKMK_msdyn_EntityAttributePredictionRuleId)
+- [msdyn_IsGlobal](#BKMK_msdyn_IsGlobal)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_order](#BKMK_msdyn_order)
 - [msdyn_predictedfields](#BKMK_msdyn_predictedfields)
@@ -136,6 +137,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_entityattributepredictionruleid`|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+### <a name="BKMK_msdyn_IsGlobal"></a> msdyn_IsGlobal
+
+|Property|Value|
+|---|---|
+|Description|**If true the rule is a global rule.  The oldest global rule with the smallest order will be used for create and merged with a non-global rule for update.**|
+|DisplayName|**Is Global**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isglobal`|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_entityattributepredictionrule_msdyn_isglobal`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 

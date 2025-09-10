@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 03/27/2025
+ms.date: 08/26/2025
 ms.custom:
   - dyn365-customerservice
   - bap-template
@@ -22,13 +22,13 @@ search.audienceType:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The **Summary** report appears by default when you open the **Omnichannel real-time analytics** dashboard in Customer Service workspace. You can filter this report by time, channels, queue, time zone, conversation status, and skills. For more information, go to [Overview of the real-time Omnichannel analytics dashboard](intro-realtime-analytics-dashboard.md).
+The **Summary** report appears by default when you open the **Omnichannel real-time analytics** dashboard in Copilot Service workspace. You can filter this report by time, channels, queue, time zone, conversation status, and skills. Learn more in [Overview of the real-time Omnichannel analytics dashboard](intro-realtime-analytics-dashboard.md).
 
-The **Summary** report provides a summary of customer conversations over time, by channel or queue. Statistics about the channel that a conversation came in through can help you analyze and manage queue distribution. For example, a high rate of abandoned conversations can lead to decreased customer satisfaction. To address the rate of abandoned conversations, you can examine operational metrics such as customer service representative (service representative or representative) availability and queue distribution in real time.
+The **Summary** report provides a summary of customer conversations over time, by channel or queue. This report shows all omnichannel type queues, such as messaging, live chat, phone, except entity record type queues. You can view entity record type queues in real-time analytics for record routing reports. Statistics about the channel that a conversation came from can help you analyze and manage queue distribution. For example, a high rate of abandoned conversations can lead to decreased customer satisfaction. To address the rate of abandoned conversations, you can examine operational metrics such as customer service representative (service representative or representative) availability and queue distribution in real time.
 
 Additionally, you can track customer sentiment to analyze whether customers are getting adequate support. For example, a high average handle time might indicate that service representatives are taking more than the required time to resolve customer issues. Depending on the issue, you can provide the required training or support to help service representatives resolve customer issues faster.
 
-By editing the visual display, you can add metrics to the ones that are already shown on the **Summary** report. For more information, go to [Customize visual display](customize-reports.md).
+By editing the visual display, you can add metrics to the ones that are already shown on the **Summary** report. Learn more in [Customize visual display](customize-reports.md).
 
 [Learn more about the metrics that are shown on the Summary report.](oc-metrics-dimensions.md#)
 

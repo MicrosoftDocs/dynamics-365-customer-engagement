@@ -1,13 +1,13 @@
 ---
 title: Extend Universal Resource Scheduling to filter bookable resources by territory hierarchy
 description: Update queries in the schedule board and schedule assistant configuration to use territory hierarchies.
-ms.date: 05/06/2024
+ms.date: 07/28/2025
 searchScope: 
   - Field Service
   - Project Service
-ms.reviewer: mhart
+ms.reviewer: puneet-singh1
 ms.subservice: common-scheduler
-ms.topic: conceptual
+ms.topic: how-to
 author: ryanchen8
 ms.author: chenryan
 ---

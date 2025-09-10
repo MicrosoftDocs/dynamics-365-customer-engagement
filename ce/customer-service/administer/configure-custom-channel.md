@@ -1,7 +1,7 @@
 ---
 title: Configure custom messaging channels 
 description: Learn what a custom channel is and how to configure it or bring your own channel.
-ms.date: 03/03/2025
+ms.date: 04/19/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -36,7 +36,7 @@ Apart from built-in channels like chat and email, your organization can integrat
 
 ## Configure a custom messaging channel
 
-1. In the site map of Contact Center admin center or Customer Service admin center, go to **Customer support**, and then select **Channels**. 
+1. In the site map of Copilot Service admin center, go to **Customer support**, and then select **Channels**. 
 1. In **Accounts**, for **Messaging accounts**, select **Manage**.
 
 1. On the **Accounts and channels** page, select **New account**.

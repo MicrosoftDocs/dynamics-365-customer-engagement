@@ -22,6 +22,10 @@ Location or branch office where an organization does business. An organization c
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [site_msdyn_bookingalerts](#BKMK_site_msdyn_bookingalerts)
+- [site_msdyn_ocoutboundmessages](#BKMK_site_msdyn_ocoutboundmessages)
+- [site_msdyn_ocvoicemails](#BKMK_site_msdyn_ocvoicemails)
+
 ### <a name="BKMK_site_msdyn_bookingalerts"></a> site_msdyn_bookingalerts
 
 Many-To-One Relationship: [msdyn_bookingalert site_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_site_msdyn_bookingalerts)
@@ -31,6 +35,30 @@ Many-To-One Relationship: [msdyn_bookingalert site_msdyn_bookingalerts](msdyn_bo
 |ReferencingEntity|`msdyn_bookingalert`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`site_msdyn_bookingalerts`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_site_msdyn_ocoutboundmessages"></a> site_msdyn_ocoutboundmessages
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage site_msdyn_ocoutboundmessages](msdyn_ocoutboundmessage.md#BKMK_site_msdyn_ocoutboundmessages)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`site_msdyn_ocoutboundmessages`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_site_msdyn_ocvoicemails"></a> site_msdyn_ocvoicemails
+
+Many-To-One Relationship: [msdyn_ocvoicemail site_msdyn_ocvoicemails](msdyn_ocvoicemail.md#BKMK_site_msdyn_ocvoicemails)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`site_msdyn_ocvoicemails`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

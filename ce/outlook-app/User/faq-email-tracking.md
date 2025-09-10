@@ -6,7 +6,7 @@ ms.date: 05/20/2021
 ms.reviewer: smurkute
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: faq
 applies_to: Dynamics 365 apps
 caps.latest.revision: 1
 author: bharavar 

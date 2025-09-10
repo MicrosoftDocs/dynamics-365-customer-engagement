@@ -1,13 +1,15 @@
 ---
 title: Synchronize Microsoft Planner with Field Service (Preview)
 description: Learn how to sync work orders from Field Service with Microsoft Planner.
-ms.date: 11/08/2024
+ms.date: 08/29/2025
 ms.topic: how-to
 ms.author: jacoh
 author: jasonccohen
 ---
 
 # Synchronize Microsoft Planner with Field Service (Preview)
+
+[!INCLUDE [m365-fs-deprecate](../includes/microsoft365-field-service-deprecation.md)]
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
@@ -43,14 +45,18 @@ If your organization uses Microsoft Teams, it's beneficial to [create a new team
 
 1. For **Membership type**, choose **Members and guests**.  
 
-### Step 3: Configure business units in Advanced Settings
+### Step 3: Configure business units in Environment Settings
 
-1. In Field Service, open **Advanced Settings** and go to **Business Units**.
+1. Go to the **Power Platform Environment Settings** app.
+
+1. Under **System**, select **Security (Preview)** > **Business Units**.
+
+1. Select the business unit and then select **Manage business units in Dynamics 365**.
 
 1. Associate the Business Unit with the Dataverse Team: Under the **Frontline Team** field, link the business unit to the Dataverse team created in the previous step.
 
 > [!IMPORTANT]
-> The Frontline Team field is not visible when you manage business units in the Power Platform admin center. Use the Advanced Settings in Dynamics 365 instead.
+> The Frontline Team field isn't visible when you manage business units in the Power Platform admin center. Use the Power Platform Environment Settings app instead.
 
 ### Step 4: Enable Planner sync in Field Service settings
 

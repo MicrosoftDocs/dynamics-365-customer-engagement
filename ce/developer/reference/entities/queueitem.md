@@ -51,7 +51,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**This attribute is used by Unified Routing system to decide whether to Skip Sync Call to Omnichannel Service or not.**|
-|DisplayName|**msdyn_skipursync**|
+|DisplayName|**msdyn\_skipursync**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_skipursync`|
@@ -92,15 +92,15 @@ Changes from [ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer/data-p
 |4401|**Campaign Response**|
 |4402|**Campaign Activity**|
 |4406|**Quick Campaign**|
-|10428|**IoT Alert**|
-|10628|**Customer Voice alert**|
-|10638|**Customer Voice survey invite**|
-|10640|**Customer Voice survey response**|
-|10690|**Overflow Action Config**|
-|10714|**Ongoing conversation (Deprecated)**|
-|10726|**Conversation**|
-|10743|**Session**|
-|10931|**Copilot Transcript**|
+|10478|**IoT Alert**|
+|10689|**Customer Voice alert**|
+|10699|**Customer Voice survey invite**|
+|10701|**Customer Voice survey response**|
+|10762|**Overflow Action Config**|
+|10786|**Ongoing conversation (Deprecated)**|
+|10798|**Conversation**|
+|10815|**Session**|
+|11037|**Copilot Transcript**|
 
 ## Many-to-One relationships
 

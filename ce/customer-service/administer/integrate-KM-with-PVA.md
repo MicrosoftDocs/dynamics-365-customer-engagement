@@ -1,8 +1,8 @@
 ---
 title: Integrate knowledge management in Dynamics 365 with Copilot agents
 description: Learn about the integration of knowledge management in Dynamics 365 with Copilot agents.
-ms.date: 02/06/2025
-ms.topic: article
+ms.date: 04/22/2025
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -12,16 +12,12 @@ ms.reviewer: sdas
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
-
-
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
 Integrate knowledge management with a Copilot agent to use customized conversations. AI agents help answer questions, perform actions, and solve simple problems. This frees up your customer service representative's time to deal with complex issues that need human intervention.
 
-Copilot Studio lets you configure AI agents with various topics and trigger phrases to automatically resolve questions posed by your customers on your portal page. Learn more in [Copilot Studio overview](/power-virtual-agents/fundamentals-what-is-power-virtual-agents).
+Copilot Studio lets you configure AI agents with various topics and trigger phrases to automatically resolve questions posed by your customers on your portal page. Learn more in [Copilot Studio overview](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio).
 
 You can integrate knowledge management with a Copilot agent by using either of the following ways:
 
@@ -42,8 +38,8 @@ You can integrate knowledge management with a Copilot agent by using either of t
 
   2. Create a Copilot agent and a topic in it.
 
-     - Learn more about creating an AI agent in [Create and delete Copilot Studio bots](/power-virtual-agents/authoring-first-bot).
-     - Learn more about creating a topic in [Create and edit topics in your Copilot Studio bot](/power-virtual-agents/authoring-create-edit-topics).
+     - Learn more about creating an AI agent in [Create and delete Copilot agents](/power-virtual-agents/authoring-first-bot).
+     - Learn more about creating a topic in [Create and edit topics in your Copilot agent](/power-virtual-agents/authoring-create-edit-topics).
    
 ## Use the Search Dynamics 365 knowledge article flow action
 
@@ -58,7 +54,7 @@ Knowledge management integrated with Copilot Studio solution uses the flow with 
 
 > [!NOTE]
 > - If you have the Environment Maker role and can't see either the notification for connection references or the cloud flow, then you don't have the permission to update them. You must contact your system administrator or system customizer to set the connection references and enable the flow.
-> - When the solution is imported from a test environment to the production environment, you must again set up the connection references as a system administrator. Learn more about importing in [Export and import bots using solutions](/power-virtual-agents/authoring-export-import-bots).
+> - When the solution is imported from a test environment to the production environment, you must again set up the connection references as a system administrator. Learn more about importing in [Export and import agents using solutions](/power-virtual-agents/authoring-export-import-bots).
 
 To set connection references:
    
@@ -128,7 +124,7 @@ Perform the following steps to ensure that flow is properly configured and can n
 - To filter on a string attribute like keywords, append the string value to the search text.
 
 ### Publish the changes
-Learn more in [Publish the latest bot content](/power-virtual-agents/teams/publication-fundamentals-publish-channels-teams#publish-the-latest-bot-content). Learn how to resolve errors during publishing in [Troubleshoot](#troubleshoot).
+Learn more in [Publish the latest agent content](/power-virtual-agents/teams/publication-fundamentals-publish-channels-teams#publish-the-latest-bot-content). Learn how to resolve errors during publishing in [Troubleshoot](#troubleshoot).
 
 ## Use the Power Automate flow template
 
@@ -169,7 +165,7 @@ Perform the following steps if you want to integrate a Copilot agent with knowle
 
 12. In the **Outside solutions** list, select your flow, and then select **Add** to complete the process. If there are several flows, look at the **Modified** column to find the most recent version.
 
-Learn about managing Copilot Studio solutions in [Export and import bots using solutions](/power-virtual-agents/authoring-export-import-bots).
+Learn about managing Copilot Studio solutions in [Export and import agents using solutions](/power-virtual-agents/authoring-export-import-bots).
 
 ### Add the solution's flow to the Copilot Studio topic
 
@@ -311,7 +307,7 @@ To return the knowledge article search results to the AI agent, follow either of
 
 ## Troubleshoot
 
-- If a dialog is cross-linked and is modified, you'll see a validation error on publish and Copilot Studio will block the publish. Learn more in [Publish the latest bot content](/power-virtual-agents/teams/publication-fundamentals-publish-channels-teams#publish-the-latest-bot-content).
+- If a dialog is cross-linked and is modified, you'll see a validation error on publish and Copilot Studio will block the publish. Learn more in [Publish the latest agent content](/power-virtual-agents/teams/publication-fundamentals-publish-channels-teams#publish-the-latest-bot-content).
 
 - If errors exist while saving a topic, the **Topic checker** shows the impacted topics. Errors will prevent the AI agent from working and must be fixed before you can publish your AI agent. Learn more in [Topic errors](/power-virtual-agents/teams/authoring-topic-management-teams#topic-errors).
 

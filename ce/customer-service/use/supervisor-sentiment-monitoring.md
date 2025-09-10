@@ -1,8 +1,8 @@
 ---
 title: Sentiment monitoring
 description: Learn how supervisors can enable sentiment monitoring to understand customer sentiment across channels and improve customer service.
-ms.date: 09/10/2024
-ms.topic: article
+ms.date: 06/30/2025
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -30,12 +30,13 @@ Sentiment intensity indicators are displayed based on the previous six customer 
 | Negative | ![Negative sentiment.](../media/sentiment-negative.png " Negative sentiment") |
 | Very negative | ![Very negative sentiment.](../media/sentiment-very-negative.png "Very negative sentiment") |
 
-Sentiment analysis supports multiple languages. Using Microsoft Azure Text Translator API, conversations in more than 40 languages now receive sentiment scores.
+Sentiment analysis supports multiple languages. The system uses Microsoft Azure Text Translator API to provide sentiment scores for conversations in more than 40 languages.
 
 > [!NOTE]
+> The following rules apply:
 > - Non-English conversations are translated to English, then scored. 
 > - Unsupported languages don't receive a sentiment score.
-> - If profanity is detected in English, the sentiment shows as Negative or Very negative.
+> - If profanity is detected in English, then the sentiment shows as Negative or Very negative.
 
 To learn more, see [Explore Text Translator API](/azure/cognitive-services/translator/translator-info-overview).
 
@@ -127,11 +128,11 @@ Your environment must have the latest version of the application.
 
 ## Install and configure
 
-After you sign up, see step 4 of [Enable sentiment analysis](../administer/enable-sentiment-analysis.md) to configure sentiment analysis.
+After you sign up, refer to step 4 in [Enable sentiment analysis](../administer/enable-sentiment-analysis.md) to configure sentiment analysis.
 
 ## Policy notice
 
-This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature isn't intended for use in making, and shouldn't be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using this feature, and any associated feature or service in compliance with all applicable laws, including laws that relate to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This customer responsibility also includes adequately notifying end users that their communications with service representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their service representatives that their communications with end users may be monitored, recorded, or stored.
+This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature isn't intended for use in making, and customers shouldn't use it to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using this feature, and any associated feature or service in compliance with all applicable laws, including laws that relate to accessing individual employee analytics and monitoring, recording, and storing communications with end users. Customers are also responsible for adequately notifying end users that their communications with service representatives might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their service representatives that their communications with end users might be monitored, recorded, or stored.
 
 ### Related information
 

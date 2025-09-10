@@ -2,16 +2,18 @@
 title: Navigate the service calendar
 description: Learn about the various features of the service calendar in Dynamics 365 Customer Service.
 ms.date: 02/15/2024
-ms.topic: article
-author: lalexms
-ms.author: laalexan
-ms.reviewer: laalexan
+ms.topic: how-to
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
   - enduser
 ms.custom: 
   - dyn365-customerservice
+  - bap-template
+  - evergreen
 ---
 
 # Navigate the service calendar

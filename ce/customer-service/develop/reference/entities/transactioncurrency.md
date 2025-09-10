@@ -23,6 +23,8 @@ Currency in which a financial transaction is carried out.
 These relationships are one-to-many. Listed by **SchemaName**.
 
 - [msdyn_bookingalert_transactioncurrency_transactioncurrencyid](#BKMK_msdyn_bookingalert_transactioncurrency_transactioncurrencyid)
+- [msdyn_ocoutboundmessage_transactioncurrency_transactioncurrencyid](#BKMK_msdyn_ocoutboundmessage_transactioncurrency_transactioncurrencyid)
+- [msdyn_ocvoicemail_transactioncurrency_transactioncurrencyid](#BKMK_msdyn_ocvoicemail_transactioncurrency_transactioncurrencyid)
 - [TransactionCurrency_msdyn_actual](#BKMK_TransactionCurrency_msdyn_actual)
 
 ### <a name="BKMK_msdyn_bookingalert_transactioncurrency_transactioncurrencyid"></a> msdyn_bookingalert_transactioncurrency_transactioncurrencyid
@@ -34,6 +36,30 @@ Many-To-One Relationship: [msdyn_bookingalert msdyn_bookingalert_transactioncurr
 |ReferencingEntity|`msdyn_bookingalert`|
 |ReferencingAttribute|`transactioncurrencyid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_bookingalert_transactioncurrency_transactioncurrencyid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocoutboundmessage_transactioncurrency_transactioncurrencyid"></a> msdyn_ocoutboundmessage_transactioncurrency_transactioncurrencyid
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage msdyn_ocoutboundmessage_transactioncurrency_transactioncurrencyid](msdyn_ocoutboundmessage.md#BKMK_msdyn_ocoutboundmessage_transactioncurrency_transactioncurrencyid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocoutboundmessage_transactioncurrency_transactioncurrencyid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocvoicemail_transactioncurrency_transactioncurrencyid"></a> msdyn_ocvoicemail_transactioncurrency_transactioncurrencyid
+
+Many-To-One Relationship: [msdyn_ocvoicemail msdyn_ocvoicemail_transactioncurrency_transactioncurrencyid](msdyn_ocvoicemail.md#BKMK_msdyn_ocvoicemail_transactioncurrency_transactioncurrencyid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocvoicemail_transactioncurrency_transactioncurrencyid`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

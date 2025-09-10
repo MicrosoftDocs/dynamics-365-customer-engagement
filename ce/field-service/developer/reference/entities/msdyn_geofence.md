@@ -2,8 +2,8 @@
 title: "Geofence (msdyn_geofence) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Geofence (msdyn_geofence) table/entity with Microsoft Dynamics 365 Field Service."
 ms.topic: generated-reference
-author: m-hartmann
-ms.author: mhart
+author: puneet-singh1
+ms.author: puneetsingh
 search.audienceType: 
   - developer
 ---
@@ -69,7 +69,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_account](#BKMK_msdyn_account)
-- [msdyn_bookableresource](#BKMK_msdyn_bookableresource)
 - [msdyn_bookableresourcebookingid](#BKMK_msdyn_bookableresourcebookingid)
 - [msdyn_geofenceId](#BKMK_msdyn_geofenceId)
 - [msdyn_GeotrackedRecordStatus](#BKMK_msdyn_GeotrackedRecordStatus)
@@ -110,19 +109,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Lookup|
 |Targets|account|
-
-### <a name="BKMK_msdyn_bookableresource"></a> msdyn_bookableresource
-
-|Property|Value|
-|---|---|
-|Description|**Bookable Resource Lookup**|
-|DisplayName|**Bookable Resource Lookup**|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|`msdyn_bookableresource`|
-|RequiredLevel|None|
-|Type|Lookup|
-|Targets|bookableresource|
 
 ### <a name="BKMK_msdyn_bookableresourcebookingid"></a> msdyn_bookableresourcebookingid
 
@@ -529,7 +515,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 
 - [msdyn_bookableresourcebooking_msdyn_geofence_bookableresourcebookingid](#BKMK_msdyn_bookableresourcebooking_msdyn_geofence_bookableresourcebookingid)
 - [msdyn_geofence_account](#BKMK_msdyn_geofence_account)
-- [msdyn_geofence_bookableresource](#BKMK_msdyn_geofence_bookableresource)
 
 ### <a name="BKMK_msdyn_bookableresourcebooking_msdyn_geofence_bookableresourcebookingid"></a> msdyn_bookableresourcebooking_msdyn_geofence_bookableresourcebookingid
 
@@ -556,19 +541,6 @@ One-To-Many Relationship: [account msdyn_geofence_account](account.md#BKMK_msdyn
 |ReferencingEntityNavigationPropertyName|`msdyn_account`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `Cascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_geofence_bookableresource"></a> msdyn_geofence_bookableresource
-
-One-To-Many Relationship: [bookableresource msdyn_geofence_bookableresource](bookableresource.md#BKMK_msdyn_geofence_bookableresource)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`bookableresource`|
-|ReferencedAttribute|`bookableresourceid`|
-|ReferencingAttribute|`msdyn_bookableresource`|
-|ReferencingEntityNavigationPropertyName|`msdyn_bookableresource`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

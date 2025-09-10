@@ -129,10 +129,10 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Value|Label|
 |---|---|
 |772370000|**Send customer automated message**|
-|772370001|**Send agent automated message**|
+|772370001|**Send customer service representative automated message**|
 |772370002|**Close conversation**|
-|772370003|**Automatically move to waiting**|
-|772370004|**Release agent back to queue (reassignment)**|
+|772370003|**Move active conversation to waiting**|
+|772370004|**Release conversation back to queue for reassignment**|
 
 ### <a name="BKMK_msdyn_eventfrequency"></a> msdyn_eventfrequency
 
@@ -189,6 +189,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Value|Label|
 |---|---|
 |772370000|**Customer waiting timeout**|
+|772370001|**Agent non-response time**|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 

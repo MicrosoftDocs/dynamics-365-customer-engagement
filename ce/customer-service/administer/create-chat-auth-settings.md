@@ -2,7 +2,7 @@
 title: Configure authentication settings
 description: Perform the steps mentioned in this article to configure chat and channel authentication settings in Omnichannel for Customer Service.
 ms.date: 03/03/2025
-ms.topic: article
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -33,7 +33,7 @@ To indicate whether a customer is authenticated, the customer service representa
 
 You can create a chat authentication setting record in the admin app.
 
-1. In the site map of Customer Service admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
+1. In the site map of Copilot Service admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
 
 1. In the **Authentication settings** section, select **Manage**. The **Authentication settings** page appears.
       
@@ -70,7 +70,7 @@ You can create a chat authentication setting record in the admin app.
 
 ### Add authentication to chat widget
 
-1. In Customer Service admin center, edit the chat widget in the workstream settings, and then go to the **Behaviors** tab.
+1. In Copilot Service admin center, edit the chat widget in the workstream settings, and then go to the **Behaviors** tab.
    
 2. In the **Authentication settings** box, browse and select the chat authentication record.
 
@@ -195,7 +195,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
 
       We recommend generating your JWT on your web server. 
 
-      The name of this JavaScript method is used to create the authentication settings record in the Customer Service admin app.
+      The name of this JavaScript method is used to create the authentication settings record in the Copilot Service admin app.
 
         ```JavaScript
         // This is a sample JavaScript client function  
@@ -262,7 +262,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
 
 ### Create an authentication setting record for Apple Messages for Business using OAuth 2.0 OpenID connect flow
 
-1. In the Customer Service admin center site map, select **Customer settings**, and then select **Manage for Authentication settings**. A list of existing authentication settings appear.
+1. In the Copilot Service admin center site map, select **Customer settings**, and then select **Manage for Authentication settings**. A list of existing authentication settings appear.
 
 1. Select **New authentication setting**, and on the **Add authentication setting** page, provide the following details:
 

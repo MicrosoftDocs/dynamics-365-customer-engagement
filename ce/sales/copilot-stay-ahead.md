@@ -1,7 +1,8 @@
 ---
 title: Stay ahead with Copilot
 description: Learn how to prepare for upcoming meetings and catch up on emails with Copilot in Dynamics 365 Sales.
-ms.date: 11/29/2024
+ms.date: 08/21/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -21,7 +22,6 @@ ms.collection: bap-ai-copilot
 Stay ahead of your work by asking Copilot to help you prepare for meetings and catch up on emails that need your attention. You can either use predefined prompts or ask questions in natural language. This article describes some of the predefined prompts you can use to stay ahead with Copilot. Learn more about [chatting with Copilot in natural language](use-sales-copilot.md#chat-with-copilot-in-NL).
 
 <a name="copilot-meeting-prep"></a>
-
 ## Prepare for upcoming sales appointments
 
 If you have meetings scheduled on your Outlook calendar in the next seven days, Copilot can help you prepare for them.  
@@ -30,7 +30,7 @@ If you have meetings scheduled on your Outlook calendar in the next seven days, 
 > Currently, meeting preparation is available only for opportunities.
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).  
-1. Select **Stay ahead** > **Prepare for sales appointments**.  
+1. Select **Stay ahead** > **Prepare for sales meetings**.  
     Copilot lists the meetings scheduled for the current day and the next seven days from the records that you have access to. The meetings listed here have an external participant whose email address is linked to a contact in Dynamics 365, and this email address must be associated with an opportunity.
 
     > [!NOTE]
@@ -52,6 +52,9 @@ If you have meetings scheduled on your Outlook calendar in the next seven days, 
 <a name="copilot-email-reminder"></a>
 
 ## Display unanswered emails
+
+>[!IMPORTANT]
+>Effective September 2025, the **Show emails that need follow up** prompt in Copilot in Dynamics 365 Sales is deprecated region-wise. Learn more about the deprecation in [Emails that need follow-ups in Copilot in Dynamics 365 Sales](deprecations-sales.md#emails-that-need-follow-ups-in-copilot-in-dynamics-365-sales).
 
 Copilot can help make sure that you don't miss important emails by reminding you of messages that need a reply.
 

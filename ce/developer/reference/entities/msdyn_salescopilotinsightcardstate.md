@@ -117,6 +117,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |100000000|**Snooze**|
 |100000001|**Dismiss**|
 |100000002|**Undo**|
+|100000003|**Detected Action Taken**|
+|100000004|**Complete**|
+|100000005|**Mark As Done**|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 

@@ -914,7 +914,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**msdyn_similaropportunities**|
+|DisplayName|**msdyn\_similaropportunities**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_similaropportunities`|
@@ -2664,6 +2664,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [lead_qualifying_opportunity](#BKMK_lead_qualifying_opportunity)
 - [lk_leadtoopportunitysalesprocess_opportunityid](#BKMK_lk_leadtoopportunitysalesprocess_opportunityid)
 - [lk_opportunitysalesprocess_opportunityid](#BKMK_lk_opportunitysalesprocess_opportunityid)
+- [msdyn_activitymapping_opportunity](#BKMK_msdyn_activitymapping_opportunity)
 - [msdyn_msdyn_salescopilotinsight_opportunity_msdyn_targetentityid](#BKMK_msdyn_msdyn_salescopilotinsight_opportunity_msdyn_targetentityid)
 - [msdyn_opportunity_dailyopportunitykpiitem_entityid](#BKMK_msdyn_opportunity_dailyopportunitykpiitem_entityid)
 - [msdyn_opportunity_msdyn_mostcontacted_regardingObjectId](#BKMK_msdyn_opportunity_msdyn_mostcontacted_regardingObjectId)
@@ -2672,9 +2673,12 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_opportunity_msdyn_salesroutingrun_targetobject](#BKMK_msdyn_opportunity_msdyn_salesroutingrun_targetobject)
 - [msdyn_opportunity_msdyn_timespent_opplookup](#BKMK_msdyn_opportunity_msdyn_timespent_opplookup)
 - [msdyn_sabackupdiagnostic_opportunity_msdyn_target](#BKMK_msdyn_sabackupdiagnostic_opportunity_msdyn_target)
+- [msdyn_salesagentrun_opportunity](#BKMK_msdyn_salesagentrun_opportunity)
 - [msdyn_salesroutingdiagnostic_opportunity_msdyn_target](#BKMK_msdyn_salesroutingdiagnostic_opportunity_msdyn_target)
 - [msdyn_salessuggestion_opportunity_qualifiedrecord](#BKMK_msdyn_salessuggestion_opportunity_qualifiedrecord)
 - [msdyn_sequencetarget_opportunity_msdyn_target](#BKMK_msdyn_sequencetarget_opportunity_msdyn_target)
+- [msdyn_summarysynthesizerinput_referenceobjectid_opportunity](#BKMK_msdyn_summarysynthesizerinput_referenceobjectid_opportunity)
+- [msdyn_summarysynthesizeroutput_ReferenceObjectId_opportunity](#BKMK_msdyn_summarysynthesizeroutput_ReferenceObjectId_opportunity)
 - [opportunity_actioncard](#BKMK_opportunity_actioncard)
 - [opportunity_activity_parties](#BKMK_opportunity_activity_parties)
 - [Opportunity_ActivityPointers](#BKMK_Opportunity_ActivityPointers)
@@ -2770,6 +2774,18 @@ Many-To-One Relationship: [opportunitysalesprocess lk_opportunitysalesprocess_op
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_activitymapping_opportunity"></a> msdyn_activitymapping_opportunity
+
+Many-To-One Relationship: [msdyn_activitymapping msdyn_activitymapping_opportunity](msdyn_activitymapping.md#BKMK_msdyn_activitymapping_opportunity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_activitymapping`|
+|ReferencingAttribute|`msdyn_regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_activitymapping_opportunity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_msdyn_salescopilotinsight_opportunity_msdyn_targetentityid"></a> msdyn_msdyn_salescopilotinsight_opportunity_msdyn_targetentityid
 
 Many-To-One Relationship: [msdyn_salescopilotinsight msdyn_msdyn_salescopilotinsight_opportunity_msdyn_targetentityid](msdyn_salescopilotinsight.md#BKMK_msdyn_msdyn_salescopilotinsight_opportunity_msdyn_targetentityid)
@@ -2792,7 +2808,7 @@ Many-To-One Relationship: [msdyn_dailyopportunitykpiitem msdyn_opportunity_daily
 |ReferencingAttribute|`msdyn_entityid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_opportunity_dailyopportunitykpiitem_entityid`|
 |IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_opportunity_msdyn_mostcontacted_regardingObjectId"></a> msdyn_opportunity_msdyn_mostcontacted_regardingObjectId
 
@@ -2866,6 +2882,18 @@ Many-To-One Relationship: [msdyn_sabackupdiagnostic msdyn_sabackupdiagnostic_opp
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_salesagentrun_opportunity"></a> msdyn_salesagentrun_opportunity
+
+Many-To-One Relationship: [msdyn_salesagentrun msdyn_salesagentrun_opportunity](msdyn_salesagentrun.md#BKMK_msdyn_salesagentrun_opportunity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_salesagentrun`|
+|ReferencingAttribute|`msdyn_regardingid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_salesagentrun_opportunity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_salesroutingdiagnostic_opportunity_msdyn_target"></a> msdyn_salesroutingdiagnostic_opportunity_msdyn_target
 
 Many-To-One Relationship: [msdyn_salesroutingdiagnostic msdyn_salesroutingdiagnostic_opportunity_msdyn_target](msdyn_salesroutingdiagnostic.md#BKMK_msdyn_salesroutingdiagnostic_opportunity_msdyn_target)
@@ -2901,6 +2929,30 @@ Many-To-One Relationship: [msdyn_sequencetarget msdyn_sequencetarget_opportunity
 |ReferencedEntityNavigationPropertyName|`msdyn_sequencetarget_opportunity_msdyn_target`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_summarysynthesizerinput_referenceobjectid_opportunity"></a> msdyn_summarysynthesizerinput_referenceobjectid_opportunity
+
+Many-To-One Relationship: [msdyn_summarysynthesizerinput msdyn_summarysynthesizerinput_referenceobjectid_opportunity](msdyn_summarysynthesizerinput.md#BKMK_msdyn_summarysynthesizerinput_referenceobjectid_opportunity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_summarysynthesizerinput`|
+|ReferencingAttribute|`msdyn_referenceobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_summarysynthesizerinput_referenceobjectid_opportunity`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_summarysynthesizeroutput_ReferenceObjectId_opportunity"></a> msdyn_summarysynthesizeroutput_ReferenceObjectId_opportunity
+
+Many-To-One Relationship: [msdyn_summarysynthesizeroutput msdyn_summarysynthesizeroutput_ReferenceObjectId_opportunity](msdyn_summarysynthesizeroutput.md#BKMK_msdyn_summarysynthesizeroutput_ReferenceObjectId_opportunity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_summarysynthesizeroutput`|
+|ReferencingAttribute|`msdyn_referenceobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_summarysynthesizeroutput_ReferenceObjectId_opportunity`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_opportunity_actioncard"></a> opportunity_actioncard
 

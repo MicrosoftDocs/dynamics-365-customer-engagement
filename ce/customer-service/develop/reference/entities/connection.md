@@ -32,7 +32,7 @@ Changes from [Record1Id (Microsoft Dataverse)](/power-apps/developer/data-platfo
 
 |Property|Value|
 |---|---|
-|Targets|msdyn_bookingalert, msdyn_bookingalertstatus, msdyn_bookingrule, msdyn_resourceterritory, msdyn_systemuserschedulersetting, msdyn_timegroup, msdyn_timegroupdetail|
+|Targets|msdyn_bookingalert, msdyn_bookingalertstatus, msdyn_bookingrule, msdyn_ocoutboundmessage, msdyn_ocvoicemail, msdyn_resourceterritory, msdyn_systemuserschedulersetting, msdyn_timegroup, msdyn_timegroupdetail|
 
 
 ### <a name="BKMK_Record1ObjectTypeCode"></a> Record1ObjectTypeCode
@@ -43,27 +43,15 @@ Changes from [Record1ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer
 
 |Value|Label|
 |---|---|
-|10627|**Profile Album**|
-|10632|**Customer Voice alert**|
-|10642|**Customer Voice survey invite**|
-|10644|**Customer Voice survey response**|
-|10718|**Ongoing conversation (Deprecated)**|
-|10730|**Conversation**|
-|10747|**Session**|
-|10863|**Sequence**|
-|10865|**Sequence Target**|
-|10877|**Assignment Rule**|
-|10880|**Assignment Map**|
-|10887|**Insight**|
-|10896|**Suggestion Principal Object Access**|
-|10942|**Copilot Transcript**|
-|11058|**Booking Alert**|
-|11059|**Booking Alert Status**|
-|11061|**Booking Rule**|
-|11070|**Resource Territory**|
-|11073|**System User Scheduler Setting**|
-|11074|**Fulfillment Preference**|
-|11075|**Time Group Detail**|
+|11209|**Booking Alert**|
+|11210|**Booking Alert Status**|
+|11212|**Booking Rule**|
+|11221|**Resource Territory**|
+|11224|**System User Scheduler Setting**|
+|11225|**Fulfillment Preference**|
+|11226|**Time Group Detail**|
+|11293|**Voicemail**|
+|11304|**Outbound message**|
 
 ### <a name="BKMK_Record2Id"></a> Record2Id
 
@@ -71,7 +59,7 @@ Changes from [Record2Id (Microsoft Dataverse)](/power-apps/developer/data-platfo
 
 |Property|Value|
 |---|---|
-|Targets|msdyn_bookingalert, msdyn_bookingalertstatus, msdyn_bookingrule, msdyn_resourceterritory, msdyn_systemuserschedulersetting, msdyn_timegroup, msdyn_timegroupdetail|
+|Targets|msdyn_bookingalert, msdyn_bookingalertstatus, msdyn_bookingrule, msdyn_ocoutboundmessage, msdyn_ocvoicemail, msdyn_resourceterritory, msdyn_systemuserschedulersetting, msdyn_timegroup, msdyn_timegroupdetail|
 
 
 ### <a name="BKMK_Record2ObjectTypeCode"></a> Record2ObjectTypeCode
@@ -82,27 +70,15 @@ Changes from [Record2ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer
 
 |Value|Label|
 |---|---|
-|10627|**Profile Album**|
-|10632|**Customer Voice alert**|
-|10642|**Customer Voice survey invite**|
-|10644|**Customer Voice survey response**|
-|10718|**Ongoing conversation (Deprecated)**|
-|10730|**Conversation**|
-|10747|**Session**|
-|10863|**Sequence**|
-|10865|**Sequence Target**|
-|10877|**Assignment Rule**|
-|10880|**Assignment Map**|
-|10887|**Insight**|
-|10896|**Suggestion Principal Object Access**|
-|10942|**Copilot Transcript**|
-|11058|**Booking Alert**|
-|11059|**Booking Alert Status**|
-|11061|**Booking Rule**|
-|11070|**Resource Territory**|
-|11073|**System User Scheduler Setting**|
-|11074|**Fulfillment Preference**|
-|11075|**Time Group Detail**|
+|11209|**Booking Alert**|
+|11210|**Booking Alert Status**|
+|11212|**Booking Rule**|
+|11221|**Resource Territory**|
+|11224|**System User Scheduler Setting**|
+|11225|**Fulfillment Preference**|
+|11226|**Time Group Detail**|
+|11293|**Voicemail**|
+|11304|**Outbound message**|
 
 ## Many-to-One relationships
 
@@ -114,6 +90,10 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_bookingalertstatus_connections2](#BKMK_msdyn_bookingalertstatus_connections2)
 - [msdyn_bookingrule_connections1](#BKMK_msdyn_bookingrule_connections1)
 - [msdyn_bookingrule_connections2](#BKMK_msdyn_bookingrule_connections2)
+- [msdyn_ocoutboundmessage_connections1](#BKMK_msdyn_ocoutboundmessage_connections1)
+- [msdyn_ocoutboundmessage_connections2](#BKMK_msdyn_ocoutboundmessage_connections2)
+- [msdyn_ocvoicemail_connections1](#BKMK_msdyn_ocvoicemail_connections1)
+- [msdyn_ocvoicemail_connections2](#BKMK_msdyn_ocvoicemail_connections2)
 - [msdyn_resourceterritory_connections1](#BKMK_msdyn_resourceterritory_connections1)
 - [msdyn_resourceterritory_connections2](#BKMK_msdyn_resourceterritory_connections2)
 - [msdyn_systemuserschedulersetting_connections1](#BKMK_msdyn_systemuserschedulersetting_connections1)
@@ -198,6 +178,58 @@ One-To-Many Relationship: [msdyn_bookingrule msdyn_bookingrule_connections2](msd
 |ReferencedAttribute|`msdyn_bookingruleid`|
 |ReferencingAttribute|`record2id`|
 |ReferencingEntityNavigationPropertyName|`record2id_msdyn_bookingrule`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocoutboundmessage_connections1"></a> msdyn_ocoutboundmessage_connections1
+
+One-To-Many Relationship: [msdyn_ocoutboundmessage msdyn_ocoutboundmessage_connections1](msdyn_ocoutboundmessage.md#BKMK_msdyn_ocoutboundmessage_connections1)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocoutboundmessage`|
+|ReferencedAttribute|`activityid`|
+|ReferencingAttribute|`record1id`|
+|ReferencingEntityNavigationPropertyName|`record1id_msdyn_ocoutboundmessage`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocoutboundmessage_connections2"></a> msdyn_ocoutboundmessage_connections2
+
+One-To-Many Relationship: [msdyn_ocoutboundmessage msdyn_ocoutboundmessage_connections2](msdyn_ocoutboundmessage.md#BKMK_msdyn_ocoutboundmessage_connections2)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocoutboundmessage`|
+|ReferencedAttribute|`activityid`|
+|ReferencingAttribute|`record2id`|
+|ReferencingEntityNavigationPropertyName|`record2id_msdyn_ocoutboundmessage`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocvoicemail_connections1"></a> msdyn_ocvoicemail_connections1
+
+One-To-Many Relationship: [msdyn_ocvoicemail msdyn_ocvoicemail_connections1](msdyn_ocvoicemail.md#BKMK_msdyn_ocvoicemail_connections1)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocvoicemail`|
+|ReferencedAttribute|`activityid`|
+|ReferencingAttribute|`record1id`|
+|ReferencingEntityNavigationPropertyName|`record1id_msdyn_ocvoicemail`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocvoicemail_connections2"></a> msdyn_ocvoicemail_connections2
+
+One-To-Many Relationship: [msdyn_ocvoicemail msdyn_ocvoicemail_connections2](msdyn_ocvoicemail.md#BKMK_msdyn_ocvoicemail_connections2)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocvoicemail`|
+|ReferencedAttribute|`activityid`|
+|ReferencingAttribute|`record2id`|
+|ReferencingEntityNavigationPropertyName|`record2id_msdyn_ocvoicemail`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

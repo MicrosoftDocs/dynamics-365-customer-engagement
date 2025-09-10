@@ -1,7 +1,7 @@
 ---
 title: Assignment methods for queues
 description: Learn about the different assignment methods for queues and how you can use them in unified routing.
-ms.date: 02/19/2025
+ms.date: 07/18/2025
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -27,8 +27,7 @@ Use assignment methods to determine how to assign work items. You can use the ou
 
 The auto assignment process in unified routing matches incoming work items with the best-suited customer service representatives (service representative or representative) based on the configured assignment rules. This continuous process consists of multiple assignment cycles and a default block size of work items.
 
-Each cycle picks up the top unassigned work items in the applicable default block size and attempts to match each work item with an appropriate representative. Work items that aren't assigned to representatives because of their unavailability or because no matching skill was found are routed back to the queue.
-The next assignment cycle picks up the next block of the top-priority items that includes new work items.
+Each cycle picks up the top unassigned work items in the applicable default block size and attempts to match each work item with an appropriate representative. Work items that aren't assigned to representatives because of their unavailability or because no matching skill was found are routed back to the queue. The next assignment cycle picks up the next block of the top-priority items that includes new work items.
 
 When eligible representatives aren't found for the work items, the assignment cycle keeps retrying to assign the top number of default sized block items as applicable for the channel.
 
@@ -49,7 +48,11 @@ Unified routing prioritizes work within individual queues and across queues. Pri
 
 The oldest conversation or work item in the queue is assigned first. For asynchronous messaging channels such as persistent chat, WhatsApp, and Facebook, the oldest conversation is determined based on the last interaction time. For example, if the first contact on WhatsApp for a customer is on Monday, and the initial problem is resolved by Tuesday but the conversation isn't closed, it goes into the [waiting state](../use/oc-conversation-state.md). If the same customer comes back on Thursday afternoon with a new question while new customers are waiting in the queue since Thursday morning, the returning customer is prioritized only after the customers who are waiting since Thursday morning.
 
-When customer service representatives are subscribed to multiple queues, you can use the [Queue priority](queues-omnichannel.md#configure-queue-prioritization) field of the queue to prioritize work across queues. Work from the higher priority queues is assigned first over lower priority queues. Queues can also be given the same priority. In such a case:
+For record queues, the first-in-first-out assignment method is based on the time the record was routed, which is when the associated live work item is created. Learn more in [Understand how unified routing affects queue items and live work items for routed records](../develop/unified-routing-impact-on-apis.md).
+
+If you want to prioritize assignment based on conversation creation time, you can use custom prioritization rules.
+
+When service representatives are subscribed to multiple queues, you can use the [Queue priority](queues-omnichannel.md#configure-queue-prioritization) field of the queue to prioritize work across queues. Work from the higher priority queues is assigned first over lower priority queues. Queues can also be given the same priority. In such a case:
 - If they have the default first-in-first-out ordering, the oldest item across all these queues is assigned first.
 - If they have custom prioritization rules, then the queues are ordered alphabetically based on the queue names to determine the highest priority work. 
 
@@ -60,7 +63,7 @@ For example, lets look at a setup with the following four queues, all with prior
 - **VIP Support and Premium Support**: Default first-in-first-out prioritization
 - **Order Support and Invoice Inquiries**: Custom prioritization rules
 
-For a support representative who is subscribed to all the four queues, they receive the oldest item from the VIP Support and Premium support queues. If these two queues don't have eligible items for the representative, work from the Invoice Inquiries queue is assigned next followed by the work from the Order Support queue. 
+For a representative who is subscribed to all the four queues, they receive the oldest item from the VIP Support and Premium support queues. If these two queues don't have eligible items for the representative, work from the Invoice Inquiries queue is assigned next followed by the work from the Order Support queue. 
 
 > [!NOTE]
 > We recommend that you assign distinct queue priorities to queues with custom prioritization rules. Even if the queues have the same prioritization ruleset, they're considered to be distinct.
@@ -95,35 +98,58 @@ For example, three representatives, Lesa, Alicia, and Alan, are available with t
 
 ### Least active
 
-The system assigns a work item to the representative who is least active among all the representatives in voice queues who match the required skills, presence, and capacity.
+The system assigns a work item to the representative who is least active among all the representatives in voice and messaging queues and who matches the required skills, presence, and capacity.
 
-The assignment method uses "the time since last capacity is released for a voice call" and the [**Block capacity for wrap-up**](create-workstreams.md#configure-work-distribution) setting configured in the workstream to determine the least-active representative and routes the next incoming call to them.
+The assignment method uses "the time since last capacity is released for a voice or messaging conversation" and the [**Block capacity for wrap-up**](create-workstreams.md#configure-work-distribution) setting configured in the workstream to determine the least-active representative and routes the next incoming call to them.
 
-For example, Oscar Ward and Victoria Burke are two representatives with same skills who work in the Orders and Refunds voice queues. Oscar has a call that comes in at 1:00 PM in the Orders queue. Victoria takes a call at 1:05 PM in the Refund queue. Oscar’s issue takes 15 minutes to close. Victoria solves their customer problem in five minutes. The next call comes in at 1:20 PM in the Orders queue.
- 
-Because least active routing considers the idle time of representatives, and the last capacity release for Victoria was earlier than Oscar, the new call is assigned to Victoria.
+Let's see how it works with the following examples.
+
+**Scenario 1**
+
+Oscar Ward and Victoria Burke are two service representatives with the same skills. Oscar works on the **Members Messaging** queue, while Victoria works on **Members Messaging** and **Returns Voice** queues.
+
+- **Number of conversations with Oscar**: 1 chat
+- **Number of conversations with Victoria**: 1 call and 1 chat
+
+At 1:00 PM, a new chat conversation arrives.
+
+Because Oscar has fewer concurrent conversations than Victoria, the new chat is assigned to Oscar.
+
+**Scenario 2**
+
+Maya and Hailey are two service representatives with the same skills. Maya works on the **Orders Messaging** queue, while Hailey works on **Orders Messaging** and **Delivery Voice** queues. 
+
+Let's assume that Hailey is working on a call and chat at the same time while Maya is engaged in two chat conversations.
+
+Maya completes one of the chats at 1:55 PM, and Hailey completes the chat at 2:00 PM. A new chat conversation arrives at 2:05 PM.
+
+- **Number of conversations with Hailey**: 1 call
+- **Number of conversations with Maya**: 1 chat
+
+Because both Maya and Hailey have the same concurrent assignments, the least active assignment strategy considers the last capacity release time across both voice and messaging queues.
+
+Maya is determined to be least active compared to Hailey and therefore, the new chat is assigned to Maya.
 
 Routing to the least-active representative assignment strategy helps in a balanced distribution of work items across representatives, and results in higher representative efficiency and improved customer satisfaction.
 
-You can also build a [custom report](model-customize-reports.md) to track an representative's "last capacity release time" and understand the assignment distribution across representatives.
+You can also build a [custom report](model-customize-reports.md) to track a representative's "last capacity release time" and understand the assignment distribution across representatives. The data about the representative's last capacity release time is available in the "msdyn_agentchannelstate" Dataverse entity.
 
 > [!IMPORTANT]
 >
-> The least-active assignment method is available for the voice channel only and is the default selection when you create a voice queue.
+> The least-active assignment method is available for the voice and messaging channels only and is the default selection when you create a voice queue.
 >
 > This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making—and should not be used to make—decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users may be monitored, recorded, or stored.
 
-You can also create a custom assignment method to suit your business needs.
-
 ### Create new
 
-The system lets you create and use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed. You can create the following rulesets:
+You can also create a custom assignment method to suit your business needs. The system lets you create and use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed. You can create the following rulesets:
 
 - **Prioritization rulesets**: Lets you define the order in which the work items are assigned to representatives when they're available to take more work.
 - **Assignment rulesets**: Represent a set of conditions that are used to select representatives and use an order by option to sort the matching representatives.
   
 > [!IMPORTANT]
 >
+> - While you can create custom assignment methods, we recommend that you use the out-of-the-box assignment methods or selection criteria that are robust and validated for most use cases.
 > - You must configure presence, capacity, and skill-matching rules in the custom assignment method because the default settings defined for the workstream won't be used in custom assignment method.
 > - The out-of-the-box assignment strategies don't consider the representative operating hours. You must write a custom assignment method by using the "is_working" operator in the rule definition.
 
@@ -164,7 +190,7 @@ Some important points about prioritization rules are as follows:
 - By default, the queue is sorted on a "first in and first out" manner. If you don't create a prioritization rule, then the oldest work item is assigned first.
 - In normal scenarios, when a sufficient number of representatives are available to take up the work items, the processing period is a couple of seconds only. The representatives are assigned work items in the priority order. However, if work items pile up because of fewer eligible representatives, and then a representative becomes available during the processing period, the representative is offered the next work item according to the priority order. This strategy might create a perception that the highest priority item wasn't assigned; especially after some top-priority items are attempted for assignment and yet remain in the queue.
 - The work items that don't match the criteria of any of the prioritization rulesets are kept in the last priority bucket, and are ordered by "first in first out".
-- Prioritization rules are skipped for affinity work items and such work items are assigned before other work items in the queue. Learn more about affinity in [Agent affinity](create-workstreams.md#agent-affinity).
+- Prioritization rules are skipped for affinity work items and such work items are assigned before other work items in the queue. Learn more about affinity in [Representative affinity](create-workstreams.md#representative-affinity).
 
 ## How assignment rulesets work
 
@@ -173,7 +199,6 @@ The assignment ruleset is an ordered list of assignment rules. Each assignment r
 In the assignment rule, the system user attributes are matched with the requirement of the work item. When you select static match, the condition is formed on the System User entity attribute and static values. When you select dynamic match, the conditions on the left are based on the system user root entity and the conditions on the right are based on the conversation root entity. You can drill down to two levels on the conversation root entity to form the rule conditions. An assignment rule with the dynamic match and static match is as follows.
 
 :::image type="content" source="../media/assignment-rule-root-entity.png" alt-text="Screenshot of an assignment rule with dynamic match and static match conditions.":::
-
 
 ### Components of an assignment rule
 
@@ -213,7 +238,7 @@ The assignment rules are composed of the following items:
 
   - **Ordering Attributes**:
 
-    - **Least active**: Is available for voice queues only. The work item is routed to the representative who is least active among all the representatives who match skills, presence, and capacity. Learn more in the [Types of assignment methods](#types-of-assignment-methods) section.
+    - **Least active**: Is available for voice and messaging queues only. The work item is routed to the least active representative who matches the required skills, presence, and capacity. Learn more in the [Types of assignment methods](#types-of-assignment-methods) section.
     - Round robin
     - Unit-based available capacity
     - Profile-based available capacity
@@ -259,7 +284,7 @@ You can update the OData call as follows to modify the limit.
 
 [Configure assignment methods and rules](configure-assignment-rules.md)  
 [FAQ about unified routing in Customer Service, Omnichannel for Customer Service](unified-routing-faqs.md)  
-[Diagnostics for unified routing](unified-routing-diagnostics.md)  
+[Conversation diagnostics](configure-conversation-diagnostics.md)  
 [Create workstreams](create-workstreams.md)  
 [Create queues](queues-omnichannel.md)  
 [Set up unified routing for records](set-up-record-routing.md)  

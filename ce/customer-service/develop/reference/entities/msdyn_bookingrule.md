@@ -619,7 +619,9 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_bookingrule_msdyn_bookingalerts](#BKMK_msdyn_bookingrule_msdyn_bookingalerts)
 - [msdyn_bookingrule_msdyn_copilottranscripts](#BKMK_msdyn_bookingrule_msdyn_copilottranscripts)
 - [msdyn_bookingrule_msdyn_ocliveworkitems](#BKMK_msdyn_bookingrule_msdyn_ocliveworkitems)
+- [msdyn_bookingrule_msdyn_ocoutboundmessages](#BKMK_msdyn_bookingrule_msdyn_ocoutboundmessages)
 - [msdyn_bookingrule_msdyn_ocsessions](#BKMK_msdyn_bookingrule_msdyn_ocsessions)
+- [msdyn_bookingrule_msdyn_ocvoicemails](#BKMK_msdyn_bookingrule_msdyn_ocvoicemails)
 - [msdyn_bookingrule_msfp_alerts](#BKMK_msdyn_bookingrule_msfp_alerts)
 - [msdyn_bookingrule_msfp_surveyinvites](#BKMK_msdyn_bookingrule_msfp_surveyinvites)
 - [msdyn_bookingrule_msfp_surveyresponses](#BKMK_msdyn_bookingrule_msfp_surveyresponses)
@@ -860,6 +862,18 @@ Many-To-One Relationship: [msdyn_ocliveworkitem msdyn_bookingrule_msdyn_oclivewo
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_bookingrule_msdyn_ocoutboundmessages"></a> msdyn_bookingrule_msdyn_ocoutboundmessages
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage msdyn_bookingrule_msdyn_ocoutboundmessages](msdyn_ocoutboundmessage.md#BKMK_msdyn_bookingrule_msdyn_ocoutboundmessages)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_bookingrule_msdyn_ocoutboundmessages`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_bookingrule_msdyn_ocsessions"></a> msdyn_bookingrule_msdyn_ocsessions
 
 Many-To-One Relationship: [msdyn_ocsession msdyn_bookingrule_msdyn_ocsessions](msdyn_ocsession.md#BKMK_msdyn_bookingrule_msdyn_ocsessions)
@@ -869,6 +883,18 @@ Many-To-One Relationship: [msdyn_ocsession msdyn_bookingrule_msdyn_ocsessions](m
 |ReferencingEntity|`msdyn_ocsession`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_bookingrule_msdyn_ocsessions`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_bookingrule_msdyn_ocvoicemails"></a> msdyn_bookingrule_msdyn_ocvoicemails
+
+Many-To-One Relationship: [msdyn_ocvoicemail msdyn_bookingrule_msdyn_ocvoicemails](msdyn_ocvoicemail.md#BKMK_msdyn_bookingrule_msdyn_ocvoicemails)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_bookingrule_msdyn_ocvoicemails`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

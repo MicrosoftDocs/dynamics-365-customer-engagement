@@ -82,6 +82,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_DisableRequirementAutoCreation](#BKMK_msdyn_DisableRequirementAutoCreation)
 - [msdyn_enablequickbook](#BKMK_msdyn_enablequickbook)
 - [msdyn_EntityLogicalName](#BKMK_msdyn_EntityLogicalName)
+- [msdyn_IgnoreTimeZoneInScheduleAssistant](#BKMK_msdyn_IgnoreTimeZoneInScheduleAssistant)
 - [msdyn_RequirementRelationshipLogicalName](#BKMK_msdyn_RequirementRelationshipLogicalName)
 - [msdyn_ResourceAvailabilityRetrievalLimit](#BKMK_msdyn_ResourceAvailabilityRetrievalLimit)
 - [msdyn_RetrieveConstraintsQuery](#BKMK_msdyn_RetrieveConstraintsQuery)
@@ -324,6 +325,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|450|
+
+### <a name="BKMK_msdyn_IgnoreTimeZoneInScheduleAssistant"></a> msdyn_IgnoreTimeZoneInScheduleAssistant
+
+|Property|Value|
+|---|---|
+|Description|**Time Zone Agnosticism applies only to single requirement in Schedule Assistant.**|
+|DisplayName|**Ignore Time Zone in Schedule Assistant**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_ignoretimezoneinscheduleassistant`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_bookingsetupmetadata_msdyn_ignoretimezoneinscheduleassistant`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_RequirementRelationshipLogicalName"></a> msdyn_RequirementRelationshipLogicalName
 
@@ -717,7 +734,7 @@ One-To-Many Relationship: [businessunit business_unit_msdyn_bookingsetupmetadata
 |ReferencingAttribute|`owningbusinessunit`|
 |ReferencingEntityNavigationPropertyName|`owningbusinessunit`|
 |IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_lk_msdyn_bookingsetupmetadata_createdby"></a> lk_msdyn_bookingsetupmetadata_createdby
 

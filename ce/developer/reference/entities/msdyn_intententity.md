@@ -80,6 +80,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_objectid](#BKMK_msdyn_objectid)
 - [msdyn_objectidIdType](#BKMK_msdyn_objectidIdType)
 - [msdyn_objecttype](#BKMK_msdyn_objecttype)
+- [msdyn_retrytoc2count](#BKMK_msdyn_retrytoc2count)
+- [msdyn_solutionquery](#BKMK_msdyn_solutionquery)
 - [msdyn_source](#BKMK_msdyn_source)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
@@ -295,6 +297,37 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100|
+
+### <a name="BKMK_msdyn_retrytoc2count"></a> msdyn_retrytoc2count
+
+|Property|Value|
+|---|---|
+|Description|**Counter for the number of retries made to C2 regarding this intent entity.**|
+|DisplayName|**Count of retries to C2**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`msdyn_retrytoc2count`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|20|
+|MinValue|-1|
+
+### <a name="BKMK_msdyn_solutionquery"></a> msdyn_solutionquery
+
+|Property|Value|
+|---|---|
+|Description|**A brief copilot prompt to find a solution for this intent**|
+|DisplayName|**Solution Query**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_solutionquery`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1000|
 
 ### <a name="BKMK_msdyn_source"></a> msdyn_source
 

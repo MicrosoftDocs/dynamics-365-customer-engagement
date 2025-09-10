@@ -1,8 +1,8 @@
 ---
 title: Sales Hub app versus a custom app
 description: Learn when to use the Sales Hub app or a custom app for your sales implementation. Understand how app releases handle customizations and how to revert changes to the Sales Hub app.
-ms.date: 06/25/2024
-ms.topic: article
+ms.date: 08/05/2025
+ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

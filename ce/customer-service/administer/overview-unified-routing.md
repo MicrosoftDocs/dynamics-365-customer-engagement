@@ -1,8 +1,8 @@
 ---
 title: Overview of unified routing
 description: Overview of unified routing in Customer Service.
-ms.date: 02/04/2025
-ms.topic: conceptual
+ms.date: 08/18/2025
+ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -53,7 +53,7 @@ The requirements for unified routing are same as those that are applicable for O
 
 Learn more about the languages that are supported in unified routing in [Supported languages](../implement/international-availability.md#language-availability).
 
-You can configure unified routing through the Customer Service admin center app. Representatives must use the Customer Service workspace app only to be assigned work through unified routing.
+You can configure unified routing through the Copilot Service admin center app. Representatives must use the Copilot Service workspace app only to be assigned work through unified routing.
 
 The intelligent skill finder depends upon the custom AI Builder category classification model. Therefore, AI Builder should be available in the geographical region where you want to use intelligent skill finder. The languages supported in the intelligent skill finder are determined by the languages that AI Builder supports. Learn more in the following articles:
 
@@ -68,9 +68,9 @@ The intelligent skill finder depends upon the custom AI Builder category classif
 [How routing and assignment works](set-up-routing-process.md)  
 [Create workstreams for unified routing](create-workstreams.md)  
 [Set up record routing](set-up-record-routing.md)  
-[Configure work classification rulesets](configure-work-classification.md)  
-[Historical analytics for Unified routing in Customer Service](../use/cs-historical-analytics-unified-routing.md)  
-[Historical analytics for unified routing in Omnichannel for Customer Service](../use/oc-historical-analytics-unified-routing.md)  
+[Manage real-time analytics for record routing](enable-record-routing.md#manage-real-time-analytics-for-record-routing)  
+[Overview of real-time analytics for record routing](../use/rr-overview.md#overview-of-real-time-analytics-for-record-routing)  
+[Configure work classification rulesets](configure-work-classification.md)   
 [FAQ on unified routing](unified-routing-faqs.md)  
 [Export and import configuration data for the record channel](../export-import-config-data-for-records.md)  
 [Export import data for the live chat channel](../export-import-config-data-for-live-chat.md)  

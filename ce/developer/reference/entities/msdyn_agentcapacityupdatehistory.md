@@ -75,6 +75,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_capacityprofileid](#BKMK_msdyn_capacityprofileid)
 - [msdyn_defaultmaxunits](#BKMK_msdyn_defaultmaxunits)
 - [msdyn_endtime](#BKMK_msdyn_endtime)
+- [msdyn_eventid](#BKMK_msdyn_eventid)
 - [msdyn_isforceassignment](#BKMK_msdyn_isforceassignment)
 - [msdyn_isunitbased](#BKMK_msdyn_isunitbased)
 - [msdyn_name](#BKMK_msdyn_name)
@@ -163,7 +164,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Lookup to msdyn_capacityprofile entity**|
+|Description|**Lookup to msdyn\_capacityprofile entity**|
 |DisplayName|**Capacity profile id**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -202,6 +203,18 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Format|DateOnly|
 |ImeMode|Auto|
 |SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_eventid"></a> msdyn_eventid
+
+|Property|Value|
+|---|---|
+|Description|**A distinct identifier associated with the event that introduced modifications in the agent’s presence and capacity**|
+|DisplayName|**Event Id**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`msdyn_eventid`|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 ### <a name="BKMK_msdyn_isforceassignment"></a> msdyn_isforceassignment
 
