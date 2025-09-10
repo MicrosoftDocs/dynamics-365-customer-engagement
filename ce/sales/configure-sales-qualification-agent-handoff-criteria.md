@@ -97,12 +97,8 @@ Use custom criteria to define characteristics that are important for your ideal 
 The following Dataverse attribute types aren't supported for handoff criteria:
 - Lookup
 - Owner
-- Party List
+- PartyList
 - Customer
-- File
-- Formula
-- Prompt
-- Autonumber
 
 ### Next step
 
