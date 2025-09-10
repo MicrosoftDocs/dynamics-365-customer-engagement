@@ -56,7 +56,7 @@ Read the [create and activate a segment](wa-create-and-activate-a-segment.md#cre
     - **Add related entity**: Add a condition that's based on the attributes of related tables. Select an attribute in the **Related Entity** list, then select **Contains data** or **Does not contain data**, and then define the condition.  
 1. By default, the agent only considers new leads created after the agent is turned on. If you want the agent to also research on leads created before it was enabled, select the **Consider leads created in the last** checkbox and specify the number of days for the look back period.  
 1. (Optional) When you've finished defining the conditions, select **Preview leads** to view a list of records that satisfy the conditions.  
-    If you are satisfied with the results, you can continue with the next configuration step.
+    If you're satisfied with the results, you can continue with the next configuration step.
 
 ## Next step
 
