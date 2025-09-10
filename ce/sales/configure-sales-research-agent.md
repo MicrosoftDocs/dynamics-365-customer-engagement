@@ -1,5 +1,5 @@
 ---
-title: Setup and configure Sales Research Agent (preview)
+title: Set up and configure Sales Research Agent (preview)
 description: Learn how to configure the Sales Research Agent so that sellers can get AI-generated insights and provide feedback on the insights.
 manager:
 ms.date: 06/03/2025
@@ -13,7 +13,7 @@ ms.reviewer: lavanyakr
 ai-usage: ai-assisted
 ---
 
-# Setup and configure Sales Research Agent (preview)
+# Set up and configure Sales Research Agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -38,16 +38,16 @@ The Sales Research Agent also honors the [Bing search consent setting](/power-pl
 
 This ensures that external data usage is fully controlled by tenant-level policies.
 
-## Control access to the Sales Research Agent
+## Grant access to the Sales Research Agent
 
-Administrator can either grant access to all users in the environment or restrict it to specific security groups. This setting allows for granular control over who can leverage the agent's capabilities, ensuring that only authorized personnel can utilize AI-generated insights.
+By default, the **Sales Research Agent** menu in the Sales Hub app is only visible and accessible to the **System Administrator** role.  
+:::image type="content" source="media/sales-research-agent-navigation.png" alt-text="Screenshot of the Sales Research Agent navigation in the Sales Hub app.":::
 
-**Prerequisite:**
-If you want to restrict access to a specific group of users, create a security group in Azure Portal and add only the intended users to that group. Learn more in [Create, change, or delete a network security group](/azure/virtual-network/manage-network-security-group?tabs=network-security-group-portal). 
+To grant access to other users, you must assign the **Sales Research Agent** security role to users or security groups.
 
-1. In the Power Platform Admin Center, navigate to the environment where you want to configure the Sales Research Agent.
-1. Select **Settings** > **Business Research Agent**, and then select **See details**.
-1. In the **Business Research Agent Access** dialog, select one of the following options:
-   - **Everyone**: This option allows all users in the environment to access the Sales Research Agent.
-   - **Specific security group**: This option allows you to specify which security groups can access the agent.
-1. Save your changes and verify that only the intended users can access the Sales Research Agent.
+1. In the Power Platform Admin Center, navigate to the environment where you configured the Sales Research Agent.
+1. Select **Settings** > **Users + permissions**, > **Users**.
+1. Select the user you want to assign the role to.
+1. Select **Manage security roles** and then assign the **Sales Research Agent** role to the user.
+
+Alternatively, you can create a security group in Azure Active Directory, add users to that group, and then assign the **Sales Research Agent** role to that security group. This approach simplifies role management for larger teams. Learn more in [Create, change, or delete a network security group](/azure/virtual-network/manage-network-security-group?tabs=network-security-group-portal). 
