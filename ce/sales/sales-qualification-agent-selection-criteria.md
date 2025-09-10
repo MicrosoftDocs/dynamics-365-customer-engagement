@@ -19,7 +19,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The selection criteria helps you to group the incoming leads into a segment and assign them to the agent based on the defined conditions. For example, the leads that are unprocessed, unattended, and potentially lower value could be mapped under this segment and worked on by the agent. The segment groups these leads, and helps agent to drive net-positive outcome, ensuring every lead is assessed without adding manual workload for sellers.  
+The selection criteria helps you to group the incoming leads into a segment and assign them to the agent based on the defined conditions. For example, the leads that are unprocessed, unattended, and potentially lower value could be mapped under this segment and worked on by the agent. The segment groups these leads, and helps agent to drive net-positive outcome, ensuring that every lead is assessed without adding manual workload for sellers.  
 
 Read the [create and activate a segment](wa-create-and-activate-a-segment.md#create-and-activate-a-segment) article for more information.
 
