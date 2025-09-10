@@ -160,3 +160,4 @@ If the Opportunity Research Agent is configured for your organization, you can v
 - [Overview of Copilot in Dynamics 365 Sales](copilot-overview.md)  
 - [Ask Copilot questions](use-sales-copilot.md)
 - [Chat with Copilot in natural language](use-sales-copilot.md#chat-with-copilot-in-NL)
+
