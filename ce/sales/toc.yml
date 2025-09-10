@@ -825,7 +825,7 @@ items:
             - name: Provide context to the agent
               href: sales-research-agent-provide-context.md
             - name: FAQs about Sales Research Agent
-              href: sales-research-agent-faqs.md
+              href: faqs-sales-research-agent.md
       - name: Use Copilot in Dynamics 365 Sales
         items:
           - name: Copilot overview
