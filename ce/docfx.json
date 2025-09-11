@@ -3,6 +3,7 @@
     "content": [
       {
         "group": "ce-all",
+        "src": "ce",
         "files": [
           "**/*.md",
           "**/*.yml"
@@ -23,6 +24,7 @@
       },
       {
         "group": "op-all",
+         "src": "op",
         "files": [
           "customerengagement/on-premises/**/*.md",
           "customerengagement/on-premises/**/*.yml"
@@ -37,6 +39,7 @@
       },
       {
         "group": "usd-all",
+         "src": "usd",
         "files": [
           "unified-service-desk/**/*.md",
           "unified-service-desk/**/*.yml"
