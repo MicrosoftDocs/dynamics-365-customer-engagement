@@ -18,7 +18,10 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
-        ]
+        ],
+        "src": "ce-all",
+        "dest": "ce-all",
+        "group": "ce-all"
       },
       {        
         "files": [
@@ -73,7 +76,10 @@
           "customerengagement/on-premises/**",
           "**/_themes/**",
           "**/_themes.pdf/**"
-        ]
+        ],
+        "src": "ce-all",
+        "dest": "ce-all",
+        "group": "ce-all"
       },
       {
         "files": [
@@ -357,6 +363,9 @@
     "template": [],
     "dest": "customer-engagement",
     "groups": {
+      "ce-all": {
+        "dest": "ce-all"
+      },
       "op-all": {
         "dest": "op-all",
         "moniker_range": ">= op-9-0"
