@@ -1,7 +1,7 @@
 ---
 title: Bot dashboard
 description: Learn about the bot dashboard in historical analytics to better understand customer service representative performance in your organization.
-ms.date: 08/26/2025
+ms.date: 09/11/2025
 ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
@@ -83,7 +83,7 @@ Based on your administrator's configuration of the **Add historical analytics fo
  | Avg. escalation time (min) | The average time, in minutes, that a customer interacts with an AI agent before the conversation is escalated to a service representative or an external number. | 
  | Conversations deflected| The total number of conversations that were resolved by the AI agent without having to escalate it to a service representative. |
  | Bot deflection rate | The percentage of conversations that were closed by interacting with an AI agent, out of all conversations engaged by the same agent. |
- | Avg. resolution time (min) | The average time, in minutes, that a customer interacts with an AI agent before the conversation is closed.|
+ | Avg. deflection time (min) | The average time, in minutes, that a customer interacts with an AI agent before the conversation is closed.|
  | Bot CSAT | The customer satisfaction (CSAT) scores for AI agent-handled conversations where customers respond to an end-of-session survey request.|
 
  ### Details
