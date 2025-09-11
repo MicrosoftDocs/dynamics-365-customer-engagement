@@ -330,6 +330,8 @@ items:
                 href: create-activate-hierarchy-visualizations.md
               - name: Manage hierarchy visualization
                 href: manage-hierarchy-visualizations.md
+              - name: Add hierarchy visualization to custom tables
+                href: add-hierarchy-visualization-custom-tables.md
           - name: Configure email engagement
             href: configure-email-engagement.md
           - name: Enable auto capture
