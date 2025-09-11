@@ -2,7 +2,6 @@
   "build": {
     "content": [
       {
-        "group": "ce-all",
         "files": [
           "**/*.md",
           "**/*.yml"
@@ -19,10 +18,12 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
-        ]
+        ],
+        "src": "ce-all",
+        "dest": "ce-all",
+        "group": "ce-all"
       },
-      {
-        "group": "op-all",
+      {        
         "files": [
           "customerengagement/on-premises/**/*.md",
           "customerengagement/on-premises/**/*.yml"
@@ -33,10 +34,12 @@
           "**/shared/**",
           "**/_themes/**",
           "**/_themes.pdf/**"
-        ]
+        ],
+        "src": "op-all",
+        "dest": "op-all",
+        "group": "op-all"
       },
       {
-        "group": "usd-all",
         "files": [
           "unified-service-desk/**/*.md",
           "unified-service-desk/**/*.yml"
@@ -47,12 +50,14 @@
           "**/shared/**",
           "**/_themes/**",
           "**/_themes.pdf/**"
-        ]
+        ],
+        "src": "usd-all",
+        "dest": "usd-all",
+        "group": "usd-all"
       }
     ],
     "resource": [
       {
-        "group": "ce-all",
         "files": [
           "**/*.png",
           "**/*.jpg",
@@ -71,10 +76,12 @@
           "customerengagement/on-premises/**",
           "**/_themes/**",
           "**/_themes.pdf/**"
-        ]
+        ],
+        "src": "ce-all",
+        "dest": "ce-all",
+        "group": "ce-all"
       },
       {
-        "group": "op-all",
         "files": [
           "customerengagement/on-premises/**/*.png",
           "customerengagement/on-premises/**/*.jpg",
@@ -90,10 +97,12 @@
           "**/shared/**",
           "**/_themes/**",
           "**/_themes.pdf/**"
-        ]
+        ],
+        "src": "op-all",
+        "dest": "op-all",
+        "group": "op-all"
       },
       {
-        "group": "usd-all",
         "files": [
           "unified-service-desk/**/*.png",
           "unified-service-desk/**/*.jpg",
@@ -109,7 +118,10 @@
           "**/shared/**",
           "**/_themes/**",
           "**/_themes.pdf/**"
-        ]
+        ],
+        "src": "usd-all",
+        "dest": "usd-all",
+        "group": "usd-all",
       }
     ],
     "overwrite": [],
@@ -354,13 +366,13 @@
       "ce-all": {
         "dest": "ce-all"
       },
-      "usd-all": {
-        "dest": "usd-all",
-        "moniker_range": ">= dynamics-usd-4"
-      },
       "op-all": {
         "dest": "op-all",
         "moniker_range": ">= op-9-0"
+      },
+      "usd-all": {
+        "dest": "usd-all",
+        "moniker_range": ">= dynamics-usd-4"
       }
     },
     "markdownEngineName": "markdig"
