@@ -83,7 +83,7 @@ Based on your administrator's configuration of the **Add historical analytics fo
  | Avg. escalation time (min) | The average time, in minutes, that a customer interacts with an AI agent before the conversation is escalated to a service representative or an external number. | 
  | Conversations deflected| The total number of conversations that were resolved by the AI agent without having to escalate it to a service representative. |
  | Bot deflection rate | The percentage of conversations that were closed by interacting with an AI agent, out of all conversations engaged by the same agent. |
- | Avg. deflection time (min) | The average time, in minutes, that a customer interacts with an AI agent before the conversation is closed.|
+ | Avg. deflection time (min) | The average number of minutes a customer interacts with an AI agent before the conversation ends.|
  | Bot CSAT | The customer satisfaction (CSAT) scores for AI agent-handled conversations where customers respond to an end-of-session survey request.|
 
  ### Details
