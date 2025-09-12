@@ -121,7 +121,6 @@ If you customized the Copilot Service workspace app, you must complete the follo
 ### Related information
 
 [Dashboard Overview](../use/customer-service-analytics-insights-csh.md)  
-[Historical analytics for unified routing in Omnichannel for Customer Service](../use/oc-historical-analytics-unified-routing.md)  
 [Configure user security to resources in an environment](/power-platform/admin/database-security)  
 [How access to a record is determined](/power-platform/admin/how-record-access-determined)  
 
