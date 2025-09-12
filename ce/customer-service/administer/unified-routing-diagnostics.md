@@ -146,7 +146,7 @@ For known issues in diagnostics, see [Known issues in Customer Service](https://
 ### Related information
 
 [Overview of skill based routing](overview-skill-work-distribution.md)  
-[Assignment methods for Queues](assignment-methods.md) 
+[Assignment methods for Queues](assignment-methods.md)  
 [Routing and assignment rules](../routing-workstream-queues.md)  
 [Configure work classification rules](configure-work-classification.md)  
 [Configure routing to preferred agents](configure-preferred-agent.md)  
