@@ -18,6 +18,9 @@ ms.custom:
 
 By default, Copilot uses a set of predefined fields to generate [summaries](copilot-get-information.md), a list of [recent changes](copilot-ask-questions.md#get-recent-changes) for accounts, leads, and opportunities, and [prepare for meetings](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments). You can add other fields from lead, opportunity, account, and related tables to make the summaries and recent changes list more relevant for your business.
 
+> [!NOTE]
+> For lead summary, when the [Sales Qualification Agent](sales-qualification-agent.md) feature is enabled, the application generates summary based on the Sales Qualification Agent configuration.  
+
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
 
 1. Under **General Settings**, select **Copilot**.

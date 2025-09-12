@@ -21,9 +21,6 @@ ms.collection: bap-ai-copilot
 
 Use Copilot to summarize your records in Dynamics 365 Sales such as opportunities, leads, and accounts. This article describes how to summarize records with Copilot and the information that you can get from the summaries.  
 
-> [!NOTE]
-> The summary insight banner experience is available only in English.  
-
 The summaries are displayed on the top of the record in an insight banner thus reducing the need to switch between the record and the Copilot side pane or full-screen view. However, you can still summarize the record in the Copilot side pane using the prompts or natural language. [Learn more about chatting with Copilot in natural language](use-sales-copilot.md#chat-with-copilot-in-NL).
 
 By default, the summary insight banner is available for opportunities, leads, and accounts. To add the summary insight banner to custom entities, contact your administrator to [configure the summary insight banner](/power-apps/user/record-summaries).  
@@ -35,7 +32,9 @@ Open a lead record to see the summary insight banner. Here's an example of how t
 
 :::image type="content" source="media/copilot-summary-insight-bar.png" alt-text="Screenshot of the Copilot summary insight banner for a lead record in Dynamics 365 Sales.":::  
 
-When you expand the summary insight banner, you can see the insights. However, the information displayed in the summary varies depending on whether [the Sales Qualification Agent feature](sales-qualification-agent.md) is enabled or not.  
+Expand the summary insight banner to see insights. However, the information displayed in the summary varies depending on whether [the Sales Qualification Agent feature](sales-qualification-agent.md) is enabled or not.  
+
+When both the Sales Qualification Agent and [summary fields](copilot-configure-summary-fields.md) are configured, the summary is generated based on the Sales Qualification Agent.
 
 The following screenshot is an example of how the expanded summary insight banner looks for a lead record when the Sales Qualification Agent feature is enabled:  
 
@@ -70,9 +69,6 @@ Select **See full summary** to view the complete summary of the record that is g
 | Key insights | Follow-up on the latest activity, preferred method of contact, lead creation date, annual revenue, closed opportunities associated with the lead, parent account, primary contact of the parent account associated with the lead, and other AI-generated information. |
 | Competitor insights | The competitors that are associated with the lead, along with their strengths and weaknesses. |
 
-> [!NOTE]
-> Some information such as Ideal customer profile fit, Purchasing intent, and Recent sales engagements aren't available in the research page as they're part of the Sales Qualification Agent feature.
-
 The lead summary is also available as an embedded experience after you qualify a lead. Learn more in [Qualify and convert a lead to opportunity](qualify-lead-convert-opportunity-sales.md#lead-summary).
 
 ### Enrich leads with related information
@@ -80,10 +76,9 @@ The lead summary is also available as an embedded experience after you qualify a
 >[!NOTE]
 >Applicable only for lead summaries without the Sales Qualification Agent feature enabled.  
 
-Copilot can enrich your leads with information from Dynamics 365 Sales, LinkedIn, and Bing, such as:
+Copilot can enrich your leads with information from Dynamics 365 Sales and LinkedIn such as:
 
 - Possible contacts based on the lead's email address.
-- The latest news about the account, curated by Bing.
 - Suggested LinkedIn profiles for the contact, if you have a LinkedIn Sales Navigator license.
 
 After you select a lead, Copilot suggests other records that might be associated with the lead and from which it can glean more information.
@@ -120,14 +115,21 @@ The account summary includes the following information:
 
 To summarize the account, Copilot uses the information in the account record and the associated leads, opportunities, and cases. To know which fields are required to generate the summary, see [Default attributes used in account summaries](understand-copilot-summaries.md#account-summary).
 
-To drill down into the details of the account, select the suggested prompts that are displayed below the summary. If you have a LinkedIn Sales Navigator license, the **Find relevant Sales Navigator accounts** prompt is also suggested.  
+To drill down into the details of the account in the Copilot side pane, select the suggested prompts that are displayed below the summary. If you have a LinkedIn Sales Navigator license, the **Find relevant Sales Navigator accounts** prompt is also suggested.  
 [Would you like to view a summary of different fields?](copilot-get-information.md#would-you-like-to-view-a-summary-of-different-fields)
 
 ## Opportunity summary
 <a name="copilot-summarize-opportunity"></a>
 
 Open an opportunity record to see the summary insight banner. The banner provides a high-level overview of the opportunity. When you expand the summary insight banner, you can see the insights.  
-Select **See full summary** to view the complete summary of the record that is generated by Copilot in a pop-up window. The opportunity summary includes the following information, if the information is available in the opportunity record:  
+
+:::image type="content" source="media/copilot-opportunity-summary-expanded.png" alt-text="Screenshot of the Copilot opportunity summary expanded view in Dynamics 365 Sales.":::
+
+Select **See full summary** to view the complete summary of the record that is generated by Copilot in a pop-up window.  
+
+:::image type="content" source="media/copilot-opportunity-summary-popup.png" alt-text="Screenshot of the Copilot opportunity summary pop-up window in Dynamics 365 Sales.":::
+
+The opportunity summary includes the following information, if the information is available in the opportunity record:  
 
 - **Basic information**: Estimated revenue, estimated close date, key contact, and account name.
 - **Key information**: How long the account has been associated with your organization, the total value of closed opportunities, the most recently closed opportunity, progress on the most recent opportunity, the contact at the account with the most opportunities, and other AI-generated information.

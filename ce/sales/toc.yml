@@ -815,7 +815,11 @@ items:
           - name: Ask Copilot questions
             href: use-sales-copilot.md
           - name: Summarize records
-            href: copilot-summarize-records.md
+            items:
+              - name: Summarize records 
+                href: copilot-summarize-records.md
+              - name: Default attributes used in Copilot summaries
+                href: understand-copilot-summaries.md
           - name: Prompt guide reference
             href: copilot-prompt-guide.md
           - name: Get information
@@ -826,8 +830,6 @@ items:
             href: copilot-ask-questions.md
           - name: Get content recommendations and answers from SharePoint
             href: copilot-get-doc-suggestions.md
-          - name: Default attributes used in Copilot summaries
-            href: understand-copilot-summaries.md
           - name: Copilot in Dynamics 365 Sales FAQ
             href: sales-copilot-faq.md
       - name: Dashboards and reports
