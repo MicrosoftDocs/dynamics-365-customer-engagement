@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 07/28/2025
+ms.date: 09/12/2025
 ms.custom:
   - bap-template
   - dyn365-customerservice
@@ -106,7 +106,13 @@ The specified workspace applies only to the customer's workspace. Microsoft crea
 
 ## Step 2: Provision the data models
 
+> [!NOTE]
+> For successful provision of the data models, make sure that you have created a Microsoft Entra ID security group and added **Dynamics 365 Analytics** service account as a member of this security group. Learn more in [Prerequisites](#prerequisites).
+
 It could take up to 24 hours for the provisioning to complete. You can leave the **Settings** page and check back after a few hours. Select **Refresh** to check the provisioning status.
+
+> [!NOTE]
+> If you encounter any issues during this step, ensure that you have created a Microsoft Entra ID security group and added **Dynamics 365 Analytics** service account as a member of this security group.
 
 ## Step 3: Grant permissions for semantic models and reports
 
