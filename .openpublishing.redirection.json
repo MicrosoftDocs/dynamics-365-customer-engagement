@@ -35712,6 +35712,14 @@
       "source_path": "ce/sales/linkedin/review-leads.md",
       "redirect_url": "../../../dynamics365/sales/deprecations-sales#linkedin-lead-generation",
       "redirect_document_id": false
+    },
+    {"source_path": "ce/customer-service/use/cs-historical-analytics-unified-routing.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/use/cs-historical-analytics-unified-routing",
+      "redirect_document_id": false
+    },
+    {"source_path": "ce/customer-service/use/oc-historical-analytics-unified-routing.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/use/oc-historical-analytics-unified-routing",
+      "redirect_document_id": false
     }
   ]
 }
