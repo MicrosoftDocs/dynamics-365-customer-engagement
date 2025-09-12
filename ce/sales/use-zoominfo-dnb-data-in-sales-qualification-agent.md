@@ -1,5 +1,5 @@
 ---
-title: Configure Sales Qualification Agent to use fields enriched with Zoominfo or Dun & Bradstreet data
+title: Configure Sales Qualification Agent to use Dataverse fields enriched by third-party data providers
 description: Learn to configure the Sales Qualification Agent in Dynamics 365 Sales with ZoomInfo or Dun & Bradstreet enriched fields for precise lead qualification.
 author: lavanyakr01
 ms.author: lavanyakr
@@ -8,7 +8,7 @@ ms.date: 09/09/2025
 ms.topic: concept-article
 ---
 
-# Configure Sales Qualification Agent to use fields enriched with Zoominfo or D&B data
+# Configure Sales Qualification Agent to use Dataverse fields enriched by third-party data providers
 
 The Sales Qualification Agent in Dynamics 365 Sales automates lead research and engagement by evaluating leads against your Ideal Customer Profile (ICP). You can define custom ICP criteria using Dataverse fields—many of which can be enriched with firmographic data from ZoomInfo, Dun & Bradstreet (D&B), or any other provider that integrates with Dataverse. 
 
@@ -18,12 +18,16 @@ This article covers instructions for integrating with ZoomInfo and Dun & Bradstr
 
 Before using ZoomInfo or D&B data in your Sales Qualification Agent configuration, install and configure the respective app from Microsoft AppSource.
 
+### Integrate ZoomInfo data
+
 Integrate ZoomInfo data by following the instructions in these articles:
 
 1. [Install ZoomInfo app](install-zoominfo-app.md)
 1. [Configure export preferences](configure-export-preferences-zoominfo.md)
 1. [Match fields between Dynamics 365 and ZoomInfo](match-fields-between-dynamics365-zoominfo.md)
 1. [Customize the ZoomInfo app](customize-zoominfo-app.md)
+
+### Integrate Dun & Bradstreet data
 
 Integrate Dun & Bradstreet data by installing and configuring the [Dun & Bradstreet Optimizer App for Microsoft](https://appsource.microsoft.com/en-us/product/dynamics-365/dnb.dnb_optimizer) from Microsoft AppSource. For step-by-step instructions, refer to the official installation guide under **Details + Support** > **Help** on the AppSource page.
 :::image type="content" source="media/dnb-help-doc.png" alt-text="Screenshot of the help link under Details + Support section.":::
