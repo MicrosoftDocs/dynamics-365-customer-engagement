@@ -10,7 +10,9 @@ ms.topic: concept-article
 
 # Configure Sales Qualification Agent to use fields enriched with Zoominfo or D&B data
 
-The Sales Qualification Agent in Dynamics 365 Sales automates lead research and engagement by evaluating leads against your Ideal Customer Profile (ICP). You can define custom ICP criteria using Dataverse fields—many of which can be enriched with firmographic data from ZoomInfo or Dun & Bradstreet (D&B). This article explains how to configure these criteria to leverage data synced from either provider for more precise lead qualification.
+The Sales Qualification Agent in Dynamics 365 Sales automates lead research and engagement by evaluating leads against your Ideal Customer Profile (ICP). You can define custom ICP criteria using Dataverse fields—many of which can be enriched with firmographic data from ZoomInfo, Dun & Bradstreet (D&B), or any other provider that integrates with Dataverse. 
+
+This article covers instructions for integrating with ZoomInfo and Dun & Bradstreet. However, you can choose any other provider, such as Clay, 6Sense, Similarweb, and Builtwith, that syncs firmographic data into Dataverse fields. The high-level steps remain similar.
 
 ## Step 1: Install and set up ZoomInfo or Dun & Bradstreet integration
 
@@ -37,6 +39,8 @@ Once the synchronization between ZoomInfo or D&B is active, the following fields
 | Company Size   | numberofemployees |
 | Country        | address1_country  |
 | ZoomInfo ID or D-U-N-S Number (for D&B) | zoominfoid or dunsnumber |
+
+You can enrich additional fields based on your industry and ideal customer profile. For example, if you're in the technology sector, you might want to enrich fields like "Technology Stack" using BuiltWith data. Refer to the documentation of your chosen data provider for a comprehensive list of available fields.
 
 ## Step 3: Configure the Sales Qualification Agent to use enriched fields
 
