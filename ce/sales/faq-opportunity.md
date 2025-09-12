@@ -1,7 +1,7 @@
 ---
 title: Opportunity management FAQs
 description: Get answers to frequently asked questions about opportunity management.
-ms.date: 07/25/2024
+ms.date: 09/12/2025
 ms.topic: faq
 author: udaykirang
 ms.author: udag
@@ -97,7 +97,7 @@ If you're planning to use the [per stage model](configure-predictive-opportunity
 
 ## Can I customize the model?
 
-Yes, you are able to modify which attributes are selected to train the model. That said, the out-of-the-box model automatically selects the attributes it determines are most relevant for your business.
+Yes, you're able to modify which attributes are selected to train the model. That said, the out-of-the-box model automatically selects the attributes it determines are most relevant for your business.
 
 ## Can I create multiple models for opportunities?​
 
