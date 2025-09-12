@@ -370,8 +370,6 @@
             href: agent-dashboard-cs.md
           - name: Case Topics dashboard
             href: case-topics-dashboard-cs.md
-          - name: Unified routing dashboard
-            href: cs-historical-analytics-unified-routing.md
         - name: Use Omnichannel historical analytics dashboards
           items: 
           - name: Omnichannel for Customer Service dashboards
@@ -392,8 +390,6 @@
             href: oc-conversation-topics-dashboard.md
           - name: Omnichannel Voicemail dashboard
             href: oc-voicemail-dashboard.md          
-          - name: Unified routing dashboard
-            href: oc-historical-analytics-unified-routing.md
         - name: Use knowledge analytics
           href: knowledge-search-analytics-cs.md
         - name: Use Copilot analytics
