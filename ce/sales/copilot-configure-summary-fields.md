@@ -60,7 +60,7 @@ By default, Copilot uses a set of predefined fields to generate [summaries](copi
 
     1. Save your changes.  
 
-1. <a name="admin-opportunity-summary-widget"></a>For **Opportunities** only. To display the [opportunity summary widget](copilot-get-information.md#view-the-opportunity-summary-widget) within the opportunity form, in the **Opportunities settings** page, select the **Show opportunity summary as a widget in the form** option.  
+1. <a name="admin-opportunity-summary-widget"></a>For **Opportunities** only. To display the [opportunity summary widget](copilot-summarize-records.md#view-the-opportunity-summary-widget) within the opportunity form, in the **Opportunities settings** page, select the **Show opportunity summary as a widget in the form** option.  
     To add the opportunity widget to custom forms, see [Add the opportunity summary widget to custom forms](#add-the-opportunity-summary-widget-to-custom-forms).
 
 1. Save your changes.
