@@ -1,7 +1,7 @@
 ---
 title: Introduction to Customer Service
 description: Learn about the Customer Service Hub in Microsoft Dynamics 365.
-ms.date: 04/21/2025
+ms.date: 09/12/2025
 ms.topic: get-started
 author: Soumyasd27
 ms.author: sdas
@@ -12,6 +12,9 @@ ms.collection: get-started
 ---
 
 # Introduction to Customer Service Hub
+
+> [!Note]
+> As of February 2025, the Customer Service Hub app is no longer available for new organizations that have Enterprise licenses. For more information, see [Customer Service Hub app is removed for new organizations with enterprise licenses](../implement/deprecations-customer-service.md#customer-service-hub-app-is-removed-for-new-organizations-with-enterprise-licenses).
 
 Empower your agents to work smarter and faster with a modern, interactive experience tailored to their role.
 
