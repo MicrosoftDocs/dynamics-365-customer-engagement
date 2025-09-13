@@ -1,7 +1,7 @@
 ---
 title: Use Customer Service Hub on mobile | Microsoft Docs
 description: Use Customer Service Hub app on mobile devices like phones and tablets
-ms.date: 06/04/2025
+ms.date: 09/12/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -15,6 +15,9 @@ ms.custom:
 ---
 
 # Use Customer Service Hub on mobile devices
+
+> [!Note]
+> As of February 2025, the Customer Service Hub app is no longer available for new organizations that have Enterprise licenses. For more information, see [Customer Service Hub app is removed for new organizations with enterprise licenses](..implement/deprecations-customer-service.md#customer-service-hub-app-is-removed-for-new-organizations-with-enterprise-licenses).
 
 Access your Customer Service Hub data while you’re on the go using Dynamics 365 for phones or Dynamics 365 for tablets on your mobile device.
 
