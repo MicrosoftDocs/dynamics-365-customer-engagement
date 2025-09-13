@@ -1,7 +1,7 @@
 ---
 title: Upgrade from Interactive Service Hub to the Customer Service Hub app | Microsoft Docs
 description: Understand the upgrade path from Interactive Service Hub to the Customer Service Hub application
-ms.date: 05/08/2025
+ms.date: 09/12/2025
 ms.topic: upgrade-and-migration-article
 author: neeranelli
 ms.author: nenellim
@@ -15,6 +15,9 @@ ms.custom:
 ---
 
 # Upgrade to Customer Service Hub
+
+> [!Note]
+> As of February 2025, the Customer Service Hub app is no longer available for new organizations that have Enterprise licenses. For more information, see [Customer Service Hub app is removed for new organizations with enterprise licenses](..implement/deprecations-customer-service.md#customer-service-hub-app-is-removed-for-new-organizations-with-enterprise-licenses).
 
 The Interactive Service hub was introduced with [!INCLUDE[](../../includes/pn-crm-8-1-0-online.md)] and Dynamics CRM 2016 as a reimagined customer service app. Interactive Service hub offered a web-based client designed to simplify daily tasks for customer service representatives and managers. It had new components and page-types, like interactive dashboards, interactive forms, and reference panel control. 
 
