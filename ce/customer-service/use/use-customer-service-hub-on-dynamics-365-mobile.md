@@ -1,6 +1,6 @@
 ---
-title: Use Customer Service Hub on mobile | Microsoft Docs
-description: Use Customer Service Hub app on mobile devices like phones and tablets
+title: Use Customer Service Hub on mobile devices
+description: Learn how to use the features of the Customer Service Hub app on mobile devices such as phones and tablets.
 ms.date: 09/12/2025
 ms.topic: how-to
 author: neeranelli
@@ -46,7 +46,7 @@ The **Favorites and Recently Used** sections provide quick access to your record
 
 - To access these sections, tap the **Menu** ![Menu button](../media/MenuButton.png "Menu button") button on the nav bar, and then choose the **Favorites and Recent** ![Fav Button](../media/FavButton.png "Fav Button") button.
 
-- To pin an item as a favorite, from the list of **Recently Used** items, tap the pin. This pins and moves the item to favorites.
+- To pin an item as a favorite, from the list of **Recently Used** items, tap the pin. The system pins and moves the item to favorites.
 
   ![Favorites and Recent items.](../media/Favs_3.png "Favorites and Recent items")
 
