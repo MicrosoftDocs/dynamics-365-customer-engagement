@@ -17,7 +17,7 @@ ms.custom:
 # Use Customer Service Hub on mobile devices
 
 > [!Note]
-> As of February 2025, the Customer Service Hub app is no longer available for new organizations that have Enterprise licenses. For more information, see [Customer Service Hub app is removed for new organizations with enterprise licenses](..implement/deprecations-customer-service.md#customer-service-hub-app-is-removed-for-new-organizations-with-enterprise-licenses).
+> As of February 2025, the Customer Service Hub app is no longer available for new organizations that have Enterprise licenses. For more information, see [Customer Service Hub app is removed for new organizations with enterprise licenses](../implement/deprecations-customer-service.md#customer-service-hub-app-is-removed-for-new-organizations-with-enterprise-licenses).
 
 Access your Customer Service Hub data while you’re on the go using Dynamics 365 for phones or Dynamics 365 for tablets on your mobile device.
 
