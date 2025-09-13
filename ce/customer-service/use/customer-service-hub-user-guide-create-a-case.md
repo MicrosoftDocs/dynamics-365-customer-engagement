@@ -1,7 +1,7 @@
 ---
 title: Create a case in Customer Service
 description: Understand how you can quickly create cases in Customer Service.
-ms.date: 01/31/2025
+ms.date: 09/12/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -27,10 +27,6 @@ Track your cases efficiently and act on them quickly in the Copilot Service work
 Creating and managing a case can’t be any simpler. With the intuitive case form, you can do all your important tasks and actions without navigating to different parts of the application.  
 
 You can capture important information about customers, interactions you’ve had with them, and all related records of the current case in once single place.  
-
-Watch this video to learn more about case management in the Customer Service Hub:
-
-> [!VIDEO e3cdfa78-f787-4095-a7e1-92b1d7ed4828]
 
 ## Prerequisites
 
