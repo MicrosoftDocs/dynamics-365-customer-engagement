@@ -50,7 +50,7 @@ After you enable real-time customer sentiment, you can view scores in the [Omnic
 
 ## Service representative settings
 
-Service representatives can view the customer sentiment in the communication panel for a conversation session that is active and in focus. For a session that isn't in focus, the alert is shown on the session panel.
+Service representatives can view the customer sentiment in the communication panel for a conversation session that's active and in focus. For a session that isn't in focus, the alert is shown on the session panel.
 
 You can show alerts to the service representatives when a customer's sentiment decreases to or lowers to a particular value. You can set the customer's sentiment to any of the following values:
 
