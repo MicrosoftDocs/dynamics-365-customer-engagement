@@ -29,7 +29,7 @@ Before you can start using the app, you need to install the Dynamics 365 Custome
 
 ## Basic Navigation
 
-1.	When you sign in, you’ll see the MyApps page with all your apps listed. 
+1.	When you sign in, the MyApps page appears with all your apps listed. 
 2.	Select **Customer Service Hub**.
 
 ![Choose an app.](../media/ChooseAnApp_1.png "Choose an app")
@@ -46,7 +46,7 @@ The **Favorites and Recently Used** sections provide quick access to your record
 
 - To access these sections, tap the **Menu** ![Menu button](../media/MenuButton.png "Menu button") button on the nav bar, and then choose the **Favorites and Recent** ![Fav Button](../media/FavButton.png "Fav Button") button.
 
-- To pin an item as a favorite, from the list of **Recently Used** items, tap the pin. This will pin and move the item to favorites.
+- To pin an item as a favorite, from the list of **Recently Used** items, tap the pin. This pins and moves the item to favorites.
 
   ![Favorites and Recent items.](../media/Favs_3.png "Favorites and Recent items")
 
