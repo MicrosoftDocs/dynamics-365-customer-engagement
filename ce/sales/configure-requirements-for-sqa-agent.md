@@ -26,7 +26,7 @@ Before you configure the agents, ensure that prerequisites are configured in you
 | Prerequisite | Applicable for | Description |
 |--------------|------------|-------------|
 | Create application in Azure | Research-only and Research and engage | An Azure AD application is required to securely authenticate the agent’s Dataverse Application User, enabling it to act independently via app-based access.<br>More information: [Create application in Azure](#create-application-in-azure) |
-| Create an app user in Dataverse | Research-only and Research and engage | Create a Dataverse app user so the agent can act independently, like send emails, own records, and more.<br>More information: [Create an app user in Dataverse](#create-an-app-user-in-dataverse) |
+| Create an app user in Dataverse | Research-only and Research and engage | Create a Dataverse app user so the agent can act independently, like send emails, own records, and more.<br>More information: [Create an app user in Dataverse and assign AISalesPerson role](#create-an-app-user-in-dataverse-and-assign-aisalesperson-role) |
 | Create a shared mailbox | Research and engage | The agent mailbox that will be used to send emails and follow-ups in compliance with your org’s policies.<br>More information: [Create a shared mailbox](#create-a-shared-mailbox) |
 | Configuring server-side synchronization | Research and engage | Connect Dynamics 365 Sales and Exchange to sync emails, contacts, tasks, and calendar.<br>More information: [Configuring server-side synchronization](#configuring-server-side-synchronization) |
 
@@ -73,7 +73,7 @@ To learn more about app creation, see [Quickstart: Register an app in Microsoft 
 
 To learn more about shared mailboxes, see [Shared mailboxes in Exchange Online](/exchange/collaboration-exo/shared-mailboxes).
 
-## Create an app user in Dataverse
+## Create an app user in Dataverse and assign AISalesPerson role
 
 1. Ensure that you have the **System Administrator** role for your Dynamics 365 organization.  
 1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  

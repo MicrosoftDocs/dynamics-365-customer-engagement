@@ -31,6 +31,8 @@ Consider the following before you configure knowledge sources for the Sales Qual
 
 - If the Sales Qualification Agent and Opportunity Research Agent are in the same environment, they share the same knowledge sources for account research insights. The knowledge sources that you add to or remove from one of the agents will be reflected in the other agent as well. If you see knowledge sources that you didn't add, it's possible that those are configured for the Opportunity Research Agent. Don't remove them unless you want to remove them from both the agents.
 
+- Ensure that the knowledge sources that you want the agent to use are in the SharePoint folder. Any other file sources such as OneDrive are not supported.
+
 - When you upload files from SharePoint in Copilot Studio, select the **SharePoint** option in the **Featured** section. The **SharePoint** option under the **Upload file** section isn't supported. Selecting this option blocks the agent from processing the leads. The following screenshot shows the correct option to select in Copilot Studio:
 
    :::image type="content" source="media/sales-qualification-agent-knowledge-source-sharepoint.png" alt-text="Screenshot showing the correct SharePoint option to select in Copilot Studio":::
