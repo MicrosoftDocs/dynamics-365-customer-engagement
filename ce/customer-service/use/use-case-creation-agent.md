@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 The case creation and update feature in Case Management Agent does the following actions:
 - autonomously creates cases from chat, digital messaging, and incoming voice conversations
-- autonomously updates case fields during ongoing conversations, from incoming emails
+- autonomously updates case fields when a conversation ends or from incoming emails
 - populates the case fields for a case you created manually from a conversation or an email
 
 These capabilities eliminate the need for manual case creation and reduce errors.

@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 08/08/2025
+ms.date: 09/15/2025
 ms.custom: bap-template
 ---
 
@@ -23,7 +23,7 @@ You can use the creation and update feature of the Case Management Agent to do t
 - Predict and update case fields autonomously in the following scenarios:
      - When the AI agent creates a case autonomously from a conversation
      - When a customer service representative (service representative or representative) manually creates a case from an email or conversation
-     - When a case is created from an incoming email using Automatic record creation and update rules
+     - When a case is created from an incoming email using automatic record creation and update rules
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -32,10 +32,11 @@ You can use the creation and update feature of the Case Management Agent to do t
 - Administrators must have the CSR Manager or System Administrator role.
 - Enable [AI form fill assistance](/power-platform/admin/settings-features#ai-form-fill-assistance) in the Power Platform admin center application.
 - [Automatically create or update records](automatically-create-update-records.md) are set up to create case records from emails.
-- [Provision channels in Dynamics 365 Contact Center](/dynamics365/contact-center/implement/provision-channels).
-- Make sure you [configure authenticated chat](create-chat-auth-settings.md). The Case Management Agent can create and update cases from authenticated chats only.
-- [Create and manage workstreams](create-workstreams.md) and [Create and manage queues for unified routing](queues-omnichannel.md) are set up.
-- We recommend that you configure a [preconversation survey](configure-pre-chat-survey.md) so that customers can provide necessary details in the chat which can be used by the AI agent during case creation.
+- The following configurations are set up to create a case from conversations:
+    - [Provision channels in Dynamics 365 Contact Center](/dynamics365/contact-center/implement/provision-channels).
+    - Make sure you [configure authenticated chat](create-chat-auth-settings.md). The Case Management Agent can create and update cases from authenticated chats only.
+    - [Create and manage workstreams](create-workstreams.md) and [Create and manage queues for unified routing](queues-omnichannel.md) are set up.
+    - We recommend that you configure a [preconversation survey](configure-pre-chat-survey.md) so that customers can provide necessary details in the chat which can be used by the AI agent during case creation.
 -  [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center application.
 - The Autonomous Case Management agent uses the Data Entry Agent in the background. The Power Platform [Pay-as-you-go plan](/power-platform/admin/pay-as-you-go-overview) mandates the usage of an Azure subscription the system charges when the agent runs. Make sure you [Set up consumption-based billing](setup-pay-as-you-go.md).
 - Transcription is enabled for the channels that support voice conversations. For more information, see [Enable transcription for voice channels](voice-channel-configure-transcripts.md#enable-call-recording-and-transcription-for-voice).
@@ -70,7 +71,7 @@ We recommend that you follow these guidelines when you are adding descriptions f
 
 ## Configure autonomous case updates
 
-In the Copilot Service admin center, configure the AI agent to predict and update case fields during an ongoing conversation or when processing an incoming email. The rules you specify in this section apply to all channels unless you explicitly configure them to apply to specific channels.
+In the Copilot Service admin center, configure the AI agent to predict and update case fields after a conversation ends or when processing an incoming email. The rules you specify in this section apply to all channels unless you explicitly configure them to apply to specific channels.
 
 > [!NOTE]
 > The AI agent can predict and update fields of the following data types:
@@ -90,16 +91,19 @@ In the Copilot Service admin center, configure the AI agent to predict and updat
 1. In the page that appears, in **Case update by AI agent (any channel)**, select **Create**. Specify the following information:
    - A unique name for the rule. 
    - Conditions for the AI agent to apply the rule. If no conditions are defined, the rule applies to all channels.
-   - Fields in **Fields for AI prediction** that the agent predicts and updates during an ongoing conversation or from an incoming email.
-       - For conversations, if you don't specify update rules, the agent updates the fields you add in the **Fields for AI prediction** section in **Case creation by AI agent (from chats and calls)** sections.
-       - For emails, if you don't specify they update rules, the AI agent doesn't autonomously update any fields.
+   - Fields in **Fields for AI prediction** that the agent predicts and updates when the conversation ends or from an incoming email. If you don't specify update rules, the AI agent doesn't autonomously update any fields.
    - Select **Save**.
- For example, if you only specify **Issue description** and **Contact** fields in the **Fields for AI prediction** section, the AI agent updates these fields during an ongoing conversation or from an incoming email. If you also specify a condition such as live chat status equals Active, then the rule applies only for live chat conversations that are active.
+ For example, if you only specify **Issue description** and **Contact** fields in the **Fields for AI prediction** section, the AI agent updates these fields when the conversation ends or from an incoming email. If you also specify a condition such as live chat status equals Active, then the rule applies only for live chat conversations that are active.
 1. The system runs case update rules in the order they're listed. You can select the arrow buttons to reorder the rules as needed.
 1. Select **Activate** to activate the rules.
-1. Select **Allow AI agent to override human edits during autonomous updates** for the AI agent to overwrite fields previously edited by service representatives during autonomous case update. 
+1. Select **Allow AI agent to override human edits during autonomous updates** for the AI agent to automatically overwrite fields. During autonomous case update, the AI agent overwrites fields that were previously edited by service representatives. 
 
 ## Configure autonomous case creation
+
+The following actions trigger the case creation process of the Case Management Agent:
+
+- The service representative accepts an incoming conversation request.
+- The service representative ends the conversation.
 
 To allow the AI agent to autonomously create cases across all provisioned messaging and voice channels, perform the following steps:
 
@@ -142,7 +146,7 @@ For the agent to run this scenario, specify the following in the **Case creation
 - **Channel**: Chat  
 - **Fields for AI prediction**: Issue description, Contact  
 
-For an ongoing conversation, the AI agent must update the **Issue description** and **Contact** fields, if there are any updates. Additionally, the **Product**, **Priority**, and **Serial number** fields should also be updated if the case category is set to **product defect**. 
+When the conversation ends, the AI agent must update the **Issue description** and **Contact** fields, if there are any updates. Additionally, the **Product**, **Priority**, and **Serial number** fields should also be updated if the case category is set to **product defect**. 
 
 For the agent to execute this scenario, in addition to the **Issue description** and **Contact** fields set in **Default list of fields for AI prediction** specify the following in the **Case creation and update with autonomous AI assistance (preview)** page:
 
@@ -157,4 +161,4 @@ For the agent to execute this scenario, in addition to the **Issue description**
 
 ## Next steps
 
- [Use Case Management Agent to create and update cases (preview](../use/use-case-creation-agent.md)
+ [Use Case Management Agent to create and update cases (preview)](../use/use-case-creation-agent.md)

@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot 
-ms.date: 09/01/2025
+ms.date: 09/15/2025
 ms.custom: bap-template
 ---
 
@@ -41,9 +41,9 @@ POST [Organization URI]/api/data/v9.2/msdyn_invokeCaseProcessingAgent
 
 | Property                | Type   | Required | Description |
 |-------------------------|--------|----------|-------------|
-| **action**              | String  | Yes | Defines CPA action to run.<br>Values: <ul><li>**Resolve**: Resolve the case using the Case Management Agent's resolution capabilities.</li><li> **Enrich**: Extracts information from a source entity, such as an email, and updates the case with relevant details.<br> The source entity must be accessible and contain relevant case information</li></ul> |
-| **automationMode**      | String | No | Defines automation mode for the action. This applies to case resolution only. If this value isn't provided, the agent uses the mode configured by the administrator.<br>Values: <ul><li>**Full**: AI agent resolves the case automatically without customer service representative (service representative or representative) intervention.</li>, <li>**Semi**: AI agent drafts resolution emails but requires service representative's review and approval</li></ul> |
-| **sourceContextEntity** | String | Yes | This is a required value for case enrichment. The source entity, such as an email or a conversation that must be used to update the case.<br>Example: `"emails(0e20cf92-f663-f011-bec1-000d3a3622ba)"` |
+| **action**              | String  | Yes | Defines the case processing action to run.<br>Values: <ul><li>**resolve**: Resolve the case using the Case Management Agent's resolution capabilities.</li><li> **enrich**: Extracts information from a source entity, such as an email, and updates the case with relevant details.<br> The source entity must be accessible and contain relevant case information</li></ul> |
+| **automationLevel**      | String | No | Defines automation mode for the action. This applies to case resolution only. If this value isn't provided, the agent uses the mode configured by the administrator.<br>Values: <ul><li>**Full**: AI agent resolves the case automatically without customer service representative (service representative or representative) intervention.</li>, <li>**Semi**: AI agent drafts resolution emails but requires service representative's review and approval</li></ul> |
+| **sourceContextEntity** | String | Yes | This is a required value for case enrichment and optional for case resolution. The source entity, such as an email or a conversation that must be used to update the case.<br>Example: `"emails(0e20cf92-f663-f011-bec1-000d3a3622ba)"` |
 
 
 ### Sample request
@@ -67,6 +67,7 @@ POST [Organization URI]/api/data/v9.2/msdyn_invokeCaseProcessingAgent
 In the example below, you can execute invoke the Case Management Agent from Dataverse plugins or custom code by executing the `msdyn_invokeCaseProcessingAgent` organization request. The agent is used to update the case using a related email entity and then resolve the case with full automation.
 
 
+### Example 1
 
 ```C#
 CrmServiceClient GetService()
@@ -143,3 +144,27 @@ void Main()
 ```
 
 
+### Example 2
+
+```JavaScript
+function invokeCaseManagementAgent() {
+  var data = JSON.stringify({
+    "msdyn_incidentId": "020edf2f-7d3f-4a69-bd26-030736604eeb",
+    "msdyn_actions": "[{\"action\":\"enrich\",\"sourceContextEntity\":\"emails(0e20cf92-f663-f011-bec1-000d3a3622ba)\"},{\"action\":\"resolve\",\"automationMode\":\"Full\"}]"
+  });
+  var xhr = new XMLHttpRequest();
+  xhr.withCredentials = true;
+  xhr.addEventListener("readystatechange", function() {
+    if(this.readyState === 4) {
+      console.log(this.responseText);
+    }
+  });
+  xhr.open("POST", Xrm.Utility.getGlobalContext().getClientUrl()+"/api/data/v9.2/msdyn_invokeCaseProcessingAgent");
+  xhr.setRequestHeader("Cache-Control", "no-cache");
+  xhr.setRequestHeader("Accept", "*/*");
+  xhr.setRequestHeader("Content-Type", "application/json");
+  xhr.send(data);
+}
+
+invokeCaseManagementAgent();
+```
