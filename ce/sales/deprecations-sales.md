@@ -20,6 +20,10 @@ The features that have been removed or deprecated in  Dynamics 365 Sales are lis
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability continues to work and is fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.  
 
+## Document summary in Copilot  
+
+Effective October 2025, the [document summary feature in Copilot](copilot-get-information.md#copilot-doc-summarization) will be deprecated. This means that you can no longer generate summaries of sales documents and proposals using Copilot. Prompt for document summarization will be removed and natural language prompts for document summarization will not work either. As an alternative, you can use the built-in summarization capabilities in Microsoft Word or other text editing tools.
+
 ## Emails that need follow-ups in Copilot in Dynamics 365 Sales
 
 Effective September 2025, the **Show emails that need follow up** prompt in Copilot in Dynamics 365 Sales is deprecated region-wise. After the deprecation, you can no longer view the emails that need follow-ups in Copilot in Dynamics 365 using this prompt.  

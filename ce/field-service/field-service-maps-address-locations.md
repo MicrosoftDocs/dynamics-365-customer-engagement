@@ -59,7 +59,7 @@ Booking maps is a feature that allows frontline workers to see their scheduled j
 > [!div class="mx-imgBorder"]
 > ![Screenshot of bookings on a map in the Field Service mobile app.](./media/mobile-2020-booking-maps.png)
 
-For more information, see [Enable geospatial features in your environment](/powerapps/maker/canvas-apps/geospatial-overview#enable-the-geospatial-features-for-the-environment).
+For more information, see [Enable geospatial features in your environment](/powerapps/maker/canvas-apps/geospatial-overview#enable-geospatial-features-for-the-environment).
 
 ## Location tracking
 
@@ -71,7 +71,7 @@ A geofence is a virtual perimeter around a specific location. Geofencing allows 
 
 ## Use custom Bing Maps API key
 
-Enable the connection to Bing Maps to get service enhancements, such as location information for work orders and resources. When you keep the the Map API field blank, Field Service pulls location and travel time information from the Bing Maps API on your behalf. However, admins can specify their own API key to [use custom implementations](/bingmaps/spatial-data-services/data-source-management-api). Using a custom API key incurs the costs of usage on the Azure service.
+Enable the connection to Bing Maps to get service enhancements, such as location information for work orders and resources. When you keep the Map API field blank, Field Service pulls location and travel time information from the Bing Maps API on your behalf. However, admins can specify their own API key to [use custom implementations](/bingmaps/spatial-data-services/data-source-management-api). Using a custom API key incurs the costs of usage on the Azure service.
 
 Basic tier Bing Maps accounts are now deprecated and their associated API keys are no longer supported for geo-coding. Users who have been utilizing these custom API keys may now see unexpected results or errors when updating a record’s address and attempting geo-coding either automatically or manually.
 

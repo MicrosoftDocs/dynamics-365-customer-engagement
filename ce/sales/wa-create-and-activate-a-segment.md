@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
 ms.collection:
-ms.date: 09/20/2024
+ms.date: 09/05/2025
 ms.custom:
 - bap-template
 - ai-gen-docs-bap

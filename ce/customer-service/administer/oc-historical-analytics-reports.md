@@ -1,7 +1,7 @@
 ---
 title: Manage historical analytics reports in Omnichannel for Customer Service
 description: Use this article to learn how to configure historical analytics reports for Omnichannel for Customer Service.
-ms.date: 08/18/2025
+ms.date: 09/12/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -31,7 +31,6 @@ The historical analytics reports include:
 - [Agent](../use/agent-dashboard.md)
 - [Bot](../use/oc-bot-dashboard.md)
 - [Conversation Topics](../use/oc-conversation-topics-dashboard.md)
-- [Unified routing](../use/oc-historical-analytics-unified-routing.md)
 
 > [!NOTE]
 > The reports retain their current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the steps provided [here](analytics_overview.md#keep-the-report-state-when-you-switch-session-tabs) to keep the report state.
@@ -47,26 +46,6 @@ Use the Copilot Service admin center or Customer Service Hub app to enable or di
 1. Select **Save** or **Save and Close**.
 
 This configuration also enables AI-discovered topics from conversations with default settings and historical analytics for unified routing.
-
-## Enable historical analytics for unified routing in Omnichannel for Customer Service
-
-> [!NOTE]
-> Starting June 30, 2025, the legacy version of [Historical analytics for unified routing in Omnichannel for Customer Service](../use/oc-historical-analytics-unified-routing.md#historical-analytics-for-unified-routing) is deprecated in Dynamics 365 Customer Service and Dynamics 365 Contact Center. Support ends on August 31, 2025, after which this dashboard will be removed.
-
-
-You can enable historical analytics for unified routing in the Copilot Service admin center app. The metrics are available in the report after 24 hours.
-
-> [!IMPORTANT]
->
-> Omnichannel historical analytics must be enabled before you can enable historical analytics for unified routing.
-
-1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.	
-1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page is displayed. 
-1. Select the **Add historical analytics for unified routing** checkbox.  
-
-1. Select **Save** or **Save and Close**.
-    
-The Unified routing historical analytics report is available as a tab in the Omnichannel historical analytics report.
 
 ## Enable historical analytics for Copilot agents in Omnichannel for Customer Service
 
@@ -142,7 +121,6 @@ If you customized the Copilot Service workspace app, you must complete the follo
 ### Related information
 
 [Dashboard Overview](../use/customer-service-analytics-insights-csh.md)  
-[Historical analytics for unified routing in Omnichannel for Customer Service](../use/oc-historical-analytics-unified-routing.md)  
 [Configure user security to resources in an environment](/power-platform/admin/database-security)  
 [How access to a record is determined](/power-platform/admin/how-record-access-determined)  
 

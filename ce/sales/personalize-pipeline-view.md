@@ -1,7 +1,7 @@
 ---
 title: Personalize the opportunity pipeline view
 description: Personalize the pipeline view to see what you want to see and organize opportunities in a way that makes sense to you.
-ms.date: 07/25/2024
+ms.date: 09/09/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -60,7 +60,7 @@ Personalize the side panel to view it in different modes, depending on the detai
 1. Select the wand icon to switch to one of the following modes:  
         :::image type="content" source="media/side-panel-modes.PNG" alt-text="Screenshot of the side panel modes.":::
     - **Compact header:** This is the default mode. It displays the most important fields in the opportunity table but doesn't include the business process flow.
-    - **Show BPF:** While you're in the compact mode, select this option to view the business process flow.
+    - **Business process flow:** While you're in the compact mode, select this option to view the business process flow.
     - **Extended width:**  This model is ideal for large screens. It displays the business process flow and all the fields in the opportunity table.  
 
     The selected mode is saved until you change it again.

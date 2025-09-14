@@ -163,7 +163,11 @@ To summarize the account, Copilot uses the information in the account record and
 
 To drill down into the details of the account, select the suggested prompts that are displayed below the summary. If you have a LinkedIn Sales Navigator license, the **Find relevant Sales Navigator accounts** prompt is also suggested. [Would you like to view a summary of different fields?](copilot-get-information.md#would-you-like-to-view-a-summary-of-different-fields)
 
-## Summarize proposals or sales documents <a name="copilot-doc-summarization"></a>
+<a name="copilot-doc-summarization"></a>
+## Summarize proposals or sales documents
+
+> [!NOTE]
+> Starting from October 2025, document/proposal summary will be deprecated region-wise. Learn more in [Removed or deprecated features in Dynamics 365 Sales](deprecations-sales.md#document-summary-in-copilot). 
 
 Your records might have sales documents, such as proposals and contracts, associated with them. Copilot can summarize the content of these documents to help you understand their key points. For example, you can ask Copilot to summarize a proposal document to understand the budget, authority (decision maker), need, and timeline (BANT) of the opportunity.
 
