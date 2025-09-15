@@ -1,7 +1,7 @@
 ---
 title: Manage historical analytics reports in Omnichannel for Customer Service
-description: Use this article to learn how to configure historical analytics reports for Omnichannel for Customer Service.
-ms.date: 09/12/2025
+description: Learn how to enable and customize Omnichannel historical analytics reports for BI and AI-driven insights in customer service operations.
+ms.date: 09/15/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -45,7 +45,7 @@ Use the Copilot Service admin center or Customer Service Hub app to enable or di
 1. Set the **Enable Omnichannel historical analytics report** toggle to **On** to enable the reports or set the toggle to **No** to disable the reports.
 1. Select **Save** or **Save and Close**.
 
-This configuration also enables AI-discovered topics from conversations with default settings and historical analytics for unified routing.
+This configuration enables AI-discovered topics from conversations with default settings.
 
 ## Enable historical analytics for Copilot agents in Omnichannel for Customer Service
 
@@ -55,7 +55,7 @@ In Copilot Service admin center, you can enable the historical analytics for AI 
 >
 > Omnichannel historical analytics must be enabled before you can enable historical analytics for agents. This feature is available only if Copilot agents are integrated with Omnichannel for Customer Service.
 
-- If you select this option, the Omnichannel Summary and Bot dashboards are available as a tab in the Omnichannel historical analytics report. The Bot dashboard shows metrics specific to the Copilot agent.
+- If you select this option, the Omnichannel Summary and Bot dashboards appear as options in the dashboard filter for the Omnichannel historical analytics report. The Bot dashboard shows metrics specific to the Copilot agent.
 
  :::image type="content" source="../media/oc-bot-session-dashboard.png" alt-text="Copilot Studio bot dashboard.":::
   
@@ -66,26 +66,21 @@ In Copilot Service admin center, you can enable the historical analytics for AI 
 **Enable historical analytics for agents in Omnichannel for Customer Service**
 
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page is displayed. 
+1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page appears. 
 1. Select the **Add historical analytics for bot** checkbox.
 1. Select **Save** or **Save and Close**.
 
-The unified routing historical analytics report is available as a tab in the Omnichannel historical analytics report.
 
 ## Enable historical analytics for voice in Omnichannel for Customer Service
 
 You can enable the historical analytics dashboard for voice in the Copilot Service admin center app. The metrics are available in the dashboard 24 hours after you enable historical analytics.
 
-> [!IMPORTANT]
->
-> Omnichannel historical analytics must be enabled before you can enable historical analytics for unified routing.
-
-1. In the site map, select **Insights** in **Operations**. The **Insights** page appears
+1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
 1. In the **Omnichannel historical analytics** section, select **Manage**.
 1. The **Omnichannel historical analytics** page appears. Select the **Add historical analytics for voice** checkbox.
 1. Select **Save** or **Save and Close**.
 
-The historical analytics for voice dashboard are available as a tab in the Omnichannel historical analytics report.
+In the Omnichannel historical analytics report, use the dashboard filter to find the **Voice** dashboard.
 
 ## Enable historical analytics for voicemail in Omnichannel for Customer Service
 
@@ -95,7 +90,7 @@ You can enable the historical analytics dashboard for voicemail in the Copilot S
 1. For Omnichannel historical analytics, select **Manage**.
 1. Select **Add historical analytics for voicemail**.
 
-The historical analytics for voicemail dashboard are available as a tab in the Omnichannel historical analytics report.
+In the Omnichannel historical analytics report, use the dashboard filter to find the **Voicemail** dashboard.
 
 ## View Omnichannel historical analytics reports
 
