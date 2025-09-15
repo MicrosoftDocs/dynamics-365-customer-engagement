@@ -32,7 +32,7 @@ You can use the creation and update feature of the Case Management Agent to do t
 - Administrators must have the CSR Manager or System Administrator role.
 - Enable [AI form fill assistance](/power-platform/admin/settings-features#ai-form-fill-assistance) in the Power Platform admin center application.
 - [Automatically create or update records](automatically-create-update-records.md) are set up to create case records from emails.
-- The following configurations are set up to create a case from conversations:
+- The following configurations are set up if you want to create a case from conversations:
     - [Provision channels in Dynamics 365 Contact Center](/dynamics365/contact-center/implement/provision-channels).
     - Make sure you [configure authenticated chat](create-chat-auth-settings.md). The Case Management Agent can create and update cases from authenticated chats only.
     - [Create and manage workstreams](create-workstreams.md) and [Create and manage queues for unified routing](queues-omnichannel.md) are set up.
