@@ -21,7 +21,7 @@ You must configure global settings for Case Management Agent in Dynamics 365 Cus
 
 ## Configure global settings
 
-For the AI agent to send emails and resolve cases autonomously, you must set up a dedicated application user to send and receive emails on behalf of your organization. Perform the steps in the following sections in the order specified.
+The AI agent requires a dedicated application user to send emails and resolve cases autonomously. This application user handles all email communication on behalf of your organization. Perform the steps in the following sections in the order specified.
 
 ### Register an application and create a secret 
 
@@ -55,8 +55,9 @@ You must authenticate the following connection references using an admin account
 
 Perform the following steps:
 
-1. In [Power Apps](https://make.powerapps.com/) select **Solutions**.
-1. In the page that appears, select **Default Solution**.
+1. In [Power Apps](https://make.powerapps.com/) perform the following steps:
+1. Select **Solutions**.
+1. On the page that appears, select **Default Solution**.
 1. In the **Objects** pane, search for and select **Connection References**. The list of existing connection references appears.
 1. Select **Case Processing Agent CDS Connection**.
 1. In the **Edit Case Processing Agent CDS Connection** pane that appears, do the following steps:
@@ -65,7 +66,7 @@ Perform the following steps:
       1. Select OAuth as the authentication type and then select **Create**.
       1. In the pop-up, select the admin account to authenticate the connection.
       1. After the connection is created, the status of the connection reference changes to **Connected**.
-1. In the **Edit Case Processing Agent CDS Connection** pane, from the **Connection** dropdown, select the admin connection that you just created.
+1. In the **Edit Case Processing Agent CDS Connection** pane, from the **Connection** dropdown, select the admin connection that you created.
 
 - Repeat the steps to authenticate the **Case Processing Agent MCS Connection** connection reference. Make sure to select **Microsoft Copilot Studio** instead of **Dataverse** when you're creating a new connection.
 - For **Microsoft Copilot Studio for Sales** or **Microsoft Dataverse CDS Connection**, in the edit pane that appears, the admin id appears in the **Connection** dropdown. Select the admin ID. You don't have to create a new connection.
@@ -86,7 +87,7 @@ In Copilot Studio, perform the following steps:
       - Select **Connect** for **Microsoft Dataverse**.
       -  On the page that appears, select **...** > **Add new connection**.
       - Select Service Principal as the authentication type.
-      - Specify the **Client ID**, **Client Secret**, and **Tenant ID** that you've copied in the [Register an application and create a secret](#register-an-application-and-create-a-secret) section and then select **Create**.
+      - Specify the **Client ID**, **Client Secret**, and **Tenant ID** that you copied in the [Register an application and create a secret](#register-an-application-and-create-a-secret) section and then select **Create**.
       - After the connection is created, the status of the connection reference changes to **Connected**.
    - For **Call custom agent**, you can use the Ouath authentication.
       - Select **Connect** for **Call custom agent**.
