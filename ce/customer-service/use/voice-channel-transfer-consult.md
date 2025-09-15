@@ -1,7 +1,7 @@
 ---
 title: Transfer calls and consult with users
 description: Use this article to understand how the customer service representatives can use the transfer and consult options to make and receive customer calls.
-ms.date: 09/08/2025
+ms.date: 09/15/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
