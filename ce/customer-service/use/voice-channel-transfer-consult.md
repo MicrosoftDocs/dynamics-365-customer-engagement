@@ -90,7 +90,7 @@ The consult option allows you to collaborate with another representative, a supe
 
 When you initiate a consult, the following actions occur:
 - You're the primary representative. 
-- You can search for representatives to consult within the same queue or other queues. Additionally, you can filter representatives within a queue based on their skills. The application displays the representatives whose skills match the selected criteria in full or partially, along with their name, and current presence status. You can add multiple representatives to the consult.
+- You can search for representatives to consult within the same queue or other queues. Additionally, you can filter representatives within a queue based on their skills. The application shows representatives whose skills fully or partially match the selected criteria, along with their name and current presence status. You can add multiple representatives to the consult.
 - The customer is automatically put on hold. Hold music plays for the customer.
 - When the invited collaborator joins the call, they have a consult role. Consulting on a call doesn't affect the collaborator's available capacity. You can also add multiple collaborators to the consult.
 - When you have multiple participants in a consult, you can manage each participant individually:
