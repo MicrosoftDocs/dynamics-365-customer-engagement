@@ -4,7 +4,7 @@ description: Use this article to know about the supported cloud locations for th
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 03/03/2025
+ms.date: 09/15/2025
 ms.topic: conceptual
 ms.custom: bap-template
 ---
@@ -67,11 +67,13 @@ The following table lists the sovereign region, URL, and general availability of
 
 |Sovereign region|URL|General availability|
 |-------|---------|-----------|
-|Government Community Cloud (GCC) Moderate| To be announced |To be announced|
+|Government Community Cloud (GCC) Moderate<sup>**1**</sup>| crm9.dynamics.com |Available|
 |GCC High|To be announced |To be announced |
 |GCC Department of Defense (DoD)|To be announced |To be announced |
 |China | To be announced | To be announced|
 |Germany | To be announced | To be announced|
+
+<sup>**1**</sup> Azure Communication Services for the voice channel will continue to run in North America Commercial Cloud.
 
 ### Microsoft calling plans
 
