@@ -46,7 +46,7 @@ When you receive an incoming call, you can transfer the call to a service repres
       > - When you transfer a call to a queue that doesn't have any service representatives, the application automatically ends the call and sets the status to Closed.
       > - If you transfer a call from a phone number linked to an inbound or outbound profile to a queue with a Copilot agent, the agent can only speak to the customer and end the call. The agent can't transfer the call to another agent or external number, even when you have configured the Escalation topic in Copilot Studio.
 
-        :::image type="content" source="../media/voice-call-transfer-to-representative.png" alt-text="Screenshot of selecting a representative to transfer the call." lightbox="../media/voice-call-transfer-to-representative.png":::
+        :::image type="content" source="../media/voice-call-transfer-to-representative-mini.png" alt-text="Screenshot of selecting a representative to transfer the call." lightbox="../media/voice-call-transfer-to-representative.png":::
     
     - **Transfer to an external PSTN number or Teams user**: Select **External number**. On the number pad that appears, enter the customer's area or region code, phone number, and then select **Call** to make your call. 
     -  **Transfer to Teams user**: Select **Teams**, and use the search option to search for a Microsoft Teams user. The results are filtered based on the name and the live presence of the users in Microsoft Teams. <br> 
