@@ -26,7 +26,7 @@ You can use Case Management Agent to resolve cases by identifying case intent, a
 - [Customer Intent Agent](/dynamics365/contact-center/administer/manage-customer-intent-agent) is configured.
 - For the AI agent to send emails and resolve cases autonomously, you must set up a dedicated application user to send and receive emails on behalf of your organization. Perform the steps in [Configure global settings for Case Management Agent (preview)](case-management-global-settings.md).
        
-## Configure global settings
+## Configure case resolution settings
 
  You can specify the user the AI agent should use to send emails, the default Copilot template, and if the AI agent must use Copilot recommended template to draft emails. Perform these steps for the fully-autonomous case resolution process:
 
