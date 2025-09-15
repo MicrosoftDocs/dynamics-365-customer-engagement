@@ -12,22 +12,12 @@ ms.custom: bap-template
 
 # Configure global settings for Case Management Agent (preview)
 
-You must configure global settings for the Case Management Agent in Dynamics 365 Customer Service to enable fully autonomous case resolution, follow-up, and closure capabilities.
-
-- For the AI agent to send emails and resolve cases autonomously, you must set up a dedicated application user to send and receive emails on behalf of your organization. Perform the following steps:
-   1. [Create](/entra/identity-platform/quickstart-create-new-tenant#create-a-new-microsoft-entra-tenant) and [register a single-tenant application registration](/entra/identity-platform/quickstart-register-app#register-an-application) in the Azure portal. Copy the values of **Client ID**, **Client Secret**, and **Tenant**.
-   2. [Create an application user](/power-platform/admin/manage-application-users?tabs=new#create-an-application-user) with Customer Service Representative role in Power Platform admin center.
-   3. Create a shared mailbox in Exchange Online. Learn more in [Shared mailboxes in Exchange Online](/exchange/collaboration-exo/shared-mailboxes).
-   4. Assign the shared mailbox email id to the application user in Power Platform admin center. Learn more in [Manage email settings](/power-platform/admin/settings-email). This application user is used in Copilot Service admin center to receive and send responses.
-   5. In Copilot Studio, select Case Processing Agent in **Agents** and create a connection reference with the following data. Learn more in [Configure and manage connections](/microsoft-copilot-studio/authoring-connections).
-       - **Authentication Type**: Service Principal
-       - Specify the **Client ID**, **Client Secret**, and **Tenant** that you've copied in the earlier step.
-       - Publish the agent. 
+You must configure global settings for Case Management Agent in Dynamics 365 Customer Service to enable fully autonomous case resolution, follow-up, and closure capabilities.
 
 ## Prerequisites
 
 - An Azure account that has an active subscription.
-- You must have atleast the [Application Developer](/entra/identity/role-based-access-control/permissions-reference#application-developer) to create app registrations.
+- You must have at least the [Application Developer](/entra/identity/role-based-access-control/permissions-reference#application-developer) to create app registrations.
 
 ## Configure global settings
 
@@ -36,11 +26,11 @@ For the AI agent to send emails and resolve cases autonomously, you must set up 
 ### Register an application and create a secret 
 
 1. Sign in to [Microsoft Entra admin center](https://entra.microsoft.com) and perform the steps in [register a single-tenant application registration](/entra/identity-platform/quickstart-register-app#register-an-application). After your application is registered, copy the values of **Client ID** and **Tenant ID** from the application overview page.
-1. Perform the steps in [Create a client secret](/entra/identity-platform/how-to-add-credentials?tabs=client-secret#add-a-credential-to-your-application) and copy the value of the client secret.
+1. Perform the steps in [Create a client secret](/entra/identity-platform/how-to-add-credentials?tabs=client-secret#add-a-credential-to-your-application) and copy **Value** of the client secret.
 
 ### Create an application user in Power Platform admin center
 
-This application user is used in Copilot Service admin center to receive and send responses.
+The application user you create in Power Platform admin center is used to receive and send responses. Perform the following steps:
 
 1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com) and perform the steps in [Create an application user](/power-platform/admin/manage-application-users?tabs=new#create-an-application-user) to create a new application user. 
 1. Assign the Customer Service Representative role to the application user.
@@ -57,12 +47,11 @@ This application user is used in Copilot Service admin center to receive and sen
 
 ### Connect and authenticate connection references
 
-You must authenticate the following connection references using an admin account to enable the Case Management Agent's access to data sources:
-- Case Processing Agent CDS Connection
-- Case Processing Agent MCS Connection
-- Microsoft Copilot Studio for Sales, if Dynamics 365 Sales application is configured in your environment. Else
+You must authenticate the following connection references using an admin account to enable Case Management Agent to access data sources. These connections are essential for the agent to perform autonomous case processing, data retrieval, and AI-powered customer interactions. 
 
-These connections are essential for the agent to perform autonomous case processing, data retrieval, and AI-powered customer interactions. 
+- **Case Processing Agent CDS Connection**
+- **Case Processing Agent MCS Connection**
+- **Microsoft Copilot Studio for Sales**, if Dynamics 365 Sales application is configured in your environment. If you don't have Dynamics 365 Sales application, use **Microsoft Dataverse CDS Connection**.
 
 Perform the following steps:
 
@@ -72,31 +61,35 @@ Perform the following steps:
 1. Select **Case Processing Agent CDS Connection**.
 1. In the **Edit Case Processing Agent CDS Connection** pane that appears, do the following steps:
     1. Select **New connection** from the **Connection** dropdown. The **New connection** page appears in a new tab. Perform the following steps:
-      1. Search and select for Dataverse.
+      1. Search and select **Dataverse**.
       1. Select OAuth as the authentication type and then select **Create**.
       1. In the pop-up, select the admin account to authenticate the connection.
       1. After the connection is created, the status of the connection reference changes to **Connected**.
 1. In the **Edit Case Processing Agent CDS Connection** pane, from the **Connection** dropdown, select the admin connection that you just created.
 
-Repeat the steps to authenticate the **Case Processing Agent MCS Connection** connection reference. Make sure to select Microsoft Copilot Studio when you're creating a new connection.
+- Repeat the steps to authenticate the **Case Processing Agent MCS Connection** connection reference. Make sure to select **Microsoft Copilot Studio** instead of **Dataverse** when you're creating a new connection.
+- For **Microsoft Copilot Studio for Sales** or **Microsoft Dataverse CDS Connection**, in the edit pane that appears, the admin id appears in the **Connection** dropdown. Select the admin ID. You don't have to create a new connection.
 
 ### Enable flows
 
 In Power Automate, make sure that the **Invoke case processing agent** and **Call custom agent** flows are enabled. Learn more in [Turn on a flow](/power-automate/disable-flow#turn-on-a-flow).
 
-
-### Publish Case Management Agent
+### Add connection references in Copilot Studio
 
 In Copilot Studio, perform the following steps:
 
  1. Select **Agents** and then select **Case Processing Agent**.
  1. In the **Case Processing Agent** page, select **Publish** to publish the agent.
+ 1. In the **Case Processing Agent** page, do the steps to [View connections on the Connection Settings page](/microsoft-copilot-studio/authoring-connections#view-connections-on-the-connection-settings-page). **Microsoft Dataverse** and **Call custom agent** appears on the **Manage connections** page.
 
-After the agent is published, you must add a new connection reference using service principal authentication to establish the Case Management Agent's identity and authorization framework. This connection reference, configured with the **Client ID**, **Tenant ID**, and **client secret** from the [Register an application and create a secret](#register-an-application-and-create-a-secret) section, enables the agent to act on behalf of the application user. Perform the following steps:
-
-- In the **Case Processing Agent** page, do the steps to [View connections on the Connection Settings page](/microsoft-copilot-studio/authoring-connections#view-connections-on-the-connection-settings-page). **Microsoft Dataverse** and `**Call custom agent**` appear on the **Manage connections** page.
-- Select **Connect** for **Microsoft Dataverse**, and perform the following steps:
-   -  On the page that appears, select **...** > **Add new connection**.
-   - Select Service Principal as the authentication type.
-   - Specify the **Client ID**, **Client Secret**, and **Tenant ID** that you've copied in the [Register an application and create a secret](#register-an-application-and-create-a-secret) section.
-- Select **Connect** for **Call custom agent**, and then select **Submit**.
+   - For Dataverse, you must add a new connection reference using service principal authentication to establish the identity and authorization framework for Case Management Agent. Perform the following steps:
+      - Select **Connect** for **Microsoft Dataverse**.
+      -  On the page that appears, select **...** > **Add new connection**.
+      - Select Service Principal as the authentication type.
+      - Specify the **Client ID**, **Client Secret**, and **Tenant ID** that you've copied in the [Register an application and create a secret](#register-an-application-and-create-a-secret) section and then select **Create**.
+      - After the connection is created, the status of the connection reference changes to **Connected**.
+   - For **Call custom agent**, you can use the Ouath authentication.
+      - Select **Connect** for **Call custom agent**.
+      - On the page that appears, select **...** and then select the admin connection.
+      - Select **Submit**.
+      - After the connection is created, the status of the connection reference changes to **Connected**.

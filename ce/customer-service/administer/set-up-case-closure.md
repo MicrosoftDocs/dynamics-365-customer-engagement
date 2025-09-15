@@ -26,6 +26,7 @@ The Case Management Agent follows up with customers over email. If customers don
 - The CSR Manager or System Administrator role.
 - If you configure the fully automated case follow-up and closure, the following apply to the fully-automated case follow-up and closure process:
 - application user to send and receive emails and shared inbox. Learn more in [Prerequisites](set-up-case-resolution-agent.md#prerequisites).
+- For the AI agent to send follow-up emails autonomously, you must set up a dedicated application user to send and receive emails on behalf of your organization. Perform the steps in [Configure global settings for Case Management Agent (preview)](case-management-global-settings.md).
 - Copilot recommended email templates and default email templates configured in the **Global settings (preview)** page. Learn more in [Configure global settings](set-up-case-resolution-agent.md#configure-global-settings).
 
 ## Configure autonomous case follow-up and closure
