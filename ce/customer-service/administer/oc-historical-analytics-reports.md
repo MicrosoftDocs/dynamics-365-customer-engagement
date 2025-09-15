@@ -80,7 +80,7 @@ You can enable the historical analytics dashboard for voice in the Copilot Servi
 1. The **Omnichannel historical analytics** page appears. Select the **Add historical analytics for voice** checkbox.
 1. Select **Save** or **Save and Close**.
 
-In the Omnichannel historical analytics report, use the dashboard filter to find the **Voice** dashboard.
+In the Omnichannel historical analytics report, use the dashboard filter to go to the **Voice** dashboard.
 
 ## Enable historical analytics for voicemail in Omnichannel for Customer Service
 
