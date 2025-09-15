@@ -166,13 +166,21 @@ The following screenshot shows the **Key insights** section of the **Lead resear
 
 #### Deeper insights
 
-**Company overview, finances, and news**
+**Company overview**
 
 The agent searches the public web for information about the lead’s company. If your admin has configured custom knowledge sources for research, the agent prioritizes looking for information from those specified websites.
 
 - **Overview:** Fetches general information about the lead’s company, such as industry, location, company size, products and services sold, and whether it is B2B or B2C. Outlines the company’s strategic priorities and how those relate to your offerings.
 - **Finances:** Summarizes the company’s financial health, outlines key financial metrics, and interprets what they mean for your sales approach.
 - **News:** Summarizes up to three recent news articles and explains how they relate to your offerings.
+
+**Competitor insights**
+
+The agent identifies the lead’s competitors and provides insights about them. This information can help you understand the competitive landscape and tailor your sales approach accordingly. The agent provides the following insights about competitors:
+
+- **Overview:** Provides a brief description of each competitor, including their industry, location, size, and market share based on public information and knowledge sources configured by your admin.
+- **Strengths, weaknesses, opportunities, and threats (SWOT analysis):** Summarizes the key strengths, weaknesses, opportunities, and threats of each competitor based on public information and knowledge sources configured by your admin.
+- **Talking points:** Suggests potential talking points to differentiate your offerings from those of the competitors based on battle cards, positioning briefs, and other competitive intelligence documents configured by your admin as knowledge sources. 
 
 ## Related information
 
