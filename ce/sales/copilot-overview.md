@@ -58,16 +58,16 @@ Record summarization gives you a quick summary of your opportunity, lead, and ac
 
 Learn more:
 
-- [Summarize an account](copilot-get-information.md#summarize-an-account)
-- [Summarize an opportunity](copilot-get-information.md#summarize-an-opportunity)
-- [Summarize a lead](copilot-get-information.md#summarize-a-lead)
+- [Summarize an account](copilot-summarize-records.md#account-summary)
+- [Summarize an opportunity](copilot-summarize-records.md#opportunity-summary)
+- [Summarize a lead](copilot-summarize-records.md#lead-summary)
 - [Change the fields in the record summary](copilot-configure-summary-fields.md)
 
 ## Embedded experiences
 
 Use Copilot's embedded experience in Dynamics 365 Sales to quickly gain insights into your records, including:
 
-- [Embedded opportunity summary in the opportunity form](copilot-get-information.md#view-the-opportunity-summary-widget).
+- [Embedded opportunity summary in the opportunity form](copilot-summarize-records.md#view-the-opportunity-summary-widget).
 - [Embedded lead summary after lead qualification](qualify-lead-convert-opportunity-sales.md#lead-summary).
 
 ### Recent changes
