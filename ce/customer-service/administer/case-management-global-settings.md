@@ -62,10 +62,10 @@ Perform the following steps:
 1. Select **Case Processing Agent CDS Connection**.
 1. In the **Edit Case Processing Agent CDS Connection** pane that appears, do the following steps:
     1. Select **New connection** from the **Connection** dropdown. The **New connection** page appears in a new tab. Perform the following steps:
-      1. Search and select **Dataverse**.
-      1. Select OAuth as the authentication type and then select **Create**.
-      1. In the pop-up, select the admin account to authenticate the connection.
-      1. After the connection is created, the status of the connection reference changes to **Connected**.
+       1. Search and select **Dataverse**.
+       1. Select OAuth as the authentication type and then select **Create**.
+       1. In the pop-up, select the admin account to authenticate the connection.
+       1. After the connection is created, the status of the connection reference changes to **Connected**.
 1. In the **Edit Case Processing Agent CDS Connection** pane, from the **Connection** dropdown, select the admin connection that you created.
 
 - Repeat the steps to authenticate the **Case Processing Agent MCS Connection** connection reference. Make sure to select **Microsoft Copilot Studio** instead of **Dataverse** when you're creating a new connection.
