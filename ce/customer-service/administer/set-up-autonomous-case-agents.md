@@ -148,7 +148,7 @@ For the agent to run this scenario, specify the following in the **Case creation
 
 When the conversation ends, the AI agent must update the **Issue description** and **Contact** fields, if there are any updates. Additionally, the **Product**, **Priority**, and **Serial number** fields should also be updated if the case category is set to **product defect**. 
 
-For the agent to execute this scenario, in addition to the **Issue description** and **Contact** fields set in **Default list of fields for AI prediction** specify the following in the **Case creation and update with autonomous AI assistance (preview)** page:
+For the agent to run this scenario, in addition to the **Issue description** and **Contact** fields set in **Default list of fields for AI prediction** specify the following in the **Case creation and update with autonomous AI assistance (preview)** page:
 
 - Select **Create** for **Case update rules**. 
 - In the **New rule** page, specify the **Rule name** and the following:
