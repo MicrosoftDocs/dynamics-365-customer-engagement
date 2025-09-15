@@ -74,7 +74,7 @@ The lead summary is also available as an embedded experience after you qualify a
 ### Enrich leads with related information
 
 >[!NOTE]
->Applicable only for lead summaries without the Sales Qualification Agent feature enabled.  
+>Enriched lead summary is only available when Sales Qualification Agent feature is disabled. If the agent is enabled, the agent connects to the account and contact records based on lead's email address and other factors. Learn more in [Lead research page header](use-sales-qualification-agent.md#header).  
 
 Copilot can enrich your leads with information from Dynamics 365 Sales and LinkedIn such as:
 
