@@ -1,7 +1,7 @@
 ---
 title: Configure routing to preferred representatives
-description: Learn how to configure settings to route work items to preferred representatives in Customer Service.
-ms.date: 05/12/2025
+description: Learn how to configure settings to route work items to preferred representatives in Customer Service and Dynamics 365 Contact Center.
+ms.date: 09/16/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -61,6 +61,8 @@ You can configure contacts and their preferred representatives in the Copilot Se
 ## How routing to preferred representative works
 
 If a preferred representative exists for a contact, the system tries to automatically assign the conversation to an available preferred representative whose presence matches with one of the allowed presences configured in the workstream. The system skips the check for capacity, skills, and assignment rules. If no preferred representatives are available for a contact and **Next best representative based on assignment logic** is set as the fallback option, then the system tries to find a matching representative according to the configured assignment strategy.
+
+For contacts who don't have a preferred representative mapped, irrespective of the fallback option selected, system always assigns them to the best eligible representative available in the queue according to the assignment method configured for the queue.
 
 Routing to preferred representatives works with conversations that are routed through push-based workstreams only.
 
