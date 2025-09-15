@@ -1,7 +1,7 @@
 ---
-title: Use Customer Service Hub on mobile | Microsoft Docs
-description: Use Customer Service Hub app on mobile devices like phones and tablets
-ms.date: 06/04/2025
+title: Use Customer Service Hub on mobile devices
+description: Learn how to use the features of the Customer Service Hub app on mobile devices such as phones and tablets.
+ms.date: 09/12/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -16,6 +16,9 @@ ms.custom:
 
 # Use Customer Service Hub on mobile devices
 
+> [!Note]
+> As of February 2025, the Customer Service Hub app is no longer available for new organizations that have Enterprise licenses. For more information, see [Customer Service Hub app is removed for new organizations with enterprise licenses](../implement/deprecations-customer-service.md#customer-service-hub-app-is-removed-for-new-organizations-with-enterprise-licenses).
+
 Access your Customer Service Hub data while you’re on the go using Dynamics 365 for phones or Dynamics 365 for tablets on your mobile device.
 
 The Customer Service Hub app works the same whether you’re using it on your mobile device or using it on a web browser on your computer.
@@ -26,7 +29,7 @@ Before you can start using the app, you need to install the Dynamics 365 Custome
 
 ## Basic Navigation
 
-1.	When you sign in, you’ll see the MyApps page with all your apps listed. 
+1.	When you sign in, the MyApps page appears with all your apps listed. 
 2.	Select **Customer Service Hub**.
 
 ![Choose an app.](../media/ChooseAnApp_1.png "Choose an app")
@@ -43,7 +46,7 @@ The **Favorites and Recently Used** sections provide quick access to your record
 
 - To access these sections, tap the **Menu** ![Menu button](../media/MenuButton.png "Menu button") button on the nav bar, and then choose the **Favorites and Recent** ![Fav Button](../media/FavButton.png "Fav Button") button.
 
-- To pin an item as a favorite, from the list of **Recently Used** items, tap the pin. This will pin and move the item to favorites.
+- To pin an item as a favorite, from the list of **Recently Used** items, tap the pin. The system pins and moves the item to favorites.
 
   ![Favorites and Recent items.](../media/Favs_3.png "Favorites and Recent items")
 
