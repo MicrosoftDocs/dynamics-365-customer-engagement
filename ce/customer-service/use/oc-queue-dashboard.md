@@ -13,7 +13,7 @@ ms.reviewer: mgandham
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 
-The Queue dashboard gives you a broad overview of the customer service experience in your organization by providing insights into how specific queues are operating.
+The Queue dashboard gives you a broad overview of the customer service experience in your organization by providing insights into how specific queues are operating. Learn how to [access the dashboard](omnichannel-analytics-insights.md#access-the-dashboards).
  
 > [!div class="mx-imgBorder"]
 > ![Queue dashboard historical analytics.](../media/queue-historical-analytics.png "Queue historical analytics dashboard")
