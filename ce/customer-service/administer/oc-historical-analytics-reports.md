@@ -90,7 +90,7 @@ You can enable the historical analytics dashboard for voicemail in the Copilot S
 1. For Omnichannel historical analytics, select **Manage**.
 1. Select **Add historical analytics for voicemail**.
 
-In the Omnichannel historical analytics report, use the dashboard filter to find the **Voicemail** dashboard.
+In the Omnichannel historical analytics report, use the dashboard filter to go to the **Voicemail** dashboard.
 
 ## View Omnichannel historical analytics reports
 
