@@ -51,10 +51,13 @@ You can customize messages across instances within a channel. For example, you c
     > [!div class=mx-imgBorder]
     > ![Configure automated messages at channel level.](../media/automated-messages-general.png "Configure automated messages at channel level")
 
-The message field also supports context variables as placeholders, for which the system replaces the value of context variables at runtime. The syntax to insert a context variable is {$ContextVariableName$}, as shown in the following example:
+The message field also supports context variables as placeholders, for which the system replaces the value of context variables at runtime. The syntax to insert a context variable is {$ContextVariableName$}, as shown in the following example.
 
  > [!div class=mx-imgBorder]
  > ![Example of syntax for context variables in a message field.](../media/context-variables-message-field.png "Example of syntax for context variables in a message field")
+
+> [!NOTE]
+> Context variables in the message field aren't supported for the voice channel.
 
 Keep in mind the following rules when using context variables:
 
@@ -120,7 +123,7 @@ Complete the following steps for the channel in which you want to create custom 
 
 > [!NOTE]
 > The supported locale is mentioned in the out-of-the-box system messages that you can see in Copilot Service admin center.
-
+> If post-call survey is enabled for the workstream, the system doesn't play the agent disconnect message to the customer. 
 
 ## Best practices for using automated messages
 

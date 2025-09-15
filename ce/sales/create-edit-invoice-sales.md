@@ -1,7 +1,7 @@
 ---
 title: Create and manage invoices
 description: An invoice is an order that has been billed to the customer. You can either convert an order into an invoice or create an invoice separately.
-ms.date: 07/29/2024
+ms.date: 08/13/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -18,7 +18,7 @@ searchScope:
 ---
 # Create and manage invoices
 
-When a customer places an order, you can create an invoice to bill them for the upcoming sale. Typically, you convert an order into an invoice; however, you can also create an invoice that does not originate from an order.  
+When a customer places an order, you can create an invoice to bill them for the upcoming sale. Typically, you convert an order into an invoice; however, you can also create an invoice that doesn't originate from an order.  
 
 ## Create an invoice from an order  
 
