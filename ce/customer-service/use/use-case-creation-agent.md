@@ -54,6 +54,7 @@ The AI agent updates the fields configured by the administrator as follows:
 - If the conversation is in wrap-up state, the following actions occur:
    - If autonomous case creation is enabled, the agent checks if a case is created. If the case isn't created, the agent creates a new case and populates the case fields. 
    - For a case you created manually and is linked to the conversation, the AI agent updates the specified fields.
+   - A note is created in the timeline with the summary of the conversation.
 
 - **For a case created from an email**: The agent populates the fields with context from incoming emails linked to the case. 
 
