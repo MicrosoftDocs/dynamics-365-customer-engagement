@@ -12,12 +12,12 @@ ms.custom: bap-template
 
 # Use msdyn_invokeCaseProcessingAgent to invoke Case Management Agent
 
-Use the `msdyn_invokeCaseProcessingAgent` business event to trigger the Case Management Agent to do the following:
+Use the `msdyn_invokeCaseProcessingAgent` business event to trigger Case Management Agent to do the following:
 
  - extract information from a source entity such as an email and update the case with relevant details. 
  - resolve a specific case. 
 
-You can use this to extend case automation beyond the default triggers. For example, you can invoke the Case Management Agent when a customer creates a case from an external portal, or when a CRUD event occurs on a custom table, such as new receipts added to a case.  
+You can use this to extend case automation beyond the default triggers. For example, you can invoke Case Management Agent when a customer creates a case from an external portal, or when a CRUD event occurs on a custom table, such as new receipts added to a case.  
 
 ## Prerequisites
 
@@ -41,7 +41,7 @@ POST [Organization URI]/api/data/v9.2/msdyn_invokeCaseProcessingAgent
 
 | Property                | Type   | Required | Description |
 |-------------------------|--------|----------|-------------|
-| **action**              | String  | Yes | Defines the case processing action to run.<br>Values: <ul><li>**resolve**: Resolve the case using the Case Management Agent's resolution capabilities.</li><li> **enrich**: Extracts information from a source entity, such as an email, and updates the case with relevant details.<br> The source entity must be accessible and contain relevant case information</li></ul> |
+| **action**              | String  | Yes | Defines the case processing action to run.<br>Values: <ul><li>**resolve**: Resolve the case using the resolution capabilities of Case Management Agent.</li><li> **enrich**: Extracts information from a source entity, such as an email, and updates the case with relevant details.<br> The source entity must be accessible and contain relevant case information</li></ul> |
 | **automationLevel**      | String | No | Defines automation mode for the action. This applies to case resolution only. If this value isn't provided, the agent uses the mode configured by the administrator.<br>Values: <ul><li>**Full**: AI agent resolves the case automatically without customer service representative (service representative or representative) intervention.</li>, <li>**Semi**: AI agent drafts resolution emails but requires service representative's review and approval</li></ul> |
 | **sourceContextEntity** | String | Yes | This is a required value for case enrichment and optional for case resolution. The source entity, such as an email or a conversation that must be used to update the case.<br>Example: `"emails(0e20cf92-f663-f011-bec1-000d3a3622ba)"` |
 
@@ -64,7 +64,7 @@ POST [Organization URI]/api/data/v9.2/msdyn_invokeCaseProcessingAgent
 
 ## Sample code
 
-In the example below, you can execute invoke the Case Management Agent from Dataverse plugins or custom code by executing the `msdyn_invokeCaseProcessingAgent` organization request. The agent is used to update the case using a related email entity and then resolve the case with full automation.
+In the example below, you can invoke Case Management Agent from Dataverse plugins or custom code by executing the `msdyn_invokeCaseProcessingAgent` organization request. The agent is used to update the case using a related email entity and then resolve the case with full automation.
 
 
 ### Example 1

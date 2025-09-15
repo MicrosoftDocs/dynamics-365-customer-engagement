@@ -15,9 +15,9 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Case Management Agent streamlines the case management process, reducing manual effort and data entry errors.
+Case Management Agent streamlines the case management process, reducing manual effort and data entry errors.
 
-You can use the creation and update feature of the Case Management Agent to do the following actions:
+You can use the creation and update feature of Case Management Agent to do the following actions:
 
 - Create cases autonomously from conversations in voice, live chat, and other digital messaging channels. The agent identifies key details and creates cases automatically.
 - Predict and update case fields autonomously in the following scenarios:
@@ -34,13 +34,13 @@ You can use the creation and update feature of the Case Management Agent to do t
 - [Automatically create or update records](automatically-create-update-records.md) are set up to create case records from emails.
 - The following configurations are set up if you want to create a case from conversations:
     - [Provision channels in Dynamics 365 Contact Center](/dynamics365/contact-center/implement/provision-channels).
-    - Make sure you [configure authenticated chat](create-chat-auth-settings.md). The Case Management Agent can create and update cases from authenticated chats only.
+    - Make sure you [configure authenticated chat](create-chat-auth-settings.md). Case Management Agent can create and update cases from authenticated chats only.
     - [Create and manage workstreams](create-workstreams.md) and [Create and manage queues for unified routing](queues-omnichannel.md) are set up.
-    - We recommend that you configure a [preconversation survey](configure-pre-chat-survey.md) so that customers can provide necessary details in the chat which can be used by the AI agent during case creation.
 -  [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center application.
 - The Autonomous Case Management agent uses the Data Entry Agent in the background. The Power Platform [Pay-as-you-go plan](/power-platform/admin/pay-as-you-go-overview) mandates the usage of an Azure subscription the system charges when the agent runs. Make sure you [Set up consumption-based billing](setup-pay-as-you-go.md).
 - Transcription is enabled for the channels that support voice conversations. For more information, see [Enable transcription for voice channels](voice-channel-configure-transcripts.md#enable-call-recording-and-transcription-for-voice).
 -  We recommend that you enable audit history and make sure service representatives have the required access to the case and related entities that the AI agent updates. Learn more in [Manage Dataverse auditing](/power-platform/admin/manage-dataverse-auditing).
+- For customers to provide the details that the AI agent can use, you can configure [preconversation survey](configure-pre-chat-survey.md).
 
 ### Update field and lookup descriptions in Power Apps
 
@@ -92,7 +92,8 @@ In the Copilot Service admin center, configure the AI agent to predict and updat
    - A unique name for the rule. 
    - Conditions for the AI agent to apply the rule. If no conditions are defined, the rule applies to all channels.
    - Fields in **Fields for AI prediction** that the agent predicts and updates when the conversation ends or from an incoming email. If you don't specify update rules, the AI agent doesn't autonomously update any fields.
-   - Select **Save**.
+   - Select **Save**.   
+  
  For example, if you only specify **Issue description** and **Contact** fields in the **Fields for AI prediction** section, the AI agent updates these fields when the conversation ends or from an incoming email. If you also specify a condition such as live chat status equals Active, then the rule applies only for live chat conversations that are active.
 1. The system runs case update rules in the order they're listed. You can select the arrow buttons to reorder the rules as needed.
 1. Select **Activate** to activate the rules.
@@ -100,7 +101,7 @@ In the Copilot Service admin center, configure the AI agent to predict and updat
 
 ## Configure autonomous case creation
 
-The following actions trigger the case creation process of the Case Management Agent:
+The following actions trigger the case creation process of Case Management Agent:
 
 - The service representative accepts an incoming conversation request.
 - The service representative ends the conversation.
@@ -108,10 +109,7 @@ The following actions trigger the case creation process of the Case Management A
 To allow the AI agent to autonomously create cases across all provisioned messaging and voice channels, perform the following steps:
 
 1. Go to **Case creation and update (preview)** > **Case creation by AI agent (from chats and calls)** and select **Make Case Processing Agent available for case creation from conversations**.
-1. In **Fields for AI prediction**, specify the fields the agent must predict and populate in the case form using information from the conversation. 
-
-> [!NOTE]
-> The fields you configure for case creation aren't mandatory. The AI agent populates only those fields that have sufficient context available.
+1. In **Fields for AI prediction**, specify the fields the agent predicts and populates in the case form using information from the conversation. The AI agent populates only those fields that have sufficient context available.
 
 ## Configure AI-assisted case creation for service representatives
 
@@ -119,7 +117,7 @@ Select the channels from which service representatives can create cases with AI 
 
 ## Enable service representatives to use autonomous Case Management Agent
 
-For service representatives to use the Case Management Agent in Copilot Service workspace, allow the autonomous case creation and update, case follow-up, and closure in **agent experience profiles**.
+For service representatives to use Case Management Agent in Copilot Service workspace, allow the autonomous case creation and update, case follow-up, and closure in **agent experience profiles**.
 
 By default, service representatives added to the out-of-the-box experience profiles can use the autonomous Case Management Agent.
 

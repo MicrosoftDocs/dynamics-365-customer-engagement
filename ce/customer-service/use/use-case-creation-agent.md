@@ -14,12 +14,12 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The case creation and update feature in Case Management Agent does the following actions:
+The case creation and update feature in Case Management Agent does the following actions, eliminating the need for manual case creation and reducing errors:
+
 - autonomously creates cases from chat, digital messaging, and incoming voice conversations
 - autonomously updates case fields when a conversation ends or from incoming emails
 - populates the case fields for a manually created case from a conversation or an email
 
-These capabilities eliminate the need for manual case creation and reduce errors.
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -29,14 +29,12 @@ These capabilities eliminate the need for manual case creation and reduce errors
 
 ## Autonomous case creation
 
-When you accept a conversation routed directly or escalated by a self-assist agent with enough context, the Case Management Agent performs the following actions:
+When you accept a conversation routed directly or escalated by a self-assist agent with enough context, Case Management Agent performs the following actions:
 
 - Maps the conversation context to the fields configured by the administrator and predicts their values.
 - Creates a new case that opens in a new tab in the **Active Conversation** form. A case is created only if the agent has enough context to populate the configured fields. Only the fields for which sufficient context is available are predicted. However, when you end the conversation, the agent creates a case if enough information is available and the case isn't created manually.
 - Populates the values of the fields in the case.
 - Automatically saves the case.
-
-
 
 On the case form, an AI toolbar appears and allows you to do the following actions:
 
