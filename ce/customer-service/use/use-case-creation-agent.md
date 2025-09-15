@@ -80,7 +80,7 @@ The case appears in a new tab. You can do the following actions:
    - Select **Accept suggestions** to accept all the predicted values. Alternatively, you can hover over the field to accept or reject the predicted value one at a time. 
    - Provide feedback.
 
-If your administrator configured autonomous case updates, the AI agent then updates the case fields with information from a conversation that's in wrap-up state or incoming emails, autonomously.
+If your administrator configured autonomous case updates, the AI agent then autonomously updates the case fields with information from a conversation that's in wrap-up state or incoming emails.
 
 
 ## Next steps
