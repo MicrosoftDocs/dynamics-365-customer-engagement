@@ -34,13 +34,7 @@ To view the Topics dashboard, go to Customer Service historical analytics and se
 
 ### Access the Topics dashboard
 
-1. In the Copilot Service workspace app, do one of the following to view the dashboard:
-
-   - In the default view, select the plus (+) icon, and then select **Customer Service historical analytics**.
-
-   - If the enhanced multisession workspace view is enabled, select the site map and then select **Customer Service historical analytics**.
-
-2. On the page that appears, select the dashboard.
+[!INCLUDE[cc-navigation](../../includes/cc-navigation-cs.md)]
 
 ## Key insights card
 
