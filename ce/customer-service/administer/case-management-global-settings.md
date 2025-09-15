@@ -80,3 +80,12 @@ Perform the following steps:
 
 Repeat the steps to authenticate the **Case Processing Agent MCS Connection** connection reference. Make sure to select Microsoft Copilot Studio when you're creating a new connection.
 
+### Enable flows
+
+In Power Automate, make sure that the **Invoke case processing agent** and **Call custom agent** flows are enabled. Learn more in [Turn on a flow](/power-automate/disable-flow#turn-on-a-flow).
+
+
+### Publish Case Management Agent
+
+- In copilot studio, select **Agents** and then select **Case Processing Agent**.
+- In the **Case Processing Agent** page, select **Publish** to publish the agent.
