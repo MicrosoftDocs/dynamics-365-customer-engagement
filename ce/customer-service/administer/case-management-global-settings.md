@@ -60,7 +60,7 @@ This application user is used in Copilot Service admin center to receive and sen
 You must authenticate the following connection references using an admin account to enable the Case Management Agent's access to data sources:
 - Case Processing Agent CDS Connection
 - Case Processing Agent MCS Connection
-- Microsoft Copilot Studio for Sales
+- Microsoft Copilot Studio for Sales, if Dynamics 365 Sales application is configured in your environment. Else
 
 These connections are essential for the agent to perform autonomous case processing, data retrieval, and AI-powered customer interactions. 
 
@@ -87,5 +87,16 @@ In Power Automate, make sure that the **Invoke case processing agent** and **Cal
 
 ### Publish Case Management Agent
 
-- In copilot studio, select **Agents** and then select **Case Processing Agent**.
-- In the **Case Processing Agent** page, select **Publish** to publish the agent.
+In Copilot Studio, perform the following steps:
+
+ 1. Select **Agents** and then select **Case Processing Agent**.
+ 1. In the **Case Processing Agent** page, select **Publish** to publish the agent.
+
+After the agent is published, you must add a new connection reference using service principal authentication to establish the Case Management Agent's identity and authorization framework. This connection reference, configured with the **Client ID**, **Tenant ID**, and **client secret** from the [Register an application and create a secret](#register-an-application-and-create-a-secret) section, enables the agent to act on behalf of the application user. Perform the following steps:
+
+- In the **Case Processing Agent** page, do the steps to [View connections on the Connection Settings page](/microsoft-copilot-studio/authoring-connections#view-connections-on-the-connection-settings-page). **Microsoft Dataverse** and `**Call custom agent**` appear on the **Manage connections** page.
+- Select **Connect** for **Microsoft Dataverse**, and perform the following steps:
+   -  On the page that appears, select **...** > **Add new connection**.
+   - Select Service Principal as the authentication type.
+   - Specify the **Client ID**, **Client Secret**, and **Tenant ID** that you've copied in the [Register an application and create a secret](#register-an-application-and-create-a-secret) section.
+- Select **Connect** for **Call custom agent**, and then select **Submit**.
