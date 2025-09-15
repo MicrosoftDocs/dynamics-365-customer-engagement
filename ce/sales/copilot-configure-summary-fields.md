@@ -1,7 +1,7 @@
 ---
 title: Configure fields for generating summaries and recent changes
 description: Learn how to configure fields for generating summaries and recent changes list in Copilot for leads, opportunities, and accounts.
-ms.date: 06/26/2025
+ms.date: 09/15/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -29,7 +29,9 @@ By default, Copilot uses a set of predefined fields to generate [summaries](copi
 
     :::image type="content" source="media/copilot-summary-settings.svg" alt-text="Screenshot of the Opportunity settings page for record summaries in Copilot.":::
 
-1. To choose fields for generating summaries, select the **Summary** tab. To choose fields for generating the recent changes list, select the **Recent changes** tab.
+1. To choose fields for generating summaries:
+    - **Summary** tab for summaries
+    - **Recent changes** tab for the recent changes
 
     The recent changes list is generated from the audit history. If the **Recent changes** tab isn't available, it means that auditing is turned off globally or for the table you selected (leads, opportunities, or accounts). Select **Turn audit on** in the notification bar to turn on audit history for all the tables in the **Recent changes** tab.
 

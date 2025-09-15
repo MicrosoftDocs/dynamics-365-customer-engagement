@@ -1,7 +1,7 @@
 ---
 title: Summarize records with Copilot 
 description: Learn how to summarize your records in Dynamics 365 Sales such as opportunities, leads, and accounts with Copilot. 
-ms.date: 09/12/2025
+ms.date: 09/15/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
