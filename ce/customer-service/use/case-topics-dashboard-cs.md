@@ -26,15 +26,9 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Topics dashboard
 
-The Topics dashboard shows a detailed breakdown of cases and their assigned topics. Customer Service Insights uses AI-generated topics and natural language understanding to automatically group your cases. This functionality can help you understand how different case types and topic areas affect your organization’s support performance.
+The Topics dashboard shows a detailed breakdown of cases and their assigned topics. Customer Service Insights uses AI-generated topics and natural language understanding to automatically group your cases. This functionality can help you understand how different case types and topic areas affect your organization’s support performance. Learn how to [access the dashboard](customer-service-analytics-insights-csh.md#access-the-dashboards).
 
 ![Topics dashboard.](../media/topics-dashboard-analytics-cs.png "Topics dashboard")
-
-To view the Topics dashboard, go to Customer Service historical analytics and select **Topics** from the dropdown list.
-
-### Access the Topics dashboard
-
-[!INCLUDE[cc-navigation](../../includes/cc-navigation-cs.md)]
 
 ## Key insights card
 
