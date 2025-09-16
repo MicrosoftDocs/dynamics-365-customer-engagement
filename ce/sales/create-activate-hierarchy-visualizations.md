@@ -64,12 +64,8 @@ To create the hierarchy visualization, follow these steps:
 1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **App Settings**.  
 1. Under **General Settings**, select **Visual hierarchy**.  
 1. Select **New hierarchy** and then enter a name for the hierarchy.  
-1. In the hierarchy visualization designer page, select **Add table**.  
-
-    :::image type="content" source="media/hv-add-table.png" alt-text="Screenshot of selecting the Add table option in the hierarchy visualization designer page.":::
-
-1. [Configure the root node of the hierarchy](#configure-the-root-node-of-the-hierarchy).
-1. [Configure the child node](#configure-the-child-node).
+1. [Configure the root node of the hierarchy](#configure-the-root-node-of-the-hierarchy).  
+1. [Configure the child node](#configure-the-child-node).  
 1. Select **Save**.  
 1. (Optional) Select **Preview** to see how the hierarchy visualization would look if published with current settings. Update settings and preview changes until you’re satisfied with the results. In **Preview** mode, you can change the selected data being viewed by clicking the record name at the top of the preview window.  
 1. Select **Publish** and then select **OK** on the confirmation message.  
@@ -80,7 +76,11 @@ To create the hierarchy visualization, follow these steps:
 Configure the root node of the hierarchy by selecting the desired table. The table is the starting point for the hierarchy.  
 
 1. In the hierarchy designer page, select **Add** and choose the desired table with the self-referential relationship. Here, we are adding **Account** table.  
+
+    :::image type="content" source="media/hv-add-table.png" alt-text="Screenshot of selecting the Add table option in the hierarchy visualization designer page.":::
+
     The **Settings** pane opens on the right side of the page.  
+
 1. In the **General** tab, define child-parent relationship, and choose view and forms:  
 
     | Setting | Description |
