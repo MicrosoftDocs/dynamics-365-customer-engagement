@@ -103,12 +103,14 @@
         items:  
         - name: Download Copilot transcripts and interaction data
           href: download-copilot-transcript-data.md           
-      - name: Autonomous service agents
+      - name: Autonomous service agents (preview)
         items: 
-        - name: Integrate Case Management Agent with custom Copilot Studio agents (preview)
+        - name: Integrate Case Management Agent with custom Copilot Studio agents 
           href: case-management-agent-integration.md    
-        - name: Use case field prediction API (preview)
+        - name: Use case field prediction API 
           href: use-case-field-prediction-api.md      
+        - name: Use msdyn_invokeCaseProcessingAgent to invoke Case Management Agent
+          href: use-case-processing-agent.md           
       - name: Agent productivity tools
         items: 
         - name: Build a smart assist bot
