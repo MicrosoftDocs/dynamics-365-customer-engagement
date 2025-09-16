@@ -62,7 +62,7 @@ You can configure contacts and their preferred representatives in the Copilot Se
 
 If a preferred representative exists for a contact, the system tries to automatically assign the conversation to an available preferred representative whose presence matches with one of the allowed presences configured in the workstream. The system skips the check for capacity, skills, and assignment rules. If no preferred representatives are available for a contact and **Next best representative based on assignment logic** is set as the fallback option, then the system tries to find a matching representative according to the configured assignment strategy.
 
-For contacts who don't have a preferred representative mapped, irrespective of the fallback option selected, system always assigns them to the best eligible representative available in the queue according to the assignment method configured for the queue.
+For contacts who don't have a preferred representative mapped, irrespective of the fallback option selected, the system always assigns them to the best eligible representative available in the queue according to the assignment method configured for the queue.
 
 Routing to preferred representatives works with conversations that are routed through push-based workstreams only.
 
