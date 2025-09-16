@@ -1,7 +1,7 @@
 ---
 title: Work on leads handed over by the Sales Qualification Agent (preview)
 description: Learn how to work with leads handed over by the Sales Qualification Agent in Dynamics 365 Sales. Discover research insights, handover summaries, and recommended actions for effective lead management.
-ms.date: 08/05/2025
+ms.date: 09/16/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -176,11 +176,13 @@ The agent searches the public web for information about the lead’s company. If
 
 **Competitor insights**
 
-The agent identifies the lead’s competitors and provides insights about them. This information can help you understand the competitive landscape and tailor your sales approach accordingly. The agent provides the following insights about competitors:
+The agent identifies the key competitors for the lead and provides insights about them. This information can help you understand the competitive landscape and tailor your sales approach accordingly. The agent provides the following insights about competitors based on public web sources and knowledge sources configured by your admin.
+
+Learn more about [How the agent identifies competitors to research](sales-qualification-agent-competitor-insights.md#how-the-agent-identifies-competitors-to-research).
 
 - **Overview:** Provides a brief description of each competitor, including their industry, location, size, and market share based on public information and knowledge sources configured by your admin.
 - **Strengths, weaknesses, opportunities, and threats (SWOT analysis):** Summarizes the key strengths, weaknesses, opportunities, and threats of each competitor based on public information and knowledge sources configured by your admin.
-- **Talking points:** Suggests potential talking points to differentiate your offerings from those of the competitors based on battle cards, positioning briefs, and other competitive intelligence documents configured by your admin as knowledge sources. 
+- **Talking points:** Suggests potential talking points to differentiate your offerings from those of the competitors based on battle cards, positioning briefs, and other competitive intelligence documents configured by your admin as knowledge sources.
 
 ## Related information
 
