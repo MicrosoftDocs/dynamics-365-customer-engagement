@@ -38,7 +38,7 @@ You can select the **All** filter to view the performance of service representat
 
 You can drill down from the **Agent list** section on the dashboard to view key metrics about service representative details and specific insights about individual service representatives' performance.
 
-You'll see the following tabs. The tabs also show custom presence statuses, configured by you and used by your service representatives. 
+You see the following tabs. The tabs also show custom presence statuses, configured by you and used by your service representatives. 
 
 - **Agent online**: Shows service representatives who are online at the moment.
 
