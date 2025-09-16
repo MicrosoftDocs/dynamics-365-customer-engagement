@@ -41,6 +41,7 @@ You can use the creation and update feature of Case Management Agent to do the f
 - Transcription is enabled for the channels that support voice conversations. For more information, see [Enable transcription for voice channels](voice-channel-configure-transcripts.md#enable-call-recording-and-transcription-for-voice).
 -  We recommend that you enable audit history and make sure service representatives have the required access to the case and related entities that the AI agent updates. Learn more in [Manage Dataverse auditing](/power-platform/admin/manage-dataverse-auditing).
 - For customers to provide the details that the AI agent can use, you can configure [preconversation survey](configure-pre-chat-survey.md).
+- Make sure the service representatives working on the case and accepting conversation have read privileges on the `msdyn_entityattributepredictionrules` table.
 
 ### Update field and lookup descriptions in Power Apps
 
