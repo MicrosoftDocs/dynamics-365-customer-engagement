@@ -1,6 +1,6 @@
 ---
 title: Configure Sales Qualification Agent to generate competitor insights
-description: Learn how to configure the selection criteria for the Sales Qualification Agent in Dynamics 365 Sales.
+description: Learn how to configure the Sales Qualification Agent to generate competitor insights by specifying key competitors and uploading relevant knowledge sources.
 ms.topic: how-to 
 ms.date: 09/16/2025
 ms.service: dynamics-365-sales
@@ -15,13 +15,13 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-## Configure Sales Qualification Agent to generate competitor insights
+# Configure Sales Qualification Agent to generate competitor insights
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 The Sales Qualification Agent can provide insights about competitors for a lead, helping sellers understand the competitive landscape and tailor their sales approach accordingly.
 
-As an admin, you can configure the agent to generate competitor insights by specifying key competitors and uploading relevant knowledge sources. The agent uses this information to research competitors and provide insights such as their strengths, weaknesses, and market position, and generate talking points for sellers.
+As an admin, you can configure the agent to generate competitor insights by specifying key competitors and uploading relevant knowledge sources.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -30,14 +30,16 @@ As an admin, you can configure the agent to generate competitor insights by spec
 
 The agent identifies the competitors for a lead from the following sources:
 
-- Competitors added to the lead record are given the highest priority, regardless of other sources.
+- Competitors added to the lead record are given the highest priority. If the lead record has competitors specified, the agent researches only those competitors.
 - If no competitors are specified in the lead record, the agent looks for competitors from:
     - Web search results based on account research and value proposition.
     - Closed opportunities that include competitor information.
     - Competitors list configured in the agent settings (as explained in the following section).
-   
-    The agent prioritizes competitors based on the number of sources they appear in. If a competitor is mentioned across multiple sources, the agent prioritizes that competitor. The following table illustrates how the agent prioritizes competitors based on different scenarios:
-    
+
+    The agent ranks competitors based on the number of sources they appear in. If a competitor is mentioned in more sources than others, the agent ranks it as the top competitor. If there are multiple competitors with the same rank, the agent picks the one associated with the most recently won opportunity.
+     
+    The following table illustrates how the agent prioritizes competitors in different scenarios:
+
     | Scenario                                                                                  | Which competitors are considered?                                   |
     |-------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
     | Contoso appears in three sources, Fabrikam in two, and Northwind in one                   | Contoso                     |
@@ -46,11 +48,10 @@ The agent identifies the competitors for a lead from the following sources:
     | Contoso, Fabrikam, and Northwind each appear in one source (No overlap among sources)     | Competitors configured by the admin are shown as fallback           |
     | No competitor information available in records and no competitors configured in agent settings             | Competitors from web search results are shown                       |
 
-The agent ranks the competitors and researches the top most competitor. If there are multiple competitors with the same rank, the agent provides research insights for up to three competitors.
 
 ## Add competitors and knowledge sources for competitor insights
 
-When the agent doesn't find competitor information in the lead record or other public web sources, it uses the competitors list you specify in the agent settings. Learn more about [how the agent identifies competitors to research](#competitor-identification).
+When the agent doesn't find competitor information in the lead record or doesn't find any overlapping mentions of competitors across different sources, it uses the competitors list you specify in the agent settings. Learn more about [how the agent identifies competitors to research](#competitor-identification).
 
 You can also upload relevant documents such as battle cards, positioning briefs, and market analysis reports to help the agent generate more accurate and relevant insights.
 
