@@ -24,7 +24,7 @@ You can extend the default timeframe of 30 days as required. To avoid performanc
 
 As supervisors, you can assign, transfer, monitor, and force close extended conversations.
 
-:::image type="content" source="../media/backlog_conversation.png" alt-text="Screenshot of the backlog conversation report.":::
+:::image type="content" source="../media/backlog-conversation.png" alt-text="Screenshot of the backlog conversation report.":::
 
 ## Related information
 
