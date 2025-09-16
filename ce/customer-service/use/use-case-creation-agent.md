@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 08/08/2025
+ms.date: 09/16/2025
 ms.custom: bap-template
 ---
 
@@ -16,9 +16,9 @@ ms.custom: bap-template
 
 The case creation and update feature in Case Management Agent does the following actions, eliminating the need for manual case creation and reducing errors:
 
-- autonomously creates cases from chat, digital messaging, and incoming voice conversations
-- autonomously updates case fields when a conversation ends or from incoming emails
-- populates the case fields for a manually created case from a conversation or an email
+- Autonomously creates cases from chat, digital messaging, and incoming voice conversations
+- Autonomously updates case fields when a conversation ends or from incoming emails
+- Populates the case fields for a manually created case from a conversation or an email
 
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
