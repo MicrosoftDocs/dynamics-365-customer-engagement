@@ -1,6 +1,6 @@
 ---
 title: Backlog conversation 
-description: Learn how to use the Backlog conversations report to monitor conversations created in the last 30 days.
+description: Learn how to use the Backlog conversations report to monitor conversations that were created in the last 30 days.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
