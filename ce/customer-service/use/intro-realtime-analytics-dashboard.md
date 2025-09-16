@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: overview
 ms.collection:
-ms.date: 08/26/2025
+ms.date: 09/16/2025
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -36,7 +36,7 @@ As a supervisor, you can use the real-time analytics reports to perform these ta
 - Review the allocation of service representatives in near-real time, and then optimize to provide top-notch support and boost customer satisfaction.
 - Improve service representative staffing, effectiveness, and utilization by reviewing the skill set and capacity profile of the service representative. You can then assign or transfer ongoing conversations by filtering through queue or service representative.
 - Monitor ongoing conversations, track customer sentiment, and intervene as required.
-- Drill down to a specific channel, queue, or service representative as required, to gain key operational insights in real time and take the necessary action.
+- Drill down to a specific channel, queue, or service representative as required, to gain key operational insights in real time, and take the necessary action.
 
 > [!NOTE]
 > The reports include conversations that only service representatives handled. They also include conversations that Copilot agents escalated. However, they don't include conversations that Copilot agents resolved.
@@ -63,7 +63,7 @@ If you can't view the reports, contact your system administrator. Learn more in 
 ## Dashboard details
 
 > [!NOTE]
-> - The reports don't include work items of the Entity Record channel. All entity record type queues are available in [real-time analytics for record routing dashboards](rr-overview.md#overview-of-real-time-analytics-for-record-routing) only.
+> - The reports don't include work items of the Entity Record channel. All entity record-type queues are available in [real-time analytics for record routing dashboards](rr-overview.md#overview-of-real-time-analytics-for-record-routing) only.
 > - The reports are prefiltered based on the queues you're signed in to as a supervisor. Your view of metrics and conversations pertain to the assigned queues only, which helps ensure data privacy and relevance.
 
 The **Omnichannel real-time analytics** dashboard consists of the following reports:
