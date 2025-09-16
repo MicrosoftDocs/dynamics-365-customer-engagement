@@ -59,7 +59,7 @@ To view more details about service representative analytics by queue, select the
 **Capacity unit**
 :::image type="content" source="../media/realtime_summary_queue-drilldown_2.png" alt-text="Drilldown agent analytics through capacity unit":::
 
-These tabs will help you effectively manage service representative activity in real time.
+These tabs help you effectively manage service representative activity in real time.
 
 ### Related information
 
