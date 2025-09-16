@@ -65,6 +65,8 @@ To create the hierarchy visualization, follow these steps:
 1. Under **General Settings**, select **Visual hierarchy**.  
 1. Select **New hierarchy** and then enter a name for the hierarchy.  
 1. [Configure the root node of the hierarchy](#configure-the-root-node-of-the-hierarchy).  
+    >[!NOTE]
+    > If you're creating a self-referential simple hierarchy, adding child nodes is not required. After configuring the root node, proceed to step 6 to complete the process.  
 1. [Configure the child node](#configure-the-child-node).  
 1. Select **Save**.  
 1. (Optional) Select **Preview** to see how the hierarchy visualization would look if published with current settings. Update settings and preview changes until you’re satisfied with the results. In **Preview** mode, you can change the selected data being viewed by clicking the record name at the top of the preview window.  
