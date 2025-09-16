@@ -74,7 +74,7 @@ This view defines the fields displayed in the details pane when selecting a reso
 
 #### Organizational unit tooltips view
 
-This view defines the fields displayed in a tooltip that appears when an organizational unit map pin.
+This view defines the fields displayed in a tooltip that appears when selecting an organizational unit map pin.
 
 #### Organizational unit details view
 
