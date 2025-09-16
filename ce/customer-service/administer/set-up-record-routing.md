@@ -1,7 +1,7 @@
 ---
 title: Set up unified routing for records
 description: Use this article to understand how to set up unified routing for records in Customer Service.
-ms.date: 02/04/2025
+ms.date: 09/16/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -127,6 +127,9 @@ Routing rules for a workstream consists of work classification rules and route-t
 [Configure routing for email records](configure-routing-for-email-records.md)  
 [Release representative's capacity](capacity-profiles.md#release-capacity-for-representatives)  
 [Assign roles and enable users](../implement/add-users-assign-roles.md)  
+[Understand how unified routing affects queue items and live work items for routed records](../develop/unified-routing-impact-on-APIs.md)  
+[How to close live work items or deactivate queue items](../develop/deactivate-queue-items.md)  
+[Release capacity for representatives](capacity-profiles.md#release-capacity-for-representatives)  
 [FAQ about time taken by configuration changes in unified routing](faqs.md#how-long-does-a-configuration-change-to-the-omnichannel-for-customer-service-and-unified-routing-settings-take-to-update)  
 
 

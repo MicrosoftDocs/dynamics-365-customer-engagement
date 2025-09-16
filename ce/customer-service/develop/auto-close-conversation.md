@@ -1,6 +1,6 @@
 ---
 title: Configure automatic closure of conversations using web API
-description: Use this article to understand how to configure the auto-close duration of conversations using the Web API.
+description: Use this article to understand how to configure the auto-close duration of conversations using the Web API in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
 ms.date: 04/22/2025
 ms.topic: how-to
 author: neeranelli
