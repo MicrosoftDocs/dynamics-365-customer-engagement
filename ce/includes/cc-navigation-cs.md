@@ -1,6 +1,5 @@
-In the Copilot Service workspace or Omnichannel for Customer Service app, do one of the following to view the dashboard:
+In the Copilot Service workspace site map, select **Customer Service historical analytics**.
 
-- In the default view, select the plus (**+**) icon, and then select **Customer Service historical analytics**.
-- If the enhanced multisession workspace view is enabled, select the site map and then select **Customer Service historical analytics**.
+On the page that appears, select the required dashboard from the dashboard filter. For example, to view the **Summary** dashboard, select the dashboard filter and then select **Summary**.
 
-On the page that appears, select the dashboard.
+:::image type="content" source="../customer-service/media/dashboard-filter-cs-historical.png" alt-text="Screenshot of the dashboard filter.":::
