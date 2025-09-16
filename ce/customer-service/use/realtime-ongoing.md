@@ -77,7 +77,7 @@ Once a conversation is assigned to a representative, it's in the **Active** stat
 
 ## Monitor conversations
 
-Listen to an ongoing conversation. When you select **Monitor**, you receive a message that indicates that monitoring has started. This action applies to active conversations that the service representative accepted, conversations in a wrap-up state, and conversations that are in a waiting state only. If you have the representative app open in multiple tabs or browsers, the monitored conversation opens in the one where you select **Monitor**. Other browsers remain as-is.
+Listen to an ongoing conversation. When you select **Monitor**, you receive a message that indicates that monitoring started. This action applies to active conversations that the service representative accepted, conversations in a wrap-up state, and conversations that are in a waiting state only. If you have the representative app open in multiple tabs or browsers, the monitored conversation opens in the one where you select **Monitor**. Other browsers remain as-is.
 
 1. From the dashboard view selector, select the **Ongoing Conversations** report. The list of conversations that your service representatives are currently handling appears.
 
