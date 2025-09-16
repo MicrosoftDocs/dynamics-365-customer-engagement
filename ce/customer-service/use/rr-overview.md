@@ -26,7 +26,7 @@ Real-time analytics for record routing helps you monitor and improve your contac
 
 ## Security roles and permissions
 
-Real-time analytics uses the security permissions defined in Microsoft Dataverse. For example, if your organization has set business unit-level permissions for you, metrics that are computed based on business unit-level data only are shown to you.
+Real-time analytics uses the security permissions defined in Microsoft Dataverse. For example, if your organization set business unit-level permissions for you, metrics that are computed based on business unit-level data only are shown to you.
 
 As a supervisor, you can view the **Real-time analytics for record routing** dashboards in the Copilot Service workspace app. However, your administrator must provide the required permissions for you. Learn more in [Configure user access to analytics and dashboards](../administer/configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards). To view the real-time analytics for record-routing dashboards, you must have the CSR Manager role.
 
