@@ -26,7 +26,7 @@ To edit a hierarchy visualization, follow these steps:
 1. Under **General Settings**, select **Visual hierarchy**.  
     A list of existing hierarchy visualizations is displayed.  
 1. Select the hierarchy visualization you want to edit.
-1. Make the necessary changes to the settings. To know the settings you can change, see [step 6 and step 7 from Create a hierarchy visualization](create-activate-hierarchy-visualizations.md#create-a-hierarchy-visualization).  
+1. Make the necessary changes to the settings. To know the settings you can change, see [Configure the root node of the hierarchy](create-activate-hierarchy-visualizations.md#configure-the-root-node-of-the-hierarchy) and [Configure the child node](create-activate-hierarchy-visualizations.md#configure-the-child-node).  
 1. Select **Save** to apply your changes.  
     The updated hierarchy visualization is now available for users.  
 
