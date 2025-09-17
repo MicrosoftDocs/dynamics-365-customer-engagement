@@ -42,7 +42,6 @@ Once the synchronization between ZoomInfo or D&B is active, the following fields
 | Industry       | industrycode      |
 | Annual Revenue | revenue           |
 | Company Size   | numberofemployees |
-| Country        | address1_country  |
 | ZoomInfo ID or D-U-N-S Number (for D&B) | zoominfoid or dunsnumber |
 
 You can enrich additional fields based on your industry and ideal customer profile. For example, if you're in the technology sector, you might want to enrich fields like "Technology Stack" using BuiltWith data. Refer to the documentation of your chosen data provider for a comprehensive list of available fields.
@@ -59,7 +58,6 @@ After the data from ZoomInfo or D&B is synced into Dataverse, you can configure 
   | Industry       | industrycode      | Equals “Technology”      |
   | Annual Revenue | revenue           | Greater than \$5,000,000 |
   | Company Size   | numberofemployees | Between 50 and 500       |
-  | Country        | address1_country  | Equals “United States”   |
   | ZoomInfo ID    | zoominfoid        | Is not empty             |
 
 ## Step 4: Validate and monitor
