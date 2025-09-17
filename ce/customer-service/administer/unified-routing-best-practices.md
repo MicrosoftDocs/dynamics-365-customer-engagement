@@ -19,7 +19,7 @@ This article discusses some of the important aspects to successfully deploy and 
 
 ### Verify service limits and default quotas
 
-Dynamics 365 Customer Service relies on shared cloud resources for data and processing. You must check the service limits and default quotas for the resources before you provision unified routing. If you need a higher limit on a measure that's indicated as adjustable, contact Microsoft Support to check whether the limit can be increased. More information: [Service quotas](../implement/service-quotas.md)
+Dynamics 365 Customer Service relies on shared cloud resources for data and processing. You must check the service limits and default quotas for the resources before you provision unified routing. If you need a higher limit on an adjustable measure, contact Microsoft Support to check whether the limit can be increased. More information: [Service quotas](../implement/service-quotas.md)
 
 ## Manage users
 
@@ -47,7 +47,7 @@ Customer Service lets you make API calls to set up users in bulk. A single chang
 
 We recommend that you make 500 change requests every 15 minutes for the system to process the changes optimally without getting throttled. Beyond this recommended rate for bulk updates, you might notice inconsistencies in user data, such as skills not updated as expected, after the update is over.
 
-For example, let's say you manage a contact center that has 1,000 customer service representative (service representative or representative) working in it, and you need to set up each representative by assigning two skills, one capacity profile, and one role. The total number of requests to configure these settings is 4,000.
+For example, in a contact center with 1,000 customer service representative (service representative or representative), you need to set up each representative with two skills, one capacity profile, and one role. The total number of requests to configure these settings is 4,000.
 
 Based on our recommendation of 500 requests per 15 minutes, make these requests in eight batches as follows:
 
