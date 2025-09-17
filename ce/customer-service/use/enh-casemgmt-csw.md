@@ -67,7 +67,7 @@ Depending on the settings that are enabled for you, either the enhanced full cas
    - Use **Case Notes** and **Description** to record notes and information related to the case. Use the rich text editor toolbar to format the text in the fields and add images and links. You can also drag files into the description section.
    - In **Attachments**, select **Add Attachment** to upload multiple attachments at once.
    - View color coded **Case Status** fields and **Priority** icons.  
-    [!INCLUDE [cc-case-sentiment-feature](../../includes/cc-case-sentiment-feature.md)]
+   [!INCLUDE [cc-case-sentiment-feature](../../includes/cc-case-sentiment-feature.md)]
    - Select **Save and Resolve** at the top of the form to save the case and initiate the case resolution process.
     
      :::image type="content" source="../media/enh-case-newcase-mini.png" alt-text="Screenshot of the enhanced full case form." lightbox="../media/enh-case-newcase.png":::
