@@ -20,7 +20,7 @@ As an administrator, you can create and publish a hierarchy that allows your org
 >
 > - The hierarchy visualization feature is currently available out of the box for the **Contact**, **Opportunity**, **Lead**, and **Account** tables. However, to configure hierarchy visualization for custom tables, you need to create the self-referential and cross-referential relationships.  
 > - Default self-referential columns: `ParentAccountId` in the **Account** table, `parent_contactid` in the **Contact** table, `masterid` in the **Lead** table.  
-> - For the **Opportunity** table, there is no default self-referential column. Create a new **Many-to-One** relationship and select the **Opportunity** table as the related table. Rename the **Lookup column display** name to `Parent_OpportunityID` and leave the **Hierarchical** checkbox unchecked. Then, update the **Opportunity** form by adding the `Parent_OpportunityID` field. This update enables you to select a parent opportunity when they create or edit an opportunity, helping them establish clear relationships between opportunities.
+> - For the **Opportunity** table, there's no default self-referential column. Create a new **Many-to-One** relationship and select the **Opportunity** table as the related table. Rename the **Lookup column display** name to `Parent_OpportunityID` and leave the **Hierarchical** checkbox unchecked. Then, update the **Opportunity** form by adding the `Parent_OpportunityID` field. This update enables you to select a parent opportunity when they create or edit an opportunity, helping them establish clear relationships between opportunities.
 
 
 Hierarchies are created using your existing tables, forms, relationships, and views. You can design and publish a hierarchy based on a N:1 self-referential relationship&mdash;one where each row in a table has an optional pointer to its parent row, 1:N many-to-one relationship&mdash;one where each row in a table has a pointer to a row in another table, or both, and N:N many-to-many relationships.
@@ -66,7 +66,7 @@ To create the hierarchy visualization, follow these steps:
 1. Select **New hierarchy** and then enter a name for the hierarchy.  
 1. [Configure the root node of the hierarchy](#configure-the-root-node-of-the-hierarchy).  
     >[!NOTE]
-    > If you're creating a self-referential simple hierarchy, adding child nodes is not required. After configuring the root node, proceed to step 6 to complete the process.  
+    > If you're creating a self-referential simple hierarchy, adding child nodes isn't required. After configuring the root node, proceed to step 6 to complete the process.  
 1. [Configure the child node](#configure-the-child-node).  
 1. Select **Save**.  
 1. (Optional) Select **Preview** to see how the hierarchy visualization would look if published with current settings. Update settings and preview changes until you’re satisfied with the results. In **Preview** mode, you can change the selected data being viewed by clicking the record name at the top of the preview window.  
@@ -77,7 +77,7 @@ To create the hierarchy visualization, follow these steps:
 
 Configure the root node of the hierarchy by selecting the desired table. The table is the starting point for the hierarchy.  
 
-1. In the hierarchy designer page, select **Add** and choose the desired table with the self-referential relationship. Here, we are adding **Account** table.  
+1. In the hierarchy designer page, select **Add** and choose the desired table with the self-referential relationship. Here, we're adding **Account** table.  
 
     :::image type="content" source="media/hv-add-table.png" alt-text="Screenshot of selecting the Add table option in the hierarchy visualization designer page.":::
 
@@ -87,11 +87,11 @@ Configure the root node of the hierarchy by selecting the desired table. The tab
 
     | Setting | Description |
     |---------|-------------|
-    | Show all children of parent | Enable the option to show all children of the parent node in the hierarchy. When users open the hierarchy, all child records will be displayed under the parent node. For example, if the parent account is **Contoso** and has four child accounts, all the four child accounts under **Contoso** will be shown. |
-    | Select the column with the parent ID | Select the column that contains the parent ID for the hierarchy. For example, the `parent account ID` column in the **Account** table defines the parent-child relationship. The list shows self-referential columns (columns that reference the same table) and cross-table relationships. Select one to link records for hierarchy visualization. Here, we are selecting the `parentaccountid` column . This column has cross-table relationships with other tables such as **Lead**. |
-    | Which view should be used | The hierarchy shows records from the selected table view. Accept the default or select another existing view. If needed, use the [Power Platform maker portal to define your own view](/power-apps/maker/model-driven-apps/create-or-edit-model-driven-app-view). Here we are selecting the **Active Accounts** view to show only active accounts in the hierarchy. |
+    | Show all children of parent | Enable the option to show all children of the parent node in the hierarchy. When users open the hierarchy, all child records are displayed under the parent node. For example, if the parent account is **Contoso** and has four child accounts, all the four child accounts under **Contoso** will be shown. |
+    | Select the column with the parent ID | Select the column that contains the parent ID for the hierarchy. For example, the `parent account ID` column in the **Account** table defines the parent-child relationship. The list shows self-referential columns (columns that reference the same table) and cross-table relationships. Select one to link records for hierarchy visualization. Here, we're selecting the `parentaccountid` column. This column has cross-table relationships with other tables such as **Lead**. |
+    | Which view should be used | The hierarchy shows records from the selected table view. Accept the default or select another existing view. If needed, use the [Power Platform maker portal to define your own view](/power-apps/maker/model-driven-apps/create-or-edit-model-driven-app-view). Here we're selecting the **Active Accounts** view to show only active accounts in the hierarchy. |
     | Which form should be shown as a tile | Select a form to display as a tile. A maximum of seven fields can be displayed. Only fields that display basic data types (strings, dates, and numbers) are supported. Show or hide field labels on the form to show or hide the labels on the tile. You can customize the form to fit your needs such as concatenating name fields to display as one row. Here, we're selecting **Account Tile Form**. |
-    | Which form should be shown as details | Select a form to use to display detailed information when a user selects a tile. The details pane shows full forms in the narrow mobile view and can be expanded to show the form full screen. Tabbed forms are also supported. Here, we are selecting the **Account** form. |
+    | Which form should be shown as details | Select a form to use to display detailed information when a user selects a tile. The details pane shows full forms in the narrow mobile view and can be expanded to show the form full screen. Tabbed forms are also supported. Here, we're selecting the **Account** form. |
 
     :::image type="content" source="media/hv-account-settings-general-tab.png" alt-text="Screenshot of the general tab in the account table settings pane in the hierarchy visualization designer page.":::
 
@@ -101,7 +101,7 @@ Configure the root node of the hierarchy by selecting the desired table. The tab
     |---------|-------------|
     | Show picture | Tiles can optionally show or hide a circled image for the record. When enabled, if no image is available, the initials of the record will be shown instead. For example, if **Maria Campbell** doesn't have an image, her tile would be displayed as **MC**. If initials aren't available, the default icon for the table is shown. |
     | Tile size | Select the width and height for the tile in pixels and then choose the color for the tile border. |
-    | Color | Select the top header color for the tile in Hex format. Here, we are using **#0078D4** for the blue color. |
+    | Color | Select the top header color for the tile in Hex format. Here, we're using **#0078D4** for the blue color. |
 
     > [!NOTE]
     > - These settings are applied only to this tile in this hierarchy visualization.
@@ -110,24 +110,24 @@ Configure the root node of the hierarchy by selecting the desired table. The tab
     :::image type="content" source="media/hv-account-settings-tile-tab.png" alt-text="Screenshot of the tile display option tab in the account settings pane in the hierarchy visualization designer page.":::
 
 Now, the root node of the hierarchy is configured you can proceed to [add and configure child nodes](#configure-the-child-node) as required.  
-If you are creating a self-referential simple hierarchy, adding child nodes is not required. Go to [create a hierarchy visualization](#create-a-hierarchy-visualization) section to complete the process.  
+If you're creating a self-referential simple hierarchy, adding child nodes isn't required. Go to [create a hierarchy visualization](#create-a-hierarchy-visualization) section to complete the process.  
 
 ### Configure the child node
   
-1. Under the root node, select the add icon below the tile and enter a name for the child node. Here, we are adding **Contact** table as a child node to the **Account** table.  
-1. Select **Add table** and then select the desired table. Here, we are selecting the **Contact** table.  
+1. Under the root node, select the add icon below the tile and enter a name for the child node. Here, we're adding **Contact** table as a child node to the **Account** table.  
+1. Select **Add table** and then select the desired table. Here, we're selecting the **Contact** table.  
     The **Settings** pane opens on the right side of the page.  
 1. In the **General** tab, configure relationship settings with the root node table, define child-parent relationship, and choose view and forms
   
     | Setting | Description |
     |---------|-------------|
-    | Branch display name | Enter a name for the branch display. This name will be shown in the hierarchy visualization. |
+    | Branch display name | Enter a name for the branch display. This name is shown in the hierarchy visualization. |
     | Select relationship to table: *Table* | Choose a relationship type for the table depending on your business needs. The following options are available:<br>&nbsp;• Contacts with matching {Parent_ID}<br>&nbsp;• Contacts with matching {Parent_Account_team}<br>&nbsp;• {Primary_Contact} for the account<br>&nbsp;• Dataverse connections table<br>&nbsp;• Custom connections table<br>To understand more about the relationship types, see [Relationship selection options for child node](#relationship-selection-options-for-child-node). |
-    | Show all children of parent | Enable the option to show all children of the parent node in the hierarchy. When users open the hierarchy, all child records will be displayed under the parent node. For example, if the parent account is **Contoso** and has four child accounts, all the four child accounts under **Contoso** will be shown. |
-    | Select the column with the parent ID | Select the column that contains the parent ID for the hierarchy. For example, the `parent account ID` column in the **Account** table defines the parent-child relationship. The list shows self-referential columns (columns that reference the same table) and cross-table relationships. Select one to link records for hierarchy visualization. Here, we are selecting the `parentaccountid` column . This column has cross-table relationships with other tables such as **Lead**. |
-    | Which view should be used | The hierarchy shows records from the selected table view. Accept the default or select another existing view. If needed, use the [Power Platform maker portal to define your own view](/power-apps/maker/model-driven-apps/create-or-edit-model-driven-app-view). Here we are selecting the **Active Accounts** view to show only active accounts in the hierarchy. |
+    | Show all children of parent | Enable the option to show all children of the parent node in the hierarchy. When users open the hierarchy, all child records are displayed under the parent node. For example, if the parent account is **Contoso** and has four child accounts, all the four child accounts under **Contoso** will be shown. |
+    | Select the column with the parent ID | Select the column that contains the parent ID for the hierarchy. For example, the `parent account ID` column in the **Account** table defines the parent-child relationship. The list shows self-referential columns (columns that reference the same table) and cross-table relationships. Select one to link records for hierarchy visualization. Here, we're selecting the `parentaccountid` column. This column has cross-table relationships with other tables such as **Lead**. |
+    | Which view should be used | The hierarchy shows records from the selected table view. Accept the default or select another existing view. If needed, use the [Power Platform maker portal to define your own view](/power-apps/maker/model-driven-apps/create-or-edit-model-driven-app-view). Here we're selecting the **Active Accounts** view to show only active accounts in the hierarchy. |
     | Which form should be shown as a tile | Select a form to display as a tile. A maximum of seven fields can be displayed. Only fields that display basic data types (strings, dates, and numbers) are supported. Show or hide field labels on the form to show or hide the labels on the tile. You can customize the form to fit your needs such as concatenating name fields to display as one row. Here, we're selecting **Account Tile Form**. |
-    | Which form should be shown as details | Select a form to use to display detailed information when a user selects a tile. The details pane shows full forms in the narrow mobile view and can be expanded to show the form full screen. Tabbed forms are also supported. Here, we are selecting the **Account** form. |  
+    | Which form should be shown as details | Select a form to use to display detailed information when a user selects a tile. The details pane shows full forms in the narrow mobile view and can be expanded to show the form full screen. Tabbed forms are also supported. Here, we're selecting the **Account** form. |  
 
     :::image type="content" source="media/hv-contact-settings-general-tab.png" alt-text="Screenshot of the general tab in the contact table settings pane in the hierarchy visualization designer page.":::
 
@@ -137,7 +137,7 @@ If you are creating a self-referential simple hierarchy, adding child nodes is n
     |---------|-------------|
     | Show picture | Tiles can optionally show or hide a circled image for the record. When enabled, if no image is available, the initials of the record will be shown instead. For example, if **Maria Campbell** doesn't have an image, her tile would be displayed as **MC**. If initials aren't available, the default icon for the table is shown. |
     | Tile size | Select the width and height for the tile in pixels and then choose the color for the tile border. |
-    | Color | Select the top header color for the tile in Hex format. Here, we are using **#0078D4** for the blue color. |
+    | Color | Select the top header color for the tile in Hex format. Here, we're using **#0078D4** for the blue color. |
 
     > [!NOTE]
     > - These settings are applied only to this tile in this hierarchy visualization.
@@ -151,9 +151,9 @@ If you are creating a self-referential simple hierarchy, adding child nodes is n
 
 #### Relationship selection options for child node
 
-When you add a child node, you must select a relationship type to define how the child table relates to the parent table. The available relationship options depend on the tables you are working with. Here are some common relationship types you might encounter:
+When you add a child node, you must select a relationship type to define how the child table relates to the parent table. The available relationship options depend on the tables you're working with. Here are some common relationship types you might encounter:
 
-- **Contacts with matching {Parent_ID}**: This option uses a direct lookup field such as, `ParentCustomerId` on the child table to link each record to its parent table. It’s the classic parent-child relationship.  
+- **Contacts with matching {Parent_ID}**: This option uses a direct lookup field such as `ParentCustomerId` on the child table to link each record to its parent table. It’s the classic parent-child relationship.  
     For example, you want to display all contacts associated with a specific account in a hierarchical view.
     The **Contact** table includes a field `ParentCustomerId`, which establishes a relationship to the **Account** table. When this relationship is selected, the application displays all contacts where&mdash;`Contact.ParentCustomerId` = `Account.AccountId`  
     This creates a parent-child hierarchy between the account and its related contacts.  
@@ -165,7 +165,7 @@ When you add a child node, you must select a relationship type to define how the
     For example, you want to identify and display the key contact associated with each account.  
     The **Account** table includes a `PrimaryContactId` field and the hierarchy uses this field to locate the contact whose `ContactId` matches the account’s `PrimaryContactId`.  
     This creates a direct link where each account points to its primary contact.  
-- **Dataverse connections table**: This option leverages the standard **Dataverse Connections** table, which allows you to model flexible, many-to-many relationships with roles such as Advisor, Family member, and so on.  
+- **Dataverse connections table**: This option uses the standard **Dataverse Connections** table, which allows you to model flexible, many-to-many relationships with roles such as Advisor, Family member, and so on.  
     For example, you want to display all contacts connected to an account through various roles defined in the **Connections** table.  
     The **Connections** table defines relationships between records using roles such as Account as Employer and Contact as Employee. The hierarchy pulls in all contacts connected to the account through entries in the **Connections** table.  
     This creates a flexible hierarchy based on the roles defined in the **Connections** table.  
