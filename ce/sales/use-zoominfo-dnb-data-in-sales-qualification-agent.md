@@ -4,17 +4,17 @@ description: Learn to configure the Sales Qualification Agent in Dynamics 365 Sa
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 09/09/2025
+ms.date: 09/17/2025
 ms.topic: concept-article
 ---
 
 # Configure Sales Qualification Agent to use Dataverse fields enriched by third-party data providers
 
-The Sales Qualification Agent in Dynamics 365 Sales automates lead research and engagement by evaluating leads against your Ideal Customer Profile (ICP). You can define custom ICP criteria using Dataverse fields—many of which can be enriched with firmographic data from ZoomInfo, Dun & Bradstreet (D&B), or any other provider that integrates with Dataverse. 
+The Sales Qualification Agent in Dynamics 365 Sales automates lead research and engagement by evaluating leads against your Ideal Customer Profile (ICP). You can define custom ICP criteria using Dataverse fields—many of which can be enriched with firmographic data from ZoomInfo, Dun & Bradstreet (D&B), or any other provider that integrates with Dataverse. Learn more about [Custom criteria examples for sales teams across industries](custom-icp-examples.md).
 
 This article covers instructions for integrating with ZoomInfo and Dun & Bradstreet. However, you can choose any other provider, such as Clay, 6Sense, Similarweb, and Builtwith, that syncs firmographic data into Dataverse fields. The high-level steps remain similar.
 
-## Step 1: Install and set up ZoomInfo or Dun & Bradstreet integration
+## Step 1: Install and set up the integration
 
 Before using ZoomInfo or D&B data in your Sales Qualification Agent configuration, install and configure the respective app from Microsoft AppSource.
 
@@ -31,6 +31,7 @@ Integrate ZoomInfo data by following the instructions in these articles:
 
 Integrate Dun & Bradstreet data by installing and configuring the [Dun & Bradstreet Optimizer App for Microsoft](https://appsource.microsoft.com/en-us/product/dynamics-365/dnb.dnb_optimizer) from Microsoft AppSource. For step-by-step instructions, refer to the official installation guide under **Details + Support** > **Help** on the AppSource page.
 :::image type="content" source="media/dnb-help-doc.png" alt-text="Screenshot of the help link under Details + Support section.":::
+
 
 ## Step 2: Identify ZoomInfo or D&B-enriched Dataverse fields
 
