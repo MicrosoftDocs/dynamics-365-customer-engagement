@@ -66,7 +66,8 @@ Depending on the settings that are enabled for you, either the enhanced full cas
    - Specify the customer to display the relevant customer details and recent cases on **Customer Card** and  **Recent cases**.
    - Use **Case Notes** and **Description** to record notes and information related to the case. Use the rich text editor toolbar to format the text in the fields and add images and links. You can also drag files into the description section.
    - In **Attachments**, select **Add Attachment** to upload multiple attachments at once.
-   -  View color coded **Case Status** fields and **Priority** icons.
+   - View color coded **Case Status** fields and **Priority** icons.
+    [!INCLUDE [cc-case-sentiment-feature](../../includes/cc-case-sentiment-feature.md)]
    - Select **Save and Resolve** at the top of the form to save the case and initiate the case resolution process.
     
      :::image type="content" source="../media/enh-case-newcase-mini.png" alt-text="Screenshot of the enhanced full case form." lightbox="../media/enh-case-newcase.png":::
@@ -76,6 +77,7 @@ Depending on the settings that are enabled for you, either the enhanced full cas
    On the **Case for Multisession experience** form, which is the default case form for Copilot Service workspace, you can do the following: 
 
    - See color coded **Case Status** fields and **Priority** icons.
+   [!INCLUDE [cc-case-sentiment-feature](../../includes/cc-case-sentiment-feature.md)]
    - See the **Attachment** tab. The attachment tab displays the attachments that are linked to the case. You can upload attachments from this tab only if your administrator configured the attachment control.
    - **Activities Due** section. When the case is saved, the section displays links to the activities that are associated with the case, and are due or overdue on the current date. Select a link to view the activities in the **Due Activities** view.
    - **Queue item details**. Once you save the case and route the case to a queue, this field displays the current queue the case belongs to and the **Worked by** field

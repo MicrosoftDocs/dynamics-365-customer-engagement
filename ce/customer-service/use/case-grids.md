@@ -21,6 +21,7 @@ The modernized case grids help you increase your productivity by providing quick
 
 - The **Enhanced Active Cases** view is available by default with more fields such as **Case Age**, **Next SLA**, **Is escalated**, and **Last Interaction**.
 - Color coded icons for **Priority**, **Case status**, and the **Origin** channels, avatars for Owner appear in all the case views.
+[!INCLUDE [cc-case-sentiment-feature](../../includes/cc-case-sentiment-feature.md)]
 
 ## Columns on the Enhanced Active Cases view
 
