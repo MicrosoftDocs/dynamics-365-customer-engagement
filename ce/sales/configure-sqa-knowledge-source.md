@@ -1,5 +1,5 @@
 ---
-title: Configure knowledge source for Sales Qualification Agent (preview)
+title: Configure knowledge sources for Sales Qualification Agent (preview)
 description: Learn how to configure knowledge sources for the Sales Qualification Agent in Dynamics 365 Sales.
 ms.topic: how-to 
 ms.date: 08/04/2025
@@ -15,7 +15,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure knowledge source for Sales Qualification Agent (preview)
+# Configure knowledge sources for Sales Qualification Agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -37,20 +37,22 @@ Consider the following before you configure knowledge sources for the Sales Qual
 
    :::image type="content" source="media/sales-qualification-agent-knowledge-source-sharepoint.png" alt-text="Screenshot showing the correct SharePoint option to select in Copilot Studio":::
 
-## Add knowledge sources
+## Add knowledge sources for company insights
 
 1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  
 
 1. In the **Knowledge** section, select the following options and configure the knowledge sources:  
-    - **Research**: The agent uses knowledge sources to get research insights about the lead and their company. These insights include industry type, company size, financials, priorities, and news. The following examples are the best sources to add as knowledge sources for research:
+    - **Research**: The agent uses knowledge sources to get research insights about the lead, their company, and their competitors. 
+        - **Company insights:** Company insights include industry type, company size, financials, priorities, and news. The following examples are the best sources to add as knowledge sources for company research:
 
-        | Insight | Typical questions answered | Examples of out-of-box data sources |
-        |---------|----------------------------|-------------------------------------|
-        | Company background | What does the company do? What is its size and industry? | Company website, Wikipedia pages, Crunchbase profiles |
-        | Strategic priorities | What is the firm focusing on? Does their priority match with what we are selling? | Annual reports, earnings-call transcripts |
-        | Financials | How healthy is the business? Will they have budget to buy what we are selling? | SEC filings, Bloomberg, Dataverse finance tables |
-        | Recent news | What just happened that matters to us, and will show a need or intent for our solutions? | Bing news search |  
+            | Insight | Typical questions answered | Examples of out-of-box data sources |
+            |---------|----------------------------|-------------------------------------|
+            | Company background | What does the company do? What is its size and industry? | Company website, Wikipedia pages, Crunchbase profiles |
+            | Strategic priorities | What is the firm focusing on? Does their priority match with what we are selling? | Annual reports, earnings-call transcripts |
+            | Financials | How healthy is the business? Will they have budget to buy what we are selling? | SEC filings, Bloomberg, Dataverse finance tables |
+            | Recent news | What just happened that matters to us, and will show a need or intent for our solutions? | Bing news search |  
 
+        - **Competitor insights:** Competitor insights include industry, location, size, and market share of the competitor, their strengths, weaknesses, opportunities, and threats (SWOT analysis), and recommended talking points to position against the competitor. 
     - **Outreach emails**: The agent uses knowledge sources to create personalized outreach emails. These emails can include relevant customer testimonials, case studies, and other insights to engage the lead effectively.  
     - **Follow-up emails**: This is only applicable for the Research and engage mode. The agent uses knowledge sources to create follow-up emails to respond accurately and ask insightful questions. For an effective follow-up, add knowledge sources that include price sources, product specifications, sales playbooks, SKUs, and more.  
 
@@ -58,9 +60,9 @@ Consider the following before you configure knowledge sources for the Sales Qual
 
 To know more about adding knowledge sources in Copilot Studio, go to [Add knowledge to an agent](/microsoft-copilot-studio/knowledge-add-existing-copilot).
 
-## Test knowledge sources
+### Test knowledge source for company insights
 
-After you add knowledge sources, you can test if Sales Qualification Agent is picking these sources as part of research in the Microsoft Copilot Studio test pane.
+After you add knowledge sources for company insights, you can test if Sales Qualification Agent is picking these sources as part of research in the Microsoft Copilot Studio test pane.
 
 **Follow these steps**:
 
@@ -85,6 +87,9 @@ After you add knowledge sources, you can test if Sales Qualification Agent is pi
 
 1. When you are satisfied with the output, save and activate the the knowledge source.
     Now, sellers can see the research insights in the Sales Qualification Agent once it is running.
+
+## Add knowledge sources for competitor insights
+
 
 ## Example Scenario: Contoso Investment Bank targets high-net-worth (HNW) leads 
 
