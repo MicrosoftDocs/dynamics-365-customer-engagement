@@ -30,7 +30,7 @@ The queue table has the following sortable columns:
 |Longest wait time| Longest time for a work item during reporting period in queue until the status changed from open to active (assigned).|
 |Agents online| Service representatives assigned to queue who are online. |
 
-Because the table allows for sorting by queue, queue priority, assigned and unassigned work items, longest wait time, and agents online, you can easily identify queues where to take corrective action needs to provide a smooth customer experience. For example, if you sort by unassigned cases or longest wait time, you can ensure that enough agents and agent capacity are available to handle the backlog efficiently.
+Since the table can be sorted by queue, queue priority, assigned and unassigned work items, longest wait time, and agents online, you can quickly identify queues that might need attention and take steps to improve the customer experience. For example, if you sort by unassigned cases or longest wait time, you can ensure that enough agents and agent capacity are available to handle the backlog efficiently.
 
 When a queue is selected in the table, queue work items can be listed as an embedded ongoing work items table for easy management using the **Detailed view** option.
 
