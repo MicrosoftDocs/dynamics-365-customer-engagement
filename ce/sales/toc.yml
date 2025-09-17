@@ -203,8 +203,6 @@ items:
                 href: configure-opportunity-research-agent.md
           - name: Copilot Studio agents and Entra app registrations
             href: ai-agents-apps.md
-          - name: Define custom criteria with zoominfo
-            href: custom-criteria-with-zoominfo.md
       - name: Copilot in Dynamics 365 Sales
         items:
           - name: Copilot overview
