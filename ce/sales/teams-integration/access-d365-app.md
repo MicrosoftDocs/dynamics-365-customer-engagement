@@ -1,7 +1,7 @@
 ---
 title: Access the Dynamics 365 app through messaging extensions
 description: Learn how to access the Dynamics 365 app through messaging extensions
-ms.date: 08/21/2024
+ms.date: 09/17/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 author: sbmjais
