@@ -46,9 +46,10 @@ Follow these steps to customize the zero prompt experience for Copilot in Dynami
 The sample code includes customization to the `Conversation Start` topic for the zero prompt experience. This example adds a new prompt to the card "Redmond Accounts".
 
 The following changes are made to the existing code:
-- Adds a variable Topic.AccountScenario to hold the account scenario.
-- Adds a variable Topic.AccountScenarioPayload to hold the payload for the account scenario.
-- Updates the Adaptive Card to include the new scenario and its payload.
+
+- A new variable named `Topic.AccountScenario` is added to hold the account scenario.
+- A variable named `Topic.AccountScenarioPayload` is added to hold the payload for the account scenario.
+- The Adaptive Card is updated to include the new scenario and its payload.
 
 ```yaml
 kind: AdaptiveDialog
