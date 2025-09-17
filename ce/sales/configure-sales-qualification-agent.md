@@ -1,7 +1,7 @@
 ---
 title: Set up and configure the Sales Qualification Agent (preview)
 description: Set up and configure the Sales Qualification Agent to automate research, engagement, and outreach in Dynamics 365 Sales with AI-powered assistance for effective sales processes.
-ms.date: 08/04/2025
+ms.date: 09/17/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -30,8 +30,6 @@ Watch the video to get started with the agent setup:
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=5148e4b9-f0d1-43e9-93b5-484c8f446c3c]
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
-
 
 ## Prerequisites
 
@@ -114,7 +112,7 @@ The Sales Qualification Agent is available in two modes&mdash;Research-only mode
 1. [Configure email instructions and address validation](sales-qualification-agent-email-instruction-validation.md) for the agent.
 1. [Configure handoff criteria](configure-sales-qualification-agent-handoff-criteria.md) for the agent to identify leads that are a good fit for further engagement.  
 1. [Configure assignment rules](configure-sqa-assignment-rules.md) for the agent to assign processed leads to the appropriate sellers.  
-1. [Configure knowledge sources](configure-sqa-knowledge-source.md) for research insights, outreach, and follow-up emails.
+1. [Configure knowledge sources](configure-sqa-knowledge-source.md) for company and competitor insights, outreach, and follow-up emails.
 1. (**Research and engage mode**) [Run simulation to review the agent's outreach emails](run-simulation-sqa-outreach-email.md) are customized and relevant to the leads.  
 1. After you are satisfied with the configuration, [start the agent](start-sales-qualification-agent.md).
 
