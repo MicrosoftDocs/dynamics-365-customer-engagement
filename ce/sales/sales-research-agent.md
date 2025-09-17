@@ -2,7 +2,7 @@
 title: Sales research agent overview (preview)
 description: Learn how to use the Sales research agent in Dynamics 365 Sales to get insights about your customers, prospects, sales targets, and competitors.
 manager:
-ms.date: 03/17/2025
+ms.date: 09/16/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -21,6 +21,8 @@ The Sales Research Agent in Dynamics 365 Sales empowers you to solve complex bus
 
 :::image type="content" source="media/sales-research-agent-insights.png" alt-text="Screenshot of the research canvas in the Sales research agent.":::
 
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
+
 Use the agent to:
 
 - Get insights from your Dynamics 365 Sales data and offline files to help you make informed decisions.
@@ -28,16 +30,24 @@ Use the agent to:
 - Interact with the research findings using natural language. Ask follow-up questions, change visualizations, and add more data to your research.
 - Understand how the agent arrived at its conclusions by reviewing the sources and reasoning behind the research outcomes.
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
-
 ## How the agent works
 
 1. The Sales Research Agent connects to your Dynamics 365 Sales data by default. You can also connect it to other data sources on Dataverse or upload Excel, CSV, or PDF files to further enrich the basis of your explorations.
 
-1. The agent involves multiple research agents to help you with your research. 
-1. The planner agent creates a research plan and orchestrates a multitude of specialized agents to gather, analyze, and transform data into meaningful research outputs. 
+1. The agent involves multiple research agents to help you with your research. The planner agent creates a research plan and orchestrates a multitude of specialized agents to gather, analyze, and transform data into meaningful research outputs. 
 1. These outputs are tailored to your context, business domain, and deep understanding of the business data.
 1. The research insights are delivered to you as comprehensive, AI-generated research blueprints.
+
+## How to set up and use the agent
+
+Depending on your role, use the following links to learn about configuring and using the Sales Research Agent:
+
+| Role(s)                        | Link to documentation                                                                                   |
+|--------------------------------|----------------------------------------------------------------------------------------------|
+| System administrators, makers  | [Set up and configure Sales Research Agent (preview)](configure-sales-research-agent.md)     |
+| Sellers and Sales managers     | [Research on sales topics using the Sales Research Agent (preview)](use-sales-research-agent.md) |
+| Sellers and Sales managers     | [Connect the agent to a different data source](sales-research-agent-connect-data.md)          |
+| Sellers and Sales managers     | [Provide context to the Sales Research Agent (preview)](sales-research-agent-provide-context.md)  |
 
 ## Legal and regulatory considerations
 
@@ -45,7 +55,4 @@ Organizations need to evaluate potential specific legal and regulatory obligatio
 
 ## Related information
 
-
-- [Research on sales topics](use-sales-research-agent.md)
-- [Connect the agent to a different data source](sales-research-agent-connect-data.md)
-- [Frequently asked questions about Sales Research Agent (preview)](faqs-sales-research-agent.md)
+[Frequently asked questions about Sales Research Agent (preview)](faqs-sales-research-agent.md)

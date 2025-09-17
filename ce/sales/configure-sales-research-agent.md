@@ -17,26 +17,13 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Sales Research Agent complies with both feedback and Bing search consent settings configured in the Power Platform Admin Center. These controls ensure that organizations can manage user interactions and data usage in alignment with their compliance and governance policies.
+As an admin, set up and configure the Sales Research Agent in Dynamics 365 Sales to help sellers have conversations with their sales data. 
 
-## Feedback Consent
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-At the environment level, administrators can [configure feedback settings](/power-platform/admin/tenant-settings) such as, whether users are allowed to submit feedback on their experience with the agent. Options include:
+## Configure Copilot Studio capacity
 
-- Disabling feedback collection entirely
-- Allowing users to provide basic feedback (e.g., thumbs up/down)
-- Enabling detailed feedback submissions with additional comments
-
-These settings help organizations tailor the feedback experience to their privacy and data collection standards.
-
-## Bing Search Consent
-
-The Sales Research Agent also honors the [Bing search consent setting](/power-platform/admin/geographical-availability-copilot?tabs=new#turn-on-data-movement-bing-search-and-microsoft-365-services-for-copilots-and-generative-ai-features). This means:
-
-- If Bing search is **enabled**, the agent can access external web search capabilities to enhance its responses.
-- If Bing search is **disabled**, the agent will operate solely on internal data sources—such as uploaded files or connected Dynamics 365 data—without querying the web.
-
-This ensures that external data usage is fully controlled by tenant-level policies.
+The agent needs Copilot Studio capacity to run. Ensure that you have enough capacity for the agent. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
 
 ## Grant access to the Sales Research Agent
 
@@ -51,3 +38,27 @@ To grant access to other users, you must assign the **Sales Research Agent** sec
 1. Select **Manage security roles** and then assign the **Sales Research Agent** role to the user.
 
 Alternatively, you can create a security group in Azure Active Directory, add users to that group, and then assign the **Sales Research Agent** role to that security group. This approach simplifies role management for larger teams. Learn more in [Create, change, or delete a network security group](/azure/virtual-network/manage-network-security-group?tabs=network-security-group-portal). 
+
+## Configure environment settings
+
+The Sales Research Agent complies with both Copilot feedback and Bing search consent settings configured in the Power Platform Admin Center. These controls ensure that organizations can manage user interactions and data usage in alignment with their compliance and governance policies.
+
+### Feedback Consent
+
+At the environment level, administrators can [configure feedback settings](/power-platform/admin/tenant-settings) such as, whether users are allowed to submit feedback on their experience with the agent. Options include:
+
+- Disabling feedback collection entirely
+- Allowing users to provide basic feedback (e.g., thumbs up/down)
+- Enabling detailed feedback submissions with additional comments
+
+These settings help organizations tailor the feedback experience to their privacy and data collection standards.
+
+### Bing Search Consent
+
+The Sales Research Agent also honors the [Bing search consent setting](/power-platform/admin/geographical-availability-copilot?tabs=new#turn-on-data-movement-bing-search-and-microsoft-365-services-for-copilots-and-generative-ai-features). This means:
+
+- If Bing search is **enabled**, the agent can access external web search capabilities to enhance its responses.
+- If Bing search is **disabled**, the agent will operate solely on internal data sources—such as uploaded files or connected Dynamics 365 data—without querying the web.
+
+This ensures that external data usage is fully controlled by tenant-level policies.
+
