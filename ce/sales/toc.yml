@@ -183,6 +183,8 @@ items:
                     href: test-sales-qualification-agent.md
                   - name: Custom criteria examples
                     href: custom-icp-examples.md
+                  - name: Use fields enriched with Zoominfo or Dun & Bradstreet data
+                    href: use-zoominfo-dnb-data-in-sales-qualification-agent.md
               - name: Sales Qualification Agent (pre-7.3 version)
                 items:
                   - name: Overview (pre-7.3 version)
@@ -792,24 +794,24 @@ items:
         href: user-guide.yml
       - name: Autonomous AI agents
         items:
-        - name: Sales Qualification Agent (preview)
-          items:
-            - name: Overview
-              href: sales-qualification-agent.md
-            - name: Work on leads handed over by the Sales Qualification Agent
-              href: use-sales-qualification-agent.md
-            - name: Monitor leads handled by the Sales Qualification Agent
-              href: monitor-leads-by-sales-qualification-agent.md
-            - name: FAQ about Sales Qualification Agent
-              href: sales-qualification-agent-faq.md
-        - name: Opportunity Research Agent (preview)
-          items:
-            - name: Overview
-              href: opportunity-research-agent.md
-            - name: Work on opportunities researched by Opportunity Research Agent
-              href: use-opportunity-research-agent.md
-            - name: FAQs about Opportunity Research Agent
-              href: opportunity-research-agent-faqs.md
+          - name: Sales Qualification Agent (preview)
+            items:
+              - name: Overview
+                href: sales-qualification-agent.md
+              - name: Work on leads handed over by the Sales Qualification Agent
+                href: use-sales-qualification-agent.md
+              - name: Monitor leads handled by the Sales Qualification Agent
+                href: monitor-leads-by-sales-qualification-agent.md
+              - name: FAQ about Sales Qualification Agent
+                href: sales-qualification-agent-faq.md
+          - name: Opportunity Research Agent (preview)
+            items:
+              - name: Overview
+                href: opportunity-research-agent.md
+              - name: Work on opportunities researched by Opportunity Research Agent
+                href: use-opportunity-research-agent.md
+              - name: FAQs about Opportunity Research Agent
+                href: opportunity-research-agent-faqs.md
       - name: Use Copilot in Dynamics 365 Sales
         items:
           - name: Copilot overview
