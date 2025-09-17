@@ -25,7 +25,7 @@ A set of KPIs helps provide quick insight into the filter scope.
 |---------|---------|
 |Ongoing work items     |   Number of record type work items modified in the last 24 hours, and are ongoing currently, and includes open and active work items.      |
 |Unassigned work items    |  Number of record type work items modified in the last 24 hours and are unassigned currently.       |
-|Agents online    |   Number of customer service representative (service representative or representative) who are online.    |
+|Agents online    |   Number of customer service representatives (service representatives or representatives) who are online.    |
 |Agents with active workitems   |Number of representatives, irrespective of presence status, who have active work items assigned. |
 
 ## Lists and charts
