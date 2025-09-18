@@ -1,7 +1,7 @@
 ---
 title: Enable self-scheduling service appointments in Dynamics 365 Field Service (preview)
 description: Learn how to allow customers to schedule work orders via a customer portal in Dynamics 365 Field Service.
-ms.date: 08/15/2024
+ms.date: 09/08/2025
 ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
@@ -39,7 +39,7 @@ The portal requires users to create a portal profile before they can sign in and
 1. Choose a date and time. When you select a day, available time slots show automatically.
 1. Provide optional comments about the appointment or service.
     > [!div class="mx-imgBorder"]
-    > ![Self-scheduling page of the customer experience portal, showing booking options.](./media/homepage-self-scheduling-with-selected.jpg)
+      > :::image type="content" source="./media/homepage-self-scheduling-with-selected.png" alt-text="Screenshot of self-scheduling page of the customer experience portal, showing booking options.":::
 1. Select **Book** to create the appointment.
 
 ## Modify an appointment
@@ -58,13 +58,11 @@ Appointments in the **Traveling** state mean the technician is on their way to a
 
 If [technician tracking is turned on](customer-portal-technician-tracking.md), the portal shows the technician's location on a map. To see the location, select **View Live Map**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the customer portal showing active technician details.](./media/TMT-Desktop-Traveling.png)
+:::image type="content" source="./media/TMT-Desktop-Traveling.png" alt-text="Screenshot of the customer portal showing active technician details.":::
 
 If multiple appointments are set to travel, only one appears in the **Active appointment**. The other active appointments are listed in the **Upcoming appointments** section, but you can select **View Live Map**.
 
-> [!div class="mx-imgBorder"]
-> ![Active appointments in the customer experience portal.](./media/homepage-homepage-with-1-booking-in-travelling-state-which-has-link-to-tmt.jpg)
+:::image type="content" source="./media/homepage-homepage-with-1-booking-in-travelling-state-which-has-link-to-tmt.png" alt-text="Screenshot of active appointments in the customer experience portal.":::
 
 > [!NOTE]
 > Technicians must [share their location from the Field Service mobile app](mobile/track-technician-location.md) for location tracking and the estimated travel time. There's a small delay between their actual location and the location on the map. The delay can increase with limited network coverage of the technician's mobile device.
@@ -77,15 +75,13 @@ Appointments set to **In Progress** appear in the **Upcoming appointments** sect
 
 Scheduled appointments are shown in the **Upcoming appointments** section. You can change or cancel scheduled appointments.
 
-> [!div class="mx-imgBorder"]
-> ![List of upcoming scheduled appointments in the customer experience portal.](./media/homepage-homepage-with-upcoming-bookings.jpg)
+:::image type="content" source="./media/homepage-homepage-with-upcoming-bookings.png" alt-text="Screenshot of list of upcoming scheduled appointments in the customer experience portal.":::
 
 ### Canceled or completed
 
 Canceled and completed appointments move to the **Past appointments** tab. [Optional surveys](create-configure-customer-portal.md) to send feedback displays on completed appointments.
 
-> [!div class="mx-imgBorder"]
-> ![List of past appointments in the customer experience portal, showing the option to send feedback.](./media/homepage-past-bookings-with-send-feedback-option-for-completed-bookings.jpg)
+:::image type="content" source="./media/homepage-past-bookings-with-send-feedback-option-for-completed-bookings.png" alt-text="Screenshot of list of past appointments in the customer experience portal, showing the option to send feedback.":::
 
 ## Manually send an invite to a contact
 
@@ -104,11 +100,11 @@ Before customers can use the Field Service portal, make sure you [configured the
 A contact with a matching email only receives the portal invite once, even if the contact is deleted and readded to the system. To resend an invite:
 
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com) and select your organization's environment.
-1. Select **Power Apps** and then select **Portal Management**.
-1. Select **Contacts** and open the newly created contact record.
+1. In **Resources**, select **Power Apps** and then select **Power Pages Management**.
+1. In **Security**, select **Contacts** in left pane and open the newly created contact record.
 1. On the command bar, select **Create Invitation**. Fill in any additional information and select **Save**.
 1. Select **Advanced** and copy the *Invitation code*.
-1. Select **Related** > **Web Roles** and select **Add existing web role**.
+1. In the General tab, go to **Assign To Web Roles** and select **Add existing web role**.
 1. Select the **Web Api Users** web role.
 1. Send the invite code and the portal link to the desired contact.
 
@@ -125,13 +121,14 @@ Make sure you have the correct [business process flow](/power-automate/create-bu
 1. Sign in to [Power Apps](https://make.powerapps.com/).
 1. Select **Solutions** and your organization's solution.
 1. Under **Objects**, select **Processes**.
-1. Search for and open **Send Password Reset to Contact**. Scroll down and select **View Properties**.
+1. Search for and open **Send Password Reset to Contact**. 
+1. In the **Send Password Reset to Contact** window, scroll down to **Send password reset email**, and select **View Properties**.
 1. Edit the **From** field for a user. Typically the same account you use to send notifications for the scheduling experience. Then, select **Save and Close**.
+   :::image type="content" source="./media/SS-Process-sendemail.PNG" alt-text="Screenshot of Field Service process edit page, showing the 'Send Password Reset to Contact' process."::: 
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com) and select your organization's environment.
 1. Select **Settings** > **Email** > **Mailboxes**.
-1. Select the user you set in step 5, select **Approve Email**, and then select **Test & Enable Mailbox**.
+1. Select the user you set in step 6, select **Approve Email**, and then select **Test & Enable Mailbox**.
 
-> [!div class="mx-imgBorder"]
-> ![Field Service process edit page, showing the "Send Password Reset to Contact" process.](./media/SS-Process-sendemail.PNG)
+
 
 [!INCLUDE [footer-include](../includes/footer-banner.md)]

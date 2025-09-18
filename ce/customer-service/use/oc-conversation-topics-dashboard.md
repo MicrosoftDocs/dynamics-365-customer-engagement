@@ -19,7 +19,7 @@ ms.reviewer: mgandham
 > [!NOTE]
 > Starting June 20, 2025, the legacy AI topic clustering for conversation topics in Dynamics 365 Customer Service and Dynamics 365 Contact Center is deprecated and will reach the end of support. After August 31, 2025, this feature will be removed, and users won't be able to use it in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
 
-The Topics dashboard shows a detailed breakdown of conversations and their assigned topics. Customer Service Insights uses AI-generated topics and natural language understanding to automatically group your conversations to help you better understand how different topic areas are impacting your organization’s support performance. 
+The Topics dashboard shows a detailed breakdown of conversations and their assigned topics. Customer Service Insights uses AI-generated topics and natural language understanding to automatically group your conversations to help you better understand how different topic areas are impacting your organization’s support performance. Learn how to [access the dashboard](omnichannel-analytics-insights.md#access-the-dashboards).
 
 > [!div class="mx-imgBorder"]
 > ![Omnichannel Conversation Topics dashboard.](../media/oc-topics.png "Omnichannel Conversation Topics dashboard")

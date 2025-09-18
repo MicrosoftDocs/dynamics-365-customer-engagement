@@ -6,13 +6,13 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 08/26/2025
+ms.date: 09/16/2025
 ms.custom: bap-template
 ---
 
 # View and understand real-time analytics for record routing in the backlog work items report 
 
-The Backlog work items report is similar to the Ongoing work items report, with focus on all work items created in the last two days. You can filter content by created on, queue, agent, work item skill, and time zone.
+The Backlog work items report is similar to the Ongoing work items report, with focus on all work items created in the last two days. You can filter content by created on, queue, agent, work item skill, and time zone. [Learn how to access the report](rr-overview.md#access-reports).
 
 Besides filtering, the report also provides the following KPIs to track all-up volumes within the selected filter. 
 
