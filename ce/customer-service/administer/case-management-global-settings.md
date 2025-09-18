@@ -21,7 +21,7 @@ You must configure global settings for Case Management Agent in Dynamics 365 Cus
 
 ## Configure global settings
 
-The AI agent requires a dedicated application user to send emails and resolve cases autonomously. This application user handles all email communication on behalf of your organization. Perform the steps in the following sections in the order specified.
+The AI agent requires a dedicated application user to send emails and resolve cases autonomously. This application user handles all email communication on behalf of your organization. Do the steps in the following sections in the order specified.
 
 ### Register an application and create a secret 
 
