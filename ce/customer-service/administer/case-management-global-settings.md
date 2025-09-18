@@ -1,5 +1,5 @@
 ---
-title: Configure global settings for case Management Agent (preview)
+title: Configure global settings for Case Management Agent (preview)
 description: Learn how to configure global settings for Case Management Agent in Dynamics 365 Customer Service to enable fully autonomous case resolution, follow-up, and closure capabilities.
 author: gandhamm
 ms.author: mgandham
@@ -12,12 +12,12 @@ ms.custom: bap-template
 
 # Configure global settings for Case Management Agent (preview)
 
-You must configure global settings for Case Management Agent in Dynamics 365 Customer Service to enable fully autonomous case resolution, follow-up, and closure capabilities.
+Configure global settings for Case Management Agent in Dynamics 365 Customer Service to enable fully autonomous case resolution, follow-up, and closure capabilities.
 
 ## Prerequisites
 
 - An Azure account that has an active subscription.
-- You must have at least the [Application Developer](/entra/identity/role-based-access-control/permissions-reference#application-developer) to create app registrations.
+- You at least have the [Application Developer](/entra/identity/role-based-access-control/permissions-reference#application-developer) to create app registrations.
 
 ## Configure global settings
 
@@ -38,16 +38,16 @@ The application user you create in Power Platform admin center is used to receiv
 ### Assign a shared mailbox to the application user
 
 1. Go to [Microsoft 365 admin center](https://admin.cloud.microsoft/) and do the steps 1 through 4 in [Create a shared mailbox](/microsoft-365/admin/email/create-a-shared-mailbox#create-a-shared-mailbox-and-add-members). Copy the email id of the shared mailbox.
-1. In Power Platform admin center, open the application user that you created in the previous step and update the shared mailbox email id. Learn more in [View or edit the details of an application user](/power-platform/admin/manage-application-users?tabs=new#view-or-edit-the-details-of-an-application-user).
+1. In Power Platform admin center, open the application user that you created in [Create an application user](#create-an-application-user-in-power-platform-admin-center) and set the shared mailbox id to the email id you've copied in the previous step. Learn more in [View or edit the details of an application user](/power-platform/admin/manage-application-users?tabs=new#view-or-edit-the-details-of-an-application-user).
 
 ### Assign a security group to the application user
 
-1. Go to [Microsoft 365 admin center](https://admin.cloud.microsoft/) and do the steps 1 to 4 in [Create a security group](/microsoft-365/admin/create-groups/create-a-security-group). Copy the group id of the security group.
-1. In Power Platform admin center, open the application user that you created in the previous step and update the security group id. Learn more in [View or edit the details of an application user](/power-platform/admin/manage-application-users?tabs=new#view-or-edit-the-details-of-an-application-user).
+1. Go to [Microsoft 365 admin center](https://admin.cloud.microsoft/) and do the steps 1 through 4 in [Create a security group](/microsoft-365/admin/create-groups/create-a-security-group). Copy the group id of the security group.
+1. In Power Platform admin center, open the application user that you created and update the security group id. Learn more in [View or edit the details of an application user](/power-platform/admin/manage-application-users?tabs=new#view-or-edit-the-details-of-an-application-user).
 
 ### Connect and authenticate connection references
 
-You must authenticate the following connection references using an admin account to enable Case Management Agent to access data sources. These connections are essential for the agent to perform autonomous case processing, data retrieval, and AI-powered customer interactions. 
+Authenticate the following connection references using an admin account to enable Case Management Agent to access data sources. These connections are essential for the agent to perform autonomous case processing, data retrieval, and AI-powered customer interactions. 
 
 - **Case Processing Agent CDS Connection**
 - **Case Processing Agent MCS Connection**
@@ -55,9 +55,7 @@ You must authenticate the following connection references using an admin account
 
 Perform the following steps:
 
-1. In [Power Apps](https://make.powerapps.com/) perform the following steps:
-1. Select **Solutions**.
-1. On the page that appears, select **Default Solution**.
+1. In [Power Apps](https://make.powerapps.com/) select **Solutions** and then select **Default Solution**.
 1. In the **Objects** pane, search for and select **Connection References**. The list of existing connection references appears.
 1. Select **Case Processing Agent CDS Connection**.
 1. In the **Edit Case Processing Agent CDS Connection** pane that appears, do the following steps:
@@ -83,14 +81,18 @@ In Copilot Studio, perform the following steps:
  1. In the **Case Processing Agent** page, select **Publish**.
  1. In the **Case Processing Agent** page, do the steps to [View connections on the Connection Settings page](/microsoft-copilot-studio/authoring-connections#view-connections-on-the-connection-settings-page). **Microsoft Dataverse** and **Call custom agent** appears on the **Manage connections** page.
 
-   - For Dataverse, you must add a new connection reference using service principal authentication to establish the identity and authorization framework for Case Management Agent. Perform the following steps:
-      - Select **Connect** for **Microsoft Dataverse**.
-      -  On the page that appears, select **...** > **Add new connection**.
-      - Select Service Principal as the authentication type.
-      - Specify the **Client ID**, **Client Secret**, and **Tenant ID** that you copied in the [Register an application and create a secret](#register-an-application-and-create-a-secret) section and then select **Create**.
-      - After the connection is created, the status of the connection reference changes to **Connected**.
+   - For Dataverse, add a new connection reference using service principal authentication to establish the identity and authorization framework for Case Management Agent. Perform the following steps:
+       1. Select **Connect** for **Microsoft Dataverse**.
+       1. On the page that appears, select **...** > **Add new connection**.
+       1. Select Service Principal as the authentication type.
+       1. Specify the **Client ID**, **Client Secret**, and **Tenant ID** that you copied in the [Register an application and create a secret](#register-an-application-and-create-a-secret) section and then select **Create**. After the connection is created, the status of the connection reference changes to **Connected**.
    - For **Call custom agent**, you can use the Ouath authentication.
-      - Select **Connect** for **Call custom agent**.
-      - On the page that appears, select **...** and then select the admin connection.
-      - Select **Submit**.
-      - After the connection is created, the status of the connection reference changes to **Connected**.
+       1. Select **Connect** for **Call custom agent**.
+       1. On the page that appears, select **...** and then select the admin connection.
+       1. Select **Submit**. After the connection is created, the status of the connection reference changes to **Connected**.
+
+### Next steps
+
+- [Set up Case Management Agent to create and update cases (preview)](set-up-autonomous-case-agents.md)     
+- [Set up Case Management Agent to resolve cases (preview)](set-up-case-resolution-agent.md)              
+- [Set up Case Management Agent for case follow-up and closure (preview)](set-up-case-closure.md)      
