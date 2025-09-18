@@ -506,10 +506,10 @@
           href: /dynamics365/contact-center/administer/set-up-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.ym
       - name: Case Management Agent
         items: 
+          - name: Configure global settings for Case Management Agent
+            href: case-management-global-settings.md        
           - name: Set up Case Management Agent to create and update cases 
             href: set-up-autonomous-case-agents.md
-          - name: Configure global settings for Case Management Agent
-            href: case-management-global-settings.md
           - name: Set up Case Management Agent to resolve cases
             href: set-up-case-resolution-agent.md  
           - name: Set up Case Management Agent to follow up and close cases

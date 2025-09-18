@@ -42,6 +42,7 @@ You can use the creation and update feature of Case Management Agent to do the f
 -  We recommend that you enable audit history and make sure service representatives have the required access to the case and related entities that the AI agent updates. Learn more in [Manage Dataverse auditing](/power-platform/admin/manage-dataverse-auditing).
 - For customers to provide the details that the AI agent can use, you can configure [preconversation survey](configure-pre-chat-survey.md).
 - Make sure the service representatives working on the case and accepting conversations have read privileges on the `msdyn_entityattributepredictionrules` table.
+- For the AI agent to predict case fields from emails autonomously, do the steps in [Configure global settings for Case Management Agent (preview)](case-management-global-settings.md).
 
 ### Update field and lookup descriptions in Power Apps
 
