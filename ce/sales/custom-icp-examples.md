@@ -41,7 +41,8 @@ The following sections provide examples of custom criteria for different industr
 
 ## Custom criterion example with Datverse fields enriched with Zoominfo or Dun & Bradstreet data
 
-The following example shows how to use a Dataverse field enriched with Zoominfo or Dun & Bradstreet data in your instructions.
+The following example shows how to use a Dataverse field enriched with Zoominfo or Dun & Bradstreet data in your instructions. The example assumes that you synched the relevant liquidity event information from Dun & Bradstreet to a custom field `LiquidityEventType` in the `Lead` table. Learn more about the integration in [Configure Sales Qualification Agent to use Dataverse fields enriched by third-party data providers](use-zoominfo-dnb-data-in-sales-qualification-agent.md).
+
 
 - **Criterion name:** Recent liquidity event
 
@@ -53,7 +54,7 @@ The following example shows how to use a Dataverse field enriched with Zoominfo 
 
 ## Custom criterion examples across industries
 
-The following table provides additional examples of custom criteria across various industries, including their names, descriptions, and instructions for the agent. You can define the data source based on a reliable website or a Dataverse field enriched with data from data intelligence providers specific to your industry like Zoominfo or Dun & Bradstreet.
+The following table provides additional examples of custom criteria across various industries, including their names, descriptions, and instructions for the agent. You can define the data source based on a reliable website or a Dataverse field enriched with data from data intelligence providers specific to your industry like Zoominfo or Dun & Bradstreet. 
 
 | Industry/Category         | Criterion Name                   | Description                                                                                      | Instructions                                                                                                                                                                                                                   |
 |---------------------------|----------------------------------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
