@@ -30,7 +30,7 @@ searchScope:
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
-The **Summary** dashboard provides a seamless end-to-end reporting of metrics across the customer service journey. This integrated analytics report aligns key metrics in Copilot Studio and Omnichannel for Customer Service.
+The **Summary** dashboard provides a seamless end-to-end reporting of metrics across the customer service journey. This integrated analytics report aligns key metrics in Copilot Studio and Omnichannel for Customer Service. Learn how to [access the dashboard](omnichannel-analytics-insights.md#access-the-dashboards). 
 
  With the Summary dashboard, customer service managers or supervisors can:
 - Use Copilot Studio bot metrics, such as escalation and deflection rate, and customer service representatives (service representatives or representatives) metrics like engagement rate and abandon rate to get an overview of how customers interact with AI agents and their performance.

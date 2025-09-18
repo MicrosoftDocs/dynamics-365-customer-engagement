@@ -26,6 +26,4 @@ In these reports, you can view the performance of the routed items and queues. B
 
 ## Related information
 
-[Historical analytics for unified routing](cs-historical-analytics-unified-routing.md)  
-[Historical analytics for unified routing](oc-historical-analytics-unified-routing.md)  
 [Diagnostics for unified routing](../administer/unified-routing-diagnostics.md)  

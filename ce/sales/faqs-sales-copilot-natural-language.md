@@ -1,7 +1,7 @@
 ---
 title: FAQ about natural language chat in Copilot 
 description: Get answers to frequently asked questions about the natural language chat capability in Copilot in Dynamics 365 Sales.
-ms.date: 08/19/2025
+ms.date: 09/12/2025
 ms.update-cycle: 180-days
 ms.custom:
  - responsible-ai-faqs
@@ -27,7 +27,7 @@ The ability for users to ask questions in natural language to get accurate data 
 
 ## Data type supported
 
-Data that resides in tables is referred to as structured data. Data that's present in static documents, such as Word files, PDF files, and publicly available content, is referred to as unstructured data. This feature supports questions on structured data that is available within Dataverse.
+Data that resides in tables is referred to as structured data. Data that's present in static documents, such as Word files, PDF files, and publicly available content, is referred to as unstructured data. This feature supports questions on structured data that's available within Dataverse.
 
 ## How is Natural language chat intended to be used?
 
