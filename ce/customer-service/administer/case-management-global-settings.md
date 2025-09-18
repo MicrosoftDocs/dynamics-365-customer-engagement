@@ -42,7 +42,7 @@ The application user you create in Power Platform admin center is used to receiv
 
 ### Assign a security group to the application user
 
-1. Go to [Microsoft 365 admin center](https://admin.cloud.microsoft/) and do the steps 1 through 4 in [Create a security group](/microsoft-365/admin/create-groups/create-a-security-group). Copy the group id of the security group.
+1. Go to [Microsoft 365 admin center](https://admin.cloud.microsoft/) and do the steps 1 through 4 in [Create a security group](/microsoft-365/admin/email/create-edit-or-delete-a-security-group#add-a-security-group). Copy the group id of the security group.
 1. In Power Platform admin center, open the application user that you created and update the security group id. Learn more in [View or edit the details of an application user](/power-platform/admin/manage-application-users?tabs=new#view-or-edit-the-details-of-an-application-user).
 
 ### Connect and authenticate connection references
