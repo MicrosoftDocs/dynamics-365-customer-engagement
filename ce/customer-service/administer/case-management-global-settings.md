@@ -37,7 +37,7 @@ The application user you create in Power Platform admin center is used to receiv
 
 ### Assign a shared mailbox to the application user
 
-1. Go to [Microsoft 365 admin center](https://admin.cloud.microsoft/) and do the steps 1 to 4 in [Create a shared mailbox](/microsoft-365/admin/email/create-a-shared-mailbox#create-a-shared-mailbox-and-add-members) to create a shared mailbox. Copy the email id of the shared mailbox.
+1. Go to [Microsoft 365 admin center](https://admin.cloud.microsoft/) and do the steps 1 through 4 in [Create a shared mailbox](/microsoft-365/admin/email/create-a-shared-mailbox#create-a-shared-mailbox-and-add-members). Copy the email id of the shared mailbox.
 1. In Power Platform admin center, open the application user that you created in the previous step and update the shared mailbox email id. Learn more in [View or edit the details of an application user](/power-platform/admin/manage-application-users?tabs=new#view-or-edit-the-details-of-an-application-user).
 
 ### Assign a security group to the application user
