@@ -1,6 +1,6 @@
 ---
 title: Understand how unified routing affects queue items and live work items for routed records
-description: Learn how unified routing affects queue items, live work items, and the corresponding APIs.
+description: Learn how unified routing affects queue items, live work items, and the corresponding APIs in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
 ms.date: 02/04/2025
 ms.topic: get-started
 author: gandhamm

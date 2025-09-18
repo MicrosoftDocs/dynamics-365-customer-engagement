@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ about the Opportunity Research Agent (preview)
 description: Learn about the responsible AI practices and limitations of the Opportunity Research Agent in Dynamics 365 Sales.
-ms.date: 08/06/2025
+ms.date: 09/18/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -88,13 +88,6 @@ The following limitations apply to the Opportunity Research Agent:
 
 - *Research Refresh*: The agent can be configured to refresh the research
   data on a set cadence. The admin can choose a refresh frequency of 1 day, 3 days, or 7 days for all the opportunities in the segment.
-
-- *Ad hoc opportunity processing*: The agent also processes opportunities based on the following event triggers that cause the research data to change: 
-    - Opportunity’s parent account is linked/updated.
-    - Opportunity’s parent contact is linked/updated.
-    - New stakeholder connection is added to the opportunity.
-    - New competitor connection is added to the opportunity.
-    - Estimated revenue or close date of the opportunity is changed. For event-based triggers, the agent can process at most *n* opportunities at a given time.
 
 ## What operational factors and settings allow for effective and responsible use of the Opportunity Research Agent?
 

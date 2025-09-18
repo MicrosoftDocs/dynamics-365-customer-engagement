@@ -159,8 +159,10 @@ items:
                         href: configure-sales-qualification-agent-handoff-criteria.md
                       - name: Configure assignment rules
                         href: configure-sqa-assignment-rules.md
-                      - name: Configure knowledge source
+                      - name: Configure knowledge sources for company insights
                         href: configure-sqa-knowledge-source.md
+                      - name: Configure knowledge sources for competitor insights
+                        href: sales-qualification-agent-competitor-insights.md
                       - name: Run simulation to review outreach email content
                         href: run-simulation-sqa-outreach-email.md
                   - name: Start the agent
@@ -181,6 +183,8 @@ items:
                     href: test-sales-qualification-agent.md
                   - name: Custom criteria examples
                     href: custom-icp-examples.md
+                  - name: Use fields enriched with Zoominfo or Dun & Bradstreet data
+                    href: use-zoominfo-dnb-data-in-sales-qualification-agent.md
               - name: Sales Qualification Agent (pre-7.3 version)
                 items:
                   - name: Overview (pre-7.3 version)
@@ -223,6 +227,8 @@ items:
             href: sales-copilot-faq.md
           - name: Connect to Dynamics 365 Sales with Model Context Protocol (preview)
             href: connect-to-model-context-protocol-sales.md
+          - name: Configure zero prompt experience
+            href: zero-prompt-experience.md
       - name: Digital selling capabilities in Sales Enterprise
         items:
           - name: Overview
@@ -790,30 +796,36 @@ items:
         href: user-guide.yml
       - name: Autonomous AI agents
         items:
-        - name: Sales Qualification Agent (preview)
-          items:
-            - name: Overview
-              href: sales-qualification-agent.md
-            - name: Work on leads handed over by the Sales Qualification Agent
-              href: use-sales-qualification-agent.md
-            - name: Monitor leads handled by the Sales Qualification Agent
-              href: monitor-leads-by-sales-qualification-agent.md
-            - name: FAQ about Sales Qualification Agent
-              href: sales-qualification-agent-faq.md
-        - name: Opportunity Research Agent (preview)
-          items:
-            - name: Overview
-              href: opportunity-research-agent.md
-            - name: Work on opportunities researched by Opportunity Research Agent
-              href: use-opportunity-research-agent.md
-            - name: FAQs about Opportunity Research Agent
-              href: opportunity-research-agent-faqs.md
+          - name: Sales Qualification Agent (preview)
+            items:
+              - name: Overview
+                href: sales-qualification-agent.md
+              - name: Work on leads handed over by the Sales Qualification Agent
+                href: use-sales-qualification-agent.md
+              - name: Monitor leads handled by the Sales Qualification Agent
+                href: monitor-leads-by-sales-qualification-agent.md
+              - name: FAQ about Sales Qualification Agent
+                href: sales-qualification-agent-faq.md
+          - name: Opportunity Research Agent (preview)
+            items:
+              - name: Overview
+                href: opportunity-research-agent.md
+              - name: Work on opportunities researched by Opportunity Research Agent
+                href: use-opportunity-research-agent.md
+              - name: FAQs about Opportunity Research Agent
+                href: opportunity-research-agent-faqs.md
       - name: Use Copilot in Dynamics 365 Sales
         items:
           - name: Copilot overview
             href: copilot-overview.md
           - name: Ask Copilot questions
             href: use-sales-copilot.md
+          - name: Summarize records
+            items:
+              - name: Summarize records 
+                href: copilot-summarize-records.md
+              - name: Default attributes used in Copilot summaries
+                href: understand-copilot-summaries.md
           - name: Prompt guide reference
             href: copilot-prompt-guide.md
           - name: Get information
@@ -824,8 +836,6 @@ items:
             href: copilot-ask-questions.md
           - name: Get content recommendations and answers from SharePoint
             href: copilot-get-doc-suggestions.md
-          - name: Default attributes used in Copilot summaries
-            href: understand-copilot-summaries.md
           - name: Copilot in Dynamics 365 Sales FAQ
             href: sales-copilot-faq.md
       - name: Dashboards and reports
