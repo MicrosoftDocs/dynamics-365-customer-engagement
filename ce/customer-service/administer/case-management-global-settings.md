@@ -1,12 +1,12 @@
 ---
 title: Configure global settings for case Management Agent (preview)
-description: Learn how to configure Case Management Agent in Dynamics 365 Customer Service to help customer support teams efficiently resolve cases.
+description: Learn how to configure global settings for Case Management Agent in Dynamics 365 Customer Service to enable fully autonomous case resolution, follow-up, and closure capabilities.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot 
-ms.date: 08/08/2025
+ms.date: 09/18/2025
 ms.custom: bap-template
 ---
 
