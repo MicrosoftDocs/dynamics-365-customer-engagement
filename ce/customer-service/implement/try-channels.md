@@ -12,8 +12,6 @@ ms.custom: bap-template
 
 # Try channels 
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 Channels, like Live Chat, voice, and SMS, are engagement channels that let your customer service representatives connect with customers in real time and provide quick personalized help.
 
 You can perform the following steps to try channels in Customer Service:
@@ -21,7 +19,6 @@ You can perform the following steps to try channels in Customer Service:
 1. Sign up for a free 30-day trial of channels through Microsoft 365 admin center.
 
 1. [Provision channels](#provision-channels-in-your-organization).
-
 
 ## Channels trial through Microsoft 365 admin center
 

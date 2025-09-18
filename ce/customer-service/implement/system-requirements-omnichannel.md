@@ -12,8 +12,6 @@ ms.custom: bap-template
 
 # Omnichannel for Customer Service system requirements
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 This article provides information about the prerequisites and system requirements for deploying Omnichannel for Customer Service in your organization.
 
 You can deploy Omnichannel for Customer Service over a Customer Service application and use it in the following ways:

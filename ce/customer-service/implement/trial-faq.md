@@ -14,8 +14,6 @@ ms.custom:
 
 # Dynamics 365 Customer Service trial FAQ
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 This article answers your most frequently asked questions about the free product trial of Customer Service and Omnichannel for Customer Service.
