@@ -1,6 +1,6 @@
 ---
 title: Transfer calls and consult with users
-description: Use this article to understand how the customer service representatives can use the transfer and consult options to make and receive customer calls.
+description: Use this article to understand how the customer service representatives can use the transfer and consult options to make and receive customer calls in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
 ms.date: 09/15/2025
 ms.topic: how-to
 author: gandhamm
@@ -19,7 +19,7 @@ You can transfer calls or consult with other service representatives or supervis
 
 To familiarize yourself with the call controls, see [Understand how to use the agent dashboard and call controls](/dynamics365/contact-center/use/voice-channel-agent-experience).
 
-## Prerequisite
+## Prerequisites
 
 - To transfer the calls to another service representative, the **Transfer to representative** setting in Copilot Service admin center is enabled by your administrator.
 - To transfer calls to an external PSTN number or a Teams user, the transfer settings must be enabled in the voice channel instance settings.
