@@ -72,7 +72,7 @@ To create the hierarchy visualization, follow these steps:
 1. Select **Publish** and then select **OK** on the confirmation message.  
     The hierarchy visualization is active and available to users.  
 
-### Configure the root node of the hierarchy
+## Configure the root node of the hierarchy
 
 Configure the root node of the hierarchy by selecting the desired table. The table is the starting point for the hierarchy.  
 
@@ -111,7 +111,7 @@ Configure the root node of the hierarchy by selecting the desired table. The tab
 Now, the root node of the hierarchy is configured you can proceed to [add and configure child nodes](#configure-the-child-node) as required.  
 If you're creating a self-referential simple hierarchy, adding child nodes isn't required. Go to [create a hierarchy visualization](#create-a-hierarchy-visualization) section to complete the process.  
 
-### Configure the child node
+## Configure the child node
   
 1. Under the root node, select the add icon below the tile and enter a name for the child node. Here, we're adding **Contact** table as a child node to the **Account** table.  
 1. Select a table and then select **Add**. Here, we're selecting the **Contact** table.  
@@ -148,7 +148,7 @@ If you're creating a self-referential simple hierarchy, adding child nodes isn't
 
     After adding the child nodes, go to [create a hierarchy visualization](#create-a-hierarchy-visualization) section to complete the process.  
 
-#### Relationship selection options for child node
+## Relationship selection options for child node
 
 When you add a child node, you must select a relationship type to define how the child table relates to the parent table. The available relationship options depend on the tables you're working with. Here are some common relationship types you might encounter:
 
