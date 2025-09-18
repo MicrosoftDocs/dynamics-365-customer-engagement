@@ -31,9 +31,9 @@ Follow these steps to customize the zero prompt experience for Copilot in Dynami
    :::image type="content" source="media/topic-adaptive-card.png" alt-text="Screenshot of the section where the Adaptive Card is defined.":::
 1. Double-click on the Adaptive Card to open it for editing.
 
-  - Add, update, or remove the `Container` nodes as needed.
-  - Ensure that any `Action` nodes follow the same schema as the existing ones.
-  - Ensure that all changes adhere to the existing schema for `selectAction` to avoid runtime errors.
+    - Add, update, or remove the `Container` nodes as needed.
+    - Ensure that any `Action` nodes follow the same schema as the existing ones.
+    - Ensure that all changes adhere to the existing schema for `selectAction` to avoid runtime errors.
 1. Save the topic.
 1. Select **Test** to verify the changes made to the card.  
     :::image type="content" source="media/test-adaptive-card.png" alt-text="Screenshot of Copilot displaying updated zero prompt experience card.":::
