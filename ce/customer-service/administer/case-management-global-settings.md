@@ -80,7 +80,7 @@ In Power Automate, make sure that the **Invoke case processing agent** and **Cal
 In Copilot Studio, perform the following steps:
 
  1. Select **Agents** and then select **Case Processing Agent**.
- 1. In the **Case Processing Agent** page, select **Publish** to publish the agent.
+ 1. In the **Case Processing Agent** page, select **Publish**.
  1. In the **Case Processing Agent** page, do the steps to [View connections on the Connection Settings page](/microsoft-copilot-studio/authoring-connections#view-connections-on-the-connection-settings-page). **Microsoft Dataverse** and **Call custom agent** appears on the **Manage connections** page.
 
    - For Dataverse, you must add a new connection reference using service principal authentication to establish the identity and authorization framework for Case Management Agent. Perform the following steps:
