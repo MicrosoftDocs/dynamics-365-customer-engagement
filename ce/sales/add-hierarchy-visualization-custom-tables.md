@@ -12,14 +12,16 @@ ms.custom: bap-template
 
 # Add hierarchy visualization to custom tables
 
-By default hierarchy visualization is available for the Contact, Opportunity, Lead, and Account tables. To add the hierarchy visualization option to the command bar for other and custom tables in your organization, follow these steps:  
+The hierarchy visualization control allows you to view hierarchies on forms when added to the command bar. By default, it is available on forms for contact, opportunity, lead, and account tables. However, you must add the control to other and custom tables.  
+
+To add the hierarchy visualization control to a form’s command bar, follow these steps:  
 
 1. You must have administrator privileges.  
 1. Sign in to [the Power Apps maker portal](https://make.powerapps.com/).  
 1. Go to **Apps** and select your app.  
     > [!NOTE]
     > If you don't see your app, ensure that the correct environment is selected in the top-right corner of the page.  
-1. On the app home page, select table > more options (...) > **Edit command bar**.
+1. On the app home page, select *table* > more options (...) > **Edit command bar**.
     > [!NOTE]
     > If you don't see the table, add the table to your app. More information: [App navigation in model-driven apps](/power-apps/maker/model-driven-apps/app-navigation).  
 1. On the edit command bar dialog, choose a command bar to edit.  
@@ -32,6 +34,7 @@ By default hierarchy visualization is available for the Contact, Opportunity, Le
 1. On the new command bar pane, enter the following information:  
 
     - **Label**: Enter a label for the command. For example, **Visual hierarchy**.  
+    - **Icon**: From the list, select **Use web resource** and then select **Add web resource**. In the **Add image web resource** dialog box, search and add **HierarchyViewerIcon.svg**.
     - **Action**: Select **Run JavaScript** as the action type.  
     - **Library**: Select **LinkedInExtensions/HierarchyViewer/msdyn_HierarchyViewer.js** from the list of available JavaScript libraries. If the library is not available, select **Add library** and then add the library to the list.
     - **Function name**: Enter **HierarchyViewer.RibbonRules.formShowHierarchyViewer**.  
