@@ -11,7 +11,7 @@ ms.reviewer: lavanyakr
 
 # Custom criteria examples for sales teams across industries
 
-For the target customer profile, you can add custom criteria that are specific to your industry and use case. Learn about adding custom criteria in [Add custom criteria to your handoff criteria](configure-sales-qualification-agent-handoff-criteria.md#add-custom-criteria-to-your-handoff-criteria).
+For the target customer profile in Sales Qualification Agent, you can add custom criteria that are specific to your industry and use case. Learn about adding custom criteria in [Add custom criteria to your handoff criteria](configure-sales-qualification-agent-handoff-criteria.md#add-custom-criteria-to-your-handoff-criteria).
 
 When you add a custom criterion, you need to provide the following information:
 
