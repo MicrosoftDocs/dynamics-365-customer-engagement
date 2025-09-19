@@ -104,7 +104,7 @@ To learn more about app users, see [Manage application users in the Power Platfo
 1. Change the view to **All Mailboxes** and select the mailbox associated with the created application user.  
 1. Replace the email address with that of the shared mailbox and then select **Approve Email**.  
 1. Select **Test & Enable Mailbox** to verify that the server-side sync is established successfully for the email. When successful, the incoming and outgoing email status display Success under the Configuration Status section.  
-1. Go back to the agent settings page and select the **Mark as done** checkbox in the **Create an app user in Dataverse** section. You must select this checkbox to proceed with the agent configuration.  
+1. Go back to the agent settings page and select the **Mark as done** checkbox in the **Configure server side sync** section. You must select this checkbox to proceed with the agent configuration.  
 
 ## Next step
 
