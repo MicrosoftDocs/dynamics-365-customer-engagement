@@ -15,8 +15,6 @@ ms.custom:
 ---
 # International availability of Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 The purpose of this document is to provide information about the geographic location and language availability of live chat and digital messaging channels.
 
 > [!NOTE]
