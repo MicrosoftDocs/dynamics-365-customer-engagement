@@ -29,7 +29,7 @@ Make sure that Omnichannel for Customer Service is available in your region. Lea
 
 ### Licensing
 
-- Specific licensing requirements apply when you use chat, digital messaging, or voice channels. Learn more in [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718) and [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
+Specific licensing requirements apply for each user to use chat, digital messaging, or voice channels. Learn more in [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718) and [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
 ## System requirements for Omnichannel for Customer Service
 

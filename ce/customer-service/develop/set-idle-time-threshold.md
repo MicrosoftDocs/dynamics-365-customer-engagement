@@ -10,7 +10,7 @@ ms.reviewer: nenellim
 
 # Set the idle time threshold for average handle time
 
-You can configure the idle time threshold to pause the handle time computation of a customer service representative (service representative or representative) for an ongoing session when the representative is idle. More information: [Average handle time](../implement/intraday-insights-dashboard.md#average-handle-time).
+You can configure the idle time threshold to pause the handle time computation of a customer service representative (service representative or representative) for an ongoing session when the representative is idle. Learn more in [Average handle time](../implement/intraday-insights-dashboard.md#average-handle-time).
 
 ## How to set the idle time threshold
 
