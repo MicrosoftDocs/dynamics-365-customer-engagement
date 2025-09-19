@@ -10,7 +10,7 @@ ms.reviewer: nenellim
 
 # Overview of user management
 
-To begin using Copilot Service workspace, each member of your organization needs a user account.
+To use Copilot Service workspace, each member of your organization needs a user account.
 
 Use the Microsoft 365 admin center to create user accounts. The user account registers the user with Microsoft Online Services environment. Apart from registration with the online service, you must assign a license to the user account for the user to have access to the service.
 
