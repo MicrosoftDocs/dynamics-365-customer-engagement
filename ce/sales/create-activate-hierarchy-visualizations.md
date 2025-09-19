@@ -16,12 +16,6 @@ ms.custom: bap-template
 
 As an administrator, you can create and publish a hierarchy that allows your organization to visualize and work with complex hierarchical data. You can even create multiple hierarchy visualizations to show different relationships, or different views of the data such as active records only, or only records from certain countries.  
 
-> [!NOTE]
->
-> - The hierarchy visualization feature is currently available out of the box for the **Contact**, **Opportunity**, **Lead**, and **Account** tables. However, to configure hierarchy visualization for custom tables, you need to create the self-referential and cross-referential relationships.  
-> - Default self-referential columns: `ParentAccountId` in the **Account** table, `parent_contactid` in the **Contact** table, `masterid` in the **Lead** table.  
-> - For the **Opportunity** table, there's no default self-referential column. Create a new **Many-to-One** relationship and select the **Opportunity** table as the related table. Rename the **Lookup column display** name to `Parent_OpportunityID` and leave the **Hierarchical** checkbox unchecked. Then, update the **Opportunity** form by adding the `Parent_OpportunityID` field. This update enables you to select a parent opportunity when they create or edit an opportunity, helping them establish clear relationships between opportunities.
-
 Hierarchies are created using your existing tables, forms, relationships, and views. You can design and publish a hierarchy based on a N:1 self-referential relationship&mdash;one where each row in a table has an optional pointer to its parent row, 1:N many-to-one relationship&mdash;one where each row in a table has a pointer to a row in another table, or both, and N:N many-to-many relationships.
 
 You can design and publish a hierarchy based on the following types:  
