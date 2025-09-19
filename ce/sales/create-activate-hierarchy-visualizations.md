@@ -6,7 +6,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.collection: 
-ms.date: 08/22/2025
+ms.date: 09/22/2025
 ms.custom: bap-template 
 ---
 
@@ -142,7 +142,7 @@ If you're creating a self-referential simple hierarchy, adding child nodes isn't
     > - These settings are applied only to this tile in this hierarchy visualization.
     > - We recommend using consistent tile sizes and layouts for a cohesive look.
 
-    :::image type="content" source="media/hv-account-settings-tile-tab.png" alt-text="Screenshot of the tile display option tab in the account settings pane in the hierarchy visualization designer page."::: 
+    :::image type="content" source="media/hv-account-settings-tile-tab.png" alt-text="Screenshot of the tile display option tab in the account settings pane in the hierarchy visualization designer page.":::  
 
 1. Repeat steps 2 to 4 to add more child nodes as required.  
 
@@ -152,27 +152,13 @@ If you're creating a self-referential simple hierarchy, adding child nodes isn't
 
 When you add a child node, you must select a relationship type to define how the child table relates to the parent table. The available relationship options depend on the tables you're working with. Here are some common relationship types you might encounter:
 
-- **Contacts with matching {Parent_ID}**: This option uses a direct lookup field such as `ParentCustomerId` on the child table to link each record to its parent table. It’s the classic parent-child relationship.  
-    For example, you want to display all contacts associated with a specific account in a hierarchical view.
-    The **Contact** table includes a field `ParentCustomerId`, which establishes a relationship to the **Account** table. When this relationship is selected, the application displays all contacts where&mdash;`Contact.ParentCustomerId` = `Account.AccountId`  
-    This creates a parent-child hierarchy between the account and its related contacts.  
-- **Contacts with matching {Parent_Account_team}**: This option links child records to parent based on a shared team or group field, not a direct parent-child relationship. It's useful when child records are associated with parent records through a team.  
-    For example, you want to display  all contacts who belong to the same team as the account they’re associated with.  
-    The **Contact** table includes a field `TeamId`, which indicates the team the contact belongs to. The **Account** table also has a `TeamId` field. When this relationship is selected, the application displays all contacts where&mdash;`Contact.TeamId` = `Account.TeamId`  
-    This creates a team-based hierarchy between accounts and contacts.  
-- **{Primary_Contact} for the account**: This option uses a specific field on the parent table to show the main contact for each parent record.  
-    For example, you want to identify and display the key contact associated with each account.  
-    The **Account** table includes a `PrimaryContactId` field and the hierarchy uses this field to locate the contact whose `ContactId` matches the account’s `PrimaryContactId`.  
-    This creates a direct link where each account points to its primary contact.  
-- **Dataverse connections table**: This option uses the standard **Dataverse Connections** table, which allows you to model flexible, many-to-many relationships with roles such as Advisor, Family member, and so on.  
-    For example, you want to display all contacts connected to an account through various roles defined in the **Connections** table.  
-    The **Connections** table defines relationships between records using roles such as Account as Employer and Contact as Employee. The hierarchy pulls in all contacts connected to the account through entries in the **Connections** table.  
-    This creates a flexible hierarchy based on the roles defined in the **Connections** table.  
-    To know more about the **Connections** table, see [Describe a relationship between tables with connection roles](/power-apps/developer/data-platform/describe-relationship-entities-connection-roles).  
-- **Custom connections table**: This option uses a custom table that is created to define relationships between parent and child tables, allowing for advanced or organization-specific scenarios.  
-    For example, you want to display contacts who serve as mentors for specific accounts, based on custom relationship tracking.  
-    The custom **Mentorships** table includes fields such as `AccountId` and `ContactId` to define the mentorship relationship. When this relationship is selected, the application displays all contacts linked to accounts through the **Mentorships** table.  
-    This creates a hierarchy based on the custom relationships defined in your table.  
+| Relationship type | Description | Example |
+|-------------------|-------------|---------|
+| Contacts with matching *Parent_ID* | This option uses a direct lookup field such as `ParentCustomerId` on the child table to link each record to its parent table. It’s the classic parent-child relationship. | For example, you want to display all contacts associated with a specific account in a hierarchical view.<br>The **Contact** table includes a field `ParentCustomerId`, which establishes a relationship to the **Account** table. When this relationship is selected, the application displays all contacts where&mdash;`Contact.ParentCustomerId` = `Account.AccountId`.<br>This creates a parent-child hierarchy between the account and its related contacts.  |
+| Contacts with matching *Parent_Account_team* | This option links child records to parent based on a shared team or group field, not a direct parent-child relationship. It's useful when child records are associated with parent records through a team. | For example, you want to display  all contacts who belong to the same team as the account they’re associated with.<br>The **Contact** table includes a field `TeamId`, which indicates the team the contact belongs to. The **Account** table also has a `TeamId` field. When this relationship is selected, the application displays all contacts where&mdash;`Contact.TeamId` = `Account.TeamId`.<br>This creates a team-based hierarchy between accounts and contacts. |
+| *Primary_Contact* for the account | This option uses a specific field on the parent table to show the main contact for each parent record. | For example, you want to identify and display the key contact associated with each account.<br>The **Account** table includes a `PrimaryContactId` field and the hierarchy uses this field to locate the contact whose `ContactId` matches the account’s `PrimaryContactId`.<br>This creates a direct link where each account points to its primary contact.|
+| Dataverse connections table | This option uses the standard **Dataverse Connections** table, which allows you to model flexible, many-to-many relationships with roles such as Advisor, Family member, and so on. | For example, you want to display all contacts connected to an account through various roles defined in the **Connections** table.<br>The **Connections** table defines relationships between records using roles such as Account as Employer and Contact as Employee. The hierarchy pulls in all contacts connected to the account through entries in the **Connections** table.<br>This creates a flexible hierarchy based on the roles defined in the **Connections** table.<br>To know more about the **Connections** table, see [Describe a relationship between tables with connection roles](/power-apps/developer/data-platform/describe-relationship-entities-connection-roles). |
+| Custom connections table | This option uses a custom table that is created to define relationships between parent and child tables, allowing for advanced or organization-specific scenarios. | For example, you want to display contacts who serve as mentors for specific accounts, based on custom relationship tracking.<br>The custom **Mentorships** table includes fields such as `AccountId` and `ContactId` to define the mentorship relationship. When this relationship is selected, the application displays all contacts linked to accounts through the **Mentorships** table.<br>This creates a hierarchy based on the custom relationships defined in your table. |
 
 ## Related information
 
