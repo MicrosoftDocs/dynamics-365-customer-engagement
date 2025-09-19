@@ -22,7 +22,7 @@ This article answers your most frequently asked questions about the free product
 
 ### Can I convert the trial to a paid license?
 
-Yes, you can purchase licenses through direct, credit card purchase at admin.microsoft.com. Or, you can work with sales to establish a volume licensing or enterprise agreement. Visit our [Pricing page](https://dynamics.microsoft.com/pricing/) for more information on pricing and purchasing.
+Yes, you can purchase licenses through direct, credit card purchase at admin.microsoft.com. Or, you can work with sales to establish a volume licensing or enterprise agreement. Learn about pricing and purchasing in [Dynamics 365 pricing](https://go.microsoft.com/fwlink/?linkid=2309515).
 
 To purchase the license using an existing account, work with the administrator of the account to apply for licenses.
 

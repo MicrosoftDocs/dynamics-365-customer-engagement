@@ -29,13 +29,9 @@ The implementation pattern for the out-of-the-box channels is as follows:
 
 Specific licensing requirements apply for using SMS, social channels, Microsoft Teams, and custom messaging. Learn more in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
-You can get the Microsoft Teams channel with the following add-on license:
-
-- [Teams license](/MicrosoftTeams/office-365-licensing)
-
 Apart from Dynamics 365 subscriptions, if you choose to use any non-Microsoft channels, you need to acquire subscriptions from those providers as well.
 
-The following channels are currently available in the application: 
+The following channels are currently available in the application:
 
 ## Chat
 
