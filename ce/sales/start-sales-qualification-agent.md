@@ -2,7 +2,7 @@
 title: Start the Sales Qualification Agent
 description: Learn how to start the sales qualification settings in Dynamics 365 Sales.
 ms.topic: how-to 
-ms.date: 08/01/2025
+ms.date: 09/19/2025
 ms.service: dynamics-365-sales
 content_well_notification:
   - AI-contribution
@@ -26,10 +26,7 @@ ai-usage: ai-assisted
 > - Ensure the agent is properly configured to avoid editing configurations after starting. Editing the agent changes how leads are processed before and after the change, giving different results.
 > - Ensure that terms are accepted for Bing Search and Move data across regions in Power Platform admin center.
 
-After you configure all the settings, the **Start agent** option is enabled.  
-
-> [!NOTE]
-> For **Research and engage** mode, you must also [simulate outreach emails](run-simulation-sqa-outreach-email.md) to start the agent.
+After you configure all the settings and simulate outreach emails (applicable only for **Research and engage** mode), the **Start agent** option is enabled. If the option is disabled, ensure that you see a green check mark against all the sections in the agent configuration page as shown in the following screenshot:
 
 :::image type="content" source="media/sqa-settings-start-agent.png" alt-text="Screenshot of selecting start agent option on the Sales Qualification Agent settings page.":::
 
