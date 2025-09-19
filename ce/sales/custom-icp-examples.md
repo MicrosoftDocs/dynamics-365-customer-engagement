@@ -11,7 +11,7 @@ ms.reviewer: lavanyakr
 
 # Custom criteria examples for sales teams across industries
 
-For the target customer profile, you can add custom criteria that are specific to your industry and use case.
+For the target customer profile, you can add custom criteria that are specific to your industry and use case. Learn about adding custom criteria in [Add custom criteria to your handoff criteria](configure-sales-qualification-agent-handoff-criteria.md#add-custom-criteria-to-your-handoff-criteria).
 
 When you add a custom criterion, you need to provide the following information:
 
@@ -39,9 +39,9 @@ The following sections provide examples of custom criteria for different industr
 
   :::image type="content" source="media/custom-criterion-instructions.png" alt-text="Screenshot of the provide instructions dialog.":::
 
-## Custom criterion example with Dataverse fields enriched with Zoominfo or Dun & Bradstreet data
+## Custom criterion example with Dataverse fields enriched with external data
 
-The following example shows how to use a Dataverse field enriched with Zoominfo or Dun & Bradstreet data in your instructions. The example assumes that you synched the relevant liquidity event information from Dun & Bradstreet to a custom field `LiquidityEventType` in the `Lead` table. Learn more about the integration in [Configure Sales Qualification Agent to use Dataverse fields enriched by third-party data providers](use-zoominfo-dnb-data-in-sales-qualification-agent.md).
+The following example shows how to use a Dataverse field enriched with Zoominfo, Dun & Bradstreet, or Clay data. The example assumes that you synched the relevant liquidity event information from Dun & Bradstreet to a custom field `LiquidityEventType` in the `Lead` table. Learn more about the integration in [Configure Sales Qualification Agent to use Dataverse fields enriched by third-party data providers](use-zoominfo-dnb-data-in-sales-qualification-agent.md).
 
 
 - **Criterion name:** Recent liquidity event
