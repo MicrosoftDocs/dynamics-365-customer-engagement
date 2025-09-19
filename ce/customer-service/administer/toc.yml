@@ -86,9 +86,9 @@
           href: create-rules-automatically-route-cases.md
       - name: Conversation diagnostics
         items:
-        - name: Configure conversation diagnostics (preview)
+        - name: Configure conversation diagnostics
           href: configure-conversation-diagnostics.md
-        - name: Understand conversation diagnostics (preview)
+        - name: Understand conversation diagnostics
           href: conversation-diagnostics-subscenarios.md
         - name: View diagnostics for unified routing
           href: unified-routing-diagnostics.md

@@ -19,7 +19,7 @@ This article contains the FAQs that you as an administrator, supervisor, or a cu
 
 ### What SKUs must I have to get unified routing?
 
-You must have the Customer Service Enterprise license. [See prerequisites for licensing information](provision-unified-routing.md#prerequisites).
+Specific licensing requirements apply for unified routing. Learn more in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 ### Does unified routing support activity routing?
 
