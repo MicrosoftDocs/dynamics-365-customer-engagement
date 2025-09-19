@@ -17,7 +17,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Sales Research Agent is connected to your Dynamics 365 Sales environment by default. However, you can connect to other Dataverse environments or upload data files (CSV, Excel, PDF) as additional data sources. You can also choose to remove existing connection entirely and just use the uploaded files as basis for your research. This allows you to create comprehensive research blueprints with the Dynamics 365 data, uploaded data, or both combined.
+The Sales Research Agent is connected to your Dynamics 365 Sales environment by default. However, you can connect to other Dataverse environments or upload data files (CSV, Excel, PDF) as additional data sources with sales and business data. You can also choose to remove existing connection entirely and just use the uploaded files as basis for your research. This allows you to create comprehensive research blueprints with the Dynamics 365 data, uploaded data, or both combined.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 

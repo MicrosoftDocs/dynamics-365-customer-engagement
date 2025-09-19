@@ -16,7 +16,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Sales Research Agent is an AI-based research canvas that reasons over an organization’s most complex business problems based on its sales data. The agent helps sales leaders understand business performance and make evidence-based decisions to improve sales outcomes.
+The Sales Research Agent is an AI-based research canvas that reasons over an organization’s most complex business problems based on its sales and business data. The agent helps sales leaders understand business performance and make evidence-based decisions to improve sales outcomes.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
