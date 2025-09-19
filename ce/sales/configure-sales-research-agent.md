@@ -34,7 +34,7 @@ To grant access to other users, you must assign the **Sales Research Agent Reade
 
 Alternatively, you can create a group team in Power Platform Admin Center, add users to that group, and then assign the **Sales Research Agent Reader** role to that security group. This approach simplifies role management for larger teams. Learn more in [Manage group teams](/power-platform/admin/manage-group-teams).
 
-## Configure environment settings
+## Configure tenant settings
 
 The Sales Research Agent complies with both Copilot feedback and Bing search consent settings configured in the Power Platform Admin Center. These controls ensure that organizations can manage user interactions and data usage in alignment with their compliance and governance policies.
 
@@ -56,4 +56,3 @@ The Sales Research Agent also honors the [Bing search consent setting](/power-pl
 - If Bing search is **disabled**, the agent will operate solely on internal data sources—such as uploaded files or connected Dynamics 365 data—without querying the web.
 
 This ensures that external data usage is fully controlled by tenant-level policies.
-
