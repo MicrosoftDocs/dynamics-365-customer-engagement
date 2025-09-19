@@ -22,7 +22,13 @@ ms.reviewer: lavanyakr
 
 ## Why can't I access the Sales Research Agent?
 
-The Sales Research Agent is only available in the European Union (EU) and United States. If you're trying to access it while you're in the European Union (EU) or United States and still get a notification stating the Sales Research Agent isn't yet available your region, then it's because the data residency of the tenant you're trying to access the Sales Research Agent from is based outside of the European Union (EU) or United States.
+You might not be able to access the Sales Research Agent in the following scenarios:
+
+- You're in a region where the Sales Research Agent is not available. The Sales Research Agent is only available in the European Union (EU) and United States currently. If you're in the EU or United States but still see a notification that the agent isn't available, your tenant's data residency may be outside these regions.
+- You don't have the required permissions to access the Sales Research Agent. You need the **Sales Research Agent Reader** role to access the agent. 
+- You don't have enough credits in Copilot Studio to use the Sales Research Agent.
+
+Reach out to your administrator to help resolve these issues.
 
 ## How can I refine a single block instead of the entire blueprint?
 
@@ -46,5 +52,5 @@ Yes, the Sales Research Agent uses Microsoft Bing when it can't find the informa
 
 ## What are the preview terms? Is Microsoft using my data to train their models? How do I know my data is safe?
 
-The use of the Sales Research Agent is subject to the terms outlined in [Preview terms](https://go.microsoft.com/fwlink/?linkid=2105274).
-
+The use of the Sales Research Agent is subject to the terms outlined in [Preview terms](https://go.microsoft.com/fwlink/?linkid=2189520).
+Learn about how Microsoft uses your data in the [FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform](/power-platform/faqs-copilot-data-security-privacy)

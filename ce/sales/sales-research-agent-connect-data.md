@@ -2,7 +2,7 @@
 title: Connect the Sales Research Agent to a different data source or upload data (preview)
 description: Learn how to connect the Sales Research Agent to your data.
 manager:
-ms.date: 03/17/2025
+ms.date: 09/19/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -21,7 +21,8 @@ The Sales Research Agent is connected to your Dynamics 365 Sales environment by 
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
-Add the data source using one of the following options in the **Sales Research Agent** page:
+Add the data source using *one* of the following options in the **Sales Research Agent** page:
+
 - Select **Data** at the top-right corner of the page and choose **Add data**.
 - Select **Add data** in the **Ask any business question** prompt box.
 

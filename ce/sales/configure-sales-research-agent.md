@@ -30,14 +30,9 @@ The agent needs Copilot Studio capacity to run. Ensure that you have enough capa
 By default, the **Sales Research Agent** menu in the Sales Hub app is only visible and accessible to the **System Administrator** role.  
 :::image type="content" source="media/sales-research-agent-navigation.png" alt-text="Screenshot of the Sales Research Agent navigation in the Sales Hub app.":::
 
-To grant access to other users, you must assign the **Sales Research Agent** security role to users or security groups.
+To grant access to other users, you must assign the **Sales Research Agent Reader** security role to users in the Power Platform Admin Center. Learn more in [Assign a security role to a user](/power-platform/admin/assign-security-roles).
 
-1. In the Power Platform Admin Center, navigate to the environment where you configured the Sales Research Agent.
-1. Select **Settings** > **Users + permissions**, > **Users**.
-1. Select the user you want to assign the role to.
-1. Select **Manage security roles** and then assign the **Sales Research Agent** role to the user.
-
-Alternatively, you can create a security group in Azure Active Directory, add users to that group, and then assign the **Sales Research Agent** role to that security group. This approach simplifies role management for larger teams. Learn more in [Create, change, or delete a network security group](/azure/virtual-network/manage-network-security-group?tabs=network-security-group-portal). 
+Alternatively, you can create a group team in Power Platform Admin Center, add users to that group, and then assign the **Sales Research Agent Reader** role to that security group. This approach simplifies role management for larger teams. Learn more in [Manage group teams](/power-platform/admin/manage-group-teams).
 
 ## Configure environment settings
 

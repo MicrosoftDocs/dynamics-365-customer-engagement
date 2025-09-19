@@ -25,10 +25,10 @@ The Sales Research Agent in Dynamics 365 Sales empowers you to solve complex bus
 
 Use the agent to:
 
-- Get insights from your Dynamics 365 Sales data and offline files to help you make informed decisions.
+- Get insights from your Dynamics 365 Sales data and offline files (CSV, Excel, or PDF) to help you make informed decisions.
 - Leverage the research blueprint that includes a summary of your research, key findings, and suggested next steps.
 - Interact with the research findings using natural language. Ask follow-up questions, change visualizations, and add more data to your research.
-- Understand how the agent arrived at its conclusions by reviewing the sources and reasoning behind the research outcomes.
+- Understand how the agent arrived at its conclusions by reviewing the sources and reasoning behind the research outcomes by selecting **Show work** on the blueprint.
 
 ## How the agent works
 
@@ -42,12 +42,11 @@ Use the agent to:
 
 Depending on your role, use the following links to learn about configuring and using the Sales Research Agent:
 
-| Role(s)                        | Link to documentation                                                                                   |
-|--------------------------------|----------------------------------------------------------------------------------------------|
-| System administrators, makers  | [Set up and configure Sales Research Agent (preview)](configure-sales-research-agent.md)     |
-| Sellers and Sales managers     | [Research on sales topics using the Sales Research Agent (preview)](use-sales-research-agent.md) |
-| Sellers and Sales managers     | [Connect the agent to a different data source](sales-research-agent-connect-data.md)          |
-| Sellers and Sales managers     | [Provide context to the Sales Research Agent (preview)](sales-research-agent-provide-context.md)  |
+| Role(s)                        | Which app to use?                                                                                 | Link to documentation                                                                                   |
+|--------------------------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| System administrators, makers  | Power Platform admin center                         | [Set up and configure Sales Research Agent (preview)](configure-sales-research-agent.md)     |
+| Sellers and Sales managers     | Sales Hub app             | <ul><li>[Research on sales topics using the Sales Research Agent (preview)](use-sales-research-agent.md)</li><li>[Connect the agent to a different data source](sales-research-agent-connect-data.md)</li><li>[Provide context to the Sales Research Agent (preview)](sales-research-agent-provide-context.md)</li></ul> |
+
 
 ## Legal and regulatory considerations
 
