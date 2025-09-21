@@ -1,22 +1,18 @@
 ---
-title: Configure conversation diagnostics (preview)
-description: Learn about how to query and retrieve diagnostics for conversations from Application Insights.
+title: Configure conversation diagnostics
+description: Learn about how to query and retrieve diagnostics for conversations in Dynamics 365 Contact Center from Application Insights.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection:
-ms.date: 03/03/2025
+ms.date: 09/19/2025
 ms.custom: bap-template
 ---
 
-# Configure conversation diagnostics (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Configure conversation diagnostics
 
 Conversation diagnostics logs each conversation lifecycle event, providing greater visibility into the operational insights and analytics of your organization's conversations. Your support team can proactively monitor the system and developers can easily identify, diagnose, and fix problematic conversations, or seek swift support.
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 Connect your Dynamics 365 Customer Service environment to an Azure Application Insights instance to collect and store conversation logs. You can learn about Application Insights features and how they can be used to monitor your telemetry and diagnose failures in [Application Insights Overview dashboard](/azure/azure-monitor/app/overview-dashboard) and [Diagnose failures using the Azure portal](/azure/azure-monitor/app/asp-net-exceptions#diagnose-failures-using-the-azure-portal).
 
@@ -44,9 +40,9 @@ The following table lists the analysis of the average data consumption in Applic
 | Per routed work item (Call/Conversation/Record) with one classification, one route-to-queue ruleset, and one assignment ruleset | 7  |
 | Per ruleset with a single rule in it                                             | 2                            |
 | Per new rule in a ruleset                                                        | 1                            |
- 
+
 <sup>**1**</sup> The average values can vary based on factors, such as the number of rules, conditions defined within a ruleset, and size of the conditions (number of characters).
- 
+
 Let's take an example in which each routing stage has a single ruleset with a couple of rules and moderately complex rule conditions. If you route 500 work items per day, it consumes approximately 4.88 MB of data. A breakup is as follows:
 
 7 KB for one work item routed with one ruleset each for classification, route-to-queue, and assignment plus 3 KB for one extra rule at each of the classification, route-to-queue, and assignment rulesets that equals to 10 KB.
@@ -64,9 +60,10 @@ Before you perform a data export, create a connection between your Customer Serv
 After you've configured the data export setup, conversation lifecycle information for live chat, digital messaging, voice, and custom channel conversations is available in the Application Insights **Traces** table.
 
 Do the following steps to view the conversation logs:
-1.	Sign into [Azure portal](https://ms.portal.azure.com/) and access your Application Insights instance. Make sure that it's the same instance that you used to set up data export.
-1.	Select **Logs** in **Monitoring**.
-1.	Use the following sample query in the editor.
+
+1. Sign into [Azure portal](https://ms.portal.azure.com/) and access your Application Insights instance. Make sure that it's the same instance that you used to set up data export.
+1. Select **Logs** in **Monitoring**.
+1. Use the following sample query in the editor.
 
     ```kusto
     Traces  
@@ -78,7 +75,7 @@ Do the following steps to view the conversation logs:
     | project timestamp, workItem, subscenario, customDim  
     ```
 
-  The **Results** tab displays the query results. 
+  The **Results** tab displays the query results.
 
 ## View conversation diagnostics dashboard
 
@@ -87,6 +84,6 @@ Do the steps in [Conversation diagnostics dashboard](https://github.com/microsof
 ### Related information
 
 [Subscenarios in conversation diagnostics](conversation-diagnostics-subscenarios.md)  
-[Sample queries and dashboard](/dynamics365/guidance/resources/conversation-diagnostics-sample-queries)   
+[Sample queries and dashboard](/dynamics365/guidance/resources/conversation-diagnostics-sample-queries)  
 
 

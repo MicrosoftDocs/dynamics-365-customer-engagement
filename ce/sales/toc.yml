@@ -227,6 +227,8 @@ items:
             href: sales-copilot-faq.md
           - name: Connect to Dynamics 365 Sales with Model Context Protocol (preview)
             href: connect-to-model-context-protocol-sales.md
+          - name: Configure zero prompt experience
+            href: zero-prompt-experience.md
       - name: Digital selling capabilities in Sales Enterprise
         items:
           - name: Overview
