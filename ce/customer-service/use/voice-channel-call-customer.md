@@ -46,6 +46,13 @@ To test your microphone and speaker, do the following steps:
     > [!NOTE]
     > You can select the **Device settings** or use **Settings** in the **Dialer** to test your microphone and speaker when you're in an ongoing call. 
 
+### Use call connection sound and enable noise suppression
+
+In Copilot Service workspace, select the **Launch dialer** phone icon on the menu bar and then select the **Settings** icon. You can do the following actions:
+
+- Turn on the **Call connection sound**  to receive an audible ping when a call connects. This keeps you aware of your audio status, ensures a smooth start to customer interactions, and enhances call quality and satisfaction while maintaining privacy compliance.  
+- Turn on **Noise suppression** to reduce background sounds during calls while keeping your voice clear. This reduces interruptions and improves customer experience.  
+
 
 ## Make a call using the outbound dialer
 
