@@ -34,7 +34,7 @@ A timer helps users gauge the amount of time they have to complete a key perform
   
 -   If the user doesn’t complete the task within the remaining time, the control shows the word **Expired**.  
   
--   As the timer counts down, the color changes to yellow as the time remaining nears non-compliance. If the time remaining expires, the timer shows the word **Expired**. The timer color changes to red, and the timer starts counting up to show how much time has passed since the task was supposed to be completed.  
+-   As the timer counts down, the color changes to yellow as the time remaining nears noncompliance. If the time remaining expires, the timer shows the word **Expired**. The timer color changes to red, and the timer starts counting up to show how much time has passed since the task was supposed to be completed.  
   
 -   If a condition causes the SLA KPI to pause, the control shows the word **Paused**.  
   
