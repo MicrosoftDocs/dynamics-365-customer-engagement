@@ -26,14 +26,17 @@ ai-usage: ai-assisted
 > - Ensure the agent is properly configured to avoid editing configurations after starting. Editing the agent changes how leads are processed before and after the change, giving different results.
 > - Ensure that terms are accepted for Bing Search and Move data across regions in Power Platform admin center.
 
-After you configure all the settings and simulate outreach emails (applicable only for **Research and engage** mode), the **Start agent** option is enabled. If the option is disabled, ensure that you see a green check mark against all the sections in the agent configuration page as shown in the following screenshot:
+The **Start agent** option is enabled only after you  following steps are completed:
+
+- All the sections in the agent configuration page are completed and marked with a green check mark as shown in the following image. 
+- Outreach email simulation is completed (applicable only for **Research and engage** mode).
 
 :::image type="content" source="media/sqa-settings-start-agent.png" alt-text="Screenshot of selecting start agent option on the Sales Qualification Agent settings page.":::
 
 A confirmation message is displayed, select **Start agent** to start the agent. The agent might take a few seconds to start, and you can continue working while the agent is being started. Upon successful activation, the agent is listed under the AI agents home page with status as **On**. As soon as the agent is started, the agent starts processing the leads that match the [configured selection criteria](sales-qualification-agent-selection-criteria.md).
 
 > [!NOTE]
-> If starting of agent fails due to unknown issues, contact Microsoft support.
+> If the agent fails to start due to unknown issues, contact Microsoft support.
 
 ## Related information
 
