@@ -25,7 +25,7 @@ You can also use the `CCaaS_CreateProactiveVoiceDelivery ` API in the Proactive 
 The following prerequisites must be met:
 
 - Voice queues and workstreams must be created. More information: [Set up inbound calling](voice-channel-inbound-calling.md)
-- Service representatives must be configured for the queues. More information: [Create queues and add users](queues-omnichannel.md)
+- Only service representatives must be configured for the queues. Direct callbacks are not supported with Copilot Stuido Agents. More information: [Create queues and add users](queues-omnichannel.md)
 - Unified routing must be enabled. More information: [Provision unified routing](provision-unified-routing.md)
 
 ## Configure direct callback to manage overflow of voice calls
