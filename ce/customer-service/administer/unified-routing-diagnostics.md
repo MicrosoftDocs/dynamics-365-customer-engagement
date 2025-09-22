@@ -18,7 +18,7 @@ ms.custom:
 # View diagnostics for unified routing
 
 > [!IMPORTANT]
-> The diagnostics feature is deprecated as of May 09, 2024, and will be removed on October 01, 2025. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
+> The diagnostics feature is deprecated. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
 
 Unified routing helps you assign a work item to the best suited customer service representative (service representative or representative) or queue to handle it, based on the representative skills and the entities that are related to the work item. Routing diagnostics gives a granular view of each of the routed records to help you understand and diagnose issues that occur in the classification and assignment of work items.
 
@@ -146,10 +146,8 @@ For known issues in diagnostics, see [Known issues in Customer Service](https://
 ### Related information
 
 [Overview of skill based routing](overview-skill-work-distribution.md)  
-[Assignment methods for Queues](assignment-methods.md) 
+[Assignment methods for Queues](assignment-methods.md)  
 [Routing and assignment rules](../routing-workstream-queues.md)  
-[Historical analytics for unified routing in Customer Service](../use/cs-historical-analytics-unified-routing.md)  
-[Historical analytics for unified routing in Omnichannel for Customer Service](../use/oc-historical-analytics-unified-routing.md)  
 [Configure work classification rules](configure-work-classification.md)  
 [Configure routing to preferred agents](configure-preferred-agent.md)  
 

@@ -20,7 +20,7 @@ If you have an existing voice channel deployment, make sure you migrate your exi
 
    > [!NOTE]
    > - For new voice configurations, the enhanced voice experience is available out of the box.
-   > - [Data Loss Prevention](/power-platform/admin/wp-data-loss-prevention) isn't supported in the enhanced voice experience. 
+   > - [Data policies](/power-platform/admin/wp-data-loss-prevention) aren't supported in the enhanced voice experience. 
 
 ## Prerequisites
 

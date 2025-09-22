@@ -49,13 +49,14 @@ By default, the application defines a set of criteria. You can update any out-of
    >[!NOTE]
    > If you don't want the agent to use BANT, you can leave the fields empty. However, we recommend that you define the BANT criterion to help the agent identify leads that it should engage with. When BANT is not defined, the agent uses only the [purchase interest signals](sales-qualification-agent-concepts.md#what-is-purchase-interest-and-how-is-it-determined) to evaluate leads and determine whether to engage with them.
 
-1. Under each criteria, expand the **Where's this info stored** section to verify the fields used by default to evaluate the criteria. You can change these fields if needed.
+1. Under each criteria, expand the **Where's this info stored** section to verify the fields used by default to evaluate the criteria. You can change these fields if needed. 
 
    :::image type="content" source="media/sqa-ideal-customer-profile.png" alt-text="Screenshot of the ideal customer profile configuration in Sales Qualification Agent settings.":::
 
-1. Select **Add** to add a different field from the lead table or other related tables.  
-     > [!TIP]
-     > If you're just testing the agent, you can create a simple ideal customer profile that includes only a few criteria, such as industry and job title. This will make it easier to create leads that match the profile and validate the agent's functionality. For example, you can set the industry to "Technology" and the job title to "Manager". After this succeeds, you can gradually add more criteria that are relevant to your business.
+1. Select **Add** to add a different field from the lead table or other related tables. Note that:
+    - You can only add fields that are directly in the lead table or in related tables. Adding nested relationships is not supported. For example, you can't add Lead > Account > Industry. You can only add Lead > Account. 
+    - Some attribute types aren't supported for handoff criteria. Learn more in the [Attribute types not supported for handoff criteria](#attribute-types-not-supported-for-handoff-criteria) section.
+    - If you're just testing the agent, you can create a simple ideal customer profile that includes only a few criteria, such as industry and job title. This will make it easier to create leads that match the profile and validate the agent's functionality. For example, you can set the industry to "Technology" and the job title to "Manager". After this succeeds, you can gradually add more criteria that are relevant to your business.
 
       If you want to use custom fields or tables, [add a custom criterion](#add-custom-criteria-to-your-handoff-criteria).
 
@@ -75,7 +76,9 @@ Use custom criteria to define characteristics that are important for your ideal 
    - **Describe your target custom criteria:** The company should have a strong commitment to environmental sustainability, with at least 3 major initiatives in place. This description will help the agent understand what to look for when evaluating leads against this criterion.
 
 1. Under **Where's this info stored?**, select **Add** to define where the agent should find the information. Select one of the following options depending on source of information you want to use for the custom criterion:
-    - **Dataverse Field**: Select this option to map the custom criterion to a field in Dataverse. Select the field that the agent should use to validate the lead's fit.
+    - **Dataverse Field**: Select this option to map the custom criterion to a field in Dataverse. Select the field that the agent should use to validate the lead's fit. Note that: 
+        - You can only add fields that are directly in the lead table or in related tables. Adding nested relationships is not supported. For example, you can't add Lead > Account > Industry. You can only add Lead > Account.  
+        - Some attribute types aren't supported for handoff criteria. Learn more in the [Attribute types not supported for handoff criteria](#attribute-types-not-supported-for-handoff-criteria) section.  
     - **Website URL**: Select this option to provide a URL that contains information about the lead's company. The agent uses information in this URL to validate the lead's fit. The URL must be publicly accessible and not require any authentication.
 
 1. If you added a URL, provide instructions for the agent to extract the information you're looking for.
@@ -89,6 +92,14 @@ Use custom criteria to define characteristics that are important for your ideal 
 1. Select **Add**.  
    The custom criterion is now added to the handoff criteria section. 
 
+## Attribute types not supported for handoff criteria
+
+The following Dataverse attribute types aren't supported for handoff criteria:
+- Lookup
+- Owner
+- PartyList
+- Customer
+
 ### Next step
 
 [Configure assignment rules for the Sales Qualification Agent](configure-sqa-assignment-rules.md)
@@ -97,3 +108,4 @@ Use custom criteria to define characteristics that are important for your ideal 
 
 - [Configure the Sales Qualification Agent](configure-sales-qualification-agent.md)
 - [Understand Sales Qualification Agent concepts](sales-qualification-agent-concepts.md)
+- [Configure Sales Qualification Agent to use fields enriched with Zoominfo or D&B data](use-zoominfo-dnb-data-in-sales-qualification-agent.md)

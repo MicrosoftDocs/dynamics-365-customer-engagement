@@ -1,7 +1,7 @@
 ---
 title: Connect a sequence to records
 description: Connect a sequence to a record based on the entity that the sequence is created in the sales accelerator in Dynamics 365 Sales.
-ms.date: 09/17/2024
+ms.date: 08/20/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -86,7 +86,7 @@ You can connect a sequence to records in the following ways:
     > ![Select leads to connect the sequence to](media/sequence-select-leads-connect-sequence.png "Select leads to connect the sequence to")   
 
     > [!NOTE]
-    >- You can't connect a sequence to a record that has already been connected with a different sequence. When you select a record that was already connected, the **Disconnect sequence** option appears on the toolbar. To connect to a different sequence, select **Disconnect sequence**. The record will be available to connect to the sequence you want.      
+    >- You can't connect a sequence to a record that has already been connected with a different sequence. When you select a record that was already connected, the **Disconnect sequence** option appears on the toolbar. To connect to a different sequence, select **Disconnect sequence**. The record is available to connect to the sequence you want.      
     >- When you choose multiple sequences to connect, and the chosen list contains both connected and disconnected records, no option to connect or disconnect will be displayed on the toolbar.    
 5. Select **Connect sequence**. The list of available sequences that appears includes sequences created by you and other sales managers.   
     In this example, a list of sequences that are configured for the **Lead** entity is displayed.    

@@ -1,7 +1,7 @@
 ---
 title: Prioritize opportunities through predictive scores
 description: Use the predictive opportunity scoring feature to prioritize your opportunities based on scores and achieve higher opportunity qualification rates.
-ms.date: 07/04/2024
+ms.date: 08/21/2025
 ms.custom: 
 ms.topic: how-to
 author: lavanyakr01

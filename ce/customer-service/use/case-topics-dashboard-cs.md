@@ -26,21 +26,9 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Topics dashboard
 
-The Topics dashboard shows a detailed breakdown of cases and their assigned topics. Customer Service Insights uses AI-generated topics and natural language understanding to automatically group your cases. This functionality can help you understand how different case types and topic areas affect your organization’s support performance.
+The Topics dashboard shows a detailed breakdown of cases and their assigned topics. Customer Service Insights uses AI-generated topics and natural language understanding to automatically group your cases. This functionality can help you understand how different case types and topic areas affect your organization’s support performance. Learn how to [access the dashboard](customer-service-analytics-insights-csh.md#access-the-dashboards).
 
 ![Topics dashboard.](../media/topics-dashboard-analytics-cs.png "Topics dashboard")
-
-To view the Topics dashboard, go to Customer Service historical analytics and select **Topics** from the dropdown list.
-
-### Access the Topics dashboard
-
-1. In the Copilot Service workspace app, do one of the following to view the dashboard:
-
-   - In the default view, select the plus (+) icon, and then select **Customer Service historical analytics**.
-
-   - If the enhanced multisession workspace view is enabled, select the site map and then select **Customer Service historical analytics**.
-
-2. On the page that appears, select the dashboard.
 
 ## Key insights card
 

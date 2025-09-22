@@ -1,7 +1,7 @@
 ---
 title: Optimize schedules during the night
 description: Learn how to use overnight scheduling with the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service.
-ms.date: 07/17/2024
+ms.date: 09/15/2025
 ms.subservice: resource-scheduling-optimization
 ms.topic: how-to
 author: andrewclear-ms
@@ -10,9 +10,9 @@ ms.author: anclear
 
 # Optimize schedules during the night
 
-Resource Scheduling Optimization is flexible and lets you set it up to run optimizations based on your organization's scheduling needs. Some organizations prefer running the optimization at night so frontline workers and dispatchers have the latest schedules when they start their day.  
+Resource Scheduling Optimization is flexible and lets you set it up to run optimizations based on your organization's scheduling needs. Some organizations prefer running the optimization at night, so frontline workers and dispatchers have the latest schedules when they start their day.  
 
-You can set up Resource Scheduling Optimization for overnight scheduling so it runs each night at a defined time and schedules work orders for the next day. This article explains key settings to enable overnight scheduling.  
+You can set up Resource Scheduling Optimization for overnight scheduling, so it runs each night at a defined time and schedules work orders for the next day. This article explains the key settings to enable overnight scheduling.  
 
 ## Configure the optimization scope for overnight scheduling
 
@@ -28,7 +28,7 @@ You can set up Resource Scheduling Optimization for overnight scheduling so it r
 
 [Create a new optimization goal](rso-optimization-goal.md) or edit an existing goal.
 
-- Set **Engine Effort Level** to **Intense** or **Very Intense**. The optimization takes longer to run but returns better optimizations. Because overnight scheduling is intended to run during the night when no one is working, we prioritize quality over speed.
+- Set **Engine Effort Level** to **Intense** or **Very Intense**. Optimization takes longer to run but returns better results. Overnight scheduling runs during the night when no one is working, so quality is prioritized over speed.
 
 - Add constraints based on your business needs.
 
@@ -40,7 +40,7 @@ You can set up Resource Scheduling Optimization for overnight scheduling so it r
 
 - Set **Timer Mode** to **Fixed**.
 
-- For **Valid From** and **Valid To**, enter the date range for which overnight scheduling is valid.
+- For **Valid From** and **Valid To**, specify the date range when overnight scheduling is valid.
 
 - On the **Filter** tab, define when you want Resource Scheduling Optimization to run:
 
@@ -48,6 +48,6 @@ You can set up Resource Scheduling Optimization for overnight scheduling so it r
   - **Hours**: Set to **12:00 AM** or some time at the night.
   - **Days Of Week**: Choose the days of business operations. For example, Monday - Friday.
 
-Based on the timer, the system checks the filters and starts an optimization request if there's a matching value. For example, every hour, Resource Scheduling Optimization checks if the hour of the day is 12:00 AM and the day of the week is Monday through Friday.
+Based on the timer, the system checks the filters and starts an optimization request if it finds a matching value. For example, every hour, Resource Scheduling Optimization checks whether the hour of the day is 12:00 AM and the day of the week is Monday through Friday.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

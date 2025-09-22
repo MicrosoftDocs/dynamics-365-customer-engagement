@@ -1,18 +1,18 @@
 ---
-title: Backlog conversation 
-description: Learn how to use the Backlog conversations report to monitor conversations created in the last 30 days.
+title: Backlog conversation report
+description: Learn how to use the Backlog conversation report to monitor conversations initiated in the last 30 days.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: conceptual
 ms.collection: 
-ms.date: 08/25/2025
+ms.date: 09/16/2025
 ms.custom: bap-template
 ---
 
 # View and understand the Backlog conversation report in Omnichannel real-time analytics
 
-The Backlog conversation report lists all open, active, and waiting conversations that were created in the last 30 days. It allows you to view persistent chats that are longer than 24 hrs.
+The Backlog conversation report lists all open, active, and waiting conversations that were created in the last 30 days. It allows you to view persistent chats that are longer than 24 hrs. Learn how to [access the report](intro-realtime-analytics-dashboard.md#access-reports).
 
 ## Key metrics
 
@@ -24,7 +24,7 @@ You can extend the default timeframe of 30 days as required. To avoid performanc
 
 As supervisors, you can assign, transfer, monitor, and force close extended conversations.
 
-:::image type="content" source="../media/backlog_conv.png" alt-text="Screenshot of the backlog conversation report.":::
+:::image type="content" source="../media/backlog-conversation.png" alt-text="Screenshot of the backlog conversation report.":::
 
 ## Related information
 

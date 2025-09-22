@@ -14,8 +14,6 @@ search.audienceType:
 
 # Best practices to use Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 Use the following guidelines in Omnichannel for Customer Service, so that the data in the dashboards isn't affected:
 
 -  Customer service representatives (service representatives or representatives) should sign out or set presence as Appear away before stepping out. This avoids the routing of conversation requests to them.

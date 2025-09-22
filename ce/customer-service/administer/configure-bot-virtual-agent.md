@@ -34,14 +34,14 @@ The following capabilities are available for the agent conversations:
 
 When a conversation is escalated from an agent to a representative, the representative can see the full transcript of the agent conversation and get complete context while engaging with the customer. Learn more in [Enable an agent to escalate and end conversation](/dynamics365/customer-service/develop/bot-escalate-end-conversation?context=/dynamics365/contact-center/context/extend-context).
 
-
 ## Prerequisites
 
 You must have:
- - A product license for Copilot Studio. Learn more in [Licensing for Copilot Studio](/microsoft-copilot-studio/requirements-licensing-subscriptions).
- - A product license for chat, digital messaging, or voice channel for Dynamics 365 Customer Service, depending on your business requirements.  
- - The CCI Admin security role to access the agent you create in Copilot Service admin center in Copilot Studio.
- - The Omnichannel administrator role. Learn more in [Manage user roles](/dynamics365/customer-service/implement/add-users-assign-roles)
+
+- Specific licensing requirements apply to configure and use agents in Copilot Studio. Learn more in [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718).
+- Chat, digital messaging, or voice channel in Dynamics 365 Customer Service require specific licenses depending on your business requirements. Learn more in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
+- The CCI Admin security role to access the agent you create in Copilot Service admin center in Copilot Studio.
+- The Omnichannel administrator role. Learn more in [Manage user roles](/dynamics365/customer-service/implement/add-users-assign-roles)
 
 ## Create a Copilot agent
 
@@ -49,10 +49,10 @@ You can create Copilot agents in one of the following ways:
 
 - Create the agent in Copilot Service admin center and then navigate to Copilot Studio to finish the configuration. Learn more in [add a agent](../administer/manage-your-bots.md).
 - Create the agent in Copilot Studio, which is then available in the Dynamics 365 Contact Center admin center. Learn more in:
-     - [Create and delete copilots](/microsoft-copilot-studio/authoring-first-bot)
-     - [Create a custom agent from a template](/microsoft-copilot-studio/template-fundamentals)
-     - [Create voice-enabled agents from templates](/microsoft-copilot-studio/voice-build-from-template)
-     
+  - [Create and delete copilots](/microsoft-copilot-studio/authoring-first-bot)
+  - [Create a custom agent from a template](/microsoft-copilot-studio/template-fundamentals)
+  - [Create voice-enabled agents from templates](/microsoft-copilot-studio/voice-build-from-template)
+
 ## Connect your Copilot agent to omnichannel instance
 
 For the agent to be able to interact with customers in Dynamics 365 Contact Center or Customer Service, you must integrate the agent with your application. Follow the procedure in [Connect your Copilot agent to omnichannel](/microsoft-copilot-studio/configuration-hand-off-omnichannel) to connect your Copilot agent to the omnichannel instance. 
@@ -124,7 +124,7 @@ In the voice channel, the system doesn't listen for the **closeOmnichannelConver
 
 | Description     | Limitation     |
 |-----------------|----------------|
-| **Adaptive cards**</br>An adaptive card is a customizable card that can contain any combination of text, speech, images, buttons, and input fields.|<ul><li> You can build an adaptive card by adding a skill through Copilot Studio. Learn more in [Use Microsoft Bot Framework Skills in Copilot Studio](/power-virtual-agents/advanced-use-skills) </li><li> Adaptive card styling isn't supported.</li></ul> |
+| **Adaptive cards**</br>An adaptive card is a customizable card that can contain any combination of text, speech, images, buttons, and input fields.|<ul><li> You can build an adaptive card by adding a skill through Copilot Studio. Learn more in [Use Microsoft Bot Framework Skills in Copilot Studio](/power-virtual-agents/advanced-use-skills) </li><li> Adaptive card styling isn't supported.</li><li> Adaptive cards won't appear in emailed transcripts. To help the reader understand the transcript, we recommend that you preface the adaptive card with a text message node (for example, "Please fill out this form").</li></ul> |
 | **Typing**</br>An agent receives a typing activity to indicate that the user is typing a response. An agent may send a typing activity to indicate to the user that it's working to fulfill a request or compile a response. | Typing indicators don't appear. |
 | **Format bot messages**</br>You can set the optional `TextFormat` property to control how the text content of your message is rendered. | <ul><li> Copilot Studio doesn't support Markdown with images and text. </li><li>When Copilot Studio sends Markdown text, there's an extra space between lines. </li></ul>|
 
