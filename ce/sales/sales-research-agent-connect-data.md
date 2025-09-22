@@ -26,7 +26,7 @@ Add the data source using *one* of the following options in the **Sales Research
 - Select **Data** at the top-right corner of the page and choose **Add data**.
 - Select **Add data** in the **Ask any business question** prompt box.
 
-    :::image type="content" source="media/sales-research-agent-add-data.png" alt-text="Screenshot of the Add data option in the Sales Research Agent.":::
+    :::image type="content" source="media/sales-research-agent-add-data.png" alt-text="Screenshot of the Add data option in the Sales Research Agent." lightbox="media/sales-research-agent-add-data.png":::
 
 ## Use data from other Dynamics 365 Sales environments
 

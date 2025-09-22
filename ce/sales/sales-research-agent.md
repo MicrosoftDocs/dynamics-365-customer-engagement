@@ -19,7 +19,7 @@ ai-usage: ai-assisted
 
 The Sales Research Agent in Dynamics 365 Sales empowers you to solve complex business questions through a dialog with your data using natural language. This AI-powered research canvas offers rich insights into all aspect of your sales data, empowering you to make informed decisions taking a myriad of variables into account.
 
-:::image type="content" source="media/sales-research-agent-insights.png" alt-text="Screenshot of the research canvas in the Sales research agent.":::
+:::image type="content" source="media/sales-research-agent-insights.png" alt-text="Screenshot of the research canvas in the Sales research agent." lightbox="media/sales-research-agent-insights.png":::
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
