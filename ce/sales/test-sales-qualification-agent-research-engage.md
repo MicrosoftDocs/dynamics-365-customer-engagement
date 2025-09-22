@@ -27,7 +27,7 @@ Ensure that your test environment includes:
 | User Role     | Details                                                                 |
 |---------------|-------------------------------------------------------------------------|
 | **Sellers**   | 3–4 users to whom the agent will hand off leads. Ensure that they have the seller role and valid email addresses.                    |
-| **Supervisors** | At least 1 user to monitor the agent and intervene when necessary.    |
+| **Sales Manager** (as supervisor) | At least 1 user to monitor the agent and intervene when necessary.    |
 
 ### Create test leads
 
@@ -122,7 +122,7 @@ After you start the agent, you can check if the agent picked the correct leads f
 This section is applicable only for **Research and engage** mode. 
 
 > [!NOTE]
-> In **Research-only** mode, the agent hands off the lead to a seller after the research is complete and outreach email is drafted.
+> In **Research-only** mode, the agent hands off the lead to a seller after the research is completed and outreach email is drafted.
 
 **Objective**: Confirm that the agent responds correctly to customers’ queries based on available knowledge sources and is able to hand off leads to sellers or disqualify leads as per the defined criteria.
 
