@@ -26,11 +26,11 @@ Perform the following steps:
 
 1. In Power Apps, for your solution, select **Tables** > **Email**.  
 2. Select **Forms** and then select the required email form.  
-3. Add the **Sensitivity Label** table column to the form. [Learn more](/power-apps/maker/model-driven-apps/add-field-form).  
+3. Add the **Sensitivity Label** table column to the form. Learn more in [Add column to a form](/power-apps/maker/model-driven-apps/add-field-form).  
 4. In the **Properties** pane for **Sensitivity Label**, do the following:  
    - Select the **Hide Label** checkbox.  
    - Set the **Form field width** in **Formatting** to 2 columns.  
-   - In **Components**, add the **Email sensitivity label control**. [Learn more](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/add-control-field).  
+   - In **Components**, add the **Email sensitivity label control**. Learn more in [Add components for a column on the form](/power-apps/maker/model-driven-apps/add-control-field).  
 5. Save and publish your changes.  
 
 ## Set email data sensitivity labels
