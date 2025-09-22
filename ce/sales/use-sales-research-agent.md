@@ -80,3 +80,8 @@ Use the AI cursor to interact with the generated data or ask a new question abou
 To refresh the blueprint with the latest data or regenerate it with new visualizations and insights, select the **Refresh** icon at the top-right corner of the blueprint.
 
 :::image type="content" source="media/sales-research-agent-refresh-regen.png" alt-text="Screenshot of the Refresh icon in the Sales Research Agent.":::
+
+## Related information
+
+- [Set up and configure Sales Research Agent (preview)](configure-sales-research-agent.md)
+- [Frequently asked questions about Sales Research Agent (preview)](faqs-sales-research-agent.md)

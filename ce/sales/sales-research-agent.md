@@ -45,7 +45,7 @@ Depending on your role, use the following links to learn about configuring and u
 | Role(s)                        | Which app to use?                                                                                 | Link to documentation                                                                                   |
 |--------------------------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | System administrators, makers  | Power Platform admin center                         | [Set up and configure Sales Research Agent (preview)](configure-sales-research-agent.md)     |
-| Sellers and Sales managers     | Sales Hub app             | <ul><li>[Research on sales topics using the Sales Research Agent (preview)](use-sales-research-agent.md)</li><li>[Connect the agent to a different data source](sales-research-agent-connect-data.md)</li><li>[Provide context to the Sales Research Agent (preview)](sales-research-agent-provide-context.md)</li></ul> |
+| Sellers and Sales managers     | Sales Hub app             | <ul><li>[Analyze your sales performance using the Sales Research Agent (preview)](use-sales-research-agent.md)</li><li>[Connect the agent to a different data source](sales-research-agent-connect-data.md)</li><li>[Provide context to the Sales Research Agent (preview)](sales-research-agent-provide-context.md)</li></ul> |
 
 
 ## Legal and regulatory considerations
@@ -54,4 +54,6 @@ Organizations need to evaluate potential specific legal and regulatory obligatio
 
 ## Related information
 
-[Frequently asked questions about Sales Research Agent (preview)](faqs-sales-research-agent.md)
+[Frequently asked questions about Sales Research Agent (preview)](faqs-sales-research-agent.md)  
+[Responsible AI FAQ about the Sales Research Agent (preview)](faqs-about-sales-research-agent.md)  
+

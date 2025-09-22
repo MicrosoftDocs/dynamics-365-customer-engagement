@@ -36,7 +36,7 @@ If you're using the AI Cursor and you pressed **Enter** after typing your prompt
 
 ## Can I connect to other data sources?
 
-Yes, you can connect to other Dynamics 365 and Dataverse environments if you have access to those. Additionally, you can upload datafiles to enrich your research further. Learn more in [Connect the Sales Research Agent to a different data source](sales-research-agent-connect-data.md).
+Yes, you can connect to other Dynamics 365 and Dataverse environments if you have access to those. Additionally, you can upload data files to enrich your research further. Learn more in [Connect the Sales Research Agent to a different data source](sales-research-agent-connect-data.md).
 
 ## Why do I get an error when trying to upload a file?
 

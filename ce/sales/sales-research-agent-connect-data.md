@@ -59,5 +59,5 @@ You can upload a PDF (.pdf), CSV (.csv), or Excel (.xls) file. The following lim
 
 ## Related information
 
-- [Research on sales topics with the Sales Research Agent](use-sales-research-agent.md)
+- [Analyze your sales performance using the Sales Research Agent (preview)](use-sales-research-agent.md)
 - [Frequently asked questions about Sales Research Agent (preview)](faqs-sales-research-agent.md)

@@ -17,7 +17,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-As an admin, set up and configure the Sales Research Agent in Dynamics 365 Sales to help sellers have conversations with their sales data. 
+As an admin, set up and configure the Sales Research Agent in Dynamics 365 Sales to help sales managers and sales leaders gain insights from their sales data.  
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -56,3 +56,8 @@ The Sales Research Agent also honors the [Bing search consent setting](/power-pl
 - If Bing search is **disabled**, the agent will operate solely on internal data sources—such as uploaded files or connected Dynamics 365 data—without querying the web.
 
 This ensures that external data usage is fully controlled by tenant-level policies.
+
+## Related information
+
+- [Analyze your sales performance using the Sales Research Agent (preview)](use-sales-research-agent.md)
+- [Frequently asked questions about Sales Research Agent (preview)](faqs-sales-research-agent.md)

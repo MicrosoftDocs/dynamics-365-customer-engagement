@@ -42,5 +42,5 @@ To delete the context information at any time, select **Delete all**.
 ## Related information
 
 - [Sales Research Agent overview](sales-research-agent.md)  
-- [Research on sales topics with the Sales Research Agent](use-sales-research-agent.md)  
+- [Analyze your sales performance using the Sales Research Agent (preview)](use-sales-research-agent.md)  
 - [Connect the Sales Research Agent to a different data source](sales-research-agent-connect-data.md)  
