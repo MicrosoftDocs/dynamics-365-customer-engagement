@@ -6,13 +6,13 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 08/26/2025
+ms.date: 09/16/2025
 ms.custom: bap-template
 ---
 
 # View and understand real-time analytics for record routing in the queue report
 
-The queue report lists all the advanced queues in the organization in a table by default. Content can be filtered by modified on, individual queue, agent, work item status, work item skill, and time zone. 
+The queue report lists all the advanced queues in the organization in a table by default. You can filter content by modified on, individual queue, agent, work item status, work item skill, and time zone. [Learn how to access the report](rr-overview.md#access-reports).
 
 > [!NOTE]
 > This report shows entity record type queues only.
@@ -26,11 +26,11 @@ The queue table has the following sortable columns:
 |Queue    |    Name of entity record queue.    |
 |Queue priority| Priority of the queue. |
 |Assigned work items    | Work items that are assigned to customer service representative (service representative or representative) during the reporting period.       |
-|Unassigned work items| Work items during reporting period that haven't yet been assigned to a service representative, and that include transfers to queue.|
+|Unassigned work items| Work items during reporting period that aren't yet assigned to a service representative, and that include transfers to queue.|
 |Longest wait time| Longest time for a work item during reporting period in queue until the status changed from open to active (assigned).|
 |Agents online| Service representatives assigned to queue who are online. |
 
-Because the table allows for sorting by queue, queue priority, assigned and unassigned work items, longest wait time, and agents online, you can easily identify queues where corrective action needs to be taken to provide a smooth customer experience. For example, if you sort by unassigned cases or longest wait time, you can ensure that enough agents and agent capacity are available to handle the backlog efficiently.
+Since the table can be sorted by queue, queue priority, assigned and unassigned work items, longest wait time, and agents online, you can quickly identify queues that might need attention and take steps to improve the customer experience. For example, if you sort by unassigned cases or longest wait time, you can ensure that enough agents and agent capacity are available to handle the backlog efficiently.
 
 When a queue is selected in the table, queue work items can be listed as an embedded ongoing work items table for easy management using the **Detailed view** option.
 

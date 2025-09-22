@@ -1,6 +1,6 @@
 ---
 title: Route records automatically using custom flow
-description: Learn how to route records automatically by setting up custom flow in Dynamics 365 Customer Service and Omnichannel for Customer Service.
+description: Learn how to route records automatically by setting up custom flow in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
 ms.date: 03/26/2025
 ms.topic: how-to
 author: neeranelli
@@ -12,11 +12,9 @@ ms.custom: bap-template
 
 # Route records automatically using custom flow
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+As an administrator, you can route records automatically using Power Automate. Set up a custom flow to automatically route records based on certain conditions, such as when a record is created or updated. Let's see how to set up a custom flow for the create condition.
 
 ## Set up custom flow to automatically route records
-
-As an administrator, you can route records automatically using Power Automate. Set up a custom flow to automatically route records based on certain conditions, such as when a record is created or updated. Let's see how to set up a custom flow for the create condition.
 
 To enable automatic routing of records:
 
