@@ -1,5 +1,5 @@
 ---
-title: Customer Service dashboards | Microsoft Docs
+title: Customer Service dashboards
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs to manage contact centers.
 ms.date: 05/14/2025
 ms.topic: overview
@@ -24,7 +24,7 @@ The Customer Service dashboards give you a performance summary and detailed repo
 
 ## Manage dashboards
 
-To manage the dashboards, go to: [Manage historical analytics reports in Customer Service](../administer/configure-cs-historical-analytics-csh.md).
+Learn how to manage the dashboards in [Manage historical analytics reports in Customer Service](../administer/configure-cs-historical-analytics-csh.md).
 
 ## Customer Service historical analytics reports
 
@@ -32,19 +32,23 @@ The following dashboard reports are available for Customer Service historical an
 
 ### Summary
 
-The Summary dashboard gives you a broad overview of the customer service experience in your organization. It uses AI technology to show you topics that are generating the highest volume and emerging topics with the highest rate of change in volume. More information: [Summary dashboard](summary-dashboard-cs.md)
+The Summary dashboard gives you a broad overview of the customer service experience in your organization. It uses AI technology to show you topics that are generating the highest volume and emerging topics with the highest rate of change in volume. Learn more in [Summary dashboard](summary-dashboard-cs.md).
 
 ### Agent
 
-The Agent dashboard shows charts and KPIs for individual service representatives and overall representative performance. More information: [Agent dashboard](agent-dashboard-cs.md)
+The Agent dashboard shows charts and KPIs for individual service representatives and overall representative performance. Learn more in [Agent dashboard](agent-dashboard-cs.md).
 
 ### Case Topics
 
-The Case Topics dashboard shows a detailed breakdown of cases and their assigned topics. More information: [Topics dashboard](case-topics-dashboard-cs.md)
+The Case Topics dashboard shows a detailed breakdown of cases and their assigned topics. Learn more in [Topics dashboard](case-topics-dashboard-cs.md).
+
+## Access the dashboards
+
+[!INCLUDE[cc-navigation](../../includes/cc-navigation-cs.md)]
 
 ## Reports refresh and data retention
 
-See [Analytics reports refresh and data retention](info-analytics-reports.md#analytics-reports-refresh-and-data-retention)
+Learn more in [Analytics reports refresh and data retention](info-analytics-reports.md#analytics-reports-refresh-and-data-retention).
 
 ## Supported tables
 
