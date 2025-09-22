@@ -270,8 +270,7 @@ Perform the following steps to export and import the pre queue rulesets:
 
 ---
 
-For sample schema to get all the required records, go to:  
-[Sample schema for record queues step 2](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues%20step%202.xml)  
+If you're not using Overflow overrides methods for queues, skip this step.
 
 ### FetchXML for queues
 
