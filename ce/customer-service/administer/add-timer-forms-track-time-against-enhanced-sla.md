@@ -18,7 +18,7 @@ ms.custom:
 
 > [!NOTE]
 > - Enhanced SLAs in the web client are deprecated and replaced with Unified Interface SLAs. Learn more in [SLAs in web client are deprecated](../implement/deprecations-customer-service.md#slas-in-web-client-are-deprecated).
-> - Learn more about adding a timer control to Unified Interface SLA-enabled entities, in [Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities).
+> - Learn more about adding a timer control to Unified Interface SLA-enabled entities in [Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities).
 
 A timer helps users gauge the amount of time they have to complete a key performance indicator (KPI) that is typically associated with a service level agreement (SLA). If your organization uses enhanced SLAs, you must use quick view forms to add a timer to track time against such SLAs.  
   
@@ -127,7 +127,7 @@ To add a timer for an enhanced SLA to an entity form, that entity must be enable
   
 ## Create an SLA
 
-Create an SLA for the entity you want to track. For example, you might want to track the time taken by sales person to take action on a lead, like qualifying or disqualifying a lead. For this tracking, create an SLA for the lead entity. Learn about creating an SLA, in [Define service level agreements](define-service-level-agreements.md)  
+Create an SLA for the entity you want to track. For example, you might want to track the time taken by sales person to take action on a lead, like qualifying or disqualifying a lead. For this tracking, create an SLA for the lead entity. Learn more about creating an SLA in [Define service level agreements](define-service-level-agreements.md)  
   
 ## Add the quick view form to the primary entity form to show the timer
 
