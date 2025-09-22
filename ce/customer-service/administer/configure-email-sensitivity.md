@@ -9,17 +9,16 @@ ms.collection:
 ms.date: 09/21/2025
 ---
 
-# Configure sensitivity label support 
+# Configure sensitivity label support for emails
 
 You can configure sensitivity labels in Dynamics 365 Customer Service and Contact Center to ensure email communications comply with your organization’s security and compliance policies. These labels help protect sensitive information and keep attachments, replies, and forwards aligned with organizational rules.
 
 ## Prerequisites
 
-- Sensitivity labels are created and configured in the Microsoft Purview compliance portal. Learn more in [Create and configure sensitivity labels](/purview/create-sensitivity-labels?tabs=classic-label-scheme).
-- 
+- Sensitivity labels are created and configured in the Microsoft Purview portal. Learn more in [Create and configure sensitivity labels](/purview/create-sensitivity-labels?tabs=classic-label-scheme).
 - An email server profile with **Server-to-Server Authentication (Same Tenant)** is configured for Exchange Online. Learn more in [Connect to Exchange Online](/power-platform/admin/connect-exchange-online).
 - Server side synchronization is set up for email. Learn more in [Set up server-side synchronization for email](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks).
-- The EntraId user associated to the mailbox needs to have access to the Sensitivity labels of interest defined in Microsoft Purview.
+- The Microsoft Entra ID user associated with the mailbox must have access to the required sensitivity labels in Microsoft Purview. Learn more in [Permissions in the Microsoft Purview portal](/purview/purview-permissions).
 
 ## Enable sensitivity labels on email form
 
@@ -27,7 +26,7 @@ Perform the following steps:
 
 1. In Power Apps, for your solution, select **Tables** > **Email**.  
 2. Select **Forms** and then select the required email form.  
-3. Add the **Sensitivity Label** table column to the form. [Learn more](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/add-field-form).  
+3. Add the **Sensitivity Label** table column to the form. [Learn more](/power-apps/maker/model-driven-apps/add-field-form).  
 4. In the **Properties** pane for **Sensitivity Label**, do the following:  
    - Select the **Hide Label** checkbox.  
    - Set the **Form field width** in **Formatting** to 2 columns.  
