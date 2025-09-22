@@ -229,6 +229,50 @@ Perform the following steps to export and import the rulesets:
 
 For sample schema to get all the required records, go to [Sample schema for record queues step 2](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues%20step%202.xml).
 
+### Step 3: Export and import prequeue overflow ruleset configurations  
+
+If you're not using Overflow overrides methods for queues, skip this step.  
+
+The following table summarizes the entities and corresponding FetchXML samples.  
+
+|Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
+|---------|---------|---------|
+| Queue (queue) | <ul><li>Assignment Input Contract Id (msdyn_assignmentinputcontractid)</li><li>Assignment Strategy (msdyn_assignmentstrategy)</li><li>Description (description)</li><li>Is Default Queue (msdyn_isdefaultqueue)</li><li>Is Omnichannel Queue (msdyn_isomnichannelqueue)</li><li>Name (name)</li><li>Priority (msdyn_priority)</li><li>Queue (queueid)</li><li>Queue type (msdyn_queuetype)</li><li>Type (queueviewtype)</li><li>Operating Hours (msdyn_operatinghourid)</li><li>Prequeue Overflow Ruleset (msdyn_prequeueoverflowrulesetid)</li></ul> | [**Sample 1: All queues for records**](#BKMK1all-ur-qs) <br><br> [**Sample 2: Single queue for records**](#BKMK2single-ur-qs) <br><br> [**Sample 3: Multiple queues for records**](#BKMK3multiple-ur-qs)  |
+| Decision contract (msdyn_decisioncontract) | <ul><li>Contract Definition (msdyn_contractdefinition)</li><li>Decision contract (msdyn_decisioncontractid)</li><li>Name (msdyn_name)</li><li>Unique name (msdyn_uniquename)</li></ul> | [**Sample 1: Decision contract for all record queues with pre-queue overflow defined**](#BKMK1-po-contract) <br><br>[**Sample 2: Decision contract for a single record queue with pre-queue overflow defined**](#BKMK2-po-contract) <br><br>[**Sample 3: Decision contract for multiple record queues with pre-queue overflow defined**](#BKMK3-po-contract) |
+| Decision ruleset with selection criteria (msdyn_decisionruleset) | <ul><li>AI Builder Model (msdyn_aibmodelid)</li><li>Authoring Mode (msdyn_authoringmode)</li><li>Decision rule Set (msdyn_decisionrulesetid)</li><li>Description (msdyn_description)</li><li>Input Contract (msdyn_inputcontractid)</li><li>Is input Collection (msdyn_isinputcollection)</li><li>ML model type (msdyn_mlmodeltype)</li><li>Name (msdyn_name)</li><li>Output contract (msdyn_outputcontractid)</li><li>Rule set definition (msdyn_rulesetdefinition)</li><li>Rule set type (msdyn_rulesettype)</li><li>Unique name (msdyn_uniquename)</li></ul> | [**Sample 1: Decision ruleset for all record queues with pre-queue overflow defined**](#BKMK1-po-ruleset) <br><br>[**Sample 2: Decision ruleset for a single record queue with pre-queue overflow defined**](#BKMK2-po-ruleset) <br><br>[**Sample 3: Decision ruleset for multiple record queues with pre-queue overflow defined**](#BKMK3-po-ruleset) |
+
+Perform the following steps to export and import the pre queue rulesets:
+
+1. Generate the schema and save it.  
+
+2. Export the data and generate the compressed .zip file.  
+
+3. Extract the .zip file, open the data.xml file present in the extracted folder, and do the following:  
+
+   - In the source and target environments, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
+
+     `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_queueoverflowrulesetinput'`
+
+     In the data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source environment with the msdyn_decisioncontractid GUID of the target environment.  
+
+   - In the source and target environments, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
+
+     `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_queueoverflowrulesetoutput'`
+    
+     In the data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source environment with the msdyn_decisioncontractid GUID of the target environment.  
+
+
+4. Repackage the extracted content into a .zip file.  
+
+5. Open the Configuration Migration Tool:  
+   - Select Import Data.  
+   - Choose the compressed .zip file.  
+
+---
+
+For sample schema to get all the required records, go to:  
+[Sample schema for record queues step 2](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues%20step%202.xml)  
+
 ### FetchXML for queues
 
 **Sample 1: All queues**<a name="BKMK1all-ur-qs"></a>
@@ -776,60 +820,6 @@ XMLCopy
   </entity>
 </fetch>
 ```
-### Step 3: Export and import prequeue overflow ruleset configurations  
-
-If you're not using **Overflow overrides methods** for queues, skip this step.  
-
-The following table summarizes the entities and corresponding FetchXML samples.  
-
-|Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
-|---------|---------|---------|
-| Queue (`queue`) | <ul><li>Assignment Input Contract Id (`msdyn_assignmentinputcontractid`)</li><li>Assignment Strategy (`msdyn_assignmentstrategy`)</li><li>Description (`description`)</li><li>Is Default Queue (`msdyn_isdefaultqueue`)</li><li>Is Omnichannel Queue (`msdyn_isomnichannelqueue`)</li><li>Name (`name`)</li><li>Priority (`msdyn_priority`)</li><li>Queue (`queueid`)</li><li>Queue type (`msdyn_queuetype`)</li><li>Type (`queueviewtype`)</li><li>Operating Hours (`msdyn_operatinghourid`)</li><li>Prequeue Overflow Ruleset (`msdyn_prequeueoverflowrulesetid`)</li></ul> | [**Sample 1: All queues for records**](#BKMK1-po-queue) <br><br>[**Sample 2: Single queue for records**](#BKMK2-po-queue) <br><br>[**Sample 3: Multiple queues for records**](#BKMK3-po-queue) |
-| Decision contract (`msdyn_decisioncontract`) | <ul><li>Contract Definition (`msdyn_contractdefinition`)</li><li>Decision contract (`msdyn_decisioncontractid`)</li><li>Name (`msdyn_name`)</li><li>Unique name (`msdyn_uniquename`)</li></ul> | [**Sample 1: Decision contract for all record queues with pre-queue overflow defined**](#BKMK1-po-contract) <br><br>[**Sample 2: Decision contract for a single record queue with pre-queue overflow defined**](#BKMK2-po-contract) <br><br>[**Sample 3: Decision contract for multiple record queues with pre-queue overflow defined**](#BKMK3-po-contract) |
-| Decision ruleset with selection criteria (`msdyn_decisionruleset`) | <ul><li>AI Builder Model (`msdyn_aibmodelid`)</li><li>Authoring Mode (`msdyn_authoringmode`)</li><li>Decision rule Set (`msdyn_decisionrulesetid`)</li><li>Description (`msdyn_description`)</li><li>Input Contract (`msdyn_inputcontractid`)</li><li>Is input Collection (`msdyn_isinputcollection`)</li><li>ML model type (`msdyn_mlmodeltype`)</li><li>Name (`msdyn_name`)</li><li>Output contract (`msdyn_outputcontractid`)</li><li>Rule set definition (`msdyn_rulesetdefinition`)</li><li>Rule set type (`msdyn_rulesettype`)</li><li>Unique name (`msdyn_uniquename`)</li></ul> | [**Sample 1: Decision ruleset for all record queues with pre-queue overflow defined**](#BKMK1-po-ruleset) <br><br>[**Sample 2: Decision ruleset for a single record queue with pre-queue overflow defined**](#BKMK2-po-ruleset) <br><br>[**Sample 3: Decision ruleset for multiple record queues with pre-queue overflow defined**](#BKMK3-po-ruleset) |
-
-Perform the following steps to export and import the pre queue rulesets:
-
-1. Generate the schema and save it.  
-
-2. Export the data and generate the compressed `.zip` file.  
-
-3. Extract the `.zip` file, open the `data.xml` file present in the extracted folder, and do the following:  
-
-   - In the source and target environments, run the following OData API call and note the GUID of `msdyn_decisioncontractid`:  
-
-     ```http
-     GET https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_queueoverflowrulesetinput'
-     ```
-
-     In the `data.xml` file, replace all the occurrences of the `msdyn_decisioncontractid` GUID in the source environment with the `msdyn_decisioncontractid` GUID of the target environment.  
-
-   - In the source and target environments, run the following OData API call and note the GUID of `msdyn_decisioncontractid`:  
-
-     ```http
-     GET https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_queueoverflowrulesetoutput'
-     ```
-
-     In the `data.xml` file, replace all the occurrences of the `msdyn_decisioncontractid` GUID in the source environment with the `msdyn_decisioncontractid` GUID of the target environment.  
-	 - In the source and target environments, run the following OData API call and note the GUID of `msdyn_decisioncontractid`:  
-
-     ```http
-     GET https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_queueoverflowrulesetinput'
-     ```
-
-     In the `data.xml` file, replace all the occurrences of the `msdyn_decisioncontractid` GUID in the source environment with the `msdyn_decisioncontractid` GUID of the target environment.  
-
-
-4. Repackage the extracted content into a `.zip` file.  
-
-5. Open the Configuration Migration Tool:  
-   - Select Import Data.  
-   - Choose the compressed `.zip` file.  
-
----
-
-👉 For sample schema to get all the required records, go to:  
-[Sample schema for record queues step 2](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues%20step%202.xml)  
 
 ### FetchXML for decision contract for queues
 
