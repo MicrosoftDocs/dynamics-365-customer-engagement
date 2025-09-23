@@ -4,7 +4,7 @@ description: Learn how to configure and use direct callback in the voice channel
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 06/02/2025
+ms.date: 09/23/2025
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -24,9 +24,9 @@ You can also use the `CCaaS_CreateProactiveVoiceDelivery ` API in the Proactive 
 
 The following prerequisites must be met:
 
-- Voice queues and workstreams must be created. More information: [Set up inbound calling](voice-channel-inbound-calling.md)
-- Service representatives must be configured for the queues. More information: [Create queues and add users](queues-omnichannel.md)
-- Unified routing must be enabled. More information: [Provision unified routing](provision-unified-routing.md)
+- Voice queues and workstreams are configured. Learn more in [Set up inbound calling](voice-channel-inbound-calling.md).
+- For the queues, make sure that you [configure service representatives](queues-omnichannel.md) only. Direct callback isn't supported with Copilot Studio agents.
+- Unified routing is enabled. Learn more in [Enable unified routing](provision-unified-routing.md).
 
 ## Configure direct callback to manage overflow of voice calls
 
@@ -38,7 +38,7 @@ The customer disconnects the call after acknowledging the message for the direct
 Direct callback uses two automated messages that are available by default and can be customized:  
 
 - The initial message offers the callback option to the customer as follows: "Current wait times are longer than expected. If you would like a call back, please press 1 or continue to wait for the next available representative."
-- The second message confirms the callback selection when the customer presses 1 and notifies the customer that the call will end. The message played to the customer is, as follows: "You have requested a callback. We'll call you back as soon as a representative is available. Goodbye!"
+- The second message confirms the callback selection when the customer presses 1 and notifies the customer that the call will end. The message played to the customer is as follows: "You have requested a callback. We'll call you back as soon as a representative is available. Goodbye!"
 
 > [!NOTE]
 > The callback option isn't customizable. 
