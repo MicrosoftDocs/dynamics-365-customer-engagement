@@ -27,7 +27,7 @@ Ensure that your test environment includes:
 | User Role     | Details                                                                 |
 |---------------|-------------------------------------------------------------------------|
 | **Sellers**   | 3–4 users to whom the agent will hand off leads. Ensure that they have the seller role and valid email addresses.                    |
-| **Sales Manager** (as supervisor) | At least 1 user to monitor the agent and intervene when necessary.    |
+| **Sales Manager** (as supervisor) | One user to monitor the agent and intervene when necessary.    |
 
 ### Create test leads
 
