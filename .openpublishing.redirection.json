@@ -35720,6 +35720,30 @@
     {"source_path": "ce/customer-service/use/oc-historical-analytics-unified-routing.md",
       "redirect_url": "/previous-versions/dynamics365/customer-service/use/oc-historical-analytics-unified-routing",
       "redirect_document_id": false
+    },
+    {"source_path": "ce/sales/sales-qualification-agent-43.md",
+      "redirect_url": "/dynamics365/sales/sales-qualification-agent",
+      "redirect_document_id": false
+    },
+    {"source_path": "ce/sales/configure-sales-qualification-agent-43.md",
+      "redirect_url": "/dynamics365/sales/configure-sales-qualification-agent",
+      "redirect_document_id": false
+    },
+    {"source_path": "ce/sales/use-sales-qualification-agent-43.md",
+      "redirect_url": "/dynamics365/sales/use-sales-qualification-agent",
+      "redirect_document_id": false
+    },
+    {"source_path": "ce/sales/sales-qualification-agent-faq-43.md",
+      "redirect_url": "/dynamics365/sales/sales-qualification-agent-faq",
+      "redirect_document_id": false
+    },
+    {"source_path": "ce/sales/faqs-sales-qualification-agent-43.md",
+      "redirect_url": "/dynamics365/sales/faqs-sales-qualification-agent",
+      "redirect_document_id": false
+    },
+    {"source_path": "ce/sales/test-sales-qualification-agent-43.md",
+      "redirect_url": "/dynamics365/sales/test-sales-qualification-agent",
+      "redirect_document_id": false
     }
   ]
 }

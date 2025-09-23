@@ -1,7 +1,7 @@
 ---
 title: Sales Qualification Agent overview (preview)
 description: Discover how Sales Qualification Agent in Dynamics 365 Sales automates lead research and engagement to help your team focus on high-potential opportunities.
-ms.date: 08/04/2025
+ms.date: 09/23/2025
 ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -22,14 +22,7 @@ ai-usage: ai-assisted
 
 # Sales Qualification Agent overview (preview)
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-[!INCLUDE[sqa-73-note](../includes/sqa-73-note.md)]
-
 Sales teams often struggle to keep up with the volume of inbound leads from websites, events, and webinars, leading to missed opportunities and idle leads in CRM. Sales Qualification Agent in Dynamics 365 Sales is an agent that automate manual lead qualification. It helps you qualify leads faster and more effectively, so you can spend more time interacting with top leads. The agent doesn't replace your judgment or decision-making process.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
 
 ## Sales Qualification Agent modes
 
