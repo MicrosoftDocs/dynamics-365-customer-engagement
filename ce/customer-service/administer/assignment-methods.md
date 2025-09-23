@@ -27,9 +27,9 @@ Use assignment methods to determine how to assign work items. You can use the ou
 
 The auto assignment process in unified routing matches incoming work items with the best-suited customer service representatives (service representative or representative) based on the configured assignment rules. This continuous process consists of multiple assignment cycles.
 
-Each cycle picks up the top unassigned work items in the applicable default block size and attempts to match each work item with an appropriate representative. Work items that aren't assigned to representatives because of their unavailability or because no matching skill was found are routed back to the queue. The next assignment cycle picks up the next top-priority items that includes new work items.
+Each cycle picks up the top unassigned work items and attempts to match each work item with an appropriate representative. Work items that aren't assigned to representatives because of their unavailability or because no matching skill was found are routed back to the queue. The next assignment cycle picks up the next top-priority items that includes new work items.
 
-When eligible representatives aren't found for the work items, the assignment cycle keeps retrying to assign the top number of default sized block items as applicable for the channel.
+When eligible representatives aren't found for the work items, the assignment cycle keeps retrying to assign the top items as applicable for the channel.
 
 Learn more in [best practices to manage queues](unified-routing-best-practices.md#manage-queues).
 
