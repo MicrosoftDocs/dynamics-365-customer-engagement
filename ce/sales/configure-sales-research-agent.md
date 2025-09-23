@@ -48,7 +48,7 @@ At the environment level, administrators can [configure feedback settings](/powe
 
 These settings help organizations tailor the feedback experience to their privacy and data collection standards.
 
-### Bing Search Consent
+### Bing search consent
 
 The Sales Research Agent also honors the [Bing search consent setting](/power-platform/admin/geographical-availability-copilot?tabs=new#turn-on-data-movement-bing-search-and-microsoft-365-services-for-copilots-and-generative-ai-features). This means:
 
