@@ -38,6 +38,21 @@ A confirmation message is displayed, select **Start agent** to start the agent. 
 > [!NOTE]
 > If starting of agent fails due to unknown issues, contact Microsoft support.
 
+## Add agent-specific views to your app
+
+After you start the agent, sellers can view the list of leads being processed by the agent, leads handed over by the agent, and leads that are disqualified by the agent. The Sales Hub app includes the following agent-specific views by default:
+
+- [Leads handed over by AI Agent](use-sales-qualification-agent.md#view-leads-handed-over-by-the-agent)
+- [Leads disqualified by AI Agent](use-sales-qualification-agent.md#view-leads-disqualified-by-the-agent)
+- [Leads being processed by AI Agent](monitor-leads-by-sales-qualification-agent.md)
+
+If you don't see these views in your app, it could be because:
+
+- Your organization uses a custom app for sales.
+- You turned off **Include all views in the app** option for the **Lead** entity in Power Apps.
+
+To add the agent-specific views to your app, follow the steps in [Manage views and charts](/power-apps/maker/model-driven-apps/create-add-remove-forms-views-dashboards#manage-views-and-charts).
+
 ## Related information
 
 - [Configure the Sales Qualification Agent](configure-sales-qualification-agent.md)  
