@@ -43,7 +43,7 @@ The Sales Research Agent complies with both Copilot feedback and Bing search con
 At the environment level, administrators can [configure feedback settings](/power-platform/admin/tenant-settings) such as, whether users are allowed to submit feedback on their experience with the agent. Options include:
 
 - Disabling feedback collection entirely
-- Allowing users to provide basic feedback (e.g., thumbs up/down)
+- Allowing users to provide basic feedback such as, thumbs up or thumbs down
 - Enabling detailed feedback submissions with additional comments
 
 These settings help organizations tailor the feedback experience to their privacy and data collection standards.
