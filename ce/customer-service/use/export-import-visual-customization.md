@@ -10,9 +10,9 @@ ms.date: 09/23/2025
 ms.custom: bap-template
 ---
 
-## Export and import visual customizations of analytic reports 
+# Export and import visual customizations of analytics reports 
 
-As an administrator or a supervisor, you can export and import visual customizations of analytic reports between different organizations in Dynamics 365 Customer Service. This eliminates the need to manually recreate customizations in each organization. You can export published visual customizations from your current organization and import published visual customizations into another organization.
+As an administrator or a supervisor, you can export and import visual customizations of analytics reports between different organizations in Dynamics 365 Customer Service. This eliminates the need to manually recreate customizations in each organization. You can export published visual customizations from your current organization and import published visual customizations into another organization.
 
 You can:
 -  Move visual customizations from development to production without manual rework. 
@@ -27,7 +27,7 @@ You can:
 ## Prerequisites
 
 - You must have an administrator or supervisor role to manage analytics reports.
-- Role-based access.
+- You have the **Analytics Report Author** role. Learn more in [Assign roles to users](add-users-assign-roles.md).
 
 ### Export visual customizations
 
