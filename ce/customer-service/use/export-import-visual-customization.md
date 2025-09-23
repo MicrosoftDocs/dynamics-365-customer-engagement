@@ -12,26 +12,28 @@ ms.custom: bap-template
 
 # Export and import visual customizations of analytics reports 
 
-As an administrator or a supervisor, you can export and import visual customizations of analytics reports between different organizations in Dynamics 365 Customer Service. This eliminates the need to manually recreate customizations in each organization. You can export published visual customizations from your current organization and import published visual customizations into another organization.
+As an administrator or a supervisor, you can export and import visual customizations of analytics reports between different organizations in Dynamics 365 Customer Service. This eliminates the need to manually recreate customizations in each organization. You can export visual customizations from your current organization and import published visual customizations into another organization.
 
 You can:
--  Move visual customizations from development to production without manual rework. 
+- Move visual customizations from development to production without manual rework. 
 - Maintain version control offline.
 - Download and store report versions for audit, rollback, and historical tracking
 
 > [!NOTE]
-> - Export or import of draft customizations isn't supported.
+> - The export or import APIs support published visual customizations only. Export or import of draft customizations isn't supported.
 > - Importing an older report into a newer organization version works. Importing a newer report into an older organization version might fail.
 > - Actual Power BI files aren't directly accessible; only entity records are managed.
 
 ## Prerequisites
 
-- You must have an administrator or supervisor role to manage analytics reports.
-- You have the **Analytics Report Author** role. Learn more in [Assign roles to users](add-users-assign-roles.md).
+- You have the **Analytics Report** Author role. Users with the **System Administrator** role already have the permissions by default.
+- The target organization must enable the out-of-the-box feature. Otherwise, the import operation might fail.
+
+Ideally, the target organization should be on the same or a higher version than the source organization. This ensures that all metrics and columns used in the visual customizations exist in the target environment, allowing the imported customizations to render correctly.
 
 ### Export visual customizations
 
-You use a custom API to export the published visual customization for a specific analytics feature. 
+The Export API allows users to extract report content from a source organization.
 
 ```
 API Endpoint: 
@@ -50,7 +52,7 @@ You’ll receive a bodybinary value, which is a base 64-encoded string represent
 
 ### Import visual customizations
 
-You use a custom API to import the customization into another org. 
+The Import API enables users to apply the exported content to one or more target organizations.
 
 ```
 API Endpoint: 
