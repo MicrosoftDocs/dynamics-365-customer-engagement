@@ -428,6 +428,8 @@
             href: use-volume-forecasting.md
         - name: Customize visual display
           href: customize-reports.md
+        - name: Customize the bot dashboard
+          href: /dynamics365/contact-center/use/customize-agent-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml    
         - name: Customize data models
           items:
           - name: Overview of data model customization
@@ -440,8 +442,6 @@
             href: datamapping-realtime.md
           - name: Dataverse entities used in historical and real-time analytics
             href: dataverse-entities.md
-          - name: Customize the bot dashboard
-            href: /dynamics365/contact-center/use/customize-agent-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml    
       - name: Service scheduling
         items: 
           - name: Core Service Scheduling
