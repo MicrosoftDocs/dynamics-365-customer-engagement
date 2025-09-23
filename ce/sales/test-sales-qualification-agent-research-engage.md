@@ -1,7 +1,7 @@
 ---
 title: Test the Sales Qualification Agent
 description: Learn how to test the Sales Qualification Agent in Dynamics 365 Sales and evaluate its accuracy and performance.
-ms.date: 09/05/2025
+ms.date: 09/23/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -51,7 +51,7 @@ When you're creating test leads, ensure that you have a diverse set of leads tha
     - **Medium fit leads**: At least 3-4 leads that match between 50% and 70% of the target customer profile criteria.
     - **Low fit leads**: At least 3-4 leads that match less than 50% of the target customer profile criteria.
    > [!NOTE]
-   > In the Research and engage mode, the agent also considers BANT (Budget, Authority, Need, Timeline) criteria and purchase intent signals to prioritize leads. For testing purposes, you can try to include these signals in your lead data or provide them as part of follow-up email to the agent.
+   > In the Research and engage mode, the agent also considers BANT (Budget, Authority, Need, Timeline) criteria, if configured. For testing purposes, you can try to include these signals in your lead data or provide them as part of follow-up email to the agent.
 
   - **Note down your assessment(Optional):** In a spreadsheet, create a list of leads with the following columns and your assessment of their target customer profile fit, selection criteria match, and handoff status. This will help you validate the agent's behavior against expected outcomes:
     - Lead name
@@ -66,7 +66,6 @@ When you're creating test leads, ensure that you have a diverse set of leads tha
     - Selection criteria match (Yes/No)
     - Target customer profile fit (High/Medium/Low)
     - BANT criteria (Research and engage mode only)
-    - Purchase intent signals (Research and engage mode only)
 
 
 ## Step 1: Review leads being processed by the agent
@@ -77,7 +76,7 @@ After you start the agent, you can check if the agent picked the correct leads f
 
 1. In the Sales Hub app, go to **Leads**.
 
-1. From the views drop-down, select **Leads Engaged by AI Agent**.  
+1. From the views drop-down, select **Leads being processed by AI Agent**.  
    This list displays all leads that are being processed by the agent. This view is a point-in-time view. Leads stay in this view only while the agent is processing them. Once the agent hands off the lead to a seller or disqualifies it, the lead moves out of this view.
 
 ## Step 2: Validate research insights
@@ -122,7 +121,7 @@ After you start the agent, you can check if the agent picked the correct leads f
 This section is applicable only for **Research and engage** mode. 
 
 > [!NOTE]
-> In **Research-only** mode, the agent hands off the lead to a seller after the research is completed and outreach email is drafted.
+> In **Research-only** mode, the agent hands off the lead to a seller after the research is completed and outreach email is drafted, irrespective of its ICP fit. 
 
 **Objective**: Confirm that the agent responds correctly to customers’ queries based on available knowledge sources and is able to hand off leads to sellers or disqualify leads as per the defined criteria.
 
