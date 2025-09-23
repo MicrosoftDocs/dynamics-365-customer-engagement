@@ -38,7 +38,7 @@ Alternatively, you can create a group team in Power Platform Admin Center, add u
 
 The Sales Research Agent complies with both Copilot feedback and Bing search consent settings configured in the Power Platform Admin Center. These controls ensure that organizations can manage user interactions and data usage in alignment with their compliance and governance policies.
 
-### Feedback Consent
+### Feedback consent
 
 At the environment level, administrators can [configure feedback settings](/power-platform/admin/tenant-settings) such as, whether users are allowed to submit feedback on their experience with the agent. Options include:
 
