@@ -1,7 +1,7 @@
 ---
-title: Add timer in forms to track time against enhanced SLAs (Dynamics 365 Customer Service)
+title: Add timer in forms to track time against enhanced SLAs
 description: Learn the procedure to add a timer in forms to track time against enhanced SLAs in Dynamics 365 Customer Service.
-ms.date: 04/30/2025
+ms.date: 09/22/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -17,8 +17,8 @@ ms.custom:
 # Add a timer in forms to track time against enhanced SLAs
 
 > [!NOTE]
-> - Enhanced SLAs have been deprecated and replaced with Unified Interface SLAs. Learn more in [SLAs in web client are deprecated](../implement/deprecations-customer-service.md#slas-in-web-client-are-deprecated).
-> - For more information about adding a timer control to Unified Interface SLA-enabled entities, go to [Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities).
+> - Enhanced SLAs in the web client are deprecated and replaced with Unified Interface SLAs. Learn more in [SLAs in web client are deprecated](../implement/deprecations-customer-service.md#slas-in-web-client-are-deprecated).
+> - Learn more about adding a timer control to Unified Interface SLA-enabled entities in [Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities).
 
 A timer helps users gauge the amount of time they have to complete a key performance indicator (KPI) that is typically associated with a service level agreement (SLA). If your organization uses enhanced SLAs, you must use quick view forms to add a timer to track time against such SLAs.  
   
@@ -34,7 +34,7 @@ A timer helps users gauge the amount of time they have to complete a key perform
   
 -   If the user doesn’t complete the task within the remaining time, the control shows the word **Expired**.  
   
--   As the timer counts down, the color changes to yellow as the time remaining nears non-compliance. If the time remaining expires, the timer shows the word **Expired**. Then the timer color changes to red and the timer starts counting up to show the elapsed time since the task should have completed.  
+-   As the timer counts down, the color changes to yellow as the time remaining nears noncompliance. If the time remaining expires, the timer shows the word **Expired**. The timer color changes to red, and the timer starts counting up to show how much time has passed since the task was supposed to be completed.  
   
 -   If a condition causes the SLA KPI to pause, the control shows the word **Paused**.  
   
@@ -74,9 +74,9 @@ To add a timer for an enhanced SLA to an entity form, that entity must be enable
   
 1. Under **Components**, expand **Entities**, and then expand the entity you want.  
   
-1. Click **Fields**.  
+1. Select **Fields**.  
   
-1. On the Actions toolbar, click **New**, and then enter a **Display Name** to generate the **Name**.  
+1. On the Actions toolbar, select **New**, and then enter a **Display Name** to generate the **Name**.  
   
 1. In the **Data Type** drop-down list, select **Lookup**.  
   
@@ -84,7 +84,7 @@ To add a timer for an enhanced SLA to an entity form, that entity must be enable
   
     If you create a lookup field in an entity form, the relationship is automatically generated. A lookup field is created as a relationship field.  
   
-1. Click **Save and Close** to close the form editor.  
+1. Select **Save and Close** to close the form editor.  
   
 1. Publish your customization.  
   
@@ -94,7 +94,7 @@ To add a timer for an enhanced SLA to an entity form, that entity must be enable
   
 ## Create quick view forms for the SLA KPI Instance entity
 
- Quick view forms help you show data of a related entity in the primary entity form. For enhanced SLAs, all the SLA-related states and times are stored in the SLA KPI instance entity. To show this data in the primary entity like a lead or an opportunity form, you must create a quick view form for each SLA KPI field that you created for the primary entity. Add a timer to the quick view form so it shows the count down for the SLA.  
+ Quick view forms help you show data of a related entity in the primary entity form. For enhanced SLAs, all the SLA-related states and times are stored in the SLA KPI instance entity. To show this data in the primary entity like a lead or an opportunity form, you must create a quick view form for each SLA KPI field that you created for the primary entity. Add a timer to the quick view form so it shows the count down for the SLA. Learn more in [Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities).
   
 #### Create a quick view form  
   
@@ -106,11 +106,11 @@ To add a timer for an enhanced SLA to an entity form, that entity must be enable
   
 1. Select **New** > **Quick View Form** from the tool bar.  
   
-1. In the **Form** group, click **Form Properties**, and then specify a form name.  
+1. In the **Form** group, select **Form Properties**, and then specify a form name.  
   
-1. Double-click the section, type a meaningful name for the section, and then click **OK**.  
+1. Double-click the section, type a meaningful name for the section, and then select **OK**.  
   
-1. Select the section, and on the **Insert** tab, click **Timer**.  
+1. Select the section, and on the **Insert** tab, select **Timer**.  
   
 1. Specify a name and label for the timer, and the data source for the failure time.  
   
@@ -123,11 +123,11 @@ To add a timer for an enhanced SLA to an entity form, that entity must be enable
   
 1. When you're finished, select **OK**.  
   
-1. Publish the customizations .  
+1. Publish the customizations.  
   
 ## Create an SLA
 
-Create an SLA for the entity you want to track. For example, you may want to track the time taken by sales person to take action on a lead, like qualifying or disqualifying a lead. For this tracking, create an SLA for the lead entity. For more information on creating an SLA, go to [Define service level agreements](define-service-level-agreements.md)  
+Create an SLA for the entity you want to track. For example, you might want to track the time taken by sales person to take action on a lead, like qualifying or disqualifying a lead. For this tracking, create an SLA for the lead entity. Learn more about creating an SLA in [Define service level agreements](define-service-level-agreements.md)  
   
 ## Add the quick view form to the primary entity form to show the timer
 
@@ -162,11 +162,12 @@ Create an SLA for the entity you want to track. For example, you may want to tra
   
 1. In the **Quick View Form** drop-down list, select the quick view form you created in the SLA KPI Instance entity.  
   
-1. Select **OK** to close the **Quick View Control Properties** dialog box.  
+1. To close the **Quick View Control Properties** dialog box, select **OK**.  
   
     You must save and publish the Main form before the quick view control changes are visible.  
   
-### Related information  
+### Related information 
+
  [Add a timer control to the Case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md)   
 
 
