@@ -31,7 +31,7 @@ You can:
 
 Ideally, the target organization should be on the same or a higher version than the source organization. This ensures that all metrics and columns used in the visual customizations exist in the target environment, allowing the imported customizations to render correctly.
 
-### Export visual customizations
+## Export visual customizations
 
 The Export API allows users to extract report content from a source organization.
 
@@ -50,7 +50,7 @@ Payload Example:
 **Response**: 
 You’ll receive a bodybinary value, which is a base 64-encoded string representing the report.
 
-### Import visual customizations
+## Import visual customizations
 
 The Import API enables users to apply the exported content to one or more target organizations.
 
