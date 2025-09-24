@@ -37,7 +37,7 @@ In Copilot Service workspace, as a supervisor, you can view the agent activities
    - Expand **To do** to see if you need to manually complete an action.
    - Expand **Other** to view the action types, such as send email, enrich case, and act on a customer issue.
    - Select an action to view details such as follows:
-       - An AI-generated summary: Provides a quick overview of what's completed by the agent. You can also view the sequence of steps, such as whether agent has created a case or sent a follow-up email.
+       - An AI-generated summary: Provides a quick overview of what's completed by the agent. You can also view the sequence of steps, such as whether agent has created a case and sent a follow-up email.
        - Conversation ID: The conversation linked to the case.
 
    Details like whether the agent was able to resolve the case, the topics it used to act on the customer issue, and interactions with a record are displayed in the feed.
