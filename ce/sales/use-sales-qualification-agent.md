@@ -80,6 +80,9 @@ If you're a seller, you get notified when a lead is handed over to you. If you m
 
 If you're a supervisor, you get notified when a lead is disqualified by the agent. Learn more in [View leads disqualified by the agent](#view-leads-disqualified-by-the-agent) and [Monitor leads handled by the Sales Qualification Agent (preview)](monitor-leads-by-sales-qualification-agent.md).
 
+> [!NOTE]
+> If you don't see the views mentioned in this section, contact your admin to [add agent-specific views to your app](start-sales-qualification-agent.md#add-agent-specific-views-to-your-app).
+
 1. In the Sales Hub app, go to **Leads**.
 
 1. From the views drop-down, select **Leads handed over by AI Agent**.
