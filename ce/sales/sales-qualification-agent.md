@@ -1,7 +1,7 @@
 ---
 title: Sales Qualification Agent overview (preview)
 description: Discover how Sales Qualification Agent in Dynamics 365 Sales automates lead research and engagement to help your team focus on high-potential opportunities.
-ms.date: 09/23/2025
+ms.date: 09/24/2025
 ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
