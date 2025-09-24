@@ -329,7 +329,11 @@
         - name: Chat with case data in Customer Service (preview)
           href: /dynamics365/contact-center/use/copilot-chat-customer-service-data?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
       - name: Analytics dashboards and insights
-        items: 
+        items:
+        - name: Supervise AI agents (preview)
+          items:
+          - name: Supervise autonomous agents using agent feed
+            href: supervise-ai-agents.md
         - name: Use Omnichannel real-time analytics dashboards
           items:
           - name: Overview of Omnichannel real-time analytics reports
