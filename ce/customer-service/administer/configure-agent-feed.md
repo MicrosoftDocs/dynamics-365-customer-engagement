@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The agent activity monitoring experience in your contact center allows supervisors to observe AI agents interactions with customers when needed, enabling them to improve AI agents and better serve customers.
+The agent activity monitoring experience in your contact center allows supervisors to observe AI agents interactions with customers. A granular view of the activities enables the supervisors to identify issues and improve AI agents performance to better serve customers.
 
 In the preview release, Case Management Agent only is supported. You can also enable any custom generative AI agents.
 
