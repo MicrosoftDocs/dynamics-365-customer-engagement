@@ -26,7 +26,7 @@ ai-usage: ai-assisted
 > - Ensure the agent is properly configured to avoid editing configurations after starting. Editing the agent changes how leads are processed before and after the change, giving different results.
 > - Ensure that terms are accepted for Bing Search and Move data across regions in Power Platform admin center.
 
-The **Start agent** option is enabled only after you  following steps are completed:
+The **Start agent** option is enabled only after following steps are completed:
 
 - All the sections in the agent configuration page are completed and marked with a green check mark as shown in the following image. 
 - Outreach email simulation is completed (applicable only for **Research and engage** mode).
