@@ -72,7 +72,7 @@ The usage of the Sales Qualification Agent depends on your role in the sales pro
 
 | User role | Reference |
 |-----------|-----------|
-| Administrator | [Set up and configure Sales Qualification Agent](configure-sales-qualification-agent.md)<br>[Test the Sales Qualification Agent](test-sales-qualification-agent.md) |
+| Administrator | [Set up and configure Sales Qualification Agent](configure-sales-qualification-agent.md)<br>[Test the Sales Qualification Agent](test-sales-qualification-agent-research-engage.md) |
 | Seller | [Work on leads handed over by the Sales Qualification Agent](use-sales-qualification-agent.md) |
 | Supervisor | [Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md)|
 
