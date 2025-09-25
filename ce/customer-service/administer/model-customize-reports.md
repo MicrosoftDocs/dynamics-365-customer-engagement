@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 09/12/2025
+ms.date: 09/25/2025
 ms.custom:
   - bap-template
   - dyn365-customerservice
@@ -50,8 +50,12 @@ Enable data model customization for historical and real-time analytics reports i
 
 Before you begin, you must complete the following prerequisites:
 
-- Specific licensing requirements apply for all report users to access the reports. Learn more at [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718) and [Microsoft Fabric Pricing](https://azure.microsoft.com/pricing/details/microsoft-fabric/).
-- Specific licensing requirements apply for report authors, developers, and administrators to build Power BI reports and extend the out-of-the-box Power BI data model. Learn more at [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718) and [Power Platform Pricing](https://go.microsoft.com/fwlink/?linkid=2309616).
+- Specific licensing requirements apply:
+
+    - For all report users to access the reports.
+    - For report authors, developers, and administrators to build Power BI reports and extend the out-of-the-box Power BI data model. 
+    
+    Learn more at [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718) and [Power Platform Pricing](https://go.microsoft.com/fwlink/?linkid=2309616).
 
 - Enable insights features in Customer Service:
 
