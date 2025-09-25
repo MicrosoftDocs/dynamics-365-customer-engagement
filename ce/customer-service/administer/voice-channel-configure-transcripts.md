@@ -41,6 +41,11 @@ For call recording to work as expected, allow the audio and mpeg MIME type for y
 
 1. Under **Start setting**, set the toggle to **Automatic** if you want calls to be automatically recorded and transcribed when they begin, or **Manual** if you want representatives to record and transcribe their calls.
 
+  > [!NOTE]
+  > When the **Start setting** is set to **Manual**, the recording button appears as Resume recording and transcript by default in Copilot Service workspace. This is standard behavior and doesn’t mean the recording was previously started and paused.   
+
+      :::image type="content" source="../media/transcription-setting-manual-mini.png" alt-text="Screenshot of manual option for transcription and recording." lightbox="../media/transcription-setting-manual.png":::
+
 1. Set **Allow agents to pause and resume** toggle to **Yes** if you want to allow representatives to control the portions of conversations that they record and transcribe.
 
 1. Set **Allow automatic pause and resume when agent hold and un-hold the customer** toggle to **Yes** if recording and transcription must be paused when the representative puts the customer on hold and resumed when the representative takes the customer off hold.
