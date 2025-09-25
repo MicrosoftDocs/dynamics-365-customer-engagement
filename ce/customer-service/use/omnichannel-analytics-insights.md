@@ -35,7 +35,7 @@ The following reports are available for Omnichannel historical analytics.
 
 ### Summary
 
-The Summary dashboard gives you an integrated view of the Copilot agent and Omnichannel metrics. Learn more in the [Conversation dashboard](omnichannel-summary-dashboard.md).
+The Summary dashboard gives you an integrated view of the Copilot agent and Omnichannel metrics. Learn more in the [Summary dashboard](omnichannel-summary-dashboard.md).
 
 ### Conversation
 

@@ -1,11 +1,11 @@
 ---
 title: Use best practices to set up unified routing in Customer Service
-description: Use this article to learn about the best practices to set up unified routing in Customer Service and what to do for a successful implementation.
+description: Use this article to learn about the best practices to set up unified routing in Customer Service and Dynamics 365 Contact Center and what to do for a successful implementation.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 01/28/2025
+ms.date: 09/16/2025
 ms.custom: bap-template
 ---
 
@@ -19,7 +19,7 @@ This article discusses some of the important aspects to successfully deploy and 
 
 ### Verify service limits and default quotas
 
-Dynamics 365 Customer Service relies on shared cloud resources for data and processing. You must check the service limits and default quotas for the resources before you provision unified routing. If you need a higher limit on a measure that's indicated as adjustable, contact Microsoft Support to check whether the limit can be increased. More information: [Service quotas](../implement/service-quotas.md)
+Dynamics 365 Customer Service relies on shared cloud resources for data and processing. You must check the service limits and default quotas for the resources before you provision unified routing. If you need a higher limit on an adjustable measure, contact Microsoft Support to check whether the limit can be increased. More information: [Service quotas](../implement/service-quotas.md)
 
 ## Manage users
 
@@ -47,7 +47,7 @@ Customer Service lets you make API calls to set up users in bulk. A single chang
 
 We recommend that you make 500 change requests every 15 minutes for the system to process the changes optimally without getting throttled. Beyond this recommended rate for bulk updates, you might notice inconsistencies in user data, such as skills not updated as expected, after the update is over.
 
-For example, let's say you manage a contact center that has 1,000 customer service representative (service representative or representative) working in it, and you need to set up each representative by assigning two skills, one capacity profile, and one role. The total number of requests to configure these settings is 4,000.
+For example, in a contact center with 1,000 customer service representative (service representative or representative), you need to set up each representative with two skills, one capacity profile, and one role. The total number of requests to configure these settings is 4,000.
 
 Based on our recommendation of 500 requests per 15 minutes, make these requests in eight batches as follows:
 
@@ -76,6 +76,7 @@ You can choose the following relevant entities for representative status and sta
 ### Use representative attributes to optimize workload
 
 To set up your service representatives for success:
+
 - Make sure that the default presence status is set up for them when they start their work day, helping to manage their availability and workload effectively. Learn more in [Create and manage users and user profiles](users-user-profiles.md).
 - If no default presence is set, the system automatically sets the presence to **Available** when they sign in.
 - Make sure that the representatives and supervisors don't manually change the presence status so that the assignment cycles run uninterrupted.
@@ -87,7 +88,7 @@ To set up your service representatives for success:
 - Use skill-based routing to distribute work items to the most qualified service representatives.
 - Set up single or multiple queues with skill-matching to manage different types of work.
 
-### Use classification rules for enhanced assignment performance 
+### Use classification rules for enhanced assignment performance
 
 Complex rules and conditions in prioritization rulesets add latency to the prioritization and assignment cycles. These assignment cycles are iterative and run until the system finds a service representative and assigns the work item. To simplify manageability and reduce assignment latency, we recommend that you use the classification rules in the workstream to check for static values and categorize the conversation. For example, checks on whether the conversation is from a VIP customer or an urgent query that requires immediate attention, can be evaluated only once during classification. By setting an attribute in the classification rule, you can use it downstream in route-to-queue and prioritization rules.
 
@@ -99,9 +100,6 @@ If you have a scenario in which representatives aren't available to be assigned 
 
 - To minimize the wait time, use features like overflow management to manage high load or custom assignment rules to gradually relax rules to expand the eligible representatives pool.
 - Review representative availability and schedules to evaluate staffing more representatives.
-- If there are items lower in priority that might have eligible representatives, then contact Microsoft Support with your business scenario to determine if the block size can be increased.  
-  > [!NOTE]
-  > A block size that's larger than the default one might affect performance and accuracy of prioritization. Therefore, we recommend that you share your business scenario with the queue backlog and queue staffing projections to help Microsoft Support recommend the most optimized block size for your use case.
 
 ### Use skill-based routing to distribute work items to the most qualified representatives
 

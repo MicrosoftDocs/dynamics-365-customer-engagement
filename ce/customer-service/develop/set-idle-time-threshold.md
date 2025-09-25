@@ -1,6 +1,6 @@
 ---
 title: Set idle time threshold
-description: Learn how to set the idle time threshold.
+description: Learn how to set the idle time threshold for your service representative in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
 ms.date: 06/11/2025
 ms.topic: reference
 author: neeranelli
@@ -10,9 +10,7 @@ ms.reviewer: nenellim
 
 # Set the idle time threshold for average handle time
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-You can configure the idle time threshold to pause the handle time computation of an agent for an ongoing session when the agent is idle. More information: [Average handle time](../implement/intraday-insights-dashboard.md#average-handle-time).
+You can configure the idle time threshold to pause the handle time computation of a customer service representative (service representative or representative) for an ongoing session when the representative is idle. Learn more in [Average handle time](../implement/intraday-insights-dashboard.md#average-handle-time).
 
 ## How to set the idle time threshold
 

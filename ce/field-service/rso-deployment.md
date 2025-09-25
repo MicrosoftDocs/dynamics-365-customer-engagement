@@ -1,12 +1,12 @@
 ---
 title: Deploy the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service
 description: Learn how to deploy and manage the deployment for  the Resource Scheduling Optimization add-in for Dynamics 365 Field Service.
-ms.date: 01/24/2025
+ms.date: 09/09/2025
 ms.topic: how-to
 ms.custom: bap-template
 ms.subservice: resource-scheduling-optimization
-author: AnilMur
-ms.author: anilmur
+author: andrewclear-ms
+ms.author: anclear
 ---
 
 # Deploy the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service
@@ -17,40 +17,32 @@ You can deploy multiple instances of the Resource Scheduling Optimization add-in
 
 ## Deployment steps
 
-1. Verify Field Service is installed in your environment. The Field Service app appears in the Dynamics 365 main menu when logged in as a system administrator.
+1. Verify Field Service is installed in your environment. The Field Service app appears in the Dynamics 365 apps menu when logged in as a system administrator.
 
-   :::image type="content" source="media/field-service-navigation.png" alt-text="Screenshot of Field Service in navigation.":::
-
-1. Go to the Power Platform admin center: [https://admin.powerplatform.microsoft.com/](https://admin.powerplatform.microsoft.com/). In the left pane, select **Resources** > **Dynamics 365 apps**.
+1. Go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). In the left pane, select **Manage** > **Products - Dynamics 365 apps**.
 
 1. Scroll through the list of apps or use the search field in the Power Platform admin center to find **Resource Scheduling Optimization** and select **Manage**.
 
-   :::image type="content" source="media/rso-upgrade-manage-powerapps-admin.png" alt-text="Screenshot of the Dynamics 365 admin center.":::
-
-1. Select the organization where the Resource Scheduling Optimization solution will be installed, review the Terms of Service and select the agreement box, and then select **Deploy** to start the Resource Scheduling Optimization deployment.
+1. Select the organization where you want to install the Resource Scheduling Optimization solution, review the Terms of Service, select the agreement box, and then select **Deploy** to start the Resource Scheduling Optimization deployment.
 
    > [!NOTE]
    > It may take several hours between the time the subscription appears in Microsoft 365 Admin Center and Power Platform Admin Center.
-
-   :::image type="content" source="media/rso-instance.png" alt-text="Screenshot of the Deploy Resource Scheduling Optimization instance page.":::
 
 ## Manage the Resource Scheduling Optimization instance
 
 After the initial deployment, you can manage the deployed instance.
 
-1. Go to the Power Platform admin center: [https://admin.powerplatform.microsoft.com/](https://admin.powerplatform.microsoft.com/). In the left pane, select **Resources** > **Dynamics 365 apps**.
+1. Go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). In the left pane, select **Resources** > **Dynamics 365 apps**.
 
 1. Find Resource Scheduling Optimization and select **Manage**.
-
-   :::image type="content" source="media/rso-upgrade-manage-powerapps-admin.png" alt-text="Screenshot of Resource Scheduling Optimization in Power Platform admin center.":::
 
 1. Choose one of the following options:
 
    - Select **Upgrade to new version** to get the latest version. This option only shows if a newer version is available.
 
-   - Select **Change Organization** to change the Resource Scheduling Optimization deployment from a Dynamics 365 organization to another. This action will not delete data inside of the original Dynamics 365 organization and you can always change it back.
+   - Select **Change Organization** to switch the Resource Scheduling Optimization deployment from one Dynamics 365 organization to another. This action doesn't delete data in the original Dynamics 365 organization, and you can always switch back.
 
-   - Select **Delete current deployment** to delete Resource Scheduling Optimization Azure resources. The Resource Scheduling Optimization solution will remain, which will not impact anything inside of the Dynamics 365 organization.
+   - Select **Delete current deployment** to delete Resource Scheduling Optimization Azure resources. The Resource Scheduling Optimization solution remains, so nothing inside the Dynamics 365 organization is affected.
 
 ### Bulk deletion jobs
 
