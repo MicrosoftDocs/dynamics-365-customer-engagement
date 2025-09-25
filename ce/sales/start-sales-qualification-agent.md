@@ -2,7 +2,7 @@
 title: Start the Sales Qualification Agent
 description: Learn how to start the sales qualification settings in Dynamics 365 Sales.
 ms.topic: how-to 
-ms.date: 09/19/2025
+ms.date: 09/25/2025
 ms.service: dynamics-365-sales
 content_well_notification:
   - AI-contribution
@@ -42,8 +42,9 @@ A confirmation message is displayed, select **Start agent** to start the agent. 
 
 After you start the agent, sellers can view the list of leads being processed by the agent, leads handed over by the agent, and leads that are disqualified by the agent. The Sales Hub app includes the following agent-specific views by default:
 
-- [Leads handed over by AI Agent](use-sales-qualification-agent.md#view-leads-handed-over-by-the-agent)
+- [Leads from AI Agent](use-sales-qualification-agent.md#view-leads-handed-over-by-the-agent)
 - [Leads disqualified by AI Agent](use-sales-qualification-agent.md#view-leads-disqualified-by-the-agent)
+- [Leads handed over by AI Agent](monitor-leads-by-sales-qualification-agent.md)
 - [Leads being processed by AI Agent](monitor-leads-by-sales-qualification-agent.md)
 
 If you don't see these views in your app, it could be because:
