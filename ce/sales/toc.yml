@@ -136,7 +136,7 @@ items:
         href: admin-guide.yml
       - name: Access admin settings
         href: admin-settings-overview.md
-      - name: Autonomous AI agents
+      - name: AI agents
         items:
           - name: Sales Qualification Agent
             items:
@@ -189,6 +189,12 @@ items:
                 href: opportunity-research-agent.md
               - name: Configure Opportunity Research Agent
                 href: configure-opportunity-research-agent.md
+          - name: Sales research Agent (preview)
+            items:
+              - name: Overview
+                href: sales-research-agent.md
+              - name: Set up and configure Sales Research Agent
+                href: configure-sales-research-agent.md
           - name: Copilot Studio agents and Entra app registrations
             href: ai-agents-apps.md
       - name: Copilot in Dynamics 365 Sales
@@ -780,26 +786,38 @@ items:
     items:
       - name: Help resources for sellers
         href: user-guide.yml
-      - name: Autonomous AI agents
+      - name: AI agents
         items:
-          - name: Sales Qualification Agent (preview)
-            items:
-              - name: Overview
-                href: sales-qualification-agent.md
-              - name: Work on leads handed over by the Sales Qualification Agent
-                href: use-sales-qualification-agent.md
-              - name: Monitor leads handled by the Sales Qualification Agent
-                href: monitor-leads-by-sales-qualification-agent.md
-              - name: FAQ about Sales Qualification Agent
-                href: sales-qualification-agent-faq.md
-          - name: Opportunity Research Agent (preview)
-            items:
-              - name: Overview
-                href: opportunity-research-agent.md
-              - name: Work on opportunities researched by Opportunity Research Agent
-                href: use-opportunity-research-agent.md
-              - name: FAQs about Opportunity Research Agent
-                href: opportunity-research-agent-faqs.md
+        - name: Sales Qualification Agent (preview)
+          items:
+            - name: Overview
+              href: sales-qualification-agent.md
+            - name: Work on leads handed over by the Sales Qualification Agent
+              href: use-sales-qualification-agent.md
+            - name: Monitor leads handled by the Sales Qualification Agent
+              href: monitor-leads-by-sales-qualification-agent.md
+            - name: FAQ about Sales Qualification Agent
+              href: sales-qualification-agent-faq.md
+        - name: Opportunity Research Agent (preview)
+          items:
+            - name: Overview
+              href: opportunity-research-agent.md
+            - name: Work on opportunities researched by Opportunity Research Agent
+              href: use-opportunity-research-agent.md
+            - name: FAQs about Opportunity Research Agent
+              href: opportunity-research-agent-faqs.md
+        - name: Sales Research Agent (preview)
+          items:
+            - name: Overview
+              href: sales-research-agent.md
+            - name: Work on accounts researched by Sales Research Agent
+              href: use-sales-research-agent.md
+            - name: Connect the agent to different data sources
+              href: sales-research-agent-connect-data.md
+            - name: Provide context to the agent
+              href: sales-research-agent-provide-context.md
+            - name: FAQs about Sales Research Agent
+              href: faqs-sales-research-agent.md
       - name: Use Copilot in Dynamics 365 Sales
         items:
           - name: Copilot overview
@@ -1407,11 +1425,11 @@ items:
     items:
       - name: Overview
         href: responsible-ai-overview.md
-      - name: Responsible AI FAQs for summarization in Copilot
+      - name: Responsible AI FAQs about summarization in Copilot
         href: faqs-sales-copilot-for-summarization.md
-      - name: Responsible AI FAQs for natural language chat in Copilot
+      - name: Responsible AI FAQs about natural language chat in Copilot
         href: faqs-sales-copilot-natural-language.md
-      - name: Responsible AI FAQs for email in Copilot
+      - name: Responsible AI FAQs about email in Copilot
         href: faqs-sales-copilot-for-email.md
       - name: Responsible AI FAQs about Sales Qualification Agent (preview)
         items:
@@ -1419,9 +1437,11 @@ items:
             href: faqs-sales-qualification-agent.md
           - name: Responsible AI FAQs about Engage mode
             href: faqs-sales-qualification-agent-engage.md
-      - name: Responsible AI FAQs for Opportunity Research Agent (preview)
+      - name: Responsible AI FAQs about Opportunity Research Agent (preview)
         href: faqs-about-opportunity-research.md
-      - name: Responsible AI FAQs for chat with Sales data in Microsoft 365 Copilot (preview)
+      - name: Responsible AI FAQs about Sales Research Agent
+        href: faqs-about-sales-research-agent.md
+      - name: Responsible AI FAQs about chat with Sales data in Microsoft 365 Copilot (preview)
         href: Microsoft-365-Copilot-for-Sales.md
   - name: Resources for other Sales apps
     items:
