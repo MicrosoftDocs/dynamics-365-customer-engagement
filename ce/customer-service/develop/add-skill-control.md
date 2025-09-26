@@ -37,7 +37,7 @@ In the following example, to add a skill control named **Skills** to the **Case 
 1. Select the section and in the right pane, enter the properties, such as the label.
 1. Expand **Components**, and select **Component**.
 1. In **Add component**, select **Get more components.** 
-1. Search **CC_OCRoutedEtnRelatedRecordsControl**, select **Components** and then select **Add**. The component is added to the list.
+1. Search for **CC_OCRoutedEtnRelatedRecordsControl**, select **Components**, and then select **Add**. The component is added to the list.
 1. Select the component again.
 1. To filter the skills based on the selected queue, on the **Add CC_OCRoutedEtnRelatedRecordsControl** pane, in the Static value field for **CC_FetchXML** or **CC_skillFilter_FetchXml**, enter a fetch XML that you defined to curate the relevant set of skills that match the queue requirements. You can use the [Sample Fetch XML](#sample-fetch-xml) listed in this article.
 
