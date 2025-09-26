@@ -238,8 +238,8 @@ The following table summarizes the entities and corresponding FetchXML samples.
 |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
 |---------|---------|---------|
 | Queue (queue) | <ul><li>Assignment Input Contract Id (msdyn_assignmentinputcontractid)</li><li>Assignment Strategy (msdyn_assignmentstrategy)</li><li>Description (description)</li><li>Is Default Queue (msdyn_isdefaultqueue)</li><li>Is Omnichannel Queue (msdyn_isomnichannelqueue)</li><li>Name (name)</li><li>Priority (msdyn_priority)</li><li>Queue (queueid)</li><li>Queue type (msdyn_queuetype)</li><li>Type (queueviewtype)</li><li>Operating Hours (msdyn_operatinghourid)</li><li>Prequeue Overflow Ruleset (msdyn_prequeueoverflowrulesetid)</li></ul> | [**Sample 1: All queues for records**](#BKMK1all-ur-qs) <br><br> [**Sample 2: Single queue for records**](#BKMK2single-ur-qs) <br><br> [**Sample 3: Multiple queues for records**](#BKMK3multiple-ur-qs)  |
-| Decision contract (msdyn_decisioncontract) | <ul><li>Contract Definition (msdyn_contractdefinition)</li><li>Decision contract (msdyn_decisioncontractid)</li><li>Name (msdyn_name)</li><li>Unique name (msdyn_uniquename)</li></ul> | [**Sample 1: Decision contract for all record queues with pre-queue overflow defined**](#BKMK1-po-contract) <br><br>[**Sample 2: Decision contract for a single record queue with pre-queue overflow defined**](#BKMK2-po-contract) <br><br>[**Sample 3: Decision contract for multiple record queues with pre-queue overflow defined**](#BKMK3-po-contract) |
-| Decision ruleset with selection criteria (msdyn_decisionruleset) | <ul><li>AI Builder Model (msdyn_aibmodelid)</li><li>Authoring Mode (msdyn_authoringmode)</li><li>Decision rule Set (msdyn_decisionrulesetid)</li><li>Description (msdyn_description)</li><li>Input Contract (msdyn_inputcontractid)</li><li>Is input Collection (msdyn_isinputcollection)</li><li>ML model type (msdyn_mlmodeltype)</li><li>Name (msdyn_name)</li><li>Output contract (msdyn_outputcontractid)</li><li>Rule set definition (msdyn_rulesetdefinition)</li><li>Rule set type (msdyn_rulesettype)</li><li>Unique name (msdyn_uniquename)</li></ul> | [**Sample 1: Decision ruleset for all record queues with pre-queue overflow defined**](#BKMK1-po-ruleset) <br><br>[**Sample 2: Decision ruleset for a single record queue with pre-queue overflow defined**](#BKMK2-po-ruleset) <br><br>[**Sample 3: Decision ruleset for multiple record queues with pre-queue overflow defined**](#BKMK3-po-ruleset) |
+| Decision contract (msdyn_decisioncontract) | <ul><li>Contract Definition (msdyn_contractdefinition)</li><li>Decision contract (msdyn_decisioncontractid)</li><li>Name (msdyn_name)</li><li>Unique name (msdyn_uniquename)</li></ul> | [**Sample 1: Decision contract for all record queues with prequeue overflow defined**](#BKMK1-po-contract) <br><br>[**Sample 2: Decision contract for a single record queue with prequeue overflow defined**](#BKMK2-po-contract) <br><br>[**Sample 3: Decision contract for multiple record queues with prequeue overflow defined**](#BKMK3-po-contract) |
+| Decision ruleset with selection criteria (msdyn_decisionruleset) | <ul><li>AI Builder Model (msdyn_aibmodelid)</li><li>Authoring Mode (msdyn_authoringmode)</li><li>Decision rule Set (msdyn_decisionrulesetid)</li><li>Description (msdyn_description)</li><li>Input Contract (msdyn_inputcontractid)</li><li>Is input Collection (msdyn_isinputcollection)</li><li>ML model type (msdyn_mlmodeltype)</li><li>Name (msdyn_name)</li><li>Output contract (msdyn_outputcontractid)</li><li>Rule set definition (msdyn_rulesetdefinition)</li><li>Rule set type (msdyn_rulesettype)</li><li>Unique name (msdyn_uniquename)</li></ul> | [**Sample 1: Decision ruleset for all record queues with prequeue overflow defined**](#BKMK1-po-ruleset) <br><br>[**Sample 2: Decision ruleset for a single record queue with prequeue overflow defined**](#BKMK2-po-ruleset) <br><br>[**Sample 3: Decision ruleset for multiple record queues with prequeue overflow defined**](#BKMK3-po-ruleset) |
 
 Perform the following steps to export and import the prequeue rulesets:
 
@@ -817,35 +817,35 @@ XMLCopy
 
 ### FetchXML for decision contract for queues
 
-**Sample 1: Decision contracts for all record queues with pre-queue overflow defined**<a name="BKMK1-po-contract"></a>
+**Sample 1: Decision contracts for all record queues with prequeue overflow defined**<a name="BKMK1-po-contract"></a>
 
 ```xml
 XMLCopy
 <fetch distinct="true">
-  <entity name="msdyn_decisioncontract">
-    <filter type="or">
-      <filter type="and">
-        <condition attribute="msdyn_queuetype" entityname="bb" operator="eq" value="192350001"/>
-        <condition attribute="msdyn_isomnichannelqueue" entityname="bb" operator="eq" value="1"/>
-        <condition attribute="queueid" entityname="bb" operator="eq" uiname="Default entity queue" uitype="queue" value="{85e55877-f27a-e911-a81a-000d3a1ca610}"/>
-      </filter>
-      <filter type="and">
-        <condition attribute="msdyn_isomnichannelqueue" entityname="be" operator="eq" value="1"/>
-        <condition attribute="msdyn_queuetype" entityname="be" operator="eq" value="192350001"/>
-        <condition entityname="be" attribute="queueid" operator="ne" value="{85e55877-f27a-e911-a81a-000d3a1ca610}"/>
-      </filter>
-    </filter>
-    <link-entity name="msdyn_decisionruleset" from="msdyn_inputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="input">
-      <link-entity name="queue" from="msdyn_prequeueoverflowrulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bb"/>
-    </link-entity>
-    <link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="output">
-      <link-entity name="queue" from="msdyn_prequeueoverflowrulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="be"/>
-    </link-entity>
-  </entity>
-</fetch> 
+   <entity name="msdyn_decisioncontract">
+       <filter type="or">
+           <filter type="and">
+               <condition attribute="msdyn_queuetype" entityname="bb" operator="eq" value="192350001"/>
+               <condition attribute="msdyn_isomnichannelqueue" entityname="bb" operator="eq" value="1"/>
+               <condition attribute="queueid" entityname="bb" operator="ne" uiname="Default entity queue" uitype="queue" value="{5a4b76b0-dab5-4717-9743-9490f2f822c6}"/>
+           </filter>
+           <filter type="and">
+               <condition attribute="msdyn_isomnichannelqueue" entityname="be" operator="eq" value="1"/>
+               <condition attribute="msdyn_queuetype" entityname="be" operator="eq" value="192350001"/>
+               <condition entityname="be" attribute="queueid" operator="ne" value="{5a4b76b0-dab5-4717-9743-9490f2f822c6}"/>
+           </filter>
+       </filter>
+       <link-entity name="msdyn_decisionruleset" from="msdyn_inputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="input">
+           <link-entity name="queue" from="msdyn_prequeueoverflowrulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bb"/>
+       </link-entity>
+       <link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="output">
+           <link-entity name="queue" from="msdyn_prequeueoverflowrulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="be"/>
+       </link-entity>
+   </entity>
+</fetch>
 ```
 
-**Sample 2: Decision contracts for a single record queue with pre-queue overflow defined**<a name="BKMK2-po-contract"></a>
+**Sample 2: Decision contracts for a single record queue with prequeue overflow defined**<a name="BKMK2-po-contract"></a>
 
 ```xml
 XMLCopy
@@ -869,7 +869,7 @@ XMLCopy
 </fetch> 
 ```
 
-**Sample 3: Decision contracts for multiple record queues with pre-queue overflow defined**<a name="BKMK3-po-contract"></a>
+**Sample 3: Decision contracts for multiple record queues with prequeue overflow defined**<a name="BKMK3-po-contract"></a>
 
 ```XML
 XMLCopy
@@ -901,7 +901,7 @@ XMLCopy
 
 ### FetchXML for decision rulesets for queues
 
-**Sample 1: Decision ruleset for all record queues with pre-queue overflow defined**<a name="BKMK1-po-ruleset"></a>
+**Sample 1: Decision ruleset for all record queues with prequeue overflow defined**<a name="BKMK1-po-ruleset"></a>
 
 ```XML
 XMLCopy
@@ -918,7 +918,7 @@ XMLCopy
 </fetch>
 ```
 
-**Sample 2: Decision ruleset for a single record queue with pre-queue overflow defined**<a name="BKMK2-po-ruleset"></a>
+**Sample 2: Decision ruleset for a single record queue with prequeue overflow defined**<a name="BKMK2-po-ruleset"></a>
 
 ```XML
 XMLCopy
@@ -933,7 +933,7 @@ XMLCopy
 </fetch>
 ```
 
-**Sample 3: Decision ruleset for multiple record queues with pre-queue overflow defined**<a name="BKMK3-po-ruleset"></a>
+**Sample 3: Decision ruleset for multiple record queues with prequeue overflow defined**<a name="BKMK3-po-ruleset"></a>
 
 ```XML
 XMLCopy
