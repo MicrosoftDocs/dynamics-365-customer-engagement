@@ -34,7 +34,7 @@ In the following example, to add a skill control named **Skills** to the **Case 
 1. Go to **Tables**, and select **Case** > **Forms**.
 1. Select the **Case for Interactive experience** form.
 1. Select **Component**, and in the **Components** site map, drag and drop a **1-Column section** on to the form. 
-1. Select the section and in the right pane, enter the properties, such as the label.
+1. Select the section and specify the **Label** and **Name** in the **Properties** pane.
 1. Expand **Components**, and select **Component**.
 1. In **Add component**, select **Get more components.** 
 1. Search for **CC_OCRoutedEtnRelatedRecordsControl**, select **Components**, and then select **Add**. The component is added to the list.
