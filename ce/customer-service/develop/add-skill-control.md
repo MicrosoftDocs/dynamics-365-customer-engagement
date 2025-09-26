@@ -1,7 +1,7 @@
 ---
 title: Skill control for routed records
 description: Learn how to add a skill control on forms to view skills of any record that's routed through unified routing.
-ms.date: 04/29/2025
+ms.date: 09/26/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
