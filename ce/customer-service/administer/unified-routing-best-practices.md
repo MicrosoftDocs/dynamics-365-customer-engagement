@@ -100,7 +100,6 @@ If you have a scenario in which representatives aren't available to be assigned 
 
 - To minimize the wait time, use features like overflow management to manage high load or custom assignment rules to gradually relax rules to expand the eligible representatives pool.
 - Review representative availability and schedules to evaluate staffing more representatives.
-- If there are items lower in priority that might have eligible representatives, then contact Microsoft Support with your business scenario to determine if the block size can be increased.
 
 ### Use skill-based routing to distribute work items to the most qualified representatives
 

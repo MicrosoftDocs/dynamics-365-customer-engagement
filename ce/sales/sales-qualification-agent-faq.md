@@ -33,23 +33,15 @@ The agent might pause for the following reasons:
 - No capacity is available for the agent to process leads. Ask your admin to check the capacity and resolve the issue.
 - Your org is using an older version of the agent. Upgrade to the latest version to continue using the agent. Learn more in [Upgrade your Sales Qualification Agent](upgrade-sales-qualification-agent.md).
 
-## Why did the Sales Qualification Agent go into Draft mode?
-
-If you're using the 4.3 version of the Sales Qualification Agent (part of the April 2025 public preview), it will be set to Draft mode after the 7.3 release is deployed in your environment. Learn more in [Upgrade your Sales Qualification Agent](upgrade-sales-qualification-agent.md).
-
-## Why can't I access the research pages of leads that were previously processed by the agent? 
+## Why can't I access the research pages of leads that were previously processed by the agent?
 
 The possible causes for this issue are:
 
-- Your agent is upgraded to the 7.3 version.
+- Your agent is upgraded to the latest version.
 - The lead no longer fulfills the selection criteria defined in the agent configuration.
 
 The previous research data is stored in msdyn_leadagentresult (lead agent result) and msdyn_accountresearchresult (account research result). Learn more in [Upgrade your Sales Qualification Agent](upgrade-sales-qualification-agent.md).
 
-
-## Why are my 4.3 agent settings not preserved after the upgrade?
-
-Due to a technological change in the agent's architecture, the settings from the 4.3 version of the Sales Qualification Agent can't be preserved during the upgrade to the 7.3 version.  
 
 <a name="trigger-events"></a>
 ## When does the agent run?
