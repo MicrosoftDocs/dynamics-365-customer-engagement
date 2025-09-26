@@ -1,7 +1,7 @@
 ---
 title: Uninstall omnichannel solutions
 description: Perform the steps mentioned in this article to remove omnichannel solutions in Customer Service.
-ms.date: 05/05/2025
+ms.date: 09/26/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
