@@ -78,52 +78,58 @@ You must not remove the following out-of-the-box solutions that come preinstalle
 
     | Order |	Solution name	                                | Note	|
     |-------|-------------------------------------------------- |-------|
-    |	1	| `OmnichannelPrimeChatAnchor`	                        |		|
-    |	2	| `OmnichannelPrimeSMSAnchor`	    |		|
-    |	3	| `OmnichannelPrimeFacebookAnchor`                    	|  |
-    |	4	| `OmnichannelPrimeTeams`	        |		|
-    |	5	| `OmnichannelPrimeSocialChannelsAnchor`	                    |		|
-    |	6	| `OmnichannelPrimeOutboundAnchor`	                    |  |
-    |	7	| `OmnichannelPrimeTelephony`                    	|		|
-    |	8	| `msdyn_CustomerServiceworkspaceChannels`	                    |		|
-    |	9	| `msdyn_OmnichannelFacebookPatch` 	                |		|
-    |	10	| `OmnichannelOutbound` 	                        |		|
-    |	11	| `msdyn_OmnichannelTeamsPatch`	        |		|
-    |	12	| `OmnichannelTeams`	                |		|
-    |   13  | `msdyn_OmnichannelSocialChannelsPatch`                      |       |
-    |	14	|	 `OmnichannelSocialChannels`       |		|
-    |	15	|	 `OmnichannelChat`	        |		|
-    |	16	|	 `OmnichannelFacebook`	            |		|
-    |	17	|	 `OmnichannelConfiguration`	                |		|
-    |	18	|	 `msdyn_OmnichannelSharedCommunicationBase`	                |		|
-    |	19	|	 `msdyn_OmnichannelSharedSMS`	            |		|
-    |	20	|	 `msdyn_OmnichannelEngagementHubDeprecation`	                        |		|
-    |	21	|	 `msdyn_OmnichannelMessagingBase`	                            |		|
-    |	22	|	 `msdyn_OmnichannelBaseApp`                            	|		|
-    |	23	|	 `msdyn_OmnichannelPrimeProactiveAIAnchor`                    |		|
-    |	24	|	 `msdyn_OmnichannelCCaaSPESApi`	                            |		|
-    |	25	|	 `Omsdyn_OmnichannelPESPermissions__Test`	                        |		|
-    |	26	|	 `msdyn_OmnichannelProactiveEngagement`	            |		|
-    |	27  |   `msdyn_OmnichannelCCaaSVoiceAPI`                          |  |
-    |	28	|	 `msdyn_OmnichannelSporch__Test`	                        |		|
-    |	29	|	 `msdyn_OmnichannelVoiceRuntime__Test` 	                    |		|
-    |	30	|	 `msdyn_AdaptationManagementPermissions__Test`                    	|		|
-    |	31	| `msdyn_AdaptationManagementPrimeAnchor`	                        |		|
-    |	32	| `msdyn_OmnichannelEngagementHubPatch`	    |		|
-    |	33	| `msdyn_MarchPermissions__Test`                    	|  |
-    |	34	| `msdyn_AdaptationManagement`	        |		|
-    |	35	| `msdyn_OmnichannelSMSPatch`	                    |		|
-    |	36	| `OmnichannelSMS`	                    |  |
-    |	37	| `Omsdyn_OmnichannelMessagingApplicationUsers__Test`                    	|		|
-    |	38	| `OmnichannelEngagementHubPreview`	                    |		|
-    |	39	| `msdyn_CCASentimentAI` 	                |		|
-    |	40	| `msdyn_ConversationSummarizationAIRealtime` 	                        |		|
-    |	41	| `msdyn_UnifiedRoutingForCS`	        |		|
-    |	42	| `ScenariosAndChannels`	                |		|
-    |	43	| `msdyn_InboxForOC` 	                        |		|
-    |	44	| `msdyn_ChannelExperienceAppConfigurations`	        |		|
-    |	45	| `OmnichannelCommunicationBase`	                |		|
-    |	46	| `OmnichannelTelephony`	                |	You must delete all the related workstreams before you delete OmnichannelTelephony	| 
+    |	1	| `ProductivityToolsAnchor`	                        |		|
+    |	2	| `msdyn_OmnichannelProductivityToolsSettings`	    |		|
+    |	3	| `Omsdyn_Smartassist_managed`                    	|Required for Customer Service Hub and Copilot Service workspace|
+    |	4	| `msdyn_ProductivityPaneControl_managed`	        |		|
+    |	5	| `msdyn_AgentGuidance_managed`	                    |		|
+    |	6	| `msdyn_Agentscript_managed`	                    | Required for Customer Service Hub and Copilot Service workspace |
+    |	7	| `OmnichannelPrimeChatAnchor`	                        |		|
+    |	8	| `OmnichannelPrimeSMSAnchor`	    |		|
+    |	9	| `OmnichannelPrimeFacebookAnchor`                    	|  |
+    |	10	| `OmnichannelPrimeTeams`	        |		|
+    |	11	| `OmnichannelPrimeSocialChannelsAnchor`	                    |		|
+    |	12	| `OmnichannelPrimeOutboundAnchor`	                    |  |
+    |	13	| `OmnichannelPrimeTelephony`                    	|		|
+    |	14	| `msdyn_CustomerServiceworkspaceChannels`	                    |		|
+    |	15	| `msdyn_OmnichannelFacebookPatch` 	                |		|
+    |	16	| `OmnichannelOutbound` 	                        |		|
+    |	17	| `msdyn_OmnichannelTeamsPatch`	        |		|
+    |	18	| `OmnichannelTeams`	                |		|
+    |   19  | `msdyn_OmnichannelSocialChannelsPatch`                      |       |
+    |	20	|	 `OmnichannelSocialChannels`       |		|
+    |	21	|	 `OmnichannelChat`	        |		|
+    |	22	|	 `OmnichannelFacebook`	            |		|
+    |	23	|	 `OmnichannelConfiguration`	                |		|
+    |	24	|	 `msdyn_OmnichannelSharedCommunicationBase`	                |		|
+    |	25	|	 `msdyn_OmnichannelSharedSMS`	            |		|
+    |	26	|	 `msdyn_OmnichannelEngagementHubDeprecation`	                        |		|
+    |	27	|	 `msdyn_OmnichannelMessagingBase`	                            |		|
+    |	28	|	 `msdyn_OmnichannelBaseApp`                            	|		|
+    |	29	|	 `msdyn_OmnichannelPrimeProactiveAIAnchor`                    |		|
+    |	30	|	 `msdyn_OmnichannelCCaaSPESApi`	                            |		|
+    |	31	|	 `Omsdyn_OmnichannelPESPermissions__Test`	                        |		|
+    |	32	|	 `msdyn_OmnichannelProactiveEngagement`	            |		|
+    |	33  |   `msdyn_OmnichannelCCaaSVoiceAPI`                          |  |
+    |	34	|	 `msdyn_OmnichannelSporch__Test`	                        |		|
+    |	35	|	 `msdyn_OmnichannelVoiceRuntime__Test` 	                    |		|
+    |	36	|	 `msdyn_AdaptationManagementPermissions__Test`                    	|		|
+    |	37	| `msdyn_AdaptationManagementPrimeAnchor`	                        |		|
+    |	38	| `msdyn_OmnichannelEngagementHubPatch`	    |		|
+    |	39	| `msdyn_MarchPermissions__Test`                    	|  |
+    |	40	| `msdyn_AdaptationManagement`	        |		|
+    |	41	| `msdyn_OmnichannelSMSPatch`	                    |		|
+    |	42	| `OmnichannelSMS`	                    |  |
+    |	43	| `Omsdyn_OmnichannelMessagingApplicationUsers__Test`                    	|		|
+    |	44	| `OmnichannelEngagementHubPreview`	                    |		|
+    |	45	| `msdyn_CCASentimentAI` 	                |		|
+    |	46	| `msdyn_ConversationSummarizationAIRealtime` 	                        |		|
+    |	47	| `msdyn_UnifiedRoutingForCS`	        |		|
+    |	48	| `ScenariosAndChannels`	                |		|
+    |	49	| `msdyn_InboxForOC` 	                        |		|
+    |	50	| `msdyn_ChannelExperienceAppConfigurations`	        |		|
+    |	51	| `OmnichannelCommunicationBase`	                |		|
+    |	52	| `OmnichannelTelephony`	                |	You must delete all the related workstreams before you delete OmnichannelTelephony	| 
 6. Select **OK** on the confirmation message that prompts you to uninstall the managed solution.
 
 ## Uninstall Omnichannel historical analytics solutions
