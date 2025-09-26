@@ -63,7 +63,7 @@ You can change the **Worked By** field by selecting [**Route To**](/power-apps/d
 When you use **Assign** on a case form to assign the case to another representative, the following changes occur:
 
 - The case owner is updated.
-- Worked By is set to the assigned representative.
+- **Worked By** is set to the assigned representative.
 - The assigned representative capacity is consumed and presence is updated.
 - All routing rules and policies are adhered to.
 
