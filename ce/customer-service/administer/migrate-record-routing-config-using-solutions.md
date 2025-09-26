@@ -185,7 +185,7 @@ Perform the following steps to export and import the rulesets:
     
      In the data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source environment with the msdyn_decisioncontractid GUID of the target environment.  
 
-4. Package the extracted content again.
+4. Repackage the extracted content.
 
 5. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
 
@@ -223,7 +223,7 @@ Perform the following steps to export and import the rulesets:
 
      In the data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source environment with the msdyn_decisioncontractid GUID of the target environment.
 
-4. Package the extracted content again.
+4. Repackage the extracted content.
 
 5. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
 
@@ -231,7 +231,7 @@ For sample schema to get all the required records, go to [Sample schema for reco
 
 ### Step 3: Export and import prequeue overflow ruleset configurations  
 
-If you're not using Overflow overrides methods for queues, skip this step.  
+If you aren't using overflow overrides methods for queues, skip this step.  
 
 The following table summarizes the entities and corresponding FetchXML samples.  
 
@@ -241,7 +241,7 @@ The following table summarizes the entities and corresponding FetchXML samples.
 | Decision contract (msdyn_decisioncontract) | <ul><li>Contract Definition (msdyn_contractdefinition)</li><li>Decision contract (msdyn_decisioncontractid)</li><li>Name (msdyn_name)</li><li>Unique name (msdyn_uniquename)</li></ul> | [**Sample 1: Decision contract for all record queues with pre-queue overflow defined**](#BKMK1-po-contract) <br><br>[**Sample 2: Decision contract for a single record queue with pre-queue overflow defined**](#BKMK2-po-contract) <br><br>[**Sample 3: Decision contract for multiple record queues with pre-queue overflow defined**](#BKMK3-po-contract) |
 | Decision ruleset with selection criteria (msdyn_decisionruleset) | <ul><li>AI Builder Model (msdyn_aibmodelid)</li><li>Authoring Mode (msdyn_authoringmode)</li><li>Decision rule Set (msdyn_decisionrulesetid)</li><li>Description (msdyn_description)</li><li>Input Contract (msdyn_inputcontractid)</li><li>Is input Collection (msdyn_isinputcollection)</li><li>ML model type (msdyn_mlmodeltype)</li><li>Name (msdyn_name)</li><li>Output contract (msdyn_outputcontractid)</li><li>Rule set definition (msdyn_rulesetdefinition)</li><li>Rule set type (msdyn_rulesettype)</li><li>Unique name (msdyn_uniquename)</li></ul> | [**Sample 1: Decision ruleset for all record queues with pre-queue overflow defined**](#BKMK1-po-ruleset) <br><br>[**Sample 2: Decision ruleset for a single record queue with pre-queue overflow defined**](#BKMK2-po-ruleset) <br><br>[**Sample 3: Decision ruleset for multiple record queues with pre-queue overflow defined**](#BKMK3-po-ruleset) |
 
-Perform the following steps to export and import the pre queue rulesets:
+Perform the following steps to export and import the prequeue rulesets:
 
 1. Generate the schema and save it.  
 
