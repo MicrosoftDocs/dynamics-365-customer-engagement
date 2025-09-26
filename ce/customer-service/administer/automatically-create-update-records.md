@@ -29,7 +29,7 @@ searchScope:
 Automatically create or update system or custom records from incoming activities like emails, social activities, and custom activities. This article shows you how to set up rules to create records for cases from incoming emails.
 
 > [!NOTE]
-> Modern automatic record creation and update rules isn't supported on on-premises environments.
+> The modern automatic record creation and update rules feature isn't supported for on-premises environments.
 
 ## Set up rules for creating or updating records automatically
 
