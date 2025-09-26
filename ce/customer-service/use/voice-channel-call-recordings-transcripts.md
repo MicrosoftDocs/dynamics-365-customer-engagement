@@ -87,7 +87,7 @@ If your administrator configured Copilot to generate summaries after a conversat
 > [!NOTE]
 > This section is applicable to voice calls only.
 
-- **Sentiment**: The average sentiment of the call.
+- **Sentiment**: The average sentiment of the call; values can be positive, neutral, or negative.
 
 - **Talking speed**: The rate of speed in which participants conversed during the call.
 - **Talk to listen ratio**: The ratio in which the representative spoke versus listened to the customer.
