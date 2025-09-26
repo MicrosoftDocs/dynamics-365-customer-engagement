@@ -46,7 +46,7 @@ For call recording to work as expected, allow the audio and mpeg MIME type for y
 
     :::image type="content" source="../media/transcription-setting-manual-mini.png" alt-text="Screenshot of manual option for transcription and recording." lightbox="../media/transcription-setting-manual.png":::
 
-7. Set **Allow agents to pause and resume** toggle to **Yes** if you want to allow representatives to control the portions of conversations that they record and transcribe.
+7. Set the **Allow customer service representatives to pause and resume** toggle to **Yes** to let representatives control parts of conversations that they need to record and transcribe.
 
 8. Set **Allow automatic pause and resume when agent hold and un-hold the customer** toggle to **Yes** if recording and transcription must be paused when the representative puts the customer on hold and resumed when the representative takes the customer off hold.
  
