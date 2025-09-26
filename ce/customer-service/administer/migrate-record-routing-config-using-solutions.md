@@ -3,9 +3,9 @@ title: Migrate configurations for record routing using solutions
 description: Learn how to migrate configuration data for routing, capacity profiles, queues, intake rules, and workstreams in Customer Service using solutions.
 author: mjfjesus
 ms.author: marcoje
-ms.reviewer: marcoje
+ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 09/22/2025
+ms.date: 09/26/2025
 ms.custom: bap-template
 ---
 
@@ -245,9 +245,9 @@ Perform the following steps to export and import the pre queue rulesets:
 
 1. Generate the schema and save it.  
 
-2. Export the data and generate the compressed .zip file.  
+1. Export the data and generate the compressed .zip file.  
 
-3. Extract the .zip file, open the data.xml file present in the extracted folder, and do the following:  
+1. Extract the .zip file, open the data.xml file present in the extracted folder, and do the following:  
 
    - In the source and target environments, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
 
@@ -261,16 +261,11 @@ Perform the following steps to export and import the pre queue rulesets:
     
      In the data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source environment with the msdyn_decisioncontractid GUID of the target environment.  
 
+1. Repackage the extracted content into a .zip file.  
 
-4. Repackage the extracted content into a .zip file.  
+1. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
 
-5. Open the Configuration Migration Tool:  
-   - Select Import Data.  
-   - Choose the compressed .zip file.  
-
----
-
-If you're not using Overflow overrides methods for queues, skip this step.
+For sample schema to get all the required records, go to [Sample schema for overflow](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20overflow.xml).
 
 ### FetchXML for queues
 
@@ -830,13 +825,13 @@ XMLCopy
   <entity name="msdyn_decisioncontract">
     <filter type="or">
       <filter type="and">
-        <condition attribute="msdyn_queuetype" entityname="bb" operator="eq" value="192350000"/>
+        <condition attribute="msdyn_queuetype" entityname="bb" operator="eq" value="192350001"/>
         <condition attribute="msdyn_isomnichannelqueue" entityname="bb" operator="eq" value="1"/>
-        <condition attribute="queueid" entityname="bb" operator="eq" uiname="Default messaging queue" uitype="queue" value="{85e55877-f27a-e911-a81a-000d3a1ca610}"/>
+        <condition attribute="queueid" entityname="bb" operator="eq" uiname="Default entity queue" uitype="queue" value="{85e55877-f27a-e911-a81a-000d3a1ca610}"/>
       </filter>
       <filter type="and">
         <condition attribute="msdyn_isomnichannelqueue" entityname="be" operator="eq" value="1"/>
-        <condition attribute="msdyn_queuetype" entityname="be" operator="eq" value="192350000"/>
+        <condition attribute="msdyn_queuetype" entityname="be" operator="eq" value="192350001"/>
         <condition entityname="be" attribute="queueid" operator="ne" value="{85e55877-f27a-e911-a81a-000d3a1ca610}"/>
       </filter>
     </filter>
