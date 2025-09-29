@@ -3,9 +3,9 @@ title: Migrate configurations for record routing using solutions
 description: Learn how to migrate configuration data for routing, capacity profiles, queues, intake rules, and workstreams in Customer Service using solutions.
 author: mjfjesus
 ms.author: marcoje
-ms.reviewer: marcoje
+ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 07/16/2025
+ms.date: 09/26/2025
 ms.custom: bap-template
 ---
 
@@ -185,7 +185,7 @@ Perform the following steps to export and import the rulesets:
     
      In the data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source environment with the msdyn_decisioncontractid GUID of the target environment.  
 
-4. Package the extracted content again.
+4. Repackage the extracted content.
 
 5. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
 
@@ -223,11 +223,49 @@ Perform the following steps to export and import the rulesets:
 
      In the data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source environment with the msdyn_decisioncontractid GUID of the target environment.
 
-4. Package the extracted content again.
+4. Repackage the extracted content.
 
 5. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
 
 For sample schema to get all the required records, go to [Sample schema for record queues step 2](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues%20step%202.xml).
+
+### Step 3: Export and import prequeue overflow ruleset configurations  
+
+If you aren't using overflow overrides methods for queues, skip this step.  
+
+The following table summarizes the entities and corresponding FetchXML samples.  
+
+|Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
+|---------|---------|---------|
+| Queue (queue) | <ul><li>Assignment Input Contract Id (msdyn_assignmentinputcontractid)</li><li>Assignment Strategy (msdyn_assignmentstrategy)</li><li>Description (description)</li><li>Is Default Queue (msdyn_isdefaultqueue)</li><li>Is Omnichannel Queue (msdyn_isomnichannelqueue)</li><li>Name (name)</li><li>Priority (msdyn_priority)</li><li>Queue (queueid)</li><li>Queue type (msdyn_queuetype)</li><li>Type (queueviewtype)</li><li>Operating Hours (msdyn_operatinghourid)</li><li>Prequeue Overflow Ruleset (msdyn_prequeueoverflowrulesetid)</li></ul> | [**Sample 1: All queues for records**](#BKMK1all-ur-qs) <br><br> [**Sample 2: Single queue for records**](#BKMK2single-ur-qs) <br><br> [**Sample 3: Multiple queues for records**](#BKMK3multiple-ur-qs)  |
+| Decision contract (msdyn_decisioncontract) | <ul><li>Contract Definition (msdyn_contractdefinition)</li><li>Decision contract (msdyn_decisioncontractid)</li><li>Name (msdyn_name)</li><li>Unique name (msdyn_uniquename)</li></ul> | [**Sample 1: Decision contract for all record queues with prequeue overflow defined**](#BKMK1-po-contract) <br><br>[**Sample 2: Decision contract for a single record queue with prequeue overflow defined**](#BKMK2-po-contract) <br><br>[**Sample 3: Decision contract for multiple record queues with prequeue overflow defined**](#BKMK3-po-contract) |
+| Decision ruleset with selection criteria (msdyn_decisionruleset) | <ul><li>AI Builder Model (msdyn_aibmodelid)</li><li>Authoring Mode (msdyn_authoringmode)</li><li>Decision rule Set (msdyn_decisionrulesetid)</li><li>Description (msdyn_description)</li><li>Input Contract (msdyn_inputcontractid)</li><li>Is input Collection (msdyn_isinputcollection)</li><li>ML model type (msdyn_mlmodeltype)</li><li>Name (msdyn_name)</li><li>Output contract (msdyn_outputcontractid)</li><li>Rule set definition (msdyn_rulesetdefinition)</li><li>Rule set type (msdyn_rulesettype)</li><li>Unique name (msdyn_uniquename)</li></ul> | [**Sample 1: Decision ruleset for all record queues with prequeue overflow defined**](#BKMK1-po-ruleset) <br><br>[**Sample 2: Decision ruleset for a single record queue with prequeue overflow defined**](#BKMK2-po-ruleset) <br><br>[**Sample 3: Decision ruleset for multiple record queues with prequeue overflow defined**](#BKMK3-po-ruleset) |
+
+Perform the following steps to export and import the prequeue rulesets:
+
+1. Generate the schema and save it.  
+
+1. Export the data and generate the compressed .zip file.  
+
+1. Extract the .zip file, open the data.xml file present in the extracted folder, and do the following:  
+
+   - In the source and target environments, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
+
+     `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_queueoverflowrulesetinput'`
+
+     In the data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source environment with the msdyn_decisioncontractid GUID of the target environment.  
+
+   - In the source and target environments, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
+
+     `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_queueoverflowrulesetoutput'`
+    
+     In the data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source environment with the msdyn_decisioncontractid GUID of the target environment.  
+
+1. Repackage the extracted content into a .zip file.  
+
+1. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
+
+For sample schema to get all the required records, go to [Sample schema for overflow](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20overflow.xml).
 
 ### FetchXML for queues
 
@@ -773,6 +811,142 @@ XMLCopy
     <filter type="and">
       <condition attribute="msdyn_overflowactionconfigid" operator="eq" uiname="QueueTransfer_caae99a1-dcc4-ed11-83ff-00224805c003 " uitype="msdyn_overflowactionconfig" value="{6D49F66F-68F3-ED11-8848-00224805C003}"/>
     </filter>
+  </entity>
+</fetch>
+```
+
+### FetchXML for decision contract for queues
+
+**Sample 1: Decision contracts for all record queues with prequeue overflow defined**<a name="BKMK1-po-contract"></a>
+
+```xml
+XMLCopy
+<fetch distinct="true">
+   <entity name="msdyn_decisioncontract">
+       <filter type="or">
+           <filter type="and">
+               <condition attribute="msdyn_queuetype" entityname="bb" operator="eq" value="192350001"/>
+               <condition attribute="msdyn_isomnichannelqueue" entityname="bb" operator="eq" value="1"/>
+               <condition attribute="queueid" entityname="bb" operator="ne" uiname="Default entity queue" uitype="queue" value="{5a4b76b0-dab5-4717-9743-9490f2f822c6}"/>
+           </filter>
+           <filter type="and">
+               <condition attribute="msdyn_isomnichannelqueue" entityname="be" operator="eq" value="1"/>
+               <condition attribute="msdyn_queuetype" entityname="be" operator="eq" value="192350001"/>
+               <condition entityname="be" attribute="queueid" operator="ne" value="{5a4b76b0-dab5-4717-9743-9490f2f822c6}"/>
+           </filter>
+       </filter>
+       <link-entity name="msdyn_decisionruleset" from="msdyn_inputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="input">
+           <link-entity name="queue" from="msdyn_prequeueoverflowrulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bb"/>
+       </link-entity>
+       <link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="output">
+           <link-entity name="queue" from="msdyn_prequeueoverflowrulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="be"/>
+       </link-entity>
+   </entity>
+</fetch>
+```
+
+**Sample 2: Decision contracts for a single record queue with prequeue overflow defined**<a name="BKMK2-po-contract"></a>
+
+```xml
+XMLCopy
+<fetch distinct="true">
+  <entity name="msdyn_decisioncontract">
+    <filter type="or">
+      <filter type="and">
+        <condition attribute="queueid" entityname="bb" operator="eq" uiname="Test Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+      </filter>
+      <filter type="and">
+        <condition attribute="queueid" entityname="be" operator="eq" uiname="Test Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+      </filter>
+    </filter>
+    <link-entity name="msdyn_decisionruleset" from="msdyn_inputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="input">
+      <link-entity name="queue" from="msdyn_prequeueoverflowrulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bb"/>
+    </link-entity>
+    <link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="output">
+      <link-entity name="queue" from="msdyn_prequeueoverflowrulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="be"/>
+    </link-entity>
+  </entity>
+</fetch> 
+```
+
+**Sample 3: Decision contracts for multiple record queues with prequeue overflow defined**<a name="BKMK3-po-contract"></a>
+
+```XML
+XMLCopy
+<fetch distinct="true">
+  <entity name="msdyn_decisioncontract">
+    <filter type="or">
+      <filter type="and">
+        <condition attribute="queueid" entityname="bb" operator="in">
+          <value uiname="Test Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
+          <value uiname="Test Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
+        </condition>
+      </filter>
+      <filter type="and">
+        <condition attribute="queueid" entityname="be" operator="in">
+          <value uiname="Test Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
+          <value uiname="Test Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
+        </condition>
+      </filter>
+    </filter>
+    <link-entity name="msdyn_decisionruleset" from="msdyn_inputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="input">
+      <link-entity name="queue" from="msdyn_prequeueoverflowrulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bb"/>
+    </link-entity>
+    <link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="output">
+      <link-entity name="queue" from="msdyn_prequeueoverflowrulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="be"/>
+    </link-entity>
+  </entity>
+</fetch>
+```
+
+### FetchXML for decision rulesets for queues
+
+**Sample 1: Decision ruleset for all record queues with prequeue overflow defined**<a name="BKMK1-po-ruleset"></a>
+
+```XML
+XMLCopy
+<fetch distinct="true">
+  <entity name="msdyn_decisionruleset">
+    <link-entity name="queue" from="msdyn_prequeueoverflowrulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="am">
+      <filter type="and">
+        <condition attribute="msdyn_queuetype" operator="eq" value="192350001" />
+        <condition attribute="msdyn_isomnichannelqueue" operator="eq" value="1" />
+        <condition attribute="queueid" operator="ne" uiname="Default entity queue" uitype="queue" value="{5A4B76B0-DAB5-4717-9743-9490F2F822C6}" />
+      </filter>
+    </link-entity>
+  </entity>
+</fetch>
+```
+
+**Sample 2: Decision ruleset for a single record queue with prequeue overflow defined**<a name="BKMK2-po-ruleset"></a>
+
+```XML
+XMLCopy
+<fetch distinct="true">
+  <entity name="msdyn_decisionruleset">
+    <link-entity name="queue" from="msdyn_prequeueoverflowrulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="am">
+      <filter type="and">
+        <condition attribute="queueid" operator="eq" uiname="Test Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+      </filter>
+    </link-entity>
+  </entity>
+</fetch>
+```
+
+**Sample 3: Decision ruleset for multiple record queues with prequeue overflow defined**<a name="BKMK3-po-ruleset"></a>
+
+```XML
+XMLCopy
+<fetch distinct="true">
+  <entity name="msdyn_decisionruleset">
+    <link-entity name="queue" from="msdyn_prequeueoverflowrulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="am">
+      <filter type="and">
+        <condition attribute="queueid" operator="in">
+          <value uiname="Test Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
+          <value uiname="Test Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
+        </condition>
+      </filter>
+    </link-entity>
   </entity>
 </fetch>
 ```

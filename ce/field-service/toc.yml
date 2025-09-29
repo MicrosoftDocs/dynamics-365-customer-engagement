@@ -326,6 +326,8 @@ items:
         href: field-service-work-hours-calendar-api.md
       - name: Scheduling parameters (Settings)
         href: scheduling-parameters-settings.md
+      - name: Health diagnostics tool
+        href: health-diagnostics-tool.md
 
 - name: Mobile app
   items:

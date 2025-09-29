@@ -6,13 +6,13 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 08/26/2025
+ms.date: 09/16/2025
 ms.custom: bap-template
 ---
 
 # View and understand real-time analytics for record routing in the summary report
 
-The Summary report appears by default when you select the real-time analytics for record routing dashboard in the Copilot Service workspace app. You can filter this report by modified on, queue, agent, work item status, work item skill and time zone. The time filters that are available include **Last 24 hrs** and **Today**.
+The Summary report appears by default when you select the real-time analytics for record routing dashboard in the Copilot Service workspace app. You can filter this report by modified on, queue, agent, work item status, work item skill, and time zone. The time filters that are available include **Last 24 hrs** and **Today**. [Learn how to access the report](rr-overview.md#access-reports).
 
 The Summary report provides a summary of cases and records over time, by workstream or queue. This report shows entity record type queues only. Statistics about the workstream that a work item was created against can help you analyze and manage queue distribution and capacity use efficiency. For example, a high rate of unassigned work items can lead to decreased customer satisfaction. To address the rate of unassigned work items or long wait times before cases are assigned, you can examine operational metrics such as agent availability and case distribution for available agent capacity in real time. 
 
@@ -24,12 +24,12 @@ By editing the visual display, you can add metrics to the ones already shown on 
 |KPIs| Description  |
 |---------|---------|
 |Total work items | Total number of record type work items modified in the last 24 hours. Total work items = Closed work items + Ongoing work items. |
-|Closed work items | Number of record type workitems modified in the last 24 hours and are closed currently.|
-|Ongoing work items | Number of record type workitems modified in the last 24 hours, and are currently ongoing, including Open and Active ones. Ongoing work items = Unassigned work items + Assigned work items.|
-|Unassigned work items | Number of record type workitems modified in the last 24 hours and are unassigned currently.|
-|Assigned work items    |  Number of record type workitems modified in the last 24 hours and are assigned currently. Assigned work items = Auto assigned work items + Manually assigned work items.  |
-|Autoassigned work items    |  Number of record type workitems modified in the last 24 hours and autoassigned by unified routing currently. |
-|Manually assigned work items| Number of record type workitems modified in the last 24 hours and are manually assigned currently.|
+|Closed work items | Number of record type work items modified in the last 24 hours and are closed currently.|
+|Ongoing work items | Number of record type work items modified in the last 24 hours, and are currently ongoing, including Open and Active ones. Ongoing work items = Unassigned work items + Assigned work items.|
+|Unassigned work items | Number of record type work items modified in the last 24 hours and are unassigned currently.|
+|Assigned work items    |  Number of record type work items modified in the last 24 hours and are assigned currently. Assigned work items = Auto assigned work items + Manually assigned work items.  |
+|Autoassigned work items    |  Number of record type work items modified in the last 24 hours and autoassigned by unified routing currently. |
+|Manually assigned work items| Number of record type work items modified in the last 24 hours and are manually assigned currently.|
 |Agents online| Number of agents who are online. That is, whose presence status isn't offline.|
 
 ### Interactive charts
@@ -46,9 +46,9 @@ The **Work items metrics by queue** table, shows the following metrics:
 |---------|---------|
 |Queue| Name of the queue|
 |Queue priority| Priority of the queue.|
-| Assigned work items| Number of record type workitems modified in the last 24 hours and are assigned currently in this queue.|
-| Unassigned work items| Number of record type workitems modified in the last 24 hours and are unassigned currently, waiting in this queue.|
-| Longest wait time| Waiting time until the agent accepts the workitem. |
+| Assigned work items| Number of record type work items modified in the last 24 hours and are assigned currently in this queue.|
+| Unassigned work items| Number of record type work items modified in the last 24 hours and are unassigned currently, waiting in this queue.|
+| Longest wait time| Waiting time until the agent accepts the work item. |
 |Agents online| Number of agents who are online. That is, whose presence status isn't offline within this queue. |
 
 
