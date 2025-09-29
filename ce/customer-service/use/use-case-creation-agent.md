@@ -1,5 +1,5 @@
 ---
-title: Use Case Management Agent to create and update cases (preview)
+title: Use Case Management Agent to create and update cases 
 description: Learn how to use autonomous Case Management Agent to efficiently handle case management tasks in Dynamics 365 Customer Service.
 author: gandhamm
 ms.author: mgandham
@@ -10,9 +10,8 @@ ms.date: 09/16/2025
 ms.custom: bap-template
 ---
 
-# Use Case Management Agent to create and update cases (preview)
+# Use Case Management Agent to create and update cases 
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 The case creation and update feature in Case Management Agent does the following actions, eliminating the need for manual case creation and reducing errors:
 
@@ -20,12 +19,9 @@ The case creation and update feature in Case Management Agent does the following
 - Autonomously updates case fields when a conversation ends or from incoming emails
 - Populates the case fields for a manually created case from a conversation or an email
 
-
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
-
 ## Prerequisites
 
-- Your administrator has [Set up Case Management Agent to create and update cases (preview)](../administer/set-up-autonomous-case-agents.md).
+- Your administrator has [Set up Case Management Agent to create and update cases](../administer/set-up-autonomous-case-agents.md).
 
 ## Autonomous case creation
 

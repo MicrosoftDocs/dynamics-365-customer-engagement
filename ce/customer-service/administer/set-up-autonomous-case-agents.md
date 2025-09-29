@@ -1,5 +1,5 @@
 ---
-title: Set up Case Management Agent for case creation and update (preview)
+title: Set up Case Management Agent for case creation and update 
 description: Learn how to set up autonomous Case Management Agent to help customer support teams efficiently handle case management tasks.
 author: gandhamm
 ms.author: mgandham
@@ -11,9 +11,8 @@ ms.custom: bap-template
 ---
 
 
-# Set up Case Management Agent to create and update cases (preview)
+# Set up Case Management Agent to create and update cases 
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Case Management Agent streamlines the case management process, reducing manual effort and data entry errors.
 
@@ -25,7 +24,6 @@ You can use the creation and update feature of Case Management Agent to do the f
      - When a customer service representative (service representative or representative) manually creates a case from an email or conversation
      - When a case is created from an incoming email using automatic record creation and update rules
 
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Prerequisites
 
@@ -42,7 +40,7 @@ You can use the creation and update feature of Case Management Agent to do the f
 -  We recommend that you enable audit history and make sure service representatives have the required access to the case and related entities that the AI agent updates. Learn more in [Manage Dataverse auditing](/power-platform/admin/manage-dataverse-auditing).
 - For customers to provide the details that the AI agent can use, you can configure [preconversation survey](configure-pre-chat-survey.md).
 - Make sure the service representatives working on the case and accepting conversations have read privileges on the `msdyn_entityattributepredictionrules` table.
-- For the AI agent to predict case fields from emails autonomously, do the steps in [Configure global settings for Case Management Agent (preview)](case-management-global-settings.md).
+- For the AI agent to predict case fields from emails autonomously, do the steps in [Configure global settings for Case Management Agent](case-management-global-settings.md).
 
 ### Update field and lookup descriptions in Power Apps
 
@@ -89,7 +87,7 @@ In the Copilot Service admin center, configure the AI agent to predict and updat
 
 1. In **Customer support**, select **Case settings**.
 2. On the **Case settings** page, select **Manage** for **Case Management Agent**.
-3. On the **Case Management Agent** page, select **Case creation and update with autonomous AI assistance (preview)**.
+3. On the **Case Management Agent** page, select **Case creation and update with autonomous AI assistance**.
 1. In the page that appears, in **Case update by AI agent (any channel)**, select **Create**. Specify the following information:
    - A unique name for the rule. 
    - Conditions for the AI agent to apply the rule. If no conditions are defined, the rule applies to all channels.
@@ -110,7 +108,7 @@ The following actions trigger the case creation process of Case Management Agent
 
 To allow the AI agent to autonomously create cases across all provisioned messaging and voice channels, perform the following steps:
 
-1. Go to **Case creation and update (preview)** > **Case creation by AI agent (from chats and calls)** and select **Make Case Processing Agent available for case creation from conversations**.
+1. Go to **Case creation and update** > **Case creation by AI agent (from chats and calls)** and select **Make Case Processing Agent available for case creation from conversations**.
 1. In **Fields for AI prediction**, specify the fields the agent predicts and populates in the case form using information from the conversation. The AI agent populates only those fields that have sufficient context available.
 
 ## Configure AI-assisted case creation for service representatives
@@ -125,7 +123,7 @@ By default, service representatives added to the out-of-the-box experience profi
 
 1. Go to **Experience profiles** using one of the following navigation options:
    - **Support experience** > **Workspaces**
-   -  Select **Manage** for **Case Management Agent**, and then select **agent experience profiles** in **Case creation and update (preview)** > **Representative access**.
+   -  Select **Manage** for **Case Management Agent**, and then select **agent experience profiles** in **Case creation and update** > **Representative access**.
 2. Select the required experience profile.
 3. In the **Copilot AI features** section do the following actions:
      - Select **From conversations** in **Autonomous case creation and update**.
@@ -141,7 +139,7 @@ In **Agent experience data from Representative experience data**, you can select
 
 When a customer initiates a chat conversation with the service representative, the AI agent creates a case if there is enough context to update at least one of the **Issue description** or **Contact** fields.
 
-For the agent to run this scenario, specify the following in the **Case creation and update (preview)** page:
+For the agent to run this scenario, specify the following in the **Case creation and update** page:
  
 - **Channel**: Chat  
 - **Fields for AI prediction**: Issue description, Contact  
@@ -161,4 +159,4 @@ For the agent to run this scenario, in addition to the **Issue description** and
 
 ## Next steps
 
- [Use Case Management Agent to create and update cases (preview)](../use/use-case-creation-agent.md)
+ [Use Case Management Agent to create and update cases](../use/use-case-creation-agent.md)
