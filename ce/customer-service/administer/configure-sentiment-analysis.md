@@ -1,7 +1,7 @@
 ---
-title: Enable real-time customer sentiment with sentiment analysis
-description: Analyze real-time customer sentiment to improve team performance and customer satisfaction.
-ms.date: 09/12/2025
+title:  Configure sentiment analysis for emails
+description: Learn how to configure sentiment for emails in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
+ms.date: 09/39/2025
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
