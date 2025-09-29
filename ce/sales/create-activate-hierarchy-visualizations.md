@@ -18,19 +18,6 @@ As an administrator, you can create and publish a hierarchy that allows your org
 
 Hierarchies are created using your existing tables, forms, relationships, and views. You can design and publish a hierarchy based on a N:1 self-referential relationship&mdash;one where each row in a table has an optional pointer to its parent row, 1:N many-to-one relationship&mdash;one where each row in a table has a pointer to a row in another table, or both, and N:N many-to-many relationships.
 
-You can design and publish a hierarchy based on the following types:  
-
-- An N:1 self-referential relationship (each row can point to its parent).
-- An N:1 relationship to another table (each row points to a row in another table).
-- Both relationship types.
-- An N:N many-to-many relationship.
-
-Here are some examples of self-referential hierarchies:  
-
-- **Organization chart**: Based on a table of persons such as the Contact table, each person has a relationship that points at their manager.  
-- **Account hierarchy**: An account hierarchy might be a global company with subsidiaries in countries, which have regional offices, which have branch offices.
-- **Sequential process hierarchy**: You might have a hierarchy of opportunities if your company sells end-to-end services for a product. For example, where opportunity to sell, is followed by product design services, which is followed by product installation, then operational contracts, and possibly maintenance contracts. Each follows its predecessor. Being able to display multiple deals at various phases for a given buyer is a powerful visual advantage to your teams.
-
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
