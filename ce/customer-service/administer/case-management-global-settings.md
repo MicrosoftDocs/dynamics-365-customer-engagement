@@ -1,5 +1,5 @@
 ---
-title: Configure global settings for Case Management Agent (preview)
+title: Configure global settings for Case Management Agent 
 description: Learn how to configure global settings for Case Management Agent in Dynamics 365 Customer Service to enable fully autonomous case resolution, follow-up, and closure capabilities.
 author: gandhamm
 ms.author: mgandham
@@ -10,8 +10,7 @@ ms.date: 09/18/2025
 ms.custom: bap-template
 ---
 
-# Configure global settings for Case Management Agent (preview)
-
+# Configure global settings for Case Management Agent 
 Configure global settings for Case Management Agent in Dynamics 365 Customer Service to enable fully autonomous case resolution, follow-up, and closure capabilities.
 
 ## Prerequisites
@@ -93,6 +92,6 @@ In Copilot Studio, perform the following steps:
 
 ### Next steps
 
-- [Set up Case Management Agent to create and update cases (preview)](set-up-autonomous-case-agents.md)     
-- [Set up Case Management Agent to resolve cases (preview)](set-up-case-resolution-agent.md)              
-- [Set up Case Management Agent for case follow-up and closure (preview)](set-up-case-closure.md)      
+- [Set up Case Management Agent to create and update cases](set-up-autonomous-case-agents.md)     
+- [Set up Case Management Agent to resolve cases](set-up-case-resolution-agent.md)              
+- [Set up Case Management Agent for case follow-up and closure](set-up-case-closure.md)      
