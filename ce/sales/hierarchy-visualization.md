@@ -39,17 +39,18 @@ An example of a self-referential hierarchy where all tiles are a record from a s
 
 Hierarchies can also visually show hierarchies of different types of data using the relationship data between two tables. For example, you may want to provide your sellers an Account view that shows opportunities directly related to the account, contacts, locations, or all of the above.  
 An example of a cross-table reference hierarchy with Account and Opportunity.  
+
 :::image type="content" source="media/cross-table-hierarchy-visualization-example.png" alt-text="Screenshot of a cross-table hierarchy visualization with Account and Opportunity.":::
 
 ### Hybrid hierarchies  
 
 Any table in a hierarchy can be configured to show self-referential data, allowing for interesting scenarios such as a self-referential hierarchy of accounts where each account tile shown might have its own contacts and opportunities. You might even have self-referential opportunities, so instead of just showing directly linked opportunities, you might see a tree of opportunities such as when a Deal opportunity must be closed before the Installation opportunity and Service Contract opportunities can be pursued.  
 
-### Dataverse Connections  
+### Dataverse connections  
 
 The Dataverse connection table is an incredibly powerful feature that allows a record in any table to be assigned a relationship to another record in any table, allowing relationships to be defined at the record level instead of between entire tables. Connections also can be assigned a Connection Role that describes the kind of relationship between records, such as DecisionMaker, Influencer, or Daughter, allowing Views to filter the data based on one or more roles.
 
-### Custom Connections  
+### Custom connections  
 
 The sales hierarchy control lets you model hierarchies with a custom connections table. Specify which columns in your custom table identify the `To` and `From` fields and any custom roles. The control uses those relationships to build models that show your data the way you want.  
 
