@@ -1,7 +1,7 @@
 ---
 title: Enable sales usage reports for sales managers
 description: Explore sales usage reports for historical insights into operational metrics and key performance indicators in Sales.
-ms.date: 02/25/2025
+ms.date: 09/30/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -13,6 +13,9 @@ ms.custom:
 ---
 
 # Enable sales usage reports
+
+> [!NOTE]
+> Effective Dec 01, 2025, sales usage reports will be deprecated. [Learn more](deprecations-sales.md#sales-usage-reports). 
 
 Sales usage reports provide a historical view of operational metrics and key performance indicators in Dynamics 365 Sales. This helps sales managers to view and analyze their team's operational metrics such as opportunities and leads usage, and make decisions that improve sales performance.
 
