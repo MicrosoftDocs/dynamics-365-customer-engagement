@@ -1,7 +1,7 @@
 ---
 title: Configure zero prompt experience for Copilot in Dynamics 365 Sales (preview)
 description: Learn how to configure the zero prompt experience for Copilot in Dynamics 365 Sales.
-ms.date: 09/18/2025
+ms.date: 09/30/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

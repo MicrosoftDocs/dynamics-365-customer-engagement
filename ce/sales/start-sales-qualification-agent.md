@@ -2,7 +2,7 @@
 title: Start the Sales Qualification Agent
 description: Learn how to start the sales qualification settings in Dynamics 365 Sales.
 ms.topic: how-to 
-ms.date: 09/25/2025
+ms.date: 09/30/2025
 ms.service: dynamics-365-sales
 content_well_notification:
   - AI-contribution
