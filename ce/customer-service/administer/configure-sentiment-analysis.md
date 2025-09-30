@@ -1,5 +1,5 @@
 ---
-title:  Configure sentiment analysis for emails
+title:  Configure sentiment analysis for emails (preview)
 description: Learn how to configure sentiment for emails in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
 ms.date: 09/29/2025
 author: gandhamm
@@ -10,7 +10,10 @@ ms.collection:
 ms.custom: bap-template 
 ---
 
-# Configure sentiment analysis for emails
+# Configure sentiment analysis for emails (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 
 Email sentiment analysis enables agents and supervisors to understand customer emotions and attitudes expressed in email communications, both in real-time and historically, to improve customer service response strategies. The application uses natural language processing (NLP) and machine learning (ML) algorithms to automatically analyze the emotional tone and sentiment expressed in customer emails.
 
@@ -22,6 +25,8 @@ Email sentiment analysis supports multiple languages. Using Microsoft Azure Text
 > - Non-English conversations are translated to English, then scored.
 > - Unsupported languages don't receive a sentiment score.
 > - If profanity is detected in English, the sentiment shows as Negative or Very negative.
+
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Prerequisites
 
@@ -55,3 +60,6 @@ In the Customer Service admin center or Contact Center admin center app, perform
      1. Select **Inbox record types** and then select **Email**.
      1. Select the ellipsis to add the **Sentiment** field and **Sentiment** icon. Learn more in [Custom card configuration](configure-inbox.md#custom-card-configuration).
 
+### Related information
+
+[View email sentiment (preview)](/power-apps/user/view-compose-email#view-email-sentiment-preview)
