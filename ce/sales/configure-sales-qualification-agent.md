@@ -1,7 +1,7 @@
 ---
 title: Set up and configure the Sales Qualification Agent (preview)
 description: Set up and configure the Sales Qualification Agent to automate research, engagement, and outreach in Dynamics 365 Sales with AI-powered assistance for effective sales processes.
-ms.date: 09/17/2025
+ms.date: 09/24/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -21,8 +21,6 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-[!INCLUDE[sqa-73-note](../includes/sqa-73-note.md)]
-
 As an admin, you need to set up the Sales Qualification Agent before your sellers can use it for lead research, ideal customer profile (ICP) fit assessment, and initial email outreach. This article discusses how to configure the details about your company and products you sell, your ideal customer profile, and other settings to help the agent align with your company's sales strategy and goals.
 
 Watch the video to get started with the agent setup:
@@ -41,7 +39,8 @@ Ensure that the following prerequisites are met:
 - You have admin permissions in Dynamics 365 Sales.  
 - You have a Copilot Studio license. Learn more in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).  
 - You turned on the modern UI for the Sales Hub app. Learn more in [Enabling the modern look for my app and removing the toggle](/power-apps/user/modern-fluent-design#enabling-the-modern-look-for-my-app-and-removing-the-toggle).  
-- You turned on AI prompts feature in Power Platform and Copilot Studio. Learn more in [Enable AI prompts in Power Platform and Copilot Studio](/ai-builder/administer#enable-or-disable-ai-prompts-in-power-platform-and-copilot-studio).  
+- You turned on the AI prompts feature in Power Platform and Copilot Studio. Learn more in [Enable AI prompts in Power Platform and Copilot Studio](/ai-builder/administer#enable-or-disable-ai-prompts-in-power-platform-and-copilot-studio).  
+- You turned on the AI insight cards in Power Platform Admin Center. This feature is required for sellers to get notified about lead handovers and view insights on the lead record. Learn more about turning on this feature in [Manage feature settings](/power-platform/admin/settings-features).
 - You modified Data policies to allow the following connectors:
 
     | Connector | Why is it required? |
@@ -97,7 +96,12 @@ The following image shows the permissions to access research insights as an exam
 
 ## Set up Sales Qualification Agent
 
-The Sales Qualification Agent is available in two modes&mdash;Research-only mode and Research and engage mode&mdash;depending on the level of automation you want to achieve. The configuration steps are similar for both types, but the Engage has additional settings such as adding email signature, customized email instructions, and configuring BANT criteria for handover to work autonomously. Let's look at the steps to set up and configure the agents.
+The Sales Qualification Agent is available in two modes&mdash;Research-only mode and Research and engage mode&mdash;depending on the level of automation you want to achieve. The configuration steps are similar for both types, but the Engage has additional settings such as adding email signature, customized email instructions, and configuring BANT criteria for handover to work autonomously.
+
+> [!TIP]
+> We recommend that you test the agent's functionality on a smaller scale before testing it for your production scenario. Learn more about [testing preparation and recommendations](test-sales-qualification-agent-research-engage.md).
+
+Let's look at the steps to set up and configure the agents.
 
 **Follow these steps**:
 
@@ -116,6 +120,7 @@ The Sales Qualification Agent is available in two modes&mdash;Research-only mode
 1. [Configure knowledge sources](configure-sqa-knowledge-source.md) for company and competitor insights, outreach, and follow-up emails.
 1. (**Research and engage mode**) [Run simulation to review the agent's outreach emails](run-simulation-sqa-outreach-email.md) are customized and relevant to the leads.  
 1. After you are satisfied with the configuration, [start the agent](start-sales-qualification-agent.md).
+1. (Optional) [Test the Sales Qualification Agent](test-sales-qualification-agent-research-engage.md).
 
 ## Related information
 

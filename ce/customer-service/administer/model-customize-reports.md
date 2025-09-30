@@ -1,12 +1,12 @@
 ---
 title: Customize data models of historical and real-time analytics reports
-description: Learn to customize data models of historical and real-time analytics reports in Dynamics 365 Customer Service. Add custom key perfomance indicators, extend out-of-the-box reports, and embed in Microsoft Fabric workspaces.
+description: Learn to customize Dynamics 365 analytics reports. Add custom KPIs, extend out-of-the-box models, and embed them in Microsoft Fabric.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 07/28/2025
+ms.date: 09/26/2025
 ms.custom:
   - bap-template
   - dyn365-customerservice
@@ -25,9 +25,9 @@ search.audienceType:
 
 [!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
 
-This article explains how to customize Power BI data models for historical and real-time analytics reports in Dynamics 365 Customer Service. You’ll learn how to extend out-of-the-box data models, add custom metrics and KPIs, and integrate with other semantic models to create reports tailored to your organization’s needs.
+This article explains how to customize Power BI data models for historical and real-time analytics reports in Dynamics 365 Customer Service. Extend out-of-the-box data models, add custom metrics and KPIs, and integrate with other semantic models to create reports that fit your organization’s needs.
 
-The key capabilities of model customization include the ability to:
+Key capabilities of model customization include the ability to:
 
 - Edit the out-of-the-box data model and add new metrics.
 
@@ -48,7 +48,7 @@ Enable data model customization for historical and real-time analytics reports i
 
 ## Prerequisites
 
-Before you begin, you must complete the following prerequisites:
+Before you begin, complete the following prerequisites:
 
 - Specific licensing requirements apply for all report users to access the reports. Learn more at [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718) and [Microsoft Fabric Pricing](https://azure.microsoft.com/pricing/details/microsoft-fabric/).
 - Specific licensing requirements apply for report authors, developers, and administrators to build Power BI reports and extend the out-of-the-box Power BI data model. Learn more at [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718) and [Power Platform Pricing](https://go.microsoft.com/fwlink/?linkid=2309616).
@@ -64,10 +64,10 @@ Before you begin, you must complete the following prerequisites:
 
       The out-of-the-box **Service Principal Dynamics 365 Analytics** is used to deploy the data model and make changes to the Microsoft Fabric workspace on behalf of Customer Service.
 
-      Permissions within Power BI can be granted to groups only and not individual service principals, and therefore a group needs to be created.
+      Power BI lets you grant permissions to groups only, not individual service principals, so you need to create a group.
 
-  > [!NOTE]
-  > In organizations where the Dynamics 365 Analytics service account might not be available, you need to use the Dynamics CCA Data Analytics service account.
+    > [!NOTE]
+  > If the Dynamics 365 Analytics service account isn't available in your organization, use the Dynamics CCA Data Analytics service account.
 
 - Enable Power BI service features from the Microsoft Fabric Admin portal. The Power BI administrator must enable the following, either for the entire organization or for the security group created earlier:
 
@@ -110,7 +110,7 @@ It could take up to 24 hours for the provisioning to complete. You can leave the
 
 ## Step 3: Grant permissions for semantic models and reports
 
-After the report is provisioned, you must provide **Write** permissions for users who author reports in Power BI and **Read** permissions for supervisors and other consumers of the reports.
+After the report is set up, give **Write** permissions to users who author reports in Power BI, and **Read** permissions to supervisors and other report consumers.
 
 You must be a **Workspace Administrator** on both managed and customer workspaces (configured on Step 1) in Power BI to complete this step. By default, the user who starts the provisioning (Step 2) has the necessary permissions added.
 
@@ -124,7 +124,7 @@ You need to provide report authors and viewers with **Allow recipients to build 
 
 ### Grant permissions to the customized Power BI report (optional)
 
-When you select the **Customized Power BI Report** link, the Microsoft Fabric workspace where the sample reports are provided appears in a lineage view. These reports are the copy of your out-of-the-box reports and can be edited and modified. You must provide access to the workspace only if your organization plans on using these copies to develop reports.
+When you select the **Customized Power BI Report** link, the Microsoft Fabric workspace with sample reports appears in a lineage view. These reports are copies of your out-of-the-box reports and can be edited or modified. Give access to the workspace only if your organization plans to use these copies to develop reports.
 
 Select **Access**, and provide **Contributor** access to your report authors and **Viewer** access to users who view these or any other reports built in this Microsoft Fabric workspace. If you plan to embed the report back to Dynamics 365 Customer Service, you must provide **Member** access to the supervisors for them to view the embedded report within the Copilot Service workspace. For more information on data permissions, see [Manage semantic model access permissions (preview)](/power-bi/connect-data/service-datasets-manage-access-permissions).
 

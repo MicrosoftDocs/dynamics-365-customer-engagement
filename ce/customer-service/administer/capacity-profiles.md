@@ -133,10 +133,10 @@ You need not define assignment rules specific to capacity profiles at queue leve
 
 ## Release capacity for representatives
 
-For the system to efficiently manage representatives workload, you must automatically release the representative's capacity when representatives complete their assigned work items. If you manually assign the case to another representative or team using the **Assign** option on the case form, capacity isn't updated for the representatives. Based on system settings, the representative's capacity is released in the following manner:
+For the system to efficiently manage representatives workload, you must automatically release the representative's capacity when representatives complete their assigned work items. Based on system settings, the representative's capacity is released in the following manner:
 
 - **Conversation**: When the representatives end the conversation and close their session.
-- **Case**: When the representative resolves the case. Capacity is also released automatically when the representative cancels the case or removes their assignment by clearing their name from the **Worked By** field on the **Queue Item details** dialog.
+- **Case**: When the representative resolves the case. Capacity is also released automatically when the representative cancels the case or removes their assignment by clearing their name from the **Worked By** field on the **Queue Item details** dialog. If you manually assign the case to another representative or team using the **Assign** option on the case form, capacity is updated.
 - **All records and activities**: Capacity isn't released automatically for activities, such as email, that's configured for record routing. To release the representative capacity, do one of the following steps:
     - [Deactivate the assigned queue item](../develop/deactivate-queue-items.md); the associated work item is closed.
     - If you need to keep the record open, go to the queue item dialog and remove the representative name from the **Worked By** field. The automatic assignment tries to reassign the item to the representative in the queue.

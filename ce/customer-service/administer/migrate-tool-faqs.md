@@ -279,6 +279,4 @@ In Unified Interface, the **Customer** field has only **Regarding(Email)**, rega
 
 [Migrate automatic record creation rules and SLAs](migrate-automatic-record-creation-and-sla-agreements.md)
 
-[Dynamics 365 SLA and ARC Migration Playbook](https://www.d365implementationguide.com/books/aiij/) 
-
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

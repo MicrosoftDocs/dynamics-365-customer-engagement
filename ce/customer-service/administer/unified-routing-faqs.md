@@ -94,6 +94,10 @@ Yes, you can update the limit. Learn more in [How the limit on offering a work i
 
 The representatives aren't offered the same conversation anymore after they decline it and are removed from priority but can be offered other conversations. However, if they're the only ones eligible, the system offers the same conversation up to three times or the configured limit.
 
+### Do assign to and worked by have the same behavior>
+
+Yes, the presence and capacity are updated.
+
 ## Route to least-active representative
 
 ### For which channel is the routing to least-active representative feature available?

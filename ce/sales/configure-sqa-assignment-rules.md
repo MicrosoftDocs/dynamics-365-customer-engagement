@@ -34,10 +34,8 @@ Once the leads are qualified based on the handover criteria, the agent hands the
     :::image type="content" source="media/sqa-settings-assignment-rules.png" alt-text="Screenshot of the Sales Qualification Agent settings page with assignment rules highlighted.":::
 
 1. Select whom to hand over the leads from the following options:  
-    - **Sellers**: Select the users who will handle the leads transferred by the agent. Select **Add users** and then search and select the users.  
-        After you select the users, choose the supervisor who will monitor the assigned leads and handle any issues or escalations. Currently, all users are listed.  
-    - **Teams**: Select a team. The processed leads are assigned to sellers within this team who get leads in round robin order. You can select only one team from the list. Select Add team, and then search and add the team.  
-        After you select the users, choose the supervisor who will monitor the assigned leads and handle any issues or escalations. Currently, all users are listed.
+    - **Sellers/Teams**: Select the users or team who will handle the leads transferred by the agent. If you choose to assign leads to teams, the leads are assigned to sellers within the team in round robin order.
+    - **Add supervisor**: Select a supervisor who will monitor the leads assigned to the agent and take action when necessary. Currently, all users are listed. However, we recommend selecting users with the Sales Manager role.
 
 ## Next steps
 
@@ -45,4 +43,6 @@ Once the leads are qualified based on the handover criteria, the agent hands the
 
 ## Related information
 
-[Configure the Sales Qualification Agent](configure-sales-qualification-agent.md)
+- [Configure the Sales Qualification Agent](configure-sales-qualification-agent.md)  
+- [(Seller)Work on leads handed over by the Sales Qualification Agent (preview)](use-sales-qualification-agent.md)  
+- [(Supervisor)Monitor leads handled by the Sales Qualification Agent (preview)](monitor-leads-by-sales-qualification-agent.md)  
