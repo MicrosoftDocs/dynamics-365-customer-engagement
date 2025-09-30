@@ -1,7 +1,7 @@
 ---
 title: Use Teams chat 
 description: Learn how to use the Teams chat functionality. 
-ms.date: 05/23/2025
+ms.date: 09/30/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -21,7 +21,7 @@ ms.custom:
 > [!NOTE]
 > Case is applicable to Customer Service only.
 
-As a customer service representative (service representative or representative), you can chat in Microsoft Teams from within Copilot Service workspace, Contact Center workspace, Customer Service Hub, and any custom app. While working on customer records, you can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting all the associated chats to a record can help you maintain all the conversations related to the record in one place. 
+As a customer service representative (service representative or representative), you can chat in Microsoft Teams from within Copilot Service workspace, Contact Center workspace, Customer Service Hub, and any custom app. While working on customer records, you can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting all the associated chats to a record can help you maintain all the conversations that are related to that record in one place. 
 
 > [!NOTE]
 > Your administrator needs to enable this feature before you can use it, and you must have certain permissions to access Teams data. Learn more in [Configure Teams chat](../administer/configure-teams-chat.md)
@@ -60,7 +60,7 @@ You can start a new connected chat or convert an existing Teams chat into a conn
 
 Your administrator can configure an optional message that you can send when using the chat to start a collaboration. This message helps you to share succinct, read-only context with your collaborators on Teams.
  
-If you're using Teams for the first time within Copilot Service workspace, Contact Center workspace, or Customer Service Hub, you can select the blue bubble, and then follow the interface guidance.
+If you're using Teams for the first time within Copilot Service workspace, Contact Center workspace, or Customer Service Hub, you can select the blue bubble, and then follow the on-screen guidance.
 
 1.	Open any record, and then select the **Teams chats and channels integration** icon.
     The **Teams chats** panel opens.
@@ -120,7 +120,7 @@ The suggested contacts list displays users who are connected or interacted with 
 
 The **Channels** tab lists the channels that either you’ve connected to the selected record or someone else connected a channel where you’re a participant. If you connected a record to a channel using basic or enhanced collaboration experience, that channel is also listed in this tab. 
 
-You can connect relevant Teams channels to a record, so that all the members can easily access the connected channels from the record and follow the conversation. 
+You can connect relevant Teams channels to a record so that all the members can easily access the connected channels from the record and follow the conversation. 
 
 1. Open any record, and select the Teams chat :::image type="icon" source="../media/teams-icon.png" border="false"::: icon.<br>
    The **Teams chats** pane opens.
@@ -190,13 +190,12 @@ As a representative, when you start a connected chat or connect an existing chat
      > [!div class="mx-imgBorder"] 
      > ![Join a Teams chat from the timeline.](../media/join-teams-chat-timeline.png "Join a Teams chat from the timeline")
 
-
 ## Dynamics 365 links are unfurled in Teams chat
 
-When you paste a link to a record into a Microsoft Teams chat, meeting, or channel, participants see an adaptive card with details about the shared link. Links to canvas apps show the app name and record name. Model-driven app links to records show the table type. When you paste the link, you can delete the card in the message compose window before sending the message if you don’t want to send the link as a card.
+When you paste a link to a record into a Microsoft Teams chat, meeting, or channel, participants see an adaptive card with details about the shared link. Links to canvas apps show the app name and record name. Model-driven app links to records show the table type. When you paste the link, you can delete the card in the message composition window before sending the message if you don’t want to send the link as a card.
 
 > [!NOTE]
-> If you don't have access to the app or record for which you paste a link, no app or record details appear in the unfurled card.
+> If you don't have access to the app or record for which you paste a link, the app and record details don't appear in the unfurled card.
 
 ### Related information
 
