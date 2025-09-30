@@ -87,7 +87,7 @@ For example, if your organization is expecting a large seasonal increase in chat
 
 ## Map roles to personas
 
-After you enable persona mapping, the system automatically assigns default roles depending on the Dynamics 365 services that're enabled for your environment. For an environment with Customer Service Enterprise license, the default mapping includes Customer Service Representative and CSR manager roles. For an environment with Omnichannel for Customer Service, the three primary security roles are mapped to personas. If both services are enabled, both sets of default mappings are included. The following table contains the mapping information for the roles in Customer Service and Omnichannel for Customer Service.
+After you enable persona mapping, the system automatically assigns default roles depending on the Dynamics 365 services that're enabled for your environment. For an environment with Customer Service Enterprise, the default mapping includes Customer Service Representative and CSR manager roles. For an environment with Omnichannel for Customer Service, the three primary security roles are mapped to personas. If both services are enabled, both sets of default mappings are included. The following table contains the mapping information for the roles in Customer Service and Omnichannel for Customer Service.
 
 | Service | Admin persona default mapping | Supervisor persona default mapping | Agent persona default mapping |
 | ------------- | ---------------- | ------------------- | --------------- |

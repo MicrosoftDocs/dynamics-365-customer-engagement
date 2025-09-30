@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 09/16/2025
+ms.date: 09/26/2025
 ms.custom:
   - dyn365-customerservice
   - bap-template
@@ -22,13 +22,13 @@ search.audienceType:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The **Summary** report provides a summary of customer conversations over time, by channel or queue. This report shows all omnichannel type queues, such as messaging, live chat, phone, except entity record type queues. You can view entity record type queues in real-time analytics for record routing reports. Statistics about the channel that a conversation came from can help you analyze and manage queue distribution. For example, a high rate of abandoned conversations can lead to decreased customer satisfaction. To address the rate of abandoned conversations, you can examine operational metrics such as customer service representative (service representative or representative) availability and queue distribution in real time. Learn how to [access the report](intro-realtime-analytics-dashboard.md#access-reports).
+The **Summary** report shows customer conversations over time by channel or queue. This report shows all omnichannel type queues, like messaging, live chat, and phone, except entity record type queues. View entity record type queues in real-time analytics for record routing reports. Statistics about the channel a conversation comes from help you analyze and manage queue distribution. For example, a high rate of abandoned conversations can decrease customer satisfaction. To fix abandoned conversations, examine operational metrics like customer service representative (service representative or representative) availability and queue distribution in real time. Learn how to [access the report](intro-realtime-analytics-dashboard.md#access-reports).
 
-Additionally, you can track customer sentiment to analyze whether customers are getting adequate support. For example, a high average handle time might indicate that service representatives are taking more than the required time to resolve customer issues. Depending on the issue, you can provide the required training or support to help service representatives resolve customer issues faster.
+Track customer sentiment to learn if customers get enough support. For example, a high average handle time might mean service representatives take longer than needed to fix customer issues. Depending on the issue, provide training or support to help service representatives fix customer issues faster.
 
-You can filter this report by time, channels, queue, time zone, conversation status, and skills. Learn more in [Overview of the real-time Omnichannel analytics dashboard](intro-realtime-analytics-dashboard.md).
+Filter this report by time, channel, queue, time zone, conversation status, and skills. Learn more in [Overview of the real-time Omnichannel analytics dashboard](intro-realtime-analytics-dashboard.md).
 
-By editing the visual display, you can add metrics to the ones that are already shown on the **Summary** report. Learn more in [Customize visual display](customize-reports.md).
+Edit the visual display to add metrics to those already shown on the **Summary** report. Learn more in [Customize visual display](customize-reports.md).
 
 [Learn more about the metrics that are shown on the Summary report](../develop/calculate-conversation-metrics.md#calculate-conversation-metrics).
 
@@ -36,13 +36,13 @@ By editing the visual display, you can add metrics to the ones that are already 
 
 ## Interactive charts
 
-You can view different types of charts on the report, such as bar, horizontal bar, and donut charts. The visual display helps you discern changes and patterns in the data, so that you can act quickly to address the most important issues.
+View different types of charts on the report, like bar, horizontal bar, and donut charts. The visual display helps you spot changes and patterns in the data, so you can act quickly to address the most important issues.
 
-When you select a component in a chart, the data is filtered accordingly. In this way, you can view only data that is related to the selected component. For example, if you select the **Busy** component in the **Agent availability status** chart, the dashboard is refreshed and shows only the service representatives who are currently in the **Busy** state.
+When you select a component in a chart, the data filters accordingly. This way, you see only data related to the selected component. For example, if you select the **Busy** component in the **Agent availability status** chart, the dashboard refreshes and shows only the service representatives who are currently in the **Busy** state.
 
 ## Drill-down reports
 
-Drill down to sections of a report to find the data that interests you the most. This section provides details about the two drill-down reports that you can view on the **Summary** report.
+Drill down to sections of a report to find the data that interests you most. This section describes the two drill-down reports you view on the **Summary** report.
 
 ### Conversations over time drill-down report
 

@@ -1,12 +1,12 @@
 ---
 title: Use activity monitor to review and track rules
-description: Manage activity monitor to review and track rules in Customer Service to view activity events, states, rule names, and more.
-author: gandhamm
-ms.author: mgandham
-ms.reviewer: mgandham
+description: Learn to manage activity monitor settings to track rule states, monitor events, and troubleshoot issues in Customer Service.
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 05/05/2025
+ms.date: 09/22/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -33,7 +33,7 @@ In Copilot Service admin center, **Customer support** > **Overview** > **Case se
 2. The following details are available for the rules in the activity views:
    - **Current state:** Displays the state, such as, Failed, Skipped, or Ready for Power Automate.
    - **Rule name:** Name of the record creation rule.
-   - **Monitored activity type:** Activity type, such as email, task, or appointment. By default this is not available on the **Activity monitor events for last 7 days** page. Use **Edit columns** to add the column to the view.
+   - **Monitored activity type:** Activity type, such as email, task, or appointment. By default, activity type isn't available on the **Activity monitor events for last 7 days** page. To add the column to the view, use **Edit columns**.
    - **Monitored activity item:** Displays the subject of the activity type.
    - **Condition name:** The name of the condition in which the issue occurred.
    - **Reason:** Displays information on how the rule was handled. For example, a case isn't created if the **Current state** for a rule is Skipped because an email is sent from an unknown sender who isn't added to **Contacts** and the rule condition, **Allow email from unknown senders** is set to No.
@@ -43,13 +43,13 @@ In Copilot Service admin center, **Customer support** > **Overview** > **Case se
    - **Evaluated on:** Displays the date and time of the issue.
 1. Select a rule or activity to view the activity monitoring summary that is displayed on the **Activity monitor** <rule_name> page.
    - If you navigate to an active rule from the activity monitor page, a message appears stating that the rule is active and therefore is read-only.
-   - The legacy rules will also be monitored and listed on the activity monitor view.
+   - The legacy rules are also monitored and listed on the activity monitor view.
  :::image type="content" source="../media/activity-monitor-page.png" alt-text="A screenshot of the Activity monitor rule_name page.":::
 1. If you don't want to monitor any of the following states, you can clear the selection on the **Monitor options** dialog.
-   - Ready for Power Automate / workflow
-   - Failed
-   - Skipped
-
+   - **Ready for Power Automate / workflow**: Automatic record creation triggered the associated flow.
+   - **Failed**: Automatic record creation encountered an error. Review the reason and recommendation column for details.
+   - **Skipped**: Activity isn't processed, and the system skips it by design. Review the reason and recommendation column for details.
+   
 > [!NOTE]
 > To reprocess queue items that didn't succeed, go to **All Activities**. Select the activity you want to run, select **Add To Queue**, and then specify the queue that you want to add the selected record to.
 

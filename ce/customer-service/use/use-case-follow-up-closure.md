@@ -16,7 +16,7 @@ ms.custom: bap-template
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 
-The Case Management Agent uses AI to generate and send periodic follow-up emails that keep customers informed about their case status. If customers don't respond after a configured number of follow-up attempts, the AI agent suggests that you can close the case.
+Case Management Agent uses AI to generate and send periodic follow-up emails that keep customers informed about their case status. If customers don't respond after a configured number of follow-up attempts, the AI agent suggests that you can close the case.
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -24,10 +24,15 @@ The Case Management Agent uses AI to generate and send periodic follow-up emails
 
 Based on the follow-up rules and trigger configured by your administrator, the AI agent performs the following actions:
  
-1. Checks if a case meets the rules set to qualify for the follow-up process.
-1. Maps the **Status Reason** value on the case form to the status reason trigger set by your administrator. 
-1. Determines if the customer responded to your email within the configured duration for the first response time. If the status reason matches the trigger and your administrator's configuration, the AI agent does one of the following:
+### Runtime experience
+
+Based on the follow-up rules and trigger configured, the AI agent performs the following actions:
  
+1. Checks if a case meets the rules set to qualify for the follow-up process.
+1. Maps the **Status Reason** value on the case form to the status reason trigger set by you. 
+1. Determines if the customer responded to the service representative's email within the configured duration for the first response time.
+1. If the status reason matches the trigger, based on the configuration, the AI agent does the following:
+
 ### [Fully automated case follow-up and closure](#tab/fullyautomatedcasefollowup)
  
 Automatically sends the follow-up emails to customer and then resolves the case without human intervention.
@@ -47,6 +52,13 @@ The **Suggested actions** card displays the following actions:
    - **Resolve case**: The customer didn't respond to any follow-up emails you sent. Select **Resolve case** to view the **Case Resolution** dialog. You can then close any open activities and resolve the case.
 
 ---
+
+The email drafted by the AI agent is based on the configuration you set in **Global settings (preview)** or the email templates you configured in the **Case follow-up and closure (preview)** page. Learn more in:
+
+- [Use Copilot recommended email templates](/dynamics365/contact-center/use/use-copilot-email#use-copilot-recommended-email-templates)
+- [Use line-of-business tagged email templates](/dynamics365/contact-center/use/use-copilot-email#use-email-templates-tagged-with-line-of-business)
+ 
+
 ## Related information
 
 - [Set up Case Management Agent for case follow-up and closure](../administer/set-up-case-closure.md)

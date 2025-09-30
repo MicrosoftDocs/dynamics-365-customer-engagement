@@ -10,8 +10,6 @@ ms.reviewer: nenellim
 
 # Manage sessions in the workspace app
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 As a customer service representative (service representative or representative), you can switch between sessions without losing context of the conversation and customer details. You can handle multiple sessions simultaneously (while preserving customer context) and improve productivity.
 
 When a session starts:

@@ -11,10 +11,7 @@ ms.custom: bap-template
 
 # FAQ about Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
-
 
 ## General
 
@@ -44,7 +41,7 @@ Some of the supported channels are LINE and Facebook. For the complete list of s
 
 ### Are Chat and the associated Omnichannel for Customer Service capabilities available as part of my Dynamics 365 Customer Service license?
 
-No, Chat and related capabilities in Omnichannel for Customer Service require a separate add-in. Learn more about licenses and pricing in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). You can also purchase add-ins on the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?LinkId=866544). Learn more in [Buy add-ons](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true).
+No, Chat and related capabilities in Omnichannel for Customer Service require a separate add-in. Learn more about licenses and pricing in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). You can also purchase add-ins on the Microsoft 365 admin center. Learn more in [Buy add-ons](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true).
 
 ### How do I get started?
 

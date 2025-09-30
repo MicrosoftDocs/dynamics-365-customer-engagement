@@ -3,7 +3,7 @@ title: "Extend Universal Resource Scheduling with custom constraint"
 description: "This page is a step-by-step guide for extending Universal Resource Scheduling with a custom constraint, using the example of filtering resources by language."
 author: mkelleher-msft
 ms.author: mkelleher
-ms.date: 07/28/2025
+ms.date: 09/24/2025
 ms.reviewer: puneet-singh1
 ms.subservice: common-scheduler
 ms.topic: how-to
@@ -168,14 +168,14 @@ In order to keep these changes isolated, we create a brand new separate Schedule
 
 #### Update the Schedule Board Filter Layout
 
-Next, we create a new configuration record, which stores filter layouts and queries used by the Schedule Board, and then we link the newly created Schedule Board to the new configuration record. There are multiple ways to do this, but here's the quickest:
+Next, create a new configuration record that stores filter layouts and queries used by the Schedule Board. Then, link the newly created Schedule Board to the new configuration record. There are multiple ways to do this, but here's the quickest method:
 
 1. Select the **Language** tab.
 1. Scroll down to **General Settings** > **Other Settings**.
-1. Locate the **Filter Layout** field, select the button to the right to open the editor
+1. Locate the **Filter Layout** field, select the button to the right to open the editor.
 1. Update the Value field with the Filter Layout code above and select Save As. 
 1. Enter "Language Filter Layout" in the Name field and select Save. This creates a new configuration record and links this Schedule Board to the record.
-1. At the bottom of the dialog, select Apply
+1. At the bottom of the dialog, select Apply.
 
 The board reloads and you see the Filter panel on the left with the new layout. Only the Languages filter is available. Filtering doesn't work yet until you update the Retrieve Resources Query.
 
@@ -433,15 +433,17 @@ The complete Schedule Assistant Filter Layout
 
 #### Update the Schedule Assistant Filter Layout
 
-1. In the top right, double-click the Language tab
-1. In the top right, select Open Default Settings
-1. Scroll to the Schedule Types section and select None in the left list
-1. Locate the Schedule Assistant Filter Layout field, select the button to the right to open the editor
-1. Update the Value field with the Schedule Assistant Filter Layout code above and select Save As
-1. Enter "Language Schedule Assistant Filter Layout" in the Name field and select Save. This creates a new configuration record and links this Schedule Board to the record.
-1. At the bottom of the dialog, select Apply
 
-The board will reload. Next, we need to change the Retrieve Constraints Query before we can use the Schedule Assistant with our new Language constraints, so that the Languages set on the Requirement are part of the Schedule Assistant search.
+1. In the Schedule Board, select the three dots (...) in the top right, and select **Scheduler settings**.
+1. In the **Board view settings** panel, select **All board settings**.
+1. Scroll to **Scheduler Types** and select **None**.
+1. Select **Edit defaults** located at the bottom.
+1. Locate the **Schedule assistant filter layout** field, select the pencil icon to open the editor.
+1. Enter **Language Schedule Assistant Filter Layout** in the **Name** field.
+1. Update the **Schedule assistant filter layout** field with the code above and select **Save as new**. This creates a new configuration record and links this Schedule Board to the record.
+1. At the bottom of the Board settings dialog, select **Save**.
+
+The board reloads. Change the Retrieve Constraints Query to include the Languages set on the Requirement in the Schedule Assistant search.  
 
 ### Retrieve Constraints Query Configuration
 

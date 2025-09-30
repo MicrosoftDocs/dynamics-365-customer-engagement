@@ -22,8 +22,6 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-[!INCLUDE[sqa-73-note](../includes/sqa-73-note.md)]
-
 As a supervisor or administrator, you can monitor the performance of the Sales Qualification Agent and the leads it handles to verify its effectiveness. The supervisor workspace includes a dashboard that provides insights into the agent's performance, including the percentage of leads handled by the agent, revenue generated from these leads, and customer engagement effectiveness. 
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
@@ -38,9 +36,12 @@ As a supervisor or administrator, you can monitor the performance of the Sales Q
 1. Select the **Time period** filter to specify the period for which you want to view the data. By default, the dashboard shows data for the last 7 days.
 1. To view the list of leads handled by the agent, select any of the following buttons:
 
+> [!NOTE]
+> If you don't see the views mentioned in this section, contact your admin to [add agent-specific views to your app](start-sales-qualification-agent.md#add-agent-specific-views-to-your-app).
+
    - **See disqualified leads**: Opens the **Leads disqualified by AI agent** view that lists leads that were disqualified by the agent during the selected time period. Open a lead to view the details of the disqualification in the **Lead insights** page. If you don't agree with the disqualification, select **Reassign** to assign the lead to a seller for follow-up and qualification.
 
-   - **See leads in process**: Opens the **Leads in process by AI agent** view that lists all leads that the agent is currently processing. This includes leads that are being researched and leads that are being engaged with (research and engage mode only). In the research and engage mode, leads might stay in the "In process" state for a longer time if the agent is waiting for a response from the lead.
+   - **See leads in process**: Opens the **Leads being processed by AI agent** view that lists all leads that the agent is currently processing. This includes leads that are being researched and leads that are being engaged with (research and engage mode only). In the research and engage mode, leads might stay in the "In process" state for a longer time if the agent is waiting for a response from the lead.
 
    - **See handed over leads**: Opens the **Leads handed over by AI agent** view that lists all leads that were handed over to sellers for followup and qualification during the selected time period.
    

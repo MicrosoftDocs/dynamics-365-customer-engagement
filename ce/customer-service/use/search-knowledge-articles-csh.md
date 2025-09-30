@@ -1,11 +1,11 @@
 ---
 title: Search knowledge articles
-description: Learn how to search for and view knowledge articles in Dynamics 365 Customer Service.
+description: Learn how to search and view knowledge articles in Dynamics 365 Customer Service to quickly resolve customer issues and improve service efficiency.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 04/22/2025
+ms.date: 09/26/2025
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -20,9 +20,9 @@ search.audienceType:
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 
-Search and view knowledge articles to help answer a customer's question or solve an issue.
+Search and view knowledge articles to answer a customer's question or solve an issue.
 
-Knowledge base search is available in Customer Service Hub, Copilot Service workspace, and some versions of [Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#agent-productivity-enhancements-to-knowledge-capabilities). Customers can search your knowledge base on their own if your organization provided a [self-service portal](knowledge-base-search-methods.md).
+Knowledge base search is available in Customer Service Hub, Copilot Service workspace, and some versions of [Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#agent-productivity-enhancements-to-knowledge-capabilities). Customers can search your knowledge base if your organization provides a [self-service portal](knowledge-base-search-methods.md).
 
 ## Prerequisites
 
@@ -67,7 +67,7 @@ When the global search knowledge configuration option is enabled, you can search
 :::image type="content" source="../media/csw-global-preview.png" alt-text="Screenshot that shows the preview icon in the representative experience.":::
 
 > [!NOTE]
-> If you have overwritten the **OpenRecordItem** command for the knowledge article, and if the global search knowledge configuration option is enabled, the knowledge article format follows the customizations that you have provided. If you haven't enabled the preview option, the knowledge article opens in the knowledge authoring form.
+> If you have overwritten the **OpenRecordItem** command for the knowledge article, and if the global search knowledge configuration option is enabled, the knowledge article format follows the customizations provided by you. If the preview option isn't enabled, the knowledge article opens in the knowledge authoring form.
 
 ## Search the knowledge base in Customer Service Hub
 
@@ -193,7 +193,7 @@ In Customer Service Hub:
 
 In Copilot Service workspace:
 
-For more information on setting up search providers, refer to [Set up external search providers](../administer/set-up-search-providers.md#set-up-external-search-providers).
+Learn more about setting up search providers in [Set up external search providers](../administer/set-up-search-providers.md#set-up-external-search-providers).
 
 ## Search across integrated providers
 
@@ -228,7 +228,7 @@ You can perform the following actions on knowledge articles you view in an app t
 
 In Customer Service Hub, select an article title. The full article opens inline, right in the search control.
 
-If you receive an error like this when you open an article: "Update your origins allow list if any iframe in the article doesn't work or displays error," ask your administrator to [update your origins allow list](../administer/configure-knowledge-article-origin-allow-list.md).
+If you receive an error like this when you open an article: "Update your origins allowlist if any iframe in the article doesn't work or displays error," ask your administrator to [update your origins allow list](../administer/configure-knowledge-article-origin-allow-list.md).
 
 :::image type="content" source="../media/km-inline-article-view.png" alt-text="Screenshot of a knowledge article viewed inline in the search control.":::
 

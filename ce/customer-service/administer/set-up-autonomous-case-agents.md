@@ -37,11 +37,12 @@ You can use the creation and update feature of Case Management Agent to do the f
     - Make sure you [configure authenticated chat](create-chat-auth-settings.md). Case Management Agent can create and update cases from authenticated chats only.
     - [Create and manage workstreams](create-workstreams.md) and [Create and manage queues for unified routing](queues-omnichannel.md) are set up.
 -  [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center application.
-- The Autonomous Case Management agent uses the Data Entry Agent in the background. The Power Platform [Pay-as-you-go plan](/power-platform/admin/pay-as-you-go-overview) mandates the usage of an Azure subscription the system charges when the agent runs. Make sure you [Set up consumption-based billing](setup-pay-as-you-go.md).
+- Case Management Agent uses the Data Entry Agent in the background. The Power Platform [Pay-as-you-go plan](/power-platform/admin/pay-as-you-go-overview) mandates the usage of an Azure subscription the system charges when the agent runs. Make sure you [Set up consumption-based billing](setup-pay-as-you-go.md).
 - Transcription is enabled for the channels that support voice conversations. For more information, see [Enable transcription for voice channels](voice-channel-configure-transcripts.md#enable-call-recording-and-transcription-for-voice).
 -  We recommend that you enable audit history and make sure service representatives have the required access to the case and related entities that the AI agent updates. Learn more in [Manage Dataverse auditing](/power-platform/admin/manage-dataverse-auditing).
 - For customers to provide the details that the AI agent can use, you can configure [preconversation survey](configure-pre-chat-survey.md).
 - Make sure the service representatives working on the case and accepting conversations have read privileges on the `msdyn_entityattributepredictionrules` table.
+- For the AI agent to predict case fields from emails autonomously, do the steps in [Configure global settings for Case Management Agent (preview)](case-management-global-settings.md).
 
 ### Update field and lookup descriptions in Power Apps
 
@@ -138,16 +139,16 @@ In **Agent experience data from Representative experience data**, you can select
 
 ## Example 
 
-When a customer initiates a chat conversation with the service representative, the AI agent creates if it has enough context to update at least one of the **Issue description** or **Contact** fields.
+When a customer initiates a chat conversation with the service representative, the AI agent creates a case if there is enough context to update at least one of the **Issue description** or **Contact** fields.
 
 For the agent to run this scenario, specify the following in the **Case creation and update (preview)** page:
  
 - **Channel**: Chat  
 - **Fields for AI prediction**: Issue description, Contact  
 
-When the conversation ends, the AI agent must update the **Issue description** and **Contact** fields, if there are any updates. Additionally, the **Product**, **Priority**, and **Serial number** fields should also be updated if the case category is set to **product defect**. 
+When the conversation ends, the AI agent must update the **Issue description** and **Contact** fields, if there are any updates. The **Product**, **Priority**, and **Serial number** fields should also be updated if the case category is set to **product defect**. 
 
-For the agent to run this scenario, in addition to the **Issue description** and **Contact** fields set in **Fields for AI prediction** specify the following in the **Case update by AI agent (any channel)** section:
+For the agent to run this scenario, in addition to the **Issue description** and **Contact** fields set in **Fields for AI prediction**, specify the following in the **Case update by AI agent (any channel)** section:
 
 - Select **Create** for **Case update rules**. 
 - In the **New rule** page, specify the **Rule name** and the following:

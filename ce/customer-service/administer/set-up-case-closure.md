@@ -16,7 +16,7 @@ ms.custom: bap-template
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 
-The Case Management Agent follows up with customers over email. If customers don’t respond after a specified number of follow-ups, the agent closes the cases automatically. This reduces manual communication overhead and streamlines case resolution.
+Case Management Agent follows up with customers over email. If customers don’t respond after a specified number of follow-ups, the agent closes the cases automatically. This reduces manual communication overhead and streamlines case resolution.
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -24,32 +24,31 @@ The Case Management Agent follows up with customers over email. If customers don
 ## Prerequisites
 
 - The CSR Manager or System Administrator role.
-- If you configure the fully automated case follow-up and closure, the following apply to the fully-automated case follow-up and closure process:
-- application user to send and receive emails and shared inbox. Learn more in [Prerequisites](set-up-case-resolution-agent.md#prerequisites).
-- Copilot recommended email templates and default email templates configured in the **Global settings (preview)** page. Learn more in [Configure global settings](set-up-case-resolution-agent.md#configure-global-settings).
+- For the AI agent to send follow-up emails autonomously, you must set up a dedicated application user to send and receive emails on behalf of your organization. Perform the steps in [Configure global settings for Case Management Agent (preview)](case-management-global-settings.md).
+- Copilot recommended email templates and default email templates configured in the **Global settings (preview)** page. Learn more in [Configure global settings](set-up-case-resolution-agent.md#configure-case-resolution-settings).
 
 ## Configure autonomous case follow-up and closure
 
-Perform the following steps in Copilot Service admin center to set up autonomous case follow-up and closure:
+Perform the following steps in Copilot Service admin center to set up autonomous case follow-up and closure. The AI agent evaluates the configured rules and when the conditions match, initiates the follow-up and closure process.
 
 1. Select **Case settings** in **Customer support**. The **Case settings** page appears.
 1. On the **Case settings** page, select **Manage** for **Case Management Agent**.
 1. On the **Case Management Agent** page, select **Autonomous case follow-up and closure (preview)**.
 1. On the page that appears, select **Turn on the case follow-up and closure automation**.
 1. Select **Add** to create a new rule for case follow-up and closure.
-1. In **Rules**, specify the following information. The AI agent evaluates the rules and when the conditions match, initiates the follow-up and closure process.
+1. In **Rules**, specify the following information. 
    - **Rule name**
-   - **Conditions:** Specify the criteria for which the rule must run.
-   - **Level of automation**: Select the automation level.
-        - **Required agent confirmation**: The AI agent drafts follow-up emails, initiates case closure and populates the required fields, but requires the service representative to review and send the email and manually close the case. 
+   - **Conditions:** The criteria for which the rule must run.
+   - **Level of automation**: The automation level.
+        - **Require human confirmation**: The AI agent drafts follow-up emails, initiates case closure and populates the required fields, but requires the service representative to review and send the email and manually close the case. 
         - **Full automation**: The AI agent automatically sends follow-up emails and closes the case if the customer does not respond after the specified number of follow-ups.
    - **Follow-up emails:** Fields the agent should refer to when drafting the follow-up emails. This is optional.
-   - **Status Reason:** Specify the status reason that triggers a follow-up action as a suggestion to the representative.
+   - **Status Reason:** The status reason that triggers a follow-up action as a suggestion to the representative.
    - **Number of follow-ups:** The number of follow-up emails the agent must send without a response from the customer before resolving a case. The application considers the email sent by the service representative without a response from the customer as the first follow-up.
-   - **Follow-up wait times:** Specify the duration between follow-up emails.
+   - **Follow-up wait times:** The duration between follow-up emails.
    - **Follow-up email templates**: Select **Edit** to specify the email templates that the AI agent must use to send emails for follow ups.
     > [!NOTE]
-    > The AI agents uses the rule-specific email templates to generate emails even if you configured the Copilot recommended email templates and default email templates in the **Global settings (preview)** page.
+    > The AI agent uses the rule-specific email templates to generate emails even if you configured the Copilot recommended email templates and default email templates in the **Global settings (preview)** page.
    - Select **Save**.
 5. On the **Case follow-up and closure (preview)** page, select the rule and then select **Activate**.
 1. Optionally, after creating the rules, you can:
@@ -65,8 +64,8 @@ In Power Apps, make sure that the **CSCaseClosure Agent Flow**, **CSCaseFollowup
 
 1. Navigate to **Power Automate** > **Solutions**.
 1. Select your solution.
-1. In **Objects**, search for and select **Cloud flows**.
-1. The default Cloud flows in the organization are displayed. Select edit for each of **CSCaseClosure Agent Flow**, **CSCaseFollowup Agent flow**, and **CSCaseClosure Representative Flow**. The connection status of the flow should be **Connected**.
+1. In **Objects**, search for and select **Cloud flows**. The default Cloud flows in the organization are displayed. 
+1. Select edit for each of **CSCaseClosure Agent Flow**, **CSCaseFollowup Agent flow**, and **CSCaseClosure Representative Flow**. The connection status of the flow should be **Connected**.
 
 
 :::image type="content" source="../media/powerapps-flow-status.png" alt-text="Screenshot of connection status of flow.":::
@@ -88,25 +87,7 @@ The AI agent should automatically initiate the case follow-up process for cases 
     2. Second follow-up: 48 hours  
     3. Final follow-up: 48 hours  
 
-### Runtime experience
-
-Based on the follow-up rules and trigger configured, the AI agent performs the following actions:
- 
-1. Checks if a case meets the rules set to qualify for the follow-up process.
-1. Maps the **Status Reason** value on the case form to the status reason trigger set by you. 
-1. Determines if the customer responded to the service representative's email within the configured duration for the first response time.
-1. If the status reason matches the trigger, based on the configuration, the AI agent does the following:
-
-  - **Fully-autonomous**: Automatically drafts and sends the follow-up emails to the customer. If the customer doesn't respond after the third follow-up, the AI agent resolves the case by populating the configured case resolution fields and closing all open activities linked to the case.
-  - **Requires agent confirmation**: The AI agent drafts the follow-up emails and displays a **Suggested actions** card on the case form. The service representative can review the email, edit it if necessary, and then send it to the customer. If the customer doesn't respond after the third follow-up, the AI agent suggests that the service representative resolve the case. 
-
-The email drafted by the AI agent is based on the configuration you set in **Global settings (preview)** or the email templates you configured in the **Case follow-up and closure (preview)** page. Learn more in:
-
-- [Use Copilot recommended email templates](/dynamics365/contact-center/use/use-copilot-email#use-copilot-recommended-email-templates)
-- [Use line-of-business tagged email templates](/dynamics365/contact-center/use/use-copilot-email#use-email-templates-tagged-with-line-of-business)
-
- 
-For the configuration in our [example](#example), the AI agent first evaluates all the cases that have "Contoso Coffee" in the title and are older than 7 days. If the **Status Reason** of the case is set to "On Hold", and if the customer hasn't responded to the email sent by the AI agent in the last 48 hours, the AI agent initiates the case follow-up process. If the customer doesn't respond after the third follow-up, the AI agent populates the case resolution dialog with the required information and closes the case.
+The AI agent first evaluates all the cases that have "Contoso Coffee" in the title and are older than 7 days. If the **Status Reason** of the case is set to "On Hold", and if the customer hasn't responded to the email sent by the AI agent in the last 48 hours, the AI agent initiates the case follow-up process. If the customer doesn't respond after the third follow-up, the AI agent populates the case resolution dialog with the required information and closes the case.
 
 
 ## Next steps

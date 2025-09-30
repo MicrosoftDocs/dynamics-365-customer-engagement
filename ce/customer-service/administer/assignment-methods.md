@@ -1,7 +1,7 @@
 ---
 title: Assignment methods for queues
-description: Learn about the different assignment methods for queues and how you can use them in unified routing.
-ms.date: 07/18/2025
+description: Learn about the different assignment methods for queues and how you can use them in unified routing in Dynamics 365 Contact Center and Customer Service.
+ms.date: 09/23/2025
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -25,17 +25,11 @@ Use assignment methods to determine how to assign work items. You can use the ou
 
 ## How automated assignment works
 
-The auto assignment process in unified routing matches incoming work items with the best-suited customer service representatives (service representative or representative) based on the configured assignment rules. This continuous process consists of multiple assignment cycles and a default block size of work items.
+The auto assignment process in unified routing matches incoming work items with the best-suited customer service representatives (service representative or representative) based on the configured assignment rules. This continuous process consists of multiple assignment cycles.
 
-Each cycle picks up the top unassigned work items in the applicable default block size and attempts to match each work item with an appropriate representative. Work items that aren't assigned to representatives because of their unavailability or because no matching skill was found are routed back to the queue. The next assignment cycle picks up the next block of the top-priority items that includes new work items.
+Each cycle picks up the top unassigned work items and attempts to match each work item with an appropriate representative. Work items that aren't assigned to representatives because of their unavailability or because no matching skill was found are routed back to the queue. The next assignment cycle picks up the next top-priority items that includes new work items.
 
-When eligible representatives aren't found for the work items, the assignment cycle keeps retrying to assign the top number of default sized block items as applicable for the channel.
-
-For digital messaging and voice, the default block size is 100 work items of top priority.
-
-For the records channel,
-- The work items prioritized per queue are 10,000 
-- The work items processed for assignment are 2,000 by default
+When eligible representatives aren't found for the work items, the assignment cycle keeps retrying to assign the top items as applicable for the channel.
 
 Learn more in [best practices to manage queues](unified-routing-best-practices.md#manage-queues).
 
@@ -283,7 +277,7 @@ You can update the OData call as follows to modify the limit.
 ### Related information
 
 [Configure assignment methods and rules](configure-assignment-rules.md)  
-[FAQ about unified routing in Customer Service, Omnichannel for Customer Service](unified-routing-faqs.md)  
+[FAQ about unified routing](unified-routing-faqs.md)  
 [Conversation diagnostics](configure-conversation-diagnostics.md)  
 [Create workstreams](create-workstreams.md)  
 [Create queues](queues-omnichannel.md)  
