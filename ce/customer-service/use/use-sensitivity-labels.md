@@ -1,5 +1,5 @@
 ---
-title: Use sensitivity labels in emails
+title: Use sensitivity labels in emails (preview)
 description: Classify and protect sensitive information in emails in Dynamics 365 Customer Service and Dynamics 365 Contact Center using sensitivity labels.
 author: gandhamm
 ms.author: mgandham
@@ -9,9 +9,15 @@ ms.collection:
 ms.date: 09/21/2025
 ---
 
-# Use sensitivity labels in emails
+# Use sensitivity labels in emails (Preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 
 Sensitivity labels help you classify and protect business data. When you send or receive emails in Dynamics 365 Customer Service or Dynamics 365 Contact Center, sensitivity labels make sure your communications follow your organization’s security and compliance policies. These labels help protect sensitive information, prevent accidental sharing, and ensure that attachments and replies remain consistent with organizational rules.
+
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+
 
 ## How sensitivity labels work in your emails
 
@@ -37,3 +43,6 @@ Some sensitivity labels apply encryption to emails, which means only authorized 
 - If you receive an encrypted email in Customer Service, you are able to view it in the app, or you can be redirected to Outlook on the web (OWA) if additional actions are required.  
 - When you send an encrypted email, the label ensures only the intended recipients can open it. Recipients outside your organization can have restricted access depending on policy.  
 
+### Related information
+
+[Configure sensitivity label support for emails (preview)](../admin/configure-email-sensitivity.md)
