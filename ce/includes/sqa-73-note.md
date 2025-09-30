@@ -1,5 +1,0 @@
-> [!NOTE]
-> This article is for the 9.0.25073.10001 (7.3) version of the Sales Qualification Agent, which is being gradually deployed to different regions. 
->- To know the version in your organization, go to **Settings**(*:::image type="icon" source="../sales/media/settings-icon.png" border="false":::*) > **About**, and check **Server version** in the Sales Hub app. 
->- To check your deployment schedule, go to [Latest version availability](/dynamics365/released-versions/dynamics365sales#latest-version-availability) and look for the 9.0.25073.10001 version. 
->- If your org is still on the earlier version, see [Sales Qualification Agent overview (pre-7.3 version)](../sales/sales-qualification-agent-43.md). However, the agent will go into Draft mode after the 7.3 deployment and you must [reconfigure it](../sales/upgrade-sales-qualification-agent.md) to use the agent.

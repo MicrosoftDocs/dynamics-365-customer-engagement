@@ -22,8 +22,6 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-[!INCLUDE[sqa-73-note](../includes/sqa-73-note.md)]
-
 As a supervisor or administrator, you can monitor the performance of the Sales Qualification Agent and the leads it handles to verify its effectiveness. The supervisor workspace includes a dashboard that provides insights into the agent's performance, including the percentage of leads handled by the agent, revenue generated from these leads, and customer engagement effectiveness. 
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]

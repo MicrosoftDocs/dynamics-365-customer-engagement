@@ -1,7 +1,7 @@
 ---
 title: Automatically create or update records in Dynamics 365 Customer Service
-description: Learn how to set up rules to automatically create or update records from emails and activities.
-ms.date: 09/02/2025
+description: Learn how to set up rules in Dynamics 365 Customer Service to automatically create or update records from emails and activities, improving efficiency and data quality.
+ms.date: 09/26/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -26,16 +26,16 @@ searchScope:
 
 [!INCLUDE[cc-trial-sign-up](../../includes/cc-trial-sign-up.md)]
 
-You can automatically create or update system or custom records from incoming activities, such as emails, social activities, and custom activities. In this article, learn how to create rules to automatically create records for cases from incoming emails.
+Automatically create or update system or custom records from incoming activities like emails, social activities, and custom activities. This article shows you how to set up rules to create records for cases from incoming emails.
 
 > [!NOTE]
-> Modern automatic record creation and update rules isn't supported on on-premises environments.
+> The modern automatic record creation and update rules feature isn't supported for on-premises environments.
 
 ## Set up rules for creating or updating records automatically
 
-Every organization has multiple applications to capture customer interactions. The ability to channel external data into Microsoft Dataverse records can significantly improve the efficiency of your sales, marketing, and service teams, and increase the quality of your data. You can now direct this data from various applications and external sources into Dataverse with the help of record creation and update rules.
+Organizations use different applications to capture customer interactions. Channeling external data into Microsoft Dataverse records can improve the efficiency of sales, marketing, and service teams, and increase data quality. Direct data from different applications and external sources into Dataverse by using record creation and update rules.
 
-A record creation and update rule consist of rule items. The rule items define the conditions to create or update records, and also define the actions or steps to be taken on the records.
+A record creation and update rule has rule items. Rule items define the conditions to create or update records, and the actions or steps to take on the records.
 
 When a case record is created through an automatic record creation rule, and the rule owner is a team, the owner of the case record is the team's administrator user.
 
@@ -51,7 +51,7 @@ When a case record is created through an automatic record creation rule, and the
 - Service activity
 - Custom activity
 
-These activities can be converted to any default (system) entity records or custom entity records. For example, you could create a lead, opportunity (system record), or incident (custom record) from an incoming email.
+You can convert these activities to any default (system) entity records or custom entity records. For example, you could create a lead, opportunity (system record), or incident (custom record) from an incoming email.
 
 ## Prerequisites
 
@@ -60,9 +60,9 @@ These activities can be converted to any default (system) entity records or cust
 
 ## Configure rules to create or update records automatically
 
-You can configure a rule that when active, runs for incoming emails. By using the feature to create rules, you can define the conditions for when a rule can be run.
+Set up a rule that runs for incoming emails when it's active. Use the rule creation feature to define the conditions for when the rule runs.
 
-You can configure the rules in the Copilot Service admin center app.
+Set up rules in the Copilot Service admin center app.
  
 1. In the site map, select **Case Settings** in **Customer Support**. The **Case settings** page appears.
 1. In the **Automatic record creation and update rules** section, select **Manage**. The **Record Creation and update rules** page appears.
@@ -151,7 +151,7 @@ On the **Advanced** tab of the **Record creation and update rule** page for a ru
 
       - If you set the value to **Yes** and specify one hour, and a case exists for a printer issue, when an email comes for the same printer issue, another case won't be created until one hour lapses after the existing printer issue case is resolved.
     
-       The resolved case won't be reopened automatically when the incoming email is associated with it. However, you can configure flows using Power Automate, to reopen a resolved case when an incoming email is associated with the resolved case.
+       The resolved case isn't reopened automatically when the incoming email is associated with it. However, you can configure flows using Power Automate, to reopen a resolved case when an incoming email is associated with the resolved case.
 
       - If set to **No**, the system doesn't create a case if a related case exists.
 

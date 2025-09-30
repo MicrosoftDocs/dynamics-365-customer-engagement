@@ -24,8 +24,6 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-[!INCLUDE[sqa-73-note](../includes/sqa-73-note.md)]
-
 Depending on the automation level your admin has configured, the Sales Qualification Agent can help you qualify leads by automatically by completing the following tasks:
 
 - **Research-only mode**:
