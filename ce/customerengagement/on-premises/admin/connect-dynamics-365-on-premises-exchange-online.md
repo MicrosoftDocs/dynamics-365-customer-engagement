@@ -18,7 +18,7 @@ author: DerekBraunMSFT
 > [!WARNING]
 > This configuration uses the Exchange Web Services (EWS) protocol to communicate with Exchange Online, which is going to be removed from Microsoft Exchange Online in October 2026. Learn more in [Deprecation of Exchange Web Services in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-ews-exchange-online).
 >
-> Using this feature requires a manual connection process. Starting in October 2025, no new tenants will be connected to this feature.
+> Using this feature requires a manual connection process. Starting October 1st 2025, no new tenants will be connected to this feature.
 >
 > This integration will be removed in the following months:
 >
