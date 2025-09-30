@@ -23,6 +23,8 @@ Service organizations require a front-to-back application in which financials, i
 
 ## Integrate with finance and operations applications
 
+[!INCLUDE [fs-finance-operations-deprecate](../includes/integrate-finance-deprecate.md)]
+
 Seamless financial and inventory data flow between Dynamics 365 Field Service and Dynamics 365 Finance and Supply Chain Management helps ensure the frontline and back office stay in sync. By syncing real-time price and cost information from work orders and automatically updating financial and inventory data as work orders are executed, this integration reduces the effort required to connect data between these Dynamics 365 apps. [Learn more about Field Service integration with finance and operations applications](finance-operations-integration.md).
 
 ## Integrate with Dynamics 365 Supply Chain Management

@@ -9,6 +9,8 @@ author: jasonccohen
 
 # Set up Field Service integration with finance and operations applications
 
+[!INCLUDE [fs-finance-operations-deprecate](../includes/integrate-finance-deprecate.md)]
+
 Set up the integration between Dynamics 365 Field Service and finance and operations applications.
 
 ## Prerequisites

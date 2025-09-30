@@ -9,6 +9,8 @@ author: jasonccohen
 
 # Create a work order using the finance and operations integration
 
+[!INCLUDE [fs-finance-operations-deprecate](../includes/integrate-finance-deprecate.md)]
+
 Once the [finance and operations integration is setup](finance-operations-integration-setup.md), Field Service automatically prompts the entry of specific fields related to finance and operations when creating a work order.
 
 ## Create a work order
