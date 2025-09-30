@@ -22,8 +22,8 @@ author: DerekBraunMSFT
 >
 > This integration will be removed in the following months:
 >
-> - On-premises version 8x (currently deprecated): January 2026
-> - On-premises version 9x: October 2026
+> - On-premises version 8x (currently deprecated): January 1st, 2026
+> - On-premises version 9x: October 1st, 2026
 >
 > If you need server-side synchronization functionality, we recommend that you migrate to Dynamics 365 Online. Learn more in [Dynamics CRM (on-premises) to Dynamics 365 migration](/dynamics365/guidance/fasttrack/migration) and [Dynamics CRM (on-premises) to Dynamics 365 online migration process overview](/dynamics365/guidance/migrate/opol-crm-migration-high-level-overview).
 
