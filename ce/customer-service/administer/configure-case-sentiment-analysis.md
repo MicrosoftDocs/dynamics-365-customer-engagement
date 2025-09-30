@@ -1,5 +1,5 @@
 ---
-title: Configure sentiment analysis for case
+title: Configure sentiment analysis for case (preview)
 description: Learn how to configure sentiment analysis for case in Dynamics 365 Customer Service.
 author: gandhamm
 ms.author: mgandham
@@ -8,7 +8,9 @@ ms.date: 09/17/2025
 ms.topic: concept-article
 ---
 
-# Configure sentiment analysis for case
+# Configure sentiment analysis for case (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Case sentiment provides organizations with a consolidated view of customer sentiment across email, chat, and voice interactions linked to a case. 
 This feature helps organizations analyze sentiment patterns to identify
@@ -18,6 +20,9 @@ delivery.
 
 > [!NOTE]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature isn't intended for use in making, and shouldn't be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements.
+
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+
 
 ## Prerequisites
 
