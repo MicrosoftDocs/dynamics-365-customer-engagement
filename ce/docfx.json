@@ -12,8 +12,6 @@
           "**/obj/**",
           "**/includes/**",
           "**/shared/**",
-          "customerengagement/on-premises/**",
-          "unified-service-desk/**",
           "**/_themes/**",
           "**/_themes.pdf/**",
           "README.md",
@@ -71,8 +69,6 @@
           "**/obj/**",
           "**/includes/**",
           "**/shared/**",
-          "unified-service-desk/**",
-          "customerengagement/on-premises/**",
           "**/_themes/**",
           "**/_themes.pdf/**"
         ]
