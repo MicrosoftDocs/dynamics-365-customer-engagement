@@ -1,6 +1,6 @@
 ---
 title: Monitor real-time customer sentiment 
-description: This topic provides information on how to monitor real-time customer sentiment and analyze customer satisfaction levels.
+description: This article provides information about how to monitor real-time customer sentiment and analyze customer satisfaction levels.
 ms.date: 09/30/2025
 ms.topic: how-to
 author: lalexms
