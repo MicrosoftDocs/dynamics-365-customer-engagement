@@ -33,14 +33,14 @@ The following image displays the key features of the representative Teams chat e
  > [!div class="mx-imgBorder"] 
  > ![Agent view of the Microsoft Teams chat experience](../media/teams-chat-agent-overview.png "Agent view of the Microsoft Teams chat experience")
 
-The following legend describes the numbered callouts in the above image.
+The following legend describes the numbered callouts in the image.
 
 |Number |Feature | Description |
 |-------|-----------|-----------|
 | 1 | New chat | Create chats that aren't associated with any records.  |
 | 2 | Filter |  Filter chats by name. |
 | 3 | Chats connected to other records | Chats that are associated with other records that the current user is a part of. Users can prioritize responses to these chats over other chats. |
-| 4 | New connected chat | Start a new chat that's connected with the record. Only chat participants can view These chats. |
+| 4 | New connected chat | Start a new chat that's connected with the record. Only chat participants can view these chats. |
 | 5 | Other chats | Chats that aren't connected to any records or started from Teams. |
 | 6 | Chat control | Allows users to multi-task across chats. |
 | 7 | Basic Teams functions | Format, use emojis or .GIFs, set delivery options, and attach files. |
@@ -50,7 +50,7 @@ The following legend describes the numbered callouts in the above image.
 ## Open Teams chats that are related to a record
 
 You can open any application record and select the **Teams chats and channels integration** icon. The **Teams chats** panel opens with the following sections in the **Chat** tab:  
-- Chats connected to the record: Lists Teams chats that either you’ve connected to the selected record or someone else has connected a chat with you as a participant. 
+- Chats connected to the record: Lists Teams chats that either you’ve connected to the selected record or someone else connected a chat with you as a participant. 
 - Suggested contacts: Lists suggested contacts depending on the users who are working on the record. Learn more in [Use suggested contacts to collaborate with the right coworkers](teams-use-suggested-contacts.md).  
 - Other chats/All recents: Lists your top 50 chat conversations on Teams. You can select any existing conversation and connect it to a record. 
 
@@ -118,7 +118,7 @@ The suggested contacts list displays users who are connected or interacted with 
 
 ## Connect a Teams channel to a record
 
-The **Channels** tab lists the channels that either you’ve connected to the selected record or someone else connected a channel where you’re a participant. If you connected a record to a channel using basic or enhanced collaboration experience, that channel is also listed in this tab. 
+The **Channels** tab lists the channels that either you connected to the selected record or someone else connected a channel where you’re a participant. If you connected a record to a channel using basic or enhanced collaboration experience, that channel is also listed in this tab. 
 
 You can connect relevant Teams channels to a record so that all the members can easily access the connected channels from the record and follow the conversation. 
 
@@ -160,7 +160,7 @@ To join a connected chat:
    The Teams popup chat shows that you were added to the chat, and you have access to the entire chat history. Other chat members also receive the system message that you were added to the chat.
  
   > [!NOTE]
-  > When a user is added using Join chat, any users who are chatting directly from apps see a system message that says an unknown user added the new user to the chat and shared the chat history. This issue is specific to the embedded chat experience, and we're working to resolve it.<br>
+  > When a user is added to a chat using the Join chat feature, any users who are chatting directly from apps see a system message that says an unknown user added the new user to the chat and shared the chat history. This issue is specific to the embedded chat experience, and we're working to resolve it.<br>
   
    > [!div class="mx-imgBorder"] 
    > ![Text that says unknown user was added to a chat.](../media/unknown-user-error.png "Display of text that says to an unknown user was added to a chat")
