@@ -20,7 +20,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 Customer Service Insights uses AI to provide insights into your customer service data by grouping semantically related cases and generating a topic. New cases that match the generated topic are automatically added to the topic group. This action helps you identify areas of improvement that affect system performance.
 
-The AI-driven technology enbales informed decision-making about how to improve resolution rates, reduce wait times, and decrease customer service costs. You can use case resolution insights, backlog trends, and historical comparisons to evaluate customer service representative (service representative or representative) performance and business impact, and address inefficiencies in your system.
+The AI-driven technology enables informed decision-making about how to improve resolution rates, reduce wait times, and decrease customer service costs. You can use case resolution insights, backlog trends, and historical comparisons to evaluate customer service representative (service representative or representative) performance and business impact, and address inefficiencies in your system.
 
 ## Enable topic clustering for cases
 
