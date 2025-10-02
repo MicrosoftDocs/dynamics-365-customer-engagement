@@ -550,7 +550,7 @@ items:
         href: rso-handling-resolving-booking-conflicts.md
       - name: Optimize a single resource
         href: rso-single-resource-optimization.md
-      - name: Schedule multi-day requirements (preview)
+      - name: Schedule multi-day requirements
         href: rso-multi-day.md
       - name: Schedule requirements in sequence
         href: rso-requirement-dependency.md

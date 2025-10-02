@@ -18,12 +18,12 @@ author: DerekBraunMSFT
 > [!WARNING]
 > This configuration uses the Exchange Web Services (EWS) protocol to communicate with Exchange Online, which is going to be removed from Microsoft Exchange Online in October 2026. Learn more in [Deprecation of Exchange Web Services in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-ews-exchange-online).
 >
-> Using this feature requires a manual connection process. Starting in October 2025, no new tenants will be connected to this feature.
+> Using this feature requires a manual connection process. Starting October 1st 2025, no new tenants will be connected to this feature.
 >
 > This integration will be removed in the following months:
 >
-> - On-premises version 8x (currently deprecated): January 2026
-> - On-premises version 9x: October 2026
+> - On-premises version 8x (currently deprecated): January 1st, 2026
+> - On-premises version 9x: October 1st, 2026
 >
 > If you need server-side synchronization functionality, we recommend that you migrate to Dynamics 365 Online. Learn more in [Dynamics CRM (on-premises) to Dynamics 365 migration](/dynamics365/guidance/fasttrack/migration) and [Dynamics CRM (on-premises) to Dynamics 365 online migration process overview](/dynamics365/guidance/migrate/opol-crm-migration-high-level-overview).
 

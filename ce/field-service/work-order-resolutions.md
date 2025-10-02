@@ -1,7 +1,7 @@
 ---
 title: Create work order resolutions
 description: Learn about how to capture work order resolution details in Dynamics 365 Field Service.
-ms.date: 08/16/2024
+ms.date: 09/22/2025
 ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
@@ -16,7 +16,7 @@ This article outlines how to create resolutions and associate them to incident t
 
 ## Create resolutions
 
-In Field Service, go to **Settings** > **Resolutions**.
+In Field Service, go to the **Settings** area, then **Work Order** > **Resolutions**.
 
 Create resolution records based on your business needs. For example, if "Reset Device Control Unit" is a common way to resolve a work order issue, name the resolution accordingly. The description can contain additional information on why or how to reinstall firmware.
 
