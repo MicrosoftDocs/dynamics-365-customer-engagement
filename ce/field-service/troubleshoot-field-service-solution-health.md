@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot issues with Solution Health Hub
 description: Learn how to troubleshoot Dynamics 365 Field Service issues with the Solution Health Hub.
-ms.date: 08/27/2024
+ms.date: 09/29/2025
 ms.topic: how-to
 ms.reviewer: mhart
 author: jshotts
@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Troubleshoot issues with Solution Health Hub
 
-Solution Health Hub allows you to get a better picture of the state of your environment and detect issues with your Dynamics 365 environment. The Solution Health Hub runs rules within an instance to validate the environment's configuration, which might change over time through natural system operations. Some of the rules are specific to Dynamics 365 Field Service and you can run the rules on demand when you encounter an issue. Some rules automatically trigger when Field Service is installed or updated. Regularly run the Field Service ruleset to monitor the health of your environment.
+Solution Health Hub helps you understand the state of your environment and detect issues in your Dynamics 365 environment. It runs rules within an instance to validate the environment's configuration, which can change over time through natural system operations. Some rules are specific to Dynamics 365 Field Service, and you can run these rules on demand when you encounter an issue. Other rules automatically trigger when Field Service is installed or updated. Run the Field Service ruleset regularly to monitor your environment's health.  
 
 Here are a few common issues the Solution Health Hub detects:
 
@@ -34,8 +34,9 @@ To run an analysis job for Field Service:
 
    :::image type="content" source="media/troubleshoot-solution-health-nav.png" alt-text="Screenshot of the Solution Health Hub in the navigation.":::
 
-1. Select **Analysis Jobs** and create a new analysis job.
-1. When the dialog box opens, select **Field Service**.
+1. Select **Analysis Jobs**.
+1. Select **New** to create a new analysis job.
+1. In the Create Analysis Job dialog box, select **Field Service** for the **Rule Set** field.
 1. Select **OK** and the analysis job starts.
 
 ## View health check results
@@ -139,11 +140,11 @@ Severity: High
 
 ### What it checks
 
-For all work order forms, this rule checks whether the number of subgrid controls or lookup controls exceed the limit, which might affect performance. The limit is 4 subgrids or 20 lookups. This rule triggers a notification to system administrators stating which forms have too many subgrid controls or lookup controls.
+This rule checks if the number of subgrid controls or lookup controls on work order forms exceeds the limit, which might affect performance. The limit is 4 subgrids or 20 lookups. It notifies system administrators about forms with too many subgrid controls or lookup controls.
 
-A [subgrid control](/powerapps/developer/model-driven-apps/clientapi/reference/grids) is a table in the form that lists records of another table. For example, the work order product subgrid control on the work order form that is included in Field Service out of the box.
+A [subgrid control](/powerapps/developer/model-driven-apps/clientapi/reference/grids) is a table in the form that lists records from another table. For example, the work order product subgrid control on the work order form is included in Field Service by default.
 
-A lookup control is a field on the form that searches the records of another table and allows you to select one or more records to populate the field.
+A lookup control is a field on the form that searches records from another table and lets you select one or more records to populate the field.
 
 ### Why it fails
 

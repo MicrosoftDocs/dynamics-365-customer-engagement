@@ -326,6 +326,8 @@ items:
         href: field-service-work-hours-calendar-api.md
       - name: Scheduling parameters (Settings)
         href: scheduling-parameters-settings.md
+      - name: Health diagnostics tool
+        href: health-diagnostics-tool.md
 
 - name: Mobile app
   items:
@@ -548,7 +550,7 @@ items:
         href: rso-handling-resolving-booking-conflicts.md
       - name: Optimize a single resource
         href: rso-single-resource-optimization.md
-      - name: Schedule multi-day requirements (preview)
+      - name: Schedule multi-day requirements
         href: rso-multi-day.md
       - name: Schedule requirements in sequence
         href: rso-requirement-dependency.md
