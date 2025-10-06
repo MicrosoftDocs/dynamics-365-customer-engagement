@@ -1,7 +1,7 @@
 ---
 title: Configure the Opportunity Research Agent (preview)
 description: Learn how to set up and configure the Opportunity Research Agent in Dynamics 365 Sales.
-ms.date: 09/10/2025
+ms.date: 10/06/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -125,8 +125,12 @@ After verifying the prerequisites, define the agent and company profile, selecti
      - Est. revenue greater than or equal to $100,000.
      - Status equals **Open**.
 
-1. By default, the agent only considers new opportunities created after the agent is turned on. If you want the agent to also research on opportunities created before it was enabled, select the **Consider opportunities created in the last** checkbox and specify the number of days for the look back period.
-2. Select **Simulate** to view a set of opportunities that match the filter conditions. This isn't the full list, but it helps you verify that the agent is picking the right opportunities.
+1. If you want the agent to research on opportunities created in the past, select the **Consider opportunities created in the last** checkbox and specify the number of days for the look back period. Otherwise, the agent only considers opportunities created after the agent is turned on.
+
+1. Select **Simulate** to view a set of opportunities that match the filter conditions. This isn't the full list, but it helps you verify that the agent is picking the right opportunities. 
+   > [!NOTE]
+   > If you haven't specified the look back period, you'll not see any opportunities in the simulation as the agent only considers opportunities created after the agent is turned on.
+
   :::image type="content" source="media/opportunity-research-agent-selection-criteria.png" alt-text="Screenshot of the Selection criteria tab for Opportunity Research Agent.":::
 
 ### Configure refresh frequency

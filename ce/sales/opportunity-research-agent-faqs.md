@@ -1,7 +1,7 @@
 ---
 title: FAQs about Opportunity Research Agent (preview)
 description: Get to know answers to frequently asked questions about the Opportunity Research Agent in Dynamics 365 Sales.
-ms.date: 08/07/2025
+ms.date: 10/06/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -28,6 +28,12 @@ This article provides answers to frequently asked questions about the Opportunit
 ## How does that agent assess opportunity importance and risk?
 
 The agent uses fields like monetary value (for example, Est. revenue) and estimated close date to assess the importance and risk of opportunities. Your admin defines these fields in the Opportunity Research Agent settings page.
+
+## Which opportunities are processed by the agent?
+
+The agent processes only those opportunities that meet the filter criteria defined by your admin in the Opportunity Research Agent settings page. By default, the agent processes only new opportunities created after the agent is turned on. If your admin has enabled the look back period, the agent also processes opportunities created in the specified number of days before the agent was turned on. Learn more in [Configure selection criteria for opportunities](configure-opportunity-research-agent.md#configure-selection-criteria-for-opportunities).
+
+For example, if your admin set the look back period to 30 days and turned on the agent on August 1, 2025, the agent processes opportunities created from July 2, 2025, to August 1, 2025. After that, the agent processes new opportunities as they are created. The agent also runs a refresh job on the opportunities that it has already processed, based on the refresh frequency set by your admin. If you update an opportunity, the agent processes that opportunity only during its next refresh cycle.
 
 ## How often does the Opportunity Research Agent refresh research data?
 
