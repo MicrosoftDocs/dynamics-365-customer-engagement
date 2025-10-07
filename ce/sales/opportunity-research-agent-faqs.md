@@ -40,8 +40,8 @@ The following table illustrates how the Opportunity Research Agent processes opp
 | Opportunities created within the look back period.                                         | Immediately after agent activation. For example, if your admin sets a 30-day look back period and activates the agent on August 1, 2025, the agent processes opportunities created from July 2, 2025, to August 1, 2025. |
 | Opportunities created after the agent activation.                                          | Immediately after the opportunity is created.                         |
 | Opportunities already processed by the agent.                       | During the next scheduled refresh cycle.           |
-| Opportunities updated to meet the selection criteria. | Immediately after the updates are saved.            |
-| Other field updates in existing opportunities.                                            | During the next scheduled refresh cycle.            |
+| Updates to opportunity fields that cause the opportunity to meet the selection criteria. | Immediately after the opportunity is saved.            |
+| Updates to other fields in existing opportunities.                                            | During the next scheduled refresh cycle.            |
 
 ## How often does the Opportunity Research Agent refresh research data?
 
