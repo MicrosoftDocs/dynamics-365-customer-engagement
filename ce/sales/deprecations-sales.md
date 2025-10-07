@@ -23,7 +23,7 @@ The features that have been removed or deprecated in  Dynamics 365 Sales are lis
 <a name="sales-usage-reports"></a>
 ## Sales usage reports
 
-Effective December 01, 2025, sales usage reports will be deprecated. This means that you can’t access the report to view historical operational metrics and key performance indicators (KPIs) of your contacts, accounts, leads, and opportunities. As an alternative, you can build [custom Power BI reports](/power-bi/create-reports/) to get comprehensive visibility into your user’s interactions.  
+Effective December 01, 2025, sales usage reports will be deprecated. This means that you can’t access the report to view historical operational metrics and key performance indicators (KPIs) of your contacts, accounts, leads, and opportunities. As an alternative, you can [download the sample Power BI report for sales usage reporting](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/sales/SalesUsageReporting/Sales%20Usage%20Reporting%20Sample.pbit) and use it to get insights into sales activities and performance metrics.
 
 ## Document summary in Copilot  
 
