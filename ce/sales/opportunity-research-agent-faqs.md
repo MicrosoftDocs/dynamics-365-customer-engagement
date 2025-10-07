@@ -31,9 +31,17 @@ The agent uses fields like monetary value (for example, Est. revenue) and estima
 
 ## Which opportunities are processed by the agent?
 
-The agent processes only those opportunities that meet the filter criteria defined by your admin in the Opportunity Research Agent settings page. By default, the agent processes only new opportunities created after the agent is turned on. If your admin has enabled the look back period, the agent also processes opportunities created in the specified number of days before the agent was turned on. Learn more in [Configure selection criteria for opportunities](configure-opportunity-research-agent.md#configure-selection-criteria-for-opportunities).
+The agent processes only those opportunities that meet the selection criteria defined by your admin in the Opportunity Research Agent settings page. Learn more in [Configure selection criteria for opportunities](configure-opportunity-research-agent.md#configure-selection-criteria-for-opportunities).
 
-For example, if your admin set the look back period to 30 days and turned on the agent on August 1, 2025, the agent processes opportunities created from July 2, 2025, to August 1, 2025. After that, the agent processes new opportunities as they are created. The agent also runs a refresh job on the opportunities that it has already processed, based on the refresh frequency set by your admin. If you update an opportunity, the agent processes that opportunity only during its next refresh cycle.
+The following table illustrates how the Opportunity Research Agent processes opportunities in different scenarios:
+
+| Scenario                | Description                                                                                          | When Processed                                      |
+|-------------------------|------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
+| Agent Activation        | Agent is turned on with a look back period.                                         | Opportunities created within the look back period is processed first. For example, if your admin sets a 30-day look back period and activates the agent on August 1, 2025, the agent processes opportunities created from July 2, 2025, to August 1, 2025. |
+| New Opportunities       | New opportunities are created after the agent is activated.                                          | Immediately after the opportunity is created.                         |
+| Existing Opportunities  | Opportunities already processed by the agent.                       | During the next scheduled refresh cycle.           |
+| Updated Opportunities   | An existing opportunity is updated (for example, field changes).                                            | During the next scheduled refresh cycle.            |
+
 
 ## How often does the Opportunity Research Agent refresh research data?
 
