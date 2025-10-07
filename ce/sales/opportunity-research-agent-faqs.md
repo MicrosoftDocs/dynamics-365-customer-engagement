@@ -33,7 +33,7 @@ The agent uses fields like monetary value (for example, Est. revenue) and estima
 
 The agent processes only those opportunities that meet the selection criteria defined by your admin in the Opportunity Research Agent settings page. Learn more in [Configure selection criteria for opportunities](configure-opportunity-research-agent.md#configure-selection-criteria-for-opportunities).
 
-The following table illustrates how the Opportunity Research Agent processes opportunities in different scenarios:
+The following table illustrates when the Opportunity Research Agent processes opportunities in different scenarios:
 
 | Scenario                                                                                          | When processed                                      |
 |------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
