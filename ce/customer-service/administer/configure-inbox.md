@@ -101,7 +101,7 @@ The channel-focused inbox feature allows organizations to control how incoming c
 
 The functionality for the channel-focused inbox is as follows:
 - Changes apply to all users across an organization, and to all app profiles and conversation types except voice.
-- The feature affects peristent, live, async, and sync conversations.
+- The feature affects persistent, live, async, and sync conversations.
 - Previously, live chats opened in new tabs and async chats in the inbox. Now, the settings you configure apply to all, with exception of voice calls, which always open in a new session tab.
 
 1. Open the admin center app.
