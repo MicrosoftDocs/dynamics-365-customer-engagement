@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 09/20/2024
+ms.date: 09/05/2025
 ---
 
 # Examples for assignment rules and segments
@@ -95,7 +95,7 @@ You want to route leads to sellers who share the same postal code and match the 
     - Select the **Use seller attributes defined for assignment rules** option.  
     - Add the following conditions:
         - **ZIP/Postal Code** > **Equals** > **$(address_1_postalcode)**.  
-            The **ZIP/Postal Code** field is a system user field that needs to match with the **ZIP/Postal Code** in lead entity. As the **ZIP/Postal Code** field is of type string (a single line of text), use the logical name of the **ZIP/Postal Code** field (**address_1_postalcode**) from the lead entity to match [system users](/power-apps/developer/data-platform/webapi/reference/systemuser?view=dataverse-latest&viewFallbackFrom=dynamics-ce-odata-9). The syntax to add a string value is **$(_Logical name of the field_)**.  
+            The **ZIP/Postal Code** field is a system user field that needs to match with the **ZIP/Postal Code** in lead entity. As the **ZIP/Postal Code** field is of type string (a single line of text), use the logical name of the **ZIP/Postal Code** field (**address_1_postalcode**) from the lead entity to match [system users](/power-apps/developer/data-platform/webapi/reference/systemuser?view=dataverse-latest&viewFallbackFrom=dynamics-ce-odata-9&preserve-view=true). The syntax to add a string value is **$(_Logical name of the field_)**.  
 
         - **Business Unit** > **Equals** > **Leads.Owning Business Unit**.  
             The **Business unit** field is an [option set](/powerapps/maker/data-platform/custom-picklists) that is available in both lead and system user. Select the **Leads.Owning Business Unit** value from the dropdown list. 

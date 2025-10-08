@@ -71,6 +71,28 @@
             href: test-custom-channel-sample-html.md
           - name: Markdown formats in custom channels that use Direct Line
             href: bring-your-own-channel.md#markdown-formats-in-custom-channels
+        - name: Custom channel using messaging APIs (preview)
+          items:
+          - name: Overview of messaging APIs
+            href: /dynamics365/contact-center/extend/intro-messaging-apis?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml      
+          - name: Configure a custom messaging channel using messaging APIs
+            href: /dynamics365/contact-center/extend/configure-custom-messaging-channel?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml      
+          - name: API endpoints
+            items:
+            - name: "/consumer/conversations/create"
+              href: /dynamics365/contact-center/extend/api/api-conversation-create?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml          
+            - name: "/conversation/{id}"
+              href: /dynamics365/contact-center/extend/api/api-conversation-endpoint?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml          
+            - name: "/conversations"
+              href: /dynamics365/contact-center/extend/api/api-conversation?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml          
+            - name: "/conversation/{conversationId}/messages"
+              href: /dynamics365/contact-center/extend/api/api-conversation-messages?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml          
+            - name: "/conversation/{conversationId}/contexts"
+              href: /dynamics365/contact-center/extend/api/api-conversation-context?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml           
+            - name: Use webhook to receive messages and events
+              href: /dynamics365/contact-center/extend/api/api-conversation-webhook?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml          
+          - name: Error handling
+            href: /dynamics365/contact-center/extend/error-handling?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml
       - name: Voice
         items:
         - name: Download call recordings in bulk
@@ -79,12 +101,14 @@
         items:  
         - name: Download Copilot transcripts and interaction data
           href: download-copilot-transcript-data.md           
-      - name: Autonomous service agents
+      - name: Autonomous service agents (preview)
         items: 
-        - name: Integrate Case Management Agent with custom Copilot Studio agents (preview)
+        - name: Integrate Case Management Agent with custom Copilot Studio agents 
           href: case-management-agent-integration.md    
-        - name: Use case field prediction API (preview)
+        - name: Use case field prediction API 
           href: use-case-field-prediction-api.md      
+        - name: Use msdyn_invokeCaseProcessingAgent to invoke Case Management Agent
+          href: use-case-processing-agent.md           
       - name: Agent productivity tools
         items: 
         - name: Build a smart assist bot

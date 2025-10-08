@@ -19,9 +19,9 @@ Administrators and IT professionals can use this information to prepare for futu
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
-## Legacy version of Historical analytics for unified routing is deprecated in Dynamics 365 Customer Service and Dynamics 365 Contact Center
+## Historical analytics dashboards for unified routing are deprecated in Customer Service and Dynamics 365 Contact Center
 
-Starting June 30, 2025, the legacy version of [Historical analytics for unified routing in Omnichannel for Customer Service](../use/oc-historical-analytics-unified-routing.md#historical-analytics-for-unified-routing) and [Historical analytics for unified routing in Customer Service](../use/cs-historical-analytics-unified-routing.md#historical-analytics-for-unified-routing-in-customer-service) is deprecated in Dynamics 365 Customer Service and Dynamics 365 Contact Center. Support ends on August 31, 2025, after which this feature will be removed.
+Starting June 30, 2025, [Historical analytics for unified routing in Omnichannel for Customer Service](../use/oc-historical-analytics-unified-routing.md#historical-analytics-for-unified-routing) and [Historical analytics for unified routing in Customer Service](../use/cs-historical-analytics-unified-routing.md#historical-analytics-for-unified-routing-in-customer-service) dashboards are deprecated in Dynamics 365 Customer Service and Dynamics 365 Contact Center. Support ends on August 31, 2025, after which this feature will be removed.
 
 ## Legacy version of Case and Conversation Topics in Customer Service and Contact Center is deprecated
 
@@ -68,7 +68,7 @@ Effective February 2025, the Customer Service Hub app is no longer available for
 
 ## Diagnostics in unified routing is deprecated
 
-The [diagnostics](../administer/unified-routing-diagnostics.md) feature in unified routing is deprecated as of May 09, 2024. The feature will be removed on October 01, 2025. We recommend that you use [Conversation diagnostics in Azure Application Insights](../administer/configure-conversation-diagnostics.md) to get diagnostics information. You can delete your routing diagnostics-related data from Dataverse using the steps in [Manage routing diagnostics data](../administer/manage-routing-diagnostics-data.md). Contact Microsoft Support if you need help.
+The [diagnostics](../administer/unified-routing-diagnostics.md) feature in unified routing is deprecated as of May 09, 2024. The feature will be removed on January 01, 2026. We recommend that you use [Conversation diagnostics in Azure Application Insights](../administer/configure-conversation-diagnostics.md) to get diagnostics information. You can delete your routing diagnostics-related data from Dataverse using the steps in [Manage routing diagnostics data](../administer/manage-routing-diagnostics-data.md). Contact Microsoft Support if you need help.
 
 ## Omnichannel for Customer Service on Unified Service Desk is deprecated and will be removed in October 2025
 
@@ -137,14 +137,14 @@ For any questions, contact your Microsoft Customer Service representative or Mic
 
 ## Automatic record creation rules in web client are deprecated
 
-Effective October 01, 2020, the automatic record creation and update rules are deprecated in the web client. We recommend that you migrate your automatic record creation rules that were created in the web client to the new Unified Interface experience. For information on how to migrate the rules, go to [Migrate automatic record creation rules and service-level agreements](../administer/migrate-automatic-record-creation-and-sla-agreements.md). You can also refer to the migration playbook, which includes all the information you need to work on the migration. Learn more in [Dynamics 365 SLA and ARC Migration Playbook](https://www.d365implementationguide.com/books/aiij/).
+Effective October 01, 2020, the automatic record creation and update rules are deprecated in the web client. We recommend that you migrate your automatic record creation rules that were created in the web client to the new Unified Interface experience. Learn more about migrating rules in [Migrate automatic record creation rules and service-level agreements](../administer/migrate-automatic-record-creation-and-sla-agreements.md).
 
 > [!NOTE]
 > The deprecation isn't applicable to the features in Dynamics 365 Customer Engagement (on-premises).
 
 ## SLAs in web client are deprecated
 
-Effective October 1, 2020, the service-level agreements (SLAs) are deprecated in the web client. We recommend that you migrate your SLAs that were created in the web client to the new Unified Interface experience. For information on how to migrate the items, go to [Migrate automatic record creation rules and service-level agreements](../administer/migrate-automatic-record-creation-and-sla-agreements.md). You can also refer to the migration playbook, which includes all the information you need to work on the migration. Learn more in the [Dynamics 365 SLA and ARC Migration Playbook](https://www.d365implementationguide.com/books/aiij/).
+Effective October 1, 2020, the service-level agreements (SLAs) are deprecated in the web client. We recommend that you migrate your SLAs that were created in the web client to the new Unified Interface experience. Learn more about migrating items in [Migrate automatic record creation rules and service-level agreements](../administer/migrate-automatic-record-creation-and-sla-agreements.md).
 
 > [!NOTE]
 > The deprecation isn't applicable to the features in Dynamics 365 Customer Engagement (on-premises).

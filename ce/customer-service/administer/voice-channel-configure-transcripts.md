@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.reviwer: nenellim
-ms.date: 08/14/2025
+ms.date: 09/25/2025
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -41,13 +41,18 @@ For call recording to work as expected, allow the audio and mpeg MIME type for y
 
 1. Under **Start setting**, set the toggle to **Automatic** if you want calls to be automatically recorded and transcribed when they begin, or **Manual** if you want representatives to record and transcribe their calls.
 
-1. Set **Allow agents to pause and resume** toggle to **Yes** if you want to allow representatives to control the portions of conversations that they record and transcribe.
+    > [!NOTE]
+    > When the **Start setting** is set to **Manual**, the recording button appears as **Resume recording and transcript by default** in Copilot Service workspace. This is standard behavior and doesn’t mean that the recording was previously started and paused.   
 
-1. Set **Allow automatic pause and resume when agent hold and un-hold the customer** toggle to **Yes** if recording and transcription must be paused when the representative puts the customer on hold and resumed when the representative takes the customer off hold.
+    :::image type="content" source="../media/transcription-setting-manual-mini.png" alt-text="Screenshot of manual option for transcription and recording." lightbox="../media/transcription-setting-manual.png":::
+
+7. Set the **Allow customer service representatives to pause and resume** toggle to **Yes** to let representatives control parts of conversations that they need to record and transcribe.
+
+8. Set the **Allow automatic pause and resume when agent hold and un-hold the customer** toggle to **Yes** to pause recording and transcription when the representative puts the customer on hold and resume when the representative takes the customer off hold.
  
     :::image type="content" source="../media/screenshot-enable-transcription-recording.png" alt-text="Screenshot of enabling transcription and recording options for voice workstream." lightbox="../media/screenshot-enable-transcription-recording.png":::
 
-1. Select **Save**.
+9. Select **Save**.
 
 ## Enable real-time translation of calls
 
@@ -68,7 +73,9 @@ To view translated voice transcripts for calls, you must enable call recording, 
   
    > [!div class="mx-imgBorder"]
    > ![Screenshot of closed conversation list.](../media/voice-channel-conversations-list.png)
-
+> [!NOTE]
+> Transcript timestamps are grouped by two-minute intervals to account for potential drifts caused by delays. Drift occurs when a system's recorded timestamps gradually diverge from actual event times due to polling delays and other timing inconsistencies. Grouping events into two-minute intervals helps maintain consistency by accounting for these small but accumulating discrepancies.
+   
 ## Set up bulk download of call recordings
 
 You can create a Power Automate flow to download call recordings in bulk. Learn more in [Download call recordings in bulk](/dynamics365/contact-center/extend/download-call-recordings-bulk).

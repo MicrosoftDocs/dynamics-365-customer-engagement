@@ -1,10 +1,10 @@
 ---
 title: Supported cloud locations for voice channel
-description: Use this article to know about the supported cloud locations for the voice channel in Customer Service.
+description: Use this article to learn about the supported cloud locations for the voice channel in Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 03/03/2025
+ms.date: 09/15/2025
 ms.topic: conceptual
 ms.custom: bap-template
 ---
@@ -17,7 +17,7 @@ ms.custom: bap-template
 
 This article provides information about the supported cloud locations for the voice channel.
 
-For information about international availability of live chat and digital messaging channels, see [International availability of Omnichannel for Customer Service](../implement/international-availability.md#international-availability-of-omnichannel-for-customer-service).
+For information about international availability of live chat and digital messaging channels, go to [International availability of Omnichannel for Customer Service](../implement/international-availability.md#international-availability-of-omnichannel-for-customer-service).
 
 > [!IMPORTANT]
 >
@@ -37,9 +37,9 @@ The following table lists the global region, URL, and general and trial availabi
 ## Local cloud deployments
 
 > [!IMPORTANT]
-> As we transition to the enhanced voice experience, the local hosting capabilities for the legacy voice channel in Switzerland was deprecated on October 31, and in India and Japan, it was deprecated on September 09, 2024. Learn more in [Deprecations in Dynamics 365 Contact Center](/dynamics365/contact-center/implement/deprecations-contact-center).
+> As we transition to the enhanced voice experience, the local hosting capabilities for the legacy voice channel in Switzerland were deprecated on October 31, 2024, and in India and Japan, they were deprecated on September 09, 2024. Learn more in [Deprecations in Dynamics 365 Contact Center](/dynamics365/contact-center/implement/deprecations-contact-center).
 
-If you need your data to stay within a region, the following table lists the local region, URL, and general and trial availabilities of the voice channel in local regions. Stay tuned for country or region-specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
+If you need your data to stay within a region, the following table lists the local region, URL, and general and trial availabilities of the voice channel in local regions. Stay tuned for country or region-specific local deployment of the voice channel. Learn more in [Datacenter regions](/power-platform/admin/new-datacenter-regions)
 
 |Geographic location | URL| General availability | Availability in Customer Service trial|
 |----------|---------|-----|----------|
@@ -67,27 +67,29 @@ The following table lists the sovereign region, URL, and general availability of
 
 |Sovereign region|URL|General availability|
 |-------|---------|-----------|
-|Government Community Cloud (GCC) Moderate| To be announced |To be announced|
+|Government Community Cloud (GCC) Moderate<sup>**1**</sup>| crm9.dynamics.com |Available|
 |GCC High|To be announced |To be announced |
 |GCC Department of Defense (DoD)|To be announced |To be announced |
 |China | To be announced | To be announced|
 |Germany | To be announced | To be announced|
 
+<sup>**1**</sup> Azure Communication Services for the voice channel continues to run in the North America Commercial Cloud.
+
 ### Microsoft calling plans
 
-Microsoft calling plans are available for customers with billing locations in select geographies around the world. To learn more about your eligibility, see [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
+Microsoft calling plans are available for customers with billing locations in select geographies around the world. To learn more about your eligibility, go to [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
 
-You can purchase new phone numbers through the Azure portal, and then sync with Omnichannel for Customer Service. More information: [Import phone numbers](voice-channel-sync-from-acs.md)
+You can purchase new phone numbers through the Azure portal and then sync them with Omnichannel for Customer Service. Learn more in [Import phone numbers](voice-channel-sync-from-acs.md).
 
-You can also port existing US or toll-free phone numbers. More information: [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number)
+You can also port existing US or toll-free phone numbers. Learn more in [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number).
 
 ### Azure direct routing
 
-You can bring your own carrier through Azure direct routing. This feature is supported across all geographic locations using certified Session Border Controller (SBC). More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
+You can bring your own carrier through Azure direct routing. This feature is supported across all geographic locations using certified Session Border Controller (SBC). Learn more in [Bring your own carrier](voice-channel-bring-your-own-number.md).
 
 In the geographic locations where the voice channel is generally available, Azure direct routing extends general availability support.
 
-The voice channel in Omnichannel for Customer Service doesn't support emergency calling when Azure direct routing is used.
+The voice channel in Omnichannel for Customer Service doesn't support emergency calling when you use Azure direct routing.
 
 ## Next steps
 

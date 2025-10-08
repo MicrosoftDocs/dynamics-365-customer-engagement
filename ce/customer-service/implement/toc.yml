@@ -101,11 +101,15 @@
     - name: Overview
       href: responsible-ai-overview.md
     - name: Responsible AI FAQ for AI Agents (Preview)
-      href: /dynamics365/contact-center/implement/faq-rai-ai-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      href: /dynamics365/contact-center/implement/faq-rai-ai-agents?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
     - name: Responsible AI FAQ for Copilot in Customer Service
       href: faq-responsible-ai-copilot.md
     - name: Responsible AI FAQs for NLUs in AI agents
-      href: /dynamics365/contact-center/implement/natural-language-ai-faq?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml      
+      href: /dynamics365/contact-center/implement/natural-language-ai-faq?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
+    - name: Constrained speech recognition
+      items:
+      - name: Transparency note
+        href: /dynamics365/contact-center/implement/transparency-note?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
   - name: Resources
     items:
     - name: Training

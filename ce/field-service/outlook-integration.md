@@ -1,22 +1,17 @@
 ---
-title: Integrate Field Service bookings with Outlook calendars (preview)
+title: Integrate Field Service bookings with Outlook calendars
 description: Set up Microsoft Online Exchange to integrate with Dynamics 365 Field Service to synchronize bookings.
-ms.date: 07/21/2025
+ms.date: 09/30/2025
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
 ---
 
-# Integrate bookings with Outlook calendars (preview)
-
-[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+# Integrate bookings with Outlook calendars
 
 Frontline workers can have all their appointments, company meetings, personal events, and bookings in one calendar. Any bookings created against a work order synchronize with the worker’s mailbox, so they show up as appointments in Microsoft Outlook. Synchronization occurs within 15 minutes.
 
 The synchronization of bookings into Outlook works only one way. Events set up in Outlook don't appear in Field Service as bookings. Data flows from Dataverse into Exchange, potentially crossing geographic boundaries.
-
-> [!IMPORTANT]
-> This is an early access feature, which means that it's currently available only on [opted-in](/power-platform/admin/opt-in-early-access-updates) instances. You can opt in for early access on any instance, but we recommend that you do so only on trial, test, or sandbox instances.
 
 ## Set up the Exchange integration
 
@@ -32,7 +27,7 @@ Set up user mailboxes to synchronize with Microsoft Exchange Online. If tasks, c
 
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 
-1. Select **Environments** and select your environment.
+1. Select **Manage** > **Environments** and select your environment.
 
 1. Select **Settings** > **Email** > **Server profiles**.
 
@@ -43,7 +38,7 @@ Set up user mailboxes to synchronize with Microsoft Exchange Online. If tasks, c
 1. Edit each user and perform the following steps.
 
    - Confirm that **Server Profile** is set to **Microsoft Exchange Online**, or the Exchange Online server profile created in step 4.
-   - Set **Appointments, contacts, and tasks** to **Server-Side Synchronization**.
+   - Set **Appointments, Contacts, and Tasks** to **Server-Side Synchronization**.
    - In the command bar, select **Approve Email** and confirm.
    - Select **Test & Enable Mailbox** and confirm.
    - Select **Save & Close**.

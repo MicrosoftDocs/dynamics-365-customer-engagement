@@ -64,7 +64,7 @@ For example, you can create an agent with the following details:
 
 1. In Bot Framework Composer, select **More commands** (...), select **Add a dialog**, and enter the following details:
 
-   - **Name**: A name such as **PVA greeter dialog**.
+   - **Name**: A name such as **Customer greeter dialog**.
    - **Description**: A brief description. 
 
 1. In the site map, select **BeginDialog**, select the **Add** (+) node, and then select **Send a response**.
@@ -116,7 +116,7 @@ For example, you can create an agent with the following details:
       > [!NOTE]
       > You must set the va_CustomerLocale context variable with the locale codes for the languages that you want to support. Learn more in [Supported locations and locale codes](voice-channel-supported-languages.md#supported-languages-and-locale-codes)
 
-   1. Select the **Add** (+) node, and then select **Begin a Power Virtual Agent topic**.
+   1. Select the **Add** (+) node, and then select **Begin a Microsoft Copilot Studio topic**.
 
    1. In **Dialog name**, select **Escalate**.
 

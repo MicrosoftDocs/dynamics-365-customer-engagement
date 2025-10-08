@@ -1,7 +1,7 @@
 ---
 title: Transfer calls and consult with users
-description: Use this article to understand how the customer service representatives can use the transfer and consult options to make and receive customer calls.
-ms.date: 07/25/2025
+description: Use this article to understand how customer service representatives can use transfer and consult options to make and receive customer calls in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
+ms.date: 09/15/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -19,9 +19,9 @@ You can transfer calls or consult with other service representatives or supervis
 
 To familiarize yourself with the call controls, see [Understand how to use the agent dashboard and call controls](/dynamics365/contact-center/use/voice-channel-agent-experience).
 
-## Prerequisite
+## Prerequisites
 
-- To transfer the calls to another service representative, the **Transfer to representative** setting in Copilot Service admin center is enabled by your administrator.
+- To transfer the calls to another service representative, the [transfer to representative](../administer/enable-transfer-consult.md) setting is enabled by your administrator.
 - To transfer calls to an external PSTN number or a Teams user, the transfer settings must be enabled in the voice channel instance settings.
 
 ## Transfer calls
@@ -46,7 +46,7 @@ When you receive an incoming call, you can transfer the call to a service repres
       > - When you transfer a call to a queue that doesn't have any service representatives, the application automatically ends the call and sets the status to Closed.
       > - If you transfer a call from a phone number linked to an inbound or outbound profile to a queue with a Copilot agent, the agent can only speak to the customer and end the call. The agent can't transfer the call to another agent or external number, even when you have configured the Escalation topic in Copilot Studio.
 
-        :::image type="content" source="../media/voice-call-transfer-to-representative.png" alt-text="Screenshot of selecting a representative to transfer the call." lightbox="../media/voice-call-transfer-to-representative.png":::
+        :::image type="content" source="../media/voice-call-transfer-to-representative-mini.png" alt-text="Screenshot of selecting a representative to transfer the call." lightbox="../media/voice-call-transfer-to-representative.png":::
     
     - **Transfer to an external PSTN number or Teams user**: Select **External number**. On the number pad that appears, enter the customer's area or region code, phone number, and then select **Call** to make your call. 
     -  **Transfer to Teams user**: Select **Teams**, and use the search option to search for a Microsoft Teams user. The results are filtered based on the name and the live presence of the users in Microsoft Teams. <br> 
@@ -90,17 +90,22 @@ The consult option allows you to collaborate with another representative, a supe
 
 When you initiate a consult, the following actions occur:
 - You're the primary representative. 
-- You can search for representatives to consult within the same queue or other queues. Additionally, you can filter representatives within a queue based on their skills. The application displays the representatives whose skills match the selected criteria in full or partially, along with their name, and current presence status.
+- You can search for representatives to consult within the same queue or other queues. Additionally, you can filter representatives within a queue based on their skills. The application shows representatives whose skills fully or partially match the selected criteria, along with their name and current presence status. You can add multiple representatives to the consult.
 - The customer is automatically put on hold. Hold music plays for the customer.
-- When the invited collaborator joins the call, they have a consult role. Consulting on a call doesn't affect the collaborator's available capacity.
-- The primary representative must manually remove the customer from hold. During a consult, the primary representative can choose to transfer the call to the new participant. 
+- When the invited collaborator joins the call, they have a consult role. Consulting on a call doesn't affect the collaborator's available capacity. You can also add multiple collaborators to the consult.
+- When you have multiple participants in a consult, you can manage each participant individually:
+    - Place consulting representative on hold. Select the hold control next to any consulting participant to place them on hold individually. The consulting representative hears hold music while on hold.
+    - Transfer to specific consulting representatives. Use the transfer controls positioned next to each consulting participant to transfer the call directly to that specific representative within the consult. 
+    - When you initiate a consult with an external participant, the system allows Dual-tone multi frequency inputs. The primary representative can also remove the consulting external participant from the call. 
+- The primary representative must manually remove the customer from hold. During a consult, the primary representative can choose to transfer the call to the new participant.  When more than one participant joins a consult, the system shows the customer as "off hold" to all representatives who aren't currently on hold in the consult.
 - If the primary representative or customer ends the call, the call ends for everyone. 
 - If the primary representative refreshes their browser, all the participants are placed on hold until the primary representative returns to the call. 
+
 
 **Consult with another user**
 
 1. Select **Consult** in the call window. 
-    
+
     :::image type="content" source="../media/oc-consult-btn.png" alt-text="Image of consult icon on the call controls.":::
    
    The **Consult** dialog box appears. The **Agent**, **Teams**, and **External number** tabs are displayed.
@@ -126,7 +131,6 @@ When you initiate a consult, the following actions occur:
 
 [Overview of the voice channel](../administer/voice-channel.md)  
 [Enable voice consult with Microsoft Teams users](../administer/voice-consult-microsoft-teams-user.md)  
-[Enable transfer of conversations to representatives](../administer/enable-transfer-consult.md)  
 [Call a customer](voice-channel-call-customer.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

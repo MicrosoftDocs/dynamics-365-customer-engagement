@@ -3,10 +3,12 @@ title: Set business closures
 description: Set business closures in Dynamics 365 Customer Service.
 ms.date: 07/30/2025
 ms.topic: how-to
-author: lalexms
-ms.author: laalexan
-ms.reviewer: laalexan
-ms.custom: bap-template
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
+ms.custom: 
+- bap-template
+- evergreen
 ---
 
 # Set when your business is closed

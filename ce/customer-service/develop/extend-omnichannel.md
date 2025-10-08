@@ -16,8 +16,6 @@ ms.custom:
 
 # Extend Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 Dynamics 365 supports several scenarios to extend Omnichannel for Customer Service. You can integrate third-party telephony systems and custom channels.

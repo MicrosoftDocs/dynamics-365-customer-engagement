@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 08/25/2025
+ms.date: 09/16/2025
 search.audienceType:
   - admin
   - customizer
@@ -22,15 +22,15 @@ ms.custom:
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-The **Voice** report gives you insights into key metrics across the voice channel. You can filter this report by time, queue, time zone, conversation status, direction, and skills. For more information, go to [Overview of the real-time Omnichannel analytics dashboard](intro-realtime-analytics-dashboard.md).
+The **Voice** report gives you insights into key metrics across the voice channel. Learn how to [access the report](intro-realtime-analytics-dashboard.md#access-reports). This report is available only if the voice feature is configured for your organization. Learn more in [Manage real-time analytics reports](../administer/enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service).
 
-This report is available only if the voice feature is configured for your organization. For more information, go to [Manage real-time analytics reports ](../administer/enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service).
+You can filter this report by time, queue, time zone, conversation status, direction, and skills. Learn more in [Overview of the real-time Omnichannel analytics dashboard](intro-realtime-analytics-dashboard.md).
 
 The **Voice** report provides a summary of voice conversations over time, by queue. Voice-specific metrics for the last 24 hours, such as conversations in the queue, average wait time, and average handle time, help you optimize the call flow. You can use these metrics to reduce the conversation hold time. You can assign the right customer service representatives (service representatives or representatives) based on skills and increase service representative efficiency and customer satisfaction.
 
 You can also monitor voice-specific operational metrics such as conversation direction. This metric indicates whether the conversation was started by the customer or a contact center service representative. You can use these operational metrics to manage queue distribution.
 
-[Learn more about the metrics that are shown in the charts on the Voice report.](oc-metrics-dimensions.md)
+[Learn more about the metrics that are shown in the charts on the Voice report.](../develop/calculate-conversation-metrics.md#calculate-conversation-metrics)
 
 :::image type="content" source="../media/realtime_voice.png" alt-text="Screenshot of the real-time Voice report.":::
 

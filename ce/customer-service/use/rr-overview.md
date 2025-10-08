@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: overview
-ms.date: 08/26/2025
+ms.date: 10/06/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -26,7 +26,7 @@ Real-time analytics for record routing helps you monitor and improve your contac
 
 ## Security roles and permissions
 
-Real-time analytics uses the security permissions defined in Microsoft Dataverse. For example, if your organization has set business unit-level permissions for you, metrics that are computed based on business unit-level data only are shown to you.
+Real-time analytics uses the security permissions defined in Microsoft Dataverse. For example, if your organization set business unit-level permissions for you, metrics that are computed based on business unit-level data only are shown to you.
 
 As a supervisor, you can view the **Real-time analytics for record routing** dashboards in the Copilot Service workspace app. However, your administrator must provide the required permissions for you. Learn more in [Configure user access to analytics and dashboards](../administer/configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards). To view the real-time analytics for record-routing dashboards, you must have the CSR Manager role.
 
@@ -35,9 +35,11 @@ As a supervisor, you can view the **Real-time analytics for record routing** das
 
 ## Access reports
 
-1. In the Copilot Service workspace app, select **Real-time analytics for record routing** in **Service**.
-2. The **Summary** report opens by default.
-3. Select the dropdown for **Queue**, **Agent**, **Ongoing work items**, or **Backlog work items** reports.
+In the site map of Copilot Service workspace, select **Real-time analytics for record routing** in **Service**. The **Summary** report appears by default. To switch reports, select the required report from the report filter. 
+
+:::image type="content" source="../media/dashboard-filter-record-routing.png" alt-text="Screenshot of the report filter":::
+
+For example, to view the **Agent** report, select **Agent** from the report filter.
 
 If you can't view the reports, contact your system administrator. Learn more in [Manage real-time analytics for record routing](../administer/enable-record-routing.md#manage-real-time-analytics-for-record-routing).
 

@@ -1,7 +1,7 @@
 ---
 title: Manage historical analytics reports in Customer Service
 description: Learn how to configure Customer Service historical analytics reports in Omnichannel for Customer Service.
-ms.date: 08/18/2025
+ms.date: 09/12/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -25,7 +25,6 @@ The historical reports include:
 - [Summary report](../use/summary-dashboard-cs.md)
 - [Agent report](../use/agent-dashboard-cs.md)
 - [Topics report](../use/case-topics-dashboard-cs.md)
-- [Unified routing](../use/cs-historical-analytics-unified-routing.md)
 
 After you enable the reports, you can access them in one of the following ways:
 
@@ -49,25 +48,6 @@ Use the Copilot Service admin center app to enable or disable the reports.
 1. Select **Save** or **Save and Close**.
 
    This configuration also enables AI-discovered topics from cases with default settings.
-
-## Enable historical analytics for unified routing
-
-> [!NOTE]
-> Starting June 30, 2025, the legacy version of [Historical analytics for unified routing in Customer Service](../use/cs-historical-analytics-unified-routing.md#historical-analytics-for-unified-routing-in-customer-service) is deprecated in Dynamics 365 Customer Service and Dynamics 365 Contact Center. Support ends on August 31, 2025, after which this dashboard will be removed.
-
-Use the Copilot Service admin center app to enable or disable the reports. The metrics are available in the report after 24 hours.
-
-> [!IMPORTANT]
->
-> Unified routing must be enabled to enable historical analytics for unified routing. Learn more in [Provision unified routing for Customer Service](provision-unified-routing.md).
-
-1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-     
-1. For **Customer Service historical analytics**, select **Manage**. The **Customer Service historical analytics** page is displayed. 
-
-1. Select the **Add historical analytics for unified routing** check box.  
-
-1. Select **Save and Close**.
 
 ## View Customer Service historical analytics reports
 
@@ -94,7 +74,6 @@ If you customized the Copilot Service workspace app, you must complete the follo
 [Introduction to Customer Service analytics and insights](../implement/introduction-customer-service-analytics.md)  
 [Dashboard overview](../use/customer-service-analytics-insights-csh.md)  
 [Knowledge search analytics](../use/knowledge-search-analytics-cs.md)  
-[Historical analytics for unified routing in Customer Service](../use/cs-historical-analytics-unified-routing.md)   
 [Configure user security to resources in an environment](/power-platform/admin/database-security)  
 [How access to a record is determined](/power-platform/admin/how-record-access-determined)  
 

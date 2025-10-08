@@ -10,8 +10,6 @@ ms.reviewer: nenellim
 
 # Report issues in representative app
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 The report issues feature in the Copilot Service workspace app allows you to capture a diagnostic report of the issues and share it with Microsoft.
 
 > [!IMPORTANT]

@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 08/25/2025
+ms.date: 09/16/2025
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -19,7 +19,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The **Ongoing conversation** report shows ongoing conversations from the last 24 hours that are currently being handled by customer service representatives (service representatives or representatives) in your organization and that aren't yet closed. The report displays those conversations that have the open, active, wrap-up, or waiting status. Learn more in [Understand conversation states](oc-conversation-state.md).
+The **Ongoing conversation** report shows ongoing conversations from the last 24 hours that are currently being handled by customer service representatives (service representatives or representatives) in your organization and that aren't yet closed. Learn how to [access the report](intro-realtime-analytics-dashboard.md#access-reports). The report displays those conversations that have the open, active, wrap-up, or waiting status. Learn more in [Understand conversation states](oc-conversation-state.md).
 
 This report provides a holistic view of the conversations in real time. It includes details about subject, status, active service representative details, queue, channel, wait time, handle time, and customer sentiment. Learn more in [Overview of Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md).
 
@@ -27,7 +27,7 @@ This report provides a holistic view of the conversations in real time. It inclu
 > - Only digital messaging, chat, and voice channels are supported. Record routing isn't supported.
 > - The reports are prefiltered based on the queues you're logged in to as a supervisor. So you see metrics and conversations relevant to the assigned queues only.
 
-[Learn more about the metrics that are shown on the Ongoing conversation report.](oc-metrics-dimensions.md)
+[Learn more about the metrics that are shown on the Ongoing conversation report.](../develop/calculate-conversation-metrics.md#calculate-conversation-metrics)
 
 :::image type="content" source="../media/realtime_ongoing conversations.png" alt-text="The image shows real-time ongoing conversations report.":::
 
@@ -77,7 +77,7 @@ Once a conversation is assigned to a representative, it's in the **Active** stat
 
 ## Monitor conversations
 
-Listen to an ongoing conversation. When you select **Monitor**, you receive a message that indicates that monitoring has started. This action applies to active conversations that the service representative accepted, conversations in a wrap-up state, and conversations that are in a waiting state only. If you have the representative app open in multiple tabs or browsers, the monitored conversation opens in the one where you select **Monitor**. Other browsers remain as-is.
+Listen to an ongoing conversation. When you select **Monitor**, you receive a message that indicates that monitoring started. This action applies to active conversations that the service representative accepted, conversations in a wrap-up state, and conversations that are in a waiting state only. If you have the representative app open in multiple tabs or browsers, the monitored conversation opens in the one where you select **Monitor**. Other browsers remain as-is.
 
 1. From the dashboard view selector, select the **Ongoing Conversations** report. The list of conversations that your service representatives are currently handling appears.
 

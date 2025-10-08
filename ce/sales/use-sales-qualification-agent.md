@@ -1,7 +1,7 @@
 ---
 title: Work on leads handed over by the Sales Qualification Agent (preview)
 description: Learn how to work with leads handed over by the Sales Qualification Agent in Dynamics 365 Sales. Discover research insights, handover summaries, and recommended actions for effective lead management.
-ms.date: 08/05/2025
+ms.date: 09/30/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -23,8 +23,6 @@ ai-usage: ai-assisted
 # Work on leads handed over by the Sales Qualification Agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-[!INCLUDE[sqa-73-note](../includes/sqa-73-note.md)]
 
 Depending on the automation level your admin has configured, the Sales Qualification Agent can help you qualify leads by automatically by completing the following tasks:
 
@@ -80,9 +78,12 @@ If you're a seller, you get notified when a lead is handed over to you. If you m
 
 If you're a supervisor, you get notified when a lead is disqualified by the agent. Learn more in [View leads disqualified by the agent](#view-leads-disqualified-by-the-agent) and [Monitor leads handled by the Sales Qualification Agent (preview)](monitor-leads-by-sales-qualification-agent.md).
 
+> [!NOTE]
+> If you don't see the views mentioned in this section, contact your admin to [add agent-specific views to your app](start-sales-qualification-agent.md#add-agent-specific-views-to-your-app).
+
 1. In the Sales Hub app, go to **Leads**.
 
-1. From the views drop-down, select **Leads handed over by AI Agent**.
+1. From the views drop-down, select **Leads from AI Agent**.
    > [!NOTE]
    > The agents hands over leads that [meet the handoff criteria](configure-sales-qualification-agent-handoff-criteria.md) defined by your admin. 
 1. Select a lead.
@@ -100,7 +101,7 @@ Leads disqualified by the agent are not handed over to sellers. If you're a supe
 
 1. In the Sales Hub app, go to **Leads**.
 
-1. From the views drop-down, select **Leads disqualified by AI Agent**.
+1. From the views drop-down, select **Leads disqualified by AI agent**.
    > [!NOTE]
    > Though this view is meant for supervisors, it is also available to sellers unless your admin has set the `EnableRoleBasedSystemViews` setting to **true**.
 1. Open a lead to view the reason for disqualification. The reason is displayed in the **Lead research** page under the **Suggested action** section.
@@ -166,13 +167,23 @@ The following screenshot shows the **Key insights** section of the **Lead resear
 
 #### Deeper insights
 
-**Company overview, finances, and news**
+**Company overview**
 
 The agent searches the public web for information about the lead’s company. If your admin has configured custom knowledge sources for research, the agent prioritizes looking for information from those specified websites.
 
 - **Overview:** Fetches general information about the lead’s company, such as industry, location, company size, products and services sold, and whether it is B2B or B2C. Outlines the company’s strategic priorities and how those relate to your offerings.
 - **Finances:** Summarizes the company’s financial health, outlines key financial metrics, and interprets what they mean for your sales approach.
 - **News:** Summarizes up to three recent news articles and explains how they relate to your offerings.
+
+**Competitor insights**
+
+The agent identifies the key competitors for the lead and provides insights about them. This information can help you understand the competitive landscape and tailor your sales approach accordingly. The agent provides the following insights about competitors based on public web sources and knowledge sources configured by your admin.
+
+Learn more about [How the agent identifies competitors to research](sales-qualification-agent-competitor-insights.md#how-the-agent-identifies-competitors-to-research).
+
+- **Overview:** Provides a brief description of each competitor, including their industry, location, size, and market share based on public information and knowledge sources configured by your admin.
+- **Strengths, weaknesses, opportunities, and threats (SWOT analysis):** Summarizes the key strengths, weaknesses, opportunities, and threats of each competitor based on public information and knowledge sources configured by your admin.
+- **Talking points:** Suggests potential talking points to differentiate your offerings from those of the competitors based on battle cards, positioning briefs, and other competitive intelligence documents configured by your admin as knowledge sources.
 
 ## Related information
 

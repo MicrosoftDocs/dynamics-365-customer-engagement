@@ -4,9 +4,9 @@ description: Know how to create or change a service in service scheduling in Dyn
 ms.date: 05/20/2025
 ms.update-cycle: 1095-days
 ms.topic: how-to
-author: lalexms
-ms.author: laalexan
-ms.reviewer: laalexan
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer

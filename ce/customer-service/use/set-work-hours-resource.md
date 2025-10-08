@@ -1,25 +1,27 @@
 ---
-title: Set work hours to define availability (Dynamics 365 Customer Service) | MicrosoftDocs
+title: Set work hours to define availability (Dynamics 365 Customer Service)
 description: Understand how to set work hours to define availability in Dynamics 365 Customer Service
 ms.date: 11/20/2018
 ms.topic: how-to
-author: lalexms
-ms.author: laalexan
-ms.reviewer: laalexan
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
   - enduser
 ms.custom: 
   - dyn365-customerservice
+  - bap-template
+  - evergreen
 ---
 
 # Set work hours to define availability (Customer Service app)
 
-You can set up and define the hours a resource is available. By default, the resources are set up for a 7-days-a-week, 24-hour schedule. 
+You can set up and define the hours that a resource is available. By default, the resources are set up for a 7-days-a-week, 24-hour schedule. 
 
 > [!IMPORTANT]
-> In the new scheduling experience, you can set work hours for resource types in the **Resources** entity. To know more about setting up work hours, see [Set work hours for the resources](../administer/resources-service-scheduling.md#set-work-hours-for-the-resources).
+> In the new scheduling experience, you can set work hours for resource types in the **Resources** entity. To learn more about setting up work hours, see [Set work hours for the resources](../administer/resources-service-scheduling.md#set-work-hours-for-the-resources).
   
 ## Set work hours for a facility or equipment
   
@@ -29,11 +31,11 @@ Make sure that you have the required security role or equivalent permissions.
 
 1. Go to **Settings** > **Business Management**.
 
-2. Select **Facilities/Equipment**. In the list, open the resource record you want modify.
+2. Select **Facilities/Equipment**. In the list, open the resource record you want to modify.
 
 3. Select **Work Hours**.
   
-6.  On the **Monthly View** tab, double-click a date on the calendar that is the first day you want the new schedule to start, or any date that will be affected by the new schedule.  
+6.  On the **Monthly View** tab, double-click a date on the calendar that is the first day you want the new schedule to start, or any date that's affected by the new schedule.  
   
 7.  In the **Edit Schedule** dialog box, select one of the following, and then select **OK**.  
   
@@ -69,17 +71,17 @@ Make sure that you have the required security role or equivalent permissions.
   
      In the **Weekly Schedule** dialog box, you can also do any of the following:  
   
-    -   If the schedule is for more than one day, select the days of the week that this schedule is effective.  
+    -   If the schedule is for more than one day, select the days of the week that this schedule is in effect.  
   
-    -   If the resource does not work during business closures, select the **Observe** option.  
+    -   If the resource doesn't work during business closures, select the **Observe** option.  
   
     -   Under **Date Range**, in the **Starting on** box, you can change the date the schedule starts.  
   
-         You cannot change the date the schedule ends. To end a schedule, you must define a new schedule on that date.  
+         You can't change the date the schedule ends. To end a schedule, you must define a new schedule on that date.  
   
 9. Choose the work hours link for the schedule you want to modify.  
   
-     If work hours have not been set previously, the link is displayed as "Set Work Hours."  
+     If work hours haven't been set previously, the link displays as "Set Work Hours."  
   
 10. In the **Set Work Hours and Service Restrictions** dialog box, complete the following fields, and then select **OK**:  
   
@@ -95,15 +97,15 @@ Make sure that you have the required security role or equivalent permissions.
   
          Select the time the work day ends.  
   
-         To add a break in the work hours, such as a lunch break, select **Add Break**, and then select the start and end time of the break.  
+         To add a break in the work hours, such as a lunch break, select **Add Break**, and then select the start and end times for the break.  
   
-11. To define a time when a service will not be available, on the **Service Restrictions** tab, select **New**. In the **Edit a Service Restriction** dialog box, select the service, and select the start and end time between which the service will be unavailable, and then select **OK**.  
+11. To define a time when a service isn't available, on the **Service Restrictions** tab, select **New**. In the **Edit a Service Restriction** dialog box, select the service, and select the start and end times during which the service is unavailable, and then select **OK**.  
   
 12. Select **Save and Close** to close the **Weekly Schedule** dialog box.  
   
 > [!NOTE]
-> - You can set the work hours for a single day by double-clicking the day, and then in the **Edit Schedule** dialog box, select **This date only**, then select **OK**. Then, perform step 10 in the procedure.  
-> - All of the options may not be available to you for selecting how much of the schedule you want to edit. The available options are based on the schedules that are already set up.  
+> - You can set the work hours for a single day by double-clicking the day. In the **Edit Schedule** dialog box, select **This date only**, and then select **OK**. Then, perform step 10 in the procedure.  
+> - All of the options might not be available to you for selecting how much of the schedule you want to edit. The available options are based on the schedules that are already set up.  
   
 ### Related information  
  

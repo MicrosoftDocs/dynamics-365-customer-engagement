@@ -35,4 +35,4 @@ As a seller, you create leads, work with leads handed over by agents, use predic
 - [Work on leads handed over by the Sales Qualification Agent (preview)](use-sales-qualification-agent.md)
 - [Use predictive scores](work-predictive-lead-scoring.md): Use the predictive lead scoring feature to prioritize your leads based on scores.
 - [Qualify and convert](qualify-lead-convert-opportunity-sales.md): Qualify a lead to convert it into an opportunity.
-- [Use Copilot to be productive and efficient](copilot-get-information.md#summarize-a-lead): Use Copilot to quickly get up to speed with your leads. Ask Copilot to summarize a lead or get the recent changes made to a lead.
+- [Use Copilot to be productive and efficient](copilot-summarize-records.md#lead-summary): Use Copilot to quickly get up to speed with your leads. Ask Copilot to summarize a lead or get the recent changes made to a lead.

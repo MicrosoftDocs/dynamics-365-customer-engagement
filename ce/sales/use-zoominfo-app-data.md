@@ -1,7 +1,7 @@
 ---
 title: Use ZoomInfo app data in Dynamics 365 Sales
 description: Understand how you can use ZoomInfo app data in Dynamics 365 Sales. Learn how to find and import B2B account, contact, and lead info, or update existing data
-ms.date: 09/20/2024
+ms.date: 09/12/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag

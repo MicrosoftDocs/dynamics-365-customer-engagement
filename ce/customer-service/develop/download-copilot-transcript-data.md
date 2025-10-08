@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 05/05/2025
+ms.date: 09/11/2025
 ms.update-cycle: 180-days
 ms.custom:
   - bap-template
@@ -19,7 +19,7 @@ ms.custom:
 
 Customer service representatives (service representatives or representatives) use Copilot features such as copying summaries, using a suggested reply, feedback, and chat. Copilot interactions are stored in the [Copilot Interaction (msdyn_copilotinteraction)](../../developer/reference/entities/msdyn_copilotinteraction.md), [Copilot Interaction Data (msdyn_copilotinteractiondata)](../../developer/reference/entities/msdyn_copilotinteractiondata.md), [Copilot Transcript (msdyn_copilottranscript)](../../developer/reference/entities/msdyn_copilottranscript.md), and [Copilot Transcript Data (msdyn_copilottranscriptdata)](../../developer/reference/entities/msdyn_copilottranscriptdata.md) tables in Dataverse. You can download the transcripts and interaction data using Dataverse [Web API](/power-apps/developer/data-platform/webapi/overview) or [SDK for .NET](/power-apps/developer/data-platform/org-service/overview).
 
-Beginning August 2025, copilot interactions are stored in the msdyn_copilotevents table. The msdyn_copilotinteraction and msdyn_copilotinteractiondata tables contain records prior to August. 
+Beginning August 2025, copilot interactions are stored in the [msdyn_copilotevents](../../developer/reference/entities/msdyn_copilotevent.md) table. The msdyn_copilotinteraction and msdyn_copilotinteractiondata tables contain records prior to August. 
 
 ## Prerequisites
 

@@ -3,7 +3,7 @@ title: Download the mobile app
 description: Learn where to download the Dynamics 365 Field Service mobile app and get started with field service operations on the go.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-ms.date: 08/28/2024
+ms.date: 09/22/2025
 author: JonBaker007
 ms.author: jobaker
 ms.custom:
@@ -15,7 +15,7 @@ ms.custom:
 
 # Download the mobile app
 
-The Dynamics 365 Field Service mobile app works on iOS and Android devices and on Windows laptops and tablets. It gives technicians the tools they need to serve customers onsite.
+The Dynamics 365 Field Service mobile app works on iOS, Android, and Windows devices. It gives technicians the tools they need to serve customers onsite.
 
 Sample screens show both the classic user experience ("Unified Interface UX") and the new mobile app user experience in separate tabs.
 
@@ -25,19 +25,19 @@ A system administrator has [set up the mobile app](set-up-field-service-mobile.m
 
 ## Download the app
 
-Go to the app store on your iOS, Android, or Windows device and search for **Dynamics 365 Field Service**.
+Go to the app store on your iOS, Android, or Windows device, and search for **Dynamics 365 Field Service**.
 
 - Android app: [Dynamics 365 Field Service on Google Play](https://play.google.com/store/apps/details?id=com.microsoft.crm.crmphone.fieldServices)
 - iOS app: [Dynamics 365 Field Service in the Apple App Store](https://apps.apple.com/us/app/field-service-dynamics-365/id1485579247)
 - Windows app: [Dynamics 365 Field Service in the Microsoft Store](https://apps.microsoft.com/detail/9PMX4FNSSF5P)
 
-System requirements for the Field Service mobile app are the same as for the Power Apps mobile app. See [Supported platforms for running apps using the Power Apps mobile app](/power-apps/limits-and-config#supported-platforms-for-running-apps-using-the-power-apps-mobile-app).
+System requirements for the Field Service mobile app are the same as for the Power Apps mobile app. Learn more in [Supported platforms for running apps using the Power Apps mobile app](/power-apps/limits-and-config#supported-platforms-for-running-apps-using-the-power-apps-mobile-app).
 
 ## Supported mobile devices
 
-To provide the best experience for mobile app users, we recommend using modern devices with high [CPU Benchmark scores on Geekbench](https://browser.geekbench.com/v5/cpu/singlecore).
+For the best experience, use modern devices with high [CPU Benchmark scores on Geekbench](https://browser.geekbench.com/v5/cpu/singlecore).
 
-The required storage size depends on the [mobile offline profile](work-offline.md). It specifies the amount of data that your organization needs to download for when there's no internet access.
+The required storage size depends on the [mobile offline profile](work-offline.md). It shows how much data your organization needs to download when there's no internet access.
 
 ### iOS
 

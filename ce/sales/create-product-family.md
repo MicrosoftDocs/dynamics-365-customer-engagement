@@ -1,7 +1,7 @@
 ---
 title: Set up product families | MicrosoftDocs
 description: Make it easier for sales agents to find products and services in a product catalog by creating a product family and classifying similar products
-ms.date: 08/09/2024
+ms.date: 08/20/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -61,7 +61,7 @@ With product families, you can:
 
 6. Select **Save**.
 
-7. In the list of products, families, and bundles, open the family that you just created.
+7. In the list of products, families, and bundles, open the family that you created.
 
 8. On the **Product Properties** tab, select the **Add New Property** button, and add the required properties. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](use-properties-describe-product.md)
 

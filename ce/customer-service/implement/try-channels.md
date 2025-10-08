@@ -12,8 +12,6 @@ ms.custom: bap-template
 
 # Try channels 
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 Channels, like Live Chat, voice, and SMS, are engagement channels that let your customer service representatives connect with customers in real time and provide quick personalized help.
 
 You can perform the following steps to try channels in Customer Service:
@@ -21,7 +19,6 @@ You can perform the following steps to try channels in Customer Service:
 1. Sign up for a free 30-day trial of channels through Microsoft 365 admin center.
 
 1. [Provision channels](#provision-channels-in-your-organization).
-
 
 ## Channels trial through Microsoft 365 admin center
 
@@ -38,9 +35,9 @@ You must obtain one of the following subscriptions through the Microsoft 365 adm
 
 > [!IMPORTANT]
 > - If you don't have one of these subscriptions, or if you purchased your subscription somewhere other than Web Direct, then the option to try channels isn't be available in the Microsoft 365 admin center. In such cases, we recommend that you use the [Customer Service trial](https://www.microsoft.com/dynamics-365/products/customer-service).
-> - 90-days trials obtained through Customer Digital Experiences won't have Omnichannel for Customer Service enabled. Use the 30-days free trial if you want to use Omnichannel for Customer Service. 
+> - 90-days trials obtained through Customer Digital Experiences won't have Omnichannel for Customer Service enabled. Use the 30-days free trial if you want to use Omnichannel for Customer Service.
 
-For information about the Digital Messaging license, pricing, and prerequisites, see the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
+Learn more in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
 ### Get a trial subscription of channels
 
@@ -70,14 +67,13 @@ For information about the Digital Messaging license, pricing, and prerequisites,
 
 1. Select **Details**, and on the page that appears, select **Start free trial** to complete your purchase.
 
-1. Go to the **Active users** page, and assign the trial license to the user who will provision the voice trial. Only then can the user see the voice trial for provisioning it.
+1. Go to the **Active users** page, and assign the trial license to the user who provisions the voice trial. Only then can the user see the voice trial for provisioning it.
 
 1. Provision the channel in your environment by following the steps mentioned in the next section of this article.
 
 ## Provision channels in your organization
 
 Perform the tasks in [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels) to enable Chat, SMS, social, and voice channels in your organization.
-
 
 To configure the following channels, perform the steps provided in:
 

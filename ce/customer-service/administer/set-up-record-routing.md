@@ -1,7 +1,7 @@
 ---
 title: Set up unified routing for records
-description: Use this article to understand how to set up unified routing for records in Customer Service.
-ms.date: 02/04/2025
+description: Use this article to understand how to set up unified routing for records in Dynamics 365 Customer Service.
+ms.date: 09/16/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -10,15 +10,13 @@ ms.reviewer: nenellim
 
 # Set up unified routing for records
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 You can configure unified routing for records in the Copilot Service admin center app.
 
 > [!IMPORTANT]
-> - Provisioning unified routing might affect runtime operations on account of solution import that can affect SQL load.
+> - Enabling unified routing might affect runtime operations on account of solution import that can affect SQL load.
 > - If you're upgrading your environment and Omnichannel for Customer Service is also installed, you might have existing workstreams for record routing. We recommend that you provision unified routing only after recreating those workstreams for record routing in your admin app.
 > - If you're an existing customer, we recommend that you configure and test unified routing in a test or development environment before configuring it in your production environment.
-> - If you're routing, updating, or deleting multiple records at a time, and facing any technical or performance-related issues with unified routing, we recommend that you contact Microsoft Support to troubleshoot the issues.
+> - If you're facing any technical or performance-related issues with multiple updates at a time using unified routing, we recommend that you contact Microsoft Support to troubleshoot the issues.
 
 ## Prerequisites
 
@@ -64,7 +62,7 @@ You must complete all the steps in this section to route records using unified r
 
 Intake rules for a record help determine the workstream to be picked up to assign an incoming work item.
 
-You can create intake rules independently and map them to basic routing rulesets also. However, on any workstream details page, only those intake rules will be displayed that are mapped to the workstream. Therefore, if you want to prioritize the runtime evaluation of the intake rules, you'll need to select **See more** on the workstream details page, and reorder the rules in the **Decision list**.
+You can create intake rules independently and map them to basic routing rulesets also. However, on any workstream details page, only those intake rules are displayed that are mapped to the workstream. Therefore, if you want to prioritize the runtime evaluation of the intake rules, you need to select **See more** on the workstream details page, and reorder the rules in the **Decision list**.
 
 Perform the following steps:
 
@@ -78,7 +76,7 @@ Perform the following steps:
 
    :::image type="content" source="../media/ur-intake-rule.png" alt-text="Define conditions for an intake rule.":::
 
-4. Select **Create**.
+1. Select **Create**.
 
    The following screenshot shows a workstream with the required intake rule and route to queues.
 
@@ -90,7 +88,7 @@ Perform the following steps:
 
 ### Configure routing rules
 
-Routing rules for a workstream consists of work classification rules and route-to-queue rules. For the steps to configure routing rules, see the following:
+Routing rules for a workstream consists of work classification rules and route-to-queue rules. For the steps to configure routing rules, see the following articles:
 
 - [Configure work classification rules](configure-work-classification.md#create-work-classification-rulesets)  
 - [Configure route to queues](configure-route-to-queue-rules.md)
@@ -100,10 +98,10 @@ Routing rules for a workstream consists of work classification rules and route-t
 1. In the **Work distribution** area, you can either accept the default settings or select **See more**, and update the following options:
 
    - **Capacity**: Select one of the following options:
-     - **Unit based**: Enter value if your organization has configured unit-based capacity.
-     - **Profile based**: Specify a profile in the list if your organization has configured profile-based capacity. Learn more in [Create and manage capacity profiles](capacity-profiles.md). 
+     - **Unit based**: Enter a value if your organization uses unit-based capacity.
+     - **Profile based**: Specify a profile in the list if your organization uses profile-based capacity. Learn more in [Create and manage capacity profiles](capacity-profiles.md).
 
-   - **Allowed presences**: Select the presences in which customer service representatives (service representatives or representatives) will be assigned. If you want to route records in Customer Service Hub, make sure that you add all the required presences to be able to route work items as required.
+   - **Allowed presences**: Select the presences in which customer service representatives (service representatives or representatives) can receive work. If you want to route records in Customer Service Hub, make sure that you add all the required presences to be able to route work items as required.
 
    - **Default skill matching algorithm**: Select **Exact Match** or **Closest Match**.
 
@@ -112,8 +110,8 @@ Routing rules for a workstream consists of work classification rules and route-t
    - [Customer service representative notifications](notification-templates.md#out-of-the-box-notification-templates)
 
    > [!NOTE]
-   > - The Customer service representative notifications that you configure for routing of records based on unified routing will be displayed in the Copilot Service workspace app only.
-   > - Ensure that the representatives in the queues have correct permissions to handle the incoming work items in the queue. If a representative doesn't have permissions to an assigned work item, the assignment will be stopped, and the conversation will be closed to protect it.
+   > - The notifications that you configure for routing of records based on unified routing are displayed in the Copilot Service workspace app only.
+   > - Make sure that the representatives in the queues have correct permissions to handle the incoming work items in the queue. If a representative doesn't have permissions to an assigned work item, the assignment is stopped, and the conversation is closed to protect it.
 
 ### Next steps
 
@@ -123,10 +121,13 @@ Routing rules for a workstream consists of work classification rules and route-t
 ### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
-[Create and manage workstreams](create-workstreams.md)    
+[Create and manage workstreams](create-workstreams.md)  
 [Configure routing for email records](configure-routing-for-email-records.md)  
 [Release representative's capacity](capacity-profiles.md#release-capacity-for-representatives)  
 [Assign roles and enable users](../implement/add-users-assign-roles.md)  
+[Understand how unified routing affects queue items and live work items for routed records](../develop/unified-routing-impact-on-APIs.md)  
+[How to close live work items or deactivate queue items](../develop/deactivate-queue-items.md)  
+[Release capacity for representatives](capacity-profiles.md#release-capacity-for-representatives)  
 [FAQ about time taken by configuration changes in unified routing](faqs.md#how-long-does-a-configuration-change-to-the-omnichannel-for-customer-service-and-unified-routing-settings-take-to-update)  
 
 

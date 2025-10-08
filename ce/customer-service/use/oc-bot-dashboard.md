@@ -1,7 +1,7 @@
 ---
 title: Bot dashboard
 description: Learn about the bot dashboard in historical analytics to better understand customer service representative performance in your organization.
-ms.date: 08/26/2025
+ms.date: 09/11/2025
 ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
@@ -16,9 +16,7 @@ ms.reviewer: mgandham
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
-In the application, you can integrate both Azure and Copilot agents to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to customer service representatives (service representatives or representatives), as required. The bot dashboard shows key performance indicators (KPIs) and charts for chat and IVR AI agents. You can use the dashboard to understand how AI agents are performing in a support organization. 
-
-You can [access the dashboard](omnichannel-analytics-insights.md#access the dashboards) in the Copilot Service workspace or Contact Center workspace application.
+In the application, you can integrate both Azure and Copilot agents to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to customer service representatives (service representatives or representatives), as required. The bot dashboard shows key performance indicators (KPIs) and charts for chat and IVR AI agents. You can use the dashboard to understand how AI agents are performing in a support organization. Learn how to [access the dashboard](omnichannel-analytics-insights.md#access-the-dashboards).
 
 Based on your administrator's configuration of the **Add historical analytics for bots** option in the Copilot Service admin center, the dashboard is as follows:
 - **Enabled**: Indicates that your organization only has Copilot agents configured and the dashboard is specific to them. Additional metrics, charts, and KPIs that are applicable only to Copilot agents are displayed.
@@ -26,7 +24,8 @@ Based on your administrator's configuration of the **Add historical analytics fo
 
 ## Prerequisites
 
-- You must have the **Analytics Report Author** role to use the visual customizations in the bot dashboard. Visual customization is limited to the data available in the embedded Power BI report. If you want to add additional data, you need a Power BI license and enable data model customization.
+- You must have the **Analytics Report Author** role to use the visual customizations in the bot dashboard. Visual customization is limited to the data available in the embedded Power BI report. Specific licensing requirements apply when you use the feature with product environments. Learn more in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
+- To add additional data, enable data model customization.
 - Make sure that **Allow conversation transcripts and their associated metadata to be saved in Dataverse** is selected in Power Platform admin center. This setting is required to save transcripts in Dataverse that the bot dashboard uses.
 
 
@@ -82,7 +81,7 @@ Based on your administrator's configuration of the **Add historical analytics fo
  | Avg. escalation time (min) | The average time, in minutes, that a customer interacts with an AI agent before the conversation is escalated to a service representative or an external number. | 
  | Conversations deflected| The total number of conversations that were resolved by the AI agent without having to escalate it to a service representative. |
  | Bot deflection rate | The percentage of conversations that were closed by interacting with an AI agent, out of all conversations engaged by the same agent. |
- | Avg. resolution time (min) | The average time, in minutes, that a customer interacts with an AI agent before the conversation is closed.|
+ | Avg. deflection time (min) | The average number of minutes a customer interacts with an AI agent before the conversation ends.|
  | Bot CSAT | The customer satisfaction (CSAT) scores for AI agent-handled conversations where customers respond to an end-of-session survey request.|
 
  ### Details

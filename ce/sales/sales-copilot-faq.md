@@ -89,11 +89,10 @@ Copilot in Dynamics 365 Sales can't be turned on for the following applications:
 - OmniChannelEngagementHub (Omnichannel Engagement Hub)
 - msdyn_ProjectService (Project Service)
 
-## Why does my tenant have an app called Sales Copilot Power Virtual Agents Bot?
+## Why does my tenant have an app called Copilot in Dynamics 365 Sales?
 
-Sales Copilot Power Virtual Agents Bot is part of the Dynamics 365 Sales solution. It can't be deleted or turned off. It's installed in all Dynamics 365 Sales environments, whether Copilot in Dynamics 365 Sales is turned on or not. When Copilot in Dynamics 365 Sales is turned on, the bot is used to authenticate and authorize Copilot. If Copilot in Dynamics 365 Sales is turned off, the bot remains dormant in your environment. The bot is updated automatically.
+The Copilot in Dynamics 365 Sales app is part of the Dynamics 365 Sales solution. It can't be deleted or turned off. It's installed in all Dynamics 365 Sales environments, whether Copilot in Dynamics 365 Sales is turned on or not. When Copilot in Dynamics 365 Sales is turned on, the app is used to authenticate and authorize Copilot. If Copilot in Dynamics 365 Sales is turned off, the app remains dormant in your environment. The app is updated automatically.
 
-Power Virtual Agents is now Copilot Studio. Learn more in [Microsoft Copilot Studio overview](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio).
 
 A related app with the same name is also created for your tenant in Microsoft Azure for authentication and authorization purposes. The app is automatically renewed when it nears expiration. We recommend that you don't delete or turn off this app.
 

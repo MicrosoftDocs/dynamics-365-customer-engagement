@@ -1,7 +1,7 @@
 ---
 title: Create an IoT Provider for Azure IoT Hub
 description: Learn how to create an IoT Provider record and specify the associated actions in Dynamics 365 Field Service.
-ms.date: 09/04/2024
+ms.date: 10/03/2025
 ms.author: vhorvath
 author: vhorvathms
 ms.subservice: connected-field-service
@@ -14,13 +14,13 @@ ms.search.app:
 
 # Create an IoT Provider for Azure IoT Hub
 
-An Internet of Things (IoT) provider record specifies the provider type and the associated actions.
+An Internet of Things (IoT) provider record defines the provider type and its associated actions.
 
-1. In Dynamics 365 Field Service, change to the **Settings** area. Under **IoT**, select **Providers**.
+1. In Dynamics 365 Field Service, go to the **Settings** area. Under **IoT**, select **Providers**.
 
-1. Select **New** and select **New IoT Provider** in the **IoT Provider** field.
+1. Select **New**, and then select **New IoT Provider** in the **IoT Provider** field.
 
-1. Enter a **Name** and choose **Azure IoT Suite**.
+1. Enter a **Name**, and then choose **Azure IoT Suite**.
 
    :::image type="content" source="media/iot-hub-provider.png" alt-text="Screenshot of IoT Provider record with details filled in.":::
 

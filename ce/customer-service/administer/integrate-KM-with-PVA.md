@@ -17,7 +17,7 @@ ms.reviewer: sdas
 
 Integrate knowledge management with a Copilot agent to use customized conversations. AI agents help answer questions, perform actions, and solve simple problems. This frees up your customer service representative's time to deal with complex issues that need human intervention.
 
-Copilot Studio lets you configure AI agents with various topics and trigger phrases to automatically resolve questions posed by your customers on your portal page. Learn more in [Copilot Studio overview](/power-virtual-agents/fundamentals-what-is-power-virtual-agents).
+Copilot Studio lets you configure AI agents with various topics and trigger phrases to automatically resolve questions posed by your customers on your portal page. Learn more in [Copilot Studio overview](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio).
 
 You can integrate knowledge management with a Copilot agent by using either of the following ways:
 

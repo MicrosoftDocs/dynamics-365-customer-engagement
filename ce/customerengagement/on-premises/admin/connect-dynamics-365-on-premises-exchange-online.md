@@ -18,12 +18,12 @@ author: DerekBraunMSFT
 > [!WARNING]
 > This configuration uses the Exchange Web Services (EWS) protocol to communicate with Exchange Online, which is going to be removed from Microsoft Exchange Online in October 2026. Learn more in [Deprecation of Exchange Web Services in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-ews-exchange-online).
 >
-> Using this feature requires a manual connection process. Starting in October 2025, no new tenants will be connected to this feature.
+> Using this feature requires a manual connection process. Starting October 1st 2025, no new tenants will be connected to this feature.
 >
 > This integration will be removed in the following months:
 >
-> - On-premises version 8x (currently deprecated): January 2026
-> - On-premises version 9x: October 2026
+> - On-premises version 8x (currently deprecated): January 1st, 2026
+> - On-premises version 9x: October 1st, 2026
 >
 > If you need server-side synchronization functionality, we recommend that you migrate to Dynamics 365 Online. Learn more in [Dynamics CRM (on-premises) to Dynamics 365 migration](/dynamics365/guidance/fasttrack/migration) and [Dynamics CRM (on-premises) to Dynamics 365 online migration process overview](/dynamics365/guidance/migrate/opol-crm-migration-high-level-overview).
 
@@ -68,8 +68,7 @@ Before you configure Dynamics 365 (on-premises) and Exchange Online for server-b
 
 ### Configure server-based authentication
 
-1. On the Microsoft Dynamics 365 Server where the deployment tools server role is running, start the Azure Active Directory Module for Windows PowerShell.
-2. Prepare the certificate.
+1. Prepare the certificate.
 
    Change the directory to the location of the CertificateReconfiguration.ps1 file (by default it's C:\Program Files\Microsoft Dynamics CRM\Tools).
 
@@ -78,7 +77,7 @@ Before you configure Dynamics 365 (on-premises) and Exchange Online for server-b
     Invoke-Expression -command $CertificateScriptWithCommand
     ```
 
- 3. [Set up a new Entra ID app](/graph/auth-register-app-v2) to configure server-side synchronization and the customer relationship management app with the certificate from the previous step.
+ 2. [Set up a new Entra ID app](/graph/auth-register-app-v2) to configure server-side synchronization and the customer relationship management app with the certificate from the previous step.
     
     Make sure to [add](/entra/identity-platform/quickstart-configure-app-access-web-apis) and grant the following API permissions to the new app:
 
@@ -93,7 +92,7 @@ Before you configure Dynamics 365 (on-premises) and Exchange Online for server-b
     > [!NOTE]
     > The new app, configred above, is only needed for setup and new API permissions. The app can be removed once all the setup steps are completed. 
      
-4. In the PowerShell session from step 2, invoke the **ConfigureCrmServerSideSync** command.                     
+3. In the PowerShell session from step 2, invoke the **ConfigureCrmServerSideSync** command.                     
 
     [Download](https://github.com/microsoft/PowerApps-Samples/blob/master/powershell/ServerSideSync/ConfigureCrmServerSideSync.ps1) the script and replace the existing script if the ConfigureCrmServerSideSync.ps1 script present in the current powershell session directory, from above, is different than the script in the download link:
 
@@ -108,10 +107,10 @@ Before you configure Dynamics 365 (on-premises) and Exchange Online for server-b
 
 ### Set the Exchange Online tenant ID
 
-1. In the Azure Active Directory module for Windows PowerShell shell, run the following commands.
+1. [Locate the tenant ID](/entra/fundamentals/how-to-find-tenant). Update the below poershell command with the tenand ID and run the same.
 
     ```powershell
-    $CRMContextId = (Get-MsolCompanyInformation).ObjectID
+    $CRMContextId = #tenantID
     $CRMContextId
     ```
 

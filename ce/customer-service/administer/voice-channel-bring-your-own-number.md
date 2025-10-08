@@ -33,7 +33,7 @@ Azure Communication Services direct routing enables you to connect your existing
 ## Bring your own phone number via direct routing
 
 1. In the site map of Copilot Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
-    
+
 1. Select **Manage** for **Phone numbers**.
 
 1. Select **Advanced** on the menu. In the **Bring your own number via Azure Direct Routing** section you can either add one phone number at a time or import multiple phone numbers in bulk. 

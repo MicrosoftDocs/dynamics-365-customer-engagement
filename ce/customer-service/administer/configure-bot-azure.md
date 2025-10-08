@@ -21,7 +21,7 @@ In Omnichannel for Customer Service, you can integrate Azure AI agents (agents) 
 
 ## Prerequisites
 
-- Have an AI agent that's built using the [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true). Ensure that you register the agent resource as a multitenant app.
+- Have an AI agent that's built using the [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true). Make sure that you register the agent resource as **User-Assigned Managed Identity**.
 
     Learn about how to create an Azure agent resource in the [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource&preserve-view=true) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the Bot Application ID.
 - Set the messaging endpoint in your bot configuration. Learn more in [Configure bot settings](/azure/bot-service/bot-service-manage-settings?view=azure-bot-service-4.0&preserve-view=true&tabs=userassigned).

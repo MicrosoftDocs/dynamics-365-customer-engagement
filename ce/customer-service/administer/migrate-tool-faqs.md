@@ -49,7 +49,7 @@ Rules that are partially migrated, or that are identified as incompletely migrat
 
 ### Do I need a separate license for Power Automate before I run migration?
 
-No. For more information about licensing guidelines, go to [What are Microsoft Power Apps and Power Automate use rights for Dynamics 365 applications?](/power-platform/admin/powerapps-flow-licensing-faq#what-are-microsoft-power-apps-and-power-automate-use-rights-for-dynamics-365-applications)
+No. For information about licensing guidelines, go to [What are Microsoft Power Apps and Power Automate use rights for Dynamics 365 applications?](/power-platform/admin/powerapps-flow-licensing-faq#what-are-microsoft-power-apps-and-power-automate-use-rights-for-dynamics-365-applications).
 
 ### Some of my rules are incomplete or partially migrated. What should I do?
 
@@ -278,7 +278,5 @@ In Unified Interface, the **Customer** field has only **Regarding(Email)**, rega
 [FAQ about modern automatic record creation](arc-faqs.md#faq-about-modern-automatic-record-creation)
 
 [Migrate automatic record creation rules and SLAs](migrate-automatic-record-creation-and-sla-agreements.md)
-
-[Dynamics 365 SLA and ARC Migration Playbook](https://www.d365implementationguide.com/books/aiij/) 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

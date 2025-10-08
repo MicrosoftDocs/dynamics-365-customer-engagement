@@ -35,7 +35,7 @@ The following reports are available for Omnichannel historical analytics.
 
 ### Summary
 
-The Summary dashboard gives you an integrated view of the Copilot agent and Omnichannel metrics. Learn more in the [Conversation dashboard](omnichannel-summary-dashboard.md).
+The Summary dashboard gives you an integrated view of the Copilot agent and Omnichannel metrics. Learn more in the [Summary dashboard](omnichannel-summary-dashboard.md).
 
 ### Conversation
 
@@ -52,10 +52,6 @@ The Agent dashboard shows charts and KPIs that you can use to guide service repr
 ### Bot
 
 The Bot dashboard shows charts and KPIs that you can use to understand how AI agents are playing a role in a support organization. Learn more in the [Bot dashboard](oc-bot-dashboard.md).
-
-### Conversation Topics
-
-The Topics dashboard shows a detailed breakdown of conversations and their assigned topics. Learn more in the [Topics dashboard](oc-conversation-topics-dashboard.md).
 
 > [!NOTE]
 > The reports don't include work items of the Entity Record channel.

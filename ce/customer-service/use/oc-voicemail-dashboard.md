@@ -13,7 +13,7 @@ ms.reviewer: mgandham
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 
-The Voicemail dashboard provides a view of the voicemails with details, such as the voicemail status and the number of voicemails per queue and customer service representative (service representative or representative).
+The Voicemail dashboard provides a view of the voicemails with details, such as the voicemail status and the number of voicemails per queue and customer service representative (service representative or representative). Learn how to [access the dashboard](omnichannel-analytics-insights.md#access-the-dashboards).
 
 ## Report details
 

@@ -1,7 +1,7 @@
 ---
 title: Create or edit sales orders
 description: Use orders to track details of the products or services that your customers want to place an order for.
-ms.date: 07/29/2024
+ms.date: 08/14/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -75,16 +75,16 @@ You can create an order that is based on your communication with a customer inst
     -OR-
     To manually add other products, in the **Products** section, select **Add Product**. For more information, see [Add products to Quote, invoice, or order records](add-product-quote-order-invoice.md). If your administrator has configured the enhanced experience for adding products, you'll see the **Add Products** button. For more information about adding products using the enhanced experience, see [Find and add multiple products to quotes, orders, or invoices](add-products-qoi-enhanced.md). 
    > [!NOTE]
-   >- You need to enter the tax amount when you add a product to a quote, order, or invoice. Dynamics 365 Sales does not automatically calculate tax for individual products. However, the total tax is calculated automatically based on the sum of the tax amounts for all of the individual products in a quote, order, or invoice.
+   >- You need to enter the tax amount when you add a product to a quote, order, or invoice. Dynamics 365 Sales doesn't automatically calculate tax for individual products. However, the total tax is calculated automatically based on the sum of the tax amounts for all of the individual products in a quote, order, or invoice.
 
 7. In the **Shipping Information** area, enter shipping details.
 8. In the **Addresses** area, enter shipping and billing addresses.
 9. Select **Save** in the lower-right corner of the screen.
 
 > [!NOTE]
->- You close an order by either fulfilling the order or canceling the order. Products or services that are shipped are fulfilled. You should cancel orders for any products or services that are not shipped.
+>- You close an order by either fulfilling the order or canceling the order. Products or services that are shipped are fulfilled. You should cancel orders for any products or services that aren't shipped.
 >- If you've modified the maximum character limit for the Description attribute in the Order entity, ensure that you make a corresponding change in the Order Close entity as well. This is necessary to prevent potential errors or data truncation when the system copies the Description from the Order entity to the Order Close entity.
->- You can't set the status of multiple orders to fulfilled at one go.
+>- You can't set the status of multiple orders to be fulfilled at one go.
 >- You can't update or change an order after it's closed, or if it's partially or completely fulfilled.
 
 

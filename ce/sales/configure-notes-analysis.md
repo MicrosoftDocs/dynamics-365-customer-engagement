@@ -1,7 +1,7 @@
 ---
 title: Configure notes analysis
 description: Configure and enable notes analysis to display intelligent suggestions when your users enter an activity on the timeline.
-ms.date: 09/20/2024
+ms.date: 09/10/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag

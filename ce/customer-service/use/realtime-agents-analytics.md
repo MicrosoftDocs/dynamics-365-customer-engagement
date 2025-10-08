@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 08/26/2025
+ms.date: 09/16/2025
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -19,7 +19,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The **Agent** report consists of metrics that provide an overview of customer service representatives (service representatives or representatives) performance to help contact center managers optimize the allocation of service representatives in real time. This capability is crucial for ensuring that customers receive the best possible support.
+The **Agent** report consists of metrics that provide an overview of customer service representatives (service representatives or representatives) performance to help contact center managers optimize the allocation of service representatives in real time. This capability is crucial to ensure that customers receive the best possible support. Learn how to [access the report](intro-realtime-analytics-dashboard.md#access-reports).
 
 The **Agent** report provides information about the capacity and status of service representatives for the last 24 hours. By drilling down to view details such as capacity at each service representative's level, you can quickly identify and allocate resources to address any staffing shortages. In this way, you help ensure that customers receive support when they need it.
 
@@ -27,7 +27,7 @@ You can also sort service representatives by skills by using the **Skills** filt
 
 You can select the **All** filter to view the performance of service representatives across all channels. Alternatively, you can select a channel to view channel-specific service representative performance. You can also filter areas by time, queue, time zone, and conversation status. Learn more in [Overview of Omnichannel Real-time analytics dashboards](intro-realtime-analytics-dashboard.md).
 
-[Learn more about the metrics that are shown on the Agent report.](oc-metrics-dimensions.md)
+[Learn more about the metrics that are shown on the Agent report](../develop/calculate-conversation-metrics.md#calculate-conversation-metrics).
 
 :::image type="content" source="../media/realtime-agent insights.png" alt-text="Screenshot of real-time Agent report.":::
 
@@ -38,7 +38,7 @@ You can select the **All** filter to view the performance of service representat
 
 You can drill down from the **Agent list** section on the dashboard to view key metrics about service representative details and specific insights about individual service representatives' performance.
 
-You'll see the following tabs. The tabs also show custom presence statuses, configured by you and used by your service representatives. 
+You see the following tabs. The tabs also show custom presence statuses, configured by you and used by your service representatives. 
 
 - **Agent online**: Shows service representatives who are online at the moment.
 
