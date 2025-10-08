@@ -160,7 +160,7 @@ The following simple settings are available out of the box for the record types.
 | Voicemail | - Assigned <br> - Unassigned <br> - Resolved |
 | Unified Routing enabled records | - Assigned <br> - Open <br> - Closed |
 
-### Advanced settings and views
+### Advanced settings for conversations
 
 For custom experience profiles with conversations enabled, you can access advanced settings for the conversation entity in Inbox views to further customize the experience for your users. You can use the condition builder to customize what conversation records are shown to the user. Due to the complexity of conversation configuration, the configuration builder is prepopulated with any saved simple setting selections that you can modify.
 
