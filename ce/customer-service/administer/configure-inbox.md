@@ -1,7 +1,7 @@
 ---
 title: Configure the inbox
 description: Use this article to enable and configure inbox settings in Copilot Service admin center.
-ms.date: 04/02/2025
+ms.date: 10/08/2025
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -17,7 +17,7 @@ ms.custom: bap-template
 > [!NOTE]
 > Case is applicable to Customer Service only.
 
-As an administrator, you can [configure the inbox setting](#configure-the-inbox-setting-for-representatives) so that when your customer service representatives (service representatives or representatives) open Copilot Service workspace, they can select the inbox icon to show all the cases, conversations, and records that are assigned to them. The inbox is designed to help representatives efficiently work on high-velocity tasks, and promote inbox sessions to regular sessions when they need more time to resolve cases and complete their conversations.
+As an administrator, you can [configure the inbox setting](#configure-the-inbox-setting-for-representatives) so that when your customer service representatives (service representatives or representatives) open Copilot Service workspace, they can select the inbox icon to show all the cases, conversations, and records that are assigned to them. The inbox is designed to help representatives efficiently work on high-velocity tasks and promote inbox sessions to regular sessions when they need more time to resolve cases and complete their conversations.
 
 You can configure the inbox settings for custom experiences only.
 
@@ -44,7 +44,7 @@ The following asynchronous channels are available in the conversation inbox:
 
 The live conversation settings in the inbox are as follows:
 
-- When a representative accepts a live work item, that item is then added to the relevant view in the inbox, irrespective of whether the representative is using the inbox at the time of accepting the live work item.
+- When a representative accepts a live work item, that item is added to the relevant view in the inbox, irrespective of whether the representative is using the inbox at the time.
 - Voice calls always open as a new session with the card added to the inbox for awareness.
 - Live work item cards have a "live" visual indicator.
 - Live work item unread counts accrue to the unread count on the view.
@@ -70,11 +70,11 @@ You can configure the inbox in Copilot Service admin center by editing the exper
 1. Select **Edit** to modify an existing view or create a view, and configure the following fields:
    - **Name:** Specify a name that shows in the inbox. Alphanumeric values are valid names.
    - **Record Type:** Select the record types for which the settings need to be applied. You can select more than one record type.
-   - **Chat Status**: Is available if you select the record type as chat. Select one or more of the following settings:
-     -  **Assigned**
-     -  **Unassigned**
-     -  **Resolved**
-   - **Email**: Is available if you select the record type as Email. Select all the options that you want to enable.
+   - **Chat Status**: Available if the record type is chat. Select one or more of the following settings:
+     -  Assigned
+     -  Unassigned
+     -  Resolved
+   - **Email**: Available if the record type is email. Select all the options you want to enable.
      - Assigned to me:
        - Emails sent to me
        - Emails assigned to me
@@ -82,10 +82,8 @@ You can configure the inbox in Copilot Service admin center by editing the exper
        - Emails in my team
        - Emails in my queue(s)
        - Emails in a shared mailbox
-    - **Representative visibility**: Select one of the following options to show or hide the view to representatives:
-      - **Show**
-      - **Hide**
-
+    - **Representative visibility**: Show or Hide the view to representatives.
+      
 ## Preconfigured inbox views
 
 The following views are supported out of the box in the inbox:
@@ -96,6 +94,30 @@ The following views are supported out of the box in the inbox:
 - **Unassigned Conversations**: Shows all active conversations and emails in a team or queue in which the user is a member. The user is able to assign conversations to themselves and reply to emails directly from this view.
 
 Inbox views are auto refreshed every five minutes. Representatives can manually refresh the view by using the **Refresh** icon.
+
+## Configure the channel-focused inbox
+
+The channel-focused inbox feature allows organizations to control how incoming conversations (persistent, live chat, async chat, social, SMS) are routed and displayed for customer service representatives, enhancing workflow flexibility and the service representative experience.
+
+The functionality for the channel-focused inbox is as follows:
+- Changes apply to all users across an organization, and to all app profiles and conversation types except voice.
+- The feature affects peristent, live, async, and sync conversations.
+- Previously, live chats opened in new tabs and async chats in the inbox. Now, the settings you configure apply to all, with exception of voice calls, which always open in a new session tab.
+
+1. Open the admin center app.
+1. In **Support experience**, select **Workspaces**.
+1. In **Experience profiles**, select **Manage**.
+1. Select the profile for which you want to configure the channel-focused inbox.
+1. Select **Edit inbox**, and then select the **Incoming work items** tab.
+1. Choose one of the following options for handling incoming conversations:
+   - **Default**: Add to inbox if the representative is in the inbox. Otherwise, open in a new session tab.
+   - **Always add to inbox**: Adds to inbox regardless of representative's current location.
+   - **Always open in a new session tab**: Opens in a new tab each time.
+1. Select **Save and close** Then, clear the cache or refresh the browser window for the settings to take effect.
+
+## Advanced settings and views
+
+For custom experience profiles with conversations enabled, you can access advanced settings for the conversation entity in Inbox views to further customize the experience for your users. You can use the condition builder to customize what conversation records are shown to the user. Due to the complexity of conversation configuration, the configuration builder is prepopulated with any saved simple setting selections that you can modify.
 
 ## Configure custom views for the inbox
 
