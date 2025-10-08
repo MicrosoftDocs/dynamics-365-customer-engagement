@@ -110,14 +110,10 @@ The functionality for the channel-focused inbox is as follows:
 1. Select the profile for which you want to configure the channel-focused inbox.
 1. Select **Edit inbox**, and then select the **Incoming work items** tab.
 1. Choose one of the following options for handling incoming conversations:
-   - **Default**: Add to inbox if the representative is in the inbox. Otherwise, open in a new session tab.
-   - **Always add to inbox**: Adds to inbox regardless of representative's current location.
-   - **Always open in a new session tab**: Opens in a new tab each time.
+   - **Add to inbox if customer service representative is currently in inbox; otherwise open in a new session tab**: Adds to inbox if the representative is currently in the inbox. If not, the conversation opens in a new session tab.
+   - **Add to inbox**: Adds to inbox regardless of representative's current location.
+   - **Open in a new session tab**: Opens in a new tab each time.
 1. Select **Save and close** Then, clear the cache or refresh the browser window for the settings to take effect.
-
-## Advanced settings and views
-
-For custom experience profiles with conversations enabled, you can access advanced settings for the conversation entity in Inbox views to further customize the experience for your users. You can use the condition builder to customize what conversation records are shown to the user. Due to the complexity of conversation configuration, the configuration builder is prepopulated with any saved simple setting selections that you can modify.
 
 ## Configure custom views for the inbox
 
@@ -163,6 +159,10 @@ The following simple settings are available out of the box for the record types.
 | Case | - Cases assigned to me <br> - Cases in my team(s) <br> - Case(s) in my queue(s) |
 | Voicemail | - Assigned <br> - Unassigned <br> - Resolved |
 | Unified Routing enabled records | - Assigned <br> - Open <br> - Closed |
+
+### Advanced settings and views
+
+For custom experience profiles with conversations enabled, you can access advanced settings for the conversation entity in Inbox views to further customize the experience for your users. You can use the condition builder to customize what conversation records are shown to the user. Due to the complexity of conversation configuration, the configuration builder is prepopulated with any saved simple setting selections that you can modify.
 
 ## Configure custom sort in the inbox
 
