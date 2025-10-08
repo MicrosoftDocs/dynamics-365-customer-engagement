@@ -113,7 +113,7 @@ The functionality for the channel-focused inbox is as follows:
    - **Add to inbox if customer service representative is currently in inbox; otherwise open in a new session tab**: Adds to inbox if the representative is currently in the inbox. If not, the conversation opens in a new session tab.
    - **Add to inbox**: Adds to inbox regardless of representative's current location.
    - **Open in a new session tab**: Opens in a new tab each time.
-1. Select **Save and close** Then, clear the cache or refresh the browser window for the settings to take effect.
+1. Select **Save and close**. Then, clear the cache or refresh the browser window for the settings to take effect.
 
 ## Configure custom views for the inbox
 
