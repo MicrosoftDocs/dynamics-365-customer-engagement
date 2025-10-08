@@ -27,6 +27,7 @@ The following channels are supported in the inbox:
 - Asynchronous chat
 - Case
 - Email
+- Task
 - Voice
 - Unified routing enabled records
 
