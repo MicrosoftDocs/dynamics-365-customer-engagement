@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 09/03/2025
+ms.date: 10/08/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -778,7 +778,7 @@ AVERAGEX(FactSessionParticipant, IF(FactSessionParticipant[AgentJoinedOn] <> BLA
 
 ## Related information
 
-[[Customize visual display](../use/customize-reports.md#customize-visual-display) 
+[Customize visual display](../use/customize-reports.md#customize-visual-display) 
 [Calculate conversation metrics](../develop/calculate-conversation-metrics.md#calculate-conversation-metrics)  
 [Calculate session metrics](calculate-session-metrics.md#calculate-session-metrics)
 
