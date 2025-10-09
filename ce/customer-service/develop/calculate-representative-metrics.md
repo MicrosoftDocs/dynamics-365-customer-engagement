@@ -186,7 +186,7 @@ Total capacity units represent the workload capacity assigned to a representativ
 |---------|---------|
 |Dataverse entities | - [msdyn_agentstatus](/dynamics365/developer/reference/entities/msdyn_agentstatus) <br> - [systemuser](/dynamics365/developer/reference/entities/systemuser)|
 |Attributes  | - [systemuser.msdyn_capacity](/dynamics365/developer/reference/entities/systemuser) |
-|Filters  | -  systemuser.msdyn_botapplicationid IS NULL - Filters out agents associated with a bot application. ​|
+|Filters  | -  systemuser.msdyn_botapplicationid IS NULL to exclude AI agents. ​|
 
 
 ### Related metrics
