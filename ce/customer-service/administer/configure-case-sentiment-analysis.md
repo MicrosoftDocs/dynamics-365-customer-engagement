@@ -113,13 +113,13 @@ If email sentiment is enabled, the case sentiment is recalculated with each inco
 
 ### Example
 
-The administrator has set up the weightage for email, chat and voice channels as 50%, 20%, and 30% respectively.
+You configure the weights for email, chat, and voice channels as 50%, 20%, and 30% respectively.
 
 A case has the following interactions:
 
 - An email that was sent to the customer 3 days ago with an email sentiment score of 9.
 
-- A live chat conversation that was closed 2 days ago with a sentiment score of 8.
+- A live chat conversation that was closed two days ago with a sentiment score of 8.
 
 The application calculates the case sentiment as follows:
 
