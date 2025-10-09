@@ -21,14 +21,14 @@ ms.custom:
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-This article provides details on how to calculate customer service representative (service representative or representative) metrics in Dynamics 365 Customer Service. Learn to evaluate performance and efficiency of service representatives to optimize operations and enhance customer satisfaction.
+This article provides details on how to calculate customer service representative metrics in Dynamics 365 Customer Service. Use these metrics to evaluate performance and efficiency, optimize operations, and enhance customer satisfaction.
 
 
 ## Average first response time
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Average first response time is the average time a representative takes to reply to a customer after the customer starts a conversation. The time is adjusted for operating hours.
+Average first response time is the average time an agent takes to reply to a customer after the customer starts a conversation. 
 
 The system calculates average first response time by dividing the total first response time for all engaged conversations by the number of engaged conversations. The time is adjusted for operating hours. You can view the time in seconds or in hh:mm:ss format.
 
@@ -71,9 +71,7 @@ Avg. first response time (sec) = AVERAGE(FactConversation[ReponseTimeInSecondsAd
 
 ## Average service representative response time
 
-*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
-
-Service representative response time is the average time that customers who send a message wait to get a response from a service representative. The time is adjusted based on operating hours. It's calculated by dividing total response time by the number of message exchanges in engaged conversations. Longer response times mean customers wait longer between messages, negatively impacting their experience.
+Service representative response time is the average time that customers who send a message wait to get a response from a service representative. It's calculated by dividing total response time by the number of message exchanges in engaged conversations and is adjusted based on operating hours. Longer response times mean customers wait longer between messages, negatively impacting their experience.
 
 The time can be viewed in two formats: seconds and *hh:mm:ss*.
 
