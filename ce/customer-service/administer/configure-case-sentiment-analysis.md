@@ -13,10 +13,7 @@ ms.topic: concept-article
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Case sentiment provides organizations with a consolidated view of customer sentiment across email, chat, and voice interactions linked to a case. 
-This feature helps organizations analyze sentiment patterns to identify
-potential escalations before they occur, prioritize cases requiring
-immediate attention and enable data-driven decisions to improve service
-delivery.
+This feature helps organizations analyze sentiment patterns to identify potential escalations before they occur, prioritize cases requiring immediate attention, and enable data-driven decisions to improve service delivery.
 
 > [!NOTE]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature isn't intended for use in making, and shouldn't be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements.
@@ -30,6 +27,15 @@ delivery.
 - The channels you want to include in the case sentiment such as email, chat, or voice are provisioned.
 - [sentiment analysis](enable-sentiment-analysis.md#enable-sentiment-analysis) is enabled.
 
+## Enable case sentiment setting definition
+
+1. In [Power Apps](https://make.powerapps.com/), select the Default Solution in **Solutions**.
+1. Search and select the **Enable Case Sentiment** setting definition. Learn more in [Update a setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#updating-a-setting-definition)
+1. On the **Edit Enable Case Sentiment** pane that appears, select **Add existing value** in **Setting environment value**.
+1. Set the value to **Yes**.
+1. Save and publish the changes.
+
+
 ## Set up sentiment analysis for case
 
 In the Copilot Service admin center, perform the following steps:
@@ -37,7 +43,13 @@ In the Copilot Service admin center, perform the following steps:
 1.  Go to **Customer Support** > **Case settings**.
 1. On the **Case settings** page, select **Manage** for **Case sentiment (preview)**.
 1. On the **Case sentiment (preview)** page, perform the following actions:
-    - Select the channels that the case sentiment calculation must reflect.
+    - Select the channels that the case sentiment calculation must reflect. You can select one or more of the following channels:
+       - **Voice**
+       - **Chat**
+       - **Email**. This option is enabled only if **Email sentiments (preview)** is enabled. To enable email sentiment, perform the following steps:
+           - Select **Manage** for **Agent experience** > **Productivity**> **Copilot for questions and emails** or **Operations** > **Insights** > **Copilot for questions and emails**.
+           - Select **Email sentiments (preview)**.
+           - Select **Save**.
     -  Select a weightage option:
 
        - **Equal weightage**: The system automatically assigns equal weights to all selected channels.
@@ -46,54 +58,58 @@ In the Copilot Service admin center, perform the following steps:
     - If the channel is deprovisioned or deleted after the weightage is defined for the channel, the application redistributes the weight assigned to the remaining channels.
     
 4.  Save and close.
-5.  Enable the email sentiment to be displayed on the case as follows:
 
-1.  In the site map, navigate to **Case settings** in one of the following ways:
+## Display case sentiment
 
-     - **Agent experience** > **Productivity**
-     - **Operations** > **Insights**
-     
-2.  Select **Manage**.
+For customer service representatives to view the case sentiment, you must perform the steps in the following sections. 
 
-3.  Select the **Let agents view email sentiments** check box in **Email Sentiments**.
+### Add case sentiment to case form
 
-4.  Select **Save**.
+For case sentiment to be visible on the case form, perform the following steps:
 
-5.  Go to **Agent experience** > **Workspaces.**
+1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
+1. Select **Tables**, select **Case**, and then select **Forms**.
+1. Select the required form to which you want to add the case sentiment.
+1. From **Table columns** on the right, select **Sentiment** and add it to the form. Learn more in [Add columns to a form](/power-apps/maker/model-driven-apps/add-move-or-delete-fields-on-form#add-columns-to-a-form).
+1. In the **Properties** tab for **Sentiment**, perform the following steps:  
+     - Select **Components** > **Get more components**.
+     - Search for and select **CaseSentimentControl**
+     - Select **Add**.
+1. Save and publish the changes.
 
-6.  In **Workspaces**, select **Manage** for **Agent experience profiles**.
+### Add case sentiment to case grid view
 
-7.  Select **Customer Service workspace+inbox-default profile**.
+For case sentiment to be visible on the case grid view, do the steps in [Add columns to the case grid](enable-case-grids.md#add-columns-to-the-case-grid) to add the **Sentiment** column to the view.
 
-8.  Select **Edit** on the **Inbox** section.
+### Add case sentiment to agent inbox
 
-9.  On the **Inbox settings** dialog, do the following:
+For case sentiment to be visible on the agent inbox, perform the following steps:
 
-    1.  Select **Inbox record types** and then select **Case**.
+1. Go to **Agent experience** > **Workspaces**.
+1. In **Workspaces**, select **Manage** for **Agent experience profiles**.
+1. Select **Customer Service workspace+inbox-default profile**.
+1. Select **Edit** on the **Inbox** section.
+1. On the **Inbox settings** dialog, do the following:
+    1. Select **Inbox record types** and then select **Case**.
+    1. Select **Add** to add the **Sentiment** field and **Sentiment** icon. Learn more in [Custom card configuration](configure-inbox.md#custom-card-configuration).
 
-    2.  Select **Add** to add the **Sentiment** field and **Sentiment** icon. Learn more in [Custom card configuration](configure-inbox.md#custom-card-configuration).
 
 ## Understand case sentiment calculation
 
-The application calculates case sentiment is calculated considering both the sentiment score of individual interactions linked to the case and their recency. The calculation involves following steps.
+The application calculates case sentiment considering both the sentiment score of individual interactions linked to the case and their recency. The calculation involves following steps for each channel:
 
- For each channel interaction, calculate the following:
-
-1.  Calculate interaction weight by dividing the weightage of the channel of interaction (voice call/email/chat) by the number of days since the interaction.
+1.  Calculate interaction weight by dividing the weightage of the channel of interaction (voice call, email, or chat) by the number of days since the interaction.
 1. Calculate sentiment factor by multiplying the interaction sentiment score and interaction weight.
-1. Case sentiment is calculated by dividing the sum of all sentiment factors across channels by the sum of all interaction weights across channels.
-1. The sentiment score is a numerical representation of the sentiment for use in calculations.
+1. Case sentiment is calculated by dividing the sum of all sentiment factors across channels by the sum of all interaction weights across channels. The sentiment score is a numerical representation of the sentiment for use in calculations.
 
-For a chat or a voice conversation, the application calculates the sentiment based on the conversation sentiment at two points in the conversation lifecycle:
+For a chat or a voice conversation, the application recalculates the case sentiment based on the conversation sentiment only when the conversation is closed and the conversation transcript is generated.
  
-  - When the conversation is linked to a case.
-  - When the conversation is closed.
-
 If email sentiment is enabled, the case sentiment is recalculated with each incoming email.
 
 > [!NOTE]
 > - If the administrator disables a channel after the sentiment score is calculated, the application doesn’t recalculate the case sentiment.
 > - If the administrator disables email sentiment but email sentiment is still enabled in **Case sentiment (preview)** page, the application displays a warning and redistributes the weight assigned to email sentiment to the other active channels.
+> - When you change the case in an email's regarding field, case sentiment is recalculated for both the original and new cases. For example, if you move Email 1 from Case 1 to Case 2, the application recalculates the sentiment for both cases. Case 1 sentiment no longer includes Email 1, while Case 2 sentiment now includes Email 1.
 
 ### Example
 
