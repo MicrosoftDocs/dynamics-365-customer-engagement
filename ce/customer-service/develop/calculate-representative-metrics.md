@@ -531,7 +531,7 @@ FactSessionParticipant[ModeId] = 192350003,​ 1, 0 ))
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
 |Attributes |- msdyn_sessionparticipant.msdyn_joinedon​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
-|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_joinedon is null or blank and​ msdyn_sessionparticipant.msdyn_mode = 192350003​. <br> - systemuser.msdyn_botapplicationid isn't null​. ​​|
+|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_joinedon is null or blank and​ msdyn_sessionparticipant.msdyn_mode is 192350003​. <br> - systemuser.msdyn_botapplicationid isn't null​. ​​|
 
 ---
 
