@@ -21,7 +21,7 @@ ms.custom:
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-This article provides details on how to calculate customer service representative metrics in Dynamics 365 Customer Service. Learn to evaluate performance and efficiency of service representatives to optimize operations and enhance customer satisfaction.
+This article provides details on how to calculate customer service representative metrics in Dynamics 365 Customer Service. Use these metrics to evaluate performance and efficiency, optimize operations, and enhance customer satisfaction.
 
 
 ## Average first response time
