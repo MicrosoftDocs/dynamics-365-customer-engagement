@@ -625,7 +625,7 @@ Consult rejection rate = DIVIDE(SUMX (​FactSessionParticipant,​ IF (FactSess
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
-|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentReject, 
+|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is "AgentReject, 
 msdyn_sessionparticipant.msdyn_mode = 192350003​.  <br> - systemuser.msdyn_botapplicationid isn't null.​ ​​|
 
 ---
