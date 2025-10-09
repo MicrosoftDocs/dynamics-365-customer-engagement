@@ -318,7 +318,7 @@ Status duration (mins) = CALCULATE (SUM ( FactAgentStatusHistory[DuringInSeconds
 |---------|---------|
 |Dataverse entities | - [msdyn_agentstatushistory](/dynamics365/developer/reference/entities/msdyn_agentstatushistory) and  [msdyn_presence](/dynamics365/developer/reference/entities/msdyn_presence)|
 |Attributes  | - Calculates the difference between the [msdyn_agentstatushistory.msdyn_starttime](/dynamics365/developer/reference/entities/msdyn_agentstatushistory#BKMK_msdyn_starttime) and [msdyn_agentstatushistory.msdyn_endtime](/dynamics365/developer/reference/entities/msdyn_agentstatushistory#BKMK_msdyn_endtime). The real-time dashboard shows the current UTC time while a service representative is in their current status. The end time appears only after the status changes.|
-|Filters  | - msdyn_agentstatushistory.createdon >= DATEADD(MI, -120, GETUTCDATE()) Only include records where the representative status was created within the last 120 minutes (2 hours).​|
+|Filters  | - msdyn_agentstatushistory.createdon >= DATEADD(MI, -120, GETUTCDATE()). Only include records where the representative status was created within the last 120 minutes (2 hours).​|
 
 ## Consult
 
