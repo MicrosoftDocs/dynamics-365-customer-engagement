@@ -256,7 +256,7 @@ Total work item capacity in use = SUM ( FactAgentCapacityProfile[OccupiedProfile
 
 ### Related metrics
 
-- **Total available work item capacity**: The maximum number of more work items that can be assigned.
+- **Total available work item capacity**: The maximum number of new work items that can be assigned.
 - **Total work item capacity in use**: The work items currently handled by a representative.
 
 ## Logged in service representatives
