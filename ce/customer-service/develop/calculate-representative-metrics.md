@@ -34,9 +34,7 @@ The system calculates average first response time by dividing the total first re
 
 ### DAX query and Dataverse reference
 
-[!INCLUDE[dax-queries-for-metrics](../../includes/dax-queries-for-metrics.md)
-
-[](../../includes/dax-queries-for-metrics.md)
+The following Data Analysis Expression (DAX) query and corresponding Dataverse entities are used in the Power BI semantic model. Learn more in [DAX queries](/dax/dax-queries).
 
 ### [Historical analytics](#tab/historicalpage)
 
