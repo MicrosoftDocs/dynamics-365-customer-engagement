@@ -577,7 +577,7 @@ Consult requests rejected = SUMX (​FactSessionParticipant,​ IF (FactSessionP
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
-|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentReject” and​ msdyn_sessionparticipant.msdyn_mode = 192350003​ <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid isn't null​. ​​|
+|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is "AgentReject” and​ msdyn_sessionparticipant.msdyn_mode is 192350003​ <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid isn't null​. ​​|
 
 ---
 
