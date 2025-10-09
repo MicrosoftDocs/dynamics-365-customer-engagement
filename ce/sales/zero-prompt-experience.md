@@ -1,7 +1,7 @@
 ---
 title: Configure zero prompt experience for Copilot in Dynamics 365 Sales (preview)
 description: Learn how to configure the zero prompt experience for Copilot in Dynamics 365 Sales.
-ms.date: 09/18/2025
+ms.date: 09/30/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -13,7 +13,13 @@ ai-usage: ai-assisted
 
 # Configure zero prompt experience for Copilot in Dynamics 365 Sales (preview)
 
-The zero prompt experience helps you enhance user engagement and streamline interactions at the start of a Copilot chat session. The zero prompt experience helps users quickly access relevant information and actions related to their work and reduces the need for additional prompts and iterations. The zero prompt experience can be context aware and hence, can be selectively shown for targeted pages.
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+The zero prompt experience helps you enhance user engagement and streamline interactions at the start of a Copilot chat session. 
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+This experience helps sellers quickly access relevant information and actions related to their work and reduces the need for additional prompts and iterations. The zero prompt experience can be context aware and hence, can be selectively shown for targeted pages.
 
 > [!NOTE]
 >- Customizing the zero prompt experience for Copilot in Dynamics 365 Sales involves a different process compared to customizing the experience for the [Power Platform bots](/power-apps/maker/model-driven-apps/copilot-chat-zpe-guide).
