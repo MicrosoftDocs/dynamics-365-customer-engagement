@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 10/08/2025
+ms.date: 10/09/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -34,11 +34,9 @@ The system calculates average first response time by dividing the total first re
 
 ### DAX query and Dataverse reference
 
-The following Data Analysis Expression (DAX) query and corresponding Dataverse entities are used in the Power BI semantic model. Learn more in [DAX queries](/dax/dax-queries). 
+[!INCLUDE[dax-queries-for-metrics]](../../includes/dax-queries-for-metrics.md)
 
 ### [Historical analytics](#tab/historicalpage)
-
-**DAX query**
 
 ```dax
 
@@ -55,7 +53,6 @@ Avg. time for first response (min) = ​CALCULATE (AVERAGE (FactConversation[Fir
 
 ### [Real-time analytics](#tab/realtimepage)
 
-**DAX query**
 
 ```dax
 
@@ -94,7 +91,6 @@ The following Data Analysis Expression (DAX) query and corresponding Dataverse e
 
 ### [Historical analytics](#tab/historicalpage)
 
-**DAX query**
 
 ```dax
 
@@ -111,7 +107,7 @@ Service level (10 seconds) = ​DIVIDE(​[Conversations in service level (10 se
 
 ### [Real-time analytics](#tab/realtimepage)
 
-**DAX query**
+
 
 ```dax
 
@@ -139,7 +135,7 @@ The following Data Analysis Expression (DAX) query and corresponding Dataverse e
 
 ### [Historical analytics](#tab/historicalpage)
 
-**DAX query**
+
 
 ```dax
 
@@ -156,7 +152,7 @@ Conversations in service level (10 seconds) = ​SUMX(​ FactConversation,​ I
 
 ### [Real-time analytics](#tab/realtimepage)
 
-**DAX query**
+
 
 ```dax
 
@@ -178,7 +174,7 @@ Conversations in service level (10 seconds) = ​SUMX (​FactConversation,​ I
 
 Total capacity units represent the workload capacity assigned to a representative. These units determine how many concurrent conversations or tasks a representative can handle.
 
-**DAX query**
+
 
 ```dax
 
@@ -204,7 +200,7 @@ Total capacity units represent the workload capacity assigned to a representativ
 
 The total default maximum capacity units assigned to agents based on their capacity profile.
 
-**DAX query**
+
 
 ```dax
 
@@ -224,7 +220,7 @@ Total agent work item capacity =SUM( FactAgentCapacityProfile[AgentDefaultMaxPro
 
 Assigned capacity profile count refers to the count of reperesentatives who have an assigned capacity profile and aren't currently in **Offline** status.
 
-**DAX query**
+
 
 ```dax
 
@@ -244,7 +240,7 @@ Assigned capacity profile count = SUMX (FactAgentCapacityProfile,IF ( NOT RELATE
 
 Total work item capacity in use is the representative's capacity occupied by active work items, based on their profile settings.
 
-**DAX query**
+
 
 ```dax
 
@@ -369,7 +365,6 @@ The following DAX query and the corresponding Dataverse entities are used in the
 
 ### [Historical analytics](#tab/historicalpage)
 
-**DAX query**
 
 ```dax
 
@@ -386,7 +381,7 @@ IF (​FactSessionParticipant[ModeId] = "192350003",​ 1,​ BLANK()​)​), B
 
 ### [Real-time analytics](#tab/realtimepage)
 
-**DAX query**
+
 
 ```dax
 
@@ -416,7 +411,7 @@ The following DAX query and the corresponding Dataverse entities are used in the
 
 ### [Historical analytics](#tab/historicalpage)
 
-**DAX query**
+
 
 ```dax
 
@@ -432,7 +427,7 @@ Consult requested = SUMX (​FactSessionParticipant,​ IF (FactSessionParticipa
 
 ### [Real-time analytics](#tab/realtimepage)
 
-**DAX query**
+
 
 ```dax
 
@@ -460,7 +455,7 @@ The following DAX query and the corresponding Dataverse entities are used in the
 
 ### [Historical analytics](#tab/historicalpage)
 
-**DAX query**
+
 
 ```dax
 
@@ -478,7 +473,7 @@ BLANK() && FactSessionParticipant[ModeId] =
 
 ### [Real-time analytics](#tab/realtimepage)
 
-**DAX query**
+
 
 ```dax
 
@@ -507,7 +502,7 @@ The following DAX query and the corresponding Dataverse entities are used in the
 
 ### [Historical analytics](#tab/historicalpage)
 
-**DAX query**
+
 
 ```dax
 
@@ -524,7 +519,6 @@ BLANK() && FactSessionParticipant[ModeId] = "192350003",1, 0 ) )
 
 ### [Real-time analytics](#tab/realtimepage)
 
-**DAX query**
 
 ```dax
 
@@ -553,7 +547,7 @@ The following DAX query and the corresponding Dataverse entities are used in the
 
 ### [Historical analytics](#tab/historicalpage)
 
-**DAX query**
+
 
 ```dax
 
@@ -570,7 +564,7 @@ Consult requests rejected = SUMX (​FactSessionParticipant,​ IF (FactSessionP
 
 ### [Real-time analytics](#tab/realtimepage)
 
-**DAX query**
+
 
 ```dax
 
@@ -599,7 +593,7 @@ The following DAX query and the corresponding Dataverse entities are used in the
 
 ### [Historical analytics](#tab/historicalpage)
 
-**DAX query**
+
 
 ```dax
 
@@ -617,7 +611,7 @@ Consult rejection rate = DIVIDE(SUMX (​FactSessionParticipant,​ IF (FactSess
 
 ### [Real-time analytics](#tab/realtimepage)
 
-**DAX query**
+
 
 ```dax
 
@@ -649,7 +643,7 @@ The following DAX query and the corresponding Dataverse entities are used in the
 
 ### [Historical analytics](#tab/historicalpage)
 
-**DAX query**
+
 
 ```dax
 
@@ -666,7 +660,7 @@ Consult requests timed out = SUMX(​FactSessionParticipant,​ IF (FactSessionP
 
 ### [Real-time analytics](#tab/realtimepage)
 
-**DAX query**
+
 
 ```dax
 
@@ -696,7 +690,7 @@ The following DAX query and the corresponding Dataverse entities are used in the
 
 ### [Historical analytics](#tab/historicalpage)
 
-**DAX query**
+
 
 ```dax
 
@@ -713,7 +707,7 @@ FactSessionParticipant[ModeId] = "192350003",​ 1, 0​)​),SUMX (​FactSessi
 
 ### [Real-time analytics](#tab/realtimepage)
 
-**DAX query**
+
 
 ```dax
 
@@ -743,7 +737,7 @@ The following DAX query and the corresponding Dataverse entities are used in the
 
 ### [Historical analytics](#tab/historicalpage)
 
-**DAX query**
+
 
 ```dax
 
@@ -759,7 +753,7 @@ Avg. consult time (min) = ​CALCULATE (​DIVIDE (​IF (​SUM (FactSessionPar
 
 ### [Real-time analytics](#tab/realtimepage)
 
-**DAX query**
+
 
 ```dax
 
