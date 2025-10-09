@@ -79,7 +79,7 @@ The time can be viewed in seconds or *hh:mm:ss* format.
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Service level in 10 second refers to a performance metric used​ in contact centers or customer service environments that measures the percentage of​ customer interactions (usually calls or chats) that are answered within 10 seconds.​ Service levels are measured in intervals of 10, 20, 30, 40, 50, 60, 120 seconds. This metric is calculated as​: ​
+Service level in 10 seconds refers to a performance metric used​ in contact centers or customer service environments that measures the percentage of​ customer interactions (usually calls or chats) that are answered within 10 seconds.​ Service levels are measured in intervals of 10, 20, 30, 40, 50, 60, 120 seconds. This metric is calculated as​: ​
 
 Service Level (%) = (Number of interactions answered within 10 seconds / Total number of interactions) × 100​
 
