@@ -304,7 +304,7 @@ Total agents = COUNTROWS(FactAgentCapacityUnit )
 
 *Applies to Omnichannel real-time dashboards.*
 
-Status duration shows how long representatives stay in a presence status like Available, Busy, or Away during a selected time period. The duration appears in minutes. For example, a service representative might be in Busy status for 40 minutes.
+Status duration shows how long representatives remain in a presence status, such as Available, Busy, or Away, during a selected time period. This duration is measured in minutes. For example, a representative in Busy status for 40 minutes shows a duration of 40.
 
 **DAX query**
 
