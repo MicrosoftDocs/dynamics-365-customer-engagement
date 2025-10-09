@@ -198,7 +198,7 @@ Total capacity units represent the workload capacity assigned to a representativ
 
 *Applies to Omnichannel real-time dashboards.*
 
-The total default maximum capacity units assigned to agents based on their capacity profile.
+The total default maximum capacity units assigned to representatives based on their capacity profile.
 
 
 
@@ -729,7 +729,7 @@ FactSessionParticipant[ModeId] = "192350003",​ 1, 0​)​),SUMX (​FactSessi
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-
+(Need info)
 
 ### DAX query and Dataverse reference
 
