@@ -6,7 +6,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.collection: get-started
-ms.date: 09/22/2025
+ms.date: 10/09/2025
 ms.custom: bap-template 
 ---
 
@@ -71,26 +71,3 @@ Using the hierarchy visualization feature involves two main roles: administrator
 - To manage existing hierarchy visualizations, administrators can refer to [Manage hierarchy visualization](manage-hierarchy-visualizations.md).  
 - To add hierarchy visualization to custom and other tables, administrators can consult [Add hierarchy visualization to custom tables](add-hierarchy-visualization-custom-tables.md).  
 - To view and understand hierarchy visualizations, users can follow the guidance in [View and understand hierarchy visualization](view-hierarchy-visualizations.md).  
-
-## Example of a cross-table reference hierarchy with Account, Lead, and Opportunity
-
-**Scenario**: A sales team wants to visualize the relationships between accounts, leads, and opportunities to identify potential sales opportunities and manage customer relationships effectively. Let's explore this in detail.
-An account can have multiple leads and opportunities associated with it. Each lead represents a potential customer or contact interested in the account's products or services, while each opportunity represents a potential deal or sale associated with the account. The hierarchy visualization will show how these entities are connected, allowing the sales team to see the full picture of their sales pipeline.  
-
-**Hierarchy Structure**: Account (root node) &rarr; Leads (child nodes) &rarr; Opportunities (child nodes)
-
-- **Leads (child nodes)**: Each lead represents a potential customer or contact interested in the account’s products/services and might originate from different campaigns or sources.  
-- **Opportunities (child nodes)**: Each opportunity is a potential deal or sale associated with the account and might be linked directly to the account or to specific leads (if a lead is qualified and converted). Opportunities have their own sub-relationships, such as associated products, quotes, or activities.
-
-The following table explains the sample data fields used in the hierarchy visualization:
-
-| Account Name | Lead Name   | Opportunity Name | Opportunity Stage | Value    |
-|--------------|-------------|------------------|-------------------|----------|
-| Contoso Ltd. | Alice Brown | Web Form         | Q1 Expansion      | $50,000  |
-| Contoso Ltd. | Bob Smith   | Event            | Renewal 2025      | $80,000  |
-| Contoso Ltd. | Carol White | Referral         | New Product Intro | $30,000  |
-
-When admin configures the hierarchy visualization for this scenario for the account **Contoso Ltd.**, the sales team can see the following structure as shown in the image:  
-
-:::image type="content" source="media/complex-hierarchy-visualization-example.png" alt-text="Screenshot of a complex hierarchy visualization with Account, Lead, and Opportunity.":::
-

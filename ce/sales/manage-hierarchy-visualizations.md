@@ -6,7 +6,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.collection: 
-ms.date: 08/22/2025
+ms.date: 10/09/2025
 ms.custom: bap-template 
 ---
 
@@ -44,6 +44,15 @@ Follow these steps:
     The hierarchy visualization is permanently deleted from your organization.  
 1. To unpublish the hierarchy, select **Unpublish** and on the confirmation message, select **OK**.
     The hierarchy visualization is unpublished and no longer available to users. You can republish it later if needed by selecting **Publish**.  
+
+## Restricting access to a hierarchy visualization
+
+The hierarchy view doesn't change what data a user can view. If the user can view data in a form, the hierarchy view uses those same permissions to display the data hierarchically. If a user doesn't have access to a record, that record won't appear in the hierarchy view.  
+To restrict access to a hierarchy visualization, you can change the permissions to a security role on the **Hierarchy Configuration** table in [the Power Apps portal](https://make.powerapps.com/).  
+Each hierarchy is defined by a single row in the Hierarchy Configuration table.  
+- To create a hierarchy&mdash;provide **CREATE** and **UPDATE** permissions to the table.  
+- To edit a hierarchy&mdash;provide the **UPDATE** permission to the row for that hierarchy.  
+- To view a hierarchy&mdash;requires the **VIEW** permission to the row for that hierarchy.  
 
 ## Related information
 
