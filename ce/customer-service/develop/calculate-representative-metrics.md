@@ -703,7 +703,7 @@ FactSessionParticipant[ModeId] = "192350003",​ 1, 0​)​),SUMX (​FactSessi
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode
-|Filters  |-  All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentTimeout" and​ msdyn_sessionparticipant.msdyn_mode = 192350003|
+|Filters  |-  All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is "AgentTimeout" and​ msdyn_sessionparticipant.msdyn_mode is 192350003|
 
 ### [Real-time analytics](#tab/realtimepage)
 
