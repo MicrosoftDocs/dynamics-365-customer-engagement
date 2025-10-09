@@ -36,6 +36,8 @@ The system calculates average first response time by dividing the total first re
 
 [!INCLUDE[dax-queries-for-metrics](../../includes/dax-queries-for-metrics.md)
 
+[](../../includes/dax-queries-for-metrics.md)
+
 ### [Historical analytics](#tab/historicalpage)
 
 ```dax
@@ -79,7 +81,7 @@ The time can be viewed in seconds or *hh:mm:ss* format.
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Service level in 10 seconds refers to a performance metric used​ in contact centers or customer service environments that measures the percentage of​ customer interactions (usually calls or chats) that are answered within 10 seconds.​ Service levels are measured in intervals of 10, 20, 30, 40, 50, 60, 120 seconds. This metric is calculated as​: ​
+Service level in 10 seconds is a performance metric for contact centers or customer service teams. It shows the percentage of customer interactions, like calls or chats, answered within 10 seconds.​ Service levels are measured in intervals of 10, 20, 30, 40, 50, 60, 120 seconds. This metric is calculated as​: ​
 
 Service Level (%) = (Number of interactions answered within 10 seconds / Total number of interactions) × 100​
 
@@ -119,7 +121,7 @@ Service level (10 seconds) = ​DIVIDE (​SUMX (​FactConversation,​IF (​F
 |---------|---------|
 |Dataverse entities |  [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), [msdyn_ocsession](/dynamics365/developer/reference/entities/msdyn_ocsession) |
 |Attributes  |- msdyn_ocliveworkitem.msdyn_isoutbound​ <br> - msdyn_ocsession.msdyn_agentacceptedon   |
-|Filters  | - msdyn_ocsession.msdyn_agentacceptedon is set to 1 ​<br> - msdyn_ocliveworkitem.msdyn_isoutbound is not set to 1 for Incoming conversation​. |
+|Filters  | - msdyn_ocsession.msdyn_agentacceptedon is set to 1 ​<br> - msdyn_ocliveworkitem.msdyn_isoutbound isn't set to 1 for Incoming conversation​. |
 
 ---
 
@@ -148,7 +150,7 @@ Conversations in service level (10 seconds) = ​SUMX(​ FactConversation,​ I
 |---------|---------|
 |Dataverse entities |- [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem) <br> - [msdyn_ocsession](/dynamics365/developer/reference/entities/msdyn_ocsession)  |
 |Attributes | - msdyn_ocliveworkitem.msdyn_isoutbound​ <br> - msdyn_ocsession.msdyn_agentacceptedon ​<br> - msdyn_conversationfirstwaittimeinseconds  |
-|Filters  | - msdyn_ocsession.msdyn_agentacceptedon is set to 1​. <br> - msdyn_ocliveworkitem.msdyn_isoutbound is not set to 1​. <br> - msdyn_conversationfirstwaittimeinseconds is set to less than or equal to 10 or 20 or 30 or 40 or 50 or 60 or 120. |
+|Filters  | - msdyn_ocsession.msdyn_agentacceptedon is set to 1​. <br> - msdyn_ocliveworkitem.msdyn_isoutbound isn't set to 1​. <br> - msdyn_conversationfirstwaittimeinseconds is set to less than or equal to 10 or 20 or 30 or 40 or 50 or 60 or 120. |
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -164,7 +166,7 @@ Conversations in service level (10 seconds) = ​SUMX (​FactConversation,​ I
 |---------|---------|
 |Dataverse entities | - [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem) <br> - [msdyn_ocsession](/dynamics365/developer/reference/entities/msdyn_ocsession)  |
 |Attributes  | - msdyn_ocliveworkitem.msdyn_isoutbound​ <br> - msdyn_ocsession.msdyn_agentacceptedon ​<br> - msdyn_conversationfirstwaittimeinseconds   |
-|Filters  | - msdyn_ocsession.msdyn_agentacceptedon is set to 1​. <br> - msdyn_ocliveworkitem.msdyn_isoutbound is not set to 1 for incoming conversations​ <br> - msdyn_conversationfirstwaittimeinseconds is set to less than or equal to 10 or 20 or 30 or 40 or 50 or 60 or 120. ​|
+|Filters  | - msdyn_ocsession.msdyn_agentacceptedon is set to 1​. <br> - msdyn_ocliveworkitem.msdyn_isoutbound isn't set to 1 for incoming conversations​ <br> - msdyn_conversationfirstwaittimeinseconds is set to less than or equal to 10 or 20 or 30 or 40 or 50 or 60 or 120. ​|
 
 ---
 
@@ -192,7 +194,7 @@ Total capacity units represent the workload capacity assigned to a representativ
 ### Related metrics
 
 - **Total available capacity units**: The number of capacity units that are available to handle conversations.
-- **Total occupied capacity units**: Total occupied capacity units is a measure of the capacity units that are currently occupied.
+- **Total occupied capacity units**: Total occupied capacity units are a measure of the capacity units that are currently occupied.
 
 ## Total representative work item capacity 
 
@@ -218,7 +220,7 @@ Total agent work item capacity =SUM( FactAgentCapacityProfile[AgentDefaultMaxPro
 
 *Applies to Omnichannel real-time dashboards.*
 
-Assigned capacity profile count refers to the count of reperesentatives who have an assigned capacity profile and aren't currently in **Offline** status.
+Assigned capacity profile count refers to the count of representatives who have an assigned capacity profile and aren't currently in **Offline** status.
 
 
 
@@ -232,7 +234,7 @@ Assigned capacity profile count = SUMX (FactAgentCapacityProfile,IF ( NOT RELATE
 |---------|---------|
 |Dataverse entities |- [msdyn_presence](/dynamics365/developer/reference/entities/msdyn_presence) <br> - [msdyn_agentcapacityprofileunit](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit) |
 |Attributes  | - [msdyn_presence.msdyn_basepresencestatus](/dynamics365/developer/reference/entities/msdyn_presence#msdyn_basepresencestatus-choicesoptions) |
-|Filters  | - msdyn_presence.msdyn_basepresencestatus != 192360004 (Status is not set to Offline) ​|
+|Filters  | - msdyn_presence.msdyn_basepresencestatus != 192360004 (Status isn't set to Offline) ​|
 
 ## Total work item capacity in use
 
@@ -256,8 +258,8 @@ Total work item capacity in use = SUM ( FactAgentCapacityProfile[OccupiedProfile
 
 ### Related metrics
 
-- **Total available work item capacity**: This metric is a measure of the maximum number of additional work items that can be assigned.
-- **Total work item capacity in use**: This metric is a measure of the work items that are currently being handled by representatives.
+- **Total available work item capacity**: This metric is a measure of the maximum number of more work items that can be assigned.
+- **Total work item capacity in use**: This metric is a measure of the work items that currently handled by representatives.
 
 ## Logged in service representatives
 
@@ -336,22 +338,22 @@ The related metrics aren't available by default. Select **Edit report** to find 
 
 - **Consult rejection rate**: The total number of consult sessions rejected by a service representative out of all requested sessions.
 
-- **Consults requested**: The total number of requested consult sessions.
+- **Consults requested**: The total number of consult sessions requested.
 
 - **Consult requests accepted**:
 The total number of consult sessions requested and accepted by a service representative.
 
-- **Consult requests not accepted**: The total number of requested consult sessions that weren't accepted by a service representative.
+- **Consult requests not accepted**: The total number of consult sessions requested but not accepted by a service representative.
 
-- **Consult requests rejected**: The total number of requested consult sessions that were rejected by a service representative.
+- **Consult requests rejected**: The total number of consult sessions requested but rejected by a service representative.
 
-- **Consult requests timed out**: The total number of requested consult sessions that timed out because the representative didn't respond.
+- **Consult requests timed out**: The total number of consult sessions requested that timed out because the representative didn't respond.
 
 - **Consult time**: The time taken by service representatives to help other service representatives on consult requests. This metric can be viewed in seconds and in *hh:mm:ss* formats. Available only for the omnichannel real-time out-of-the-box dashboard.
 
 - **Consult sessions**: The total number of sessions that are under consult. Available only for the omnichannel historical out-of-the-box dashboard.
 
-- **Consult timed out rate**: The total number of requested consult sessions that timed out.
+- **Consult timed out rate**: The total number of consult sessions requested that timed out.
 
 ## Consult acceptance rate
 
@@ -377,7 +379,7 @@ IF (​FactSessionParticipant[ModeId] = "192350003",​ 1,​ BLANK()​)​), B
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode|
-|Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode = 192350003 AND AgentJoinedDateTime is defined by msdyn_sessionparticipant.msdyn_joinedon not equal to blank. |
+|Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode = 192350003 AND AgentJoinedDateTime is msdyn_sessionparticipant.msdyn_joinedon not equal to blank. |
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -403,7 +405,7 @@ IF (​FactSessionParticipant[ModeId] = "192350003",​ 1,​ BLANK()​)​), B
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-The total number of requested consult sessions.
+The total number of consult sessions requested.
 
 ### DAX query and Dataverse reference
 
@@ -469,7 +471,7 @@ BLANK() && FactSessionParticipant[ModeId] =
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_joinedon​ <br> - msdyn_sessionparticipant_msdyn_mode
-|Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode = 192350003 AND AgentJoinedDateTime is defined by msdyn_sessionparticipant.msdyn_joinedon not equal to blank |
+|Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode = 192350003 AND AgentJoinedDateTime is  msdyn_sessionparticipant.msdyn_joinedon not equal to blank |
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -486,7 +488,7 @@ FactSessionParticipant[ModeId] = 192350003,1, 0 ) )
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser)  |
 |Attributes |- msdyn_sessionparticipant.msdyn_joinedon​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid |
-|Filters  |- All Conversations where ​msdyn_sessionparticipant.msdyn_joined is not null or blank and​ msdyn_sessionparticipant.msdyn_mode = 192350003​ <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid is not null​ ​​|
+|Filters  |- All Conversations where ​msdyn_sessionparticipant.msdyn_joined isn't null or blank and​ msdyn_sessionparticipant.msdyn_mode = 192350003​ <br> - systemuser.msdyn_botapplicationid isn't null​ ​​|
 
 ---
 
@@ -494,7 +496,7 @@ FactSessionParticipant[ModeId] = 192350003,1, 0 ) )
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-The total number of requested consult sessions that weren't accepted by a service representative.
+The total number of consult sessions requested but not accepted by a service representative.
 
 ### DAX query and Dataverse reference
 
@@ -515,7 +517,7 @@ BLANK() && FactSessionParticipant[ModeId] = "192350003",1, 0 ) )
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_joinedon​ <br> - msdyn_sessionparticipant_msdyn_mode
-|Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode = 192350003 AND AgentJoinedDateTime is defined by msdyn_sessionparticipant.msdyn_joinedon equal to blank  |
+|Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode = 192350003 AND AgentJoinedDateTime is msdyn_sessionparticipant.msdyn_joinedon equal to blank  |
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -531,7 +533,7 @@ FactSessionParticipant[ModeId] = 192350003,​ 1, 0 ))
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
 |Attributes |- msdyn_sessionparticipant.msdyn_joinedon​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
-|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_joinedon is null or blank and​ msdyn_sessionparticipant.msdyn_mode = 192350003​. <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid is not null​. ​​|
+|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_joinedon is null or blank and​ msdyn_sessionparticipant.msdyn_mode = 192350003​. <br> - systemuser.msdyn_botapplicationid isn't null​. ​​|
 
 ---
 
@@ -577,7 +579,7 @@ Consult requests rejected = SUMX (​FactSessionParticipant,​ IF (FactSessionP
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
-|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentReject” and​ msdyn_sessionparticipant.msdyn_mode = 192350003​ <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid is not null​. ​​|
+|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentReject” and​ msdyn_sessionparticipant.msdyn_mode = 192350003​ <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid isn't null​. ​​|
 
 ---
 
@@ -626,7 +628,7 @@ Consult rejection rate = DIVIDE(SUMX (​FactSessionParticipant,​ IF (FactSess
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
 |Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentReject, 
-msdyn_sessionparticipant.msdyn_mode = 192350003​.  <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid is not null.​ ​​|
+msdyn_sessionparticipant.msdyn_mode = 192350003​.  <br> - systemuser.msdyn_botapplicationid isn't null.​ ​​|
 
 ---
 
@@ -635,7 +637,7 @@ msdyn_sessionparticipant.msdyn_mode = 192350003​.  <br> - Session participant 
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-The total number of requested consult sessions that timed out because the representative didn't respond.
+The total number of consult sessions requested that timed out because the representative didn't respond.
 
 ### DAX query and Dataverse reference
 
@@ -673,7 +675,7 @@ Consult requests timed out = SUMX(​FactSessionParticipant,​ IF (FactSessionP
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
-|Filters  |- All Conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentTimeout" <br> - msdyn_sessionparticipant.msdyn_mode = 192350003​ <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid is not null​. ​​|
+|Filters  |- All Conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentTimeout" <br> - msdyn_sessionparticipant.msdyn_mode = 192350003​ <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid isn't null​. ​​|
 
 ---
 
@@ -720,7 +722,7 @@ FactSessionParticipant[ModeId] = "192350003",​ 1, 0​)​),SUMX (​FactSessi
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser)  |
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
-|Filters  |- All Conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentTimeout" <br> - msdyn_sessionparticipant.msdyn_mode = 192350003​ <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid is not null​. ​​|
+|Filters  |- All Conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentTimeout" <br> - msdyn_sessionparticipant.msdyn_mode = 192350003​ <br> - systemuser.msdyn_botapplicationid isn't null​. ​​|
 
 ---
 
@@ -766,7 +768,7 @@ AVERAGEX(FactSessionParticipant, IF(FactSessionParticipant[AgentJoinedOn] <> BLA
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
-|Filters  |- All Conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentTimeout" <br> - msdyn_sessionparticipant.msdyn_mode = 192350003​ <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid is not null​. ​​|
+|Filters  |- All Conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentTimeout" <br> - msdyn_sessionparticipant.msdyn_mode = 192350003​ <br> - systemuser.msdyn_botapplicationid isn't null​. ​​|
 
 ---
 
