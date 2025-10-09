@@ -28,7 +28,7 @@ This article provides details on how to calculate customer service representativ
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Average first response time is the average time an agent takes to reply to a customer after the customer starts a conversation. The time is adjusted for operating hours.
+Average first response time is the average time an agent takes to reply to a customer after the customer starts a conversation. 
 
 The system calculates average first response time by dividing the total first response time for all engaged conversations by the number of engaged conversations. You can view the time in seconds or in hh:mm:ss format.
 
