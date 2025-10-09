@@ -515,7 +515,7 @@ BLANK() && FactSessionParticipant[ModeId] = "192350003",1, 0 ) )
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_joinedon​ <br> - msdyn_sessionparticipant_msdyn_mode
-|Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode = 192350003 AND AgentJoinedDateTime is msdyn_sessionparticipant.msdyn_joinedon equal to blank  |
+|Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode is 192350003 AND AgentJoinedDateTime is msdyn_sessionparticipant.msdyn_joinedon equal to blank.  |
 
 ### [Real-time analytics](#tab/realtimepage)
 
