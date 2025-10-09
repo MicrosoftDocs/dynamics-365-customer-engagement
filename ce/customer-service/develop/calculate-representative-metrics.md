@@ -766,7 +766,7 @@ AVERAGEX(FactSessionParticipant, IF(FactSessionParticipant[AgentJoinedOn] <> BLA
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
-|Filters  |- All Conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentTimeout" <br> - msdyn_sessionparticipant.msdyn_mode = 192350003​ <br> - systemuser.msdyn_botapplicationid isn't null​. ​​|
+|Filters  |- All Conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is "AgentTimeout" <br> - msdyn_sessionparticipant.msdyn_mode is 192350003​ <br> - systemuser.msdyn_botapplicationid isn't null​. ​​|
 
 ---
 
