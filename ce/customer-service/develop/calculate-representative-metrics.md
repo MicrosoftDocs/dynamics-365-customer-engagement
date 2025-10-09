@@ -73,7 +73,7 @@ Avg. first response time (sec) = AVERAGE(FactConversation[ReponseTimeInSecondsAd
 
 Service representative response time is the average time that customers who send a message wait to get a response from a service representative. It's calculated by dividing total response time by the number of message exchanges in engaged conversations and is adjusted based on operating hours. Longer response times mean customers wait longer between messages, negatively impacting their experience.
 
-The time can be viewed in two formats: seconds and *hh:mm:ss*.
+The time can be viewed in seconds or *hh:mm:ss* format.
 
 ## Service level (10, 20, 30, 40, 50, 60, 120 secs)
 
