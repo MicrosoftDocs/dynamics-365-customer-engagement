@@ -192,7 +192,7 @@ Total capacity units represent the workload capacity assigned to a representativ
 ### Related metrics
 
 - **Total available capacity units**: The number of capacity units that are available to handle conversations.
-- **Total occupied capacity units**: Total occupied capacity units are a measure of the capacity units that are currently occupied.
+- **Total occupied capacity units**: The number of capacity units that are currently occupied.
 
 ## Total representative work item capacity 
 
