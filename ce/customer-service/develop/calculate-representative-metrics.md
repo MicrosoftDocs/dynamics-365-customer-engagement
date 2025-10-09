@@ -21,20 +21,20 @@ ms.custom:
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-This article provides details on how to calculate customer service representative metrics in Dynamics 365 Customer Service. Learn to evaluate performance and efficiency of service representatives to optimize operations and enhance customer satisfaction.
+This article provides details on how to calculate customer service representative (service representative or representative) metrics in Dynamics 365 Customer Service. Learn to evaluate performance and efficiency of service representatives to optimize operations and enhance customer satisfaction.
 
 
 ## Average first response time
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Average first response time is the average time an agent takes to reply to a customer after the customer starts a conversation. The time is adjusted for operating hours.
+Average first response time is the average time a representative takes to reply to a customer after the customer starts a conversation. The time is adjusted for operating hours.
 
-The system calculates average first response time by dividing the total first response time for all engaged conversations by the number of engaged conversations. You can view the time in seconds or in hh:mm:ss format.
+The system calculates average first response time by dividing the total first response time for all engaged conversations by the number of engaged conversations. The time is adjusted for operating hours. You can view the time in seconds or in hh:mm:ss format.
 
 ### DAX query and Dataverse reference
 
-[!INCLUDE[dax-queries-for-metrics]](../../includes/dax-queries-for-metrics.md)
+[!INCLUDE[dax-queries-for-metrics](../../includes/dax-queries-for-metrics.md)
 
 ### [Historical analytics](#tab/historicalpage)
 
@@ -49,7 +49,7 @@ Avg. time for first response (min) = ​CALCULATE (AVERAGE (FactConversation[Fir
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem) |
 |Attributes |- msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel |
-|Filters  |- Filter the FactConversations table to include only rows where <br> - Ensure that msdyn_channelinstanceid is NULL.<br> - Exclude rows where msdyn_channel is'192350000’ |
+|Filters  |- Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL or msdyn_channel isn't set to 1923500000. |
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -64,12 +64,14 @@ Avg. first response time (sec) = AVERAGE(FactConversation[ReponseTimeInSecondsAd
 |---------|---------|
 |Dataverse entities |  [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), [msdyn_liveworkstream](/dynamics365/developer/reference/entities/msdyn_liveworkstream)  |
 |Attributes  | - msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_liveworkstream.msdyn_streamsource <br> - msdyn_ocliveworkitem.msdyn_firstresponsetime​ <br> - msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel  |
-|Filters  | - Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL and​ msdyn_isagentsession set to 1​. <br> - Avg. first response time (sec) is defined by msdyn_ocliveworkitem.msdyn_firstresponsetimeinms​ <br> - Exclude rows where msdyn_streamsource is'192350000'​ ​|
+|Filters  | - Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL and​ msdyn_isagentsession set to 1​. <br> - Exclude rows where msdyn_streamsource is'192350000'​ ​|
 
 ---
 
 
 ## Average service representative response time
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
 Service representative response time is the average time that customers who send a message wait to get a response from a service representative. The time is adjusted based on operating hours. It's calculated by dividing total response time by the number of message exchanges in engaged conversations. Longer response times mean customers wait longer between messages, negatively impacting their experience.
 
