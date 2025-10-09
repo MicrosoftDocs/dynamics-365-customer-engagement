@@ -1,7 +1,7 @@
 ---
 title: Create and manage data masking rules
 description: Learn how to create and manage data masking rules to block sensitive data in Omnichannel for Customer Service.
-ms.date: 06/10/2025
+ms.date: 09/30/2025
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -13,7 +13,7 @@ ms.topic: how-to
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-Use data masking to block sensitive data such as credit card information, social security number (SSN), or even profanity in a conversation. You can create a masking rule and define a [regular expression](/dotnet/standard/base-types/regular-expression-language-quick-reference) to identify the sensitive information and replace it with the masked characters. Any masked text in a conversation is also masked in the conversation transcript. Data masking works for chat and asynchronous channels.
+Use data masking to block sensitive data such as credit card information, social security numbers (SSN), and profanity in conversation messages. You can create a masking rule and define a [regular expression](/dotnet/standard/base-types/regular-expression-language-quick-reference) to identify the sensitive information and replace it with the masked characters. Any masked text in a conversation message is also masked in the conversation transcript. Data masking works for chat and asynchronous channels.
 
 Masking rules can be configured to apply to messages sent by a customer, a customer service representative (service representative or representative), or both. You must make sure that the masking rules you want applied are set to **Active**. If not, then they aren't applied to the selections you make.
 
@@ -24,7 +24,6 @@ You can choose to:
 
 - **Mask private agent data from the customer**: Data the service representative sends is masked for both the customer and the representative for live chat and async channel messages.
 - **Mask private customer data from the agent**: Data the customer sends is masked for both the customer and the  representative for live chat, but only for the user interface of the representative when using async channels.
-
 
 The following masking rules are provided out of the box:
 - **Credit Card**: Masks the credit card number, if provided in a message.
@@ -72,7 +71,7 @@ After a masking rule is created, you can edit, activate, deactivate, or permanen
 
 1.	Under **Masking rules**, select the ellipsis to see the options for managing an existing masking rule.
 
-2. To activate, deactivate, or delete a masking rule, select the rule, and then select the appropriate action from the list.
+2. To activate, deactivate, or delete a masking rule, select the rule, and then select the desired action from the list.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

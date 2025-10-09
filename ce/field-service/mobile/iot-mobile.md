@@ -1,7 +1,7 @@
 ---
 title: Work IoT data on the mobile app
-description: Learn how to access and work with IoT data provided by Connected Field Service from the Field Service mobile app.
-ms.date: 08/28/2024
+description: Learn how to use IoT data from Connected Field Service in the Field Service mobile app.
+ms.date: 09/23/2025
 ms.subservice: connected-field-service
 ms.topic: how-to
 ms.custom: bap-template
@@ -12,9 +12,6 @@ author: vhorvathms
 # Work with IoT data on the mobile app
 
 [Connected Field Service](../connected-field-service.md) is the IoT layer in Dynamics 365 Field Service. It enables organizations to create work orders based on real-time information from connected devices. The integration of IoT data provides technicians with information and tools for efficient onsite service delivery.
-
-> [!div class="mx-imgBorder"]
-> ![Simulated image of a mobile phone, showing IoT alerts in the Field Service mobile app.](../media/cfs-fsm-powerapp-site-map.png)
 
 Technicians can use Connected Field Service to:
 
@@ -32,7 +29,7 @@ Technicians can use Connected Field Service to:
 
 While performing service on a customer asset, you can check recent IoT data for devices related to that asset.
 
-1. Open the customer asset and go the **Summary** tab. Summary tiles show an overview of recent IoT activity related to the asset.
+1. In the mobile app, go to the main menu and open the customer asset. Go to the **Summary** tab. Summary tiles show an overview of recent IoT activity related to the asset.
 
    :::image type="content" source="../media/cfs-fsm-powerapp-summary-tiles.png" alt-text="Simulated image of a mobile phone, showing summary tiles for an asset in Field Service mobile app.":::
 
@@ -53,13 +50,9 @@ During asset installations, you can connect new IoT devices to customer assets. 
 
 ## Troubleshoot devices by sending commands
 
-After an administrator has [configured commands for Connected Field Service](../cfs-commands.md), you can run them from mobile app.
+After an administrator has [configured commands for Connected Field Service](../cfs-commands.md), you can run them from the mobile app. Common commands include restart, shutdown, and other custom commands that are device-specific.
 
-:::image type="content" source="../media/cfs-fsm-powerapp-commands.png" alt-text="Simulated image of a mobile phone, showing an IoT device record on Field Service mobile app.":::
-
-Common commands include restart and shutdown and other custom commands are device-specific.
-
-To send a comment, open the IoT device record and go to **More ...** > **Send Command**.
+To send a command, open the IoT device record and go to **More ...** > **Send Command**.
 
 ## Next steps
 

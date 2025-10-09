@@ -1,7 +1,7 @@
 ---
 title: Configure Microsoft Teams chats in Customer Service
-description: Learn how to configure Microsoft Teams chat functionality in Dynamics 365 Customer Service.
-ms.date: 04/24/2025
+description: Learn how to configure Microsoft Teams chat functionality for customer service representatives in Dynamics 365 Customer Service.
+ms.date: 09/30/2025
 author: lalexms
 ms.author: laalexan
 ms.topic: how-to
@@ -33,8 +33,8 @@ When Teams chat is enabled, the app has the following permissions:
 
 |Permission | What the app does with the permission |
 |-------------|-----------------------|
-|Chat.ReadWrite.All |Reads user’s chats and recent messages to display in chat list. |
-|Directory.Read.All	|Reads user’s teams and channels display name. |
+|Chat.ReadWrite.All |Reads users' chats and recent messages to display in chat list. |
+|Directory.Read.All	|Reads users' teams and channels display name. |
 |Presence.Read.All	|Reads presence information of all users to be displayed on the user avatars in chat list. |
 |User.Read.All	|Reads users’ display name and licenses to validate if the suggested participants have a Teams license assigned. This permission is used by the suggested section in the chat list.|
 |User.ReadBasic.All	|Reads users’ photos. |
@@ -246,7 +246,6 @@ The following table summarizes whether a user can disconnect a connected chat ba
 |N |N |Y |N |N |N |
 |N |Y |N |N |N |N |
 |N |N |N |N |N |N |
-
 
 ## Configure the ability for users to join chats
 

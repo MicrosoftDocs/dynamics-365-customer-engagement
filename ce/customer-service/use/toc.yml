@@ -390,8 +390,6 @@
             href: agent-dashboard.md
           - name: Omnichannel Bot dashboard
             href: oc-bot-dashboard.md  
-          - name: Omnichannel Conversation topic dashboard
-            href: oc-conversation-topics-dashboard.md
           - name: Omnichannel Voicemail dashboard
             href: oc-voicemail-dashboard.md          
         - name: Use knowledge analytics

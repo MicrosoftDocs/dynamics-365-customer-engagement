@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: overview
-ms.date: 09/16/2025
+ms.date: 10/06/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -37,7 +37,7 @@ As a supervisor, you can view the **Real-time analytics for record routing** das
 
 In the site map of Copilot Service workspace, select **Real-time analytics for record routing** in **Service**. The **Summary** report appears by default. To switch reports, select the required report from the report filter. 
 
-:::image type="content" source="../media/dashboard-filter-realtime.png" alt-text="Screenshot of report filter.":::
+:::image type="content" source="../media/dashboard-filter-record-routing.png" alt-text="Screenshot of the report filter":::
 
 For example, to view the **Agent** report, select **Agent** from the report filter.
 
