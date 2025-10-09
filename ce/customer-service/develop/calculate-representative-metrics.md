@@ -103,7 +103,7 @@ Service level (10 seconds) = ​DIVIDE(​[Conversations in service level (10 se
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), [msdyn_ocsession](/dynamics365/developer/reference/entities/msdyn_ocsession) |
 |Attributes | - msdyn_ocliveworkitem.msdyn_isoutbound​ <br> - msdyn_ocsession.msdyn_agentacceptedon |
-|Filters  | - msdyn_ocsession.msdyn_agentacceptedon is set to 1​ <br> - msdyn_ocliveworkitem.msdyn_isoutbound is not set to 1​. |
+|Filters  | - msdyn_ocsession.msdyn_agentacceptedon is set to 1​ <br> - msdyn_ocliveworkitem.msdyn_isoutbound isn't set to 1​. |
 
 ### [Real-time analytics](#tab/realtimepage)
 
