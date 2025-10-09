@@ -296,7 +296,7 @@ Total agents = COUNTROWS(FactAgentCapacityUnit )
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities |- [msdyn_agentstatus](/dynamics365/developer/reference/entities/msdyn_agentstatus), along with [systemuser](/dynamics365/developer/reference/entities/systemuser) |
+|Dataverse entities |- [msdyn_agentstatus](/dynamics365/developer/reference/entities/msdyn_agentstatus), and [systemuser](/dynamics365/developer/reference/entities/systemuser) |
 |Attributes  | - [msdyn_agentstatus.msdyn_agentid](/dynamics365/developer/reference/entities/msdyn_agentstatus#BKMK_msdyn_agentid)|
 |Filters  | - systemuser.msdyn_botapplicationid is NULL to exclude AI agents.​|
 
@@ -394,7 +394,7 @@ IF (​FactSessionParticipant[ModeId] = "192350003",​ 1,​ BLANK()​)​), B
 |---------|---------|
 |Dataverse entities | [systemuser](/dynamics365/developer/reference/entities/systemuser), [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)  |
 |Attributes |- msdyn_sessionparticipant.msdyn_mode​ <br> - msdyn_sessionparticipant.msdyn_joinedon​ <br> - systemuser.msdyn_botapplicationid  |
-|Filters  |- All conversations where FactSessionParticipant is obtained from systemuser.msdyn_botapplicationid is null​ <br> - msdyn_sessionparticipant.msdyn_joinedon isn't blank​ <br> - msdyn_sessionparticipant.msdyn_mode is set to 192350003 ​|
+|Filters  |- All conversations where FactSessionParticipant obtained from systemuser.msdyn_botapplicationid is null​ <br> - msdyn_sessionparticipant.msdyn_joinedon isn't blank​ <br> - msdyn_sessionparticipant.msdyn_mode is set to 192350003 ​|
 
 ---
 
@@ -469,7 +469,7 @@ BLANK() && FactSessionParticipant[ModeId] =
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_joinedon​ <br> - msdyn_sessionparticipant_msdyn_mode
-|Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode = 192350003 AND AgentJoinedDateTime is  msdyn_sessionparticipant.msdyn_joinedon not equal to blank |
+|Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode is 192350003 AND AgentJoinedDateTime is  msdyn_sessionparticipant.msdyn_joinedon not equal to blank |
 
 ### [Real-time analytics](#tab/realtimepage)
 
