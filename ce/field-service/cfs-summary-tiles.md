@@ -1,7 +1,7 @@
 ---
 title: View and edit device summary tiles
 description: Learn how to view and edit summary tiles in Connected Field Service for Dynamics 365 Field Service.
-ms.date: 09/04/2024
+ms.date: 10/10/2025
 ms.subservice: connected-field-service
 ms.topic: how-to
 ms.author: vhorvath
@@ -10,10 +10,9 @@ author: vhorvathms
 
 # View and edit device summary tiles in Connected Field Service
 
-Summary tiles give a numeric overview of important metrics related to Internet of Things (IoT) devices. For example, users can see an average of recent device readings or the number of work orders generated from an IoT alert. Summary tiles are visible on IoT devices, Iot alerts, and customer asset records. Summary tile calculations respect security roles. The summary information changes based on what the signed-in user has access to.
+Summary tiles provide a numeric overview of key metrics for Internet of Things (IoT) devices. For example, users see the average of recent device readings or the number of work orders generated from an IoT alert. Summary tiles appear on IoT devices, IoT alerts, and customer asset records. Summary tile calculations follow security roles, and the summary information updates based on the signed-in user's access.  
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Boiler 2022 IoT device summary tiles displaying the average temperature and humidity, New Alerts, and New Work Orders.](./media/cfs-device-readings-history.png)
+:::image type="content" source="media/cfs-device-readings-history.png" alt-text="Screenshot of the Boiler 2022 IoT device summary tiles displaying the average temperature and humidity, New Alerts, and New Work Orders.":::
 
 ## Prerequisite
 
