@@ -63,7 +63,7 @@ The following tables are used for Customer Service historical analytics:
 - SystemUser
 
 > [!NOTE]
-> A report might be blank if you've customized any of the listed entities or aren't using out-of-the-box entities.
+> A report might be blank if you customized any of the listed entities or aren't using out-of-the-box entities.
 
 ### Related information
 
