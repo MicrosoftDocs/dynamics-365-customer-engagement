@@ -1,6 +1,6 @@
 ---
 title: Configure a post-call survey in the voice channel
-description: Learn about how to configure a post-call survey for the voice channel in Omnichannel for Customer Service.
+description: Learn about how to configure a post-call survey for the voice channel in Dynamics 365 Contact Center.
 author: lalexms
 ms.author: laalexan
 ms.date: 05/23/2025

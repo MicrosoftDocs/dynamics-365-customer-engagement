@@ -21,7 +21,7 @@ Refer the list of supported regions at [International availability of Microsoft 
 
 ### What platforms are supported?
 
-You can find information about supported platforms and other prerequisites in [Prerequisites and system requirements of Omnichannel for Customer Service](../implement/system-requirements-omnichannel.md).
+You can find information about supported platforms and other prerequisites in [Prerequisites and system requirements](/dynamics365/contact-center/implement/system-requirements-contact-center).
 
 ### Where can I submit an idea for a new feature or enhancement?
 
@@ -45,7 +45,8 @@ No, Chat and related capabilities in Omnichannel for Customer Service require a 
 
 ### How do I get started?
 
-If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](../use/channels.md). Find [Get started](../implement/introduction-omnichannel.md) and [Prerequisites](../implement/system-requirements-omnichannel.md#prerequisites) for setting up Omnichannel for Customer Service in your organization.
+If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](../use/channels.md). Learn more in [Provision channels](/dynamics365/contact-center/implement/provision-channels
+) for setting up channels in your organization.
 
 ## Representative experience
 
@@ -263,6 +264,5 @@ Only AI agents created through [Microsoft Bot Framework](https://dev.botframewor
 ### Related information
 
 [Overview of Dynamics 365 Customer Service](../administer/overview.md)  
-[Omnichannel for Customer Service system requirements](../implement/system-requirements-omnichannel.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

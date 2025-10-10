@@ -25,7 +25,7 @@ If your organization uses custom roles, and you want a user with the custom role
 
 By default, the privileges that pertain to the App Profile User role are added to the Customer Service Representative and CSR Manager roles out of the box. You need to manually provide the App Profile Manager Administrator role to the user who creates app profiles, templates, productivity tools, and channel provider configurations.
 
-## Roles for Omnichannel for Customer Service
+## Roles for Dynamics 365 Contact Center
 
 Out of the box, for the Omnichannel administrator role, the privileges that pertain to the App Profile Manager Administrator role are added. Out of the box, for the Omnichannel agent and Omnichannel supervisor roles, the privileges that pertain to the App Profile User role are added.
 
@@ -93,7 +93,7 @@ The App Profile User has the following privileges.
 
 ### Related information
  
-[Users and roles in Omnichannel for Customer Service](../implement/add-users-assign-roles.md)  
+[Users and roles in Dynamics 365 Contact Center](../implement/add-users-assign-roles.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

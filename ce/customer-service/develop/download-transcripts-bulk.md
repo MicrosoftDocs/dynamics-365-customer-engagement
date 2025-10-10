@@ -1,15 +1,15 @@
 ---
-title: "Download Omnichannel for Customer Service transcripts in bulk | MicrosoftDocs"
-description: "Learn about transcripts in Omnichannel for Customer Service and how to download them in bulk using Web API requests."
+title: "Download Dynamics 365 Contact Center transcripts in bulk | MicrosoftDocs"
+description: "Learn about transcripts in Dynamics 365 Contact Center and how to download them in bulk using Web API requests."
 ms.date: 09/18/2024
 ms.topic: reference
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ---
-# Download Omnichannel for Customer Service transcripts in bulk
+# Download Dynamics 365 Contact Center transcripts in bulk
 
-Omnichannel for Customer Service transcripts are stored in base64 encoded format in the annotations table in Microsoft Dataverse. Attachments are stored as separate records in the annotations table. If a conversation has two files exchanged between the agent and the customer, a total of three records are created related to this conversation. Any conversation always has n+1 records stored for it in the annotations table, where n is the number of attachments in the conversation. Attachments are also base64 encoded before being saved.
+Dynamics 365 Contact Center transcripts are stored in base64 encoded format in the annotations table in Microsoft Dataverse. Attachments are stored as separate records in the annotations table. If a conversation has two files exchanged between the agent and the customer, a total of three records are created related to this conversation. Any conversation always has n+1 records stored for it in the annotations table, where n is the number of attachments in the conversation. Attachments are also base64 encoded before being saved.
 
 The option to download transcripts in bulk isn't available out of the box. You can use the following Web API requests to retrieve all the transcripts and attachments exchanged in the past one month.
 
@@ -135,7 +135,7 @@ Text messages exchanged during the chat between agent and customer appear as fol
 },
 ```
 
-As seen in the preceding code, messages sent by the customer have a display name of "Customer" if they're an unidentified customer, or their actual name if they're known to Omnichannel for Customer Service.
+As seen in the preceding code, messages sent by the customer have a display name of "Customer" if they're an unidentified customer, or their actual name if they're known to Dynamics 365 Contact Center.
 
 For messages the agent send to a customer, there are tags that denote that it's a "public" message. Messages marked with "private" in the tags are messages exchanged between two agents and aren't visible to the customer.
 
@@ -225,7 +225,7 @@ OData-Version: 4.0
 
 ### Related information
 
-[Omnichannel for Customer Service for developers](omnichannel-developer.md)
+[Dynamics 365 Contact Center for developers](omnichannel-developer.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

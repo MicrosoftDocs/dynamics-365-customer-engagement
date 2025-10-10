@@ -172,5 +172,5 @@ Yes, features such as sentiment analysis, service representative suggestions for
 ### Related information
 
 [Introduction to the voice channel](voice-channel.md)  
-[System requirements for Omnichannel for Customer Service](../implement/system-requirements-omnichannel.md)  
+[System requirements for Dynamics 365 Contact Center](/dynamics365/contact-center/implement/system-requirements-contact-center)  
 [Supported cloud locations, languages, and locale codes](voice-channel-region-availability.md)  
