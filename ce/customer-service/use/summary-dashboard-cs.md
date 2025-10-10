@@ -45,8 +45,6 @@ The **Key Insights discovered** section has two areas:
 
 - **KPI insights**: Important subjects that impact performance, such as CSAT pertaining to priority, volume pertaining to channel, and open cases pertaining to queues.
 
-- **Topics to watch**: Topics that rank high across the three key areas to make it easier for customer service managers to discover top issues.
-  
 :::image type="content" source="../media/key-insights-card.png" alt-text="Screenshot shows the Key insights card":::
 
 ## Report details
