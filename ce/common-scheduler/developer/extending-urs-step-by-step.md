@@ -497,7 +497,7 @@ The board reloads with the updated configuration. Schedule Assistant filtering w
 
 <a name="resource-cell-template-configuration"></a>
 
-### Resource Cell Template Configuration
+### Configure the Resource Cell Template
 
 For the following steps, use a text editor that supports HTML syntax highlighting to make your changes, and then paste your changes back into the Universal Resource Scheduling editor.
 
@@ -568,3 +568,5 @@ The board reloads with the updated configuration. The resource cell shows how a 
 ### Additional resources
 
 [Universal Fetch XML](universal-fetchxml.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
