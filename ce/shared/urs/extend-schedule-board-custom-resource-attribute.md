@@ -4,30 +4,39 @@ Consider the following customization scenario:
 
 Each bookable resource has a cost based on factors like seniority and certification level. Dispatchers would like to see the general cost of their resources, along with the ability to filter and sort by cost. Rather than use an exact resource cost, this scenario uses a relative cost score from 1 (lowest resource cost) to 10 (highest resource cost). We use the scope in the resource cell, the filter panel, and in the sort options.
 
-## Step 1: Add the new attribute to the bookable resource entity
+## Step 1: Add the new attribute to the bookable resource table
 
-In the **Power Platform Environment Settings** app, go to **Customizations** > **Customize the System** > **Bookable Resource** > **Columns** and add a new column named **Resource Cost** with the schema name **tsp_resourcecost**.
+1. Sign in to [Power Apps](https://make.powerapps.com/).
 
-Use the data type **Option Set** and select the existing option set **Level of Importance** to use a list of values from 1 to 10.
+1. Select **Tables** and then select **All**.
 
-Add the newly created field to the form before you **Publish** the changes.
+1. Select **Bookable Resource** and then select **New** > **Column**.
 
-## Step 2: Create or update a schedule board
+1. Add a new column named **Resource Cost** and enter the following information. Learn more at in [Create a column](/power-apps/maker/data-platform/data-platform-manage-fields#create-a-column).
 
-In the **Field Service** or **Resource Scheduling** app, go to the schedule board that you want to add the new resource cost attribute to.
+   - **Data type**: Choice
+   - **Sync this choice with**: **Level of Importance** to use a list of values from 1 to 10
+   - **Schema name**: tsp_resourcecost
 
-## Step 3: Modify the resource cell template
+1. Select **Save**.
+
+1. [Add the newly created field to the form](/power-apps/maker/model-driven-apps/add-move-or-delete-fields-on-form#add-columns-to-a-form) before you **Publish** the changes.
+
+## Step 2: Modify the resource cell template
 
 The resource cost indicator should be displayed in the resource cell template. [Font Awesome](https://fontawesome.com/) can be used to display icons, such as €, $, £.
 
 The HTML first draws five gray icons as a background, and then yellow icons as foreground. The number of the foreground icons is mapped to the value of the resource cost. For example, a resource cost value of 2 is 20%, so only one of the five yellow Euro icons shows.
 
-Open the schedule board settings, under **Other**, create a custom **Resource cell template**.
+1. In the **Field Service** or **Resource Scheduling** app, go to the schedule board that you want to add the new resource cost attribute to.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of where to edit the resource cell template.](../../field-service/media/schedule-board-tab-settings-edit-resource-cell.png "Screenshot of where to edit the resource cell template")
+1. Select **Scheduler settings** > **All board settings**.
 
-Insert the following code snippet into the custom resource cell template. Change the symbol by replacing `fa-euro`.
+1. Select **Other** and under **Resource cell template**, select **+**.
+
+   :::image type="content" source="../../field-service/media/schedule-board-tab-settings-edit-resource-cell.png" alt-text="Screenshot of where to edit the resource cell template.":::
+
+1. Insert the following code snippet into the custom resource cell template. Change the symbol by replacing `fa-euro`.
 
 ```HTML
     <div class='resource-card-wrapper {{iif ResourceCellSelected "resource-cell-selected" ""}} {{iif ResourceUnavailable "resource-unavailable" ""}} {{iif IsMatchingAvailability "availability-match" ""}}'>
@@ -72,18 +81,17 @@ Insert the following code snippet into the custom resource cell template. Change
     {{/if}}
     </div>
 ```
+
 > [!NOTE]
 > JavaScript isn't supported in the resource cell template.
 
+## Step 3: Modify the filter layout
 
+Define a maximum cost score when filtering and searching for resources and sorting by cost score.
 
-## Step 4: Modify the filter layout
+1. On the schedule board **Board settings**, select **Other** and under **Filter layout**, create a custom template.
 
-In this step, we define a maximum cost score when filtering and searching for resources and sorting by cost score.
-
-On the schedule board tab settings, go to **Filter layout** and create a custom template.
-
-Insert the following code snippet into the custom filter layout template.
+1. Insert the following code snippet into the custom filter layout template.
 
 ```XML
     <?xml version="1.0" encoding="utf-8" ?>
@@ -118,9 +126,9 @@ Insert the following code snippet into the custom filter layout template.
     </filter>
  ```
 
-## Step 5: Modify the query
+## Step 4: Modify the query
 
-Finally, we modify the actual query and include the new filter. In the schedule tab settings, go to **Retrieve resource query**, edit the default query, and copy the entire code. Then, create a custom template and paste the default code. The default code is lengthy. The following are only the code snippets to paste within an existing resource query.
+Modify the actual query and include the new filter. In the Board settings, under **Other**, go to **Retrieve resource query**, edit the default query, and copy the entire code. Then, create a custom template and paste the default code. The default code is lengthy. The following are only the code snippets to paste within an existing resource query.
 
 After `<entity name="bookableresource">`, insert `<attribute name="tsp_resourcecost" alias="resourcecost" groupby="true"/>`
 
@@ -135,13 +143,12 @@ After `the last </filter> tag of the <!-- Territory filter -->`, insert the foll
 
 ```
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of code edit to resource query, filter type.](../../field-service/media/schedule-board-tab-settings-resource-query-snippet2.png)
+   :::image type="content" source="../../field-service/media/../../field-service/media/schedule-board-tab-settings-resource-query-snippet2.png" alt-text="Screenshot of code edit to resource query, filter type.":::
 
-## Step 6: Test your new schedule board
+## Step 5: Test your new schedule board
 
-On the schedule board, we defined a maximum cost factor of 5 and an ascending sort order based on cost.
+Go to the schedule board. A maximum cost factor of 5 and an ascending sort order based on cost is available.
 
 ## Next steps
 
-- [Overview of scheduling extensibility](/dynamics365/customer-engagement/common-scheduler/developer/understanding-and-customizing-resource-matching-in-urs)
+- [Overview of scheduling extensibility](../../common-scheduler/developer/understanding-and-customizing-resource-matching-in-urs.md)

@@ -372,8 +372,6 @@
             href: summary-dashboard-cs.md
           - name: Agent dashboard
             href: agent-dashboard-cs.md
-          - name: Case Topics dashboard
-            href: case-topics-dashboard-cs.md
         - name: Use Omnichannel historical analytics dashboards
           items: 
           - name: Omnichannel for Customer Service dashboards
