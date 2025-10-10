@@ -26,7 +26,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Summary dashboard
 
-The Summary dashboard gives you a broad overview of the customer service experience in your organization. It uses AI to provide insights into topics that generate the highest volume and topics that are emerging with the highest rate of change in volume. Learn how to [access the dashboard](customer-service-analytics-insights-csh.md#access-the-dashboards).
+The Summary dashboard gives you a broad overview of the customer service experience in your organization. Learn how to [access the dashboard](customer-service-analytics-insights-csh.md#access-the-dashboards).
 
 The summary dashboard includes various charts with graphical views of key performance indicators (KPIs) in Customer Service.
 
@@ -83,14 +83,6 @@ The following metrics appear in the charts.
 | Avg. survey sentiment trend   | The year-over-year trend of CSAT from Customer Voice survey responses.   |
 
 :::image type="content" source="../media/cs-summary-charts.png" alt-text="Charts on the Summary dashboard":::
-
-On the **Top 10 volume topics** tab, you can view the top 10 AI-discovered topics by case volume.
-
-:::image type="content" source="../media/cs-summary-topvol.png" alt-text="View the top 10 AI-discovered topics by case volume":::
-
-On the **Emerging case volume by topic** tab, you can view the the top emerging AI discovered topics based on increase in case volume.
-
-:::image type="content" source="../media/cs-summary-casevol.png" alt-text="View the top emerging AI discovered topics based on increase in case volume":::
 
 You can view the core case metrics by channel or core case metrics in relation to other metrics and date.
 

@@ -19,7 +19,7 @@ ms.custom: bap-template
 
 
 
-The Conversation dashboard gives you a broad overview of the customer service experience in your organization. It uses AI to surface insights into the topics that generate the highest volume and the topics that are emerging with the fastest increase in volume. Learn how to [access the dashboard](omnichannel-analytics-insights.md#access-the-dashboards).
+The Conversation dashboard gives you a broad overview of the customer service experience in your organization. Learn how to [access the dashboard](omnichannel-analytics-insights.md#access-the-dashboards).
 
 :::image type="content" source="../media/oc-conversation-dashboard.png" alt-text="Screenshot of conversation dashboard":::
 
