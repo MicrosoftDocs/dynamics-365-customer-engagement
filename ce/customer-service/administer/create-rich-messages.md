@@ -1,103 +1,204 @@
 ---
-title: Manage rich messages
+title: Create rich messages
 description: Learn how to create, publish, and update rich messages in Omnichannel for Customer Service.
-ms.date: 05/20/2025
+ms.date: 10/13/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ---
 
-
-# Manage rich messages
+# Create rich messages
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-Some channel apps such as Apple Messages for Business support a set of custom rich messages. Rich messages contain information that can be used to generate interactive content and experiences that take place within that app.
+Rich media messaging transforms traditional text-based communication into dynamic, interactive experiences that enhance engagement between customer service representatives or agents and customers. Unlike plain text messages, rich media messages can include structured elements such as forms, carousels, suggested replies, and custom JSON payloads. These options allow users to interact without typing long responses.  
 
-By creating and publishing channel-specific rich messages, your organization's customer support team can send them to customers, and their content can be used when designing automated experiences. For information about using rich messages in Omnichannel for Customer service, see [Rich messages in conversation control](../use/rich-messages-conversation-control.md).
+These messages are designed to streamline conversations, reduce service representative handle time, and improve customer satisfaction by offering intuitive, guided interactions. For example, a customer might receive a carousel of product options, a form to submit feedback, or quick reply buttons to confirm an appointment— all within the messaging interface. 
 
-## Create rich messages for Apple Messages for Business
+The following are some examples:
+
+IMAGES COMING SOON
+
+These messages are currently supported in several key channels, each with varying capabilities, as follows:
+
+**Live Chat widget (preview)**:
+- Forms (only customer service representatives can send)
+- Cards and carousels
+- Suggested replies
+- Custom JSON
+
+**WhatsApp (preview)**:
+- Suggested replies
+
+Apple Messages for Business (preview):
+- Apple Pay
+- Authentication
+- Custom JSON
+- Forms
+- List picker
+- Suggested reply
+- Time picker
+- Video rich link
+- Website right link 
+
+## Create a new rich media message (preview for Live Chat and WhatsApp)
 
 1. In the site map of Copilot Service admin center, select **Productivity** in **Support experience**.
-1. On the **Productivity** page, select **Manage** for **Rich messages**.
-1. Select **New**, and then enter the following information:
-    - **Name**: A descriptive name that'll be used by customer service representatives (service representatives or representatives) to search for rich messages.
-    - **Locale**: The language of the rich message. Rich messages are filtered by locale within representative sessions.
-    - **Type**:
-      - Apple Pay
-      - Authentication
-      - Custom JSON
-      - Forms
-      - List Picker
-      - Suggested Reply
-      - Time Picker
-      - Video Rich Link
-      - Website Rich Link
-   - **Tags**: A message type tag is automatically added to each rich message. In addition to the type tag, any relevant search tags can be added to the rich message. These tags can help representatives identify the correct rich message when they search for rich messages.
-   - **Allow customer service representative to configure**: Some rich message types allow representatives to update the contents before sending to customers. By enabling configurations, representatives can make single-use customizations, which don't affect the original rich message made here. Representative editing can be enabled for the following rich message types:
+2. On the **Productivity** page, select **Manage** for **Rich messages**.
+3. Select **New**, and then enter the following information:
+   - **Name**: A descriptive name to be used by customer service representatives to search for rich messages.
+   - **Description**: A short summary of what this rich media message contains or its intended purpose. This helps service representatives quickly identify the message during selection.
+   - **Locale**: The language of the rich message. Rich messages are filtered by locale within representative sessions.
+   - **Type**:
+     - Apple Pay
+     - Authentication
+     - Cards
+     - Custom JSON
+     - Forms
+     - List picker
+     - Suggested reply
+     - Time picker
+     - Video rich link
+     - Website rich link
+   - **Channel**: Depending on the rich media message type you select, you either see Apple Messages for Business preselected, or a multiselect dropdown to choose more supported channels. Based on the message type, you can select Live Chat, WhatsApp, or both.
+   - **Tags** A message type tag is automatically added to each rich media message. In addition to the type tag, any relevant search tags can be added to the rich message. These tags can help representatives identify the correct rich message when they search for rich messages.
+   - **Allow customer service representative to configure**: Some rich media message types allow representatives to update the contents before sending to customers. By enabling configurations, representatives can make single-use customizations, which don't affect the originally created rich message. Representative editing can be enabled for the following types:
       - List picker
       - Suggested reply
+      - Forms (Live Chat only)
+      - Cards and carousels (Live Chat only)
       - Time picker
       - Video rich link
       - Website rich link
 
-1. Select **Create**.
-
-1. Begin building your rich message within the rich message designer. Save your work at any time by selecting **Save** at the top of the designer. For more information about building each rich message type, select the type to learn more:
-   - Apple Pay
-   - Authentication
-   - Custom JSON
-   - List Picker
-   - Suggested Reply
-   - Time Picker
-   - Video Rich Link
-   - Website Rich Link
+4. Select **Create**.
+5. Begin building your rich message within the rich message designer. Select **Save** at the top of the designer anytime to save your work. For more information about building each message type, select the type to learn more.
+    - Apple Messages for Business rich messages:
+       - Apple Pay
+       - Authentication
+       - Custom JSON
+       - List Picker
+       - Forms
+       - Suggested reply
+       - Time picker
+       - Video rich link
+       - Website rich link
+    - Other channels
+       - Suggested replies
+       - Forms
+       - Cards and carousels
+       - Custom JSON
 
 ## Publish rich messages
-
 For representatives to send a rich message in conversations, the message must first be published.
+1. Build your rich message using the steps in the previous section.
+2. At the top of the designer, select **Publish**. If there are any missing fields, the designer highlights them in red and requires you to fix them.
+3. You can confirm that your rich message successfully published in either of the following ways:
+   - The **Publish Save** button no longer appears above the designer.
+   - The status page shows as **Active** within the designer and rich messages settings page.
 
-1. Complete the steps for building your rich message, as defined above. 
+**Update a published rich message**
 
-1. At the top of the designer page, select **Publish**. If there are any missing fields, the designer highlights them in red, and won’t allow the rich message to be published.
-
-1. You can confirm that your rich message was successfully published in two ways:
-    
-    - The **Publish Save** button no longer appears above the designer. 
-    - The status shows as **Active** within the designer and the rich messages settings page.
-
-### Update a published rich message
-
-You can update rich messages that are published and active.
+You can update rich messages that are published and active. 
 
 1. Select the rich message and open it in the designer.
+1. Fill in all required fields, and then select **Publish**. This step ensures that rich messages that are missing required fields don't become active. 
 
-1. Fill in all required fields, and then select **Publish**. This step ensures that rich messages that are missing required fields don't become active. 
+## Workstream association 
 
-## Workstream association
+Workstream association for rich messages behaves similarly to quick replies. By default, an active rich message is available to use across all channels it's configured for. 
 
-Workstream association for rich messages behaves similarly to quick replies today. By default, an active rich message is available to use across all Apple Messages for Business workstreams.
-
-After a rich message has been associated with one or more specific workstreams, it's no longer available to use in all other workstreams.
+After a rich message is associated with one or more specific workstreams, it's no longer available to use in all other workstreams. 
 
 To associate rich messages with a workstream, complete the following steps: 
 
-1. Within a workstream, expand the **Advanced settings** panel by selecting **Show advanced settings**. 
+1. From a workstream, select **Show advanced settings** to expand the **Advanced settings** panel. 
+1. In the advanced settings, navigate to **Rich messages**, and then select it. The existing rich messages appear.
+1. Select one or more rich messages from the list, and then select **Add**. Any associated rich messages appear within the **Rich messages** table in **Advanced settings**.
+1. To edit a workstream's rich messages, select **Edit**, and then add or remove rich messages as required.
+1. To add more rich messages, select **Add**. Select more rich messages, and then select **Add**. They appear in the list of rich messages. 
+1. To remove rich messages, select one or more within the table, and then select **Remove**. The removed rich message no longer appears in the list.
 
-1. Within the advanced settings, navigate to **Rich messages**. 
+## Configure specific rich media message types for Live Chat and WhatsApp
 
-1. Select **Add rich messages**. All existing rich messages are displayed. 
+### Suggested replies (Live Chat, WhatsApp)
+- **Title**: This is an introductory message appears before the reply button. For Live Chat, the limis is 2,000 characters. For WhatsApp, the limit is 1,204 characters. If a suggested replies template is configured to support both channels and the limit for WhatsApp is exceeded, the admin has the option to specify an alternative title for WhatsApp.
+- **Add reply buttons**
+   - For Live Chat:
+      - Add up to 10 buttons, with a minimum of two buttons required.
+      - Supported button types are **Send a message**, **Open URL**, and **Make a Call**. **Send a message** supports an optional **Message upon submission** field that specifies a longer, 150-character text that's sent as a message when the user selects the reply button.
+      - Each button can include an image URL.
+      - The maximum character limit per button is 20 characters.
+    - For WhatsApp
+       - **Send a message** buttons are limited to three, with a minimum of two buttons required.
+       - Images and markdown text aren't supported.
+       - The maximum character limit per button is 20 characters.
+       - If Markdown text is used, an alternate, plain-text title is required.
 
-1. Select one or more rich messages from the list, then select **Add**. Any associated rich messages appear within the **Rich messages** table in **Advanced settings**. 
+### Live chat cards and carousels
 
-1. To edit a workstream's rich messages, select **Edit**, and then add or remove rich messages as required. 
+You can use a rich media format to present a scrollable list of options, each containing text, an image, and interactive buttons.
 
-1. To add more rich messages, select **Add**. Select more rich messages, and then select **Add**. They should now appear in the list of rich messages.
+1. Add cards: At least one card is required, with a maximum of 10 cards allowed per carousel.
+2. Define card content: For each card, specify the following:
+     - **Title**: A title for the card. The character limit is 80 characters.
+     - **Subtitle** (optional): A longer description that appears below the title. The character limit is 1,204 characters.
+     - **Image URL**: A valid URL that points to the image displayed on the card.
+     - **Buttons**: Up to five buttons per card are permitted.
+           - Send a message (optional): Specify message text to be sent when the user selects the button. The character limit is 150 characters.
+           - Open URL
+           - Make a call
 
-1. To remove rich messages, select one or more within the table, and then select **Remove**. The removed rich message no longer appears in the list.
+### Live chat forms
 
-#### Apple Pay 
+1. Specify form details:
+    - Form title: The character limit is 80 characters.
+    - Description: Explains the purpose of the form to the customer. The character limit is 1,024 characters.
+    - Image URL (optional)
+    - Start button text: Text that appears on the start button for the form.
+
+	IMAGE COMING SOON
+
+2. Add questions: You can add up to 10 questions of any type.
+   	- Question: Specify the question text. The character limit is 300 characters.
+   	- Question type: From the dropdown, select one of the following question types. Each has their own properties, as follows:
+   	    - Single line input: Use this question type for concise responses. Ideal for questions such as email address of phone number.
+   	      - Response type (optional): A dropdown with text, number, email, URL, and phone number options. For types other than text, a regex specific to the type is applied.
+   	      - Placeholder text (optional): The default text that appears inside the input box before the user enters a response.
+   	      - Regular expression: A pattern used to validate the format of a customer's response.
+   	      - Maximum length: Defines the character limit for a customer's response. The maximum allowed value is 80 characters.
+   	   - Multiline input: Use this question type for longer form responses
+   	     - Placeholder text (optional): The default text that appears inside the input field before the user enters a response.
+   	     - Maximum length: Defines the character limit for a customer's reponse. The maximum allowed value is 300 characters.
+   	    - Single-select: Presents a list of predefined options from which a customer can select one only.
+   	      - Option title: The label that appears for each option in the dropdown menu.
+   	      - Option value: ??
+   	    - Multi-select: Presents a list of predetermined options from which the customer can select multiple options.
+   	      - Option title: The label that appears for each option in the dropdown menu. The maximum allowed value is 30 characters.
+   	      - Option value: While option title is what the customer views, the system references each option with a value. When a customer selects an option, the customer service representative sees the option value of the option the customer selected only.
+   	    - Dropdown: Presents a dropdown menu of predefined options from which the customer can choose one only.
+   	      - Option title: The label that appears for each option in the dropdown menu. The maximum allowed value is 30 characters.
+   	      - Option value: While option title is what the customer views, the system references each option with a value. When a customer selects an option, the customer service representative sees the option value of the option the customer selected only.
+   	    - Date picker: Allows the customer to select a specifc date from a defined range.
+   	      - Min: Start of date range from which the customer can select a date.
+   	      - Max: End of date range from which the customer can select a date.
+   	  
+
+### Custom JSON 
+
+Admins can use custom JSON to design a custom rich media message using Microsoft’s adaptive card technology. Learn more in [Designer | Adaptive Cards](https://adaptivecards.io/designer/). 
+
+> [!Note]
+> Element IDs can't include spaces. 
+
+EXISTING
+
+## Configure specific rich messages for Apple Messages for Business
+
+This section contains details for configuring rich message media type for Apple Messages for Business.
+
+**Apple Pay** 
 
 ##### Properties
 
