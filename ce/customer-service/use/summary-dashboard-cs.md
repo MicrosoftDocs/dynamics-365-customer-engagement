@@ -32,7 +32,7 @@ The summary dashboard includes various charts with graphical views of key perfor
 
 :::image type="content" source="../media/cs-summary-dashboard.png" alt-text="Summary dashboard for Customer Service historical analytics":::
 
-The case volume drivers and emerging case volume by topic charts use natural language understanding to group support cases as topics that are a collection of related cases. These charts show you the customer support topics generate the most volume and emerging topics with the highest rate of change in volume. This helps you identify areas of improvement that can affect support performance.
+The case volume drivers and emerging case volume by topic charts use natural language understanding to group support cases as topics that are a collection of related cases. These charts show you the customer support topics generate the most volume and emerging topics with the highest rate of change in volume. This data helps you identify areas of improvement that can affect support performance.
 
 By default, the dashboard shows you KPIs for the past month and for all channels, queues, and customer service representatives (service representatives or representatives) in your system. The data filtering options allow you to select data for a specific time period, channel, queue, and representative. To filter data by duration, channel, queue, or representative, select a value from the respective dropdown list. 
 
