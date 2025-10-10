@@ -6,7 +6,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.collection: get-started
-ms.date: 10/09/2025
+ms.date: 10/10/2025
 ms.custom: bap-template 
 ---
 
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The hierarchy visualization feature allows you to design and public specific visualizations for your organization, that graphically displays the relationships found in your data. Unlike other tools that can only visualize data that conforms to some restrictive pre-defined model,  feature allows you to easily create data visualizations from virtually any existing data model.
+The hierarchy visualization feature allows you to design and publish specific visualizations for your organization, that graphically displays the relationships found in your data. Unlike other tools that can only visualize data that conforms to some restrictive pre-defined model,  feature allows you to easily create data visualizations from virtually any existing data model.
 
 The Dynamics 365 Sales Hierarchy feature lets you design and publish visualizations that show relationships in your data. Unlike tools that only work with a restrictive predefined data model, the hierarchy feature lets you create visualizations from almost any data model.
 
