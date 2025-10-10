@@ -57,9 +57,6 @@ The following tables are used for Customer Service historical analytics:
 - msfp_surveyresponse
 - msfp_question
 - msfp_questionresponse
-- msdyn_casetopic
-- msdyn_casetopic_incident
-- msdyn_casetopicsetting
 - Queue
 - QueueItem
 - Subject

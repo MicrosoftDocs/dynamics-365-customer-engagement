@@ -34,7 +34,6 @@ The **Summary** dashboard provides a seamless end-to-end reporting of metrics ac
 
  With the Summary dashboard, customer service managers or supervisors can:
 - Use Copilot Studio bot metrics, such as escalation and deflection rate, and customer service representatives (service representatives or representatives) metrics like engagement rate and abandon rate to get an overview of how customers interact with AI agents and their performance.
-- Evaluate how different AI agent topic areas and their corresponding agent conversation topics affect your organization’s support performance.
 - Get actionable insights to handle AI agent escalations and customer requests effectively, which help improve customer satisfaction and decrease costs.
 
  :::image type="content" source="../media/oc-summary-dashboard.png" alt-text="Screenshot showing the Omnichannel Historical Summary dashboard.":::

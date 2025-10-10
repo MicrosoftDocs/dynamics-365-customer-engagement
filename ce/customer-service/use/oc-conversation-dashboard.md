@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection: bap-ai-copilot
-ms.date: 08/26/2025
+ms.date: 10/10/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -48,10 +48,6 @@ The following table lists the KPIs in the Conversation dashboard.
 | Avg. speed to answer (seconds) | The average time customers waited in the queue before connecting to a service representative. (Time taken for acceptance) | Conversations engaged and conversations that are in the closed state are considered. |
 | Avg. CSAT | The average of the customer satisfaction ratings provided by customers. Only available if Dynamics 365 Customer Voice is configured as a post-conversation survey tool. ||
 | Avg. conversation sentiment | The average sentiment score based on the customer's conversation experience. Learn more about how the sentiment data is derived in [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md). ||
-
-
-> [!div class="mx-imgBorder"]
-> ![Omnichannel conversation report.](../media/oc-report.png "Omnichannel conversation report")
 
 Conversation charts appear as shown in the following image.
 

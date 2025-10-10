@@ -74,7 +74,7 @@ The following metrics appear in the charts.
 | Chart    | Description     |
 |----------|------------|
 | Case volume by status    | A breakdown of case volume by status.   |
-| Open cases by priority      | A case breakdown by priority level.        |
+| Open cases by priority      | A case breakdown by priority level. |
 | Incoming cases by channel   | A case breakdown by channel.   |
 | Open cases by case age    |   A breakdown of cases by the amount of time in an open state.   |
 | Avg. CSAT trend      | The year-over-year trend of case volume.   |
@@ -90,7 +90,6 @@ You can view the core case metrics by channel or core case metrics in relation t
 
 [Dashboard overview](customer-service-analytics-insights-csh.md)  
 [Customer Service Representative dashboard](agent-dashboard-cs.md)  
-[Topics dashboard](case-topics-dashboard-cs.md)  
 [Manage report bookmarks](manage-bookmarks.md)  
 
 
