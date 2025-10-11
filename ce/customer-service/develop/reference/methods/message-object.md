@@ -1,7 +1,7 @@
 ---
 title: Retrieve and format rich messages
 description: Learn about the MessageObject type used in the sendMessageToConversation method in Omnichannel JavaScript API.
-ms.date: 10/10/2025
+ms.date: 10/13/2025
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -14,18 +14,18 @@ ms.reviewer: mgandham
 
 The Copilot Studio and Dynamics 365 for Customer Service platforms differ slightly in how they support rich media messages based on channel and rich media message type. This article describes how you can support rich media messages in Copilot Studio.
 
-## Retrieve bot JSON for Apple Messages for Business
+## Retrieve agent JSON for Apple Messages for Business
 
 1. In the site map of Copilot Service admin center, select **Productivity** in **Agent experience**.
 1. On the **Productivity** page, select **Manage** for **Rich messages**.
 1. From the list of all available list messages, select a rich message that you'd like to send to the conversation.
 1. For Apple Messages for Business rich messages, use the **Microsoft.Omnichannel.sendMessageToConversation** API to send JSON files.
  
-## Retrieve bot JSON for Live Chat forms, Live Chat custom JSON, and WhatsApp suggested replies
+## Retrieve agent JSON for Live Chat forms, Live Chat custom JSON, and WhatsApp suggested replies
 
 1. In the site map of Copilot Service admin center, select **Productivity** in **Agent experience**.
 1. On the **Productivity** page, select **Manage** for **Rich messages**.
-1. Find the rich media message you want a bot to send, and if it has JSON available, it appears under the **Copilot Studio Bot JSON** column. Select **View JSON**, and the specific channel type to copy the JSON.
+1. Find the rich media message you want an agent to send, and if it has JSON available, it appears under the **Copilot Studio Bot JSON** column. Select **View JSON**, and the specific channel type to copy the JSON.
 
   IMAGE COMING SOON
 
@@ -153,9 +153,9 @@ Microsoft.Omnichannel.sendMessageToConversation(websiteRichLinkJSON, false);
 // Or take the JSON elsewhere for use in bringing your own logic
 copy(websiteRichLinkJSON);
 ```
-## Configure bots to send Live Chat suggested replies and cards/carousels
+## Configure agents to send Live Chat suggested replies and cards/carousels
 
-Copilot Studio supports suggested replies and basic cards out of the box. Learn more in [Send a message - Microsoft Copilot Studio](../microsoft-copilot-studio/authoring-send-message).
+Copilot Studio supports suggested replies and basic cards out of the box. Learn more in [Send a message - Microsoft Copilot Studio](/microsoft-copilot-studio/authoring-send-message).
 
 > [!Note]
 > Copilot Studio refers to suggested replies as quick replies.
