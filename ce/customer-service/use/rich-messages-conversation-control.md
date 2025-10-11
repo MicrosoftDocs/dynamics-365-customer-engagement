@@ -10,14 +10,14 @@ ms.reviewer: laalexan
 
 # Send rich messages
 
-After an adminstrator creates rich message templates, customer service representatives (service representatives, representatives) can edit and send these interactive templates to customers to collect and share information more easily. Regardless of channel type, you can send rich messages using either of the following methods:
+After an administrator creates rich message templates, customer service representatives (service representatives, representatives) can edit and send these interactive templates to customers to collect and share information more easily. Regardless of channel type, you can send rich messages using either of the following methods:
 
 - Select **Rich messages** to launch the rich message panel.
 - Use the **/rm** keyboard command to see the list of rich messages.
    
 ## Search for rich messages and tags
 
-After launching the rich message panel by selecting the rich message icon or typing /rm, customer service representatives can use the search bar and rich media message type filters to find relevant rich messages to send.
+After customer service representatives launche the rich message panel by selecting the rich message icon or typing /rm, they can use the search bar and rich media message type filters to find relevant rich messages to send.
 
 Optionally, they can also use the following keyboard shortcuts:
    
