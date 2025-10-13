@@ -21,7 +21,7 @@ ms.custom:
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-This article provides details on how to calculate customer service representative metrics in Dynamics 365 Customer Service. Use these metrics to evaluate performance and efficiency, optimize operations, and enhance customer satisfaction.
+This article provides details on how to calculate customer service representative metrics in Dynamics 365 Customer Service. Use these metrics to evaluate performance and efficiency, optimize operations, and enhance customer satisfaction. You can use these metrics to customize the visual display of your reports. Learn more in [Customize visual display](../use/customize-reports.md#customize-visual-display).
 
 
 ## Average first response time
@@ -323,9 +323,7 @@ Status duration (mins) = CALCULATE (SUM ( FactAgentStatusHistory[DuringInSeconds
 
 ## Consult
 
-This metric represents the service representative in the **Consult** mode. You can use these metrics to customize the visual display of your reports. Learn more in [Customize visual display](../use/customize-reports.md#customize-visual-display).
-
-The related metrics aren't available by default. Select **Edit report** to find the following metrics in your data model when you search for **Consult**. 
+This metric represents the service representative in the **Consult** mode. The related metrics aren't available by default. Select **Edit report** to find the following metrics in your data model when you search for **Consult**. 
 
 ### Related metrics
 
@@ -394,7 +392,7 @@ IF (​FactSessionParticipant[ModeId] = "192350003",​ 1,​ BLANK()​)​), B
 |---------|---------|
 |Dataverse entities | [systemuser](/dynamics365/developer/reference/entities/systemuser), [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)  |
 |Attributes |- msdyn_sessionparticipant.msdyn_mode​ <br> - msdyn_sessionparticipant.msdyn_joinedon​ <br> - systemuser.msdyn_botapplicationid  |
-|Filters  |- All conversations where FactSessionParticipant obtained from systemuser.msdyn_botapplicationid is null​ <br> - msdyn_sessionparticipant.msdyn_joinedon isn't blank​ <br> - msdyn_sessionparticipant.msdyn_mode is set to Consult.​|
+|Filters  |- All conversations where FactSessionParticipant obtained from systemuser.msdyn_botapplicationid is null.​ <br> - msdyn_sessionparticipant.msdyn_joinedon isn't blank.​ <br> - msdyn_sessionparticipant.msdyn_mode is set to Consult.​|
 
 ---
 
@@ -439,7 +437,7 @@ Consult requested = SUMX (​FactSessionParticipant,​ IF (FactSessionParticipa
 |---------|---------|
 |Dataverse entities | [systemuser](/dynamics365/developer/reference/entities/systemuser), [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)  |
 |Attributes |- msdyn_sessionparticipant.msdyn_mode​ <br> - systemuser.msdyn_botapplicationid   |
-|Filters  |- All conversations where FactSessionParticipant obtained from systemuser.msdyn_botapplicationid is null​ <br> - msdyn_sessionparticipant.msdyn_mode is set to Consult. ​​|
+|Filters  |- All conversations where FactSessionParticipant obtained from systemuser.msdyn_botapplicationid is null.​ <br> - msdyn_sessionparticipant.msdyn_mode is set to Consult. ​​|
 
 ---
 
@@ -625,8 +623,7 @@ Consult rejection rate = DIVIDE(SUMX (​FactSessionParticipant,​ IF (FactSess
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
-|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is "AgentReject, 
-msdyn_sessionparticipant.msdyn_mode is Consult​.  <br> - systemuser.msdyn_botapplicationid isn't null.​ ​​|
+|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is AgentReject, msdyn_sessionparticipant.msdyn_mode is Consult​.  <br> - systemuser.msdyn_botapplicationid isn't null.​ ​​|
 
 ---
 
@@ -720,7 +717,7 @@ FactSessionParticipant[ModeId] = "192350003",​ 1, 0​)​),SUMX (​FactSessi
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser)  |
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
-|Filters  |- All Conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is AgentTimeout. <br> - msdyn_sessionparticipant.msdyn_mode is Consult.​ <br> - systemuser.msdyn_botapplicationid isn't null​. ​​|
+|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is AgentTimeout. <br> - msdyn_sessionparticipant.msdyn_mode is Consult.​ <br> - systemuser.msdyn_botapplicationid isn't null​. ​​|
 
 ---
 
@@ -771,8 +768,6 @@ AVERAGEX(FactSessionParticipant, IF(FactSessionParticipant[AgentJoinedOn] <> BLA
 
 ## Related information
 
-[Customize visual display](../use/customize-reports.md#customize-visual-display) 
+[Customize visual display](../use/customize-reports.md#customize-visual-display)  
 [Calculate conversation metrics](../develop/calculate-conversation-metrics.md#calculate-conversation-metrics)  
 [Calculate session metrics](calculate-session-metrics.md#calculate-session-metrics)
-
-
