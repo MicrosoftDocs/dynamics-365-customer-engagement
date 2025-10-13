@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 10/09/2025
+ms.date: 10/13/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -184,7 +184,7 @@ Total capacity units represent the workload capacity assigned to a representativ
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | - [msdyn_agentstatus](/dynamics365/developer/reference/entities/msdyn_agentstatus) <br> - [systemuser](/dynamics365/developer/reference/entities/systemuser)|
+|Dataverse entities | - FactAgentCapacityUnit - [msdyn_agentstatus](/dynamics365/developer/reference/entities/msdyn_agentstatus) with [systemuser](/dynamics365/developer/reference/entities/systemuser)|
 |Attributes  | - [systemuser.msdyn_capacity](/dynamics365/developer/reference/entities/systemuser) |
 |Filters  | -  systemuser.msdyn_botapplicationid IS NULL to exclude AI agents. ​|
 
@@ -230,7 +230,7 @@ Assigned capacity profile count = SUMX (FactAgentCapacityProfile,IF ( NOT RELATE
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities |- [msdyn_presence](/dynamics365/developer/reference/entities/msdyn_presence) <br> - [msdyn_agentcapacityprofileunit](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit) |
+|Dataverse entities |- DimAgentPresence - [msdyn_presence](/dynamics365/developer/reference/entities/msdyn_presence); FactAgentCapacityProfile -[msdyn_agentcapacityprofileunit](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit)|
 |Attributes  | - [msdyn_presence.msdyn_basepresencestatus](/dynamics365/developer/reference/entities/msdyn_presence#msdyn_basepresencestatus-choicesoptions) |
 |Filters  | - msdyn_presence.msdyn_basepresencestatus isn't set to 192360004 (Status isn't set to Offline) ​|
 
