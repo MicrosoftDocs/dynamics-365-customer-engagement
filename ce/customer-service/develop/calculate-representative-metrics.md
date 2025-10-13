@@ -210,7 +210,7 @@ Total agent work item capacity =SUM( FactAgentCapacityProfile[AgentDefaultMaxPro
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | - [msdyn_agentcapacityprofileunit](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit) along with <br> - [msdyn_capacityprofile](/dynamics365/developer/reference/entities/msdyn_capacityprofile)|
+|Dataverse entities | - FactAgentCapacityProfile-[msdyn_agentcapacityprofileunit](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit) along with <br> - [msdyn_capacityprofile](/dynamics365/developer/reference/entities/msdyn_capacityprofile)|
 |Attributes  | - msdyn_agentcapacityprofileunit.msdyn_defaultmaxunits |
 |Filters  | None ​|
 
@@ -250,7 +250,7 @@ Total work item capacity in use = SUM ( FactAgentCapacityProfile[OccupiedProfile
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities |- [msdyn_agentcapacityprofileunit](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit)for representative-specific capacity data  <br> - [msdyn_capacityprofile](/dynamics365/developer/reference/entities/msdyn_capacityprofile) for default capacity values and blocking rules|
+|Dataverse entities |- [msdyn_agentcapacityprofileunit](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit)for representative-specific capacity data along with [msdyn_capacityprofile](/dynamics365/developer/reference/entities/msdyn_capacityprofile) for default capacity values and blocking rules|
 |Attributes  | - OccupiedProfileUnits : Difference between [msdyn_capacityprofile.msdyn_defaultmaxunits](/dynamics365/developer/reference/entities/msdyn_capacityprofile) and [msdyn_agentcapacityprofileunit.msdyn_availablecapacityprofileunits](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit?branch=ss-449106-csr#BKMK_msdyn_availablecapacityprofileunits) <br> - msdyn_capacityprofile <br> - msdyn_agentcapacityprofileunit|
 
 
@@ -275,7 +275,7 @@ Logged in agents = SUMX ( FactAgentCapacityUnit,IF ( NOT RELATED ( DimAgentPrese
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities |- [msdyn_presence](/dynamics365/developer/reference/entities/msdyn_presence) <br> - [msdyn_agentstatus](/dynamics365/developer/reference/entities/msdyn_agentstatus) along with [systemuser](/dynamics365/developer/reference/entities/systemuser)|
+|Dataverse entities |- DimAgentPresence-[msdyn_presence](/dynamics365/developer/reference/entities/msdyn_presence) <br> - FactAgentCapacityUnit-[msdyn_agentstatus](/dynamics365/developer/reference/entities/msdyn_agentstatus) along with [systemuser](/dynamics365/developer/reference/entities/systemuser)|
 |Attributes  | - [msdyn_presence.msdyn_basepresencestatus](/dynamics365/developer/reference/entities/msdyn_presence#msdyn_basepresencestatus-choicesoptions) <br> - [mdyn_agentstatus.msdyn_availableunitscapacity](/dynamics365/developer/reference/entities/msdyn_agentstatus#BKMK_msdyn_availableunitscapacity)|
 |Filters  | - msdyn_presence.msdyn_basepresencestatus isn't set to 192360004 (Status isn't set to **Offline**) ​|
 
@@ -296,8 +296,8 @@ Total agents = COUNTROWS(FactAgentCapacityUnit )
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities |- [msdyn_agentstatus](/dynamics365/developer/reference/entities/msdyn_agentstatus), and [systemuser](/dynamics365/developer/reference/entities/systemuser) |
-|Attributes  | - [msdyn_agentstatus.msdyn_agentid](/dynamics365/developer/reference/entities/msdyn_agentstatus#BKMK_msdyn_agentid)|
+|Dataverse entities |DimAgentPresence-msdyn_presence; FactAgentCapacityUnit - msdyn_agentstatus[msdyn_agentstatus](/dynamics365/developer/reference/entities/msdyn_agentstatus), along with [systemuser](/dynamics365/developer/reference/entities/systemuser) |
+|Attributes  | - [msdyn_agentstatus](/dynamics365/developer/reference/entities/msdyn_agentstatus) along with [systemuser](/dynamics365/developer/reference/entities/systemuser)|
 |Filters  | - systemuser.msdyn_botapplicationid is NULL to exclude AI agents.​|
 
 ## Status duration
@@ -316,7 +316,7 @@ Status duration (mins) = CALCULATE (SUM ( FactAgentStatusHistory[DuringInSeconds
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | - [msdyn_agentstatushistory](/dynamics365/developer/reference/entities/msdyn_agentstatushistory) and  [msdyn_presence](/dynamics365/developer/reference/entities/msdyn_presence)|
+|Dataverse entities | - [msdyn_agentstatushistory](/dynamics365/developer/reference/entities/msdyn_agentstatushistory) along with [msdyn_presence](/dynamics365/developer/reference/entities/msdyn_presence)|
 |Attributes  | - Calculates the difference between the [msdyn_agentstatushistory.msdyn_starttime](/dynamics365/developer/reference/entities/msdyn_agentstatushistory#BKMK_msdyn_starttime) and [msdyn_agentstatushistory.msdyn_endtime](/dynamics365/developer/reference/entities/msdyn_agentstatushistory#BKMK_msdyn_endtime). The real-time dashboard shows the current UTC time while a service representative is in their current status. The end time appears only after the status changes.|
 |Filters  | - msdyn_agentstatushistory.createdon >= DATEADD(MI, -120, GETUTCDATE()). Only include records where the representative status was created within the last 120 minutes (2 hours).​|
 
@@ -328,30 +328,28 @@ The related metrics aren't available by default. Select **Edit report** to find 
 
 ### Related metrics
 
-- **Average consult time**: The average time that service representatives spend helping other service representatives on consult requests. It's calculated by dividing the total time spent by service representatives on these requests by the total number of consult requests accepted. You can display the average consult time in seconds or hh:mm:ss format.
+- **Average consult time**: The average time that service representatives spend helping other service representatives on consult requests. It's calculated by dividing the total time spent by service representatives on these requests by the total number of consult requests accepted. You can display the average consult time in minutes.
 
-- **Consult acceptance rate**: The total number of sessions accepted by a service representative out of all the consult sessions requested.
+- **Consult acceptance rate**: The percentage of sessions accepted by a service representative out of all the consult sessions requested.
 
-- **Consult not acceptance rate**: The total number of consult sessions that a service representative didn't accept, including timed-out and rejected requests.
+- **Consult requests accepted**: The total number of consult sessions requested and accepted by a service representative.
 
-- **Consult rejection rate**: The total number of consult sessions rejected by a service representative out of all requested sessions.
+- **Consult requests not accepted**: The total number of consult sessions requested but not accepted by a service representative. This happens when representative does not join the consult.
+
+-  **Consult not acceptance rate**: The percentage of consult sessions that a service representative didn't accept, including timed-out and rejected requests out of all the consult sessions requested. This happens when representative does not join the conversation.
+
+- **Consult requests rejected**: The total number of consult sessions requested but explicitly rejected by a service representative.
+
+- **Consult rejection rate**: The percentage of consult sessions rejected by a service representative out of all requested sessions. This happens when representatives explicitly reject the consult.
 
 - **Consults requested**: The total number of consult sessions requested.
+Consult requests timed out: The total number of consult sessions requested that timed out because the representative didn't respond.
 
-- **Consult requests accepted**:
-The total number of consult sessions requested and accepted by a service representative.
+- **Consult timed out rate**: The percentage of consult sessions requested that timed out because the service representative dint respond out of all the consult sessions requested.
 
-- **Consult requests not accepted**: The total number of consult sessions requested but not accepted by a service representative.
+- **Consult time**: The time taken by service representatives to help other service representatives on consult requests. This metric can be viewed in minutes format. This metric is available only for the omnichannel real-time analytics dashboard.
 
-- **Consult requests rejected**: The total number of consult sessions requested but rejected by a service representative.
-
-- **Consult requests timed out**: The total number of consult sessions requested that timed out because the representative didn't respond.
-
-- **Consult time**: The time taken by service representatives to help other service representatives on consult requests. This metric can be viewed in seconds and in hh:mm:ss formats. This metric is available only for the omnichannel real-time analytics dashboard.
-
-- **Consult sessions**: The total number of sessions with an ongoing  consult. This metric is available only for the omnichannel historical analytics dashboard.
-
-- **Consult timed out rate**: The total number of consult sessions requested that timed out.
+- **Consult sessions**: The total number of sessions with an ongoing consult. This metric is available only for the omnichannel historical analytics dashboard.
 
 ## Consult acceptance rate
 
