@@ -210,8 +210,6 @@ Admins can use custom JSON to design a custom rich media message using Microsoft
 > [!Note]
 > Element IDs can't include spaces. 
 
-EXISTING
-
 ## Configure specific rich messages for Apple Messages for Business
 
 This section contains details for configuring rich message media type for Apple Messages for Business.
