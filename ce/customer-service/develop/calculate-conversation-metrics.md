@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 10/10/2025
+ms.date: 10/13/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -334,13 +334,13 @@ The following DAX query and the corresponding Dataverse entities are used in the
 
 ```dax
 
-Avg. speed to answer (sec)_FactConversation = ​
-
-CALCULATE (AVERAGE( FactConversation[SpeedToAnswerTime] ),​
-
-    FactConversation[StatusId] = "4",​
-
-    FactConversation[IsAgentAccepted] = "1")​
+Avg. speed to answer (sec)_FactConversation = 
+CALCULATE (
+    AVERAGE ( FactConversation[SpeedToAnswerTime] ),
+    FactConversation[StatusId] = "4",
+    FactConversation[IsAgentAccepted] = "1",
+    FactConversation[IsOutbound] <> "1"
+    )
 
 ```
 
