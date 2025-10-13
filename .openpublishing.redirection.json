@@ -35669,6 +35669,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/customer-service/use/session-metrics.md",
+      "redirect_url": "/dynamics365/customer-service/develop/calculate-session-metrics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/use/service-rep-metrics.md",
+      "redirect_url": "/dynamics365/customer-service/develop/calculate-representative-metrics",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/customer-service/develop/create-a-conversion-plugin.md",
       "redirect_url": "/dynamics365/customer-service/develop/int-search-metadata-schema",
       "redirect_document_id": "false"
