@@ -1,7 +1,7 @@
 ---
 title: Transfer calls and consult with users
 description: Use this article to understand how customer service representatives can use transfer and consult options to make and receive customer calls in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 09/15/2025
+ms.date: 10/20/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -28,10 +28,10 @@ To familiarize yourself with the call controls, see [Understand how to use the a
 
 When you receive an incoming call, you can transfer the call to a service representative, a queue, a public switched telephone network (PSTN) Teams user, or an external PSTN number. After you transfer the call, the following actions occur:
 
- - The customer is automatically put on hold. Hold music plays for the customer. 
- - By default, the customer is automatically removed from hold once a secondary service representative accepts the transferred call. If the **Un-hold customer after representative transfer is accepted** setting is disabled, the primary service representative must manually remove the customer from hold.
+- The customer is automatically put on hold. Hold music plays for the customer.
+- By default, the customer is automatically removed from hold after a secondary service representative accepts the transferred call. If the **Un-hold customer after representative transfer is accepted** setting is disabled, the primary service representative must manually remove the customer from hold.
 
-1. Select **Transfer** in the call window. 
+1. Select **Transfer** in the call window.
 
     :::image type="content" source="../media/oc-transfer-scn.png" alt-text="A screenshot of the transfer option.":::
    
@@ -89,7 +89,7 @@ When you receive an incoming call, you can transfer the call to a service repres
 The consult option allows you to collaborate with another representative, a supervisor, or an external participant (a PSTN number or a Teams PSTN number). You can initiate a chat, a call consult, or both.
 
 When you initiate a consult, the following actions occur:
-- You're the primary representative. 
+- You're the primary representative.
 - You can search for representatives to consult within the same queue or other queues. Additionally, you can filter representatives within a queue based on their skills. The application shows representatives whose skills fully or partially match the selected criteria, along with their name and current presence status. You can add multiple representatives to the consult.
 - The customer is automatically put on hold. Hold music plays for the customer.
 - When the invited collaborator joins the call, they have a consult role. Consulting on a call doesn't affect the collaborator's available capacity. You can also add multiple collaborators to the consult.
