@@ -222,7 +222,7 @@
             href: admin-km-agent-insights.md
       - name: Chat and Channels
         items:
-        - name: Omnichannel for Customer Service for agents
+        - name: Dynamics 365 Contact Center for agents
           href: omnichannel-customer-service-app-agent.md
         - name: Sign into the agent app
           href: oc-sign-in-omnichannel.md

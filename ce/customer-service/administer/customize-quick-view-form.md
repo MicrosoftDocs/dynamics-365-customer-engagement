@@ -1,6 +1,6 @@
 ---
 title: "Customize quick view forms | MicrosoftDocs"
-description: "This topic provides procedural steps to customize the quick view forms present in the Active Conversation page in Omnichannel for Customer Service."
+description: "This topic provides procedural steps to customize the quick view forms present in the Active Conversation page in Dynamics 365 Contact Center."
 ms.date: 12/30/2024
 ms.topic: reference
 author: neeranelli

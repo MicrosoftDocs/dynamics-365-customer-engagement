@@ -1,6 +1,6 @@
 ---
 title: Create and manage data masking rules
-description: Learn how to create and manage data masking rules to block sensitive data in Omnichannel for Customer Service.
+description: Learn how to create and manage data masking rules to block sensitive data in Dynamics 365 Contact Center.
 ms.date: 09/30/2025
 author: lalexms
 ms.author: laalexan
@@ -34,7 +34,7 @@ As an administrator, you can delete or modify the out-of-the-box masking rules a
 
 > [!NOTE]
 > - Only an administrator can access and edit data masking rules.
-> - Only 10 data masking rules, including the rules provided out of the box, can exist in Omnichannel for Customer Service.
+> - Only 10 data masking rules, including the rules provided out of the box, can exist in Dynamics 365 Contact Center.
 
 ## Create a data masking rule
 

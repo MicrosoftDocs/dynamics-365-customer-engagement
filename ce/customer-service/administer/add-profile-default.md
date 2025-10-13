@@ -123,7 +123,7 @@ For more information about adding users to experience profiles, see [FAQs about 
 [Create and use experience profiles](create-agent-experience-profile.md)<br>
 [Manage session template](session-templates.md)  
 [Overview of Dynamics 365 Productivity Tools](productivity-tools.md)  
-[Overview of channels in Omnichannel for Customer Service](../use/channels.md)  
+[Overview of channels](../use/channels.md)  
 [Overview of experience profiles](overview.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

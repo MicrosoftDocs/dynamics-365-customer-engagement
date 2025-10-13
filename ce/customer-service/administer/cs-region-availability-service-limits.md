@@ -64,7 +64,7 @@ No: Not available
 
 ## Region availability of analytics and insights
 
-The following features are available in all geographic locations where the voice channel in Omnichannel for Customer Service is supported:
+The following features are available in all geographic locations where the voice channel in Dynamics 365 Contact Center is supported:
 
 - Call transcription
 - Call insights
