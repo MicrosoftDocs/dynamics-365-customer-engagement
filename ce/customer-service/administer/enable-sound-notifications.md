@@ -1,6 +1,6 @@
 ---
-title: Enable sound notifications for conversations in Omnichannel for Customer Service
-description: How to enable sound notifications for conversations in Omnichannel for Customer Service.
+title: Enable sound notifications for conversations in Dynamics 365 Contact Center
+description: How to enable sound notifications for conversations in Dynamics 365 Contact Center.
 ms.date: 04/15/2025
 ms.topic: how-to
 author: neeranelli
@@ -14,7 +14,7 @@ ms.collection:
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-Sound notifications for incoming conversation requests, such as live chat, that require immediate response are helpful in making sure the requests are not missed. Administrators can enable the sound notification settings in the configuration settings of Omnichannel for Customer Service. The option to personalize allows customer service representatives (service representatives or representatives) to customize their preferences for sound and volume selections, among other things. The sound notifications are available across all channels and can also be set for messages for ongoing conversations.
+Sound notifications for incoming conversation requests, such as live chat, that require immediate response are helpful in making sure the requests are not missed. Administrators can enable the sound notification settings in the configuration settings of Dynamics 365 Contact Center. The option to personalize allows customer service representatives (service representatives or representatives) to customize their preferences for sound and volume selections, among other things. The sound notifications are available across all channels and can also be set for messages for ongoing conversations.
 
 ## Prerequisite for sound notifications
 
