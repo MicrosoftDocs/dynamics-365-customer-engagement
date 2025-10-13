@@ -26,7 +26,7 @@ The Copilot Studio and Dynamics 365 for Customer Service platforms differ slight
 1. Find the rich media message you want an agent to send, and if it has JSON available, it appears under the **JSON for Copilot Studio** column. Select **View JSON** and the specific channel type to copy the JSON.
 
    > [!div class=mx-imgBorder]
-   > ![Rich message JSON](../media/json-rich-messages.png "View JSON and specific channel type.")
+   > ![Rich message JSON](../../../media/json-rich-messages.png "View JSON and specific channel type.")
    
 1. For Live Chat and WhatsApp rich media templates, you can paste the JSON directly into an adaptive card node in Copilot Studio.
    
