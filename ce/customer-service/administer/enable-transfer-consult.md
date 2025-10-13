@@ -35,5 +35,7 @@ Only after you enable the consult or transfer setting, your service representati
 
 ## Related information
 
+[Consult with representative or supervisor](../use/oc-conversation-control.md#consult-with-representative-or-supervisor)  
+[Use consult to collaborate with other representatives or supervisors](../use/voice-channel-transfer-consult.md#use-consult-to-collaborate-with-other-representatives-or-supervisors)  
 [Transfer conversations to representatives](../use/oc-conversation-control.md#transfer-conversations)  
 [Transfer calls to representatives](../use/voice-channel-transfer-consult.md#transfer-calls)
