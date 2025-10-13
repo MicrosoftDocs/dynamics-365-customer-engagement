@@ -10,7 +10,7 @@ ms.reviewer: laalexan
 
 # Send rich messages
 
-After an administrator creates rich message templates, customer service representatives (service representatives, representatives) can edit and send these interactive templates to customers to collect and share information more easily. Regardless of channel type, you can send rich messages using either of the following methods:
+After your administrator creates rich message templates, you, as a customer service representative (service representative, representative) can edit and send these interactive templates to your customers. Rich messages can help you to collect and share information more easily. Regardless of channel type, you can send rich messages using either of the following methods:
 
 - Select **Rich messages** to launch the rich message panel.
 
@@ -21,12 +21,12 @@ After an administrator creates rich message templates, customer service represen
    
 ## Search for rich messages and tags
 
-After customer service representatives launch the rich message panel by selecting the rich message icon or typing /rm, they can use the search bar and rich media message type filters to find relevant rich messages to send.
+After you launch the rich message panel by selecting the rich message icon or typing /rm, you can use the search bar and rich media message type filters to find relevant rich messages to send.
 
    > [!div class=mx-imgBorder]
    > ![Use rich message types.](../media/rich-message-types.png "Use the filters to find a rich message")
 
-Optionally, they can also use the following keyboard shortcuts:
+Optionally, you can also use the following keyboard shortcuts:
    
    - Type "/rm", followed by &lt;keyword&gt;, to list messages that match the keyword. 
    - Type "/rm", followed by the number sign (#), to list all tags. All rich messages have a tag containing their type. 
@@ -42,7 +42,7 @@ When you find the rich message you want to send, you can select it to open it in
 
 Within the preview tab, you can see the contents of the rich message that you selected. When you’re ready to send the rich message, select **Send to customer**.
 
-If your administrator enabled the customer service representative (service representative or representative) configuration, you can customize some types of rich messages before you send them. These customizations are single-use and aren’t saved for the next time you send the same rich message. 
+If your administrator enabled the customer service representative configuration, you can customize some types of rich messages before you send them. These customizations are single-use and aren’t saved for the next time you send the same rich message. 
 
 The following rich messages support admin-enabled customization:
 
