@@ -35,7 +35,7 @@ Optionally, you can also use the following keyboard shortcuts:
 
 ## View and send rich messages
 
-When you find the rich message you want to send, you can select it to open it in the **Rich rich media message** application pane.
+When you find the rich message you want to send, you can select it to open it in the **Rich media message** application pane.
 
    > [!div class=mx-imgBorder]
    > ![Preview rich message.](../media/preview-rich-message.png "Preview rich message")   
