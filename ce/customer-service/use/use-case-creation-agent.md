@@ -1,6 +1,6 @@
 ---
 title: Use Case Management Agent to create and update cases (preview)
-description: Learn how to use autonomous case management agents to efficiently handle case management tasks.
+description: Learn how to use autonomous Case Management Agent to efficiently handle case management tasks in Dynamics 365 Customer Service.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

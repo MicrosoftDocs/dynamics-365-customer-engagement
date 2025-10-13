@@ -1,6 +1,6 @@
 ---
-title: Work with queues
-description: Learn how to work with queues, find queue items, and pick work items from queues.
+title: Use queues to organize, prioritize, and monitor work
+description: Learn how to work with queues, find queue items, and pick work items from queues in Dynamics 365 Customer Service.
 ms.date: 05/15/2025
 ms.topic: how-to 
 author: gandhamm
@@ -10,9 +10,10 @@ ms.collection:
 ms.custom: bap-template 
 ---
 
-# Work with queues
+# Use queues to organize, prioritize, and monitor your work
 
-Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, such as completing a task or closing a case. Learn more about creating and managing queues in [Create and manage queues](../administer/set-up-queues-manage-activities-cases.md).
+Queues in Dynamics 365 Customer Service help you manage workloads by organizing cases, tasks, and other work items that need attention. This article explains how to work with existing queues, including how to view queue items, pick up work, route items to team members, and track completion status. Learn more about creating and managing queues in [Create and manage queues](../administer/set-up-queues-manage-activities-cases.md).  
+
 
 The option for customer service representatives to manage their queues and items is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. Learn more in [New features in Dynamics 365 Customer Engagement (on-premises)](../../customerengagement/on-premises/whats-new.md#enhancements-in-the-queue-page).
 

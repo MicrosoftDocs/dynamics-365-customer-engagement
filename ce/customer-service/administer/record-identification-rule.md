@@ -1,6 +1,6 @@
 ---
 title: Identify customers automatically
-description: Learn how to automatically identify customers by using preconversation responses in Omnichannel for Customer Service.
+description: Learn how to automatically identify customers by using preconversation responses in Dynamics 365 Contact Center.
 ms.date: 06/04/2025
 ms.topic: how-to
 author: neeranelli

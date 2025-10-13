@@ -19,7 +19,7 @@ This article contains the FAQs that you as an administrator, supervisor, or a cu
 
 ### What SKUs must I have to get unified routing?
 
-You must have the Customer Service Enterprise license. [See prerequisites for licensing information](provision-unified-routing.md#prerequisites).
+Specific licensing requirements apply for unified routing. Learn more in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 ### Does unified routing support activity routing?
 
@@ -93,6 +93,10 @@ Yes, you can update the limit. Learn more in [How the limit on offering a work i
 ### Does unified routing offer the same conversation when a representative declines it or after the notification times out?
 
 The representatives aren't offered the same conversation anymore after they decline it and are removed from priority but can be offered other conversations. However, if they're the only ones eligible, the system offers the same conversation up to three times or the configured limit.
+
+### Do assign to and worked by have the same behavior>
+
+Yes, the presence and capacity are updated.
 
 ## Route to least-active representative
 
@@ -177,5 +181,4 @@ We'll iteratively add more data events for diagnostics. Follow the documentation
 ### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
-[System requirements for Omnichannel for Customer Service](../implement/system-requirements-omnichannel.md)  
 [Set up unified routing for records](set-up-record-routing.md)  

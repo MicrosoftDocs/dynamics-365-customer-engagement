@@ -18,7 +18,7 @@ ms.custom:
 
 The built-in limits are designed to ensure reliability and stability of the service. Use the Ideas forum to request changes.
 
-The following table lists the built-in limits for the embedded version of insights that can be accessed through the Copilot Service workspace and Omnichannel for Customer Service apps. This table explains the service limits for Copilot Service historical analytics reports. Learn more about licenses and service limits in the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
+The following table lists the built-in limits for the embedded version of insights that can be accessed through Copilot Service workspace. This table explains the service limits for Copilot Service historical analytics reports. Learn more about licenses and service limits in the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 | Area | Limits | Notes |
 | ------------ | ------------- | ----------------- |

@@ -1,6 +1,6 @@
 ---
-title: "Best practices to use Omnichannel for Customer Service | MicrosoftDocs"
-description: "This article provides information about the guidelines to use Omnichannel for Customer Service."
+title: Best practices to use Omnichannel for Customer Service
+description: This article provides information about the guidelines to use Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -13,8 +13,6 @@ search.audienceType:
 ---
 
 # Best practices to use Omnichannel for Customer Service
-
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 Use the following guidelines in Omnichannel for Customer Service, so that the data in the dashboards isn't affected:
 

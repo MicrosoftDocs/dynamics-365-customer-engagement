@@ -222,7 +222,7 @@
             href: admin-km-agent-insights.md
       - name: Chat and Channels
         items:
-        - name: Omnichannel for Customer Service for agents
+        - name: Dynamics 365 Contact Center for agents
           href: omnichannel-customer-service-app-agent.md
         - name: Sign into the agent app
           href: oc-sign-in-omnichannel.md
@@ -329,7 +329,11 @@
         - name: Chat with case data in Customer Service (preview)
           href: /dynamics365/contact-center/use/copilot-chat-customer-service-data?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
       - name: Analytics dashboards and insights
-        items: 
+        items:
+        - name: Supervise AI agents (preview)
+          items:
+          - name: Supervise autonomous agents using agent feed
+            href: supervise-ai-agents.md
         - name: Use Omnichannel real-time analytics dashboards
           items:
           - name: Overview of Omnichannel real-time analytics reports
@@ -368,8 +372,6 @@
             href: summary-dashboard-cs.md
           - name: Agent dashboard
             href: agent-dashboard-cs.md
-          - name: Case Topics dashboard
-            href: case-topics-dashboard-cs.md
         - name: Use Omnichannel historical analytics dashboards
           items: 
           - name: Omnichannel for Customer Service dashboards
@@ -386,8 +388,6 @@
             href: agent-dashboard.md
           - name: Omnichannel Bot dashboard
             href: oc-bot-dashboard.md  
-          - name: Omnichannel Conversation topic dashboard
-            href: oc-conversation-topics-dashboard.md
           - name: Omnichannel Voicemail dashboard
             href: oc-voicemail-dashboard.md          
         - name: Use knowledge analytics
@@ -428,6 +428,8 @@
             href: use-volume-forecasting.md
         - name: Customize visual display
           href: customize-reports.md
+        - name: Customize the bot dashboard
+          href: /dynamics365/contact-center/use/customize-agent-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml    
         - name: Customize data models
           items:
           - name: Overview of data model customization
@@ -440,8 +442,6 @@
             href: datamapping-realtime.md
           - name: Dataverse entities used in historical and real-time analytics
             href: dataverse-entities.md
-          - name: Customize the bot dashboard
-            href: /dynamics365/contact-center/use/customize-agent-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml    
       - name: Service scheduling
         items: 
           - name: Core Service Scheduling

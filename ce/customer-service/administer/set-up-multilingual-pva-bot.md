@@ -1,6 +1,6 @@
 ---
 title: Set up a multilingual agent to use in voice channel
-description: Use this article to learn how to set up a multilingual bot to use in the voice channel in Omnichannel for Customer Service.
+description: Use this article to learn how to set up a multilingual bot to use in the voice channel in Dynamics 365 Contact Center.
 ms.date: 12/14/2024
 ms.topic: how-to
 author: neeranelli
@@ -45,13 +45,13 @@ The process for setting up the multilingual bot in Copilot Studio is as follows:
 
 ## Create an agent in Copilot Studio
 
-You'll create an agent in Copilot Studio by selecting the environment in which Omnichannel for Customer Service is configured. For detailed instructions, go to [Create an agent](/power-virtual-agents/authoring-first-bot).
+You'll create an agent in Copilot Studio by selecting the environment in which Dynamics 365 Contact Center is configured. For detailed instructions, go to [Create an agent](/power-virtual-agents/authoring-first-bot).
 
 For example, you can create an agent with the following details:
 
 - **Name**: A descriptive name for the agent, such as **Greeter bot**.
 - **Language**: The primary language for the agent, such as **English (US)**.
-- **Environment**: The environment where Omnichannel for Customer Service is configured, such as **contoso-printers**.
+- **Environment**: The environment where Dynamics 365 Contact Center is configured, such as **contoso-printers**.
 
 ## Create a topic in Bot Framework Composer
 

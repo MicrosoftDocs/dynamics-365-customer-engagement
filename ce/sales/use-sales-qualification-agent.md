@@ -1,7 +1,7 @@
 ---
 title: Work on leads handed over by the Sales Qualification Agent (preview)
 description: Learn how to work with leads handed over by the Sales Qualification Agent in Dynamics 365 Sales. Discover research insights, handover summaries, and recommended actions for effective lead management.
-ms.date: 09/17/2025
+ms.date: 09/30/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -23,8 +23,6 @@ ai-usage: ai-assisted
 # Work on leads handed over by the Sales Qualification Agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-[!INCLUDE[sqa-73-note](../includes/sqa-73-note.md)]
 
 Depending on the automation level your admin has configured, the Sales Qualification Agent can help you qualify leads by automatically by completing the following tasks:
 
@@ -80,9 +78,12 @@ If you're a seller, you get notified when a lead is handed over to you. If you m
 
 If you're a supervisor, you get notified when a lead is disqualified by the agent. Learn more in [View leads disqualified by the agent](#view-leads-disqualified-by-the-agent) and [Monitor leads handled by the Sales Qualification Agent (preview)](monitor-leads-by-sales-qualification-agent.md).
 
+> [!NOTE]
+> If you don't see the views mentioned in this section, contact your admin to [add agent-specific views to your app](start-sales-qualification-agent.md#add-agent-specific-views-to-your-app).
+
 1. In the Sales Hub app, go to **Leads**.
 
-1. From the views drop-down, select **Leads handed over by AI Agent**.
+1. From the views drop-down, select **Leads from AI Agent**.
    > [!NOTE]
    > The agents hands over leads that [meet the handoff criteria](configure-sales-qualification-agent-handoff-criteria.md) defined by your admin. 
 1. Select a lead.
@@ -100,7 +101,7 @@ Leads disqualified by the agent are not handed over to sellers. If you're a supe
 
 1. In the Sales Hub app, go to **Leads**.
 
-1. From the views drop-down, select **Leads disqualified by AI Agent**.
+1. From the views drop-down, select **Leads disqualified by AI agent**.
    > [!NOTE]
    > Though this view is meant for supervisors, it is also available to sellers unless your admin has set the `EnableRoleBasedSystemViews` setting to **true**.
 1. Open a lead to view the reason for disqualification. The reason is displayed in the **Lead research** page under the **Suggested action** section.

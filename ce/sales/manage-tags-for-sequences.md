@@ -1,7 +1,7 @@
 ---
 title: Manage tags for sequences
 description: Manage the tags for sequences in sales accelerator by creating, adding, editing, and deleting.
-ms.date: 09/19/2025
+ms.date: 10/10/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag

@@ -1,6 +1,6 @@
 ---
 title: Migrate unified routing data for the voice channel
-description: Learn to migrate the voice channel data from source to target environments in Omnichannel for Customer Service.
+description: Learn to migrate the voice channel data from source to target environments in Dynamics 365 Contact Center.
 ms.date: 05/14/2025
 ms.topic: upgrade-and-migration-article
 author: gandhamm

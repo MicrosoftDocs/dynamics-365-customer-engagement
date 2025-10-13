@@ -1,7 +1,7 @@
 ---
 title: Use Teams chat 
 description: Learn how to use the Teams chat functionality. 
-ms.date: 05/23/2025
+ms.date: 09/30/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -21,7 +21,7 @@ ms.custom:
 > [!NOTE]
 > Case is applicable to Customer Service only.
 
-As a customer service representative (service representative or representative), you can chat in Microsoft Teams from within Copilot Service workspace, Contact Center workspace, Customer Service Hub, and any custom app. While working on customer records, you can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting all the associated chats to a record can help you maintain all the conversations related to the record in one place. 
+As a customer service representative (service representative or representative), you can chat in Microsoft Teams from within Copilot Service workspace, Contact Center workspace, Customer Service Hub, and any custom app. While working on customer records, you can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting all the associated chats to a record can help you maintain all the conversations that are related to that record in one place. 
 
 > [!NOTE]
 > Your administrator needs to enable this feature before you can use it, and you must have certain permissions to access Teams data. Learn more in [Configure Teams chat](../administer/configure-teams-chat.md)
@@ -33,14 +33,14 @@ The following image displays the key features of the representative Teams chat e
  > [!div class="mx-imgBorder"] 
  > ![Agent view of the Microsoft Teams chat experience](../media/teams-chat-agent-overview.png "Agent view of the Microsoft Teams chat experience")
 
-The following legend describes the numbered callouts in the above image.
+The following legend describes the numbered callouts in the image.
 
 |Number |Feature | Description |
 |-------|-----------|-----------|
 | 1 | New chat | Create chats that aren't associated with any records.  |
 | 2 | Filter |  Filter chats by name. |
 | 3 | Chats connected to other records | Chats that are associated with other records that the current user is a part of. Users can prioritize responses to these chats over other chats. |
-| 4 | New connected chat | Start a new chat that's connected with the record. Only chat participants can view These chats. |
+| 4 | New connected chat | Start a new chat that's connected with the record. Only chat participants can view these chats. |
 | 5 | Other chats | Chats that aren't connected to any records or started from Teams. |
 | 6 | Chat control | Allows users to multi-task across chats. |
 | 7 | Basic Teams functions | Format, use emojis or .GIFs, set delivery options, and attach files. |
@@ -50,7 +50,7 @@ The following legend describes the numbered callouts in the above image.
 ## Open Teams chats that are related to a record
 
 You can open any application record and select the **Teams chats and channels integration** icon. The **Teams chats** panel opens with the following sections in the **Chat** tab:  
-- Chats connected to the record: Lists Teams chats that either you’ve connected to the selected record or someone else has connected a chat with you as a participant. 
+- Chats connected to the record: Lists Teams chats that either you’ve connected to the selected record or someone else connected a chat with you as a participant. 
 - Suggested contacts: Lists suggested contacts depending on the users who are working on the record. Learn more in [Use suggested contacts to collaborate with the right coworkers](teams-use-suggested-contacts.md).  
 - Other chats/All recents: Lists your top 50 chat conversations on Teams. You can select any existing conversation and connect it to a record. 
 
@@ -60,7 +60,7 @@ You can start a new connected chat or convert an existing Teams chat into a conn
 
 Your administrator can configure an optional message that you can send when using the chat to start a collaboration. This message helps you to share succinct, read-only context with your collaborators on Teams.
  
-If you're using Teams for the first time within Copilot Service workspace, Contact Center workspace, or Customer Service Hub, you can select the blue bubble, and then follow the interface guidance.
+If you're using Teams for the first time within Copilot Service workspace, Contact Center workspace, or Customer Service Hub, you can select the blue bubble, and then follow the on-screen guidance.
 
 1.	Open any record, and then select the **Teams chats and channels integration** icon.
     The **Teams chats** panel opens.
@@ -118,9 +118,9 @@ The suggested contacts list displays users who are connected or interacted with 
 
 ## Connect a Teams channel to a record
 
-The **Channels** tab lists the channels that either you’ve connected to the selected record or someone else connected a channel where you’re a participant. If you connected a record to a channel using basic or enhanced collaboration experience, that channel is also listed in this tab. 
+The **Channels** tab lists the channels that either you connected to the selected record or someone else connected a channel where you’re a participant. If you connected a record to a channel using basic or enhanced collaboration experience, that channel is also listed in this tab. 
 
-You can connect relevant Teams channels to a record, so that all the members can easily access the connected channels from the record and follow the conversation. 
+You can connect relevant Teams channels to a record so that all the members can easily access the connected channels from the record and follow the conversation. 
 
 1. Open any record, and select the Teams chat :::image type="icon" source="../media/teams-icon.png" border="false"::: icon.<br>
    The **Teams chats** pane opens.
@@ -160,7 +160,7 @@ To join a connected chat:
    The Teams popup chat shows that you were added to the chat, and you have access to the entire chat history. Other chat members also receive the system message that you were added to the chat.
  
   > [!NOTE]
-  > When a user is added using Join chat, any users who are chatting directly from apps see a system message that says an unknown user added the new user to the chat and shared the chat history. This issue is specific to the embedded chat experience, and we're working to resolve it.<br>
+  > When a user is added to a chat using the Join chat feature, any users who are chatting directly from apps see a system message that says an unknown user added the new user to the chat and shared the chat history. This issue is specific to the embedded chat experience, and we're working to resolve it.<br>
   
    > [!div class="mx-imgBorder"] 
    > ![Text that says unknown user was added to a chat.](../media/unknown-user-error.png "Display of text that says to an unknown user was added to a chat")
@@ -190,13 +190,12 @@ As a representative, when you start a connected chat or connect an existing chat
      > [!div class="mx-imgBorder"] 
      > ![Join a Teams chat from the timeline.](../media/join-teams-chat-timeline.png "Join a Teams chat from the timeline")
 
-
 ## Dynamics 365 links are unfurled in Teams chat
 
-When you paste a link to a record into a Microsoft Teams chat, meeting, or channel, participants see an adaptive card with details about the shared link. Links to canvas apps show the app name and record name. Model-driven app links to records show the table type. When you paste the link, you can delete the card in the message compose window before sending the message if you don’t want to send the link as a card.
+When you paste a link to a record into a Microsoft Teams chat, meeting, or channel, participants see an adaptive card with details about the shared link. Links to canvas apps show the app name and record name. Model-driven app links to records show the table type. When you paste the link, you can delete the card in the message composition window before sending the message if you don’t want to send the link as a card.
 
 > [!NOTE]
-> If you don't have access to the app or record for which you paste a link, no app or record details appear in the unfurled card.
+> If you don't have access to the app or record for which you paste a link, the app and record details don't appear in the unfurled card.
 
 ### Related information
 

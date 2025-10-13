@@ -49,7 +49,7 @@ Unified routing optimizes businesses in the following ways:
 
 Unified routing is supported in the same geographical regions as those supported by Omnichannel for Customer Service. Learn more in [International availability of Omnichannel for Customer Service](../implement/international-availability.md).
 
-The requirements for unified routing are same as those that are applicable for Omnichannel for Customer Service. Learn more in [System requirements for Omnichannel for Customer Service](../implement/system-requirements-omnichannel.md).
+Learn about [system requirements](/dynamics365/contact-center/implement/system-requirements-contact-center).
 
 Learn more about the languages that are supported in unified routing in [Supported languages](../implement/international-availability.md#language-availability).
 

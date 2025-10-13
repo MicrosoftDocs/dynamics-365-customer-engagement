@@ -47,7 +47,7 @@ Learn more about setting up knowledge search control on the app side pane, in [C
 
 ## Configure knowledge search control on the app side pane<a name="configure-knowledge-search-control-on-app-side-pane"></a>
 
-After you add the record types for which you want to turn on knowledge management, you can configure the knowledge search control on the app side pane by editing the record type. The app side pane is available only in Copilot Service workspace and Omnichannel for Customer Service. Learn more in [Configure productivity pane](create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels).
+After you add the record types for which you want to turn on knowledge management, you can configure the knowledge search control on the app side pane by editing the record type. The app side pane is available only in Copilot Service workspace. Learn more in [Configure productivity pane](create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels).
 
 > [!NOTE]
 > You can configure the knowledge settings for record types from the Copilot Service admin center app. You'll also be able to view and edit the record types that you previously enabled in Customer Service Hub.

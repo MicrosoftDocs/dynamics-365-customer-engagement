@@ -1,6 +1,6 @@
 ---
 title: Smart assist for representative efficiency 
-description: Learn how to smartly assist representatives with the next-best steps in Copilot Service workspace and Omnichannel for Customer Service apps.
+description: Learn how to smartly assist representatives with the next-best steps in Copilot Service workspace.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

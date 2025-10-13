@@ -15,9 +15,6 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-> [!NOTE]
-> Starting June 20, 2025, the legacy AI topic clustering for conversation topics in Dynamics 365 Customer Service and Dynamics 365 Contact Center is deprecated and will reach the end of support. After August 31, 2025, this feature will be removed, and users won't be able to use it in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-
 You can configure Omnichannel historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support conversations and to group related conversations into topics.
 
 By default, the Omnichannel historical analytics reports are enabled for the System Administrator, Omnichannel Administrator, Omnichannel Supervisor, and CSR Manager roles. To configure other user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
@@ -30,7 +27,6 @@ The historical analytics reports include:
 - [Voicemail](../use/oc-voicemail-dashboard.md)
 - [Agent](../use/agent-dashboard.md)
 - [Bot](../use/oc-bot-dashboard.md)
-- [Conversation Topics](../use/oc-conversation-topics-dashboard.md)
 
 > [!NOTE]
 > The reports retain their current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the steps provided [here](analytics_overview.md#keep-the-report-state-when-you-switch-session-tabs) to keep the report state.

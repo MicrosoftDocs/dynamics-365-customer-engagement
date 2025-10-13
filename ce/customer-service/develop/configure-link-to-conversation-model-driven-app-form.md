@@ -19,7 +19,7 @@ When a customer service representative (service representative or representative
 
 To add the **Link to conversation** button in the model-driven app entity form, as a system customizer, you need to customize the ribbon (`<RibbonDiffXml>`) definition. The customization change definitions that you specify are applied at runtime when the ribbon is displayed in the application.
 
-With latest release of Omnichannel for Customer Service base solutions, you get the web resources to add the **Link to conversation** button.
+With latest release of Dynamics 365 Contact Center base solutions, you get the web resources to add the **Link to conversation** button.
 
 ## Customize the entity ribbon to add Link to conversation button
 

@@ -1,6 +1,6 @@
 ---
-title: "Use automation dictionary to pass parameter keys | MicrosoftDocs"
-description: "Learn about the supported formats to pass parameter values in the templates and macros."
+title: Use automation dictionary to pass parameter keys
+description: Learn about the supported formats to pass parameter values in the templates and macros.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -52,7 +52,7 @@ The automation dictionary uses the context data parameters that are available fr
 
 ### Context data from the channel provider
 
-This context data is from the first-party channel provider such as Omnichannel for Customer Service or a third-party channel provider that uses the widget exposed by Dynamics 365 Channel Integration Framework. The context data from Omnichannel for Customer Service are pre-conversation survey, visitor portal navigation, and so on.
+This context data is from the first-party channel provider such as Dynamics 365 Contact Center or a third-party channel provider that uses the widget exposed by Dynamics 365 Channel Integration Framework. The context data can be pre-conversation survey and visitor portal navigation.
 
 ### Context data from user actions
 
@@ -147,7 +147,7 @@ Slugs that are available for session context include:
 
 **Omnichannel connector context**
 
-When you want to execute a slug in the Omnichannel for Customer Service context, you must use the `${$oc.<slug>}` format. For example: `${$oc.customerName}`
+When you want to run a slug in the omnichannel context, you must use the `${$oc.<slug>}` format. For example: `${$oc.customerName}`
 
 The `Session.CurrentTab.<Attribute>` and `Session.AnchorTab.<Attribute>` parameters provide context data based on the current session and the anchor tab or the current tab in focus. The following are the supported attribute types:
 

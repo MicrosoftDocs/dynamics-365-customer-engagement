@@ -11,8 +11,6 @@ ms.custom: bap-template
 ---
 # Introduction to Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 > [!TIP]
 > - If you’d like to try Dynamics 365 Customer Service for free, you can sign up for a [30-day trial](https://dynamics.microsoft.com/customer-service/customer-service/free-trial/).
 > - Explore [Copilot](../use/use-copilot-features.md), a feature that significantly enhances agent productivity in Customer Service.

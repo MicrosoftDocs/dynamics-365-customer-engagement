@@ -1,7 +1,7 @@
 ---
 title: Monitor real-time customer sentiment 
-description: This topic provides information on how to monitor real-time customer sentiment and analyze customer satisfaction levels.
-ms.date: 05/20/2025
+description: This article provides information about how to monitor real-time customer sentiment and analyze customer satisfaction levels.
+ms.date: 09/30/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -14,7 +14,7 @@ ms.reviewer: laalexan
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-As a customer service representative, when you interact with your customers, you want to know the sentiments they're experiencing in real time. Analysis of the customer's satisfaction level helps you understand how serious the problem is and develop a course of action to solve it. In the application you can see the customer's satisfaction levels instantly while you communicate with the customer.
+As a customer service representative, when you interact with your customers, it's helpful to be able to check the sentiments they're experiencing in real time. Analysis of the customer's satisfaction level helps you understand how serious the problem is and develop a course of action to solve it. In the application, you can see the customer's satisfaction levels instantly while you communicate with the customer.
 
 ## View real-time customer sentiment
 

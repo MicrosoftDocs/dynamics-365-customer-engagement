@@ -11,10 +11,7 @@ ms.custom: bap-template
 
 # FAQ about Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
-
 
 ## General
 
@@ -24,7 +21,7 @@ Refer the list of supported regions at [International availability of Microsoft 
 
 ### What platforms are supported?
 
-You can find information about supported platforms and other prerequisites in [Prerequisites and system requirements of Omnichannel for Customer Service](../implement/system-requirements-omnichannel.md).
+You can find information about supported platforms and other prerequisites in [Prerequisites and system requirements](/dynamics365/contact-center/implement/system-requirements-contact-center).
 
 ### Where can I submit an idea for a new feature or enhancement?
 
@@ -44,11 +41,12 @@ Some of the supported channels are LINE and Facebook. For the complete list of s
 
 ### Are Chat and the associated Omnichannel for Customer Service capabilities available as part of my Dynamics 365 Customer Service license?
 
-No, Chat and related capabilities in Omnichannel for Customer Service require a separate add-in. Learn more about licenses and pricing in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). You can also purchase add-ins on the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?LinkId=866544). Learn more in [Buy add-ons](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true).
+No, Chat and related capabilities in Omnichannel for Customer Service require a separate add-in. Learn more about licenses and pricing in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). You can also purchase add-ins on the Microsoft 365 admin center. Learn more in [Buy add-ons](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true).
 
 ### How do I get started?
 
-If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](../use/channels.md). Find [Get started](../implement/introduction-omnichannel.md) and [Prerequisites](../implement/system-requirements-omnichannel.md#prerequisites) for setting up Omnichannel for Customer Service in your organization.
+If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](../use/channels.md). Learn more in [Provision channels](/dynamics365/contact-center/implement/provision-channels
+) for setting up channels in your organization.
 
 ## Representative experience
 
@@ -266,6 +264,5 @@ Only AI agents created through [Microsoft Bot Framework](https://dev.botframewor
 ### Related information
 
 [Overview of Dynamics 365 Customer Service](../administer/overview.md)  
-[Omnichannel for Customer Service system requirements](../implement/system-requirements-omnichannel.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

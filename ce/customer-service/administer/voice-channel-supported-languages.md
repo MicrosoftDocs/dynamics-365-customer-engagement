@@ -1,6 +1,6 @@
 ---
 title: Supported languages and locale codes for voice channel
-description: Know about the supported languages and locale codes for the voice channel in Omnichannel for Customer Service.
+description: Know about the supported languages and locale codes for the voice channel in Dynamics 365 Contact Center.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -11,15 +11,13 @@ ms.custom: bap-template
 ---
 # Supported languages and locale codes for voice channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
 This article provides information about the supported languages and locale codes for the voice channel.
 
 ## Supported languages and locale codes
 
-Omnichannel for Customer Service uses the Azure Cognitive Services speech-to-text service for transcription. So, all languages supported by speech-to-text can be transcribed. Learn more in [Speech-to-text documentation](/azure/cognitive-services/speech-service/index-speech-to-text).
+The voice channel uses the Azure Cognitive Services speech-to-text service for transcription. So, all languages supported by speech-to-text can be transcribed. Learn more in [Speech-to-text documentation](/azure/cognitive-services/speech-service/index-speech-to-text).
 
 > [!NOTE]
 > Sentiment and AI insights are optional for the voice functionality.
@@ -207,7 +205,7 @@ Use the information in the following table to find out more about language suppo
 | Bring your own bot (IVR) | [Language and voice support for the Speech service](/azure/cognitive-services/speech-service/language-support)|
 | AI suggestions | [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md#language-support-for-ai-suggestions)|
 | Sentiment Analysis | [Multilingual sentiment](enable-sentiment-analysis.md#multilingual-sentiment) |
-| Other Omnichannel for Customer Service features | [Language availability in Omnichannel for Customer Service](../implement/international-availability.md#language-availability)|
+| Other Dynamics 365 Contact Center features | [Language availability in Omnichannel for Customer Service](../implement/international-availability.md#language-availability)|
 
 ## Next steps
 

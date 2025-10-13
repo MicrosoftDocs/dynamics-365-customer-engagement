@@ -1,7 +1,7 @@
 ---
 title: Skill control for routed records
 description: Learn how to add a skill control on forms to view skills of any record that's routed through unified routing.
-ms.date: 04/29/2025
+ms.date: 09/26/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -21,7 +21,7 @@ Dynamics 365 provides a custom control that you can embed in your forms to view 
 ## Prerequisites
 
 - To add the skill control, you must have the System Administrator or System Customizer security role, or equivalent permissions. For more information about your security role, go to [View your user profile](/power-apps/user/view-your-user-profile).
-- To make sure that the skill control is loaded and displayed for the routed records, you must [allow access to these websites](../implement/system-requirements-omnichannel.md#allow-access-to-websites).
+- To make sure that the skill control is loaded and displayed for the routed records, you must [allow access to these websites](/dynamics365/contact-center/implement/system-requirements-contact-center#allow-access-to-websites).
 - [Omnichannel for Customer Service is provisioned](/dynamics365/contact-center/implement/provision-channels#set-up-channels).
 - [Unified routing is enabled](../administer/provision-unified-routing.md).
 - For the skills to appear in the skill control, you must [set up unified routing](../administer/set-up-routing-process.md).
@@ -33,15 +33,13 @@ In the following example, to add a skill control named **Skills** to the **Case 
 1. In Power Apps, select the required environment, and then select the solution that you want to customize.
 1. Go to **Tables**, and select **Case** > **Forms**.
 1. Select the **Case for Interactive experience** form.
-1. Select Component, and on the Components site map, drag and drop a **1-Column section** on to the form. 
-1. Select the section and in the right pane, enter the properties, such as the label.
-1. In the site map, under Table columns, select **New table column**, and do the following steps in the right pane:
-    1. On the **Properties** tab, enter the details under **Display options**.
-    1. Expand **Components**, and select **Component**.
-    1. In **Add component**, select Get more components. 
-    1. Search **CC_OCRoutedEtnRelatedRecordsControl**, select **Components** and then select **Add**. The component is added to the list.
-    1. Select the component again.
-    1. To filter the skills based on the selected queue, on the **Add CC_OCRoutedEtnRelatedRecordsControl** pane, in the Static value field for **CC_FetchXML** or **CC_skillFilter_FetchXml**, enter a fetch XML that you defined to curate the relevant set of skills that match the queue requirements. You can use the [Sample Fetch XML](#sample-fetch-xml) listed in this article.
+1. Select **Component**, and in the **Components** site map, drag and drop a **1-Column section** on to the form. 
+1. Select the section and specify the **Label** and **Name** in the **Properties** pane.
+1. Expand **Components**, and select **Component**.
+1. In **Add component**, select **Get more components.** 
+1. Search for **CC_OCRoutedEtnRelatedRecordsControl**, select **Components**, and then select **Add**. The component is added to the list.
+1. Select the component again.
+1. To filter the skills based on the selected queue, on the **Add CC_OCRoutedEtnRelatedRecordsControl** pane, in the Static value field for **CC_FetchXML** or **CC_skillFilter_FetchXml**, enter a fetch XML that you defined to curate the relevant set of skills that match the queue requirements. You can use the [Sample Fetch XML](#sample-fetch-xml) listed in this article.
 
 1. Select **Done** and then save and publish the solution.
 

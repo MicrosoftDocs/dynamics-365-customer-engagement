@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 09/02/2025
+ms.date: 10/10/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -32,7 +32,7 @@ Learn more about [Session metrics](../use/session-metrics.md#session-metrics) an
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Total conversations includes all interactions initiated by customers or representatives and engaged by agents, including ones that might be escalated to service representatives. It's a comprehensive metric that's used to evaluate the performance and effectiveness of agent interactions.
+Total conversations include all interactions initiated by customers or representatives and engaged by agents, including ones that might be escalated to service representatives. It's a comprehensive metric that's used to evaluate the performance and effectiveness of agent interactions.
 
 Learn more in [conversation states](../use/oc-conversation-state.md#understand-conversation-states).
 
@@ -116,7 +116,7 @@ Total bot conversation = CALCULATE(DISTINCTCOUNTNOBLANK(FactSession[Conversation
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)  |
 |Attributes |- systemuser.msdyn_BotApplicationId​ <br>- msdyn_liveworkstream.msdyn_streamsource |
-|Filters  |- Filter the records to include only the records where BotApplicationId isn't null. <br> - msdyn_liveworkstream.msdyn_streamsource isn't equal to '192350000'. |
+|Filters  |- Filter the records to include only the records where BotApplicationId isn't null. <br> - msdyn_liveworkstream.msdyn_streamsource isn't equal to '192350000.' |
 
 ---
 
@@ -234,7 +234,7 @@ IsEngaged = CALCULATE(TRUE(),FactConversation[IsOffered], FactConversation[IsAge
 
 A conversation can be abandoned for multiple reasons. For example, a customer might be disconnected or might cancel the call because of a long waiting period, supervisors might forcibly close requests, or automatic system actions might be configured to handle overflow. Abandoned conversations can lead to customer dissatisfaction. A high abandonment rate requires further investigation into operational metrics such as service representative availability and queue distribution.
 
-If an AI agent or IVR handles the customer before it escalates the request to a service representative, this metric is the number of conversations that were abandoned while customers were waiting for a service representative after the AI agent escalated the request. If a conversation is abandoned before an AI agent can be assigned, the system considers the conversation abandoned.
+If an AI agent or IVR handles the customer before escalating the request to a service representative, this metric counts the number of conversations abandoned while customers wait for a service representative after escalation. If a conversation is abandoned before an AI agent can be assigned, the system considers the conversation abandoned.
 
 If a conversation is assigned to service representative's queue directly, this metric is calculated as the number of incoming conversations that were abandoned. The conversation direction is *Incoming*. The channels that the conversation came in through are *Messaging* and *Voice*.
 
@@ -834,7 +834,7 @@ DIVIDE(SUMX(FactConversation,IF(FactConversation[IsAbandoned] && NOT FactConvers
 |---------|---------|
 |Dataverse entities | [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem),  systemuser |
 |Attributes  | - msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_liveworkstream.msdyn_streamsource <br> - msdyn_ocliveworkitem.msdyn_isoutbound​ <br> - msdyn_ocliveworkitem.isagentsession​ <br> - msdyn_ocliveworkitem.msdyn_isabandoned​ <br> -  systemuser.msdyn_botapplicationid    |
-|Filters  | - Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL,​ msdyn_isabandoned is set to 1 and​  msdyn_isagentsession set to 1​. <br> - Direction is defined by msdyn_isoutbound and not set to 1​. <br> - Exclude rows where msdyn_streamsource is'192350000'​.​|
+|Filters  | - Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL,​ msdyn_isabandoned is set to 1 and​  msdyn_isagentsession set to 1​. <br> - Direction is defined by msdyn_isoutbound and not set to 1​. <br> - Exclude rows where msdyn_streamsource is '192350000'​.​|
 
 ---
 
@@ -842,7 +842,7 @@ DIVIDE(SUMX(FactConversation,IF(FactConversation[IsAbandoned] && NOT FactConvers
 
 *Applies to Omnichannel real-time dashboards.*
 
-Average time to abandon is the average time (in seconds) that customers wait before leaving a conversation when no service representative joins. This average time includes conversations escalated from an AI agent or those that enter a direct queue but are abandoned before any AI agent interaction occurs.
+Average time to abandon is the average time (in seconds) that customers wait before leaving a conversation when no service representative joins. This average time includes conversations escalated from an AI agent or conversations that enter a direct queue but are abandoned before any AI agent interaction occurs.
 
 ### DAX query and Dataverse reference
 
@@ -864,11 +864,11 @@ Avg. time to abandon (sec) = ​AVERAGEX (FactConversation, IF (FactConversation
 
 
 
-## Average conversation active time
+## Average active time
 
 *Applies to Omnichannel historical dashboards.*
 
-Average conversation active time measures the actual time spent by an agent actively handling a conversation, either through chat or voice, across all sessions. Passive durations such as hold time or inactive wrap-up time aren't considered.​
+Active time shows how long an agent actively handles a chat across all session participants. Active time is calculated at each session participant level in a conversation. If a conversation has multiple session participants, each session participant has its own active time. The conversation handle time is the sum of all active time calculated across session participants of the chat conversation.
 
 ### DAX query and Dataverse reference
 
@@ -992,7 +992,6 @@ conversations_FactConversation])), 0, rate)
 |Filters  | - Filter the FactConversations table to include only rows where Ensure that msdyn_channelinstanceid is NULL.​ <br> - Exclude rows where msdyn_channel is'192350000’. <br> - Include msdyn_ocliveworkitem.statuscode set to 4​. <br> - Ensure that systemuser.msdyn_botapplicationid and msdyn_sessionparticipant.msdyn_joinedon isn't null​. <br> - IsAgentAcceptedSession is set as follows:​ If systemuser.msdyn_botapplicationid is empty or NULL and msdyn_sessionparticipant.msdyn_joinedon isn't empty, then IsAgentAcceptedSession is 1.​ Otherwise, it's 0.​ <br> -Transfer rate is defined by msdyn_ocliveworkitem.msdyn_transfercount > 0​.​|
 
 
-
 ## Transfer conversation count
 
 *Applies to Omnichannel historical dashboards.*
@@ -1016,186 +1015,5 @@ TransferedConversationCount = CALCULATE(COUNTROWS(FactConversation), FactConvers
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)|
 |Attributes  |- msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel​ <br> - msdyn_ocliveworkitem.msdyn_transfercount 
 |Filters  | - Filter the FactConversations table to include only rows where Ensure that msdyn_channelinstanceid is NULL.​  <br>- Exclude rows where msdyn_channel is'192350000’. <br> - Transfer count is defined by msdyn_ocliveworkitem.msdyn_transfercount > 0. ​|
-
-
-## Callback not offered​
-
-*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
-
-Conversation where a direct callback isn't offered to the customer because the overflow condition isn't met.
-
-### DAX query and Dataverse reference
-
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
-
-### [Historical analytics](#tab/historicalpage)
-
-**DAX query**
-
-```dax
-
-Callback not offered = [Incoming conversations_FactSession] - [Callback offered]
-
-```
-
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | - [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) <br> - [msdyn_ocliveworkitem](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem) |
-|Attributes |- [msdyn_ocliveworkitem.msdyn_isoutbound](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem#BKMK_msdyn_isoutbound) <br> - [msdyn_sessionextension.msdyn_overflowaction](/dynamics365/developer/reference/entities/msdyn_sessionextension#msdyn_overflowaction-choicesoptions) <br> - [msdyn_sessionextension.msdyn_overflowtriggertimestamp](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowTriggerTimestamp)|
-|Filters  | - msdyn_ocliveworkitem.msdyn_isoutbound = FALSE <br> - msdyn_sessionextension.msdyn_overflowaction is set to '419550001’ for DirectCallback <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null |
-
-### [Real-time analytics](#tab/realtimepage)
-
-**DAX query**
-
-```dax
-
-Callback not offered = [IncomingConversationsFSE] - [Callback offered]
-
-```
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | - [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) <br> - [msdyn_ocliveworkitem](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem) |
-|Attributes  |- [msdyn_ocliveworkitem.msdyn_isoutbound](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem#BKMK_msdyn_isoutbound) <br> - [msdyn_sessionextension.msdyn_overflowaction](/dynamics365/developer/reference/entities/msdyn_sessionextension#msdyn_overflowaction-choicesoptions) <br> - [msdyn_sessionextension.msdyn_overflowtriggertimestamp](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowTriggerTimestamp)|
-|Filters  | - msdyn_ocliveworkitem.msdyn_isoutbound = FALSE​ <br> - msdyn_sessionextension.msdyn_overflowaction = '419550001’ for DirectCallBack <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null|
-
----
-
-
-## Callback offered​
-
-*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
-
-Conversations where direct callback is offered.
-
-### DAX query and Dataverse reference
-
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
-
-### [Historical analytics](#tab/historicalpage)
-
-**DAX query**
-
-```dax
-Callback offered = CALCULATE(DISTINCTCOUNT(FactSession[ConversationId_FS]), NOT(ISBLANK(FactSession[CallbackOfferedDateTime])))
-
-```
-
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) |
-|Attributes | - [msdyn_sessionextension.msdyn_overflowaction](/dynamics365/developer/reference/entities/msdyn_sessionextension#msdyn_overflowaction-choicesoptions) <br> - [msdyn_sessionextension.msdyn_overflowtriggertimestamp](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowTriggerTimestamp)|
-|Filters  | - msdyn_sessionextension.msdyn_overflowaction is set to '419550001’ for DirectCallback​ <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null​|
-
-### [Real-time analytics](#tab/realtimepage)
-
-**DAX query**
-
-```dax
-
-Callback offered = CALCULATE(DISTINCTCOUNT([ConversationId]), NOT(ISBLANK(FactSessionExtension[CallbackOfferedTime]))
-
-```
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) |
-|Attributes  |  - [msdyn_sessionextension.msdyn_overflowaction](/dynamics365/developer/reference/entities/msdyn_sessionextension#msdyn_overflowaction-choicesoptions) <br> - [msdyn_sessionextension.msdyn_overflowtriggertimestamp](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowTriggerTimestamp)|
-|Filters  | - msdyn_sessionextension.msdyn_overflowaction is set to '419550001’ for DirectCallback​ <br> - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null​. |
-
----
-
-
-## Callback not opted in
-
-*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
-
-Conversation where direct callback is offered but the customer didn't accept or opt in.
-
-### DAX query and Dataverse reference
-
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
-
-### [Historical analytics](#tab/historicalpage)
-
-**DAX query**
-
-```dax
-
-Callback not opted in = [Callback Offered] - [Callback opted in]
-
-```
-
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension)|
-|Attributes |- [msdyn_sessionextension.msdyn_callbackacceptedtime](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_CallbackAcceptedTime) <br> - [msdyn_sessionextension.msdyn_overflowtriggertimestamp](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowTriggerTimestamp)|
-|Filters  | - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null​ <br> - msdyn_sessionextension.msdyn_callbackacceptedtime is null​. ​|
-
-### [Real-time analytics](#tab/realtimepage)
-
-**DAX query**
-
-```dax
-
-Callback not opted in = [Callback Offered] - [Callback opted in]
-
-```
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) |
-|Attributes  | - [msdyn_sessionextension.msdyn_callbackacceptedtime](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_CallbackAcceptedTime) <br> - [msdyn_sessionextension.msdyn_overflowtriggertimestamp](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowTriggerTimestamp)|
-|Filters  | - msdyn_sessionextension.msdyn_overflowtriggertimestamp is not null​ <br> - msdyn_sessionextension.msdyn_callbackacceptedtime is null​. ​|
-
----
-
-
-## Callback opted in
-
-*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
-
-Conversation where direct callback is offered and customer accepted or opted in.
-
-### DAX query and Dataverse reference
-
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
-
-### [Historical analytics](#tab/historicalpage)
-
-**DAX query**
-
-```dax
-
-Callback opted in = CALCULATE(DISTINCTCOUNT(FactSession[ConversationId_FS]), NOT(ISBLANK(FactSession[CallbackOptedInDateTime])))
-
-```
-
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) |
-|Attributes |[msdyn_sessionextension.msdyn_callbackacceptedtime](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_CallbackAcceptedTime)|
-|Filters  | msdyn_sessionextension.msdyn_callbackacceptedtime is not null|
-
-### [Real-time analytics](#tab/realtimepage)
-
-**DAX query**
-
-```dax
-
-Callback opted in = CALCULATE(DISTINCTCOUNT([ConversationId]), NOT(ISBLANK(FactSessionExtension[CallbackOptedInTime])))
-
-```
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) |
-|Attributes  | [msdyn_sessionextension.msdyn_callbackacceptedtime](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_CallbackAcceptedTime)|
-|Filters  |msdyn_sessionextension.msdyn_callbackacceptedtime is not null|
 
 ---

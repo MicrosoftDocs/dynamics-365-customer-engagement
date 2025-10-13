@@ -1,6 +1,6 @@
 ---
 title: Set up unified routing for records
-description: Use this article to understand how to set up unified routing for records in Customer Service.
+description: Use this article to understand how to set up unified routing for records in Dynamics 365 Customer Service.
 ms.date: 09/16/2025
 ms.topic: how-to
 author: neeranelli
@@ -10,13 +10,11 @@ ms.reviewer: nenellim
 
 # Set up unified routing for records
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 You can configure unified routing for records in the Copilot Service admin center app.
 
 > [!IMPORTANT]
-> - Provisioning unified routing might affect runtime operations on account of solution import that can affect SQL load.
-> - If you're upgrading your environment and Omnichannel for Customer Service is also installed, you might have existing workstreams for record routing. We recommend that you provision unified routing only after recreating those workstreams for record routing in your admin app.
+> - Enabling unified routing might affect runtime operations on account of solution import that can affect SQL load.
+> - If you're upgrading your environment and Dynamics 365 Contact Center is also installed, you might have existing workstreams for record routing. We recommend that you provision unified routing only after recreating those workstreams for record routing in your admin app.
 > - If you're an existing customer, we recommend that you configure and test unified routing in a test or development environment before configuring it in your production environment.
 > - If you're facing any technical or performance-related issues with multiple updates at a time using unified routing, we recommend that you contact Microsoft Support to troubleshoot the issues.
 

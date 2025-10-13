@@ -86,9 +86,9 @@
           href: create-rules-automatically-route-cases.md
       - name: Conversation diagnostics
         items:
-        - name: Configure conversation diagnostics (preview)
+        - name: Configure conversation diagnostics
           href: configure-conversation-diagnostics.md
-        - name: Understand conversation diagnostics (preview)
+        - name: Understand conversation diagnostics
           href: conversation-diagnostics-subscenarios.md
         - name: View diagnostics for unified routing
           href: unified-routing-diagnostics.md
@@ -506,6 +506,8 @@
           href: /dynamics365/contact-center/administer/set-up-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.ym
       - name: Case Management Agent
         items: 
+          - name: Configure global settings for Case Management Agent
+            href: case-management-global-settings.md        
           - name: Set up Case Management Agent to create and update cases 
             href: set-up-autonomous-case-agents.md
           - name: Set up Case Management Agent to resolve cases
@@ -760,6 +762,10 @@
         href: configure-post-conversation-survey.md
     - name: Analytics dashboards and insights
       items:
+      - name: Supervise AI agents (preview)
+        items:
+        - name: Configure agent feed
+          href: configure-agent-feed.md
       - name: Use and customize analytics and insights
         href: analytics_overview.md
       - name: Supported regions and languages for analytics and insights
@@ -796,14 +802,10 @@
           href: configure-volume-forecasting.md
         - name: Configure service representative forecasting for conversations
           href: configure-agent-forecasting-conversation.md
-      - name: Configure AI topic clustering for cases
-        href: configure-topics-clustering-cases-cs.md
       - name: Configure AI suggestions
         href: csw-enable-ai-suggested-cases-knowledge-articles.md
       - name: Configure AI suggestions for article keywords and descriptions
         href: configure-ai-suggested-article-keywords-description.md
-      - name: Configure AI topic clustering for conversation
-        href: ai-topic-clustering-conversations.md
       - name: Configure real-time customer sentiment
         href: enable-sentiment-analysis.md
       - name: Customize interactive dashboards based on Unified Interface

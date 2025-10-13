@@ -1,7 +1,7 @@
 ---
 title: Set up customer agreements in Dynamics 365 Field Service
 description: Learn how to set up customer agreements in Dynamics 365 Field Service.
-ms.date: 08/20/2024
+ms.date: 09/18/2025
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -15,7 +15,7 @@ To use agreements, perform the following steps:
 1. Create the **Agreement** where you define high-level details such as the customer, date range, and price list.
 1. To automatically generate work orders, create an **Agreement Booking Setup** (ABS) where you define how often work orders should be created (the *Booking Recurrence*) for the agreement, along with basic details of the eventual work orders like **Work Order Type**. Alternatively, if you would like to generate invoices for this agreement, create an **Agreement Invoice Setup** (AIS) where you define the *Invoice Recurrence* and other details for the invoices to be generated. You can also create an ABS and an AIS on the same agreement.
 1. On ABS, you can add **Agreement Incidents**, **Products**, **Services**, and **Service Tasks** to define the specific details of the work performed in each generated work order. On AIS, add **Invoice Products** to be included on each generated invoice.
-1. **Activate** the agreement and **Agreement Booking Dates** are created along with work orders as the dates approach. Based on your recurrence pattern on your ABS and how many months in advance you are set to generate Agreement Booking Dates (ABD), you can see some ABDs being generated. Initially, these ABDs have a status of Active. Similarly, based on your recurrence pattern on your AIS and how many months in advance you generate Agreement Invoice Dates (AID), you might see some AIDs being generated. Initially, these AIDs would have an Invoice Status of Scheduled. As their respective dates approach, and based on your settings, each ABD will generate a work order, and each AID an invoice.
+1. **Activate** the agreement and **Agreement Booking Dates** are created along with work orders as the dates approach. Based on your recurrence pattern on your ABS and how many months in advance you're set to generate Agreement Booking Dates (ABD), you can see some ABDs being generated. Initially, these ABDs have a status of Active. Similarly, based on your recurrence pattern on your AIS and how many months in advance you generate Agreement Invoice Dates (AID), you might see some AIDs being generated. Initially, these AIDs would have an Invoice Status of Scheduled. As their respective dates approach, and based on your settings, each ABD generates a work order, and each AID an invoice.
 
 This article covers two scenarios to show how agreements can generate work orders and invoices.
 
@@ -25,7 +25,7 @@ This article covers two scenarios to show how agreements can generate work order
 
 - [Agreement settings](configure-default-settings.md#agreement-settings) are configured. Consider specifying an agreement prefix and start number.
 
-- The designated owners of agreements, agreement booking setups, and agreement invoice setups have permission to: create invoices, invoice details, work orders, work order incidents, work order products, work order services, work order service tasks, resource requirements, and bookings.
+- Designated owners of agreements, agreement booking setups, and agreement invoice setups can create invoices, invoice details, work orders, work order incidents, work order products, work order services, work order service tasks, resource requirements, and bookings.
 
 > [!TIP]
 > Before you create an agreement, set up a system user or team owner for the agreements. Agreement processes run with the permissions of their owners. If the owner leaves the organization, agreement processes fail and the agreement breaks.
@@ -196,7 +196,7 @@ In this example, quarterly invoices are added to the existing agreement.
 1. Add the products you would like to bill the customer for regularly and select **Save**. The price of the invoice products is derived from the price list on the agreement.
 
    > [!NOTE]
-   > Invoice products can only be products where **Field Service Product Type** is set to **Inventory** or **Non-inventory**. Service type products cannot be added.
+   > Invoice products can only be products where **Field Service Product Type** is set to **Inventory** or **Non-inventory**. Service type products can't be added.
 
    :::image type="content" source="media/agreement-invoice-add-products.svg" alt-text="Screenshot of an agreement invoice setup on the invoice products tab.":::
 
@@ -221,7 +221,7 @@ To view the invoice dates, select **Related** > **Invoice Dates**. Initially, al
 You can't manually generate agreement invoices like you can with agreement work orders.
 
 > [!NOTE]
-> The invoices generate in advance depending on what you have set for the **Generate Agreement Invoices X Days in Advance** field in [**Field Service Settings** under the **Agreement** section](configure-default-settings.md#agreement-settings). The invoice due date is set based on your recurring invoice setup but it's created X days in advance. If **Generate Agreement Invoices X Days in Advance** has no value, the system will create the invoice on the invoice date set in the **Record Generation Timing** field of the agreement as well as in the Field Service settings.
+> Invoices generate in advance based on the value you set for the **Generate Agreement Invoices X Days in Advance** field in [**Field Service Settings** under the **Agreement** section](configure-default-settings.md#agreement-settings). The invoice due date is set based on your recurring invoice setup but the system creates it X days in advance. If **Generate Agreement Invoices X Days in Advance** has no value, the system creates the invoice on the invoice date set in the **Record Generation Timing** field of the agreement and in the Field Service settings.
 
 ## Import booking recurrences
 
