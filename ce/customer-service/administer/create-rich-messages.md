@@ -1,4 +1,4 @@
-<img width="275" height="412" alt="image" src="https://github.com/user-attachments/assets/8b52682b-67a9-4070-93ec-85d3e6560ab3" />---
+---
 title: Create rich messages
 description: Learn how to create, publish, and update rich messages in Omnichannel for Customer Service.
 ms.date: 10/13/2025
