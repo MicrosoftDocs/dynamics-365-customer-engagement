@@ -1,6 +1,6 @@
 ---
-title: "Overview of Universal Resource Scheduling in Dynamics 365"
-description: "Schedule any entity using Universal Resource Scheduling. Make sure you meet the prerequisites, then follow these steps for scheduling an entity."
+title: Overview of Universal Resource Scheduling in Dynamics 365
+description: Schedule any entity using Universal Resource Scheduling in Dynamics 365.
 ms.date: 07/25/2025
 ms.reviewer: v-wendysmith
 ms.subservice: common-scheduler
@@ -29,7 +29,7 @@ Universal Resource Scheduling is a Dynamics 365 solution that allows organizatio
 
 You can also enable scheduling for another entity, including custom entities. Once enabled, the system creates a resource requirement record related to the entity. This way, when you create a resource requirement, the system automatically checks which entity the resource requirement is for.
 
-Learn more: [Enable an entity for scheduling in Universal Resource Scheduling](schedule-new-entity.md).
+Learn more in [Enable an entity for scheduling in Universal Resource Scheduling](schedule-new-entity.md).
   
 ## Schedule something
 
@@ -51,8 +51,8 @@ A plugin checks the relationships and automatically sets the booking setup metad
   
 Or select **Book** on an entity record that has scheduling enabled, then use the schedule assistant to book the requirement.  
 
-## Next steps
+## Next step
 
-- [Configure the schedule board tab settings in Universal Resource Scheduling](schedule-board-tab-settings.md)
+[Configure the schedule board tab settings in Universal Resource Scheduling](schedule-board-tab-settings.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
