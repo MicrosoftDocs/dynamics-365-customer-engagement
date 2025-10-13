@@ -87,7 +87,7 @@ For example, if 800 out of 1,000 calls are answered within 10 seconds, your serv
 
 ### DAX query and Dataverse reference
 
-The following Data Analysis Expression (DAX) query and corresponding Dataverse entities are used in the Power BI semantic model. Learn more in [DAX queries](/dax/dax-queries). 
+[!INCLUDE[dax-queries-for-metrics](../../includes/dax-queries-for-metrics.md)] 
 
 ### [Historical analytics](#tab/historicalpage)
 
@@ -127,11 +127,11 @@ Service level (10 seconds) = ​DIVIDE (​SUMX (​FactConversation,​IF (​F
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Conversation in service level (10 seconds) refers to the customer interactions (usually calls or chats) that are answered ​within 10 seconds. Service levels are measured in intervals of 10, 20, 30, 40, 50, 60, 120 seconds.
+Conversations in service level (10 seconds) refers to the customer interactions (usually calls or chats) where the representative answered an incoming conversation ​within 10 seconds. Service levels are measured in intervals of 10, 20, 30, 40, 50, 60, 120 seconds. This metric represent the total count of such conversations.
 
 ### DAX query and Dataverse reference
 
-The following Data Analysis Expression (DAX) query and corresponding Dataverse entities are used in the Power BI semantic model. Learn more in [DAX queries](/dax/dax-queries). 
+[!INCLUDE[dax-queries-for-metrics](../../includes/dax-queries-for-metrics.md)] 
 
 ### [Historical analytics](#tab/historicalpage)
 
@@ -174,7 +174,7 @@ Conversations in service level (10 seconds) = ​SUMX (​FactConversation,​ I
 
 Total capacity units represent the workload capacity assigned to a representative. These units determine how many concurrent conversations or tasks a representative can handle.
 
-
+### DAX query
 
 ```dax
 
@@ -200,7 +200,7 @@ Total capacity units represent the workload capacity assigned to a representativ
 
 The total default maximum capacity units assigned to representatives based on their capacity profile.
 
-
+### DAX query
 
 ```dax
 
@@ -220,7 +220,7 @@ Total agent work item capacity =SUM( FactAgentCapacityProfile[AgentDefaultMaxPro
 
 Assigned capacity profile count is the number of representatives who have an assigned capacity profile and aren't currently in **Offline** status.
 
-
+### DAX query
 
 ```dax
 
@@ -240,7 +240,7 @@ Assigned capacity profile count = SUMX (FactAgentCapacityProfile,IF ( NOT RELATE
 
 Total work item capacity in use is the representative's capacity occupied by active work items, based on their profile settings.
 
-
+### DAX query
 
 ```dax
 
@@ -360,7 +360,7 @@ The total number of sessions accepted by a service representative out of all the
 
 ### DAX query and Dataverse reference
 
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+[!INCLUDE[dax-queries-for-metrics](../../includes/dax-queries-for-metrics.md)]
 
 ### [Historical analytics](#tab/historicalpage)
 
@@ -406,7 +406,7 @@ The total number of consult sessions requested.
 
 ### DAX query and Dataverse reference
 
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+[!INCLUDE[dax-queries-for-metrics](../../includes/dax-queries-for-metrics.md)]
 
 ### [Historical analytics](#tab/historicalpage)
 
@@ -450,7 +450,7 @@ The total number of consult sessions requested and accepted by a service represe
 
 ### DAX query and Dataverse reference
 
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+[!INCLUDE[dax-queries-for-metrics](../../includes/dax-queries-for-metrics.md)]
 
 ### [Historical analytics](#tab/historicalpage)
 
@@ -497,7 +497,7 @@ The total number of consult sessions requested but not accepted by a service rep
 
 ### DAX query and Dataverse reference
 
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+[!INCLUDE[dax-queries-for-metrics](../../includes/dax-queries-for-metrics.md)]
 
 ### [Historical analytics](#tab/historicalpage)
 
@@ -542,7 +542,7 @@ Session participant consult rejection count is the total number of rejected cons
 
 ### DAX query and Dataverse reference
 
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+[!INCLUDE[dax-queries-for-metrics](../../includes/dax-queries-for-metrics.md)]
 
 ### [Historical analytics](#tab/historicalpage)
 
@@ -588,7 +588,7 @@ The total number of consult sessions rejected by a service representative out of
 
 ### DAX query and Dataverse reference
 
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+[!INCLUDE[dax-queries-for-metrics](../../includes/dax-queries-for-metrics.md)]
 
 ### [Historical analytics](#tab/historicalpage)
 
@@ -638,7 +638,7 @@ The total number of consult sessions requested that timed out because the repres
 
 ### DAX query and Dataverse reference
 
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+[!INCLUDE[dax-queries-for-metrics](../../includes/dax-queries-for-metrics.md)]
 
 ### [Historical analytics](#tab/historicalpage)
 
@@ -685,7 +685,7 @@ The total number of requested consult sessions that timed out because the repres
 
 ### DAX query and Dataverse reference
 
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+[!INCLUDE[dax-queries-for-metrics](../../includes/dax-queries-for-metrics.md)]
 
 ### [Historical analytics](#tab/historicalpage)
 
@@ -731,7 +731,7 @@ The average time that service representatives spend helping other service repres
 
 ### DAX query and Dataverse reference
 
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+[!INCLUDE[dax-queries-for-metrics](../../includes/dax-queries-for-metrics.md)]
 
 ### [Historical analytics](#tab/historicalpage)
 
