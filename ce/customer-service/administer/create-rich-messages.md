@@ -16,22 +16,8 @@ Rich media messaging transforms traditional text-based communication into dynami
 
 These messages are designed to streamline conversations, reduce service representative handle time, and improve customer satisfaction by offering intuitive, guided interactions. For example, a customer might receive a carousel of product options, a form to submit feedback, or quick reply buttons to confirm an appointment— all within the messaging interface. 
 
-The following images are examples:
-
-Forms:
-
    > [!div class=mx-imgBorder]
-   > ![Rich message form](../media/rich-message-form.png "Example of a rich message form.")
-
-Cards and carousel:
-
-   > [!div class=mx-imgBorder]
-   > ![Rich messages cards and carousel](../media/rich-message-card-carousel.png "Example of rich message cards and carousel.")
-
-Suggested replies:
-
-   > [!div class=mx-imgBorder]
-   > ![Rich message suggested replies](../media/rich-message-suggested-replies.png "Example of rich message suggested replies.")
+   > ![Rich message elements](../media/rich-message-elements.png "Examples of rich message forms, cards/carousel, and suggested replies.")
 
 These messages are currently supported in several key channels, each with varying capabilities, as follows:
 
