@@ -1,5 +1,5 @@
 ---
-title: Personalize sound notifications in Omnichannel for Customer Service.
+title: Personalize sound notifications in Dynamics 365 Contact Center.
 description: Learn how representatives can personalize sound notification settings in their representative app.
 ms.date: 05/16/2025
 ms.topic: how-to

@@ -181,5 +181,4 @@ We'll iteratively add more data events for diagnostics. Follow the documentation
 ### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
-[System requirements for Omnichannel for Customer Service](../implement/system-requirements-omnichannel.md)  
 [Set up unified routing for records](set-up-record-routing.md)  

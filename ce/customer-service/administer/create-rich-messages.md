@@ -1,6 +1,6 @@
 ---
 title: Manage rich messages
-description: Learn how to create, publish, and update rich messages in Omnichannel for Customer Service.
+description: Learn how to create, publish, and update rich messages in Dynamics 365 Contact Center.
 ms.date: 05/20/2025
 ms.topic: how-to
 author: lalexms

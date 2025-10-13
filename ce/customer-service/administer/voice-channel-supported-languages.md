@@ -205,7 +205,7 @@ Use the information in the following table to find out more about language suppo
 | Bring your own bot (IVR) | [Language and voice support for the Speech service](/azure/cognitive-services/speech-service/language-support)|
 | AI suggestions | [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md#language-support-for-ai-suggestions)|
 | Sentiment Analysis | [Multilingual sentiment](enable-sentiment-analysis.md#multilingual-sentiment) |
-| Other Omnichannel for Customer Service features | [Language availability in Omnichannel for Customer Service](../implement/international-availability.md#language-availability)|
+| Other Dynamics 365 Contact Center features | [Language availability in Omnichannel for Customer Service](../implement/international-availability.md#language-availability)|
 
 ## Next steps
 

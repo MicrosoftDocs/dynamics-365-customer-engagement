@@ -13,7 +13,7 @@ ms.reviewer: laalexan
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 
-As an administrator, you can enable your supervisors to take specific actions on various conversations being handled by their customer service representatives (service representatives or representatives) in Omnichannel for Customer Service. You can grant your supervisors permissions to monitor, assign, transfer, and forcibly end conversations by enabling the respective permissions in the admin app.
+As an administrator, you can enable your supervisors to take specific actions on various conversations being handled by their customer service representatives (service representatives or representatives) in Dynamics 365 Contact Center. You can grant your supervisors permissions to monitor, assign, transfer, and forcibly end conversations by enabling the respective permissions in the admin app.
 
 ## Configure supervisor settings
 
