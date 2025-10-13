@@ -175,7 +175,7 @@ Conversations in service level (10 seconds) = ​SUMX (​FactConversation,​ I
 
 Total capacity units represent the workload capacity assigned to a representative. These units determine how many concurrent conversations or tasks a representative can handle.
 
-### DAX query
+### DAX query and Dataverse reference
 
 ```dax
 
@@ -201,7 +201,7 @@ Total capacity units represent the workload capacity assigned to a representativ
 
 The total default maximum capacity units assigned to representatives based on their capacity profile.
 
-### DAX query
+### DAX query and Dataverse reference
 
 ```dax
 
@@ -221,7 +221,7 @@ Total agent work item capacity =SUM( FactAgentCapacityProfile[AgentDefaultMaxPro
 
 Assigned capacity profile count is the number of representatives who have an assigned capacity profile and aren't currently in **Offline** status.
 
-### DAX query
+### DAX query and Dataverse reference
 
 ```dax
 
@@ -241,7 +241,7 @@ Assigned capacity profile count = SUMX (FactAgentCapacityProfile,IF ( NOT RELATE
 
 Total work item capacity in use is the representative's capacity occupied by active work items based on their profile settings.
 
-### DAX query
+### DAX query and Dataverse reference
 
 ```dax
 
@@ -266,7 +266,7 @@ Total work item capacity in use = SUM ( FactAgentCapacityProfile[OccupiedProfile
 
 Logged in service representatives is the number of representatives who are currently logged in and aren't in **Offline** status.
 
-**DAX query**
+### DAX query and Dataverse reference
 
 ```dax
 
@@ -287,7 +287,7 @@ Logged in agents = SUMX ( FactAgentCapacityUnit,IF ( NOT RELATED ( DimAgentPrese
 
 The total number of service representatives with capacity data configured for routing and workload management.
 
-**DAX query**
+### DAX query and Dataverse reference
 
 ```dax
 
@@ -307,7 +307,7 @@ Total agents = COUNTROWS(FactAgentCapacityUnit )
 
 Status duration shows how long representatives remain in a presence status, such as Available, Busy, or Away, during a selected time period. This duration is measured in minutes. For example, a representative in Busy status for 40 minutes shows a duration of 40.
 
-**DAX query**
+### DAX query and Dataverse reference
 
 ```dax
 
