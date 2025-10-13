@@ -34,7 +34,7 @@ The system calculates average first response time by dividing the total first re
 
 ### DAX query and Dataverse reference
 
-The following Data Analysis Expression (DAX) query and corresponding Dataverse entities are used in the Power BI semantic model. Learn more in [DAX queries](/dax/dax-queries).
+[!INCLUDE[dax-queries-for-metrics](../../includes/dax-queries-for-metrics.md)]
 
 ### [Historical analytics](#tab/historicalpage)
 
@@ -334,22 +334,23 @@ The related metrics aren't available by default. Select **Edit report** to find 
 
 - **Consult requests accepted**: The total number of consult sessions requested and accepted by a service representative.
 
-- **Consult requests not accepted**: The total number of consult sessions requested but not accepted by a service representative. This happens when representative does not join the consult.
+- **Consult requests not accepted**: The total number of consult sessions requested but not accepted by a service representative. This happens when the representative doesn't join the consult.
 
--  **Consult not acceptance rate**: The percentage of consult sessions that a service representative didn't accept, including timed-out and rejected requests out of all the consult sessions requested. This happens when representative does not join the conversation.
+-  **Consult not acceptance rate**: The percentage of consult sessions that a service representative didn't accept, including timed-out and rejected requests out of all the consult sessions requested. This happens when representative doesn't join the conversation.
 
-- **Consult requests rejected**: The total number of consult sessions requested but explicitly rejected by a service representative.
+- **Consult requests rejected**: The total number of consult sessions requested but rejected by a service representative.
 
-- **Consult rejection rate**: The percentage of consult sessions rejected by a service representative out of all requested sessions. This happens when representatives explicitly reject the consult.
+- **Consult rejection rate**: The percentage of consult sessions rejected by a service representative out of all the requested sessions. This happens when representatives reject the consult.
 
 - **Consults requested**: The total number of consult sessions requested.
-Consult requests timed out: The total number of consult sessions requested that timed out because the representative didn't respond.
 
-- **Consult timed out rate**: The percentage of consult sessions requested that timed out because the service representative dint respond out of all the consult sessions requested.
+- **Consult requests timed out**: The total number of consult sessions requested that timed out because the representative didn't respond.
 
-- **Consult time**: The time taken by service representatives to help other service representatives on consult requests. This metric can be viewed in minutes format. This metric is available only for the omnichannel real-time analytics dashboard.
+- **Consult timed out rate**: The percentage of consult sessions that timed out because the service representative didn’t respond.
 
-- **Consult sessions**: The total number of sessions with an ongoing consult. This metric is available only for the omnichannel historical analytics dashboard.
+- **Consult time**: The time taken by service representatives to help other service representatives on consult requests. This metric can be viewed in minutes format. This metric is available only for the Omnichannel real-time analytics dashboard.
+
+- **Consult sessions**: The total number of sessions with an ongoing consult. This metric is available only for the Omnichannel historical analytics dashboard.
 
 ## Consult acceptance rate
 
@@ -375,7 +376,7 @@ IF (​FactSessionParticipant[ModeId] = "192350003",​ 1,​ BLANK()​)​), B
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode|
-|Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode is 192350003 AND AgentJoinedDateTime is msdyn_sessionparticipant.msdyn_joinedon isn't blank. |
+|Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode is Consult and msdyn_sessionparticipant.msdyn_joinedon isn't blank. |
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -392,7 +393,7 @@ IF (​FactSessionParticipant[ModeId] = "192350003",​ 1,​ BLANK()​)​), B
 |---------|---------|
 |Dataverse entities | [systemuser](/dynamics365/developer/reference/entities/systemuser), [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)  |
 |Attributes |- msdyn_sessionparticipant.msdyn_mode​ <br> - msdyn_sessionparticipant.msdyn_joinedon​ <br> - systemuser.msdyn_botapplicationid  |
-|Filters  |- All conversations where FactSessionParticipant obtained from systemuser.msdyn_botapplicationid is null​ <br> - msdyn_sessionparticipant.msdyn_joinedon isn't blank​ <br> - msdyn_sessionparticipant.msdyn_mode is set to 192350003 ​|
+|Filters  |- All conversations where FactSessionParticipant obtained from systemuser.msdyn_botapplicationid is null​ <br> - msdyn_sessionparticipant.msdyn_joinedon isn't blank​ <br> - msdyn_sessionparticipant.msdyn_mode is set to Consult.​|
 
 ---
 
@@ -421,7 +422,7 @@ Consult requested = SUMX (​FactSessionParticipant,​ IF (FactSessionParticipa
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_mode
-|Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode is set to 192350003 |
+|Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode is set to Consult. |
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -437,7 +438,7 @@ Consult requested = SUMX (​FactSessionParticipant,​ IF (FactSessionParticipa
 |---------|---------|
 |Dataverse entities | [systemuser](/dynamics365/developer/reference/entities/systemuser), [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)  |
 |Attributes |- msdyn_sessionparticipant.msdyn_mode​ <br> - systemuser.msdyn_botapplicationid   |
-|Filters  |- All conversations where FactSessionParticipant obtained from systemuser.msdyn_botapplicationid is null​ <br> - msdyn_sessionparticipant.msdyn_mode is set to 192350003 ​​|
+|Filters  |- All conversations where FactSessionParticipant obtained from systemuser.msdyn_botapplicationid is null​ <br> - msdyn_sessionparticipant.msdyn_mode is set to Consult. ​​|
 
 ---
 
@@ -467,7 +468,7 @@ BLANK() && FactSessionParticipant[ModeId] =
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_joinedon​ <br> - msdyn_sessionparticipant_msdyn_mode
-|Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode is 192350003 AND AgentJoinedDateTime is  msdyn_sessionparticipant.msdyn_joinedon not equal to blank |
+|Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode is Consult and msdyn_sessionparticipant.msdyn_joinedon isn't blank. |
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -484,7 +485,7 @@ FactSessionParticipant[ModeId] = 192350003,1, 0 ) )
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser)  |
 |Attributes |- msdyn_sessionparticipant.msdyn_joinedon​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid |
-|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_joined isn't null or blank and​ msdyn_sessionparticipant.msdyn_mode is 192350003​ <br> - systemuser.msdyn_botapplicationid isn't null​ ​​|
+|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_joined isn't null or blank and​ msdyn_sessionparticipant.msdyn_mode is Consult.​ <br> - systemuser.msdyn_botapplicationid isn't null.​ ​​|
 
 ---
 
@@ -513,7 +514,7 @@ BLANK() && FactSessionParticipant[ModeId] = "192350003",1, 0 ) )
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_joinedon​ <br> - msdyn_sessionparticipant_msdyn_mode
-|Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode is 192350003 AND AgentJoinedDateTime is msdyn_sessionparticipant.msdyn_joinedon equal to blank.  |
+|Filters  |-  All conversations where msdyn_sessionparticipant.msdyn_mode is Consult and msdyn_sessionparticipant.msdyn_joinedon is equal to blank.  |
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -529,7 +530,7 @@ FactSessionParticipant[ModeId] = 192350003,​ 1, 0 ))
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
 |Attributes |- msdyn_sessionparticipant.msdyn_joinedon​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
-|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_joinedon is null or blank and​ msdyn_sessionparticipant.msdyn_mode is 192350003​. <br> - systemuser.msdyn_botapplicationid isn't null​. ​​|
+|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_joinedon is null or blank and​ msdyn_sessionparticipant.msdyn_mode is Consult​. <br> - systemuser.msdyn_botapplicationid isn't null​. ​​|
 
 ---
 
@@ -537,7 +538,7 @@ FactSessionParticipant[ModeId] = 192350003,​ 1, 0 ))
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-(Need info)
+Session participant consult rejection count is the total number of rejected consult sessions where the agent rejected the consult.
 
 ### DAX query and Dataverse reference
 
@@ -558,7 +559,7 @@ Consult requests rejected = SUMX (​FactSessionParticipant,​ IF (FactSessionP
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode
-|Filters  |-  All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is "AgentReject" AND​ msdyn_sessionparticipant.msdyn_mode is 192350003 |
+|Filters  |-  All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is AgentReject and​ msdyn_sessionparticipant.msdyn_mode is Consult. |
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -575,7 +576,7 @@ Consult requests rejected = SUMX (​FactSessionParticipant,​ IF (FactSessionP
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
-|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is "AgentReject” and​ msdyn_sessionparticipant.msdyn_mode is 192350003​ <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid isn't null​. ​​|
+|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is AgentReject and​ msdyn_sessionparticipant.msdyn_mode is Consult.​ <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid isn't null​. ​​|
 
 ---
 
@@ -605,7 +606,7 @@ Consult rejection rate = DIVIDE(SUMX (​FactSessionParticipant,​ IF (FactSess
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode
-|Filters  |-  All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is "AgentReject" and​ msdyn_sessionparticipant.msdyn_mode is 192350003 |
+|Filters  |-  All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is AgentReject and​ msdyn_sessionparticipant.msdyn_mode is Consult. |
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -624,7 +625,7 @@ Consult rejection rate = DIVIDE(SUMX (​FactSessionParticipant,​ IF (FactSess
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
 |Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is "AgentReject, 
-msdyn_sessionparticipant.msdyn_mode is 192350003​.  <br> - systemuser.msdyn_botapplicationid isn't null.​ ​​|
+msdyn_sessionparticipant.msdyn_mode is Consult​.  <br> - systemuser.msdyn_botapplicationid isn't null.​ ​​|
 
 ---
 
@@ -654,7 +655,7 @@ Consult requests timed out = SUMX(​FactSessionParticipant,​ IF (FactSessionP
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode
-|Filters  |-  All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is "AgentTimeout" and​ msdyn_sessionparticipant.msdyn_mode is 192350003|
+|Filters  |-  All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is AgentTimeout and​ msdyn_sessionparticipant.msdyn_mode is Consult.|
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -671,7 +672,7 @@ Consult requests timed out = SUMX(​FactSessionParticipant,​ IF (FactSessionP
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
-|Filters  |- All Conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentTimeout" <br> - msdyn_sessionparticipant.msdyn_mode is 192350003​ <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid isn't null​. ​​|
+|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is AgentTimeout. <br> - msdyn_sessionparticipant.msdyn_mode is Consult.​ <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid isn't null​. ​​|
 
 ---
 
@@ -701,7 +702,7 @@ FactSessionParticipant[ModeId] = "192350003",​ 1, 0​)​),SUMX (​FactSessi
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode
-|Filters  |-  All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is "AgentTimeout" and​ msdyn_sessionparticipant.msdyn_mode is 192350003|
+|Filters  |-  All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is AgentTimeout and​ msdyn_sessionparticipant.msdyn_mode is Consult.|
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -718,16 +719,15 @@ FactSessionParticipant[ModeId] = "192350003",​ 1, 0​)​),SUMX (​FactSessi
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser)  |
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
-|Filters  |- All Conversations where ​msdyn_sessionparticipant.msdyn_leftonreason = "AgentTimeout" <br> - msdyn_sessionparticipant.msdyn_mode = 192350003​ <br> - systemuser.msdyn_botapplicationid isn't null​. ​​|
+|Filters  |- All Conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is AgentTimeout. <br> - msdyn_sessionparticipant.msdyn_mode is Consult.​ <br> - systemuser.msdyn_botapplicationid isn't null​. ​​|
 
 ---
 
 
 ## Average consult time (min)​
 
-*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+The average time that service representatives spend helping other service representatives on consult requests. It's calculated by dividing the total time spent by service representatives on these requests by the total number of consult requests accepted. You can display the average consult time in minutes.
 
-(Need info)
 
 ### DAX query and Dataverse reference
 
@@ -747,7 +747,7 @@ Avg. consult time (min) = ​CALCULATE (​DIVIDE (​IF (​SUM (FactSessionPar
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant)|
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode
-|Filters  |-  All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is "AgentTimeout" and​ msdyn_sessionparticipant.msdyn_mode is 192350003|
+|Filters  |-  All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is AgentTimeout and​ msdyn_sessionparticipant.msdyn_mode is Consult.|
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -764,7 +764,7 @@ AVERAGEX(FactSessionParticipant, IF(FactSessionParticipant[AgentJoinedOn] <> BLA
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
-|Filters  |- All Conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is "AgentTimeout" <br> - msdyn_sessionparticipant.msdyn_mode is 192350003​ <br> - systemuser.msdyn_botapplicationid isn't null​. ​​|
+|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is AgentTimeout. <br> - msdyn_sessionparticipant.msdyn_mode is Consult.​ <br> - systemuser.msdyn_botapplicationid isn't null​. ​​|
 
 ---
 
