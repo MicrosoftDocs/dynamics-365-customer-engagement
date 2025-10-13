@@ -35,12 +35,12 @@ Optionally, they can also use the following keyboard shortcuts:
 
 ## View and send rich messages
 
-When you find the rich message you want to send, you can select it to open it in the **Rich Message Preview** application pane.
+When you find the rich message you want to send, you can select it to open it in the **Rich rich media message** application pane.
 
    > [!div class=mx-imgBorder]
    > ![Preview rich message.](../media/preview-rich-message.png "Preview rich message")   
 
-Within the preview tab, you can see the contents of the rich message that you selected. When you’re ready to send the rich message, select **Send Message**.
+Within the preview tab, you can see the contents of the rich message that you selected. When you’re ready to send the rich message, select **Send to customer**.
 
 If your administrator enabled the customer service representative (service representative or representative) configuration, you can customize some types of rich messages before you send them. These customizations are single-use and aren’t saved for the next time you send the same rich message. 
 
