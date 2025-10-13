@@ -38,7 +38,7 @@ Optionally, they can also use the following keyboard shortcuts:
 When you find the rich message you want to send, you can select it to open it in the **Rich Message Preview** application pane.
 
    > [!div class=mx-imgBorder]
-   > ![Select rich messages.](../media/preview-rich-messages.png "Select rich messages")   
+   > ![Preview rich message.](../media/preview-rich-message.png "Preview rich message")   
 
 Within the preview tab, you can see the contents of the rich message that you selected. When you’re ready to send the rich message, select **Send Message**.
 
