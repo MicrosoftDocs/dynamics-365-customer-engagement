@@ -10,25 +10,24 @@ ms.reviewer: mgandham
 
 # Retrieve and format rich messages
 
-[!INCLUDE[pva-rebrand](../../../../includes/cc-pva-rebrand.md)]
-
 The Copilot Studio and Dynamics 365 for Customer Service platforms differ slightly in how they support rich media messages based on channel and rich media message type. This article describes how you can support rich media messages in Copilot Studio.
 
 ## Retrieve agent JSON for Apple Messages for Business
 
-1. In the site map of Copilot Service admin center, select **Productivity** in **Agent experience**.
+1. In the site map of Copilot Service admin center, select **Productivity** in **Support experience**.
 1. On the **Productivity** page, select **Manage** for **Rich messages**.
 1. From the list of all available list messages, select a rich message that you'd like to send to the conversation.
 1. For Apple Messages for Business rich messages, use the **Microsoft.Omnichannel.sendMessageToConversation** API to send JSON files.
  
 ## Retrieve agent JSON for Live Chat forms, Live Chat custom JSON, and WhatsApp suggested replies
 
-1. In the site map of Copilot Service admin center, select **Productivity** in **Agent experience**.
+1. In the site map of Copilot Service admin center, select **Productivity** in **Support experience**.
 1. On the **Productivity** page, select **Manage** for **Rich messages**.
-1. Find the rich media message you want an agent to send, and if it has JSON available, it appears under the **Copilot Studio Bot JSON** column. Select **View JSON**, and the specific channel type to copy the JSON.
+1. Find the rich media message you want an agent to send, and if it has JSON available, it appears under the **JSON for Copilot Studio** column. Select **View JSON** and the specific channel type to copy the JSON.
 
-  IMAGE COMING SOON
-
+   > [!div class=mx-imgBorder]
+   > ![Rich message JSON](../media/json-rich-messages.png "View JSON and specific channel type.")
+   
 1. For Live Chat and WhatsApp rich media templates, you can paste the JSON directly into an adaptive card node in Copilot Studio.
    
 ## JSON samples for rich messages for Apple Messages for Business
