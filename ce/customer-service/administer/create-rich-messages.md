@@ -26,7 +26,7 @@ Forms:
 Cards and carousel:
 
    > [!div class=mx-imgBorder]
-   > ![Rich messages cards and carousel](../media/rich-message-cards-carousel.png "Example of rich message cards and carousel.")
+   > ![Rich messages cards and carousel](../media/rich-message-card-carousel.png "Example of rich message cards and carousel.")
 
 Suggested replies:
 
