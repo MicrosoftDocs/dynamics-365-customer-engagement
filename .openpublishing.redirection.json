@@ -35780,7 +35780,10 @@
     {"source_path": "ce/customer-service/implement/system-requirements-omnichannel.md",
       "redirect_url": "/dynamics365/contact-center/implement/system-requirements-contact-center",
       "redirect_document_id": false
-    }
-    
+    },
+    {"source_path": "ce/customer-service/use/case-topics-dashboard-cs.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/use/case-topics-dashboard-cs",
+      "redirect_document_id": false
+    }    
   ]
 }
