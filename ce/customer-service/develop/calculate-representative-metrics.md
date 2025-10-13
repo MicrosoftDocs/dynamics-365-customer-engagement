@@ -68,8 +68,9 @@ Avg. first response time (sec) = AVERAGE(FactConversation[ReponseTimeInSecondsAd
 
 ---
 
+### Related metrics
 
-## Average service representative response time
+- **Average service representative response time**
 
 Service representative response time is the average time that customers who send a message wait to get a response from a service representative. It's calculated by dividing total response time by the number of message exchanges in engaged conversations and is adjusted based on operating hours. Longer response times mean customers wait longer between messages, negatively impacting their experience.
 
@@ -103,7 +104,7 @@ Service level (10 seconds) = ​DIVIDE(​[Conversations in service level (10 se
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), [msdyn_ocsession](/dynamics365/developer/reference/entities/msdyn_ocsession) |
 |Attributes | - msdyn_ocliveworkitem.msdyn_isoutbound​ <br> - msdyn_ocsession.msdyn_agentacceptedon |
-|Filters  | - msdyn_ocsession.msdyn_agentacceptedon is set to 1​ <br> - msdyn_ocliveworkitem.msdyn_isoutbound isn't set to 1​. |
+|Filters  | - msdyn_ocsession.msdyn_agentacceptedon is set to 1.​ <br> - msdyn_ocliveworkitem.msdyn_isoutbound isn't set to 1​. |
 
 ### [Real-time analytics](#tab/realtimepage)
 
@@ -119,7 +120,7 @@ Service level (10 seconds) = ​DIVIDE (​SUMX (​FactConversation,​IF (​F
 |---------|---------|
 |Dataverse entities |  [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), [msdyn_ocsession](/dynamics365/developer/reference/entities/msdyn_ocsession) |
 |Attributes  |- msdyn_ocliveworkitem.msdyn_isoutbound​ <br> - msdyn_ocsession.msdyn_agentacceptedon   |
-|Filters  | - msdyn_ocsession.msdyn_agentacceptedon is set to 1 ​<br> - msdyn_ocliveworkitem.msdyn_isoutbound isn't set to 1 for Incoming conversation​. |
+|Filters  | - msdyn_ocsession.msdyn_agentacceptedon is set to 1. ​<br> - msdyn_ocliveworkitem.msdyn_isoutbound isn't set to 1 for Incoming conversation​. |
 
 ---
 
@@ -127,7 +128,7 @@ Service level (10 seconds) = ​DIVIDE (​SUMX (​FactConversation,​IF (​F
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Conversations in service level (10 seconds) refers to the customer interactions (usually calls or chats) where the representative answered an incoming conversation ​within 10 seconds. Service levels are measured in intervals of 10, 20, 30, 40, 50, 60, 120 seconds. This metric represent the total count of such conversations.
+Conversations in service level (10 seconds) refers to the customer interactions (usually calls or chats) where the representative answered an incoming conversation ​within 10 seconds. Service levels are measured in intervals of 10, 20, 30, 40, 50, 60, 120 seconds. This metric represents the total count of such conversations.
 
 ### DAX query and Dataverse reference
 
@@ -164,7 +165,7 @@ Conversations in service level (10 seconds) = ​SUMX (​FactConversation,​ I
 |---------|---------|
 |Dataverse entities | - [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem) <br> - [msdyn_ocsession](/dynamics365/developer/reference/entities/msdyn_ocsession)  |
 |Attributes  | - msdyn_ocliveworkitem.msdyn_isoutbound​ <br> - msdyn_ocsession.msdyn_agentacceptedon ​<br> - msdyn_conversationfirstwaittimeinseconds   |
-|Filters  | - msdyn_ocsession.msdyn_agentacceptedon is set to 1​. <br> - msdyn_ocliveworkitem.msdyn_isoutbound isn't set to 1 for incoming conversations​ <br> - msdyn_conversationfirstwaittimeinseconds is set to less than or equal to 10 or 20 or 30 or 40 or 50 or 60 or 120. ​|
+|Filters  | - msdyn_ocsession.msdyn_agentacceptedon is set to 1​. <br> - msdyn_ocliveworkitem.msdyn_isoutbound isn't set to 1 for incoming conversations.​ <br> - msdyn_conversationfirstwaittimeinseconds is set to less than or equal to 10 or 20 or 30 or 40 or 50 or 60 or 120. ​|
 
 ---
 
@@ -186,7 +187,7 @@ Total capacity units represent the workload capacity assigned to a representativ
 |---------|---------|
 |Dataverse entities | - FactAgentCapacityUnit - [msdyn_agentstatus](/dynamics365/developer/reference/entities/msdyn_agentstatus) with [systemuser](/dynamics365/developer/reference/entities/systemuser)|
 |Attributes  | - [systemuser.msdyn_capacity](/dynamics365/developer/reference/entities/systemuser) |
-|Filters  | -  systemuser.msdyn_botapplicationid IS NULL to exclude AI agents. ​|
+|Filters  | -  systemuser.msdyn_botapplicationid is NULL to exclude AI agents. ​|
 
 
 ### Related metrics
@@ -210,7 +211,7 @@ Total agent work item capacity =SUM( FactAgentCapacityProfile[AgentDefaultMaxPro
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | - FactAgentCapacityProfile-[msdyn_agentcapacityprofileunit](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit) along with <br> - [msdyn_capacityprofile](/dynamics365/developer/reference/entities/msdyn_capacityprofile)|
+|Dataverse entities | - FactAgentCapacityProfile-[msdyn_agentcapacityprofileunit](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit) along with - [msdyn_capacityprofile](/dynamics365/developer/reference/entities/msdyn_capacityprofile)|
 |Attributes  | - msdyn_agentcapacityprofileunit.msdyn_defaultmaxunits |
 |Filters  | None ​|
 
@@ -232,13 +233,13 @@ Assigned capacity profile count = SUMX (FactAgentCapacityProfile,IF ( NOT RELATE
 |---------|---------|
 |Dataverse entities |- DimAgentPresence - [msdyn_presence](/dynamics365/developer/reference/entities/msdyn_presence); FactAgentCapacityProfile -[msdyn_agentcapacityprofileunit](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit)|
 |Attributes  | - [msdyn_presence.msdyn_basepresencestatus](/dynamics365/developer/reference/entities/msdyn_presence#msdyn_basepresencestatus-choicesoptions) |
-|Filters  | - msdyn_presence.msdyn_basepresencestatus isn't set to 192360004 (Status isn't set to Offline) ​|
+|Filters  | - msdyn_presence.msdyn_basepresencestatus isn't set to 192360004 (Status isn't set to Offline). ​|
 
 ## Total work item capacity in use
 
 *Applies to Omnichannel real-time dashboards.*
 
-Total work item capacity in use is the representative's capacity occupied by active work items, based on their profile settings.
+Total work item capacity in use is the representative's capacity occupied by active work items based on their profile settings.
 
 ### DAX query
 
@@ -250,7 +251,7 @@ Total work item capacity in use = SUM ( FactAgentCapacityProfile[OccupiedProfile
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities |- [msdyn_agentcapacityprofileunit](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit)for representative-specific capacity data along with [msdyn_capacityprofile](/dynamics365/developer/reference/entities/msdyn_capacityprofile) for default capacity values and blocking rules|
+|Dataverse entities |- [msdyn_agentcapacityprofileunit](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit) for representative-specific capacity data along with [msdyn_capacityprofile](/dynamics365/developer/reference/entities/msdyn_capacityprofile) for default capacity values and blocking rules|
 |Attributes  | - OccupiedProfileUnits : Difference between [msdyn_capacityprofile.msdyn_defaultmaxunits](/dynamics365/developer/reference/entities/msdyn_capacityprofile) and [msdyn_agentcapacityprofileunit.msdyn_availablecapacityprofileunits](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit?branch=ss-449106-csr#BKMK_msdyn_availablecapacityprofileunits) <br> - msdyn_capacityprofile <br> - msdyn_agentcapacityprofileunit|
 
 
@@ -263,7 +264,7 @@ Total work item capacity in use = SUM ( FactAgentCapacityProfile[OccupiedProfile
 
 *Applies to Omnichannel real-time dashboards.*
 
-Logged in service representatives is the number of representatives who are currently logged in and aren't in Offline status.
+Logged in service representatives is the number of representatives who are currently logged in and aren't in **Offline** status.
 
 **DAX query**
 
@@ -317,7 +318,7 @@ Status duration (mins) = CALCULATE (SUM ( FactAgentStatusHistory[DuringInSeconds
 |Element|Value  |
 |---------|---------|
 |Dataverse entities | - [msdyn_agentstatushistory](/dynamics365/developer/reference/entities/msdyn_agentstatushistory) along with [msdyn_presence](/dynamics365/developer/reference/entities/msdyn_presence)|
-|Attributes  | - Calculates the difference between the [msdyn_agentstatushistory.msdyn_starttime](/dynamics365/developer/reference/entities/msdyn_agentstatushistory#BKMK_msdyn_starttime) and [msdyn_agentstatushistory.msdyn_endtime](/dynamics365/developer/reference/entities/msdyn_agentstatushistory#BKMK_msdyn_endtime). The real-time dashboard shows the current UTC time while a service representative is in their current status. The end time appears only after the status changes.|
+|Attributes  | - Calculates the difference between the [msdyn_agentstatushistory.msdyn_starttime](/dynamics365/developer/reference/entities/msdyn_agentstatushistory#BKMK_msdyn_starttime) and [msdyn_agentstatushistory.msdyn_endtime](/dynamics365/developer/reference/entities/msdyn_agentstatushistory#BKMK_msdyn_endtime). The real-time dashboard shows the current UTC time when a service representative is in their current status. The end time appears only after the status changes.|
 |Filters  | - msdyn_agentstatushistory.createdon >= DATEADD(MI, -120, GETUTCDATE()). Only include records where the representative status was created within the last 120 minutes (2 hours).​|
 
 ## Consult
