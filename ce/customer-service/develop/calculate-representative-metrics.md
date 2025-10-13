@@ -1,5 +1,5 @@
 ---
-title: Calculate customer service representatives metrics
+title: Calculate customer service representative metrics
 description: Learn how to calculate key metrics for customer service representatives in Dynamics 365. Track performance, optimize operations, and improve customer satisfaction with detailed analytics.
 author: Soumyasd27
 ms.author: sdas
@@ -15,7 +15,7 @@ ms.custom:
   - ai-gen-title
 ---
 
-# Calculate customer service representatives metrics
+# Calculate customer service representative metrics
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
