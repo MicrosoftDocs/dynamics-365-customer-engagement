@@ -1,4 +1,4 @@
----
+<img width="275" height="412" alt="image" src="https://github.com/user-attachments/assets/8b52682b-67a9-4070-93ec-85d3e6560ab3" />---
 title: Create rich messages
 description: Learn how to create, publish, and update rich messages in Omnichannel for Customer Service.
 ms.date: 10/13/2025
@@ -16,9 +16,22 @@ Rich media messaging transforms traditional text-based communication into dynami
 
 These messages are designed to streamline conversations, reduce service representative handle time, and improve customer satisfaction by offering intuitive, guided interactions. For example, a customer might receive a carousel of product options, a form to submit feedback, or quick reply buttons to confirm an appointment— all within the messaging interface. 
 
-The following are some examples:
+The following images are examples:
 
-IMAGES COMING SOON
+Forms:
+
+   > [!div class=mx-imgBorder]
+   > ![Rich message form](../media/rich-message-form.png "Example of a rich message form.")
+
+Cards and carousel:
+
+   > [!div class=mx-imgBorder]
+   > ![Rich messages cards and carousel](../media/rich-message-cards-carousel.png "Example of rich message cards and carousel.")
+
+Suggested replies:
+
+   > [!div class=mx-imgBorder]
+   > ![Rich message suggested replies](../media/rich-message-suggested-replies.png "Example of rich message suggested replies.")
 
 These messages are currently supported in several key channels, each with varying capabilities, as follows:
 
@@ -31,7 +44,7 @@ These messages are currently supported in several key channels, each with varyin
 **WhatsApp (preview)**:
 - Suggested replies
 
-Apple Messages for Business (preview):
+**Apple Messages for Business**:
 - Apple Pay
 - Authentication
 - Custom JSON
@@ -72,23 +85,26 @@ Apple Messages for Business (preview):
       - Video rich link
       - Website rich link
 
+   > [!div class=mx-imgBorder]
+   > ![Create new rich message](../media/create-new-rich-message.png "Create a new rich message.")
+
 4. Select **Create**.
 5. Begin building your rich message within the rich message designer. Select **Save** at the top of the designer anytime to save your work. For more information about building each message type, select the type to learn more.
-    - Apple Messages for Business rich messages:
-       - Apple Pay
-       - Authentication
-       - Custom JSON
-       - List Picker
-       - Forms
-       - Suggested reply
-       - Time picker
-       - Video rich link
-       - Website rich link
+    - Apple Messages for Business:
+       - [Apple Pay](#apple-pay)
+       - [Authentication](#authentication)
+       - [Custom JSON](#apple-custom-json)
+       - [List Picker](#list-picker)
+       - [Forms](#forms)
+       - [Suggested reply](#suggested-reply)
+       - [Time picker](#time-picker)
+       - [Video rich link](#video-rich-link)
+       - [Website rich link](#website-rich-link)
     - Other channels
-       - Suggested replies
-       - Forms
-       - Cards and carousels
-       - Custom JSON
+       - [Suggested replies](#suggested-replies)
+       - [Forms](#live-chat-forms)
+       - [Cards/Carousels](#live-chat-cards-and-carousels)
+       - [Custom JSON](#custom-json)
 
 ## Publish rich messages
 For representatives to send a rich message in conversations, the message must first be published.
@@ -122,7 +138,8 @@ To associate rich messages with a workstream, complete the following steps:
 
 ## Configure specific rich media message types for Live Chat and WhatsApp
 
-### Suggested replies (Live Chat, WhatsApp)
+### Suggested replies 
+(Applies to: Live Chat and WhatsApp)
 - **Title**: This is an introductory message appears before the reply button. For Live Chat, the limis is 2,000 characters. For WhatsApp, the limit is 1,204 characters. If a suggested replies template is configured to support both channels and the limit for WhatsApp is exceeded, the admin has the option to specify an alternative title for WhatsApp.
 - **Add reply buttons**
    - For Live Chat:
@@ -157,8 +174,9 @@ You can use a rich media format to present a scrollable list of options, each co
     - Description: Explains the purpose of the form to the customer. The character limit is 1,024 characters.
     - Image URL (optional)
     - Start button text: Text that appears on the start button for the form.
-
-	IMAGE COMING SOON
+      
+    > [!div class=mx-imgBorder]
+    > ![Live chat form details](../media/live-chat-form-details.png "Specify the live chat form details.")
 
 2. Add questions: You can add up to 10 questions of any type.
    	- Question: Specify the question text. The character limit is 300 characters.
@@ -170,10 +188,10 @@ You can use a rich media format to present a scrollable list of options, each co
    	      - Maximum length: Defines the character limit for a customer's response. The maximum allowed value is 80 characters.
    	   - Multiline input: Use this question type for longer form responses
    	     - Placeholder text (optional): The default text that appears inside the input field before the user enters a response.
-   	     - Maximum length: Defines the character limit for a customer's reponse. The maximum allowed value is 300 characters.
+   	     - Maximum length: Defines the character limit for a customer's response. The maximum allowed value is 300 characters.
    	    - Single-select: Presents a list of predefined options from which a customer can select one only.
    	      - Option title: The label that appears for each option in the dropdown menu.
-   	      - Option value: ??
+   	      - Option value: While option title is what the customer views, the system references each option with a value. When a customer selects an option, the customer service representative sees the option value of the option the customer selected only.
    	    - Multi-select: Presents a list of predetermined options from which the customer can select multiple options.
    	      - Option title: The label that appears for each option in the dropdown menu. The maximum allowed value is 30 characters.
    	      - Option value: While option title is what the customer views, the system references each option with a value. When a customer selects an option, the customer service representative sees the option value of the option the customer selected only.
@@ -198,7 +216,7 @@ EXISTING
 
 This section contains details for configuring rich message media type for Apple Messages for Business.
 
-**Apple Pay** 
+### Apple Pay
 
 ##### Properties
 
@@ -367,9 +385,9 @@ Type: ```string``` - Required: Yes - Allowed values: - "final" - "pending"
 | Supported networks | The list of supported networks is limited to:<br><br> - American Express <br> - Discover <br> - Mastercard <br> - Visa |
 
 
-#### Authentication
+### Authentication
 
-##### Properties
+#### Properties
 
 **receivedmessage**
 
@@ -401,7 +419,7 @@ Type: ```string``` - Required: Yes
 |Representative | Authentication request-type rich messages don't currently support representative configuration.|
 
 
-#### Custom JSON
+### Apple Custom JSON
 
 ##### Properties
 
@@ -427,7 +445,7 @@ Type: ```string``` - Required: Yes
 ```
 
 
-## Forms
+### Forms
 
 Survey-level properties
 
@@ -451,7 +469,7 @@ Survey-level properties
 
 1. New forms are available for representatives to use once they are published. To publish a new form, select **Publish** at the top of the page. To confirm that the form is published, confirm that its status displays as **Active**.
 
-### Single input question
+#### Single input question
 
 Single input questions are a short-answer free response style question. This question type is good for collecting information like name, contact information, and numbers. These questions are limited to a maximum of 30 characters. For longer responses, see the multiline input question type.
 
@@ -478,7 +496,7 @@ Single input questions are a short-answer free response style question. This que
 
 1. The **Regular expression** is a Regex expression used to validate the customer response. The regex is used to validate customer responses on their device to ensure they are providing correctly formatted information. For example, regex can be used when asking for an email address. 
 
-### Multiline input question
+#### Multiline input question
 
 Multiline input questions are a long-answer, free-response style question. This question type is good for collecting customer feedback, explanations, and responses that need line breaks. These questions are limited to a maximum of 300 characters. For shorter responses that support different iOS keyboards see the single input question type.
 
@@ -491,7 +509,7 @@ Multiline input questions are a long-answer, free-response style question. This 
 1. A single input may have a **Maximum length** between 1 and 300 characters. By default, the maximum length is 300. 
 
 
-### Single-select question
+#### Single-select question
 
 Single-select questions can be used to quickly select a single option from a set of two or more choices. Each choice can support an image. This question type is good for choosing between products and choices, simple triage questions, and any single-select question with a limited number of choices. For multi-select questions that support images, see the multi-select question type, or for single selection questions with ten or more choices, see the dropdown picker question type.
 
@@ -518,7 +536,7 @@ Single-select questions can be used to quickly select a single option from a set
  
 1. To add more choices, select the + icon within the properties panel or builder. You can rearrange the choices by dragging them up or down while selecting the handle button to the left of each choice. You can remove a choice by selecting the delete button. To remove all choices, select the erase icon next to the + icon at the top of the list.
 
-### Multi-select question
+#### Multi-select question
 
 Multi-select questions can be used to quickly select one or more options from a set of two or more choices. Each choice can support an image. This question type is good for selecting from a subset of choices, simple triage questions, and any multi-select other multi-select question types. For single selection questions that support images, see the single-select question type, or the dropdown picker question type for single-select questions with a large set of choices.
 
@@ -537,7 +555,7 @@ Multi-select questions can be used to quickly select one or more options from a 
 1. To add more choices, select the + icon within the properties panel or builder. You can rearrange the choices by dragging them up or down while selecting the handle button to the left of each choice. A choice may be removed by selecting the delete icon. To remove all choices, press the erase icon that is located beside the + icon at the top of the list.
 
 
-### Dropdown picker question
+#### Dropdown picker question
 
 Dropdown picker questions are used to quickly select a single option from a list of choices. These questions use a wheel-like scrolling interaction that only shows a small set of the options at a time. This question type is good for alphabetically sorted single-select questions like country/region, colors, brands, or categories. For single-select questions that support images but fewer choices, see the single-select question type. 
 
@@ -553,7 +571,7 @@ Dropdown picker questions are used to quickly select a single option from a list
 
 1. Once you’ve listed all your choices, you can choose a default answer by selecting **Set default value** and choosing an item from the dropdown. If you choose not to select one, the default is automatically set to the first item in your choices. For a large, sorted set of choices, setting the default value to an item in the middle or the most common answer might reduce the amount of scrolling needed.
 
-### Date picker question
+#### Date picker question
 
 Date picker questions are used to quickly select a date using a wheel-like scrolling interaction. Date picker can be configured to only allow dates within a pre-defined timespan. This question type is good for adding birthdays, purchase dates, or future events. Date pickers don't support times, which would need to be provided in a single line or multiline input question type. 
 
