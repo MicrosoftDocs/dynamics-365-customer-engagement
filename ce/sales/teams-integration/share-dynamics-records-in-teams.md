@@ -1,7 +1,7 @@
 ---
 title: Share Dynamics 365 records within Microsoft Teams conversations
 description: Learn how to share Dynamics 365 records within Microsoft Teams conversations
-ms.date: 08/21/2024
+ms.date: 09/17/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 author: sbmjais
