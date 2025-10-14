@@ -1,7 +1,7 @@
 ---
 title: Data model and report mapping for historical analytics reports
 description: View and customize the default data model and report mapping for historical analytics reports in Dynamics 365 Customer Service.
-ms.date: 06/30/2025
+ms.date: 10/10/2025
 ms.topic: concept-article
 author: Soumyasd27
 ms.author: sdas
@@ -242,7 +242,6 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |FactSessionParticipant	|Avg. monitor time (min)	|The time spent on the monitor from when the service representative joined to when they left in session participant. |
 |FactSessionParticipant	|Consult sessions	|The number of sessions a user accepts in mode = consult.|
 |FactSessionParticipant	|Monitor sessions	|The number of sessions a user accepts in mode = monitor.|
-|FactSession	|IsCallbackOffered | Conversations where overflow action triggered is direct callback. msdyn_sessionextension.msdyn_overflowaction is set to '419550001’ for DirectCallback.|
 
 
 ## Omnichannel voice analytics

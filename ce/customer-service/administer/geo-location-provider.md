@@ -1,6 +1,6 @@
 ---
 title: Set up visitor location detection 
-description: Perform the steps to set up detection of visitor location and create a geo location provider record in Omnichannel for Customer Service.
+description: Perform the steps to set up detection of visitor location and create a geo location provider record in Dynamics 365 Contact Center.
 ms.date: 03/03/2025
 ms.topic: how-to
 author: lalexms

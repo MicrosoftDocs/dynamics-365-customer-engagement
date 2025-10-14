@@ -222,7 +222,7 @@
             href: admin-km-agent-insights.md
       - name: Chat and Channels
         items:
-        - name: Omnichannel for Customer Service for agents
+        - name: Dynamics 365 Contact Center for agents
           href: omnichannel-customer-service-app-agent.md
         - name: Sign into the agent app
           href: oc-sign-in-omnichannel.md
@@ -372,8 +372,6 @@
             href: summary-dashboard-cs.md
           - name: Agent dashboard
             href: agent-dashboard-cs.md
-          - name: Case Topics dashboard
-            href: case-topics-dashboard-cs.md
         - name: Use Omnichannel historical analytics dashboards
           items: 
           - name: Omnichannel for Customer Service dashboards

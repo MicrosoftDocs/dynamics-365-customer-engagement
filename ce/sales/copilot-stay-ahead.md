@@ -45,8 +45,6 @@ If you have meetings scheduled on your Outlook calendar in the next seven days, 
     - All open tasks.  
     - Any related open opportunity and cases of the associated account.  
 
-    :::image type="content" source="media/copilot-prepare-for-meetings.svg" alt-text="Screenshot of Copilot's notes for an upcoming meeting.":::
-
 1. (Optional) To view the meeting in Outlook, select **Open Meeting**. 15 minutes before the start time, the option changes to join teams meeting. You can join the meeting directly by selecting this option.  
 
 <a name="copilot-email-reminder"></a>

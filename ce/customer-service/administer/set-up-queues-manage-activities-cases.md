@@ -196,7 +196,7 @@ To assign items in the queue to representatives, select **Assign** after selecti
 
 ### Related information  
 
-[Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
+[Work with queues in Dynamics 365 Contact Center](queues-omnichannel.md)  
 [Add a case to a queue](../use/customer-service-hub-user-guide-case-queues-and-routing.md)    
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
