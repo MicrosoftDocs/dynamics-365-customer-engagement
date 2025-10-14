@@ -198,15 +198,15 @@
           href: voice-channel-call-recordings-transcripts.md
         - name: Monitor voice calls
           href: voice-channel-monitor-calls.md
-      - name: Autonomous service agents (preview)
+      - name: Autonomous service agents
         items:
         - name: Overview of autonomous service agents
           href: /dynamics365/contact-center/administer/autonomous-agents-overview?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-        - name: Customer Intent Agent
+        - name: Customer Intent Agent (preview)
           items:
           - name: Use intent-based suggestions
             href: /dynamics365/contact-center/use/use-intent-suggestions
-        - name: Case Management Agents
+        - name: Case Management Agents (preview)
           items:
           - name: Use Case Management Agent to create and update cases
             href: use-case-creation-agent.md
@@ -214,7 +214,7 @@
             href: use-case-resolution-agent.md            
           - name: Use Case Management Agent to follow up and close cases
             href: use-case-follow-up-closure.md
-        - name: Customer Knowledge Management Agent
+        - name: Customer Knowledge Management Agent (preview)
           items:
           - name: Review knowledge articles created by the Customer Knowledge Management Agent
             href: admin-km-agent-review.md
