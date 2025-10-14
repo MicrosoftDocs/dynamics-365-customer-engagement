@@ -523,9 +523,9 @@
       - name: Quality Evaluation Agent
         items:
         - name: Manage Quality Evaluation Agent
-          href: /dynamics365/contact-center/administer/manage-quality-evaluation-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+          href: /dynamics365/contact-center/use/manage-quality-evaluation-agent?context=/dynamics365/context/customer-service-context
         - name: Configure connection references
-          href: /dynamics365/contact-center/administer/quality-evaluation-agent-connections?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+          href: /dynamics365/contact-center/use/quality-evaluation-agent-connections?context=/dynamics365/context/customer-service-context
     - name: Chat
       items:
       - name: Introduction to the chat channel
