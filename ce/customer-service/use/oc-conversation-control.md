@@ -96,12 +96,14 @@ The following events occur when you select the **Consult** button:
 - If the [consult with queue setting](../administer/enable-transfer-consult.md) is enabled in Copilot Service admin center, the following events occur when you select the consult icon:
 
    - The **Consult** tab appears on the communication panel.
-   - After you select the queue corresponding to the channel through which you are engaged with the customer, a timer and cancel consult appears and the unified routing engine tries to find the best representative to consult with.
+   - After you select the queue corresponding to the channel through which you are engaged with the customer, a timer and option to cancel consult appear and the unified routing engine tries to find the best representative to consult with.
    - The system tries to match a representative till the time-out period that's set by the administrator.
    - If the consult request times out, a message is displayed to the representative that no representatives are available.
    - If the selected representative rejects the consult request or request times out, the consult request ends and the representative can initiate a fresh request.
    - Irrespective of the work distribution mode, the consult is always pushed to the representative.
-   - If block capacity for consult is enabled, capacity of all the consulted representatives is blocked for the consulted conversation.
+   - Consult to queue always blocks capacity of the representative.
+
+- If block capacity for consult is enabled, capacity of all the consulted representatives is blocked for the consulted conversation that's invoked using the consult with representatives option on the communication panel.
 - You can search for representatives to consult within the same queue or other queues. Additionally, you can filter them within a queue based on their skills. The application displays the representatives whose skills match the selected criteria in full or partially, along with their name, and current presence status.
 
    :::image type="content" source="../media/add-to-consult.png" alt-text="Select the people icon to add the secondary representative to the conversation.":::

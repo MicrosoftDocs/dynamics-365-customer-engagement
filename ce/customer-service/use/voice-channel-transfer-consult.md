@@ -92,7 +92,8 @@ When you initiate a consult, the following actions occur:
 - You're the primary representative.
 - You can search for representatives to consult within the same queue or other queues. Additionally, you can filter representatives within a queue based on their skills. The application shows representatives whose skills fully or partially match the selected criteria, along with their name and current presence status. You can add multiple representatives to the consult.
 - The customer is automatically put on hold. Hold music plays for the customer.
-- When the invited collaborator joins the call, they have a consult role. Consulting on a call doesn't affect the collaborator's available capacity. You can also add multiple collaborators to the consult.
+- When the invited collaborator joins the call, they have a consult role. Consulting on a call blocks the collaborator's available capacity. You can also add multiple collaborators to the consult.
+- The consultee's presence status is set to DND-Voice consult.
 - When you have multiple participants in a consult, you can manage each participant individually:
     - Place consulting representative on hold. Select the hold control next to any consulting participant to place them on hold individually. The consulting representative hears hold music while on hold.
     - Transfer to specific consulting representatives. Use the transfer controls positioned next to each consulting participant to transfer the call directly to that specific representative within the consult. 

@@ -25,7 +25,7 @@ System administrator or Omnichannel administrator role.
 1. On the **Consult and transfer** page, do the following steps to enable consult:
    - Turn on the toggle for **Consult to queue**.
    - Enter countdown numbers for voice and messaging channels to indicate the time the system spends to find representatives to consult with.
-   - Select the checkbox to block capacity of the representatives who are engaged in a consultation.
+   - Select the checkbox to block capacity of the representatives who are engaged in a consultation that's invoked using the consult with representatives option on the communication panel.
 1. To enable transfer, turb on the **transfer to representatives** toggle.
 1. Select **Save**.
 
