@@ -6,40 +6,40 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.collection: 
-ms.date: 10/10/2025
+ms.date: 10/15/2025
 ms.custom: bap-template 
 ---
 
 # Adding hierarchy support to tables
 
-Users typically view a hierarchy by selecting the **View hierarchy** button on the command bar when viewing a record on a form or a grid. While the **View hierarchy** button is enabled by default on the Contact, Opportunity, Lead, and Account forms and grids, as an administrator, you can add the **View hierarchy** button to all other tables.
+To add the View hierarchy button to the forms or grids for a table, the table must first be added to your application. While the **View hierarchy** button is enabled by default on the Contact, Opportunity, Lead, and Account forms and grids, as an administrator, you can add the **View hierarchy** button to all other tables.
 
 ## Add the table to the application  
 
 You have to add the table to the application in order to customize the behavior of forms and grids associated with the table. Follow these steps:
 
 1. Sign in to [the Power Apps maker portal](https://make.powerapps.com/).  
-1. Go to **Apps** and select your app.  
+1. Select **Apps** from the left navigation, select **All** to show all applications and then select your application. The default application for Dynamics 365 Sales is **Sales hub**.  
     > [!NOTE]
-    > Ensure that the correct environment is selected in the top-right corner of the page.  
+    > - Ensure that the correct environment is selected in the top-right corner of the page.  
+    > - If you don't want the table shown under the **Customers** section, deselect the **Show in navigation** option. The table is added to the **All other pages** section in the left navigation.  
+    > - If the table is already included in either **Navigation** or **All other** pages, then go to [Add button to command bar](#add-button-to-command-bar) section to add the button to the command bar.  
 1. Go to **Navigation** > **Customers** and select an existing table under which you want to add a new table.  
 1. On the command bar, select the drop-down chevron and select **Dataverse** table.  
 1. Search and add the **Hierarchy Configurations** table.  
-    > [!NOTE]
-    > If you don't want the table shown under the **Customers** section, deselect the **Show in navigation** option. The table is added to the **All other pages** section in the left navigation.  
 1. Save and publish.  
     The table is added to the application.
 
-## Add button to command bar of a form or a grid
+## Add button to command bar
 
 To add the **View hierarchy** button to a form or a grid command bar, follow these steps:
 
 1. You must have administrator privileges.  
 1. Sign in to [the Power Apps maker portal](https://make.powerapps.com/).  
-1. Go to **Apps** and select your app.  
+1. Select **Apps** from the left navigation, select **All** to show all applications and then select your application. The default application for Dynamics 365 Sales is **Sales hub**.  
     > [!NOTE]
     > Ensure that the correct environment is selected in the top-right corner of the page.  
-1. On the app home page, select *table* > more options (...) > **Edit command bar**.
+1. On the app home page, select more options (...) next to the table name, and then select **Edit command bar**.
     > [!NOTE]
     > If you don't see the table, add the table to your app. More information: [App navigation in model-driven apps](/power-apps/maker/model-driven-apps/app-navigation).  
 1. On the edit command bar dialog, choose **Main grid** or **Main form** depending on where you want to add the command.  
