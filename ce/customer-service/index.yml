@@ -68,7 +68,7 @@ additionalContent:
     - title: Configure
       links:
       - url: administer/provision-unified-routing.md
-        text: Provision unified routing for Customer Service
+        text: Enable unified routing for Customer Service
       - url: administer/voice-channel-install.md
         text: Configure the voice channel
       - url: administer/define-service-level-agreements.md
@@ -93,8 +93,8 @@ additionalContent:
         text: Customize data models of historical and real-time analytics reports
     - title: Integrate
       links: 
-      - url: administer/voice-channel-contextual-transfer-external-ivr.md
-        text: Integrate a third-party IVR system with voice channel
+      - url: administer/voice-channel-pva-bots.md
+        text: Set up IVR agents in the voice channel
       - url: administer/configure-bot-virtual-agent.md
         text: Integrate AI agents
       - url: administer/integrate-KM-with-PVA.md
