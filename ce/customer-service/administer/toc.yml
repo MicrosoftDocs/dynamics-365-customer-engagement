@@ -503,7 +503,7 @@
         - name: Enable intent-based suggestions for service representatives
           href: /dynamics365/contact-center/administer/enable-intent-for-service-reps?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
         - name: Configure intent-based suggestions for Copilot agents
-          href: /dynamics365/contact-center/administer/set-up-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.ym
+          href: /dynamics365/contact-center/administer/set-up-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Case Management Agent (preview)
         items: 
           - name: Configure global settings for Case Management Agent
@@ -523,9 +523,9 @@
       - name: Quality Evaluation Agent
         items:
         - name: Manage Quality Evaluation Agent
-          href: /dynamics365/contact-center/administer/manage-quality-evaluation-agent?context=/dynamics365/customer-service/context/admin-context
+          href: /dynamics365/contact-center/administer/manage-quality-evaluation-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
         - name: Configure connection references
-          href: /dynamics365/contact-center/administer/quality-evaluation-agent-connections?context=/dynamics365/customer-service/context/admin-context
+          href: /dynamics365/contact-center/administer/quality-evaluation-agent-connections?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
     - name: Chat
       items:
       - name: Introduction to the chat channel
