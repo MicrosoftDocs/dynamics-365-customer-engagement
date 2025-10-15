@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot 
-ms.date: 09/18/2025
+ms.date: 10/15/2025
 ms.custom: bap-template
 ---
 
@@ -18,6 +18,21 @@ Configure global settings for Case Management Agent in Dynamics 365 Customer Ser
 
 - An Azure account that has an active subscription.
 - You at least have the [Application Developer](/entra/identity/role-based-access-control/permissions-reference#application-developer) to create app registrations.
+- The following connectors with the listed actions are available:
+    - **Connector name**: Microsoft Dataverse
+    - **List of actions**:
+        - Add a new row to selected environment
+        - Delete a row from selected environment
+        - Get a row by ID from selected environment
+        - List rows from selected environment
+        - Perform a bound action in selected environment
+        - Perform an unbound action in selected environment
+        - Relate rows in selected environment
+        - Unrelate rows in selected environment
+        - Update a row in selected environment
+        - Upsert a row in selected environment
+    - **Connector name**: Microsoft Copilot Studio
+        - **Name of the action**: ExecuteCopilotAsyncV2
 
 ## Configure global settings
 
