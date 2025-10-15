@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 09/16/2025
+ms.date: 10/15/2025
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -21,7 +21,7 @@ ms.custom:
 
 The **Agent** report consists of metrics that provide an overview of customer service representatives (service representatives or representatives) performance to help contact center managers optimize the allocation of service representatives in real time. This capability is crucial to ensure that customers receive the best possible support. Learn how to [access the report](intro-realtime-analytics-dashboard.md#access-reports).
 
-The **Agent** report provides information about the capacity and status of service representatives for the last 24 hours. By drilling down to view details such as capacity at each service representative's level, you can quickly identify and allocate resources to address any staffing shortages. In this way, you help ensure that customers receive support when they need it.
+The **Agent** report provides information about the capacity and status of service representatives for the last 2 hours. By drilling down to view details such as capacity at each service representative's level, you can quickly identify and allocate resources to address any staffing shortages. In this way, you help ensure that customers receive support when they need it.
 
 You can also sort service representatives by skills by using the **Skills** filter. In the **Agent list** section, when you hover over a service representative's name, the skill set and proficiency of the service representative appears. You can review the skills and then assign the best service representative required to solve the issue at hand.
 
@@ -40,11 +40,11 @@ You can drill down from the **Agent list** section on the dashboard to view key 
 
 You see the following tabs. The tabs also show custom presence statuses, configured by you and used by your service representatives. 
 
-- **Agent online**: Shows service representatives who are online at the moment.
+- **Idle agents**: 
 
-- **Agents with sessions**: Shows service representatives who worked on a session today, or in the last 24 hours, or have open conversations, depending on the Time filter.
+- **Interacting agents**: Shows service representatives who are online at the moment.
 
-- **Agent offline**: Shows service representatives who logged in earlier but are offline at the moment.
+- **Offline agents**: Shows service representatives who logged in earlier but are offline at the moment.
 
 Depending on the information that you want to see, select the tab, and then select a service representative name from the **Agent list** grid. Select **Detailed view**. Service representative details are shown on a new page.
 
