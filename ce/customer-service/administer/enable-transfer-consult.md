@@ -20,6 +20,8 @@ System administrator or Omnichannel administrator role.
 
 ## Enable consult and transfer settings
 
+You can
+
 1. In Copilot Service admin center, go to **Channels** in **Customer support**.
 1. Select **Manage** for **Consult and transfer**.
 1. On the **Consult and transfer** page, do the following steps to enable consult:
