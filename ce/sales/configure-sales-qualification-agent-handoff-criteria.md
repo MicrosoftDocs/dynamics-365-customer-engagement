@@ -62,10 +62,10 @@ By default, the application defines a set of criteria. You can update any out-of
 
 ## Add custom criteria to your handoff criteria
 
-Use custom criteria to define characteristics that are important for your ideal customer profile. You can map your criteria to custom fields in Dataverse or add public URLs that provide the relevant information. For example, you could add a custom criterion for "Environmental Sustainability Initiatives" and map it to a custom field in Dataverse or provide a URL that lists the company's key environmental initiatives. 
+Use custom criteria to define characteristics that are important for your ideal customer profile. You can map your criteria to custom fields in Dataverse or add public URLs that provide the relevant information. For example, you could add a custom criterion for "Environmental Sustainability Initiatives" and map it to a custom field in Dataverse or provide a URL that lists the company's key environmental initiatives. For more custom criteria examples, refer to [Custom criteria examples for sales teams across industries](custom-icp-examples.md).
 
-> [!TIP]
-> For more custom criteria examples, refer to [Custom criteria examples for sales teams across industries](custom-icp-examples.md).
+> [!NOTE]
+> If you remove fields used in a custom criterion from Dataverse later on, the agent won't be able to generate summaries or hand off leads to sellers. Update or remove the custom criterion before you delete the custom fields from Dataverse.
 
 1. [Open the Sales Qualification Agent settings page](open-sales-qualification-agent-settings.md) and go to the **Handoff criteria** section.
 
