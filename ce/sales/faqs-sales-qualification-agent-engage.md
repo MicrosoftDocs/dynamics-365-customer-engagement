@@ -61,4 +61,4 @@ The Research-only mode has a configuration experience that allows admins to pers
 
 ## Which languages are supported by the Research and engage mode?
 
-The Research and engage mode is currently supported only in English.
+The Research and engage mode is only supported on English-language environments.
