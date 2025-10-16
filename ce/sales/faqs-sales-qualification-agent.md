@@ -70,3 +70,13 @@ The agent primarily operates on data that resides in Dataverse. The more informa
 ## Which languages are supported by the Research-only mode?
 
 The Research-only mode is only supported in English language.
+
+## Can I customize the research capabilities of the Sales Qualification Agent?
+Yes. You can enrich the agent’s out-of-the-box research in Copilot Studio by adding third party connections and custom knowledge sources.
+By configuring these sources, the agent can deliver more relevant insights for every lead.
+Examples of customizable research areas:
+
+- Company Background: Add internal CRM tables or curated industry sources.
+- Strategic Priorities: Include annual reports or internal strategy docs.
+- Financials: Connect Dataverse finance tables or other secure sources.
+- Recent News: Limit public sites to those most relevant to your industry.
