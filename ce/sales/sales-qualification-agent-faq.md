@@ -79,3 +79,11 @@ If you see an error that says "Insights couldn't be generated due to an error in
 - The lead's account information is missing. In this case, the agent doesn't run as there's no company information to research on. 
 
 Update the lead's email address or account information to put the lead back in the agent's queue for processing.
+
+## Why the agent didn't process my lead?
+
+If the agent is stuck and isn't processing your lead, verify the following conditions:
+
+- Ensure that the seller has at least read access to the custom entities and fields used in the custom criteria.
+
+- Ensure that the fields used in custom criteria are not removed from Dataverse. If you remove fields used in a custom criterion from Dataverse, the agent won't be able to generate summaries or hand off leads to sellers. Remove the custom criterion related to the deleted fields and try again.
