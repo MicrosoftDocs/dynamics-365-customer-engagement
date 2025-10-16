@@ -1,6 +1,6 @@
 ---
 title: Create and manage users and user profiles
-description: This article provides steps that you can perform to manage users in Omnichannel for Customer Service.
+description: This article provides steps that you can perform to manage users in Dynamics 365 Contact Center.
 ms.date: 04/10/2025
 ms.topic: how-to
 author: neeranelli

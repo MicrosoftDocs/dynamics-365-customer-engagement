@@ -58,7 +58,7 @@ In the site map of Copilot Service workspace, select **Omnichannel real-time ana
 
 For example, to view the **Agent** report, select **Agent** from the report filter.
 
-If you can't view the reports, contact your system administrator. Learn more in [Manage real-time analytics reports](../administer/enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service).
+If you can't view the reports, contact your system administrator. Learn more in [Manage real-time analytics reports](../administer/enable-realtime-analytics-dashboard-administrator.md).
 
 ## Dashboard details
 
@@ -93,7 +93,7 @@ Report data is automatically updated in real time for all the reports except the
 [Use report metrics](oc-metrics-dimensions.md)<br>
 [Manage bookmarks](manage-bookmarks.md)<br>
 [Customize the visual display of your analytics reports](customize-reports.md)<br>
-[Manage real-time analytics reports](../administer/enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service)<br>
+[Manage real-time analytics reports](../administer/enable-realtime-analytics-dashboard-administrator.md)<br>
 [View and understand the Summary report in Omnichannel real-time analytics](realtime-summary-dashboard.md)<br>
 [View and understand the Voice report in Omnichannel real-time analytics](realtime-voice-dashboard.md)<br>
 [View and understand the Agents report in Omnichannel real-time analytics](realtime-agents-analytics.md)<br>

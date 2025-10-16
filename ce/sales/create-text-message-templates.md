@@ -1,7 +1,7 @@
 ---
 title: Personalize text messages through templates
 description: Personalize the text messages (SMS) by inserting placeholders in your template for the specific information that is different for each recipient.
-ms.date: 09/12/2024
+ms.date: 09/15/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
