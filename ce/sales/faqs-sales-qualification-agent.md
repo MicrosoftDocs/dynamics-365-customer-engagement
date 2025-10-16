@@ -69,4 +69,4 @@ The agent primarily operates on data that resides in Dataverse. The more informa
 
 ## Which languages are supported by the Research-only mode?
 
-The Research-only mode is only supported on English-language environments.
+The Research-only mode is only supported in English language.
