@@ -62,3 +62,12 @@ The Research-only mode has a configuration experience that allows admins to pers
 ## Which languages are supported by the Research and engage mode?
 
 The Research and engage mode is only supported in English language.
+
+## Can I customize the research capabilities of the Sales Qualification Agent?
+Yes. You can enrich the agent’s research by adding internal and public knowledge sources. This applies to both Research-only and Research+Engage modes.
+Examples of customizable research areas:
+
+- Company Background: Internal CRM tables, curated industry sources.
+- Strategic Priorities: Annual reports, internal strategy docs.
+- Financials: Dataverse finance tables, SEC filings.
+- Recent News: Limit public sites to those most relevant to your industry.
