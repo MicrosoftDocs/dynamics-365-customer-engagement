@@ -43,20 +43,20 @@ Use this procedure if you've created your agent using Visual Studio Azure Bot te
 
     ```javascript
     using System.Globalization;
-using System.Text;
-using Microsoft.Agents.Hosting.AspNetCore;
-using Microsoft.Agents.Builder;
-using Microsoft.Agents.Connector;
-using Microsoft.Agents.Core;
-using Microsoft.Agents.Hosting.AspNetCore.BackgroundQueue;
-using Microsoft.CCaaS.MessagingRuntime.Common.Http;
-using Microsoft.CCaaS.MessagingRuntime.TestAgent.Middleware;
-using Microsoft.Agents.Core.Errors;
-using Microsoft.Extensions.Logging;
+    using System.Text;
+    using Microsoft.Agents.Hosting.AspNetCore;
+    using Microsoft.Agents.Builder;
+    using Microsoft.Agents.Connector;
+    using Microsoft.Agents.Core;
+    using Microsoft.Agents.Hosting.AspNetCore.BackgroundQueue;
+    using Microsoft.CCaaS.MessagingRuntime.Common.Http;
+    using Microsoft.CCaaS.MessagingRuntime.TestAgent.Middleware;
+    using Microsoft.Agents.Core.Errors;
+    using Microsoft.Extensions.Logging;
 
-namespace Microsoft.CCaaS.MessagingRuntime.TestAgent;
+    namespace Microsoft.CCaaS.MessagingRuntime.TestAgent;
 
-public class AdapterWithErrorHandler: CloudAdapter {
+    public class AdapterWithErrorHandler: CloudAdapter {
     public AdapterWithErrorHandler(IChannelServiceClientFactory channelServiceClientFactory, IActivityTaskQueue activityTaskQueue, ILogger < IAgentHttpAdapter > logger): base(channelServiceClientFactory, activityTaskQueue, logger) {
         // OmnichannelMiddleware has special handling for OC event messages
         Use(new OmnichannelMiddleware());
@@ -92,12 +92,12 @@ public class AdapterWithErrorHandler: CloudAdapter {
         var exceptionInfo = sb.ToString();
         return exceptionInfo;
     }
-}
+    }
 
-/// <summary>
-/// Experimental: helper to use High Perf logging, do not replicate pattern in other places until we get further guidance on logging.
-/// </summary>
-internal static class HighPerfLoggerExtensions {
+    /// <summary>
+    /// Experimental: helper to use High Perf logging, do not replicate pattern in other places until we get further guidance on logging.
+    /// </summary>
+    internal static class HighPerfLoggerExtensions {
     private static readonly Action < ILogger, string, Exception > LogErrorAction = LoggerMessage.Define < string > (
         LogLevel.Error,
         new EventId(1, "The bot encountered an error or bug"),
@@ -126,9 +126,8 @@ internal static class HighPerfLoggerExtensions {
         LogWarningAction(logger, message, null);
     }
     #pragma warning restore CS8625 // Cannot convert null literal to non-nullable reference type.
-}
+    }
     ```
-
 
 ## Next steps
 
