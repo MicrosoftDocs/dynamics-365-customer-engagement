@@ -67,6 +67,6 @@ The Research-only mode has a configuration experience that allows admins to pers
 
 The agent primarily operates on data that resides in Dataverse. The more information available about a lead, the better the agent's outputs are.
 
-## Which languages does the Research-only mode support?
+## Which languages are supported by the Research-only mode?
 
-The Research-only mode supports English at this time.
+The Research-only mode is only supported in English language.
