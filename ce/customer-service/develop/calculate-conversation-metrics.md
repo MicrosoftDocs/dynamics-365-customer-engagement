@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 10/10/2025
+ms.date: 10/17/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -232,16 +232,11 @@ IsEngaged = CALCULATE(TRUE(),FactConversation[IsOffered], FactConversation[IsAge
 
 *Applies to Omnichannel real-time dashboards.*
 
-An abandoned conversation occurs when a customer escalates to a service representative (either directly or through Voice or chat agent) but the conversation is closed before the representative accepts it.
+An abandoned conversation occurs when a customer escalates to a service representative—either directly or through a voice or chat agent—and the conversation closes before the representative accepts it.
 
-For example, a customer might be disconnected or might cancel the conversation because of a long waiting period, supervisors might forcibly close requests, or automatic system actions might be configured to handle overflow.
+Only inbound conversations count toward abandonment rates. Outbound conversations and those deflected by a chatbot or IVR/voice agent aren't included.
 
-Only inbound conversations are included when calculating abandonment rates. Outbound conversations and those successfully deflected by the chatbot or IVR/Voice agent are excluded from this metric.
-
-Reasons for abandonment might include:
-- Long wait times leading the customer to drop off.
-- Supervisor intervention, where the conversation is manually closed.
-- Overflow rules, such as voicemail or external transfers.
+Customers may abandon a conversation because of long wait times, supervisor intervention, or overflow rules like voicemail or external transfers.
 
 ### DAX query and Dataverse reference
 
