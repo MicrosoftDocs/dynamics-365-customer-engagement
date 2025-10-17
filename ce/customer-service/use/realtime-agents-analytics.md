@@ -40,7 +40,7 @@ You can drill down from the **Agent list** section on the dashboard to view key 
 
 You see the following tabs. The tabs also show custom presence statuses, configured by you and used by your service representatives. 
 
-- **Idle agents**: 
+- **Idle agents**: Representatives without any interacting conversations and who aren't offline at the moment.
 
 - **Interacting agents**: Shows service representatives who are online at the moment.
 
