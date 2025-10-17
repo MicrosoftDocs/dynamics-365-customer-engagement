@@ -1,7 +1,7 @@
 ---
 title: Create and manage basic queues for cases
 description: Learn how to set up basic queues to manage activities and cases in Dynamics 365 Customer Service.
-ms.date: 05/23/2025
+ms.date: 10/16/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -101,7 +101,7 @@ After you have saved the queue, the following changes happen in the SUMMARY tab:
 - In the **Mailbox** field of the **EMAIL SETTINGS** section, a mailbox record for the queue is automatically created and selected. To update the mailbox, select the mailbox name [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes).
 
 - If you selected the queue type as private, the **MEMBERS** section appears.
-   -  Select **Add Existing User**. Only those users that you add can work on the items in this queue. If you add a team as a member, only the existing team members can access the queue. New team members must be added manually to the queue to be able to access it.
+   - Select **Add Existing User**. Users that you add can work on the items in this queue. If you add a team as a member, all the existing members of the team become members of the queue and only they can access the queue. New team members must be added manually to the queue to be able to access it.
    - The **QUEUE ITEMS** and **RECORD CREATION AND UPDATE RULES** sections appear.
 
 :::image type="content" source="../media/public-queue-summary.png" alt-text="Summary view of a basic public queue." lightbox="../media/public-queue-summary.png":::
