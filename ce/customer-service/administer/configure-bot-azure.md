@@ -1,11 +1,11 @@
 ---
 title: Integrate an Azure agent
 description: Use this article to understand how to integrate Azure agents in the contact center.
-ms.date: 04/20/2025
+ms.date: 10/24/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.collection:
+ms.collection: bap-ai-copilot
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -33,9 +33,9 @@ In your contact center, you can integrate Azure AI agents (agents) seamlessly wi
 
 ## Integrate Azure agents with contact center
 
-After you meet the prerequisites, perform the following steps to integrate your Azure agents with your contact center.
+Perform the following steps to integrate your Azure agents with your contact center.
 
-1. Connect your Azure agent resource to omnichannel channel.
+1. Connect your Azure agent resource to a channel.
 1. Configure the agent user as an omnichannel representative.
 1. Configure routing rules and context variables.
 1. Add the agent user to queues.
@@ -91,6 +91,8 @@ You can add an AI agent user to specific queues where you want the agent to hand
 Alternatively, you can also create a queue with the agent user only. In such a case, ensure that the routing rules are set in a way that customer queries are sent to this queue first. This action ensures that the agent acts as the first recipient for all queries.
 
 A representative can transfer a chat to an AI agent by adding it to a queue, and then transferring the chat to the queue.
+
+You can also add the AI agent to a workstream in the AI agent section.
 
 > [!Note]
 > - The chat cannot be transferred to the same agent.

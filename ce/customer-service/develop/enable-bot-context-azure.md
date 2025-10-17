@@ -23,12 +23,12 @@ For Azure agents, you must install the bot SDK and instantiate the Omnichannel m
 Alternatively, you can use the following command in NuGet CLI.
 
 ```JavaScript
-Install-Package Microsoft.Xrm.Omnichannel.BotSDK
+Install-Package Microsoft.CCaSS.AgentSDK
 ```
 
-The bot SDK is now installed and the Omnichannel middleware is available in your project.
+The agent SDK is now installed and the Omnichannel middleware is available in your project.
 
-## Use the Omnichannel middleware in your bot code
+## Use the Omnichannel middleware in your agent code
 
 Use this procedure if you've created your agent using Visual Studio Azure Bot template or Azure portal.
 
@@ -41,7 +41,93 @@ Use this procedure if you've created your agent using Visual Studio Azure Bot te
     Use(new OmnichannelMiddleware()); 
     ```
 
-    ![Add import statement.](../media/bot-context-add-import.png "Add import statement")
+    ```javascript
+    using System.Globalization;
+using System.Text;
+using Microsoft.Agents.Hosting.AspNetCore;
+using Microsoft.Agents.Builder;
+using Microsoft.Agents.Connector;
+using Microsoft.Agents.Core;
+using Microsoft.Agents.Hosting.AspNetCore.BackgroundQueue;
+using Microsoft.CCaaS.MessagingRuntime.Common.Http;
+using Microsoft.CCaaS.MessagingRuntime.TestAgent.Middleware;
+using Microsoft.Agents.Core.Errors;
+using Microsoft.Extensions.Logging;
+
+namespace Microsoft.CCaaS.MessagingRuntime.TestAgent;
+
+public class AdapterWithErrorHandler: CloudAdapter {
+    public AdapterWithErrorHandler(IChannelServiceClientFactory channelServiceClientFactory, IActivityTaskQueue activityTaskQueue, ILogger < IAgentHttpAdapter > logger): base(channelServiceClientFactory, activityTaskQueue, logger) {
+        // OmnichannelMiddleware has special handling for OC event messages
+        Use(new OmnichannelMiddleware());
+
+        OnTurnError = async (turnContext, exception) => {
+            var exceptionInfo = GetExceptionInfo(exception);
+            logger.LogAppException(exceptionInfo, exception);
+
+            // Send a message to the user
+            await turnContext.SendActivityAsync($ "The bot encountered an error or bug.{Environment.NewLine}{exceptionInfo}");
+            await turnContext.SendActivityAsync("To continue to run this bot, please fix the bot source code.");
+
+            // Send a trace activity, which will be displayed in the Bot Framework Emulator
+            await turnContext.TraceActivityAsync("OnTurnError Trace", exception.Message, "https://www.botframework.com/schemas/error", "TurnError");
+        };
+    }
+
+    private static string GetExceptionInfo(Exception exception) {
+        var sb = new StringBuilder();
+
+        // Pull some well known info from ErrorResponse.Exception if available.
+        if (exception is ErrorResponseException responseException) {
+            sb.AppendLine(CultureInfo.InvariantCulture, $ "Error code: {responseException.Body?.Error?.Code ?? "
+                NA "}");
+            sb.AppendLine(CultureInfo.InvariantCulture, $ "Error message: {responseException.Body?.Error?.Message ?? "
+                NA "}");
+        }
+
+        sb.AppendLine(CultureInfo.InvariantCulture, $ "Exception message: {exception.Message}");
+        sb.AppendLine();
+        sb.AppendLine(exception.ToString());
+
+        var exceptionInfo = sb.ToString();
+        return exceptionInfo;
+    }
+}
+
+/// <summary>
+/// Experimental: helper to use High Perf logging, do not replicate pattern in other places until we get further guidance on logging.
+/// </summary>
+internal static class HighPerfLoggerExtensions {
+    private static readonly Action < ILogger, string, Exception > LogErrorAction = LoggerMessage.Define < string > (
+        LogLevel.Error,
+        new EventId(1, "The bot encountered an error or bug"),
+        "{Exception}");
+
+    private static readonly Action < ILogger, string, Exception > LogWarningAction = LoggerMessage.Define < string > (
+        LogLevel.Warning,
+        new EventId(2, "Warning"),
+        "{Message}");
+
+    private static readonly Action < ILogger, string, Exception > LogInformationAction = LoggerMessage.Define < string > (
+        LogLevel.Information,
+        new EventId(3, "Information"),
+        "{Message}");
+
+    public static void LogAppException(this ILogger logger, string message, Exception exception) {
+        LogErrorAction(logger, message, exception);
+    }
+
+    #pragma warning disable CS8625 // Cannot convert null literal to non-nullable reference type.
+    public static void LogAppInformation(this ILogger logger, string message) {
+        LogInformationAction(logger, message, null);
+    }
+
+    public static void LogAppWarning(this ILogger logger, string message) {
+        LogWarningAction(logger, message, null);
+    }
+    #pragma warning restore CS8625 // Cannot convert null literal to non-nullable reference type.
+}
+    ```
 
 
 ## Next steps
