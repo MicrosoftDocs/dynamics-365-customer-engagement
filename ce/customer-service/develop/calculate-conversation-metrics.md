@@ -232,11 +232,16 @@ IsEngaged = CALCULATE(TRUE(),FactConversation[IsOffered], FactConversation[IsAge
 
 *Applies to Omnichannel real-time dashboards.*
 
-A conversation can be abandoned for multiple reasons. For example, a customer might be disconnected or might cancel the call because of a long waiting period, supervisors might forcibly close requests, or automatic system actions might be configured to handle overflow. Abandoned conversations can lead to customer dissatisfaction. A high abandonment rate requires further investigation into operational metrics such as service representative availability and queue distribution.
+An abandoned conversation occurs when a customer escalates to a service representative (either directly or through Voice or chat agent) but the conversation is closed before the representative accepts it.
 
-If an AI agent or IVR handles the customer before escalating the request to a service representative, this metric counts the number of conversations abandoned while customers wait for a service representative after escalation. If a conversation is abandoned before an AI agent can be assigned, the system considers the conversation abandoned.
+For example, a customer might be disconnected or might cancel the conversation because of a long waiting period, supervisors might forcibly close requests, or automatic system actions might be configured to handle overflow.
 
-If a conversation is assigned to service representative's queue directly, this metric is calculated as the number of incoming conversations that were abandoned. The conversation direction is *Incoming*. The channels that the conversation came in through are *Messaging* and *Voice*.
+Only inbound conversations are included when calculating abandonment rates. Outbound conversations and those successfully deflected by the chatbot or IVR/Voice agent are excluded from this metric.
+
+Reasons for abandonment might include:
+- Long wait times leading the customer to drop off.
+- Supervisor intervention, where the conversation is manually closed.
+- Overflow rules, such as voicemail or external transfers.
 
 ### DAX query and Dataverse reference
 
@@ -251,7 +256,7 @@ Abandoned conversations = ​SUMX(FactConversation, IF (FactConversation[IsAband
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)​, msdyn_liveworkstream |
 |Attributes |- msdyn_ocliveworkitem.msdyn_isagentsession ​<br> - msdyn_ocliveworkitem.msdyn_channelinstanceid ​<br> - msdyn_liveworkstream.msdyn_streamsource ​<br> - msdyn_ocliveworkitem.msdyn_isabandoned ​<br> - msdyn_ocliveworkitem.statuscode ​<br> - msdyn_ocliveworkitem.msdyn_isoutbound  |
-|Filters  |- msdyn_ocliveworkitem.msdyn_isagentsession is set to 1. <br> - Filter the FactConversations table to include only rows from msdyn_ocliveworkitem where msdyn_channelinstanceid is NULL. <br>-  Exclude rows where msdyn_liveworkstream.msdyn_streamsource isn't equal to '192350000'​. <br> - msdyn_ocliveworkitem.msdyn_isabandoned is 1. <br> - msdyn_ocliveworkitem.statuscode is 4​. <br>- Isoutbound is based on msdyn_ocliveworkitem.msdyn_isoutbound not equal to 1.|
+|Filters  | - Direction is only incoming conversations and when isagentsession is set to 1. <br> - msdyn_ocliveworkitem.msdyn_isagentsession is set to 1 for conversations escalated to a service representative (either directly or through Voice or chat agent). <br> - Filter the FactConversations table to include only rows from msdyn_ocliveworkitem where msdyn_channelinstanceid is NULL. <br> -  Exclude rows where msdyn_liveworkstream.msdyn_streamsource isn't equal to '192350000'​. <br> - Isoutbound is based on msdyn_ocliveworkitem.msdyn_isoutbound not equal to 1 for incoming conversations.|
 
 ## Conversation first wait time
 
