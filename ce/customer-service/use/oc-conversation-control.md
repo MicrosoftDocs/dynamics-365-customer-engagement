@@ -93,26 +93,31 @@ You can consult with other representatives or supervisors using the consult opti
 
 The following events occur when you select the **Consult** button:
 
-- If the [consult with queue setting](../administer/enable-transfer-consult.md) is enabled in Copilot Service admin center, the following events occur when you select the consult icon:
+[**Consult to queue experience**](../administer/enable-transfer-consult.md)
 
-   - The **Consult** tab appears on the communication panel.
-   - After you select the queue corresponding to the channel through which you are engaged with the customer, a timer and option to cancel consult appear and the unified routing engine tries to find the best representative to consult with.
-   - The system tries to match a representative till the time-out period that's set by the administrator.
-   - If the consult request times out, a message is displayed to the representative that no representatives are available.
-   - If the selected representative rejects the consult request or request times out, the consult request ends and the representative can initiate a fresh request.
-   - Irrespective of the work distribution mode, the consult is always pushed to the representative.
-   - Consult to queue always blocks capacity of the representative.
+- The **Queue** tab appears on the communication panel.
+
+- After you select the queue, a timer and option to cancel consult appear and the unified routing engine tries to find the best representative to consult with.
+- The system tries to match a representative till the time-out period that's set by the administrator.
+- If the consult request times out, a message is displayed to the representative that no representatives are available.
+- If the selected representative rejects the consult request or request times out, the consult request ends and the representative can initiate a fresh request.
+- Irrespective of the work distribution mode, the consult is always pushed to the representative.
+- Consult to queue always blocks capacity of the representative.
+
+**Out-of-the-box consult experience**
 
 - If block capacity for consult is enabled, capacity of all the consulted representatives is blocked for the consulted conversation that's invoked using the consult with representatives option on the communication panel.
-- You can search for representatives to consult within the same queue or other queues. Additionally, you can filter them within a queue based on their skills. The application displays the representatives whose skills match the selected criteria in full or partially, along with their name, and current presence status.
+- You can search for representatives to consult within the same queue or other queues.
 
    :::image type="content" source="../media/add-to-consult.png" alt-text="Select the people icon to add the secondary representative to the conversation.":::
 
 - Select and invite a representative, and then start a consultation.
 
+The following events are common to all consult experiences:
+
 - The secondary representative receives a notification for the consult request.
 
-- When the secondary representative accepts the consult request, a separate pane with an option to end opens beside the communication panel for the primary representative. 
+- When the secondary representative accepts the consult request, a separate pane with an option to end the consult opens beside the communication panel for the primary representative. 
 
    :::image type="content" source="../media/consult-primary-agent-view.png" alt-text="View of consult pane for the primary representative.":::
 

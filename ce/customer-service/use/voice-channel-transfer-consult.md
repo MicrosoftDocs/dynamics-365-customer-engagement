@@ -1,7 +1,7 @@
 ---
 title: Transfer calls and consult with users
 description: Use this article to understand how customer service representatives can use transfer and consult options to make and receive customer calls in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 10/20/2025
+ms.date: 10/20    /2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -92,12 +92,12 @@ When you initiate a consult, the following actions occur:
 - You're the primary representative.
 - You can search for representatives to consult within the same queue or other queues. Additionally, you can filter representatives within a queue based on their skills. The application shows representatives whose skills fully or partially match the selected criteria, along with their name and current presence status. You can add multiple representatives to the consult.
 - The customer is automatically put on hold. Hold music plays for the customer.
-- When the invited collaborator joins the call, they have a consult role. Consulting on a call blocks the collaborator's available capacity. You can also add multiple collaborators to the consult.
+- If the [block consulting representative's capacity](../administer/enable-transfer-consult.md#enable-blocking-of-capacity-during-consult) setting is enabled, When the invited collaborator joins the call, they have a consult role. Consulting on a call blocks the collaborator's available capacity. You can also add multiple collaborators to the consult.
 - The consultee's presence status is set to DND-Voice consult.
 - When you have multiple participants in a consult, you can manage each participant individually:
     - Place consulting representative on hold. Select the hold control next to any consulting participant to place them on hold individually. The consulting representative hears hold music while on hold.
-    - Transfer to specific consulting representatives. Use the transfer controls positioned next to each consulting participant to transfer the call directly to that specific representative within the consult. 
-    - When you initiate a consult with an external participant, the system allows Dual-tone multi frequency inputs. The primary representative can also remove the consulting external participant from the call. 
+    - Transfer to specific consulting representatives. Use the transfer controls positioned next to each consulting participant to transfer the call directly to that specific representative within the consult.
+    - When you initiate a consult with an external participant, the system allows Dual-tone multi frequency inputs. The primary representative can also remove the consulting external participant from the call.
 - The primary representative must manually remove the customer from hold. During a consult, the primary representative can choose to transfer the call to the new participant.  When more than one participant joins a consult, the system shows the customer as "off hold" to all representatives who aren't currently on hold in the consult.
 - If the primary representative or customer ends the call, the call ends for everyone. 
 - If the primary representative refreshes their browser, all the participants are placed on hold until the primary representative returns to the call. 
