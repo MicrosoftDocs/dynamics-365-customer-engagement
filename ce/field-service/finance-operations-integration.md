@@ -180,7 +180,7 @@ The integration introduces several fields to the work order **Product** table. T
 
 - **Location**
 
-  - Hidden for noninventory products.
+  - Hidden for non-inventory products.
   - Seen only if the inventory dimensions configured in finance and operations applications on the product indicate location is required.
   - Only required when the record is set to used.
   - A virtual table lookup that is filtered based on the relevant company/legal entity and selected warehouse.
@@ -256,6 +256,8 @@ Based on the **System Status** value of a work order, the integration adds or de
 ## Limitations
 
 This integration supports the use of [Microsoft-managed](/dynamics365/fin-ops-core/dev-itpro/deployment/cloud-deployment-overview#customer-lifecycle-subscriptions-and-environment-types) environments. Customer-managed environments aren't supported with this integration.
+
+This integration pattern currently supports pricing and costing data originating from work order records. The pattern is built for Field Service to drive price and cost onto the journal records. It does not currently support specialized pricing defined within finance to update the journals and to bring that costing and pricing data back to the the work order product and work order service records with one notable exception where **Work Order Product** records where the product is of type 'Inventory'. In this specific case, the cost value is driven by the **Item Journal**.
 
 [Project Operations resource/non-stocked integration](/dynamics365/project-operations/environment/resource-dual-write-overview) doesn't allow the Field Service integration to work with the same legal entities that have are enabled for the resource/non-stocked integrated scenario. However, it can work in the same environments for other legal entities.
 
