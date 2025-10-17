@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 10/17/2025
+ms.date: 10/13/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -334,13 +334,13 @@ The following DAX query and the corresponding Dataverse entities are used in the
 
 ```dax
 
-Avg. speed to answer (sec)_FactConversation = ​
-
-CALCULATE (AVERAGE( FactConversation[SpeedToAnswerTime] ),​
-
-    FactConversation[StatusId] = "4",​
-
-    FactConversation[IsAgentAccepted] = "1")​
+Avg. speed to answer (sec)_FactConversation = 
+CALCULATE (
+    AVERAGE ( FactConversation[SpeedToAnswerTime] ),
+    FactConversation[StatusId] = "4",
+    FactConversation[IsAgentAccepted] = "1",
+    FactConversation[IsOutbound] <> "1"
+    )
 
 ```
 
@@ -348,8 +348,8 @@ CALCULATE (AVERAGE( FactConversation[SpeedToAnswerTime] ),​
 |Element|Value  |
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)|
-|Attributes | - msdyn_channel ​<br> - msdyn_channelinstanceid ​<br> - statuscode |
-|Filters  |- Filter the FactConversations table to include only rows where msdyn_channel isn't equal to '192350000' and msdyn_channelinstanceid is NULL. <br> - msdyn_isagentaccepted is 1 <br> - msdyn_ocliveworkitem.statuscode is set to 4 |
+|Attributes | - msdyn_channel ​<br> - msdyn_channelinstanceid ​<br> - statuscode <br> - isoutbound |
+|Filters  |- Filter the FactConversations table to include only rows where msdyn_channel isn't equal to '192350000' and msdyn_channelinstanceid is NULL. <br> - msdyn_isagentaccepted is 1 <br> - msdyn_ocliveworkitem.statuscode is set to 4 for closed conversations. <br> -  isoutbound not set to 1 for incoming conversations. |
 
 
 ### [Real-time analytics](#tab/realtimepage)
