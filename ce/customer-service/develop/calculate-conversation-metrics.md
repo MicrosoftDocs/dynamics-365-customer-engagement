@@ -349,7 +349,7 @@ CALCULATE (
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)|
 |Attributes | - msdyn_channel ​<br> - msdyn_channelinstanceid ​<br> - statuscode <br> - isoutbound |
-|Filters  |- Filter the FactConversations table to include only rows where msdyn_channel isn't equal to '192350000' and msdyn_channelinstanceid is NULL. <br> - msdyn_isagentaccepted is 1 <br> - msdyn_ocliveworkitem.statuscode is set to 4. <br> -   isoutbound not set to 1 for incoming conversations. |
+|Filters  |- Filter the FactConversations table to include only rows where msdyn_channel isn't equal to '192350000' and msdyn_channelinstanceid is NULL. <br> - msdyn_isagentaccepted is 1 <br> - msdyn_ocliveworkitem.statuscode is set to 4 for closed conversations. <br> -  isoutbound not set to 1 for incoming conversations. |
 
 
 ### [Real-time analytics](#tab/realtimepage)
