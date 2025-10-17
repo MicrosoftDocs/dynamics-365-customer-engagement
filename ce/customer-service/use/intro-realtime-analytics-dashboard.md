@@ -77,7 +77,7 @@ The **Omnichannel real-time analytics** dashboard consists of the following repo
 
 ## Filter information displayed on dashboard
 
-Use the filters to drill down to KPIs across the dashboard. Adjust the filters based on the insights that you're looking for. The available filters include **Time**, **Agent**, **Channels**, **Queue**, **Time zone**, **Conversation status**, and **Business unit level**. 
+Use the filters to drill down to KPIs across the dashboard. Adjust the filters based on the insights that you're looking for. The filters taht are available by default include **Time**, **Agent**, **Channels**, **Queue**, **Time zone**, **Conversation status**, and **Business unit level**. 
 
 For example, the dropdown list for the **Time** filter includes the following options:
 
