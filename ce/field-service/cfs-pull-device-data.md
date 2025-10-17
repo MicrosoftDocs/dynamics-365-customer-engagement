@@ -1,7 +1,7 @@
 ---
 title: Pull device data in Connected Field Service (contains video)
 description: Learn how to pull in device data in Connected Field Service for Dynamics 365 Field Service.
-ms.date: 09/04/2024
+ms.date: 10/09/2025
 ms.subservice: connected-field-service
 ms.topic: how-to
 ms.author: vhorvath
@@ -10,7 +10,7 @@ author: vhorvathms
 
 # Pull device data in Connected Field Service
 
-There are several ways you can pull the most recent device data from your Internet of Things (IoT) connected devices into Connected Field Service. When IoT alerts are triggered, device data is automatically pulled for the associated device.
+You can pull the most recent device data from your Internet of Things (IoT) connected devices into Connected Field Service in several ways. When IoT alerts trigger, device data is automatically pulled for the associated device.  
 
 Check out the following video.
 
@@ -22,18 +22,20 @@ Check out the following video.
 
 ## Pull device data
 
+Follow these steps to pull device data.
+
 1. In Dynamics Field Service, go to the **Service** area.  
 
 1. Under **Assets**, select **IoT Devices**.  
   
-1. Open an IoT device record and select **Pull Device Data**.
+1. Open an IoT device record, and then select **Pull Device Data**.
 
    :::image type="content" source="media/cfs-device-data-iot-device.png" alt-text="Screenshot of Field Service showing an IoT device, highlighting the Pull Device Data option.":::
 
 1. Select the **Device Data History** tab to view a list of all data pulls for this device.
 
-> [!Note]
-> You can pull device data from a customer asset if the customer asset is [connected to IoT devices](cfs-register-devices.md#connect-to-asset). Select **Pull Device Data** in the ribbon of the customer asset record.
+> [!NOTE]
+> You can pull device data from a customer asset if the asset is [connected to IoT devices](cfs-register-devices.md#connect-to-asset). Select **Pull Device Data** in the ribbon of the customer asset record.
 
 ## Schedule device data pulls
 
@@ -47,8 +49,6 @@ If you're using Azure IoT Hub as your IoT provider, you can schedule device data
 
 1. Set **Scheduled Data Pull** to **On**. Then configure the frequency as needed.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT settings, on the Device Data Pulls tab.](./media/cfs-device-pulls-schedule.png)
-
+   :::image type="content" source="./media/cfs-device-pulls-schedule.png" alt-text="Screenshot of the IoT settings, on the Device Data Pulls tab.":::
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
