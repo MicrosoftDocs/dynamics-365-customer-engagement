@@ -111,7 +111,7 @@
           href: use-case-processing-agent.md           
       - name: Representative productivity tools
         items: 
-        - name: Build a smart assist agent
+        - name: Build a smart assist bot
           href: smart-assist-bot.md
         - name: Implement custom scenario
           href: smart-assist-scenario.md
