@@ -1,7 +1,7 @@
 ---
 title: Transfer calls and consult with users
 description: Use this article to understand how customer service representatives can use transfer and consult options to make and receive customer calls in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 10/20    /2025
+ms.date: 10/20/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -102,6 +102,7 @@ When you initiate a consult, the following actions occur:
 - If the primary representative or customer ends the call, the call ends for everyone. 
 - If the primary representative refreshes their browser, all the participants are placed on hold until the primary representative returns to the call. 
 
+If [consult to queue](../administer/enable-transfer-consult.md#enable-consult-to-queue) is enabled by your administrator, then the option to consult with a queue appears on the chat window. Learn more in [Consult to queue](oc-conversation-control.md#consult-queue).
 
 **Consult with another user**
 

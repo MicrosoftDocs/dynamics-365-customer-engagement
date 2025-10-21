@@ -63,7 +63,7 @@ The consult session isn't reestablished if the representative refreshes the brow
 
 The representative capacity is released in the following scenarios:
 
-- If the primary representative ends the call and closes their session.
+- If the primary representative ends the call or conversation and closes their session.
 - If the primary representative ends the consult.
 
 ## Related information
