@@ -24,9 +24,12 @@ The real-time analytics for record routing dashboard is disabled by default. To 
 
 1.  In the **Copilot Service admin center** site map, select **Insights** in **Operations**. The **Insights** page appears.
 
-2.  On the **Insights page,** go to **Real-time analytics for record routing,** and then select **Manage.**
+1.  On the **Insights page,** go to **Real-time analytics for record routing,** and then select **Manage.**
 
-3.  On the **Real-time analytics for record routing** page, switch the **Enable real-time analytics for record routing** toggle to **On**.
+1.  On the **Real-time analytics for record routing** page, switch the **Enable real-time analytics for record routing** toggle to **On**.
+
+1.  Optionally, select the **Add real-time analytics for record routing for intent** to get insights into the performance of routed records by intent.
+
 
 :::image type="content" source="../media/csac-record-routing.png" alt-text="Screenshot of the record routing option from the Copilot Service admin center":::
 
