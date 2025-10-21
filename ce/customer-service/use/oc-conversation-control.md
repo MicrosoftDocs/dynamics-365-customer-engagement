@@ -17,7 +17,7 @@ The communication panel is where you, as a customer service representative (serv
 
 If you want to minimize the communication panel, select **Minimize**. The communication panel is collapsed to a window in the left corner of the Active Conversation form, giving you more screen space.
 
-You can increase or decrease the width of the communication panel for a specific channel by dragging the right edge of the communication panel to the left or right. The resized width of the communication panel is channel specific. For example, if you increase the width of the communication panel for chat, the next time you get a chat conversation, you'll see the resized panel. However, the width remains the same for another channel, such as WhatsApp.
+Use the right edge of the communication panel to resize it to your needs. The resized width of the communication panel is channel specific. For example, if you increase the width of the communication panel for chat, the next time you get a chat conversation, you'll see the resized panel. However, the width remains the same for another channel, such as WhatsApp.
 You can resize the communication panel when it is in the expanded mode only.
 
 You can do the following tasks in the communication panel:
@@ -59,7 +59,7 @@ Use the following options to use quick replies in your conversation:
 
    :::image type="content" source="../media/view-all-quick-replies.png" alt-text="Vew all quick replies option that lets you see quick replies in the right pane.":::
 
-You or the administrator can create the quick replies. You can create personal quick replies if the administrator has enabled the option. Your quick replies are available on the **Personal** tab of the **Quick replies** panel, and those created by the administrator are available on the **All** tab. Use the personal quick replies when you're in a conversation with a customer by doing the following:
+You or the administrator can create the quick replies. If your administrator enabled personal quick replies, then you can create them. Your quick replies are available on the **Personal** tab of the **Quick replies** panel. Quick replies created by the administrator are available on the **All** tab. Use the personal quick replies when you're in a conversation with a customer by doing the following steps:
 
 1. Select the quick responses icon ![quick responses icon.](../media/personal-quick-reply-icon.png) at the bottom of your conversation window. The **Quick replies** panel displays the available predefined messages on the **All** and **Personal** tabs.
 2. Select the **Personal** tab, and type the number sign (#) in the compose box to list the tags and search for the personal quick replies that are available for your use.
@@ -82,7 +82,7 @@ You can type any of the following options in the compose box to search for the m
 
 ### Share reconnection link with customers
 
-If the reconnection link is configured by your administrator, you can share the link with customers during the session that they can use to connect back to the chat when they're disconnected for some reason, such as loss of connectivity or restart of their computer. The reconnection link information is available as a quick response.
+If the reconnection link is configured, you can share the link with customers during the session. Customers can use it to connect back to the chat when they're disconnected for some reason, such as loss of connectivity or restart of their computer. The reconnection link information is available as a quick response.
 
 > [!IMPORTANT]
 > You can share the reconnection link only when you don't end the chat session using the **End** button.
@@ -97,10 +97,10 @@ The following events occur when you select the **Consult** button:
 
 - The **Queue** tab appears on the communication panel.
 
-- After you select the queue, a timer and option to cancel consult appear and the unified routing engine tries to find the best representative to consult with.
-- The system tries to match a representative till the time-out period that's set by the administrator.
+- After you select the queue, a timer and option to cancel the consultation appear and the unified routing engine tries to find the best representative to consult with.
+- The system tries to match a representative until the time-out period set by the administrator.
 - If the consult request times out, a message is displayed to the representative that no representatives are available.
-- If the selected representative rejects the consult request or request times out, the consult request ends and the representative can initiate a fresh request.
+- If the selected representative rejects the consult request or request times out, the consult request ends, and the representative can initiate a fresh request.
 - Irrespective of the work distribution mode, the consult is always pushed to the representative.
 - Consult to queue always blocks capacity of the representative.
 
@@ -197,7 +197,7 @@ When you select the close button (**X**) to close the communication panel, a con
 
 When you select the **End** button, the conversation ends, and the customer receives a message that the service representative has ended the conversation.
 
-:::image type="content" source="../media/conversation-end-close.png" alt-text="Screenshot of the communication chanel with the close and end options.":::
+:::image type="content" source="../media/conversation-end-close.png" alt-text="Screenshot of the communication channel with the close and end options.":::
 
 The conversation behavior is dependent on the channel through which it comes. Learn more in [How conversations are handled on close or end](oc-conversation-state.md#how-conversations-are-handled-on-close-or-end).
 

@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 By default, customer service representatives (service representatives or representatives) can consult with other representatives and transfer conversations to resolve customer issues efficiently.
 
-For advanced consult and transfer scenarios, you can enable the consult to queue and direct transfer of conversations in your contact center. The consult to queue setting helps the system to intelligently select the most eligible representative to consult with. Direct transfer lets representative select another representative directly without first initiating a consult. This allows service representatives to make sure that customers receive the best assistance they need.
+For advanced consult and transfer scenarios, you can enable the consult to queue and direct transfer of conversations in your contact center. The consult to queue setting helps the system to intelligently select the most eligible representative to consult with. Direct transfer lets representative select another representative directly without first initiating a consult. Service representatives can make sure that customers receive the best assistance they need.
 
 ## Prerequisite
 

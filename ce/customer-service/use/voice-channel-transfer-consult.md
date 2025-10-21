@@ -21,7 +21,7 @@ To familiarize yourself with the call controls, see [Understand how to use the a
 
 ## Prerequisites
 
-- To transfer the calls to another service representative, the [transfer to representative](../administer/enable-transfer-consult.md) setting is enabled by your administrator.
+- To transfer the calls to another service representative, your administrator enabled the [transfer to representative](../administer/enable-transfer-consult.md) setting.
 - To transfer calls to an external PSTN number or a Teams user, the transfer settings must be enabled in the voice channel instance settings.
 
 ## Transfer calls
@@ -43,8 +43,8 @@ When you receive an incoming call, you can transfer the call to a service repres
     - **Transfer to a queue**: Select **Queue**, search for the queue you want to transfer the call to, and then select **Transfer**. The customer is put on hold. The representative who picks up the transferred call becomes the primary representative and you become the secondary and are removed from the call.
     
       > [!NOTE]
-      > - When you transfer a call to a queue that doesn't have any service representatives, the application automatically ends the call and sets the status to Closed.
-      > - If you transfer a call from a phone number linked to an inbound or outbound profile to a queue with a Copilot agent, the agent can only speak to the customer and end the call. The agent can't transfer the call to another agent or external number, even when you have configured the Escalation topic in Copilot Studio.
+      > - When you transfer a call to a queue that doesn't have any representatives, the application automatically ends the call and sets the status to Closed.
+      > - If you transfer a call from a phone number linked to an inbound or outbound profile to a queue with a Copilot agent, the agent can only speak to the customer and end the call. The agent can't transfer the call to another agent or external number, even if you configure the Escalation topic in Copilot Studio.
 
         :::image type="content" source="../media/voice-call-transfer-to-representative-mini.png" alt-text="Screenshot of selecting a representative to transfer the call." lightbox="../media/voice-call-transfer-to-representative.png":::
     
