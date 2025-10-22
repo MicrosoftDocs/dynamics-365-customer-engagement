@@ -1,11 +1,11 @@
-​---
+---
 title: Manage Customer Knowledge Management Agent
 description: Learn how to manage the Customer Knowledge Management Agent to autonomously create knowledge articles from cases and related communications.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
-ms.collection: 
+ms.collection:
 ms.date: 10/24/2025
 ms.custom: bap-template
 ---
@@ -45,8 +45,6 @@ You can create multiple rules to specify the conditions that must be met for a r
 1. In the **New knowledge creation rules** dialog, enter a rule name, condition name, and then add your conditions.
 1. Select **Save**.
 
-
-
 ### Manage case attributes used to create knowledge articles
 
 Customer Knowledge Management Agent uses **Case Title**, **Case Description**, **Product**, **Subject**, **Email Content**, **Conversation Summary**, and **Case Notes** to create an article. You can modify all the fields except **Email Content** and **Conversation Summary**. You can't change the attributes used for conversations.
@@ -58,12 +56,12 @@ You can map which record types and data fields are used for each element. You ca
 
 Case attribute selections are applicable to both historical and real-time creation from cases. 
 
-**Enable track changes and add mapped entities to the Entity Analytics Config table**
+### Enable track changes and add mapped entities to the Entity Analytics Config table
 
-We recommend that you enable **Track changes** for the mapped entities and add them to the **Entity Analytics Config** table to avoid issues during knowledge article creation from historical data.
+To avoid issues during knowledge article creation from historical data, we recommend that you enable **Track changes** for the mapped entities and add them to the **Entity Analytics Config** table .
 
-- [Enable track changes](/power-platform/admin/enable-change-tracking-control-data-synchronization#using-power-apps-settings)
-- To add mapped entities to the **Entity Analytics Config** table:
+1. [Enable track changes](/power-platform/admin/enable-change-tracking-control-data-synchronization#using-power-apps-settings)
+2. To add mapped entities to the **Entity Analytics Config** table:
     
     1. Open the model-driven app ( `https://<org>.crm.dynamics.com/...` ).   
     2. Press **F12** to open the browser’s **Developer Tools**, and then select the **Console** tab.   
@@ -86,7 +84,7 @@ When enabled, the agent considers all the cases and conversations that meet the 
     a. In the **Creation from historical cases** section, select the **Let copilot use information from historical cases to create knowledge articles** option.
     ### [Conversations](#tab/conversations)
     a. In the **Creation from historical conversations** section, select the **Let copilot use information from historical chat and messaging conversations to create knowledge articles** option.
-    ### [Custom record types (preview)](#tab/conversations)
+    ### [Custom record types (preview)](#tab/Custom record types)
     a. In your custom record type section, select the **Let copilot use information from historical custom record types to create knowledge articles** option.
 
 1. Select **Manage rules** to configure the conditions for the harvest.
@@ -114,15 +112,13 @@ When you specify a custom article, Customer Knowledge Management Agent uses the 
 
 ## Add custom record types (preview)
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 You can add custom record types that Customer Knowledge Management Agent can use to create new knowledge articles. Currently, these custom record types are supported only for historical article creation. 
 
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
-
 To add a custom record type: 
 
-1. [Turn on knowledge management for your record type](configure-knowledge-search-control-productivity-pane.md#add-record-types-for-which-you-want-to-turn-on-knowledge-management)
+1. [Turn on knowledge management for your record type](configure-knowledge-search-control-productivity-pane.md#add-record-types-for-which-you-want-to-turn-on-knowledge-management).
 1. In Copilot Service admin center, go to **Support experience** > **Knowledge** > **Customer Knowledge Management Agent**, and then select **Manage**. The **Customer Knowledge Management Agent** page appears.
 1. Select **Add record type**. The **Add record type** page appears. 
 1. In the **Select record type** dropdown, select the record type you wish to create knowledge from.
@@ -140,11 +136,9 @@ You can map which record types and data fields are used for each element. You ca
 
 ## Configure automatic article updates (preview)
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 Customer Knowledge Management Agent can automatically apply minor updates to existing knowledge articles. By default, Customer Knowledge Management Agent creates a new minor version of the article.
-
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 To enable automatic minor updates of articles, on the **Customer Knowledge Management Agent** page, in the **Automatic article updates** section, select the **Automatically update existing articles (preview)** option.
 
@@ -186,5 +180,7 @@ Service representatives can see whether they have knowledge articles to review b
 You can get analytics reports on Customer Knowledge Management Agent and collect analytics data for your own custom reporting. Learn more in [Use knowledge insights for Customer Knowledge Management Agent](../use/admin-km-agent-insights.md#use-knowledge-insights-for-customer-knowledge-management-agent).
 
 ## Related information
+
+[Review knowledge articles created by the Customer Knowledge Management Agent](../use/admin-km-agent-review.md#review-knowledge-articles-created-by-the-customer-knowledge-management-agent)  
 
 [Use knowledge insights for Customer Knowledge Management Agent](../use/admin-km-agent-insights.md#use-knowledge-insights-for-customer-knowledge-management-agent)
