@@ -486,13 +486,13 @@
         href: /dynamics365/contact-center/administer/create-rollout-plans?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: View agent insights dashboard
         href: /dynamics365/contact-center/use/agent-insights?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml  
-    - name: Autonomous service agents (preview)
+    - name: Autonomous service agents
       items:
       - name: Overview of autonomous service agents
         href: /dynamics365/contact-center/administer/autonomous-agents-overview?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Manage consumption-based billing, capacity
         href: setup-pay-as-you-go.md
-      - name: Customer Intent Agent
+      - name: Customer Intent Agent (preview)
         items:
         - name: Overview of Customer Intent Agent
           href: /dynamics365/contact-center/administer/overview-customer-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
@@ -504,7 +504,7 @@
           href: /dynamics365/contact-center/administer/enable-intent-for-service-reps?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
         - name: Configure intent-based suggestions for Copilot agents
           href: /dynamics365/contact-center/administer/set-up-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.ym
-      - name: Case Management Agent
+      - name: Case Management Agent (preview)
         items: 
           - name: Configure global settings for Case Management Agent
             href: case-management-global-settings.md        
