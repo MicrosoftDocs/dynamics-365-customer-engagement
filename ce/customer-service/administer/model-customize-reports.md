@@ -50,19 +50,21 @@ Enable data model customization for historical and real-time analytics reports i
 
 Before you begin, complete the following prerequisites:
 
-- Specific licensing requirements apply:
+### Specific licensing requirements
 
-    - For all report users to access the reports.
-    - For report authors, developers, and administrators to build Power BI reports and extend the out-of-the-box Power BI data model. 
+Specific licensing requirements apply to: 
+
+  - All report users for accessing reports.
+  - All report authors, developers, and administrators for building Power BI reports and extending the default Power BI data model. 
     
-    Learn more at [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718) and [Power Platform Pricing](https://go.microsoft.com/fwlink/?linkid=2309616).
+  Learn more at [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718) and [Power Platform Pricing](https://go.microsoft.com/fwlink/?linkid=2309616).
 
-- Enable insights features in Customer Service:
+ ### Enable insights features in Customer Service
 
   - If you're enabling historical data model customization, you must enable at least one of the historical reports, such as Customer Service historical analytics, Omnichannel historical analytics, or Knowledge analytics. For more information, see [Configure analytics and insights dashboards](configure-customer-service-analytics-insights-csh.md).
   - If you're enabling real-time data model customization, you must enable real-time analytics for Omnichannel. For more information, see [Configure analytics and insights dashboards](configure-customer-service-analytics-insights-csh.md).
 
-- Create a Microsoft Entra ID security group:
+### Create a Microsoft Entra ID security group
 
   - Your Microsoft Entra ID administrator must create a security group with your preferred name in Microsoft Entra ID and add **Dynamics 365 Analytics** service account as a member of this security group. For more information, see [Create a basic group and add members using Microsoft Entra ID](/entra/fundamentals/how-to-manage-groups).
 
@@ -73,7 +75,9 @@ Before you begin, complete the following prerequisites:
   > [!NOTE]
   > If the Dynamics 365 Analytics service account isn't available in your organization, use the Dynamics CCA Data Analytics service account.
 
-- Enable Power BI service features from the Microsoft Fabric Admin portal. The Power BI administrator must enable the following, either for the entire organization or for the security group created earlier:
+### Enable Power BI service features from the Microsoft Fabric Admin portal
+
+The Power BI administrator must enable the following, either for the entire organization or for the security group created earlier:
 
   - [**Create workspace (new workspace experience)**](/power-bi/admin/service-admin-portal-workspace#create-workspaces-new-workspace-experience): Enabling this feature creates two workspaces, a managed workspace and a customer workspace to deploy Dynamics data model and reports.
 
