@@ -223,11 +223,11 @@
         - name: Quality Evaluation Agent
           items:
           - name: Use evaluation plan
-            href: /dynamics365/contact-center/use/evaluation-plan?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+            href: /dynamics365/contact-center/use/evaluation-plan?context=/dynamics365/context/customer-service-context
           - name: Use evaluation criteria
-            href: /dynamics365/contact-center/use/evaluation-criteria?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+            href: /dynamics365/contact-center/use/evaluation-criteria?context=/dynamics365/context/customer-service-context
           - name: Use evaluations
-            href: /dynamics365/contact-center/use/use-evaluations?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+            href: /dynamics365/contact-center/use/use-evaluations?context=/dynamics365/context/customer-service-context
       - name: Chat and Channels
         items:
         - name: Dynamics 365 Contact Center for agents
