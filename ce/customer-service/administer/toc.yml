@@ -660,7 +660,7 @@
         href: productivity-pane.md
       - name: Configure time-out rules
         href: configure-time-out-rules.md
-      - name: Enable multisession experience in custom apps (preview)
+      - name: Enable multisession experience in custom apps
         href: enable-multisession-custom-apps.md
       - name: Create quick replies
         href: create-quick-replies.md
