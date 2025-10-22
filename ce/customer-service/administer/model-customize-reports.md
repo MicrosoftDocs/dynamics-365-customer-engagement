@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 09/26/2025
+ms.date: 10/23/2025
 ms.custom:
   - bap-template
   - dyn365-customerservice
@@ -70,7 +70,7 @@ Before you begin, complete the following prerequisites:
 
       Power BI lets you grant permissions to groups only, not individual service principals, so you need to create a group.
 
-    > [!NOTE]
+  > [!NOTE]
   > If the Dynamics 365 Analytics service account isn't available in your organization, use the Dynamics CCA Data Analytics service account.
 
 - Enable Power BI service features from the Microsoft Fabric Admin portal. The Power BI administrator must enable the following, either for the entire organization or for the security group created earlier:
