@@ -19,7 +19,7 @@ Customer Knowledge Management Agent lets you autonomously turn cases and case-re
 - You're using the out-of-the-box case or conversation entities.
 - [Dynamics 365 knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management) is configured.
 - You enabled Copilot to access Dynamics 365 knowledge base. You can utilize the internal knowledge base resources only for generating responses. Learn more in [Configure knowledge sources](copilot-enable-help-pane.md#configure-knowledge-sources).
-- For real-time knowledge creation, you [configured connection references for Customer Knowledge Management Agent flow](admin-km-agent-connections.md#configure-connection-references-for-customer-knowledge-management-agent-flow)
+- For real-time knowledge creation, you [configured connection references for Customer Knowledge Management Agent flow](admin-km-agent-connections.md#configure-connection-references-for-customer-knowledge-management-agent-flow).
 - You [set up pay-as-you-go](setup-pay-as-you-go.md#set-up-pay-as-you-go).
 
 ## Enable Customer Knowledge Management Agent
@@ -80,9 +80,9 @@ When enabled, the agent considers all the cases and conversations that meet the 
 
 1. Select the **Cases**, **Conversations**, or the **Custom record types (preview)** tab.
 
-    a. For cases, in the **Creation from historical cases** section, select the **Let copilot use information from historical cases to create knowledge articles** option.
-    b. For conversations, in the **Creation from historical conversations** section, select the **Let copilot use information from historical chat and messaging conversations to create knowledge articles** option.
-    c. For custom record types, in the **Custom record type** section, select the **Let copilot use information from historical custom record types to create knowledge articles** option.
+    1.For cases, in the **Creation from historical cases** section, select the **Let copilot use information from historical cases to create knowledge articles** option.
+    1. For conversations, in the **Creation from historical conversations** section, select the **Let copilot use information from historical chat and messaging conversations to create knowledge articles** option.
+    1. For custom record types, in the **Custom record type** section, select the **Let copilot use information from historical custom record types to create knowledge articles** option.
 
 1. Select **Manage rules** to configure the conditions for the harvest.
 1. On the **Default rule** dialog, enter a rule name, condition name, and then add your conditions to filter historical articles. You may also specify a custom article template to be used for this rule. 
