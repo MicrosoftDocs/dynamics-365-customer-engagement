@@ -1,7 +1,7 @@
 ---
 title: Field Service integration with finance and operations applications
 description: Synchronize inventories and budgeting items between Dynamics 365 Field Service and finance and operations applications.
-ms.date: 07/17/2025
+ms.date: 10/16/2025
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
@@ -256,6 +256,8 @@ Based on the **System Status** value of a work order, the integration adds or de
 ## Limitations
 
 This integration supports the use of [Microsoft-managed](/dynamics365/fin-ops-core/dev-itpro/deployment/cloud-deployment-overview#customer-lifecycle-subscriptions-and-environment-types) environments. Customer-managed environments aren't supported with this integration.
+
+This integration pattern currently supports pricing and costing data from work order records. It's designed for Field Service to drive price and cost onto journal records. It doesn't support specialized pricing defined in finance to update journals or bring costing and pricing data back to work order product and work order service records, except for **Work Order Product** records where the product is of type 'Inventory'. In this case, the cost value comes from the **Item Journal**.
 
 [Project Operations resource/non-stocked integration](/dynamics365/project-operations/environment/resource-dual-write-overview) doesn't allow the Field Service integration to work with the same legal entities that have are enabled for the resource/non-stocked integrated scenario. However, it can work in the same environments for other legal entities.
 

@@ -1,6 +1,6 @@
 ---
-title: Manage real-time analytics reports in Omnichannel for Customer Service
-description: Configure real-time analytics in Omnichannel for Customer Service to give supervisors access to metrics and KPIs.
+title: Manage real-time analytics reports in Dynamics 365 Contact Center
+description: Configure real-time analytics in Dynamics 365 Contact Center to give supervisors access to metrics and KPIs.
 ms.date: 06/20/2025
 ms.topic: how-to
 author: Soumyasd27
@@ -13,7 +13,7 @@ ms.custom:
   - ai-seo-date:11/07/2023
 ---
 
-# Manage real-time analytics reports in Omnichannel for Customer Service
+# Manage real-time analytics reports in Dynamics 365 Contact Center
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 

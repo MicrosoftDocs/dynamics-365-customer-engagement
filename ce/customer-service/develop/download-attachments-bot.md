@@ -50,7 +50,7 @@ First, let's quickly review file attachment formats in the Omnichannel bot servi
 
 ### File attachment formats
 
-When file attachments are sent from Omnichannel for Customer Service to the Azure bot on the Omnichannel bot service channel, the information required to download the files is passed in the `amsReferences` and `amsMetadata` fields of the `Activity.ChannelData` property.
+When file attachments are sent from Dynamics 365 Contact Center to the Azure bot on the Omnichannel bot service channel, the information required to download the files is passed in the `amsReferences` and `amsMetadata` fields of the `Activity.ChannelData` property.
 
 **Omnichannel bot service channel**
 

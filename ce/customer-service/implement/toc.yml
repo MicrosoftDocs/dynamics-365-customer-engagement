@@ -38,8 +38,8 @@
         href: csh-system-requirements.md
       - name: System requirements for Copilot Service workspace
         href: customer-service-workspace-system-requirements.md
-      - name: System requirements for Omnichannel for Customer Service
-        href: system-requirements-omnichannel.md
+      - name: System requirements for Dynamics 365 Contact Center
+        href: /dynamics365/contact-center/implement/system-requirements-contact-center?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
       - name: Service quotas
         href: service-quotas.md
       - name: Best practices to set up voice channel

@@ -35669,6 +35669,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/customer-service/use/session-metrics.md",
+      "redirect_url": "/dynamics365/customer-service/develop/calculate-session-metrics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/use/service-rep-metrics.md",
+      "redirect_url": "/dynamics365/customer-service/develop/calculate-representative-metrics",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/customer-service/develop/create-a-conversion-plugin.md",
       "redirect_url": "/dynamics365/customer-service/develop/int-search-metadata-schema",
       "redirect_document_id": "false"
@@ -35754,6 +35764,26 @@
     {"source_path": "ce/sales/test-sales-qualification-agent-43.md",
       "redirect_url": "/dynamics365/sales/test-sales-qualification-agent",
       "redirect_document_id": false
-    }
+    },
+    {"source_path": "ce/customer-service/administer/ai-topic-clustering-conversations.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/administer/ai-topic-clustering-conversations",
+      "redirect_document_id": false
+    },
+    {"source_path": "ce/customer-service/administer/configure-topics-clustering-cases-cs.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/administer/configure-topics-clustering-cases-cs",
+      "redirect_document_id": false
+    },
+    {"source_path": "ce/customer-service/use/oc-conversation-topics-dashboard.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/use/oc-conversation-topics-dashboard",
+      "redirect_document_id": false
+    },
+    {"source_path": "ce/customer-service/implement/system-requirements-omnichannel.md",
+      "redirect_url": "/dynamics365/contact-center/implement/system-requirements-contact-center",
+      "redirect_document_id": false
+    },
+    {"source_path": "ce/customer-service/use/case-topics-dashboard-cs.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/use/case-topics-dashboard-cs",
+      "redirect_document_id": false
+    }    
   ]
 }

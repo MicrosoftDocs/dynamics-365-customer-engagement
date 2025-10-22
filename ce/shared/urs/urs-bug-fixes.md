@@ -7,18 +7,100 @@ For information about older versions, see [Version history archive](../../field-
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [3.12.151.455](/dynamics365/field-service/field-service-version-history-resource-scheduling#312151455) | TBD | 07/04/2025 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.151.455](/dynamics365/field-service/field-service-version-history-resource-scheduling#312151455) |  TBD | 07/11/2025 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania, Singapore* | [3.12.150.423](/dynamics365/field-service/field-service-version-history-resource-scheduling#31250423) |  [3.12.151.455](/dynamics365/field-service/field-service-version-history-resource-scheduling#312151455) | 06/13/2025 |
-| | *USG* | [3.12.151.455](/dynamics365/field-service/field-service-version-history-resource-scheduling#312151455) |  TBD | 07/18/2025 |
-|**Station 4** |*Europe* |  [3.12.150.423](/dynamics365/field-service/field-service-version-history-resource-scheduling#31250423) |  [3.12.151.455](/dynamics365/field-service/field-service-version-history-resource-scheduling#312151455) | 06/20/2025 |
-|**Station 5** |  *North America*| [3.12.150.423](/dynamics365/field-service/field-service-version-history-resource-scheduling#31250423)  |  [3.12.151.455](/dynamics365/field-service/field-service-version-history-resource-scheduling#312151455) | 06/27/2025 |
-|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.150.423](/dynamics365/field-service/field-service-version-history-resource-scheduling#31250423) | [3.12.151.455](/dynamics365/field-service/field-service-version-history-resource-scheduling#312151455) | 06/25/2025 |
-|**Station 6** | *Dedicated Scale Groups* |  [3.12.150.423](/dynamics365/field-service/field-service-version-history-resource-scheduling#31250423)  | [3.12.151.455](/dynamics365/field-service/field-service-version-history-resource-scheduling#312151455) | 07/04/2025 |
+|**Station 1** |  *First Release*| [3.12.155.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31215515) | TBD | 10/31/2025 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.155.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31215515) |  TBD | 11/07/2025 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania, Singapore* | [3.12.153.127](/dynamics365/field-service/field-service-version-history-resource-scheduling#312153127-hotfix1) |  [3.12.155.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31215515) | 10/17/2025 |
+| | *USG* | [3.12.155.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31215515) |  TBD | 11/05/2025 |
+|**Station 4** |*Europe* |  [3.12.153.127](/dynamics365/field-service/field-service-version-history-resource-scheduling#312153127-hotfix1) |  [3.12.155.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31215515) | 10/24/2025 |
+|**Station 5** |  *North America*| [3.12.153.127](/dynamics365/field-service/field-service-version-history-resource-scheduling#312153127-hotfix1)  |  [3.12.155.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31215515) | 10/31/2025 |
+|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.153.127](/dynamics365/field-service/field-service-version-history-resource-scheduling#312153127-hotfix1) | [3.12.155.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31215515) | 10/29/2025 |
+|**Station 6** | *Dedicated Scale Groups* |  [3.12.153.127](/dynamics365/field-service/field-service-version-history-resource-scheduling#312153127-hotfix1)  | [3.12.155.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31215515) | 11/07/2025 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.155.15
+
+**Resource Scheduling Controls:** 1.2.94.252722
+
+**Dataverse:** 4.0.145.15
+
+- The details panel will now close when the selected booking is deleted.
+- Changing the search range in schedule assistant will now update the visible range.
+- Schedule assistant now supports all booking methods in the create booking panel.
+- Extending a booking will now be reflected in the open booking panel.
+- Various accessibility enhancements.
+- Improved zoom slider on schedule board now indicates the amount of time visible on the board.
+- Fixed a bug that was causing incorrect start dates and duration on some schedule assistant bookings.
+- Components of multiday bookings can now be edited to zero duration in the edit bookings panel in order to delete them. 
+- Dragging to extend multiday bookings in aggregate views is now supported.
+- Map view now auto-refreshed bookings on date change.
+- Users can now specify an organization unit's location with an address input.
+- Users can now share a schedule board tab with specific others within the schedule board settings modal. 
+- Implemented consistent naming for characteristics and rating models.
+- Various visual improvements.
+- Fixed a bug that was causing the current time line to shift when selecting a cell in daily view.
+- Added satellite view option to map.
+
+## 3.12.153.127 (Hotfix1)
+
+**Resource Scheduling Controls:** 1.2.92.252162
+
+**Dataverse:** 4.0.143.127
+- Fixed a bug that was causing permissions errors for some users of schedule assistant and organizational units.
+
+## 3.12.153.124
+
+**Resource Scheduling Controls:** 1.2.92.252162
+
+**Dataverse:** 4.0.143.124
+
+- Performance enhancements for the Crew Allocation Tool when working with large numbers of resources.
+- Fixed a bug that was causing bookings extended to an additional day to update inaccurately.
+- Users can now hover over truncated titles in the schedule board details panel to see the full booking name.
+- Fixed a bug that was displaying incorrect end dates in some interday booking tool tips.
+- Added a scroll bar to the requirement panel's filters.
+- Fixed a bug that was causing the requirements panel to sort incorrectly.
+- Custom string fields are now filterable in the requirements panel.
+- Fixed a bug that was causing tooltips in multiday views to show the wrong times when time zone agnostic is enabled. 
+- Various localization enhancements.
+
+## 3.12.152.16
+
+**Resource Scheduling Controls:** 1.2.91.251882
+
+**Dataverse:** 4.0.142.16
+
+- Fixed a bug that was causing the incorrect day to be highlighted in the SOA date picker.
+- The map in SOA now shows routes on separate days.
+- Fixed a bug that was causing errors when dragging bookings in aggregate views. 
+- Improvements to Time Zone Agnostic behavior in schedule assistant.
+- Travel time and percentage utilization are now shown in SOA recommendations.
+- Fixed a bug that was showing incorrect start times in SOA list view.
+- Fixed a bug that was reverting the schedule board to UTC instead of the original time zone when exiting Time Zone Agnostic schedule assistant.
+- Fixed a bug that was impacting the time of bookings moved with drag and drop in weekly view.
+- Various improvements to selecting requirements on map view.
+- Improved how resources with capacity greater than 1 are rendered on the schedule board.
+- Various security enhancements.
+- Various accessibility enhancements.
+
+## 3.12.151.675 (Hotfix2)
+
+**Resource Scheduling Controls:** 1.2.90.251761
+
+**Dataverse:** 4.0.141.675
+
+- Resolved API error related to IgnoreTimeZone parameter. We fixed an issue that caused scheduling failures for some customers using custom layers on top of scheduling APIs. These customers encountered errors such as job scheduling failures or continuous flickering on the schedule board when using daily view. This hotfix ensures that the IgnoreTimeZone parameter is only passed to backend APIs if the Ignore Time Zone setting is enabled in Booking Setup Metadata (BSM). This improves compatibility for customers whose customizations may not include the latest solution updates.
+
+
+## 3.12.151.675 (Hotfix1)
+
+**Resource Scheduling Controls:** 1.2.90.251391
+
+**Dataverse:** 4.0.141.675
+
+- Resolved privilege error when using Schedule Assistant. We’ve fixed an issue where users with custom security roles encountered a missing privilege error (prvReadmsdyn_organizationalunit) when using Schedule Assistant to rebook bookings. This was caused by an incorrect service context in our backend logic. With this hotfix, the Schedule Assistant will function correctly without requiring changes to custom roles or privileges.
 
 ## 3.12.151.455
 

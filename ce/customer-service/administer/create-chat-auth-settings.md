@@ -1,6 +1,6 @@
 ---
 title: Configure authentication settings
-description: Perform the steps mentioned in this article to configure chat and channel authentication settings in Omnichannel for Customer Service.
+description: Perform the steps mentioned in this article to configure chat and channel authentication settings in Dynamics 365 Contact Center.
 ms.date: 03/03/2025
 ms.topic: how-to
 author: lalexms
@@ -71,10 +71,10 @@ You can create a chat authentication setting record in the admin app.
 ### Add authentication to chat widget
 
 1. In Copilot Service admin center, edit the chat widget in the workstream settings, and then go to the **Behaviors** tab.
-   
+
 2. In the **Authentication settings** box, browse and select the chat authentication record.
 
-When a signed-in customer on a portal opens the chat widget, the JavaScript client function passes the JWT from the client to the server. The JWT is decrypted and validated using the public key, and the information is then passed to the chat representative in Omnichannel for Customer Service. As an admin, you can also pass additional information about the signed-in customer in the JWT by defining custom context variables. The context variables must be defined exactly as they are in the workstream associated with the chat widget. Learn more in [Manage context variables](manage-context-variables.md#considerations).
+When a signed-in customer on a portal opens the chat widget, the JavaScript client function passes the JWT from the client to the server. The JWT is decrypted and validated using the public key, and the information is then passed to the chat representative in Dynamics 365 Contact Center. As an admin, you can also pass additional information about the signed-in customer in the JWT by defining custom context variables. The context variables must be defined exactly as they are in the workstream associated with the chat widget. Learn more in [Manage context variables](manage-context-variables.md#considerations).
 
 ### Setup for Power Apps portals
 

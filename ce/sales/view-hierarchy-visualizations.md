@@ -6,7 +6,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.collection:
-ms.date: 08/22/2025
+ms.date: 10/09/2025
 ms.custom: bap-template 
 ---
 
@@ -14,17 +14,21 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-As a seller, you can view the hierarchy visualization to better understand the relationships between records. Administrators must configure the hierarchy visualization for tables that you want to view.  
-For example, your administrator might publish a **Account hierarchy** that allows you to visualize customer’s related companies, regional offices, and branch locations. Your administrator may also publish a hierarchy called **Account contacts** that shows a hierarchy of people and their reporting structure and job titles associated with a given account.
+As a seller, you can view the hierarchy visualization to better understand the relationships between records. Administrators must design and publish a hierarchy to display data in a hierarchical manner.  
+For example, your administrator might publish a **Account hierarchy** that allows you to visualize customer’s related companies, regional offices, and branch locations. Your administrator may also publish a hierarchy called **Account contacts** that shows a hierarchy of people and their reporting structure and job titles associated with a given account.  
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Open hierarchy visualization
 
-When you open a record such as an account or a lead and if a hierarchy exists, the **Visual hierarchy** option appears on the command bar. Select the option and the hierarchy visualization page opens with a tree of tiles representing records and their relationships.
+In form view, open a record such as an account or a lead to see the **Visual hierarchy** option on the command bar.  
+In a grid view, select a single record to enable the **Visual hierarchy** option. If you select more than one record, the option is disabled.  
+Select the **Visual hierarchy** option to open the hierarchy visualization page, which displays a tree of tiles representing records and their relationships.  
 
 > [!NOTE]
-> The **Visual hierarchy** option isn't available if the admin doesn't configure a hierarchy visualization for the table or the table has no parent record relationships.
+>
+> - The **Visual hierarchy** option isn't available if the admin doesn't configure a hierarchy visualization for the table, or the table doesn't have parent record relationships.  
+> - If the **Visual hierarchy** option isn't visible on the command bar, select **More commands for *Table*** (⋮) on the command bar to see more options, and check if the **Visual hierarchy** option is available there.  
 
 :::image type="content" source="media/hv-select-visual-hierarchy.png" alt-text="Screenshot of the Visual hierarchy option in the command bar.":::
 

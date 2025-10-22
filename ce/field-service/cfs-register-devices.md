@@ -1,7 +1,7 @@
 ---
 title: Register IoT devices
 description: Learn about IoT devices and how to register them in Dynamics 365 Field Service.
-ms.date: 09/04/2024
+ms.date: 10/09/2025
 ms.subservice: connected-field-service
 ms.topic: how-to
 applies_to: 
@@ -41,8 +41,7 @@ Register a new device from Azure IoT Hub.
 
 1. Select **IoT devices** > **+New**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of the IoT devices screen in Azure IoT Hub.](./media/cfs-register-device-iothub-new.png)
+   :::image type="content" source="media/cfs-register-device-iothub-new.png" alt-text="Screenshot of the IoT devices screen in Azure IoT Hub.":::
 
 1. Enter a descriptive ID and select **Save**.
 
@@ -70,8 +69,7 @@ You can also create an IoT device directly in Field Service.
 
 1. Back in Azure IoT Hub, the IoT device created in Field Service appears with its new device ID.
 
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of Azure IoT Hub, showing the new device in the list of devices.](./media/cfs-register-device-fs-new-register-iothub.png)
+   :::image type="content" source="media/cfs-register-device-fs-new-register-iothub.png" alt-text="Screenshot of Azure IoT Hub, showing the new device in the list of devices.":::
 
 If the device doesn't register, an error appears in the **Registration Status** field of the asset record. An error might occur if Dynamics 365 isn't connected to Azure or if Azure is offline.
 

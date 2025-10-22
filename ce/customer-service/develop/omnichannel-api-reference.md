@@ -1,6 +1,6 @@
 ---
 title: "Omnichannel JavaScript API Reference | MicrosoftDocs"
-description: "Get an overview of the JavaScript API methods that can be used to perform various operations with the Omnichannel for Customer Service SDK."
+description: "Get an overview of the JavaScript API methods that can be used to perform various operations with the Dynamics 365 Contact Center SDK."
 ms.date: 05/24/2022
 ms.topic: reference
 author: gandhamm
@@ -11,7 +11,7 @@ ms.reviewer: mgandham
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The following JavaScript methods can be used to perform various operations with the Omnichannel for Customer Service SDK.
+The following JavaScript methods can be used to perform various operations with the Dynamics 365 Contact Center SDK.
 
 ## Methods
 
@@ -26,7 +26,7 @@ The following JavaScript methods can be used to perform various operations with 
 
 ### Related information
 
-[Omnichannel for Customer Service for developers](omnichannel-developer.md)  
+[Dynamics 365 Contact Center for developers](omnichannel-developer.md)  
 [Live chat SDK reference](omnichannel-reference.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

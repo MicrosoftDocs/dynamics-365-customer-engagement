@@ -1,6 +1,6 @@
 ---
 title: Configure proactive chat
-description: Learn how to enable and configure proactive chat in Omnichannel for Customer Service and how it works at runtime.
+description: Learn how to enable and configure proactive chat in Dynamics 365 Contact Center and how it works at runtime.
 ms.date: 02/05/2025
 ms.topic: reference
 author: lalexms

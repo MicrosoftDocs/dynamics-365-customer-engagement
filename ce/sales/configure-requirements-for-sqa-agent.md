@@ -84,7 +84,7 @@ To learn more about shared mailboxes, see [Shared mailboxes in Exchange Online](
 1. In Power Platform admin center, select the environment where you want to create the app user.  
 1. Go to **Settings** > **Users + permissions** > **Application users** and then select **+ New app user**.  
 1. In the **Create a new app user** pane, select **+ Add an app** and then add the application (Application client ID) that is registered in Azure.  
-1. Enter the business unit name, and enter the security role for the app user as **AIsalesperson**.  
+1. Enter the root business unit name, and the security role for the app user as **AIsalesperson**.  
 1. Select **Save**.  
 1. Go back to the agent settings page and select the **Mark as done** checkbox in the **Create an app user in Dataverse** section. You must select this checkbox to proceed with the agent configuration.  
 

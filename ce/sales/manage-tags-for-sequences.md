@@ -1,7 +1,7 @@
 ---
 title: Manage tags for sequences
 description: Manage the tags for sequences in sales accelerator by creating, adding, editing, and deleting.
-ms.date: 09/20/2024
+ms.date: 10/10/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -38,7 +38,7 @@ More information: [Security roles and privileges](/power-platform/admin/security
 Create tags to categorize sequences into a logical order. For example, you want to categorize leads based on their city of origin. You create tags with city names, such as Seattle and Hyderabad, and apply them to leads according to their city of origin.
 
 1. In the **Sales Hub** app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.  
-1. Under **Sales accelerator**, select **Sequence**.  
+1. Under **Sales accelerator**, select **Sequences**.  
 1. On the **Sequences** page, select **Tag manager**.  
     :::image type="content" source="media/sa-sequence-tags-select-tag-manager.png" alt-text="Screenshot of selecting the tag manager on the Sequences page.":::  
 1. On the **Tag manager** page, select **New tag**.  
@@ -110,7 +110,7 @@ For example, there are three levels of tags in the hierarchy. You delete a tag a
 <a name="apply-tag-to-sequence"></a>
 
 1. In the **Sales Hub** app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.  
-1. Under **Sales accelerator**, select **Sequence**.  
+1. Under **Sales accelerator**, select **Sequences**.  
 1. Select a sequence for which you want to apply tags, and then select **Edit tags**.  
     >[!NOTE]
     >You can also select the **Edit tags** option by opening the sequence.  
@@ -128,7 +128,7 @@ The tags are applied to the sequence.
 ## Filter sequences based on tags
 
 1. In the **Sales Hub** app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.  
-1. Under **Sales accelerator**, select **Sequence**.  
+1. Under **Sales accelerator**, select **Sequences**.  
 1. Select the **Tags** column.  
     The **Filter by option** opens.  
 1. Search for the tags to filter the sequence.  
@@ -139,7 +139,7 @@ The tags are applied to the sequence.
 ## Remove tags from a sequence
 
 1. In the **Sales Hub** app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.  
-1. Under **Sales accelerator**, select **Sequence**.  
+1. Under **Sales accelerator**, select **Sequences**.  
 1. Select a sequence for which you want to remove tags, and then select **Edit tags**.  
 1. In the **Sequence tags** section, select the **Cross** icon (**X**) corresponding to the tag, and then select **Apply**.  
 The tag is removed from the sequence.
