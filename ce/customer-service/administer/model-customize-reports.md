@@ -50,12 +50,12 @@ Enable data model customization for historical and real-time analytics reports i
 
 Before you begin, complete the following prerequisites:
 
-### Specific licensing requirements
+### Licenses
 
-Specific licensing requirements apply to: 
+Specific licensing requirements apply for: 
 
-  - All report users for accessing reports.
-  - All report authors, developers, and administrators for building Power BI reports and extending the default Power BI data model. 
+  - All report users to access reports.
+  - All report authors, developers, and administrators to build Power BI reports and extend the default Power BI data model. 
     
   Learn more at [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718) and [Power Platform Pricing](https://go.microsoft.com/fwlink/?linkid=2309616).
 
