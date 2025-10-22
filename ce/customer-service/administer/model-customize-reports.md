@@ -66,11 +66,11 @@ Specific licensing requirements apply to:
 
 ### Create a Microsoft Entra ID security group
 
-  - Your Microsoft Entra ID administrator must create a security group with your preferred name in Microsoft Entra ID and add **Dynamics 365 Analytics** service account as a member of this security group. For more information, see [Create a basic group and add members using Microsoft Entra ID](/entra/fundamentals/how-to-manage-groups).
+Your Microsoft Entra ID administrator must create a security group with your preferred name in Microsoft Entra ID and add **Dynamics 365 Analytics** service account as a member of this security group. For more information, see [Create a basic group and add members using Microsoft Entra ID](/entra/fundamentals/how-to-manage-groups).
 
-      The out-of-the-box **Service Principal Dynamics 365 Analytics** is used to deploy the data model and make changes to the Microsoft Fabric workspace on behalf of Customer Service.
+The out-of-the-box **Service Principal Dynamics 365 Analytics** is used to deploy the data model and make changes to the Microsoft Fabric workspace on behalf of Customer Service.
 
-      Power BI lets you grant permissions to groups only, not individual service principals, so you need to create a group.
+Power BI lets you grant permissions to groups only, not individual service principals, so you need to create a group.
 
   > [!NOTE]
   > If the Dynamics 365 Analytics service account isn't available in your organization, use the Dynamics CCA Data Analytics service account.
@@ -115,7 +115,7 @@ The specified workspace applies only to the customer's workspace. Microsoft crea
 ## Step 2: Provision the data models
 
 > [!NOTE]
-> For successful provision of the data models, make sure that you have created a Microsoft Entra ID security group and added **Dynamics 365 Analytics** service account as a member of this security group. Learn more in [Prerequisites](#prerequisites).
+> For successful provisioning of the data models, make sure that you have [created a Microsoft Entra ID security group](#create-a-microsoft-entra-id-security-group) and added **Dynamics 365 Analytics** service account as a member of this security group.
 
 It could take up to 24 hours for the provisioning to complete. You can leave the **Settings** page and check back after a few hours. Select **Refresh** to check the provisioning status.
 
