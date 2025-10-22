@@ -56,7 +56,7 @@ You can map which record types and data fields are used for each element. You ca
 
 Case attribute selections are applicable to both historical and real-time creation from cases. 
 
-### Enable track changes and add mapped entities to the Entity Analytics Config table
+#### Enable track changes and add mapped entities to the Entity Analytics Config table
 
 To avoid issues during knowledge article creation from historical data, we recommend that you enable **Track changes** for the mapped entities and add them to the **Entity Analytics Config** table .
 
@@ -76,16 +76,13 @@ To avoid issues during knowledge article creation from historical data, we recom
 
 ## Enable historical knowledge creation
 
-When enabled, the agent considers all the cases and conversations that meet the specified conditions and then determines if new articles are needed by comparing the content of the cases or conversations with the existing knowledge base. The agent then creates a new article, if required, based on the content of the cases and conversations.
+When enabled, the agent considers all the cases and conversations that meet the specified conditions and then determines if new articles are needed by comparing the content of the cases or conversations with the existing knowledge base. The agent then creates a new article, if required, based on the content of the cases and conversations. You can also [add custom record types (preview)](#add-custom-record-types-preview) that Customer Knowledge Management Agent can use to create new knowledge articles.
 
-1. Select the **Cases** or the **Conversations** tab.
+1. Select the **Cases**, **Conversations**, or the **Custom record types (preview)** tab.
 
-    ### [Case](#tab/case)
-    a. In the **Creation from historical cases** section, select the **Let copilot use information from historical cases to create knowledge articles** option.
-    ### [Conversations](#tab/conversations)
-    a. In the **Creation from historical conversations** section, select the **Let copilot use information from historical chat and messaging conversations to create knowledge articles** option.
-    ### [Custom record types (preview)](#tab/Custom record types)
-    a. In your custom record type section, select the **Let copilot use information from historical custom record types to create knowledge articles** option.
+    a. For cases, in the **Creation from historical cases** section, select the **Let copilot use information from historical cases to create knowledge articles** option.
+    b. For conversations, in the **Creation from historical conversations** section, select the **Let copilot use information from historical chat and messaging conversations to create knowledge articles** option.
+    c. For custom record types, in the **Custom record type** section, select the **Let copilot use information from historical custom record types to create knowledge articles** option.
 
 1. Select **Manage rules** to configure the conditions for the harvest.
 1. On the **Default rule** dialog, enter a rule name, condition name, and then add your conditions to filter historical articles. You may also specify a custom article template to be used for this rule. 
@@ -95,20 +92,6 @@ When enabled, the agent considers all the cases and conversations that meet the 
 Once you select start, you see that the article creation is in progress. You can see the creation process log by selecting the **View creation process log** link.
 
 Historical case or conversation creation is a long-running process that can't be stopped once it starts. The process can create articles from up to 100,000 individual cases or conversations and continues until all are processed. We recommend performing historical knowledge creation in batches. 
-
-## Specify a custom article template for historical knowledge creation 
-
-When you set up historical creation rules, you can choose a custom article template for new articles. By default, Customer Knowledge Management Agent creates articles in **Issue**, **Cause**, and **Resolution** format. If you have [configured knowledge article templates](../use/create-templates-knowledge-article.md#create-templates-for-knowledge-articles), you can specify one template per rule. 
-
-When you specify a custom article, Customer Knowledge Management Agent uses the template sections, section instructions, and styles to create the new article. Use the following best practices for your template: 
-
-- Include only content sections in the template; exclude metadata fields (for example, avoid fields like Article Creation Date).
-- Provide a detailed description for each section, explaining the type of content expected.
-- Clearly indicate which fields are required and which are optional within the template.
-- If categorization is needed, include the list of category options directly in the template.
-- Clearly separate any compliance text (for example, add a note such as “Do not edit below this line.”).
-- Use a consistent format for placeholders and variables, such as {{ProductName}} or {{ErrorCode}}.
-- Where possible, include a minimal, well-structured example within the template to guide users.
 
 ## Add custom record types (preview)
 
@@ -124,9 +107,24 @@ To add a custom record type:
 1. In the **Select record type** dropdown, select the record type you wish to create knowledge from.
 1. Select **Save and close**.
 
-You may add up to five custom record types. 
+You may add up to five custom record types.
+
+## Specify a custom article template for historical knowledge creation 
+
+When you set up historical creation rules, you can choose a custom article template for new articles. By default, Customer Knowledge Management Agent creates articles in **Issue**, **Cause**, and **Resolution** format. If you have [configured knowledge article templates](../use/create-templates-knowledge-article.md#create-templates-for-knowledge-articles), you can specify one template per rule. 
+
+When you specify a custom article, Customer Knowledge Management Agent uses the template sections, section instructions, and styles to create the new article. Use the following best practices for your template: 
+
+- Include only content sections in the template; exclude metadata fields (for example, avoid fields like Article Creation Date).
+- Provide a detailed description for each section, explaining the type of content expected.
+- Clearly indicate which fields are required and which are optional within the template.
+- If categorization is needed, include the list of category options directly in the template.
+- Clearly separate any compliance text (for example, add a note such as “Do not edit below this line.”).
+- Use a consistent format for placeholders and variables, such as {{ProductName}} or {{ErrorCode}}.
+- Where possible, include a minimal, well-structured example within the template to guide users.
 
 ## Manage additional record type attributes used to create knowledge articles
+
 Customer Knowledge Management Agent uses **Title**, **Description**, **Product**, **Subject**, **Email Content**, and **Case Notes** to create an article. You can modify all the fields except **Email Content**, **Incident Resolution** and **Conversation Summary**. 
  
 1. In your custom record type section, select **Manage attributes**. The **Manage data** page appears. 
