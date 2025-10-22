@@ -1,7 +1,7 @@
 ---
 title: Licenses and storage FAQs
 description: Discover answers to common questions about licenses and storage.
-ms.date: 03/15/2024
+ms.date: 10/22/2025
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
@@ -23,7 +23,6 @@ This article answers frequently asked questions about licenses and storage in Dy
 
 Review the [Licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409) to ensure that you have the appropriate licenses for all the Dynamics 365 features and functionalities that you're using.
 
- 
 ## What's the difference between Sales Premium and Sales Insights?
 
 Sales Premium, like Sales Enterprise, is a type of license. Sales Insights is an add-in for Dynamics 365 Sales. Sales Premium includes all Sales Enterprise capabilities and premium Sales Insights capabilities. Sales Enterprise includes basic Sales Insights capabilities. For a detailed comparison of the capabilities in each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.
@@ -41,6 +40,32 @@ For a detailed comparison of the capabilities available with each license, go to
 ## How can I assign licenses to users?  
 
 To assign licenses to users, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
+
+
+## FAQs about Copilot credits bundled with Dynamics 365 Sales Premium licenses
+
+### What are Copilot Studio credits?
+
+Copilot Studio credits are a type of capacity that allows users to utilize AI-powered features in Dynamics 365 Sales Premium. These credits enable sellers to leverage AI capabilities such as Copilot chat and AI agents to enhance their sales processes and improve productivity.
+
+### How many Copilot Studio credits do I get and how often are they allocated?
+
+With the Sales Premium license, each user receives a monthly allocation of Copilot Studio credits to utilize these AI features. These credits aren't cumulative and reset each month. For information on the specific number of credits included with your license, refer to the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
+
+You will be notified in advance when the initial credits are allocated to your tenant. There would be no disruption to your service during this process.
+
+### How can I track usage of the allocated credits?
+
+You can monitor credit usage in the [Power Platform admin center](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).  If you have questions or don't see your credits yet, contact Microsoft support for assistance. 
+
+### What if I need more credits?
+
+The included credits per user are designed to cover typical usage for most organizations. If your organization exceeds the included credits, you can purchase additional Copilot Studio credits as needed. Learn more in [Manage Copilot Studio credits and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new)
+
+### How can I ensure that credits allocated to my tenant are used by my sales team?
+
+Allocate the credits to the Dynamics 365 Sales environment that your sales team uses, as there is no other way to prevent other agents in your tenant from using the capacity. Learn more about capacity allocation in [Manage capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new#manage-capacity).
+
 
 ## Can I use the Sales Hub app with the Sales Professional license?
 
