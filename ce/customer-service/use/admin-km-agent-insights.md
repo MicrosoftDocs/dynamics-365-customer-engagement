@@ -1,12 +1,12 @@
 ---
-title: Use knowledge insights for Customer Knowledge Management Agent (preview)
+title: Use knowledge insights for Customer Knowledge Management Agent
 description: Use insights to enhance Customer Knowledge Management Agent, ensuring high-quality knowledge base and optimizing Copilot's performance.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 05/09/2025
+ms.date: 10/24/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -14,9 +14,7 @@ ms.custom:
   - ai-seo-date:02/26/2025
 ---
 
-# Use knowledge insights for Customer Knowledge Management Agent (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Use knowledge insights for Customer Knowledge Management Agent
 
 Supervisors and content managers can view the **Overall performance** report on the **Knowledge analytics** dashboard in Copilot Service workspace to get analytics on Customer Knowledge Management Agent. The effectiveness of Copilot responses depends on the quality of the knowledge base. To create and maintain high-quality knowledge articles, supervisors require insights on:
 
@@ -27,13 +25,11 @@ Supervisors and content managers can view the **Overall performance** report on 
 
 These insights help supervisors identify and address gaps, enhance the knowledge repository, and optimize Copilot's performance. Self-service article publishing and greater resource control reduce support and content management costs. Feedback from service representatives also help the system and the content managers identify and act on low quality articles.
 
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
-
 ## Prerequisites
 
 - Your administrator turns on [Customer Knowledge Management Agent ](../administer/admin-km-agent.md) and enabled the **Real-time creation** and **Creation from historical cases** options.
 
-- Your administrator enables the **Record user interactions with AI, including user actions and their feedback on AI suggestions** option, on the **Customer Knowledge Management Agent (preview)** > **User experience data** section.
+- Your administrator enables the **Record user interactions with AI, including user actions and their feedback on AI suggestions** option, on the **Customer Knowledge Management Agent** > **User experience data** section.
 
 ## Overall performance dashboard
 
