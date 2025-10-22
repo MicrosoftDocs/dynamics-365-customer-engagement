@@ -516,7 +516,7 @@
             href: set-up-case-closure.md  
       - name: Customer Knowledge Management Agent
         items:
-        - name: Enable Customer Knowledge Management Agent
+        - name: Manage Customer Knowledge Management Agent
           href: admin-km-agent.md
         - name: Configure connection references
           href: admin-km-agent-connections.md
