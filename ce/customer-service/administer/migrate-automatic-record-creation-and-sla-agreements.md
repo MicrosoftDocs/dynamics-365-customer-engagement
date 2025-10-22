@@ -1,7 +1,7 @@
 ---
 title: Migrate automatic record creation rules and service-level agreements
 description: Learn how to migrate automatic record creation rules and SLAs from legacy to Unified Interface.
-ms.date: 04/21/2025
+ms.date: 10/22/2025
 ms.topic: upgrade-and-migration-article
 author: neeranelli
 ms.author: nenellim
@@ -63,9 +63,6 @@ The migration progress is indicated on the page as follows; the colored circle i
 5. **Migration:** Post-migration, allows you to review the successfully migrated rules and rules that failed migration.
 
 6. **Finish:** Provides you with a summary and status page of the successfully migrated rules, pending rules, and rules that failed migration.
-
-> [!NOTE]
-> You can also refer to the migration playbook, which includes all the information you need to work on the migration. More information: [Dynamics 365 SLA and ARC Migration Playbook](https://www.d365implementationguide.com/books/aiij/).
 
 ## Access the migration tool
 
