@@ -102,15 +102,13 @@ When you initiate a consult, the following actions occur:
 - If the primary representative or customer ends the call, the call ends for everyone. 
 - If the primary representative refreshes their browser, all the participants are placed on hold until the primary representative returns to the call. 
 
-If [consult to queue](../administer/enable-transfer-consult.md#enable-consult-to-queue) is enabled by your administrator, then the option to consult with a queue appears on the chat window. Learn more in [Consult to queue](oc-conversation-control.md#consult-queue).
-
 **Consult with another user**
 
-1. Select **Consult** in the call window. 
+1. Select **Consult** in the call window.
 
     :::image type="content" source="../media/oc-consult-btn.png" alt-text="Image of consult icon on the call controls.":::
    
-   The **Consult** dialog box appears. The **Agent**, **Teams**, and **External number** tabs are displayed.
+   The **Consult** dialog appears. The **Agent**, **Teams**, and **External number** tabs are displayed.
 
    :::image type="content" source="../media/oc-consult-optns.png" alt-text="Screenshot of available consult options.":::
 
@@ -129,10 +127,16 @@ If [consult to queue](../administer/enable-transfer-consult.md#enable-consult-to
     
     The call recording and transcript of the conversation with the Teams user during consult is saved in the application for reporting and compliance.
 
+### Consult to queue
+
+If [consult to queue](../administer/enable-transfer-consult.md#enable-consult-to-queue) is enabled by your administrator, then the option to consult with a queue appears on the chat window. Learn more in [Consult to queue](oc-conversation-control.md#consult-queue).
+
 ### Related information
 
 [Overview of the voice channel](../administer/voice-channel.md)  
 [Enable voice consult with Microsoft Teams users](../administer/voice-consult-microsoft-teams-user.md)  
 [Call a customer](voice-channel-call-customer.md)  
+[Enable consult and transfer](../administer/enable-transfer-consult.md)  
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
