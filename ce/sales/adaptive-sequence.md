@@ -49,8 +49,7 @@ Conditions in the adaptive sequences work as defined only when **Sales Insights 
 
 Sales Insights Adaptive sequence timeout flow handles the wait time for step types like field value evaluation, BPF, update field, and advance to next sequence step. To verify that the flow is working as expected, follow these steps:
 
-1. Ensure that you have admin access to Power Automate and a valid Dynamics 365 Sales license.
-1. Enable [the **Sales Insights Adaptive sequence timeout flow** process](#prerequisite) as described in the previous section.
+1. Ensure that you have admin access to Power Automate and a valid Dynamics 365 Sales license.  
 1. Go to [Power Automate](https://flow.microsoft.com) and change the environment to your organization.  
 1. In the left navigation pane, go to **Solutions** > **Default Solution** > **Cloud flows** and open **Sales Insights Adaptive sequence timeout flow**.  
 1. In the **Connection References** section, verify that all connections are valid and authenticated. A green check mark indicates that the connection is valid.  
