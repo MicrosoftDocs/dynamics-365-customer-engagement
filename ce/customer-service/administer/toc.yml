@@ -514,7 +514,7 @@
             href: set-up-case-resolution-agent.md  
           - name: Set up Case Management Agent to follow up and close cases
             href: set-up-case-closure.md  
-      - name: Customer Knowledge Management Agent (preview)
+      - name: Customer Knowledge Management Agent
         items:
         - name: Enable Customer Knowledge Management Agent
           href: admin-km-agent.md
