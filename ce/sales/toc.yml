@@ -195,6 +195,12 @@ items:
                 href: sales-research-agent.md
               - name: Set up and configure Sales Research Agent
                 href: configure-sales-research-agent.md
+          - name: Sales Close Agent (preview)
+            items:
+              - name: Overview
+                href: sales-close-agent.md
+              - name: Set up and configure Deal Close Agent
+                href: configure-sales-close-agent.md      
           - name: Copilot Studio agents and Entra app registrations
             href: ai-agents-apps.md
       - name: Copilot in Dynamics 365 Sales
