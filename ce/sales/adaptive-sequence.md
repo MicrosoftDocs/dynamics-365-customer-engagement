@@ -43,7 +43,7 @@ Conditions in the adaptive sequences work as defined only when **Sales Insights 
  
     :::image type="content" source="media/sa-condition-enable-process-turn-on-adaptive-sequence-timeout-flow.png" alt-text="Screenshot of enabling the Sales Insights Adaptive sequence timeout flow in Power Automate.":::
 
-    The process is enabled. [Verify that the flow is working as expected](#verify-the-flow-is-working).  
+    The process is enabled. [Verify the flow](#verify-the-flow-is-working).  
 
 ### Verify the flow is working
 
@@ -54,7 +54,7 @@ Sales Insights Adaptive sequence timeout flow handles the wait time for step typ
 1. Go to [Power Automate](https://flow.microsoft.com) and change the environment to your organization.  
 1. In the left navigation pane, go to **Solutions** > **Default Solution** > **Cloud flows** and open **Sales Insights Adaptive sequence timeout flow**.  
 1. In the **Connection References** section, verify that all connections are valid and authenticated. A green check mark indicates that the connection is valid.  
-1. If any connection is invalid, a red exclamation mark is displayed. To fix the invalid connection, follow these steps:  
+1. If any connection is invalid, a red exclamation mark is displayed. Open the connection that is invalid, For example, open the **Common Data Service (current environment)** (`msdyn_acceleratedsales_connection`) if that connection is invalid. follow these steps:  
     1. In the left navigation pane, go to **Solutions** > **Default Solution** > **Connection References**.  
     1. Open the **Common Data Service (current environment)** (`msdyn_acceleratedsales_connection`) connection that's invalid.  
         :::image type="content" source="media/sa-condition-verify-adaptive-sequence-timeout-flow.png" alt-text="Screenshot of opening common data services connection in Power Automate.":::  
