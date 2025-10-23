@@ -214,7 +214,7 @@
             href: use-case-resolution-agent.md            
           - name: Use Case Management Agent to follow up and close cases
             href: use-case-follow-up-closure.md
-        - name: Customer Knowledge Management Agent (preview)
+        - name: Customer Knowledge Management Agent
           items:
           - name: Review knowledge articles created by the Customer Knowledge Management Agent
             href: admin-km-agent-review.md
@@ -222,10 +222,12 @@
             href: admin-km-agent-insights.md
         - name: Quality Evaluation Agent
           items:
-          - name: Use evaluation plan
-            href: /dynamics365/contact-center/use/evaluation-plan?context=/dynamics365/customer-service/context/use-context
           - name: Use evaluation criteria
             href: /dynamics365/contact-center/use/evaluation-criteria?context=/dynamics365/customer-service/context/use-context
+          - name: Use evaluation plan
+            href: /dynamics365/contact-center/use/evaluation-plan?context=/dynamics365/customer-service/context/use-context
+          - name: Use on-demand evaluation
+            href: /dynamics365/contact-center/use/on-demand-evaluation?context=/dynamics365/customer-service/context/use-context
           - name: Use evaluations
             href: /dynamics365/contact-center/use/use-evaluations?context=/dynamics365/customer-service/context/use-context
       - name: Chat and Channels
