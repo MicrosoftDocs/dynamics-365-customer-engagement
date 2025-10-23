@@ -20,9 +20,9 @@ You can:
 - Download and store report versions for audit, rollback, and historical tracking
 
 > [!NOTE]
-> - The export or import APIs support published visual customizations only. Export or import of draft customizations isn't supported.
-> - Importing an older report into a newer organization version works. Importing a newer report into an older organization version might fail.
-> - Actual Power BI files aren't directly accessible; only entity records are managed.
+> -  The export or import APIs support published visual customizations only. Export or import of draft customizations isn't supported.
+> - **Version compatibility**: Importing an older report into a newer organization version works. Importing a newer report into an older organization version might fail.
+> - **Power BI file access**: Power BI files aren't directly accessible; only entity records are managed.
 
 ## Prerequisites
 
