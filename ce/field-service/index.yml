@@ -108,7 +108,7 @@ additionalContent:
     - title: Bookable resources
       links:
       - url: set-up-characteristics.md
-        text: Specify resource skills
+        text: Specify resource characteristics
       - url: resource-crews.md
         text: Create a crew
       - url: resource-pools.md
