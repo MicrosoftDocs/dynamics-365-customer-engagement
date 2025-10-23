@@ -44,10 +44,9 @@ The **Details** tab of the **Conversation - Conversation Form** displays the con
 
 :::image type="content" source="../media/voice-channel-recording.png" alt-text="Screenshot of call recording and transcript controls." lightbox="../media/voice-channel-recording.png":::
 
-**Recording playback**
+### Recording playback
 
-> [!NOTE]
-> This section is applicable to voice calls only.
+The information pertaining to recording playbook is available for the voice channel only.
 
 - **Play**: Select the button to listen to the conversation audio.
 
@@ -57,7 +56,7 @@ The **Details** tab of the **Conversation - Conversation Form** displays the con
 - **Speed**: From the dropdown menu, select the playback speed of the conversation, whether slower or faster. **Normal** is the default, and is the speed in which the conversation was recorded.
 - **Conversation scroll bar**: Move the scroll bar to any point of the conversation, or listen to it from beginning to end. When you select a location in the recording visualization, the transcript also moves to the same place in the conversation.
 
-**Overview**
+### Overview
 
 - **Channel**: The type of communication conducted.
 - **Status**: The state of the communication.
@@ -65,16 +64,15 @@ The **Details** tab of the **Conversation - Conversation Form** displays the con
 - **Workstream**: The workstream the conversation was conducted in.
 - **Skills**: The list of agent skills.
 - **Regarding**: The link to the case or customer record.
-- **Sentiment**: The average sentiment of the conversation; values can be positive, neutral, or negative.
+- **Sentiment**: The average sentiment of the conversation; values can be positive, neutral, or negative only.
 
-**Summary**
+### Summary
 
 If your administrator configured Copilot to generate summaries after a conversation ends, the conversation summary appears on the form when the conversation ends. If no summary is generated when the call or chat ends, such as the call or chat ended with an AI agent, then a new summary is generated when the transcript viewer appears.
 
-> [!NOTE]
-> If you open the conversation before the transcription is processed, the summary isn't available; refresh the summary when the transcription appears.
+If you open the conversation before the system processes the transcription, the summary isn't available; refresh the page to view the summary when the transcription appears.
 
-**Transcript**
+### Transcript
 
 - **Search**: Enter keywords in the search field to locate the required sections of the conversation.
 
@@ -83,10 +81,9 @@ If your administrator configured Copilot to generate summaries after a conversat
    > [!NOTE]
    > Inline images and rendering of videos isn't supported in downloaded transcripts.
 
-**Call Metrics**
+### Call Metrics
 
-> [!NOTE]
-> This section is applicable to voice calls only.
+The call metrics are available for the voice channel only.
 
 - **Talking speed**: The rate of speed in which participants conversed during the call.
 
@@ -95,7 +92,7 @@ If your administrator configured Copilot to generate summaries after a conversat
 - **Longest customer monologue**: The longest amount of time that the customer spoke during the conversation.
 - **Switches per conversation**: The number of times the conversation switched from representative to customer, and vice versa.
 
-**Post-conversation survey**
+### Post-conversation survey
 
 You can view the following details from the post-conversation survey:
 
@@ -112,7 +109,7 @@ The following considerations apply:
 - If one of the three values (**CSAT**, **First Contact Resolution**, or **Net Promoter Score**) aren't collected in a survey, they're hidden.
 - If the customer doesn't provide a value, the corresponding label isn't displayed in the survey results.
 
-**Conversation Journey**
+### Conversation Journey
 
 Displays details about the number of agents assigned to the conversation, other participants, and the duration, date, and time of each leg of the conversation.
 
