@@ -1,5 +1,5 @@
 ---
-title: Export and import visual customizations of analytic reports 
+title: Export and import visual customization of analytic reports 
 description: Export and import visual customizations of analytic reports in Dynamics 365. Move customizations between organizations, maintain version control, and learn how to streamline report management.
 author: Soumyasd27
 ms.author: sdas
@@ -10,9 +10,9 @@ ms.date: 10/23/2025
 ms.custom: bap-template
 ---
 
-# Export and import visual customizations of analytics reports 
+# Export and import visual customization of analytics reports 
 
-As an administrator or a supervisor, you can export and import visual customizations of analytics reports between different organizations in Dynamics 365. This eliminates the need to manually recreate customizations in each organization. You can export visual customizations from your current organization and import published visual customizations into another organization.
+As an administrator or a supervisor, you can export and import visual customization of analytics reports between different organizations in Dynamics 365. This eliminates the need to manually recreate customizations in each organization. You can export visual customizations from your current organization and import published visual customizations into another organization.
 
 You can:
 - Move visual customizations from development to production without manual rework. 
@@ -31,7 +31,7 @@ You can:
 
 Make sure that the target organization is at the same or a higher version than the source. This guarantees that all metrics and columns used in visual customizations exist in the target environment, allowing imported customizations to render correctly.
 
-## Export visual customizations
+## Export visual customization
 
 The Export API allows users to extract report content from a source organization.
 
@@ -50,7 +50,7 @@ Payload Example:
 **Response**: 
 You’ll receive a bodybinary value, which is a base 64-encoded string representing the report.
 
-## Import visual customizations
+## Import visual customization
 
 The Import API enables users to apply the exported content to one or more target organizations.
 
@@ -70,9 +70,9 @@ Payload Example:
 Existing customizations are replaced. If not, a new report record is created and bound to the out-of-box report.
 
 
-## Feature IDs for Common Analytics Reports
+## Feature IDs for common analytics reports
 
-|Analytics Report   |Feature ID  |Pages Included  |
+|Analytics report   |Feature ID  |Pages included  |
 |---------|---------|---------|
 |Customer Service Manager|	8fef4d92-fba9-ea1.1-a81c-000d3a6ce6ca|	Summary, Agent, Topics|
 |Copilot|	435b99cc-ec86-4b26-a2d2-ec7f1334e99|	Copilot|
