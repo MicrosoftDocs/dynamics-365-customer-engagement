@@ -1,7 +1,7 @@
 ---
 title: Add condition steps to sequences
 description: Discover how to use adaptive sequences in sales accelerator to define condition steps that guide the path of a sequence.
-ms.date: 07/22/2025
+ms.date: 10/23/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -43,7 +43,7 @@ Conditions in the adaptive sequences work as defined only when **Sales Insights 
  
     :::image type="content" source="media/sa-condition-enable-process-turn-on-adaptive-sequence-timeout-flow.png" alt-text="Screenshot of enabling the Sales Insights Adaptive sequence timeout flow in Power Automate.":::
 
-    The process is enabled.  
+    The process is enabled. [Verify that the flow is working as expected](#verify-the-flow-is-working).  
 
 ### Verify the flow is working
 
@@ -56,9 +56,9 @@ Sales Insights Adaptive sequence timeout flow handles the wait time for step typ
 1. In the **Connection References** section, verify that all connections are valid and authenticated. A green check mark indicates that the connection is valid.  
 1. If any connection is invalid, a red exclamation mark is displayed. To fix the invalid connection, follow these steps:  
     1. In the left navigation pane, go to **Solutions** > **Default Solution** > **Connection References**.  
-    1. Open the **Common Data Service (current environment)** connection that's invalid.  
+    1. Open the **Common Data Service (current environment)** (`msdyn_acceleratedsales_connection`) connection that's invalid.  
         :::image type="content" source="media/sa-condition-verify-adaptive-sequence-timeout-flow.png" alt-text="Screenshot of opening common data services connection in Power Automate.":::  
-    1. In the **Edit Common Data Service (current environment)** pane, ensure the value in the **Connection** field is correct. If the value is incorrect, select an existing valid connection or create a new one. This opens the connections page where you can choose Microsoft Dataverse.  
+    1. In the **Edit Common Data Service (current environment)** pane, ensure that the **Connection** field is not empty and correct. If the field value is incorrect, select an existing valid connection or create a new one. This opens the connections page where you can choose Microsoft Dataverse.  
     1. Save the changes and verify that the connection is now valid with a green check mark.  
 
 <a name="define-conditions-for-email-activity"></a>
