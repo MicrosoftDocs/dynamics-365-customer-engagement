@@ -1,6 +1,6 @@
 ---
 title: Overview of agents
-description: Get an overview of agents and how you can configure and use them in Omnichannel for Customer Service.
+description: Get an overview of agents and how you can configure and use them in Dynamics 365 Contact Center.
 ms.date: 04/21/2025
 author: neeranelli
 ms.author: nenellim
@@ -21,11 +21,11 @@ An AI agent is a program that provides automated responses in a conversational m
 
 An agent eases the load on your customer service service representatives by handling basic queries. This saves your representatives' time so they can work on more complex issues. You can configure your agents to escalate a query to a human representative as required, or when requested by the customer.
 
-In Omnichannel for Customer Service, you can integrate agents created in both Azure and Copilot Studio to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to a service representative, as required.
+In Dynamics 365 Contact Center, you can integrate agents created in both Azure and Copilot Studio to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to a service representative, as required.
 
 ## Integrate Azure and Copilot agents
 
-When you integrate agents with Omnichannel for Customer Service, you get the following capabilities:
+When you integrate agents with Dynamics 365 Contact Center, you get the following capabilities:
 
 - Seamlessly integrate your agents with chat and social channels without needing to add channel-specific code in the agent.
 - Transfer chat conversations from agents to representatives, together with the full context of the conversation.

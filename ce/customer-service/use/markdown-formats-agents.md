@@ -1,6 +1,6 @@
 ---
 title: Markdown formats for representatives
-description: Read this article to know about the Markdown formats that representatives can use for chat messages in Omnichannel for Customer Service.
+description: Read this article to know about the Markdown formats that representatives can use for chat messages in Dynamics 365 Contact Center.
 author: gandhamm
 ms.author: mgandham
 ms.date: 06/14/2024

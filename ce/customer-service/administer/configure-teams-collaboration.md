@@ -21,7 +21,7 @@ This feature uses the AI capability to automatically suggest contacts in real-ti
 
 > [!NOTE]
 > - Case is applicable to Customer Service only.
-> - Through Teams, representatives can connect and engage with customers also if Omnichannel for Customer Service is enabled.
+> - Through Teams, representatives can connect and engage with customers also if Dynamics 365 Contact Center is enabled.
 
 ## Prerequisites
 

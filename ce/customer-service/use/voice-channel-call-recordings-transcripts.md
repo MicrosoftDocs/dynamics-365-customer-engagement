@@ -1,7 +1,7 @@
 ---
 title: View conversation transcripts and call recordings
 description: Use this article to learn how to view conversation transcripts and call recordings.
-ms.date: 06/10/2025
+ms.date: 10/22/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -65,6 +65,7 @@ The **Details** tab of the **Conversation - Conversation Form** displays the con
 - **Workstream**: The workstream the conversation was conducted in.
 - **Skills**: The list of agent skills.
 - **Regarding**: The link to the case or customer record.
+- **Sentiment**: The average sentiment of the conversation; values can be positive, neutral, or negative.
 
 **Summary**
 
@@ -87,9 +88,8 @@ If your administrator configured Copilot to generate summaries after a conversat
 > [!NOTE]
 > This section is applicable to voice calls only.
 
-- **Sentiment**: The average sentiment of the call.
-
 - **Talking speed**: The rate of speed in which participants conversed during the call.
+
 - **Talk to listen ratio**: The ratio in which the representative spoke versus listened to the customer.
 - **Average pause**: The average amount of time in which the conversation was paused.
 - **Longest customer monologue**: The longest amount of time that the customer spoke during the conversation.

@@ -1,5 +1,5 @@
 ---
-title: Search, link, and unlink records in Omnichannel for Customer Service
+title: Search, link, and unlink records in Dynamics 365 Contact Center
 description: Learn how to search, link, and unlink records. Also, learn how to link records to conversations.
 author: neeranelli
 ms.author: nenellim
@@ -23,7 +23,7 @@ You can search for records in two ways:
 
 ## Search for records by using the inline search option
 
-When you accept an incoming conversation request and there's no customer record identified in Omnichannel for Customer Service, use the inline search option in the customer (**Contact** or **Account**) section and **Case** section to search for a contact or account and case, respectively. Inline search is based on the Lookup View and Quick Find View. You can search the fields (attributes) that are included in the Lookup View and Quick Find View fields.
+When you accept an incoming conversation request and there's no customer record identified in Dynamics 365 Contact Center, use the inline search option in the customer (**Contact** or **Account**) section and **Case** section to search for a contact or account and case, respectively. Inline search is based on the Lookup View and Quick Find View. You can search the fields (attributes) that are included in the Lookup View and Quick Find View fields.
 
 For the customer (**Contact** or **Account**) section, you can search for a Contact or Account record. By default, you can search by using the following fields.
 

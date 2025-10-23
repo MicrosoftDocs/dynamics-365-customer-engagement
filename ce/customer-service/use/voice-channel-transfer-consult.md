@@ -21,7 +21,7 @@ To familiarize yourself with the call controls, see [Understand how to use the a
 
 ## Prerequisites
 
-- To transfer the calls to another service representative, the **Transfer to representative** setting in Copilot Service admin center is enabled by your administrator.
+- To transfer the calls to another service representative, the [transfer to representative](../administer/enable-transfer-consult.md) setting is enabled by your administrator.
 - To transfer calls to an external PSTN number or a Teams user, the transfer settings must be enabled in the voice channel instance settings.
 
 ## Transfer calls
@@ -105,7 +105,7 @@ When you initiate a consult, the following actions occur:
 **Consult with another user**
 
 1. Select **Consult** in the call window. 
-    
+
     :::image type="content" source="../media/oc-consult-btn.png" alt-text="Image of consult icon on the call controls.":::
    
    The **Consult** dialog box appears. The **Agent**, **Teams**, and **External number** tabs are displayed.
@@ -131,7 +131,6 @@ When you initiate a consult, the following actions occur:
 
 [Overview of the voice channel](../administer/voice-channel.md)  
 [Enable voice consult with Microsoft Teams users](../administer/voice-consult-microsoft-teams-user.md)  
-[Enable transfer of conversations to representatives](../administer/enable-transfer-consult.md)  
 [Call a customer](voice-channel-call-customer.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

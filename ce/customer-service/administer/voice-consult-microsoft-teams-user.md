@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-Customer service isn't always limited to contact centers. Employees within the enterprise are often required to assist service representatives in customer service scenarios and talk to customers directly for highly technical or VIP engagements. You can enable your representative to consult with or transfer voice calls in Omnichannel for Customer Service to subject matter experts (SMEs) in Microsoft Teams using Voice Over Internet Protocol (VOIP). This feature is available through Azure Communication Services Call Automation.
+Customer service isn't always limited to contact centers. Employees within the enterprise are often required to assist service representatives in customer service scenarios and talk to customers directly for highly technical or VIP engagements. You can enable your representative to consult with or transfer voice calls in Dynamics 365 Contact Center to subject matter experts (SMEs) in Microsoft Teams using Voice Over Internet Protocol (VOIP). This feature is available through Azure Communication Services Call Automation.
 
 With this feature, SMEs can participate in customer service conversations from Microsoft Teams directly without having to configure a phone number. Any Teams users in your tenant who is displayed in the Teams search box can receive calls from your representatives.
 

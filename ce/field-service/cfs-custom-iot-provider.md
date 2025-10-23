@@ -1,7 +1,7 @@
 ---
 title: Use custom IoT providers
 description: Integrate custom IoT solutions with Field Service through the IoT provider feature, which allows users to interact with IoT-enabled devices from any vendor.
-ms.date: 09/04/2024
+ms.date: 10/03/2025
 ms.subservice: connected-field-service
 ms.topic: article
 ms.author: vhorvath
@@ -23,13 +23,15 @@ This article describes the IoT provider data model and provides an overview of t
 
 ## Prerequisites
 
+The following prerequisites are required to build custom IoT solutions:
+
 - Experience developing [model-driven apps](/powerapps/developer/model-driven-apps/overview) that connect to Dynamics 365 and Microsoft Dataverse
 - Programming experience with C#, .NET, and Visual Studio
 - Familiarity with the REST/OData API
 
 ## Field Service data model
 
-All the methods to integrate external IoT services with Field Service must fit the Field Service IoT provider data model, which consists of three related tables (IoT Provider, IoT Provider Instance, and IoT Device) and a table of IoT settings.
+All methods to integrate external IoT services with Field Service must align with the Field Service IoT provider data model. This model includes three related tables: [IoT Provider](#iot-provider-table), [IoT Provider Instance](#iot-provider-instance-table), and [IoT Device](#iot-device-table), as well as a table for IoT settings.
 
 :::image type="content" source="media/cfs-entity-model.svg" alt-text="Diagram of the Field Service IoT provider data model.":::
 
@@ -41,7 +43,7 @@ The `IoT Provider` table identifies your organization's IoT providers and the [a
 
 ### IoT Provider Instance table
 
-A one-to-many (1:many) relationship exists between the `IoT Provider` table and the `IoT Provider Instance` table. For example, if your organization is connected to two different Azure IoT Hubs, you have one IoT provider record for Azure IoT Hub and two IoT provider instance records, one for each of your IoT Hubs. You can view the list of IoT provider instances in Field Service **Settings** > **IoT** > **Providers**.
+A one-to-many (1:many) relationship exists between the `IoT Provider` table and the `IoT Provider Instance` table. For example, if your organization is connected to two different Azure IoT Hubs, you have one IoT provider record for Azure IoT Hub and two IoT provider instance records, one for each of your IoT Hubs. You can view the list of IoT provider instances in the Field Service **Settings** area > **IoT** > **Providers**.
 
 :::image type="content" source="media/cfs-iot-hub-provider-instance.png" alt-text="Screenshot of an IoT provider instance record.":::
 
@@ -52,10 +54,10 @@ A one-to-many (1:many) relationship exists between the `IoT Provider` table and 
 
 A 1:many relationship exists between the `IoT Provider Instance` table and the `IoT Device` table, which maps each device to an IoT provider instance.
 
-- **Account** identifies the customer account in Field Service that has an association with the device.
-- **Category** is the device category.
-- **Time Zone** is the time zone in which the device is located.
-- **Device Id** is used to register the device with the IoT provider.
+- **Account** identifies the customer account in Field Service associated with the device.
+- **Category** specifies the device category.
+- **Time Zone** indicates the time zone where the device is located.
+- **Device Id** registers the device with the IoT provider.
 - **Simulated** is used in development and testing.
 
 ## Connection methods and development tools

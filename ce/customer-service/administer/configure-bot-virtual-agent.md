@@ -41,7 +41,7 @@ You must have:
 - Specific licensing requirements apply to configure and use agents in Copilot Studio. Learn more in [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718).
 - Chat, digital messaging, or voice channel in Dynamics 365 Customer Service require specific licenses depending on your business requirements. Learn more in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 - The CCI Admin security role to access the agent you create in Copilot Service admin center in Copilot Studio.
-- The Omnichannel administrator role. Learn more in [Manage user roles](/dynamics365/customer-service/implement/add-users-assign-roles)
+- The Omnichannel administrator role. Learn more in [Manage user roles](/dynamics365/customer-service/implement/add-users-assign-roles).
 
 ## Create a Copilot agent
 
@@ -55,7 +55,7 @@ You can create Copilot agents in one of the following ways:
 
 ## Connect your Copilot agent to omnichannel instance
 
-For the agent to be able to interact with customers in Dynamics 365 Contact Center or Customer Service, you must integrate the agent with your application. Follow the procedure in [Connect your Copilot agent to omnichannel](/microsoft-copilot-studio/configuration-hand-off-omnichannel) to connect your Copilot agent to the omnichannel instance. 
+For the agent to be able to interact with customers in Dynamics 365 Contact Center or Customer Service, you must integrate the agent with your application. Follow the procedure in [Connect your Copilot agent to omnichannel](/microsoft-copilot-studio/configuration-hand-off-omnichannel) to connect your Copilot agent to the omnichannel instance.
 
 When your customers need to speak with a representative, your agent can seamlessly hand off the conversation. When your agent hands off a conversation, it can share the full history of the conversation, and all relevant variables. Make sure you have an escalation article configured in your agent to hand off the conversation to a representative. Learn more in [hand off to a live agent](/microsoft-copilot-studio/advanced-hand-off).
 
@@ -77,7 +77,6 @@ In the Copilot Service admin center app, select the Copilot agent from the list 
 > - Agents can receive conversations only if they're added to push-based workstreams.
 > - Voice-enabled agents that you create in the Copilot Service admin center work with enhanced voice workstreams only. Classic agents aren't supported in the enhanced voice experience. To create classic agents for existing voice workstreams that aren't migrated, use Copilot Studio.
 
-
 ### Configure context variables for the Copilot agent
 
 After you configure your agent and add it to a workstream, you can configure context variables to [route work items](/dynamics365/customer-service/administer/queues-omnichannel?context=/dynamics365/contact-center/context/administer-context). You can also share context from Omnichannel with your Copilot agent to create a rich and personalized experience. Learn more about creating context variables in [Manage context variables](/dynamics365/customer-service/administer/manage-context-variables?context=/dynamics365/contact-center/context/administer-context). Learn more about configuring context variables for Copilot agents in [Configure context variables for Copilot agent](/dynamics365/customer-service/administer/context-variables-for-bot#context-variables-for-copilot-studio-bots?context=/dynamics365/contact-center/context/administer-context).
@@ -85,7 +84,6 @@ After you configure your agent and add it to a workstream, you can configure con
 ## Add an agent to a queue
 
 You can add an agent to the queue so that the agent can receive conversations from the queue. Learn more in [create and manage queues for unified routing](/dynamics365/customer-service/administer/queues-omnichannel?context=/dynamics365/contact-center/context/administer-context).
-
 
 ## Automatically close a conversation
 
@@ -97,7 +95,7 @@ This conversation appears in the Omnichannel Agent dashboard with the status set
 
 You must include an end of conversation article in a Copilot agent to provide a clear and natural conclusion to the interaction, enhancing the overall user experience. It also allows the agent to suggest next steps, gather feedback, and handle any final errors, ensuring the user leaves the interaction satisfied. 
 
-In the voice channel, the system doesn't listen for the **closeOmnichannelConversation** context variable. You must configure an [end of conversation message](#end-agent-conversations) that explicitly ends the conversation in Omnichannel for Customer Service.
+In the voice channel, the system doesn't listen for the **closeOmnichannelConversation** context variable. You must configure an [end of conversation message](#end-agent-conversations) that explicitly ends the conversation in Dynamics 365 Contact Center.
 
 1. In Copilot Studio, for the selected agent, add a new topic.
 
@@ -105,7 +103,7 @@ In the voice channel, the system doesn't listen for the **closeOmnichannelConver
 
 1. On the Power Automate window that opens on a new tab, do the following steps:
    1. In the **Return value(s) to Power Virtual Agents** box, select **Add an output**, and then select **Yes/No**.
-   2. In the **Enter title** box, enter CloseOmnichannelConversation, which is the Omnichannel for Customer Service context variable name.
+   2. In the **Enter title** box, enter CloseOmnichannelConversation, which is the contact center context variable name.
    3. In the **Enter a value to respond** box, select the **Expression** tab, and then enter **bool(true)** to build the expression, and select **OK**.
    4. Save the changes, and then exit Power Automate.
 
@@ -113,14 +111,13 @@ In the voice channel, the system doesn't listen for the **closeOmnichannelConver
 
 1. In **Add node**, select **End the conversation**, and then select **Transfer to agent**.
 
-1. Go to the topic in which you need to invoke the topic for ending the agent conversation in Omnichannel for Customer Service, and use the **Go to another topic** option in **Add a node**.
+1. Go to the topic in which you need to invoke the topic for ending the agent conversation in Dynamics 365 Contact Center, and use the **Go to another topic** option in **Add a node**.
 
 1. Select the topic that you created for ending the agent conversation.
 
 1. Save and publish the changes.
 
 ### Limitations
-
 
 | Description     | Limitation     |
 |-----------------|----------------|
@@ -134,8 +131,7 @@ You understand that your data might be transmitted and shared with external syst
 
 ### Troubleshoot issues for agents
 
-[How to end an agent conversation in Omnichannel for Customer Service](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/pva-conversations-active-dashboard)
-
+[How to end an agent conversation in contact center](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/pva-conversations-active-dashboard)
 
 ## Next steps
 
@@ -150,7 +146,7 @@ You understand that your data might be transmitted and shared with external syst
 [Identify customers automatically](record-identification-rule.md)  
 [Enable an agent to escalate and end conversation](../develop/bot-escalate-end-conversation.md)  
 [Best practices for configuring Azure and Copilot agents](configure-bot-best-practices.md)  
-[Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
+[Work with queues](queues-omnichannel.md)  
 [Understand and create workstreams](create-workstreams.md)  
 [Create and edit topics in Copilot agent](/power-virtual-agents/authoring-create-edit-topics)  
 [Suggested actions](../develop/suggested-actions.md)  

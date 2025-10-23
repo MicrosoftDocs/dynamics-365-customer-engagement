@@ -22,7 +22,8 @@ ai-usage: ai-assisted
 The selection criteria helps you to group the incoming leads into a segment and assign them to the agent based on the defined conditions. For example, the leads that are unprocessed, unattended, and potentially lower value could be mapped under this segment and worked on by the agent. The segment groups these leads, and helps agent to drive net-positive outcome, ensuring that every lead is assessed without adding manual workload for sellers.  
 
 > [!NOTE]
-> Leads that meet the selection criteria will be assigned to the agent for research and engagement and then handed over to the sellers based on the [handoff criteria](configure-sales-qualification-agent-handoff-criteria.md).
+> - Leads that meet the selection criteria will be assigned to the agent for research and engagement and then handed over to the sellers based on the [handoff criteria](configure-sales-qualification-agent-handoff-criteria.md).  
+> - When new leads are created, ensure that the lead owner is not [the app user](configure-requirements-for-sqa-agent.md#create-an-app-user-in-dataverse-and-assign-aisalesperson-role) used to create the agent.    
 
 Read the [create and activate a segment](wa-create-and-activate-a-segment.md#create-and-activate-a-segment) article for more information.
 
@@ -57,9 +58,10 @@ Read the [create and activate a segment](wa-create-and-activate-a-segment.md#cre
         Add more conditions as needed, for a total of 10, to further filter the records that should be assigned to the segment.
     - **Add group**: Add a group of conditions to filter records using multiple attributes that are combined by **And** or **Or**. If you select **And**, leads must meet all the conditions in the group. If you select **Or**, leads can meet any condition in the group.
     - **Add related entity**: Add a condition that's based on the attributes of related tables. Select an attribute in the **Related Entity** list, then select **Contains data** or **Does not contain data**, and then define the condition.  
+
 1. By default, the agent only considers new leads created after the agent is turned on. If you want the agent to also research on leads created before it was enabled, select the **Consider leads created in the last** checkbox and specify the number of days for the look back period.  
-1. (Optional) When you've finished defining the conditions, select **Preview leads** to view a list of records that satisfy the conditions.  
-    If you're satisfied with the results, you can continue with the next configuration step.
+1. (Optional) When you've finished defining the conditions, select **Preview leads** to view a list of records that satisfy the conditions. Ensure that at least one lead is returned in the preview. 
+    If you are satisfied with the results, you can continue with the next configuration step.
 
 ## Next step
 
