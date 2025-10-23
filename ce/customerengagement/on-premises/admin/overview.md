@@ -2,7 +2,6 @@
 title: "Administrator guide to Dynamics 365 Customer Engagement (on-premises)"
 description: "This guide contains resources to help administrators manage and configure Dynamics 365 Customer Engagement (on-premises) applications and services."
 ms.custom: on-premises
-ms.date: 09/12/2020
 ms.reviewer: matp
 
 ms.topic: overview

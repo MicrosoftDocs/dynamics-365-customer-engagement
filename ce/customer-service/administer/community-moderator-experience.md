@@ -2,9 +2,10 @@
 title: Community moderator experience | MicrosoftDocs
 description: Learn about moderating in the Community for Dynamics 365 Customer Service.
 ms.date: 10/03/2021
-ms.topic: article
+ms.topic: conceptual
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 search.audienceType: 
   - admin
   - customizer
@@ -77,7 +78,7 @@ Follow these steps to create a collection:
     > [!div class="mx-imgBorder"] 
     > ![Collection creation is successful.](../media/community-collection-success.png)
 
-### See also
+### Related information
 
 [Community overview](community-overview.md)<br>
 [Get started with Community](community-get-started.md)<br>

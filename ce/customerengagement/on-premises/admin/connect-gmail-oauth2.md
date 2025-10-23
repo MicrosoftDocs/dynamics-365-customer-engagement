@@ -2,7 +2,6 @@
 title: Connect Customer Engagement (on-premises) to Gmail accounts using OAuth 2.0 
 description: Learn how to set up server-side synchronization to send and receive email in Dynamics 365 Customer Engagement (on-premises) from Gmail accounts using OAuth 2.0 as the authorization mechanism.
 ms.custom: bap-template
-ms.date: 03/24/2023
 ms.reviewer: sericks
 ms.suite: 
 ms.tgt_pltfrm: 

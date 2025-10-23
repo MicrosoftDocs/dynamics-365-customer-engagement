@@ -1,7 +1,7 @@
 ---
 title: Configure the sales accelerator
 description: Configure the sales accelerator to create sequences and connect records, and view daily work list items.
-ms.date: 03/15/2024
+ms.date: 07/11/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -14,12 +14,6 @@ ms.custom: bap-template
 Enable and configure the sales accelerator to create sequences and connect records, and view daily work list items.
 
 [!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
-
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## How does the sales accelerator help a sales team?
 
@@ -45,11 +39,11 @@ For the best experience of the sales accelerator, enable and configure [predicti
 Enable the sales accelerator by quickly providing access to security roles and selecting the record types to be shown in the work list.
 
 >[!NOTE]
->By default, sales accelerator is available in the Sales Hub app with limited functionalities. Your Sales teams can view the work list items created through timeline for contact, opportunity, lead, and account records. To experience the full capabilities of sales accelerator, purchase the Sales Premium license and configure the features such as sequences and segments. 
+>By default, sales accelerator is available in the Sales Hub app with limited functionalities. Your Sales teams can view the work list items created through timeline for contact, opportunity, lead, and account records. To experience the full capabilities of sales accelerator, purchase the Sales Premium license and configure the features such as sequences and segments.  
 
 1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.
-1. Under **Sales accelerator**, select **Workspace**.     
-    The sales accelerator workspace setup page opens. 
+1. Under **Sales accelerator**, select **Workspace**.  
+    The sales accelerator workspace setup page opens.  
 
     :::image type="content" source="media/sa-fre-setup.png" alt-text="Screenshot of sales accelerator first-run setup page.":::
 
@@ -59,12 +53,7 @@ Enable the sales accelerator by quickly providing access to security roles and s
 
     :::image type="content" source="media/sa-fre-sa-quick-setup-pane.png" alt-text="Screenshot of sales accelerator quick setup pane.":::
 
-1. <a name="define-team-access"></a>In the **Enable for** section, select roles to grant permissions to use sales accelerator features. Choose one of the following options to grant permissions.
-
-    | Security roles | Description |
-    |----------------|-------------|
-    | All security roles | Select this option to give access to view sales accelerator features to all the security roles in your organization. |
-    | Specific security roles | Select this option to specify security roles to give access to view the sales accelerator to just a few users. Use the lookup box to add the security roles. |
+1. <a name="define-team-access"></a>Add security roles to use sales accelerator features.  
 
     >[!NOTE]
     >To provide permissions for other user roles to create, edit, delete, connect, and disconnect sequences, see [Permission requirements to manage sequences](create-manage-sequences.md#permission-requirements-to-manage-sequences)
@@ -82,7 +71,9 @@ Enable the sales accelerator by quickly providing access to security roles and s
 
     :::image type="content" source="media/sa-choose-content-layout.png" alt-text="Screenshot of choosing content layout.":::
 
-    1. To add a record type, select **Add record type**, and then select the dropdown list to choose the records that you want to add. 
+    1. To add a record type, select **Add record type**, and then select the dropdown list to choose the records that you want to add.
+        >[!NOTE]
+        >The record types (entities) that are organization-owned are not supported.
 
     1. From the dropdown list, choose a form to which you want to add the Sequence (up next) widget. Sales managers use the record types to configure the sequence that will be assigned to records to be displayed in the app.  
 
@@ -119,7 +110,7 @@ To configure the sales accelerator, go to [First-run setup](#first-run-set-up).
 
 By default, the **Up next** widget is displayed on the **Default Main** and **Sales Insight** forms. To add the **Up next** widget to other forms, follow the process specified in [How do I add the Up next widget to an entity form?](faq-sales-accelerator.md)
 
-[Learn more about how to add sales accelerator to the site map in your custom app](faq-sales-accelerator.md#how-to-add-sales-accelerator-to-the-site-map-in-your-custom-app).
+[Learn more about how to add sales accelerator to the site map in your custom app](faq-sales-accelerator.md#how-do-i-add-the-sales-accelerator-site-map-to-my-custom-app).
 
 ## Add sales accelerator site map entry to custom app
 
@@ -135,7 +126,7 @@ Use the following URLs to add the sale accelerator site map to your custom app a
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [What is the sales accelerator?](sales-accelerator-intro.md)     
 [Create and manage sequences](create-manage-sequences.md)     

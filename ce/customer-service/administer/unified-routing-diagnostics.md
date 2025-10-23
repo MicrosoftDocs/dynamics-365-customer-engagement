@@ -1,7 +1,7 @@
 ---
 title: View diagnostics for unified routing (Dynamics 365 Customer Service)
 description: Learn how to set up routing diagnostics and understand the different stages of routing work items using unified routing.
-ms.date: 05/09/2024
+ms.date: 04/29/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -18,9 +18,9 @@ ms.custom:
 # View diagnostics for unified routing
 
 > [!IMPORTANT]
-> The diagnostics feature is deprecated as on May 09, 2024, and will be removed by July 01, 2024. For more information, see [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
+> The diagnostics feature is deprecated. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
 
-Unified routing helps you assign a work item to the best suited agent or queue to handle it, based on the agent skills and the entities that are related to the work item. Routing diagnostics gives a granular view of each of the routed records to help you understand and diagnose issues that occur in the classification and assignment of work items.
+Unified routing helps you assign a work item to the best suited customer service representative (service representative or representative) or queue to handle it, based on the representative skills and the entities that are related to the work item. Routing diagnostics gives a granular view of each of the routed records to help you understand and diagnose issues that occur in the classification and assignment of work items.
 
 The diagnostics data is stored in Microsoft Dataverse and this data can affect the storage capacity. The data for routed records might consume more space in comparison to other types of work items. More information: [Manage routing diagnostics data](manage-routing-diagnostics-data.md)
 
@@ -33,24 +33,8 @@ The system can take up to five minutes to generate the diagnostic information re
 
 To see data related to work items and their status, you need to enable routing diagnostics. The diagnostics setting can take up to 15 minutes to take effect after you enable it.
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, select **Routing**. The **Routing** page appears.
-    2. Select **Manage** for **Routing diagnostics**.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-    - In the site map, select **Diagnostics** in **Advanced settings**.
-
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-    - Go to the **Service Management** site map, and in **Unified Routing** select **Diagnostics**.
+1. In the site map of Copilot Service admin center, select **Routing**. The **Routing** page appears.
+1. Select **Manage** for **Routing diagnostics**.
 
 1. On the **Routing diagnostics** page, select **Turn on routing diagnostics**.
 
@@ -62,7 +46,7 @@ To see data related to work items and their status, you need to enable routing d
 
 ## Understand routing stages and diagnostics
 
-A diagnostics work item is a log record containing the details of events that occur through the different routing stages for a work item before the system assigns it to an agent. The **Routing diagnostics** page displays a list of work items with details and the stage each work item is in. A brief description of the attributes is as follows:
+A diagnostics work item is a log record containing the details of events that occur through the different routing stages for a work item before the system assigns it to a representative. The **Routing diagnostics** page displays a list of work items with details and the stage each work item is in. A brief description of the attributes is as follows:
 
 - **Work item**: The name of the work item. Work items can be searched and sorted by selecting the dropdown next to the work item column.
 - **Routing status**: The stage the work item is in.
@@ -70,7 +54,7 @@ A diagnostics work item is a log record containing the details of events that oc
 - **Routing duration**: The duration for which the work item has been in its current stage.
 - **Work stream**: The name of the workstream that the work item was assigned to.
 - **Queue**: The name of the queue that the work item was routed to.
-- **Routed agent**: The agent to whom the work item was assigned.
+- **Routed agent**: The representative to whom the work item was assigned.
 - **Rule hit policy**: Depending on the stage, displays the rule information, such as first match or run all, that helps you understand how the rules were processed in the stage.
 
 ## Routing diagnostics flow
@@ -126,12 +110,12 @@ If no queue matches the requirement, the work item is assigned to the default qu
 
 ### Assignment
 
-Each work item is assigned to an agent or is sent to a queue based on the **Assignment** rule set. Assignment rule sets contain conditions for which work items need to be assigned to agents. In routing diagnostics, the assignment stage helps understand how the assignment of the work item was handled, such as how the prioritization was done and what assignment selection criteria was applied.
+Each work item is assigned to a representative or is sent to a queue based on the **Assignment** rule set. Assignment rule sets contain conditions for which work items need to be assigned to representatives. In routing diagnostics, the assignment stage helps understand how the assignment of the work item was handled, such as how the prioritization was done and what assignment selection criteria was applied.
 
 The following stages are available:
 
 - **Prioritization**: Lists the prioritization rule that was applied if any. Work items are routed according to their priority. More information: [Configure assignment methods and rules for queues](configure-assignment-rules.md)
-- **Assignment selection**: Displays information about the conditions that determined in selecting an agent. If more than one assignment rule set exists, selection criteria defines the order in which the rule sets are to be evaluated. The assignment selection criteria determines the rule set that has the closest match and the rule that should be run out of the many rules.
+- **Assignment selection**: Displays information about the conditions that determined in selecting a representative. If more than one assignment rule set exists, selection criteria defines the order in which the rule sets are to be evaluated. The assignment selection criteria determines the rule set that has the closest match and the rule that should be run out of the many rules.
 - **Assignment ruleset**: Displays information about the rule sets that were processed.
 - **Agent assignment trace**: Provides details about the assignment criteria and assignment trace:
 
@@ -142,10 +126,10 @@ The following stages are available:
     - **Presence**: Displays the presence used.
     - **Skills**: Displays the skills that were matched if any.
   - **Assignment trace**:
-    - **Current status**: Displays the status of the work item, such as whether an agent has been identified.
+    - **Current status**: Displays the status of the work item, such as whether a representative has been identified.
     - **Status reason**: Displays the associated reason of the status.
-    - **Assigned to**: Displays the agent to whom the work item is assigned if any.
-    - **Total attempts**: Displays the number of attempts that were required to assign the agent if any.
+    - **Assigned to**: Displays the representative to whom the work item is assigned if any.
+    - **Total attempts**: Displays the number of attempts that were required to assign the representative if any.
     - **Last attempt at**: Displays the date and time of the last attempt for assigning the work item was made.
 
   > [!NOTE]
@@ -159,13 +143,11 @@ The following stages are available:
 
 For known issues in diagnostics, see [Known issues in Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2165393).
 
-### See also
+### Related information
 
 [Overview of skill based routing](overview-skill-work-distribution.md)  
-[Assignment methods for Queues](assignment-methods.md) 
+[Assignment methods for Queues](assignment-methods.md)  
 [Routing and assignment rules](../routing-workstream-queues.md)  
-[Historical analytics for unified routing in Customer Service](../use/cs-historical-analytics-unified-routing.md)  
-[Historical analytics for unified routing in Omnichannel for Customer Service](../use/oc-historical-analytics-unified-routing.md)  
 [Configure work classification rules](configure-work-classification.md)  
 [Configure routing to preferred agents](configure-preferred-agent.md)  
 

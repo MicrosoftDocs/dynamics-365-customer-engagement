@@ -1,10 +1,11 @@
 ---
-title: "Create standard service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
-description: "Learn how to create standard service-level agreements in Dynamics 365 Customer Service."
-ms.date: 09/22/2023
-ms.topic: article
+title: Create standard service-level agreements in Dynamics 365 Customer Service
+description: Learn how to create standard service-level agreements in Dynamics 365 Customer Service.
+ms.topic: how-to
+ms.date: 05/06/2025
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
@@ -18,7 +19,7 @@ ms.collection: get-started
 
 > [!NOTE]
 >
-> Standard SLAs created in the web client have been deprecated and replaced with Unified Interface SLAs. For more information on deprecation, see [SLAs in web client are deprecated](../implement/deprecations-customer-service.md#slas-in-web-client-are-deprecated). We recommend migrating the standard SLAs created in the web client to Unified Interface. For more information on migrating SLAs, see [Migrate SLAs](migrate-slas.md#migrate-slas).
+> Standard SLAs created in the web client have been deprecated and replaced with Unified Interface SLAs. Learn more in [SLAs in web client are deprecated](../implement/deprecations-customer-service.md#slas-in-web-client-are-deprecated). We recommend migrating the standard SLAs created in the web client to Unified Interface. Learn more in [Migrate SLAs](migrate-slas.md#migrate-slas).
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
 
@@ -30,25 +31,14 @@ ms.collection: get-started
 
       - [!INCLUDE[proc_dont_have_correct_permissions](../../includes/proc-dont-have-correct-permissions.md)] 
    
-    You can create standard SLAs in the Customer Service admin center or Customer Service Hub app by performing the following steps:
+1. In the site map of Copilot Service admin center, select **Service terms** in **Operations**. The **Service terms** page appears.
 
-1.  Go to **Service-level agreements (SLAs)**.
-
-    ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, select **Service terms** in **Operations**. The **Service terms** page appears.
-    1. In the **Service-level agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements from Unified Interface** view is displayed.
-
-    ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-   
-    - In the site map, go to **Service Management** and select **Categories** in **Knowledge Base Management**. The **All Categories** view is displayed. You can switch between various system views using the dropdown list.
+1. In the **Service-level agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements from Unified Interface** view is displayed.
 
 1. To create a new SLA, select **New** on the command bar.
 
     > [!NOTE]
-    > If Customer Service admin center is available in your organization and you try to create an SLA in the web client, a deprecation message appears with an option to create the SLA in Unified Interface. No message is displayed if Customer Service admin center isn't available.
+    > If Copilot Service admin center is available in your organization and you try to create an SLA in the web client, a deprecation message appears with an option to create the SLA in Unified Interface. No message is displayed if Copilot Service admin center isn't available.
      
 1. Optionally, to edit an SLA, select the SLA in the list of records, and then select **Edit** on the command bar.  
 
@@ -82,7 +72,7 @@ ms.collection: get-started
     SLA KPIs are performance indicators that you'd like to track. For example, First Response or Resolve By. SLA items refer to SLA KPIs based on specific conditions. You can add multiple SLA items and arrange them in the order that works for you. For any given KPI, only the first SLA item that matches the conditions in the **Applicable When** section is applied.  
 
    > [!NOTE]
-   >  In Customer Service, SLA and SLA KPIs (SLA details) use the process (workflow) functionality. Although SLA KPIs use workflows, not all of the actions available in workflows are available for defining failure and warning actions. The available actions are currently limited to **Send Email**, **Create Record**, **Update Record**, **Assign Record**, and **Change Status**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create and edit workflow processes](../../customerengagement/on-premises/customize/workflow-processes.md)  
+   >  In Customer Service, SLA and SLA KPIs (SLA details) use the process (workflow) functionality. Although SLA KPIs use workflows, not all of the actions available in workflows are available for defining failure and warning actions. The available actions are currently limited to **Send Email**, **Create Record**, **Update Record**, **Assign Record**, and **Change Status**. Learn more in [Create and edit workflow processes](../../customerengagement/on-premises/customize/workflow-processes.md). 
 
 1. Enter the following information in the **New SLA Item** form:  
 
@@ -132,7 +122,7 @@ ms.collection: get-started
     > - If failure or warning times are set to less than one hour, the processing of failure or warning actions might be delayed.
     > - Make sure you author SLAs in a way that best suits your company's needs. For example, in the SLA **Applicable When** conditions, we recommend that you don't use case fields that are updated too frequently because any change to the field value might lead to the SLA item being canceled.
 
-### See also
+### Related information
 
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
 [Troubleshoot issues in SLAs](../troubleshoot-sla-issues.md)  

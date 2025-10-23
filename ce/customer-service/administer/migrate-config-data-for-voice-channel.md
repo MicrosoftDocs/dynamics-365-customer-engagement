@@ -1,16 +1,21 @@
 ---
-title: "Migrate unified routing data for the voice channel | MicrosoftDocs"
-description: "Learn to migrate the voice channel data from source to target environments in Omnichannel for Customer Service."
-ms.date: 09/18/2023
-ms.topic: article
-author: mgandham
-ms.author: nenellim
+title: Migrate unified routing data for the voice channel
+description: Learn to migrate the voice channel data from source to target environments in Dynamics 365 Contact Center.
+ms.date: 05/14/2025
+ms.topic: upgrade-and-migration-article
+author: gandhamm
+ms.author: mgandham
 ms.reviewer: nenellim
 ---
 
 # Migrate data for the voice channel
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for the voice channel.
+
+[!INCLUDE[cc-migrate-using-solutions](../../includes/cc-migrate-using-solutions.md)]
+
 For information on how to use the Configuration Migration tool, see the following articles:
 
 - [Download Configuration Migration tool](/powerapps/developer/data-platform/download-tools-nuget)
@@ -66,19 +71,19 @@ You must perform the steps in the order they're listed to migrate your configura
 
 ## Migrate configuration using a solution
 
-If you use custom session templates and notifications in your voice routing setup, perform the steps outlined in [Migrate configuration using a solution](migrate-config-data-for-records.md#migrate-configuration-using-a-solution)
+If you use custom session templates and notifications in your voice routing setup, perform the steps outlined in [Migrate configuration using a solution](migrate-record-routing-config-using-solutions.md)
 
 ## Migrate skill-based configuration
 
-If skill-based routing rulesets are used in your unified routing setup, perform the steps outlined in [Migrate data for skill-based routing](migrate-config-data-for-records.md#migrate-configuration-for-skill-based-routing-rulesets). Make sure to adjust any filtering fetch xml appropriately for voice.
+If skill-based routing rulesets are used in your unified routing setup, perform the steps outlined in [Migrate data for skill-based routing](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-skill-based-routing-rulesets). Make sure to adjust any filtering fetch xml appropriately for voice.
 
 ## Migrate configuration capacity profiles
 
-If you have configured capacity profiles in your voice routing setup, perform the steps outlined in [Export and import data for capacity profiles](migrate-config-data-for-records.md#migrate-configuration-for-capacity-profiles).
+If you have configured capacity profiles in your voice routing setup, perform the steps outlined in [Export and import data for capacity profiles](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-capacity-profiles).
 
 ## Migrate configuration for voice channel queues
 
-For exporting and importing queues for the voice channel, perform the steps outlined in [Migrate data for unified routing-based record queues](migrate-config-data-for-records.md#migrate-configuration-for-record-queues).
+For exporting and importing queues for the voice channel, perform the steps outlined in [Migrate data for unified routing-based record queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-record-queues).
 
 ## Migrate configuration for voice channel workstreams
 
@@ -598,6 +603,6 @@ After you import the unified routing-related configuration data successfully fro
 
 [!INCLUDE[ur-migration considerations](../../includes/cc-ur-migration-considerations.md)]
 
-### See also
+### Related information
 
 [Migrate configuration for records based on unified routing](migrate-config-data-for-records-overview.md)  

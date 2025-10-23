@@ -3,7 +3,6 @@ title: "Microsoft Exchange Server not found or is not a supported version | Micr
 description: Environment diagnostics warning that there's a problem with the specified Exchange Server.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

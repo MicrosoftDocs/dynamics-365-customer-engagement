@@ -1,19 +1,10 @@
 ---
 title: "View data with visualizations (charts) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Visualizations let you see your business data graphically. A visualization is attached to an entity in Dynamics 365 Customer Engagement. You can attach multiple visualizations to an entity, however, only one visualization can be displayed at a time along-side a grid. You can view multiple visualizations at the same time by using a dashboard."
-ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
-
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
-helpviewer_keywords: 
-  - charts
-ms.assetid: c2e420e0-66e6-4317-b203-8a0710d0d3f4
-caps.latest.revision: 49
 author: JimDaly
 ms.author: jdaly
 search.audienceType: 
@@ -127,10 +118,8 @@ UoMSchedule
  [Create a Chart](create-visualization-chart.md)   
  [Sample Charts](sample-charts.md)   
  [Sample Code for Charts](sample-code-charts-visualizations.md)   
- [SavedQueryVisualization Entity](../entities/savedqueryvisualization.md)   
- [UserQueryVisualization Entity](../entities/userqueryvisualization.md)
- [Download: Chart Controls for .NET Framework Language Pack](https://www.microsoft.com/downloads/details.aspx?FamilyId=581FF4E3-749F-4454-A5E3-DE4C463143BD&displaylang=en)   
- [Download: Chart Controls Add-on for Visual Studio](https://www.microsoft.com/downloads/details.aspx?FamilyId=1D69CE13-E1E5-4315-825C-F14D33A303E9&displaylang=en)   
+ [SavedQueryVisualization Entity](/power-apps/developer/data-platform/reference/entities/savedqueryvisualization)   
+ [UserQueryVisualization Entity](/power-apps/developer/data-platform/reference/entities/userqueryvisualization)   
  [Download: Chart Controls for .NET Framework Documentation](https://go.microsoft.com/fwlink/p/?LinkId=128301)   
  [Samples Environment for Microsoft Chart Controls](https://code.msdn.microsoft.com/mschart)   
  [Chart Controls Forum](https://go.microsoft.com/fwlink/p/?LinkId=128713)

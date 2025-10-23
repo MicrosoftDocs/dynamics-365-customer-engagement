@@ -4,8 +4,8 @@ description: Learn about the prerequisites for accessing the mobile app in offli
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.topic: conceptual
-ms.date: 02/22/2023
+ms.topic: concept-article
+ms.date: 05/20/2025
 ms.custom: bap-template 
 ---
 

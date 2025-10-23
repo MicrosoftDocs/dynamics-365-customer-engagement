@@ -2,7 +2,6 @@
 title: "Dashboard entities | MicrosoftDocs"
 description: "The dashboard entities enable you to simultaneously present data from up to six charts, grids, or IFRAMES. The following illustration shows the entity relationships for this area."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 
@@ -25,9 +24,9 @@ The dashboard entities enable you to simultaneously present data from up to six 
  ![Dashboard entity model.](../media/dashboard-entity-model.gif "Dashboard entity model")  
   
 ## In This Section  
- [SystemForm Entity](../entities/systemform.md)  
+ [SystemForm Entity](/power-apps/developer/data-platform/reference/entities/systemform)  
   
- [UserForm Entity](../entities/userform.md)
+ [UserForm Entity](/power-apps/developer/data-platform/reference/entities/userform)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

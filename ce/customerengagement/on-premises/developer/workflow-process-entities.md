@@ -2,7 +2,6 @@
 title: "Workflow and process entities (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The Dynamics 365 Customer Engagement workflow object model is a set of classes that uses the Windows Workflow Foundation object model and exposes Dynamics 365 Customer Engagement workflow activities. These classes are found in the Microsoft.Xrm.Sdk.Workflow assembly."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

@@ -1,134 +1,127 @@
 ---
-title: "Extend Universal Resource Scheduling with custom constraint"
-description: "This page is a step-by-step guide for extending Universal Resource Scheduling with a custom constraint, using the example of filtering resources by language."
+title: Extend Universal Resource Scheduling with a custom language constraint
+description: Learn how to extend Universal Resource Scheduling in Dynamics 365 with a custom constraint, using the example of filtering resources by language.
 author: mkelleher-msft
 ms.author: mkelleher
-ms.date: 04/18/2024
-ms.reviewer: mhart
+ms.date: 09/24/2025
+ms.reviewer: puneet-singh1
 ms.subservice: common-scheduler
-ms.topic: article
+ms.topic: how-to
 ---
 
 # Sample: Extend Universal Resource Scheduling with a custom language constraint
 
-> This step by step guide is a companion to [Understanding and customizing resource matching in Universal Resource Scheduling](understanding-and-customizing-resource-matching-in-urs.md)
+This article is a companion to [Understanding and customizing resource matching in Universal Resource Scheduling](understanding-and-customizing-resource-matching-in-urs.md).
 
 In this step-by-step guide, we extend Universal Resource Scheduling resources with a `Language` constraint. Consider an organization that wants to filter resources by the languages they speak. They also want to capture on the `Requirement` record the language required for the job. This constraint follows a similar pattern to the built-in `Territory` constraint. A new main entity `Language` stores the different languages a resource can speak. A `Resource` record can then be associated to many `Languages` through a many-to-many relationship entity. On the `Requirement` entity, we model this by creating two new lookup attributes: `Primary Language` and `Secondary Language`. When the system looks for available resources for a requirement, only resources associated with either the `Primary Language` or the `Secondary Language` show.
 
-## Creating the new entities and relationships
+> [!TIP]
+> An entity is also known as a table.
 
-In this section, we create the new schema for the main `Language` entity and update the `Resource` and `Requirement` entities with the corresponding relationships to the new `Language` entity.
+## Create the new tables and relationships
 
-### Create a new Publisher
+Create the new schema for the main `Language` table and update the `Resource` and `Requirement` tables with the corresponding relationships to the new `Language` table.
 
-1. In Dynamics 365, under Customizations, create a new Publisher.
-2. Fill out the New Publisher form with the below details:
+### Create a new publisher
 
-    Field | Value
-    --- | ---
-    Display Name | Language
-    Name | language
-    Prefix | lang
+1. Go to the **Power Platform Environment Settings** app. Select **Customizations** > **Publishers** and create a new publisher. Learn more in [Create a publisher](/power-platform/alm/solution-concepts-alm#solution-publisher).
+1. Enter the following information:
 
-3. Select **Save and Close**.
+    |Field | Value|
+    |--- | ---|
+    |Display name | Language|
+    |Name | Language|
+    |Prefix | lang|
 
-### Create a new Solution
+1. Select **Save**.
 
-1. In Dynamics 365, under Customizations, create a new solution.
-2. Fill out the New Solution form with the below details:
+### Create a new solution
 
-    Field | Value
-    --- | ---
-    Display Name | Language
-    Name | Language
-    Publisher | Language
-    Version | 1.0.0.0
+1. Select **Customizations** > **Solutions** and create a new solution. Learn more in [Create a solution](/power-apps/maker/data-platform/create-solution).
+1. Enter the following information:
 
-3. Select **Save**.
+    |Field | Value|
+    |--- | ---|
+    |Display Name | Language|
+    |Name | Language|
+    |Publisher | Language|
+    |Version | 1.0.0.0|
 
-### Create the Language entity
+1. Select **Create**.
 
-1. In the Language solution, create a new entity.
-1. Fill out the New Entity form with the below details:
+### Create the language table
 
-    Field | Value
-    --- | ---
-    Display Name | Language
-    Plural Name | Languages
-    Name | lang_language (The `lang_` prefix will be autofilled and read-only)
+1. Open the Language solution and select **New** > **Table** > **Table (advanced properties)**. Learn more [Create new tables](/power-apps/maker/data-platform/create-edit-entities-portal?tabs=excel#set-advanced-properties).
+1. Enter the following information:
 
-1. Select Save.
+    |Field | Value|
+    |--- | ---|
+    |Display Name | Language|
+    |Plural Name | Languages|
 
-### Create the many-to-many relationship from the Resource entity to the Language entity
+   The schema name under **Advanced options** automatically fills in| lang_Language. The `lang_` prefix is  read-only.
 
-1. In the Language entity, create a new Many-to-Many Relationship.
-1. Fill out the New Relationship form with the below details:
+1. Select **Save**.
 
-    Field | Value
-    --- | ---
-    **Current Entity** |
-    Display Option | Use Plural Name
-    **Other Entity** |
-    Entity Name | Bookable Resource
+### Create the many-to-many relationship from the Resource table to the Language table
 
-1. Select **Save and Close**.
-1. Close the Language entity form.
+1. Open the Language table and **New** > **Relationship** > **Many-to-many**. Learn more [Create many-to-many table relationships](/power-apps/maker/data-platform/create-edit-nn-relationships-portal).
+1. For the **Related (Many) Table**, select **Bookable Resource**.
+1. Select **Done**.
+1. Close the Language table.
 
-### Create the relationships from the Requirement entity to the Language entity
+### Create the relationships from the existing Requirement table to the Language table
 
-1. In the Language solution, add the existing Resource Requirement entity to the solution. If presented with a Missing Required Components dialog, select No, don't include required components.
-1. In the Resource Requirement entity, create a new field.
-1. Fill out the New Field form with the below details:
+1. Open the Language solution and select **Add existing** > **Table** > **Resource Requirement**.
+1. If presented with a Missing Required Components dialog, select **No**, and don't include required components.
+1. Select **Add**.
+1. In the Resource Requirement table, create a new column.
+1. Enter the following information:
 
-    Field | Value
-    --- | ---
-    Display Name | Primary Language
-    Data Type | Lookup
-    Target Record Type | Language
+    |Field | Value|
+    |--- | ---|
+    |Display name | Primary Language|
+    |Data type | Lookup|
+    |Related table | Language|
 
-1. Select **Save and Close**.
-1. In the Resource Requirement entity, create a new field.
-1. Fill out the **New Field** form with the below details:
+1. Select **Save**.
+1. In the Resource Requirement table, create a new column.
+1. Enter the following information:
 
-    Field | Value
-    --- | ---
-    Display Name | Secondary Language
-    Data Type | Lookup
-    Target Record Type | Language
+    |Field | Value|
+    |--- | ---|
+    |Display name | Secondary Language|
+    |Data type | Lookup|
+    |Related table | Language|
 
-1. Select **Save and Close**.
+1. Select **Save**.
 
 #### Update the Requirement main form
 
-1. In the Resource Requirement entity, add the existing information form to the entity's subcomponents. If presented with a Missing Required Components dialog, select No, don't include required components.
-1. In the **Information** form, use the Field Explorer to add the two new attributes, primary language and secondary language to the form so users can enter this information as they create requirements.
-1. Select **Save**.
-1. Select **Publish**.
+1. In the Resource Requirement table, select **Forms**.
+1. Select **Add exiting form** > **Information** and **Add**. If a Missing Required Components dialog appears, select **No**, and don't include required components.
+1. Open the **Information** form and add the two new attributes, primary language and secondary language to the form so users can enter this information as they create requirements.
+1. Select **Save and publish**.
 
-### Summary
+#### Add language data to resources and requirements
 
-In the above steps, we created the new Language entity. We then added new relationships with the Resource and Requirement entities. Resources can be related to multiple languages, since we added a many-to-many relationship between Language and Resource. Requirements can be related to two Languages since we added two lookup attributes on Requirement entity pointing to the new Language entity.
+Add new records to the Language table. You can then associate resource records to the new language records by opening a resource record and navigating to the language relationship in the navigation bar. For requirement records, you can fill in the new Primary Language and Secondary Language fields on the Requirement form.
 
-#### Adding data
+## Customize the Schedule Board
 
-Use Advanced Find to add new records to the Language entity. You can then associate Resource records to the new Language records by opening a Resource record and navigating to the Language relationship in the navigation bar. For Requirement records, you can fill in the new Primary Language and Secondary Language fields on the Requirement form.
-
-## Customizing the Schedule Board
-
-To filter resources in the Schedule Board with the new Language constraint, we update the Retrieve Resources Query and the Filter Layout configuration records.
+To filter resources in the Schedule Board with the new Language constraint, update the Retrieve Resources Query and the Filter Layout configuration records.
 
 > [!NOTE]
-> These schedule board customizations will apply to all tabs uniformly and cannot be set individually per tab. This applies to **Schedule Assistant Filter Layout**, **"Schedule Assistant Retrieve Resources Query**, **Schedule Assistant Resource Cell Template**, and **Schedule Assistant Retrieve Constraints Query**.
+> These schedule board customizations apply to all tabs uniformly and can't be set individually per tab. This customization applies to **Schedule Assistant Filter Layout**, **"Schedule Assistant Retrieve Resources Query**, **Schedule Assistant Resource Cell Template**, and **Schedule Assistant Retrieve Constraints Query**.
 
-### Filter Layout Configuration
+### Configure the Filter layout
 
-> [!TIP]
-> For the below steps, it is helpful to use a text editor that supports XML syntax highlighting to make your changes, and then paste your changes back into the Universal Resource Scheduling editor.
+For the following steps, use a text editor that supports XML syntax highlighting to make your changes, and then paste your changes back into the Universal Resource Scheduling editor.
 
 The Filter Layout configuration is an XML layout definition to customize the layout of the Filter panel.
 
 > [!NOTE]
-> For this exercise, we'll remove all default filters shipped with Universal Resource Scheduling from the Filter panel and add Languages as the only available filter.
+> Remove all default filters shipped with Universal Resource Scheduling from the Filter panel and add Languages as the only available filter.
 
 ```xml
 <control type="combo" source="entity" key="Languages" inactive-state="1" label-id="Languages" entity="lang_language" multi="true" />
@@ -136,15 +129,15 @@ The Filter Layout configuration is an XML layout definition to customize the lay
 
 The `control` element adds a new control to the Filter panel. Here's the description of each attribute:
 
-Name | Description
---- | ---
-`type` | The type of filter control. A `combo` control renders a dropdown with values to choose from
-`source` | The source of the values for the dropdown control. An `entity` source shows entity records in the dropdown
-`key` | The key to use to store the selected values in the constraints property bag
-`inactive-state` | The inactive `statecode` for this entity. This is used to exclude inactive records from the dropdown
-`label-id` | The localized label to use for this control
-`entity` | This entity's records are displayed in the dropdown
-`multi` | Configures the dropdown to allow selecting a single record or multiple records
+|Name | Description|
+|--- | ---|
+|`type` | The type of filter control. A `combo` control renders a dropdown with values to choose from|
+|`source` | The source of the values for the dropdown control. An `entity` source shows entity records in the dropdown|
+|`key` | The key to use to store the selected values in the constraints property bag|
+|`inactive-state` | The inactive `statecode` for this entity, which is used to exclude inactive records from the dropdown|
+|`label-id` | The localized label to use for this control|
+|`entity` | This entity's records are displayed in the dropdown|
+|`multi` | Configures the dropdown to allow selecting a single record or multiple records|
 
 > Filter Layout:
 
@@ -159,37 +152,35 @@ Name | Description
 
 #### Create a new Languages board
 
-In order to keep these changes isolated, we create a brand new separate Schedule Board and implement the changes, but you can always make these changes on the default Schedule Board so that other Schedule Boards can automatically inherit these changes.
+To keep these changes isolated, create a separate Schedule Board and implement the changes. You can always make these changes on the default Schedule Board so that other Schedule Boards can automatically inherit these changes.
 
-1. In Dynamics 365, in the top navigation bar, go to **Resource Scheduling** > **Schedule Board**.
-2. In the top right, select the **+** sign to create a new board.
-3. Name the new board language.
-4. At the bottom of the dialog, select **Add**. The new board will be created.
+1. Go to the **Resource Scheduling** app and select **Schedule Board**.
+1. Select the **+** sign to create a new board.
+1. Name the new board language.
+1. At the bottom of the dialog, select **Add**. The new board is created.
 
-#### Update the Schedule Board Filter Layout
+#### Configure the Schedule Board Filter Layout
 
-Next, we create a new configuration record, which stores filter layouts and queries used by the Schedule Board, and then we link the newly created Schedule Board to the new configuration record. There are multiple ways to do this, but here's the quickest:
+Next, create a new configuration record that stores filter layouts and queries used by the Schedule Board. Then, link the newly created Schedule Board to the new configuration record. There are multiple ways to do this, but here's the quickest method:
 
-1. Select the **Language** tab.
-1. Scroll down to **General Settings** > **Other Settings**.
-1. Locate the **Filter Layout** field, select the button to the right to open the editor
-1. Update the Value field with the Filter Layout code above and select Save As. 
-1. Enter "Language Filter Layout" in the Name field and select Save. This creates a new configuration record and links this Schedule Board to the record.
-1. At the bottom of the dialog, select Apply
-
-The board will reload and you see the Filter panel in the left with the new layout; only the Languages filter will be available. Filtering won't work yet, as we need to update the Retrieve Resources Query to take advantage of the new filter.
+1. On the Schedule Board, select the ellipses (&hellip;) in the top right and **Scheduler settings**.
+1. Select **All board settings** at the bottom of the pane. Then select **Other**.
+1. Locate the **Filter Layout** field, and select the pencil icon to open the editor.
+1. Enter "Language Filter Layout" in the **Name** field and add the Filter Layout code and select **Save as new**.
+1. Select **Save**. A new configuration record is created which links this Schedule Board to the record.
+1. Select **Filters**. The Filter panel appears with the new layout. Only the Languages filter is available. Filtering doesn't work until you update the Retrieve Resources Query.
 
 <a name="retrieve-resources-query-configuration"></a>
-### Retrieve Resources Query Configuration
 
-> [!TIP]
-> For the below steps, it is helpful to use a text editor that supports XML syntax highlighting to make your changes, and then paste your changes back into the Universal Resource Scheduling editor.
+### Update the Retrieve Resources Query
 
-The Retrieve Resources Query configuration is a [UFX Query](universal-fetchxml.md#ufx-queries) used by the Resource Matching API. It takes as input the values entered in the Filter panel and dynamically constructs the correct FetchXML to find matching resources.
+For the following steps, use a text editor that supports XML syntax highlighting to make your changes, and then paste your changes back into the Universal Resource Scheduling editor.
 
-> Below are the new snippets added to the Retrieve Resources Query to match and order by the Resources' Languages.
+The Retrieve Resources Query configuration is a [Universal FetchXML (UFX) Query](universal-fetchxml.md#ufx-queries) used by the Resource Matching API. It takes as input the values entered in the Filter panel and dynamically constructs the correct FetchXML to find matching resources.
 
-#### Adding the joins from `bookableresource` to `lang_language`
+> Add these snippets to the Retrieve Resources Query to match and order by the Resources' Languages.
+
+#### Add the joins from `bookableresource` to `lang_language`
 
 ```xml
 <link-entity name="lang_lang_language_bookableresource" from="bookableresourceid" to="bookableresourceid" alias="lang_primary" link-type="outer" ufx:if="$input/Languages/bag[1]">
@@ -234,53 +225,54 @@ The Retrieve Resources Query configuration is a [UFX Query](universal-fetchxml.m
 
 > The values selected in the Filter panel is passed as input to the query and is available in the XPath `$input` variable
 
-The Retrieve Resources Query uses FetchXML to query the `Resource (bookableresource)` entity. We're using the FetchXML `link-entity` element to only return resources associated with the Language records selected in the Filter panel. To support showing the matched languages and ordering by primary or secondary language, described later in the section [Resource Cell Template](#resource-cell-template-configuration), we're using multiple `link-entity` joins. 
+The Retrieve Resources Query uses FetchXML to query the `Resource (bookableresource)` entity. We selected the FetchXML `link-entity` element to only return resources associated with the Language records selected in the Filter panel. Use multiple `link-entity` joins to show the matched languages and order by primary or secondary language, as described in the section [Resource Cell Template](#resource-cell-template-configuration). 
 
 Here's the description of each **`element`** and `attribute`:
 
-Name | Description
---- | ---
-**`link-entity`** | Create a join to the many-to-many relationship between the Resource and Language entities
-`ufx:if` | Only emit this FetchXML element (`link-entity`) if the XPath expression in this attribute returns a value
-**`attribute`** | Return the primary or secondary language matched
-**`filter`** and **`condition`** | Filter the many-to-many relationship records to only the ones that match the specified Language IDs
-**`ufx:value`** and `select` | Outputs the result of the XPath expression in the `select` attribute
-**`ufx:apply`** and `select` | Emit the child FetchXML elements for each result returned from the XPath expression in the `select` attribute
-**`value`** | Contains the ID of a Language record
+|Name | Description|
+|--- | ---|
+|**`link-entity`** | Create a join to the many-to-many relationship between the Resource and Language entities|
+|`ufx:if` | Only emit this FetchXML element (`link-entity`) if the XPath expression in this attribute returns a value|
+|**`attribute`** | Return the primary or secondary language matched|
+|**`filter`** and **`condition`** | Filter the many-to-many relationship records to only the ones that match the specified Language IDs|
+|**`ufx:value`** and `select` | Outputs the result of the XPath expression in the `select` attribute|
+|**`ufx:apply`** and `select` | Emit the child FetchXML elements for each result returned from the XPath expression in the `select` attribute|
+|**`value`** | Contains the ID of a Language record|
 
-#### Determining a Resource's sort order
+#### Determine a resource's sort order
 
-After we retrieve the matching resources, based on each resource's assigned languages, we assign a new `lang_order` property to determine its sort order.
+After you retrieve the matching resources, based on each resource's assigned languages, assign a new `lang_order` property to determine its sort order.
 
 ```xml
 <bag>
   <lang_order ufx:select="iif(lang_primary and lang_secondary, 1, iif(lang_primary, 2, iif(lang_secondary, 3, 4)))" />
 </bag>
 ```
-Here's the description of each **`element`** and `attribute`:
 
-Name | Description
---- | ---
-**`lang_order`** | Create a new property in each Resource returned from the FetchXML query named `lang_order`
-`ufx:select`| Assign the result of the XPath expression in this attribute to the `lang_order` property. The `lang_primary` and `lang_secondary` properties, retrieved earlier in the query, is used together with the XPath [`iif`](universal-fetchxml.md#iif) function to determine the resource matching order.
+The description of each **`element`** and `attribute`:
 
-#### Ordering the results
+|Name | Description|
+|--- | ---|
+|**`lang_order`** | Create a new property in each Resource returned from the FetchXML query named `lang_order`|
+|`ufx:select`| Assign the result of the XPath expression in this attribute to the `lang_order` property. The `lang_primary` and `lang_secondary` properties, retrieved earlier in the query, is used together with the XPath [`iif`](universal-fetchxml.md#iif) function to determine the resource matching order.|
+
+#### Order the results
 
 ```xml
 <Resources ufx:select="order(Resources, 'lang_order')" />
 ```
 
-UFX Queries are processed in sequential order. After the resources are retrieved through FetchXML, the results are assigned to the `Resources` property. We're sorting the results based on the `lang_order` property added earlier and reassigning the sorted results to the `Resources` property.
+UFX Queries are processed in sequential order. After the resources are retrieved through FetchXML, the results are assigned to the `Resources` property. Sort the results based on the `lang_order` property added earlier and reassign the sorted results to the `Resources` property.
 
-Here's the description of each **`element`** and `attribute`:
+The description of each **`element`** and `attribute`:
 
-Name | Description
---- | ---
-**`Resources`** | Reassign the `Resources` property
-`ufx:select` | Assign the result of the XPath expression in this attribute to the `Resources` property. The XPath [`order`](universal-fetchxml.md#order) function is used to order the `Resources` list on its `lang_order` property.
+|Name | Description|
+|--- | ---|
+|**`Resources`** | Reassign the `Resources` property|
+|`ufx:select` | Assign the result of the XPath expression in this attribute to the `Resources` property. The XPath [`order`](universal-fetchxml.md#order) function is used to order the `Resources` list on its `lang_order` property.|
 
 > [!NOTE]
-> The default Retrieve Resources Query shipped with Universal Resource Scheduling is a large query that supports all the resource constraints included with Universal Resource Scheduling. For this exercise, we'll use only a subset of the default query and add Languages as the only filter.
+> The default Retrieve Resources Query shipped with Universal Resource Scheduling is a large query that supports all the resource constraints included with Universal Resource Scheduling. For this exercise, we use only a subset of the default query and add Languages as the only filter.
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -368,36 +360,30 @@ Name | Description
 
 #### Update the Schedule Board Retrieve Resources Query
 
-1. In the top right, double-click the Language tab
-1. Scroll down to General Settings > Other Settings
-1. Locate the Retrieve Resources Query field, select the button to the right to open the editor
-1. Update the Value field with the Retrieve Resources Query code above and select Save As
-1. Enter "Language Resources Query" in the Name field and select Save. This creates a new configuration record and links this Schedule Board to the record.
-1. At the bottom of the dialog, select Apply
+1. On the Schedule Board, select the ellipses (&hellip;) in the top right and **Scheduler settings**.
+1. Select **All board settings** at the bottom of the pane. Then select **Other**.
+1. Locate the **Retrieve Resources Query** field and select the pencil icon to open the editor.
+1. Enter "Language Resources Query" in the **Name** field, add the Retrieve Resources Query code, and select **Save as new**.
+1. Select **Save**. A new configuration record is created which links this Schedule Board to the record.
 
-The board will reload with the updated configuration. Filtering will now work. If you created Language records and associated them with Resource records, you'll now be able to filter resources by their associated languages.
+The board reloads with the updated configuration. Filtering works. If you create Language records and associate them with Resource records, you can filter resources by their associated languages.
 
-### Summary
+## Customize the Schedule Assistant
 
-In the above steps, we modified the Filter panel to show a filter control for the Language entity. We also modified the Retrieve Resources Query to match resources associated with the selected Language records. When a user selects values in the filter control and select Search, the values are passed into the query and the FetchXML query returns only matching resources.
-
-## Customizing the Schedule Assistant
-
-We need to customize the Schedule Assistant Filter Layout and Retrieve Constraints Query configurations to use the new Language constraints in the Schedule Assistant.
+Customize the Schedule Assistant Filter Layout and Retrieve Constraints Query configurations to use the new Language constraints in the Schedule Assistant.
 
 Unlike the Schedule Board customizations, where each board can be individually customized, the Schedule Assistant customizations affects all boards where the Schedule Assistant is used. The Schedule Assistant customizations can be specific to a schedulable type or for all types. In this example, we customize the Schedule Assistant for all types.
 
-### Schedule Assistant Filter Layout Configuration
+### Configure the Schedule Assistant Filter Layout
 
-> [!TIP]
-> For the below steps, it is helpful to use a text editor that supports XML syntax highlighting to make your changes, and then paste your changes back into the Universal Resource Scheduling editor.
+For the following steps, use a text editor that supports XML syntax highlighting to make your changes, and then paste your changes back into the Universal Resource Scheduling editor.
 
-The Schedule Assistant Filter Layout configuration, like the Schedule Board Filter Layout, defines the layout of the controls in the Filter panel. Since the Schedule Assistant uses more filters than the Schedule Board, like Start Time, End Time, Duration, etc., a different layout is used.
+The Schedule Assistant Filter Layout configuration, like the Schedule Board Filter Layout, defines the layout of the controls in the Filter panel. Since the Schedule Assistant uses more filters than the Schedule Board, like Start Time, End Time, and Duration, a different layout is used.
 
 > [!NOTE]
-> For this exercise, we'll reuse only a subset of the default filters shipped in Universal Resource Scheduling from the Schedule Assistant Filter Layout configuration and add the Languages dropdown as the only available filter.
+> For this exercise, we reuse only a subset of the default filters shipped in Universal Resource Scheduling from the Schedule Assistant Filter Layout configuration and add the Languages dropdown as the only available filter.
 
-The filter we're adding to the layout is the same as above in [Filter Layout Configuration](#filter-layout-configuration). The other controls are needed to modify the Schedule Assistant search parameters.
+The filter we're adding to the layout is the same one in [Configure the Schedule Board Filter Layout](#configure-the-schedule-board-filter-layout). The other controls are needed to modify the Schedule Assistant search parameters.
 
 The complete Schedule Assistant Filter Layout
 
@@ -433,38 +419,38 @@ The complete Schedule Assistant Filter Layout
 
 #### Update the Schedule Assistant Filter Layout
 
-1. In the top right, double-click the Language tab
-1. In the top right, select Open Default Settings
-1. Scroll to the Schedule Types section and select None in the left list
-1. Locate the Schedule Assistant Filter Layout field, select the button to the right to open the editor
-1. Update the Value field with the Schedule Assistant Filter Layout code above and select Save As
-1. Enter "Language Schedule Assistant Filter Layout" in the Name field and select Save. This creates a new configuration record and links this Schedule Board to the record.
-1. At the bottom of the dialog, select Apply
+1. On the Schedule Board, select the ellipses (&hellip;) in the top right and **Scheduler settings**.
+1. Select **All board settings** at the bottom of the pane.
+1. Scroll to **Schedule Types** and select **None**.
+1. Select **Edit defaults** located at the bottom.
+1. Locate the **Schedule assistant filter layout** field, select the pencil icon to open the editor.
+1. Enter **Language Schedule Assistant Filter Layout** in the **Name** field.
+1. Update the Schedule assistant filter layout field with the code and select **Save as new**. A new configuration record is created which links this Schedule Board to the record.
+1. At the bottom of the Board settings dialog, select **Save**.
 
-The board will reload. Next, we need to change the Retrieve Constraints Query before we can use the Schedule Assistant with our new Language constraints, so that the Languages set on the Requirement are part of the Schedule Assistant search.
+The board reloads. Change the Retrieve Constraints Query to include the languages set on the Requirement in the Schedule Assistant search.
 
-### Retrieve Constraints Query Configuration
+### Configure the Retrieve Constraints Query
 
-> [!TIP]
-> For the below steps, it is helpful to use a text editor that supports XML syntax highlighting to make your changes, and then paste your changes back into the Universal Resource Scheduling editor.
+For the following steps, use a text editor that supports XML syntax highlighting to make your changes, and then paste your changes back into the Universal Resource Scheduling editor.
 
 The Retrieve Constraints Query configuration is a [UFX Query](universal-fetchxml.md#ufx-queries) used by the Retrieve Requirement Constraints API. It takes as input the ID of a Requirement record (selected in the UI) and returns the Requirement record and all its child records.
 
 > [!NOTE]
-> The default Retrieve Constraints Query shipped with Universal Resource Scheduling is a large query that supports all the requirement constraints included with Universal Resource Scheduling. For this exercise, we'll use only a subset of the default query and add Languages as the only filter.
+> The default Retrieve Constraints Query shipped with Universal Resource Scheduling is a large query that supports all the requirement constraints included with Universal Resource Scheduling. For this exercise, we use only a subset of the default query and add Languages as the only filter.
 
 ```xml
 <Languages ufx:select="lookup-to-list(Requirement/lang_primarylanguage, Requirement/lang_secondarylanguage)" />
 ```
 
-UFX Queries are processed in sequential order. The Retrieve Constraints Query uses FetchXML to query the `Requirement (msdyn_resourcerequirement)` entity and assigns the result, a Requirement record, to the  `Requirement` property. We are adding to the constraints property bag a new property `Languages` that combines both attributes, the Primary Language and Secondary Language, into a single list of entities (EntityCollection). This is required since we're showing the Languages control in the Filter panel as a list of records. An alternative would be to create two separate controls in the Filter panel for the two attributes.
+UFX Queries are processed in sequential order. The Retrieve Constraints Query uses FetchXML to query the `Requirement (msdyn_resourcerequirement)` entity and assigns the result, a Requirement record, to the  `Requirement` property. We're adding to the constraints property bag a new property `Languages` that combines both attributes, the Primary Language and Secondary Language, into a single list of entities (EntityCollection). This property is required since we're showing the Languages control in the Filter panel as a list of records. An alternative would be to create two separate controls in the Filter panel for the two attributes.
 
-Here's the description of each **`element`** and `attribute`:
+The description of each **`element`** and `attribute`:
 
-Name | Description
---- | ---
-**`Languages`** | Create a new property in the result constraints property bag named `Languages`
-`ufx:select` | Assign the result of the XPath expression in this attribute to the `Languages` property. The `lang_primarylanguage` and `lang_secondarylanguage` properties, retrieved earlier in the query and available in the `Requirement` property, is passed to the `lookup-to-list` XPath function, which converts multiple `lookup` properties to a single `list (EntityCollection)`
+|Name | Description|
+|--- | ---|
+|**`Languages`** | Create a new property in the result constraints property bag named `Languages`|
+|`ufx:select` | Assign the result of the XPath expression in this attribute to the `Languages` property. The `lang_primarylanguage` and `lang_secondarylanguage` properties, retrieved earlier in the query and available in the `Requirement` property, is passed to the `lookup-to-list` XPath function, which converts multiple `lookup` properties to a single `list (EntityCollection)`|
 
 Retrieve Constraints Query:
 
@@ -496,22 +482,24 @@ Retrieve Constraints Query:
 
 #### Update the Retrieve Constraints Query
 
-1. In the top right, double-click the Language tab
-1. In the top right, select Open Default Settings
-1. Scroll to the Schedule Types section and select None in the left list
-1. Locate the Schedule Assistant Retrieve Constraints Query field, select the button to the right to open the editor
-1. Update the Value field with the Retrieve Resources Query code above and select Save As
-1. Enter "Language Constraints Query" in the Name field and select Save. This creates a new configuration record and links this Schedule Board to the record.
-1. Locate the Schedule Assistant Retrieve Resources Query field and select the Languages Resources Query we created earlier for the Schedule Board Customizations
-1. At the bottom of the dialog, select Apply
+1. On the Schedule Board, select the ellipses (&hellip;) in the top right and **Scheduler settings**.
+1. Select **All board settings** at the bottom of the pane.
+1. Scroll to **Schedule Types** and select **None**.
+1. Select **Edit defaults**.
+1. Locate the **Schedule assistant retrieve constraints query** field and select the pencil icon to open the editor.
+1. Enter "Language Constraints Query" in the **Name** field.
+1. Update the Schedule assistant retrieve constraints query field with the Retrieve Constraints Query code and select **Save as new**.
+1. Select **Save**. A new configuration record is created which links this Schedule Board to the record.
+1. Locate the **Schedule assistant retrieve resources query** field and select the Languages Resources Query we created for the Schedule Board Customizations.
+1. At the bottom of the dialog, select **Save**.
 
-The board will reload with the updated configuration. Schedule Assistant filtering will now work. If you created Language records and associated them with Requirement records, you'll now be able to select a Requirement record in the bottom of the Schedule Board, select Find Availability to launch the Schedule Assistant, and see only resources matching the languages saved on the requirement.
+The board reloads with the updated configuration. Schedule Assistant filtering works. If you create Language records and associate them with Requirement records, you can select a Requirement record in the bottom of the Schedule Board, select **Find Availability** to see only resources that match the languages saved on the requirement.
 
 <a name="resource-cell-template-configuration"></a>
-### Resource Cell Template Configuration
 
-> [!TIP]
-> For the below steps, it is helpful to use a text editor that supports HTML syntax highlighting to make your changes, and then paste your changes back into the Universal Resource Scheduling editor.
+### Configure the Resource Cell Template
+
+For the following steps, use a text editor that supports HTML syntax highlighting to make your changes, and then paste your changes back into the Universal Resource Scheduling editor.
 
 The Resource Cell Template configuration is a [Handlebars](https://handlebarsjs.com/) template used to render content in the resource cell. The output from the Retrieve Resources Query is available to the template.
 
@@ -525,7 +513,7 @@ We're modifying the default resource template to show a green ✔✱ indicator i
 {{/if}} 
 ```
 
-The `lang_primary` and `lang_secondary` properties are returned from our custom [Retrieve Resources Query](#retrieve-resources-query-configuration) we setup above. Consult the [Handlebars](https://handlebarsjs.com/) website for documentation on the templating syntax.
+The `lang_primary` and `lang_secondary` properties are returned from our custom [Retrieve Resources Query](#retrieve-resources-query-configuration) we setup. Consult the [Handlebars](https://handlebarsjs.com/) website for documentation on the templating syntax.
 
 Resource Cell Template:
 
@@ -564,25 +552,21 @@ Resource Cell Template:
 
 #### Update the Resource Cell Template
 
-1. In the top right, double-click the Language tab
-1. In the top right, select Open Default Settings
-1. Scroll to the Schedule Types section and select None in the left list
-1. Locate the Schedule Assistant Resource Cell Template field, select the button to the right to open the editor
-1. Update the Value field with the Resource Cell Template code above and select Save As
-1. Enter "Language Resource Cell Template" in the Name field and select Save. This creates a new configuration record and links this Schedule Board to the record.
-1. At the bottom of the dialog, select Apply
+1. On the Schedule Board, select the ellipses (&hellip;) in the top right and **Scheduler settings**.
+1. Select **All board settings** at the bottom of the pane.
+1. Scroll to **Schedule Types** and select **None**.
+1. Select **Edit defaults**.
+1. Locate the **Schedule Assistant Resource Cell Template** field and select the pencil icon to open the editor.
+1. Enter "Language Resource Cell Template" in the **Name** field.
+1. Update the Resource Cell Template field with the Resource Cell Template code and select **Save as new**.
+1. Select **Save**. A new configuration record is created which links this Schedule Board to the record.
+1. Locate the **Schedule assistant retrieve resources query** field and select the Languages Resources Query we created for the Schedule Board Customizations.
+1. At the bottom of the dialog, select **Save**.
 
-The board will reload with the updated configuration. The resource cell will now indicate how a resource matched the language constraint in the Filter panel.
+The board reloads with the updated configuration. The resource cell shows how a resource matches the language constraint in the Filter panel.
 
-### Summary
-
-In the above steps, we modified the Filter panel in the Schedule Assistant to show a filter control for the Language entity. We also modified the Retrieve Constraints Query to query the new Language attributes related to the Requirement entity, and shape them into a list. When a user selects to find availability for a Requirement record, the Filter panel shows the captured Language constraints. The values from the Filter panel are passed into the Retrieve Resources query and the FetchXML query returns only matching resources.
-
-### See also
+### Additional resources
 
 [Universal Fetch XML](universal-fetchxml.md)
-
-[Universal Resource Scheduling extensibility release notes](extensibility-release-notes.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

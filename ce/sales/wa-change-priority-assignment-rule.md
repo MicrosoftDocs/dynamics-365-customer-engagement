@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
 ms.collection:
-ms.date: 10/12/2023
+ms.date: 03/11/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -19,13 +19,6 @@ ms.custom:
 When assignment rules run, a lead or an opportunity might meet the criteria of multiple rules. To determine which rule should take precedence, you can set their priority. A record that matches more than one rule is assigned by the rule that has a higher priority.
 
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/) or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) |
-| **Security roles** | [System Administrator, Sequence Manager, or Sales Manager](security-roles-for-sales.md) |
 
 ## Change the priority of an assignment rule
 
@@ -46,6 +39,6 @@ When assignment rules run, a lead or an opportunity might meet the criteria of m
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md)

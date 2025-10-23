@@ -2,7 +2,6 @@
 title: "Publish request schema | MicrosoftDocs"
 description: "The following is the schema definition for the PublishXmlRequest message."
 ms.custom: 
-ms.date: 12/22/2017
 ms.reviewer: pehecke
 
 ms.suite: 

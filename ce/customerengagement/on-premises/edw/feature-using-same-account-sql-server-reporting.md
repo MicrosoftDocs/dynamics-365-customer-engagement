@@ -3,7 +3,6 @@ title: "Microsoft Dynamics 365 Server feature using the same account as instance
 description: Environment diagnostics warning that a service account is already used elsewhere.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

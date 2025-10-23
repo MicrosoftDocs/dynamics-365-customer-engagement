@@ -1,48 +1,46 @@
 ---
 title: Set up resource pay types
-description: Learn how to set up resource pay types track costs associated with resource bookings in Dynamics 365 Field Service
-ms.date: 07/28/2022
-
-ms.topic: article
+description: Learn how to set up resource pay types to track costs associated with resource bookings in Dynamics 365 Field Service.
+ms.date: 07/24/2025
+ms.topic: how-to
 ms.author: jacoh
 author: jasonccohen
+ms.custom: bap-template
 ---
+
 # Set up resource pay types
 
-Resource pay types can be used to track your company's costs associated with a resource booking. When the status of a resource booking record is set to "complete," the system generates booking journal records, according to the time that a field agent spent performing the work.  
-  
- The system can create one booking journal record for each of the following journal types: travel, working hours, break, overtime, and business closure, depending on the various resource booking statuses that the user applied to the resource booking while completing the work.  
-  
- To set up this functionality, create one resource pay type record for each journal type, and then assign the resource pay types that you created in the **Pay Types** section of the **Resources** page.  
-  
-## Create a new resource pay type  
-  
-1. From the main menu, go to **Resources** > **Resource**, and then choose **Pay Types**.  
-  
-1. On the **Active Resource Pay Types** screen, select **+New** in the upper left corner.  
-  
-1. **Name** the pay type.  
-  
-1. Assign an **Hourly Markup** percentage.  
-  
-     The **Hourly Markup** field  will be applied to the hourly rate amount specified on the resource record when determining the costs associated with the resource booking. For example, if you create a pay type called "Overtime" and assign it an hourly markup percentage of 150%, and then associate it with the **Overtype Pay Type** in **Field Service** settings, when the system creates a booking journal for overtime, it will set the cost at 150% of the hourly rate of the resource who performed the work  
-  
-## Assign pay type scenarios  
-  
-1. From the main menu, go to **Resources** > **Resource**, and then choose **Pay Types**.  
-  
-1. In the **Resource Pay Type** screen, assign the resource pay types that you created to the various journal types, and then select the **Save** button in the lower left corner.  
-  
-     Booking journals will be created to calculate the cost of a resource booking, for each of the journal types, according to the following logic:  
-  
-    - **Work**: Time the resource booking status is in progress while the resource is within their scheduled work hours.  
-  
-    - **Overtime**: Time recorded outside a resource's normal working hours.  
-  
-    - **Travel**: Time the resource booking status is "traveling."  
-  
-    - **Break**: Time the resource booking status is "on break."  
-  
-    - **Business Closure:** Time recorded by a resource when the company is closed.  
-  
+You can use resource pay types to track your company's costs that are associated with a resource booking. When the status of a resource booking record is set to *Completed*, the system generates booking journal records based on the time that a field agent spent performing the work.
+
+Based on the resource booking statuses applied during the work, the system can create one booking journal record for each of the following journal types. Each journal type helps calculate the cost of a resource booking using the following logic:
+
+- **Work**: Time logged while the resource booking status is *In Progress* and the resource is working within their scheduled hours.
+- **Overtime**: Time recorded outside the resource's normal working hours.
+- **Business Closure**: Time logged when the company is officially closed.
+- **Break**: Time recorded while the resource booking status is *On Break*.
+- **Travel**: Time recorded while the resource booking status is *Traveling*.
+
+## Create a new resource pay type
+
+Create one resource pay type for each journal type.
+
+1. In Dynamics 365 Field Service, select the **Resources** area.
+1. Under **Resource**, select **Pay Types**, and then **New**.
+1. For each journal type, create a pay type with the following information:
+
+    - **Name**: Enter a name for the pay type.
+    - **Hourly Markup**: Enter, as a percentage, the markup for the hourly rate amount that is specified on the resource record. This markup is applied when the costs that are associated with the resource booking are determined.
+
+        For example, you create a pay type that is named *Overtime*. You assign an hourly markup of 150 percent to it and then associate it with **Overtime Pay Type** in **Field Service Settings**. In this case, when the system creates a booking journal for overtime, it sets the cost at 150 percent of the hourly rate of the resource who performed the work.
+
+1. Select **Save**.
+
+## Assign pay type scenarios
+
+1. In Field Service, go to the **Settings** area and select the **Work Order / Booking** tab.
+
+1. In the **Resource Pay Type** section, assign the resource pay types that you created to the different journal types.
+
+1. Select **Save**.
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

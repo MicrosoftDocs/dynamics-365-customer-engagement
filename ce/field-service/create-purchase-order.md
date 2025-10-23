@@ -1,7 +1,7 @@
 ---
 title: Create a purchase order
 description: Learn about creating purchase orders in Dynamics 365 Field Service.
-ms.date: 05/08/2024
+ms.date: 05/08/2025
 ms.topic: how-to
 ms.author: jacoh
 author: jasonccohen
@@ -19,9 +19,7 @@ In Dynamics 365 Field Service, a purchase order (PO) is created to add inventory
   
 1. In **Field Service** go to the **Inventory** area.  
 
-1. Under **Purchase**, select **Purchase Orders**.
-  
-1. On the **Active Purchase Orders** screen, select **+New**.  
+1. Under **Purchase**, select **Purchase Orders**, and then select **New**.  
   
 1. Use the tooltips to help you fill in your information.  
   
@@ -43,22 +41,20 @@ When you create a purchase order, you can track how the order is shipped. The **
   
 1. When you're done, **Save & Close**.  
 
-:::image type="content" source="media/inventory-purchase-order-products.png" alt-text="Screenshot of purchase order products.":::
-
-1. Go back to the purchase order and change the **System Status** to **Submitted**.
+1. Go back to the **General** tab on the purchase order and change the **System Status** to **Submitted**.
 
 ## Step 3: Get the purchase order approved
   
 If you have permissions to approve the PO, go to the PO and change the **System Status** to **Approved**.  
 
 > [!NOTE]
-> For products that are tracked in inventory and for purchase orders being received to warehouses, an inventory journal is created automatically in the background that increases the **On Order** warehouse quantity by the PO product quantity. This helps inventory managers understand if more units have already been ordered.
+> For products that are tracked in inventory and for purchase orders being received to warehouses, an inventory journal is created automatically that increases the **On Order** warehouse quantity by the PO product quantity. This automatic update helps inventory managers understand if more units were already ordered.
 
 ## Step 4: Create a receipt for the purchase order  
 
 When the order arrives, you can create a receipt.  
   
-1. Go to **Field Service** > **Inventory tab** > **Receipts** > **+New**.  
+1. In the **Inventory** area, select **Receipts**, and then **New**.  
   
 1. Give the receipt a name and assign it to the purchase order, and then mark the person creating the receipt.  
   

@@ -1,14 +1,16 @@
 ---
-title: "Dynamics 365 US Government and Customer Service availability | MicrosoftDocs"
-description: Learn about Dynamics 365 US Government and Customer Service feature availability
-ms.date: 10/12/2021
-ms.topic: article
+title: Dynamics 365 US Government and Customer Service availability
+description: Learn about Dynamics 365 US Government and Customer Service feature availability.
+ms.date: 08/30/2024
+ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
+ms.custom: bap-template
 ---
 
 # Dynamics 365 Customer Service and Dynamics 365 US Government availability
 
-Microsoft strives to maintain functional parity between our commercially available service and that which services Dynamics 365 US Government GCC and GCC High environments.
+Microsoft strives to maintain functional parity between our commercially available service and the services for Dynamics 365 US Government GCC and GCC High environments.
 
-For more information about Dynamics 365 US Government feature availability, visit this article: [Dynamics 365 US Government - Feature availability](/power-platform/admin/government-feature-availability)
+Learn more at [Dynamics 365 US Government](/power-platform/admin/microsoft-dynamics-365-government).

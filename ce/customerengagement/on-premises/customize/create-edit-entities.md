@@ -2,7 +2,6 @@
 title: "Overview of entities in Dynamics 365 Customer Engagement (on-premises)"
 description: "Entities define the types of records people can use in Dynamics 365. You can edit customizable system entities and create, edit, or delete custom entities."
 ms.custom: 
-ms.date: 04/30/2019
 ms.reviewer: 
 
 ms.suite: 

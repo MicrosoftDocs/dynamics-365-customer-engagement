@@ -1,16 +1,19 @@
 ---
-title: Create resource groups | Microsoft Docs
+title: Create resource groups
 description: How to create resource groups in Unified Interface-based Scheduling Service for Dynamics 365 Customer Service.
-ms.date: 04/04/2022
-ms.topic: article
-author: lalexms
-ms.author: laalexan
+ms.date: 05/20/2025
+ms.topic: how-to
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
   - enduser
 ms.custom: 
   - dyn365-customerservice
+  - bap-template
+  - evergreen
 ---
 
 # Create resource groups
@@ -22,12 +25,12 @@ Use resource groups to group users, facilities, and equipment as part of the sel
 
 Before you begin, make sure you have the Scheduler Manager role or equivalent permissions.
 
-1. Navigate to the Customer Service admin center or Customer Service Hub app, and perform the following steps:
+1. Navigate to the Copilot Service admin center or Customer Service Hub app, and perform the following steps:
 
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+   ### [Copilot Service admin center](#tab/copilotserviceadmincenter)
 
     1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
-    1. In the **Resource group** section, select **Manage**.
+    1. In the **Resource Group** section, select **Manage**.
         
         The **Local Resource Groups** view is displayed. You can switch between various system views using the drop-down list.  
 
@@ -44,7 +47,7 @@ Before you begin, make sure you have the Scheduler Manager role or equivalent pe
 
     - **Name**: You must enter a name for the resource group. The application does not check that the name is unique.
 
-    - **Business Unit**: To locate and select a business unit, select the Lookup button.
+    - **Business Unit Id**: To locate and select a business unit, select the Lookup button.
   
     - **Description**: You can add a detailed description of this resource group, including the criteria that you used to determine which resources to add to the resource group. 
 
@@ -67,12 +70,12 @@ Before you begin, make sure you have the Scheduler Manager role or equivalent pe
 
 ## Edit a resource group
 
-1. Navigate to either on the Customer Service Hub or on Customer Service admin center app. Depending on your app, perform the following steps:
+1. Navigate to either on the Customer Service Hub or on Copilot Service admin center app. Depending on your app, perform the following steps:
 
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+   ### [Copilot Service admin center](#tab/copilotserviceadmincenter)
 
     1. In the site map, select **Service scheduling** in **Operations**.
-    1.  In the **Resource group** section, select **Manage**.
+    1.  In the **Resource Group** section, select **Manage**.
         
         The **Local Resource Groups** view is displayed. You can switch between various system views using the drop-down list.  
 
@@ -89,7 +92,7 @@ Before you begin, make sure you have the Scheduler Manager role or equivalent pe
 
    ![Edit Resource Group.](../media/uci-change-resource.png "Edit the resources in your Resource Group")
    
-### See also  
+### Related information  
 
 [Unified Interface-based service scheduling overview](uci-scheduling-overview.md)
 

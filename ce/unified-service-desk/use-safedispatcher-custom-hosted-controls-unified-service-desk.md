@@ -1,15 +1,15 @@
 ---
 title: "Use SafeDispatcher for custom hosted controls in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use SafeDispatcher to provide out-of-box logging for unhandled exceptions in Unified Service Desk."
-ms.date: 08/23/2017
-ms.topic: article
+ms.date: 06/27/2024
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Use SafeDispatcher for custom hosted controls in Unified Service Desk
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is a [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)]-based application where all the operations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] are executed on the main *WPF Dispatcher* thread. The [WPF Dispatcher](https://msdn.microsoft.com/library/system.windows.threading.dispatcher\(v=vs.110\).aspx) class provides services for managing the queue of work items for a thread.
@@ -20,26 +20,26 @@ ms.custom:
 
 <a name="What"></a>
 ## What is SafeDispatcher?
- [SafeDispatcher](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.utilities.safedispatcher) is built on the same lines as the [WPF Dispatcher](https://msdn.microsoft.com/library/system.windows.threading.dispatcher\(v=vs.110\).aspx), and provides resilient and informative exception handling for  custom hosted controls within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. It is exposed as a protected property, [SafeDispatcher](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol.safedispatcher), on the [DynamicsBaseHostedControl](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol) class, which makes SafeDispatcher automatically available for all [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] custom hosted controls that are derived from the [DynamicsBaseHostedControl](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol) class.
+ [SafeDispatcher](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.utilities.safedispatcher) is built on the same lines as the [WPF Dispatcher](https://msdn.microsoft.com/library/system.windows.threading.dispatcher\(v=vs.110\).aspx), and provides resilient and informative exception handling for  custom hosted controls within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. It's exposed as a protected property, [SafeDispatcher](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol.safedispatcher), on the [DynamicsBaseHostedControl](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol) class, which makes SafeDispatcher automatically available for all [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] custom hosted controls that are derived from the [DynamicsBaseHostedControl](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol) class.
 
 > [!NOTE]
->  Do not use the [SafeDispatcher](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.utilities.safedispatcher) class  in your code to work with SafeDispatcher. Instead, you must use the [SafeDispatcher](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol.safedispatcher) property on your custom hosted control instance that is derived from the  [DynamicsBaseHostedControl](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol) class to use SafeDispatcher.
+>  Don't use the [SafeDispatcher](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.utilities.safedispatcher) class  in your code to work with SafeDispatcher. Instead, you must use the [SafeDispatcher](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol.safedispatcher) property on your custom hosted control instance that is derived from the  [DynamicsBaseHostedControl](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol) class to use SafeDispatcher.
 
  Just like [WPF Dispatcher](https://msdn.microsoft.com/library/system.windows.threading.dispatcher\(v=vs.110\).aspx), SafeDispatcher provides methods such as [BeginInvoke](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.utilities.safedispatcher.begininvoke), [Invoke](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.utilities.safedispatcher.invoke), and [InvokeAsync](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.utilities.safedispatcher.invokeasync) to run operations synchronously or asynchronously on SafeDispatcher with an additional boolean parameter, `runOnMainUiThread`, that controls whether to run SafeDispatcher on UI thread or not.
 
  SafeDispatcher provides the following benefits:
 
-- **Protected UI Dispatcher thread**: Developers can run all UI-dependent operations on SafeDispatcher by setting the `runOnMainUiThread` parameter  to "true" in the invoke method to run the SafeDispatcher on UI thread. Any unhandled exception raised on main UI dispatcher will be handled safely at the hosted control level instead of bubbling up to the global [DispatcherUnhandledException Event](https://msdn.microsoft.com/library/system.windows.application.dispatcherunhandledexception\(v=vs.110\).aspx) handler.
+- **Protected UI Dispatcher thread**: Developers can run all UI-dependent operations on SafeDispatcher by setting the `runOnMainUiThread` parameter  to "true" in the invoke method to run the SafeDispatcher on UI thread. Any unhandled exception raised on main UI dispatcher is handled safely at the hosted control level instead of bubbling up to the global [DispatcherUnhandledException Event](https://msdn.microsoft.com/library/system.windows.application.dispatcherunhandledexception\(v=vs.110\).aspx) handler.
 
-- **Protected non-UI Dispatcher thread**: Developers can run all UI-independent code on SafeDispatcher. by setting the `runOnMainUiThread` parameter to "false" in the invoke method to run the SafeDispatcher on non-UI thread. Any unhandled exception raised on main non-UI dispatcher will be handled safely at the hosted control level instead of  bubbling up to the global [DispatcherUnhandledException Event](https://msdn.microsoft.com/library/system.windows.application.dispatcherunhandledexception\(v=vs.110\).aspx) handler.
+- **Protected non-UI Dispatcher thread**: Developers can run all UI-independent code on SafeDispatcher. by setting the `runOnMainUiThread` parameter to "false" in the invoke method to run the SafeDispatcher on non-UI thread. Any unhandled exception raised on main non-UI dispatcher is handled safely at the hosted control level instead of  bubbling up to the global [DispatcherUnhandledException Event](https://msdn.microsoft.com/library/system.windows.application.dispatcherunhandledexception\(v=vs.110\).aspx) handler.
 
 - **Detailed information about exception source and cause:**: The SafeDispatcher exception handler is raised when an unhandled exception is raised at the [DynamicsBaseHostedControl](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol) level by the UI or non-UI thread, which allows [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to capture critical information at the hosted control level such as hosted control name, hosted control type, method name, and complete stack trace to identify the exact location and cause of the exception.
 
-- **Configure or override SafeDispatcher exception handler**: Developers can leverage the out-of-box behavior of the SafeDispatcher exception handler to prompt the user with information about the unhandled exception or override the behavior as per their business requirement such as configure additional logging, close session based controls, or  exit the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client.
+- **Configure or override SafeDispatcher exception handler**: Developers can use the out-of-box behavior of the SafeDispatcher exception handler to prompt the user with information about the unhandled exception or override the behavior as per their business requirement such as configure additional logging, close session based controls, or  exit the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client.
 
 <a name="How"></a>
 ## How to use SafeDispatcher?
- The [SafeDispatcher](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol.safedispatcher) property is available for all [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] custom hosted control instances that are derived from the [DynamicsBaseHostedControl](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol) class. A [SafeDispatcher](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.utilities.safedispatcher) instance will be available to run on UI thread when the custom hosted control is initialized. However, a SafeDispatcher instance will only be available to run on  non-UI thread when you execute the invoke method for the first time.
+ The [SafeDispatcher](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol.safedispatcher) property is available for all [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] custom hosted control instances that are derived from the [DynamicsBaseHostedControl](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol) class. A [SafeDispatcher](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.utilities.safedispatcher) instance is available to run on UI thread when the custom hosted control is initialized. However, a SafeDispatcher instance will only be available to run on  non-UI thread when you execute the invoke method for the first time.
 
 -   Synchronously invoke a UI-specific function using the SafeDispatcher
 
@@ -60,7 +60,7 @@ ms.custom:
     ```
 
     > [!NOTE]
-    >  For UI-specific function, you should set the `runOnMainUiThread` optional parameter to "true". If you do not specify a value for this parameter, by default "true" is passed. So, any of the above method definition works fine.
+    >  For UI-specific function, you should set the `runOnMainUiThread` optional parameter to "true". If you don't specify a value for this parameter, by default "true" is passed. So, any of the above method definition works fine.
 
 -   Asynchronously invoke a UI-specific function using SafeDispatcher. You can use either the `BeginInvoke` or `InvokeAsync` method.
 
@@ -165,7 +165,7 @@ SafeDispatcher.Invoke(() =>
 }, false);
 ```
 
- The [SafeDispatcherUnhandledExceptionHandler](/dotnet/api/Microsoft.Crm.UnifiedServiceDesk.Dynamics.DynamicsBaseHostedControl.SafeDispatcherUnhandledExceptionHandler) method will be called if an exception happens on the WPF Dispatcher or on the STA non-UI thread and will be raised on the respective thread on which the exception happened. You should be careful in making sure you don’t place the above combination in this handler, that is, if the exception occurred on non-UI thread, do not dispatch synchronously to the main UI dispatcher.
+ The [SafeDispatcherUnhandledExceptionHandler](/dotnet/api/Microsoft.Crm.UnifiedServiceDesk.Dynamics.DynamicsBaseHostedControl.SafeDispatcherUnhandledExceptionHandler) method is called if an exception happens on the WPF Dispatcher or on the STA non-UI thread and is raised on the respective thread on which the exception happened. You should be careful in making sure you don’t place the above combination in this handler, that is, if the exception occurred on non-UI thread, don't dispatch synchronously to the main UI dispatcher.
 
 ```csharp
 protected override void SafeDispatcherUnhandledExceptionHandler(object sender, SafeDispatcherUnhandledExceptionEventArgs ex)

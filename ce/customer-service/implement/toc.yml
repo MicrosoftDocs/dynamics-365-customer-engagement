@@ -14,11 +14,11 @@
           href: try-customer-service.md
         - name: Customer Service trial FAQ
           href: trial-faq.md
-      - name: Customer Service workspace
+      - name: Copilot Service workspace
         href: csw-overview.md
       - name: Customer Service Team Member
         href: customer-service-team-member.md
-      - name: Customer Service admin center
+      - name: Copilot Service admin center
         href: cs-admin-center.md
       - name: Customer Service Hub
         href: customer-service-hub-user-guide-basics.md
@@ -30,46 +30,16 @@
       items:
       - name: Release plans
         href: whats-new-customer-service.md
-      - name: Deprecations
-        items:
-        - name: Deprecations in Customer Service
-          href: deprecations-customer-service.md
-        - name: Customer Service Analytics
-          items:
-          - name: Configure Customer Service analytics dashboards in Power BI
-            href: configure-customer-service-analytics-dashboard.md
-          - name: Use Customer Service Analytics dashboards in Power BI
-            href: customer-service-analytics.md
-        - name: Omnichannel Insights
-          items:
-          - name: Introduction to Omnichannel Insights
-            href: intro-dynamics-365-omnichannel-insights-dashboard.md
-          - name: Configure Omnichannel Insights dashboards
-            href: configure-historical-sentiment-dashboard-supervisor.md
-          - name: View and understand Omnichannel Insights dashboard
-            href: omnichannel-insights-dashboard.md
-        - name: Intraday analytics reports
-          items:
-          - name: Configure intraday insights
-            href: configure-intraday-dashboard-supervisor.md
-          - name: Introduction to intraday supervisor experience
-            href: intro-intraday-insights-dashboard.md
-          - name: Intraday Monitoring report
-            href: intraday-insights-dashboard.md
-          - name: Agents insights report
-            href: intraday-agents-insights.md
-          - name: Conversation insights report
-            href: intraday-conversation-insights.md
-          - name: Customize KPIs for intraday insights
-            href: customize-kpis-intraday-insights.md
+      - name: Deprecations in Customer Service
+        href: deprecations-customer-service.md 
     - name: System requirements
       items:
       - name: System requirements for Customer Service
         href: csh-system-requirements.md
-      - name: System requirements for Customer Service workspace
+      - name: System requirements for Copilot Service workspace
         href: customer-service-workspace-system-requirements.md
-      - name: System requirements for Omnichannel for Customer Service
-        href: system-requirements-omnichannel.md
+      - name: System requirements for Dynamics 365 Contact Center
+        href: /dynamics365/contact-center/implement/system-requirements-contact-center?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
       - name: Service quotas
         href: service-quotas.md
       - name: Best practices to set up voice channel
@@ -96,18 +66,18 @@
         href: move-cs-enterprise-cs-professional.md
       - name: Install Omnichannel for Customer Service
         items:
-        - name: Provision Omnichannel for Customer Service
-          href: omnichannel-provision-license.md
+        - name: Provision channels in the admin app
+          href: /dynamics365/contact-center/implement/provision-channels?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml   
         - name: Export and import app configuration data
           href: export-import-omnichannel-data.md
         - name: Copy an environment with Omnichannel for Customer Service
-          href: copy-environment-with-omnichannel.md   
-        - name: Uninstall Omnichannel for Customer Service
-          href: remove-omnichannel.md
+          href: copy-environment-with-omnichannel.md
+        - name: Reset, restore, recover omnichannel environments
+          href: /dynamics365/contact-center/implement/restore-environment?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml   
+        - name: Turn off channels
+          href: /dynamics365/contact-center/implement/provision-channels#turn-off-channels?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml   
         - name: Uninstall solutions
           href: delete-solution.md
-      - name: Upgrade Omnichannel for Customer Service
-        href: upgrade-omnichannel.md
       - name: Try channels in Omnichannel for Customer Service
         href: try-channels.md
       - name: Provide consent to access data
@@ -124,14 +94,22 @@
         href: persona-privilege-mapping.md
     - name: Known issues in Customer Service and Omnichannel for Customer Service
       href: https://go.microsoft.com/fwlink/p/?linkid=2165393
-    - name: Compliance certifications of Omnichannel for Customer Service
+    - name: Compliance certifications for Customer Service
       href: compliance-certifications.md
   - name: Responsible AI
     items:
     - name: Overview
       href: responsible-ai-overview.md
+    - name: Responsible AI FAQ for AI Agents (Preview)
+      href: /dynamics365/contact-center/implement/faq-rai-ai-agents?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
     - name: Responsible AI FAQ for Copilot in Customer Service
       href: faq-responsible-ai-copilot.md
+    - name: Responsible AI FAQs for NLUs in AI agents
+      href: /dynamics365/contact-center/implement/natural-language-ai-faq?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
+    - name: Constrained speech recognition
+      items:
+      - name: Transparency note
+        href: /dynamics365/contact-center/implement/transparency-note?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
   - name: Resources
     items:
     - name: Training
@@ -144,7 +122,7 @@
       href: https://community.dynamics.com/forums/thread/?groupid=25cd05f7-e478-4843-beb5-9ecf4b3e1f74
   - name: Administer Dynamics 365 Customer Service
     href: overview.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-  - name: Manage your contact center
+  - name: Use Dynamics 365 Customer Service
     href: overview.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
   - name: Develop Dynamics 365 Customer Service
     href: ../develop/omnichannel-developer.md?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml
@@ -152,3 +130,5 @@
     href: ../../channel-integration-framework/channel-integration-framework.md?toc=/dynamics365/channel-integration-framework/toc.json&bc=../../breadcrumb/toc.yml
   - name: Unified Service Desk
     href: ../../unified-service-desk/unified-service-desk.md?toc=/dynamics365/unified-service-desk/toc.json&bc=../../breadcrumb/toc.yml
+  - name: Dynamics 365 Contact Center documentation
+    href: /dynamics365/contact-center/

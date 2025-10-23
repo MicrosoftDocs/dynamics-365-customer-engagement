@@ -1,8 +1,8 @@
 ---
 title: Use the Sales Hub app to access Dynamics 365 Sales features
 description: The Sales Hub app is preinstalled and comes with features to help you quickly start using sales and sales insights capabilities of Dynamics 365.
-ms.date: 05/04/2023
-ms.topic: article
+ms.date: 07/09/2025
+ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -14,21 +14,19 @@ Sales Hub is a free app from Microsoft that's preinstalled. It comes with severa
 
 We recommend that you use the Sales Hub app unless your organization follows unique sales practices that warrant a custom app. For a comparison, refer to [Sales Hub app versus custom app](saleshub-customapp.md).
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles) |
-
-> [!IMPORTANT]
-> The Sales Hub app is only for the Sales Enterprise and Sales Premium users. Sales Professional users must use the Sales Professional app.  
-
 ## Access the Sales Hub app
 
 Visit the [Apps page](https://office.com/apps) on office.com, select **Business Apps**, and then select **Sales Hub**.
 
+:::image type="content" source="media/sales-hub-in-office-apps.png" alt-text="Screenshot of Sales Hub app in Office Business apps":::
+
+The Sales Hub app opens in a new browser tab. 
+
+:::image type="content" source="media/sales-hub-app.png" alt-text="Screenshot of the Sales Hub app":::
+
 If you don't see the app, contact your administrator to grant you access. For more information, refer to [Grant or revoke access to the Sales Hub app](grant-access-saleshub.md).
+
+
 
 To use the app on mobile devices, go to [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md).
 

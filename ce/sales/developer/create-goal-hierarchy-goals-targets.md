@@ -2,7 +2,7 @@
 title: Create goal hierarchy, goals, and targets (Dynamics 365 Sales)
 description: This article discusses how to create a goal hierarchy, set and monitor the targets, specify the time period and who manages and owns a goal.
 ms.date: 03/01/2023
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
@@ -80,7 +80,7 @@ In preparation for goal management, you should specify a metric for a goal (amou
   
 -   Specify whether you want to roll up data from all available records or only from goal owner’s records by using the `Goal.ConsiderOnlyGoalOwnersRecords` column. For example, you can specify to roll up data only from the closed opportunities owned by the goal’s owner, instead of rolling up data from all closed opportunities.  
   
-### See also  
+## Related information  
  [Goal Management Entities](goal-management-entities.md)   
  [Define Goal Metric and Rollup Fields](define-goal-metric-rollup-fields.md)
 

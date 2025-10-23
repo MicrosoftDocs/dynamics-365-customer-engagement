@@ -1,15 +1,17 @@
 ---
-title: "Sign in to Omnichannel for Customer Service app | MicrosoftDocs"
-description: "Use this topic to understand how to sign in to Omnichannel for Customer Service app."
-ms.date: 07/01/2019
-ms.topic: article
+title: Sign in to Omnichannel for Customer Service app
+description: Use this topic to understand how to sign in to Omnichannel for Customer Service app.
+ms.date: 04/25/2025
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Sign in to Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+> [!IMPORTANT]
+> The Omnichannel for Customer Service agent-facing app is deprecated, and we recommend that you start using [Copilot Service workspace](../implement/csw-overview.md). Learn more in [Deprecations](../implement/deprecations-customer-service.md#omnichannel-for-customer-service-agent-facing-app-is-deprecated-and-removed-as-of-june-2024).
 
 ## Sign in to Omnichannel for Customer Service
 
@@ -27,7 +29,7 @@ To sign in to Omnichannel for Customer Service, do the following:
 > If you have Omnichannel access, then you can see the Omnichannel for Customer Service app in your instance.
 
 
-### See also
+### Related information
 
 - [Introduction to the agent interface](oc-introduction-agent-interface.md)  
 - [View communication panel](oc-conversation-control.md)  

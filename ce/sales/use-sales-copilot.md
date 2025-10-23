@@ -1,7 +1,8 @@
 ---
-title: Use Copilot in Dynamics 365 Sales
-description: Learn how to use Copilot to summarize sales records, catch up on recent changes, prepare for meetings, and enrich your leads with data from different sources.
-ms.date: 05/02/2024
+title: Ask Copilot questions
+description: Learn how to use Copilot in Dynamics 365 Sales to summarize sales records, catch up on recent changes, prepare for meetings, and answer sales-related questions.
+ms.date: 08/21/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -11,6 +12,7 @@ ms.custom:
  - ai-gen-desc
  - ai-seo-date:10/04/2023
  - bap-template
+ - ignite-2024
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -19,80 +21,80 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Use Copilot in Dynamics 365 Sales
+# Ask Copilot questions
 
-Copilot is an AI assistant that helps you be more productive and efficient in your daily work in Dynamics 365 Sales apps. Copilot can summarize information about your leads and opportunities, help you catch up on recent changes to your records, prepare for meetings, and enrich your leads with information from other sources.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | [Any primary sales role, such as Salesperson or Sales Manager](security-roles-for-sales.md#primary-sales-roles) |
+Copilot in Dynamics 365 Sales can summarize information about your leads and opportunities, help you catch up on recent changes to your records, prepare for meetings, read the latest news about your accounts, and enrich your leads with information from other sources. You can chat with Copilot in natural language or use predefined prompts to ask questions.
 
 ## Prerequisites
 
-Your admin [turns on and sets up Copilot](enable-setup-copilot.md).
+Your admin turned on and set up Copilot in your sales app. "Sales app" refers to apps that have lead and opportunity tables and aren't on the [exclusion list](sales-copilot-faq.md#are-there-any-applications-where-copilot-in-dynamics-365-sales-cant-be-used).
 
-## Open Copilot
+<a name="open-copilot"></a>
 
-You can open Copilot in a [side pane](#open-copilot-in-a-side-pane)&mdash;side-by-side with a record such as an opportunity or a lead&mdash;or in a [full-screen view](#open-copilot-immersive).
+## Open Copilot in your sales app
 
-### Open Copilot in a side pane
+You can open Copilot in a side pane to view it side-by-side with a record such as an opportunity or a lead, or in an immersive, full-screen view.
 
-Open the Copilot side pane when you want to get quick insights about a record or ask Copilot to summarize other records, display recent changes, and prepare for meetings without leaving the current page.
+[Open the Copilot side pane](#chat-with-copilot-in-a-side-pane) when you want to get quick insights about a record or ask Copilot to summarize other records, display recent changes, and prepare for meetings without leaving the current page. You can open the Copilot side pane from any page in your app except the **Copilot** page.
 
-1. Select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.svg" border="false":::) on the right side of your app. You can open the **Copilot** side pane from any page in your app except for the **Copilot** page.
+[Open the Copilot page in a full-screen view](#chat-with-copilot-in-full-screen-view-preview) when you want more space to focus on your chat with Copilot.
 
-1. Select a prompt from the suggestion list or select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with. [Learn more about the prompts](#chat-with-copilot).
+<a name=open-copilot-sidepane></a>
+
+### Chat with Copilot in a side pane
+
+Select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.svg" border="false":::) on the right side of your app.
+
+:::image type="content" source="media/view-prompts.png" alt-text="Screenshot of the prompt guide in the Copilot side pane in Dynamics 365 Sales, with the notebook icon highlighted.":::
 
 <a name=open-copilot-immersive></a>
 
-### Open Copilot in full-screen view (preview)
+### Chat with Copilot in full-screen view (preview)
+
+>[!IMPORTANT]
+>Effective September 2025, the Copilot in full-screen view preview feature in Copilot in Dynamics 365 Sales is deprecated region-wise. Learn more about the deprecation in, [Copilot in Dynamics 365 Sales in full-screen view](deprecations-sales.md#copilot-in-dynamics-365-sales-in-full-screen-view).
 
 [!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
-[!INCLUDE [cc-preview-note-sales](../includes/cc-preview-note-sales.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-Open the Copilot page in a full-screen view when you want more space and focus to chat with Copilot and ask questions. 
+Select **Copilot** in your app's site map.
 
-1. Select **Copilot** in your site map.
+If Copilot isn't there, ask your admin to turn on Copilot preview features. If you're using a custom app, ask your admin to add the Copilot page to your app's site map.
 
-   If it isn't there, ask your admin to [turn on Copilot preview features](copilot-preview-features.md#turn-on-all-copilot-preview-features). If you're using a custom app, ask your admin to [add the Copilot page to your app's site map](enable-setup-copilot.md#add-the-copilot-page-site-map-entry-to-custom-sales-app).
+:::image type="content" source="media/copilot-immersive.png" alt-text="Screenshot of the Copilot page in Dynamics 365 Sales showing suggested requests, with the Copilot icons in the left and right side panes highlighted.":::
 
-2. Select a prompt from the suggestion list or select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with. [Learn more about the prompts](#chat-with-copilot). 
+## Interact with Copilot
 
-    :::image type="content" source="media/copilot-immersive.svg" alt-text="Screenshot of the Copilot page showing suggested requests, with the Copilot icons in the left and right side panes highlighted.":::
+Whether you're using Copilot in a side pane or in full-screen view, you can interact with it in the following ways:
 
-    The following screenshot is an example of how the Copilot full-screen view displays the opportunity pipeline view:
+- [Ask a question in natural language](#chat-with-copilot-in-NL) in the Copilot chat box.
+- Select one of the suggestions from the card. 
+- To get a list of predefined requests, or *prompts*, that Copilot can help you with, select **View Prompts** (notebook icon) above the Copilot chat box. [Learn more about predefined prompts](copilot-prompt-guide.md).
 
-    :::image type="content" source="media\copilot-immersive-pipeline-view.svg" alt-text="Screenshot of the Copilot page showing an opportunity pipeline in a full-screen view.":::
+## Turn off Bing search
 
-## Chat with Copilot
+If Bing search is turned on for your organization, an option to turn it off is displayed at the bottom of the Copilot side pane and Copilot page. Copilot uses Bing search only to provide news about your accounts. If you turn it off, the **Get latest news for accounts** prompt doesn't return any results.
 
-You can chat with Copilot in natural language or use predefined prompts to get the most out of Copilot.
+:::image type="content" source="media/bing-consent-seller.png" alt-text="Screenshot of the Copilot side pane in Dynamics 365 Sales, with the Bing consent option highlighted.":::
 
 <a name=chat-with-copilot-in-NL></a>
-### Chat with Copilot in natural language (preview)
 
-[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+## Natural language chat
 
-[!INCLUDE [cc-preview-note-sales](../includes/cc-preview-note-sales.md)]
+When you chat with Copilot in natural language, Copilot looks for answers in the data stored in Dataverse (the underlying data platform for Dynamics 365) first. If the answer isn't available in Dataverse, Copilot displays a follow-up prompt to search for the answer in SharePoint.
 
-This feature is only available if your administrator opted into the [Copilot preview features](copilot-preview-features.md).
+You can ask the following types of questions:
 
-When you chat with Copilot in natural language, you can use the following types of requests:
+- **Questions about sales data** are straightforward requests for data, such as "What's Contoso's annual revenue?" or "Show me all my opportunities that are closing this month." You can find more examples of the kinds of questions you can ask in [Questions about sales data](faqs-sales-copilot-natural-language.md#questions-about-sales-data).
 
-- **Data-based questions:** Straightforward data requests such as:
+- **Questions with sales-specific terminology** are based on terms that are specific to sales organizations. You can ask questions about your sales pipeline ("Show my pipeline with deals closing in the next 30 days"), deal cycle ("What's the average deal cycle for my opportunities?"), conversion rates ("What's my lead conversion rate for the last quarter?"), and deal sizes and values ("Display open deals with deal size greater than 10000"). You can find more examples of the kinds of questions you can ask in [Questions with sales-specific terminology](faqs-sales-copilot-natural-language.md#questions-with-sales-specific-terminology).
 
-  - What's Contoso's annual revenue?
+  If your organization uses different sales terminology or custom fields, reach out to your Dynamics 365 admin to add those terms to the glossary to help Copilot better understand the context of your questions.
 
-  - Who is the owner of Alpine Ski House?
-  - Show me all my opportunities that are closing this month.
+For more such questions, see [Questions about sales data](faqs-sales-copilot-natural-language.md#questions-about-sales-data).
 
-These questions are answered using the data stored in Dataverse, which is the underlying data platform for Dynamics 365 Sales. For more such questions, see [Questions about sales data](faqs-sales-copilot-natural-language.md#questions-about-sales-data).
-
-- **Questions with sales-specific terminology:** Questions that are based on terms that are specific to Sales organizations. Questions around the following topics are supported:
+- **Questions with sales-specific terminology:** Questions that are based on terms specific to Sales organizations. By default, questions around the following topics are supported:
 
   - **Conversion rates**. For example, what is my lead conversion rate for the last quarter?
 
@@ -100,27 +102,14 @@ These questions are answered using the data stored in Dataverse, which is the un
   - **Pipeline with filters**. For example, show my pipeline with deals closing in next 30 days.
   - **Deal sizes and values**. For example, display open deals with deal size greater than 10000.
   
-For a list of sample questions, see [Questions with sales-specific terminology](faqs-sales-copilot-natural-language.md#questions-with-sales-specific-terminology)
+For a list of sample questions, see [Questions with sales-specific terminology](faqs-sales-copilot-natural-language.md#questions-with-sales-specific-terminology). If your organization uses a different sales terminology or uses custom fields, reach out to your Dynamics 365 admin to [add those terms to the glossary](extend-copilot-chat.md#add-glossary). The glossary helps Copilot understand the context of your questions better.
 
-You can also access some of these question from the Prompt guide that appears when you select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) in the Copilot side pane or Copilot page.
+These questions are first answered using the data stored in Dataverse, which is the underlying data platform for Dynamics 365 Sales. If the answer isn't available in Dataverse, Copilot displays a follow-up prompt to search for the answer in SharePoint.  
 
-### Chat with Copilot using predefined prompts
+You can also access some of these question from the Prompt guide that appears when you select **View Prompts** above the chat box in the Copilot side pane or Copilot page.
 
-Use predefined prompts to get the most out of Copilot. The following table includes some of the predefined prompts that you can use to get information, ask questions, and stay ahead with Copilot. More prompts are added regularly to help you be more productive and efficient in your daily work.
-
-| Prompt name | Prompt navigation | Description |
-|---------|---------|---------|
-| [Show my pipeline](copilot-get-information.md#show-my-pipeline) | **Get info** > **Show my pipeline** | Get a list of opportunities that you own, sorted by the estimated close date. |
-| [Summarize lead or summarize opportunity](copilot-get-information.md#summarize-a-lead-or-opportunity) | **Get info** > **Summarize lead** or **Summarize opportunity** | Get a summary of opportunities that you own, sorted by the estimated close date. |
-| [Get latest news for account](copilot-get-information.md#show-the-latest-news-about-an-account) | **Get info** > **Get latest news for account** | Get the latest news that features or mentions your accounts. |
-| [What's new with my sales records](copilot-ask-questions.md#whats-new-with-my-sales-records) | **Ask questions** > ****What's new with my sales records**** | Get a list of your sales records that were updated in the last seven days. |
-| [What's newly assigned to me](copilot-ask-questions.md#whats-newly-assigned-to-me) | **Ask questions** > ****What's newly assigned to me**** | Get a list of leads and opportunities that were assigned to you in the last 15 days. |
-| [Show recent changes](copilot-ask-questions.md#get-recent-changes-to-a-lead-or-opportunity) | **Ask questions** > ***Show recent changes for opportunity or Show recent changes for lead** | Get a list of updates to your opportunity or lead records in the last seven days or since you last signed in. |
-| [Prepare for sales appointments](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments) | **Stay ahead** >  **Prepare for sales appointments** | Prepare better for your sales appointment with a summary of notes from the last three months and the most recent email thread on the timeline of the related record. |
-| [Display unanswered emails](copilot-stay-ahead.md#display-unanswered-emails) | **Stay ahead** >  **Show emails that need follow up** | Get a list of emails that you haven't replied to. |
-
-### See also
+## Related information
 
 - [Get information from Copilot](copilot-get-information.md)
-- [Ask questions to Copilot](copilot-ask-questions.md)
+- [Ask Copilot about recent changes to your sales records](copilot-ask-questions.md)
 - [Stay ahead with Copilot](copilot-stay-ahead.md)

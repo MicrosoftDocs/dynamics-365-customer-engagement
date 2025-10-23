@@ -1,4 +1,4 @@
-Quick scheduling (sometimes referred to as “quick book”) simplifies the schedule assistant experience.
+Quick scheduling (sometimes referred to as 'quick book') simplifies the schedule assistant experience.
 
 Without leaving a record, use a scheduling pane to see available booking time slots.
 
@@ -9,7 +9,7 @@ Without leaving a record, use a scheduling pane to see available booking time sl
 - Quick scheduling is enabled or disabled for each entity that is enabled for scheduling. For example, you can enable quick scheduling for work orders, while still using the full schedule assistant for projects. For requirements with no parent entity, use the **Default Metadata Settings (none)* option.
 
 >[!CAUTION]
-> Quick Scheduling does not support fulfillment preferences with time groups.
+> Quick Scheduling doesn't support fulfillment preferences with time groups.
 
 ## Quickly book a job
 
@@ -17,15 +17,14 @@ Without leaving a record, use a scheduling pane to see available booking time sl
 
 1. In the **Book Resources** pane, choose the suggested time slot and select **Book** to confirm.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the quick book pane triggered from a work order.](../../field-service/media/scheduling-quick-book.png)
+   :::image type="content" source="../../field-service/media/scheduling-quick-book.png" alt-text="Screenshot of the quick book pane triggered from a work order.":::
 
 The system chooses an available resource that also meets other requirement criteria like skills and organizational unit. If the requirement is location-based, the system chooses the closest resource. For location-agnostic requirements, the system chooses the first available resource based on alphabetical order of the resource's first name.
 
 To use your preferred time slots, [define intervals with fulfillment preferences](../../field-service/set-up-time-groups.md). However, quick book doesn't support time groups.
 
 > [!NOTE]
-> After quick booking a *single requirement*, selecting **Book** again for the same requirement creates an additional booking and will not rebook the previous one. Selecting **Book** again for a *requirement group* triggers the rebook process, which cancels previous bookings.
+> After quick booking a *single requirement*, selecting **Book** again for the same requirement creates another booking and won't rebook the previous one. Selecting **Book** again for a *requirement group* triggers the rebook process, which cancels previous bookings.
 
 ## Filter options for quick book
 

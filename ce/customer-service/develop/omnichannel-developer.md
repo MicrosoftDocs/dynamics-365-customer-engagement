@@ -1,10 +1,11 @@
 ---
 title: Developer tools for Customer Service
 description: Developer guide for Customer Service provides developers the information they need to get started with using the extensibility features.
-ms.date: 11/27/2023
-ms.topic: article
+ms.date: 05/15/2025
+ms.topic: overview
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 
 # Developer tools for Customer Service
@@ -58,7 +59,7 @@ Learn how you can pass an authentication token to Omnichannel for Customer Servi
 
 ## Enable a bot to escalate and end conversation
 
-Omnichannel for Customer Service allows you to route a conversation to a human agent when you think human intervention is required to successfully help the customer.
+Omnichannel for Customer Service allows you to route a conversation to a customer service representative (service representative or representative) when you think human intervention is required to successfully help the customer.
 
 [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)<br />
 
@@ -76,7 +77,7 @@ The `runMacro` API allows you to execute a macro whose name was passed as a para
 
 ## Build a smart assist bot
 
-Read how you can build a smart assist bot to help agents resolve customer queries faster and more effectively.
+Read how you can build a smart assist bot to help service representatives resolve customer queries faster and more effectively.
 
 [Build a smart assist bot](smart-assist-bot.md)
 
@@ -93,7 +94,7 @@ Read how you can implement a connector to integrate custom messaging channels us
 [Integrate your own custom channel: Direct Line](bring-your-own-channel.md) 
 
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../implement/introduction-omnichannel.md)<br />
 [Omnichannel for Customer Service for system customizers](../administer/omnichannel-customizer.md)<br />

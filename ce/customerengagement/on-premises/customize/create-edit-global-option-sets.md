@@ -2,12 +2,11 @@
 title: "Create a global option set in Dynamics 365 Customer Engagement (on-premises)"
 description: "A global option set specifies options defined elsewhere which can be used by other option set fields. Learn how to create, edit, and use a global option set."
 ms.custom: 
-ms.date: 03/06/2019
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: f06b8941-8dca-4601-b965-341cfb6fc3b2

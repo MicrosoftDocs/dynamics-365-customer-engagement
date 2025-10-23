@@ -1,10 +1,11 @@
 ---
-title: "lcw:error | MicrosoftDocs"
-description: "Includes information about lcw:error event (Omnichannel for Customer Service JavaScript API reference)."
-ms.topic: article
-ms.date: 11/10/2021
+title: lcw:error 
+description: Includes information about lcw:error event (Omnichannel for Customer Service JavaScript API reference).
+ms.topic: reference
+ms.date: 03/18/2025
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # lcw:error event (Omnichannel for Customer Service JavaScript API reference)
 
@@ -24,7 +25,7 @@ window.addEventListener("lcw:error", function (errorEvent) {
 });
 ```
 
-### See also
+### Related information
 
 [lcw:ready](lcw-ready.md)  
 [lcw:chatRetrieved](lcw-chatRetrieved.md)  

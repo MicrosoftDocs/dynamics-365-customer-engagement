@@ -1,11 +1,11 @@
 ---
 title: Trial FAQ - Dynamics 365 Customer Service
 description: Solutions to common questions related to Dynamics 365 Customer Service trial setup and management. Learn how to resolve platform and app-specific issues.
-ms.date: 05/10/2024
-ms.topic: conceptual
+ms.date: 01/07/2025
+ms.topic: faq
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.collection: get-started
 ms.custom: 
   - template-trial-faq
@@ -14,9 +14,7 @@ ms.custom:
 
 # Dynamics 365 Customer Service trial FAQ
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 This article answers your most frequently asked questions about the free product trial of Customer Service and Omnichannel for Customer Service.
 
@@ -24,7 +22,7 @@ This article answers your most frequently asked questions about the free product
 
 ### Can I convert the trial to a paid license?
 
-Yes, you can purchase licenses through direct, credit card purchase at admin.microsoft.com. Or, you can work with sales to establish a volume licensing or enterprise agreement. Visit our [Pricing page](https://dynamics.microsoft.com/pricing/) for more information on pricing and purchasing.
+Yes, you can purchase licenses through direct, credit card purchase at admin.microsoft.com. Or, you can work with sales to establish a volume licensing or enterprise agreement. Learn about pricing and purchasing in [Dynamics 365 pricing](https://go.microsoft.com/fwlink/?linkid=2309515).
 
 To purchase the license using an existing account, work with the administrator of the account to apply for licenses.
 
@@ -40,21 +38,27 @@ The following limitations apply for the trial:
 
 ## Customer Service-specific questions
 
+### Which languages do the Copilot Studio copilots support in the trial version?
+
+In the trial version, the Copilot Studio copilots are available in the English language only.
+
 ### What features are available in the trial?
 
 The environment you receive in trial is a fully functional, Power Platform environment with the following out-of-the-box capabilities:
 
 - Dynamics 365 Customer Service Enterprise
-  - Customer Service workspace with AI-powered case and knowledge suggestions, knowledge search, and agent scripts with macros for common tasks automation
-  - Case management, knowledge management, unified routing, email
+  - Copilot Service workspace with AI-powered case and knowledge suggestions, knowledge search, and scripts with macros for common tasks automation
+  - Case management, knowledge management, email
 - Digital Messaging and Voice Channel for Dynamics 365 Customer Service
-  - Chat, voice, and other digital messaging channels
+  - Chat, voice, and other digital messaging channels, and unified routing
+    > [!NOTE]
+    > The enhanced voice experience isn't available in the trial version.
 - Power Apps
   - To create app profiles, configure templates, customize the solution
 - Copilot Studio
-  - To add Copilot Studio bot to chat and channels
+  - To add Copilot agent to chat and channels
   > [!NOTE]
-  > If you use a personal email ID for the Customer Service trial, you can't customize the Copilot Studio bot. The default Copilot Studio bot that's used in scenarios like voice and chat tour will work with the personal email address. However, you can't access the links to customize the bot using the Copilot Studio designer.
+  > If you use a personal email ID for the Customer Service trial, you can't customize the Copilot agent. The default Copilot agent that's used in scenarios like voice and chat tour will work with the personal email address. However, you can't access the links to customize the agent using the Copilot Studio designer.
 
 - Dynamics 365 Customer Voice
   - To add pre and post-conversation surveys in messaging
@@ -83,6 +87,10 @@ No. The trial phone numbers aren't available for inbound or outbound SMS.
 
 No. The trial phone numbers aren't available for outbound calls.
 
+### Can I use the phone numbers from my existing telephony infrastructure as trial phone numbers?
+
+Yes. You can also make outbound calls in a trial org when you bring your own phone numbers. Learn more in [bring your phone numbers](../administer/voice-channel-bring-your-own-number.md).
+
 ### Which geographical regions are supported in the trial version?
 
 For the list of geographical regions supported in Customer Service, see [Datacenter regions](/power-platform/admin/new-datacenter-regions).
@@ -93,8 +101,8 @@ For the list of geographical regions supported in Omnichannel for Customer Servi
 
 For the list of languages supported in Omnichannel for Customer Service, see [Language availability](international-availability.md#language-availability).
 
-### See also
+### Related information
 
 [Try Customer Service](try-customer-service.md)  
-[Overview of Customer Service workspace](csw-overview.md)  
+[Overview of Copilot Service workspace](csw-overview.md)  
 [Try channels in Omnichannel for Customer Service](try-channels.md)  

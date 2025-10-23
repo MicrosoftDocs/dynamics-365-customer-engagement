@@ -2,11 +2,10 @@
 title: "Create custom themes in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn about creating custom themes in Dynamics 365 Customer Engagement (on-premises). Enhance the UI by making changes to colors and adding logos."
 s.custom: 
-ms.date: 02/15/2019
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 author: Mattp123

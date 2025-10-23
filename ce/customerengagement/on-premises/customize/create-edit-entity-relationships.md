@@ -2,7 +2,6 @@
 title: "Types of entity relationships in Dynamics 365 Customer Engagement (on-premises)"
 description: "Entity relationships define how records can be related to each other in the database. Learn about the difference between the two main types of relationships."
 ms.custom: 
-ms.date: 11/09/2018
 ms.reviewer: 
 
 ms.suite: 

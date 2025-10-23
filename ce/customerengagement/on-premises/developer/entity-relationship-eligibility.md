@@ -2,7 +2,6 @@
 title: "Entity relationship eligibility (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The article lists the messages that you can use to determine whether entities can participate in entity relationships"
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

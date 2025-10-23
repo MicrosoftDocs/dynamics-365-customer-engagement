@@ -1,46 +1,34 @@
 ---
 title: FAQ about the voice channel
-description: Use this article to know answers to your frequently asked questions (FAQ) about the voice channel in Omnichannel for Customer Service.
+description: Use this article to know answers to your frequently asked questions (FAQ) about the voice channel.
 author: neeranelli
 ms.author: nenellim
-ms.date: 04/04/2024
-ms.topic: conceptual
-ms.reviewer:
+ms.date: 04/21/2025
+ms.topic: faq
+ms.reviewer: nenellim
 ms.collection:
 ms.custom: bap-template
 ---
 
-# FAQ about the voice channel in Omnichannel for Customer Service
+# FAQ about the voice channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 This article includes frequently asked questions (FAQ) about the voice channel.
 
 ## General
 
-### Why is the agent unable to make an outbound call?
-
-The agent must be a part of the outbound voice queue to make an outbound call. See [Set up outbound calling](voice-channel-outbound-calling.md) for information.
-
-### Are overflow actions like voicemail and direct callback fulfilled for fallback queues?
-
-No, overflow settings aren't applicable to fallback queues. The settings are ignored, and the routed work item is assigned to the queue. More information: [How overflow works](manage-overflow.md#handle-overflow-before-work-item-is-queued)
-
-### Does the voice channel include real-time keyword recognition or sentiment tracking while an agent is on a call?
-
-Yes, features such as sentiment analysis, agent suggestions for similar cases or knowledge articles, are available in the voice channel.
-
 ### Is it possible to enable voice integrations outside of the Omnichannel for Customer Service app, such as, by adding omnichannel capabilities to a customer's Dynamics 365 app?
 
-No, the voice channel isn't supported in the other apps of Dynamics 365. It's supported in the Customer Service workspace and Omnichannel for Customer Service (deprecated) apps only.
+No, the voice channel isn't supported in the other apps of Dynamics 365. It's supported in the Copilot Service workspace and Omnichannel for Customer Service (deprecated) apps only.
 
 ## Setup
 
 ### Is the voice channel PCI DSS compliant?
 
-The voice channel is compliant with Payment Card Industry Data Security Standard (PCI DSS) today, but support for credit card data capture over voice isn't yet available. Agents have the ability to pause or resume call recording and transcription to avoid capturing sensitive information. Agents can also pause transcription to avoid dual-tone multi-frequency (DTMF) tones being captured in the transcript. All data is stored in Dynamics 365 and can be scrubbed by the customer.
+The voice channel is compliant with Payment Card Industry Data Security Standard (PCI DSS) today, but support for credit card data capture over voice isn't yet available. Service representatives can pause or resume call recording and transcription to avoid capturing sensitive information. Representatives can also pause transcription to avoid dual-tone multi-frequency (DTMF) tones being captured in the transcript. All data is stored in Dynamics 365 and can be scrubbed by the customer.
 
 ### Where does Azure Communication Services provide native PSTN services?
 
@@ -84,6 +72,10 @@ Yes, you can.
 
 Yes, you can use the Dynamics 365 Channel Integration Framework 2.0 connector to integrate third-party contact centers, such as Genesys Engage, Solgari, and NICE inContact.
 
+### Does voice channel work with Citrix virtual machines?
+
+No, the Citrix virtual machines aren't supported with the voice channel.
+
 ### Does the voice channel tie in with Azure Communication Services or is it an entirely different technology?
 
 The voice capabilities for Dynamics 365 Customer Service are built on Azure Communication Services.
@@ -105,37 +97,37 @@ No, you can't recover your data and phone numbers after the voice trial organiza
 
 ### What are the applicable pricing scenarios for using the voice channel?
 
-To understand the pricing calculation of various call scenarios, see [Pricing scenarios for voice calling](voice-channel-pricing-scenarios.md).
+To understand the pricing calculation of various call scenarios, go to [Pricing scenarios for voice calling](voice-channel-pricing-scenarios.md).
 
-## Bots
+## AI agents
 
-### How can I set up an IVR bot in the voice channel?
+### How can I set up an IVR agent in the voice channel?
 
-See the following articles to set up the interactive voice response (IVR) bot in the voice channel:
-- [Configure Copilot Studio bots for voice](../voice-channel-ivr-bots.md)
+Learn more in:
+- [Configure Copilot agents for voice](../voice-channel-ivr-bots.md)
 - [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)
 
 ### Why do my customers sometimes hear "Sorry! We couldn't serve you" when they call the contact center number?
 
-Sometimes, when a Copilot Studio bot isn't added or an agent is unable to answer the call, your customers will hear the message that they couldn't be served. We recommend agents to refresh their presence regularly to ensure their availability to customers. If the problem persists, reconnect your Copilot Studio bot.
+Sometimes, when a Copilot AI agent isn't added or a representative is unable to answer the call, your customers will hear the message that they couldn't be served. We recommend service representatives to refresh their presence regularly to ensure their availability to customers. If the problem persists, reconnect your Copilot agent.
 
 ## Language
 
-### Should the language of the bot be the same as the primary language configured in the voice workstream?
+### Should the language of the agent be the same as the primary language configured in the voice workstream?
 
-Yes, the primary language of the bot must be the same as that of the voice workstream to which the bot is attached, but you can configure different geographic locales for the bot and the voice workstream to which it's attached. Let's consider an example where English is set as the primary language for the bot and its voice workstream. You can set different locales, such as **English-UK** in the voice workstream and **English-US** in the bot; the bot will speak in English-UK as the workstream locale setting takes precedence.
+Yes, the primary language of the agent must be the same as that of the voice workstream to which it's attached, but you can configure different geographic locales for the agent and the related voice workstream. Let's consider an example where English is set as the primary language for the agent and its voice workstream. You can set different locales, such as **English-UK** in the voice workstream and **English-US** in the agent; it will speak in English-UK as the workstream locale setting takes precedence.
 
-You can transfer conversations from one bot to another with different primary languages. For example, you can transfer conversations from an English bot to a Spanish bot. But, if you configure different locales:
-- The bot's accuracy will depend on the similarities between the two locales. 
-- The preconfigured entities for the bot such as postal code might not be accurate. 
-- A bot-to-bot transfer of the conversation with the same language but two different locales isn't possible. For example, the transfer of a conversation  from an **English-UK** bot to an **English-US** bot can't happen. As a workaround, you can make the **English-UK** bot transfer the conversation to another phone number attached to a workstream to which the **English-US** bot is attached.
+You can transfer conversations from one agent to another with different primary languages. For example, you can transfer conversations from an English to a Spanish agent. But, if you configure different locales:
+- The agent's accuracy will depend on the similarities between the two locales. 
+- The preconfigured entities for the agent such as postal code might not be accurate. 
+- An agent-to-agent transfer of the conversation with the same language but two different locales isn't possible. For example, the transfer of a conversation from an **English-UK** to an **English-US** agent can't happen. As a workaround, you can make the **English-UK** agent transfer the conversation to another phone number attached to a workstream to which the **English-US** agent is attached.
 
 ## Disaster recovery
 
 ### Is disaster recovery supported for the voice channel?
 
-- Business Continuity and Disaster Recovery (BCDR) for production instances of the voice channel are supported on a geographical basis. In certain regions BCDR will be a fast follow. For details on the geographies that are currently supported and the geographies where BCDR is a fast follow, see [Local cloud deployments](voice-channel-region-availability.md#local-cloud-deployments).
-- In supported regions, BCDR policies are based upon business continuity and disaster recovery for Dynamics 365 and SLA for Azure Communication Services. For more information, see [Business continuity and disaster recovery](/power-platform/admin/business-continuity-disaster-recovery) and [SLA for Azure Communication Services](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/).
+- Business Continuity and Disaster Recovery (BCDR) for production instances of the voice channel are supported on a geographical basis. In certain regions BCDR will be a fast follow. For details on the geographies that are currently supported and the geographies where BCDR is a fast follow, go to [Local cloud deployments](voice-channel-region-availability.md#local-cloud-deployments).
+- In supported regions, BCDR policies are based upon business continuity and disaster recovery for Dynamics 365 and SLA for Azure Communication Services. Learn more in [Business continuity and disaster recovery](/power-platform/admin/business-continuity-disaster-recovery) and at [SLA for Azure Communication Services](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/).
 
 ## Call quality
 
@@ -161,10 +153,24 @@ More information:
 
 ### Does the voice channel support emergency calling?
 
-Yes, the voice channel supports emergency calling; agents can call the emergency number during a crisis. This feature is currently supported in the United States and Puerto Rico where the emergency calling number is 911. More information: [How emergency calling works in the voice channel](voice-channel-emergency-calling.md)
+Yes, the voice channel supports emergency calling; service representatives can call the emergency number during a crisis. This feature is currently supported in the United States and Puerto Rico where the emergency calling number is 911. More information: [How emergency calling works in the voice channel](voice-channel-emergency-calling.md)
 
-### See also
+## Inbound and outbound calls, voicemail, and transcripts
+
+### Why is the service representative unable to make an outbound call?
+
+The service representative must be a part of the outbound voice queue to make an outbound call. Learn more in [Set up outbound calling](voice-channel-outbound-calling.md).
+
+### Are overflow actions like voicemail and direct callback fulfilled for fallback queues?
+
+No, overflow settings aren't applicable to fallback queues. The settings are ignored, and the routed work item is assigned to the queue. More information: [How overflow works](manage-overflow.md#configure-overflow-conditions-for-before-a-work-item-is-queued)
+
+### Does the voice channel include real-time keyword recognition or sentiment tracking while a representative is on a call?
+
+Yes, features such as sentiment analysis, service representative suggestions for similar cases or knowledge articles, are available in the voice channel.
+
+### Related information
 
 [Introduction to the voice channel](voice-channel.md)  
-[System requirements for Omnichannel for Customer Service](../implement/system-requirements-omnichannel.md)  
+[System requirements for Dynamics 365 Contact Center](/dynamics365/contact-center/implement/system-requirements-contact-center)  
 [Supported cloud locations, languages, and locale codes](voice-channel-region-availability.md)  

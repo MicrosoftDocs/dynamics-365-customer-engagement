@@ -2,7 +2,6 @@
 title: "Sample: Quick start for Dynamics 365 Customer Engagement (on-premises) (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Dynamics 365 Customer Engagement (on-premises) and perform basic create, update, retrieve, and delete operations on an entity. "
 ms.custom:
-ms.date: 01/29/2020
 ms.reviewer: pehecke
 
 ms.suite:
@@ -20,7 +19,7 @@ search.audienceType:
 
 # Sample: Quick start for Dynamics 365 Customer Engagement
 
-This sample shows you how to compile and run a program that creates an account record, retrieves the record, updates the record, and then prompts to see if you would like the record deleted. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/QuickStartForDynamics365).
+This sample shows you how to compile and run a program that creates an account record, retrieves the record, updates the record, and then prompts to see if you would like the record deleted. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/QuickStartForDynamics365).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

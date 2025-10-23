@@ -1,18 +1,22 @@
 ---
 title: Migrate unified routing data for WhatsApp channel through Twilio
-description: Learn to export and import data pertaining to WhatsApp channel from source to target environments in Omnichannel for Customer Service.
-ms.date: 03/06/2023
+description: Learn to export and import data pertaining to WhatsApp channel from source to target environments.
+ms.date: 05/05/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
-ms.reviewer:
+ms.reviewer: mgandham
 ms.collection:
 ms.custom: bap-template
 ---
 
 # Migrate data for WhatsApp channel through Twilio
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for WhatsApp.
+
+[!INCLUDE[cc-migrate-using-solutions](../../includes/cc-migrate-using-solutions.md)]
 
 For information on how to use the Configuration Migration tool, see the following articles:
 
@@ -54,7 +58,7 @@ The following prerequisites must be met:
 
 > [!IMPORTANT]
 >
-> The migration of the account, channel, bot configuration, and AI and analytics settings is not in scope.
+> The migration of the account, channel, bot configuration, and AI and analytics settings isn't in scope.
 
 ## Migrate WhatsApp channel configuration
 
@@ -71,19 +75,19 @@ You must perform the steps in the order they're listed to migrate your configura
 
 ## Migrate configuration using a solution
 
-If you use custom session templates and notifications in your WhatsApp routing setup, perform the steps outlined in [Migrate configuration using a solution](migrate-config-data-for-records.md#migrate-configuration-using-a-solution).
+If you use custom session templates and notifications in your WhatsApp routing setup, perform the steps outlined in [Migrate configuration using a solution](migrate-record-routing-config-using-solutions.md).
 
 ## Migrate skill-based configuration
 
-If skill-based routing rulesets are used in your unified routing setup, perform the steps outlined in [Export and import data for skill-based routing](migrate-config-data-for-records.md#migrate-configuration-for-skill-based-routing-rulesets). Make sure to adjust any filtering fetch xml appropriately for WhatsApp.
+If skill-based routing rulesets are used in your unified routing setup, perform the steps outlined in [Export and import data for skill-based routing](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-skill-based-routing-rulesets). Make sure to adjust any filtering fetch xml appropriately for WhatsApp.
 
 ## Migrate configuration for capacity profiles
 
-If you have configured capacity profiles in your unified routing setup, perform the steps outlined in [Export and import data for capacity profiles](migrate-config-data-for-records.md#migrate-configuration-for-capacity-profiles).  Make sure to adjust any filtering fetch xml appropriately for WhatsApp.
+If you have configured capacity profiles in your unified routing setup, perform the steps outlined in [Export and import data for capacity profiles](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-capacity-profiles).  Make sure to adjust any filtering fetch xml appropriately for WhatsApp.
 
 ## Migrate configuration for WhatsApp queues
 
-For migrating queues for WhatsApp, perform the steps outlined in [Migrate data for unified routing-based record queues](migrate-config-data-for-records.md#migrate-configuration-for-record-queues).  Make sure to adjust any filtering fetch xml appropriately for WhatsApp.
+For migrating queues for WhatsApp, perform the steps outlined in [Migrate data for unified routing-based record queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-record-queues).  Make sure to adjust any filtering fetch xml appropriately for WhatsApp.
 
 ## Migrate configuration for WhatsApp workstreams
 
@@ -91,10 +95,10 @@ For migrating queues for WhatsApp, perform the steps outlined in [Migrate data f
 
    - **Entity display name**: When you create the schema, select the entities in the same sequence as mentioned in the table.
    - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system defined attributes like Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes, if necessary.
-   - **Use FetchXML to filter records**: For each entity, use the appropriate FetchXML query that's mentioned in the following table to get single, multiple, or all records based on your requirement. For single or multiple records, you need to use source organization to get the correct name in uiname and GUID in value. If required, you can use the ADVANCED FIND menu item to construct the appropriate FetchXML query.
+   - **Use FetchXML to filter records**: For each entity, use the appropriate FetchXML query that's mentioned in the following table to get single, multiple, or all records based on your requirement. For single or multiple records, you need to use source organization to get the correct name in uiname and GUID in value. If necessary, you can use the ADVANCED FIND menu item to construct the appropriate FetchXML query.
    - **Configure import settings**: For the Decision contract entity, ensure that you select the **Do not update existing records** checkbox.
 
-1. Make sure that the workstreams that're referred in the configuration of the WhatsApp channels are include in the migration.
+1. Make sure that the workstreams that are referred in the configuration of the WhatsApp channels are included in the migration.
 
    |S.No.|Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
    |---------|---------|---------|-----------|
@@ -568,6 +572,6 @@ After you import the unified routing-related configuration data successfully fro
 
 [!INCLUDE[ur-migration considerations](../../includes/cc-ur-migration-considerations.md)]
 
-### See also
+### Related information
 
 [Migrate configuration for records based on unified routing](migrate-config-data-for-records-overview.md)  

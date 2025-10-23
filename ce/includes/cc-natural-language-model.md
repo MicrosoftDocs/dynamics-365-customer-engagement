@@ -1,0 +1,6 @@
+Select the most appropriate option for your agent:
+ - **Classic orchestration**: The agent responds by matching user queries to predefined topics based on keywords and trigger phrases.
+ - **Generative AI orchestration**: The agent uses AI to understand the user’s intent and dynamically selects the best actions, knowledge articles, or topics to answer user queries or respond to event triggers like start handoff when user asks to escalate.
+Learn more in [Orchestrate agent behavior with generative AI](/microsoft-copilot-studio/advanced-generative-actions).
+   - If you select generative orchestration, you can select a Natural Language Understanding (NLU) model, NLU or NLU+ in Copilot Studio to enhance how your agent interprets customer intentions and extracts meaning from conversations. Learn more in [Configure NLU+](/microsoft-copilot-studio/nlu-plus-configure).
+   - If you select **Microsoft Copilot Studio NLU**, processing is done within Copilot Studio. For **Microsoft Copilot Studio NLU+**, data processing happens within Dynamics 365. 

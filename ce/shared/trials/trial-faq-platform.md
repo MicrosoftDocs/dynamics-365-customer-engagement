@@ -6,24 +6,24 @@ This app is a cloud-based service that doesn't require special software other th
 
 ### How do I sign up for the trial without a Microsoft 365 tenant?
 
-You can enter a non-work email address and we'll create an account and tenant for you.
+You can enter a nonwork email address and the system creates an account and tenant.
 
-### Can I sign up for trial using a personal email ID that's not associated with a Microsoft account?<a name="personalemail"></a>
+### Can I sign up for a trial using a personal email ID that's not associated with a Microsoft account?<a name="personalemail"></a>
 
-You can use a personal email ID. But you won't be able to access Power Platform admin center to add more users to the trial, change security roles, or extend the trial period.
+You can use a personal email ID, but you can't access Power Platform admin center to add more users to the trial, change security roles, or extend the trial period.
 
 ### Can I sign up for multiple Dynamics 365 apps such as Sales, Marketing, and Customer Service?
 
-Yes, you can. To view all available trials, [visit the trial hub page](https://dynamics.microsoft.com/dynamics-365-free-trial). You can use the same email account to sign up for different trials. However, it isn't possible to have multiple apps on the same trial site. Each trial will be on a different tenant and URL. The trial data isn't shared across apps.
+Yes, you can. To view all available trials, [visit the trial hub page](https://www.microsoft.com/dynamics-365/free-trial). You can use the same email account to sign up for different trials. However, it isn't possible to have multiple apps on the same trial site. Each trial is on a different tenant and URL. The trial data isn't shared across apps.
 
 ## Trial app
 
 ### I didn't receive the trial details email after signing up, what should I do?
 
-When you sign up for the trial, you'll receive an email with the trial details. If you don't see the email in your inbox, check your spam folder. Alternatively, use the following steps to access your app:
+When you sign up for the trial, you receive an email with the trial details. If you don't see the email in your inbox, check your spam folder. Alternatively, use the following steps to access your app:
 
-1. Go to trial site and select Try for free.
-1. Enter the email ID that you used, to sign up for the trial. You'll be redirected to your trial app by the system.
+1. Go to trial site and select **Try for free**.
+1. Enter the email ID you used to sign up for the trial. The system redirects you to your trial app.
 
 ### How do I add more users to a trial?
 
@@ -35,7 +35,7 @@ You can add an unlimited number of users to the trial environment.
 
 ### How do I reset the trial environment?
 
-You can't reset the trial environment. However, you can wait for the trial period to end and then sign up again for a new trial.
+You can't reset the trial environment. However, you can wait for the trial period to end, and then sign up again for a new trial.
 
 ### How do I extend the trial?
 
@@ -43,4 +43,4 @@ You can extend the trial for another trial period in the admin center. For instr
 
 ### How do I cancel the trial?
 
-If you have signed up for the trial using a managed Microsoft Entra ID account, you can request your Power Platform admin to [delete the trial environment](/power-platform/admin/delete-environment). If you have signed up using your personal account, you can't cancel the trial manually. The trial will expire after the 30-day trial period and the trial environment is automatically deleted.  
+If you sign up for the trial with a managed Microsoft Entra ID account, ask your Power Platform admin to [delete the trial environment](/power-platform/admin/delete-environment). If you sign up with a personal account, you can't cancel the trial manually. The trial expires after 30 days, and Power Platform deletes the trial environment automatically.  

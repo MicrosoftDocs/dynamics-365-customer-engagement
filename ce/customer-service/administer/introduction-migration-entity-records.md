@@ -1,10 +1,11 @@
 ---
-title: "Introduction to migration of entity records | MicrosoftDocs"
-description: "Learn how to migrate entity records from the legacy Service Scheduling to Unified Interface Service Scheduling."
-ms.date: 10/11/2019
-ms.topic: article
+title: Introduction to migration of entity records
+description: Learn how to migrate entity records from the legacy Service Scheduling to Unified Interface Service Scheduling.
+ms.date: 06/04/2025
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 search.audienceType: 
   - admin
   - customizer
@@ -49,7 +50,7 @@ Consider the following scenarios before you begin migration:
 
 After successful installation, you can access scheduling in the Customer Service Hub sitemap.
 
-## See also
+## Related information
 
 [Plan your migration](plan-migration.md)
 

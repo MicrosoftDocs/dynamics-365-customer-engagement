@@ -2,12 +2,11 @@
 title: "Use custom controls to visualize data in Dynamics 365 Customer Engagement (on-premises)"
 description: "Transform text fields into data visualizations using custom controls. These can appear as visualizations on forms, dashboards, views, and homepage grids." 
 ms.custom: 
-ms.date: 01/10/2019
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps

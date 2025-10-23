@@ -1,18 +1,18 @@
 ---
-title: Extend Universal Resource Scheduling to filter bookable resources by territory hierarchy
+title: Filter bookable resources by territory hierarchy
 description: Update queries in the schedule board and schedule assistant configuration to use territory hierarchies.
-ms.date: 05/06/2024
+ms.date: 07/28/2025
 searchScope: 
   - Field Service
   - Project Service
-ms.reviewer: mhart
+ms.reviewer: puneet-singh1
 ms.subservice: common-scheduler
-ms.topic: conceptual
+ms.topic: how-to
 author: ryanchen8
 ms.author: chenryan
 ---
 
-# Extend Universal Resource Scheduling to filter bookable resources by territory hierarchy
+# Filter bookable resources by territory hierarchy
 
 The article discusses how to extend Universal Resource Scheduling to filter bookable resources and consider the territory hierarchical relationship. As a result when searching with a territory constraint, the system finds bookable resources matching child service territories that relate to the constraint.
 
@@ -101,7 +101,7 @@ The schedule assistant retrieves the service territory from the requirement. The
 
 1. Make sure to select the updated query and save your changes.
 
-## See also
+## Additional resources
 
 - [Create territories for accounts, work orders, and resources](../../field-service/set-up-territories.md)
 - [Customize the schedule board with a custom resource attribute](../../field-service/extend-schedule-board-custom-resource-attribute.md)

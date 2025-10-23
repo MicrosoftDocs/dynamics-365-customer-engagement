@@ -1,10 +1,10 @@
 ---
 title: Create a booking alert
-description: Learn about how to use booking alerts in Dynamics 365 Field Service.
-ms.date: 02/13/2023
+description: Learn how to use booking alerts in Dynamics 365 Field Service.
+ms.date: 07/02/2025
 ms.topic: how-to
-author: clearab
-ms.author: anclear
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Create a booking alert

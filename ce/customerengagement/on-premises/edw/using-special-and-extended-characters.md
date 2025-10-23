@@ -1,11 +1,10 @@
 ---
 title: "Using special and extended characters | Microsoft Docs"
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: concept-article
 ms.assetid: bb43b8b3-a439-470f-8cf4-fe14876d14dd
 caps.latest.revision: 11
 robots: noindex,nofollow

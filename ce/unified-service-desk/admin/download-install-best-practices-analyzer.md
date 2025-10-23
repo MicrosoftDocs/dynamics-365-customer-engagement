@@ -1,13 +1,16 @@
 ---
-title: "Download and install the Best Practices Analyzer | MicrosoftDocs"
-description: "Use this topic to get the download link to install the Best Practices Analyzer for Unified Service Desk."
-ms.date: 06/21/2021
-ms.topic: article
+title: Download and install the Best Practices Analyzer 
+description: Use this article to get the download link to install the Best Practices Analyzer for Unified Service Desk.
+ms.date: 05/15/2025
+ms.topic: best-practice
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - admin
+ms.custom: evergreen
 ---
+
 
 # Download and install the Best Practices Analyzer
 

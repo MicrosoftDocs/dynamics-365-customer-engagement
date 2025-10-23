@@ -5,6 +5,7 @@ ms.date: 02/14/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 applies_to: 
   - "Dynamics 365 for Customer Engagement (online)"
 ms.custom: 
@@ -16,7 +17,7 @@ ms.custom:
 
 [!INCLUDE[token-onsendkbarticle](../../../../shared/token-onsendkbarticle.md)]
 
-### See also
+### Related information
 
 [addHandler](../microsoft-ciframework/addHandler.md)  
 [removeHandler](../microsoft-ciframework/removeHandler.md)  

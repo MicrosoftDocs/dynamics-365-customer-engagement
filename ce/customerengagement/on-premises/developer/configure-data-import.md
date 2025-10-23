@@ -2,7 +2,6 @@
 title: "Configure data import (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Configuration information that is required for importing data is contained in the data import entity and the import source file entity. "
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

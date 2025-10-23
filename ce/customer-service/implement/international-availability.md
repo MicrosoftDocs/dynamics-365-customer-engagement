@@ -1,12 +1,12 @@
 ---
 title: International availability of Omnichannel for Customer Service
 description: Discover which geographic locations and languages are supported by Omnichannel for Customer Service.
-ms.date: 11/10/2023
+ms.date: 03/17/2025
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
 ms.collection:
-ms.reviewer:
+ms.reviewer: nenellim
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -15,12 +15,10 @@ ms.custom:
 ---
 # International availability of Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 The purpose of this document is to provide information about the geographic location and language availability of live chat and digital messaging channels.
 
 > [!NOTE]
-> For information about the supported regions and languages in the voice channel, see [Supported cloud locations, languages, and locale codes](../administer/voice-channel-region-availability.md).
+> Learn more about the supported regions and languages in the voice channel in [Supported cloud locations, languages, and locale codes](../administer/voice-channel-region-availability.md).
 
 ## Geographic location availability
 
@@ -45,7 +43,7 @@ See the following table for the availability of the channels in the supported ge
 | United Arab Emirates (UAE) | ✔ |
 | United Kingdom | ✔ |
 
-<sup>1</sup> The Apple Messages for Business, Google's Business Messages, and Microsoft Teams channels aren't available in GCC.
+<sup>1</sup> The Apple Messages for Business, WhatsApp through Azure Communication Services, and Microsoft Teams channels aren't available in GCC.
 
 ## Language availability
 
@@ -73,7 +71,7 @@ The product user interface (UI) is available in the following languages.
 
 To know the languages that are supported in analytics, see [Multilingual sentiment](../administer/enable-sentiment-analysis.md#multilingual-sentiment).
 
-### See also
+### Related information
 
 [Prerequisites and system requirements of Omnichannel for Customer Service](system-requirements-omnichannel.md)  
 [Introduction to channels in Omnichannel for Customer Service](../use/channels.md)  

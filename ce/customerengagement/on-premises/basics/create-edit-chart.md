@@ -2,18 +2,17 @@
 title: "Create and edit charts in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to create and edit charts to present data in insightful and graphical ways. Follow these steps to specify what you want to display on the chart."
 ms.custom: 
-ms.date: 09/15/2017
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
-author: sericks007
+author: shwetamurkute
 ms.assetid: c4d027ca-ba55-4e61-8167-165181dae634
 caps.latest.revision: 31
-ms.author: sericks
+ms.author: smurkute
 search.audienceType: 
   - enduser
 

@@ -5,6 +5,7 @@ ms.date: 07/09/2019
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 
 # getContextProvider
@@ -51,7 +52,7 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 
 -->
 
-## See also
+## Related information
 
 [JavaScript API reference for Live chat SDK](../../omnichannel-reference.md)
 

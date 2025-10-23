@@ -5,11 +5,10 @@ keywords: call with Skype in customer engagement
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
   - Dynamics 365 Customer Engagement (on-premises)Version 8.x
-ms.date: 05/05/2020
 
 ms.topic: article
-author: sericks007
-ms.author: sericks
+author: shwetamurkute
+ms.author: smurkute
 ms.assetid: 1b5a5819-3547-4d9c-af3f-d6268cbeac02
 ms.custom: 
   - dyn365-a11y

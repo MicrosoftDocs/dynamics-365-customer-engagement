@@ -2,7 +2,6 @@
 title: "Define status reason transitions in Dynamics 365 Customer Engagement (on-premises)"
 description: "Use status reason transitions as an additional level of filtering to define what the value can be changed to for each status reason."
 ms.custom: 
-ms.date: 11/28/2018
 ms.reviewer: 
 
 ms.suite: 

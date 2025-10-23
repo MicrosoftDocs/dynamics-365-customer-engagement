@@ -2,7 +2,6 @@
 title: "Configure a workflow in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn about configuring a workflow with actions, stages, and steps. Consider how they should run, what actions they should perform, and under what conditions."
 ms.custom: 
-ms.date: 11/09/2018
 ms.reviewer: 
 
 ms.suite: 

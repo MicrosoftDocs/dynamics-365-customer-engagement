@@ -1,15 +1,15 @@
 ---
-title: Show account names on booking details
-description: Learn how to edit and customize the booking details on schedule board with account names in Dynamics 365 Field Service.
-ms.date: 01/26/2024
-ms.reviewer: mhart 
+title: Show account names on booking template
+description: Learn how to edit and customize the booking template on schedule board with account names in Dynamics 365 Field Service.
+ms.date: 07/02/2025
+ms.reviewer: v-smithwendy 
 ms.topic: how-to
 ms.custom: bap-template
 author: mkelleher-msft
 ms.author: mkelleher
 ---
 
-# Show account names on booking details
+# Show account names on booking template
 
 [!INCLUDE[interday booking details](../shared/urs/interday-booking-details.md)]
 

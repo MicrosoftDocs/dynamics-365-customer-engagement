@@ -1,29 +1,32 @@
 ---
 title: Migrate configurations for record routing using solutions
-description: Learn to migrate configuration data pertaining for routing, capacity profiles, queues, intake rules, and workstreams in Customer Service using solutions.
+description: Learn how to migrate configuration data for routing, capacity profiles, queues, intake rules, and workstreams in Customer Service using solutions.
 author: mjfjesus
 ms.author: marcoje
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 04/23/2024
+ms.date: 09/26/2025
 ms.custom: bap-template
 ---
 
 # Migrate configurations for record routing using solutions
 
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 Use solutions and the Configuration Migration tool to migrate the configurations from the source environment to the target environment for record routing.
 
-For information on how to use solutions or the Configuration Migration tool, see [Overview of tools and apps used for ALM in Power Platform](/power-platform/alm/tools-apps-used-alm).
+For information on how to use solutions or the Configuration Migration tool, go to [Overview of tools and apps used for ALM in Power Platform](/power-platform/alm/tools-apps-used-alm).
 
 ## Prerequisites
 
 The following prerequisites must be met:
 
 - Make sure that the user who performs the channel configuration migration has the following privileges:
-  - To export solutions from the source environment
-  - To import solutions to the destination environment
-  - Read permission on all tables migrated from the source environment using Configuration Migration tool.
-  - Full permission on all tables migrated to the destination environment using Configuration Migration tool.
+  - To export solutions from the source environment.
+  - To import solutions to the destination environment.
+  - Read permission on all tables migrated from the source environment using the Configuration Migration tool.
+  - Full permission on all tables migrated to the destination environment using the Configuration Migration tool.
 - In the source environment, if any table or column refers to the following, then make sure that they exist in the target environment before you proceed with the migration:
   - Custom tables (entities)
   - Columns (attributes)
@@ -35,15 +38,15 @@ The following prerequisites must be met:
 
 You must perform the steps in the order they're listed to migrate your configuration data successfully:
 
-1. Migrate configuration for session templates and notification templates
-1. Migrate configuration for skill-based routing rulesets
-1. Migrate configuration for new capacity profiles
-1. Migrate configuration for queues
-1. Migrate configuration for intake rules and  workstreams
+1. Migrate configuration for session templates and notification templates.
+1. Migrate configuration for skill-based routing rulesets.
+1. Migrate configuration for new capacity profiles.
+1. Migrate configuration for queues.
+1. Migrate configuration for intake rules and  workstreams.
 
 ## Migrate configuration for session templates and notification templates
 
-If the following components are available in your setup,add them to a solution, then export and import the solution into the target environment:
+If the following components are available in your setup, add them to a solution, then export and import the solution into the target environment:
 
 1. Add the following components to a solution and export it from the source environment:
    - Agent Script (msdyn_productivityagentscripts)
@@ -57,70 +60,67 @@ If the following components are available in your setup,add them to a solution, 
 
 1. Import the solution into the target environment.
 
-For more information on solutions see [Solutions in Power Apps](/power-apps/maker/data-platform/solutions-overview).
+For more information on solutions go to [Solutions in Power Apps](/power-apps/maker/data-platform/solutions-overview).
 
 ## Migrate configuration for skill-based routing rulesets
 
-If skill-based routing rulesets are used in your setup, perform the steps to migrate the corresponding configuration.
+If skill-based routing rulesets are used in your unified routing setup, perform the steps to migrate the corresponding configuration.
 
 For sample schema to get all the required records, see [Sample schema for skill-based routing configuration](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20skill-based%20routing.xml).
 
-1. Use the Configuration Migration tool to create the schema and export data from the source environment (organization) for skill-based routing configuration.
+1. Use the Configuration Migration tool to create the schema and export data from the source organization for skill-based routing configuration.
   
-   - **Entity display name**: When you create the schema, select the tables (entities) in the sequence as mentioned in the following table.
-   - **Attribute display name**: We recommend that you select the columns (attributes) defined in the table. You don't need to select the out-of-the-box system-defined columns like **Created By**, **Created On**, **Modified By**, **Modified On**, and **Owner**. You can select custom columns if necessary.
+    - **Entity display name**: When you create the schema, select the entities in the sequence that's mentioned in the table.
+    - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system-defined attributes like Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes if necessary.
 
-    > [!IMPORTANT]
-    > For **Characteristic** table, you must manually create **bookableresourcecharacteristictype** Global choice value in the target environment, or use a solution to migrate it from the source environment, if necessary.
+	> [!IMPORTANT]
+    > You must manually create bookableresourcecharacteristictype (Global option set value) in the target organization, if necessary.
 
-    |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
-    |---------|---------|---------|
-    |Characteristic (characteristic)    | <ul><li>Characteristic Type (characteristictype)</li><li>Characteristic (characteristicid)</li><li>Description (description)</li><li>Name (name)</li></ul> |         |
-    |Rating Model (ratingmodel)     |<ul><li>Max Rating Value (maxratingvalue)</li><li>Min Rating Value (minratingvalue)</li><li>Name (name)</li><li>Rating Model (ratingmodelid)</li></ul>         |         |
-    |Rating Value (ratingvalue)     | <ul><li>Name (name)</li><li>Rating Model (ratingmodel)</li><li>Rating Value (ratingvalueid)</li><li>Value (value)</li></ul> |         |
+   |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
+   |---------|---------|---------|
+   |Characteristic (characteristic)    | <ul><li>Characteristic Type (characteristictype)</li><li>Characteristic (characteristicid)</li><li>Description (description)</li><li>Name (name)</li></ul> |         |
+   |Rating Model (ratingmodel)     |<ul><li>Max Rating Value (maxratingvalue)</li><li>Min Rating Value (minratingvalue)</li><li>Name (name)</li><li>Rating Model (ratingmodelid)</li></ul>         |         |
+   |Rating Value (ratingvalue)     | <ul><li>Name (name)</li><li>Rating Model (ratingmodel)</li><li>Rating Value (ratingvalueid)</li><li>Value (value)</li></ul> |         |
 
 1. Generate the schema and save it.
 
 1. Export the data and generate the compressed (zip) file.
 
-1. Use the Configuration Migration tool and select the option to import data into the target environment using the compressed file.
+1. Use the Configuration Migration tool, and select the option to import data into the target organization using the compressed file.
 
-## Migrate configuration for new capacity profiles
+## Migrate configuration for capacity profiles
 
-If you configured new capacity profiles in your setup, perform the steps to migrate the corresponding configuration.
+If you have configured capacity profiles in your unified routing setup, perform the steps to migrate the corresponding configuration.
 
 For sample schema to get all the required records, see [Sample schema for capacity profiles](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20capacity%20profiles.xml).
 
-> [!TIP]
-> After you migrate a new capacity profile using the Configuration Migration tool, migrate the updates using solutions.
+1. Use the Configuration Migration tool to create the schema and export data in source organization for capacity profiles configuration.
 
-1. Use the Configuration Migration tool to create the schema and export data in source environment for capacity profiles configuration.
-   - **Entity display name**: When you create the schema, select the tables (entities) from the list in the same sequence as mentioned in the following table.
-   - **Attribute display name**: We recommend that you select the columns (attributes) defined in the table. You don't need to select the out-of-the-box system defined columns like **Created By**, **Created On**, **Modified By**, **Modified On**, and **Owner**. You can select custom columns, if necessary.
-   - **Use FetchXML to filter records**: For each selected table, use the appropriate FetchXML query that's mentioned in the table to get single, multiple, or all records based on your requirement. For single or multiple rows, you need to use source environment to get the correct name in uiname and GUID in value. If required, you can use the **ADVANCED FIND** menu item to construct the appropriate FetchXML query.
+    [!INCLUDE[ur-migration](../../includes/cc-ur-migration.md)]
+
+    The following table summarizes the entities and corresponding FetchXML samples.
 
     |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
     |---------|---------|---------|
-    |Capacity Profile (msdyn_capacityprofile)     | <ul><li>Block Assignment (msdyn_blockassignment)</li><li>Capacity Profile (msdyn_capacityprofileid)</li><li>Default Max Units (msdyn_defaultmaxunits)</li>Name (msdyn_name)</li><li>Reset Duration(msdyn_resetduration)</li><li>Unique Name (msdyn_uniquename)</li></ul> | **Sample 1: For all capacity profile records**<br>`<fetch>` <br>  `  <entity name="msdyn_capacityprofile">` <br>`    <filter type="and">`<br>`      <condition attribute="ismanaged" operator="eq" value="0" />`<br>`    </filter>`<br>`  </entity>`<br>  `</fetch>`<br><br> **Sample 2: For a single capacity profile record** <br> `<fetch>` <br>`  <entity name="msdyn_capacityprofile">`<br>`    <filter type="and">`<br>`      <condition attribute="msdyn_capacityprofileid" operator="eq" uiname="Demo Capacity Profile 1" uitype="msdyn_capacityprofile" value="{F57CFE3C-14BD-D53E-F423-A1E7F9749DFB}" />`<br> `    </filter>`<br> `  </entity>`<br> `</fetch>` <br><br> **Sample 3: For multiple capacity profile records** <br> `<fetch>`<br> `  <entity name="msdyn_capacityprofile">`<br> `    <filter type="and">` <br> `      <condition attribute="msdyn_capacityprofileid" operator="in">`<br>`        <value uiname="Demo Capacity Profile 1" uitype="msdyn_capacityprofile">{F57CFE3C-14BD-D53E-F423-A1E7F9749DFB}</value>`<br> `        <value uiname="Demo Capacity Profile 2" uitype="msdyn_capacityprofile">{D0B8ABFB-4A9F-0B1F-6FF4-8003E29A623C}</value>`<br>`      </condition>`<br>`    </filter>`<br>`  </entity>`<br>`</fetch>` |
+    |Capacity Profile (msdyn_capacityprofile)     | <ul><li>Block Assignment (msdyn_blockassignment)</li><li> Capacity Profile (msdyn_capacityprofileid)</li><li>Default Max Units (msdyn_defaultmaxunits)</li>Name (msdyn_name)</li><li> Reset Duration(msdyn_resetduration)</li><li>Unique Name (msdyn_uniquename)</li></ul> | **Sample 1: For all capacity profile records**<br>`  <fetch>` <br>  `<entity name="msdyn_capacityprofile">` <br>`<filter type="and">`<br>`<condition attribute="ismanaged" operator="eq" value="0" />`<br>`</filter>`<br>`</entity>`<br>  `</fetch>`<br><br> **Sample 2: For a single capacity profile record** <br> `<fetch>` <br>`<entity name="msdyn_capacityprofile">`<br>`<filter type="and">`<br>`<condition attribute="msdyn_capacityprofileid" operator="eq" uiname="Demo Capacity Profile 1" uitype="msdyn_capacityprofile" value="{F57CFE3C-14BD-D53E-F423-A1E7F9749DFB}" />`<br> `</filter>`<br> `</entity>`<br> `</fetch>` <br><br> **Sample 3: For multiple capacity profile records** <br> `<fetch>`<br> `<entity name="msdyn_capacityprofile">`<br> `<filter type="and">` <br> `<condition attribute="msdyn_capacityprofileid" operator="in">`<br>`<value uiname="Demo Capacity Profile 1" uitype="msdyn_capacityprofile">{F57CFE3C-14BD-D53E-F423-A1E7F9749DFB}</value>`<br> `<value uiname="Demo Capacity Profile 2" uitype="msdyn_capacityprofile">{D0B8ABFB-4A9F-0B1F-6FF4-8003E29A623C}</value>`<br>`</condition>`<br>`</filter>`<br>`</entity>`<br>`</fetch>` |
 
-1. Generate the schema and save it.
+2. Generate the schema and save it.
 
-1. Export the data and generate the compressed (zip) file.
+3. Export the data and generate the compressed (zip) file.
 
-1. Open the Configuration Migration tool and select the option to import data into the target environment.
+4. Use the Configuration Migration tool, and select the option to import data into the target organization.
 
-## Migrate configuration for queues
+## Migrate configuration for record queues
 
-Use the Configuration Migration tool to create the schema and export data from the source environment for the queues configuration.
-   - **Entity display name**: When you create the schema, select the tables (entities) from the list in the same sequence as mentioned in the following table.
-   - **Attribute display name**: We recommend that you select the columns (attributes) defined in the table. You don't need to select the out-of-the-box system defined columns like **Created By**, **Created On**, **Modified By**, **Modified On**, and **Owner**. You can select custom columns, if necessary.
-   - **Use FetchXML to filter records**: For each selected table, use the appropriate FetchXML query that's mentioned in the table to get single, multiple, or all records based on your requirement. For single or multiple rows, you need to use source environment to get the correct name in uiname and GUID in value. If required, you can use the **ADVANCED FIND** menu item to construct the appropriate FetchXML query.
-   - Configure import settings: For the **Decision contract** table, ensure that you select the **Do not update existing records** checkbox.
+Use the Configuration Migration tool to create the schema and export data from the source organization for the record queues configuration.
+
+[!INCLUDE[ur-migration](../../includes/cc-ur-migration.md)]
 
 If you're using the out-of-the-box assignment methods for queues, such as highest capacity and round robin, skip the following entities:
-   - Decision rule set
-   - Assignment configuration
-   - Assignment configuration step
+
+- Decision rule set
+- Assignment configuration
+- Assignment configuration step
 
 The assignment rulesets must be available in the system before the Configuration Migration tool imports the selection criteria. Hence, you need to perform the following steps in the specified order to migrate configuration for record queues:
 
@@ -128,7 +128,7 @@ The assignment rulesets must be available in the system before the Configuration
 >
 > - For every import of queue records, you must create new queue records or update existing queue records. Don't mix the actions in the same data import.
 > - When all records in the data.xml of the queue table are for creation, make sure that the following line is present in the schema.xml: `<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true"/>`, and the corresponding data will also have the field for msdyn_queuetype.
-> - When all records in the data.xml of queue table are for update, ensure that you remove the following line in the schema.xml: `<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true"/>`, and the corresponding data also won't have that field for msdyn_queuetype.
+> - When all records in the data.xml of queue table are for an update, ensure that you remove the following line in the schema.xml: `<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true"/>`, and the corresponding data also won't have that field for msdyn_queuetype.
 > - When the queue that you want to migrate has an overflow condition set, then you must export and import the decision ruleset first. The migration sequence should look as follows:
 >   - Decision contract
 >   - Decision ruleset
@@ -151,15 +151,15 @@ The following table summarizes the entities and corresponding FetchXML samples.
 |  Assignment Configuration (msdyn_assignmentconfiguration)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Description (msdyn_description)</li><li>Is Active Configuration (msdyn_isactiveconfiguration)</li><li>Name (msdyn_name)</li><li>Queue (msdyn_queueid)</li><li>Unique Name (msdyn_uniquename)</li></ul>  | [**Sample 1: Assignment configuration for all record queues**](#BKMK1all-ur-ac) <br> <br>[**Sample 2: Assignment configuration for a single record queue**](#BKMK2single-ur-ac) <br> <br>[**Sample 3: Assignment configuration for multiple record queues**](#BKMK3multiple-ur-ac) <br>   |
 |  Assignment Configuration Step without selection criteria (msdyn_assignmentconfigurationstep)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Assignment Configuration Step (msdyn_assignmentconfigurationstepid)</li><li>Is default ruleset (msdyn_isdefaultruleset)</li><li>Name (msdyn_name)</li><li>Rule Set (msdyn_rulesetid)</li><li>Step Order (msdyn_steporder)</li><li>Step Type (msdyn_type)</li><li>Unique Name (msdyn_uniquename)</li></ul>  |  [**Sample 1: Assignment configuration step for all record queues without selection criteria defined**](#BKMK1nsc-ur-acs) <br> <br> [**Sample 2: Assignment configuration step for a single record queue without selection criteria defined**](#BKMK2nsc-ur-acs) <br> <br> [**Sample 3: Assignment configuration step for multiple record queues without selection criteria defined**](#BKMK3nsc-ur-acs) <br>   |
 |Operating Hour (msdyn_operatinghour)|<ul><li>Description (msdyn_description)</li><li>Name (msdyn_name)</li><li>Operating Hour (msdyn_operatinghourid)</li><li>Status (statecode)</li><li>Status Reason (statuscode)</li></ul>|[**Sample 1: Operating Hours for all record queues**](#BKMK1-oh)<br><br>[**Sample 2: Operating Hours for a single record queue**](#BKMK2-oh) <br><br>[**Sample 3: Operating Hours for multiple record queues**](#BKMK3-oh) |
-|Overflow Action Config (msdyn_overflowactionconfig)|<ul><li> Name (msdyn_name)</li><li>Overflow Action Config (msdyn_overflowactionconfigid)</li><li>Overflow Action Data (msdyn_overflowactiondata)</li><li>Overflow Action Type(msdyn_overflowactiontype)</li><li>Status (statecode)</li><li>Status Reason (statuscode)</li></ul>|[**FetchXML for overflow action configurations**](#BKMK1-ov)|
+|Overflow Action Config (msdyn_overflowactionconfig)|<ul><li> Name (msdyn_name)</li><li>Overflow Action Config (msdyn_overflowactionconfigid)</li><li>Overflow Action Data (msdyn_overflowactiondata)</li><li>Overflow Action Type (msdyn_overflowactiontype)</li><li>Status (statecode)</li><li>Status Reason (statuscode)</li></ul>|[**Sample 1: Overflow Action Config filtered to specific records**](#BKMK1-ov)|
 
 Perform the following steps to export and import the rulesets:
 
 1. Generate the schema and save it.
 
-2. Export the data and generate the compressed (zip) file.
+2. Export the data and generate the compressed (.zip) file.
 
-3. Extract the zip file, open the data.xml file present in the extracted folder, and do the following:
+3. Extract the .zip file, open the data.xml file present in the extracted folder, and do the following:
 
    - In the source and target environments, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
 
@@ -174,24 +174,25 @@ Perform the following steps to export and import the rulesets:
      In the data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source environment with the msdyn_decisioncontractid GUID of the target environment.
    
    - In the source and target environments, run the following OData API call and note the GUID of msdyn_decisioncontractid.
-      `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_queueoverflowrulesetinput'`
+
+     `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_queueoverflowrulesetinput'`
 
      In the data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source environment with the msdyn_decisioncontractid GUID of the target environment.
 
    - In the source and target environment, run the following OData API call and note the GUID of msdyn_decisioncontractid.
       
-    `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_queueoverflowrulesetoutput'`
+     `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_queueoverflowrulesetoutput'`
     
      In the data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source environment with the msdyn_decisioncontractid GUID of the target environment.  
 
-4. Package the extracted content again.
+4. Repackage the extracted content.
 
 5. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
 
 > [!NOTE]
 > Set the Calendar Item associated with the Operating Hour table correctly after you import the Operating Hour table into the target environment.
 
-For sample schema to get all the required records, see [Sample schema for record queues step 1](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues%20step%201.xml).
+For sample schema to get all the required records, go to [Sample schema for record queues step 1](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues%20step%201.xml).
 
 ### Step 2: Export and import rulesets with selection criteria defined
 
@@ -206,9 +207,9 @@ Perform the following steps to export and import the rulesets:
 
 1. Generate the schema and save it.
 
-2. Export the data and generate the compressed (zip) file.
+2. Export the data and generate the compressed (.zip) file.
 
-3. Extract the zip file, open the data.xml file present in the extracted folder, and do the following:
+3. Extract the .zip file, open the data.xml file present in the extracted folder, and do the following:
 
    - In the source and target environments, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
 
@@ -222,11 +223,49 @@ Perform the following steps to export and import the rulesets:
 
      In the data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source environment with the msdyn_decisioncontractid GUID of the target environment.
 
-4. Package the extracted content again.
+4. Repackage the extracted content.
 
 5. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
 
-For sample schema to get all the required records, see [Sample schema for record queues step 2](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues%20step%202.xml).
+For sample schema to get all the required records, go to [Sample schema for record queues step 2](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues%20step%202.xml).
+
+### Step 3: Export and import prequeue overflow ruleset configurations  
+
+If you aren't using overflow overrides methods for queues, skip this step.  
+
+The following table summarizes the entities and corresponding FetchXML samples.  
+
+|Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
+|---------|---------|---------|
+| Queue (queue) | <ul><li>Assignment Input Contract Id (msdyn_assignmentinputcontractid)</li><li>Assignment Strategy (msdyn_assignmentstrategy)</li><li>Description (description)</li><li>Is Default Queue (msdyn_isdefaultqueue)</li><li>Is Omnichannel Queue (msdyn_isomnichannelqueue)</li><li>Name (name)</li><li>Priority (msdyn_priority)</li><li>Queue (queueid)</li><li>Queue type (msdyn_queuetype)</li><li>Type (queueviewtype)</li><li>Operating Hours (msdyn_operatinghourid)</li><li>Prequeue Overflow Ruleset (msdyn_prequeueoverflowrulesetid)</li></ul> | [**Sample 1: All queues for records**](#BKMK1all-ur-qs) <br><br> [**Sample 2: Single queue for records**](#BKMK2single-ur-qs) <br><br> [**Sample 3: Multiple queues for records**](#BKMK3multiple-ur-qs)  |
+| Decision contract (msdyn_decisioncontract) | <ul><li>Contract Definition (msdyn_contractdefinition)</li><li>Decision contract (msdyn_decisioncontractid)</li><li>Name (msdyn_name)</li><li>Unique name (msdyn_uniquename)</li></ul> | [**Sample 1: Decision contract for all record queues with prequeue overflow defined**](#BKMK1-po-contract) <br><br>[**Sample 2: Decision contract for a single record queue with prequeue overflow defined**](#BKMK2-po-contract) <br><br>[**Sample 3: Decision contract for multiple record queues with prequeue overflow defined**](#BKMK3-po-contract) |
+| Decision ruleset with selection criteria (msdyn_decisionruleset) | <ul><li>AI Builder Model (msdyn_aibmodelid)</li><li>Authoring Mode (msdyn_authoringmode)</li><li>Decision rule Set (msdyn_decisionrulesetid)</li><li>Description (msdyn_description)</li><li>Input Contract (msdyn_inputcontractid)</li><li>Is input Collection (msdyn_isinputcollection)</li><li>ML model type (msdyn_mlmodeltype)</li><li>Name (msdyn_name)</li><li>Output contract (msdyn_outputcontractid)</li><li>Rule set definition (msdyn_rulesetdefinition)</li><li>Rule set type (msdyn_rulesettype)</li><li>Unique name (msdyn_uniquename)</li></ul> | [**Sample 1: Decision ruleset for all record queues with prequeue overflow defined**](#BKMK1-po-ruleset) <br><br>[**Sample 2: Decision ruleset for a single record queue with prequeue overflow defined**](#BKMK2-po-ruleset) <br><br>[**Sample 3: Decision ruleset for multiple record queues with prequeue overflow defined**](#BKMK3-po-ruleset) |
+
+Perform the following steps to export and import the prequeue rulesets:
+
+1. Generate the schema and save it.  
+
+1. Export the data and generate the compressed .zip file.  
+
+1. Extract the .zip file, open the data.xml file present in the extracted folder, and do the following:  
+
+   - In the source and target environments, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
+
+     `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_queueoverflowrulesetinput'`
+
+     In the data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source environment with the msdyn_decisioncontractid GUID of the target environment.  
+
+   - In the source and target environments, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
+
+     `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_queueoverflowrulesetoutput'`
+    
+     In the data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source environment with the msdyn_decisioncontractid GUID of the target environment.  
+
+1. Repackage the extracted content into a .zip file.  
+
+1. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
+
+For sample schema to get all the required records, go to [Sample schema for overflow](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20overflow.xml).
 
 ### FetchXML for queues
 
@@ -776,26 +815,174 @@ XMLCopy
 </fetch>
 ```
 
+### FetchXML for decision contract for queues
+
+**Sample 1: Decision contracts for all record queues with prequeue overflow defined**<a name="BKMK1-po-contract"></a>
+
+```xml
+XMLCopy
+<fetch distinct="true">
+   <entity name="msdyn_decisioncontract">
+       <filter type="or">
+           <filter type="and">
+               <condition attribute="msdyn_queuetype" entityname="bb" operator="eq" value="192350001"/>
+               <condition attribute="msdyn_isomnichannelqueue" entityname="bb" operator="eq" value="1"/>
+               <condition attribute="queueid" entityname="bb" operator="ne" uiname="Default entity queue" uitype="queue" value="{5a4b76b0-dab5-4717-9743-9490f2f822c6}"/>
+           </filter>
+           <filter type="and">
+               <condition attribute="msdyn_isomnichannelqueue" entityname="be" operator="eq" value="1"/>
+               <condition attribute="msdyn_queuetype" entityname="be" operator="eq" value="192350001"/>
+               <condition entityname="be" attribute="queueid" operator="ne" value="{5a4b76b0-dab5-4717-9743-9490f2f822c6}"/>
+           </filter>
+       </filter>
+       <link-entity name="msdyn_decisionruleset" from="msdyn_inputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="input">
+           <link-entity name="queue" from="msdyn_prequeueoverflowrulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bb"/>
+       </link-entity>
+       <link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="output">
+           <link-entity name="queue" from="msdyn_prequeueoverflowrulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="be"/>
+       </link-entity>
+   </entity>
+</fetch>
+```
+
+**Sample 2: Decision contracts for a single record queue with prequeue overflow defined**<a name="BKMK2-po-contract"></a>
+
+```xml
+XMLCopy
+<fetch distinct="true">
+  <entity name="msdyn_decisioncontract">
+    <filter type="or">
+      <filter type="and">
+        <condition attribute="queueid" entityname="bb" operator="eq" uiname="Test Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+      </filter>
+      <filter type="and">
+        <condition attribute="queueid" entityname="be" operator="eq" uiname="Test Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+      </filter>
+    </filter>
+    <link-entity name="msdyn_decisionruleset" from="msdyn_inputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="input">
+      <link-entity name="queue" from="msdyn_prequeueoverflowrulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bb"/>
+    </link-entity>
+    <link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="output">
+      <link-entity name="queue" from="msdyn_prequeueoverflowrulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="be"/>
+    </link-entity>
+  </entity>
+</fetch> 
+```
+
+**Sample 3: Decision contracts for multiple record queues with prequeue overflow defined**<a name="BKMK3-po-contract"></a>
+
+```XML
+XMLCopy
+<fetch distinct="true">
+  <entity name="msdyn_decisioncontract">
+    <filter type="or">
+      <filter type="and">
+        <condition attribute="queueid" entityname="bb" operator="in">
+          <value uiname="Test Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
+          <value uiname="Test Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
+        </condition>
+      </filter>
+      <filter type="and">
+        <condition attribute="queueid" entityname="be" operator="in">
+          <value uiname="Test Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
+          <value uiname="Test Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
+        </condition>
+      </filter>
+    </filter>
+    <link-entity name="msdyn_decisionruleset" from="msdyn_inputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="input">
+      <link-entity name="queue" from="msdyn_prequeueoverflowrulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bb"/>
+    </link-entity>
+    <link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="output">
+      <link-entity name="queue" from="msdyn_prequeueoverflowrulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="be"/>
+    </link-entity>
+  </entity>
+</fetch>
+```
+
+### FetchXML for decision rulesets for queues
+
+**Sample 1: Decision ruleset for all record queues with prequeue overflow defined**<a name="BKMK1-po-ruleset"></a>
+
+```XML
+XMLCopy
+<fetch distinct="true">
+  <entity name="msdyn_decisionruleset">
+    <link-entity name="queue" from="msdyn_prequeueoverflowrulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="am">
+      <filter type="and">
+        <condition attribute="msdyn_queuetype" operator="eq" value="192350001" />
+        <condition attribute="msdyn_isomnichannelqueue" operator="eq" value="1" />
+        <condition attribute="queueid" operator="ne" uiname="Default entity queue" uitype="queue" value="{5A4B76B0-DAB5-4717-9743-9490F2F822C6}" />
+      </filter>
+    </link-entity>
+  </entity>
+</fetch>
+```
+
+**Sample 2: Decision ruleset for a single record queue with prequeue overflow defined**<a name="BKMK2-po-ruleset"></a>
+
+```XML
+XMLCopy
+<fetch distinct="true">
+  <entity name="msdyn_decisionruleset">
+    <link-entity name="queue" from="msdyn_prequeueoverflowrulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="am">
+      <filter type="and">
+        <condition attribute="queueid" operator="eq" uiname="Test Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+      </filter>
+    </link-entity>
+  </entity>
+</fetch>
+```
+
+**Sample 3: Decision ruleset for multiple record queues with prequeue overflow defined**<a name="BKMK3-po-ruleset"></a>
+
+```XML
+XMLCopy
+<fetch distinct="true">
+  <entity name="msdyn_decisionruleset">
+    <link-entity name="queue" from="msdyn_prequeueoverflowrulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="am">
+      <filter type="and">
+        <condition attribute="queueid" operator="in">
+          <value uiname="Test Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
+          <value uiname="Test Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
+        </condition>
+      </filter>
+    </link-entity>
+  </entity>
+</fetch>
+```
+
 ## Migrate configuration for intake rules and record workstreams
 
-Use the following steps to migrate intake rules and record workstreams from the source environment to the destination environment.
+Do the steps in the following sections in the order specified to migrate intake rules and record workstreams from the source environment to the destination environment.
+
+### Create a solution for record routing workstreams
 
 1. Create a solution to export configurations from the source environment for record routing workstreams.
 1. Add the required records to the solution using the **Add existing button** in the command bar.
-1. Select the **Work Stream (msdyn_liveworkstream)** table. Related records from the following tables are automatically added to the solution:
-   - Capacity Profile (msdyn_capacityprofile) – new records must be migrated using Configuration Migration tool
-   - Master entity routing configuration (msdyn_masterentityroutingconfiguration)
-   - Decision contract (msdyn_decisioncontract) – for both intake rules and record workstreams
-   - Decision rule set (msdyn_decisionruleset) – for both intake rules and record workstreams
-   - Routing configuration (msdyn_routingconfiguration)
-   - Routing configuration step (msdyn_routingconfigurationstep)
-   - Operating Hour (msdyn_operatinghour)
+1. Select the **Work Stream (msdyn_liveworkstream)** table. When you add the Work Stream table, related records from the following tables are automatically added to the solution:
+  - Capacity Profile (msdyn_capacityprofile) - These records must be migrated using the Configuration Migration tool.
+  - Master Entity Routing Configuration (msdyn_masterentityroutingconfiguration).
+  - Decision Contract (msdyn_decisioncontract) for intake rules and record workstreams.
+  - Decision Rule Set (msdyn_decisionruleset) for intake rules and record workstreams.
+  - Routing Configuration (msdyn_routingconfiguration).
+  - Routing Configuration Step (msdyn_routingconfigurationstep).
+  - Ruleset Entity Mapping (msdyn_rulesetdependencymapping).
+
+### Add relationships
+
+You must add routable object relationships based on the unique identifiers of routed records. These records are generated from entities that have been enabled for Unified Routing and require at least one Workstream to be configured such as `msdyn_ocliveworkitem_email_msdyn_routableobjectid` and `msdyn_ocliveworkitem_incident_msdyn_routableobjectid`.
+
+1. Navigate to the solution editor and select **Add Existing**
+1. Select Conversation tables.
+1. Make sure that **Include all objects** and **Include table metadata** options are cleared.
+- Select **Edit Object** and search for `RoutableObjectId`
+- Select the required relationships based on the Workstream types that have been added to your solution.
 
 ## Next steps
 
 [Verify migration of records](migrate-config-data-verify.md)  
 
 
-### See also
+### Related information
 
 [Migrate configurations for channels using solutions](migrate-channel-config-using-solutions.md)  

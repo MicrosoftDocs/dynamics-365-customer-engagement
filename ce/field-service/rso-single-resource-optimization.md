@@ -1,10 +1,10 @@
 ---
 title: Single resource optimization for Resource Scheduling Optimization
 description: Learn about single resource optimization for Resource Scheduling Optimization in Dynamics 365 Field Service
-ms.date: 10/09/2023
+ms.date: 08/25/2025
 ms.topic: how-to
-author: anilmur
-ms.author: anilmur
+author: andrewclear-ms
+ms.author: anclear
 ms.custom: bap-template
 ms.subservice: resource-scheduling-optimization
 --- 
@@ -22,7 +22,7 @@ It helps accommodate schedule changes that occurred during the day, when a resou
 To optimize an individual resource's schedule, a dispatcher can manually run single resource optimization. Workflows can also trigger single resource optimization. Unlike other Resource Scheduling Optimization scenarios, you can't schedule single resource optimization runs.
 
 > [!NOTE]
-> Starting with Field Service version 8.8.99.10 and Resource Scheduling Optimization version 3.4.0.623, single resource optimization runs take requirements and existing bookings into account. As a consequence, the system can delete existing bookings to create a schedule that better matches the optimization goal. In earlier versions, single optimization runs only considered existing bookings.
+> Starting with Field Service version 8.8.99.10 and Resource Scheduling Optimization version 3.4.0.623, single resource optimization runs consider requirements and existing bookings. The system can delete existing bookings to create a schedule that better matches the optimization goal. In earlier versions, single optimization runs only consider existing bookings.
 
 ## Prerequisites
 
@@ -40,11 +40,16 @@ Single resource optimization typically cleans up a schedule that changed through
 
 - Set **Engine Effort Level** to **Very Light**. The faster single resource optimization completes, the better dispatchers can react to scheduling needs.
 
-- Remove the **Schedule Within Working Hours** constraint to allow more bookings to fit in the resource's schedule. This setting can be helpful if a resource needs to pick up urgent work. Removing this constraint allows the end time of a booking to spill over into nonworking hours. Using the constraint, the system ensures there's time after completing the last booking  to travel back to the resource's end location.
+- Remove the **Schedule Within Working Hours** constraint to let more bookings fit in the resource's schedule. This setting helps if a resource needs to pick up urgent work. When you remove this constraint, the end time of a booking can spill over into nonworking hours. If you use the constraint, the system makes sure there's time after the last booking to travel back to the resource's end location.
 
-- Remove constraints related to matching territory, roles, and characteristics because the scenario assumes the *dispatcher knows best*. Keeping constraints enabled could lead to a situation where the dispatcher assigns a work order to a resource overriding the constraints, then runs single resource optimization, which deletes the booking because it doesn't match the resource's attributes.
+- Remove the travel time calculation option for historical traffic if it's enabled on the optimization goal.
 
-- Add **Scheduling Lock Options** and **Scheduling Windows** constraints so single resource optimization upholds time promises or SLAs with the customer.
+- Remove constraints related to matching territory, roles, and characteristics because the scenario assumes the *dispatcher knows best*. If you keep constraints enabled, the dispatcher can assign a work order to a resource by overriding the constraints. Then run single resource optimization, which deletes the booking because it doesn't match the resource's attributes.
+
+- Add **Scheduling Lock Options** and **Scheduling Windows** constraints so single resource optimization upholds time promises or service level agreements (SLAs) with the customer.
+
+> [!TIP]
+> A location agnostic resource can only have bookings for which the *Resource Requirement* is also set to location agnostic. Resource Scheduling Optimization treats that resource like a remote worker who only gets scheduled for work that doesn't involve travel. Alternatively, you can [Enable a resource to travel outside working hours](rso-travel-outside-working-hours.md#enable-a-resource-for-scheduling-outside-of-working-hours) to work around this constraint.
 
 Next, [add your single resource optimization goal as the default goal](rso-optimization-goal.md#default-optimization-goal).
 
@@ -63,7 +68,7 @@ On the schedule board, right-click a resource (except a [crew](./resource-crews.
 - The default optimization goal
 - The default optimization range, which is from now to the end of today (12:00 AM)
 - The existing bookings on the resource's schedule in that optimization range
-- Requirements from the active view of requirements at the bottom of the schedule board, ordered according to any sorting or filtering that have been applied to that view
+- Requirements from the active view of requirements at the bottom of the schedule board are ordered based on the applied sorting or filtering in that view  
 
 When the optimization completes, you see the new set of bookings on the schedule board. In the right pane, you find details about bookings that were updated, deleted, or created.
 

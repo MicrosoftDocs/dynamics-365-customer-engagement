@@ -2,7 +2,6 @@
 title: "Sample: Authenticate users with Dynamics 365 Customer Engagement web services (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "This sample shows how to authenticate a user with any Microsoft Dynamics 365 Customer Engagement deployment and obtain a reference to the web services."
 keywords: 
-ms.date: 10/28/2019
 
 ms.custom: 
 ms.topic: sample

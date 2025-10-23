@@ -1,7 +1,7 @@
 ---
 title: Create a unit group and add units to that group
 description: Define the quantities or measurements that you sell your products or services in by using units in Dynamics 365 Sales.
-ms.date: 08/08/2023
+ms.date: 11/21/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -26,14 +26,6 @@ searchScope:
 # Create a unit group and add units to that group 
 
 Define the quantities or measurements that you sell your products or services in by using units in Dynamics 365 Sales.
-
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Sales Manager, Sales Professional Manager, or Vice President of Sales <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## What are unit groups and units?
 
@@ -68,16 +60,14 @@ Let's look at both of these tasks, using seeds as our example.
 
     b.	**Primary Unit**. Type the lowest common unit of measure that the product will be sold in. In our example, you would type "Piece." Other examples could include box, cartons, ounces, hours, or tons, depending on your product.
 
-    > [!div class="mx-imgBorder"]
-    > ![Create unit group dialog box.](media/create-unit-group-dialog-box.png "Create unit group dialog box")
+    :::image type="Create unit group dialog box" source="media/create-unit-group-dialog-box.png" alt-text="Create unit group dialog box":::
  
       > [!NOTE]
       > You cannot delete the primary unit in a unit group.
 
 6.	To add units to the unit group, select the **Related** tab, and then select **Units**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Units option on the Related tab.](media/units-option-on-related-tab.png "Units option on the Related tab")
+    :::image type="Units option on the Related tab" source="media/units-option-on-related-tab.png" alt-text="Units option on the Related tab":::
  
 7.	On the **Units** tab, you’ll see that the primary unit is already added. Select **Add New Unit**.
 
@@ -89,8 +79,7 @@ Let's look at both of these tasks, using seeds as our example.
 
     c.	**Base Unit**. Select a base unit. The base unit will establish the lowest unit of measurement for the unit you're creating. Using our example, you would select "Piece."
 
-    > [!div class="mx-imgBorder"]	
-      ![Quick create: Unit form.](media/quick-create-form-unit.png "Quick create: Unit form")
+      :::image type="Quick create: Unit form" source="media/quick-create-form-unit.png" alt-text="Quick create: Unit form":::
 
   
 ## Typical next steps  

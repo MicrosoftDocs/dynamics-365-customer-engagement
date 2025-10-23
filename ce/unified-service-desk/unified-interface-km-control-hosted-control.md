@@ -1,21 +1,18 @@
 ---
 title: "Unified Interface KM Control (hosted control) for Unified Service Desk | MicrosoftDocs"
 description: "Learn to use the KM Control type of hosted control to display knowledge base articles in your agent application."
-ms.date: 12/31/2019
-ms.topic: article
+ms.date: 06/27/2024
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 
 # Unified Interface KM Control (Hosted Control)
-
-
-
 Use the **Unified Interface KM Control** type of hosted control to display knowledge base articles in your agent application. Using the new hosted control, your service agents can search for articles, associate or disassociate an article with a case, copy a link to an article, and send it through email or in chat without having to switch applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) and [Configure Unified Service Desk to use model-driven apps](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)
 
 > [!NOTE]
@@ -23,7 +20,7 @@ Use the **Unified Interface KM Control** type of hosted control to display knowl
 
 <a name="Create"></a>   
 ## Create a KM Control hosted control  
- While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Unified Interface KM Control** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
+ When you create a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Unified Interface KM Control** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
 
  ![Unified Interface KM Control hosted control.](../unified-service-desk/media/usd-unified-interface-kmcontrolhostedcontrol.png "Unified Interface KM Control hosted control")  
 
@@ -31,11 +28,11 @@ Use the **Unified Interface KM Control** type of hosted control to display knowl
 
 - Under **Unified Service Desk** area, select **Unified Interface KM Control** from the **Unified Service Desk Component Type** drop-down list.  
 
-- The **Allow Multiple Pages** drop-down list is not supported for this hosted control type.  
+- The **Allow Multiple Pages** drop-down list isn't supported for this hosted control type.  
 
 - The **Hosting Type** is **Chrome Process**. For more information, see [Select a hosting method for hosted controls](../unified-service-desk/select-hosting-method-controls.md).  
 
-- Under the **Common Properties** area, select the **Application is Global** check box to set the hosted control as global. Global hosted controls can be displayed outside of a customer session. Controls like the agents’ dashboard, wall or search are common uses for global hosted controls. Global hosted controls do not have session-specific state so when you change sessions, these same global hosted controls remain. If the check box is not selected, the hosted control becomes session based. Session-based controls exist in the context of the customer session. If the user changes to another session, all the session pages from the previous session are hidden.  
+- Under the **Common Properties** area, select the **Application is Global** check box to set the hosted control as global. Global hosted controls can be displayed outside of a customer session. Controls like the agents’ dashboard, wall, or search are common uses for global hosted controls. Global hosted controls don't have session-specific state so when you change sessions, these same global hosted controls remain. If the check box isn't selected, the hosted control becomes session based. Session-based controls exist in the context of the customer session. If the user changes to another session, all the session pages from the previous session are hidden.  
 
 - The **Display Group** field displays the panel where this hosted control will be displayed. In the knowledge management package, the Unified Interface KM Control is displayed in the **RightPanel**; however, you can choose to display it in the **LeftPanel** or **MainPanel** as per your requirement. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md).  
 
@@ -56,7 +53,7 @@ For information about other **General** fields, see [Create or edit a hosted con
 |     recordid      | The ID of the parent entity record to associate the knowledge base record to.|
 |  articleuniqueid  | The unique ID of the article in that you want to associate. For example: `articleuniqueid=7924/8112/Article/41`|
 |   articletitle    |  A string value representing article's title that you want to associate. For example: `articletitle=Diffused Sunlight and Weather Conditions` |
-| articlepublicurl  | The public URL of the article that you want to associate. If you are using native Microsoft Dataverse knowledge base, the articles should have already been published to an external portal (select **Use an external portal** in the **Knowledge Base management Settings** dialog box in Dataverse) so that you can use the article URL in this parameter.<br /><br /> For example: `articlepublicurl=https://support.microsoft.com/kb/{kbnum}` |
+| articlepublicurl  | The public URL of the article that you want to associate. If you're using native Microsoft Dataverse knowledge base, the articles should have already been published to an external portal (select **Use an external portal** in the **Knowledge Base management Settings** dialog box in Dataverse) so that you can use the article URL in this parameter.<br /><br /> For example: `articlepublicurl=https://support.microsoft.com/kb/{kbnum}` |
 
 <a name="Close"></a>   
 ### Close  
@@ -109,11 +106,11 @@ For information about other **General** fields, see [Create or edit a hosted con
 
 | Parameter  | Description |
 |------------|------------------------|
-|   query    | A string value to be searched in the hosted control. For example: `query=contoso`. This will fetch all the knowledge articles from Dataverse that have names starting with the word "contoso". |
-|  results   | An integer value to indicate the number of search results to be displayed in the hosted control. For example, specifying `results=5` will display 5 search results in the hosted control. If no value or a wrong value is provided for this data parameter, then the default value (10) will be used. The maximum value allowed for this data parameter is 20. |
-|   filter   | An integer value to indicate the knowledge base article type to be displayed in the hosted control:<br /><br /> -   `0`: Draft<br />-   `1`: Approved<br />-   `3`: Published<br /><br /> For example, specify `filter=3` to display only published knowledge base articles.<br /><br /> If no value or a wrong value is provided, then the default value (3) will be used. |
-| blockClick | An integer value to indicate whether to block displaying the content inline when a search result is clicked in the hosted control. Set it to `0` to open the content inline when clicked; set it `1` to block opening the content inline. For example: `blocked=1`<br /><br /> If no value or a wrong value is provided, then the default value (0) will be used. If you have the set the value to 1 to block the content, the [ResultOpen](../unified-service-desk/km-control-hosted-control.md#ResultOpen) event will still be fired. |
-|    sort    | An integer value to indicate the sorting options for the knowledge base articles in the search result:<br /><br /> -   `1`: Relevance (default)<br />-   `2`: Rating<br />-   `3`: Number of views<br />-   `4`: Last modified date (oldest first)<br />-   `5`: Last modified date (newest first)<br /><br /> For example, specify `sort=2` to sort the articles based on rating.<br /><br /> If no value or a wrong value is provided, then the default value (1) will be used for the data parameter. |
+|   query    | A string value to be searched in the hosted control. For example: `query=contoso`. This fetches all the knowledge articles from Dataverse that have names starting with the word "contoso". |
+|  results   | An integer value to indicate the number of search results to be displayed in the hosted control. For example, specifying `results=5` displays five search results in the hosted control. If no value or a wrong value is provided for this data parameter, then the default value (10) is used. The maximum value allowed for this data parameter is 20. |
+|   filter   | An integer value to indicate the knowledge base article type to be displayed in the hosted control:<br /><br /> -   `0`: Draft<br />-   `1`: Approved<br />-   `3`: Published<br /><br /> For example, specify `filter=3` to display only published knowledge base articles.<br /><br /> If no value or a wrong value is provided, then the default value (3) is used. |
+| blockClick | An integer value to indicate whether to block displaying the content inline when a search result is clicked in the hosted control. Set it to `0` to open the content inline when clicked; set it `1` to block opening the content inline. For example: `blocked=1`<br /><br /> If no value or a wrong value is provided, then the default value (0) is used. If you have the set the value to 1 to block the content, the [ResultOpen](../unified-service-desk/km-control-hosted-control.md#ResultOpen) event will still be fired. |
+|    sort    | An integer value to indicate the sorting options for the knowledge base articles in the search result:<br /><br /> -   `1`: Relevance (default)<br />-   `2`: Rating<br />-   `3`: Number of views<br />-   `4`: Last modified date (oldest first)<br />-   `5`: Last modified date (newest first)<br /><br /> For example, specify `sort=2` to sort the articles based on rating.<br /><br /> If no value or a wrong value is provided, then the default value (1) is used for the data parameter. |
 
 <a name="SetArticleContext"></a>   
 ### SetArticleContext  
@@ -121,7 +118,7 @@ For information about other **General** fields, see [Create or edit a hosted con
 
 |Parameter|Description|  
 |---------------|-----------------|  
-|`articleapplication`|Name of the hosted control where the knowledge base article will be displayed.|  
+|`articleapplication`|Name of the hosted control where the knowledge base article is displayed.|  
 |`articledata`|An article record object value passed from the [ResultOpen](../unified-service-desk/km-control-hosted-control.md#ResultOpen) event.|  
 
 <a name="SetSearchProps"></a>   
@@ -130,8 +127,8 @@ For information about other **General** fields, see [Create or edit a hosted con
 
 |Parameter|Description|  
 |---------------|-----------------|  
-|`showFilter`|Indicates whether to enable the article type filter for searching knowledge base articles. Set it `0` to hide the filter and `1` to display the filter. For example: `showFilter=1`.<br /><br /> If no value or a wrong value is provided, then default value (0) will be used.|  
-|`showLang`|Indicates whether to enable the language filter for searching knowledge base articles. Set it `0` to hide the filter and `1` to display the filter. For example: `showLang=1`.<br /><br /> If no value or a wrong value is provided, then default value (0) will be used.|
+|`showFilter`|Indicates whether to enable the article type filter for searching knowledge base articles. Set it `0` to hide the filter and `1` to display the filter. For example: `showFilter=1`.<br /><br /> If no value or a wrong value is provided, then default value (0) is used.|  
+|`showLang`|Indicates whether to enable the language filter for searching knowledge base articles. Set it `0` to hide the filter and `1` to display the filter. For example: `showLang=1`.<br /><br /> If no value or a wrong value is provided, then default value (0) is used.|
 
 <a name="SetSize"></a>   
 ### SetSize  

@@ -1,7 +1,6 @@
 ---
 title: "The organization already has another Reporting Services instance configured | Microsoft Docs"
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -1,15 +1,15 @@
 ---
-title: "Schedule multi-day work in Universal Resource Scheduling"
-description: "Work orders and requirements can be scheduled across multiple days. Learn about multi-day scheduling and allocation methods by configuring 3 scenarios."
-ms.date: 04/19/2024
-ms.reviewer: mhart
+title: Schedule multi-day work in Universal Resource Scheduling
+description: Learn how to schedule work orders and requirements across multiple days.
+ms.date: 05/21/2025
+ms.reviewer: puneetsingh
 ms.subservice: common-scheduler
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Schedule multi-day work or requirements in Universal Resource Scheduling

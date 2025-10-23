@@ -2,7 +2,6 @@
 title: "Use the solution explorer in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to use the solution explorer to create or customize apps. Get guidance on customizing the individual components found in the solution explorer."
 ms.custom: 
-ms.date: 01/11/2019
 ms.reviewer: 
 
 ms.suite: 

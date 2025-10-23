@@ -1,16 +1,19 @@
 ---
-title: Use sites to manage your service locations | Microsoft Docs
+title: Use sites to manage your service locations
 description: Learn how to use sites to manage your service locations in Dynamics 365 Customer Service.
-ms.date: 03/20/2023
-ms.topic: article
-author: lalexms
-ms.author: laalexan
+ms.date: 06/17/2025
+ms.topic: how-to
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
   - enduser
 ms.custom: 
   - dyn365-customerservice
+  - bap-template
+  - evergreen
 ---
 
 # Use sites to manage your service locations
@@ -25,9 +28,9 @@ You can also create a site in Dynamics 365 Customer Engagement (on-premises) 9.1
 
 Before you begin, make sure you have the System Administrator or System Customizer security role or equivalent permissions.
 
-2. Navigate to the Customer Service admin center or Customer Service Hub app, and perform the following steps:
+2. Navigate to the Copilot Service admin center or Customer Service Hub app, and perform the following steps:
 
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+   ### [Copilot Service admin center](#tab/copilotserviceadmincenter)
 
     1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
     1.  In the **Sites** section, select **Manage**.   
@@ -47,7 +50,7 @@ Before you begin, make sure you have the System Administrator or System Customiz
 
 4. Enter the details and select **Save**.
 
-### See also  
+### Related information  
 
 [Unified Interface-based service scheduling overview](uci-scheduling-overview.md)
 

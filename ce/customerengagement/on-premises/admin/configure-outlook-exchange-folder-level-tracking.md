@@ -2,19 +2,18 @@
 title: "Enable folder-level tracking in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to enable folder-level tracking to map an Exchange inbox folder to a Customer Engagement (on-premises) record."
 ms.custom: 
-ms.date: 12/02/2021
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: ae069f91-8cd7-446e-b13b-05aec2e9b95c
 caps.latest.revision: 15
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 ---
@@ -39,7 +38,7 @@ You can enable folder-level tracking for [!INCLUDE[pn_Microsoft_Exchange](../inc
   
 5. Configure other tracking options on this page, and then click **OK**.  
   
-Once you’ve enabled folder-level tracking, users will need to configure folder-tracking rules in Customer Engagement (on-premises) with Settings (![Gear button.](../admin/media/selection-rule-gear.gif "Select rule gear button")) > **Options** > **Email** > **Configure Folder Tracking Rules**.  
+Once you’ve enabled folder-level tracking, users will need to configure folder-tracking rules in Customer Engagement (on-premises) with Settings (![Select rule gear button.](../admin/media/selection-rule-gear.gif "Select rule gear button")) > **Options** > **Email** > **Configure Folder Tracking Rules**.  
   
 ## Some important points about folder-level tracking  
   

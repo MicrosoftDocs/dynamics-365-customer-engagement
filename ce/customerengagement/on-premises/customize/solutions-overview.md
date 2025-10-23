@@ -3,7 +3,6 @@ title: "Use solutions in Dynamics 365 Customer Engagement (on-premises)"
 description: "Solutions are used to transport apps from one org to another, or to apply customizations. Learn about the difference between solutions and how they're applied."
 ms.custom: 
   - dyn365-deflc
-ms.date: 12/04/2019
 ms.reviewer: 
 
 ms.suite: 

@@ -1,8 +1,8 @@
 ---
 title: "Match Dynamics 365 fields with ZoomInfo fields (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to map the fields between Dynamics 365 and ZoomInfo to avoid mismatches when exporting data from the app to your organization."
-ms.date: 06/27/2022
-ms.topic: article
+ms.date: 04/30/2025
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -10,13 +10,6 @@ ms.reviewer: udag
 # Match fields between Dynamics 365 and ZoomInfo 
 
 When you try to export data from the ZoomInfo app to your Dynamics 365 Sales organization, certain corresponding fields may not match and won't display updated values. To avoid these mismatches, you can map the corresponding fields between Dynamics 365 and ZoomInfo for accounts, contacts, and leads.
-
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## Prerequisites
 Before you start, be sure you've met the following prerequisites:
@@ -29,14 +22,12 @@ Before you start, be sure you've met the following prerequisites:
     >[!NOTE]
     >The app might prompt you to enter credentials. Select either Google, Office, or enter your ZoomInfo credentials if you have an account with ZoomInfo.  
 
-    > [!div class="mx-imgBorder"]
-    > ![ZoonInfo sign in page](media/zoominfo-login-page.png "ZoonInfo sign in page")
+    :::image type="content" source="media/zoominfo-login-page.png" alt-text="Screenshot of the ZoomInfo sign-in page.":::
      
 3.	On the top-right corner of the page, select **More** > **Admin Portal**.
 4.	On the **Admin Portal** page, select **Dynamics Settings**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select dynamics settings from admin portal in ZoonInfo](media/zoominfo-select-dynamics-settings.png "Select dynamics settings from admin portal in ZoonInfo") 
+    :::image type="content" source="media/zoominfo-select-dynamics-settings.png" alt-text="Screenshot of selecting Dynamics Settings from the Admin Portal in ZoomInfo.":::
 
 5.	Select the **Mapping** tab and then choose the **Accounts**, **Contacts**, or **Leads** tab to map the fields.   
 
@@ -45,8 +36,7 @@ Before you start, be sure you've met the following prerequisites:
 
     You can view the default or configured corresponding field between the ZoomInfo app and Dynamics 365.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select the mapping tab to choose fields](media/zoominfo-select-mapping-tab-account.png "Select the mapping tab to choose fields") 
+    :::image type="content" source="media/zoominfo-select-mapping-tab-account.png" alt-text="Screenshot of selecting the Mapping tab to choose fields for Accounts.":::
     
 6.	Map the fields as required. Each column is described with its functionality in the following table:   
 
@@ -67,7 +57,7 @@ Before you start, be sure you've met the following prerequisites:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [Install ZoomInfo app](install-zoominfo-app.md)   
 

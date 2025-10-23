@@ -2,7 +2,6 @@
 title: "Account reports in Dynamics 365 Customer Engagement (on-premises)"
 description: "Use account insights to understand and improve your business. Learn about reports for account overviews, account distribution, and neglected accounts."
 ms.custom:
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 
@@ -12,8 +11,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: dd02756b-f2ec-40d8-8b46-3d164b7a9fc7
 caps.latest.revision: 26
-author: sericks007
-ms.author: sericks
+author: shwetamurkute
+ms.author: smurkute
 search.audienceType: 
   - enduser
 

@@ -2,9 +2,10 @@
 title: "IoT - Parent IoT Alerts workflow | MicrosoftDocs"
 description: "Learn how to link potential redundant IoT alerts to an existing parent alert in Dynamics 365 Customer Service."
 ms.date: 03/15/2024
-ms.topic: article
+ms.topic: conceptual
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ---
 
 # The IoT - Parent IoT Alerts workflow

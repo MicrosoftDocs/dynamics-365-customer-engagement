@@ -1,17 +1,17 @@
 ---
 title: FAQ for copilot features
 description: FAQ for copilot features in Dynamics 365 Customer Service.
-ms.date: 05/14/2024
-ms.topic: article
+ms.date: 06/26/2025
+ms.update-cycle: 180-days
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - admin
 ms.custom: 
-  - dyn365-customerservice
 ms.collection: bap-ai-copilot
 ---
-
 
 # FAQ for Copilot in Customer Service
 
@@ -19,31 +19,30 @@ This FAQ article helps answer the questions around the Copilot features in Custo
 
 ## In which Customer Service apps is Copilot available?  
 
-Copilot is available in Customer Service workspace, Customer Service Hub, and [custom apps](../administer/copilot-powerapps-settings.md). 
+Copilot is available in Copilot Service workspace, Customer Service Hub, and [custom apps](../administer/copilot-powerapps-settings.md). 
 
 ## Which are the copilot features available across apps?
 
 The following table describes the availability of Copilot features across apps.
 
-| Feature name | Customer Service workspace | Customer Service Hub | Custom apps |
+| Feature name | Copilot Service workspace | Customer Service Hub | Custom apps |
 | ------- | ----- | -------- | ----- | 
-| Copilot knowledge chat| ✔ | O | O |
-| Copilot for drafting emails| ✔ | O  |O  |
-| Case summarization| ✔ | O  | O  |
-| Copilot analytics| ✔ | O | O |
-| Conversation summarization| ✔ | ✖ | ✖ |
+| Copilot knowledge chat| Yes | Yes<sup>1</sup> | Yes<sup>1</sup> |
+| Copilot for drafting emails| Yes | Yes<sup>1</sup>  |Yes<sup>1</sup> |
+| Case summarization| Yes  | Yes<sup>1</sup> | Yes<sup>1</sup> |
+| Copilot analytics| Yes | Yes<sup>1</sup> | Yes<sup>1</sup> |
+| Conversation summarization| Yes | No | No |
 
+Yes<sup>1</sup>: Available, but configuration is required in Power Apps 
 
-✔ : Available out of the box 
-O  : Available, but configuration is required in Power Apps 
-✖ : Not available 
+Learn more in [Copilot feature availability across applications](/dynamics365/contact-center/use/copilot-feature-availability).
 
 ## Why does Copilot come back with a different response to the same exact input? 
 
 Copilot's response to the same question can vary due to multiple factors. Copilot is built on a generative AI language models. While measures are in place to minimize response variability, there's a possibility that Copilot might generate slightly different answers. Additionally, in multiturn questions, Copilot considers the previous question's context as input. Therefore, asking Copilot the same question at the start of the session versus in the middle can result in different responses.
 
 ## Can Copilot read tables and images in my knowledge articles?
- At this time, Copilot cannot read tables and images in knowledge articles. 
+ At this time, Copilot can't read tables and images in knowledge articles. 
 
 ## What are the limitations for webpages as sources? 
 
@@ -60,7 +59,11 @@ Yes. Copilot supports knowledge articles published in the supported languages. S
 - Revisit your copilot knowledge sources before you enable Copilot.
 - Restrict access to sources from which you don't want your copilot responses to be generated.
 
-### See also
+## Where can I access feedback for copilot?
+The feedback that you as a customer service representative provide on Copilot responses is stored in  
+the msdyn_copilotinteraction and msdyn_copilotevent tables in Dataverse. Learn more in [Retrieve verbatim feedback](../develop/download-copilot-transcript-data.md#retrieve-verbatim-feedback).
+
+### Related information
 
 [Responsible AI FAQ for Copilot in Customer Service](../implement/faq-responsible-ai-copilot.md)  
 [FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy)  

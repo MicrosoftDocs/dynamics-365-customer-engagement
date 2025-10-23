@@ -2,7 +2,6 @@
 title: "Control access to forms in Dynamics 365 Customer Engagement (on-premises)"
 description: "There are two ways to control access to main forms. Learn how to make a form inactive or assign security roles to make it available only to certain groups."
 ms.custom: 
-ms.date: 06/18/2019
 ms.reviewer: 
 
 ms.suite: 

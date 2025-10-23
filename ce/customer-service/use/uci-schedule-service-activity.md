@@ -1,16 +1,18 @@
 ---
-title: Schedule a service activity | Microsoft Docs
+title: Schedule a service activity
 description: How to schedule a service activity in Unified Interface-based Scheduling Service for Dynamics 365 Customer Service.
 ms.date: 10/05/2020
-ms.topic: article
-author: lalexms
-ms.author: laalexan
+ms.topic: how-to
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
   - enduser
 ms.custom: 
-  - dyn365-customerservice
+- bap-template
+- evergreen
 ---
 
 # Use the Service Schedule Activity form to schedule a service activity
@@ -58,7 +60,7 @@ Before beginning to create a service activity, make sure you have the Scheduler 
 
    The service activity appears as a color block on the Service calendar. 
 
-### See also  
+### Related information  
 
 [Unified Interface-based service scheduling overview](uci-scheduling-overview.md)  
 [Create or edit a service](uci-create-edit-service.md)  

@@ -2,7 +2,6 @@
 title: "Use solutions for customizations in Dynamics 365 Customer Engagement (on-premises)"
 description: "Create your own solution to manage your customizations. Learn why you shouldn't create apps and make customizations using the default solution."
 ms.custom: 
-ms.date: 02/28/2020
 ms.reviewer: 
 
 ms.suite: 

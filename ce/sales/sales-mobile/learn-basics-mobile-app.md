@@ -1,8 +1,8 @@
 ---
 title: Learn the basics of the Dynamics 365 Sales mobile app
 description: Learn the basic functions of the Dynamics 365 Sales mobile app.
-ms.date: 02/27/2023
-ms.topic: article
+ms.date: 05/02/2025
+ms.topic: concept-article
 author: sbmjais
 ms.author: shjais
 ms.reviewer: shjais 
@@ -10,14 +10,6 @@ ms.reviewer: shjais
 # Learn the basics
 
 Know the basic functions and the information displayed on the home screen of the Dynamics 365 Sales mobile app.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** |  Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](../security-roles-for-sales.md#primary-sales-roles)|
-
 
 ## Overview
 
@@ -100,7 +92,7 @@ To learn more, go to [View meetings](view-agenda.md).
 
 ### More options
 
-To navigate to other areas of the app, tap the **More** icon to view the site map or menu of the Sales Hub app or any other custom app module you are using. The following screen is a site map sample:
+To navigate to other areas of the app, tap the **More** icon to view the site map or menu of the Sales Hub app or any other custom app module you're using. The following screen is a site map sample:
 
 ![Sales hub site map.](media/sm-sales-hub-site-map.png "Sales hub site map")    
 
@@ -109,7 +101,7 @@ The **Recent** option, listed at the top of the site map, displays the records t
 Select the bidirectional arrows ![Bidirectional arrows icon.](media/bidirectional-arrows.png "bidirectional arrows icon") in the upper-right corner to switch to other menus such as App settings and Sales Insights settings.
 
 > [!NOTE]
-> If you've added icons for a custom table, they are not displayed on the sitemap when the app is viewed on an Android device. Instead, the default icons are displayed. Icons for custom tables are not supported on Android.
+> If you've added icons for a custom table, they aren't displayed on the sitemap when the app is viewed on an Android device. Instead, the default icons are displayed. Icons for custom tables are not supported on Android.
 
 ## Mobile app settings
 
@@ -120,7 +112,7 @@ To open the **Settings** panel, tap your profile picture at the upper left of th
 More information: [Dynamics 365 Sales mobile app settings](app-settings.md)
 
 
-### See also
+## Related information
 
 [View meetings](view-agenda.md)    
 [Open a record](open-record.md)

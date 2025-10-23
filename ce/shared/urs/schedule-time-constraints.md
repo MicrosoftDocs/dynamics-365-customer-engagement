@@ -1,29 +1,43 @@
-When scheduling an entity enabled for scheduling, set date and time parameters to control when to book the requirement.
+When [scheduling an entity enabled for scheduling](../../common-scheduler/schedule-new-entity.md), set date and time parameters to control when to book the requirement.
 
-The time parameter fields **Time From/To Promised** and **Time Window Start/End** all exist on the resource requirement entity. Use these fields when scheduling entities other than work orders.
+The time parameter fields **Time From/To Promised** and **Time Window Start/End** are available on the resource requirement entity. Use these fields when scheduling entities other than work orders.
 
 > [!NOTE]
-> Field Service doesn't support variable calendars, which limit scheduling to certain days and times. For example, if a customer requests completion of the work order on Monday, Wednesday, or Friday between 12:00 PM and 5:00 PM.  As a workaround, use notes to inform the dispatcher of the customer's preferences or [create booking rules](../../field-service/set-up-booking-rules.md) that use custom logic with JavaScript.
+> Field Service doesn't support variable calendars, which limit scheduling to certain days and times. For example, if a customer requests completion of the work order on Monday, Wednesday, or Friday between 12:00 PM and 5:00 PM. As a workaround, use notes to inform the dispatcher of the customer's preferences or [create booking rules](../../field-service/set-up-booking-rules.md) that use custom logic with JavaScript.
 
-## Schedule a requirement in a time frame
+## Schedule a requirement within a time frame
 
-Schedule a requirement to between a start and end date and time.
+1. In Field Service, open a work order.
 
-On the **Settings** tab of a work order, set the **Time From/To Promised** fields to define the date window in which a resource must arrive and complete the work. These values automatically populate the corresponding fields on the related resource requirement and vice versa.
+1. Set the **Promised window** fields to define the time window in which a resource must arrive and start the work. These values automatically populate the corresponding fields on the related resource requirement and vice versa.
 
 :::image type="content" source="../../field-service/media/work-order-time-window.png" alt-text="Screenshot of the time window preferences on a work order form.":::
 
-When searching for suitable resources to work on the requirements, the schedule assistant populates the filters accordingly. Resources available for the entire duration show as options.
+1. Select **Save & Close**.
+
+When searching for suitable resources to work on the requirements, the schedule assistant populates the filters accordingly. Resources available for the entire duration show as options. The time promised window needs to be within the search range (search start and search end) to show as a search result. If a value of the time promised window is missing, the system uses the other value. To return such results when searching, make sure the search range includes the time from promised plus the expected duration. If no value for the promised time value is provided, the fields are ignored when searching in the schedule assistant.
 
 ## Set a time zone for the requirement
 
-Define a time zone on the requirement to help dispatchers view schedule assistant results in the time zone of the customer. On a requirement, select **Modify Calendar** and choose a time zone from the dropdown.
+Define a time zone on the requirement to help dispatchers view schedule assistant results in the time zone of the customer.
 
-When you book the requirement, the start times of the schedule results will reflect the selected time zone.
+1. Open a requirement.
+
+1. Select **Modify Calendar** and choose a time zone from the dropdown.
+
+1. Select **Save & Close**.
+
+When you book the requirement, the start times of the schedule results reflect the selected time zone.
 
 ## Customize start and end date fields
 
-You can customize which fields serve as the start and end dates for the related requirement in the booking setup metadata. In the Resources area, under **Administration**, select **Booking Setup Metadata**. Select the entity name and go to the **Attribute Mapping** section to choose any date/time field you want to use.
+You can customize which fields serve as the start and end dates for the related requirement in the booking setup metadata.
+
+1. In the Resources area, under **Administration**, select **Booking Setup Metadata**.
+
+1. Select the entity name and go to the **Attribute Mapping** section to choose any date/time field you want to use.
+
+1. Select **Save & Close**.
 
 ## Next steps
 

@@ -1,7 +1,8 @@
 ---
 title: FAQ about natural language chat in Copilot 
 description: Get answers to frequently asked questions about the natural language chat capability in Copilot in Dynamics 365 Sales.
-ms.date: 12/01/2023
+ms.date: 09/12/2025
+ms.update-cycle: 180-days
 ms.custom:
  - responsible-ai-faqs
  - ai-gen-docs-bap
@@ -13,7 +14,7 @@ search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr01
 ---
 
 # FAQ about natural language chat in Copilot in Dynamics 365 Sales
@@ -26,7 +27,7 @@ The ability for users to ask questions in natural language to get accurate data 
 
 ## Data type supported
 
-Data that resides in tables is referred to as structured data. Data that's present in static documents, such as Word files, PDF files, and publicly available content, is referred to as unstructured data. This feature supports questions on structured data that is available within Dataverse.
+Data that resides in tables is referred to as structured data. Data that's present in static documents, such as Word files, PDF files, and publicly available content, is referred to as unstructured data. This feature supports questions on structured data that's available within Dataverse.
 
 ## How is Natural language chat intended to be used?
 
@@ -52,10 +53,10 @@ A user can inquire about sales records that are available within Dynamics 365, s
 - What is the phone number of account Adventure Works?
 - What is the address of account Adventure Works?
 - Show me the opportunity of Coho Winery?
-- Show me all opportunities owned by Amanda Donnelly
-- How many accounts have 50 or less employees with an annual revenue of more than two million dollars.
+- Show me all opportunities owned by Amanda Donnelly.
+- How many accounts have 50 or less employees with an annual revenue of more than two million dollars?
 - What are the accounts that don't have any opportunities?
-- What opportunities are expected to close this quarter with an estimated revenue of less than two million.
+- What opportunities are expected to close this quarter with an estimated revenue of less than two million?
 
 You aren't limited to the questions or scenarios in the preceding list. Think of the scenarios as patterns that Copilot  in Dynamics 365 Sales can process. All Dynamics 365 Sales tables that follow these patterns are enabled for this functionality.
 
@@ -63,21 +64,21 @@ You aren't limited to the questions or scenarios in the preceding list. Think of
 
 One of the key features of Copilot in Dynamics 365 Sales is the sales-specific chat experience that empowers sellers to get productive by providing any information required from CRM through a simple natural language chat interface. Sellers can use common sales terms and phrases to ask questions and get answers from the system, without having to navigate through multiple screens, exporting data and analyzing. This feature saves time and effort for sellers, allowing them to focus on their customers and prospects. The sales terms that Copilot supports are conversion rate, deal cycle, pipeline, deal size, win rate, and deal value. Here are some sample questions you could ask:
 
-- What is the conversion rate for opportunities belonging to the customer ‘Adventure Works’
-- What is the win rate for 'Kenny Smith’
-- Which account has the highest conversion rate
-- Which lead source has the highest conversion rate
-- Which marketing campaigns have generated leads that have highest conversion rates
-- What are top three campaigns sorted by conversion rates
-- What is the pipeline for ‘Adventure Works’
-- Show my current pipeline
-- What is the average deal size for successful opportunities
-- What is the average deal cycle time for successful opportunities
-- What is the average time to close an opportunity having a revenue of more than 2 million
-- Which product SKU has the longest conversion days
-- Show me my top 10 accounts by value
-- Which products were selling the most this month compared to last month
-- Which products are selling the most for customers having an annual revenue of more than 20 million
+- What is the conversion rate for opportunities belonging to the customer ‘Adventure Works’?
+- What is the win rate for 'Kenny Smith’?
+- Which account has the highest conversion rate?
+- Which lead source has the highest conversion rate?
+- Which marketing campaigns have generated leads that have highest conversion rates?
+- What are top three campaigns sorted by conversion rates?
+- What is the pipeline for ‘Adventure Works’?
+- Show my current pipeline.
+- What is the average deal size for successful opportunities?
+- What is the average deal cycle time for successful opportunities?
+- What is the average time to close an opportunity having a revenue of more than 2 million?
+- Which product SKU has the longest conversion days?
+- Show me my top 10 accounts by value.
+- Which products were selling the most this month compared to last month?
+- Which products are selling the most for customers having an annual revenue of more than 20 million?
 
 ## How was the feature evaluated? What metrics are used to measure performance?
 
@@ -97,3 +98,13 @@ The system doesn’t provide any setting or customization to the end user to twe
 - Use the record picker “/” to select the exact record.
 - Avoid asking for personal information and information for which you don’t have access to, based on your company permission settings. We honor the data permission setting of your company.
 - Have realistic expectations - While copilot can generate impressive responses, it's important to remember that it's not human. It may not always understand context perfectly or provide entirely accurate information.
+
+### Which languages are supported for natural language chat?  
+
+We're constantly working to add more languages to Copilot in Dynamics 365 Sales. View the list of supported languages for each Copilot feature in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
+
+
+## Related information
+
+[Use Copilot in Dynamics 365 Sales](use-sales-copilot.md)  
+[Copilot in Dynamics 365 Sales overview](copilot-overview.md)  

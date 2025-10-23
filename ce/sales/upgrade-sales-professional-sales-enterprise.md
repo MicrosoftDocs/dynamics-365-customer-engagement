@@ -1,8 +1,8 @@
 ---
 title: "Upgrade from Dynamics 365 Sales Professional to Dynamics 365 Sales Enterprise (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Follow the steps in this topic to upgrade from Dynamics 365 Sales Professional to Dynamics 365 Sales Enterprise."
-ms.date: 06/27/2022
-ms.topic: article
+ms.date: 04/06/2025
+ms.topic: upgrade-and-migration-article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -10,13 +10,6 @@ ms.reviewer: lavanyakr
 # Move from Dynamics 365 Sales Professional to Dynamics 365 Sales Enterprise 
 
 Learn the steps to upgrade from Sales Professional to Sales Enterprise.
-
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise and Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## Move from Sales Professional to Sales Enterprise 
 
@@ -34,57 +27,48 @@ The upgrade process involves the following steps:
 
 ## Purchase Dynamics 365 Sales Enterprise Edition subscription
 
-1.  Sign in to [Microsoft 365 admin center](https://admin.microsoft.com) with the Dynamics 365 account that has admin permissions.
+1. Sign in to [Microsoft 365 admin center](https://admin.microsoft.com) with the Dynamics 365 account that has admin permissions.
 
-2.  In the navigation pane, select **Purchase Services**, and then select the Dynamics 365 Sales Enterprise Edition tile. 
+1. In the left pane, select **Billing** > **Purchase Services**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select Dynamics 365 Sales Enterprise tile.](media/select-dynamics365-sales-enterprise-tile.png "Select Dynamics 365 Sales Enterprise tile") 
+1. Find **Dynamics 365 Sales Enterprise Edition**, and then select **Details**.
 
-3.  Select **Buy**, and then follow the steps to purchase new licenses. 
+1. In **Select license quantity**, select or enter the number of licenses to purchase.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select Buy.](media/buy-sales-enterprise-edition.png "Select Buy") 
-
-
+1. Select **Buy**, and then complete the purchase process.
 
 ## Assign licenses to your users
 
-After you’ve purchased the licenses, assign the licenses to users. 
+After you've purchased the licenses, assign the licenses to users. 
 
-1.	Go to Microsoft 365 admin center, and in the navigation pane, select **Users** > **Active users**.
+1.	Go to Microsoft 365 admin center, and in the left pane, select **Users** > **Active users**.
 
 2.	Select multiple users, and then select **Manage product licenses**. 
     
-    > [!div class="mx-imgBorder"]
-    > ![Assign licenses to multiple users.](media/assign-licenses-multiple-users.png "Assign licenses to multiple users")
+    :::image type="content" source="media/assign-licenses-multiple-users.png" alt-text="Screenshot of assigning licenses to multiple users.":::
 
-3.	Select **Replace existing product license assignments**, and then select **Next**. 
+3.	In **Manage product licenses** pane, select **Replace**, and then select the license for your Dynamics 365 Sales plan. 
 
-4.	Turn on the license for your Dynamics 365 Sales plan. 
+4.	Select **Save changes**, and then select **Done**.
 
-5.	Select **Replace**, and then select **Close** twice. 
-
-6.	Review the license status on the **Active users** page and make other assignments as needed. 
+5.	Review the license status on the **Active users** page and make other assignments as needed. 
 
 
 ## Install Dynamics 365 Sales Enterprise solution  
 
 To install the Sales Enterprise solution on a Power Platform environment with Dynamics 365 apps enabled:
 
-1.	Sign in to the Power Platform admin center at [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) as an admin (Dynamics 365 admin, Global admin, or Power Platform admin).
+1.	Sign in to the Power Platform admin center at [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) as an admin (Dynamics 365 admin or Power Platform admin).
 
 2. In the navigation pane, select **Environments**. 
 
 3.	Open the environment in which you want to install the Sales Enterprise solution, and select **Dynamics 365 apps**.
 
-   > [!div class="mx-imgBorder"] 
-   > ![Select Dynamics 365 apps resource.](media/resources-select-dynamics-365-apps.png "Select Dynamics 365 apps resource")
+    :::image type="content" source="media/resources-select-dynamics-365-apps.png" alt-text="Screenshot of selecting the Dynamics 365 apps resource.":::
 
 4.	On the command bar, select **Install app**.
 
-   > [!div class="mx-imgBorder"] 
-   > ![Select Install app.](media/select-install-app-dynamics365-apps-resource.png "Select Install app")
+    :::image type="content" source="media/select-install-app-dynamics365-apps-resource.png" alt-text="Screenshot of selecting the Install app option.":::
 
 5. In the **Install Dynamics 365 apps** panel, select 'Dynamics 365 Sales, Enterprise Edition app', and select **Next**.
 
@@ -95,13 +79,17 @@ After you complete these steps, your organization will be effectively upgraded t
 
 ## Delete the Dynamics 365 Sales Professional solution
 
-1.	Make sure that you have the System Administrator or System Customizer security role or equivalent permissions.
+1. Make sure that you have the System Administrator or System Customizer security role or equivalent permissions.
 
-2.	Sign in to Dynamics 365. 
+1. Sign in to Dynamics 365. 
 
-3.	Select **Settings** > **Solutions**. 
+1. Select **Settings** > **Advanced Settings**.
 
-4.	Select the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional solution and select **Delete**. 
+    The **Power Platform Environment Settings** page opens.
+
+1. In the left pane, select **Customization** > **Solutions**.
+
+1. Select the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional solution and select **Delete**. 
 
     > [!NOTE]
     > When you delete this solution, the Sales Pro app module is deleted, and any configuration specific to this app module such as its site map and form preferences are also lost.
@@ -111,7 +99,7 @@ After you complete these steps, your organization will be effectively upgraded t
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Dynamics 365 Licensing Update](/dynamics365/licensing/update)
 

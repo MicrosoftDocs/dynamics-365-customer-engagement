@@ -2,12 +2,11 @@
 title: "Ready-to-use business processes in Dynamics 365 Customer Engagement (on-premises)"
 description: "There are several ready-to-use business processes designed for common scenarios. Learn more about what these can help you do and how to add them."
 ms.custom: 
-ms.date: 04/30/2019
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: e9810459-224b-4bde-851a-e581cf5fb8a4

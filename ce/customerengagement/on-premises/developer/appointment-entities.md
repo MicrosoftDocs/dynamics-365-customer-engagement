@@ -2,7 +2,6 @@
 title: "Appointment entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Overview of the appointment entity, which represents a commitment over a time interval with start and end times and a duration."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

@@ -2,7 +2,6 @@
 title: "Create business process flow in Dynamics 365 Customer Engagement (on-premises)"
 description: "Follow these steps to create or edit a business process flow to standardize processes for your organization."
 ms.custom: 
-ms.date: 11/09/2018
 ms.reviewer: 
 
 ms.suite: 

@@ -2,7 +2,6 @@
 title: "Sample: Search for openings to schedule a resource (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Sample demonstrates how to find openings to schedule a resource by using the SearchRequest message."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

@@ -1,28 +1,30 @@
 ---
-title: FAQs about adding users to agent experience profile | MicrosoftDocs 
-description: Frequently Asked Questions about adding users to agent experience profiles
+title: FAQs about adding users to experience profile 
+description: Frequently Asked Questions about adding users to experience profiles.
 author: gandhamm 
 ms.author: mgandham
-ms.reviewer: neeranelli
-ms.topic: conceptual
-ms.date: 04/05/2023 
+ms.reviewer: mgandham
+ms.topic: concept-article
+ms.date: 06/27/2025
 ms.custom: bap-template 
 ---
 
-# FAQs about adding users to agent experience profile
+# FAQs about adding users to experience profile
 
-This article contains the frequently asked questions (FAQ) that you as an administrator might have when adding users to the custom agent experience profiles using the **Set as default** and **Set rank and roles** options in Customer Service admin center.
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+This article contains the frequently asked questions (FAQ) that you as an administrator might have when adding users to the custom experience profiles using the **Set as default** and **Set rank and roles** options in Copilot Service admin center.
 
 ## Can I set the profiles that are available out-of-the box as default profiles?
 
 No. The **Set as default** and **Set rank and roles** options aren't applicable to profiles that are available out-of-the-box.
 
-## Can I create agent experience profiles, customize them and move between environments using solutions?
+## Can I create experience profiles, customize them and move between environments using solutions?
 Yes. You can create and customize profiles in an environment, add them to a solution and then import them to other environments.
 
-## Why I can't I edit some of the custom agent experience profiles?
+## Why I can't I edit some of the custom experience profiles?
 
-You can't edit profiles that are imported from a managed solution. You can edit only the agent experience profiles that are from an unmanaged solution. Profiles with the lock icon indicate that they're exported from managed solutions and aren't editable.
+You can't edit profiles that are imported from a managed solution. You can edit only the experience profiles that are from an unmanaged solution. Profiles with the lock icon indicate that they're exported from managed solutions and aren't editable.
 
 ## Can I assign the profiles available out-of-the-box to roles or set them as default?
 
@@ -30,17 +32,17 @@ No. The **Set as default** and **Set rank and roles** options aren't applicable 
 
 ## Why do I see multiple profiles with the same rank?
 
-You can't create multiple profiles with the same rank from the Customer Service admin center. However, if  you've imported profiles created in different environments, you can have two or more profiles with the same rank. We recommend that you resolve the conflict from the source environments and then import the profiles.
+You can't create multiple profiles with the same rank from the Copilot Service admin center. However, if  you've imported profiles created in different environments, you can have two or more profiles with the same rank. We recommend that you resolve the conflict from the source environments and then import the profiles.
 
 ## Can I have multiple profiles marked as default?
 
-No. You can't have multiple default custom profiles when you're setting the default profile in Customer Service admin center.  However, if  you've imported profiles created in different environments, you might see multiple default profiles. We recommend that you resolve the issue in the source environments and then import the profiles.
+No. You can't have multiple default custom profiles when you're setting the default profile in Copilot Service admin center.  However, if  you've imported profiles created in different environments, you might see multiple default profiles. We recommend that you resolve the issue in the source environments and then import the profiles.
 
-### See also
+### Related information
 
-[ Add users to agent experience profiles](add-profile-default.md)<br>
-[Create and use agent experience profiles](create-agent-experience-profile.md)<br>
+[ Add users to experience profiles](add-profile-default.md)<br>
+[Create and use experience profiles](create-agent-experience-profile.md)<br>
 [Manage session template](session-templates.md)  
 [Overview of Dynamics 365 Productivity Tools](productivity-tools.md)  
-[Overview of channels in Omnichannel for Customer Service](../use/channels.md)  
+[Overview of channels in Dynamics 365 Contact Center](../use/channels.md)  
 [Overview of agent experience profiles](overview.md) 

@@ -1,8 +1,8 @@
 ---
 title: Customize the Add Products dialog
 description: Customize the **Add products dialog** so sellers can quickly identify and add products to opportunity, quote, order, or invoice records.
-ms.date: 12/27/2023
-ms.topic: article
+ms.date: 03/12/2025
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -19,21 +19,11 @@ searchScope:
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
-  - ai-seo-date:12/27/2023
+  - ai-seo-date:03/12/2025
 ---
 # Customize the Add Products dialog
 
 Customize the **Add products dialog** so that your sellers can see important product details while adding products to opportunity, quote, order, or invoice records in Dynamics 365 Sales.
-
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
-> [!IMPORTANT]
-> Customizations described in this topic must be done within a custom solution. For more information, see [Why you shouldn't use the default solutions to manage customizations](/power-platform/alm/use-solutions-for-your-customizations#why-you-shouldnt-use-the-default-solutions-to-manage-customizations)
 
 ## What can you customize?
 
@@ -174,8 +164,7 @@ By default, the search field in the **Add products dialog** searches the product
     > [!NOTE] 
     > Select only the text-based fields.
 
-    >[!div class="mx-imgBorder"]
-    >![Image of the Find by section in the right pane with the Edit find table column highlighted.](media\sales-hub-quick-find-view.png "Image of the Find by section in the right pane with the Edit find table column highlighted")
+    :::image type="content" source="media/sales-hub-quick-find-view.png" alt-text="Screenshot of the Find by section in the right pane with the Edit find table column highlighted.":::
 
 5. Select **Publish** to save and publish changes to the view.
     The changes are applicable to the product search in the **Add products dialog** of opportunity, quote, order, and invoice.
@@ -184,9 +173,11 @@ By default, the search field in the **Add products dialog** searches the product
 
 7. Search for a keyword and verify whether the search is returning matches from the newly added fields.
 
+---
+
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create a solution](/powerapps/maker/data-platform/create-solution)  
 [Choose and configure columns in model-driven app views](/powerapps/maker/model-driven-apps/choose-and-configure-columns)  

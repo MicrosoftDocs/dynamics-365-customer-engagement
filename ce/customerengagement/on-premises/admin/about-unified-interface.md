@@ -3,7 +3,6 @@ title: "Unified Interface in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how Unified Interface provides an optimal experience for any screen size, device, or orientation, then follow these steps to enable it."
 
 ms.custom: 
-ms.date: 03/29/2021
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -1,7 +1,7 @@
 ---
 title: Understand the up next widget on records
 description: Understand on how to use the up next widget to do activities on your records through sales accelerator.
-ms.date: 02/02/2024
+ms.date: 04/25/2025
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -13,25 +13,18 @@ ms.custom: bap-template
 
 The **Up next** widget displays activities that you can view and perform actions on records. 
 
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise. <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager.<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
 ## What is the Up next widget?
 
 Using the **Up next** widget, you can view and perform actions on activities on a record. The widget displays the current activity, upcoming activity, and completed activities. You can add these activities to a record manually or by using a sequence:
 
-- When a sequence is connected to a record, the steps are displayed to the owner of the record. If a team is the owwner of the record, the steps are displayed to all the users in that team. 
+- When a sequence is connected to a record, the steps are displayed to the owner of the record. If a team is the owner of the record, the steps are displayed to all the users in that team. 
 - When you have access to a record, you can create manual activities. These activities are displayed in the **Up next** widget as a current, upcoming, or completed activity, depending on their due dates. These activities are available to both you and the owner of the record.  
 
 To do actions on activities, see [Connect with customers by using a record or the Up next widget](connect-with-customers.md).
 
 The following image shows an example of the **Up next** widget.    
 
-> [!div class="mx-imgBorder"]
-> ![Up next widget.](media/sa-up-next-widget.png "Up next widget")    
+:::image type="content" source="media/sa-up-next-widget.png" alt-text="Screenshot of the Up next widget displaying current, upcoming, and completed activities.":::    
 
 1. **Current activity**: The current activity is a task that you must complete or skip to go to the next activity, which moves the record closer to completion. To perform an action such as making a phone call or sending an email, select the action icon displayed in the activity. More information: [Connect with customers by using a record or the Up next widget](connect-with-customers.md).   
 
@@ -47,8 +40,7 @@ The following image shows an example of the **Up next** widget.
 
      To view the completed activities list, select **Show completed**. The section expands to display the list of completed activities with details such as whether the activity was completed (with date and time) or was it skipped. You can't perform any actions on these tasks; they're view-only. The following image is an example of an expanded section of completed items.
 
-     > [!div class="mx-imgBorder"]
-     > ![View completed activities.](media/sa-view-completed-activities.png "View completed activities")   
+     :::image type="content" source="media/sa-view-completed-activities.png" alt-text="Screenshot of the completed activities section in the Up next widget.":::   
 
 ## Activity ownership  
 
@@ -71,7 +63,7 @@ To add manual activities, see [Track and manage activities](manage-activities.md
 
 The sequence preview gives you a complete overview of the sequence, including the progress and activities related to different paths. To preview a sequence, select the name of the sequence in the **Up next** widget. The sequence opens in a pane displaying the list of activities that have been defined within the sequence.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW16PET]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=96fc7570-a0c7-4529-820e-d6f6e77f7953]
 
 The following image shows an example of a sequence preview.
 
@@ -86,7 +78,7 @@ By analyzing this information, you can track the progress made throughout the se
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [What is the sales accelerator?](sales-accelerator-intro.md)  
 [Create and manage sequences](create-manage-sequences.md)  

@@ -1,24 +1,28 @@
 ---
-title: "Agents using Omnichannel for Customer Service app | MicrosoftDocs"
-description: "Learn about the Omnichannel for Customer Service app"
-ms.date: 06/18/2020
-ms.topic: article
+title: Representatives using Omnichannel for Customer Service app
+description: Learn about the Omnichannel for Customer Service app.
+ms.date: 04/21/2025
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
-# Agents using Omnichannel for Customer Service app
+# Representatives using Omnichannel for Customer Service app
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
+> [!IMPORTANT]
+> The Omnichannel for Customer Service agent-facing app is deprecated, and we recommend that you start using [Copilot Service workspace](../implement/csw-overview.md). Learn more in [Deprecations](../implement/deprecations-customer-service.md#omnichannel-for-customer-service-agent-facing-app-is-deprecated-and-removed-as-of-june-2024).
+
 ## Overview
 
-The Omnichannel for Customer Service application on a web browser provides a unified and consistent single-view experience for the agents to view conversation details, Customer information, and access Line-of-Business applications from within the Omnichannel for Customer Service app. 
-As an agent, you can use the app to manage the work items assigned, simultaneous customer sessions without losing the context of each session. You view the holistic data of the customer with the details of their previous interaction, which ensures you have all the available information to resolve the customer issue.
+The Omnichannel for Customer Service application on a web browser provides a unified and consistent single-view experience for the customer service representatives (service representatives or representatives) to view conversation details, Customer information, and access Line-of-Business applications from within the Omnichannel for Customer Service app. 
+As a representative, you can use the app to manage the work items assigned, simultaneous customer sessions without losing the context of each session. You view the holistic data of the customer with the details of their previous interaction, which ensures you have all the available information to resolve the customer issue.
 
 > [!Note]
 > - The omnichannel provisioning provides the Omnichannel for Customer Service app and is available to the users working with Chat for Dynamics and SMS.
-> - As of now, administrators or system cutomizers can't integrate third-party channels with Omnichannel for Customer Service app.
+> - As of now, administrators or system customizers can't integrate third-party channels with Omnichannel for Customer Service app.
 > - [!INCLUDE[cc-cookies-in-omnichannel](../../includes/cc-cookies-in-omnichannel.md)]
 
 ## In this section

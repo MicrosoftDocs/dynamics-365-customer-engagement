@@ -1,15 +1,15 @@
 ---
-title: "Unified Service Desk Guide | MicrosoftDocs"
-description: "Use this topic as a starting point to understand Unified Service Desk and its features. Also find useful links for configuring and administering the product."
-ms.date: 06/03/2022
-ms.topic: article
+title: Unified Service Desk Guide 
+description: Use this topic as a starting point to understand Unified Service Desk and its features. Also find useful links for configuring and administering the product.
+ms.date: 05/15/2025
+ms.topic: landing-page
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 
 # Unified Service Desk Guide
@@ -87,7 +87,7 @@ ms.custom:
 <tr>
 <td>
 <h2> Migrate </h2>
-<li><a href="admin/migrate-to-csw.md" data-raw-source="[Migrate to Customer Service workspace](admin/migrate-to-csw.md)">Migrate to Customer Service workspace</a></li>
+<li><a href="admin/migrate-to-csw.md" data-raw-source="[Migrate to Copilot Service workspace](admin/migrate-to-csw.md)">Migrate to Copilot Service workspace</a></li>
 <br> </br>
 <br> </br>
 </td>

@@ -1,10 +1,11 @@
 ---
-title: "Enable custom recalculation of SLA KPIs in Dynamics 365 Customer Service | MicrosoftDocs"
-description: "Learn how to perform custom recalculation of SLA KPIs in Dynamics 365 Customer Service."
-ms.date: 03/17/2023
-ms.topic: article
+title: Enable custom recalculation of SLA KPIs in Dynamics 365 Customer Service
+description: Learn how to perform custom recalculation of SLA KPIs in Dynamics 365 Customer Service.
+ms.date: 04/09/2025
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
@@ -18,7 +19,7 @@ ms.collection: get-started
 
 ## Introduction
 
-Time calculation in service-level agreements (SLAs) is dependent on SLA key performance indicators (KPIs) and input parameters. More information: [Time calculation of SLA KPIs](enable-sla-custom-time-calculation.md)
+Time calculation in service-level agreements (SLAs) is dependent on SLA key performance indicators (KPIs) and input parameters. Learn more in [Time calculation of SLA KPIs](enable-sla-custom-time-calculation.md).
 
 Changes in the associated customer service schedule and holiday schedule don't affect the existing SLA KPIs unless one of the following events occurs:  
 
@@ -34,9 +35,9 @@ You can trigger the recalculation of active SLA KPI instances that have a status
 > [!NOTE]
 > This doesn't affect the SLA KPI instances that have a status of **Paused**, **Cancelled**, **Succeeded**, or **Non-compliant**.
 
-To enable custom recalculation and create new SLA KPIs, you must set the integer value of the **Recalculate** parameter to **1** through custom plug-in code. By default, the integer value of the **Recalculate** parameter is **0**. You can set the integer value by creating custom plug-in code on the SLA's target entity and implementing the custom logic based on which the custom action will be initiated. More information: [Write a plug-in](/powerapps/developer/data-platform/write-plug-in)
+To enable custom recalculation and create new SLA KPIs, you must set the integer value of the **Recalculate** parameter to **1** through custom plug-in code. By default, the integer value of the **Recalculate** parameter is **0**. You can set the integer value by creating custom plug-in code on the SLA's target entity and implementing the custom logic based on which the custom action is initiated. Learn more in [Write a plug-in](/powerapps/developer/data-platform/write-plug-in).
 
-For example, if you want to recalculate the SLA KPIs that have a status of **In progress** or **Nearing Noncompliance**, on updating the **Case Type** field on the Case entity, you'll need to create a custom plug-in and register it on the Case update for the **Case Type** field. On updating the **Case Type** field, you'll need to call the custom action in your custom plug-in code. The previous SLA KPI instances will be canceled, and new instances will be created.
+For example, if you want to recalculate the SLA KPIs that have a status of **In progress** or **Nearing Noncompliance**, on updating the **Case Type** field on the Case entity, you need to create a custom plug-in and register it on the Case update for the **Case Type** field. On updating the **Case Type** field, you need to call the custom action in your custom plug-in code. The previous SLA KPI instances are canceled, and new instances are created.
 
 Following is an example of the plug-in code:
 
@@ -49,7 +50,7 @@ customEvaluation["Recalculate"] = 1;
 OrganizationResponse customEvaluationResponse = service.Execute(customEvaluation);
 
 ```
-### See also
+### Related information
 
 [Define service-level agreements](define-service-level-agreements.md)  
 [Apply SLAs](apply-slas.md#apply-slas)

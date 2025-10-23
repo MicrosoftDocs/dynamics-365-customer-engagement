@@ -1,32 +1,29 @@
 ---
 title: Create and manage data masking rules
-description: Learn how to create and manage data masking rules to block sensitive data in Omnichannel for Customer Service.
-ms.date: 12/06/2023
+description: Learn how to create and manage data masking rules to block sensitive data in Dynamics 365 Contact Center.
+ms.date: 09/30/2025
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 ms.custom: bap-template
 ms.topic: how-to
 ---
 
 # Create and manage data masking rules
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
+Use data masking to block sensitive data such as credit card information, social security numbers (SSN), and profanity in conversation messages. You can create a masking rule and define a [regular expression](/dotnet/standard/base-types/regular-expression-language-quick-reference) to identify the sensitive information and replace it with the masked characters. Any masked text in a conversation message is also masked in the conversation transcript. Data masking works for chat and asynchronous channels.
 
-Use data masking to block sensitive data such as credit card information, social security number (SSN), or even profanity in a conversation. You can create a masking rule and define a regular expression to identify the sensitive information and replace it with the masked characters. Any masked text in a conversation is also masked in the conversation transcript. Data masking works for chat and asynchronous channels.
-
-Masking rules can be configured to apply to messages sent by a customer, an agent, or both. You must make sure that the masking rules you want applied are set to **Active**; otherwise, they won't apply to the selections you make.
+Masking rules can be configured to apply to messages sent by a customer, a customer service representative (service representative or representative), or both. You must make sure that the masking rules you want applied are set to **Active**. If not, then they aren't applied to the selections you make.
 
    > [!div class=mx-imgBorder]
    > ![Data masking rules.](../media/general-masking-rules.png "Data masking rules")
 
 You can choose to:
 
-- **Mask private agent data from the customer**: Data the agent sends is masked for both the customer and agent for live chat and async channel messages.
-- **Mask private customer data from the agent**: Data the customer sends is masked for both the customer and agent for live chat, but only for the user interface of the agent when using async channels.
-
+- **Mask private agent data from the customer**: Data the service representative sends is masked for both the customer and the representative for live chat and async channel messages.
+- **Mask private customer data from the agent**: Data the customer sends is masked for both the customer and the  representative for live chat, but only for the user interface of the representative when using async channels.
 
 The following masking rules are provided out of the box:
 - **Credit Card**: Masks the credit card number, if provided in a message.
@@ -37,24 +34,14 @@ As an administrator, you can delete or modify the out-of-the-box masking rules a
 
 > [!NOTE]
 > - Only an administrator can access and edit data masking rules.
-> - Only 10 data masking rules, including the rules provided out of the box, can exist in Omnichannel for Customer Service.
+> - Only 10 data masking rules, including the rules provided out of the box, can exist in Dynamics 365 Contact Center.
 
 ## Create a data masking rule
 
    > [!div class=mx-imgBorder]
    > ![Create a masking rule.](../media/new-masking-rule.png "Create a masking rule")
 
-1. In Dynamics 365, go to one of the apps and complete the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    - In the site map, in **Agent experience**, select **Productivity**.
-   
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-      [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-     - In the site map, in **Advanced settings**, select **Agent experience**.
+1. In the site map of Copilot Service admin center, select **Productivity** in **Support experience**.
 
 1.	Select **Manage** for **Data masking**.
 
@@ -84,7 +71,7 @@ After a masking rule is created, you can edit, activate, deactivate, or permanen
 
 1.	Under **Masking rules**, select the ellipsis to see the options for managing an existing masking rule.
 
-2. To activate, deactivate, or delete a masking rule, select the rule, and then select the appropriate action from the list.
+2. To activate, deactivate, or delete a masking rule, select the rule, and then select the desired action from the list.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

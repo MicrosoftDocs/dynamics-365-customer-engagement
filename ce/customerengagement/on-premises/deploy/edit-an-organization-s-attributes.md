@@ -2,12 +2,11 @@
 title: "Edit an organization's attributes | Microsoft Docs"
 description: Learn how to edit organization attributes in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
-ms.date: 10/01/2018
 
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: ff791d05-326a-42be-a9fb-912a8bb497d0

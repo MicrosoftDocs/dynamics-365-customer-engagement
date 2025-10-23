@@ -3,17 +3,19 @@ title: Configure knowledge article schema mapping
 description: Learn how to configure knowledge article schema mapping as part of adding an integrated search provider for Dynamics 365 Customer Service.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 11/21/2023
+ms.date: 05/09/2025
 ms.custom: bap-template
 ---
 
 # Configure knowledge article schema mapping
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 As part of [adding an integrated search provider](add-search-provider.md#add-integrated-search-providers) in Customer Service, you need to tell the service how to ingest the knowledge articles it receives from the provider. You do that by selecting and configuring a knowledge article schema. You can't change the schema after you save the configuration.
 
-If you applied a language filter in the **Authentication and Testing** section, you must maintain the mapping for language locale either in the **JSON Schema** or in the **Knowledge article schema mapping** section. For more information on language locale values, go to: [Language (LanguageLocale) table/entity reference](/power-apps/developer/data-platform/reference/entities/languagelocale).
+If you applied a language filter in the **Authentication and Testing** section, you must maintain the mapping for language locale either in the **JSON Schema** or in the **Knowledge article schema mapping** section. Learn more about language locale values, in: [Language (LanguageLocale) table/entity reference](/power-apps/developer/data-platform/reference/entities/languagelocale).
 
 Select an option in the **Knowledge article schema** section:
 
@@ -28,7 +30,7 @@ Select and upload the file for metadata selection, and then select the meta tags
 
 1. Save the article locally as a **Web Page, HTML Only** file. Make sure the file name is fewer than 99 characters.
 
-1. In the Customer Service admin center site map, **Knowledge article schema** > **Field Mapping** section, upload the file by selecting **Choose file**.
+1. In the site map of Copilot Service admin center, **Knowledge article schema** > **Field Mapping** section, upload the file by selecting **Choose file**.
 
     All the meta tags found in your HTML file are listed in the **Meta tags settings** section.
 
@@ -46,7 +48,7 @@ Use an operation type to map the source property to the target.
 - **Operation types**: The mapping patterns that map the source article to the article attributes of the knowledge article entity. [Learn more about operation type mapping options.](#operation-type-mapping-options)
 - **Source property**: The value that you define for each operation type. For example, if you select the **Direct** operation type, you must select among the previously selected meta tags or the `HTML-Title` tag.
 
-1. In the Customer Service admin center site map, **Mapping** section, the mandatory knowledge article attributes are **Content**, **External Reference Id**, and **Title**. For each, select an [**Operation Type**](#operation-type-mapping-options) and a **Source Property**.
+1. In the site map of Copilot Service admin center, **Mapping** section, the mandatory knowledge article attributes are **Content**, **External Reference Id**, and **Title**. For each, select an [**Operation Type**](#operation-type-mapping-options) and a **Source Property**.
 
     Make sure the **External Reference Id** value is unique.
 
@@ -107,7 +109,7 @@ Sample HTML:
 	</div>
 	<div id="ms--content-well-notifications" data-bi-name="content-well-notification">
 	</div>
-	<p>Starting with the .NET Framework 4.5, Windows Identity Foundation (WIF) has been fully integrated into the .NET Framework. The version of WIF addressed by this topic, WIF 3.5, is deprecated and should only be used when developing against the .NET Framework 3.5 SP1 or the .NET Framework 4. For more information about WIF in the .NET Framework 4.5, also known as WIF 4.5</p>
+	<p>Starting with the .NET Framework 4.5, Windows Identity Foundation (WIF) has been fully integrated into the .NET Framework. The version of WIF addressed by this topic, WIF 3.5, is deprecated and should only be used when developing against the .NET Framework 3.5 SP1 or the .NET Framework 4. Learn more about WIF in the .NET Framework 4.5, also known as WIF 4.5</p>
 	<p>When implemented in a derived class, checks if the specified XML reader is positioned at a WS-Trust RequestSecurityToken element.</p>
 	<p><strong>Namespace:</strong> Microsoft.IdentityModel.Protocols.WSTrust<br/>
 	<strong>Assembly:</strong> Microsoft.IdentityModel (in Microsoft.IdentityModel.dll)</p>
@@ -170,7 +172,7 @@ where,
 
 [Learn more about schema details to build a metadata mapping template](../develop/int-search-metadata-schema.md).
 
-1. In the Customer Service admin center site map, **Knowledge article schema** > **JSON Schema** section, copy and paste your article properties and schema JSON in the field provided to you.
+1. In the site map of Copilot Service admin center, **Knowledge article schema** > **JSON Schema** section, copy and paste your article properties and schema JSON in the field provided to you.
 1. Select **Validate JSON**.
 
     If validation succeeds, you see a confirmation message. If validation fails, you see an error message that identifies the parameter that has an incorrect value.

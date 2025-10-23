@@ -2,7 +2,6 @@
 title: "Monitor workflow processes in Dynamics 365 Customer Engagement (on-premises)"
 description: "To monitor and manage workflow processes, you must locate the process, evaluate the status, and perform any actions necessary to address and fix issues."
 ms.custom: 
-ms.date: 04/30/2019
 ms.reviewer: 
 
 ms.suite: 

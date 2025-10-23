@@ -1,15 +1,15 @@
 ---
-title: "AccControl tag | MicrosoftDocs"
-description: "Learn about the AccControl tag that uses the IAccessible interface from Microsoft Active Accessibility."
-ms.date: 08/23/2017
-ms.topic: article
+title: AccControl tag 
+description: Learn about the AccControl tag that uses the IAccessible interface from Microsoft Active Accessibility.
+ms.date: 03/18/2025
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # AccControl tag
 The `AccControl` tag uses the [IAccessible](https://msdn.microsoft.com/library/accessibility.iaccessible\(v=vs.110\).aspx) interface from Microsoft Active Accessibility (MSAA). The AccControl tag has:  

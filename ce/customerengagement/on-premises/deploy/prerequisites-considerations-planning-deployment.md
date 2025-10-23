@@ -2,7 +2,6 @@
 title: "Prerequisites and considerations for planning your deployment of Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 description: Learn about the planning considerations with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "10/01/2018"
 
 ms.reviewer: ""
 ms.suite: ""

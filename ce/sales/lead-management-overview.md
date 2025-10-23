@@ -6,7 +6,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr 
 ms.topic: overview
 ms.collection: get-started 
-ms.date: 04/08/2023
+ms.date: 08/05/2025
 ms.custom: bap-template 
 ---
 
@@ -16,11 +16,12 @@ Leads are potential customers who have shown interest in your products or servic
 
 ## Configure lead management
 
-As an administrator, you can define the lead assignment rules, qualification experience, duplicate detection rules, lead scoring rules, and so on. These settings help your sales team to follow a streamlined process for managing leads.
+As an administrator, you can define the lead assignment rules, qualification experience, autonomous AI agent for research and engagement, duplicate detection rules, lead scoring rules, and so on. These settings help your sales team to follow a streamlined process for managing leads.
 
 - [Lead assignment rules](understand-lead-distributions-assignment-rules.md): Auto-assign leads to sellers based on certain rules. 
 
 - [Lead qualification experience](define-lead-qualification-experience.md): Give your sellers the flexibility to choose which records to create—account, contact, or opportunity—when a lead is qualified.  
+- [Autonomous AI agent for lead research and engagement](configure-sales-qualification-agent.md): Configure an AI agent to autonomously research and engage with leads effectively.
 
 - [Duplicate lead detection](enable-duplicate-lead-detection.md): Enable duplicate lead detection to help your sellers identify and address potential duplicate leads.  
 - [Predictive scoring rules](configure-predictive-lead-scoring.md): Help sellers increase the probability of winning a deal based on predictions from past data.
@@ -28,9 +29,10 @@ As an administrator, you can define the lead assignment rules, qualification exp
 
 ## Work with leads
 
-As a seller, you create leads, use predictive scores to improve the lead conversion, and qualify and convert leads to opportunities.
+As a seller, you create leads, work with leads handed over by agents, use predictive scores to improve the lead conversion, and qualify and convert leads to opportunities.
 
 - [Create a lead](create-edit-lead-sales.md): Use leads to keep track of business prospects.
-  
+- [Work on leads handed over by the Sales Qualification Agent (preview)](use-sales-qualification-agent.md)
 - [Use predictive scores](work-predictive-lead-scoring.md): Use the predictive lead scoring feature to prioritize your leads based on scores.
-- [Qualify and convert](qualify-lead-convert-opportunity-sales.md): Qualify a lead to convert it into an opportunity. 
+- [Qualify and convert](qualify-lead-convert-opportunity-sales.md): Qualify a lead to convert it into an opportunity.
+- [Use Copilot to be productive and efficient](copilot-summarize-records.md#lead-summary): Use Copilot to quickly get up to speed with your leads. Ask Copilot to summarize a lead or get the recent changes made to a lead.

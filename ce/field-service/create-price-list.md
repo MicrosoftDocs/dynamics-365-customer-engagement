@@ -1,7 +1,7 @@
 ---
 title: Use price lists
 description: Learn about using price lists in Dynamics 365 Field Service.
-ms.date: 05/08/2024
+ms.date: 05/12/2025
 ms.topic: how-to
 ms.author: jacoh
 author: jasonccohen
@@ -19,9 +19,7 @@ Define basic properties of the price list.
   
 1. In Field Service, change to the **Settings** area.
 
-1. In the **General** section, select **Price Lists**.
-
-1. Select **New**.
+1. In the **General** section, select **Price Lists**, and then select **New**.
 
 1. On the **General** tab, enter the following information:
 
@@ -34,7 +32,7 @@ Define basic properties of the price list.
 1. Select **Save**.
 
 > [!NOTE]
-> Organizations that use Field Service in combination with Dynamics 365 Project Operations find additional fields and related tabs on a price list record, some of them showing by default. *Context*, *Role price*, *Role price markups*, *Time Unit*, and *Category prices* are concepts which Project Operations introduces and aren't supported by the Field Service pricing and costing functionality.
+> Organizations that use Field Service in combination with Dynamics 365 Project Operations find more fields and related tabs on a price list record, some of them showing by default. *Role price*, *Role price markups*, and *Category prices* are concepts which Project Operations introduces but Field Service pricing and costing doesn't support.
 
 ## Add price list items  
 
@@ -48,7 +46,7 @@ Add products and services as price list items to the price list. For more inform
 
 1. On the **Pricing information** tab, enter the following information:
 
-   - **Pricing Method**: **Currency Amount**
+   - **Pricing Method**: Select **Currency Amount**.
    - **Amount**: The price of the product or service or the hourly rate for services.
 
 1. Select **Save**.
@@ -59,7 +57,7 @@ You can add more pricing options for products and services by creating **Field S
 
 1. Open a price list.
 
-1. Select **Related** > **Field Service Price List Item**.
+1. Select **Related** > **Field Service Price List Items**.
 
 1. Select **New Field Service Price List Item**.
 
@@ -81,7 +79,7 @@ You can add more pricing options for products and services by creating **Field S
 
 When [creating a work order](create-work-order.md), choose a price list. The price list can be entered manually or filled in automatically based on the billing account or the work order.
 
-:::image type="content" source="media/price-list-work-order.svg" alt-text="Screenshot of a work order with a highlight on the price list.":::
+:::image type="content" source="media/price-list-work-order.png" alt-text="Screenshot of a work order with a highlight on the price list.":::
 
 The selected price list automatically applies to all work order products and services. However, you can change it on the individual work order product or service.
 

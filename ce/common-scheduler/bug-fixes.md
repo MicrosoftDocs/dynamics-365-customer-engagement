@@ -1,10 +1,10 @@
 ---
 title: Version history for Universal Resource Scheduling
 description: See what's new and changed in the Universal Resource Scheduling solution.
-ms.date: 05/17/2024
+ms.date: 06/06/2024
 ms.reviewer: mhart
 ms.subservice: common-scheduler
-ms.topic: conceptual
+ms.topic: release-notes
 author: m-hartmann
 ms.author: mhart
 ---

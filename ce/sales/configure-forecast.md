@@ -1,8 +1,8 @@
 ---
 title: Configure forecasts in your organization
 description: Learn how to configure forecasts based on revenue or quantity to predict how much revenue your sales team will generate in a given time frame.
-ms.date: 03/27/2024
-ms.topic: article
+ms.date: 04/10/2025
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -27,13 +27,6 @@ ms.custom:
 A forecast helps your organization predict how much revenue your sales team generates in a given time frame. When done correctly, forecasting can play a significant role in your company's success.  
 
 [!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>For more information, see [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/). |
-| **Security roles** | System Administrator or Forecast Manager <br> For more information, see [Predefined security roles for Sales](security-roles-for-sales.md).|
 
 ## How does forecasting help organizations?
 
@@ -91,11 +84,11 @@ A ready-to-publish sample forecast configuration is available to you. Use the sa
 
 **To limit access to the forecast**
 
-1. Go to **Permissions** and select the appropriate security roles.
+- Go to **Permissions** and select the appropriate security roles.
 
 **To make the forecast available to users in the hierarchy**
 
-1. Go to **Activate & add quotas** and select **Activate forecast**.
+- Go to **Activate & add quotas** and select **Activate forecast**.
 
 
 ## Find your forecasts
@@ -112,7 +105,11 @@ In the **Opportunity** form, **Forecast Category** appears above **Description**
 
 - Forecast category options include **Won** and **Lost**. If an opportunity is closed as **Won** or **Lost**, the **Opportunity Forecast Category Mapping Process** out-of-the-box workflow automatically changes the forecast category to match.
 
-- To view the **Opportunity Forecast Category Mapping Process** workflow, go to **Settings** > **Process Center** > **Processes** and select the **All Processes** view. Search for and open the **Opportunity Forecast Category Mapping Process** workflow. You can customize or deactivate the workflow according to your organization's requirements.
+- To view the **Opportunity Forecast Category Mapping Process** workflow:
+    1. In the sales app, go to **Settings** > **Advanced Settings**. 
+    1. Go to **Process Center** > **Processes**, and then select **Processes** on the page. 
+    1. Select the **All Processes** view. 
+    1. Search for and open the **Opportunity Forecast Category Mapping Process** workflow. You can customize or deactivate the workflow according to your organization's requirements.
 - Are you using a custom option set instead of forecast category? You need to create a workflow to automatically sync the opportunity status with your option set to make sure that the projection is accurate. To learn more, see [Create a cloud flow in Power Automate](/power-automate/get-started-logic-flow).
 
 If you don't want to see the forecast category in the opportunity form, you need to customize the form. You can't use the **Visible by default** option to hide it. To learn more, see [Unable to hide forecast category field in opportunity forms](./ts-forecasts.md#hide_forecast_category_field).
@@ -134,7 +131,7 @@ If you don't want to see the forecast category in the opportunity form, you need
 </td></tr>
 </table>
 
-### See also
+## Related information
 
 [Blog: Tips for setting up sales forecasting in Dynamics 365 Sales](https://cloudblogs.microsoft.com/dynamics365/it/2020/11/23/tips-for-setting-up-sales-forecasting-in-dynamics-365-sales/)  
 [System and application users who can push data to Dataverse](/power-platform/admin/system-application-users)  

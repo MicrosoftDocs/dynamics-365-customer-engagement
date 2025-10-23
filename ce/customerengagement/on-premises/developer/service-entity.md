@@ -2,7 +2,6 @@
 title: "Service entity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The Service entity represents a service made available to a customer, with attributes that include the standard duration of the service, when the service is offered, and its required resources."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

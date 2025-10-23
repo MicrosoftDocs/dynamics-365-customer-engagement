@@ -6,7 +6,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.collection: get-started
-ms.date: 09/13/2023
+ms.date: 03/11/2025
 searchScope:
   - D365-App-msdynce_saleshub
   - D365-Entity-territory
@@ -31,13 +31,6 @@ Organizations can create a model and visualize their sales territories in a hier
 > - For a new organization that provisions Dynamics 365 Sales, the territory hierarchical relationship will be available and enabled by default.
 > - For existing customers upgrading to the latest release, if the organization doesn't already have a hierarchical relationship created for the Territory table, the hierarchical relationship will be available and enabled. If the organization has a hierarchical relationship created for territory, the new out-of-the-box territory hierarchical relationship will be available but not enabled.
 
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Sales Manager, Vice President, CEO-Business Manager, System Administrator, or System Customizer <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## Create a sales territory
 
 Create a sales territory to define a geographical area for your business. For example, you can create a sales territory for a city, state, or country/region. You can also create a sales territory for a specific industry or product line.
@@ -51,16 +44,16 @@ Create a sales territory to define a geographical area for your business. For ex
 
 4. In the sales territory form, fill in your information.
 
-   a. **Name**. Enter the geographical name for the territory such as the name of a city, country/region, or state.
+   a. **Name**: Enter the geographical name for the territory such as the name of a city, country/region, or state.
 
-   b. **Manager**. Select the user who manages the territory. This person would typically assign leads to salespeople.
+   b. **Manager**: Select the user who manages the territory. This person would typically assign leads to salespeople.
 
     > [!Important]
     > You can't allocate the same user to multiple territories. If you need to assign a user to a larger area (more than one existing territory), create a new territory that includes the existing territories, and then assign the user to that new territory.
   
-   c.  **Parent**. Select a parent territory. The current territory will be added as a child territory to the selected territory. For example, If you are creating sales territories for California and Washington, you can add the United States of America as a parent so that a parent-child relationship is created between the sales territories and the parent territory.  
+   c.  **Parent**: Select a parent territory. The current territory will be added as a child territory to the selected territory. For example, If you are creating sales territories for California and Washington, you can add the United States of America as a parent so that a parent-child relationship is created between the sales territories and the parent territory.  
 
-   d. **Description**. Enter any details that you'd like to include for this territory, for example, "Sales territory created for education and training."
+   d. **Description**: Enter any details that you'd like to include for this territory, for example, "Sales territory created for education and training."
 
 5. Save the changes.
 
@@ -85,7 +78,7 @@ Add salespeople as members of a territory to assign them the sales and revenue o
 > [!TIP]
 >  To make your salesperson's job easier, you can also set a default price list for a territory. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define product pricing with price lists and price list items](create-price-lists-price-list-items-define-pricing-products.md)  
   
-### See also  
+## Related information  
 
 [Configure forecasts in your organization](configure-forecast.md)  
 [Define and track your sales goals](goals-overview.md)  

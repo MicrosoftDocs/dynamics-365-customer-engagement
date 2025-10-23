@@ -1,7 +1,7 @@
 ---
 title: Get started with Field Service in Teams (frontline workers)
 description: Learn how to set up the Dynamics 365 Field Service app in Teams for field technicians and other frontline workers to manage work orders.
-ms.date: 04/03/2024
+ms.date: 08/29/2025
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -11,6 +11,8 @@ ms.subservice: m365-integrations
 ---
 
 # Get started with Field Service in Teams (frontline workers)
+
+[!INCLUDE [m365-fs-deprecate](../includes/microsoft365-field-service-deprecation.md)]
 
 The Dynamics 365 Field Service app for Teams is designed to help frontline workers manage their work orders. To get started using the Field Service app in Teams, install the app, then sign-in and select your environment.
 

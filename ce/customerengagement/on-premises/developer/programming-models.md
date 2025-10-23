@@ -2,7 +2,6 @@
 title: "Programming models (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Dynamics 365 Customer Engagement (on-premises) offers several programming models designed to give you the flexibility to decide what works best for your needs."
 ms.custom: 
-ms.date: 03/29/2019
 ms.reviewer: pehecke
 
 ms.suite: 

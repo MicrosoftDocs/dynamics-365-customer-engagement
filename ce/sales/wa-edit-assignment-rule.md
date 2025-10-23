@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 08/11/2023
+ms.date: 03/07/2025
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
@@ -18,13 +18,6 @@ ms.custom:
 To modify your process for automatically assigning leads, opportunities, or insights to sellers, you can update the conditions that you've defined in the rule.
 
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/), or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) |
-| **Security roles** | [System Administrator, Sequence Manager, or Sales Manager](security-roles-for-sales.md) |
 
 ## Edit an assignment rule
 
@@ -46,7 +39,7 @@ Your changes are applied to records that are connected to the segment going forw
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md)
 - [Prioritize assignment rules](wa-change-priority-assignment-rule.md)

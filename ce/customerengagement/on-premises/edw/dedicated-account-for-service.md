@@ -3,7 +3,6 @@ title: "We recommend a dedicated domain user account for this Microsoft Dynamics
 description: Environment diagnostics warning that a dedicated domain user account is recommended as the service identity.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

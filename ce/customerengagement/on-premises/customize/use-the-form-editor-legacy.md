@@ -2,12 +2,11 @@
 title: "Edit navigation in a form with Dynamics 365 Customer Engagement (on-premises)"
 description: "Navigation within a form allows users to view lists of related records. In the form editor, you can override relationships or include navigation links."
 ms.custom: 
-ms.date: 11/09/2021
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps

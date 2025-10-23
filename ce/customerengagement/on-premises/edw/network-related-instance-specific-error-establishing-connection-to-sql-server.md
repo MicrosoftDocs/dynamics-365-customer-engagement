@@ -3,7 +3,6 @@ title: "A network-related or instance-specific error occurred while establishing
 description: Environment diagnostics warning that there were connection issues with the SQL Server.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

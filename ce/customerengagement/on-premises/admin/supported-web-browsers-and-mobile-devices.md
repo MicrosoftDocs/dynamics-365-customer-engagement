@@ -2,7 +2,6 @@
 title: "Supported browsers for Dynamics 365 Customer Engagement (on-premises)"
 description: "Access model-driven apps with the most recent versions of Microsoft Edge, Chrome, Firefox, and Safari. Internet Explorer is supported but not recommended."
 ms.custom: 
-ms.date: 01/07/2021
 ms.reviewer: 
 
 ms.suite: 

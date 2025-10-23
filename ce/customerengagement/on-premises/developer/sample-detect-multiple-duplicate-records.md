@@ -2,7 +2,6 @@
 title: "Sample: Detect multiple duplicate records | MicrosoftDocs"
 description: "Sample demonstrates how to detect and log multiple duplicate records for a specified entity type."
 keywords: 
-ms.date: 10/31/2017
 
 ms.custom: 
 ms.topic: sample
@@ -22,7 +21,7 @@ search.audienceType:
 
 # Sample: Detect multiple duplicate records
 
-This sample shows how to detect and log multiple duplicate records for a specified entity type. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/DetectMultipleDuplicateRecords).
+This sample shows how to detect and log multiple duplicate records for a specified entity type. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/DetectMultipleDuplicateRecords).
 
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]

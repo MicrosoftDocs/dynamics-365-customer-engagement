@@ -1,8 +1,8 @@
 ---
 title: "Work on LinkedIn-related activities defined in sequences"
 description: "Work on LinkedIn-related activities defined for sequences in the sales accelerator to display steps in the work list and Up next widget."
-ms.date: 10/26/2021
-ms.topic: article
+ms.date: 06/26/2025
+ms.topic: concept-article
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -10,13 +10,6 @@ ms.reviewer: udag
 # Work with LinkedIn activities
 
 You can use LinkedIn-related activities that have been defined for sequences in the sales accelerator to display steps in the work list and **Up next** widget.
-
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
 
 ## What are LinkedIn activities?
 
@@ -45,8 +38,7 @@ When the action is selected, the **LinkedIn research** pane opens on the right s
 
 The following image is an example of the **LinkedIn research** side pane:
  
->[!div class="mx-imgBorder"]
->![LinkedIn research side pane.](media/sa-linkedin-research-side-pane.png "LinkedIn research side pane")
+:::image type="content" source="media/sa-linkedin-research-side-pane.png" alt-text="Screenshot of the LinkedIn research side pane in Dynamics 365 Sales.":::
 
 For more information on contacts and accounts, go to [Leads Module References](/linkedin/sales/display-services/leads-screenshots) and [Accounts Module References](/linkedin/sales/display-services/accounts-screenshots), respectively.
 
@@ -66,8 +58,7 @@ When the action is selected, the **Find intro person** pane opens on the right s
 
 The following image is an example of the **Get introduced** tab on the **Find intro person** side pane:
 
->[!div class="mx-imgBorder"]
->![LinkedIn Get introduced tab on the Find intro person side pane.](media/sa-linkedin-get-introduced-side-pane.png "LinkedIn Get introduced tab on the Find intro person side pane") 
+:::image type="content" source="media/sa-linkedin-get-introduced-side-pane.png" alt-text="Screenshot of the LinkedIn Get introduced tab on the Find intro person side pane.":::
 
 For more information on customer introductions, go to [Get Introduced](/linkedin/sales/display-services/leads-screenshots#get-introduced).
 
@@ -87,8 +78,7 @@ When the action is selected, the **Connect via LinkedIn** pane opens in the lowe
 
 The following image is an example of the **Connect** message side pane:
 
->[!div class="mx-imgBorder"]
->![LinkedIn connect side pane.](media/sa-linkedin-connect-side-pane.png "LinkedIn connect side pane") 
+:::image type="content" source="media/sa-linkedin-connect-side-pane.png" alt-text="Screenshot of the LinkedIn connect side pane in Dynamics 365 Sales.":::
 
 For more information on connecting with a customer, go to [Connect](/linkedin/sales/display-services/leads-screenshots#connect).
 
@@ -111,12 +101,11 @@ When the action is selected, the **Send InMail** pane opens in the lower-right c
 
 The following image is an example of the **Send InMail** side pane:
 
->[!div class="mx-imgBorder"]
->![LinkedIn Send InMail side pane.](media/sa-linkedin-send-inmail-side-pane.png "LinkedIn Send InMail side pane") 
+:::image type="content" source="media/sa-linkedin-send-inmail-side-pane.png" alt-text="Screenshot of the LinkedIn Send InMail side pane in Dynamics 365 Sales.":::
  
 For more information on sending InMail, go to [Send an InMail Message](https://www.linkedin.com/help/linkedin/answer/437).
 
-### See also
+## Related information
 
 [Add LinkedIn activities to sequence](linkedin-activities-sequence.md)
 

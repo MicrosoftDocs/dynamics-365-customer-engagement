@@ -3,7 +3,7 @@ title: "Example of going offline with Dynamics 365 for Outlook | MicrosoftDocs"
 description: Learn about working in the offline mode of Dynamics 365 for Outlook by setting up and using data filters.
 ms.custom: 
 ms.date: 01/11/2016
-ms.reviewer: 
+ms.reviewer: smurkute 
 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,8 +17,8 @@ applies_to:
   - Dynamics CRM Online
 ms.assetid: f622fe69-14b3-44e0-a4eb-093959910c70
 caps.latest.revision: 35
-author: mduelae
-ms.author: mkaur
+author: shwetamurkute
+ms.author: bharavar
 search.audienceType: 
   - admin
   - customizer

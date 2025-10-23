@@ -1,8 +1,8 @@
 ---
 title: Use email engagement to view message interactions
-description: Learn how to use email engagement in Dynamics 365 Sales to track your customers' interactions with your messages, such as selected links, opened attachments, and replies, and to get alerts to help you remember to follow up.
-ms.date: 02/14/2024
-ms.topic: conceptual
+description: Learn how to use email engagement in Dynamics 365 Sales to track customer interactions with your messages, and to get alerts to help you remember to follow up.
+ms.date: 01/23/2025
+ms.topic: concept-article
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -11,13 +11,6 @@ ms.reviewer: udag
 # Use email engagement to view message interactions
 
 Email engagement in Dynamics 365 Sales tracks your customers' interactions with your messages. You can learn whether they selected a link, opened an attachment, or sent a reply. You can also get alerts to help you remember to follow up with your customers.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | [Any primary sales role](security-roles-for-sales.md#primary-sales-roles) |
 
 ## Prerequisites
 
@@ -46,7 +39,7 @@ Some features of email engagement might be visible even when the feature is turn
 
 Review the following consideration before you use email engagement:
 
-- An email is followed only if the recipients' list contains account, contact, or lead records in the **To** or **CC** fields. If other types of records are added to the To and CC fields, the email can't be followed. In such cases, a message is displayed stating that the email can't be followed as the recipient list doesn’t contain account, lead, or contact records.
+- An email is followed only if the recipients' list contains account, contact, or lead records in the **To** or **CC** fields. If other types of records are added to the **To** and **CC** fields, the email can't be followed. In such cases, a message is displayed stating that the email can't be followed as the recipient list doesn't contain account, lead, or contact records.
 
 ## View email engagement history
 
@@ -54,19 +47,18 @@ The status, interaction statistics, and key performance indicators (KPIs) for yo
 
 ### Email history in the Activities column <a name="COLAhistory"></a>
 
-After you save or send a message, it appears in the **Activities** list for its **Regarding** record, which is usually the record you were viewing when you composed it. In some cases, it may be a related record.
+After you save or send a message, it appears under the record's **Timeline** section and **Activities** tab. The record is usually the one that you were viewing when you composed the message. In some cases, it might be a related record.
 
 :::image type="content" source="media/email-messages-activities-list.png" alt-text="Screenshot of email messages in the Activities list.":::
 
-Followed messages show their current interaction status on their tile in the **Activities** list. Use the buttons in the upper-right corner of an email tile to expand its content and interaction history right in the list or to open the full message page.
+Followed messages show their current interaction status on their tile. Use the buttons in the upper-right corner of an email tile to perform more actions, such as open record, forward, reply, or reply all. To view the full message page, select **View more**.
 
 ### Email KPIs in the emails list
 
 You can view the number of opens, attachment views, link clicks, and replies for followed messages in the list of emails your sales organization has sent.
 
 1. Go to **Sales** > **Activities**.
-
-1. In the list at the top of the page, select **Email** > **All Followed Emails**.
+1. From the view selector, select **Email** > **All Followed Emails**.
 
 :::image type="content" source="media/email-kpi-email-list.png" alt-text="Screenshot of email KPIs in an email list.":::
 
@@ -76,44 +68,50 @@ To open a read-only view of the details of a delivered message, select its subje
 
 :::image type="content" source="media/email-message-recipient-activity.png" alt-text="Screenshot of email message details.":::
 
-The KPIs at the top of the timeline show the total opens, attachment views, clicks, and replies that have been recorded for the message. The timeline shows a symbol for each interaction event, with the newest at the top, and a few details about each event.
+The KPIs at the top of the timeline show the total opens, attachment views, clicks, and replies that have been recorded for the message. The timeline shows the events in chronological order, with the newest at the top. For each type of event, only the most recent and first occurrences are shown. For example, if a message was opened multiple times, only the most recent open and the first open are displayed.
 
 ### Template results and recommendations in the template list <a name="TemplateList"></a>
 
 You can view the performance of your email templates, including the reply rate, open rate, the number of times they've been used, and whether they're recommended or not.
 
-Go to **Settings** > **Business** > **Templates**, and then select **Email Templates**.
+1. In the sales app, go to **Settings** > **Advanced Settings**.
+1. Go to **Business** > **Templates**, and then select **Email Templates**.
 
-:::image type="content" source="media/email-template-list.png" alt-text="Screenshot  of KPIs in the email templates list.":::
+:::image type="content" source="media/email-template-list.png" alt-text="Screenshot of the email templates list.":::
 
 ## Understand email interaction history
 
-Usually when you send an email, you don't know if it was opened or read unless the recipient chooses to write back to you. That's because email was created to simulate traditional mail and wasn't designed with response tracking in mind. Dynamics 365 Sales uses special techniques to work around this limitation and provide the message-following features in email engagement.
+Usually when you send an email, you don't know if it was opened or read unless the recipient chooses to write back to you. The reason is that email was created to simulate traditional mail and wasn't designed with response tracking in mind. Dynamics 365 Sales uses special techniques to work around this limitation and provide the message-following features in email engagement.
 
 - **Find out when your message was opened**: When you send a followed email message from Dynamics 365 Sales, the system generates a uniquely named, transparent, one-pixel GIF and adds it to the message as a linked image. This invisible GIF, along with any other images you add to the message, are stored in Dynamics 365. They're fetched when the recipient opens the message and chooses to download its images. When a unique GIF is requested, Dynamics 365 Sales registers that the associated message was opened.
 
     We recommend that you always include images in your messages, like a company logo or an arresting illustration, because it motivates recipients to download them. You won't know they've opened the message if images aren't loaded.
 
-- **Find out when each link was clicked**: When you send a followed email message from Dynamics 365 Sales, the system replaces each of its hyperlinks with a unique redirect link that points to Dynamics 365. Each redirect link includes an ID that uniquely identifies both the message that contains it and the URL of the original link target. When Dynamics 365 receives the link request, it logs the click and then redirects the click to its original address so that the recipient gets the correct information with little or no delay.
+- **Find out when a link was clicked**: When you send a followed email message from Dynamics 365 Sales, the system replaces each of its hyperlinks with a unique redirect link that points to Dynamics 365. Each redirect link includes an ID that uniquely identifies both the message that contains it and the URL of the original link target. When Dynamics 365 receives the link request, it logs the click and then redirects the click to its original address so that the recipient gets the correct information with little or no delay.
 
-- **Find out when each attachment was opened**: When you add a followed attachment to a message, the file isn't attached directly as with a standard email. Instead, it's stored on the OneDrive for Business share that's used by Dynamics 365 and added to the message as a link. As with followed links, when a recipient clicks to download the attachment, Dynamics 365 notes the click and the time. Your recipients may even prefer to receive attachments as links rather than files because your messages take up much less room in their inbox.
+    If multiple links are available in a message, you can't determine which link was clicked. However, the total number of clicks is recorded.
 
-    You can mix followed and unfollowed attachments in a single email. That can be important if you're sending sensitive files that you don't want to save in OneDrive for Business.
+- **Find out when an attachment was opened**: When you add a followed attachment to a message, the file isn't attached directly as with a standard email. Instead, it's stored in the OneDrive for work or school share that's used by Dynamics 365 and added to the message as a link. As with followed links, when a recipient clicks to download the attachment, Dynamics 365 notes the click and the time. Your recipients might even prefer to receive attachments as links rather than files because your messages take up much less room in their inbox.
+
+    If multiple attachments are available in a message, you can't determine which attachment was opened. However, the total number of opened attachments is recorded.
+
+    You can mix followed and unfollowed attachments in a single email. This capability can be important if you're sending sensitive files that you don't want to save in OneDrive for work or school.
 
 Actions that are performed on email are stored in Microsoft Azure Storage. Azure Storage is unique for each organization. If an organization is restored to another organization, the history of the email actions in the previous organization isn't carried over to the restored organization.
 
 > [!IMPORTANT]
-> You should treat all email interaction data as approximations. The system can only register an email-open event if the recipient also downloads the message's images, including the invisible GIF. The actual number of opens could be larger than the number recorded in Dynamics 365 Sales. Similarly, if images are cached, which is typical for web-based email clients, then subsequent opens may not be reported to Sales.
+> You should treat all email interaction data as approximations. The system can only register an email-open event if the recipient also downloads the message's images, including the invisible GIF. The actual number of opens could be larger than the number recorded in Dynamics 365 Sales. Similarly, if images are cached, which is typical for web-based email clients, subsequent opens might not be reported to Sales.
 
-## Considerations for email count 
+## Considerations for email count
 
-Email engagement provides valuable insights into your emails, but false-positive might occur due to spam filters and other mechanisms that are implemented by your organization. Therefore, email count might not be accurate and should be used to determine the trends rather than an exact measure whether a prospect has read a specific message. Here are some considerations that you must know:  
-- For security reasons, your organization might configure outgoing mail scanning, and these scans may register as email opens, particularly for emails containing hyperlinks or attachments. This could be a reason why multiple emails appear to be opened simultaneously, especially when sent to various recipients across different organizations.  
-- Certain Email Service Providers (ESPs) scan outbound messages, primarily targeting new mailboxes, those with a recent increase in mailing activity, and mailboxes flagged for suspicious or spam-like behavior. Also, ESPs conduct random scans on a temporary basis for a portion of mailboxes. Typically, users cannot configure this process, which serves to deter spammers from exploiting their platform.
-- A third-party integration or extension scans your outbound messages for spam or internal reporting. Each time an email is opened, even by a scanning or tracking tool, it registers as an open event. 
-- Recipient spam filters might scan and open your emails that you send and this might be counted as open during the security scanning process.
+Email engagement provides valuable insights into your emails, but false positives might occur due to spam filters and other mechanisms that your organization implements. Therefore, email count might not be accurate and should be used to determine the trends rather than an exact measure whether a prospect has read a specific message. Here are some considerations that you must know:
 
-### See also
+- For security reasons, your organization might configure outgoing mail scanning, and these scans might register as email opens, particularly for emails containing hyperlinks or attachments. This behavior could be a reason why multiple emails appear to be opened simultaneously, especially when sent to various recipients across different organizations.
+- Certain email service providers (ESPs) scan outbound messages. The scans target primarily new mailboxes, mailboxes with a recent increase in mailing activity, and mailboxes that were flagged for suspicious or spam-like behavior. In addition, ESPs do random scans on a temporary basis for a portion of mailboxes. Typically, users can't configure this process, which serves to deter spammers from exploiting their platform.
+- A third-party integration or extension scans your outbound messages for spam or internal reporting. Each time an email is opened, even by a scanning or tracking tool, it registers as an open event.
+- Recipient spam filters might scan and open your emails that you send, and this action might be counted as an open during the security scanning process.
+
+## Related information
 
 [Turn on email engagement](configure-email-engagement.md)  
 [Create and send an email message](create-send-email-message.md)  

@@ -2,9 +2,10 @@
 title: "Security roles for Connected Customer Service | MicrosoftDocs"
 description: "Learn how security roles for Connected Customer Service allow administrators to give appropriate access to Internet of Things (IoT) entities."
 ms.date: 04/03/2020
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ---
 
 # Security roles for Connected Customer Service

@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 02/02/2024
+ms.date: 04/23/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -39,6 +39,12 @@ Before you migrate assignment rules and segments, ensure that the following requ
     - [Seller availability in sequences](customize-sales-accelerator-sellers.md#seller-availability)
     - [Let sellers set their availability](wa-manage-seller-availability.md)
 
+## Considerations
+
+- All segments and assignment rules migrated to the target environment are in inactive state.
+- Rules that are associated with specific users, teams, or queues must be resolved manually after the migration.
+- During the migration process, if a new segment is created from the application, the priority order might change. 
+
 ## Prepare the schema file
 
 The schema file (.xml) contains information about the data that you want to export such as the entities, attributes, relationships, segments, and assignment rules.
@@ -57,13 +63,7 @@ After exporting the required data from the source environment, you're now ready 
 1. Import the zipped schema file that you created in the previous section. More information: [Import configuration data](/power-platform/admin/import-configuration-data)
 1. After the import process is completed successfully, all the checks will turn green, as shown in the image: 
 
-  :::image type="content" source="media/wa-import-schema-successful-import.png" alt-text="Screenshot of successful import of schema file to the target environment.":::
-
-## Considerations
-
-- All segments and assignment rules migrated to the target environment are in inactive state.
-- Rules that are associated with specific users, teams, or queues must be resolved manually after the migration.
-- During the migration process, if a new segment is created from the application, the priority order might change. 
+  :::image type="content" source="media/wa-import-schema-successful-import.png" alt-text="Screenshot of successful import of schema file to the target environment."::: 
 
 ## How prioritization works for migrated segments
 
@@ -81,7 +81,7 @@ The following table shows scenarios in which the segments are prioritized in the
 | Upon subsequent migration of selected segments from source to target, with some segments deleted in source. | Segment B, Segment C, Segment D, Segment E, Default segment | Segment C, Segment D, Default segment | Segment A, Segment B, Segment D, Default segment | Segment A, Segment B, Segment D, Segment C, Default segment |
 | Upon subsequent migration of selected segments from source to target, with some segments existing in target. | Segment A, Segment B, Segment C, Segment D, Segment E, Default segment | Segment B, Segment C, Segment D, Segment E, Default segment | Segment D, Segment F, Segment C, Default segment | Segment D, Segment F, Segment C, Default segment, Segment B, Segment E, Default segment |
 
-### See also
+## Related information
 
 - [Create and activate segments](wa-create-and-activate-a-segment.md)  
 - [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md)  

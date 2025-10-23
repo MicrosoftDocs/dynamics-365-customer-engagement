@@ -2,7 +2,6 @@
 title: "Sample: Make a report available or unavailable to organization | MicrosoftDocs"
 description: "This sample shows how make a report available or unavailable to an organization."
 ms.custom:
-ms.date: 01/28/2020
 ms.reviewer: pehecke
 
 ms.suite:
@@ -20,7 +19,7 @@ search.audienceType:
 
 # Make a report available or unavailable to organization
 
-This sample shows how to make a report available or unavailable to an organization. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/MakeReportAvailableToOrganization).
+This sample shows how to make a report available or unavailable to an organization. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/MakeReportAvailableToOrganization).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

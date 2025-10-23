@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
 ms.collection:
-ms.date: 05/20/2024
+ms.date: 06/19/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -19,13 +19,6 @@ ms.custom:
 Work assignment is a feature of Dynamics 365 Sales that removes the burden of manually assigning leads, opportunities, and other work to your sales team. Using assignment rules that can consider sellers' attributes, availability, and capacity, the sales accelerator automatically assigns the right salesperson at the right time to the right leads and opportunities.
 
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/), or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) |
-| **Security roles** | [System Administrator, Sequence Manager, or Sales Manager](security-roles-for-sales.md) |
 
 ## Configure work assignment for your sales team
 

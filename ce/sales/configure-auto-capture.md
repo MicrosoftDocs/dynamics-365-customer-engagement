@@ -1,7 +1,7 @@
 ---
 title: Enable and configure auto capture
 description: Configure auto capture to help your sellers to get suggestions on relevant customer activities by capturing emails and meetings from Outlook.
-ms.date: 03/13/2024
+ms.date: 03/24/2025
 ms.custom: bap-template
 ms.topic: how-to
 ms.assetid: d4d130c5-3494-4677-9093-0a0e0124d953
@@ -20,13 +20,6 @@ applies_to:
 # Enable and configure auto capture 
 
 Configure auto capture to help your sellers to get suggestions on relevant customer activities by capturing emails and meetings from the user's Exchange account that's in the same tenant as Dynamics 365.
-
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## Configure auto capture
 
@@ -58,12 +51,11 @@ Before you enable auto capture, perform the following tasks:
 
 1.	Sign in to the Dynamics 365 Sales Hub app, and go to **Change area** > **Sales Insights settings**.
 
-2.	On the site map under **Productivity intelligence**, select **Auto capture**. 
+2.	On the site map under **Productivity**, select **Auto capture**. 
 
 3.	Turn on the **Enable basic auto capture** toggle.
 
-> [!div class="mx-imgBorder"]
-> ![Enable or disable auto capture](media/si-admin-auto-capture-enable-disable.png "Enable or disable auto capture")
+:::image type="content" source="media/si-admin-auto-capture-enable-disable.png" alt-text="Screenshot of the toggle to enable or disable auto capture in Dynamics 365 Sales.":::
 
 > [!NOTE]
 > For more information about auto capture and how it can help your users, see [Capture customer-related activities with auto capture](auto-capture.md).
@@ -71,7 +63,7 @@ Before you enable auto capture, perform the following tasks:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Introduction to administering Sales Insights](intro-admin-guide-sales-insights.md)  
 [Auto capture FAQs](faqs-sales-insights.md#auto-capture)  

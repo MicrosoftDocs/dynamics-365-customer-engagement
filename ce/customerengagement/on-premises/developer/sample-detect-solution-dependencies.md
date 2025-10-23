@@ -2,7 +2,6 @@
 title: "Sample: Detect solution dependencies | MicrosoftDocs"
 description: Learn how to detect dependencies before deleting a solution component with this code sample for Dynamics 365 Customer Engagement (on-premises).
 keywords: 
-ms.date: 04/02/2020
 
 ms.custom: 
 ms.topic: sample
@@ -27,7 +26,7 @@ search.audienceType:
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Sample: Detect solution dependencies](/powerapps/developer/common-data-service/org-service/samples/detect-solution-dependencies).
 
-This sample shows how to detect dependencies before you delete a solution component. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/SolutionDependencies).
+This sample shows how to detect dependencies before you delete a solution component. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/SolutionDependencies).
 
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]

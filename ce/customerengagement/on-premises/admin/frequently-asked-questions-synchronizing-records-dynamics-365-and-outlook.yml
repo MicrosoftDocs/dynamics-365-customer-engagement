@@ -3,8 +3,7 @@ metadata:
   title: "Record synchronization FAQs for Dynamics 365 Customer Engagement (on-premises)"
   description: "Get answers to the frequently asked questions about synchronizing records between Outlook and Customer Engagement (on-premises)."
   ms.custom: 
-  ms.date: 10/01/2019
-  ms.reviewer: 
+    ms.reviewer: 
   
   ms.suite: 
   ms.tgt_pltfrm: 
@@ -14,8 +13,8 @@ metadata:
     - Dynamics 365 for Customer Engagement  Version 9.x
   ms.assetid: a6b483be-88ff-4264-b834-92a536deb45e
   caps.latest.revision: 50
-  author: jimholtz
-  ms.author: jimholtz
+  author: Mattp123
+  ms.author: matp
   manager: brycho
   search.audienceType: 
     - admin

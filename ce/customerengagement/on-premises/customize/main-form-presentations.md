@@ -2,7 +2,6 @@
 title: "Appearance of main forms in Dynamics 365 Customer Engagement (on-premises)"
 description: "Any main forms that exist may be displayed differently depending on various factors. When you design a main form, consider how it will appear in each display."
 ms.custom: 
-ms.date: 12/04/2018
 ms.reviewer: 
 
 ms.suite: 

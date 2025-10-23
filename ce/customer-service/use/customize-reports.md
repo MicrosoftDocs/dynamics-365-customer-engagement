@@ -1,37 +1,50 @@
 ---
 title: Customize visual display
-description: Learn how to customize out-of-the-box reports in Dynamics 365 Customer Service using the Power BI embedded editing experience.
+description: Edit visual data display for Dynamics 365 Customer Service analytics reports using the Power BI embedded editor. Modify key performance indicators, filter data, edit reports, customize metrics, and create organization-specific dashboard layouts.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 04/06/2023
-ms.custom: 
+ms.date: 09/02/2025
+ms.custom:
   - dyn365-customerservice
   - bap-template
-search.audienceType: 
+  - ai-gen-docs-bap
+  - ai-gen-description
+  - ai-seo-date:08/13/2025
+search.audienceType:
   - admin
   - customizer
 ---
 
 # Customize visual display
 
-Dynamics 365 Customer Service provides out-of-the-box analytics reports that help you visualize key performance indicators (KPIs) and trends for standard contact center workflows. You can use an embedded Power BI editor to customize the out-of-the-box reports to meet your organization's needs:
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-- Reveal out-of-the-box metrics that may be more relevant to your organization.
-- Modify how the data is displayed; for example, change a tabular view to a graphic that displays the trend over time.
-- Add new pivots and pages; for example, create a pivot or page that's dedicated to a specific queue with queue-level metrics.
-- Rearrange out-of-the-box report layouts and change themes.
+Use the embedded Power BI editor to customize the visual display of analytics reports in Dynamics 365 Customer Service. This article shows you how to modify existing visualizations, add new metrics, apply data filters, and create custom layouts that align with your organizational requirements.
 
-You can customize Customer Service historical, Omnichannel historical, and Omnichannel real-time analytics reports in Customer Service workspace. You can't customize unified routing and knowledge analytics reports.
+Customize your experience with these capabilities:
+
+- **Reveal relevant metrics**: Show out-of-the-box metrics that matter most to your organization
+- **Transform data displays**: Change tabular views to trend graphics and other visual formats
+- **Create focused views**: Add new pivots and pages for specific queues or teams
+- **Personalize layouts**: Rearrange report layouts and apply custom themes
+
+You can customize the Customer Service historical, Omnichannel historical, Omnichannel real-time analytics, and Real-time analytics for record routing reports in the Copilot Service workspace app. You can't customize unified routing and knowledge analytics reports.
+
+You don't need any licenses to customize the Customer Service historical, Omnichannel historical, and Omnichannel real-time analytics reports embedded in Copilot Service workspace.
+
+> [!NOTE]
+> - After you customize and publish a report, all customizations become visible to all users in your organization.
+> - You can also build new reports and new metrics using the out-of-the-box data model. Learn more in [Overview of data model customization](datamodel-overview.md).
 
 ## Prerequisites
 
-To edit analytics reports, users must have the **Analytics Report Author** role. [Assign roles to users](../implement/add-users-assign-roles.md#assign-roles-to-users).
+- To edit analytics reports, users must have the **Analytics Report Author** role. Learn more in [Assign roles to users](../implement/add-users-assign-roles.md#assign-roles-to-users).
 
 ## Customize the display of analytics reports
 
-1. In Customer Service workspace, open the **Omnichannel real-time analytics**, **Omnichannel historical analytics**, or **Customer Service historical analytics** report.
+1. In Copilot Service workspace, open the **Omnichannel real-time analytics**, **Omnichannel historical analytics**, or **Customer Service historical analytics** report.
 
 1. Select **Edit report** to open the embedded Power BI editor.
 
@@ -43,20 +56,22 @@ To edit analytics reports, users must have the **Analytics Report Author** role.
 
       :::image type="content" source="../media/visual-incoming-conversations.png" alt-text="Screenshot of adding a table visualization to a report in the embedded Power BI editor.":::
 
-   - **Data**: Select the KPIs, measures, dimensions, and attributes you want to show in your report. The list includes all the metrics that are available for use, not just the ones that are displayed in the out-of-the-box reports. For example, you can use the **Participation Mode** metric in **FactSessionParticipant** to count the number of times a subject matter expert accepted a consult request. [Understand the out-of-the-box data model](#understand-the-out-of-the-box-data-model).
+   - **Data**: Select the KPIs, measures, dimensions, and attributes you want to show in your report. The list includes all the metrics that are available for use, not just the ones that are displayed in the out-of-the-box reports. For example, you can use the **Participation Mode** metric in **FactSessionParticipant** to count the number of times a subject matter expert accepted a consult request. Learn more in [Understand the out-of-the-box data model](#understand-the-out-of-the-box-data-model).
 
       :::image type="content" source="../media/visual-sessionpart-mode.png" alt-text="Screenshot of the list of metrics available in a report.":::
 
-1. When you're done selecting the customizations you want for your report, select **Save** and then **Publish**.
+    - **Filters**: Use **Advanced filtering** to select the queues that you want to filter your reports by. In the out-of-the-box **Omnichannel real-time analytics** or **Omnichannel historical analytics** reports, select **Advanced filtering**, with the **Or** option to add multiple conditions for filtering.
+    :::image type="content" source="../media/customize-visual-filters.png" alt-text="Screenshot describes the Filters pane to customize visual display of queues.":::
 
-After you publish the report, all customizations become visible to all users in your organization.
+
+1. When you're done selecting the customizations you want for your report, select **Save** and then **Publish**.
 
 To revert all your changes to the original report settings, select **Edit report** > **Checkout default report** > **Reset**.
 
    > [!IMPORTANT]
-   > If you select **Reset**, any customizations you've made are permanently removed.
+   > If you select **Reset**, any customizations that you made are permanently removed.
 
-To continue editing the report after you've published it, select **Resume editing**.
+To continue editing the report after you publish it, select **Resume editing**.
 
 > [!NOTE]
 > Don't add more than 20 metrics or tiles to a report because it affects the report's performance. If you need more metrics, consider creating more pages and provide links to the extra pages from the existing pages.
@@ -65,17 +80,18 @@ To continue editing the report after you've published it, select **Resume editin
 
 The out-of-the-box data model consists of *facts* and *dimensions*. Facts represent the data you want to analyze. Dimensions represent the attributes of the data that you want to break down to explore further.
 
-Fact tables organize key KPIs logically. For example, **FactConversation** has conversation metrics like **Average handle time**, while **FactAgent** has **Agent metrics**.  
+Fact tables organize key KPIs logically. For example, **FactConversation** has conversation metrics like **Average handle time** and **Average conversation talk time**, while **FactAgent** has **Agent metrics**.  
 
-You can use facts and dimensions to visualize data according to your organizational requirements. If you'd like to understand how average handle time varies by queue, create a visualization like a bar chart, and divide the fact **FactConversation** > **Average Handle Time** by the dimension **DimQueue** > **Queue Name**.
+You can use facts and dimensions to visualize data according to your organizational requirements. If you want to understand how average handle time varies by queue, create a visualization like a bar chart, and divide the fact **FactConversation** > **Average Handle Time** by the dimension **DimQueue** > **Queue Name**.
 
 ### Future data model updates
 
-If you've customized your reports and Microsoft changes the default data model for a report, the data model updates don't overwrite your customizations. However, if the naming conventions in the Power BI embedded editing experience change, those changes are reflected in the respective list. You may need to reselect the metric with the new name. [Learn more about data models and report mappings for historical analytics reports in Customer Service](oob-data-models.md#data-models-and-report-mappings-for-historical-analytics-reports-in-customer-service).
+If you customize your reports and then Microsoft changes the default data model for a report, the data model updates don't overwrite your customizations. However, if the naming conventions in the Power BI embedded editing experience change, those changes are reflected in the respective list. You may need to reselect the metric with the new name. [Learn more about data models and report mappings for historical analytics reports in Customer Service](oob-data-models.md#data-models-and-report-mappings-for-historical-analytics-reports-in-customer-service).
 
-### See also
+### Related information
 
-[Introduction to Customer Service Insights](../implement/introduction-customer-service-analytics.md)  
-[Configure Customer Service analytics and insights](../administer/configure-customer-service-analytics-insights-csh.md)  
-[Configure Customer Service Analytics dashboards in Power BI](../implement/configure-customer-service-analytics-dashboard.md)  
-[Configure Omnichannel historical analytics](../administer/oc-historical-analytics-reports.md)
+**Getting started**: [Introduction to Customer Service Insights](../implement/introduction-customer-service-analytics.md)  
+**Initial setup**: [Configure Customer Service analytics and insights](../administer/configure-customer-service-analytics-insights-csh.md)  
+**Advanced reporting**: [Configure Customer Service Analytics dashboards in Power BI](../implement/configure-customer-service-analytics-dashboard.md)  
+**Channel-specific analytics**: [Configure Omnichannel historical analytics](../administer/oc-historical-analytics-reports.md)
+

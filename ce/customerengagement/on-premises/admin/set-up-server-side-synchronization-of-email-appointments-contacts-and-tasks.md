@@ -2,7 +2,6 @@
 title: "Set up server-side synchronization in Dynamics 365 Customer Engagement (on-premises)"
 description: "Synchronize your email at the server level. If you sync Outlook as well as Exchange Online or Exchange Server, you can sync appointments, contacts, and tasks."
 ms.custom: 
-ms.date: 04/16/2020
 ms.reviewer: 
 
 ms.suite: 
@@ -13,8 +12,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 5a297c2d-4336-46c3-952e-625ec22b0382
 caps.latest.revision: 52
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 

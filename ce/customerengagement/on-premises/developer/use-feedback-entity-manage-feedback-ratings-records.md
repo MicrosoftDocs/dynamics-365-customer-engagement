@@ -2,7 +2,6 @@
 title: "Use the Feedback entity to manage feedback and ratings for records (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about the feedback entity to obtain feedback and ratings for the records."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: pehecke
 
 ms.suite: 

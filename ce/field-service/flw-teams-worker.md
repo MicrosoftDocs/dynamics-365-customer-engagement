@@ -1,7 +1,7 @@
 ---
 title: Manage work orders with Field Service in Teams (frontline workers)
 description: Learn how field technicians and other frontline workers can use the Dynamics 365 Field Service Teams app to view and update work orders in Teams on their mobile devices.
-ms.date: 04/18/2024
+ms.date: 08/29/2025
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -11,6 +11,8 @@ ms.subservice: m365-integrations
 ---
 
 # Work with Field Service in Teams (frontline workers)
+
+[!INCLUDE [m365-fs-deprecate](../includes/microsoft365-field-service-deprecation.md)]
 
 The Dynamics 365 Field Service app for Teams enables frontline workers to manage their work orders without disrupting their workflow. In a Viva Connections dashboard or directly in Teams, you can view and update work orders that are assigned to you on your mobile device.
 

@@ -2,7 +2,6 @@
 title: "Apply SLAs to entities (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about applying SLAs to custom entities by enabling entities for applying SLAs. Also, you can create SLA KPIs."
 ms.custom: 
-ms.date: 03/02/2022
 ms.reviewer: pehecke
 
 ms.suite: 

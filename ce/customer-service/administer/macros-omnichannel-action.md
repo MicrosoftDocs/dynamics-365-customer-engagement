@@ -3,26 +3,29 @@ title: Use Omnichannel connector macros
 description: Learn about using Omnichannel connector to create macros.
 author: gandhamm
 ms.author: mgandham
-ms.topic: conceptual 
+ms.reviewer: mgandham
+ms.topic: how-to
 ms.collection: 
-ms.date: 04/08/2024
+ms.date: 06/27/2025
 ms.custom: bap-template 
 ---
 
 # Use Omnichannel connector macros
 
-You can use Omnichannel connector to use actions to perform Omnichannel for Customer Service&ndash;related operations. Omnichannel connector macros allow you to link and unlink records to conversations.
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-You can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service.
+You can use Omnichannel connector to use actions to perform Dynamics 365 Contact Center&ndash;related operations. Omnichannel connector macros allow you to link and unlink records to conversations.
+
+You can use the actions any number of times across different macros to automate and perform operations related to Dynamics 365 Contact Center.
 
 > [!NOTE]
-> Macro actions for the Omnichannel connector is available if Customer Service workspace in Omnichannel for Customer Service is installed.
+> Macro actions for the Omnichannel connector is available if Copilot Service workspace in Dynamics 365 Contact Center is installed.
 
    :::image type="content" source="../media/macro-omnichannel-connector.png" alt-text="Macro actions Omnichannel connector.":::
 
 ## Link record to the conversation
 
-Links a record to the conversation when the customer communicates with the agent in the Omnichannel for Customer Service session. This action contains the following fields.
+Links a record to the conversation in the focused session when the customer service representative (service representative or representative)  is communicating with a customer in omnichannel. This action contains the following fields.
 
    | Field | Description | 
    |-----------------|-----------------------------|
@@ -30,6 +33,8 @@ Links a record to the conversation when the customer communicates with the agent
    | Entity record ID| Specify the entity record ID of the entity.| 
    | Entity primary Name | Specify the primary name of the entity.| 
 
+> [!NOTE]
+> If you switch to a different conversation while the macro is running, you may see unexpected results.
 
 ### Example: Create a case from conversations
 
@@ -43,13 +48,16 @@ Perform the following steps to create a case from an Omnichannel conversation. T
  
 ## Unlink record from the conversation
 
-Unlinks a record from the conversation when the customer is communicating with the agent in the Omnichannel for Customer Service session. This action contains the following fields.
+Unlinks a record from the conversation in the focused session when the service representative is communicating with a customer in omnichannel. This action contains the following fields.
 
    | Field | Description | 
    |-----------------|-----------------------------|
    | Entity Logical Name |  Specify the logical name of the entity. |
    | Entity record ID| Specify the entity record ID of the entity. | 
    | Entity primary Name | Specify the primary name of the entity.| 
+
+> [!NOTE]
+> If you switch to a different conversation while the macro is running, you may see unexpected results.
 
 ### Example: Unlink the case from the conversation
 
@@ -62,13 +70,6 @@ Add the **Unlink record from the conversation** action with the following attrib
 #### Send knowledge base article link in chat
 
 Sends a knowledge base article link to the conversation chat window. It must be used with the **Search knowledge base for the populated phrase** action. Make sure that you switch the **Use an external portal** toggle to **Yes**. More information: [Set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management)
-
-The action contains the following field.
-
-   | Field | Description | 
-   |-----------------|-----------------------------|
-   | Entity record ID  | Specify the ID of the entity record.|
-
 
 ## Next steps
 

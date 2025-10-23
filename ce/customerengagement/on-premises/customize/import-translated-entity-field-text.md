@@ -2,12 +2,11 @@
 title: "Import translated text into Dynamics 365 Customer Engagement (on-premises)"
 description: "After exporting entity and field text for translation, follow these steps to import it back into the app so users can take advantage of the changes."
 ms.custom: 
-ms.date: 12/04/2018
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps

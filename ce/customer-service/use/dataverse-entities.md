@@ -3,14 +3,19 @@ title: Dataverse entities used in historical and real-time analytics
 description: Learn about the Dataverse entities used in historical and real-time analytics.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
-ms.topic: conceptual
+ms.reviewer: sdas
+ms.topic: reference
 ms.collection: 
-ms.date: 07/19/2023
+ms.date: 06/27/2025
 ms.custom: bap-template
 ---
 
 # Dataverse entities used in historical and real-time analytics
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+> [!Note]
+> Case information is applicable to Customer Service only.
 
 The article describes the Dataverse entities used in historical and real-time analytics.
 
@@ -26,6 +31,8 @@ The article describes the Dataverse entities used in historical and real-time an
 - msdyn_conversationtopic_conversation
 - msdyn_ocliveworkitem
 - msdyn_ocliveworkitemsentiment
+- msdyn_statuschangereason
+- msdyn_statuschangereasonname
 - msdyn_ocsession
 - msdyn_ocsessionsentiment
 - msdyn_sessionparticipant
@@ -54,7 +61,7 @@ The article describes the Dataverse entities used in historical and real-time an
 - msdyn_ocvoicemail
 - queueitem
 - msdyn_copilotinteraction
-- email
+- email 
 
 ## Entities used in real-time analytics
 
@@ -67,6 +74,8 @@ The article describes the Dataverse entities used in historical and real-time an
 - systemuser
 - msdyn_liveworkstream
 - msdyn_ocliveworkitem
+- msdyn_statuschangereason
+- msdyn_statuschangereasonname
 - msdyn_agentstatushistory
 - msdyn_ocsession
 - msdyn_sessionparticipant

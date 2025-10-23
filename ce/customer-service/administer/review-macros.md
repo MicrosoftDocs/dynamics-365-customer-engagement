@@ -3,9 +3,10 @@ title: Review macro run history
 description: Review macro run history to identify causes of failure and view exact action step at which failure occurred.
 author: gandhamm
 ms.author: mgandham
-ms.topic: conceptual
+ms.reviewer: mgandham
+ms.topic: overview
 ms.collection:
-ms.date: 05/06/2024
+ms.date: 06/26/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -16,19 +17,21 @@ ms.custom:
 
 # Review macro run history
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 You can view the macro run history, which shows how many times a macro ran, along with the success or fail status. When you select a macro that failed, you can view the exact action step at which the failure occurred, allowing you to identify why the failures occurred.
 
 ## View macro run history
 
-Consider the following agent script step that fails.
+Consider the following script step that fails.
 
- :::image type="content" source="../media/agent-script-failure.png" alt-text="Agent script failing.":::
+ :::image type="content" source="../media/agent-script-failure.png" alt-text="Script failing.":::
 
 To view the run history for the macro that failed, follow these steps:
 
-1. Go to Customer Service admin center, select **Productivity** > **Agent scripts**.  
-1. On the Agent scripts page, select the required agent script.
-1. In the list of **Agent scripts steps**, open the required target **agent script step**. 
+1. Go to Copilot Service admin center, select **Productivity** > **Scripts**.  
+1. On the scripts page, select the required script.
+1. In the list of **Scripts steps**, open the required target **Script step**. 
 1. In the Target macro, select the macro. 
 1. Select **View history**. Each record in the list represents a macro run. 
 1. Open the macro that failed and identify the step that failed.  
@@ -41,7 +44,7 @@ In certain scenarios, a step fails because a previous step has set values incorr
  
 You can review the macro run history to validate if the session context variables are configured correctly in the macro design. You can also validate if the session context variable is correct and returning the expected value using the [Microsoft.Apm APIs](../develop/microsoft-apm.md). 
  
-1. Open Customer Service workspace.
+1. Open Copilot Service workspace.
 2. Open a session that triggers a macro run. For example, open a case from the **Home** session. 
 3. Press the F12 key to open the developer tools window. 
 4. In the console window, specify the following command and press Enter: `Microsoft.Apm.getFocusedSession().resolveSlug("{anchor.title")`
@@ -74,5 +77,5 @@ You can use multiple patterns to configure lookup based on the macros you want t
 
 ## Macro run reports
 
-Macro runs are logged in the [msdyn_macrosession](../develop/reference/entities/msdyn_macrosession.md) table. You can use this table to create reports that capture metrics such as macro usage in a given time frame or success and failure rate.
+Macro runs are logged in the [Macro Run History (msdyn_macrosession) table](../../developer/reference/entities/msdyn_macrosession.md) table. You can use this table to create reports that capture metrics such as macro usage in a given time frame or success and failure rate.
 

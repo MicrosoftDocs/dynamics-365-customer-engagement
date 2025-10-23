@@ -2,12 +2,11 @@
 title: "Visualize hierarchical data in Dynamics 365 Customer Engagement (on-premises)"
 description: "Gain valuable insights by visualizing hierarchical data. This page walks you through examples for querying the hierarchies and creating visualizations."
 ms.custom: 
-ms.date: 01/08/2019
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps

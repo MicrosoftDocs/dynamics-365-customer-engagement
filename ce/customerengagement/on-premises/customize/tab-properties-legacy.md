@@ -7,9 +7,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement (online)
   - powerapps
 ms.author: matp
-ms.date: 01/13/2020
 
-ms.topic: article
+ms.topic: how-to
 ms.assetid: e0790865-c5a4-4e86-bce2-584af2b8ed93
 search.audienceType: 
   - customizer

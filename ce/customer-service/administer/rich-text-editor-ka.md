@@ -3,15 +3,18 @@ title: Add a knowledge article rich text editor control to a form
 description: Learn how to add a knowledge article rich text editor control to a form. 
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 01/23/2023
+ms.date: 05/02/2025
 ms.custom: bap-template
 ---
 
 # Add a knowledge article rich text editor control to a form
 
-By default, the rich text editor functionality is available for use with knowledge articles and emails. You can add the rich text editor control to other forms as well to leverage the benefits of the rich text editor functionality. More information: [Use the rich text editor toolbar](/power-apps/maker/model-driven-apps/rich-text-editor-control#use-the-rich-text-editor-toolbar)
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
+By default, the rich text editor functionality is available for use with knowledge articles and emails. You can add the rich text editor control to other forms as well to leverage the benefits of the rich text editor functionality. Learn more in [Use the rich text editor toolbar](/power-apps/maker/model-driven-apps/rich-text-editor-control#use-the-rich-text-editor-toolbar).
 
 ## Add the rich text editor control to a form
 
@@ -40,4 +43,4 @@ Perform the following steps to add rich text editor control to a form.
 
 5. Select **OK** > **OK**, and then select **Save and Publish**.
 
-For more information about rich text control properties, see [Rich text editor control configuration options](/powerapps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-control-configuration-options).
+Learn more in [Rich text editor control configuration options](/powerapps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-control-configuration-options).

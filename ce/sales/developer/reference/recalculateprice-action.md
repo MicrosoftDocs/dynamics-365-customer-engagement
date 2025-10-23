@@ -2,7 +2,7 @@
 title: RecalculatePrice Action - Developer Guide
 description: Programmatically trigger the out-of-the-box price calculation for Opportunity, Quote, Sales Order or Invoice entities.
 ms.date: 08/09/2023
-ms.topic: article
+ms.topic: reference
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -12,13 +12,6 @@ ms.custom:
 # RecalculatePrice Action 
 
 This action is used to trigger out of the box price calculation for Opportunity, Quote, Sales Order or Invoice entities. This action is applicable for both server and client invocations.
-
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System customizer <br>  More information: [Predefined security roles for Sales](../../security-roles-for-sales.md)|
-
 
 ## Parameters
 
@@ -37,7 +30,7 @@ This action is used to trigger out of the box price calculation for Opportunity,
 POST [Organization URI]/api/data/v9.1/RecalculatePrice
 {
     "entityLogicalName": "quote",
-    "entityId":"91F3EDB0-213B-E911-8190-000D3AFD8945"
+    "entityId":"00aa00aa-bb11-cc22-dd33-44ee44ee44ee"
 }
 ```
 

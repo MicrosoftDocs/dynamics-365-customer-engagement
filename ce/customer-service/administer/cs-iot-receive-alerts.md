@@ -2,9 +2,10 @@
 title: "Receive IoT alerts in Connected Customer Service from Azure IoT Central | MicrosoftDocs"
 description: "This topic provides information on how to receive IoT alerts in Connected Customer Service from Azure IoT Central."
 ms.date: 01/25/2022
-ms.topic: article
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ---
 
 
@@ -106,7 +107,7 @@ From here, the workflow will trigger based on the alert type.
    > [!div class="mx-imgBorder"]
    > ![Screenshot of an IoT alert detail, showing the URL back to IoT Central where the alert originated.](../media/cs-iot-central-alerts-5.png)
 
-### See also
+### Related information
 
 [Prerequisites for setting up Connected Customer Service for Azure IoT Central](cs-iot-prerequisites.md)<br>
 [Associate devices with customer accounts in Connected Customer Service](cs-iot-central-associate-devices.md)<br>

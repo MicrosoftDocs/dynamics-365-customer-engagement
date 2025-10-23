@@ -2,19 +2,18 @@
 title: "Fiscal year settings in Dynamics 365 Customer Engagement (on-premises)"
 description: "Set the fiscal year settings for your organization. Select the start date of the fiscal year, how it's divided, and how you want it to be displayed." 
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 521e711f-bced-4cab-9e31-506e40b5db01
 caps.latest.revision: 33
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 ---

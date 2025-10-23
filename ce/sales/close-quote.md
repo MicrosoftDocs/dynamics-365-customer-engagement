@@ -1,7 +1,7 @@
 ---
 title: Close a quote
 description: Learn how to manually close a quote in Dynamics 365 Sales as Lost, Canceled, or Revised when it's not accepted.
-ms.date: 04/22/2024
+ms.date: 05/20/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -23,14 +23,7 @@ ms.custom:
 
 # Close a quote in Dynamics 365 Sales
 
-When you [create an order from a quote](create-edit-order-sales.md#create-an-order-from-a-quote), the quote is automatically closed as won. However, if the quote was not accepted, you can close it manually as Lost, Canceled, or Revised. 
-
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+When you [create an order from a quote](create-edit-order-sales.md#create-an-order-from-a-quote), the quote is automatically closed as won. However, if the quote wasn't accepted, you can close it manually as Lost, Canceled, or Revised. 
 
 ## Close a quote
 
@@ -51,7 +44,7 @@ When you [create an order from a quote](create-edit-order-sales.md#create-an-ord
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create or edit quotes](create-edit-quote-sales.md)
 

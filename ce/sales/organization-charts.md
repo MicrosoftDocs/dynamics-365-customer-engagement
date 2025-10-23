@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: udag
 ms.topic: overview
 ms.collection: get-started
-ms.date: 03/08/2024
+ms.date: 03/20/2025
 ms.custom: bap-template 
 searchScope: 
   - D365-App-msdynce_saleshub
@@ -29,7 +29,7 @@ Org charts are available for accounts and contacts.
 
 Watch this brief video for a quick introduction to enhanced org charts in Dynamics 365 Sales:
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW166iv]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=706622ae-52e9-484f-b3e7-bb33047c59bd]
 
 ## How can I use org charts?  
 

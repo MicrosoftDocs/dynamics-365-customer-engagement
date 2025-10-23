@@ -2,12 +2,11 @@
 title: "Check network capacity in Dynamics 365 Customer Engagement (on-premises)"
 description: "The primary characteristics of a network that affects performance are bandwidth and latency. Verify your capacity by running the provided diagnostics test."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
@@ -38,7 +37,7 @@ Networks with high bandwidth don’t guarantee low latency. For example, a netwo
   
 1. On the user’s computer or device, start a web browser, and sign in to a Customer Engagement (on-premises) organization.  
   
-2. Enter the following URL, *<https://myorg.crm.dynamics.com/tools/diagnostics/diag.aspx>*, where *myorg.crm.dynamics.com* is the URL of your Customer Engagement (on-premises) organization.  
+2. Enter the following URL, `https://myorg.crm.dynamics.com/tools/diagnostics/diag.aspx`, where *myorg.crm.dynamics.com* is the URL of your Customer Engagement (on-premises) organization.  
   
 3. Click **Run**.  
   

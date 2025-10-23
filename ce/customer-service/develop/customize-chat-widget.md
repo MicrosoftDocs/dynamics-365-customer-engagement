@@ -1,21 +1,17 @@
 ---
 title: Customize live chat widgets using data tags
-description: Learn to customize chat widgets by using data tags in the widget script in Customer Service admin center.
-ms.date: 01/29/2024
-ms.topic: conceptual
+description: Learn to customize chat widgets by using data tags in the widget script in Copilot Service admin center.
+ms.date: 04/30/2025
+ms.topic: reference
 author: neeranelli
 ms.author: nenellim
-ms.reviewer:
+ms.reviewer: nenellim
 ms.custom: bap-template
 ms.collection:
 ---
 # Customize live chat widgets using data tags
 
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
-
-You can customize live chat widgets by using data tags in the widget script. You can use the following tags in the chat widget script that you copy from your admin app such as Customer Service admin center or Omnichannel admin center (deprecated). More information: [Embed chat widget in your website or portal](../administer/embed-chat-widget-portal.md)
-
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+You can customize live chat widgets by using data tags in the widget script. You can use the following tags in the chat widget script that you copy from your admin app such as Copilot Service admin center. More information: [Embed chat widget in your website or portal](../administer/embed-chat-widget-portal.md)
 
 |Attribute name|Description|Example|
 |----|-----|-----|
@@ -53,7 +49,7 @@ On the settings dialog, select **Feature Flags**, and clear the selection for **
 
 [Develop a custom live chat widget](develop-live-chat-widget.md)  
 
-### See also
+### Related information
 
 [Start chat proactively](start-proactive-chat.md)  
 [Live chat widget telemetry](live-chat-telemetry.md)  

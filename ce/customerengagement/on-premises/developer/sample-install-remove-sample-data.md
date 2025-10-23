@@ -2,7 +2,6 @@
 title: "Sample: Install or remove sample data (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Sample code to install standard sample data for Customer Engagement (on-premises)."
 keywords:
-ms.date: 10/31/2017
 
 ms.custom:
 ms.topic: sample
@@ -22,7 +21,7 @@ search.audienceType:
 
 # Sample: Install or remove sample data
 
-This sample shows how to install or uninstall the sample data for an organization by using the [InstallSampleDataRequest](/dotnet/api/microsoft.crm.sdk.messages.installsampledatarequest?view=dynamics-general-ce-9&preserve-view=true) message. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/InstallOrRemove).
+This sample shows how to install or uninstall the sample data for an organization by using the [InstallSampleDataRequest](/dotnet/api/microsoft.crm.sdk.messages.installsampledatarequest?view=dynamics-general-ce-9&preserve-view=true) message. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/InstallOrRemove).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

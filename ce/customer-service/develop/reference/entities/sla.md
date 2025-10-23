@@ -1,0 +1,234 @@
+---
+title: "SLA table/entity reference (Microsoft Dynamics 365 Customer Service)"
+description: "Includes schema information and supported messages for the SLA table/entity with Microsoft Dynamics 365 Customer Service."
+ms.topic: generated-reference
+author: gandhamm
+ms.author: mgandham
+search.audienceType: 
+  - developer
+---
+
+# SLA table/entity reference (Microsoft Dynamics 365 Customer Service)
+
+Contains information about the tracked service-level KPIs for cases that belong to different customers.
+
+> [!NOTE]
+> The Microsoft Dynamics 365 Customer Service SLA table extends the [Microsoft Dynamics 365 SLA table](/dynamics365/developer/reference/entities/sla).
+
+
+
+## Customized columns/attributes
+
+Microsoft Dynamics 365 Customer Service modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
+
+### <a name="BKMK_ObjectTypeCode"></a> ObjectTypeCode
+
+Changes from [ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/sla#BKMK_ObjectTypeCode)
+
+#### ObjectTypeCode Choices/Options
+
+|Value|Label|
+|---|---|
+|10768|**Custom messaging account**|
+|10810|**Rich object map**|
+|11181|**Requirement Organization Unit**|
+|11182|**Booking Setup Metadata**|
+|11183|**Actual**|
+|11184|**Requirement Group**|
+|11185|**Client Extension**|
+|11186|**Configuration**|
+|11187|**Requirement Relationship**|
+|11188|**Requirement Characteristic**|
+|11189|**Bookable Resource Association**|
+|11209|**Booking Alert**|
+|11210|**Booking Alert Status**|
+|11211|**Booking Change**|
+|11212|**Booking Rule**|
+|11213|**Business Closure**|
+|11214|**Organizational Unit**|
+|11215|**Priority**|
+|11216|**Requirement Resource Category**|
+|11217|**Requirement Resource Preference**|
+|11218|**Requirement Status**|
+|11219|**Resource Requirement**|
+|11220|**Resource Requirement Detail**|
+|11221|**Resource Territory**|
+|11222|**Schedule Board Setting**|
+|11223|**Scheduling Parameter**|
+|11224|**System User Scheduler Setting**|
+|11225|**Fulfillment Preference**|
+|11226|**Time Group Detail**|
+|11227|**Transaction Origin**|
+|11228|**Work Template**|
+|11229|**Optimization Request**|
+|11230|**Requirement Change**|
+|11231|**Requirement Dependency**|
+|11232|**Scheduling Feature Flag**|
+|11233|**Scheduling Scope**|
+|11234|**channel**|
+|11235|**Scenario**|
+|11236|**Azure notification hub**|
+|11237|**Channel instance secret**|
+|11238|**Survey Answer Option**|
+|11239|**Survey Response**|
+|11240|**Survey Response Value**|
+|11241|**Chat Widget Language(deprecated)**|
+|11242|**Chat Widget**|
+|11243|**Live Chat Context**|
+|11244|**Chat Widget Location**|
+|11245|**Localized Survey Question (Deprecated)**|
+|11246|**Survey Question Sequence**|
+|11247|**Survey Question**|
+|11248|**Web Engagement Ruleset**|
+|11249|**Web Engagement Ruleset Config**|
+|11250|**Web Engagement Ruleset Revision**|
+|11251|**Web Engagement Site Area**|
+|11252|**Communication Provider Setting**|
+|11253|**Communication Provider Setting Entry**|
+|11254|**Phone Number**|
+|11255|**Carrier**|
+|11256|**SMS Number settings**|
+|11257|**SMS Engagement Context**|
+|11258|**SMS Number**|
+|11259|**SMS Setting Secret**|
+|11260|**Facebook Engagement Context**|
+|11261|**Facebook Application**|
+|11262|**Facebook Page**|
+|11263|**Custom Messaging Engagement Context**|
+|11264|**LINE Engagement Context**|
+|11265|**Custom messaging channel**|
+|11266|**LINE account**|
+|11267|**Twitter account**|
+|11268|**Twitter handle**|
+|11269|**WeChat account**|
+|11270|**WhatsApp account**|
+|11271|**WhatsApp number**|
+|11272|**Twitter Engagement Context**|
+|11273|**WeChat Engagement Context**|
+|11274|**WhatsApp Engagement Context**|
+|11275|**Apple messages for business account**|
+|11276|**Apple messages for business engagement context**|
+|11277|**OC Apple Pay Entity**|
+|11278|**Google's Business Messages agent account**|
+|11279|**Google's Business Messages partner account**|
+|11280|**Google's Business Messages engagement context**|
+|11281|**Twitter Handle Provisioning Status**|
+|11282|**OC Twitter Handle Secret**|
+|11283|**Microsoft Teams account**|
+|11284|**(Deprecated)Teams Engagement Context**|
+|11285|**Teams Engagement Context**|
+|11286|**External Security Setting**|
+|11287|**Gatekeeper Engagement Context**|
+|11288|**Phone Call Engagement Context**|
+|11289|**Phone Music**|
+|11290|**Voice**|
+|11291|**Voice Channel Language Setting**|
+|11292|**Voice Channel Setting**|
+|11293|**Voicemail**|
+|11294|**Voice channel organization setting**|
+|11295|**Voice workstream V2 migration status**|
+|11296|**Conversation Attribute**|
+|11297|**Proactive Delivery**|
+|11298|**Proactive Delivery Attribute**|
+|11299|**Proactive Engagement Configuration**|
+|11300|**Proactive Engagement Configuration Attribute**|
+|11301|**Proactive Engagement Configuration Status**|
+|11302|**Proactive Engagement Configuration Characteristic**|
+|11303|**Outbound Configuration**|
+|11304|**Outbound message**|
+|11305|**Adaptation Build**|
+|11306|**Adaptation Model**|
+|11307|**Adaptation Profile**|
+|11308|**Adaptation Profile Settings**|
+|11309|**Adaptation Tag**|
+
+## One-to-Many relationships
+
+These relationships are one-to-many. Listed by **SchemaName**.
+
+- [msdyn_bookingalert_sla_slaid](#BKMK_msdyn_bookingalert_sla_slaid)
+- [msdyn_bookingalert_sla_slainvokedid](#BKMK_msdyn_bookingalert_sla_slainvokedid)
+- [msdyn_ocoutboundmessage_sla_slaid](#BKMK_msdyn_ocoutboundmessage_sla_slaid)
+- [msdyn_ocoutboundmessage_sla_slainvokedid](#BKMK_msdyn_ocoutboundmessage_sla_slainvokedid)
+- [msdyn_ocvoicemail_sla_slaid](#BKMK_msdyn_ocvoicemail_sla_slaid)
+- [msdyn_ocvoicemail_sla_slainvokedid](#BKMK_msdyn_ocvoicemail_sla_slainvokedid)
+
+### <a name="BKMK_msdyn_bookingalert_sla_slaid"></a> msdyn_bookingalert_sla_slaid
+
+Many-To-One Relationship: [msdyn_bookingalert msdyn_bookingalert_sla_slaid](msdyn_bookingalert.md#BKMK_msdyn_bookingalert_sla_slaid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_bookingalert`|
+|ReferencingAttribute|`slaid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_bookingalert_sla_slaid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10001<br />QueryApi: null<br />ViewId: `7f15e2bb-305a-468f-9af7-be865755a984`|
+
+### <a name="BKMK_msdyn_bookingalert_sla_slainvokedid"></a> msdyn_bookingalert_sla_slainvokedid
+
+Many-To-One Relationship: [msdyn_bookingalert msdyn_bookingalert_sla_slainvokedid](msdyn_bookingalert.md#BKMK_msdyn_bookingalert_sla_slainvokedid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_bookingalert`|
+|ReferencingAttribute|`slainvokedid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_bookingalert_sla_slainvokedid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocoutboundmessage_sla_slaid"></a> msdyn_ocoutboundmessage_sla_slaid
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage msdyn_ocoutboundmessage_sla_slaid](msdyn_ocoutboundmessage.md#BKMK_msdyn_ocoutboundmessage_sla_slaid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`slaid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocoutboundmessage_sla_slaid`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10001<br />QueryApi: null<br />ViewId: `7f15e2bb-305a-468f-9af7-be865755a984`|
+
+### <a name="BKMK_msdyn_ocoutboundmessage_sla_slainvokedid"></a> msdyn_ocoutboundmessage_sla_slainvokedid
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage msdyn_ocoutboundmessage_sla_slainvokedid](msdyn_ocoutboundmessage.md#BKMK_msdyn_ocoutboundmessage_sla_slainvokedid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`slainvokedid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocoutboundmessage_sla_slainvokedid`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocvoicemail_sla_slaid"></a> msdyn_ocvoicemail_sla_slaid
+
+Many-To-One Relationship: [msdyn_ocvoicemail msdyn_ocvoicemail_sla_slaid](msdyn_ocvoicemail.md#BKMK_msdyn_ocvoicemail_sla_slaid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`slaid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocvoicemail_sla_slaid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10001<br />QueryApi: null<br />ViewId: `7f15e2bb-305a-468f-9af7-be865755a984`|
+
+### <a name="BKMK_msdyn_ocvoicemail_sla_slainvokedid"></a> msdyn_ocvoicemail_sla_slainvokedid
+
+Many-To-One Relationship: [msdyn_ocvoicemail msdyn_ocvoicemail_sla_slainvokedid](msdyn_ocvoicemail.md#BKMK_msdyn_ocvoicemail_sla_slainvokedid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`slainvokedid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocvoicemail_sla_slainvokedid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+
+
+### See also
+
+[Dataverse table/entity reference](/power-apps/developer/data-platform/reference/about-entity-reference)  
+[Dataverse Web API Reference](/power-apps/developer/data-platform/webapi/reference/about)   
+<xref:Microsoft.Dynamics.CRM.sla?displayProperty=fullName>

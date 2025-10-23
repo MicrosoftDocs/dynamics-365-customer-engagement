@@ -1,7 +1,6 @@
 ---
 title: "The Discovery Web Service URL could not be resolved | Microsoft Docs"
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

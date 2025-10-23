@@ -2,7 +2,6 @@
 title: "Dynamics 365 Customer Engagement Web API Versions (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Read how versioning of Dynamics 365 Customer Engagement Web API works. Dynamics 365 Customer Engagement Web API versions support version specific differences in the same environment, which is different from the behavior in the v8.x releases in which new capabilities were additive"
 ms.custom: 
-ms.date: 04/15/2019
 ms.reviewer: pehecke
 
 ms.suite: 

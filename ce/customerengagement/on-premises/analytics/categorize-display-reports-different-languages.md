@@ -2,7 +2,6 @@
 title: "Display reports in different languages in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to display and categorize reports in different languages with Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 06/28/2021
 ms.reviewer: 
 
 ms.suite: 

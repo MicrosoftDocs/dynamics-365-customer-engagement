@@ -1,23 +1,21 @@
 ---
 title: Integrate your own custom channel using Direct Line
 description: This article provides information on how you can integrate custom messaging channels using Direct Line API 3.0.
-ms.date: 07/19/2022
+ms.date: 06/27/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.custom: bap-template
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 ---
 # Integrate your own custom channel using Direct Line
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+With Dynamics 365 Contact Center, you can implement a connector to integrate custom messaging channels by using Direct Line API 3.0, that's part of .NET SDK. The complete [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel) illustrates how you can create your own connector. To learn more about the Direct Line API 3.0, see [Key concepts in Direct Line 3.0 API](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0&preserve-view=true).
 
-With Omnichannel for Customer Service, you can implement a connector to integrate custom messaging channels by using Direct Line API 3.0, that's part of .NET SDK. The complete [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel) illustrates how you can create your own connector. To learn more about the Direct Line API 3.0, see [Key concepts in Direct Line 3.0 API](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0&preserve-view=true).
-
-This article explains how a channel is connected to the Microsoft Direct Line Bot Framework, which is internally attached to Omnichannel for Customer Service. The following section includes code snippets that use Direct Line API 3.0 to create a Direct Line client and the `IChannelAdapter` interface to build a sample connector.
+This article explains how a channel is connected to the Microsoft Direct Line Bot Framework, which is internally attached to Dynamics 365 Contact Center. The following section includes code snippets that use Direct Line API 3.0 to create a Direct Line client and the `IChannelAdapter` interface to build a sample connector.
 
 > [!Note]
-> The source code and documentation describe the overall flow of how the channel can connect to Omnichannel for Customer Service through Direct Line, and don't focus on aspects of reliability and scalability.
+> The source code and documentation describe the overall flow of how the channel can connect to Dynamics 365 Contact Center through Direct Line, and don't focus on aspects of reliability and scalability.
 
 ## Components
 
@@ -120,8 +118,8 @@ This Activity object includes the following attributes:
 |**id**| Indicates the identifier that the adapter uses to respond to outbound messages. |
 |**channelData**| Indicates channel data that consists of `channelType`, `conversationcontext`, and `customercontext`. |
 |**channelType**| Indicates the channel name through which the customer is sending messages. For example, MessageBird, KakaoTalk, Snapchat |
-|**conversationcontext**| Refers to a dictionary object that holds the context variables defined in the workstream. Omnichannel for Customer Service uses this information to route the conversation to the right agent. For example:<br>"conversationcontext ":{ "ProductName" : "Xbox", "Issue":"Installation" }<br>In this example, the context routes the conversation to the agent who deals with Xbox installation.|
-|**customercontext**| Refers to a dictionary object that holds the customer details such as phone number and email address. Omnichannel for Customer Service uses this information to identify the user's contact record.<br>"customercontext":{ "email":email@email.com, "phonenumber":"1234567890" }|
+|**conversationcontext**| Refers to a dictionary object that holds the context variables defined in the workstream. Dynamics 365 Contact Center uses this information to route the conversation to the right customer service representative (service representative or representative). For example:<br>"conversationcontext ":{ "ProductName": "Xbox", "Issue":"Installation" }<br>In this example, the context routes the conversation to the service representative who deals with Xbox installation.|
+|**customercontext**| Refers to a dictionary object that holds the customer details such as phone number and email address. Dynamics 365 Contact Center uses this information to identify the user's contact record.<br>"customercontext":{ "email":email@email.com, "phonenumber":"1234567890" }|
 
 ```javascript
   /// <summary>
@@ -192,7 +190,7 @@ The sample JSON payload is as follows:
 
 3. Send the activity to the message relay processor.
 
-After building the activity payload, it calls the message relay processor's PostActivityAsync method to send the activity to Direct Line. The channel adapter should also pass the event handler, which the relay processor will invoke when it receives an outbound message from Omnichannel for Customer Service through Direct Line.
+After building the activity payload, it calls the message relay processor's PostActivityAsync method to send the activity to Direct Line. The channel adapter should also pass the event handler, which the relay processor invokes when it receives an outbound message from Dynamics 365 Contact Center through Direct Line.
 
 #### Process outbound activities
 
@@ -265,7 +263,7 @@ The channel adapter calls the REST API to send an outbound response to the chann
 
 ### Message relay processor
 
-The message relay processor receives the inbound activity from the channel adapter and does the activity model validation. Before sending this activity to Direct Line, the relay processor checks whether the conversation is active for the particular activity.
+The message relay processor receives the inbound activity from the channel adapter and does the activity model validation. The relay processor checks whether the conversation is active for the particular activity, before sending this activity to Direct Line
 
 To look up whether the conversation is active, the relay processor maintains a collection of active conversations in a dictionary. This dictionary contains key as User ID, which uniquely identifies the user and Value as an object of the following class:
 
@@ -292,7 +290,7 @@ public class DirectLineConversation
 }
 ```
 
-If conversation is not active for the activity received by the relay processor, it does the following steps:
+If conversation isn't active for the activity received by the relay processor, it does the following steps:
 
 1. Starts a conversation with Direct Line and stores the conversation object sent by Direct Line against the user ID in the dictionary.
 
@@ -388,7 +386,7 @@ private async Task PollActivitiesFromBotAsync(string conversationId, Activity in
 ```
 
 > [!NOTE]
-> At the heart of the code that receives the message is the GetActivitiesAsync method that takes `ConversationId` and `watermark` as parameters. The purpose of the `watermark` parameter is to retrieve the messages that aren't yet delivered by Direct Line. If the watermark parameter is specified, the conversation replays from the watermark, so that no messages are lost.
+> At the heart of the code that receives the message is the GetActivitiesAsync method that takes `ConversationId` and `watermark` as parameters. The purpose of the `watermark` parameter is to retrieve the messages that aren't delivered by Direct Line. If the watermark parameter is specified, the conversation replays from the watermark, so that no messages are lost.
 
 ### Send the activity to Direct Line
 
@@ -416,12 +414,25 @@ If the conversation is active for the activity received by the relay processor, 
 
 To end the conversation, see [End a conversation in Direct Line](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-end-conversation?view=azure-bot-service-4.0&preserve-view=true).
 
+## Markdown formats in custom channels
+
+You can send and receive messages formatted with Markdown in custom messaging channels using Direct Line API 3.0. Understanding how the Markdown format is passed through the channel and knowing the details of the format helps you update the HTML styling and tags in your own user interface.
+
+In the Direct Line channel, when a customer service representative (service representative or representative) sends (*outbound*) a message formatted with Markdown to a Direct Line bot, the bot receives the message in a certain format. Now, if a bot receives (*inbound*) a formatted message from a customer, it must be able to correctly interpret the message that's formatted with Markdown. As a developer, you need to use Markdown appropriately so that the message is formatted correctly for your service representatives and customers.
+
+Learn more about markdown formats in [Markdown formats for chat messages](../use/markdown-formats-agents.md#markdown-formats-for-chat-messages).
+
+> [!Note]
+> - Currently, we don't support the **<Shift + Enter>** key combination to add multiple line breaks.
+> - For inbound messages, set the Markdown text to the [Activity](/azure/bot-service/rest-api/bot-framework-rest-connector-api-reference?view=azure-bot-service-4.0#activity-object&preserve-view=true) object's `text` property.
+> - For outbound messages, the Markdown text is received in the [Activity](/azure/bot-service/rest-api/bot-framework-rest-connector-api-reference?view=azure-bot-service-4.0#activity-object&preserve-view=true) object's `text` property (similar to a normal message).
+
+
 ## Next steps
 
 [Support for live chat and asynchronous channels](../administer/card-support-in-channels.md)  
-[Markdown formats in custom channels that use Direct Line](../develop/markdown-formats-dev.md)   
 
-### See also
+### Related information
 
 [Configure custom messaging channel](../administer/configure-custom-channel.md)  
 [MessageBird API reference](https://developers.messagebird.com/api)  

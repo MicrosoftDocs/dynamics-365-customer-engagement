@@ -2,7 +2,6 @@
 title: "Sample Dynamics 365 Report Authoring Extension XML configuration file | Microsoft Docs"
 description: Use the sample reporting authoring extension Setup XML configuration file with Dynamics 365 Customer Engagement (on-premises) 
 ms.custom: ""
-ms.date: "10/01/2018"
 
 ms.reviewer: ""
 ms.suite: ""

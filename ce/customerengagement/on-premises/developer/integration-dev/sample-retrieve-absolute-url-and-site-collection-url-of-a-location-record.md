@@ -2,7 +2,6 @@
 title: "Sample: Retrieve absolute URL and site collection URL of a location record | MicrosoftDocs"
 description: Learn how to retrieve the absolute URL and site collection URL of a location record with this code sample for Dynamics 365 Customer Engagement (on-premises).
 keywords: 
-ms.date: 10/31/2017
 
 ms.custom: 
 ms.topic: sample

@@ -2,7 +2,6 @@
 title: "Extend Dynamics 365 Customer Engagement (on-premises) (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Understand the different ways you can write code to change how a Dynamics 365 Customer Engagement (on-premises) system works, build your own application using it, or integrate the system with other products."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

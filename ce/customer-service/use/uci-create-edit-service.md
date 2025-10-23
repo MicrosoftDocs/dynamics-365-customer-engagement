@@ -1,16 +1,18 @@
 ---
 title: Create or edit a service | Microsoft Docs
 description: Create or edit a service in Dynamics 365 Customer Service.
-ms.date: 10/05/2020
-ms.topic: article
-author: lalexms
-ms.author: laalexan
+ms.date: 05/20/2025
+ms.topic: how-to
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
   - enduser
 ms.custom: 
-  - dyn365-customerservice
+- bap-template
+- evergreen
 ---
 
 # Create or edit a service
@@ -27,9 +29,9 @@ A service requires at least one selection rule and one or more resources, resour
 
 1. Make sure that you have the Manager, Vice President, CEO-Business Manager, System Administrator, or System Customizer security role or equivalent permissions. 
 
-2. Navigate to the Customer Service admin center or Customer Service Hub app, and perform the following steps:
+2. Navigate to the Copilot Service admin center or Customer Service Hub app, and perform the following steps:
 
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+   ### [Copilot Service admin center](#tab/copilotserviceadmincenter)
 
     1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
     1. In the **Service** section, select **Manage**.
@@ -43,17 +45,17 @@ A service requires at least one selection rule and one or more resources, resour
        
        The **Active Services** view is displayed. You can switch between various system views using the drop-down list.
     
-3. Do one of the following:
+3. Do one of the following actions:
    - To create a new service, select **New**.
    - To edit a service, open a service from the list.
 
 4. Type or modify information in the text boxes. 
 
-    a. Under **General**, enter a name and description to reflect the specifics of the service and describes what the service is. Also, specify the initial status of the service activity when it is created. If your organization prefers to approve all service activities before committing them to the schedule, you can select **Requested** or **Tentative**.
+    a. Under **General**, enter a name and description to reflect the specifics of the service and describes what the service is. Also, specify the initial status of the service activity when it's created. If your organization prefers to approve all service activities before committing them to the schedule, you can select **Requested** or **Tentative**.
     
-    b. Under **Scheduling**, in **Default Duration**, select how long the service lasts. This can be changed when the service activity is created. The maximum duration of an appointment or service activity is 10 days. 
+    b. Under **Scheduling**, in **Default Duration**, select how long the service lasts. This value can be changed when the service activity is created. The maximum duration of an appointment or service activity is 10 days. 
 
-    c. In **Start Activities Every**, select how often service activities can start. This allows the start times of service activities to be staggered.
+    c. In **Start Activities Every**, select how often service activities can start. This value allows the start times of service activities to be staggered.
     
     d. In **Beginning At**, select the time when the service activities must begin.
   
@@ -81,7 +83,7 @@ You can make a service available or unavailable for scheduling by activating or 
    ![Activate or deactivate service.](../media/uci-activate-deactivate-service.png "Activate or deactivate a service")
 
 
-### See also  
+### Related information  
 
 [Unified Interface-based service scheduling overview](uci-scheduling-overview.md)
 

@@ -1,33 +1,23 @@
 ---
 title: Enable formatted messages
-description: Use this topic to understand how to enable your agents to send and receive formatted messages in Omnichannel for Customer Service.
+description: Use this topic to understand how to enable your representatives to send and receive formatted messages in Dynamics 365 Contact Center.
 author: gandhamm
 ms.author: mgandham
-ms.date: 01/17/2023
+ms.date: 06/26/2025
 ms.topic: how-to
 ms.custom: bap-template
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 ---
 
 # Enable formatted messages
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-Your agents can send and receive messages formatted using Markdown.
+Your customer service representatives (service representatives or representatives) can send and receive messages formatted using Markdown.
 
-**To enable your agents to send and receive formatted messages**
+**To enable your representatives to send and receive formatted messages**
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-     
-    - In the site map, in **Agent experience**, select **Productivity**.
-   
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter) 
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-     - In the site map, in **Advanced settings**, select **Agent experience**.
+1. In the site map of Copilot Service admin center, in **Support experience**, select **Productivity**.
 
 1. For **Message formatting**, select **Manage**.
 
@@ -37,11 +27,11 @@ Your agents can send and receive messages formatted using Markdown.
 
 ## Next steps
 
-[Markdown formats for agents](../use/markdown-formats-agents.md)  
+[Markdown formats for representatives](../use/markdown-formats-agents.md)  
 
-### See also
+### Related information
 
 [Support for formatted messages](card-support-in-channels.md#support-for-formatted-messages)  
-[Markdown formats in custom channels that use Direct Line](../develop/markdown-formats-dev.md)  
+[Markdown formats in custom channels that use Direct Line](../develop/bring-your-own-channel.md#markdown-formats-in-custom-channels)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

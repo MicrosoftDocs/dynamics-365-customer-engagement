@@ -5,11 +5,13 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 05/10/2024
+ms.date: 06/04/2025
 ms.custom: bap-template
 ---
 
 # Use FetchXML query to filter records
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 This article discusses how to download the FetchXL query and edit it in the Configuration Management tool.
 
@@ -44,9 +46,9 @@ This article discusses how to download the FetchXL query and edit it in the Conf
 
 ## Next steps
 
-[Migrate configuration data for records](migrate-config-data-for-records.md)  
+[Migrate configuration data for records](migrate-record-routing-config-using-solutions.md)  
 
-### See also
+### Related information
 
 [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data)  
 [Overview of data migration for records](migrate-config-data-for-records-overview.md)  

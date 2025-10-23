@@ -2,7 +2,6 @@
 title: "Create data maps for import (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Data maps are required to import data, and contain mappings between the data contained in the source file and the respective entity attributes."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

@@ -1,23 +1,16 @@
 ---
-title: "Configure sales accelerator settings for sellers to personalize"
-description: "Use personal settings to determine what happens when an activity is complete."
+title: Configure sales accelerator settings for sellers to personalize
+description: Use personal settings to determine what happens when an activity is complete.
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 03/15/2024
+ms.date: 07/09/2025
 ---
 
 # Configure sales accelerator settings for sellers to personalize
 
 The personalize sales accelerator settings allows sellers determine what happens when you complete an activity. 
-
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## What can you configure?
 
@@ -51,8 +44,7 @@ For example, let’s look at the following scenarios and understand the enhanced
 
 1. On the **Sequences** page, select **Settings**.    
 
-    >[!div class="mx-imgBorder"]
-    >![Select Settings.](media/sa-sequence-settings.png "Select Settings")        
+    :::image type="content" source="media/sa-sequence-settings.png" alt-text="Screenshot of selecting Settings on the Sequences page.":::                
 
 1. On the **Settings** page, select **Seller availability**.      
 
@@ -78,8 +70,7 @@ For example, let’s look at the following scenarios and understand the enhanced
 
     1.	On the **Sequence options** pane, under the **Wait time computation** section, clear the check box for **Skip non-working days**. 
 
-        >[!div class="mx-imgBorder"]
-        >![Disable wait time computation for a sequence.](media/sa-disable-wait-time-computation.png "Disable wait time computation for a sequence") 
+        :::image type="content" source="media/sa-disable-wait-time-computation.png" alt-text="Screenshot of disabling wait time computation for a sequence."::: 
 
 1. Select **Save**.
 
@@ -95,20 +86,17 @@ Follow these steps:
 
 3. On the **Sequences** page, select **Settings**.    
 
-    >[!div class="mx-imgBorder"]
-    >![Select Settings.](media/sa-sequence-settings.png "Select Settings")        
+    :::image type="content" source="media/sa-sequence-settings.png" alt-text="Screenshot of selecting Settings on the Sequences page.":::        
 
 4. On the **Settings** page, select **Sequence activities**.      
 
-    >[!div class="mx-imgBorder"]
-    >![Select Sequence activities on the settings page.](media/sa-configure-sequence-activities.png "Select Sequence activities on the settings page")  
+    :::image type="content" source="media/sa-configure-sequence-activities.png" alt-text="Screenshot of selecting Sequence activities on the Settings page.":::  
 
 5. Turn on the **Create linked activities** toggle.
 
     Select the **Exclude phone call activities** checkbox to avoid creating a duplicate phone call activity when you're using Dynamics 365 Channel Integration Framework as your phone system. If you don't select this option, a duplicate phone call activity is created on the timeline and a duplicate activity is created when the step is waiting to be completed on the record.
 
-    >[!div class="mx-imgBorder"]
-    >![Enable Create linked activities.](media/sa-personal-settings-enable-precreate-linked-activities.png "Enable Create linked activities")
+    :::image type="content" source="media/sa-personal-settings-enable-precreate-linked-activities.png" alt-text="Screenshot of enabling Create linked activities.":::
 
     >[!NOTE]
     >When turned off, activities will not be created automatically. However, activities are created on the timeline only when sellers select the activity in the **Up next** widget.   
@@ -139,13 +127,11 @@ Follow these steps:
 
 3. On the **Sequences** page, select **Settings**.    
 
-    >[!div class="mx-imgBorder"]
-    >![Select Settings.](media/sa-sequence-settings.png "Select Settings")        
+    :::image type="content" source="media/sa-sequence-settings.png" alt-text="Screenshot of selecting Settings on the Sequences page.":::        
 
 4. On the **Settings** page, select **Sequence reporting**.
 
-    >[!div class="mx-imgBorder"]
-    >![Enable sales acceleration reporting.](media/sa-enable-sales-acceleration-reporting.png "Enable sales acceleration reporting")        
+    :::image type="content" source="media/sa-enable-sales-acceleration-reporting.png" alt-text="Screenshot of enabling sales acceleration reporting.":::        
 
 5. Turn on the toggle.   
 
@@ -165,6 +151,9 @@ To know how sales managers use:
 
 When a phone system is configured in your organization, sellers can make calls directly through the sales accelerator feature. Under **Phone number priority**, select the phone numbers for **Default**, **Fallback1**, and **Fallback2**. When sellers initiate calls through a sequence step or the work list, the softphone chooses the phone numbers in the order they're listed.
 
+>[!IMPORTANT]
+>To use the phone number priority feature, you must have configured an [active channel provider](/dynamics365/channel-integration-framework/v1/administer/configure-channel-provider-channel-integration-framework) and enabled [Teams calling](configure-microsoft-teams-dialer.md) for your organization.
+
 For example, you can select **Business Phone** in **Default**, **Mobile Phone** in **Fallback1**, and **Home Phone** in **Fallback2**. When sellers initiate a call, the number in the **Default** option is dialed if it's available. If it isn't available, the call goes to the next option.
 
 Follow these steps:
@@ -175,13 +164,11 @@ Follow these steps:
 
 3. On the **Sequences** page, select **Settings**.    
 
-    >[!div class="mx-imgBorder"]
-    >![Select settings.](media/sa-sequence-settings.png "Select settings")        
+    :::image type="content" source="media/sa-sequence-settings.png" alt-text="Screenshot of selecting Settings on the Sequences page.":::        
 
-4. On the **Settings** page, select **Phone number priority**.      
+4. On the **Settings** page, select **Phone number priority**.  
     
-    >[!div class="mx-imgBorder"]
-    >![Configure the phone number priority for calling customers.](media/sa-phone-number-priority.png "Configure the phone number priority for calling customers")      
+    :::image type="content" source="media/sa-phone-number-priority.png" alt-text="Screenshot of configuring the phone number priority for calling customers.":::      
 
 5. Select phone number options for **Default**, **Fallback1**, and **Fallback2**.
 
@@ -190,12 +177,8 @@ Follow these steps:
 >[!NOTE]
 >For opportunities, the phone number priority will be applied to the primary contacts.
 
-
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [Personalize sales accelerator](personalize-sales-accelerator.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
-

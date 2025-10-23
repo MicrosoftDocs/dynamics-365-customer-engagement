@@ -2,12 +2,11 @@
 title: "Create a virtual entity in Dynamics 365 Customer Engagement (on-premises)"
 description: "A virtual entity is a custom entity with fields containing data from an external source. Learn about their benefits and the steps for creating them."
 ms.custom: 
-ms.date: 11/09/2018
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 44834893-0bf6-4a64-8f06-7583fe08330d
@@ -135,7 +134,7 @@ You create fields for a Data Source in the same way as any other entity. For dat
   
 - Many features that affect entity table rows cannot be enabled with virtual entities.  Examples include queues, knowledge management, SLAs, duplicate detection, change tracking, mobile offline  capability, field security, Relevance Search, Portals for Dynamics 365 Customer Engagement (on-premises) web portal solutions, and N:N relationships between virtual entities.  
   
-- Virtual entities are organization owned and don't support the row-level Commond Data Service for Apps security concepts. We recommend that you implement your own security model for the external data source.  
+- Virtual entities are organization owned and don't support the row-level Common Data Service for Apps security concepts. We recommend that you implement your own security model for the external data source.  
   
 - We recommend that you target a single data source when you use virtual entities in Advanced Finds. For example, creating an  Advanced Find that ultimately creates a join between the Dataverse native data and the virtual entity external data isn't supported.  
    

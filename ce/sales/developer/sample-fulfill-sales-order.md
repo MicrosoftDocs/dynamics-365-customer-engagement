@@ -27,7 +27,7 @@ This sample code is for Dynamics 365 Sales. Download the complete sample here [B
 ## Example  
  [!code-csharp[BusinessManagement#FulfillSalesOrder](../../snippets/csharp/CRMV8/businessmanagement/cs/fulfillsalesorder.cs#fulfillsalesorder)]  
   
-### See also  
+## Related information  
  [Sales Tables (Lead, Opportunity, Competitor, Quote, Order, Invoice)](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
  [Quote, order, and invoice tables](quote-order-invoice-entities.md)   
  <xref:Microsoft.Crm.Sdk.Messages.FulfillSalesOrderRequest>

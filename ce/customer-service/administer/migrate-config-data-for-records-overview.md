@@ -1,15 +1,18 @@
 ---
 title: Overview of data migration for records
-description: This article provides an overview of data migration in the records channel in Omnichannel for Customer Service.
+description: This article provides an overview of data migration in the records channel in Dynamics 365 Contact Center.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: overview
-ms.date: 08/02/2023
+ms.date: 01/31/2025
 ms.custom: bap-template
 ---
 
 # Overview of data migration for records
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 
 Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for the records that are based on unified routing.
 
@@ -51,14 +54,12 @@ Check for the following before you migrate your configuration data:
 Perform the steps in the following order to successfully migrate your configuration data from the source to the target organization. 
 
 1. [Use FetchXML query to filter records](use-fetchxml-filter-records.md)
-1. [Migrate configuration using a solution](migrate-config-data-for-records.md#migrate-configuration-using-a-solution)
-1. [Migrate skill-based routing rulesets](migrate-config-data-for-records.md#migrate-configuration-for-skill-based-routing-rulesets)
-1. [Migrate capacity profiles](migrate-config-data-for-records.md#migrate-configuration-for-capacity-profiles)
-1. [Migrate queues](migrate-config-data-for-records.md#migrate-configuration-for-record-queues)
-1. [Migrate intake rules](migrate-config-data-for-records.md#migrate-configuration-for-intake-rules-for-record-routing)
-1. [Migrate workstreams](migrate-config-data-for-records.md#migrate-configuration-for-record-workstreams)
-1. [Verify your data migration](migrate-config-data-verify.md)
-1. [Troubleshoot your data migration](migrate-config-data-troubleshoot.md)
+1. [Migrate configuration using a solution](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-session-templates-and-notification-templates)
+1. [Migrate skill-based routing rulesets](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-skill-based-routing-rulesets)
+1. [Migrate capacity profiles](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-capacity-profiles)
+1. [Migrate queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-record-queues)
+1. [Migrate intake rules and record workstreams](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-intake-rules-and-record-workstreams)
+
 
 > [!IMPORTANT]
 > The migration process doesn't include:
@@ -76,10 +77,10 @@ Perform the steps in the following order to successfully migrate your configurat
 [Use FetchXML query to filter records](use-fetchxml-filter-records.md)  
 
 
-### See also
+### Related information
 
 [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data)  
-[Migrate configuration data for records](migrate-config-data-for-records.md)  
+[Migrate configuration data for records](migrate-record-routing-config-using-solutions.md)  
 [Verify migration of records](migrate-config-data-verify.md)  
 [Troubleshoot migration of records](migrate-config-data-troubleshoot.md)  
 [Migrate configuration data for live chat](migrate-config-data-for-live-chat.md)  

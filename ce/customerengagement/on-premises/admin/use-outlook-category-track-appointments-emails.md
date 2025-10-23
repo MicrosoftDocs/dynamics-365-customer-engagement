@@ -2,19 +2,18 @@
 title: "Outlook category Tracked to Dynamics 365 for Customer Engagement (on-premises)"
 description: "Learn how to track emails, appointments, and tasks with the Tracked to Dynamics 365 special Outlook category, and get answers to frequently asked questions."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 8.x
 ms.assetid: e1c00214-52a0-48b1-824f-8c613772752f
 caps.latest.revision: 36
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 

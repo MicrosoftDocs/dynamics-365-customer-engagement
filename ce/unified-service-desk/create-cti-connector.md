@@ -1,21 +1,21 @@
 ---
-title: "Create a CTI Connector | MicrosoftDocs"
-description: "Learn how to create and define a CTI Connector component in Unified Service Desk. Also, understand how to configure a hosted control for the CTI Connector."
-ms.date: 01/25/2019
-ms.topic: article
+title: Create a CTI Connector 
+description: Learn how to create and define a CTI Connector component in Unified Service Desk. Also, understand how to configure a hosted control for the CTI Connector.
+ms.date: 05/15/2025
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Create a CTI Connector
 
 
 
-The [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] component in your custom CTI adapter contains the logic to connect to and communicate with an external CTI system. [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] consists of the [ICtiControl](/dotnet/api/microsoft.uii.desktop.cti.core.icticontrol) interface, which includes the [CtiHostedControl](/dotnet/api/microsoft.uii.desktop.cti.controls.ctihostedcontrol) class containing methods and events that will be called and listened to by the [!INCLUDE[pn_cti_desktop_manager](../includes/pn-cti-desktop-manager.md)] component.
+The [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] component in your custom CTI adapter contains the logic to connect to and communicate with an external CTI system. [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] consists of the [ICtiControl](/dotnet/api/microsoft.uii.desktop.cti.core.icticontrol) interface, which includes the [CtiHostedControl](/dotnet/api/microsoft.uii.desktop.cti.controls.ctihostedcontrol) class containing methods and events that are called and listened to by the [!INCLUDE[pn_cti_desktop_manager](../includes/pn-cti-desktop-manager.md)] component.
 
  [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] supports two models of interaction with CTI systems:
 
@@ -41,7 +41,7 @@ The [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] component in y
 
    1.  From the list of installed templates, expand **Visual C#**, and select **CRM SDK Templates** > **Unified Service Desk** > **USD CTI Connector**.
 
-   2.  Specify the name and location of the project, and click **OK**.
+   2.  Specify the name and location of the project, and select **OK**.
 
    ![Create a USD CTI Connector.](../unified-service-desk/media/usd-cti-connector.png "Create a USD CTI Connector")
 
@@ -58,10 +58,10 @@ The [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] component in y
 
 <a name="Configure"></a>
 ## Configure a hosted control for CTI Connector in Unified Service Desk
- After you have built your [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] control, you must configure it in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].
+ After you build your [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] control, you must configure it in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].
 
 > [!NOTE]
->  The [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] project also lets you define your [!INCLUDE[pn_cti_desktop_manager](../includes/pn-cti-desktop-manager.md)] component. You have to create two separate hosted controls, one each for the [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] and [!INCLUDE[pn_cti_desktop_manager](../includes/pn-cti-desktop-manager.md)], in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] after you have added the code for the latter in the [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a CTI Desktop Manager](../unified-service-desk/create-cti-desktop-manager.md)
+>  The [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] project also lets you define your [!INCLUDE[pn_cti_desktop_manager](../includes/pn-cti-desktop-manager.md)] component. You have to create two separate hosted controls, one each for the [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] and [!INCLUDE[pn_cti_desktop_manager](../includes/pn-cti-desktop-manager.md)], in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] after you add the code for the latter in the [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a CTI Desktop Manager](../unified-service-desk/create-cti-desktop-manager.md)
 
 1. Sign in to the Dynamics 365 instance.  
 

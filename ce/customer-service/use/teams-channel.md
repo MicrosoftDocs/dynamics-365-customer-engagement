@@ -1,19 +1,18 @@
 ---
-title: "Use Microsoft Teams channel | MicrosoftDocs"
-description: "This article provides an overview of Microsoft Teams channel and incoming chat notifications in the agent dashboard for Omnichannel for Customer Service."
-ms.date: 04/04/2022
-ms.topic: article
+title: Use Microsoft Teams channel
+description: This article provides an overview of Microsoft Teams channel and incoming chat notifications in the customer service representative dashboard.
+ms.date: 04/29/2025
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Use Microsoft Teams channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-## Agent dashboard for Teams channel
-
-When you sign in to Omnichannel for Customer Service, you can see your work items on the Omnichannel Agent Dashboard. More information: [View agent dashboard and agent conversations](oc-agent-dashboard.md)
+When you sign in you can see your work items on the customer service representative dashboard. More information: [View customer service representative dashboard and conversations](oc-agent-dashboard.md)
 
 ## Prerequisite
 
@@ -25,9 +24,9 @@ You'll receive a notification when a customer requests a conversation through Te
 
 
 > [!div class=mx-imgBorder]
-> ![Teams chat agent notification.](../media/incoming-chat-teams.png "Teams chat agent notification")
+> ![Teams chat representative notification.](../media/incoming-chat-teams.png "Teams chat representative notification")
 
-In Omnichannel for Customer Service, you can:
+In the application, you can:
 
 - [View customer information on Active Conversation form](oc-customer-summary.md).
 - [View the communication panel](oc-conversation-control.md).
@@ -36,7 +35,7 @@ In Omnichannel for Customer Service, you can:
 - [Manage sessions](oc-manage-sessions.md).
 - [Manage applications](oc-manage-applications.md).
 - Use these productivity tools:
-  - [Use agent scripts](oc-agent-scripts.md)
+  - [Use scripts](oc-agent-scripts.md)
   - [View smart-assist cards](oc-smart-assist.md)
   - [Use the productivity pane](../administer/productivity-pane.md)
 - [Create a record](oc-create-record.md).
@@ -52,7 +51,7 @@ In Omnichannel for Customer Service, you can:
 
 If your administrator has enabled the option to initiate voice and video calls (in preview) during the conversation, the options to use voice and video will be available on the communication panel menu.
 
-### See also
+### Related information
 
 [Configure a Microsoft Teams channel](../administer/configure-microsoft-teams.md)
 

@@ -5,6 +5,7 @@ ms.date: 04/04/2021
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # Live chat SDK Reference
 
@@ -45,7 +46,7 @@ The following JavaScript methods can be used to do various operations with the l
 | [`lcw:threadUpdate`](reference/events/lcw-threadUpdate.md) | This event is raised by live chat when an agent ends a conversation. |
 | [`lcw:getAgentAvailability`](reference/events/lcw-getAgentAvailability.md) | This event is raised when the [`getAgentAvailability`](reference/methods/getAgentAvailability.md) method returns a successful response. |
 
-### See also
+### Related information
 
 [Omnichannel for Customer Service for developers](omnichannel-developer.md)  
 

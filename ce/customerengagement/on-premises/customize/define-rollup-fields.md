@@ -2,7 +2,6 @@
 title: "Create rollup fields in Dynamics 365 Customer Engagement (on-premises)"
 description: "Rollup fields are designed to offer insights into data by aggregating values. Learn about the capabilities of rollup fields and things to consider."
 ms.custom: 
-ms.date: 04/23/2024
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -23,11 +22,11 @@ search.audienceType:
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Define rollup fields in Power Apps](/powerapps/maker/common-data-service/define-rollup-fields)
 
-Rollup fields are designed to help users obtain insights into data by monitoring key business metrics. A rollup field contains an aggregate value computed over the records related to a specified record, such as open opportunities of an account. Also, you’ll be able to aggregate data from the activities directly related to a record, such as emails and appointments, and activities indirectly related to a record via the Activity Party entity. In more complex scenarios, you can aggregate data over the hierarchy of records. As an administrator or customizer, you can define rollup fields by using the feature without needing a developer to write code.  
+Rollup fields are designed to help users obtain insights into data by monitoring key business metrics. A rollup field contains an aggregate value computed over the records related to a specified record, such as open opportunities of an account. Also, you can aggregate data from the activities directly related to a record, such as emails, appointments, and activities indirectly related to a record via the Activity Party entity. When you choose to include indirectly related activities, all related activities are considered regardless of participation type. For example, an Account record can appear in To, From, or CC fields for an email activity. However, the record doesn't consider related activities of other related entities. For instance, if Opportunity is a related entity of Account, a rollup field on the Account entity aggregating on activities doesn't include Activities related to the Opportunity entity. In more complex scenarios, you can aggregate data over the hierarchy of records. As an administrator or customizer, you can define rollup fields by using the feature without needing a developer to write code.  
   
-<a name="BKMK_benefitsandcapabilities"></a>   
 ## Rollup fields benefits and capabilities  
- The benefits and capabilities of rollup fields include the following:  
+
+Rollup fields include the following benefits and capabilities:  
   
 - Visual editing is easy. You can create rollup fields by using the Field Editor, just like you do when you create a regular field.  
   
@@ -35,7 +34,7 @@ Rollup fields are designed to help users obtain insights into data by monitoring
   
 - Full filter support for aggregation. You can set various filters for the source entity or related entity while setting multiple conditions.  
   
-- Seamless integration with the user interface. You can include the rollup fields in forms, views, charts and reports.  
+- Seamless integration with the user interface. You can include the rollup fields in forms, views, charts, and reports.  
   
 - Rollup fields are solution components. You can easily transport the rollup fields as components between organizations and distribute them in solutions.  
   
@@ -65,49 +64,49 @@ The _state field has the following values:
 |State|Description|  
 |-|-|  
 |0 => NotCalculated|The field value is yet to be calculated.|  
-|1 => Calculated|The field value has been calculated per the last update time in _date field.|  
+|1 => Calculated|The field value is calculated per the last update time in _date field.|  
 |2 => OverflowError|The field value calculation resulted in overflow error.|  
-|3 => OtherError|The field value calculation failed due to an internal error. The following run of the calculation job will likely fix it.|  
+|3 => OtherError|The field value calculation failed due to an internal error. The following run of the calculation job can likely fix it.|  
 |4 => RetryLimitExceeded|The field value calculation failed because the maximum number of retry attempts to calculate the value was exceeded due to high number of concurrency and locking conflicts.|  
 |5 => HierarchicalRecursionLimitReached|The field value calculation failed because the maximum hierarchy depth limit for the calculation was reached.|  
 |6 => LoopDetected|The field value calculation failed because a recursive loop was detected in the hierarchy of the record.|  
   
-<a name="BKMK_calculations"></a>   
 ## Rollup calculations  
- The rollups are calculated by scheduled system jobs that run asynchronously in the background. You have to be an administrator to view and manage the rollup jobs. To view the rollup jobs go to **Settings** > **System Jobs** > **View** > **Recurring System Jobs**. To quickly find a relevant job, you can filter by the System Job type: Mass Calculate Rollup Field or Calculate Rollup Field.  
+
+The rollups are calculated by scheduled system jobs that run asynchronously in the background. You have to be an administrator to view and manage the rollup jobs. To view the rollup jobs, go to **Settings** > **System Jobs** > **View** > **Recurring System Jobs**. To quickly find a relevant job, you can filter by the System Job type: Mass Calculate Rollup Field or Calculate Rollup Field.  
   
-- Mass Calculate Rollup Field is a recurring job, created per a rollup field. It runs once, after you created or updated a rollup field. The job recalculates the specified rollup field value in all existing records that contain this field. By default, the job will run 12 hours after you created or updated a field. After the job completes, it is automatically scheduled to run in the distant future, approximately, in 10 years. If the field is modified, the job resets to run again in 12 hours after the update. The 12 hour delay is needed to assure that the Mass Calculate Rollup Field runs during the non-operational hours of the organization. It is recommended that an administrator adjusts the start time of a Mass Calculate Rollup Field job after the rollup field is created or modified, in such a way that it runs during non-operational hours. For example, midnight would be a good time to run the job to assure efficient processing of the rollup fields.  
+- Mass Calculate Rollup Field is a recurring job, created per a rollup field. It runs once, after you created or updated a rollup field. The job recalculates the specified rollup field value in all existing records that contain this field. By default, the job will run 12 hours after you created or updated a field. After the job completes, it's automatically scheduled to run in the distant future, approximately, in 10 years. If the field is modified, the job resets to run again in 12 hours after the update. The 12 hour delay is needed to assure that the Mass Calculate Rollup Field runs during the nonoperational hours of the organization. It's recommended that an administrator adjusts the start time of a Mass Calculate Rollup Field job after the rollup field is created or modified, in such a way that it runs during nonoperational hours. For example, midnight would be a good time to run the job to assure efficient processing of the rollup fields.  
   
-- Calculate Rollup Field is a recurring job that does incremental calculations of all rollup fields in the existing records for a specified entity. There is only one Calculate Rollup Field job per entity. The incremental calculations mean that the Calculate Rollup Field job processes the records that were created, updated or deleted after the last Mass Calculate Rollup Field job finished execution. The default maximum recurrence setting is one hour. The job is automatically created when the first rollup field on an entity is created and deleted when the last rollup field is deleted.  
+- Calculate Rollup Field is a recurring job that does incremental calculations of all rollup fields in the existing records for a specified entity. There's only one Calculate Rollup Field job per entity. The incremental calculations mean that the Calculate Rollup Field job processes the records that were created, updated, or deleted after the last Mass Calculate Rollup Field job finished execution. The default maximum recurrence setting is one hour. The job is automatically created when the first rollup field on an entity is created and deleted when the last rollup field is deleted.  
   
-- Online recalculation option. If you hover over the rollup field on the form, you can see the time of the last rollup and you can refresh the rollup value by choosing the Refresh icon next to the field, as shown below:  
+- Online recalculation option. If you hover over the rollup field on the form, you can see the time of the last rollup and you can refresh the rollup value by choosing **Refresh** next to the field, as shown here:  
   
   ![Rollup field on the account form in Dynamics 365 for Customer Engagement.](../customize/media/rollup-field-on-account-form.png "Rollup field on the account form in Dynamics 365 for Customer Engagement")  
   
    There are a few considerations you should keep in mind when using the online recalculation option (manual refresh on the form):  
   
-  -   You have to have Write privileges on the entity and Read access rights on the source record on which you are requesting the Refresh. For example, if you are calculating the estimated revenue from the open opportunities of an account, you don’t have to have Write privileges on the opportunity entity, only on the account entity.  
+  -   You have to have Write privileges on the entity and Read access rights on the source record on which you're requesting the Refresh. For example, if you're calculating the estimated revenue from the open opportunities of an account, you don’t have to have Write privileges on the opportunity entity, only on the account entity.  
   
   -   This option is only available in the online mode. You can’t use it while working offline.  
   
-  -   The maximum number of records during the rollup refresh is limited to 50,000 records. In case of the hierarchical rollup, this applies to the related records across the hierarchy. If the limit is exceeded, you see an error message: “Calculations can’t be performed online because the calculation limit of 50,000 related records has been reached.” This limit does not apply when the rollup is automatically recalculated by the system jobs.  
+  -   The maximum number of records during the rollup refresh is limited to 50,000 records. In case of the hierarchical rollup, this applies to the related records across the hierarchy. If the limit is exceeded, you see an error message: “Calculations can’t be performed online because the calculation limit of 50,000 related records has been reached.” This limit doesn't apply when the rollup is automatically recalculated by the system jobs.  
   
-  -   The maximum hierarchy depth is limited to 10 for the source record. If the limit is exceeded, you see an error message: “Calculations can’t be performed online because the hierarchy depth limit of 10 for the source record has been reached.” This limit does not apply when the rollup is automatically recalculated by the system jobs.  
+  -   The maximum hierarchy depth is limited to 10 for the source record. If the limit is exceeded, you see an error message: “Calculations can’t be performed online because the hierarchy depth limit of 10 for the source record has been reached.” This limit doesn't apply when the rollup is automatically recalculated by the system jobs.  
   
-  As a system administrator, you can modify the rollup job recurrence pattern, postpone, pause or resume the rollup job. However, you can’t cancel or delete a rollup job. To pause, postpone, resume or modify the recurrence pattern, go to **Settings** > **System Jobs**. In **View**,  select Recurring System Jobs. On the nav bar, choose **Actions** and select the action you want. For the Mass Calculate Rollup Field job, the available selections are: Resume, Postpone, and Pause. For the Calculate Rollup Field job, the available selections are: Modify Recurrence, Resume, Postpone, and Pause.  
+  As a system administrator, you can modify the rollup job recurrence pattern, postpone, pause, or resume the rollup job. However, you can’t cancel or delete a rollup job. To pause, postpone, resume, or modify the recurrence pattern, go to **Settings** > **System Jobs**. In **View**,  select Recurring System Jobs. On the nav bar, choose **Actions** and select the action you want. For the Mass Calculate Rollup Field job, the available selections are: Resume, Postpone, and Pause. For the Calculate Rollup Field job, the available selections are: Modify Recurrence, Resume, Postpone, and Pause.  
   
-<a name="BKMK_businessscenarios"></a>   
 ## Rollup field business scenarios  
- Let’s take a look at several  rollup field scenarios. We’ll aggregate data for a record from the related records with and without using a hierarchy. We’ll also aggregate data for a record from related activities and activities indirectly related to a record via the Activitiy Party entity. In each example, we define the rollup field by using the Field Editor. To open the Field Editor, open solution explorer and expand **Components** > **Entities**. Select the entity you want and select **Fields**. Choose **New**. In the editor, provide the required information for the field, including the **Field Type** and **Data Type**. In the **Field Type**, select **Rollup**, after you have selected the data type. The data types include decimal or whole numbers, currency, and date/time. Choose the **Edit** button next to the **Field Type**. This takes you to the rollup field definition editor. The rollup field definition consists of three sections: **Source entity**, **Related entity** and **Aggregation**.  
+
+Let’s take a look at several  rollup field scenarios. We’ll aggregate data for a record from the related records with and without using a hierarchy. We’ll also aggregate data for a record from related activities and activities indirectly related to a record via the Activitiy Party entity. In each example, we define the rollup field by using the Field Editor. To open the Field Editor, open solution explorer and expand **Components** > **Entities**. Select the entity you want and select **Fields**. Choose **New**. In the editor, provide the required information for the field, including the **Field Type** and **Data Type**. In the **Field Type**, select **Rollup**, after you have selected the data type. The data types include decimal or whole numbers, currency, and date/time. Choose the **Edit** button next to the **Field Type**. This takes you to the rollup field definition editor. The rollup field definition consists of three sections: **Source entity**, **Related entity, and **Aggregation**.  
   
 -   In the **Source entity** section, you specify the entity for which the rollup field is defined and whether or not you aggregate over a hierarchy. You can add filters with multiple conditions to specify the records in the hierarchy you want to use for rollup.  
   
--   In the **Related entity** section, you specify the entity over which you aggregate. This section is optional when you choose to rollup over the hierarchy on the source entity. You can add filters with multiple conditions to specify which related records to use in the calculation. For example, you include the revenue from the open opportunities with an annual revenue greater than $1000.  
+-   In the **Related entity** section, you specify the entity over which you aggregate. This section is optional when you choose to rollup over the hierarchy on the source entity. You can add filters with multiple conditions to specify which related records to use in the calculation. For example, you include the revenue from the open opportunities with an annual revenue greater than $1,000.  
   
 -   In the **Aggregate** section, you specify the metric you want to compute. You can choose available aggregate functions, such as SUM, COUNT, MIN, MAX or AVG.  
   
 ### Aggregate data for a record from related records  
- In this example, a hierarchy is not used. The total estimated revenue is calculated for an account, from the related open opportunities.  
+ In this example, a hierarchy isn't used. The total estimated revenue is calculated for an account, from the related open opportunities.  
   
  ![Aggregate the estimated revenue for a Dynamics 365 for Customer Engagement account.](../customize/media/rollup-field-no-hierarchy.png "Aggregate the estimated revenue for a Dynamics 365 for Customer Engagement account")  
   
@@ -122,9 +121,9 @@ The _state field has the following values:
  ![Aggregate estimated revenue over account hierarchy.](../customize/media/rollup-field-hierarchy.png "Aggregate estimated revenue over account hierarchy")  
   
 ### Aggregate data for a record from all related activities  
- In this example, we calculate the total time spent and billed from all activities related to an account. This may include time spent on the phone, at appointments, or on  custom activities.  
+ In this example, we calculate the total time spent and billed from all activities related to an account. This might include time spent on the phone, at appointments, or on  custom activities.  
   
- In earlier releases, you could define a rollup field for an individual activity, such as a phone call, fax, or appointment. But, to achieve the result of the example shown below, you had to total the data by using the calculated fields. Now, you can do it all in one step by defining one rollup field for the Activity entity.  
+ In earlier releases, you could define a rollup field for an individual activity, such as a phone call, fax, or appointment. But, to achieve the result of the example shown here, you had to total the data by using the calculated fields. Now, you can do it all in one step by defining one rollup field for the Activity entity.  
   
  ![Rollup all activities for an account.](../customize/media/rollup-enhancements-activities.png "Rollup all activities for an account")  
   
@@ -143,8 +142,17 @@ The _state field has the following values:
  The following example shows how to calculate an average estimated revenue from related opportunities over a hierarchy of accounts. An average estimated revenue can be seen at each level in the hierarchy.  
   
  ![Average estimated revenue.](../customize/media/cust-rollup-enhancements-avg-over-hierarchy.png "Average estimated revenue")  
-  
-<a name="BKMK_considerations"></a>   
+
+### Currency rollup field calculation
+
+The currency rollup field value is calculated based on the this formula:
+
+```properties
+Sum Rollup Field's Value on SourceEntity = (Sum of CurrencyBaseFieldValues on RelatedEntity) * (ExchangeRate on SourceEntity)
+```
+
+Where **ExchangeRate** refers to the record-level exchange rate at the time the record was created or any currency field on the record was updated.
+
 ## Rollup field considerations  
  You should be aware of certain conditions and restrictions when working with rollup fields:  
   
@@ -152,21 +160,21 @@ The _state field has the following values:
   
 - A workflow can’t be triggered by the rollup field updates.  
   
-- A workflow wait condition cannot use a rollup field.  
+- A workflow wait condition can't use a rollup field.  
   
-- A rollup over the rollup field is not supported.  
+- A rollup over the rollup field isn't supported.  
   
 - A rollup can't reference a calculated field that uses another calculated field, even if all the fields of the other calculated field are on the current entity.
 
 - A rollup field doesn't update automatically if it uses a formula field that's dependent on time bound functions, such as `NOW()`, `UTCNOW()`, `ISUTCTODAY()`, or `UTCTODAY()`. The online recalculation option (manual refresh on the form) or **Recalculate** button must be used to calculate the latest rollup field value.
   
-- The rollup can only apply filters to the source entity or related entities, simple fields or non-complex calculated fields.  
+- The rollup can only apply filters to the source entity or related entities, simple fields or noncomplex calculated fields.  
   
 - A rollup can be done only over related entities with the 1:N relationship. A rollup can’t be done over the N:N relationships.  
   
 - A rollup can’t be done over the 1:N relationship for the Activity entity or the Activity Party entity.  
   
-- The business rules, workflows or calculated fields always use the last calculated value of the rollup field.  
+- The business rules, workflows, or calculated fields always use the last calculated value of the rollup field.  
   
 - A rollup field is aggregated under the system user context. All users are able to see the same rollup field value. You can control the rollup field visibility with the field level security (FLS), by restricting who can access the rollup field. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Field level security](../admin/field-level-security.md).  
   
@@ -179,7 +187,7 @@ The _state field has the following values:
   3.  Aggregated sum of Est. Revenue: $1000.00 + $2000.00 = $3000.00  
       As you can see, the precision rounding to two decimal points on the aggregated field is done before the aggregation is performed.  
   
-- Certain entity  forms, such as Account or Contact, out-of-the-box, contain the associated grids. For example, an Account form includes Contacts, Cases, Opportunities and other grids. Some of the records shown in the Account form grids are directly related to the account record; others, indirectly, through the relationships with other records. In comparison, the rollup field aggregation uses only direct relationships explicitly defined in the rollup field definition. No other relationships are considered. To illustrate the difference in behavior, let’s look at the following example.  
+- Certain entity  forms, such as Account or Contact, out-of-the-box, contain the associated grids. For example, an Account form includes Contacts, Cases, Opportunities, and other grids. Some of the records shown in the Account form grids are directly related to the account record; others, indirectly, through the relationships with other records. In comparison, the rollup field aggregation uses only direct relationships explicitly defined in the rollup field definition. No other relationships are considered. To illustrate the difference in behavior, let’s look at the following example.  
   
   1.  The account A1 has a primary contact, P1. The case C1 is associated  with the account  A1 (C1.Customer field  =  A1) and the case C2 is associated with the contact P1 (C2.Customer field = P1).  
   
@@ -187,15 +195,13 @@ The _state field has the following values:
   
   3.  The rollup field on the account entity, called Total Number of Cases, is used to count the cases associated with the account.  
   
-  4.  In the account rollup field definition, we specify the cases that have the Customer relationship with the account. After aggregation, the Total Number of Cases is equal to 1 (case C1). The case C2 is not included in the total, as it is directly related to the contact, not to the account, and can’t be explicitly defined in the account rollup field definition. As a result, the total number of cases returned by rollup operation doesn’t match the number of cases shown in the **Cases** grid.  
+  4.  In the account rollup field definition, we specify the cases that have the Customer relationship with the account. After aggregation, the Total Number of Cases is equal to 1 (case C1). The case C2 isn't included in the total, as it's directly related to the contact, not to the account, and can’t be explicitly defined in the account rollup field definition. As a result, the total number of cases returned by rollup operation doesn’t match the number of cases shown in the **Cases** grid.  
   
-### See also  
+### See also
+
  [Create and edit fields](../customize/create-edit-fields.md#BKMK_CreatingAndEditngFields)   
  [Define calculated fields](../customize/define-calculated-fields.md)   
  [Behavior and format of the Date and Time field](../customize/behavior-format-date-time-field.md)   
  [Query and visualize hierarchical data](../customize/query-visualize-hierarchical-data.md)   
- <!-- [Video: Rollup and Calculated Fields ](https://www.youtube.com/watch?v=RoahCH1p3T8&list=PLC3591A8FE4ADBE07&index=8)   
- [Video: Using Power BI](https://www.youtube.com/watch?v=PkQe4BFlBS8&list=PLC3591A8FE4ADBE07&index=3) -->
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

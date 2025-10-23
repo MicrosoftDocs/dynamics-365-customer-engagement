@@ -2,7 +2,6 @@
 title: "Actions on SharePoint location records (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: Learn how to create, retrieve, update, and delete Microsoft SharePoint location records in Dynamics 365 Customer Engagement (on-premises).
 ms.custom: 
-ms.date: 06/14/2018
 ms.reviewer: pehecke
 
 ms.suite: 
@@ -28,7 +27,7 @@ You can perform the actions described in this topic on Microsoft SharePoint loca
 
 ## Create, retrieve, update, and delete location records
 
-Using the [!INCLUDE[cc-dyn365-ce-web-services](../../includes/cc-dyn365-ce-web-services.md)] messages on the [SharePointSite](../entities/sharepointsite.md) and [SharePointDocumentLocation](../entities/sharepointdocumentlocation.md) entities, you can create, retrieve, update, and delete records. To perform these operations on the `SharePointSite` entity, you must have the System Administrator role in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. For a list of supported messages, see [SharePointSite Entity](../entities/sharepointsite.md) and [SharePointDocumentLocation Entity](../entities/sharepointdocumentlocation.md).  
+Using the [!INCLUDE[cc-dyn365-ce-web-services](../../includes/cc-dyn365-ce-web-services.md)] messages on the [SharePointSite](/power-apps/developer/data-platform/reference/entities/sharepointsite) and [SharePointDocumentLocation](/power-apps/developer/data-platform/reference/entities/sharepointdocumentlocation) entities, you can create, retrieve, update, and delete records. To perform these operations on the `SharePointSite` entity, you must have the System Administrator role in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. For a list of supported messages, see [SharePointSite Entity](/power-apps/developer/data-platform/reference/entities/sharepointsite) and [SharePointDocumentLocation Entity](/power-apps/developer/data-platform/reference/entities/sharepointdocumentlocation).  
 
 > [!NOTE]
 > Performing these operations on [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] location records only manipulates the data in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. It does not create, update, or delete the locations on the [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] server.  
@@ -70,7 +69,7 @@ _spDocLocId = _serviceProxy.Create(spDocLoc);
   
  [!code-csharp[SharePointIntegration#CRUDSharePointLocationRecords3](../../snippets/csharp/CRMV8/sharepointintegration/cs/crudsharepointlocationrecords3.cs#crudsharepointlocationrecords3)]  
   
- The absolute URL of the child object (document location in this example) is: “*Parent_URL*/*Relative_URL*”. So, in this example, the absolute URL of the document location is  `https://www.example.com/spdocloc`.  
+ The absolute URL of the child object (document location in this example) is: "*Parent_URL*/*Relative_URL*". So, in this example, the absolute URL of the document location is  `https://www.example.com/spdocloc`.  
   
  Relative URLs are typically provided when you want to create a location record lower down the hierarchy or as a child record.  
   

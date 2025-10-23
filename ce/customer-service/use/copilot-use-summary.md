@@ -1,32 +1,45 @@
 ---
-title: Use Copilot to summarize cases and conversations
-description: Learn how agents can use Copilot to summarize cases and conversations in Customer Service workspace.
+title: Use Copilot-generated case summaries
+description: Learn how representatives can use Copilot-generated case summaries to address and resolve customer issues in Dynamics 365 Customer Service.
 author: gandhamm 
 ms.author: mgandham 
-ms.reviewer: neeranelli 
+ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 03/07/2024
+ms.date: 07/28/2025
+ms.update-cycle: 180-days
 ms.custom: bap-template 
 ---
 
-# Use Copilot to summarize cases and conversations 
+# Use Copilot generated case summary
 
-You can use Copilot to summarize cases and conversations if your administrator has enabled this feature.
+[!INCLUDE[cc-feature-availability-cs-only](../../includes/cc-feature-availability-cs-only.md)]
 
-## Prerequisites
-
-Your administrator has enabled the Copilot conversation summary feature.
-
-## Summarize cases
 
 Copilot case summaries help you quickly understand the context of a case and resolve customer issues more efficiently. The case summary includes key information such as the case title, customer, subject, product, priority, case type, and description.
 
-### Get a case summary
+## Prerequisites
 
-The case summary appears as a card on the case form. When you open a case, the case summary card is collapsed by default so that your screen isn't cluttered with information. Select the card to expand the summary.
+- Your administrator has enabled the [Copilot case summary](/dynamics365/contact-center/administer/copilot-enable-summary) feature.
+- Your administrator has enabled the [Related record summary](../administer/copilot-map-custom-fields.md#include-related-record-summary) feature.
 
-:::image type="content" source="../media/copilot-case-summary.png" alt-text="Screenshot of a Copilot case summary.":::
+## View case summary
+
+In Copilot Service workspace, navigate to a case to view the case summary card.
+
+The case summary appears as a card on the case form. When you open a case, the case summary card is collapsed by default so that your screen isn't cluttered with information. Select the card to expand the summary. The placement of the summary card you see is based on the case form you are using. Learn more in [Use Copilot case summary in model-driven apps](/power-apps/user/copilot-case-summary). Based on the administrator's configuration, the case summary is displayed in a paragraph format or as a structured format.
+
+### [Paragraph format](#tab/paragraphformat)
+
+:::image type="content" source="../media/copilot-case-summary.png" alt-text="Screenshot of a paragraph Copilot case summary.":::
+
+### [Structured format](#tab/summaryformat)
+
+
+
+:::image type="content" source="../media/case-summary-structured.png" alt-text="Screenshot of a paragraph Copilot case summary.":::
+
+---
 
 You can copy the summary, refresh it, and provide feedback.
 
@@ -34,32 +47,19 @@ You can copy the summary, refresh it, and provide feedback.
 > - You can also generate a case summary for cases that are resolved or canceled.
 > - A case summary isn't generated if the descriptions added in the source case fields that Copilot uses are less than 38 words in English, without counting spaces.
 
-## Summarize conversations
+Alternatively, you can also generate a case summary from the **Ask a question** tab in the Copilot help pane. Learn more in [Summarize cases and ask about case data](/dynamics365/contact-center/use/use-ask-a-question#summarize-cases-and-ask-about-case-data).
 
-Copilot conversation summaries provide context and relay the steps that you took to solve the issue. You can summarize chat and transcribed voice conversations.
 
-> [!NOTE]
-> If your administrator has enabled auto-summarization for ongoing conversations, you get an AI-generated summary of the conversation along with the Copilot-generated conversation summary. The two summaries may be slightly different. [Learn more about auto-summarized conversations](cs-ai-generated-summary.md).
+## View related record summaries
 
-### Get a conversation summary
+If your administrator has enabled the related record summary, then the case summary card or custom record summary card displays the related record summaries at the top with the primary record summary.
 
-Based on your administrator's configuration, you'll see the following:
+You can do the following:
 
-- The Copilot conversation summary generated automatically when you request a consultation with another agent, transfer the conversation, or end the conversation. You can select **Summarize conversation** to generate the summary for an ongoing conversation.
-- The summary is displayed in a paragraph format or a structured format.
-  - The paragraph format summarizes the conversation in a single paragraph.
-     :::image type="content" source="../media/copilot-conv-summary.png" alt-text="Screenshot of a Copilot conversation summary.":::
-  - The structured format summarizes and organizes the information in the conversation based on the options your administrator has selected. 
-     :::image type="content" source="../media/structured-conv-summary.png" alt-text="Screenshot of a structured Copilot conversation summary.":::
-       
-You can also take the following actions:
+- View the related record summary, with the corresponding header such as record ID or title. Copilot displays two related record summaries by default.
+- Select **Show more related records** to view all related records to load two additional summaries at a time, repeating the process until all related records are displayed.
+- Select the record ID or header to open the full record in a new view.
 
-- Copy the summary.
-- Select **Create case** to create a case and populate the description with the summary, if your administrator has turned on this feature.
-- Share feedback about the summary.
-- Close the summary card.
+### Related information
 
-## Next steps
-
-[Use Copilot to solve customer issues](use-copilot-features.md)
-
+[Manage case and custom record summary](../administer/copilot-map-custom-fields.md)

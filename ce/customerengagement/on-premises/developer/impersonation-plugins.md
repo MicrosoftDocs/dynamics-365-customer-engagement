@@ -2,7 +2,6 @@
 title: "Impersonation in plug-ins (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Impersonation is used to execute business logic (custom code) on behalf of a system user to provide a desired feature or service for that user. Any business logic executed within a plug-in, including Web service method calls and data access, is governed by the security privileges of the impersonated user."
 ms.custom: on-premise
-ms.date: 1/24/2019
 ms.reviewer: pehecke
 
 ms.suite: 

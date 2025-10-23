@@ -1,7 +1,7 @@
 ---
 title: Set up Field Service integration with finance and operations applications
 description: Set up Dynamics 365 Field Service integration with finance and operations to synchronize inventories and budgeting items between the applications.
-ms.date: 04/19/2024
+ms.date: 05/20/2025
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
@@ -14,9 +14,16 @@ Set up the integration between Dynamics 365 Field Service and finance and operat
 ## Prerequisites
 
 - You have system administrator permissions.
-- Finance and operations applications have build version 10.0.39 (10.0.1860.56) and platform update 63 or later.
+- Finance and operations applications minimum advised build versions:
+   - 10.0.39 (10.0.1860.184)
+   - 10.0.40 (10.0.1935.112)
+   - 10.0.41 (10.0.2015.41)
 - [Human resources to bookable resource integration](/dynamics365/human-resources/hr-admin-integration-hr-rm) is installed.
-- Dynamics 365 Field Service version number is 8.8.114.26 or later.
+
+   > [!NOTE]
+   > The solution is currently only available in public regions. It isn't available in regions like GCC and GCC-High.
+
+- Dynamics 365 Field Service version number is 8.8.124.20 or later.
 
 ## Enable the integration from finance and operations applications
 
@@ -102,15 +109,13 @@ To ensure that the integration can successfully create item journals, [use defau
 
 To ensure that the integration can successfully integrate journals related to items that require location, we advise that all warehouses you plan to use with Field Service have **inventory and warehouse management** configured to define default locations. This configuration allows all work order products where the product's storage dimensions are configured to require location to successfully synchronize, even when created offline.
 
-<!--- Where/how is this done? https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sales-marketing/synchronize-warehouse isn't the right one. --->
-
 ## Enable the integration from Field Service
 
 ## Install and enable the solution
 
 1. In Field Service, change to the **Settings** area.
 
-1. Select the **Features** tab.
+1. In **Field Service Settings**, select the **Features** tab.
 
 1. Select **Install** for **Install Finance and Operations**. A notification appears when installation completes.
 
@@ -148,8 +153,6 @@ For hours journals, evaluate which project categories to use in Field Service wo
 ### Update security roles
 
 If your environment has custom security roles, add new table permissions. Updated predefined Field Service security roles enable users to see and modify the required virtual tables and new tables that this integration requires.
-
-<!--- which permissions? --->
 
 ### Align the work order to projects
 

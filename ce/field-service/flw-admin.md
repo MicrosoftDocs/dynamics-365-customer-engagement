@@ -1,7 +1,7 @@
 ---
 title: Set up Microsoft 365 integration for Field Service
 description: Learn how to integrate Dynamics 365 Field Service with Outlook, Teams, and Viva Connections for your organization, including setting up user groups, deploying apps, and assigning security roles.
-ms.date: 04/11/2024
+ms.date: 08/29/2025
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -11,6 +11,8 @@ ms.subservice: m365-integrations
 ---
 
 # Set up Microsoft 365 integration for Field Service
+
+[!INCLUDE [m365-fs-deprecate](../includes/microsoft365-field-service-deprecation.md)]
 
 As an administrator, your tasks to set up Microsoft 365 integrations for Dynamics 365 Field Service depend on which capabilities your organization decides to use:
 
@@ -29,14 +31,14 @@ Field Service for Outlook includes copilot AI capabilities to create work orders
 
 ### Prerequisites
 
-- You have global admin or Exchange admin permissions in the Microsoft 365 admin center
+- You have Exchange admin permissions in the Microsoft 365 admin center
 - Your environment is in a [supported geography, region, and language](flw-overview.md#supported-geographies-regions-and-languages)
 
 ### Deploy the Field Service for Outlook add-in
 
 To set up Field Service for Outlook capability for your organization, enable it as an Outlook Add-in. For more information, see [Install or remove add-ins for Outlook for your Exchange 2013 organization](/exchange/install-or-remove-outlook-add-ins-2013-help).
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/) as a global admin or Exchange admin.
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 
 1. Select **Settings** > **Integrated apps**, and then select **Get apps**. For more information, see [Deploy an Office Add-in using the admin center.](/microsoft-365/admin/manage/manage-deployment-of-add-ins?#deploy-an-office-add-in-using-the-admin-center)
 

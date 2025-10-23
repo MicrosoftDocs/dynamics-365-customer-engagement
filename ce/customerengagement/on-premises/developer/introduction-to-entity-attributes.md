@@ -2,7 +2,6 @@
 title: "Introduction to entity attributes (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: Learn about the different types of entity attributes for Dynamics 365 Customer Engagement (on-premises).
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

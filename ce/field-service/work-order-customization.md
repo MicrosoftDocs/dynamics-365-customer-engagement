@@ -1,8 +1,8 @@
 ---
 title: Customization considerations for the work order form
 description: Commonly mentioned considerations for customizations of the work order form in Dynamics 365 Field Service.
-ms.date: 11/27/2023
-ms.topic: conceptual
+ms.date: 09/02/2025
+ms.topic: article
 author: lmasieri
 ms.author: lmasieri
 ms.custom: bap-template
@@ -24,7 +24,7 @@ You can [customize the command bar](/power-apps/maker/model-driven-apps/use-comm
 
 ## Custom work order statuses
 
-Work order system statuses should *never* be edited because system jobs and plug-ins rely on these statuses. Instead, administrators can create custom work order substatuses that map to work order system statuses. For more information, see [Don't edit option set (choice) values](field-service-customization-best-practices.md#dont-edit-option-set-choice-values).
+Work order system statuses should *never* be edited because system jobs and plug-ins rely on these statuses. Instead, administrators can create custom work order substatuses that map to work order system statuses. For more information, see [Don't edit option set (choice) values](/dynamics365/guidance/resources/field-service-customize-best-practices#dont-edit-option-set-choice-values).
 
 ## Add Bing Maps to the work order form
 
@@ -138,14 +138,14 @@ To enable Bing Maps button in form designer, at least one of the attributes of t
 1. Import the solution to the affected environment.
 
 > [!TIP]
-> If the map control is still not visible on the form after following these steps, try removing the active form customizations.
+> If the map control is still not visible on the form after following these steps, try removing the active form customizations.
 
 ## Components for the new work order experience
 
 The new work order experience introduces several new code components for makers to use on their forms and views. The following sections list options and limitations for these code controls. For more information about working with code controls, see [Code controls in the Power Apps developer documentation](/power-apps/developer/component-framework/custom-controls-overview).
 
 > [!TIP]
-> Configure field level security to ensure users update only the intended fields. In some cases, for example if a field in a form is set to read-only, users might still update some fields. However, the system won't save the updated form if the user doesn't have the correct field level security.
+> Configure field-level security to ensure users update only the intended fields. For example, if a field in a form is set to read-only, users might still update some fields. The system doesn't save the updated form if the user doesn't have the correct field-level security.
 
 ### Work order form
 
@@ -217,7 +217,7 @@ If the control is placed in a three column form layout, the icon to open the ful
 
 #### Booking card
 
-A control that helps service managers ensure work orders are moving along by providing recommendations on the next action. For unscheduled work orders, it provides a booking suggestion, when scheduled it shows booking details, and when completing the work order, you see a summary.
+A control that helps service managers ensure work orders are moving along by providing recommendations on the next action. For unscheduled work orders, it suggests a booking. For scheduled work orders, it shows booking details. When you complete the work order, it provides a summary.
 
 - This control doesn't work with non-work order entities.
 - This control requires that the mapping of the system status, substatus, and primary resolution is configured correctly. Otherwise, the control fails to load. Specifically if the system status doesn't map to the right work order system status field.
@@ -228,13 +228,13 @@ A control that summarizes the cost and price for a work order based on the produ
 
 - This control works on custom work order forms.
 
-Make sure [cost and pricing features are enabled](configure-default-settings.md#work-order--booking-settings) to see data in this control. You can set a different NTE proximity value for this control than the one set for the work order.
+Make sure [cost and pricing features are enabled](configure-default-settings.md#work-order--booking-settings) to see data in this control. You can set a different not-to-exceed (NTE) proximity value for this control than the one set for the work order.
 
 #### Products and services subgrid
 
 A control that lets you edit the products and services in a work order. Update the estimated and actual duration and quantities inline and change the status. Detailed changes to fields are possible in the side pane.
 
-- This control works on custom work order forms. , keep the following limitations in mind.
+- This control works on custom work order forms.
 - The control is bound to work order products. You can choose to map a second entity:
   - Work order products: Services tab is blank
   - Work order services: Product tab gets bound to work order services but the tab still references products in the interface.
@@ -268,14 +268,14 @@ A control that allows you to see and link Knowledge Articles to a work order. Th
 
 #### References > Guides card
 
-A control that summarizes the linked Dynamics 365 Guides to tasks in the work order. You can't preview the Guides from the web, but you can see their name and their associated Folder.
+A control that summarizes the linked Dynamics 365 Guides for tasks in the work order. You can't preview the Guides on the web, but you can see their name and their associated folder.
 
 - This control can be used on custom work order forms.
-- This control can’t be used on non-work order entities as because it has a hard dependency on work order service tasks and the work order entity.
+- This control can’t be used on non-work order entities because it has a hard dependency on work order service tasks and the work order entity.
 
 #### References > Media card
 
-A control that shows thumbnails of the media that has been attached to timeline notes.
+A control that shows thumbnails of the media that is attached to timeline notes.
 
 - This control works on custom work order forms.
 - This control works on custom entities as long as the entity has activities and notes enabled, and the timeline control is present.
@@ -290,11 +290,11 @@ This control can't be applied to non-Work Order entities
 
 Known issues and limitations:
 
-- When applying this control to subgrids, the view selector doesn't show. Only the view selected in the Maker portal shows.
+- When you apply this control to subgrids, the view selector isn't visible. Only the view you select in the Maker portal is visible.
 - If you customized the work order grid, the new control doesn't render due to solution layering rules. Remove such customizations first to see the control.
 - The new grid experience doesn't support column filtering. Change to the **Read-Only Grid** to filter columns.
 - If you remove the new grid control from the environment, you can't install it again. Contact support for help.
-- The Booked Resources column (msdyn_bookingsummary) works only with the new work order experience. It's not supported on the classic grid view.
+- The **Booked Resources** column (`msdyn_bookingsummary`) works only with the new work order experience. It isn't supported in the classic grid view.
 
 #### Context menu
 

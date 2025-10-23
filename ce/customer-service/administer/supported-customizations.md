@@ -1,11 +1,11 @@
 ---
 title: Customizations supported by the Conversation table and form
-description: Learn about the customizations that you can and can't use with the Conversation table and form in Omnichannel for Customer Service.
+description: Learn about the customizations that you can and can't use with the Conversation table and form in Dynamics 365 Contact Center.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
-ms.topic: conceptual 
-ms.date: 08/08/2023
+ms.reviewer: nenellim
+ms.topic: how-to
+ms.date: 01/13/2025
 ms.custom: bap-template
 ---
 # Customizations supported by the Conversation table and form
@@ -114,6 +114,6 @@ Any updates to the following columns aren't supported:
 [Customize quick view forms](customize-quick-view-form.md)  
 [Customize session forms](customize-session-form.md)  
 
-### See also
+### Related information
 
 [Conversation columns](../develop/reference/entities/msdyn_ocliveworkitem.md)  

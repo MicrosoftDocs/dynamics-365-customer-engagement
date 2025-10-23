@@ -1,8 +1,8 @@
 ---
 title: "View and understand data through drill-down entities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "View and understand drill-down entities in a forecast in Dynamics 365 Sales."
-ms.date: 05/10/2022
-ms.topic: article
+ms.date: 10/10/2025
+ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -17,13 +17,6 @@ searchScope:
 
 The drill-down feature lets you break down the seller's forecast projections as a function of the contributing factors that you care about, such as Account and Product.
 
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
-
 ## How does forecast drill-down helps?
 
 Through a forecast, you'll have visibility into the pipeline amounts that your sellers are projecting for the period. Now you might want to know which accounts contribute to a specific seller's Committed value or maybe you want to know which products are contributing to a different seller's Won value. You can use the drill-down feature to break down your seller's forecast projections as a function of the contributing factors that you care about, such as Account and Product. The drill-down feature looks at the underlying records that are contributing to the value of the rollup column and groups them according to the selected drill-down option.
@@ -32,15 +25,13 @@ By viewing drill-down data, you can understand how the records in each group are
 
 Let's look at an example. **Amber Rodriguez** is a seller who's associated with four accounts. Amber's projected revenue for the current period is $400,000. **Kevin Smith**, Amber's sales manager, wants to understand how the revenue of $400,000 is broken down by each account. On the forecast page, Kevin chooses the Account drill-down option from the drop-down menu. Kevin, then selects the drill-down icon beside Amber's record to view a list of accounts that make each of Amber's forecast pipeline values.
 
-> [!div class="mx-imgBorder"]
-> ![Forecast drill-down view.](media/forecast-drill-down-view.png "Forecast drill-down view")
+:::image type="content" source="media/forecast-drill-down-view.png" alt-text="Screenshot of the forecast drill-down view in Dynamics 365 Sales.":::
 
 Before you start using the feature, an administrator or forecast manager must add the drill-down options to the forecast. To learn more, go to [Configure and manage drill-down entities](configure-manage-drill-downs.md).
 
 When a drill-down option is added to your forecast, a drop-down list is displayed below the **Grid** tab. The following screenshot is an example:
 
-> [!div class="mx-imgBorder"]
-> ![Drill-down option in forecast.](media/forecast-drill-down-sample-screen.png "Drill-down option in forecast")
+:::image type="content" source="media/forecast-drill-down-sample-screen.png" alt-text="Screenshot of the drill-down option in a forecast in Dynamics 365 Sales.":::
 
 ## Select a drill-down option
 
@@ -50,13 +41,11 @@ By default, when you open a forecast, no drill-down choice is selected and the i
 
 2.	Select the **Drill down by** list and choose the drill-down option on which you want to break down the data. For example, **Account**.
  
-    > [!div class="mx-imgBorder"]
-    > ![Select Account as drill-down choice.](media/forecast-drill-down-selection.png "Select Account as drill-down choice")
+    :::image type="content" source="media/forecast-drill-down-selection.png" alt-text="Screenshot of selecting Account as the drill-down choice in a forecast in Dynamics 365 Sales.":::
 
     The icon corresponding to each row turns blue and is now active. The data in the forecast is broken down into multiple groups according to the drill-down selection (**Account**).
 
-    > [!div class="mx-imgBorder"]
-    > ![Drill-down choice is active.](media/forecast-drill-down-active.png "Drill-down choice is active")
+    :::image type="content" source="media/forecast-drill-down-active.png" alt-text="Screenshot of the drill-down choice being active in a forecast in Dynamics 365 Sales.":::
 
 ## View and understand the drill-down data
 
@@ -69,8 +58,7 @@ For simple column types such as **Quota**, the values are displayed as **Not app
 >If you are unable to view the drill-down data, see [Unable to view drill down data in a forecast grid](ts-forecasts.md#unable-to-view-drill-down-data-in-a-forecast-grid). 
 
 At the bottom of the table, a **blank** row is created with values for the opportunities that aren't related to any account.    
-> [!div class="mx-imgBorder"]
-> ![View account drill-down details.](media/forecast-drill-down-account-drill-down.png "View account drill-down details")
+:::image type="content" source="media/forecast-drill-down-account-drill-down.png" alt-text="Screenshot of account drill-down details in a forecast in Dynamics 365 Sales.":::
 
 >[!NOTE]
 >- In the example, you can observe that the sum of all accounts' drill-down data matches the forecast data. If the data doesn't match, it might be that the forecast data is old. Drill-down is always calculated on live data. Select **Recalculate** to get the latest forecasting data to match with the drill-down data. More information: [Maintain up-to-date forecast data](keep-forecast-data-up-to-date.md)
@@ -87,7 +75,7 @@ More information: [View and manage underlying opportunities](view-and-manage-und
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-## See also
+## Related information
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
 [Configure and manage drill-down entities](configure-manage-drill-downs.md)   

@@ -2,12 +2,11 @@
 title: "Import an organization | Microsoft Docs"
 description: Learn how to import an organization in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
-ms.date: 10/01/2018
 
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: c4a9106e-26e2-482d-acd7-2f66b722efee

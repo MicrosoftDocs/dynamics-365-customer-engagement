@@ -2,12 +2,11 @@
 title: "Exporting and importing customizations and solutions | Microsoft Docs"
 description: Learn how to export and import solutions in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "10/01/2018"
 
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: concept-article
 applies_to: 
   - "Dynamics 365 (on-premises)"
 ms.assetid: feba0dbb-b51d-4ef2-bf9c-b4311ccee014

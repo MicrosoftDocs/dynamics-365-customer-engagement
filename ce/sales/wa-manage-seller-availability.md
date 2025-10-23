@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 03/15/2024
+ms.date: 04/16/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -25,13 +25,6 @@ This article covers how to set your sales team's availability. You can [set sell
 > [!NOTE]
 > Starting from  April 1, 2024, you can't set the seller's availability through Outlook. More information: [Deprecation of setting seller availability using Outlook calendar](deprecations-sales.md#set-seller-availability-using-outlook-calendar)
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | [Sales Manager](security-roles-for-sales.md) |
-
 ## Set your sellers' availability yourself
 
 The Sales Hub app offers three ways to set your sales team's work hours yourself:
@@ -46,7 +39,7 @@ To temporarily stop assigning sellers who are on vacation or otherwise unavailab
 
 Use the Work assignment settings to configure the sellers' work hours.
 
-1. Go to **Sales insight settings** > **Sales accelerator** > **Work assignment** > **settings** .
+1. Go to **Sales insight settings** > **Sales accelerator** > **Work assignment** > **Settings** .
 
 1. In the **Work assignment settings** page, select the seller from the list and then select **Set availability**.
 
@@ -67,7 +60,7 @@ In your assignment rules, create a seller attribute that's based on the seller's
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability)
 - [Set seller attributes](./wa-manage-seller-attributes.md)

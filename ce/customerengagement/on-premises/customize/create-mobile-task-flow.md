@@ -2,7 +2,6 @@
 title: "Create mobile task flow in Dynamics 365 for Customer Engagement (on-premises)"
 description: "Learn how to design a mobile task flow for common tasks your users perform. The flow will lead them through from start to finish so they don't miss a step."
 ms.custom: 
-ms.date: 08/19/2019
 ms.reviewer: 
 
 ms.suite: 

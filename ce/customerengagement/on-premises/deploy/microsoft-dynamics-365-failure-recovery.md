@@ -2,7 +2,6 @@
 title: "Dynamics 365 Customer Engagement (on-premises) failure recovery | Microsoft Docs"
 description: Understand failure recovery with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "10/01/2018"
 
 ms.reviewer: ""
 ms.suite: ""

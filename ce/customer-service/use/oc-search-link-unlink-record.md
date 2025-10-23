@@ -1,20 +1,20 @@
 ---
-title: Search, link, and unlink records in Omnichannel for Customer Service
-description: Learn how to search, link, and unlink records in Omnichannel for Customer Service. Also learn how to link records to conversations.
+title: Search, link, and unlink records in Dynamics 365 Contact Center
+description: Learn how to search, link, and unlink records. Also, learn how to link records to conversations.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
-ms.date: 06/08/2023
+ms.reviewer: nenellim
+ms.date: 06/11/2025
 ms.topic: how-to
 ms.custom: bap-template
 
 ---
 
-# Search, link, and unlink a record in Omnichannel for Customer Service
+# Search, link, and unlink a record 
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-The topic explains how to search for records, link a record to a conversation, and unlink the record from the conversation in Omnichannel for Customer Service.
+This article explains how to search for records, link a record to a conversation, and unlink the record from the conversation.
 
 You can search for records in two ways:
 
@@ -23,7 +23,7 @@ You can search for records in two ways:
 
 ## Search for records by using the inline search option
 
-When you accept an incoming conversation request and there's no customer record identified in Omnichannel for Customer Service, use the inline search option in the customer (**Contact** or **Account**) section and **Case** section to search for a contact or account and case, respectively. Inline search is based on the Lookup View and Quick Find View. You can search the fields (attributes) that are included in the Lookup View and Quick Find View fields.
+When you accept an incoming conversation request and there's no customer record identified in Dynamics 365 Contact Center, use the inline search option in the customer (**Contact** or **Account**) section and **Case** section to search for a contact or account and case, respectively. Inline search is based on the Lookup View and Quick Find View. You can search the fields (attributes) that are included in the Lookup View and Quick Find View fields.
 
 For the customer (**Contact** or **Account**) section, you can search for a Contact or Account record. By default, you can search by using the following fields.
 
@@ -51,7 +51,10 @@ During an inline search, the search results are displayed and you can select a r
 
 You can link one contact or account only in the customer (**Contact** or **Account**) section and one case in the **Case** section.
 
-If you close a linked conversation, the case won't be closed automatically.
+If you close a linked conversation, the case isn't closed automatically.
+
+> [!NOTE]
+> In Dynamics 365 Contact Center, you can't link a case if case management isn't available.
 
 ## Search for records by using relevance search
 
@@ -84,7 +87,7 @@ You can link and unlink one contact or account only in the customer (**Contact**
 
 ## Unlink a record from the conversation
 
-You can unlink a record only when you are interacting with a customer by using the communication panel. That is, after you accept an incoming conversation request and view the **Active Conversation** page, you can unlink the record from the conversation.
+You can unlink a record only when you're interacting with a customer by using the communication panel. That is, after you accept an incoming conversation request and view the **Active Conversation** page, you can unlink the record from the conversation.
 
  :::image type="content" source="../media/oceh-oc-unlink-customer.png" alt-text="default Case details section of the active conversation page"::: 
 
@@ -94,7 +97,7 @@ To unlink a record, select **Close** next to the customer name in the customer (
 > [!div class=mx-imgBorder]
 > ![Blank customer section after unlinking the record.](../media/oceh-oc-unlinked-form.PNG "Blank customer section after unlinking the record")
 
-### See also
+### Related information
 
 - [Understand conversation states](oc-conversation-state.md)
 - [View customer information on Active Conversation form](oc-customer-summary.md)

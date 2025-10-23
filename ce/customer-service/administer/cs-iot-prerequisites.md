@@ -2,9 +2,10 @@
 title: "Prerequisites for Setting Up Connected Customer Service for Azure IoT Central | MicrosoftDocs"
 description: "Prerequisites for setting up Connected Customer Service for Azure IoT Central."
 ms.date: 02/03/2020
-ms.topic: article
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ---
 
 

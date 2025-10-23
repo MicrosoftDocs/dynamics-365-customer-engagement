@@ -2,7 +2,6 @@
 title: "System users in Dynamics 365 Customer Engagement (on-premises)"
 description: "System users are created when the system is provisioned. Find info on the purpose of these users and details on security and permissions."
 ms.custom: 
-ms.date: 10/21/2021
 ms.reviewer: 
 
 ms.suite: 
@@ -12,8 +11,8 @@ applies_to:
    - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 
 caps.latest.revision: 4
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 

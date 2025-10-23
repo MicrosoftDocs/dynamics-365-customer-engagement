@@ -1,21 +1,20 @@
 ---
-title: "Set idle time threshold | Microsoft Docs"
-description: "Learn how to set the idle time threshold."
-ms.date: 02/29/2024
+title: Set idle time threshold
+description: Learn how to set the idle time threshold for your service representative in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
+ms.date: 06/11/2025
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Set the idle time threshold for average handle time
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-You can configure the idle time threshold to pause the handle time computation of an agent for an ongoing session when the agent is idle. More information: [Average handle time](../implement/intraday-insights-dashboard.md#average-handle-time).
+You can configure the idle time threshold to pause the handle time computation of a customer service representative (service representative or representative) for an ongoing session when the representative is idle. Learn more in [Average handle time](../implement/intraday-insights-dashboard.md#average-handle-time).
 
 ## How to set the idle time threshold
 
-In the Customer Service admin center app, select the **F12** key to open the command prompt, and then run the following:
+In the Copilot Service admin center app, select the **F12** key to open the command prompt, and then run the following:
 
 ```JavaScript
 let entityName = "msdyn_channelprovider"
@@ -46,8 +45,8 @@ Xrm.WebApi.retrieveMultipleRecords(entityName, "").then((result) => {
 });
 ```
 
-## See also
+## Related information
 
-[View and understand Ongoing Conversations dashboard](../use/ongoing-conversations-dashboard.md)
+[Ongoing conversation report in Omnichannel real-time analytics dashboard](../use/realtime-ongoing.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

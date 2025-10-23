@@ -1,7 +1,7 @@
 ---
 title: Access diagnostics for unified routing
 description: Learn how supervisors can access diagnostics for unified routing.
-ms.date: 05/09/2024
+ms.date: 04/29/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -17,7 +17,7 @@ ms.custom:
 # Access diagnostics for unified routing
 
 > [!IMPORTANT]
-> The diagnostics feature is deprecated as on May 09, 2024, and will be removed by July 01, 2024. For more information, see [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
+> The diagnostics feature is deprecated. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
 
 Supervisors can access the routing diagnostics for records and conversations that are handled through unified routing.
 
@@ -29,9 +29,9 @@ To access the diagnostics for records, such as cases, you must have the CSR Mana
 
 As a supervisor, you can access and view diagnostic reports of work items that have been routed through unified routing.
 
-**To view the diagnostics reports in Customer Service workspace**
+**To view the diagnostics reports in Copilot Service workspace**
 
-1. For a record such as case, in Customer Service workspace, go to the case details page.
+1. For a record such as case, in Copilot Service workspace, go to the case details page.
 
 2. On the page that appears, select **Related**, and then select **Routing diagnostics**. The diagnostics information for the case is displayed on the **Routing diagnostics** tab.
 
@@ -46,7 +46,7 @@ As a supervisor, you can access and view diagnostic reports of work items that h
 2. On the **Routing diagnostics** page, select the item for which you want to view the report.
 
 
-### See also
+### Related information
 
 [Diagnostics for unified routing](../administer/unified-routing-diagnostics.md)  
 [Overview of unified routing](../administer/overview-unified-routing.md)  

@@ -2,7 +2,6 @@
 title: "Delete data in bulk (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Helps maintain data quality and manage the consumption of system storage by deleting data that is no longer needed."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: nabuthuk
 
 ms.suite: 

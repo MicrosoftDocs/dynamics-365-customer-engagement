@@ -2,8 +2,6 @@
 title: "Dynamics 365 Customer Engagement (on-premises) reporting requirements | Microsoft Docs"
 description: Understand the requirements for running reports in Dynamics 365
 ms.custom: ""
-ms.date: 03/31/2021
-
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -35,7 +33,10 @@ author: Mattp123
  [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] is required for reporting features in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
  For [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] reporting, you can use the following [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] editions running on a [supported version of Windows Server](software-requirements-for-microsoft-dynamics-365-server.md#windows-server-operating-system):  
-  
+
+- Microsoft SQL Server 2022 Enterprise<sup>1</sup>
+- Microsoft SQL Server 2022 Standard<sup>1</sup>
+- Microsoft SQL Server 2022 Developer (for nonproduction use only)<sup>1</sup>
 - Microsoft SQL Server 2019 Enterprise
 - Microsoft SQL Server 2019 Standard
 - Microsoft SQL Server 2019 Developer (for non-production use only)
@@ -46,10 +47,13 @@ author: Mattp123
 - Microsoft SQL Server 2016 Standard, with Service Pack 2 or Service Pack 3
 - Microsoft SQL Server 2016 Developer, with Service Pack 2 or Service Pack 3 (for non-production use only) 
 
+<sup>1</sup>Requires [Service Update 1.25 for Microsoft Dynamics Customer Engagement v9 (on-premises)](https://support.microsoft.com/topic/-service-update-1-25-for-microsoft-dynamics-crm-on-premises-9-1-54bbb86c-1e34-4bea-92b9-dd2f45b74358)
+
 > [!IMPORTANT]
-> -   [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] Compact or [!INCLUDE[pn_ms_SQL_Server_Express_long](../includes/pn-ms-sql-server-express-long.md)] editions are not supported for use with [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].  
-> -   Using a [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] server running in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] mode is not supported with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For more information about SQL Server [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] mode, see [Reporting Services Report Server (SharePoint Mode)](/sql/reporting-services/report-server-sharepoint/reporting-services-report-server-sharepoint-mode?view=sql-server-2016&preserve-view=true).  
-  
+>
+> - [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] Compact or [!INCLUDE[pn_ms_SQL_Server_Express_long](../includes/pn-ms-sql-server-express-long.md)] editions are not supported for use with [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].  
+> - Using a [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] server running in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] mode isn't supported with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For more information about SQL Server [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] mode, see [Reporting Services Report Server (SharePoint Mode)](/sql/reporting-services/report-server-sharepoint/reporting-services-report-server-sharepoint-mode?view=sql-server-2016&preserve-view=true).
+
 <a name="report_ext_gen_req"></a>
 
 ## Dynamics 365 Reporting Extensions requirements
@@ -76,6 +80,8 @@ author: Mattp123
   
 ### Supported operating systems
 
+One of the following Windows versions:
+- Windows 11
 - Windows 10
 
 ### Additional software requirements
@@ -149,6 +155,8 @@ author: Mattp123
   
 ### Supported operating systems
 
+One of the following Windows versions:
+- Windows 11
 - Windows 10
 
 ### Additional software requirements

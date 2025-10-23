@@ -3,31 +3,34 @@ title: Use flow connectors
 description: Learn how to use flow connector to create macros.
 author: gandhamm
 ms.author: mgandham
-ms.topic: conceptual 
+ms.reviewer: mgandham
+ms.topic: conceptual
 ms.collection: 
-ms.date: 05/06/2024
+ms.date: 05/15/2025
 ms.custom: bap-template 
 ---
 # Use flow connectors
 
-Flow connectors allow you to trigger Power Automate flows. You can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service and Customer Service workspace.
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+Flow connectors allow you to trigger Power Automate flows. You can use the actions any number of times across different macros to automate and perform operations related to Copilot Service workspace.
 
 ## Power Automate flow permissions
 
-When you use Power Automate flows, make sure that there's a valid connection and agents have adequate permissions to run the flow. See: [Manage owners and users in your Microsoft list flows with Power Automate](/sharepoint/dev/business-apps/power-automate/guidance/manage-list-flows).  
+When you use Power Automate flows, make sure that there's a valid connection and customer service representative have adequate permissions to run the flow. See: [Manage owners and users in your Microsoft list flows with Power Automate](/sharepoint/dev/business-apps/power-automate/guidance/manage-list-flows).  
  
 
 > [!NOTE]
 > - The **Run Flow** macro doesn't return an output parameter as a dynamic value that can be used in the macro. 
-> - You must log in to the flow for each macro run. 
+> - You must sign in to the flow for each macro run. 
 
 ## Run Flow
 
-This action triggers Power Automate flows using macros in agent scripts and has the following fields.
+This action triggers Power Automate flows using macros in scripts and has the following fields.
 
 | Field                | Description                             | 
 |----------------------|-----------------------------------------|
-| Entity logical name | Specify the logical name of the entity that you want to link. Any Microsoft Dataverse entity, such as Account, can be used based on business needs. | 
+| Entity logical name | Specify the logical name of the entity that you want to link. Any Microsoft Dataverse entity, such as Account, can be used, based on business needs. | 
 | Entity record id     | Specify the entity record ID of the entity that you want to link. IDs or slugs, such as `{customerRecordId}`, can be used. While this field is labeled as entity record id, any value to be processed can be passed. While the field is required, values don't have to be functional unless required for the flow logic. | 
 | Select flow      | Specify the required Power Automate flow. Requires instant cloud flows with *When a record is selected* flow triggers. Existing flows with proper permissions are displayed in the drop-down list. | 
 

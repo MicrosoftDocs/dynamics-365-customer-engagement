@@ -3,7 +3,6 @@ title: "Microsoft Dynamics 365 for Customer Engagement database version is later
 description: Environment diagnostics warning that the database version is later than expected.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

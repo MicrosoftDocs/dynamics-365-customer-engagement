@@ -3,21 +3,21 @@ title: Objects validated by the solution checker
 description: Discover the rules in the Power Apps solution checker that identify tables, operations, and UI components requiring a Dynamics 365 license.
 author: vhorvathms
 ms.author: vhorvath
-ms.reviewer: mhart
-ms.topic: conceptual
+ms.reviewer: puneet-singh1
+ms.topic: article
 ms.collection: get-started
-ms.date: 05/15/2024
+ms.date: 08/27/2025
 ---
 
 # Objects validated by the solution checker
 
-The Power Apps solution checker identifies tables, operations, and UI components/controls that require a Dynamics 365 license. Refer to the following lists to understand, which objects it validates for a Dynamics 365 Field Service license. For more information about the required license, see the [Licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
+The Power Apps solution checker identifies tables, operations, and UI components that require a Dynamics 365 license. Use the following lists to understand which objects it validates for a Dynamics 365 Field Service license. Learn more in [licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).  
 
 The lists are subject to change as we add more tables, operations, and controls to the licensed usage list.
 
 ## Tables that require a license
 
-To create, update, and delete operations on the following tables require a qualified Dynamics 365 license. Reading from these tables doesn't require a license. When you run the solution checker on your solution, it checks for the presence of restricted tables.
+To create, update, and delete operations on the following tables, a qualified Dynamics 365 license is required. Reading from these tables doesn't require a license. When you run the solution checker on your solution, it checks for the presence of restricted tables.
 
 - msdyn_purchaseorder
 - msdyn_purchaseorderreceipt
@@ -53,7 +53,7 @@ To create, update, and delete operations on the following tables require a quali
 
 ## Controls that require a license
 
-The following controls require a Dynamics 365 Field Service license. When you run the solution checker on your solutions, it checks if these controls are used on forms and displays a message about the usage of restricted controls.
+The following controls require a Dynamics 365 Field Service license. The solution checker reviews your solutions to identify if these controls are used on forms and shows a message about restricted control usage.  
 
 - msdyn_MscrmControls.BookingStatusControl.BookingStatusControl
 - msdyn_MscrmControls.FieldService.NotToExceed
@@ -92,7 +92,7 @@ The following controls require a Dynamics 365 Field Service license. When you ru
 
 ## APIs that require a license
 
-The following APIs require a qualified Dynamics 365 license. When you run the solution checker on your solutions, it checks if these APIs are used.
+The following APIs require a qualified Dynamics 365 license. The solution checker verifies if these APIs are used when you run it on your solutions.
 
 - msdyn_CascadeBookingChanges
 - msdyn_SelectNotToExceed
@@ -106,3 +106,5 @@ The following APIs require a qualified Dynamics 365 license. When you run the so
 - [License compliance overview](license-compliance-overview.md)
 - [Use solution checker to validate your solutions](/power-apps/maker/data-platform/use-powerapps-checker)
 - [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

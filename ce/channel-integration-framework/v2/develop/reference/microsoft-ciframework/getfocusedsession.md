@@ -1,24 +1,22 @@
 ---
-title: "getFocusedSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Includes description, syntax, and parameter information for the getFocusedSession method in JavaScript API Reference for Channel Integration Framework 2.0."
-ms.date: 12/31/2019
+title: getFocusedSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
+description: Includes description, syntax, and parameter information for the getFocusedSession method in JavaScript API Reference for Channel Integration Framework 2.0.
+ms.date: 12/10/2024
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-ms.custom: 
-  - "dyn365-a11y"
-  - "dyn365-developer"
+ms.reviewer: mgandham
+ms.custom: bap-template 
 ---
 
 # getFocusedSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
-
- 
 
 [!include[applies-to-v2](../../../includes/applies-to-v2.md)]
 
 [!include[session-api-omnichannel](../../../includes/session-api-omnichannel.md)]
 
-Returns the unique identifier of the session that is in focus, if it belongs to the channel provider else returns null. 
+Returns the unique identifier of the session that is in focus, if it belongs to the channel provider else returns null. The session ID is null if the connector attempts to retrieve a focused session created using a different connector.
+
 
 ## Syntax
 

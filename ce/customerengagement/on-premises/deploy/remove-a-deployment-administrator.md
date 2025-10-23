@@ -2,12 +2,11 @@
 title: "Remove a Deployment Administrator | Microsoft Docs"
 description: Learn how to remove a deployment administrator with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
-ms.date: 10/01/2018
 
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 3e2a84a5-53ca-46e3-8958-c5c20beedc57

@@ -1,30 +1,35 @@
 ---
-title: Omnichannel Agent Dashboard in Omnichannel for Customer Service
-description: Learn about the Omnichannel Agent Dashboard that shows work items for agents who use the Customer Service workspace or Omnichannel for Customer Service app.
+title: Omnichannel Agent Dashboard in Dynamics 365 Contact Center
+description: Learn about the Omnichannel Agent Dashboard that shows work items for representatives who use the Copilot Service workspace.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection:
-ms.date: 04/12/2024
+ms.date: 07/10/2025
 ms.custom: bap-template
 ---
 
-# View agent dashboard and agent conversations
+# View representative dashboard and representative conversations
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-When you sign in to the Customer Service workspace or Omnichannel for Customer Service app, the Omnichannel Agent Dashboard is the default view. You can set any dashboard as the default view by selecting the **Set As Default** option. The dashboard displays the following streams:
+> [!Note]
+> The Omnichannel dashboard experiences in Copilot Service workspace will be deprecated on December 1, 2025. Support will end on December 1, 2026. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md#omnichannel-agent-and-supervisor-dashboard-experiences-to-be-deprecated-on-december-1-2025).
+
+When you sign in to the Copilot Service workspace app, the Omnichannel Agent Dashboard is the default view. You can set any dashboard as the default view by selecting the **Set As Default** option. The dashboard displays the following streams:
 
 - My work items
 - Open work items
 - Closed work items
 
- ![Agent dashboard of Omnichannel for Customer Service app.](../media/oceh-oc-mydashboard.png "Screenshot of Agent dashboard in the Customer Service workspace app")
+ ![Agent dashboard of Omnichannel for Customer Service app.](../media/oceh-oc-mydashboard.png "Screenshot of Agent dashboard in the Copilot Service workspace app")
+
+OCStreamcontrol, an out-of-the-box dataset control, displays conversations view for all the three streams. My work items, Open work items, and Closed work items are displayed in a card form format on the Omnichannel Agent dashboard. However, the OCStreamcontrol doesn't work on custom dashboards, and can be used with Omnichannel Agent dashboard only. 
 
 ## My work items
 
-In the **My work items** section, you can see the conversations (work items) that you're actively working on. Select the ellipsis and select the **Open** option to open the work item in a session.
+In the **My work items** section, you can see the conversations (work items) that you're actively working on. To open the work items in a session, select the ellipsis, and then select the **Open** option.
 
 ## Open work items
 
@@ -55,11 +60,17 @@ You can have multiple conversations open on multiple browsers and view the conve
 
 For example, when you select an active work item or monitor a conversation, it opens on the same browser. All other browsers remain as-is.
 
-When multiple browsers are open, you see incoming conversation request on all the browsers. However, the browser that you select **Accept** from is the browser that loads that conversation. All other browsers remain as-is, with incoming notifications dismissed.
+When multiple browsers are open, you see incoming conversation request on all the browsers. However, the browser that you select **Accept** from is the browser that loads that conversation. All other browsers remain as-is, with incoming notifications dismissed. 
 
-For example, for incoming calls, the conversation gets accepted only on one browser and the notification gets dismissed on other browsers.
 
-### See also
+For example, for incoming calls, the conversation gets accepted only on one browser and the notification gets dismissed on other browsers. If you want to join the conversation in another browser, you must close the session in the current browser and open the conversation in the other browser.
+
+> [!NOTE]
+> - Ensure that you close the persistent chat sessions in all the windows where you have the same chat open. Otherwise, the other windows still allow you to send messages even after you select **End** to end the chat in one chat window.
+> - When you accept a voice conversation, your capacity may be impacted in different tabs or windows. To join a voice conversation in a new browser, you must close the session in the current browser and open it in a new browser.
+
+
+### Related information
 
 [Create a record](oc-create-record.md)  
 [Introduction to the agent interface](oc-introduction-agent-interface.md)  

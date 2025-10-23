@@ -2,7 +2,6 @@
 title: "Configure a form to accept custom querystring parameters (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about configuring a form to acept custom querystring parameters. Use these parameters to set default values when you create a new record in the application."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

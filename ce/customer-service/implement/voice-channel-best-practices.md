@@ -1,24 +1,26 @@
 ---
 title: Best practices for setting up the voice channel
-description: Learn about the best practices for setting up the voice channel in Omnichannel for Customer Service.
+description: Learn about the best practices for setting up the voice channel.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
-ms.topic: conceptual
+ms.reviewer: nenellim
+ms.topic: best-practice
 ms.collection:
-ms.date: 08/18/2023
+ms.date: 06/30/2025
 ms.custom: bap-template
 ---
 
 # Best practices for setting up the voice channel
 
-Use the information in this article to set up the hardware and software for an optimal performance of the voice channel in Omnichannel for Customer Service. The requirements might vary based on the overall configuration and size of your contact center.
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+Use the information in this article to set up the hardware and software for an optimal performance of the voice channel in your contact center. The requirements might vary based on the overall configuration and size of your contact center.
 
 ## Hardware configuration
 
 For optimized voice communication, make sure of the following settings:
 
-- **Network configuration**: A stable Internet connection is crucial for uninterrupted calls. Use a wired Ethernet connection or a stable wireless network with sufficient bandwidth. For minimum and recommended bandwidth speeds, see [system requirements](system-requirements-omnichannel.md#system-requirements-for-omnichannel-for-customer-service).
+- **Network configuration**: A stable Internet connection is crucial for uninterrupted calls. Use a wired Ethernet connection or a stable wireless network with sufficient bandwidth. For minimum and recommended bandwidth speeds, refer [system requirements](/dynamics365/contact-center/implement/system-requirements-contact-center).
 
 - **Compatible headsets**: For clear communication, use USB headsets with noise-canceling microphones. If you rely on laptop speakers and microphone, you're likely to experience background noise in calls and meetings.
 
@@ -32,8 +34,13 @@ For optimized voice communication, make sure of the following settings:
 
 The software settings to ensure seamless integration are as follows:
 
-**Firewall and security**: [Add the URLs and IP addresses to the allowlist](system-requirements-omnichannel.md#allow-access-to-websites) to allow communication between your system and the Omnichannel servers and prevent any security-related issues during your interactions. Make sure that the firewall configuration aligns with the [guidelines](/azure/communication-services/concepts/voice-video-calling/network-requirements#firewall-configuration) in Azure Communication Services.
+**Firewall and security**: [Add the URLs and IP addresses to the allowlist](/dynamics365/contact-center/implement/system-requirements-contact-center#allow-access-to-websites) to allow communication between your system and the Omnichannel servers and prevent any security-related issues during your interactions. Make sure that the firewall configuration aligns with the [guidelines](/azure/communication-services/concepts/voice-video-calling/network-requirements#firewall-configuration) in Azure Communication Services.
 
-### See also
+**Telemetry insights**: Within the same geo/region location, network latencies are usually less than 150 ms. Enable [telemetry insights](/dynamics365/guidance/implementation-portal/telemetry-insights) to understand where delays come from. These insights can also be used to evaluate the performance of form load and API throttling.
 
-[Network recommendations](/azure/communication-services/concepts/voice-video-calling/network-requirements)
+**Desktop companion application**: If representatives experience a delay in joining calls after accepting the notification, they can install and use the [Desktop companion application](/dynamics365/contact-center/administer/install-manage-desktop-app) to join calls and maintain connectivity.
+
+### Related information
+
+[Network recommendations](/azure/communication-services/concepts/voice-video-calling/network-requirements)  
+[Best practices for configuring AI agents](../administer/configure-bot-best-practices.md)  

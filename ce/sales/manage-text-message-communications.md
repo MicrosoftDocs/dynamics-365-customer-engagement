@@ -1,7 +1,7 @@
 ---
 title: Manage text message conversations
 description: Manage customer conversations through incoming and outgoing text messages for your sales outreach.
-ms.date: 04/23/2024
+ms.date: 06/25/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -40,8 +40,9 @@ The incoming messages (replies) are attached to a record with the phone number f
 -	Active record receives the message over the inactive record.
 -	Updated most recently.
 
-When you receive a message from a number that isn't associated with a record, a new lead is created with the number and the incoming message is linked to that lead.
-
+> [!IMPORTANT]
+> When you receive messages from a number associated with a record, make sure the number is in one of these fields&mdash;`mobilephone`, `telephone1`, or `telephone2`. If the phone number is in any other field, text messages aren't linked to that record. Instead, a new lead is created, and incoming messages are linked to that lead.
+  
 ## Open text message conversations
 
 You can only view conversations if the outbound phone number or record is assigned to you or your team. To view the conversations, use one of the following:
@@ -115,7 +116,7 @@ The following image is an example of the conversation pane.
 4. **Delivery report**: Delivery report of the text message is displayed below the message. It's displayed only if the SMS provider supports it. More information: [Configure SMS provider](configure-sms-provider.md).  
     If the message is undelivered, hover over the delivery message to view the reason for the failure. Take appropriate action to resolve the failure. For example, if the message is sent to an invalid number, the reason for the failure is displayed as **InvalidSendingParameters**. To resolve the failure, ensure that the number is valid and is in the international telephone numbering plan (E.164 format).
   
-### See also
+## Related information
 
 [Engage with customers through text messages](sms-intro.md)  
 [Send a text message to customers](connect-with-customers.md#send-a-text-message-to-customers)  

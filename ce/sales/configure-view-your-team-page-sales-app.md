@@ -2,7 +2,7 @@
 title: "Configure and view your team page in Dynamics 365 Sales"
 description: "Configure and view your team page with information on levels of hierarchy, top performers, and delete sellers data in the Sales app."
 ms.date: 09/30/2022
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -11,14 +11,6 @@ ms.reviewer: lavanyakr
 # Configure and view team page in sales app
 
 Configure and view your team page with information on levels of hierarchy, top performers, and delete sellers data.
-
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## What can I configure
 
@@ -100,7 +92,7 @@ The list is updated every 24 hours to display the current active sellers in the 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Set up conversation intelligence in Sales Hub app](fre-setup-ci-sales-app.md)  
 [Improve seller coaching and sales potential with conversation intelligence](dynamics365-sales-insights-app.md)

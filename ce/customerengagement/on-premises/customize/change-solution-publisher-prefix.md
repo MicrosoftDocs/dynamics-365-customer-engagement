@@ -2,12 +2,11 @@
 title: "Change publisher prefix in Dynamics 365 Customer Engagement (on-premises)"
 description: "Every solution has a publisher. Before you start customizing the system, follow these steps to change the prefix value for the default publisher."
 ms.custom: 
-ms.date: 11/08/2018
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 author: Mattp123

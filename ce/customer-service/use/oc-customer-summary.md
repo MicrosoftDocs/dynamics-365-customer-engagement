@@ -3,22 +3,20 @@ title: View Active Conversation in Omnichannel for Customer Service
 description: Learn about Active Conversation, its sections, and how you can view customer information in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: how-to 
-ms.date: 01/09/2024
+ms.date: 04/21/2025
 ms.custom: bap-template
 ---
 
 # View customer information on Active Conversation form
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 > [!IMPORTANT]
 > The **Customer Summary** form is renamed as **Active Conversation** form.
 
-One of the major challenges that customers face when contacting customer support is repeatedly giving the same information about the issue to each support agent they talk to. And if they want to review the status of their request later, they have to share the same information with another support agent to explain the context of the engagement. To avoid this situation, support agents need access to all the information the customer has provided, including details about the product or service, issue, case history, related cases, and location.
+One of the major challenges that customers face when contacting customer support is repeatedly giving the same information about the issue to each customer support representative (support representative or representative) they talk to. And if they want to review the status of their request later, they have to share the same information with another support representative to explain the context of the engagement. To avoid this situation, representatives need access to all the information the customer has provided, including details about the product or service, issue, case history, related cases, and location.
 
-Having this information ready can help support agents reduce the hold time that they spend retrieving customer information, reduce average handling time, and increase customer satisfaction by resolving issues faster.
+Having this information ready can help representatives reduce the hold time that they spend retrieving customer information, reduce average handling time, and increase customer satisfaction by resolving issues faster.
 
 ## What is Active Conversation?
 
@@ -27,12 +25,13 @@ Having this information ready can help support agents reduce the hold time that 
 - Customer (Contact or Account)
 - Conversation summary
 - Case
+- Disposition code
 - Recent cases
 - Timeline
 
-For active conversations, you can view the **Active Conversation** form on the agent dashboard of the Customer Service workspace or Omnichannel for Customer Service app. The **Active Conversation** form doesn't display details of closed conversations. To view closed conversations, use the **Closed work items** section of the agent dashboard. More information: [View agent dashboard and conversations](oc-agent-dashboard.md)
+For active conversations, you can view the **Active Conversation** form on the representative dashboard of the Copilot Service workspace app. The **Active Conversation** form doesn't display details of closed conversations. To view closed conversations, use the **Closed work items** section of the representative dashboard. More information: [View representative dashboard and conversations](oc-agent-dashboard.md)
 
-If your administrator has enabled the **Customise active conversation form**  in Customer Service admin center, you'll see the following options on the **Active Conversation** page:  
+If your administrator has enabled the **Customise active conversation form**  in Copilot Service admin center, you'll see the following options on the **Active Conversation** page:  
 
 - **Save**: You can edit and save standard and custom field values added to the **Active Conversation** form by your administrator. However, the following [Logical column names](../administer/supported-customizations.md#logical-column-names) aren't supported. If a default value is already set for a field, the value appears on the form automatically.
 - **Refresh**: Refreshes the data in the form.
@@ -44,7 +43,7 @@ Depending on the settings that are enabled for you, you'll see one of the follow
 
   ### [Enhanced Active Conversation page](#tab/enhancedcustomersummarypage)
 
-  If your administrator has enabled the **Enhanced Active conversation form**  in Customer Service admin center, you see the enhanced **Active Conversation** page. The application displays the customer or account, and case details cards with inline edit capabilities. You can also view the Recent cases card with color coded priority and status fields.  
+  If your administrator has enabled the **Enhanced Active conversation form**  in Copilot Service admin center, you see the enhanced **Active Conversation** page. The application displays the customer or account, and case details cards with inline edit capabilities. You can also view the Recent cases card with color coded priority and status fields.  
    > [!NOTE]
    > - The form selector to switch between **Active Conversation** and **Closed Conversation** is hidden. You can't switch to closed conversation form from the **Active Conversation** form while the conversation is still active or vice versa.
    > - You can see the form selector on the enhanced Active Conversation form if your administrator has enabled it for you. More information: [Display the form selector on Active Conversation form](../administer/add-customer-summary-settings.md#display-the-form-selector-on-active-conversation-form). However, if you use the form selector to switch to the closed conversation form, you'll see errors.
@@ -53,7 +52,7 @@ Depending on the settings that are enabled for you, you'll see one of the follow
 
   ### [Default Active Conversation page](#tab/customersummarypage)
 
-  If your administrator hasn't enabled the **Enhanced Active conversation form** in **Customer Service admin center**, you see the default Active Conversation view.
+  If your administrator hasn't enabled the **Enhanced Active conversation form** in **Copilot Service admin center**, you see the default Active Conversation view.
 
   :::image type="content" source="../media/customer-summary.png" alt-text="View the Active Conversation page" :::
 
@@ -105,6 +104,20 @@ Depending on the settings that are enabled for you, you'll see one of the follow
 
 ---
 
+## Set disposition codes
+
+If your administrator has enabled disposition codes, the **Disposition Code** section appears on the form. During the conversation, do the following:
+ - Set **Category** to filter the available codes.
+ - Select the disposition code that best describes the outcome of the conversation in **Search codes**. 
+    - You can select disposition codes associated with a specific workstream or those that are available in all workstreams. 
+    - You can select up to the maximum number of disposition codes set by your administrator.
+
+If your administrator has configured the disposition codes to be mandatory to close a session, you must select a disposition code before you can close the conversation. If you don't select a code, a pop up appears when you try to close the conversation.
+
+   :::image type="content" source="../media/disposition-code.png" alt-text="View disposition code section":::
+
+For a closed conversation, you can view the disposition code in the **Conversation Form**.
+
 ## View recent cases
 
 This section displays recent cases related to the customer.
@@ -129,11 +142,11 @@ Depending on the settings that are enabled for you, you'll see one of the follow
 
 Conversation summary changes.
 
-The **Conversation summary** section provides detailed information about the conversation between the agent and customer. The information shown in the **Conversation details** area includes the following:
+The **Conversation summary** section provides detailed information about the conversation between the representative and customer. The information shown in the **Conversation details** area includes the following:
 
 - **Engagement channel:** The channel, such as live chat or custom channel, through which the conversation is taking place.
-- **Waiting time:** The time the customer had to wait before the conversation was assigned to the agent.
-- **Skills:** The skills that had been attached for routing the conversation. If your administrator has enabled the setting for agents to update skills, you can add or remove skills.
+- **Waiting time:** The time the customer had to wait before the conversation was assigned to the representative.
+- **Skills:** The skills that had been attached for routing the conversation. If your administrator has enabled the setting for representatives to update skills, you can add or remove skills.
 - **Queue:** The queue through which the conversation has been assigned to you.
 - **Start time:** The time when you started the conversation.
 
@@ -154,7 +167,7 @@ The **Pre-chat survey** tab displays the customer's answers to the survey questi
 
 ### View Self service
 
-The **Self service** tab displays information about the activities that the customer performed before starting a conversation with an agent. This information helps you understand why the customer reached out and helps you provide a personalized service for enhanced customer satisfaction. The activity information, which is categorized into the following action types, appears in reverse chronological order.
+The **Self service** tab displays information about the activities that the customer performed before starting a conversation with a representative. This information helps you understand why the customer reached out and helps you provide a personalized service for enhanced customer satisfaction. The activity information, which is categorized into the following action types, appears in reverse chronological order.
 
 | Action type | Description |
 |-------------|-----------------------------------|
@@ -169,7 +182,7 @@ To configure the appearance of the **Self service** tab, see [Enable self-servic
 
 The **Visitor details** tab provides information such as whether the customer is authenticated, the browser the customer used to contact support, the operating system used by the customer, the customer's location, and the language used during the interaction.
 
-If the customer has signed in to the portal to initiate the chat with a support agent, the **Authenticated** field value is **Yes**; otherwise, the **Authenticated** field value is **No**.
+If the customer has signed in to the portal to initiate the chat with a representative, the **Authenticated** field value is **Yes**; otherwise, the **Authenticated** field value is **No**.
 
 ![Authenticated chat shown as Yes on the Visitor details tab](../media/conversation-summary-authenticated-chat.PNG "Authenticated chat shown as Yes on the Visitor details tab") ![Unauthenticated chat shown as No on the Visitor details tab](../media/conversation-summary-unauthenticated-chat.PNG "Unauthenticated chat shown as No on the Visitor details tab")
 
@@ -190,7 +203,7 @@ The **Linked records** field shows the record that's linked to the conversation.
 > [!div class='mx-imgBorder']
 > ![View only the linked records in the drop-down.](../media/customer-summary-linked-records.PNG "View only the linked records in the drop-down list")
 
-### See also
+### Related information
 
 [Search for and share knowledge articles](../oc-search-knowledge-articles.md)  
 [View communication panel](oc-conversation-control.md)  

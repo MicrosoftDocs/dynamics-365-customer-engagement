@@ -5,12 +5,10 @@ ms.date: 11/02/2022
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 ---
 
 # Pass authentication token to bot during single sign-on in live chat
-
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
@@ -38,7 +36,7 @@ If you're using a Copilot Studio bot, ensure that you manually set up end user a
 
 [!INCLUDE[setBotAuthTokenProvider-code-sample](reference/includes/setBotAuthTokenProvider-code-sample.md)]
 
-### See also
+### Related information
 
 [Integrate an Azure bot](../administer/configure-bot-azure.md)  
 [Integrate Copilot Studio bot](../administer/configure-bot-virtual-agent.md)  

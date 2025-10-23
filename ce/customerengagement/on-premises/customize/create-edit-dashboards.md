@@ -2,12 +2,11 @@
 title: "Create a system dashboard in Dynamics 365 Customer Engagement (on-premises)"
 description: "Follow these steps to create or edit a system dashboard. An admin or customizer can do this, allowing the dashboard to be seen by everyone in an organization."
 ms.custom: 
-ms.date: 06/12/2019
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 641885d2-4a08-41b8-b914-d9a244e4d5b1

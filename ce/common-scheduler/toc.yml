@@ -23,7 +23,11 @@
   - name: Resource crew scheduling
     href: resource-crews.md
   - name: Facility scheduling
-    href: facility-scheduling.md
+    items:
+    - name: Schedule a facility
+      href: facility-scheduling.md
+    - name: Facility scheduling examples
+      href: facility-scheduling-examples.md
   - name: Resource pools
     href: resource-pools.md
   - name: Time constraints
@@ -38,8 +42,8 @@
     href: share-schedule-board-tab.md
   - name: Utilization
     href: schedule-board-utilization.md
-
-
+  - name: Construct schedule board URL
+    href: schedule-board-url.md
   - name: Booking alerts
     href: booking-alert.md
   - name: Schedule board tab settings

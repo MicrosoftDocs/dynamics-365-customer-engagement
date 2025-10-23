@@ -2,7 +2,6 @@
 title: "Types of calendars (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: Learn about the types of calendars available in the Type Picklist attribute for Dynamics 365 Customer Engagement (on-premises).
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

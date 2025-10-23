@@ -1,10 +1,11 @@
 ---
 title: Add a timer control for SLA-enabled entities
 description: Add a timer control to SLA-enabled entity forms to help users track time and complete tasks within specified SLA time frames.
-ms.date: 02/27/2024
-ms.topic: article
+ms.date: 06/26/2025
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 search.audienceType:
   - admin
   - customizer
@@ -22,9 +23,9 @@ Add a timer control to a service-level agreement (SLA) enabled entity form to he
 
 ## Add a SLA timer to a SLA-enabled entity
 
-After you've configured the SLA KPIs, SLAs, and SLA items for an entity, you can add the SLA Timer control to display the SLA KPIs that are configured for the entity. You can customize the views to filter the KPIs and display only the relevant KPIs to agents. Some of the KPIs that agents can see include the different stages that KPIs go through.
+After you configure the SLA KPIs, SLAs, and SLA items for an entity, you can add the SLA Timer control to display the SLA KPIs that are configured for the entity. You can customize the views to filter the KPIs and display only the relevant KPIs to customer service representatives (service representatives). Some of the KPIs that service representatives can see include the different stages that KPIs go through.
 
-For information on how the SLA KPIs are displayed at runtime when agents view the case to work on in Customer Service Hub, see [Timer for SLA-enabled entities](../use/customer-service-hub-user-guide-case-sla.md#timer-control-for-sla-enabled-entities).
+For information on how the SLA KPIs are displayed at runtime when service representatives view the case to work on in Customer Service Hub, see [Timer for SLA-enabled entities](../use/customer-service-hub-user-guide-case-sla.md#timer-control-for-sla-enabled-entities).
 
 > [!NOTE]
 > - The SLA Timer control displays SLA KPIs that are created in Unified Interface only.
@@ -34,8 +35,8 @@ A sample runtime view of the SLA Timer is as follows.
 
 ![Runtime view of the SLA timers.](../media/sla-timer-runtime.png "Runtime view of the SLA timers")
 
-However, SLA KPI Instances won't reach a **Nearing non-compliance** or **Non-complaint** state, if the **SLAWarningAndExpiryMonitoringFlow** isn't enabled and the SLA KPI Instance timer continues to run. The following warning message is displayed on the SLA Timers:
-"The SLA instances may be incorrect because workflow <*workflow ID*> is turned off. Please contact your admin to turn the workflow on." The workflow ID varies from system to system as it corresponds to **SLAWarningAndExpiryMonitoringFlow**. For more information on how to enable **SLAWarningAndExpiryMonitoringFlow**, see [ Warning message appears on slakpiinstances](../troubleshoot-sla-issues.md#warning-message-appears-on-slakpiinstances).
+However, SLA KPI Instances don't reach a **Nearing non-compliance** or **Non-complaint** state if the **SLAWarningAndExpiryMonitoringFlow** isn't enabled and the SLA KPI Instance timer continues to run. The following warning message is displayed on the SLA Timers:
+"The SLA instances might be incorrect because workflow <*workflow ID*> is turned off. Contact your admin to turn on the workflow." The workflow ID varies from system to system as it corresponds to **SLAWarningAndExpiryMonitoringFlow**. For more information on how to enable **SLAWarningAndExpiryMonitoringFlow**, see [ Warning message appears on slakpiinstances](../troubleshoot-sla-issues.md#warning-message-appears-on-slakpiinstances).
 
 For more information on why an SLA KPI Instance doesn't reach **Nearing Non-compliance** or **Non-compliant** state and how you can resolve it, see [SLA KPI Instance doesn't reach Nearing Non-compliance or Non-compliant state, and the SLA KPI Instance timer continues to run](../troubleshoot-sla-issues.md#sla-kpi-instance-doesnt-reach-nearing-non-compliance-or-non-compliant-state-and-the-sla-kpi-instance-timer-continues-to-run).
 
@@ -48,12 +49,12 @@ Do the following steps to add the SLA timer control for the case entity.
 2. Select **Customize the System**, and in the **Solutions** page, expand **Entities** under **Components**.
 3. Select the entity for which you want to add the SLA Timer control, and in the **Forms** view, select the corresponding form. In this example, let us select the Case entity, and the **Case for interactive experience** form.
 4. On the page that appears, on the **Insert** tab, insert a section, and then insert a subgrid.
-5. Double-click the subgrid and in the **Set Properties** dialog, enter the necessary details. On the **Display** tab, **Data Source** section:
+5. Double-click the subgrid, and then in the **Set Properties** dialog, enter the necessary details. On the **Display** tab, **Data Source** section:
    1. For **Records**, select **Only Related Records**.
     
         Selecting **All Record Types** retrieves all the SLA KPI instances present in the organization and might lead to performance issues.
    1. For **Entity**, select **SLA KPI Instances (Regarding)**.
-   1. In **Default View**, add a view or edit an existing view to determine the SLA KPIs that need to be displayed for agents at runtime. For more information on views, see [Create and edit views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer).
+   1. In **Default View**, add a view or edit an existing view to determine the SLA KPIs that need to be displayed for service representatives at runtime. For more information on views, see [Create and edit views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer).
 
    > ![Configure SLA Timer in customizations.](../media/sla-timer-properties.png "Configure SLA Timer in customizations")
 
@@ -77,13 +78,13 @@ You can configure the negative countdown property for the SLA timer so that the 
 
 ### Customize the SLA timer control display label
 
-After you've added the SLA timer control for a SLA-enabled entity, you can customize the labels of the status to be displayed for the timer control.
+After you add the SLA timer control for a SLA-enabled entity, you can customize the labels of the status to be displayed for the timer control.
 
 1. In the SLA Timer area, select **Edit** for **Customized Labels**.
 
    :::image type="content" source="../media/sla-timer-customized-label.png" alt-text="SLA timer customized label option":::
 
-1. In the **Configure Property "Customized Label"** dialog, select the **Bind to a static value** option and enter the values for multiple language codes.
+1. In the **Configured Property "Customized Label"** dialog, select the **Bind to a static value** option, and then enter the values for multiple language codes.
 
     :::image type="content" source="../media/sla-timer_configure_property.png" alt-text="SLA timer configure property dialog":::
    - The language code value must be of the following format:
@@ -132,7 +133,7 @@ After you've added the SLA timer control for a SLA-enabled entity, you can custo
     ![Timer control expired in Customer Service Hub.](../media/timer-sla-csh-expired.png "Timer control expired in Customer Service Hub")
   
 > [!IMPORTANT]
-> - The instructions in this article apply if you're adding a timer to track time for the date/time field of any entity, or for tracking time against standard SLAs on case records. If you are using enhanced SLAs and want to add a timer to your forms, go to [Add a timer to forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md).  
+> - The instructions in this article apply if you're adding a timer to track time for the date/time field of any entity, or for tracking time against standard SLAs on case records. If you're using enhanced SLAs and want to add a timer to your forms, go to [Add a timer to forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md).  
 > - The timer control is designed to visually show the current state or show the remaining or elapsed time relative to the date and time as specified in the **Failure Time** field of the SLA KPI Instance. It doesn’t calculate or keep track of the time for which the Pause condition is true.  
  
 > [!NOTE]
@@ -176,7 +177,7 @@ More information: [Understand SLA details with Timer control](../use/customer-se
   
    6. Next to **Cancel Condition**, select a field to evaluate whether the achievement of the milestone should be canceled. Then choose the option that indicates the milestone is canceled. This setting is optional.  
   
-   7. Next to **Pause Condition**, enter the condition that will cause the timer to pause the count down. For example, you want the timer to pause the count down every time the case status is set to “On-hold”. For this, in the first drop-down list, select **Status**. In the second drop-down list, select **On-hold**.  
+   7. Next to **Pause Condition**, enter the condition that causes the timer to pause the count down. For example, you want the timer to pause the count down every time the case status is set to **On-hold.** For this, in the first drop-down list, select **Status**. In the second drop-down list, select **On-hold**.  
   
       ![Timer control in Customer Service Hub.](../media/timer-control-box-csh.png "Timer control in Customer Service Hub")
   
@@ -190,9 +191,9 @@ More information: [Understand SLA details with Timer control](../use/customer-se
   
    - You can add multiple timer controls for different key performance indicators (KPIs).  
   
-   - You can add a timer control to any Main or Main - Interactive experience form of other entities, but timer controls are not displayed in [!INCLUDE[pn_moca_full](../../includes/pn-moca-full.md)].  
+   - You can add a timer control to any Main or Main - Interactive experience form of other entities, but timer controls aren't displayed in [!INCLUDE[pn_moca_full](../../includes/pn-moca-full.md)].  
   
-### See also  
+### Related information  
 
 [Configure service level agreements](define-service-level-agreements.md)
 

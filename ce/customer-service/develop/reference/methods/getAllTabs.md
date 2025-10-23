@@ -1,9 +1,10 @@
 ---
-title: "getAllTabs method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the getAllTabs API of app profile manager in Customer Service workspace."
+title: getAllTabs method (app profile manager) JavaScript API Reference 
+description: Learn about the getAllTabs API of app profile manager in Copilot Service workspace.
 author: gandhamm
 ms.author: mgandham
-ms.date: 10/01/2021
+ms.reviewer: mgandham
+ms.date: 06/17/2025
 ms.topic: reference
 ---
 

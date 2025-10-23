@@ -1,34 +1,28 @@
 ---
-title: "Sync from Azure Communication Services | MicrosoftDocs"
-description: "Understand how you can import phone numbers that you purchased or acquired earlier via Azure Communication Services resources into Omnichannel for Customer Service."
-ms.date: 06/09/2022
-ms.service: dynamics-365-customerservice
-ms.topic: article
+title: Sync from Azure Communication Services
+description: Understand how you can import phone numbers that you purchased or acquired earlier via Azure Communication Services resources into Dynamics 365 Contact Center.
+ms.date: 04/25/2025
+ms.topic: reference
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Sync from Azure Communication Services
 
-You can import phone numbers that you purchased or acquired earlier via Azure Communication Services resources into Omnichannel for Customer Service. 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-1. In Dynamics 365, go to one of the admin apps, and perform the following steps. 
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+You can import phone numbers that you purchased or acquired earlier via Azure Communication Services resources into Dynamics 365. 
 
-    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.    
+1. In the site map of Copilot Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.    
     2. Select **Manage** for **Phone numbers**.
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-    - In the site map, select **Phone numbers** in **General settings**.
 2. Select **Advanced** on the menu.
 3. Select **Sync** for **Sync from Azure**. A dialog requesting you to confirm the sync action is displayed.
 4. Select **Sync**.
 
-   After you perform the sync, all the phone numbers that were acquired previously are listed on the **Phone numbers** page with the numbers that have been acquired in Omnichannel for Customer Service.
+   After you perform the sync, all the phone numbers that were acquired previously are listed on the **Phone numbers** page with the numbers that have been acquired in Dynamics 365 Contact Center.
 
-### See also
+### Related information
  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  

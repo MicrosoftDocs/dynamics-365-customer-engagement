@@ -1,12 +1,16 @@
 ---
-title: Apply authentication for search providers 
-description: Learn how to apply authentication for search providers.
+title: Apply authentication for search providers
+description: Apply OAuth 2.0 authentication for search providers using Microsoft Entra ID with resource, client IDs, and client secret configurations.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 08/31/2023
-ms.custom: bap-template
+ms.date: 05/09/2025
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:04/09/2025
 ---
 
 # Apply authentication for search providers

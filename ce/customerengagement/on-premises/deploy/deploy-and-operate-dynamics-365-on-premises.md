@@ -1,11 +1,10 @@
 ---
 title: "Deploy and operate Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 description: This document set explains how to deploy and operate Dynamics 365 Customer Engagement (on-premises)
-ms.date: 06/07/2021
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: install-set-up-deploy
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: fdcb7532-2a86-462e-aaa1-c59cbbc85d33

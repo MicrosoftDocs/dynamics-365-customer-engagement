@@ -3,7 +3,6 @@ title: "Computer restart required | Microsoft Docs"
 description: Environment diagnostics warning that your computer must be restarted to continue.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

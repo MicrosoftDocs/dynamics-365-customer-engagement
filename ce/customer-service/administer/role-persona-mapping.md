@@ -1,20 +1,22 @@
 ---
 title: Manage personas and custom security roles
-description: Get information about how custom security roles can be mapped to personas in Customer Service and Omnichannel for Customer Service.
-ms.date: 02/14/2024
+description: Get information about how custom security roles can be mapped to personas in Customer Service and Dynamics 365 Contact Center.
+ms.date: 04/15/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer:
+ms.reviewer: nenellim
 ms.collection:
 ms.custom: bap-template
 ---
 
 # Manage personas and custom security roles in Customer Service
 
-You can map security roles to personas to define user permissions for unified routing. Persona mapping gives your organization the option to add custom security roles alongside existing security roles in Customer Service and Omnichannel for Customer Service. The admin, supervisor, and agent personas are user archetypes that security roles can be mapped to. By mapping custom security roles to these personas, you can fine-tune data access and security across users and business units.
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-You can create and assign custom security roles in the Microsoft Dynamics 365 admin center. Persona mapping settings are available in the Customer Service admin center > **User Management** section.
+You can map security roles to personas to define user permissions for unified routing. Persona mapping gives your organization the option to add custom security roles alongside existing security roles in Customer Service and Dynamics 365 Contact Center. The admin, supervisor, and agent personas are user archetypes that security roles can be mapped to. By mapping custom security roles to these personas, you can fine-tune data access and security across users and business units.
+
+You can create and assign custom security roles in the Microsoft Dynamics 365 admin center. Persona mapping settings are available in the Copilot Service admin center > **User management** section.
 
 For the custom security roles to be functional, perform the following steps:
 
@@ -36,29 +38,29 @@ The admin persona can set up end-to-end workflows to handle customer interaction
 - Create and manage classification and assignment rules for work items based on business rules.
 - Create and maintain capacity profiles and schedules based on office hours.
 - Configure basic and advanced routing for all work items.
-- Create and maintain agent skills for efficient skill-based routing of work items.
+- Create and maintain customer service representative (service representative or representative) skills for efficient skill-based routing of work items.
 - Manage users and their permissions by mapping the roles to the appropriate personas.
 - Configure and maintain custom presence.
-- Create and maintain targeted app experiences for agents and supervisors through app profiles, session templates, and notification templates.
+- Create and maintain targeted app experiences for service representatives and supervisors through app profiles, session templates, and notification templates.
 - Enable diagnostics and insights on assignment flow.
 
 ### Supervisor
 
-The supervisor persona can manage agents and their work items through routing rules. The supervisor can perform the following tasks:
+The supervisor persona can manage representatives and their work items through routing rules. The supervisor can perform the following tasks:
 
-- Assign or reassign current work items to agents depending on the agent availability and service-level agreement (SLA) of the work item.
-- Manage permissions on the data available to agents as part of the interactions (Record-level data permissions).
-- Monitor agent interactions and provide help as required.
-- Access insights related to agent performance and customer interactions.
+- Assign or reassign current work items to representatives depending on their availability and service-level agreement (SLA) of the work item.
+- Manage permissions on the data available to representatives as part of the interactions (Record-level data permissions).
+- Monitor representative interactions and provide help as required.
+- Access insights related to representative performance and customer interactions.
 - Access diagnostics for the routed records.
 
 ### Agent
 
-The agent persona can manage the work items that're assigned to them through custom or default rules set up by the admin persona. The agent can perform the following tasks:
+The agent persona can manage the work items that're assigned to them through custom or default rules set up by the admin persona. The representative can perform the following tasks:
 
 - Manage their work items as follows:
   - Engage with the customers.
-  - Reassign work to other agents in the group.
+  - Reassign work to other representatives in the group.
   - Decline interactions.
 - Manage their skills.
 - Manage their case queues.
@@ -81,46 +83,31 @@ Custom security roles can be created at an organizational or business unit level
 
 1. Save the security role with a name that will help you identify it during persona mapping.
 
-For example, if your organization is expecting a large seasonal increase in chat service requests, you might hire some seasonal employees to exclusively handle chat channels. You can create a security role for the "seasonal service rep". First, you'd identify that users with this role are part of the agent archetype. Knowing that, you'll create a copy of the "Omnichannel agent" security role. By starting with a copied role, you are less likely to face user issues by under-granting privileges. As part of customizing, you might remove read access for records that're not related to chat, such as Survey feedback, SMS, or voice channels. Finally, you can save the new security role as "seasonal service rep".
+For example, if your organization is expecting a large seasonal increase in chat service requests, you might hire some seasonal employees to exclusively handle chat channels. You can create a security role for the "seasonal service rep". First, you'd identify that users with this role are part of the representative archetype. Knowing that, you'll create a copy of the "Omnichannel agent" security role. By starting with a copied role, you are less likely to face user issues by under-granting privileges. As part of customizing, you might remove read access for records that're not related to chat, such as Survey feedback, SMS, or voice channels. Finally, you can save the new security role as "seasonal service rep".
 
 ## Map roles to personas
 
-After you enable persona mapping, the system automatically assigns default roles depending on the Dynamics 365 services that're enabled for your environment. For an environment with Customer Service Enterprise license, the default mapping includes Customer Service Representative and CSR manager roles. For an environment with Omnichannel for Customer Service, the three primary security roles are mapped to personas. If both services are enabled, both sets of default mappings are included. The following table contains the mapping information for the roles in Customer Service and Omnichannel for Customer Service.
+After you enable persona mapping, the system automatically assigns default roles depending on the Dynamics 365 services that're enabled for your environment. For an environment with Customer Service Enterprise, the default mapping includes Customer Service Representative and CSR manager roles. For an environment with Dynamics 365 Contact Center, the three primary security roles are mapped to personas. If both services are enabled, both sets of default mappings are included. The following table contains the mapping information for the roles in Customer Service and Dynamics 365 Contact Center.
 
 | Service | Admin persona default mapping | Supervisor persona default mapping | Agent persona default mapping |
 | ------------- | ---------------- | ------------------- | --------------- |
 | Customer Service Enterprise | CSR Manager | CSR Manager | Customer Service Representative |
-| Omnichannel for Customer Service | Omnichannel Administrator | Omnichannel supervisor | Omnichannel agent |  
-| Customer Service Enterprise + Omnichannel for Customer Service | CSR Manager + Omnichannel Administrator | CSR Manager + Omnichannel supervisor | Customer Service Representative + Omnichannel agent |
+| Dynamics 365 Contact Center | Omnichannel Administrator | Omnichannel supervisor | Omnichannel agent |  
+| Customer Service Enterprise + Dynamics 365 Contact Center | CSR Manager + Omnichannel Administrator | CSR Manager + Omnichannel supervisor | Customer Service Representative + Omnichannel agent |
 
 > [!NOTE]
 >
 > - Customized mappings aren't reset if one of the services is added later.
 > - Make sure that the roles you want to map to personas are assigned to the users directly and not through team memberships.
-
+> - To access the Omnichannel Agent dashboard from Power Apps with custom roles, you'll need to update the agent persona with the appropriate role.
+ 
 ### Manage personas
 
-You can customize the roles to persona mapping in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
-
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+You can customize the roles to persona mapping in the Copilot Service admin center app.
 
 **To customize the role to persona mapping**
 
-1. Go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-   
-    - In the site map, select **User management** in **Customer support**. The **User management** page appears.    
-   
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    - In the site map, select **User attributes** under **Advanced settings**.
-    
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub) 
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-    
-    - Go to the **Service Management** change area, and select **User attributes** from the **Unified routing** menu.
+1. In the site map of Copilot Service admin center, select **User management** in **Customer support**. The **User management** page appears.    
 
 2. Select **Manage** for **Role persona mapping**.
 
@@ -140,7 +127,7 @@ To assign a persona to the "seasonal service rep" role mentioned in the example,
 
 Users with security roles mapped to personas don't get automatic access to associated dashboards or applications. Perform the following steps to provide access and privileges to users:
 
-1. Create the user role. More information: [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
+1. Create the user role. Learn more in [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles).
 
 2. Add and edit user permissions and privileges.
 
@@ -168,7 +155,7 @@ To enable access to a form or dashboard, perform the following steps:
 
 6. Select the role that you want to provide access to, and select **OK**.
 
-### See also
+### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
 [Manage users for unified routing](users-user-profiles.md)  

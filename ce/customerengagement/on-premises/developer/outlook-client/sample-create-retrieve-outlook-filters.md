@@ -2,7 +2,6 @@
 title: "Sample: Create and retrieve Outlook filters (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: Learn how to create and retrieve filters for Microsoft Dynamics 365 for Outlook using this code sample.
 ms.custom:
-ms.date: 01/28/2020
 ms.reviewer: pehecke
 
 ms.suite:
@@ -20,7 +19,7 @@ search.audienceType:
 
 # Sample: Create and retrieve Outlook filters
 
-This sample shows how to retrieve filters for Microsoft Dynamics 365 for Outlook. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/CreartRetrieveOutlookFilters).
+This sample shows how to retrieve filters for Microsoft Dynamics 365 for Outlook. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/CreartRetrieveOutlookFilters).
 
 [!include[cc-sample-note](../includes/cc-sample-note.md)]
 
@@ -51,7 +50,7 @@ Display an option to delete the sample data that is created in [Setup](#setup). 
 [Extend Dynamics 365 for Outlook](../extend-customer-engagement-outlook.md)  
  [Sample: Use Outlook Methods](sample-outlook-methods.md)  
  [Offline and Outlook Filters and Templates](offline-outlook-filters-templates.md)  
- [SavedQuery Entity](../entities/savedquery.md)  
+ [SavedQuery Entity](/power-apps/developer/data-platform/reference/entities/savedquery)  
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

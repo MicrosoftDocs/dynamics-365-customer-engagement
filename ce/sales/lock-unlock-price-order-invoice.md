@@ -1,7 +1,7 @@
 ---
 title: Lock or unlock the price for an order or invoice
 description: Enable or disable price updates for finalized orders or invoices in Sales Hub, ensuring control over pricing changes.
-ms.date: 04/22/2024
+ms.date: 08/22/2025
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -23,14 +23,7 @@ ms.custom:
 ---
 # Lock or unlock the price for an order or invoice (Sales Hub) 
 
-After you've finalized an order or invoice for a specific price, you can lock the price to prevent it from being updated when the price list is updated. Conversely, you can enable current pricing to update the price on the order or invoice when the price list is updated.
-
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+After you've finalized an order or invoice for a specific price, you can lock the price to prevent it from being updated when the price list is updated. Conversely, you can enable current pricing to update the price on the order or invoice when the price list is updated. Your administrator can set the [default behavior for price locking](faq-product-price-list.md#how-do-i-change-the-default-value-for-prices-locked) in the system settings.
 
 ## Lock prices or use current pricing
 
@@ -43,7 +36,7 @@ After you've finalized an order or invoice for a specific price, you can lock th
       - The **Prices Locked** field in the order or invoice is set to **Yes**.
       - The **Price Per Unit** field is locked for all the products in the order or invoice and is disabled for editing.
       - You won't be able to add write-in products to the order or invoice as you need to specify the price for write-in products.
-      - Though you can change the price list of the order or invoice, the prices of the products are not updated based on that price list.
+      - Though you can change the price list of the order or invoice, the prices of the products aren't updated based on that price list.
       - You can continue to add products to the quote at the default price, but you won't be able to edit the price.  
 4. To unlock prices and use current pricing, on the command bar, select the More Commands icon :::image type="icon" source="media/more-commands-icon.png" alt-text="Screenshot of More Commands icon" border="false":::, and then select **Use Current Pricing**.
 
@@ -55,7 +48,7 @@ After you've finalized an order or invoice for a specific price, you can lock th
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create or edit orders](create-edit-order-sales.md)  
 [Create or edit invoices](create-edit-invoice-sales.md)

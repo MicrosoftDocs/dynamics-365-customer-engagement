@@ -1,10 +1,11 @@
 ---
-title: Create and design forms for Customer Service Hub | Microsoft Docs
+title: Create and design forms for Customer Service Hub
 description: Know how to create and design main forms for Customer Service Hub
-ms.date: 06/01/2018
-ms.topic: article
+ms.date: 04/30/2025
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 search.audienceType: 
   - admin
   - customizer
@@ -19,7 +20,7 @@ ms.custom:
 
 Improve user's productivity with the new forms in the Customer Service Hub. The form type of the new forms is **Main**. 
 
-The **Main** forms come with an improved user experience optimized for agent productivity, helping to maintain context while working on related records. Main forms provide the primary interface where the agents can view and interact with their data in Microsoft Dynamics 365 Customer Service.
+The **Main** forms come with an improved user experience optimized for productivity, helping to maintain context while working on related records. Main forms provide the primary interface where the service representatives can view and interact with their data in Microsoft Dynamics 365 Customer Service.
 
 Upgrading to the Customer Service Hub? See the blog to know some key upgrade-specific changes as well as general customization and user experience changes :[Upgrade from Interactive Service Hub to the Customer Service Hub](upgrade-ish-csh.md)
 
@@ -80,7 +81,8 @@ As a customizer, you can customize these forms in a way that it is easier for th
 ## Assign form order  
  When you have multiple main, quick create, or mobile forms for an entity you can assign a form order. The form order determines which of the available forms will be shown by default. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Assign form order for forms](../../customerengagement/on-premises/customize/assign-form-order.md)  
 
-## See Also  
+### Related information 
+
 [Create and design forms](../../customerengagement/on-premises/customize/create-design-forms.md)   
 
 

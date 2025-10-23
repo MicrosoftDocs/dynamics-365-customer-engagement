@@ -1,7 +1,7 @@
 ---
 title: Customize the Microsoft 365 integrations for Field Service
 description: Learn how to tailor the Microsoft 365 integrations for Dynamics 365 Field Service to your business.
-ms.date: 04/18/2024
+ms.date: 08/29/2025
 ms.topic: how-to
 author: matthidinger
 ms.author: mahiding
@@ -11,6 +11,8 @@ ms.subservice: m365-integrations
 ---
 
 # Customize the Microsoft 365 integrations for Field Service
+
+[!INCLUDE [m365-fs-deprecate](../includes/microsoft365-field-service-deprecation.md)]
 
 Customize the work order and booking experiences to help frontline managers and workers accomplish their tasks faster by filling in and retrieving the specific pieces of information they need, when they need it.
 
@@ -31,7 +33,7 @@ The Microsoft 365 integrations for Field Service use table properties in Power A
 
 ## Prerequisites
 
-- Global admin or Exchange admin permissions in the Microsoft 365 Admin Center.
+- Exchange admin permissions in the Microsoft 365 Admin Center.
 - Environment is in a [supported geography, region, and language.](flw-overview.md#supported-geographies-regions-and-languages)
 - One of more of the [Microsoft 365 integrations for Field Service is deployed.](flw-admin.md)
 - Field Service solution is version 8.8.98.36 or above. To update the solution, see [Update Field Service](update-field-service.md#dynamics-365-field-service).
@@ -113,7 +115,7 @@ Choose the view you want to appear for your frontline managers and workers. You 
 
 ## Add or edit columns
 
-You can [modify the Field Service columns](field-service-customize-columns-fields.md) that come with Dynamics 365 Field Service. Related table columns are read-only and can't be filtered in the work order list. *File* type isn't supported and multi-select lookup fields aren't supported.
+You can [modify the Field Service columns](/dynamics365/guidance/resources/field-service-customize-columns-fields) that come with Dynamics 365 Field Service. Related table columns are read-only and can't be filtered in the work order list. *File* type isn't supported and multi-select lookup fields aren't supported.
 
 If a column is required but has a default that will be provided after the table is created, you might not want to include the field in the view. For example, if **Price List** is based on the selected **Service Account**, don't include **Price List** in the view.
 
@@ -144,7 +146,7 @@ You can customize the labels used for work orders to better match your organizat
 
 ## Next steps
 
-- [General customization best practices](field-service-customization-best-practices.md)
+- [General customization best practices](/dynamics365/guidance/resources/field-service-customize-best-practices)
 - [Create and edit views in Power Apps](/power-apps/maker/model-driven-apps/create-or-edit-model-driven-app-view)
 
 

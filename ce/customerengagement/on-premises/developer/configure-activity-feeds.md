@@ -2,7 +2,6 @@
 title: "Configure activity feeds (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The following sections contain information about how to configure your system for activity feeds."
 ms.custom: 
-ms.date: 11/01/2021
 ms.reviewer: pehecke
 
 ms.suite: 

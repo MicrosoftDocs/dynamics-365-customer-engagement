@@ -1,10 +1,11 @@
 ---
 title: Softphone integration with Dynamics 365 Channel Integration Framework 1.0
 description: Get the sample code for softphone integration using Dynamics 365 Channel Integration Framework 1.0 with Dynamics 365 model-driven apps.
-ms.date: 03/05/2024
-ms.topic: article
+ms.date: 05/15/2025
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -15,7 +16,7 @@ ms.custom:
 [Download](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/channel-integration-framework/TwilioSampleInteg_version1) the softphone integration sample for Microsoft Dynamics 365 Channel Integration Framework version 1.0.
 
 > [!NOTE]
-> The sample code is not supported on Internet Explorer and on browsers that do not have WebRTC support. More information: [WebRTC](https://webrtc.org/)
+> The sample code isn't supported on Internet Explorer and on browsers that don't have WebRTC support. More information: [WebRTC](https://webrtc.org/)
 
 > [!Important]
 > - This sample code currently has limited availability.
@@ -75,35 +76,23 @@ A valid Azure subscription is required to publish the sample app to Azure.
    |Channel Order| 0 |
    |API Version| 1.0 |
    |Trusted Domains|The domain (URL) that can access the Channel Integration Framework APIs.|
-   |Select the Unified Interface Apps for the Channel| The list of Unified Interface apps where the channel is displayed for the agents. |
-   |Select Roles for the Channel|The security roles that are present in Dynamics 365.<br>**Note:** If you do not assign any role, the channel provider is shown to all users assigned for the Dynamics 365 Unified Interface app.|
+   |Select the Unified Interface Apps for the Channel| The list of Unified Interface apps where the channel is displayed for the customer service representatives. |
+   |Select Roles for the Channel|The security roles that are present in Dynamics 365.<br>**Note:** If you don't assign any role, the channel provider is shown to all users assigned for the Dynamics 365 Unified Interface app.|
 
 3. Launch the Unified Interface app to see the communication widget on the right side.
-
-   **The communication widget in the minimized mode**
-
-   ![Communication widget in the minimized mode.](../../media/widget-minimized-mode.png "Communication widget in the minimized mode")
-   
-   **The communication widget in the expanded mode**
-   
-   ![Communication widget in the expanded mode.](../../media/widget-expanded-mode.png "Communication widget in the expanded mode")
 
 > [!Important]
 > - All URLs must be HTTPS.
 > - If you use a self-signed certificate for the Azure app or the Dynamics 365 org, certain browsers might reject the connection and fail to load the sample phone. As a workaround, open the Azure app in a separate tab and accept the certificate once.
-> - Ensure microphone and speaker access is not blocked by browser policy.
+> - Make sure that access to microphone and speaker isn't blocked by browser policy.
 
-## Related topics
+## Related information
 
-[Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)
-
-[Configure a channel provider](configure-channel-provider-channel-integration-framework.md)
-
-[Microsoft.CIFramework](../develop/reference/microsoft-ciframework.md)
-
-[Client-side events](../develop/reference/client-side-events.md)
-
-[Entity reference](../develop/reference/entities-attributes/msdyn-ciprovider.md)
+[Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)  
+[Configure a channel provider](configure-channel-provider-channel-integration-framework.md)  
+[Microsoft.CIFramework](../develop/reference/microsoft-ciframework.md)  
+[Client-side events](../develop/reference/client-side-events.md)  
+[Entity reference](../develop/reference/entities-attributes/msdyn-ciprovider.md)  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

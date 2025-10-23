@@ -1,30 +1,30 @@
 ---
-title: Work with queues
-description: Learn how to work with queues, find queue items, and pick work items from queues.
-ms.date: 05/15/2024
+title: Use queues to organize, prioritize, and monitor work
+description: Learn how to work with queues, find queue items, and pick work items from queues in Dynamics 365 Customer Service.
+ms.date: 05/15/2025
 ms.topic: how-to 
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.collection: 
 ms.custom: bap-template 
 ---
 
-# Work with queues
+# Use queues to organize, prioritize, and monitor your work
 
-Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, such as completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](../administer/set-up-queues-manage-activities-cases.md).
+Queues in Dynamics 365 Customer Service help you manage workloads by organizing cases, tasks, and other work items that need attention. This article explains how to work with existing queues, including how to view queue items, pick up work, route items to team members, and track completion status. Learn more about creating and managing queues in [Create and manage queues](../administer/set-up-queues-manage-activities-cases.md).  
 
-The option for agents to manage their queues and items is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../../customerengagement/on-premises/whats-new.md#enhancements-in-the-queue-page)
+
+The option for customer service representatives to manage their queues and items is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. Learn more in [New features in Dynamics 365 Customer Engagement (on-premises)](../../customerengagement/on-premises/whats-new.md#enhancements-in-the-queue-page).
 
 ## Pick queue items
 
 Use the view list and queue list to filter and find items in queues.
 
-1. In the Customer Service workspace or Customer Service Hub, select  **Queues**.
+1. In the Copilot Service workspace or Customer Service Hub, select  **Queues**.
 2. Select a view, and then select a filter to see the items you want.
 
    ![Queues view list.](../media/queues_view_list.png "Customer Service Hub Queues View List") 
-
-3. From the **All items** dropdown list, select the pin icon to pin the view that you want to appear on your dashboard. 
 
 1. The following options are available for view lists:
    - **All Items in Selected Queues**: Displays all the cases from a selected queue.
@@ -47,11 +47,11 @@ Use the view list and queue list to filter and find items in queues.
         
     
    - Your capacity is updated. If the work item indicates capacity consumed in units, the corresponding units will be reduced from your total available capacity. If capacity profile is configured for the work item, your available capacity units in that profile are deducted by one.
-   - Your work schedule, assignment rules, skills, presence, or capacity constraints aren't evaluated during a manual pick. For example, even if you don't have enough capacity available as requested by the work item, you'll still be able to pick the work item. This ability to manually override pre-configured capacity is to ensure that you're able to pick up work beyond your normal capacity during contingencies. More information: [Capacity profiles](../administer/capacity-profiles.md)
+   - Your work schedule, assignment rules, skills, presence, or capacity constraints aren't evaluated during a manual pick. For example, even if you don't have enough capacity available as requested by the work item, you'll still be able to pick the work item. This ability to manually override pre-configured capacity is to ensure that you're able to pick up work beyond your normal capacity during contingencies. Learn more in [Capacity profiles](../administer/capacity-profiles.md).
    - Your presence will be updated. If you have further capacity left, your presence will be set to **Busy**. If you have no capacity left, your presence will be set to **Do not disturb**.
 
    > [!NOTE]
-   > Remove the items from the queue can't be set for work items in an advanced queue.
+   > Remove the items from the queue can't be set for work items in an advanced queue. Advanced queues are used in unified routing to which work items are routed through workstreams.
 
 ## Release an item or case that you’re working on  
   
@@ -127,7 +127,7 @@ The table lists the views with their descriptions.
 
 You can also select a view for your queues by navigating through Queues. You must select an item and then select **Route** to add the required view for your queues.  
 
-### See also
+### Related information
 
 [Work with cases](customer-service-hub-user-guide-create-a-case.md)  
 

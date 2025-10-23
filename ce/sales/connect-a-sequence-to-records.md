@@ -1,8 +1,8 @@
 ---
 title: Connect a sequence to records
 description: Connect a sequence to a record based on the entity that the sequence is created in the sales accelerator in Dynamics 365 Sales.
-ms.date: 02/02/2024
-ms.topic: article
+ms.date: 08/20/2025
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -13,29 +13,18 @@ After you create and activate a sequence for the selling process, you connect th
 
 Also, you can connect multiple sequences to a record. More information: [Connect multiple sequences to record](#connect-multiple-sequences-to-record)
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator, Sequence Manager, or Salesperson <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## Connect multiple sequences to record
 
 To improve the customer engagement and collaboration when multiple team members work on a record, you can connect multiple sequences to that record. This helps in closing deals faster, and bringing better business results.  
+As a sales manager or seller, you can connect multiple sequences to a record manually. Select the **Connect sequence** option on the record page. In the **Connect *record* to sequence** dialog box, connect the required sequences. For connecting multiple sequences, verify that the record owner or the sequence owner has the [necessary permissions](create-manage-sequences.md#permission-requirements-to-manage-sequences).  
+More information: [Through the record type grid view](#through-the-record-type-grid-view). 
 
-As a sales manager or seller, you can connect multiple sequences to a record in the following ways:
-
-- **Manually connect sequences**: By using the **Connect sequence** option on the record page, you can open the **Connect *record* to sequence** dialog and connect the required sequences. For connecting multiple sequences, verify that the record owner or the sequence owner has the [necessary permissions](create-manage-sequences.md#permission-requirements-to-manage-sequences).  
-
-    More information: [Through the record type grid view](#through-the-record-type-grid-view). 
-
-- **Automatically connect sequences**: By using [segments](wa-connect-a-segment-to-sequence.md), you can connect the required sequences to a record. Segments allow you to define criteria for a group of records that qualify for a sequence. For example, you can create a segment for all the opportunities that have a high probability of closing in the next quarter. You can then associate a sequence to that segment, so that whenever a record meets the criteria, it automatically connects to the sequence. Also, you can associate multiple sequences to a segment, as long as there's no conflict in the sequence ownership. If there's a conflict, you can use the priority of segments to determine which sequence gets connected to the record.  
-
-  More information: [Create and activate a segment](wa-create-and-activate-a-segment.md#create-and-activate-a-segment).
+>[!NOTE]
+>When a segment is connected to the same sequence more than once for the same record and assigned to the same seller, the Up next widget displays duplicate activities.  
 
 ## Ways to connect sequence to records
 
-You can connect a sequence to records in the following ways:    
+You can connect a sequence to records in the following ways:  
 
 - [Through a sequence](#ContactThroughASequence)
 - [Through the record type grid view](#ContactThroughGridView)
@@ -97,7 +86,7 @@ You can connect a sequence to records in the following ways:
     > ![Select leads to connect the sequence to](media/sequence-select-leads-connect-sequence.png "Select leads to connect the sequence to")   
 
     > [!NOTE]
-    >- You can't connect a sequence to a record that has already been connected with a different sequence. When you select a record that was already connected, the **Disconnect sequence** option appears on the toolbar. To connect to a different sequence, select **Disconnect sequence**. The record will be available to connect to the sequence you want.      
+    >- You can't connect a sequence to a record that has already been connected with a different sequence. When you select a record that was already connected, the **Disconnect sequence** option appears on the toolbar. To connect to a different sequence, select **Disconnect sequence**. The record is available to connect to the sequence you want.      
     >- When you choose multiple sequences to connect, and the chosen list contains both connected and disconnected records, no option to connect or disconnect will be displayed on the toolbar.    
 5. Select **Connect sequence**. The list of available sequences that appears includes sequences created by you and other sales managers.   
     In this example, a list of sequences that are configured for the **Lead** entity is displayed.    
@@ -177,7 +166,7 @@ You can create a flow based on a sequence. The flow connects the records automat
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Sequences](create-manage-sequences.md)  
 [Create and activate a sequence](create-and-activate-a-sequence.md)

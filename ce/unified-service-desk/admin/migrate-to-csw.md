@@ -1,21 +1,19 @@
 ---
-title: Migrate to Customer Service workspace
-description: Learn how to migrate from Dynamics 365 Unified Service Desk to Customer Service workspace.
-ms.date: 02/07/2023
-ms.topic: conceptual
+title: Migrate to Copilot Service workspace
+description: Learn how to migrate from Dynamics 365 Unified Service Desk to Copilot Service workspace.
+ms.date: 04/30/2025
+ms.topic: upgrade-and-migration-article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
-  - bap-template
+ms.custom: evergreen
 ---
 
-# Migrate to Customer Service workspace
+# Migrate to Copilot Service workspace
 
-Customer Service workspace provides a modern customer service experience that optimizes agent productivity. By migrating from Unified Service Desk to Customer Service workspace, you can:
+Copilot Service workspace provides a modern customer service experience that optimizes agent productivity. By migrating from Unified Service Desk to Copilot Service workspace, you can:
 
 - Modernize your customer service with a cloud-based workspace for faster deployment.
 - Focus on your business processes.
@@ -25,15 +23,15 @@ Customer Service workspace provides a modern customer service experience that op
 
 ## Migration playbook
 
-The **Unified Service Desk to Customer Service workspace Migration Playbook** helps you plan and execute the transition from Unified Service Desk to Customer Service workspace. The playbook consists of the following chapters:
+The **Unified Service Desk to Copilot Service workspace Migration Playbook** helps you plan and execute the transition from Unified Service Desk to Copilot Service workspace. The playbook consists of the following chapters:
 
-- **Chapter 1: Initiate** discusses the differences between Customer Service workspace and Unified Service Desk and how to initiate the migration process.
+- **Chapter 1: Initiate** discusses the differences between Copilot Service workspace and Unified Service Desk and how to initiate the migration process.
 
-- **Chapter 2: Explore** describes the Customer Service workspace app, how to define your transition plan, and how to create a pilot app.
+- **Chapter 2: Explore** describes the Copilot Service workspace app, how to define your transition plan, and how to create a pilot app.
 
 - **Chapter 3: Transition** explains how to build a successful transition plan.
 
-- **Chapter 4: Optimize** discusses how to monitor adoption of the new app, review the migration experience, plan for innovation and future growth, and addressd any gaps or issues.
+- **Chapter 4: Optimize** discusses how to monitor adoption of the new app, review the migration experience, plan for innovation and future growth, and addressed any gaps or issues.
 
 ## Download the migration playbook
 
@@ -44,4 +42,5 @@ The **Unified Service Desk to Customer Service workspace Migration Playbook** he
 
 ### See also
 
-[Get started with Customer Service workspace](../../customer-service/implement/csw-overview.md)  
+- [Get started with Copilot Service workspace](../../customer-service/implement/csw-overview.md)
+- [Migrate from Unified Service Desk to Copilot Service workspace](/dynamics365/guidance/resources/cs-usd-migration-guide)  

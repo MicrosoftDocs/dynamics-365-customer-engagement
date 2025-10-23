@@ -2,7 +2,6 @@
 title: "Sample code for activity entities (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "This section contains the code examples that demonstrate how to use the activity entities"
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

@@ -2,12 +2,11 @@
 title: "Use form controls for Dynamics 365 for phone and tablets"
 description: "For a more touch-friendly experience on Dynamics 365 for phones and tablets, use controls including sliders, switches, media players, calendars, and more." 
 ms.custom: 
-ms.date: 11/08/2018
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 author: Mattp123

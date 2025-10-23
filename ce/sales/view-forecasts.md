@@ -1,7 +1,7 @@
 ---
 title: View and  manage a forecast 
 description: Learn how to review forecasts in Dynamics 365 Sales to know the health of your pipeline or to track how your sales team is doing against their quota or target.
-ms.date: 03/05/2024
+ms.date: 03/25/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -28,14 +28,6 @@ searchScope:
 Forecasts help you to see the health of your pipeline or to see how your sales team is doing against their quota or target.
 
 The forecasting feature isn't supported on mobile devices.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>For more information, see [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/). |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  For more information, see [Primary sales roles](security-roles-for-sales.md#primary-sales-roles).|
-
 
 ## Open and view a forecast
 
@@ -69,7 +61,7 @@ The following columns are displayed by default in an org chart forecast.
 
 - **Users**: Shows the hierarchy of users as defined by the **Manager** field. To learn more, see [Forecasts and sales hierarchy](#forecasts-and-sales-hierarchy).
 
-- **Quota**: A target amount set for a specific owner over a given time frame. This value is specified in the forecast configuration. The progress bar is calculated against this value. For the out-of-the-box forecast, this value is set to the previous months's won amount.
+- **Quota**: A target amount set for a specific owner over a given time frame. This value is specified in the forecast configuration. The progress bar is calculated against this value. For the out-of-the-box forecast, this value is set to the previous month's won amount.
 
 - **Committed**: Shows the aggregated (rolled-up) value of estimated revenue for all open opportunities that have the forecast category set as **Committed** (high confidence). This value can be adjusted during forecast.
 
@@ -110,7 +102,7 @@ The following table lists the differences between the out-of-the-box forecast an
 | Quota value is based on previous month's won amount. | Quota value is based on the value defined in the forecast configuration. |
 | Updates to the underlying records are reflected in the forecast after the forecast page is refreshed.| Updates to the underlying records are reflected in the forecast after the forecast is recalculated. |
 | Can handle upto 50,000 records. | No limit on the number of records. |
-| Forecasts are not saved; at a given time, only the current month's forecast is available. | Forecasts are saved for several forecast periods and can be viewed anytime. |
+| Forecasts aren't saved; at a given time, only the current month's forecast is available. | Forecasts are saved for several forecast periods and can be viewed anytime. |
 
 ## Forecasts and sales hierarchy
 
@@ -118,8 +110,7 @@ Every forecast is attached to an organization-defined hierarchy that rolls up th
 
 For example, you created a forecast by using the **Org chart forecast** template. The hierarchy is defined based on the **User** record. If Alyce Durham is a sales manager with one direct report, and is designated as manager in the **User** record, Alyce sees the forecast for both users. Because Alyce Durham reports to Samuel Strom, Samuel will see their own forecasts along with the rolled-up forecasts of their direct reports, including Alyce's.
 
-> [!div class="mx-imgBorder"]
-> ![Forecasts for a manager and direct reports.](media/forecast-for-team-hierarchy.png "Forecasts for a manager and direct reports")
+:::image type="content" source="media/forecast-for-team-hierarchy.png" alt-text="Screenshot of forecasts for a manager and direct reports.":::
 
 To see the rolled-up forecast for everyone in the hierarchy, expand a specific forecast.
 
@@ -131,8 +122,7 @@ The real time conversion of forecast data always takes place based on the latest
 
 For example, you have sales teams in the US and Europe. The base currency for your organization is defined as US Dollar and also, Euro is defined as one of the currencies. When you create forecast with multi currency enabled, sales teams open the forecast the data is displayed in Dollar. Sales teams in Europe can select currency as Euro and the forecast data is displayed in Euro. The conversion of currency happens in real time based on the current exchange rate. Also, manual adjustments can be made on the chosen currency.
 
-> [!div class="mx-imgBorder"]
-> ![Select currency drop-down.](media/forecast-multi-currency-select.png "Select currency drop-down")
+:::image type="content" source="media/forecast-multi-currency-select.png" alt-text="Screenshot of the Select currency drop-down.":::
 
 Administrator or forecast manager must enable the option to select currency. For more information, see [Turn on multi-currency selection](forecast-configure-advanced-settings.md#turn-on-multi-currency-selection).
 
@@ -148,7 +138,7 @@ With the forecast grid, you can do the following tasks:
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
 [Configure a forecast](configure-forecast.md)  

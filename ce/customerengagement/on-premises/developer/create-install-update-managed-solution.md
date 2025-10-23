@@ -2,7 +2,6 @@
 title: "Create, install, and update a managed solution (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: Learn how to create, and install, and update a managed solution using Dynamics 365 Customer Engagement (on-premises).
 ms.custom: 
-ms.date: 04/02/2020
 ms.reviewer: pehecke
 
 ms.suite: 

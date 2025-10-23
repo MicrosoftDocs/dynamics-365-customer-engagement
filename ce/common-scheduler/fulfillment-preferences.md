@@ -1,8 +1,7 @@
 ---
-title: Set fulfillment preferences to determine how results are displayed in Universal Resource Scheduling
-description: Set your fulfillment preferences to choose how schedule assistant results are displayed and learn about intervals and time groups.
-ms.date: 02/16/2023
-ms.reviewer: mhart
+title: Set fulfillment preferences to determine how results are shown in Universal Resource Scheduling
+description: Learn how to set fulfillment preferences such as intervals and time groups to choose how schedule assistant results are displayed.
+ms.date: 07/18/2025
 ms.subservice: common-scheduler
 ms.topic: how-to
 author: ryanchen8

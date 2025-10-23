@@ -1,7 +1,7 @@
 ---
 title: Manage Field Service work orders with Microsoft 365 overview 
 description: Learn about integrations for Dynamics 365 Field Service with Microsoft Outlook and Teams.
-ms.date: 04/18/2024
+ms.date: 08/29/2025
 ms.topic: overview
 author: jasonxian-msft
 ms.author: jasonxian
@@ -12,15 +12,15 @@ ms.subservice: m365-integrations
 
 # Manage Field Service work orders with Microsoft 365 overview
 
+[!INCLUDE [m365-fs-deprecate](../includes/microsoft365-field-service-deprecation.md)]
+
 Dynamics 365 Field Service integrations with Microsoft Outlook, Teams, and Viva Connections let frontline workers and managers create, view, and manage work orders in Outlook and Teams. A frontline manager is typically a service manager and dispatcher. A frontline worker is a technician, the one performing the repair or maintenance.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW18MMY]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=874169d4-de11-47cf-8b08-8ccee0af68ed]
 
 An Outlook add-in allows frontline managers to view and create work orders in Outlook, so they can quickly respond to service requests and questions. The Outlook add-in also provides copilot capabilities to assist with work order creation and scheduling in Outlook.
 
 A Teams home page or a Viva Connections dashboard in Teams provides frontline workers with an at-a-glance view of their workday and frontline managers with the ability to view, create, and schedule work orders. Users can also initiate a Dynamics 365 Remote Assist call from here.
-
-A [Dynamics 365 Field Service Plugin for Microsoft Copilot](flw-m365-chat.md) provides a chat in Teams where frontline managers and workers can ask questions about their work orders.
 
 As an organization, you can use the capabilities in Microsoft Outlook, Microsoft Teams, Microsoft Teams and Viva Connections, or a combination. For more information, see:
 
@@ -71,7 +71,7 @@ Microsoft 365 integrations for Field Service are available in environments that 
 | Catalan (Catalan)                      | ca-ES      |
 | Chinese (Simplified, PRC)              | zh-CN      |
 | Chinese (Taiwan)                       | zh-TW      |
-| Chinese (Hong Kong)                    | zh-HK      |
+| Chinese (Hong Kong SAR)                    | zh-HK      |
 | Croatian (Croatia)                     | hr-HR      |
 | Czech (Czech Republic)                 | cs-CZ      |
 | Danish (Denmark)                       | da-DK      |
@@ -106,7 +106,7 @@ Microsoft 365 integrations for Field Service are available in environments that 
 | Spanish (Spain)                        | es-ES      |
 | Swedish (Sweden)                       | sv-SE      |
 | Thai (Thailand)                        | th-TH      |
-| Turkish (Turkey)                       | tr-TR      |
+| Turkish (Türkiye)                      | tr-TR      |
 | Ukrainian (Ukraine)                    | uk-UA      |
 | Vietnamese (Vietnam)                   | vi-VN      |
 

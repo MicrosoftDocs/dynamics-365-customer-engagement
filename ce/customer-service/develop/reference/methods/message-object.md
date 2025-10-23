@@ -1,51 +1,41 @@
 ---
 title: Retrieve and format rich messages
 description: Learn about the MessageObject type used in the sendMessageToConversation method in Omnichannel JavaScript API.
-ms.date: 01/04/2024
+ms.date: 10/13/2025
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-ms.reviewer:
-
+ms.reviewer: mgandham
 ---
 
 # Retrieve and format rich messages
 
-[!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
+The Copilot Studio and Dynamics 365 for Customer Service platforms differ slightly in how they support rich media messages based on channel and rich media message type. This article describes how you can support rich media messages in Copilot Studio.
 
-[!INCLUDE[pva-rebrand](../../../../includes/cc-pva-rebrand.md)]
+## Retrieve agent JSON for Apple Messages for Business
 
-[!INCLUDE[oac-deprecation](../../../../includes/oac-deprecation.md)]
-
-Because the Copilot Studio and Omnichannel for Customer Service platforms process rich messages differently, you'll need to modify the strings to get valid `MessageObject` type strings that can be sent via the `sendMessageToConversation` method to the conversation. You must process the rich message payload before sending it to the conversation, else the method will send the desired rich object payload in plain `String` format.
-
-This articles describes how you can programmatically retrieve and format rich messages that can then be passed using the `MessageObject` type to the `sendMessageToConversation` method.
-
-## Retrieve the rich message payload
-
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-     
-     1. In the site map, select **Productivity** in **Agent experience**.
-     2. On the **Productivity** page, select **Manage** for **Rich messages**.
-
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
-
-    - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Rich messages**.
-
+1. In the site map of Copilot Service admin center, select **Productivity** in **Support experience**.
+1. On the **Productivity** page, select **Manage** for **Rich messages**.
 1. From the list of all available list messages, select a rich message that you'd like to send to the conversation.
+1. For Apple Messages for Business rich messages, use the **Microsoft.Omnichannel.sendMessageToConversation** API to send JSON files.
+ 
+## Retrieve agent JSON for Live Chat forms, Live Chat custom JSON, and WhatsApp suggested replies
 
-4. Select the **Details** tab and select **Copy** under the **Rich message JSON** field. 
+1. In the site map of Copilot Service admin center, select **Productivity** in **Support experience**.
+1. On the **Productivity** page, select **Manage** for **Rich messages**.
+1. Find the rich media message you want an agent to send, and if it has JSON available, it appears under the **JSON for Copilot Studio** column. Select **View JSON** and the specific channel type to copy the JSON.
 
-You'll use this JSON value when you format the rich message types.
-
-## Format rich messages
+   > [!div class=mx-imgBorder]
+   > ![Rich message JSON](../../../media/json-rich-messages.png "View JSON and specific channel type.")
+   
+1. For Live Chat and WhatsApp rich media templates, you can paste the JSON directly into an adaptive card node in Copilot Studio.
+   
+## JSON samples for rich messages for Apple Messages for Business
 
 This section includes JSON samples for the rich message types available in the Apple Messages for Business channel in Omnichannel for Customer Service. More information: [Manage rich messages](../../../administer/create-rich-messages.md)
 
 > [!Note]
-> You can't send rich messages of the Forms type to conversations.
+> You can't send Forms type rich messages to conversations.
 
 ### Apple Pay
 
@@ -107,7 +97,7 @@ Microsoft.Omnichannel.sendMessageToConversation(listPickerJSON, false);
 copy(listPickerJSON);
 ```
 
-### Suggested Reply
+### Suggested reply
 
 ```javascript
 suggestedReplyJSON = // <copy_and_paste_details_content>
@@ -121,7 +111,7 @@ Microsoft.Omnichannel.sendMessageToConversation(suggestedReplyJSON, false);
 copy(suggestedReplyJSON);
 ```
 
-### Time Picker
+### Time picker
 
 ```javascript
 timePickerJSON = // <copy_and_paste_details_content>
@@ -135,7 +125,7 @@ Microsoft.Omnichannel.sendMessageToConversation(timePickerJSON, false);
 copy(timePickerJSON);
 ```
 
-### Video Rich Link
+### Video rich link
 
 ```javascript
 videoRichLinkJSON = // <copy_and_paste_details_content>
@@ -149,7 +139,7 @@ Microsoft.Omnichannel.sendMessageToConversation(videoRichLinkJSON, false);
 copy(videoRichLinkJSON);
 ```
 
-### Website Rich Link
+### Website rich link
 
 ```javascript
 websiteRichLinkJSON = // <copy_and_paste_details_content>
@@ -162,8 +152,14 @@ Microsoft.Omnichannel.sendMessageToConversation(websiteRichLinkJSON, false);
 // Or take the JSON elsewhere for use in bringing your own logic
 copy(websiteRichLinkJSON);
 ```
+## Configure agents to send Live Chat suggested replies and cards/carousels
 
-### See also
+Copilot Studio supports suggested replies and basic cards out of the box. Learn more in [Send a message - Microsoft Copilot Studio](/microsoft-copilot-studio/authoring-send-message).
+
+> [!Note]
+> Copilot Studio refers to suggested replies as quick replies.
+
+### Related information
 
 [Live chat SDK JavaScript API reference](../../omnichannel-reference.md)  
 [Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)  

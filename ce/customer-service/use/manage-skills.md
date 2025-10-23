@@ -1,7 +1,7 @@
 ---
 title: Manage skills
 description: Learn how to view or remove existing skills, and add new skills using the skill control in Omnichannel for Customer Service.
-ms.date: 05/10/2024
+ms.date: 04/28/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -9,14 +9,11 @@ ms.reviewer: nenellim
 ms.custom: 
   - dyn365-customerservice
   - bap-template
-search.audienceType: 
-  - admin
-  - customizer
 ---
 
 # Manage skills
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 Dynamics 365 comes with an out-of-the-box skill control for messaging channels. When your administrator adds the skill control to the case or conversation forms and enables it for you, you can view and update skills at runtime.
 
@@ -43,9 +40,9 @@ To remove skills, select **X** next to each skill that you want to delete.
 
 The skill updates you make for your assigned work items can then be used to retrain the machine learning-based skill finder models and help with accurate work assignments. More information: [Retrain skill finder model](../administer/set-up-isf-model.md#retrain-the-model-iteratively)
 
-### See also
+### Related information
 
-[Allow agents to update skills](../administer/allow-agents-update-skills.md)  
+[Allow representatives to update skills](../administer/allow-agents-update-skills.md)  
 [Set up record routing](../administer/set-up-record-routing.md)  
 [Set up unified routing](../administer/set-up-routing-process.md)  
 

@@ -1,10 +1,11 @@
 ---
-title: "Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Get an overview of Dynamics 365 Channel Integration Framework 2.0 and how to get started using it."
-ms.date: 02/18/2023
+title: Dynamics 365 Channel Integration Framework 2.0
+description: Get an overview of Dynamics 365 Channel Integration Framework 2.0 and how to get started using it.
+ms.date: 05/07/2025
 ms.topic: overview
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -16,11 +17,11 @@ Dynamics 365 Channel Integration Framework is a cloud-to-cloud extensible framew
 
 Technically, Dynamics 365 Channel Integration Framework is a set of APIs (methods, events, and protocols) that enable developers and partners to build immersive communication experiences so that third-party telephony running on a channel provider cloud can interact with model-driven apps in Dynamics 365.
 
-With the Dynamics 365 Channel Integration Framework app, you can configure the channel in the model-driven app so that your agents can access and serve your customers.
+With the Dynamics 365 Channel Integration Framework app, you can configure the channel in the model-driven app so that your customer service representatives (service representatives or service representatives) can access and serve your customers.
 
 ## Challenges of channel provider integration systems
 
-Organizations expect their call centers to do more while using fewer resources. There's a constant drive to increase productivity by having call center agents handle more phone calls. Reducing the average time to handle customer calls can save companies millions of dollars. A telephony channel in a call center is one of the key indicators for success and customer satisfaction. Some of the challenges the call center industry faces with telephony channels include:
+Organizations expect their call centers to do more while using fewer resources. There's a constant drive to increase productivity by having call center service representatives handle more phone calls. Reducing the average time to handle customer calls can save companies millions of dollars. A telephony channel in a call center is one of the key indicators for success and customer satisfaction. Some of the challenges the call center industry faces with telephony channels include:
 
 -  Integrating third-party telephony channels into their customer relationship management (CRM) platform.
 -  Accessing and performing operations on the CRM platform from the telephony widget area.
@@ -40,19 +41,19 @@ Key new features in Dynamics 365 Channel Integration Framework 2.0 include:
 
 - **Integration with multisession apps**
 
-  Dynamics 365 Channel Integration Framework 2.0 provides APIs to integrate your telephony channel with multisession web experiences (Omnichannel for Customer Service and Customer Service workspace). These APIs allow the telephony channel to show notifications on incoming conversations with relevant information, start new sessions for conversations, and open application tabs as needed.
+  Dynamics 365 Channel Integration Framework 2.0 provides APIs to integrate your telephony channel with multisession web experiences (Omnichannel for Customer Service and Copilot Service workspace). These APIs allow the telephony channel to show notifications on incoming conversations with relevant information, start new sessions for conversations, and open application tabs as needed.
 
   More information: [Integration with multisession experiences](integration-multi-session-experiences.md)
 
 - **New modes and locations for the communication widget**
 
-  Telephony channel providers can now define experiences for the minimized mode of the communication widgets they build. Agents can manually change the mode of the control from docked to minimized. The same can also be achieved programmatically.
+  Telephony channel providers can now define experiences for the minimized mode of the communication widgets they build. Service representatives can manually change the mode of the control from docked to minimized. The same can also be achieved programmatically.
 
   More information: [New modes and locations for the communication widget](modes-communication-widget.md)
 
 - **Support for multiple providers**
 
-  With Dynamics 365 Channel Integration Framework 2.0, organizations can configure multiple telephony channels. This enables agents to simultaneously work on multiple sessions catering to different customers on different channels, where each of these sessions belongs to different telephony channel providers. The agent can perform all the interactions on these channels from a familiar conversation control.
+  With Dynamics 365 Channel Integration Framework 2.0, organizations can configure multiple telephony channels. This enables service representatives to simultaneously work on multiple sessions catering to different customers on different channels, where each of these sessions belongs to different telephony channel providers. The service representative can perform all the interactions on these channels from a familiar conversation control.
 
   More information: [Support for multiple providers](support-multiple-providers.md)
 
@@ -87,18 +88,18 @@ Additional capabilities offered by Dynamics 365 Channel Integration Framework in
 
 - **Support for screen pop**
 
-  You can configure screen pop to display customer information that can help agents start a conversation efficiently and effectively.
+  You can configure screen pop to display customer information that can help service representatives start a conversation efficiently and effectively.
 
-- **Customizable agent experience**
+- **Customizable representative experience**
 
-  - You can customize the custom channel to provide an enhanced agent experience with capabilities to maximize, minimize, show, hide, pop out windows, or change the window height or width.
-  - Agents can configure to use productivity tools with multiple sessions. They can create new scripts or reuse the existing ones.
+  - You can customize the custom channel to provide an enhanced service representative experience with capabilities to maximize, minimize, show, hide, pop out windows, or change the window height or width.
+  - Service representativess can configure to use productivity tools with multiple sessions. They can create new scripts or reuse the existing ones.
 
 - **Upgrading to new versions**
 
   You can seamlessly upgrade to new versions of third-party channel providers or channel aggregators because the Dynamics 365 Channel Integration Framework provides the infrastructure framework to integrate the channels, but it doesn't control the channel versions.
 
-### See also
+### Related information
 
 [Architecture of Dynamics 365 Channel Integration Framework 2.0](architecture-overview-channel-integration-framework-v2.md)  
 [System requirements of Dynamics 365 Channel Integration Framework 2.0](system-requirements-channel-integration-framework-v2.md)  

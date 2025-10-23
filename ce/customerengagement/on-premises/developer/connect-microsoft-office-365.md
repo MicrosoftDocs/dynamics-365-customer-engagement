@@ -2,7 +2,6 @@
 title: "Connect with Microsoft Office 365 and Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "The Microsoft Office 365 portal provides a single sign-on experience for Office 365 customers where they can sign in once and access any Office 365 application, including Dynamics 365 Customer Engagement (on-premises)"
 ms.custom: 
-ms.date: 03/29/2019
 ms.reviewer: pehecke
 
 ms.suite: 

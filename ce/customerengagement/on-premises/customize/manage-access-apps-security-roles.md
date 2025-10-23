@@ -2,11 +2,10 @@
 title: "Manage app access with security roles in Dynamics 365 for Customer Engagement (on-premises)"
 description: "Learn how to choose what users see and access from the My Apps page or the Customer Engagement home page by giving app access to specific security roles."
 keywords: 
-ms.date: 12/04/2018
 
 ms.custom: 
   - dyn365-deflc
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps

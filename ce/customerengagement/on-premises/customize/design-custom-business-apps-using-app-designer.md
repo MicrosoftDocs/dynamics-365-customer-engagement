@@ -2,7 +2,6 @@
 title: "Steps to using the app designer in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn about the steps for creating custom business apps with the app designer. Quickly bring together components such as entities, dashboards, and forms."
 ms.custom: 
-ms.date: 04/30/2019
 ms.reviewer: 
 
 ms.suite: 

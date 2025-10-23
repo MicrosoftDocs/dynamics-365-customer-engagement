@@ -2,12 +2,11 @@
 title: "Install Microsoft Dynamics 365 Server roles using the command prompt | Microsoft Docs"
 description: Learn how to install a server role using a command prompt with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "10/01/2018"
 
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 applies_to: 
   - "Dynamics 365 (on-premises)"
 ms.assetid: 83f0f6ac-3b36-451f-ab22-16948961fe9c

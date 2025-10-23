@@ -3,7 +3,6 @@ title: "One or more Microsoft Dynamics 365 Servers are disabled | Microsoft Docs
 description: Environment diagnostics warning that servers are disabled.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -4,9 +4,9 @@ description: Learn how to enable and use quick scheduling (also known as quick b
 ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.date: 02/24/2023
-ms.topic: conceptual
-author: FeifeiQiu
-ms.author: feiqiu
+ms.topic: how-to
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Enable quick book in Universal Resource Scheduling

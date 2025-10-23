@@ -2,7 +2,6 @@
 title: "Add timer control to a form in Dynamics 365 Customer Engagement (on-premises)"
 description: "Add a timer control to forms where records need to meet time-based milestones. Set up properties such as name, label, and conditions for failure and success."
 ms.custom: 
-ms.date: 01/09/2019
 ms.reviewer: 
 
 ms.suite: 

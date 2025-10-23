@@ -1,15 +1,14 @@
 ---
-title: "Use automation dictionary to pass parameter keys | MicrosoftDocs"
-description: "Learn about the supported formats to pass parameter values in the templates and macros."
+title: Use automation dictionary to pass parameter keys
+description: Learn about the supported formats to pass parameter values in the templates and macros.
 author: neeranelli
 ms.author: nenellim
-ms.date: 02/13/2023
-ms.topic: article
+ms.reviewer: nenellim
+ms.date: 04/21/2025
+ms.topic: overview
 ---
 
 # Use automation dictionary to pass parameter keys
-
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 The automation dictionary maintains the contextual data for sessions. You can use the keys from the automation dictionary to pass the parameter in an action.​
 
@@ -21,7 +20,7 @@ Let's take a scenario for templates with the notifications.
 
 The notification shows certain fields and values, which are called **Field header** and **Value**, respectively.
 
-Kenny Smith, a customer, initiated a conversation and when the agent sees the notification, it displays **Customer Name** as **Kenny Smith**.
+Kenny Smith, a customer, initiated a conversation and when the customer service representative (support representative or representative) sees the notification, it displays **Customer Name** as **Kenny Smith**.
 
 Here, **Field header** is **Customer Name** and the **Value** is **Kenny Smith**.
 
@@ -31,11 +30,11 @@ Similarly, for session and notification titles, you can pass the data parameters
 
 The system replaces these parameter keys with the actual values based on the context of the session, channel provider, Microsoft Dataverse, and user actions. More information: [Types of context data parameters](#types-of-context-data-parameters)
 
-### Pass data parameter in macros and agent scripts
+### Pass data parameter in macros and scripts
 
 Macros are a set of configured sequential actions that are run on demand by the user. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to pass the data parameters. More information: [Automation dictionary formats to pass data parameter keys](#automation-dictionary-formats-to-pass-data-parameter-keys)
 
-When the agent runs the macro, the system replaces these parameter keys with the actual values based on the context of the session, channel provider, Dataverse, and user actions. 
+When the representative runs the macro, the system replaces these parameter keys with the actual values based on the context of the session, channel provider, Dataverse, and user actions. 
 
 When the context is from a session, the macro action is run based on the information for a current session, where the information is obtained from an Anchor tab or current tab that's in focus. For example, to create a case, you need to define the actions that contain the incident entity form and the GUID of the form (optional). More information: [Types of context data parameter](#types-of-context-data-parameters)
 
@@ -53,11 +52,11 @@ The automation dictionary uses the context data parameters that are available fr
 
 ### Context data from the channel provider
 
-This context data is from the first-party channel provider such as Omnichannel for Customer Service or a third-party channel provider that uses the widget exposed by Dynamics 365 Channel Integration Framework. The context data from Omnichannel for Customer Service are pre-conversation survey, visitor portal navigation, and so on.
+This context data is from the first-party channel provider such as Dynamics 365 Contact Center or a third-party channel provider that uses the widget exposed by Dynamics 365 Channel Integration Framework. The context data can be pre-conversation survey and visitor portal navigation.
 
 ### Context data from user actions
 
-This data is populated as and when agents perform some activities in the session. An example is opening a new customer record, case, and so on.
+This data is populated as and when representatives perform some activities in the session. An example is opening a new customer record, case, and so on.
 
 ### Context data from Dataverse
 
@@ -95,11 +94,11 @@ The automation dictionary supports the following formats:
 
 ### Slugs
 
-A *slug* is a replacement parameter that the system populates at runtime based on context. Use the following list of slugs only for macros and agent scripts, and to set an agent script as the default by using the agent script expression builder. More information: [Productivity tools](productivity-tools.md)
+A *slug* is a replacement parameter that the system populates at runtime based on context. Use the following list of slugs only for macros and scripts, and to set a script as the default by using the script expression builder. More information: [Productivity tools](productivity-tools.md)
 
-#### Slugs for productivity tools (macros and agent scripts)
+#### Slugs for productivity tools (macros and scripts)
 
-Macros and agent scripts support the following slugs:
+Macros and scripts support the following slugs:
 
 | Slug | Description |
 |------------|-----------------------------------|
@@ -116,11 +115,11 @@ Macros and agent scripts support the following slugs:
 | `${<name of the pre-conversation survey questions>}` | All the pre-conversation survey questions that are configured for a workstream will have the slug name as the name of the question. |
 
 > [!NOTE]
-> Only the `${anchor.<attribute_name>}` slug is supported in the macros and scripts for Customer Service workspace.
+> Only the `${anchor.<attribute_name>}` slug is supported in the macros and scripts for Copilot Service workspace.
 
 #### Slug for reconnection link
 
-The following slug is used to generate a reconnection link that can be shared with customers to connect back to the same agent and conversation. More information: [Configure a reconnection to a previous chat](configure-reconnect-chat.md)
+The following slug is used to generate a reconnection link that can be shared with customers to connect back to the same representative and conversation. More information: [Configure a reconnection to a previous chat](configure-reconnect-chat.md)
 
 | Slug | Description |
 |------------|-----------------------------------|
@@ -148,7 +147,7 @@ Slugs that are available for session context include:
 
 **Omnichannel connector context**
 
-When you want to execute a slug in the Omnichannel for Customer Service context, you must use the `${$oc.<slug>}` format. For example: `${$oc.customerName}`
+When you want to run a slug in the omnichannel context, you must use the `${$oc.<slug>}` format. For example: `${$oc.customerName}`
 
 The `Session.CurrentTab.<Attribute>` and `Session.AnchorTab.<Attribute>` parameters provide context data based on the current session and the anchor tab or the current tab in focus. The following are the supported attribute types:
 
@@ -218,13 +217,13 @@ Here, **Contoso -** is the hard-coded static value.
 
 **Example (Templates):**
 
-For an incoming chat request, you want to provide the static title to the session and notification template that agents see at runtime.
+For an incoming chat request, you want to provide the static title to the session and notification template that representatives see at runtime.
 
 Notification title = `New chat request`
 
 Session title = `Chat conversation`
 
-### See also
+### Related information
 
 [Manage session templates](session-templates.md)  
 [Manage application tab templates](application-tab-templates.md)  

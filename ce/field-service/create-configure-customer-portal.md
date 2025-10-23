@@ -1,131 +1,122 @@
 ---
 title: Create and configure the Field Service portal
-description: Set up and configure the Field Service portal.
-ms.date: 09/08/2023
+description: Learn how to set up and configure the Field Service portal.
+ms.date: 10/17/2025
 ms.topic: how-to
-author: anilmur
-ms.author: anilmur
-ms.reviewer: mhart
+author: mkelleher-msft
+ms.author: mkelleher
+ms.reviewer: puneetsingh
 ---
 
 # Create and configure the Field Service portal
 
-The following sections guide you through the setup process and provide helpful information to configure the portal template.
+This article guides you through the setup process and provides helpful information to set up the portal template.
 
 ## Create the Field Service customer experiences portal
 
-1. Go to the [Power Pages portal](https://make.powerpages.microsoft.com/) and choose the environment that has Dynamics 365 Field Service installed.
+1. Sign in to the [Power Pages portal](https://make.powerpages.microsoft.com/) and select the environment with Dynamics 365 Field Service installed.
 
-   You can navigate directly to the Power Pages portal for your environment. [Determine the environment ID where you have Field Service installed](/power-platform/admin/determine-org-id-name) and insert it in the following URL: `https://make.powerpages.microsoft.com/environments/<EnvironmentID>/portals/home`.
+   Navigate directly to the Power Pages portal for your environment. [Determine the environment ID where you have Field Service installed](/power-platform/admin/determine-org-id-name) and insert it in the following URL: `https://make.powerpages.microsoft.com/environments/<EnvironmentID>/portals/home`.
 
-1. In the left navigation, select **Templates**.
+1. On the left navigation pane, select **Templates**.
 
-1. Search for the *Field Service* and select **Choose this template** on the **Field Service** template card.
+1. Search for *Field Service*, and select **Choose this template** on the **Field Service** template card.
 
-   :::image type="content" source="media/field-service-portal-template.svg" alt-text="Screenshot of the templates in Power Pages showing Field Service.":::
+   :::image type="content" source="media/field-service-portal-template.svg" alt-text="Screenshot of the templates in Power Pages showing the Field Service template.":::
 
-1. Enter the name of the portal, the desired subdomain, choose a display language, and select **Create**.
+1. Enter the name of the portal, the desired subdomain, select a display language, and select **Done**.
 
-The Power Pages portal site gets created in the background. This process can take a few minutes. You get an email when it's ready or you can check the notification area for updates.
+The Power Pages portal site is created in the background. This process might take a few minutes. You get an email when it's ready, or you can check the notification area for updates.
 
 ## Configure the customer portal settings
 
-Admins can configure most customer portal settings directly in Field Service.
+Admins configure most customer portal settings directly in Field Service.
 
-In Field Service, open the **Settings** area. Under **Customer Portal**, select **Customer Portal** and open the settings record.
+1. In Field Service, go to the **Settings** area. Under **Customer Portal**, select **Customer Portal**, and open the settings record.
 
-:::image type="content" source="media/customer-portal-settings.svg" alt-text="Screenshot of the Customer Portal settings in Dynamics 365 Field Service.":::
+   :::image type="content" source="media/customer-portal-settings.svg" alt-text="Screenshot of the Customer Portal settings in Dynamics 365 Field Service.":::
 
-### Configuration tab
+1. On the **Configuration** tab, update the settings to match your business needs.
 
-- **Portal Name**: A label referenced by website code to retrieve the appropriate setting. The name should be unique for the associated website, because the code retrieving the setting takes the first record found with the matching name.
+   - **Portal Name**: A label referenced by website code to retrieve the appropriate setting. The name should be unique for the associated website because the code retrieving the setting takes the first record found with the matching name.
 
-- **Field Service Website**: The associated website. Opening the associated website record takes you to the [Portal Management app](/power-apps/maker/portals/configure/configure-portal).
+   - **Field Service Website**: The associated website. Opening the associated website record takes you to the [Portal Management app](/power-apps/maker/portals/configure/configure-portal).
 
-- **Track My Technician**: Enables the options to configure the [Track a technician feature](customer-portal-technician-tracking.md).
+   - **Track My Technician**: The option that enables the [Track a technician feature](customer-portal-technician-tracking.md).
 
-- **Self Scheduling (Preview)**: Enables the self-scheduling experience in the portal.
+   - **Self Scheduling (Preview)**: The option that enables the self-scheduling experience in the portal.
 
-- **Send self-scheduling experience to Account Contacts**: Enables automated notifications with access information for the portal. The information is sent to every contact that isn't part of an excluded account. When enabling this feature, choose if you want to send invites to all contacts or only to new contacts moving forward.
+   - **Send self-scheduling experience to Account Contacts**: The option that enables automated notifications with access information for the portal. The information is sent to every contact that isn't part of an excluded account. When enabling this feature, choose if you want to send invites to all contacts or only to new contacts moving forward.
 
-- **Messages**: Messages are sent at specific points of the work order lifecycle. These messages can be enabled or disabled independently. For details on each message, go to [Set up notifications for the Field Service portal (preview)](customer-portal-notification-settings.md).
+   - **Messages**: Messages are sent at specific points of the work order lifecycle. These messages can be enabled or disabled independently. For details on each message, go to [Set up notifications for the Field Service portal (preview)](customer-portal-notification-settings.md).
 
-- **Communication Type**: Define whether you want the system to send your customer email, SMS, or both message types.
+   - **Communication Type**: The type of communication the system sends your customer: email, SMS, or both.
 
-- **Send Messages To**: By default, the system sends messages to the contact that created the service request through the portal. If no such contact exists, messages go to the contact type noted in this setting.
+   - **Send Messages To**: By default, the system sends messages to the contact that created the service request through the portal. If no such contact exists, messages go to the contact type noted in this setting.
 
-- **Exclusion lists**: These lists allow you to exclude specific service accounts or service types from all messaging.
+   - **Include Survey (Preview)**: The [Customer Voice survey](/dynamics365/customer-voice/about) to embed in the portal. When [adding a survey embed code](/dynamics365/customer-voice/embed-web-page), the survey automatically shows when the booking is complete.
 
-- **Include Survey (Preview)**: Embed a [Customer Voice survey](/dynamics365/customer-voice/about) in the portal. When [adding a survey embed code](/dynamics365/customer-voice/embed-web-page), the survey automatically shows when the booking is complete.
+   - **Configure SMS and Email Connector**: Direct links to the Power Automate flows where you [configure the email and SMS connectors](customer-portal-notification-settings.md).
 
-- **Configure SMS and Email Connector**: Direct links to the Power Automate flows where you [configure the email and SMS connectors](customer-portal-notification-settings.md).
+   - **Excluded Work Order Types**: Work order types that you don't want to expose as an option in the portal.
 
-- **Excluded Work Order Types**: List work order types that you don't want to expose as an option in the portal.
+   - **Excluded Accounts**: Customer accounts that you don't want to enable in the portal. Contacts related to excluded accounts don't receive invites to the portal either.
 
-- **Excluded Accounts**: List customer accounts for which you don't want to enable the portal. Contacts related to excluded accounts don't receive invites to the portal either.
+1. On the **Display** tab, set basic design values for the portal. The **Advanced Display Configuration** field includes a direct link to open [the Power Pages designer](/power-apps/maker/portals/configure/configure-portal). Use the Portal Management app to configure all the details for your portal.
 
-### Display tab
+1. If you enable **Track My Technician**, select the **Track My Technician** tab and [configure track my technician settings](customer-portal-technician-tracking.md#configure-track-my-technician-settings).
 
-Use this tab to set basic design values for the portal. The Advanced Display Configuration field contains the direct link to open [the Power Pages designer](/power-apps/maker/portals/configure/configure-portal). Use the Portal Management app to configure all the details for your portal.
+1. If you enable **Self Scheduling (Preview)**, select the **Self Scheduling (Preview)** tab and configure scheduling parameters.
 
-### Track my technician tab
+   - **Minimum lead time for new bookings (days)**: The minimum time, in days from today, when the customer can schedule their booking.
 
-For more information, see [Configure track my technician settings](customer-portal-technician-tracking.md#configure-track-my-technician-settings).
+   - **Maximum lead time for new bookings (days)**: The maximum time, in days from today, during which the customer can schedule their booking.
 
-### Self Scheduling (Preview) tab
+   - **Enable Asset Selection**: If you want the customer to select a specific asset to associate with their account while they schedule their booking, set it to **Yes**.
 
-If you enabled the Self Scheduling (Preview) option, this tab lets you configure scheduling parameters.
+   - **Enable Additional Details**: If you want the customer to submit extra text while scheduling the booking, set it to **Yes**. The system saves the text as a note on the booking timeline.
 
-:::image type="content" source="media/SS_Settings_SSS.png" alt-text="Screenshot of the self-scheduling settings.":::
+   - **Default Radius Unit**: The radius unit to miles or kilometers.
 
-- **Minimum lead time for new bookings (days)**: Sets the minimum time, in days from today, during which the customer can schedule their booking.
+   - **Include Resource with maximum travel radius**: The maximum radius from the scheduled location where a resource can be scheduled.
 
-- **Maximum lead time for new bookings (days)**: Sets the maximum time, in days from today, during which the customer can schedule their booking.
+   > [!NOTE]
+   > The travel radius settings are shared with the [schedule board in Field Service](work-with-schedule-board.md). Changing the value on one changes the value for the other.
 
-- **Enable Asset Selection**: When this option is enabled, the customer can select a specific asset to associate with their account while they schedule their booking.
-
-- **Enable Additional Details**: Enables the options to submit extra text while scheduling the booking. The system saves the text as a note on the booking timeline.
-
-- **Default Radius Unit**: Sets the radius unit to miles or kilometers.
-
-- **Include Resource with maximum travel radius**: The maximum radius from the scheduled location in which a resource can be scheduled.
-
-> [!NOTE]
-> The travel radius settings are shared with the [schedule board in Field Service](work-with-schedule-board.md). Changing the value on one will change the value for the other.
+1. Select **Save & Close**.
 
 ## Configure incident types for the portal
 
 As part of the self-scheduling experience, the customer can select the incident type (shown as **Service Type**) that represents the work needed. As a Field Service administrator, you can make specific incident types available to your customers and set a user-friendly display name for the incident type shown on the self-scheduling portal.
 
-1. Open an [existing incident type](configure-incident-types.md) and set the **Enable for C2** setting to **Yes**.
-1. Provide a **Display Name** for the portal.
-1. Set a **Default Work Order** type, which is associated with a price list for the incident type.
-1. Set an estimated duration for the incident type. This value is the work duration shown in the portal.
+1. Open an [existing incident type](configure-incident-types.md).
 
-> [!div class="mx-imgBorder"]
-> ![Customer portal settings, showing the field for the user-friendly name for incident types.](./media/SS_Incident_Type-displayname.png)
+1. On the **General** tab, set the **Enable for C2** setting to **Yes**, and provide a **Display Name** for the portal.
+
+   :::image type="content" source="media/SS_Incident_Type-displayname.svg" alt-text="Screenshot of the customer portal settings, showing the field for the user-friendly name for incident types.":::
+
+1. On the **Details** tab, set a **Default Work Order** type associated with a price list for the incident type.
+
+1. Set an estimated duration for the incident type. This value is the work duration shown in the self-scheduling portal.
 
 ## Configure identity providers for the portal
 
-The portal requires customers to authenticate before they can open service requests. By default, the portal uses local authentication. Administrators can add and change authentication options.
-
-More information: [Overview of authentication in Power Apps portals](/powerapps/maker/portals/configure/configure-portal-authentication)
-
-> [!div class="mx-imgBorder"]
-> ![List of identity providers in Power Apps.](./media/SS_Authentication.png)
+The portal requires customers to authenticate to open service requests. By default, the portal uses local authentication. Admins can add and change authentication options. Learn more at [Overview of authentication in Power Apps portals](/powerapps/maker/portals/configure/configure-portal-authentication).
 
 ## Customize the portal design
 
-Makers can update the design and styling of your portal to meet your branding requirements. Use the [Power Pages design studio](/power-pages/configure/editing-sites) or the [legacy Power Apps portals Studio](/power-apps/maker/portals/portal-designer-anatomy) to customize the portal site.
+Makers can update the design and style of your portal to meet your branding needs. Use the [Power Pages design studio](/power-pages/configure/editing-sites) or the [legacy Power Apps portals studio](/power-apps/maker/portals/portal-designer-anatomy) to customize the portal site.
 
-You can only [edit elements in the header and footer](/power-pages/getting-started/edit-header), and content snippets. [Updating content snippets](/power-apps/maker/portals/configure/customize-content-snippets) in the portal also updates notifications if they're enabled.
+You can only [edit elements in the header and footer](/power-pages/getting-started/edit-header) and content snippets. [Updating content snippets](/power-apps/maker/portals/configure/customize-content-snippets) in the portal updates notifications if they're enabled.
 
 ## Update the Field Service portal
 
-When we release new features, we don't update your portal automatically. An administrator must apply them to your environment. For more information, see [Update a website package](/power-pages/admin/update-solution#update-a-website-package).
+When new features are released, your portal isn't updated automatically. An admin must apply them to your environment. For more information, see [Update a website package](/power-pages/admin/update-solution#update-a-website-package).
 
 ## Next steps
 
 - [Set up notifications for the Field Service portal](customer-portal-notification-settings.md)
 - [Let customers schedule service appointments (preview)](customer-portal-self-scheduling.md)
 - [Track a technician on the Field Service portal](customer-portal-technician-tracking.md)
+
+[!INCLUDE [footer-include](../includes/footer-banner.md)]

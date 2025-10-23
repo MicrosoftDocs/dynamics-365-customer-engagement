@@ -1,8 +1,9 @@
 ---
-title: "tabID property (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the tabID property of app profile manager in Customer Service workspace."
+title: tabID property (app profile manager) JavaScript API Reference 
+description: Learn about the tabID property of app profile manager in Copilot Service workspace.
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.date: 10/01/2021
 ms.topic: reference
 ---

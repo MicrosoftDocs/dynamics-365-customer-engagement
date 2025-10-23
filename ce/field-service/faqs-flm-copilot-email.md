@@ -1,7 +1,8 @@
 ---
 title: FAQ about draft email responses using Copilot in Field Service for Outlook
 description:  Get answers to common questions about the AI technology used to draft email responses in the Dynamics 365 Field Service for Outlook.
-ms.date: 03/25/2024
+ms.date: 08/29/2025
+ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
@@ -12,6 +13,8 @@ ms.collection: bap-ai-copilot
 ---
 
 # FAQ about draft email responses using Copilot in Field Service for Outlook
+
+[!INCLUDE [m365-fs-deprecate](../includes/microsoft365-field-service-deprecation.md)]
 
 This article answers common questions about the AI technology used to draft email responses in Dynamics 365 Field Service for Outlook. It also includes key considerations and details about how the AI is used, how it was tested and evaluated, and lists specific limitations.
 
@@ -34,6 +37,10 @@ This feature was evaluated using both conventional performance testing and metho
 ## What are the limitations of the feature? How can users minimize the impact of the Outlook email response limitations when using the feature?
 
 Email responses are generated for work orders with a **System Status** of **Scheduled** or **Unscheduled** only.
+
+## What are the supported geographies and languages?
+
+For more information, go to [Copilot International Availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 

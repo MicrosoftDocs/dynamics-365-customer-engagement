@@ -1,49 +1,42 @@
 ---
-title: "Create plug-in to use geospatial data from Google Maps in Universal Resource Scheduling"
-description: "Reference this sample to create a custom plug-in for Universal Resource Scheduling actions to use geospatial data from Google Maps instead of Bing."
-ms.date: 04/01/2020
+title: Create plug-in to use geospatial data from Google Maps in Universal Resource Scheduling
+description: Reference this sample to create a custom plug-in for Universal Resource Scheduling actions to use geospatial data from Google Maps instead of Bing.
+ms.date: 07/28/2025
 searchScope: 
   - Field Service
   - Project Service
-ms.reviewer: mhart
-
+ms.reviewer: puneet-singh1
 ms.subservice: common-scheduler
-ms.topic: article
-author: m-hartmann
-ms.author: mhart
+ms.topic: how-to
+author: mkelleher-msft
+ms.author: mkelleher
 ---
+
 # Sample: Create custom plug-in to use Google Maps API as your geospatial data provider
 
-You can use a custom plug-in to use geospatial data from a data provider of your choice instead of using the default Bing Maps API in Field Service and Project Service.
+You can use a custom plug-in to get geospatial data from your preferred data provider instead of using the default Bing Maps API in Field Service and Project Service.
 
-Sample is available here: [Custom plug-in to use Google Maps API as geospatial data provider (Dynamics 365)](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/field-service/CustomPlugin-FS-Geospatial)
+A sample is available at: [Custom plug-in to use Google Maps API as geospatial data provider (Dynamics 365)](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/field-service/CustomPlugin-FS-Geospatial). This sample shows how to create a custom plug-in for the **msdyn_GeocodeAddress** and **msdyn_RetrieveDistanceMatrix** actions in Universal Resource Scheduling to use Google Maps API for geospatial data instead of using the default Bing Maps API.
 
 ## Prerequisites
 
-Internet connection is required to download the sample project and to restore the NuGet packages used in the sample project.
-
-## Requirements
-
-- [!INCLUDE[pn_dyn_365_field_service](../../includes/pn-dyn-365-field-service.md)] solution must be installed on your [!INCLUDE[pn_dynamics_365](../../includes/pn-dynamics-365.md)] (online) instance. More information: [Install and setup Field Service](../../field-service/install-field-service.md) 
-- Provide your own Google API key in the **GoogleDataContracts.cs** file in the sample:
+- An Internet connection is required to download the sample project and to restore the NuGet packages used in the sample project.
+- The Dynamics 365 Field Service solution must be installed on your Dynamics 365 (online) instance. Learn more in [Install and setup Field Service](/dynamics365/field-service/install-field-service).
+- You provide your own Google API key in the **GoogleDataContracts.cs** file in the sample:
 
     `public const string GoogleApiKey = "<PROVIDE YOUR GOOGLE API KEY";` 
 
-## Demonstrates
-
-This sample shows how to create a custom plug-in for the **msdyn_GeocodeAddress** and **msdyn_RetrieveDistanceMatrix** actions in Universal Resource Scheduling to use Google Maps API for geospatial data instead of using the default Bing Maps API.
-
 ## Run the sample
 
-This sample generates a plug-in assembly file: **CustomPlugin-FS-Geospatial.dll**.
+The sample generates a plug-in assembly file: **CustomPlugin-FS-Geospatial.dll**.
 
 1. Download or clone the [samples repo](https://github.com/microsoft/Dynamics365-Apps-Samples).
-2. Navigate to the location where you downloaded or cloned the repo on your computer, go to the **field-service/CustomPlugin-FS-Geospatial** folder, and double-click the **CustomPlugin-FS-Geospatial.sln** file to open the solution in Visual Studio.
-3. In Visual Studio, select **Build** > **Build Solution**. The NuGet packages used in the solution will download automatically if the option to restore NuGet packages automatically on building a project is enabled in Visual Studio. More information: [Enabling and disabling package restore](/nuget/consume-packages/package-restore#enabling-and-disabling-package-restore) 
 
-## After running the sample
+1. Navigate to the location where you downloaded or cloned the repo on your computer, go to the **field-service/CustomPlugin-FS-Geospatial** folder, and double-click the **CustomPlugin-FS-Geospatial.sln** file to open the solution in Visual Studio.
 
-After you have successfully run (build) the sample, a custom plug-in assembly file, **CustomPlugin-FS-Geospatial.dll**, will become available in the `<Project>\bin\debug` folder. Register the sample custom plug-in assembly on your [!INCLUDE[pn_dynamics_365](../../includes/pn-dynamics-365.md)] (online) instance to be able to use the plug-in to use the Google Maps API instead of the default Bing Maps API. More information: [Register and deploy your custom plug-in](register-deploy-custom-plugin-preferred-geospatial-data-provider.md#register-and-deploy-your-custom-plug-in) 
+1. In Visual Studio, select **Build** > **Build Solution**. NuGet packages in the solution download automatically if you enable the option to restore NuGet packages when you build a project in Visual Studio. Learn more in [Enabling and disabling package restore](/nuget/consume-packages/package-restore#enabling-and-disabling-package-restore).
+
+After you have successfully run (build) the sample, a custom plug-in assembly file, **CustomPlugin-FS-Geospatial.dll**, will become available in the `<Project>\bin\debug` folder. Register the sample custom plug-in assembly on your Dynamics 365 (online) instance to be able to use the plug-in to use the Google Maps API instead of the default Bing Maps API. Learn more in [Register and deploy your custom plug-in](register-deploy-custom-plugin-preferred-geospatial-data-provider.md#register-and-deploy-your-custom-plug-in).
 
 ## Plug-in sample code for msdyn_GeocodeAddress action
 
@@ -388,11 +381,11 @@ namespace Microsoft.Crm.Sdk.Samples
 
 You may use sample code to interact with third-party services whose privacy and security practices may differ from those of Microsoft Dynamics 365. IF YOU SUBMIT DATA TO THIRD PARTY SERVICES, SUCH DATA IS GOVERNED BY THEIR RESPECTIVE PRIVACY STATEMENTS. For the avoidance of doubt, data shared outside of Microsoft Dynamics 365 is not covered by your Microsoft Dynamics 365 agreement(s) or the Microsoft Dynamics 365 Trust Center. We encourage you to review these other privacy statements.
 
-### See also
+## Additional resources
 
-[Create custom plug-in to use your preferred geospatial data provider](create-custom-plugin-preferred-geospatial-data-provider.md)
+- [Create custom plug-in to use your preferred geospatial data provider](create-custom-plugin-preferred-geospatial-data-provider.md)
 
-[Register and deploy custom plug-in to use your preferred geospatial data provider](register-deploy-custom-plugin-preferred-geospatial-data-provider.md)    
+- [Register and deploy custom plug-in to use your preferred geospatial data provider](register-deploy-custom-plugin-preferred-geospatial-data-provider.md)    
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

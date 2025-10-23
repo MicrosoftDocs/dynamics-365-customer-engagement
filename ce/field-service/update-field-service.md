@@ -1,7 +1,7 @@
 ---
 title: Update apps and solutions
 description: Learn how to upgrade Dynamics 365 Field Service, mobile apps, and related solutions.
-ms.date: 03/16/2023
+ms.date: 08/01/2025
 ms.topic: how-to
 ms.custom: bap-template
 author: jshotts
@@ -16,7 +16,7 @@ Multiple updates are released throughout the year.
 
 - **Minor updates** are released each month and include only minor bug fixes. Administrators receive a notification when an update is planned.
 
-- **Major updates** are released in April and October and include new features, enhancements, and bug fixes. Some changes to controls and user experiences can roll out more frequently. To get the latest updates to controls as soon as they are available, [enable the monthly release channel for your environment](#update-model-driven-apps). Changes to business logic and other backend-related items continue to roll out twice a year.
+- **Major updates** are released in April and October and include new features, enhancements, and bug fixes. Some changes to controls and user experiences can roll out more frequently. To get the latest updates to controls as soon as they're available, [enable the monthly release channel for your environment](#update-model-driven-apps). Changes to business logic and other backend-related items continue to roll out twice a year.
 
 - **Hot fixes** are rare, but occasionally a critical update is released outside the planned update schedule.
 
@@ -47,7 +47,7 @@ To find the version number of your Field Service app, look in the app details un
 
 ## Field Service mobile app
 
-We recommend that you turn on automatic app updates on your mobile device. If you don't, you should regularly check your app store for mobile app updates and [install the latest version](mobile-power-app-overview.md).
+We recommend that you turn on automatic app updates on your mobile device. If you don't, you should regularly check your app store for mobile app updates and [install the latest version](mobile/overview.md).
 
 ## Universal Resource Scheduling
 
@@ -57,27 +57,27 @@ We recommend that you turn on automatic app updates on your mobile device. If yo
 
 Occasionally, Universal Resource Scheduling releases include updates to the Universal FetchXML (UFX) queries. UFX queries control how the system fetches resources and requirements.
 
-It's possible to customize UFX queries. If a UFX query has been customized, updates import the latest version, but they *don't apply it automatically*. Add your customizations to the new UFX query and apply them manually in the [schedule board settings](schedule-board-tab-settings.md). Consider using GitHub for version control to understand the differences between the old XML file with your custom queries and the updated XML file.
+It's possible to customize UFX queries. If a UFX query is customized, updates import the latest version, but they *don't apply it automatically*. Add your customizations to the new UFX query and apply them manually in the [schedule board settings](schedule-board-tab-settings.md). Consider using GitHub for version control to understand the differences between the old XML file with your custom queries and the updated XML file.
 
 ## Resource Scheduling Optimization add-in
 
-The [Resource Scheduling Optimization add-in](rso-overview.md) enables the automated scheduling of work orders, resources, and bookings. Updates are released throughout the year. An administrator has to apply the updates.
+The [Resource Scheduling Optimization add-in](rso-overview.md) lets you automate scheduling of work orders, resources, and bookings. Updates release throughout the year, and an administrator applies them.
 
 You can check for available updates in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). Go to **Resources** > **Dynamics 365 apps**, select **Resource Scheduling Optimization**, and select **Manage**.
 
 In the **RSO Deployment** dialog box, select **Upgrade to new version**.
 
-For more information, see [Manage the Resource Scheduling Optimization instance](rso-deployment.md#manage-the-resource-scheduling-optimization-instance).
+Learn more in [Manage the Resource Scheduling Optimization instance](rso-deployment.md#manage-the-resource-scheduling-optimization-instance).
 
 ## Update model-driven apps
 
-To get the latest updates to controls and other frontend items, you can set the release channel for your environment or app. Microsoft regularly provides new and updated features for your model-driven apps. The release channel defines how quickly updates in Power Apps roll out in your organization.
+To get the latest updates to controls and other frontend items, you can set the release channel for your environment or app. Microsoft regularly provides new and updated features for model-driven apps. The release channel defines how quickly updates in Power Apps roll out in your organization.
 
-For more information, see [Release channels for your model-driven app](/power-apps/maker/model-driven-apps/channel-overview).
+Learn more in [Release channels for your model-driven app](/power-apps/maker/model-driven-apps/channel-overview).
 
 ## Next steps
 
 - [Get started with Dynamics 365 Field Service](field-service-get-started.md)
-- [Use the Field Service mobile app](mobile-power-app-use.md)
+- [Use the Field Service mobile app](mobile/overview.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

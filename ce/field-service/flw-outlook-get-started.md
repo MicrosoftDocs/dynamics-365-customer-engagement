@@ -1,7 +1,7 @@
 ---
 title: Get started with Field Service in Outlook (frontline managers)
 description: Learn how service managers and dispatchers can install and get started with the Dynamics 365 Field Service for Outlook add-in.
-ms.date: 04/03/2024
+ms.date: 08/29/2025
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -11,6 +11,8 @@ ms.subservice: m365-integrations
 ---
 
 # Get started with Field Service in Outlook (frontline managers)
+
+[!INCLUDE [m365-fs-deprecate](../includes/microsoft365-field-service-deprecation.md)]
 
 Dynamics 365 Field Service has an add-in for Outlook so frontline managers can manage their work orders. To get started using Field Service in Outlook, make sure the Field Service for Outlook add-in is installed, then sign-in and open the add-in.
 
