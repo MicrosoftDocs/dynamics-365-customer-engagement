@@ -23,7 +23,7 @@ Supervisors and content managers can view the **Overall performance** report on 
 - Whether articles are used in Copilot responses.
 - If customer service representatives find the articles useful in their daily work.
 
-These insights help supervisors identify and address gaps, enhance the knowledge repository, and optimize Copilot's performance. Self-service article publishing and greater resource control reduce support and content management costs. Feedback from service representatives also help the system and the content managers identify and act on low quality articles.
+These insights help supervisors identify and address gaps, enhance the knowledge repository, and optimize Copilot's performance. Self-service article publishing and greater resource control reduce support and content management costs. Feedback from service representatives also helps the system and the content managers identify and act on low quality articles.
 
 ## Prerequisites
 
