@@ -47,7 +47,7 @@ The Sales Close Agent uses the capacity assigned to your tenant to process recor
 
 ## Responsible AI
 
-Sales Close Agent is built with responsible AI principles in mind. The agent has been carefully evaluated to ensure that it meets quality standards and is designed to be used as a productivity tool. For more information about the agent's responsible AI practices, go to [FAQs about Sales Close Agent](faqs-about-deal-close.md).
+Sales Close Agent is built with responsible AI principles in mind. The agent has been carefully evaluated to ensure that it meets quality standards and is designed to be used as a productivity tool. For more information about the agent's responsible AI practices, go to [FAQs about Sales Close Agent](faqs-about-sales-close-agent.md).
 
 ## How to set up and use the agent
 
@@ -55,5 +55,5 @@ Depending on your role, use the following links to configure and use the Sales C
 
 | Role | Action |
 |------|--------|
-| Administrator | [Set up and configure the Sales Close Agent](configure-deal-close-agent.md)<br> |
+| Administrator | [Set up and configure the Sales Close Agent](configure-sales-close-agent.md)<br> |
 
