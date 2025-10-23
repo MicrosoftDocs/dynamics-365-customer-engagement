@@ -104,14 +104,14 @@ To add a custom record type:
 1. [Turn on knowledge management for your record type](configure-knowledge-search-control-productivity-pane.md#add-record-types-for-which-you-want-to-turn-on-knowledge-management).
 1. In Copilot Service admin center, go to **Support experience** > **Knowledge** > **Customer Knowledge Management Agent**, and then select **Manage**. The **Customer Knowledge Management Agent** page appears.
 1. Select **Add record type**. The **Add record type** page appears. 
-1. In the **Select record type** dropdown, select the record type you wish to create knowledge from.
+1. In the **Select record type** dropdown, select the record type you want to create knowledge from.
 1. Select **Save and close**.
 
-You may add up to five custom record types.
+You can add up to five custom record types.
 
 ## Specify a custom article template for historical knowledge creation 
 
-When you set up historical creation rules, you can choose a custom article template for new articles. By default, Customer Knowledge Management Agent creates articles in **Issue**, **Cause**, and **Resolution** format. If you have [configured knowledge article templates](../use/create-templates-knowledge-article.md#create-templates-for-knowledge-articles), you can specify one template per rule. 
+When you set up historical creation rules, you can choose a custom article template for new articles. By default, Customer Knowledge Management Agent creates articles in **Issue**, **Cause**, and **Resolution** format. If you [configured knowledge article templates](../use/create-templates-knowledge-article.md#create-templates-for-knowledge-articles), you can specify one template per rule. 
 
 When you specify a custom article, Customer Knowledge Management Agent uses the template sections, section instructions, and styles to create the new article. Use the following best practices for your template: 
 
@@ -139,7 +139,6 @@ You can map which record types and data fields are used for each element. You ca
 Customer Knowledge Management Agent can automatically apply minor updates to existing knowledge articles. By default, Customer Knowledge Management Agent creates a new minor version of the article.
 
 To enable automatic minor updates of articles, on the **Customer Knowledge Management Agent** page, in the **Automatic article updates** section, select the **Automatically update existing articles (preview)** option.
-
 
 ## Set the default compliance state of created articles
 
