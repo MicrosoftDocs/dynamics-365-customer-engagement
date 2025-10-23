@@ -26,7 +26,7 @@ You can:
 
 ## Prerequisites
 
-- You have the **Analytics Report Author** role. Users with the **System Administrator** role already have the permissions by default.
+- You have the **Analytics Report Author** role. Learn more in [Assign roles to users](../implement/add-users-assign-roles.md#assign-roles-to-users). Users with the **System Administrator** role already have the permissions by default.
 - The target organization needs to enable the out-of-the-box feature. If not, the import might fail.
 
 Make sure that the target organization is at the same or a higher version than the source. This guarantees that all metrics and columns used in visual customizations exist in the target environment, allowing imported customizations to render correctly.
