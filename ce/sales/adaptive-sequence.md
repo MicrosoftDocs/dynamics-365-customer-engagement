@@ -53,9 +53,9 @@ Sales Insights Adaptive sequence timeout flow handles the wait time for step typ
 1. Go to [Power Automate](https://flow.microsoft.com) and change the environment to your organization.  
 1. In the left navigation pane, go to **Solutions** > **Default Solution** > **Cloud flows** and open **Sales Insights Adaptive sequence timeout flow**.  
 1. In the **Connection References** section, verify that all connections are valid and authenticated. A green check mark indicates that the connection is valid.  
-1. If any connection is invalid, a red exclamation mark is displayed. Open the connection that is invalid, For example, open the **Common Data Service (current environment)** (`msdyn_acceleratedsales_connection`) if that connection is invalid. follow these steps:  
+1. If any connection is invalid, a red exclamation mark is displayed. To resolve the invalid connections, follow these steps:  
     1. In the left navigation pane, go to **Solutions** > **Default Solution** > **Connection References**.  
-    1. Open the **Common Data Service (current environment)** (`msdyn_acceleratedsales_connection`) connection that's invalid.  
+    1. Open the connection that is invalid, For example, open the **Common Data Service (current environment)** (`msdyn_acceleratedsales_connection`) if that connection is invalid.    
         :::image type="content" source="media/sa-condition-verify-adaptive-sequence-timeout-flow.png" alt-text="Screenshot of opening common data services connection in Power Automate.":::  
     1. In the **Edit Common Data Service (current environment)** pane, verify if the **Connection** field is invalid or left blank. Select an existing connection to Dataverse or create a new one. This opens the connections page where you can choose Microsoft Dataverse.  
     1. Save the changes and verify that the connection is now valid with a green check mark.  
