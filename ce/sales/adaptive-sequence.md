@@ -47,7 +47,7 @@ Conditions in the adaptive sequences work as defined only when **Sales Insights 
 
 ### Verify the flow is working
 
-Sales Insights Adaptive sequence timeout flow handles the wait time for step types like field value evaluation, BPF, update field, and advance to next sequence step. To verify that the flow is working as expected, follow these steps:
+Sales Insights Adaptive sequence timeout flow handles the wait time for step types like field value evaluation, BPF, and update field. After the wait time, the flow advances to next sequence step. To verify that the flow is working as expected, follow these steps:
 
 1. Ensure that you have admin access to Power Automate and a valid Dynamics 365 Sales license.  
 1. Go to [Power Automate](https://flow.microsoft.com) and change the environment to your organization.  
@@ -57,7 +57,7 @@ Sales Insights Adaptive sequence timeout flow handles the wait time for step typ
     1. In the left navigation pane, go to **Solutions** > **Default Solution** > **Connection References**.  
     1. Open the **Common Data Service (current environment)** (`msdyn_acceleratedsales_connection`) connection that's invalid.  
         :::image type="content" source="media/sa-condition-verify-adaptive-sequence-timeout-flow.png" alt-text="Screenshot of opening common data services connection in Power Automate.":::  
-    1. In the **Edit Common Data Service (current environment)** pane, ensure that the **Connection** field is not empty and correct. If the field value is incorrect, select an existing valid connection or create a new one. This opens the connections page where you can choose Microsoft Dataverse.  
+    1. In the **Edit Common Data Service (current environment)** pane, verify if the **Connection** field is invalid or left blank. Select an existing connection to Dataverse or create a new one. This opens the connections page where you can choose Microsoft Dataverse.  
     1. Save the changes and verify that the connection is now valid with a green check mark.  
 
 <a name="define-conditions-for-email-activity"></a>
