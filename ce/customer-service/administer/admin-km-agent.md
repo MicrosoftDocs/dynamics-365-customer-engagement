@@ -80,7 +80,7 @@ When enabled, the agent considers all the cases and conversations that meet the 
 
 1. Select the **Cases**, **Conversations**, or the **Custom record types (preview)** tab.
 
-    1.For cases, in the **Creation from historical cases** section, select the **Let copilot use information from historical cases to create knowledge articles** option.
+    1. For cases, in the **Creation from historical cases** section, select the **Let copilot use information from historical cases to create knowledge articles** option.
     
     1. For conversations, in the **Creation from historical conversations** section, select the **Let copilot use information from historical chat and messaging conversations to create knowledge articles** option.
     
