@@ -30124,6 +30124,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/common-scheduler/developer/extensibility-release-notes.md",
+      "redirect_url": "/dynamics365/field-service/version-history",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/configure-schedule-board.md",
       "redirect_url": "/dynamics365/field-service/schedule-board-tab-settings",
       "redirect_document_id": "false"
