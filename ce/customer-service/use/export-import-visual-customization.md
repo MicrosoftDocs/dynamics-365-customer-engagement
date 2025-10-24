@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Export and import visual customization of analytics reports 
 
-As an administrator or a supervisor, you can export and import visual customization of analytics reports between different organizations in Dynamics 365. This eliminates the need to manually recreate customizations in each organization. You can export visual customizations from your current organization and import published visual customizations into another organization.
+As an administrator or a supervisor, you can export and import visual customization of analytics reports between different organizations in Dynamics 365. This capability eliminates the need to manually recreate customizations in each organization. You can export visual customizations from your current organization and import published visual customizations into another organization.
 
 You can:
 - Move visual customizations from development to production without manual rework. 
@@ -29,7 +29,7 @@ You can:
 - You have the **Analytics Report Author** role. Learn more in [Assign roles to users](../implement/add-users-assign-roles.md#assign-roles-to-users). Users with the **System Administrator** role already have the permissions by default.
 - The target organization needs to enable the out-of-the-box feature. If not, the import might fail.
 
-Make sure that the target organization is at the same or a higher version than the source. This guarantees that all metrics and columns used in visual customizations exist in the target environment, allowing imported customizations to render correctly.
+Make sure that the target organization is at the same or a higher version than the source. This requirement guarantees that all metrics and columns used in visual customizations exist in the target environment, allowing imported customizations to render correctly.
 
 ## Export visual customization
 
@@ -48,7 +48,7 @@ Payload Example:
 ```
 
 **Response**: 
-You’ll receive a bodybinary value, which is a base 64-encoded string representing the report.
+You receive a bodybinary value, which is a base 64-encoded string representing the report.
 
 ## Import visual customization
 
