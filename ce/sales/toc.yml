@@ -204,7 +204,13 @@ items:
                 items:
                 - name: Open the settings page
                   href: open-sales-close-agent-settings.md
-                -   
+                - name: Configure the agent profile
+                  href: configure-sales-close-agent-profile.md
+                - name: Configure product details
+                  href: configure-sales-close-agent-product-details.md  
+                - name: Configure target customers
+                  href: configure-sales-close-agent-target-customers.md
+  
           - name: Copilot Studio agents and Entra app registrations
             href: ai-agents-apps.md
       - name: Copilot in Dynamics 365 Sales

@@ -49,4 +49,3 @@ Open the Sales Close Agent settings to configure or manage the Sales Close Agent
 
 - [Set up and configure the Sales Close Agent](configure-sales-close-agent.md)  
 - [Manage Sales Close Agent](manage-sales-close-agent.md)
-

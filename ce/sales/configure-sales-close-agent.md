@@ -94,16 +94,14 @@ Let's look at the steps to set up and configure the agents.
     - [Create an app user in Dataverse and assign AISalesPerson role](configure-requirements-for-sqa-agent.md#create-an-app-user-in-dataverse-and-assign-aisalesperson-role)
     - [Create a shared mailbox](configure-requirements-for-sqa-agent.md#create-a-shared-mailbox)
     - [Configure server-side synchronization](configure-requirements-for-sqa-agent.md#configuring-server-side-synchronization)  
-
 1. [Configure general information](sales-qualification-agent-general-settings.md) for agent such as profile, company info, and products.  
 1. [Configure selection criteria](sales-qualification-agent-selection-criteria.md) for the agent process the leads.  
 1. [Configure email instructions and address validation](sales-qualification-agent-email-instruction-validation.md) for the agent.
 1. [Configure handoff criteria](configure-sales-qualification-agent-handoff-criteria.md) for the agent to identify leads that are a good fit for further engagement.  
 1. [Configure assignment rules](configure-sqa-assignment-rules.md) for the agent to assign processed leads to the appropriate sellers.  
 1. [Configure knowledge sources](configure-sqa-knowledge-source.md) for company and competitor insights, outreach, and follow-up emails.
-1. (**Research and engage mode**) [Run simulation to review the agent's outreach emails](run-simulation-sqa-outreach-email.md) are customized and relevant to the leads.  
 1. After you are satisfied with the configuration, [start the agent](start-sales-qualification-agent.md).
-1. (Optional) [Test the Sales Qualification Agent](test-sales-qualification-agent-research-engage.md).
+
 
 ## Related information
 
