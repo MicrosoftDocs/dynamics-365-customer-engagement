@@ -44,9 +44,9 @@ The Articles insights dashboard represents the following metrics.
 | Views | The total number of views on the knowledge articles. |
 | Visitors | The total number of unique visitors who viewed the knowledge articles. |
 | Avg. feedback rating trend | The average feedback rating provided by the consumers of the knowledge articles. |
-| Most viewed articles | The top 20 articles used, along with visitors, average feedback rating, linked cases and shares metrics. |
+| Most viewed articles | The top 20 articles used, along with visitors, average feedback rating, linked cases, and shares metrics. |
 | Linked cases | The total number of cases that were linked to the articles. |
-| Shares | The total number of articles that were shared by the customer service representative (service representative or represntative). |
+| Shares | The total number of articles that the customer service representative (service representative or representative) shared. |
 
 ## Search term insights
 
@@ -55,7 +55,7 @@ The Search term insights dashboard is designed to provide supervisors and knowle
 Your administrator must enable the dashboard for you to access it. More information: [Configure Knowledge search insights](../administer/enable-knowledge-search-insights.md).
 
 > [!NOTE]
-> Knowledge search term insights won't provide information about customer search behavior. Data is from internal knowledge searches only. 
+> Knowledge search term insights doesn't provide information about customer search behavior. Data is from internal knowledge searches only. 
 
 ![Knowledge Search term insights dashboard.](../media/knowledge-search-analytics-dashboard.png "View of the knowledge Search term insights dashboard")
 
@@ -92,7 +92,7 @@ Use the Timezone option available in the reports to view the  time information a
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-You can view this report if your administrator has enabled the **Customer Knowledge Management Agent (preview)** and enabled the **Real-time creation** and **Creation from historical cases** options. Learn more in [Manage Customer Knowledge Management Agent](../administer/admin-km-agent.md#manage-customer-knowledge-management-agent).
+You can view this report if your administrator enabled the **Customer Knowledge Management Agent (preview)** and enabled the **Real-time creation** and **Creation from historical cases** options. Learn more in [Manage Customer Knowledge Management Agent](../administer/admin-km-agent.md#manage-customer-knowledge-management-agent).
 
 ### Related information
 
