@@ -81,7 +81,9 @@ When enabled, the agent considers all the cases and conversations that meet the 
 1. Select the **Cases**, **Conversations**, or the **Custom record types (preview)** tab.
 
     1.For cases, in the **Creation from historical cases** section, select the **Let copilot use information from historical cases to create knowledge articles** option.
+    
     1. For conversations, in the **Creation from historical conversations** section, select the **Let copilot use information from historical chat and messaging conversations to create knowledge articles** option.
+    
     1. For custom record types, in the **Custom record type** section, select the **Let copilot use information from historical custom record types to create knowledge articles** option.
 
 1. Select **Manage rules** to configure the conditions for the harvest.
@@ -93,7 +95,7 @@ Once you select start, you see that the article creation is in progress. You can
 
 Historical case or conversation creation is a long-running process that can't be stopped once it starts. The process can create articles from up to 100,000 individual cases or conversations and continues until all are processed. We recommend performing historical knowledge creation in batches. 
 
-## Add custom record types (preview)
+### Add custom record types (preview)
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -109,9 +111,9 @@ To add a custom record type:
 
 You can add up to five custom record types.
 
-## Specify a custom article template for historical knowledge creation 
+### Specify a custom article template for historical knowledge creation 
 
-When you set up historical creation rules, you can choose a custom article template for new articles. By default, Customer Knowledge Management Agent creates articles in **Issue**, **Cause**, and **Resolution** format. If you [configured knowledge article templates](../use/create-templates-knowledge-article.md#create-templates-for-knowledge-articles), you can specify one template per rule. 
+When you set up historical creation rules, you can select a custom article template for new articles. By default, Customer Knowledge Management Agent creates articles in **Issue**, **Cause**, and **Resolution** format. If you [configured knowledge article templates](../use/create-templates-knowledge-article.md#create-templates-for-knowledge-articles), you can specify one template per rule. 
 
 When you specify a custom article, Customer Knowledge Management Agent uses the template sections, section instructions, and styles to create the new article. Use the following best practices for your template: 
 
