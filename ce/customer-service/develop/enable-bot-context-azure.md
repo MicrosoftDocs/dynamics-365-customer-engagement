@@ -1,7 +1,7 @@
 ---
 title:  Configure agent context in Azure agents  
 description: Use this article to understand how you can enable an Azure agent to understand context while authoring a agent flow.
-ms.date: 04/29/2025
+ms.date: 10/29/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -29,8 +29,6 @@ Install-Package Microsoft.CCaSS.AgentSDK
 The agent SDK is now installed and the Omnichannel middleware is available in your project.
 
 ## Use the Omnichannel middleware in your agent code
-
-Use this procedure if you've created your agent using Visual Studio Azure Bot template or Azure portal.
 
 1. Open the **AdapterWithErrorHandler.cs** file.
 
@@ -72,60 +70,6 @@ Use this procedure if you've created your agent using Visual Studio Azure Bot te
             // Send a trace activity, which will be displayed in the Bot Framework Emulator
             await turnContext.TraceActivityAsync("OnTurnError Trace", exception.Message, "https://www.botframework.com/schemas/error", "TurnError");
         };
-    }
-
-    private static string GetExceptionInfo(Exception exception) {
-        var sb = new StringBuilder();
-
-        // Pull some well known info from ErrorResponse.Exception if available.
-        if (exception is ErrorResponseException responseException) {
-            sb.AppendLine(CultureInfo.InvariantCulture, $ "Error code: {responseException.Body?.Error?.Code ?? "
-                NA "}");
-            sb.AppendLine(CultureInfo.InvariantCulture, $ "Error message: {responseException.Body?.Error?.Message ?? "
-                NA "}");
-        }
-
-        sb.AppendLine(CultureInfo.InvariantCulture, $ "Exception message: {exception.Message}");
-        sb.AppendLine();
-        sb.AppendLine(exception.ToString());
-
-        var exceptionInfo = sb.ToString();
-        return exceptionInfo;
-    }
-    }
-
-    /// <summary>
-    /// Experimental: helper to use High Perf logging, do not replicate pattern in other places until we get further guidance on logging.
-    /// </summary>
-    internal static class HighPerfLoggerExtensions {
-    private static readonly Action < ILogger, string, Exception > LogErrorAction = LoggerMessage.Define < string > (
-        LogLevel.Error,
-        new EventId(1, "The bot encountered an error or bug"),
-        "{Exception}");
-
-    private static readonly Action < ILogger, string, Exception > LogWarningAction = LoggerMessage.Define < string > (
-        LogLevel.Warning,
-        new EventId(2, "Warning"),
-        "{Message}");
-
-    private static readonly Action < ILogger, string, Exception > LogInformationAction = LoggerMessage.Define < string > (
-        LogLevel.Information,
-        new EventId(3, "Information"),
-        "{Message}");
-
-    public static void LogAppException(this ILogger logger, string message, Exception exception) {
-        LogErrorAction(logger, message, exception);
-    }
-
-    #pragma warning disable CS8625 // Cannot convert null literal to non-nullable reference type.
-    public static void LogAppInformation(this ILogger logger, string message) {
-        LogInformationAction(logger, message, null);
-    }
-
-    public static void LogAppWarning(this ILogger logger, string message) {
-        LogWarningAction(logger, message, null);
-    }
-    #pragma warning restore CS8625 // Cannot convert null literal to non-nullable reference type.
     }
     ```
 

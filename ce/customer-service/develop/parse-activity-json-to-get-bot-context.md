@@ -20,17 +20,28 @@ The Omnichannel for Customer Service context messages are sent as event activity
 In the following example, when the event activity is received, the `OnEventActivityAsync` method is called to fetch and use the context. 
 
 ```CSharp
-protected override async Task OnEventActivityAsync(ITurnContext<IEventActivity> turnContext, CancellationToken cancellationToken)
-        {
-            if (turnContext.Activity.Name == "omnichannelSetContext")
-           {
-                // Replace with your logic to fetch the context from Activity.Value
-                IActivity replyActivity = MessageFactory.Text($"Received context :  {turnContext.Activity.Value.ToString()}");
+namespace Microsoft.CCaaS.MessagingRuntime.TestAgent.Agents;
 
-                // Replace with your logic to consume the context
-                await turnContext.SendActivityAsync(replyActivity, cancellationToken);
-            }
-        }
+public class TestAgentApplication : AgentApplication
+{
+    private readonly IContextManager _contextManager;
+
+    public TestAgentApplication(AgentApplicationOptions options, IContextManager contextManager) : base(options)
+    {
+        _contextManager = contextManager ?? throw new ArgumentNullException(nameof(contextManager));
+        OnConversationUpdate(ConversationUpdateEvents.MembersAdded, OnMembersAddedAsync);
+        OnEvent(ActivityTypes.Event, OnEventActivityAsync);
+        OnActivity(ActivityTypes.Message, OnMessageActivityAsync, rank: RouteRank.Last);
+    }
+
+    protected async Task OnMessageActivityAsync(ITurnContext turnContext, ITurnState turnState, CancellationToken cancellationToken)
+    {
+        ArgumentNullException.ThrowIfNull(turnContext);
+        var text = turnContext.Activity.Text?.ToLower(CultureInfo.InvariantCulture);
+        var responseActivity = Activity.CreateMessageActivity();
+        Responses.BuildCustomerFileAttachmentResponse(turnContext, responseActivity);
+    ...
+    }
 ```
 
 ## Next steps
