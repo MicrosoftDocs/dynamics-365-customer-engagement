@@ -199,6 +199,8 @@ items:
                 href: configure-sales-research-agent.md
           - name: Copilot Studio agents and Entra app registrations
             href: ai-agents-apps.md
+          - name: FAQs about sales AI agents
+            href: sales-ai-agents-faqs.md
       - name: Copilot in Dynamics 365 Sales
         items:
           - name: Copilot overview
