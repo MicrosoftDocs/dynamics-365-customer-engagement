@@ -23,8 +23,8 @@ Dynamics 365 AI Hub is a centralized hub for managing all your sales AI agents, 
 
 Typically, sales managers and sales admins use the AI Hub to set up and manage AI agents that assist sales representatives in their daily tasks. The Hub includes the following tools:
 
-- **Agent Manager**: Create and manage AI agents for various sales tasks, such as lead qualification and opportunity research.
-- **AI optimization hub**: Monitor the performance of your AI agents and optimize their settings to improve their effectiveness.
+- **Agent manager**: Create and manage AI agents for various sales tasks, such as lead qualification and opportunity research.
+- **AI optimization hub**: Monitor the performance of your AI agents and optimize settings to improve their effectiveness. The optimization hub includes dashboards that provide insights into agent performance, user engagement, and business impact.
 - **Learn how AI agents work**: Access resources and documentation to understand how AI agents function and how to leverage them effectively in your sales processes.
 - **Architecture, security, privacy, and compliance**: Find information about the technical architecture of AI agents, as well as details on responsible AI, security, privacy, and compliance considerations when using AI in your sales processes.
 
@@ -37,10 +37,20 @@ To access the Dynamics 365 AI Hub from the Sales Hub app, go to **Change area** 
 To access Dynamics 365 AI Hub from your custom app, [add a site map entry](add-custom-site-map.md) with the following URL:
 `/main.aspx?pagetype=control&controlName=MscrmControls.CopilotTrustCenter.CopilotTrustCenterHubControl&data=%7B"product"%3A"sales"%7D`
 
-If you're using custom roles, ensure that users have the privileges to access the respective agent management features. Otherwise, users will have access issues or see inaccurate or incomplete data in the dashboard.
+If you're using custom roles, ensure that users have the `read` permissions to the following entities to access the AI Hub:
 
-- For Sales Qualification Agent management, read [Grant permissions to custom security role](configure-sales-qualification-agent.md#grant-permissions-to-custom-security-role)
-- For Opportunity Research Agent management, read [Grant permissions to custom security role](configure-opportunity-research-agent.md#grant-permissions-to-custom-security-role)
+- msdyn_salesagentrun
+- msdyn_salesagentprofile
+- msdyn_salesagenthandover
+- msdyn_engagereadinessagentresult
+- msdyn_synthesizeroutput
+
+## Assign agent-specific privileges
+
+If you're using custom security roles, ensure that users have the necessary agent-specific privileges to manage the agents and access the dashboards in the AI Hub. Otherwise, users will have access issues or see inaccurate or incomplete data in the dashboard.
+
+- [Permissions required for Sales Qualification Agent](configure-sales-qualification-agent.md#grant-permissions-to-custom-security-role)
+- [Permissions required for Opportunity Research Agent](configure-opportunity-research-agent.md#grant-permissions-to-custom-security-role)
 
 
 ## Related resources
