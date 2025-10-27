@@ -197,6 +197,8 @@ items:
                 href: configure-sales-research-agent.md
           - name: Copilot Studio agents and Entra app registrations
             href: ai-agents-apps.md
+          - name: Stay compliant with privacy regulations
+            href: consent-management-overview.md
       - name: Copilot in Dynamics 365 Sales
         items:
           - name: Copilot overview
