@@ -6,15 +6,18 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to 
 ms.collection:
-ms.date: 10/20/2025
+ms.date: 10/28/2025
 ms.custom: bap-template
 ---
 
 # Enable consult with representatives and transfer of conversations
 
-By default, customer service representatives (service representatives or representatives) can consult with other representatives and transfer conversations to resolve customer issues efficiently.
+By default, customer service representatives (service representatives or representatives) can consult with other representatives and transfer conversations to queues to resolve customer issues efficiently.
 
-For advanced consult and transfer scenarios, you can enable the consult to queue and direct transfer of conversations in your contact center. The consult to queue setting helps the system to intelligently select the most eligible representative to consult with. Direct transfer lets representative select another representative directly without first initiating a consult. Service representatives can make sure that customers receive the best assistance they need.
+For advanced consult and transfer scenarios, you can enable the following settings:
+
+- **Consult to queue**: Helps the system to intelligently select the most eligible representative to consult with.
+- **Direct transfer**: Lets representatives select another representative directly without needing to initiate a consult.
 
 ## Prerequisite
 
@@ -48,7 +51,7 @@ When you enable the transfer to representative setting, representatives can sele
 
 ### Configure custom inbox view
 
-The consultee can configure the inbox to show their consult sessions. They can then join the session back from the inbox and leave the consultation to release their capacity.
+The representatives can configure the inbox to show their consult sessions. The inbox view helps representatives rejoin the consulted sessions and leave the consultation to release their capacity.
 
 1. Create a view using the **Advanced** option in [Configure custom views for the inbox](configure-inbox.md#configure-custom-views-for-the-inbox).
 1. Use the conditions as shown in the following screenshot to configure the view.
@@ -57,7 +60,9 @@ The consultee can configure the inbox to show their consult sessions. They can t
 
 ## Runtime experience
 
-Only after you enable the consult to queue setting, your service representatives can see the **Queue** tab on the communication panel. Similarly, the **Representatives** tab appears if you enable the direct transfer setting. The tab also appears when the representative wants to transfer conversations to another representative after engaging in a consultation with them.
+Only after you enable the consult to queue setting, your service representatives can see the **Queue** tab on the communication panel. 
+
+Similarly, the **Representatives** tab appears if you enable the direct transfer setting. The tab also appears when the representative wants to transfer conversations to another representative after engaging in a consultation with them.
 
 The consult session isn't reestablished if the representative refreshes the browser. However, the representative capacity is blocked based on the consult type or block capacity setting.
 

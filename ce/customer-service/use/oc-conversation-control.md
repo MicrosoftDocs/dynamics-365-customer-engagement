@@ -1,7 +1,7 @@
 ---
 title: View the communication panel for conversations
 description: Learn what you can do as a representative in the communication panel when you interact with the customer.
-ms.date: 10/20/2025
+ms.date: 10/28/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -91,9 +91,9 @@ If the reconnection link is configured, you can share the link with customers du
 
 You can consult with other representatives or supervisors using the consult option. You can invite the representative or supervisor by selecting the **Consult** button in the communication panel and choosing from the list of available representatives.
 
-The following events occur when you select the **Consult** button:
-
-[**Consult to queue experience**](../administer/enable-transfer-consult.md) <a name="consult-queue"></a>
+### Consult to queue
+ <a name="consult-queue"></a>
+When you enable [Consult to queue](../administer/enable-transfer-consult.md),
 
 - The **Queue** tab appears on the communication panel.
 
@@ -104,9 +104,10 @@ The following events occur when you select the **Consult** button:
 - Irrespective of the work distribution mode, the consult is always pushed to the representative.
 - Consult to queue always blocks capacity of the representative.
 
-**Out-of-the-box consult experience**
+### Default consult experience
 
 - If block capacity for consult is enabled, capacity of all the consulted representatives is blocked for the consulted conversation that's invoked using the consult with representatives option on the communication panel.
+
 - You can search for representatives to consult within the same queue or other queues.
 
    :::image type="content" source="../media/add-to-consult.png" alt-text="Select the people icon to add the secondary representative to the conversation.":::
@@ -137,6 +138,14 @@ You can also use a keyboard command to see the list of representatives and or su
 
 After you type **/c** in the communication panel messaging area, you can continue typing the name of the participant and if it's present, the names are filtered and displayed to you.
 
+Type /caq (forward slash, letter c, letter a, letter q) or /4 (forward slash, number 4) to search for the queue in the **Queues** tab of the consult window.
+
+Type /cq (forward slash, letter c, letter q) or /5 (forward slash, number 5) to invoke the consult to queue action.
+
+When skill-based routing is enabled, then during the consult, the **Consult** panel shows users sorted in the order of matching skills. A check for representative skills isn't done by the app and the conversation can be consulted to any representative irrespective of the skill match.
+
+When a conversation needs to be consulted from one queue to another, the matching criteria that were used in the conversation is reused to find a representative in the new queue. For example, if exact match was used to attach the skills to the conversation, the same criteria is used to find the representative in the new queue.
+
 ## Transfer conversations
 
 If your administrator has enabled the [**Transfer to representatives**](../administer/enable-transfer-consult.md) setting in the Copilot Service admin center, the **Representatives** tab appears when you select the transfer icon and you can transfer the conversation to another representative.
@@ -156,7 +165,9 @@ Use the keyboard command to see the list of representatives and/or the superviso
 
 Use the keyboard command to see the list of queues to transfer the conversation request. Press the forward slash (/) key and the letters T and Q (**/tq**).
 
-**/t** (forward slash, letter t) launches the **Representatives** and **Queues** tabs. Select either tab and then select the representative or the queue from the list to transfer the conversation. The **/t** command keeps the focus on the **Representatives** tab whereas the **/tq** command keeps the focus on the **Queues** tab.
+**/t** (forward slash, letter t) launches the **Representatives** and **Queues** tabs. Select a tab and then select the representative or the queue from the list to transfer the conversation. The **/t** command keeps the focus on the **Representatives** tab whereas the **/tq** command keeps the focus on the **Queues** tab.
+
+Use /taq (forward slash, letter t, letter a, letter q) or /2 (forward slash, number 2) to search for the queue in the **Queues** tab of the transfer window.
 
 When skill-based routing is enabled, then during the transfer, the **Transfer** panel shows users sorted in the order of matching skills. A check for representative skills isn't done by the app and the conversation can be transferred to any representative irrespective of the skill match.
 
