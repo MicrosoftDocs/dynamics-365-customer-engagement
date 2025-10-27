@@ -26,7 +26,7 @@ This article explains how to configure connection references for AI agents that 
 
 Learn more in [Add connection references to a solution.](/power-apps/maker/data-platform/create-connection-reference#add-connection-references-to-a-solution).
 
-## Step 1: Set connection references for AI agent flow
+## Set connection references for AI agent flow
 
 |AI agent flow|Connection references  |
 |---------|---------|
@@ -45,7 +45,7 @@ Learn more in [Add connection references to a solution.](/power-apps/maker/data-
 1. Save your changes.
 
  
-## Step 2: Turn on the Power Automate flow
+## Turn on the Power Automate flow
 
 |AI agent  | AI Agent flow  |
 |---------|---------|
@@ -56,7 +56,7 @@ In [Power Automate](https://powerautomate.microsoft.com), search for your flow, 
 
 Aternatively, in [make.powerapps.com](https://make.powerapps.com) from **Solutions** > **Default Solution** > **Objects** > **Cloud flows**, select your flow, and then select **Turn on**.
 
-## Step 3: Publish the Microsoft Copilot Studio agent
+## Publish the Microsoft Copilot Studio agent
 
 |AI agent flow |  Microsoft Copilot Studio agent |
 |---------|---------|
