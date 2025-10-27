@@ -15,14 +15,17 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-You can transfer calls or consult with other service representatives or supervisors to collaborate with them on questions that you might have when you're on a call with a customer. 
+You can transfer calls or consult with other service representatives or supervisors to collaborate with them on questions that you might have when you're on a call with a customer.
 
 To familiarize yourself with the call controls, see [Understand how to use the agent dashboard and call controls](/dynamics365/contact-center/use/voice-channel-agent-experience).
 
 ## Prerequisites
 
-- To transfer the calls to another service representative, your administrator enabled the [transfer to representative](../administer/enable-transfer-consult.md) setting.
-- To transfer calls to an external PSTN number or a Teams user, the transfer settings must be enabled in the voice channel instance settings.
+Your administrator enabled the following settings;
+
+- To transfer the calls to another service representative, [direct transfer of conversations](../administer/enable-transfer-consult.md#enable-direct-transfer-of-conversations) setting.
+- To automatically select a representative to consult with, [consult to queue](../administer/enable-transfer-consult.md#enable-consult-to-queue) setting,
+- To transfer calls to an external PSTN number or a Teams user, the transfer settings must be enabled in the [voice channel instance](../administer/voice-channel-inbound-calling.md#configure-a-voice-channel) settings.
 
 ## Transfer calls
 
@@ -102,7 +105,7 @@ When you initiate a consult, the following actions occur:
 - If the primary representative or customer ends the call, the call ends for everyone. 
 - If the primary representative refreshes their browser, all the participants are placed on hold until the primary representative returns to the call. 
 
-**Consult with another user**
+### Consult with another user
 
 1. Select **Consult** in the call window.
 

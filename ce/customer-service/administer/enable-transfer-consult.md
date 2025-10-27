@@ -29,7 +29,8 @@ You can enable the settings in Copilot Service admin center under **Channels** >
 
 ### Enable consult to queue
 
-1. Turn on the toggle for **Consult to queue**
+1. Turn on the toggle for **Consult to queue**.
+
 1. Enter countdown numbers for voice and messaging channels to indicate the time the system spends to find representatives to consult with.
 
    :::image type="content" source="../media/consult-to-queue-settings.png" alt-text="Screenshot of consult to queue setting in admin center.":::
@@ -38,9 +39,9 @@ You can enable the settings in Copilot Service admin center under **Channels** >
 
 ### Enable blocking of capacity during consult
 
-By default, representative capacity is blocked for consult to queue sessions. But you have to explicitly block representative capacity for direct consult session.
+By default, representative capacity is blocked for consult to queue sessions. But you need to explicitly block representative capacity for direct consult session.
 
-- On the **Consult and transfer** page, select the checkbox to block capacity of the representatives who are engaged in a consultation that's invoked using the consult with representatives option on the communication panel.
+- On the **Consult and transfer** page, select the checkbox to block capacity of the representatives who are engaged in a consultation that's invoked by using the consult with representatives option on the communication panel.
 
 ### Enable direct transfer of conversations
 
@@ -51,20 +52,20 @@ When you enable the transfer to representative setting, representatives can sele
 
 ### Configure custom inbox view
 
-The representatives can configure the inbox to show their consult sessions. The inbox view helps representatives rejoin the consulted sessions and leave the consultation to release their capacity.
+Representatives can configure the inbox to show their consult sessions. The inbox view helps representatives rejoin the consulted sessions and leave the consultation to release their capacity.
 
-1. Create a view using the **Advanced** option in [Configure custom views for the inbox](configure-inbox.md#configure-custom-views-for-the-inbox).
-1. Use the conditions as shown in the following screenshot to configure the view.
+1. Create a view by using the **Advanced** option in [Configure custom views for the inbox](configure-inbox.md#configure-custom-views-for-the-inbox).
+1. Use the conditions shown in the following screenshot to configure the view.
 
    :::image type="content" source="../media/configure-consults-inbox-view.png" alt-text="Screenshot of the conditions builder to view consult sessions in inbox.":::
 
 ## Runtime experience
 
-Only after you enable the consult to queue setting, your service representatives can see the **Queue** tab on the communication panel. 
+When you enable the consult to queue setting, your service representatives can see the **Queue** tab on the communication panel. 
 
-Similarly, the **Representatives** tab appears if you enable the direct transfer setting. The tab also appears when the representative wants to transfer conversations to another representative after engaging in a consultation with them.
+Similarly, when you enable the direct transfer setting, the **Representatives** tab appears. The tab also appears when the representative wants to transfer conversations to another representative after engaging in a consultation with them.
 
-The consult session isn't reestablished if the representative refreshes the browser. However, the representative capacity is blocked based on the consult type or block capacity setting.
+If the representative refreshes the browser, the consult session isn't reestablished. However, based on the consult type or block capacity setting, the representative capacity continues to be blocked.
 
 The representative capacity is released in the following scenarios:
 
