@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 10/24/2025
+ms.date: 10/27/2025
 ms.custom: bap-template
 ---
 
@@ -18,8 +18,8 @@ Customer Knowledge Management Agent lets you autonomously turn cases and case-re
 
 - You're using the out-of-the-box case or conversation entities, or a custom Dynamics entity for your cases. 
 - [Dynamics 365 knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management) is configured.
-- You enabled Copilot to access Dynamics 365 knowledge base. You can utilize the internal knowledge base resources only for generating responses. Learn more in [Configure knowledge sources](copilot-enable-help-pane.md#configure-knowledge-sources).
-- For real-time knowledge creation, you [configured connection references for Customer Knowledge Management Agent flow](admin-km-agent-connections.md#configure-connection-references-for-customer-knowledge-management-agent-flow).
+- You enabled Copilot to access Dynamics 365 knowledge base. You can utilize the internal knowledge base resources only for generating responses. Learn more in [Configure knowledge sources](/dynamics365/contact-center/administer/copilot-enable-help-pane#configure-knowledge-sources?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml).
+- For real-time knowledge creation, you [configured connection references for Customer Knowledge Management Agent flow](admin-km-agent-connections.md).
 - You [set up pay-as-you-go](setup-pay-as-you-go.md#set-up-pay-as-you-go).
 
 ## Enable Customer Knowledge Management Agent
