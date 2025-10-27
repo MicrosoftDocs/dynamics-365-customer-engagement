@@ -16,7 +16,7 @@ ai-usage: ai-assisted
 ---
 
 
-## FAQs about sales AI agents
+# FAQs about sales AI agents
 
 Sales AI agents are AI-powered assistants that help sales teams automate and enhance various sales processes. They can assist with tasks such as lead qualification, opportunity research, and customer engagement by providing insights, engaging with customers, identifying risks, and offering recommendations.
 

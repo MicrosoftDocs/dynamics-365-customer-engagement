@@ -25,7 +25,7 @@ Typically, sales managers and sales admins use the AI Hub to set up and manage A
 
 - **Agent manager**: Create and manage AI agents for various sales tasks, such as lead qualification and opportunity research.
 - **AI optimization hub**: Monitor the performance of your AI agents and optimize settings to improve their effectiveness. The optimization hub includes dashboards that provide insights into agent performance, user engagement, and business impact.
-- **Learn how AI agents work**: Access resources and documentation to understand how AI agents function and how to leverage them effectively in your sales processes.
+- **Learn how AI agents work**: Access videos and documentation to understand how AI agents function and how to leverage them effectively in your sales processes.
 - **Architecture, security, privacy, and compliance**: Find information about the technical architecture of AI agents, as well as details on responsible AI, security, privacy, and compliance considerations when using AI in your sales processes.
 
 ## Access the Dynamics AI Hub from Sales Hub app
@@ -47,7 +47,7 @@ If you're using custom roles, ensure that users have the `read` permissions to t
 
 ## Assign agent-specific privileges
 
-If you're using custom security roles, ensure that users have the necessary agent-specific privileges to manage the agents and access the dashboards in the AI Hub. Otherwise, users will have access issues or see inaccurate or incomplete data in the dashboard.
+If you're using custom security roles, ensure that users have the necessary agent-specific privileges to manage the agents and access the dashboards in the AI Hub. Otherwise, users will have access issues, or see inaccurate or incomplete data in the dashboard.
 
 - [Permissions required for Sales Qualification Agent](configure-sales-qualification-agent.md#grant-permissions-to-custom-security-role)
 - [Permissions required for Opportunity Research Agent](configure-opportunity-research-agent.md#grant-permissions-to-custom-security-role)
