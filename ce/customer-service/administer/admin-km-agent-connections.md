@@ -21,8 +21,8 @@ This article explains how to configure connection references for AI agents that 
 
 |AI agent |Flow  |
 |---------|---------|
-|Customer Knowledge Management Agent flow    |   **Knowledge Harvest Trigger Flow V2**   |
-|Quality Evaluation Agent flow    |  - **QEA On Demand Evaluation Case** for cases. <br> - **AI Evaluation Flow for Conversation** for conversations.    |
+|Customer Knowledge Management Agent    |   **Knowledge Harvest Trigger Flow V2**   |
+|Quality Evaluation Agent    |  - **QEA On Demand Evaluation Case** for cases. <br> - **AI Evaluation Flow for Conversation** for conversations.    |
 
 Learn more in [Add connection references to a solution.](/power-apps/maker/data-platform/create-connection-reference#add-connection-references-to-a-solution).
 
