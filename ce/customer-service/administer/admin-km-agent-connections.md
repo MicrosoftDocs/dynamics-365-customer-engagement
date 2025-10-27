@@ -40,7 +40,7 @@ Learn more in [Add connection references to a solution.](/power-apps/maker/data-
     1. In the **Edit** dialog, select **Connection** > **New connection**. 
     1. Search for **Microsoft Dataverse** and select **Create**. You might need to sign in using the OAuth connection type to create a Dataverse connection.
     1. Go back to the **Edit** dialog of **Microsoft Dataverse CustomerServiceKnowledgeHarvest**, search for the new connection and save it.
-    1. Repeat step and b, to create a connection with **Microsoft Copilot Studio (Preview)**.
+    1. Repeat step a and b, to create a connection with **Microsoft Copilot Studio (Preview)**.
     1. Go back to the **Edit** dialog of **Microsoft Dataverse CustomerServiceKnowledgeHarvest**, search for the new connection and save it.
 1. Save your changes.
 
