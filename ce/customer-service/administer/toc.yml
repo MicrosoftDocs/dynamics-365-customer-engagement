@@ -503,7 +503,7 @@
         - name: Enable intent-based suggestions for service representatives
           href: /dynamics365/contact-center/administer/enable-intent-for-service-reps?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
         - name: Configure intent-based suggestions for Copilot agents
-          href: /dynamics365/contact-center/administer/set-up-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+          href: /dynamics365/contact-center/administer/set-up-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.ym
       - name: Case Management Agent (preview)
         items: 
           - name: Configure global settings for Case Management Agent
@@ -516,7 +516,7 @@
             href: set-up-case-closure.md  
       - name: Customer Knowledge Management Agent
         items:
-        - name: Enable Customer Knowledge Management Agent
+        - name: Manage Customer Knowledge Management Agent
           href: admin-km-agent.md
         - name: Configure connection references
           href: admin-km-agent-connections.md

@@ -3,7 +3,7 @@ title: Enable quick book in Universal Resource Scheduling
 description: Learn how to enable and use quick scheduling (also known as quick book) to simplify the schedule assistant experience and make the process easier.
 ms.reviewer: mhart
 ms.subservice: common-scheduler
-ms.date: 02/24/2023
+ms.date: 07/02/2025
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher

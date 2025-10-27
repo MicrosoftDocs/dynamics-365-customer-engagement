@@ -1,6 +1,6 @@
 ---
 title: Schedule board tab settings
-description: Learn how to use schedule board tab settings in Dynamics 365 Field Service
+description: Learn how to use schedule board tab settings in Dynamics 365 Field Service to change the layout and functions of schedule board tabs.
 ms.date: 06/26/2025
 ms.topic: how-to
 author: mkelleher-msft

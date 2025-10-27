@@ -1,8 +1,7 @@
 ---
 title: Experience the schedule board in Universal Resource Scheduling
-description: The new schedule board is faster, with better usability and additional capabilities."
-ms.date: 05/08/2024
-ms.reviewer: mhart
+description: Learn about the schedule board experience in Dynamics 365.
+ms.date: 07/10/2025
 ms.subservice: common-scheduler
 ms.topic: concept-article
 author: mkelleher-msft
