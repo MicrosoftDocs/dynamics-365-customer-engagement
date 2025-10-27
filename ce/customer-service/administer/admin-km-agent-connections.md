@@ -1,5 +1,5 @@
 ---
-title: Configure connection references for Customer Knowledge Management Agent flow
+title: Configure connection references for AI Agent flow in Dynamics 
 description: Learn how to configure connection references for Customer Knowledge Management Agent flow with Microsoft Dataverse and Copilot Studio.
 author: Soumyasd27
 ms.author: sdas
@@ -16,43 +16,57 @@ ms.custom:
 
 # Configure connection references
 
-This article explains how to configure connection references for AI agents that helps enable seamless integration with Microsoft services. These connections link flows to essential data sources such as Microsoft Dataverse and Copilot Studio, ensuring smooth operation and enhanced functionality.
+This article explains how to configure connection references for AI agents that help enable seamless integration with Microsoft services. These connections link flows to essential data sources such as Microsoft Dataverse and Copilot Studio, ensuring smooth operation and enhanced functionality.
 
 
-|AI agent flow |Connection references  |
+|AI agent |Flow  |
 |---------|---------|
-|Customer Knowledge Management Agent flow    |    - **Microsoft Dataverse CustomerServiceKnowledgeHarvest** <br> - **Microsoft Copilot Studio CustomerServiceKnowledgeHarvest**     |
+|Customer Knowledge Management Agent flow    |   **Knowledge Harvest Trigger Flow V2**   |
 |Quality Evaluation Agent flow    |  - **QEA On Demand Evaluation Case** for cases. <br> - **AI Evaluation Flow for Conversation** for conversations.    |
 
-## Step 1: Set connection references
+Learn more in [Add connection references to a solution.](/power-apps/maker/data-platform/create-connection-reference#add-connection-references-to-a-solution).
+
+## Step 1: Set connection references for AI agent flow
+
+|AI agent flow|Connection references  |
+|---------|---------|
+|**Knowledge Harvest Trigger Flow V2**   |    - **Microsoft Dataverse CustomerServiceKnowledgeHarvest** <br> - **Microsoft Copilot Studio CustomerServiceKnowledgeHarvest**     |
+|**QEA On Demand Evaluation Case** for cases. <br> - **AI Evaluation Flow for Conversation** for conversations.    | - For cases: **QMA.Incident.DVPluginConnection, Microsoft Copilot Studio (Preview) CaseReviewerFlow** and **Microsoft Dataverse FlowRunTest-8625a**. <br> - For conversations: **Microsoft Dataverse CDS Connection for QEA Conversation, Microsoft Copilot Studio (Preview) CaseReviewerFlow** and **Microsoft Dataverse FlowRunTest-8625a**.    |
 
 1. Sign in to [make.powerapps.com](https://make.powerapps.com) and select your environment.
 1. Go to **Solutions** > **Default Solution** > **Objects** > **Connection References**.
-1. Search for the connection references for your agent.
-1. To create a connection for the connection reference:
+1. Search for the connection references that you want to add. For example, search for **Microsoft Dataverse CustomerServiceKnowledgeHarvest**.
+1. To create a connection for **Microsoft Dataverse CustomerServiceKnowledgeHarvest**:
     1. In the **Edit** dialog, select **Connection** > **New connection**. 
-    1. Search for **Microsoft Dataverse** and select **Create**.
-    1. Go back to the **Edit** dialog of the connection reference, search for the new connection and save it.
-1. Perform the same steps to create a connection for all references, with **Microsoft Copilot Studio (Preview)**.
+    1. Search for **Microsoft Dataverse** and select **Create**. You might need to sign in using the OAuth connection type to create a Dataverse connection.
+    1. Go back to the **Edit** dialog of **Microsoft Dataverse CustomerServiceKnowledgeHarvest**, search for the new connection and save it.
+    1. Repeat to create a connection with **Microsoft Copilot Studio (Preview)**.
+    1. Go back to the **Edit** dialog of **Microsoft Dataverse CustomerServiceKnowledgeHarvest**, search for the new connection and save it.
+1. Save your changes.
+
  
-## Step 2:  Turn on the Power Automate flow
+## Step 2: Turn on the Power Automate flow
 
-|AI agent flow |Connection references  |
+|AI agent  | AI Agent flow  |
 |---------|---------|
-|Customer Knowledge Management Agent flow    |    **Knowledge Harvest Trigger Flow V2**    |
-|Quality Evaluation Agent flow    |  - **QEA On Demand Evaluation Case** for cases. <br> - **AI Evaluation Flow for Conversation** for conversations.    |
+|Customer Knowledge Management Agent |    **Knowledge Harvest Trigger Flow V2**    |
+|Quality Evaluation Agent   |  - **QEA On Demand Evaluation Case** for cases. <br> - **AI Evaluation Flow for Conversation** for conversations.    |
 
-In [Power Automate](https://powerautomate.microsoft.com), search for your flow in **Cloud flows**, and turn it on. Learn more in [Power Automate](/power-automate/overview-cloud#find-your-flows-easily).
+In [Power Automate](https://powerautomate.microsoft.com), search for your flow, for example,**Knowledge Harvest Trigger Flow V2** in **Cloud flows**, and turn it on. Learn more in [Power Automate](/power-automate/overview-cloud#find-your-flows-easily).
 
-### Publish the Microsoft Copilot Studio agent
+Aternatively, in [make.powerapps.com](https://make.powerapps.com) from **Solutions** > **Default Solution** > **Objects** > **Cloud flows**, select your flows, and then select **Turn on**.
 
-1. In [Microsoft Copilot Studio](https://copilotstudio.microsoft.com), select your environment, and then search for the **CustomerServiceKnowledgeHarvest** agent. 
+## Step 3: Publish the Microsoft Copilot Studio agent
+
+|AI agent flow |  Microsoft Copilot Studio agent |
+|---------|---------|
+|Customer Knowledge Management Agent flow    |   **CustomerServiceKnowledgeHarvest** |
+|Quality Evaluation Agent flow    |  -  **Quality Evaluation Agent - Incident** case agent <br> - **QualityEvaluationAgentForConversation** conversation agent    |
+
+1. In [Microsoft Copilot Studio](https://copilotstudio.microsoft.com), select your environment, and then search for the agent, for example, **CustomerServiceKnowledgeHarvest** agent. 
 1. [Publish the agent](/microsoft-copilot-studio/publication-fundamentals-publish-channels?tabs=web).
 
-
-laternatively, in [make.powerapps.com](https://make.powerapps.com) from **Solutions** > **Default Solution** > **Objects** > **Cloud flows**, select your flows, and then select **Turn on**.
-
-Once done, go to the Copilot Service admin center and enable your agent.
+Once done, go to the Copilot Service admin center and enable your agent. 
  
 ## Related information
 
