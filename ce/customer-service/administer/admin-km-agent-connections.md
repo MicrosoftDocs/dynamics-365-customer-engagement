@@ -1,12 +1,12 @@
 ---
-title: Configure connection references for Customer Knowledge Management Agent flow (preview)
+title: Configure connection references for Customer Knowledge Management Agent flow
 description: Learn how to configure connection references for Customer Knowledge Management Agent flow with Microsoft Dataverse and Copilot Studio.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 05/09/2025
+ms.date: 10/24/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -14,9 +14,7 @@ ms.custom:
   - ai-seo-date:02/26/2025
 ---
 
-# Configure connection references for Customer Knowledge Management Agent flow (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Configure connection references for Customer Knowledge Management Agent flow
 
 This article provides instructions to configure connection references for the Customer Knowledge Management Agent flow. You need to set the following connection references for the **Knowledge Harvest Trigger Flow V2** flow.
 
@@ -24,8 +22,6 @@ This article provides instructions to configure connection references for the Cu
 - **Microsoft Copilot Studio CustomerServiceKnowledgeHarvest**
 
 Learn more in [Add connection references to a solution](/power-apps/maker/data-platform/create-connection-reference#add-connection-references-to-a-solution).
-
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Set connection references for Customer Knowledge Management Agent flow
 
