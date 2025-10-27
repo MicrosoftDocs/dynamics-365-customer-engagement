@@ -31,7 +31,7 @@ Learn more in [Add connection references to a solution.](/power-apps/maker/data-
 |AI agent flow|Connection references  |
 |---------|---------|
 |**Knowledge Harvest Trigger Flow V2**   |    - **Microsoft Dataverse CustomerServiceKnowledgeHarvest** <br> - **Microsoft Copilot Studio CustomerServiceKnowledgeHarvest**     |
-|**QEA On Demand Evaluation Case** for cases. <br> - **AI Evaluation Flow for Conversation** for conversations.    | - For cases: **QMA.Incident.DVPluginConnection, Microsoft Copilot Studio (Preview) CaseReviewerFlow** and **Microsoft Dataverse FlowRunTest-8625a**. <br> - For conversations: **Microsoft Dataverse CDS Connection for QEA Conversation, Microsoft Copilot Studio (Preview) CaseReviewerFlow** and **Microsoft Dataverse FlowRunTest-8625a**.    |
+|- **QEA On Demand Evaluation Case** for cases. <br> - **AI Evaluation Flow for Conversation** for conversations.    | - For cases: **QMA.Incident.DVPluginConnection, Microsoft Copilot Studio (Preview) CaseReviewerFlow** and **Microsoft Dataverse FlowRunTest-8625a**. <br> - For conversations: **Microsoft Dataverse CDS Connection for QEA Conversation, Microsoft Copilot Studio (Preview) CaseReviewerFlow** and **Microsoft Dataverse FlowRunTest-8625a**.    |
 
 1. Sign in to [make.powerapps.com](https://make.powerapps.com) and select your environment.
 1. Go to **Solutions** > **Default Solution** > **Objects** > **Connection References**.
@@ -40,7 +40,7 @@ Learn more in [Add connection references to a solution.](/power-apps/maker/data-
     1. In the **Edit** dialog, select **Connection** > **New connection**. 
     1. Search for **Microsoft Dataverse** and select **Create**. You might need to sign in using the OAuth connection type to create a Dataverse connection.
     1. Go back to the **Edit** dialog of **Microsoft Dataverse CustomerServiceKnowledgeHarvest**, search for the new connection and save it.
-    1. Repeat to create a connection with **Microsoft Copilot Studio (Preview)**.
+    1. Repeat step and b, to create a connection with **Microsoft Copilot Studio (Preview)**.
     1. Go back to the **Edit** dialog of **Microsoft Dataverse CustomerServiceKnowledgeHarvest**, search for the new connection and save it.
 1. Save your changes.
 
@@ -54,7 +54,7 @@ Learn more in [Add connection references to a solution.](/power-apps/maker/data-
 
 In [Power Automate](https://powerautomate.microsoft.com), search for your flow, for example,**Knowledge Harvest Trigger Flow V2** in **Cloud flows**, and turn it on. Learn more in [Power Automate](/power-automate/overview-cloud#find-your-flows-easily).
 
-Aternatively, in [make.powerapps.com](https://make.powerapps.com) from **Solutions** > **Default Solution** > **Objects** > **Cloud flows**, select your flows, and then select **Turn on**.
+Aternatively, in [make.powerapps.com](https://make.powerapps.com) from **Solutions** > **Default Solution** > **Objects** > **Cloud flows**, select your flow, and then select **Turn on**.
 
 ## Step 3: Publish the Microsoft Copilot Studio agent
 
@@ -70,6 +70,6 @@ Once done, go to the Copilot Service admin center and enable your agent.
  
 ## Related information
 
-[Overview of cloud flows](/power-automate/overview-cloud)
+[Overview of cloud flows](/power-automate/overview-cloud)  
 [Manage Customer Knowledge Management Agent](admin-km-agent.md#manage-customer-knowledge-management-agent)  
 [Manage Quality Evalaution Agent](/dynamics365/contact-center/administer/manage-quality-evaluation-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.ym)
