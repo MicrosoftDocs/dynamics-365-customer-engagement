@@ -1,6 +1,6 @@
 ---
-title: Configure connection references for AI Agent flow in Dynamics 
-description: Learn how to configure connection references for Customer Knowledge Management Agent flow with Microsoft Dataverse and Copilot Studio.
+title: Configure connection references
+description: Learn how to configure connection references for AI Agent flow in Dynamics 365 Customer Service and Contact Center, with Microsoft Dataverse and Copilot Studio.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
@@ -14,7 +14,7 @@ ms.custom:
   - ai-seo-date:02/26/2025
 ---
 
-# Configure connection references
+# Configure connection references 
 
 This article explains how to configure connection references for AI agents that help enable seamless integration with Microsoft services. These connections link flows to essential data sources such as Microsoft Dataverse and Copilot Studio, ensuring smooth operation and enhanced functionality.
 
