@@ -48,6 +48,8 @@ As the agent consumes capacity, it's important to plan and configure it to handl
 
    Learn more in [Manage data policies](/power-platform/admin/prevent-data-loss?tabs=new).
 
+### Grant permissions to custom security role
+
 - If you're using a custom security role, ensure that the opportunity owners have the following minimum permissions: 
 
    | Purpose | Access level - Permissions  | Entities|
