@@ -97,6 +97,8 @@ The following image shows the permissions to access research insights as an exam
 
 :::image type="content" source="media/sqa-custom-role-permissions.png" alt-text="Screenshot of the permissions to grant to a custom security role for use with the Sales Qualification Agent in Dynamics 365 Sales.":::
 
+If you're using a custom app, add the Dynamics AI Hub sitemap entry to your custom app to allow users to create, manage, and monitor sales AI agents. Learn more in [Access Dynamics 365 AI Hub](dynamics-365-ai-hub.md)
+
 ## Set up Sales Qualification Agent
 
 The Sales Qualification Agent is available in two modes&mdash;Research-only mode and Research and engage mode&mdash;depending on the level of automation you want to achieve. The configuration steps are similar for both types, but the Engage has additional settings such as adding email signature, customized email instructions, and configuring BANT criteria for handover to work autonomously.

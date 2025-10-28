@@ -31,6 +31,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/monitor-opportunity-agent.md",
+      "redirect_url": "/dynamics365/sales/opportunity-research-agent",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/develop/reference/entities/quotedetail.md",
       "redirect_url": "/dynamics365/developer/reference/entities/quotedetail",
       "redirect_document_id": "false"
@@ -30121,6 +30126,11 @@
     {
       "source_path": "ce/common-scheduler/preview-schedule-board.md",
       "redirect_url": "/dynamics365/common-scheduler/use-schedule-board",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/common-scheduler/developer/extensibility-release-notes.md",
+      "redirect_url": "/dynamics365/field-service/version-history",
       "redirect_document_id": "false"
     },
     {

@@ -151,7 +151,7 @@ While you're viewing a work order, depending on the **System Status**, you can a
 
 ## Schedule or reschedule a work order
 
-The Field Service add-in helps you schedule work orders in Outlook. Scheduling suggestions are based on technicians' availability and skills, proximity to the customer's location, promised time windows, and the business unit.
+The Field Service add-in helps you schedule work orders in Outlook. Scheduling suggestions are based on technicians' availability and characteristics, proximity to the customer's location, promised time windows, and the business unit.
 
 1. [View the work order](#view-a-work-order) you need to schedule or reschedule.
 
