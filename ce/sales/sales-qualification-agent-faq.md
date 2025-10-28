@@ -1,5 +1,5 @@
 ---
-title: Sales Qualification Agent FAQ (preview)
+title: FAQs about Sales Qualification Agent (preview)
 description: Find answers to frequently asked questions about the Sales Qualification Agent in Dynamics 365 Sales.
 ms.date: 08/01/2025
 ms.update-cycle: 180-days
@@ -16,7 +16,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Sales Qualification Agent FAQ (preview)
+# FAQs about Sales Qualification Agent (preview)
 
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
@@ -33,23 +33,15 @@ The agent might pause for the following reasons:
 - No capacity is available for the agent to process leads. Ask your admin to check the capacity and resolve the issue.
 - Your org is using an older version of the agent. Upgrade to the latest version to continue using the agent. Learn more in [Upgrade your Sales Qualification Agent](upgrade-sales-qualification-agent.md).
 
-## Why did the Sales Qualification Agent go into Draft mode?
-
-If you're using the 4.3 version of the Sales Qualification Agent (part of the April 2025 public preview), it will be set to Draft mode after the 7.3 release is deployed in your environment. Learn more in [Upgrade your Sales Qualification Agent](upgrade-sales-qualification-agent.md).
-
-## Why can't I access the research pages of leads that were previously processed by the agent? 
+## Why can't I access the research pages of leads that were previously processed by the agent?
 
 The possible causes for this issue are:
 
-- Your agent is upgraded to the 7.3 version.
+- Your agent is upgraded to the latest version.
 - The lead no longer fulfills the selection criteria defined in the agent configuration.
 
 The previous research data is stored in msdyn_leadagentresult (lead agent result) and msdyn_accountresearchresult (account research result). Learn more in [Upgrade your Sales Qualification Agent](upgrade-sales-qualification-agent.md).
 
-
-## Why are my 4.3 agent settings not preserved after the upgrade?
-
-Due to a technological change in the agent's architecture, the settings from the 4.3 version of the Sales Qualification Agent can't be preserved during the upgrade to the 7.3 version.  
 
 <a name="trigger-events"></a>
 ## When does the agent run?
@@ -87,3 +79,11 @@ If you see an error that says "Insights couldn't be generated due to an error in
 - The lead's account information is missing. In this case, the agent doesn't run as there's no company information to research on. 
 
 Update the lead's email address or account information to put the lead back in the agent's queue for processing.
+
+## Why the agent didn't process my lead?
+
+If the agent is stuck and isn't processing your lead, verify the following conditions:
+
+- Ensure that the seller has at least read access to the custom entities and fields used in the custom criteria.
+
+- Ensure that the fields used in custom criteria are not removed from Dataverse. If you remove fields used in a custom criterion from Dataverse, the agent won't be able to generate summaries or hand off leads to sellers. Remove the custom criterion related to the deleted fields and try again.

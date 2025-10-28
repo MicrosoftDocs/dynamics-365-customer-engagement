@@ -3,6 +3,7 @@
     "content": [
       {
         "group": "ce-all",
+        "src": ".",
         "files": [
           "**/*.md",
           "**/*.yml"
@@ -23,6 +24,7 @@
       },
       {
         "group": "op-all",
+        "src": ".",
         "files": [
           "customerengagement/on-premises/**/*.md",
           "customerengagement/on-premises/**/*.yml"
@@ -37,6 +39,7 @@
       },
       {
         "group": "usd-all",
+        "src": ".",
         "files": [
           "unified-service-desk/**/*.md",
           "unified-service-desk/**/*.yml"
@@ -53,6 +56,7 @@
     "resource": [
       {
         "group": "ce-all",
+        "src": ".",
         "files": [
           "**/*.png",
           "**/*.jpg",
@@ -75,6 +79,7 @@
       },
       {
         "group": "op-all",
+        "src": ".",
         "files": [
           "customerengagement/on-premises/**/*.png",
           "customerengagement/on-premises/**/*.jpg",
@@ -94,6 +99,7 @@
       },
       {
         "group": "usd-all",
+        "src": ".",
         "files": [
           "unified-service-desk/**/*.png",
           "unified-service-desk/**/*.jpg",

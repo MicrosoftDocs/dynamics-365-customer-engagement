@@ -1,5 +1,5 @@
 ---
-title: Search for transcripts in Omnichannel for Customer Service
+title: Search for transcripts in Dynamics 365 Contact Center
 description: Learn how to search for transcripts and view transcript details for a conversation.
 ms.date: 04/28/2025
 ms.topic: how-to

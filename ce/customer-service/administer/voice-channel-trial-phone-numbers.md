@@ -15,8 +15,7 @@ ms.reviewer: mgandham
 
 The voice channel provides up to two trial phone numbers with limited free calling time for your organization. When you run the voice trial for the first time, you're automatically assigned a toll-free trial phone number. The total free calling time for the two trial phone numbers is 60 minutes.
 
-For information about setting up the trial and licensing requirements, see [Customer Service trial FAQ](../implement/trial-faq.md) and [Licensing](../implement/system-requirements-omnichannel.md#licensing).
-
+Learn about setting up the trial in [Customer Service trial FAQ](../implement/trial-faq.md) and [Licensing](/dynamics365/contact-center/implement/system-requirements-contact-center).
 
 ## How trial phone numbers work
 

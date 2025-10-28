@@ -1,7 +1,7 @@
 ---
 title: Configure the Opportunity Research Agent (preview)
 description: Learn how to set up and configure the Opportunity Research Agent in Dynamics 365 Sales.
-ms.date: 09/10/2025
+ms.date: 10/06/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -36,7 +36,7 @@ As the agent consumes capacity, it's important to plan and configure it to handl
 
 ## Step 2: Configure prerequisites
 
-- Modify Data policies and allow the following connectors:
+- Modify data policies and allow the following connectors:
   
     | Connector                                 | Why is it required?                                                                                   |
     |--------------------------------------------|-------------------------------------------------------------------------------------------------------|
@@ -48,17 +48,18 @@ As the agent consumes capacity, it's important to plan and configure it to handl
 
    Learn more in [Manage data policies](/power-platform/admin/prevent-data-loss?tabs=new).
 
-- If you're using a custom security role for your sales team that'll be using the agent, ensure that the role has the following access permissions to view the research insights:
-    - `Basic`-level `Read` access to the following entities:
-      - Opportunity Research Result (msdyn_OpportunityResearchResult)
-      - Opportunity Research Indicator (msdyn_OpportunityResearchIndicator)
-      - Opportunity Research Agent Trigger (OpportunityResearchAgentTrigger)
-      - Opportunity Research User Interactions (OpportunityResearchUserInteractions)
-    - `Global`-level `Read` access to the following entities:
-      - Sales Agent Configuration v2 (prvReadmsdyn_salesagentconfigurationv2)
-      - Sales Agent Profile (prvReadmsdyn_salesagentprofile)
+### Grant permissions to custom security role
+
+- If you're using a custom security role, ensure that the opportunity owners have the following minimum permissions: 
+
+   | Purpose | Access level - Permissions  | Entities|
+   |---------|--------------|-------|
+   | Run research and view research insights. <br> **Note:** If users other than opportunity owner need to view the insights, ensure that they have an access level higher than "Basic" for the  entities listed, along with opportunity entity.  | Basic-level - Read    | Opportunity Research Result (msdyn_OpportunityResearchResult)<br> Opportunity Research Indicator (msdyn_OpportunityResearchIndicator)<br> Opportunity Research Agent Trigger (msdyn_OpportunityResearchAgentTrigger)<br> Opportunity Research User Interactions (msdyn_OpportunityResearchUserInteractions)|
+   | View agent configuration and profile | Global-level - Read   | Sales Agent Configuration v2 (prvReadmsdyn_salesagentconfigurationv2)<br> Sales Agent Profile (prvReadmsdyn_salesagentprofile)|
+
 
 - Turn on AI prompts feature in Power Platform and Copilot Studio. Learn more in [Enable AI prompts in Power Platform and Copilot Studio](/ai-builder/administer#enable-or-disable-ai-prompts-in-power-platform-and-copilot-studio).
+- Turn on the AI insight cards in Power Platform Admin Center. This feature is required for sellers to get notified about the insights on the opportunity record. Learn more about turning on this feature in [Manage feature settings](/power-platform/admin/settings-features).
 
 ### Configure server-side synchronization
 
@@ -71,12 +72,14 @@ After you identify the sellers who work on the segment of opportunities that the
 1. [Configure default email processing and synchronization](/power-platform/admin/connect-exchange-online?tabs=new#configure-default-email-processing-and-synchronization).
 1. [Configure mailboxes](/power-platform/admin/connect-exchange-online?tabs=new#configure-mailboxes) of sellers who own the opportunities and [approve their mailboxes](/power-platform/admin/connect-exchange-online?tabs=new#approve-mailboxes). When the configuration is successful, the **Incoming Email Status** and **Outgoing Email Status** for the mailbox are set to **Success**.
     :::image type="content" source="mailbox-status.png" alt-text="Screenshot of a user mailbox in Dynamics 365 Sales with status indicators.":::
-1. Make sure that the personalization option for emails is set to **All email messages** in the sellers personalization settings. By default, this option is set to **Email messages in response to Dynamics 365 email**. Perform *ONE* of the following actions:
 
-    - Notify the sellers to set this option from **Settings** > **Personalization settings** > **Emails**  > **Track** > **All email messages** in Dynamics 365 Sales.
+1. Make sure that the personalization option for email tracking is set to an appropriate value to allow the agent to access emails and meetings from the sellers' mailboxes. You can choose an option that best suits your organization's privacy policies. Perform *ONE* of the following actions:
+
+    - Notify the sellers to set the tracking option in the Sales Hub app from **Settings** > **Personalization settings** > **Emails**  > **Track**.
       :::image type="content" source="media/email-track-personal-options.png" alt-text="Screenshot of the Personalization settings page in Dynamics 365 Sales with the All email messages option selected.":::
 
-    - Use the **User Settings Utility** in [XRMToolBox](/power-apps/developer/data-platform/community-tools) to select multiple sellers and set the `Track email messages` setting to **All email messages**.
+    - Use the **User Settings Utility** in [XRMToolBox](/power-apps/developer/data-platform/community-tools) to select multiple sellers and set the `Track email messages` setting to an appropriate tracking option.
+   
       :::image type="content" source="media/xrmtoolbox-email-tracking.png" alt-text="Screenshot of the User Settings Utility in XRMToolBox with the Track email messages option set to All email messages.":::
 
 ## Step 3: Verify prerequisites
@@ -124,8 +127,12 @@ After verifying the prerequisites, define the agent and company profile, selecti
      - Est. revenue greater than or equal to $100,000.
      - Status equals **Open**.
 
-1. By default, the agent only considers new opportunities created after the agent is turned on. If you want the agent to also research on opportunities created before it was enabled, select the **Consider opportunities created in the last** checkbox and specify the number of days for the look back period.
-2. Select **Simulate** to view a set of opportunities that match the filter conditions. This isn't the full list, but it helps you verify that the agent is picking the right opportunities.
+1. If you want the agent to research on opportunities created in the past, select the **Consider opportunities created in the last** checkbox and specify the number of days for the look back period. Otherwise, the agent only considers opportunities created after the agent is turned on.
+
+1. Select **Simulate** to view a set of opportunities that match the filter conditions. This isn't the full list, but it helps you verify that the agent is picking the right opportunities. 
+   > [!NOTE]
+   > If you haven't specified the look back period, you'll not see any opportunities in the simulation as the agent only considers opportunities created after the agent is turned on.
+
   :::image type="content" source="media/opportunity-research-agent-selection-criteria.png" alt-text="Screenshot of the Selection criteria tab for Opportunity Research Agent.":::
 
 ### Configure refresh frequency

@@ -91,8 +91,6 @@
               href: /dynamics365/contact-center/extend/api/api-conversation-context?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml           
             - name: Use webhook to receive messages and events
               href: /dynamics365/contact-center/extend/api/api-conversation-webhook?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml          
-            - name: Configure Copilot Studio agent custom events
-              href: /dynamics365/contact-center/extend/configure-custom-events?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml              
           - name: Error handling
             href: /dynamics365/contact-center/extend/error-handling?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml
       - name: Voice
@@ -111,9 +109,9 @@
           href: use-case-field-prediction-api.md      
         - name: Use msdyn_invokeCaseProcessingAgent to invoke Case Management Agent
           href: use-case-processing-agent.md           
-      - name: Agent productivity tools
+      - name: Representative productivity tools
         items: 
-        - name: Build a smart assist bot
+        - name: Build a smart assist agent
           href: smart-assist-bot.md
         - name: Implement custom scenario
           href: smart-assist-scenario.md
@@ -153,6 +151,8 @@
           href: calculate-conversation-metrics.md
         - name: Calculate session metrics
           href: calculate-session-metrics.md
+        - name: Calculate representative metrics
+          href: calculate-representative-metrics.md
       - name: Extend Customer Service
         items: 
         - name: Extend Omnichannel for Customer Service

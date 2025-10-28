@@ -31,6 +31,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/monitor-opportunity-agent.md",
+      "redirect_url": "/dynamics365/sales/opportunity-research-agent",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/develop/reference/entities/quotedetail.md",
       "redirect_url": "/dynamics365/developer/reference/entities/quotedetail",
       "redirect_document_id": "false"
@@ -68,6 +73,11 @@
     {
       "source_path": "ce/sales/view-copy-email-summary.md",
       "redirect_url": "/power-apps/maker/model-driven-apps/use-copilot-email-assist",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/testing-guidance-sales-qualification-agent.md",
+      "redirect_url": "/dynamics365/sales/test-sales-qualification-agent-research-engage",
       "redirect_document_id": "false"
     },
     {
@@ -27315,6 +27325,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/test-sales-qualification-agent.md",
+      "redirect_url": "test-sales-qualification-agent-research-engage",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/knowledge-management-oc.md",
       "redirect_url": "set-up-knowledge-management-embedded-knowledge-search#set-up-knowledge-management",
       "redirect_document_id": "false"
@@ -30111,6 +30126,11 @@
     {
       "source_path": "ce/common-scheduler/preview-schedule-board.md",
       "redirect_url": "/dynamics365/common-scheduler/use-schedule-board",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/common-scheduler/developer/extensibility-release-notes.md",
+      "redirect_url": "/dynamics365/field-service/version-history",
       "redirect_document_id": "false"
     },
     {
@@ -35659,6 +35679,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/customer-service/use/session-metrics.md",
+      "redirect_url": "/dynamics365/customer-service/develop/calculate-session-metrics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/use/service-rep-metrics.md",
+      "redirect_url": "/dynamics365/customer-service/develop/calculate-representative-metrics",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/customer-service/develop/create-a-conversion-plugin.md",
       "redirect_url": "/dynamics365/customer-service/develop/int-search-metadata-schema",
       "redirect_document_id": "false"
@@ -35720,6 +35750,50 @@
     {"source_path": "ce/customer-service/use/oc-historical-analytics-unified-routing.md",
       "redirect_url": "/previous-versions/dynamics365/customer-service/use/oc-historical-analytics-unified-routing",
       "redirect_document_id": false
-    }
+    },
+    {"source_path": "ce/sales/sales-qualification-agent-43.md",
+      "redirect_url": "/dynamics365/sales/sales-qualification-agent",
+      "redirect_document_id": false
+    },
+    {"source_path": "ce/sales/configure-sales-qualification-agent-43.md",
+      "redirect_url": "/dynamics365/sales/configure-sales-qualification-agent",
+      "redirect_document_id": false
+    },
+    {"source_path": "ce/sales/use-sales-qualification-agent-43.md",
+      "redirect_url": "/dynamics365/sales/use-sales-qualification-agent",
+      "redirect_document_id": false
+    },
+    {"source_path": "ce/sales/sales-qualification-agent-faq-43.md",
+      "redirect_url": "/dynamics365/sales/sales-qualification-agent-faq",
+      "redirect_document_id": false
+    },
+    {"source_path": "ce/sales/faqs-sales-qualification-agent-43.md",
+      "redirect_url": "/dynamics365/sales/faqs-sales-qualification-agent",
+      "redirect_document_id": false
+    },
+    {"source_path": "ce/sales/test-sales-qualification-agent-43.md",
+      "redirect_url": "/dynamics365/sales/test-sales-qualification-agent",
+      "redirect_document_id": false
+    },
+    {"source_path": "ce/customer-service/administer/ai-topic-clustering-conversations.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/administer/ai-topic-clustering-conversations",
+      "redirect_document_id": false
+    },
+    {"source_path": "ce/customer-service/administer/configure-topics-clustering-cases-cs.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/administer/configure-topics-clustering-cases-cs",
+      "redirect_document_id": false
+    },
+    {"source_path": "ce/customer-service/use/oc-conversation-topics-dashboard.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/use/oc-conversation-topics-dashboard",
+      "redirect_document_id": false
+    },
+    {"source_path": "ce/customer-service/implement/system-requirements-omnichannel.md",
+      "redirect_url": "/dynamics365/contact-center/implement/system-requirements-contact-center",
+      "redirect_document_id": false
+    },
+    {"source_path": "ce/customer-service/use/case-topics-dashboard-cs.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/use/case-topics-dashboard-cs",
+      "redirect_document_id": false
+    }    
   ]
 }

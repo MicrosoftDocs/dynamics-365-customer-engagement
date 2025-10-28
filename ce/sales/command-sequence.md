@@ -1,7 +1,7 @@
 ---
 title: Add command steps to a sequence
 description: Add steps to advance to other sequences and update fields in a sequence to display in the work list and Up next widget.
-ms.date: 09/20/2024
+ms.date: 10/10/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag

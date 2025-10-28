@@ -94,6 +94,10 @@ Yes, you can update the limit. Learn more in [How the limit on offering a work i
 
 The representatives aren't offered the same conversation anymore after they decline it and are removed from priority but can be offered other conversations. However, if they're the only ones eligible, the system offers the same conversation up to three times or the configured limit.
 
+### Do assign to and worked by have the same behavior>
+
+Yes, the presence and capacity are updated.
+
 ## Route to least-active representative
 
 ### For which channel is the routing to least-active representative feature available?
@@ -177,5 +181,4 @@ We'll iteratively add more data events for diagnostics. Follow the documentation
 ### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
-[System requirements for Omnichannel for Customer Service](../implement/system-requirements-omnichannel.md)  
 [Set up unified routing for records](set-up-record-routing.md)  

@@ -1,7 +1,7 @@
 ---
 title: Use device categories in Connected Field Service
 description: Learn how to use device categories in Connected Field Service.
-ms.date: 09/04/2024
+ms.date: 10/03/2025
 ms.topic: how-to
 ms.subservice: connected-field-service
 applies_to:
@@ -13,9 +13,11 @@ author: vhorvathms
 
 # Use device categories in Connected Field Service
 
-Device categories help you organize Internet of Things (IoT) devices. For example, you can categorize devices by the commands they support, the type of device, or by devices that break down more often.  
+Device categories organize Internet of Things (IoT) devices. For example, you can categorize devices by the commands they support, the type of device, or devices that break down more often.
   
 ## Create a new IoT device category
+
+Do the following steps to create a new IoT device category and add devices to it.
   
 1. In Dynamics Field Service, go to the **Settings** area.
 
@@ -31,7 +33,9 @@ Device categories help you organize Internet of Things (IoT) devices. For exampl
   
 1. Continue to add devices for this device category.
 
-## Add devices to an existing category  
+## Add devices to an existing category
+
+You can add devices to an existing device category.
   
 1. In Dynamics Field Service, go to the **Service** area.
 
@@ -60,7 +64,9 @@ When a device isn’t working properly, the system receives an alert. To trouble
 > [!NOTE]
 > When you receive multiple alerts from the same device, the alerts are listed in hierarchical order. You can change the grouping by changing the IoT - Parent IoT Alerts workflow.
 
-### View a device's registration history  
+### View a device's registration history
+
+You can view the registration history of a device to see when it was registered.
 
 1. In Dynamics Field Service, go to the **Service** area.  
 

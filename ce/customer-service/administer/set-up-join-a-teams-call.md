@@ -28,7 +28,7 @@ Ensure that the following prerequisites are met:
 
 ## Set up the ability for representatives to invite customers to join Teams calls
 
-By default, the Join a Teams call feature is turned on out of the box in Copilot Service workspace for agent profiles that have Omnichannel for Customer Service enabled.  
+By default, the Join a Teams call feature is turned on out of the box in Copilot Service workspace for agent profiles that have Dynamics 365 Contact Center enabled.  
 
 If you previously disabled it and need to turn it back on, start with Step 1.  
 

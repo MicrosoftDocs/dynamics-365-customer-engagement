@@ -22,7 +22,7 @@ Automated scheduling is often required because scheduling a high volume of jobs 
 
 - **Improve customer satisfaction**: Improving efficiency drives more predictable arrival and completion times and seamlessly schedules technicians for urgent situations.
 
-- **Increase technician efficiencies**: Fitting more appointments into working hours drives revenue and reduces overtime costs. Matching jobs and technician skills reduces inefficient time allocation.
+- **Increase technician efficiencies**: Fitting more appointments into working hours drives revenue and reduces overtime costs. Matching jobs and technician characteristics reduces inefficient time allocation.
 
 - **Minimize travel time**: Ensuring your technicians are taking the shortest possible route with turn-by-turn directions reduces fuel consumption and wear and tear on vehicles—savings that can easily surpass the cost of the add-in.
 
@@ -61,7 +61,7 @@ The [Resource Scheduling Optimization Add-in is available](field-service-version
 
 ## Understand how it works
 
-Resource Scheduling Optimization helps solve the common *traveling salesperson problem*, a classic optimization challenge to find the shortest possible route that visits a set of cities and returns to the origin city, visiting each city only once. However, the add-in goes beyond finding the shortest routes. It also considers other parameters like skills, territory, promised time windows, and more.
+Resource Scheduling Optimization helps solve the common *traveling salesperson problem*, a classic optimization challenge to find the shortest possible route that visits a set of cities and returns to the origin city, visiting each city only once. However, the add-in goes beyond finding the shortest routes. It also considers other parameters like characteristics, territory, promised time windows, and more.
 
 Here's how it works:
 
@@ -69,7 +69,7 @@ Here's how it works:
 
 1. List the required resources for each job and when it needs to be completed. For example, a work order needs someone nearby with repair skills to complete the job by the end of the week.
 
-1. Choose which resources can be considered for the jobs. Each resource has different attributes like location, role, type, and skills.
+1. Choose which resources can be considered for the jobs. Each resource has different attributes like location, role, type, and characteristics.
 
 1. Run Resource Scheduling Optimization on a predefined schedule, or triggered by a workflow. After the system completes the optimization, dispatchers can [use the schedule board](../common-scheduler/schedule-board-utilization.md) to make changes as needed.
 

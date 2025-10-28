@@ -10,7 +10,7 @@ search.audienceType:
 
 # Rating Value (RatingValue) table/entity reference (Microsoft Dynamics 365 Field Service)
 
-A unique value associated with a rating model that allows providing a user friendly rating value.
+A unique value associated with a proficiency model that allows providing a user friendly rating value.
 
 > [!NOTE]
 > The Microsoft Dynamics 365 Field Service Rating Value (RatingValue) table extends the [Microsoft Dynamics 365 Rating Value (RatingValue) table](/dynamics365/developer/reference/entities/ratingvalue).
