@@ -55,7 +55,7 @@ Before you begin, complete the following prerequisites:
 Specific licensing requirements apply for: 
 
   - All report users to access reports.
-  - All report authors, developers, and administrators to build Power BI reports and extend the default Power BI data model. 
+  - All report authors, developers, supervisors, and administrators to build Power BI reports and extend the default Power BI data model. 
     
   Learn more at [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718) and [Power Platform Pricing](https://go.microsoft.com/fwlink/?linkid=2309616).
 
@@ -70,22 +70,22 @@ Your Microsoft Entra ID administrator must create a security group with your pre
 
 The out-of-the-box **Service Principal Dynamics 365 Analytics** is used to deploy the data model and make changes to the Microsoft Fabric workspace on behalf of Customer Service.
 
-Power BI lets you grant permissions to groups only, not individual service principals, so you need to create a group.
+Power BI lets you grant permissions to groups only, not individual service principals, so you need to create a group or directly grant access to the relevant workspace. 
 
   > [!NOTE]
   > If the Dynamics 365 Analytics service account isn't available in your organization, use the Dynamics CCA Data Analytics service account.
 
 ### Enable Power BI service features from the Microsoft Fabric Admin portal
 
-The Power BI administrator must enable the following, either for the entire organization or for the security group created earlier:
+The Power BI administrator must enable the following, either for the entire organization or for the security group created earlier. Learn more in [Microsoft Fabric tenant settings](/fabric/admin/service-admin-portal-microsoft-fabric-tenant-settings?branch=main).
 
-  - [**Create workspace (new workspace experience)**](/power-bi/admin/service-admin-portal-workspace#create-workspaces-new-workspace-experience): Enabling this feature creates two workspaces, a managed workspace and a customer workspace to deploy Dynamics data model and reports.
+  - In **Workspace settings**, enable [**Create workspace (new workspace experience)**](/fabric/admin/portal-workspace#create-workspaces): Enabling this feature creates two workspaces, a managed workspace and a customer workspace to deploy Dynamics data model and reports.
 
-  - [**Service principals can use Fabric APIs**](/power-bi/enterprise/service-premium-service-principal#enable-service-principals): This feature uses the Fabric APIs for creating workspaces, deploying reports and models.
+  - In **Developer settings**, enable [**Service principals can call Fabric APIs**](/fabric/admin/service-admin-portal-developer#service-principals-can-call-fabric-public-apis): This feature uses the Fabric APIs for creating workspaces, deploying reports and models. Learn more in [Service principals can create workspaces, connections, and deployment pipelines](/fabric/admin/service-admin-portal-developer#service-principals-can-create-workspaces-connections-and-deployment-pipelines).
 
-  - **Allow DirectQuery connections to Power BI semantic models**: When report authors build new metrics or bring more data sources, they create [composite models](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets), so DirectQuery needs to be enabled. Users who view reports built on top of data model in Dynamics 365 require this permission. Work with your Microsoft Entra ID administrator to identify a security group that has all the required Dynamics users.
+  - In **Export settings**, enable [Allow DirectQuery connections to Power BI semantic models](/fabric/admin/service-admin-portal-export-sharing#allow-directquery-connections-to-power-bi-semantic-models)**: When report authors build new metrics or bring more data sources, they create [composite models](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets), so DirectQuery needs to be enabled. Users who view reports built on top of data model in Dynamics 365 require this permission. Work with your Microsoft Entra ID administrator to identify a security group that has all the required Dynamics users.
   
-  - **Allow XMLA endpoints and Analyze in Excel with on-premise semantic models**: When report authors build new metrics or bring more data sources, they create [composite models](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets), so this feature needs to be enabled. Users who view reports built on top of data model in Dynamics 365 require this permission.
+  - In **Integration settings**, enable **[Allow XMLA endpoints and Analyze in Excel with on-premises datasets](/fabric/admin/service-admin-portal-integration#allow-xmla-endpoints-and-analyze-in-excel-with-on-premises-datasets)**: When report authors build new metrics or bring more data sources, they create [composite models](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets), so this feature needs to be enabled. Users who view reports built on top of data model in Dynamics 365 require this permission.
 
   - **Embed content in apps**: Enabling this feature embeds customized reports in Dynamics 365 ([Step 4: Embed customized reports back to Dynamics 365](#step-4-embed-customized-reports-back-to-dynamics-365)). Users who view the custom reports from Dynamics 365 Customer Service require this permission. Work with your Microsoft Entra ID administrator to identify a security group that has all the required Dynamics users.
 
