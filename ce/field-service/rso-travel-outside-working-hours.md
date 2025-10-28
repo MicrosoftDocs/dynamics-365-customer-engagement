@@ -4,8 +4,8 @@ description: Learn how to configure the Resource Scheduling Optimization add-in 
 ms.date: 02/19/2025
 ms.subservice: resource-scheduling-optimization
 ms.topic: how-to
-author: AnilMur
-ms.author: anilmur
+author: andrewclear-ms
+ms.author: anclear
 ---
 
 # Allow travel time outside of working hours with Resource Scheduling Optimization

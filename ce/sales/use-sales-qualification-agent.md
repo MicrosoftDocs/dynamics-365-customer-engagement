@@ -1,7 +1,7 @@
 ---
 title: Work on leads handed over by the Sales Qualification Agent (preview)
 description: Learn how to work with leads handed over by the Sales Qualification Agent in Dynamics 365 Sales. Discover research insights, handover summaries, and recommended actions for effective lead management.
-ms.date: 09/24/2025
+ms.date: 09/30/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -83,7 +83,7 @@ If you're a supervisor, you get notified when a lead is disqualified by the agen
 
 1. In the Sales Hub app, go to **Leads**.
 
-1. From the views drop-down, select **Leads handed over by AI Agent**.
+1. From the views drop-down, select **Leads from AI Agent**.
    > [!NOTE]
    > The agents hands over leads that [meet the handoff criteria](configure-sales-qualification-agent-handoff-criteria.md) defined by your admin. 
 1. Select a lead.

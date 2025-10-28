@@ -26,9 +26,9 @@ Open the Sales Qualification Agent settings to configure or manage the Sales Qua
 **Follow these steps**:
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.  
-1. Go to **General settings** > **Dynamics 365 AI hub**.
+1. Go to **General settings** > **Dynamics 365 AI hub**. If you have trouble finding or accessing the AI hub, it might be due to permission restrictions. Learn more in [Access Dynamics 365 AI Hub](dynamics-365-ai-hub.md)
 
-    :::image type="content" source="media/sqa-settings-home-page.png" alt-text="Screenshot of the Sales Qualification Agent settings home page.":::
+   :::image type="content" source="media/sqa-settings-home-page.png" alt-text="Screenshot of the Sales Qualification Agent settings home page.":::
 
 1. In the **Agent manager** section, select **Create and manage agent**.  
     The **AI agent** page opens.  

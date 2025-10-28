@@ -1,6 +1,6 @@
 ---
-title: Configure outbound messaging in Omnichannel for Customer Service
-description: Learn about how to configure outbound messaging in Omnichannel for Customer Service.
+title: Configure outbound messaging in Dynamics 365 Contact Center
+description: Learn about how to configure outbound messaging in Dynamics 365 Contact Center.
 ms.date: 06/27/2025
 ms.topic: how-to
 author: gandhamm
@@ -61,7 +61,7 @@ You can set up the outbound configuration in the Copilot Service admin center ap
     | Field               | Description| Sample value                       |
     |---------------------|------------|--------------------------|
     | Name                | Name of the outbound configuration| Examples:<br>**Case created** <br> **Case updated** <br> **User added**   |
-    | Show in timeline    | The **Show in timeline** field displays the outbound message in the customer's timeline and activities. Set the toggle to **Yes** for event-based messages that apply to the support journey of a specific set of customers. For bulk messages that need to be sent to a high volume of customers, we recommend that you leave this setting at **No** to conserve resources in your Omnichannel for Customer Service environment and storage.  | **Yes**                                  |
+    | Show in timeline    | The **Show in timeline** field displays the outbound message in the customer's timeline and activities. Set the toggle to **Yes** for event-based messages that apply to the support journey of a specific set of customers. For bulk messages that need to be sent to a high volume of customers, we recommend that you leave this setting at **No** to conserve resources in your Dynamics 365 Contact Center environment and storage.  | **Yes**                                  |
     | Channel type        | Name of the channel for which the configuration is being set up. | **SMS** or **WhatsApp**      |
     | Channel             | Channel number | For SMS, this setting is ***the preconfigured channel number***.<br> For WhatsApp, this setting is ***the preconfigured phone number***. |
     | Message template    | Name of the template | ***Your previously created template***   |
@@ -75,7 +75,7 @@ You can set up the outbound configuration in the Copilot Service admin center ap
 
 ## Set up a Power Automate flow
 
-Power Automate provides a low-code platform for workflow and process automation. Outbound messaging in Omnichannel for Customer Service relies on flow-based business logic. Learn more in [Power Automate documentation](/power-automate/). You can download and import the following sample flows to get started:
+Power Automate provides a low-code platform for workflow and process automation. Outbound messaging in Dynamics 365 Contact Center relies on flow-based business logic. Learn more in [Power Automate documentation](/power-automate/). You can download and import the following sample flows to get started:
 
 - [Case Creation flow - SMS](https://download.microsoft.com/download/734a7e82-366c-4ba7-8f27-ce0686889cbc/CaseCreation%20flow%20template%20.zip) (.zip file): This template sends an automatic outbound message when a case is created.
 
@@ -104,7 +104,7 @@ Power Automate provides a low-code platform for workflow and process automation.
 
  5. Initialize an *OutboundConfigurationId* variable, and then set it to the outbound message configuration ID that you generated.
 
- 6. Initialize an *ActivityRelationship* variable, and then set it to the relationship name of the entity that the activity will be linked to. For example, *incident_msdyn_ocoutboundmessages*. This action enables outbound activity tracking and reporting in Omnichannel for Customer Service.
+ 6. Initialize an *ActivityRelationship* variable, and then set it to the relationship name of the entity that the activity will be linked to. For example, *incident_msdyn_ocoutboundmessages*. This action enables outbound activity tracking and reporting in Dynamics 365 Contact Center.
  
  7. Initialize a ContactList array variable, which is used to store contact information and other parameters that the system uses to send the outbound notifications.
  8. Get the required customer contact records that contain phone numbers and other contact details, which can be used as slugs in outbound messaging.
@@ -161,7 +161,7 @@ Sample JSON for SMS:
 
  10. Add a **Perform an unbound action**, select **msdyn_InvokeOutboundAPI** as the action name, and then set the **msdyn_ocoutboundconfigurationitem/OutboundSettingsRecord/msdyn_ocoutboundconfigurationid** property to the **OutboundConfigurationId** you previously defined. Also add the output from the compose action.
 
-When the customer responds back to the outbound messages, the customer's message is treated like any other incoming conversation that exists today in Omnichannel for Customer Service. The conversation is routed and assigned to a customer service representative, who can then respond back to the customer.
+When the customer responds back to the outbound messages, the customer's message is treated like any other incoming conversation that exists today in Dynamics 365 Contact Center. The conversation is routed and assigned to a customer service representative, who can then respond back to the customer.
 
 > [!NOTE]
 > Outbound messaging imposes limits of 100 contacts per request and 30,000 requests per org per hour. Where higher loads are expected, we recommend that you implement batch processing logic in flows to limit contacts per request to 100.
@@ -180,7 +180,7 @@ Before you begin, make sure that you [migrated your templates to the Content Tem
 ### Related information
 
 [Create message templates](create-message-templates.md)<br>
-[Channels in Omnichannel for Customer Service](../use/channels.md) <br> 
+[Channels in Dynamics 365 Contact Center](../use/channels.md) <br> 
 [Configure an SMS channel for Twilio](Configure-sms-channel-twilio.md)<br>
 [SMS FAQ](faqs.md#sms)
 

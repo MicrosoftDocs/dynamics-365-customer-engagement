@@ -1,6 +1,6 @@
 ---
 title: Troubleshoot migration of records
-description: Learn to troubleshoot issues with migrating data pertaining to records enabled for unified routing from source to target environments in Omnichannel for Customer Service.
+description: Learn to troubleshoot issues with migrating data pertaining to records enabled for unified routing from source to target environments in Dynamics 365 Contact Center.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

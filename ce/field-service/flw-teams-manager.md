@@ -44,7 +44,7 @@ The Dynamics 365 Field Service app for Teams enables frontline managers to manag
 
 ## Schedule or reschedule a work order
 
-The Field Service app helps you schedule work orders. Scheduling suggestions are based on technicians' availability and skills, proximity to the customer's location, promised time windows, and the business unit.
+The Field Service app helps you schedule work orders. Scheduling suggestions are based on technicians' availability and characteristics, proximity to the customer's location, promised time windows, and the business unit.
 
 1. Open the work order you need to schedule or reschedule.
 

@@ -102,6 +102,6 @@ You can also configure the customer notifications when you're configuring the ch
 [Create chat authentication settings](create-chat-auth-settings.md)  
 [Embed chat widget in your website or portal](embed-chat-widget-portal.md)  
 [Embed chat widget in mobile experiences](../develop/render-live-chat-widget-mobile.md)  
-[Supported browsers for live chat widget](../implement/system-requirements-omnichannel.md#browsers-for-chat)  
+[Supported browsers for live chat widget](/dynamics365/contact-center/implement/system-requirements-contact-center)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -180,6 +180,6 @@ When a work item is labeled with multiple capacity profiles, the assignment stra
 ### Related information
 
 [Create workstreams](create-workstreams.md)  
-[Manage users in Omnichannel for Customer Service](users-user-profiles.md)  
+[Manage users in contact center](users-user-profiles.md)  
 [Map role personas](role-persona-mapping.md)  
 [Manage historical data of capacity updates for agents](manage-historical-data-capacity-updates.md)  

@@ -1,7 +1,7 @@
 ---
 title: Join an existing connected chat in Sales Hub
 description: Learn how to join an existing connected chat in Sales Hub.
-ms.date: 08/16/2024
+ms.date: 10/09/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -29,7 +29,7 @@ As a seller, you can view and easily join chats that are connected to a record y
     >
     > If you don't see the text that allows you to hover and join a chat, there are three possible causes:<br> - Your administrator hasn't enabled the Join chat capability for the record type.<br> - You have read-only access to the record.<br> - Both previous scenarios apply.
     >     
-    > In these cases, you will still see a list of conversations with the message "The chat is locked". In this case, you can ask a member of the chat to manually add you, or you can ask your administrator to turn on the Join chat capabilities for that record type. 
+    > In these cases, you'll still see a list of conversations with the message "The chat is locked". In this case, you can ask a member of the chat to manually add you, or you can ask your administrator to turn on the Join chat capabilities for that record type. 
 
 3. Select **Join**.
 

@@ -22,7 +22,7 @@ ms.custom:
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-The **Voice** report gives you insights into key metrics across the voice channel. Learn how to [access the report](intro-realtime-analytics-dashboard.md#access-reports). This report is available only if the voice feature is configured for your organization. Learn more in [Manage real-time analytics reports](../administer/enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service).
+The **Voice** report gives you insights into key metrics across the voice channel. Learn how to [access the report](intro-realtime-analytics-dashboard.md#access-reports). This report is available only if the voice feature is configured for your organization. Learn more in [Manage real-time analytics reports](../administer/enable-realtime-analytics-dashboard-administrator.md).
 
 You can filter this report by time, queue, time zone, conversation status, direction, and skills. Learn more in [Overview of the real-time Omnichannel analytics dashboard](intro-realtime-analytics-dashboard.md).
 

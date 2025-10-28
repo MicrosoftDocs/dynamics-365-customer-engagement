@@ -4,8 +4,8 @@ description: Learn about advanced ways of working with inspections in Dynamics 3
 ms.date: 07/15/2025
 ms.topic: how-to
 ms.custom: bap-template
-author: josephshum-msft
-ms.author: jshum
+author: jasonccohen
+ms.author: jacoh
 ---
 
 # Configure advanced options for inspections

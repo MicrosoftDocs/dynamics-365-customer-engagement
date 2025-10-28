@@ -89,7 +89,7 @@ You can bring your own carrier through Azure direct routing. This feature is sup
 
 In the geographic locations where the voice channel is generally available, Azure direct routing extends general availability support.
 
-The voice channel in Omnichannel for Customer Service doesn't support emergency calling when you use Azure direct routing.
+The voice channel in Dynamics 365 Contact Center doesn't support emergency calling when you use Azure direct routing.
 
 ## Next steps
 
@@ -98,5 +98,5 @@ The voice channel in Omnichannel for Customer Service doesn't support emergency 
 ### Related information
 
 [Overview of the voice channel](voice-channel.md)  
-[FAQ about the voice channel in Omnichannel for Customer Service](voice-channel-faqs.md)  
+[FAQ about the voice channel in Dynamics 365 Contact Center](voice-channel-faqs.md)  
 

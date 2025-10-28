@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page
   author: Soumyasd27
   ms.author: sdas
-  ms.date: 02/07/2025
+  ms.date: 10/21/2025
   ms.custom: bap-template
   hide_bc: true
 
@@ -58,9 +58,9 @@ additionalContent:
     - title: Set up 
       links:
       - url: implement/add-users-assign-roles.md
-        text: Set up roles and enable users in Omnichannel for Customer Service
+        text: Set up roles and enable users in Customer Service
       - url: implement/persona-privilege-mapping.md
-        text: Set up personas and privileges in Customer Service and Omnichannel for Customer Service
+        text: Set up personas and privileges in Customer Service
       - url: implement/customer-service-workspace-system-requirements.md
         text: System requirements for Copilot Service workspace  
   - title: Administer and develop
@@ -68,7 +68,7 @@ additionalContent:
     - title: Configure
       links:
       - url: administer/provision-unified-routing.md
-        text: Provision unified routing for Customer Service
+        text: Enable unified routing for Customer Service
       - url: administer/voice-channel-install.md
         text: Configure the voice channel
       - url: administer/define-service-level-agreements.md
@@ -76,7 +76,7 @@ additionalContent:
     - title: Develop
       links:
       - url: develop/reference/about-entity-reference.md
-        text: Omnichannel for Customer Service entity reference
+        text: Contact center entity reference
       - url: develop/omnichannel-reference.md
         text: Live chat SDK Reference
       - url: develop/develop-live-chat-widget.md
@@ -93,8 +93,8 @@ additionalContent:
         text: Customize data models of historical and real-time analytics reports
     - title: Integrate
       links: 
-      - url: administer/voice-channel-contextual-transfer-external-ivr.md
-        text: Integrate a third-party IVR system with voice channel
+      - url: administer/voice-channel-pva-bots.md
+        text: Set up IVR agents in the voice channel
       - url: administer/configure-bot-virtual-agent.md
         text: Integrate AI agents
       - url: administer/integrate-KM-with-PVA.md
@@ -168,7 +168,7 @@ additionalContent:
     - title: Get insights and analyze service operations 
       links:
       - url: use/omnichannel-analytics-insights.md
-        text: Use Omnichannel for Customer Service dashboards
+        text: Use Omnichannel dashboards
       - url: use/intro-realtime-analytics-dashboard.md
         text: Use Omnichannel real-time analytics dashboards
       - url: use/oc-metrics-dimensions.md
