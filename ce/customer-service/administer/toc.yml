@@ -614,7 +614,7 @@
         href: create-operating-hours.md
       - name: Configure and manage custom presence
         href: presence-custom-presence.md
-      - name: Enable transfer of conversations
+      - name: Enable consult and transfer
         href: enable-transfer-consult.md
       - name: Configure file attachments
         href: configure-file-attachment.md
