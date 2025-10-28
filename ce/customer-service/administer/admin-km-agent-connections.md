@@ -72,4 +72,4 @@ Once done, go to the Copilot Service admin center and enable your agent.
 
 [Overview of cloud flows](/power-automate/overview-cloud)  
 [Manage Customer Knowledge Management Agent](admin-km-agent.md)  
-[Manage Quality Evaluation Agent](/dynamics365/contact-center/administer/manage-quality-evaluation-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml)
+[Manage Quality Evaluation Agent](/dynamics365/contact-center/administer/manage-quality-evaluation-agent.md)
