@@ -97,7 +97,7 @@ When you initiate a consult, the following actions occur:
 
 - You can search for representatives to consult within the same queue or other queues. Additionally, you can filter representatives within a queue based on their skills. The application shows representatives whose skills fully or partially match the selected criteria, along with their name and current presence status. You can add multiple representatives to the consult.
 - The customer is automatically put on hold. Hold music plays for the customer.
-- If the [block consulting representative's capacity](../administer/enable-transfer-consult.md#enable-blocking-of-capacity-during-consult) setting is enabled, When the invited collaborator joins the call, they have a consult role. Consulting on a call blocks the collaborator's available capacity. You can also add multiple collaborators to the consult.
+- If the [block consulting representative's capacity](../administer/enable-transfer-consult.md#enable-blocking-of-capacity-during-consult) setting is enabled, when the invited collaborator joins the call, they have a consult role. Consulting on a call blocks the collaborator's available capacity. You can also add multiple collaborators to the consult.
 - The consulted representative presence status is set to DND-Voice consult.
 - When you have multiple participants in a consult, you can manage each participant individually as follows:
   
@@ -115,18 +115,18 @@ When you initiate a consult, the following actions occur:
 
     :::image type="content" source="../media/oc-consult-btn.png" alt-text="Image of consult icon on the call controls.":::
  
-   The **Consult** dialog appears. The **Agent**, **Teams**, and **External number** tabs are displayed.
+   The **Consult** dialog appears. The **Representatives**, **Teams**, and **External number** tabs are displayed.
 
    :::image type="content" source="../media/oc-consult-optns.png" alt-text="Screenshot of available consult options.":::
 
 1. Based on your requirement, perform one of the following steps.
 
-    - **Consult with an internal agent or supervisor**: Select **Agent**. You can either have a call or chat with an internal agent or supervisor. Select the conversation channel and then search for the representative you'd like to consult with.<br>
+    - **Consult with an internal agent or supervisor**: Select **Representatives**. You can either have a call or chat with an internal agent or supervisor. Select the conversation channel and then search for the representative you'd like to consult with.
 
     - **Consult with external PSTN number**: Select the **Number Pad**. On the number pad that appears, enter the customer's area code, phone number, and then select **Call** to make your call.
-     By default, the consultation is private. The customer is on hold while the primary representative speaks with the new participant. You can also have a public consultation, where the customer is actively involved in the conversation by taking them off hold. <br>
+     By default, the consultation is private. The customer is on hold while the primary representative speaks with the new participant. You can also have a public consultation, where the customer is actively involved in the conversation by taking them off hold.
 
-    - **Consult with Teams user**: Select **Teams** and use the search option to search for and select the Microsoft Teams user you'd like to consult with. Learn more at [Enable voice consult with Microsoft Teams users](../administer/voice-consult-microsoft-teams-user.md). If you've migrated to the enhanced voice experience, PSTN doesn't appear on the Teams tab. Enter the phone number of the Teams user directly in the external transfer tab.
+    - **Consult with Teams user**: Select **Teams** and use the search option to search for and select the Microsoft Teams user you'd like to consult with. Learn more in [Enable voice consult with Microsoft Teams users](../administer/voice-consult-microsoft-teams-user.md). If you've migrated to the enhanced voice experience, PSTN doesn't appear on the Teams tab. Enter the phone number of the Teams user directly in the external transfer tab.
 
     - **Consult, then transfer**: The primary representative who initiated the consult can transfer the call to any participant involved in the consult. To transfer a conversation to the consulting representative in the conversation, perform the following steps:
        - If the consult is with an external participant (PSTN or Teams user), select **Transfer** next to the external phone number or Teams user name at the top of the call window. If your administrator didn't enable **Use bridged transfers**, the external user receives a new call request from the customer, and the customer hears a message that they're being transferred, then the ringing sound.  If your administrator enabled **Use bridged transfers**, the current call continues between the external user and the customer, and the original representative is dropped from the call.
@@ -136,7 +136,7 @@ When you initiate a consult, the following actions occur:
 
 ### Consult to queue
 
-If [consult to queue](../administer/enable-transfer-consult.md#enable-consult-to-queue) is enabled by your administrator, then the option to consult with a queue appears on the chat window. Learn more in [Consult to queue](oc-conversation-control.md#consult-queue).
+If your administrator enabled [consult to queue](../administer/enable-transfer-consult.md#enable-consult-to-queue), the option to consult with a queue appears on the chat window when you select the consult option. Learn more in [Consult to queue](oc-conversation-control.md#consult-queue).
 
 ### Related information
 

@@ -131,9 +131,9 @@ Type /caq (forward slash, letter c, letter a, letter q) or /4 (forward slash, nu
 
 Type /cq (forward slash, letter c, letter q) or /5 (forward slash, number 5) to invoke the consult to queue action.
 
-When skill-based routing is enabled, then during the consult, the **Consult** panel shows users sorted in the order of matching skills. A check for representative skills isn't done by the app and the conversation can be consulted to any representative irrespective of the skill match.
+When skill-based routing is enabled, during the consult, the **Consult** panel shows users sorted by matched skills. The system doesn't check for representative skills and any representative can be consulted.
 
-When a conversation needs to be consulted from one queue to another, the matching criteria that were used in the conversation is reused to find a representative in the new queue. For example, if exact match was used to attach the skills to the conversation, the same criteria is used to find the representative in the new queue.
+When a conversation needs to be consulted from one queue to another, the match conditions used in the conversation are reused to find a representative in the new queue. For example, if exact match was used to attach the skills to the conversation, the same condition is used to find the representative in the new queue.
 
 ### Consult to queue
  <a name="consult-queue"></a>

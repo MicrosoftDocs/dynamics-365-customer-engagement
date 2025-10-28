@@ -17,7 +17,7 @@ By default, customer service representatives (service representatives or represe
 For advanced consult and transfer scenarios, you can enable the following settings:
 
 - **Consult to queue**: Helps the system to intelligently select the most eligible representative to consult with.
-- **Direct transfer**: Lets representatives select another representative directly without needing to initiate a consult.
+- **Direct transfer**: Lets representatives select another representative directly without initiating a consult.
 
 ## Prerequisite
 
@@ -41,7 +41,7 @@ You can enable the settings in Copilot Service admin center under **Channels** >
 
 By default, representative capacity is blocked for consult to queue sessions. But you need to explicitly block representative capacity for direct consult session.
 
-- On the **Consult and transfer** page, select the checkbox to block capacity of the representatives who are engaged in a consultation that's invoked by using the consult with representatives option on the communication panel.
+- On the **Consult and transfer** page, select the checkbox to block capacity of the representatives when they engage in a consultation using the consult with representatives option on the communication panel.
 
 ### Enable direct transfer of conversations
 
