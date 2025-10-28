@@ -1,7 +1,7 @@
 ---
 title: Bot dashboard
 description: Learn about the bot dashboard in historical analytics to better understand customer service representative performance in your organization.
-ms.date: 09/11/2025
+ms.date: 10/28/2025
 ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
@@ -20,7 +20,7 @@ In the application, you can integrate both Azure and Copilot agents to perform t
 
 Based on your administrator's configuration of the **Add historical analytics for bots** option in the Copilot Service admin center, the dashboard is as follows:
 - **Enabled**: Indicates that your organization only has Copilot agents configured and the dashboard is specific to them. Additional metrics, charts, and KPIs that are applicable only to Copilot agents are displayed.
-- **Disabled**: Indicates that your organization has both Azure and Copilot agents configured. The dashboard displays you metrics, KPIs, and charts that are common to both. 
+- **Disabled**: Indicates that your organization has both Azure and Copilot agents configured. The dashboard shows you metrics, KPIs, and charts that are common to both. 
 
 ## Prerequisites
 
@@ -153,6 +153,14 @@ Based on your administrator's configuration of the **Add historical analytics fo
    > [!div class="mx-imgBorder"]
    > ![Screenshot of bot transcripts.](../media/oc-transcripts.png "Bot transcript") 
 
+
+### Metrics by Last Session Outcome
+
+You can now view comprehensive insights into AI agent conversations by tracking outcomes and reasons for both voice and chat interactions. This enables stakeholders to identify failure points, assess escalation processes, and make data-driven decisions to enhance customer experience and operational efficiency. Each conversation with a Copilot Studio Agent can span multiple sessions, and the last session’s outcome and reason provide the overall interaction result, applicable to both chat and voice. 
+
+The **Metrics by Last Session Outcome** catgorizes session outcomes such as **Abandoned**, **HandOff**, and **Resolved**, with outcome reasons like **SystemError**, **UserError**, **Resolved**, **UserExit**, and various **AgentTransfer** causes. The section displays conversation endings based on these last session outcomes, and groups **System** and **User Errors** as failures, and categorizes agent transfers by user request, maximum attempts, or business rules.
+
+:::image type="content" source="../media/metrics-by-last session-outcome.png" alt-text="Screenshot for metrics by last session outcome." lightbox="../media/metrics-by-last session-outcome.png":::
 
  ### Customize bot dashboard
 
