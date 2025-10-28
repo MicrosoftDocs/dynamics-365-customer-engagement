@@ -21,7 +21,7 @@ In this tutorial, we demonstrate how to build a  *Hello World!* communication wi
 - A valid Microsoft Azure subscription is required to publish the sample app to Azure.
 
 > [!NOTE]
-> If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/).
+> If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
  
 ## Create a *Hello World!* application
 
