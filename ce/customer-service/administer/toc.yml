@@ -492,6 +492,8 @@
         href: /dynamics365/contact-center/administer/autonomous-agents-overview?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Manage consumption-based billing, capacity
         href: setup-pay-as-you-go.md
+      - name: Configure connection references
+        href: admin-km-agent-connections.md
       - name: Customer Intent Agent (preview)
         items:
         - name: Overview of Customer Intent Agent
@@ -503,7 +505,7 @@
         - name: Enable intent-based suggestions for service representatives
           href: /dynamics365/contact-center/administer/enable-intent-for-service-reps?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
         - name: Configure intent-based suggestions for Copilot agents
-          href: /dynamics365/contact-center/administer/set-up-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.ym
+          href: /dynamics365/contact-center/administer/set-up-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Case Management Agent (preview)
         items: 
           - name: Configure global settings for Case Management Agent
@@ -518,8 +520,10 @@
         items:
         - name: Manage Customer Knowledge Management Agent
           href: admin-km-agent.md
-        - name: Configure connection references
-          href: admin-km-agent-connections.md
+      - name: Quality Evaluation Agent
+        items:
+        - name: Manage Quality Evaluation Agent
+          href: /dynamics365/contact-center/administer/manage-quality-evaluation-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
     - name: Chat
       items:
       - name: Introduction to the chat channel
