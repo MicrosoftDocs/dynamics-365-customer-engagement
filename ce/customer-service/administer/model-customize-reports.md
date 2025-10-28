@@ -77,7 +77,7 @@ Power BI lets you grant permissions to groups only, not individual service princ
 
 ### Enable Power BI service features from the Microsoft Fabric Admin portal
 
-The Power BI administrator must enable the following, either for the entire organization or for the security group created earlier. Learn more in [Microsoft Fabric tenant settings](/fabric/admin/service-admin-portal-microsoft-fabric-tenant-settings?branch=main).
+The Power BI administrator must enable the following features, either for the entire organization or for the security group created earlier. Learn more in [Microsoft Fabric tenant settings](/fabric/admin/service-admin-portal-microsoft-fabric-tenant-settings?branch=main).
 
   1. In **Workspace settings**, enable [**Create workspace (new workspace experience)**](/fabric/admin/portal-workspace#create-workspaces): Enabling this feature creates two workspaces, a managed workspace and a customer workspace to deploy Dynamics data model and reports.
 
