@@ -49,7 +49,9 @@ By default, both purposes are set to be non-restrictive, meaning that emails can
  
 ## Set up consent management for your organization
 
-You can create your own compliance profile so that you can define the purpose for collecting and processing data and add topics that match your organization’s communication categories. You can also customize the Preference Center form&mdash;shown when users select **Unsubscribe**&mdash;to reflect your brand and give customers clear options to manage their preferences. The following considerations apply when setting up consent management in Dynamics 365 Sales:
+You can create your own compliance profile so that you can define the purpose for collecting and processing data and add topics that match your organization’s communication categories. You can also customize the Preference Center form&mdash;shown when users select **Unsubscribe**&mdash;to reflect your brand and give customers clear options to manage their preferences. 
+
+The following considerations apply when setting up consent management in Dynamics 365 Sales:
 
 - Consent is captured and stored at the contact point level. A contact point is the destination for a message, such as an email address or phone number. Each contact point can have its own consent status for different purposes. Dynamics 365 Sales currently supports email contact points only.
 
