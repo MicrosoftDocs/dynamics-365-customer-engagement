@@ -4,8 +4,8 @@ description: Get answers to common questions about the AI technology used to cre
 ms.date: 04/09/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
-author: josephshum-msft
-ms.author: jshum
+author: jasonccohen
+ms.author: jacoh
 ms.custom: 
   - responsible-ai-faqs
 ms.collection: bap-ai-copilot 
