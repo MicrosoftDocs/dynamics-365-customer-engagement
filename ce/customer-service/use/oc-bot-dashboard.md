@@ -158,7 +158,13 @@ Based on your administrator's configuration of the **Add historical analytics fo
 
 You can now view comprehensive insights into AI agent conversations by tracking outcomes and reasons for both voice and chat interactions. This enables stakeholders to identify failure points, assess escalation processes, and make data-driven decisions to enhance customer experience and operational efficiency. Each conversation with a Copilot Studio Agent can span multiple sessions, and the last session’s outcome and reason provide the overall interaction result, applicable to both chat and voice. 
 
-The **Metrics by Last Session Outcome** catgorizes session outcomes such as **Abandoned**, **HandOff**, and **Resolved**, with outcome reasons like **SystemError**, **UserError**, **Resolved**, **UserExit**, and various **AgentTransfer** causes. The section displays conversation endings based on these last session outcomes, and groups **System** and **User Errors** as failures, and categorizes agent transfers by user request, maximum attempts, or business rules.
+The **Metrics by Last Session Outcome** catgorizes session outcomes such as **Abandoned**, **HandOff**, and **Resolved**, with outcome reasons like **SystemError**, **UserError**, **Resolved**, **UserExit**, and various **AgentTransfer** causes, such as **AgentTransferRequestedByUser**, **AgentTransferFromQuestionMaxAttempts**, and **AgentTransferConfiguredByAuthor**.
+
+The section shows how conversations ended, grouped into categories:
+- SystemError and UserError → **Failure**
+- AgentTransferRequestedByUser → **Requested by User**
+- AgentTransferFromQuestionMaxAttempts → **Max Attempts**
+- AgentTransferConfiguredByAuthor → **Business Rule**
 
 :::image type="content" source="../media/metrics-by-last session-outcome.png" alt-text="Screenshot for metrics by last session outcome." lightbox="../media/metrics-by-last session-outcome.png":::
 
