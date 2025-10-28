@@ -61,11 +61,9 @@ Representatives can configure the inbox to show their consult sessions. The inbo
 
 ## Runtime experience
 
-When you enable the consult to queue setting, your service representatives can see the **Queue** tab on the communication panel. 
+When you enable the consult to queue setting, your service representatives can see the **Queue** tab on the communication panel.
 
 Similarly, when you enable the direct transfer setting, the **Representatives** tab appears. The tab also appears when the representative wants to transfer conversations to another representative after engaging in a consultation with them.
-
-If the representative refreshes the browser, the consult session isn't reestablished. However, based on the consult type or block capacity setting, the representative capacity continues to be blocked.
 
 The representative capacity is released in the following scenarios:
 

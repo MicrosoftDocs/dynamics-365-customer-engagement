@@ -92,19 +92,6 @@ If your administrator configured the reconnection link, you can share the link w
 
 You can consult with other representatives or supervisors by using the consult option. You can invite the representative or supervisor by selecting the **Consult** button in the communication panel and choosing from the list of available representatives.
 
-### Consult to queue
- <a name="consult-queue"></a>
-When you enable [Consult to queue](../administer/enable-transfer-consult.md),
-
-- The **Queue** tab appears on the communication panel.
-
-- After you select the queue, a timer and option to cancel the consultation appear. The unified routing engine tries to find the best representative to consult with.
-- The system tries to match a representative until the time-out period set by the administrator.
-- If the consult request times out, a message is displayed to the representative that no representatives are available.
-- If the selected representative rejects the consult request or request times out, the consult request ends, and the representative can initiate a fresh request.
-- Irrespective of the work distribution mode, the consult is always pushed to the representative.
-- Consult to queue always blocks capacity of the representative.
-
 ### Default consult experience
 
 - If you enable block capacity for consult, the system blocks the capacity of all the consulted representatives for the consulted conversation that you invoke by using the consult with representatives option on the communication panel.
@@ -126,6 +113,7 @@ The following events are common to all consult experiences:
 - The secondary representative sees a consultation window on the page with an option to leave. They also have a read-only view of the messages exchanged between the primary representative and customer. Consulting on a chat conversation doesn't affect the secondary representative's capacity.
 
 - The primary representative can add the secondary representative to the customer conversation by selecting the people icon. The secondary representative can join the customer conversation only after the primary representative selects to add the representative.
+- If the representative refreshes the browser, the consult session isn't reestablished. However, based on the consult type or block capacity setting, the representative capacity continues to be blocked.
 
 Additionally, the following considerations apply:
 
@@ -146,6 +134,19 @@ Type /cq (forward slash, letter c, letter q) or /5 (forward slash, number 5) to 
 When skill-based routing is enabled, then during the consult, the **Consult** panel shows users sorted in the order of matching skills. A check for representative skills isn't done by the app and the conversation can be consulted to any representative irrespective of the skill match.
 
 When a conversation needs to be consulted from one queue to another, the matching criteria that were used in the conversation is reused to find a representative in the new queue. For example, if exact match was used to attach the skills to the conversation, the same criteria is used to find the representative in the new queue.
+
+### Consult to queue
+ <a name="consult-queue"></a>
+When you enable [Consult to queue](../administer/enable-transfer-consult.md),
+
+- The **Queue** tab appears on the communication panel.
+
+- After you select the queue, a timer and option to cancel the consultation appear. The unified routing engine tries to find the best representative to consult with.
+- The system tries to match a representative until the time-out period set by the administrator.
+- If the consult request times out, a message is displayed to the representative that no representatives are available.
+- If the selected representative rejects the consult request or request times out, the consult request ends, and the representative can initiate a fresh request.
+- Irrespective of the work distribution mode, the consult is always pushed to the representative.
+- Consult to queue always blocks capacity of the representative.
 
 ## Transfer conversations
 
