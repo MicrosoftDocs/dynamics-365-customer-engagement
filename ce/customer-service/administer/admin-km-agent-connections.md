@@ -54,7 +54,7 @@ Learn more in [Add connection references to a solution.](/power-apps/maker/data-
 
 In [Power Automate](https://powerautomate.microsoft.com), search for your flow, for example, **Knowledge Harvest Trigger Flow V2** in **Cloud flows**, and turn it on. Learn more in [Power Automate](/power-automate/overview-cloud#find-your-flows-easily).
 
-Aternatively, in [make.powerapps.com](https://make.powerapps.com) from **Solutions** > **Default Solution** > **Objects** > **Cloud flows**, select your flow, and then select **Turn on**.
+Alternatively, in [make.powerapps.com](https://make.powerapps.com) from **Solutions** > **Default Solution** > **Objects** > **Cloud flows**, select your flow, and then select **Turn on**.
 
 ## Publish the Microsoft Copilot Studio agent
 
