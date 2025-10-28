@@ -34,7 +34,7 @@ To test your microphone and speaker, follow these steps:
    > [!NOTE]
    > - You can set a secondary ringer only if you have multiple devices connected to your system.
    > - If the device set as a secondary ringer is disconnected, incoming call notifications aren't extended.
-   > - If the secondary ringer is unavailable, like when your laptop is out of range for your headset's bluetooth connection), the application removes the secondary ringer. You must reconfigure the secondary ringer after you reconnect the device.
+   > - If the secondary ringer is unavailable, like when your laptop is out of range for your headset's bluetooth connection, the application removes the secondary ringer. You must reconfigure the secondary ringer after you reconnect the device.
 
 1. Select the following options:
     
