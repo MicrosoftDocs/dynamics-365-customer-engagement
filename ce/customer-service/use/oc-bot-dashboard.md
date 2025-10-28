@@ -61,7 +61,22 @@ Based on your administrator's configuration of the **Add historical analytics fo
  | Engagement over time | A graphical view of the number of engaged and unengaged bot sessions over time. An engaged session is a session in which a user-created topic is triggered or the session ends in escalation. |
  |Session outcomes over time | A graphical view of the daily resolution rate, escalation rate, and abandon rate over the specified time period. | 
 
- ### Metrics by bot 
+### Metrics by Last Session Outcome
+
+You can now view comprehensive insights into AI agent conversations by tracking outcomes and reasons for both voice and chat interactions. This enables stakeholders to identify failure points, assess escalation processes, and make data-driven decisions to enhance customer experience and operational efficiency. Each conversation with a Copilot Studio Agent can span multiple sessions, and the last session’s outcome and reason provide the overall interaction result, applicable to both chat and voice. 
+
+The **Metrics by Last Session Outcome** catgorizes session outcomes such as **Abandoned**, **HandOff**, and **Resolved**, with outcome reasons like **SystemError**, **UserError**, **Resolved**, **UserExit**, and various **AgentTransfer** causes, such as **AgentTransferRequestedByUser**, **AgentTransferFromQuestionMaxAttempts**, and **AgentTransferConfiguredByAuthor**.
+
+The section shows how conversations ended, grouped into categories:
+- SystemError and UserError → **Failure**
+- AgentTransferRequestedByUser → **Requested by User**
+- AgentTransferFromQuestionMaxAttempts → **Max Attempts**
+- AgentTransferConfiguredByAuthor → **Business Rule**
+
+:::image type="content" source="../media/metrics-by-last session-outcome.png" alt-text="Screenshot for metrics by last session outcome." lightbox="../media/metrics-by-last session-outcome.png"::: 
+
+
+### Metrics by bot 
 
  The **Metrics by bot** section displays a comprehensive set of analytics that show you the key performance indicators. You can also view the trends and usage for your AI agent's topics at a granular level, highlighting the topics that have the greatest impact on your AI agent's performance.
 
@@ -152,21 +167,6 @@ Based on your administrator's configuration of the **Add historical analytics fo
    You can also view and download up to seven days of bot conversation transcript sessions from the past 30 days.
    > [!div class="mx-imgBorder"]
    > ![Screenshot of bot transcripts.](../media/oc-transcripts.png "Bot transcript") 
-
-
-### Metrics by Last Session Outcome
-
-You can now view comprehensive insights into AI agent conversations by tracking outcomes and reasons for both voice and chat interactions. This enables stakeholders to identify failure points, assess escalation processes, and make data-driven decisions to enhance customer experience and operational efficiency. Each conversation with a Copilot Studio Agent can span multiple sessions, and the last session’s outcome and reason provide the overall interaction result, applicable to both chat and voice. 
-
-The **Metrics by Last Session Outcome** catgorizes session outcomes such as **Abandoned**, **HandOff**, and **Resolved**, with outcome reasons like **SystemError**, **UserError**, **Resolved**, **UserExit**, and various **AgentTransfer** causes, such as **AgentTransferRequestedByUser**, **AgentTransferFromQuestionMaxAttempts**, and **AgentTransferConfiguredByAuthor**.
-
-The section shows how conversations ended, grouped into categories:
-- SystemError and UserError → **Failure**
-- AgentTransferRequestedByUser → **Requested by User**
-- AgentTransferFromQuestionMaxAttempts → **Max Attempts**
-- AgentTransferConfiguredByAuthor → **Business Rule**
-
-:::image type="content" source="../media/metrics-by-last session-outcome.png" alt-text="Screenshot for metrics by last session outcome." lightbox="../media/metrics-by-last session-outcome.png":::
 
  ### Customize bot dashboard
 
