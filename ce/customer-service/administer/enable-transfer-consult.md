@@ -57,7 +57,7 @@ Representatives can configure the inbox to show their consult sessions. The inbo
 1. Create a view by using the **Advanced** option in [Configure custom views for the inbox](configure-inbox.md#configure-custom-views-for-the-inbox).
 1. Use the conditions shown in the following screenshot to configure the view.
 
-   :::image type="content" source="../media/configure-consults-inbox-view.png" alt-text="Screenshot of the conditions builder to view consult sessions in inbox.":::
+   :::image type="content" source="../media/configure-consult-inbox-view.png" alt-text="Screenshot of the conditions builder to view consult sessions in inbox.":::
 
 ## Runtime experience
 
