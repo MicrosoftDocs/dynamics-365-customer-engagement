@@ -41,7 +41,7 @@ Open the Sales Close Agent settings to configure or manage the Sales Close Agent
     > [!NOTE]
     > The option to create a new agent will be inactive, if an agent is already configured in your organization. At any given time, only one agent can be active per organization.  
 
-        :::image type="content" source="media/sca-choose-scenario-transactional-deals.png" alt-text="Screenshot of the Sales Close Agent scenario selection.":::  
+    :::image type="content" source="media/sca-choose-scenario-transactional-deals.png" alt-text="Screenshot of the Sales Close Agent scenario selection.":::  
 
 1. To edit or deactivate the agent, in the **AI agents** page, select the agent name.  
 

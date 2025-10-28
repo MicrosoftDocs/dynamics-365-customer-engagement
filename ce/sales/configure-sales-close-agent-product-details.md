@@ -47,9 +47,9 @@ Before you enter or configure the products, review the following best practices:
     The agent uses this information only for initial outreach and not for answering detailed product questions. For further communications related to products, the agent uses [knowledge sources]().  
 1. In the **What should we use to search your product knowledge?** section, select up to three fields for which the agent uses to match and retrieve relevant knowledge sources such as product documentation, specs, or manuals during conversations with customers. Ensure that you have proper knowledge inputs in the [knowledge sources]() section.  
     For example, if you configure **Product**, **Product ID**, and **Product Type**, the agent performs search by:  
-        - Matching the product name in knowledge sources such as **Surface Laptop 6** in a spec sheet.  
-        - Precise matching of product ID with multiple variants exists such as **SL6-512GB-PLAT**.  
-        - Using the product type for category-level documents such as laptop guides or comparison charts.  
+    - Matching the product name in knowledge sources such as **Surface Laptop 6** in a spec sheet.  
+    - Precise matching of product ID with multiple variants exists such as **SL6-512GB-PLAT**.  
+    - Using the product type for category-level documents such as laptop guides or comparison charts.  
 1. In the **Where do you store customer friendly product name?** section, select the field name in which you store the customer friendly product name for agent to use in email communications.  
 
 ## Quickly create product records
@@ -63,7 +63,9 @@ Follow these steps to quickly create product records:
     This information is essential for agents to determine precise pricing, link to purchase pages, and identify products during conversations.  
     >[!NOTE]
     >You can only add up to 10 products to the agent.  
+
     :::image type="content" source="media/sca-general-products-settings-page-create-product-records.png" alt-text="Screenshot of the Sales Close Agent create product records dialog box.":::  
+
 1. Select **Add** and repeat the previous step to add more products.  
     :::image type="content" source="media/sca-general-products-settings-page-product-records-added.png" alt-text="Screenshot of the Sales Close Agent product records added.":::  
 1. Select **Create**.  

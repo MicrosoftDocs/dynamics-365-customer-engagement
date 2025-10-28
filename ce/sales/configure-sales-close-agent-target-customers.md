@@ -45,10 +45,10 @@ Read the [create and activate a segment](wa-create-and-activate-a-segment.md#cre
     | Opportunity |  |  
 
     To add more conditions, select **Add** and then use the following options to build the conditions of the segment:  
-        - **Add row**: Add condition. Select an attribute, an operator, and a value; for example, Created by Equals John Thomas.  
-            Add more conditions as needed, for a total of 10, to further filter the records that should be assigned to the segment.  
-        - **Add group**: Add a group of conditions to filter records using multiple attributes that are combined by **And** or **Or**. If you select **And**, leads must meet all the conditions in the group. If you select **Or**, leads can meet any condition in the group.  
-        - **Add related entity**: Add a condition that's based on the attributes of related tables. Select an attribute in the **Related Entity** list, then select **Contains data** or **Does not contain data**, and then define the condition.  
+    - **Add row**: Add condition. Select an attribute, an operator, and a value; for example, Created by Equals John Thomas.  
+        Add more conditions as needed, for a total of 10, to further filter the records that should be assigned to the segment.  
+    - **Add group**: Add a group of conditions to filter records using multiple attributes that are combined by **And** or **Or**. If you select **And**, leads must meet all the conditions in the group. If you select **Or**, leads can meet any condition in the group.  
+    - **Add related entity**: Add a condition that's based on the attributes of related tables. Select an attribute in the **Related Entity** list, then select **Contains data** or **Does not contain data**, and then define the condition.  
 1. (Optional) When you've finished defining the conditions, select **Preview** to view a list of records that satisfy the conditions.
 
 ## Next step
