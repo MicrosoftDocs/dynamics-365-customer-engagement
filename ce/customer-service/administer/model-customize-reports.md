@@ -117,7 +117,7 @@ The specified workspace applies only to the customer's workspace. Microsoft crea
 ## Step 2: Provision the data models
 
 > [!NOTE]
-> For successful provisioning of the data models, make sure that you have [created a Microsoft Entra ID security group](#create-a-microsoft-entra-id-security-group) and added **Dynamics 365 Analytics** service account as a member of this security group.
+> For successful provisioning of the data models, make sure that you  [created a Microsoft Entra ID security group](#create-a-microsoft-entra-id-security-group) and added **Dynamics 365 Analytics** service account as a member of this security group.
 
 It could take up to 24 hours for the provisioning to complete. You can leave the **Settings** page and check back after a few hours. Select **Refresh** to check the provisioning status.
 
