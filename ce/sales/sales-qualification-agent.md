@@ -24,7 +24,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Sales teams often struggle to keep up with the volume of inbound leads from websites, events, and webinars, leading to missed opportunities and idle leads in CRM. Sales Qualification Agent in Dynamics 365 Sales is an agent that automate manual lead qualification. It helps you qualify leads faster and more effectively, so you can spend more time interacting with top leads. The agent doesn't replace your judgment or decision-making process
+Sales teams often struggle to keep up with the volume of inbound leads from websites, events, and webinars, leading to missed opportunities and idle leads in CRM. Sales Qualification Agent in Dynamics 365 Sales is an AI agent that automates lead qualification. It helps you qualify leads faster and more effectively, so you can spend more time interacting with your top leads. The agent doesn't replace your judgment or decision-making process.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
