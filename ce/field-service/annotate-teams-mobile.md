@@ -1,10 +1,10 @@
 ---
 title: Use spatial annotations in Teams
 description: Use Microsoft Teams to annotate in a Dynamics 365 Field Service environment.
-author:  prashantyvr
 ms.date: 08/22/2025
 ms.topic: how-to
-ms.author: prashan
+author: lmasieri
+ms.author: lmasieri
 ms.reviewer: v-wendysmith
 ms.custom: bap-template
 ---

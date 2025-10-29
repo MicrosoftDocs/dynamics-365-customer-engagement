@@ -3,8 +3,8 @@ title: Collaborate in mixed reality with Field Service and Remote Assist
 description: Learn how to collaborate in mixed reality by integrating Dynamics 365 Field Service with Dynamics 365 Remote Assist.
 ms.date: 03/24/2025
 ms.topic: how-to
-author: josephshum-msft
-ms.author: jshum
+author: lmasieri
+ms.author: lmasieri
 ---
 
 # Collaborate in mixed reality with Field Service and Remote Assist
