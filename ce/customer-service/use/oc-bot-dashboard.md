@@ -41,15 +41,23 @@ Based on your administrator's configuration of the **Add historical analytics fo
 
   :::image type="content" source="../media/oc-bot-KPI.png" alt-text="Screenshot showing the Copilot Studio bot dashboard KPIs.":::
 
+ Conversation based metrics:
+
  | KPI | Description |
  | ------- | ------------------ |
  | Total bot conversations |The total number of customer-initiated interactions with a bot, including those fully managed by the bot as well as those escalated to a service representative.|
  | Bot escalation rate | The percentage of AI agent conversations escalated by the AI agent to a service representative or an external phone number. |
- | Total bot sessions |  The total number of Copilot Studio sessions initiated during the selected time period. A session starts when the AI agent is triggered for a specific topic, and a single conversation may include multiple sessions if the user engages on different topics.  For example, if a customer uses the same agent for both a return and an exchange, each handled as separate topics and routed to the End of Conversation, then this counts as two sessions within one conversation. A session is considered resolved when the End of Conversation topic is triggered. |
- | Bot engagement rate |  The percentage of Copilot Studio sessions that are in an engaged state. A session is considered engaged if any of the following conditions are met:<ul><li>A non-system topic is triggered</li><li>The session is escalated</li><li>The fallback topic is triggered</li><li>A conversational boosting topic is triggered</li></ul> Learn more in [analyze agent performance and usage](/microsoft-copilot-studio/analytics-summary).|
- | Bot resolution rate | The percentage of resolved Copilot Studio sessions. A session is considered resolved when the End of Conversation topic is triggered and the user either confirms resolution, session is timed out, or the Confirmed Success topic is triggered during the session. |
- | Bot abandon rate  | The percentage of engaged Copilot Studio sessions that are abandoned. A session is considered abandoned if it times out without reaching a resolved or escalated state. |
- | Bot CSAT | The graphical view of the average Customer Satisfaction (CSAT) score from users who responded to a survey after a bot session. If this metric is blank, it indicates that AI agents aren't set up to request feedback through surveys. |
+| Bot deflection rate| The percentage of AI agent conversations deflected by the AI agent.|
+
+Copilt Studio based session metrics:
+
+ | KPI | Description |
+ | ------- | ------------------ |
+ | Total bot sessions |  The total number of Copilot Studio sessions initiated during the selected time period. A session starts when the AI agent is triggered for a specific topic, and a single conversation may include multiple sessions if the user engages on different topics. A session ends when any of these conditions occur: <ul><li>The user explicitly ends the chat.</li><li>There is no activity for 30 minutes (inactivity timeout). </li><li>The session exceeds 60 minutes in duration — the next message starts a new session.</li><li>The conversation reaches more than 100 turns (a turn = one exchange between user and bot). The 101st turn starts a new session.<br> For example, if a customer uses the same agent for both a return and an exchange, each handled as separate topics and routed to the End of Conversation, then this counts as two sessions within one conversation. Learn more in [Manage sessions and capacity](/microsoft-copilot-studio/requirements-sessions-management).|
+ | Bot engagement rate |  The percentage of Copilot Studio sessions that are in an engaged state over all Copilot Sessions. A session is considered engaged if any of the following conditions are met:<ul><li>A non-system topic is triggered</li><li>The session is escalated</li><li>The fallback topic is triggered</li><li>A conversational boosting topic is triggered</li></ul> Learn more in [analyze agent performance and usage](/microsoft-copilot-studio/analytics-summary).|
+ | Bot resolution rate | The percentage of resolved Copilot Studio sessions over all Copilot Sessions. A session is considered resolved when the End of Conversation topic is triggered and the user either confirms resolution, session is timed out, or the Confirmed Success topic is triggered during the session. |
+ | Bot abandon rate  | The percentage of engaged Copilot Studio sessions that are abandoned over all Copilot Sessions. A session is considered abandoned if it times out without reaching a resolved or escalated state. |
+ | Bot CSAT | The graphical view of the average Customer Satisfaction (CSAT) score from users who responded to a survey after a bot session. If this metric is blank, it indicates that AI agents aren't set up to request feedback through surveys after conversation ends. |
 
  The following table shows the bot KPI chart metrics.
 
@@ -57,13 +65,13 @@ Based on your administrator's configuration of the **Add historical analytics fo
 
  | Title | Description |
  | --------------- | ----------------- |
- | Total conversations | A graphical view of the total number of AI agent conversations with the number of escalated and deflected conversations over time. |
- | Engagement over time | A graphical view of the number of engaged and unengaged bot sessions over time. An engaged session is a session in which a user-created topic is triggered or the session ends in escalation. |
- |Session outcomes over time | A graphical view of the daily resolution rate, escalation rate, and abandon rate over the specified time period. | 
+ | Total bot conversations over time | A graphical view of the total number of AI agent conversations with the number of escalated and deflected conversations over time. |
+ | Bot session engagement rate over time | A graphical view of the number of engaged and unengaged bot sessions over time. An engaged session is a session in which a user-created topic is triggered or the session ends in escalation. |
+ |Bot session outcomes over time | A graphical view of the daily resolution rate, escalation rate, and abandon rate over the specified time period. | 
 
-### Metrics by Last Session Outcome
+### Conversation Outcome Metrics
 
-A conversation is an interaction between a user and a Copilot Studio bot, generating one omnichannel session that may include multiple internal sessions. Each session records its outcome and reason. For overall conversation metrics in chat or voice, the outcome and reason from the final session are used.
+A conversation is an interaction between a user and a Copilot Studio bot, generating one omnichannel session that may include multiple internal Copilot Studio sessions. Each Copilot Studio session records its outcome and reason for outcome. The "lastSessionOutcome" and "lastSessionOutcomeReason" tags generated by the Copilot Studio conversationtranscript logs are used to show the conversation level outcome and outcome reasons. 
 
 :::image type="content" source="../media/metrics-by-last session-outcome.png" alt-text="Screenshot for metrics by last session outcome." lightbox="../media/metrics-by-last session-outcome.png"::: 
 
@@ -120,7 +128,7 @@ The section shows how conversations ended, grouped into categories:
  | --------------- | --------------- |
  | Total conversations | The number of conversations initiated by the customer and engaged by an AI agent. |
  | Conversations escalated | The total number of conversations that were escalated to a service representative or an external number. |
- | Bot escalation rate | The percentage of conversations that were escalated by an AI agent to a service representative.|
+ | Bot escalation rate | The percentage of AI agent conversations escalated by the AI agent to a service representative or an external phone number over the total number of bot conversations. |
  | Avg. escalation time (min) | The average time, in minutes, that a customer interacts with an AI agent before the conversation is escalated to a service representative or an external number. | 
  | Conversations deflected| The total number of conversations that were resolved by the AI agent without having to escalate it to a service representative. |
  | Bot deflection rate | The percentage of conversations that were closed by interacting with an AI agent, out of all conversations engaged by the same agent. |
