@@ -2,7 +2,7 @@
 title: Configure Power Platform Admin Center Copilot settings (preview)
 description: Learn how to configure the Power Platform Admin Center Copilot settings for Dynamics 365 Sales.
 ms.date: 10/29/2025
-ms.topic: overview
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
