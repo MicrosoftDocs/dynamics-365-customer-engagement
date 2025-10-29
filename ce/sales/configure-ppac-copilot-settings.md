@@ -5,7 +5,7 @@ ms.date: 10/29/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: lavanyakr
+ms.reviewer: puneet-singh1
 ---
 
 # Configure Power Platform Admin Center Copilot settings (preview)
