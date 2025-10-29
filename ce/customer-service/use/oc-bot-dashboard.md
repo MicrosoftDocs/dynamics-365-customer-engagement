@@ -42,7 +42,6 @@ Based on your administrator's configuration of the **Add historical analytics fo
   :::image type="content" source="../media/oc-bot-KPI.png" alt-text="Screenshot showing the Copilot Studio bot dashboard KPIs.":::
 
  Conversation based metrics:
-
  | KPI | Description |
  | ------- | ------------------ |
  | Total bot conversations |The total number of customer-initiated interactions with a bot, including those fully managed by the bot as well as those escalated to a service representative.|
@@ -50,7 +49,6 @@ Based on your administrator's configuration of the **Add historical analytics fo
 | Bot deflection rate| The percentage of AI agent conversations deflected by the AI agent.|
 
 Copilt Studio based session metrics:
-
  | KPI | Description |
  | ------- | ------------------ |
  | Total bot sessions |  The total number of Copilot Studio sessions initiated during the selected time period. A session starts when the AI agent is triggered for a specific topic, and a single conversation may include multiple sessions if the user engages on different topics. A session ends when any of these conditions occur: <ul><li>The user explicitly ends the chat.</li><li>There is no activity for 30 minutes (inactivity timeout). </li><li>The session exceeds 60 minutes in duration — the next message starts a new session.</li><li>The conversation reaches more than 100 turns (a turn = one exchange between user and bot). The 101st turn starts a new session.<br> For example, if a customer uses the same agent for both a return and an exchange, each handled as separate topics and routed to the End of Conversation, then this counts as two sessions within one conversation. Learn more in [Manage sessions and capacity](/microsoft-copilot-studio/requirements-sessions-management).|
