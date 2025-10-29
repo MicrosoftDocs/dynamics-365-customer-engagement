@@ -94,7 +94,7 @@ The most common attributes that distinguish resources are characteristics, terri
 
 Characteristics represent a resource's skills and certifications. For example, a specific skill like a CPR certification; more general, like accounting or web development experience; or as simple as security clearance for a specific building.
 
-A resource can have multiple characteristics. [Create the characteristic](set-up-characteristics.md), map it to a resource, and provide a rating level.
+A resource can have multiple characteristics. [Create the characteristic](set-up-characteristics.md), map it to a resource, and provide a proficiency model.
   
 1. Open a resource record and select **Related** > **Resource Characteristics**.  
   
@@ -102,7 +102,7 @@ A resource can have multiple characteristics. [Create the characteristic](set-up
   
 1. Select a **Characteristic** from the lookup.
 
-1. (Optional) Select a **Rating Value** for characteristic rating. Depending on the [rating model of the characteristic](set-up-characteristics.md#create-a-rating-model), it could be a 1-to-10 rating, or even represent the score on a certification exam.
+1. (Optional) Select a **Rating Value** for characteristic rating. Depending on the [proficiency model of the characteristic](set-up-characteristics.md#create-a-proficiency-model), it could be a 1-to-10 rating, or even represent the score on a certification exam.
 
 1. Select **Save and Close**.
 

@@ -8,8 +8,8 @@ ms.custom:
   - ai-gen-docs-bap
   - bap-template
 ms.topic: faq
-author: anilmur
-ms.author: anilmur
+author: andrewclear-ms
+ms.author: anclear
 ms.reviewer: mhart
 ms.collection: bap-ai-copilot 
 ---
