@@ -83,7 +83,7 @@ An **Engaged** session **Outcome** is categorized as:
   - **AgentTransferFromQuestionMaxAttempts**
   - **AgentTransferConfiguredByAuthor**. 
   
-- **Unengaged**: Sessions start in an unengaged state and stay unengaged until user input is provided or the session enters custom or escalate topic modes. For unengaged sessions, the **Outcome** is  set to **None** and **OutcomeReason** is **NoError**.
+**Unengaged**: Sessions start in an unengaged state and stay unengaged until user input is provided or the session enters custom or escalate topic modes. For unengaged sessions, the **Outcome** is set to **None** and **OutcomeReason** is **NoError**.
 
 The section shows how conversations ended, grouped into categories:
 - SystemError and UserError → **Failure**
