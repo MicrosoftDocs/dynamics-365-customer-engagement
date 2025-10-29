@@ -33,7 +33,7 @@ Based on your administrator's configuration of the **Add historical analytics fo
 
  The bot dashboard displays metrics specific to Copilot agents only if Copilot agents are integrated with Omnichannel for Customer Service and the **Add historical analytics for bots** checkbox in Copilot Service admin center is enabled.
 
-  :::image type="content" source="../media/oc-bot-session-dashboard.png" alt-text="Screenshot showing the Omnichannel bot dashboard.":::
+  :::image type="content" source="../media/oc-bot-session-dashboard.png" alt-text="Screenshot showing the Omnichannel bot dashboard." lightbox="../media/oc-bot-session-dashboard.png":::
 
   ### Report details
 
@@ -65,7 +65,7 @@ Based on your administrator's configuration of the **Add historical analytics fo
 
 A conversation is an interaction between a user and a Copilot Studio bot, generating one omnichannel session that may include multiple internal sessions. Each session records its outcome and reason. For overall conversation metrics in chat or voice, the outcome and reason from the final session are used.
 
-:::image type="content" source="../media/metrics-by-last session-outcome.png" alt-text="Screenshot for metrics by last session outcome." lightbox="../media/metrics-by-last session-outcome.png"::: 
+:::image type="content" source="../media/metrics-by-last session-outcome.png" alt-text="Screenshot for metrics by last session outcome." lightbox="../media/metrics-by-last session-outcome.png" lightbox="../media/metrics-by-last session-outcome.png"::: 
 
 An **Engaged** session **Outcome** is categorized as:
 
