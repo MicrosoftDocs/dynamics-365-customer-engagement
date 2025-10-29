@@ -29,7 +29,7 @@ As a supervisor or administrator, you can monitor the performance of the Sales Q
 ## View the supervisor dashboard
 
 1. In the Sales Hub app, go to **App settings**.
-1. Under General settings, select **Dynamics 365 AI hub**.  
+1. Under General settings, select **Dynamics 365 AI hub**. If you have trouble finding or accessing the AI hub, it might be due to permission restrictions. Learn more in [Access Dynamics 365 AI Hub](dynamics-365-ai-hub.md)
 1. In the **AI Optimization** card, select **See insights**.  
    The supervisor workspace opens, displaying various cards that provide insights into the Sales Qualification Agent's performance.  
 1. Verify the **Last refreshed** date and time to ensure the data is up-to-date. The data is refreshed when you open the dashboard. If needed, you can refresh the dashboard by selecting the **Refresh** icon.

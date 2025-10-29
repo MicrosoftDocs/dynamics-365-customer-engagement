@@ -198,15 +198,15 @@
           href: voice-channel-call-recordings-transcripts.md
         - name: Monitor voice calls
           href: voice-channel-monitor-calls.md
-      - name: Autonomous service agents (preview)
+      - name: Autonomous service agents
         items:
         - name: Overview of autonomous service agents
           href: /dynamics365/contact-center/administer/autonomous-agents-overview?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-        - name: Customer Intent Agent
+        - name: Customer Intent Agent (preview)
           items:
           - name: Use intent-based suggestions
             href: /dynamics365/contact-center/use/use-intent-suggestions
-        - name: Case Management Agents
+        - name: Case Management Agents (preview)
           items:
           - name: Use Case Management Agent to create and update cases
             href: use-case-creation-agent.md
@@ -220,6 +220,16 @@
             href: admin-km-agent-review.md
           - name: Use knowledge insights for Customer Knowledge Management Agent
             href: admin-km-agent-insights.md
+        - name: Quality Evaluation Agent
+          items:
+          - name: Use evaluation criteria
+            href: /dynamics365/contact-center/use/evaluation-criteria?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Use evaluation plan
+            href: /dynamics365/contact-center/use/evaluation-plan?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Use on-demand evaluation
+            href: /dynamics365/contact-center/use/on-demand-evaluation?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Use evaluations
+            href: /dynamics365/contact-center/use/use-evaluations?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
       - name: Chat and Channels
         items:
         - name: Dynamics 365 Contact Center for agents

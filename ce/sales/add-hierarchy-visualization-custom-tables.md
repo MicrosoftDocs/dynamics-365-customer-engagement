@@ -1,5 +1,5 @@
 ---
-title: Adding hierarchy support to tables
+title: Add a view hierarchy button
 description: Learn how to enable hierarchy visualization for custom and other tables in your organization.
 ms.topic: how-to
 author: udaykirang
@@ -10,7 +10,7 @@ ms.date: 10/15/2025
 ms.custom: bap-template 
 ---
 
-# Adding hierarchy support to tables
+# Add a view hierarchy button
 
 To add the View hierarchy button to the forms or grids for a table, the table must first be added to your application. While the **View hierarchy** button is enabled by default on the Contact, Opportunity, Lead, and Account forms and grids, as an administrator, you can add the **View hierarchy** button to all other tables.
 

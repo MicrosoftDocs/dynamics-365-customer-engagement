@@ -13,7 +13,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ---
 
-# Frequently asked questions about Sales Research Agent (preview)
+# FAQs about Sales Research Agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
