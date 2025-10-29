@@ -39,10 +39,10 @@ Read the [create and activate a segment](wa-create-and-activate-a-segment.md#cre
     
     | Record type | Description |
     |-------------|-------------|
-    | Contact | Records where the email contains data. |
-    | Account | Records where the email contains data and the email is the primary email. |
-    | Lead |  |
-    | Opportunity |  |  
+    | Contact | Records where the email contains data. The field name is `Email` and the operator is `Contains data`. |
+    | Account | Records where the email contains data and the email is the primary email. The field is derived from the `Primary Contact (Contact)` related entity with the `Contains data` operator where the field is `Email` and operator is `Contains data`. |
+    | Lead | Records where the email contains data and the email is the primary email. The field name is `Email` and the operator is `Contains data`. |
+    | Opportunity | Records where the email contains data and the email is the primary email. The field is derived from the `Primary Contact (Contact)` related entity with the `Contains data` operator where the field is `Email` and operator is `Contains data`. |  
 
     To add more conditions, select **Add** and then use the following options to build the conditions of the segment:  
     - **Add row**: Add condition. Select an attribute, an operator, and a value; for example, Created by Equals John Thomas.  
@@ -53,6 +53,7 @@ Read the [create and activate a segment](wa-create-and-activate-a-segment.md#cre
 
 ## Next step
 
+[Configure email delivery settings](configure-sales-close-agent-email-delivery.md)
 
 ## Related information
 

@@ -1,6 +1,6 @@
 ---
 title: Set up and configure the Sales Close Agent (preview)
-description: Set up and configure the Sales Close Agent to 
+description: Set up and configure the Sales Close Agent to help your sales team engage with customers effectively. 
 ms.date: 09/24/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -100,8 +100,7 @@ Let's look at the steps to set up and configure the agents.
 1. [Configure handoff criteria](configure-sales-qualification-agent-handoff-criteria.md) for the agent to identify leads that are a good fit for further engagement.  
 1. [Configure assignment rules](configure-sqa-assignment-rules.md) for the agent to assign processed leads to the appropriate sellers.  
 1. [Configure knowledge sources](configure-sqa-knowledge-source.md) for company and competitor insights, outreach, and follow-up emails.
-1. After you are satisfied with the configuration, [start the agent](start-sales-qualification-agent.md).
-
+1. After you are satisfied with the configuration, [start the agent](start-sales-close-agent.md).
 
 ## Related information
 
