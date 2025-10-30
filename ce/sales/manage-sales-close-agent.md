@@ -49,9 +49,6 @@ Stop the agent when you no longer want to use it in your organization. Stopping 
 
 1. [Go to the agent settings page](open-sales-close-agent-settings.md).  
 1. Open the agent and on the agent settings page, select **Stop agent**.  
-
-    :::image type="content" source="media/sca-settings-stop-agent-page.png" alt-text="Screenshot of stopping the Sales Close Agent in settings page.":::
-
 1. On the confirmation message select **Stop agent**.  
     The agent is stopped, and a confirmation message is displayed on the top of the page.  
 

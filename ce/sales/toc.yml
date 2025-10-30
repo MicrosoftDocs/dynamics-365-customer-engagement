@@ -222,6 +222,9 @@ items:
                 href: manage-sales-close-agent.md
               - name: Configure requirements for Sales Close Agent
                 href: configure-requirements-for-sales-close-agent.md  
+              - name: View agent insights and metrics
+                href: view-sales-close-agent-engage-insights-metrics.md
+                  
 
           - name: Copilot Studio agents and Entra app registrations
             href: ai-agents-apps.md
