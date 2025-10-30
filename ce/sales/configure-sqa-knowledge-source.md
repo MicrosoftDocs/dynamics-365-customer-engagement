@@ -19,7 +19,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Add knowledge sources that the agent can use for researching leads and their companies, and for drafting outreach and follow-up emails. For example, you can add customer testimonials and case studies as knowledge sources for outreach emails to engage with leads effectively.
+By default, the agent uses public web data sources to research leads and their companies. However, you can enhance the relevance of the research insights and email content by adding custom knowledge sources that are specific to your organization and industry. For example, you can add customer testimonials and case studies as knowledge sources for outreach emails to engage with leads effectively.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -42,7 +42,7 @@ Before you configure knowledge sources for the Sales Qualification Agent, consid
 1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  
 
 1. In the **Knowledge** section, select the following options and configure the knowledge sources:  
-    - **Research**: The agent uses knowledge sources to get research insights about the lead, their company, and their competitors. 
+    - **Research**: The agent uses the research knowledge sources to get insights about the lead, their company, and competitors.
         - **Company insights:** Company insights include industry type, company size, financials, priorities, and news. The following examples are the best sources to add as knowledge sources for company research:
 
             | Insight | Typical questions answered | Examples of out-of-box data sources |
@@ -53,8 +53,8 @@ Before you configure knowledge sources for the Sales Qualification Agent, consid
             | Recent news | What just happened that matters to us, and shows a need or intent for our solutions? | Bing news search |  
 
         - **Competitor insights:** Competitor insights include industry, location, size, and market share of the competitor, their strengths, weaknesses, opportunities, and threats (SWOT analysis), and recommended talking points to position against the competitor. Learn more in [Configure Sales Qualification Agent to generate competitor insights (preview)](sales-qualification-agent-competitor-insights.md).
-    - **Outreach emails**: The agent uses knowledge sources to create personalized outreach emails. These emails can include relevant customer testimonials, case studies, and other insights to engage the lead effectively.  
-    - **Follow-up emails**: This setting is only applicable for the Research and engage mode. The agent uses knowledge sources to create follow-up emails to respond accurately and ask insightful questions. For an effective follow-up, add knowledge sources that include price sources, product specifications, sales playbooks, SKUs, and more.  
+    - **Outreach emails**: The agent uses these knowledge sources to create personalized outreach emails. These emails can include relevant customer testimonials, case studies, and other insights to engage the lead effectively.  
+    - **Follow-up emails**: This setting is only applicable for the Research and engage mode. The agent uses these knowledge sources to create follow-up emails to respond accurately and ask insightful questions. For an effective follow-up, add knowledge sources that include price sources, product specifications, sales playbooks, SKUs, and more.  
 
 1. In the **Knowledge sources** section, select **Add**. You're redirected to the **Copilot Studio** page where you can add knowledge sources.  
 
