@@ -91,13 +91,13 @@ This section includes code samples that you can use to configure an Azure bot to
 
         await turnContext.SendActivitiesAsync(messageActivities.ToArray(), cancellationToken);
     }
-```
+    ```
 
 1. Call the appropriate client method in the Bot ActivityHandler class.
-   
-   Change the `Escalate` and `EndConversation` command criteria based on your requirements.
-   
-   Add the code statement `OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);` in your bot code to send messages to Omnichannel for Customer Service. This method must be called for every Activity message that's sent to the customer.
+
+1. Change the `Escalate` and `EndConversation` command criteria based on your requirements.
+
+1. Add the code statement `OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);` in your bot code to send messages to Omnichannel for Customer Service. This method must be called for every Activity message that's sent to the customer.
 
     The sample code is as follows.
 
