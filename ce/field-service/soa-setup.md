@@ -3,8 +3,8 @@ title: Set up the Scheduling Operations Agent (preview)
 description: Learn how to set up the Scheduling Operations Agent in Dynamics 365 Field Service for your dispatchers.
 ms.date: 03/26/2025
 ms.topic: how-to
-ms.author: anilmur
-author: anilmur
+ms.author: anclear
+author: andrewclear-ms
 ---
 
 # Set up the Scheduling Operations Agent (preview)

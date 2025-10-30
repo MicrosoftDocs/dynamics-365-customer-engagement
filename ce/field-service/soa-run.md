@@ -3,8 +3,8 @@ title: Use the Scheduling Operations Agent (preview)
 description: Learn how to use the Scheduling Operations Agent to optimize a technician's schedule in Dynamics 365 Field Service.
 ms.date: 04/24/2025
 ms.topic: how-to
-ms.author: anilmur
-author: anilmur
+ms.author: anclear
+author: andrewclear-ms
 ---
 
 # Use the Scheduling Operations Agent (preview)

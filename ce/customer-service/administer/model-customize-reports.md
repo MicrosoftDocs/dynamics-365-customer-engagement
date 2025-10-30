@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 09/26/2025
+ms.date: 10/28/2025
 ms.custom:
   - bap-template
   - dyn365-customerservice
@@ -41,45 +41,55 @@ Key capabilities of model customization include the ability to:
 
 Enable data model customization for historical and real-time analytics reports in Copilot Service admin center, and then complete the following tasks:
 
-1. Select a Microsoft Fabric workspace.
-1. Provision the data models and copy of reports.
-1. Grant permissions for semantic models and reports.
-1. Embed customized reports back to Dynamics 365.
+1. [Select a Microsoft Fabric workspace](#step-1-select-a-microsoft-fabric-workspace)
+1. [Provision the data models and copy of reports](#step-2-provision-the-data-models)
+1. [Grant permissions for semantic models and reports](#step-3-grant-permissions-for-semantic-models-and-reports)
+1. [Embed customized reports back to Dynamics 365](#step-4-embed-customized-reports-back-to-dynamics-365)
 
 ## Prerequisites
 
 Before you begin, complete the following prerequisites:
 
-- Specific licensing requirements apply for all report users to access the reports. Learn more at [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718) and [Microsoft Fabric Pricing](https://azure.microsoft.com/pricing/details/microsoft-fabric/).
-- Specific licensing requirements apply for report authors, developers, and administrators to build Power BI reports and extend the out-of-the-box Power BI data model. Learn more at [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718) and [Power Platform Pricing](https://go.microsoft.com/fwlink/?linkid=2309616).
+### Licenses
 
-- Enable insights features in Customer Service:
+Specific licensing requirements apply for: 
+
+  - All report users to access reports.
+  - All report authors, developers, supervisors, and administrators to build Power BI reports and extend the default Power BI data model. 
+    
+  Learn more at [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718) and [Power Platform Pricing](https://go.microsoft.com/fwlink/?linkid=2309616).
+
+ ### Enable insights features in Customer Service
 
   - If you're enabling historical data model customization, you must enable at least one of the historical reports, such as Customer Service historical analytics, Omnichannel historical analytics, or Knowledge analytics. For more information, see [Configure analytics and insights dashboards](configure-customer-service-analytics-insights-csh.md).
   - If you're enabling real-time data model customization, you must enable real-time analytics for Omnichannel. For more information, see [Configure analytics and insights dashboards](configure-customer-service-analytics-insights-csh.md).
 
-- Create a Microsoft Entra ID security group:
+### Create a Microsoft Entra ID security group
 
-  - Your Microsoft Entra ID administrator must create a security group with your preferred name in Microsoft Entra ID and add **Dynamics 365 Analytics** service account as a member of this security group. For more information, see [Create a basic group and add members using Microsoft Entra ID](/entra/fundamentals/how-to-manage-groups).
+Your Microsoft Entra ID administrator must create a security group with your preferred name in Microsoft Entra ID and add **Dynamics 365 Analytics** service account as a member of this security group. For more information, see [Create a basic group and add members using Microsoft Entra ID](/entra/fundamentals/how-to-manage-groups).
 
-      The out-of-the-box **Service Principal Dynamics 365 Analytics** is used to deploy the data model and make changes to the Microsoft Fabric workspace on behalf of Customer Service.
+The out-of-the-box **Service Principal Dynamics 365 Analytics** is used to deploy the data model and make changes to the Microsoft Fabric workspace on behalf of Customer Service.
 
-      Power BI lets you grant permissions to groups only, not individual service principals, so you need to create a group.
+Power BI lets you grant permissions to groups only, not individual service principals, so you need to create a group or directly grant access to the relevant workspace. 
 
-    > [!NOTE]
+  > [!NOTE]
   > If the Dynamics 365 Analytics service account isn't available in your organization, use the Dynamics CCA Data Analytics service account.
 
-- Enable Power BI service features from the Microsoft Fabric Admin portal. The Power BI administrator must enable the following, either for the entire organization or for the security group created earlier:
+### Enable Power BI service features from the Microsoft Fabric Admin portal
 
-  - [**Create workspace (new workspace experience)**](/power-bi/admin/service-admin-portal-workspace#create-workspaces-new-workspace-experience): Enabling this feature creates two workspaces, a managed workspace and a customer workspace to deploy Dynamics data model and reports.
+The Power BI administrator must enable the following features, either for the entire organization or for the security group created earlier. Learn more in [Microsoft Fabric tenant settings](/fabric/admin/service-admin-portal-microsoft-fabric-tenant-settings?branch=main).
 
-  - [**Service principals can use Fabric APIs**](/power-bi/enterprise/service-premium-service-principal#enable-service-principals): This feature uses the Fabric APIs for creating workspaces, deploying reports and models.
+  1. In **Workspace settings**, enable [**Create workspace (new workspace experience)**](/fabric/admin/portal-workspace#create-workspaces): Enabling this feature creates two workspaces, a managed workspace and a customer workspace to deploy Dynamics data model and reports.
 
-  - **Allow DirectQuery connections to Power BI semantic models**: When report authors build new metrics or bring more data sources, they create [composite models](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets), so DirectQuery needs to be enabled. Users who view reports built on top of data model in Dynamics 365 require this permission. Work with your Microsoft Entra ID administrator to identify a security group that has all the required Dynamics users.
+  1. In **Developer settings**, enable [**Service principals can call Fabric APIs**](/fabric/admin/service-admin-portal-developer#service-principals-can-call-fabric-public-apis): This feature uses the Fabric APIs for creating workspaces, deploying reports and models. 
   
-  - **Allow XMLA endpoints and Analyze in Excel with on-premise semantic models**: When report authors build new metrics or bring more data sources, they create [composite models](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets), so this feature needs to be enabled. Users who view reports built on top of data model in Dynamics 365 require this permission.
+  1.  In **Developer settings**, enable [**Service principals can create workspaces, connections, and deployment pipelines**](/fabric/admin/service-admin-portal-developer#service-principals-can-create-workspaces-connections-and-deployment-pipelines).
 
-  - **Embed content in apps**: Enabling this feature embeds customized reports in Dynamics 365 ([Step 4: Embed customized reports back to Dynamics 365](#step-4-embed-customized-reports-back-to-dynamics-365)). Users who view the custom reports from Dynamics 365 Customer Service require this permission. Work with your Microsoft Entra ID administrator to identify a security group that has all the required Dynamics users.
+  1. In **Export settings**, enable [**Allow DirectQuery connections to Power BI semantic models**](/fabric/admin/service-admin-portal-export-sharing#allow-directquery-connections-to-power-bi-semantic-models): When report authors build new metrics or bring more data sources, they create [composite models](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets), so DirectQuery needs to be enabled. Users who view reports built on top of data model in Dynamics 365 require this permission. Work with your Microsoft Entra ID administrator to identify a security group that has all the required Dynamics users.
+  
+  1. In **Integration settings**, enable **[Allow XMLA endpoints and Analyze in Excel with on-premises datasets](/fabric/admin/service-admin-portal-integration#allow-xmla-endpoints-and-analyze-in-excel-with-on-premises-datasets)**: When report authors build new metrics or bring more data sources, they create [composite models](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets), so this feature needs to be enabled. Users who view reports built on top of data model in Dynamics 365 require this permission.
+
+  1. **Embed content in apps**: Enabling this feature embeds customized reports in Dynamics 365 ([Step 4: Embed customized reports back to Dynamics 365](#step-4-embed-customized-reports-back-to-dynamics-365)). Users who view the custom reports from Dynamics 365 Customer Service require this permission. Work with your Microsoft Entra ID administrator to identify a security group that has all the required Dynamics users.
 
 ## Enable Power BI data model customization
 
@@ -105,6 +115,9 @@ Specify the Microsoft Fabric workspace where the Dynamics data model and reports
 The specified workspace applies only to the customer's workspace. Microsoft creates a new managed workspace for historical and real-time reports each, when configured. For more information, see [How data model customization works](../use/datamodel-overview.md#how-data-model-customization-works). You can also specify the same workspace for both historical and real-time analytics reports.
 
 ## Step 2: Provision the data models
+
+> [!NOTE]
+> For successful provisioning of the data models, make sure that you  [created a Microsoft Entra ID security group](#create-a-microsoft-entra-id-security-group) and added **Dynamics 365 Analytics** service account as a member of this security group.
 
 It could take up to 24 hours for the provisioning to complete. You can leave the **Settings** page and check back after a few hours. Select **Refresh** to check the provisioning status.
 

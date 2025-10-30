@@ -4,8 +4,8 @@ description: Learn how to get up and running quickly with the Resource Schedulin
 ms.date: 04/01/2025
 ms.subservice: resource-scheduling-optimization
 ms.topic: how-to
-author: AnilMur
-ms.author: anilmur
+author: andrewclear-ms
+ms.author: anclear
 ---
 
 # Get started with the Resource Scheduling Optimization Add-in

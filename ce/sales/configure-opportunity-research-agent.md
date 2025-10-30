@@ -48,6 +48,8 @@ As the agent consumes capacity, it's important to plan and configure it to handl
 
    Learn more in [Manage data policies](/power-platform/admin/prevent-data-loss?tabs=new).
 
+### Grant permissions to custom security role
+
 - If you're using a custom security role, ensure that the opportunity owners have the following minimum permissions: 
 
    | Purpose | Access level - Permissions  | Entities|
@@ -84,7 +86,8 @@ After you identify the sellers who work on the segment of opportunities that the
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
 
-1. Go to **General Settings** > **Dynamics 365 AI hub**.
+1. Go to **General Settings** > **Dynamics 365 AI hub**. If you have trouble finding or accessing the AI hub, it might be due to permission restrictions. Learn more in [Access Dynamics 365 AI Hub](dynamics-365-ai-hub.md).
+
 1. Select **Create and manage agents** under **Agent manager**.
 1. On the **AI agents** page, select **Prerequisites** and ensure that all prerequisites are met. 
    :::image type="content" source="media/opportunity-research-agent-prerequisites.png" alt-text="Screenshot of the Prerequisites page for Opportunity Research Agent."::: 
