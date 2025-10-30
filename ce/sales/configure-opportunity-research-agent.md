@@ -144,6 +144,8 @@ In the **Refresh frequency** tab, specify how frequently you want the agent to r
 - **Medium:** Data is refreshed every three days. This option is suitable for businesses that need regular updates but don't require daily insights. It balances performance and data accuracy.
 - **Low:** Data is refreshed every seven days. This option consumes the least capacity and is suitable for businesses that don't need frequent updates and want to save capacity.
 
+Apart from the scheduled refresh, [updates to specific fields](opportunity-research-agent-faqs.md#which-fields-trigger-the-agent-to-refresh-the-research-data-when-updated) in the opportunity record trigger the agent to refresh the research data immediately.
+
 
 ### Configure fields for importance and risk assessment
 
