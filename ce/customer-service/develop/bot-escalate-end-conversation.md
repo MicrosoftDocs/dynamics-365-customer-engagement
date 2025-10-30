@@ -1,7 +1,7 @@
 ---
-title: "Configure Azure agents to escalate and end conversations | MicrosoftDocs"
-description: "Use this article to understand how to program agents in Azure to route conversations to representatives and also end conversations in Dynamics 365 Contact Center."
-ms.date: 03/03/2025
+title: Configure Azure agents to escalate and end conversations
+description: Learn how to program agents in Azure to route conversations to representatives and also end conversations in Dynamics 365 Contact Center.
+ms.date: 10/30/2025
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
@@ -10,7 +10,6 @@ ms.reviewer: nenellim
 # Configure Azure agents to escalate and end conversations
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
-
 
 This article explains how you can program an AI agent(agent) in Azure to route a conversation to a customer service representative (service representative or representative) in Dynamics 365 Contact Center. It also describes how to program the agent to end the conversation.
 
@@ -44,220 +43,129 @@ This section includes code samples that you can use to configure an Azure bot to
 
 1. Implement a command class to model tasks related to escalating and ending conversations.
 
-The sample code is as follows.
+1. Implement an Omnichannel client class to set the command context.
 
-```csharp
-using System.Collections.Generic;
-using System.Runtime.Serialization;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
+    The sample code is as follows.
 
-namespace EchoBot.OmniChannel
-{
+    ```csharp
     /// <summary>
-    /// Command types that bot can send to Omnichannel
+    /// Send end of conversation context to user and agent.
     /// </summary>
-    [JsonConverter(typeof(StringEnumConverter))]
-    public enum CommandType
+    public static async Task EndConversationAsync(ITurnContext turnContext, CancellationToken cancellationToken)
     {
-        [EnumMember(Value = "Escalate")]
-        Escalate = 0,
-        [EnumMember(Value = "EndConversation")]
-        EndConversation = 1,
-    }
-    /// <summary>
-    /// Action
-    /// </summary>
-    [DataContract]
-    public class Command
-    {
-        /// <summary>
-        /// Type of action that bot can send to Omnichannel
-        /// </summary>
-        [DataMember(Name = "type")]
-        public CommandType Type { get; set; }
+        IActivity customerFacingActivity = Activity.CreateMessageActivity();
+        customerFacingActivity.Text = "Thanks for talking with me. Have a good day. Bye.";
+        BridgeBotMessage(customerFacingActivity);
 
-        /// <summary>
-        /// Dictionary of Workstream Context variable and value pairs to be sent to Dynamics 365 Contact Center
-        /// </summary>
-        [DataMember(Name = "context")]
-        public Dictionary<string, object> Context { get; set; }
+        IActivity agentFacingActivity = Activity.CreateMessageActivity();
+        agentFacingActivity.Text = "Ending the conversation as per customer request.";
+        AddContext(CommandType.EndConversation, agentFacingActivity);
+
+        List<IActivity> messageActivities = new List<IActivity>
+        {
+            customerFacingActivity,
+            agentFacingActivity
+        };
+
+        await turnContext.SendActivitiesAsync(messageActivities.ToArray(), cancellationToken);
     }
-}
+
+    /// <summary>
+    /// Send escalation context to user and agent.
+    /// </summary>
+    public static async Task EscalateConversationAsync(ITurnContext turnContext, IContextManager contextManager, CancellationToken cancellationToken)
+    {
+        IActivity customerFacingActivity = Activity.CreateMessageActivity();
+        customerFacingActivity.Text = "Perfect I’ll transfer you now";
+        BridgeBotMessage(customerFacingActivity);
+
+        IActivity agentFacingActivity = Activity.CreateMessageActivity();
+        agentFacingActivity.Text = GetEscalationSummary(turnContext, contextManager);
+        AddContext(CommandType.Escalate, agentFacingActivity, contextManager.GetContext(turnContext.Activity.Conversation.Id));
+
+        List<IActivity> messageActivities = new List<IActivity>
+        {
+            customerFacingActivity,
+            agentFacingActivity
+        };
+
+        await turnContext.SendActivitiesAsync(messageActivities.ToArray(), cancellationToken);
+    }
 ```
 
-2. Implement an Omnichannel for Customer Service client class to set the command context. 
-
-The sample code is as follows.
-
-```csharp
-using Microsoft.Bot.Schema;
-using Newtonsoft.Json;
-using System.Collections.Generic;
-
-namespace EchoBot.OmniChannel
-{
-    /// <summary>
-    /// Extension class for middleware implementation management
-    /// </summary>
-    public static class OmnichannelBotClient
-    {
-        /// <summary>
-        /// Delivery mode of bot's reply activity
-        /// </summary>
-        private const string DeliveryMode = "deliveryMode";
-        /// <summary>
-        /// Delivery Mode value bridged
-        /// </summary>
-        private const string Bridged = "bridged";
-        /// <summary>
-        /// Custom data tag
-        /// </summary>
-        private const string Tags = "tags";
-
-        /// <summary>
-        /// Adds Omnichannel for Customer Service escalation context to the bot's reply activity.
-        /// </summary>
-        /// <param name="activity">Bot's reply activity</param>
-        /// <param name="contextVars">Omnichannel for Customer Service workstream context variable value pairs</param>
-        public static void AddEscalationContext(IActivity activity, Dictionary<string, object> contextVars)
-        {
-            Command command = new Command
-            {
-                Type = CommandType.Escalate,
-                Context = contextVars
-            };
-
-            string serializedString = JsonConvert.SerializeObject(command);
-            if (activity.ChannelData != null)
-            {
-                (activity as IActivity).ChannelData[Tags] = serializedString;
-            }
-            else
-            {
-                activity.ChannelData = new Dictionary<string, object>() { { Tags, serializedString } };
-            }
-        }
-
-        /// <summary>
-        /// Adds Omnichannel end conversation context to the bot's reply activity.
-        /// </summary>
-        /// <param name="activity">Bot's reply activity</param>
-        public static void AddEndConversationContext(IActivity activity)
-        {
-            Command command = new Command
-            {
-                Type = CommandType.EndConversation,
-                Context = new Dictionary<string, object>()
-            };
-
-            string serializedString = JsonConvert.SerializeObject(command);
-            if (activity.ChannelData != null)
-            {
-                (activity as IActivity).ChannelData[Tags] = serializedString;
-            }
-            else
-            {
-                activity.ChannelData = new Dictionary<string, object>() { { Tags, serializedString } };
-            }
-        }
-
-        /// <summary>
-        /// Sets delivery mode for bot as bridged so that Customer can see bot messages
-        /// </summary>
-        /// <param name="activity">Bot's reply activity</param>
-        public static void BridgeBotMessage(IActivity activity)
-        {
-            if (activity.ChannelData != null)
-            {
-                (activity as IActivity).ChannelData[DeliveryMode] = Bridged;
-            }
-            else
-            {
-                activity.ChannelData = new Dictionary<string, object>() { { DeliveryMode, Bridged } };
-            }
-        }
-    }
-}
-
-```
-
-3. Call the appropriate client method in the Bot ActivityHandler class.
+1. Call the appropriate client method in the Bot ActivityHandler class.
    
    Change the `Escalate` and `EndConversation` command criteria based on your requirements.
    
    Add the code statement `OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);` in your bot code to send messages to Omnichannel for Customer Service. This method must be called for every Activity message that's sent to the customer.
 
-The sample code is as follows.
+    The sample code is as follows.
 
-```csharp
-using System;
-using System.Collections.Generic;
-using System.Threading;
-using System.Threading.Tasks;
-using EchoBot.OmniChannel;
-using Microsoft.Bot.Schema;
-
-namespace Microsoft.Bot.Builder.EchoBot
-{
-    public class EchoBot : ActivityHandler
+    ```csharp
+    protected async Task OnMessageActivityAsync(ITurnContext turnContext, ITurnState turnState, CancellationToken cancellationToken)
     {
-        /// <summary>
-        /// This method is called when the bot receives a message.
-        /// </summary>
-        /// <param name="turnContext">Turn Context object</param>
-        /// <param name="cancellationToken">CancellationToken</param>
-        /// <returns></returns>
-        protected override async Task OnMessageActivityAsync(ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken)
+        ArgumentNullException.ThrowIfNull(turnContext);
+        var text = turnContext.Activity.Text?.ToLower(CultureInfo.InvariantCulture);
+        var responseActivity = Activity.CreateMessageActivity();
+        Responses.BuildCustomerFileAttachmentResponse(turnContext, responseActivity);
+
+        if (string.IsNullOrEmpty(text))
         {
-            if (turnContext.Activity.Type == ActivityTypes.Message)
+            if (turnContext.Activity.Value is JsonElement jsonElement)
             {
-                // Replace with your own message
-                IActivity replyActivity = MessageFactory.Text($"Echo: {turnContext.Activity.Text}");
-
-                // Replace with your own condition for bot escalation
-                if (turnContext.Activity.Text.Equals("escalate", StringComparison.InvariantCultureIgnoreCase))
-                {
-                    Dictionary<string, object> contextVars = new Dictionary<string, object>() { { "Bo-tHandoffTopic", "CreditCard" } };
-                    OmnichannelBotClient.AddEscalationContext(replyActivity, contextVars);
-                }
-                // Replace with your own condition for bot end conversation
-                else if (turnContext.Activity.Text.Equals("endconversation", StringComparison.InvariantCultureIgnoreCase))
-                {
-                    OmnichannelBotClient.AddEndConversationContext(replyActivity);
-                }
-                // Call method BridgeBotMessage for every response that needs to be delivered to the customer.
-                else
-                {
-                    OmnichannelBotClient.BridgeBotMessage(replyActivity);
-                }
-
-                await turnContext.SendActivityAsync(replyActivity, cancellationToken);
+                var activityResponseValue = turnContext.Activity.Value;
+                responseActivity.Text = $"You replied with value: {Environment.NewLine}{activityResponseValue}";
             }
         }
-
-        /// <summary>
-        /// This method is called when there is a participant added to the chat.
-        /// </summary>
-        /// <param name="membersAdded">Member being added to the chat</param>
-        /// <param name="turnContext">TurnContext</param>
-        /// <param name="cancellationToken">CancellationToken</param>
-        /// <returns></returns>
-        protected override async Task OnMembersAddedAsync(IList<ChannelAccount> membersAdded, ITurn-Context<IConversationUpdateActivity> turnContext, CancellationToken cancellationToken)
+        else if (text.StartsWith("echo:", StringComparison.OrdinalIgnoreCase))
         {
-            foreach (var member in membersAdded)
+            responseActivity.Text = text.Replace("echo:", "", StringComparison.OrdinalIgnoreCase);
+        }
+        else if (text.Contains("ac ", StringComparison.OrdinalIgnoreCase))
+        {
+            Responses.BuildAdaptiveCardResponse(responseActivity, text);
+        }
+        else
+        {
+            switch (text)
             {
-                if (member.Id != turnContext.Activity.Recipient.Id)
-                {
-                    //Set the bridge mode for every message that needs to be delivered to customer
-                    OmnichannelBotClient.BridgeBotMessage(turnContext.Activity); 
-                    await turnContext.SendActivityAsync(MessageFactory.Text($"Welcome to Echo Bot."), cancellationToken);
-                }
+                case Commands.Agent:
+                    await OmnichannelAgentClient.EscalateConversationAsync(turnContext, _contextManager, cancellationToken);
+                    return;
+                case Commands.AnimationCard:
+                case Commands.AudioCard:
+                case Commands.FaultySigninCard:
+                case Commands.HeroCard:
+                case Commands.HeroCardIMBack:
+                case Commands.HtmlList:
+                case Commands.Markdown:
+                case Commands.ReceiptCard:
+                case Commands.SigninCard:
+                case Commands.ThumbnailCard:
+                case Commands.VideoCard:
+                    Responses.BuildStructuredCardResponse(responseActivity, text);
+                    break;
+                case Commands.AttachmentFromC2:
+                    responseActivity.Text = $"Attachment type has been identified";
+                    break;
+                case Commands.Debug:
+                    Responses.BuildDebugContextResponseText(_contextManager, turnContext, responseActivity);
+                    break;
+                case Commands.EndChat:
+                    await OmnichannelAgentClient.EndConversationAsync(turnContext, cancellationToken);
+                    break;
+
+                case Commands.Help:
+                    Responses.BuildHelpResponse(responseActivity);
+                    break;
+                default:
+                    Responses.BuildDidNotUnderstandResponse(responseActivity, text);
+                    break;
             }
         }
+        await OmnichannelAgentClient.BridgeAndSendActivityAsync(turnContext, responseActivity, cancellationToken);
     }
-}
-```
+    ```
 
 The dictionary `contextVars` contains all the Omnichannel for Customer Service context variable name value pairs that you want to update as part of the escalation request. Here `BotHandoffTopic` is the context variable name and **CreditCard** is the context variable value. If there's a representative queue with the rule **BotHandoffTopic** equals **CreditCar**, then this escalated chat will be routed to that queue.
 
