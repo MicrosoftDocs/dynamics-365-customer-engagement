@@ -138,6 +138,8 @@ items:
         href: admin-settings-overview.md
       - name: AI agents
         items:
+          - name: Access Dynamics 365 AI Hub
+            href: dynamics-365-ai-hub.md
           - name: Sales Qualification Agent
             items:
               - name: Overview
@@ -228,6 +230,8 @@ items:
 
           - name: Copilot Studio agents and Entra app registrations
             href: ai-agents-apps.md
+          - name: FAQs about sales AI agents
+            href: sales-ai-agents-faqs.md
       - name: Copilot in Dynamics 365 Sales
         items:
           - name: Copilot overview
@@ -359,7 +363,7 @@ items:
                 href: create-activate-hierarchy-visualizations.md
               - name: Manage hierarchy visualization
                 href: manage-hierarchy-visualizations.md
-              - name: Adding hierarchy support to tables
+              - name: Add a view hierarchy button
                 href: add-hierarchy-visualization-custom-tables.md
           - name: Configure email engagement
             href: configure-email-engagement.md

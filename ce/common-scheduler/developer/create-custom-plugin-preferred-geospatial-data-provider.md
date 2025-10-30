@@ -33,7 +33,7 @@ You can view the input and output parameters for the two geospatial actions in t
 
 1. Go to [Power Apps](https://make.powerapps.com/) and select your solution.
 
-1. Open **Processes** and search for the action name, such as **Resource Scheduling - Geocode Address** or **Resource Scheduling - Retrieve Distance Matrix**
+1. Open **Processes** and search for the action name, such as **Resource Scheduling - Geocode Address** or **Resource Scheduling - Retrieve Distance Matrix**.
 
 1. Open the action name. For example, the screenshot shows the definition of the **Resource Scheduling - Geocode Address** (**msdyn_GeocodeAddress**) action where the highlighted area provides information about the input and output parameters:
 

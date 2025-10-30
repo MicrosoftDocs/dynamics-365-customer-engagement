@@ -39,7 +39,7 @@ Examples of organizations that use the application to manage their field service
 Field service capabilities include:
 
 - **Work orders** to define the service work needed primarily (but not exclusively) at customer locations.
-- **Scheduling and dispatch tools** to manage resources and equipment needed for customer service, visualize onsite appointments, and optimize service schedules with efficient routing and resource skill matching.
+- **Scheduling and dispatch tools** to manage resources and equipment needed for customer service, visualize onsite appointments, and optimize service schedules with efficient routing and resource characteristic matching.
 - **Communication tools** to enhance collaboration between customer service agents, dispatchers, field technicians, customers, and other stakeholders.
 - **An easy-to-use mobile application** that guides technicians through schedule changes and service work.
 - **Copilot in Field Service** features are integrated in the application. Copilot generates summaries of work orders in a customizable format and answers natural language questions about your data in a side pane of the web app.
@@ -64,7 +64,7 @@ The Field Service application provides tools for these key roles on your service
 
 Work orders describe the work that a technician needs to perform at a customer location. In the Field Service application, a typical work order lifecycle looks like this:
 
-1. Work orders generate from service cases, sales orders, emails, phone calls, service agreements, web portals, or Internet of Things (IoT) data and then display in Field Service. Work orders are typically grouped by geographical territory and lines of business. Work order details consist of a checklist of tasks, parts to use, labor to bill to the customer, and skills required. Copilot in Field Service can generate a customizable summary the detailed work order.
+1. Work orders generate from service cases, sales orders, emails, phone calls, service agreements, web portals, or Internet of Things (IoT) data and then display in Field Service. Work orders are typically grouped by geographical territory and lines of business. Work order details consist of a checklist of tasks, parts to use, labor to bill to the customer, and characteristics required. Copilot in Field Service can generate a customizable summary the detailed work order.
 
    Most work orders also include a location based on the related customer account and/or equipment that needs attention; this location routes the field technician from job to job. Finally, incoming work orders that are marked as ready for assignment are passed along to a dispatcher for scheduling.
 
