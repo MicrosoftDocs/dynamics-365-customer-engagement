@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 10/30/2025
+ms.date: 10/31/2025
 ms.custom: bap-template
 ---
 
