@@ -34,7 +34,8 @@ Edit the agent configurations to fine-tune the settings based on real-world insi
 1. [Go to the agent settings page](open-sales-close-agent-settings.md).  
 1. Edit the sections as required and then select **Apply changes**.  
     >[!NOTE]
-    >The **Apply changes** option is available only when all the configurations are valid and shows the green check mark icon.  
+    >- When you change the [target customer settings](configure-sales-close-agent-target-customers.md), ensure that you updated the [email content](configure-sales-close-agent-email-content.md) to reflect the changes made to the target customer segment.  
+    >- The **Apply changes** option is available only when all the configurations are valid and shows the green check mark icon.  
 1. On the confirmation dialog, select **Apply changes** to confirm the changes.  
     Applying the changes might take a few seconds to update the settings, you can continue working while the changes are being applied.  
 

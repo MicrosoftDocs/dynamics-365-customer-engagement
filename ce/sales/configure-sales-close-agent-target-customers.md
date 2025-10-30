@@ -1,7 +1,7 @@
 ---
 title: Configure target customers for Sales Close Agent
-description: 
-ms.date: 09/24/2025
+description: Define target customer segments for the Sales Close Agent to effectively engage with during outreach and follow-up activities. 
+ms.date: 11/07/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -22,8 +22,8 @@ ai-usage: ai-assisted
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Conditions defined here help to group customers (record type) into a segment and help agent to engage with the segmented customers during outreach and follow-up activities. For example, the opportunities that are unattended and potentially lower value could be mapped under this segment and worked on by the agent.  
-The agent considers records that are not assigned to other segments are processed for this record type. So, ensure that the conditions for this record type do not overlap with those of other segments.  
-Read the [create and activate a segment](wa-create-and-activate-a-segment.md#create-and-activate-a-segment) article to understand more about the segmentation.  
+The agent considers records that aren't assigned to other segments are processed for this record type. So, ensure that the conditions for this record type don't overlap with those of other segments.  
+To understand more about the segmentation, read the [create and activate a segment](wa-create-and-activate-a-segment.md#create-and-activate-a-segment) article.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -36,7 +36,7 @@ Read the [create and activate a segment](wa-create-and-activate-a-segment.md#cre
 1. In the conditions section, add conditions that are used to evaluate records for processing to the segment.  
     You can have up to 10 conditions at any given time including conditions that are based on groups and related entities.  
     By default, the following conditions are added depending on the selected record type:  
-    
+
     | Record type | Description |
     |-------------|-------------|
     | Contact | Records where the email contains data. The field name is `Email` and the operator is `Contains data`. |
@@ -49,7 +49,9 @@ Read the [create and activate a segment](wa-create-and-activate-a-segment.md#cre
         Add more conditions as needed, for a total of 10, to further filter the records that should be assigned to the segment.  
     - **Add group**: Add a group of conditions to filter records using multiple attributes that are combined by **And** or **Or**. If you select **And**, leads must meet all the conditions in the group. If you select **Or**, leads can meet any condition in the group.  
     - **Add related entity**: Add a condition that's based on the attributes of related tables. Select an attribute in the **Related Entity** list, then select **Contains data** or **Does not contain data**, and then define the condition.  
-1. (Optional) When you've finished defining the conditions, select **Preview** to view a list of records that satisfy the conditions.
+1. (Optional) When you've finished defining the conditions, select **Preview** to view a list of records that satisfy the conditions.  
+    At the bottom of the list, on the left, you can see the number of records that match the conditions and on the right side shows the total number of records available in the application.  
+    If you're satisfied with the results, you can continue with the next configuration step.  
 
 ## Next step
 

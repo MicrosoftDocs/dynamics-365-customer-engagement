@@ -212,6 +212,10 @@ items:
                   href: configure-sales-close-agent-target-customers.md
                 - name: Configure email delivery settings
                   href: configure-sales-close-agent-email-delivery.md
+                - name: Configure email content
+                  href: configure-sales-close-agent-email-content.md
+                - name: Configure knowledge sources
+                  href: configure-sales-close-agent-knowledge-sources.md
               - name: Start the agent 
                 href: start-sales-close-agent.md
               - name: Manage the agent

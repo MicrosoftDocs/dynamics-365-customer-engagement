@@ -94,12 +94,12 @@ Let's look at the steps to set up and configure the agents.
     - [Create an app user in Dataverse and assign AISalesPerson role](configure-requirements-for-sqa-agent.md#create-an-app-user-in-dataverse-and-assign-aisalesperson-role)
     - [Create a shared mailbox](configure-requirements-for-sqa-agent.md#create-a-shared-mailbox)
     - [Configure server-side synchronization](configure-requirements-for-sqa-agent.md#configuring-server-side-synchronization)  
-1. [Configure general information](sales-qualification-agent-general-settings.md) for agent such as profile, company info, and products.  
-1. [Configure selection criteria](sales-qualification-agent-selection-criteria.md) for the agent process the leads.  
-1. [Configure email instructions and address validation](sales-qualification-agent-email-instruction-validation.md) for the agent.
-1. [Configure handoff criteria](configure-sales-qualification-agent-handoff-criteria.md) for the agent to identify leads that are a good fit for further engagement.  
-1. [Configure assignment rules](configure-sqa-assignment-rules.md) for the agent to assign processed leads to the appropriate sellers.  
-1. [Configure knowledge sources](configure-sqa-knowledge-source.md) for company and competitor insights, outreach, and follow-up emails.
+1. [Configure the agent profile](configure-sales-close-agent-profile.md) for agent such as profile, company info, and email signature.  
+1. [Configure the product details](configure-sales-close-agent-product-details.md) that the agent uses to recommend products during customer interactions.  
+1. [Configure target customers](configure-sales-close-agent-target-customers.md) for the agent to process the records.  
+1. [Configure email delivery settings](configure-sales-close-agent-email-delivery.md) for the agent to send outreach and follow-up emails to customers.  
+1. [Configure email content](configure-sales-close-agent-email-content.md) that the agent uses for outreach and follow-up emails.  
+1. [Configure knowledge sources](configure-sales-close-agent-knowledge-sources.md) that the agent uses to enrich customer interactions.  
 1. After you are satisfied with the configuration, [start the agent](start-sales-close-agent.md).
 
 ## Related information
