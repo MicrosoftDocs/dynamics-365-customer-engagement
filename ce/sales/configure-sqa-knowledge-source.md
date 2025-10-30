@@ -19,21 +19,21 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Add knowledge sources that the agent can use for researching leads and their companies, and for drafting outreach and follow-up emails. For example, you can add customer testimonials and case studies as knowledge sources for outreach emails to engage leads effectively.
+Add knowledge sources that the agent can use for researching leads and their companies, and for drafting outreach and follow-up emails. For example, you can add customer testimonials and case studies as knowledge sources for outreach emails to engage with leads effectively.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Considerations
 
-Consider the following before you configure knowledge sources for the Sales Qualification Agent:
+Before you configure knowledge sources for the Sales Qualification Agent, consider the following factors:
 
-- When you add a knowledge source to the agent, you're redirected to Copilot Studio. So, ensure that you have the necessary permissions to access and modify the knowledge sources in Copilot Studio. The Sales Qualification Agent uses specialized, micro agents in Copilot Studio for outreach emails, follow-up emails, and research insights. Knowledge sources added to these micro agents are only used for the specific purpose it's configured for. For example, knowledge sources added to the **Research** micro agent are only used for research insights, and not for outreach emails or follow-up emails.
+- When you add a knowledge source to the agent, you'll be redirected to Microsoft Copilot Studio. So, ensure that you have the necessary permissions to access and modify the knowledge sources in Copilot Studio. The Sales Qualification Agent uses specialized, micro agents in Copilot Studio for outreach emails, follow-up emails, and research insights. Knowledge sources added to these micro agents are only used for the specific purpose it's configured for. For example, knowledge sources added to the **Research** micro agent are only used for research insights, and not for outreach emails or follow-up emails.
 
 - If the Sales Qualification Agent and Opportunity Research Agent are in the same environment, they share the same knowledge sources for account research insights. The knowledge sources that you add to or remove from one of the agents is reflected in the other agent as well. If you see knowledge sources that you didn't add, it's possible that those sources are configured for the Opportunity Research Agent. Don't remove them unless you want to remove them from both the agents.
 
-- Ensure that the knowledge sources that you want the agent to use are in the SharePoint folder. Any other file sources such as OneDrive aren't supported.
+- Ensure that any files or documents that you want the agent to use are in a SharePoint folder. Any other file sources such as OneDrive aren't supported.
 
-- When you upload files from SharePoint in Copilot Studio, select the **SharePoint** option in the **Featured** section. The **SharePoint** option under the **Upload file** section isn't supported. Selecting this option blocks the agent from processing the leads. The following screenshot shows the correct option to select in Copilot Studio:
+- In Copilot Studio, when you upload files from SharePoint, select the **SharePoint** option in the **Featured** section. The **SharePoint** option under the **Upload file** section isn't supported. Selecting this option blocks the agent from processing the leads. The following screenshot shows the correct option to select in Copilot Studio:
 
    :::image type="content" source="media/sales-qualification-agent-knowledge-source-sharepoint.png" alt-text="Screenshot showing the correct SharePoint option to select in Copilot Studio":::
 
