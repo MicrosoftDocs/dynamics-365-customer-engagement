@@ -386,20 +386,22 @@
           items: 
           - name: Omnichannel for Customer Service dashboards
             href: omnichannel-analytics-insights.md
-          - name: Omnichannel Summary dashboard
+          - name: Summary dashboard
             href: omnichannel-summary-dashboard.md
-          - name: Omnichannel Conversation dashboard
+          - name: Conversation dashboard
             href: oc-conversation-dashboard.md
-          - name: Omnichannel Queue dashboard
+          - name: Queue dashboard
             href: oc-queue-dashboard.md
-          - name: Omnichannel Voice dashboard
+          - name: Voice dashboard
             href: voice-channel-reports-analytics.md   
-          - name: Omnichannel Agent dashboard
+          - name: Agent dashboard
             href: agent-dashboard.md
-          - name: Omnichannel Bot dashboard
+          - name: Bot dashboard
             href: oc-bot-dashboard.md  
-          - name: Omnichannel Voicemail dashboard
-            href: oc-voicemail-dashboard.md          
+          - name: Voicemail dashboard
+            href: oc-voicemail-dashboard.md
+          - name: Proactive Outbound dashboard
+            href: proactive-outbound.md          
         - name: Use knowledge analytics
           href: knowledge-search-analytics-cs.md
         - name: Use Copilot analytics
