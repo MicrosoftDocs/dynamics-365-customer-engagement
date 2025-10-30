@@ -55,5 +55,5 @@ Depending on your role, use the following links to configure and use the Sales C
 
 | Role | Action |
 |------|--------|
-| Administrator | [Set up and configure the Sales Close Agent](configure-sales-close-agent.md)<br> |
-
+| Administrator | [Set up and configure the Sales Close Agent](configure-sales-close-agent.md)<br>[Start the agent](start-sales-close-agent.md)<br>[Manage the agent](manage-sales-close-agent.md)<br>[How the Sales Close Agent Engage mode works](how-sales-close-agent-engage-mode-works.md) |
+| Supervisor | [View agent insights and metrics](view-sales-close-agent-engage-insights-metrics.md)<br>[How the Sales Close Agent Engage mode works](how-sales-close-agent-engage-mode-works.md) |

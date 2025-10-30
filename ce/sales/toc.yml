@@ -226,8 +226,8 @@ items:
                 href: configure-requirements-for-sales-close-agent.md  
               - name: View agent insights and metrics
                 href: view-sales-close-agent-engage-insights-metrics.md
-                  
-
+              - name: How the Sales Close Agent Engage mode works
+                href: how-sales-close-agent-engage-mode-works.md
           - name: Copilot Studio agents and Entra app registrations
             href: ai-agents-apps.md
           - name: FAQs about sales AI agents
