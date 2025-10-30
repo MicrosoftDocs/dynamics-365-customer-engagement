@@ -33,25 +33,21 @@ Learn more about managing the dashboards in [Manage historical analytics reports
 
 The following reports are available for Omnichannel historical analytics.
 
-### Summary
+- [Summary dashboard](omnichannel-summary-dashboard.md): The Summary dashboard gives you an integrated view of the Copilot agent and Omnichannel metrics.
 
-The Summary dashboard gives you an integrated view of the Copilot agent and Omnichannel metrics. Learn more in the [Summary dashboard](omnichannel-summary-dashboard.md).
+- [Conversation dashboard](oc-conversation-dashboard.md): The Conversation dashboard gives you a broad overview of the assisted support customer service experience in your organization.
 
-### Conversation
+- [Queue dashboard](oc-queue-dashboard.md): The Queue dashboard gives you a broad overview of the customer service experience in your organization by providing insights into how specific queues are operating.
 
-The Conversation dashboard gives you a broad overview of the assisted support customer service experience in your organization. Learn more in the [Conversation dashboard](oc-conversation-dashboard.md).
+- [Voice dashboard](voice-channel-reports-analytics.md): The Voice dashboard provides comprehensive information on the overall performance of customer support across the voice channel.
 
-### Queue
+- [Agent dashboard](agent-dashboard.md#agent-dashboard): The Agent dashboard shows charts and KPIs that you can use to guide service representatives and understand overall  representative performance.
 
-The Queue dashboard gives you a broad overview of the customer service experience in your organization by providing insights into how specific queues are operating. Learn more in [Queue dashboard](oc-queue-dashboard.md).
+- [Bot dashboard](oc-bot-dashboard.md): The Bot dashboard shows charts and KPIs that you can use to understand how AI agents are playing a role in a support organization.
 
-### Agent
+- [Voicemail dashboard](oc-voicemail-dashboard.md): The Voicemail dashboard provides a view of the voicemails with details, such as the voicemail status and the number of voicemails per queue and representative.
 
-The Agent dashboard shows charts and KPIs that you can use to guide service representatives and understand overall  representative performance. Learn more in the [Agent dashboard](agent-dashboard.md#agent-dashboard).
-
-### Bot
-
-The Bot dashboard shows charts and KPIs that you can use to understand how AI agents are playing a role in a support organization. Learn more in the [Bot dashboard](oc-bot-dashboard.md).
+- [Proactive Outbound](proactive outbound.md): The Proactive Outbound dashboard provides organizations with detailed insights into outbound customer engagements initiated through proactive outreach. 
 
 > [!NOTE]
 > The reports don't include work items of the Entity Record channel.
