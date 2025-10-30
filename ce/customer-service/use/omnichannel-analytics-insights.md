@@ -47,7 +47,7 @@ The following reports are available for Omnichannel historical analytics.
 
 - [Voicemail dashboard](oc-voicemail-dashboard.md): The Voicemail dashboard provides a view of the voicemails with details, such as the voicemail status and the number of voicemails per queue and representative.
 
-- [Proactive Outbound](proactive outbound.md): The Proactive Outbound dashboard provides organizations with detailed insights into outbound customer engagements initiated through proactive outreach. 
+- [Proactive Outbound dashboard](proactive-outbound.md): The Proactive Outbound dashboard provides organizations with detailed insights into outbound customer engagements initiated through proactive outreach. 
 
 > [!NOTE]
 > The reports don't include work items of the Entity Record channel.
