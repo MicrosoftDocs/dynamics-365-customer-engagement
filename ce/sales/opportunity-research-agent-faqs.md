@@ -44,13 +44,16 @@ The following table illustrates when the Opportunity Research Agent processes op
 | Updates to [fields that trigger](#which-fields-trigger-the-agent-to-refresh-the-research-data-when-updated) the agent to refresh the research data. | Immediately after the opportunity is saved.            |
 | Updates to other fields in existing opportunities.                                            | During the next scheduled refresh cycle.            |
 
+> [!NOTE]
+> The refreshed research insights might take a few minutes to appear in the opportunity record.
+
 ## How often does the Opportunity Research Agent refresh research data?
 
 By default, the research data is refreshed once in three days. Your admin can change the frequency to High (daily) or Low (every seven days), depending on your business needs and Copilot Studio capacity. Learn more in [Configure the Opportunity Research Agent](configure-opportunity-research-agent.md). Apart from the scheduled refresh, [updates to specific fields](#which-fields-trigger-the-agent-to-refresh-the-research-data-when-updated) in the opportunity record also trigger the agent to refresh the research data immediately.
 
 ## Which fields trigger the agent to refresh the research data when updated?
 
-Updates to the following fields in the opportunity record trigger the agent to refresh the research data for the opportunity immediately. The updated research insights might take about 10 minutes to appear in the opportunity record.
+Updates to the following fields in the opportunity record trigger the agent to refresh the research data for the opportunity immediately. The updated research insights might take a few minutes to appear in the opportunity record.
 
 - Account (parentaccountid)
 - Contact (parentcontactid)
