@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 10/27/2025
+ms.date: 10/30/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -50,7 +50,7 @@ Learn more in [Add connection references to a solution.](/power-apps/maker/data-
 |AI agent  | AI Agent flow  |
 |---------|---------|
 |Customer Knowledge Management Agent |    **Knowledge Harvest Trigger Flow V2**    |
-|Quality Evaluation Agent   |  - **QEA On Demand Evaluation Case** for cases. <br> - **AI Evaluation Flow for Conversation** for conversations.    |
+|Quality Evaluation Agent   |  - **QEA On Demand Evaluation Case** for cases. <br> - **AI Evaluation Flow for Conversation** for conversations.  <br> - **Expire evaluations** |
 
 In [Power Automate](https://powerautomate.microsoft.com), search for your flow, for example, **Knowledge Harvest Trigger Flow V2** in **Cloud flows**, and turn it on. Learn more in [Power Automate](/power-automate/overview-cloud#find-your-flows-easily).
 
