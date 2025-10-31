@@ -17,7 +17,7 @@ Features that have been deprecated in Dynamics 365 Field Service are listed in t
 
 ## Dynamics 365 Field Service integrations with Microsoft Outlook, Teams, Viva Connections, and Planner - September 1, 2025
 
-The following Dynamics 365 Field Service integrations will no longer be available after October 30, 2025:
+The following Dynamics 365 Field Service integrations are deprecated after October 30, 2025:
 
 - Microsoft Outlook Add-in
 - Microsoft Teams app
@@ -44,7 +44,7 @@ The Dynamics 365 Field Service Plugin for Microsoft Copilot is no longer availab
 
 ## Dynamics 365 Field Service reports and features - September 3, 2024
 
-The following Dynamics 365 Field Service reports and features will no longer be available after November 2024.
+The following Dynamics 365 Field Service reports and features are no longer available after November 2024.
 - Predictive work duration reports (Preview)
 - Incident type AI suggestions
 - IoT alert suggestions

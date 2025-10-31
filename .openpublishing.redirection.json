@@ -35594,6 +35594,76 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/field-service/flw-admin.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/flw-copilot-setup.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/flw-customization.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/flw-outlook-get-started.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/flw-outlook.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/flw-overview.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/flw-teams-manager-get-started.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/flw-teams-manager.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/flw-teams-worker-get-started.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/flw-teams-worker.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/flw-whats-new.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/faqs-flm-copilot-email.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/faqs-wo-flw-copilot.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/planner-sync.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/field-service/flw-m365-chat.md",
       "redirect_url": "/dynamics365/field-service/deprecations-field-service",
       "redirect_document_id": false
