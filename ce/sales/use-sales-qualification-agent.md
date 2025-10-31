@@ -83,7 +83,7 @@ If you're a supervisor, you get notified when a lead is disqualified by the agen
 
 1. In the Sales Hub app, go to **Leads**.
 
-1. From the views drop-down, select **Leads from AI Agent**.
+1. From the views drop-down, select **My Leads from AI Agent**.
    > [!NOTE]
    > The agents hands over leads that [meet the handoff criteria](configure-sales-qualification-agent-handoff-criteria.md) defined by your admin. 
 1. Select a lead.
