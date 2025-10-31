@@ -201,7 +201,7 @@ items:
             items:
               - name: Overview
                 href: sales-close-agent.md
-              - name: Set up and configure Deal Close Agent
+              - name: Set up and configure Sales Close Agent - Engage mode
                 href: configure-sales-close-agent.md      
                 items:
                 - name: Open the settings page
