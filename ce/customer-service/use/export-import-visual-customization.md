@@ -24,6 +24,8 @@ You can:
 > - **Version compatibility**: You can import an older report into a newer organization version. Importing a newer report into an older organization version might not work.
 > - **Power BI file access**: You can't access Power BI files directly. You can only manage entity records.
 
+You see the export and import option when you edit a report.
+
 :::image type="content" source="../media/export-import-visuals.png" alt-text="Screenshot of export and import options in visual customization.":::
 
 ## Prerequisites
