@@ -121,7 +121,7 @@ Displays the conversation ID that one can copy, and details about the number of 
 - When the primary representative or AI agent leaves the session, the session ends, and the **Closure reason** is displayed with the time. Learn more about closure reasons in [Session closure reasons](/dynamics365/contact-center/extend/closure-reasons-descriptions).
 - When a consult session is added to the conversation, the representative being consulted appears indented beneath the primary representative. Their join and exit times for the consult are displayed, with details about whether they accepted the consult.
 
-:::image type="content" source="../media/closed-conversation-journey.png" alt-text="Screenshot of a conversation journey that appears in the closed conversation form." lightbox="../media/closed-conversation-journey.png":::
+   :::image type="content" source="../media/closed-conversation-journey.png" alt-text="Screenshot of a conversation journey that appears in the closed conversation form." lightbox="../media/closed-conversation-journey.png":::
 
 ### Related information
 
