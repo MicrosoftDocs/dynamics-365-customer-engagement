@@ -69,6 +69,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_EntityRecordId](#BKMK_msdyn_EntityRecordId)
 - [msdyn_Isdefault](#BKMK_msdyn_Isdefault)
 - [msdyn_LanguageCode](#BKMK_msdyn_LanguageCode)
+- [msdyn_loc_ocautomatedactionruleid](#BKMK_msdyn_loc_ocautomatedactionruleid)
 - [msdyn_localizedtext](#BKMK_msdyn_localizedtext)
 - [msdyn_oclocalizationdataId](#BKMK_msdyn_oclocalizationdataId)
 - [msdyn_systemmessageid](#BKMK_msdyn_systemmessageid)
@@ -101,7 +102,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_customerlanguageid`|
-|RequiredLevel|None|
+|RequiredLevel|ApplicationRequired|
 |Type|Lookup|
 |Targets|msdyn_oclanguage|
 
@@ -182,7 +183,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_isdefault`|
-|RequiredLevel|None|
+|RequiredLevel|ApplicationRequired|
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_oclocalizationdata_msdyn_isdefault`|
 |DefaultValue|False|
@@ -203,12 +204,25 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MaxValue|100000|
 |MinValue|0|
 
+### <a name="BKMK_msdyn_loc_ocautomatedactionruleid"></a> msdyn_loc_ocautomatedactionruleid
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Timeout Rule**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_loc_ocautomatedactionruleid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_ocautomatedactionrule|
+
 ### <a name="BKMK_msdyn_localizedtext"></a> msdyn_localizedtext
 
 |Property|Value|
 |---|---|
-|Description|**Localized text of the original record.**|
-|DisplayName|**Localized text**|
+|Description|**Message text of the original record.**|
+|DisplayName|**Message text**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_localizedtext`|
@@ -467,6 +481,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_oclocalizationdata_createdonbehalfby](#BKMK_lk_msdyn_oclocalizationdata_createdonbehalfby)
 - [lk_msdyn_oclocalizationdata_modifiedby](#BKMK_lk_msdyn_oclocalizationdata_modifiedby)
 - [lk_msdyn_oclocalizationdata_modifiedonbehalfby](#BKMK_lk_msdyn_oclocalizationdata_modifiedonbehalfby)
+- [msdyn_ocautomatedactionrule_msdyn_ocautomatedactionrule_msdyn_oclocalizationdata](#BKMK_msdyn_ocautomatedactionrule_msdyn_ocautomatedactionrule_msdyn_oclocalizationdata)
 - [msdyn_oclanguage_msdyn_oclocalizationdata](#BKMK_msdyn_oclanguage_msdyn_oclocalizationdata)
 - [msdyn_ocsystemmessage_msdyn_oclocalizationdata](#BKMK_msdyn_ocsystemmessage_msdyn_oclocalizationdata)
 - [organization_msdyn_oclocalizationdata](#BKMK_organization_msdyn_oclocalizationdata)
@@ -522,6 +537,19 @@ One-To-Many Relationship: [systemuser lk_msdyn_oclocalizationdata_modifiedonbeha
 |ReferencingEntityNavigationPropertyName|`modifiedonbehalfby`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocautomatedactionrule_msdyn_ocautomatedactionrule_msdyn_oclocalizationdata"></a> msdyn_ocautomatedactionrule_msdyn_ocautomatedactionrule_msdyn_oclocalizationdata
+
+One-To-Many Relationship: [msdyn_ocautomatedactionrule msdyn_ocautomatedactionrule_msdyn_ocautomatedactionrule_msdyn_oclocalizationdata](msdyn_ocautomatedactionrule.md#BKMK_msdyn_ocautomatedactionrule_msdyn_ocautomatedactionrule_msdyn_oclocalizationdata)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocautomatedactionrule`|
+|ReferencedAttribute|`msdyn_ocautomatedactionruleid`|
+|ReferencingAttribute|`msdyn_loc_ocautomatedactionruleid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_loc_ocautomatedactionruleid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msdyn_oclanguage_msdyn_oclocalizationdata"></a> msdyn_oclanguage_msdyn_oclocalizationdata
 

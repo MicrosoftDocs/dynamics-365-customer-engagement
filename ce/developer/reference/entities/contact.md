@@ -352,6 +352,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_contact_msdyn_salesroutingrun_targetobject](#BKMK_msdyn_contact_msdyn_salesroutingrun_targetobject)
 - [msdyn_contact_msdyn_salessuggestion](#BKMK_msdyn_contact_msdyn_salessuggestion)
 - [msdyn_linkeditemvalidity_polymorphic_contactid](#BKMK_msdyn_linkeditemvalidity_polymorphic_contactid)
+- [msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User](#BKMK_msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User)
 - [msdyn_msdyn_lastagent_contact_msdyn_recordId](#BKMK_msdyn_msdyn_lastagent_contact_msdyn_recordId)
 - [msdyn_msdyn_preferredagent_contact_msdyn_recordId](#BKMK_msdyn_msdyn_preferredagent_contact_msdyn_recordId)
 - [msdyn_msdyn_salescopilotinsight_contact_msdyn_targetentityid](#BKMK_msdyn_msdyn_salescopilotinsight_contact_msdyn_targetentityid)
@@ -749,6 +750,18 @@ Many-To-One Relationship: [msdyn_linkedentityattributevalidity msdyn_linkeditemv
 |ReferencedEntityNavigationPropertyName|`msdyn_linkeditemvalidity_polymorphic_contactid`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User"></a> msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User
+
+Many-To-One Relationship: [msdyn_conversationparticipantinsights msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User](msdyn_conversationparticipantinsights.md#BKMK_msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationparticipantinsights`|
+|ReferencingAttribute|`msdyn_user`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_conversationparticipantinsights_contact_msdyn_user`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_lastagent_contact_msdyn_recordId"></a> msdyn_msdyn_lastagent_contact_msdyn_recordId
 

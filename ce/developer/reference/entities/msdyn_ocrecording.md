@@ -799,6 +799,7 @@ One-To-Many Relationship: [systemuser user_msdyn_ocrecording](systemuser.md#BKMK
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_msdyn_sciconversation_OCRecording_msdyn_o](#BKMK_msdyn_msdyn_sciconversation_OCRecording_msdyn_o)
 - [msdyn_ocrecording_AsyncOperations](#BKMK_msdyn_ocrecording_AsyncOperations)
 - [msdyn_ocrecording_BulkDeleteFailures](#BKMK_msdyn_ocrecording_BulkDeleteFailures)
 - [msdyn_ocrecording_DuplicateBaseRecord](#BKMK_msdyn_ocrecording_DuplicateBaseRecord)
@@ -808,6 +809,18 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_ocrecording_PrincipalObjectAttributeAccesses](#BKMK_msdyn_ocrecording_PrincipalObjectAttributeAccesses)
 - [msdyn_ocrecording_ProcessSession](#BKMK_msdyn_ocrecording_ProcessSession)
 - [msdyn_ocrecording_SyncErrors](#BKMK_msdyn_ocrecording_SyncErrors)
+
+### <a name="BKMK_msdyn_msdyn_sciconversation_OCRecording_msdyn_o"></a> msdyn_msdyn_sciconversation_OCRecording_msdyn_o
+
+Many-To-One Relationship: [msdyn_sciconversation msdyn_msdyn_sciconversation_OCRecording_msdyn_o](msdyn_sciconversation.md#BKMK_msdyn_msdyn_sciconversation_OCRecording_msdyn_o)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_sciconversation`|
+|ReferencingAttribute|`msdyn_ocrecording`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_sciconversation_ocrecording_msdyn_o`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_ocrecording_AsyncOperations"></a> msdyn_ocrecording_AsyncOperations
 

@@ -3487,6 +3487,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_sequencetarget_lead_msdyn_target](#BKMK_msdyn_sequencetarget_lead_msdyn_target)
 - [msdyn_summarysynthesizerinput_referenceobjectid_lead](#BKMK_msdyn_summarysynthesizerinput_referenceobjectid_lead)
 - [msdyn_summarysynthesizeroutput_ReferenceObjectId_lead](#BKMK_msdyn_summarysynthesizeroutput_ReferenceObjectId_lead)
+- [msdyn_synthesizeroutput_ReferenceObjectId_lead](#BKMK_msdyn_synthesizeroutput_ReferenceObjectId_lead)
 - [msdyn_triggersalesagent_regardingid_lead](#BKMK_msdyn_triggersalesagent_regardingid_lead)
 - [opportunity_originating_lead](#BKMK_opportunity_originating_lead)
 - [slakpiinstance_lead](#BKMK_slakpiinstance_lead)
@@ -4365,6 +4366,18 @@ Many-To-One Relationship: [msdyn_summarysynthesizeroutput msdyn_summarysynthesiz
 |ReferencingEntity|`msdyn_summarysynthesizeroutput`|
 |ReferencingAttribute|`msdyn_referenceobjectid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_summarysynthesizeroutput_ReferenceObjectId_lead`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_synthesizeroutput_ReferenceObjectId_lead"></a> msdyn_synthesizeroutput_ReferenceObjectId_lead
+
+Many-To-One Relationship: [msdyn_synthesizeroutput msdyn_synthesizeroutput_ReferenceObjectId_lead](msdyn_synthesizeroutput.md#BKMK_msdyn_synthesizeroutput_ReferenceObjectId_lead)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_synthesizeroutput`|
+|ReferencingAttribute|`msdyn_referenceobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_synthesizeroutput_ReferenceObjectId_lead`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

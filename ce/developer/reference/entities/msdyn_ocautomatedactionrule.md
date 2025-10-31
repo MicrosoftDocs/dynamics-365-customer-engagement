@@ -1,6 +1,6 @@
 ---
-title: "Automated action rule (msdyn_ocautomatedactionrule) table/entity reference (Microsoft Dynamics 365)"
-description: "Includes schema information and supported messages for the Automated action rule (msdyn_ocautomatedactionrule) table/entity with Microsoft Dynamics 365."
+title: "Timeout Rule (msdyn_ocautomatedactionrule) table/entity reference (Microsoft Dynamics 365)"
+description: "Includes schema information and supported messages for the Timeout Rule (msdyn_ocautomatedactionrule) table/entity with Microsoft Dynamics 365."
 ms.topic: generated-reference
 author: JimDaly
 ms.author: jdaly
@@ -8,13 +8,13 @@ search.audienceType:
   - developer
 ---
 
-# Automated action rule (msdyn_ocautomatedactionrule) table/entity reference (Microsoft Dynamics 365)
+# Timeout Rule (msdyn_ocautomatedactionrule) table/entity reference (Microsoft Dynamics 365)
 
 The omnichannel automated action rules.
 
 ## Messages
 
-The following table lists the messages for the Automated action rule (msdyn_ocautomatedactionrule) table.
+The following table lists the messages for the Timeout Rule (msdyn_ocautomatedactionrule) table.
 Messages represent operations that can be performed on the table. They may also be events.
 
 | Name <br />Is Event? |Web API Operation |SDK for .NET |
@@ -46,12 +46,12 @@ Messages represent operations that can be performed on the table. They may also 
 
 ## Properties
 
-The following table lists selected properties for the Automated action rule (msdyn_ocautomatedactionrule) table.
+The following table lists selected properties for the Timeout Rule (msdyn_ocautomatedactionrule) table.
 
 |Property|Value|
 | --- | --- |
-| **DisplayName** | **Automated action rule** |
-| **DisplayCollectionName** | **Automated action rules** |
+| **DisplayName** | **Timeout Rule** |
+| **DisplayCollectionName** | **Timeout Rules** |
 | **SchemaName** | `msdyn_ocautomatedactionrule` |
 | **CollectionSchemaName** | `msdyn_ocautomatedactionrules` |
 | **EntitySetName** | `msdyn_ocautomatedactionrules`|
@@ -114,8 +114,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**The action type of the automated action rule.**|
-|DisplayName|**Action type**|
+|Description|**The action of the automated action rule.**|
+|DisplayName|**Action**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_actiontype`|
@@ -138,8 +138,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**The event frequency of the automated action rule.**|
-|DisplayName|**Event frequency**|
+|Description|**The unit of time of the automated action rule.**|
+|DisplayName|**Unit of time**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_eventfrequency`|
@@ -160,8 +160,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**The event interval of the automated action rule.**|
-|DisplayName|**Event interval**|
+|Description|**The unit of the automated action rule.**|
+|DisplayName|**Unit**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_eventinterval`|
@@ -174,8 +174,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**The event type of the automated action rule.**|
-|DisplayName|**Event type**|
+|Description|**The trigger event of the automated action rule.**|
+|DisplayName|**Trigger event**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_eventtype`|
@@ -188,8 +188,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|
 |---|---|
-|772370000|**Customer waiting timeout**|
-|772370001|**Agent non-response time**|
+|772370000|**Customer Non-Response Time**|
+|772370001|**Representative Non-Response Time**|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
@@ -244,8 +244,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**The order of the automated action rule.**|
-|DisplayName|**Order**|
+|Description|**The priority of the automated action rule.**|
+|DisplayName|**Priority**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_order`|
@@ -322,7 +322,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Reason for the status of the Automated action rule**|
-|DisplayName|**Status Reason**|
+|DisplayName|**Status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`statuscode`|
@@ -783,6 +783,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_ocautomatedactionrule_DuplicateBaseRecord](#BKMK_msdyn_ocautomatedactionrule_DuplicateBaseRecord)
 - [msdyn_ocautomatedactionrule_DuplicateMatchingRecord](#BKMK_msdyn_ocautomatedactionrule_DuplicateMatchingRecord)
 - [msdyn_ocautomatedactionrule_MailboxTrackingFolders](#BKMK_msdyn_ocautomatedactionrule_MailboxTrackingFolders)
+- [msdyn_ocautomatedactionrule_msdyn_ocautomatedactionrule_msdyn_oclocalizationdata](#BKMK_msdyn_ocautomatedactionrule_msdyn_ocautomatedactionrule_msdyn_oclocalizationdata)
 - [msdyn_ocautomatedactionrule_PrincipalObjectAttributeAccesses](#BKMK_msdyn_ocautomatedactionrule_PrincipalObjectAttributeAccesses)
 - [msdyn_ocautomatedactionrule_ProcessSession](#BKMK_msdyn_ocautomatedactionrule_ProcessSession)
 - [msdyn_ocautomatedactionrule_SyncErrors](#BKMK_msdyn_ocautomatedactionrule_SyncErrors)
@@ -859,6 +860,18 @@ Many-To-One Relationship: [mailboxtrackingfolder msdyn_ocautomatedactionrule_Mai
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_ocautomatedactionrule_msdyn_ocautomatedactionrule_msdyn_oclocalizationdata"></a> msdyn_ocautomatedactionrule_msdyn_ocautomatedactionrule_msdyn_oclocalizationdata
+
+Many-To-One Relationship: [msdyn_oclocalizationdata msdyn_ocautomatedactionrule_msdyn_ocautomatedactionrule_msdyn_oclocalizationdata](msdyn_oclocalizationdata.md#BKMK_msdyn_ocautomatedactionrule_msdyn_ocautomatedactionrule_msdyn_oclocalizationdata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_oclocalizationdata`|
+|ReferencingAttribute|`msdyn_loc_ocautomatedactionruleid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocautomatedactionrule_msdyn_ocautomatedactionrule_msdyn_oclocalizationdata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_ocautomatedactionrule_PrincipalObjectAttributeAccesses"></a> msdyn_ocautomatedactionrule_PrincipalObjectAttributeAccesses
 
 Many-To-One Relationship: [principalobjectattributeaccess msdyn_ocautomatedactionrule_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_ocautomatedactionrule_PrincipalObjectAttributeAccesses)
@@ -894,6 +907,24 @@ Many-To-One Relationship: [syncerror msdyn_ocautomatedactionrule_SyncErrors](syn
 |ReferencedEntityNavigationPropertyName|`msdyn_ocautomatedactionrule_SyncErrors`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+
+## Many-to-Many relationships
+
+These relationships are many-to-many. Listed by **SchemaName**.
+
+### <a name="BKMK_msdyn_msdyn_channelprofile_msdyn_ocautomatedactionrule"></a> msdyn_msdyn_channelprofile_msdyn_ocautomatedactionrule
+
+See [msdyn_channelprofile msdyn_msdyn_channelprofile_msdyn_ocautomatedactionrule Many-To-Many Relationship](msdyn_channelprofile.md#BKMK_msdyn_msdyn_channelprofile_msdyn_ocautomatedactionrule)
+
+|Property|Value|
+|---|---|
+|IntersectEntityName|`msdyn_channelprofile_msdyn_ocautomateda`|
+|IsCustomizable|True|
+|SchemaName|`msdyn_msdyn_channelprofile_msdyn_ocautomatedactionrule`|
+|IntersectAttribute|`msdyn_ocautomatedactionruleid`|
+|NavigationPropertyName|`msdyn_msdyn_channelprofile_msdyn_ocautomatedactionrule`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 

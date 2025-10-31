@@ -94,6 +94,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_cdsqueueid](#BKMK_msdyn_cdsqueueid)
 - [msdyn_channel](#BKMK_msdyn_channel)
 - [msdyn_channelinstanceid](#BKMK_msdyn_channelinstanceid)
+- [msdyn_channelprofileid](#BKMK_msdyn_channelprofileid)
 - [msdyn_closurereason](#BKMK_msdyn_closurereason)
 - [msdyn_liveworkitemid](#BKMK_msdyn_liveworkitemid)
 - [msdyn_primarysession](#BKMK_msdyn_primarysession)
@@ -101,12 +102,15 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_queueassignedreason](#BKMK_msdyn_queueassignedreason)
 - [msdyn_queueid](#BKMK_msdyn_queueid)
 - [msdyn_routingfailurestage](#BKMK_msdyn_routingfailurestage)
+- [msdyn_sessionactivewrapuptimeinseconds](#BKMK_msdyn_sessionactivewrapuptimeinseconds)
 - [msdyn_sessionclosedon](#BKMK_msdyn_sessionclosedon)
 - [msdyn_sessioncreatedon](#BKMK_msdyn_sessioncreatedon)
 - [msdyn_sessioncreationreason](#BKMK_msdyn_sessioncreationreason)
 - [msdyn_sessionid](#BKMK_msdyn_sessionid)
 - [msdyn_sessionmodifiedon](#BKMK_msdyn_sessionmodifiedon)
+- [msdyn_sessionwrapuptimeinseconds](#BKMK_msdyn_sessionwrapuptimeinseconds)
 - [msdyn_state](#BKMK_msdyn_state)
+- [msdyn_wrapupinitiatedon](#BKMK_msdyn_wrapupinitiatedon)
 - [OptionalAttendees](#BKMK_OptionalAttendees)
 - [Organizer](#BKMK_Organizer)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -585,6 +589,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Lookup|
 |Targets|msdyn_channelinstance|
 
+### <a name="BKMK_msdyn_channelprofileid"></a> msdyn_channelprofileid
+
+|Property|Value|
+|---|---|
+|Description|**Channel Profile Associated with the Conversation**|
+|DisplayName|**Channel Profile Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_channelprofileid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_channelprofile|
+
 ### <a name="BKMK_msdyn_closurereason"></a> msdyn_closurereason
 
 |Property|Value|
@@ -639,6 +656,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350033|**ManuallyClosedConversation**|
 |192350034|**ManuallyClosedSession**|
 |192350035|**AgentTransferToAgentGroup**|
+|192350036|**ExternalAgentAccept**|
+|192350037|**ExternalAgentReject**|
+|192350052|**MonitorDisconnected**|
 
 ### <a name="BKMK_msdyn_liveworkitemid"></a> msdyn_liveworkitemid
 
@@ -750,6 +770,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350046|**BotCallFailureEscalate**|
 |192350049|**CustomerReconnect**|
 |192350050|**AgentGroupTransfer**|
+|192350052|**MonitorDisconnected**|
 
 ### <a name="BKMK_msdyn_queueid"></a> msdyn_queueid
 
@@ -785,6 +806,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |10|**None**|
 |1000|**Record Identification**|
 |2000|**Demand Classification**|
+
+### <a name="BKMK_msdyn_sessionactivewrapuptimeinseconds"></a> msdyn_sessionactivewrapuptimeinseconds
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Session Active Wrap Up Time In Seconds**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_sessionactivewrapuptimeinseconds`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
 
 ### <a name="BKMK_msdyn_sessionclosedon"></a> msdyn_sessionclosedon
 
@@ -887,6 +922,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350046|**BotCallFailureEscalate**|
 |192350049|**CustomerReconnect**|
 |192350050|**AgentGroupTransfer**|
+|192350052|**MonitorDisconnected**|
 
 ### <a name="BKMK_msdyn_sessionid"></a> msdyn_sessionid
 
@@ -922,6 +958,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |SourceTypeMask|0|
 
+### <a name="BKMK_msdyn_sessionwrapuptimeinseconds"></a> msdyn_sessionwrapuptimeinseconds
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Session Wrap Up Time In Seconds**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_sessionwrapuptimeinseconds`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
+
 ### <a name="BKMK_msdyn_state"></a> msdyn_state
 
 |Property|Value|
@@ -944,6 +994,24 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350001|**Active**|
 |192350002|**Closed**|
 |192350003|**New**|
+|192350004|**Wrap-up**|
+
+### <a name="BKMK_msdyn_wrapupinitiatedon"></a> msdyn_wrapupinitiatedon
+
+|Property|Value|
+|---|---|
+|Description|**Date and time when session wrap-up was initiated**|
+|DisplayName|**Wrap-up Status Intiated On**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_wrapupinitiatedon`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|True|
+|DateTimeBehavior|UserLocal|
+|Format|DateAndTime|
+|ImeMode|Auto|
+|SourceTypeMask|0|
 
 ### <a name="BKMK_OptionalAttendees"></a> OptionalAttendees
 
@@ -1751,6 +1819,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_msdyn_ocsession_msdyn_ocsession_primarysession](#BKMK_msdyn_msdyn_ocsession_msdyn_ocsession_primarysession-many-to-one)
 - [msdyn_ocsession_businessunit_owningbusinessunit](#BKMK_msdyn_ocsession_businessunit_owningbusinessunit)
 - [msdyn_ocsession_mailbox_sendermailboxid](#BKMK_msdyn_ocsession_mailbox_sendermailboxid)
+- [msdyn_ocsession_msdyn_channelprofileid_msdyn_channelprofile](#BKMK_msdyn_ocsession_msdyn_channelprofileid_msdyn_channelprofile)
 - [msdyn_ocsession_owner_ownerid](#BKMK_msdyn_ocsession_owner_ownerid)
 - [msdyn_ocsession_service_serviceid](#BKMK_msdyn_ocsession_service_serviceid)
 - [msdyn_ocsession_sla_slaid](#BKMK_msdyn_ocsession_sla_slaid)
@@ -2101,6 +2170,19 @@ One-To-Many Relationship: [mailbox msdyn_ocsession_mailbox_sendermailboxid](mail
 |ReferencingEntityNavigationPropertyName|`sendermailboxid_msdyn_ocsession`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocsession_msdyn_channelprofileid_msdyn_channelprofile"></a> msdyn_ocsession_msdyn_channelprofileid_msdyn_channelprofile
+
+One-To-Many Relationship: [msdyn_channelprofile msdyn_ocsession_msdyn_channelprofileid_msdyn_channelprofile](msdyn_channelprofile.md#BKMK_msdyn_ocsession_msdyn_channelprofileid_msdyn_channelprofile)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_channelprofile`|
+|ReferencedAttribute|`msdyn_channelprofileid`|
+|ReferencingAttribute|`msdyn_channelprofileid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_channelprofileid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msdyn_ocsession_owner_ownerid"></a> msdyn_ocsession_owner_ownerid
 

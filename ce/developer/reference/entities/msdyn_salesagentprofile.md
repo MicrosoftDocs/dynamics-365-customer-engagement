@@ -77,12 +77,16 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_MicroAgentsConfiguration](#BKMK_msdyn_MicroAgentsConfiguration)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_otherterms](#BKMK_msdyn_otherterms)
+- [msdyn_previousstatuscode](#BKMK_msdyn_previousstatuscode)
+- [msdyn_publishstartedon](#BKMK_msdyn_publishstartedon)
+- [msdyn_publishstatus](#BKMK_msdyn_publishstatus)
 - [msdyn_purpose](#BKMK_msdyn_purpose)
 - [msdyn_SalesAgentInfo](#BKMK_msdyn_SalesAgentInfo)
 - [msdyn_salesagentprofileId](#BKMK_msdyn_salesagentprofileId)
 - [msdyn_SalesAgentType](#BKMK_msdyn_SalesAgentType)
 - [msdyn_SegmentInfo](#BKMK_msdyn_SegmentInfo)
 - [msdyn_topic](#BKMK_msdyn_topic)
+- [msdyn_version](#BKMK_msdyn_version)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -244,6 +248,60 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|4000|
 
+### <a name="BKMK_msdyn_previousstatuscode"></a> msdyn_previousstatuscode
+
+|Property|Value|
+|---|---|
+|Description|**Previous status code.**|
+|DisplayName|**Previous status code**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`msdyn_previousstatuscode`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|-1|
+
+### <a name="BKMK_msdyn_publishstartedon"></a> msdyn_publishstartedon
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Publish started on**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_publishstartedon`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|True|
+|DateTimeBehavior|UserLocal|
+|Format|DateAndTime|
+|ImeMode|Auto|
+|SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_publishstatus"></a> msdyn_publishstatus
+
+|Property|Value|
+|---|---|
+|Description|**Status of agent publish operation**|
+|DisplayName|**Publish status**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_publishstatus`|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_salesagentprofile_msdyn_publishstatus`|
+
+#### msdyn_publishstatus Choices/Options
+
+|Value|Label|
+|---|---|
+|1|**Not started**|
+|2|**Publishing**|
+|3|**Succeeded**|
+|4|**Failed**|
+
 ### <a name="BKMK_msdyn_purpose"></a> msdyn_purpose
 
 |Property|Value|
@@ -301,7 +359,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |---|---|
 |1|**SQA Research**|
 |2|**SQA Autonomous**|
-|3|**DCA Research**|
+|3|**Opportunity Research**|
 |4|**DCA Autonomous**|
 
 ### <a name="BKMK_msdyn_SegmentInfo"></a> msdyn_SegmentInfo
@@ -332,6 +390,27 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_topic`|
 |RequiredLevel|None|
 |Type|Uniqueidentifier|
+
+### <a name="BKMK_msdyn_version"></a> msdyn_version
+
+|Property|Value|
+|---|---|
+|Description|**Version of sales agent profile**|
+|DisplayName|**Profile version**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_version`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_salesagentprofile_msdyn_version`|
+
+#### msdyn_version Choices/Options
+
+|Value|Label|
+|---|---|
+|1|**V1**|
+|2|**V2**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
@@ -419,6 +498,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |3|Label: **Off**<br />State:0<br />TransitionData: None|
 |4|Label: **Testing**<br />State:1<br />TransitionData: None|
 |5|Label: **Upgrade**<br />State:0<br />TransitionData: None|
+|6|Label: **Starting agent**<br />State:0<br />TransitionData: None|
+|7|Label: **Starting test**<br />State:0<br />TransitionData: None|
+|8|Label: **Applying changes**<br />State:1<br />TransitionData: None|
 
 ### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
 
