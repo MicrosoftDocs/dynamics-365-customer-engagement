@@ -1,7 +1,7 @@
 ---
 title: Configure Azure agents to escalate and end conversations
 description: Learn how to program agents in Azure to route conversations to representatives and also end conversations in Dynamics 365 Contact Center.
-ms.date: 10/30/2025
+ms.date: 10/31/2025
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
@@ -97,7 +97,7 @@ This section includes code samples that you can use to configure an Azure bot to
 
 1. Change the `Escalate` and `EndConversation` command criteria based on your requirements.
 
-1. Add the code statement `OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);` in your bot code to send messages to Omnichannel for Customer Service. This method must be called for every Activity message that's sent to the customer.
+1. Add the code statement `OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);` in your bot code to send messages to Dynamics 365 Contact Center. This method must be called for every Activity message that's sent to the customer.
 
     The sample code is as follows.
 
@@ -167,16 +167,17 @@ This section includes code samples that you can use to configure an Azure bot to
     }
     ```
 
-The dictionary `contextVars` contains all the Omnichannel for Customer Service context variable name value pairs that you want to update as part of the escalation request. Here `BotHandoffTopic` is the context variable name and **CreditCard** is the context variable value. If there's a representative queue with the rule **BotHandoffTopic** equals **CreditCar**, then this escalated chat will be routed to that queue.
+    The dictionary `contextVars` contains all the context variable name value pairs that you want to update as part of the escalation request. Here `BotHandoffTopic` is the context variable name and **CreditCard** is the context variable value. If there's a representative queue with the rule **BotHandoffTopic** equals **CreditCar**, then this escalated chat will be routed to that queue.
 
-The context variable name is of type String. The context variable value must be of type Integer or String, and should be passed as Dictionary<string, object> during escalation. The sample code is as follows.
+    The context variable name is of type String. The context variable value must be of type Integer or String, and should be passed as Dictionary<string, object> during escalation. The sample code is as follows.
 
-```csharp
-Dictionary<string, Object> keyValues = new Dictionary<string, object>() {
-{ "BotHandoffTopic", "CreditCard" },
-{ "IDNumber", 101}
-}
-```
+    ```csharp
+    Dictionary<string, Object> keyValues = new Dictionary<string, object>()
+    {
+        { "BotHandoffTopic", "CreditCard" },
+        { "IDNumber", 101}
+    }
+    ```
 
 The agent can also send an escalation summary that'll be visible only to the representative after the escalated chat request is accepted. To send the summary, set the activity text appropriately in the escalation Activity message.
 
