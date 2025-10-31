@@ -1,7 +1,7 @@
 ---
 title: Overview of Field Service integrations
 description: Learn how to integrate Dynamics 365 Field Service with your other business apps to streamline information management and field operations.
-ms.date: 09/30/2025
+ms.date: 10/31/2025
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
