@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 10/30/2025
+ms.date: 10/31/2025
 ms.custom: bap-template
 ---
 
@@ -23,6 +23,8 @@ You can:
 > - **Export and import support**: The export or import APIs support published visual customizations only. You can't export or import draft customizations.
 > - **Version compatibility**: You can import an older report into a newer organization version. Importing a newer report into an older organization version might not work.
 > - **Power BI file access**: You can't access Power BI files directly. You can only manage entity records.
+
+:::image type="content" source="../media/export-import-visuals.png" alt-text="Screenshot of export and import options in visual customization.":::
 
 ## Prerequisites
 
