@@ -1,7 +1,7 @@
 ---
 title: Field Service integration with finance and operations applications
 description: Synchronize inventories and budgeting items between Dynamics 365 Field Service and finance and operations applications.
-ms.date: 10/16/2025
+ms.date: 10/31/2025
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
