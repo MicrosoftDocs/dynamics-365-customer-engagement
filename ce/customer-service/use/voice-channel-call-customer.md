@@ -1,7 +1,7 @@
 ---
 title: Call a customer in the voice channel
 description: Use this article to understand how you can make customer calls.
-ms.date: 10/28/2025
+ms.date: 10/31/2025
 ms.custom: bap-template
 ms.topic: how-to
 author: gandhamm
@@ -21,7 +21,7 @@ You can launch the outbound dialer from the menu bar, **Contacts**, or **Active 
 
 Make sure that your administrator assigned a voice queue and an outbound capacity profile to your user profile. Learn more in [Manage contact center users](../administer/users-user-profiles.md#manage-contact-center-users).
 
-## Test call controls, make a test call 
+## Test call controls, make a test call
 
  In the outbound dialer, you can test your microphone and speaker before you make a call. You can also make a test call to check the quality of the call.
 
@@ -56,7 +56,6 @@ In Copilot Service workspace, select the **Launch dialer** phone icon on the men
 
 - Turn on **Noise suppression** to reduce background sounds during calls while keeping your voice clear. This setting reduces interruptions and improves customer experience.  
 
-
 ## Make a call by using the outbound dialer
 
 1. In Copilot Service workspace, go to **Contacts**, and then select a customer to call.
@@ -79,30 +78,28 @@ In Copilot Service workspace, select the **Launch dialer** phone icon on the men
      - When you enter the number you want to call, the application identifies the outbound profile that has the dialed number's country/region configured.
      - By default, the number pad is hidden. To display the number pad, select the number pad icon.
 
-1. Select **Call**. 
+1. Select **Call**.
 
-   > [!NOTE]
-   > - If you aren't assigned an outbound profile, you can't make a call.
-   > - You can initiate multiple calls at the same time.
+    > [!NOTE]
+    > - If you aren't assigned an outbound profile, you can't make a call.
+    > - You can initiate multiple calls at the same time.
 
-    :::image type="content" source="../media/outbound-dialer.png" alt-text="Outbound dialer for voice calls.":::
+     :::image type="content" source="../media/outbound-dialer.png" alt-text="Outbound dialer for voice calls.":::
 
+    The outbound dialer pane displays the following information:
 
-The outbound dialer pane displays the following information:
+     - A widget appears with the message, "Communication panel loading", and indicates that the call started.
 
-- A widget appears with the message, "Communication panel loading", and indicates that the call started.
+     - When the call connects, the customer details appear on the conversation page. The widget displays the call status and the **Mute** and **End call** call controls.
+     - The call controls you select on the widget reflect on the ongoing call in the Communication panel. For example, if you select **Mute** on the widget, the call is indicated as muted in the Communication panel.
+     - You can view all the active calls, including inbound and outbound, on the widget.
+     - If you have multiple active calls, the calls are displayed.
 
-- When the call connects, the customer details appear on the conversation page. The widget displays the call status and the **Mute** and **End call** call controls.
-- The call controls you select on the widget reflect on the ongoing call in the Communication panel. For example, if you select **Mute** on the widget, the call is indicated as muted in the Communication panel.
-- You can view all the active calls, including inbound and outbound, on the widget.
-- If you have multiple active calls, the calls are displayed.
-
-    :::image type="content" source="../media/outbound-dialer-improvement.png" alt-text="Screenshot of widget with Outbound dialer for voice calls.":::
-
+       :::image type="content" source="../media/outbound-dialer-improvement.png" alt-text="Screenshot of widget with Outbound dialer for voice calls.":::
 
 ### Related information
 
-[Use agent dashboard and call controls in the voice channel](/dynamics365/contact-center/use/voice-channel-agent-experience)    
+[Use agent dashboard and call controls in the voice channel](/dynamics365/contact-center/use/voice-channel-agent-experience)  
 [Overview of the voice channel](../administer/voice-channel.md)  
 [Use trial phone numbers in the voice channel](../administer/voice-channel-trial-phone-numbers.md)
 
