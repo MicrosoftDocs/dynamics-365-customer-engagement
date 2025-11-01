@@ -68,6 +68,7 @@ The following table lists selected properties for the Trigger Sales Agent (msdyn
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_macroagentorchestrationid](#BKMK_msdyn_macroagentorchestrationid)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_regardingid](#BKMK_msdyn_regardingid)
 - [msdyn_regardingidIdType](#BKMK_msdyn_regardingidIdType)
@@ -96,6 +97,18 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|2147483647|
 |MinValue|-2147483648|
+
+### <a name="BKMK_msdyn_macroagentorchestrationid"></a> msdyn_macroagentorchestrationid
+
+|Property|Value|
+|---|---|
+|Description|**Unique Id for the current macro agent orchestration run**|
+|DisplayName|**Macro Agent Orchestration Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_macroagentorchestrationid`|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 

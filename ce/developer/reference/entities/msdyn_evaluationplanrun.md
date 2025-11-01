@@ -418,6 +418,7 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 - [ModifiedBy](#BKMK_ModifiedBy)
 - [ModifiedOn](#BKMK_ModifiedOn)
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
+- [msdyn_RecordsIdentificationCompletedOn](#BKMK_msdyn_RecordsIdentificationCompletedOn)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
@@ -510,6 +511,23 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |RequiredLevel|None|
 |Type|Lookup|
 |Targets|systemuser|
+
+### <a name="BKMK_msdyn_RecordsIdentificationCompletedOn"></a> msdyn_RecordsIdentificationCompletedOn
+
+|Property|Value|
+|---|---|
+|Description|**Date and time when the records identification was completed.**|
+|DisplayName|**Records Identification Completed On**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_recordsidentificationcompletedon`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|UserLocal|
+|Format|DateAndTime|
+|ImeMode|Inactive|
+|SourceTypeMask|0|
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 

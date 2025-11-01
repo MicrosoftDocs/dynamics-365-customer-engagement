@@ -801,6 +801,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_channelinstance_SyncErrors](#BKMK_msdyn_channelinstance_SyncErrors)
 - [msdyn_msdyn_liveworkitem_msdyn_channelinstance](#BKMK_msdyn_msdyn_liveworkitem_msdyn_channelinstance)
 - [msdyn_msdyn_ocsession_msdyn_channelinstance](#BKMK_msdyn_msdyn_ocsession_msdyn_channelinstance)
+- [msdyn_msdyn_transcript_msdyn_channelinstance](#BKMK_msdyn_msdyn_transcript_msdyn_channelinstance)
 
 ### <a name="BKMK_msdyn_channelinstance_AsyncOperations"></a> msdyn_channelinstance_AsyncOperations
 
@@ -919,6 +920,18 @@ Many-To-One Relationship: [msdyn_ocsession msdyn_msdyn_ocsession_msdyn_channelin
 |ReferencingEntity|`msdyn_ocsession`|
 |ReferencingAttribute|`msdyn_channelinstanceid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_msdyn_ocsession_msdyn_channelinstance`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_transcript_msdyn_channelinstance"></a> msdyn_msdyn_transcript_msdyn_channelinstance
+
+Many-To-One Relationship: [msdyn_transcript msdyn_msdyn_transcript_msdyn_channelinstance](msdyn_transcript.md#BKMK_msdyn_msdyn_transcript_msdyn_channelinstance)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_transcript`|
+|ReferencingAttribute|`msdyn_channelinstanceid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_transcript_msdyn_channelinstance`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

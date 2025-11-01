@@ -1733,6 +1733,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_msdyn_liveworkstream_msdyn_ocautomatedactionrulesmapping_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_ocautomatedactionrulesmapping_liveworkstreamid)
 - [msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid)
 - [msdyn_msdyn_liveworkstream_msdyn_ocliveworkstreamcontextvariable_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_ocliveworkstreamcontextvariable_liveworkstreamid)
+- [msdyn_msdyn_liveworkstream_msdyn_ocmessagemaskingrule_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_ocmessagemaskingrule_liveworkstreamid)
 - [msdyn_msdyn_liveworkstream_msdyn_unifiedroutingrun_workstream](#BKMK_msdyn_msdyn_liveworkstream_msdyn_unifiedroutingrun_workstream)
 - [msdyn_msdyn_liveworkstream_msdyn_urnotificationtemplatemapping_workstream](#BKMK_msdyn_msdyn_liveworkstream_msdyn_urnotificationtemplatemapping_workstream)
 - [msdyn_msdyn_liveworkstream_msdyn_workstream_bot](#BKMK_msdyn_msdyn_liveworkstream_msdyn_workstream_bot)
@@ -1915,6 +1916,18 @@ Many-To-One Relationship: [msdyn_ocliveworkstreamcontextvariable msdyn_msdyn_liv
 |ReferencingEntity|`msdyn_ocliveworkstreamcontextvariable`|
 |ReferencingAttribute|`msdyn_liveworkstreamid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_msdyn_liveworkstream_msdyn_ocliveworkstreamcontextvariable_liveworkstreamid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_ocmessagemaskingrule_liveworkstreamid"></a> msdyn_msdyn_liveworkstream_msdyn_ocmessagemaskingrule_liveworkstreamid
+
+Many-To-One Relationship: [msdyn_ocmessagemaskingrule msdyn_msdyn_liveworkstream_msdyn_ocmessagemaskingrule_liveworkstreamid](msdyn_ocmessagemaskingrule.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_ocmessagemaskingrule_liveworkstreamid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocmessagemaskingrule`|
+|ReferencingAttribute|`msdyn_liveworkstreamid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_liveworkstream_msdyn_ocmessagemaskingrule_liveworkstreamid`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
