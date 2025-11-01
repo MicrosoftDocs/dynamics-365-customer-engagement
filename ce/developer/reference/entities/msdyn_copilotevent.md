@@ -161,7 +161,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |FormatName|Json|
 |ImeMode|Auto|
 |IsLocalizable|False|
-|MaxLength|2000|
+|MaxLength|1048576|
 
 ### <a name="BKMK_msdyn_interactionforid"></a> msdyn_interactionforid
 
@@ -239,6 +239,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |100230322|**RecordUpdated**|
 |100230323|**ResolveCase**|
 |100230324|**Escalate**|
+|100230325|**TemplateRecommended**|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 

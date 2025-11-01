@@ -22,9 +22,9 @@ Sales AI agents are AI-powered assistants that help sales teams automate and enh
 
 Dynamics 365 Sales currently supports the following AI agents:
 
-- **Sales Qualification Agent (preview)**: This agent helps sales representatives qualify leads by engaging with potential customers through email conversations. It uses natural language processing to understand customer responses, ask relevant questions, and determine lead quality based on predefined criteria.
-- **Opportunity Research Agent (preview)**: This agent assists sales representatives in researching and gathering information about potential sales opportunities. It can analyze customer data, market trends, and competitor information to provide insights and recommendations that help sales reps better understand their prospects and tailor their sales strategies accordingly.
-- **Sales Research Agent (preview)**: This agent helps sales teams solve complex business questions through a dialog with your data using natural language. It can analyze sales data, customer interactions, and market trends to provide insights and recommendations that help sales reps make informed decisions and improve their sales strategies.
+- **Sales Qualification Agent (preview)**: This agent helps sales representatives qualify leads by engaging with potential customers through email conversations. It provides insights about leads, evaluates their fit with the ideal customer profile, and autonomously engages with them to assess their purchase intent. Learn more: [Sales Qualification Agent overview (preview)](sales-qualification-agent.md)
+- **Opportunity Research Agent (preview)**: This agent assists sales representatives in researching and gathering information about potential sales opportunities. It can analyze customer data, market trends, and competitor information to provide insights and recommendations that help sales reps better understand their prospects and tailor their sales strategies accordingly. Learn more: [Opportunity Research Agent overview (preview)](opportunity-research-agent.md)
+- **Sales Research Agent (preview)**: This agent helps sales teams solve complex business questions through a dialog with your data using natural language. It can analyze sales data, customer interactions, and market trends to provide insights and recommendations that help sales reps make informed decisions and improve their sales strategies. Learn more: [Sales Research Agent overview (preview)](sales-research-agent.md)
 
 ## Links to sales AI agents FAQs 
 

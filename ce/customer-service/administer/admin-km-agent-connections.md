@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 10/27/2025
+ms.date: 10/30/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -50,11 +50,11 @@ Learn more in [Add connection references to a solution.](/power-apps/maker/data-
 |AI agent  | AI Agent flow  |
 |---------|---------|
 |Customer Knowledge Management Agent |    **Knowledge Harvest Trigger Flow V2**    |
-|Quality Evaluation Agent   |  - **QEA On Demand Evaluation Case** for cases. <br> - **AI Evaluation Flow for Conversation** for conversations.    |
+|Quality Evaluation Agent   |  - **QEA On Demand Evaluation Case** for cases. <br> - **AI Evaluation Flow for Conversation** for conversations.  <br> - **Expire evaluations** |
 
 In [Power Automate](https://powerautomate.microsoft.com), search for your flow, for example, **Knowledge Harvest Trigger Flow V2** in **Cloud flows**, and turn it on. Learn more in [Power Automate](/power-automate/overview-cloud#find-your-flows-easily).
 
-Aternatively, in [make.powerapps.com](https://make.powerapps.com) from **Solutions** > **Default Solution** > **Objects** > **Cloud flows**, select your flow, and then select **Turn on**.
+Alternatively, in [make.powerapps.com](https://make.powerapps.com) from **Solutions** > **Default Solution** > **Objects** > **Cloud flows**, select your flow, and then select **Turn on**.
 
 ## Publish the Microsoft Copilot Studio agent
 
@@ -72,4 +72,4 @@ Once done, go to the Copilot Service admin center and enable your agent.
 
 [Overview of cloud flows](/power-automate/overview-cloud)  
 [Manage Customer Knowledge Management Agent](admin-km-agent.md)  
-[Manage Quality Evaluation Agent](/dynamics365/contact-center/administer/manage-quality-evaluation-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml)
+[Manage Quality Evaluation Agent](/dynamics365/contact-center/administer/manage-quality-evaluation-agent)
