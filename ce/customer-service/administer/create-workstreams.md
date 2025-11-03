@@ -99,7 +99,7 @@ In the **Work distribution** area of a workstream, you can either accept the def
 - **Block capacity for wrap up**: 
   - **Always block**: Is the default selection. The representative capacity is consumed until the representative or supervisor closes the conversation or the system closes them automatically based on the configured time. Learn more in [Close conversations automatically](auto-close-conversation-powerapps.md#default-time-for-automatic-closure-of-conversations).
   - **Don't block**: The representative capacity is released immediately when the conversation moves to the **Wrap-up** state.
-  - **Custom time**: Additional fields are enabled where you can select a duration starting from 30 seconds to 60 minutes to block capacity. At runtime, after the specified duration elapses, the system releases the capacity and automatically resets presence.
+  - **Custom time**: More fields are enabled where you can select a duration starting from 30 seconds to 60 minutes to block capacity. At runtime, after the specified duration elapses, the system releases the capacity and automatically resets presence.
   
   > [!NOTE]
   > If you selected **End of Day mode** in capacity profile, representative capacity isn't reset when the duration selected in **Block capacity for wrap up** is over.
@@ -146,7 +146,7 @@ Select a workstream to perform any of the following actions:
 - **Edit**: Lets you edit the workstream, such as add a new channel or update the existing settings.
 - **Copy**: Lets you create a copy of the workstream with all the properties, such as the rules, so that you can reuse the configured workstream in another organization. The copied workstream name is prefixed with "Copy of "*`<workstream>`*.
 - **Delete**: Lets you delete the workstream if you no longer need it in your organization. Remove the following dependencies before deleting the workstream:
-      - For record routing, delete the intake rules if any.
+      - For record routing, delete the intake rules if any exist.
       - [Close the associated queue items and live work items](../develop/deactivate-queue-items.md).
 - **Fallback queue**: Select an existing queue or create a queue to set as the fallback queue. More information: [Fallback queues](queues-omnichannel.md#how-fallback-queues-work)
 - **Share**: Select a workstream to share with users or teams in your organization. In the **Share records** dialog that appears, select the users or teams. You can also set the permissions for each user or team. When you share a record permission, it doesn't automatically grant privileges to all the records of the related tables. You need to create a custom plugin to set permissions for the related tables listed for the workstream when you set permissions for the parent table record.
@@ -155,9 +155,9 @@ Select a workstream to perform any of the following actions:
 
 The representative affinity feature makes sure that work items are assigned to the service representatives based on their work history. When a waiting conversation becomes active, it's automatically reassigned to the same representative who handled the conversation previously, irrespective of the representative's capacity and presence. However, the agent affinity setting must align with the settings of the notification template that's associated with the workstream. If auto assign work items is set to no in the notification template, the system overrides the agent affinity setting.
 
-Agent affinity is enabled by default for persistent chat, SMS, social channels, and Microsoft Teams. In these channels, when a conversation moves from the waiting to active state, it might not get assigned to the same representative who had previously handled it. You can set the **Keep same agent for entire conversation** toggle to **Yes** when you configure the work distribution for the workstream to reassign the conversation to the representative. This helps save the effort to reorient the representative or set the context about the customer issue again. 
+Agent affinity is enabled by default for persistent chat, SMS, social channels, and Microsoft Teams. In these channels, when a conversation moves from the waiting to active state, it might not get assigned to the same representative who previously handled it. You can set the **Keep same agent for entire conversation** toggle to **Yes** when you configure the work distribution for the workstream to reassign the conversation to the representative. This setting helps save the effort to reorient the representative or set the context about the customer issue again. 
 
-However, for live chat, there's no waiting state. So, when the state of the conversation changes from active to open state, it's reassigned to the same representative. The representative can choose to reject the assigned conversation via the notification pane.
+However, for live chat, there's no waiting state. So, when the state of the conversation changes from active to open state, the system reassigns it to the same representative. The representative can choose to reject the assigned conversation in the notification pane.
 
 > [!NOTE]
 > Agent affinity is applicable for push type of work distribution only.
