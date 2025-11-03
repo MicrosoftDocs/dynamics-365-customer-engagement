@@ -100,7 +100,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Unique identifier for entity instances**|
-|DisplayName|**Customer Voice alert rule**|
+|DisplayName|**Task  Rule**|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`msfp_alertruleid`|
@@ -213,7 +213,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Status of the Customer Voice alert rule**|
+|Description|**Status of the Task  Rule**|
 |DisplayName|**Status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -234,7 +234,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Reason for the status of the Customer Voice alert rule**|
+|Description|**Reason for the status of the Task  Rule**|
 |DisplayName|**Status Reason**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -574,7 +574,7 @@ One-To-Many Relationship: [msfp_satisfactionmetric msfp_msfp_satisfactionmetric_
 |ReferencingAttribute|`msfp_satisfactionmetric`|
 |ReferencingEntityNavigationPropertyName|`msfp_satisfactionmetric`|
 |IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_owner_msfp_alertrule"></a> owner_msfp_alertrule
 
