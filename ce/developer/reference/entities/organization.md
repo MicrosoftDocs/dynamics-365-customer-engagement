@@ -294,6 +294,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [organization_msdyn_activityanalysisconfig](#BKMK_organization_msdyn_activityanalysisconfig)
 - [organization_msdyn_adaptivecardconfiguration](#BKMK_organization_msdyn_adaptivecardconfiguration)
 - [organization_msdyn_agentcopilotsetting](#BKMK_organization_msdyn_agentcopilotsetting)
+- [organization_msdyn_agentcopilotterm](#BKMK_organization_msdyn_agentcopilotterm)
 - [organization_msdyn_agentresourceforecasting](#BKMK_organization_msdyn_agentresourceforecasting)
 - [organization_msdyn_appcopilotconfiguration](#BKMK_organization_msdyn_appcopilotconfiguration)
 - [organization_msdyn_attributeinfluencestatistics](#BKMK_organization_msdyn_attributeinfluencestatistics)
@@ -655,6 +656,18 @@ Many-To-One Relationship: [msdyn_agentcopilotsetting organization_msdyn_agentcop
 |ReferencingEntity|`msdyn_agentcopilotsetting`|
 |ReferencingAttribute|`organizationid`|
 |ReferencedEntityNavigationPropertyName|`organization_msdyn_agentcopilotsetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_organization_msdyn_agentcopilotterm"></a> organization_msdyn_agentcopilotterm
+
+Many-To-One Relationship: [msdyn_agentcopilotterm organization_msdyn_agentcopilotterm](msdyn_agentcopilotterm.md#BKMK_organization_msdyn_agentcopilotterm)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_agentcopilotterm`|
+|ReferencingAttribute|`organizationid`|
+|ReferencedEntityNavigationPropertyName|`organization_msdyn_agentcopilotterm`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

@@ -509,6 +509,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_scicustomhighlight_createdonbehalfby](#BKMK_lk_msdyn_scicustomhighlight_createdonbehalfby)
 - [lk_msdyn_scicustomhighlight_modifiedby](#BKMK_lk_msdyn_scicustomhighlight_modifiedby)
 - [lk_msdyn_scicustomhighlight_modifiedonbehalfby](#BKMK_lk_msdyn_scicustomhighlight_modifiedonbehalfby)
+- [msdyn_msdyn_scicustomhighlight_HighlightTarget_](#BKMK_msdyn_msdyn_scicustomhighlight_HighlightTarget_)
 - [msdyn_msdyn_scicustomhighlight_Publisher_msdyn_](#BKMK_msdyn_msdyn_scicustomhighlight_Publisher_msdyn_)
 - [owner_msdyn_scicustomhighlight](#BKMK_owner_msdyn_scicustomhighlight)
 - [team_msdyn_scicustomhighlight](#BKMK_team_msdyn_scicustomhighlight)
@@ -578,6 +579,19 @@ One-To-Many Relationship: [systemuser lk_msdyn_scicustomhighlight_modifiedonbeha
 |ReferencingEntityNavigationPropertyName|`modifiedonbehalfby`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_msdyn_scicustomhighlight_HighlightTarget_"></a> msdyn_msdyn_scicustomhighlight_HighlightTarget_
+
+One-To-Many Relationship: [msdyn_conversationaggregatedinsights msdyn_msdyn_scicustomhighlight_HighlightTarget_](msdyn_conversationaggregatedinsights.md#BKMK_msdyn_msdyn_scicustomhighlight_HighlightTarget_)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_conversationaggregatedinsights`|
+|ReferencedAttribute|`msdyn_conversationaggregatedinsightsid`|
+|ReferencingAttribute|`msdyn_highlighttarget`|
+|ReferencingEntityNavigationPropertyName|`msdyn_highlighttarget`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Cascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 
 ### <a name="BKMK_msdyn_msdyn_scicustomhighlight_Publisher_msdyn_"></a> msdyn_msdyn_scicustomhighlight_Publisher_msdyn_
 

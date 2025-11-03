@@ -168,7 +168,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Properties of the survey reminder.**|
+|Description|**Properies of the survey reminder.**|
 |DisplayName|**Properties**|
 |IsValidForForm|True|
 |IsValidForRead|True|
