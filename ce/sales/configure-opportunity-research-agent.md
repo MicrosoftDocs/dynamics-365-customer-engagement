@@ -60,6 +60,7 @@ As the agent consumes capacity, it's important to plan and configure it to handl
 
 - Turn on AI prompts feature in Power Platform and Copilot Studio. Learn more in [Enable AI prompts in Power Platform and Copilot Studio](/ai-builder/administer#enable-or-disable-ai-prompts-in-power-platform-and-copilot-studio).
 - Turn on the AI insight cards in Power Platform Admin Center. This feature is required for sellers to get notified about the insights on the opportunity record. Learn more about turning on this feature in [Manage feature settings](/power-platform/admin/settings-features).
+- Turn on AI Agents in Power Platform Admin Center. Learn more in [Turn on Copilot capabilities in Dynamics 365 Sales](/power-platform/admin/copilot/copilot-hub#turn-on-copilot-capabilities-in-dynamics-365-sales).
 
 ### Configure server-side synchronization
 
