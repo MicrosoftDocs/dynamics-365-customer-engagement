@@ -1,7 +1,7 @@
 ---
 title: Create and manage workstreams
-description: Learn about how to create and manage workstreams.
-ms.date: 05/27/2025
+description: Learn about how to create and manage workstreams in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
+ms.date: 11/03/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -78,7 +78,7 @@ You can create workstreams for unified routing in the Copilot Service admin cent
    - [Configure record routing](set-up-record-routing.md)
 
 > [!NOTE]
-> If asynchronous plug-ins are installed but disabled in your organization, ensure that you set the value of "DisabledForAsyncProcessing" to "No" to avoid issues when you're creating workstreams.
+> If asynchronous plug-ins are installed but disabled in your organization, make sure that you set the value of "DisabledForAsyncProcessing" to "No" to avoid issues when you're creating workstreams.
 
 ### Configure routing rules
 
@@ -92,7 +92,7 @@ Routing rules for a workstream consist of work classification rules and route-to
 In the **Work distribution** area of a workstream, you can either accept the default settings or select **See more** and update the following options:
 
 - **Auto-close after inactivity**: Select a time period after which inactive conversations are moved to the closed state automatically. This option is available for only persistent chat, SMS, social, and Microsoft Teams channels.
- 
+
 - **Work distribution mode**: The option that you selected when creating the workstream is displayed and can't be edited.
 - **Capacity**: Select one of the following options. More information: [Create and manage capacity profiles](capacity-profiles.md)
   - **Unit based**: Enter a value if your administrator configured unit-based capacity.
@@ -134,7 +134,7 @@ For agents created in Azure, see [Integrate Azure agents](../configure-bot.md#in
 When a work item needs assignment, the classification rules run, and the work distribution system checks and routes the work item to the agent if the selected workstream has an agent. After an agent is added to the workstream, the incoming work item is first routed to the selected agent at runtime.
 
 > [!NOTE]
-> 
+>
 > - Agents can receive conversations only if they're added to push-based workstreams.
 > - We recommend that you don't add agents to workstreams that are meant for record routing.
 
@@ -146,7 +146,9 @@ Select a workstream to perform any of the following actions:
 
 - **Edit**: Lets you edit the workstream, such as add a new channel or update the existing settings.
 - **Copy**: Lets you create a copy of the workstream with all the properties, such as the rules, so that you can reuse the configured workstream in another organization. The copied workstream name is prefixed with "Copy of "*`<workstream>`*.
-- **Delete**: Lets you delete the workstream if you no longer need it in your organization. You can't delete workstreams that are used in intake rules for record routing. You're prompted to remove the dependencies and then try to delete the workstream.
+- **Delete**: Lets you delete the workstream if you no longer need it in your organization. Remove the following dependencies before deleting the workstream:
+      - For record routing, delete the intake rules if any.
+      - [Close the associated queue items and live work items](../develop/deactivate-queue-items.md).
 - **Fallback queue**: Select an existing queue or create a queue to set as the fallback queue. More information: [Fallback queues](queues-omnichannel.md#how-fallback-queues-work)
 - **Share**: Select a workstream to share with users or teams in your organization. In the **Share records** dialog that appears, select the users or teams. You can also set the permissions for each user or team. When you share a record permission, it doesn't automatically grant privileges to all the records of the related tables. You need to create a custom plugin to set permissions for the related tables listed for the workstream when you set permissions for the parent table record.
 
@@ -170,7 +172,7 @@ You can keep the default templates for sessions and notifications or update to u
 [Configure persistent chat](persistent-chat.md)  
 [Set up record routing](set-up-record-routing.md)  
 [Configure routing for email records](configure-routing-for-email-records.md)  
-[Manage users](users-user-profiles.md)   
+[Manage users](users-user-profiles.md)  
 [Work with queues](queues-omnichannel.md)  
 [Automatically identify customers using pre-chat responses](record-identification-rule.md)  
 
