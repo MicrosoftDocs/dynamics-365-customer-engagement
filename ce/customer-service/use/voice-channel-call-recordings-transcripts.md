@@ -112,14 +112,17 @@ The following considerations apply:
 
 ### Conversation Journey
 
-Displays the conversation ID that one can copy, and details about the number of agents assigned to the conversation, other participants, and the duration, date, and time of each leg of the conversation.
+The conversation journey displays details about each AI agent or representative session that were a part of the conversation. If more than one session exists or other representatives take part in the conversation, then each participant details are also displayed.
+
+- Conversation Id: Displays the conversation ID of the entire conversation that could include one or more sessions.
 
 - The system generates a session every time a new primary agent is assigned to the conversation.
-
 - Each session header displays the start time and total duration of the session.
 - The session lists the primary agent that can be an AI agent or service representative, their assignment time, and whether they joined the conversation.
 - When the primary representative or AI agent leaves the session, the session ends, and the **Closure reason** is displayed with the time. Learn more about closure reasons in [Session closure reasons](/dynamics365/contact-center/extend/closure-reasons-descriptions).
 - When a consult session is added to the conversation, the representative being consulted appears indented beneath the primary representative. Their join and exit times for the consult are displayed, with details about whether they accepted the consult.
+- **Copilot Agent Outcome Reason**: Provides insights into why a Copilot session ended, helping you understand the outcome of each interaction.
+- **Copilot Agent Client SessionId**: A unique identifier that allows you to locate the corresponding Copilot conversation transcript and access additional session details stored in Dataverse.
 
    :::image type="content" source="../media/closed-conversation-journey.png" alt-text="Screenshot of a conversation journey that appears in the closed conversation form." lightbox="../media/closed-conversation-journey.png":::
 
