@@ -1,12 +1,12 @@
 ---
-title: Export and import visual customization of analytic reports 
-description: Export and import visual customizations of analytic reports in Dynamics 365. Move customizations between organizations, maintain version control, and learn how to streamline report management.
+title: Export and import visual customization of analytics reports 
+description: Export and import visual customizations of analytic reports in Dynamics 365 Customer Service and Contact Center. Move customizations between organizations, maintain version control, and learn how to streamline report management.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 10/31/2025
+ms.date: 11/03/2025
 ms.custom: bap-template
 ---
 
@@ -24,10 +24,6 @@ You can:
 > - **Version compatibility**: You can import an older report into a newer organization version. Importing a newer report into an older organization version might not work.
 > - **Power BI file access**: You can't access Power BI files directly. You can only manage entity records.
 
-You see the export and import option when you edit a report.
-
-:::image type="content" source="../media/export-import-visuals.png" alt-text="Screenshot of export and import options in visual customization.":::
-
 ## Prerequisites
 
 - You have the **Analytics Report Author** role. Learn more in [Assign roles to users](../implement/add-users-assign-roles.md#assign-roles-to-users). Users with the **System Administrator** role already have the permissions by default.
@@ -35,7 +31,25 @@ You see the export and import option when you edit a report.
 
 Make sure that the target organization is at the same or a higher version than the source. This requirement guarantees that all metrics and columns used in visual customizations exist in the target environment, allowing imported customizations to render correctly.
 
-## Export visual customization
+## Export or import report visuals using Edit
+
+You view the **Export** and **Import** option when you select **Edit** on a report.
+
+:::image type="content" source="../media/export-import-visuals.png" alt-text="Screenshot of export and import options in visual customization.":::
+
+When you select **Import**, you see the **Import a dashboard customization** dialog. Select **Upload** to upload the file from which you want to apply visual customizations.
+
+:::image type="content" source="../media/import-dashboard-customization.png" alt-text="Screenshot of import dashboard customizations.":::
+
+When you select **Export**, you see the **Export a dashboard customization** dialog. Select **Download export** to download your current published dashboard as a file that can be imported.
+
+:::image type="content" source="../media/export-dashboard-customization.png" alt-text="Screenshot of export dashboard customizations.":::
+
+## Export or import report visuals using API
+
+You can export and import report visuals using the API to automate workflows, integrate with external systems, and manage large-scale customizations without manual effort.
+
+### Export API
 
 The Export API allows users to extract report content from a source organization.
 
@@ -54,7 +68,7 @@ Payload Example:
 **Response**: 
 You receive a bodybinary value, which is a base 64-encoded string representing the report.
 
-## Import visual customization
+### Import API
 
 The Import API enables users to apply the exported content to one or more target organizations.
 
@@ -74,7 +88,7 @@ Payload Example:
 Existing customizations are replaced. If not, a new report record is created and bound to the out-of-box report.
 
 
-## Feature IDs for common analytics reports
+### Feature IDs for common analytics reports
 
 |Analytics report   |Feature ID  |Pages included  |
 |---------|---------|---------|
