@@ -42,7 +42,7 @@ Configure the instructions that the agent should use to ensure that the email fo
     - **AI-generated personalization**: Select this option to have the agent draft personalized outreach emails based on the lead's information and the provided instructions.
     - **Fixed template**: Select this option to have the agent use a predefined email template for outreach so that all emails follow a consistent format. Select **Choose template** to pick an email template that's most relevant for your outreach. The list displays all email templates for the Lead table. If you'd like to modify a template or create a new one, refer to [Create templates for email](/power-platform/admin/create-templates-email?tabs=new). 
       > [!NOTE]
-      > The agent can't use knowledge sources that you might have configured for drafting emails when using a fixed template.
+      > When you select fixed template, the agent doesn't use generative AI or the configured knowledge sources to draft the email content. Hence, no Copilot credits are consumed for outreach emails generated using fixed templates.
 
 ## Configure email validation settings
 
