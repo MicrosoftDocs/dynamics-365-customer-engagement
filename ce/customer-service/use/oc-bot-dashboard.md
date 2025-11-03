@@ -1,7 +1,7 @@
 ---
 title: Bot dashboard
 description: Learn about the bot dashboard in historical analytics to better understand customer service representative performance in your organization.
-ms.date: 10/31/2025
+ms.date: 11/03/2025
 ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
@@ -129,13 +129,13 @@ The section shows how conversations ended, grouped into categories:
 
  | Title | Description |
  | --------------- | --------------- |
- | Total conversations | The total number of customer-initiated interactions with a classic bot from Copilot Studio includes conversations fully managed by the bot and those escalated to a service representative. The number of conversations deflected and escalated adds up to the total number of bot conversations.  |
- | Conversations escalated | The total number of classic Copilot Studio bot conversations escalated to a service representative by the Copilot Studio bot. Escalation can occur when a user requests a live agent, when there are too many attempts without an entity match or user input, or because of a business rule set by the Copilot Studio bot author. |
- | Bot escalation rate | The percentage of classic Copilot Studio bot conversations that are escalated to a service representative or an external phone number. |
- | Avg. escalation time (min) | The average number of minutes a customer interacts with a classic Copilot Studio bot before the conversation is escalated to a service representative or external number. | 
- | Conversations deflected| The total number of classic Copilot Studio bot conversations that were deflected. A conversation is considered deflected if the user abandons it midway or if the Copilot Studio bot resolves it. |
- | Bot deflection rate | The percentage of conversations the classic Copilot Studio bot deflected out of all conversations. Here, the conversation can either be resolved by the classic Copilot Studio bot or abandoned by user before resolution.   |
- | Avg. deflection time (min) | The average number of minutes a customer interacts with a classic Copilot Studio bot before the conversation ends without escalation to a service representative. The conversation might be resolved by the Copilot Studio bot or abandoned by the user. For abandoned conversations, this time reflects how long the user interacted before leaving.|
+ | Total conversations | The total number of customer-initiated interactions with a Copilot Studio bot includes conversations fully managed by the bot and those escalated to a service representative. The number of conversations deflected and escalated adds up to the total number of bot conversations.  |
+ | Conversations escalated | The total number of Copilot Studio bot conversations escalated to a service representative by the Copilot Studio bot. Escalation can occur when a user requests a live agent, when there are too many attempts without an entity match or user input, or because of a business rule set by the Copilot Studio bot author. |
+ | Bot escalation rate | The percentage of Copilot Studio bot conversations that are escalated to a service representative or an external phone number. |
+ | Avg. escalation time (min) | The average number of minutes a customer interacts with a Copilot Studio bot before the conversation is escalated to a service representative or external number. | 
+ | Conversations deflected| The total number of Copilot Studio bot conversations that were deflected. A conversation is considered deflected if the user abandons it midway or if the Copilot Studio bot resolves it. |
+ | Bot deflection rate | The percentage of conversations the Copilot Studio bot deflected out of all conversations. Here, the conversation can either be resolved by the Copilot Studio bot or abandoned by user before resolution.   |
+ | Avg. deflection time (min) | The average number of minutes a customer interacts with a Copilot Studio bot before the conversation ends without escalation to a service representative. The conversation might be resolved by the Copilot Studio bot or abandoned by the user. For abandoned conversations, this time reflects how long the user interacted before leaving.|
  | Bot CSAT | The graphical view of the average Customer Satisfaction (CSAT) score from users who responded to a survey after a bot session. If this metric is blank, it indicates that AI agents aren't set up to request feedback through surveys after conversation ends.|
 
  ### Details
