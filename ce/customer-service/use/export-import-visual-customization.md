@@ -1,5 +1,5 @@
 ---
-title: Export and import visual customization of analytics reports 
+title: Export and import report visual customizations 
 description: Export and import visual customizations of analytic reports in Dynamics 365 Customer Service and Contact Center. Move customizations between organizations, maintain version control, and learn how to streamline report management.
 author: Soumyasd27
 ms.author: sdas
@@ -10,7 +10,7 @@ ms.date: 11/03/2025
 ms.custom: bap-template
 ---
 
-# Export and import visual customization of analytics reports 
+# Export and import report visual customizations
 
 As an administrator or a supervisor, you can export and import visual customization of analytics reports between different organizations in Dynamics 365. This capability eliminates the need to manually recreate customizations in each organization. You can export visual customizations from your current organization and import published visual customizations into another organization.
 
@@ -31,9 +31,9 @@ You can:
 
 Make sure that the target organization is at the same or a higher version than the source. This requirement guarantees that all metrics and columns used in visual customizations exist in the target environment, allowing imported customizations to render correctly.
 
-## Export or import report visuals using Edit
+## Edit report on the dashboard to export or import report visuals
 
-You view the **Export** and **Import** option when you select **Edit** on a report.
+Select **Edit** on a report, to view the **Export** and **Import** options.
 
 :::image type="content" source="../media/export-import-visuals.png" alt-text="Screenshot of export and import options in visual customization.":::
 
@@ -45,7 +45,7 @@ When you select **Export**, you see the **Export a dashboard customization** dia
 
 :::image type="content" source="../media/export-dashboard-customization.png" alt-text="Screenshot of export dashboard customizations.":::
 
-## Export or import report visuals using API
+## Use API to export or import report visuals
 
 You can export and import report visuals using the API to automate workflows, integrate with external systems, and manage large-scale customizations without manual effort.
 
