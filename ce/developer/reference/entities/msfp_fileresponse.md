@@ -1085,7 +1085,7 @@ One-To-Many Relationship: [msfp_questionresponse msfp_msfp_questionresponse_msfp
 |ReferencingAttribute|`msfp_questionresponse`|
 |ReferencingEntityNavigationPropertyName|`msfp_questionresponse`|
 |IsHierarchical||
-|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+|CascadeConfiguration|Archive: `Cascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msfp_msfp_survey_msfp_fileresponse_survey"></a> msfp_msfp_survey_msfp_fileresponse_survey
 
