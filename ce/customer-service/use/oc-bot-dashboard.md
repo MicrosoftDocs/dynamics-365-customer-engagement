@@ -41,7 +41,7 @@ Based on your administrator's configuration of the **Add historical analytics fo
 
   :::image type="content" source="../media/oc-bot-KPI.png" alt-text="Screenshot showing the Copilot Studio bot dashboard KPIs.":::
 
- Conversation based metrics:
+ Conversation-based metrics:
 
 
  | KPI | Description |
