@@ -1,7 +1,7 @@
 ---
 title: Configure the Opportunity Research Agent (preview)
 description: Learn how to set up and configure the Opportunity Research Agent in Dynamics 365 Sales.
-ms.date: 10/06/2025
+ms.date: 11/03/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -143,6 +143,8 @@ In the **Refresh frequency** tab, specify how frequently you want the agent to r
 - **High:** Data is refreshed every day. This option is ideal for businesses that always need the latest information, but it consumes more capacity.
 - **Medium:** Data is refreshed every three days. This option is suitable for businesses that need regular updates but don't require daily insights. It balances performance and data accuracy.
 - **Low:** Data is refreshed every seven days. This option consumes the least capacity and is suitable for businesses that don't need frequent updates and want to save capacity.
+
+Apart from the scheduled refresh, [updates to specific fields](opportunity-research-agent-faqs.md#which-fields-trigger-the-agent-to-refresh-the-research-data-when-updated) in the opportunity record trigger the agent to refresh the research data immediately.
 
 
 ### Configure fields for importance and risk assessment
