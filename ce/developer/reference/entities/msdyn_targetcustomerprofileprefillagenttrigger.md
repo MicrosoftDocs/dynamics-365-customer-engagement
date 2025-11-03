@@ -69,6 +69,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_Input](#BKMK_msdyn_Input)
+- [msdyn_Input_v2](#BKMK_msdyn_Input_v2)
 - [msdyn_Name](#BKMK_msdyn_Name)
 - [msdyn_RetryCount](#BKMK_msdyn_RetryCount)
 - [msdyn_targetcustomerprofileprefillagenttriggerId](#BKMK_msdyn_targetcustomerprofileprefillagenttriggerId)
@@ -110,6 +111,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|850|
+
+### <a name="BKMK_msdyn_Input_v2"></a> msdyn_Input_v2
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Input v2**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_input_v2`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
 
 ### <a name="BKMK_msdyn_Name"></a> msdyn_Name
 

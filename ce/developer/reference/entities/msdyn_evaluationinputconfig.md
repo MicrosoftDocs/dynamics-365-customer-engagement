@@ -66,6 +66,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_EvaluationInputConfigId](#BKMK_msdyn_EvaluationInputConfigId)
 - [msdyn_InputConfig](#BKMK_msdyn_InputConfig)
 - [msdyn_Name](#BKMK_msdyn_Name)
+- [msdyn_ProvisioningStatus](#BKMK_msdyn_ProvisioningStatus)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [statecode](#BKMK_statecode)
 - [statuscode](#BKMK_statuscode)
@@ -160,6 +161,27 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|850|
+
+### <a name="BKMK_msdyn_ProvisioningStatus"></a> msdyn_ProvisioningStatus
+
+|Property|Value|
+|---|---|
+|Description|**What is the provisioning status for the entity (1 for provisioned, 0 for not provisioned)**|
+|DisplayName|**Provisioning Status**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_provisioningstatus`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue||
+|GlobalChoiceName|`msdyn_evaluationinputconfig_msdyn_provisioningstatus`|
+
+#### msdyn_ProvisioningStatus Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**Not Provisioned**|
+|1|**Provisioned**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 

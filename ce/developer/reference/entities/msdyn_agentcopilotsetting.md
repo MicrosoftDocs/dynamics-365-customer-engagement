@@ -92,6 +92,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_copilotenabled](#BKMK_msdyn_copilotenabled)
 - [msdyn_copilotrecommendedemailtemplatesenabled](#BKMK_msdyn_copilotrecommendedemailtemplatesenabled)
 - [msdyn_csplugindefaultonstatus](#BKMK_msdyn_csplugindefaultonstatus)
+- [msdyn_custominstruction](#BKMK_msdyn_custominstruction)
 - [msdyn_defaultonoptout](#BKMK_msdyn_defaultonoptout)
 - [msdyn_disablecopilotengagedanalytics](#BKMK_msdyn_disablecopilotengagedanalytics)
 - [msdyn_displayname](#BKMK_msdyn_displayname)
@@ -667,6 +668,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |0|**NotTriggered**|
 |1|**DefaultOn**|
 |2|**DefaultOnSkipped**|
+
+### <a name="BKMK_msdyn_custominstruction"></a> msdyn_custominstruction
+
+|Property|Value|
+|---|---|
+|Description|**Custom Instruction**|
+|DisplayName|**Custom Instruction**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_custominstruction`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1000|
 
 ### <a name="BKMK_msdyn_defaultonoptout"></a> msdyn_defaultonoptout
 
