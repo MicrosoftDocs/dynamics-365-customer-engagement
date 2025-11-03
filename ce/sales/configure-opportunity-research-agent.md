@@ -1,7 +1,7 @@
 ---
 title: Configure the Opportunity Research Agent (preview)
 description: Learn how to set up and configure the Opportunity Research Agent in Dynamics 365 Sales.
-ms.date: 10/06/2025
+ms.date: 11/03/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:

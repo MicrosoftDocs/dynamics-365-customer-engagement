@@ -1,7 +1,7 @@
 ---
 title: Work on opportunities handled by the Opportunity Research Agent (preview)
 description: Learn how to work on opportunities handled by the Opportunity Research Agent.
-ms.date: 08/04/2025
+ms.date: 11/03/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
