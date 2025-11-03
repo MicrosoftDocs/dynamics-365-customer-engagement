@@ -212,7 +212,7 @@ For Copilot agents, you can edit the report to add the additional metrics and fi
 
 ## [Dashboard for all bots ](#tab/allbots)
 
- The **bot** dashboard summarizes the KPIs for all the AI agents integrated with the application for the specified time period and percent change over a period. The application displays this view only if your administrator has disabled the **Add historical analytics for bots** checkbox in Copilot Service admin center. You can filter these areas by duration, channel, queue, or service representative.
+ The **Bot** dashboard summarizes the KPIs for all the AI agents integrated with the application for the specified time period and percent change over a period. The application displays this view only if your administrator has disabled the **Add historical analytics for bots** checkbox in Copilot Service admin center. You can filter these areas by duration, channel, queue, or service representative.
 
  > [!div class="mx-imgBorder"]
  > ![Screenshot of bot dashboard.](../media/bot-dashboard-oc.png "Bot dashboard")
