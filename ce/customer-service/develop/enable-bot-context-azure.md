@@ -20,11 +20,11 @@ For Azure agents, you must install the bot SDK and instantiate the Omnichannel m
 
 2. In the NuGet Package Manager, select the package source as **nuget.org** and browse for "Microsoft.Xrm.Omnichannel.BotSDK". Select the package and then select **Install**. More information: [Nuget page](https://www.nuget.org/packages/Microsoft.Xrm.Omnichannel.BotSDK)
 
-Alternatively, you can use the following command in NuGet CLI.
+   Alternatively, you can use the following command in NuGet CLI.
 
-```JavaScript
-Install-Package Microsoft.CCaSS.AgentSDK
-```
+   ```JavaScript
+   Install-Package Microsoft.CCaaS.AgentSDK
+   ```
 
 The agent SDK is now installed and the Omnichannel middleware is available in your project.
 
