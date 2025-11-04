@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 10/30/2025
+ms.date: 11/04/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -31,7 +31,7 @@ Learn more in [Add connection references to a solution.](/power-apps/maker/data-
 |AI agent flow|Connection references  |
 |---------|---------|
 |**Knowledge Harvest Trigger Flow V2**   |    - **Microsoft Dataverse CustomerServiceKnowledgeHarvest** <br> - **Microsoft Copilot Studio CustomerServiceKnowledgeHarvest**     |
-|- **QEA On Demand Evaluation Case** for cases. <br> - **AI Evaluation Flow for Conversation** for conversations.    | - For cases: **QMA.Incident.DVPluginConnection, Microsoft Copilot Studio (Preview) CaseReviewerFlow** and **Microsoft Dataverse FlowRunTest-8625a**. <br> - For conversations: **Microsoft Dataverse CDS Connection for QEA Conversation, Microsoft Copilot Studio (Preview) CaseReviewerFlow** and **Microsoft Dataverse FlowRunTest-8625a**.    |
+|- **QEA On Demand Evaluation Case** for cases. <br> - **AI Evaluation Flow for Conversation** for conversations.    |  **QMA.UnifiedAgent.DVPluginConnection**|
 
 1. Sign in to [make.powerapps.com](https://make.powerapps.com) and select your environment.
 1. Go to **Solutions** > **Default Solution** > **Objects** > **Connection References**.
@@ -61,7 +61,7 @@ Alternatively, in [make.powerapps.com](https://make.powerapps.com) from **Soluti
 |AI agent flow |  Microsoft Copilot Studio agent |
 |---------|---------|
 |Customer Knowledge Management Agent flow    |   **CustomerServiceKnowledgeHarvest** |
-|Quality Evaluation Agent flow    |  -  **Quality Evaluation Agent - Incident** case agent <br> - **QualityEvaluationAgentForConversation** conversation agent    |
+|Quality Evaluation Agent flow    |  **Quality Evaluation Agent** |
 
 1. In [Microsoft Copilot Studio](https://copilotstudio.microsoft.com), select your environment, and then search for the agent, for example, **CustomerServiceKnowledgeHarvest** agent. 
 1. [Publish the agent](/microsoft-copilot-studio/publication-fundamentals-publish-channels?tabs=web).
