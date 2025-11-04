@@ -28,7 +28,7 @@ The Consent Management system for Dynamics 365 Sales is built on the same consen
 Learn more about consent management, compliance profiles, and purposes in [Consent management overview](/dynamics365/customer-insights/journeys/real-time-marketing-compliance-settings).
 
 > [!NOTE]
-> The consent settings you configure apply only to emails sent by the sales AI agents, such as the Sales Qualification Agent and Opportunity Research Agent. 
+> The consent settings you configure apply only to emails sent by the sales AI agents, such as the Sales Qualification Agent and Sales Close Agent. 
 
 **Why does compliance matter?**
 
@@ -37,15 +37,15 @@ Following the privacy regulations helps you avoid legal penalties, improves user
 
 ## Understand the default consent setup
 
-The built-in consent management system includes the following default compliance profiles:
+The built-in consent management system includes a default compliance profile with two purposes:
 
 - **Commercial Purpose**: Used for sending promotional emails and newsletters.
 - **Transactional Purpose**: Used for sending order confirmations or service updates.
 
-By default, both purposes are set to be non-restrictive, meaning that emails can be sent unless the recipient has explicitly opted out. You can modify these settings based on your organization's requirements.
+By default, commercial purposes is set to be non-restrictive for email communications, meaning that emails can be sent unless the recipient has explicitly opted out. Transactional purposes is disabled. You can modify these settings based on your organization's requirements.
 
 > [!TIP]
-> If your target region's regulations allow it, leave the **Commercial Purpose** profile as a **Non-Restrictive** enforcement model, which permits sending emails unless the contact has opted out.
+> If your target region's regulations allow it, leave the **Commercial Purpose** profile as a **Non-Restrictive** enforcement model.
  
 ## Set up consent management for your organization
 
@@ -55,7 +55,7 @@ The following considerations apply when setting up consent management in Dynamic
 
 - Consent is captured and stored at the contact point level. A contact point is the destination for a message, such as an email address or phone number. Each contact point can have its own consent status for different purposes. Dynamics 365 Sales currently supports email contact points only.
 
-- The consent settings you configure apply only to emails sent by the sales AI agents, such as the Sales Qualification Agent and Opportunity Research Agent. 
+- The consent settings you configure apply only to emails sent by the sales AI agents, such as the Sales Qualification Agent and Sales Close Agent. 
 
 To set up consent management, follow these steps:
 
@@ -65,9 +65,8 @@ The instructions to set up consent management in Dynamics 365 Sales are similar 
 1. Create necessary purposes and topics within the compliance profile. Follow the instructions in [purposes](dynamics365/customer-insights/journeys/real-time-marketing-compliance-settings#purposes) and [topics](dynamics365/customer-insights/journeys/real-time-marketing-compliance-settings#topics).
 1. Customize the Preference Center. Follow the instructions in [Creating preference centers](/dynamics365/customer-insights/journeys/real-time-marketing-preference-centers)
 1. Import consent data if you have existing consent records. Go to **Sales** > **Consent Management** in the Sales Hub app. Use one of the following methods to import consent data: 
-    1. If you have consent data in Dynamics 365, import the consent data using the [load consent](/dynamics365/customer-insights/journeys/real-time-marketing-migrate-consent) feature.
+    1. If you have consent data in lead or contact records, import the consent data using the [load consent](/dynamics365/customer-insights/journeys/real-time-marketing-migrate-consent) feature.
     1. If you have consent data in an external system, use a [cloud flow](dynamics365/customer-insights/journeys/consent-record-creation).
-
 
 ## View and edit consent for a contact point
 
@@ -77,7 +76,10 @@ To view and edit consent for a specific contact point, open a lead record in Dyn
 
 ## How consent is respected by sales AI agents
 
-While configuring the agents, you can specify the compliance profile, purpose, and topic to be used for email communications sent by the agents. When a sales AI agent, such as the Sales Qualification Agent or Opportunity Research Agent, prepares to send an email, it checks the consent status of the contact point against the relevant compliance profile and purpose. If the contact point has opted out of the specific purpose associated with the email, the agent will not send the email to that contact point.
+While configuring the agents, you can specify the compliance profile, purpose, and topic to be used for email communications sent by the agents. When a sales AI agent, such as the Sales Qualification Agent or Sales Close Agent, prepares to send an email, it checks the consent status of the contact point (email, in this case) against the relevant compliance profile and purpose. If the lead or contact has opted out of the specific purpose associated with the email, the agent will not send the email to that lead or contact. 
+
+- To configure consent settings for Sales Qualification Agent, refer to [Configure email settings for the Sales Qualification Agent (preview)](sales-qualification-agent-email-instruction-validation.md). 
+- To configure consent settings for Sales Close Agent, refer to [Configure email settings for the Sales Close Agent (preview)](sales-close-agent-email-instruction-validation.md).
 
 
 ## Related information
