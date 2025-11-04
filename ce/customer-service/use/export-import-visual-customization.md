@@ -1,5 +1,5 @@
 ---
-title: Export and import report visual customizations 
+title: Export and import visual customizations 
 description: Export and import visual customizations of analytic reports in Dynamics 365 Customer Service and Contact Center. Move customizations between organizations, maintain version control, and learn how to streamline report management.
 author: Soumyasd27
 ms.author: sdas
@@ -10,7 +10,7 @@ ms.date: 11/04/2025
 ms.custom: bap-template
 ---
 
-# Export and import report visual customizations
+# Export and import visual customizations
 
 As an administrator or a supervisor, you can export and import visual customization of analytics reports between different organizations in Dynamics 365. This capability eliminates the need to manually recreate customizations in each organization. You can export visual customizations from your current organization and import published visual customizations into another organization.
 
