@@ -34,7 +34,7 @@ As a supervisor or administrator, you can monitor the performance of the Sales Q
 1. In the **AI Optimization** card, select **See insights**.  
    The Agent insights page opens with the available insights for the agents configured in your organization.
 1. Verify the **Last refreshed** date and time to ensure the data is up-to-date. The data is refreshed when you open the dashboard. If needed, you can refresh the dashboard by selecting the **Refresh** icon.
-1. Select the **Time period** filter to specify the period for which you want to view the data. By default, the dashboard shows data for the last 7 days.
+1. Select the **Time period** for which you want to view the data and select **Apply filter**. By default, the dashboard shows data for the last 7 days.
 1. To view the list of leads handled by the agent, select any of the following buttons:
 
     > [!NOTE]
