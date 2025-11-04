@@ -1,7 +1,7 @@
 ---
 title: View conversation transcripts and call recordings
 description: Use this article to learn how to view conversation transcripts and call recordings.
-ms.date: 10/31/2025
+ms.date: 11/14/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -123,6 +123,8 @@ The conversation journey displays details about each AI agent or representative 
 - When a consult session is added to the conversation, the representative being consulted appears indented beneath the primary representative. Their join and exit times for the consult are displayed, with details about whether they accepted the consult.
 - **Copilot Agent Outcome Reason**: Provides insights into why a Copilot session ended, helping you understand the outcome of each interaction.
 - **Copilot Agent Client SessionId**: A unique identifier that allows you to locate the corresponding Copilot conversation transcript and access additional session details stored in Dataverse.
+    > [!NOTE]
+    > The Copilot Agent outcome reason and client session ID values are available for sessions handled by AI agents only. After the conversation ends, the system might take up to 15 minutes in displaying this information.
 
    :::image type="content" source="../media/closed-conversation-journey.png" alt-text="Screenshot of a conversation journey that appears in the closed conversation form." lightbox="../media/closed-conversation-journey.png":::
 
