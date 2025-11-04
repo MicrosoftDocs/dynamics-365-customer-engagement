@@ -175,8 +175,6 @@ items:
                 href: configure-requirements-for-sqa-agent.md
               - name: Understand Sales Qualification Agent concepts
                 href: sales-qualification-agent-concepts.md
-              - name: Manage consumption-based billing
-                href: copilot-consumption-based-billing.md
               - name: Sales Qualification Agent FAQ
                 href: sales-qualification-agent-faq.md
               - name: Test the Sales Qualification Agent
@@ -185,12 +183,6 @@ items:
                 href: custom-icp-examples.md
               - name: Use fields enriched with Zoominfo or Dun & Bradstreet data
                 href: use-zoominfo-dnb-data-in-sales-qualification-agent.md
-          - name: Opportunity Research Agent (preview)
-            items:
-              - name: Overview
-                href: opportunity-research-agent.md
-              - name: Configure Opportunity Research Agent
-                href: configure-opportunity-research-agent.md
           - name: Sales research Agent (preview)
             items:
               - name: Overview
@@ -201,7 +193,9 @@ items:
             items:
               - name: Overview
                 href: sales-close-agent.md
-              - name: Set up and configure Sales Close Agent - Engage mode
+              - name: Setup and configure Sales Close Agent - Research  
+                href: configure-opportunity-research-agent.md
+              - name: Set up and configure Sales Close Agent - Engage
                 href: configure-sales-close-agent.md      
                 items:
                 - name: Open the settings page
@@ -222,12 +216,16 @@ items:
                 href: start-sales-close-agent.md
               - name: Manage the agent
                 href: manage-sales-close-agent.md
-              - name: Configure requirements for Sales Close Agent
+              - name: Configure requirements for Sales Close Agent - Engage
                 href: configure-requirements-for-sales-close-agent.md  
               - name: View agent insights and metrics
                 href: view-sales-close-agent-engage-insights-metrics.md
-              - name: How the Sales Close Agent Engage mode works
+              - name: How the Sales Close Agent - Engage works
                 href: how-sales-close-agent-engage-mode-works.md
+              - name: Sales Close Agent - Engage FAQ
+                href: faqs-about-sales-close-agent-engage.md  
+          - name: Manage consumption-based billing
+            href: copilot-consumption-based-billing.md                         
           - name: Copilot Studio agents and Entra app registrations
             href: ai-agents-apps.md
           - name: FAQs about sales AI agents
@@ -835,13 +833,11 @@ items:
               href: monitor-leads-by-sales-qualification-agent.md
             - name: FAQ about Sales Qualification Agent
               href: sales-qualification-agent-faq.md
-        - name: Opportunity Research Agent (preview)
+        - name: Sales Close Agent - Research (preview)
           items:
-            - name: Overview
-              href: opportunity-research-agent.md
-            - name: Work on opportunities researched by Opportunity Research Agent
+            - name: Work on opportunities researched by agent
               href: use-opportunity-research-agent.md
-            - name: FAQs about Opportunity Research Agent
+            - name: FAQs about Sales Close Agent - Research
               href: opportunity-research-agent-faqs.md
         - name: Sales Research Agent (preview)
           items:

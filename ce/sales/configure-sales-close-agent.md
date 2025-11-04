@@ -55,7 +55,7 @@ Ensure that the following prerequisites are met:
 Review the following considerations before you start deploying the autonomous Sales Close Agent:  
 
 - **Only one agent can be deployed in an environment**.  
--	**Deactivation** of the agent will prevent new opportunities from being assigned/processed by the agent. Existing opportunities which are already in pipeline (orchestration), will continue until the opportunity is handed over for next steps.  
+-	**Deactivation** of the agent will prevent new records from being assigned/processed by the agent. Existing records which are already in pipeline (orchestration), will continue until the record is handed over for next steps.  
 -	You can’t **delete** an agent once configured. Contact your Microsoft support to delete the agent from your organization.  
 -	Once an agent is published, we recommend only a few select fields to be **edited**. Sections that have tag **Avoid edits** should not be edited as it can lead to the agent being in bad state.  
 

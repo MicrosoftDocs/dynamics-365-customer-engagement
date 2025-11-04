@@ -1,6 +1,6 @@
 ---
-title: How the Sales Close Agent Engage mode works
-description: Learn how the Sales Close Agent engage mode operates to autonomously manage customer interactions and drive sales for high-velocity, low-complexity deals.
+title: How the Sales Close Agent - Engage works
+description: Learn how the Sales Close Agent - Engage operates to autonomously manage customer interactions and drive sales for high-velocity, low-complexity deals.
 ms.date: 11/07/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -17,17 +17,17 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# How the Sales Close Agent Engage mode works
+# How the Sales Close Agent - Engage works
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-In this section, you learn how the Sales Close Agent engage mode operates to autonomously manage customer interactions and drive sales for high-velocity, low-complexity deals.
+In this section, you learn how the Sales Close Agent - Engage operates to autonomously manage customer interactions and drive sales for high-velocity, low-complexity deals.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## How the records are processed
 
-When the Sales Close Agent engage mode is started, it processes records based on the configuration settings defined during setup. The agent works through the following steps to engage with customers and drive sales:
+When the Sales Close Agent - Engage is started, it processes records based on the configuration settings defined during setup. The agent works through the following steps to engage with customers and drive sales:
 
 1. **Record selection**: The agent selects records that [match the criteria](configure-sales-close-agent-target-customers.md) for high-velocity, low-complexity deals.  
 1. **Personalized outreach**: The agent uses templated messaging and customer data to craft personalized outreach communications configured in [the Email content settings](configure-sales-close-agent-email-content.md).  
@@ -40,7 +40,7 @@ When the Sales Close Agent engage mode is started, it processes records based on
 
 ## View records that are escalated for human intervention
 
-Records that require human intervention are escalated by the agent and can be viewed by supervisors or sellers in Dynamics 365 Sales. 
+Records that require human intervention are escalated by the agent and can be viewed by supervisors or sellers in Dynamics 365 Sales.  
 
 **Follow these steps**:  
 
