@@ -560,8 +560,6 @@ items:
     href: /troubleshoot/dynamics-365/field-service/welcome-field-service
   - name: FAQ about the Field Service mobile app
     href: mobile/mobile-power-app-faq.yml
-  - name: Microsoft 365 integrations for Field Service troubleshooting
-    href: /troubleshoot/dynamics-365/field-service/welcome-field-service
   - name: New Field Service mobile experience troubleshooting
     href: /troubleshoot/dynamics-365/field-service/welcome-field-service
 
@@ -569,10 +567,6 @@ items:
   items:
     - name: Overview
       href: responsible-ai-overview.md
-    - name: FAQ about Outlook work order creation
-      href: faqs-wo-flw-copilot.md
-    - name: FAQ about Outlook draft email responses
-      href: faqs-flm-copilot-email.md
     - name: FAQ about work order summary
       href: faqs-work-order-recap.md
     - name: FAQ about work order update
