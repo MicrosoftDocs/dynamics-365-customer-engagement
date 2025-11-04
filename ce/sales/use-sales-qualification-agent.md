@@ -74,18 +74,18 @@ The lead handover process goes through the following stages:
 
 ## View leads handed over by the agent
 
-If you're a seller, you get notified when a lead is handed over to you. If you missed that, follow the steps in this section to view the leads handed over by the Sales Qualification Agent.
+If you're a seller, you get notified when a lead is handed over to you. If you missed that, follow the steps in this section to view all leads handed over to you by the Sales Qualification Agent.
 
-If you're a supervisor, you get notified when a lead is disqualified by the agent. Learn more in [View leads disqualified by the agent](#view-leads-disqualified-by-the-agent) and [Monitor leads handled by the Sales Qualification Agent (preview)](monitor-leads-by-sales-qualification-agent.md).
+If you're a supervisor, you get notified when a lead is disqualified by the agent. Learn more in [View leads disqualified by the agent](#view-leads-disqualified-by-the-agent). You can also view detailed agent performance metrics and data on the AI Optimization hub. Learn more in [Monitor leads handled by the Sales Qualification Agent (preview)](monitor-leads-by-sales-qualification-agent.md).
 
 > [!NOTE]
 > If you don't see the views mentioned in this section, contact your admin to [add agent-specific views to your app](start-sales-qualification-agent.md#add-agent-specific-views-to-your-app).
 
 1. In the Sales Hub app, go to **Leads**.
 
-1. From the views drop-down, select **My Leads from AI Agent**.
+1. From the views drop-down, select **My leads from AI Agent** to view all leads handed over to you by the agent. Leads remain in this view even after they are qualified or disqualified by you.
    > [!NOTE]
-   > The agents hands over leads that [meet the handoff criteria](configure-sales-qualification-agent-handoff-criteria.md) defined by your admin. 
+   > The agents hands over leads that [meet the handoff criteria](configure-sales-qualification-agent-handoff-criteria.md) defined by your admin.
 1. Select a lead.
    - If you're in the focused view, you'll see the **Lead research** page for the lead.
 
