@@ -133,7 +133,7 @@ If your admin has configured the Sales Qualification Agent to run in research an
     | **Transferred to sellers** | Includes leads that are handed over to the seller for follow-up and clarification. This number doesn't include leads that were handed over with positive intent. |
     | **Interrupted due to error** | Includes leads that the agent couldn't hand over to the seller due to technical issues or other reasons. These leads are assigned to the seller who owned the lead. |
 
-    - **Lead classification**: Displays the number of leads handled by the agent in each rating category, such as **Hot**, **Warm**, and **Cold**.
+    - **Lead classification**: Displays the number of leads processed by the agent in each rating category, such as **Hot**, **Warm**, and **Cold**. This includes leads that were handed over to sellers and leads that were disqualified by the agent.
     
     - **Positive buying interest**: The percentage of leads that were handed over to the seller with positive buying interest, compared to the total number of leads processed by the agent. You can also see the number of leads with positive, negative, and undetected intent. This metric is calculated as Leads handed over with positive buying interest ÷ Total leads processed by agent × 100.
     - **Top accounts**: Displays the accounts with the highest number of leads handled by the agent during the selected time period.
