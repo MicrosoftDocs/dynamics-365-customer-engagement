@@ -1,6 +1,6 @@
 ---
-title: Set up and configure the Sales Close Agent (preview)
-description: Set up and configure the Sales Close Agent to help your sales team engage with customers effectively. 
+title: Set up and configure the Sales Close Agent - Engage (preview)
+description: Set up and configure the Sales Close Agent - Engage to help your sales team engage with customers effectively.
 ms.date: 09/24/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -17,11 +17,11 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Set up and configure the Sales Close Agent (preview)
+# Set up and configure the Sales Close Agent - Engage (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-As an administrator, you can set up the autonomous Sales Close Agent to help sales teams manage leads efficiently without manual intervention. Once configured, you can only edit configurations if needed.
+As an administrator, you can set up the autonomous Sales Close Agent - Engage to help sales teams manage leads efficiently without manual intervention. Once configured, you can only edit configurations if needed.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -52,7 +52,7 @@ Ensure that the following prerequisites are met:
 
 ## Considerations
 
-Review the following considerations before you start deploying the autonomous Sales Close Agent:  
+Review the following considerations before you start deploying the autonomous Sales Close Agent - Engage:  
 
 - **Only one agent can be deployed in an environment**.  
 -	**Deactivation** of the agent will prevent new records from being assigned/processed by the agent. Existing records which are already in pipeline (orchestration), will continue until the record is handed over for next steps.  
@@ -82,13 +82,13 @@ The following image shows the permissions to access research insights as an exam
 
 :::image type="content" source="media/sqa-custom-role-permissions.png" alt-text="Screenshot of the permissions to grant to a custom security role for use with the Sales Qualification Agent in Dynamics 365 Sales.":::  
 
-## Set up the Sales Close Agent
+## Set up the Sales Close Agent - Engage
 
-As an administrator, you can set up the autonomous Sales Close Agent to help sales teams manage leads efficiently without manual intervention. Once configured, you can only edit configurations if needed.  
+As an administrator, you can set up the autonomous Sales Close Agent - Engage to help sales teams manage leads efficiently without manual intervention. Once configured, you can only edit configurations if needed.  
 When all the configurations are properly set up, a green check mark is displayed beside each section. Before you start the agent ensure that all the sections are marked green.  
 Let's look at the steps to set up and configure the agents.
 
-1. [Open the Sales Close Agent settings page](open-sales-close-agent-settings.md).  
+1. [Open the Sales Close Agent - Engage settings page](open-sales-close-agent-settings.md).  
 1. Configure the following prerequisites before you set up the agent.  
     - [Create an app in Azure](configure-requirements-for-sqa-agent.md#create-application-in-azure)
     - [Create an app user in Dataverse and assign AISalesPerson role](configure-requirements-for-sqa-agent.md#create-an-app-user-in-dataverse-and-assign-aisalesperson-role)
@@ -97,7 +97,7 @@ Let's look at the steps to set up and configure the agents.
 1. [Configure the agent profile](configure-sales-close-agent-profile.md) for agent such as profile, company info, and email signature.  
 1. [Configure the product details](configure-sales-close-agent-product-details.md) that the agent uses to recommend products during customer interactions.  
 1. [Configure target customers](configure-sales-close-agent-target-customers.md) for the agent to process the records.  
-1. [Configure email delivery settings](configure-sales-close-agent-email-delivery.md) for the agent to send outreach and follow-up emails to customers.  
+1. [Configure email delivery](configure-sales-close-agent-email-delivery.md) for the agent to send outreach and follow-up emails to customers.  
 1. [Configure email content](configure-sales-close-agent-email-content.md) that the agent uses for outreach and follow-up emails.  
 1. [Configure knowledge sources](configure-sales-close-agent-knowledge-sources.md) that the agent uses to enrich customer interactions.  
 1. After you are satisfied with the configuration, [start the agent](start-sales-close-agent.md).

@@ -1,6 +1,6 @@
 ---
-title: Configure knowledge sources for Sales Close Agent
-description: Configure the knowledge sources that the Sales Close Agent uses to provide relevant information and context during customer interactions.
+title: Configure knowledge sources for Sales Close Agent - Engage
+description: Configure the knowledge sources that the Sales Close Agent - Engage uses to provide relevant information and context during customer interactions.
 ms.date: 11/07/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -17,7 +17,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure knowledge sources for Sales Close Agent
+# Configure knowledge sources for Sales Close Agent - Engage
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -27,13 +27,14 @@ This section explains how to configure knowledge sources to send replies, maximi
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-Two types of knowledge sources are available for you to configure for the Sales Close Agent&mdash;[Agent playbook](#agent-playbook) and [Product documentation](#product-documentation).
+Two types of knowledge sources are available for you to configure for the Sales Close Agent - Engage&mdash;[Agent playbook](#agent-playbook) and [Product documentation](#product-documentation).
 
 ## Agent playbook
 
 Defines how the agent behaves during customer interactions. It acts as a set of sales tactics and response guidelines for different scenarios, ensuring the agent aligns with the organization’s preferred approach.  
 Although the product documentation provides factual product information, the playbook dictates how to communicate and persuade customers. It controls how the agent responds to specific customer questions or objections, such as inquiries about discounts, competitor comparisons, refunds, or product details.
 By default, a playbook&mdash;the **Default Agent playbook** excel file is provided to help you get started and the SharePoint location in your organization is specified in the **SharePoint Location** section. You can download the default playbook, customize it to suit your organization's sales strategies, and then upload it back to the SharePoint location by providing the updated SharePoint location in the settings page.  
+
 The basic structure of the playbook is as follows:  
 
 - **Intent Group**: Organized into intent groups such as product details, comparisons, and discount requests.  
@@ -60,11 +61,15 @@ To understand more about product documentation in Microsoft Copilot Studio, read
 
 ## Configure knowledge sources
 
-1. [Open the Sales Close Agent settings page](open-sales-close-agent-settings.md).  
+1. [Open the Sales Close Agent - Engage settings page](open-sales-close-agent-settings.md).  
 1. In the **Knowledge** section, select **Knowledge sources**.  
-    :::image type="content" source="media/sca-knowledge-knowledge-sources-settings-page.png" alt-text="Screenshot of the Sales Close Agent knowledge sources settings page.":::  
+    :::image type="content" source="media/sca-knowledge-knowledge-sources-settings-page.png" alt-text="Screenshot of the Sales Close Agent - Engage knowledge sources settings page.":::  
 1. To configure **Agent playbook**:  
     1. In the **Agent playbook** section, the **Default Agent playbook** is provided to you by default and the location in your organization's SharePoint is specified in the **SharePoint Location** field.  
+
+        >[!IMPORTANT]
+        >Ensure that the sensitivity label of the playbook excel file is set to **General** or **Public**. If the sensitivity is set to Confidential or higher, the agent might not access the playbook, leading to suboptimal performance during customer interactions. To learn more about sensitivity labels, read the [Enable sensitivity labels for files in SharePoint and OneDrive](/purview/sensitivity-labels-sharepoint-onedrive-files) article.  
+
     1. To open the playbook, select **Open**.  
         The playbook file opens in a new tab in excel format. Review the playbook structure and if you're satisfied with the default playbook, you can use it as-is.  
     1. To customize the playbook, open the playbook, customize to match your organization's sales strategies, and save the file.  
@@ -81,10 +86,10 @@ To understand more about product documentation in Microsoft Copilot Studio, read
 
 ## Next step 
 
-[Start the Sales Close Agent](start-sales-close-agent.md)  
+[Start the Sales Close Agent - Engage](start-sales-close-agent.md)  
 
 ## Related information
 
-[Set up and configure the Sales Close Agent (preview)](configure-sales-close-agent.md)  
+[Set up and configure the Sales Close Agent - Engage (preview)](configure-sales-close-agent.md)  
 [Add knowledge to an agent](/microsoft-copilot-studio/knowledge-add-existing-copilot)
 

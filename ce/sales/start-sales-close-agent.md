@@ -1,7 +1,7 @@
 ---
-title: Start the Sales Close Agent
-description: Learn how to start the Sales Close Agent in Dynamics 365 Sales.
-ms.date: 09/24/2025
+title: Start the Sales Close Agent - Engage
+description: Learn how to start the Sales Close Agent - Engage in Dynamics 365 Sales.
+ms.date: 11/07/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -17,7 +17,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Start the Sales Close Agent
+# Start the Sales Close Agent - Engage
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -28,7 +28,7 @@ ai-usage: ai-assisted
 
 The **Start agent** option is enabled only after all the configuration sections are completed and marked with a green check mark as shown in the following image.
 
-:::image type="content" source="media/sca-settings-start-agent.png" alt-text="Screenshot of selecting start agent option on the Sales Close Agent settings page.":::
+:::image type="content" source="media/sca-settings-start-agent.png" alt-text="Screenshot of selecting start agent option on the Sales Close Agent - Engage settings page.":::
 
 Select **Start agent** to start the agent. The agent might take a few seconds to start, and you can continue working while the agent is being started. Upon successful activation, the agent is listed under the AI agents home page with status as **On**. As soon as the agent is started, the agent starts processing the records that match the [configured target customers](configure-sales-close-agent-target-customers.md).
 
@@ -37,6 +37,5 @@ Select **Start agent** to start the agent. The agent might take a few seconds to
 
 ## Related information
 
-[Set up and configure the Sales Close Agent (preview)](configure-sales-close-agent.md)  
+[Set up and configure the Sales Close Agent - Engage (preview)](configure-sales-close-agent.md)  
 [Sales Close Agent overview](sales-close-agent.md)
-

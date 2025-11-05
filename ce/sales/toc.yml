@@ -183,12 +183,6 @@ items:
                 href: custom-icp-examples.md
               - name: Use fields enriched with Zoominfo or Dun & Bradstreet data
                 href: use-zoominfo-dnb-data-in-sales-qualification-agent.md
-          - name: Sales research Agent (preview)
-            items:
-              - name: Overview
-                href: sales-research-agent.md
-              - name: Set up and configure Sales Research Agent
-                href: configure-sales-research-agent.md
           - name: Sales Close Agent (preview)
             items:
               - name: Overview
@@ -222,8 +216,12 @@ items:
                 href: view-sales-close-agent-engage-insights-metrics.md
               - name: How the Sales Close Agent - Engage works
                 href: how-sales-close-agent-engage-mode-works.md
-              - name: Sales Close Agent - Engage FAQ
-                href: faqs-about-sales-close-agent-engage.md  
+          - name: Sales research Agent (preview)
+            items:
+              - name: Overview
+                href: sales-research-agent.md
+              - name: Set up and configure Sales Research Agent
+                href: configure-sales-research-agent.md
           - name: Manage consumption-based billing
             href: copilot-consumption-based-billing.md                         
           - name: Copilot Studio agents and Entra app registrations
@@ -1470,8 +1468,12 @@ items:
             href: faqs-sales-qualification-agent.md
           - name: Responsible AI FAQs about Engage mode
             href: faqs-sales-qualification-agent-engage.md
-      - name: Responsible AI FAQs about Opportunity Research Agent (preview)
-        href: faqs-about-opportunity-research.md
+      - name: Responsible AI FAQs about Sales Close Agent (preview)
+        items:
+          - name: Sales Close Agent - Research FAQs
+            href: faqs-about-opportunity-research.md
+          - name: Sales Close Agent - Engage FAQ
+            href: faqs-about-sales-close-agent-engage.md  
       - name: Responsible AI FAQs about Sales Research Agent
         href: faqs-about-sales-research-agent.md
       - name: Responsible AI FAQs about chat with Sales data in Microsoft 365 Copilot (preview)

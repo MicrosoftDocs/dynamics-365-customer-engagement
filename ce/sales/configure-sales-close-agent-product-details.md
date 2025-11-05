@@ -1,6 +1,6 @@
 ---
-title: Configure product details for Sales Close Agent
-description: Define the products and value propositions that the Sales Close Agent uses to engage with customers.
+title: Configure product details for Sales Close Agent - Engage
+description: Define the products and value propositions that the Sales Close Agent - Engage uses to engage with customers.
 ms.date: 11/07/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -17,7 +17,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure product details for Sales Close Agent
+# Configure product details for Sales Close Agent - Engage
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -35,9 +35,9 @@ Before you enter or configure the products, review the following best practices:
 
 ## Add products and value propositions
 
-1. [Open the Sales Close Agent settings page](open-sales-close-agent-settings.md).  
+1. [Open the Sales Close Agent - Engage settings page](open-sales-close-agent-settings.md).  
 1. Under the **General** settings section, select **Agent profile**.  
-    :::image type="content" source="media/sca-general-products-settings-page.png" alt-text="Screenshot of the Sales Close Agent product settings page.":::  
+    :::image type="content" source="media/sca-general-products-settings-page.png" alt-text="Screenshot of the Sales Close Agent - Engage product settings page.":::  
 1. In the **Products** page, from the **Product** drop down list, select the products.  
     The products listed here are configured in your product catalog. To add product in product catalog, see [Add a product](add-product-quote-order-invoice.md#add-a-product).  
     If no products are listed in your product catalog, you can quickly create them and add them to the list, see [Quickly create product records](#quickly-create-product-records). Also, you can use bulk import of products using the **Bulk import** option in **Advance settings**. For more information, see [Import data (all record types) from multiple sources](power-platform/admin/import-data-all-record-types). However, ensure that the products have the name, price, and URL included in the bulk import file.  
@@ -60,16 +60,16 @@ When no products are available in your product catalog, you can quickly create t
 Follow these steps to quickly create product records:  
 
 1. In the **Products** page, select **Quick create product record**.  
-    :::image type="content" source="media/sca-general-products-settings-page-quick-create-product.png" alt-text="Screenshot of the Sales Close Agent product page with quick create product record.":::  
+    :::image type="content" source="media/sca-general-products-settings-page-quick-create-product.png" alt-text="Screenshot of the Sales Close Agent - Engage product page with quick create product record.":::  
 1. In the **Create products record(s)** dialog box, enter product name, price, and the product page URL.  
     This information is essential for agents to determine precise pricing, link to purchase pages, and identify products during conversations.  
     >[!NOTE]
     >You can only add up to 10 products to the agent.  
 
-    :::image type="content" source="media/sca-general-products-settings-page-create-product-records.png" alt-text="Screenshot of the Sales Close Agent create product records dialog box.":::  
+    :::image type="content" source="media/sca-general-products-settings-page-create-product-records.png" alt-text="Screenshot of the Sales Close Agent - Engage create product records dialog box.":::  
 
 1. Select **Add** and repeat the previous step to add more products.  
-    :::image type="content" source="media/sca-general-products-settings-page-product-records-added.png" alt-text="Screenshot of the Sales Close Agent product records added.":::  
+    :::image type="content" source="media/sca-general-products-settings-page-product-records-added.png" alt-text="Screenshot of the Sales Close Agent - Engage product records added.":::  
 1. Select **Create**.  
 Products are added to the agent and to your application’s product catalog.
 
@@ -78,9 +78,9 @@ Products are added to the agent and to your application’s product catalog.
 If any product has missing information, it's listed in red. Follow these steps to update the missing information:  
 
 1. In the **Products** page, select **Add missing info**.  
-    :::image type="content" source="media/sca-general-products-settings-add-missing-info.png" alt-text="Screenshot of the Sales Close Agent product with add missing info option.":::  
+    :::image type="content" source="media/sca-general-products-settings-add-missing-info.png" alt-text="Screenshot of the Sales Close Agent - Engage product with add missing info option.":::  
 1. In the **Update fields** dialog box, enter the missing information.  
-    :::image type="content" source="media/sca-general-products-settings-update-missing-info-dialog-box.png" alt-text="Screenshot of the Sales Close Agent update missing info dialog box.":::
+    :::image type="content" source="media/sca-general-products-settings-update-missing-info-dialog-box.png" alt-text="Screenshot of the Sales Close Agent - Engage update missing info dialog box.":::
 
 1. Select **Update** to save the changes.
     >[!NOTE]
@@ -90,8 +90,8 @@ The missing product information is updated for the agent and in the product cata
 
 ## Next step
 
-[Configure target customers for Sales Close Agent](configure-sales-close-agent-target-customers.md)
+[Configure target customers](configure-sales-close-agent-target-customers.md)
 
 ## Related information
 
-[Set up and configure the Sales Close Agent (preview)](configure-sales-close-agent.md)
+[Set up and configure the Sales Close Agent - Engage (preview)](configure-sales-close-agent.md)

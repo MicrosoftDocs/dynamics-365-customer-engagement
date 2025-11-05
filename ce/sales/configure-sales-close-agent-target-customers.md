@@ -1,6 +1,6 @@
 ---
-title: Configure target customers for Sales Close Agent
-description: Define target customer segments for the Sales Close Agent to effectively engage with during outreach and follow-up activities. 
+title: Configure target customers for Sales Close Agent - Engage
+description: Define target customer segments for the Sales Close Agent - Engage to effectively engage with during outreach and follow-up activities. 
 ms.date: 11/07/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -17,7 +17,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure target customers for Sales Close Agent
+# Configure target customers for Sales Close Agent - Engage
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -29,9 +29,9 @@ To understand more about the segmentation, read the [create and activate a segme
 
 **Follow these steps**:
 
-1. [Open the Sales Close Agent settings page](open-sales-close-agent-settings.md).  
+1. [Open the Sales Close Agent - Engage settings page](open-sales-close-agent-settings.md).  
 1. In the **Guidance** section, select **Target customer**.  
-    :::image type="content" source="media/sca-guidance-target-customer-settings-page.png" alt-text="Screenshot of the Sales Close Agent target customer settings page.":::
+    :::image type="content" source="media/sca-guidance-target-customer-settings-page.png" alt-text="Screenshot of the Sales Close Agent - Engage target customer settings page.":::
 1. Select the **Record type** from the list for which the agent uses as the basis for outreach and engagement. Only the record types **Contact**, **Account**, **Lead**, and **Opportunity** are supported. By default, the **Opportunity** record type is selected.  
 1. In the conditions section, add conditions that are used to evaluate records for processing to the segment.  
     You can have up to 10 conditions at any given time including conditions that are based on groups and related entities.  
@@ -59,4 +59,4 @@ To understand more about the segmentation, read the [create and activate a segme
 
 ## Related information
 
-[Set up and configure the Sales Close Agent (preview)](configure-sales-close-agent.md)
+[Set up and configure the Sales Close Agent - Engage (preview)](configure-sales-close-agent.md)
