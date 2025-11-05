@@ -42,10 +42,10 @@ The built-in consent management system includes a default compliance profile wit
 - **Commercial Purpose**: Used for sending promotional emails and newsletters.
 - **Transactional Purpose**: Used for sending order confirmations or service updates.
 
-By default, commercial purposes is set to be non-restrictive for email communications, meaning that emails can be sent unless the recipient has explicitly opted out. Transactional purposes is disabled. You can modify these settings based on your organization's requirements.
+By default, commercial purposes is set to be non-restrictive for email communications, meaning that emails can be sent unless the recipient has explicitly opted out. Transactional purposes is set to disabled by default, meaning that the emails can always be sent. You can modify these settings based on your organization's requirements.
 
 > [!TIP]
-> If your target region's regulations allow it, leave the **Commercial Purpose** profile as a **Non-Restrictive** enforcement model.
+> If your target region's regulations allow it, leave the **Commercial Purpose** profile as a **Non-Restrictive** enforcement model. 
  
 ## Set up consent management for your organization
 
@@ -76,11 +76,12 @@ To view and edit consent for a specific contact point, open a lead record in Dyn
 
 ## How consent is respected by sales AI agents
 
-While configuring the agents, you can specify the compliance profile, purpose, and topic to be used for email communications sent by the agents. When a sales AI agent, such as the Sales Qualification Agent or Sales Close Agent, prepares to send an email, it checks the consent status of the contact point (email, in this case) against the relevant compliance profile and purpose. If the lead or contact has opted out of the specific purpose associated with the email, the agent will not send the email to that lead or contact. 
+While configuring the agents, you can specify the compliance profile, purpose, and topic to be used for email communications sent by the agents. When a sales AI agent, such as the Sales Qualification Agent or Sales Close Agent, prepares to send an email, it checks the consent status of the contact point (email, in this case) against the relevant compliance profile and purpose. If the lead or contact has opted out of the specific purpose associated with the email, the agent will not send the email to that lead or contact.
 
 - To configure consent settings for Sales Qualification Agent, refer to [Configure email settings for the Sales Qualification Agent (preview)](sales-qualification-agent-email-instruction-validation.md). 
 - To configure consent settings for Sales Close Agent, refer to [Configure email settings for the Sales Close Agent (preview)](sales-close-agent-email-instruction-validation.md).
 
+After consent is set up and configured, emails sent by the sales AI agents will include an **Unsubscribe** link that directs recipients to the Preference Center. Recipients can manage their communication preferences and opt out of specific topics as needed.
 
 ## Related information
 
