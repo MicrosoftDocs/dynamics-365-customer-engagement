@@ -34,7 +34,7 @@ To understand more about the compliance profile, read the [Stay compliant with p
 1. In the Email delivery settings page, select the **Compliance profile** that the agent uses to send outreach and follow-up emails.  
     The compliance profile defines the email policies and consent management settings that the agent adheres to when communicating with customers.
     By default, [a default](consent-management-overview.md#understand-the-default-consent-setup) compliance profile is created for your organization. You can use the default profile or create a new compliance profile.  
-    To create a new compliance profile, select **Manage compliance settings** and follow the instructions specified in the [Set up consent management for your organization](consent-management-overview.md#set-up-consent-management-for-your-organization) article.  
+    To create a new compliance profile, select **Manage compliance settings** and follow the instructions specified in the [Set up a compliance profile](consent-management-overview.md#set-up-consent-management-for-your-organization) article.  
 
 ## Next step
 
