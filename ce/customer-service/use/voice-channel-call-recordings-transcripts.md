@@ -114,7 +114,7 @@ The following considerations apply:
 
 The conversation journey displays details about each AI agent or representative session that were a part of the conversation. If more than one session exists or other representatives take part in the conversation, then each participant details are also displayed.
 
-- Conversation Id: Displays the conversation ID of the entire conversation that could include one or more sessions.
+- **Conversation Id**: Displays the conversation ID of the entire conversation that could include one or more sessions.
 
 - The system generates a session every time a new primary agent is assigned to the conversation.
 - Each session header displays the start time and total duration of the session.
