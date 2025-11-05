@@ -226,8 +226,8 @@ items:
             href: copilot-consumption-based-billing.md                         
           - name: Copilot Studio agents and Entra app registrations
             href: ai-agents-apps.md
-          - name: FAQs about sales AI agents
-            href: sales-ai-agents-faqs.md
+          - name: Stay compliant with privacy regulations
+            href: consent-management-overview.md
       - name: Copilot in Dynamics 365 Sales
         items:
           - name: Copilot overview
