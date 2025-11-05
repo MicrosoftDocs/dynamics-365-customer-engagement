@@ -756,7 +756,7 @@
         href: context-variables-for-bot.md      
     - name: Feedback surveys
       items:
-      - name: Configure feedback surveys using Copilot Studio (preview)
+      - name: Configure feedback surveys using Copilot Studio
         href: /dynamics365/contact-center/administer/configure-surveys?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Enable voice call experiences
         href: configure-end-of-call-survey.md
