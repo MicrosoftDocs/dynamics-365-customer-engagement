@@ -47,6 +47,9 @@ You need the following prerequisites:
    The Opportunity research page opens with the complete research insights and recommendations.
    :::image type="content" source="media/opportunity-research-insights-with-no-risk.png" alt-text="Screenshot of the Opportunity research page with research insights when there are no risks.":::
 
+> [!NOTE]
+> The research insights are refreshed based on the refresh frequency configured by your admin and when specific fields in the opportunity record are updated. Learn more in [How often does the Opportunity Research Agent refresh research data?](opportunity-research-agent-faqs.md#how-often-does-the-opportunity-research-agent-refresh-research-data).
+
 ## Opportunity research page
 
 The Opportunity research page includes the following sections:

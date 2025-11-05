@@ -551,6 +551,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_scicustomemailhighlight_createdonbehalfby](#BKMK_lk_msdyn_scicustomemailhighlight_createdonbehalfby)
 - [lk_msdyn_scicustomemailhighlight_modifiedby](#BKMK_lk_msdyn_scicustomemailhighlight_modifiedby)
 - [lk_msdyn_scicustomemailhighlight_modifiedonbehalfby](#BKMK_lk_msdyn_scicustomemailhighlight_modifiedonbehalfby)
+- [msdyn_msdyn_scicustomemailhighlight_EmailHighli](#BKMK_msdyn_msdyn_scicustomemailhighlight_EmailHighli)
 - [msdyn_msdyn_scicustomemailhighlight_Publisher_m](#BKMK_msdyn_msdyn_scicustomemailhighlight_Publisher_m)
 - [owner_msdyn_scicustomemailhighlight](#BKMK_owner_msdyn_scicustomemailhighlight)
 - [team_msdyn_scicustomemailhighlight](#BKMK_team_msdyn_scicustomemailhighlight)
@@ -620,6 +621,19 @@ One-To-Many Relationship: [systemuser lk_msdyn_scicustomemailhighlight_modifiedo
 |ReferencingEntityNavigationPropertyName|`modifiedonbehalfby`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_msdyn_scicustomemailhighlight_EmailHighli"></a> msdyn_msdyn_scicustomemailhighlight_EmailHighli
+
+One-To-Many Relationship: [msdyn_conversationaggregatedinsights msdyn_msdyn_scicustomemailhighlight_EmailHighli](msdyn_conversationaggregatedinsights.md#BKMK_msdyn_msdyn_scicustomemailhighlight_EmailHighli)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_conversationaggregatedinsights`|
+|ReferencedAttribute|`msdyn_conversationaggregatedinsightsid`|
+|ReferencingAttribute|`msdyn_emailhighlighttarget`|
+|ReferencingEntityNavigationPropertyName|`msdyn_emailhighlighttarget`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Cascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 
 ### <a name="BKMK_msdyn_msdyn_scicustomemailhighlight_Publisher_m"></a> msdyn_msdyn_scicustomemailhighlight_Publisher_m
 
