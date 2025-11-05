@@ -36,7 +36,7 @@ Ensure that the following prerequisites are met:
 - Your tenant admin has granted the following consent:  
     - Consent for data movement across regions and Bing search. Learn more in [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot?tabs=new).  
     - The agent needs Copilot Studio capacity to run. Ensure that you have enough capacity. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
-    - Ensure AI Agents is enabled in Power Platform Admin Center. Learn more in [Turn on Copilot capabilities in Dynamics 365 Sales](/power-platform/admin/copilot/copilot-hub#turn-on-copilot-capabilities-in-dynamics-365-sales).
+    - Ensure AI Agents is enabled in Power Platform Admin Center. Learn more in [Turn on AI capabilities in Dynamics 365 Sales](/power-platform/admin/copilot/copilot-hub#turn-on-ai-capabilities-in-dynamics-365-sales).
 - You have admin permissions in Dynamics 365 Sales.  
 - You have a Copilot Studio license. Learn more in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).  
 - You turned on the modern UI for the Sales Hub app. Learn more in [Enabling the modern look for my app and removing the toggle](/power-apps/user/modern-fluent-design#enabling-the-modern-look-for-my-app-and-removing-the-toggle).  

@@ -27,7 +27,7 @@ The agent needs Copilot Studio capacity to run. Ensure that you have enough capa
 
 ## Enable AI Agents in Power Platform Admin Center
 
-The tenant admin must enable AI Agents in Power Platform Admin Center to use the Sales Research Agent in Dynamics 365 Sales. Learn more in [Turn on Copilot capabilities in Dynamics 365 Sales](/power-platform/admin/copilot/copilot-hub#turn-on-copilot-capabilities-in-dynamics-365-sales).
+The tenant admin must enable AI Agents in Power Platform Admin Center to use the Sales Research Agent in Dynamics 365 Sales. Learn more in [Turn on AI capabilities in Dynamics 365 Sales](/power-platform/admin/copilot/copilot-hub#turn-on-ai-capabilities-in-dynamics-365-sales).
 
 ## Grant access to the Sales Research Agent
 
