@@ -41,8 +41,8 @@ Before you configure knowledge sources for the Sales Qualification Agent, consid
 
 1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  
 
-1. In the **Knowledge** section, select the following options and configure the knowledge sources:  
-    - **Research**: The agent uses knowledge sources to get research insights about the lead, their company, and their competitors. 
+1. In the **Knowledge** section, select the following pages and configure the knowledge sources for research insights and agent emails:
+    - **Research**: The agent uses these knowledge sources to get research insights about the lead, their company, and competitors. 
         - **Company insights:** Company insights include industry type, company size, financials, priorities, and news. The following examples are the best sources to add as knowledge sources for company research:
 
             | Insight | Typical questions answered | Examples of out-of-box data sources |
@@ -53,8 +53,9 @@ Before you configure knowledge sources for the Sales Qualification Agent, consid
             | Recent news | What just happened that matters to us, and shows a need or intent for our solutions? | Bing news search |  
 
         - **Competitor insights:** Competitor insights include industry, location, size, and market share of the competitor, their strengths, weaknesses, opportunities, and threats (SWOT analysis), and recommended talking points to position against the competitor. Learn more in [Configure Sales Qualification Agent to generate competitor insights (preview)](sales-qualification-agent-competitor-insights.md).
-    - **Outreach emails**: The agent uses knowledge sources to create personalized outreach emails. These emails can include relevant customer testimonials, case studies, and other insights to engage the lead effectively.  
-    - **Follow-up emails**: This setting is only applicable for the Research and engage mode. The agent uses knowledge sources to create follow-up emails to respond accurately and ask insightful questions. For an effective follow-up, add knowledge sources that include price sources, product specifications, sales playbooks, SKUs, and more.  
+    - **Agent emails**: The agent uses these knowledge sources to draft helpful and relevant emails while reaching out to leads and following up with them.
+        - **Knowledge sources for email personalization**: The agent uses these knowledge sources to draft personalized outreach emails. Add relevant customer testimonials, case studies, and other insights to engage with the lead effectively.  
+        - **Knowledge sources for email responses**: This setting is only applicable for the Research and engage mode. The agent uses these knowledge sources to draft follow-up emails to respond accurately and ask insightful questions. For an effective follow-up, add knowledge sources that include price sources, product specifications, sales playbooks, SKUs, and more.  
 
 1. In the **Knowledge sources** section, select **Add**. You're redirected to the **Copilot Studio** page where you can add knowledge sources.  
 
