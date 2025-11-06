@@ -55,9 +55,9 @@ By default, the agent uses public web data sources to research leads and their c
 
 1. Select **Add in Microsoft Copilot Studio** or **Manage in Microsoft Copilot Studio** to add or remove knowledge sources.
    You're redirected to the D365 Sales Agent - Research agent's **Knowledge** page in Copilot Studio.
-1. Add relevant knowledge sources and go back to the agent settings page.
+1. Add relevant knowledge sources and return to the agent settings page.
    The knowledge sources you added in Copilot Studio are listed under **Company research**. You can now test the knowledge source.
-1. Select the Test icon (:::image type="icon" source="media/test-icon.png" border="false":::) and follow the instructions in the **Test insight** pane. Verify whether the agent is generating relevant research insights using the knowledge sources you added.
+1. Select the Test icon (:::image type="icon" source="media/test-icon.png" border="false":::) in the **Company research** section. Follow the instructions in the **Test insight** pane and verify whether the agent is generating relevant research insights using the knowledge sources you added.
 
 ## Add competitors and knowledge sources for competitor research
 
@@ -75,7 +75,7 @@ By default, the agent generates research insights on standard topics such as com
  
    - **What insight you want the seller to see**: Describe the type of insight you want the agent to generate for this topic. For example, "Summarize the lead company's past purchase history from our internal billing system."
    - **Preferred knowledge source**: Select the knowledge sources that the agent should use to generate insights for this topic. You can select multiple knowledge sources. Learn more about [considerations for knowledge sources](configure-sqa-knowledge-source.md#considerations). If you don't select any knowledge sources, the agent relies on its own knowledge, public data, and other sources you've configured.
-1. Select the Test icon (:::image type="icon" source="media/test-icon.png" border="false":::) and follow the instructions in the **Test insight** pane. Verify whether the agent is generating relevant research insights using the knowledge sources you added.
+1. Return to the Sales Qualification Agent settings page and select the Test icon (:::image type="icon" source="media/test-icon.png" border="false":::) in the **Custom research** section. Follow the instructions in the **Test insight** pane and verify whether the agent is generating relevant research insights using the knowledge sources you added.
 
 ## Add knowledge sources for outreach and follow-up emails
 
