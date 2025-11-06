@@ -97,7 +97,7 @@ An **Engaged** session **Outcome** is categorized as:
   
 **Unengaged**: Sessions start in an unengaged state and stay unengaged until user input is provided or the session enters custom or escalate topic modes. For unengaged sessions, the **Outcome** is set to **None** and **OutcomeReason** is **NoError**.
 
-However, on the Omnichannel Historical Bot dashboard, you see the following categories:
+However, on the Omnichannel Historical Bot dashboard, you see the following summarized categories:
 
 - SystemError and UserError → **Failure**
 - AgentTransferRequestedByUser → **Requested by User**
