@@ -42,7 +42,7 @@ Throughout this article, the term "sales app" refers to apps that have lead and 
 
 - Make sure that your organization's [data loss prevention policies allow the connectors that Copilot requires](sales-copilot-faq.md#copilot-isnt-working-what-should-i-do).
 
-- Make sure your tenant admin has [turned on AI capabilities in Power Platform Admin Center](/power-platform/admin/copilot/copilot-hub#turn-on-ai-capabilities-in-dynamics-365-sales).
+- Make sure that your tenant admin has [turned on Copilot in Dynamics 365 Sales in Power Platform Admin Center](/power-platform/admin/copilot/copilot-hub#turn-on-ai-capabilities-in-dynamics-365-sales).
 
 ## Provide consent for data movement
 
