@@ -42,7 +42,7 @@ Turn on the following AI capabilities in Power Platform admin center:
 
 - [AI prompts](/ai-builder/administer#enable-or-disable-ai-prompts-in-power-platform-and-copilot-studio). This setting allows the agent to use custom or predefined prompts.
 - [AI insight cards](/power-platform/admin/settings-features). This setting allows sellers to be notified about the insights on the opportunity record. Learn more about turning on this feature in [Manage feature settings](/power-platform/admin/settings-features).
-- [AI Agents][Turn on AI capabilities in Dynamics 365 Sales](/power-platform/admin/copilot/copilot-hub#turn-on-ai-capabilities-in-dynamics-365-sales). This setting enables the configuration and use of AI agents in Dynamics 365 Sales.  
+- [AI Agents](/power-platform/admin/copilot/copilot-hub#turn-on-ai-capabilities-in-dynamics-365-sales). This setting enables the configuration and use of AI agents in Dynamics 365 Sales.  
 
 ### Modify data policies and allow the following connectors
   
