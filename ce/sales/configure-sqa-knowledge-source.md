@@ -65,7 +65,7 @@ By default, the agent identifies competitors using CRM data and public web sourc
 
 ## Add knowledge sources for custom research topics
 
-By default, the agent generates research insights on standard topics such as company overview, financials, recent news, and competitor analysis using CRM records and public data. However, your sellers might need additional insights about the lead's company, such as their past spend from your internal billing data, or financial reports sourced from a country-specific data source. You can configure the agent to generate research insights based on these custom topics by specifying the topics and uploading relevant knowledge sources.
+By default, the agent generates research insights on standard topics such as company overview, financials, recent news, and competitor analysis using CRM records and public data. However, your sellers might need additional insights about the lead's company, such as their past spend from your internal billing data, or financial reports sourced from a country/region-specific data source. You can configure the agent to generate research insights based on these custom topics by specifying the topics and uploading relevant knowledge sources.
 
 1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  
 

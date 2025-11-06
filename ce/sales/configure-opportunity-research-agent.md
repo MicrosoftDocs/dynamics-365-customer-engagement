@@ -45,16 +45,18 @@ Turn on the following AI capabilities in Power Platform admin center:
 - [AI Agents](/power-platform/admin/copilot/copilot-hub#turn-on-ai-capabilities-in-dynamics-365-sales). This setting enables the configuration and use of AI agents in Dynamics 365 Sales.  
 
 ### Modify data policies and allow the following connectors
-  
-    | Connector                                 | Why is it required?                                                                                   |
-    |--------------------------------------------|-------------------------------------------------------------------------------------------------------|
-    | Knowledge source with public websites and data | The agent needs it to access public data for enrichment.     |
-    | Microsoft Copilot Studio                       | Copilot Studio is the core platform for building and deploying the agent.                      |
-    | Knowledge source with SharePoint or OneDrive      | Required only if the agent is configured to use internal documents on SharePoint or OneDrive for enrichment.                         |
-    | Knowledge source with documents                | Required only if the agent is configured to use internal documents for enrichment.                   |
-    | Direct Line channels in Copilot Studio | Required for the agent to connect to Microsoft Copilot Studio. |
 
-   Learn more in [Manage data policies](/power-platform/admin/prevent-data-loss?tabs=new).
+Ensure that your organization's data policies allow the use of the following connectors required by the Opportunity Research Agent:
+  
+| Connector                                 | Why is it required?                                                                                   |
+|--------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| Knowledge source with public websites and data | The agent needs it to access public data for enrichment.     |
+| Microsoft Copilot Studio                       | Copilot Studio is the core platform for building and deploying the agent.                      |
+| Knowledge source with SharePoint or OneDrive      | Required only if the agent is configured to use internal documents on SharePoint or OneDrive for enrichment.                         |
+| Knowledge source with documents                | Required only if the agent is configured to use internal documents for enrichment.                   |
+| Direct Line channels in Copilot Studio | Required for the agent to connect to Microsoft Copilot Studio. |
+
+Learn more in [Manage data policies](/power-platform/admin/prevent-data-loss?tabs=new).
 
 ### Grant permissions to custom security role
 
