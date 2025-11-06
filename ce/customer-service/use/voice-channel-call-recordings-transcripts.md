@@ -1,7 +1,7 @@
 ---
 title: View conversation transcripts and call recordings
 description: Use this article to learn how to view conversation transcripts and call recordings.
-ms.date: 11/07/2025
+ms.date: 11/06/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -126,7 +126,7 @@ The conversation journey displays details of each AI agent or representative ses
     Learn more in [session outcomes and reasons](oc-bot-dashboard.md#engaged-unengaged).
     
     > [!NOTE]
-    > The Copilot Agent outcome reason and client session ID values are available for sessions handled by AI agents only. After the conversation ends, the system might take up to 30 minutes to display this information.
+    > The Copilot Agent Outcome Reason and Copilot Agent Client SessionId values are available for sessions handled by AI agents only. After the conversation ends, the system might take up to 30 minutes to display this information.
 
    :::image type="content" source="../media/closed-conversation-journey.png" alt-text="Screenshot of a conversation journey that appears in the closed conversation form." lightbox="../media/closed-conversation-journey.png":::
 
