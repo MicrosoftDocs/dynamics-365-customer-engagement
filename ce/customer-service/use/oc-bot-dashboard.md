@@ -1,7 +1,7 @@
 ---
 title: Bot dashboard
 description: Learn about the bot dashboard in historical analytics to better understand customer service representative performance in your organization.
-ms.date: 11/03/2025
+ms.date: 11/06/2025
 ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
@@ -77,6 +77,8 @@ A conversation is an interaction between a user and a Copilot Studio bot, genera
 
 :::image type="content" source="../media/metrics-by-last-session-outcome.png" alt-text="Screenshot of metrics by last session outcome.":::
 
+You see the following categories on the Copilot conversationtranscript logs:
+
 An **Engaged** session **Outcome** is categorized as:
 
   - **Abandoned**
@@ -95,13 +97,13 @@ An **Engaged** session **Outcome** is categorized as:
   
 **Unengaged**: Sessions start in an unengaged state and stay unengaged until user input is provided or the session enters custom or escalate topic modes. For unengaged sessions, the **Outcome** is set to **None** and **OutcomeReason** is **NoError**.
 
-The section shows how conversations ended, grouped into categories:
+However, on the Copilot Studio bot dashboard, you see the categories:
+
 - SystemError and UserError → **Failure**
 - AgentTransferRequestedByUser → **Requested by User**
 - AgentTransferFromQuestionMaxAttempts → **Max Attempts**
 - AgentTransferConfiguredByAuthor → **Business Rule** 
-
-
+- Unengaged → **No User Engagement**
 
 | Session outcome| Engagement type| Outcome Reason                        | Definition                                                                                                              | Applies to  | Channel         | 
 |----------------------------------------|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|-----------------|-
