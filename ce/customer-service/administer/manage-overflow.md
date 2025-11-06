@@ -201,7 +201,7 @@ The "wait time in queue" condition is evaluated in any of the following scenario
 - Work item is transferred by a representative or supervisor to the queue.
 - Work item overflows from another queue.
 
-For voice work items, if the work item is transferred by a representative or supervisor to the queue or it overflows from another queue, transfer to an external number or transfer to a different queue actions only are available.
+For voice work items, if a representative or supervisor transfers the work item to the queue or it overflows from another queue, transfer to an external number or transfer to a different queue actions only are available.
 
 If a queued work item is moved to another queue because of long wait times, and the new queue also has overflow handling, the system checks for overflow conditions again. If the wait time is too high in the new queue as well, it triggers the overflow action.
 
