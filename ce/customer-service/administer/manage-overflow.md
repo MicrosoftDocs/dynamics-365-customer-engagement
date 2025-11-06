@@ -1,10 +1,10 @@
 ---
 title: Manage overflow of work items in queues
-description: Learn how to set up overflow conditions and actions for your voice, chat, and messaging channels when there are more items in the queue than your team can handle.
+description: Learn how to set up overflow conditions and actions for your voice, chat, and messaging channels when there are more items in the queue than your team can handle in Customer Service or Dynamics 365 Contact Center.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 06/03/2025
+ms.date: 11/06/2025
 ms.topic: how-to
 ms.custom:
  - bap-template
@@ -201,8 +201,7 @@ The "wait time in queue" condition is evaluated in any of the following scenario
 - Work item is transferred by a representative or supervisor to the queue.
 - Work item overflows from another queue.
 
-> [!NOTE]
-> For voice work items, if the work item is transferred by a representative or supervisor to the queue or it overflows from another queue, only transfer to an external number or transfer to a different queue actions are available.
+For voice work items, if the work item is transferred by a representative or supervisor to the queue or it overflows from another queue, transfer to an external number or transfer to a different queue actions only are available.
 
 If a queued work item is moved to another queue because of long wait times, and the new queue also has overflow handling, the system checks for overflow conditions again. If the wait time is too high in the new queue as well, it triggers the overflow action.
 
@@ -224,12 +223,12 @@ If you set **End call** or **End conversation** as an overflow action, you can e
 
 ### Related information
 
-- [Configure voicemail](voice-channel-voicemail.md)
-- [Configure direct callback](voice-channel-direct-callback.md)
-- [Create and manage queues](queues-omnichannel.md)
-- [Configure percentage-based routing](configure-route-to-queue-rules.md#percentage-based-allocation-of-work-to-queues)
-- [Overview of voice channel](voice-channel.md)
-- [Overview of unified routing](overview-unified-routing.md)
-- [Configure routing for the voice channel](voice-channel-inbound-calling.md)
+[Configure voicemail](voice-channel-voicemail.md)  
+[Configure direct callback](voice-channel-direct-callback.md)  
+[Create and manage queues](queues-omnichannel.md)  
+[Configure percentage-based routing](configure-route-to-queue-rules.md#percentage-based-allocation-of-work-to-queues)  
+[Overview of voice channel](voice-channel.md)  
+[Overview of unified routing](overview-unified-routing.md)  
+[Configure routing for the voice channel](voice-channel-inbound-calling.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
