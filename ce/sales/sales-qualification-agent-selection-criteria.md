@@ -23,9 +23,7 @@ The selection criteria helps you to group the incoming leads into a segment and 
 
 > [!NOTE]
 > - Leads that meet the selection criteria will be assigned to the agent for research and engagement and then handed over to the sellers based on the [handoff criteria](configure-sales-qualification-agent-handoff-criteria.md).  
-> - When new leads are created, ensure that the lead owner is not [the app user](configure-requirements-for-sqa-agent.md#create-an-app-user-in-dataverse-and-assign-aisalesperson-role) used to create the agent.    
-
-Read the [create and activate a segment](wa-create-and-activate-a-segment.md#create-and-activate-a-segment) article for more information.
+> - When new leads are created, ensure that the lead owner is not [the app user](configure-requirements-for-sqa-agent.md#create-an-app-user-in-dataverse-and-assign-aisalesperson-role) used to create the agent.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 

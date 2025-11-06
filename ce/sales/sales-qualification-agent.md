@@ -78,7 +78,7 @@ The usage of the Sales Qualification Agent depends on your role in the sales pro
 The Sales Qualification Agent uses the capacity assigned to your tenant to process leads and generate insights. You can set up either prepaid capacity or pay-as-you-go capacity for the agent. Use the following resources to learn more about setting up capacity and monitoring usage:  
 
 - [Manage consumption-based billing for agent capabilities](copilot-consumption-based-billing.md)
-- - [View the agent's usage consumption](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new#use-the-summary-tab)
+- [View the agent's usage consumption](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new#use-the-summary-tab)
 
 ## Responsible AI
 
