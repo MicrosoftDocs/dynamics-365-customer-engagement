@@ -112,7 +112,7 @@ The following considerations apply:
 
 ### Conversation Journey
 
-The conversation journey displays details about each AI agent or representative session that were a part of the conversation. If more than one session exists or other representatives take part in the conversation, then each participant details are also displayed.
+The conversation journey displays details of each AI agent or representative session in the conversation. If more than one session exists or other representatives join the conversation, then each participant details are also displayed.
 
 - **Conversation Id**: Displays the [conversation ID](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem#BKMK_msdyn_ocliveworkitemid) of the entire conversation that could include one or more sessions.
 
@@ -126,7 +126,7 @@ The conversation journey displays details about each AI agent or representative 
     Learn more in [session outcomes and reasons](oc-bot-dashboard.md#engaged-unengaged).
     
     > [!NOTE]
-    > The Copilot Agent outcome reason and client session ID values are available for sessions handled by AI agents only. After the conversation ends, the system might take up to 30 minutes in displaying this information.
+    > The Copilot Agent outcome reason and client session ID values are available for sessions handled by AI agents only. After the conversation ends, the system might take up to 30 minutes to display this information.
 
    :::image type="content" source="../media/closed-conversation-journey.png" alt-text="Screenshot of a conversation journey that appears in the closed conversation form." lightbox="../media/closed-conversation-journey.png":::
 
