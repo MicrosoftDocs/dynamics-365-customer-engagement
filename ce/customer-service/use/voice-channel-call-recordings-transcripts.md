@@ -1,7 +1,7 @@
 ---
 title: View conversation transcripts and call recordings
 description: Use this article to learn how to view conversation transcripts and call recordings.
-ms.date: 11/14/2025
+ms.date: 11/07/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -114,17 +114,19 @@ The following considerations apply:
 
 The conversation journey displays details about each AI agent or representative session that were a part of the conversation. If more than one session exists or other representatives take part in the conversation, then each participant details are also displayed.
 
-- **Conversation Id**: Displays the conversation ID of the entire conversation that could include one or more sessions.
+- **Conversation Id**: Displays the [conversation ID](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem#BKMK_msdyn_ocliveworkitemid) of the entire conversation that could include one or more sessions.
 
-- The system generates a session every time a new primary agent is assigned to the conversation.
+- The system generates a [session](/dynamics365/developer/reference/entities/msdyn_ocsession) every time a new primary agent is assigned to the conversation.
 - Each session header displays the start time and total duration of the session.
 - The session lists the primary agent that can be an AI agent or service representative, their assignment time, and whether they joined the conversation.
 - When the primary representative or AI agent leaves the session, the session ends, and the **Closure reason** is displayed with the time. Learn more about closure reasons in [Session closure reasons](/dynamics365/contact-center/extend/closure-reasons-descriptions).
 - When a consult session is added to the conversation, the representative being consulted appears indented beneath the primary representative. Their join and exit times for the consult are displayed, with details about whether they accepted the consult.
 - **Copilot Agent Outcome Reason**: Provides insights into why a Copilot session ended, helping you understand the outcome of each interaction.
 - **Copilot Agent Client SessionId**: A unique identifier that allows you to locate the corresponding Copilot conversation transcript and access additional session details stored in Dataverse.
+    Learn more in [session outcomes and reasons](oc-bot-dashboard.md#engaged-unengaged).
+    
     > [!NOTE]
-    > The Copilot Agent outcome reason and client session ID values are available for sessions handled by AI agents only. After the conversation ends, the system might take up to 15 minutes in displaying this information.
+    > The Copilot Agent outcome reason and client session ID values are available for sessions handled by AI agents only. After the conversation ends, the system might take up to 30 minutes in displaying this information.
 
    :::image type="content" source="../media/closed-conversation-journey.png" alt-text="Screenshot of a conversation journey that appears in the closed conversation form." lightbox="../media/closed-conversation-journey.png":::
 
