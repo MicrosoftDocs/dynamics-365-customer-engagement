@@ -10,7 +10,7 @@ search.audienceType:
 
 # Customer Voice satisfaction metric (msfp_satisfactionmetric) table/entity reference (Microsoft Dynamics 365)
 
-Satisfaction metric defined for a project.
+Customer Voice satisfaction metric  defined for a project.
 
 ## Messages
 
@@ -269,7 +269,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Unique identifier for entity instances**|
-|DisplayName|**Customer Voice satisfaction metric**|
+|DisplayName|**Satisfaction metric**|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`msfp_satisfactionmetricid`|
@@ -735,7 +735,7 @@ One-To-Many Relationship: [msfp_project msfp_msfp_project_msfp_satisfactionmetri
 |ReferencingAttribute|`msfp_project`|
 |ReferencingEntityNavigationPropertyName|`msfp_project`|
 |IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_owner_msfp_satisfactionmetric"></a> owner_msfp_satisfactionmetric
 
@@ -789,6 +789,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msfp_satisfactionmetric_PrincipalObjectAttributeAccesses](#BKMK_msfp_satisfactionmetric_PrincipalObjectAttributeAccesses)
 - [msfp_satisfactionmetric_ProcessSession](#BKMK_msfp_satisfactionmetric_ProcessSession)
 - [msfp_satisfactionmetric_SyncErrors](#BKMK_msfp_satisfactionmetric_SyncErrors)
+- [msfp_satisfactionmetricsurveymapping_satisfactionmetricid_msfp_satisfactionmetric](#BKMK_msfp_satisfactionmetricsurveymapping_satisfactionmetricid_msfp_satisfactionmetric)
 
 ### <a name="BKMK_msfp_msfp_satisfactionmetric_msfp_alert"></a> msfp_msfp_satisfactionmetric_msfp_alert
 
@@ -885,6 +886,18 @@ Many-To-One Relationship: [syncerror msfp_satisfactionmetric_SyncErrors](syncerr
 |ReferencedEntityNavigationPropertyName|`msfp_satisfactionmetric_SyncErrors`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msfp_satisfactionmetricsurveymapping_satisfactionmetricid_msfp_satisfactionmetric"></a> msfp_satisfactionmetricsurveymapping_satisfactionmetricid_msfp_satisfactionmetric
+
+Many-To-One Relationship: [msfp_satisfactionmetricsurveymapping msfp_satisfactionmetricsurveymapping_satisfactionmetricid_msfp_satisfactionmetric](msfp_satisfactionmetricsurveymapping.md#BKMK_msfp_satisfactionmetricsurveymapping_satisfactionmetricid_msfp_satisfactionmetric)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msfp_satisfactionmetricsurveymapping`|
+|ReferencingAttribute|`msfp_satisfactionmetricid`|
+|ReferencedEntityNavigationPropertyName|`msfp_satisfactionmetricsurveymapping_satisfactionmetricid_msfp_satisfactionmetric`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: Removed or deprecated features in Dynamics 365 Sales
 description: Visit this page to see the deprecating features in Dynamics 365 Sales.
-ms.date: 08/22/2025
+ms.date: 10/09/2025
 ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -20,9 +20,16 @@ The features that have been removed or deprecated in  Dynamics 365 Sales are lis
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability continues to work and is fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.  
 
+<a name="sales-usage-reports"></a>
+## Sales usage reports
+
+Effective December 01, 2025, sales usage reports will be deprecated. This means that you can’t access the report to view historical operational metrics and key performance indicators (KPIs) of your contacts, accounts, leads, and opportunities. 
+
+As an alternative, you can [download the sample Power BI report for sales usage reporting](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/sales/SalesUsageReporting/Sales%20Usage%20Reporting%20Sample.pbit) and use it to get insights into sales activities and performance metrics. The sample report is only provided to facilitate the transition. You can customize and maintain it to suit your needs. Microsoft doesn't provide support for the sample report.
+
 ## Document summary in Copilot  
 
-Effective October 2025, the [document summary feature in Copilot](copilot-get-information.md#copilot-doc-summarization) will be deprecated. This means that you can no longer generate summaries of sales documents and proposals using Copilot. Prompt for document summarization will be removed and natural language prompts for document summarization will not work either. As an alternative, you can use the built-in summarization capabilities in Microsoft Word or other text editing tools.
+Effective October 2025, the document summary feature in Copilot is deprecated. This means that you can no longer generate summaries of sales documents and proposals using Copilot. Prompt for document summarization will be removed and natural language prompts for document summarization will not work either. As an alternative, you can use the built-in summarization capabilities in Microsoft Word or other text editing tools.
 
 ## Emails that need follow-ups in Copilot in Dynamics 365 Sales
 

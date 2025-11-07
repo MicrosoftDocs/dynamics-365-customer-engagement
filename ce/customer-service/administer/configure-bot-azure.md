@@ -16,8 +16,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-
-In Omnichannel for Customer Service, you can integrate Azure AI agents (agents) seamlessly with chat and social channels, and also repurpose Azure agents to be smart assist agents and provide recommendations to customer service representatives (service representatives or representatives). Learn more in [Manage smart assist](smart-assist.md) and [View smart assist suggestions](../use/oc-smart-assist.md). This article discusses how you can integrate Azure agents, configure routing rules, and set escalation rules.
+In your contact center, you can integrate Azure AI agents (agents) seamlessly with chat and social channels, and also repurpose Azure agents to be smart assist agents and provide recommendations to customer service representatives (service representatives or representatives). Learn more in [Manage smart assist](smart-assist.md) and [View smart assist suggestions](../use/oc-smart-assist.md). This article discusses how you can integrate Azure agents, configure routing rules, and set escalation rules.
 
 ## Prerequisites
 
@@ -32,19 +31,19 @@ In Omnichannel for Customer Service, you can integrate Azure AI agents (agents) 
 
 - To use the agent over messaging channels, add [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) as a supported channel.
 
-## Integrate Azure agents with Omnichannel for Customer Service
+## Integrate Azure agents with contact center
 
-After you meet the prerequisites, perform the following steps to integrate your Azure agents with Omnichannel for Customer Service.
+After you meet the prerequisites, perform the following steps to integrate your Azure agents with your contact center.
 
-1. Connect your Azure agent resource to Omnichannel channel.
+1. Connect your Azure agent resource to omnichannel channel.
 1. Configure the agent user as an omnichannel representative.
 1. Configure routing rules and context variables.
 1. Add the agent user to queues.
 1. Set escalation rules as required.
 
-### Connect your agent resource to Omnichannel channel
+### Connect your agent resource to omnichannel channel
 
-Perform the following steps to connect and register your agent with the Omnichannel channel.
+Perform the following steps to connect and register your agent with the omnichannel channel.
 
 1. Open the [Azure portal](https://portal.azure.com), and then select your agent resource.
 
@@ -95,7 +94,7 @@ A representative can transfer a chat to an AI agent by adding it to a queue, and
 
 > [!Note]
 > - The chat cannot be transferred to the same agent.
-> - The agent works with the chat widget, workstream, and queues created in Omnichannel for Customer Service.
+> - The agent works with the chat widget, workstream, and queues created in contact center.
 
 ### Configure routing rules
 
@@ -117,7 +116,7 @@ You understand that your data may be transmitted and shared with external system
 [Best practices for configuring Azure and Copilot Studio bots](configure-bot-best-practices.md)  
 [Integrate Copilot Studio bot](configure-bot-virtual-agent.md)  
 [Create workstreams for unified routing](create-workstreams.md)  
-[Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
+[Work with queues](queues-omnichannel.md)  
 [View bot insights](../implement/omnichannel-insights-dashboard.md#botinsights)  
 [Configure Azure bots to escalate and end conversation](../develop/bot-escalate-end-conversation.md)  
 [Configure context variables for bots](context-variables-for-bot.md)  

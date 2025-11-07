@@ -1,7 +1,7 @@
 ---
 title: Set up IoT provider actions
 description: Learn how to set up IoT provider actions to automate various aspects of Dynamics 365 Connected Field Service operations.
-ms.date: 09/04/2024
+ms.date: 10/02/2025
 ms.subservice: connected-field-service
 ms.topic: how-to
 ms.author: vhorvath
@@ -300,7 +300,7 @@ Sample output:
 
 ## Get device events
 
-The Get device events action fetches events from the device [service history](service-history.md) and displays them as pins at the bottom of the chart that's created by the Query device readings action. You can include any custom entities such as the last time you performed an asset upgrade.
+The Get device events action gets events from the device [service history](service-history.md) and shows them as pins at the bottom of the chart created by the Query device readings action. You can include any custom entities such as the last time you performed an asset upgrade.
 
 :::image type="content" source="./media/custom-iot-device-events.png" alt-text="Screenshot of events shown as pins under the device temperature and humidity over time chart.":::
 
@@ -330,7 +330,7 @@ The Get device events action returns the data in serialized JSON format. The fol
 | JSON property | Type | Details |
 | --- | --- | --- |
 | EventsName | string | Short description of the category of the event; use it to show or hide all events in that category |
-| Timestamp | string | The timestamp of the event formatted as a string in ISO format; the x-axis timestamp for the event pin |
+| Timestamp | string | The event's timestamp, formatted as an ISO string, and the x-axis timestamp for the event pin.   |
 | Color | string | The color of the event pin, provided as a hex-code string |
 | Description | string | A short description of the event, displayed when the user hovers over the pin or selects the pin to view details |
 | ID | string | The ID of the event; can be a name or another user-friendly value, like the work order number or booking confirmation code |

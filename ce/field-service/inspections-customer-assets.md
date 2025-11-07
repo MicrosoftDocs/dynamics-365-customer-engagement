@@ -3,8 +3,8 @@ title: "Use inspections without work orders in Dynamics 365 Field Service | Micr
 description: Learn how to use inspections without work orders in Dynamics 365 Field Service.
 ms.date: 03/28/2025
 ms.topic: how-to
-author: josephshum-msft
-ms.author: jshum
+author: jasonccohen
+ms.author: jacoh
 ---
 
 # Use inspections without work orders

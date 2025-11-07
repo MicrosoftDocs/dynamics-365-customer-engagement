@@ -169,7 +169,7 @@ Add [services](create-product-or-service.md) that field technicians provide.
 
    - **Characteristic**: An existing characteristic or create a new one.
 
-   - **Rating Value**: The characteristic level of a resource. If left blank, all rating levels are acceptable if the resource has the matching characteristic.
+   - **Proficiency Model**: The characteristic level of a resource. If left blank, all rating levels are acceptable if the resource has the matching characteristic.
 
 1. Select **Save and Close**.
 
@@ -251,6 +251,6 @@ When using incidents with requirement groups:
 - The work order assigned to a requirement group can only have one incident.
 
 > [!TIP]
-> If a work order should be performed by multiple resources, we recommended using requirement group templates instead of multiple incident types. Let's say you have a work order with two incident types, each requiring different skills. The system will look for a single resource to fulfill the job. The scheduler would need to perform extra steps to schedule it so two different resources arrive at the same time. If you use a requirement group template, the schedule assistant will simultaneously search for both a single resource with both skills or two resources each with one skill to arrive at the same time.
+> If a work order should be performed by multiple resources, we recommended using requirement group templates instead of multiple incident types. Let's say you have a work order with two incident types, each requiring different characteristics. The system will look for a single resource to fulfill the job. The scheduler would need to perform extra steps to schedule it so two different resources arrive at the same time. If you use a requirement group template, the schedule assistant will simultaneously search for both a single resource with both characteristics or two resources each with one characteristic to arrive at the same time.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

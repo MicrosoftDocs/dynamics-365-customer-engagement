@@ -60,7 +60,7 @@ If the constraint is removed from the goal, work is still scheduled within worki
 
 ### Meets Required Characteristics
 
-Ensures that a resource has all the required [characteristics and rating levels](set-up-characteristics.md) to complete a resource requirement.
+Ensures that a resource has all the required [characteristics and proficiencies](set-up-characteristics.md) to complete a resource requirement.
 
 ### Meets Required Roles
 
@@ -146,29 +146,29 @@ Prioritize bookings for requirements with the highest score for priority. The pr
 
 Consider the list of [preferred resources](resource-preferences.md) noted on related requirements. The system tries to assign bookings to preferred resources first while meeting other constraints and objectives.
 
-### Best Matching Skill Level
+### Best Matching Characteristic Level
 
-Resource Scheduling Optimization considers the rating level when matching [characteristics](set-up-characteristics.md) required by requirements and the resources who possess those characteristics. If all required characteristics match, the system prioritizes resources with fewer skills first to keep resources available with more or unique skills for emergency work.
+Resource Scheduling Optimization considers the proficiency rating level when matching [characteristics](set-up-characteristics.md) required by requirements and the resources who possess those characteristics. If all required characteristics match, the system prioritizes resources with fewer characteristics first to keep resources available with more or unique characteristics for emergency work.
 
 This objective depends on the [Meets Required Characteristics constraint](#meets-required-characteristics) within the optimization goal.
 
 Meets Required Characteristics constraint **selected**:
 
-- Resources without the characteristic (skill) or lower-than-required  rating levels aren't considered.
-- Resources with the exact skill level are the best match and get the highest score.
+- Resources without the characteristic (skill) or lower-than-required proficiency levels aren't considered.
+- Resources with the exact characteristic level are the best match and get the highest score.
 - The more overqualified a resource is, the lower their score is.
 
 Meets Required Characteristics constraint **not selected**:
 
-- Less qualified resources and resources without the skill can still be booked.
+- Less qualified resources and resources without the characteristic can still be booked.
 - Overqualified resources get a higher score than less qualified resources.
 - The more overqualified a resource is, the lower their score is.
 - The less qualified a resource is, the lower their score is.
-- Resources without the skill get the lowest score.
+- Resources without the characteristic get the lowest score.
 
-The following graphic shows the score distribution, depending on the skill level for a characteristic rating model that ranges from 1 to 10. The desired skill level is 4, which gets the highest score.
+The following graphic shows the score distribution, depending on the skill level for a characteristic proficiency model that ranges from 1 to 10. The desired characteristic level is 4, which gets the highest score.
 
-:::image type="content" source="media/scheduling-rso-3-0-characteristic-proficiency-chart.png" alt-text="Graphic with skill and score distribution.":::
+:::image type="content" source="media/scheduling-rso-3-0-characteristic-proficiency-chart.png" alt-text="Graphic with characteristic and score distribution.":::
 
 ### Schedule as soon as possible
 

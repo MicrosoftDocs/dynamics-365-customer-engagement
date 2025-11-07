@@ -74,6 +74,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_EvaluationCriteriaVersionId](#BKMK_msdyn_EvaluationCriteriaVersionId)
 - [msdyn_Name](#BKMK_msdyn_Name)
 - [msdyn_ScoringEnabled](#BKMK_msdyn_ScoringEnabled)
+- [msdyn_UseParentCriteriaInstruction](#BKMK_msdyn_UseParentCriteriaInstruction)
 - [msdyn_VersionNumber](#BKMK_msdyn_VersionNumber)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
@@ -197,6 +198,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_evaluationcriteriaversion_msdyn_scoringenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_UseParentCriteriaInstruction"></a> msdyn_UseParentCriteriaInstruction
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Use Parent Criteria Instruction**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_useparentcriteriainstruction`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_evaluationcriteriaversion_msdyn_useparentcriteriainstruction`|
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|

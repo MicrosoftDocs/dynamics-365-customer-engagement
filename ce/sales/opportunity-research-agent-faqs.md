@@ -1,7 +1,7 @@
 ---
 title: FAQs about Opportunity Research Agent (preview)
 description: Get to know answers to frequently asked questions about the Opportunity Research Agent in Dynamics 365 Sales.
-ms.date: 08/07/2025
+ms.date: 11/03/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -29,9 +29,41 @@ This article provides answers to frequently asked questions about the Opportunit
 
 The agent uses fields like monetary value (for example, Est. revenue) and estimated close date to assess the importance and risk of opportunities. Your admin defines these fields in the Opportunity Research Agent settings page.
 
+## Which opportunities are processed by the agent and when?
+
+The agent processes only those opportunities that meet the selection criteria defined by your admin in the Opportunity Research Agent settings page. Learn more in [Configure selection criteria for opportunities](configure-opportunity-research-agent.md#configure-selection-criteria-for-opportunities).
+
+The following table illustrates when the Opportunity Research Agent processes opportunities in different scenarios:
+
+| Scenario                                                                                          | When processed                                      |
+|------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
+| Opportunities created within the look back period.                                         | Immediately after agent activation. For example, if your admin sets a 30-day look back period and activates the agent on August 1, 2025, the agent processes opportunities created from July 2, 2025, to August 1, 2025. |
+| Opportunities created after the agent activation.                                          | Immediately after the opportunity is created.                         |
+| Opportunities already processed by the agent.                       | During the next scheduled refresh cycle.           |
+| Updates to opportunity fields that cause the opportunity to meet the selection criteria. | Immediately after the opportunity is saved.            |
+| Updates to [fields that trigger](#which-fields-trigger-the-agent-to-refresh-the-research-data-when-updated) the agent to refresh the research data. | Immediately after the opportunity is saved.            |
+| Updates to other fields in existing opportunities.                                            | During the next scheduled refresh cycle.            |
+
+> [!NOTE]
+> The refreshed research insights might take a few minutes to appear in the opportunity record.
+
 ## How often does the Opportunity Research Agent refresh research data?
 
-By default, the research data is refreshed once in three days. Your admin can change the frequency to High (daily) or Low (every seven days), depending on your business needs and Copilot Studio capacity. Learn more in [Configure the Opportunity Research Agent](configure-opportunity-research-agent.md).
+By default, the research data is refreshed once in three days. Your admin can change the frequency to High (daily) or Low (every seven days), depending on your business needs and Copilot Studio capacity. Learn more in [Configure the Opportunity Research Agent](configure-opportunity-research-agent.md). Apart from the scheduled refresh, [updates to specific fields](#which-fields-trigger-the-agent-to-refresh-the-research-data-when-updated) in the opportunity record also trigger the agent to refresh the research data immediately.
+
+## Which fields trigger the agent to refresh the research data when updated?
+
+Updates to the following fields in the opportunity record trigger the agent to refresh the research data for the opportunity immediately. The updated research insights might take a few minutes to appear in the opportunity record.
+
+- Account (parentaccountid)
+- Contact (parentcontactid)
+- Est. close date (estimatedclosedate)
+- Actual close date (actualclosedate)
+- Est. revenue (estimatedvalue)
+- Budget amount (budgetamount)
+- Customer need (customerneed)
+- Customer pain points (customerpainpoints) 
+
 
 <a name="shared-knowledge-sources"></a>
 ## Why do knowledge sources from Sales Qualification Agent appear in Opportunity Research Agent?

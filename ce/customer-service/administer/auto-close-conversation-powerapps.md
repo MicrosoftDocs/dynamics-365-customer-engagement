@@ -22,10 +22,9 @@ The scheduler checks conversations every 5 minutes to identify conversations tha
 > - To avoid inaccurate statuses, we recommend that you don't change the conversation state and status reason by manually updating the records in Microsoft Dataverse.
 > - For any actions performed on the conversations such as monitor, consult, or transfer, the scheduler automatically recalculates the time to close the conversation.
 
-
 ### Default time for automatic closure of conversations
 
-All channels have different default configured time after which conversations can be moved to the **Closed** state. However, the exact time at which the scheduler runs is dependent on the Omnichannel for Customer Service deployment time in your region. For more information, contact Microsoft Support.
+All channels have different default configured time after which conversations can be moved to the **Closed** state. However, the exact time at which the scheduler runs is dependent on the contact center deployment time in your region. For more information, contact Microsoft Support.
 
 The following table describes the channel, status reason, and default configured time.
 

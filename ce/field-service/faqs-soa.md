@@ -1,16 +1,16 @@
 ---
 title: Scheduling Operations Agent FAQ (preview)
 description: Get answers to common questions about how the Scheduling Operations Agent in Dynamics 365 Field Service helps dispatchers quickly improve the schedule of a single technician.
-ms.date: 03/26/2025
+ms.date: 10/23/2025
 ms.update-cycle: 180-days
 ms.custom:
   - responsible-ai-faqs
   - ai-gen-docs-bap
   - bap-template
 ms.topic: faq
-author: anilmur
-ms.author: anilmur
-ms.reviewer: mhart
+author: andrewclear-ms
+ms.author: anclear 
+ms.reviewer: puneetsingh
 ms.collection: bap-ai-copilot 
 ---
 
@@ -18,7 +18,7 @@ ms.collection: bap-ai-copilot
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-The Scheduling Operations Agent is a feature of Dynamics 365 Field Service that allows dispatchers to improve the schedule of a single technician quickly and efficiently. This article answers common questions about how the agent works and its limitations.
+The Scheduling Operations Agent is a feature of Dynamics 365 Field Service that helps dispatchers quickly and efficiently improve the schedule of a single technician. This article answers common questions about how the agent works and its limitations.
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
@@ -36,7 +36,7 @@ Dispatchers use the agent to quickly optimize the schedule of a single technicia
 
 ## How was the agent tested and what metrics are used to measure its performance?
 
-We tested the ability of the agent to determine that the prompt is related to scheduling, in English. The optimization algorithms the agent uses to suggest a new schedule are language-agnostic; however, not all languages are supported. Check the list of supported languages in [Explore Copilot features by geography and languages](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
+We tested the agent's ability to determine that the prompt is related to scheduling, in English. The optimization algorithms the agent uses to suggest a new schedule are language-agnostic; however, not all languages are supported. Check the list of supported languages in [Explore Copilot features by geography and languages](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
 To check the agent's ability to suggest an improved schedule, we used metrics similar to the ones we used to evaluate the [Resource Scheduling Optimization add-in](rso-overview.md).
 
@@ -44,13 +44,13 @@ In our testing, the agent always suggested a schedule that was better than the o
 
 ## What are the limitations of the agent and how can I minimize their impact?
 
-The agent's known limitations are listed in [Improve the Scheduling Operations Agent's suggestions](soa-tips.md#limitations-and-known-issues). The Scheduling Operations Agent is still in preview, and we're working on improving it. You can help us by giving us feedback using the like/dislike buttons on the agent's suggested schedule. We use this data to evaluate and improve the quality of the agent.
+The agent's known limitations are listed in [Improve the Scheduling Operations Agent's suggestions](soa-tips.md#limitations-and-known-issues). The Scheduling Operations Agent is still in preview, and we're working on improving it. You can help us by giving feedback through the like or dislike buttons on the agent's suggested schedule. We use this data to evaluate and improve the quality of the agent.
 
 The agent only works online. You can't use it when you're offline.
 
 ## What operational factors and settings allow for effective and responsible use of the agent?
 
-Administrators can turn the feature on or off for an environment. Learn more in [Set up the Scheduling Operations Agent](soa-setup.md#turn-on-the-scheduling-operations-agent). No customer data is collected when the agent is used.
+Administrators can turn the feature on or off for an environment. Learn more in [Set up the Scheduling Operations Agent](soa-setup.md#turn-on-the-scheduling-operations-agent). The agent doesn't collect any customer data when you use it.
 
 ## Related information
 

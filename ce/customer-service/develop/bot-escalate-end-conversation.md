@@ -1,6 +1,6 @@
 ---
 title: "Configure Azure agents to escalate and end conversations | MicrosoftDocs"
-description: "Use this article to understand how to program agents in Azure to route conversations to representatives and also end conversations in Omnichannel for Customer Service."
+description: "Use this article to understand how to program agents in Azure to route conversations to representatives and also end conversations in Dynamics 365 Contact Center."
 ms.date: 03/03/2025
 ms.topic: reference
 author: neeranelli
@@ -12,7 +12,7 @@ ms.reviewer: nenellim
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
-This article explains how you can program an AI agent(agent) in Azure to route a conversation to a customer service representative (service representative or representative) in Omnichannel for Customer Service. It also describes how to program the agent to end the conversation.
+This article explains how you can program an AI agent(agent) in Azure to route a conversation to a customer service representative (service representative or representative) in Dynamics 365 Contact Center. It also describes how to program the agent to end the conversation.
 
 > [!IMPORTANT]
 > - Agents can receive conversations only if they're added to push-based workstreams.
@@ -20,14 +20,14 @@ This article explains how you can program an AI agent(agent) in Azure to route a
 
 ## Prerequisites
 
-- You must have an agent in Azure that's configured and integrated with Omnichannel for Customer Service. Learn more in [Integrate an Azure agent](../administer/configure-bot-azure.md)
+- You must have an agent in Azure that's configured and integrated with Dynamics 365 Contact Center. Learn more in [Integrate an Azure agent](../administer/configure-bot-azure.md)
 - Skill-based routing should be enabled.
 
 ## Escalate a conversation to a representative
 
-In Omnichannel for Customer Service, an agent can escalate the current conversation to a representative. The routing of the conversation depends on the routing rule that's configured for the workstream.
+In Dynamics 365 Contact Center, an agent can escalate the current conversation to a representative. The routing of the conversation depends on the routing rule that's configured for the workstream.
 
-When the conversation is transferred from the AI agent to a representative, the customer and case details are [automatically identified](../administer/record-identification-rule.md) when the representative accepts the escalation request. The bot routes conversations by using the Omnichannel for Customer Service context variables that are associated with the conversation. The bot can send a list of context variables and associated values to Omnichannel for Customer Service, together with the escalation request. The bot can also set context items that can be used by skill finder models to identify new skills and append them to the existing skills list for the conversation. Omnichannel for Customer Service will then update the context variables with the specified values, and run the routing engine again. This ensures that the escalated conversation is routed to the right queue. For information on the context items and variable names, see [Link customer and case to conversations when bot escalates or ends conversations](../administer/record-identification-rule.md#link-customer-and-case-to-conversations-when-agent-escalates-or-ends-conversations).
+When the conversation is transferred from the AI agent to a representative, the customer and case details are [automatically identified](../administer/record-identification-rule.md) when the representative accepts the escalation request. The bot routes conversations by using the Dynamics 365 Contact Center context variables that are associated with the conversation. The bot can send a list of context variables and associated values to Dynamics 365 Contact Center, together with the escalation request. The bot can also set context items that can be used by skill finder models to identify new skills and append them to the existing skills list for the conversation. Dynamics 365 Contact Center will then update the context variables with the specified values, and run the routing engine again. This ensures that the escalated conversation is routed to the right queue. For information on the context items and variable names, see [Link customer and case to conversations when bot escalates or ends conversations](../administer/record-identification-rule.md#link-customer-and-case-to-conversations-when-agent-escalates-or-ends-conversations).
 
 After the representative accepts the escalation request, the transcript of the agent's conversation with the customer is visible on the representative’s conversation widget. The representative can then continue the conversation with the customer.
 
@@ -36,7 +36,7 @@ After the representative accepts the escalation request, the transcript of the a
 
 ## End a conversation
 
-The Azure bot can choose to end the conversation if it determines that the customer’s questions have been answered, or if the customer is no longer responding. The bot can send an `EndConversation` request to Omnichannel for Customer Service.
+The Azure bot can choose to end the conversation if it determines that the customer’s questions have been answered, or if the customer is no longer responding. The bot can send an `EndConversation` request to Dynamics 365 Contact Center.
 
 ## Sample code
 
@@ -78,7 +78,7 @@ namespace EchoBot.OmniChannel
         public CommandType Type { get; set; }
 
         /// <summary>
-        /// Dictionary of Workstream Context variable and value pairs to be sent to Omnichannel for Customer Service
+        /// Dictionary of Workstream Context variable and value pairs to be sent to Dynamics 365 Contact Center
         /// </summary>
         [DataMember(Name = "context")]
         public Dictionary<string, object> Context { get; set; }

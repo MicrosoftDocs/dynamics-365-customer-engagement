@@ -1,6 +1,6 @@
 ---
-title: "Message (msdyn_ocsystemmessage) table/entity reference (Microsoft Dynamics 365)"
-description: "Includes schema information and supported messages for the Message (msdyn_ocsystemmessage) table/entity with Microsoft Dynamics 365."
+title: "Automated Message (msdyn_ocsystemmessage) table/entity reference (Microsoft Dynamics 365)"
+description: "Includes schema information and supported messages for the Automated Message (msdyn_ocsystemmessage) table/entity with Microsoft Dynamics 365."
 ms.topic: generated-reference
 author: JimDaly
 ms.author: jdaly
@@ -8,13 +8,13 @@ search.audienceType:
   - developer
 ---
 
-# Message (msdyn_ocsystemmessage) table/entity reference (Microsoft Dynamics 365)
+# Automated Message (msdyn_ocsystemmessage) table/entity reference (Microsoft Dynamics 365)
 
 Stores the system messages sent to the message receiver for various events.
 
 ## Messages
 
-The following table lists the messages for the Message (msdyn_ocsystemmessage) table.
+The following table lists the messages for the Automated Message (msdyn_ocsystemmessage) table.
 Messages represent operations that can be performed on the table. They may also be events.
 
 | Name <br />Is Event? |Web API Operation |SDK for .NET |
@@ -41,12 +41,12 @@ Messages represent operations that can be performed on the table. They may also 
 
 ## Properties
 
-The following table lists selected properties for the Message (msdyn_ocsystemmessage) table.
+The following table lists selected properties for the Automated Message (msdyn_ocsystemmessage) table.
 
 |Property|Value|
 | --- | --- |
-| **DisplayName** | **Message** |
-| **DisplayCollectionName** | **Messages** |
+| **DisplayName** | **Automated Message** |
+| **DisplayCollectionName** | **Automated Messages** |
 | **SchemaName** | `msdyn_ocsystemmessage` |
 | **CollectionSchemaName** | `msdyn_ocsystemmessages` |
 | **EntitySetName** | `msdyn_ocsystemmessages`|
@@ -185,8 +185,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Text sent to the message receiver.**|
-|DisplayName|**Message Text**|
+|Description|**Automated Message sent to the message receiver.**|
+|DisplayName|**Automated Message**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_messagetext`|
@@ -228,7 +228,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_name`|
-|RequiredLevel|None|
+|RequiredLevel|ApplicationRequired|
 |Type|String|
 |Format|Text|
 |FormatName|Text|
@@ -252,8 +252,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**List of all available channels.**|
-|DisplayName|**Channel**|
+|Description|**List of all available Channel Type.**|
+|DisplayName|**Channel Type**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_streamsource`|
@@ -362,6 +362,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350078|**Consult request failed due to system failure**|
 |192350079|**Consult to queue or user group failed due to out of operating hours**|
 |192370001|**Customer's message couldn't be sent: Service is down.**|
+|192370002|**Please wait a moment to give us feedback about your experience..**|
+|192370003|**This survey has timed out. To start a new conversation, reopen this chat window.**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
@@ -788,6 +790,24 @@ Many-To-One Relationship: [syncerror msdyn_ocsystemmessage_SyncErrors](syncerror
 |ReferencedEntityNavigationPropertyName|`msdyn_ocsystemmessage_SyncErrors`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+
+## Many-to-Many relationships
+
+These relationships are many-to-many. Listed by **SchemaName**.
+
+### <a name="BKMK_msdyn_msdyn_channelprofile_msdyn_ocsystemmessage"></a> msdyn_msdyn_channelprofile_msdyn_ocsystemmessage
+
+See [msdyn_channelprofile msdyn_msdyn_channelprofile_msdyn_ocsystemmessage Many-To-Many Relationship](msdyn_channelprofile.md#BKMK_msdyn_msdyn_channelprofile_msdyn_ocsystemmessage)
+
+|Property|Value|
+|---|---|
+|IntersectEntityName|`msdyn_channelprofile_msdyn_ocsystemmess`|
+|IsCustomizable|True|
+|SchemaName|`msdyn_msdyn_channelprofile_msdyn_ocsystemmessage`|
+|IntersectAttribute|`msdyn_ocsystemmessageid`|
+|NavigationPropertyName|`msdyn_msdyn_channelprofile_msdyn_ocsystemmessage`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 

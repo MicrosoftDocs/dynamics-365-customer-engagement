@@ -24,7 +24,7 @@ You can configure contacts and their preferred representatives in the Copilot Se
 
 - You must have one of the following roles to configure preferred representative routing:
   - **For Customer Service**: CSR Manager
-  - **For Omnichannel for Customer Service**: Omnichannel Administrator
+  - **For Dynamics 365 Contact Center**: Omnichannel Administrator
 
 - You must be able to access the [Contact table](../../developer/reference/entities/contact.md).
 - If you have a custom role, you must also have access to the [msdyn_preferredagent](../../developer/reference/entities/msdyn_preferredagent.md) and [msdyn_preferredagentcustomeridentity](../../developer/reference/entities/msdyn_preferredagentcustomeridentity.md) tables.

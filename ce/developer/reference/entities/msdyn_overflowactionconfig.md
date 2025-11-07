@@ -69,6 +69,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
 - [msdyn_botfailureactiontype](#BKMK_msdyn_botfailureactiontype)
+- [msdyn_directcallbackaction](#BKMK_msdyn_directcallbackaction)
+- [msdyn_directcallbackdedupsetting](#BKMK_msdyn_directcallbackdedupsetting)
+- [msdyn_directcallbackqueuesetting](#BKMK_msdyn_directcallbackqueuesetting)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_overflowactionconfigId](#BKMK_msdyn_overflowactionconfigId)
 - [msdyn_overflowactiondata](#BKMK_msdyn_overflowactiondata)
@@ -130,6 +133,64 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350001|**Prompt and External Transfer**|
 |192350002|**Prompt and Escalate**|
 |192350003|**Wait Music and Escalate**|
+
+### <a name="BKMK_msdyn_directcallbackaction"></a> msdyn_directcallbackaction
+
+|Property|Value|
+|---|---|
+|Description|**Direct Callback Action**|
+|DisplayName|**Direct Callback Action**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_directcallbackaction`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_directcallbackaction`|
+
+#### msdyn_directcallbackaction Choices/Options
+
+|Value|Label|
+|---|---|
+|1|**Play message and disconnect the call**|
+|2|**Play message but don't end the call**|
+
+### <a name="BKMK_msdyn_directcallbackdedupsetting"></a> msdyn_directcallbackdedupsetting
+
+|Property|Value|
+|---|---|
+|Description|**Direct Callback Dedup Enabled**|
+|DisplayName|**Direct Callback Dedup Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_directcallbackdedupsetting`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_overflowactionconfig_msdyn_directcallbackdedupsetting`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_directcallbackqueuesetting"></a> msdyn_directcallbackqueuesetting
+
+|Property|Value|
+|---|---|
+|Description|**Direct Callback Queue Setting**|
+|DisplayName|**Direct Callback Queue Setting**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_directcallbackqueuesetting`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_directcallbackqueuesetting`|
+
+#### msdyn_directcallbackqueuesetting Choices/Options
+
+|Value|Label|
+|---|---|
+|1|**Specific queue only**|
+|2|**All queues in this workstream**|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 

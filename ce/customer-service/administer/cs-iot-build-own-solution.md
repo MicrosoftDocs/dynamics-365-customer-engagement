@@ -30,7 +30,7 @@ Here are the 3 things you need to get started building your own IoT solution:
 
     The Azure IoT services you'll deploy need to be associated with an Azure subscription. 
       
-    New to IoT and need an Azure subscription? We've got you covered. [Sign up for an Azure free trial.](https://azure.microsoft.com/free/)
+    New to IoT and need an Azure subscription? We've got you covered. [Sign up for an Azure free trial.](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn)
 
 - **Dynamics 365 Connected Customer Service add-on**  
 

@@ -1,6 +1,6 @@
 ---
 title: Configure a Facebook channel
-description: Learn how to configure a Facebook channel and corresponding Facebook pages.
+description: Learn how to configure a Facebook channel and corresponding Facebook pages in Dynamics 365 Contact Center.
 ms.date: 03/03/2025
 ms.topic: how-to
 author: lalexms
@@ -34,18 +34,18 @@ Make sure that the following prerequisites are met:
    1. On the **Select an app type** page, select **Business**, and then type your app's name and contact email address.
    1. On the **Add products to your app** page, select **Messenger**, and then select **Set up**.
    1. On the Messenger settings page, select **Add or remove Pages**, and then add the Facebook page you created. After you add the page, the Page ID and the option to generate a token appear.
-- If you're using a test environment, set up test accounts in Facebook so that customer service representatives (service representatives or representatives) can send and receive messages in Omnichannel for Customer Service: Go to **App Roles** > **Roles** > **Testers (Add Testers)**.
+- If you're using a test environment, set up test accounts in Facebook so that customer service representatives (service representatives or representatives) can send and receive messages in contact center: Go to **App Roles** > **Roles** > **Testers (Add Testers)**.
 - Values for application ID and application secret from the **App ID** and **App Secret** fields in the Facebook application > **Settings** > **Basic**.
 
 ## Roles and permissions
 
-The following Facebook roles and permissions are required for integrating your Facebook app with Omnichannel for Customer Service.
+The following Facebook roles and permissions are required for integrating your Facebook app with Dynamics 365 Contact Center.
 
-- Facebook users who don’t have a role in the Facebook app must have the `pages_messaging` permission to send messages to a Facebook page from Omnichannel for Customer Service. The app owner must provide the `pages_messaging` permission for users to be able to send messages. More information: [pages_messaging](https://developers.facebook.com/docs/permissions/reference/pages_messaging/)
+- Facebook users who don’t have a role in the Facebook app must have the `pages_messaging` permission to send messages to a Facebook page from contact center. The app owner must provide the `pages_messaging` permission for users to be able to send messages. More information: [pages_messaging](https://developers.facebook.com/docs/permissions/reference/pages_messaging/)
 
-- If the Facebook app that you’re using is in development mode, only those Facebook users who have roles within the app can send messages to the Facebook page. The messages can be received by or forwarded to Omnichannel for Customer Service. More information: [App roles](https://developers.facebook.com/docs/development/build-and-test/app-roles/)
+- If the Facebook app that you’re using is in development mode, only those Facebook users who have roles within the app can send messages to the Facebook page. The messages can be received by or forwarded to Dynamics 365 Contact Center. More information: [App roles](https://developers.facebook.com/docs/development/build-and-test/app-roles/)
 
-- For Omnichannel for Customer Service to be able to retrieve the customer’s username from Facebook, the customer must request for Business Asset User Profile Access in their Facebook app. More information: [Business Asset User Profile Access](https://developers.facebook.com/docs/features-reference/business-asset-user-profile-access)
+- For Dynamics 365 Contact Center to be able to retrieve the customer’s username from Facebook, the customer must request for Business Asset User Profile Access in their Facebook app. More information: [Business Asset User Profile Access](https://developers.facebook.com/docs/features-reference/business-asset-user-profile-access)
 - 
 ## Privacy notice
 

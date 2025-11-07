@@ -11,7 +11,7 @@ ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
 
-# Manage your agents in Omnichannel for Customer Service
+# Manage your agents in Dynamics 365 Contact Center
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
@@ -24,11 +24,11 @@ You can manage your Copilot agents on the **AI Agents** page.
 
 ## Prerequisites
 
-Agents in Copilot Studio must be available in the tenant where Omnichannel for Customer Service is available.
+Agents in Copilot Studio must be available in the tenant where Dynamics 365 Contact Center is available.
 
 ## Add an agent
 
-When you add an agent by using the steps outlined in this section, the Copilot agent is automatically registered in Azure and connected to Omnichannel for Customer Service. You'll then configure topics in Copilot Studio for the scenarios that you want the agent to handle.
+When you add an agent by using the steps outlined in this section, the Copilot agent is automatically registered in Azure and connected to Dynamics 365 Contact Center. You'll then configure topics in Copilot Studio for the scenarios that you want the agent to handle.
 
 > [!NOTE]
 > Agents that you create in Copilot Service admin center work with enhanced voice workstreams only. To create classic agents for existing voice workstreams that aren't migrated, use Copilot Studio.

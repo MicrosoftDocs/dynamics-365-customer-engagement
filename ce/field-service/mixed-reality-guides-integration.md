@@ -3,8 +3,8 @@ title: Integrate Guides with Field Service
 description: Learn how to integrate Dynamics 365 Field Service with Dynamics 365 Guides so technicians can follow a guide while addressing a work order.
 ms.date: 06/24/2025
 ms.topic: how-to
-author: josephshum-msft
-ms.author: jshum
+author: lmasieri
+ms.author: lmasieri
 ---
 
 # Integrate Guides with Field Service

@@ -1,6 +1,6 @@
 ---
 title: Service quotas
-description: Get details about the service quotas for unified routing and omnichannel implementations.
+description: Get details about the service quotas for unified routing and omnichannel implementations in Dynamics 365 Contact Center.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-Service quotas are the limits on resources, configurations, and items provided as part of Omnichannel for Customer Service. The tables that follow describe the service quotas and whether they can be adjusted for Dynamics 365 Customer Service Voice Channel Add-in and Dynamics 365 Customer Service Digital Messaging and Voice Add-in subscriptions.
+Service quotas are the limits on resources, configurations, and items provided as part of Dynamics 365 Contact Center. The tables that follow describe the service quotas and whether they can be adjusted for Dynamics 365 Customer Service Voice Channel Add-in and Dynamics 365 Customer Service Digital Messaging and Voice Add-in subscriptions.
 
 > [!NOTE]
 > - All limits are at an organization level unless otherwise specified.
@@ -62,13 +62,13 @@ Service quotas are the limits on resources, configurations, and items provided a
 
 ## Load test the services
 
-Microsoft regularly conducts scale and stress tests on the services that run Omnichannel for Customer Service. These tests are performed at multiples of the peak volume observed in customer production traffic. While the services can sustain high loads, we understand that you might want to verify your own load profile against the services. Your load profile can include customizations, integrations, local networks, or other bespoke solutions that you integrate. Make sure that you perform load tests according to the [Microsoft Cloud Penetration Testing Rules of Engagement](https://www.microsoft.com/msrc/pentest-rules-of-engagement).
+Microsoft regularly conducts scale and stress tests on the services that run the system. These tests are performed at multiples of the peak volume observed in customer production traffic. While the services can sustain high loads, we understand that you might want to verify your own load profile against the services. Your load profile can include customizations, integrations, local networks, or other bespoke solutions that you integrate. Make sure that you perform load tests according to the [Microsoft Cloud Penetration Testing Rules of Engagement](https://www.microsoft.com/msrc/pentest-rules-of-engagement).
 
 Load tests often generate synthetic traffic that targets specific endpoints or use cases and might approach or exceed quotas and limits for your environment. If you're concerned that your stress test might be flagged by the rules of engagement, we recommend that you work with Microsoft Support to have your tests reviewed before running them. Learn more about Microsoft Cloud use rights in [Licensing Use Rights](https://www.microsoft.com/licensing/docs/view/licensing-use-rights).
 
 ## Next steps
 
-[System requirements for Omnichannel for Customer Service](system-requirements-omnichannel.md)  
+[System requirements](/dynamics365/contact-center/implement/system-requirements-contact-center)  
 [System requirements for Copilot Service workspace](customer-service-workspace-system-requirements.md)  
 [Provision channels](/dynamics365/contact-center/implement/provision-channels)  
 [Provision unified routing for Customer Service](../administer/provision-unified-routing.md)

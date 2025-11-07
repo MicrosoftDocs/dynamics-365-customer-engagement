@@ -1,7 +1,7 @@
 ---
 title: Omnichannel for Customer Service dashboards
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs in Omnichannel for Customer Service to manage contact centers.
-ms.date: 04/21/2025
+ms.date: 10/10/2025
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -23,7 +23,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
-The insights dashboards in Omnichannel for Customer Service contain various charts and metrics to help you understand the factors that can improve customer service for your organization. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases, customer service representatives (service representatives or representatives), and topics that contribute to overall trends. The dashboards provide a view into the support operation across the various channels.
+The insights dashboards in Omnichannel for Customer Service contain various charts and metrics to help you understand the factors that can improve customer service for your organization. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases and customer service representatives (service representatives or representatives) that contribute to overall trends. The dashboards provide a view into the support operation across the various channels.
 
 You can [customize the visual display](customize-reports.md#customize-visual-display) of the dashboards and also save your personalized views as [bookmarks](manage-bookmarks.md).
 
@@ -52,10 +52,6 @@ The Agent dashboard shows charts and KPIs that you can use to guide service repr
 ### Bot
 
 The Bot dashboard shows charts and KPIs that you can use to understand how AI agents are playing a role in a support organization. Learn more in the [Bot dashboard](oc-bot-dashboard.md).
-
-### Conversation Topics
-
-The Topics dashboard shows a detailed breakdown of conversations and their assigned topics. Learn more in the [Topics dashboard](oc-conversation-topics-dashboard.md).
 
 > [!NOTE]
 > The reports don't include work items of the Entity Record channel.

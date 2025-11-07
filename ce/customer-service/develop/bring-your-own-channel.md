@@ -10,12 +10,12 @@ ms.reviewer: mgandham
 ---
 # Integrate your own custom channel using Direct Line
 
-With Omnichannel for Customer Service, you can implement a connector to integrate custom messaging channels by using Direct Line API 3.0, that's part of .NET SDK. The complete [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel) illustrates how you can create your own connector. To learn more about the Direct Line API 3.0, see [Key concepts in Direct Line 3.0 API](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0&preserve-view=true).
+With Dynamics 365 Contact Center, you can implement a connector to integrate custom messaging channels by using Direct Line API 3.0, that's part of .NET SDK. The complete [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel) illustrates how you can create your own connector. To learn more about the Direct Line API 3.0, see [Key concepts in Direct Line 3.0 API](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0&preserve-view=true).
 
-This article explains how a channel is connected to the Microsoft Direct Line Bot Framework, which is internally attached to Omnichannel for Customer Service. The following section includes code snippets that use Direct Line API 3.0 to create a Direct Line client and the `IChannelAdapter` interface to build a sample connector.
+This article explains how a channel is connected to the Microsoft Direct Line Bot Framework, which is internally attached to Dynamics 365 Contact Center. The following section includes code snippets that use Direct Line API 3.0 to create a Direct Line client and the `IChannelAdapter` interface to build a sample connector.
 
 > [!Note]
-> The source code and documentation describe the overall flow of how the channel can connect to Omnichannel for Customer Service through Direct Line, and don't focus on aspects of reliability and scalability.
+> The source code and documentation describe the overall flow of how the channel can connect to Dynamics 365 Contact Center through Direct Line, and don't focus on aspects of reliability and scalability.
 
 ## Components
 
@@ -118,8 +118,8 @@ This Activity object includes the following attributes:
 |**id**| Indicates the identifier that the adapter uses to respond to outbound messages. |
 |**channelData**| Indicates channel data that consists of `channelType`, `conversationcontext`, and `customercontext`. |
 |**channelType**| Indicates the channel name through which the customer is sending messages. For example, MessageBird, KakaoTalk, Snapchat |
-|**conversationcontext**| Refers to a dictionary object that holds the context variables defined in the workstream. Omnichannel for Customer Service uses this information to route the conversation to the right customer service representative (service representative or representative). For example:<br>"conversationcontext ":{ "ProductName": "Xbox", "Issue":"Installation" }<br>In this example, the context routes the conversation to the service representative who deals with Xbox installation.|
-|**customercontext**| Refers to a dictionary object that holds the customer details such as phone number and email address. Omnichannel for Customer Service uses this information to identify the user's contact record.<br>"customercontext":{ "email":email@email.com, "phonenumber":"1234567890" }|
+|**conversationcontext**| Refers to a dictionary object that holds the context variables defined in the workstream. Dynamics 365 Contact Center uses this information to route the conversation to the right customer service representative (service representative or representative). For example:<br>"conversationcontext ":{ "ProductName": "Xbox", "Issue":"Installation" }<br>In this example, the context routes the conversation to the service representative who deals with Xbox installation.|
+|**customercontext**| Refers to a dictionary object that holds the customer details such as phone number and email address. Dynamics 365 Contact Center uses this information to identify the user's contact record.<br>"customercontext":{ "email":email@email.com, "phonenumber":"1234567890" }|
 
 ```javascript
   /// <summary>
@@ -190,7 +190,7 @@ The sample JSON payload is as follows:
 
 3. Send the activity to the message relay processor.
 
-After building the activity payload, it calls the message relay processor's PostActivityAsync method to send the activity to Direct Line. The channel adapter should also pass the event handler, which the relay processor invokes when it receives an outbound message from Omnichannel for Customer Service through Direct Line.
+After building the activity payload, it calls the message relay processor's PostActivityAsync method to send the activity to Direct Line. The channel adapter should also pass the event handler, which the relay processor invokes when it receives an outbound message from Dynamics 365 Contact Center through Direct Line.
 
 #### Process outbound activities
 
