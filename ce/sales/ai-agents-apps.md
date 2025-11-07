@@ -28,16 +28,29 @@ The total number of app registrations depends on the number of organizations (or
 
 This article lists the Copilot Studio agents and the corresponding app registrations for all Dynamics 365 Sales agents.
  
-## Sales Qualification Agent (SQA)  
+## Sales Qualification Agent
 
-The Sales Qualification Agent (SQA) helps sales teams qualify leads effortlessly by autonomously researching leads, determining if they're a good fit for further engagement, and drafting an outreach email to the lead. Learn more about SQA in [Sales Qualification Agent overview](sales-qualification-agent.md).
+The Sales Qualification Agent helps sales teams qualify leads effortlessly by autonomously researching leads, determining if they're a good fit for further engagement, and drafting an outreach email to the lead. Learn more about SQA in [Sales Qualification Agent overview](sales-qualification-agent.md).
 
-The Sales Qualification Agent (SQA) uses the following Copilot Studio agents:
+The Sales Qualification Agent uses the following Copilot Studio agents:
 
-- **D365 Sales Agent - Research**: This agent conducts research to gather insights and data that can help in understanding leads and tailoring the sales approach.
+- **D365 Sales Agent - Research**: This agent conducts research to gather insights and data that can help in understanding leads and tailoring the sales approach. This agent is shared across Sales Qualification Agent and Sales Close Agent.
+- **D365 Sales Agent - Competitor**: This agent analyzes competitors related to the lead, providing valuable information that can be used to position offerings effectively. This agent is shared across Sales Qualification Agent and Sales Close Agent.
+- **D365 Sales Agent - Custom Research**: This agent performs researches on custom topics as specified by the sales team to gather specific insights relevant to their sales strategy.
 - **D365 Sales Agent - Readiness**: This agent determines if the lead is a good fit for further engagement by analyzing the lead's profile against the ideal customer profile.
-- **D365 Sales Agent - Outreach**: This agent drafts an outreach email to the lead, making it easier for sales professionals to initiate contact.
 - **D365 Sales Agent - Email Validation**: This agent verifies the validity of a lead's email ID and categorizes it as personal or work.
+- **D365 Sales Agent - Outreach**: This agent drafts an outreach email to the lead, making it easier for sales professionals to initiate contact.
+- **D365 Sales Agent - Engage Autonomous**: This agent autonomously engages with leads and answers their questions using knowledge sources configured by the administrator.
+- **D365 Sales Agent - TCP Prefill Agent**: This agent auto-generates the Target Customer Profile (TCP) based on the company description and value proposition.
+
+## Sales Close Agent
+
+The Sales Close Agent helps sales teams close deals faster by autonomously researching opportunities, provides visibility into emerging risks, and engages with customers for outreach and follow-up. Learn more in [Sales Close Agent overview](sales-close-agent.md).
+
+The Sales Close Agent uses the following Copilot Studio agents:
+
+- **D365 Sales Agent - Research**: This agent conducts research to gather insights and data that can help in understanding opportunities and tailoring the sales approach. This agent is shared across Sales Qualification Agent and Sales Close Agent.
+- **D365 Sales Agent - Competitor**: This agent analyzes competitors related to the opportunity, providing valuable information that can be used to position offerings effectively. This agent is shared across Sales Qualification Agent and Sales Close Agent.
 
 ## Copilot in Dynamics 365 Sales
 
