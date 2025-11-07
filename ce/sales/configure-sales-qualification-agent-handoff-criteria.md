@@ -1,5 +1,5 @@
 ---
-title: Configure handoff criteria for the Sales Qualification Agent (preview)
+title: Configure handoff criteria for the Sales Qualification Agent
 description: Configure ideal customer profile, budget, authority, need, and timeline criteria for the Sales Qualification Agent to effectively qualify leads.
 ms.date: 08/01/2025
 ms.topic: how-to
@@ -13,13 +13,9 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure handoff criteria for the Sales Qualification Agent (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Configure handoff criteria for the Sales Qualification Agent
 
 Define the ideal customer profile and BANT (Budget, Authority, Need, and Timeline) information to help the agent identify leads that it should focus on and engage with.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Configure the ideal customer profile and BANT criteria
 

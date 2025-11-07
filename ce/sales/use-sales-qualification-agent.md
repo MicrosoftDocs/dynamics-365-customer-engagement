@@ -1,5 +1,5 @@
 ---
-title: Work on leads handed over by the Sales Qualification Agent (preview)
+title: Work on leads handed over by the Sales Qualification Agent
 description: Learn how to work with leads handed over by the Sales Qualification Agent in Dynamics 365 Sales. Discover research insights, handover summaries, and recommended actions for effective lead management.
 ms.date: 09/30/2025
 ms.update-cycle: 180-days
@@ -20,9 +20,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Work on leads handed over by the Sales Qualification Agent (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Work on leads handed over by the Sales Qualification Agent
 
 Depending on the automation level your admin has configured, the Sales Qualification Agent can help you qualify leads by automatically by completing the following tasks:
 
@@ -39,8 +37,6 @@ Depending on the automation level your admin has configured, the Sales Qualifica
     - Engages with the lead based on their responses to the outreach email.
     - Sends follow-up emails to the lead based on their responses and engagement.
     - Hands over the lead to you when it detects positive intent. Else, disqualifies the lead and notifies the supervisor. Additional handover scenarios are explained in the Lead handover process section below.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 
@@ -76,7 +72,7 @@ The lead handover process goes through the following stages:
 
 If you're a seller, you get notified when a lead is handed over to you. If you missed that, follow the steps in this section to view all leads handed over to you by the Sales Qualification Agent.
 
-If you're a supervisor, you get notified when a lead is disqualified by the agent. Learn more in [View leads disqualified by the agent](#view-leads-disqualified-by-the-agent). You can also view detailed agent performance metrics and data on the AI Optimization hub. Learn more in [Monitor leads handled by the Sales Qualification Agent (preview)](monitor-leads-by-sales-qualification-agent.md).
+If you're a supervisor, you get notified when a lead is disqualified by the agent. Learn more in [View leads disqualified by the agent](#view-leads-disqualified-by-the-agent). You can also view detailed agent performance metrics and data on the AI Optimization hub. Learn more in [Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md).
 
 > [!NOTE]
 > If you don't see the views mentioned in this section, contact your admin to [add agent-specific views to your app](start-sales-qualification-agent.md#add-agent-specific-views-to-your-app).

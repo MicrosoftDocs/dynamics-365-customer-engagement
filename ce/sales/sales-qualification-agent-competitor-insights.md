@@ -1,5 +1,5 @@
 ---
-title: Configure Sales Qualification Agent to generate competitor insights (preview)
+title: Configure Sales Qualification Agent to generate competitor insights
 description: Learn how to configure the Sales Qualification Agent to generate competitor insights by specifying key competitors and uploading relevant knowledge sources.
 ms.topic: how-to 
 ms.date: 09/17/2025
@@ -15,15 +15,11 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure Sales Qualification Agent to generate competitor insights (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Configure Sales Qualification Agent to generate competitor insights
 
 The Sales Qualification Agent can provide insights about competitors for a lead. These insights include information about competitors, their strengths and weaknesses, and talking points to help sellers position your products or services effectively against the competition.
 
 As an admin, you can configure the agent to generate competitor insights by specifying key competitors and uploading relevant knowledge sources.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 <a name="competitor-identification"></a>
 ## How the agent identifies competitors to research
@@ -75,5 +71,5 @@ You can also upload relevant documents such as battle cards, positioning briefs,
 
 ## Related information
 
-- [Set up and configure the Sales Qualification Agent (preview)](configure-sales-qualification-agent.md)
-- [Configure knowledge sources for Sales Qualification Agent (preview)](configure-sqa-knowledge-source.md)
+- [Set up and configure the Sales Qualification Agent](configure-sales-qualification-agent.md)
+- [Configure knowledge sources for Sales Qualification Agent](configure-sqa-knowledge-source.md)

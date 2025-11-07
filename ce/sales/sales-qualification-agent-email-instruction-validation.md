@@ -1,5 +1,5 @@
 ---
-title: Configure email settings for the Sales Qualification Agent (preview)
+title: Configure email settings for the Sales Qualification Agent
 description: Learn how to configure email instructions and address validation to personalize your Sales Qualification Agent's outreach.
 ms.date: 08/01/2025
 ms.topic: how-to
@@ -13,9 +13,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure email settings for the Sales Qualification Agent (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Configure email settings for the Sales Qualification Agent
 
 By default, the outreach email would include:
 
@@ -27,14 +25,14 @@ By default, the outreach email would include:
 
 You can further personalize the outreach emails to keep the lead engaged and specify the email field that the agent should use to validate email addresses.  
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
 ## Configure email instructions
 
 Configure the instructions that the agent should use to ensure that the email follows compliance requirements and personalize the email based on the lead's information. The agent uses these instructions to draft outreach emails to leads.
 
 1. [Open the Sales Qualification Agent settings](open-sales-qualification-agent-settings.md) page.  
+
 1. Open the **Email instructions** section.
+1. (Research and engage mode only) Turn on **Compliance** and select the compliance profile, purpose, and topic that the agent should use to ensure that the email adheres to your organization's compliance requirements. Learn more about settings up compliance profiles in [Stay compliant with privacy regulations](consent-management-overview.md).
 1. Under **Personalize email based on key fields from Lead**, add the following information:
     1. Select **New field** to add a text-based field from the `Lead` table.
     1. In the **Agent Instructions** field, provide guidance on how to use the selected field in the email. For example, if you selected the **Job title** field, you might instruct the agent to tailor the email content based on the lead's job title so that it resonates with their specific role and responsibilities.
