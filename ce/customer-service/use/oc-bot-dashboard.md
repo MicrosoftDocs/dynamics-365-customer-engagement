@@ -1,7 +1,7 @@
 ---
 title: Bot dashboard
 description: Learn about the bot dashboard in historical analytics to better understand customer service representative performance in your organization.
-ms.date: 11/06/2025
+ms.date: 11/07/2025
 ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
@@ -75,8 +75,9 @@ A conversation is an interaction between a user and a Copilot Studio bot, genera
 
 :::image type="content" source="../media/metrics-by-last-session-outcome.png" alt-text="Screenshot of metrics by last session outcome.":::
 
-<a name="engaged-unengaged"></a>
-**Engaged**: Session **Outcome** is categorized as:
+You see the following categories on the Copilot conversationtranscript logs:
+
+An **Engaged** session **Outcome** is categorized as: 
 
 - **Abandoned**
 - **HandOff**
@@ -100,6 +101,7 @@ However, on the Omnichannel Historical Bot dashboard, you see the following summ
 - AgentTransferRequestedByUser → **Requested by User**
 - AgentTransferFromQuestionMaxAttempts → **Max Attempts**
 - AgentTransferConfiguredByAuthor → **Business Rule** 
+- Unengaged → **No User Engagement**
 
 | Session outcome| Engagement type| Outcome Reason                        | Definition                                                                                                              | Applies to  | Channel         | 
 |----------------------------------------|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|-----------------|-
@@ -107,7 +109,7 @@ However, on the Omnichannel Historical Bot dashboard, you see the following summ
 |Handoff| Engaged| AgentTransferConfiguredByAuthor        | The number of bot conversations transferred to a service representative or external number based on the AI agent's configuration. For example, an AI agent flow includes "Transfer to an agent". When the user selects "No," the AI agent transfers the conversation without the user requesting escalation, per the AI agent's business rules.                                                                                                    | Historical  | Chat and voice  | 
 |Handoff| Engaged | AgentTransferRequestedByUser | The number of AI agent conversations escalated to a service representative or external number at the user's request. | Historical  | Chat and voice  |
 | Handoff | Engaged | AgentTransferFromQuestionMaxAttempts   | The number of agent conversations escalated to a service representative or external number after threshold limit reaches silence detection or when no valid entity is found.  | Historical  | Chat and voice  |
-| Resolved       | Engaged                       | The number of bot conversations that the AI agent resolved. | Historical  | Chat and voice  |
+| Resolved       | Engaged    | Resolved  | The number of bot conversations that the AI agent resolved. | Historical  | Chat and voice  |
 |Abandoned| Engaged | UserError                             | The number of bot conversations that ended because of incorrect AI agent design.  | Historical  | Chat and voice  |
 |Abandoned| Engaged| SystemError                           | The number of AI agent conversations that ended due to systemic errors within Copilot Studio.   | Historical  | Chat and voice  |
 | None | Unengaged | NoError                              | The number of conversations that didn't have any engagement with AI agents. This can happen when the customer doesn't respond to the AI agent's greeting or when the AI agent doesn't enter a custom topic or Escalate topic due to the structure of the conversation flow.   | Historical  | Chat and voice  |
