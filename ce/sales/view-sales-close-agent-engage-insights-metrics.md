@@ -60,10 +60,14 @@ The insights dashboard is displayed as shown in the following image:
 
     | Stage | Description |
     |-------|-------------|
-    | 1     | Displays the total number of outreach emails sent by the agent. |
-    | 2     | Displays the number of customers who responded to the outreach emails. |
-    | 3     | Displays the number of customers who engaged with the agent, received product recommendations, and escalated to human involvement for follow-up. |
-    | 4     | Displays the number of customers who completed a purchase and closed as lost. |
+    | Outreach email sent | Displays the total number of outreach emails sent by the agent. |
+    | Customer responded | Displays the number of customers who responded to the outreach emails. |
+    | Customer not responded | Displays the number of customers who didn't respond to the outreach emails. |
+    | Engaged | Displays the number of customers who got engaged with the agent. |
+    | Products pitch | Displays the number of customers who received product recommendations from the agent. |
+    | Escalated | Displays the number of customers who were handed over to a supervisor for follow-up. |
+    | Completed | Displays the number of customers who completed a purchase. |
+    | Closed as lost | Displays the number of customers who didn't complete a purchase or engaged with the agent. |
 
 ## Related information
 

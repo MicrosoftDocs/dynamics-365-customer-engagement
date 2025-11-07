@@ -53,6 +53,7 @@ Microsoft Copilot Studio provides resources for the agent to generate accurate a
 
 >[!NOTE]
 >Product names in the documentation should match [the product names](configure-sales-close-agent-product-details.md#product-name-to-search) in your product catalog to ensure accurate retrieval of information.  
+
 Knowledge sources are structured or unstructured content repositories that your Copilot can reference during conversations. They typically include:  
 
 - Internal documents such as Word, PDF, and PPT.  
