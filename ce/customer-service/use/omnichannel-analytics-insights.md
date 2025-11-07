@@ -1,7 +1,7 @@
 ---
 title: Omnichannel for Customer Service dashboards
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs in Omnichannel for Customer Service to manage contact centers.
-ms.date: 10/10/2025
+ms.date: 11/07/2025
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -71,6 +71,12 @@ The Bot dashboard shows charts and KPIs that you can use to understand how AI ag
 ## Access the dashboards
 
 [!INCLUDE[cc-navigation](../../includes/cc-navigation.md)]
+
+## Filter information displayed on dashboard 
+
+Use the filters to drill down to KPIs across the dashboard. Adjust the filters based on the insights that you're looking for. The available filters include **Duration**, **Channels**, **Queue**, **Agent**, **Conversation Status**, and **Time zone**. 
+
+Optionally, you can also add the **Business Unit** filter that provides a consistent way to focus on a single business unit or compare multiple units. The filter can be configured through data model customization or by adjusting the visual under data measure for the dimension **BusinessUnit**. The **Business Unit** filter doesn't grant additional access; it simply restricts data visibility based on existing roles and business unit hierarchy. If a user doesn't have security permissions to view a business unit's data, selecting that business unit will not display any information.
 
 ## Reports refresh and data retention
 

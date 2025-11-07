@@ -6,13 +6,13 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 09/16/2025
+ms.date: 11/07/2025
 ms.custom: bap-template
 ---
 
 # View and understand real-time analytics for record routing in the queue report
 
-The queue report lists all the advanced queues in the organization in a table by default. You can filter content by modified on, individual queue, agent, work item status, work item skill, and time zone. [Learn how to access the report](rr-overview.md#access-reports).
+The queue report lists all the advanced queues in the organization in a table by default. You can filter content by modified on, individual queue, agent, work item status, work item skill, and time zone. By default, the time filter displays data from the last 2 hours. You can also view data from the last 24 hours. [Learn how to access the report](rr-overview.md#access-reports).
 
 > [!NOTE]
 > This report shows entity record type queues only.
