@@ -33,14 +33,19 @@ Watch the video to get started with the agent setup:
 
 Ensure that the following prerequisites are met:  
 
-- Your tenant admin has granted the following consent:  
+- Your tenant admin has configured the following settings in Power Platform Admin Center:
+  
     - Consent for data movement across regions and Bing search. Learn more in [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot?tabs=new).  
-    - The agent needs Copilot Studio capacity to run. Ensure that you have enough capacity. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).  
+
+    - Copilot Studio capacity to run the agent. Ensure that you have enough capacity. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
+    - AI Agents in Dynamics 365 Sales is turned on for your environment. Learn more in [Turn on AI capabilities in Dynamics 365 Sales](/power-platform/admin/copilot/copilot-hub#turn-on-ai-capabilities-in-dynamics-365-sales).
+    - AI prompts feature is enabled. Learn more in [Enable AI prompts in Power Platform and Copilot Studio](/ai-builder/administer#enable-or-disable-ai-prompts-in-power-platform-and-copilot-studio).  
+    - AI insight cards is turned on. This feature is required for sellers to get notified about lead handovers and view insights on the lead record. Learn more about turning on this feature in [Manage feature settings](/power-platform/admin/settings-features).
+
 - You have admin permissions in Dynamics 365 Sales.  
 - You have a Copilot Studio license. Learn more in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).  
 - You turned on the modern UI for the Sales Hub app. Learn more in [Enabling the modern look for my app and removing the toggle](/power-apps/user/modern-fluent-design#enabling-the-modern-look-for-my-app-and-removing-the-toggle).  
-- You turned on the AI prompts feature in Power Platform and Copilot Studio. Learn more in [Enable AI prompts in Power Platform and Copilot Studio](/ai-builder/administer#enable-or-disable-ai-prompts-in-power-platform-and-copilot-studio).  
-- You turned on the AI insight cards in Power Platform Admin Center. This feature is required for sellers to get notified about lead handovers and view insights on the lead record. Learn more about turning on this feature in [Manage feature settings](/power-platform/admin/settings-features).
+
 - You modified Data policies to allow the following connectors:
 
     | Connector | Why is it required? |
@@ -62,7 +67,9 @@ Ensure that the following prerequisites are met:
 Review the following considerations before you start deploying the autonomous Sales Qualification Agent:
 
 - Only one of the following modes can be deployed in an organization:  
+
     - **Research-only mode**: Analyzes assigned leads and drafts outreach email based on the insights and provides recommended actions.  
+
     - **Research and engage mode**: Analyzes and autonomously engages with the customer. Hands over the leads to sellers with detected purchase interest and customer profile fit based on configured handover criteria.  
 
 - You can **upgrade** from **Research-only** mode to the **Research and engage** mode later, but not the other way around.  

@@ -31,15 +31,18 @@ You can further personalize the outreach emails to keep the lead engaged and spe
 
 ## Configure email instructions
 
-Configure the instructions that the agent should use to ensure that the email follows compliance requirements and personalize the email based on the lead's information. The agent uses these instructions to draft outreach emails to leads. 
+Configure the instructions that the agent should use to ensure that the email follows compliance requirements and personalize the email based on the lead's information. The agent uses these instructions to draft outreach emails to leads.
 
 1. [Open the Sales Qualification Agent settings](open-sales-qualification-agent-settings.md) page.  
 1. Open the **Email instructions** section.
-1. Turn on **Account news** to personalize the email with the latest news about the account that are relevant to the lead's interests.  
-1. Turn on **Compliance** and select the compliance profile, purpose, and topic that the agent should use to ensure that the email adheres to your organization's compliance requirements. Learn more in [Stay compliant with privacy regulations](consent-management-overview.md).
 1. Under **Personalize email based on key fields from Lead**, add the following information:
     1. Select **New field** to add a text-based field from the `Lead` table.
-    1. In the **Agent instructions** field, provide guidance on how to use the selected field in the email. For example, if you selected the **Job title** field, you might instruct the agent to tailor the email content based on the lead's job title so that it resonates with their specific role and responsibilities.
+    1. In the **Agent Instructions** field, provide guidance on how to use the selected field in the email. For example, if you selected the **Job title** field, you might instruct the agent to tailor the email content based on the lead's job title so that it resonates with their specific role and responsibilities.
+1. Under **Outreach emails**, specify whether you want the agent to generate emails from scratch or use an existing email template:
+    - **AI-generated personalization**: Select this option to have the agent draft personalized outreach emails based on the lead's information and the provided instructions.
+    - **Fixed template**: Select this option to have the agent use a predefined email template for outreach so that all emails follow a consistent format. Select **Choose template** to pick an email template that's most relevant for your outreach. The list displays all email templates for the Lead table. If you'd like to modify a template or create a new one, refer to [Create templates for email](/power-platform/admin/create-templates-email?tabs=new). 
+      > [!NOTE]
+      > When you select fixed template, the agent doesn't use generative AI or the configured knowledge sources to draft the email content. Hence, no Copilot credits are consumed for outreach emails generated using fixed templates.
 
 ## Configure email validation settings
 

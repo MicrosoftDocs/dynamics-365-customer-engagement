@@ -10,24 +10,22 @@ ms.reviewer: mgandham
 
 # Bot dashboard
 
-
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-
 In the application, you can integrate both Azure and Copilot agents to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to customer service representatives (service representatives or representatives), as required. The bot dashboard shows key performance indicators (KPIs) and charts for chat and IVR AI agents. You can use the dashboard to understand how AI agents are performing in a support organization. Learn how to [access the dashboard](omnichannel-analytics-insights.md#access-the-dashboards).
 
 Based on your administrator's configuration of the **Add historical analytics for bots** option in the Copilot Service admin center, the dashboard is as follows:
+
 - **Enabled**: Indicates that your organization only has Copilot agents configured and the dashboard is specific to them. Additional metrics, charts, and KPIs that are applicable only to Copilot agents are displayed.
-- **Disabled**: Indicates that your organization has both Azure and Copilot agents configured. The dashboard shows you metrics, KPIs, and charts that are common to both. 
+- **Disabled**: Indicates that your organization has both Azure and Copilot agents configured. The dashboard shows you metrics, KPIs, and charts that are common to both.
 
 ## Prerequisites
 
 - You must have the **Analytics Report Author** role to use the visual customizations in the bot dashboard. Visual customization is limited to the data available in the embedded Power BI report. Specific licensing requirements apply when you use the feature with product environments. Learn more in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 - To add additional data, enable data model customization.
 - Make sure that **Allow conversation transcripts and their associated metadata to be saved in Dataverse** is selected in Power Platform admin center. This setting is required to save transcripts in Dataverse that the bot dashboard uses.
-
 
 ## [Copilot Studio bot dashboard](#tab/copilotstudiodashboard)
 
@@ -48,7 +46,7 @@ Based on your administrator's configuration of the **Add historical analytics fo
  | ------- | ------------------ |
  | Total bot conversations |The total number of customer-initiated interactions with a bot, including those fully managed by the bot as well as those escalated to a service representative.|
  | Bot escalation rate | The percentage of AI agent conversations escalated by the AI agent to a service representative or an external phone number. |
-| Bot deflection rate| The percentage of AI agent conversations deflected by the AI agent.|
+ | Bot deflection rate| The percentage of AI agent conversations deflected by the AI agent.|
 
 Copilt Studio based session metrics:
 
@@ -77,21 +75,22 @@ A conversation is an interaction between a user and a Copilot Studio bot, genera
 
 :::image type="content" source="../media/metrics-by-last-session-outcome.png" alt-text="Screenshot of metrics by last session outcome.":::
 
-An **Engaged** session **Outcome** is categorized as:
+<a name="engaged-unengaged"></a>
+**Engaged**: Session **Outcome** is categorized as:
 
-  - **Abandoned**
-  - **HandOff**
-  - **Resolved**
+- **Abandoned**
+- **HandOff**
+- **Resolved**
   
-  And, the corresponding **OutcomeReason** is categorized as:
+And, the corresponding **OutcomeReason** is categorized as:
 
-  - **SystemError**
-  - **UserError**
-  - **Resolved**
-  - **UserExit**
-  - **AgentTransferRequestedByUser**
-  - **AgentTransferFromQuestionMaxAttempts**
-  - **AgentTransferConfiguredByAuthor**. 
+- **SystemError**
+- **UserError**
+- **Resolved**
+- **UserExit**
+- **AgentTransferRequestedByUser**
+- **AgentTransferFromQuestionMaxAttempts**
+- **AgentTransferConfiguredByAuthor**. 
   
 **Unengaged**: Sessions start in an unengaged state and stay unengaged until user input is provided or the session enters custom or escalate topic modes. For unengaged sessions, the **Outcome** is set to **None** and **OutcomeReason** is **NoError**.
 
@@ -101,20 +100,18 @@ The section shows how conversations ended, grouped into categories:
 - AgentTransferFromQuestionMaxAttempts → **Max Attempts**
 - AgentTransferConfiguredByAuthor → **Business Rule** 
 
-
-
 | Session outcome| Engagement type| Outcome Reason                        | Definition                                                                                                              | Applies to  | Channel         | 
 |----------------------------------------|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|-----------------|-
-|Abandoned | Engaged| UserExit                              | The number of conversations that end either because the customer ends the conversation or the session times out while waiting for the customer's response.                                                                                                                                                                                                                                                                                                                                | Historical  | Chat and voice  | 
+|Abandoned | Engaged| UserExit                              | The number of conversations that end either because the customer ends the conversation or the session times out while waiting for the customer's response.  | Historical  | Chat and voice  | 
 |Handoff| Engaged| AgentTransferConfiguredByAuthor        | The number of bot conversations transferred to a service representative or external number based on the AI agent's configuration. For example, an AI agent flow includes "Transfer to an agent". When the user selects "No," the AI agent transfers the conversation without the user requesting escalation, per the AI agent's business rules.                                                                                                    | Historical  | Chat and voice  | 
-|Handoff| Engaged | AgentTransferRequestedByUser           | The number of AI agent conversations escalated to a service representative or external number at the user's request.                                                                                                                                                                                                                                                                                                                               | Historical  | Chat and voice  | 
-| Handoff | Engaged | AgentTransferFromQuestionMaxAttempts   | The number of agent conversations escalated to a service representative or external number after threshold limit reaches silence detection or when no valid entity is found.                                                                                                                                                                                                                                                               | Historical  | Chat and voice  | 
-| Resolved       | Engaged                       | The number of bot conversations that the AI agent resolved.                                                                                                                                                                                                                                                                                                                                                                                        | Historical  | Chat and voice  |
-|Abandoned| Engaged | UserError                             | The number of bot conversations that ended because of incorrect AI agent design.                                                                                                                                                                                                                                                                                                                                                                   | Historical  | Chat and voice  | 
-|Abandoned| Engaged| SystemError                           | The number of AI agent conversations that ended due to systemic errors within Copilot Studio.                                                                                                                                                                                                                                                                                                                                                      | Historical  | Chat and voice  | 
-| None | Unengaged | NoError                              | The number of conversations that didn't have any engagement with AI agents. This can happen when the customer doesn't respond to the AI agent's greeting or when the AI agent doesn't enter a custom topic or Escalate topic due to the structure of the conversation flow.                                                                                                                                                                                                                      | Historical  | Chat and voice  |
+|Handoff| Engaged | AgentTransferRequestedByUser | The number of AI agent conversations escalated to a service representative or external number at the user's request. | Historical  | Chat and voice  |
+| Handoff | Engaged | AgentTransferFromQuestionMaxAttempts   | The number of agent conversations escalated to a service representative or external number after threshold limit reaches silence detection or when no valid entity is found.  | Historical  | Chat and voice  |
+| Resolved       | Engaged                       | The number of bot conversations that the AI agent resolved. | Historical  | Chat and voice  |
+|Abandoned| Engaged | UserError                             | The number of bot conversations that ended because of incorrect AI agent design.  | Historical  | Chat and voice  |
+|Abandoned| Engaged| SystemError                           | The number of AI agent conversations that ended due to systemic errors within Copilot Studio.   | Historical  | Chat and voice  |
+| None | Unengaged | NoError                              | The number of conversations that didn't have any engagement with AI agents. This can happen when the customer doesn't respond to the AI agent's greeting or when the AI agent doesn't enter a custom topic or Escalate topic due to the structure of the conversation flow.   | Historical  | Chat and voice  |
 
-### Metrics by bot 
+### Metrics by bot
 
  The **Metrics by bot** is a conversation-level matrix table that shows all the bot conversations related metrics.
 
