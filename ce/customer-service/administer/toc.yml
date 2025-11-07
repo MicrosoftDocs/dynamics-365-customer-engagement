@@ -706,8 +706,6 @@
           href: /dynamics365/contact-center/administer/copilot-enable-help-pane?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
         - name: Enable ask a question
           href: /dynamics365/contact-center/administer/copilot-enable-help-pane#enable-ask-a-question?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
-        - name: Enable draft a response (preview)
-          href: /dynamics365/contact-center/administer/copilot-enable-help-pane#enable-draft-a-response-preview?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
         - name: Enable Copilot to draft emails 
           href: /dynamics365/contact-center/administer/copilot-email-enable?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
       - name: Enable case summaries through ask a question (preview)
