@@ -158,7 +158,14 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |4|**EngageAgent**|
 |5|**CompetitorAgent**|
 |6|**StakeholderAgent**|
-|7|**HandoverAgent**|
+|7|**Handover Microagent**|
+|8|**AccountResearchAgent**|
+|9|**RelatedConversationAgent**|
+|10|**OpportunityCompetitorResearch**|
+|11|**OpportunityStakeholderResearch**|
+|12|**OpportunityResearchAgent**|
+|13|**DCAOutreachAgent**|
+|14|**DCAEngageAgent**|
 
 ### <a name="BKMK_msdyn_endtime"></a> msdyn_endtime
 
@@ -230,7 +237,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_regardingid`|
 |RequiredLevel|None|
 |Type|Lookup|
-|Targets|contact, lead, opportunity|
+|Targets|account, contact, lead, opportunity|
 
 ### <a name="BKMK_msdyn_regardingidIdType"></a> msdyn_regardingidIdType
 
@@ -421,6 +428,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |5|Label: **Failed**<br />State:2<br />TransitionData: None|
 |6|Label: **Skipped**<br />State:1<br />TransitionData: None|
 |7|Label: **PendingRetry**<br />State:0<br />TransitionData: None|
+|8|Label: **MissingFields**<br />State:1<br />TransitionData: None|
 
 ### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
 
@@ -651,6 +659,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_salesagentrun_modifiedby](#BKMK_lk_msdyn_salesagentrun_modifiedby)
 - [lk_msdyn_salesagentrun_modifiedonbehalfby](#BKMK_lk_msdyn_salesagentrun_modifiedonbehalfby)
 - [msdyn_salesagentprofile_msdyn_salesagentrun_SalesAgentProfile](#BKMK_msdyn_salesagentprofile_msdyn_salesagentrun_SalesAgentProfile)
+- [msdyn_salesagentrun_account](#BKMK_msdyn_salesagentrun_account)
 - [msdyn_salesagentrun_contact](#BKMK_msdyn_salesagentrun_contact)
 - [msdyn_salesagentrun_lead](#BKMK_msdyn_salesagentrun_lead)
 - [msdyn_salesagentrun_msdyn_salesagentrun](#BKMK_msdyn_salesagentrun_msdyn_salesagentrun-many-to-one)
@@ -736,6 +745,19 @@ One-To-Many Relationship: [msdyn_salesagentprofile msdyn_salesagentprofile_msdyn
 |ReferencingEntityNavigationPropertyName|`msdyn_salesagentprofileid`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_salesagentrun_account"></a> msdyn_salesagentrun_account
+
+One-To-Many Relationship: [account msdyn_salesagentrun_account](account.md#BKMK_msdyn_salesagentrun_account)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`account`|
+|ReferencedAttribute|`accountid`|
+|ReferencingAttribute|`msdyn_regardingid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_regardingid_account`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `Cascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msdyn_salesagentrun_contact"></a> msdyn_salesagentrun_contact
 

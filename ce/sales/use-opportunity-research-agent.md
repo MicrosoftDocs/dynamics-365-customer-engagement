@@ -1,7 +1,7 @@
 ---
 title: Work on opportunities handled by the Opportunity Research Agent (preview)
 description: Learn how to work on opportunities handled by the Opportunity Research Agent.
-ms.date: 08/04/2025
+ms.date: 11/03/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -48,6 +48,9 @@ You need the following prerequisites:
 1. Select **See full research**.  
    The Opportunity research page opens with the complete research insights and recommendations.
    :::image type="content" source="media/opportunity-research-insights-with-no-risk.png" alt-text="Screenshot of the Opportunity research page with research insights when there are no risks.":::
+
+> [!NOTE]
+> The research insights are refreshed based on the refresh frequency configured by your admin and when specific fields in the opportunity record are updated. Learn more in [How often does the Opportunity Research Agent refresh research data?](opportunity-research-agent-faqs.md#how-often-does-the-opportunity-research-agent-refresh-research-data).
 
 ## Opportunity research page
 
