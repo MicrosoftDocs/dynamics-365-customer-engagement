@@ -62,11 +62,11 @@ To set up consent management, follow these steps:
 The instructions to set up consent management in Dynamics 365 Sales are similar to those in Customer Insights – Journeys, except for the change in navigation paths in the Sales Hub app. The following steps outline the process and provide links to the relevant Customer Insights – Journeys documentation for detailed instructions.
 
 1. Create a compliance profile. Go to **App Settings** > **General Settings** > **Compliance Profiles** in the Sales Hub app. Follow the instructions in [Set up a compliance profile](/dynamics365/customer-insights/journeys/real-time-marketing-compliance-settings#set-up-a-compliance-profile).
-1. Create necessary purposes and topics within the compliance profile. Follow the instructions in [purposes](dynamics365/customer-insights/journeys/real-time-marketing-compliance-settings#purposes) and [topics](dynamics365/customer-insights/journeys/real-time-marketing-compliance-settings#topics).
+1. Create necessary purposes and topics within the compliance profile. Follow the instructions in [purposes](/dynamics365/customer-insights/journeys/real-time-marketing-compliance-settings#purposes) and [topics](/dynamics365/customer-insights/journeys/real-time-marketing-compliance-settings#topics).
 1. Customize the Preference Center. Follow the instructions in [Creating preference centers](/dynamics365/customer-insights/journeys/real-time-marketing-preference-centers)
 1. Import consent data if you have existing consent records. Go to **Sales** > **Consent Management** in the Sales Hub app. Use one of the following methods to import consent data: 
     1. If you have consent data in lead or contact records, import the consent data using the [load consent](/dynamics365/customer-insights/journeys/real-time-marketing-migrate-consent) feature.
-    1. If you have consent data in an external system, use a [cloud flow](dynamics365/customer-insights/journeys/consent-record-creation).
+    1. If you have consent data in an external system, use a [cloud flow](/dynamics365/customer-insights/journeys/consent-record-creation).
 
 ## View and edit consent for a contact point
 
@@ -78,7 +78,7 @@ To view and edit consent for a specific contact point, open a lead record in Dyn
 
 While configuring the agents, you can specify the compliance profile, purpose, and topic to be used for email communications sent by the agents. When a sales AI agent, such as the Sales Qualification Agent or Sales Close Agent, prepares to send an email, it checks the consent status of the contact point (email, in this case) against the relevant compliance profile and purpose. If the lead or contact has opted out of the specific purpose associated with the email, the agent will not send the email to that lead or contact. 
 
-- To configure consent settings for Sales Qualification Agent, refer to [Configure email settings for the Sales Qualification Agent (preview)](sales-qualification-agent-email-instruction-validation.md). 
+- To configure consent settings for Sales Qualification Agent, refer to [Configure email settings for the Sales Qualification Agent (preview)](sales-qualification-agent-email-instruction-validation.md).  
 - To configure consent settings for Sales Close Agent, refer to [Configure email settings for the Sales Close Agent (preview)](sales-close-agent-email-instruction-validation.md).
 
 
