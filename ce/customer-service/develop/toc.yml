@@ -101,7 +101,7 @@
         items:  
         - name: Download Copilot transcripts and interaction data
           href: download-copilot-transcript-data.md           
-      - name: Autonomous service agents (preview)
+      - name: Autonomous service agents
         items: 
         - name: Integrate Case Management Agent with custom Copilot Studio agents 
           href: case-management-agent-integration.md    

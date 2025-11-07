@@ -470,7 +470,7 @@
         href: voice-channel-pricing-scenarios.md
       - name: FAQ about the voice channel
         href: voice-channel-faqs.md
-    - name: Agent hub (preview)
+    - name: Agent hub
       items:
       - name: Learn guide for AI agents and Copilot features
         items:
@@ -494,7 +494,7 @@
         href: setup-pay-as-you-go.md
       - name: Configure connection references
         href: admin-km-agent-connections.md
-      - name: Customer Intent Agent (preview)
+      - name: Customer Intent Agent
         items:
         - name: Overview of Customer Intent Agent
           href: /dynamics365/contact-center/administer/overview-customer-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
@@ -966,7 +966,7 @@
     items:
     - name: Overview
       href: ../implement/responsible-ai-overview.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-    - name: Responsible AI FAQ for AI Agents (Preview)
+    - name: Responsible AI FAQ for AI Agents
       href: /dynamics365/contact-center/implement/faq-rai-ai-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
     - name: Responsible AI FAQ for Copilot in Customer Service
       href: ../implement/faq-responsible-ai-copilot.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml

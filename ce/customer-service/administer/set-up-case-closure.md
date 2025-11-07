@@ -1,31 +1,25 @@
 ---
-title: Set up Case Management Agent for case follow-up and closure (preview)
+title: Set up Case Management Agent for case follow-up and closure
 description: Learn how to set up the autonomous Case Management Agent to help service representatives follow up and close cases in Dynamics 365 Customer Service.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot 
-ms.date: 08/08/2025
+ms.date: 11/07/2025
 ms.custom: bap-template
 ---
 
 
-# Set up Case Management Agent for case follow-up and closure (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
+# Set up Case Management Agent for case follow-up and closure
 
 Case Management Agent follows up with customers over email. If customers don’t respond after a specified number of follow-ups, the agent closes the cases automatically. This reduces manual communication overhead and streamlines case resolution.
-
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
-
 
 ## Prerequisites
 
 - The CSR Manager or System Administrator role.
-- For the AI agent to send follow-up emails autonomously, you must set up a dedicated application user to send and receive emails on behalf of your organization. Perform the steps in [Configure global settings for Case Management Agent (preview)](case-management-global-settings.md).
-- Copilot recommended email templates and default email templates configured in the **Global settings (preview)** page. Learn more in [Configure global settings](set-up-case-resolution-agent.md#configure-case-resolution-settings).
+- For the AI agent to send follow-up emails autonomously, you must set up a dedicated application user to send and receive emails on behalf of your organization. Perform the steps in [Configure global settings for Case Management Agent](case-management-global-settings.md).
+- Copilot recommended email templates and default email templates configured in the **Global settings** page. Learn more in [Configure global settings](set-up-case-resolution-agent.md#configure-case-resolution-settings).
 
 ## Configure autonomous case follow-up and closure
 
@@ -33,7 +27,7 @@ Perform the following steps in Copilot Service admin center to set up autonomous
 
 1. Select **Case settings** in **Customer support**. The **Case settings** page appears.
 1. On the **Case settings** page, select **Manage** for **Case Management Agent**.
-1. On the **Case Management Agent** page, select **Autonomous case follow-up and closure (preview)**.
+1. On the **Case Management Agent** page, select **Autonomous case follow-up and closure**.
 1. On the page that appears, select **Turn on the case follow-up and closure automation**.
 1. Select **Add** to create a new rule for case follow-up and closure.
 1. In **Rules**, specify the following information. 
@@ -48,9 +42,9 @@ Perform the following steps in Copilot Service admin center to set up autonomous
    - **Follow-up wait times:** The duration between follow-up emails.
    - **Follow-up email templates**: Select **Edit** to specify the email templates that the AI agent must use to send emails for follow ups.
     > [!NOTE]
-    > The AI agent uses the rule-specific email templates to generate emails even if you configured the Copilot recommended email templates and default email templates in the **Global settings (preview)** page.
+    > The AI agent uses the rule-specific email templates to generate emails even if you configured the Copilot recommended email templates and default email templates in the **Global settings** page.
    - Select **Save**.
-5. On the **Case follow-up and closure (preview)** page, select the rule and then select **Activate**.
+5. On the **Case follow-up and closure** page, select the rule and then select **Activate**.
 1. Optionally, after creating the rules, you can:
    - Change the order in which the rules are evaluated.
    - Search for rules.
@@ -60,7 +54,7 @@ Perform the following steps in Copilot Service admin center to set up autonomous
 
 ## Enable Power Automate flows
 
-In Power Apps, make sure that the **CSCaseClosure Agent Flow**, **CSCaseFollowup Agent flow**, and **CSCaseClosure Representative Flow** are connected to Microsoft Dataverse and Microsoft Copilot Studio (Preview).
+In Power Apps, make sure that the **CSCaseClosure Agent Flow**, **CSCaseFollowup Agent flow**, and **CSCaseClosure Representative Flow** are connected to Microsoft Dataverse and Microsoft Copilot Studio.
 
 1. Navigate to **Power Automate** > **Solutions**.
 1. Select your solution.
@@ -78,7 +72,7 @@ The AI agent should automatically initiate the case follow-up process for cases 
 - **Rule:** Contoso Coffee follow-up and closure  
 - **Condition Configuration:**  
   - Case Title equals "Contoso Coffee"  
-  - **AND** Case Age greater than seven days   
+  - **AND** Case Age greater than seven days
   - **Level of automation**: Full
   - **Follow-up trigger:** Status Reason = "Awaiting "  
   - **Number of follow-ups:** 3  
