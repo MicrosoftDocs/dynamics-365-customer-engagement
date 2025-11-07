@@ -37,13 +37,13 @@ Open the Sales Close Agent - Engage settings to configure or manage the Sales Cl
 1. To create an agent:  
     1. Select **Create**.  
     1. In the **Sales Close Agent** section, select **Choose**.  
-    1. Select the automation level&mdash;**Engage** and then select **Continue**.  
+    1. In the **Scenario** page, select **Engage** and then select **Continue**.  
     > [!NOTE]
     > The option to create a new agent will be inactive, if an agent is already configured in your organization. At any given time, only one agent can be active per organization.  
 
     :::image type="content" source="media/sca-choose-scenario-transactional-deals.png" alt-text="Screenshot of the Sales Close Agent - Engage scenario selection.":::  
 
-1. To edit or deactivate the agent, in the **AI agents** page, select the agent name.  
+1. To edit or deactivate the agent, in the **AI agents** page, from the list of agents, select the name of the Sales Close Agent - Engage.  
 
 ## Related information
 

@@ -206,16 +206,16 @@ items:
                   href: configure-sales-close-agent-email-content.md
                 - name: Configure knowledge sources
                   href: configure-sales-close-agent-knowledge-sources.md
-              - name: Start the agent 
-                href: start-sales-close-agent.md
-              - name: Manage the agent
-                href: manage-sales-close-agent.md
-              - name: Configure requirements for Sales Close Agent - Engage
-                href: configure-requirements-for-sales-close-agent.md  
-              - name: View agent insights and metrics
-                href: view-sales-close-agent-engage-insights-metrics.md
-              - name: How the Sales Close Agent - Engage works
-                href: how-sales-close-agent-engage-mode-works.md
+                - name: Start the agent 
+                  href: start-sales-close-agent.md
+                - name: Manage the agent
+                  href: manage-sales-close-agent.md
+                - name: Configure requirements for Sales Close Agent - Engage
+                  href: configure-requirements-for-sales-close-agent.md  
+                - name: View agent insights and metrics
+                  href: view-sales-close-agent-engage-insights-metrics.md
+                - name: How the Sales Close Agent - Engage works
+                  href: how-sales-close-agent-engage-mode-works.md
           - name: Sales research Agent (preview)
             items:
               - name: Overview

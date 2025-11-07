@@ -47,7 +47,7 @@ Before you enter or configure the products, review the following best practices:
     The value proposition serves the following purposes:  
     - It helps craft personalized follow-up messages that highlight the benefits of the products or services.  
     - It can also be used to train or inform the agent about the product domain and the values offered, enabling the agent to provide more relevant and informed responses during customer interactions.  
-1. In the **What should we use to search your product knowledge?** section, select up to three fields for which the agent uses to match and retrieve relevant knowledge sources such as product documentation, specs, or manuals during conversations with customers. Ensure that you have proper knowledge inputs in the [knowledge sources](configure-sales-close-agent-knowledge-sources.md) section.  
+1.<a name="product-name-to-search"></a> In the **What should we use to search your product knowledge?** section, select up to three fields for which the agent uses to match and retrieve relevant knowledge sources such as product documentation, specs, or manuals during conversations with customers. Ensure that you have proper knowledge inputs in the [knowledge sources](configure-sales-close-agent-knowledge-sources.md) section.  
     For example, if you configure **Product**, **Product ID**, and **Product Type**, the agent performs search by:  
     - Matching the product name in knowledge sources such as **Surface Laptop 6** in a spec sheet.  
     - Precise matching of product ID with multiple variants exists such as **SL6-512GB-PLAT**.  

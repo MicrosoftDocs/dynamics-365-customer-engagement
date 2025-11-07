@@ -49,7 +49,10 @@ For example: If a customer asks about discounts, the playbook might instruct: *A
 
 ## Product documentation
 
-Microsoft Copilot Studio provides resources for the agent to generate accurate and context-aware responses through **product documentation**. The resources function as content repositories from which the Copilot retrieves information to produce its answers.  
+Microsoft Copilot Studio provides resources for the agent to generate accurate and context-aware responses through **product documentation**. The resources function as content repositories from which the Copilot retrieves information to produce its answers. 
+
+>[!NOTE]
+>Product names in the documentation should match [the product names](configure-sales-close-agent-product-details.md#product-name-to-search) in your product catalog to ensure accurate retrieval of information.  
 Knowledge sources are structured or unstructured content repositories that your Copilot can reference during conversations. They typically include:  
 
 - Internal documents such as Word, PDF, and PPT.  

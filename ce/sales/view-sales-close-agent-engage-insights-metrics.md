@@ -43,8 +43,8 @@ The insights dashboard is displayed as shown in the following image:
 
     | Metric | Description |
     |--------|-------------|
-    | Agent outreach | Specifies the total number of customers that the agent engaged with. |
-    | Engagements rate | Specifies the percentage of records where the agent engaged with a customer or handed them over for a human involvement. |
+    | Agent outreach | Specifies the total number of customers that the agent reached out to. |
+    | Engagements rate | Specifies the percentage of records where the agent engaged with a customer or handed them over to a supervisor. |
     | Customers pitched by agent | Specifies the number of customers who received product recommendations from the agent. |
     | Email response rate | Specifies the percentage of emails sent by the agent that got a response from customers. |
 

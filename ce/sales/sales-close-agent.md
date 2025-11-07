@@ -59,8 +59,8 @@ Designed for high-velocity, low-complexity deals, this agent automates the sales
 
 The following table summarizes the differences between the Sales Close Agent - Research and Sales Close Agent - Engage:  
 
-| Functionality | Sales Close Agent - Research | Sales Close Agent - Engage | Description |
-|---------------|:----------------------------:|:--------------------------:|:-----------:|
+| Functionality | Research | Engage | Description |
+|---------------|:--------:|:------:|-------------|
 | Consolidate insights from multiple sources | ✅ | ✅ | The agent synthesizes insights from CRM, emails, meetings, and web research to give you a comprehensive view of your deal. |
 | Detect risks early | ✅ | ❌ | The agent flags risks such as disengaged stakeholders, slowing momentum, or competitive pressure, and recommends targeted actions to keep your deal moving forward. |
 | Prioritize deals | ✅ | ❌ | Based on real-time signals, the agent helps you see which deals are gaining traction, which are at risk, and where your effort will drive the most impact. |
