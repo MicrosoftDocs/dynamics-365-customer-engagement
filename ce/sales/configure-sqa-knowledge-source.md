@@ -1,5 +1,5 @@
 ---
-title: Configure knowledge sources for Sales Qualification Agent (preview)
+title: Configure knowledge sources for Sales Qualification Agent
 description: Learn how to configure knowledge sources for the Sales Qualification Agent in Dynamics 365 Sales.
 ms.topic: how-to 
 ms.date: 09/17/2025
@@ -15,13 +15,9 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure knowledge sources for Sales Qualification Agent (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Configure knowledge sources for Sales Qualification Agent
 
 By default, the agent uses public web data sources to research leads and their companies. However, you can enhance the relevance of the research insights and email content by adding custom knowledge sources that are specific to your organization and industry. For example, you can add customer testimonials and case studies as knowledge sources for outreach emails to engage with leads effectively.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Considerations
 
@@ -61,7 +57,7 @@ By default, the agent uses public web data sources to research leads and their c
 
 ## Add competitors and knowledge sources for competitor research
 
-By default, the agent identifies competitors using CRM data and public web sources. You can add competitors list and add custom knowledge sources that you want the agent to use to get more relevant and specific insights about your competitors. Learn more in [Configure Sales Qualification Agent to generate competitor insights (preview)](sales-qualification-agent-competitor-insights.md).
+By default, the agent identifies competitors using CRM data and public web sources. You can add competitors list and add custom knowledge sources that you want the agent to use to get more relevant and specific insights about your competitors. Learn more in [Configure Sales Qualification Agent to generate competitor insights](sales-qualification-agent-competitor-insights.md).
 
 ## Add knowledge sources for custom research topics
 

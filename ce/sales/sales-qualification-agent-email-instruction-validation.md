@@ -1,5 +1,5 @@
 ---
-title: Configure email settings for the Sales Qualification Agent (preview)
+title: Configure email settings for the Sales Qualification Agent
 description: Learn how to configure email instructions and address validation to personalize your Sales Qualification Agent's outreach.
 ms.date: 08/01/2025
 ms.topic: how-to
@@ -13,9 +13,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure email settings for the Sales Qualification Agent (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Configure email settings for the Sales Qualification Agent
 
 By default, the outreach email would include:
 
@@ -26,8 +24,6 @@ By default, the outreach email would include:
 - A call-to-action that requests a meeting
 
 You can further personalize the outreach emails to keep the lead engaged and specify the email field that the agent should use to validate email addresses.  
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Configure email instructions
 

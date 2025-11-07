@@ -1,5 +1,5 @@
 ---
-title: Configure selection criteria for Sales Qualification Agent (preview)
+title: Configure selection criteria for Sales Qualification Agent
 description: Learn how to configure the selection criteria for the Sales Qualification Agent in Dynamics 365 Sales.
 ms.topic: how-to 
 ms.date: 09/10/2025
@@ -15,20 +15,13 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure selection criteria for Sales Qualification Agent (preview)
+# Configure selection criteria for Sales Qualification Agent
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-The selection criteria helps you to group the incoming leads into a segment and assign them to the agent based on the defined conditions. For example, the leads that are unprocessed, unattended, and potentially lower value could be mapped under this segment and worked on by the agent. The segment groups these leads, and helps agent to drive net-positive outcome, ensuring that every lead is assessed without adding manual workload for sellers.  
+The selection criteria helps you to group the incoming leads into a segment and assign them to the agent based on the defined conditions. For example, the leads that are unprocessed, unattended, and potentially lower value could be mapped under this segment and worked on by the agent. The segment groups these leads, and helps agent to drive net-positive outcome, ensuring that every lead is assessed without adding manual workload for sellers.
 
 > [!NOTE]
 > - Leads that meet the selection criteria will be assigned to the agent for research and engagement and then handed over to the sellers based on the [handoff criteria](configure-sales-qualification-agent-handoff-criteria.md).  
 > - When new leads are created, ensure that the lead owner is not [the app user](configure-requirements-for-sqa-agent.md#create-an-app-user-in-dataverse-and-assign-aisalesperson-role) used to create the agent.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
-> [!NOTE]
-> The priority of the segment created for the agent is always low and one above the default segment. So, ensure that the segment you're creating for the agent doesn't overlap with the segments used for work assignment to sellers. If there's an overlap, leads are assigned to sellers instead of the agent.
 
 **Follow these steps**:
 
@@ -49,7 +42,9 @@ The selection criteria helps you to group the incoming leads into a segment and 
     | Email | Contains data | &mdash;| Emails from the leads should contain data such as information related to sales, customer, or feedback. |
 
     > [!NOTE]
-    > You can have up to 10 conditions at any given time including conditions that are based on groups and related entities.
+    >- You can have up to 10 conditions at any given time including conditions that are based on groups and related entities.
+    >- The priority of the segment created for the agent is always low and one above the default segment. So, ensure that the segment you're creating for the agent doesn't overlap with the segments used for work assignment to sellers. If there's an overlap, leads are assigned to sellers instead of the agent.
+
 
 1. To add more conditions, select **Add** and then use the following options to build the conditions of the segment:
     - **Add row**: Add condition. Select an attribute, an operator, and a value; for example, *Created by Equals John Thomas*.  

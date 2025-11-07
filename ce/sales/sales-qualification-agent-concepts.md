@@ -1,5 +1,5 @@
 ---
-title: Understand the Sales Qualification Agent concepts (preview)
+title: Understand the Sales Qualification Agent concepts
 description: Learn about the concepts of the Sales Qualification Agent in Dynamics 365 Sales, including ideal customer profile, purchase interest, and BANT.
 ms.topic: conceptual 
 ms.date: 07/31/2025
@@ -15,13 +15,9 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Understand the Sales Qualification Agent concepts (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Understand the Sales Qualification Agent concepts
 
 The concepts described in this article are applicable for the Sales Qualification Agent in Dynamics 365 Sales and applicable for both Research-only mode and Research and engage modes. The concepts help you understand how the agent evaluates leads and determines their fit for your organization. Further, the agent uses these concepts to provide insights and recommendations for lead qualification.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## What is the ideal customer profile and how is the fit determined?
 

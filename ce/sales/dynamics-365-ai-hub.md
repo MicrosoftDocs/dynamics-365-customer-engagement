@@ -58,6 +58,6 @@ If you're using custom security roles, ensure that users have the necessary agen
 ## Related resources
 
 - [Monitor opportunities handed over by the Opportunity Research Agent](monitor-opportunity-agent.md) 
-- [Monitor leads handled by the Sales Qualification Agent (preview)](monitor-leads-by-sales-qualification-agent.md)
-- [Set up and configure the Sales Qualification Agent (preview)](configure-sales-qualification-agent.md)
-- [Configure the Opportunity Research Agent (preview)](configure-opportunity-research-agent.md)
+- [Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md)
+- [Set up and configure the Sales Qualification Agent](configure-sales-qualification-agent.md)
+- [Configure the Opportunity Research Agent](configure-opportunity-research-agent.md)

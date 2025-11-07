@@ -1,5 +1,5 @@
 ---
-title: Configure general settings for the Sales Qualification Agent (preview)
+title: Configure general settings for the Sales Qualification Agent
 description: Learn set up the general settings for the Sales Qualification Agent, including agent profile, company information, and product information.
 ms.date: 08/01/2025
 ms.topic: how-to
@@ -13,13 +13,9 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure general settings for the Sales Qualification Agent (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Configure general settings for the Sales Qualification Agent
 
 Define the agent profile, company information, and product information to set the context for the Sales Qualification Agent.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Configure the agent profile
 

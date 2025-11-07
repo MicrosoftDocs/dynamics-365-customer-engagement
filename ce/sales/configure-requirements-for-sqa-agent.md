@@ -17,10 +17,6 @@ ai-usage: ai-assisted
 
 # Configure requirements for Sales Qualification Agent
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
 Before you configure the agents, ensure that prerequisites are configured in your Dynamics 365 Sales environment. Depending on the type of automation, you must configure the requirements as follows:
 
 | Prerequisite | Applicable for | Description |

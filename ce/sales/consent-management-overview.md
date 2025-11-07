@@ -78,7 +78,7 @@ To view and edit consent for a specific contact point, open a lead record in Dyn
 
 While configuring the agents, you can specify the compliance profile, purpose, and topic to be used for email communications sent by the agents. When a sales AI agent, such as the Sales Qualification Agent or Sales Close Agent, prepares to send an email, it checks the consent status of the contact point (email, in this case) against the relevant compliance profile and purpose. If the lead or contact has opted out of the specific purpose associated with the email, the agent will not send the email to that lead or contact.
 
-- To configure consent settings for Sales Qualification Agent, refer to [Configure email settings for the Sales Qualification Agent (preview)](sales-qualification-agent-email-instruction-validation.md). 
+- To configure consent settings for Sales Qualification Agent, refer to [Configure email settings for the Sales Qualification Agent](sales-qualification-agent-email-instruction-validation.md). 
 - To configure consent settings for Sales Close Agent, refer to [Configure email settings for the Sales Close Agent (preview)](sales-close-agent-email-instruction-validation.md).
 
 After consent is set up and configured, emails sent by the sales AI agents will include an **Unsubscribe** link that directs recipients to the Preference Center. Recipients can manage their communication preferences and opt out of specific topics as needed.
