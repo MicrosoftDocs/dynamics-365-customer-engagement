@@ -34,7 +34,9 @@ You can further personalize the outreach emails to keep the lead engaged and spe
 Configure the instructions that the agent should use to ensure that the email follows compliance requirements and personalize the email based on the lead's information. The agent uses these instructions to draft outreach emails to leads.
 
 1. [Open the Sales Qualification Agent settings](open-sales-qualification-agent-settings.md) page.  
+
 1. Open the **Email instructions** section.
+1. (Research and engage mode only) Turn on **Compliance** and select the compliance profile, purpose, and topic that the agent should use to ensure that the email adheres to your organization's compliance requirements. Learn more about settings up compliance profiles in [Stay compliant with privacy regulations](consent-management-overview.md).
 1. Under **Personalize email based on key fields from Lead**, add the following information:
     1. Select **New field** to add a text-based field from the `Lead` table.
     1. In the **Agent Instructions** field, provide guidance on how to use the selected field in the email. For example, if you selected the **Job title** field, you might instruct the agent to tailor the email content based on the lead's job title so that it resonates with their specific role and responsibilities.
@@ -46,7 +48,7 @@ Configure the instructions that the agent should use to ensure that the email fo
 
 ## Configure email validation settings
 
-By default, the agent uses the Email (`emailaddress1`) field in the Lead table to validate email addresses. If you're a using a different field to capture email addresses, you can select that field in the **Email validation** section. The drop-down lists all the email fields (including custom fields) in the Lead table.  
+By default, the agent uses the Email (`emailaddress1`) field in the Lead table to validate email addresses. If you're a using a different field to capture email addresses, you can select that field in the **Email address validation** section. The drop-down lists all the email fields (including custom fields) in the Lead table.  
 
 ## Next step
 
