@@ -2,6 +2,7 @@
 title: Feature deprecations
 description: Learn about features that are being deprecated for Dynamics 365 Field Service.
 ms.date: 10/28/2025
+ms.update-cycle: 1095-days
 ms.topic: article
 ms.custom: bap-template
 ms.author: vhorvath
