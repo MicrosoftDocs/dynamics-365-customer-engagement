@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: overview
 ms.collection:
-ms.date: 09/16/2025
+ms.date: 11/07/2025
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -77,12 +77,16 @@ The **Omnichannel real-time analytics** dashboard consists of the following repo
 
 ## Filter information displayed on dashboard
 
-Use the filters to drill down to KPIs across the dashboard. Adjust the filters based on the insights that you're looking for. The available filters include **Time**, **Agent**, **Channels**, **Queue**, **Time zone**, and **Conversation status**. 
+Use the filters to drill down to KPIs across the dashboard. Adjust the filters based on the insights that you're looking for. The filters that are available by default include **Time**, **Agent**, **Channel**, **Queue**, **Time zone**, and **Conversation status**, and **Conversation skill**. 
 
 For example, the dropdown list for the **Time** filter includes the following options:
 
-- **Last 24 hrs**: Show all conversations started or modified in the last 24 hours.
+- **2 hrs**: By default, shows all conversations from the last 2 hours. You can see conversations up to last 24 hours.
 - **Today**: Shows all conversations started or modified in the selected time zone.
+
+:::image type="content" source="../media/realtime-time-filter.png" alt-text="Screenshot of the Time filter on real-time analytics.":::
+
+Optionally, you can also add the **Business Unit** filter, which provides a consistent way to focus on a single business unit or compare multiple units. This filter can be configured through data model customization or by adjusting the visual under data measure for the dimension **BusinessUnit**. The **Business Unit** filter doesn't grant additional access; it simply restricts data visibility based on existing roles and business unit hierarchy. If a user doesn't have security permissions to view a business unit's data, selecting that business unit doesn't display any information.
 
 ### Pause updates on report data
 
