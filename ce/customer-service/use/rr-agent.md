@@ -52,10 +52,10 @@ A set of KPIs helps provide quick insight into the filter scope.
 |Agent name   |   Name of the representative.   |
 |Status    |      Current presence status of the representative.   |
 |Status since    |    Time stamp when the representative entered their current status.      |
-|Active  sessions |  Number of active sessions the representative is in, and modified in the last 2 hours. |
-|Closed  sessions  |   Number of closed sessions the representative is in, and modified in the last 2 hours. |
-|Manually assigned sessions| Number of sessions manually assigned to the representative, which are modified in the last 2 hours. These sessions can be both active and closed.|
-|Autoassigned sessions| Number of sessions autoassigned to the representative, which are modified in the last 2 hours. These sessions can be both active and closed.|
+|Active sessions |  Number of active sessions the representative is in, and modified in the last 2 hours. |
+|Closed sessions  |   Number of closed sessions the representative is in, and modified in the last 2 hours. |
+|Manually assigned sessions| Number of sessions manually assigned to the representative, and modified in the last 2 hours. These sessions can be both active and closed.|
+|Autoassigned sessions| Number of sessions autoassigned to the representative, and modified in the last 2 hours. These sessions can be both active and closed.|
 |Domain name| Domain name of the representative.|
 
 When selecting an agent in the list, you can open a detailed agent view of that agent. This view includes:
