@@ -40,7 +40,7 @@ You can drill down from the **Agent list** section on the dashboard to view key 
 
 You see the following tabs. The tabs also show custom presence statuses, configured by you and used by your service representatives. 
 
-- **Idle agents**: Representatives without any interacting conversations and who aren't offline at the moment. If you wish to view the previous sessions, you can still access those session through visual customization. Idle agent details display the status of all agents at any given time. It includes statuses like **Available**, **Appear away**, **Busy**, **Do not disturb**, and **Offline**.
+- **Idle agents**: Representatives without any interacting conversations and who aren't offline at the moment. If you want to view the previous sessions, you can still access those sessions through visual customization. Idle agent details display the status of all agents at any given time. It includes statuses like **Available**, **Appear away**, **Busy**, **Do not disturb**, and **Offline**.
 
 - **Interacting agents**: Shows service representatives who are online at the moment.
 
