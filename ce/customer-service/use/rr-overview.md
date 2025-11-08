@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: overview
-ms.date: 10/06/2025
+ms.date: 11/07/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -63,10 +63,19 @@ For example, a case that gets created automatically creates a conversation in th
 
 ## Filter information displayed on dashboard 
 
-Use the filters to drill down to KPIs across the dashboard. Adjust the filters based on the insights that you're looking for. The available filters include **Modified on**, **Agent**, **Agent status,** **Agent skill**, **Queue**, **Work item status,** **Work item skill**, and **Time zone**.
+Use the filters to drill down to KPIs across the dashboard. Adjust the filters based on the insights that you're looking for. The available filters include **Modified on**, **Agent**, **Agent status,** **Agent skill**, **Queue**, **Work item status,** **Work item skill**, and **Time zone**. 
+
+For example, the dropdown list for the **Time** filter includes the following options:
+
+- **2 hrs**: By default, shows all conversations from the last 2 hours. You can see conversations up to last 24 hours.
+- **Today**: Shows all conversations started or modified in the selected time zone.
 
 > [!NOTE]
 > The queues filter shows entity record type queues only.
+
+:::image type="content" source="../media/realtime-time-filter.png" alt-text="Screenshot of the Time filter on real-time analytics.":::
+
+Optionally, you can also add the **Business Unit** filter that provides a consistent way to focus on a single business unit or compare multiple units. The filter can be configured through data model customization or by adjusting the visual under data measure for the dimension **BusinessUnit**. The **Business Unit** filter doesn't grant additional access; it simply restricts data visibility based on existing roles and business unit hierarchy. If a user doesn't have security permissions to view a business unit's data, selecting that business unit won't display any information.
 
 ## Autorefresh 
 
