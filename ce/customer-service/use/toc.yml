@@ -400,8 +400,6 @@
             href: oc-bot-dashboard.md  
           - name: Voicemail dashboard
             href: oc-voicemail-dashboard.md
-          - name: Proactive Outbound dashboard
-            href: proactive-outbound.md          
         - name: Use knowledge analytics
           href: knowledge-search-analytics-cs.md
         - name: Use Copilot analytics
