@@ -24,7 +24,7 @@ ai-usage: ai-assisted
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 > [!IMPORTANT]
-> Ensure that the agent is properly configured to avoid editing configurations after starting. Editing the agent changes how leads are processed before and after the change, giving different results.
+> Ensure that the agent is properly configured to avoid editing configurations after starting. Editing the agent changes how records are processed before and after the change, giving different results.
 
 The **Start agent** option is enabled only after all the configuration sections are completed and marked with a green check mark as shown in the following image.
 

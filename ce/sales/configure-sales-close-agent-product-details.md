@@ -21,7 +21,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-You must configure the products you want to sell in the product catalog, as the agent uses these products to engage with customers. If no products are available, you can quickly create them from the agent configuration page, and they are added to both the agent and your application’s product catalog. The agent displays pricing based on the default price list specified in the product record; therefore, each product record must include a price.  
+Configure the products you want the agent to sell in your product catalog. You can either use existing products from the catalog or create a new catalog of products for the agent to use. The agent displays pricing based on the default price list specified in the product record; therefore, each product record must include a price.  
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -30,27 +30,27 @@ You must configure the products you want to sell in the product catalog, as the 
 Before you enter or configure the products, review the following best practices:  
 
 - Keep product names short and customer friendly. If the product catalog in Dynamics 365 Sales doesn't contain customer-friendly names in the standard **Product Name** field, you can add an alternative field&mdash;either standard or custom that stores the preferred product name for communications. The agent’s configuration UI allows you to select this field, ensuring outreach and customer-facing emails use the most appropriate product naming without requiring changes to core catalog data.  
-- Validate that price and URL fields are complete before publishing. The agent retrieves product page links from the **ProductURL** field in the **Product** table, which might not be exposed on the standard product form, and obtains pricing from the **Amount** field in the **Price List** table referenced as the **Default Price List** for each product, ensuring accurate and consistent product information for automated customer engagement.  
-- For complex pricing such as discounts and bundles, the agent doesn’t support dynamic discounting&mdash;stick to base prices.
+- Ensure that price and URL fields are populated before publishing the agent. The agent retrieves product page links from the **ProductURL** field in the **Product** table, which might not be exposed on the standard product form, and obtains pricing from the **Amount** field in the **Price List** table referenced as the **Default Price List** for each product, ensuring accurate and consistent product information for automated customer engagement. If the value is missing from these fields, you're prompted to add the values while selecting the product in agent configuration.  
+- The agent doesn’t support dynamic discounting&mdash;stick to base prices. Complex pricing such as discounts and bundles aren't supported.
 
 ## Add products and value propositions
 
 1. [Open the Sales Close Agent - Engage settings page](open-sales-close-agent-settings.md).  
-1. Under the **General** settings section, select **Agent profile**.  
+1. Under the **General** settings section, select **Products**.  
     :::image type="content" source="media/sca-general-products-settings-page.png" alt-text="Screenshot of the Sales Close Agent - Engage product settings page.":::  
-1. In the **Products** page, from the **Product** drop down list, select the products.  
-    The products listed here are configured in your product catalog. To add product in product catalog, see [Add a product](add-product-quote-order-invoice.md#add-a-product).  
+1. In the **Products** page, from the **Product** drop-down list, select the products.  
+    The products listed in the drop-down from your product catalog. Learn more about adding a product to the product catalog in [Add a product](add-product-quote-order-invoice.md#add-a-product).  
     If no products are listed in your product catalog, you can quickly create them and add them to the list, see [Quickly create product records](#quickly-create-product-records). Also, you can use bulk import of products using the **Bulk import** option in **Advance settings**. For more information, see [Import data (all record types) from multiple sources](/power-platform/admin/import-data-all-record-types). However, ensure that the products have the name, price, and URL included in the bulk import file.  
     If any product has missing information such as price or URL, [update this information](#update-missing-product-information) for agent to communicate properly with customer.  
 1. In the **Value proposition of your product** section, enter the value proposition.  
-    The product value proposition specifies why a customer should choose your product instead of your competitor’s. It focuses on what makes your product unique such as the benefits, features, and results it offers.  
+    A product's value proposition specifies why a customer should choose your product instead of your competitor’s. It focuses on what makes your product unique such as the benefits, features, and results it offers.  
     The value proposition serves the following purposes:  
     - It helps craft personalized follow-up messages that highlight the benefits of the products or services.  
     - It can also be used to train or inform the agent about the product domain and the values offered, enabling the agent to provide more relevant and informed responses during customer interactions.  
 1.<a name="product-name-to-search"></a> In the **What should we use to search your product knowledge?** section, select up to three fields for which the agent uses to match and retrieve relevant knowledge sources such as product documentation, specs, or manuals during conversations with customers. Ensure that you have proper knowledge inputs in the [knowledge sources](configure-sales-close-agent-knowledge-sources.md) section.  
     For example, if you configure **Product**, **Product ID**, and **Product Type**, the agent performs search by:  
     - Matching the product name in knowledge sources such as **Surface Laptop 6** in a spec sheet.  
-    - Precise matching of product ID with multiple variants exists such as **SL6-512GB-PLAT**.  
+    - Precise matching of product ID with multiple variants that exists such as **SL6-512GB-PLAT**.  
     - Using the product type for category-level documents such as laptop guides or comparison charts.  
 1. In the **Where do you store customer friendly product name?** section, select the field name in which you store the customer friendly product name for agent to use in email communications.  
 
@@ -80,9 +80,7 @@ If any product has missing information, it's listed in red. Follow these steps t
 1. In the **Products** page, select **Add missing info**.  
     :::image type="content" source="media/sca-general-products-settings-add-missing-info.png" alt-text="Screenshot of the Sales Close Agent - Engage product with add missing info option.":::  
 1. In the **Update fields** dialog box, enter the missing information.  
-    :::image type="content" source="media/sca-general-products-settings-update-missing-info-dialog-box.png" alt-text="Screenshot of the Sales Close Agent - Engage update missing info dialog box.":::
-
-1. Select **Update** to save the changes.
+1. Select **Update** to save the changes.  
     >[!NOTE]
     >The **Update** option is enabled only after all the missing information is provided.  
 
