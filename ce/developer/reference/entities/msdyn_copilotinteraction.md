@@ -222,6 +222,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |100230317|**Discard**|
 |100230318|**ChooseDifferentTemplate**|
 |100230319|**TemplateSelection**|
+|100230325|**TemplateRecommended**|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 

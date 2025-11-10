@@ -437,11 +437,13 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_account_msdyn_salesroutingrun_targetobject](#BKMK_msdyn_account_msdyn_salesroutingrun_targetobject)
 - [msdyn_account_msdyn_warranty_WarrantyHolder](#BKMK_msdyn_account_msdyn_warranty_WarrantyHolder)
 - [msdyn_account_msdyn_warranty_WarrantyProvider](#BKMK_msdyn_account_msdyn_warranty_WarrantyProvider)
+- [msdyn_msdyn_conversationparticipantinsights_account_msdyn_User](#BKMK_msdyn_msdyn_conversationparticipantinsights_account_msdyn_User)
 - [msdyn_msdyn_lastagent_account_msdyn_recordId](#BKMK_msdyn_msdyn_lastagent_account_msdyn_recordId)
 - [msdyn_msdyn_preferredagent_account_msdyn_recordId](#BKMK_msdyn_msdyn_preferredagent_account_msdyn_recordId)
 - [msdyn_msdyn_salescopilotinsight_account_msdyn_targetentityid](#BKMK_msdyn_msdyn_salescopilotinsight_account_msdyn_targetentityid)
 - [msdyn_sabackupdiagnostic_account_msdyn_target](#BKMK_msdyn_sabackupdiagnostic_account_msdyn_target)
 - [msdyn_salesaccelerationinsights_account](#BKMK_msdyn_salesaccelerationinsights_account)
+- [msdyn_salesagentrun_account](#BKMK_msdyn_salesagentrun_account)
 - [msdyn_salesroutingdiagnostic_account_msdyn_target](#BKMK_msdyn_salesroutingdiagnostic_account_msdyn_target)
 - [msdyn_salessuggestion_account](#BKMK_msdyn_salessuggestion_account)
 - [msdyn_sequencetarget_account_msdyn_target](#BKMK_msdyn_sequencetarget_account_msdyn_target)
@@ -897,6 +899,18 @@ Many-To-One Relationship: [msdyn_warranty msdyn_account_msdyn_warranty_WarrantyP
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: Warranties Provided<br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_msdyn_conversationparticipantinsights_account_msdyn_User"></a> msdyn_msdyn_conversationparticipantinsights_account_msdyn_User
+
+Many-To-One Relationship: [msdyn_conversationparticipantinsights msdyn_msdyn_conversationparticipantinsights_account_msdyn_User](msdyn_conversationparticipantinsights.md#BKMK_msdyn_msdyn_conversationparticipantinsights_account_msdyn_User)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationparticipantinsights`|
+|ReferencingAttribute|`msdyn_user`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_conversationparticipantinsights_account_msdyn_user`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_msdyn_lastagent_account_msdyn_recordId"></a> msdyn_msdyn_lastagent_account_msdyn_recordId
 
 Many-To-One Relationship: [msdyn_lastagent msdyn_msdyn_lastagent_account_msdyn_recordId](msdyn_lastagent.md#BKMK_msdyn_msdyn_lastagent_account_msdyn_recordId)
@@ -954,6 +968,18 @@ Many-To-One Relationship: [msdyn_salesaccelerationinsight msdyn_salesacceleratio
 |ReferencingEntity|`msdyn_salesaccelerationinsight`|
 |ReferencingAttribute|`msdyn_relatedrecord`|
 |ReferencedEntityNavigationPropertyName|`msdyn_salesaccelerationinsights_account`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_salesagentrun_account"></a> msdyn_salesagentrun_account
+
+Many-To-One Relationship: [msdyn_salesagentrun msdyn_salesagentrun_account](msdyn_salesagentrun.md#BKMK_msdyn_salesagentrun_account)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_salesagentrun`|
+|ReferencingAttribute|`msdyn_regardingid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_salesagentrun_account`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

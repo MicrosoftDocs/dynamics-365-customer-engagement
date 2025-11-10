@@ -1,5 +1,5 @@
 ---
-title: Integrate Case Management Agent with custom Copilot Studio agents (preview)
+title: Integrate Case Management Agent with custom Copilot Studio agents
 description: Learn how to integrate autonomous Case Management Agent with custom Copilot Studio agents.
 author: gandhamm
 ms.author: mgandham
@@ -10,13 +10,9 @@ ms.date: 08/08/2025
 ms.custom: bap-template
 ---
 
-# Integrate Case Management Agent with custom Copilot Studio agents (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Integrate Case Management Agent with custom Copilot Studio agents
 
 The Case Management Agent integrates with custom AI agents built in Microsoft Copilot Studio to autonomously handle customer service cases. This integration enables automated case processing, where the Case Management Agent collaborates with a custom agent to resolve customer issues during case conversations, reducing manual effort and improving response times. The integration supports both fully autonomous and semi-autonomous case resolution scenarios, allowing organizations to tailor their case management workflows to meet specific business needs.
-
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Prerequisites
 

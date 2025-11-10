@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection: 
-ms.date: 09/16/2025
+ms.date: 11/07/2025
 ms.custom: bap-template
 ---
 
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE [cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-The agent report provides an agent-centric view for case and record management. Modified on, queue, agent, agent skill, agent status, and time zone are filters that enable you to drill into the data to identify agent availability and capacity limitations to address unassigned work items. [Learn how to access the report](rr-overview.md#access-reports).
+The agent report provides an agent-centric view for case and record management. Modified on, queue, agent, agent skill, agent status, and time zone are filters that enable you to drill into the data to identify agent availability and capacity limitations to address unassigned work items. By default, the Modified on filter displays data from the last 2 hours. You can also view data from the last 24 hours. [Learn how to access the report](rr-overview.md#access-reports).
 
 :::image type="content" source="../media/record-routing-agent.png" alt-text="Screenshot of agent report":::
 
@@ -23,8 +23,8 @@ A set of KPIs helps provide quick insight into the filter scope.
 
 |KPIs |Description |
 |---------|---------|
-|Ongoing work items     |   Number of record type work items modified in the last 24 hours, and are ongoing currently, and includes open and active work items.      |
-|Unassigned work items    |  Number of record type work items modified in the last 24 hours and are unassigned currently.       |
+|Ongoing work items     |   Number of record type work items modified in the last 2 hours, and are ongoing currently, and includes open and active work items.      |
+|Unassigned work items    |  Number of record type work items modified in the last 2 hours and are unassigned currently.       |
 |Agents online    |   Number of customer service representatives (service representatives or representatives) who are online.    |
 |Agents with active workitems   |Number of representatives, irrespective of presence status, who have active work items assigned. |
 
@@ -52,10 +52,10 @@ A set of KPIs helps provide quick insight into the filter scope.
 |Agent name   |   Name of the representative.   |
 |Status    |      Current presence status of the representative.   |
 |Status since    |    Time stamp when the representative entered their current status.      |
-|Active  sessions |  Number of active sessions the representative is in, and modified in the last 24 hours. |
-|Closed  sessions  |   Number of closed sessions the representative is in, and modified in the last 24 hours. |
-|Manually assigned sessions| Number of sessions manually assigned to the representative, which are modified in the last 24 hours. These sessions can be both active and closed.|
-|Autoassigned sessions| Number of sessions autoassigned to the representative, which are modified in the last 24 hours. These sessions can be both active and closed.|
+|Active sessions |  Number of active sessions the representative is in, and modified in the last 2 hours. |
+|Closed sessions  |   Number of closed sessions the representative is in, and modified in the last 2 hours. |
+|Manually assigned sessions| Number of sessions manually assigned to the representative, and modified in the last 2 hours. These sessions can be both active and closed.|
+|Autoassigned sessions| Number of sessions autoassigned to the representative, and modified in the last 2 hours. These sessions can be both active and closed.|
 |Domain name| Domain name of the representative.|
 
 When selecting an agent in the list, you can open a detailed agent view of that agent. This view includes:

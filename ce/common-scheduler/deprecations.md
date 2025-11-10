@@ -4,6 +4,7 @@ description: Learn about feature deprecations for Universal Resource Scheduling 
 ms.date: 09/23/2025
 ms.reviewer: mhart
 ms.subservice: common-scheduler
+ms.update-cycle: 1095-days
 ms.topic: overview
 author: mkelleher-msft
 ms.author: mkelleher

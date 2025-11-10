@@ -2,6 +2,7 @@
 title: Version history archive
 description: Archive of earlier release notes of the Dynamics 365 Field Service version history.
 ms.date: 10/24/2025
+ms.update-cycle: 1095-days
 ms.topic: release-notes
 author: puneet-singh1
 ms.author: puneetsingh

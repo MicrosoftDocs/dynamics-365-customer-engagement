@@ -202,11 +202,11 @@
         items:
         - name: Overview of autonomous service agents
           href: /dynamics365/contact-center/administer/autonomous-agents-overview?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-        - name: Customer Intent Agent (preview)
+        - name: Customer Intent Agent
           items:
           - name: Use intent-based suggestions
             href: /dynamics365/contact-center/use/use-intent-suggestions
-        - name: Case Management Agents (preview)
+        - name: Case Management Agents
           items:
           - name: Use Case Management Agent to create and update cases
             href: use-case-creation-agent.md
@@ -438,8 +438,12 @@
           items:
           - name: Forecast service representative, case, and conversation volumes
             href: use-volume-forecasting.md
-        - name: Customize visual display
-          href: customize-reports.md
+        - name: Manage report visuals
+          items:
+          - name: Customize visual display
+            href: customize-reports.md
+          - name: Export and import visual customizations
+            href: export-import-visual-customization.md
         - name: Customize the bot dashboard
           href: /dynamics365/contact-center/use/customize-agent-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml    
         - name: Customize data models

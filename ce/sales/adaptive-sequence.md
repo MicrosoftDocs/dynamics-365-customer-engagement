@@ -43,7 +43,7 @@ Conditions in the adaptive sequences work as defined only when **Sales Insights 
  
     :::image type="content" source="media/sa-condition-enable-process-turn-on-adaptive-sequence-timeout-flow.png" alt-text="Screenshot of enabling the Sales Insights Adaptive sequence timeout flow in Power Automate.":::
 
-    The process is enabled. [Verify the flow](#verify-the-flow-is-working).  
+    The process is enabled. 
 
 ### Verify the flow
 
