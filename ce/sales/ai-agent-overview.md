@@ -30,7 +30,7 @@ The Sales Qualification Agent helps sales teams qualify leads effortlessly by au
 
 The Sales Close Agent - Research helps sales teams close deals faster by autonomously researching opportunities, providing visibility into emerging risks, and highlighting promising opportunities. Learn more in [Sales Close Agent - Research overview (preview)](opportunity-research-agent.md). 
 
-The Sales Close Agent - Engage autonomously manages the end-to-end sales cycle for high-velocity, low-complexity deals. It engages customers, recommends products, handles objections, and drives transactions to closure using templated personalization for outreach and follow-ups. Learn more in [Sales Close Agent - Engage overview (preview)](sales-close-agent-overview.md).
+The Sales Close Agent - Engage autonomously manages the end-to-end sales cycle for high-velocity, low-complexity deals. It engages customers, recommends products, handles objections, and drives transactions to closure using templated personalization for outreach and follow-ups. Learn more in [Sales Close Agent - Engage overview (preview)](sales-close-agent.md).
 
 ## Sales Research Agent
 
