@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 10/10/2025
+ms.date: 10/17/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -232,11 +232,11 @@ IsEngaged = CALCULATE(TRUE(),FactConversation[IsOffered], FactConversation[IsAge
 
 *Applies to Omnichannel real-time dashboards.*
 
-A conversation can be abandoned for multiple reasons. For example, a customer might be disconnected or might cancel the call because of a long waiting period, supervisors might forcibly close requests, or automatic system actions might be configured to handle overflow. Abandoned conversations can lead to customer dissatisfaction. A high abandonment rate requires further investigation into operational metrics such as service representative availability and queue distribution.
+An abandoned conversation occurs when a customer escalates to a service representative—either directly or through a voice or chat agent—and the conversation closes before the representative accepts it.
 
-If an AI agent or IVR handles the customer before escalating the request to a service representative, this metric counts the number of conversations abandoned while customers wait for a service representative after escalation. If a conversation is abandoned before an AI agent can be assigned, the system considers the conversation abandoned.
+Only inbound conversations count toward abandonment rates. Outbound conversations and those deflected by a chatbot or IVR/voice agent aren't included.
 
-If a conversation is assigned to service representative's queue directly, this metric is calculated as the number of incoming conversations that were abandoned. The conversation direction is *Incoming*. The channels that the conversation came in through are *Messaging* and *Voice*.
+Customers may abandon a conversation because of long wait times, supervisor intervention, or overflow rules like voicemail or external transfers.
 
 ### DAX query and Dataverse reference
 
@@ -251,7 +251,7 @@ Abandoned conversations = ​SUMX(FactConversation, IF (FactConversation[IsAband
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)​, msdyn_liveworkstream |
 |Attributes |- msdyn_ocliveworkitem.msdyn_isagentsession ​<br> - msdyn_ocliveworkitem.msdyn_channelinstanceid ​<br> - msdyn_liveworkstream.msdyn_streamsource ​<br> - msdyn_ocliveworkitem.msdyn_isabandoned ​<br> - msdyn_ocliveworkitem.statuscode ​<br> - msdyn_ocliveworkitem.msdyn_isoutbound  |
-|Filters  |- msdyn_ocliveworkitem.msdyn_isagentsession is set to 1. <br> - Filter the FactConversations table to include only rows from msdyn_ocliveworkitem where msdyn_channelinstanceid is NULL. <br>-  Exclude rows where msdyn_liveworkstream.msdyn_streamsource isn't equal to '192350000'​. <br> - msdyn_ocliveworkitem.msdyn_isabandoned is 1. <br> - msdyn_ocliveworkitem.statuscode is 4​. <br>- Isoutbound is based on msdyn_ocliveworkitem.msdyn_isoutbound not equal to 1.|
+|Filters  | - Direction is only incoming conversations and when isagentsession is set to 1. <br> - msdyn_ocliveworkitem.msdyn_isagentsession is set to 1 for conversations escalated to a service representative (either directly or through Voice or chat agent). <br> - Filter the FactConversations table to include only rows from msdyn_ocliveworkitem where msdyn_channelinstanceid is NULL. <br> -  Exclude rows where msdyn_liveworkstream.msdyn_streamsource isn't equal to '192350000'​. <br> - Isoutbound is based on msdyn_ocliveworkitem.msdyn_isoutbound not equal to 1 for incoming conversations.|
 
 ## Conversation first wait time
 
@@ -334,13 +334,13 @@ The following DAX query and the corresponding Dataverse entities are used in the
 
 ```dax
 
-Avg. speed to answer (sec)_FactConversation = ​
-
-CALCULATE (AVERAGE( FactConversation[SpeedToAnswerTime] ),​
-
-    FactConversation[StatusId] = "4",​
-
-    FactConversation[IsAgentAccepted] = "1")​
+Avg. speed to answer (sec)_FactConversation = 
+CALCULATE (
+    AVERAGE ( FactConversation[SpeedToAnswerTime] ),
+    FactConversation[StatusId] = "4",
+    FactConversation[IsAgentAccepted] = "1",
+    FactConversation[IsOutbound] <> "1"
+    )
 
 ```
 
@@ -348,8 +348,8 @@ CALCULATE (AVERAGE( FactConversation[SpeedToAnswerTime] ),​
 |Element|Value  |
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)|
-|Attributes | - msdyn_channel ​<br> - msdyn_channelinstanceid ​<br> - statuscode |
-|Filters  |- Filter the FactConversations table to include only rows where msdyn_channel isn't equal to '192350000' and msdyn_channelinstanceid is NULL. <br> - msdyn_isagentaccepted is 1 <br> - msdyn_ocliveworkitem.statuscode is set to 4 |
+|Attributes | - msdyn_channel ​<br> - msdyn_channelinstanceid ​<br> - statuscode <br> - isoutbound |
+|Filters  |- Filter the FactConversations table to include only rows where msdyn_channel isn't equal to '192350000' and msdyn_channelinstanceid is NULL. <br> - msdyn_isagentaccepted is 1 <br> - msdyn_ocliveworkitem.statuscode is set to 4 for closed conversations. <br> -  isoutbound not set to 1 for incoming conversations. |
 
 
 ### [Real-time analytics](#tab/realtimepage)

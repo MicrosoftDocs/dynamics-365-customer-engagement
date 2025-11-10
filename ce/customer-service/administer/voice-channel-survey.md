@@ -18,12 +18,12 @@ ms.custom: bap-template
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 > [!IMPORTANT]
-> From August 01, 2025, the post-call survey option on the **Language** tab of voice workstream is deprecated. Learn more in [Deprecations](/dynamics365/contact-center/implement/deprecations-contact-center). We recommend that you use [Configure feedback surveys using Copilot Studio (preview)](/dynamics365/contact-center/administer/configure-surveys).
+> From August 01, 2025, the post-call survey option on the **Language** tab of voice workstream is deprecated. Learn more in [Deprecations](/dynamics365/contact-center/implement/deprecations-contact-center). We recommend that you use [Configure feedback surveys using Copilot Studio](/dynamics365/contact-center/administer/configure-surveys).
 
 
 Post-call surveys help measure customer satisfaction in the contact center. Surveys are also an incentive for is AI agents (agents) to provide high-quality service. You can configure the survey to take place immediately after the call so that customers can provide their feedback while the conversation is fresh on their minds.
 
-The experience discussed in this article is for survey agents that you create in Copilot Studio. You can also configure a survey template in the admin center. Learn more in [Configure feedback surveys using Copilot Studio (preview)](/dynamics365/contact-center/administer/configure-surveys).
+The experience discussed in this article is for survey agents that you create in Copilot Studio. You can also configure a survey template in the admin center. Learn more in [Configure feedback surveys using Copilot Studio](/dynamics365/contact-center/administer/configure-surveys).
 
 You can obtain customer consent for post-call surveys as follows:
 

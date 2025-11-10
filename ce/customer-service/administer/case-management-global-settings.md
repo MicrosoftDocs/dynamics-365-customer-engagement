@@ -1,16 +1,16 @@
 ---
-title: Configure global settings for Case Management Agent (preview)
+title: Configure global settings for Case Management Agent 
 description: Learn how to configure global settings for Case Management Agent in Dynamics 365 Customer Service to enable fully autonomous case resolution, follow-up, and closure capabilities.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot 
-ms.date: 09/18/2025
+ms.date: 11/07/2025
 ms.custom: bap-template
 ---
 
-# Configure global settings for Case Management Agent (preview)
+# Configure global settings for Case Management Agent 
 
 Configure global settings for Case Management Agent in Dynamics 365 Customer Service to enable fully autonomous case resolution, follow-up, and closure capabilities.
 
@@ -18,6 +18,21 @@ Configure global settings for Case Management Agent in Dynamics 365 Customer Ser
 
 - An Azure account that has an active subscription.
 - You at least have the [Application Developer](/entra/identity/role-based-access-control/permissions-reference#application-developer) to create app registrations.
+- The following connectors with the listed actions are available:
+    - **Connector name**: Microsoft Dataverse
+    - **List of actions**:
+        - Add a new row to selected environment
+        - Delete a row from selected environment
+        - Get a row by ID from selected environment
+        - List rows from selected environment
+        - Perform a bound action in selected environment
+        - Perform an unbound action in selected environment
+        - Relate rows in selected environment
+        - Unrelate rows in selected environment
+        - Update a row in selected environment
+        - Upsert a row in selected environment
+    - **Connector name**: Microsoft Copilot Studio
+        - **Name of the action**: ExecuteCopilotAsyncV2
 
 ## Configure global settings
 
@@ -93,6 +108,6 @@ In Copilot Studio, perform the following steps:
 
 ### Next steps
 
-- [Set up Case Management Agent to create and update cases (preview)](set-up-autonomous-case-agents.md)     
-- [Set up Case Management Agent to resolve cases (preview)](set-up-case-resolution-agent.md)              
-- [Set up Case Management Agent for case follow-up and closure (preview)](set-up-case-closure.md)      
+[Set up Case Management Agent to create and update cases](set-up-autonomous-case-agents.md)  
+[Set up Case Management Agent to resolve cases](set-up-case-resolution-agent.md)  
+[Set up Case Management Agent for case follow-up and closure](set-up-case-closure.md)  
