@@ -36,15 +36,6 @@ The Sales Close Agent - Engage autonomously manages the end-to-end sales cycle f
 
 The Sales Research Agent in Dynamics 365 Sales empowers you to solve complex business questions through a dialog with your data using natural language. This AI-powered research canvas offers rich insights into all aspect of your sales data, empowering you to make informed decisions taking a myriad of variables into account. Learn more in [Sales research agent overview (preview)](sales-research-agent.md).
 
-## Control access to AI agents
-
-
-Your organization can control who can use AI Agents in Dynamics 365 Sales at the environment, security group, and app levels. The controls are linear, meaning that if a control is disabled at a higher level, it can't be enabled at a lower level. All these settings are turned on by default. The levels of control and their order are as follows:
-
-1. **Tenant-level control for AI Agents**: The tenant administrator can specify which environments or environment groups can use AI Agents in Dynamics 365 Sales, including Sales Qualification Agent and Sales Close Agent. This setting is configured in the Power Platform admin center from **Copilot** > **Settings** > **Dynamics 365 Sales** > **AI Agents**.
-1. **Security group-level control**: The tenant administrator can then specify which Entra groups within the tenant can use AI Agents in Dynamics 365 Sales. This setting is also configured in the Power Platform admin center from **Copilot** > **Settings** > **Control who can use AI features in model-driven apps**. By default, all users in the environment can use AI Agents in Dynamics 365 Sales unless restricted by this setting.
-1. **App-level control**: The administrator of the Sales Hub app can then specify whether AI Agents should be enabled in the Dynamics 365 Sales. This setting is configured in the Sales Hub app from **App Settings** > **Dynamics 365 AI Hub** > **Create and manage agents** > **AI Agents**.
-
 
 ## FAQs about sales AI agents
 
