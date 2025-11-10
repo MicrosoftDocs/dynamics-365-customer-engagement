@@ -38,10 +38,11 @@ The Sales Research Agent in Dynamics 365 Sales empowers you to solve complex bus
 
 ## Control access to AI agents
 
-There are three levels of control available for AI Agents in Dynamics 365 Sales. The controls are linear, meaning that if a control is disabled at a higher level, it can't be enabled at a lower level. These controls help ensure that AI Agents are used appropriately and effectively within your organization.
- 
-1. **Tenant-level control for environments and environment groups**: The tenant administrator can then specify which environments or environment groups can use AI Agents in Dynamics 365 Sales. This setting is also configured in the Power Platform admin center from **Copilot** > **Settings** > **Dynamics 365 Sales** > **AI Agents**.
-1. **Security group-level control**: The tenant administrator can then specify which Entra groups within the tenant can use AI Agents in Dynamics 365 Sales. This setting is also configured in the Power Platform admin center from **Copilot** > **Settings** > **Control who can use AI features in model-driven apps**.
+
+Your organization can control who can use AI Agents in Dynamics 365 Sales at the environment, security group, and app levels. The controls are linear, meaning that if a control is disabled at a higher level, it can't be enabled at a lower level. All these settings are turned on by default. The levels of control and their order are as follows:
+
+1. **Tenant-level control for AI Agents**: The tenant administrator can specify which environments or environment groups can use AI Agents in Dynamics 365 Sales, including Sales Qualification Agent and Sales Close Agent. This setting is configured in the Power Platform admin center from **Copilot** > **Settings** > **Dynamics 365 Sales** > **AI Agents**.
+1. **Security group-level control**: The tenant administrator can then specify which Entra groups within the tenant can use AI Agents in Dynamics 365 Sales. This setting is also configured in the Power Platform admin center from **Copilot** > **Settings** > **Control who can use AI features in model-driven apps**. By default, all users in the environment can use AI Agents in Dynamics 365 Sales unless restricted by this setting.
 1. **App-level control**: The administrator of the Sales Hub app can then specify whether AI Agents should be enabled in the Dynamics 365 Sales. This setting is configured in the Sales Hub app from **App Settings** > **Dynamics 365 AI Hub** > **Create and manage agents** > **AI Agents**.
 
 
