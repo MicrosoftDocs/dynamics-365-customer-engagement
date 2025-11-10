@@ -1,7 +1,7 @@
 ---
 title: Omnichannel for Customer Service dashboards
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs in Omnichannel for Customer Service to manage contact centers.
-ms.date: 11/07/2025
+ms.date: 11/10/2025
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -47,7 +47,7 @@ The following reports are available for Omnichannel historical analytics.
 
 - [Voicemail dashboard](oc-voicemail-dashboard.md): The Voicemail dashboard provides a view of the voicemails with details, such as the voicemail status and the number of voicemails per queue and representative.
 
-- [Proactive Outbound dashboard](proactive-outbound.md): The Proactive Outbound dashboard provides organizations with detailed insights into outbound customer engagements initiated through proactive outreach. 
+- [Proactive Outbound dashboard](/contact-center/use/proactive-outbound-dashboard.md): The Proactive Outbound dashboard provides organizations with detailed insights into outbound customer engagements initiated through proactive outreach. 
 
 > [!NOTE]
 > The reports don't include work items of the Entity Record channel.
