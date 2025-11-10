@@ -1,5 +1,5 @@
 ---
-title: Configure Sales Qualification Agent to generate competitor insights (preview)
+title: Configure Sales Qualification Agent to generate competitor insights
 description: Learn how to configure the Sales Qualification Agent to generate competitor insights by specifying key competitors and uploading relevant knowledge sources.
 ms.topic: how-to 
 ms.date: 09/17/2025
@@ -15,15 +15,11 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure Sales Qualification Agent to generate competitor insights (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Configure Sales Qualification Agent to generate competitor insights
 
 The Sales Qualification Agent can provide insights about competitors for a lead. These insights include information about competitors, their strengths and weaknesses, and talking points to help sellers position your products or services effectively against the competition.
 
 As an admin, you can configure the agent to generate competitor insights by specifying key competitors and uploading relevant knowledge sources.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 <a name="competitor-identification"></a>
 ## How the agent identifies competitors to research
@@ -56,10 +52,10 @@ When the agent doesn't find competitor information in the lead record or doesn't
 You can also upload relevant documents such as battle cards, positioning briefs, and market analysis reports to help the agent generate more accurate and relevant insights. Learn more about [considerations for knowledge sources](configure-sqa-knowledge-source.md#considerations).
 
 1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  
-1. Under **Knowledge**, select **Research**, and then scroll down to the **Competitor insights** section.
+
+1. Under **Knowledge**, select **Research**, and then scroll down to the **Competitor research** section.
 1. Under **Key competitors**, select **+ Competitor** to add up to three competitors for the product line that the agent will work on. 
-   :::image type="content" source="media/sqa-competitor-insights.png" alt-text="Screenshot of the Competitor insights section in the Sales Qualification Agent settings.":::
-1. Select **Upload** to upload or remove knowledge sources for competitor insights.  
+1. Select **Upload in Microsoft Copilot Studio** to upload or remove knowledge sources for competitor insights.  
    The **D365 Sales Agent - Competitors** agent's **Knowledge** page opens in Copilot Studio. 
 
 1. Select **Add knowledge** and then select **Upload file**.
@@ -71,7 +67,9 @@ You can also upload relevant documents such as battle cards, positioning briefs,
 
    You can also group individual documents into a group after uploading them. Select a document in the **Knowledge** page and select **Create file group** to create a group and add the document to it.
 
+1. Return to the Sales Qualification Agent settings page and select the Test icon (:::image type="icon" source="media/test-icon.png" border="false":::) in the **Competitor research** section. Follow the instructions in the **Test insight** pane and verify whether the agent is generating relevant research insights using the knowledge sources you added.
+
 ## Related information
 
-- [Set up and configure the Sales Qualification Agent (preview)](configure-sales-qualification-agent.md)
-- [Configure knowledge sources for Sales Qualification Agent (preview)](configure-sqa-knowledge-source.md)
+- [Set up and configure the Sales Qualification Agent](configure-sales-qualification-agent.md)
+- [Configure knowledge sources for Sales Qualification Agent](configure-sqa-knowledge-source.md)

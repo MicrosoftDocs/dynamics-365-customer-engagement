@@ -17,11 +17,7 @@ ai-usage: ai-assisted
 
 # Open the Sales Qualification Agent settings
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
 Open the Sales Qualification Agent settings to configure or manage the Sales Qualification Agent.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 **Follow these steps**:
 

@@ -1,5 +1,5 @@
 ---
-title: FAQs about Sales Qualification Agent (preview)
+title: FAQs about Sales Qualification Agent
 description: Find answers to frequently asked questions about the Sales Qualification Agent in Dynamics 365 Sales.
 ms.date: 08/01/2025
 ms.update-cycle: 180-days
@@ -16,14 +16,10 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# FAQs about Sales Qualification Agent (preview)
+# FAQs about Sales Qualification Agent
 
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 This FAQ provides answers to common questions about the Sales Qualification Agent in Dynamics 365 Sales.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Why did the agent pause?
 
