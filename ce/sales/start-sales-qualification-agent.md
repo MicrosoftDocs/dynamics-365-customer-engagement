@@ -17,12 +17,7 @@ ai-usage: ai-assisted
 
 # Start the Sales Qualification Agent
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
 > [!IMPORTANT]
->
 > - Ensure that the agent is properly configured to avoid editing configurations after starting. Editing the agent changes how leads are processed before and after the change, giving different results.
 > - Ensure that terms are accepted for Bing Search and Move data across regions in Power Platform admin center.
 

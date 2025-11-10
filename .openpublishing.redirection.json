@@ -36,6 +36,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/sales-ai-agents-faqs.md",
+      "redirect_url": "/dynamics365/sales/ai-agent-overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/develop/reference/entities/quotedetail.md",
       "redirect_url": "/dynamics365/developer/reference/entities/quotedetail",
       "redirect_document_id": "false"
@@ -57,7 +62,12 @@
     },
     {
       "source_path": "ce/sales/prepare-for-ci-migration-to-dataverse.md",
-      "redirect_url": "/dynamics365/sales//create-azure-repo",
+      "redirect_url": "/dynamics365/sales/create-azure-repo",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/opportunity-research-agent.md",
+      "redirect_url": "/dynamics365/sales/sales-close-agent",
       "redirect_document_id": "false"
     },
     {

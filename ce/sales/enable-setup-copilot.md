@@ -40,7 +40,20 @@ Throughout this article, the term "sales app" refers to apps that have lead and 
 
 - Make sure that your region has an Azure OpenAI Service endpoint. Check the list of [regions where data is processed for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features). If it doesn't, you must [provide consent for data movement](#provide-consent-for-data-movement) in the Power Platform admin center.
 
-- Make sure that your organization's [data loss prevention policies allow the connectors that Copilot requires](sales-copilot-faq.md#copilot-isnt-working-what-should-i-do).  
+- Make sure that your organization's [data loss prevention policies allow the connectors that Copilot requires](sales-copilot-faq.md#copilot-isnt-working-what-should-i-do).
+
+- Make sure that your tenant admin has [turned on Copilot in Dynamics 365 Sales in Power Platform Admin Center](/power-platform/admin/copilot/copilot-hub#turn-on-ai-capabilities-in-dynamics-365-sales).
+
+## Control access to Copilot in Dynamics 365 Sales
+
+Your organization can control who can use Copilot in Dynamics 365 Sales at the environment, Entra group, and app levels. All these settings are turned on by default. The levels of control are as follows:
+
+1. **Tenant-level control for model-driven apps**: The tenant administrator specifies which environments or environment groups can use Copilot chat in model-driven apps. This setting determines the default behavior for all model-driven apps, including Dynamics 365 Sales. This setting is configured in the Power Platform admin center from **Copilot** > **Settings** > **Chat agent in Model-Driven Apps**.
+
+
+1. **Tenant-level control for Copilot in Dynamics 365 Sales**: The tenant administrator can specify which environments or environment groups can use Copilot capabilities in Dynamics 365 Sales. This setting is configured in the Power Platform admin center from **Copilot** > **Settings** > **Dynamics 365 Sales** > **Copilot**.
+1. **Entra group-level control**: The tenant administrator can then specify which Entra groups within the tenant can use Copilot across all model-driven apps. This setting is also configured in the Power Platform admin center from **Copilot** > **Settings** > **Control who can use AI features in model-driven apps**. By default, all users in the environment can use Copilot in Dynamics 365 Sales unless restricted by this setting. Ensure that sellers users who need access to Copilot in Dynamics 365 Sales are included in the allowed Entra groups.
+1. **App-level control**: The administrator of the Sales Hub app can then specify whether Copilot should be enabled in the Dynamics 365 Sales and other sales apps. This setting is configured in the Sales Hub app from **App Settings** > **Copilot**. If the tenant-level controls are turned off, the Copilot settings page is disabled.
 
 ## Provide consent for data movement
 
