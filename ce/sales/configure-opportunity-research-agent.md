@@ -60,12 +60,12 @@ Learn more in [Manage data policies](/power-platform/admin/prevent-data-loss?tab
 
 ### Grant permissions to custom security role
 
-- If you're using a custom security role, ensure that the opportunity owners have the following minimum permissions: 
+If you're using a custom security role, ensure that the opportunity owners have the following minimum permissions: 
 
-   | Purpose | Access level - Permissions  | Entities|
-   |---------|--------------|-------|
-   | Run research and view research insights. <br> **Note:** If users other than opportunity owner need to view the insights, ensure that they have an access level higher than "Basic" for the  entities listed, along with opportunity entity.  | Basic-level - Read    | Opportunity Research Result (msdyn_OpportunityResearchResult)<br> Opportunity Research Indicator (msdyn_OpportunityResearchIndicator)<br> Opportunity Research Agent Trigger (msdyn_OpportunityResearchAgentTrigger)<br> Opportunity Research User Interactions (msdyn_OpportunityResearchUserInteractions)|
-   | View agent configuration and profile | Global-level - Read   | Sales Agent Configuration v2 (prvReadmsdyn_salesagentconfigurationv2)<br> Sales Agent Profile (prvReadmsdyn_salesagentprofile)|
+| Purpose | Access level - Permissions  | Entities|
+|---------|--------------|-------|
+| Run research and view research insights. <br> **Note:** If users other than opportunity owner need to view the insights, ensure that they have an access level higher than "Basic" for the  entities listed, along with opportunity entity.  | Basic-level - Read    | Opportunity Research Result (msdyn_OpportunityResearchResult)<br> Opportunity Research Indicator (msdyn_OpportunityResearchIndicator)<br> Opportunity Research Agent Trigger (msdyn_OpportunityResearchAgentTrigger)<br> Opportunity Research User Interactions (msdyn_OpportunityResearchUserInteractions)|
+| View agent configuration and profile | Global-level - Read   | Sales Agent Configuration v2 (prvReadmsdyn_salesagentconfigurationv2)<br> Sales Agent Profile (prvReadmsdyn_salesagentprofile)|
 
 ### Configure server-side synchronization
 
@@ -140,7 +140,7 @@ After verifying the prerequisites, define the agent and company profile, selecti
    > [!NOTE]
    > If you haven't specified the look back period, you'll not see any opportunities in the simulation as the agent only considers opportunities created after the agent is turned on.
 
-  :::image type="content" source="media/opportunity-research-agent-selection-criteria.png" alt-text="Screenshot of the Selection criteria tab for Opportunity Research Agent.":::
+   :::image type="content" source="media/opportunity-research-agent-selection-criteria.png" alt-text="Screenshot of the Selection criteria tab for Opportunity Research Agent.":::
 
 ### Configure refresh frequency
 

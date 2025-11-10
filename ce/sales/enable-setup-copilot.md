@@ -44,6 +44,15 @@ Throughout this article, the term "sales app" refers to apps that have lead and 
 
 - Make sure that your tenant admin has [turned on Copilot in Dynamics 365 Sales in Power Platform Admin Center](/power-platform/admin/copilot/copilot-hub#turn-on-ai-capabilities-in-dynamics-365-sales).
 
+## Control access to Copilot in Dynamics 365 Sales
+
+There are four levels of control available for Copilot in Dynamics 365 Sales. The controls are linear, meaning that if a control is disabled at a higher level, it can't be enabled at a lower level. These controls help ensure that Copilot is used appropriately and effectively within your organization.
+ 
+1. **Tenant-level control for model-driven apps**: The tenant administrator specifies whether Copilot should be enabled in all model-driven apps in the organization. This setting is configured in the Power Platform admin center from **Copilot** > **Settings** > **Chat agent in Model-Driven Apps**. 
+1. **Tenant-level control for environments and environment groups**: The tenant administrator can then specify which environments or environment groups can use Copilot in Dynamics 365 Sales. This setting is also configured in the Power Platform admin center from **Copilot** > **Settings** > **Dynamics 365 Sales** > **Copilot**.
+1. **Security group-level control**: The tenant administrator can then specify which Entra groups within the tenant can use Copilot in Dynamics 365 Sales. This setting is also configured in the Power Platform admin center from **Copilot** > **Settings** > **Control who can use AI features in model-driven apps**.
+1. **App-level control**: The administrator of the Sales Hub app can then specify whether Copilot should be enabled in the Dynamics 365 Sales. This setting is configured in the Sales Hub app from **App Settings** > **Copilot**.
+
 ## Provide consent for data movement
 
 If your organization is in a region where an Azure OpenAI Service endpoint isn't available, you must provide consent for data movement across regions to use Copilot in Dynamics 365 Sales. You may also provide consent for Bing search so that your sellers can get the latest news about their accounts. Sellers can [turn off Bing search](use-sales-copilot.md#turn-off-bing-search) if they don't want Copilot to use it.
