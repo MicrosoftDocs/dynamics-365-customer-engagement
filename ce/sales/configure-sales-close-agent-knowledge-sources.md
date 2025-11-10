@@ -49,12 +49,12 @@ For example: If a customer asks about discounts, the playbook might instruct: *A
 
 ## Product documentation
 
-Microsoft Copilot Studio provides resources for the agent to generate accurate and context-aware responses through **product documentation**. The resources function as content repositories from which the Copilot retrieves information to produce its answers. 
+Microsoft Copilot Studio provides resources for the agent to generate accurate and context-aware responses through **product documentation**. The resources function as content repositories from which the agent retrieves information to produce its answers.  
 
 >[!NOTE]
 >Product names in the documentation should match [the product names](configure-sales-close-agent-product-details.md#product-name-to-search) in your product catalog to ensure accurate retrieval of information.  
 
-Knowledge sources are structured or unstructured content repositories that your Copilot can reference during conversations. They typically include:  
+Knowledge sources are structured or unstructured content repositories that your agent can reference during conversations. They typically include:  
 
 - Internal documents such as Word, PDF, and PPT.  
 - Knowledge bases such as SharePoint sites and Dataverse tables.  
@@ -75,11 +75,11 @@ To understand more about product documentation in Microsoft Copilot Studio, read
         >Ensure that the sensitivity label of the playbook excel file is set to **General** or **Public**. If the sensitivity is set to Confidential or higher, the agent might not access the playbook, leading to suboptimal performance during customer interactions. To learn more about sensitivity labels, read the [Enable sensitivity labels for files in SharePoint and OneDrive](/purview/sensitivity-labels-sharepoint-onedrive-files) article.  
 
     1. To open the playbook, select **Open**.  
-        The playbook file opens in a new tab in excel format. Review the playbook structure and if you're satisfied with the default playbook, you can use it as-is.  
+        The playbook file opens in a new tab in excel format.  
     1. To customize the playbook, open the playbook, customize to match your organization's sales strategies, and save the file.  
         The playbook is saved in your default organization's SharePoint location and ready to be used by the agent.  
     1. To change the location of the playbook after customizing it, select **Change location**.  
-        In **SharePoint location**, enter the playbook location and save. Ensure the format for the SharePoint location is `https://<siteurl>/<foldername>/<filename>`. For example, https://sharepoint.contoso.com/sites/salescloseagent/configuration/AgentPlaybook.xlsx.  
+        In **SharePoint location**, enter the playbook location and save. Ensure the format for the SharePoint location is `https://<siteurl>/<foldername>/<filename>`. For example, `https://sharepoint.contoso.com/sites/salescloseagent/configuration/AgentPlaybook.xlsx`.  
     To understand the playbook structure and how to customize it, read the [Agent playbook](#agent-playbook) section.  
 1. To configure **Product documentation**:
     1. In the **Product documentation** section, select **Manage**.  
@@ -88,7 +88,7 @@ To understand more about product documentation in Microsoft Copilot Studio, read
         Add knowledge sources using SharePoint file upload or local file upload. Place all required documents in a folder and sync the folder from SharePoint. The Dataverse entity for the product catalog is configured in the agent by default. If the product URL uses a different attribute, configure it in the synonyms.  
     To understand more about product documentation, read the [Product documentation](#product-documentation) article.  
 
-## Next step 
+## Next step  
 
 [Start the Sales Close Agent - Engage](start-sales-close-agent.md)  
 
@@ -96,4 +96,3 @@ To understand more about product documentation in Microsoft Copilot Studio, read
 
 [Set up and configure the Sales Close Agent - Engage (preview)](configure-sales-close-agent.md)  
 [Add knowledge to an agent](/microsoft-copilot-studio/knowledge-add-existing-copilot)
-
