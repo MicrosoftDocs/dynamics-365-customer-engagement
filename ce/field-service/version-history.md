@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service version history
 description: Release schedule and version history for Dynamics 365 Field Service.
-ms.date: 10/24/2025
+ms.date: 11/11/2025
 ms.topic: overview
 author: jshotts
 ms.author: jasonshotts
@@ -35,17 +35,17 @@ For information about older versions, see [Version history archive](version-hist
 (Includes Universal Resource Scheduling version [3.12.155.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31215515) and Resource Scheduling controls version 1.2.94.252722)
 
 - **Major Changes**
-    - General Availability: Exchange Integration for Field Service Field Service now syncs bookings with Microsoft Outlook and Teams frontline workers and dispatchers can manage schedules using familiar calendars and open work order details from M365.
+    - **General Availability**: Exchange Integration for Field Service. Field Service now syncs bookings with Microsoft Outlook and Teams frontline workers and dispatchers can manage schedules using familiar calendars and open work order details from Microsoft 365.
         - Business Value: Meetings, appointments, and bookings are now all visible in a single place. Reduces context switching and improves collaboration across the field and back office.
         - Feature Highlights:
-            - Bookings appear as Outlook and Teams calendar appointments with key job details and deep links back to Field Service
-            - Updates to bookings sync automatically from Field Service to Outlook
-            - Admin setup uses server-side synchronization with Exchange Online
+            - Bookings appear as Outlook and Teams calendar appointments with key job details and deep links back to Field Service.
+            - Updates to bookings sync automatically from Field Service to Outlook.
+            - Admin setup uses server-side synchronization with Exchange Online.
 
-    - Deprecation of legacy CCA-based Frontline Reports Legacy CCA-based report pages and settings are deprecated and hidden from navigation; documentation now guides customers to the modern reporting experience.
+    - **Deprecation of legacy CCA-based Frontline Reports**: Legacy CCA-based report pages and settings are deprecated and hidden from navigation; documentation now guides customers to the modern reporting experience.
         - Business Value: Reduces confusion and maintenance for legacy pages and aligns customers on the current, supported analytics solution.
         - Feature Highlights:
-            - Removes sitemap access to deprecated CCA report/settings pages (FS)
+            - Removes sitemap access to deprecated CCA report/settings pages
             - Disables related feature flags and updates documentation for the new solution
 
 - **Fixes & Improvements**
