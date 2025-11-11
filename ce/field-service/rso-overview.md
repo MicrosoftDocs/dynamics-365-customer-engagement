@@ -30,7 +30,7 @@ Automated scheduling is often required because scheduling a high volume of jobs 
 
 ## Glossary
 
-You'll need to know the following key terms:
+You need to know the following key terms:
 
 - **Jobs**: Work that needs to be completed like work orders, cases, or projects.
 - **Resources**: Anyone or anything that needs to be scheduled to a job including people, equipment, and facilities.
