@@ -20,7 +20,7 @@ Features that have been deprecated in Dynamics 365 Field Service are listed in t
 
 The Dynamics 365 Field Service integration with finance and operations applications will no longer be available after October 31, 2026. Instead, look to a simpler, more integrated Field Service experience. Learn more in [Connect Field Service to finance and operations](/dynamics365/release-plan/2025wave2/service/dynamics365-field-service/connect-field-service-finance-operations) and [Link work orders to projects for unified financials](/dynamics365/release-plan/2025wave2/service/dynamics365-field-service/link-work-orders-projects-unified-financials).
 
-Beginning with the Field Service 9.3 release, the **Install Finance and Operations** toggle will no longer be available in environments where the finance and operations integration isn't already installed or configured. Environments that already have the integration enabled will retain access and can continue until the feature deprecation.
+Beginning with the Field Service 8.8.139.398 release, the **Install Finance and Operations** toggle will no longer be available in environments where the finance and operations integration isn't already installed or configured. Environments that already have the integration enabled will retain access and can continue until the feature deprecation.
 
 ## Dynamics 365 Field Service integrations with Microsoft Outlook, Teams, Viva Connections, and Planner - September 1, 2025
 
