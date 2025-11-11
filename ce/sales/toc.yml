@@ -202,7 +202,7 @@ items:
                   href: configure-sales-close-agent-product-details.md  
                 - name: Configure target customers
                   href: configure-sales-close-agent-target-customers.md
-                - name: Configure email delivery settings
+                - name: Configure email delivery
                   href: configure-sales-close-agent-email-delivery.md
                 - name: Configure email content
                   href: configure-sales-close-agent-email-content.md
