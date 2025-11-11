@@ -161,10 +161,8 @@ items:
                     href: configure-sales-qualification-agent-handoff-criteria.md
                   - name: Configure assignment rules
                     href: configure-sqa-assignment-rules.md
-                  - name: Configure knowledge sources for company insights
+                  - name: Configure knowledge sources
                     href: configure-sqa-knowledge-source.md
-                  - name: Configure knowledge sources for competitor insights
-                    href: sales-qualification-agent-competitor-insights.md
                   - name: Run simulation to review outreach email content
                     href: run-simulation-sqa-outreach-email.md
               - name: Start the agent
