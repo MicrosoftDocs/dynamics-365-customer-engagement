@@ -1,7 +1,7 @@
 ---
 title: Update apps and solutions
 description: Learn how to upgrade Dynamics 365 Field Service, mobile apps, and related solutions.
-ms.date: 08/01/2025
+ms.date: 11/11/2025
 ms.topic: how-to
 ms.custom: bap-template
 author: jshotts
@@ -63,11 +63,9 @@ It's possible to customize UFX queries. If a UFX query is customized, updates im
 
 The [Resource Scheduling Optimization add-in](rso-overview.md) lets you automate scheduling of work orders, resources, and bookings. Updates release throughout the year, and an administrator applies them.
 
-You can check for available updates in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). Go to **Resources** > **Dynamics 365 apps**, select **Resource Scheduling Optimization**, and select **Manage**.
+You can check for available updates in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). Go to **Manage** > **Products** > **Dynamics 365 apps**. Select **Resource Scheduling Optimization**, and select **Install**.
 
-In the **RSO Deployment** dialog box, select **Upgrade to new version**.
-
-Learn more in [Manage the Resource Scheduling Optimization instance](rso-deployment.md#manage-the-resource-scheduling-optimization-instance).
+Learn more in [Deploy the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service](rso-deployment.md).
 
 ## Update model-driven apps
 
