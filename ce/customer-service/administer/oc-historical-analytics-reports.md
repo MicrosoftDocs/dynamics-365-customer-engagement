@@ -27,7 +27,7 @@ The historical analytics reports include:
 - [Voicemail](../use/oc-voicemail-dashboard.md)
 - [Agent](../use/agent-dashboard.md)
 - [Bot](../use/oc-bot-dashboard.md)
-- [Proactive outbound](/dynamics365/contact-center/use/proactive-outbound-dashboard.md)
+- [Proactive outbound](/dynamics365/contact-center/use/proactive-outbound-dashboard)
 
 > [!NOTE]
 > The reports retain their current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the steps provided [here](analytics_overview.md#keep-the-report-state-when-you-switch-session-tabs) to keep the report state.
