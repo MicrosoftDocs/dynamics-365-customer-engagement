@@ -50,8 +50,8 @@ You can enrich additional fields based on your industry and ideal customer profi
 
 After the data from ZoomInfo or D&B is synced into Dataverse, you can configure the Sales Qualification Agent to use these enriched fields in the following agent configurations:
 
-- **Lead selection criteria**: Use enriched fields in the lead selection criteria. For example, you can have the agent work only on leads from companies in the "Technology" industry. Learn more in [Configure selection criteria for Sales Qualification Agent (preview)](sales-qualification-agent-selection-criteria.md)
-- **Handoff criteria**: Define ideal customer profile criteria based on enriched fields. Learn more in [Configure handoff criteria for the Sales Qualification Agent (preview)](configure-sales-qualification-agent-handoff-criteria.md). Here are some example criteria:
+- **Lead selection criteria**: Use enriched fields in the lead selection criteria. For example, you can have the agent work only on leads from companies in the "Technology" industry. Learn more in [Configure selection criteria for Sales Qualification Agent](sales-qualification-agent-selection-criteria.md)
+- **Handoff criteria**: Define ideal customer profile criteria based on enriched fields. Learn more in [Configure handoff criteria for the Sales Qualification Agent](configure-sales-qualification-agent-handoff-criteria.md). Here are some example criteria:
 
   | **Field Name** | **Logical Name**  | **Criteria Example**     |
   |----------------|-------------------|--------------------------|

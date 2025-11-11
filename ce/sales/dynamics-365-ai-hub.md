@@ -37,6 +37,8 @@ To access the Dynamics 365 AI Hub from the Sales Hub app, go to **Change area** 
 To access Dynamics 365 AI Hub from your custom app, [add a site map entry](add-custom-site-map.md) with the following URL:
 `/main.aspx?pagetype=control&controlName=MscrmControls.CopilotTrustCenter.CopilotTrustCenterHubControl&data=%7B"product"%3A"sales"%7D`
 
+## Assign permissions to custom security roles
+
 If you're using custom roles, ensure that users have the `read` permissions to the following entities to access the AI Hub:
 
 - msdyn_salesagentrun
@@ -56,6 +58,6 @@ If you're using custom security roles, ensure that users have the necessary agen
 ## Related resources
 
 - [Monitor opportunities handed over by the Opportunity Research Agent](monitor-opportunity-agent.md) 
-- [Monitor leads handled by the Sales Qualification Agent (preview)](monitor-leads-by-sales-qualification-agent.md)
-- [Set up and configure the Sales Qualification Agent (preview)](configure-sales-qualification-agent.md)
-- [Configure the Opportunity Research Agent (preview)](configure-opportunity-research-agent.md)
+- [Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md)
+- [Set up and configure the Sales Qualification Agent](configure-sales-qualification-agent.md)
+- [Configure the Opportunity Research Agent](configure-opportunity-research-agent.md)
