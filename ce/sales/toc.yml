@@ -849,7 +849,7 @@ items:
               href: sales-research-agent-provide-context.md
             - name: FAQs about Sales Research Agent
               href: faqs-sales-research-agent.md
-      - name: Use Copilot in Dynamics 365 Sales
+      - name: Copilot in Dynamics 365 Sales
         items:
           - name: Copilot overview
             href: copilot-overview.md
@@ -873,6 +873,15 @@ items:
             href: copilot-get-doc-suggestions.md
           - name: Copilot in Dynamics 365 Sales FAQ
             href: sales-copilot-faq.md
+      - name: AI features
+        items:
+          - name: Fill forms effortlessly with AI assistance
+            href: use-form-fill-assistance.md
+          - name: Find data in a view using natural language
+            href: find-data-in-view-with-ai.md
+          - name: Visualize data in a view wth AI
+            href: visualize-data-in-view-with-ai.md
+
       - name: Dashboards and reports
         items:
           - name: Track your progress with dashboards and charts
