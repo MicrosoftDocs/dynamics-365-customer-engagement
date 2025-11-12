@@ -66,11 +66,11 @@ You can also access your MCP tools from external sources such as Visual Studio C
     {
     "servers": {
         "Dataverse-mcp-server": {
-            "url": "https://Northwind.crm10.dynamics.com/api/mcp",
+            "url": "`<OrgURL>`/api/mcp",
             "type": "http"
         },
         "Service-mcp-server": {
-            "url": “https://agent365.svc.cloud.microsoft/mcp/environments/<EnvironmentID>/servers/msdyn_ServiceMCPServer ",
+            "url": “https://agent365.svc.cloud.microsoft/mcp/environments/`<EnvironmentID>`/servers/msdyn_ServiceMCPServer ",
             "type": "http"
                 }
     },
