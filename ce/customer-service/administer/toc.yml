@@ -698,8 +698,8 @@
           href: /dynamics365/contact-center/administer/copilot-enable-summary##enable-conversation-summaries?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
       - name: Configure custom record summaries for service representatives
         href: copilot-enable-custom-record-summaries.md
-      - name: Connect to Customer Service with MCP server (preview)
-        href: configure-ai-agent-to-use-mcp-server.md
+      - name: Connect to Customer Service with Service MCP Server (preview)
+        href: configure-customer-service-mcp-server.md
       - name: Enable Copilot help pane features
         items:
         - name: Enable features in Copilot pane
