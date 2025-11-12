@@ -36,6 +36,12 @@ The Sales Close Agent - Engage autonomously manages the end-to-end sales cycle f
 
 The Sales Research Agent in Dynamics 365 Sales empowers you to solve complex business questions through a dialog with your data using natural language. This AI-powered research canvas offers rich insights into all aspect of your sales data, empowering you to make informed decisions taking a myriad of variables into account. Learn more in [Sales research agent overview (preview)](sales-research-agent.md).
 
+<a name="monitor-agent-performance"></a>
+## Monitor agent performance
+
+You can monitor the performance of the Sales Qualification Agent and Sales Close Agent using the Agent insights dashboard. Learn more in [Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md) and [View Sales Close Agent engage mode insights and metrics](view-sales-close-agent-engage-insights-metrics.md). 
+
+
 
 ## FAQs about sales AI agents
 
