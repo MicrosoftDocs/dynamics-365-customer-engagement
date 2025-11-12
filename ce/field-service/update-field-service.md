@@ -63,8 +63,6 @@ It's possible to customize UFX queries. If a UFX query is customized, updates im
 
 The [Resource Scheduling Optimization add-in](rso-overview.md) lets you automate scheduling of work orders, resources, and bookings. Updates release throughout the year, and an administrator applies them.
 
-You can check for available updates in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). Go to **Manage** > **Products** > **Dynamics 365 apps**. Select **Resource Scheduling Optimization**, and select **Install**.
-
 Learn more in [Deploy the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service](rso-deployment.md).
 
 ## Update model-driven apps
