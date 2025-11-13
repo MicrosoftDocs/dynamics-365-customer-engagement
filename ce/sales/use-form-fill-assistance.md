@@ -79,8 +79,6 @@ Eliminate manual transcription from physical documents and reduce errors when di
 
 - **Trade show lead capture:** After collecting dozens of business cards at a trade show, a sales rep can quickly upload photos of business cards to create contact records. AI extracts names, job titles, company names, phone numbers, and email addresses, turning hours of manual data entry into minutes of review and confirmation.
 
-- **Processing incoming resumes:** When hiring managers share candidate resumes via email, sales recruiters can upload PDF resumes to create contact records. AI identifies candidate names, current companies, job titles, and contact information, streamlining the recruitment pipeline setup.
-
 - **Document-based lead generation:** When prospects send company brochures or proposal documents, AI can extract key business information like company details, decision-maker names, and contact information to create comprehensive lead records without manual typing.
 
 ### Smart paste (preview) scenarios
