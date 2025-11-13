@@ -1,7 +1,7 @@
 ---
 title: Work order completion surveys with Dynamics 365 Customer Voice (deprecated)
 description: Send work order completion surveys from Dynamics 365 Customer Voice with Power Automate flows.
-ms.date: 11/04/2024
+ms.date: 11/10/2025
 ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
@@ -10,10 +10,11 @@ ms.custom: bap-template
 
 # Work order completion surveys with Dynamics 365 Customer Voice (deprecated)
 
-Send surveys and questionnaires to customers when a work order is completed to learn about customer satisfaction and how to improve onsite service with Dynamics 365 Customer Voice. Then use flows in Power Automate to automatically send a survey to the contact of a completed work order.
-
 > [!IMPORTANT]
 > The **Send a survey when a work order is completed or closed in Dynamics 365** flow in Power Automate has been deprecated.
+
+<!--- We can't redirect this article and there is no record of when this was deprecated. --->
+Send surveys and questionnaires to customers when a work order is completed to learn about customer satisfaction and how to improve onsite service with Dynamics 365 Customer Voice. Then use flows in Power Automate to automatically send a survey to the contact of a completed work order.
 
 <!---
 ## Prerequisites

@@ -145,7 +145,7 @@ sections:
       - question: 
          When a user is working in the mobile application, why do they sometimes see "Validations have been restarted in the background…"?
         answer: |
-         This error hints at a timing issue when using synchronous OnSave events. Starting with version 8.8.88.56 of the Field Service Mobile app module, it uses AsyncOnSave to mitigate validation errors for out-of-box scripts. If users continue to see this error, evaluate custom validations and use OnChange events. Learn more in [Troubleshooting Guide](/dynamics-365/field-service/mobile-app/validation-restarted-background).
+         This error hints at a timing issue when using synchronous OnSave events. Starting with version 8.8.88.56 of the Field Service Mobile app module, it uses AsyncOnSave to mitigate validation errors for out-of-box scripts. If users continue to see this error, evaluate custom validations and use OnChange events. Learn more in [Troubleshooting Guide](/troubleshoot/dynamics-365/field-service/mobile-app/validation-restarted-background).
 
       - question: 
          After I modify my *Work Order Product* form, why can't I save updates while in Offline mode?
