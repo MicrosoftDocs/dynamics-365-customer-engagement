@@ -1,7 +1,7 @@
 ---
 title: Manage real-time analytics reports in Dynamics 365 Contact Center
 description: Configure real-time analytics in Dynamics 365 Contact Center to give supervisors access to metrics and KPIs.
-ms.date: 06/20/2025
+ms.date: 11/13/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -53,7 +53,10 @@ Omnichannel real-time analytics reports are on by default. You can use the Copil
 
 1. On the **Real-time analytics** page, turn off the **Enable Omnichannel real-time analytics** toggle.
 
-1. Optionally, when the **Enable Omnichannel real-time analytics** toggle is on, in the **Additional options** section, you can select the **Add real-time analytics for Omnichannel voice** option. This option is available only if your organization has the voice feature configured.
+1. Optionally, when the **Enable Omnichannel real-time analytics** toggle is on, in the **Additional options** section, you can:
+- Select the **Add real-time analytics for Omnichannel voice** option. This option is available only if your organization has the voice feature configured.
+- Select **Add real-time analytics for intent** to view intent insights.
+- Select **Add real-time analytics for bot** to view insights related to bot.
 
 ## View Omnichannel real-time analytics reports
 
