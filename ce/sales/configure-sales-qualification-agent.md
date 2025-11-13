@@ -1,7 +1,7 @@
 ---
 title: Set up and configure the Sales Qualification Agent
 description: Set up and configure the Sales Qualification Agent to automate research, engagement, and outreach in Dynamics 365 Sales with AI-powered assistance for effective sales processes.
-ms.date: 09/24/2025
+ms.date: 11/13/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -88,7 +88,7 @@ If you're using custom security roles for your sales team instead of the out-of-
 |----------------------------|-------------|
 | Sales Copilot Email Insight (msdyn_salescopilotemailinsight)<br>Sales Copilot Insight (msdyn_salescopilotinsight)<br>Sales Copilot Insight Card State (msdyn_salescopilotinsightcardstate) | **User-level**: Read, Write, Create, Append, Append To, Assign |
 | Sales Agent Handover (msdyn_salesagenthandover) | **Global-level**: Read; **Basic-level**: Append, Append To, Assign, Write, Create, Delete, Share |
-| Email Activity (email) | **User-level**: Read, Create |
+| Email Activity (activitypointer) | **User-level**: Read, Create |
 | Lead (lead) | **User-level**: Append, Append To |
 | Notification (appnotification) | **Basic-level**: Read |
 | Synthesizer Output (msdyn_synthesizeroutput)<br>Summary Synthesizer Input (msdyn_summarysynthesizerinput)<br>Lead Agent Result (msdyn_leadagentresult)<br>Sales Agent Profile (msdyn_salesagentprofile)<br>Sales Agent Run (msdyn_salesagentrun)<br>Sales Agent Configuration v2 (msdyn_salesagentconfigurationv2) | **Global-level**: Read |
