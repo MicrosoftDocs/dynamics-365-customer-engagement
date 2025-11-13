@@ -1,6 +1,6 @@
 ---
-title: Sales research agent overview (preview)
-description: Learn how to use the Sales research agent in Dynamics 365 Sales to get insights about your customers, prospects, sales targets, and competitors.
+title: Sales Research Agent overview (preview)
+description: Learn how to use the Sales Research Agent in Dynamics 365 Sales to get insights about your customers, prospects, sales targets, and competitors.
 manager:
 ms.date: 09/16/2025
 ms.topic: overview
@@ -13,13 +13,13 @@ ms.reviewer: lavanyakr
 ai-usage: ai-assisted
 ---
 
-# Sales research agent overview (preview)
+# Sales Research Agent overview (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 The Sales Research Agent in Dynamics 365 Sales empowers you to solve complex business questions through a dialog with your data using natural language. This AI-powered research canvas offers rich insights into all aspect of your sales data, empowering you to make informed decisions taking a myriad of variables into account.
 
-:::image type="content" source="media/sales-research-agent-insights.png" alt-text="Screenshot of the research canvas in the Sales research agent." lightbox="media/sales-research-agent-insights.png":::
+:::image type="content" source="media/sales-research-agent-insights.png" alt-text="Screenshot of the research canvas in the Sales Research Agent." lightbox="media/sales-research-agent-insights.png":::
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
