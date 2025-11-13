@@ -10,9 +10,13 @@ ms.date: 11/13/2025
 ms.custom: bap-template
 ---
 
-# View and understand real-time analytics for record routing in the Intent group report
+# View and understand real-time analytics for record routing in the Intent group report (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Organizations set up intents and intent groups for the contact center to handle. Real-time analytics empower contact center supervisors to effectively monitor conversations and track operational metrics using intent attributes. This capability enhances decision-making by providing immediate insights into customer interactions, allowing supervisors to identify trends, optimize agent performance, and ensure that customer queries are resolved efficiently. By leveraging intent attributes, supervisors can gain a deeper understanding of customer intent and improve overall service quality, driving business value through enhanced operational efficiency and customer satisfaction.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 :::image type="content" source="../media/intent-group-record-routing.png" alt-text="Screenshot of the Intent Group for record routing":::
 

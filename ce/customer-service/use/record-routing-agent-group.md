@@ -10,9 +10,13 @@ ms.date: 10/21/2025
 ms.custom: bap-template
 ---
 
-# View and understand real-time analytics for record routing in the Agent group report
+# View and understand real-time analytics for record routing in the Agent group report (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Organizations set up intents and intent groups for the contact center. Real-time analytics for record routing let supervisors monitor conversations and track metrics using intent attributes. Supervisors get immediate insights into customer interactions, identify trends, optimize agent performance, and help resolve customer queries efficiently. By using intent attributes, supervisors better understand customer intent and improve service quality, leading to greater operational efficiency and customer satisfaction.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 :::image type="content" source="../media/agent-group-record-routing.png" alt-text="Screenshot agent group report for record routing." lightbox="../media/agent-group-record-routing.png":::
 
