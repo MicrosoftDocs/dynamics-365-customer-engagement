@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Organizations set up intents and intent groups for the contact center to handle. Real-time analytics empower contact center supervisors to effectively monitor conversations and track operational metrics using intent attributes. This capability enhances decision-making by providing immediate insights into customer interactions, allowing supervisors to identify trends, optimize agent performance, and ensure that customer queries are resolved efficiently. By leveraging intent attributes, supervisors can gain a deeper understanding of customer intent and improve overall service quality, driving business value through enhanced operational efficiency and customer satisfaction.
+Organizations set up intents and intent groups for the contact center to handle. Real-time analytics empower contact center supervisors to effectively monitor conversations and track operational metrics using intent attributes. This capability enhances decision-making by providing immediate insights into customer interactions, allowing supervisors to identify trends, optimize agent performance, and ensure that customer queries are resolved efficiently. By using intent attributes, supervisors can gain a deeper understanding of customer intent and improve overall service quality, driving business value through enhanced operational efficiency and customer satisfaction.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -26,10 +26,10 @@ As part of visual customization, all record routing dashboards including **Summa
 
 ## Prerequisites
 
-- You have turned on the toggle for Customer Intent Agent and have added the Line of business, Intent groups and Intents. Learn more in [Customer Intent Agent](/dynamics365/contact-center/administer/manage-customer-intent-agent).
-- You have enabled real-time analytics for record routing for intent. Learn more in [Enable the real-time analytics for record routing dashboard](../administer/enable-record-routing.md#enable-the-real-time-analytics-for-record-routing-dashboard).
+- You turned on the toggle for Customer Intent Agent and added the Line of business, Intent groups, and Intents. Learn more in [Customer Intent Agent](/dynamics365/contact-center/administer/manage-customer-intent-agent).
+- You  enabled real-time analytics for record routing for intent. Learn more in [Enable the real-time analytics for record routing dashboard](../administer/enable-record-routing.md#enable-the-real-time-analytics-for-record-routing-dashboard).
 
-You see the report after 24hrs of provisioning. If you don't enable Customer Intent Agent, you might still see data measures related to intent. However, there won't be any conversation or case-related information in the report.
+You see the report after 24 hrs of provisioning. If you don't enable Customer Intent Agent, you might still see data measures related to intent. However, you don't see any conversation or case-related information in the report.
 
 ## Metrics
 
@@ -37,7 +37,7 @@ You see the report after 24hrs of provisioning. If you don't enable Customer Int
 |---------|---------|
 |Conversations in queue    |    Conversations that are currently waiting in queue to be assigned.      |
 |Agents online     |     Number of Agents that are currently online based on the time slicer.     |
-|Agents in wrap-up conversations    |   Service representatives who have finished interacting with the customer but are still completing post-conversation tasks before closing the session.        |
+|Agents in wrap-up conversations    |   Service representatives who finished interacting with the customer but are still completing post-conversation tasks before closing the session.        |
 |Average session handle time | Average Session Handle Time = Total handle time across sessions / Number of sessions handled. |
 |Longest wait time| Longest wait time is a measure of the longest first wait time among unaccepted incoming conversations. |
 |Conversations abandoned rate | The abandoned rate refers to the percentage of incoming conversation requests that are terminated before a representative engages with the customer. |
@@ -50,7 +50,7 @@ You see the report after 24hrs of provisioning. If you don't enable Customer Int
 
 ## Drill-down 
 
-You can drilldown on the **Metrics by intent group**. Select **Detailed view** to view metrics by intent and agent.
+Drilldown on the **Metrics by intent group**, select **Detailed view** to view metrics by intent and agent.
 
 ## Related information
 
