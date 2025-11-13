@@ -1,6 +1,6 @@
 ---
 title: Analyze your sales performance using the Sales Research Agent (preview)
-description: Learn how to use the Sales research agent in Dynamics 365 Sales to analyze your sales performance and get insights quickly.
+description: Learn how to use the Sales Research Agent in Dynamics 365 Sales to analyze your sales performance and get insights quickly.
 ms.date: 03/17/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -27,7 +27,7 @@ Ask the agent a question about your business data, and it will generate a bluepr
 
 1. In the Sales Hub site map, go to **My Work** > **Sales Research Agent**.  
    The **Sales Research Agent** page opens with suggested research topics and a prompt box.
-   :::image type="content" source="media/sales-research-agent-in-sales-hub.png" alt-text="Screenshot of the Sales research agent in the Sales Hub site map." lightbox="media/sales-research-agent-in-sales-hub.png":::
+   :::image type="content" source="media/sales-research-agent-in-sales-hub.png" alt-text="Screenshot of the Sales Research Agent in the Sales Hub site map." lightbox="media/sales-research-agent-in-sales-hub.png":::
 
     > [!NOTE]
     > The agent availability is subject to usage limits and capacity throttling. If your organization doesn't have enough credits, you won't be able to generate a blueprint or interact with it. Reach out to your administrator to increase Copilot Studio capacity.

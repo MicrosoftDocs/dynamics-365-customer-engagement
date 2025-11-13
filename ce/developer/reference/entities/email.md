@@ -561,6 +561,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [email_campaignresponse](#BKMK_email_campaignresponse)
 - [msdyn_email_email_msdyn_emailsentiment](#BKMK_msdyn_email_email_msdyn_emailsentiment)
 - [msdyn_email_msdyn_originatingqueue_email](#BKMK_msdyn_email_msdyn_originatingqueue_email)
+- [msdyn_msdyn_conversationactionitem_email_msdyn_CreatedActivity](#BKMK_msdyn_msdyn_conversationactionitem_email_msdyn_CreatedActivity)
 - [msdyn_msdyn_salescopilotinsight_email_msdyn_activityid](#BKMK_msdyn_msdyn_salescopilotinsight_email_msdyn_activityid)
 - [msdyn_readtracker_poly_email](#BKMK_msdyn_readtracker_poly_email)
 
@@ -610,6 +611,18 @@ Many-To-One Relationship: [msdyn_originatingqueue msdyn_email_msdyn_originatingq
 |ReferencingAttribute|`msdyn_emailid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_email_msdyn_originatingqueue_email`|
 |IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_conversationactionitem_email_msdyn_CreatedActivity"></a> msdyn_msdyn_conversationactionitem_email_msdyn_CreatedActivity
+
+Many-To-One Relationship: [msdyn_conversationactionitem msdyn_msdyn_conversationactionitem_email_msdyn_CreatedActivity](msdyn_conversationactionitem.md#BKMK_msdyn_msdyn_conversationactionitem_email_msdyn_CreatedActivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationactionitem`|
+|ReferencingAttribute|`msdyn_createdactivity`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_conversationactionitem_email_msdyn_createdactivity`|
+|IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_salescopilotinsight_email_msdyn_activityid"></a> msdyn_msdyn_salescopilotinsight_email_msdyn_activityid

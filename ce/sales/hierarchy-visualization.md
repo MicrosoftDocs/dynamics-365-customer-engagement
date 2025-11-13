@@ -6,7 +6,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.collection: get-started
-ms.date: 10/10/2025
+ms.date: 11/11/2025
 ms.custom: bap-template 
 ---
 
@@ -23,7 +23,11 @@ The Dynamics 365 Sales Hierarchy feature lets you design and publish visualizati
 - Users get the same editing experience in a hierarchy as in forms, so the hierarchy view is an ideal primary workspace when data relationships matter.
 - Users quickly navigate and change the hierarchy layout to suit their preferences for different data shapes.
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+> [!IMPORTANT]
+>
+> - The Self-referential hierarchy type is generally available.
+> - The Cross-table, Hybrid, Dataverse connections, and Custom connections hierarchy types are in preview.
+> - Preview features aren’t meant for production use and might have restricted functionality. These features are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520), and are available before an official release so that customers can get early access and provide feedback.
 
 ## Types of hierarchy relationships
 

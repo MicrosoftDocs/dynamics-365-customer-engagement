@@ -1,5 +1,5 @@
 ---
-title: Sales Qualification Agent overview (preview)
+title: Sales Qualification Agent overview
 description: Discover how Sales Qualification Agent in Dynamics 365 Sales automates lead research and engagement to help your team focus on high-potential opportunities.
 ms.date: 09/24/2025
 ms.update-cycle: 180-days
@@ -20,13 +20,9 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Sales Qualification Agent overview (preview)
+# Sales Qualification Agent overview
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-Sales teams often struggle to keep up with the volume of inbound leads from websites, events, and webinars, leading to missed opportunities and idle leads in CRM. Sales Qualification Agent in Dynamics 365 Sales is an agent that automate manual lead qualification. It helps you qualify leads faster and more effectively, so you can spend more time interacting with top leads. The agent doesn't replace your judgment or decision-making process
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+Sales teams often struggle to keep up with the volume of inbound leads from websites, events, and webinars, leading to missed opportunities and idle leads in CRM. Sales Qualification Agent in Dynamics 365 Sales is an AI agent that automates lead qualification. It helps you qualify leads faster and more effectively, so you can spend more time interacting with your top leads. The agent doesn't replace your judgment or decision-making process.
 
 ## Sales Qualification Agent modes
 
@@ -78,7 +74,7 @@ The usage of the Sales Qualification Agent depends on your role in the sales pro
 The Sales Qualification Agent uses the capacity assigned to your tenant to process leads and generate insights. You can set up either prepaid capacity or pay-as-you-go capacity for the agent. Use the following resources to learn more about setting up capacity and monitoring usage:  
 
 - [Manage consumption-based billing for agent capabilities](copilot-consumption-based-billing.md)
-- - [View the agent's usage consumption](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new#use-the-summary-tab)
+- [View the agent's usage consumption](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new#use-the-summary-tab)
 
 ## Responsible AI
 

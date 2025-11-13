@@ -70,9 +70,12 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_BatchProcessingCompletedOn](#BKMK_msdyn_BatchProcessingCompletedOn)
 - [msdyn_BatchProcessingStartedOn](#BKMK_msdyn_BatchProcessingStartedOn)
+- [msdyn_BatchSize](#BKMK_msdyn_BatchSize)
+- [msdyn_CriteriaJson](#BKMK_msdyn_CriteriaJson)
 - [msdyn_EvaluationPlanBatchId](#BKMK_msdyn_EvaluationPlanBatchId)
 - [msdyn_evaluationplanbatchids](#BKMK_msdyn_evaluationplanbatchids)
 - [msdyn_EvaluationPlanRun](#BKMK_msdyn_EvaluationPlanRun)
+- [msdyn_EvaluationsCreated](#BKMK_msdyn_EvaluationsCreated)
 - [msdyn_Name](#BKMK_msdyn_Name)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
@@ -130,6 +133,37 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |SourceTypeMask|0|
 
+### <a name="BKMK_msdyn_BatchSize"></a> msdyn_BatchSize
+
+|Property|Value|
+|---|---|
+|Description|**Total count of number of records in current batch**|
+|DisplayName|**Batch size**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_batchsize`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_CriteriaJson"></a> msdyn_CriteriaJson
+
+|Property|Value|
+|---|---|
+|Description|**Evaluation Criteria JSON**|
+|DisplayName|**Evaluation Criteria JSON**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_criteriajson`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
+
 ### <a name="BKMK_msdyn_EvaluationPlanBatchId"></a> msdyn_EvaluationPlanBatchId
 
 |Property|Value|
@@ -171,6 +205,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|ApplicationRequired|
 |Type|Lookup|
 |Targets|msdyn_evaluationplanrun|
+
+### <a name="BKMK_msdyn_EvaluationsCreated"></a> msdyn_EvaluationsCreated
+
+|Property|Value|
+|---|---|
+|Description|**Total count of number of evaluations created**|
+|DisplayName|**Evaluations created**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_evaluationscreated`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
 
 ### <a name="BKMK_msdyn_Name"></a> msdyn_Name
 

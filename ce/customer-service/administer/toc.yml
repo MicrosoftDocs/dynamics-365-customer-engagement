@@ -428,7 +428,7 @@
         href: /dynamics365/contact-center/administer/install-manage-desktop-app?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Support emergency calls made by agents
         href: voice-channel-emergency-calling.md
-      - name: Configure Teams Phone in voice channel (preview)
+      - name: Configure Teams Phone in voice channel
         href: /dynamics365/contact-center/administer/configure-teams-phone-in-voice-channel?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Forward your Teams calls to digital contact center
         href: voice-forward-calls.md
@@ -470,7 +470,7 @@
         href: voice-channel-pricing-scenarios.md
       - name: FAQ about the voice channel
         href: voice-channel-faqs.md
-    - name: Agent hub (preview)
+    - name: Agent hub
       items:
       - name: Learn guide for AI agents and Copilot features
         items:
@@ -486,12 +486,14 @@
         href: /dynamics365/contact-center/administer/create-rollout-plans?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: View agent insights dashboard
         href: /dynamics365/contact-center/use/agent-insights?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml  
-    - name: Autonomous service agents (preview)
+    - name: Autonomous service agents
       items:
       - name: Overview of autonomous service agents
         href: /dynamics365/contact-center/administer/autonomous-agents-overview?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Manage consumption-based billing, capacity
         href: setup-pay-as-you-go.md
+      - name: Configure connection references
+        href: admin-km-agent-connections.md
       - name: Customer Intent Agent
         items:
         - name: Overview of Customer Intent Agent
@@ -503,11 +505,11 @@
         - name: Enable intent-based suggestions for service representatives
           href: /dynamics365/contact-center/administer/enable-intent-for-service-reps?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
         - name: Configure intent-based suggestions for Copilot agents
-          href: /dynamics365/contact-center/administer/set-up-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.ym
+          href: /dynamics365/contact-center/administer/set-up-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Case Management Agent
         items: 
           - name: Configure global settings for Case Management Agent
-            href: case-management-global-settings.md        
+            href: case-management-global-settings.md
           - name: Set up Case Management Agent to create and update cases 
             href: set-up-autonomous-case-agents.md
           - name: Set up Case Management Agent to resolve cases
@@ -516,10 +518,12 @@
             href: set-up-case-closure.md  
       - name: Customer Knowledge Management Agent
         items:
-        - name: Enable Customer Knowledge Management Agent
+        - name: Manage Customer Knowledge Management Agent
           href: admin-km-agent.md
-        - name: Configure connection references
-          href: admin-km-agent-connections.md
+      - name: Quality Evaluation Agent
+        items:
+        - name: Manage Quality Evaluation Agent
+          href: /dynamics365/contact-center/administer/manage-quality-evaluation-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
     - name: Chat
       items:
       - name: Introduction to the chat channel
@@ -702,8 +706,6 @@
           href: /dynamics365/contact-center/administer/copilot-enable-help-pane?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
         - name: Enable ask a question
           href: /dynamics365/contact-center/administer/copilot-enable-help-pane#enable-ask-a-question?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
-        - name: Enable draft a response (preview)
-          href: /dynamics365/contact-center/administer/copilot-enable-help-pane#enable-draft-a-response-preview?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
         - name: Enable Copilot to draft emails 
           href: /dynamics365/contact-center/administer/copilot-email-enable?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
       - name: Enable case summaries through ask a question (preview)
@@ -752,7 +754,7 @@
         href: context-variables-for-bot.md      
     - name: Feedback surveys
       items:
-      - name: Configure feedback surveys using Copilot Studio (preview)
+      - name: Configure feedback surveys using Copilot Studio
         href: /dynamics365/contact-center/administer/configure-surveys?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Enable voice call experiences
         href: configure-end-of-call-survey.md
@@ -952,7 +954,7 @@
       items:
       - name: Search Customer Service admin logs in Microsoft Purview
         href: enable-audit-tables.md
-    - name: Known issues in Customer Service and Omnichannel for Customer Service
+    - name: Known issues in Customer Service and Dynamics 365 Contact Center
       href: https://go.microsoft.com/fwlink/p/?linkid=2165393
     - name: FAQ about Copilot Service admin center
       href: faq-customer-service-admin-center.md
@@ -962,7 +964,7 @@
     items:
     - name: Overview
       href: ../implement/responsible-ai-overview.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-    - name: Responsible AI FAQ for AI Agents (Preview)
+    - name: Responsible AI FAQ for AI Agents
       href: /dynamics365/contact-center/implement/faq-rai-ai-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
     - name: Responsible AI FAQ for Copilot in Customer Service
       href: ../implement/faq-responsible-ai-copilot.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml

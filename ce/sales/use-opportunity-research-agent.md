@@ -1,42 +1,40 @@
 ---
-title: Work on opportunities handled by the Opportunity Research Agent (preview)
-description: Learn how to work on opportunities handled by the Opportunity Research Agent.
-ms.date: 08/04/2025
+title: Work on opportunities handled by the Sales Close Agent - Research (preview)
+description: Learn how to work on opportunities handled by the Sales Close Agent - Research.
+ms.date: 11/07/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
   - AI-contribution
 ms.custom: bap-template
-author: lavanyakr01
-ms.author: lavanyakr
-ms.reviewer: lavanyakr
+author: udaykirang
+ms.author: udag
+ms.reviewer: udag
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Work on opportunities handled by the Opportunity Research Agent (preview)
+# Work on opportunities handled by Sales Close Agent - Research (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Opportunity Research Agent in Dynamics 365 Sales makes it easy for you to focus on the most important opportunities. By identifying high-value and at-risk opportunities, the agent helps you prioritize your efforts. With critical insights and recommendations, you can quickly ramp up on opportunities, engage the right stakeholders, and mitigate risks effectively.
+The Sales Close Agent - Research in Dynamics 365 Sales makes it easy for you to focus on the most important opportunities. By identifying high-value and at-risk opportunities, the agent helps you prioritize your efforts. With critical insights and recommendations, you can quickly ramp up on opportunities, engage the right stakeholders, and mitigate risks effectively.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 
-You need the following prerequisites:
+You need the following prerequisites:  
 
-- Your admin has configured the Opportunity Research Agent for your organization. 
-
-- You're part of the sales team that works on the opportunity segment that the agent is configured for.
-- You have the necessary permissions to view and work on the opportunities researched by the agent.
+- Your admin has configured the Sales Close Agent - Research for your organization.  
+- You're part of the sales team that works on the opportunity segment that the agent is configured for.  
+- You have the necessary permissions to view and work on the opportunities researched by the agent.  
 - Your mailbox is configured to allow tracking of email messages. This setting is required for the agent to gather insights from your emails and meetings. See the personalization setting explained in Step 4 in [Configure server-side synchronization](configure-opportunity-research-agent.md#configure-server-side-synchronization).
 
-## View opportunities researched by the Opportunity Research Agent
+## View opportunities researched by the Sales Close Agent - Research
 
-1. In the Sales Hub app, select **Opportunities**.
-
+1. In the Sales Hub app, select **Opportunities**.  
 1. From the views drop-down, select **My top opportunities from AI agent**.  
    The view lists all the opportunities that the agent researched on and includes the importance and risk for each opportunity. The list includes only opportunities with high and medium importance.  
    > [!NOTE]
@@ -48,6 +46,9 @@ You need the following prerequisites:
 1. Select **See full research**.  
    The Opportunity research page opens with the complete research insights and recommendations.
    :::image type="content" source="media/opportunity-research-insights-with-no-risk.png" alt-text="Screenshot of the Opportunity research page with research insights when there are no risks.":::
+
+> [!NOTE]
+> The research insights are refreshed based on the refresh frequency configured by your admin and when specific fields in the opportunity record are updated. Learn more in [How often does the Opportunity Research Agent refresh research data?](opportunity-research-agent-faqs.md#how-often-does-the-opportunity-research-agent-refresh-research-data).
 
 ## Opportunity research page
 
@@ -123,7 +124,7 @@ The Opportunity research page includes the following sections:
 
 ### Opportunity research insights examples
 
-The agent refreshes the research insights based on the refresh frequency configured by your admin. The insights you see vary based on the recent activities and communications related to the opportunity. Here are some examples of insights you might see:
+The agent refreshes the research insights based on the refresh frequency configured by your admin. The insights you see vary based on the recent activities and communications related to the opportunity. Here are some examples of insights you might see:  
 
 - **Day 1:** Let's say that you have a strategic opportunity with a high estimated revenue, a close date in the next quarter, and no immediate risks. The Opportunity research page might look something like this:
    :::image type="content" source="media/opportunity-research-insights-with-no-risk.png" alt-text="Screenshot of the Opportunity research page with research insights when there are no risks.":::
@@ -132,5 +133,5 @@ The agent refreshes the research insights based on the refresh frequency configu
 
 ## Related information
 
-- [Configure the Opportunity Research Agent (preview)](configure-opportunity-research-agent.md)
-- [FAQs about Opportunity Research Agent (preview)](faqs-about-opportunity-research.md)
+- [Configure the Sales Close Agent - Research (preview)](configure-opportunity-research-agent.md)
+- [FAQs about Sales Close Agent - Research (preview)](faqs-about-opportunity-research.md)

@@ -1,5 +1,5 @@
 ---
-title: Set up and configure the Sales Qualification Agent (preview)
+title: Set up and configure the Sales Qualification Agent
 description: Set up and configure the Sales Qualification Agent to automate research, engagement, and outreach in Dynamics 365 Sales with AI-powered assistance for effective sales processes.
 ms.date: 09/24/2025
 ms.topic: how-to
@@ -17,9 +17,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Set up and configure the Sales Qualification Agent (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Set up and configure the Sales Qualification Agent
 
 As an admin, you need to set up the Sales Qualification Agent before your sellers can use it for lead research, ideal customer profile (ICP) fit assessment, and initial email outreach. This article discusses how to configure the details about your company and products you sell, your ideal customer profile, and other settings to help the agent align with your company's sales strategy and goals.
 
@@ -27,20 +25,23 @@ Watch the video to get started with the agent setup:
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=5148e4b9-f0d1-43e9-93b5-484c8f446c3c]
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
 ## Prerequisites
 
 Ensure that the following prerequisites are met:  
 
-- Your tenant admin has granted the following consent:  
+- Your tenant admin has configured the following settings in Power Platform Admin Center:
+  
     - Consent for data movement across regions and Bing search. Learn more in [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot?tabs=new).  
-    - The agent needs Copilot Studio capacity to run. Ensure that you have enough capacity. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).  
+
+    - Copilot Studio capacity to run the agent. Ensure that you have enough capacity. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
+    - AI Agents in Dynamics 365 Sales is turned on for your environment. Learn more in [Turn on AI capabilities in Dynamics 365 Sales](/power-platform/admin/copilot/copilot-hub#turn-on-ai-capabilities-in-dynamics-365-sales).
+    - AI prompts feature is enabled. Learn more in [Enable AI prompts in Power Platform and Copilot Studio](/ai-builder/administer#enable-or-disable-ai-prompts-in-power-platform-and-copilot-studio).  
+    - AI insight cards is turned on. This feature is required for sellers to get notified about lead handovers and view insights on the lead record. Learn more about turning on this feature in [Manage feature settings](/power-platform/admin/settings-features).
+
 - You have admin permissions in Dynamics 365 Sales.  
 - You have a Copilot Studio license. Learn more in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).  
 - You turned on the modern UI for the Sales Hub app. Learn more in [Enabling the modern look for my app and removing the toggle](/power-apps/user/modern-fluent-design#enabling-the-modern-look-for-my-app-and-removing-the-toggle).  
-- You turned on the AI prompts feature in Power Platform and Copilot Studio. Learn more in [Enable AI prompts in Power Platform and Copilot Studio](/ai-builder/administer#enable-or-disable-ai-prompts-in-power-platform-and-copilot-studio).  
-- You turned on the AI insight cards in Power Platform Admin Center. This feature is required for sellers to get notified about lead handovers and view insights on the lead record. Learn more about turning on this feature in [Manage feature settings](/power-platform/admin/settings-features).
+
 - You modified Data policies to allow the following connectors:
 
     | Connector | Why is it required? |
@@ -62,7 +63,9 @@ Ensure that the following prerequisites are met:
 Review the following considerations before you start deploying the autonomous Sales Qualification Agent:
 
 - Only one of the following modes can be deployed in an organization:  
+
     - **Research-only mode**: Analyzes assigned leads and drafts outreach email based on the insights and provides recommended actions.  
+
     - **Research and engage mode**: Analyzes and autonomously engages with the customer. Hands over the leads to sellers with detected purchase interest and customer profile fit based on configured handover criteria.  
 
 - You can **upgrade** from **Research-only** mode to the **Research and engage** mode later, but not the other way around.  
@@ -96,6 +99,8 @@ Learn more about granting permissions in [Define the privileges and properties o
 The following image shows the permissions to access research insights as an example:
 
 :::image type="content" source="media/sqa-custom-role-permissions.png" alt-text="Screenshot of the permissions to grant to a custom security role for use with the Sales Qualification Agent in Dynamics 365 Sales.":::
+
+If you're using a custom app, add the Dynamics AI Hub sitemap entry to your custom app to allow users to create, manage, and monitor sales AI agents. Learn more in [Access Dynamics 365 AI Hub](dynamics-365-ai-hub.md)
 
 ## Set up Sales Qualification Agent
 

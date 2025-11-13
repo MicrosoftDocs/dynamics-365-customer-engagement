@@ -1,8 +1,7 @@
 ---
 title: Edit the schedule board booking template in Universal Resource Scheduling
 description: Learn how to edit the booking template using custom HTML and CSS.
-ms.date: 06/25/2025
-ms.reviewer: mhart 
+ms.date: 07/01/2025
 ms.subservice: common-scheduler
 ms.topic: how-to
 author: mkelleher-msft

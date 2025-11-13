@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: concept-article
-ms.date: 11/12/2024
+ms.date: 11/05/2025
 ---
 
 # Buy Dynamics 365 Sales

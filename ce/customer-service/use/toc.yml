@@ -198,7 +198,7 @@
           href: voice-channel-call-recordings-transcripts.md
         - name: Monitor voice calls
           href: voice-channel-monitor-calls.md
-      - name: Autonomous service agents (preview)
+      - name: Autonomous service agents
         items:
         - name: Overview of autonomous service agents
           href: /dynamics365/contact-center/administer/autonomous-agents-overview?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
@@ -220,6 +220,16 @@
             href: admin-km-agent-review.md
           - name: Use knowledge insights for Customer Knowledge Management Agent
             href: admin-km-agent-insights.md
+        - name: Quality Evaluation Agent
+          items:
+          - name: Use evaluation criteria
+            href: /dynamics365/contact-center/use/evaluation-criteria?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Use evaluation plan
+            href: /dynamics365/contact-center/use/evaluation-plan?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Use on-demand evaluation
+            href: /dynamics365/contact-center/use/on-demand-evaluation?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Use evaluations
+            href: /dynamics365/contact-center/use/use-evaluations?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
       - name: Chat and Channels
         items:
         - name: Dynamics 365 Contact Center for agents
@@ -376,20 +386,20 @@
           items: 
           - name: Omnichannel for Customer Service dashboards
             href: omnichannel-analytics-insights.md
-          - name: Omnichannel Summary dashboard
+          - name: Summary dashboard
             href: omnichannel-summary-dashboard.md
-          - name: Omnichannel Conversation dashboard
+          - name: Conversation dashboard
             href: oc-conversation-dashboard.md
-          - name: Omnichannel Queue dashboard
+          - name: Queue dashboard
             href: oc-queue-dashboard.md
-          - name: Omnichannel Voice dashboard
+          - name: Voice dashboard
             href: voice-channel-reports-analytics.md   
-          - name: Omnichannel Agent dashboard
+          - name: Agent dashboard
             href: agent-dashboard.md
-          - name: Omnichannel Bot dashboard
+          - name: Bot dashboard
             href: oc-bot-dashboard.md  
-          - name: Omnichannel Voicemail dashboard
-            href: oc-voicemail-dashboard.md          
+          - name: Voicemail dashboard
+            href: oc-voicemail-dashboard.md
         - name: Use knowledge analytics
           href: knowledge-search-analytics-cs.md
         - name: Use Copilot analytics
@@ -426,8 +436,12 @@
           items:
           - name: Forecast service representative, case, and conversation volumes
             href: use-volume-forecasting.md
-        - name: Customize visual display
-          href: customize-reports.md
+        - name: Manage report visuals
+          items:
+          - name: Customize visual display
+            href: customize-reports.md
+          - name: Export and import visual customizations
+            href: export-import-visual-customization.md
         - name: Customize the bot dashboard
           href: /dynamics365/contact-center/use/customize-agent-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml    
         - name: Customize data models
