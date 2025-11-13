@@ -1,6 +1,6 @@
 ---
 title: Manage real-time analytics for record routing
-description: Discover how to manage real-time analytics for record routing in Dynamics 365 Customer Service and Dynamics 365 Contact Center. Enable the dashboard to gain valuable insights and improve routing efficiency.
+description: Discover how to manage real-time analytics for record routing in Dynamics 365 Customer Service. Enable the dashboard to gain valuable insights and improve routing efficiency.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
