@@ -56,4 +56,4 @@ You can drilldown on the **Metrics by intent group**. Select **Detailed view** t
 
 [Manage real-time analytics for record routing](../administer/enable-record-routing.md#manage-real-time-analytics-for-record-routing)  
 [Overview of real-time analytics for record routing](rr-overview.md#overview-of-real-time-analytics-for-record-routing)  
-[Record routing in the Agent group report](record-routing-agent-group.md#view-and-understand-real-time-analytics-for-record-routing-in-the-agent-group-report)
+[Record routing in the Agent group report](record-routing-agent-group.md)
