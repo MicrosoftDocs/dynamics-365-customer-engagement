@@ -1,12 +1,12 @@
 ---
 title: Manage real-time analytics for record routing
-description: Discover how to manage real-time analytics for record routing in Customer Service. Enable the dashboard to gain valuable insights and improve routing efficiency.
+description: Discover how to manage real-time analytics for record routing in Dynamics 365 Customer Service and Dynamics 365 Contact Center. Enable the dashboard to gain valuable insights and improve routing efficiency.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 06/20/2025
+ms.date: 11/13/2025
 ms.custom: bap-template
 ---
 
@@ -28,7 +28,7 @@ The real-time analytics for record routing dashboard is disabled by default. To 
 
 1.  On the **Real-time analytics for record routing** page, switch the **Enable real-time analytics for record routing** toggle to **On**.
 
-1.  Optionally, select the **Add real-time analytics for record routing for intent** to get insights into the performance of routed records by intent.
+1.  Optionally, select the **Add real-time analytics for record routing for intent** to get insights into the performance of routed records by intent. Real-time 
 
 
 :::image type="content" source="../media/csac-record-routing.png" alt-text="Screenshot of the record routing option from the Copilot Service admin center":::
