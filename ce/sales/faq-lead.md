@@ -1,7 +1,7 @@
 ---
 title: Lead management FAQs
 description: Get answers to frequently asked questions about various aspects of Lead management such as lead qualification, duplicate detection, and scoring. 
-ms.date: 01/24/2025
+ms.date: 11/12/2025
 ms.topic: faq
 author: udaykirang
 ms.author: udag
@@ -98,8 +98,8 @@ When a lead is qualified, certain fields from the lead are automatically mapped 
 
 While qualifying a lead, one of the following errors occurs due to duplicate leads:
 
-- Lead record was not created or updated because a duplicate of the current record already exists. 
-- Opportunity record was not created or updated because a duplicate of the current record already exists.
+- Lead record wasn't created or updated because a duplicate of the current record already exists. 
+- Opportunity record wasn't created or updated because a duplicate of the current record already exists.
 
 If the [duplicate detection rules](/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean) feature is enabled in your organization, the application won't allow qualification of leads if duplicates of that lead exist. To mitigate the issue, try the following resolutions:
 
@@ -173,7 +173,7 @@ You want to build a lead scoring model and train it with leads created and close
 
 ### Why aren't my leads or opportunities scored or rescored?
 
-If a lead or opportunity is not scored or the score is not updated, ensure that the following conditions are met:
+If a lead or opportunity isn't scored or the score isn't updated, ensure that the following conditions are met:
 
 - The scoring model is published.
 - The record is in the **Open** state.
@@ -228,8 +228,7 @@ More information: [Enable duplicate lead detection](enable-duplicate-lead-detect
 
 When the improved duplicate detection experience is disabled, you'll see the **Duplicate warning** dialog box.
 
-> [!div class="mx-imgBorder"] 
-> ![Screenshot of the Duplicate warning dialog box.](media/duplicate-records-warning.png "Duplicate warning while qualifying a lead")
+:::image type="content" source="media/duplicate-records-warning.png" alt-text="Screenshot of the Duplicate warning dialog box shown when a potential duplicate account or contact is detected while qualifying a lead.":::
 
 In the **Account** and **Contact** fields, select the matching account and contact record and then select **Continue**. To ignore the duplicate warning and create new records, leave the Account and Contact fields blank, and select **Continue**.
 
@@ -239,8 +238,7 @@ The **Account** and **Contact** lookup fields are filtered with matched results 
 
 When the improved duplicate detection and merge experience is enabled, you'll see the **Account or Contact may already exist** dialog box.
 
-> [!div class="mx-imgBorder"] 
-> ![Screenshot of dialog box showing records that might already exist.](media/duplicate-records-already-exists.png "Records may already exist")
+:::image type="content" source="media/duplicate-records-already-exists.png" alt-text="Screenshot of the dialog listing matched accounts and contacts when the improved duplicate detection and merge experience is enabled.":::
 
 The **Matched accounts** and **Matched contacts** sections will show all the matching records (based on the duplicate detection rules) along with additional information to precisely identify the record to which the lead should be linked.
 

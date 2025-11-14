@@ -216,7 +216,7 @@ items:
                   href: view-sales-close-agent-engage-insights-metrics.md
                 - name: How the Sales Close Agent - Engage works
                   href: how-sales-close-agent-engage-mode-works.md
-          - name: Sales research Agent (preview)
+          - name: Sales Research Agent (preview)
             items:
               - name: Overview
                 href: sales-research-agent.md

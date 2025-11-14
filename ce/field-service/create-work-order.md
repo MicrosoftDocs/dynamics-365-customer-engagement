@@ -14,6 +14,8 @@ A work order in Dynamics 365 Field Service has information on what work needs to
   
 A work order is often created from a case, an [agreement](set-up-customer-agreements.md), or an opportunity. It gets scheduled either manually, with the [schedule assistant](schedule-assistant.md), or the [Resource Scheduling Optimization add-in](rso-overview.md). Once the work is complete, a supervisor reviews and approves it.
 
+The system determines the work order's location by looking at a manually-entered **Service address** first, then the address from the [**Functional location**](functional-locations.md) if set, then the **Service Address** from the account.
+
 ## Create a work order from the work order form and record list
 
 1. In Field Service, change to the **Service** area.
