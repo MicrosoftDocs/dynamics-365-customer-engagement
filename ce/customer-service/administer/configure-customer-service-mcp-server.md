@@ -16,7 +16,7 @@ ms.custom:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Whether you're a developer building an AI agent to automate a part of the service workflow, or a customer service representative using an AI assistant such as Claude to resolve customer issues efficiently, you can connect Dynamics 365 Customer Service with the Model Context Protocol (MCP) server.
+Whether you're a developer building an AI agent to automate a part of the service workflow, or a customer service representative (service representative or representative) using an AI assistant such as Copilot to resolve customer issues efficiently, you can connect Dynamics 365 Customer Service with the Model Context Protocol (MCP) server.
 
 Use [Microsoft Copilot Studio](https://www.microsoft.com/microsoft-365-copilot/microsoft-copilot-studio) to build custom agents for service teams that include the Dynamics 365 Customer Service MCP Server or connect Dynamics 365 Customer Service with any other agent platform that supports the MCP protocol. By using the Dynamics 365 Customer Service MCP Server in combination with Dataverse MCP servers or MCP servers from other business applications such as Sales and ERP systems, you can automate complex cross-functional business operations with ease. For example, an order can be generated through the Dynamics 365 Business Central MCP server, after an MCP client is engaged with the Customer Service MCP server.
 
@@ -25,7 +25,9 @@ Use [Microsoft Copilot Studio](https://www.microsoft.com/microsoft-365-copilot/m
 ## Prerequisites
 
 - Access to Microsoft Copilot Studio.
-- System administrator or Omnichannel Administrator role and CSR or CSR Manager roles.
+
+- System administrator or Omnichannel Administrator role to configure the MCP Server.
+- CSR or CSR Manager roles to use the MCP Server and tools.
 - Dynamics 365 Customer Service MCP Server is configured and appears in Copilot Studio tools list. Learn more in [Microsoft MCP connectors available in Copilot Studio](/microsoft-copilot-studio/agent-extend-action-mcp#microsoft-mcp-connectors-available-in-copilot-studio).
 
 > [!NOTE]
@@ -44,7 +46,7 @@ Use [Microsoft Copilot Studio](https://www.microsoft.com/microsoft-365-copilot/m
 
    :::image type="content" source="../media/screenshot-of-ai-agent-with-mcp-server.png" alt-text="Screenshot of an AI agent configured with MCP server in Copilot Studio.":::
 
-1. If you have used a new AI agent, on the **Channels** tab, select **Dynamics 365 Customer Service** and perform the steps to connect the agent to Customer Service.
+1. If you used a new AI agent, on the **Channels** tab, select **Dynamics 365 Customer Service** and perform the steps to connect the agent to Customer Service.
 
 Repeat the steps to add **Dataverse MCP server (Preview)** to enable CRUD operations.
 
@@ -58,11 +60,12 @@ You can also access your MCP tools from external sources such as Visual Studio C
 
 ### Use MCP tools in Visual Studio Code
 
-1. In Visual Studio Code, select the command palette or use CTRL+Shift+P, type **MCP: Add Server**, and press **Enter**.
+1. In Visual Studio Code, select the command palette or use CTRL+Shift+P, type **MCP: Add Server**, and press enter.
+1. Select **Http or Server sent Events** server and press enter.
 1. Add the following URLs
     - Dataverse: Use the orgID in the URL. For example: https://`<OrgURL>`/api/mcp
     - Customer Service: Use the environment ID.
-
+    The system generates the following code.
     {
     "servers": {
         "Dataverse-mcp-server": {
@@ -122,6 +125,5 @@ Representatives can use the following prompts with the MCP tool:
 
 ### Related information
 
-[Blog: The autonomous enterprise: How generative AI is reshaping business applications](https://www.microsoft.com/dynamics-365/blog/business-leader/2025/05/20/the-autonomous-enterprise-how-generative-ai-is-reshaping-business-applications/)  
 [Extend your agent with Model Context Protocol](/microsoft-copilot-studio/agent-extend-action-mcp)  
 [Core MCP concepts](https://modelcontextprotocol.io/quickstart/server#core-mcp-concepts)  
