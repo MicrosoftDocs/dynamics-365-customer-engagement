@@ -40,9 +40,10 @@ You can integrate the Sales MCP server with your Microsoft Copilot Studio agent,
 
 The steps for connecting to the Sales MCP server are similar to that of the Dataverse MCP server. 
 
-- To connect to the Sales MCP server in Microsoft Copilot Studio, follow the steps in [Use the Dataverse MCP server in Microsoft Copilot Studio](/power-apps/maker/data-platform/data-platform-mcp#use-the-dataverse-mcp-server-in-microsoft-copilot-studio).
+- To connect to the Sales MCP server in Microsoft Copilot Studio, follow the steps in [Add tools and resources from a Model Context Protocol (MCP) server to your agent](/microsoft-copilot-studio/mcp-add-components-to-agent).
 
-- To connect to the Sales MCP server in Visual Studio Code, follow the steps in [Configure and use your MCP client with VS Code](/power-apps/maker/data-platform/data-platform-mcp#configure-and-use-your-mcp-client-with-vs-code). Claude Desktop is supported with the Visual Studio Code MCP client.
+- To connect to the Sales MCP server in Claude, follow the steps in [Configure and use the Dataverse MCP server in Claude](/power-apps/maker/data-platform/data-platform-mcp#configure-and-use-the-dataverse-mcp-server-in-claude). 
+- To connect to the Sales MCP server in Visual Studio Code, follow the steps in [Configure and use your MCP client with VS Code](/power-apps/maker/data-platform/data-platform-mcp#configure-and-use-your-mcp-client-with-vs-code).
 
 > [!NOTE]
 >- Ensure to select **Dynamics 365 Sales MCP server (preview)** when prompted to select the MCP server. If you want to perform CRUD operations on Dataverse records, connect to the **Dataverse MCP server** as well.
