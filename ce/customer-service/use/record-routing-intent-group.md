@@ -22,12 +22,12 @@ Organizations set up intents and intent groups for the contact center to handle.
 
 You can filter this report by **Duration**, **Line of Business**, **Agent group**, **Intent group**, **Work item status**, and **Time**.
 
-As part of visual customization, all record routing dashboards including **Summary**, **Backlog work items**, **Ongoing work items**, **Queue**, and **Agent** reports can be filtered by Intent group, intent and Line of Business by using the **IntentFamilyName** in **DimIntent** dimension. Learn more in [visual customization](customize-reports.md). You can search for the data measures for intent to select specific intent-based filters.
+As part of visual customization, all record routing dashboards including **Summary**, **Backlog work items**, **Ongoing work items**, **Queue**, and **Agent** reports can be filtered by intent group, intent, and line of business by using the **IntentFamilyName** in **DimIntent** dimension. Learn more in [visual customization](customize-reports.md). You can search for the data measures for intent to select specific intent-based filters.
 
 ## Prerequisites
 
 - You turned on the toggle for Customer Intent Agent and added the Line of business, Intent groups, and Intents. Learn more in [Customer Intent Agent](/dynamics365/contact-center/administer/manage-customer-intent-agent).
-- You  enabled real-time analytics for record routing for intent. Learn more in [Enable the real-time analytics for record routing dashboard](../administer/enable-record-routing.md#enable-the-real-time-analytics-for-record-routing-dashboard).
+- You enabled real-time analytics for record routing for intent. Learn more in [Enable the real-time analytics for record routing dashboard](../administer/enable-record-routing.md#enable-the-real-time-analytics-for-record-routing-dashboard).
 
 You see the report after 24 hrs of provisioning. If you don't enable Customer Intent Agent, you might still see data measures related to intent. However, you don't see any conversation or case-related information in the report.
 
@@ -44,13 +44,13 @@ You see the report after 24 hrs of provisioning. If you don't enable Customer In
 |Logged in agents | Logged in service representatives is the number of representatives who are currently logged in and aren't in Offline status. |
 |Agents available | Service representatives who are currently in **Available** status. |
 |Average handle time (hh:mm:ss)| Total handle time divided by the number of conversations handled.|
-|Engaged conversations | conversations handled by the service representative. |
+|Engaged conversations | Conversations handled by the service representative. |
 |Transfer rate | Session transfer rate is the total transfers within a conversation across sessions over the total conversations. |
 
 
 ## Drill-down 
 
-Drilldown on the **Metrics by intent group**, select **Detailed view** to view metrics by intent and agent.
+Drill down on the **Metrics by intent group**, and then select **Detailed view** to view metrics by intent and agent.
 
 ## Related information
 
