@@ -25,7 +25,7 @@ You can provide two types of context:
 
 - **General context**: Includes information that’s relevant regardless of the topic the agent researches. This includes information about your role, industry, fiscal year, and currency. For example, you can add your organization's fiscal year start, so that the agent can map language in prompts like “Q1” or “this fiscal year” to the correct period.
 
-- **Business functions**: Provides the agent with context and instructions that are relevant only for specific use cases. Using your natural business language, you can write a role description, business context, and data instructions for the agent to follow. For example, create one business function to reflect how your org approaches market research and a separate business function for win/loss analysis. You can select which business function to use when researching a business question.  
+- **Business function**: Provides the agent with context and instructions that are relevant only for specific use cases. Using your natural business language, you can write a role description, business context, and data instructions for the agent to follow. For example, create one business function to reflect how your org approaches market research and a separate business function for win/loss analysis. You can select which business function to use when researching a business question.  
 
 ## Set the context and instructions for the Sales Research Agent
 
@@ -40,12 +40,12 @@ You can provide two types of context:
     - In the **Business context** box, provide additional context about your organization, market, or sales approach that will help the agent generate relevant responses. 
     - In the **Data instructions** box, specify how the agent should interpret and use the data from your connected data source. For example, "For pipeline revenue analysis, use the 'Estimated Revenue' column instead of 'Actual Revenue' to account for forecasted deals."
 
-1. Under **Manage your general context**, specify the following information:
-    1. Enter the context information about your role, industry, fiscal year, and currency.
-    1. In the **Acronyms and data dictionary** section, add definitions for acronyms or column headings for data used by your organization in the context. For example, if your organization uses "ARR" to refer to "Annual Recurring Revenue," you can add that definition here.
-   When the acronyms used in prompts or present in your uploaded data or data sources, the agent can correctly interpret their meaning and return better results.
-    1. Leave **Role & data source memory** turned on to enable the agent to remember the context information across workspaces. Turn it off to consider data and context only for  the current workspace. 
-    1. To delete the context information at any time, select **Delete all**.
+1. To set the general context, under the **Manage your general context** section, specify the following information:
+    - Enter the context information about your role, industry, fiscal year, and currency.
+    - In the **Acronyms and data dictionary** section, add definitions for acronyms or column headings for data used by your organization in the context. For example, if your organization uses "ARR" to refer to "Annual Recurring Revenue," you can add that definition here.
+    - When the acronyms are used in prompts or present in your uploaded data or data sources, the agent can correctly interpret their meaning and return better results.
+    - Leave **Role & data source memory** turned on to enable the agent to remember the context information across workspaces. Turn it off to consider data and context only for the current workspace.
+    - To delete the context information at any time, select **Delete all**.
 
 
 ## Related information

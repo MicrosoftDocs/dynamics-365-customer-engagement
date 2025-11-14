@@ -26,19 +26,20 @@ Ask the agent a question about your business data, and it will generate a bluepr
 ## Start your research journey
 
 1. In the Sales Hub site map, go to **My Work** > **Sales Research Agent**.  
-   The **Sales Research Agent** page opens with suggested research topics and a prompt box.
-   :::image type="content" source="media/sales-research-agent-in-sales-hub.png" alt-text="Screenshot of the Sales Research Agent in the Sales Hub site map." lightbox="media/sales-research-agent-in-sales-hub.png":::
+   The **Sales Research Agent** page opens with the business functions and suggested research topics in each function.
 
     > [!NOTE]
     > The agent availability is subject to usage limits and capacity throttling. If your organization doesn't have enough credits, you won't be able to generate a blueprint or interact with it. Reach out to your administrator to increase Copilot Studio capacity.
 
+1. Select a business function to provide context to the agent for your research. Depending on the function you select, the agent tailors its responses to fit the context and instructions defined for that function. From the same data, the agent might generate different blueprints based on the selected business function. Learn more about defining business functions in [Provide context to enhance the Sales Research Agent](sales-research-agent-provide-context.md). The following screenshot shows the out-of-box business functions:
+   :::image type="content" source="media/sales-research-agent-select-business-function.png" alt-text="Screenshot of selecting a business function in the Sales Research Agent." lightbox="media/sales-research-agent-select-business-function.png":::
 
 1. Do one of the following actions:
 
    - **Select a suggested research topic:** 
 
        1. Select a topic from the suggested research topics.  
-          The agent automatically uses the Dynamics 365 Sales data and generates a blueprint with the research findings and visualizations based on the selected topic.
+          The agent automatically uses the Dynamics 365 Sales data and generates a blueprint with the research findings and visualizations based on the selected function and research topic.
 
    - **Type your sales question or research topic**
        1. In the **Ask any business question** prompt box, type your sales question or research topic. The agent is connected to the Dynamics 365 Sales data by default.
@@ -73,7 +74,7 @@ Use the AI cursor to interact with the generated data or ask a new question abou
 1. Select **Generate** and choose whether you want to update the existing block or generate a new blueprint.
    :::image type="content" source="media/sales-research-agent-ai-cursor.png" alt-text="Screenshot of the AI cursor icon and dialog on the blueprint.":::
 
-   If you select **Update existing block**, the agent updates the existing block with the new information. If you select **Generate new blueprint**, the agent creates a new blueprint and adds a journey line to the existing blueprint.
+   If you select **Update block**, the agent updates the existing block with the new information. If you select **Generate new blueprint**, the agent creates a new blueprint and adds a journey line to the existing blueprint.
 
 ## Refresh or regenerate the blueprint
 
