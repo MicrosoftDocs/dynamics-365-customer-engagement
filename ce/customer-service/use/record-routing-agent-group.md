@@ -1,5 +1,5 @@
 ---
-title: View and understand real-time analytics for record routing in the Agent  group report
+title: View and understand real-time analytics for record routing in the Agent group report
 description: Learn how to filter and analyze real-time metrics in the Agent group report to identify trends and improve agent and customer outcomes.
 author: Soumyasd27
 ms.author: sdas
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Organizations set up intents and intent groups for the contact center. Real-time analytics for record routing let supervisors monitor conversations and track metrics using intent attributes. Supervisors get immediate insights into customer interactions, identify trends, optimize agent performance, and help resolve customer queries efficiently. By using intent attributes, supervisors better understand customer intent and improve service quality, leading to greater operational efficiency and customer satisfaction.
+Organizations set up intents and intent groups for the contact center. Real-time analytics for record routing let supervisors monitor conversations and track metrics using intent attributes. Supervisors get immediate insights into customer interactions, and can identify trends, optimize agent performance, and help resolve customer queries efficiently. By using intent attributes, supervisors can better understand customer intent and improve service quality, leading to greater operational efficiency and customer satisfaction.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -22,7 +22,7 @@ Organizations set up intents and intent groups for the contact center. Real-time
 
 You can filter this report by **Duration**, **Line of Business**, **Agent group**, **Intent group**, **Work item status**, and **Time**.
 
-As part of visual customization, all record routing dashboards including **Summary**, **Backlog work items**, **Ongoing work items**, **Queue**, and **Agent** reports can be filtered by Intent group, intent and Line of Business by using the **IntentFamilyName** in **DimIntent** dimension. Learn more in [visual customization](customize-reports.md). You can search for the data measures for intent to select specific intent-based filters.
+As part of visual customization, all record routing dashboards including **Summary**, **Backlog work items**, **Ongoing work items**, **Queue**, and **Agent** reports can be filtered by intent group, intent, and line of business by using the **IntentFamilyName** in **DimIntent** dimension. Learn more in [visual customization](customize-reports.md). You can search for the data measures for intent to select specific intent-based filters.
 
 ## Prerequisites
 
@@ -38,16 +38,16 @@ You see the report after 24 hrs of provisioning. If you don't enable Customer In
 |---------|---------|
 |Conversations in queue    |    Conversations that are currently waiting in queue to be assigned.      |
 |Agents online     |     Number of representatives that are currently online based on the time slicer.     |
-|Agents in active conversations    |    Representatives currently handling live conversations that are in progress and not yet closed excluding wrap-up state. |
+|Agents in active conversations    |    Representatives currently handling live conversations that are in progress and not yet closed, excluding wrap-up state. |
 |Agents in wrap conversations    |   Service representatives who finished interacting with the customer but are still completing post-conversation tasks before closing the session. |
 | Avg session handle time | Average Session Handle Time = Total handle time across sessions / Number of sessions handled. |
-|Session timeout rate    |  Session Timeout Rate (%) = (Number of timed-out sessions/Total assigned sessions) × 100.        |
+|Session timeout rate    |  Session Timeout Rate (%) = (Number of timed-out sessions / Total assigned sessions) × 100.        |
 |Session rejection rate     |  Session Rejection Rate (%)= Number of sessions rejected by agents / Total number of sessions assigned to agents *100 |
 |Longest wait time| Longest wait time is a measure of the longest first wait time among unaccepted incoming conversations. |
 |Conversations abandoned rate | Abandoned rate refers to the percentage of incoming conversation requests that are terminated before a representative engages with the customer. |
-|Logged in agents | Logged in service representatives is the number of representatives who are currently logged in and aren't in Offline status. |
+|Logged in agents | Logged in service representatives is the number of representatives who are currently logged in and aren't in **Offline** status. |
 |Agents available | Service representatives who are currently in **Available** status. |
-|Avg. handle time (hh:mm:ss)| It’s the total handle time divided by the number of conversations handled.|
+|Avg. handle time (hh:mm:ss)| The total handle time divided by the number of conversations handled.|
 |Agent availability status| Donut charts showing agent presence status. |
  
 
