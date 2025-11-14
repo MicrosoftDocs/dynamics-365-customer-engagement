@@ -81,7 +81,7 @@ If you're using custom security roles for your sales team instead of the out-of-
 |Sales Agent Profile (msdyn_salesagentprofile)<br>Sales Agent Run (msdyn_salesagentrun)<br>Sales Agent Configuration v2 (msdyn_salesagentconfigurationv2) | **Global-level**: Read |
 | SCA Engage Agent Result (msdyn_dcaengageagentresult) | **Basic-level**: Read, Write |
 
- more about granting permissions in [Define the privileges and properties of a security role](/power-platform/admin/security-roles-privileges?tabs=new#define-the-privileges-and-properties-of-a-security-role).
+Learn more about granting permissions in [Define the privileges and properties of a security role](/power-platform/admin/security-roles-privileges?tabs=new#define-the-privileges-and-properties-of-a-security-role).
 
 The following image shows the permissions to access research insights as an example:
 
