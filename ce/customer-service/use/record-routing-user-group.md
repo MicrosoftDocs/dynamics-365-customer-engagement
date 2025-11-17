@@ -38,17 +38,17 @@ You see the report after 24 hrs of provisioning. If you don't enable Customer In
 |Agents in active work items|	Number of representatives currently with active record type work items. |
 |Closed work items |Total number of record type work items currently in **Closed** status. |
 |Total work items | Total number of record type work items.|
-|Auto assigned work items| Number of work items auto assigned to the representative and modified in the last 2 hours.|
+|Auto-assigned work items| Number of work items auto assigned to the representative and modified in the last 2 hours.|
 |Manually assigned work items| Number of work items manually assigned to the representative and modified in the last 2 hours.|
 
 
-## Metrics by user or agent group
+## Metrics by agent group
 
 |Metrics | Definition  |
 |---------|---------|
 |Agent group name  |    Name of the service representative group.     |
 |Unassigned work items | Number of record type work items modified in the last 2 hours and currently unassigned within the user group.|
-|Assigned work items| Number of record type work items modified in the last 2 hours and currently assigned  per user group. Assigned work items = Auto assigned work items + Manually assigned work items. |
+|Assigned work items| Number of record type work items modified in the last 2 hours and currently assigned  per user group. Assigned work items = Auto-assigned work items + Manually assigned work items. |
 |Longest wait time | Waiting time until the representative accepts the work item per user group.|
 |Agents online | Number of representatives logged in per user group.|
 |Agents available| Number of representatives who are in **Available** status per user group.|

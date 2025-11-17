@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Organizing contact center data by intent, intent groups, and line of business allows supervisors to effectively monitor and track work items by record type. This structured approach enhances service quality, streamlines operations, and ultimately drives higher customer satisfaction.
+As a supervisor, organizing contact center data by intent, intent groups, and line of business lets you effectively monitor and track work items by record type. This structured approach enhances service quality, streamlines operations, and ultimately drives higher customer satisfaction.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -38,7 +38,7 @@ You see the report after 24 hrs of provisioning. If you don't enable Customer In
 |Unassigned work items|	Number of record type work items modified in the last 2 hours and currently unassigned within the intent group.|
 |Assigned work items|	Number of record type work items modified in the last 2 hours and  currently assigned within the intent group. Assigned work items = Auto assigned work items + Manually assigned work items.|
 |Longest wait time|	Waiting time until the customer service representative (service representative or representative) accepts the work item per intent group.|
-|Agents online|	Number of representatives who have logged in per intent group.|
+|Agents online|	Number of representatives logged in per intent group.|
 |Agents available|	Number of representatives in **Available** status per intent group.|
 
 
@@ -51,14 +51,14 @@ Select **Detailed view** to view metrics by intent and representative.
 |Assigned work items|	Number of record type work items modified in the last 2 hours and are currently assigned. Assigned work items = Auto assigned work items + Manually assigned work items.|
 |Unassigned work items|	Number of record type work items modified in the last 2 hours and are currently unassigned.|
 |Agents with active work items|	Number of representatives that are currently with active record type work items.|
-|Agents online|	Number of representatives who have logged in.|
+|Agents online|	Number of logged in representatives.|
 |Transferred work items| Number of record type work items that are transferred to a queue or representative.|
 
 ## Metrics by intent
 
 |Metrics | Definition  |
 |---------|---------|
-|Intent name|	Name of intent set by the administrator to be tracked per record type workitem. |
+|Intent name|	Name of intent set by the administrator to be tracked per record type work item. |
 |Assigned work items|	Number of record type work items modified in the last 2 hours and currently assigned  per intent name. |Assigned work items = Auto assigned work items + Manually assigned work items.|
 |Unassigned work items|	Number of record type work items modified in the last 2 hours and currently unassigned per intent name.|
 |Longest wait time (hh:mm:ss)|	Waiting time until the representative accepts the work item per intent name.|
