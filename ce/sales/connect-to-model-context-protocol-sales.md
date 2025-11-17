@@ -1,7 +1,7 @@
 ---
 title: Connect to Dynamics 365 Sales with Model Context Protocol (preview)
 description: Learn how to connect to Dynamics 365 Sales with Model Context Protocol (MCP) and integrate it with AI agents or models.
-ms.date: 06/19/2025
+ms.date: 11/17/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -86,25 +86,7 @@ To connect to the Sales MCP server with Github Copilot in Visual Studio Code, fo
 
 ## Tools supported
 
-The following table lists the tools supported by the Sales Model Context Protocol (MCP) server. 
-
-### Lead management tools
-
-The Sales MCP server includes basic sales tools that allow you to interact with leads in Dynamics 365 Sales.
-These tools allow you to list leads, qualify leads, and draft and send outreach emails to leads.
-
-
-| Tool Name              | Purpose                                                                                                   |
-|------------------------|-----------------------------------------------------------------------------------------------------------|
-| `D365_Sales_ListLeads`            | Retrieves a list of leads for the organization or fetches a lead by attribute name.                       |
-| `D365_Sales_QualifyLeadToOpportunity` | Qualifies a lead and can create account, contact, or opportunity records.                                 |
-| `D365_Sales_InvokeLeadSummary`    | Provides a summary of a lead based on lead ID. The tool fetches the lead summary from Copilot in Dynamics 365 Sales. Ensure that Copilot in Dynamics 365 Sales is enabled to use this tool. |
-| `D365_Sales_DraftOutreachEmail`   | Drafts an outreach email for a lead based on lead ID. The tool fetches the outreach email from Copilot in Dynamics 365 Sales. Ensure that Copilot in Dynamics 365 Sales is enabled to use this tool. |
-| `D365_Sales_SendOutreachEmail`    | Sends an outreach email to a customer using a draft for the specified lead.                                |
-
-### Sales Qualification Agent tools
-
-The following table lists the tools supported by the Sales Qualification Agent in Dynamics 365 Sales. Make sure that the agent is configured and turned on. Learn more in [Set up and configure the Sales Qualification Agent](configure-sales-qualification-agent.md).
+The following table lists the tools supported by the Sales MCP Server, powered by the Sales Qualification Agent in Dynamics 365 Sales. Make sure that the agent is configured and turned on. Learn more in [Set up and configure the Sales Qualification Agent](configure-sales-qualification-agent.md).
 
 
 | Tool Name (Friendly)         | API Name                                         | Purpose                                                      | Parameter(s)                | Returns                                                                                 |
@@ -117,48 +99,90 @@ The following table lists the tools supported by the Sales Qualification Agent i
 | Outreach Email Generation Tool | `mcp_sales-mcp-ser_draft_outreach_email`        | Draft personalized sales qualification agent outreach emails | `LeadId` (string)           | Personalized email subject and body with company-specific insights                      |
 
 
-### Dataverse MCP server tools
-
-In addition to the Sales MCP server tools, you can also use the Dataverse MCP server tools to perform CRUD operations on Dataverse records in Dynamics 365 Sales. 
-
-| Tool Name (Friendly)         | API Name                 | Purpose                                                                                                   | Parameter(s)                           | Returns                                                                                 |
-|------------------------------|--------------------------|-----------------------------------------------------------------------------------------------------------|----------------------------------------|-----------------------------------------------------------------------------------------|
-| List Tables Tool            | `list_tables`            | Gets a list of all tables in the Dataverse and returns an array of table names. This doesn't retrieve the tables from external sources. | None                                   | Array of table names in the Dataverse environment                                      |
-| Describe Table Tool          | `describe_table`         | Gets the TSQL schema definition of a table in the Dataverse database                                     | `table_name` (string)                  | TSQL schema definition including column names, data types, and constraints              |
-| Read Query Tool              | `read_query`             | Executes SQL SELECT statements against Dataverse, enabling complex query scenarios like filtering, joins, aggregations and more. Works best with grounded knowledge from describe and list table tools and with insights on the data gained from search tools . | `sql_query` (string)                   | Query results as structured data based on the SELECT statement                         |
-| Create Table Tool            | `create_table`           | Creates a new table in Dataverse with the specified columns                                              | `table_name` (string), `columns` (array) | Confirmation of table creation with table details                                       |
-| Update Table Tool            | `update_table`           | Updates an existing table in Dataverse by adding new columns                                             | `table_name` (string), `new_columns` (array) | Confirmation of table update with new column details                                    |
-| Delete Table Tool            | `delete_table`           | Deletes a table in the Dataverse database (proceeds solely on explicit user consent)                    | `table_name` (string)                  | Confirmation of table deletion                                                          |
-| Create Record Tool           | `create_record`          | Inserts a row into a table in the Dataverse database and returns the GUID ID of the created record      | `table_name` (string), `record_data` (object) | GUID ID of the newly created record                                                     |
-| Update Record Tool           | `update_record`          | Updates a row in a table in the Dataverse database                                                       | `table_name` (string), `record_id` (GUID), `update_data` (object) | Confirmation of record update with updated field values                                 |
-| Delete Record Tool           | `delete_record`          | Deletes a row from a table in the Dataverse database (proceeds solely on explicit user consent)         | `table_name` (string), `record_id` (GUID) | Confirmation of record deletion                                                         |
-
+In addition to the Sales MCP server tools, you can also use the Dataverse MCP server tools to perform CRUD operations on the records in Dynamics 365 Sales. Learn more about the supported Dataverse MCP server tools in [Connect to Dataverse with Model Context Protocol](/power-apps/maker/data-platform/data-platform-mcp). 
 
 
 ## What can you do with the Sales MCP server?
 
 Let's explore some example scenarios to understand how you can use the Sales MCP server to enhance your sales processes with AI agents or assistants.
 
-### Scenario 1: Sales team uploads leads (event attendees) from Excel into Dynamics 365 Sales
 
-| Action performed                                                                                   | Tools used                                 | MCP Server used         |
-|----------------------------------------------------------------------------------------|---------------------------------------------|-------------------------|
-| For each event attendee, the agent gets the lead record and gets Copilot lead summary to determine if they’re a good fit | `D365_Sales_ListLeads` <br>`D365_Sales_InvokeLeadSummary`  | Sales MCP server        |
-| For each lead that is a good fit, drafts an outreach email                             | `D365_Sales_DraftOutreachEmail`                    | Sales MCP server        |
-| When a lead responds, converts lead to a new opportunity                               | `D365_Sales_QualifyLeadToOpportunity`              | Sales MCP server        |
-| If the lead confirms interest, creates a quote in Dynamics 365 Sales        | `create_record`                 | Dataverse MCP server |
-| Upon customer/seller approval, creates order in Dynamics 365 Sales          | `create_record`                 | Dataverse MCP server |
+### Example 1: Generate sales call scripts for each lead
 
-### Scenario 2: A lead comes from a marketing campaign to the website
+
+**Prompt:** Look up all the leads for kenny.smith@contoso.com, gather their account and competitor research, and write me sales phone scripts to sell GPUs to each of these leads
+
+The following text includes the truncated version of the output from Visual Studio Code + Claude:
+
+Based on the comprehensive account research I gathered, I can now create detailed sales phone scripts for each lead. Here are the scripts:
+
+Sales Phone Scripts for GPU Sales - kenny.smith@contoso.com
+Based on comprehensive account research, here are tailored sales phone scripts for each prospect:
+
+Lead 1: Microsoft - Kenny Smith (100 GPUs)
+Lead ID: 32e354c2-3b06-44fd-b722-9422e1b2c422
+Target Quantity: 100 GPUs
+Company: Microsoft
+Financial Health: Excellent ($281.7B revenue, $101.8B net income)
+
+**Sales Phone Script:**
+**Opening:**
+"Hi Kenny, this is [Your Name] from [Your Company]. I hope you're having a great day. I'm calling about your inquiry for 100 GPUs. Given Microsoft's massive $80 billion capital expenditure plan for AI infrastructure that was announced this year, I wanted to discuss how we can support your specific GPU requirements."
+
+**Research-Based Insights:**
+"I've been following Microsoft's incredible growth story - $281.7 billion in revenue with $32.5 billion in R&D investment shows your commitment to innovation. Your Azure deployment of Nvidia Hopper GPUs for large language models caught our attention, and we'd love to be part of Microsoft's continued AI infrastructure expansion."
+
+**Discovery Questions:**
+
+"Are these 100 GPUs intended for Azure's AI services expansion, or perhaps internal Microsoft AI research projects?"
+"Given Microsoft's focus on purpose-built hardware for scalable AI applications, what specific performance requirements are you targeting?"
+"How does this procurement fit into Microsoft's broader AI supercomputing infrastructure plans?"
+
+**Value Proposition:**
+"Microsoft's mission to 'empower every person and organization to achieve more' aligns perfectly with our GPU solutions:
+
+Enterprise-grade reliability for mission-critical Azure workloads
+Seamless integration with existing Microsoft AI infrastructure
+Performance optimization for Microsoft's AI-focused applications
+Scalable architecture supporting future expansion plans"
+
+**Financial Alignment:**
+"With Microsoft's strong financial position and 16% year-over-year growth driven by AI-focused Azure, I know you have the purchasing power for premium solutions. Our competitive pricing for enterprise deployments ensures optimal ROI on your AI investments."
+
+**Next Steps:**
+"I'd love to schedule a technical consultation with your Azure infrastructure team. Given Microsoft's aggressive AI timeline, would you be available for a 45-minute discussion this week to explore how our GPUs can accelerate your AI initiatives?"
+
+## Example 2: Share account research and engagement summary for a lead with colleagues
+
+Prompt: Can you get account research and engagement summary for lead 'Gregory House'. Save them in two separate document and send the word doc to <Your email id>
+
+Other servers required to be setup as prerequisites: mcp_WordServer, mcp_MailTools.
+
+The following screenshot shows the output from Visual Studio Code + Claude:  
+:::image type="content" source="media/sales-mcp-server-save-as-word-example.png" alt-text="Screenshot of the task completion notification from Visual Studio Code + Claude showing the Word document saved and email sent confirmation.":::
+
+
+### Example 3: Sales team uploads leads (event attendees) from Excel into Dynamics 365 Sales
+
+| Action performed                                                                                   | Tools used                          | MCP Server used         |
+|----------------------------------------------------------------------------------------------------|-------------------------------------|-------------------------|
+| For each event attendee, the agent gets the lead record and uses Sales Qualification Agent's lead research to determine if they’re a good fit | read_query, mcp_sales-mcp-ser_get_lead_research | Dataverse MCP server, Sales MCP Server |
+| For each lead that is a good fit, drafts an outreach email                                         | mcp_sales-mcp-ser_draft_outreach_email | Sales MCP server        |
+| When a lead responds, converts lead to a new opportunity                                           | create_record, update_record        | Dataverse MCP server    |
+| If the lead confirms interest, creates a quote in Dynamics 365 Sales                               | create_record                       | Dataverse MCP server    |
+| Upon customer/seller approval, creates order in Dynamics 365 Sales                                 | create_record                       | Dataverse MCP server    |
+
+### Example 4: A lead comes from a marketing campaign to the website
 
 The lead starts a chat: "I'm looking for metal packaging for cold pressed olive oil. Can you tell me what options you have?"
 
-| Action performed                                                                                                                                                                                           | Tools used                                         | MCP Server used                |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|-------------------------------|
-| Agent checks if they're an existing lead, fetches the lead record, and gets Copilot lead summary from Dynamics 365 Sales. Through the summary, the agent learns that the lead is a decision maker, has previously done business, and prefers sustainable packaging. | `D365_Sales_ListLeads`, `D365_Sales_InvokeLeadSummary`                   | Sales MCP server               |
-| Agent searches online to understand the type of packaging attributes olive oil requires and finds that opaque and slim bottles work best.                                                            | None required; agent uses Bing search from Copilot Studio | Not applicable                 |
-| Based on this, the agent pulls the right products from Dynamics 365 and proposes them to the customer.                                                                   | `retrieve_knowledge`                                      | Dataverse MCP server and custom connector      |
-| Optional: If the lead confirms interest, creates a quote in Dynamics 365 Sales.                                                                                          | `create_record`                                      | Dataverse MCP server |
+| Action performed                                                                                                                                         | Tools used                                      | MCP Server used                        |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|----------------------------------------|
+| Agent checks if they're an existing lead, fetches the lead record, and gets account research from Dynamics 365 Sales. Through the research, the agent learns that the company is an ideal customer for the products and prefers sustainable packaging. | `read_query`, `mcp_sales-mcp-ser_get_account_research` | Dataverse MCP Server, Sales MCP Server |
+| Agent searches online to understand the type of packaging attributes olive oil requires and finds that opaque and slim bottles work best.                 | None required; agent uses Bing search from Copilot Studio | Not applicable                         |
+| Based on this, the agent pulls the right products from Dynamics 365 and proposes them to the customer, sending them in an email.                          | `retrieve_knowledge`, `mcp_sales-mcp-ser_draft_outreach_email` | Dataverse MCP Server, Sales MCP Server |
+| The agent sends a summary of the lead's engagement history (including their responses to the outreach email sent earlier and their intent to purchase) to the account manager | `mcp_sales-mcp-ser_get_engage_summary`, `SendEmailWithAttachmentsAsync` | Sales MCP Server, Mail MCP Server      |
+
 
 ## Related information
 
