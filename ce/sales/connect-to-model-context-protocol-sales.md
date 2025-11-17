@@ -31,14 +31,11 @@ Model Context Protocol (MCP) is a powerful new standard that enables seamless in
 Ensure that the following prerequisites are met:
 
 - You have admin permissions in Dynamics 365 Sales.  
-- You have a Copilot Studio license. Learn more in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).  
-- Your Dataverse Model Context Protocol (MCP) server is set up and running. Learn more in [Connect to Dataverse with Model Context Protocol (preview)](/power-apps/maker/data-platform/data-platform-mcp).
+- You have a Copilot Studio license. Learn more in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).
 
-## Integrate Sales MCP Server with AI agents and assistants
+## Connect AI agents to Sales MCP Server
 
-You can integrate the Sales MCP server with your Microsoft Copilot Studio agent, or any other AI agent or assistant that supports the MCP standard, except for Claude Desktop.
-
-The steps for connecting to the Sales MCP server are similar to that of the Dataverse MCP server. 
+You can integrate the Dynamics 365 Sales MCP Server(preview) with your Microsoft Copilot Studio agent, or any other AI agent or assistant that supports the MCP standard, except for Claude Desktop.
 
 - To connect to the Sales MCP server in Microsoft Copilot Studio, follow the steps in [Add tools and resources from a Model Context Protocol (MCP) server to your agent](/microsoft-copilot-studio/mcp-add-components-to-agent).
 
@@ -77,10 +74,6 @@ These tools allow you to list leads, qualify leads, and draft and send outreach 
 The following table lists the tools supported by the Sales Qualification Agent in Dynamics 365 Sales. Make sure that the agent is configured and turned on. Learn more in [Set up and configure the Sales Qualification Agent](configure-sales-qualification-agent.md).
 
 
-### Sales Qualification Agent tools
-
-The following table lists the tools supported by the Sales Qualification Agent in Dynamics 365 Sales.
-
 | Tool Name (Friendly)         | API Name                                         | Purpose                                                      | Parameter(s)                | Returns                                                                                 |
 |------------------------------|--------------------------------------------------|--------------------------------------------------------------|-----------------------------|-----------------------------------------------------------------------------------------|
 | Account Research Tool        | `mcp_sales-mcp-ser_get_account_research`         | Retrieve comprehensive account research data                 | `msdyn_LeadId` (string)     | Financial information, company overview, strategic goals, recent news                   |
@@ -89,7 +82,6 @@ The following table lists the tools supported by the Sales Qualification Agent i
 | Lead Qualification Tool      | `mcp_sales-mcp-ser_get_lead_qualification_assessment` | Get comprehensive lead qualification assessment against ICP criteria | `LeadId` (string)           | ICP standards evaluation, qualification ranking, overall assessment                     |
 | Lead Research Tool           | `mcp_sales-mcp-ser_get_lead_research`            | Retrieve detailed lead research and individual prospect analysis | `msdyn_LeadId` (string)     | Professional background, decision-making authority, preferences                         |
 | Outreach Email Generation Tool | `mcp_sales-mcp-ser_draft_outreach_email`        | Draft personalized sales qualification agent outreach emails | `LeadId` (string)           | Personalized email subject and body with company-specific insights                      |
-
 
 
 ### Dataverse MCP server tools
