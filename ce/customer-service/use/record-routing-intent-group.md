@@ -59,7 +59,7 @@ Select **Detailed view** to view metrics by intent and representative.
 |Metrics | Definition  |
 |---------|---------|
 |Intent name|	Name of intent set by the administrator to be tracked per record type work item. |
-|Assigned work items|	Number of record type work items modified in the last 2 hours and currently assigned  per intent name. |Assigned work items = Auto assigned work items + Manually assigned work items.|
+|Assigned work items|	Number of record type work items modified in the last 2 hours and currently assigned  per intent name. Assigned work items = Auto assigned work items + Manually assigned work items.|
 |Unassigned work items|	Number of record type work items modified in the last 2 hours and currently unassigned per intent name.|
 |Longest wait time (hh:mm:ss)|	Waiting time until the representative accepts the work item per intent name.|
 
