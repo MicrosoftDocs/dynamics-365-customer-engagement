@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 11/13/2025
+ms.date: 11/17/2025
 ms.custom: bap-template
 ---
 
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Organizations set up intents and intent groups for the contact center to handle. Real-time analytics empower contact center supervisors to effectively monitor conversations and track operational metrics using intent attributes. This capability enhances decision-making by providing immediate insights into customer interactions, allowing supervisors to identify trends, optimize agent performance, and ensure that customer queries are resolved efficiently. By using intent attributes, supervisors can gain a deeper understanding of customer intent and improve overall service quality, driving business value through enhanced operational efficiency and customer satisfaction.
+Organizing contact center data by intent, intent groups, and line of business enables supervisors to monitor and track record type work items effectively. This structured approach improves service quality and operational efficiency, driving higher customer satisfaction.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -31,21 +31,47 @@ As part of visual customization, all record routing dashboards including **Summa
 
 You see the report after 24 hrs of provisioning. If you don't enable Customer Intent Agent, you might still see data measures related to intent. However, you don't see any conversation or case-related information in the report.
 
-## Metrics
+
+## Metrics by Intent Group
 
 |Metrics | Definition  |
 |---------|---------|
-|Conversations in queue    |    Conversations that are currently waiting in queue to be assigned.      |
-|Agents online     |     Number of Agents that are currently online based on the time slicer.     |
-|Agents in wrap-up conversations    |   Service representatives who finished interacting with the customer but are still completing post-conversation tasks before closing the session.        |
-|Average session handle time | Average Session Handle Time = Total handle time across sessions / Number of sessions handled. |
-|Longest wait time| Longest wait time is a measure of the longest first wait time among unaccepted incoming conversations. |
-|Conversations abandoned rate | The abandoned rate refers to the percentage of incoming conversation requests that are terminated before a representative engages with the customer. |
-|Logged in agents | Logged in service representatives is the number of representatives who are currently logged in and aren't in Offline status. |
-|Agents available | Service representatives who are currently in **Available** status. |
-|Average handle time (hh:mm:ss)| Total handle time divided by the number of conversations handled.|
-|Engaged conversations | Conversations handled by the service representative. |
-|Transfer rate | Session transfer rate is the total transfers within a conversation across sessions over the total conversations. |
+|Unassigned work items|	Number of record type work items modified in the last 2 hours and are unassigned currently within the intent group.|
+|Assigned work item|	Number of record type work items modified in the last 2 hours and are assigned currently within intent group. |Assigned work items = Auto assigned work items + Manually assigned work items.|
+|Longest wait time|	Waiting time until the agent accepts the work item per intent group.|
+|Agents online|	Number of customer service representatives (service representatives or representatives) who have logged in per intent group|
+|Agents available|	Number of customer service representatives (service representatives or representatives) who are in Available status per intent group|
+|Active sessions|	Number of active sessions the representative is in, and modified in the last 2 hours per intent group|
+vClosed sessions|	Number of closed sessions the representative is in, and modified in the last 2 hours per intent group|
+
+
+## Drilldown
+|Metrics | Definition  |
+|---------|---------|
+|Assigned work items|	Number of record type work items modified in the last 2 hours and are assigned currently. Assigned work items = Auto assigned work items + Manually assigned work items.|
+|Unassigned work items|	Number of record type work items modified in the last 2 hours and are unassigned currently.|
+|Agents with active work items|	Number of customer service representatives (service representatives or representatives) that are currently with active record type work items.|
+|Agents online|	Number of customer service representatives (service representatives or representatives) who have logged in|
+|Transferred work itemsv	Number of record type work items that are either agent transfer or transferred to a queue|
+
+## Metrics by intent
+
+|Metrics | Definition  |
+|---------|---------|
+|Intent name|	Name of intent set by admin to be tracked per record type workitems|
+|Assigned work items|	Number of record type work items modified in the last 2 hours and are assigned currently per intent name. |Assigned work items = Auto assigned work items + Manually assigned work items.|
+|Unassigned work items|	Number of record type work items modified in the last 2 hours and are unassigned currently per intent name.|
+|Longest wait time (hh:mm:ss)|	Waiting time until the agent accepts the work item per intent name.|
+
+
+## Metrics by agent
+|Metrics | Definition  |
+|---------|---------|
+|Agent name|	Name of agent set to the specific intent|
+|Assigned work items|	Number of record type work items modified in the last 2 hours and are assigned currently to specific agent. Assigned work items = Auto assigned work items + Manually assigned work items.|
+|Transferred work items|	Number of record type work items that are transferred to an agent and currently assigne to this agent|
+|Active sessions|	Number of active sessions the representative is in, and modified in the last 2 hours.|
+|Closed sessions|	Number of closed sessions the representative is in, and modified in the last 2 hours.|
 
 
 ## Drill-down 
@@ -56,4 +82,4 @@ Drill down on the **Metrics by intent group**, and then select **Detailed view**
 
 [Manage real-time analytics for record routing](../administer/enable-record-routing.md#manage-real-time-analytics-for-record-routing)  
 [Overview of real-time analytics for record routing](rr-overview.md#overview-of-real-time-analytics-for-record-routing)  
-[Record routing in the Agent group report](record-routing-agent-group.md)
+[Record routing in the Agent group report](record-routing-user-group.md)
