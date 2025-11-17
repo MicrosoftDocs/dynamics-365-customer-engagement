@@ -31,7 +31,7 @@ The real-time analytics for record routing dashboard is disabled by default. To 
 1.  Optionally, select the **Add real-time analytics for record routing for intent** to get insights into the performance of routed records by intent. Real-time 
 
 
-:::image type="content" source="../media/csac-record-routing.png" alt-text="Screenshot of the record routing option from the Copilot Service admin center":::
+    :::image type="content" source="../media/csac-record-routing.png" alt-text="Screenshot of the record routing option from the Copilot Service admin center":::
 
 > [!NOTE]
 > The reports retain their current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the steps provided [here](analytics_overview.md#keep-the-report-state-when-you-switch-session-tabs) to keep the report state.
