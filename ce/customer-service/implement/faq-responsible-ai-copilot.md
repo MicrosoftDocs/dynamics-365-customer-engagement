@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: faq
 ms.collection: bap-ai-copilot
-ms.date: 07/30/2025
+ms.date: 11/17/2025
 ms.update-cycle: 180-days
 ms.custom: 
 - bap-template
@@ -38,9 +38,12 @@ Copilot provides the following main features:
 - **Summarize a conversation**: Copilot provides representatives with a summary of a conversation at key points throughout the customer journey such as virtual representative handoffs, transfers and on demand.
 
 - **Generate knowledge draft from case (preview)**: Copilot generates a knowledge article draft as a proposal that's based on information from the case. Representatives can review and refine the draft by giving revision instructions to Copilot and then save it.
+  
 - **Summarize a custom record**: Copilot provides representatives with a summary of a record based on fields that the administrator configures for the custom table so that representatives can quickly catch up on the important details of a support record.
 
 - **Generate resolution notes**: Copilot provides representatives with a summary of case details, emails, and notes linked to the case on the **Ask a question** tab, so they can close the case or incident faster.
+  
+- **Forecast with AI‑assisted best‑fit method selection (preview)**: Adds intelligence to forecast scenarios by recommending and applying the most suitable forecasting method based on scenario inputs. Administrators can opt in during setup and choose between the traditional approach and the AI‑based option. Supervisors can also run forecasts on demand instead of waiting for scheduled runs, giving teams flexibility and faster insights.
 
 ## What is the system’s intended use?
 
