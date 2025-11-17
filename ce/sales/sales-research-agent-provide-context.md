@@ -29,11 +29,10 @@ You can provide two types of context in natural business language:
 
 ## Set the context and instructions for the Sales Research Agent
 
-1. In the Sales Hub site map, go to **My Work** > **Sales Research Agent**.
-   The **Sales Research Agent** page opens with a few predefined research topics.
-
-1. Select the **Manage your context** icon at the top of the page.
+1. In the Sales Hub site map, go to **My Work** > **Sales Research Agent**.  
    The Sales Research Agent page opens with the predefined business functions, such as Pipeline Exploration and Sales Operation.
+
+1. Select the **Manage your context** icon at the top of the page.  
    :::image type="content" source="media/sales-research-agent-manage-context.png" alt-text="Screenshot of the Manage your context icon and the context settings.":::
 1. To create a business function, under the **Business function** section, select **Add**. 
     - Enter a meaningful name for the business function that reflects its purpose. For example, "Market Research." This name will appear on the home page of the Sales Research Agent page, next to the existing business functions.
