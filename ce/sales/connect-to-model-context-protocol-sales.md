@@ -32,23 +32,56 @@ Ensure that the following prerequisites are met:
 
 - You have admin permissions in Dynamics 365 Sales.  
 - You have a Copilot Studio license. Learn more in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).
+- Allow access to Dataverse MCP Server from MCP clients. Learn more in [Configure the Dataverse MCP server for an environment](/power-apps/maker/data-platform/data-platform-mcp-disable)
+- If you've previously connected to the Dynamics 365 Sales MCP server (preview), delete the connection as it's now deprecated and will be removed soon.
 
-## Connect AI agents to Sales MCP Server
+## Connect your AI agents and assistants to Sales MCP Server
 
-You can integrate the Dynamics 365 Sales MCP Server(preview) with your Microsoft Copilot Studio agent, or any other AI agent or assistant that supports the MCP standard, except for Claude Desktop.
+You can integrate the Sales MCP server with your Microsoft Copilot Studio agent, or any other AI agent or assistant that supports the MCP standard. Claude Desktop is not supported at this time.
 
-- To connect to the Sales MCP server in Microsoft Copilot Studio, follow the steps in [Add tools and resources from a Model Context Protocol (MCP) server to your agent](/microsoft-copilot-studio/mcp-add-components-to-agent).
+### Connect Sales MCP Server to Copilot Studio agent
 
-- To connect to the Sales MCP server in Claude, follow the steps in [Configure and use the Dataverse MCP server in Claude](/power-apps/maker/data-platform/data-platform-mcp#configure-and-use-the-dataverse-mcp-server-in-claude). 
-- To connect to the Sales MCP server in Visual Studio Code, follow the steps in [Configure and use your MCP client with VS Code](/power-apps/maker/data-platform/data-platform-mcp#configure-and-use-your-mcp-client-with-vs-code).
+To connect to the Sales MCP server in Microsoft Copilot Studio, follow the steps in [Add tools and resources from a Model Context Protocol (MCP) server to your agent](/microsoft-copilot-studio/mcp-add-components-to-agent). 
 
 > [!NOTE]
->- Ensure to select **Dynamics 365 Sales MCP server (preview)** when prompted to select the MCP server. If you want to perform CRUD operations on Dataverse records, connect to the **Dataverse MCP server** as well.
->- If your existing Sales MCP server is marked as deprecated, delete it and add the new Sales MCP server connection.
- 
-The following screenshot shows the Dataverse and Sales MCP servers and the tools available in each of them in Visual Studio Code:
+> Ensure to select **Dynamics 365 Sales MCP server (preview)** when prompted to select the MCP server. If you want to perform CRUD operations on Dataverse records, connect to the **Dataverse MCP server** as well.
 
-:::image type="content" source="media/sales-model-context-protocol-in-vscode.png" alt-text="Screenshot of the MCP servers and tools available in the Sales MCP server in Visual Studio Code.":::
+### Connect Sales MCP Server to Github Copilot in Visual Studio Code
+
+To connect to the Sales MCP server with Github Copilot in Visual Studio Code, follow these steps:
+
+1. Download and open Visual Studio Code
+
+1. Press Ctrl + Shift + P - type in **MCP** and select **MCP:Open User Configuration**. to open the `mcp.json` config file.
+1. Add the server URL for Dynamics 365 Sales and Dynamics 365 Dataverse MCP Servers using:
+    - For Dataverse, use the orgID in the URL. For example: Northwind.crm10.dynamics.com
+
+    - For Dynamics 365 Sales, use the environmentID. For example: 00aa00aa-bb11-cc22-dd33-44ee44ee44ee
+    - Optional: If you want to send emails as well, you can add the Mail MCP Server, with the same Dynamics 365 environment ID.
+   The following is a sample configuration:
+    
+    ```json
+    {
+            "servers": {
+                "Dataverse-mcp-server": {
+                    "url": "Northwind.crm10.dynamics.com/api/mcp",
+                    "type": "http"
+                },
+                "Sales-mcp-server": {
+                    "url": "https://Northwind.crm10.dynamics.com/mcp/environments/00aa00aa-bb11-cc22-dd33-44ee44ee44ee/servers/msdyn_SalesMCPServer",
+                    "type": "http" 
+                },
+                "Mail-server": {
+                    "url": "https://Northwind.crm10.dynamics.com/mcp/environments/00aa00aa-bb11-cc22-dd33-44ee44ee44ee/servers/mcp_MailTools",
+                    "type": "http"
+                },
+                
+            },
+            "inputs": []
+        }
+    ```
+4. Select **Start** on all the servers
+5. Press Ctrl + Alt + I to open the Github Copilot chat pane and choose any agent (For example, Claude Sonnet 4).
 
 
 ## Tools supported
