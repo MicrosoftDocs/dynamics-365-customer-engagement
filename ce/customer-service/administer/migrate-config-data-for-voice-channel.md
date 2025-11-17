@@ -53,7 +53,7 @@ The following prerequisites must be met:
 
 > [!IMPORTANT]
 >
-> The migration of the account, channel, Azure Communication Services phone number acquisition, phone number configuration, bot configuration, and AI and analytics settings is not in scope.
+> The migration of the account, channel, Azure Communication Services phone number acquisition, phone number configuration, bot configuration, and AI and analytics settings is not in scope. You can't migrate phone number (msdyn_phonenumberid) column because records in Phone Number table are environment-specific. You need to assign phone number manually in destination environment.
 
 ## Migrate the voice channel configuration
 
