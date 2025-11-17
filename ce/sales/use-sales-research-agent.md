@@ -31,7 +31,8 @@ Ask the agent a question about your business data, and it will generate a bluepr
     > [!NOTE]
     > The agent availability is subject to usage limits and capacity throttling. If your organization doesn't have enough credits, you won't be able to generate a blueprint or interact with it. Reach out to your administrator to increase Copilot Studio capacity.
 
-1. (Optional) Select a business function to provide context to the agent for your research. By default, the Pipeline Exploration business function is selected. Depending on the function you select, the agent tailors its responses to fit the context and instructions defined for that function. From the same data, the agent might generate different blueprints based on the selected business function. Learn more about defining business functions in [Provide context to enhance the Sales Research Agent](sales-research-agent-provide-context.md). The following screenshot shows the out-of-box business functions:
+1. (Optional) Select a business function to provide context to the agent for your research. By default, the Pipeline Exploration business function is selected. Depending on the function you select, the agent tailors its responses to fit the context and instructions defined for that function. From the same data, the agent might generate different blueprints based on the selected business function. Learn more about defining business functions in [Provide context to enhance the Sales Research Agent](sales-research-agent-provide-context.md).  
+   The following screenshot shows the out-of-box business functions:  
    :::image type="content" source="media/sales-research-agent-select-business-function.png" alt-text="Screenshot of selecting a business function in the Sales Research Agent." lightbox="media/sales-research-agent-select-business-function.png":::
 
 1. Do one of the following actions:
