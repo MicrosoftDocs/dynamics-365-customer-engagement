@@ -39,7 +39,7 @@ The following screenshot illustrates the Form fill assist toolbar in a lead form
 
 ## Use form fill assistance
 
-Copilot assistance for filling forms generates suggestions for blank form fields in model-driven apps. Suggestions are generated only for the tab that is open. They're presented inline in the form. Suggestions are entirely optional and aren't saved in the app until you accept them. To learn more about a suggestion, hover over the field, and specifically hover over the information icon. This is a citation, and identifies the source of a specific suggestion, for example "Records you have updated recently" or "Clipboard". Learn more about using the feature in [Use form fill assistance](power-apps/user/form-filling-assistance#use-form-fill-assistance). 
+Copilot assistance for filling forms generates suggestions for blank form fields in model-driven apps. Suggestions are generated only for the tab that is open. They're presented inline in the form. Suggestions are entirely optional and aren't saved in the app until you accept them. To learn more about a suggestion, hover over the field, and specifically hover over the information icon. This is a citation, and identifies the source of a specific suggestion, for example "Records you have updated recently" or "Clipboard". Learn more about using the feature in [Use form fill assistance](/power-apps/user/form-filling-assistance#use-form-fill-assistance).
 
 ## Use smart paste (preview)
 
