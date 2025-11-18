@@ -80,7 +80,7 @@ To connect to the Sales MCP server with Github Copilot in Visual Studio Code, fo
             "inputs": []
         }
     ```
-4. Select **Start** on all the servers
+4. Select **Start** on all the servers.
 5. Press Ctrl + Alt + I to open the Github Copilot chat pane and choose any agent (For example, Claude Sonnet 4).
 
 
@@ -152,7 +152,7 @@ Scalable architecture supporting future expansion plans"
 **Next Steps:**
 "I'd love to schedule a technical consultation with your Azure infrastructure team. Given Microsoft's aggressive AI timeline, would you be available for a 45-minute discussion this week to explore how our GPUs can accelerate your AI initiatives?"
 
-## Example 2: Share account research and engagement summary for a lead with colleagues
+### Example 2: Share account research and engagement summary for a lead with colleagues
 
 Prompt: Can you get account research and engagement summary for lead 'Gregory House'. Save them in two separate document and send the word doc to <Your email id>
 
