@@ -69,17 +69,17 @@ You can provide two types of context in natural business language:
 
     For clarity, add separate instructions on different lines starting with hyphens and add terms in quotation marks. For example: 
     ```
-    - "Cross-sell threshold" measures the percentage of customer accounts with deals that involve products from at least three product groups.  
-    - "Cross-sell threshold" for a territory should be at least 80% to be considered positive. 
-    - "Cross-sell threshold" for a business segment should be at least 60% to be considered positive.```
+    -"Cross-sell threshold" measures the percentage of customer accounts with deals that involve products from at least three product groups.  
+    -"Cross-sell threshold" for a territory should be at least 80% to be considered positive. 
+    -"Cross-sell threshold" for a business segment should be at least 60% to be considered positive.```
 
 1. In the **Data instructions** box, specify how the agent should interpret and use the data from your connected data sources, such as highlighting relationships, filters, joins, columns, or conditions. This field is useful if the agent does not understand all your custom business logic or schema customizations on its own.  
 
     For clarity, add separate instructions on different lines starting with hyphens and use quotation marks for column names. For example:  
 
     ```
-    - Use 'ProductGroupName' column when analyzing by product unless explicitly instructed otherwise. 
-    - For committed pipeline, filter by recommendation = 'Committed' or 'Committed at risk'.```
+    -Use 'ProductGroupName' column when analyzing by product unless explicitly instructed otherwise. 
+    -For committed pipeline, filter by recommendation = 'Committed' or 'Committed at risk'.```
 
 1.  (Optional) Select **Configure advanced settings** to add seeded prompts and data sources for the business function:
     - Add a seeded prompt to get started quickly with common questions related to that business function. Seeded prompts are displayed on the homepage for easy access whenever you select the business function.
