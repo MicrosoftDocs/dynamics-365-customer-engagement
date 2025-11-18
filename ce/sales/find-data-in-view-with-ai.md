@@ -20,8 +20,11 @@ ai-usage: ai-assisted
 
 # Find data in a view with AI in Dynamics 365 Sales
 
-You can find, filter, and sort data in views using natural language queries instead of applying complicated filter criteria. 
+You can find, filter, and sort data in views using natural language queries instead of applying complicated filter criteria. You can review the filters applied and modify them if needed to refine your results. Learn more about the prerequisites and limitations in the [Power Apps documentation](/power-apps/user/find-data-with-ai)
 
+Enter your question in natural language in the search box above the read-only grid of the view. Copilot interprets your question and applies relevant filters to display the matching records in the view. Select the filter  (:::image type="icon" source="media/filter-icon.png" border="false":::) to see and modify the filters applied.
+
+:::image type="content" source="media/smart-search.png" alt-text="Screenshot of the natural language search in My Open Leads view and the applied filters":::
 
 ## Example usage
 

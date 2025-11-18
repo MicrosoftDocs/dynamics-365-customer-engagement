@@ -20,7 +20,7 @@ ai-usage: ai-assisted
 
 # Fill forms effortlessly with AI assistance
 
-With AI-powered form fill assistance feature in Dynamics 365 Sales, you can streamline data entry in main and quick create forms. When this feature is enabled, you receive AI-generated suggestions for populating form fields, along with the source of the suggestions.
+With AI-powered form fill assistance feature in Dynamics 365 Sales, you can streamline data entry in main and quick create forms. When this feature is enabled, you receive AI-generated suggestions for populating form fields, along with the source of the suggestions. These suggestions help you fill forms quickly and accurately. Suggestions are optional and will only be applied after you review and accept them.
 
 Suggestions are provided based on the following sources: 
 
@@ -28,36 +28,21 @@ Suggestions are provided based on the following sources:
 - By extracting relevant details from text you paste using the Smart paste (Preview) feature.
 - By identifying information from files you upload through the Files (Preview) feature.
 
-These AI-generated suggestions help you fill forms more quickly and accurately. Suggestions are optional and will only be applied if you review and accept them. Learn more about [using AI-powered form fill assistance](/power-apps/user/form-filling-assistance).
+These AI-generated suggestions are available to all model-driven apps in Dynamics 365, including the Sales Hub app and custom apps. Learn more about prerequisites, limitations, and using the AI-powered form fill assistance in the [Power Apps documentation](/power-apps/user/form-filling-assistance). The links in the following sections point to the specific sections in the Power Apps documentation that explain how to use each feature in model-driven apps.
+
+## Use form fill assistance
+
+Copilot assistance for filling forms generates suggestions for blank form fields in model-driven apps. Suggestions are generated only for the tab that is open. They're presented inline in the form. Suggestions are entirely optional and aren't saved in the app until you accept them. To learn more about a suggestion, hover over the field, and specifically hover over the information icon. This is a citation, and identifies the source of a specific suggestion, for example "Records you have updated recently" or "Clipboard". Learn more about using the feature in [Use form fill assistance](power-apps/user/form-filling-assistance#use-form-fill-assistance). 
 
 ## Use smart paste (preview)
 
-Smart paste is an AI-assisted data entry feature that analyzes the content on your clipboard and suggests values for relevant fields in your CRM form. It intelligently detects names, email addresses, company details, phone numbers, and more, and maps them to the correct fields, saving you from typing everything manually. For information about prerequisites and limitation, see [AI-powered form fill assistance](/power-apps/user/form-filling-assistance).
- 
-To use Smart Paste (Preview):
+Smart paste is an AI-assisted data entry feature that analyzes the content on your clipboard and suggests values for relevant fields in your CRM form. It intelligently detects names, email addresses, company details, phone numbers, and more, and maps them to the correct fields, saving you from typing everything manually.Copy relevant content: Copy text or images from an email, business card, website, or any source that includes lead or contact information.
 
-1. Copy text or images from an email, business card, website, or any source that includes lead or contact information. 
-
-1. Select the **Smart paste** icon (:::image type="icon" source="media/smart-paste.png" border="false":::) on your form, or use the keyboard shortcut Ctrl + V (Windows) or Cmd + V (Mac) when no specific field is selected. Smart paste will reason over both your form and clipboard content to generate AI-based suggestions.
-   The system highlights suggested field values inline. 
-1. Review the suggestions and choose to:
-    - Accept all or individual suggestions.
-    - Ignore suggestions you don’t want to use.
-    - Manually edit or refine any field before saving.
-
+Copy text or images from emails, business cards, websites, or any source that includes lead or contact information, and select the **Smart paste** icon (:::image type="icon" source="media/smart-paste.png" border="false":::) on your form with no specific field selected to get AI-based suggestions. Learn more about using the feature in [Use smart paste (Preview)](/power-apps/user/form-filling-assistance#use-smart-paste-preview).
 
 ## Use files (preview)
 
-Files (Preview) is an AI-assisted data entry feature that analyzes uploaded files and suggests values for relevant fields in your CRM form. It can extract information from various file types, such as business cards or documents, and map them to the correct fields, saving you time and effort. For information about prerequisites and limitation, see [AI-powered form fill assistance](/power-apps/user/form-filling-assistance).
-
-To use Files (Preview):
-
-1. On a Dynamics 365 Sales form, drop the file you want to upload onto the form, or select the **+** icon to browse and upload the file.
-   The system analyzes the file, extracts relevant information, and populates the form fields with suggested values.
-1. Review the suggestions and choose to:
-    - Accept all or individual suggestions.
-    - Ignore suggestions you don’t want to use.
-    - Manually edit or refine any field before saving.
+Files (Preview) is an AI-assisted data entry feature that analyzes uploaded files and suggests values for relevant fields in your CRM form. It can extract information from various file types, such as business cards or documents, and map them to the correct fields, saving you time and effort. Learn more about using the feature in [Use toolbar and files (Preview)](/power-apps/user/form-filling-assistance#use-toolbar-and-files-preview).
 
 ## Example scenarios
 
@@ -71,7 +56,15 @@ Reduce repetitive data entry and ensure consistency when creating records based 
 
 - **Creating related records:** When adding a new contact for a company already in your system, AI suggests the parent account, office location, and other company-specific details, ensuring data consistency across all related records.
 
-- **Recurring business patterns:** For subscription-based businesses or repeat customers, AI recognizes patterns and suggests opportunity values like deal size, expected close dates, and sales stages based on similar historical deals with the same customer type.
+### Smart paste (preview) scenarios
+
+Transform unstructured information from emails, websites, and documents into structured CRM data, saving time and improving data capture accuracy.
+
+- **Email-to-lead conversion:** A sales rep receives an inquiry email saying "Hi, I'm John Smith from Fabrikam Corp. We're looking for a CRM solution. You can reach me at john.smith@fabrikam.com or 555-123-4567." By copying this text and using smart paste in a new lead form, AI automatically populates the name, company, email, and phone fields.
+
+- **Web research data entry:** While researching a prospect's website, a sales rep copies the "About Us" or "Contact" page content. When creating a new account or lead record, smart paste analyzes the copied text and suggests values for company description, industry, key personnel names, and contact information.
+
+- **LinkedIn profile information:** After viewing a prospect's LinkedIn profile, a sales rep can copy their experience section. Smart paste intelligently extracts current job title, company name, and work history to populate contact and account fields, ensuring up-to-date professional information.
 
 ### Files (preview) scenarios
 
@@ -81,14 +74,4 @@ Eliminate manual transcription from physical documents and reduce errors when di
 
 - **Document-based lead generation:** When prospects send company brochures or proposal documents, AI can extract key business information like company details, decision-maker names, and contact information to create comprehensive lead records without manual typing.
 
-### Smart paste (preview) scenarios
 
-Transform unstructured information from emails, websites, and documents into structured CRM data, saving time and improving data capture accuracy.
-
-- **Email-to-lead conversion:** A sales rep receives an inquiry email saying "Hi, I'm John Smith from Fabrikam Corp. We're looking for a CRM solution. You can reach me at john.smith\@fabrikam.com or 555-123-4567." By copying this text and using smart paste in a new lead form, AI automatically populates the name, company, email, and phone fields.
-
-- **Web research data entry:** While researching a prospect's website, a sales rep copies the "About Us" or "Contact" page content. When creating a new account or lead record, smart paste analyzes the copied text and suggests values for company description, industry, key personnel names, and contact information.
-
-- **LinkedIn profile information:** After viewing a prospect's LinkedIn profile, a sales rep can copy their experience section. Smart paste intelligently extracts current job title, company name, and work history to populate contact and account fields, ensuring up-to-date professional information.
-
-- **Meeting notes transcription:** Following a discovery call, a sales rep copies notes like "Sarah mentioned they have 500 employees, annual revenue around $50M, currently using Salesforce, decision timeline is Q2 next year." Smart paste can extract and suggest values for employee count, revenue, competitor information, and timeline fields in the opportunity record.

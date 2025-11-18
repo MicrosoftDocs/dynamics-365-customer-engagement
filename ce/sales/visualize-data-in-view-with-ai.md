@@ -20,5 +20,13 @@ ai-usage: ai-assisted
 
 # Visualize data in view with AI in Dynamics 365 Sales
 
-AI-powered data visualization in Dynamics 365 Sales enables you to create intelligent charts, graphs, and visual representations of your view data. This feature automatically suggests the most appropriate visualization types based on your data and provides insights to help you make better business decisions.
+Copilot enables you to visualize the data in the view in the form of a chart to help you understand trends, patterns, and relations in your data easily. The visualization is interactive, based on the visible columns in the view, and can be personalized to support further data exploration.
 
+In the read-only grid view, select **Visualize** to view the data in chart format.
+
+:::image type="content" source="media/smart-chart.png" alt-text="Screenshot of the Visualize option in the My Open Leads view.":::
+
+> [!NOTE]
+> If you don't see the **Visualize** option, review the prerequisites and limitations in the [Power Apps documentation](/power-apps/user/visualize-data-in-copilot).
+
+The chart is generated based on the data in the view. You can interact with the chart to explore the data further. You can hover over data points to see more details, and select a data point to drill down and change the chart type. Learn more in [Visualize data in a view with Copilot (preview)](/power-apps/user/visualize-data-in-copilot).    
