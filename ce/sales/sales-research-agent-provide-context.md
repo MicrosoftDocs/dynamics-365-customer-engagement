@@ -25,7 +25,9 @@ You can provide two types of context in natural business language:
 
 - **General context**: Includes information that’s relevant regardless of the topic the agent researches. This includes information about your role, industry, fiscal year, and currency. For example, you can add your organization's fiscal year start, so that the agent can map language in prompts like “Q1” or “this fiscal year” to the correct time period.
 
-- **Business function**: (Optional) Provides the agent with a role, context, and instructions that are relevant for specific use cases. For example, create one business function to reflect how your org approaches market research and a separate business function for win/loss analysis. You can select which business function to use when researching a business question. Creating business function is totally optional. We recommend that you try the agent first with just the general context. Later, you can define business functions if you have the following needs:
+- **Business function**: (Optional) Provides the agent with a role, context, and instructions that are relevant for specific use cases. For example, create one business function to reflect how your org approaches market research and a separate business function for win/loss analysis. You can select which business function to use when researching a business question. 
+
+    Creating business function is totally optional. We recommend that you try the agent first with just the general context. Later, you can define business functions if you have the following needs:
     - You have a need to define custom fields or logic
 
     - You want more control over how data is displayed or interpreted
@@ -71,7 +73,8 @@ You can provide two types of context in natural business language:
     ```
     -"Cross-sell threshold" measures the percentage of customer accounts with deals that involve products from at least three product groups.  
     -"Cross-sell threshold" for a territory should be at least 80% to be considered positive. 
-    -"Cross-sell threshold" for a business segment should be at least 60% to be considered positive.```
+    -"Cross-sell threshold" for a business segment should be at least 60% to be considered positive.
+    ```
 
 1. In the **Data instructions** box, specify how the agent should interpret and use the data from your connected data sources, such as highlighting relationships, filters, joins, columns, or conditions. This field is useful if the agent does not understand all your custom business logic or schema customizations on its own.  
 
@@ -79,7 +82,8 @@ You can provide two types of context in natural business language:
 
     ```
     -Use 'ProductGroupName' column when analyzing by product unless explicitly instructed otherwise. 
-    -For committed pipeline, filter by recommendation = 'Committed' or 'Committed at risk'.```
+    -For committed pipeline, filter by recommendation = 'Committed' or 'Committed at risk'.
+    ```
 
 1.  (Optional) Select **Configure advanced settings** to add seeded prompts and data sources for the business function:
     - Add a seeded prompt to get started quickly with common questions related to that business function. Seeded prompts are displayed on the homepage for easy access whenever you select the business function.
