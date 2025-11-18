@@ -2,10 +2,10 @@
 title: Show customers their position in a queue
 description: Learn how to show customers their queue position when they're waiting in queue to be connected with a representative in Dynamics 365 Contact Center.
 ms.date: 11/17/2025
-ms.topic: conceptual
-author: lalexms
-ms.author: laalexan
-ms.reviewer: laalexan
+ms.topic: how-to
+author: neeranelli
+ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Show customers their position in a queue
@@ -14,7 +14,7 @@ ms.reviewer: laalexan
 
 When enabled, the system notifies a customer of their position in the queue and the average wait time when they're waiting to chat or speak with a customer service representative (service representative or representative). This feature helps set customer expectations when wait times are longer due to higher volumes of customers needing support, understaffed, or longer-than-expected handle times (for example, new issues or new service representatives). Knowing their queue position can help the customer decide whether to wait in the queue or come back later.
 
-When this feature is turned on, a customer who submits a request when other customers already are waiting is placed in the queue and notified with the following message: **People ahead of you: \<n\>.**
+When this feature is turned on, when other customers are already waiting and another customer submits a conversation request, the newest customer is placed in the queue and notified with the following message: **People ahead of you: \<n\>.**
 
 The number of customers waiting to chat or speak gets updated each time a customer in line is served. When no other customer is ahead in the queue, the waiting customer is notified with the message: **You’re next in line…**. The notification to customers goes at an interval of every 30 seconds if the queue position is fewer than 150 items. The frequency is 60 seconds when the queue position is greater than 150 items.
 

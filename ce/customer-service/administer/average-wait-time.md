@@ -3,9 +3,9 @@ title: Show customers their average wait time in a queue
 description: Learn how to show customers their average wait time when they're waiting to be assigned to a representative in Dynamics 365 Contact Center.
 ms.date: 11/17/2025
 ms.topic: how-to
-author: lalexms
-ms.author: laalexan
-ms.reviewer: laalexan
+author: neeranelli
+ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Show customers their average wait time in a queue
