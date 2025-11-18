@@ -25,37 +25,69 @@ You can provide two types of context in natural business language:
 
 - **General context**: Includes information that’s relevant regardless of the topic the agent researches. This includes information about your role, industry, fiscal year, and currency. For example, you can add your organization's fiscal year start, so that the agent can map language in prompts like “Q1” or “this fiscal year” to the correct time period.
 
-- **Business function**: Provides the agent with a role, context, and instructions that are relevant only for specific use cases. For example, create one business function to reflect how your org approaches market research and a separate business function for win/loss analysis. You can select which business function to use when researching a business question.  
+- **Business function**: (Optional) Provides the agent with a role, context, and instructions that are relevant for specific use cases. For example, create one business function to reflect how your org approaches market research and a separate business function for win/loss analysis. You can select which business function to use when researching a business question. Creating business function is totally optional. We recommend that you try the agent first with just the general context. Later, you can define business functions if you have the following needs:
+    - You have a need to define custom fields or logic
 
-## Set the context and instructions for the Sales Research Agent
+    - You want more control over how data is displayed or interpreted
+    - You want to apply your own business knowledge to how insights are generated and presented, again with a specific use case in mind.  
+
+## Set the general context for the agent
 
 1. In the Sales Hub site map, go to **My Work** > **Sales Research Agent**.  
    The Sales Research Agent page opens with the predefined business functions, such as Pipeline Exploration and Sales Operation.
 
-1. Select the **Manage your context** icon at the top of the page.  
+1. Select the **Manage your context** icon (:::image type="icon" source="media/manage-context-icon.png" border="false":::) at the top-right corner of the page.  
    :::image type="content" source="media/sales-research-agent-manage-context.png" alt-text="Screenshot of the Manage your context icon and the context settings.":::
-1. To create a business function, under the **Business function** section, select **Add**. 
-    - Enter a meaningful name for the business function that reflects its purpose. For example, "Market Research." This name will appear on the home page of the Sales Research Agent page, next to the existing business functions.
-
-    - In the **Role description** box, describe the functional role that the agent will assume within your organization. This helps focus the agent on what you want it to do. For example, "You are a market research analyst for a nationwide coffee company. Your role is to provide actionable insights into business performance, customer segmentation, and growth opportunities to inform sales strategy. You specialize in identifying trends, comparing segments and territories, and recommending strategies to optimize revenue and customer experience."
-    - In the **Business context** box, provide additional context about your organization, market, or sales approach that will help the agent generate relevant responses. For example, you can define terms or formulas that are specific to your org. For clarity, add separate instructions on different lines starting with hyphens and add terms in quotation marks: 
-        - "Cross-sell threshold" measures the percentage of customer accounts with deals that involve products from at least three product groups.  
-        - "Cross-sell threshold" for a territory should be at least 80% to be considered positive. 
-        - "Cross-sell threshold" for a business segment should be at least 60% to be considered positive.
-    - In the **Data instructions** box, specify how the agent should interpret and use the data from your connected data sources, such as highlighting relationships, filters, joins, columns, or conditions. This field is useful if the agent does not understand all your custom business logic or schema customizations on its own. For clarity, add separate instructions on different lines starting with hyphens and use quotation marks for column names. For example: 
-        - Use 'ProductGroupName' column when analyzing by product unless explicitly instructed otherwise. 
-        - For committed pipeline, filter by recommendation = 'Committed' or 'Committed at risk'. 
-        
-    -  (Optional) Select **Configure advanced settings** to add seeded prompts and data sources for the business function:
-        - Add a seeded prompt to help users get started quickly with common questions related to that business function. Seeded prompts are displayed on the homepage for easy access whenever you select the business function.
-        - Add data sources to define a set of data that the agent should always consider when you ask a question with this business function selected. This step is optional and suggested only if the agent isn't selecting the scope of data you want it to consider on its own.  
-4. To set the general context, under the **Manage your general context** section, specify the following information:
+4. Under the **Manage your general context** section, specify the following information:
     - Enter the context information about your role, industry, fiscal year, and currency.
 
     - In the **Acronyms and data dictionary** section, add definitions for acronyms or column headings for data used by your organization in the context. For example, if your organization uses "ARR" to refer to "Annual Recurring Revenue," you can add that definition here. When the acronyms are used in prompts or present in your uploaded data or data sources, the agent can correctly interpret their meaning and return better results.
     - Leave **Role & data source memory** turned on to enable the agent to remember the context information across workspaces. Turn it off to consider data and context only for the current workspace.
     - To delete the context information at any time, select **Delete all**.
 
+## Create a business function context for the agent
+
+1. In the Sales Hub site map, go to **My Work** > **Sales Research Agent**.  
+   The Sales Research Agent page opens with the predefined business functions, such as Pipeline Exploration and Sales Operation.
+
+1. Select the **Manage your context** icon (:::image type="icon" source="media/manage-context-icon.png" border="false":::) at the top-right corner of the page.  
+
+1. To create a business function, under the **Business function** section, select **Add**. 
+   > [!TIP]
+   > Keep your instructions concise and only add them if necessary. Overloading it with too much information may lead to less relevant responses.
+
+1. Enter a meaningful name for the business function that reflects its purpose. For example, "Market Research." This name will appear on the home page of the Sales Research Agent page, next to the existing business functions.
+
+1. In the **Role description** box, describe the functional role that the agent will assume within your organization. This helps focus the agent on what you want it to do. Consider including the following information in your description:
+    - Agent's domain expertise
+    - The audience it serves
+    - The type of insights it should prioritize
+    - Any behavioral expectations. For example, concise summaries, strategic recommendations, and so on.  
+    For example, "You are a market research analyst for a nationwide coffee company. Your role is to provide actionable insights into business performance, customer segmentation, and growth opportunities to inform sales strategy. You specialize in identifying trends, comparing segments and territories, and recommending strategies to optimize revenue and customer experience."
+
+1. In the **Business context** box, provide additional context about your organization, market, or sales approach that will help the agent generate relevant responses. For example, you can define terms or formulas that are specific to your org.  
+
+    For clarity, add separate instructions on different lines starting with hyphens and add terms in quotation marks. For example: 
+    ```
+    - "Cross-sell threshold" measures the percentage of customer accounts with deals that involve products from at least three product groups.  
+    - "Cross-sell threshold" for a territory should be at least 80% to be considered positive. 
+    - "Cross-sell threshold" for a business segment should be at least 60% to be considered positive.```
+
+1. In the **Data instructions** box, specify how the agent should interpret and use the data from your connected data sources, such as highlighting relationships, filters, joins, columns, or conditions. This field is useful if the agent does not understand all your custom business logic or schema customizations on its own.  
+
+    For clarity, add separate instructions on different lines starting with hyphens and use quotation marks for column names. For example:  
+
+    ```
+    - Use 'ProductGroupName' column when analyzing by product unless explicitly instructed otherwise. 
+    - For committed pipeline, filter by recommendation = 'Committed' or 'Committed at risk'.```
+
+1.  (Optional) Select **Configure advanced settings** to add seeded prompts and data sources for the business function:
+    - Add a seeded prompt to get started quickly with common questions related to that business function. Seeded prompts are displayed on the homepage for easy access whenever you select the business function.
+ 
+    - Add data sources to define a set of data that the agent should always consider when you ask a question with this business function selected. This step is optional and suggested only if the agent isn't selecting the scope of data you want it to consider on its own.  
+1. Select **Create** to save the business function.
+1. Close the pane and verify that the new business function appears on the Sales Research Agent home page.
+ 
 
 ## Related information
 
