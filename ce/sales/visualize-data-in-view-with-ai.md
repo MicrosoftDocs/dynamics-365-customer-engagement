@@ -29,4 +29,8 @@ In the read-only grid view, select **Visualize** to view the data in chart forma
 > [!NOTE]
 > If you don't see the **Visualize** option, review the prerequisites and limitations in the [Power Apps documentation](/power-apps/user/visualize-data-in-copilot).
 
-The chart is generated based on the data in the view. You can interact with the chart to explore the data further. You can hover over data points to see more details, and select a data point to drill down and change the chart type. Learn more in [Visualize data in a view with Copilot (preview)](/power-apps/user/visualize-data-in-copilot).    
+The chart is generated based on the data in the view. You can interact with the chart to explore the data further. You can hover over data points to see more details, and select a data point to drill down and change the chart type. 
+
+:::image type="content" source="media/smart-chart-drilldown.png" alt-text="Screenshot of the chart with drill-down options.":::
+
+Learn more in [Visualize data in a view with Copilot (preview)](/power-apps/user/visualize-data-in-copilot).    
