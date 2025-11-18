@@ -28,7 +28,14 @@ Suggestions are provided based on the following sources:
 - By extracting relevant details from text you paste using the Smart paste (Preview) feature.
 - By identifying information from files you upload through the Files (Preview) feature.
 
-These AI-generated suggestions are available to all model-driven apps in Dynamics 365, including the Sales Hub app and custom apps. Learn more about prerequisites, limitations, and using the AI-powered form fill assistance in the [Power Apps documentation](/power-apps/user/form-filling-assistance). The links in the following sections point to the specific sections in the Power Apps documentation that explain how to use each feature in model-driven apps.
+These AI-generated suggestions are available to all model-driven apps in Dynamics 365, including the Sales Hub app and custom apps. Learn more about prerequisites, limitations, and using the AI-powered form fill assistance in the [Power Apps documentation](/power-apps/user/form-filling-assistance). 
+
+The following screenshot illustrates the Form fill assist toolbar in a lead form in Dynamics 365 Sales.
+
+:::image type="content" source="media/form-assists-toolbar.png" alt-text="Screenshot of the Form fill assist toolbar in a lead form in Dynamics 365 Sales.":::
+
+> [!NOTE]
+> Suggestions are generated only for a new form and for the tab that is open. For example, if you've copied text related to industry, annual revenue, and number of employees, then open the **Details** tab in the lead form and select **Smart paste** to see the values populated for those fields.  
 
 ## Use form fill assistance
 
@@ -43,6 +50,8 @@ Copy text or images from emails, business cards, websites, or any source that in
 ## Use files (preview)
 
 Files (Preview) is an AI-assisted data entry feature that analyzes uploaded files and suggests values for relevant fields in your CRM form. It can extract information from various file types, such as business cards or documents, and map them to the correct fields, saving you time and effort. Learn more about using the feature in [Use toolbar and files (Preview)](/power-apps/user/form-filling-assistance#use-toolbar-and-files-preview).
+
+Select the **+** icon on the form fill assist toolbar or drag and drop files onto the toolbar to upload files like images of business cards or documents containing lead or contact information. The AI analyzes the content of the uploaded files and suggests values for relevant fields in your form.
 
 ## Example scenarios
 
