@@ -51,7 +51,7 @@ Copy text or images from emails, business cards, websites, or any source that in
 
 Files (Preview) is an AI-assisted data entry feature that analyzes uploaded files and suggests values for relevant fields in your CRM form. It can extract information from various file types, such as business cards or documents, and map them to the correct fields, saving you time and effort. Learn more about using the feature in [Use toolbar and files (Preview)](/power-apps/user/form-filling-assistance#use-toolbar-and-files-preview).
 
-Select the **+** icon on the form fill assist toolbar or drag and drop files onto the toolbar to upload files like images of business cards or documents containing lead or contact information. The AI analyzes the content of the uploaded files and suggests values for relevant fields in your form.
+Select the **Source upload** icon (:::image type="icon" source="media/source-upload-icon.png" border="false":::) on the form fill assist toolbar or drag and drop files onto the toolbar to upload files like images of business cards or documents containing lead or contact information. The AI analyzes the content of the uploaded files and suggests values for relevant fields in your form.
 
 ## Example scenarios
 
