@@ -833,12 +833,22 @@ items:
               href: monitor-leads-by-sales-qualification-agent.md
             - name: FAQ about Sales Qualification Agent
               href: sales-qualification-agent-faq.md
-        - name: Sales Close Agent - Research (preview)
+        - name: Sales Close Agent (preview)
           items:
-            - name: Work on opportunities researched by agent
-              href: use-opportunity-research-agent.md
-            - name: FAQs about Sales Close Agent - Research
-              href: opportunity-research-agent-faqs.md
+            - name: Overview
+              href: sales-close-agent.md
+            - name: Sales Close Agent - Research (preview)
+              items:
+              - name: Work on opportunities researched by agent
+                href: use-opportunity-research-agent.md
+              - name: FAQs about Sales Close Agent - Research
+                href: opportunity-research-agent-faqs.md
+            - name: Sales Close Agent - Engage (preview)
+              items:
+              - name: View records processed by agent
+                href: view-sales-close-agent-engage-processed-records.md  
+              - name: How the Sales Close Agent - Engage works
+                href: how-sales-close-agent-engage-mode-works.md
         - name: Sales Research Agent (preview)
           items:
             - name: Overview
