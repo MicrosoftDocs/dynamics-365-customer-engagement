@@ -873,7 +873,7 @@ items:
             href: copilot-get-doc-suggestions.md
           - name: Copilot in Dynamics 365 Sales FAQ
             href: sales-copilot-faq.md
-      - name: AI features
+      - name: AI assistance in forms and views
         items:
           - name: Fill forms effortlessly with AI assistance
             href: use-form-fill-assistance.md
