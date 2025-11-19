@@ -306,7 +306,7 @@ Transferred sessions = ​SUMX ( FactSession, IF ( FactSession[IsTransferredOut]
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Session transfer rate is the percentage of customer sessions that are [transferred](#transferred-sessions). Session transfer rate = Number of transferred sessions / Total number of incoming sessions × 100. A session transfer can occur in the following scenarios:
+Session transfer rate is the percentage of customer sessions that are [transferred](#transferred-sessions). Session transfer rate = Number of transferred sessions / Total number of incoming sessions × 100.
 
 ### DAX query and Dataverse reference
 
