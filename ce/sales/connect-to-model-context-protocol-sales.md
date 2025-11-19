@@ -75,14 +75,17 @@ To connect to the Sales MCP server with Github Copilot in Visual Studio Code, fo
                 "Mail-server": {
                     "url": "https://Northwind.crm10.dynamics.com/mcp/environments/00aa00aa-bb11-cc22-dd33-44ee44ee44ee/servers/mcp_MailTools",
                     "type": "http"
-                },
+                }
                 
             },
             "inputs": []
-        }
+    }
     ```
-4. Select **Start** on all the servers.
-5. Press Ctrl + Alt + I to open the Github Copilot chat pane and choose any agent (For example, Claude Sonnet 4).
+1. Ensure that there are no syntax errors in the `mcp.json` file and save it.
+   You should see the **Start** button enabled for each of the MCP servers you added in the configuration file.  
+   :::image type="content" source="media/vs-code-start-mcp-servers.png" alt-text="Screenshot of Visual Studio Code mcp.json configuration file showing the MCP servers added for Dataverse, Sales, and Mail with the Start button enabled.":::
+1. Select **Start** on all the servers.
+1. Press Ctrl + Alt + I to open the Github Copilot chat pane and choose any agent (For example, Claude Sonnet 4).
 
 
 ## Tools supported
