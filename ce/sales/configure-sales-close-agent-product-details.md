@@ -45,12 +45,11 @@ Before you enter or configure the products, review the following best practices:
 1. In the **Value proposition of your product** section, enter the value proposition.  
     A product's value proposition specifies why a customer should choose your product instead of your competitor’s. It focuses on what makes your product unique such as the benefits, features, and results it offers.  
     The value proposition serves the following purposes:  
-    
+
     - It helps craft personalized follow-up messages that highlight the benefits of the products or services.  
     - It can also be used to train or inform the agent about the product domain and the values offered, enabling the agent to provide more relevant and informed responses during customer interactions.  
 
-<a name="product-name-to-search"></a>
-1. In the **What should we use to search your product knowledge?** section, select up to three fields for which the agent uses to match and retrieve relevant knowledge sources such as product documentation, specs, or manuals during conversations with customers. Ensure that you have proper knowledge inputs in the [knowledge sources](configure-sales-close-agent-knowledge-sources.md) section.  
+1. <a name="product-name-to-search"></a>In the **What should we use to search your product knowledge?** section, select up to three fields for which the agent uses to match and retrieve relevant knowledge sources such as product documentation, specs, or manuals during conversations with customers. Ensure that you have proper knowledge inputs in the [knowledge sources](configure-sales-close-agent-knowledge-sources.md) section.  
     When you configure search attributes for the agent such as name, ID, or description, the agent uses any one attribute to match documentation.  
     For example, you have a product with the following attributes:
     - Product Name: SL6  

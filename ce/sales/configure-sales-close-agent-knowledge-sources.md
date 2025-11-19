@@ -87,8 +87,7 @@ This knowledge source is already set up by default for the agent. To enhance the
 
     Learn the playbook structure and how to customize it, read the [Agent playbook](#agent-playbook) section.  
 
-<a name="configure-product-documentation"></a>  
-1. To configure **Product documentation**:  
+1. <a name="configure-product-documentation"></a>To configure **Product documentation**:  
     1. In the **Product documentation** section, select **Manage**.  
     1. On the Microsoft Copilot Studio page, select **Add knowledge**, and then select **Upload file** to upload a file or folder from your local computer, or select **SharePoint** to upload from SharePoint.
 
