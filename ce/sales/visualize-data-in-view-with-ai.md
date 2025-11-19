@@ -1,7 +1,7 @@
 ---
 title: Visualize data in view with AI
 description: Create intelligent data visualizations and charts using AI capabilities to analyze and present view data effectively in Dynamics 365 Sales.
-ms.date: 11/11/2025
+ms.date: 11/19/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales

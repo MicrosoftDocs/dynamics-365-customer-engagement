@@ -1,7 +1,7 @@
 ---
 title: Find data in a view using natural language
 description: Use AI-powered search and filtering capabilities to quickly find and locate specific data within views in Dynamics 365 Sales.
-ms.date: 11/11/2025
+ms.date: 11/19/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales

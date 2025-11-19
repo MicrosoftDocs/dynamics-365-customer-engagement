@@ -1,7 +1,7 @@
 ---
 title: Fill forms effortlessly with AI assistance
 description: Learn how to use AI-powered form fill assistance to automatically populate fields and streamline data entry in Dynamics 365 Sales forms.
-ms.date: 11/11/2025
+ms.date: 11/19/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -20,7 +20,7 @@ ai-usage: ai-assisted
 
 # Fill forms effortlessly with AI assistance
 
-With AI-powered form fill assistance feature in Dynamics 365 Sales, you can streamline data entry in main and quick create forms. When this feature is enabled, you receive AI-generated suggestions for populating form fields, along with the source of the suggestions. These suggestions help you fill forms quickly and accurately. Suggestions are optional and will only be applied after you review and accept them.
+With the AI-powered form fill assistance feature in Dynamics 365 Sales, you can streamline data entry in main and quick create forms. When this feature is enabled, you receive AI-generated suggestions for populating form fields, along with the source of the suggestions. These suggestions help you fill forms quickly and accurately. Suggestions are optional and will only be applied after you review and accept them.
 
 Suggestions are provided based on the following sources: 
 
