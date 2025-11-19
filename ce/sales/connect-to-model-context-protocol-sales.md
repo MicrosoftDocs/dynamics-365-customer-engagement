@@ -158,7 +158,7 @@ Scalable architecture supporting future expansion plans"
 
 ### Example 2: Share account research and engagement summary for a lead with colleagues
 
-Prompt: Can you get account research and engagement summary for lead 'Gregory House'. Save them in two separate document and send the word doc to <Your email id>
+Prompt: Can you get account research and engagement summary for lead 'Gregory House'. Save them in two separate document and send the word doc to kenny.smith@contoso.com
 
 Other servers required to be setup as prerequisites: mcp_WordServer, mcp_MailTools.
 
