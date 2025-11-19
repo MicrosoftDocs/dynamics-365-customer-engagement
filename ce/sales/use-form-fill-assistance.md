@@ -43,11 +43,18 @@ Copilot assistance for filling forms generates suggestions for blank form fields
 
 ## Use smart paste (preview)
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+
 Smart paste is an AI-assisted data entry feature that analyzes the content on your clipboard and suggests values for relevant fields in your CRM form. It intelligently detects names, email addresses, company details, phone numbers, and more, and maps them to the correct fields, saving you from typing everything manually. 
 
 Copy text or images from emails, business cards, websites, or any source that includes lead or contact information, and select the **Smart paste** icon (:::image type="icon" source="media/smart-paste.png" border="false":::) on your form with no specific field selected to get AI-based suggestions. Learn more about using the feature in [Use smart paste (Preview)](/power-apps/user/form-filling-assistance#use-smart-paste-preview).
 
 ## Use files (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 Files (Preview) is an AI-assisted data entry feature that analyzes uploaded files and suggests values for relevant fields in your CRM form. It can extract information from various file types, such as business cards or documents, and map them to the correct fields, saving you time and effort. Learn more about using the feature in [Use toolbar and files (Preview)](/power-apps/user/form-filling-assistance#use-toolbar-and-files-preview).
 
