@@ -32,8 +32,7 @@ Ensure that the following prerequisites are met:
 
 - You have admin permissions in Dynamics 365 Sales.  
 - You have a Copilot Studio license. Learn more in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).
-- Allow access to Dataverse MCP Server from MCP clients. This is required only if you're planning to use an MCP client other than Copilot Studio.
--  Learn more in [Configure the Dataverse MCP server for an environment](/power-apps/maker/data-platform/data-platform-mcp-disable)
+- Allow access to Dataverse MCP Server from MCP clients. This is required only if you're planning to use an MCP client other than Copilot Studio. Learn more in [Configure the Dataverse MCP server for an environment](/power-apps/maker/data-platform/data-platform-mcp-disable).
 - If you've previously connected to the Dynamics 365 Sales MCP server (preview), delete the connection as it's now deprecated and will be removed soon.
 
 ## Connect your AI agents and assistants to Sales MCP Server
@@ -53,7 +52,7 @@ To connect to the Sales MCP server with Github Copilot in Visual Studio Code, fo
 
 1. Download and open Visual Studio Code
 
-1. Press Ctrl + Shift + P - type in **MCP** and select **MCP:Open User Configuration**. to open the `mcp.json` config file.
+1. Press Ctrl + Shift + P - type in **MCP** and select **MCP:Open User Configuration** to open the `mcp.json` config file.
 1. Add the server URL for Dynamics 365 Sales and Dynamics 365 Dataverse MCP Servers using:
     - For Dataverse, use the orgID in the URL. For example: Northwind.crm10.dynamics.com
 
@@ -158,7 +157,7 @@ Scalable architecture supporting future expansion plans"
 
 ### Example 2: Share account research and engagement summary for a lead with colleagues
 
-Prompt: Can you get account research and engagement summary for lead 'Gregory House'. Save them in two separate document and send the word doc to kenny.smith@contoso.com
+Prompt: Can you get account research and engagement summary for lead 'Gregory House'. Save them in two separate documents and send the word doc to kenny.smith@contoso.com
 
 Other servers required to be setup as prerequisites: mcp_WordServer, mcp_MailTools.
 
