@@ -841,12 +841,12 @@ items:
           items:
             - name: Overview
               href: sales-research-agent.md
-            - name: Work on accounts researched by Sales Research Agent
-              href: use-sales-research-agent.md
-            - name: Connect the agent to different data sources
-              href: sales-research-agent-connect-data.md
             - name: Provide context to the agent
               href: sales-research-agent-provide-context.md
+            - name: Connect the agent to different data sources
+              href: sales-research-agent-connect-data.md
+            - name: Analyze your sales performance using the agent
+              href: use-sales-research-agent.md
             - name: FAQs about Sales Research Agent
               href: faqs-sales-research-agent.md
       - name: Copilot in Dynamics 365 Sales
