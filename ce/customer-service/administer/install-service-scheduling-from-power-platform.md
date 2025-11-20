@@ -1,7 +1,7 @@
 ---
 title: Install Service Scheduling from Power Platform admin center
 description: Learn how to install Core Service Scheduling from the Power Platform admin center in Dynamics 365 Customer Service.
-ms.date: 09/02/2025
+ms.date: 11/20/2025
 ms.update-cycle: 1095-days
 ms.topic: how-to
 author: Soumyasd27
@@ -18,7 +18,9 @@ ms.custom:
 
 # Install Service Scheduling from Power Platform
 
-You can install Core Service Scheduling from the Power Platform admin center by using the following steps:
+You need to perfrom the installation from the Power Platform admin center for the first time only. Subsequent updates are package-driven and require no manual action.
+
+To install Core Service Scheduling from the Power Platform admin center:
 
 1. Select **Manage** and then select **Dynamics 365 apps**.
 
