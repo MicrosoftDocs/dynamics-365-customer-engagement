@@ -6,19 +6,15 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.collection: 
-ms.date: 10/10/2025
+ms.date: 11/21/2025
 ms.custom: bap-template 
 ---
 
-# Create and publish a hierarchy visualization (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Create and publish a hierarchy visualization
 
 As an administrator, you can create and publish a hierarchy that allows your organization to visualize and work with complex hierarchical data. You can even create multiple hierarchy visualizations to show different relationships, or different views of the data such as active records only, or only records from certain countries.  
 
 Hierarchies are created using your existing tables, forms, relationships, and views. You can design and publish a hierarchy based on a N:1 self-referential relationship&mdash;one where each row in a table has an optional pointer to its parent row, 1:N many-to-one relationship&mdash;one where each row in a table has a pointer to a row in another table, or both, and N:N many-to-many relationships.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 
@@ -109,6 +105,7 @@ If you're creating a self-referential simple hierarchy, adding child nodes isn't
     | Setting | Description |
     |---------|-------------|
     | Show picture | Tiles can optionally show or hide a circled image for the record. When enabled, if no image is available, the initials of the record will be shown instead. For example, if **Maria Campbell** doesn't have an image, her tile would be displayed as **MC**. If initials aren't available, the default icon for the table is shown. |
+    | Show quick actions for this table | Enable this option to show quick actions (**...**) on the tile for the child table. Quick actions allow users to perform common tasks directly from the tile such as show in form and Add new record.<br>**Note**: The quick actions are displayed only when you publish or preview the hierarchy visualization. |
     | Tile size | Select the width and height for the tile in pixels and then choose the color for the tile border. |
     | Color | Select the top header color for the tile in Hex format. Here, we're using **#0078D4** for the blue color. |
 

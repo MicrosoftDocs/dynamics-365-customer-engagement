@@ -6,13 +6,11 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.collection: get-started
-ms.date: 11/11/2025
+ms.date: 11/20/2025
 ms.custom: bap-template 
 ---
 
-# Overview of hierarchy visualization (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Overview of hierarchy visualization
 
 The hierarchy visualization feature allows you to design and publish specific visualizations for your organization, that graphically displays the relationships found in your data. Unlike other tools that can only visualize data that conforms to some restrictive pre-defined model,  feature allows you to easily create data visualizations from virtually any existing data model.
 
@@ -22,12 +20,6 @@ The Dynamics 365 Sales Hierarchy feature lets you design and publish visualizati
 - Admins create complex hierarchies across multiple tables and relationship types in the hierarchy designer.
 - Users get the same editing experience in a hierarchy as in forms, so the hierarchy view is an ideal primary workspace when data relationships matter.
 - Users quickly navigate and change the hierarchy layout to suit their preferences for different data shapes.
-
-> [!IMPORTANT]
->
-> - The Self-referential hierarchy type is generally available.
-> - The Cross-table, Hybrid, Dataverse connections, and Custom connections hierarchy types are in preview.
-> - Preview features aren’t meant for production use and might have restricted functionality. These features are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520), and are available before an official release so that customers can get early access and provide feedback.
 
 ## Types of hierarchy relationships
 

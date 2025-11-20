@@ -6,18 +6,14 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.collection:
-ms.date: 10/09/2025
+ms.date: 11/21/2025
 ms.custom: bap-template 
 ---
 
-# View and understand hierarchy visualization (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# View and understand hierarchy visualization
 
 As a seller, you can view the hierarchy visualization to better understand the relationships between records. Administrators must design and publish a hierarchy to display data in a hierarchical manner.  
 For example, your administrator might publish a **Account hierarchy** that allows you to visualize customer’s related companies, regional offices, and branch locations. Your administrator may also publish a hierarchy called **Account contacts** that shows a hierarchy of people and their reporting structure and job titles associated with a given account.  
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Open hierarchy visualization
 
