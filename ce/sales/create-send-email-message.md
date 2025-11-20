@@ -99,7 +99,7 @@ Your organization must turn on Bing Maps and the recipient must have a physical 
 If no recommendation is given, or if you prefer to use your own logic, you can specify any delivery time you choose.  
 
 > [!NOTE]
-> Currently, sending emails might be delayed up to 30 minutes due to server-side synchronization issues.
+> Sending emails might be delayed up to 30 minutes.
 
 The delivery time feature is available for both followed and unfollowed messages.
 
