@@ -18,7 +18,7 @@ ms.custom:
 
 # Install Service Scheduling from Power Platform
 
-You need to perfrom the installation from the Power Platform admin center for the first time only. Subsequent updates are package-driven and require no manual action.
+You need to perform the installation from the Power Platform admin center for the first time only. Subsequent updates are package-driven and require no manual action.
 
 To install Core Service Scheduling from the Power Platform admin center:
 
