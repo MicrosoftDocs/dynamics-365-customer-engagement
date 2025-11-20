@@ -26,7 +26,7 @@ You can deploy multiple instances of the Resource Scheduling Optimization add-in
 1. Select the organization where you want to install the Resource Scheduling Optimization solution, review the Terms of Service, select the agreement box, and then select **Install** to start the Resource Scheduling Optimization deployment. The install operation might take up to an hour to complete.
 
    > [!NOTE]
-   > It might take several hours between the time the subscription appears in Microsoft 365 Admin Center and Power Platform Admin Center.
+   > It might take several hours between the time the subscription appears in the Microsoft 365 Admin Center and the Power Platform Admin Center.
 
 ### Bulk deletion jobs
 
