@@ -1,39 +1,76 @@
 ---
-title: How-to topic template #Required; page title displayed in search results. Don't enclose in quotation marks.
-description: How-to description #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
-author: rhanajoy #Required; your GitHub user alias, with correct capitalization.
-ms.author: rhcassid #Required; your Microsoft alias; optional team alias.
-ms.reviewer: kfend #Required; Microsoft alias of content publishing team member.
-ms.topic: how-to #Required; don't change.
-ms.collection: get-started #Required; If this isn't a getting started article, don't remove the attribute, but leave the value blank. The values for this attribute will be updated over time.
-ms.date: 11/20/2025
-ms.custom: bap-template #Required; don't change.
+title: View Sales Close Agent (Research) insights and metrics
+description: Learn how to view insights and metrics for the Sales Close Agent's Research type, including key performance indicators and engagement statistics.
+ms.date: 11/21/2025
+ms.topic: how-to
+ms.service: dynamics-365-sales
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-description
+  - ai-seo-date:08/04/2025
+author: udaykirang
+ms.author: udag
+ms.reviewer: udag
+search.app: salescopilot-docs
+ms.collection: bap-ai-copilot
+ai-usage: ai-assisted
 ---
 
-<!--Remove all the comments in this template before you sign-off or merge to the main branch.-->
+# View Sales Close Agent (Research) insights and metrics
 
-<!--This template provides the basic structure of a how-to article. See [Write a how-to topic](write-a how-to.md) in the contributor guide. To provide feedback on this template contact [bace feedback](mailto:templateswg@microsoft.com).-->
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-<!--H1. Required. Pick an H1 that clearly conveys the task the user will complete.-->
-# Heading
+After the Sales Close Agent Research type is set up and running, you can monitor its performance by viewing insights and metrics. These insights help you understand how effectively the agent is engaging with customers and driving sales.  
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-<!--Introductory paragraph. Required. Lead with a light intro that describes, in customer-friendly language, what the customer will learn, or do, or accomplish. Answer the fundamental "why would I want to do this?" question. Keep it short.-->
-<!--add your intro paragraph here-->
+The insights dashboard is displayed as shown in the following image:
 
-<!--Prerequisites. Optional. If you need prerequisites, make them your first H2 in a how-to guide. Use clear language and use a list format.-->
-## Prerequisites
+:::image type="content" source="media/sca-research-insights-dashboard.png" alt-text="Screenshot of the Sales Close Agent Research type insights dashboard.":::
 
-<!--add your content here-->
+## Open the insights dashboard
 
-<!--H2s. Required. A how-to article explains how to do a task. The bulk of each H2 should be a procedure.-->
-## Section heading
+1. In the Sales Hub app, go to **App settings**.  
+1. Under **General** settings, select **Dynamics 365 AI hub**.
+    If you have trouble finding or accessing the AI hub, it might be due to permission restrictions. Learn more in [Access Dynamics 365 AI Hub](dynamics-365-ai-hub.md).  
+1. In the **AI Optimization** card, select **See insights**.  
+    The Agent insights page opens with the available insights for the agents configured in your organization.  
+1. Select the **Sales Close Agent - Engage** tab to view the insights specific to the Sales Close Agent engage mode.  
+1. Verify the **Last refreshed** date and time to ensure the data is up-to-date. The data is refreshed when you open the dashboard. If needed, you can refresh the dashboard by selecting the **Refresh** icon.  
+1. Select the **Time period** filter to specify the period for which you want to view the data. By default, the dashboard shows data for the last 7 days.  
 
-<!--Intro paragraph-->
-<!--Step 1-->
-<!--Step 2-->
-<!--Step n-->
+## Understand the insights and metrics
 
-<!--Next steps. Optional. Provide no more than three next steps. Include some context so the customer can determine why they would click the link.-->
-## Next steps
+- The **Top metrics** section provides metrics for the selected time period, including:  
 
-<!--Remove all the comments in this template before you sign-off or merge to the main branch.-->
+    | Metric | Description |
+    |--------|-------------|
+    | Total number of records | Total number of records to which outreach email is sent. |
+    | Engagements rate | The percentage of records where the agent engaged with a customer or handed them over to seller. |
+    | Customers pitched by agent | Total number of customers to which agent made a product recommendation based on the engagement. |
+    | Email response rate | Percentage of emails sent by the agent that got a response from customers. |
+
+- The **Agent effectiveness** section provides key performance indicators (KPIs) into how well the agent is performing in terms of customer engagement and sales conversion.  
+
+    | KPI | Description |
+    |-----|-------------|
+    | Average attempts to achieve engagement | Average number of outreach emails sent before a customer responded. |
+    | Autonomous resolution rate | Percentage of records the agent completed without human involvement. |
+    | Escalation rate | Percentage of records the agent handed over to a supervisor for follow-up. |
+
+- The **Engagement funnel** section provides a visual representation of engagement metrics over time, allowing you to identify patterns and trends in customer interactions. The funnel chart is divided into four stages as described in the following table.
+
+    | Stage | Description |
+    |-------|-------------|
+    | Outreach email sent | The total number of outreach emails sent by the agent to customers. |
+    | Customer responded | The number of customers who responded to the outreach emails. |
+    | Customer not responded | The number of customers who didn't respond to the outreach emails. |
+    | Engaged | The number of customers who are engaging with the agent. |
+    | Products pitch | The number of customers who received product recommendations from the agent. |
+    | Escalated | The number of customers asked to escalate this to a human seller. |
+    | Completed | The number of customers who completed the engagement with the agent. |
+    | Closed as lost | The number of customers who aren't interested in purchasing a product or haven't responded to outreach emails.|
+
+## Related information
+
+[Configure the Sales Close Agent - Research (preview)](configure-opportunity-research-agent.md)  
