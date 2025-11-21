@@ -6,7 +6,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.collection: 
-ms.date: 11/20/2025
+ms.date: 11/21/2025
 ms.custom: bap-template 
 ---
 
@@ -41,7 +41,7 @@ Follow these steps:
 1. To unpublish the hierarchy, select **Unpublish** and on the confirmation message, select **OK**.
     The hierarchy visualization is unpublished and no longer available to users. You can republish it later if needed by selecting **Publish**.  
 
-## Troubleshoot a hierarchy visualization 
+## Troubleshoot a hierarchy 
 
 Troubleshooting mode helps you understand why certain results appear or don’t appear in your design. Use this mode when the output doesn't match your expectations. If necessary, you can share the details with your technical support team or Microsoft customer support to resolve any issues.  
 
@@ -72,16 +72,6 @@ Select **Copy** to copy the troubleshooting information to the clipboard. Share 
 
 >[!NOTE]
 >To exit the troubleshooting mode, select the troubleshooting icon again on the hierarchy designer toolbar.
-
-## Provide access to hierarchy visualization
-
-The hierarchy view doesn't change what data a user can view. If the user can view data in a form, the hierarchy view uses those same permissions to display the data hierarchically. If a user doesn't have access to a record, that record won't appear in the hierarchy view.  
-To provide access to a hierarchy visualization, you can change the permissions to a security role on the **Hierarchy Configuration** table in [the Power Apps portal](https://make.powerapps.com/).  
-Each hierarchy is defined by a single row in the **Hierarchy Configuration** table.  
-
-- To create a hierarchy&mdash;provide **CREATE** and **UPDATE** permissions to the table.  
-- To edit a hierarchy&mdash;provide the **UPDATE** permission to the row for that hierarchy.  
-- To view a hierarchy&mdash;requires the **VIEW** permission to the row for that hierarchy.  
 
 ## Related information
 

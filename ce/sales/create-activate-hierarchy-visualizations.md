@@ -78,10 +78,12 @@ Configure the root node of the hierarchy by selecting the desired table. The tab
 
     :::image type="content" source="media/hv-account-settings-tile-tab.png" alt-text="Screenshot of the tile display option tab in the account settings pane in the hierarchy visualization designer page.":::
 
-Now, the root node of the hierarchy is configured you can proceed to [add and configure child nodes](#configure-the-child-node) as required.  
-If you're creating a self-referential simple hierarchy, adding child nodes isn't required. Go to [create a hierarchy visualization](#create-a-hierarchy-visualization) section to complete the process.  
+1. [Add child nodes](#configure-the-child-node) if you are configuring a cross-table or hybrid hierarchy. For single table hierarchies, you can skip this step.  
+1. Save and publish the hierarchy visualization.
 
 ## Configure the child node
+
+Child nodes are added for cross-table or hybrid hierarchies to show related records from other tables. You can add multiple child nodes to create complex hierarchies that represent your business data accurately. After you configure the root node, follow these steps to add child nodes:
   
 1. Under the root node, select the add icon below the tile and enter a name for the child node. Here, we're adding **Contact** table as a child node to the **Account** table.  
 1. Select a table and then select **Add**. Here, we're selecting the **Contact** table.  
@@ -116,8 +118,16 @@ If you're creating a self-referential simple hierarchy, adding child nodes isn't
     :::image type="content" source="media/hv-account-settings-tile-tab.png" alt-text="Screenshot of the tile display option tab in the account settings pane in the hierarchy visualization designer page.":::  
 
 1. Repeat steps 2 to 4 to add more child nodes as required.  
+1. After adding all child nodes, save and publish the hierarchy visualization.  
 
-    After adding the child nodes, go to [create a hierarchy visualization](#create-a-hierarchy-visualization) section to complete the process.  
+## Grant access to security roles
+
+When you publish a hierarchy visualization, by default, it's accessible to users who has access to the tables included in the hierarchy. However, to grant specific access to the hierarchy visualization, you can assign security roles to it. To grant access to a hierarchy visualization, you can change the permissions to a security role on the **Hierarchy Configuration** table in [the Power Apps portal](https://make.powerapps.com/).  
+Each hierarchy is defined by a single row in the **Hierarchy Configuration** table.  
+
+- To create a hierarchy&mdash;provide **CREATE** and **UPDATE** permissions to the table.  
+- To edit a hierarchy&mdash;provide the **UPDATE** permission to the row for that hierarchy.  
+- To view a hierarchy&mdash;requires the **VIEW** permission to the row for that hierarchy.  
 
 ## Relationship selection options for child node
 
