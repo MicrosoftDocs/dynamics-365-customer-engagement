@@ -1,7 +1,7 @@
 ---
 title: Manage real-time analytics reports in Dynamics 365 Contact Center
 description: Configure real-time analytics in Dynamics 365 Contact Center to give supervisors access to metrics and KPIs.
-ms.date: 11/13/2025
+ms.date: 11/21/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -35,6 +35,10 @@ The following real-time analytics reports are available:
 - Agent
 - Ongoing conversation
 - Backlog conversation
+- Intent group
+- User group 
+
+The Intent group and User group reports are available in Dynamics 365 Contact Center only.
 
 Omnichannel real-time analytics reports are on by default for the following roles: System Administrator, Omnichannel Administrator, Omnichannel Supervisor, Analytics Reports author, and CSR manager. To configure user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 
@@ -58,6 +62,8 @@ Omnichannel real-time analytics reports are on by default. You can use the Copil
 1. Optionally, when the **Enable Omnichannel real-time analytics** toggle is on, in the **Additional options** section,
 
 - Select the **Add real-time analytics for Omnichannel voice** option to view analytics related to voice calls. This option is available only if your organization has the voice feature configured.
+- Select **Add real-time analytics for intent** to view intent insights.
+- Select **Add real-time analytics for bot** to view insights related to bot.
 
 ## View Omnichannel real-time analytics reports
 
