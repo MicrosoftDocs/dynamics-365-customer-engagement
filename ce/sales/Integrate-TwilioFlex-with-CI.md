@@ -10,6 +10,8 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ---
 
+** The following feature are currently in Preview and is planned for deprecation. We are actively evaluating future options to address these scenarios. Please note that no immediate action is required at this time.**
+
 # Integrate Twilio Flex with Dynamics 365 conversation intelligence (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
