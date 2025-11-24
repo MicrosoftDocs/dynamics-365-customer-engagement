@@ -6,7 +6,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.collection: 
-ms.date: 11/21/2025
+ms.date: 11/24/2025
 ms.custom: bap-template 
 ---
 
@@ -22,8 +22,8 @@ Before you create and publish a hierarchy visualization, ensure the following pr
 
 - You must have administrator privileges.  
 - Define the parent-child relationship.  
-    - For self-referential hierarchies, specify the column that contains the parent ID. For example, Parent Account ID for the Account table.  
-    - For cross-table hierarchies, define the relationships between tables. For example, Account to Contact.  
+    - For single table hierarchies, specify the column that contains the parent ID. For example, Parent Account ID for the Account table.  
+    - For multi-table hierarchies, define the relationships between tables. For example, Account to Contact.  
 - For custom tables, ensure that rows can reference a parent row in the same table. If the relationship doesn't exist, [you need to create it](/power-apps/maker/data-platform/create-edit-entity-relationships).  
 
 ## Create a hierarchy visualization
@@ -78,7 +78,7 @@ Configure the root node of the hierarchy by selecting the desired table. The tab
 
     :::image type="content" source="media/hv-account-settings-tile-tab.png" alt-text="Screenshot of the tile display option tab in the account settings pane in the hierarchy visualization designer page.":::
 
-1. [Add child nodes](#configure-the-child-node) if you are configuring a cross-table or hybrid hierarchy. For single table hierarchies, you can skip this step.  
+1. [Add child nodes](#configure-the-child-node) if you're configuring a cross-table or hybrid hierarchy. For single table hierarchies, you can skip this step.  
 1. Save and publish the hierarchy visualization.
 
 ## Configure the child node
@@ -120,15 +120,18 @@ Child nodes are added for cross-table or hybrid hierarchies to show related reco
 1. Repeat steps 2 to 4 to add more child nodes as required.  
 1. After adding all child nodes, save and publish the hierarchy visualization.  
 
-## Grant access to security roles
+## Grant access to hierarchies  
 
-When you publish a hierarchy visualization, by default, it's accessible to users who has access to the tables included in the hierarchy. However, to grant specific access to the hierarchy visualization, you can assign security roles to it. To grant access to a hierarchy visualization, you can change the permissions to a security role on the **Hierarchy Configuration** table in [the Power Apps portal](https://make.powerapps.com/).  
-Each hierarchy is defined by a single row in the **Hierarchy Configuration** table.  
-
-- To create a hierarchy&mdash;provide **CREATE** and **UPDATE** permissions to the table.  
-- To edit a hierarchy&mdash;provide the **UPDATE** permission to the row for that hierarchy.  
-- To view a hierarchy&mdash;requires the **VIEW** permission to the row for that hierarchy.  
-
+To allow users in your organization to view hierarchies, or admins in your organization to design hierarchies, you must first grant the appropriate security roles access to the **Hierarchy configuration** table. Follow these steps:  
+  
+1. In [the Power Platform Admin center](https://admin.powerplatform.microsoft.com/), select the environment.  
+1. In the **Access** section, under **Security roles**, select **See all**.  
+1. Open the desired security role. Change the filter to **Show all tables** and search the **Hierarchy Configuration** table.  
+1. Select **More Actions** (**...**), and then select **Permission Settings**.  
+    Grant the following permissions based on the level of access you want to provide:  
+    - **Reference** permission to allow the security role to **view hierarchies**.  
+    - **Full Control** permission to allow the security role to **design and publish hierarchies** to the organization.
+ 
 ## Relationship selection options for child node
 
 When you add a child node, you must select a relationship type to define how the child table relates to the parent table. The available relationship options depend on the tables you're working with. Here are some common relationship types you might encounter:
