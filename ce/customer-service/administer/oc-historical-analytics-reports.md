@@ -35,7 +35,7 @@ The historical analytics reports include:
 
 ## Manage Omnichannel historical analytics reports
 
-Use the Copilot Service admin center or Customer Service Hub app to enable or disable the Omnichannel historical analytics reports.
+Use the Copilot Service admin center app to enable or disable the Omnichannel historical analytics reports.
 
 1. In the site map of Copilot Service admin center, select **Insights** in **Operations**. The **Insights** page appears.
 1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page appears.
@@ -62,7 +62,9 @@ In Copilot Service admin center, you can enable the historical analytics for AI 
 
  :::image type="content" source="../media/bot-dashboard-oc.png" alt-text="Dashboard for all bots.":::
 
-## Enable advanced historical analytics for Copilot agents in Omnichannel for Customer Service
+## Enable advanced historical analytics for voice and chat agents in Omnichannel for Customer Service
+
+To include additional custom variables for reporting in Microsoft Copilot Studio, you must first enable the **Add historical analytics for bot** checkbox and then perform the following steps.
 
 1. On the **Omnichannel historical analytics** page, select the **Add advanced historical analytics for bot** checkbox.
 1. In the **Custom Variables** section, add your reporting variables configured in Microsoft Copilot Studio to enable structured tracking and analysis for Line of Business, Division, Product Line, and other custom-defined attributes.
@@ -79,6 +81,7 @@ You can add a maximum of 15 custom variables.
 The metrics are available in the dashboard 24 hours after you enable historical analytics. In the Omnichannel historical analytics report, use the dashboard filter to go to the **Voice** dashboard.
 
 ## Enable historical analytics for voicemail in Omnichannel for Customer Service
+
 
 1. On the **Omnichannel historical analytics** page, select the  **Add historical analytics for voicemail** checkbox.
 1. Select **Save** or **Save and Close**.
