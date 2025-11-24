@@ -58,7 +58,7 @@ The hierarchy visualization feature includes the following key capabilities:
 To get started with hierarchy visualization, follow these steps:
 
 1. Administrator [creates and publishes hierarchy visualizations](create-activate-hierarchy-visualizations.md) for the organization.  
-1. Administrator [grants access to security roles](create-activate-hierarchy-visualizations.md#grant-access-to-security-roles) for the hierarchy visualizations.  
+1. Administrator [grants access to hierarchies](create-activate-hierarchy-visualizations.md#grant-access-to-hierarchies) for the hierarchy visualizations.  
 1. Administrator [adds the visual hierarchy control](add-hierarchy-visualization-custom-tables.md) to the desired forms.  
 1. Users [view the published hierarchy visualizations](view-hierarchy-visualizations.md) in the sales app.  
 
