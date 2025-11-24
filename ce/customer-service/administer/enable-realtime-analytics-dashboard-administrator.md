@@ -1,7 +1,7 @@
 ---
 title: Manage real-time analytics reports in Dynamics 365 Contact Center
 description: Configure real-time analytics in Dynamics 365 Contact Center to give supervisors access to metrics and KPIs.
-ms.date: 06/20/2025
+ms.date: 11/21/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -13,7 +13,7 @@ ms.custom:
   - ai-seo-date:11/07/2023
 ---
 
-# Manage real-time analytics reports in Dynamics 365 Contact Center
+# Manage real-time analytics reports
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
@@ -31,8 +31,14 @@ The following real-time analytics reports are available:
 
 - Summary
 - Voice
-- Agents
+- Bot
+- Agent
 - Ongoing conversation
+- Backlog conversation
+- Intent group
+- User group 
+
+The Intent group and User group reports are available in Dynamics 365 Contact Center only.
 
 Omnichannel real-time analytics reports are on by default for the following roles: System Administrator, Omnichannel Administrator, Omnichannel Supervisor, Analytics Reports author, and CSR manager. To configure user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 
@@ -53,7 +59,11 @@ Omnichannel real-time analytics reports are on by default. You can use the Copil
 
 1. On the **Real-time analytics** page, turn off the **Enable Omnichannel real-time analytics** toggle.
 
-1. Optionally, when the **Enable Omnichannel real-time analytics** toggle is on, in the **Additional options** section, you can select the **Add real-time analytics for Omnichannel voice** option. This option is available only if your organization has the voice feature configured.
+1. Optionally, when the **Enable Omnichannel real-time analytics** toggle is on, in the **Additional options** section,
+
+- Select the **Add real-time analytics for Omnichannel voice** option to view analytics related to voice calls. This option is available only if your organization has the voice feature configured.
+- Select **Add real-time analytics for intent** to view intent insights.
+- Select **Add real-time analytics for bot** to view insights related to bot.
 
 ## View Omnichannel real-time analytics reports
 
@@ -82,10 +92,12 @@ If you customized the Copilot Service workspace app, you must complete the follo
 ### Related information
 
 [Overview of Omnichannel real-time analytics reports](../use/intro-realtime-analytics-dashboard.md)  
-[View and understand the Summary report in Omnichannel real-time analytics](../use/realtime-summary-dashboard.md)  
-[View and understand the Voice report in Omnichannel real-time analytics](../use/realtime-voice-dashboard.md)  
-[View and understand the Agents report in Omnichannel real-time analytics](../use/realtime-agents-analytics.md)  
-[View and understand the Ongoing Conversation report in Omnichannel real-time analytics](../use/realtime-ongoing.md)  
+[Summary report](../use/realtime-summary-dashboard.md)  
+[Voice report](../use/realtime-voice-dashboard.md)  
+[Agent report](../use/realtime-agents-analytics.md)  
+[Bot report](/dynamics365/contact-center/use/agent-realtime-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml)
+[Ongoing Conversation report](../use/realtime-ongoing.md)  
+[Backlog conversation report](../use/realtime-backlog-conv.md)
 [Use report metrics](../use/oc-metrics-dimensions.md)  
 [Configure user security to resources in an environment](/power-platform/admin/database-security)  
 [How access to a record is determined](/power-platform/admin/how-record-access-determined)  

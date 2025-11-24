@@ -1,7 +1,7 @@
 ---
 title: Set up and configure the Sales Close Agent - Engage (preview)
 description: Set up and configure the Sales Close Agent - Engage to help your sales team engage with customers effectively.
-ms.date: 09/24/2025
+ms.date: 11/21/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:

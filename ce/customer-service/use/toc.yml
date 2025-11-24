@@ -374,6 +374,10 @@
             href: rr-agent.md            
           - name: Backlog work items report
             href: rr-backlogitems.md
+          - name: Intent group report
+            href: record-routing-intent-group.md
+          - name: User group report
+            href: record-routing-user-group.md
         - name: Use Customer Service historical analytics dashboards
           items: 
           - name: Customer Service historical analytics dashboards

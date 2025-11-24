@@ -1,7 +1,7 @@
 ---
 title: Configure the Sales Close Agent - Research (preview)
 description: Learn how to set up and configure the Sales Close Agent - Research in Dynamics 365 Sales.
-ms.date: 11/07/2025
+ms.date: 11/21/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -22,7 +22,6 @@ ai-usage: ai-assisted
 As an administrator, you can configure the Sales Close Agent - Research in Dynamics 365 Sales to help sales professionals gain insights and recommendations for the opportunities they're working on. The agent automatically gathers information from various sources, providing a streamlined research experience, stakeholder and competitor intelligence, and actionable risk mitigation strategies. Learn more in [Sales Close Agent](sales-close-agent.md).
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
 
 ## Step 1: Plan your implementation
 
@@ -62,10 +61,9 @@ Learn more in [Manage data policies](/power-platform/admin/prevent-data-loss?tab
 
 If you're using a custom security role, ensure that the opportunity owners have the following minimum permissions: 
 
-| Purpose | Access level - Permissions  | Entities|
-|---------|--------------|-------|
-| Run research and view research insights. <br> **Note:** If users other than opportunity owner need to view the insights, ensure that they have an access level higher than "Basic" for the  entities listed, along with opportunity entity.  | Basic-level - Read    | Opportunity Research Result (msdyn_OpportunityResearchResult)<br> Opportunity Research Indicator (msdyn_OpportunityResearchIndicator)<br> Opportunity Research Agent Trigger (msdyn_OpportunityResearchAgentTrigger)<br> Opportunity Research User Interactions (msdyn_OpportunityResearchUserInteractions)|
-| View agent configuration and profile | Global-level - Read   | Sales Agent Configuration v2 (prvReadmsdyn_salesagentconfigurationv2)<br> Sales Agent Profile (prvReadmsdyn_salesagentprofile)|
+| Purpose | Access level - Permissions | Entities|
+|---------|----------------------------|---------|
+| Consent to use Microsoft 365 emails for opportunity research | Basic-level - Read | prvReadconnector |
 
 ### Configure server-side synchronization
 
