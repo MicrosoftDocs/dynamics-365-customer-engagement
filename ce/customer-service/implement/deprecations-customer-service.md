@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: conceptual
-ms.date: 11/14/2025
+ms.date: 11/24/2025
 ms.custom: bap-template
 ms.collection:
 ---
@@ -21,7 +21,7 @@ Administrators and IT professionals can use this information to prepare for futu
 
 ## D365 Service MCP Server is deprecated
 
-As on November 24, 2025, the D365 Service MCP Server is deprecated and will be removed in a future release. We recommend that you use the new Dynamics 365 Customer Service MCP Server and remove the deprecated tool. Learn more in [Connect to Dynamics 365 Customer Service MCP Server with Model Context Protocol (preview)](../administer/configure-customer-service-mcp-server.md).
+As on November 24, 2025, the D365 Service MCP Server is deprecated and will be removed in a future release. We recommend that you use the new [Dynamics 365 Customer Service MCP Server](../administer/configure-customer-service-mcp-server.md) and remove the deprecated tool.
 
 ## Historical analytics dashboards for unified routing are deprecated in Customer Service and Dynamics 365 Contact Center
 

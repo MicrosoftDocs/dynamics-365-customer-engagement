@@ -38,6 +38,7 @@ Use [Microsoft Copilot Studio](https://www.microsoft.com/microsoft-365-copilot/m
 ## Configure an AI agent based on MCP server
 
 1. In Copilot Studio, select **AI agents**, and create a new agent or select an existing agent.
+
 1. Perform the steps in [Add tools from an existing MCP connector to an agent](/microsoft-copilot-studio/agent-extend-action-mcp#add-tools-from-an-existing-mcp-connector-to-an-agent).
 1. Search and select **Dynamics 365 Customer Service MCP Server (Preview)**.
 1. If the connection isn't configured, make sure that you configure the connection and verify it.
@@ -55,12 +56,14 @@ Repeat the steps to add **Dataverse MCP server (Preview)** to enable CRUD operat
 You can also access your MCP tools from external sources such as Visual Studio Code.
 
 1. In Power Platform admin center, go to the environment settings, expand **Product**, and select **Features**.
+
 1. On the **Features** page, for **Dataverse Model Context Protocol**, select the **Allow MCP clients to interact with Dataverse MCP Server** checkbox.
 1. Select **Advanced Settings**, and on the tab that opens, select **Microsoft GitHub Copilot** in **Active Allowed MCP Clients**, and select **Activate**.
 
 ### Use MCP tools in Visual Studio Code
 
 1. In Visual Studio Code, select the command palette or use CTRL+Shift+P, type **MCP: Add Server**, and press enter.
+
 1. Select **Http or Server sent Events** server and press enter.
 1. Add the following URLs
     - Dataverse: Use the orgID in the URL. For example: https://`<OrgURL>`/api/mcp
@@ -82,9 +85,9 @@ You can also access your MCP tools from external sources such as Visual Studio C
 
 ## Use the AI agent
 
-After you configure the AI agent with the Dataverse MCP server and Dynamics 365 Customer Service MCP Server, you can navigate to the **Channels** tab and publish your AI Agent to Teams or M365 Copilot. Your service representatives can use it to resolve customer issues. The following tools are available.
+After you configure the AI agent with the Dataverse MCP server and Dynamics 365 Customer Service MCP Server, you can navigate to the **Channels** tab and publish your AI Agent to Teams or M365 Copilot. Your service representatives can use it to resolve customer issues.
 
-The following tools are available in the Dynamics 365 Customer Service MCP Server(preview).
+The following tools are available in Dynamics 365 Customer Service MCP Server (preview).
 
 |Tool name|	Description|
 |---|---|
@@ -94,7 +97,7 @@ The following tools are available in the Dynamics 365 Customer Service MCP Serve
 | draft_email_with_suggested_response | Drafts email responses based on the context of the case and the suggested response from the get_next_suggestion_on_case tool. The draft email is for sharing a solution or requesting more information with interview questions. |
 | resolve_incident | Closes (resolves) a case (incident) with resolution in Dataverse Incident entity. A resolution note is required to resolve a case.|
 
-The following tools are available in the Dataverse MCP Server (preview).
+The following tools are available in Dataverse MCP Server (preview).
 
 | Tool name                | Description                                                                                                                                                                                                                                                                                                                                                                   |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
