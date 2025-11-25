@@ -171,6 +171,8 @@ You can consult a colleague before you transfer a customer's call to them. You c
 
 
 ## Add a participant to an ongoing Teams call (preview)
+> [!NOTE]
+> This feature is currently in preview and is planned for deprecation soon. We are actively evaluating alternative options. No immediate action is required at this time.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
