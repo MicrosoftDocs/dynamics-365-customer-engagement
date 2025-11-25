@@ -1,6 +1,6 @@
 ---
 title: Add custom research topics to Sales Qualification Agent
-description: Learn how to add custom research topics for the Sales Qualification Agent in Dynamics 365 Sales.
+description: Learn how to add custom research topics for the Sales Qualification Agent in Dynamics 365 Sales to provide tailored insights to your sellers.
 ms.topic: how-to 
 ms.date: 09/17/2025
 ms.service: dynamics-365-sales
@@ -17,7 +17,7 @@ ai-usage: ai-assisted
 
 # Add custom research topics and knowledge sources to Sales Qualification Agent
 
-By default, the agent generates research insights on standard topics such as company overview, financials, recent news, and competitor analysis using CRM records, public data, and configured knowledge sources. However, your sellers might need additional insights about the lead's company, such as their past spend from your internal billing data,  or financial reports sourced from a country/region-specific data source. You can configure the agent to generate research insights based on these custom topics by specifying the topics and uploading relevant knowledge sources.
+By default, the agent generates research insights on standard topics such as company overview, financials, recent news, and competitor analysis using CRM records, public data, and configured knowledge sources. However, your sellers might need more insights about the lead's company, such as their past spend from your internal billing data,  or financial reports sourced from a country/region-specific data source. You can configure the agent to generate research insights based on these custom topics by specifying the topics and uploading relevant knowledge sources.
 
 ## Best practices for adding custom research topics
 
@@ -40,12 +40,12 @@ When adding custom research topics to Sales Qualification Agent, consider the fo
    - **What insight you want the seller to see**: Describe the type of insight you want the agent to generate for this topic. This instruction acts as a prompt for the agent to generate relevant research insights. For example, "Summarize the lead company's past purchase history from our internal billing system."
    - **Preferred knowledge source**: Do *ONE* of the following steps:
        - Select a knowledge source that you want the agent to use to generate insights for this topic. The agent lists the knowledge sources and [MCP tools](connect-to-model-context-protocol-sales.md) configured in the **D365 Sales Agent - Custom Research** agent in Copilot Studio. 
-       - Add a new knowledge source or MCP tool, select **Add in Copilot Studio** from the drop-down. This action opens the **D365 Sales Agent - Custom Research** agent in Copilot Studio, where you can add knowledge sources or MCP tools as needed. In Copilot Studio, MCP and Connectors to third-party sources are classified as **Tools** while others such as Public URLs, Sharepoint documents, Azure Data Lake, and Dataverse tables are classified as **Knowledge sources**.
+       - Add a new knowledge source or MCP tool and select **Add in Copilot Studio** from the drop-down. This action opens the **D365 Sales Agent - Custom Research** agent in Copilot Studio, where you can add knowledge sources or MCP tools as needed. In Copilot Studio, MCP and Connectors to non-Microsoft sources are classified as **Tools** while others such as Public URLs, Sharepoint documents, Azure Data Lake, and Dataverse tables are classified as **Knowledge sources**.
     :::image type="content" source="media/custom-research-topic.png" alt-text="Screenshot of adding a custom research topic in Sales Qualification Agent settings.":::
     > [!NOTE]
     >- Only one knowledge source or MCP tool can be selected per custom research topic.
     
-    If you don't select any knowledge source, the agent relies on its own knowledge, public data, and other sources you've configured.
+    If you don't select any knowledge source, the agent relies on its own knowledge, public data, and other sources you configured.
 1. Return to the Sales Qualification Agent settings page and select the Test icon (:::image type="icon" source="media/test-icon.png" border="false":::) in the **Custom research** section. 
 1. Follow the instructions in the **Test insight** pane and verify whether the agent is generating relevant research insights using the knowledge sources you added.
    If the response isn't satisfactory, refine the prompt in the **What insight do you want the seller to see** field and retest. 
@@ -53,43 +53,43 @@ When adding custom research topics to Sales Qualification Agent, consider the fo
 
 ## Example: Custom insights about recent conversations and engagements
 
-Let's say that your sellers want to get the context of any recent conversations, calls, and meetings that have taken place between the lead's company and people from your company. And imagine your sales organization uses Gong for its powerful revenue insights. You can use the Gong's Microsoft Graph connector to synthesize those insights as part of Sales Qualification Agent's research using the following steps: 
+Let's say that your sellers want to get the context of any recent conversations, calls, and meetings that took place between the lead's company and people from your company. And imagine your sales organization uses Gong for its powerful revenue insights. You can use the Gong's Microsoft Graph connector to synthesize those insights as part of Sales Qualification Agent's research using the following steps: 
 
 1. Link Gong to your Microsoft 365 graph connector using the Microsoft 365 admin center. Learn more in [Gong Copilot connector](/microsoftsearch/gong-connector). While setting up the connector, keep the following points in mind: 
-    - Ensure that you have sufficient access in the Gong app id to view the access key.
+    - Ensure that you have sufficient access in the Gong app ID to view the access key.
     - Ensure that your Dynamics 365 Sales environment is in the same Microsoft 365 tenant where you set up the Gong graph connector.
-    - Select **Custom setup** and set the User permissions to **Everyone** so that your sellers get the complete context of ongoing conversations, otherwise they will only have access to conversations they directly had in the past with the lead’s company.
+    - Select **Custom setup** and set the User permissions to **Everyone** so that your sellers get the complete context of ongoing conversations, otherwise they'll only have access to conversations they directly had in the past with the lead’s company.
 
-    After Gong successfully starts syncing with Microsoft graph, you'll be able to see the Gong connector as an available knowledge source in Copilot Studio.
+    After Gong successfully starts syncing with Microsoft Graph, you'll be able to see the Gong connector as an available knowledge source in Copilot Studio.
    :::image type="content" source="media/gong-connector-in-copilot-studio.png" alt-text="Screenshot of Gong connector as an available knowledge source in Copilot Studio.":::
    
-1. Follow the steps in [Add custom research topics and knowledge sources to Sales Qualification Agent](#add-custom-research-topics-and-knowledge-sources-to-sales-qualification-agent) section to add Gong as a knowledge source, test it, and publish the changes.
+1. Follow the steps in [Add custom research topics and knowledge sources to Sales Qualification Agent](#add-custom-research-topics-and-knowledge-sources-to-sales-qualification-agent) section to add Gong as a knowledge source, test it, and publish the agent.
 :::image type="content" source="media/gong-as-preferred-source.png" alt-text="Screenshot of Gong selected as the preferred knowledge source for custom research topic in Sales Qualification Agent settings.">:::
   Now when the Sales Qualification Agent researches a lead, it will summarize recent calls as shown in the following screenshot:
   :::image type="content" source="media/research-insights-with-gong.png" alt-text="Screenshot of research insights generated by Sales Qualification Agent using Gong as a knowledge source."::: 
 
 ## Example: Custom insights about stakeholder and decision-making process
 
-In this example, let's see how your sellers can get additional insights about key stakeholders and decision makers in the lead's company. In this example, we will be using a connector to a third-party data source that provides firmographic and technographic data about companies called ‘Enlyft’.
+In this example, let's see how your sellers can get additional insights about key stakeholders and decision makers in the lead's company. In this example, we'll be using a connector to a non-Microsoft data source that provides firmographic and technographic data about companies called 'Enlyft.'
 
 1. Create a new custom research topic in the Sales Qualification Agent settings page.
 1. Add the following details:
    -  **Title:** Key stakeholders and decision makers
    -  **Insights you want the seller to see:** Who are the key decision makers and stakeholders for the company?
-   - **Preferred knowledge source:** Select **Add in Copilot Studio** from the drop-down and select the Enlyft connector tool that you have already configured in the **D365 Sales Agent - Custom Research** agent in Copilot Studio.
+   - **Preferred knowledge source:** Select **Add in Copilot Studio** from the drop-down and select the Enlyft connector tool that you already configured in the **D365 Sales Agent - Custom Research** agent in Copilot Studio.
      :::image type="content" source="media/custom-research-topic-add-tool.png" alt-text="Screenshot of adding Enlyft tool as the preferred knowledge source in Copilot Studio.":::
 1. Test the custom research topic and publish the agent.
-  Now when the Sales Qualification Agent researches a lead, it will provide insights about key stakeholders and decision makers in the lead's company as shown in the following screenshot:
+   When the Sales Qualification Agent researches a lead, it provides insights about key stakeholders and decision makers in the lead's company as shown in the following screenshot:
   :::image type="content" source="media/research-insights-with-enlyft.png" alt-text="Screenshot of research insights generated by Sales Qualification Agent using Enlyft as a knowledge source.":::
 
 ## Other example scenarios
 
-For custom research, you can leverage available knowledge sources and connectors/Model Context Protocol (MCP) Servers&mdash;including those from leading technology vendors in the CRM domain. Set up your custom knowledge sources and tools in Copilot Studio, add them to the “D365 Sales Agent – Custom Research” agent, and then link them to Sales Qualification Agent to generate tailored research insights for your sellers.
+For custom research, you can leverage available knowledge sources and connectors/Model Context Protocol (MCP) Servers&mdash;including those from leading technology vendors in the CRM domain. Set up your custom knowledge sources and tools in Copilot Studio, add them to the **D365 Sales Agent – Custom Research** agent, and then link them to Sales Qualification Agent to generate tailored research insights for your sellers.
 
 Some examples of what you can do include:
 
 - You can get more context about the company from briefing notes your sales team has uploaded onto a Sharepoint site.
-- You can summarize orders, service cases, recent opportunities and any other tables from Microsoft Dataverse.
+- You can summarize orders, service cases, recent opportunities, and any other tables from Microsoft Dataverse.
 - You can use a host of available knowledge sources in Microsoft Copilot Studio.
   :::image type="content" source="media/knowledge-sources.png" alt-text="Screenshot of various knowledge sources available in Microsoft Copilot Studio.":::
 - You can get a wide range of company insights from leading data providers such as Enlyft and Draup using their connectors (available through the **Tools** menu in Copilot Studio). For example:
