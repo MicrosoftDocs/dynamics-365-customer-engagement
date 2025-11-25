@@ -1,7 +1,7 @@
 ---
 title: Set up and configure the Sales Close Agent - Engage (preview)
 description: Set up and configure the Sales Close Agent - Engage to help your sales team engage with customers effectively.
-ms.date: 11/21/2025
+ms.date: 11/28/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -89,9 +89,24 @@ The following image shows the permissions to access research insights as an exam
 
 ## Set up the Sales Close Agent - Engage
 
-As an administrator, you can set up the autonomous Sales Close Agent - Engage to help sales teams manage records efficiently without manual intervention. Once configured, you can only edit configurations if needed.  
-When all the configurations are properly set up, a green check mark is displayed beside each section. Before you start the agent ensure that all the sections are marked green.  
-Let's look at the steps to set up and configure the agents.
+As an administrator, you can set up the autonomous Sales Close Agent - Engage to help sales teams manage records efficiently without manual intervention. Once configured, you can only edit configurations if needed. There are two ways to set up the agent:  
+
+- **AI assisted setup**: A guided experience that helps you set up the agent step-by-step.  
+- **Manual setup**: A detailed guide that walks you through each configuration step.  
+
+### AI assisted setup
+
+The AI Setup Assistant, streamlines the setup process for the Sales Close Agent – Engage type. Traditionally, configuring agent is a time-consuming task due to the complexity and number of steps involved. The Setup Assistant addresses this challenge by delivering structured guidance, significantly reducing the friction and time typically required for setup.  
+To begin the AI-assisted setup, follow these steps:  
+
+1. [Open the Sales Close Agent - Engage setup assistant page](sales-close-agent-engage-setup-assistant.md).  
+1. Choose a setup mode (Quick setup or Guided setup) and follow the on-screen instructions to complete the setup process.  
+1. Set up the agent by following the prompts provided by the AI Setup Assistant.  
+
+### Manual setup
+
+Helps you set up the Sales Close Agent - Engage manually by configuring various sections such as agent profile, product details, target customers, email delivery, email content, and knowledge sources. Each section has specific configurations that need to be completed for the agent to function effectively. When all the configurations are properly set up, a green check mark is displayed beside each section. Before you start the agent ensure that all the sections are marked green.  
+Let's look at the steps to set up and configure the agents.  
 
 1. [Open the Sales Close Agent - Engage settings page](open-sales-close-agent-settings.md).  
 1. Configure the following prerequisites before you set up the agent.  
