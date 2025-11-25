@@ -47,11 +47,11 @@ Copilot Studio credits are a type of capacity that allows users to utilize AI-po
 
 With the Sales Premium license, each user receives a monthly allocation of Copilot Studio credits to utilize these AI features. These credits aren't cumulative and reset each month. For information on the specific number of credits included with your license, refer to the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
 
-You will be notified in advance when the initial credits are allocated to your tenant. There would be no disruption to your service during this process.
+You will be notified in advance when the initial credits are allocated to your tenant. There will be no disruption to your service during this process.
 
 ### How can I track usage of the allocated credits?
 
-You can monitor credit usage in the [Power Platform admin center](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new). If you have questions or don't see your credits yet, contact Microsoft support for assistance. 
+You can monitor credit usage in the [Power Platform admin center](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).  If you have questions or don't see your credits yet, contact Microsoft support for assistance. 
 
 ### What if I need more credits?
 
@@ -75,7 +75,7 @@ No. You can't add extra storage capacity to users with Sales Professional licens
 
 ## Where is my organization's data stored?  
 
-Your organization's data is stored in the Azure datacenter location that corresponds to the region where your Dynamics 365 org is hosted. For more information about the primary and secondary datacenter locations for each region, see[Azure regional pairs](/azure/best-practices-availability-paired-regions#azure-regional-pairs).
+Your organization's data is stored in the Azure datacenter location that corresponds to the region where your Dynamics 365 org is hosted. For more information about the primary and secondary datacenter locations for each region, see [Azure regional pairs](/azure/best-practices-availability-paired-regions#azure-regional-pairs).
 
 ## Which users can push data from Dynamics 365 Sales to Dataverse?
 
