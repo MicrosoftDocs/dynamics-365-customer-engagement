@@ -51,7 +51,7 @@ You will be notified in advance when the initial credits are allocated to your t
 
 ### How can I track usage of the allocated credits?
 
-You can monitor credit usage in the [Power Platform admin center](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).  If you have questions or don't see your credits yet, contact Microsoft support for assistance. 
+You can monitor credit usage in the [Power Platform admin center](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new). If you have questions or don't see your credits yet, contact Microsoft support for assistance. 
 
 ### What if I need more credits?
 
