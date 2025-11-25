@@ -1,7 +1,7 @@
 ---
 title: Upgrade from Dynamics 365 Sales Enterprise to Dynamics 365 Sales Premium
 description: Learn why and how to upgrade from Dynamics 365 Sales Enterprise to Dynamics 365 Sales Premium.
-ms.date: 02/27/2025
+ms.date: 11/25/2025
 ms.topic: upgrade-and-migration-article
 ms.service: dynamics-365-sales
 author: sbmjais

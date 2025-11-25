@@ -1,7 +1,7 @@
 ---
 title: Licenses and storage FAQs
 description: Discover answers to common questions about licenses and storage.
-ms.date: 10/22/2025
+ms.date: 11/25/2025
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
@@ -72,10 +72,6 @@ When you install Sales Insights, corresponding analytics tables are created for 
 ## Can I add extra storage capacity to users with Sales Professional license?
 
 No. You can't add extra storage capacity to users with Sales Professional license.
-
-## After I installed Sales Insights, I see a spike in the data usage. How much storage data does Sales Insights need?  
-
-When you install Sales Insights, corresponding analytics tables are created for contacts, opportunities, leads, accounts, and activityparty tables. The storage requirement for these analytics tables is directly proportional to the amount of data in Dataverse. The tables are stored as files in the managed data lake and will be counted against your total file storage quota. For more information, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage).
 
 ## Where is my organization's data stored?  
 
