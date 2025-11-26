@@ -1,11 +1,11 @@
 ---
 title: Configure the schedule board tab settings in Universal Resource Scheduling
-description: Change the layout and functions of schedule board tabs to meet your business needs.
+description: Learn how to configure the layout and functions of schedule board tabs to meet your business needs.
 ms.subservice: common-scheduler
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
-ms.date: 11/13/2025
+ms.date: 11/24/2025
 ---
 
 # Configure the schedule board tab settings in Universal Resource Scheduling
