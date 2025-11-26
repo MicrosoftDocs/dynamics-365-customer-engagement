@@ -99,9 +99,9 @@ As an administrator, you can set up the autonomous Sales Close Agent - Engage to
 The AI Setup Assistant, streamlines the setup process for the Sales Close Agent – Engage type. Traditionally, configuring agent is a time-consuming task due to the complexity and number of steps involved. The Setup Assistant addresses this challenge by delivering structured guidance, significantly reducing the friction and time typically required for setup.  
 To begin the AI-assisted setup, follow these steps:  
 
-1. [Open the Sales Close Agent - Engage setup assistant page](sales-close-agent-engage-setup-assistant.md).  
-1. Choose a setup mode (Quick setup or Guided setup) and follow the on-screen instructions to complete the setup process.  
-1. Set up the agent by following the prompts provided by the AI Setup Assistant.  
+1. [Open the setup assistant page](sales-close-agent-engage-setup-assistant.md#open-the-setup-assistant).  
+1. [Choose a setup mode (quick, guided, or data-driven setup)](sales-close-agent-engage-setup-assistant.md#choose-a-setup-mode) and follow the on-screen instructions to complete the setup process.  
+1. [Set up the agent through prompts](sales-close-agent-engage-setup-assistant.md#set-up-the-agent-through-chat-interactions).  
 
 ### Manual setup
 
