@@ -6,19 +6,15 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.collection: 
-ms.date: 10/10/2025
+ms.date: 11/24/2025
 ms.custom: bap-template 
 ---
 
-# Create and publish a hierarchy visualization (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Create and publish a hierarchy visualization
 
 As an administrator, you can create and publish a hierarchy that allows your organization to visualize and work with complex hierarchical data. You can even create multiple hierarchy visualizations to show different relationships, or different views of the data such as active records only, or only records from certain countries.  
 
 Hierarchies are created using your existing tables, forms, relationships, and views. You can design and publish a hierarchy based on a N:1 self-referential relationship&mdash;one where each row in a table has an optional pointer to its parent row, 1:N many-to-one relationship&mdash;one where each row in a table has a pointer to a row in another table, or both, and N:N many-to-many relationships.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 
@@ -26,8 +22,8 @@ Before you create and publish a hierarchy visualization, ensure the following pr
 
 - You must have administrator privileges.  
 - Define the parent-child relationship.  
-    - For self-referential hierarchies, specify the column that contains the parent ID. For example, Parent Account ID for the Account table.  
-    - For cross-table hierarchies, define the relationships between tables. For example, Account to Contact.  
+    - For single table hierarchies, specify the column that contains the parent ID. For example, Parent Account ID for the Account table.  
+    - For multi-table hierarchies, define the relationships between tables. For example, Account to Contact.  
 - For custom tables, ensure that rows can reference a parent row in the same table. If the relationship doesn't exist, [you need to create it](/power-apps/maker/data-platform/create-edit-entity-relationships).  
 
 ## Create a hierarchy visualization
@@ -82,10 +78,12 @@ Configure the root node of the hierarchy by selecting the desired table. The tab
 
     :::image type="content" source="media/hv-account-settings-tile-tab.png" alt-text="Screenshot of the tile display option tab in the account settings pane in the hierarchy visualization designer page.":::
 
-Now, the root node of the hierarchy is configured you can proceed to [add and configure child nodes](#configure-the-child-node) as required.  
-If you're creating a self-referential simple hierarchy, adding child nodes isn't required. Go to [create a hierarchy visualization](#create-a-hierarchy-visualization) section to complete the process.  
+1. [Add child nodes](#configure-the-child-node) if you're configuring a cross-table or hybrid hierarchy. For single table hierarchies, you can skip this step.  
+1. Save and publish the hierarchy visualization.
 
 ## Configure the child node
+
+Child nodes are added for cross-table or hybrid hierarchies to show related records from other tables. You can add multiple child nodes to create complex hierarchies that represent your business data accurately. After you configure the root node, follow these steps to add child nodes:
   
 1. Under the root node, select the add icon below the tile and enter a name for the child node. Here, we're adding **Contact** table as a child node to the **Account** table.  
 1. Select a table and then select **Add**. Here, we're selecting the **Contact** table.  
@@ -109,6 +107,7 @@ If you're creating a self-referential simple hierarchy, adding child nodes isn't
     | Setting | Description |
     |---------|-------------|
     | Show picture | Tiles can optionally show or hide a circled image for the record. When enabled, if no image is available, the initials of the record will be shown instead. For example, if **Maria Campbell** doesn't have an image, her tile would be displayed as **MC**. If initials aren't available, the default icon for the table is shown. |
+    | Show quick actions for this table | Enable this option to show quick actions (**...**) on the tile for the child table. Quick actions allow users to perform common tasks directly from the tile such as show in form and Add new record.<br>**Note**: The quick actions are displayed only when you publish or preview the hierarchy visualization. |
     | Tile size | Select the width and height for the tile in pixels and then choose the color for the tile border. |
     | Color | Select the top header color for the tile in Hex format. Here, we're using **#0078D4** for the blue color. |
 
@@ -119,9 +118,20 @@ If you're creating a self-referential simple hierarchy, adding child nodes isn't
     :::image type="content" source="media/hv-account-settings-tile-tab.png" alt-text="Screenshot of the tile display option tab in the account settings pane in the hierarchy visualization designer page.":::  
 
 1. Repeat steps 2 to 4 to add more child nodes as required.  
+1. After adding all child nodes, save and publish the hierarchy visualization.  
 
-    After adding the child nodes, go to [create a hierarchy visualization](#create-a-hierarchy-visualization) section to complete the process.  
+## Grant access to hierarchies  
 
+To allow users in your organization to view hierarchies, or admins in your organization to design hierarchies, you must first grant the appropriate security roles access to the **Hierarchy configuration** table. Follow these steps:  
+  
+1. In [the Power Platform Admin center](https://admin.powerplatform.microsoft.com/), select the environment.  
+1. In the **Access** section, under **Security roles**, select **See all**.  
+1. Open the desired security role. Change the filter to **Show all tables** and search the **Hierarchy Configuration** table.  
+1. Select **More Actions** (**...**), and then select **Permission Settings**.  
+    Grant the following permissions based on the level of access you want to provide:  
+    - **Reference** permission to allow the security role to **view hierarchies**.  
+    - **Full Control** permission to allow the security role to **design and publish hierarchies** to the organization.
+ 
 ## Relationship selection options for child node
 
 When you add a child node, you must select a relationship type to define how the child table relates to the parent table. The available relationship options depend on the tables you're working with. Here are some common relationship types you might encounter:

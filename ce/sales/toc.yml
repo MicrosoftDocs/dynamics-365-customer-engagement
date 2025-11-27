@@ -163,6 +163,8 @@ items:
                     href: configure-sqa-assignment-rules.md
                   - name: Configure knowledge sources
                     href: configure-sqa-knowledge-source.md
+                  - name: Defin custom research insights
+                    href: sales-qualification-agent-custom-research-topics.md
                   - name: Run simulation to review outreach email content
                     href: run-simulation-sqa-outreach-email.md
               - name: Start the agent
@@ -188,7 +190,11 @@ items:
               - name: Overview
                 href: sales-close-agent.md
               - name: Setup and configure Sales Close Agent - Research  
-                href: configure-opportunity-research-agent.md
+                items:
+                  - name: Setup and configure Sales Close Agent - Research
+                    href: configure-opportunity-research-agent.md
+                  - name: View agent insights and metrics
+                    href: view-sales-close-agent-research-insights-metrics.md
               - name: Set up and configure Sales Close Agent - Engage
                 href: configure-sales-close-agent.md      
                 items:
@@ -214,6 +220,8 @@ items:
                   href: configure-requirements-for-sales-close-agent.md  
                 - name: View agent insights and metrics
                   href: view-sales-close-agent-engage-insights-metrics.md
+                - name: View records processed by agent
+                  href: view-sales-close-agent-engage-processed-records.md  
                 - name: How the Sales Close Agent - Engage works
                   href: how-sales-close-agent-engage-mode-works.md
           - name: Sales Research Agent (preview)
@@ -351,11 +359,11 @@ items:
                 href: manage-excel-templates.md
               - name: Create email templates
                 href: /powerapps/user/email-template-create?context=/dynamics365/context/sales-context
-          - name: Work with hierarchy visualization (preview)
+          - name: Work with hierarchy visualization
             items:
               - name: Overview of hierarchy visualization
                 href: hierarchy-visualization.md
-              - name: Create and activate a hierarchy visualization
+              - name: Create and publish a hierarchy visualization
                 href: create-activate-hierarchy-visualizations.md
               - name: Manage hierarchy visualization
                 href: manage-hierarchy-visualizations.md
@@ -831,22 +839,32 @@ items:
               href: monitor-leads-by-sales-qualification-agent.md
             - name: FAQ about Sales Qualification Agent
               href: sales-qualification-agent-faq.md
-        - name: Sales Close Agent - Research (preview)
+        - name: Sales Close Agent (preview)
           items:
-            - name: Work on opportunities researched by agent
-              href: use-opportunity-research-agent.md
-            - name: FAQs about Sales Close Agent - Research
-              href: opportunity-research-agent-faqs.md
+            - name: Overview
+              href: sales-close-agent.md
+            - name: Sales Close Agent - Research (preview)
+              items:
+              - name: Work on opportunities researched by agent
+                href: use-opportunity-research-agent.md
+              - name: FAQs about Sales Close Agent - Research
+                href: opportunity-research-agent-faqs.md
+            - name: Sales Close Agent - Engage (preview)
+              items:
+              - name: View records processed by agent
+                href: view-sales-close-agent-engage-processed-records.md  
+              - name: How the Sales Close Agent - Engage works
+                href: how-sales-close-agent-engage-mode-works.md
         - name: Sales Research Agent (preview)
           items:
             - name: Overview
               href: sales-research-agent.md
-            - name: Work on accounts researched by Sales Research Agent
-              href: use-sales-research-agent.md
-            - name: Connect the agent to different data sources
-              href: sales-research-agent-connect-data.md
             - name: Provide context to the agent
               href: sales-research-agent-provide-context.md
+            - name: Connect the agent to different data sources
+              href: sales-research-agent-connect-data.md
+            - name: Analyze your sales performance using the agent
+              href: use-sales-research-agent.md
             - name: FAQs about Sales Research Agent
               href: faqs-sales-research-agent.md
       - name: Copilot in Dynamics 365 Sales
@@ -1009,7 +1027,7 @@ items:
             items:
               - name: Use auto capture
                 href: free-auto-capture.md
-          - name: Work with hierarchy visualization (preview)
+          - name: Work with hierarchy visualization
             items:
               - name: Overview of hierarchy visualization
                 href: hierarchy-visualization.md

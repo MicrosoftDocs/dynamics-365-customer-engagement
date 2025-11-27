@@ -27,41 +27,42 @@ This section explains how to configure knowledge sources to send replies, maximi
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-Two types of knowledge sources are available for you to configure for the Sales Close Agent - Engage&mdash;[Agent playbook](#agent-playbook) and [Product documentation](#product-documentation).
+Three types of knowledge sources are available for you to configure for the Sales Close Agent - Engage&mdash;[Agent playbook](#agent-playbook), [Product documentation](#product-documentation), and [Product catalog](#product-catalog).
 
 ## Agent playbook
 
-Defines how the agent behaves during customer interactions. It acts as a set of sales tactics and response guidelines for different scenarios, ensuring the agent aligns with the organization’s preferred approach.  
-Although the product documentation provides factual product information, the playbook dictates how to communicate and persuade customers. It controls how the agent responds to specific customer questions or objections, such as inquiries about discounts, competitor comparisons, refunds, or product details.
-By default, a playbook&mdash;the **Default Agent playbook** excel file is provided to help you get started and the SharePoint location in your organization is specified in the **SharePoint Location** section. You can download the default playbook, customize it to suit your organization's sales strategies, and then upload it back to the SharePoint location by providing the updated SharePoint location in the settings page.  
-
+The Agent playbook is used by the agent to map intent from customer emails into specific intent groups and to understand the action plan required to fulfill each intent. It is recommended to use the file upload feature to add the playbook to the agent.  
 The basic structure of the playbook is as follows:  
 
 - **Intent Group**: Organized into intent groups such as product details, comparisons, and discount requests.  
 - **Intent**: Each intent group contains intent types and corresponding instructions for the agent.  
 - **Agent Instructions**: These instructions are effective prompts that guide the agent’s tone and strategy.  
-For example: If a customer asks about discounts, the playbook might instruct: *Avoid offering discounts unless explicitly approved; instead emphasize value and benefits.*  
+For example: If a customer asks about discounts, the playbook might instruct: *Avoid offering discounts unless explicitly approved; instead emphasize value and benefits.* 
+
+Each product FAQ document should include a specific term representing the product, such as the product’s name, model number, or an alternate name. This term must be set up in the **Product** entity, and the corresponding column should be configured in [the product details section](configure-sales-close-agent-product-details.md#product-name-to-search) as a search attribute, allowing the agent to easily locate the relevant product document. When uploading for the first time, the agent may take some time to process the files, so it is important to wait until the status changes to **Ready** before publishing the agent.  
 
 >[!NOTE]
 >
->- The default playbook is a template that evolves over time. It's designed to help you get started quickly, and it might be updated to include best practices and improvements. Open the **Default Agent playbook** file and review the latest content.  
->- Don't use the default playbook as-is in production scenarios. Instead, customize it to align with your organization's specific sales strategies and customer engagement approaches.  
+>- Once uploaded, the playbook file cannot be modified directly. To make changes, download the file, update it as needed, upload the new version, and delete the older version.  
+>- The agent leverages the playbook to map customer intent to a specific intent group and then follows the corresponding instructions provided for that group.
 
 ## Product documentation
 
-Microsoft Copilot Studio provides resources for the agent to generate accurate and context-aware responses through **product documentation**. The resources function as content repositories from which the agent retrieves information to produce its answers.  
+Product documentation enables the agent to answer technical questions, handle warranty queries, and suggest products based on features or specifications.  
+Gather all technical and marketing documents for your products and store them in a dedicated SharePoint folder. Add this folder as a knowledge source to the agent using SharePoint folder sync. For more details on supported file types and size limits, refer to the Microsoft Learn documentation on unstructured data as a knowledge source.  
 
 >[!NOTE]
->Product names in the documentation should match [the product names](configure-sales-close-agent-product-details.md#product-name-to-search) in your product catalog to ensure accurate retrieval of information.  
+>
+>- Ensure the SharePoint folder contains documents for all products the agent is authorized to sell.  
+>- Keep all files current and accurate to provide reliable information.  
+>- Folders synced to Copilot Studio are updated automatically every four hours. Any changes such as added new files, updates, or removals in SharePoint are reflected in Copilot Studio after the next sync.  
 
-Knowledge sources are structured or unstructured content repositories that your agent can reference during conversations. They typically include:  
+Learn more about product documentation in Microsoft Copilot Studio, read the [Add knowledge to an agent](/microsoft-copilot-studio/knowledge-add-existing-copilot) article.  
 
-- Internal documents such as Word, PDF, and PPT.  
-- Knowledge bases such as SharePoint sites and Dataverse tables.  
-- Product catalogs and CRM data.  
-- External URLs and public documentation.  
+## Product catalog
 
-To understand more about product documentation in Microsoft Copilot Studio, read the [Add knowledge to an agent](/microsoft-copilot-studio/knowledge-add-existing-copilot) article.  
+The Product catalog is based on the **Product** entity in Dataverse, is configured at the agent level to help the agent retrieve the purchase URL for products.  
+This knowledge source is already set up by default for the agent. To enhance the agent's ability to recognize custom attributes such as those containing purchase URLs, [configure synonyms and glossaries](/microsoft-copilot-studio/knowledge-add-dataverse#synonyms-and-glossary-terms). This increases the likelihood that the agent will correctly identify and extract purchase links, even if they are described in various ways.
 
 ## Configure knowledge sources
 
@@ -80,13 +81,31 @@ To understand more about product documentation in Microsoft Copilot Studio, read
         The playbook is saved in your default organization's SharePoint location and ready to be used by the agent.  
     1. To change the location of the playbook after customizing it, select **Change location**.  
         In **SharePoint location**, enter the playbook location and save. Ensure the format for the SharePoint location is `https://<siteurl>/<foldername>/<filename>`. For example, `https://sharepoint.contoso.com/sites/salescloseagent/configuration/AgentPlaybook.xlsx`.  
-    To understand the playbook structure and how to customize it, read the [Agent playbook](#agent-playbook) section.  
-1. To configure **Product documentation**:
+
+    >[!NOTE]  
+    >To upload the playbook from your local computer, follow the procedure in the [configure product documentation](#configure-product-documentation) step.  
+
+    Learn the playbook structure and how to customize it, read the [Agent playbook](#agent-playbook) section.  
+
+1. <a name="configure-product-documentation"></a>To configure **Product documentation**:  
     1. In the **Product documentation** section, select **Manage**.  
-    1. In the Microsoft Copilot Studio page, select **Add knowledge** and then add the relevant knowledge sources that contain product documentation for the agent to use.  
-        Knowledge sources include internal documents, knowledge bases, product catalogs, CRM data, external URLs, and public documentation.  
-        Add knowledge sources using SharePoint file upload or local file upload. Place all required documents in a folder and sync the folder from SharePoint. The Dataverse entity for the product catalog is configured in the agent by default. If the product URL uses a different attribute, configure it in the synonyms.  
-    To understand more about product documentation, read the [Product documentation](#product-documentation) article.  
+    1. On the Microsoft Copilot Studio page, select **Add knowledge**, and then select **Upload file** to upload a file or folder from your local computer, or select **SharePoint** to upload from SharePoint.
+
+        :::image type="content" source="media/sca-knowledge-product-documentation-manage-page.png" alt-text="Screenshot of the Sales Close Agent - Engage product documentation manage page.":::  
+
+        Learn more about product documentation, read the [Product documentation](#product-documentation) article.  
+
+1. To configure **Product catalog**:  
+    1. In the **Product documentation** section, select **Manage**.  
+        The **Product** entity in Dataverse is configured by default for the agent.  
+    1. Open the **Product** entity and go to the **Synonyms** and **Glossary** tabs and add any custom attributes that contain purchase URLs or other relevant product information.  
+
+    Learn more about the product catalog, read the [Product catalog](#product-catalog) article.
+
+1. Publish the changes.  
+
+>[!NOTE]
+>Ensure you publish the agent after adding or updating knowledge sources for the changes to take effect.  
 
 ## Next step  
 

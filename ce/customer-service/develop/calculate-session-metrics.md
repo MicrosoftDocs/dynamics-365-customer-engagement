@@ -20,7 +20,7 @@ ms.custom: bap-template
 
 This article explains how to use session metrics to track agent performance, monitor key performance indicators (KPIs), and improve customer satisfaction in Dynamics 365 Customer Service.
 
-An omnichannel session (msdyn_ocsession) represents a customer interaction and captures events such as assigning, associating, creating, and updating records. A single conversation might include multiple sessions, starting with the initial interaction, typically handled by an agent, and followed by more sessions if the conversation is escalated to another customer service representative (service representative or representative).
+An omnichannel session (msdyn_ocsession) represents a customer interaction and captures events such as assigning, associating, creating, and updating records. A single conversation might include multiple sessions, starting with the initial interaction, typically handled by an agent, and followed by more sessions if the conversation escalates to another customer service representative (service representative or representative).
 
 The following sections describe session metrics calculations using Power BI reports and Dataverse calculations, helping you gain actionable insights and optimize service operations.
 
@@ -306,7 +306,7 @@ Transferred sessions = ​SUMX ( FactSession, IF ( FactSession[IsTransferredOut]
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Session transfer rate is the percentage of customer sessions that are [transferred](#transferred-sessions). Session transfer rate = Number of transferred sessions / Total number of incoming sessions × 100. A session transfer can occur in the following scenarios:
+Session transfer rate is the percentage of customer sessions that are [transferred](#transferred-sessions). Session transfer rate = Number of transferred sessions / Total number of incoming sessions × 100.
 
 ### DAX query and Dataverse reference
 
@@ -544,7 +544,7 @@ Consult requests rejected = SUMX (​FactSessionParticipant, IF (FactSessionPart
 
 ### Related metrics
 
-- **Session participant**: The list of participants within a single session. Each session includes at least one participant, who can be a service representative, AI agent, or IVR agent. More participants may be added in **Monitor** or **Consult** scenarios.
+- **Session participant**: The list of participants within a single session. Each session includes at least one participant, who can be a service representative, AI agent, or IVR agent. More participants might be added in **Monitor** or **Consult** scenarios.
 - **Session participant count**: The total number of service representatives involved in assisting a customer, and includes the primary representative assigned to the session and any subject matter experts who were consulted. Use the SessionParticipationType dimension to analyze this metric and obtain more statistics.
 
 ## Related information

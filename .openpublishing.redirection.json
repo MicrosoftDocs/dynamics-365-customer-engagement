@@ -35876,6 +35876,10 @@
       "redirect_url": "/dynamics365/contact-center/implement/system-requirements-contact-center",
       "redirect_document_id": false
     },
+    {"source_path": "ce/customer-service/administer/configure-ai-agent-to-use-mcp-server.md",
+      "redirect_url": "/dynamics365/customer-service/configure-customer-service-mcp-server",
+      "redirect_document_id": false
+    },
     {"source_path": "ce/customer-service/use/case-topics-dashboard-cs.md",
       "redirect_url": "/previous-versions/dynamics365/customer-service/use/case-topics-dashboard-cs",
       "redirect_document_id": false
