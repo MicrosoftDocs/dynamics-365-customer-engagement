@@ -16,7 +16,7 @@ Open the **Schedule Board**, choose the tab to configure, and select **Scheduler
 
 - **Time Zone**: Sets the time zone that the schedule board uses. The times for bookings in different time zones adapt to the selection.
 - **Working time**: Defines the working hours for the schedule board. The working time is used to determine when resources are available for scheduling. It's only applied to the hourly view of the schedule board.
-- **Working days**: Defines the working days for the schedule board. The working days are used to determine when resources are available for scheduling. It's only applied to the hourly view of the schedule board.
+- **Working days**: Specifies the working days for the schedule board. Working days are used to determine when resources are available for scheduling and apply only to the hourly view of the schedule board. This setting controls which days of the week are visible in the date range of the hourly view. You must select at least one working day to see any days in the hourly view. If you unselect all days, the system defaults to showing all days.
 - **Time resolution**: Time intervals for the hourly view.
 - **Row height**: Defines the height of resource rows.
 - **Optimization goal**: Applicable when using the [Resource Scheduling Optimization add-in for Dynamics 365 Field Service](../../field-service/rso-overview.md). Defines which [optimization goal](../../field-service/rso-optimization-goal.md) the system uses to recommend resources.
@@ -152,7 +152,7 @@ Controls the maximum number of resource records displayed on a single page of th
 
 #### Number of days displayed in hours view
 
-Number of days displayed on hourly view of the schedule board.
+Specifies the number of days displayed in the hourly view of the schedule board. This setting determines the length of the date range, regardless of which [working days](#board-view-settings) are visible, and controls how many days are included in the horizontal scroll in the hourly view. For example, if you select 10 days and unselect Saturday and Sunday in the working days, the hourly view shows 10 days in total in the date range but only eight days are visible in the horizontal scroll.
 
 #### Number of weeks displayed in weeks view
 
@@ -160,7 +160,7 @@ Number of weeks displayed on the weekly view of the schedule board.
 
 #### Number of days displayed in days view
 
-Number of days displayed on the daily view of the schedule board.
+Number of days displayed on the daily view of the schedule board. 
 
 #### Number of months displayed in months view
 
