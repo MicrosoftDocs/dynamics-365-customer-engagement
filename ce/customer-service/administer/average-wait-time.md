@@ -1,7 +1,7 @@
 ---
 title: Show customers their average wait time in a queue
 description: Learn how to show customers their average wait time when they're waiting to be assigned to a representative in Dynamics 365 Contact Center.
-ms.date: 11/17/2025
+ms.date: 11/27/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -33,9 +33,9 @@ Do the following steps in Copilot Service admin center:
 
 1. Go to the workstream in which you need to configure the settings, and on the **channel Settings** page, go to the **Behaviors** tab.
 
-2. Select **Customer wait time** if you want to show to customers their position in the queue and the average wait time when they're waiting to interact with a representative.
+1. Select **Customer wait time** if you want to show customers their position in the queue and the average wait time when they're waiting to interact with a representative.
 
-3. Select **Save and Close**.
+1. Select **Save and Close**.
 
 ### Related information
 
