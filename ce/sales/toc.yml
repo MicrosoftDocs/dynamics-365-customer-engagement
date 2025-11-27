@@ -163,7 +163,7 @@ items:
                     href: configure-sqa-assignment-rules.md
                   - name: Configure knowledge sources
                     href: configure-sqa-knowledge-source.md
-                  - name: Defin custom research insights
+                  - name: Define custom research insights
                     href: sales-qualification-agent-custom-research-topics.md
                   - name: Run simulation to review outreach email content
                     href: run-simulation-sqa-outreach-email.md
