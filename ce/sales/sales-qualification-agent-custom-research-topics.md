@@ -2,7 +2,7 @@
 title: Define custom research insights for Sales Qualification Agent
 description: Learn how to define custom research insights for the Sales Qualification Agent and add preferred knowledge sources to provide tailored insights to your sellers.
 ms.topic: how-to 
-ms.date: 09/17/2025
+ms.date: 11/27/2025
 ms.service: dynamics-365-sales
 content_well_notification:
   - AI-contribution
