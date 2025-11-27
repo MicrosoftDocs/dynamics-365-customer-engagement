@@ -17,6 +17,8 @@ ms.custom:
 
 # Manage your accounts and contacts
 
+[applies-to-all](../../../power-platform-pr/power-platform/includes/applies-to-all.md)
+
 In Dynamics 365 Sales, you use [accounts](#work-with-accounts) to store information about the companies you do business with. Use [contacts](#work-with-contacts) to store information about the people you work with at those companies. You can add multiple contacts to an account, but you can associate only one account with a contact. You can create accounts and contacts manually or import them from a spreadsheet or other supported files.
 
 ## Work with accounts
