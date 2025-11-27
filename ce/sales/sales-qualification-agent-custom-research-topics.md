@@ -69,7 +69,7 @@ This section provides example scenarios illustrating the types of custom researc
 
 ### Example: Custom insights about recent conversations and engagements
 
-Let's say that your sellers want to get the context of any recent conversations, calls, and meetings that took place between the lead's company and people from your company. And imagine your sales organization uses Gong for its powerful revenue insights. You can use the Gong's Microsoft Graph connector to synthesize those insights as part of Sales Qualification Agent's research using the following steps: 
+Let's say that your sellers want to get the context of any recent conversations, calls, and meetings that took place between the lead's company and people from your company. And imagine your sales organization uses [Gong](https://www.gong.io/) for its powerful revenue insights. You can use the Gong's Microsoft Graph connector to synthesize those insights as part of Sales Qualification Agent's research using the following steps: 
 
 1. Link Gong to your Microsoft 365 graph connector using the Microsoft 365 admin center. Learn more in [Gong Copilot connector](/microsoftsearch/gong-connector). While setting up the connector, keep the following points in mind: 
     - Ensure that you have sufficient access in the Gong app to view the access key.
