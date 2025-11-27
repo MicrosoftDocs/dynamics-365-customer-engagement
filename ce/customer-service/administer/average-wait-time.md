@@ -12,9 +12,9 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-When enabled, the system displays a customer's average wait time in the queue to start a chat or voice call with a customer service representative (service representative or representative). The display helps set customer expectations when wait times are long because of a high volume of customers needing support, understaffing, or long call-handling times. The customer can decide whether to wait in the queue or return to the chat or call later.
+When enabled, the system displays a customer's average wait time in the queue to start a live chat or voice call with a customer service representative (service representative or representative). The display helps set customer expectations when wait times are long because of a high volume of customers needing support, understaffing, or long call-handling times. The customer can decide whether to wait in the queue or return to the chat or call later.
 
-When customers initiate a live chat or voice call are placed in the queue, they receive the notification: **Average wait time \<n\> mins.**
+When customers initiate a live chat or voice call are placed in the queue, they receive a notification when the calculated average wait time is more than one minute: **Average wait time \<n\> mins.**
 
 For a specific queue, the system calculates the average wait time based on wait times from the previous conversations in the queue. The system uses connected conversations only and not abandoned conversations to calculate the average wait time.
 
@@ -22,7 +22,7 @@ For a specific queue, the system calculates the average wait time based on wait 
 - Runs in the background every 10 minutes.
 - Requires a minimum of 20 conversations before customers see the wait time.
 - Resets the calculated average if the queue has no conversations for seven days; after a reset, 20 new conversations are required again.
-- Displays the average wait time to the customer only if the wait is one minute or longer. The time is an estimate, and doesn't change for the customer.
+- Displays the time as an estimate that doesn't change for the customer.
 
 > [!NOTE]
 > If skill-based routing is configured with exact skill match, the queue position displayed to a customer on the chat portal widget might not be accurate. Therefore, the assignment of a service representative to the customer might take longer than expected.
