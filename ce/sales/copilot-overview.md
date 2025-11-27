@@ -42,15 +42,7 @@ Learn more in [Ask questions of Copilot in Dynamics 365 Sales](use-sales-copilot
 
 ## Copilot in Dynamics 365 Sales capabilities
 
-Copilot offers the following capabilities:
-
-- [Record summarization](#record-summarization)
-- [Embedded experiences](#embedded-experiences)
-- [Recent changes](#recent-changes)
-- [Information assistance](#information-assistance)
-- [Meeting preparation](#meeting-preparation)
-- [Email assistance](#email-assistance)
-- [News updates](#news-updates)
+[!INCLUDE[copilot-in-dynamics-365-sales](../includes/Copilot-in-Dynamics-365-Sales.md)]
 
 ### Record summarization
 
