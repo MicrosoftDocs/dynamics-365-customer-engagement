@@ -4,9 +4,9 @@ description: Learn about subscenarios metadata for conversation diagnostics in A
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
-ms.date: 09/19/2025
+ms.date: 12/02/2025
 ms.custom: bap-template
 ---
 
@@ -18,34 +18,135 @@ When the system routes a work item, its corresponding data starts appearing in A
 
 The conversation diagnostics scenario captures data related to unified routing, AI agent, customer service representative (service representative or representative), and supervisor actions. The following table contains data about the subscenarios corresponding to the scenario.
 
+### Non-channel-specific events
+
+### Assignment and routing
+
 | Subscenarios                       | Description                                           |
 |------------------------------------|-------------------------------------------------------|
-| Classification                     | Work item classification by unified routing.           |
-| ConsultToCSRClosed                 | Representative closed the consultation request for the conversation. |
-| ConversationClosed                 | Conversation closed by system.                         |
-| ConversationCreated                | Conversation created by system. |
-| ConsultToCSRInitiated              | Representative requested consultation with another representative for a conversation. |
-| CopilotAgentAssignedToConversation | A Copilot agent is assigned to the conversation.|
-| CopilotAgentEscalationToCSR        | AI agent escalated the conversation to a representative.               |
-| CSRAccepted                        | Service representative accepts the work item assignment.              |
-| CSRAssignment                      | Assignment attempted by unified routing when new work item is added to the queue. It can also include assignment to a representative when they become available.                   |
-| CSRAvailabilityCheck               | Check if any service representative is available. |
-| CSRClosedSession                   | Representative closed the session with the customer.                    |
-| CSREndedConversation               | Representative ended the conversation.                          |
-| CSRInitiatedTransfer               | Representative transferred the conversation to another representative.   |
-| CSRLeftPublicConsult               | Representative left the public consultation for the conversation. |
-| CSRNotificationTimeout             | Representative failed to accept the work item assignment.       |
-| CSRPickedConversation              | Representative picked the work item.                                |
-| CSRRejected                        | Representative rejected the work item assignment.                |
-| CSRRejoined                        | Representative rejoined the call or conversation.               |
-| CustomerDisconnected               | Customer disconnected from the call or conversation.   |
-| CustomerEndedConversation          | Customer ended the conversation.                       |
-| ManualAssignment                   | Representative or supervisor manually assigned the conversation. |
-| RouteToQueue                       | Queue assignment by unified routing.                   |
-| SupervisorForceClosedConversation  | Supervisor forcefully closed the conversation.             |
-| SupervisorInitiatedTransfer        | Supervisor transferred the conversation to another representative. |
-| TransferAssignment                 | Supervisor or representative transferred the conversation.          |
-| TransferToQueue                    | Conversation transferred to a different queue by the representative. |
+| ManualAssignment | Representative or supervisor manually assigned the conversation. |
+| RouteToQueue | Queue assignment by unified routing. |
+| Classification | Work item classification by unified routing. |
+| CSRPickedConversation | Representative picked the work item. |
+| CopilotAgentAssignedToConversation | A Copilot agent is assigned to the conversation. |
+| CSRAssignment | Assignment attempted by unified routing when new work item is added to the queue. It can also include assignment to a representative when they become available. |
+
+### Conversation end
+
+| Subscenario                      | Description                                           |
+|------------------------------------|-------------------------------------------------------|
+| ConversationClosed | Conversation closed by system. |
+| Call Ended | Tracks who ended call and if there were any system issues associated with the call |
+| CSRClosedSession | Representative closed the session with the customer. |
+| CSREndedConversation | Representative ended the conversation. |
+| BotChatEnd | Messaging conversation ended by Copilot Agent |
+| CustomerDisconnected | Customer disconnected from the call or conversation. |
+| CustomerEndedConversation | Customer ended the conversation. |
+| SupervisorForceClosedConversation | Supervisor forcefully closed the conversation. |
+
+### Transfer and consult
+
+| Subscenario                       | Description                                           |
+|------------------------------------|-------------------------------------------------------|
+| TransferAssignment | Supervisor or representative transferred the conversation. |
+| TransferToQueue | Conversation transferred to a different queue by the representative |
+| SupervisorInitiatedTransfer | Supervisor transferred the conversation to another representative. |
+| ConsultToCSRClosed | Representative closed the consultation request for the conversation. |
+| ConsultToCSRInitiated | Representative requested consultation with another representative for a conversation. |
+| CSRInitiatedTransfer | Representative transferred the conversation to another representative. |
+| CSRLeftPublicConsult | Representative left the public consultation for the conversation. |
+| CSRInitiatedTransfer | Representative transferred the conversation to another representative. |
+| VoiceChannelTransfer | Monitors for voice-channel-specific errors that may have impacted a transfer |
+| VoiceChannelConsult | Tracks if Voice Consult is successful if not, logs error |
+| CONSULT_BYCHAT_REQUESTAGENT | Representative initiates a consult over chat channel |
+| TRANSFER_CSR_REQUEST2COMPLETED | Representative requests a transfer to another representative |
+| TRANSFER_QUEUE_REQUEST2COMPLETED | Representative requests a transfer of conversation to another queue |
+| CONSULT_BYVOICE_REQUESTAGENT | Representative initiates consult over voice channel. |
+
+## Other non-channel specific events
+
+| Subscenario | Description |
+|----|----|
+| ConversationCreated | Conversation created by system. |
+| SESSION_CREATE | Customer is connected with a service representative and session is created for a customer interaction. |
+| CopilotAgentEscalationToCSR | AI agent escalated the conversation to a representative. |
+| CSRAccepted | Service representative accepts the work item assignment. |
+| CSRNotificationTimeout | Representative failed to accept the work item assignment. |
+| CSRRejected | Representative rejected the work item assignment. |
+| CSRRejoined | Representative rejoined the call or conversation. |
+| GET_QUICK_REPLIES | Representative leverages quick reply options for a messaging conversation |
+| FILES_DOWNLOAD | Representative downloads a file during a conversation. |
+| AGENT_LOGIN | Representative logs into the system. |
+| Banner Codes | Banner code message shown to representative in conversation control that might indicate errors and prevent representative from responding to customer |
+| SentimentDerived | Logs sentiment analysis result for a message. |
+| SentimentChanged | Tracks changes in sentiment during a conversation |
+| PRESENCE_FIRST_LOAD | Representative presence initialized |
+| CSRAvailabilityCheck | Check if any service representative is available. |
+| CopilotAgentSessionInitialization | Agent is connected to conversation |
+
+## Channel-specific subscenarios
+
+### Voice
+
+| Subscenario | Description |
+|----|----|
+| Call Connect | Captures successful connection of a voice call to an agent or representative. |
+| Wait for Agent | Wait Time Music is playing while customer is waiting to connect to a representative. |
+| Callback | Logs if customer is provide with a callback option and if they accept the callback option. |
+| Transcription | Tracks whether transcription started successfully. |
+| VOICE_UNMUTE | Representative unmuted from conversation control during voice call. |
+| VOICE_MUTE | Representative selected mute button from conversation control during voice channel. |
+| VOICE_SEND_DTMF | Customer’s DTMF options are sent to representative. |
+| VOICE_SET_SPEAKER | Representative speaker initialized. |
+| VOICE_SET_MICROPHONE | Representative microphone initialized. |
+| VOICE_SUPERVISOR_BARGE | Supervisor barges into a voice call. |
+| VOICE_PAUSE_RECORDING_AND_TRANSCRIPTION | Captures representative pausing of both recording and transcription. |
+| VOICE_PAUSE_TRANSCRIPTION | Captures representative pausing of transcription only |
+| VOICE_RESUME_RECORDING_AND_TRANSCRIPTION | Representative resumes recording and transcription. |
+| VOICE_RESUME_TRANSCRIPTION | Captures resuming of transcription only. |
+| VOICE_HOLDPARTICIPANT | Representative selects hold button to place a customer on hold during a voice call. |
+| VOICE_UNHOLDPARTICIPANT | Representative unselects hold button to remove customer from hold. |
+| CALLQUALITYSURVEY_SHOWN2DISMISSED | Tracks when a call quality survey is shown to the customer and dismissed. |
+
+### Messaging
+
+| Subscenario | Description |
+|----|----|
+| ChatReconnection | Logs if a reconnection was attempted for an existing chat session. |
+| ChatAuthentication | Tracks if customer authentication fails. |
+| MessageProcessed | For async channels this tracks sending and receiving of message, including buffering delays. |
+| TimeoutRuleTriggered | Timeout rule is triggered with information about trigger of timeout rule. |
+| PostChatSurvey | Captures sending or starting of a post-chat survey. |
+
+### Live chat
+
+| Subscenario | Description |
+|----|----|
+| ChatInitialization | Set up of chat widget. |
+| ChatConfiguration | Validates details about chat widget configuration (org details). |
+| ChatButtonAction | Customer selects chat widget button to open widget. |
+| CloseChatAction | Customer closes the chat window. |
+| CustomContextReceived | Logs receipt of custom context data for chat. |
+| DownloadTranscriptAction | Customer selects download button from widget |
+| EmailTranscriptButtonAction | Customer selects email transcript button from widget. |
+| DownloadTranscript | Chat transcript is downloaded by customer. |
+| EmailTranscript | Chat transcript is emailed by customer. |
+| EndChatEventReceived | Logs when customer selects end chat button on live chat widget. |
+| LiveChatWidgetButtonLoading | Tracks loading of the chat icon. |
+| LiveChatWidgetStart | Track loading of the live chat widget. |
+| MessageReceived | Customer receives a message. |
+| MessageSent | Customer sends a message |
+| MinimizeChatAction | Customer minimizes chat window |
+| AuthTokenValidation | Captures successful token validation |
+| OutOfOperatingHours | Logs attempt to start chat outside operating hours. |
+| PostChatSurvey | Tracks rendering of post-chat survey |
+| PrechatSurvey | Tracks rendering of pre-chat survey |
+| ProactiveChat | Proactive Chat Initiated |
+| ProactiveChatTimeOut | Logs timeout to accept proactive chat invitation. |
+| ChatHistoryMessageReceivedCompleted | Retrieval of chat message history into conversation |
+| SystemMessageReceived | Tracks receipt of system messages. |
+| ChatSessionInitialization | Logs when chat session is available for customer to converse. |
+| UnrecognizedOrgUrl | Live chat widget contains an invalid org URL |
 
 ## Understand conversation logs
 
@@ -62,6 +163,9 @@ The following metadata can be a part of the custom dimensions in the **Traces** 
 | Resource.id     | Conversation ID                                                             |
 | Scenario        | Diagnostics scenario, such as conversation diagnostics scenario or representative configuration scenario |
 | Subscenario     | The subscenario, such as classification or route-to-queue        |
+| Duration | The time the subscenario ended – the time the subscenario started |
+| Workstream ID | The id of the workstream to which the conversation belongs to |
+| Timestamp | The time the subscenario started |
 
 ### Subscenario: Classification
 
@@ -135,7 +239,6 @@ Displays information about the intent and intent group determined for the conver
   - **ActiveIntentGroupName**: Intent group name.
 - o**mnichannel.is_intent_determined**: True or false.
 - **omnichannel.is_intent_group_determined**: True or false.
-
 
 ### Subscenario: LineOfBusinessIdentification
 
@@ -226,6 +329,14 @@ Displays information on the user group identified for the conversation.
 - **Omnichannel.target_agent.id**: Captures the ID of the representative receiving the consult request
 - **Channel type**:	Channel from which work item originated.
 
+### Subscenario: Call End 
+
+- **Omnichannel.description and Omnichannel.messsage**: Captures whether the subscenario started, completed successfully, or failed. If the subscenario failed, error or exception information is provided 
+
+- **Call Status Code**: A code that can be used to learn more details about how/why the call ended. 
+
+- **Conversation Stage**: End 
+
 ### Subscenario: Other subscenarios for agents and supervisors
 
 - **Subscenarios**:
@@ -250,6 +361,89 @@ Displays information on the user group identified for the conversation.
 - **Omnichannel.initiator_agent.id**:	Captures the ID of the representative initiating the action (As applicable)
 - **Omnichannel.target_agent.i**d: Captures the ID of the representative receiving the action (As applicable)
 - **Channel type**:	Channel from which work item originated
+
+### Voice, conversation control, and live chat telemetry subscenarios 
+
+- **Subscenarios**: 
+
+    - Call End
+    - CONSULT_BYCHAT_REQUESTAGENT 
+    - TRANSFER_AGENT_REQUEST2COMPLETED 
+    - TRANSFER_QUEUE_REQUEST2COMPLETED 
+    - CONSULT_BYVOICE_REQUESTAGENT
+    - SESSION_CREATE
+    - VoiceChannelTransfer
+    - VoiceChannelConsult
+    - Call Connect
+    - Wait for CSR
+    - Callback
+    - Transcription
+    - VOICE_UNMUTE
+    - VOICE_MUTE
+    - VOICE_SEND_DTMF
+    - VOICE_SET_SPEAKER
+    - VOICE_SET_MICROPHONE
+    - VOICE_SUPERVISOR_BARGE
+    - VOICE_PAUSE_RECORDING_AND_TRANSCRIPTION
+    - VOICE_PAUSE_TRANSCRIPTION
+    - VOICE_RESUME_RECORDING_AND_TRANSCRIPTION
+    - VOICE_RESUME_TRANSCRIPTION
+    - VOICE_HOLDPARTICIPANT
+    - VOICE_UNHOLDPARTICIPANT
+    - CALLQUALITYSURVEY_SHOWN2DISMISSED
+    - GET_QUICK_REPLIES
+    - FILES_DOWNLOAD
+    - AGENT_LOGIN
+    - Banner Codes
+    - ChatButtonAction
+    - CloseChatAction
+    - CustomContextReceived
+    - DownloadTranscriptAction
+    - EmailTranscriptButtonAction
+    - EndChatEventReceived
+    - LCWChatButtonLoading
+    - LiveChatWidgetStart
+    - MessageReceived
+    - MessageSent
+    - MinimizeChatAction
+    - PRESENCE_FIRST_LOAD
+    - AuthTokenValidation
+    - OutOfOperatingHoursPostChatSurvey
+    - PrechatSurvey
+    - ProactiveChat
+    - ProactiveChatTimeOut
+    - ChatHistoryMessageReceivedCompleted
+    - SystemMessageReceived
+    - ChatSessionInitialization
+    - UnrecognizedOrgUrl 
+    
+- **Omnichannel.description and Omnichannel.messsage**: Captures whether the subscenario started, completed successfully, or failed. If the subscenario failed, error or exception information is provided. 
+
+- **Conversation Stage**: Indicates the stage of the conversation lifecycle that the subscenario relates to. Possible values include: 
+
+    - Initialization    
+    - Self Service
+    - CSR Engagement 
+    - End 
+
+### Additional Messaging Subscenarios 
+
+- **Subscenario**: 
+
+    - ChatReconnection  
+
+    - ChatAuthentication  
+    - BotChatEnd  
+    - MessageProcessed  
+    - TimeoutRuleTriggered  
+    - CopilotAgentSessionInitialization  
+    - PostChatSurvey  
+    - DownloadTranscript  
+    - EmailTranscript  
+    - SentimentDerived  
+    - SentimentChanged  
+    
+- **Omnichannel.description and Omnichannel.messsage**: Captures whether the subscenario started, completed successfully, or failed. If the subscenario failed, error or exception information is provided. 
 
 ### Related information
 
