@@ -6,17 +6,13 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.collection: 
-ms.date: 10/10/2025
+ms.date: 11/21/2025
 ms.custom: bap-template 
 ---
 
 # Manage hierarchy visualization
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
 As an administrator, you can manage hierarchy visualizations to ensure they're up-to-date and relevant for users. You can edit, delete, or unpublish hierarchy visualizations as needed.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Edit a hierarchy visualization
 
@@ -45,14 +41,37 @@ Follow these steps:
 1. To unpublish the hierarchy, select **Unpublish** and on the confirmation message, select **OK**.
     The hierarchy visualization is unpublished and no longer available to users. You can republish it later if needed by selecting **Publish**.  
 
-## Restricting access to a hierarchy visualization
+## Troubleshoot a hierarchy 
 
-The hierarchy view doesn't change what data a user can view. If the user can view data in a form, the hierarchy view uses those same permissions to display the data hierarchically. If a user doesn't have access to a record, that record won't appear in the hierarchy view.  
-To restrict access to a hierarchy visualization, you can change the permissions to a security role on the **Hierarchy Configuration** table in [the Power Apps portal](https://make.powerapps.com/).  
-Each hierarchy is defined by a single row in the Hierarchy Configuration table.  
-- To create a hierarchy&mdash;provide **CREATE** and **UPDATE** permissions to the table.  
-- To edit a hierarchy&mdash;provide the **UPDATE** permission to the row for that hierarchy.  
-- To view a hierarchy&mdash;requires the **VIEW** permission to the row for that hierarchy.  
+Troubleshooting mode helps you understand why certain results appear or don’t appear in your design. Use this mode when the output doesn't match your expectations. If necessary, you can share the details with your technical support team or Microsoft customer support to resolve any issues.  
+
+**Open the troubleshooting mode**:
+
+Open a hierarchy visualization in the hierarchy designer and then select **Preview**. The designer switches to preview mode and the troubleshooting icon is displayed on the hierarchy designer toolbar.  
+Select the troubleshooting icon to open troubleshooting mode.  
+
+:::image type="content" source="media/hierarchy-visualization-troubleshooting-icon.png" alt-text="Screenshot of the hierarchy visualization troubleshooting icon.":::
+
+**Use the troubleshooting mode**:
+
+When the troubleshooting mode is open, an icon is displayed to each connection (node) in the hierarchy providing a clear description of what is being shown and why it's being shown.
+
+:::image type="content" source="media/hierarchy-visualization-troubleshooting-mode.png" alt-text="Screenshot of the hierarchy visualization troubleshooting mode.":::
+
+Selecting the icon opens a dialog box with troubleshooting information about that node. The information includes:  
+
+- **Explanation** of why records are included or excluded based on the current configuration of the hierarchy.  
+- **Result summary** that shows the number of records included and excluded at that node.  
+- **Results list** displays a table version of the same query shown in the hierarchy for easier review. The table includes all records that are active and inactive. By default, the **Use view filters** checkbox is selected to view only active records. Clear the checkbox to view inactive records as well.  
+- **Query** includes the internal query used to generate the results at that node.  
+- **Details** contains additional information such as the entity type, view used for the node, relationship type with the parent node, and columns queried for that node.  
+
+Select **Copy** to copy the troubleshooting information to the clipboard. Share it with your technical support team handling the issue or with Microsoft customer support to resolve the issue.
+
+:::image type="content" source="media/hierarchy-visualization-troubleshooting-dialog.png" alt-text="Screenshot of the hierarchy visualization troubleshooting dialog.":::
+
+>[!NOTE]
+>To exit the troubleshooting mode, select the troubleshooting icon again on the hierarchy designer toolbar.
 
 ## Related information
 

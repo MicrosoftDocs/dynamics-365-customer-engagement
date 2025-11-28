@@ -27,7 +27,7 @@ As part of visual customization, all record routing dashboards including **Summa
 - You turned on the toggle for Customer Intent Agent and added the Line of business, Intent groups, and Intents. Learn more in [Customer Intent Agent](/dynamics365/contact-center/administer/manage-customer-intent-agent).
 - You enabled real-time analytics for record routing for intent. Learn more in [Enable the real-time analytics for record routing dashboard](../administer/enable-record-routing.md#enable-the-real-time-analytics-for-record-routing-dashboard).
 
-You see the report after 24 hrs of provisioning. If you don't enable Customer Intent Agent, you might still see data measures related to intent. However, you don't see any conversation or case-related information in the report.
+You see the report after 24 hrs of provisioning. If you don't enable Customer Intent Agent, you might still see data measures related to intent, but no conversation or case details appear because configuration isn't complete.
 
 
 ## Metrics by Intent group
@@ -35,8 +35,8 @@ You see the report after 24 hrs of provisioning. If you don't enable Customer In
 |Metrics | Definition  |
 |---------|---------|
 |Intent group name| Name of the intent group.|
-|Unassigned work items|	Number of record type work items modified in the last 2 hours and currently unassigned within the intent group.|
-|Assigned work items|	Number of record type work items modified in the last 2 hours and  currently assigned within the intent group. Assigned work items = Auto assigned work items + Manually assigned work items.|
+|Unassigned work items|	By default, the system displays the number of record-type work items modified in the last two hours and  currently unassigned within the intent group.|
+|Assigned work items|	By default, the system displays the number of record-type work items modified in the last two hours and  currently assigned within the intent group. Assigned work items = Auto assigned work items + Manually assigned work items.|
 |Longest wait time|	Waiting time until the customer service representative (service representative or representative) accepts the work item per intent group.|
 |Agents online|	Number of representatives logged in per intent group.|
 |Agents available|	Number of representatives in **Available** status per intent group.|
@@ -48,8 +48,8 @@ Select **Detailed view** to view metrics by intent and representative.
 
 |Metrics | Definition  |
 |---------|---------|
-|Assigned work items|	Number of record type work items modified in the last 2 hours and are currently assigned. Assigned work items = Auto assigned work items + Manually assigned work items.|
-|Unassigned work items|	Number of record type work items modified in the last 2 hours and are currently unassigned.|
+|Assigned work items|	By default, the system displays the number of record-type work items modified in the last two hours and are currently assigned. Assigned work items = Auto assigned work items + Manually assigned work items.|
+|Unassigned work items|	By default, the system displays the number of record-type work items modified in the last two hours and are currently unassigned.|
 |Agents with active work items|	Number of representatives that are currently with active record type work items.|
 |Agents online|	Number of logged in representatives.|
 |Transferred work items| Number of record type work items that are transferred to a queue or representative.|
@@ -59,8 +59,8 @@ Select **Detailed view** to view metrics by intent and representative.
 |Metrics | Definition  |
 |---------|---------|
 |Intent name|	Name of intent set by the administrator to be tracked per record type work item. |
-|Assigned work items|	Number of record type work items modified in the last 2 hours and currently assigned  per intent name. Assigned work items = Auto assigned work items + Manually assigned work items.|
-|Unassigned work items|	Number of record type work items modified in the last 2 hours and currently unassigned per intent name.|
+|Assigned work items|	By default, the system displays the number of record-type work items modified in the last two hours and are currently assigned per intent name. Assigned work items = Auto assigned work items + Manually assigned work items.|
+|Unassigned work items|	By default, the system displays the number of record-type work items modified in the last two hours and are currently unassigned per intent name.|
 |Longest wait time (hh:mm:ss)|	Waiting time until the representative accepts the work item per intent name.|
 
 
@@ -69,11 +69,11 @@ Select **Detailed view** to view metrics by intent and representative.
 |Metrics | Definition  |
 |---------|---------|
 |Agent name|	Name of representatives set to the specific intent. |
-|Assigned work items|	Number of record type work items modified in the last 2 hours and currently assigned currently to the specific representative. Assigned work items = Auto assigned work items + Manually assigned work items.|
-|Unassigned work items| Number of record type work items modified in the last 2 hours and currently unassigned per intent name.|
+|Assigned work items|	By default, the system displays the number of record-type work items modified in the last two hours and are currently assigned to the specific representative. Assigned work items = Auto assigned work items + Manually assigned work items.|
+|Unassigned work items| By default, the system displays the number of record-type work items modified in the last two hours and are currently unassigned per intent name.|
 |Transferred work items| Number of record type work items transferred and assigned to a representative. |
-|Active sessions|	Number of active sessions the representative is currently in and modified in the last 2 hours.|
-|Closed sessions|	Number of sessions closed by the representative and updated in the past 2 hours.|
+|Active sessions|	By default, the system displays the number of active sessions the representative is currently in and modified in the last two hours.|
+|Closed sessions|	By default, the system displays the number of sessions closed by the representative and updated in the last two hours.|
 
 
 ## Related information
