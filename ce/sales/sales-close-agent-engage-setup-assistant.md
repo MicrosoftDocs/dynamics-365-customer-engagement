@@ -17,11 +17,11 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Set up Sales Close Agent (Engage) through the Setup Assistant
+# Set up Sales Close Agent (Engage) through the setup assistant
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Sales Close Agent - Engage Setup Assistant provides a guided experience to help you configure the agent step-by-step. This method is ideal for administrators who prefer a streamlined setup process with AI assistance.  
+The Sales Close Agent - Engage setup assistant provides a guided experience to help you configure the agent step-by-step. This method is ideal for administrators who prefer a streamlined setup process with AI assistance.  
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -32,34 +32,44 @@ The Sales Close Agent - Engage Setup Assistant provides a guided experience to h
 - **Knowledge source integration**: Requires manual configuration for knowledge sources before finalizing setup.
 
 >[!NOTE]
->Currently, prompt suggestions aren't available for the Setup Assistant.
+>Currently, prompt suggestions aren't available for the setup assistant.
 
-## Open the Setup Assistant  
+## Open the setup assistant  
 
-You can open the Setup Assistant using the following ways, depending on when you're configuring:  
+You can open the setup assistant using the following ways, depending on when you're configuring:  
 
 1. Open the AI agents settings page, and then select **Create**.  
 1. In the **Create an AI agent** page, under the **Sales Close Agent** section, select **Choose**.  
 1. In the **Create Sales Close Agent** page, select **Scenario** as **Engage**.  
-1. Select **Assisted Setup** to open the AI setup assistant opens.  
+1. Select **Assisted setup** to open the AI setup assistant opens.  
+
+    :::image type="content" source="media/sca-engage-setup-assistant-open.png" alt-text="Sales Close Agent - Engage settings page showing the option to create a new agent.":::
 
 ## Choose a setup mode
 
 When you're configuring the agent for the first time, the AI assistant suggests prompts on how to set up the agent.  
 
-- **Quick setup**: To quickly configure the agent with defaults recommended by the application, enter the prompt “Use recommended defaults to start quickly”.  
-- **Guided setup**: To configure the agent with your customized settings through a guided setup, enter the prompt “Walk through the setup together”.  
-- **Data-driven setup**: To configure the agent based on your choices of data based on your organization’s data, enter the prompt with necessary details. For example, “Focus on deals under $50K using recent CRM data”. The assistant analyzes your data and suggests optimal configurations to process opportunities that are below $ 50K.  
-
+- **Quick setup**: To quickly configure the agent with defaults recommended by the application, enter the prompt *Use recommended defaults to start quickly*.
+    This mode is best for sandbox or testing environments. It generates default configurations, letting you quickly start trials without extensive manual input.
+- **Guided setup**: To configure the agent with your customized settings through a guided setup, enter the prompt *Walk through the setup together*. You can also configure the agent based on your organization’s data by entering the prompt with necessary details. For example, *Focus on deals under $50K using recent CRM data*. The assistant analyzes your data and suggests optimal configurations to process opportunities below $50K.  
+    This mode is ideal for production environments where accuracy and precision are critical. This interactive mode guides you through a sequence of questions and answers to ensure all necessary details are captured.  
 
 :::image type="content" source="media/sca-engage-setup-assistant-choose-modes.png" alt-text="Sales Close Agent - Engage setup assistant showing the option to choose between Quick setup and Guided setup.":::
 
-The assistant starts setting up the agent. Follow the chat instructions to configure the agent.  
+The assistant starts setting up the agent. Follow the [chat instructions to configure the agent](#set-up-the-agent-through-chat-interactions).  
 At any stage of the setup process, should you wish to configure the agent manually without losing progress, select **Edit in settings**.
 
 ## Set up the agent through chat interactions  
 
 The AI assistant guides you through a structured and interactive chat, asking questions to gather information while explaining each part of the process. Also, the assistant saves each part of the process so that you can switch to manual setup anytime or resume setup with the assistant from their previous point of progress.  
+
+In the chat, when you complete each step, each section, the assistant suggests the next best actions based on your progress. Use these suggestions as is or modify them to suit your needs. Make sure the prompt is clear and specific for the best results. For example, when you open the setup assistant, the next best actions are displayed as described in the following list to choose a setup mode.  
+
+- Use recommended defaults to start quickly.  
+- Walk through the setup together.  
+- Focus on deals under $50k using recent CRM data.
+
+**Follow these steps**:
 
 1. Choose the setup mode&mdash;quick, guided, or data-driven.  
 1. For each required input, the assistant:  
@@ -78,21 +88,23 @@ The AI assistant guides you through a structured and interactive chat, asking qu
     | Email templates | Choose to use a standard template or provide your own samples. The assistant adapts the tone and style accordingly. |
     | Email signature and disclaimer | Autogenerated for compliance and branding, with preview and edit options. |
     | Compliance profile | When Dynamics 365 Customer Insights Journeys is configured in your organization, we choose default profile for commercial emails. |
-    | Knowledge sources | Upload documents to ground the agent’s responses in accurate knowledge. |  
+    | Knowledge sources | Ensure that you upload the necessary product documents for the agent to function effectively with accurate information. The chat assistant provides the **Microsoft Copilot Studio** link to upload and manage these documents. Select the link to go to **Microsoft Copilot Studio** and follow the procedure to as described in [configuring product documentation](configure-sales-close-agent-knowledge-sources.md#configure-product-documentation). |
 
-    After configuring each section, the assistant suggests the next best actions based on your progress. Use these suggestions as is or modify them to suit your needs. Make sure the prompt is clear and specific for the best results.  
-    For example, when you open the setup assistant, the next best actions are displayed as described below to choose a setup mode.  
-    - Use recommended defaults to start quickly.  
-    - Walk through the setup together.  
-    - Focus on deals under $50k using recent CRM data.
+1. After you complete the agent configuration, the assistant checks prerequisites to ensure all necessary configurations are in place, such as app user setup and server-side synchronization. If prerequisites are missing, the assistant prompts you to enter app user information. Enter the required details to finish the setup.  
 
-1. Once all sections are configured, the assistant displays a summary. Review the summary and if any changes are required, enter the prompt to update the configuration or select **Edit in Settings** to go to manual settings.  
-1. When all the checks are complete, the AI assistant prompts you to start the agent.  
-    Select **Start agent** and you're redirect to the manual setup experience, where you can review all your agent’s settings in a structured format.  
+1. When all the checks are complete, the chat assistant prompts you to start the agent.  
+
+    :::image type="content" source="media/sca-engage-setup-assistant-summary.png" alt-text="Sales Close Agent - Engage setup assistant showing the summary of configurations before starting the agent.":::
+
+    Select **Start agent** and a confirmation message is displayed.  
+
+    :::image type="content" source="media/sca-engage-setup-assistant-start-agent-confirmation.png" alt-text="Sales Close Agent - Engage setup assistant showing the confirmation message after starting the agent.":::
+
+    Select **Go to setup review** and you're redirect to the manual setup experience, where you can review all your agent’s settings in a structured format.  
 After confirming everything is correct, select **Start agent** in the manual settings page to start your agent. The agent takes few minutes to start the agent.  
 
 >[!NOTE]
->At any point during the setup process, when you move away from the **Setup Assistant** page, your progress is saved. When you return to the page, you can resume from where you left off.  
+>At any point during the setup process, when you move away from the chat assistant setup page, your progress is saved. When you return to the page, you can resume from where you left off.  
 
 ## Related information
 
