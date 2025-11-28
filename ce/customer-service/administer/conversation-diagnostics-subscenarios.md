@@ -18,7 +18,7 @@ When the system routes a work item, its corresponding data starts appearing in A
 
 The conversation diagnostics scenario captures data related to unified routing, AI agent, customer service representative (service representative or representative), and supervisor actions. The following table contains data about the subscenarios corresponding to the scenario.
 
-### Non-channel-specific events
+## Non-channel-specific events
 
 ### Assignment and routing
 
@@ -335,7 +335,7 @@ Displays information on the user group identified for the conversation.
 
 - **Call Status Code**: A code that can be used to learn more details about how/why the call ended. 
 
-- **Conversation Stage**: End 
+- **Conversation stage**: End 
 
 ### Subscenario: Other subscenarios for agents and supervisors
 
@@ -419,14 +419,14 @@ Displays information on the user group identified for the conversation.
     
 - **Omnichannel.description and Omnichannel.messsage**: Captures whether the subscenario started, completed successfully, or failed. If the subscenario failed, error or exception information is provided. 
 
-- **Conversation Stage**: Indicates the stage of the conversation lifecycle that the subscenario relates to. Possible values include: 
+- **Conversation stage**: Indicates the stage of the conversation lifecycle that the subscenario relates to. Possible values include: 
 
     - Initialization    
     - Self Service
     - CSR Engagement 
     - End 
 
-### Additional Messaging Subscenarios 
+### Other subscenarios for messaging
 
 - **Subscenario**: 
 
