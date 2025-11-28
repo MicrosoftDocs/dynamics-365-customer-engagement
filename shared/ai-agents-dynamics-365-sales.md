@@ -1,4 +1,4 @@
-The following AI agents are available out-of-the-box in Dynamics 365 Sales:
+The following AI agents are available out of the box in Dynamics 365 Sales:
 
 - [Sales Qualification Agent](/dynamics365/sales/sales-qualification-agent)
 - [Sales Close Agent - Research](/dynamics365/sales/sales-close-agent)
