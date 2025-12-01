@@ -4,7 +4,7 @@ description: Use the Intent group report to drill down into metrics by intent an
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
 ms.date: 11/17/2025
 ms.custom: bap-template

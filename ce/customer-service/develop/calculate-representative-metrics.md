@@ -4,7 +4,7 @@ description: Learn how to calculate key metrics for customer service representat
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
 ms.date: 10/13/2025
 ms.custom:
