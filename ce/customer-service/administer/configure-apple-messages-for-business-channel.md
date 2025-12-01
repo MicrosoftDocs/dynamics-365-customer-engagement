@@ -24,11 +24,12 @@ Apple Messages for Business supports rich messaging experiences, allowing custom
 
 ## Prerequisites
 
-Before you configure the Apple Messages for Business channel in Copilot Service admin center, you must complete the following onboarding steps with Apple:
+Before you can configure the Apple Messages for Business channel in your Dynamics 365 instance, Apple requires that you complete a [mandatory onboarding process](https://go.microsoft.com/fwlink/?linkid=229692) that includes the following steps:
 
-1. Register your business with Apple Business Register. Learn more in [Apple Business Register](https://register.apple.com/)
-1. Enable Messages for Business and create a Messages for Business account for your brand. Learn more in [Apple Messages for Business Accounts Introduction](https://register.apple.com/resources/messages/messaging-documentation/).
-1. Select your geolocation.
+1. Register your business in the Apple Business Register.
+1. Create a Messages for Business account and select **Microsoft Dynamics 365** as your Messaging Service Provider (MSP).
+   
+After you successfully register and obtain your Messages for Business Account ID with Apple, you must contact Microsoft Support and request to "complete the Apple Messages for Business Account onboarding procedure". Provide your account ID so we can verify your MSP selection and finalize the configuration.
 
 ## Configure an Apple Messages for Business channel instance
 
