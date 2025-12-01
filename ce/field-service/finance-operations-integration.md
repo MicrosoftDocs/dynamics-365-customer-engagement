@@ -10,7 +10,7 @@ author: jasonccohen
 # Field Service integration with finance and operations applications
 
 > [!NOTE]
-> The Field Service integration with finance and operations applications will no longer be available after October 31, 2026. This capability is transitioning to the Field Service and Project Operations integration. Learn more in [Connect Field Service to finance and operations](/dynamics365/release-plan/2025wave2/service/dynamics365-field-service/connect-field-service-finance-operations) and [Link work orders to projects for unified financials](/dynamics365/release-plan/2025wave2/service/dynamics365-field-service/link-work-orders-projects-unified-financials).
+> The Field Service integration with finance and operations applications will no longer be available after February 28, 2027. This capability is transitioning to the Field Service and Project Operations integration. Learn more in [Connect Field Service to finance and operations](/dynamics365/release-plan/2025wave2/service/dynamics365-field-service/connect-field-service-finance-operations) and [Link work orders to projects for unified financials](/dynamics365/release-plan/2025wave2/service/dynamics365-field-service/link-work-orders-projects-unified-financials).
 >
 > Beginning with the Field Service 8.8.139.398 release, the **Install Finance and Operations** toggle will no longer be available in environments where the finance and operations integration isn't already installed or configured. Environments that already have the integration enabled will retain access and can continue until the feature deprecation.
 
