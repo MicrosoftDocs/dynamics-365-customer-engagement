@@ -20,7 +20,7 @@ Apple Messages for Business supports rich messaging experiences, allowing custom
 
 ## Prerequisites
 
-Before you can configure the Apple Messages for Business channel in your Dynamics 365 instance, Apple requires that you complete a [mandatory onboarding process](https://go.microsoft.com/fwlink/?linkid=229692) that includes the following steps:
+Before you can configure the Apple Messages for Business channel in your Dynamics 365 instance, Apple requires that you complete a [mandatory onboarding process](https://go.microsoft.com/fwlink/?linkid=2296920) that includes the following steps:
 
 1. Register your business in the Apple Business Register.
 1. Create a Messages for Business account and select **Microsoft Dynamics 365** as your Messaging Service Provider (MSP).
