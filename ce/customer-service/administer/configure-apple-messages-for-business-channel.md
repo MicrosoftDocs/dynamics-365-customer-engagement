@@ -1,7 +1,7 @@
 ---
 title: Configure an Apple Messages for Business channel
 description: This article provides steps to configure an Apple Messages for Business channel and Apple pages in the admin center.
-ms.date: 03/03/2025
+ms.date: 12/01/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -24,12 +24,11 @@ Apple Messages for Business supports rich messaging experiences, allowing custom
 
 ## Prerequisites
 
-Before you configure the Apple Messages for Business channel in Copilot Service admin center, ensure that the following prerequisites are met:
+Before you configure the Apple Messages for Business channel in Copilot Service admin center, you must complete the following onboarding steps with Apple:
 
 1. Register your business with Apple Business Register. Learn more in [Apple Business Register](https://register.apple.com/)
 1. Enable Messages for Business and create a Messages for Business account for your brand. Learn more in [Apple Messages for Business Accounts Introduction](https://register.apple.com/resources/messages/messaging-documentation/).
 1. Select your geolocation.
-
 
 ## Configure an Apple Messages for Business channel instance
 
