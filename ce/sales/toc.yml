@@ -196,7 +196,7 @@ items:
               - name: Set up and configure Sales Close Agent - Engage
                 href: configure-sales-close-agent.md      
                 items:
-                - name: Set up through the Setup Assistant
+                - name: Set up through the Setup Assistant (preview)
                   href: sales-close-agent-engage-setup-assistant.md
                 - name: Open the settings page
                   href: open-sales-close-agent-settings.md

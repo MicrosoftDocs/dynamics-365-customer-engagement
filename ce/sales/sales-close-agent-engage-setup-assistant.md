@@ -1,5 +1,5 @@
 ---
-title: Set up Sales Close Agent (Engage) through the Setup Assistant
+title: Set up Sales Close Agent (Engage) through the Setup Assistant (preview)
 description: Learn how to set up the Sales Close Agent (Engage) using the AI Setup Assistant in Dynamics 365 Sales.
 ms.date: 11/28/2025
 ms.topic: how-to
@@ -17,7 +17,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Set up Sales Close Agent (Engage) through the setup assistant
+# Set up Sales Close Agent (Engage) through the setup assistant (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
