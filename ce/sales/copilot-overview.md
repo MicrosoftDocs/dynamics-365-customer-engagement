@@ -42,7 +42,7 @@ Learn more in [Ask questions of Copilot in Dynamics 365 Sales](use-sales-copilot
 
 ## Copilot in Dynamics 365 Sales capabilities
 
-[!INCLUDE[copilot-dynamics-365-sales](../../shared/copilot-dynamics-365-sales.md)]
+[!INCLUDE[copilot-dynamics-365-sales](../../ce-shared/copilot-dynamics-365-sales.md)]
 
 ### Record summarization
 
