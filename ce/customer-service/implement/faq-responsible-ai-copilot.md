@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: faq
 ms.collection: bap-ai-copilot
-ms.date: 11/17/2025
+ms.date: 12/01/2025
 ms.update-cycle: 180-days
 ms.custom: 
 - bap-template
@@ -43,7 +43,7 @@ Copilot provides the following main features:
 
 - **Generate resolution notes**: Copilot provides representatives with a summary of case details, emails, and notes linked to the case on the **Ask a question** tab, so they can close the case or incident faster.
   
-- **Forecast with AI‑assisted best‑fit method selection (preview)**: Adds intelligence to forecast scenarios by recommending and applying the most suitable forecasting method based on scenario inputs. Administrators can opt in during setup and choose between the traditional approach and the AI‑based option. Supervisors can also run forecasts on demand instead of waiting for scheduled runs, giving teams flexibility and faster insights.
+- **Forecast using AI‑driven optimal method selection (preview)**: Enhances forecast scenarios by intelligently recommending and applying the most suitable method based on scenario inputs. Administrators can opt in during setup and choose between the traditional approach and the AI‑based option. Supervisors can also run forecasts on demand instead of waiting for scheduled runs, giving teams flexibility and faster insights.
 
 ## What is the system’s intended use?
 
@@ -105,7 +105,7 @@ Copilot enforces the role-based access (RBAC) controls defined, and adheres to a
 
 ## How does Copilot determine whether content is offensive or harmful?
 
-Copilot determines whether content is harmful through a severity rating system based on distinct categories of objectionable content. Learn more at [Harm categories in Azure AI Content Safety](/azure/ai-services/content-safety/concepts/harm-categories?tabs=warning).
+Copilot determines whether content is harmful through a severity rating system based on distinct categories of objectionable content. Learn more in [Harm categories in Azure AI Content Safety](/azure/ai-services/content-safety/concepts/harm-categories?tabs=warning).
 
 ## Where does data processing and retrieval occur to generate copilot responses?  
 
