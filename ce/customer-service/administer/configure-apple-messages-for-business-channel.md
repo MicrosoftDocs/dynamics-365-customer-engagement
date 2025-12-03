@@ -1,7 +1,7 @@
 ---
 title: Configure an Apple Messages for Business channel
 description: This article provides steps to configure an Apple Messages for Business channel and Apple pages in the admin center.
-ms.date: 12/01/2025
+ms.date: 12/03/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -25,7 +25,7 @@ Before you can configure the Apple Messages for Business channel in your Dynamic
 1. Register your business in the Apple Business Register.
 1. Create a Messages for Business account and select **Microsoft Dynamics 365** as your Messaging Service Provider (MSP).
    
-After you successfully register and obtain your Messages for Business Account ID with Apple, you must contact Microsoft Support and request to "complete the Apple Messages for Business Account onboarding procedure." Provide your account ID so we can verify your MSP selection and finalize the configuration.
+After you successfully register and obtain your Messages for Business Account ID with Apple, you must contact Microsoft Support and request to "complete the Apple Messages for Business Account onboarding procedure." Provide your account ID so we can verify your MSP selection and finalize the configuration. This step is required because the onboarding process is not fully self-service—Microsoft must complete the setup for the channel to work.
 
 ## Configure an Apple Messages for Business channel instance
 
@@ -58,9 +58,9 @@ After you successfully register and obtain your Messages for Business Account ID
         
       1. Review the **Summary** page, and then select **Create**. The channel instance is configured.
         
-1. Configure routing rules. Learn more at [Configure work classification](configure-work-classification.md)
+1. Configure routing rules. Learn more in [Configure work classification](configure-work-classification.md).
 
-1. Configure work distribution. Learn more at [Work distribution settings](create-workstreams.md#configure-work-distribution)
+1. Configure work distribution. Learn more in [Work distribution settings](create-workstreams.md#configure-work-distribution).
 
 1. Optionally, you can add an AI agent. Skip this step if representatives handle your conversations. Learn more in [Configure an AI agent](create-workstreams.md#add-an-agent-to-a-workstream).
 
