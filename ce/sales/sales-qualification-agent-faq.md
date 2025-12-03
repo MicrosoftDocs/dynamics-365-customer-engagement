@@ -42,7 +42,7 @@ The previous research data is stored in msdyn_leadagentresult (lead agent result
 <a name="trigger-events"></a>
 ## When does the agent run?
 
-When the agent is first configured and started, it runs all the leads that meet the conditions and were created within the look back period defined in the selection criteria. After the initial run, the agent processes leads in near real-time when any of the following events occur:
+When the agent is first configured and started, it runs on all the leads that meet the conditions and were created within the look back period defined in the selection criteria. After the initial run, the agent processes leads in near real-time when any of the following events occur:
 
 - A new lead is created.
 
