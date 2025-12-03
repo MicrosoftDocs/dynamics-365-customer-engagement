@@ -14,9 +14,9 @@ ms.reviewer: laalexan
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-Many customers use the Apple Messages app for their daily communication needs. The Apple Messages app also supports Messages for Business, a way to apply iMessage's richer communication capabilities to engage with businesses. The asynchronous nature of this channel gives customers the convenience of resolving their issues when they find time, in contrast to real-time channels such as Chat for Dynamics 365, where the session ends when the chat window closes.
+Many customers use the Apple Messages app for everyday communication. Dynamics 365 Customer Service supports integration with Apple Messages for Business, allowing organizations to engage with customers through an asynchronous messaging channel. This channel gives customers the flexibility to respond at their convenience, unlike real-time channels such as Chat for Dynamics 365, where sessions ends when the chat window closes.
 
-Apple Messages for Business supports rich messaging experiences, allowing customers and customer service representatives (service representatives or representatives) to converse through convenient and engaging interactions. Learn more in [Messages for Business](https://go.microsoft.com/fwlink/?linkid=2344555).
+After you configure the channel, conversations can include rich messaging features provided by Apple, such as file sharing and interactive elements. Apple Messages for Business supports rich messaging experiences, allowing customers and customer service representatives (service representatives or representatives) to converse through convenient and engaging interactions. Learn about Apple's capabilities in [Messages for Business](https://go.microsoft.com/fwlink/?linkid=2344555).
 
 ## Prerequisites
 
