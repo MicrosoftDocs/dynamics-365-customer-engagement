@@ -25,7 +25,7 @@ Before you can configure the Apple Messages for Business channel in your Dynamic
 1. Register your business in the Apple Business Register.
 1. Create a Messages for Business account and select **Microsoft Dynamics 365** as your Messaging Service Provider (MSP).
    
-After you successfully register and obtain your Messages for Business Account ID with Apple, you must contact Microsoft Support and request to "complete the Apple Messages for Business Account onboarding procedure." Provide your account ID so we can verify your MSP selection and finalize the configuration. This step is required because the onboarding process is not fully self-service—Microsoft must complete the setup for the channel to work.
+After you successfully register and obtain your Messages for Business Account ID with Apple, you must contact Microsoft Support and request to "complete the Apple Messages for Business Account onboarding procedure." Provide your account ID so we can verify your MSP selection and finalize the configuration. This step is required because the onboarding process isn't fully self-service—Microsoft must complete the setup for the channel to work.
 
 ## Configure an Apple Messages for Business channel instance
 
