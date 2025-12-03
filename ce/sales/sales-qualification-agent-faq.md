@@ -45,10 +45,15 @@ The previous research data is stored in msdyn_leadagentresult (lead agent result
 After the activation, the agent processes leads automatically when any of the following events occur:
 
 - A new lead is created.
-- There's an update to the email and account name of an existing lead that requires the agent to re-run. Not all updates trigger the agent to re-run. 
+
+- There's an update to the email and account name of an existing lead that requires the agent to re-run. Not all updates trigger the agent to re-run.
+  
     - The agent will re-run all the steps in the flow (including email validation, research, readiness, and engagement) if:
         - The lead's email ID is updated from an empty or invalid value to a valid value.
+
         - The lead's account name is updated from an empty value to a valid value.
+        - The lead is updated to meet the selection criteria defined for the agent. If the updated field is in the lead table, the agent processes the lead irrespective of the date the lead was created. If the updated field is in a related table, the agent processes the lead only if the lead was created within the look back period defined in the selection criteria.
+
      - The agent will run only the email validation step if:
          - The lead's email ID is updated from one value to another value, irrespective of whether the email ID is changed from a valid value to a valid or invalid value.
 
