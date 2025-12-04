@@ -23,7 +23,7 @@ Before you design and publish a hierarchy, ensure the following prerequisites ar
 - You must have administrator privileges.  
 - Define the parent-child relationship.  
     - For single table hierarchies, specify the column that contains the parent ID. For example, Parent Account ID for the Account table.  
-    - For multi-table hierarchies, define the relationships between tables. For example, Account to Contact.  
+    - For multi-table hierarchies, define the relationships between tables. For example, Account to Contact and Opportunity.  
 - For custom tables, ensure that rows can reference a parent row in the same table. If the relationship doesn't exist, [you need to create it](/power-apps/maker/data-platform/create-edit-entity-relationships).  
 
 ## Design and publish
@@ -79,7 +79,7 @@ Configure the root node of the hierarchy by selecting the desired table. The tab
     :::image type="content" source="media/hv-account-settings-tile-tab.png" alt-text="Screenshot of the tile display option tab in the account settings pane in the hierarchy designer page.":::
 
 1. [Add child nodes](#configure-the-child-node) if you're configuring a cross-table or hybrid hierarchy. For single table hierarchies, you can skip this step.  
-1. Save the hierarchy and [go to step 7 from design and publish hierarchy](#design-and-publish).  
+1. Save the hierarchy, and [go to step 7 in the design and publish procedure](#design-and-publish).  
 
 ## Configure the child node
 
@@ -118,7 +118,7 @@ Child nodes are added for cross-table or hybrid hierarchies to show related reco
     :::image type="content" source="media/hv-account-settings-tile-tab.png" alt-text="Screenshot of the tile display option tab in the account settings pane in the hierarchy designer page.":::  
 
 1. Repeat steps 2 to 4 to add more child nodes as required.  
-1. After adding all child nodes, save the hierarchy and [go to step 7 from design and publish hierarchy](#design-and-publish).  
+1. After adding all child nodes, save the hierarchy, and [go to step 7 in the design and publish procedure](#design-and-publish).
 
 ## Grant access to hierarchies  
 
@@ -146,4 +146,4 @@ When you add a child node, you must select a relationship type to define how the
 
 ## Related information
 
-[Manage hierarchy visualization](manage-hierarchy-visualizations.md)
+[Manage hierarchies](manage-hierarchy-visualizations.md)

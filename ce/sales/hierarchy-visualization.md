@@ -29,15 +29,15 @@ Hierarchies are created from data in a single table with a **self-referential** 
 The following screenshots show an example of a single table hierarchy of accounts in the designer and how it appears to users.  
 
 - In designer view, admins design a single table hierarchy by selecting **Expand all levels** for the table in the designer.  
-    :::image type="content" source="media/hierarchy-visualization-example.png" alt-text="Screenshot of a hierarchy visualization.":::  
-- In the user view, the hierarchy shows the configuration from the designer&mdash;an account and its related children for the account table.
-    :::image type="content" source="media/hierarchy-visualization-example-user-view.png" alt-text="Screenshot of a hierarchy visualization in user view.":::  
+    :::image type="content" source="media/hierarchy-visualization-example.png" alt-text="Screenshot of a visual hierarchy.":::  
+- In the user view, the hierarchy shows the configuration from the designer&mdash;an account and its related children for the account table.  
+    :::image type="content" source="media/hierarchy-visualization-example-user-view.png" alt-text="Screenshot of a visual hierarchy in user view.":::  
 
 ### Multi-table relationships
 
 Hierarchies can also visually show hierarchies of different types of data using the relationship data between two tables. For example, you might want to provide your sellers an Account view that shows opportunities directly related to the account, contacts, opportunities, or all of the above.  
 
-The following screenshot shows an example of a multi-table hierarchy of accounts, contacts, and opportunities. 
+The following screenshot shows an example of a multi-table hierarchy of accounts, contacts, and opportunities.  
 
 - In designer view, admins design a multi-table hierarchy by adding child nodes for each related table in the designer.  
     :::image type="content" source="media/cross-table-hierarchy-visualization-example.png" alt-text="Screenshot of a multi-table hierarchy visualization in the designer with Account, Contact, and Opportunity.":::
@@ -63,8 +63,8 @@ The visual hierarchy feature includes the following key capabilities:
 
 To get started with visual hierarchy, follow these steps:  
 
-1. Admins [designs the hierarchy](create-activate-hierarchy-visualizations.md).  
-1. Admins [grants access to the hierarchy](create-activate-hierarchy-visualizations.md#grant-access-to-hierarchies).  
-1. Admins [adds a View hierarchy point](add-hierarchy-visualization-custom-tables.md) to the desired entity.  
-1. Admins [publishes the hierarchy to the organization](create-activate-hierarchy-visualizations.md#design-and-publish).  
+1. Admin [designs the hierarchy](create-activate-hierarchy-visualizations.md).  
+1. Admin [grants access to the hierarchy](create-activate-hierarchy-visualizations.md#grant-access-to-hierarchies).  
+1. Admin [adds a View hierarchy point](add-hierarchy-visualization-custom-tables.md) to the desired entity.  
+1. Admin [publishes the hierarchy to the organization](create-activate-hierarchy-visualizations.md#design-and-publish).  
 1. Users [view data in the hierarchy](view-hierarchy-visualizations.md).  
