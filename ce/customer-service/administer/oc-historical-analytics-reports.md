@@ -40,7 +40,7 @@ Use the Copilot Service admin center app to enable or disable the Omnichannel hi
 1. In the site map of Copilot Service admin center, select **Insights** in **Operations**. The **Insights** page appears.
 1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page appears.
 1. Turn on the **Enable Omnichannel historical analytics report** toggle to enable the reports or turn off the toggle to disable the reports.
-1. Select **Save** or **Save and Close**.
+1. Select **Save** to apply changes.
 
 This configuration enables AI-discovered topics from conversations with default settings.
 
@@ -63,20 +63,20 @@ In Copilot Service admin center, you can enable the historical analytics for AI 
 **Enable historical analytics for agents in Omnichannel for Customer Service**
 
 1. On the **Omnichannel historical analytics** page, select the **Add historical analytics for bot** checkbox.
-1. Select **Save** or **Save and Close**.
+1. Select **Save** to apply changes.
 
 
 ## Enable historical analytics for voice in Omnichannel for Customer Service
 
 1. On the **Omnichannel historical analytics** page, select the **Add historical analytics for voice** checkbox.
-1. Select **Save** or **Save and Close**.
+1. Select **Save** to apply changes.
 
 The metrics are available on the dashboard 24 hours after you enable historical analytics. On the Omnichannel historical analytics dashboard, use the dashboard filter to go to the **Voice** dashboard.
 
 ## Enable historical analytics for voicemail in Omnichannel for Customer Service
 
 1. On the **Omnichannel historical analytics** page, select **Add historical analytics for voicemail**.
-1. Select **Save** or **Save and Close**.
+1. Select **Save** to apply changes.
 
 The metrics are available on the dashboard 24 hours after you enable historical analytics. On the Omnichannel historical analytics dashboard, use the dashboard filter to go to the **Voicemail** dashboard.
 
@@ -85,7 +85,7 @@ The metrics are available on the dashboard 24 hours after you enable historical 
 You can get insights about your contact center performance for proactive outbound engagements. The Proactive Outbound dashboard is available in Dynamics 365 Contact Center only.
 
 1. On the **Omnichannel historical analytics** page, select the **Add historical analytics for proactive outbound** checkbox.
-1. Select **Save** or **Save and Close**.
+1. Select **Save** to apply changes.
 
 ## View Omnichannel historical analytics reports
 
