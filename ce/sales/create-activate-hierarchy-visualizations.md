@@ -69,6 +69,7 @@ Configure the root node of the hierarchy by selecting the desired table. The tab
     | Setting | Description |
     |---------|-------------|
     | Show picture | Tiles can optionally show or hide a circled image for the record. When enabled, if no image is available, the initials of the record will be shown instead. For example, if **Maria Campbell** doesn't have an image, her tile would be displayed as **MC**. If initials aren't available, the default icon for the table is shown. |
+    | Show quick actions for this table | Enable this option to show quick actions (**...**) on the tile for the child table. Quick actions allow users to perform common tasks directly from the tile such as show in form and Add new record.<br>**Note**: The quick actions are displayed only when you publish or preview the hierarchy. |
     | Tile size | Select the width and height for the tile in pixels and then choose the color for the tile border. |
     | Color | Select the top header color for the tile in Hex format. Here, we're using **#0078D4** for the blue color. |
 
