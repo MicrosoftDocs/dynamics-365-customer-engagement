@@ -1,6 +1,6 @@
 ---
-title: Overview of hierarchy visualization
-description: Learn about the hierarchy visualization feature and its benefits.
+title: Overview of visual hierarchies
+description: Learn about the visual hierarchy feature and its benefits.
 ms.topic: overview
 author: udaykirang
 ms.author: udag
@@ -10,7 +10,7 @@ ms.date: 12/05/2025
 ms.custom: bap-template 
 ---
 
-# Overview of hierarchy visualization
+# Overview of visual hierarchies
 
 Your organization can now see and work with customers data in a visual hierarchical layout, providing instant visibility across related data. Visual hierarchies can visually display standard and custom tables of data, and a wide array of data relationships.  
 
@@ -49,23 +49,22 @@ The following screenshot shows an example of a multi-table hierarchy of accounts
 
 Any table in a hierarchy can be configured to show self-referential data, allowing for interesting scenarios such as a self-referential hierarchy of accounts where each account tile shown might have its own contacts and opportunities. You might even have self-referential opportunities, so instead of just showing directly linked opportunities, you might see a tree of opportunities such as when a Deal opportunity must be closed before the Installation opportunity and Service Contract opportunities can be pursued.  
 
-## Key capabilities of hierarchy visualization  
+## Key capabilities of visual hierarchy  
 
-The hierarchy visualization feature includes the following key capabilities:
+The visual hierarchy feature includes the following key capabilities:
 
 - **Drill down**: Navigate through different levels of hierarchical data. You can expand and collapse branches, zoom in and out, and switch between vertical and horizontal layouts to get a clear view of the data structure.
 - **Customize tiles**: Customize hierarchy tiles to meet your needs. This includes the ability to choose what fields to display on a tile, if descriptive labels are shown, if a picture should be shown, and the size and color of tiles.  
 - **Quick actions**: Use the quick actions on a tile to add new record or associate an existing record, or jump to the full screen details.  
 - **Fully editable details pane**: Select a tile to display a details side pane that provides full capability to view and edit details for the record. Easily expand the side pane to full screen if desired. The following screenshot shows an example of the details pane for a contact record.  
-    :::image type="content" source="media/hierarchy-visualization-details-pane.png" alt-text="Screenshot of the details pane for an account record in hierarchy visualization.":::
+    :::image type="content" source="media/hierarchy-visualization-details-pane.png" alt-text="Screenshot of the details pane for an account record in visual hierarchy.":::
 
-## Getting started with hierarchy visualization
+## Getting started with visual hierarchy
 
-To get started with hierarchy visualization, follow these steps:  
+To get started with visual hierarchy, follow these steps:  
 
 1. Admins [designs the hierarchy](create-activate-hierarchy-visualizations.md).  
 1. Admins [grants access to the hierarchy](create-activate-hierarchy-visualizations.md#grant-access-to-hierarchies).  
 1. Admins [adds a View hierarchy point](add-hierarchy-visualization-custom-tables.md) to the desired entity.  
 1. Admins [publishes the hierarchy to the organization](create-activate-hierarchy-visualizations.md#design-and-publish).  
 1. Users [view data in the hierarchy](view-hierarchy-visualizations.md).  
-
