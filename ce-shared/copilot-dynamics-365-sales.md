@@ -1,9 +1,10 @@
-Copilot in Dynamics 365 Sales offers the following capabilities:
+The following Copilot capabilities are available out of the box in Dynamics 365 Sales:
 
-- [Record summarization](/dynamics365/sales/copilot-overview#record-summarization)
-- [Embedded experiences](/dynamics365/sales/copilot-overview#embedded-experiences)
-- [Recent changes](/dynamics365/sales/copilot-overview#recent-changes)
-- [Information assistance](/dynamics365/sales/copilot-overview#information-assistance)
-- [Meeting preparation](/dynamics365/sales/copilot-overview#meeting-preparation)
-- [Email assistance](/dynamics365/sales/copilot-overview#email-assistance)
-- [News updates](/dynamics365/sales/copilot-overview#news-updates)
+- **Record summarization:** Generates a concise summary of key information from sales records such as leads, opportunities, and accounts. This helps sellers quickly understand the context and important details about their records. Learn more in [Summarize records with Copilot](/dynamics365/sales/copilot-summarize-records).
+
+- **Embedded experiences:** Integrates AI-generated summaries and insights directly within the lead and opportunity forms, allowing users to access relevant information without leaving their workflow. Learn more in [View the opportunity summary widget](/dynamics365/sales/copilot-summarize-records#view-the-opportunity-summary-widget).
+- **Recent changes:** Highlights recent updates and changes to sales records, ensuring that sellers stay informed about the latest developments. Learn more in [Get recent changes](/dynamics365/sales/copilot-ask-questions#get-recent-changes).
+- **Information assistance:** Provides content recommendations and answer to questions from documents stored in SharePoint. Learn more in [Get content recommendations from SharePoint](/dynamics365/sales/copilot-get-doc-suggestions#copilot-content-recommendation).
+- **Meeting preparation:** Helps sellers prepare for upcoming meetings by summarizing relevant information from sales records associated with the meeting. Learn more in [Prepare for upcoming sales appointments](/dynamics365/sales/copilot-stay-ahead#prepare-for-upcoming-sales-appointments).
+- **Email assistance:** Helps sellers compose professional-looking emails, summarize email conversations to add to your customer notes, and give you reminders to follow up on unanswered emails. Learn more in [Use Copilot Email assist](/power-apps/maker/model-driven-apps/use-copilot-email-assist).
+- **News updates:** Summarizes relevant news updates about customers and prospects, helping sellers stay informed about external factors that may impact their sales efforts. Learn more in [Show the latest news about an account](/dynamics365/sales/copilot-get-information#show-the-latest-news-about-an-account).
