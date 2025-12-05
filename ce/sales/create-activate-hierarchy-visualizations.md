@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Design and publish a hierarchy
 
-As an administrator, you can design and publish a hierarchy that allows your organization to visualize and work with complex hierarchical data. You can even design multiple hierarchies to show different relationships, or different views of the data such as active records only, or only records from certain countries.  
+As an administrator, you can design and publish a hierarchy that allows your organization to visualize and work with complex hierarchical data. You can even design multiple hierarchies to show different relationships, or different views of the data such as active records only, or only records from certain countries/regions.  
 
 Hierarchies are designed using your existing tables, forms, relationships, and views. You can design and publish a hierarchy based on a N:1 self-referential relationship&mdash;one where each row in a table has an optional pointer to its parent row, 1:N many-to-one relationship&mdash;one where each row in a table has a pointer to a row in another table, or both, and N:N many-to-many relationships.
 
