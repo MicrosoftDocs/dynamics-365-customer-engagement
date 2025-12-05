@@ -77,7 +77,6 @@ The article describes the Dataverse entities used in historical and real-time an
 - conversationtranscript
 - msdyn_ocphonecallengagementctx
 - msdyn_sessionextension
-- 
 
 ## Entities used in real-time analytics
 
