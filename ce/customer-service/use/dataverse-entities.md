@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: reference
 ms.collection: 
-ms.date: 06/27/2025
+ms.date: 12/05/2025
 ms.custom: bap-template
 ---
 
@@ -27,7 +27,9 @@ The article describes the Dataverse entities used in historical and real-time an
 - organization
 - appmodule
 - systemuser
-- queue msdyn_conversationtopic
+- queue
+- queuemembership
+- queue_msdyn_conversationtopic
 - msdyn_conversationtopic_conversation
 - msdyn_ocliveworkitem
 - msdyn_ocliveworkitemsentiment
@@ -40,7 +42,6 @@ The article describes the Dataverse entities used in historical and real-time an
 - systemuserroles
 - msdyn_agentstatushistory
 - annotation
-- queuemembership
 - msdyn_personasecurityrolemapping
 - role
 - msdyn_presence
@@ -59,9 +60,24 @@ The article describes the Dataverse entities used in historical and real-time an
 - bot
 - msdyn_botsession
 - msdyn_ocvoicemail
-- queueitem
 - msdyn_copilotinteraction
-- email 
+- email
+- msdyn_agentgroup
+- msdyn_conversationdispositioncodemap
+- msdyn_copilotevent
+- msdyn_customerfeedbacksurveyresponse
+- msdyn_intent
+- msdyn_livechatengagementctx
+- msdyn_oclanguage
+- msdyn_ocliveworkitemcontextitem
+- msdyn_ocliveworkitemcontextitemelastic
+- msdyn_proactive_delivery
+- msdyn_proactive_engagement_config
+- businessunit
+- conversationtranscript
+- msdyn_ocphonecallengagementctx
+- msdyn_sessionextension
+- 
 
 ## Entities used in real-time analytics
 
@@ -86,6 +102,15 @@ The article describes the Dataverse entities used in historical and real-time an
 - bookableresourcecharacteristic
 - msdyn_ocliveworkitemcharacteristic
 - choiceLabel (new entity for option set in real-time)
+- businessunit
+- choicelabels
+- incident
+- msdyn_agentgroup
+- msdyn_agentgroupmembership
+- msdyn_liveworkstreamcapacityprofile
+- msdyn_ocphonecallengagementctx
+- msdyn_ocphonenumber
+- msdyn_sessionextension
 
 ## Next steps
 
