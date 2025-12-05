@@ -26,7 +26,7 @@ You can do the following tasks in the communication panel:
 - Search for and share knowledge articles with the customer with whom you are interacting.
 - Transfer the conversation (work item) to another representative or queue.
 - Use the consult option if you need help with resolving the work item.
-- Generate a summary of the conversation. More information: [View and share auto-summarized conversations](cs-ai-generated-summary.md)
+- [Use Copilot to summarize conversations](/dynamics365/contact-center/use/copilot-summarize-conversations).
 
 ## Enhance productivity using keyboard commands
 
