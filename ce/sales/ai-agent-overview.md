@@ -24,20 +24,6 @@ Dynamics 365 Sales includes out-of-the-box AI agents that help sales teams quali
 
 [!INCLUDE[ai-agents-dynamics-365-sales](../../ce-shared/ai-agents-dynamics-365-sales.md)]
 
-## Sales Qualification Agent
-
-The Sales Qualification Agent helps sales teams qualify leads effortlessly by autonomously researching leads, determining if they're a good fit for further engagement, sending outreach emails, and engaging with leads. This agent is available in two modes: Research-only and Research and engage. Depending on your sales process and requirements, you can choose the mode that best fits your needs. Learn more in [Sales Qualification Agent overview](sales-qualification-agent.md). 
-
-## Sales Close Agent
-
-The Sales Close Agent - Research helps sales teams close deals faster by autonomously researching opportunities, providing visibility into emerging risks, and highlighting promising opportunities. Learn more in [Sales Close Agent - Research overview (preview)](opportunity-research-agent.md). 
-
-The Sales Close Agent - Engage autonomously manages the end-to-end sales cycle for high-velocity, low-complexity deals. It engages customers, recommends products, handles objections, and drives transactions to closure using templated personalization for outreach and follow-ups. Learn more in [Sales Close Agent - Engage overview (preview)](sales-close-agent.md).
-
-## Sales Research Agent
-
-The Sales Research Agent in Dynamics 365 Sales empowers you to solve complex business questions through a dialog with your data using natural language. This AI-powered research canvas offers rich insights into all aspect of your sales data, empowering you to make informed decisions taking a myriad of variables into account. Learn more in [Sales Research Agent overview (preview)](sales-research-agent.md).
-
 <a name="monitor-agent-performance"></a>
 ## Monitor agent performance
 
