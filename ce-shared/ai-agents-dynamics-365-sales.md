@@ -4,6 +4,6 @@ The following AI agents are available out of the box in Dynamics 365 Sales:
 
 - **Sales Close Agent - Research:** Helps sales teams close deals faster by autonomously researching opportunities, providing visibility into emerging risks, and highlighting promising opportunities. Learn more in [Sales Close Agent - Research](/dynamics365/sales/opportunity-research-agent).
 
-- **Sales Close Agent - Engage:** Manages the end-to-end sales cycle autonomously for high-velocity, low-complexity deals. It engages customers, recommends products, handles objections, and drives transactions to closure using templated personalization for outreach and follow-ups. Learn more in [Sales Close Agent - Engage](/dynamics365/sales/sales-close-agent).
+- **Sales Close Agent - Engage:** Manages the end-to-end sales cycle autonomously. It engages customers, recommends products, handles objections, and drives transactions to closure using templated personalization for outreach and follow-ups. Learn more in [Sales Close Agent - Engage](/dynamics365/sales/sales-close-agent).
 
 - **Sales Research Agent:** Helps sales teams solve complex business questions through a dialog with their sales data using natural language. Learn more in [Sales Research Agent](/dynamics365/sales/sales-research-agent).
