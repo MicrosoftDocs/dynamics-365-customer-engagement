@@ -1,6 +1,6 @@
 ---
-title: Sales research agent overview (preview)
-description: Learn how to use the Sales research agent in Dynamics 365 Sales to get insights about your customers, prospects, sales targets, and competitors.
+title: Sales Research Agent overview (preview)
+description: Learn how to use the Sales Research Agent in Dynamics 365 Sales to get insights about your customers, prospects, sales targets, and competitors.
 manager:
 ms.date: 09/16/2025
 ms.topic: overview
@@ -13,20 +13,20 @@ ms.reviewer: lavanyakr
 ai-usage: ai-assisted
 ---
 
-# Sales research agent overview (preview)
+# Sales Research Agent overview (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Sales Research Agent in Dynamics 365 Sales empowers you to solve complex business questions through a dialog with your data using natural language. This AI-powered research canvas offers rich insights into all aspect of your sales data, empowering you to make informed decisions taking a myriad of variables into account.
+The Sales Research Agent in Dynamics 365 Sales empowers you to solve complex business questions through a dialog with your data using natural language. This AI-powered research canvas offers rich insights into all aspect of your sales data, empowering you to make informed decisions taking a myriad of variables into account. You can provide general and business context to the agent to improve the relevance and consistency of the content generated. Learn more in [Provide context to enhance the Sales Research Agent (preview)](sales-research-agent-provide-context.md).
 
-:::image type="content" source="media/sales-research-agent-insights.png" alt-text="Screenshot of the research canvas in the Sales research agent." lightbox="media/sales-research-agent-insights.png":::
+:::image type="content" source="media/sales-research-agent-insights.png" alt-text="Screenshot of the research canvas in the Sales Research Agent." lightbox="media/sales-research-agent-insights.png":::
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 Use the agent to:
 
 - Get insights from your Dynamics 365 Sales data and offline files (CSV, Excel, or PDF) to help you make informed decisions.
-- Leverage the research blueprint that includes a summary of your research, key findings, and suggested next steps.
+- Leverage the research blueprint that includes a summary of the agent's research, key findings, and suggested next steps that are based on the business content and data you provide.
 - Interact with the research findings using natural language. Ask follow-up questions, change visualizations, and add more data to your research.
 - Understand how the agent arrived at its conclusions by reviewing the sources and reasoning behind the research outcomes by selecting **Show work** on the blueprint.
 

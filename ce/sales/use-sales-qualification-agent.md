@@ -1,7 +1,7 @@
 ---
-title: Work on leads handed over by the Sales Qualification Agent (preview)
+title: Work on leads handed over by the Sales Qualification Agent
 description: Learn how to work with leads handed over by the Sales Qualification Agent in Dynamics 365 Sales. Discover research insights, handover summaries, and recommended actions for effective lead management.
-ms.date: 09/30/2025
+ms.date: 11/27/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -20,9 +20,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Work on leads handed over by the Sales Qualification Agent (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Work on leads handed over by the Sales Qualification Agent
 
 Depending on the automation level your admin has configured, the Sales Qualification Agent can help you qualify leads by automatically by completing the following tasks:
 
@@ -39,8 +37,6 @@ Depending on the automation level your admin has configured, the Sales Qualifica
     - Engages with the lead based on their responses to the outreach email.
     - Sends follow-up emails to the lead based on their responses and engagement.
     - Hands over the lead to you when it detects positive intent. Else, disqualifies the lead and notifies the supervisor. Additional handover scenarios are explained in the Lead handover process section below.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 
@@ -74,18 +70,18 @@ The lead handover process goes through the following stages:
 
 ## View leads handed over by the agent
 
-If you're a seller, you get notified when a lead is handed over to you. If you missed that, follow the steps in this section to view the leads handed over by the Sales Qualification Agent.
+If you're a seller, you get notified when a lead is handed over to you. If you missed that, follow the steps in this section to view all leads handed over to you by the Sales Qualification Agent.
 
-If you're a supervisor, you get notified when a lead is disqualified by the agent. Learn more in [View leads disqualified by the agent](#view-leads-disqualified-by-the-agent) and [Monitor leads handled by the Sales Qualification Agent (preview)](monitor-leads-by-sales-qualification-agent.md).
+If you're a supervisor, you get notified when a lead is disqualified by the agent. Learn more in [View leads disqualified by the agent](#view-leads-disqualified-by-the-agent). You can also view detailed agent performance metrics and data on the AI Optimization hub. Learn more in [Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md).
 
 > [!NOTE]
 > If you don't see the views mentioned in this section, contact your admin to [add agent-specific views to your app](start-sales-qualification-agent.md#add-agent-specific-views-to-your-app).
 
 1. In the Sales Hub app, go to **Leads**.
 
-1. From the views drop-down, select **Leads from AI Agent**.
+1. From the views drop-down, select **My leads from AI Agent** to view all leads handed over to you by the agent. Leads remain in this view even after they are qualified or disqualified by you.
    > [!NOTE]
-   > The agents hands over leads that [meet the handoff criteria](configure-sales-qualification-agent-handoff-criteria.md) defined by your admin. 
+   > The agents hands over leads that [meet the handoff criteria](configure-sales-qualification-agent-handoff-criteria.md) defined by your admin.
 1. Select a lead.
    - If you're in the focused view, you'll see the **Lead research** page for the lead.
 
@@ -174,6 +170,7 @@ The agent searches the public web for information about the lead’s company. If
 - **Overview:** Fetches general information about the lead’s company, such as industry, location, company size, products and services sold, and whether it is B2B or B2C. Outlines the company’s strategic priorities and how those relate to your offerings.
 - **Finances:** Summarizes the company’s financial health, outlines key financial metrics, and interprets what they mean for your sales approach.
 - **News:** Summarizes up to three recent news articles and explains how they relate to your offerings.
+- **Custom research insights:** If your admin has configured [custom research insights](sales-qualification-agent-custom-research-topics.md) to cater to your sales team's specific needs, the agent generates the custom insights using the specified knowledge sources. For example, if your admin has set up a custom research topic to summarize the recent conversations between your company and the lead's company, the agent fetches relevant insights from the configured knowledge source, such as Gong, and displays them in this section. If the insight is from a non-public knowledge source, you might need to authenticate to open the citation link.
 
 **Competitor insights**
 

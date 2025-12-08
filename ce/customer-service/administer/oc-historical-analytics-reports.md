@@ -1,7 +1,7 @@
 ---
 title: Manage historical analytics reports in Omnichannel for Customer Service
 description: Learn how to enable and customize Omnichannel historical analytics reports for BI and AI-driven insights in customer service operations.
-ms.date: 09/15/2025
+ms.date: 11/11/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -27,6 +27,7 @@ The historical analytics reports include:
 - [Voicemail](../use/oc-voicemail-dashboard.md)
 - [Agent](../use/agent-dashboard.md)
 - [Bot](../use/oc-bot-dashboard.md)
+- [Proactive outbound](/dynamics365/contact-center/use/proactive-outbound-dashboard)
 
 > [!NOTE]
 > The reports retain their current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the steps provided [here](analytics_overview.md#keep-the-report-state-when-you-switch-session-tabs) to keep the report state.
@@ -86,7 +87,14 @@ You can enable the historical analytics dashboard for voicemail in the Copilot S
 1. For Omnichannel historical analytics, select **Manage**.
 1. Select **Add historical analytics for voicemail**.
 
-In the Omnichannel historical analytics report, use the dashboard filter to go to the **Voicemail** dashboard.
+## Enable omnichannel historical analytics for proactive outbound engagements
+
+You can get insights about your contact center performance for proactive outbound engagements. The Proactive Outbound dashboard is available in Dynamics 365 Contact Center only.
+
+1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
+1. In the **Omnichannel historical analytics** section, select **Manage**.
+1. The **Omnichannel historical analytics** page appears. Select the **Add historical analytics for proactive outbound** checkbox.
+1. Select **Save** or **Save and Close**.
 
 ## View Omnichannel historical analytics reports
 

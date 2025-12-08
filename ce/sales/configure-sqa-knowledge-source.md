@@ -1,8 +1,8 @@
 ---
-title: Configure knowledge sources for Sales Qualification Agent (preview)
+title: Configure knowledge sources for Sales Qualification Agent
 description: Learn how to configure knowledge sources for the Sales Qualification Agent in Dynamics 365 Sales.
 ms.topic: how-to 
-ms.date: 09/17/2025
+ms.date: 11/27/2025
 ms.service: dynamics-365-sales
 content_well_notification:
   - AI-contribution
@@ -15,78 +15,114 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure knowledge sources for Sales Qualification Agent (preview)
+# Configure knowledge sources for Sales Qualification Agent
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-Add knowledge sources that the agent can use for researching leads and their companies, and for drafting outreach and follow-up emails. For example, you can add customer testimonials and case studies as knowledge sources for outreach emails to engage leads effectively.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+By default, the agent uses public web data sources to research leads and their companies. However, you can enhance the relevance of the research insights and email content by adding custom knowledge sources that are specific to your organization and industry. For example, you can add customer testimonials and case studies as knowledge sources for outreach emails to engage with leads effectively.
 
 ## Considerations
 
-Consider the following before you configure knowledge sources for the Sales Qualification Agent:
+Before you configure knowledge sources for the Sales Qualification Agent, consider the following factors:
 
-- When you add a knowledge source to the agent, you're redirected to Copilot Studio. So, ensure that you have the necessary permissions to access and modify the knowledge sources in Copilot Studio. The Sales Qualification Agent uses specialized, micro agents in Copilot Studio for outreach emails, follow-up emails, and research insights. Knowledge sources added to these micro agents are only used for the specific purpose it's configured for. For example, knowledge sources added to the **Research** micro agent are only used for research insights, and not for outreach emails or follow-up emails.
+- When you add a knowledge source to the agent, you'll be redirected to Microsoft Copilot Studio. So, ensure that you have the necessary permissions to access and modify the knowledge sources in Copilot Studio. The Sales Qualification Agent uses specialized, micro agents in Copilot Studio for outreach emails, follow-up emails, and research insights. Knowledge sources added to these micro agents are only used for the specific purpose it's configured for. For example, knowledge sources added to the **Research** micro agent are only used for research insights, and not for outreach emails or follow-up emails.
 
 - If the Sales Qualification Agent and Opportunity Research Agent are in the same environment, they share the same knowledge sources for account research insights. The knowledge sources that you add to or remove from one of the agents is reflected in the other agent as well. If you see knowledge sources that you didn't add, it's possible that those sources are configured for the Opportunity Research Agent. Don't remove them unless you want to remove them from both the agents.
 
-- Ensure that the knowledge sources that you want the agent to use are in the SharePoint folder. Any other file sources such as OneDrive aren't supported.
+- Ensure that any files or documents that you want the agent to use are in a SharePoint folder. Any other file sources such as OneDrive aren't supported.
 
-- When you upload files from SharePoint in Copilot Studio, select the **SharePoint** option in the **Featured** section. The **SharePoint** option under the **Upload file** section isn't supported. Selecting this option blocks the agent from processing the leads. The following screenshot shows the correct option to select in Copilot Studio:
+- In Copilot Studio, when you upload files from SharePoint, select the **SharePoint** option in the **Featured** section. The **SharePoint** option under the **Upload file** section isn't supported. Selecting this option blocks the agent from processing the leads. The following screenshot shows the correct option to select in Copilot Studio:
 
    :::image type="content" source="media/sales-qualification-agent-knowledge-source-sharepoint.png" alt-text="Screenshot showing the correct SharePoint option to select in Copilot Studio":::
 
-## Add knowledge sources for the agent
+## Add knowledge sources for company research
+
+By default, the agent uses public web data sources to research leads and their companies. However, you can add custom knowledge sources that you want the agent to use to get more relevant and specific insights about the lead and their company.
 
 1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  
 
-1. In the **Knowledge** section, select the following options and configure the knowledge sources:  
-    - **Research**: The agent uses knowledge sources to get research insights about the lead, their company, and their competitors. 
-        - **Company insights:** Company insights include industry type, company size, financials, priorities, and news. The following examples are the best sources to add as knowledge sources for company research:
+1. In the **Knowledge** section, select **Research**.
+1. Under **Enrich research with knowledge sources**, select **Company research**. Company insights include industry type, company size, financials, priorities, and news. The following examples are the best sources to add as knowledge sources for company research:
 
-            | Insight | Typical questions answered | Examples of out-of-box data sources |
-            |---------|----------------------------|-------------------------------------|
-            | Company background | What does the company do? What is its size and industry? | Company website, Wikipedia pages, Crunchbase profiles |
-            | Strategic priorities | What is the firm focusing on? Does their priority match with what we are selling? | Annual reports, earnings-call transcripts |
-            | Financials | How healthy is the business? Will they have budget to buy what we are selling? | SEC filings, Bloomberg, Dataverse finance tables |
-            | Recent news | What just happened that matters to us, and shows a need or intent for our solutions? | Bing news search |  
+    | Insight | Typical questions answered | Examples of out-of-box data sources |
+    |---------|----------------------------|-------------------------------------|
+    | Company background | What does the company do? What is its size and industry? | Company website, Wikipedia pages, Crunchbase profiles |
+    | Strategic priorities | What is the firm focusing on? Does their priority match with what we are selling? | Annual reports, earnings-call transcripts |
+    | Financials | How healthy is the business? Will they have budget to buy what we are selling? | SEC filings, Bloomberg, Dataverse finance tables |
+    | Recent news | What just happened that matters to us, and shows a need or intent for our solutions? | Bing news search |  
 
-        - **Competitor insights:** Competitor insights include industry, location, size, and market share of the competitor, their strengths, weaknesses, opportunities, and threats (SWOT analysis), and recommended talking points to position against the competitor. Learn more in [Configure Sales Qualification Agent to generate competitor insights (preview)](sales-qualification-agent-competitor-insights.md).
-    - **Outreach emails**: The agent uses knowledge sources to create personalized outreach emails. These emails can include relevant customer testimonials, case studies, and other insights to engage the lead effectively.  
-    - **Follow-up emails**: This setting is only applicable for the Research and engage mode. The agent uses knowledge sources to create follow-up emails to respond accurately and ask insightful questions. For an effective follow-up, add knowledge sources that include price sources, product specifications, sales playbooks, SKUs, and more.  
+1. Select **Add in Microsoft Copilot Studio** or **Manage in Microsoft Copilot Studio** to add or remove knowledge sources.
+   You're redirected to the D365 Sales Agent - Research agent's **Knowledge** page in Copilot Studio.
+1. Add relevant knowledge sources and return to the agent settings page.
+   The knowledge sources you added in Copilot Studio are listed under **Company research**. You can now test the knowledge source.
+1. Select the Test icon (:::image type="icon" source="media/test-icon.png" border="false":::) in the **Company research** section. Follow the instructions in the **Test insight** pane and verify whether the agent is generating relevant research insights using the knowledge sources you added.
 
-1. In the **Knowledge sources** section, select **Add**. You're redirected to the **Copilot Studio** page where you can add knowledge sources.  
+<a name="configure-competitor-insights"></a>
+## Configure the agent to generate competitor insights
 
-To know more about adding knowledge sources in Copilot Studio, go to [Add knowledge to an agent](/microsoft-copilot-studio/knowledge-add-existing-copilot).
+The Sales Qualification Agent can provide insights about competitors for a lead. These insights include information about your competitors, their strengths and weaknesses, and talking points to help sellers position your products or services effectively against the competition. As an admin, you can configure the agent to generate competitor insights by specifying key competitors and uploading relevant knowledge sources.
 
-### Test knowledge source for company insights
+### How the agent identifies competitors to research
 
-After you add knowledge sources for company insights, you can test if Sales Qualification Agent is picking these sources as part of research in the Microsoft Copilot Studio test pane.
+The agent identifies the competitors for a lead from the following sources:
 
-**Follow these steps**:
+- Competitors added to the lead record are given the highest priority. If the lead record has a competitor specified, the agent researches only that competitor.
 
-> [!NOTE]
-> In this example, we're using Contoso as the seller company and Microsoft as the lead company.
+- If no competitors are specified in the lead record, the agent looks for competitors from:
+    - Web search results based on account research and value proposition.
 
-1. Open the **Research** agent in Copilot Studio.
-1. In the **Test your agent** pane, Enter the following script:  
-    `{"sellerCompanyName": "Contoso", 
-    "productInformation": "This agent is responsible for researching and qualifying high-priority leads interested in Contoso GPUs. It supports the sales team by identifying prospects with strong alignment to Contoso’s AI and HPC solutions, enabling focused and effective outreach.",
-    "companyName": "Microsoft", 
-    "accountDomain": "https://www.microsoft.com"}`  
-    
-    Replace the `sellerCompanyName` attribute with your company name, `productInformation` with your product’s value proposition that is [configured in the Products section](sales-qualification-agent-general-settings.md#configure-product-information), `companyName` with the company name where leads come from, and the `accountDomain` as company’s website.  
+    - Closed opportunities that include competitor information.
+    - Competitors list configured in the agent settings (as explained in the following section).
 
-1. Microsoft Copilot Studio takes a few seconds to generate a response in JSON code.  
-    
-    :::image type="content" source="media/sales-qualification-agent-knowledge-source-test.png" alt-text="Screenshot showing the test pane in Copilot Studio for Sales Qualification Agent":::
+    The agent ranks competitors based on the number of sources they appear in. If a competitor is mentioned in more sources than others, the agent ranks it as the top competitor. If there are multiple competitors with the same rank, the agent picks the one associated with the recently won opportunity.
 
-1. Review the JSON response for the following keys&mdash;`accountFinances`, `accountOverview`.  
-    The output maps the way the seller sees in the research insights once the agent is running.  
+    The following table illustrates how the agent prioritizes competitors in different scenarios:
 
-1. When you're satisfied with the output, save and activate the knowledge source.
-    Now, sellers can see the research insights in the Sales Qualification Agent once it's running.
+    | Scenario                                                                                  | Which competitors are considered?                                   |
+    |-------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+    | Contoso appears in three sources, Fabrikam in two, and Northwind in one                   | Contoso                     |
+    | Contoso and Fabrikam each appear in three sources, Northwind in two                       | Contoso or Fabrikam depending on which one was associated with the most recently won opportunity.  |
+    | Contoso and Fabrikam both appear in two sources           | The competitor from the most recent opportunity is prioritized      |
+    | Contoso, Fabrikam, and Northwind each appear in one source (No overlap among sources)     | Competitors configured by the admin are shown as fallback           |
+    | No competitor information available in records and no competitors configured in agent settings             | Competitors from web search results are shown                       |
+
+### Add competitors and knowledge sources for competitor insights
+
+When the agent doesn't find competitor information in the lead record or doesn't find any overlapping mentions of competitors across different sources, it uses the competitors list you add in the agent settings as explained in this section.
+
+You can also upload relevant documents such as battle cards, positioning briefs, and market analysis reports to help the agent generate more accurate and relevant insights. Learn more about [considerations for knowledge sources](configure-sqa-knowledge-source.md#considerations).
+
+1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  
+
+1. Under **Knowledge**, select **Research**, and then scroll down to the **Competitor research** section.
+1. Under **Key competitors**, select **+ Competitor** to add up to three competitors for the product line that the agent will work on. 
+1. Select **Upload in Microsoft Copilot Studio** to upload or remove knowledge sources for competitor insights.  
+   The **D365 Sales Agent - Competitors** agent's **Knowledge** page opens in Copilot Studio. 
+
+1. Select **Add knowledge** and then select **Upload file**.
+   > [!NOTE]
+   > You can upload only slide decks or documents as knowledge sources for competitor insights.
+1. Select the documents. You can group similar documents into a group to help the agent understand the context better. For example, you can group all documents related to a specific competitor. Select **Upload** > **Upload as a group** to upload the documents as a group.  
+
+   :::image type="content" source="media/group-upload-copilot-studio.png" alt-text="Screenshot of the Group upload option in Copilot Studio.":::  
+
+   You can also group individual documents into a group after uploading them. Select a document in the **Knowledge** page and select **Create file group** to create a group and add the document to it.
+
+1. Return to the Sales Qualification Agent settings page and select the Test icon (:::image type="icon" source="media/test-icon.png" border="false":::) in the **Competitor research** section. Follow the instructions in the **Test insight** pane and verify whether the agent is generating relevant research insights using the knowledge sources you added.
+
+
+## Add knowledge sources for outreach and follow-up emails
+
+You can add knowledge sources that the agent can use to draft outreach and follow-up emails to leads. For example, you can add customer testimonials and case studies as knowledge sources for outreach emails to engage with leads effectively.
+
+1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).
+1. In the **Knowledge** section, select **Agent emails**. Add knowledge sources for the following email types:
+        - **Knowledge sources for email personalization**: The agent uses these knowledge sources to draft personalized outreach emails. Add relevant customer testimonials, case studies, and other insights to engage with the lead effectively.  
+        - **Knowledge sources for email responses**: This setting is only applicable for the Research and engage mode. The agent uses these knowledge sources to draft follow-up emails to respond accurately and ask insightful questions. For an effective follow-up, add knowledge sources that include price sources, product specifications, sales playbooks, SKUs, and more.  
+1. Select **Manage** to add or remove knowledge sources in Microsoft Copilot Studio.
+   For email personalization, the D365 Sales Agent - Outreach Emails agent's **Knowledge** page opens in Copilot Studio.
+    For email responses, the D365 Sales Agent - Engage Autonomous agent's **Knowledge** page opens in Copilot Studio.
+1. Add relevant knowledge sources and go back to the agent settings page.
+   The knowledge sources you added in Copilot Studio are listed under the respective email type.
+
 
 ## Example Scenario: Contoso Investment Bank targets high-net-worth (HNW) leads
 
@@ -98,7 +134,6 @@ Goal: Contoso’s sales operations team wants the agent to decide if a lead’s 
 | Company background   | Public site hoovers.com profile pages<br>Dunn & Bradstreet (D&B) number from Account.DUNSNumber | Add https://www.hoovers.com/ as a public website<br>D&B’s D-U-N-S number is synced to Dataverse Account table and added to Copilot Studio. |
 | Recent news          | Bloomberg RSS feed for the prospect’s company                                     | Upload the RSS XML file or connect via a news API                                            |
 | Strategic priorities | Contoso analyst reports stored in a SharePoint library                            | Add SharePoint URL                                                                           |
-
 
 After you publish the knowledge sources, the agent:
 
@@ -126,4 +161,5 @@ With curated knowledge sources, the Sales Qualification Agent becomes a best res
 
 ## Related information
 
+[Add knowledge to an agent](/microsoft-copilot-studio/knowledge-add-existing-copilot)  
 [Configure the Sales Qualification Agent](configure-sales-qualification-agent.md)

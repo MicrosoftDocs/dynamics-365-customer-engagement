@@ -364,7 +364,10 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_appointment_msdyn_conversationinsight_conversationinsighttarget](#BKMK_msdyn_appointment_msdyn_conversationinsight_conversationinsighttarget)
 - [msdyn_appointment_msdyn_externalrecord](#BKMK_msdyn_appointment_msdyn_externalrecord)
 - [msdyn_appointment_msdyn_ocrecording_recordingtarget](#BKMK_msdyn_appointment_msdyn_ocrecording_recordingtarget)
+- [msdyn_appointment_msdyn_transcript_transcripttarget](#BKMK_msdyn_appointment_msdyn_transcript_transcripttarget)
+- [msdyn_msdyn_conversationactionitem_appointment_msdyn_CreatedActivity](#BKMK_msdyn_msdyn_conversationactionitem_appointment_msdyn_CreatedActivity)
 - [msdyn_msdyn_salescopilotinsight_appointment_msdyn_activityid](#BKMK_msdyn_msdyn_salescopilotinsight_appointment_msdyn_activityid)
+- [msdyn_msdyn_sciconversation_appointment_msdyn_RelatedActivity](#BKMK_msdyn_msdyn_sciconversation_appointment_msdyn_RelatedActivity)
 
 ### <a name="BKMK_appointment_campaignresponse"></a> appointment_campaignresponse
 
@@ -414,6 +417,30 @@ Many-To-One Relationship: [msdyn_ocrecording msdyn_appointment_msdyn_ocrecording
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_appointment_msdyn_transcript_transcripttarget"></a> msdyn_appointment_msdyn_transcript_transcripttarget
+
+Many-To-One Relationship: [msdyn_transcript msdyn_appointment_msdyn_transcript_transcripttarget](msdyn_transcript.md#BKMK_msdyn_appointment_msdyn_transcript_transcripttarget)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_transcript`|
+|ReferencingAttribute|`msdyn_transcripttarget`|
+|ReferencedEntityNavigationPropertyName|`msdyn_appointment_msdyn_transcript_transcripttarget`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_conversationactionitem_appointment_msdyn_CreatedActivity"></a> msdyn_msdyn_conversationactionitem_appointment_msdyn_CreatedActivity
+
+Many-To-One Relationship: [msdyn_conversationactionitem msdyn_msdyn_conversationactionitem_appointment_msdyn_CreatedActivity](msdyn_conversationactionitem.md#BKMK_msdyn_msdyn_conversationactionitem_appointment_msdyn_CreatedActivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationactionitem`|
+|ReferencingAttribute|`msdyn_createdactivity`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_conversationactionitem_appointment_msdyn_createdactivity`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_msdyn_salescopilotinsight_appointment_msdyn_activityid"></a> msdyn_msdyn_salescopilotinsight_appointment_msdyn_activityid
 
 Many-To-One Relationship: [msdyn_salescopilotinsight msdyn_msdyn_salescopilotinsight_appointment_msdyn_activityid](msdyn_salescopilotinsight.md#BKMK_msdyn_msdyn_salescopilotinsight_appointment_msdyn_activityid)
@@ -425,6 +452,18 @@ Many-To-One Relationship: [msdyn_salescopilotinsight msdyn_msdyn_salescopilotins
 |ReferencedEntityNavigationPropertyName|`msdyn_msdyn_salescopilotinsight_appointment_msdyn_activityid`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_sciconversation_appointment_msdyn_RelatedActivity"></a> msdyn_msdyn_sciconversation_appointment_msdyn_RelatedActivity
+
+Many-To-One Relationship: [msdyn_sciconversation msdyn_msdyn_sciconversation_appointment_msdyn_RelatedActivity](msdyn_sciconversation.md#BKMK_msdyn_msdyn_sciconversation_appointment_msdyn_RelatedActivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_sciconversation`|
+|ReferencingAttribute|`msdyn_relatedactivity`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_sciconversation_appointment_msdyn_relatedactivity`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 

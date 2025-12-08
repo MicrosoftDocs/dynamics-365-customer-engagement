@@ -1,5 +1,5 @@
 ---
-title: Configure selection criteria for Sales Qualification Agent (preview)
+title: Configure selection criteria for Sales Qualification Agent
 description: Learn how to configure the selection criteria for the Sales Qualification Agent in Dynamics 365 Sales.
 ms.topic: how-to 
 ms.date: 09/10/2025
@@ -15,22 +15,13 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure selection criteria for Sales Qualification Agent (preview)
+# Configure selection criteria for Sales Qualification Agent
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-The selection criteria helps you to group the incoming leads into a segment and assign them to the agent based on the defined conditions. For example, the leads that are unprocessed, unattended, and potentially lower value could be mapped under this segment and worked on by the agent. The segment groups these leads, and helps agent to drive net-positive outcome, ensuring that every lead is assessed without adding manual workload for sellers.  
+The selection criteria helps you to group the incoming leads into a segment and assign them to the agent based on the defined conditions. For example, the leads that are unprocessed, unattended, and potentially lower value could be mapped under this segment and worked on by the agent. The segment groups these leads, and helps agent to drive net-positive outcome, ensuring that every lead is assessed without adding manual workload for sellers.
 
 > [!NOTE]
 > - Leads that meet the selection criteria will be assigned to the agent for research and engagement and then handed over to the sellers based on the [handoff criteria](configure-sales-qualification-agent-handoff-criteria.md).  
-> - When new leads are created, ensure that the lead owner is not [the app user](configure-requirements-for-sqa-agent.md#create-an-app-user-in-dataverse-and-assign-aisalesperson-role) used to create the agent.    
-
-Read the [create and activate a segment](wa-create-and-activate-a-segment.md#create-and-activate-a-segment) article for more information.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
-> [!NOTE]
-> The priority of the segment created for the agent is always low and one above the default segment. So, ensure that the segment you're creating for the agent doesn't overlap with the segments used for work assignment to sellers. If there's an overlap, leads are assigned to sellers instead of the agent.
+> - When new leads are created, ensure that the lead owner is not [the app user](configure-requirements-for-sqa-agent.md#create-an-app-user-in-dataverse-and-assign-aisalesperson-role) used to create the agent.
 
 **Follow these steps**:
 
@@ -51,7 +42,9 @@ Read the [create and activate a segment](wa-create-and-activate-a-segment.md#cre
     | Email | Contains data | &mdash;| Emails from the leads should contain data such as information related to sales, customer, or feedback. |
 
     > [!NOTE]
-    > You can have up to 10 conditions at any given time including conditions that are based on groups and related entities.
+    >- You can have up to 10 conditions at any given time including conditions that are based on groups and related entities.
+    >- The priority of the segment created for the agent is always low and one above the default segment. So, ensure that the segment you're creating for the agent doesn't overlap with the segments used for work assignment to sellers. If there's an overlap, leads are assigned to sellers instead of the agent.
+
 
 1. To add more conditions, select **Add** and then use the following options to build the conditions of the segment:
     - **Add row**: Add condition. Select an attribute, an operator, and a value; for example, *Created by Equals John Thomas*.  
@@ -59,7 +52,10 @@ Read the [create and activate a segment](wa-create-and-activate-a-segment.md#cre
     - **Add group**: Add a group of conditions to filter records using multiple attributes that are combined by **And** or **Or**. If you select **And**, leads must meet all the conditions in the group. If you select **Or**, leads can meet any condition in the group.
     - **Add related entity**: Add a condition that's based on the attributes of related tables. Select an attribute in the **Related Entity** list, then select **Contains data** or **Does not contain data**, and then define the condition.  
 
-1. By default, the agent only considers new leads created after the agent is turned on. If you want the agent to also research on leads created before it was enabled, select the **Consider leads created in the last** checkbox and specify the number of days for the look back period.  
+1. By default, the agent only considers new leads created after the agent is turned on. If you want the agent to also research on leads created before it was enabled, select the **Consider leads created in the last** checkbox and specify the number of days for the look back period. 
+    - For the initial run, the agent processes all the leads that meet the selection criteria and were created within the look back period.
+    - After the initial run, the agent runs periodically to process new and updated leads based on [certain conditions](sales-qualification-agent-faq.md#trigger-events).
+
 1. (Optional) When you've finished defining the conditions, select **Preview leads** to view a list of records that satisfy the conditions. Ensure that at least one lead is returned in the preview. 
     If you are satisfied with the results, you can continue with the next configuration step.
 

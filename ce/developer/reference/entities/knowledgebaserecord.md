@@ -198,6 +198,7 @@ Many-To-One Relationship: [serviceappointment KnowledgeBaseRecord_ServiceAppoint
 These relationships are many-to-many. Listed by **SchemaName**.
 
 - [KnowledgeBaseRecord_Incident](#BKMK_KnowledgeBaseRecord_Incident)
+- [msdyn_agentcopilotterm_knowledgebaserecord](#BKMK_msdyn_agentcopilotterm_knowledgebaserecord)
 - [msdyn_customerasset_knowledgebaserecord](#BKMK_msdyn_customerasset_knowledgebaserecord)
 - [msdyn_ocliveworkitem_knowledgebaserecord](#BKMK_msdyn_ocliveworkitem_knowledgebaserecord)
 - [product_knowledgebaserecord](#BKMK_product_knowledgebaserecord)
@@ -214,6 +215,19 @@ See [incident KnowledgeBaseRecord_Incident Many-To-Many Relationship](incident.m
 |IntersectAttribute|`knowledgebaserecordid`|
 |NavigationPropertyName|`KnowledgeBaseRecord_Incident`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `9c95757d-e1c4-493a-a7e1-274d9293cff8`|
+
+### <a name="BKMK_msdyn_agentcopilotterm_knowledgebaserecord"></a> msdyn_agentcopilotterm_knowledgebaserecord
+
+See [msdyn_agentcopilotterm msdyn_agentcopilotterm_knowledgebaserecord Many-To-Many Relationship](msdyn_agentcopilotterm.md#BKMK_msdyn_agentcopilotterm_knowledgebaserecord)
+
+|Property|Value|
+|---|---|
+|IntersectEntityName|`msdyn_msdyn_agentcopilotterm_knowledgebas`|
+|IsCustomizable|True|
+|SchemaName|`msdyn_agentcopilotterm_knowledgebaserecord`|
+|IntersectAttribute|`knowledgebaserecordid`|
+|NavigationPropertyName|``|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_customerasset_knowledgebaserecord"></a> msdyn_customerasset_knowledgebaserecord
 

@@ -4,9 +4,9 @@ description: Learn how to view and interpret the Ongoing conversation report in 
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
-ms.date: 09/16/2025
+ms.date: 11/07/2025
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -19,7 +19,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The **Ongoing conversation** report shows ongoing conversations from the last 24 hours that are currently being handled by customer service representatives (service representatives or representatives) in your organization and that aren't yet closed. Learn how to [access the report](intro-realtime-analytics-dashboard.md#access-reports). The report displays those conversations that have the open, active, wrap-up, or waiting status. Learn more in [Understand conversation states](oc-conversation-state.md).
+The **Ongoing conversation** report shows ongoing conversations from the last 2 hours that are currently being handled by customer service representatives (service representatives or representatives) in your organization and that aren't yet closed. Learn how to [access the report](intro-realtime-analytics-dashboard.md#access-reports). The report displays those conversations that have the open, active, wrap-up, or waiting status. Learn more in [Understand conversation states](oc-conversation-state.md).
 
 This report provides a holistic view of the conversations in real time. It includes details about subject, status, active service representative details, queue, channel, wait time, handle time, and customer sentiment. Learn more in [Overview of Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md).
 

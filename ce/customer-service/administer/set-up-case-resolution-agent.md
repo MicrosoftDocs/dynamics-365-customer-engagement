@@ -1,48 +1,44 @@
 ---
-title: Set up Case Management Agent to resolve cases (preview)
+title: Set up Case Management Agent to resolve cases
 description: Learn how to set up autonomous Case Management Agent to help customer support teams efficiently resolve cases.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot 
-ms.date: 09/15/2025
+ms.date: 11/07/2025
 ms.custom: bap-template
 ---
 
 
-# Set up Case Management Agent to resolve cases (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Set up Case Management Agent to resolve cases
 
 You can use Case Management Agent to resolve cases by identifying case intent, automatically gathering required customer information, and drafting professional email responses. This feature eliminates repetitive back-and-forth exchanges, and ensures consistent, high-quality customer communications while enabling your support teams to focus on complex problem-solving rather than routine administrative tasks.
-
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Prerequisites
 
 - Make sure [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot) is set up in the Power Platform admin center application.
 - The Power Platform [Pay-as-you-go plan](/power-platform/admin/pay-as-you-go-overview) mandates the use of an Azure subscription the system charges when the agent runs. Make sure you [Set up consumption-based billing](setup-pay-as-you-go.md).
 - [Customer Intent Agent](/dynamics365/contact-center/administer/manage-customer-intent-agent) is configured.
-- For the AI agent to send emails and resolve cases autonomously, you must set up a dedicated application user to send and receive emails on behalf of your organization. Perform the steps in [Configure global settings for Case Management Agent (preview)](case-management-global-settings.md).
-       
+- For the AI agent to send emails and resolve cases autonomously, you must set up a dedicated application user to send and receive emails on behalf of your organization. Perform the steps in [Configure global settings for Case Management Agent](case-management-global-settings.md).
+
 ## Configure case resolution settings
 
  You can specify the user the AI agent should use to send emails, the default Copilot template, and if the AI agent must use Copilot recommended template to draft emails. Perform these steps for the fully-autonomous case resolution process:
 
 1. Select **Manage** for **Case Management Agent** in **Case settings**. The **Case Management Agent** page appears.
-1. Select **Manage** for **Global settings**. The Global settings (preview) page appears.
+1. Select **Manage** for **Global settings**. The **Global settings** page appears.
 1. Set the **Application user** to the application user created in the prerequisites section. This is the user that the AI agent uses to send emails on behalf of your organization.
 1. Optionally, select **Use copilot recommended template for drafting emails**.
 1. Optionally, you can set the **Default email template** dropdown to a template the AI agent uses when Copilot email template recommendations are unavailable. If you configured Copilot recommended email templates and [line-of-business segregated email templates](configure-lob-email-templates.md), the system uses the default email template when no line-of-business email template is available for the case. 
 If you don't select a default template and Copilot recommended email templates is configured, after the agent identifies the intent, it sends emails using the [Copilot inline email assist capabilities](/dynamics365/contact-center/use/use-copilot-email#use-copilot-to-draft-an-email).
 
-## Configure level of automation 
+## Configure level of automation
 
 In Copilot Service admin center, follow these steps to configure the automation level for each line of business:
 
 1. Select **Manage** for **Case Management Agent** in **Case settings**. The **Case Management Agent** page appears.
-1. Select **Manage** for **Case Resolution**. The Case Resolution Agent (preview) page appears.
+1. Select **Manage** for **Case Resolution**. The Case Resolution Agent page appears.
 1. In **Level of automation per LOB**, the lines of business you configured in the Customer Intent Agent appear. Select the required line of business and then select **Edit**. You can specify the following automation levels for each line of business:
    - **Full**: The AI agent automatically resolves cases.
    - **Require agent confirmation**: The AI agent drafts email responses, but requires a representative to review and send the email.
@@ -80,4 +76,4 @@ You can integrate Case Management Agent with custom Microsoft Copilot Studio age
 
 ## Related information
 
-[Use Case Management Agent to resolve cases (preview)](../use/use-case-resolution-agent.md)
+[Use Case Management Agent to resolve cases](../use/use-case-resolution-agent.md)
