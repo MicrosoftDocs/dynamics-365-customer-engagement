@@ -1,6 +1,6 @@
 ---
-title: Design and publish a hierarchy
-description: Learn how to design and publish a hierarchy to better understand your data.
+title: Design and publish hierarchies
+description: Learn how to design and publish hierarchies to better understand your data.
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -10,35 +10,41 @@ ms.date: 12/05/2025
 ms.custom: bap-template 
 ---
 
-# Design and publish a hierarchy
+# Design and publish hierarchies
 
-As an administrator, you can design and publish a hierarchy that allows your organization to visualize and work with complex hierarchical data. You can even design multiple hierarchies to show different relationships, or different views of the data such as active records only, or only records from certain countries/regions.  
+As an administrator, you can design and publish a hierarchy that allows your organization to visualize and work with hierarchical data. You can design multiple hierarchies to show different relationships,or provide alternative views of the data, such as showing only active records or filtering by specific countries/regions.  
+Depending on your business requirements, you can create the following types of hierarchies:  
 
-Hierarchies are designed using your existing tables, forms, relationships, and views. You can design and publish a hierarchy based on a N:1 self-referential relationship&mdash;one where each row in a table has an optional pointer to its parent row, 1:N many-to-one relationship&mdash;one where each row in a table has a pointer to a row in another table, or both, and N:N many-to-many relationships.
+- [Single table (self-referential)](hierarchy-visualization.md#single-table)  
+- [Multi-table](hierarchy-visualization.md#multi-table)  
+- [Hybrid hierarchies](hierarchy-visualization.md#hybrid) which combine both single and multi-table relationships  
 
 ## Prerequisites
 
 Before you design and publish a hierarchy, ensure the following prerequisites are met:
 
 - You must have administrator privileges.  
-- Define the parent-child relationship.  
-    - For single table hierarchies, specify the column that contains the parent ID. For example, Parent Account ID for the Account table.  
-    - For multi-table hierarchies, define the relationships between tables. For example, Account to Contact and Opportunity.  
+- Make sure the tables you used to design the hierarchy have the required relationships to establish parent-child relationships.  
+    - For a single-table hierarchy, the table must include an N:1 self-referential relationship, where each row points to its parent row.  
+    - For multi-table hierarchies, ensure the tables have N:1, 1:N, and N:N relationships defined between them.  
 - For custom tables, ensure that rows can reference a parent row in the same table. If the relationship doesn't exist, [you need to create it](/power-apps/maker/data-platform/create-edit-entity-relationships).  
 
 ## Design and publish
-
-To design and publish a hierarchy, follow these steps:
 
 1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **App Settings**.  
 1. Under **General Settings**, select **Visual hierarchy**.  
 1. Select **New hierarchy** and then enter a name for the hierarchy.  
 1. [Configure the root node of the hierarchy](#configure-the-root-node-of-the-hierarchy).  
-    >[!NOTE]
-    > If you're creating a self-referential simple hierarchy, adding child nodes isn't required. After configuring the root node, proceed to step 6 to complete the process.  
+    > [!NOTE]
+    > If you're creating a single table hierarchy, adding child nodes isn't required. After configuring the root node, proceed to step 6 to complete the process.  
 1. [Configure the child node](#configure-the-child-node).  
 1. Select **Save**.  
-1. (Optional) Select **Preview** to see how the hierarchy would look if published with current settings. Update settings and preview changes until you’re satisfied with the results. In **Preview** mode, you can change the selected data being viewed by clicking the record name at the top of the preview window.  
+1. Select **Preview** to do the following tasks before publishing the hierarchy:  
+    - Interact with the hierarchy as a user would, such as expanding and collapsing nodes, viewing details, and performing quick actions.  
+    - Change settings and preview changes until you’re satisfied with the results.  
+    - Change data you view by selecting the record name at the top of the preview window.  
+    - [Troubleshoot the hierarchy design](#troubleshoot-a-hierarchy) before publishing it in the organization.  
+1. [Grant access to the hierarchy](#grant-access-to-hierarchies).  
 1. Select **Publish** and then select **OK** on the confirmation message.  
     The hierarchy is active and available to users to view and interact with.  
 
@@ -51,7 +57,6 @@ Configure the root node of the hierarchy by selecting the desired table. The tab
     :::image type="content" source="media/hv-add-table.png" alt-text="Screenshot of selecting the Add table option in the hierarchy designer page.":::
 
     The **Settings** pane opens on the right side of the page.  
-
 1. In the **General** tab, define child-parent relationship, and choose view and forms:  
 
     | Setting | Description |
@@ -79,8 +84,8 @@ Configure the root node of the hierarchy by selecting the desired table. The tab
 
     :::image type="content" source="media/hv-account-settings-tile-tab.png" alt-text="Screenshot of the tile display option tab in the account settings pane in the hierarchy designer page.":::
 
-1. [Add child nodes](#configure-the-child-node) if you're configuring a cross-table or hybrid hierarchy. For single table hierarchies, you can skip this step.  
-1. Save the hierarchy, and [go to step 7 in the design and publish procedure](#design-and-publish).  
+1. If you're configuring a multi-table or hybrid hierarchy, [add child nodes](#configure-the-child-node). For single table hierarchies, you can skip this step.  
+1. Save the hierarchy, and [continue from step 7 in the design and publish procedure](#design-and-publish).  
 
 ## Configure the child node
 
@@ -119,7 +124,42 @@ Child nodes are added for cross-table or hybrid hierarchies to show related reco
     :::image type="content" source="media/hv-account-settings-tile-tab.png" alt-text="Screenshot of the tile display option tab in the account settings pane in the hierarchy designer page.":::  
 
 1. Repeat steps 2 to 4 to add more child nodes as required.  
-1. After adding all child nodes, save the hierarchy, and [go to step 7 in the design and publish procedure](#design-and-publish).
+1. After adding all child nodes, save the hierarchy, and [continue from step 7 in the design and publish procedure](#design-and-publish).
+
+## Troubleshoot a hierarchy  
+
+Troubleshooting mode helps you understand why certain results appear or don’t appear in your design. Use this mode when the output doesn't match your expectations. If necessary, you can share the details with your technical support team or Microsoft customer support to resolve any issues.  
+
+**Open the troubleshooting mode**:
+
+In the hierarchy designer, select **Preview** to switch to preview mode, the bug icon appears on the hierarchy designer toolbar. Select the bug icon to open troubleshooting mode.  
+
+:::image type="content" source="media/hierarchy-visualization-troubleshooting-icon.png" alt-text="Screenshot of the hierarchy troubleshooting icon.":::
+
+**Use the troubleshooting mode**:
+
+When troubleshooting mode is open, a bug icon appears on each connection (node) in the hierarchy. It provides a clear description of what is shown and why.  
+
+:::image type="content" source="media/hierarchy-visualization-troubleshooting-mode.png" alt-text="Screenshot of the hierarchy troubleshooting mode.":::
+
+Select the icon and the **Troubleshooting info** dialog box appears with detailed information about that node.  
+
+:::image type="content" source="media/hierarchy-visualization-troubleshooting-dialog.png" alt-text="Screenshot of the hierarchy visualization troubleshooting dialog.":::  
+
+The dialog box includes the following sections:
+
+| Section | Description |
+|---------|-------------|
+| Explanation | Why records are included or excluded based on the current configuration of the hierarchy. |
+| Result summary | Shows the number of records included and excluded at that node. |
+| Results list | Displays a table version of the same query shown in the hierarchy for easier review. The table includes all records that are active and inactive. By default, the **Use view filters** checkbox is selected to view only active records. Clear the checkbox to view inactive records as well. |
+| Query | Displays the internal query used to generate the results at that node. |
+| Details | Contains additional information such as the entity type, view used for the node, relationship type with the parent node, and columns queried for that node. |
+
+Select **Copy** to copy the troubleshooting information to the clipboard. Share it with your technical support team handling the issue or with Microsoft customer support to resolve the issue.
+
+>[!NOTE]
+>To exit the troubleshooting mode, select the troubleshooting icon again on the hierarchy designer toolbar.  
 
 ## Grant access to hierarchies  
 
@@ -132,7 +172,7 @@ To allow users in your organization to view hierarchies, or admins in your organ
     Grant the following permissions based on the level of access you want to provide:  
     - **Reference** permission to allow the security role to **view hierarchies**.  
     - **Full Control** permission to allow the security role to **design and publish hierarchies** to the organization.
- 
+
 ## Relationship selection options for child node
 
 When you add a child node, you must select a relationship type to define how the child table relates to the parent table. The available relationship options depend on the tables you're working with. Here are some common relationship types you might encounter:
