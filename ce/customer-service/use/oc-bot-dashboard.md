@@ -205,6 +205,23 @@ However, on the Omnichannel Historical Bot dashboard, you see the following summ
    > [!div class="mx-imgBorder"]
    > ![Screenshot of bot transcripts.](../media/oc-transcripts.png "Bot transcript") 
 
+  ### Use custom reporting variables
+
+Add your reporting variables configured in Microsoft Copilot Studio to enable structured tracking and analysis across key organizational dimensions such as line of business, division, product line, and other custom-defined attributes, for voice and chat agent conversations.
+
+You can add up to 15 variables. You need to [enable advanced historical analytics for voice and chat Copilot agents in Omnichannel for Customer Service](../administer/oc-historical-analytics-reports.md#enable-advanced-historical-analytics-for-voice-and-chat-copilot-agents-in-omnichannel-for-customer-service) to deeper insights into conversation topics, nodes, and custom filters for better troubleshooting and analysis. 
+
+When you set up custom variables in Copilot Studio, advanced analytics helps users track specific metrics and filter conversations based on various dimensions such as department or line of business. This helps avoid the need for users to manually parse conversation data. The Copilot agent performs actions based on predefined instructions.
+
+**Segmenting KPIs using user-defined reporting variable**: Reporting variables defined in Copilot Studio can be configured in the Copilot Service Admin Center > Insights > Omnichannel Historical dashboard by enabling the Add advanced historical analytics for bot checkbox. These variables allow organizations to introduce business-specific dimensions, such as Line of Business, region, and campaign, without requiring engineering effort. Once configured, the Omnichannel Historical Bot dashboard can be customized with these user-defined dimensions and metrics, enabling granular analysis of KPIs like deflection, escalation rate, and containment. This flexibility helps teams align reporting with organizational goals and measure performance across diverse business contexts.
+
+**Capturing exit patterns at question prompts to gauge KPI impact**: Users can analyze metrics related to exit patterns from question nodes and determine the underlying causes of escalations originating from those nodes within the Omnichannel Historical Bot dashboard. This functionality delivers advanced troubleshooting and diagnostic insights. Currently, these capabilities are available exclusively in the Omnichannel Historical Bot dashboard.
+
+#### Best practices for naming nodes
+
+
+
+
  ### Customize bot dashboard
 
 For Copilot agents, you can edit the report to add the additional metrics and filters to the AI agent. To customize the bot dashboard, see [customize visual display](/dynamics365/contact-center/use/customize-agent-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml). 
