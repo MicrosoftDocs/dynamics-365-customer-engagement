@@ -31,7 +31,7 @@ The **Start agent** option is enabled only after all the configuration sections 
 :::image type="content" source="media/sca-settings-start-agent.png" alt-text="Screenshot of selecting start agent option on the Sales Close Agent - Engage settings page.":::
 
 Select **Start agent** to start the agent. The agent might take a few seconds to start, and you can continue working while the agent is being started. Upon successful activation, the agent is listed under the AI agents home page with status as **On**. As soon as the agent is started, the agent starts processing the records that match the [configured target customers](configure-sales-close-agent-target-customers.md).  
-When you start the agent, [the email engagement feature](email-engagement.md) is enabled by default. It gathers information about email interactions with customers, such as email opens and link clicks, when you open the email summary from the activities page.
+When you start the agent, [the email engagement feature](email-engagement.md) is enabled by default. It gathers information about email interactions with customers, such as email opens and link clicks, and displays them when you open the email summary from the activities page.
 
 >[!NOTE]
 >If agent fails to start due to unknown issues, contact Microsoft support for assistance.  
