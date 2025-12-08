@@ -1,7 +1,7 @@
 ---
 title: Bot dashboard
 description: Learn about the bot dashboard in historical analytics to better understand customer service representative performance in your organization.
-ms.date: 11/07/2025
+ms.date: 12/08/2025
 ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
@@ -207,13 +207,13 @@ However, on the Omnichannel Historical Bot dashboard, you see the following summ
 
   ### Use custom reporting variables
 
-Add your reporting variables configured in Microsoft Copilot Studio to enable structured tracking and analysis across key organizational dimensions such as line of business, division, product line, and other custom-defined attributes for voice and chat agent conversations. The variables are attached to a specific topic and flow, and is dependant on predefined instructions provided in Microsoft Copilot Studio.
+Add reporting variables configured in Microsoft Copilot Studio to enable structured tracking and analysis across key organizational dimensions such as line of business, division, product line, and other custom-defined attributes for voice and chat agent conversations. These variables are attached to specific topics and flows and depend on predefined instructions provided in Microsoft Copilot Studio.
 
 You need to [enable advanced historical analytics for voice and chat Copilot agents in Omnichannel for Customer Service](../administer/oc-historical-analytics-reports.md#enable-advanced-historical-analytics-for-voice-and-chat-copilot-agents-in-omnichannel-for-customer-service). You can add up to 15 variables.
 
-Once configured, the Omnichannel Historical Bot dashboard can be customized with these user-defined dimensions and metrics, enabling granular analysis of key metrics like deflection, escalation rate, and containment. This flexibility helps teams align reporting with organizational goals and measure performance across diverse business contexts while negating the need for users to manually parse conversation data.
+Once configured, the Omnichannel Historical Bot dashboard can be customized with these user-defined dimensions and metrics, enabling granular analysis of key indicators such as deflection, escalation rate, and containment. This flexibility helps teams align reporting with organizational goals and measure performance across diverse business contexts, eliminating the need for manual parsing of conversation data.
 
-Users can analyze metrics related to exit patterns from question nodes and determine the underlying causes of escalations originating from those nodes within the Omnichannel Historical Bot dashboard. This functionality delivers advanced troubleshooting and diagnostic insights.
+Additionally, users can analyze metrics related to exit patterns from question nodes and identify underlying causes of escalations originating from those nodes within the Omnichannel Historical Bot dashboard. This functionality provides advanced troubleshooting and diagnostic insights.
 
 #### Best practices for naming nodes
 
