@@ -19,7 +19,7 @@ ms.custom: bap-template
 
 The article describes the Dataverse entities used in historical and real-time analytics.
 
-## Entities used in omnichannel historical analytics
+## Entities used in historical analytics
 
 - msfp_question
 - msfp_questionresponse
@@ -82,19 +82,19 @@ The article describes the Dataverse entities used in historical and real-time an
 ## Entities used in historical bot analytics
 
 - conversationtranscript
- - bot
- - msdyn_botsession
- - msdyn_ocliveworkitemcontextitem
- - msdyn_ocliveworkitemcontextitemelastic
- - msdyn_oclanguage
- - msdyn_ocphonecallengagementctx
- - msdyn_sessionextension
- - systemuser
- - msdyn_liveworkstream
- - msdyn_ocliveworkitem
- - msdyn_ocsession
- - queue
- - queuemembership
+- bot
+- msdyn_botsession
+- msdyn_ocliveworkitemcontextitem
+- msdyn_ocliveworkitemcontextitemelastic
+- msdyn_oclanguage
+- msdyn_ocphonecallengagementctx
+- msdyn_sessionextension
+- systemuser
+- msdyn_liveworkstream
+- msdyn_ocliveworkitem
+- msdyn_ocsession
+  queue
+- queuemembership
 
 
 ## Entities used in real-time analytics
@@ -119,7 +119,7 @@ The article describes the Dataverse entities used in historical and real-time an
 - bookableresource
 - bookableresourcecharacteristic
 - msdyn_ocliveworkitemcharacteristic
-- choiceLabel (new entity for option set in real-time)
+- choiceLabel (entity for option set in real-time)
 - businessunit
 - choicelabels
 - incident
@@ -130,9 +130,9 @@ The article describes the Dataverse entities used in historical and real-time an
 - msdyn_ocphonenumber
 - msdyn_sessionextension
 
-## Entities used in historical bot analytics
+## Entities used in real-time bot analytics
 
-- conversationtranscript"
+- conversationtranscript
 - bot
 - msdyn_botsession
 - msdyn_ocliveworkitemcontextitem
