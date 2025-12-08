@@ -62,7 +62,7 @@ In Copilot Service admin center, you can enable the historical analytics for AI 
 
  :::image type="content" source="../media/bot-dashboard-oc.png" alt-text="Dashboard for all bots.":::
 
-## Enable advanced historical analytics for voice and chat agents in Omnichannel for Customer Service
+## Enable advanced historical analytics for voice and chat Copilot agents in Omnichannel for Customer Service
 
 To include additional custom variables for reporting in Microsoft Copilot Studio, you must first enable the **Add historical analytics for bot** checkbox and then perform the following steps.
 
