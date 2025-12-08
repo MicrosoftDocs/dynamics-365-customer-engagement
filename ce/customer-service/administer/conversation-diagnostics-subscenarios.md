@@ -12,11 +12,11 @@ ms.custom: bap-template
 
 # Understand conversation diagnostics
 
-When the system routes a work item, its corresponding data starts appearing in Application Insights within 15 minutes. The conversation diagnostics data is presented in the form of scenarios and subscenarios, as discussed in the following sections.
+When the system routes a work item, its corresponding data starts appearing in Application Insights within 15 minutes. The conversation diagnostics data is presented in the form of scenarios and subscenarios as discussed in the following sections. 
 
 ## Conversation diagnostics scenarios
 
-The conversation diagnostics scenario captures data related to unified routing, AI agent, customer service representative (service representative or representative), and supervisor actions. The following table contains data about the subscenarios corresponding to the scenario.
+The conversation diagnostics scenario captures data related to unified routing, AI agent, customer service representative (service representative or representative), and supervisor actions. The following tables contain data about the subscenarios corresponding to the scenario. Other telemetry events might appear in the logs but the ones listed here only are relevant.
 
 ## Non-channel-specific events
 
@@ -56,8 +56,8 @@ The conversation diagnostics scenario captures data related to unified routing, 
 | CSRInitiatedTransfer | Representative transferred the conversation to another representative. |
 | CSRLeftPublicConsult | Representative left the public consultation for the conversation. |
 | CSRInitiatedTransfer | Representative transferred the conversation to another representative. |
-| VoiceChannelTransfer | Monitors for voice-channel-specific errors that may have impacted a transfer |
-| VoiceChannelConsult | Tracks if Voice Consult is successful if not, logs error |
+| Transfer | Monitors for voice-channel-specific errors that may have impacted a transfer |
+| Consult | Tracks if Voice Consult is successful if not, logs error |
 | CONSULT_BYCHAT_REQUESTAGENT | Representative initiates a consult over chat channel |
 | TRANSFER_CSR_REQUEST2COMPLETED | Representative requests a transfer to another representative |
 | TRANSFER_QUEUE_REQUEST2COMPLETED | Representative requests a transfer of conversation to another queue |
@@ -362,60 +362,59 @@ Displays information on the user group identified for the conversation.
 - **Omnichannel.target_agent.i**d: Captures the ID of the representative receiving the action (As applicable)
 - **Channel type**:	Channel from which work item originated
 
-### Voice, conversation control, and live chat telemetry subscenarios 
+### Voice, conversation control, live chat, and messaging telemetry subscenarios 
 
 - **Subscenarios**: 
 
-    - Call End
-    - CONSULT_BYCHAT_REQUESTAGENT 
-    - TRANSFER_AGENT_REQUEST2COMPLETED 
-    - TRANSFER_QUEUE_REQUEST2COMPLETED 
-    - CONSULT_BYVOICE_REQUESTAGENT
-    - SESSION_CREATE
-    - VoiceChannelTransfer
-    - VoiceChannelConsult
-    - Call Connect
-    - Wait for CSR
-    - Callback
-    - Transcription
-    - VOICE_UNMUTE
-    - VOICE_MUTE
-    - VOICE_SEND_DTMF
-    - VOICE_SET_SPEAKER
-    - VOICE_SET_MICROPHONE
-    - VOICE_SUPERVISOR_BARGE
-    - VOICE_PAUSE_RECORDING_AND_TRANSCRIPTION
-    - VOICE_PAUSE_TRANSCRIPTION
-    - VOICE_RESUME_RECORDING_AND_TRANSCRIPTION
-    - VOICE_RESUME_TRANSCRIPTION
-    - VOICE_HOLDPARTICIPANT
-    - VOICE_UNHOLDPARTICIPANT
-    - CALLQUALITYSURVEY_SHOWN2DISMISSED
-    - GET_QUICK_REPLIES
-    - FILES_DOWNLOAD
-    - AGENT_LOGIN
-    - Banner Codes
-    - ChatButtonAction
-    - CloseChatAction
-    - CustomContextReceived
-    - DownloadTranscriptAction
-    - EmailTranscriptButtonAction
-    - EndChatEventReceived
-    - LCWChatButtonLoading
-    - LiveChatWidgetStart
-    - MessageReceived
-    - MessageSent
-    - MinimizeChatAction
-    - PRESENCE_FIRST_LOAD
-    - AuthTokenValidation
-    - OutOfOperatingHoursPostChatSurvey
-    - PrechatSurvey
-    - ProactiveChat
-    - ProactiveChatTimeOut
-    - ChatHistoryMessageReceivedCompleted
-    - SystemMessageReceived
-    - ChatSessionInitialization
-    - UnrecognizedOrgUrl 
+- CONSULT_BYCHAT_REQUESTAGENT
+- TRANSFER_AGENT_REQUEST2COMPLETED
+- TRANSFER_QUEUE_REQUEST2COMPLETED
+- CONSULT_BYVOICE_REQUESTAGENT
+- SESSION_CREATE
+- Transfer
+- Consult
+- Call Connect
+- Wait for CSR
+- Callback
+- Transcription
+- VOICE_UNMUTE
+- VOICE_MUTE
+- VOICE_SEND_DTMF
+- VOICE_SET_SPEAKER
+- VOICE_SET_MICROPHONE
+- VOICE_SUPERVISOR_BARGE
+- VOICE_PAUSE_RECORDING_AND_TRANSCRIPTION
+- VOICE_PAUSE_TRANSCRIPTION
+- VOICE_RESUME_RECORDING_AND_TRANSCRIPTION
+- VOICE_RESUME_TRANSCRIPTION
+- VOICE_HOLDPARTICIPANT
+- VOICE_UNHOLDPARTICIPANT
+- CALLQUALITYSURVEY_SHOWN2DISMISSED
+- GET_QUICK_REPLIES
+- FILES_DOWNLOAD
+- AGENT_LOGIN
+- Banner Codes
+- ChatButtonAction
+- CloseChatAction
+- CustomContextReceived
+- DownloadTranscriptAction
+- EmailTranscriptButtonAction
+- EndChatEventReceived
+- LCWChatButtonLoading
+- LiveChatWidgetStart
+- MessageReceived
+- MessageSent
+- MinimizeChatAction
+- PRESENCE_FIRST_LOAD
+- AuthTokenValidation
+- OutOfOperatingHoursPostChatSurvey
+- PrechatSurvey
+- ProactiveChat
+- ProactiveChatTimeOut
+- ChatHistoryMessageReceivedCompleted
+- SystemMessageReceived
+- ChatSessionInitialization
+- UnrecognizedOrgUrl 
     
 - **Omnichannel.description and Omnichannel.messsage**: Captures whether the subscenario started, completed successfully, or failed. If the subscenario failed, error or exception information is provided. 
 
@@ -425,8 +424,6 @@ Displays information on the user group identified for the conversation.
     - Self Service
     - CSR Engagement 
     - End 
-
-### Other subscenarios for messaging
 
 - **Subscenario**: 
 
