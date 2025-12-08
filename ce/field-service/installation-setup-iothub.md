@@ -1,7 +1,7 @@
 ---
 title: Install and configure Connected Field Service for Azure IoT Hub
 description: Learn how to install and configure Dynamics 365 Connected Field Service for Azure IoT Hub.
-ms.date: 10/31/2024
+ms.date: 11/27/2025
 ms.subservice: connected-field-service
 ms.topic: how-to
 ms.author: vhorvath
@@ -41,7 +41,7 @@ Use an Azure Resource Management (Azure Resource Manager) template to deploy Azu
 
 1. Select your Azure subscription.
 
-1. Select a resource group or create one.
+1. Select or create a resource group.
 
 1. Set the region to the same region as your Field Service environment.
 
@@ -63,7 +63,7 @@ Make sure the deployment is complete before you proceed.
 
 1. In Connected Field Service, go to the **Settings** area.
 
-1. Select **Providers**, and then select **New**.
+1. Select **Providers**, then select **New**.
 
 1. Enter the following information:
 
@@ -100,7 +100,7 @@ For this step, you need to know the hostname for the [Service Bus Namespace](/az
 
 1. In **Display list of available organizations**, select **Office 365**.
 
-1. Select **Display list of available organizations**, and then select **Show Advanced**.
+1. Select **Display list of available organizations**, then select **Show Advanced**.
 
 1. Select the region of your Field Service environment, enter your Field Service credentials, and then select **Login**.
 
@@ -136,11 +136,11 @@ Update the IoT Message service endpoint.
 
 1. Select and edit the *API Connection* resource **commondataservice**.
 
-1. Under **General**, select **Edit API Connection**, and then select **Authorize**.
+1. Under **General**, select **Edit API Connection**, then select **Authorize**.
 
 1. Sign in with the Dynamics 365 credentials that you use to sign in to your Connected Field Service environment.
 
-    They might be different from the credentials you use to sign in to the Azure portal.
+    These credentials might be different from the credentials you use to sign in to the Azure portal.
 
 1. Select **Save**.
 
@@ -152,7 +152,7 @@ To use the rule, upload the `devicerules.json` file. You must reproduce the exac
 
 1. Download the `devicerules.json` file from the [GitHub repo](https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment).
 
-1. Open the resource group in the Azure admin portal and select the storage account deployed to your resource group.
+1. Open the resource group in the Azure portal and select the storage account deployed to your resource group.
 
 1. Select **Containers**, and then create a container called `devicerules`.
 

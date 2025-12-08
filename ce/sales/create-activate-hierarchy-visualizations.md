@@ -1,34 +1,34 @@
 ---
-title: Create and publish a hierarchy visualization
-description: Learn how to create and publish a hierarchy visualization to better understand your data.
+title: Design and publish a hierarchy
+description: Learn how to design and publish a hierarchy to better understand your data.
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.collection: 
-ms.date: 11/21/2025
+ms.date: 12/05/2025
 ms.custom: bap-template 
 ---
 
-# Create and publish a hierarchy visualization
+# Design and publish a hierarchy
 
-As an administrator, you can create and publish a hierarchy that allows your organization to visualize and work with complex hierarchical data. You can even create multiple hierarchy visualizations to show different relationships, or different views of the data such as active records only, or only records from certain countries.  
+As an administrator, you can design and publish a hierarchy that allows your organization to visualize and work with complex hierarchical data. You can even design multiple hierarchies to show different relationships, or different views of the data such as active records only, or only records from certain countries/regions.  
 
-Hierarchies are created using your existing tables, forms, relationships, and views. You can design and publish a hierarchy based on a N:1 self-referential relationship&mdash;one where each row in a table has an optional pointer to its parent row, 1:N many-to-one relationship&mdash;one where each row in a table has a pointer to a row in another table, or both, and N:N many-to-many relationships.
+Hierarchies are designed using your existing tables, forms, relationships, and views. You can design and publish a hierarchy based on a N:1 self-referential relationship&mdash;one where each row in a table has an optional pointer to its parent row, 1:N many-to-one relationship&mdash;one where each row in a table has a pointer to a row in another table, or both, and N:N many-to-many relationships.
 
 ## Prerequisites
 
-Before you create and publish a hierarchy visualization, ensure the following prerequisites are met:
+Before you design and publish a hierarchy, ensure the following prerequisites are met:
 
 - You must have administrator privileges.  
 - Define the parent-child relationship.  
-    - For self-referential hierarchies, specify the column that contains the parent ID. For example, Parent Account ID for the Account table.  
-    - For cross-table hierarchies, define the relationships between tables. For example, Account to Contact.  
+    - For single table hierarchies, specify the column that contains the parent ID. For example, Parent Account ID for the Account table.  
+    - For multi-table hierarchies, define the relationships between tables. For example, Account to Contact and Opportunity.  
 - For custom tables, ensure that rows can reference a parent row in the same table. If the relationship doesn't exist, [you need to create it](/power-apps/maker/data-platform/create-edit-entity-relationships).  
 
-## Create a hierarchy visualization
+## Design and publish
 
-To create the hierarchy visualization, follow these steps:
+To design and publish a hierarchy, follow these steps:
 
 1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **App Settings**.  
 1. Under **General Settings**, select **Visual hierarchy**.  
@@ -38,9 +38,9 @@ To create the hierarchy visualization, follow these steps:
     > If you're creating a self-referential simple hierarchy, adding child nodes isn't required. After configuring the root node, proceed to step 6 to complete the process.  
 1. [Configure the child node](#configure-the-child-node).  
 1. Select **Save**.  
-1. (Optional) Select **Preview** to see how the hierarchy visualization would look if published with current settings. Update settings and preview changes until you’re satisfied with the results. In **Preview** mode, you can change the selected data being viewed by clicking the record name at the top of the preview window.  
+1. (Optional) Select **Preview** to see how the hierarchy would look if published with current settings. Update settings and preview changes until you’re satisfied with the results. In **Preview** mode, you can change the selected data being viewed by clicking the record name at the top of the preview window.  
 1. Select **Publish** and then select **OK** on the confirmation message.  
-    The hierarchy visualization is active and available to users.  
+    The hierarchy is active and available to users to view and interact with.  
 
 ## Configure the root node of the hierarchy
 
@@ -48,7 +48,7 @@ Configure the root node of the hierarchy by selecting the desired table. The tab
 
 1. In the hierarchy designer page, select **Add** and choose the desired table with the self-referential relationship. Here, we're adding **Account** table.  
 
-    :::image type="content" source="media/hv-add-table.png" alt-text="Screenshot of selecting the Add table option in the hierarchy visualization designer page.":::
+    :::image type="content" source="media/hv-add-table.png" alt-text="Screenshot of selecting the Add table option in the hierarchy designer page.":::
 
     The **Settings** pane opens on the right side of the page.  
 
@@ -57,33 +57,34 @@ Configure the root node of the hierarchy by selecting the desired table. The tab
     | Setting | Description |
     |---------|-------------|
     | Expand all levels | Enable the option to show all child records under the parent node in the hierarchy. When users open the hierarchy, it shows all child records under the parent node. For example, if the parent account is **Contoso** and has four child accounts, the four child accounts under **Contoso** appear.<br>If the option isn't enabled, one tile represents the parent account, and the hierarchy links all child records to it regardless of their actual parent-child relationship. For example, if the parent account **Contoso** has child accounts in different regions such as North America, Europe, and Asia, the **Contoso** tile shows all child accounts regardless of region. |
-    | Select the column with the parent ID | This option is available only when you enable the **Expand all levels** option. Select the column that contains the parent ID for the hierarchy. For example, the `parent account ID` column in the **Account** table defines the parent-child relationship. The list shows self-referential columns (columns that reference the same table) and cross-table relationships. Select one to link records for hierarchy visualization. Here, we're selecting the `parentaccountid` column. This column has cross-table relationships with other tables such as **Lead**. |
+    | Select the column with the parent ID | This option is available only when you enable the **Expand all levels** option. Select the column that contains the parent ID for the hierarchy. For example, the `parent account ID` column in the **Account** table defines the parent-child relationship. The list shows self-referential columns (columns that reference the same table) and cross-table relationships. Select one to link records for hierarchy. Here, we're selecting the `parentaccountid` column. This column has cross-table relationships with other tables such as **Lead**. |
     | Which view should be used | The hierarchy shows records from the selected table view. Accept the default or select another existing view. If needed, use the [Power Platform maker portal to define your own view](/power-apps/maker/model-driven-apps/create-or-edit-model-driven-app-view). Here we're selecting the **Active Accounts** view to show only active accounts in the hierarchy. |
     | Which form should be shown as a tile | Select a form to display as a tile. To use a custom form, [create a quick view form](/power-apps/maker/model-driven-apps/create-edit-quick-view-forms#create-a-quick-view-form) in Power Apps and name it ***table*_Hierarchy_Tile** for easy identification. A maximum of seven fields can be displayed. Only fields that show basic data types (strings, dates, and numbers) are supported. Show or hide field labels on the form to control the labels on the tile. Customize the form to fit your needs, such as concatenating fields to display as one row.<br>For example, add the name and mobile number in the same row by using the formula: `Concatenate('Account Name' & " " & 'Main Phone')`. To learn more about adding formula columns, see [Work with formula columns](/power-apps/maker/data-platform/formula-columns). |
     | Which form should be shown as details | Select which form you want to show for the **Details** pane when a tile is selected. If none of the default forms meet your needs, you can [Create a form in the Power Apps maker portal](/power-apps/maker/model-driven-apps/create-and-edit-forms) to include only the fields you want. The details pane can show any form, and go full screen, so you can use the same form here that is typically used in Dynamics 365 Sales.<br>For example, for an account hierarchy, you can use the **Account** form, which is the same form used by application when viewing an account. |
 
-    :::image type="content" source="media/hv-account-settings-general-tab.png" alt-text="Screenshot of the general tab in the account table settings pane in the hierarchy visualization designer page.":::
+    :::image type="content" source="media/hv-account-settings-general-tab.png" alt-text="Screenshot of the general tab in the account table settings pane in the hierarchy  designer page.":::
 
 1. In the **Tile display option** tab, customize tile appearance:  
 
     | Setting | Description |
     |---------|-------------|
     | Show picture | Tiles can optionally show or hide a circled image for the record. When enabled, if no image is available, the initials of the record will be shown instead. For example, if **Maria Campbell** doesn't have an image, her tile would be displayed as **MC**. If initials aren't available, the default icon for the table is shown. |
+    | Show quick actions for this table | Enable this option to show quick actions (**...**) on the tile for the child table. Quick actions allow users to perform common tasks directly from the tile such as show in form and Add new record.<br>**Note**: The quick actions are displayed only when you publish or preview the hierarchy. |
     | Tile size | Select the width and height for the tile in pixels and then choose the color for the tile border. |
     | Color | Select the top header color for the tile in Hex format. Here, we're using **#0078D4** for the blue color. |
 
     > [!NOTE]
-    > - These settings are applied only to this tile in this hierarchy visualization.
+    > - These settings are applied only to this tile in this hierarchy.
     > - We recommend using consistent tile sizes and layouts for a cohesive look.
 
-    :::image type="content" source="media/hv-account-settings-tile-tab.png" alt-text="Screenshot of the tile display option tab in the account settings pane in the hierarchy visualization designer page.":::
+    :::image type="content" source="media/hv-account-settings-tile-tab.png" alt-text="Screenshot of the tile display option tab in the account settings pane in the hierarchy designer page.":::
 
-1. [Add child nodes](#configure-the-child-node) if you are configuring a cross-table or hybrid hierarchy. For single table hierarchies, you can skip this step.  
-1. Save and publish the hierarchy visualization.
+1. [Add child nodes](#configure-the-child-node) if you're configuring a cross-table or hybrid hierarchy. For single table hierarchies, you can skip this step.  
+1. Save the hierarchy, and [go to step 7 in the design and publish procedure](#design-and-publish).  
 
 ## Configure the child node
 
-Child nodes are added for cross-table or hybrid hierarchies to show related records from other tables. You can add multiple child nodes to create complex hierarchies that represent your business data accurately. After you configure the root node, follow these steps to add child nodes:
+Child nodes are added for cross-table or hybrid hierarchies to show related records from other tables. You can add multiple child nodes to design complex hierarchies that represent your business data accurately. After you configure the root node, follow these steps to add child nodes:
   
 1. Under the root node, select the add icon below the tile and enter a name for the child node. Here, we're adding **Contact** table as a child node to the **Account** table.  
 1. Select a table and then select **Add**. Here, we're selecting the **Contact** table.  
@@ -92,43 +93,46 @@ Child nodes are added for cross-table or hybrid hierarchies to show related reco
   
     | Setting | Description |
     |---------|-------------|
-    | Branch display name | By default, the name is added based on the table name. If you want to, enter a different name for the branch display and this is shown in the hierarchy visualization to identify the branch through the name. |
+    | Branch display name | By default, the name is added based on the table name. If you want to, enter a different name for the branch display and this is shown in the hierarchy to identify the branch through the name. |
     | Choose parent-child relationship | Choose a relationship type for the child table with the parent table depending on your business needs. The following options are available:<br>&nbsp;• Contacts with matching {Parent_ID}<br>&nbsp;• Contacts with matching {Parent_Account_team}<br>&nbsp;• {Primary_Contact} for the account<br>&nbsp;• Dataverse connections table<br>&nbsp;• Custom connections table<br>To understand more about the relationship types, see [Relationship selection options for child node](#relationship-selection-options-for-child-node). |
     | Expand all levels  | Enable the option to show all child records under the parent node in the hierarchy. When users open the hierarchy, it shows all child records under the parent node. For example, if the parent account is **Contoso** and has four child accounts, the four child accounts under **Contoso** appear.<br>If the option isn't enabled, one tile represents the parent account, and the hierarchy links all child records to it regardless of their actual parent-child relationship. For example, if the parent account **Contoso** has child accounts in different regions such as North America, Europe, and Asia, the **Contoso** tile shows all child accounts regardless of region. |
-    | Select the column with the parent ID | This option is available only when the **Expand all levels** option is enabled. Select the column that contains the parent ID for the hierarchy. For example, the `parent account ID` column in the **Account** table defines the parent-child relationship. The list shows self-referential columns (columns that reference the same table) and cross-table relationships. Select one to link records for hierarchy visualization. Here, we're selecting the `parentaccountid` column. This column has cross-table relationships with other tables such as **Lead**. |
+    | Select the column with the parent ID | This option is available only when the **Expand all levels** option is enabled. Select the column that contains the parent ID for the hierarchy. For example, the `parent account ID` column in the **Account** table defines the parent-child relationship. The list shows self-referential columns (columns that reference the same table) and cross-table relationships. Select one to link records for hierarchy. Here, we're selecting the `parentaccountid` column. This column has cross-table relationships with other tables such as **Lead**. |
     | Which view should be used | The hierarchy shows records from the selected table view. Accept the default or select another existing view. If needed, use the [Power Platform maker portal to define your own view](/power-apps/maker/model-driven-apps/create-or-edit-model-driven-app-view). Here we're selecting the **Active Accounts** view to show only active accounts in the hierarchy. |
     | Which form should be shown as a tile | Select a form to display as a tile. To use a custom form, [create a quick view form](/power-apps/maker/model-driven-apps/create-edit-quick-view-forms#create-a-quick-view-form) in Power Apps and name it ***table*_Hierarchy_Tile** for easy identification. A maximum of seven fields can be displayed. Only fields that show basic data types (strings, dates, and numbers) are supported. Show or hide field labels on the form to control the labels on the tile. Customize the form to fit your needs, such as concatenating fields to display as one row.<br>For example, add the name and mobile number in the same row by using the formula: `Concatenate('Account Name' & " " & 'Main Phone')`. To learn more about adding formula columns, see [Work with formula columns](/power-apps/maker/data-platform/formula-columns). |
     | Which form should be shown as details | Select which form you want to show for the **Details** pane when a tile is selected. If none of the default forms meet your needs, you can [Create a form in the Power Apps maker portal](/power-apps/maker/model-driven-apps/create-and-edit-forms) to include only the fields you want. The details pane can show any form, and go full screen, so you can use the same form here that is typically used in Dynamics 365 Sales.<br>For example, for an account hierarchy, you can use the **Account** form, which is the same form used by application when viewing an account. |  
 
-    :::image type="content" source="media/hv-contact-settings-general-tab.png" alt-text="Screenshot of the general tab in the contact table settings pane in the hierarchy visualization designer page.":::
+    :::image type="content" source="media/hv-contact-settings-general-tab.png" alt-text="Screenshot of the general tab in the contact table settings pane in the hierarchy designer page.":::
 
 1. In the **Tile display option** tab, customize tile appearance:  
 
     | Setting | Description |
     |---------|-------------|
     | Show picture | Tiles can optionally show or hide a circled image for the record. When enabled, if no image is available, the initials of the record will be shown instead. For example, if **Maria Campbell** doesn't have an image, her tile would be displayed as **MC**. If initials aren't available, the default icon for the table is shown. |
-    | Show quick actions for this table | Enable this option to show quick actions (**...**) on the tile for the child table. Quick actions allow users to perform common tasks directly from the tile such as show in form and Add new record.<br>**Note**: The quick actions are displayed only when you publish or preview the hierarchy visualization. |
+    | Show quick actions for this table | Enable this option to show quick actions (**...**) on the tile for the child table. Quick actions allow users to perform common tasks directly from the tile such as show in form and Add new record.<br>**Note**: The quick actions are displayed only when you publish or preview the hierarchy. |
     | Tile size | Select the width and height for the tile in pixels and then choose the color for the tile border. |
     | Color | Select the top header color for the tile in Hex format. Here, we're using **#0078D4** for the blue color. |
 
     > [!NOTE]
-    > - These settings are applied only to this tile in this hierarchy visualization.
+    > - These settings are applied only to this tile in this hierarchy.
     > - We recommend using consistent tile sizes and layouts for a cohesive look.
 
-    :::image type="content" source="media/hv-account-settings-tile-tab.png" alt-text="Screenshot of the tile display option tab in the account settings pane in the hierarchy visualization designer page.":::  
+    :::image type="content" source="media/hv-account-settings-tile-tab.png" alt-text="Screenshot of the tile display option tab in the account settings pane in the hierarchy designer page.":::  
 
 1. Repeat steps 2 to 4 to add more child nodes as required.  
-1. After adding all child nodes, save and publish the hierarchy visualization.  
+1. After adding all child nodes, save the hierarchy, and [go to step 7 in the design and publish procedure](#design-and-publish).
 
-## Grant access to security roles
+## Grant access to hierarchies  
 
-When you publish a hierarchy visualization, by default, it's accessible to users who has access to the tables included in the hierarchy. However, to grant specific access to the hierarchy visualization, you can assign security roles to it. To grant access to a hierarchy visualization, you can change the permissions to a security role on the **Hierarchy Configuration** table in [the Power Apps portal](https://make.powerapps.com/).  
-Each hierarchy is defined by a single row in the **Hierarchy Configuration** table.  
-
-- To create a hierarchy&mdash;provide **CREATE** and **UPDATE** permissions to the table.  
-- To edit a hierarchy&mdash;provide the **UPDATE** permission to the row for that hierarchy.  
-- To view a hierarchy&mdash;requires the **VIEW** permission to the row for that hierarchy.  
-
+To allow users in your organization to view hierarchies, or admins in your organization to design hierarchies, you must first grant the appropriate security roles access to the **Hierarchy configuration** table. Follow these steps:  
+  
+1. In [the Power Platform Admin center](https://admin.powerplatform.microsoft.com/), select the environment.  
+1. In the **Access** section, under **Security roles**, select **See all**.  
+1. Open the desired security role. Change the filter to **Show all tables** and search the **Hierarchy Configuration** table.  
+1. Select **More Actions** (**...**), and then select **Permission Settings**.  
+    Grant the following permissions based on the level of access you want to provide:  
+    - **Reference** permission to allow the security role to **view hierarchies**.  
+    - **Full Control** permission to allow the security role to **design and publish hierarchies** to the organization.
+ 
 ## Relationship selection options for child node
 
 When you add a child node, you must select a relationship type to define how the child table relates to the parent table. The available relationship options depend on the tables you're working with. Here are some common relationship types you might encounter:
@@ -143,4 +147,4 @@ When you add a child node, you must select a relationship type to define how the
 
 ## Related information
 
-[Manage hierarchy visualization](manage-hierarchy-visualizations.md)
+[Manage hierarchies](manage-hierarchy-visualizations.md)

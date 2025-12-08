@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/administer/cs-enable-ai-generated-summary.md",
+      "redirect_url": "/dynamics365/contact-center/administer/copilot-enable-summary#enable-conversation-summaries",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/use/cs-ai-generated-summary.md",
+      "redirect_url": "/dynamics365/contact-center/use/copilot-summarize-conversations",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/developer/entities/flowmachineimage.md",
       "redirect_url": "/dynamics365/developer/reference/entities/flowmachineimage",
       "redirect_document_id": "false"
@@ -35874,6 +35884,10 @@
     },
     {"source_path": "ce/customer-service/implement/system-requirements-omnichannel.md",
       "redirect_url": "/dynamics365/contact-center/implement/system-requirements-contact-center",
+      "redirect_document_id": false
+    },
+    {"source_path": "ce/customer-service/administer/configure-ai-agent-to-use-mcp-server.md",
+      "redirect_url": "/dynamics365/customer-service/configure-customer-service-mcp-server",
       "redirect_document_id": false
     },
     {"source_path": "ce/customer-service/use/case-topics-dashboard-cs.md",

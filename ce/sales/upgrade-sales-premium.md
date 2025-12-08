@@ -1,7 +1,7 @@
 ---
 title: Upgrade from Dynamics 365 Sales Enterprise to Dynamics 365 Sales Premium
 description: Learn why and how to upgrade from Dynamics 365 Sales Enterprise to Dynamics 365 Sales Premium.
-ms.date: 02/27/2025
+ms.date: 11/25/2025
 ms.topic: upgrade-and-migration-article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -15,9 +15,11 @@ Learn how to upgrade from Dynamics 365 Sales Enterprise to Dynamics 365 Sales Pr
 
 ## Benefits of upgrading to Dynamics 365 Sales Premium
 
-Sellers achieve more with Dynamics 365 Sales Premium as they align to new customer engagement expectations and transformational business opportunities. With Sales Premium, sellers:
+Sellers achieve more with Dynamics 365 Sales Premium as they align to new customer engagement expectations and transformational business opportunities. With Sales Premium, sellers can:
 
 - Spend their time on the activities that make them more productive
+
+- Automate sales processes with AI Agents. Using the bundled Copilot credits, sellers can use AI Agents to eliminate tedious work, research and engage with leads, get pipeline insights, and close deals with proactive risk alerts. For more information, see [FAQs about Copilot credits bundled with Dynamics 365 Sales Premium licenses](faq-licenses-storage.md#faqs-about-copilot-credits-bundled-with-dynamics-365-sales-premium-licenses).
 
 - Build stronger relationships with their customers
 
@@ -34,6 +36,7 @@ The Sales Premium license includes both Sales Enterprise and Sales Insights. If 
 - **Relationship intelligence** uses AI-guided selling to build stronger relationships with customers and move relationships forward. Take preemptive steps to mitigate risks with a relationship health score.
 
 - **Predictive models** increase conversion and win rates by using AI to prioritize leads and opportunities with the highest likelihood to convert and buy.
+
 
 ## Dynamics 365 Sales Premium licensing and pricing
 
