@@ -2,7 +2,7 @@
 title: FAQs about Community | MicrosoftDocs
 description: View answers to frequently asked questions about Community in Dynamics 365 Customer Service.
 ms.date: 06/22/2023
-ms.topic: conceptual
+ms.topic: concept-article
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
