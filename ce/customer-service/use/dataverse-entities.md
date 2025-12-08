@@ -19,7 +19,7 @@ ms.custom: bap-template
 
 The article describes the Dataverse entities used in historical and real-time analytics.
 
-## Entities used in historical analytics
+## Entities used in omnichannel historical analytics
 
 - msfp_question
 - msfp_questionresponse
@@ -78,6 +78,25 @@ The article describes the Dataverse entities used in historical and real-time an
 - msdyn_ocphonecallengagementctx
 - msdyn_sessionextension
 
+
+## Entities used in historical bot analytics
+
+- conversationtranscript
+ - bot
+ - msdyn_botsession
+ - msdyn_ocliveworkitemcontextitem
+ - msdyn_ocliveworkitemcontextitemelastic
+ - msdyn_oclanguage
+ - msdyn_ocphonecallengagementctx
+ - msdyn_sessionextension
+ - systemuser
+ - msdyn_liveworkstream
+ - msdyn_ocliveworkitem
+ - msdyn_ocsession
+ - queue
+ - queuemembership
+
+
 ## Entities used in real-time analytics
 
 - queuemembership
@@ -111,7 +130,36 @@ The article describes the Dataverse entities used in historical and real-time an
 - msdyn_ocphonenumber
 - msdyn_sessionextension
 
-## Next steps
+## Entities used in historical bot analytics
+
+- conversationtranscript"
+- bot
+- msdyn_botsession
+- msdyn_ocliveworkitemcontextitem
+- msdyn_ocliveworkitemcontextitemelastic
+- msdyn_oclanguage
+- msdyn_ocphonecallengagementctx
+- msdyn_sessionextension
+- systemuser
+- msdyn_liveworkstream
+- msdyn_ocliveworkitem
+- msdyn_ocsession
+- queue
+- qeuemembership
+
+## Entities used in knowledge analytics
+
+- msdyn_knowledgesearchinsight
+- msdyn_knowledgeinteractioninsight
+- appmodule
+- knowledgearticle
+- feedback
+- knowledgearticleincident
+- knowledgearticleviews
+- msdyn_copilotknowledgeinteraction
+
+
+## Related information
 
 [Use the out-of-the-box data model in your custom reports](use-datamodel.md#use-the-out-of-the-box-data-model-in-your-custom-reports)  
 [Customize data models of historical and real-time analytics reports](../administer/model-customize-reports.md#customize-data-models-of-historical-and-real-time-analytics-reports)
