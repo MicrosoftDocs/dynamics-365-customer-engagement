@@ -1,11 +1,12 @@
 ---
 title: Configure Azure agents to escalate and end conversations
 description: Learn how to program agents in Azure to route conversations to representatives and also end conversations in Dynamics 365 Contact Center.
-ms.date: 10/31/2025
+ms.date: 12/08/2025
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
+ms.collection: bap-ai-copilot
 ---
 # Configure Azure agents to escalate and end conversations
 
