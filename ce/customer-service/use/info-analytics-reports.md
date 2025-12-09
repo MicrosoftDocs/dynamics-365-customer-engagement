@@ -4,7 +4,7 @@ description: Learn about analytics reports refresh and data retention in this ar
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
 ms.date: 04/09/2025
 ms.custom:

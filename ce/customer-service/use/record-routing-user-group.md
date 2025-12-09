@@ -4,7 +4,7 @@ description: Learn how to filter and analyze real-time metrics in the User group
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
 ms.date: 11/17/2025
 ms.custom: bap-template
