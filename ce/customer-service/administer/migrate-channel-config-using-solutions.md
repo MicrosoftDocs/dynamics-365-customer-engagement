@@ -35,7 +35,7 @@ The following prerequisites must be met:
   - Lookup values
 
 > [!IMPORTANT]
-> The migration of the account, channel provider, bot configuration, and AI and analytics settings is not in scope.
+> The migration of the account, channel provider, agent configuration, and AI and analytics settings is not in scope.
 
 ## Channel configuration migration steps
 
