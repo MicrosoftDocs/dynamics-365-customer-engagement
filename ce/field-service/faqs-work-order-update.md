@@ -1,7 +1,7 @@
 ---
 title: FAQs for work order update (preview)
 description: Get answers to common questions about how the AI-powered work order update feature in the Dynamics 365 Field Service mobile app helps you quickly update details of a work order.
-ms.date: 07/29/2025
+ms.date: 11/28/2025
 ms.update-cycle: 180-days
 ms.custom:
   - responsible-ai-faqs
@@ -9,7 +9,7 @@ ms.custom:
 ms.topic: faq
 author: JonBaker007
 ms.author: jobaker
-ms.reviewer: puneet-singh1
+ms.reviewer: puneetsingh
 ms.collection: bap-ai-copilot 
 ---
 
@@ -19,7 +19,7 @@ These FAQs describe the AI impact of the Dynamics 365 Field Service work order u
 
 ## What is work order update with Copilot?
 
-Work order update allows frontline workers to describe work performed in natural language on their mobile device. Copilot uses this description to recommend updates to fields in the new Field Service Mobile experience. This feature saves frontline workers time by reducing the effort needed to update forms and fields in the app.
+Work order update enables frontline workers to describe work performed in natural language on their mobile device. Copilot uses this description to recommend updates to fields in the new Field Service Mobile experience. This feature saves frontline workers time by reducing the effort needed to update forms and fields in the app.
 
 ## What are the feature's capabilities?
 
@@ -39,11 +39,11 @@ A frontline worker updates data fields in forms to track booking progress. The w
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 
-This feature is in preview and only available for environments in the North America and United Kingdom regions. Adminstrators can enable or disable it for a given environment. By default, you only see this feature on the work order form.
+This feature is in preview and only available for environments in the North America and United Kingdom regions. Administrators can enable or disable it for a given environment. By default, you only see this feature on the work order form.
 
 ## Can I add update fields and forms outside of the new Field Service mobile user experience?
 
-Work order update is limited to fields within the new mobile user interface. Work order update can modify the following fields. The feature doesn't update any fields outside of this experience and doesn't recommend updates for any fields outside of this experience.
+The following fields are eligible for update:
 
 - Booking status
 - Booking times
@@ -53,6 +53,6 @@ Work order update is limited to fields within the new mobile user interface. Wor
 - Work order service duration
 - Work order service line status
 
-Work order update is only available in the booking experience. You can't modify how to access the feature, but admins can disable it for users.
+Work order update is available only in the new Field Service mobile user experience. You can't modify how to access the feature, but administrators can disable it for users.
 
 [!INCLUDE [footer-banner](../includes/footer-banner.md)]
