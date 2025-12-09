@@ -1,5 +1,5 @@
 ---
-title: AI features in Power Apps
+title: Use Copilot to work with data
 description: Learn about the Copilot features that are available in Power Apps and how you can use them in Dynamics 365 Contact Center and Customer Service.
 author: neeranelli
 ms.author: nenellim
@@ -10,15 +10,15 @@ ms.date: 12/02/2025
 ms.custom: bap-template
 ---
 
-# AI features in Power Apps
+# Use Copilot to work with data
 
-You can enable the following AI features in Power Apps and then use them in Customer Service or Dynamics 365 Contact Center.
+Enable the following AI features in Power Platform admin center and then use them in Dynamics 365 Customer Service or Dynamics 365 Contact Center.
 
 ## Use AI assistance to fill forms
 
 Copilot suggests field values on the case form based on the following factors:
 
-- Usage of the app by users, information that's already available in the form, and frequently used data. The feature doesn't require any input from users.
+- App usage, information that's already available in the form, and frequently used data. The feature doesn't require any input from users.
 - Copied text that the user provides through the smart paste capability.
 - File contents that the user provides through the files (Preview) capability.
 
@@ -26,9 +26,9 @@ Learn more in [Use Copilot form-fill assistance in model-driven apps](/power-app
 
 Learn how to enable the feature in [Manage AI form fill assistance](/power-platform/admin/settings-features?tabs=new#ai-form-fill-assistance).
 
-## Use Copilot visualization to view data in grids
+## Use Copilot visualization to view data in grids (preview)
 
-Copilot lets you visualize the data in the view in the form of a chart to help you understand trends, patterns and relations in your data.
+Copilot lets you visualize the data in the view in the form of a chart to help you understand trends, patterns, and relations in your data.
 
 Select **Visualize** on any of the case views forms. The chart pane appears next to the grid, complementing the table of rows.
 
