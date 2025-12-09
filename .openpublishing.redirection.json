@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/administer/cs-enable-ai-generated-summary.md",
+      "redirect_url": "/dynamics365/contact-center/administer/copilot-enable-summary#enable-conversation-summaries",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/use/cs-ai-generated-summary.md",
+      "redirect_url": "/dynamics365/contact-center/use/copilot-summarize-conversations",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/developer/entities/flowmachineimage.md",
       "redirect_url": "/dynamics365/developer/reference/entities/flowmachineimage",
       "redirect_document_id": "false"

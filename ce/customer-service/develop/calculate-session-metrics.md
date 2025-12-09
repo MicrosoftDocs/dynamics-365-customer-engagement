@@ -4,7 +4,7 @@ description: Learn to calculate and interpret session metrics to drive strategic
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
 ms.date: 07/08/2025
 ms.custom: bap-template 
