@@ -23,7 +23,7 @@ The concepts described in this article are applicable for the Sales Qualificatio
 
 The *target customer profile* is a detailed description of a customer who would benefit the most from your company's products or services. Your target customer profile might include characteristics like industry, company size, job title of the lead, location, and annual revenue.
 
-The target customer profile suitability is determined based on the attributes defined in [the Target customer profile section of the agent configuration](configure-sales-qualification-agent-handoff-criteria.md#configure-the-target-customer-profile-and-bant-criteria). The agent categorizes leads into three categories based on the target customer profile attributes:
+The target customer profile suitability is determined based on the attributes defined in [the Target customer profile section of the agent configuration](configure-sales-qualification-agent-handoff-criteria.md#configure-target-customer-profile-and-bant-criteria). The agent categorizes leads into three categories based on the target customer profile attributes:
 
 - **High fit**: The lead matches more than 70% of the target customer profile attributes. This indicates that the lead is a strong candidate for your products or services.
 - **Moderate fit**: The lead matches 50% to 70% of the target customer profile attributes. This indicates that the lead may be a potential candidate for your products or services, and can be pursued after the high fit leads.

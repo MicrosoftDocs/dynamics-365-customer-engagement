@@ -17,7 +17,7 @@ ai-usage: ai-assisted
 
 Define the target customer profile and BANT (Budget, Authority, Need, and Timeline) information to help the agent identify leads that it should focus on and engage with.
 
-## Configure the target customer profile and BANT criteria
+## Configure target customer profile and BANT criteria
 
 Both Research-only and Research and engage modes use the target customer profile to identify leads that match your target customer characteristics. However, BANT criteria are only used by the Research and engage mode to determine whether to engage with a lead. The handoff criteria is also used to enrich research that produces contextual insights.
 
