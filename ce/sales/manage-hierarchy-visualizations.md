@@ -12,11 +12,9 @@ ms.custom: bap-template
 
 # Manage hierarchies
 
-As an administrator, you can manage hierarchies to ensure they're up-to-date and relevant for users. You can edit, delete, or unpublish hierarchies as needed.  
+As an admin, manage hierarchies by editing, deleting, or unpublishing them to keep them up to date and relevant for users.
 
 ## Edit a hierarchy
-
-To edit a hierarchy, follow these steps:
 
 1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **App Settings**.  
 1. Under **General Settings**, select **Visual hierarchy**.  
@@ -27,10 +25,6 @@ To edit a hierarchy, follow these steps:
     The updated hierarchy is now available for users.  
 
 ## Delete or unpublish a hierarchy
-
-If a hierarchy is no longer needed, you can delete or unpublish it.
-
-Follow these steps:
 
 1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **App Settings**.  
 1. Under **General Settings**, select **Visual hierarchy**.  
@@ -43,4 +37,4 @@ Follow these steps:
 
 ## Related information
 
-[Design and publish a hierarchy](create-activate-hierarchy-visualizations.md)  
+[Design and publish hierarchies](create-activate-hierarchy-visualizations.md)

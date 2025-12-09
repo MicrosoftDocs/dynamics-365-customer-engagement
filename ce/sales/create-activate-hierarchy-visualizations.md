@@ -44,7 +44,8 @@ Before you design and publish a hierarchy, ensure the following prerequisites ar
     - Change settings and preview changes until you’re satisfied with the results.  
     - Change data you view by selecting the record name at the top of the preview window.  
     - [Troubleshoot the hierarchy design](#troubleshoot-a-hierarchy) before publishing it in the organization.  
-1. [Grant access to the hierarchy](#grant-access-to-hierarchies).  
+1. (Optional) [Grant access to the hierarchy](#grant-access-to-hierarchies).  
+    After you grant access to users, you don't need to repeat this step unless you want to change access permissions.  
 1. Select **Publish** and then select **OK** on the confirmation message.  
     The hierarchy is active and available to users to view and interact with.  
 
