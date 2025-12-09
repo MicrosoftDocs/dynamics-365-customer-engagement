@@ -16,7 +16,7 @@ This article explains how you can program an AI agent(agent) in Azure to route a
 
 > [!IMPORTANT]
 > - Agents can receive conversations only if they're added to push-based workstreams.
-> - AI agents are not supported in consult mode.
+> - AI agents aren't supported in consult mode.
 
 ## Prerequisites
 
@@ -27,16 +27,16 @@ This article explains how you can program an AI agent(agent) in Azure to route a
 
 In Dynamics 365 Contact Center, an agent can escalate the current conversation to a representative. The routing of the conversation depends on the routing rule that's configured for the workstream.
 
-When the conversation is transferred from the AI agent to a representative, the customer and case details are [automatically identified](../administer/record-identification-rule.md) when the representative accepts the escalation request. The bot routes conversations by using the Dynamics 365 Contact Center context variables that are associated with the conversation. The bot can send a list of context variables and associated values to Dynamics 365 Contact Center, together with the escalation request. The bot can also set context items that can be used by skill finder models to identify new skills and append them to the existing skills list for the conversation. Dynamics 365 Contact Center will then update the context variables with the specified values, and run the routing engine again. This ensures that the escalated conversation is routed to the right queue. For information on the context items and variable names, see [Link customer and case to conversations when bot escalates or ends conversations](../administer/record-identification-rule.md#link-customer-and-case-to-conversations-when-agent-escalates-or-ends-conversations).
+When the representative accepts the escalation request and the conversation is transferred from the AI agent, the customer and case details are [automatically identified](../administer/record-identification-rule.md). The agent routes conversations by using the Dynamics 365 Contact Center context variables associated with the conversation. The agent can send a list of context variables and associated values to Dynamics 365 Contact Center, together with the escalation request. The agent can also set context items that can be used by skill finder models to identify new skills and append them to the existing skills list for the conversation. Dynamics 365 Contact Center then updates the context variables with the specified values, and runs the routing engine again. The system makes sure that the escalated conversation is routed to the right queue. Learn more about the context items and variable names in [Link customer and case to conversations when agent escalates or ends conversations](../administer/record-identification-rule.md#link-customer-and-case-to-conversations-when-agent-escalates-or-ends-conversations).
 
 After the representative accepts the escalation request, the transcript of the agent's conversation with the customer is visible on the representative’s conversation widget. The representative can then continue the conversation with the customer.
 
 > [!NOTE]
-> The conversation summary won't be visible to the customer.
+> The conversation summary isn't visible to the customer.
 
 ## End a conversation
 
-The Azure bot can choose to end the conversation if it determines that the customer’s questions have been answered, or if the customer is no longer responding. The bot can send an `EndConversation` request to Dynamics 365 Contact Center.
+The Azure agent can choose to end the conversation if it determines that the customer’s questions have been answered, or if the customer is no longer responding. The agent can send an `EndConversation` request to Dynamics 365 Contact Center.
 
 ## Sample code
 
@@ -168,7 +168,7 @@ This section includes code samples that you can use to configure an Azure bot to
     }
     ```
 
-    The dictionary `contextVars` contains all the context variable name value pairs that you want to update as part of the escalation request. Here `BotHandoffTopic` is the context variable name and **CreditCard** is the context variable value. If there's a representative queue with the rule **BotHandoffTopic** equals **CreditCar**, then this escalated chat will be routed to that queue.
+    The dictionary `contextVars` contains all the context variable name value pairs that you want to update as part of the escalation request. Here `BotHandoffTopic` is the context variable name and **CreditCard** is the context variable value. If there's a representative queue with the rule **BotHandoffTopic** equals **CreditCar**, then this escalated chat is routed to that queue.
 
     The context variable name is of type String. The context variable value must be of type Integer or String, and should be passed as Dictionary<string, object> during escalation. The sample code is as follows.
 
@@ -180,15 +180,15 @@ This section includes code samples that you can use to configure an Azure bot to
     }
     ```
 
-The agent can also send an escalation summary that'll be visible only to the representative after the escalated chat request is accepted. To send the summary, set the activity text appropriately in the escalation Activity message.
+The agent can also send an escalation summary that's visible to the representative only after they accept the escalated chat request. To send the summary, set the activity text in the escalation message.
 
 ### Related information
 
-[Integrate an Azure bot](../administer/configure-bot-azure.md)  
+[Integrate an Azure agent](../administer/configure-bot-azure.md)  
 [Add context variables](../administer/manage-context-variables.md#add-context-variables)  
 [Azure Bot Service](/azure/bot-service/?view=azure-bot-service-4.0&preserve-view=true)  
-[Connect a bot to channels](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0&preserve-view=true)  
-[Bring your own custom messaging channel: Direct Line Bot](bring-your-own-channel.md)  
-[Best practices for configuring Azure and Copilot Studio bots](../administer/configure-bot-best-practices.md)  
+[Connect an agent to channels](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0&preserve-view=true)  
+[Integrate your own custom channel using Direct Line](bring-your-own-channel.md)  
+[Best practices for configuring Azure and Copilot Studio agents](../administer/configure-bot-best-practices.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

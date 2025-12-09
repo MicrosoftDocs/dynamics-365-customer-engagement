@@ -22,7 +22,7 @@ In your contact center, you can integrate Azure AI agents (agents) seamlessly wi
 
 - Have an AI agent that's registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true). Make sure that you register the agent resource as **User-Assigned Managed Identity**.
 
-    Learn about how to create an Azure agent resource in [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource&preserve-view=true). Be sure to note the values of the Microsoft App ID and the Bot Application ID.
+    Learn about how to create an Azure agent resource in [Create Azure agent resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource&preserve-view=true). Be sure to note the values of the Microsoft App ID and the Bot Application ID.
 - Set the messaging endpoint in your bot configuration. Learn more in [Configure bot settings](/azure/bot-service/bot-service-manage-settings?view=azure-bot-service-4.0&preserve-view=true&tabs=userassigned).
 - [Register your app on the Azure portal](/azure/active-directory/develop/quickstart-register-app#register-an-application). Make a note of the registered app name.
 
@@ -114,14 +114,14 @@ You understand that your data may be transmitted and shared with external system
 
 ### Related information
 
-[Overview of bots](overview-bots.md)   
-[Best practices for configuring Azure and Copilot Studio bots](configure-bot-best-practices.md)  
-[Integrate Copilot Studio bot](configure-bot-virtual-agent.md)  
+[Overview of AI agents](overview-bots.md)   
+[Best practices for configuring Azure and Copilot Studio agents](configure-bot-best-practices.md)  
+[Integrate Copilot Studio agent](configure-bot-virtual-agent.md)  
 [Create workstreams for unified routing](create-workstreams.md)  
 [Work with queues](queues-omnichannel.md)  
 [View bot insights](../implement/omnichannel-insights-dashboard.md#botinsights)  
-[Configure Azure bots to escalate and end conversation](../develop/bot-escalate-end-conversation.md)  
-[Configure context variables for bots](context-variables-for-bot.md)  
+[Configure Azure agents to escalate and end conversation](../develop/bot-escalate-end-conversation.md)  
+[Configure context variables for agents](context-variables-for-bot.md)  
 [Manage context variables](manage-context-variables.md)  
 [Create an application user](/powerapps/developer/data-platform/use-multi-tenant-server-server-authentication#create-a-multi-tenant-web-application-registered-with-your-azure-ad-tenant)  
 
