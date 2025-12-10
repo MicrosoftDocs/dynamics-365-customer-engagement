@@ -50,7 +50,7 @@ You can manage the Omnichannel historical analytics reports in Copilot Service a
 
 This configuration enables AI-discovered topics from conversations with default settings.
 
-### Enable historical analytics for Copilot agents in Omnichannel for Customer Service
+### Enable historical analytics for Copilot agents
 
 In Copilot Service admin center, you can enable the historical analytics for AI agents (agents) to give your service managers integrated reports that combine Copilot agents and Omnichannel conversation metrics.
 
