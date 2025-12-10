@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: reference
 ms.collection: 
-ms.date: 06/27/2025
+ms.date: 12/10/2025
 ms.custom: bap-template
 ---
 
@@ -21,47 +21,70 @@ The article describes the Dataverse entities used in historical and real-time an
 
 ## Entities used in historical analytics
 
+- appmodule
+- bot
+- email
+- incident
+- incidentresolution
+- msdyn_agentgroup
+- msdyn_agentstatushistory
+- msdyn_botsession
+- msdyn_conversationdispositioncodemap
+- msdyn_conversationinsight
+- msdyn_conversationmessageblock
+- msdyn_copilotevent
+- msdyn_copilotinteraction
+- msdyn_customerfeedbacksurveyresponse
+- msdyn_intent
+- msdyn_livechatengagementctx
+- msdyn_liveworkstream
+- msdyn_oclanguage
+- msdyn_ocliveworkitem
+- msdyn_ocliveworkitemcontextitem
+- msdyn_ocliveworkitemcontextitemelastic
+- msdyn_ocliveworkitemsentiment
+- msdyn_ocphonecallengagementctx
+- msdyn_ocphonenumber
+- msdyn_ocsession
+- msdyn_ocsessionparticipantevent
+- msdyn_ocsessionsentiment
+- msdyn_sessionextension
+- msdyn_ocvoicemail
+- msdyn_personasecurityrolemapping
+- msdyn_presence
+- msdyn_proactive_delivery
+- msdyn_proactive_engagement_config
+- msdyn_sessionparticipant
+- msdyn_transcript
 - msfp_question
 - msfp_questionresponse
 - msfp_surveyresponse
 - organization
-- appmodule
-- systemuser
-- queue msdyn_conversationtopic
-- msdyn_conversationtopic_conversation
-- msdyn_ocliveworkitem
-- msdyn_ocliveworkitemsentiment
-- msdyn_statuschangereason
-- msdyn_statuschangereasonname
-- msdyn_ocsession
-- msdyn_ocsessionsentiment
-- msdyn_sessionparticipant
-- msdyn_transcript
-- systemuserroles
-- msdyn_agentstatushistory
-- annotation
-- queuemembership
-- msdyn_personasecurityrolemapping
-- role
-- msdyn_presence
-- msdyn_liveworkstream
-- msdyn_conversationtopicsetting
-- account
-- msdyn_conversationinsight
-- msdyn_ocsessionparticipantevent
-- incident
-- subject
-- incidentresolution
-- msdyn_casetopic
-- msdyn_casetopic_incident
-- msdyn_casetopicsetting
+- queue
 - queueitem
+- queuemembership
+- businessunit
+- systemuser
+- systemuserroles
+
+
+## Entities used in historical bot analytics
+
+- conversationtranscript
 - bot
 - msdyn_botsession
-- msdyn_ocvoicemail
-- queueitem
-- msdyn_copilotinteraction
-- email 
+- msdyn_ocliveworkitemcontextitem
+- msdyn_ocliveworkitemcontextitemelastic
+- msdyn_oclanguage
+- msdyn_ocphonecallengagementctx
+- msdyn_sessionextension
+- systemuser
+- msdyn_liveworkstream
+- msdyn_ocliveworkitem
+- msdyn_ocsession
+  queue
+- queuemembership
+
 
 ## Entities used in real-time analytics
 
@@ -85,9 +108,47 @@ The article describes the Dataverse entities used in historical and real-time an
 - bookableresource
 - bookableresourcecharacteristic
 - msdyn_ocliveworkitemcharacteristic
-- choiceLabel (new entity for option set in real-time)
+- choiceLabel (entity for option set in real-time)
+- businessunit
+- choicelabels
+- incident
+- msdyn_agentgroup
+- msdyn_agentgroupmembership
+- msdyn_liveworkstreamcapacityprofile
+- msdyn_ocphonecallengagementctx
+- msdyn_ocphonenumber
+- msdyn_sessionextension
 
-## Next steps
+## Entities used in real-time bot analytics
+
+- conversationtranscript
+- bot
+- msdyn_botsession
+- msdyn_ocliveworkitemcontextitem
+- msdyn_ocliveworkitemcontextitemelastic
+- msdyn_oclanguage
+- msdyn_ocphonecallengagementctx
+- msdyn_sessionextension
+- systemuser
+- msdyn_liveworkstream
+- msdyn_ocliveworkitem
+- msdyn_ocsession
+- queue
+- qeuemembership
+
+## Entities used in knowledge analytics
+
+- msdyn_knowledgesearchinsight
+- msdyn_knowledgeinteractioninsight
+- appmodule
+- knowledgearticle
+- feedback
+- knowledgearticleincident
+- knowledgearticleviews
+- msdyn_copilotknowledgeinteraction
+
+
+## Related information
 
 [Use the out-of-the-box data model in your custom reports](use-datamodel.md#use-the-out-of-the-box-data-model-in-your-custom-reports)  
 [Customize data models of historical and real-time analytics reports](../administer/model-customize-reports.md#customize-data-models-of-historical-and-real-time-analytics-reports)
