@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Use Copilot to work with data
 
-Enable the following AI features in Power Platform admin center and then use them in Dynamics 365 Customer Service or Dynamics 365 Contact Center.
+Enable the following AI features in Power Platform admin center or Power Apps as applicable and then use them in Dynamics 365 Customer Service or Dynamics 365 Contact Center.
 
 ## Use AI assistance to fill forms
 
