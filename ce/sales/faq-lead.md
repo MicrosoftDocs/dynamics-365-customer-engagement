@@ -180,6 +180,7 @@ If a lead or opportunity isn't scored or the score isn't updated, ensure that th
 - The record meets all the conditions defined in the scoring model.
 - The record is using the same business process flow that is configured in the scoring model.
 - The record was created within the last 2 years from the current date. The model checks the date every time it scores a record. If a record was scored earlier but goes outside the 2-year window in the next scoring cycle, the score won't be updated.
+- If the newly calculated score is the same as the current score, the score displayed remains unchanged even after scoring process completes.
 
 ### How frequently are the predictive lead scores updated?
 
