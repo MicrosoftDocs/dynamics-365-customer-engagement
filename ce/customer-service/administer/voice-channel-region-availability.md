@@ -4,7 +4,7 @@ description: Use this article to learn about the supported cloud locations for t
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 09/15/2025
+ms.date: 12/10/2025
 ms.topic: concept-article
 ms.custom: bap-template
 ---
@@ -46,7 +46,7 @@ If you need your data to stay within a region, the following table lists the loc
 |Australia| crm6.dynamics.com |Available |Available|
 |United Kingdom **<sup>1</sup>**| crm11.dynamics.com |Available | To be announced|
 |Canada **<sup>1</sup>** |crm3.dynamics.com |Available | To be announced  |
-|South America |To be announced | To be announced|To be announced|
+|Brazil |crm2.dynamics.com | Available|To be announced|
 |France | To be announced | To be announced|To be announced|
 |Germany | To be announced | To be announced|To be announced|
 |United Arab Emirates **<sup>3</sup>**| crm15.dynamics.com | Available |To be announced|
