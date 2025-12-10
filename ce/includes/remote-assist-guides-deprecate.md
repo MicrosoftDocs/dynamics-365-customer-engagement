@@ -1,0 +1,2 @@
+> [!NOTE]
+> Dynamics 365 Guides and Remote Assist will no longer be available after December 31, 2026. Learn more at [Dynamics 365 Guides and Remote Assist reaching end of support](/lifecycle/announcements/dynamics-365-guides-remote-assist-end-of-support).

@@ -207,8 +207,8 @@ The assignment rules are composed of the following items:
     - **Capacity**: Maintained by the unified routing service based on user workloads and manual selection.
     - **User skills**: Represents the skills associated with the user that can be used for doing skill-based assignment.
     - **Calendar Schedule**: Schedule of the user as represented in the user service scheduling calendars.
-    - **Bot attributes**: Can be used only when you have configured bots as users and want to do some comparisons on them.
-  - **Operators**: Define the comparison relationship between the User attribute and incoming work item attributes. 
+    - **Bot attributes**: Can be used only when you have configured agents as users and want to do some comparisons on them.
+  - **Operators**: Define the comparison relationship between the User attribute and incoming work item attributes.
 
       Unified routing filters the attribute-specific operators for you to choose from. Some special operators that are available for the attribute types are as follows.
     
