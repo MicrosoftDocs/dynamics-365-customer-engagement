@@ -77,6 +77,8 @@ To include additional custom variables for reporting in Microsoft Copilot Studio
 
 You can add a maximum of 15 custom variables.
 
+:::image type="content" source="../media/custom-variables-historical-bot.png" alt-text="Screenshot of custom variables used for advanced bot analytics." lightbox="../media/custom-variables-historical-bot.png":::
+
 ### Enable historical analytics for voice
 
 On the **Omnichannel historical analytics** page, select **Add historical analytics for voice**, and save the changes.

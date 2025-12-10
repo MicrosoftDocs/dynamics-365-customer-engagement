@@ -229,6 +229,8 @@ Here's an example, where we have msdyn_SelfServiceStart variable set up in Micro
 
 Administrators in Microsoft Copilot Studio need to enable logging-node level details to conversationtranscript json logs. This is optional since you might not want to store all the node entries across the conversation for data storage concerns. Omnichannel historical dashboards uses conversationtranscript updates for Bot dashboard. It currently does not use App Insights data for its reporting. 
 
+:::image type="content" source="../media/node-level-detail-for-custom-variables.png" alt-text="Screenshot of node-level detail configuration.":::
+
 #### Best practices for question node
 
 - Create custom visualization to show question nodes and their corresponding outcomes, success or failure.
