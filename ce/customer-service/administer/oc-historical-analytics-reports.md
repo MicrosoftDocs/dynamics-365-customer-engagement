@@ -77,7 +77,7 @@ In Copilot Service admin center, you can enable the historical analytics for AI 
 
 The metrics are available on the dashboard 24 hours after you enable historical analytics. On the Omnichannel historical analytics dashboard, use the dashboard filter to go to the **Voice** dashboard.
 
-## Enable historical analytics for voicemail in Omnichannel for Customer Service
+## Enable historical analytics for voicemail
 
 1. On the **Omnichannel historical analytics** page, select **Add historical analytics for voicemail**.
 1. Select **Save** to apply changes.
