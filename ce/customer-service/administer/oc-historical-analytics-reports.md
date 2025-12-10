@@ -1,7 +1,7 @@
 ---
 title: Manage historical analytics reports in Omnichannel for Customer Service
-description: Configure Omnichannel historical analytics to analyze service performance, track KPIs, and gain AI-powered insights into customer interactions.
-ms.date: 12/04/2025
+description: Configure Omnichannel historical analytics to analyze service performance, track KPIs, and gain AI-powered insights into customer interactions in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
+ms.date: 12/10/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
