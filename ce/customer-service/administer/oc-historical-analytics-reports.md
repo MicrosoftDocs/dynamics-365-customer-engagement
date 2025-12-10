@@ -70,7 +70,7 @@ In Copilot Service admin center, you can enable the historical analytics for AI 
 1. Select **Save** to apply changes.
 
 
-## Enable historical analytics for voice in Omnichannel for Customer Service
+## Enable historical analytics for voice
 
 1. On the **Omnichannel historical analytics** page, select the **Add historical analytics for voice** checkbox.
 1. Select **Save** to apply changes.
