@@ -31,6 +31,8 @@ The historical analytics reports include:
 > [!NOTE]
 > The reports retain their current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the steps provided [here](analytics_overview.md#keep-the-report-state-when-you-switch-session-tabs) to keep the report state.
 
+The metrics on the dashboards are available 24 hours after you enable historical analytics. In Customer Service workspace, on the Omnichannel historical analytics dashboard, use the dashboard filter to go to the required dashboard.
+
 ## Prerequisites
 
 - You must have one of the following roles: System Administrator, Omnichannel Administrator, Omnichannel Supervisor, or CSR Manager. 
@@ -68,13 +70,9 @@ On the **Omnichannel historical analytics** page, select **Add historical analyt
 
 On the **Omnichannel historical analytics** page, select **Add historical analytics for voice**, and save the changes.
 
-The metrics are available on the dashboard 24 hours after you enable historical analytics. On the Omnichannel historical analytics dashboard, use the dashboard filter to go to the **Voice** dashboard.
-
 ### Enable historical analytics for voicemail
 
 On the **Omnichannel historical analytics** page, select **Add historical analytics for voicemail**, and save the changes.
-
-The metrics are available on the dashboard 24 hours after you enable historical analytics. On the Omnichannel historical analytics dashboard, use the dashboard filter to go to the **Voicemail** dashboard.
 
 ### Enable omnichannel historical analytics for proactive outbound engagements
 
