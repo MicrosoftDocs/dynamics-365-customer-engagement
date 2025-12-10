@@ -2,7 +2,7 @@
 title: Community moderator experience | MicrosoftDocs
 description: Learn about moderating in the Community for Dynamics 365 Customer Service.
 ms.date: 10/03/2021
-ms.topic: conceptual
+ms.topic: concept-article
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan

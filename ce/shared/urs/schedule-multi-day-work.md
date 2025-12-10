@@ -39,7 +39,7 @@ If you use requirement details to define the allocation method, manually schedul
 
 ## Schedule a multi-day requirement with the schedule assistant
 
-This scenario schedules a requirement *without* a related work order. The requirement needs an allocation method set before saving and the requirements that are automatically created by schedulable entities such as work orders have an allocation method of **None** by default.
+This scenario schedules a requirement *without* a related work order. The requirement needs an allocation method set before saving. The requirements that schedulable entities such as work orders automatically create have an allocation method of **None** by default.
 
 > [!NOTE]
 > To schedule a multi-day work order with the schedule assistant, manually add a related requirement with an allocation method and delete or disregard the automatically created ones. Alternatively, you can manually [create requirement detail records with **Specify Pattern**](#specify-patterns-for-requirements).
@@ -104,8 +104,9 @@ To edit existing requirement details that you created with patterns, select the 
    The distribution follows these rules:
 
        - Working vs. Nonworking days:
-           - If the date range includes both working and nonworking days, bookings are placed only on working days.
+           - If the date range includes both working and nonworking days and there is sufficient resource work hour capacity on working days, bookings are placed only on working days.
            - If the date range consists exclusively of nonworking days, bookings are placed on those nonworking days.
+           - If the date range includes both working and nonworking days but there is insufficient resource work hour capacity on working days, overbookings might spillover to nonworking days as well.
 
        - Placement of hours:
            - On working days, bookings start at the beginning of standard working hours.

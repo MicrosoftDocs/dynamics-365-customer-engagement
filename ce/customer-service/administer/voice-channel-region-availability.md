@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.date: 09/15/2025
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: bap-template
 ---
 

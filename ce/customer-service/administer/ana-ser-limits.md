@@ -4,7 +4,7 @@ description: Ensure reliability and stability of the service with built-in limit
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
 ms.date: 09/02/2025
 ms.custom:
