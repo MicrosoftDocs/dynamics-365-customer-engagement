@@ -1,7 +1,7 @@
 ---
 title: Use Copilot in the Dynamics 365 Field Service web application
 description: Learn how to use Copilot to summarize records, catch up on recent changes, and prepare for onsite jobs.
-ms.date: 07/31/2025
+ms.date: 12/05/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: JonBaker007
@@ -13,11 +13,11 @@ ms.custom: ignite-2024
 
 # Use Copilot in the Dynamics 365 Field Service web application
 
-Copilot is a next-generation AI assistant that helps you be more productive and efficient in your daily work the Dynamics 365 Field Service web app. Copilot can summarize information about your work order and service accounts, help you catch up on recent changes to your records, prepare for onsite visits, and answer questions about related information. It has a chat interface that dispatchers and technicians can use to interact with Copilot in natural language. Copilot comes with the Dynamics 365 Field Service web app, no other license required.
+Copilot is a next-generation AI assistant that helps you be more productive and efficient in your daily work in the Dynamics 365 Field Service web app. Copilot can summarize information about your work order and service accounts, help you catch up on recent changes to your records, prepare for onsite visits, and answer questions about related information. It has a chat interface that dispatchers and technicians can use to interact with Copilot in natural language. Copilot comes with the Dynamics 365 Field Service web app, no other license required.
 
 ## Prerequisites
 
-An administrator has to enable the copilot feature for all users in the environment from the Power Platform admin center. For more information, see [Enable copilot for model-driven apps feature for your environment](/power-apps/maker/model-driven-apps/add-ai-copilot#enable-copilot-for-model-driven-apps-feature-for-your-environment).
+An administrator must enable the copilot feature for all users in the environment from the Power Platform admin center. Learn more in [Enable copilot for model-driven apps feature for your environment](/power-apps/maker/model-driven-apps/add-ai-copilot#enable-copilot-for-model-driven-apps-feature-for-your-environment).
 
 ## Open Copilot
 
@@ -43,7 +43,7 @@ Alternatively, you can select **View Prompts** in the side pane to see a library
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-Tailor the copilot pane for your business needs by using the customization capabilities of Copilot Studio. Enrich the copilot chat user experience with more knowledge from your public website, key company files, or company Sharepoints. Add more topics and customize them to use various trigger types or initiate actions like flows, connectors, and Dataverse plug-ins. Learn more at [Customize Copilot chat using Copilot Studio (preview)](/power-apps/maker/model-driven-apps/customize-copilot-chat).
+Tailor the copilot pane for your business needs by using the customization capabilities of Copilot Studio. Enrich the copilot chat user experience with more knowledge from your public website, key company files, or company SharePoints. Add more topics and customize them to use various trigger types or initiate actions like flows, connectors, and Dataverse plug-ins. Learn more at [Customize Copilot chat using Copilot Studio (preview)](/power-apps/maker/model-driven-apps/customize-copilot-chat).
 
 The out-of-the-box Field Service app module includes a preconfigured agent for the Copilot chat called *Copilot in Power Apps - Field Service*. For an example of customizing Copilot chat, go to [Streamline inventory visibility in Field Service](/dynamics365/guidance/resources/field-service-streamline-inventory-visibility).
 
@@ -55,7 +55,7 @@ You might need to allow data movement across regions for Generative AI features 
 
 For regional availability, see the [Copilot International Availability Report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
-## See also
+## Related information
 
 - [Enable copilots and generative AI features](/power-platform/admin/geographical-availability-copilot)
 - [Add copilot for app users in model-driven apps](/power-apps/maker/model-driven-apps/add-ai-copilot)

@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: concept-article
-ms.date: 11/24/2025
+ms.date: 12/10/2025
 ms.custom: bap-template
 ms.collection:
 ---
@@ -49,7 +49,6 @@ The effort estimation model in unified routing was deprecated on May 02, 2025. T
 
 Starting April 16, 2025, we no longer support the auto-summarization of ongoing conversations in Customer Service apps. We recommend that you use [Copilot-generated conversation summary](/dynamics365/contact-center/use/copilot-summarize-conversations#view-a-conversation-summary).
 
-
 ## Rich text editor classic experience is deprecated
 
 As of April 18, 2025, the classic rich text editor experience is deprecated in Customer Service apps. The new, modernized rich text editor is the default experience, and customers who used the classic experience were upgraded automatically. Learn more in [Modern text editor enhancements](/power-apps/maker/model-driven-apps/rich-text-editor-control#modern-text-editor-enhancements).
@@ -72,7 +71,7 @@ Effective February 2025, the Customer Service Hub app is no longer available for
 
 ## Diagnostics in unified routing is deprecated
 
-The [diagnostics](../administer/unified-routing-diagnostics.md) feature in unified routing is deprecated as of May 09, 2024. The feature will be removed on January 01, 2026. We recommend that you use [Conversation diagnostics in Azure Application Insights](../administer/configure-conversation-diagnostics.md) to get diagnostics information. You can delete your routing diagnostics-related data from Dataverse using the steps in [Manage routing diagnostics data](../administer/manage-routing-diagnostics-data.md). Contact Microsoft Support if you need help.
+The [diagnostics](../administer/unified-routing-diagnostics.md) feature in unified routing is deprecated as of May 09, 2024. The feature will be removed on March 31, 2026. We recommend that you use [Conversation diagnostics in Azure Application Insights](../administer/configure-conversation-diagnostics.md) to get diagnostics information. You can delete your routing diagnostics-related data from Dataverse using the steps in [Manage routing diagnostics data](../administer/manage-routing-diagnostics-data.md). Contact Microsoft Support if you need help.
 
 ## Omnichannel for Customer Service on Unified Service Desk is deprecated and will be removed in October 2025
 
