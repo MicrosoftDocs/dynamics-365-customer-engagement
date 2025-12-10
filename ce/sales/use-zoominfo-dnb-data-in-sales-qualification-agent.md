@@ -10,7 +10,7 @@ ms.topic: concept-article
 
 # Configure Sales Qualification Agent to use Dataverse fields enriched by third-party data providers
 
-The Sales Qualification Agent in Dynamics 365 Sales automates lead research and engagement by evaluating leads against your Target customer profile. You can define custom target customer profile criteria using Dataverse fields—many of which can be enriched with firmographic data from ZoomInfo, Dun & Bradstreet (D&B), or any other provider that integrates with Dataverse. Learn more about [Custom criteria examples for sales teams across industries](custom-icp-examples.md).
+The Sales Qualification Agent in Dynamics 365 Sales automates lead research and engagement by evaluating leads against your target customer profile. You can define custom target customer profile criteria using Dataverse fields—many of which can be enriched with firmographic data from ZoomInfo, Dun & Bradstreet (D&B), or any other provider that integrates with Dataverse. Learn more about [Custom criteria examples for sales teams across industries](custom-icp-examples.md).
 
 This article covers instructions for integrating with ZoomInfo and Dun & Bradstreet. However, you can choose any other provider, such as Clay, 6Sense, Similarweb, and Builtwith, that syncs firmographic data into Dataverse fields. The high-level steps remain similar.
 
