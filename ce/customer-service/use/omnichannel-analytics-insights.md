@@ -78,7 +78,7 @@ Optionally, you can also add the **Business Unit** filter that provides a consis
 
 See [Analytics reports refresh and data retention](info-analytics-reports.md#analytics-reports-refresh-and-data-retention)
 
-## View Omnichannel historical analytics reports
+## View historical analytics reports in customized representative apps
 
 If you customized the Copilot Service workspace app, you must complete the following steps to be able to view the reports.
 
