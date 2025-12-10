@@ -28,7 +28,7 @@ Sales teams often struggle to keep up with the volume of inbound leads from webs
 
 Sales Qualification Agent is available in two modes:
 
-- **Research-only mode**: Automates the research aspect of lead qualification. The agent works on assigned leads based on your selection criteria, such as lead source, rating, or geography. It provides detailed insights about each lead&mdash;their background, recent opportunities, and news about their company. The agent evaluates the lead's fit with your ideal customer profile and generates an initial outreach email for leads that meet your criteria. Sellers can use these insights to make informed decisions about which leads to pursue and send the outreach email to.
+- **Research-only mode**: Automates the research aspect of lead qualification. The agent works on assigned leads based on your selection criteria, such as lead source, rating, or geography. It provides detailed insights about each lead&mdash;their background, recent opportunities, and news about their company. The agent evaluates the lead's fit with your target customer profile and generates an initial outreach email for leads that meet your criteria. Sellers can use these insights to make informed decisions about which leads to pursue and send the outreach email to.
 
 - **Research and engage mode**: Automates the research and engagement aspects of lead qualification. The agent helps you manage high lead volumes by researching and engaging with leads. The agent works on assigned leads based on your selection criteria, such as lead source, rating, or geography. Additionally, the agent autonomously engages with each lead, follows up, and evaluates fit based on your seller hand-off rules. Leads that demonstrate purchase intent and meet most of your criteria are handed over to sellers for qualification, while those that don’t are disqualified, ensuring your sales team focuses only on high-potential opportunities.
 
@@ -39,7 +39,7 @@ The following table summarizes the difference between the Research-only and Rese
 | Functionality                              | Research-only | Research and engage |
 |--------------------------------------------|:--------:|:------:|
 | Research leads                             |    ✅     |   ✅    |
-| Check ICP criteria                         |    ✅     |   ✅    |
+| Check target customer profile criteria                         |    ✅     |   ✅    |
 | Check BANT criteria                        |    ❌     |   ✅    |
 | Generate outreach emails                   |    ✅     |   ✅    |
 | Send outreach emails                       |    ❌     |   ✅    |
@@ -53,7 +53,7 @@ The following table summarizes the difference between the Research-only and Rese
 
 The Sales Qualification Agent is designed to assist you in the lead qualification process. Here are some key concepts to understand how the agent works on leads and help you qualify leads:
 
-**Ideal customer profile (ICP)**: Applicable for both Research-only and Research and engage modes, the ICP is a set of criteria that defines the characteristics of your ideal customer. The agent uses this profile to evaluate leads and determine their fit. More information: [What is the ideal customer profile and how is the fit determined?](sales-qualification-agent-concepts.md#what-is-the-ideal-customer-profile-and-how-is-the-fit-determined)
+**Target customer profile**: Applicable for both Research-only and Research and engage modes, the target customer profile is a set of criteria that defines the characteristics of your ideal customer. The agent uses this profile to evaluate leads and determine their fit. More information: [What is the target customer profile and how is the fit determined?](sales-qualification-agent-concepts.md#what-is-the-target-customer-profile-and-how-is-the-fit-determined)
 
 **Purchase interest**: Applicable for the Engage mode, purchase interest is an indicator of the lead's intent to buy. The agent evaluates leads based on their engagement and interest level. More information: [What is purchase interest and how is it determined?](sales-qualification-agent-concepts.md#what-is-purchase-interest-and-how-is-it-determined)
 
