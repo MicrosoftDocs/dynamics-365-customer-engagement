@@ -53,7 +53,7 @@ When you're creating test leads, ensure that you have a diverse set of leads tha
    > [!NOTE]
    > In the Research and engage mode, the agent also considers BANT (Budget, Authority, Need, Timeline) criteria, if configured. For testing purposes, you can try to include these signals in your lead data or provide them as part of follow-up email to the agent.
 
-  - **Note down your assessment(Optional):** In a spreadsheet, create a list of leads with the following columns and your assessment of their target customer profile fit, selection criteria match, and handoff status. This will help you validate the agent's behavior against expected outcomes:
+  - **Note down your assessment(Optional):** In a spreadsheet, create a list of leads with the following columns and your assessment of their target customer profile suitability, selection criteria match, and handoff status. This will help you validate the agent's behavior against expected outcomes:
     - Lead name
     - Company name
     - Lead source
@@ -64,7 +64,7 @@ When you're creating test leads, ensure that you have a diverse set of leads tha
     - Job title
     - Location
     - Selection criteria match (Yes/No)
-    - Target customer profile fit (High/Medium/Low)
+    - target customer profile suitability (High/Medium/Low)
     - BANT criteria (Research and engage mode only)
 
 
@@ -122,7 +122,7 @@ After you start the agent, you can check if the agent picked the correct leads f
 This section is applicable only for **Research and engage** mode. 
 
 > [!NOTE]
-> In **Research-only** mode, the agent hands off the lead to a seller after the research is completed and outreach email is drafted, irrespective of its ICP fit. 
+> In **Research-only** mode, the agent hands off the lead to a seller after the research is completed and outreach email is drafted, irrespective of its target customer profile suitability. 
 
 **Objective**: Confirm that the agent responds correctly to customers’ queries based on available knowledge sources and is able to hand off leads to sellers or disqualify leads as per the defined criteria.
 
