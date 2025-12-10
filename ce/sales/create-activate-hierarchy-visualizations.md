@@ -12,8 +12,8 @@ ms.custom: bap-template
 
 # Design and publish hierarchies
 
-As an administrator, you can design and publish a hierarchy that allows your organization to visualize and work with hierarchical data. You can design multiple hierarchies to show different relationships,or provide alternative views of the data, such as showing only active records or filtering by specific countries/regions.  
-Depending on your business requirements, you can create the following types of hierarchies:  
+As an administrator, you can design and publish a hierarchy that allows your organization to visualize and work with hierarchical data. You can design multiple hierarchies to show different relationships, or provide alternative views of the data such as showing only active records or filtering by specific countries/regions.  
+Depending on your business requirements, you can design the following types of hierarchies:  
 
 - [Single table (self-referential)](hierarchy-visualization.md#single-table)  
 - [Multi-table](hierarchy-visualization.md#multi-table)  
@@ -23,11 +23,12 @@ Depending on your business requirements, you can create the following types of h
 
 Before you design and publish a hierarchy, ensure the following prerequisites are met:
 
-- You must have administrator privileges.  
-- Make sure the tables you used to design the hierarchy have the required relationships to establish parent-child relationships.  
-    - For a single-table hierarchy, the table must include an N:1 self-referential relationship, where each row points to its parent row.  
-    - For multi-table hierarchies, ensure the tables have N:1, 1:N, and N:N relationships defined between them.  
-- For custom tables, ensure that rows can reference a parent row in the same table. If the relationship doesn't exist, [you need to create it](/power-apps/maker/data-platform/create-edit-entity-relationships).  
+- You must have System administrator privileges.  
+- Make sure tables have the required relationships you wish to display parent-child relationships.  
+    - For a single-table hierarchy, a relationship pointing to the parent row must exist.  
+    - For multi-table hierarchies, relationships between the tables must exist.  
+
+    To create relationships, see [create and edit entity relationships](/power-apps/maker/data-platform/create-edit-entity-relationships).  
 
 ## Design and publish
 
@@ -35,10 +36,7 @@ Before you design and publish a hierarchy, ensure the following prerequisites ar
 1. Under **General Settings**, select **Visual hierarchy**.  
 1. Select **New hierarchy** and then enter a name for the hierarchy.  
 1. [Configure the root node of the hierarchy](#configure-the-root-node-of-the-hierarchy).  
-    > [!NOTE]
-    > If you're creating a single table hierarchy, adding child nodes isn't required. After configuring the root node, proceed to step 6 to complete the process.  
 1. [Configure the child node](#configure-the-child-node).  
-1. Select **Save**.  
 1. Select **Preview** to do the following tasks before publishing the hierarchy:  
     - Interact with the hierarchy as a user would, such as expanding and collapsing nodes, viewing details, and performing quick actions.  
     - Change settings and preview changes until you’re satisfied with the results.  
@@ -86,7 +84,7 @@ Configure the root node of the hierarchy by selecting the desired table. The tab
     :::image type="content" source="media/hv-account-settings-tile-tab.png" alt-text="Screenshot of the tile display option tab in the account settings pane in the hierarchy designer page.":::
 
 1. If you're configuring a multi-table or hybrid hierarchy, [add child nodes](#configure-the-child-node). For single table hierarchies, you can skip this step.  
-1. Save the hierarchy, and [continue from step 7 in the design and publish procedure](#design-and-publish).  
+1. Save the hierarchy, and [continue from step 6 in the design and publish procedure](#design-and-publish).  
 
 ## Configure the child node
 
@@ -125,7 +123,7 @@ Child nodes are added for cross-table or hybrid hierarchies to show related reco
     :::image type="content" source="media/hv-account-settings-tile-tab.png" alt-text="Screenshot of the tile display option tab in the account settings pane in the hierarchy designer page.":::  
 
 1. Repeat steps 2 to 4 to add more child nodes as required.  
-1. After adding all child nodes, save the hierarchy, and [continue from step 7 in the design and publish procedure](#design-and-publish).
+1. After adding all child nodes, save the hierarchy, and [continue from step 6 in the design and publish procedure](#design-and-publish).
 
 ## Troubleshoot a hierarchy  
 
