@@ -54,7 +54,7 @@ This configuration enables AI-discovered topics from conversations with default 
 
 In Copilot Service admin center, you can enable the historical analytics for AI agents (agents) to give your service managers integrated reports that combine Copilot agents and Omnichannel conversation metrics.
 
-- If Copilot agents are configured with Dynamics 365 Contact Center and you select this option, the Omnichannel Summary and Bot dashboards appear as options in the dashboard filter for the Omnichannel historical analytics report. The Bot dashboard shows metrics specific to the Copilot agent.
+- If Copilot agents are configured with Dynamics 365 Contact Center and you select this option, the Summary and Bot dashboards appear as options in the dashboard filter for the Omnichannel historical analytics report. The Bot dashboard displays metrics specific to the Copilot agent.
 
  :::image type="content" source="../media/oc-bot-session-dashboard.png" alt-text="Screenshot of the Copilot Studio bot dashboard":::
   
