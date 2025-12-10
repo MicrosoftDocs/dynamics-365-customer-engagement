@@ -39,11 +39,11 @@ To configure other user roles to access analytics and dashboards, see [Configure
 
 ## Manage Omnichannel historical analytics reports
 
-You can manage the Omnichannel historical analytics reports in Copilot Service admin center. You must enable the Omnichannel historical analytics report to enable the other reports availaable on the page.
+You can manage the Omnichannel historical analytics reports in Copilot Service admin center. You must enable the Omnichannel historical analytics report to enable the other reports available on the page.
 
 1. In the site map of Copilot Service admin center, select **Insights** in **Operations**. The **Insights** page appears.
 1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page appears.
-1. Select the **Enable Omnichannel historical analytics report** toggle to enable the related dasboards.
+1. Select the **Enable Omnichannel historical analytics report** toggle to enable the related dashboards.
 1. Select **Save** to apply changes.
 
 This configuration enables AI-discovered topics from conversations with default settings.
