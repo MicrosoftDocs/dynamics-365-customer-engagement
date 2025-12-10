@@ -36,7 +36,7 @@ Learn more in [Visualize data in a view](/power-apps/user/visualize-data-in-copi
 
 Learn how to enable the feature in [Natural language grid and view search (preview)](/power-platform/admin/settings-features?tabs=new#natural-language-grid-and-view-search-preview).
 
-## Visualize or find data with natural language
+## Visualize or find data with natural language (preview)
 
 Use natural language prompts in the Copilot bar on the grid page to visualize data in a view. Learn more in [Visualize data in a view with natural language](/power-apps/user/visualize-data-in-copilot#visualize-data-in-a-view-with-natural-language).
 
