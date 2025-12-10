@@ -17,7 +17,7 @@ Depending on your business requirements, you can create the following types of h
 
 - [Single table (self-referential)](hierarchy-visualization.md#single-table)  
 - [Multi-table](hierarchy-visualization.md#multi-table)  
-- [Hybrid hierarchies](hierarchy-visualization.md#hybrid) which combine both single and multi-table relationships  
+- [Hybrid hierarchies](hierarchy-visualization.md#hybrid), which combine both single and multi-table relationships.  
 
 ## Prerequisites
 
