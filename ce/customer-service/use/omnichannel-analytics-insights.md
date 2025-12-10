@@ -1,7 +1,7 @@
 ---
 title: Omnichannel for Customer Service dashboards
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs in Omnichannel for Customer Service to manage contact centers.
-ms.date: 11/11/2025
+ms.date: 12/10/2025
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -77,6 +77,27 @@ Optionally, you can also add the **Business Unit** filter that provides a consis
 ## Reports refresh and data retention
 
 See [Analytics reports refresh and data retention](info-analytics-reports.md#analytics-reports-refresh-and-data-retention)
+
+## View Omnichannel historical analytics reports
+
+If you customized the Copilot Service workspace app, you must complete the following steps to be able to view the reports.
+
+1. On the Copilot Service workspace app tile, select the ellipsis (**More Options**), and then select **Open in App Designer**.
+1. Select **New**.
+1. On the **New page** dialog, select **Dataverse Table** for Omnichannel historical analytics, and then select **Next**.
+1. To add a Dataverse table, select the **Select existing table** option, and then select **Omnichannel historical analytics**.
+1. Select **Show in navigation**, and then select **Add**.
+1. From **Navigation**, select **Omnichannel historical analytics**, and then select **Settings**.
+1. Enter the following information:
+    - **Title**: Omnichannel historical analytics
+    - **Icon**: Select **Use web resource**.
+    - **Select icon**: msdyn_/Analytics/imgs/OmnichannelReportIcon.svg
+    - **ID**: OCReportsSubArea
+1. Select **Advanced Settings**, and then select the following checkboxes:
+    - **SKU**: **All**, **On premise**, **Live**, and **SPLA**.
+    - **Client**: **Web**.
+    - **Outlook shortcut**: **Offline availability**.
+1. Select **Save**, and then select **Publish**.
 
 ### Related information
 
