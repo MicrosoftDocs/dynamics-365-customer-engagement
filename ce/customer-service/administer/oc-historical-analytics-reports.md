@@ -17,7 +17,6 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 You can configure Omnichannel historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support conversations and to group related conversations into topics.
 
-By default, the Omnichannel historical analytics reports are enabled for the System Administrator, Omnichannel Administrator, Omnichannel Supervisor, and CSR Manager roles. To configure other user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 The historical analytics reports include:
 
 - [Summary](../use/omnichannel-summary-dashboard.md)
@@ -27,11 +26,16 @@ The historical analytics reports include:
 - [Voicemail](../use/oc-voicemail-dashboard.md)
 - [Agent](../use/agent-dashboard.md)
 - [Bot](../use/oc-bot-dashboard.md)
-- [Proactive outbound](/dynamics365/contact-center/use/proactive-outbound-dashboard)
+- [Proactive Outbound](/dynamics365/contact-center/use/proactive-outbound-dashboard)
 
 > [!NOTE]
 > The reports retain their current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the steps provided [here](analytics_overview.md#keep-the-report-state-when-you-switch-session-tabs) to keep the report state.
 
+## Prerequisites
+
+- You have the System Administrator, Omnichannel Administrator, Omnichannel Supervisor, or CSR Manager role. 
+
+To configure other user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 
 ## Manage Omnichannel historical analytics reports
 
