@@ -207,9 +207,7 @@ However, on the Omnichannel Historical Bot dashboard, you see the following summ
 
   ### Use custom reporting variables
 
-This feature applies to classic Copilot Studio Bots that require custom variables for tagging conversations.
-
-Add reporting variables configured in Microsoft Copilot Studio to enable structured tracking and analysis across key organizational dimensions such as line of business, division, product line, and other custom-defined attributes for voice and chat agent conversations. Learn more in [Work with variables](/microsoft-copilot-studio/authoring-variables?tabs=webApp). These variables are attached to specific topics and flows and depend on predefined instructions provided in Microsoft Copilot Studio.
+This feature works with classic Copilot Studio bots that require custom variables for tagging conversations. Add reporting variables configured in Microsoft Copilot Studio Canvas, to enable structured tracking and analysis across key organizational dimensions such as line of business, division, product line, and other custom-defined attributes. Learn more in [Work with variables](/microsoft-copilot-studio/authoring-variables?tabs=webApp). The variables are linked to certain topics and flows, and their use depends on instructions already prepared in the Copilot Studio Canvas.
 
 You need to [enable advanced historical analytics for voice and chat Copilot agents in Omnichannel for Customer Service](../administer/oc-historical-analytics-reports.md#enable-advanced-historical-analytics-for-voice-and-chat-copilot-agents-in-omnichannel-for-customer-service). You can add up to 15 variables.
 
