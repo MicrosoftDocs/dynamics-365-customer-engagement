@@ -4,8 +4,6 @@ description: Learn how to set up and configure the Sales Close Agent - Research 
 ms.date: 11/21/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
-content_well_notification:
-  - AI-contribution
 ms.custom: bap-template
 author: lavanyakr01
 ms.author: lavanyakr

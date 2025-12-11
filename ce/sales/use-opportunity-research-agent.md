@@ -4,8 +4,6 @@ description: Learn how to work on opportunities handled by the Sales Close Agent
 ms.date: 11/07/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
-content_well_notification:
-  - AI-contribution
 ms.custom: bap-template
 author: udaykirang
 ms.author: udag
