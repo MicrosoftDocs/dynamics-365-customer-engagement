@@ -209,7 +209,7 @@ However, on the Omnichannel Historical Bot dashboard, you see the following summ
 
 This feature is applicable to Classic Copilot Studio Bots that require custom variables to tag conversations.
 
-Add reporting variables configured in Microsoft Copilot Studio Canvas to enable structured tracking and analysis across key organizational dimensions such as line of business, division, product line, and other custom-defined attributes for voice and chat agent conversations. Learn more in [Work with variables](/microsoft-copilot-studio/authoring-variables?tabs=webApp). These variables are attached to specific topics and flows and depend on predefined instructions provided in Microsoft Copilot Studio Canvas.
+Add reporting variables configured in Microsoft Copilot Studio to enable structured tracking and analysis across key organizational dimensions such as line of business, division, product line, and other custom-defined attributes for voice and chat agent conversations. Learn more in [Work with variables](/microsoft-copilot-studio/authoring-variables?tabs=webApp). These variables are attached to specific topics and flows and depend on predefined instructions provided in Microsoft Copilot Studio.
 
 You need to [enable advanced historical analytics for voice and chat Copilot agents in Omnichannel for Customer Service](../administer/oc-historical-analytics-reports.md#enable-advanced-historical-analytics-for-voice-and-chat-copilot-agents-in-omnichannel-for-customer-service). You can add up to 15 variables.
 
@@ -217,11 +217,11 @@ Once configured, the Omnichannel Historical Bot dashboard can be customized with
 
 Additionally, users can analyze metrics related to exit patterns from question nodes and identify underlying causes of escalations originating from those nodes within the Omnichannel Historical Bot dashboard. This functionality provides advanced troubleshooting and diagnostic insights.
 
-Here's an example, where we have msdyn_SelfServiceStart variable set up in Microsoft Copilot Studio Canvas. Based on the conversation flow, the final value for this variable is processed and shown on data measures for the Omnichannel Historical dashboard for visual and data model customization. This lets customers create custom reports about how many escalated conversations had intent identified and self-service process started.
+Here's an example, where we have msdyn_SelfServiceStart variable set up in Microsoft Copilot Studio. Based on the conversation flow, the final value for this variable is processed and shown on data measures for the Omnichannel Historical dashboard for visual and data model customization. This lets customers create custom reports about how many escalated conversations had intent identified and self-service process started.
 
 #### Best practices for custom variables
 
-- Use the same custom variable name as defined in the Microsoft Copilot Studio Canvas design.
+- Use the same custom variable name as defined in the Microsoft Copilot Studio design.
 - Limit variable values to one or two words and avoid long descriptive text as this can impact dashboard performance.
 - For scenarios requiring multiple values for example, business units, use a single variable name such as         Contoso_Business_Units.  The variable can hold any number of business unit values. When a conversation flow passes through a     topic related to one of these business units, the variable is assigned or updated if applied more than once during the conversation. Only the final values are captured and available for viewing in Omnichannel Historical dashboards through visuals or data model customization.
 
@@ -234,7 +234,7 @@ Administrators in Microsoft Copilot Studio need to enable logging-node level det
 #### Best practices for question node
 
 - Create custom visualization to show question nodes and their corresponding outcomes, success or failure.
-- Users need to rename the default question node on the Microsoft Copilot Studio Canvas in order to have meaningful reporting of success or failure rates for question nodes in a conversation. This helps display meaningful reports and information displayed on dashboards. With such naming convention, the success and failure counts can be easily tracked. These help understand where in the conversation flow the failure occurred, in order to improve bot performance. Examples of question node names are Confirm Order Status, Repeat Account Number, or Repeat Main Menu Options.
+- Users need to rename the default question node on the Microsoft Copilot Studio in order to have meaningful reporting of success or failure rates for question nodes in a conversation. This helps display meaningful reports and information displayed on dashboards. With such naming convention, the success and failure counts can be easily tracked. These help understand where in the conversation flow the failure occurred, in order to improve bot performance. Examples of question node names are Confirm Order Status, Repeat Account Number, or Repeat Main Menu Options.
  
 If the node isn't renamed, it could lead to ambiguous names generated by default, for example, Question_eQt5ye. 
 
