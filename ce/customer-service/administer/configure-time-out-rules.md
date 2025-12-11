@@ -66,6 +66,82 @@ Select a rule to enable the edit button that you can use to edit the rule.
 
 You can change the priority per time-out rule so that if any condition is the same, the system runs the prioritized time-out rule first.
 
+## Enable representative override
+
+The override feature ensures automation never disrupts active or sensitive conversations. It gives representatives the power to pause or resume timeout rules based on real customer needs. This flexibility prevents premature conversation closures and builds trust in automated workflows. For enterprise teams, CSR Override is essential—combining structured processes with the adaptability required for exceptional customer service.
+
+To enable CSR Override, admins must configure two key areas in the Customer Service Admin Center: 
+
+1. Enable Timeout Rules 
+
+Navigate to Customer Service Admin Center → Representative Experiences → Productivity Area → Timeout Rules 
+
+Turn on the CSR Override tool to make sure that the feature will be available for the conversations with timeout rules enacted. 
+
+ 
+
+ 
+
+2. Turn On CSR Override Panel 
+
+Go to Workspace → Experience Profile → Productivity Pane 
+
+Enable the Timeout Rules Override panel:  
+
+Default Profiles we provide the CSR override turned on. 
+
+Customer Service Workspace + Channels 
+
+Omnichannel for Customer Service 
+
+Custom Profiles:  
+
+Manually activate the panel so CSRs can access it. 
+
+Validate visibility:  
+
+If the pane is not enabled, CSR Override will not appear in the UI. 
+
+Customer Service Representative Experience (Once Enabled) 
+
+When CSR Override is on, representatives gain full control over timeout rules enacting during live conversations. 
+
+ 
+
+Accessing the CSR Override Panel: 
+
+CSR clicks the Timeout Rules icon in the productivity pane. 
+
+Empty State:  
+
+If no timeout rules apply to the conversation, the panel remains blank. 
+
+CSR Override Panel Behavior: 
+
+The panel refreshes dynamically for the currently open conversation. 
+
+For each conversation, all active timeout rules are displayed in the panel. 
+
+If there are more rules than the panel can display, scrolling is supported for easy navigation. 
+
+A Retry button at the top of the panel allows representatives to refresh and view the most accurate state of each timeout rule. 
+
+For each timeout rule, the panel shows: 
+
+Rule States – Indicates the status based on conditions and time remaining until the action executes: 
+
+Active: Condition true; countdown running. 
+
+Started: Timer just began; <50% time elapsed. 
+
+Halfway: >50% time elapsed. 
+
+Almost: >75% time elapsed. 
+
+Cannot Off: Too close to triggering; CSR cannot disable.  
+
+To ensure reliability, rules enter Cannot Off if the timeout is within <2 minutes. 
+
 ### Related information
 
 [Understand conversation states](../use/oc-conversation-state.md)  
