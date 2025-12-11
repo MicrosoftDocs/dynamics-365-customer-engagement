@@ -68,27 +68,27 @@ You can change the priority per time-out rule so that if any condition is the sa
 
 ## Enable representative override
 
-The override feature ensures automation never disrupts active or sensitive conversations. It gives representatives the power to pause or resume timeout rules based on real customer needs. This flexibility prevents premature conversation closures and builds trust in automated workflows. For enterprise teams, CSR Override is essential—combining structured processes with the adaptability required for exceptional customer service.
+The override feature ensures automation never disrupts active or sensitive conversations. It gives representatives the power to pause or resume timeout rules based on real customer needs. This flexibility prevents premature conversation closures and builds trust in automated workflows. For enterprise teams, representativeOverride is essential—combining structured processes with the adaptability required for exceptional customer service.
 
-To enable CSR Override, admins must configure two key areas in the Customer Service Admin Center: 
+To enable representative Override, admins must configure two key areas in the Customer Service admin center: 
 
 1. Enable Timeout Rules 
 
 Navigate to Customer Service Admin Center → Representative Experiences → Productivity Area → Timeout Rules 
 
-Turn on the CSR Override tool to make sure that the feature will be available for the conversations with timeout rules enacted. 
+Turn on the representativeOverride tool to make sure that the feature will be available for the conversations with timeout rules enacted. 
 
  
 
  
 
-2. Turn On CSR Override Panel 
+2. Turn On representative Override Panel 
 
 Go to Workspace → Experience Profile → Productivity Pane 
 
 Enable the Timeout Rules Override panel:  
 
-Default Profiles we provide the CSR override turned on. 
+Default Profiles we provide the representative override turned on. 
 
 Customer Service Workspace + Channels 
 
@@ -100,23 +100,23 @@ Manually activate the panel so CSRs can access it.
 
 Validate visibility:  
 
-If the pane is not enabled, CSR Override will not appear in the UI. 
+If the pane is not enabled, representative Override will not appear in the UI. 
 
 Customer Service Representative Experience (Once Enabled) 
 
-When CSR Override is on, representatives gain full control over timeout rules enacting during live conversations. 
+When representative Override is on, representatives gain full control over timeout rules enacting during live conversations. 
 
  
 
-Accessing the CSR Override Panel: 
+Accessing the representative Override Panel: 
 
-CSR clicks the Timeout Rules icon in the productivity pane. 
+representative clicks the Timeout Rules icon in the productivity pane. 
 
 Empty State:  
 
 If no timeout rules apply to the conversation, the panel remains blank. 
 
-CSR Override Panel Behavior: 
+representative Override Panel Behavior: 
 
 The panel refreshes dynamically for the currently open conversation. 
 
@@ -138,7 +138,7 @@ Halfway: >50% time elapsed.
 
 Almost: >75% time elapsed. 
 
-Cannot Off: Too close to triggering; CSR cannot disable.  
+Cannot Off: Too close to triggering; representativecannot disable.  
 
 To ensure reliability, rules enter Cannot Off if the timeout is within <2 minutes. 
 
