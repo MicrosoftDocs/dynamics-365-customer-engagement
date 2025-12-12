@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to 
 ms.collection: 
-ms.date: 12/11/2025
+ms.date: 12/12/2025
 ms.custom: bap-template
 ---
 
@@ -72,18 +72,22 @@ The override feature ensures automation never disrupts active or sensitive conve
 
 To enable representative override, you need to:
 
-- **Enable timeout rules**
+1. **Enable timeout rules**
 
-1. In Copilot Service admin center, switch the **Customer Service Representative Override tool** to on. This ensures that the feature is available for the conversations with timeout rules enabled. 
+- In Copilot Service admin center, switch the **Customer Service Representative Override tool** to on. This ensures that the feature is available for the conversations with timeout rules enabled. 
 
-- **Turn On CSR Override Panel**:
+2. **Turn On CSR Override Panel**:
 
-1. Go to **Workspace** > **Experience Profile** > **Productivity Pane.**
-1. Select the **Timeout Rules Override panel**. 
+   1. Go to **Workspace** > **Experience Profile** > **Productivity Pane.**
+   1. Select the **Timeout Rules Override panel**. 
+   
 For default profiles, representative override is turned on:
-- Customer Service Workspace + Channels
-- Omnichannel for Customer Service 
+
+   - Customer Service Workspace + Channels
+   - Omnichannel for Customer Service
+   
 For Custom Profiles, you need to manually activate the panel for representatives.
+
 > [!NOTE]
 > If the pane isn't enabled, representative override doesn't appear on the user interface.
 

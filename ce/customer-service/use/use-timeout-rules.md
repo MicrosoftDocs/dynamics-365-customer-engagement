@@ -22,7 +22,7 @@ Your administrator enabled [Configure time-out rules](../administer/configure-ti
 
 Here’s what you can do:
 
-**Access the Timeout Rules panel on the productivity pane**: 
+#### Access the Timeout Rules panel on the productivity pane
 
 - In Customer Service workspace, select the **Timeout Rules** icon on the **Productivity** pane. If no time-out rules apply to the conversation, the panel remains blank. 
 
@@ -30,7 +30,7 @@ The panel refreshes dynamically for the currently open conversations. For each c
 
 - To refresh and view the most accurate state of each time-out rule, select **Retry**.
 
-**See rules linked to the conversation, rule status, and remaining time through the hourglass tooltip:**
+#### View rules linked to the conversation, rule status, and remaining time through the hourglass tooltip
 
 The following states indicate the status of the rule based on the conditions and remaining time until the action is performed: 
 
@@ -44,15 +44,15 @@ The following states indicate the status of the rule based on the conditions and
 
 - **Cannot Off**: Too close to triggering. You can't disable this rule. To ensure reliability, rules enter **Cannot Off** if the timeout is within <2 minutes. 
 
--**Inactive**: Condition false; countdown stopped and reset. 
+- **Inactive**: Condition false; countdown stopped and reset. 
 
--**Just Ran**: Rule executed; timer stopped. 
+- **Just Ran**: Rule executed; timer stopped. 
 
--**Turned Off**: Representative disabled the rule completely. 
+- **Turned Off**: Representative disabled the rule completely. 
 
 Hovering over the hourglass icon displays the exact remaining time, improving accessibility and time management. 
 
-**Toggle rules**: 
+#### Toggle rules 
 
 - Turn the rule off to stop the countdown and prevent rule execution, even if conditions are true. 
 
