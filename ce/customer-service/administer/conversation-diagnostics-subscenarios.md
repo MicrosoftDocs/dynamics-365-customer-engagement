@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: concept-article
 ms.collection:
-ms.date: 12/08/2025
+ms.date: 12/15/2025
 ms.custom: bap-template
 ---
 
@@ -83,6 +83,76 @@ The conversation diagnostics scenario captures data related to unified routing, 
 | PRESENCE_FIRST_LOAD | Representative presence initialized. |
 | CSRAvailabilityCheck | Check if any service representative is available. |
 | CopilotAgentSessionInitialization | Agent is connected to conversation. |
+
+## Assignment snapshots
+
+Assignment snapshot adds transparency to the automated assignment process in unified routing. By surfacing detailed insights into the logic and criteria behind assignment decisions, assignment snapshot empowers supervisors and administrators to understand why work items aren’t being assigned or why they are assigned to specific agents. This transparency reduces the need for support tickets and escalations to product teams, as customers can remediate and take corrective actions based on the information provided. Also, the feature consolidates all assignment activity&mdash;automated, manual, consults, and transfers&mdash;into a single view, offering a complete trace of how each work item was handled.
+
+Assignment snapshots is enabled by default for all customers who use Application Insights in their Dynamics 365 instance.
+
+Administrators can use the following information that's logged in Application Insights for voice, digital messaging, and record channels:
+
+- Presence changes
+
+- Unit and profile-based capacity changes
+- Skill changes for representatives
+- Queue membership changes
+- Representative, skill, queue, and capacity profile names with the corresponding IDs
+- Assignment ruleset and rule ID matched during the assignment attempt for custom assignment rulesets
+- Assignment ruleset and rule details for custom assignment rulesets
+
+> [!NOTE]
+> Assignment snapshots consume extra storage space in Application Insights.
+
+### Subscenario: CSRConfiguration
+
+Provides information about the static configuration settings related to service representatives, such as their associated skills, capacity profiles, queues they are part of, default presence, maximum capacity units. This is synced whenever there is a change to any of the configurations and at periodic intervals of 10 days.
+
+- **omnichannel.agent.id**: The ID of the Service representative being logged.
+- **omnichannel.queue.ids**: The associated queue IDs for the Service representative.
+- **omnichannel.max_capacity.units**: The maximum capacity units for the Service representative.
+- **omnichannel.default_presence**: The default presence for the Service representative.
+    - f523f628-c07a-e811-8162-000d3aa11f50 → Available
+    -	efdeb843-c07a-e811-8162-000d3aa11f50 → Busy
+    -	08971864-c07a-e811-8162-000d3aa11f50 → Busy - Do Not Disturb (DND)
+    -	3dacae76-c07a-e811-8162-000d3aa11f50 → Away
+    -	70139190-c07a-e811-8162-000d3aa11f50 → Offline
+-	**omnichannel.capacity_profile.ids**: The capacity profile IDs for the Service representative.
+-	**omnichannel.associated_skills**: The skills for the Service representative.
+
+### Subscenario: QueueConfiguration
+
+Is related to the configuration of queues, which includes the queue id, type, priority, and assignment strategy for the queue. The information is synced whenever there is a change to any of these configurations.
+
+- **omnichannel.queue.id**: The ID of the queue.
+- **omnichannel.priority**: The priority of the queue.
+- **omnichannel.assignment_strategy**: The assignment strategy for the queue. Possible values are:
+    - Highest Capacity(OmnichannelAssignment) = 192350000, 
+    - Round Robin = 192350001,
+    - Custom Assignment Configuration = 192350002
+- **omnichannel.queue.type**: The type of the queue. Possible values are
+    - Digital Messaging = 192350000,
+    - Entity = 192350001,
+    - Phone Call = 192350002
+
+### Subscenario: AssignmentRuleset
+
+Is for the custom assignment rulesets used for assignment, prioritization, and selection. It includes the ruleset name and rules configured as part of the ruleset. The information is synced whenever there is a change to any of these configurations and at periodic intervals of 10 days.
+
+- **omnichannel.ruleset_name**: The name of the ruleset.
+- **omnichannel.rule_hit_policy**: The rule hit policy for the ruleset.
+- **omnichannel.rules**: Details for each rule present in the ruleset (rule name, conditions, order).
+- **omnichannel.ruleset_type**: The type of the ruleset (assignment/prioritization/selection ruleset).
+
+### Subscenario: CSRStatusandCapacityDetails
+
+Provides status and capacity history of service representatives, including their presence, capacity profile, and available units. The data is synced whenever there is a change to any of these configurations.
+
+- **omnichannel.Service representative.id**: The ID of the Service representative being logged.
+- **omnichannel.current_presence_id**: The current presence ID of the Service representative.
+- **omnichannel.current_base_presence**: The current base presence of the Service representative.
+- **omnichannel.available_capacity.units**: The available capacity units for the Service representative.
+- **omnichannel.capacity_profile**: The capacity profile details (capacity profile id, available capacity, capacity profile reset duration, default maximum capacity, is force assignment, is block assignment).
 
 ## Channel-specific subscenarios
 
@@ -329,7 +399,7 @@ Displays information on the user group identified for the conversation.
 - **Omnichannel.target_agent.id**: Captures the ID of the representative receiving the consult request
 - **Channel type**:	Channel from which work item originated.
 
-### Subscenario: Call End 
+### Subscenario: Call End
 
 - **Omnichannel.description and Omnichannel.messsage**: Captures whether the subscenario started, completed successfully, or failed. If the subscenario failed, error or exception information is provided 
 
@@ -362,7 +432,7 @@ Displays information on the user group identified for the conversation.
 - **Omnichannel.target_agent.i**d: Captures the ID of the representative receiving the action (As applicable)
 - **Channel type**:	Channel from which work item originated
 
-### Voice, conversation control, live chat, and messaging telemetry subscenarios 
+### Voice, conversation control, live chat, and messaging telemetry subscenarios
 
 - **Subscenarios**: 
 
