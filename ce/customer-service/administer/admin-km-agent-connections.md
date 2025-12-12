@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 11/04/2025
+ms.date: 12/12/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -22,7 +22,7 @@ This article explains how to configure connection references for AI agents that 
 |AI agent |Flow  |
 |---------|---------|
 |Customer Knowledge Management Agent    |   **Knowledge Harvest Trigger Flow V2**   |
-|Quality Evaluation Agent    |  - **QEA On Demand Evaluation Case** for cases. <br> - **AI Evaluation Flow for Conversation** for conversations.    |
+|Quality Evaluation Agent    | **QEA On Demand Evaluation Case** for cases. <br> - **AI Evaluation Flow for Conversation** for conversations. |
 
 Learn more in [Add connection references to a solution.](/power-apps/maker/data-platform/create-connection-reference#add-connection-references-to-a-solution).
 
@@ -31,7 +31,7 @@ Learn more in [Add connection references to a solution.](/power-apps/maker/data-
 |AI agent flow|Connection references  |
 |---------|---------|
 |**Knowledge Harvest Trigger Flow V2**   |    - **Microsoft Dataverse CustomerServiceKnowledgeHarvest** <br> - **Microsoft Copilot Studio CustomerServiceKnowledgeHarvest**     |
-|- **QEA On Demand Evaluation Case** for cases. <br> - **AI Evaluation Flow for Conversation** for conversations.    |  **QMA.UnifiedAgent.DVPluginConnection, Microsoft Copilot Studio (Preview) CaseReviewerFlow** and **Microsoft Dataverse FlowRunTest-8625a**. |
+|- **QEA On Demand Evaluation Case** for cases. <br> - **AI Evaluation Flow for Conversation** for conversations.    | For cases and conversations: <br>  - **Microsoft Dataverse Connection Reference for QEA**. If not found, look for **Microsoft Copilot Studio (Preview) CaseReviewerFlow-2f011**. <br> - **QMA.UnifiedAgent.DVPluginConnection**<br> For conversations: <br> - **Microsoft Dataverse CDS Connection for QEA Conversation** . If not found, look for **Microsoft Dataverse FlowRunTest-8625a**. <br> For cases: <br> - **QMA.Incident.DVPluginConnection** |
 
 1. Sign in to [make.powerapps.com](https://make.powerapps.com) and select your environment.
 1. Go to **Solutions** > **Default Solution** > **Objects** > **Connection References**.
