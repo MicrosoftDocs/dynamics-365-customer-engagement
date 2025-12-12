@@ -25,7 +25,7 @@ Before you design and publish a hierarchy, ensure the following prerequisites ar
 
 - You must have System administrator privileges.  
 - You must have the required relationships for the tables you want to include in the hierarchy:  
-    - For a single-table hierarchy, a relationship pointing to the parent row must exist.  
+    - For a single table hierarchy, a relationship pointing to the parent row must exist.  
     - For multi-table hierarchies, relationships between the tables must exist.  
     To create relationships, see [create and edit entity relationships](/power-apps/maker/data-platform/create-edit-entity-relationships).  
 - You must disable the legacy hierarchy control feature in Power Platform if it's enabled. The [legacy hierarchy control is deprecated](/power-platform/important-changes-coming#deprecation-of-hierarchy-control-in-model-driven-apps) and isn't related to the new Visual hierarchy feature. Keeping it enabled confuses users by showing the **View hierarchy** button twice on the command bar for entities with configured hierarchies.  
@@ -46,7 +46,7 @@ To design and publish a hierarchy, follow these steps:
 1. Select **New hierarchy** and then enter a name for the hierarchy.  
 1. [Configure the root node of the hierarchy](#configure-the-root-node-of-the-hierarchy).  
     >[!NOTE]
-    > If you're creating a self-referential simple hierarchy, adding child nodes isn't required. After configuring the root node, proceed to step 6 to complete the process.  
+    > If you're creating a single table hierarchy, adding child nodes isn't required. After configuring the root node, proceed to step 6 to complete the process.  
 1. [Configure the child node](#configure-the-child-node).  
 1. Select **Save**.  
 1. Select Preview to do the following tasks before publishing the hierarchy:  
