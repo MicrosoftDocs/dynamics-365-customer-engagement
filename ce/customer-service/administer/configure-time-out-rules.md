@@ -34,10 +34,10 @@ For the automatic actions to run, set up the time-out rules per workstream.
    - Set the **Status** toggle to active.
    - **Trigger event**: Select one of the following:
       - **Customer Non-Response Time**: The time a customer stays inactive after the representative’s last message. 
-        The duration is calculated by subtracting the time of the representative’s last message from the current time. The system calculates the duration only when the most recent message was sent by the service representative.
+        The duration is calculated by subtracting the time of the representative’s last message from the current time. The system calculates the duration only when the most recent message is sent by the service representative.
       - **Representative Non-Response Time**: 
-        - (Unresponsiveness to the first customer message): The duration between the first message by the customer and post-assignment of the representative to the conversation. The duration is calculated by subtracting the current time from the representative’s assignment time. The system calculates the duration only when the representative accepts the notification or auto-assigns the notification timeout, or is force-assigned by the supervisor.
-        - (Mid-conversation unresponsiveness to the customer message): The non-responsive time of the representative since the customer’s last message. The duration is calculated by subtracting the customer’s last message time from the current time. The system calculates the duration only when the last message is from the customer.
+        - (Unresponsiveness to the first customer message): The duration between the first message by the customer and post-assignment of the representative to the conversation. The duration is calculated by subtracting the current time from the representative’s assignment time. The system calculates the duration only when the representative accepts the notification or autoassigns the notification timeout, or is force-assigned by the supervisor.
+        - (Mid-conversation unresponsiveness to the customer message): The nonresponsive time of the representative since the customer’s last message. The duration is calculated by subtracting the customer’s last message time from the current time. The system calculates the duration only when the last message is from the customer.
    - Select a workstream that corresponds to the channels where you want the rule to run.
 1. In **Trigger conditions**, for the trigger event that you selected on the previous page, enter the following:
    - **Operator**: By default, **Greater than**.
@@ -70,7 +70,7 @@ You can change the priority per time-out rule so that if any condition is the sa
 
 The override feature ensures automation never disrupts active or sensitive conversations. It gives representatives the power to pause or resume timeout rules based on real customer needs. This flexibility prevents premature conversation closures and builds trust in automated workflows. For enterprise teams, representative override is essential, combining structured processes with the adaptability required for exceptional customer service.
 
-To enable representative override, you need to configure the following:
+To enable representative override, you need to:
 
 - **Enable timeout rules**
 
