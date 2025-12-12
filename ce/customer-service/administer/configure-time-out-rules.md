@@ -87,50 +87,9 @@ For Custom Profiles, you need to manually activate the panel for representatives
 > [!NOTE]
 > If the pane isn't enabled, representative override doesn't appear on the user interface.
 
-When representative Override is on, representatives gain full control over timeout rules enacting during live conversations.
-
-
-
-Customer Service Representative Experience (Once Enabled) 
-
-When representative Override is on, representatives gain full control over timeout rules enacting during live conversations. 
-
- 
-
-Accessing the representative Override Panel: 
-
-representative clicks the Timeout Rules icon in the productivity pane. 
-
-Empty State:  
-
-If no timeout rules apply to the conversation, the panel remains blank. 
-
-representative Override Panel Behavior: 
-
-The panel refreshes dynamically for the currently open conversation. 
-
-For each conversation, all active timeout rules are displayed in the panel. 
-
-If there are more rules than the panel can display, scrolling is supported for easy navigation. 
-
-A Retry button at the top of the panel allows representatives to refresh and view the most accurate state of each timeout rule. 
-
-For each timeout rule, the panel shows: 
-
-Rule States – Indicates the status based on conditions and time remaining until the action executes: 
-
-Active: Condition true; countdown running. 
-
-Started: Timer just began; <50% time elapsed. 
-
-Halfway: >50% time elapsed. 
-
-Almost: >75% time elapsed. 
-
-Cannot Off: Too close to triggering; representativecannot disable.  
-
-To ensure reliability, rules enter Cannot Off if the timeout is within <2 minutes. 
+Once representative override is on, representatives get full control over timeout rules during live conversations.
 
 ### Related information
 
 [Understand conversation states](../use/oc-conversation-state.md)  
+[Use timeout rules](../use/use-timeout-rules.md#use-timeout-rules) 

@@ -1,26 +1,65 @@
 ---
-title: Concept topic template #Required; page title displayed in search results. Don't enclose in quotation marks.
-description: Concept description #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
-author: rhanajoy #Required; your GitHub user alias, with correct capitalization.
-ms.author: rhcassid #Required; your Microsoft alias; optional team alias.
-ms.reviewer: kfend #Required; Microsoft alias of content publishing team member.
-ms.topic: conceptual #Required; don't change.
-ms.collection: get-started #Required; If this isn't a getting started article, don't remove the attribute, but leave the value blank. The values for this attribute will be updated over time.
+title: Use timeout rules
+description: 
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: Soumyasd27
+ms.topic: concept-article
+ms.collection:
 ms.date: 12/12/2025
-ms.custom: bap-template #Required; don't change.
+ms.custom: bap-template
 ---
 
-# Use timeout rules
+# Use time-out rules
 
-<!--Introductory paragraph - Required. Lead with a light intro that describes what the article covers. Answer the fundamental "What is X and how will learning this help me accomplish Y?" question. A good lead is a sentence in the form, "X is a (type of) Y that does Z." Keep this paragraph short.-->
-<!--add your intro paragraph here-->
+The time-out rules feature lets you view and control time-out rules that apply to conversations. When your adWhen representative Override is on, representatives gain full control over timeout rules enacting during live conversations. 
 
-<!--H2s - Required. Give each H2 a heading that sets expectations for the content that follows. Follow H2 headings with a sentence about how the section contributes to the whole.-->
-## Section heading
+## Prerequsites
 
-<!--add your content here-->
+You administrator has enabled [Configure time-out rules](../administer/configure-time-out-rules.md#configure-time-out-rules).
 
-<!--Next steps - Required. Provide at least one next step and no more than three. Include some context so the customer can determine why they would click the link.-->
-## Next steps
+## Use the representative override panel
 
-<!--Remove all the comments in this template before you sign-off or merge to the main branch.-->
+Here’s what you can do:
+
+**Access the Timeout Rules panel by selecting it in the productivity pane**: 
+
+In Customer Service workspace, select the **Timeout Rules** icon on the **Productivity** pane. If no time-out rules apply to the conversation, the panel remains blank. 
+
+The panel refreshes dynamically for the currently open conversations. For each conversation, all active time-out rules are displayed in the panel. If there are more rules than the panel can display, you can scroll the page to view the remaining rules.
+
+To refresh and view the most accurate state of each time-out rule, select **Retry**.
+
+**See all rules linked to the conversation, along with their status and remaining time through the hourglass tooltip**
+
+The following rule states indicate the status based on conditions and time remaining until the action executes: 
+
+- **Active**: Condition true; countdown running. 
+
+- **Started**: Timer just began; <50% time elapsed. 
+
+- **Halfway**: >50% time elapsed. 
+
+- **Almost**: >75% time elapsed. 
+
+- **Cannot Off**: Too close to triggering; representative can't disable. To ensure reliability, rules enter **Cannot Off** if the timeout is within <2 minutes. 
+
+-**Inactive**: Condition false; countdown stopped and reset. 
+
+-**Just Ran**: Rule executed; timer stopped. 
+
+-**Turned Off**: CSR disabled rule entirely. 
+
+Hovering over the hourglass icon displays the exact remaining time, improving accessibility and time management. 
+
+**Toggle rules**: 
+
+- Turn the rule off stops countdown and prevents rule execution, even if conditions are true. 
+
+- Turn the rule on resumes countdown when conditions become true. 
+
+Resuming a rule uses the existing timer for the rule.
+
+## Related information
+
+[Configure time-out rules](../administer/configure-time-out-rules.md#configure-time-out-rules)
