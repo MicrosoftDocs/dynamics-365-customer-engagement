@@ -28,7 +28,7 @@ Before you design and publish a hierarchy, ensure the following prerequisites ar
     - For a single-table hierarchy, a relationship pointing to the parent row must exist.  
     - For multi-table hierarchies, relationships between the tables must exist.  
     To create relationships, see [create and edit entity relationships](/power-apps/maker/data-platform/create-edit-entity-relationships).  
-- You must disable the legacy hierarchy control feature in Power Platform if it's enabled. The [legacy hierarchy control is deprecated](/power-platform/important-changes-coming#deprecation-of-hierarchy-control-in-model-driven-apps) and isn't related to the new Visual hierarchy feature; keeping it enabled causes confusion for users.  
+- You must disable the legacy hierarchy control feature in Power Platform if it's enabled. The [legacy hierarchy control is deprecated](/power-platform/important-changes-coming#deprecation-of-hierarchy-control-in-model-driven-apps) and isn't related to the new Visual hierarchy feature. Keeping it enabled confuses users by showing the **View hierarchy** button twice on the command bar for entities with configured hierarchies.  
     **Follow these steps**:  
     1. Sign in to the [Power Apps maker portal](https://make.powerapps.com).  
     1. Select **Apps** from the left pane, and then select your sales app.  
