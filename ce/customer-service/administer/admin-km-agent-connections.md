@@ -31,7 +31,7 @@ Learn more in [Add connection references to a solution.](/power-apps/maker/data-
 |AI agent flow|Connection references  |
 |---------|---------|
 |**Knowledge Harvest Trigger Flow V2**   |   <ul> <li> **Microsoft Dataverse CustomerServiceKnowledgeHarvest**</li>  <li>**Microsoft Copilot Studio CustomerServiceKnowledgeHarvest** </li> <ul> |
- |<ul> <li> For cases: **QEA On Demand Evaluation Case**. </li>  <li> For conversations: **AI Evaluation Flow for Conversation**. </li> <ul>   |  For cases and conversations: <ul> <li>  **Microsoft Dataverse Connection Reference for QEA**. If not found, look for **Microsoft Dataverse FlowRunTest-8625a**. </li>  <li> **Microsoft Copilot Studio Connection Reference for QEA**. If not found, look for **Microsoft Copilot Studio (Preview) CaseReviewerFlow-2f011**. </li> <li> **QMA.UnifiedAgent.DVPluginConnection**<br> For cases:  **QMA.Incident.DVPluginConnection** |
+ |<ul> <li> For cases: **QEA On Demand Evaluation Case**. </li>  <li> For conversations: **AI Evaluation Flow for Conversation**. </li> <ul>  |  For cases and conversations: <ul> <li>  **Microsoft Dataverse Connection Reference for QEA**. If not found, look for **Microsoft Dataverse FlowRunTest-8625a**. </li>  <li> **Microsoft Copilot Studio Connection Reference for QEA**. If not found, look for **Microsoft Copilot Studio (Preview) CaseReviewerFlow-2f011**. </li> <li> **QMA.UnifiedAgent.DVPluginConnection**<br> <br> For cases:  **QMA.Incident.DVPluginConnection** |
 
 Use the following steps to set up connection references for Customer Knowledge Management Agent. Use the same steps to configure connection references for Quality Evaluation Agent.
 
