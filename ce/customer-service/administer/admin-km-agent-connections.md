@@ -33,6 +33,8 @@ Learn more in [Add connection references to a solution.](/power-apps/maker/data-
 |**Knowledge Harvest Trigger Flow V2**   |    - **Microsoft Dataverse CustomerServiceKnowledgeHarvest** <br> - **Microsoft Copilot Studio CustomerServiceKnowledgeHarvest**     |
 |- **QEA On Demand Evaluation Case** for cases. <br> - **AI Evaluation Flow for Conversation** for conversations.    | For cases and conversations: <br>  - **Microsoft Dataverse Connection Reference for QEA**. If not found, look for **Microsoft Dataverse FlowRunTest-8625a**. <br> - **Microsoft Copilot Studio Connection Reference for QEA**. If not found, look for **Microsoft Copilot Studio (Preview) CaseReviewerFlow-2f011**.<br> - **QMA.UnifiedAgent.DVPluginConnection**<br> For cases: <br> - **QMA.Incident.DVPluginConnection** |
 
+The following steps demonstrate how to set up connection references for the Customer Knowledge Management Agent, as an example. You can perform the same steps to configure connection references for other AI agents.
+
 1. Sign in to [make.powerapps.com](https://make.powerapps.com) and select your environment.
 1. Go to **Solutions** > **Default Solution** > **Objects** > **Connection References**.
 1. Search for the connection references that you want to add. For example, search for **Microsoft Dataverse CustomerServiceKnowledgeHarvest**.
