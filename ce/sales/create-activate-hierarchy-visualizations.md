@@ -51,7 +51,7 @@ Before you design and publish a hierarchy, ensure the following prerequisites ar
     - Interact with the hierarchy as a user would, such as expanding and collapsing nodes, viewing details, and performing quick actions.  
     - Change settings and preview changes until you’re satisfied with the results.  
     - Change data you view by selecting the record name at the top of the preview window.  
-    - [Troubleshoot the hierarchy](manage-hierarchy-visualizations.md#troubleshoot-a-hierarchy) before publishing it in the organization.  
+    - [Troubleshoot the hierarchy](#troubleshoot-a-hierarchy) before publishing it in the organization.  
 1. Select **Publish** and then select **OK** on the confirmation message.  
     The hierarchy is active and available to users to view and interact with.  
 
@@ -81,7 +81,7 @@ Configure the root node of the hierarchy by selecting the desired table. The tab
     | Setting | Description |
     |---------|-------------|
     | Show picture | Tiles can optionally show or hide a circled image for the record. When enabled, if no image is available, the initials of the record will be shown instead. For example, if **Maria Campbell** doesn't have an image, her tile would be displayed as **MC**. If initials aren't available, the default icon for the table is shown. |
-    | Show quick actions for this table | Enable this option to show quick actions (**...**) on the tile for the child table. Quick actions allow users to perform common tasks directly from the tile such as show in form and Add new record.<br>**Note**: The quick actions are displayed only when you publish or preview the hierarchy. |
+    | Show quick actions for this table | Enable this option to show quick actions (**...**) on the tile to perform tasks like showing in form, adding a new record, and adding existing records. Disabling the option for an entity in the hierarchy hides quick actions for that entity. For example, in a multi-table hierarchy based on account and contact, disabling the option for the contact table hides quick actions to show in form, add a new record, and add existing records for contact. However, quick action options remain available for account, even on the contact card.<br>**Note**: The quick actions are displayed only when you publish or preview the hierarchy. |
     | Tile size | Select the width and height for the tile in pixels and then choose the color for the tile border. |
     | Color | Select the top header color for the tile in Hex format. Here, we're using **#0078D4** for the blue color. |
 
@@ -120,7 +120,7 @@ Child nodes are added for cross-table or hybrid hierarchies to show related reco
     | Setting | Description |
     |---------|-------------|
     | Show picture | Tiles can optionally show or hide a circled image for the record. When enabled, if no image is available, the initials of the record will be shown instead. For example, if **Maria Campbell** doesn't have an image, her tile would be displayed as **MC**. If initials aren't available, the default icon for the table is shown. |
-    | Show quick actions for this table | Enable this option to show quick actions (**...**) on the tile for the child table. Quick actions allow users to perform common tasks directly from the tile such as show in form and Add new record.<br>**Note**: The quick actions are displayed only when you publish or preview the hierarchy. |
+    | Show quick actions for this table | Enable this option to show quick actions (**...**) on the tile to perform tasks like showing in form, adding a new record, and adding existing records. Disabling the option for an entity in the hierarchy hides quick actions for that entity. For example, in a multi-table hierarchy based on account and contact, disabling the option for the contact table hides quick actions to show in form, add a new record, and add existing records for contact. However, quick action options remain available for account, even on the contact card.<br>**Note**: The quick actions are displayed only when you publish or preview the hierarchy. |
     | Tile size | Select the width and height for the tile in pixels and then choose the color for the tile border. |
     | Color | Select the top header color for the tile in Hex format. Here, we're using **#0078D4** for the blue color. |
 
