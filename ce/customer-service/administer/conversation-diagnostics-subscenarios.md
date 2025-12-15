@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Understand conversation diagnostics
 
-When the system routes a work item, its corresponding data starts appearing in Application Insights within 15 minutes. The conversation diagnostics data is presented in the form of scenarios and subscenarios as discussed in the following sections.
+When the system routes a work item, its corresponding data starts appearing in Azure Application Insights within 15 minutes. The conversation diagnostics data is presented in the form of scenarios and subscenarios as discussed in the following sections.
 
 ## Conversation diagnostics scenarios
 
