@@ -4,7 +4,7 @@ description: Learn how to use the Backlog conversation report to monitor convers
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection: 
 ms.date: 11/07/2025
 ms.custom: bap-template

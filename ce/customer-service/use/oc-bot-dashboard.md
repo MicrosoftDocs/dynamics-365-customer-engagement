@@ -1,8 +1,8 @@
 ---
 title: Bot dashboard
 description: Learn about the bot dashboard in historical analytics to better understand customer service representative performance in your organization.
-ms.date: 11/07/2025
-ms.topic: conceptual
+ms.date: 12/12/2025
+ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -14,17 +14,17 @@ ms.reviewer: mgandham
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-In the application, you can integrate both Azure and Copilot agents to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to customer service representatives (service representatives or representatives), as required. The bot dashboard shows key performance indicators (KPIs) and charts for chat and IVR AI agents. You can use the dashboard to understand how AI agents are performing in a support organization. Learn how to [access the dashboard](omnichannel-analytics-insights.md#access-the-dashboards).
+In the application, you can integrate both Azure and Copilot agents to perform tasks like starting a conversation with the customer, providing automated responses, and transferring the conversation to customer service representatives (service representatives or representatives), as required. The bot dashboard shows key performance indicators (KPIs) and charts for chat and IVR AI agents. You can use the dashboard to understand how AI agents are performing in your support organization. Learn how to [access the dashboard](omnichannel-analytics-insights.md#access-the-dashboards).
 
 Based on your administrator's configuration of the **Add historical analytics for bots** option in the Copilot Service admin center, the dashboard is as follows:
 
-- **Enabled**: Indicates that your organization only has Copilot agents configured and the dashboard is specific to them. Additional metrics, charts, and KPIs that are applicable only to Copilot agents are displayed.
+- **Enabled**: Indicates that your organization only has Copilot agents configured and the dashboard is specific to them. More metrics, charts, and KPIs that are applicable only to Copilot agents are displayed.
 - **Disabled**: Indicates that your organization has both Azure and Copilot agents configured. The dashboard shows you metrics, KPIs, and charts that are common to both.
 
 ## Prerequisites
 
 - You must have the **Analytics Report Author** role to use the visual customizations in the bot dashboard. Visual customization is limited to the data available in the embedded Power BI report. Specific licensing requirements apply when you use the feature with product environments. Learn more in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
-- To add additional data, enable data model customization.
+- To add more data, enable data model customization.
 - Make sure that **Allow conversation transcripts and their associated metadata to be saved in Dataverse** is selected in Power Platform admin center. This setting is required to save transcripts in Dataverse that the bot dashboard uses.
 
 ## [Copilot Studio bot dashboard](#tab/copilotstudiodashboard)
@@ -44,17 +44,17 @@ Based on your administrator's configuration of the **Add historical analytics fo
 
  | KPI | Description |
  | ------- | ------------------ |
- | Total bot conversations |The total number of customer-initiated interactions with a bot, including those fully managed by the bot as well as those escalated to a service representative.|
+ | Total bot conversations |The total number of customer-initiated interactions with a bot, including conversations fully managed by the bot and those escalated to a service representative.|
  | Bot escalation rate | The percentage of AI agent conversations escalated by the AI agent to a service representative or an external phone number. |
  | Bot deflection rate| The percentage of AI agent conversations deflected by the AI agent.|
 
-Copilt Studio based session metrics:
+Copilot Studio based session metrics:
 
 
  | KPI | Description |
  | ------- | ------------------ |
- | Total bot sessions |  The total number of Copilot Studio sessions initiated during the selected time period. A session starts when the AI agent is triggered for a specific topic, and a single conversation might include multiple sessions if the user engages on different topics. A session ends when any of these conditions occur: <ul><li>The user explicitly ends the chat.</li><li>There is no activity for 30 minutes (inactivity timeout). </li><li>The session exceeds 60 minutes in duration — the next message starts a new session.</li><li>The conversation reaches more than 100 turns (a turn = one exchange between user and bot). The 101st turn starts a new session.<br> For example, if a customer uses the same agent for both a return and an exchange, each handled as a separate topic and routed to the End of Conversation, then this counts as two sessions within one conversation. Learn more in [Manage sessions and capacity](/microsoft-copilot-studio/requirements-sessions-management).|
- | Bot engagement rate |  The percentage of Copilot Studio sessions that are in an engaged state over all Copilot Sessions. A session is considered engaged if any of the following conditions are met:<ul><li>A non-system topic is triggered</li><li>The session is escalated</li><li>The fallback topic is triggered</li><li>A conversational boosting topic is triggered</li></ul> Learn more in [analyze agent performance and usage](/microsoft-copilot-studio/analytics-summary).|
+ | Total bot sessions |  The total number of Copilot Studio sessions initiated during the selected time period. A session starts when the AI agent is triggered for a specific topic.  If the user switches to different topics during the same conversation, multiple sessions can occur within that single interaction. A session ends when any of these conditions occur: <ul><li>The user explicitly ends the chat.</li><li>There's no activity for 30 minutes (inactivity timeout). </li><li>The session exceeds 60 minutes in duration—the next message starts a new session.</li><li>The conversation reaches more than 100 turns (a turn = one exchange between user and bot). The 101st turn starts a new session.<br> For example, if a customer uses the same agent for both a return and an exchange, each resolution is handled as a separate topic and routed to the End of Conversation. This counts as two sessions within one conversation. Learn more in [Manage sessions and capacity](/microsoft-copilot-studio/requirements-sessions-management).|
+ | Bot engagement rate |  The percentage of Copilot Studio sessions that are in an engaged state over all Copilot Sessions. A session is considered engaged if any of the following conditions are met:<ul><li>A nonsystem topic is triggered</li><li>The session is escalated</li><li>The fallback topic is triggered</li><li>A conversational boosting topic is triggered</li></ul> Learn more in [analyze agent performance and usage](/microsoft-copilot-studio/analytics-summary).|
  | Bot resolution rate | The percentage of resolved Copilot Studio sessions over all Copilot Sessions. A session is considered resolved when the End of Conversation topic is triggered and the user either confirms resolution, the session is timed out, or the Confirmed Success topic is triggered during the session. |
  | Bot abandon rate  | The percentage of engaged Copilot Studio sessions that are abandoned over all Copilot Sessions. A session is considered abandoned if it times out without reaching a resolved or escalated state. |
  | Bot CSAT | The graphical view of the average Customer Satisfaction (CSAT) score from users who responded to a survey after a bot session. If this metric is blank, it indicates that AI agents aren't set up to request feedback through surveys after conversation ends. |
@@ -129,7 +129,7 @@ However, on the Omnichannel Historical Bot dashboard, you see the following summ
 
  | Title | Description |
  | --------------- | --------------- |
- | Total conversations | The total number of customer-initiated interactions with a Copilot Studio bot includes conversations fully managed by the bot and those escalated to a service representative. The number of conversations deflected and escalated adds up to the total number of bot conversations.  |
+ | Total conversations | The total number of customer-initiated interactions with a Copilot Studio bot includes conversations fully managed by the bot and ones escalated to a service representative. The number of conversations deflected and escalated adds up to the total number of bot conversations.  |
  | Conversations escalated | The total number of Copilot Studio bot conversations escalated to a service representative by the Copilot Studio bot. Escalation can occur when a user requests a live agent, when there are too many attempts without an entity match or user input, or because of a business rule set by the Copilot Studio bot author. |
  | Bot escalation rate | The percentage of Copilot Studio bot conversations that are escalated to a service representative or an external phone number. |
  | Avg. escalation time (min) | The average number of minutes a customer interacts with a Copilot Studio bot before the conversation is escalated to a service representative or external number. | 
@@ -150,10 +150,10 @@ However, on the Omnichannel Historical Bot dashboard, you see the following summ
  | Bot sessions engaged | The number of engaged bot sessions the AI agent is engaged in within the specified time period. |
  | Engaged session rate| The percentage of bot sessions where the AI agent engages with the customer out of the total number of sessions within the specified time period. |
  | Bot sessions escalated | The number of bot sessions that are escalated to a service representative or an external number.|
- | Escalated session rate | The percentage of total bot sessions that were escalated by the AI agent to a service representative or an external phone number within the specified time period.| 
- | Bot sessions resolved| The number of engaged bot sessions that are resolved by the AI agent. |
- | Resolved session rate | The percentage of total bot sessions that were resolved by the AI agent within the specified time period.| 
- | Bot sessions abandoned|The number of engaged bot sessions that are abandoned. An abandoned session is an engaged session that is not resolved or escalated after one hour from the beginning of the session.|
+ | Escalated session rate | The percentage of total bot sessions escalated by the AI agent to a service representative or an external phone number within the specified time period.| 
+ | Bot sessions resolved| The number of engaged bot sessions that the AI agent resolves. |
+ | Resolved session rate | The percentage of total bot sessions resolved by the AI agent within the specified time period.| 
+ | Bot sessions abandoned|The number of engaged bot sessions that are abandoned. An abandoned session is an engaged session that isn't resolved or escalated after one hour from the beginning of the session.|
  | Abandoned session rate | The percentage of total bot sessions that were abandoned within the specified time period.| 
  | Bot sessions per conversation | The average number of AI agent sessions per conversation. | 
 
@@ -170,10 +170,10 @@ However, on the Omnichannel Historical Bot dashboard, you see the following summ
  | Title | Description |
  | --------------- | --------------- |
  | Total bot conversations | The number of conversations initiated by the customer and engaged by the bot. |
- | Total bot sessions | The total number of Copilot Studio bot sessions within the selected time period. Since each conversation can include one or more sessions, the session count may differ from the conversation count. If a conversation escalates to a representative, the Copilot Studio session ends at that point. |
+ | Total bot sessions | The total number of Copilot Studio bot sessions within the selected time period. Since each conversation can include one or more sessions, the session count might differ from the conversation count. If a conversation escalates to a representative, the Copilot Studio session ends at that point. |
  | Bot engagement rate | The percentage of total bot sessions that are engaged by the AI agent. An engaged session is a session in which a user-created topic (as opposed to a system topic) is triggered, or the session ends in escalation. Engaged bot sessions can have one of three outcomes—they're either resolved, escalated, or abandoned. |
  | Bot resolution rate | The percentage of engaged bot sessions that are resolved. A resolved session is an engaged session in which the user receives an end-of-conversation survey that asks the question "Did that answer your question?" and the user either doesn't respond or responds **Yes**.|
- | Bot escalation rate | The percentage of engaged bot sessions that are escalated by the AI agent. An escalated session is an engaged session that is escalated to a service representative or an external phone number. | 
+ | Bot escalation rate | The percentage of engaged bot sessions escalated by the AI agent. An escalated session is an engaged session that is escalated to a service representative or an external phone number. | 
  | Bot abandon rate | The percentage of engaged bot sessions that are abandoned. An abandoned session is an engaged session that isn't resolved or escalated after one hour from the beginning of the session.|
  | Bot CSAT | The average of customer satisfaction (CSAT) scores for bot sessions in which customers respond to an end-of-session request to take the survey. | 
 
@@ -205,9 +205,42 @@ However, on the Omnichannel Historical Bot dashboard, you see the following summ
    > [!div class="mx-imgBorder"]
    > ![Screenshot of bot transcripts.](../media/oc-transcripts.png "Bot transcript") 
 
- ### Customize bot dashboard
+  ### Use custom reporting variables
 
-For Copilot agents, you can edit the report to add the additional metrics and filters to the AI agent. To customize the bot dashboard, see [customize visual display](/dynamics365/contact-center/use/customize-agent-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml). 
+This feature works with classic Copilot Studio bots that require custom variables for tagging conversations. Add reporting variables configured in Microsoft Copilot Studio Canvas to enable organized tracking and analysis across key organizational dimensions such as line of business, division, product line, and other custom-defined attributes. Learn more in [Work with variables](/microsoft-copilot-studio/authoring-variables?tabs=webApp). The variables are linked to certain topics and flows, and their use depends on instructions already prepared in the Microsoft Copilot Studio Canvas.
+
+You need to [enable advanced historical analytics for voice and chat Copilot agents](../administer/oc-historical-analytics-reports.md#enable-advanced-historical-analytics-for-voice-and-chat-copilot-agents). You can add up to 15 variables across all voice and chat agents used in your organization. 
+
+Once configured, the Omnichannel Historical Bot dashboard can be customized with these user-defined dimensions and metrics, enabling granular analysis of key indicators such as deflection, escalation rate, and containment. This flexibility aligns reporting with organizational goals and eliminates manual parsing of conversation data.
+
+Additionally, you can analyze exit patterns from question nodes and identify root causes of escalations originating from those nodes, providing advanced troubleshooting and diagnostic insights. 
+
+Here's an example. Variables like msdyn_rvSelfServiceStart and msdyn_rvFinalIntent can be configured in Microsoft Copilot Studio Canvas. Based on the conversation flow, the final value of these variables is processed and displayed in the Omnichannel Historical dashboard for visual and data model customization. This helps create custom reports on intent determination and self-service process status.
+
+:::image type="content" source="variables.png" alt-text="Screenshot of global variables setup.":::
+
+#### Best practices for using custom variables
+
+- Use the same custom variable name defined in Microsoft Copilot Studio when configuring the Omnichannel Historical Bot dashboard.
+- Limit variable values to one or two words. Avoid long descriptive text, as it can impact dashboard performance.
+-  For scenarios like business units, use a single variable name. For example, Contoso_Business_Units. The variable can hold multiple values. When a conversation flow passes through a topic related to one of these units, then the variable is assigned or updated. If applied multiple times, only the final value is captured and displayed in the Omnichannel Historical dashboard through visuals or data model customization.
+
+### Analyze conversation fallout patterns
+
+To analyze conversation fallout patterns, it’s essential to identify the exact point in the dialogue where the fallout occurred. For example, whether after intent identification or before resolution. More details such as topic, node, speech recognition confidence score, and input mode should also be logged in the conversation transcript stored in Dataverse.
+
+Administrators in Microsoft Copilot Studio must enable the option to log node-level details into the conversationTranscript JSON file. This file is stored in Dataverse and supports visual customization and data measures on the Omnichannel Historical Bot dashboard. 
+
+:::image type="content" source="../media/node-level-detail-for-custom-variables.png" alt-text="Screenshot of node-level detail configuration.":::
+
+#### Best practices for using question nodes
+
+- Create custom visualization to show question nodes and their corresponding outcomes, success, or failure.
+- To accurately report success and failure rates for question nodes, rename the default question node in Microsoft Copilot Studio Canvas. Use clear and meaningful names to ensure that dashboards display actionable insights and make it easier to track where breakdowns occur in the conversation flow. This practice supports performance improvements and a better user experience. Examples of effective names include Confirm Order Status, Repeat Account Number, or Repeat Main Menu Options. If the node isn’t renamed, default ambiguous names like Question_eQt5ye appear, making reports harder to interpret.
+
+### Customize bot dashboard
+
+For Copilot agents, you can edit the report to add the more metrics and filters to the AI agent. To customize the bot dashboard, see [customize visual display](/dynamics365/contact-center/use/customize-agent-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml). 
 
 
 ## [Dashboard for all bots ](#tab/allbots)
@@ -226,7 +259,7 @@ For Copilot agents, you can edit the report to add the additional metrics and fi
  | Bot conversations | The number of conversations initiated by the customer and engaged by an AI agent. |
  | Bot resolution rate | The percentage of conversations that were closed by interacting with an AI agent out of all conversations engaged by the same agent. |
  | Bot resolution time (min) | The time in minutes for which a customer interacted with an AI agent before the conversation was closed. |
- | Bot escalation rate | The percentage of conversations that were escalated by an AI agent to a service representative or an external phone number. |
+ | Bot escalation rate | The percentage of conversations escalated by an AI agent to a service representative or an external phone number. |
  | Bot escalation time (min) | The time in minutes for which a customer interacted with an AI agent before the conversation was escalated to a service representative or an external phone number. |
 
  > [!div class="mx-imgBorder"]
@@ -245,7 +278,7 @@ For Copilot agents, you can edit the report to add the additional metrics and fi
  | Bot conversations | The number of conversations initiated by the customer and engaged by an AI agent. |
  | Bot resolution rate | The percentage of conversations that were closed by interacting with an AI agent out of all conversations engaged by the same agent. |
  | Bot resolution time | The time in minutes for which a customer interacted with an AI agent before the conversation was closed. |
- | Bot escalation rate | The percentage of conversations that were escalated by an AI agent to a service representative or an external phone number. |
+ | Bot escalation rate | The percentage of conversations escalated by an AI agent to a service representative or an external phone number. |
  | Bot escalation time (min) | The time in minutes for which a customer interacted with an AI agent before the conversation was escalated to a service representative or an external phone number. | 
 
  ### Bot hourly detail drill-down view

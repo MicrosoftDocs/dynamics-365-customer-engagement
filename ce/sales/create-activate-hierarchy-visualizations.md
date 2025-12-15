@@ -15,20 +15,27 @@ ms.custom: bap-template
 As an administrator, you can design and publish a hierarchy that allows your organization to visualize and work with hierarchical data. You can design multiple hierarchies to show different relationships, or provide alternative views of the data such as showing only active records or filtering by specific countries/regions.  
 Depending on your business requirements, you can design the following types of hierarchies:  
 
-- [Single table (self-referential)](hierarchy-visualization.md#single-table)  
-- [Multi-table](hierarchy-visualization.md#multi-table)  
-- [Hybrid hierarchies](hierarchy-visualization.md#hybrid), which combine both single and multi-table relationships.  
+- [Single table (self-referential)](hierarchy-visualization.md#single-table)
+- [Multi-table](hierarchy-visualization.md#multi-table)
+- [Hybrid hierarchies](hierarchy-visualization.md#hybrid), which combine both single and multi-table relationships.
 
 ## Prerequisites
 
 Before you design and publish a hierarchy, ensure the following prerequisites are met:
 
 - You must have System administrator privileges.  
-- Make sure tables have the required relationships you wish to display parent-child relationships.  
-    - For a single-table hierarchy, a relationship pointing to the parent row must exist.  
+- You must have the required relationships for the tables you want to include in the hierarchy:  
+    - For a single table hierarchy, a relationship pointing to the parent row must exist.  
     - For multi-table hierarchies, relationships between the tables must exist.  
-
     To create relationships, see [create and edit entity relationships](/power-apps/maker/data-platform/create-edit-entity-relationships).  
+- You must disable the legacy hierarchy control feature in Power Platform if it's enabled. The [legacy hierarchy control is deprecated](/power-platform/important-changes-coming#deprecation-of-hierarchy-control-in-model-driven-apps) and isn't related to the new Visual hierarchy feature. Keeping it enabled confuses users by showing the **View hierarchy** button twice on the command bar for entities with configured hierarchies.  
+    **Follow these steps**:  
+    1. Sign in to the [Power Apps maker portal](https://make.powerapps.com).  
+    1. Select **Apps** from the left pane, and then select your sales app.  
+    1. In the app designer, select **Settings** from the command bar.  
+    1. In the **Settings** dialog box, select the **Features** tab and then disable the **(Retired) Enable the "View hierarchy" capability** option.  
+        :::image type="content" source="media/disable-legacy-hierarchy-control.png" alt-text="Screenshot of the Features tab in the Settings dialog box in the app designer.":::  
+    1. Save and publish the app.
 
 ## Design and publish
 
@@ -36,14 +43,15 @@ Before you design and publish a hierarchy, ensure the following prerequisites ar
 1. Under **General Settings**, select **Visual hierarchy**.  
 1. Select **New hierarchy** and then enter a name for the hierarchy.  
 1. [Configure the root node of the hierarchy](#configure-the-root-node-of-the-hierarchy).  
+    >[!NOTE]
+    > If you're creating a single table hierarchy, adding child nodes isn't required. After configuring the root node, proceed to step 6 to complete the process.  
 1. [Configure the child node](#configure-the-child-node).  
-1. Select **Preview** to do the following tasks before publishing the hierarchy:  
+1. Select **Save**.  
+1. Select Preview to do the following tasks before publishing the hierarchy:  
     - Interact with the hierarchy as a user would, such as expanding and collapsing nodes, viewing details, and performing quick actions.  
     - Change settings and preview changes until you’re satisfied with the results.  
     - Change data you view by selecting the record name at the top of the preview window.  
-    - [Troubleshoot the hierarchy design](#troubleshoot-a-hierarchy) before publishing it in the organization.  
-1. (Optional) [Grant access to the hierarchy](#grant-access-to-hierarchies).  
-    After you grant access to users, you don't need to repeat this step unless you want to change access permissions.  
+    - [Troubleshoot the hierarchy](manage-hierarchy-visualizations.md#troubleshoot-a-hierarchy) before publishing it in the organization.  
 1. Select **Publish** and then select **OK** on the confirmation message.  
     The hierarchy is active and available to users to view and interact with.  
 

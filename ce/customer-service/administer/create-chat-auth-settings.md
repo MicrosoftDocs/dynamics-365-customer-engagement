@@ -52,22 +52,6 @@ You can create a chat authentication setting record in the admin app.
 
 1. Select **Save**.
 
-## Create an authentication setting record for chat using OAuth 2.0
-
-1. Perform steps 1 through 3 in **Create an authentication setting record for chat**, and enter the following details on the **Add authentication setting** page:
-
-   - **Name**: A name for the authentication setting.
-   - **Channel Type**: **Live chat**.
-   - **Authentication Type**: OAuth 2.0
-1. Select **Next** and on the **Details** page, enter the following information:
-   - **Token Custom Action**: The custom code reference to validate the tokens that are provided by your identity provider and return the user ID of the authenticated user.
-   - **Token URL**: The URL used to exchange your authorization code for the token passed to your custom action to acquire the user ID.
-   - **Redirect URL**: The URL passed to the original authorization code request, which is a required parameter in calls to the token exchange endpoint. 
-   - **Client ID**: The ID of the client passed to the token exchange endpoint.
-   - **Client secret**: The secret that authenticates the client passed to the token exchange endpoint.
-   - **Scope**: The scopes for which the user is authorized by the token acquired in the flow.
-1. Save the changes.
-
 ### Add authentication to chat widget
 
 1. In Copilot Service admin center, edit the chat widget in the workstream settings, and then go to the **Behaviors** tab.

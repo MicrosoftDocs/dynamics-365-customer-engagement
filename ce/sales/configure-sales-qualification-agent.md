@@ -19,7 +19,7 @@ ai-usage: ai-assisted
 
 # Set up and configure the Sales Qualification Agent
 
-As an admin, you need to set up the Sales Qualification Agent before your sellers can use it for lead research, ideal customer profile (ICP) fit assessment, and initial email outreach. This article discusses how to configure the details about your company and products you sell, your ideal customer profile, and other settings to help the agent align with your company's sales strategy and goals.
+As an admin, you need to set up the Sales Qualification Agent before your sellers can use it for lead research, target customer profile assessment, and initial email outreach. This article discusses how to configure the details about your company and products you sell, your target customer profile, and other settings to help the agent align with your company's sales strategy and goals.
 
 Watch the video to get started with the agent setup:
 

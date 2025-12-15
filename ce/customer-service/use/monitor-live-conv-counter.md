@@ -4,7 +4,7 @@ description: Monitor customer wait time in live chats with the conversation coun
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection: 
 ms.date: 05/30/2025
 ms.custom: bap-template
