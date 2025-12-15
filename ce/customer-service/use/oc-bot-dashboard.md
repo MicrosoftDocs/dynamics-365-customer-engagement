@@ -44,7 +44,7 @@ Based on your administrator's configuration of the **Add historical analytics fo
 
  | KPI | Description |
  | ------- | ------------------ |
- | Total bot conversations |The total number of customer-initiated interactions with a bot, including conversations fully managed by the bot and those that are escalated to a service representative.|
+ | Total bot conversations |The total number of customer-initiated interactions with a bot, including conversations fully managed by the bot and those escalated to a service representative.|
  | Bot escalation rate | The percentage of AI agent conversations escalated by the AI agent to a service representative or an external phone number. |
  | Bot deflection rate| The percentage of AI agent conversations deflected by the AI agent.|
 
@@ -129,7 +129,7 @@ However, on the Omnichannel Historical Bot dashboard, you see the following summ
 
  | Title | Description |
  | --------------- | --------------- |
- | Total conversations | The total number of customer-initiated interactions with a Copilot Studio bot includes conversations fully managed by the bot and those escalated to a service representative. The number of conversations deflected and escalated adds up to the total number of bot conversations.  |
+ | Total conversations | The total number of customer-initiated interactions with a Copilot Studio bot includes conversations fully managed by the bot and ones escalated to a service representative. The number of conversations deflected and escalated adds up to the total number of bot conversations.  |
  | Conversations escalated | The total number of Copilot Studio bot conversations escalated to a service representative by the Copilot Studio bot. Escalation can occur when a user requests a live agent, when there are too many attempts without an entity match or user input, or because of a business rule set by the Copilot Studio bot author. |
  | Bot escalation rate | The percentage of Copilot Studio bot conversations that are escalated to a service representative or an external phone number. |
  | Avg. escalation time (min) | The average number of minutes a customer interacts with a Copilot Studio bot before the conversation is escalated to a service representative or external number. | 
@@ -151,7 +151,7 @@ However, on the Omnichannel Historical Bot dashboard, you see the following summ
  | Engaged session rate| The percentage of bot sessions where the AI agent engages with the customer out of the total number of sessions within the specified time period. |
  | Bot sessions escalated | The number of bot sessions that are escalated to a service representative or an external number.|
  | Escalated session rate | The percentage of total bot sessions escalated by the AI agent to a service representative or an external phone number within the specified time period.| 
- | Bot sessions resolved| The number of engaged bot sessions that are resolved by the AI agent. |
+ | Bot sessions resolved| The number of engaged bot sessions that the AI agent resolves. |
  | Resolved session rate | The percentage of total bot sessions resolved by the AI agent within the specified time period.| 
  | Bot sessions abandoned|The number of engaged bot sessions that are abandoned. An abandoned session is an engaged session that isn't resolved or escalated after one hour from the beginning of the session.|
  | Abandoned session rate | The percentage of total bot sessions that were abandoned within the specified time period.| 
@@ -222,8 +222,8 @@ Here's an example. Variables like msdyn_rvSelfServiceStart and msdyn_rvFinalInte
 #### Best practices for using custom variables
 
 - Use the same custom variable name defined in Microsoft Copilot Studio when configuring the Omnichannel Historical Bot dashboard.
-- Limit variable values to one or two words. Avoid long descriptive text, as this can impact dashboard performance.
--  For scenarios like business units, use a single variable name. For example, Contoso_Business_Units. The variable can hold multiple values. When a conversation flow passes through a topic that's related to one of these units, the variable is assigned or updated. If applied multiple times, only the final value is captured and displayed in the Omnichannel Historical dashboard through visuals or data model customization.
+- Limit variable values to one or two words. Avoid long descriptive text, as it can impact dashboard performance.
+-  For scenarios like business units, use a single variable name. For example, Contoso_Business_Units. The variable can hold multiple values. When a conversation flow passes through a topic related to one of these units, then the variable is assigned or updated. If applied multiple times, only the final value is captured and displayed in the Omnichannel Historical dashboard through visuals or data model customization.
 
 ### Analyze conversation fallout patterns
 
