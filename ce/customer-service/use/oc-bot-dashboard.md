@@ -44,7 +44,7 @@ Based on your administrator's configuration of the **Add historical analytics fo
 
  | KPI | Description |
  | ------- | ------------------ |
- | Total bot conversations |The total number of customer-initiated interactions with a bot, including conversations fully managed by the bot and ones escalated to a service representative.|
+ | Total bot conversations |The total number of customer-initiated interactions with a bot, including conversations fully managed by the bot and those that are escalated to a service representative.|
  | Bot escalation rate | The percentage of AI agent conversations escalated by the AI agent to a service representative or an external phone number. |
  | Bot deflection rate| The percentage of AI agent conversations deflected by the AI agent.|
 
