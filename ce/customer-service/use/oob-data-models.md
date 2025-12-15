@@ -450,7 +450,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |FactBotSessionNodedetail | ErrorCount| Instances where a node produced an output error.|
 |FactBotSessionNodedetail | SuccessCount| Conversations that are successfully completed at a specific question node, including a speech recognition confidence score.|
 |FactBotSessionNodedetail |UserErrorCount |Cases where the node output was due to a configuration error by the bot author, requiring designer review. |
-|FactBotSessionNodedetail |SystemErrorCount | Errors specific to the Microsoft Copilot Studio system, which need further investigation based on error trace details.|
+|FactBotSessionNodedetail |SystemErrorCount | Errors specific to the Microsoft Copilot Studio system that require investigation using error trace details.|
 |FactBotSessionNodedetail |UserExitCount | Number of users who left the conversation at a particular question node.|
 |FactBotSessionNodedetail |OtherCount | Node outputs that don't fit into any specific category.|
 |FactBotSessionNodedetail |AgentHangupCount |  The agent terminates the conversation at the question node when the maximum threshold is reached, either due to exceeding the limit for no input or the limit for no entity found.|
