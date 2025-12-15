@@ -223,7 +223,7 @@ Here's an example. Variables like msdyn_rvSelfServiceStart and msdyn_rvFinalInte
 
 - Use the same custom variable name defined in Microsoft Copilot Studio when configuring the Omnichannel Historical Bot dashboard.
 - Limit variable values to one or two words. Avoid long descriptive text, as this can impact dashboard performance.
--  For scenarios like business units, use a single variable name, for example, Contoso_Business_Units. The variable can hold multiple values. When a conversation flow passes through a topic related to one of these units, the variable is assigned or updated. If applied multiple times, only the final value is captured and displayed in the Omnichannel Historical dashboard through visuals or data model customization.
+-  For scenarios like business units, use a single variable name. For example, Contoso_Business_Units. The variable can hold multiple values. When a conversation flow passes through a topic that's related to one of these units, the variable is assigned or updated. If applied multiple times, only the final value is captured and displayed in the Omnichannel Historical dashboard through visuals or data model customization.
 
 ### Analyze conversation fallout patterns
 
@@ -236,7 +236,7 @@ Administrators in Microsoft Copilot Studio must enable the option to log node-le
 #### Best practices for using question nodes
 
 - Create custom visualization to show question nodes and their corresponding outcomes, success, or failure.
-- To accurately report success and failure rates for question nodes, rename the default question node in Microsoft Copilot Studio Canvas. Use clear and meaningful names to ensure that dashboards display actionable insights and make it easier to track where breakdowns occur in the conversation flow. This practice supports performance improvements and better user experience. Examples of effective names include Confirm Order Status, Repeat Account Number, or Repeat Main Menu Options. If the node isn’t renamed, default ambiguous names like Question_eQt5ye appear, making reports harder to interpret.
+- To accurately report success and failure rates for question nodes, rename the default question node in Microsoft Copilot Studio Canvas. Use clear and meaningful names to ensure that dashboards display actionable insights and make it easier to track where breakdowns occur in the conversation flow. This practice supports performance improvements and a better user experience. Examples of effective names include Confirm Order Status, Repeat Account Number, or Repeat Main Menu Options. If the node isn’t renamed, default ambiguous names like Question_eQt5ye appear, making reports harder to interpret.
 
 ### Customize bot dashboard
 
