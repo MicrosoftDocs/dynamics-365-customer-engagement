@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Understand conversation diagnostics
 
-When the system routes a work item, its corresponding data starts appearing in Application Insights within 15 minutes. The conversation diagnostics data is presented in the form of scenarios and subscenarios as discussed in the following sections. 
+When the system routes a work item, its corresponding data starts appearing in Application Insights within 15 minutes. The conversation diagnostics data is presented in the form of scenarios and subscenarios as discussed in the following sections.
 
 ## Conversation diagnostics scenarios
 
@@ -86,7 +86,7 @@ The conversation diagnostics scenario captures data related to unified routing, 
 
 ## Assignment snapshots
 
-Assignment snapshot adds transparency to the automated assignment process in unified routing. By surfacing detailed insights into the logic and criteria behind assignment decisions, assignment snapshot empowers supervisors and administrators to understand why work items aren’t being assigned or why they are assigned to specific agents. This transparency reduces the need for support tickets and escalations to product teams, as customers can remediate and take corrective actions based on the information provided. Also, the feature consolidates all assignment activity&mdash;automated, manual, consults, and transfers&mdash;into a single view, offering a complete trace of how each work item was handled.
+Assignment snapshot adds transparency to the automatic assignment process in unified routing. By surfacing detailed insights into the logic and criteria behind assignment decisions, assignment snapshot empowers supervisors and administrators to understand why work items aren’t being assigned or why they are assigned to specific representatives. This transparency reduces the need for support tickets and escalations to Microsoft, as customers can remediate and take corrective actions based on the information provided.
 
 Assignment snapshots is enabled by default for all customers who use Application Insights in their Dynamics 365 instance.
 
