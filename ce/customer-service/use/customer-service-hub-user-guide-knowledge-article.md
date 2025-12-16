@@ -87,7 +87,7 @@ Posts about knowledge article-related activities begin to appear in the **Timeli
 ## Use AI-suggested article keywords and descriptions
 
 > [!NOTE]
-> The AI-suggested article keywords and descriptions feature is deprecated. Learn more in [AI-suggested article keywords and descriptions is deprecated](../implement/deprecations-customer-service.md).
+> The AI-suggested article keywords and descriptions feature is deprecated. Learn more in [AI-suggested article keywords and descriptions is deprecated](../implement/deprecations-customer-service.md). We recommend that you use [Fill forms using Copilot](/power-apps/user/form-filling-assistance) to automatically generate knowledge article keywords and descriptions.
 
 If your administrator enabled keywords and description suggestions, you can select and enter your preferred keywords and descriptions when authoring or updating knowledge articles. Learn more in [Configure AI suggestions for article keywords and description](../administer/configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description).
 
