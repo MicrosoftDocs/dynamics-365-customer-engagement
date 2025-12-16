@@ -1,7 +1,7 @@
 ---
 title: Manage historical analytics reports in Omnichannel for Customer Service
 description: Configure Omnichannel historical analytics to analyze service performance, track KPIs, and gain AI insights into customer interactions in Dynamics 365 Customer Service and Contact Center.
-ms.date: 12/10/2025
+ms.date: 12/16/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -27,6 +27,7 @@ The historical analytics reports include:
 - [Agent](../use/agent-dashboard.md)
 - [Bot](../use/oc-bot-dashboard.md)
 - [Proactive Outbound](/dynamics365/contact-center/use/proactive-outbound-dashboard)
+- [Bot-Intent](/dynamics365/contact-center/use/bot-intent-historical)
 
 > [!NOTE]
 > The reports retain their current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the steps provided [here](analytics_overview.md#keep-the-report-state-when-you-switch-session-tabs) to keep the report state.
@@ -52,7 +53,7 @@ This configuration enables AI-discovered topics from conversations with default 
 
 ### Enable historical analytics for Copilot agents
 
-On the **Omnichannel historical analytics** page, select **Add historical analytics for bot**, and save the changes.
+In Copilot Service admin center, you can enable the historical analytics for AI agents (agents) to give your service managers integrated reports that combine Copilot agents and Omnichannel conversation metrics.
 
 - If Copilot agents are configured with Dynamics 365 Contact Center and you select this option, the Summary and Bot dashboards appear as options in the dashboard filter for the Omnichannel historical analytics report. The Bot dashboard displays metrics specific to the Copilot agent.
 
@@ -62,20 +63,9 @@ On the **Omnichannel historical analytics** page, select **Add historical analyt
 
  :::image type="content" source="../media/bot-dashboard-oc.png" alt-text="Dashboard showing KPIs and charts for all bots.":::
 
-
-### Enable advanced historical analytics for voice and chat Copilot agents
+**Enable historical analytics for agents in Omnichannel for Customer Service**
 
 On the **Omnichannel historical analytics** page, select **Add historical analytics for bot**, and save the changes.
-
-To include additional custom variables for reporting in Microsoft Copilot Studio:
-
-1. Select **Add advanced historical analytics for bot**.
-1. In the **Custom Variables** section, add your reporting variables configured in Microsoft Copilot Studio to enable structured tracking and analysis for Line of Business, Division, Product Line, and other custom-defined attributes.
-1. Save the changes.
-
-You can add a maximum of 15 custom variables.
-
-:::image type="content" source="../media/custom-variables-historical-bot.png" alt-text="Screenshot of custom variables used for advanced bot analytics." lightbox="../media/custom-variables-historical-bot.png":::
 
 ### Enable historical analytics for voice
 
@@ -85,11 +75,15 @@ On the **Omnichannel historical analytics** page, select **Add historical analyt
 
 On the **Omnichannel historical analytics** page, select **Add historical analytics for voicemail**, and save the changes.
 
-### Enable omnichannel historical analytics for proactive outbound engagements
+### Enable Omnichannel historical analytics for proactive outbound engagements
 
 You can get insights about your contact center performance for proactive outbound engagements. The Proactive Outbound dashboard is available in Dynamics 365 Contact Center only.
 
 On the **Omnichannel historical analytics** page, select **Add historical analytics for proactive outbound**, and save the changes.
+
+### Enable historical analytics for intent
+
+On the **Omnichannel historical analytics** page, select **Add historical analytics for intent**, and save the changes.
 
 ### Related information
 
