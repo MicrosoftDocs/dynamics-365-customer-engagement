@@ -1,7 +1,7 @@
 ---
-title: Edit the Opportunity Research Agent settings
-description: 
+title: Edit settings of Sales Close Agent - Research
 ms.date: 07/09/2025
+description: Learn how to edit the settings of Sales Close Agent - Research to customize knowledge sources, update frequency, and opportunity segments for your business needs.
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -13,13 +13,13 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Edit the Opportunity Research Agent settings
+# Edit settings of Sales Close Agent - Research
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 After starting the agent, you can edit its settings to suit your business needs. You can change the knowledge sources that the agent uses to generate insights, the frequency of research updates, and the segment of opportunities that the agent works on. 
 
-This article describes the impact of the edits to the Opportunity Research Agent settings.
+This article describes the impact of the edits to the Sales Close Agent settings.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
