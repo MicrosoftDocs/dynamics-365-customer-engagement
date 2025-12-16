@@ -18,7 +18,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 # Configure AI suggestions for article keywords and description
 
 > [!NOTE]
-> As of December 15, 2025, the AI-suggested article keywords and descriptions feature is deprecated. Support ends Jan 31, 2026. We recommend that you use [Copilot's form fill assistance feature](/power-apps/user/form-filling-assistance) to automatically generate knowledge article keywords and descriptions.
+> As of December 15, 2025, the AI-suggested article keywords and descriptions feature is deprecated. Support ends on Jan 31, 2026. We recommend that you use [Fill forms using Copilot](/power-apps/user/form-filling-assistance) to automatically generate knowledge article keywords and descriptions.
 
 Correct metadata helps locate articles that users search for. When authors create or update knowledge articles, AI suggestions for article keywords and descriptions help them select the right metadata, which improves their productivity.
 
