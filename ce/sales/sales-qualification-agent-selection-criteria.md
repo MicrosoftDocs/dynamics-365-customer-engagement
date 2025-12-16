@@ -1,7 +1,7 @@
 ---
 title: Configure selection criteria for Sales Qualification Agent
-description: Learn how to configure the selection criteria for the Sales Qualification Agent in Dynamics 365 Sales.
-ms.topic: how-to 
+description: Discover how to set up selection criteria for the Sales Qualification Agent to segment leads that it needs to process.
+ms.topic: how-to
 ms.date: 09/10/2025
 ms.service: dynamics-365-sales
 ms.custom: bap-template
