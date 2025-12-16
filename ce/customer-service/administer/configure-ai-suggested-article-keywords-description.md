@@ -18,7 +18,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 # Configure AI suggestions for article keywords and description
 
 > [!NOTE]
-> The AI-suggested article keywords and descriptions feature is deprecated. Learn more in [AI-suggested article keywords and descriptions is deprecated](../implement/deprecations-customer-service.md). We recommend that you use [Fill forms using Copilot](/power-apps/user/form-filling-assistance) to automatically generate knowledge article keywords and descriptions.
+> The AI-suggested article keywords and descriptions feature is deprecated. Learn more in [AI-suggested article keywords and descriptions is deprecated](../implement/deprecations-customer-service.md). 
 
 Correct metadata helps locate articles that users search for. When authors create or update knowledge articles, AI suggestions for article keywords and descriptions help them select the right metadata, which improves their productivity.
 
