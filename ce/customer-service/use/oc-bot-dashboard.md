@@ -207,7 +207,7 @@ However, on the Omnichannel Historical Bot dashboard, you see the following summ
 
   ### Use custom reporting variables
 
-This feature works with classic Copilot Studio bots that require custom variables to tag conversations. Add reporting variables configured in Microsoft Copilot Studio Canvas to enable organized tracking and analysis across key organizational dimensions such as line of business, division, product line, and other custom-defined attributes. Learn more in [Work with variables](/microsoft-copilot-studio/authoring-variables?tabs=webApp). The variables are linked to certain topics and flows, and their use depends on instructions already prepared in the Microsoft Copilot Studio Canvas.
+This feature works with classic Copilot Studio bots that require custom variables for tagging conversations. Add reporting variables configured in Microsoft Copilot Studio Canvas to enable organized tracking and analysis across key organizational dimensions such as line of business, division, product line, and other custom-defined attributes. Learn more in [Work with variables](/microsoft-copilot-studio/authoring-variables?tabs=webApp). The variables are linked to certain topics and flows, and their use depends on instructions already prepared in the Microsoft Copilot Studio Canvas.
 
 You need to [enable advanced historical analytics for voice and chat Copilot agents](../administer/oc-historical-analytics-reports.md#enable-advanced-historical-analytics-for-voice-and-chat-copilot-agents). You can add up to 15 variables across all voice and chat agents used in your organization. 
 
@@ -219,7 +219,7 @@ Here's an example. Variables like msdyn_rvSelfServiceStart and msdyn_rvFinalInte
 
 :::image type="content" source="variables.png" alt-text="Screenshot of global variables setup.":::
 
-#### Best practices for custom variables
+#### Best practices for using custom variables
 
 - Use the same custom variable name defined in Microsoft Copilot Studio when configuring the Omnichannel Historical Bot dashboard.
 - Limit variable values to one or two words. Avoid long descriptive text, as it can impact dashboard performance.
@@ -233,9 +233,9 @@ Administrators in Microsoft Copilot Studio must enable the option to log node-le
 
 :::image type="content" source="../media/node-level-detail-for-custom-variables.png" alt-text="Screenshot of node-level detail configuration.":::
 
-#### Best practices for question nodes
+#### Best practices for using question nodes
 
-- Use visual customization to show question nodes and their corresponding outcomes, success, or failure.
+- Create custom visualization to show question nodes and their corresponding outcomes, success, or failure.
 - To accurately report success and failure rates for question nodes, rename the default question node in Microsoft Copilot Studio Canvas. Use clear and meaningful names to ensure that dashboards display actionable insights and make it easier to track where breakdowns occur in the conversation flow. This practice supports performance improvements and a better user experience. Examples of effective names include Confirm Order Status, Repeat Account Number, or Repeat Main Menu Options. If the node isn’t renamed, default ambiguous names like Question_eQt5ye appear, making reports harder to interpret.
 
 ### Customize bot dashboard
