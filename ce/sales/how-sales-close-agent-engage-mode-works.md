@@ -34,9 +34,10 @@ When the Sales Close Agent - Engage is started, it processes records based on th
     >[!NOTE]
     >When an error occurs, the engagement process is retried up to three times within the next hour, using an exponential backoff strategy. If these attempts fail, the system retries the engagement over the next three days. If the engagement still fails, it's marked as a failure.  
     >To resolve the engagement status of a specific record, go to the sales agent record view using the following URL: `<crm_org_url>/main.aspx?pagetype=entitylist&etn=msdyn_salesagentrun`. In the **All Sales Agent Runs** view, filter the **Regarding** column by your record of interest. The **Status** field will display one of three values:
-    >- **Active**: Engagement is pending.
-    >- **Failure**: Engagement has failed for this record.
-    >- **Completed**: Engagement was completed successfully.
+    >- **Active**: Engagement is pending.  
+    >- **Failure**: Engagement has failed for this record.  
+    >- **Completed**: Engagement was completed successfully.  
+    >
     >You can also see email response rates and other engagement metrics in [the insights dashboard](view-sales-close-agent-engage-insights-metrics.md).
 
 1. **Personalized outreach**: The agent uses templated messaging and customer data to craft personalized outreach communications configured in [the Email content settings](configure-sales-close-agent-email-content.md).  
