@@ -1,7 +1,7 @@
 ---
 title: How the Sales Close Agent - Engage works
 description: Learn how the Sales Close Agent - Engage operates to autonomously manage customer interactions and drive sales for high-velocity, low-complexity deals.
-ms.date: 11/07/2025
+ms.date: 12/17/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -29,10 +29,27 @@ In this section, you learn how the Sales Close Agent - Engage operates to autono
 
 When the Sales Close Agent - Engage is started, it processes records based on the configuration settings defined during setup. The agent works through the following steps to engage with customers and drive sales:
 
-1. **Record selection**: The agent selects records that [match the criteria](configure-sales-close-agent-target-customers.md) for high-velocity, low-complexity deals.  
+1. **Record selection**: The agent selects records that [match the criteria](configure-sales-close-agent-target-customers.md) for high-velocity, low-complexity deals. The agent is designed to process up to 20 emails within a 10-minute timeframe. This limitation helps prevent the agent from consuming excessive AI credits in a short period.  
+
+    >[!NOTE]
+    >When an error occurs, the engagement process is retried up to three times within the next hour, using an exponential backoff strategy. If these attempts fail, the system retries the engagement over the next three days. If the engagement still fails, it's marked as a failure.  
+    >To resolve the engagement status of a specific record, go to the sales agent record view using the following URL: `<crm_org_url>/main.aspx?pagetype=entitylist&etn=msdyn_salesagentrun`. In the **All Sales Agent Runs** view, filter the **Regarding** column by your record of interest. The **Status** field will display one of three values:
+    >- **Active**: Engagement is pending.
+    >- **Failure**: Engagement has failed for this record.
+    >- **Completed**: Engagement was completed successfully.
+    >You can also see email response rates and other engagement metrics in [the insights dashboard](view-sales-close-agent-engage-insights-metrics.md).
+
 1. **Personalized outreach**: The agent uses templated messaging and customer data to craft personalized outreach communications configured in [the Email content settings](configure-sales-close-agent-email-content.md).  
-1. **Initial customer engagement**: The agent sends outreach emails to customers and monitors their responses. Based on customer interactions, the agent recommends [products](configure-sales-close-agent-product-details.md), [addresses objections](configure-sales-close-agent-knowledge-sources.md), and guides customers through the sales process by following up. If customers aren't interested, the agent automatically closes the records as lost.  
-1. **Follow-up automation**: The agent automates follow-up communications based on predefined triggers, such as customer responses or changes in deal status. This approach ensures timely, relevant engagement throughout the sales process. When a customer doesn't respond to the initial outreach, the agent sends follow-up emails to re-engage them. If the customer isn't interested or doesn't respond to the follow-up email, the agent closes the record as lost. If the customer responds with questions or objections, the agent addresses them using the configured knowledge sources.  
+1. **Initial customer engagement**: The agent sends outreach emails to customers and monitors their responses. Based on customer interactions, the agent recommends [products](configure-sales-close-agent-product-details.md), [addresses objections](configure-sales-close-agent-knowledge-sources.md), and guides customers through the sales process by following up.  
+
+    >[!NOTE]
+    >- When the agent is activated for the first time, it might take up to 20 minutes to start sending outreach emails.  
+    >- When the agent is activated or reactivated, the outreach flow identifies records with the same email. If an outreach email is sent to one record, others with that email are skipped, unless the email was sent in a previous activation cycle, in which case outreach is sent again.  
+
+    By default, up to 10,000 emails are sent daily according to the [Exchange Online sending limits](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-1). If your agent is set to send more than this amount, the extra emails are placed in a queue and sent the following day. Outreach emails are only sent to leads or contacts who have given their consent. Therefore, not all outreach emails are delivered on the same day. You can track the number of emails successfully sent through [the insights dashboard](view-sales-close-agent-engage-insights-metrics.md).  
+    If customers aren't interested, the agent automatically closes the records as lost.  
+
+1. **Follow-up automation**: The agent automates follow-up communications based on predefined triggers like customer responses or changes in deal status. This approach ensures timely and relevant engagement throughout the sales process.  If a recipient doesn't respond to the initial email, the agent sends up to four follow-up emails over the next three weeks. The follow-up schedule isn't configurable; however, organizations can request customization by contacting the product team. If the customer isn't interested or doesn't respond to the follow-up emails, the agent closes the record as lost. If the customer responds with questions or objections, the agent addresses them using the configured knowledge sources.  
 1. **Transaction closure**: The agent helps customers complete their purchases by guiding them to self-service checkout options and closes the records as complete.  
 
 >[!NOTE]
