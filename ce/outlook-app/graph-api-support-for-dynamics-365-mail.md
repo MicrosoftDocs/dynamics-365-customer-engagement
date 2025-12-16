@@ -10,7 +10,7 @@ ms.topic: how-to
 
 # Set up Graph API support for Dynamics 365 Mail App
 
-This article shows you how to configure Graph API support for the Dynamics 365 Mail App by creating a custom settings solution. You'll create a new solution, add a settings entity, and configure the necessary fields to store your Graph API credentials. This setup enables the Mail App to authenticate and communicate with Microsoft Graph services.
+This article shows you how to configure Graph API support for the Dynamics 365 Mail App by creating a custom settings solution. You create a new solution, add a settings entity, and configure the necessary fields to store your Graph API credentials. This setup enables the Mail App to authenticate and communicate with Microsoft Graph services.
 
 ## Prerequisites
 
@@ -27,9 +27,9 @@ Create a new solution in your Dynamics 365 environment to house the Mail App con
 
 1. Navigate to your Dynamics 365 environment.
 1. Create a new solution with the following details:
-   - **Display name**: D365 Mail App settings
+   - **Display name**: Dynamics 365 Mail App settings
    - **Name**: D365MailAppsettings
-   - Add new publisher that will allow customer to create entities with prefix **mailapp**.
+   - Add new publisher that allows customer to create entities with prefix **mailapp**.
    - **Version**: 1.0.0.0
 
 ## Add the settings entity
