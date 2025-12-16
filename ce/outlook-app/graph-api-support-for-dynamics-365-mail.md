@@ -21,13 +21,15 @@ Before you begin, ensure you have:
 - Your Azure tenant ID
 - Appropriate security permissions to create solutions and entities
 
-## Create the D365 Mail App settings solution
+## Create the Dynamics 365 Mail App settings solution
 
 Create a new solution in your Dynamics 365 environment to house the Mail App configuration settings.
 
 1. Navigate to your Dynamics 365 environment.
 1. Create a new solution with the following details:
+   - **Display name**: D365 Mail App settings
    - **Name**: D365MailAppsettings
+   - Add new publisher that will allow customer to create entities with prefix **mailapp**.
    - **Version**: 1.0.0.0
 
 ## Add the settings entity
@@ -35,20 +37,18 @@ Create a new solution in your Dynamics 365 environment to house the Mail App con
 Add a custom entity to store the Mail App configuration values.
 
 1. In the D365MailAppsettings solution, add a new entity.
-1. Set the entity name to **mailapp_setting**.
+1. Set the entity **Name** to **mailapp_setting**, **Display Name** to **MailApp Settings** and **Plural Name** to **Settings**.
 
 ## Configure entity fields
 
-Add the required fields to store setting names and values.
+Add new fields in the mailapp_setting entity:
 
-1. In the mailapp_setting entity, add the following new fields:
-   - **mailapp_name**: Stores the name of each configuration setting
-   - **mailapp_settingvalue**: Stores the corresponding value for each setting
+- **mailapp_name**: Stores the name of each configuration setting
+- **mailapp_settingvalue**: Stores the corresponding value for each setting
 
-## Add the Graph API App ID
+## Add the Graph API app ID to the Dynamics 365 Mail App settings
 
-Configure the App ID from your Azure AD App registration.
-
+1. To access the entity with the setting, go to `https://<org_domain>/main.aspx?pagetype=entitylist&etn=mailapp_setting`.
 1. Create a new record in the mailapp_setting entity with the following values:
    - **Name**: graph_appid
    - **Setting value**: Enter the App ID from your Azure AD App registration
