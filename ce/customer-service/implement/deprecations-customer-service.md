@@ -21,8 +21,7 @@ Administrators and IT professionals can use this information to prepare for futu
 
 ## AI-suggested article keywords and descriptions is deprecated
 
- As of December 15, 2025, the AI-suggested article keywords and descriptions feature is deprecated. Support ends on Jan 31, 2026. We recommend that you use [Fill forms using Copilot](/power-apps/user/form-filling-assistance) to automatically generate knowledge article keywords and descriptions.
-
+As of December 15, 2025, the AI-suggested article keywords and descriptions feature is deprecated. Support ends on Jan 31, 2026. We recommend that you use [Fill forms using Copilot](/power-apps/user/form-filling-assistance) to automatically generate knowledge article keywords and descriptions.
 
 ## D365 Service MCP Server is deprecated
 
