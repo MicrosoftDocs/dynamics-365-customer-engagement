@@ -1,7 +1,7 @@
 ---
 title: Omnichannel for Customer Service dashboards
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs in Omnichannel for Customer Service to manage contact centers.
-ms.date: 12/10/2025
+ms.date: 12/16/2025
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -47,7 +47,9 @@ The following reports are available for Omnichannel historical analytics.
 
 - [Voicemail dashboard](oc-voicemail-dashboard.md): The Voicemail dashboard provides a view of the voicemails with details, such as the voicemail status and the number of voicemails per queue and representative.
 
-- [Proactive Outbound dashboard](/dynamics365/contact-center/use/proactive-outbound-dashboard): The Proactive Outbound dashboard provides organizations with detailed insights into proactive outbound customer engagements initiated through proactive outreach. This dashboard is available in Dynamics 365 Contact Center only. Learn how to enable it in [omnichannel historical analytics for proactive outbound engagements](../administer/oc-historical-analytics-reports.md#enable-omnichannel-historical-analytics-for-proactive-outbound-engagements).
+- [Proactive Outbound dashboard](/dynamics365/contact-center/use/proactive-outbound-dashboard): The Proactive Outbound dashboard provides organizations with detailed insights into proactive outbound customer engagements initiated through proactive outreach. This dashboard is available in Dynamics 365 Contact Center only. Learn how to enable it in [Omnichannel historical analytics for proactive outbound engagements](../administer/oc-historical-analytics-reports.md#enable-omnichannel-historical-analytics-for-proactive-outbound-engagements).
+
+- [Bot-Intent dashboard](/dynamics365/contact-center/use/bot-intent-historical): The Bot-Intent dashboard provides detailed insights about bot performance and customer engagement, supporting targeted analytics for continuous improvement. This dashboard is available in Dynamics 365 Contact Center only. Learn how to enable it in [historical analytics for intent](../administer/oc-historical-analytics-reports.md#enable-historical-analytics-for-intent).
 
 > [!NOTE]
 > The reports don't include work items of the Entity Record channel.
