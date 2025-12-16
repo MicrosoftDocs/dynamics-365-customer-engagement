@@ -4,8 +4,6 @@ description: Learn about the responsible AI practices and limitations of the Sal
 ms.date: 09/18/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
-content_well_notification:
-  - AI-contribution
 ms.custom: bap-template
 author: lavanyakr01
 ms.author: lavanyakr

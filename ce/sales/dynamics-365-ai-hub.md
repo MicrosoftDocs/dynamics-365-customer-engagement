@@ -4,8 +4,6 @@ description: Learn how to add Dynamics 365 AI Hub sitemap entry to your custom a
 ms.date: 10/06/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
-content_well_notification:
-  - AI-contribution
 ms.custom: bap-template
 author: lavanyakr01
 ms.author: lavanyakr
