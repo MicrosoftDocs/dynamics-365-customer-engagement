@@ -189,10 +189,12 @@ items:
             items:
               - name: Overview
                 href: sales-close-agent.md
-              - name: Setup and configure Sales Close Agent - Research  
+              - name: Set up and configure Sales Close Agent - Research  
                 items:
-                  - name: Setup and configure Sales Close Agent - Research
+                  - name: Set up and configure Sales Close Agent - Research
                     href: configure-opportunity-research-agent.md
+                  - name: Edit settings of Sales Close Agent - Research
+                    href: edit-opportunity-research-agent-settings.md
                   - name: View agent insights and metrics
                     href: view-sales-close-agent-research-insights-metrics.md
               - name: Set up and configure Sales Close Agent - Engage
