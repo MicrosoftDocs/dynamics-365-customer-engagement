@@ -1,7 +1,7 @@
 ---
 title: Create and manage knowledge articles
 description: Create knowledge articles to address customer questions, issues, and feedback with images, videos, formatting, and media.
-ms.date: 04/24/2025
+ms.date: 12/16/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -85,6 +85,9 @@ Make sure that you have Create and Read permissions on the Knowledge Article ent
 Posts about knowledge article-related activities begin to appear in the **Timeline** section.  
 
 ## Use AI-suggested article keywords and descriptions
+
+> [!NOTE]
+> As of December 15, 2025, the AI-suggested article keywords and descriptions feature is deprecated. Support ends Jan 31, 2026. We recommend that you use [Copilot's form fill assistance feature](/power-apps/user/form-filling-assistance) to automatically generate knowledge article keywords and descriptions.
 
 If your administrator enabled keywords and description suggestions, you can select and enter your preferred keywords and descriptions when authoring or updating knowledge articles. Learn more in [Configure AI suggestions for article keywords and description](../administer/configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description).
 
