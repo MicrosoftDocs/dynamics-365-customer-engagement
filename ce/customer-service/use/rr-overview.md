@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: overview
-ms.date: 11/07/2025
+ms.date: 12/17/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -61,6 +61,10 @@ For example, a case that gets created automatically creates a conversation in th
 
 - **Backlog work items**: This report lists case and record work item conversations that are modified, including work items created within the time range selected.
 
+- **Intent group**: This report shows contact center data organized by intent, intent groups, and line of business that help you effectively monitor and track work items by record type. 
+
+- **User group**: This report helps you filter data by user group, that help you quickly spot trends, evaluate team performance, and accelerate case resolution.
+
 ## Filter information displayed on dashboard 
 
 Use the filters to drill down to KPIs across the dashboard. Adjust the filters based on the insights that you're looking for. The available filters include **Modified on**, **Agent**, **Agent status,** **Agent skill**, **Queue**, **Work item status,** **Work item skill**, and **Time zone**. 
@@ -87,8 +91,10 @@ Summary, queue, and agent reports are autorefreshed continuously to allow for re
 ## Related information
 
 [Manage real-time analytics for record routing](../administer/enable-record-routing.md#manage-real-time-analytics-for-record-routing)  
-[Summary report](rr-summary.md#view-and-understand-real-time-analytics-for-record-routing-in-the-summary-report)  
-[Queue report](rr-queue.md#view-and-understand-real-time-analytics-for-record-routing-in-the-queue-report)  
-[Agent report](rr-agent.md#view-and-understand-real-time-analytics-for-record-routing-in-the-agent-report)  
-[Backlog work items report](rr-backlogitems.md#view-and-understand-real-time-analytics-for-record-routing-in-the-backlog-work-items-report)  
-[Ongoing work items report](rr-ongoingworkitems.md#view-and-understand-real-time-analytics-for-record-routing-in-the-ongoing-work-items-report) 
+[Summary report](rr-summary.md)  
+[Queue report](rr-queue.md)  
+[Agent report](rr-agent.md)  
+[Backlog work items report](rr-backlogitems.md)  
+[Ongoing work items report](rr-ongoingworkitems.md)  
+[Intent group report (preview)](record-routing-intent-group.md#)  
+[User group report (preview)](record-routing-user-group.md)  

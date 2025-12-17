@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: concept-article
 ms.collection:
-ms.date: 11/17/2025
+ms.date: 12/17/2025
 ms.custom: bap-template
 ---
 
@@ -21,6 +21,8 @@ As a supervisor, organizing contact center data by intent, intent groups, and li
 You can filter this report by **Time**, **Line of business**, **Intent group**, **Agent group**, **Time zone**, and **Work item status**.
 
 As part of visual customization, all record routing dashboards including **Summary**, **Backlog work items**, **Ongoing work items**, **Queue**, and **Agent** reports can be filtered by intent group, intent, and line of business by using the **IntentFamilyName** in **DimIntent** dimension. Learn more in [visual customization](customize-reports.md). You can search for the data measures for intent to select specific intent-based filters.
+
+:::image type="content" source="../media/record-routing-intent-group.png" alt-text="Screenshot of real-time for record routing intent group report." lightbox="../media/record-routing-intent-group.png":::
 
 ## Prerequisites
 
@@ -45,6 +47,8 @@ You see the report after 24 hrs of provisioning. If you don't enable Customer In
 ## Report drilldown 
 
 Select **Detailed view** to view metrics by intent and representative.
+
+:::image type="content" source="../media/record-routing-intent-group-drilldown.png" alt-text="Screenshot of detailed view for a selected intent group.":::
 
 |Metrics | Definition  |
 |---------|---------|

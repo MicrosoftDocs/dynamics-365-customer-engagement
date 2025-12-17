@@ -22,6 +22,8 @@ You can filter this report by **Time**, **Line of business**, **Intent group**, 
 
 As part of visual customization, all record routing dashboards including **Summary**, **Backlog work items**, **Ongoing work items**, **Queue**, and **Agent** reports can be filtered by intent group, intent, and line of business by using the **IntentFamilyName** in **DimIntent** dimension. Learn more in [visual customization](customize-reports.md). You can search for the data measures for intent to select specific intent-based filters.
 
+:::image type="content" source="../media/record-routing-user-group.png" alt-text="Screenshot of real-time analytics for record routing user group report." lightbox="../media/record-routing-user-group.png":::
+
 ## Prerequisites
 
 - You turned on the toggle for Customer Intent Agent and added the Line of business, Intent groups, and Intents. Learn more in [Customer Intent Agent](/dynamics365/contact-center/administer/manage-customer-intent-agent).
@@ -42,11 +44,11 @@ You see the report after 24 hrs of provisioning. If you don't enable Customer In
 |Manually assigned work items| By default, the system displays the number of record-type work items modified in the last two hours and are currently manually assigned to the representative.|
 
 
-## Metrics by agent group
+## Metrics by user group
 
 |Metrics | Definition  |
 |---------|---------|
-|Agent group name  |    Name of the service representative group.     |
+|User group name  |    Name of the service representative group.     |
 |Unassigned work items | By default, the system displays the number of record-type work items modified in the last two hours and are currently unassigned within the user group.|
 |Assigned work items| By default, the system displays the number of record-type work items modified in the last two hours and are currently assigned  per user group. Assigned work items = Auto-assigned work items + Manually assigned work items. |
 |Longest wait time | Waiting time until the representative accepts the work item per user group.|
@@ -55,7 +57,9 @@ You see the report after 24 hrs of provisioning. If you don't enable Customer In
 
 ## Report drilldown 
 
-Select **Detailed view** to view **Metrics by agent group**.
+Select **Detailed view** to view **Metrics by user group**.
+
+:::image type="content" source="../media/record-routing-user-group-drilldown.png" alt-text="Screenshot of metrics by user group drilldown." lightbox="../media/record-routing-user-group-drilldown.png":::
 
 |Metrics | Definition  |
 |---------|---------|
@@ -68,7 +72,7 @@ Select **Detailed view** to view **Metrics by agent group**.
 |Active sessions| By default, the system displays the number of active sessions the representative is currently in and modified in the last two hours.|
 |Closed sessions|	By default, the system displays the number of sessions closed by the representative and updated in the last two hours.|
 
-## Metrics by agent
+## Metrics by user group
 
 |Metrics | Definition  |
 |---------|---------|
