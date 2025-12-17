@@ -27,6 +27,4 @@ Your Dynamics 365 Sales subscription comes with free apps that are either pre-in
 |Sales Professional app     |Sales Professional         | [Link](provision-sales-professional-instance.md)        |
 |Sales Team member app     |  Team member       |[Link](sales-team-member.md)         |
 
-> [!NOTE]
-> **The Sales Hub app installed from the Dynamics 365 Sales Embedded Package has the latest features and updates. The Sales App or Enterprise Edition Apps include legacy versions of the Sales Hub app. Even if they appear in your list of installed apps in Power Platform, the Sales Hub app installed with the Embedded Package takes precedence. In some environments, the legacy apps are hidden to avoid confusion.
-
+** The Sales Hub app installed from the Dynamics 365 Sales Embedded Package has the latest features and updates. The Sales App or Enterprise Edition Apps include legacy versions of the Sales Hub app. Even if they appear in your list of installed apps in Power Platform, the Sales Hub app installed with the Embedded Package takes precedence. In some environments, the legacy apps are hidden to avoid confusion.
