@@ -1,7 +1,7 @@
 ---
 title: Start the Sales Close Agent - Engage
 description: Learn how to start the Sales Close Agent - Engage in Dynamics 365 Sales.
-ms.date: 12/08/2025
+ms.date: 12/17/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -34,7 +34,9 @@ Select **Start agent** to start the agent. The agent might take a few seconds to
 When you start the agent, [the email engagement feature](email-engagement.md) is enabled by default. It gathers information about email interactions with customers, such as email opens and link clicks, and displays them when you open the email summary from the activities page.
 
 >[!NOTE]
->If agent fails to start due to unknown issues, contact Microsoft support for assistance.  
+>
+>- When the agent is activated for the first time, it might take up to 20 minutes to start sending outreach emails.  
+>- If agent fails to start due to unknown issues, contact Microsoft support for assistance.  
 
 ## Related information
 

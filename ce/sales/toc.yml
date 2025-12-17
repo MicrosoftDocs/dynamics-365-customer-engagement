@@ -226,7 +226,7 @@ items:
                   href: view-sales-close-agent-engage-insights-metrics.md
                 - name: View records processed by agent
                   href: view-sales-close-agent-engage-processed-records.md  
-                - name: How the Sales Close Agent - Engage works
+                - name: How the agent works
                   href: how-sales-close-agent-engage-mode-works.md
           - name: Sales Research Agent (preview)
             items:
