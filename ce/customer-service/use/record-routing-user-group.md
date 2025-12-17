@@ -44,7 +44,7 @@ You see the report after 24 hrs of provisioning. If you don't enable Customer In
 |Manually assigned work items| By default, the system displays the number of record-type work items modified in the last two hours and are currently manually assigned to the representative.|
 
 
-## Metrics by user group
+## Metrics by agent group
 
 |Metrics | Definition  |
 |---------|---------|
