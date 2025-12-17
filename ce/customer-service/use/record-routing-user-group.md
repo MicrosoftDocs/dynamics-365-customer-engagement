@@ -79,8 +79,8 @@ Select **Detailed view** to view **Metrics by user group**.
 | Agent name | Name of representative set to the specific intent. |
 | Assigned work items | By default, the system displays the number of record type work items modified in the last two hours and   currently assigned to the specific representative. Assigned work items = Auto assigned work items + Manually assigned work items. |
 | Transferred work items | Number of record type work items that are transferred to a representative and currently assigned to this representative.|
-| Active sessions | By default, the system displays the number of active sessions the representative is in and modified in the last two hours. |
-| Closed sessions | By default, the system displays the number of sessions closed by the representative and updated in the last two hours. |
+|Agents online | Number of representatives logged in per user group.|
+|Agents available| Number of representatives who are in **Available** status per user group.|
 
 
 ## Related information
