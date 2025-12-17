@@ -48,7 +48,7 @@ You see the report after 24 hrs of provisioning. If you don't enable Customer In
 
 |Metrics | Definition  |
 |---------|---------|
-|User group name  |    Name of the service representative group.     |
+|Agent group name  |    Name of the service representative group.     |
 |Unassigned work items | By default, the system displays the number of record-type work items modified in the last two hours and are currently unassigned within the user group.|
 |Assigned work items| By default, the system displays the number of record-type work items modified in the last two hours and are currently assigned  per user group. Assigned work items = Auto-assigned work items + Manually assigned work items. |
 |Longest wait time | Waiting time until the representative accepts the work item per user group.|
