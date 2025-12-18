@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 10/28/2025
+ms.date: 12/18/2025
 ms.custom:
   - bap-template
   - dyn365-customerservice
@@ -180,7 +180,7 @@ Automatic page refresh is available only for real-time reports.
 
 You can enable automatic page refresh for your reports at fixed intervals so that you always see the latest data. For more information, see [Authoring reports with automatic page refresh in Power BI Desktop](/power-bi/create-reports/desktop-automatic-page-refresh#authoring-reports-with-automatic-page-refresh-in-power-bi-desktop).
 
-As an administrator with Premium capacity, you must first enable [automatic page refresh](/power-bi/enterprise/service-admin-premium-workloads#automatic-page-refresh) from the [Microsoft Fabric Admin portal](https://msit.powerbi.com/). You need to use the [fixed interval](/power-bi/create-reports/desktop-automatic-page-refresh#fixed-interval) refresh type with either 5 or 10 seconds as the interval.
+As an administrator, you must first enable [automatic page refresh](/power-bi/enterprise/service-admin-premium-workloads#automatic-page-refresh) from the [Microsoft Fabric Admin portal](https://msit.powerbi.com/). You need to use the [fixed interval](/power-bi/create-reports/desktop-automatic-page-refresh#fixed-interval) refresh type with either 5 or 10 seconds as the interval.
 
 To enable automatic page refresh for specific reports:
 
