@@ -69,7 +69,7 @@ Select **Detailed view** to view **Metrics by user group**.
 |Auto assigned work items|	By default, the system displays the number of record-type work items modified in the last two hours per representative and are currently auto assigned to the representative.|
 |Agent availability status|	Total number of representatives in the system based on their availability status.|
 |Manually assigned work items|	By default, the system displays the number of record-type work items modified in the last two hours and are manually assigned to the representative.|
-|Active sessions| By default, the system displays the number of active sessions the representative is currently in and modified in the last two hours.|
+|Active sessions| By default, the system displays the number of active sessions that the representative is currently in and modified in the last two hours.|
 |Closed sessions|	By default, the system displays the number of sessions closed by the representative and updated in the last two hours.|
 
 ## Metrics by user group
