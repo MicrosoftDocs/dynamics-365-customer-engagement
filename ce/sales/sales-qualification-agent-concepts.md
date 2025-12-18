@@ -4,8 +4,6 @@ description: Learn about the concepts of the Sales Qualification Agent in Dynami
 ms.topic: concept-article 
 ms.date: 07/31/2025
 ms.service: dynamics-365-sales
-content_well_notification:
-  - AI-contribution
 ms.custom: bap-template
 author: udaykirang
 ms.author: udag

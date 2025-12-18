@@ -4,8 +4,6 @@ description: Learn how to start the sales qualification settings in Dynamics 365
 ms.topic: how-to 
 ms.date: 09/30/2025
 ms.service: dynamics-365-sales
-content_well_notification:
-  - AI-contribution
 ms.custom: bap-template
 author: udaykirang
 ms.author: udag

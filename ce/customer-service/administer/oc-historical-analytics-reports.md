@@ -1,7 +1,7 @@
 ---
 title: Manage historical analytics reports in Omnichannel for Customer Service
 description: Configure Omnichannel historical analytics to analyze service performance, track KPIs, and gain AI insights into customer interactions in Dynamics 365 Customer Service and Contact Center.
-ms.date: 12/10/2025
+ms.date: 12/16/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -27,6 +27,7 @@ The historical analytics reports include:
 - [Agent](../use/agent-dashboard.md)
 - [Bot](../use/oc-bot-dashboard.md)
 - [Proactive Outbound](/dynamics365/contact-center/use/proactive-outbound-dashboard)
+- [Bot-Intent](/dynamics365/contact-center/use/bot-intent-historical)
 
 > [!NOTE]
 > The reports retain their current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the steps provided [here](analytics_overview.md#keep-the-report-state-when-you-switch-session-tabs) to keep the report state.
@@ -74,11 +75,15 @@ On the **Omnichannel historical analytics** page, select **Add historical analyt
 
 On the **Omnichannel historical analytics** page, select **Add historical analytics for voicemail**, and save the changes.
 
-### Enable omnichannel historical analytics for proactive outbound engagements
+### Enable Omnichannel historical analytics for proactive outbound engagements
 
 You can get insights about your contact center performance for proactive outbound engagements. The Proactive Outbound dashboard is available in Dynamics 365 Contact Center only.
 
 On the **Omnichannel historical analytics** page, select **Add historical analytics for proactive outbound**, and save the changes.
+
+### Enable historical analytics for intent
+
+On the **Omnichannel historical analytics** page, select **Add historical analytics for intent**, and save the changes.
 
 ### Related information
 
