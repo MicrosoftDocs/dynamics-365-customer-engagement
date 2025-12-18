@@ -20,7 +20,9 @@ By default,the Sales Close Agent - Research determines the risk and importance o
 ## Configure the risk criteria
 
 1. In the Sales Close Agent - Research configuration page, locate the **Risk criteria** section under **Advanced**.
-1. Pull down the list of available criteria and review the existing risk criteria.
+
+1. Pull down the list of available criteria and review the existing risk criteria.  
+   :::image type="content" source="media/sales-close-agent-risk-criteria.png" alt-text="Screenshot showing the risk criteria section in the Sales Close Agent - Research configuration page.":::
 1. Modify the criteria as needed. The following table lists the available risk criteria for the Sales Close Agent - Research:
 
     | Risk criteria | Description |
@@ -41,7 +43,9 @@ By default,the Sales Close Agent - Research determines the risk and importance o
 ## Configure the importance criteria
 
 1. In the Sales Close Agent - Research configuration page, locate the **Importance criteria** section under **Advanced**.
+
 1. Pull down the list of available criteria and review the existing importance criteria.
+    :::image type="content" source="media/sales-close-agent-importance-criteria.png" alt-text="Screenshot showing the importance criteria section in the Sales Close Agent - Research configuration page.":::
 1. Modify the criteria as needed. The following table lists the available importance criteria for the Sales Close Agent - Research:
 
     | Importance criteria | Description |
