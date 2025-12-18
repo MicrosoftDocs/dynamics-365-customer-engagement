@@ -5,8 +5,6 @@ ms.date: 06/03/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
-content_well_notification:
-  - AI-contribution
 ms.custom: bap-template
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot

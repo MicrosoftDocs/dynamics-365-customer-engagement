@@ -5,8 +5,6 @@ ms.date: 08/01/2025
 ms.update-cycle: 180-days
 ms.topic: faq
 ms.service: dynamics-365-sales
-content_well_notification:
-  - AI-contribution
 ms.custom: bap-template
 author: lavanyakr01
 ms.author: lavanyakr
