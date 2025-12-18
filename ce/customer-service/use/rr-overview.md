@@ -61,7 +61,7 @@ For example, a case that gets created automatically creates a conversation in th
 
 - **Backlog work items**: This report lists case and record work item conversations that are modified, including work items created within the time range selected.
 
-- **Intent group**: This report shows contact center data organized by intent, intent groups, and line of business that help you effectively monitor and track work items by record type. 
+- **Intent group**: This report shows contact center data organized by intent, intent groups, and line of business to help you effectively monitor and track work items by record type. 
 
 - **User group**: This report helps you filter data by user group, that help you quickly spot trends, evaluate team performance, and accelerate case resolution.
 
