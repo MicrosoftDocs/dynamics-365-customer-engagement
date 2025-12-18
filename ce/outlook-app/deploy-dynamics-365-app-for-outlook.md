@@ -4,6 +4,7 @@ ms.custom:
 description: How to deploy and install Dynamics 365 App for Outlook
 ms.date: 04/17/2024
 ms.reviewer: smurkute
+ms.topic: how-to
 ms.suite: 
 ms.tgt_pltfrm: 
 applies_to: Dynamics 365 apps
