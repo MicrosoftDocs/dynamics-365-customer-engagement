@@ -6,13 +6,13 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: concept-article
 ms.collection:
-ms.date: 12/12/2025
+ms.date: 12/18/2025
 ms.custom: bap-template
 ---
 
 # Use time-out rules
 
-The time-out rules feature lets you view and control time-out rules that apply to conversations. 
+The time-out rules feature in the Customer Service workspace helps you manage and monitor time-sensitive actions during conversations. By using this feature, you can ensure timely responses, improve productivity, and maintain control over automated processes. This article explains how to access and use the time‑out rules panel, interpret rule statuses, and manage rules effectively. When you disable a rule with the toggle, it halts the countdown execution even if conditions are met, while re‑enabling the rule resumes the countdown using the previous timer state.
 
 ## Prerequisite
 
@@ -42,7 +42,9 @@ The following states indicate the status of the rule based on the conditions and
 
 - **Almost**: >75% time elapsed. 
 
-- **Cannot Off**: Too close to triggering. You can't disable this rule. To ensure reliability, rules enter **Cannot Off** if the timeout is within <2 minutes. 
+- **Cannot Off**: Too close to triggering. 
+    > [!NOTE]
+    > You can't disable this rule. To ensure reliability, rules enter **Cannot Off** if the timeout is less than two minutes. 
 
 - **Inactive**: Condition false; countdown stopped and reset. 
 
@@ -56,7 +58,7 @@ Hovering over the hourglass icon displays the exact remaining time, improving ac
 
 - Turn the rule off to stop the countdown and prevent rule execution, even if conditions are true. 
 
-- Turn the rule to resume countdown when conditions become true.  Resuming a rule uses the existing timer for the rule.
+- Turn the rule on to resume countdown when conditions become true. Resuming a rule uses the existing timer for the rule.
 
 ## Related information
 
