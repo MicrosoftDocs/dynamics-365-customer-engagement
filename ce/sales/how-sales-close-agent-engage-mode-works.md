@@ -40,7 +40,10 @@ When the Sales Close Agent - Engage is started, it processes records based on th
         - **Completed**: Engagement was completed successfully.  
     You can also see email response rates and other engagement metrics in [the insights dashboard](view-sales-close-agent-engage-insights-metrics.md).
     If customers aren't interested, the agent automatically closes the records as lost.  
-1. **Follow-up automation**: The agent automates follow-up communications based on predefined triggers like customer responses or changes in deal status. This approach ensures timely and relevant engagement throughout the sales process. If a recipient doesn't respond to the initial email, the agent sends up to four follow-up emails over the next three weeks. The follow-up schedule isn't configurable; however, organizations can request customization by contacting the Microsoft support. If the customer isn't interested or doesn't respond to the follow-up emails, the agent closes the record as lost. If the customer responds with questions or objections, the agent addresses them using the configured knowledge sources.  
+1. **Follow-up automation**: The agent automates follow-up communications based on predefined triggers like customer responses or changes in deal status. This approach ensures timely and relevant engagement throughout the sales process.  
+    - If the customer doesn't respond to the initial email, the agent sends up to four follow-up emails over the next three weeks. The follow-up schedule isn't configurable; however, organizations can request customization by contacting the Microsoft support.
+    - If the customer isn't interested or doesn't respond to the follow-up emails, the agent closes the record as lost.  
+    - If the customer responds with questions or objections, the agent addresses them using the configured knowledge sources.  
 1. **Transaction closure**: The agent helps customers complete their purchases by guiding them to self-service checkout options and closes the records as complete.  
 
 >[!NOTE]
