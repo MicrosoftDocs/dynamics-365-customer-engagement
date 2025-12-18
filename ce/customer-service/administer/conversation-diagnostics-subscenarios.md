@@ -1,6 +1,6 @@
 ---
-title: Metadata for subscenarios in conversation diagnostics
-description: Learn about subscenarios metadata for conversation diagnostics in Application Insights.
+title: Understand conversation diagnostics data
+description: Learn about the metadata for conversation diagnostics in Application Insights.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -10,9 +10,13 @@ ms.date: 12/15/2025
 ms.custom: bap-template
 ---
 
-# Understand conversation diagnostics
+# Understand conversation diagnostics data
 
 When the system routes a work item, its corresponding data starts appearing in Azure Application Insights within 15 minutes. The conversation diagnostics data is presented in the form of scenarios and subscenarios as discussed in the following sections.
+
+## Prerequisite
+
+[Conversation diagnostics](configure-conversation-diagnostics.md) is configured.
 
 ## Conversation diagnostics scenarios
 
