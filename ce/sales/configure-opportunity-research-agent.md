@@ -65,7 +65,9 @@ If you're using a custom security role, ensure that the opportunity owners have 
 
 ### (Optional)Configure server-side synchronization
 
-If you don't want to enable Microsoft 365 Services for the agent to read emails directly from the sellers' Microsoft 365 mailboxes, you can configure server-side synchronization for the mailboxes of sellers who own the opportunities that the agent will research on. Server-side synchronization always gets precedence. If both server-side synchronization and Microsoft 365 Services are enabled, the agent reads emails using server-side synchronization only.
+If you want the agent to only access emails and meetings synced to Dynamics 365 Sales, configure server-side synchronization for seller mailboxes. Alternatively, you can enable Microsoft 365 Services for the agent to read emails directly from the sellers' Microsoft 365 mailboxes. Learn more in [Verify prerequisites](#step-3-verify-prerequisites).
+
+Server-side synchronization always gets precedence. If both server-side synchronization and Microsoft 365 Services are enabled, the agent reads emails using server-side synchronization only.
 
 **To configure server-side synchronization:**
 
@@ -104,10 +106,11 @@ If you don't want to enable Microsoft 365 Services for the agent to read emails 
 1. Under the **Prerequisites** section, ensure that all the prerequisites specific to the Sales Close Agent - Research are met. If any of them isn't marked as **Done**, select the appropriate call-to-action to complete the prerequisite:
    - **Bing search**: Select **Accept terms** to open the Power Platform admin center and accept the terms for Bing search.
 
-   - **Microsoft 365 Services**: (Optional) To allow the agent to read emails directly from the sellers' Microsoft 365 mailboxes, select **Mark as done** and then select **Apply changes**. If you want to use server-side synchronization for reading emails, leave it disabled. In this case, the agent doesn't use Microsoft 365 services even if you enable the services; it continues to reads emails synced using server-side synchronization.
+   - **Microsoft 365 Services**: (Optional) To allow the agent to read emails directly from the sellers' Microsoft 365 mailboxes, select **Mark as done** and then select **Apply changes**. If you want to use server-side synchronization for reading emails, leave it disabled. 
     > [!NOTE]
     >- You must have the Global admin, Dynamics 365 admin, or Tenant admin role to enable Microsoft 365 Services for the agent. If you don't have the required role, the checkbox is disabled.
-    >- You must have *ONE* of the following license: Microsoft 365/Office 365, Power Automate Premium license, or Dynamics 365 Sales Enterprise Edition to enable Microsoft 365 Services for the agent.
+    >- You must have at least *ONE* of the following licenses: Microsoft 365/Office 365, Power Automate Premium license, or Dynamics 365 Sales Enterprise Edition to enable Microsoft 365 Services for the agent.
+    >- Be sure to select **Apply changes** after enabling Microsoft 365 Services for the agent.
     >- Sellers will also be prompted to provide consent when they access the Opportunity research page.
 
 1. Select **Continue** to proceed to the agent configuration page.

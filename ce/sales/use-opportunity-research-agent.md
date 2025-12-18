@@ -42,9 +42,13 @@ You need the following prerequisites:
    After a few seconds, you'll see a **Summary** section at the top of the page, displaying a quick summary of the research outcome and actionable recommendation, if any.  
    :::image type="content" source="media/opportunity-research-summary.png" alt-text="Screenshot of the Opportunity research summary section.":::
 1. Select **See full research**.  
-
-   The Opportunity research page opens with the complete research insights and recommendations. If your admin has enabled Microsoft 365 Services for the agent, and you haven't provided consent yet, you'll be prompted to provide consent to allow the agent to read your emails for research. After you provide consent, the agent reads the top 100 emails from your inbox to gather insights related to the opportunity. 
+ 
+   The Opportunity research page opens with the complete research insights and recommendations. 
    :::image type="content" source="media/opportunity-research-insights-with-no-risk.png" alt-text="Screenshot of the Opportunity research page with research insights when there are no risks.":::
+
+    If your admin has enabled Microsoft 365 Services for the agent, and you haven't provided consent yet, you'll be prompted to provide consent to allow the agent to read your emails for research. After you provide consent, the agent reads the top 100 emails from your inbox to gather insights related to the opportunity. You can't revoke the consent once provided.
+
+   :::image type="content" source="media/opportunity-research-agent-m365-consent.png" alt-text="Screenshot of the Microsoft 365 Services consent prompt on the Opportunity research page for sellers.":::
 
 > [!NOTE]
 > The research insights are refreshed based on the refresh frequency configured by your admin and when specific fields in the opportunity record are updated. Learn more in [How often does the Opportunity Research Agent refresh research data?](opportunity-research-agent-faqs.md#how-often-does-the-opportunity-research-agent-refresh-research-data).
