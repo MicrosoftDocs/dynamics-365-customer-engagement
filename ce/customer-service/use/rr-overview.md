@@ -63,7 +63,7 @@ For example, a case that gets created automatically creates a conversation in th
 
 - **Intent group**: This report shows contact center data organized by intent, intent groups, and line of business to help you effectively monitor and track work items by record type. 
 
-- **User group**: This report helps you filter data by user group, that help you quickly spot trends, evaluate team performance, and accelerate case resolution.
+- **User group**: This report helps you filter data by user group to help you quickly spot trends, evaluate team performance, and accelerate case resolution.
 
 ## Filter information displayed on dashboard 
 
