@@ -54,13 +54,13 @@ The Opportunity research page includes the following sections:
 
 - **Deal importance indicator:**  
    ![Deal importance indicator](media/ORA-header.png)  
-   The agent evaluates how critical the opportunity is by analyzing factors like potential deal value and strategic significance. It looks at CRM data (for example, estimated revenue) and public info about the account (is it a Fortune 500 or key industry player?) to label the deal High, Medium, or Low importance.  
- 
+   The agent evaluates how critical the opportunity is by analyzing factors like account win history, fortune 500 status, deal size, and so on.  It looks at CRM data (for example, estimated revenue) and public info about the account (is it a Fortune 500 or key industry player?) to label the deal High, Medium, or Low importance. Your administrator can configure the importance criteria and add custom criteria specific to your business. Learn more in [Configure the importance criteria](opportunity-research-agent-advanced-settings.md#configure-the-importance-criteria)
+
   *How this helps you:* Instantly know why the deal matters. You can quickly see which deals are high-value or strategically important and prioritize those. This lets you focus your time on the most impactful opportunities, ensuring critical deals get the attention they need.  
 
 - **Deal risks and mitigations:**  
    ![Deal risks and mitigations](media/ORA-risk-mitigation.png)  
-   The agent scans for warning signs in the deal's data and communications. It monitors signals like slowing momentum (for example, no reply from a key contact in two weeks), slipping close dates, lack of an executive sponsor, and so on. When it detects a risk, it generates a brief alert describing the issue and suggesting mitigation steps.  
+   The agent scans for warning signs in the deal's data and communications. It monitors signals like slowing momentum (for example, no reply from a key contact in two weeks), slipping close dates, lack of an executive sponsor, and so on. When it detects a risk, it generates a brief alert describing the issue and suggesting mitigation steps. Your administrator can configure the risk criteria to suit your business needs. Learn more in [Configure the risk criteria](opportunity-research-agent-advanced-settings.md#configure-the-risk-criteria)
 
    *How this helps you:* You get early warnings about what could derail the deal and advice on how to counter each risk. For example, if no decision-maker is engaged, it might recommend "loop in an executive sponsor now." Acting on these tips helps you course-correct in real time.  
 
