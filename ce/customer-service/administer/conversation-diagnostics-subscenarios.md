@@ -88,13 +88,11 @@ The conversation diagnostics scenario captures data related to unified routing, 
 | CSRAvailabilityCheck | Check if any service representative is available. |
 | CopilotAgentSessionInitialization | Agent is connected to conversation. |
 
-## Assignment snapshots
+## Assignment snapshot
 
 Assignment snapshot adds transparency to the automatic assignment process in unified routing. By surfacing detailed insights into the logic and criteria behind assignment decisions, assignment snapshot empowers supervisors and administrators to understand why work items aren’t being assigned or why they are assigned to specific representatives. This transparency reduces the need for support tickets and escalations to Microsoft, as customers can remediate and take corrective actions based on the information provided.
 
-Assignment snapshots is enabled by default for all customers who use Application Insights in their Dynamics 365 instance.
-
-Administrators can use the following information that's logged in Application Insights for voice, digital messaging, and record channels:
+Administrators can use the following information that's logged in Application Insights:
 
 - Presence changes
 
@@ -104,9 +102,6 @@ Administrators can use the following information that's logged in Application In
 - Representative, skill, queue, and capacity profile names with the corresponding IDs
 - Assignment ruleset and rule ID matched during the assignment attempt for custom assignment rulesets
 - Assignment ruleset and rule details for custom assignment rulesets
-
-> [!NOTE]
-> Assignment snapshots consume extra storage space in Application Insights.
 
 ### Subscenario: CSRConfiguration
 
@@ -134,6 +129,7 @@ Is related to the configuration of queues, which includes the queue id, type, pr
     - Highest Capacity(OmnichannelAssignment) = 192350000, 
     - Round Robin = 192350001,
     - Custom Assignment Configuration = 192350002
+- **omnichannel.queue.name**: Name of the queue.
 - **omnichannel.queue.type**: The type of the queue. Possible values are
     - Digital Messaging = 192350000,
     - Entity = 192350001,
@@ -143,6 +139,7 @@ Is related to the configuration of queues, which includes the queue id, type, pr
 
 Is for the custom assignment rulesets used for assignment, prioritization, and selection. It includes the ruleset name and rules configured as part of the ruleset. The information is synced whenever there is a change to any of these configurations and at periodic intervals of 10 days.
 
+- **omnichannel.queue.id**: Identifier of the queue the ruleset belongs to.
 - **omnichannel.ruleset_name**: The name of the ruleset.
 - **omnichannel.rule_hit_policy**: The rule hit policy for the ruleset.
 - **omnichannel.rules**: Details for each rule present in the ruleset (rule name, conditions, order).
@@ -152,7 +149,7 @@ Is for the custom assignment rulesets used for assignment, prioritization, and s
 
 Provides status and capacity history of service representatives, including their presence, capacity profile, and available units. The data is synced whenever there is a change to any of these configurations.
 
-- **omnichannel.Service representative.id**: The ID of the Service representative being logged.
+- **omnichannel.agent.id**: The ID of the service representative being logged.
 - **omnichannel.current_presence_id**: The current presence ID of the Service representative.
 - **omnichannel.current_base_presence**: The current base presence of the Service representative.
 - **omnichannel.available_capacity.units**: The available capacity units for the Service representative.
