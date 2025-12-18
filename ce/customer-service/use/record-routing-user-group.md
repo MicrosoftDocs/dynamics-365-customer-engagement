@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: concept-article
 ms.collection:
-ms.date: 11/17/2025
+ms.date: 12/18/2025
 ms.custom: bap-template
 ---
 
@@ -18,11 +18,9 @@ Contact centers often group customer service representatives (service representa
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-You can filter this report by **Time**, **Line of business**, **Intent group**, **Agent group**, **Time zone**, and **Work item status**.
+You can filter this report by **Time**, **Line of business**, **Intent group**, **Agent group**, **Work item status**, and **Time zone**.
 
 As part of visual customization, all record routing dashboards including **Summary**, **Backlog work items**, **Ongoing work items**, **Queue**, and **Agent** reports can be filtered by intent group, intent, and line of business by using the **IntentFamilyName** in **DimIntent** dimension. Learn more in [visual customization](customize-reports.md). You can search for the data measures for intent to select specific intent-based filters.
-
-:::image type="content" source="../media/record-routing-user-group.png" alt-text="Screenshot of real-time analytics for record routing user group report." lightbox="../media/record-routing-user-group.png":::
 
 ## Prerequisites
 
@@ -58,8 +56,6 @@ You see the report after 24 hrs of provisioning. If you don't enable Customer In
 ## Report drilldown 
 
 Select **Detailed view** to view **Metrics by user group**.
-
-:::image type="content" source="../media/record-routing-user-group-drilldown.png" alt-text="Screenshot of metrics by user group drilldown." lightbox="../media/record-routing-user-group-drilldown.png":::
 
 |Metrics | Definition  |
 |---------|---------|
