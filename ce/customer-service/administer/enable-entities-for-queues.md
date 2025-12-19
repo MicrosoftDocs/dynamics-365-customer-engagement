@@ -30,7 +30,7 @@ Any record that you want to enable for routing needs to be enabled for queues.
 
 <br><br> ![Automatic record movement to the representative's default queue.](../media/route-owner-queue.png "Automatic record movement to the representative's default queue")
 
-## Enable auditing for queuemembership
+## Enable audits for queuemembership
 
 Auditing on an intersect (many-to-many relationship) entity in Dynamics 365 is automatically enabled as part of the auditing process for the related entities. You can’t enable or disable auditing specifically for the intersect entity itself through the user interface. The association and disassociation of records are logged as events when auditing is enabled on the primary entities involved in the relationship. 
 
