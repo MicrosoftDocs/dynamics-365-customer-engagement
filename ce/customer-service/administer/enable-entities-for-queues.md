@@ -38,15 +38,14 @@ Here's an example of queuemembership intersect entity between queue and system u
 
 ### Prerequisites
 
-- You must have a System Administrator or System Customizer security role. 
-- Auditing must be enabled at the environment or organization level first.   
+- You must have a System Administrator or System Customizer security role.   
 
-### Steps to enable auditing
+### Steps to enable audit
 
-You must first enable auditing at the global level and then at the entity level through the Power Platform Admin Center or the classic Dynamics 365 Advanced Settings. 
+You must first enable audit at the global level (environment or organization level) and then at the entity level through the Power Platform Admin Center or the classic Dynamics 365 Advanced Settings. 
 
-1. Enable auditing at the environment level. Learn more in [Configure auditing for an environment](/power-platform/admin/manage-dataverse-auditing?tabs=new#configure-auditing-for-an-environment).
-2. Enable auditing on the primary entities: Queue and System user entity. Learn more in [Configure auditing for one or more tables and columns in Power Apps](/power-platform/admin/manage-dataverse-auditing?tabs=new#configure-auditing-for-one-or-more-tables-and-columns-in-power-apps).
+1. Enable audit at the environment level. Learn more in [Configure auditing for an environment](/power-platform/admin/manage-dataverse-auditing?tabs=new#configure-auditing-for-an-environment).
+2. Enable audit on the primary entities: Queue and System user entity. Learn more in [Configure auditing for one or more tables and columns in Power Apps](/power-platform/admin/manage-dataverse-auditing?tabs=new#configure-auditing-for-one-or-more-tables-and-columns-in-power-apps).
 
 Once auditing is fully enabled, any association or disassociation events in the (many-to-many relationship) relationship is logged in the **Audit History** of the entity.
 
