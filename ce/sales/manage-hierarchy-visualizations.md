@@ -20,7 +20,7 @@ As an admin, manage hierarchies by editing, deleting, or unpublishing them to ke
 1. Under **General Settings**, select **Visual hierarchy**.  
     A list of existing hierarchies is displayed.  
 1. Select the hierarchy you want to edit.
-1. Make the necessary changes to the settings. To know the settings you can change, see [Configure the root node of the hierarchy](create-activate-hierarchy-visualizations.md#configure-the-root-node-of-the-hierarchy) and [Configure the child node](create-activate-hierarchy-visualizations.md#configure-the-child-node).  
+1. Make the necessary changes to the settings. To know the settings you can change, see [Configure the root node of the hierarchy](create-activate-hierarchy-visualizations.md#configure-a-single-table-hierarchy) and [Configure the child node](create-activate-hierarchy-visualizations.md#configure-multi-table-or-hybrid-hierarchy).  
 1. Select **Save** to apply your changes.  
     The updated hierarchy is now available for users.  
 
