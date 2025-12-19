@@ -9,7 +9,7 @@ ms.reviewer: laalexan
 ---
 
 > [!NOTE]
-> Bing Maps has been deprecated. This feature will remain available to existing Bing Maps for Enterprise customers until June 30th 2028, but is not available for new customers or customers using Azure Maps.
+> Bing Maps for Enterprise has been deprecated. This feature will remain available to existing Bing Maps for Enterprise customers until June 30th 2028, but is not available for new customers or customers using Azure Maps.
 
 # Set up visitor location detection
 
