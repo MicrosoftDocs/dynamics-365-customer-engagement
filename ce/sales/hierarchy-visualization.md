@@ -66,7 +66,7 @@ The visual hierarchy feature includes the following key capabilities:
 To get started with visual hierarchy, follow these steps:  
 
 1. Admin [designs a hierarchy](create-activate-hierarchy-visualizations.md).  
-1. Admin [grants access to hierarchies](create-activate-hierarchy-visualizations.md#grant-access-to-hierarchies).  
+1. Admin [grants access to hierarchies](create-activate-hierarchy-visualizations.md#grant-permissions-to-visual-hierarchy-feature).  
 1. Admin [adds a View hierarchy entry point](add-hierarchy-visualization-custom-tables.md) to the desired entity.  
-1. Admin [publishes the hierarchy to the organization](create-activate-hierarchy-visualizations.md#preview-and-publish-hierarchy).  
+1. Admin [previews and publishes the hierarchy to the organization](create-activate-hierarchy-visualizations.md#preview-and-publish-hierarchy).  
 1. Users [view data in a hierarchy](view-hierarchy-visualizations.md).  

@@ -127,7 +127,7 @@ After designing the hierarchy, preview it to ensure it meets your requirements. 
 1. Select **Publish** and then select **OK** on the confirmation message.  
     The hierarchy is active and available for users to view and interact with.
 
-## Troubleshoot a hierarchy  
+### Troubleshoot a hierarchy  
 
 Troubleshooting mode helps you understand why certain results appear or don’t appear in your design. Use this mode when the output doesn't match your expectations. If necessary, you can share the details with your technical support team or Microsoft customer support to resolve any problems.  
 
@@ -162,7 +162,7 @@ Select **Copy** to copy the troubleshooting information to the clipboard. Share 
 >[!NOTE]
 >To exit the troubleshooting mode, select the troubleshooting icon again on the hierarchy designer toolbar.  
 
-## Grant access to hierarchies  
+## Grant permissions to visual hierarchy feature  
 
 As a system administrator, grant additional security roles access to design and view hierarchies by granting access to the **Hierarchy Configuration** table. To grant access to all hierarchies:  
 
