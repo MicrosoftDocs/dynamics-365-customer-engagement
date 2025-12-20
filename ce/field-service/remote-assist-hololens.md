@@ -1,7 +1,7 @@
 ---
 title: Collaborate in mixed reality with Field Service and Remote Assist
 description: Learn how to collaborate in mixed reality by integrating Dynamics 365 Field Service with Dynamics 365 Remote Assist.
-ms.date: 03/24/2025
+ms.date: 12/19/2025
 ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
@@ -11,6 +11,8 @@ ms.author: lmasieri
 
 > [!TIP]
 > To collaborate with other users including annotating in their environment, go to [Use Teams mobile to annotate in a user's environment](annotate-teams-mobile.md).
+
+[!INCLUDE[remote-assist-guides-deprecate](../includes/remote-assist-guides-deprecate.md)]
 
 If your organization uses Dynamics 365 Field Service to manage field service work orders, your frontline workers can see their Field Service bookings and quickly call a remote collaborator using Microsoft Teams.
 
