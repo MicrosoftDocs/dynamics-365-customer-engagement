@@ -1,7 +1,7 @@
 ---
 title:  Configure sentiment analysis for emails (preview)
 description: Learn how to configure sentiment for emails in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 09/29/2025
+ms.date: 12/22/2025
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -32,12 +32,14 @@ Email sentiment analysis supports multiple languages. Using Microsoft Azure Text
 
 You have the CSR Manager and System Administrator role to enable the feature.
 
-## Enable email sentiment setting definition
+## Add connections and enable power automate flow
 
-1.  In Power Apps, perform the steps in [Add an existing setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#adding-an-existing-setting-definition) to add the **Enable Email Sentiment** setting definition.
-
-2.  Set the value of the override value in **Setting environment value**to **Yes**.
-3.  Publish your changes.
+1.  Go to make.powerapps.com.
+2.  In **Connection references**, add the following connection references:
+    - **Microsoft Copilot Studio EmailSentiment-aec03**
+    - **Microsoft Dataverse EmailSentiment02869b**
+4.  Go to **Cloud flows** and turn on the **EmailSentiment** flow.
+5.  Publish your changes.
 
 ## Enable email sentiment analysis
 
