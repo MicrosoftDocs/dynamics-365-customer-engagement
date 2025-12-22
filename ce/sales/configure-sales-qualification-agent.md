@@ -83,7 +83,7 @@ If you're using custom security roles for your sales team instead of the out-of-
 - Assign the out-of-the-box roles&mdash;Salesperson or Sales Manager&mdash;only to users who'll be working on leads handed over by the agent. This option is recommended if you want to allow only a subset of users to work on the agent-handed-over leads.
 
 > [!NOTE]
-> If your sales team plans to reassign agent-handed-over leads to other users, ensure that those users also have the permissions listed in the following table. Otherwise, the user assignment will fail.
+> If your sales team plans to reassign the leads handed over by the agent to other users, ensure that those users also have the permissions listed in the following table. Otherwise, the user assignment will fail.
 
 **Permissions required for custom security roles:**
 
