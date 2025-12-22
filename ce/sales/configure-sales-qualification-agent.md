@@ -76,11 +76,14 @@ Review the following considerations before you start deploying the autonomous Sa
 
 ## Grant permissions to custom security role
 
-If you're using custom security roles for your sales team instead of the out-of-the-box roles, you have two options. 
+If you're using custom security roles for your sales team instead of the out-of-the-box roles, you have the following options:
 
 - Grant the necessary permissions, listed in the following table, to the custom role. This option is recommended if you want to allow all the users with the custom role to work on leads handed over by the agent.
 
 - Assign the out-of-the-box roles&mdash;Salesperson or Sales Manager&mdash;only to users who'll be working on leads handed over by the agent. This option is recommended if you want to allow only a subset of users to work on the agent-handed-over leads.
+
+> [!NOTE]
+> If your sales team plans to reassign agent-handed-over leads to other users, ensure that those users also have the permissions listed in the following table. Otherwise, the user assignment will fail.
 
 **Permissions required for custom security roles:**
 
