@@ -69,67 +69,6 @@ We recommend that you follow these guidelines when you are adding descriptions f
 - Provide synonyms, related terms, and specific examples. Avoid terms such as "general" or "miscellaneous" that lack meaningful context.
 - Avoid overly generic descriptions, excessive detail, unexplained abbreviations, and assumptions about internal business logic that the AI agent can't access or understand.
 
-##  Run simulations to evaluate field prediction accuracy in Case Management Agent
-
-Use the simulation capability in Case Management Agent to validate how well AI‑powered field prediction performs on your organization’s historical data or sample email or chat inputs. Simulation helps administrators assess prediction quality before enabling the feature in production, ensuring confidence in the output.
-
-Simulations run the same field prediction pipeline that Case Management Agent uses in live cases. As predictions are generated in bulk, simulations consume Copilot or AI credits in the same way as regular field predictions. You must ensure that Pay‑as‑you‑go billing is configured for your environment. Learn more in [Set up consumption-based billing](setup-pay-as-you-go.md).
-
-[!IMPORTANT]
-- Simulations run the same field prediction pipeline that Case Management Agent uses in live cases. As predictions are generated in bulk, simulations consume Copilot or AI credits in the same way as regular field predictions. You must ensure that Pay‑as‑you‑go billing is configured for your environment. Learn more in [Set up consumption-based billing](setup-pay-as-you-go.md).
-- Simulation results are calculated based on your organization’s historical field values. If historical data contains inaccurate or inconsistent entries, simulation accuracy may appear lower even when the AI prediction is correct.
-
-Before you run a simulation, ensure the following:
-
-- Field descriptions and best practices are configured in Power Apps. Accurate field descriptions help the AI understand each field’s meaning and improve prediction quality.
-- Field prediction rules (fields to be predicted) are already defined in Case Management Agent settings.
-
-**To set up a simulation**:
-
-1. In **Customer support**, select **Case settings**.
-1. On the **Case settings** page, select **Manage** for **Case Management Agent**.
-1. On the **Case Management Agent** page, select **Case creation and update**.
-1. On the **Case creation and update** page, select **Go to simulation**. The **Case creation and update simulation** page appears.
-1. On the **Simulation setup** tab, provide the following information:
-  1. Provide a simulation name. For example: Surface product cases, Refund category evaluation, or Email‑based sample test.
-  1. Select a data source from the dropdown. You can run simulations using one of two data sources:
-
-    - **Organization records**: Select this option to test field prediction against existing cases.
-      1. Select **Organization records**. 
-      1. In the **Conditions** section, use the condition builder to state conditions that must pass to continue with the simulation.
-      1. Select **Save conditions**.A list or records appear in the **Selected records**section. You can select upto 100 records. 
-      1. Select **Run simulation**. The system starts processing predictions for all the selected records. A notification appears to confirm  that the simulation has begun.
-
-   - **Excel file**: Select this option to test predictions on email bodies, chat transcripts, or any sample text.
-      1. Select **Excel file**.
-      1. Select **Upload**. The maximum file size is 1 MB, and you can upload an excel with a maximum of 100 rows.
-
-**To view a simulation report**:
-
-1. On the **Case creation and update simulation** page, go to the **Simulation report** tab.
-  A new entry appears with the details such as, simulation name, run date and time, and current status.
-1. Select **Download results** to export an Excel report.
-1. If you update your field descriptions or modify prediction rules, you can rerun a simulation by selecting **Re-run**. This reprocesses the same set of records without the need to select or upload again.
-
-When you download an excel report, it shows the following for each record:
-- Record ID
-- Actual field values (from your case or your input)
-- Predicted field values
-- Accuracy metrics (where applicable)
-- If multiple fields are selected for prediction, each field appears in a separate column.
-
-#### Best practices for data sources
-
-- Start with small record sets (20–30 cases) to validate your field descriptions.
-- Use consistent and well‑labelled historical data for more meaningful results.
-- Run multiple simulations focusing on:
-  - Different product lines
-  - Different categories
-  - Different languages or regions
-- Refine field descriptions whenever prediction errors show recurring patterns.
-- Use Excel upload testing to evaluate chat transcripts, new email templates, synthetic samples before launching new workflows.
- 
-
 ## Configure autonomous case updates
 
 In Copilot Service admin center, configure the AI agent to predict and update case fields after a conversation ends or when processing an incoming email. The rules you specify in this section apply to all channels unless you explicitly configure them to apply to specific channels.
@@ -172,6 +111,66 @@ To allow the AI agent to autonomously create cases across all provisioned messag
 
 1. Go to **Case creation and update** > **Case creation by AI agent (from chats and calls)** and select **Make Case Processing Agent available for case creation from conversations**.
 1. In **Fields for AI prediction**, specify the fields the agent predicts and populates in the case form using information from the conversation. The AI agent populates only those fields that have sufficient context available.
+
+##  Run simulations to evaluate field prediction accuracy in Case Management Agent
+
+Use the simulation capability in Case Management Agent to validate how well AI‑powered field prediction performs on your organization’s historical data or sample email or chat inputs. Simulation helps administrators assess prediction quality before enabling the feature in production, ensuring confidence in the output.
+
+> [!NOTE]
+> - Simulations run the same field prediction pipeline that Case Management Agent uses in live cases. As predictions are generated in bulk, simulations consume Copilot or AI credits in the same way as regular field predictions. You must ensure that Pay‑as‑you‑go billing is configured for your environment. Learn more in [Set up consumption-based billing](setup-pay-as-you-go.md).
+> - Simulation results are calculated based on your organization’s historical field values. If historical data contains inaccurate or inconsistent entries, simulation accuracy may appear lower even when the AI prediction is correct.
+
+Before you run a simulation, ensure the following:
+
+- Field descriptions and best practices are configured in Power Apps. Accurate field descriptions help the AI agent understand each field’s meaning and improve prediction quality.
+- Field prediction rules (fields to be predicted) are already defined in Case Management Agent settings.
+
+**To set up a simulation**:
+
+1. In **Customer support**, select **Case settings**.
+1. On the **Case settings** page, select **Manage** for **Case Management Agent**.
+1. On the **Case Management Agent** page, select **Case creation and update**.
+1. On the **Case creation and update** page, select **Go to simulation**. The **Case creation and update simulation** page appears.
+1. On the **Simulation setup** tab, provide the following information:
+  1. Provide a simulation name. For example: Surface product cases, Refund category evaluation, or Email‑based sample test.
+  1. Select a data source from the dropdown. You can run simulations using one of two data sources:
+
+  - **Organization records**: Select this option to test field prediction against existing cases.
+  
+      1. Select **Organization records**. 
+      1. In the **Conditions** section, use the condition builder to state conditions that must pass to continue with the simulation.
+      1. Select **Save conditions**. A list or records appear in the **Selected records**section. You can select upto 100 records. 
+      1. Select **Run simulation**. The system starts processing predictions for all the selected records. A notification appears to confirm that the simulation has started.
+
+  - **Excel file**: Select this option to test predictions on the email body, chat transcripts, or any sample text.
+  
+      1. Select **Excel file**.
+      1. Select **Upload**. The maximum file size is 1 MB and you can upload an excel with a maximum of 100 rows.
+
+**To view a simulation report**:
+
+1. On the **Case creation and update simulation** page, go to the **Simulation report** tab.
+  A new entry appears with the details such as, simulation name, run date and time, and current status.
+1. Select **Download results** to export an Excel report.
+1. If you update your field descriptions or modify prediction rules, you can rerun a simulation by selecting **Re-run**. This reprocesses the same set of records without the need to select or upload again.
+
+When you download an excel report, it shows the following for each record:
+- Record ID
+- Actual field values (from your case or your input)
+- Predicted field values
+- Accuracy metrics (where applicable)
+- If multiple fields are selected for prediction, each field appears in a separate column.
+
+#### Best practices for data sources
+
+- Start with small record sets (20–30 cases) to validate your field descriptions.
+- Use consistent and well‑labelled historical data for more meaningful results.
+- Run multiple simulations focusing on:
+  - Different product lines
+  - Different categories
+  - Different languages or regions
+- Refine field descriptions whenever prediction errors show recurring patterns.
+- Use excel upload testing to evaluate chat transcripts or new email templates before launching new workflows. 
 
 ## Configure AI-assisted case creation for service representatives
 
