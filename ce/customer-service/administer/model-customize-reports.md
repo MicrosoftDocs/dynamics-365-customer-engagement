@@ -108,7 +108,7 @@ Specify the Microsoft Fabric workspace where the Dynamics data model and reports
 
 1. From the Insights page, go to the data model for which you want to select a Microsoft Fabric workspace.
 
-1. Select **Create new workspace** or to use an existing workspace, select a workspace from the dropdown list.
+1. Select **Create new workspace**, or to use an existing workspace, select the workspace from the dropdown list.
 
 1. Select **Save**. This action initiates the provisioning of the reports.
 
@@ -182,7 +182,7 @@ You can enable automatic page refresh for your reports at fixed intervals so tha
 
 As an administrator, you must first enable [automatic page refresh](/power-bi/enterprise/service-admin-premium-workloads#automatic-page-refresh) from the [Microsoft Fabric Admin portal](https://msit.powerbi.com/). You need to use the [fixed interval](/power-bi/create-reports/desktop-automatic-page-refresh#fixed-interval) refresh type with either 5 or 10 seconds as the interval.
 
-To enable automatic page refresh for specific reports:
+To enable automatic page refresh for specific reports, complete the following steps:
 
 1. Download the real-time report from your Copilot Service workspace app.
 1. Go to **Visualizations** > **Format page**.
