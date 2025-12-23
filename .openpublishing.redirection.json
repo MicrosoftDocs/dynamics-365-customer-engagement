@@ -27530,6 +27530,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/teams-integration/add-chat-d365.md",
+      "redirect_url": "share-d365-record-overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/cfs-authorize-api-connection.md",
       "redirect_url": "/dynamics365/field-service/installation-setup-iothub"
     },
