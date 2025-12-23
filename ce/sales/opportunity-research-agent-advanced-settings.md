@@ -15,7 +15,7 @@ ai-usage: ai-assisted
 
 # Configure risk and importance criteria for Sales Close Agent - Research
 
-By default,the Sales Close Agent - Research determines the risk and importance of an opportunity based on company research and some predefined criteria. However, you can customize these criteria to better align with your organization's specific needs. For example, you might want to update the risk criteria to flag opportunities that are stuck in the Qualify stage for more than 10 days instead of the default 30 days.
+By default,the Sales Close Agent - Research determines the risk and importance of an opportunity based on company research and some predefined criteria. However, you can customize these criteria to better align with your organization's specific needs. For example, Contoso Inc has typical sales cycles that last 15 days, and they want to flag opportunities that have been in the same stage for more than 10 days as risky. They can modify the "Stalled in stage" criterion to reflect this requirement.
 
 ## Configure the risk criteria
 
