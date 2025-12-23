@@ -46,7 +46,7 @@ You need the following prerequisites:
    The Opportunity research page opens with the complete research insights and recommendations. 
    :::image type="content" source="media/opportunity-research-insights-with-no-risk.png" alt-text="Screenshot of the Opportunity research page with research insights when there are no risks.":::
 
-   If your admin has enabled Microsoft 365 Services for the agent and you haven't granted consent yet, you'll see a prompt asking for permission to let the agent access your emails for research purposes. Once you grant consent, the agent will analyze up to 100 recent emails from your inbox to gather insights about the opportunity. Note that this consent cannot be revoked after it's granted. The agent continues to process emails as they arrive in your inbox to keep the research insights up to date.
+   If your admin has enabled Microsoft 365 Services for the agent and you haven't granted consent yet, you'll see a prompt asking for permission to let the agent access your emails for research purposes. Once you grant consent, the agent analyzes up to 100 recent emails from your inbox to gather insights about the opportunity. Note that this consent can't be revoked after it's granted. The agent continues to process emails as they arrive in your inbox to keep the research insights up to date.
 
    :::image type="content" source="media/opportunity-research-agent-m365-consent.png" alt-text="Screenshot of the Microsoft 365 Services consent prompt on the Opportunity research page for sellers.":::
 
