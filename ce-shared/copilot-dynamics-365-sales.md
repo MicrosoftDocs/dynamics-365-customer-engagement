@@ -4,7 +4,7 @@ The following Copilot capabilities are available out of the box in Dynamics 365 
 
 - **Embedded experiences:** Integrates AI-generated summaries and insights directly within the lead and opportunity forms. Learn more in the following articles:
     - [View the opportunity summary widget](/dynamics365/sales/copilot-summarize-records#view-the-opportunity-summary-widget)
-    - [Lead summary after lead qualification](qualify-lead-convert-opportunity-sales.md#lead-summary).
+    - [Lead summary after lead qualification](/dynamics365/sales/qualify-lead-convert-opportunity-sales#lead-summary).
 - **Recent changes to records:** Highlights recent updates and changes to sales records help sellers stay informed about the latest developments to their records. Learn more in [Ask Copilot about recent changes to your sales records](/dynamics365/sales/copilot-ask-questions).
 - **Information assistance:** Provides content recommendations and answer to questions from documents stored in SharePoint. Learn more in [Use Copilot to get content recommendations and answers from SharePoint](/dynamics365/sales/copilot-get-doc-suggestions).
 - **Meeting preparation:** Helps sellers prepare for upcoming meetings by summarizing relevant information from sales records associated with the meeting. Learn more in [Prepare for upcoming sales appointments](/dynamics365/sales/copilot-stay-ahead#prepare-for-upcoming-sales-appointments).
