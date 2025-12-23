@@ -44,7 +44,7 @@ The following states indicate the status of the rule based on the conditions and
 
 - **Cannot Off**: Too close to triggering. 
     > [!NOTE]
-    > You can't disable this rule. To ensure reliability, rules enter **Cannot Off** if the timeout is less than two minutes. 
+    > You can't disable this rule. To ensure reliability, rules enter **Cannot Off** if the timeout is less than one minute. 
 
 - **Inactive**: Condition false; countdown stopped and reset. 
 
@@ -53,6 +53,8 @@ The following states indicate the status of the rule based on the conditions and
 - **Turned Off**: Representative disabled the rule completely. 
 
 Hovering over the hourglass icon displays the exact remaining time, improving accessibility and time management. 
+
+:::image type="content" source="../media/representative-timeout-rules.png" alt-text="Screenshot of the Timeout Rules panel." lightbox="../media/representative-timeout-rules.png":::
 
 #### Toggle rules 
 
