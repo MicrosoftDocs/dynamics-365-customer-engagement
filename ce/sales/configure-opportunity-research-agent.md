@@ -107,11 +107,11 @@ Server-side synchronization always gets precedence. If both server-side synchron
    - **Bing search**: Select **Accept terms** to open the Power Platform admin center and accept the terms for Bing search.
 
    - **Microsoft 365 Services**: (Optional) To allow the agent to read emails directly from the sellers' Microsoft 365 mailboxes, select **Mark as done** and then select **Apply changes**. If you want to use server-side synchronization for reading emails, leave it disabled. 
-    > [!NOTE]
-    >- You must have the Global admin, Dynamics 365 admin, or Tenant admin role to enable Microsoft 365 Services for the agent. If you don't have the required role, the checkbox is disabled.
-    >- You must have at least *ONE* of the following licenses: Microsoft 365/Office 365, Power Automate Premium license, or Dynamics 365 Sales Enterprise Edition to enable Microsoft 365 Services for the agent.
-    >- Be sure to select **Apply changes** after enabling Microsoft 365 Services for the agent.
-    >- Sellers will also be prompted to provide consent when they access the Opportunity research page.
+        > [!NOTE]
+        >- You must have the Global admin, Dynamics 365 admin, or Tenant admin role to enable Microsoft 365 Services for the agent. If you don't have the required role, the checkbox is disabled.
+        >- You must have at least *ONE* of the following licenses: Microsoft 365/Office 365, Power Automate Premium license, or Dynamics 365 Sales Enterprise Edition to enable Microsoft 365 Services for the agent.
+        >- Be sure to select **Apply changes** after enabling Microsoft 365 Services for the agent.
+        >- Sellers will also be prompted to provide consent when they access the Opportunity research page.
 
 1. Select **Continue** to proceed to the agent configuration page.
   :::image type="content" source="media/opportunity-research-agent-settings.png" alt-text="Screenshot of the Sales Close Agent - Research settings page.":::
@@ -122,8 +122,6 @@ Granting access to seller's mailboxes empowers the agent to identify deal risks 
 
 - **Configure server-side synchronization** (recommended): This method allows the agent to access emails and meetings synched to Dynamics 365 Sales. Learn more in [Configure server-side synchronization](#configure-server-side-synchronization).
 - **Enable Microsoft 365 Services for the agent**: This method allows the agent to read emails directly from the sellers' Microsoft 365 mailboxes. 
-
-
 
 ## Step 4: Configure the agent
 
