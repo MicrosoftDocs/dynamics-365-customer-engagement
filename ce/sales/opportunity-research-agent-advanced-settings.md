@@ -17,6 +17,8 @@ ai-usage: ai-assisted
 
 By default,the Sales Close Agent - Research determines the risk and importance of an opportunity based on company research and some predefined criteria. However, you can customize these criteria to better align with your organization's specific needs. For example, Contoso Inc has typical sales cycles that last 15 days, and they want to flag opportunities that have been in the same stage for more than 10 days as risky. They can modify the "Stalled in stage" criterion to reflect this requirement.
 
+The agent uses past opportunity data and scoring model to rank the risks and importance of current opportunities and then provides a cumulative risk and importance score.  
+
 ## Configure the risk criteria
 
 1. In the Sales Close Agent - Research configuration page, locate the **Risk criteria** section under **Advanced**.
@@ -38,6 +40,7 @@ By default,the Sales Close Agent - Research determines the risk and importance o
     | Aging opportunity | Indicates that opportunities that have been open longer than the average age of previously won deals must be flagged, indicating they may need extra attention. |
     | Competitor mention | Indicates that opportunities where competitor names or mentions appear in email conversations, signalling competitive positioning may be needed. |
     | Negative news | Indicates that opportunities where external events such as layoffs, budget cuts, M&A detected through company insights could impact deal success. |
+
 1. If you don't want to use a criterion in risk assessment, turn off the toggle next to it under **Use in assessment**.
 
 ## Configure the importance criteria

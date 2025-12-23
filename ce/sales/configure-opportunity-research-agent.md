@@ -210,6 +210,11 @@ Consider the following best practices while configuring knowledge sources for th
 - Monitor capacity. Large files and frequent refreshes consume AI credits; track usage in Power Platform admin center.
 - With curated knowledge sources, the agent becomes a best researcher that understands your organization and surfaces the insights your sellers value most.
 
+
+### Configure advanced settings (optional)
+
+Under **Advanced** section, you can configure the risk and importance criteria for the opportunities. Learn more in [Configure risk and importance criteria for Sales Close Agent - Research](opportunity-research-agent-advanced-settings.md). 
+
 ## Step 5: Start or stop the agent
 
 Start the agent only after you have configured all the settings and verified that they're correct. The agent will begin processing the opportunities that match the selection criteria right after you start it.
