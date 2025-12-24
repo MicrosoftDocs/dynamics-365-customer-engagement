@@ -65,7 +65,7 @@ If you're using a custom security role, ensure that the opportunity owners have 
 
 
 <a name="configure-server-side-synchronization"></a>
-### (Optional)Configure server-side synchronization
+### (Optional) Configure server-side synchronization
 
 If you want the agent to only access emails and meetings synced to Dynamics 365 Sales, configure server-side synchronization for seller mailboxes. Alternatively, you can enable Microsoft 365 Services for the agent to read emails directly from the sellers' Microsoft 365 mailboxes. Learn more in [Verify prerequisites](#step-3-verify-prerequisites).
 
@@ -77,7 +77,7 @@ Server-side synchronization always gets precedence. If both server-side synchron
 
 1. [Configure default email processing and synchronization](/power-platform/admin/connect-exchange-online?tabs=new#configure-default-email-processing-and-synchronization).
 1. [Configure mailboxes](/power-platform/admin/connect-exchange-online?tabs=new#configure-mailboxes) of sellers who own the opportunities and [approve their mailboxes](/power-platform/admin/connect-exchange-online?tabs=new#approve-mailboxes). When the configuration is successful, the **Incoming Email Status** and **Outgoing Email Status** for the mailbox are set to **Success**.
-    :::image type="content" source="mailbox-status.png" alt-text="Screenshot of a user mailbox in Dynamics 365 Sales with status indicators.":::
+    :::image type="content" source="media/mailbox-status.png" alt-text="Screenshot of a user mailbox in Dynamics 365 Sales with status indicators.":::
 
 1. Make sure that the personalization option for email tracking is set to an appropriate value to allow the agent to access emails and meetings from the sellers' mailboxes. You can choose an option that best suits your organization's privacy policies. Perform *ONE* of the following actions:
 
@@ -137,7 +137,7 @@ After verifying the prerequisites, define the agent and company profile, selecti
     1. Enter your company name and website URL.  
     1. Enter the value proposition of the products associated with the opportunities that the agent will handle.  
        Providing a clear value proposition helps the agent focus its account research on the most relevant information. Instead of returning broad or generic insights about a company, the agent uses the value proposition to tailor its research and deliver insights that are specific to your product and its effect for the customer.
-       For example, if the agent is handling opportunities related to a coffee machine, you can specify "Our smart vending machine offers a variety of premium blends, customizable to your taste, with zero wait time, and minimal maintenance." instead of "We sell coffee machines to businesses."  
+       For example, if the agent is handling opportunities that are related to a coffee machine, you can specify "Our smart vending machine offers a variety of premium blends, customizable to your taste, with zero wait time, and minimal maintenance." instead of "We sell coffee machines to businesses."  
 
 ### Configure selection criteria for opportunities
 
@@ -227,7 +227,7 @@ By default, the agent generates research insights for your competitors from publ
 
 Consider the following best practices while configuring knowledge sources for the Sales Close Agent - Research:
 
-- Keep descriptions specific. Adding descriptions such as “Dataverse table with Assets Under Management by client” is more helpful than just “Finance table”.
+- Keep descriptions specific. Adding descriptions such as "Dataverse table with Assets Under Management by client" is more helpful than just "Finance table".
 - Limit public sites. Too many broad domains dilute relevance; add the few that best match your industry.
 - Review security. The agent will only present data that the signed-in seller is permitted to access.
 - Monitor capacity. Large files and frequent refreshes consume AI credits; track usage in Power Platform admin center.
