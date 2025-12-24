@@ -1,7 +1,7 @@
 ---
 title: Work on opportunities handled by the Sales Close Agent - Research (preview)
 description: Learn how to work on opportunities handled by the Sales Close Agent - Research.
-ms.date: 11/07/2025
+ms.date: 12/24/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -46,7 +46,7 @@ You need the following prerequisites:
    The Opportunity research page opens with the complete research insights and recommendations. 
    :::image type="content" source="media/opportunity-research-insights-with-no-risk.png" alt-text="Screenshot of the Opportunity research page with research insights when there are no risks.":::
 
-   If your admin has enabled Microsoft 365 Services for the agent, you'll see a banner asking for permission to let the agent access your emails for research purposes. The agent reads the emails directly from Microsoft 365 and never stores it. Once you grant consent, the agent analyzes up to 100 recent emails from your inbox to gather insights about the opportunity. Note that this consent can't be revoked after it's granted. The agent continues to process emails every six hours to keep the research insights up to date.
+   If your admin has enabled Microsoft 365 Services for the agent, you'll see a banner asking for permission to access your emails for research purposes. The agent reads emails directly from Microsoft 365 without storing them. After you grant consent, the agent analyzes up to 100 recent emails from your inbox to gather opportunity insights. Note that this consent can't be revoked. The agent processes emails every six hours to keep research insights current.
 
    :::image type="content" source="media/opportunity-research-agent-m365-consent.png" alt-text="Screenshot of the Microsoft 365 Services consent prompt on the Opportunity research page for sellers.":::
 
