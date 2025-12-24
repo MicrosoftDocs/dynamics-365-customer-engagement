@@ -88,7 +88,7 @@ The Opportunity research page includes the following sections:
        ![Stakeholder insights](media/ORA-stakeholder-insights.png)  
        Identifies the most important people involved with or influencing the deal and summarizes their roles. The agent scans the contacts linked to the opportunity in CRM, and communication patterns (email/meeting history) to determine who the key stakeholders are. It then highlights roles like decision-maker, champion, influencers, and so on, and notes each person's relevance. For example, "CFO – likely economic buyer" or "Tech lead – active champion who drives the project".  
  
-      *How this insight helps you:* Know your buyer group. You instantly see who the key players are and their roles, without manual research. For example, you might learn "Jane Doe – CFO (final approver)" and "John Smith – Project Lead (day-to-day contact)." This helps you focus on building the right relationships with the right people and tailor your approach to each role. It saves you time piecing together org charts and ensures no important stakeholder is overlooked.  
+      *How this insight helps you:* Know your buyer group. You instantly see who the key players are and their roles, without manual research. For example, you might learn that Jane Doe – CFO is the final approver and John Smith, the Project Lead is the day-to-day contact. This helps you focus on building the right relationships with the right people and tailor your approach to each role. It saves you time piecing together org charts and ensures no important stakeholder is overlooked.  
     
     - **Pain points and needs:**  
        ![Pain points and needs](media/ORA-painpoints.png)  
@@ -101,7 +101,7 @@ The Opportunity research page includes the following sections:
 
        *How this insight helps you:* Stay ahead of the competition. Gives you immediate insight into who you're up against so you can strategize accordingly. You'll know if the customer is also talking to, say, Competitor X, and you might see a note like "Competitor X is known for lower price, but lacks feature Y that we offer." This lets you proactively address the competition in your sales pitch, emphasizing your strengths. It saves you time on competitive research and helps you avoid being blindsided by a rival in late stages.  
     
-    - **Opportunity health (MEDDPICC):**  
+    - **Opportunity health:**  
        ![Opportunity health](media/ORA-opportunity-health.png)  
        Provides the health check of the deal, framed around the MEDDPICC framework (Metrics, Economic Buyer, Decision Process, Decision Criteria, Paper Process, Identify Pain, Champion, Competition). The agent evaluates each of these elements by looking at CRM data and communications. Rather than a checklist, it generates a brief narrative on how well these areas are covered. For example: "Overall, the deal shows strong value metrics and a clear champion. However, the decision process is unclear and no Economic Buyer is engaged yet." It highlights what's solid and what's missing, often ending with a suggested next step (like "Work with client to clarify procurement process").  
 

@@ -67,7 +67,7 @@ If you're using a custom security role, ensure that the opportunity owners have 
 <a name="configure-server-side-synchronization"></a>
 ### (Optional) Configure server-side synchronization
 
-If you want the agent to only access emails and meetings synced to Dynamics 365 Sales, configure server-side synchronization for seller mailboxes. Alternatively, you can enable Microsoft 365 Services for the agent to read emails directly from the sellers' Microsoft 365 mailboxes. Learn more in [Verify prerequisites](#step-3-verify-prerequisites).
+If you want the agent to access only the emails and meetings synced to Dynamics 365 Sales, configure server-side synchronization for seller mailboxes. Alternatively, you can enable Microsoft 365 Services for the agent to read emails directly from the sellers' Microsoft 365 mailboxes. Learn more in [Verify prerequisites](#step-3-verify-prerequisites).
 
 Server-side synchronization always gets precedence. If both server-side synchronization and Microsoft 365 Services are enabled, the agent reads emails using server-side synchronization only.
 
@@ -110,7 +110,7 @@ Server-side synchronization always gets precedence. If both server-side synchron
 
    - **Microsoft 365 Services**: (Optional) To allow the agent to read emails directly from the sellers' Microsoft 365 mailboxes, select **Mark as done** and then select **Apply changes**. If you want to use server-side synchronization for reading emails, leave it disabled.  
         > [!NOTE]
-        >- You must have at least *ONE* for the following roles: Global administrator, Dynamics 365 administrator, or tenant administrator role to enable Microsoft 365 Services for the agent. If you don't have the required role, the **Mark as done** checkbox is disabled.
+        >- You must have at least *ONE* of the following roles: Global administrator, Dynamics 365 administrator, or tenant administrator role to enable Microsoft 365 Services for the agent. If you don't have the required role, the **Mark as done** checkbox is disabled.
         >- You must have at least *ONE* of the following licenses: Microsoft 365/Office 365, Power Automate Premium license, or Dynamics 365 Sales Enterprise Edition to enable Microsoft 365 Services for the agent.
         >- Be sure to select **Apply changes** after enabling Microsoft 365 Services for the agent.
         >- Sellers will also be prompted to provide consent when they access the Opportunity research page.
