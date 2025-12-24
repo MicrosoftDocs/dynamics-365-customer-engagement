@@ -5,8 +5,6 @@ ms.date: 08/01/2025
 ms.update-cycle: 180-days
 ms.topic: faq
 ms.service: dynamics-365-sales
-content_well_notification:
-  - AI-contribution
 ms.custom: bap-template
 author: lavanyakr01
 ms.author: lavanyakr
@@ -59,7 +57,7 @@ When the agent is first configured and started, it runs on all the leads that me
 
 ## What activities consume Copilot Studio capacity?
 
-The Sales Qualification Agent uses Copilot Studio capacity for research, matching the ideal customer profile, and generating the initial outreach email.
+The Sales Qualification Agent uses Copilot Studio capacity for research, matching the target customer profile, and generating the initial outreach email.
 
 Viewing insights that have been generated doesn't consume capacity.
 

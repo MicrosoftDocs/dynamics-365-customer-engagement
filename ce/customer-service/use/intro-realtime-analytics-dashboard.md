@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: overview
 ms.collection:
-ms.date: 11/07/2025
+ms.date: 12/17/2025
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -72,8 +72,10 @@ The **Omnichannel real-time analytics** dashboard consists of the following repo
 - **Voice**: This report provides an overview of conversations for the voice channel. Learn more in the [Voice report](realtime-voice-dashboard.md).
 - **Agents**: This report provides an overview of the health and KPIs of service representatives in your organization. The information that is shown on this report is based on the conversations. Learn more in the [Agents report](realtime-agents-analytics.md).
 - **Ongoing conversation**: This report provides information about the conversations that service representatives are handling and that are in active, open, wrap-up, or waiting status. Use it to monitor, assign, transfer, and forcibly close conversations for service representatives, after reviewing their skill set and capacity profiles. Learn more in the [Ongoing conversation report](realtime-ongoing.md).
-- **Backlog conversation**: The Backlog conversation report lists all open, active, and waiting conversations that were created in the last 30 days. It allows you to view persistent chats that are longer than 24 hrs. Learn more in [Backlog conversation report](realtime-backlog-conv.md#view-and-understand-the-backlog-conversation-report-in-omnichannel-real-time-analytics).
+- **Backlog conversation**: The Backlog conversation report lists all open, active, and waiting conversations that were created in the last 30 days. It allows you to view persistent chats that are longer than 24 hrs. Learn more in [Backlog conversation report](realtime-backlog-conv.md).
 - **Bot**: The Bot report provides insights into key metrics for all the Copilot agents used in your contact center. It allows you to monitor the volumes of in-progress and completed AI agent conversations. Learn more in [Bot report](/dynamics365/contact-center/use/agent-realtime-dashboard). 
+- **Intent group report**: This report shows contact center data organized by intent, intent groups, and line of business that help you effectively monitor and track work items. This dashboard is available in Dynamics 365 Contact Center only. Learn more in [Intent group report](/dynamics365/contact-center/use/realtime-intent-group-report). 
+- **User group report**: This report helps you filter data by agent group, that help you quickly identify trends, assess team performance, and resolve issues faster. This dashboard is available in Dynamics 365 Contact Center only. Learn more in [User group report](/dynamics365/contact-center/use/realtime-agent-group-report).
 
 ## Filter information displayed on dashboard
 
@@ -98,9 +100,11 @@ Report data is automatically updated in real time for all the reports except the
 [Manage bookmarks](manage-bookmarks.md)<br>
 [Customize the visual display of your analytics reports](customize-reports.md)<br>
 [Manage real-time analytics reports](../administer/enable-realtime-analytics-dashboard-administrator.md)<br>
-[View and understand the Summary report in Omnichannel real-time analytics](realtime-summary-dashboard.md)<br>
-[View and understand the Voice report in Omnichannel real-time analytics](realtime-voice-dashboard.md)<br>
-[View and understand the Agents report in Omnichannel real-time analytics](realtime-agents-analytics.md)<br>
-[View and understand the Ongoing conversation report in Omnichannel real-time analytics](realtime-ongoing.md)
+[Summary report](realtime-summary-dashboard.md)<br>
+[Voice report](realtime-voice-dashboard.md)<br>
+[Agents report](realtime-agents-analytics.md)<br>
+[Ongoing conversation report](realtime-ongoing.md)  
+[Backlog conversation report](realtime-backlog-conv.md)  
+[Bot report](/dynamics365/contact-center/use/agent-realtime-dashboard)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

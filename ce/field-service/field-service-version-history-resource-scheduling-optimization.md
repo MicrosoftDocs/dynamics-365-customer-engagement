@@ -1,7 +1,7 @@
 ---
 title: Resource Scheduling Optimization version history
 description: Version updates and updated features in the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service.
-ms.date: 08/24/2025
+ms.date: 12/19/2025
 ms.update-cycle: 1095-days
 ms.subservice: resource-scheduling-optimization
 ms.topic: overview
@@ -27,8 +27,13 @@ For information about older versions, see [Version history archive](version-hist
 | | *Canada* | [3.4.0.917](#340917)  | [3.5.0.42](#35042) | 08/29/2025
 | | *India* | [3.4.0.917](#340917) | [3.5.0.42](#35042) | 08/29/2025
 | | *France* | [3.4.0.917](#340917) | [3.5.0.42](#35042) | 08/29/2025
-| | *United Arab Emirates* | [3.4.0.917](#340917) | [3.5.0.42](#35042) | 08/29/2025
+| | *South Africa* | | [3.5.0.42](#35042) | 12/18/2025
+| | *Germany* | | [3.5.0.42](#35042) | 12/18/2025
+| | *Switzerland* | | [3.5.0.42](#35042) | 12/18/2025
+| | *Norway* | | [3.5.0.42](#35042) | 12/18/2025
+| | *Korea* | | [3.5.0.42](#35042) | 12/18/2025
 |**Station 3** | |  |  | |
+| | *United Arab Emirates* | [3.4.0.917](#340917) | [3.5.0.42](#35042) | 08/29/2025
 | | *Japan* |  [3.4.0.917](#340917)| [3.5.0.42](#35042) | 09/05/2025
 | | *Asia Pacific* | [3.4.0.917](#340917) | [3.5.0.42](#35042) | 09/05/2025
 | | *Great Britain* |[3.4.0.917](#340917) | [3.5.0.42](#35042) | 09/05/2025
