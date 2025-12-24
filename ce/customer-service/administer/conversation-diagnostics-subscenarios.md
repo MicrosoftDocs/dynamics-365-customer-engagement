@@ -107,17 +107,17 @@ Administrators can use the following information that's logged in Application In
 
 Provides information about the static configuration settings related to service representatives, such as their associated skills, capacity profiles, queues they are part of, default presence, maximum capacity units. This is synced whenever there is a change to any of the configurations and at periodic intervals of 10 days.
 
-- **omnichannel.agent.id**: The ID of the Service representative being logged.
-- **omnichannel.queue.ids**: The associated queue IDs for the Service representative.
-- **omnichannel.max_capacity.units**: The maximum capacity units for the Service representative.
-- **omnichannel.default_presence**: The default presence for the Service representative.
+- **omnichannel.agent.id**: The ID of the service representative being logged.
+- **omnichannel.queue.ids**: The associated queue IDs for the service representative.
+- **omnichannel.max_capacity.units**: The maximum capacity units for the service representative.
+- **omnichannel.default_presence**: The default presence for the service representative.
     - f523f628-c07a-e811-8162-000d3aa11f50 → Available
     -	efdeb843-c07a-e811-8162-000d3aa11f50 → Busy
     -	08971864-c07a-e811-8162-000d3aa11f50 → Busy - Do Not Disturb (DND)
     -	3dacae76-c07a-e811-8162-000d3aa11f50 → Away
     -	70139190-c07a-e811-8162-000d3aa11f50 → Offline
--	**omnichannel.capacity_profile.ids**: The capacity profile IDs for the Service representative.
--	**omnichannel.associated_skills**: The skills for the Service representative.
+-	**omnichannel.capacity_profile.ids**: The capacity profile IDs for the service representative.
+-	**omnichannel.associated_skills**: The skills for the service representative.
 
 ### Subscenario: QueueConfiguration
 
@@ -150,9 +150,9 @@ Is for the custom assignment rulesets used for assignment, prioritization, and s
 Provides status and capacity history of service representatives, including their presence, capacity profile, and available units. The data is synced whenever there is a change to any of these configurations.
 
 - **omnichannel.agent.id**: The ID of the service representative being logged.
-- **omnichannel.current_presence_id**: The current presence ID of the Service representative.
-- **omnichannel.current_base_presence**: The current base presence of the Service representative.
-- **omnichannel.available_capacity.units**: The available capacity units for the Service representative.
+- **omnichannel.current_presence_id**: The current presence ID of the service representative.
+- **omnichannel.current_base_presence**: The current base presence of the service representative.
+- **omnichannel.available_capacity.units**: The available capacity units for the service representative.
 - **omnichannel.capacity_profile**: The capacity profile details (capacity profile id, available capacity, capacity profile reset duration, default maximum capacity, is force assignment, is block assignment).
 
 ## Channel-specific subscenarios
