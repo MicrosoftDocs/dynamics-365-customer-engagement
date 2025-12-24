@@ -19,8 +19,8 @@ Enable the following AI features in Power Platform admin center or Power Apps as
 Copilot suggests field values on the case form based on the following factors:
 
 - App usage, information that's already available in the form, and frequently used data. The feature doesn't require any input from users.
-- Copied text that the user provides through the smart paste capability.
-- File contents that the user provides through the files (Preview) capability.
+- Copied text that the user provides through the smart paste (preview) capability.
+- File contents that the user provides through the files (preview) capability.
 
 Learn more in [Use Copilot form-fill assistance in model-driven apps](/power-apps/user/form-filling-assistance).
 
