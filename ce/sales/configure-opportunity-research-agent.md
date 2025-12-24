@@ -63,6 +63,8 @@ If you're using a custom security role, ensure that the opportunity owners have 
 |---------|----------------------------|---------|
 | Consent to use Microsoft 365 emails for opportunity research | Basic-level - Read | prvReadconnector |
 
+
+<a name="configure-server-side-synchronization"></a>
 ### (Optional)Configure server-side synchronization
 
 If you want the agent to only access emails and meetings synced to Dynamics 365 Sales, configure server-side synchronization for seller mailboxes. Alternatively, you can enable Microsoft 365 Services for the agent to read emails directly from the sellers' Microsoft 365 mailboxes. Learn more in [Verify prerequisites](#step-3-verify-prerequisites).
