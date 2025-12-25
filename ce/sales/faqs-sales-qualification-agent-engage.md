@@ -60,3 +60,7 @@ The Research-only mode has a configuration experience that allows admins to pers
 ## Which languages are supported by the Research and engage mode?
 
 The Research and engage mode is only supported in English language.
+
+## What data is passed to Bing Search?
+
+The agent uses Bing Search to find information from the public web and generate insights about your lead. The agent only passes to Bing Search the lead's company name, website url, and any Dataverse fields that you manually define in the configuration settings.
