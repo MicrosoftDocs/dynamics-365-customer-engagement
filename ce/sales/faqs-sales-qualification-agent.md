@@ -69,4 +69,4 @@ The Research-only mode is only supported in English language.
 
 ## What data is passed to Bing Search?
 
-The agent uses Bing Search to find information from the public web and generate insights about your lead. The agent only passes to Bing Search the lead's company name, website url, and any Dataverse fields that you manually define in the configuration settings.
+The agent uses Bing Search to find information about your lead from the public web and generate insights. The agent only passes the lead's company name, website URL, and any Dataverse fields that you manually define in the configuration settings to Bing Search.
