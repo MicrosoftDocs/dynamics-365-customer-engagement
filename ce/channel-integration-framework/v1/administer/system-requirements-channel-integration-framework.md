@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.date: 05/15/2025
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"

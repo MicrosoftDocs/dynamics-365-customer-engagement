@@ -4,9 +4,9 @@ description: Use the Intent group report to drill down into metrics by intent an
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
-ms.date: 11/17/2025
+ms.date: 12/18/2025
 ms.custom: bap-template
 ---
 
@@ -22,6 +22,8 @@ You can filter this report by **Time**, **Line of business**, **Intent group**, 
 
 As part of visual customization, all record routing dashboards including **Summary**, **Backlog work items**, **Ongoing work items**, **Queue**, and **Agent** reports can be filtered by intent group, intent, and line of business by using the **IntentFamilyName** in **DimIntent** dimension. Learn more in [visual customization](customize-reports.md). You can search for the data measures for intent to select specific intent-based filters.
 
+:::image type="content" source="../media/record-routing-intent-group.png" alt-text="Screenshot of real-time for record routing intent group report." lightbox="../media/record-routing-intent-group.png":::
+
 ## Prerequisites
 
 - You turned on the toggle for Customer Intent Agent and added the Line of business, Intent groups, and Intents. Learn more in [Customer Intent Agent](/dynamics365/contact-center/administer/manage-customer-intent-agent).
@@ -36,7 +38,7 @@ You see the report after 24 hrs of provisioning. If you don't enable Customer In
 |---------|---------|
 |Intent group name| Name of the intent group.|
 |Unassigned work items|	By default, the system displays the number of record-type work items modified in the last two hours and  currently unassigned within the intent group.|
-|Assigned work items|	By default, the system displays the number of record-type work items modified in the last two hours and  currently assigned within the intent group. Assigned work items = Auto assigned work items + Manually assigned work items.|
+|Assigned work items|	By default, the system displays the number of record-type work items modified in the last two hours and  currently assigned within the intent group. Assigned work items = autoassigned work items + manually assigned work items.|
 |Longest wait time|	Waiting time until the customer service representative (service representative or representative) accepts the work item per intent group.|
 |Agents online|	Number of representatives logged in per intent group.|
 |Agents available|	Number of representatives in **Available** status per intent group.|
@@ -46,9 +48,11 @@ You see the report after 24 hrs of provisioning. If you don't enable Customer In
 
 Select **Detailed view** to view metrics by intent and representative.
 
+:::image type="content" source="../media/record-routing-intent-group-drilldown.png" alt-text="Screenshot of detailed view for a selected intent group.":::
+
 |Metrics | Definition  |
 |---------|---------|
-|Assigned work items|	By default, the system displays the number of record-type work items modified in the last two hours and are currently assigned. Assigned work items = Auto assigned work items + Manually assigned work items.|
+|Assigned work items|	By default, the system displays the number of record-type work items modified in the last two hours and ones that are currently assigned. Assigned work items = autoassigned work items + manually assigned work items.|
 |Unassigned work items|	By default, the system displays the number of record-type work items modified in the last two hours and are currently unassigned.|
 |Agents with active work items|	Number of representatives that are currently with active record type work items.|
 |Agents online|	Number of logged in representatives.|
@@ -59,7 +63,7 @@ Select **Detailed view** to view metrics by intent and representative.
 |Metrics | Definition  |
 |---------|---------|
 |Intent name|	Name of intent set by the administrator to be tracked per record type work item. |
-|Assigned work items|	By default, the system displays the number of record-type work items modified in the last two hours and are currently assigned per intent name. Assigned work items = Auto assigned work items + Manually assigned work items.|
+|Assigned work items|	By default, the system displays the number of record-type work items modified in the last two hours and ones that are currently assigned per intent name. Assigned work items = autoassigned work items + manually assigned work items.|
 |Unassigned work items|	By default, the system displays the number of record-type work items modified in the last two hours and are currently unassigned per intent name.|
 |Longest wait time (hh:mm:ss)|	Waiting time until the representative accepts the work item per intent name.|
 
@@ -69,7 +73,7 @@ Select **Detailed view** to view metrics by intent and representative.
 |Metrics | Definition  |
 |---------|---------|
 |Agent name|	Name of representatives set to the specific intent. |
-|Assigned work items|	By default, the system displays the number of record-type work items modified in the last two hours and are currently assigned to the specific representative. Assigned work items = Auto assigned work items + Manually assigned work items.|
+|Assigned work items|	By default, the system displays the number of record-type work items modified in the last two hours and are currently assigned to the specific representative. Assigned work items = autoassigned work items + manually assigned work items.|
 |Unassigned work items| By default, the system displays the number of record-type work items modified in the last two hours and are currently unassigned per intent name.|
 |Transferred work items| Number of record type work items transferred and assigned to a representative. |
 |Active sessions|	By default, the system displays the number of active sessions the representative is currently in and modified in the last two hours.|

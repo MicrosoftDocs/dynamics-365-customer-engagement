@@ -174,6 +174,9 @@ You can consult a colleague before you transfer a customer's call to them. You c
 > [!NOTE]
 > This feature is currently in preview and is planned for deprecation soon. We are actively evaluating alternative options. No immediate action is required at this time.
 
+> [!NOTE]
+> This feature is currently in preview and will be deprecated soon. We are evaluating alternative options. No immediate action is required from your end at this time.
+
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 

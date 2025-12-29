@@ -36,7 +36,7 @@ The agent is designed to help sellers automate manual tasks so they can invest m
 The agent was evaluated for each use case using curated datasets and quality metrics:
 
 - **Research:** Evaluated using a dataset covering various company types and industries, based on 15 criteria, iterated until a passing threshold was met.
-- **Ideal customer profile match:** Used synthetic leads to test output accuracy, iterated until accuracy threshold was surpassed.
+- **Target customer profile match:** Used synthetic leads to test output accuracy, iterated until accuracy threshold was surpassed.
 - **Outreach:** Generated personalized emails and evaluated quality based on binary, evaluative, and comparative criteria, iterated until pass rates and similarity scores were met.
 - **Follow up:** Generated responses based on customer emails and knowledge articles, handed over to human sellers when needed, and evaluated groundedness using search results and LLM ratings.
 
@@ -51,8 +51,8 @@ The agent was evaluated for each use case using curated datasets and quality met
 The Research-only mode has a configuration experience that allows admins to personalize the agent to work for their specific sales team:
 
 - Select which leads should be processed by the agent by defining the selection criteria. 
-- Clearly define products and value propositions to help the agent determine ideal customer profile fit and personalize outreach.
-- Define ideal customer profile attributes based on target customers and available data in Dataverse.
+- Clearly define products and value propositions to help the agent determine target customer profile suitability and personalize outreach.
+- Define target customer profile attributes based on target customers and available data in Dataverse.
 - Define budget, authority, need, and timeline (BANT) criteria to determine the lead's fit to qualify.
 - Configure internal and external knowledge sources to help the agent research leads and draft outreach and follow-up emails.
 - The agent primarily operates on data in Dataverse&mdash;the more information available about a lead, the better the outputs.

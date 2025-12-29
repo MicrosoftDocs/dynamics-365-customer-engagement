@@ -163,6 +163,8 @@ items:
                     href: configure-sqa-assignment-rules.md
                   - name: Configure knowledge sources
                     href: configure-sqa-knowledge-source.md
+                  - name: Define custom research insights
+                    href: sales-qualification-agent-custom-research-topics.md
                   - name: Run simulation to review outreach email content
                     href: run-simulation-sqa-outreach-email.md
               - name: Start the agent
@@ -187,15 +189,19 @@ items:
             items:
               - name: Overview
                 href: sales-close-agent.md
-              - name: Setup and configure Sales Close Agent - Research  
+              - name: Set up and configure Sales Close Agent - Research  
                 items:
-                  - name: Setup and configure Sales Close Agent - Research
+                  - name: Set up and configure Sales Close Agent - Research
                     href: configure-opportunity-research-agent.md
+                  - name: Edit settings of Sales Close Agent - Research
+                    href: edit-opportunity-research-agent-settings.md
                   - name: View agent insights and metrics
                     href: view-sales-close-agent-research-insights-metrics.md
               - name: Set up and configure Sales Close Agent - Engage
                 href: configure-sales-close-agent.md      
                 items:
+                - name: Set up through the Setup Assistant (preview)
+                  href: sales-close-agent-engage-setup-assistant.md
                 - name: Open the settings page
                   href: open-sales-close-agent-settings.md
                 - name: Configure the agent profile
@@ -220,7 +226,7 @@ items:
                   href: view-sales-close-agent-engage-insights-metrics.md
                 - name: View records processed by agent
                   href: view-sales-close-agent-engage-processed-records.md  
-                - name: How the Sales Close Agent - Engage works
+                - name: How the agent works
                   href: how-sales-close-agent-engage-mode-works.md
           - name: Sales Research Agent (preview)
             items:
@@ -357,15 +363,15 @@ items:
                 href: manage-excel-templates.md
               - name: Create email templates
                 href: /powerapps/user/email-template-create?context=/dynamics365/context/sales-context
-          - name: Work with hierarchy visualization
+          - name: Work with visual hierarchies
             items:
-              - name: Overview of hierarchy visualization
+              - name: Overview of visual hierarchies
                 href: hierarchy-visualization.md
-              - name: Create and publish a hierarchy visualization
+              - name: Design and publish a hierarchy
                 href: create-activate-hierarchy-visualizations.md
-              - name: Manage hierarchy visualization
+              - name: Manage hierarchies
                 href: manage-hierarchy-visualizations.md
-              - name: Add a view hierarchy button
+              - name: Add a visual hierarchy button
                 href: add-hierarchy-visualization-custom-tables.md
           - name: Configure email engagement
             href: configure-email-engagement.md
@@ -1025,11 +1031,11 @@ items:
             items:
               - name: Use auto capture
                 href: free-auto-capture.md
-          - name: Work with hierarchy visualization
+          - name: Work with visual hierarchies
             items:
-              - name: Overview of hierarchy visualization
+              - name: Overview of visual hierarchies
                 href: hierarchy-visualization.md
-              - name: View and understand hierarchy visualization
+              - name: View and understand a hierarchy
                 href: view-hierarchy-visualizations.md
           - name: How notes analysis assists you with suggestion
             href: notes-analysis.md

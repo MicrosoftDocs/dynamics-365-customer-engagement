@@ -60,7 +60,7 @@ Administrators control what data the Field Service mobile app downloads with the
 
       :::image type="content" source="../media/fs-mobile-power-apps-offline-table-edit.png" alt-text="Screenshot of the Bookable Resource Booking table offline data settings in the Field Service mobile app offline profile.":::
 
-   - Select the rows or filters, relationships, files, and images to make available offline.
+   - Select the rows or filters, relationships, files, and images to make available offline. Learn more: [Apply filters](/power-apps/mobile/setup-mobile-offline#add-a-table-to-an-offline-profile-and-apply-filters)
 
    - Select the sync frequency.
 
@@ -107,5 +107,9 @@ Review the following blog posts about using the offline profiles in the Field Se
 - [Best Practices for Offline Mode in the Field Service mobile app – Part 1](https://www.microsoft.com/en-us/dynamics-365/blog/administrator/2023/11/06/best-practices-for-offline-mode-in-the-field-service-mobile-app-part-1/)
 - [Best Practices for Offline Mode in the Field Service mobile app – Part 2](https://www.microsoft.com/en-us/dynamics-365/blog/administrator/2023/11/08/best-practices-for-offline-mode-in-the-field-service-mobile-app-part-2/)
 - [Best Practices for Offline Mode in the Field Service mobile app – Part 3](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2023/11/10/best-practices-for-offline-mode-in-the-field-service-mobile-app-part-3/)
+
+## Next step
+
+- [Configure offline sync](offline-data-sync.md)
 
 [!INCLUDE [footer-include](../../includes/footer-banner.md)]

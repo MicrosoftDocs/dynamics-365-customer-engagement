@@ -7,8 +7,6 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.custom: bap-template
-content_well_notification:
-  - AI-contribution
 ai-usage: ai-assisted
 ---
 # Close opportunities as won or lost 
