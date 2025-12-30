@@ -36,14 +36,14 @@ Before you design and publish a hierarchy, make sure the following prerequisites
 
 ## Configure a single table hierarchy
 
-A single table hierarchy uses a self-referential relationship within the same table to define parent-child relationships. This hierarchy can also be the root node of a multi-table or hybrid hierarchy. Follow these steps to configure a single table hierarchy:  
+A single table hierarchy uses a self-referential relationship within the table to define the parent-child relationship.  
 
 1. Sign in to your sales app. In the lower-left corner of the page, go to **Change area** > **App Settings**.  
 1. Under **General Settings**, select **Visual hierarchy**.  
 1. Select **New hierarchy** and enter a name for the hierarchy.  
-1. In the hierarchy designer page, select **Add** and choose the desired table with the self-referential relationship. In this example, add the **Account** table.  
+1. In the hierarchy designer page, select **Add** and choose the desired table with the self-referential relationship.  
     :::image type="content" source="media/hv-add-table.png" alt-text="Screenshot of selecting the Add table option in the hierarchy designer page.":::
- 
+
     The **Settings** pane opens on the right side of the page.  
 1. In the **General** tab, define the child-parent relationship, and choose the view and forms:  
 
