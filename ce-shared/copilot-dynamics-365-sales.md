@@ -1,6 +1,6 @@
 The following Copilot capabilities are available out of the box in Dynamics 365 Sales:
 
-| Feature | Description | Learn More |
+| Feature | Description | Learn more |
 |------------|-------------|------------|
 | **Record summarization** | Generates a concise summary of key information from sales records such as leads, opportunities, and accounts. | [Summarize records with Copilot](/dynamics365/sales/copilot-summarize-records) |
 | **Embedded experiences** | Integrates AI-generated summaries and insights directly within the lead and opportunity forms. | [View the opportunity summary widget](/dynamics365/sales/copilot-summarize-records#view-the-opportunity-summary-widget)<br>[Lead summary after lead qualification](/dynamics365/sales/qualify-lead-convert-opportunity-sales#lead-summary) |

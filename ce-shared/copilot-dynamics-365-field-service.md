@@ -1,6 +1,6 @@
 The following Copilot capabilities are available out of the box in Dynamics 365 Field Service:
 
-| Feature | Description | Learn More |
+| Feature | Description | Learn more |
 |---------|-------------|------------|
 | Natural language questions | Ask questions in natural language about the data and information stored in the system. Use a library of predefined prompts to get Copilot working for you quickly. | [Use Copilot in the Dynamics 365 Field Service web application](/dynamics365/field-service/copilot-side-pane) |
 | AI-powered work order update | Enable technicians to use natural language (text or speech) in the mobile app for Copilot to suggest and update work order fields, such as booking status, times, tasks, and line items. | [AI-powered work order update (preview)](/dynamics365/field-service/work-order-update) |
