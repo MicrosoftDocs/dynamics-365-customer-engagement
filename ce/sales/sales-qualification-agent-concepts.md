@@ -1,11 +1,9 @@
 ---
 title: Understand the Sales Qualification Agent concepts
-description: Learn about the concepts of the Sales Qualification Agent in Dynamics 365 Sales, including ideal customer profile, purchase interest, and BANT.
+description: Learn about the concepts of the Sales Qualification Agent in Dynamics 365 Sales, including target customer profile, purchase interest, and BANT.
 ms.topic: concept-article 
 ms.date: 07/31/2025
 ms.service: dynamics-365-sales
-content_well_notification:
-  - AI-contribution
 ms.custom: bap-template
 author: udaykirang
 ms.author: udag
@@ -19,17 +17,17 @@ ai-usage: ai-assisted
 
 The concepts described in this article are applicable for the Sales Qualification Agent in Dynamics 365 Sales and applicable for both Research-only mode and Research and engage modes. The concepts help you understand how the agent evaluates leads and determines their fit for your organization. Further, the agent uses these concepts to provide insights and recommendations for lead qualification.
 
-## What is the ideal customer profile and how is the fit determined?
+## What is the target customer profile and how is the fit determined?
 
-The *ideal customer profile* (ICP) is a detailed description of a customer who would benefit the most from your company's products or services. Your ideal customer profile might include characteristics like industry, company size, job title of the lead, location, and annual revenue.
+The *target customer profile* is a detailed description of a customer who would benefit the most from your company's products or services. Your target customer profile might include characteristics like industry, company size, job title of the lead, location, and annual revenue.
 
-The ICP fit is determined based on the attributes defined in [the Ideal customer profile section of the agent configuration](configure-sales-qualification-agent-handoff-criteria.md#configure-the-ideal-customer-profile-and-bant-criteria). The agent categorizes leads into three categories based on the ICP attributes:
+The target customer profile suitability is determined based on the attributes defined in [the Handoff criteria section of the agent configuration](configure-sales-qualification-agent-handoff-criteria.md#configure-target-customer-profile-and-bant-criteria). The agent categorizes leads into three categories based on the target customer profile attributes:
 
-- **High fit**: The lead matches more than 70% of the ICP attributes. This indicates that the lead is a strong candidate for your products or services.
-- **Moderate fit**: The lead matches 50% to 70% of the ICP attributes. This indicates that the lead may be a potential candidate for your products or services, and can be pursued after the high fit leads.
-- **Low fit**: The lead matches less than 50% of the ICP attributes. This indicates that the lead is not a good candidate to pursue.
+- **High fit**: The lead matches more than 70% of the target customer profile attributes. This indicates that the lead is a strong candidate for your products or services.
+- **Moderate fit**: The lead matches 50% to 70% of the target customer profile attributes. This indicates that the lead may be a potential candidate for your products or services, and can be pursued after the high fit leads.
+- **Low fit**: The lead matches less than 50% of the target customer profile attributes. This indicates that the lead is not a good candidate to pursue.
 
-For instance, if your company sells software solutions for retail businesses, your ICP might include companies in the retail industry with a certain number of employees and annual revenue. The following table provides examples of ICP attributes for retail businesses:
+For instance, if your company sells software solutions for retail businesses, your target customer profile might include companies in the retail industry with a certain number of employees and annual revenue. The following table provides examples of target customer profile attributes for retail businesses:
 
 | Criteria | Details |
 |----------|---------|
@@ -39,16 +37,16 @@ For instance, if your company sells software solutions for retail businesses, yo
 | Annual revenue range | $100 million to $10 billion+ |
 | Location of target customers | Urban and suburban areas in North America with high consumer traffic, except New York |
 
-The following table provides a few sample leads and their ICP fit category based on the above attributes:
+The following table provides a few sample leads and their target customer profile suitability category based on the above attributes:
 
-| Account Name | Industry | Company Size | Job Title | Annual Revenue | Location | ICP Fit | Reasoning |
+| Account Name | Industry | Company Size | Job Title | Annual Revenue | Location | target customer profile suitability | Reasoning |
 |--------------|----------|--------------|-----------|----------------|----------|---------|-----------|
-| Contoso Ltd. | Retail | 10,000 employees | Procurement Manager | $500 million | New York, NY | High fit | Matches all ICP criteria, except location as New York is excluded. |
-| Fabrikam Inc. | E-commerce | 500 employees | CFO | $1 billion | San Francisco, CA | High fit | Matches all ICP criteria except company size |
+| Contoso Ltd. | Retail | 10,000 employees | Procurement Manager | $500 million | New York, NY | High fit | Matches all target customer profile criteria, except location as New York is excluded. |
+| Fabrikam Inc. | E-commerce | 500 employees | CFO | $1 billion | San Francisco, CA | High fit | Matches all target customer profile criteria except company size |
 | Northwind Traders | Specialty Retail | 200 employees | CEO | $80 million | Chicago, IL | Moderate fit | Matches industry, job title, and location criteria, but company size and revenue don't match. |
 | Tailspin Toys | Department Store | 1000 employees | Procurement Director | $95 million | Santiago, Chile | Moderate fit | Matches industry, company size, and job title criteria, but revenue and location don't match. |
-| Wingtip Toys | Manufacturing | 500 employees | Operations Manager | $150 million | Hyderabad, India | Low fit | Except for revenue, none of the ICP criteria match. |
-| Blue Yonder Airlines | Aviation | 500 employees | Software engineering manager | $500 million | Suburban area, CA | Low fit | Does not match any of the ICP criteria. |
+| Wingtip Toys | Manufacturing | 500 employees | Operations Manager | $150 million | Hyderabad, India | Low fit | Except for revenue, none of the target customer profile criteria match. |
+| Blue Yonder Airlines | Aviation | 500 employees | Software engineering manager | $500 million | Suburban area, CA | Low fit | Does not match any of the target customer profile criteria. |
 
 ## What is purchase interest and how is it determined?
 
@@ -145,7 +143,7 @@ The BANT criteria can be detected from various sources such as emails, CRM confi
 
 The agent determines the lead rating based on the Fit, Intent, Recency, Engagement (FIRE) framework:
 
-- **Fit**: Measures how well the lead aligns with the Ideal Customer Profile (ICP) criteria, such as industry, company size, location, and role.
+- **Fit**: Measures how well the lead aligns with the target customer profile criteria, such as industry, company size, location, and role.
 - **Intent**: Assesses the lead’s level of interest based on signals like purchase inquiries, pricing requests, demo requests, or stated business challenges.
 - **Recency**: Evaluates the freshness of the interactions or engagements as on the date of research. The recency is categorized as follows:
     - Interactions within 7 days are considered recent.

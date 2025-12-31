@@ -12,19 +12,30 @@ ms.custom: bap-template
 
 # Design and publish a hierarchy
 
-As an administrator, you can design and publish a hierarchy that allows your organization to visualize and work with complex hierarchical data. You can even design multiple hierarchies to show different relationships, or different views of the data such as active records only, or only records from certain countries/regions.  
+As an administrator, you can design and publish a hierarchy that allows your organization to visualize and work with hierarchical data. You can design multiple hierarchies to show different relationships, or provide alternative views of the data such as showing only active records or filtering by specific countries/regions.  
+Depending on your business requirements, you can design the following types of hierarchies:  
 
-Hierarchies are designed using your existing tables, forms, relationships, and views. You can design and publish a hierarchy based on a N:1 self-referential relationship&mdash;one where each row in a table has an optional pointer to its parent row, 1:N many-to-one relationship&mdash;one where each row in a table has a pointer to a row in another table, or both, and N:N many-to-many relationships.
+- [Single table (self-referential)](hierarchy-visualization.md#single-table)
+- [Multi-table](hierarchy-visualization.md#multi-table)
+- [Hybrid hierarchies](hierarchy-visualization.md#hybrid), which combine both single and multi-table relationships.
 
 ## Prerequisites
 
 Before you design and publish a hierarchy, ensure the following prerequisites are met:
 
-- You must have administrator privileges.  
-- Define the parent-child relationship.  
-    - For single table hierarchies, specify the column that contains the parent ID. For example, Parent Account ID for the Account table.  
-    - For multi-table hierarchies, define the relationships between tables. For example, Account to Contact and Opportunity.  
-- For custom tables, ensure that rows can reference a parent row in the same table. If the relationship doesn't exist, [you need to create it](/power-apps/maker/data-platform/create-edit-entity-relationships).  
+- You must have System administrator privileges.  
+- You must have the required relationships for the tables you want to include in the hierarchy:  
+    - For a single table hierarchy, a relationship pointing to the parent row must exist.  
+    - For multi-table hierarchies, relationships between the tables must exist.  
+    To create relationships, see [create and edit entity relationships](/power-apps/maker/data-platform/create-edit-entity-relationships).  
+- You must disable the legacy hierarchy control feature in Power Platform if it's enabled. The [legacy hierarchy control is deprecated](/power-platform/important-changes-coming#deprecation-of-hierarchy-control-in-model-driven-apps) and isn't related to the new Visual hierarchy feature. Keeping it enabled confuses users by showing the **View hierarchy** button twice on the command bar for entities with configured hierarchies.  
+    **Follow these steps**:  
+    1. Sign in to the [Power Apps maker portal](https://make.powerapps.com).  
+    1. Select **Apps** from the left pane, and then select your sales app.  
+    1. In the app designer, select **Settings** from the command bar.  
+    1. In the **Settings** dialog box, select the **Features** tab and then disable the **(Retired) Enable the "View hierarchy" capability** option.  
+        :::image type="content" source="media/disable-legacy-hierarchy-control.png" alt-text="Screenshot of the Features tab in the Settings dialog box in the app designer.":::  
+    1. Save and publish the app.
 
 ## Design and publish
 
@@ -35,10 +46,14 @@ To design and publish a hierarchy, follow these steps:
 1. Select **New hierarchy** and then enter a name for the hierarchy.  
 1. [Configure the root node of the hierarchy](#configure-the-root-node-of-the-hierarchy).  
     >[!NOTE]
-    > If you're creating a self-referential simple hierarchy, adding child nodes isn't required. After configuring the root node, proceed to step 6 to complete the process.  
+    > If you're creating a single table hierarchy, adding child nodes isn't required. After configuring the root node, proceed to step 6 to complete the process.  
 1. [Configure the child node](#configure-the-child-node).  
 1. Select **Save**.  
-1. (Optional) Select **Preview** to see how the hierarchy would look if published with current settings. Update settings and preview changes until you’re satisfied with the results. In **Preview** mode, you can change the selected data being viewed by clicking the record name at the top of the preview window.  
+1. Select Preview to do the following tasks before publishing the hierarchy:  
+    - Interact with the hierarchy as a user would, such as expanding and collapsing nodes, viewing details, and performing quick actions.  
+    - Change settings and preview changes until you’re satisfied with the results.  
+    - Change data you view by selecting the record name at the top of the preview window.  
+    - [Troubleshoot the hierarchy](manage-hierarchy-visualizations.md#troubleshoot-a-hierarchy) before publishing it in the organization.  
 1. Select **Publish** and then select **OK** on the confirmation message.  
     The hierarchy is active and available to users to view and interact with.  
 

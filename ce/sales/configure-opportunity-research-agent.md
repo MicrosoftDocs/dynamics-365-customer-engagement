@@ -1,11 +1,9 @@
 ---
 title: Configure the Sales Close Agent - Research (preview)
 description: Learn how to set up and configure the Sales Close Agent - Research in Dynamics 365 Sales.
-ms.date: 11/21/2025
+ms.date: 12/24/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
-content_well_notification:
-  - AI-contribution
 ms.custom: bap-template
 author: lavanyakr01
 ms.author: lavanyakr
@@ -30,7 +28,7 @@ As the agent consumes capacity, it's important to plan and configure it to handl
 - Determine the products that you want the Sales Close Agent - Research to handle. The products should be handled by a single sales team. If your company sells multiple products through different sales teams, pick one product line.
 
 - Determine the segment of opportunities that you want the Sales Close Agent - Research to handle. For example, you might want it to handle only the opportunities that are **Hot** and with an estimated revenue of $100,000 or more. 
-- Identify the sellers who will work on the opportunities segment that the agent will research on. You need to [configure server-side synchronization](#configure-server-side-synchronization) for the mailboxes of these sellers to allow the agent to access their emails and meetings related to the opportunities. 
+
 - The agent uses the machine learning model in predictive opportunity scoring for risk assessment. If you didn't configure scoring in your environment, it's configured automatically when you start the agent.
 
 ## Step 2: Configure prerequisites
@@ -65,9 +63,13 @@ If you're using a custom security role, ensure that the opportunity owners have 
 |---------|----------------------------|---------|
 | Consent to use Microsoft 365 emails for opportunity research | Basic-level - Read | prvReadconnector |
 
-### Configure server-side synchronization
 
-After you identify the sellers who work on the segment of opportunities that the agent will research on, you must configure server-side synchronization for their mailboxes. This step is required to allow the agent to access emails and meetings related to the opportunities from the sellers' mailboxes.
+<a name="configure-server-side-synchronization"></a>
+### (Optional) Configure server-side synchronization
+
+If you want the agent to access only the emails and meetings synced to Dynamics 365 Sales, configure server-side synchronization for seller mailboxes. Alternatively, you can enable Microsoft 365 Services for the agent to read emails directly from the sellers' Microsoft 365 mailboxes. Learn more in [Verify prerequisites](#step-3-verify-prerequisites).
+
+Server-side synchronization always gets precedence. If both server-side synchronization and Microsoft 365 Services are enabled, the agent reads emails using server-side synchronization only.
 
 **To configure server-side synchronization:**
 
@@ -86,6 +88,7 @@ After you identify the sellers who work on the segment of opportunities that the
    
       :::image type="content" source="media/xrmtoolbox-email-tracking.png" alt-text="Screenshot of the User Settings Utility in XRMToolBox with the Track email messages option set to All email messages.":::
 
+
 ## Step 3: Verify prerequisites
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
@@ -93,16 +96,34 @@ After you identify the sellers who work on the segment of opportunities that the
 1. Go to **General Settings** > **Dynamics 365 AI hub**. If you have trouble finding or accessing the AI hub, it might be due to permission restrictions. Learn more in [Access Dynamics 365 AI Hub](dynamics-365-ai-hub.md).
 
 1. Select **Create and manage agents** under **Agent manager**.
-1. On the **AI agents** page, select **Prerequisites** and ensure that all prerequisites are met. 
+1. On the **AI agents** page, select **Prerequisites** and ensure that prerequisites common to all sales agents are met.
    :::image type="content" source="media/opportunity-research-agent-prerequisites.png" alt-text="Screenshot of the Prerequisites page for Sales Close Agent - Research."::: 
 1. If any of them isn't marked as **Done**, select the appropriate call-to-action to complete the prerequisite:
    - **Microsoft Copilot Studio capacity**: Select **Set up** to open the Power Platform admin center and set up capacity. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
-   - **Bing search**: Select **Accept terms** to open the Power Platform admin center and allow Bing search under **Generative AI features** > **Bing search**.
-   - **Move data across regions**: Select **Accept terms** to open the Power Platform admin center and allow data movement under **Generative AI features** > **Move data across regions**.
 
-1. After all the prerequisites are met, select **Create** and then in the **Scenario** page, select **Research** and then select **Continue**.
-  The settings page opens.  
+   - **Move data across regions**: Select **Accept terms** to open the Power Platform admin center and allow data movement under **Generative AI features** > **Move data across regions**.
+   - **AI prompts**: Mark as **Done** if you've already turned on AI prompts as part of the prerequisites.
+
+1. After the prerequisites are met, select **Create** and then in the **Scenario** page, select **Research**.
+1. Under the **Prerequisites** section, ensure that all the prerequisites specific to the Sales Close Agent - Research are met. If any of them isn't marked as **Done**, select the appropriate call-to-action to complete the prerequisite:
+   - **Bing search**: Select **Accept terms** to open the Power Platform admin center and accept the terms for Bing search.
+
+   - **Microsoft 365 Services**: (Optional) To allow the agent to read emails directly from the sellers' Microsoft 365 mailboxes, select **Mark as done** and then select **Apply changes**. If you want to use server-side synchronization for reading emails, leave it disabled.  
+        > [!NOTE]
+        >- You must have at least *ONE* of the following roles: Global administrator, Dynamics 365 administrator, or tenant administrator role to enable Microsoft 365 Services for the agent. If you don't have the required role, the **Mark as done** checkbox is disabled.
+        >- You must have at least *ONE* of the following licenses: Microsoft 365/Office 365, Power Automate Premium license, or Dynamics 365 Sales Enterprise Edition to enable Microsoft 365 Services for the agent.
+        >- Be sure to select **Apply changes** after enabling Microsoft 365 Services for the agent.
+        >- Sellers will also be prompted to provide consent when they access the Opportunity research page.
+
+1. Select **Continue** to proceed to the agent configuration page.
   :::image type="content" source="media/opportunity-research-agent-settings.png" alt-text="Screenshot of the Sales Close Agent - Research settings page.":::
+
+### Configure the agent to read seller emails
+
+Granting access to seller's mailboxes empowers the agent to identify deal risks and provide actionable insights and key updates to sellers. You can choose between two methods to enable the agent to read seller emails:
+
+- **Configure server-side synchronization** (recommended): This method allows the agent to access emails and meetings synched to Dynamics 365 Sales. Learn more in [Configure server-side synchronization](#configure-server-side-synchronization).
+- **Enable Microsoft 365 Services for the agent**: This method allows the agent to read emails directly from the sellers' Microsoft 365 mailboxes. 
 
 ## Step 4: Configure the agent
 
@@ -116,7 +137,7 @@ After verifying the prerequisites, define the agent and company profile, selecti
     1. Enter your company name and website URL.  
     1. Enter the value proposition of the products associated with the opportunities that the agent will handle.  
        Providing a clear value proposition helps the agent focus its account research on the most relevant information. Instead of returning broad or generic insights about a company, the agent uses the value proposition to tailor its research and deliver insights that are specific to your product and its effect for the customer.
-       For example, if the agent is handling opportunities related to a coffee machine, you can specify "Our smart vending machine offers a variety of premium blends, customizable to your taste, with zero wait time, and minimal maintenance." instead of "We sell coffee machines to businesses."  
+       For example, if the agent is handling opportunities that are related to a coffee machine, you can specify "Our smart vending machine offers a variety of premium blends, customizable to your taste, with zero wait time, and minimal maintenance." instead of "We sell coffee machines to businesses."  
 
 ### Configure selection criteria for opportunities
 
@@ -132,9 +153,9 @@ After verifying the prerequisites, define the agent and company profile, selecti
 
 1. If you want the agent to research on opportunities created in the past, select the **Consider opportunities created in the last** checkbox and specify the number of days for the look back period. Otherwise, the agent only considers opportunities created after the agent is turned on.
 
-1. Select **Simulate** to view a set of opportunities that match the filter conditions. This isn't the full list, but it helps you verify that the agent is picking the right opportunities. 
+1. Select **Preview** to view a set of opportunities that match the filter conditions. This isn't the full list, but it helps you verify that the agent is picking the right opportunities. 
    > [!NOTE]
-   > If you haven't specified the look back period, you'll not see any opportunities in the simulation as the agent only considers opportunities created after the agent is turned on.
+   > If you haven't specified the look back period, you'll not see any opportunities in the preview as the agent only considers opportunities created after the agent is turned on.
 
   :::image type="content" source="media/opportunity-research-agent-selection-criteria.png" alt-text="Screenshot of the Selection criteria tab for Sales Close Agent - Research.":::
 
@@ -206,7 +227,7 @@ By default, the agent generates research insights for your competitors from publ
 
 Consider the following best practices while configuring knowledge sources for the Sales Close Agent - Research:
 
-- Keep descriptions specific. Adding descriptions such as “Dataverse table with Assets Under Management by client” is more helpful than just “Finance table”.
+- Keep descriptions specific. Adding descriptions such as "Dataverse table with Assets Under Management by client" is more helpful than just "Finance table".
 - Limit public sites. Too many broad domains dilute relevance; add the few that best match your industry.
 - Review security. The agent will only present data that the signed-in seller is permitted to access.
 - Monitor capacity. Large files and frequent refreshes consume AI credits; track usage in Power Platform admin center.

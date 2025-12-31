@@ -1,7 +1,7 @@
 ---
 title: Omnichannel for Customer Service dashboards
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs in Omnichannel for Customer Service to manage contact centers.
-ms.date: 11/11/2025
+ms.date: 12/16/2025
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -47,7 +47,9 @@ The following reports are available for Omnichannel historical analytics.
 
 - [Voicemail dashboard](oc-voicemail-dashboard.md): The Voicemail dashboard provides a view of the voicemails with details, such as the voicemail status and the number of voicemails per queue and representative.
 
-- [Proactive Outbound dashboard](/dynamics365/contact-center/use/proactive-outbound-dashboard): The Proactive Outbound dashboard provides organizations with detailed insights into proactive outbound customer engagements initiated through proactive outreach. This dashboard is available in Dynamics 365 Contact Center only. Learn how to enable it in [omnichannel historical analytics for proactive outbound engagements](../administer/oc-historical-analytics-reports.md#enable-omnichannel-historical-analytics-for-proactive-outbound-engagements).
+- [Proactive Outbound dashboard](/dynamics365/contact-center/use/proactive-outbound-dashboard): The Proactive Outbound dashboard provides organizations with detailed insights into proactive outbound customer engagements initiated through proactive outreach. This dashboard is available in Dynamics 365 Contact Center only. Learn how to enable it in [Omnichannel historical analytics for proactive outbound engagements](../administer/oc-historical-analytics-reports.md#enable-omnichannel-historical-analytics-for-proactive-outbound-engagements).
+
+- [Bot-Intent dashboard](/dynamics365/contact-center/use/bot-intent-historical): The Bot-Intent dashboard provides detailed insights about bot performance and customer engagement, supporting targeted analytics for continuous improvement. This dashboard is available in Dynamics 365 Contact Center only. Learn how to enable it in [historical analytics for intent](../administer/oc-historical-analytics-reports.md#enable-historical-analytics-for-intent).
 
 > [!NOTE]
 > The reports don't include work items of the Entity Record channel.
@@ -77,6 +79,27 @@ Optionally, you can also add the **Business Unit** filter that provides a consis
 ## Reports refresh and data retention
 
 See [Analytics reports refresh and data retention](info-analytics-reports.md#analytics-reports-refresh-and-data-retention)
+
+## View historical analytics reports in customized representative apps
+
+If you customized the Copilot Service workspace app, you must complete the following steps to be able to view the reports.
+
+1. On the Copilot Service workspace app tile, select the ellipsis (**More Options**), and then select **Open in App Designer**.
+1. Select **New**.
+1. On the **New page** dialog, select **Dataverse Table** for Omnichannel historical analytics, and then select **Next**.
+1. To add a Dataverse table, select the **Select existing table** option, and then select **Omnichannel historical analytics**.
+1. Select **Show in navigation**, and then select **Add**.
+1. From **Navigation**, select **Omnichannel historical analytics**, and then select **Settings**.
+1. Enter the following information:
+    - **Title**: Omnichannel historical analytics
+    - **Icon**: Select **Use web resource**.
+    - **Select icon**: msdyn_/Analytics/imgs/OmnichannelReportIcon.svg
+    - **ID**: OCReportsSubArea
+1. Select **Advanced Settings**, and then select the following checkboxes:
+    - **SKU**: **All**, **On premise**, **Live**, and **SPLA**.
+    - **Client**: **Web**.
+    - **Outlook shortcut**: **Offline availability**.
+1. Select **Save**, and then select **Publish**.
 
 ### Related information
 
