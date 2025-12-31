@@ -1,5 +1,3 @@
-The following Copilot capabilities are available out of the box in Dynamics 365 Field Service:
-
 | Feature | Description | Learn more |
 |---------|-------------|------------|
 | Natural language questions | Ask questions in natural language about the data and information stored in the system. Use a library of predefined prompts to get Copilot working for you quickly. | [Use Copilot in the Dynamics 365 Field Service web application](/dynamics365/field-service/copilot-side-pane) |

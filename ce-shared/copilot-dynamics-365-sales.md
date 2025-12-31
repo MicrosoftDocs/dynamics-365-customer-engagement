@@ -1,5 +1,3 @@
-The following Copilot capabilities are available out of the box in Dynamics 365 Sales:
-
 | Feature | Description | Learn more |
 |------------|-------------|------------|
 | **Record summarization** | Generates a concise summary of key information from sales records such as leads, opportunities, and accounts. | [Summarize records with Copilot](/dynamics365/sales/copilot-summarize-records) |

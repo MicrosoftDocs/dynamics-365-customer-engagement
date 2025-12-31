@@ -1,5 +1,3 @@
-The following AI agents are available out of the box in Dynamics 365 Sales:
-
 | Agent | Description | Learn more |
 |-------|-------------|------------|
 | **Sales Qualification Agent** | Helps sales teams qualify leads effortlessly by autonomously researching leads, determining if they're a good fit for further engagement, sending outreach emails, and engaging with leads. | [Sales Qualification Agent](/dynamics365/sales/sales-qualification-agent) |
