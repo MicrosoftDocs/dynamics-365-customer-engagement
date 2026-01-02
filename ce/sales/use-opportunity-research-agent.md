@@ -59,7 +59,7 @@ If your admin has enabled Microsoft 365 Services for the agent, you'll see a ban
 
 Consider the following information:
 
-- The agent reads emails directly from Microsoft 365 without storing them. 
+- The agent reads your emails directly from Microsoft 365 without storing them. 
 - After you grant consent, the agent analyzes up to 100 recent emails from your inbox to gather opportunity insights. This consent can't be revoked. 
 - The agent processes emails every six hours to keep research insights current. 
 - The agent reads emails of the opportunity owner to generate insights for an opportunity. However, the insights are visible to all users who can access the opportunity.
