@@ -12,7 +12,9 @@ ms.custom: bap-template
 
 # Add a view hierarchy button
 
-To add the View hierarchy button to the forms or grids for a table, the table must first be added to your application. While the **View hierarchy** button is enabled by default on the Contact, Opportunity, Lead, and Account forms and grids, as an administrator, you can add the **View hierarchy** button to all other tables.
+To add the **View hierarchy** button to the forms or grids for a table, the table must first be added to your application. While the **View hierarchy** button is enabled by default on the Contact, Opportunity, Lead, and Account forms and grids, as an admin, you can add the **View hierarchy** button to all other tables.
+
+You must have administrator privileges to perform these tasks.
 
 ## Add the table to the application  
 
@@ -34,7 +36,6 @@ You have to add the table to the application in order to customize the behavior 
 
 To add the **View hierarchy** button to a form or a grid command bar, follow these steps:
 
-1. You must have administrator privileges.  
 1. Sign in to [the Power Apps maker portal](https://make.powerapps.com/).  
 1. Select **Apps** from the left navigation, select **All** to show all applications and then select your application. The default application for Dynamics 365 Sales is **Sales hub**.  
     > [!NOTE]
@@ -77,4 +78,4 @@ To add the **View hierarchy** button to a form or a grid command bar, follow the
 ## Related information
 
 - [Overview of hierarchy visualization](hierarchy-visualization.md)  
-- [Create and publish a hierarchy visualization](create-activate-hierarchy-visualizations.md)
+- [Design and publish hierarchies](create-activate-hierarchy-visualizations.md)

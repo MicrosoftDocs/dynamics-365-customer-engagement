@@ -1,7 +1,7 @@
 ---
 title: Work on opportunities handled by the Sales Close Agent - Research (preview)
 description: Learn how to work on opportunities handled by the Sales Close Agent - Research.
-ms.date: 12/24/2025
+ms.date: 01/02/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -43,15 +43,27 @@ You need the following prerequisites:
    :::image type="content" source="media/opportunity-research-summary.png" alt-text="Screenshot of the Opportunity research summary section.":::
 1. Select **See full research**.  
  
-   The Opportunity research page opens with the complete research insights and recommendations. 
+   The Opportunity research page opens with the complete research insights and recommendations. Learn more about the insights in the section [Opportunity research page](#opportunity-research-page).
    :::image type="content" source="media/opportunity-research-insights-with-no-risk.png" alt-text="Screenshot of the Opportunity research page with research insights when there are no risks.":::
-
-   If your admin has enabled Microsoft 365 Services for the agent, you see a banner asking for permission to access your emails for research purposes. The agent reads emails directly from Microsoft 365 without storing them. After you grant consent, the agent analyzes up to 100 recent emails from your inbox to gather opportunity insights. This consent can't be revoked. The agent processes emails every six hours to keep research insights current.
-
-   :::image type="content" source="media/opportunity-research-agent-m365-consent.png" alt-text="Screenshot of the Microsoft 365 Services consent prompt on the Opportunity research page for sellers.":::
+    
+   If you see a banner prompting you to provide consent for Microsoft 365 Services, read the section [Provide consent for Microsoft 365 Services](#provide-consent-for-microsoft-365-services)
 
 > [!NOTE]
 > The research insights are refreshed based on the refresh frequency configured by your admin and when specific fields in the opportunity record are updated. Learn more in [How often does the Opportunity Research Agent refresh research data?](opportunity-research-agent-faqs.md#how-often-does-the-opportunity-research-agent-refresh-research-data).
+
+### Provide consent for Microsoft 365 Services
+
+If your admin has enabled Microsoft 365 Services for the agent, you'll see a banner asking for permission to access your emails for research purposes. The agent uses your emails to only gather insights about the opportunities you work on.
+
+:::image type="content" source="media/opportunity-research-agent-m365-consent.png" alt-text="Screenshot of the Microsoft 365 Services consent prompt on the Opportunity research page for sellers.":::
+
+Consider the following information:
+
+- The agent reads your emails directly from Microsoft 365 without storing them. 
+- After you grant consent, the agent analyzes up to 100 recent emails from your inbox to gather opportunity insights. This consent can't be revoked. 
+- The agent processes emails every six hours to keep research insights current. 
+- The agent reads emails of the opportunity owner to generate insights for an opportunity. However, the insights are visible to all users who can access the opportunity.
+
 
 ## Opportunity research page
 
