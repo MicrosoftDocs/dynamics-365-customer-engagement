@@ -57,7 +57,7 @@ If your admin has enabled Microsoft 365 Services for the agent, you'll see a ban
 
 :::image type="content" source="media/opportunity-research-agent-m365-consent.png" alt-text="Screenshot of the Microsoft 365 Services consent prompt on the Opportunity research page for sellers.":::
 
-Note the following information:
+Consider the following information:
 
 - The agent reads emails directly from Microsoft 365 without storing them. 
 - After you grant consent, the agent analyzes up to 100 recent emails from your inbox to gather opportunity insights. This consent can't be revoked. 
