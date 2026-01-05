@@ -390,7 +390,7 @@ items:
   items:
     - name: Overview
       href: field-service-km-overview.md
-    - name: Create knowledge articles
+    - name: Create, review, and publish knowledge articles
       href: field-service-knowledge-management.md
     - name: Link knowledge articles
       href: field-service-km-link.md
