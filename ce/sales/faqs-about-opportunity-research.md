@@ -73,8 +73,8 @@ The Sales Close Agent - Research is currently only supported in English.
 
 ## What data is passed to Bing Search?
 
-The agent uses Bing Search to find information about your account and competitors from the public web and then generate insights. If you configured custom research insights to fetch data from Bing Search, then the agent only passes the account name and the prompt you defined in the configuration. Things to consider:
+The agent uses Bing Search to find information about your account and competitors from the public web and then generate insights. Things to consider:
 
-- The agent does not pass any Personally Identifiable Information (PII) to Bing Search.
-- The agent only passes the search query to Bing Search.
-- The search query might get processes at any of Bing's data centers, so it's possible that the information in the query might move across regions.
+- The agent does not pass any Personally Identifiable Information (PII) to Bing Search. It only passes the search query constructed using the account name, competitor name, and a detailed prompt of what information to fetch from the web.
+- If you configured custom research insights to fetch data from Bing Search, then the agent only passes the account name and the prompt you defined in the configuration.
+- The search query might get processed at any of Bing's data centers, so it's possible that the information in the query might move across regions.
