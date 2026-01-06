@@ -1,7 +1,7 @@
 ---
 title: Set up visitor location detection 
 description: Perform the steps to set up detection of visitor location and create a geo location provider record in Dynamics 365 Contact Center.
-ms.date: 03/03/2025
+ms.date: 01/06/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -9,7 +9,7 @@ ms.reviewer: laalexan
 ---
 
 > [!NOTE]
-> Bing Maps for Enterprise has been deprecated. This feature will remain available to existing Bing Maps for Enterprise customers until June 30th 2028, but is not available for new customers or customers using Azure Maps.
+> [Bing Maps for Enterprise](/bingmaps/coverage/) is deprecated. This feature is available to existing Bing Maps for Enterprise customers until 30 June, 2028, but isn't available for new customers or customers using Azure Maps.
 
 # Set up visitor location detection
 
