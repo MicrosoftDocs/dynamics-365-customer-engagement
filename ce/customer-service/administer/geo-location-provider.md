@@ -30,7 +30,7 @@ You can create a geo location provider record in the Copilot Service admin cente
 
 1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
 
-1. In the **Geo location** section, select **Manage**. The **Active Geo Location Providers** page is displayed.
+1. In the **Geo location** section, select **Manage**. The **Active Geo Location Providers** page appears.
 1. Select **New** to add a geo location provider record.
 1. In the **New Geo Location Provider** pane, provide the following information:
 
