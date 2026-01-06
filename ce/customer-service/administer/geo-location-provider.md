@@ -1,7 +1,7 @@
 ---
 title: Set up visitor location detection 
 description: Perform the steps to set up detection of visitor location and create a geo location provider record in Dynamics 365 Contact Center.
-ms.date: 01/06/2025
+ms.date: 01/06/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
