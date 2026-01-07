@@ -22,13 +22,13 @@ To understand how presence works, see [How do manual and automatic presence upda
 
 The presence status isn't calculated based on operating hours or work hour setting. Learn more in [How presence is calculated](oc-manage-presence-status.md#how-presence-is-calculated-when-representatives-sign-in).
 
-## What presence will a representative have when they sign in from multiple browsers?
+## What presence does a representative have when they sign in from multiple browsers?
 
 The same presence status will persist across the different browsers. We recommend that customer service representatives (service representatives or representatives) don't sign in from multiple browsers.
 
-## How presence can be used to manage work load of blended representatives who work across channels?
+## How can I use presence to manage work load of blended representatives across channels?
 
-Service representatives want to be available for voice calls while they work on emails or cases. This scenario can be achieved by having a separate voice capacity profile, with a limit of 1, and allowed presences as **Available** and **Busy**. This set up makes sure that service representatives get a voice call assigned even when they are busy due to assignments on other channels. The capacity profile can be kept as non blocking to allow assignments from other channels like messaging or record.
+When representatives need to be available for calls while they work on emails or cases, configure a voice [capacity profile](../administer/capacity-profiles.md) that's non blocking with a limit of 1 and allowed presence as **Available** and **Busy**. This configuration makes sure that representatives are assigned the voice call even when they are busy with assignments on other channels.
 
 ## Does presence change if representative gets into a consult chat or call?
 
