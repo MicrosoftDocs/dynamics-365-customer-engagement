@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: concept-article
 ms.collection:
-ms.date: 12/23/2025
+ms.date: 01/09/2025
 ms.custom: bap-template
 ---
 
@@ -26,7 +26,7 @@ Here’s what you can do:
 
 - In Customer Service workspace, select the **Timeout Rules** icon on the **Productivity** pane. If no time-out rules apply to the conversation, the panel remains blank. 
 
-The panel refreshes dynamically for the currently open conversations. For each conversation, all active time-out rules are displayed in the panel. If there are more rules than the panel can display, scroll to view the remaining rules.
+The panel refreshes dynamically for the currently open conversations. For each conversation, all active time-out rules are displayed on the panel. If there are more rules than the panel can display, scroll to view the remaining rules.
 
 - To refresh and view the most accurate state of each time-out rule, select **Retry**.
 

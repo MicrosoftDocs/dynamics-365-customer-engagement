@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to 
 ms.collection: 
-ms.date: 12/18/2025
+ms.date: 01/09/2025
 ms.custom: bap-template
 ---
 
@@ -66,11 +66,11 @@ Select a rule to enable the edit button that you can use to edit the rule.
 
 You can change the priority per time-out rule so that if any condition is the same, the system runs the prioritized time-out rule first.
 
-## Enable representative override
+## Enable override by representative
 
-The ability to override ensures automation never disrupts active or sensitive conversations. It gives representatives the power to pause or resume time-out rules based on real customer needs. This flexibility prevents premature conversation closures and builds trust in automated workflows. For enterprise teams, representative override is essential, combining structured processes with the adaptability required for exceptional customer service.
+The ability to override ensures automation never disrupts active or sensitive conversations. It gives representatives the power to pause or resume time-out rules based on real customer needs. This flexibility prevents premature conversation closures and builds trust in automated workflows. For enterprise teams, representative override capability is essential, combining structured processes with the adaptability required for exceptional customer service.
 
-To enable representative override, you need to:
+To enable the representative override option, you need to:
 
 1. **Enable time-out rules**
 
@@ -81,17 +81,17 @@ To enable representative override, you need to:
    1. Go to **Workspace** > **Experience Profile** > **Productivity Pane.**
    1. Select the **Time-out Rules Override panel**. 
    
-For default profiles, representative override is turned on:
+For default profiles, the representative override option is turned on for:
 
-   - Customer Service Workspace + Channels
+   - Customer Service Workspace and channels
    - Omnichannel for Customer Service
    
 For custom profiles, you need to manually activate the panel for representatives.
 
 > [!NOTE]
-> If the panel isn't enabled, representative override doesn't appear on the user interface.
+> If the panel isn't enabled, the representative override option doesn't appear on the user interface.
 
-Once representative override is on, representatives get full control over time-out rules during live conversations.
+Once the representative override option is on, representatives get full control over time-out rules during live conversations.
 
 ### Related information
 
