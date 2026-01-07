@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ about the Sales Close Agent - Research (preview)
 description: Learn about the responsible AI practices and limitations of the Sales Close Agent - Research in Dynamics 365 Sales.
-ms.date: 01/06/2026
+ms.date: 01/07/2026
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template
