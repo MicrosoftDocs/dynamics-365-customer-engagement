@@ -216,6 +216,8 @@ items:
                   href: configure-sales-close-agent-email-content.md
                 - name: Configure knowledge sources
                   href: configure-sales-close-agent-knowledge-sources.md
+                - name: Test the agent
+                  href: sales-close-agent-engage-test.md  
                 - name: Start the agent 
                   href: start-sales-close-agent.md
                 - name: Manage the agent

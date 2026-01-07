@@ -82,12 +82,9 @@ This knowledge source is already set up by default for the agent. To enhance the
     1. To change the location of the playbook after customizing it, select **Change location**.  
         In **SharePoint location**, enter the playbook location and save. Ensure the format for the SharePoint location is `https://<siteurl>/<foldername>/<filename>`. For example, `https://sharepoint.contoso.com/sites/salescloseagent/configuration/AgentPlaybook.xlsx`.  
 
-    >[!NOTE]  
-    >To upload the playbook from your local computer, follow the procedure in the [configure product documentation](#configure-product-documentation) step.  
-
     Learn the playbook structure and how to customize it, read the [Agent playbook](#agent-playbook) section.  
 
-1. <a name="configure-product-documentation"></a>To configure **Product documentation**:  
+1. To configure **Product documentation**:  
     1. In the **Product documentation** section, select **Manage**.  
     1. On the Microsoft Copilot Studio page, select **Add knowledge**, and then select **Upload file** to upload a file or folder from your local computer, or select **SharePoint** to upload from SharePoint.
 
@@ -109,7 +106,7 @@ This knowledge source is already set up by default for the agent. To enhance the
 
 ## Next step  
 
-[Start the Sales Close Agent - Engage](start-sales-close-agent.md)  
+[Test the Sales Close Agent - Engage](sales-close-agent-engage-test.md)
 
 ## Related information
 

@@ -115,6 +115,7 @@ Let's look at the steps to set up and configure the agents.
 1. [Configure email delivery](configure-sales-close-agent-email-delivery.md) for the agent to send outreach and follow-up emails to customers.  
 1. [Configure email content](configure-sales-close-agent-email-content.md) that the agent uses for outreach and follow-up emails.  
 1. [Configure knowledge sources](configure-sales-close-agent-knowledge-sources.md) that the agent uses to enrich customer interactions.  
+1. [Test the agent](sales-close-agent-engage-test.md) to simulate interactions between the Sales Close Agent and a customer without impacting real CRM data.  
 1. After you are satisfied with the configuration, [start the agent](start-sales-close-agent.md).
 
 ## Related information
