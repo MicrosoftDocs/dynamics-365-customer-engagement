@@ -21,7 +21,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-After you set up and configure the Sales Close Agent - Engage, test its functionality to make sure it works as expected. Testing helps you find any problems and make necessary adjustments to optimize performance.  
+When you test the agent, you can check how the Sales Close Agent (SCA) interacts with a potential customer. You can review the outreach email content, tone, and structure. You can also see how the agent responds to customer replies. For example, you can test how the agent handles questions about product features, pricing, or availability through chat by providing sample customer replies.  
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -49,8 +49,11 @@ You can simulate interactions between the Sales Close Agent and a customer. This
 1. In the test chat pane, you see the sample outreach email that the agent sends to a potential customer. The email includes personalized content based on the configurations you set up earlier.  
     :::image type="content" source="media/sca-engage-test-chat-pane.png" alt-text="Sales Close Agent - Engage test chat pane showing a sample outreach email.":::
 
-    Review the email content and ensure it aligns with your expectations. If required, make necessary changes in the agent configuration settings to improve the email content and rerun the test until you're satisfied with the results.  
-
+    Review the email content and ensure it aligns with your expectations. You can further interact with the agent by simulating customer replies to the outreach email with follow-up questions, express negative intent, and observe how the agent responds.  
+    If the agent's response isn't satisfactory, there are typically a few underlying reasons:  
+    - **Insufficient grounding**: If the agent isn't connected to [the right knowledge sources](configure-sales-close-agent-knowledge-sources.md), it might be unable to generate accurate or relevant responses.  
+    - **Email quality issues**: If the email structure or tone isn't appropriate, the [configured email template](configure-sales-close-agent-email-content.md) might need to be refined.  
+    Make necessary changes in the agent configuration settings to improve the email content and rerun the test until you're satisfied with the results.  
 1. (Optional) Select **Restart** to clear the chat pane and start a new test.  
 1. Select **Stop** to stop testing.  
     The agent testing stops, and you're returned to the agent settings page or the Setup Assistant depending on your testing selection.  
