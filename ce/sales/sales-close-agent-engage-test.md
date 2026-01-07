@@ -21,7 +21,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-After you set up and configure the Sales Close Agent - Engage, you can test its functionality to ensure it operates as expected before going live. Testing helps identify any issues and allows you to make necessary adjustments to optimize performance.  
+After you set up and configure the Sales Close Agent - Engage, test its functionality to make sure it works as expected. Testing helps you find any problems and make necessary adjustments to optimize performance.  
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -37,7 +37,7 @@ You can test the agent only when you set up the following configurations to ensu
 
 ## Test the agent
 
-You can simulate interactions between the Sales Close Agent and a customer. This allows you to evaluate how the agent performs in real-world scenarios without impacting your actual data.  
+You can simulate interactions between the Sales Close Agent and a customer. This approach lets you evaluate how the agent performs in real-world scenarios without impacting your actual data.  
 
 1. Choose one of the following ways to open the test chat pane:  
 
@@ -46,19 +46,18 @@ You can simulate interactions between the Sales Close Agent and a customer. This
     - From the **Setup assistant**, after completing the configurations, select **Test**.  
         :::image type="content" source="media/sca-engage-assisted-setup-test-option.png" alt-text="Assisted setup page showing the option to test the agent.":::  
 
-1. In the test chat pane, you can see the sample outreach email that the agent would send to a potential customer. The email includes personalized content based on the configurations you set up earlier.  
+1. In the test chat pane, you see the sample outreach email that the agent sends to a potential customer. The email includes personalized content based on the configurations you set up earlier.  
     :::image type="content" source="media/sca-engage-test-chat-pane.png" alt-text="Sales Close Agent - Engage test chat pane showing a sample outreach email.":::
 
-    Review the email content and ensure it aligns with your expectations. If required, make necessary chages in the agent configuration settings to improve the email content and rerun the test until you are satisfied with the results.  
+    Review the email content and ensure it aligns with your expectations. If required, make necessary changes in the agent configuration settings to improve the email content and rerun the test until you're satisfied with the results.  
 
 1. (Optional) Select **Restart** to clear the chat pane and start a new test.  
-1. To stop testing, select **Stop**.  
-    The agent testing is stopped, and you are returned to the agent settings page or the Setup Assistant depending on your testing selection.  
+1. Select **Stop** to stop testing.  
+    The agent testing stops, and you're returned to the agent settings page or the Setup Assistant depending on your testing selection.  
 
 ## Next step
 
 [Start the Sales Close Agent - Engage](start-sales-close-agent.md)  
-
 
 ## Related information
 
