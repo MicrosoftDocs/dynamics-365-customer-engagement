@@ -96,4 +96,4 @@ Once the representative override option is on, representatives get full control 
 ### Related information
 
 [Understand conversation states](../use/oc-conversation-state.md)  
-[Use timeout rules](../use/use-timeout-rules.md#use-timeout-rules) 
+[Use timeout rules](../use/use-timeout-rules.md) 

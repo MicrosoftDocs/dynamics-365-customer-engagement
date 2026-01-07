@@ -1,6 +1,6 @@
 ---
 title: Use timeout rules
-description: 
+description: Learn how to use time-out rules in the Customer Service workspace to manage time-sensitive actions, ensure timely responses, and improve productivity.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
