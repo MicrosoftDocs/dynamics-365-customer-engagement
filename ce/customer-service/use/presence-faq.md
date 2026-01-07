@@ -1,18 +1,18 @@
 ---
-title: FAQ on agent presence in Customer Service
-description: Find answers to the most commonly asked questions on agent presence and how presence is calculated.
+title: FAQ on representative presence in Customer Service
+description: Find answers to the most commonly asked questions on representative presence and how presence is calculated.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: faq
 ms.collection:
-ms.date: 04/28/2025
+ms.date: 01/08/2026
 ms.custom: bap-template
 ---
 
-# FAQ on agent presence in Customer Service
+# FAQ on representative presence in Customer Service
 
-This article tries to answer the questions that you might have on agent presence.
+This article tries to answer the questions that you might have on representative presence.
 
 ## What happens when representative changes presence manually during a conversation?
 
@@ -25,6 +25,10 @@ The presence status isn't calculated based on operating hours or work hour setti
 ## What presence will a representative have when they sign in from multiple browsers?
 
 The same presence status will persist across the different browsers. We recommend that customer service representatives (service representatives or representatives) don't sign in from multiple browsers.
+
+## How presence can be used to manage work load of blended representatives who work across channels?
+
+Service representatives want to be available for voice calls while they work on emails or cases. This scenario can be achieved by having a separate voice capacity profile, with a limit of 1, and allowed presences as **Available** and **Busy**. This set up makes sure that service representatives get a voice call assigned even when they are busy due to assignments on other channels. The capacity profile can be kept as non blocking to allow assignments from other channels like messaging or record.
 
 ## Does presence change if representative gets into a consult chat or call?
 
@@ -46,9 +50,9 @@ See [how presence status is updated](oc-manage-presence-status.md#how-presence-s
 
 See the [prerequisites](oc-manage-presence-status.md#prerequisites) that are required for the presence status to load correctly.
 
-## Can I view agent custom presence statuses in reports?
+## Can I view representative custom presence statuses in reports?
 
-Yes, you can view agent custom presence statuses in the agent report for Omnichannel real-time analytics and Omnichannel historical analytics.
+Yes, you can view representative custom presence statuses in the agent report for Omnichannel real-time analytics and Omnichannel historical analytics.
 
 ## Can I set default presence for representatives or group?
 
