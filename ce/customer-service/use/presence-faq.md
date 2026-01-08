@@ -28,7 +28,7 @@ The same presence status will persist across the different browsers. We recommen
 
 ## How can I use presence to manage workload of blended representatives across channels?
 
-When representatives need to be available for calls while they work on emails or cases, configure a voice [capacity profile](../administer/capacity-profiles.md) that's non blocking with a limit of 1 and allowed presence as **Available** and **Busy**. This configuration makes sure that representatives are assigned the voice call even when they are busy with assignments on other channels.
+When representatives need to be available for calls while they work on emails or cases, configure a voice [capacity profile](../administer/capacity-profiles.md) that's nonblocking with a limit of one and allowed presence as **Available** and **Busy**. This configuration makes sure that representatives are assigned the voice call even when they are busy with assignments on other channels.
 
 ## Does presence change if representative gets into a consult chat or call?
 
