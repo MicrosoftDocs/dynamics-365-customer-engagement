@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 12/23/2025
+ms.date: 01/23/2025
 ms.custom: bap-template
 ---
 
@@ -122,8 +122,8 @@ Use the simulation capability in Case Management Agent to validate how well AI�
 
 Before you run a simulation, ensure the following:
 
-- Field descriptions and best practices are configured in Power Apps. Accurate field descriptions help the AI agent understand each field’s meaning and improve prediction quality.
-- Field prediction rules (fields to be predicted) are already defined in Case Management Agent settings.
+- [Field descriptions and best practices](#update-field-and-lookup-descriptions-in-power-apps) are configured in [Power Apps](https://make.powerapps.com/). Accurate field descriptions help the AI agent understand each field’s meaning and improve prediction quality.
+- Field prediction rules (fields to be predicted) are already defined in Case Management Agent settings. Learn more in [Configure autonomous case updates](#configure-autonomous-case-updates) and [Configure autonomous case creation](#configure-autonomous-case-creation).
 
 **To set up a simulation**:
 
@@ -139,8 +139,8 @@ Before you run a simulation, ensure the following:
   
       1. Select **Organization records**. 
       1. In the **Conditions** section, use the condition builder to state conditions that must pass to continue with the simulation.
-      1. Select **Save conditions**. A list or records appear in the **Selected records**section. You can select upto 100 records. 
-      1. Select **Run simulation**. The system starts processing predictions for all the selected records. A notification appears to confirm that the simulation has started.
+      1. Select **Save conditions**. A list or records appear in the **Selected records** section. You can select upto 100 records. 
+      1. Select **Run simulation**. It uses emails and conversation threads from the relevant cases to generate the prediction. Your role must have access to this content. 
 
   - **Excel file**: Select this option to test predictions on the email body, chat transcripts, or any sample text.
   
@@ -157,14 +157,11 @@ Before you run a simulation, ensure the following:
 When you download an excel report, it shows the following for each record:
 - Record ID
 - Actual field values (from your case or your input)
-- Predicted field values
-- Accuracy metrics (where applicable)
 - If multiple fields are selected for prediction, each field appears in a separate column.
 
 #### Best practices for data sources
 
 - Start with small record sets (20–30 cases) to validate your field descriptions.
-- Use consistent and well‑labelled historical data for more meaningful results.
 - Run multiple simulations focusing on:
   - Different product lines
   - Different categories
