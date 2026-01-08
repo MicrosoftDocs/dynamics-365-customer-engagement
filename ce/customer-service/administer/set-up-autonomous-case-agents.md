@@ -151,7 +151,7 @@ Select this option to test predictions on the email body, chat transcripts, or a
   1. Select **Excel file**.
   1. Select **Upload**. The maximum file size is 1 MB and you can upload an excel with a maximum of 100 rows.
 
-Irrespective of the number of columns or column name, as shown below, all inputs are consolidated into a single string before being passed to the Case Management Agent (CMA) for prediction.
+Irrespective of the number of columns or column name, as shown below, all inputs are consolidated into a single string before being passed to the Case Management Agent for prediction.
 
 Excel sample 1:
 
@@ -179,7 +179,7 @@ Excel sample 2:
 
 When you download an excel report, it shows the following for each record:
 - Record ID
-- Actual field values (from your case or your input)
+- Predicted field values
 - If multiple fields are selected for prediction, each field appears in a separate column.
 
 #### Best practices for data sources
