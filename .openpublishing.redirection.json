@@ -27531,7 +27531,7 @@
     },
     {
       "source_path": "ce/sales/teams-integration/add-chat-d365.md",
-      "redirect_url": "share-d365-record-overview",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#add-chat-message-to-dynamics-365-record-in-microsoft-teams",
       "redirect_document_id": "false"
     },
     {
