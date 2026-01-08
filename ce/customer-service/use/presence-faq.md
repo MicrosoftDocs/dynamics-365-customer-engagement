@@ -26,7 +26,7 @@ The presence status isn't calculated based on operating hours or work hour setti
 
 The same presence status will persist across the different browsers. We recommend that customer service representatives (service representatives or representatives) don't sign in from multiple browsers.
 
-## How can I use presence to manage work load of blended representatives across channels?
+## How can I use presence to manage workload of blended representatives across channels?
 
 When representatives need to be available for calls while they work on emails or cases, configure a voice [capacity profile](../administer/capacity-profiles.md) that's non blocking with a limit of 1 and allowed presence as **Available** and **Busy**. This configuration makes sure that representatives are assigned the voice call even when they are busy with assignments on other channels.
 
