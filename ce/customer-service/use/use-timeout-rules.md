@@ -1,6 +1,6 @@
 ---
 title: Use timeout rules
-description: Learn how to use time-out rules in the Customer Service workspace to manage time-sensitive actions, ensure timely responses, and improve productivity.
+description: Learn how to use timeout rules in the Customer Service workspace to manage time-sensitive actions, ensure timely responses, and improve productivity.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
@@ -10,13 +10,13 @@ ms.date: 01/09/2025
 ms.custom: bap-template
 ---
 
-# Use time-out rules
+# Use timeout rules
 
-The time-out rules feature in the Customer Service workspace helps you manage and monitor time-sensitive actions during conversations. By using this feature, you can ensure timely responses, improve productivity, and maintain control over automated processes. This article explains how to access and use the time‑out rules panel, interpret rule statuses, and manage rules effectively. When you disable a rule with the toggle, it halts the countdown execution even if conditions are met, while re‑enabling the rule resumes the countdown using the previous timer state.
+The timeout rules feature in the Customer Service workspace helps you manage and monitor time-sensitive actions during conversations. By using this feature, you can ensure timely responses, improve productivity, and maintain control over automated processes. This article explains how to access and use the time‑out rules panel, interpret rule statuses, and manage rules effectively. When you disable a rule with the toggle, it halts the countdown execution even if conditions are met, while re‑enabling the rule resumes the countdown using the previous timer state.
 
 ## Prerequisite
 
-Your administrator enabled [Configure time-out rules](../administer/configure-time-out-rules.md#configure-time-out-rules).
+Your administrator enabled [Configure timeout rules](../administer/configure-time-out-rules.md#configure-time-out-rules).
 
 ## Use the representative override panel
 
@@ -24,11 +24,11 @@ Here’s what you can do:
 
 #### Access the Timeout Rules panel on the productivity pane
 
-- In Customer Service workspace, select the **Timeout Rules** icon on the **Productivity** pane. If no time-out rules apply to the conversation, the panel remains blank. 
+- In Customer Service workspace, select the **Timeout Rules** icon on the **Productivity** pane. If no timeout rules apply to the conversation, the panel remains blank. 
 
-The panel refreshes dynamically for the currently open conversations. For each conversation, all active time-out rules are displayed on the panel. If there are more rules than the panel can display, scroll to view the remaining rules.
+The panel refreshes dynamically for the currently open conversations. For each conversation, all active timeout rules are displayed on the panel. If there are more rules than the panel can display, scroll to view the remaining rules.
 
-- To refresh and view the most accurate state of each time-out rule, select **Retry**.
+- To refresh and view the most accurate state of each timeout rule, select **Retry**.
 
 #### View rules linked to the conversation, rule status, and remaining time through the hourglass tooltip
 
@@ -64,4 +64,4 @@ Hovering over the hourglass icon displays the exact remaining time, improving ac
 
 ## Related information
 
-[Configure time-out rules](../administer/configure-time-out-rules.md#configure-time-out-rules)
+[Configure timeout rules](../administer/configure-time-out-rules.md)
