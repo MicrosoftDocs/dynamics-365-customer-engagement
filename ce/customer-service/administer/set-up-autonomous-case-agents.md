@@ -11,8 +11,7 @@ ms.custom: bap-template
 ---
 
 
-# Set up Case Management Agent to create and update cases 
-
+# Set up Case Management Agent to create and update cases
 
 Case Management Agent streamlines the case management process, reducing manual effort and data entry errors.
 
