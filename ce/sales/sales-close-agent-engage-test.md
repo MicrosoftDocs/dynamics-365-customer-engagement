@@ -29,7 +29,7 @@ When you test the agent, you can check how the Sales Close Agent (SCA) interacts
 
 You can test the agent only when you set up the following configurations to ensure the required information is available for testing.  
 
-- [Agent profile](configure-sales-close-agent-profile.md) for agent such as profile, company info, and email signature.  
+- [Agent profile](configure-sales-close-agent-profile.md) for the agent such as profile, company info, and email signature.  
 - [Product details](configure-sales-close-agent-product-details.md) that the agent uses to recommend products during customer interactions.  
 - [Target customers](configure-sales-close-agent-target-customers.md) for the agent to process the records.  
 - [Email content](configure-sales-close-agent-email-content.md) that the agent uses for outreach and follow-up emails.  
