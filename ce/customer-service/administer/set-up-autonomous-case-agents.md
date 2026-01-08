@@ -124,7 +124,7 @@ Before you run a simulation, ensure the following:
 - [Field descriptions and best practices](#update-field-and-lookup-descriptions-in-power-apps) are configured in [Power Apps](https://make.powerapps.com/). Accurate field descriptions help the AI agent understand each field’s meaning and improve prediction quality.
 - Field prediction rules (fields to be predicted) are already defined in Case Management Agent settings. Learn more in [Configure autonomous case updates](#configure-autonomous-case-updates) and [Configure autonomous case creation](#configure-autonomous-case-creation).
 
-**To set up a simulation**:
+### Set up a simulation
 
 1. In **Customer support**, select **Case settings**.
 1. On the **Case settings** page, select **Manage** for **Case Management Agent**.
@@ -132,21 +132,45 @@ Before you run a simulation, ensure the following:
 1. On the **Case creation and update** page, select **Go to simulation**. The **Case creation and update simulation** page appears.
 1. On the **Simulation setup** tab, provide the following information:
   1. Provide a simulation name. For example: Surface product cases, Refund category evaluation, or Email‑based sample test.
-  1. Select a data source from the dropdown. You can run simulations using one of two data sources:
+  1. Select a data source from the dropdown. 
+  You can run simulations using one of two data sources:
 
-  - **Organization records**: Select this option to test field prediction against existing cases.
+#### **Organization records**
+
+Select this option to test field prediction against existing cases.
   
-      1. Select **Organization records**. 
-      1. In the **Conditions** section, use the condition builder to state conditions that must pass to continue with the simulation.
-      1. Select **Save conditions**. A list or records appear in the **Selected records** section. You can select upto 100 records. 
-      1. Select **Run simulation**. It uses emails and conversation threads from the relevant cases to generate the prediction. Your role must have access to this content. 
+  1. Select **Organization records**. 
+  1. In the **Conditions** section, use the condition builder to state conditions that must pass to continue with the simulation.
+  1. Select **Save conditions**. A list or records appear in the **Selected records** section. You can select upto 100 records. 
+  1. Select **Run simulation**. It uses emails and conversation threads from the relevant cases to generate the prediction. Your role must have access to this content. 
 
-  - **Excel file**: Select this option to test predictions on the email body, chat transcripts, or any sample text.
+#### **Excel file**
+
+Select this option to test predictions on the email body, chat transcripts, or any sample text.
   
-      1. Select **Excel file**.
-      1. Select **Upload**. The maximum file size is 1 MB and you can upload an excel with a maximum of 100 rows.
+  1. Select **Excel file**.
+  1. Select **Upload**. The maximum file size is 1 MB and you can upload an excel with a maximum of 100 rows.
 
-**To view a simulation report**:
+Irrespective of the number of columns or column name, as shown below, all inputs are consolidated into a single string before being passed to the Case Management Agent (CMA) for prediction.
+
+Excel sample 1:
+
+|Email  |
+|---------|
+|Subject: Login Issue <br> Hello Support Team, <br>I’m unable to log in to my account despite using the correct credentials. Please help resolve this issue. <br> Thanks, John Doe. <br> Mobile: +91 xxxxx xxxx    |
+|Subject: Password Reset Help <br> Hello Customer Support, <br>I’m not receiving the password reset email. Could you please assist? Regards, John Doe. <br>Mobile: +91 xxxxx xxxx |
+
+Excel sample 2:
+
+
+|Email subject  | Email body  |Sent  |
+|---------|---------|---------|
+|Login Issue | Hello Support Team, <br>I’m unable to log in to my account despite using the correct credentials. Please help resolve this issue. <br>Thanks, John Doe. <br>Mobile: +91 xxxxx xxxx |  6/1/26 8pm    |
+|Password Reset Help |  Hello Customer Support, I’m not receiving the password reset email. Could you please assist?<br> Regards, John Doe. <br> Mobile: +91 xxxxx xxxx  | 6/1/26 8pm |
+
+
+
+### View a simulation report
 
 1. On the **Case creation and update simulation** page, go to the **Simulation report** tab.
   A new entry appears with the details such as, simulation name, run date and time, and current status.
