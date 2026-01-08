@@ -16,7 +16,7 @@ This article covers instructions for integrating with ZoomInfo and Dun & Bradstr
 
 ## Step 1: Install and set up the integration
 
-Before using ZoomInfo or D&B data in your Sales Qualification Agent configuration, install and configure the respective app from Microsoft AppSource.
+Before using ZoomInfo or D&B data in your Sales Qualification Agent configuration, install and configure the respective app from Microsoft Marketplace.
 
 ### Integrate ZoomInfo data
 
@@ -29,7 +29,7 @@ Integrate ZoomInfo data by following the instructions in these articles:
 
 ### Integrate Dun & Bradstreet data
 
-Integrate Dun & Bradstreet data by installing and configuring the [Dun & Bradstreet Optimizer App for Microsoft](https://appsource.microsoft.com/en-us/product/dynamics-365/dnb.dnb_optimizer) from Microsoft AppSource. For step-by-step instructions, refer to the official installation guide under **Details + Support** > **Help** on the AppSource page.
+Integrate Dun & Bradstreet data by installing and configuring the [Dun & Bradstreet Optimizer App for Microsoft](https://marketplace.microsoft.com/en-us/product/dynamics-365/dnb.dnb_optimizer) from Microsoft Marketplace. For step-by-step instructions, refer to the official installation guide under **Details + Support** > **Help** on the Marketplace page.
 :::image type="content" source="media/dnb-help-doc.png" alt-text="Screenshot of the help link under Details + Support section.":::
 
 
