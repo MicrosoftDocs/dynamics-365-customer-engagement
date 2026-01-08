@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ about the Research-only mode of Sales Qualification Agent
 description: Get answers to frequently asked questions about the use of AI in the Research-only mode (part of Sales Qualification Agent) in Dynamics 365 Sales.
-ms.date: 08/11/2025
+ms.date: 01/07/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.topic: faq
@@ -66,3 +66,14 @@ The agent primarily operates on data that resides in Dataverse. The more informa
 ## Which languages are supported by the Research-only mode?
 
 The Research-only mode is only supported in English language.
+
+## What data is passed to Bing Search?
+
+The agent uses Bing Search to find information about your lead from the public web and generate insights. The agent only passes the lead's company name, website URL, and any Dataverse fields that you manually define in the configuration settings to Bing Search.
+
+Things to consider:
+
+- The search query might get processed at any of Bing's data centers, so it's possible that the information in the query might move across regions.  
+- The agent does not pass any Personally Identifiable Information (PII) to Bing Search. It only passes the search query constructed using the account name, competitor name, and a detailed prompt of what information to fetch from the web.
+- If you configured custom research insights to fetch data from Bing Search, then the agent only passes the account name and the prompt you defined in the configuration.
+- If you configured public web as a data source for custom handover, then the agent passes the fields you defined in the instructions along with the prompt to Bing Search.

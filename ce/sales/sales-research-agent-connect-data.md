@@ -21,21 +21,23 @@ The Sales Research Agent is connected to your Dynamics 365 Sales environment by 
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
-Add the data source using *one* of the following options in the **Sales Research Agent** page:
+## Considerations
+
+- If you have access to multiple environments, choose the environment that has the data you want to analyze.
+
+- Based on the question you ask, the agent looks through the data source for the most relevant data to answer the question. The agent depends on the metadata available (for example, table, column headers, and descriptions) to help identify the most relevant data. 
+- Make sure that custom tables and fields added to Dynamics 365 Sales have proper descriptions. The agent uses these descriptions to understand the data and provide better insights.
+- The blueprint generated depends on the data found. If no data is found, then the Sales Research Agent shows an error and might ask if you can rephrase the question.  
+- If you use the AI cursor to ask follow-up questions, the agent considers the same data source to answer it unless you specify a different data source.
+
+## Connect to a data source
+
+Add the data source using *one* of the following options on the **Sales Research Agent** page:
 
 - Select **Data** at the top-right corner of the page and choose **Add data**.
 - Select **Add data** in the **Ask any business question** prompt box.
 
     :::image type="content" source="media/sales-research-agent-add-data.png" alt-text="Screenshot of the Add data option in the Sales Research Agent." lightbox="media/sales-research-agent-add-data.png":::
-
-## Use data from other Dynamics 365 Sales environments
-
-- If you have access to multiple environments, choose the environment that has the data you want to analyze.
-
-- Based on the question you ask, the agent looks through the data source for the most relevant data to answer the question. The agent depends on the metadata available (for example, table and column headers and descriptions) to help identify the most relevant data. 
-- Make sure that custom tables and fields added to Dynamics 365 Sales have proper descriptions. The agent uses these descriptions to understand the data and provide better insights.
-- The blueprint generated depends on the data found. If no data is found, then the Sales Research Agent shows an error and might ask if you can rephrase the question.  
-- If you use the AI cursor to ask follow-up questions, the agent considers the data source again to answer it unless you specify a different data source.  
 
 ## Supported data files
 
