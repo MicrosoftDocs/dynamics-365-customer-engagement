@@ -210,10 +210,10 @@ The assignment rules comprise the following items:
     - **Bot attributes**: Can be used only when you have configured agents as users and want to do some comparisons on them.
   - **Operators**: Define the comparison relationship between the User attribute and incoming work item attributes.
 
-> [!NOTE]
-> Attributes on which field-level security is defined aren't supported in custom assignment.
+ > [!NOTE]
+ > Attributes on which field-level security is defined aren't supported in custom assignment.
 
-    Unified routing filters the attribute-specific operators for you to choose from. Some special operators that are available for the attribute types are as follows.
+      Unified routing filters the attribute-specific operators for you to choose from. Some special operators that are available for the attribute types are as follows.
     
       |Attribute type|Operator|Definition|
       |--------------|--------|----------|
