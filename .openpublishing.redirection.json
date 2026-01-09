@@ -46,6 +46,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/sales-qualification-agent-custom-research-topics.md",
+      "redirect_url": "/dynamics365/sales/define-custom-research-topics",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/sales-ai-agents-faqs.md",
       "redirect_url": "/dynamics365/sales/ai-agent-overview",
       "redirect_document_id": "false"
