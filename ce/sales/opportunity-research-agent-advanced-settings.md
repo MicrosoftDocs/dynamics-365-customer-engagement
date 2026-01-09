@@ -1,7 +1,7 @@
 ---
 title: Configure risk and importance criteria for Sales Close Agent - Research
-description: Learn how to set up and configure the Sales Close Agent - Research in Dynamics 365 Sales.
-ms.date: 11/21/2025
+description: Learn how to configure the risk and importance criteria specific to your organization so that the Sales Close Agent - Research can provide more accurate assessments of opportunities.
+ms.date: 01/09/2026
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -15,15 +15,22 @@ ai-usage: ai-assisted
 
 # Configure risk and importance criteria for Sales Close Agent - Research
 
-By default,the Sales Close Agent - Research determines the risk and importance of an opportunity based on company research and some predefined criteria. However, you can customize these criteria to better align with your organization's specific needs. For example, Contoso Inc has typical sales cycles that last 15 days, and they want to flag opportunities that have been in the same stage for more than 10 days as risky. They can modify the "Stalled in stage" criterion to reflect this requirement.
+By default,the Sales Close Agent - Research determines the risk and importance of an opportunity based on company research and some predefined criteria. However, you can customize these criteria to better align with your organization's specific needs. For example, Contoso Inc has a typical sales cycle that lasts 15 days, and the company wants to flag opportunities that have been in the same stage for more than 10 days as risky. They can modify the "Stalled in stage" criterion to reflect this requirement.
 
-The agent uses past opportunity data and scoring model to rank the risks and importance of current opportunities and then provides a cumulative risk and importance score.  
+The agent evaluates multiple risk and importance criteria to generate overall indicators for each opportunity:
+
+- **Risk indicator**: The agent assesses the severity of each individual risk criterion that you define and calculates an average rating. For example, if the **No recent engagement** threshold is set to 14 days and an opportunity had no engagement for 15 days, it receives a low-risk rating. If the same opportunity has had no engagement for 30 days, it receives a high-risk rating. After evaluating all applicable risk criteria, the agent computes an overall risk score for the opportunity.
+
+- **Importance indicator**: The agent evaluates the significance of each individual importance criterion that you define and calculates an average rating to determine the overall importance of an opportunity.
+
+The overall risk and importance scores help you prioritize which opportunities need immediate attention.
 
 ## Configure the risk criteria
 
-1. In the Sales Close Agent - Research configuration page, locate the **Risk criteria** section under **Advanced**.
+1. In the Sales Close Agent - Research configuration page, go to the **Risk criteria** section under **Advanced**.
 
-1. Pull down the list of available criteria and review the existing risk criteria.  
+1. Open the list of available criteria and review the existing risk criteria.  
+
    :::image type="content" source="media/sales-close-agent-risk-criteria.png" alt-text="Screenshot showing the risk criteria section in the Sales Close Agent - Research configuration page.":::
 1. Modify the criteria as needed. The following table lists the available risk criteria for the Sales Close Agent - Research:
 
@@ -45,10 +52,11 @@ The agent uses past opportunity data and scoring model to rank the risks and imp
 
 ## Configure the importance criteria
 
-1. In the Sales Close Agent - Research configuration page, locate the **Importance criteria** section under **Advanced**.
+1. In the Sales Close Agent - Research configuration page, go to the **Importance criteria** section under **Advanced**.
 
-1. Pull down the list of available criteria and review the existing importance criteria.
-    :::image type="content" source="media/sales-close-agent-importance-criteria.png" alt-text="Screenshot showing the importance criteria section in the Sales Close Agent - Research configuration page.":::
+1. Open the list of available criteria and review the existing importance criteria.
+ 
+   :::image type="content" source="media/sales-close-agent-importance-criteria.png" alt-text="Screenshot showing the importance criteria section in the Sales Close Agent - Research configuration page.":::
 1. Modify the criteria as needed. The following table lists the available importance criteria for the Sales Close Agent - Research:
 
     | Importance criteria | Description |
