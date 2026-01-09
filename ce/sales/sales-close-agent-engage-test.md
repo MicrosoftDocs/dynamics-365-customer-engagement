@@ -21,7 +21,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-When you test the agent, you can check how the Sales Close Agent interacts with a potential customer. You can review the outreach email content, tone, and structure. You can also see how the agent responds to customer replies. For example, you can test how the agent handles questions about product features, pricing, or availability through chat by providing sample customer replies.  
+When you test the agent, you can check how the Sales Close Agent - Engage interacts with a potential customer. You can review the outreach email content, tone, and structure. You can also see how the agent responds to customer replies. For example, you can test how the agent handles questions about product features, pricing, or availability through chat by providing sample customer replies.  
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
