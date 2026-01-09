@@ -36,7 +36,7 @@ For the automatic actions to run, set up the timeout rules per workstream.
       - **Customer Non-Response Time**: The time a customer stays inactive after the representative’s last message. 
         The duration is calculated by subtracting the time of the representative’s last message from the current time. The system calculates the duration only when the most recent message is sent by the service representative.
       - **Representative Non-Response Time**: 
-        - Unresponsiveness to the first message: The duration between the first message by the customer and post-assignment of the representative to the conversation. The duration is calculated by subtracting the current time from the representative’s assignment time. The system calculates the duration only when the representative accepts the notification or autoassigns the notification timeout, or is force-assigned by the supervisor.
+        - Unresponsive to the first message: The duration between the first message by the customer and post-assignment of the representative to the conversation. The duration is calculated by subtracting the current time from the representative’s assignment time. The system calculates the duration only when the representative accepts the notification or autoassigns the notification timeout, or is force-assigned by the supervisor.
         - Unresponsive to the messages mid-conversation: The nonresponsive time of the representative since the customer’s last message. The duration is calculated by subtracting the customer’s last message time from the current time. The system calculates the duration only when the last message is from the customer.
    - Select a workstream that corresponds to the channels where you want the rule to run.
 1. In **Trigger conditions**, for the trigger event that you selected on the previous page, enter the following:
@@ -84,10 +84,7 @@ To enable the representative override option, you need to:
 > [!NOTE]
 > If the panel isn't enabled, the representative override option doesn't appear on the user interface.
    
-For default profiles, the representative override option is turned on for:
-
-   - Customer Service Workspace and channels
-   - Omnichannel for Customer Service
+For default profiles, the representative override option is turned on for Customer Service Workspace and channels.
    
 For custom profiles, you need to manually activate the panel for representatives.
 
