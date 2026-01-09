@@ -22,7 +22,7 @@ Your administrator enabled [timeout rules](../administer/configure-time-out-rule
 
 Here’s what you can do:
 
-#### Access the Timeout Rules panel on the productivity pane
+### Access the Timeout Rules panel on the productivity pane
 
 - In Customer Service workspace, select the **Timeout Rules** icon on the **Productivity** pane. If no timeout rules apply to the conversation, the panel remains blank. 
 
@@ -30,7 +30,7 @@ The panel refreshes dynamically for the currently open conversations. For each c
 
 - To refresh and view the most accurate state of each timeout rule, select **Retry**.
 
-#### View rules linked to the conversation, rule status, and remaining time through the hourglass tooltip
+### View rules linked to the conversation, rule status, and remaining time through the hourglass tooltip
 
 The following states indicate the status of the rule based on the conditions and remaining time until the action is performed: 
 
@@ -42,25 +42,25 @@ The following states indicate the status of the rule based on the conditions and
 
 - **Almost**: >75% time elapsed. 
 
-- **Cannot Off**: Too close to triggering. 
+- **Can't turn off**: Too close to triggering. 
     > [!NOTE]
-    > You can't disable this rule. To ensure reliability, rules enter **Cannot Off** if the timeout is less than one minute. 
+    > You can't disable this rule. To ensure reliability, rules move to the **Can't turn off** state when the timeout is less than one minute. 
 
 - **Inactive**: Condition false; countdown stopped and reset. 
 
-- **Just Ran**: Rule executed; timer stopped. 
+- **Just Ran**: Rule applied; timer stopped. 
 
 - **Turned Off**: Representative disabled the rule completely. 
 
-Hovering over the hourglass icon displays the exact remaining time, improving accessibility and time management. 
+You can hover over the hourglass icon to view the exact remaining time. 
 
 :::image type="content" source="../media/representative-timeout-rules.png" alt-text="Screenshot of the Timeout Rules panel." lightbox="../media/representative-timeout-rules.png":::
 
-#### Toggle rules 
+### Toggle rules 
 
-- Turn the rule off to stop the countdown and prevent rule execution, even if conditions are true. 
+- Turn off the rule to stop the countdown and prevent the rule from running, even if conditions are true. 
 
-- Turn the rule on to resume countdown when conditions become true. Resuming a rule uses the existing timer for the rule.
+- Turn on the rule to resume countdown when conditions become true. When you resume a rule, it uses the existing timer for the rule.
 
 ## Related information
 
