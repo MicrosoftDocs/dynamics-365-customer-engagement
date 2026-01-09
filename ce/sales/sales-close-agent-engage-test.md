@@ -51,7 +51,7 @@ You can simulate interactions between the Sales Close Agent and a customer. This
 
     Review the email content and ensure it aligns with your expectations. You can further interact with the agent by simulating customer replies to the outreach email with follow-up questions, express negative intent, and observe how the agent responds.  
     If the agent's response isn't satisfactory, there are typically a few underlying reasons:  
-    - **Insufficient grounding**: If the agent isn't connected to [the right knowledge sources](configure-sales-close-agent-knowledge-sources.md), it might be unable to generate accurate or relevant responses.  
+    - **Insufficient grounding**: If the agent isn't connected to [the right knowledge sources](configure-sales-close-agent-knowledge-sources.md) and update [the agent playbook instructions](configure-sales-close-agent-knowledge-sources.md#agent-playbook), it might be unable to generate accurate or relevant responses.  
     - **Email quality issues**: If the email structure or tone isn't appropriate, the [configured email template](configure-sales-close-agent-email-content.md) might need to be refined.  
     Make necessary changes in the agent configuration settings to improve the email content and rerun the test until you're satisfied with the results.  
 1. (Optional) Select **Restart** to clear the chat pane and start a new test.  
