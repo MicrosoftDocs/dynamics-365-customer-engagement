@@ -101,7 +101,8 @@ To begin the AI-assisted setup, follow these steps:
 
 1. [Open the setup assistant page](sales-close-agent-engage-setup-assistant.md#open-the-setup-assistant).  
 1. [Choose a setup mode (quick, guided, or data-driven setup)](sales-close-agent-engage-setup-assistant.md#choose-a-setup-mode) and follow the on-screen instructions to complete the setup process.  
-1. [Set up the agent through prompts](sales-close-agent-engage-setup-assistant.md#set-up-the-agent-through-chat-interactions).  
+1. [Set up the agent through prompts](sales-close-agent-engage-setup-assistant.md#set-up-the-agent-through-chat-interactions).
+1. [Test the agent](sales-close-agent-engage-test.md) to simulate interactions between the Sales Close Agent and a customer without impacting real CRM data.
 
 ### Manual setup
 
@@ -115,6 +116,7 @@ Let's look at the steps to set up and configure the agents.
 1. [Configure email delivery](configure-sales-close-agent-email-delivery.md) for the agent to send outreach and follow-up emails to customers.  
 1. [Configure email content](configure-sales-close-agent-email-content.md) that the agent uses for outreach and follow-up emails.  
 1. [Configure knowledge sources](configure-sales-close-agent-knowledge-sources.md) that the agent uses to enrich customer interactions.  
+1. [Test the agent](sales-close-agent-engage-test.md) to simulate interactions between the Sales Close Agent and a customer without impacting real CRM data.  
 1. After you are satisfied with the configuration, [start the agent](start-sales-close-agent.md).
 
 ## Related information
