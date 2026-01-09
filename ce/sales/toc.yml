@@ -164,7 +164,7 @@ items:
                   - name: Configure knowledge sources
                     href: configure-sqa-knowledge-source.md
                   - name: Define custom research insights
-                    href: sales-qualification-agent-custom-research-topics.md
+                    href: define-custom-research-topics.md
                   - name: Run simulation to review outreach email content
                     href: run-simulation-sqa-outreach-email.md
               - name: Start the agent
@@ -193,6 +193,8 @@ items:
                 items:
                   - name: Set up and configure Sales Close Agent - Research
                     href: configure-opportunity-research-agent.md
+                  - name: Define custom research insights
+                    href: define-custom-research-topics.md
                   - name: Edit settings of Sales Close Agent - Research
                     href: edit-opportunity-research-agent-settings.md
                   - name: View agent insights and metrics
@@ -216,6 +218,8 @@ items:
                   href: configure-sales-close-agent-email-content.md
                 - name: Configure knowledge sources
                   href: configure-sales-close-agent-knowledge-sources.md
+                - name: Test the agent
+                  href: sales-close-agent-engage-test.md  
                 - name: Start the agent 
                   href: start-sales-close-agent.md
                 - name: Manage the agent

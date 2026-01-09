@@ -1,7 +1,7 @@
 ---
 title: Configure the Sales Close Agent - Research (preview)
 description: Learn how to set up and configure the Sales Close Agent - Research in Dynamics 365 Sales.
-ms.date: 01/02/2026
+ms.date: 01/09/2026
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -225,6 +225,11 @@ Consider the following best practices while configuring knowledge sources for th
 - Review security. The agent will only present data that the signed-in seller is permitted to access.
 - Monitor capacity. Large files and frequent refreshes consume AI credits; track usage in Power Platform admin center.
 - With curated knowledge sources, the agent becomes a best researcher that understands your organization and surfaces the insights your sellers value most.
+
+
+### Configure advanced settings (optional)
+
+Under **Advanced** section, you can configure the risk and importance criteria for the opportunities. Learn more in [Configure risk and importance criteria for Sales Close Agent - Research](opportunity-research-agent-advanced-settings.md). 
 
 ## Step 5: Start or stop the agent
 
