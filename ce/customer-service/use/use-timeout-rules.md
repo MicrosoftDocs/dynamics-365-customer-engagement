@@ -16,7 +16,7 @@ The timeout rules feature in Customer Service workspace helps you manage and mon
 
 ## Prerequisite
 
-Your administrator enabled [Configure timeout rules](../administer/configure-time-out-rules.md#configure-time-out-rules).
+Your administrator enabled [timeout rules](../administer/configure-time-out-rules.md#configure-time-out-rules).
 
 ## Use the representative override panel
 
