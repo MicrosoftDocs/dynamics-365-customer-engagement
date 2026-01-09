@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Use timeout rules
 
-The timeout rules feature in the Customer Service workspace helps you manage and monitor time-sensitive actions during conversations. By using this feature, you can ensure timely responses, improve productivity, and maintain control over automated processes. This article explains how to access and use the time‑out rules panel, interpret rule statuses, and manage rules effectively. When you disable a rule with the toggle, it halts the countdown execution even if conditions are met, while re‑enabling the rule resumes the countdown using the previous timer state.
+The timeout rules feature in Customer Service workspace helps you manage and monitor time-sensitive actions during conversations. You can ensure timely responses, improve productivity, and maintain control over automated processes. This article explains how to access and use the timeout rules panel, interpret rule statuses, and manage rules effectively. When you disable a rule with the toggle, it halts the countdown even if conditions are met. The countdown resumes using the previous timer state when you enable the rule again.
 
 ## Prerequisite
 
