@@ -1,6 +1,6 @@
 ---
-title: Test the Sales Close Agent (Engage) (preview)
-description: Learn how to test the Sales Close Agent (Engage) using the AI Setup Assistant in Dynamics 365 Sales.
+title: Test the Sales Close Agent - Engage (preview)
+description: Learn how to test the Sales Close Agent - Engage using the AI Setup Assistant in Dynamics 365 Sales.
 ms.date: 01/09/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -17,7 +17,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Test the Sales Close Agent (Engage) (preview)
+# Test the Sales Close Agent - Engage (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
