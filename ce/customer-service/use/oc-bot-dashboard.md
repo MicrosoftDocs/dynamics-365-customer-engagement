@@ -1,7 +1,7 @@
 ---
 title: Bot dashboard
 description: Learn about the bot dashboard in historical analytics to better understand customer service representative performance in your organization.
-ms.date: 12/12/2025
+ms.date: 01/14/2026
 ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
@@ -18,7 +18,7 @@ In the application, you can integrate both Azure and Copilot agents to perform t
 
 Based on your administrator's configuration of the **Add historical analytics for bots** option in the Copilot Service admin center, the dashboard is as follows:
 
-- **Enabled**: Indicates that your organization only has Copilot agents configured and the dashboard is specific to them. More metrics, charts, and KPIs that are applicable only to Copilot agents are displayed.
+- **Enabled**: Indicates that your organization has configured Copilot agents only and the dashboard is specific to them. Metrics, charts, and KPIs that are applicable to Copilot agents only are displayed.
 - **Disabled**: Indicates that your organization has both Azure and Copilot agents configured. The dashboard shows you metrics, KPIs, and charts that are common to both.
 
 ## Prerequisites
@@ -48,7 +48,7 @@ Based on your administrator's configuration of the **Add historical analytics fo
  | Bot escalation rate | The percentage of AI agent conversations escalated by the AI agent to a service representative or an external phone number. |
  | Bot deflection rate| The percentage of AI agent conversations deflected by the AI agent.|
 
-Copilot Studio based session metrics:
+Session metrics for Copilot Studio agents:
 
 
  | KPI | Description |
@@ -240,7 +240,7 @@ Administrators in Microsoft Copilot Studio must enable the option to log node-le
 
 ### Customize bot dashboard
 
-For Copilot agents, you can edit the report to add the more metrics and filters to the AI agent. To customize the bot dashboard, see [customize visual display](/dynamics365/contact-center/use/customize-agent-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml). 
+You can edit the report to add metrics and filters for the AI agents in Copilot Studio. To customize the bot dashboard, see [customize visual display](/dynamics365/contact-center/use/customize-agent-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml). 
 
 
 ## [Dashboard for all bots ](#tab/allbots)
