@@ -28,7 +28,7 @@ Before you begin, ensure you have the following:
 1. Fill required fields such as:
    - App name
    - Supported accounts - Accounts in this organizational directory only (Mystery Incorporated only - Single tenant)
-   - Redirect URL - Replace crm_org_domain: SPA - https://<crm_org_domain>/crmmailapp/msalAuth.html
+   - Redirect URL - Replace `crm_org_domain`: SPA - `https://<crm_org_domain>/crmmailapp/msalAuth.html`
 1. Once you create app registration, navigate to **Api permissions** section and add corresponding permissions for the Graph and grant admin consent.
 1. Record AppId and TenantId for the next step.
 
