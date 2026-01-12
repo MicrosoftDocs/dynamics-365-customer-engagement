@@ -193,6 +193,8 @@ items:
                 items:
                   - name: Set up and configure Sales Close Agent - Research
                     href: configure-opportunity-research-agent.md
+                  - name: Configure risk and importance criteria
+                    href: opportunity-research-agent-advanced-settings.md
                   - name: Edit settings of Sales Close Agent - Research
                     href: edit-opportunity-research-agent-settings.md
                   - name: View agent insights and metrics
