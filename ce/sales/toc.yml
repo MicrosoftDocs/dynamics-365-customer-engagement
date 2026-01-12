@@ -193,6 +193,8 @@ items:
                 items:
                   - name: Set up and configure Sales Close Agent - Research
                     href: configure-opportunity-research-agent.md
+                  - name: Configure risk and importance criteria
+                    href: opportunity-research-agent-advanced-settings.md
                   - name: Define custom research insights
                     href: define-custom-research-topics.md
                   - name: Edit settings of Sales Close Agent - Research
@@ -745,8 +747,6 @@ items:
             href: enable-ri.md
           - name: Insights generated from Microsoft 365 data
             href: insights-from-m365.md
-          - name: Microsoft 365 consent types
-            href: ms365-consent-types.md
           - name: Add relationship intelligence widgets to custom forms
             href: add-ri-widgets-to-custom-form.md
           - name: Grant access to who knows whom information

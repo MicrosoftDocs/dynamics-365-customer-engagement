@@ -19,7 +19,7 @@ By default, the Sales Close Agent - Research determines the risk and importance 
 
 The agent evaluates multiple risk and importance criteria to generate overall indicators for each opportunity:
 
-- **Risk indicator**: The agent assesses the severity of each individual risk criterion that you configure and calculates an average rating. For example, if the **No recent engagement** threshold is set to 14 days and an opportunity has no engagement for 15 days, it receives a low-risk rating. If the same opportunity has no engagement for 30 days, it receives a high-risk rating. After evaluating all applicable risk criteria, the agent computes an overall risk score for the opportunity.
+- **Risk indicator**: The agent assesses the severity of each individual risk criterion that you configure and calculates an average rating. For example, if you set the **No recent engagement** threshold to 14 days and an opportunity has no engagement for 15 days, it receives a low-risk rating. If the same opportunity has no engagement for 30 days, it receives a high-risk rating. After evaluating all applicable risk criteria, the agent computes an overall risk score for the opportunity.
 
 - **Importance indicator**: The agent evaluates the significance of each individual importance criterion that you configure and calculates an average rating to determine the overall importance of an opportunity.
 
