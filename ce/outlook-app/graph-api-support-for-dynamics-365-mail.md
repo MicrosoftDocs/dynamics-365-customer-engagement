@@ -4,7 +4,7 @@ description: Discover how to manually create a settings entity and configure the
 author: shwetamurkute
 ms.author: smurkute
 ms.reviewer: smurkute
-ms.date: 12/16/2025
+ms.date: 01/12/2026
 ms.topic: how-to
 ---
 
@@ -21,7 +21,22 @@ Before you begin, ensure you have the following:
 - Your Azure tenant ID
 - Appropriate security permissions to create solutions and entities.
 
-## Create the Dynamics 365 Mail App settings solution
+## Create 3 party App registration on the Azure Tenant
+
+1. Sign in to [Azure portal](https://ms.portal.azure.com/).
+1. Go to **App registrations** and select **+ New registration** to create new app registration.
+1. Fill required fields such as:
+   - App name
+   - Supported accounts - Accounts in this organizational directory only (Mystery Incorporated only - Single tenant)
+   - Redirect URL - Replace crm_org_domain: SPA - https://<crm_org_domain>/crmmailapp/msalAuth.html
+1. Once you create app registration, navigate to **Api permissions** section and add corresponding permissions for the Graph and grant admin consent.
+1. Record AppId and TenantId for the next step.
+
+## Import D365 Mail App settings solution
+
+Follow these steps to manually create setting entity:
+
+### Create the Dynamics 365 Mail App settings solution
 
 Create a new solution in your Dynamics 365 environment to house the Mail App configuration settings.
 
@@ -32,41 +47,43 @@ Create a new solution in your Dynamics 365 environment to house the Mail App con
    - Add a new publisher that allows the customer to create entities with the prefix **mailapp**.
    - **Version**: 1.0.0.0
 
-## Add the settings entity
+#### Add the settings entity
 
 Add a custom entity to store the Mail App configuration values.
 
 1. In the D365MailAppsettings solution, add a new entity.
 1. Set the entity **Name** to **mailapp_setting**, **Display Name** to **MailApp Settings**, and **Plural Name** to **Settings**.
 
-## Configure entity fields
+#### Configure entity fields
 
 Add new fields in the mailapp_setting entity.
 
 - **mailapp_name**: Stores the name of each configuration setting.
 - **mailapp_settingvalue**: Stores the corresponding value for each setting.
 
-## Add the Graph API app ID to the Dynamics 365 Mail App settings
+### Add the Graph API app ID to the Dynamics 365 Mail App settings
 
 1. To access the entity with the setting, go to `https://<org_domain>/main.aspx?pagetype=entitylist&etn=mailapp_setting`.
 1. Create a new record in the mailapp_setting entity with the following values:
    - **Name**: graph_appid
    - **Setting value**: Enter the App ID from your Azure AD App registration.
 
-## Add your Azure tenant ID
+### Add the AAD tenant ID to the Dynamics 365 Mail App settings
 
-Add your Azure tenant ID to complete the authentication setup.
-
-1. Create a new record in the mailapp_setting entity with these values:
+1. To access the entity with the setting, go to `https://<org_domain>/main.aspx?pagetype=entitylist&etn=mailapp_setting`.
+1. Create a new record in the mailapp_setting entity with the following values:
    - **Name**: azure_tenantid
-   - **Setting value**: Enter your Azure tenant ID
+   - **Setting value**: Enter the Azure tenant ID
 
-## Configure security permissions
+## Add read permission for settings for all users
 
 Grant read permissions for the settings entity so users can access the Mail App configuration.
 
 1. Go to **Settings** > **Security** > **Security roles**.
-1. For each security role that needs access to the Mail App, grant read permissions for the `mailapp_setting` entity.
+1. Search for **Dynamics 365 App for Outlook User** security role.
+1. Switch to the custom entities settings view and search for the **MailApp Settings** entity.
+1. Set **Read** permission on the org level.
+1. Save changes.
 
 ## Next steps
 
