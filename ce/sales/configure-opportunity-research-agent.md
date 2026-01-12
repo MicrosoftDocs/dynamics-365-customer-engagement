@@ -1,7 +1,7 @@
 ---
 title: Configure the Sales Close Agent - Research (preview)
 description: Learn how to set up and configure the Sales Close Agent - Research in Dynamics 365 Sales.
-ms.date: 01/09/2026
+ms.date: 01/12/2026
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -162,7 +162,7 @@ In the **Refresh frequency** tab, specify how frequently you want the agent to r
 
 ### Configure fields for importance and risk assessment
 
-In the **Opportunity assessment** tab, specify the fields that the agent should use as a factor to assess the importance and risk of the opportunities. The agent also uses many other factors to calculate the importance and risk of the opportunities. 
+In the **Opportunity assessment** tab, specify the fields that the agent should use as a factor to assess the importance and risk of the opportunities. In addition to these fields, the agent uses other signals such as customer interactions, stakeholder engagement, and so on. You can customize the thresholds for risk and importance criteria in the **Advanced** section. Learn more in [Configure risk and importance criteria for Sales Close Agent - Research](opportunity-research-agent-advanced-settings.md).  
 
 - **Monetary value:** Select the field that represents the monetary value of the opportunity, such as **Est. revenue**. This field determines the importance of the opportunity.
 - **Estimated close date**: Select the field that represents the estimated close date of the opportunity, such as **Est. close date**. This field helps the agent assess the urgency of the opportunity and identify potential risks.
