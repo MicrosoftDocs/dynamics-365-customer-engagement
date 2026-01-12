@@ -21,7 +21,7 @@ Before you begin, ensure you have the following:
 - Your Azure tenant ID
 - Appropriate security permissions to create solutions and entities.
 
-## Create 3 party App registration on the Azure Tenant
+## Create 3 party App registration on the Azure tenant
 
 1. Sign in to [Azure portal](https://ms.portal.azure.com/).
 1. Go to **App registrations** and select **+ New registration** to create new app registration.
