@@ -6,13 +6,12 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 11/07/2025
+ms.date: 01/14/2026
 ms.custom: bap-template
 ---
 
 
 # Set up Case Management Agent to create and update cases 
-
 
 Case Management Agent streamlines the case management process, reducing manual effort and data entry errors.
 

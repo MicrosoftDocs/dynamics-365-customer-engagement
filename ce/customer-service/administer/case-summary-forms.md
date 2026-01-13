@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 04/28/2025
+ms.date: 01/14/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template 
 ---
@@ -40,17 +40,17 @@ To avoid duplication of summaries on the form or to further customize the summar
 
 Use multiple settings in the **msdyn_copilotsummarizationsetting** table to customize the display of summaries on the forms as follows:
 
-  - configure summaries to appear only on specific forms
-  - specify the combination of summary records and forms that must be used.
-  -  specify which configuration should be used as the default. 
+- Configure summaries to appear only on specific forms.
+- Specify the combination of summary records and forms that must be used.
+- Specify the configuration that must be used as the default.
 
- The following parameters are available.
+The following parameters are available.
 
 ### msdyn_isdefaultconfig
 
 Determines which summary record is used as the default configuration for case and record summaries. When multiple record configurations for entities are available, the record created first is set as the default configuration. 
 
--  This setting can be either **True** or **False**. 
+- This setting can be either **True** or **False**. 
 - Only one record can be set to **True** at any point in time. 
 - If the setting is set to **True** for a record, the record is used as the default configuration for all forms linked to that entity. 
 - If you set the values of all the records to **False** summary isn't displayed on the related forms for the corresponding entity.
@@ -80,9 +80,8 @@ Exclude specific forms from displaying summaries. You can specify the form ID of
 - If a form is added to the excludefromlist of a specific entity record, then the summary isn't displayed on the form. For example, if you add the form ID of the **Information** case form to the excludefromlist of an incident record, then case summary isn't displayed on the case form.
 - If you already added the [Copilot case summary](../administer/copilot-powerapps-settings.md#display-copilot-case-summary-on-custom-case-forms) or [custom record summary](../administer/copilot-enable-custom-record-summaries.md#configure-the-summary-control-on-entity-forms) control to the related forms, users might see duplicates. To avoid this perform one of the following steps:
 
-  -  To show summaries only at the top: Remove the custom summarization control from the form in Power Apps.
-  -  To show summaries only within the form: Add the form to the exclude list using the following script.
-
+   -  To show summaries only at the top: Remove the custom summarization control from the form in Power Apps.
+   -  To show summaries only within the form: Add the form to the exclude list using the following script.
 
 Go to **Copilot Service admin center** > **Productivity** > **Summaries** page and then run the following script in the Console tab of developer tools to add forms to an exclude list.
 
@@ -122,7 +121,6 @@ Go to **Copilot Service admin center** > **Productivity** > **Summaries**  page 
 
  ```
 
-
 ### msdyn_disabledforplatformsummary
 
 This setting allows you to completely disable a configuration. If this setting is set to **True**, the record's configuration isn't displayed on any form, regardless of the applicable forms list or exclude forms list. This setting is useful for temporarily disabling a configuration without deleting it.
@@ -153,3 +151,7 @@ The system processes the settings in the following order to determine which summ
      1. Checks if the formID is added to any entity record's `msdyn_applicableformslist`. If the form is present in an applicable list, the summary is displayed based on the configuration of the record.
      1. Checks if the `msdyn_isdefaultconfig` is set to **True** for any entity record. If a record is set as default, the summary is displayed based on the configuration of that record.
      Summary isn't displayed if there isn't a record with `msdyn_isdefaultconfig` set to **True**.
+
+### Related information
+
+[Enable case summaries](/dynamics365/contact-center/administer/copilot-enable-summary#enable-case-summaries)  

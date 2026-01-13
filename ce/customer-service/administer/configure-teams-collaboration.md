@@ -1,7 +1,7 @@
 ---
 title: Configure Microsoft Teams collaboration
 description: Learn how to configure collaboration with Microsoft Teams in Customer Service.
-ms.date: 04/29/2025
+ms.date: 01/14/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: neeranelli

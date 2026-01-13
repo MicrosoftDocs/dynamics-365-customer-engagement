@@ -1,7 +1,7 @@
 ---
 title: Collaborate with AI-suggested contacts in Microsoft Teams
 description: Learn how to use the AI-suggested experts and collaborate with them through Microsoft Teams to resolve cases in Customer Service.
-ms.date: 04/29/2025
+ms.date: 01/14/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: neeranelli
