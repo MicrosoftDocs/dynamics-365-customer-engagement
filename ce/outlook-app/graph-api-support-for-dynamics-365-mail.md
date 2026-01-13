@@ -29,7 +29,10 @@ Before you begin, ensure you have the following:
    - App name
    - Supported accounts - Accounts in this organizational directory only (Mystery Incorporated only - Single tenant)
    - Redirect URL - Replace `crm_org_domain`: SPA - `https://<crm_org_domain>/crmmailapp/msalAuth.html`
-1. Once you create app registration, navigate to **Api permissions** section and add corresponding permissions for the Graph and grant admin consent.
+1. After you create the app registration, go to the **API permissions** section and add the corresponding permissions for Graph. You need to grant admin consent to these permissions.
+   > [!div class="mx-imgBorder"] 
+   > ![API permissions](media/graph-permissions.png "API permissions required for Microsoft Graph")
+
 1. Record AppId and TenantId for the next step.
 
 ## Import D365 Mail App settings solution
