@@ -1,7 +1,7 @@
 ---
 title: Customize Copilot in Dynamics 365 Sales
 description: Learn how to extend Copilot in Dynamics 365 Sales to customize the welcome message, add prompts, and the prompt guide.
-ms.date: 06/03/2025
+ms.date: 01/13/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -43,8 +43,9 @@ Use a solution to manage your customizations so that you can easily deploy them 
 1. Select **Copilot in Dynamics 365 Sales** to customize Copilot in Dynamics 365 Sales.
 1. Customize the following aspects of Copilot chat experience:
 
-    - [Add a new topic to Copilot chat](/power-apps/maker/model-driven-apps/customize-copilot-chat#add-new-topic-to-copilot-chat). The [Image](/microsoft-copilot-studio/authoring-send-message#add-an-image) and [Video](/microsoft-copilot-studio/authoring-send-message#add-an-image) message types from agent to user aren't supported. As a workaround, you can use Adaptive Cards.
+    - [Create or edit topics in Copilot Studio](/microsoft-copilot-studio/authoring-create-edit-topics). You can create new topics or edit existing topics to add more relevant data and actions specific to your organization. 
       > [!NOTE]
+      >- Custom topics will be charged as per the Copilot Studio credits consumed. Learn more about capacity in [Manage consumption-based billing for agent capabilities](copilot-consumption-based-billing.md).
       >- Knowledge source isn't supported currently for Copilot in Dynamics 365 Sales.
       >- The [Image](/microsoft-copilot-studio/authoring-send-message#add-an-image) and [Video](/microsoft-copilot-studio/authoring-send-message#add-an-image) message types from agent to user aren't supported. As a workaround, you can use Adaptive Cards.
     - Edit the **SalesSparks** topic to [customize the prompt guide](/power-apps/maker/model-driven-apps/customize-copilot-chat#prompt-guide-customizations).
@@ -64,19 +65,8 @@ You can train Copilot in Dynamics 365 Sales to understand your business terms. U
 
 1. Select **Agents** > **Copilot in Dynamics 365 Sales**.
 1. Select **SalesSpecificQnA** under **Knowledge** section.
-1. Select the **Glossary** section and enter the term and description and select **Next** to add the term. [See some sample terms and descriptions](#sample-term-and-description).
-   :::image type="content" source="media/Natural_chat_Glossary.png" alt-text="Screenshot of the glossary configuration page in Copilot Studio.":::
-1. Select **Save** after you have added all the terms.
-   The updated glossary terms are available after 15 minutes in the Copilot chat experience in Dynamics 365 Sales.
+1. Select the **Glossary** section and enter the term and description. Learn more about glossary terms and synonyms at [Add Dataverse tables as a knowledge source](/microsoft-copilot-studio/knowledge-add-dataverse).
 
-### Sample term and description
-
-| Scenarios  | Term  | Description |
-|-----------------------|---------|-----------------------|
-| **Acronym** | VP | ‘VP’ refers to ‘Vice President’ value in ‘JobTitle’ column in ‘Contact’ table. |
-| **Custom ownership** (Specify your ownership instead of using the record owner id) | activity owner  | activity owner is identified by 'PartyId' column in 'ActivityParty' table.  |
-| **Custom field** (Use a custom field instead of the out-of-the-box system columns or table) | opportunity revenue  | opportunity revenue refers to ‘custom revenue’ column in ‘opportunity' table  |
-| **Complex rules/filter** (Define your tailored rules and guidelines) | overdue task  | ‘overdue task’ refers to ‘state code’ column with value ‘open’ in ‘task’ table and ‘scheduled end date’ column in ‘task’ table with value less than today.  |
 
 ## Watch videos
 
