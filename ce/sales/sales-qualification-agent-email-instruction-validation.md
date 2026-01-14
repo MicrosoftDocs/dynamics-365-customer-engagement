@@ -1,6 +1,6 @@
 ---
 title: Configure email settings for the Sales Qualification Agent
-description: Learn how to configure email instructions and address validation to personalize your Sales Qualification Agent's outreach.
+description: "Learn how to configure email settings for the Sales Qualification Agent to personalize outreach, ensure compliance, and validate email addresses effectively."
 ms.date: 08/01/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -37,7 +37,7 @@ Configure the instructions that the agent should use to ensure that the email fo
     1. Select **New field** to add a text-based field from the `Lead` table.
     1. In the **Agent Instructions** field, provide guidance on how to use the selected field in the email. For example, if you selected the **Job title** field, you might instruct the agent to tailor the email content based on the lead's job title so that it resonates with their specific role and responsibilities.
 1. Under **Outreach emails**, specify whether you want the agent to generate emails from scratch or use an existing email template:
-    - **AI-generated personalization**: Select this option to have the agent draft personalized outreach emails based on the lead's information and the provided instructions.
+    - **AI-generated personalization**: Select this option to have the agent draft personalized outreach emails based on the lead's information,  provided instructions, account research, account news, and knowledge sources configured for the agent. This option allows for dynamic and tailored email content for each lead.
     - **Fixed template**: Select this option to have the agent use a predefined email template for outreach so that all emails follow a consistent format. Select **Choose template** to pick an email template that's most relevant for your outreach. The list displays all email templates for the Lead table. If you'd like to modify a template or create a new one, refer to [Create templates for email](/power-platform/admin/create-templates-email?tabs=new). 
       > [!NOTE]
       >- Remove any signature from the email template to avoid duplicate signatures in the outreach email. The agent automatically appends the sender's email signature to the outreach email.

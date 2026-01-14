@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 11/04/2025
+ms.date: 12/12/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -22,7 +22,7 @@ This article explains how to configure connection references for AI agents that 
 |AI agent |Flow  |
 |---------|---------|
 |Customer Knowledge Management Agent    |   **Knowledge Harvest Trigger Flow V2**   |
-|Quality Evaluation Agent    |  - **QEA On Demand Evaluation Case** for cases. <br> - **AI Evaluation Flow for Conversation** for conversations.    |
+|Quality Evaluation Agent    | <ul> <li> **QEA On Demand Evaluation Case** for cases.</li> <li>**AI Evaluation Flow for Conversation** for conversations.</li><ul>|
 
 Learn more in [Add connection references to a solution.](/power-apps/maker/data-platform/create-connection-reference#add-connection-references-to-a-solution).
 
@@ -30,8 +30,10 @@ Learn more in [Add connection references to a solution.](/power-apps/maker/data-
 
 |AI agent flow|Connection references  |
 |---------|---------|
-|**Knowledge Harvest Trigger Flow V2**   |    - **Microsoft Dataverse CustomerServiceKnowledgeHarvest** <br> - **Microsoft Copilot Studio CustomerServiceKnowledgeHarvest**     |
-|- **QEA On Demand Evaluation Case** for cases. <br> - **AI Evaluation Flow for Conversation** for conversations.    |  **QMA.UnifiedAgent.DVPluginConnection, Microsoft Copilot Studio (Preview) CaseReviewerFlow** and **Microsoft Dataverse FlowRunTest-8625a**. |
+|**Knowledge Harvest Trigger Flow V2**   |   <ul> <li> **Microsoft Dataverse CustomerServiceKnowledgeHarvest**</li>  <li>**Microsoft Copilot Studio CustomerServiceKnowledgeHarvest** </li> <ul> |
+ |<ul> <li> For cases: **QEA On Demand Evaluation Case**. </li>  <li> For conversations: **AI Evaluation Flow for Conversation**. </li> <ul>  |  For cases and conversations: <ul> <li>  **Microsoft Dataverse Connection Reference for QEA**. If not found, look for **Microsoft Dataverse FlowRunTest-8625a**. </li>  <li> **Microsoft Copilot Studio Connection Reference for QEA**. If not found, look for **Microsoft Copilot Studio (Preview) CaseReviewerFlow-2f011**. </li> <li> **QMA.UnifiedAgent.DVPluginConnection**<br> <br> For cases:  **QMA.Incident.DVPluginConnection** |
+
+Use the following steps to set up connection references for Customer Knowledge Management Agent. Use the same steps to configure connection references for Quality Evaluation Agent.
 
 1. Sign in to [make.powerapps.com](https://make.powerapps.com) and select your environment.
 1. Go to **Solutions** > **Default Solution** > **Objects** > **Connection References**.
@@ -40,8 +42,7 @@ Learn more in [Add connection references to a solution.](/power-apps/maker/data-
     1. In the **Edit** dialog, select **Connection** > **New connection**. 
     1. Search for **Microsoft Dataverse** and select **Create**. You might need to sign in using the OAuth connection type to create a Dataverse connection.
     1. Go back to the **Edit** dialog of **Microsoft Dataverse CustomerServiceKnowledgeHarvest**, search for the new connection and save it.
-    1. Repeat step a and b, to create a connection with **Microsoft Copilot Studio (Preview)**.
-    1. Go back to the **Edit** dialog of **Microsoft Dataverse CustomerServiceKnowledgeHarvest**, search for the new connection and save it.
+    1. Repeat step a and b, to create a connection with **Microsoft Copilot Studio**.    
 1. Save your changes.
 
  
@@ -50,7 +51,7 @@ Learn more in [Add connection references to a solution.](/power-apps/maker/data-
 |AI agent  | AI Agent flow  |
 |---------|---------|
 |Customer Knowledge Management Agent |    **Knowledge Harvest Trigger Flow V2**    |
-|Quality Evaluation Agent   |  - **QEA On Demand Evaluation Case** for cases. <br> - **AI Evaluation Flow for Conversation** for conversations.  <br> - **Expire evaluations** |
+|Quality Evaluation Agent   | <ul> <li> **QEA On Demand Evaluation Case** for cases. <li> **AI Evaluation Flow for Conversation** for conversations. </li>  <li>  **Expire evaluations**</li> <ul>  |
 
 In [Power Automate](https://powerautomate.microsoft.com), search for your flow, for example, **Knowledge Harvest Trigger Flow V2** in **Cloud flows**, and turn it on. Learn more in [Power Automate](/power-automate/overview-cloud#find-your-flows-easily).
 

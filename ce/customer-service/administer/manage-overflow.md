@@ -4,7 +4,7 @@ description: Learn how to set up overflow conditions and actions for your voice,
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 11/06/2025
+ms.date: 11/27/2025
 ms.topic: how-to
 ms.custom:
  - bap-template
@@ -17,7 +17,7 @@ ms.custom:
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-When a new work item arrives, unified routing in Dynamics 365 Customer Service directs it to the representative who's best suited to work on it. But what happens if all the service representatives who could work on it are already at maximum capacity? And how do you handle work items that arrive when your call center is closed? Overflow handling in Customer Service helps you manage both surge conditions and after-hours calls.
+When a new work item arrives, unified routing directs it to the representative who is best suited to work on it. But what happens if all the service representatives who could work on it are already at maximum capacity? And how do you handle work items that arrive when your call center is closed? Overflow handling in Customer Service helps you manage both surge conditions and after-hours calls.
 
 A queue's overflow handling options can trigger actions either before or after a work item is queued.
 
@@ -35,9 +35,9 @@ If you don't set up overflow handling, then by default, the work item is added t
 
 ## Prerequisites
 
-- [Unified routing is configured](./set-up-routing-process.md) and [you've set up queues and added representatives](./queues-omnichannel.md) to them.
+- [Unified routing is configured](./set-up-routing-process.md) and [you set up queues and added representatives](./queues-omnichannel.md) to them.
 - If you plan to transfer calls to an external number, external phone numbers with outbound calling are available.
-- If you plan to trigger overflow handling before work items are queued, you've [configured route-to-queue rules](./configure-route-to-queue-rules.md) in the workstream.
+- If you plan to trigger overflow handling before work items are queued, you [configured route-to-queue rules](./configure-route-to-queue-rules.md) in the workstream.
 
 ## Handle overflow before a work item is queued
 
@@ -46,7 +46,7 @@ Unified routing checks for overflow conditions after evaluating the route-to-que
 > [!NOTE]
 > The system does the check once only for each work item before it enters a queue.
 
-If an overflow action transfers the work item to another queue, or a supervisor assigns the work item to a service representative or transfers it to another representative, the system assigns the work item to the representative or queue without any further pre-queue overflow checks.
+If an overflow action transfers the work item to another queue, or a supervisor assigns the work item to a service representative or transfers it to another representative, the system assigns the work item to the representative or queue without any further prequeue overflow checks.
 
 The system considers the following factors when it checks for overflow conditions before queueing up a work item:
 
@@ -115,7 +115,7 @@ If a work item is routed to a fallback queue because of errors or route-to-queue
   
 - For the messaging and voice queues, you can also select the following conditions and actions:
 
-  - **Work item limit exceeds**: Enter a number between 1 and 100 to indicate how many open work items can be in the queue before it overflows. For example, if you enter *2*, then if the queue contains two open work items, the arrival of a third item triggers one of the following actions:
+  - **Work item limit exceeds**: Enter a number between 1 and 100 to indicate how many open work items can be in the queue before it overflows. Queue position is updated every 10 seconds only. Any incoming conversation that's evaluated for prequeue overflow in the 10-seconds interval uses the older cached value for items in the queue. For example, if you set *2* as the limit, then if the queue contains two open work items, the arrival of a third item triggers one of the following actions:
   
     - **Direct callback**: For voice queues only. The customer can choose to have the representative call them back. The work item stays open and is routed to the next available representative for callback.
     - **End call**
@@ -124,7 +124,7 @@ If a work item is routed to a fallback queue because of errors or route-to-queue
     - **Transfer to an external number**
     - **Voicemail**
 
-  - **Average wait time**: For voice queues only. Enter a number and select a unit of time between 30 seconds and 60 minutes to indicate how long the predicted wait time can be before the queue overflows. For example, if you enter *10 Minutes*, then if a customer calls and the predicted wait time is 15 minutes, the system triggers one of the following actions:
+  - **Average wait time**: For voice queues only. Enter a number and select a unit of time between 30 seconds and 60 minutes to indicate how long the predicted wait time can be before the queue overflows. For example, if you enter *10 Minutes*, then if a customer calls, and the predicted wait time is 15 minutes, the system triggers one of the following actions:
   
     - **Direct callback**
     - **End call**

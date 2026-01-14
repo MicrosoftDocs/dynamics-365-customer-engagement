@@ -25,10 +25,6 @@ As an admin, set up and configure the Sales Research Agent in Dynamics 365 Sales
 
 The agent needs Copilot Studio capacity to run. Ensure that you have enough capacity for the agent. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
 
-## Enable AI Agents in Power Platform Admin Center
-
-The tenant admin must enable AI Agents in Power Platform Admin Center to use the Sales Research Agent in Dynamics 365 Sales. Learn more in [Turn on AI capabilities in Dynamics 365 Sales](/power-platform/admin/copilot/copilot-hub#turn-on-ai-capabilities-in-dynamics-365-sales).
-
 ## Grant access to the Sales Research Agent
 
 By default, the **Sales Research Agent** menu in the Sales Hub app is only visible and accessible to the **System Administrator** role.  

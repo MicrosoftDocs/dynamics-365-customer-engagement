@@ -37,7 +37,7 @@ The Sales Qualification Agent uses the following Copilot Studio agents:
 - **D365 Sales Agent - Research**: This agent conducts research to gather insights and data that can help in understanding leads and tailoring the sales approach. This agent is shared across Sales Qualification Agent and Sales Close Agent.
 - **D365 Sales Agent - Competitor**: This agent analyzes competitors related to the lead, providing valuable information that can be used to position offerings effectively. This agent is shared across Sales Qualification Agent and Sales Close Agent.
 - **D365 Sales Agent - Custom Research**: This agent performs researches on custom topics as specified by the sales team to gather specific insights relevant to their sales strategy.
-- **D365 Sales Agent - Readiness**: This agent determines if the lead is a good fit for further engagement by analyzing the lead's profile against the ideal customer profile.
+- **D365 Sales Agent - Readiness**: This agent determines if the lead is a good fit for further engagement by analyzing the lead's profile against the target customer profile.
 - **D365 Sales Agent - Email Validation**: This agent verifies the validity of a lead's email ID and categorizes it as personal or work.
 - **D365 Sales Agent - Outreach**: This agent drafts an outreach email to the lead, making it easier for sales professionals to initiate contact.
 - **D365 Sales Agent - Engage Autonomous**: This agent autonomously engages with leads and answers their questions using knowledge sources configured by the administrator.

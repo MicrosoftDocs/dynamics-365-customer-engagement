@@ -1,7 +1,7 @@
 ---
 title: FAQ about work order summary with Copilot and summary configuration
 description: Get answers to common questions about how the AI-powered work order summary feature in Dynamics 365 Field Service helps you quickly understand the status and details of a work order.
-ms.date: 07/29/2025
+ms.date: 12/05/2025
 ms.update-cycle: 180-days
 ms.custom:
   - responsible-ai-faqs
@@ -10,9 +10,9 @@ ms.custom:
   - ai-seo-date:10/26/2023
   - bap-template
 ms.topic: faq
-author: m-hartmann
-ms.author: mhart
-ms.reviewer: jacohen
+author: jasonccohen
+ms.author: jacoh
+ms.reviewer: puneetsingh
 ms.collection: bap-ai-copilot 
 ---
 
@@ -57,7 +57,7 @@ We didn't find any cases where the summary made up information that wasn't in th
 
 ## What are the limitations of the feature and how can I minimize their impact?
 
-You can help us by giving us feedback using the like/dislike buttons on the summary. We use this data to evaluate and improve the quality of the content.
+You can help us by giving us feedback using the like or dislike buttons on the summary. We use this data to evaluate and improve the quality of the content.
 
 This feature works only when you're online. You can't use it offline.
 
@@ -71,7 +71,7 @@ The default work order summary uses predefined optimizations. These optimization
 
 Administrators can enable or disable the feature for your environment in the Field Service settings by toggling the **Copilot recap** option.
 
-To customize the summary, an administrator can enable **configure summary** to choose the fields that Copilot uses to generate the summary. No other aspects of the prompt can be customized. However, the feature respects your personalization settings for date/time format and time zone, as well as your environment-specific table and field labels. Administrators should test the chosen configuration with data from a record before saving the change.
+To customize the summary, an administrator can enable **configure summary** to choose the fields that Copilot uses to generate the summary. You can't customize other aspects of the prompt. However, the feature respects your personalization settings for date/time format and time zone, as well as your environment-specific table and field labels. Administrators should test the chosen configuration with data from a record before saving the change.
 
 [Learn more about the data collection policy of this feature](/dynamics365/faqs-copilot-data-security-privacy).
 
@@ -83,7 +83,7 @@ The control uses the system status of the work order to generate a contextually 
 
 The control works only with work orders. You can't use it to summarize other records.
 
-### See also
+### Related information
 
 - [Summarize work orders with Copilot](use-work-order-recap.md)
 - [Responsible AI FAQ for Dynamics 365 Field Service](responsible-ai-overview.md)

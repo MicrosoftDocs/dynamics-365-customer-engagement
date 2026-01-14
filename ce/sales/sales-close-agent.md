@@ -5,8 +5,6 @@ ms.date: 11/07/2025
 ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
-content_well_notification:
-  - AI-contribution
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -107,5 +105,5 @@ Depending on your role, use the following links to configure and use the Sales C
 
     | Role | Action |
     |------|--------|
-    | Administrator | [Set up and configure the Sales Close Agent - Engage](configure-sales-close-agent.md)<br>[Start the agent](start-sales-close-agent.md)<br>[Manage the agent](manage-sales-close-agent.md)<br>[How the Sales Close Agent - Engage works](how-sales-close-agent-engage-mode-works.md) |
-    | Supervisor | [View agent insights and metrics](view-sales-close-agent-engage-insights-metrics.md)<br>[How the Sales Close Agent - Engage works](how-sales-close-agent-engage-mode-works.md) |
+    | Administrator | [Set up and configure the Sales Close Agent - Engage](configure-sales-close-agent.md)<br>[Start the agent](start-sales-close-agent.md)<br>[Test the agent](sales-close-agent-engage-test.md)<br>[Manage the agent](manage-sales-close-agent.md)<br>[How the Sales Close Agent - Engage works](how-sales-close-agent-engage-mode-works.md) |
+    | Supervisor | [View agent insights and metrics](view-sales-close-agent-engage-insights-metrics.md)<br>[View records processed by agent](view-sales-close-agent-engage-processed-records.md)<br>[How the Sales Close Agent - Engage works](how-sales-close-agent-engage-mode-works.md) |

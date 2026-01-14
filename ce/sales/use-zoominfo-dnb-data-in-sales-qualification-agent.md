@@ -10,7 +10,7 @@ ms.topic: concept-article
 
 # Configure Sales Qualification Agent to use Dataverse fields enriched by third-party data providers
 
-The Sales Qualification Agent in Dynamics 365 Sales automates lead research and engagement by evaluating leads against your Ideal Customer Profile (ICP). You can define custom ICP criteria using Dataverse fields—many of which can be enriched with firmographic data from ZoomInfo, Dun & Bradstreet (D&B), or any other provider that integrates with Dataverse. Learn more about [Custom criteria examples for sales teams across industries](custom-icp-examples.md).
+The Sales Qualification Agent in Dynamics 365 Sales automates lead research and engagement by evaluating leads against your target customer profile. You can define custom target customer profile criteria using Dataverse fields—many of which can be enriched with firmographic data from ZoomInfo, Dun & Bradstreet (D&B), or any other provider that integrates with Dataverse. Learn more about [Custom criteria examples for sales teams across industries](custom-icp-examples.md).
 
 This article covers instructions for integrating with ZoomInfo and Dun & Bradstreet. However, you can choose any other provider, such as Clay, 6Sense, Similarweb, and Builtwith, that syncs firmographic data into Dataverse fields. The high-level steps remain similar.
 
@@ -44,14 +44,14 @@ Once the synchronization between ZoomInfo or D&B is active, the following fields
 | Company Size   | numberofemployees |
 | ZoomInfo ID or D-U-N-S Number (for D&B) | zoominfoid or dunsnumber |
 
-You can enrich additional fields based on your industry and ideal customer profile. For example, if you're in the technology sector, you might want to enrich fields like "Technology Stack" using BuiltWith data. Refer to the documentation of your chosen data provider for a comprehensive list of available fields.
+You can enrich additional fields based on your industry and target customer profile. For example, if you're in the technology sector, you might want to enrich fields like "Technology Stack" using BuiltWith data. Refer to the documentation of your chosen data provider for a comprehensive list of available fields.
 
 ## Step 3: Configure the Sales Qualification Agent to use enriched fields
 
 After the data from ZoomInfo or D&B is synced into Dataverse, you can configure the Sales Qualification Agent to use these enriched fields in the following agent configurations:
 
 - **Lead selection criteria**: Use enriched fields in the lead selection criteria. For example, you can have the agent work only on leads from companies in the "Technology" industry. Learn more in [Configure selection criteria for Sales Qualification Agent](sales-qualification-agent-selection-criteria.md)
-- **Handoff criteria**: Define ideal customer profile criteria based on enriched fields. Learn more in [Configure handoff criteria for the Sales Qualification Agent](configure-sales-qualification-agent-handoff-criteria.md). Here are some example criteria:
+- **Handoff criteria**: Define target customer profile criteria based on enriched fields. Learn more in [Configure handoff criteria for the Sales Qualification Agent](configure-sales-qualification-agent-handoff-criteria.md). Here are some example criteria:
 
   | **Field Name** | **Logical Name**  | **Criteria Example**     |
   |----------------|-------------------|--------------------------|

@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service version history
 description: Release schedule and version history for Dynamics 365 Field Service.
-ms.date: 10/24/2025
+ms.date: 01/08/2026
 ms.topic: overview
 author: jshotts
 ms.author: jasonshotts
@@ -18,34 +18,93 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.139.398](/dynamics365/field-service/version-history#88139398)  | TBD | 10/31/2025 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.139.398](/dynamics365/field-service/version-history#88139398) |  TBD |11/07/2025 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [8.8.137.22](/dynamics365/field-service/version-history#8813722) |  [8.8.139.398](/dynamics365/field-service/version-history#88139398)  |10/17/2025 |
-| | *USG* |  [8.8.139.398](/dynamics365/field-service/version-history#88139398) |  TBD |11/05/2025 |
-|**Station 4** |*Europe* |[8.8.137.30](/dynamics365/field-service/version-history#8813730) |  [8.8.139.398](/dynamics365/field-service/version-history#88139398) | 10/24/2025 |
-|**Station 5** | *North America*|  [8.8.137.30](/dynamics365/field-service/version-history#8813730)  | [8.8.139.398](/dynamics365/field-service/version-history#88139398)  |  10/31/2025 |
-|**Station 6** |*Government Community Cloud, DoD, China* | [8.8.137.30](/dynamics365/field-service/version-history#8813730)  |  [8.8.139.398](/dynamics365/field-service/version-history#88139398)  |  10/29/2025 |
-| | *Dedicated Scale Groups* | [8.8.137.30](/dynamics365/field-service/version-history#8813730)  | [8.8.139.398](/dynamics365/field-service/version-history#88139398) |  11/07/2025 |
+|**Station 1** |  *First Release*| [8.8.141.552](/dynamics365/field-service/version-history#88141552)  | TBD | 1/16/2026 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.141.552](/dynamics365/field-service/version-history#88141552) |  TBD | 1/23/2026 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom* | [8.8.141.552](/dynamics365/field-service/version-history#88141552) |  TBD  | 1/30/2026 |
+| | *USG* | [8.8.141.552](/dynamics365/field-service/version-history#88141552) |  TBD |1/21/2026 |
+|**Station 4** |*Europe* | [8.8.140.441](/dynamics365/field-service/version-history#88140441) |  [8.8.141.552](/dynamics365/field-service/version-history#88141552) |  1/16/2026 |
+|**Station 5** | *North America, Oceania*|  [8.8.140.441](/dynamics365/field-service/version-history#88140441)  | [8.8.141.552](/dynamics365/field-service/version-history#88141552)  |  1/23/2026 |
+|**Station 6** |*Government Community Cloud, DoD, China* | [8.8.140.441](/dynamics365/field-service/version-history#88140441)  | [8.8.141.552](/dynamics365/field-service/version-history#88141552)  | 1/21/2026 |
+| | *Dedicated Scale Groups* | [8.8.140.441](/dynamics365/field-service/version-history#88140441) | [8.8.141.552](/dynamics365/field-service/version-history#88141552) | 1/30/2026 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 8.8.141.552
+This release is a hotfix on Field Service version [8.8.141.549](/dynamics365/field-service/version-history#88141549)
+(Includes Universal Resource Scheduling version [3.12.157.285](/dynamics365/field-service/field-service-version-history-resource-scheduling#312157285) and Resource Scheduling controls version 1.2.96.253531)
+
+- No updates were made to Dynamics 365 Field Service in this release.
+
+## 8.8.141.549
+This release is a hotfix on Field Service version [8.8.141.467](/dynamics365/field-service/version-history#88141467)
+(Includes Universal Resource Scheduling version [3.12.157.285](/dynamics365/field-service/field-service-version-history-resource-scheduling#312157285) and Resource Scheduling controls version 1.2.96.253261)
+
+- **Fixes & Improvements**
+    - Inventory & Journals
+        - Fixed an issue where the background process that creates Work Order Product journals could fail with an “object reference not set” error. This helps prevent missing journals that can lead to incorrect or inconsistent inventory values.
+
+## 8.8.141.467
+(Includes Universal Resource Scheduling version [3.12.157.285](/dynamics365/field-service/field-service-version-history-resource-scheduling#312157285) and Resource Scheduling controls version 1.2.96.253261)
+
+- **Fixes & Improvements**
+    - Duplicate booking timestamp handling (default behavior updated)
+        - Field Service now defaults duplicate booking timestamp handling to Ignore Duplicates, helping prevent accidental duplicate timestamp records while still allowing users to save their changes.
+    - Inventory & Purchasing
+        - Purchase Order system status now updates correctly when purchase order products and related receipt products are deleted, ensuring the Purchase Order status reflects what has actually been received.
+    - Localization
+        - Improved localization coverage so certain Field Service error messages are shown in the user’s language instead of appearing in English.
+    - Date and time experience
+        - Fixed issues where the New Work Order grid date filter didn’t respect user personalization settings (such as date/time format), and where the date picker UI didn’t reflect the user’s selected Dataverse language.
+    - Inspections
+        - Inspection responses exported to PDF now correctly preserve the “+” character in text fields.
+        - Improved support for customers who need change tracking enabled for the Inspection Instance table.
+    - Sales orders
+        - Fixed an issue where the Sales Order line grid could incorrectly show lines from other sales orders due to Field Service form customizations.
+ 
+## 8.8.140.441
+This release is a hotfix on Field Service version [8.8.140.438](/dynamics365/field-service/version-history#88140438)
+(Includes Universal Resource Scheduling version [3.12.156.520](/dynamics365/field-service/field-service-version-history-resource-scheduling#312156520) and Resource Scheduling controls version 1.2.95.252872)
+
+- **Fixes & Improvements**
+    - Inventory & Journals
+        - Fixed an issue where the background process that creates Work Order Product journals could fail with an “object reference not set” error in some environments. This helps prevent missing journals that can lead to incorrect or inconsistent inventory values.
+
+## 8.8.140.438
+This release is a hotfix on Field Service version [8.8.140.325](/dynamics365/field-service/version-history#88140325)
+(Includes Universal Resource Scheduling version [3.12.156.520](/dynamics365/field-service/field-service-version-history-resource-scheduling#312156520) and Resource Scheduling controls version 1.2.95.252872)
+
+- **Fixes & Improvements**
+    - Work Order Products
+        - Fixed an issue where some users couldn’t create a Work Order Product after upgrading to 10.3, due to a missing prvReadSolution privilege error. Work Order Product creation now works without requiring customers to manually add extra security privileges.
+
+## 8.8.140.325
+(Includes Universal Resource Scheduling version [3.12.156.513](/dynamics365/field-service/field-service-version-history-resource-scheduling#312156513) and Resource Scheduling controls version 1.2.95.252872)
+
+- **Fixes & Improvements**
+    - Inventory Clearer “duplicate inventory record” error message
+        - Improved the validation error shown when more than one active inventory record exists for the same warehouse, product, and unit, so users can better understand what record type is causing the issue.
+    - More reliable deletion of Work Order Products with missing values
+        - Fixed an issue where deleting an inventory Work Order Product could fail with a “Value cannot be null” error when required fields were missing.
+    - Performance Reduced unnecessary plugin execution for resource requirements
+        - Optimized the FS stage 10 create/update plugin for Resource Requirements so it runs only when the Work Order field changes, reducing unnecessary processing.
+
 ## 8.8.139.398
 (Includes Universal Resource Scheduling version [3.12.155.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31215515) and Resource Scheduling controls version 1.2.94.252722)
 
 - **Major Changes**
-    - General Availability: Exchange Integration for Field Service Field Service now syncs bookings with Microsoft Outlook and Teams frontline workers and dispatchers can manage schedules using familiar calendars and open work order details from M365.
+    - **General Availability**: Exchange Integration for Field Service. Field Service now syncs bookings with Microsoft Outlook and Teams frontline workers and dispatchers can manage schedules using familiar calendars and open work order details from Microsoft 365.
         - Business Value: Meetings, appointments, and bookings are now all visible in a single place. Reduces context switching and improves collaboration across the field and back office.
         - Feature Highlights:
-            - Bookings appear as Outlook and Teams calendar appointments with key job details and deep links back to Field Service
-            - Updates to bookings sync automatically from Field Service to Outlook
-            - Admin setup uses server-side synchronization with Exchange Online
+            - Bookings appear as Outlook and Teams calendar appointments with key job details and deep links back to Field Service.
+            - Updates to bookings sync automatically from Field Service to Outlook.
+            - Admin setup uses server-side synchronization with Exchange Online.
 
-    - Deprecation of legacy CCA-based Frontline Reports Legacy CCA-based report pages and settings are deprecated and hidden from navigation; documentation now guides customers to the modern reporting experience.
+    - **Deprecation of legacy CCA-based Frontline Reports**: Legacy CCA-based report pages and settings are deprecated and hidden from navigation; documentation now guides customers to the modern reporting experience.
         - Business Value: Reduces confusion and maintenance for legacy pages and aligns customers on the current, supported analytics solution.
         - Feature Highlights:
-            - Removes sitemap access to deprecated CCA report/settings pages (FS)
+            - Removes sitemap access to deprecated CCA report/settings pages
             - Disables related feature flags and updates documentation for the new solution
 
 - **Fixes & Improvements**
@@ -60,13 +119,13 @@ For information about older versions, see [Version history archive](version-hist
         - Inspections: Confirmation dialogs for “Publish” and “Publish and generate a new Service task type” now respect the user’s language when the org base language is non-English with English provisioned.
 
 ## 8.8.137.30
-This release is a hotfix on Field Service version [8.8.137.30](/dynamics365/field-service/version-history#8813730)
+This release is a hotfix on Field Service version [8.8.137.22](/dynamics365/field-service/version-history#8813722)
 
 (Includes Universal Resource Scheduling version [3.12.153.127](/dynamics365/field-service/field-service-version-history-resource-scheduling#312153127-hotfix1) and Resource Scheduling controls version 1.2.92.252162)
 - Security enhancements in the Inspections solution. 
 
 ## 8.8.137.22
-This release is a hotfix on Field Service version [8.8.137.22](/dynamics365/field-service/version-history#8813722)
+This release is a hotfix on Field Service version [8.8.137.20](/dynamics365/field-service/version-history#8813720)
 
 (Includes Universal Resource Scheduling version [3.12.153.127](/dynamics365/field-service/field-service-version-history-resource-scheduling#312153127-hotfix1) and Resource Scheduling controls version 1.2.92.252162)
 - No updates were made to Dynamics 365 Field Service in this release.

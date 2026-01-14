@@ -1,7 +1,7 @@
 ---
 title: View the communication panel for conversations
 description: Learn what you can do as a representative in the communication panel when you interact with the customer.
-ms.date: 11/14/2025
+ms.date: 01/14/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -28,6 +28,7 @@ You can perform the following tasks in the communication panel:
 - Transfer the conversation (work item) to another representative or queue.
 - Use the consult option if you need help with resolving the work item.
 - Generate a summary of the conversation. Learn more in [View and share auto-summarized conversations](cs-ai-generated-summary.md).
+- [Use Copilot to summarize conversations](/dynamics365/contact-center/use/copilot-summarize-conversations).
 
 ## Enhance productivity by using keyboard commands
 
@@ -137,7 +138,7 @@ When a conversation needs to be consulted from one queue to another, the match c
 
 ### Consult to queue
  <a name="consult-queue"></a>
-When you enable [Consult to queue](../administer/enable-transfer-consult.md),
+When you enable [Consult to queue](../administer/enable-transfer-consult.md) for representatives,
 
 - The **Queue** tab appears on the communication panel.
 

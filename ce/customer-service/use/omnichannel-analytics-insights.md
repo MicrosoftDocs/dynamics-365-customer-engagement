@@ -1,7 +1,7 @@
 ---
 title: Omnichannel for Customer Service dashboards
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs in Omnichannel for Customer Service to manage contact centers.
-ms.date: 11/07/2025
+ms.date: 12/16/2025
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -33,25 +33,23 @@ Learn more about managing the dashboards in [Manage historical analytics reports
 
 The following reports are available for Omnichannel historical analytics.
 
-### Summary
+- [Summary dashboard](omnichannel-summary-dashboard.md): The Summary dashboard gives you an integrated view of the Copilot agent and Omnichannel metrics.
 
-The Summary dashboard gives you an integrated view of the Copilot agent and Omnichannel metrics. Learn more in the [Summary dashboard](omnichannel-summary-dashboard.md).
+- [Conversation dashboard](oc-conversation-dashboard.md): The Conversation dashboard gives you a broad overview of the assisted support customer service experience in your organization.
 
-### Conversation
+- [Queue dashboard](oc-queue-dashboard.md): The Queue dashboard gives you a broad overview of the customer service experience in your organization by providing insights into how specific queues are operating.
 
-The Conversation dashboard gives you a broad overview of the assisted support customer service experience in your organization. Learn more in the [Conversation dashboard](oc-conversation-dashboard.md).
+- [Voice dashboard](voice-channel-reports-analytics.md): The Voice dashboard provides comprehensive information on the overall performance of customer support across the voice channel.
 
-### Queue
+- [Agent dashboard](agent-dashboard.md#agent-dashboard): The Agent dashboard shows charts and KPIs that you can use to guide service representatives and understand overall  representative performance.
 
-The Queue dashboard gives you a broad overview of the customer service experience in your organization by providing insights into how specific queues are operating. Learn more in [Queue dashboard](oc-queue-dashboard.md).
+- [Bot dashboard](oc-bot-dashboard.md): The Bot dashboard shows charts and KPIs that you can use to understand how AI agents are playing a role in a support organization.
 
-### Agent
+- [Voicemail dashboard](oc-voicemail-dashboard.md): The Voicemail dashboard provides a view of the voicemails with details, such as the voicemail status and the number of voicemails per queue and representative.
 
-The Agent dashboard shows charts and KPIs that you can use to guide service representatives and understand overall  representative performance. Learn more in the [Agent dashboard](agent-dashboard.md#agent-dashboard).
+- [Proactive Outbound dashboard](/dynamics365/contact-center/use/proactive-outbound-dashboard): The Proactive Outbound dashboard provides organizations with detailed insights into proactive outbound customer engagements initiated through proactive outreach. This dashboard is available in Dynamics 365 Contact Center only. Learn how to enable it in [Omnichannel historical analytics for proactive outbound engagements](../administer/oc-historical-analytics-reports.md#enable-omnichannel-historical-analytics-for-proactive-outbound-engagements).
 
-### Bot
-
-The Bot dashboard shows charts and KPIs that you can use to understand how AI agents are playing a role in a support organization. Learn more in the [Bot dashboard](oc-bot-dashboard.md).
+- [Bot-Intent dashboard](/dynamics365/contact-center/use/bot-intent-historical): The Bot-Intent dashboard provides detailed insights about bot performance and customer engagement, supporting targeted analytics for continuous improvement. This dashboard is available in Dynamics 365 Contact Center only. Learn how to enable it in [historical analytics for intent](../administer/oc-historical-analytics-reports.md#enable-historical-analytics-for-intent).
 
 > [!NOTE]
 > The reports don't include work items of the Entity Record channel.
@@ -76,11 +74,32 @@ The Bot dashboard shows charts and KPIs that you can use to understand how AI ag
 
 Use the filters to drill down to KPIs across the dashboard. Adjust the filters based on the insights that you're looking for. The available filters include **Duration**, **Channels**, **Queue**, **Agent**, **Conversation Status**, and **Time zone**. 
 
-Optionally, you can also add the **Business Unit** filter that provides a consistent way to focus on a single business unit or compare multiple units. The filter can be configured through data model customization or by adjusting the visual under data measure for the dimension **DimBusinessUnit**. The **Business Unit** filter doesn't grant additional access; it simply restricts data visibility based on existing roles and business unit hierarchy. If a user doesn't have security permissions to view a business unit's data, selecting that business unit will not display any information.
+Optionally, you can also add the **Business Unit** filter that provides a consistent way to focus on a single business unit or compare multiple units. The filter can be configured through data model customization or by adjusting the visual under data measure for the dimension **DimBusinessUnit**. The **Business Unit** filter doesn't grant additional access; it simply restricts data visibility based on existing roles and business unit hierarchy. If a user doesn't have security permissions to view a business unit's data, selecting that business unit won't display any information.
 
 ## Reports refresh and data retention
 
 See [Analytics reports refresh and data retention](info-analytics-reports.md#analytics-reports-refresh-and-data-retention)
+
+## View historical analytics reports in customized representative apps
+
+If you customized the Copilot Service workspace app, you must complete the following steps to be able to view the reports.
+
+1. On the Copilot Service workspace app tile, select the ellipsis (**More Options**), and then select **Open in App Designer**.
+1. Select **New**.
+1. On the **New page** dialog, select **Dataverse Table** for Omnichannel historical analytics, and then select **Next**.
+1. To add a Dataverse table, select the **Select existing table** option, and then select **Omnichannel historical analytics**.
+1. Select **Show in navigation**, and then select **Add**.
+1. From **Navigation**, select **Omnichannel historical analytics**, and then select **Settings**.
+1. Enter the following information:
+    - **Title**: Omnichannel historical analytics
+    - **Icon**: Select **Use web resource**.
+    - **Select icon**: msdyn_/Analytics/imgs/OmnichannelReportIcon.svg
+    - **ID**: OCReportsSubArea
+1. Select **Advanced Settings**, and then select the following checkboxes:
+    - **SKU**: **All**, **On premise**, **Live**, and **SPLA**.
+    - **Client**: **Web**.
+    - **Outlook shortcut**: **Offline availability**.
+1. Select **Save**, and then select **Publish**.
 
 ### Related information
 

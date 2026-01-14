@@ -1,6 +1,6 @@
 ---
 title: Configure general settings for the Sales Qualification Agent
-description: Learn set up the general settings for the Sales Qualification Agent, including agent profile, company information, and product information.
+description: Configure the Sales Qualification Agent's general settings, including agent profile, company details, and product information, to set the context for the agent.
 ms.date: 08/01/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales

@@ -2,7 +2,7 @@
 title: Preconfigured automated message triggers for asynchronous channels
 description: Learn about the preconfigured automated message triggers that are displayed to representatives and customers in asynchronous channels in Dynamics 365 Contact Center.
 ms.date: 03/03/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
 ms.custom: bap-template
