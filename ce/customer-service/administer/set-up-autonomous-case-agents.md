@@ -44,7 +44,7 @@ You can use the creation and update feature of Case Management Agent to do the f
 
 To help the AI agent make better predictions for lookup fields, add descriptive information to your lookup records. Do the following steps in Power Apps:
 
-- to help the AI agent understand the context, add meaningful field descriptions in your table columns. For example, in the **Account Number** column of the **Account** table, add a description like: "This is an account number. Account numbers start with ACC."
+- To help the AI agent understand the context, add meaningful field descriptions in your table columns. For example, in the **Account Number** column of the **Account** table, add a description like: "This is an account number. Account numbers start with ACC."
 -  Do the following steps to improve the AI agent's prediction accuracy with lookup fields:
     - For the required lookup entity, add a new optional text field to contain a description of the record if a description field doesn't already exist.
     - Add the meaning and usage for the description fields in the lookup records.
