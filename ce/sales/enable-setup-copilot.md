@@ -1,7 +1,7 @@
 ---
 title: Turn on and set up Copilot in Dynamics 365 Sales
 description: Learn how to turn on and set up Copilot in Dynamics 365 Sales to improve sales productivity and effectiveness. 
-ms.date: 05/16/2025
+ms.date: 01/16/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -30,7 +30,7 @@ If you turned off Copilot in Dynamics 365 Sales, it remains turned off. Otherwis
 
 For all other organizations, an admin must provide consent for cross-region data movement in the Power Platform admin center and then turn on Copilot in the Sales Hub app. This article provides instructions for providing consent for data movement and turning Copilot on or off.
 
-Even if your organization is in a region where an Azure OpenAI Service endpoint is available, we suggest enabling cross-region data movement as a fallback option. This helps avoid interruption to Copilot service in case of an Open AI service outage in your region.
+Even if your organization is in a region where an Azure OpenAI Service endpoint is available, enable cross-region data movement as a fallback option. This action helps avoid interruption to Copilot service in case of an OpenAI service outage in your region.
 
 Throughout this article, the term "sales app" refers to apps that have lead and opportunity tables and aren't on the [exclusion list](sales-copilot-faq.md#are-there-any-applications-where-copilot-in-dynamics-365-sales-cant-be-used).
 
@@ -48,12 +48,12 @@ Throughout this article, the term "sales app" refers to apps that have lead and 
 
 Your organization can control who can use Copilot in Dynamics 365 Sales at the environment, Entra group, and app levels. All these settings are turned on by default. The levels of control are as follows:
 
-1. **Tenant-level control for model-driven apps**: The tenant administrator specifies which environments or environment groups can use Copilot chat in model-driven apps. This setting determines the default behavior for all model-driven apps, including Dynamics 365 Sales. This setting is configured in the Power Platform admin center from **Copilot** > **Settings** > **Chat agent in Model-Driven Apps**.
+1. **Tenant-level control for model-driven apps**: The tenant administrator specifies which environments or environment groups can use Copilot chat in model-driven apps. This setting determines the default behavior for all model-driven apps, including Dynamics 365 Sales. Configure this setting in the Power Platform admin center from **Copilot** > **Settings** > **Chat agent in Model-Driven Apps**.
 
 
-1. **Tenant-level control for Copilot in Dynamics 365 Sales**: The tenant administrator can specify which environments or environment groups can use Copilot capabilities in Dynamics 365 Sales. This setting is configured in the Power Platform admin center from **Copilot** > **Settings** > **Dynamics 365 Sales** > **Copilot**.
-1. **Entra group-level control**: The tenant administrator can then specify which Entra groups within the tenant can use Copilot across all model-driven apps. This setting is also configured in the Power Platform admin center from **Copilot** > **Settings** > **Control who can use AI features in model-driven apps**. By default, all users in the environment can use Copilot in Dynamics 365 Sales unless restricted by this setting. Ensure that sellers users who need access to Copilot in Dynamics 365 Sales are included in the allowed Entra groups.
-1. **App-level control**: The administrator of the Sales Hub app can then specify whether Copilot should be enabled in the Dynamics 365 Sales and other sales apps. This setting is configured in the Sales Hub app from **App Settings** > **Copilot**. If the tenant-level controls are turned off, the Copilot settings page is disabled.
+1. **Tenant-level control for Copilot in Dynamics 365 Sales**: The tenant administrator specifies which environments or environment groups can use Copilot capabilities in Dynamics 365 Sales. Configure this setting in the Power Platform admin center from **Copilot** > **Settings** > **Dynamics 365 Sales** > **Copilot**.
+1. **Entra group-level control**: The tenant administrator specifies which Entra groups within the tenant can use Copilot across all model-driven apps. Configure this setting in the Power Platform admin center from **Copilot** > **Settings** > **Control who can use AI features in model-driven apps**. By default, all users in the environment can use Copilot in Dynamics 365 Sales unless restricted by this setting. Ensure that seller users who need access to Copilot in Dynamics 365 Sales are included in the allowed Entra groups.
+1. **App-level control**: The administrator of the Sales Hub app specifies whether to enable Copilot in the Dynamics 365 Sales and other sales apps. Configure this setting in the Sales Hub app from **App Settings** > **Copilot**. If the tenant-level controls are turned off, the Copilot settings page is disabled.
 
 ## Provide consent for data movement
 
@@ -63,7 +63,7 @@ If your organization is in a region where an Azure OpenAI Service endpoint isn't
 
 ## Turn Copilot features on or off in Sales Hub
 
-Turning on Copilot features enables the chat and embedded Copilot experiences in sales apps.
+When you turn on Copilot features, you enable the chat and embedded Copilot experiences in sales apps.
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
 
@@ -77,7 +77,7 @@ Turning on Copilot features enables the chat and embedded Copilot experiences in
 
     If auditing is already turned on for these tables or globally, the **Turn audit on** option isn't displayed.
 
-    Audit history is required for Copilot to display recent changes to leads, opportunities, and accounts. If you configure Copilot to [show recent changes from other tables](copilot-configure-summary-fields.md), turning on auditing turns on audit history for those tables as well. However, if you remove those summary fields later, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for those tables manually.
+    Copilot needs audit history to display recent changes to leads, opportunities, and accounts. If you configure Copilot to [show recent changes from other tables](copilot-configure-summary-fields.md), turning on auditing turns on audit history for those tables as well. However, if you remove those summary fields later, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for those tables manually.
 
 1. Under **All apps**, select a global setting to apply to all sales apps.
 
@@ -85,7 +85,7 @@ Turning on Copilot features enables the chat and embedded Copilot experiences in
 
     You can override the global setting at the app level. For example, to turn on Copilot only for the Sales Hub app, select **Off** for **All apps**, and then under **Individual apps**, select **On** only for the Sales Hub app.
 
-    The initial setting depends on the setting for both the organization and the app. For example, if your Power Platform admin turned Copilot on for your organization, but your Power Apps admin turned it off for the Sales Hub app, the initial setting is **Off** for the Sales Hub app and **On** for all other sales apps.
+    The initial setting depends on the setting for both the organization and the app. For example, if your Power Platform admin turns on Copilot for your organization, but your Power Apps admin turns it off for the Sales Hub app, the initial setting is **Off** for the Sales Hub app and **On** for all other sales apps.
 
 1. To get all Copilot preview features automatically, select **Try our newest preview features before they're rolled out to everyone**.
 
