@@ -17,7 +17,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Sales Close Agent - Research in Dynamics 365 Sales makes it easy for you to focus on the most important opportunities. By identifying high-value and at-risk opportunities, the agent helps you prioritize your efforts. With critical insights and recommendations, you can quickly ramp up on opportunities, engage the right stakeholders, and mitigate risks effectively.
+The Sales Close Agent - Research in Dynamics 365 Sales helps you focus on the most important opportunities. By identifying high-value and at-risk opportunities, the agent helps you prioritize your efforts. With critical insights and recommendations, you can quickly ramp up on opportunities, engage the right stakeholders, and mitigate risks effectively.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -53,7 +53,9 @@ You need the following prerequisites:
 
 ### Provide consent for Microsoft 365 Services
 
-If your admin has enabled Microsoft 365 Services for the agent, you'll see a banner asking for permission to access your emails for research purposes. The agent uses your emails to only gather insights about the opportunities you work on.
+If your admin has enabled Microsoft 365 Services for the agent, a banner prompts you to grant permission for the agent to access your emails in Microsoft 365. The agent uses your emails to gather insights only for the opportunities you own. 
+
+If your admin has configured the agent to use server-side synchronization instead, you won't see this banner. In that case, the agent reads only the emails and meetings that are already synced to Dynamics 365 Sales. 
 
 :::image type="content" source="media/opportunity-research-agent-m365-consent.png" alt-text="Screenshot of the Microsoft 365 Services consent prompt on the Opportunity research page for sellers.":::
 

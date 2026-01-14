@@ -1,7 +1,7 @@
 ---
 title: Configure the Sales Close Agent - Research (preview)
 description: Learn how to set up and configure the Sales Close Agent - Research in Dynamics 365 Sales.
-ms.date: 01/12/2026
+ms.date: 01/13/2026
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -68,7 +68,7 @@ If you're using a custom security role, ensure that the opportunity owners have 
 
 If you want the agent to access only the emails and meetings synced to Dynamics 365 Sales, configure server-side synchronization for seller mailboxes. Alternatively, you can enable Microsoft 365 Services for the agent to read emails directly from the sellers' Microsoft 365 mailboxes. Learn more in [Verify prerequisites](#configure-microsoft-365-services).
 
-Server-side synchronization always gets precedence. If both server-side synchronization and Microsoft 365 Services are enabled, the agent reads emails using server-side synchronization only.
+If both server-side synchronization and Microsoft 365 Services are enabled, the agent reads emails from both sources and generates insights accordingly.
 
 **To configure server-side synchronization:**
 
