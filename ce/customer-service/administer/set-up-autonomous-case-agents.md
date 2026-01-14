@@ -57,7 +57,7 @@ To help the AI agent make better predictions for lookup fields, add descriptive 
 
 **Best practices for lookup descriptions**
 
-We recommend that you follow these guidelines when you are adding descriptions for lookup fields:
+We recommend that you follow these guidelines when you add descriptions for lookup fields:
 
 - Use simple, direct language and keep the descriptions under two or three sentences to ensure clarity. Don't add unnecessary information or domain jargon.
 - Include typical scenarios, keywords, and phrases that users might use when describing their issue. This helps the AI agent to make semantic connections between user input and the correct record.
@@ -69,12 +69,9 @@ We recommend that you follow these guidelines when you are adding descriptions f
 
 ## Enable hierarchical lookup by using Quick Find views
 
-Some hierarchical lookup and prediction scenarios used by Case Management Agent require more configuration than defining a parent–child relationship between tables. In these scenarios, hierarchical resolution depends on how the **Quick Find Active** view is configured on the child table. You can configure Quick Find views so that hierarchical lookup works correctly for Case Management Agent and other lookup-based prediction scenarios.
+Some hierarchical lookup and prediction scenarios used by Case Management Agent require more configuration than defining a parent–child relationship between tables. In these scenarios, hierarchical resolution depends on how the **Quick Find Active** view is configured on the child table. You can configure Quick Find views so that hierarchical lookup works for Case Management Agent and other lookup-based prediction scenarios.
 
 You must update the **Quick Find Active** view on the child table when you use hierarchical lookups such as incident category and incident subcategory, or other parent–child hierarchies that rely on lookup relationships for hierarchical resolution.
-
-> [!Important]
-> Adding the parent lookup column to system, main, or custom views isn’t sufficient. For hierarchical lookup to work, the parent lookup column must be included in the **Quick Find Active** view of the child table.
 
 ### Prerequisites
 
@@ -84,7 +81,7 @@ You must update the **Quick Find Active** view on the child table when you use h
 
 ### Example hierarchy
 
-The steps in this section apply to any hierarchical relationship. The following example shows a typical configuration:
+The following example shows a typical configuration for a hierarchical relationship:
 
 | Role | Table |
 |------|-------|
@@ -107,7 +104,7 @@ The parent table represents the top level of the hierarchy and doesn’t require
 #### Configure the child table
 
 > [!Important]
-> Hierarchical lookup works only when the parent lookup column is present in the **Quick Find Active** view of the child table. Hierarchical lookup won't work if you only add the parent lookup column to main, system, or custom views, or if you define a correct lookup relationship without updating Quick Find.
+> Hierarchical lookup works only when the parent lookup column is present in the **Quick Find Active** view of the child table. Hierarchical lookup won't work if you add the parent lookup column to main, system, or custom views only, or if you define a correct lookup relationship without updating Quick Find.
 
 1. Select the child table. For example, **Product**.
 1. Select **Views**.
@@ -182,7 +179,7 @@ In **Agent experience data from Representative experience data**, you can select
 
 ### Example
 
-When a customer initiates a chat conversation with the service representative, the AI agent creates a case if there is enough context to update at least one of the **Issue description** or **Contact** fields.
+When a customer initiates a chat conversation with the service representative, the AI agent creates a case if there's enough context to update at least one of the **Issue description** or **Contact** fields.
 
 For the agent to run this scenario, specify the following in the **Case creation and update** page:
  
