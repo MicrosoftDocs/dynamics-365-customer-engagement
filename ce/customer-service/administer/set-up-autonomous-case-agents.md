@@ -44,7 +44,7 @@ You can use the creation and update feature of Case Management Agent to do the f
 
 To help the AI agent make better predictions for lookup fields, add descriptive information to your lookup records. Do the following steps in Power Apps:
 
-- Add meaningful field descriptions in your table columns to help the AI understand the context. For example, in the **Account Number** column of the **Account** table, add a description like: "This is an account number. Account numbers start with ACC."
+- to help the AI agent understand the context, add meaningful field descriptions in your table columns. For example, in the **Account Number** column of the **Account** table, add a description like: "This is an account number. Account numbers start with ACC."
 -  Do the following steps to improve the AI agent's prediction accuracy with lookup fields:
     - For the required lookup entity, add a new optional text field to contain a description of the record if a description field doesn't already exist.
     - Add the meaning and usage for the description fields in the lookup records.
@@ -60,7 +60,7 @@ To help the AI agent make better predictions for lookup fields, add descriptive 
 We recommend that you follow these guidelines when you add descriptions for lookup fields:
 
 - Use simple, direct language and keep the descriptions under two or three sentences to ensure clarity. Don't add unnecessary information or domain jargon.
-- Include typical scenarios, keywords, and phrases that users might use when describing their issue. This helps the AI agent to make semantic connections between user input and the correct record.
+- Include typical scenarios, keywords, and phrases that users might use when describing their issue. This information helps the AI agent to make semantic connections between user input and the correct record.
 - Distinguish between similar records by specifying what makes each record unique, preventing confusion and improving prediction accuracy.
 - Don’t repeat the record name unless it adds clarity. Specify what the name doesn't convey about the record's intended use and scope.
 - Use labeled sections like "Use when:" or "Not for:" to provide clear boundaries and usage guidelines for the AI agent.
@@ -69,7 +69,7 @@ We recommend that you follow these guidelines when you add descriptions for look
 
 ## Enable hierarchical lookup by using Quick Find views
 
-Some hierarchical lookup and prediction scenarios used by Case Management Agent require more configuration than defining a parent–child relationship between tables. In these scenarios, hierarchical resolution depends on how the **Quick Find Active** view is configured on the child table. You can configure Quick Find views so that hierarchical lookup works for Case Management Agent and other lookup-based prediction scenarios.
+Some hierarchical lookup and prediction scenarios used by Case Management Agent require more configurations than defining a parent–child relationship between tables. In these scenarios, hierarchical resolution depends on how the **Quick Find Active** view is configured on the child table. You can configure Quick Find views so that hierarchical lookup works for Case Management Agent and other lookup-based prediction scenarios.
 
 You must update the **Quick Find Active** view on the child table when you use hierarchical lookups such as incident category and incident subcategory, or other parent–child hierarchies that rely on lookup relationships for hierarchical resolution.
 
@@ -141,7 +141,7 @@ In Copilot Service admin center, configure the AI agent to predict and update ca
 
 1. The system runs case update rules in the order they're listed. You can select the arrow buttons to reorder the rules as needed.
 1. Select **Activate** to activate the rules.
-1. Select **Allow AI agent to override human edits during autonomous updates** for the AI agent to automatically overwrite fields. During autonomous case update, the AI agent overwrites fields that were previously edited by service representatives. 
+1. Select **Allow AI agent to override human edits during autonomous updates** for the AI agent to automatically overwrite fields. During autonomous case update, the AI agent overwrites fields that service representatives previously edited. 
 
 ## Configure autonomous case creation
 
@@ -157,7 +157,7 @@ To allow the AI agent to autonomously create cases across all provisioned messag
 
 ## Configure AI-assisted case creation for service representatives
 
-Select the channels from which service representatives can create cases with AI assistance. You can select **Email** or **Conversation(chats and calls)**. When a service representative creates a case from a conversation or an email, the AI agent analyzes the conversation or email and predicts and populates the fields available on the case form. Service representatives can then review the predicted values and make any necessary changes before saving the case.
+Select the channels from which service representatives can create cases with AI assistance. You can select **Email** or **Conversation (chats and calls)**. When a service representative creates a case from a conversation or an email, the AI agent analyzes the conversation or email, and then predicts and populates the fields available on the case form. Service representatives can then review the predicted values and make any necessary changes before saving the case.
 
 ## Enable service representatives to use autonomous Case Management Agent
 
@@ -169,7 +169,7 @@ By default, service representatives added to the out-of-the-box experience profi
    - **Support experience** > **Workspaces**
    -  Select **Manage** for **Case Management Agent**, and then select **agent experience profiles** in **Case creation and update** > **Representative access**.
 2. Select the required experience profile.
-3. In the **Copilot AI features** section do the following actions:
+3. In the **Copilot AI features** section, do the following actions:
      - Select **From conversations** in **Autonomous case creation and update**.
      - In **Form fill assistance for cases** select **During case creation from conversation** and **During case creation from email** to indicate which channels the AI agent can assist service representatives in creating cases.
   
