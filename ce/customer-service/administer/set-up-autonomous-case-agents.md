@@ -6,13 +6,11 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 11/07/2025
+ms.date: 01/14/2026
 ms.custom: bap-template
 ---
 
-
 # Set up Case Management Agent to create and update cases 
-
 
 Case Management Agent streamlines the case management process, reducing manual effort and data entry errors.
 
@@ -68,6 +66,56 @@ We recommend that you follow these guidelines when you are adding descriptions f
 - Use labeled sections like "Use when:" or "Not for:" to provide clear boundaries and usage guidelines for the AI agent.
 - Provide synonyms, related terms, and specific examples. Avoid terms such as "general" or "miscellaneous" that lack meaningful context.
 - Avoid overly generic descriptions, excessive detail, unexplained abbreviations, and assumptions about internal business logic that the AI agent can't access or understand.
+
+## Enable hierarchical lookup by using Quick Find views
+
+Some hierarchical lookup and prediction scenarios used by Case Management Agent require more configuration than defining a parent–child relationship between tables. In these scenarios, hierarchical resolution depends on how the **Quick Find Active** view is configured on the child table.
+
+You can configure Quick Find views so that hierarchical lookup works correctly for Case Management Agent and other lookup-based prediction scenarios.
+
+You must update the **Quick Find Active** view on the child table when you use hierarchical lookups such as incident category and incident subcategory, or other parent–child hierarchies that rely on lookup relationships for hierarchical resolution.
+
+> [!Important]
+> Adding the parent lookup column to system, main, or custom views isn’t sufficient. For hierarchal lookup to work, the parent lookup column must be included in the **Quick Find Active** view of the child table.
+
+### Prerequisites
+
+- A parent–child lookup relationship exists between the tables.
+- The parent lookup column is available on the child table.
+- You have permissions to edit, save, and publish views in Power Apps.
+
+### Example hierarchy
+
+The steps in this section apply to any hierarchical relationship. The following example shows a typical configuration:
+
+| Role | Table |
+|------|-------|
+| Parent (root) | Product family |
+| Child | Product |
+
+### Configure hierarchical lookup for Quick Find
+
+To complete the hierarchical lookup for Quick Find configuration, perform the following steps to verify the parent table and configure the child table.
+
+#### Verify the parent table
+
+The parent table represents the top level of the hierarchy and doesn’t require view changes.
+
+1. In **Power Apps**, go to **Solutions**, and then open the relevant solution.
+1. Select the parent table. For example, **Product family**.
+1. Select **Views**.
+1. Confirm that the **Quick Find Active** view exists.
+
+#### Configure the child table
+
+> [!Important]
+> Hierarchical lookup works only when the parent lookup column is present in the **Quick Find Active** view of the child table. Hierarchical lookup won't work if you only add the parent lookup column to main, system, or custom views, or if you define a correct lookup relationship without updating Quick Find.
+
+1. Select the child table. For example, **Product**.
+1. Select **Views**.
+1. Open the **Quick Find Active** view, and then select **View columns**.
+1. Find the parent lookup column (for example, **Product family**), and add it to the view.
+1. Select **Save** and **Publish**.
 
 ## Configure autonomous case updates
 
