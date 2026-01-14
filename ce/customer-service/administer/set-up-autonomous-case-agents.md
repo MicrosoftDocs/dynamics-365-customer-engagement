@@ -69,14 +69,12 @@ We recommend that you follow these guidelines when you are adding descriptions f
 
 ## Enable hierarchical lookup by using Quick Find views
 
-Some hierarchical lookup and prediction scenarios used by Case Management Agent require more configuration than defining a parent–child relationship between tables. In these scenarios, hierarchical resolution depends on how the **Quick Find Active** view is configured on the child table.
-
-You can configure Quick Find views so that hierarchical lookup works correctly for Case Management Agent and other lookup-based prediction scenarios.
+Some hierarchical lookup and prediction scenarios used by Case Management Agent require more configuration than defining a parent–child relationship between tables. In these scenarios, hierarchical resolution depends on how the **Quick Find Active** view is configured on the child table. You can configure Quick Find views so that hierarchical lookup works correctly for Case Management Agent and other lookup-based prediction scenarios.
 
 You must update the **Quick Find Active** view on the child table when you use hierarchical lookups such as incident category and incident subcategory, or other parent–child hierarchies that rely on lookup relationships for hierarchical resolution.
 
 > [!Important]
-> Adding the parent lookup column to system, main, or custom views isn’t sufficient. For hierarchal lookup to work, the parent lookup column must be included in the **Quick Find Active** view of the child table.
+> Adding the parent lookup column to system, main, or custom views isn’t sufficient. For hierarchical lookup to work, the parent lookup column must be included in the **Quick Find Active** view of the child table.
 
 ### Prerequisites
 
