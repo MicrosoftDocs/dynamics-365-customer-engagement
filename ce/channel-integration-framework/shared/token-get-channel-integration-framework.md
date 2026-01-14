@@ -1,16 +1,16 @@
-## Get Dynamics 365 Channel Integration Framework from Microsoft Marketplace
+## Get Dynamics 365 Channel Integration Framework from Marketplace
 
 There are two ways to get Dynamics 365 Channel Integration Framework from Microsoft Marketplace.
 
-### Directly from Microsoft Marketplace
+### Directly from Marketplace
 
 To get the Dynamics 365 Channel Integration Framework solution from within Dynamics 365:
 
-1. Go to [Microsoft Marketplace](https://go.microsoft.com/fwlink/p/?linkid=2050102). The Dynamics 365 Channel Integration Framework application page appears.
+1. Go to [Marketplace](https://go.microsoft.com/fwlink/p/?linkid=2050102). The Dynamics 365 Channel Integration Framework application page appears.
 
 2. Select **GET IT NOW**.<br>
 
-    ![Dynamics 365 Channel Integration Framework in Microsoft Marketplace.](../media/cif-app-source.png "Dynamics 365 Channel Integration Framework in Microsoft Marketplace")
+    ![Dynamics 365 Channel Integration Framework in Marketplace.](../media/cif-app-source.png "Dynamics 365 Channel Integration Framework in Microsoft Marketplace")
 
 3. In the **One more thing** window, select **Continue**.
 

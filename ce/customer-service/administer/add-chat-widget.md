@@ -68,7 +68,7 @@ To add a chat widget, configure a workstream that defines how chat conversations
    - **Co-browse**: Switch the toggle to **On** and select a provider if you want the representatives to see and interact with a customer's web browse.
 
       > [!NOTE]
-      > - You must install a non-Microsoft provider from Marketplace to use the screen sharing or co-browse feature.
+      > - You must install a non-Microsoft provider from Microsoft Marketplace to use the screen sharing or co-browse feature.
       > - You can select only one co-browse provider and or one screen sharing provider for each chat widget. Solutions published on Marketplace only appear in the lists.
 
 1. On the **Review and finish** page, review the channel settings, and select **Create channel**.

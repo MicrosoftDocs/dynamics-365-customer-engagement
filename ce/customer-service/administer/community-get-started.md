@@ -22,7 +22,7 @@ To install Dynamics 365 Customer Service Community:
 1.	Go to the [Microsoft Marketplace Dynamics 365 Customer Service Community download page](https://go.microsoft.com/fwlink/?linkid=2168784).
 2.	Select **Get it now**, and then sign in with your Dynamics System Admin account.
     > [!div class="mx-imgBorder"] 
-    > ![Microsoft Marketplace Dynamics 365 Customer Service Community download page.](../media/community-get-started.png)
+    > ![Marketplace Dynamics 365 Customer Service Community download page.](../media/community-get-started.png)
 3.	Select the environment where you want to install Customer Service Community, accept the terms, and select **Install**.
 
 ## Provision Modern Community website

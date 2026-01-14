@@ -229,7 +229,7 @@ To deprovision the third-party cobrowse and screen sharing solution for our cust
 
 ## Publishing strategy
 
-The following are links for publishing the application to Marketplace:
+The following are links for publishing the application to Microsoft Marketplace:
 
 [Marketplace onboarding](https://marketplace.microsoft.com)
 
