@@ -29,6 +29,8 @@ Before you begin, ensure you have the following:
    - App name
    - Supported accounts - Accounts in this organizational directory only (Mystery Incorporated only - Single tenant)
    - Redirect URL - Replace `crm_org_domain`: SPA - `https://<crm_org_domain>/crmmailapp/msalAuth.html`
+    > [!div class="mx-imgBorder"] 
+    > ![App registration](media/register-app.png "Register new application")
 1. After you create the app registration, go to the **API permissions** section and add the corresponding permissions for Graph. You need to grant admin consent to these permissions.
    > [!div class="mx-imgBorder"] 
    > ![API permissions](media/graph-permissions.png "API permissions required for Microsoft Graph")
@@ -56,6 +58,7 @@ Add a custom entity to store the Mail App configuration values.
 
 1. In the D365MailAppsettings solution, add a new entity.
 1. Set the entity **Name** to **mailapp_setting**, **Display Name** to **MailApp Settings**, and **Plural Name** to **Settings**.
+1. Publish your changes in Dynamics 365.
 
 #### Configure entity fields
 
