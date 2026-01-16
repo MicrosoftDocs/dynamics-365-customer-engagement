@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ about the Research-only mode of Sales Qualification Agent
 description: Get answers to frequently asked questions about the use of AI in the Research-only mode (part of Sales Qualification Agent) in Dynamics 365 Sales.
-ms.date: 01/07/2026
+ms.date: 01/16/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.topic: faq
@@ -14,7 +14,7 @@ ms.reviewer: lavanyakr
 
 # Responsible AI FAQ for the Research-only mode of Sales Qualification Agent
 
-These frequently asked questions are intended to help you understand the effect of AI on the Research-only mode of the Sales Qualification Agent in Dynamics 365 Sales.
+These frequently asked questions help you understand the effect of AI on the Research-only mode of the Sales Qualification Agent in Dynamics 365 Sales.
 
 ## What is Research-only mode of the Sales Qualification Agent?
 
