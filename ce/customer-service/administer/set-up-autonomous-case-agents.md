@@ -73,7 +73,7 @@ Some hierarchical lookup and prediction scenarios used by Case Management Agent 
 
 You must update the **Quick Find Active** view on the child table when you use hierarchical lookups such as incident category and incident subcategory, or other parent–child hierarchies that rely on lookup relationships for hierarchical resolution.
 
-### Prerequisites
+### Prerequisites for hierarchical lookup
 
 - A parent–child lookup relationship exists between the tables.
 - The parent lookup column is available on the child table.
