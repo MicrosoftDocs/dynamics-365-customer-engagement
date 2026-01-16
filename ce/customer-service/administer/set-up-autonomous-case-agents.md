@@ -67,7 +67,7 @@ We recommend that you follow these guidelines when you add descriptions for look
 - Provide synonyms, related terms, and specific examples. Avoid terms such as "general" or "miscellaneous" that lack meaningful context.
 - Avoid overly generic descriptions, excessive detail, unexplained abbreviations, and assumptions about internal business logic that the AI agent can't access or understand.
 
-## Enable hierarchical lookup by using Quick Find views
+## Use quick find views to enable hierarchical lookup
 
 Some hierarchical lookup and prediction scenarios used by Case Management Agent require more configurations than defining a parent–child relationship between tables. In these scenarios, hierarchical resolution depends on how the **Quick Find Active** view is configured on the child table. You can configure Quick Find views so that hierarchical lookup works for Case Management Agent and other lookup-based prediction scenarios.
 
