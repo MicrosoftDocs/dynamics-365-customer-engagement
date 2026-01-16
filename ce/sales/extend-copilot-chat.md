@@ -1,7 +1,7 @@
 ---
 title: Customize Copilot in Dynamics 365 Sales
 description: Learn how to extend Copilot in Dynamics 365 Sales to customize the welcome message, add prompts, and the prompt guide.
-ms.date: 01/13/2026
+ms.date: 01/16/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -52,21 +52,21 @@ Use a solution to manage your customizations so that you can easily deploy them 
 
 <a name="add-glossary"></a>
 
-## Add glossary to help Copilot understand your business terms
+## Add glossary and synonyms to help Copilot understand your business terms
 
-You can train Copilot in Dynamics 365 Sales to understand your business terms. Use glossary to map your business terms to columns in your tables so that sellers can seamlessly ask Copilot questions using your business terms. Let's say that you have a custom field called **custom revenue** in the **opportunity** table that stores the estimated revenue for an opportunity. You can add a glossary term to help Copilot understand that **opportunity revenue** refers to the **custom revenue** column in the **opportunity** table.
+You can train Copilot in Dynamics 365 Sales to understand your business terms. Use glossary to map your business terms to columns in your tables so that sellers can seamlessly ask Copilot questions using your business terms. Use synonyms to add alternative names for columns in your tables. This helps Copilot understand different ways sellers might refer to the same data. 
 
-> [!NOTE]
-> The glossary feature is currently available only in English.
+Let's say that you have a custom field called **custom revenue** in the **opportunity** table that stores the estimated revenue for an opportunity. You can add **opportunity revenue** as a synonym to the **custom revenue** column in the **opportunity** table.  
 
-**To add glossary terms:**
+**To add synonyms and glossary terms:**
 
 1. Open [Copilot Studio](https://copilotstudio.microsoft.com) and select your Dynamics 365 Sales environment.
 
 1. Select **Agents** > **Copilot in Dynamics 365 Sales**.
-1. Select **SalesSpecificQnA** under **Knowledge** section.
-1. Select the **Glossary** section and enter the term and description. Learn more about glossary terms and synonyms at [Add Dataverse tables as a knowledge source](/microsoft-copilot-studio/knowledge-add-dataverse).
-
+1. Under the **Knowledge** section, select **SalesSpecificQnA**.
+1. Select the **Glossary** section and enter the term and description. 
+1. Select the **Synonyms** section and add synonyms for the relevant columns in your tables.
+1. Select **Publish** to save your changes.
 
 ## Watch videos
 

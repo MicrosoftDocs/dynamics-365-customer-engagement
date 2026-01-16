@@ -1,7 +1,7 @@
 ---
 title: Configure Copilot to use specific SharePoint folders
 description: Learn how to configure Copilot to look at specific SharePoint locations to get content recommendations and answers from SharePoint.
-ms.date: 06/26/2025
+ms.date: 01/16/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
