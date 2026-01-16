@@ -250,10 +250,10 @@ items:
         items:
           - name: Copilot overview
             href: copilot-overview.md
-          - name: Configure fields for summary and recent changes
-            href: copilot-configure-summary-fields.md
           - name: Turn on and set up Copilot in Dynamics 365 Sales
             href: enable-setup-copilot.md
+          - name: Configure fields for summary and recent changes
+            href: copilot-configure-summary-fields.md
           - name: Configure fields for what's new
             href: copilot-configure-whatsnew-field.md
           - name: Configure Copilot to use SharePoint sites
