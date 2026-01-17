@@ -6,13 +6,11 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 11/07/2025
+ms.date: 01/16/2026
 ms.custom: bap-template
 ---
 
-
 # Set up Case Management Agent to create and update cases 
-
 
 Case Management Agent streamlines the case management process, reducing manual effort and data entry errors.
 
@@ -46,28 +44,66 @@ You can use the creation and update feature of Case Management Agent to do the f
 
 To help the AI agent make better predictions for lookup fields, add descriptive information to your lookup records. Do the following steps in Power Apps:
 
-- Add meaningful field descriptions in your table columns to help the AI understand the context. For example, in the **Account Number** column of the **Account** table, add a description like: "This is an account number. Account numbers start with ACC."
+- To help the AI agent understand the context, add meaningful field descriptions in your table columns. For example, in the **Account Number** column of the **Account** table, add a description like: "This is an account number. Account numbers start with ACC."
 -  Do the following steps to improve the AI agent's prediction accuracy with lookup fields:
     - For the required lookup entity, add a new optional text field to contain a description of the record if a description field doesn't already exist.
     - Add the meaning and usage for the description fields in the lookup records.
     - Update the **Quick Find** view of the lookup entity to include the new description field as a column. 
     - Save and publish the changes.
     
-  For example, consider case categories like "Billing" and "Account Issues". When a customer writes "I can't access my account to pay my bill," it fits both categories. By adding clear descriptions to each lookup record, the AI agent can make more accurate predictions. If you include descriptions to the "Billing" category such as "Questions about charges and invoices, payment processing issues, refund requests," and  "Login problems and password resets, profile updates and settings, account access difficulties" to "Account issues", the AI agent categorizes the customer's message as "Account Issues" because the primary problem relates to account access rather than billing.
+  For example, consider case categories like "Billing" and "Account Issues". When a customer writes "I can't access my account to pay my bill," it fits both categories. When you add clear descriptions to each lookup record, the AI agent can make more accurate predictions. If you include descriptions to the "Billing" category such as "Questions about charges and invoices, payment processing issues, refund requests," and  "Login problems and password resets, profile updates and settings, account access difficulties" to "Account issues", the AI agent categorizes the customer's message as "Account Issues" because the primary problem relates to account access rather than billing.
    > [!NOTE]
    > The Subject entity includes a description field by default, but we recommend not using these descriptions for lookup predictions because subject lookup views are read-only.
 
 **Best practices for lookup descriptions**
 
-We recommend that you follow these guidelines when you are adding descriptions for lookup fields:
+We recommend that you follow these guidelines when you add descriptions for lookup fields:
 
 - Use simple, direct language and keep the descriptions under two or three sentences to ensure clarity. Don't add unnecessary information or domain jargon.
-- Include typical scenarios, keywords, and phrases that users might use when describing their issue. This helps the AI agent to make semantic connections between user input and the correct record.
+- Include typical scenarios, keywords, and phrases that users might use when describing their issue. This information helps the AI agent to make semantic connections between user input and the correct record.
 - Distinguish between similar records by specifying what makes each record unique, preventing confusion and improving prediction accuracy.
 - Don’t repeat the record name unless it adds clarity. Specify what the name doesn't convey about the record's intended use and scope.
 - Use labeled sections like "Use when:" or "Not for:" to provide clear boundaries and usage guidelines for the AI agent.
 - Provide synonyms, related terms, and specific examples. Avoid terms such as "general" or "miscellaneous" that lack meaningful context.
 - Avoid overly generic descriptions, excessive detail, unexplained abbreviations, and assumptions about internal business logic that the AI agent can't access or understand.
+
+## Use Quick Find views to enable hierarchical lookup
+
+Hierarchical lookup allows Case Management Agent to resolve values across related tables that are organized in a parent–child structure, such as categories and subcategories. When hierarchical resolution is used, the agent evaluates both the selected record and its related parent records to determine the most relevant match.
+
+For these scenarios to work correctly, hierarchical resolution depends on how the **Quick Find Active** view is configured on the child table. The parent lookup column must be included in this view so that Case Management Agent can evaluate relationships and resolve hierarchical values during case creation and updates.
+
+### Prerequisites for hierarchical lookup
+
+- A parent–child lookup relationship exists between the tables.
+- The parent lookup column is available on the child table.
+- You have permissions to edit, save, and publish views in Power Apps.
+
+### Example hierarchy
+
+The following example shows a typical configuration for a hierarchical relationship:
+
+| Role | Table |
+|------|-------|
+| Parent (root) | Product family |
+| Child | Product |
+
+### Configure hierarchical lookup
+
+The **Quick Find Active** view on the child table can include multiple lookup columns. To enable hierarchical lookup, make sure that the parent lookup column is included.
+
+> [!Important]
+> Hierarchical lookup works only when the parent lookup column is included in the **Quick Find Active** view of the child table. Hierarchical lookup doesn’t work in the following scenarios:
+>
+> - The parent lookup column is added only to main, system, or custom views.
+> - A correct parent–child lookup relationship is defined, but the **Quick Find Active** view isn’t updated to include the parent lookup column.
+
+1. In **Power Apps**, go to **Solutions**, and then open the relevant solution.
+1. Select the child table. For example, **Product**.
+1. Select **Views**.
+1. Open the **Quick Find Active** view, and then select **View columns**.
+1. Find the parent lookup column (for example, **Product family**) and add it to the view.
+1. Select **Save** and **Publish**.
 
 ## Configure autonomous case updates
 
@@ -98,7 +134,7 @@ In Copilot Service admin center, configure the AI agent to predict and update ca
 
 1. The system runs case update rules in the order they're listed. You can select the arrow buttons to reorder the rules as needed.
 1. Select **Activate** to activate the rules.
-1. Select **Allow AI agent to override human edits during autonomous updates** for the AI agent to automatically overwrite fields. During autonomous case update, the AI agent overwrites fields that were previously edited by service representatives. 
+1. Select **Allow AI agent to override human edits during autonomous updates** for the AI agent to automatically overwrite fields. During autonomous case update, the AI agent overwrites fields that service representatives previously edited. 
 
 ## Configure autonomous case creation
 
@@ -114,7 +150,7 @@ To allow the AI agent to autonomously create cases across all provisioned messag
 
 ## Configure AI-assisted case creation for service representatives
 
-Select the channels from which service representatives can create cases with AI assistance. You can select **Email** or **Conversation(chats and calls)**. When a service representative creates a case from a conversation or an email, the AI agent analyzes the conversation or email and predicts and populates the fields available on the case form. Service representatives can then review the predicted values and make any necessary changes before saving the case.
+Select the channels from which service representatives can create cases with AI assistance. You can select **Email** or **Conversation (chats and calls)**. When a service representative creates a case from a conversation or an email, the AI agent analyzes the conversation or email, and then predicts and populates the fields available on the case form. Service representatives can then review the predicted values and make any necessary changes before saving the case.
 
 ## Enable service representatives to use autonomous Case Management Agent
 
@@ -126,7 +162,7 @@ By default, service representatives added to the out-of-the-box experience profi
    - **Support experience** > **Workspaces**
    -  Select **Manage** for **Case Management Agent**, and then select **agent experience profiles** in **Case creation and update** > **Representative access**.
 2. Select the required experience profile.
-3. In the **Copilot AI features** section do the following actions:
+3. In the **Copilot AI features** section, do the following actions:
      - Select **From conversations** in **Autonomous case creation and update**.
      - In **Form fill assistance for cases** select **During case creation from conversation** and **During case creation from email** to indicate which channels the AI agent can assist service representatives in creating cases.
   
@@ -136,7 +172,7 @@ In **Agent experience data from Representative experience data**, you can select
 
 ### Example
 
-When a customer initiates a chat conversation with the service representative, the AI agent creates a case if there is enough context to update at least one of the **Issue description** or **Contact** fields.
+When a customer initiates a chat conversation with the service representative, the AI agent creates a case if there's enough context to update at least one of the **Issue description** or **Contact** fields.
 
 For the agent to run this scenario, specify the following in the **Case creation and update** page:
  
