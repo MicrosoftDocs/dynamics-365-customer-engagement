@@ -90,11 +90,7 @@ The following example shows a typical configuration for a hierarchical relations
 
 ### Configure hierarchical lookup
 
-To enable hierarchical lookup, verify the parent table and update the child table configuration.
-
-For the parent table, in Power Apps, confirm that the **Quick Find Active** view exists. No configuration changes are required for the parent table.
-
-**Configure the child table**
+The **Quick Find Active** view on the child table can include multiple lookup columns. To enable hierarchical lookup, make sure that the parent lookup column is included.
 
 > [!Important]
 > Hierarchical lookup works only when the parent lookup column is included in the **Quick Find Active** view of the child table. Hierarchical lookup doesn’t work in the following scenarios:
