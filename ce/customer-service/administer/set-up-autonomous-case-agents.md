@@ -88,28 +88,25 @@ The following example shows a typical configuration for a hierarchical relations
 | Parent (root) | Product family |
 | Child | Product |
 
-### Configure hierarchical lookup for quick find
+### Configure hierarchical lookup
 
-To complete the hierarchical lookup for the quick find configuration, perform the following steps to verify the parent table and configure the child table.
+To enable hierarchical lookup, verify the parent table and update the child table configuration.
 
-**Verify the parent table**
-
-The parent table represents the top level of the hierarchy and doesn’t require view changes.
-
-1. In **Power Apps**, go to **Solutions**, and then open the relevant solution.
-1. Select the parent table. For example, **Product family**.
-1. Select **Views**.
-1. Confirm that the **Quick Find Active** view exists.
+For the parent table, in Power Apps, confirm that the **Quick Find Active** view exists. No configuration changes are required for the parent table.
 
 **Configure the child table**
 
 > [!Important]
-> Hierarchical lookup works only when the parent lookup column is present in the **Quick Find Active** view of the child table. Hierarchical lookup won't work if you add the parent lookup column to main, system, or custom views only, or if you define a correct lookup relationship without updating the quick find configuration.
+> Hierarchical lookup works only when the parent lookup column is included in the **Quick Find Active** view of the child table. Hierarchical lookup doesn’t work in the following scenarios:
+>
+> - The parent lookup column is added only to main, system, or custom views.
+> - A correct parent–child lookup relationship is defined, but the **Quick Find Active** view isn’t updated to include the parent lookup column.
 
+1. In **Power Apps**, go to **Solutions**, and then open the relevant solution.
 1. Select the child table. For example, **Product**.
 1. Select **Views**.
 1. Open the **Quick Find Active** view, and then select **View columns**.
-1. Find the parent lookup column (for example, **Product family**), and add it to the view.
+1. Find the parent lookup column (for example, **Product family**) and add it to the view.
 1. Select **Save** and **Publish**.
 
 ## Configure autonomous case updates
