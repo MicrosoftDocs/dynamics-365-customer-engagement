@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 01/14/2026
+ms.date: 01/16/2026
 ms.custom: bap-template
 ---
 
@@ -67,11 +67,11 @@ We recommend that you follow these guidelines when you add descriptions for look
 - Provide synonyms, related terms, and specific examples. Avoid terms such as "general" or "miscellaneous" that lack meaningful context.
 - Avoid overly generic descriptions, excessive detail, unexplained abbreviations, and assumptions about internal business logic that the AI agent can't access or understand.
 
-## Use quick find views to enable hierarchical lookup
+## Use Quick Find views to enable hierarchical lookup
 
-Some hierarchical lookup and prediction scenarios used by Case Management Agent require more configurations than defining a parent–child relationship between tables. In these scenarios, hierarchical resolution depends on how the **Quick Find Active** view is configured on the child table. You can configure Quick Find views so that hierarchical lookup works for Case Management Agent and other lookup-based prediction scenarios.
+Hierarchical lookup allows Case Management Agent to resolve values across related tables that are organized in a parent–child structure, such as categories and subcategories. When hierarchical resolution is used, the agent evaluates both the selected record and its related parent records to determine the most relevant match.
 
-You must update the **Quick Find Active** view on the child table when you use hierarchical lookups such as incident category and incident subcategory, or other parent–child hierarchies that rely on lookup relationships for hierarchical resolution.
+For these scenarios to work correctly, hierarchical resolution depends on how the **Quick Find Active** view is configured on the child table. The parent lookup column must be included in this view so that Case Management Agent can evaluate relationships and resolve hierarchical values during case creation and updates.
 
 ### Prerequisites for hierarchical lookup
 
@@ -88,11 +88,11 @@ The following example shows a typical configuration for a hierarchical relations
 | Parent (root) | Product family |
 | Child | Product |
 
-### Configure hierarchical lookup for Quick Find
+### Configure hierarchical lookup for quick find
 
-To complete the hierarchical lookup for Quick Find configuration, perform the following steps to verify the parent table and configure the child table.
+To complete the hierarchical lookup for the quick find configuration, perform the following steps to verify the parent table and configure the child table.
 
-#### Verify the parent table
+**Verify the parent table**
 
 The parent table represents the top level of the hierarchy and doesn’t require view changes.
 
@@ -101,10 +101,10 @@ The parent table represents the top level of the hierarchy and doesn’t require
 1. Select **Views**.
 1. Confirm that the **Quick Find Active** view exists.
 
-#### Configure the child table
+**Configure the child table**
 
 > [!Important]
-> Hierarchical lookup works only when the parent lookup column is present in the **Quick Find Active** view of the child table. Hierarchical lookup won't work if you add the parent lookup column to main, system, or custom views only, or if you define a correct lookup relationship without updating Quick Find.
+> Hierarchical lookup works only when the parent lookup column is present in the **Quick Find Active** view of the child table. Hierarchical lookup won't work if you add the parent lookup column to main, system, or custom views only, or if you define a correct lookup relationship without updating the quick find configuration.
 
 1. Select the child table. For example, **Product**.
 1. Select **Views**.
