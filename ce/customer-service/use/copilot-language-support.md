@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.collection: bap-ai-copilot
 ms.topic: how-to
 ms.reviewer: mgandham
-ms.date: 01/14/2026
+ms.date: 01/19/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template 
 ---
