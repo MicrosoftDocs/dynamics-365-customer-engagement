@@ -90,7 +90,7 @@ The conversation diagnostics scenario captures data related to unified routing, 
 
 ## Assignment snapshot
 
-Assignment snapshot adds transparency to the automatic assignment process in unified routing. By surfacing detailed insights into the logic and criteria behind assignment decisions, assignment snapshot helps supervisors and administrators understand why work items aren’t being assigned or why they are assigned to specific representatives. This transparency reduces the need for support tickets and escalations to Microsoft, as customers can remediate and take corrective actions based on the information provided.
+Assignment snapshot adds transparency to the automatic assignment process in unified routing. By surfacing detailed insights into the logic and criteria behind assignment decisions, assignment snapshot helps supervisors and administrators understand why work items remain unassigned or are assigned to specific representatives. This transparency reduces the need for support tickets and escalations to Microsoft, as customers can remediate and take corrective actions based on the information provided.
 
 Administrators can use the following information that's logged in Application Insights:
 
@@ -126,13 +126,13 @@ Is related to the configuration of queues, which includes the queue id, type, pr
 - **omnichannel.queue.id**: The ID of the queue.
 - **omnichannel.priority**: The priority of the queue.
 - **omnichannel.assignment_strategy**: The assignment strategy for the queue. Possible values are:
-    - Highest Capacity(OmnichannelAssignment) = 192350000, 
-    - Round Robin = 192350001,
+    - Highest Capacity(OmnichannelAssignment) = 192350000
+    - Round Robin = 192350001
     - Custom Assignment Configuration = 192350002
 - **omnichannel.queue.name**: Name of the queue.
 - **omnichannel.queue.type**: The type of the queue. Possible values are
-    - Digital Messaging = 192350000,
-    - Entity = 192350001,
+    - Digital Messaging = 192350000
+    - Entity = 192350001
     - Phone Call = 192350002
 
 ### Subscenario: AssignmentRuleset
