@@ -1,6 +1,6 @@
 ---
 title: Set up and configure the Sales Qualification Agent
-description: Set up and configure the Sales Qualification Agent to automate research, engagement, and outreach in Dynamics 365 Sales with AI-powered assistance for effective sales processes.
+description: Set up the Sales Qualification Agent in Dynamics 365 Sales to automate lead research, engagement, and outreach with AI-powered assistance. Learn how to configure it effectively.
 ms.date: 11/13/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -76,11 +76,14 @@ Review the following considerations before you start deploying the autonomous Sa
 
 ## Grant permissions to custom security role
 
-If you're using custom security roles for your sales team instead of the out-of-the-box roles, you have two options. 
+If you're using custom security roles for your sales team instead of the out-of-the-box roles, you have the following options:
 
 - Grant the necessary permissions, listed in the following table, to the custom role. This option is recommended if you want to allow all the users with the custom role to work on leads handed over by the agent.
 
 - Assign the out-of-the-box roles&mdash;Salesperson or Sales Manager&mdash;only to users who'll be working on leads handed over by the agent. This option is recommended if you want to allow only a subset of users to work on the agent-handed-over leads.
+
+> [!NOTE]
+> If your sales team plans to reassign the leads handed over by the agent to other users, ensure that those users also have the permissions listed in the following table. Otherwise, the user assignment will fail.
 
 **Permissions required for custom security roles:**
 

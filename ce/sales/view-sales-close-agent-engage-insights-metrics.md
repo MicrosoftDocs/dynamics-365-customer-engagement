@@ -1,7 +1,7 @@
 ---
 title: View Sales Close Agent (Engage) insights and metrics
 description: Learn how to view insights and metrics for the Sales Close Agent's Engage type, including key performance indicators and engagement statistics.
-ms.date: 11/21/2025
+ms.date: 01/09/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -48,7 +48,6 @@ The insights dashboard is displayed as shown in the following image:
     | Total number of records | Total number of records to which outreach email is sent. |
     | Engagements rate | The percentage of records where the agent engaged with a customer or handed them over to seller. |
     | Customers pitched by agent | Total number of customers to which agent made a product recommendation based on the engagement. |
-    | Email response rate | Percentage of emails sent by the agent that got a response from customers. |
 
 - The **Agent effectiveness** section provides key performance indicators (KPIs) into how well the agent is performing in terms of customer engagement and sales conversion.  
 

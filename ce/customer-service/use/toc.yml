@@ -302,6 +302,8 @@
         items: 
         - name: Productivity pane in Copilot Service workspace
           href: csw-productivity-pane.md
+        - name: Use timeout rules
+          href: use-timeout-rules.md
         - name: View smart assist suggestions for knowledge articles and similar cases
           href: oc-view-ai-suggested-cases-articles.md
         - name: View smart assist suggestions
@@ -318,6 +320,8 @@
         items: 
         - name: Copilot feature availability across applications
           href: /dynamics365/contact-center/use/copilot-feature-availability?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Use Copilot to work with data
+          href: use-copilot-to-work-with-data.md
         - name: Use Copilot-generated case summaries
           href: copilot-use-summary.md
         - name: Use Copilot case summary in model-driven apps
