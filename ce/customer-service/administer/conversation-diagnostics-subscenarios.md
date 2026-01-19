@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: concept-article
 ms.collection:
-ms.date: 12/15/2025
+ms.date: 01/19/2026
 ms.custom: bap-template
 ---
 
@@ -90,7 +90,7 @@ The conversation diagnostics scenario captures data related to unified routing, 
 
 ## Assignment snapshot
 
-Assignment snapshot adds transparency to the automatic assignment process in unified routing. By surfacing detailed insights into the logic and criteria behind assignment decisions, assignment snapshot empowers supervisors and administrators to understand why work items aren’t being assigned or why they are assigned to specific representatives. This transparency reduces the need for support tickets and escalations to Microsoft, as customers can remediate and take corrective actions based on the information provided.
+Assignment snapshot adds transparency to the automatic assignment process in unified routing. By surfacing detailed insights into the logic and criteria behind assignment decisions, assignment snapshot helps supervisors and administrators understand why work items aren’t being assigned or why they are assigned to specific representatives. This transparency reduces the need for support tickets and escalations to Microsoft, as customers can remediate and take corrective actions based on the information provided.
 
 Administrators can use the following information that's logged in Application Insights:
 
@@ -435,57 +435,57 @@ Displays information on the user group identified for the conversation.
 
 ### Voice, conversation control, live chat, and messaging telemetry subscenarios
 
-- **Subscenarios**: 
+- **Subscenarios**:
 
-- CONSULT_BYCHAT_REQUESTAGENT
-- TRANSFER_AGENT_REQUEST2COMPLETED
-- TRANSFER_QUEUE_REQUEST2COMPLETED
-- CONSULT_BYVOICE_REQUESTAGENT
-- SESSION_CREATE
-- Transfer
-- Consult
-- Call Connect
-- Wait for CSR
-- Callback
-- Transcription
-- VOICE_UNMUTE
-- VOICE_MUTE
-- VOICE_SEND_DTMF
-- VOICE_SET_SPEAKER
-- VOICE_SET_MICROPHONE
-- VOICE_SUPERVISOR_BARGE
-- VOICE_PAUSE_RECORDING_AND_TRANSCRIPTION
-- VOICE_PAUSE_TRANSCRIPTION
-- VOICE_RESUME_RECORDING_AND_TRANSCRIPTION
-- VOICE_RESUME_TRANSCRIPTION
-- VOICE_HOLDPARTICIPANT
-- VOICE_UNHOLDPARTICIPANT
-- CALLQUALITYSURVEY_SHOWN2DISMISSED
-- GET_QUICK_REPLIES
-- FILES_DOWNLOAD
-- AGENT_LOGIN
-- Banner Codes
-- ChatButtonAction
-- CloseChatAction
-- CustomContextReceived
-- DownloadTranscriptAction
-- EmailTranscriptButtonAction
-- EndChatEventReceived
-- LCWChatButtonLoading
-- LiveChatWidgetStart
-- MessageReceived
-- MessageSent
-- MinimizeChatAction
-- PRESENCE_FIRST_LOAD
-- AuthTokenValidation
-- OutOfOperatingHoursPostChatSurvey
-- PrechatSurvey
-- ProactiveChat
-- ProactiveChatTimeOut
-- ChatHistoryMessageReceivedCompleted
-- SystemMessageReceived
-- ChatSessionInitialization
-- UnrecognizedOrgUrl
+    - CONSULT_BYCHAT_REQUESTAGENT
+    - TRANSFER_AGENT_REQUEST2COMPLETED
+    - TRANSFER_QUEUE_REQUEST2COMPLETED
+    - CONSULT_BYVOICE_REQUESTAGENT
+    - SESSION_CREATE
+    - Transfer
+    - Consult
+    - Call Connect
+    - Wait for CSR
+    - Callback
+    - Transcription
+    - VOICE_UNMUTE
+    - VOICE_MUTE
+    - VOICE_SEND_DTMF
+    - VOICE_SET_SPEAKER
+    - VOICE_SET_MICROPHONE
+    - VOICE_SUPERVISOR_BARGE
+    - VOICE_PAUSE_RECORDING_AND_TRANSCRIPTION
+    - VOICE_PAUSE_TRANSCRIPTION
+    - VOICE_RESUME_RECORDING_AND_TRANSCRIPTION
+    - VOICE_RESUME_TRANSCRIPTION
+    - VOICE_HOLDPARTICIPANT
+    - VOICE_UNHOLDPARTICIPANT
+    - CALLQUALITYSURVEY_SHOWN2DISMISSED
+    - GET_QUICK_REPLIES
+    - FILES_DOWNLOAD
+    - AGENT_LOGIN
+    - Banner Codes
+    - ChatButtonAction
+    - CloseChatAction
+    - CustomContextReceived
+    - DownloadTranscriptAction
+    - EmailTranscriptButtonAction
+    - EndChatEventReceived
+    - LCWChatButtonLoading
+    - LiveChatWidgetStart
+    - MessageReceived
+    - MessageSent
+    - MinimizeChatAction
+    - PRESENCE_FIRST_LOAD
+    - AuthTokenValidation
+    - OutOfOperatingHoursPostChatSurvey
+    - PrechatSurvey
+    - ProactiveChat
+    - ProactiveChatTimeOut
+    - ChatHistoryMessageReceivedCompleted
+    - SystemMessageReceived
+    - ChatSessionInitialization
+    - UnrecognizedOrgUrl
 
 - **Omnichannel.description and Omnichannel.messsage**: Captures whether the subscenario started, completed successfully, or failed. If the subscenario failed, error or exception information is provided.
 
