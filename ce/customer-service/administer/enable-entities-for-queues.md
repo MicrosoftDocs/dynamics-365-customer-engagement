@@ -42,7 +42,7 @@ Here's an example of queuemembership intersect entity between queue and system u
 
 ### Steps to enable audit
 
-You must first enable audit at the global level (environment or organization level) and then at the entity level through the Power Platform Admin Center or the classic Dynamics 365 Advanced Settings. 
+You must first enable audit at the global level (environment or organization level) and then at the entity level through the Power Platform admin center or the classic Dynamics 365 Advanced Settings. 
 
 1. Enable audit at the environment level. Learn more in [Configure auditing for an environment](/power-platform/admin/manage-dataverse-auditing?tabs=new#configure-auditing-for-an-environment).
 2. Enable audit on the primary entities: Queue and System user entity. Learn more in [Configure auditing for one or more tables and columns in Power Apps](/power-platform/admin/manage-dataverse-auditing?tabs=new#configure-auditing-for-one-or-more-tables-and-columns-in-power-apps).
