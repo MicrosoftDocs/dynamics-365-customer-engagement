@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQs about Research and engage mode of Sales Qualification Agent
 description: Get answers to frequently asked questions about the use of AI in the Research and engage mode (part of Sales Qualification Agent) in Dynamics 365 Sales.
-ms.date: 08/11/2025
+ms.date: 01/16/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.topic: faq
@@ -60,3 +60,7 @@ The Research-only mode has a configuration experience that allows admins to pers
 ## Which languages are supported by the Research and engage mode?
 
 The Research and engage mode is only supported in English language.
+
+## What data is passed to Bing Search?
+
+The agent uses Bing Search to find information about your lead from the public web and generate insights. The agent only passes the lead's company name, website URL, and any Dataverse fields that you manually define in the configuration settings to Bing Search.
