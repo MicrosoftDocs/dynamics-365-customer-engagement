@@ -46,13 +46,23 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/sales-qualification-agent-custom-research-topics.md",
+      "redirect_url": "/dynamics365/sales/define-custom-research-topics",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/sales-ai-agents-faqs.md",
       "redirect_url": "/dynamics365/sales/ai-agent-overview",
       "redirect_document_id": "false"
     },
-        {
+   {
       "source_path": "ce/sales/sales-qualification-agent-competitor-insights.md",
       "redirect_url": "/dynamics365/sales/configure-sqa-knowledge-source#configure-competitor-insights",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/copilot-preview-features.md",
+      "redirect_url": "/dynamics365/sales/sales-qualification-agent",
       "redirect_document_id": "false"
     },
     {
