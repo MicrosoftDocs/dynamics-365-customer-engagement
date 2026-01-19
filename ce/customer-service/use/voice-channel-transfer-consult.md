@@ -1,7 +1,7 @@
 ---
 title: Transfer calls and consult with users
 description: Use this article to understand how customer service representatives can use transfer and consult options to make and receive customer calls in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 01/14/2026
+ms.date: 01/19/2026
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
