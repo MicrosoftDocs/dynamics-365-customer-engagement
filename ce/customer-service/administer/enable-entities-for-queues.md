@@ -1,7 +1,7 @@
 ---
 title: Enable tables for queues
 description: Learn how you can enable tables for queues so that they can be routed through unified routing.
-ms.date: 12/19/2025
+ms.date: 01/19/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
