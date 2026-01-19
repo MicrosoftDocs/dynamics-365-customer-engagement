@@ -1,12 +1,12 @@
 ---
-title: View and understand real-time analytics for record routing in the Intent group report.
+title: View and understand real-time analytics for record routing in the Intent group report
 description: Use the Intent group report to drill down into metrics by intent and representative in Dynamics 365 Customer Service, enabling better insights and operational improvements.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: concept-article
 ms.collection:
-ms.date: 12/18/2025
+ms.date: 01/19/2026
 ms.custom: bap-template
 ---
 
