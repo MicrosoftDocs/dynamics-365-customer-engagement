@@ -4,9 +4,9 @@ ms.custom:
 description: How to deploy and install Dynamics 365 App for Outlook
 ms.date: 04/17/2024
 ms.reviewer: smurkute
+ms.topic: how-to
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: get-started
 applies_to: Dynamics 365 apps
 ms.assetid: 09736e14-e744-48ca-a755-1b05bb55340e
 caps.latest.revision: 39
@@ -33,7 +33,7 @@ Dynamics 365 App for Outlook works with customer engagement apps (such as [Dynam
 
 ## Prerequisites
 
-The following prerequisites are required before you begin set up.
+The following prerequisites are required before you begin set-up.
 
 - Set up synchronization of incoming email through server-side synchronization: [Set up server-side synchronization of email, appointments, contacts, and tasks](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
 
@@ -41,7 +41,7 @@ The following prerequisites are required before you begin set up.
 
 - On Windows clients, Internet Explorer 11 should be installed and enabled but doesn't necessarily need to be the default browser. For more information: [Requirements for running Office Add-ins](/office/dev/add-ins/concepts/requirements-for-running-office-add-ins#client-requirements-windows-desktop-and-tablet).
 
-- Verify what's supported: [System requirements, limits, and configuration values for App for Outlook](support-info-deployment.md)
+- Verify what is supported: [System requirements, limits, and configuration values for App for Outlook](support-info-deployment.md)
 
 
 ## Step 1: Set the default synchronization method
@@ -98,13 +98,13 @@ Enable and test your user mailboxes so they can use Dynamics 365 App for Outlook
    > [!div class="mx-imgBorder"]
    > ![Select ok to confirm.](media/select-mailboxes-confirm.png)
 
-You may need to wait for the system to process the updates. The more mailboxes you enable, the longer it may take.
+You might need to wait for the system to process the updates. The more mailboxes you enable, the longer it might take.
 
 ### Step 2.1: Verify configuration
 
 To verify  mailbox is set up correctly, open the mailbox that you tested in the previous step.
 
-If the set up is successful, the **configuration Test Results** section will change from **Not Run** to **Success**. 
+If the setup is successful, the **configuration Test Results** section changes from **Not Run** to **Success**. 
 
 > [!div class="mx-imgBorder"]
 > ![Open a mailbox to verify that it's set up correctly.](media/verify-mailbox.png)
@@ -112,7 +112,7 @@ If the set up is successful, the **configuration Test Results** section will cha
 
 ## Step 3: Provide security role access
 
-The security role **Dynamics 365 App for Outlook User** is available from build 9.1.0.4206 or later. If a user doesn’t have this security role or its underlying privileges, they’ll receive the following error: **You haven't been authorized to use this app. Check with your system administrator to update your settings**. You must add users to this role so they can use Dynamics 365 App for Outlook. This will ensure that the users have the basic privileges needed to access App for Outlook. 
+The security role **Dynamics 365 App for Outlook User** is available from build 9.1.0.4206 or later. If a user doesn’t have this security role or its underlying privileges, they receive the following error: **You haven't been authorized to use this app. Check with your system administrator to update your settings**. You must add users to this role so they can use Dynamics 365 App for Outlook. This ensures that the users have the basic privileges needed to access App for Outlook. 
 
 Other security privileges on top of the basic privileges, related to the user's role, will light up more features. For example, if a user has create privilege on Lead table, in addition to **Dynamics 365 App for Outlook User** security role, they would see an email resolve to a Lead table where applicable.
 
@@ -148,7 +148,7 @@ App for Outlook also requires server-side synchronization to be properly configu
 
 
 > [!NOTE]
->  If you create a team and add the team to the **Dynamics 365 App for Outlook User** security role, this doesn't automatically propogate the privileges to the users within that team. This applies to custom roles with the **Use Dynamics 365 Appf for Outlook** privilege, as well. 
+>  If you create a team and add the team to the **Dynamics 365 App for Outlook User** security role, this doesn't automatically propagate the privileges to the users within that team. This applies to custom roles with the **Use Dynamics 365 App for Outlook** privilege, as well. 
 
 1. To add users to the App for Outlook security role, from your app, go to **Settings** > **Advanced Settings**.
 
@@ -176,7 +176,7 @@ App for Outlook also requires server-side synchronization to be properly configu
 Follow these steps to push Dynamics 365 App for Outlook to selected users, all users, or have users install it themselves as needed.
 
 > [!IMPORTANT]
-> For environments in [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro) an administrator can get the App for Outlook solution from Microsoft Marketplace. After signing in to Marketplace, choose the the environment that you want to install App for Outlook. For more information, see [Microsoft Dynamics 365 App for Outlook](https://marketplace.microsoft.com/product/dynamics-365/mscrm.fa50aa98-e8bb-4757-83ce-6d607959b985).
+> For environments in [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro) an administrator can get the App for Outlook solution from Microsoft Marketplace. After signing in to Marketplace, choose the environment that you want to install App for Outlook. For more information, see [Microsoft Dynamics 365 App for Outlook](https://marketplace.microsoft.com/product/dynamics-365/mscrm.fa50aa98-e8bb-4757-83ce-6d607959b985).
 >
 > Your Dataverse organization must have a Dataverse store for the Marketplace install to succeed.
 
@@ -198,7 +198,7 @@ Follow these steps to push Dynamics 365 App for Outlook to selected users, all u
       > ![Automatically deply the app.](media/deploy-app-auto.png)
    
    
-    - **Option 2**: Select **ADD APP FOR EIGIBILE USERS** to deploy the app to all users that are set up correctly. The **Status** will change to **Pending**.
+    - **Option 2**: Select **ADD APP FOR EIGIBILE USERS** to deploy the app to all users that are set up correctly. The **Status** changes to **Pending**.
 
       > [!div class="mx-imgBorder"]
       > ![Automatically deply the app for eligible users.](media/deploy-app-auto-1.png)
@@ -210,13 +210,13 @@ Follow these steps to push Dynamics 365 App for Outlook to selected users, all u
       > ![Automatically deply the app to certain users.](media/add-app-to-selected.png)
    
    
-4. The status will change to **Added to Outlook** and the app will be available for your users. 
+4. The status changes to **Added to Outlook** and the app will be available for your users. 
 
    > [!div class="mx-imgBorder"]
    > ![Status changes to added to Outlook.](media/added-to-outlook.png)
 
 
-The app will appear in the Outlook ribbon for the added users.
+The app appears in the Outlook ribbon for the added users.
 
    > [!div class="mx-imgBorder"] 
    > ![Open App for Outlook pane.](media/open-pane-appforoutlook.png)  
@@ -243,16 +243,16 @@ The app will appear in the Outlook ribbon for the added users.
  Follow these steps if you're using Dynamics 365 apps (on-premises).  
 
 -   Configure your Dynamics 365 apps server for Internet-facing deployment. See [Configure IFD for Microsoft Dynamics 365 apps](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn609803(v=crm.8)).  
-
--   If you're connecting to Exchange on-premises, configure the OAuth provider and register client apps. See [Configure Windows Server 2012 R2 for Dynamics 365 apps that use OAuth](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699726(v=crm.8)).  
+-   If you're connecting to Exchange on-premises, configure the OAuth provider and register client apps. See [Configure Windows Server 2012 R2 for Dynamics 365 apps that use OAuth](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699726(v=crm.8)).
+-   If you're connecting to Exchange on-premises, enable [Graph API support for the Dynamics 365 Mail App](graph-api-support-for-dynamics-365-mail.md).
 
 
 ## Troubleshooting installation problems  
 
 
-1. If you don't see [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] when you click the **Settings** button ![Settings button.](media/mp-ua-r16-settings.png "Settings button"), check that you've enabled the feature.
+1. If you don't see [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] when you select the **Settings** button ![Settings button.](media/mp-ua-r16-settings.png "Settings button"), check that you've enabled the feature.
 
-2. If you or your users have trouble installing [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], it may be because their [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox is currently linked to another Microsoft Dataverse environment or Customer Engagement (on-premises) organization. An [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox (email address) can only synchronize appointments, contacts, and tasks with one organization, and a user that belongs to that organization can only synchronize appointments, contacts, and tasks with one [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox.  You can overwrite the setting stored in [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] if you want to change the primary synchronizing organization. For more information, see [this KB article.](https://support.microsoft.com/en-gb/help/3211627/incomingemailrejected-error-when-attempting-to-install-dynamics-365-app-for-outlook)
+2. If you or your users have trouble installing [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], it might be because their [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox is currently linked to another Microsoft Dataverse environment or Customer Engagement (on-premises) organization. An [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox (email address) can only synchronize appointments, contacts, and tasks with one organization, and a user that belongs to that organization can only synchronize appointments, contacts, and tasks with one [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox.  You can overwrite the setting stored in [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] if you want to change the primary synchronizing organization. For more information, see [this KB article.](/troubleshoot/power-platform/dataverse/d365-app-outlook/error-install-dynamics-365-app-outlook)
 
 
 

@@ -66,11 +66,11 @@ No. We don't use any customer data to train Azure OpenAI or any other language m
 
 Learn more at [Explore Copilot products by geography and languages](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).
 
-## What's the difference between Microsoft 365 Copilot for Sales and Copilot in Dynamics 365 Sales?
+## What's the difference between the Sales in Microsoft 365 Copilot and Copilot in Dynamics 365 Sales?
 
-Copilot for Sales is a seller experience application that's available in Microsoft 365 applications and Microsoft Teams. It lets sellers capture, access, and update customer relationship data from Teams and Microsoft 365 applications like Outlook. It also has generative AI capabilities such as record summarization and email content generation. Copilot for Sales works with Dynamics 365 Sales and Salesforce CRM. [Learn more about Copilot for Sales](/microsoft-sales-copilot/introduction).
+Sales in Microsoft 365 Copilot is a seller experience application that's available in Microsoft 365 applications and Microsoft Teams. It lets sellers capture, access, and update customer relationship data from Teams and Microsoft 365 applications like Outlook. It also has generative AI capabilities such as record summarization and email content generation. The Sales agent also works with Dynamics 365 Sales and Salesforce CRM. [Learn more about Copilot for Sales](/microsoft-sales-copilot/introduction).
 
-Copilot in Dynamics 365 Sales refers to the AI assistant that's integrated with Dynamics 365 Sales apps. It uses generative AI to summarize opportunities and leads and generate meeting preparation notes. [Learn more about Copilot in Dynamics 365 Sales](copilot-overview.md).
+Copilot in Dynamics 365 Sales refers to the out-of-the-box AI assistant that's integrated with Dynamics 365 Sales. It uses generative AI to summarize opportunities and leads and generate meeting preparation notes. [Learn more about Copilot in Dynamics 365 Sales](copilot-overview.md).
 
 ## How does Copilot match leads with contacts and can I customize the matching fields?
 
@@ -117,94 +117,6 @@ When you open Copilot in Dynamics 365 Sales, Copilot doesn't respond, and you mi
         - **Direct Line channels in Copilot Studio**  
     1. After you've unblocked and configured the connectors, ensure that the connectors are grouped together (in business or non-business) in the policy.  
     1. Save and close the policy.  
-
-## Copilot for email
-
-The following questions are related to Copilot for email.
-
-### Why is the "Email (preview)" tab not available in my organization?
-
-The ability to compose email messages using Copilot is available by default only for organizations in North America that have early access to Copilot in 2024 release wave 1. If you're in a different region, your administrator must turn on the Copilot preview feature. Learn more in [Turn on and set up Copilot in Dynamics 365 Sales](enable-setup-copilot.md).  
-
-### How can I turn the Copilot for email feature on or off?
-
-Only your administrator can turn Copilot features like chat and email on and off. Learn more in [Turn Copilot features on or off in Sales Hub](enable-setup-copilot.md#turn-copilot-features-on-or-off-in-sales-hub).
-
-### Can I turn this feature on or off for specific team members?
-
-No. It's a global setting that applies to all users in your organization.
-
-### Is Copilot for email the same as Copilot for Sales in Outlook? If not, how is it different?  
-
-Copilot in Dynamics 365 Sales and Copilot for Sales in Outlook offer the same functionality. However, Copilot in Dynamics 365 Sales is accessible in Dynamics 365 Sales apps and might be a version that's slightly older than the one in Outlook.
-
-### What kinds of records can Copilot for email work with?
-
-Copilot for email can use the following record types or *entities*: account, contact, lead, and opportunity.
-
-### Can I change the length and tone of the suggested email without the system looking into my CRM data?  
-
-Yes. You can adjust the length and tone of the email that Copilot suggests. Learn more in [Use Copilot in the email rich text editor](/power-apps/maker/model-driven-apps/use-copilot-email-assist#draft-and-refine-an-email-in-the-rich-text-editor).
-
-### Why doesn't the email thread summary appear sometimes?  
-
-An email summary is generated only for emails or email threads that are longer than 1,000 characters, or about 180 words. Learn more in [View and copy email summary](view-copy-email-summary.md#considerations).
-
-### Why do I sometimes see only the "Describe the email" option?
-
-By design, new emails and emails that are related to an account or a contact display only the **Describe the email** option. For emails that are related to leads and opportunities, you have more options, such as **Make a proposal**, **Reply to inquiry**, and **Address a concern**.
-
-### Can I save my own prompts to write an email?  
-
-No. You can't save your own prompts to write emails.
-
-### Can Copilot for email work when either Outlook or Dynamics 365 email is my default email experience?  
-
-Yes. Copilot for email works whether Outlook or Dynamics 365 email is the default email experience.
-
-### Can Copilot use a custom email template?  
-
-No. You can't use your own templates with Copilot for email.
-
-### Can I provide suggestions to adjust the length or tone?  
-
-Yes. You can provide inputs to adjust the length or tone of the email that Copilot generates. Learn more in [Refine suggested content](compose-send-email-copilot.md#refine-suggested-content).
-
-### Which languages can I use with Copilot for email?  
-
-The list of supported languages varies by Copilot feature. We're constantly working to add more languages to Copilot in Dynamics 365 Sales. Learn more at [Explore Copilot features by geography and languages](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
-
-### I don't like the suggested draft. Can I start over?  
-
-Yes. You can regenerate the system-suggested draft. Learn more in **To start a fresh draft** in [Refine suggested content](compose-send-email-copilot.md#refine-suggested-content).
-
-### How can I give you feedback on the Copilot for email feature?
-
-To share your feedback, use the thumbs up or down buttons in the **Email (preview)** pane.
-
-### How can I give you ideas or suggestions?
-
-To share your ideas and suggestions, use the **Connect and share** icon at the top-right corner of the Sales Hub app.
-
-### What feature enhancements are coming up?
-
-If your administrator turned on preview features, you can view a list of feature enhancements that are coming soon. Learn more in [Copilot preview features](copilot-preview-features.md#copilot-preview-features).
-
-### Is the system reading my email to train the model?
-
-No. Copilot doesn't read your email to train the model. Learn more in [How does Copilot use my data?](/dynamics365/faqs-copilot-data-security-privacy#how-does-copilot-use-my-data).
-
-### If I keep using this feature, will the system learn to write like me?
-
-No. Copilot doesn't learn to write like you. It generates email content based on the context and the prompt that you provide.
-
-### Where can I find the privacy policy and transparency information for this feature?
-
-Learn more in [FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform](/dynamics365/faqs-copilot-data-security-privacy?context=/dynamics365/context/sales-context).
-
-### Does Copilot automatically send emails on my behalf?
-
-No. Copilot doesn't send the email automatically on your behalf. You have to review and send the email.
 
 ## Related information
 

@@ -648,7 +648,7 @@
       items:
       - name: Productivity pane
         href: productivity-pane.md
-      - name: Configure time-out rules
+      - name: Configure timeout rules
         href: configure-time-out-rules.md
       - name: Enable multisession experience in custom apps
         href: enable-multisession-custom-apps.md

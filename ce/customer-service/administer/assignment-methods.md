@@ -210,18 +210,18 @@ The assignment rules comprise the following items:
     - **Bot attributes**: Can be used only when you have configured agents as users and want to do some comparisons on them.
   - **Operators**: Define the comparison relationship between the User attribute and incoming work item attributes.
 
-> [!NOTE]
-> Attributes on which field-level security is defined aren't supported in custom assignment.
+  > [!NOTE]
+  > Attributes on which field-level security is defined aren't supported in custom assignment.
 
     Unified routing filters the attribute-specific operators for you to choose from. Some special operators that are available for the attribute types are as follows.
-    
-      |Attribute type|Operator|Definition|
-      |--------------|--------|----------|
-      |Presence Status| Equals, Does not equal, Contains data, Does not contain data| Use an operator to find representatives who have matching presence status as specified in the work item. |
-      |Capacity|Equals, Does not equal, Contains data, Does not contain data|Use an operator to compare if the representative has enough capacity to work on the specified items. <br>**Note**: The system implicitly performs capacity profile check in custom assignment but for unit-based capacity, you need to specify the conditions.|
-      |User skills|Exact match|Use an operator to find representatives who have all the skills which the incoming work item requires.|
-      |User skills|Custom match|Use the operator to find representatives whose skills match at runtime based on the selected lookup attribute on the work item.|
-      |Calendar schedule|Is working|Use this operator to find representatives who are working as per their service scheduling calendars. Automated assignment considers the representative calendar schedule only and doesn't consider the operating hours defined for the queues.|
+
+    |Attribute type|Operator|Definition|
+    |--------------|--------|----------|
+    |Presence Status| Equals, Does not equal, Contains data, Does not contain data| Use an operator to find representatives who have matching presence status as specified in the work item. |
+    |Capacity|Equals, Does not equal, Contains data, Does not contain data|Use an operator to compare if the representative has enough capacity to work on the specified items. <br>**Note**: The system implicitly performs capacity profile check in custom assignment but for unit-based capacity, you need to specify the conditions.|
+    |User skills|Exact match|Use an operator to find representatives who have all the skills which the incoming work item requires.|
+    |User skills|Custom match|Use the operator to find representatives whose skills match at runtime based on the selected lookup attribute on the work item.|
+    |Calendar schedule|Is working|Use this operator to find representatives who are working as per their service scheduling calendars. Automated assignment considers the representative calendar schedule only and doesn't consider the operating hours defined for the queues.|
   
   - **Value**: The user attributes are compared against this value to find the right representative. The value can be static, such as Address 1: County equals "USA". The value can also be dynamic, so that you can compare the user attribute dynamically with the values on the work item. In dynamic values, you can select any attribute on the work item or related records. For example, the following condition finds users whose country/region is the same as that of the customer associated with the case.
   
