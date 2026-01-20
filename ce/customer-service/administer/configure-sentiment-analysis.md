@@ -19,7 +19,7 @@ Email sentiment analysis enables agents and supervisors to understand customer e
 
 The application displays sentiment intensity indicators based on the content and tone of incoming customer emails. Email sentiment intensity is scored across seven gradients: three positive levels, three negative levels, and one neutral level, providing granular insight into customer emotional states.
 
-Email sentiment analysis supports multiple languages. Using Microsoft Azure Text Translator API, emails written in more than 40 languages are automatically translated and receive sentiment scores, ensuring comprehensive coverage of global customer communications.
+Email sentiment analysis supports multiple languages. Using the Microsoft Azure Text Translator API, emails written in more than 40 languages are automatically translated and scored for sentiment, enabling comprehensive coverage of global customer communications.
 
 > [!NOTE]
 > - Non-English conversations are translated to English, then scored.
@@ -32,7 +32,7 @@ Email sentiment analysis supports multiple languages. Using Microsoft Azure Text
 
 You have the CSR Manager and System Administrator role to enable the feature.
 
-## Add connections and enable power automate flow
+## Add connections and enable Power Automate flow
 
 1.  Go to make.powerapps.com.
 1.  In **Connection references**, add the following connection references:
