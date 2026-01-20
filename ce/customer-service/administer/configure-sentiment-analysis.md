@@ -35,22 +35,28 @@ You have the CSR Manager and System Administrator role to enable the feature.
 ## Add connections and enable power automate flow
 
 1.  Go to make.powerapps.com.
-2.  In **Connection references**, add the following connection references:
-    - **Microsoft Copilot Studio EmailSentiment-aec03**
+1.  In **Connection references**, add the following connection references:
+    - **Microsoft Copilot Studio EmailSentiment-aec03**  
+         :::image type="content" source="../media/copilot-studio-email-sentiment.png" alt-text="Image of Copilot Studio email sentiment connection reference" lightbox="../media/copilot-studio-email-sentiment.png":::
+
     - **Microsoft Dataverse EmailSentiment02869b**
-4.  Go to **Cloud flows** and turn on the **EmailSentiment** flow.
-5.  Publish your changes.
+         :::image type="content" source="../media/dataverse-email-sentiment.png" alt-text="Image of Dataverse email sentiment connection reference" lightbox="../media/dataverse-email-sentiment.png":::
+      
+1.  Go to **Cloud flows** and turn on the **EmailSentiment** flow.  
+       :::image type="content" source="../media/email-sentiment-flow.png" alt-text="Image of EmailSentiment cloud flow" lightbox="../media/email-sentiment-flow.png":::
+    
+1.  Publish your changes.
 
 ## Enable email sentiment analysis
 
 In the Customer Service admin center or Contact Center admin center app, perform the following steps:
 
-1.  In the site map, navigate to **Copilot for questions and emails** in one of the following ways:
+1. In the site map, navigate to **Copilot for questions and emails** in one of the following ways:
      - **Support experience** > **Productivity**
      - **Operations** > **Insights**
-1.  Select **Manage**.
+1. Select **Manage**.
 1. Select the **Let agents view email sentiments** check box in **Email Sentiments**.
-1.  Select **Save**.
+1. Select **Save**.
 
 ## Configure sentiment analysis in inbox
 
