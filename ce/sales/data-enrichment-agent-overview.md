@@ -28,7 +28,7 @@ Data Enrichment Agent helps sellers and managers maintain accurate and complete 
 
 1. **Analyze recent changes**: The agent scans emails exchanged between sellers and customers to gather context about selected opportunities. It can also leverage data from the Sales Close Agent - Research (if configured) to enhance its understanding of the opportunity.
 1. **Identify missing or outdated fields**: It compares the information in the emails and Sales Close Agent - Research data with the existing opportunity records to identify any discrepancies or gaps.
-1 . **Suggest updates**: The agent generates suggestions for updating opportunity fields, such as estimated close date, deal stage, or customer needs. Alternatively, an admin can configure the agent to be autonomous and update the records without any manual intervention.
+1 . **Suggest updates**: The agent generates suggestions for updating opportunity fields, such as estimated close date and budget amount, and associating relevant emails. Alternatively, an admin can configure the agent to automatically update the records without any manual intervention. 
 1. **Review and apply updates**: Sellers can review the suggested updates and choose to apply them to the opportunity records with a single click. In cases where automatic updates are enabled, the sellers can still review the changes made by the agent and revert them if necessary.
 
 ## Set up and use the Data Enrichment Agent
