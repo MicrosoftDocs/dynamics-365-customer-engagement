@@ -229,9 +229,9 @@ To deprovision the third-party cobrowse and screen sharing solution for our cust
 
 ## Publishing strategy
 
-The following are links for publishing the application to AppSource:
+The following are links for publishing the application to Microsoft Marketplace:
 
-[AppSource onboarding](https://appsource.microsoft.com)
+[Marketplace onboarding](https://marketplace.microsoft.com)
 
 [Onboarding guide](/azure/marketplace/cloud-partner-portal/business-applications-isv-program) 
 
@@ -248,7 +248,7 @@ The following are links for publishing the application to AppSource:
  
 ## Third-party providers responsibility and data disclaimer 
 
-Make sure to publish the privacy policy link to AppSource for security and privacy protection of the personal information that would be processed, and provide a compliant approach to data protection. 
+Make sure to publish the privacy policy link to Marketplace for security and privacy protection of the personal information that would be processed, and provide a compliant approach to data protection. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
