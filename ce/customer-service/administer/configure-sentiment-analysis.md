@@ -1,7 +1,7 @@
 ---
 title:  Configure sentiment analysis for emails (preview)
 description: Learn how to configure sentiment for emails in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 12/22/2025
+ms.date: 01/20/2026
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
