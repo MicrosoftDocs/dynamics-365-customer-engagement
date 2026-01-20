@@ -1,8 +1,8 @@
 ---
 title: Assignment methods for queues
 description: Learn about the different assignment methods for queues and how you can use them in unified routing in Dynamics 365 Contact Center and Customer Service.
-ms.date: 09/23/2025
-ms.topic: conceptual
+ms.date: 01/08/2026
+ms.topic: concept-article
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -188,7 +188,7 @@ Some important points about prioritization rules are as follows:
 
 ## How assignment rulesets work
 
-The assignment ruleset is an ordered list of assignment rules. Each assignment rule represents a set of conditions that is used to determine the representatives to select and an order-by field to sort the matching representatives. At runtime, the assignment rule with the top order is evaluated first. The representatives are matched as per the conditions specified in the rule. If more than one matching representative exists, they're sorted by the order by field, and the top representative is assigned the work. If no representatives are matched, then the next assignment rule in the ruleset is evaluated. This method can be thought of as a gradual relaxation of constraints in the assignment, such that first, the strictest criteria are applied, and then the conditions are reduced so that the best representative is found. If no matching representatives are found, then the work item remains in the queue.
+The assignment ruleset is an ordered list of assignment rules. Each assignment rule represents a set of conditions that is used to determine the representatives to select and an order-by field to sort the matching representatives. At runtime, the assignment rule with the top order is evaluated first. The representatives are matched as per the conditions specified in the rule. If more than one matching representative exists, they're sorted by the order-by field, and the top representative is assigned the work. If no representatives are matched, then the next assignment rule in the ruleset is evaluated. This method can be thought of as a gradual relaxation of constraints in the assignment, such that first, the strictest criteria are applied, and then the conditions are reduced so that the best representative is found. If no matching representatives are found, then the work item remains in the queue.
 
 In the assignment rule, the system user attributes are matched with the requirement of the work item. When you select static match, the condition is formed on the System User entity attribute and static values. When you select dynamic match, the conditions on the left are based on the system user root entity and the conditions on the right are based on the conversation root entity. You can drill down to two levels on the conversation root entity to form the rule conditions. An assignment rule with the dynamic match and static match is as follows.
 
@@ -196,7 +196,7 @@ In the assignment rule, the system user attributes are matched with the requirem
 
 ### Components of an assignment rule
 
-The assignment rules are composed of the following items:
+The assignment rules comprise the following items:
 
 - **Order**: Specifies the order in which the assignment rule is evaluated in a ruleset. The lower-order rules are run first. If any rule results in matching a user, then the next set of rules isn't evaluated.
 - **Name**: The unique rule name.
@@ -207,18 +207,21 @@ The assignment rules are composed of the following items:
     - **Capacity**: Maintained by the unified routing service based on user workloads and manual selection.
     - **User skills**: Represents the skills associated with the user that can be used for doing skill-based assignment.
     - **Calendar Schedule**: Schedule of the user as represented in the user service scheduling calendars.
-    - **Bot attributes**: Can be used only when you have configured bots as users and want to do some comparisons on them.
-  - **Operators**: Define the comparison relationship between the User attribute and incoming work item attributes. 
+    - **Bot attributes**: Can be used only when you have configured agents as users and want to do some comparisons on them.
+  - **Operators**: Define the comparison relationship between the User attribute and incoming work item attributes.
 
-      Unified routing filters the attribute-specific operators for you to choose from. Some special operators that are available for the attribute types are as follows.
-    
-      |Attribute type|Operator|Definition|
-      |--------------|--------|----------|
-      |Presence Status| Equals, Does not equal, Contains data, Does not contain data| Use an operator to find representatives who have matching presence status as specified in the work item. |
-      |Capacity|Equals, Does not equal, Contains data, Does not contain data|Use an operator to compare if the representative has enough capacity to work on the specified items. <br>**Note**: The system implicitly performs capacity profile check in custom assignment but for unit-based capacity, you need to specify the conditions.|
-      |User skills|Exact match|Use an operator to find representatives who have all the skills which the incoming work item requires.|
-      |User skills|Custom match|Use the operator to find representatives whose skills match at runtime based on the selected lookup attribute on the work item.|
-      |Calendar schedule|Is working|Use this operator to find representatives who are working as per their service scheduling calendars. Automated assignment considers the representative calendar schedule only and doesn't consider the operating hours defined for the queues.|
+  > [!NOTE]
+  > Attributes on which field-level security is defined aren't supported in custom assignment.
+
+    Unified routing filters the attribute-specific operators for you to choose from. Some special operators that are available for the attribute types are as follows.
+
+    |Attribute type|Operator|Definition|
+    |--------------|--------|----------|
+    |Presence Status| Equals, Does not equal, Contains data, Does not contain data| Use an operator to find representatives who have matching presence status as specified in the work item. |
+    |Capacity|Equals, Does not equal, Contains data, Does not contain data|Use an operator to compare if the representative has enough capacity to work on the specified items. <br>**Note**: The system implicitly performs capacity profile check in custom assignment but for unit-based capacity, you need to specify the conditions.|
+    |User skills|Exact match|Use an operator to find representatives who have all the skills which the incoming work item requires.|
+    |User skills|Custom match|Use the operator to find representatives whose skills match at runtime based on the selected lookup attribute on the work item.|
+    |Calendar schedule|Is working|Use this operator to find representatives who are working as per their service scheduling calendars. Automated assignment considers the representative calendar schedule only and doesn't consider the operating hours defined for the queues.|
   
   - **Value**: The user attributes are compared against this value to find the right representative. The value can be static, such as Address 1: County equals "USA". The value can also be dynamic, so that you can compare the user attribute dynamically with the values on the work item. In dynamic values, you can select any attribute on the work item or related records. For example, the following condition finds users whose country/region is the same as that of the customer associated with the case.
   

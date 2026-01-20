@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page
   author: Soumyasd27
   ms.author: sdas
-  ms.date: 10/21/2025
+  ms.date: 12/11/2025
   ms.custom: bap-template
   hide_bc: true
 
@@ -104,7 +104,7 @@ additionalContent:
     - title: Configure Copilot features
       links:
       - url: administer/configure-copilot-features.md
-        text: Manage copilot features in Customer Service
+        text: Manage Copilot features in Customer Service
       - url: administer/copilot-enable-help-pane.md
         text: Enable features in Copilot pane
       - url: administer/copilot-enable-summary.md
@@ -161,8 +161,6 @@ additionalContent:
         text: View AI-suggested similar cases and knowledge articles 
       - url: use/teams-use-suggested-contacts.md
         text: Use suggested contacts
-      - url: use/cs-ai-generated-summary.md
-        text: Use auto-summarization for ongoing conversations
       - url: use/use-ai-suggested-contacts-teams.md
         text: Collaborate with AI-suggested contacts in Microsoft Teams
     - title: Get insights and analyze service operations 

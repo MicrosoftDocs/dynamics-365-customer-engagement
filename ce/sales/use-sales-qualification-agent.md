@@ -1,12 +1,10 @@
 ---
 title: Work on leads handed over by the Sales Qualification Agent
 description: Learn how to work with leads handed over by the Sales Qualification Agent in Dynamics 365 Sales. Discover research insights, handover summaries, and recommended actions for effective lead management.
-ms.date: 09/30/2025
+ms.date: 11/27/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
-content_well_notification:
-  - AI-contribution
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -25,13 +23,13 @@ ai-usage: ai-assisted
 Depending on the automation level your admin has configured, the Sales Qualification Agent can help you qualify leads by automatically by completing the following tasks:
 
 - **Research-only mode**:
-    - Researches leads and determines whether they are a good fit for your business based on the ideal customer profile.
+    - Researches leads and determines whether they are a good fit for your business based on the target customer profile.
     - Provides insights about the lead, such as company information, financial health, and recent news. 
-    - Hands over the lead to a seller if it fits your ideal customer profile. Else, disqualifies the lead and notifies the supervisor.
+    - Hands over the lead to a seller if it fits your target customer profile. Else, disqualifies the lead and notifies the supervisor.
     - Generates a draft outreach email for you to review and send.
 
 - **Research and engage mode**:
-    - Researches leads and determines whether they are a good fit for your business based on the ideal customer profile and BANT criteria (Budget, Authority, Need, and Timelines).
+    - Researches leads and determines whether they are a good fit for your business based on the target customer profile and BANT criteria (Budget, Authority, Need, and Timelines).
     - Provides insights about the lead, such as company information, financial health, and recent news.
     - Sends a personalized outreach email to the lead based on its insights.
     - Engages with the lead based on their responses to the outreach email.
@@ -44,7 +42,7 @@ Depending on the automation level your admin has configured, the Sales Qualifica
 - Check with your admin about the following details:
   - The mode of the agent (Research-only or Research and engage).
   - The selection criteria for leads that the agent will handle.
-  - The ideal customer profile (ICP) and BANT criteria configured to determine the lead's fit.
+  - The target customer profile and BANT criteria configured to determine the lead's fit.
   - The assignment rules for agent handover.  
   This information helps you understand how the agent will process leads and what actions you need to take.
 
@@ -55,11 +53,11 @@ The lead handover process goes through the following stages:
 1. When a lead meets the selection criteria defined by your admin, it gets assigned to the agent for processing. 
 1. After the agent processes the lead and completes its analysis, it hands over the lead to you for further action. Depending on the mode configured by your admin, the handover happens at different stages.
     - **Research-only mode**:
-        When the ideal customer profile (ICP) fit for a lead is high or medium, the agent hands over the lead to a seller as per the [assignment rule configured by the admin](configure-sqa-assignment-rules.md) for outreach and engagement. If the ICP fit is low, the agent disqualifies the lead and notifies the supervisor. The lead continues to be assigned to the agent in this case.
+        When the target customer profile suitability for a lead is high or medium, the agent hands over the lead to a seller as per the [assignment rule configured by the admin](configure-sqa-assignment-rules.md) for outreach and engagement. If the target customer profile suitability is low, the agent disqualifies the lead and notifies the supervisor. The lead continues to be assigned to the agent in this case.
 
     - **Research and engage mode**:
         The agent hands over the lead to a seller as per the [assignment rule configured by the admin](configure-sqa-assignment-rules.md) in the following scenarios:
-        - The lead meets the ICP and BANT criteria, sends a positive response to the outreach email, or shows positive intent. In this case, you can review the research and engagement summary and qualify the lead if appropriate.
+        - The lead meets the target customer profile and BANT criteria, sends a positive response to the outreach email, or shows positive intent. In this case, you can review the research and engagement summary and qualify the lead if appropriate.
         - The agent can't detect the lead's intent. Review the research and engagement summary and follow up with the lead to determine their purchase intent.
         - The agent is blocked on the lead as it's unable to find the answer to the lead's question. Respond to the lead's question and follow up with the lead.
     > [!NOTE]
@@ -170,6 +168,7 @@ The agent searches the public web for information about the lead’s company. If
 - **Overview:** Fetches general information about the lead’s company, such as industry, location, company size, products and services sold, and whether it is B2B or B2C. Outlines the company’s strategic priorities and how those relate to your offerings.
 - **Finances:** Summarizes the company’s financial health, outlines key financial metrics, and interprets what they mean for your sales approach.
 - **News:** Summarizes up to three recent news articles and explains how they relate to your offerings.
+- **Custom research insights:** If your admin has configured [custom research insights](sales-qualification-agent-custom-research-topics.md) to cater to your sales team's specific needs, the agent generates the custom insights using the specified knowledge sources. For example, if your admin has set up a custom research topic to summarize the recent conversations between your company and the lead's company, the agent fetches relevant insights from the configured knowledge source, such as Gong, and displays them in this section. If the insight is from a non-public knowledge source, you might need to authenticate to open the citation link.
 
 **Competitor insights**
 

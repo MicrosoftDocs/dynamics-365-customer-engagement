@@ -1,11 +1,9 @@
 ---
 title: Configure selection criteria for Sales Qualification Agent
-description: Learn how to configure the selection criteria for the Sales Qualification Agent in Dynamics 365 Sales.
-ms.topic: how-to 
+description: Discover how to set up selection criteria for the Sales Qualification Agent to segment leads that it needs to process.
+ms.topic: how-to
 ms.date: 09/10/2025
 ms.service: dynamics-365-sales
-content_well_notification:
-  - AI-contribution
 ms.custom: bap-template
 author: udaykirang
 ms.author: udag
@@ -52,7 +50,10 @@ The selection criteria helps you to group the incoming leads into a segment and 
     - **Add group**: Add a group of conditions to filter records using multiple attributes that are combined by **And** or **Or**. If you select **And**, leads must meet all the conditions in the group. If you select **Or**, leads can meet any condition in the group.
     - **Add related entity**: Add a condition that's based on the attributes of related tables. Select an attribute in the **Related Entity** list, then select **Contains data** or **Does not contain data**, and then define the condition.  
 
-1. By default, the agent only considers new leads created after the agent is turned on. If you want the agent to also research on leads created before it was enabled, select the **Consider leads created in the last** checkbox and specify the number of days for the look back period.  
+1. By default, the agent only considers new leads created after the agent is turned on. If you want the agent to also research on leads created before it was enabled, select the **Consider leads created in the last** checkbox and specify the number of days for the look back period. 
+    - For the initial run, the agent processes all the leads that meet the selection criteria and were created within the look back period.
+    - After the initial run, the agent runs periodically to process new and updated leads based on [certain conditions](sales-qualification-agent-faq.md#trigger-events).
+
 1. (Optional) When you've finished defining the conditions, select **Preview leads** to view a list of records that satisfy the conditions. Ensure that at least one lead is returned in the preview. 
     If you are satisfied with the results, you can continue with the next configuration step.
 

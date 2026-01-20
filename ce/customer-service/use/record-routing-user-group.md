@@ -4,9 +4,9 @@ description: Learn how to filter and analyze real-time metrics in the User group
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
-ms.date: 11/17/2025
+ms.date: 12/18/2025
 ms.custom: bap-template
 ---
 
@@ -18,7 +18,7 @@ Contact centers often group customer service representatives (service representa
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-You can filter this report by **Time**, **Line of business**, **Intent group**, **Agent group**, **Time zone**, and **Work item status**.
+You can filter this report by **Time**, **Line of business**, **Intent group**, **Agent group**, **Work item status**, and **Time zone**.
 
 As part of visual customization, all record routing dashboards including **Summary**, **Backlog work items**, **Ongoing work items**, **Queue**, and **Agent** reports can be filtered by intent group, intent, and line of business by using the **IntentFamilyName** in **DimIntent** dimension. Learn more in [visual customization](customize-reports.md). You can search for the data measures for intent to select specific intent-based filters.
 
@@ -55,7 +55,7 @@ You see the report after 24 hrs of provisioning. If you don't enable Customer In
 
 ## Report drilldown 
 
-Select **Detailed view** to view **Metrics by agent group**.
+Select **Detailed view** to view **Metrics by user group**.
 
 |Metrics | Definition  |
 |---------|---------|
@@ -65,18 +65,18 @@ Select **Detailed view** to view **Metrics by agent group**.
 |Auto assigned work items|	By default, the system displays the number of record-type work items modified in the last two hours per representative and are currently auto assigned to the representative.|
 |Agent availability status|	Total number of representatives in the system based on their availability status.|
 |Manually assigned work items|	By default, the system displays the number of record-type work items modified in the last two hours and are manually assigned to the representative.|
-|Active sessions| By default, the system displays the number of active sessions the representative is currently in and modified in the last two hours.|
+|Active sessions| By default, the system displays the number of active sessions that the representative is currently in and modified in the last two hours.|
 |Closed sessions|	By default, the system displays the number of sessions closed by the representative and updated in the last two hours.|
 
-## Metrics by agent
+## Metrics by user group
 
 |Metrics | Definition  |
 |---------|---------|
 | Agent name | Name of representative set to the specific intent. |
 | Assigned work items | By default, the system displays the number of record type work items modified in the last two hours and   currently assigned to the specific representative. Assigned work items = Auto assigned work items + Manually assigned work items. |
 | Transferred work items | Number of record type work items that are transferred to a representative and currently assigned to this representative.|
-| Active sessions | By default, the system displays the number of active sessions the representative is in and modified in the last two hours. |
-| Closed sessions | By default, the system displays the number of sessions closed by the representative and updated in the last two hours. |
+|Agents online | Number of representatives logged in per user group.|
+|Agents available| Number of representatives who are in **Available** status per user group.|
 
 
 ## Related information

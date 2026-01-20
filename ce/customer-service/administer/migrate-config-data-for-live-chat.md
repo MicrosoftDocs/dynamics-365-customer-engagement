@@ -1,5 +1,5 @@
 ---
-title: Migrate unified routing data for live chat
+title: Migrate data for live chat channel
 description: Learn to export and import data pertaining to live chat from source to target environments in Dynamics 365 Contact Center.
 ms.date: 04/29/2025
 ms.topic: upgrade-and-migration-article
@@ -13,7 +13,6 @@ ms.reviewer: nenellim
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
-
 
 Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for live chat.
 

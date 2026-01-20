@@ -1,10 +1,11 @@
 ---
 title: Booking timestamps and booking journals
 description: Learn about booking timestamps in Dynamics 365 Field Service.
-ms.date: 11/27/2024
+ms.date: 11/27/2025
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
+ms.reviewer: puneetsingh
 ---
 
 # Booking timestamps and booking journals
@@ -22,13 +23,13 @@ Create or customize [booking statuses](set-up-booking-statuses.md) that match yo
 
 ## Create timestamps
 
-By default, the system creates timestamps automatically when the booking status on an entity changes the related Field Service status. Admins can [change this behavior on the Field Service Settings](configure-default-settings.md#work-order--booking-settings) in the **Timestamp Frequency** field.
+By default, the system automatically creates timestamps when the booking status on an entity changes the related Field Service status. Admins can [change this behavior on the Field Service Settings](configure-default-settings.md#work-order--booking-settings) in the **Timestamp Frequency** field.
 
 Think of a default work order process.
 
-1. A dispatcher schedules a work order to a technician. When scheduling the booking, it's booking status changes to *Scheduled*.
+1. A dispatcher schedules a work order to a technician. When scheduling the booking, the booking status changes to *Scheduled*.
 1. The technician sees the work order on their mobile device and updates the booking status to reflect progress. While they travel to the work site, they set it to *Traveling*.
-1. When the work starts, the update it to *In Progress*.
+1. When the work starts, they update it to *In Progress*.
 1. After the technician completes the work, they set the booking status to *Completed*.
 
 The system saves every change of the booking status to keep a track record.
@@ -45,11 +46,11 @@ Each booking timestamp includes the following information:
 - **System Status**: The related Field Service Status for the work order process.
 - **Booking Status**: Booking status of the bookable resource booking.
 - **Timestamp Time**: The date and time of status change.
-- **Timestamp Source**: The device type originating the status change. When updating from the Dynamics 365 Field Service mobile app, the timestamp source is *Desktop* if the changes occurred while the app is running in online mode, and *Mobile* when the app is running in offline mode.
+- **Timestamp Source**: The device type originating the status change. When you update from the Dynamics 365 Field Service mobile app, the timestamp source is *Desktop* if the changes occur while the app runs in online mode, and *Mobile* when the app runs in offline mode.
 
 ## Generate booking journals
 
-Booking journals calculate total travel time and working time for a booking. When a bookable resource booking status changes to *Completed*, the system creates booking journals per the booking timestamps. If another user updates the booking status to *Completed* on behalf of a technician, the booking’s end time preserves the previous end time value. *Canceled* bookings won't have any booking journal records.
+Booking journals calculate total travel time and working time for a booking. When a bookable resource booking status changes to *Completed*, the system creates booking journals per the booking timestamps. If another user updates the booking status to *Completed* on behalf of a technician, the booking’s end time preserves the previous end time value. *Canceled* bookings don't have any booking journal records.
 
 There are a few types of booking journals:  
 
@@ -61,7 +62,7 @@ There are a few types of booking journals:
 
 ### Example of a booking journal
 
-A resource's work hours are 8 AM to 3 PM. While completing a work order, they go through the following sequence.  
+A resource's work hours are 8:00 AM to 3:00 PM. While completing a work order, they go through the following sequence.
 
 |         Booking status  |            Time stamp        |
 |-------------------------|------------------------------|

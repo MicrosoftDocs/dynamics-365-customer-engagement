@@ -1,7 +1,7 @@
 ---
 title: Set up and configure the Sales Close Agent - Engage (preview)
 description: Set up and configure the Sales Close Agent - Engage to help your sales team engage with customers effectively.
-ms.date: 11/21/2025
+ms.date: 11/28/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -29,18 +29,20 @@ As an administrator, you can set up the autonomous Sales Close Agent - Engage ty
 
 Ensure that the following prerequisites are met:  
 
-- Your tenant admin has configured the following settings in Power Platform Admin Center:
-  
+- Your tenant admin has configured the following settings in Power Platform Admin Center:  
     - Copilot Studio capacity to run the agent. Ensure that you have enough capacity. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
     - AI Agents in Dynamics 365 Sales is turned on for your environment. Learn more in [Turn on AI capabilities in Dynamics 365 Sales](/power-platform/admin/copilot/copilot-hub#turn-on-ai-capabilities-in-dynamics-365-sales).
     - AI prompts feature is enabled. Learn more in [Enable AI prompts in Power Platform and Copilot Studio](/ai-builder/administer#enable-or-disable-ai-prompts-in-power-platform-and-copilot-studio).  
-    - AI insight cards is turned on. This feature is required for sellers to get notified about records handovers and view insights on the record. Learn more about turning on this feature in [Manage feature settings](/power-platform/admin/settings-features).
-
+    - AI insight cards is turned on. This feature is required for sellers to get notified about records handovers and view insights on the record. Learn more about turning on this feature in [Manage feature settings](/power-platform/admin/settings-features).  
 - You have admin permissions in Dynamics 365 Sales.  
 - You have a Copilot Studio license. Learn more in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).  
 - You turned on the modern UI for the Sales Hub app. Learn more in [Enabling the modern look for my app and removing the toggle](/power-apps/user/modern-fluent-design#enabling-the-modern-look-for-my-app-and-removing-the-toggle).  
-
-- You modified Data policies to allow the following connectors:
+- Configure the following requirements before you set up the agent.  
+    - [Create an app in Azure](configure-requirements-for-sqa-agent.md#create-application-in-azure)
+    - [Create an app user in Dataverse and assign AISalesPerson role](configure-requirements-for-sqa-agent.md#create-an-app-user-in-dataverse-and-assign-aisalesperson-role)
+    - [Create a shared mailbox](configure-requirements-for-sqa-agent.md#create-a-shared-mailbox)
+    - [Configure server-side synchronization](configure-requirements-for-sqa-agent.md#configuring-server-side-synchronization)  
+- You modified Data policies to allow the following connectors:  
 
     | Connector | Why is it required? |
     |-----------|---------------------|
@@ -61,9 +63,9 @@ Ensure that the following prerequisites are met:
 Review the following considerations before you start deploying the autonomous Sales Close Agent - Engage type:  
 
 - Only one instance of each agent type can be deployed in an environment. For example, if you have already deployed the Sales Close Agent - Research type in your environment, you can also deploy the Sales Close Agent - Engage type in the same environment. However, you can't deploy two instances of the Sales Close Agent - Engage type in the same environment.  
--	Deactivation of the agent will prevent new records from being assigned/processed by the agent. Existing records which are already in pipeline (orchestration), will continue until the record is handed over for next steps.  
--	You can’t delete an agent once configured. Contact your Microsoft support to delete the agent from your organization.  
--	Once an agent is published, we recommend only a few select fields to be edited.  Sections that have tag Avoid edits should not be edited as it can lead to the agent being in bad state.  
+- Deactivation of the agent will prevent new records from being assigned/processed by the agent. Existing records which are already in pipeline (orchestration), will continue until the record is handed over for next steps.  
+- You can’t delete an agent once configured. Contact your Microsoft support to delete the agent from your organization.  
+- Once an agent is published, we recommend only a few select fields to be edited.  Sections that have tag Avoid edits should not be edited as it can lead to the agent being in bad state.  
 
 ## Grant permissions to custom security role
 
@@ -83,30 +85,40 @@ If you're using custom security roles for your sales team instead of the out-of-
 
 Learn more about granting permissions in [Define the privileges and properties of a security role](/power-platform/admin/security-roles-privileges?tabs=new#define-the-privileges-and-properties-of-a-security-role).
 
-The following image shows the permissions to access research insights as an example:
-
 :::image type="content" source="media/sqa-custom-role-permissions.png" alt-text="Screenshot of the permissions to grant to a custom security role for use with the Sales Qualification Agent in Dynamics 365 Sales.":::  
 
 ## Set up the Sales Close Agent - Engage
 
-As an administrator, you can set up the autonomous Sales Close Agent - Engage to help sales teams manage records efficiently without manual intervention. Once configured, you can only edit configurations if needed.  
-When all the configurations are properly set up, a green check mark is displayed beside each section. Before you start the agent ensure that all the sections are marked green.  
-Let's look at the steps to set up and configure the agents.
+As an administrator, you can set up the autonomous Sales Close Agent - Engage to help sales teams manage records efficiently without manual intervention. Once configured, you can only edit configurations if needed. There are two ways to set up the agent:  
+
+- **AI assisted setup**: A guided experience that helps you set up the agent step-by-step.  
+- **Manual setup**: A detailed guide that walks you through each configuration step.  
+
+### AI assisted setup
+
+The AI Setup Assistant streamlines the setup process through conversational or chat-based interactions for the Sales Close Agent – Engage type. Traditionally, configuring an agent is a time-consuming task due to the complexity and number of steps involved. The Setup Assistant addresses this challenge by providing structured guidance, reducing friction and the time required for setup.  
+To begin the AI-assisted setup, follow these steps:  
+
+1. [Open the setup assistant page](sales-close-agent-engage-setup-assistant.md#open-the-setup-assistant).  
+1. [Choose a setup mode (quick, guided, or data-driven setup)](sales-close-agent-engage-setup-assistant.md#choose-a-setup-mode) and follow the on-screen instructions to complete the setup process.  
+1. [Set up the agent through prompts](sales-close-agent-engage-setup-assistant.md#set-up-the-agent-through-chat-interactions).
+1. [Test the agent](sales-close-agent-engage-test.md) to simulate interactions between the Sales Close Agent and a customer without impacting real CRM data.
+
+### Manual setup
+
+Helps you set up the Sales Close Agent - Engage manually by configuring various sections such as agent profile, product details, target customers, email delivery, email content, and knowledge sources. Each section has specific configurations that need to be completed for the agent to function effectively. When all the configurations are properly set up, a green check mark is displayed beside each section. Before you start the agent ensure that all the sections are marked green.  
+Let's look at the steps to set up and configure the agents.  
 
 1. [Open the Sales Close Agent - Engage settings page](open-sales-close-agent-settings.md).  
-1. Configure the following prerequisites before you set up the agent.  
-    - [Create an app in Azure](configure-requirements-for-sqa-agent.md#create-application-in-azure)
-    - [Create an app user in Dataverse and assign AISalesPerson role](configure-requirements-for-sqa-agent.md#create-an-app-user-in-dataverse-and-assign-aisalesperson-role)
-    - [Create a shared mailbox](configure-requirements-for-sqa-agent.md#create-a-shared-mailbox)
-    - [Configure server-side synchronization](configure-requirements-for-sqa-agent.md#configuring-server-side-synchronization)  
 1. [Configure the agent profile](configure-sales-close-agent-profile.md) for agent such as profile, company info, and email signature.  
 1. [Configure the product details](configure-sales-close-agent-product-details.md) that the agent uses to recommend products during customer interactions.  
 1. [Configure target customers](configure-sales-close-agent-target-customers.md) for the agent to process the records.  
 1. [Configure email delivery](configure-sales-close-agent-email-delivery.md) for the agent to send outreach and follow-up emails to customers.  
 1. [Configure email content](configure-sales-close-agent-email-content.md) that the agent uses for outreach and follow-up emails.  
 1. [Configure knowledge sources](configure-sales-close-agent-knowledge-sources.md) that the agent uses to enrich customer interactions.  
+1. [Test the agent](sales-close-agent-engage-test.md) to simulate interactions between the Sales Close Agent and a customer without impacting real CRM data.  
 1. After you are satisfied with the configuration, [start the agent](start-sales-close-agent.md).
 
 ## Related information
 
-[Sales Close Agent overview (preview)](sales-close-agent.md)  
+[Sales Close Agent overview (preview)](sales-close-agent.md)
