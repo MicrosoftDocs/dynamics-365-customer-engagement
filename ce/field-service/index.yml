@@ -111,7 +111,7 @@ additionalContent:
         text: Install Field Service mobile app
       - url: mobile/booking-maps.md
         text: Enable booking maps
-      - url: mobile/best-practices-limitations-offline-profile.md
+      - url: mobile/offline-data-sync.md
         text: Configure offline capabilities
       - url: mobile/enable-push-notifications.md
         text: Enable push notifications
