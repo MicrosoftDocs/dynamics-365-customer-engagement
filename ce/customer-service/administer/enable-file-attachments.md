@@ -45,7 +45,7 @@ To configure the file size limit, complete the following steps:
 4. Under to **Attachments** section, in the **Maximum file size for attachments** field, enter the new value in kilobytes.
 
     > [!div class=mx-imgBorder]
-    > ![Set file size limit for attachment.](../media/file-size-limit.png "Set file size limit for attachment")
+    > ![Set file size limit for attachment.](../media/file-size-limit-new.png "Set file size limit for attachment")
 
 5. Select **Save**.
 
@@ -62,7 +62,7 @@ To configure unsupported file extensions, complete the following steps:
 4. In the **Set blocked file extensions for attachments** field, add or edit the file types to be blocked.
 
     > [!div class=mx-imgBorder]
-    > ![Specify unsupported file types.](../media/unsupported-file-types.png "Specify unsupported file types")
+    > ![Specify unsupported file types.](../media/unsupported-file-types-new.png "Specify unsupported file types")
 
 5. Click **Save**
 
