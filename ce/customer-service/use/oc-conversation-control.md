@@ -1,7 +1,7 @@
 ---
 title: View the communication panel for conversations
 description: Learn what you can do as a representative in the communication panel when you interact with the customer.
-ms.date: 01/14/2026
+ms.date: 01/19/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

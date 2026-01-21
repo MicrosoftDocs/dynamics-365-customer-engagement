@@ -1,7 +1,7 @@
 ---
-title: Frequently asked questions about unified routing
+title: FAQ about unified routing
 description: Learn about the frequently asked questions (FAQs) for unified routing.
-ms.date: 07/04/2025
+ms.date: 01/19/2026
 ms.topic: faq
 author: neeranelli
 ms.author: nenellim
@@ -140,7 +140,19 @@ Yes. Intelligent skill finder can be enabled for any entity that's enabled for r
 
 If two of the representatives match one each of the required capacity profiles and the third one matches on both the required capacity profiles, then the work item is assigned to the third representative. Learn more in [Use capacity profiles](capacity-profiles.md#how-to-set-multiple-capacity-profiles-in-a-single-workstream).
 
-## Deprecation of diagnostics
+## Conversation diagnostics
+
+### I am using an unmanaged environment for Dynamics 365 Customer Service and Dynamics 365 Contact Center. Can I use these out-of-the-box dashboards?
+
+No. To set up the out-of-the-box dashboards for Application Insights, you need a managed environment. Learn more in [Prerequisites](configure-conversation-diagnostics.md).
+
+### Does my organization need any extra licenses for accessing these dashboards?
+
+Your organization doesn't need any extra licenses for Dynamics 365 Contact Center or Customer Service. However, you need an active Azure Monitor subscription for using the out-of-the-box dashboards. learn more in [Pricing](configure-conversation-diagnostics.md#pricing).
+
+### How often is the data refreshed?
+
+By default, the data in the dashboard isn't auto refreshed. Use the **Refresh** button for a manual refresh.
 
 ### What is diagnostics for unified routing and why is it being deprecated?
 
@@ -148,7 +160,7 @@ Routing diagnostics lend visibility into how routing decisions are made for work
 
 ### What is the alternative to routing diagnostics after it's deprecated?
 
-Customers can use Azure Application Insights, which is our one-stop solution to get a comprehensive view of end-to-end conversation diagnostics.
+Customers can use the [Azure Application Insights embedded dashboards](/dynamics365/contact-center/use/diagnose-dashboard)) that's our one-stop solution to get a comprehensive view of end-to-end conversation diagnostics.
 
 ### Do I need to perform any migration steps to start using Application Insights?
 
@@ -170,9 +182,9 @@ A pay-as-you-go pricing model is associated with Azure Monitor. The Application 
 
 Application Insights is meant for developer, support, and admin personas. Users with these roles and responsibilities can be set up to access Application Insights using Azure role-based access. Learn more in [Assign Azure roles using the Azure portal](/azure/role-based-access-control/role-assignments-portal).
 
-### Not everyone in my organization can write queries. How do they use application insights?	
+### Not everyone in my organization can write queries. How do they use application insights?
 
-We provide sample queries for common questions that customers seek answers to. These samples would be available within the blade in Application Insights for you to run or modify to suit your question.
+You can use the embedded dashboards. We provide sample queries for common questions that customers seek answers to. These samples are available within the blade in Application Insights for you to run or modify to suit your question.
 
 ### Data that I'm looking for isn't available in Application Insights. How do I raise a request for more data events?
 
