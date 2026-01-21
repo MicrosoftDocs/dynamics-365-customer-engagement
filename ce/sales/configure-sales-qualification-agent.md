@@ -21,11 +21,6 @@ ai-usage: ai-assisted
 
 As an admin, you need to set up the Sales Qualification Agent before your sellers can use it for lead research, target customer profile assessment, and initial email outreach. This article discusses how to configure the details about your company and products you sell, your target customer profile, and other settings to help the agent align with your company's sales strategy and goals. 
 
-Here are the resources to help your functional and IT teams assess readiness for deploying the Sales Qualification Agent:
-
-- [Role-specific guidance](https://aka.ms/sqaguidance) for sales leadership, finance, and HR teams to understand the impact of the Sales Qualification Agent on their roles and responsibilities.
-- [Architecture and compliance safeguards](/dynamics365/guidance/reference-architectures/sales-qualification-agent) for your IT security and compliance teams to review the architecture, data flow, and security and compliance measures associated with the Sales Qualification Agent.
-
 Watch the video to get started with the agent setup:
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=5148e4b9-f0d1-43e9-93b5-484c8f446c3c]
