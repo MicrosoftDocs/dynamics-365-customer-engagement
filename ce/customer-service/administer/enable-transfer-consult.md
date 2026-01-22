@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to 
 ms.collection:
-ms.date: 01/14/2026
+ms.date: 01/23/2026
 ms.custom: bap-template
 ---
 
@@ -49,6 +49,37 @@ When you enable the transfer to representative setting, representatives can sele
 
 1. On the **Consult and transfer** page, in **Transfer settings** turn on the **transfer to representatives** toggle.
 1. Select **Save**.
+
+### Configure filters to display selective representatives in consult and transfer scenarios
+
+In the different consult and transfer scenarios that you enable for your representatives, to make sure that representatives choose the right queue or another representative within the business unit or view, define a FetchXML query. At runtime, a selective list of representatives or queues appear when the representative initiates a consult or transfer session. By default these settings are disabled and you need to enable them and configure.
+
+A sample FetchXML is as follows.
+
+```
+<fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+	<entity name="queue">
+		<attribute name="queueid" />
+		<attribute name="name" />
+		<link-entity name="msdyn_consultqueuemapping" from="msdyn_consult_allowed_queue" to="queueid" link-type="inner">
+			<filter type="and">
+				<condition attribute="msdyn_currentqueue" operator="eq" value="{queue.queueid}" />
+			</filter>
+		</link-entity>
+	</entity>
+</fetch>
+```
+
+1. In Copilot Service admin center, go to the **Channels** > **Consult and transfer** page.
+1. Enable the toggle for each of the following settings:
+    - **Consult to queue filtering**
+    - **Transfer to queue filtering**
+    - **Consult with representative filtering**
+    - **Transfer to representative filtering**
+1. Fill the FetchXML query in each of the settings and validate.
+1. Save the changes.
+
+   :::image type="content" source="../media/consult-transfer-fetchXML.png" alt-text="A screenshot of the FetchXML to restrict representatives during consult and transfer scenarios.":::
 
 ### Configure custom inbox view
 
