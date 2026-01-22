@@ -18,7 +18,7 @@ You can buy one of the following licenses depending on your organization's needs
 - Microsoft Relationship Sales (Sales Enterprise + LinkedIn Sales Navigator Enterprise)
 
 > [!NOTE]
-> Sales Enterprise, Sales Premium, and Microsoft Relationship Sales licenses include the basic features of Sales in Microsoft 365 Copilot. To use the premium features, you must buy the [Microsoft 365 Copilot license](https://www.microsoft.com/en-in/microsoft-365-copilot/enterprise?rtc=1#featuresandpricing). To learn more about the licensing options, see [this FAQ](/microsoft-sales-copilot/sales-copilot-faq#will-copilot-for-sales-be-included-in-dynamics-365-sales-subscriptions).
+> Sales Enterprise, Sales Premium, and Microsoft Relationship Sales licenses include the basic features of Sales in Microsoft 365 Copilot. To use the premium features, you must buy the [Microsoft 365 Copilot license](https://www.microsoft.com/en-in/microsoft-365-copilot/enterprise?rtc=1#featuresandpricing).
 
 
 ## Before you buy
