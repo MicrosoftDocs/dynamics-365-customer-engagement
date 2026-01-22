@@ -517,3 +517,4 @@ Displays information on the user group identified for the conversation.
 
 [Configure conversation diagnostics](configure-conversation-diagnostics.md)  
 [Sample queries and dashboard](/dynamics365/guidance/resources/conversation-diagnostics-sample-queries)  
+[Diagnose contact center health using Application Insights dashboard](/dynamics365/contact-center/use/diagnose-dashboard)  

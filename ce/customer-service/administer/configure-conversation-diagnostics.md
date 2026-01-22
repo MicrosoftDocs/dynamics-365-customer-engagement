@@ -85,5 +85,7 @@ Do the steps in [Conversation diagnostics dashboard](https://github.com/microsof
 
 [Subscenarios in conversation diagnostics](conversation-diagnostics-subscenarios.md)  
 [Sample queries and dashboard](/dynamics365/guidance/resources/conversation-diagnostics-sample-queries)  
+[Enable Diagnose dashboard](/dynamics365/contact-center/administer/enable-diagnose-dashboard)  
+[Diagnose contact center health using Application Insights dashboard](/dynamics365/contact-center/use/diagnose-dashboard)  
 
 
