@@ -51,7 +51,7 @@ You have the CSR Manager and System Administrator role to enable the feature.
 
 In the Copilot Service admin center, perform the following steps:
 
-1. In the site map, navigate to **Copilot for questions and emails** in one of the following ways:
+1. In the site map, navigate to **Copilot for questions and emails** using one of the following ways:
      - **Support experience** > **Productivity**
      - **Operations** > **Insights**
 1. Select **Manage**.
