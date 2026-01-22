@@ -1,6 +1,6 @@
 ---
-title: Data Enrichment Agent overview
-description: Learn how the Data Enrichment Agent in Dynamics 365 Sales automates updating and enriching customer data based on recent interactions.
+title: AI-powered data enrichment for opportunities
+description: Learn how the AI-powered data enrichment helps automate updating and enriching opportunity data based on recent email interactions.
 ms.date: 01/19/2026
 ms.update-cycle: 180-days
 ms.topic: overview
@@ -18,11 +18,13 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Data Enrichment Agent overview
+# AI-powered data enrichment for opportunities
 
-Data Enrichment Agent helps sellers and managers maintain accurate and complete opportunity data. Incomplete or outdated opportunity records can lead to missed sales, inaccurate forecasting, and inefficient deal reviews. The Data Enrichment Agent addresses this challenge by automatically analyzing recent email interactions and suggesting updates to opportunity records. This proactive approach reduces manual data entry, improves pipeline confidence, and supports more effective deal reviews and forecasting.
+The AI-powered data enrichment feature helps sellers and managers maintain accurate and complete opportunity data. Incomplete or outdated opportunity records can lead to missed sales, inaccurate forecasting, and inefficient deal reviews. The AI-powered data enrichment feature addresses this challenge by automatically analyzing recent email interactions and suggesting updates to opportunity records. This proactive approach reduces manual data entry, improves pipeline confidence, and supports more effective deal reviews and forecasting.
 
-## How the Data Enrichment Agent works
+## How the AI-powered data enrichment feature works
+
+The agent behind the AI-powered data enrichment feature follows these steps to analyze and enrich opportunity records:
 
 1. **Filters opportunity records**: The agent applies the criteria defined by the admin to select relevant opportunity records for analysis.
 
