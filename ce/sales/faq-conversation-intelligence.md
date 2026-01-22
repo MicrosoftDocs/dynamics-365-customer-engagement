@@ -16,7 +16,7 @@ ms.custom:
 
 # Conversation intelligence FAQs
 
-This article answers frequently asked questions about conversation intelligence in Dynamics 365 Sales and Sales premium.
+This article answers frequently asked questions about conversation intelligence in Dynamics 365 Sales.
 
 ## Which Conversation intelligence features are available in Dynamics 365 Sales versus Microsoft 365 Copilot for Sales?  
 

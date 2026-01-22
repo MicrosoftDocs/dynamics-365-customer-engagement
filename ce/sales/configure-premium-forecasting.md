@@ -13,11 +13,12 @@ ms.reviewer: lavanyakr
 Premium forecasting helps sellers and managers improve their forecast accuracy by providing forecast projections based on data. To achieve this, premium forecasting uses AI-driven models that look at historical data and the sales pipeline to predict future revenue outcomes.
 
 >[!IMPORTANT]
->Premium forecasting is not available on Government Community Cloud (GCC), France, and India.
+>- Premium forecasting is not available on Government Community Cloud (GCC), France, and India.
+>- Premium forecasting is available only with a specific set of Dynamics 365 Sales licenses. For more information, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
 
 ## Features available in premium forecasting
 
-The following premium forecasting features are available with the Sales Premium license. Before you begin, ensure that forecasting is enabled. More information: [Configure forecasts in your organization](configure-forecast.md).
+Before you begin, ensure that forecasting is enabled. More information: [Configure forecasts in your organization](configure-forecast.md).
 
 ### Forecast predictions
 

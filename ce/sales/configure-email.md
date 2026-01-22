@@ -33,15 +33,15 @@ means you can track email from just about any device.
 
 ## Configure the integration
 
-Depending on the license you have, select one of the following tabs for more information:
+Select a tab based on the sales app that you use:
 
-# [Sales Premium and Sales Enterprise](#tab/SE)
+# [Sales Hub app](#tab/SE)
 
 1. In the [Power Platform admin center](https://admin.powerplatform.microsoft.com/), select an environment. 
 
 2. Follow the instructions in [Set up server-side synchronization of email, appointments, contacts, and tasks](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks?context=/dynamics365/context/sales-context) to configure the integration.  
 
-# [Sales Professional](#tab/SP)
+# [Sales Professional app](#tab/SE)
 
 ### Prerequisite for Exchange integration
 
@@ -56,7 +56,7 @@ To configure Exchange, you must have:
 
 For more information about managing subscriptions, go to [Manage Microsoft Dynamics 365 (online) instances](../admin/backup-restore-instances.md).
 
-### Configure the integration in Sales Professional
+### Configure the integration in the Sales Professional app
 
 1.  In the site map, select **Sales Settings**, and then under **Standard settings**, select **Set up email**.
 

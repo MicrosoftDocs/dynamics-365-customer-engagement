@@ -17,9 +17,6 @@ Quickly create a copy of an existing product in Dynamics 365 Sales including all
 
 When you're creating a new product, family or bundle, save time by cloning an existing one. Cloning creates a copy of the original record with all the details except for the name and ID. If the product, bundle, or family has any properties, they're also copied to the cloned record.  
 
-> [!NOTE]
-> Product families are only supported for Sales Enterprise and Sales Premium.  
-
 **To clone a product, family, or bundle:**
 
 1. Depending on the sales app that you're using, do one of the following:

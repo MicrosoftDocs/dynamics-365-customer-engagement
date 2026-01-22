@@ -27,7 +27,7 @@ Predictive opportunity scoring allows your sales teams to [prioritize opportunit
 
 ## Licensing options
 
-When you set up lead and opportunity scoring with the Dynamics 365 Sales Enterprise license, you get 1,500 scored records per month. If you need to score more than 1,500 records per month, upgrade to Dynamics 365 Sales Premium.
+When you set up lead and opportunity scoring with the Dynamics 365 Sales Enterprise license, you get 1,500 scored records per month. If you need to score more than 1,500 records per month, upgrade your Dynamics 365 Sales license. Learn more about [Dynamics 365 Sales licensing options](https://go.microsoft.com/fwlink/?linkid=2152923).
 
 ## Set up lead and opportunity scoring
 
@@ -50,7 +50,7 @@ To do so, select **Go to advanced lead score settings** and **Go to advanced opp
 
 As an administrator, you can monitor the number of lead and opportunity records that have been scored over the past seven months. The data in the usage panel is refreshed every 24 hours.
 
-If you have a Sales Enterprise license, you get 1,500 scored records per month. The app displays a warning symbol if your usage exceeds the monthly limit. Hover over the symbol to view the message. You must upgrade to the Sales Premium license to enjoy the full benefits of predictive scoring with no monthly limit.
+If you have a Sales Enterprise license, you get 1,500 scored records per month. The app displays a warning symbol if your usage exceeds the monthly limit. Hover over the symbol to view the message. You must upgrade your Dynamics 365 Sales license to enjoy the full benefits of predictive scoring with no monthly limit. Learn more about [Dynamics 365 Sales licensing options](https://go.microsoft.com/fwlink/?linkid=2152923).
 
 On the **Get started with digital sales** page, under **Lead and opportunity scoring**, select **Monitor usage**.
 

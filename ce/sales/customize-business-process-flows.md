@@ -47,16 +47,16 @@ Entities are sets of records. You can use the following entities to create busin
 
 ## Create a business process flow
 
-Depending on the license you have, select one of the following tabs for more information:
+Select a tab based on the sales app that you use:
 
-# [Sales Premium and Sales Enterprise](#tab/SE)
+# [Sales Hub app](#tab/SE)
 
 Follow the instructions in [Create a business process flow](/power-automate/create-business-process-flow?context=/dynamics365/context/sales-context) to create or customize a business process flow.  
 
-# [Sales Professional](#tab/SP)
+# [Sales Professional app](#tab/SE)
 
 1. Make sure you have the System Administrator or System Customizer security role or equivalent permissions.  
-1. In your sales professional app, in the site map, select **Setup** &gt; **Sales Settings**.  
+1. In your Sales Professional app, in the site map, select **Setup** &gt; **Sales Settings**.  
 1. Select **Customization** &gt; **Business Process Flows** and then select **Create New**.  
 1. In the **Create New Business Process** pane, enter the following information:  
     - **Name**: A name for your business process flow. The name of the process doesn’t need to be unique, but it should be meaningful for users who need to choose a process. You can change this later.  
@@ -73,7 +73,7 @@ You can edit existing business process flows, as needed. If your business proces
 |- Stages or other components<br>- Properties of existing components<br>- Name<br>- Description|- Entity on which the process flow is based<br>- System name for the business process flow<br>- Owner<br>- Category|
 
 To edit a business process flow:  
-1. In your sales professional app, in the site map, select **Setup** &gt; **Sales Settings**.  
+1. In your Sales Professional app, in the site map, select **Setup** &gt; **Sales Settings**.  
 1. Select **Customization** &gt; **Business Process Flows** and then select the business process flow you want to edit in the **Process Name** column.
 
 ---

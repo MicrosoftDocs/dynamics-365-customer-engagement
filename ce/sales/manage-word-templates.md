@@ -20,17 +20,17 @@ Templates help users to generate standardized documents with Dynamics 365 Sales 
 
 Depending on the license you have, select one of the following tabs to know on how to create word templates for Dynamics 365:
 
-# [Sales Premium and Sales Enterprise](#tab/SE)
+# [Sales Hub app](#tab/SE)
 
 Follow the instructions in [Use Word templates to create standardized documents](/power-platform/admin/using-word-templates-dynamics-365?context=/dynamics365/context/sales-context) to create a word template.
 
-# [Sales Professional](#tab/SP)
+# [Sales Professional app](#tab/SE)
 
-Follow the steps in this article to successfully create Word templates in Dynamics 365 Sales Professional.
+Follow the steps in this article to successfully create Word templates in the Sales Professional app.
 
 ### Step 1: Create a Word template
 
-1.  Make sure you have the System Administrator role in Dynamics 365 Sales Professional.
+1.  Make sure you have the System Administrator role in Dynamics 365 Sales.
 
 2.  In the site map, select **Sales Settings**.
 
@@ -48,7 +48,7 @@ Follow the steps in this article to successfully create Word templates in Dynami
 
 7.  To add the fields that you want to be included in the Word template, select **Choose Related Entities**. The **Settings Overview** dialog box opens.
 
-    The relationships you select on this screen determine which entities and fields are available later, when you define the Word template. Select only the relationships you need to add Dynamics 365 Sales Professional data to the Word template. When you’re done, select **Done**.
+    The relationships you select on this screen determine which entities and fields are available later, when you define the Word template. Select only the relationships you need to add Dynamics 365 Sales data to the Word template. When you’re done, select **Done**.
 
     Here are some example relationships for the Account entity:
 
@@ -79,9 +79,7 @@ Follow the instructions in [Step 3: Define the Word template](/power-platform/ad
 
 ### Step 4: Upload the Word template back into the Sales app
 
-When you have your Word template built the way you want, save it so you can upload it into Dynamics 365 Sales Professional.
-
-An administrator can use the **Advanced Settings** page to upload the Word template into Dynamics 365 Sales Professional.
+When you have your Word template built the way you want, save it so you can upload it into the Sales Professional app.
 
 > [!NOTE]
 > Users in your organization can see the templates available to them by selecting the **Word Templates** button on the command bar in the list of records.
@@ -107,7 +105,7 @@ An administrator can use the **Advanced Settings** page to upload the Word templ
 ## Related information
 
 - [Export sales records to PDF](create-quote-pdf.md)
-- [Enable automatic generation of quote and invoice documents in Sales Professional](enable-automatic-generation-quotes-invoices.md)
+- [Enable automatic generation of quote and invoice documents](enable-automatic-generation-quotes-invoices.md)
 
 
 

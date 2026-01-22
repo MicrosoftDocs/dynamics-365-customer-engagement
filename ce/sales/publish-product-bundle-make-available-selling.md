@@ -19,7 +19,7 @@ By default, product records are created in a draft state, and are available to y
 
 > [!NOTE]
 > - You can only publish a product or bundle with a parent family if the parent product family is active.
-> - Product families are only supported for Sales Enterprise and Sales Premium.  
+> - Product families are only supported in the Sales Hub app.
 
 1. Depending on the sales app that you're using, do one of the following:
  

@@ -26,7 +26,7 @@ Enable your salespeople to quickly find and add multiple products to an opportun
  By using the enhanced experience, salespeople can do the following:
 
 - Quickly search for products and add them to opportunity, quote, order, or invoice.  
-- Filter by product families if you have the Sales Enterprise or Sales Premium license.
+- Filter by product families (available only in Sales Hub app).
 - View product details inline.
 - Compare products before selecting them.
 - Add multiple products in one go.
@@ -37,9 +37,9 @@ Enable your salespeople to quickly find and add multiple products to an opportun
 
 ## Enable or disable the enhanced experience
 
-Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information: 
+Select a tab based on the sales app that you use:
 
-# [Sales Premium and Sales Enterprise](#tab/SE)
+# [Sales Hub app](#tab/SE)
 
 If you have the Sales Hub app, follow the instructions in this tab. Otherwise, follow the instructions in the **Sales Professional** tab to configure the option in Power Platform.
 
@@ -56,7 +56,7 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
     
     If you turn off the enhanced experience, the **Add products** option in the opportunity, quote, order, and invoice will switch back to **Quick create** form.
 
-# [Sales Professional](#tab/SP)
+# [Sales Professional app](#tab/SE)
 
 If you're using a custom app or Sales Professional app, you can enable or disable the enhanced experience from **System Settings** in Power Platform.
 

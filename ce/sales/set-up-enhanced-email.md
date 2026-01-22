@@ -18,9 +18,7 @@ Set up the enhanced email experience so sales reps can compose and send email wi
 
 Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information: 
 
-# [Sales Premium and Sales Enterprise](#tab/SE)
-
-If you have the Sales Hub app, follow the instructions in this tab. Otherwise, follow the instructions in the **Sales Professional** tab to configure the option in Power Platform.
+# [Sales Hub app](#tab/SE)
 
 1. At the bottom of the site map, select **Change area** ![Change area.](media/change-area-icon.png "Change area") and then select **App Settings**.
 
@@ -34,7 +32,7 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 
     :::image type="content" source="media/enable-enhanced-email.png" alt-text="Enable enhanced email for timeline option.":::
 
-# [Sales Professional](#tab/SP)
+# [Sales Professional app](#tab/SE)
 
 If you're using a custom app or Sales Professional app, you can enable or disable the enhanced experience from **System Settings** in Power Platform.
 

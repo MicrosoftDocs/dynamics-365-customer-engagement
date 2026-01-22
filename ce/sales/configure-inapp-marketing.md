@@ -28,9 +28,9 @@ Configure the in-app marketing settings to define various aspects of campaigning
   
 ## To configure in-app marketing settings
 
-Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information: 
+Select a tab based on the sales app that you use:
 
-# [Sales Premium and Sales Enterprise](#tab/SE)
+# [Sales Hub app](#tab/SE)
 
 1. In the Sales Hub app, go to the **Change area** and select **App Settings**.
 
@@ -47,7 +47,7 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
 4. Save the changes.
 
-# [Sales Professional](#tab/SP)
+# [Sales Professional app](#tab/SE)
 
 1. From the Sales Professional app, go to **Settings** > **Advanced Settings**.
 1. Follow the instructions in the [System Settings Marketing tab](/power-platform/admin/system-settings-dialog-box-marketing-tab) article to open the marketing settings and configure them.  

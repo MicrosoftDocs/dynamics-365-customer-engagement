@@ -20,7 +20,7 @@ To allow users in your organization to capture more relevant details about an op
 
 Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information:
 
-# [Sales Premium and Sales Enterprise](#tab/SE)
+# [Sales Hub app](#tab/SE)
 
 If you have the Sales Hub app, follow the instructions in this tab. Otherwise, follow the instructions in the **Sales Professional** tab to configure the option in Power Platform.
 
@@ -30,7 +30,7 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 1. On the **Opportunity Closing** page, turn the **Custom fields on closing form** toggle to **Yes**.
 1. Select **Save**.
 
-# [Sales Professional](#tab/SP)
+# [Sales Professional app](#tab/SE)
 
 1.  In your app, on the navigation bar, select the **Settings** icon ![Settings icon on the navigation bar.](media/settings-icon.png "Settings icon on the navigation bar"), and then select **Advanced Settings**.
 

@@ -19,12 +19,14 @@ Review the system requirements before installing Dynamics 365 Sales apps. [Syste
 
 ## Install and use the sales apps
 
-Your Dynamics 365 Sales subscription comes with free apps that are either pre-installed or can be installed separately. The following table lists the apps and the license required to use them.  
+Your Dynamics 365 Sales license comes with free apps that are either pre-installed or can be installed separately. To know about the apps available with your license, see [Dynamics 365 Sales licensing guide](dynamics-365-sales-licensing-guide.md).
 
-|App name  |License required  |Install instructions  |
-|---------|---------|---------|
-|Sales Hub app** (pre-installed with Dynamics 365 Sales Embedded Package)   |Sales Premium or Sales Enterprise         | [Link](intro-saleshub.md)        |
-|Sales Professional app     |Sales Professional         | [Link](provision-sales-professional-instance.md)        |
-|Sales Team member app     |  Team member       |[Link](sales-team-member.md)         |
+The following table lists the apps and the installation instructions.  
+
+|App name  |Install instructions  |
+|---------|----------------------|
+|Sales Hub app** (pre-installed with Dynamics 365 Sales Embedded Package)   | [Link](intro-saleshub.md)        |
+|Sales Professional app     | [Link](provision-sales-professional-instance.md)        |
+|Sales Team member app     | [Link](sales-team-member.md)         |
 
 ** The Sales Hub app installed from the Dynamics 365 Sales Embedded Package has the latest features and updates. The Sales App or Enterprise Edition Apps include legacy versions of the Sales Hub app. Even if they appear in your list of installed apps in Power Platform, the Sales Hub app installed with the Embedded Package takes precedence. In some environments, the legacy apps are hidden to avoid confusion.

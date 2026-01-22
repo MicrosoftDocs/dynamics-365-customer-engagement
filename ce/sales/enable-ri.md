@@ -1,6 +1,6 @@
 ---
 title: Enable and configure relationship intelligence
-description: Enable relationship intelligence in Dynamics 365 Sales Premium to provide relationship health and who knows whom information to your sellers.
+description: Enable relationship intelligence to provide relationship health and who knows whom information to your sellers.
 ms.date: 05/09/2025
 ms.topic: how-to
 author: lavanyakr01
@@ -12,11 +12,11 @@ ms.custom:
 ---
 # Enable relationship intelligence  
 
-Enable relationship intelligence in Dynamics 365 Sales Premium to give your sales team important insights based on their interactions with customers. Relationship analytics KPIs, customer relationship health scores to know which customers need attention, and who knows whom suggestions for introductions to leads help your sellers be more effective.
+Enable relationship intelligence to give your sales team important insights based on their interactions with customers. Relationship analytics KPIs, customer relationship health scores to know which customers need attention, and who knows whom suggestions for introductions to leads help your sellers be more effective.
 
 > [!NOTE]
->- [Basic relationship analytics](relationship-analytics-overview.md#basic-relationship-insights) is available out-of-the-box in all regions for Sales Enterprise users and doesn't require any setup.
->- [Enhanced relationship analytics](relationship-analytics-overview.md#enhanced-relationship-insights) is available for Sales Premium users and is available only in [specific regions](faq-region-language.md#in-which-countryregion-are-sales-premium-features-available).
+>- [Basic relationship analytics](relationship-analytics-overview.md#basic-relationship-insights) is available out-of-the-box in all regions for the Sales Hub users and doesn't require any setup.
+>- [Enhanced relationship analytics](relationship-analytics-overview.md#enhanced-relationship-insights) is a premium feature and is available only with a specific Dynamics 365 Sales license. Learn more about the licensing requirements in [Dynamics 365 Sales licensing guide](https://go.microsoft.com/fwlink/?linkid=2152923).
 
 > [!IMPORTANT]
 > This feature is intended to help sellers or sales managers enhance their team's performance. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with users. This also includes adequately notifying users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with users may be monitored, recorded, or stored.
@@ -56,7 +56,7 @@ Enable relationship intelligence in Dynamics 365 Sales Premium to give your sale
 
 ## Configure relationship analytics and health
 
-Configure relationship analytics to define parameters that would determine the customer relationship health. These configurations are only supported for Sales Premium customers.
+Configure relationship analytics to define parameters that would determine the customer relationship health. 
 
 1. Select **Analytics and health** under **Relationship insights** or select **Options** under **Who knows whom** on the **Get started with Relationship Intelligence** page.
 
