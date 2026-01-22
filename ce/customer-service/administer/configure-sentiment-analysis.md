@@ -49,7 +49,7 @@ You have the CSR Manager and System Administrator role to enable the feature.
 
 ## Enable email sentiment analysis
 
-In the Customer Service admin center or Contact Center admin center app, perform the following steps:
+In the Copilot Service admin center, perform the following steps:
 
 1. In the site map, navigate to **Copilot for questions and emails** in one of the following ways:
      - **Support experience** > **Productivity**
