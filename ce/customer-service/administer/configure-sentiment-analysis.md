@@ -22,7 +22,7 @@ The application displays sentiment intensity indicators based on the content and
 Email sentiment analysis supports multiple languages. Using the Microsoft Azure Text Translator API, emails written in more than 40 languages are automatically translated and scored for sentiment, enabling comprehensive coverage of global customer communications.
 
 > [!NOTE]
-> - Non-English conversations are translated to English, then scored.
+> - Non-English conversations are translated to English and then scored.
 > - Unsupported languages don't receive a sentiment score.
 > - If profanity is detected in English, the sentiment shows as Negative or Very negative.
 
