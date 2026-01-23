@@ -550,8 +550,8 @@ items:
       href: mixed-reality-guides-integration.md
     - name: SAP integration
       href: field-service-sap-integration.md
-    - name: Apps on AppSource
-      href: https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-for-field-services
+    - name: Apps on Marketplace
+      href: https://marketplace.microsoft.com/marketplace/apps?product=dynamics-365-for-field-services
     - name: Dynamics 365 US Government cloud
       href: /power-platform/admin/microsoft-dynamics-365-government
 
