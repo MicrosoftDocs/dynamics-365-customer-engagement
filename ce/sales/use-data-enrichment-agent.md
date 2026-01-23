@@ -31,7 +31,7 @@ If your admin has configured the agent for manual updates, you need to manually 
    - To accept or reject individual suggestions, hover over each suggestion and select the **Accept** icon (check mark) or the **Reject** icon (cross mark).
      > [!NOTE]
      >- If you reject a suggestion for an opportunity, Data Enrichment won't show that suggestion again for that opportunity record. There's no option to undo or recover rejected suggestions.
-     >- To view the changes you have accepted, select the **History** tab in the Data Enrichment pane. 
+     >- To view the changes you have accepted, select the **History** tab in the Data Enrichment pane. Learn more in [View change history](#view-change-history).
 
     The changes are applied to the opportunity record immediately after you accept the suggestions. If you aren't sure about a suggestion, you can leave it without taking any action. The suggestion remains in the pane until you accept or reject it.
 1. In the **Timeline** section of the opportunity record, look for **Untracked email** with the agent icon next to it. This indicates that Data Enrichment has found relevant emails that can be associated with the opportunity. Perform *ONE* of the following actions:
@@ -51,7 +51,7 @@ If your admin has configured Data Enrichment to automatically update fields in y
    - To accept or reject individual updates, hover over each suggestion and select the **Keep** icon (check mark) or the **Undo** icon (cross mark) respectively.
 
      > [!NOTE]
-     > If you undo an update, the change is tracked in the **History** tab along with the name of the user who reverted it.
+     > If you undo an update, the change is tracked in the **History** tab along with the name of the user who reverted it. Learn more in [View change history](#view-change-history).
 1. In the **Timeline** section of the opportunity record, look for emails with the agent icon. This indicates that Data Enrichment has associated relevant emails with the opportunity. If it's not relevant, select **Not relevant?** to remove the association.
 
 ## View change history
@@ -67,4 +67,4 @@ The information shown depends on how Data Enrichment is configured:
 
 1. Open your opportunity record in the Sales Hub app.
 1. Select **See suggestions** in the notification banner to open the **Data Enrichment** pane.
-1. Select the **History** tab to view the list of changes made to the opportunity record, along with the date and time of each change.
+1. Select the **History** tab to view the list of changes made to the opportunity record based on Data Enrichment suggestions. 

@@ -31,7 +31,7 @@ Ensure that you meet the following prerequisites:
 1. Select **Data Enrichment** from the list of available AI agents.
     A dialog box appears with the recommended default settings.
 1. Do *ONE* of the following:
-    - Review the default settings and select **Start agent** if you're satisfied with the defaults. The agent analyzes opportunity records and emails only after sellers provide consent to read their emails.
+    - Review the default settings and select **Start agent** if you're satisfied with the defaults. The agent analyzes opportunity records and emails only after sellers [provide consent](use-data-enrichment-agent.md#provide-consent-for-data-enrichment-to-read-your-emails) to read their emails.
     - Select **Edit in settings** to customize the configuration.
         - [Define the agent profile](#define-the-agent-profile)
         - [Select records for enrichment](#select-records-for-enrichment)
@@ -58,7 +58,7 @@ In the **Agent behavior** section, choose how Data Enrichment should handle upda
 
 After configuring the settings, select **Apply changes** and then **Start agent** to activate Data Enrichment with your specified configuration. The agent analyzes opportunity records and emails only after sellers provide consent to read their emails.
 
-## Fields excluded from enrichment by default
+## Fields excluded from enrichment
 
 The following fields are excluded from enrichment by default and cannot be modified:
 

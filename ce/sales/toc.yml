@@ -874,7 +874,7 @@ items:
         - name: AI-poweredData Enrichment (preview)
           items:
             - name: Overview
-              href: data-enrichment-agent.md
+              href: data-enrichment-agent-overview.md
             - name: Review and approve suggestions from Data Enrichment
               href: use-data-enrichment-agent.md
         - name: Sales Research Agent (preview)

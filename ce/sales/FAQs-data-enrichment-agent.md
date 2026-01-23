@@ -17,6 +17,9 @@ search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
+# Responsible AI FAQ about AI-powered data enrichment for opportunities
+
+These frequently asked questions help you understand the effect of AI on the AI-powered data enrichment feature in Dynamics 365 Sales.
 
 ## What is AI-powered data enrichment?
 
