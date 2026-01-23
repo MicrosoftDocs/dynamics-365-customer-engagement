@@ -310,6 +310,8 @@
         href: add-recipient-control.md
       - name: Configure a default signature template for a queue
         href: add-signature-template-queue.md
+      - name: Configure sentiment analysis for emails (preview)
+        href: configure-sentiment-analysis.md
       - name: Email FAQ and known issues
         href: /power-apps/user/activities-known-issues?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
     - name: Inbox
