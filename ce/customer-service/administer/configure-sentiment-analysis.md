@@ -1,7 +1,7 @@
 ---
 title:  Configure sentiment analysis for emails (preview)
 description: Learn how to configure sentiment for emails in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 01/20/2026
+ms.date: 01/23/2026
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -15,7 +15,7 @@ ms.custom: bap-template
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 
-Email sentiment analysis enables agents and supervisors to understand customer emotions and attitudes expressed in email communications, both in real-time and historically, to improve customer service response strategies. The application uses natural language processing (NLP) and machine learning (ML) algorithms to automatically analyze the emotional tone and sentiment expressed in customer emails.
+Email sentiment analysis enables customer service representatives and supervisors to understand customer emotions and attitudes expressed in email communications, both in real-time and historically, to improve customer service response strategies. The application uses natural language processing (NLP) and machine learning (ML) algorithms to automatically analyze the emotional tone and sentiment expressed in customer emails.
 
 The application displays sentiment intensity indicators based on the content and tone of incoming customer emails. Email sentiment intensity is measured across seven levels, three positive, three negative, and one neutral, providing detailed insight into customer emotional states.
 
