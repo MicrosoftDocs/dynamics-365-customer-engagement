@@ -79,7 +79,7 @@ A sample FetchXML is as follows.
 1. Fill the FetchXML query in each of the settings and validate.
 1. Save the changes.
 
-   :::image type="content" source="../media/consult-transfer-fetchXML.png" alt-text="A screenshot of the FetchXML to restrict representatives during consult and transfer scenarios.":::
+   :::image type="content" source="../media/consult-transfer-fetchXML.png" alt-text="A screenshot of the FetchXMLs to restrict representatives during consult and transfer scenarios.":::
 
 ### Configure custom inbox view
 
