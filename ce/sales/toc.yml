@@ -234,6 +234,14 @@ items:
                   href: view-sales-close-agent-engage-processed-records.md  
                 - name: How the agent works
                   href: how-sales-close-agent-engage-mode-works.md
+          - name: Data Enrichment Agent
+            items:
+              - name: Overview
+                href: data-enrichment-agent-overview.md
+              - name: Set up and configure Data Enrichment
+                href: data-enrichment-agent-configure.md
+              - name: Data Enrichment FAQ
+                href: data-enrichment-agent-faqs.md
           - name: Sales Research Agent (preview)
             items:
               - name: Overview
@@ -863,6 +871,12 @@ items:
                 href: view-sales-close-agent-engage-processed-records.md  
               - name: How the Sales Close Agent - Engage works
                 href: how-sales-close-agent-engage-mode-works.md
+        - name: Data Enrichment (preview)
+          items:
+            - name: Overview
+              href: data-enrichment-agent.md
+            - name: Review and approve suggestions from Data Enrichment
+              href: use-data-enrichment-agent.md
         - name: Sales Research Agent (preview)
           items:
             - name: Overview
@@ -1509,6 +1523,8 @@ items:
             href: faqs-about-opportunity-research.md
           - name: Sales Close Agent - Engage FAQ
             href: faqs-about-sales-close-agent-engage.md  
+      - name: Responsible AI FAQs about Data Enrichment
+        href: faqs-data-enrichment-agent.md
       - name: Responsible AI FAQs about Sales Research Agent
         href: faqs-about-sales-research-agent.md
       - name: Responsible AI FAQs about chat with Sales data in Microsoft 365 Copilot (preview)
