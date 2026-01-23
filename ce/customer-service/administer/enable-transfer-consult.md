@@ -1,6 +1,6 @@
 ---
 title: Enable consult and transfer settings for representatives
-description: Learn about how to enable the consult and transfer settings for conversations so that representatives can efficiently select a supervisor or another representative to consult with or transfer the conversation in Dynamics 365 Contact Center and Customer Service.
+description: Learn how to enable consult and transfer settings so that representatives can select a supervisor or another representative to consult with or transfer conversations in Dynamics 365 Contact Center and Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -25,13 +25,13 @@ System administrator or Omnichannel administrator role.
 
 ## Enable consult and transfer settings
 
-You can enable the settings in Copilot Service admin center under **Channels** > **Consult and transfer** page.
+You can enable the settings in Copilot Service admin center under **Channels** > **Consult and transfer**.
 
 ### Enable consult to queue
 
 1. Turn on the toggle for **Consult to queue**.
 
-1. Enter countdown numbers for voice and messaging channels to indicate the time the system spends to find representatives to consult with.
+1. Enter countdown numbers for voice and messaging channels to specify how long the system searches for representatives to consult with.
 
    :::image type="content" source="../media/consult-to-queue-settings.png" alt-text="Screenshot of consult to queue setting in admin center.":::
 
@@ -39,7 +39,7 @@ You can enable the settings in Copilot Service admin center under **Channels** >
 
 ### Enable blocking of capacity during consult
 
-By default, representative capacity is blocked for consult to queue sessions. But you need to explicitly block representative capacity for direct consult session.
+By default, representative capacity is blocked for consult to queue sessions. For direct consult sessions, you must explicitly enable capacity blocking..
 
 - On the **Consult and transfer** page, select the checkbox to block capacity of the representatives when they engage in a consultation using the consult with representatives option on the communication panel.
 
