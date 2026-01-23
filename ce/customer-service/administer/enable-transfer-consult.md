@@ -1,6 +1,6 @@
 ---
 title: Enable consult and transfer settings for representatives
-description: Learn how to enable consult and transfer settings so that representatives can select a supervisor or another representative to consult with or transfer conversations in Dynamics 365 Contact Center and Customer Service.
+description: Learn how to enable consult and transfer settings so representatives can consult with a supervisor or transfer conversations in Dynamics 365 Contact Center and Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -39,7 +39,7 @@ You can enable the settings in Copilot Service admin center under **Channels** >
 
 ### Enable blocking of capacity during consult
 
-By default, representative capacity is blocked for consult to queue sessions. For direct consult sessions, you must explicitly enable capacity blocking..
+By default, representative capacity is blocked for consult to queue sessions. For direct consult sessions, you must explicitly enable capacity blocking.
 
 - On the **Consult and transfer** page, select the checkbox to block capacity of the representatives when they engage in a consultation using the consult with representatives option on the communication panel.
 
@@ -86,7 +86,7 @@ A sample FetchXML is as follows.
 Representatives can configure the inbox to show their consult sessions. The inbox view helps representatives rejoin the consulted sessions and leave the consultation to release their capacity.
 
 1. Create a view by using the **Advanced** option in [Configure custom views for the inbox](configure-inbox.md#configure-custom-views-for-the-inbox).
-1. Use the conditions shown in the following screenshot to configure the view.
+1. To configure the view, use the conditions shown in the following screenshot.
 
    :::image type="content" source="../media/configure-consult-inbox-view.png" alt-text="Screenshot of the conditions builder to view consult sessions in inbox.":::
 
@@ -98,8 +98,8 @@ Similarly, when you enable the direct transfer setting, the **Representatives** 
 
 The representative capacity is released in the following scenarios:
 
-- If the primary representative ends the call or conversation and closes their session.
-- If the primary representative ends the consult.
+- The primary representative ends the call or conversation and closes their session.
+- The primary representative ends the consult.
 
 ## Related information
 
