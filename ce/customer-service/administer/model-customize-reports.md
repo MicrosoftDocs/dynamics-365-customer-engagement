@@ -195,15 +195,16 @@ In case you change the report name, perform the steps provided in [Step 4: Embed
 
 ## Monitor capacity and performance
 
+Monitoring capacity and performance gives you a complete picture of how well your custom semantic models and reports scale, perform, and function under load.
 
-**Microsoft Fabric Capacity Metrics app**
+### Monitor capacity with Microsoft Fabric Capacity Metrics app
 
 > [!NOTE]
 > When you [install the Microsoft Fabric Capacity Metrics app](/fabric/enterprise/metrics-app-install?tabs=1st), it creates a workspace in your Microsoft Fabric tenant. To share the report, you must be a capacity admin. Learn  more in [Share the Fabric Capacity Metrics report](/fabric/enterprise/metrics-app#share-the-fabric-capacity-metrics-report).
 
-The [Microsoft Fabric Capacity Metrics app](/fabric/enterprise/metrics-app) shows how customized data models and reports consume shared capacity in Microsoft Fabric. It shows capacity‑unit usage so teams can see whether complex measures, semantic model changes, or high query volumes are driving compute demand. Views like [Compute](/fabric/enterprise/metrics-app-compute-page), [Timepoint](/fabric/enterprise/metrics-app-timepoint-page), and [Item Detail](/fabric/enterprise/metrics-app-timepoint-item-detail-page), help correlate data model customizations with throttling, overloads, or autoscale events. This makes it easier to validate whether custom report designs scale effectively and when to resize or autoscale capacity.  Overall, the app links data model design choices to capacity health, enabling proactive optimization before performance or costs are affected. 
+The [Microsoft Fabric Capacity Metrics app](/fabric/enterprise/metrics-app) shows how customized data models and reports consume shared capacity in Microsoft Fabric. It shows capacity‑unit usage so teams can see whether complex measures, semantic model changes, or high query volumes are driving compute demand. Views like [Compute](/fabric/enterprise/metrics-app-compute-page), [Timepoint](/fabric/enterprise/metrics-app-timepoint-page), and [Item Detail](/fabric/enterprise/metrics-app-timepoint-item-detail-page), help correlate data model customizations with throttling, overloads, or autoscale events. This makes it easier to validate whether custom report designs scale effectively and when to resize or autoscale capacity. Overall, the app links data model design choices to capacity health, enabling proactive optimization before performance or costs are affected. 
 
-**Performance Analyzer**
+### Monitor performance with Performance Analyzer
 
 Use [Performance Analyzer](/power-bi/create-reports/performance-analyzer#use-performance-analyzer) to measure how customized Power BI reports perform by showing how long each visual takes to load and breaking that time into DAX queries, DirectQuery calls, visual rendering, and other processing. It’s especially useful for custom models because it reveals the impact of complex measures, relationships, and storage modes. You can copy a visual’s DAX query to DAX Query View to inspect how your model logic is translated. By capturing performance during real interactions like applying slicers or filters and exporting logs after refreshes, teams can verify whether model simplifications and optimizations lead to measurable performance gains.
 
