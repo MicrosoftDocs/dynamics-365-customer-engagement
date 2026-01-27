@@ -115,7 +115,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
             > ![Pricing information tab on the price list form.](media/pricing-information-tab-price-list-item-form.png "Pricing information tab on the price list form")
 
  
-7.  (Optional) Associate default price lists for territories so that the sales reps working with accounts and contacts in certain territories have the price list selected by default. Territories are only available for specific Dynamics 365 Sales licenses. For more information, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).  
+7.  (Optional) Associate default price lists for territories so that the sales reps working with accounts and contacts in certain territories have the price list selected by default. Territory management is supported only with specific Dynamics 365 Sales licenses. For more information, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).  
 
     a.  In the price list record, select the **Territory Relationship** tab.
 

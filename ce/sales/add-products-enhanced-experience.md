@@ -28,7 +28,7 @@ As a salesperson, you want to be able to easily identify and add products from t
 
 - See matching products as you enter text in the search field.
 
-- Pick products from the categorized list of product families.
+- (Sales Hub only) Pick products from the categorized list of product families.
 
 - See the most recently used list of products while you add multiple products.
 
@@ -44,7 +44,7 @@ As a salesperson, you want to be able to easily identify and add products from t
 
 ## Add products to an opportunity
 
-1. In the Sales Hub site map, select **Opportunities**.
+1. In your Sales app, select **Opportunities**.
 
 2. Open the opportunity to which you want to add products.
 

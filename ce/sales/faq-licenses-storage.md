@@ -1,7 +1,7 @@
 ---
 title: Licenses and storage FAQs
 description: Discover answers to common questions about licenses and storage.
-ms.date: 11/25/2025
+ms.date: 01/27/2026
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
@@ -35,7 +35,7 @@ To assign licenses to users, see [Assign licenses to users](/microsoft-365/admin
 
 ## FAQs about Copilot credits bundled with specific Dynamics 365 Sales licenses
 
-Copilot Studio credits are included with Dynamics 365 licenses to enable AI-powered features. Learn more about the licenses that include Copilot Studio credits in the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409), under the "Copilot Credit Entitlements" section. 
+Copilot Studio credits are included with specific Dynamics 365 licenses to enable AI-powered features. Learn more about the licenses that include Copilot Studio credits in the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409), under the "Copilot Credit Entitlements" section. 
 
 ### What are Copilot Studio credits?
 
@@ -43,7 +43,7 @@ Copilot Studio credits are a type of capacity that allows users to utilize AI-po
 
 ### How many Copilot Studio credits do I get and how often are they allocated?
 
-Each user receives a monthly allocation of Copilot Studio credits to utilize these AI features. These credits aren't cumulative and reset each month. For information on the specific number of credits included with your license, refer to the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
+Each user receives a monthly allocation of Copilot Studio credits to utilize these AI features. These credits aren't cumulative and are reset each month. For information on the specific number of credits included with your license, refer to the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
 
 You will be notified in advance when the initial credits are allocated to your tenant. There will be no disruption to your service during this process.
 
@@ -87,6 +87,6 @@ The environment is disabled, users won't be able to access it, and the data will
 
 System and application users update certain entities with insights about the records. For example, lead and opportunity entities are updated by the application users to add predictive scores. Similarly, contact, opportunity, lead, and account entities are updated with relationship KPIs and analytics. More information: [Which users can push data from Dynamics 365 Sales to Dataverse?](#which-users-can-push-data-from-dynamics-365-sales-to-dataverse)
 
-## Where can I find the Sales Professional and Sales Insights documentation?
+## Where can I find the Sales Professional documentation?
 
-We've merged the documentation for Sales Enterprise, Sales Professional, and Sales Insights into this unified Sales documentation. The license and role requirements section at the top of every article indicates whether the content applies to the license you have. Any bookmarks you have should automatically redirect to the corresponding pages in the new unified documentation.
+We've merged the documentation for all Dynamics 365 Sales apps into this documentation site. Instructions specific to Sales Professional are indicated in the content where applicable. 
