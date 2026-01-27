@@ -14,7 +14,7 @@ Premium forecasting helps sellers and managers improve their forecast accuracy b
 
 >[!IMPORTANT]
 >- Premium forecasting is not available on Government Community Cloud (GCC), France, and India.
->- Premium forecasting is available only with a specific set of Dynamics 365 Sales licenses. For more information, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
+>- Premium forecasting is available only with a specific Dynamics 365 Sales licenses. For more information, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
 
 ## Features available in premium forecasting
 
