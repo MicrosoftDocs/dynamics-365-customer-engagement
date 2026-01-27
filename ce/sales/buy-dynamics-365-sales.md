@@ -5,12 +5,21 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: concept-article
-ms.date: 11/05/2025
+ms.date: 01/20/2026
 ---
 
 # Buy Dynamics 365 Sales
 
-Dynamics 365 Sales is available through different licenses to meet the needs of various types of sales organizations. Learn more about the different licenses and features included with each license in the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
+You can buy one of the following licenses depending on your organization's needs:
+
+- Sales Professional
+- Sales Enterprise
+- Sales Premium  
+- Microsoft Relationship Sales (Sales Enterprise + LinkedIn Sales Navigator Enterprise)
+
+> [!NOTE]
+> Sales Enterprise, Sales Premium, and Microsoft Relationship Sales licenses include the basic features of Sales in Microsoft 365 Copilot. To use the premium features, you must buy the [Microsoft 365 Copilot license](https://www.microsoft.com/en-in/microsoft-365-copilot/enterprise?rtc=1#featuresandpricing).
+
 
 ## Before you buy
 
