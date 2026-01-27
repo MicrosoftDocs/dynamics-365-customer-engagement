@@ -46,13 +46,23 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/sales-qualification-agent-custom-research-topics.md",
+      "redirect_url": "/dynamics365/sales/define-custom-research-topics",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/sales-ai-agents-faqs.md",
       "redirect_url": "/dynamics365/sales/ai-agent-overview",
       "redirect_document_id": "false"
     },
-        {
+   {
       "source_path": "ce/sales/sales-qualification-agent-competitor-insights.md",
       "redirect_url": "/dynamics365/sales/configure-sqa-knowledge-source#configure-competitor-insights",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/copilot-preview-features.md",
+      "redirect_url": "/dynamics365/sales/sales-qualification-agent",
       "redirect_document_id": "false"
     },
     {
@@ -6772,7 +6782,7 @@
     },
     {
       "source_path": "ce/insights-insideview/insights-powered-by-insideview.md",
-      "redirect_url": "https://appsource.microsoft.com/en-us/product/dynamics-365/insideviewinc.b5386882-4312-4d69-879a-23081897c012?tab=Overview",
+      "redirect_url": "https://marketplace.microsoft.com/en-us/product/dynamics-365/insideviewinc.b5386882-4312-4d69-879a-23081897c012?tab=Overview",
       "redirect_document_id": "false"
     },
     {
@@ -35892,6 +35902,11 @@
     },
     {"source_path": "ce/customer-service/use/case-topics-dashboard-cs.md",
       "redirect_url": "/previous-versions/dynamics365/customer-service/use/case-topics-dashboard-cs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/create-simple-selection-rule.md",
+      "redirect_url": "/dynamics365/customer-service/administer/create-simple-selection-rule",
       "redirect_document_id": false
     }    
   ]

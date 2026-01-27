@@ -22,7 +22,7 @@ This article provides information about the differences between Basic and Enhanc
 
 ## Know the difference
 
-Before you can start using the collaboration experience, it needs to be turned on in your customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation). 
+Before you can start using the collaboration experience, it needs to be turned on in your customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Customer Insights - Journeys, and Dynamics 365 Project Service Automation). 
 
 
 Enable Basic Collaboration Experience to share documents between a connected Microsoft Teams channel and your customer engagement apps record. To learn how to turn on Basic or Enhanced collaboration, see [Enable linking of Dynamics 365 records to Teams channels](enable-record-linking.md).

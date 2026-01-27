@@ -1,6 +1,6 @@
 ---
-title: "Publish your app on AppSource (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "Learn about how to publish your Dynamics 365 Customer Engagement app on Microsoft AppSource so that subscribers can find it, try it, and buy it."
+title: "Publish your app on Marketplace (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: "Learn about how to publish your Dynamics 365 Customer Engagement app on Microsoft Marketplace so that subscribers can find it, try it, and buy it."
 ms.custom: 
 ms.reviewer: pehecke
 
@@ -16,15 +16,15 @@ search.audienceType:
   - developer
 
 ---
-# Publish your app on AppSource
+# Publish your app on Marketplace
 
-[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Publish your app on AppSource](/powerapps/developer/common-data-service/publish-app-appsource).
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Publish your app on Marketplace](/powerapps/developer/common-data-service/publish-app-appsource).
 
-Publish your app on [Microsoft AppSource](https://appsource.microsoft.com) so that [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] subscribers can find it, try it, and buy it.
+Publish your app on [Microsoft Marketplace](https://marketplace.microsoft.com) so that [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] subscribers can find it, try it, and buy it.
 
 [!INCLUDE[cc-cdsnote-1](./includes/cc-cdsnote-1.md)] 
 
-Instructions about publishing your apps is available in the Power Apps documentation: [Publish your app on AppSource](/powerapps/developer/common-data-service/publish-app-appsource) 
+Instructions about publishing your apps is available in the Power Apps documentation: [Publish your app on Marketplace](/powerapps/developer/common-data-service/publish-app-appsource) 
 
 ### See also
 [What is Power Apps?](/powerapps/powerapps-overview)<br/>
