@@ -26,7 +26,7 @@ Review the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkI
 
 ## Which out-of-the-box sales apps can I use?
 
-Depending on your license type, you can use either use the Sales Hub app or the Sales Professional app. You must not use the app that isn't included in your license, even if it's visible in your environment. Learn more about the licensing requirements in [Dynamics 365 Sales licensing guide](https://go.microsoft.com/fwlink/?linkid=2152923).
+Depending on your license type, you can use either use the Sales Hub app or the Sales Professional app. You must not use the app that isn't included in your license, even if it's visible in your environment. Learn more about the licensing requirements in [Dynamics 365 Sales licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
 
 ## How can I assign licenses to users?  
 
@@ -61,7 +61,7 @@ Allocate the credits to the Dynamics 365 Sales environment that your sales team 
 
 ## Can I use the Sales Hub app irrespective of my license type?
 
-No, the Sales Hub app and Sales Professional app are licensed separately. Based on your license type, you can use only one of these apps, even if both apps are visible in your environment. Learn more about the licensing requirements for the apps in [Dynamics 365 Sales licensing guide](https://go.microsoft.com/fwlink/?linkid=2152923).
+No, the Sales Hub app and Sales Professional app are licensed separately. Based on your license type, you can use only one of these apps, even if both apps are visible in your environment. Learn more about the licensing requirements for the apps in [Dynamics 365 Sales licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
 
 ## After I installed Sales Insights, I see a spike in the data usage. How much storage data does Sales Insights need?  
 
