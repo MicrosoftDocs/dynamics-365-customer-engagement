@@ -82,7 +82,7 @@ For more information about the Copilot for Sales licensing options for Dynamics 
 
 ## Compare solutions
 
-To compare the capabilities available in each solution, refer to the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?linkid=866029).
+To compare the capabilities available in each solution, refer to the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
 
 ## How Dynamics 365 helps transform your sales organization
 
