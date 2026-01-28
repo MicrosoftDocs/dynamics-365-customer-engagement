@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 01/27/2026
+ms.date: 01/28/2026
 ms.custom:
   - bap-template
   - dyn365-customerservice
@@ -167,7 +167,7 @@ After your report authors create and publish the customized reports, you can all
 
 The dropdown list is populated with the reports in the workspace configured on Step 1. The preferred report name appears for your Dynamics users when they access the reports. You can add a maximum of 40 reports.
 
-The customized reports site map in the Copilot service workspace is shared between historical and real-time data model customization features. You can reorder the reports on both historical and real time admin pages. For both historical and real time, you can modify or delete reports added from the respective historical and real-time data model customization pages only.
+The customized reports site map in the Copilot service workspace is shared between historical and real-time data model customization features. You can reorder the reports on both historical and real-time admin pages. For both historical and real time, you can modify or delete reports added from the respective historical and real-time data model customization pages only.
 
 > [!NOTE]
 > For custom reports that you deploy in Copilot Service workspace, manually update the semantic data model to get the updates, then refresh and redeploy the custom reports. 
@@ -202,11 +202,13 @@ Monitoring capacity and performance gives you a complete picture of how well you
 > [!NOTE]
 > When you [install the Microsoft Fabric Capacity Metrics app](/fabric/enterprise/metrics-app-install?tabs=1st), it creates a workspace in your Microsoft Fabric tenant. To share the report, you must be a capacity admin. Learn  more in [Share the Fabric Capacity Metrics report](/fabric/enterprise/metrics-app#share-the-fabric-capacity-metrics-report).
 
-The [Microsoft Fabric Capacity Metrics app](/fabric/enterprise/metrics-app) shows how customized data models and reports consume shared capacity in Microsoft Fabric. It shows capacity‑unit usage so teams can see whether complex measures, semantic model changes, or high query volumes are driving compute demand. Views like [Compute](/fabric/enterprise/metrics-app-compute-page), [Timepoint](/fabric/enterprise/metrics-app-timepoint-page), and [Item Detail](/fabric/enterprise/metrics-app-timepoint-item-detail-page), help correlate data model customizations with throttling, overloads, or autoscale events. This makes it easier to validate whether custom report designs scale effectively and when to resize or autoscale capacity. Overall, the app links data model design choices to capacity health, enabling proactive optimization before performance or costs are affected. 
+The [Microsoft Fabric Capacity Metrics app](/fabric/enterprise/metrics-app) shows how customized data models and reports consume shared capacity in Microsoft Fabric. It shows capacity‑unit usage so teams can see whether complex measures, semantic model changes, or high query volumes are driving compute demand. 
+
+Views like [Compute](/fabric/enterprise/metrics-app-compute-page), [Timepoint](/fabric/enterprise/metrics-app-timepoint-page), and [Item Detail](/fabric/enterprise/metrics-app-timepoint-item-detail-page), help correlate data model customizations with throttling, overloads, or autoscale events. This makes it easier to validate whether custom report designs scale effectively and when to resize or autoscale capacity. Overall, the app links data model design choices to capacity health, enabling proactive optimization before performance or costs are affected. 
 
 ### Monitor performance with Performance Analyzer
 
-Use [Performance Analyzer](/power-bi/create-reports/performance-analyzer#use-performance-analyzer) to measure how customized Power BI reports perform by showing how long each visual takes to load and breaking that time into DAX queries, DirectQuery calls, visual rendering, and other processing. It’s especially useful for custom models because it reveals the impact of complex measures, relationships, and storage modes. You can copy a visual’s DAX query to DAX Query View to inspect how your model logic is translated. By capturing performance during real interactions like applying slicers or filters and exporting logs after refreshes, teams can verify whether model simplifications and optimizations lead to measurable performance gains.
+Use [Performance Analyzer](/power-bi/create-reports/performance-analyzer#use-performance-analyzer) to measure how long each visual in your report takes to load and how that time is split across DAX queries, DirectQuery calls, visual rendering, and other steps. This information is especially useful for customized semantic models because it helps identify the impact of complex measures, relationships, and storage modes. You can copy a visual’s DAX query to DAX Query View to inspect how your model logic is translated. By capturing performance during real interactions like applying slicers or filters and exporting logs after refreshes, teams can validate whether model simplifications and optimizations result in measurable performance improvements.
 
 ## View customized reports
 
@@ -229,6 +231,14 @@ If you customized the Copilot Service workspace app, you must complete the follo
    - **Client**: **Web**
    - **Outlook shortcut**: **Pass parameters** and **Offline availability**
 1. Select **Save** and then select **Publish**.
+
+### Use report metric details 
+
+Learn more about the metrics in your reports in: 
+
+- [Calculate conversation metrics](../develop/calculate-conversation-metrics.md)
+- [Calculate session metrics](../develop/calculate-session-metrics.md)
+- [Calculate customer service representative metrics](../develop/calculate-representative-metrics.md)
 
 ### Related information
 
