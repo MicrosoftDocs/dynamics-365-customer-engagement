@@ -1,5 +1,5 @@
 ---
-title: Manage opportunities with next best actions (preview)
+title: Manage opportunities with action cards (preview)
 description: Learn how action cards are created and shown in the carousel to help sellers address opportunity risks. 
 ms.date: 02/06/2026
 ms.topic: overview
@@ -12,11 +12,11 @@ ms.reviewer: udag
 ai-usage: ai-assisted
 ---
 
-# Manage opportunities with next best actions (preview)
+# Manage opportunities with action cards (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Learn how to create action cards and show them in the carousel to help sellers address opportunity risks. Understand how to prioritize the cards and link them to a detailed insights page.  
+Learn how action cards are created and shown in the carousel to help sellers address opportunity risks. Understand how the cards are prioritized, displayed in the carousel, and .  
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]  
 
