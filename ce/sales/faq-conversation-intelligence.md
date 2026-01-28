@@ -16,11 +16,13 @@ ms.custom:
 
 # Conversation intelligence FAQs
 
-This article answers frequently asked questions about conversation intelligence in Dynamics 365 Sales and Sales premium.
+This article answers frequently asked questions about conversation intelligence in Dynamics 365 Sales.
 
 ## Which Conversation intelligence features are available in Dynamics 365 Sales versus Sales in Microsoft 365 Copilot?
 
-|Feature  | Sales in Microsoft 365 Copilot  |Sales Enterprise / Sales Premium  |
+Conversation intelligence features are available only with certain Dynamics 365 Sales licenses. For more information, refer to the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).
+
+|Feature  | Sales in Microsoft 365 Copilot    |Dynamics 365 Sales  |
 |---------|---------|---------|
 | **Call processing**   |    |    |
 |Conversation intelligence for phone calls from Teams (Inbound / Outbound)     |  No       | Yes, unlimited access to conversation intelligence  |
