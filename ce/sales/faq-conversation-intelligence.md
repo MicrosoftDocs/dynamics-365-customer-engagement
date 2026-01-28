@@ -20,7 +20,7 @@ This article answers frequently asked questions about conversation intelligence 
 
 ## Which Conversation intelligence features are available in Dynamics 365 Sales versus Sales in Microsoft 365 Copilot?
 
-Conversation intelligence features are available only with certain Dynamics 365 Sales licenses. For more information, refer to the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
+Conversation intelligence features are available only with certain Dynamics 365 Sales licenses. For more information, refer to the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 |Feature  | Sales in Microsoft 365 Copilot    |Dynamics 365 Sales  |
 |---------|---------|---------|

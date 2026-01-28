@@ -25,7 +25,7 @@ You can buy one of the following licenses depending on your organization's needs
 
 - Review the features included with each of the licenses and identify the one that best meets your needs. More information: [Choose the offering that fits your needs](overview.md#choose-the-offering-that-fits-your-needs)
 
-- Review the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409) to:
+- Review the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544) to:
     - Identify the number of users you need to license. Dynamics 365 Sales is typically used by sales people who connect with customers to manage their engagements. Account teams, business development executives, internal and external sales staff along with sales managers and operations are all great candidates for using the application.  
     - Identify the number of [team member licenses](/dynamics365/get-started/team-members-license) you'd need for your sales support staff.  
 

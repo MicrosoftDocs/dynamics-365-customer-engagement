@@ -10,7 +10,7 @@ ms.reviewer: lavanyakr
 
 # Install the Sales Professional app
 
-The Sales Professional app is a streamlined version of Dynamics 365 Sales, designed for small and medium-sized businesses that need essential sales force automation capabilities without the complexity of the full Dynamics 365 Sales application. This app is only supported with a specific Dynamics 365 Sales license. Learn more about licensing requirements in [Dynamics 365 Sales licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
+The Sales Professional app is a streamlined version of Dynamics 365 Sales, designed for small and medium-sized businesses that need essential sales force automation capabilities without the complexity of the full Dynamics 365 Sales application. This app is only supported with a specific Dynamics 365 Sales license. Learn more about licensing requirements in [Dynamics 365 Sales licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 - If you have a Power Platform environment, [install the Sales Professional app](#install-sales-professional-app-in-an-existing-power-platform-environment) directly.
 - If you don't have a Power Platform environment already, [create one and install the Sales Professional app](#create-a-power-platform-environment-for-sales-professional).

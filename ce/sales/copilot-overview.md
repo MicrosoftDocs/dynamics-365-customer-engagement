@@ -26,7 +26,7 @@ Sales is also available as an app in Outlook and in Teams. By using it, sellers 
 
 ## Licensing requirements
 
-Learn more about the licensing requirements for Copilot in Dynamics 365 Sales, Outlook, and Teams in the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409) and [view the comparison table](https://www.microsoft.com/dynamics-365/products/sales/pricing?market=af#comparison-table) to compare features across different licensing plans.
+Learn more about the licensing requirements for Copilot in Dynamics 365 Sales, Outlook, and Teams in the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544) and [view the comparison table](https://www.microsoft.com/dynamics-365/products/sales/pricing?market=af#comparison-table) to compare features across different licensing plans.
 
 ## Data security and privacy
 

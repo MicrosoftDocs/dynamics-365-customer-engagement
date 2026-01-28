@@ -51,7 +51,7 @@ The following screenshot illustrates the relationship analytics widgets that are
 
 ## Enhanced relationship insights
 
-Enhanced relationship insights are available with a specific Dynamics 365 Sales license and requires your administrator to enable and configure relationship intelligence.If your administrator has configured server-side synchronization, then insights are generated based on emails and meetings information in Dynamics 365 and emails in Microsoft Exchange.  More information: [Enable relationship intelligence](enable-ri.md). Learn more about the license required to access enhanced relationship insights in [Dynamics 365 Sales licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
+Enhanced relationship insights are available with a specific Dynamics 365 Sales license and requires your administrator to enable and configure relationship intelligence.If your administrator has configured server-side synchronization, then insights are generated based on emails and meetings information in Dynamics 365 and emails in Microsoft Exchange.  More information: [Enable relationship intelligence](enable-ri.md). Learn more about the license required to access enhanced relationship insights in [Dynamics 365 Sales licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 
 For information on how to view the insights, see [View analytics and KPIs for a record](relationship-analytics.md#view-analytics-and-kpis-for-an-individual-lead-account-contact-or-opportunity).

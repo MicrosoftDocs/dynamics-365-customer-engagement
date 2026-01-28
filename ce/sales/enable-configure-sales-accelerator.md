@@ -37,7 +37,7 @@ For the best experience of the sales accelerator, enable and configure [predicti
 Enable the sales accelerator by quickly providing access to security roles and selecting the record types to be shown in the work list.
 
 >[!NOTE]
->By default, sales accelerator is available in the Sales Hub app with limited functionalities. Your Sales teams can view the work list items created through timeline for contact, opportunity, lead, and account records. To experience the full capabilities of sales accelerator, upgrade your Dynamics 365 Sales license and configure the features such as sequences and segments. Learn more about [Dynamics 365 Sales licensing options](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
+>By default, sales accelerator is available in the Sales Hub app with limited functionalities. Your Sales teams can view the work list items created through timeline for contact, opportunity, lead, and account records. To experience the full capabilities of sales accelerator, upgrade your Dynamics 365 Sales license and configure the features such as sequences and segments. Learn more about [Dynamics 365 Sales licensing options](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.
 1. Under **Sales accelerator**, select **Workspace**.  

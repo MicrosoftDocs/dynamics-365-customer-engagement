@@ -22,11 +22,11 @@ This article answers frequently asked questions about licenses and storage in Dy
 <a name="license-compliance"></a>
 ## How to ensure an organization is compliant with the Dynamics 365 licensing terms and conditions?
 
-Review the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409) to ensure that you have the appropriate licenses for all the Dynamics 365 features and functionalities that you're using.
+Review the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544) to ensure that you have the appropriate licenses for all the Dynamics 365 features and functionalities that you're using.
 
 ## Which out-of-the-box sales apps can I use?
 
-Depending on your license type, you can use either use the Sales Hub app or the Sales Professional app. You must not use the app that isn't included in your license, even if it's visible in your environment. Learn more about the licensing requirements in [Dynamics 365 Sales licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
+Depending on your license type, you can use either use the Sales Hub app or the Sales Professional app. You must not use the app that isn't included in your license, even if it's visible in your environment. Learn more about the licensing requirements in [Dynamics 365 Sales licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 ## How can I assign licenses to users?  
 
@@ -35,7 +35,7 @@ To assign licenses to users, see [Assign licenses to users](/microsoft-365/admin
 
 ## FAQs about Copilot credits bundled with specific Dynamics 365 Sales licenses
 
-Copilot Studio credits are included with specific Dynamics 365 licenses to enable AI-powered features. Learn more about the licenses that include Copilot Studio credits in the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409), under the "Copilot Credit Entitlements" section. 
+Copilot Studio credits are included with specific Dynamics 365 licenses to enable AI-powered features. Learn more about the licenses that include Copilot Studio credits in the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544), under the "Copilot Credit Entitlements" section. 
 
 ### What are Copilot Studio credits?
 
@@ -43,7 +43,7 @@ Copilot Studio credits are a type of capacity that allows users to utilize AI-po
 
 ### How many Copilot Studio credits do I get and how often are they allocated?
 
-Each user receives a monthly allocation of Copilot Studio credits to utilize these AI features. These credits aren't cumulative and are reset each month. For information on the specific number of credits included with your license, refer to the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
+Each user receives a monthly allocation of Copilot Studio credits to utilize these AI features. These credits aren't cumulative and are reset each month. For information on the specific number of credits included with your license, refer to the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 You will be notified in advance when the initial credits are allocated to your tenant. There will be no disruption to your service during this process.
 
@@ -61,7 +61,7 @@ Allocate the credits to the Dynamics 365 Sales environment that your sales team 
 
 ## Can I use the Sales Hub app irrespective of my license type?
 
-No, the Sales Hub app and Sales Professional app are licensed separately. Based on your license type, you can use only one of these apps, even if both apps are visible in your environment. Learn more about the licensing requirements for the apps in [Dynamics 365 Sales licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
+No, the Sales Hub app and Sales Professional app are licensed separately. Based on your license type, you can use only one of these apps, even if both apps are visible in your environment. Learn more about the licensing requirements for the apps in [Dynamics 365 Sales licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 ## After I installed Sales Insights, I see a spike in the data usage. How much storage data does Sales Insights need?  
 

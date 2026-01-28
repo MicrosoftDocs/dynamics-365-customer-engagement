@@ -27,7 +27,7 @@ This integration lets your sellers make and receive Twilio Flex calls from Dynam
 
 - A Twilio Flex account – see this [link](https://support.twilio.com/hc/en-us/articles/360020442333-Setup-a-Twilio-Flex-Project?_ga=2.214792279.1158585142.1650795950-56040474.1626257650) for more info on how to set up a Flex account
 
-- A Microsoft Dynamics 365 Sales environment with an appropriate license along with system administrator privileges. For more information about licensing requirements, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
+- A Microsoft Dynamics 365 Sales environment with an appropriate license along with system administrator privileges. For more information about licensing requirements, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 - Conversation Intelligence installed and set up – [Learn more](fre-setup-ci-sales-app.md)
 

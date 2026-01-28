@@ -21,7 +21,7 @@ Configure the assistant to help sellers track their daily actions and communicat
 
 The assistant in Dynamics 365 Sales helps sellers track their daily actions and communications through a collection of actionable insight cards.  
 
-The assistant is available in two forms and is available based on the license you have. Check the licensing requirements in the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).  
+The assistant is available in two forms and is available based on the license you have. Check the licensing requirements in the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).  
 
 - **Assistant (standard)**: The assistant comes with a set of out-of-the-box standard cards. As an administrator, you can configure which insight cards to present to users to help them stay on top of their day. Some insight cards are enabled by default; you can enable, disable, or customize the standard cards. To configure the standard assistant, see [Standard assistant](#standard-assistant).
 
