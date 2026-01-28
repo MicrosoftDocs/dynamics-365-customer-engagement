@@ -41,13 +41,13 @@ You can customize any of the following forms in Dynamics 365 Sales:
 
 Select the appropriate tab for your license:
 
-# [Sales Premium and Sales Enterprise](#tab/SE)
+# [Sales Hub app](#tab/SE)
 
 1. Sign in to [Power Apps](https://make.powerapps.com/).
 
 1. Follow the instructions in [Create and customize a model-driven app form](/powerapps/maker/model-driven-apps/create-and-edit-a-model-driven-form?context=/dynamics365/context/sales-context) to create or customize a form.
 
-# [Sales Professional](#tab/SP)
+# [Sales Professional app](#tab/SP)
 
 1. In the navigation panel, select **Sales Settings**.
 

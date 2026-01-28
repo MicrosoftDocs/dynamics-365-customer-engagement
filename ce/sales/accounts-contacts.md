@@ -42,8 +42,6 @@ In Dynamics 365 Sales, you use [accounts](#work-with-accounts) to store informat
 
 ### Fill in the address from suggestions
 
-**(Applicable for Sales Enterprise and Sales Premium only)**
-
 If your administrator has [turned on address suggestions](enable-address-suggestion.md), Bing Maps can fill in the account's address details so that you don't have to. Address suggestion works with contacts, accounts, and leads.
 
 1. Open an account, contact, or lead.

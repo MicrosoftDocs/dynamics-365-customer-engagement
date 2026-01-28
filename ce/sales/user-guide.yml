@@ -39,7 +39,7 @@ landingContent:
             url: /powerapps/user/set-personal-options
 
 # Card 
-  - title: Sales premium
+  - title: Sales Insights capabilities
     linkLists:
        - linkListType: concept
          links:

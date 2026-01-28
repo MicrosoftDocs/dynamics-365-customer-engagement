@@ -36,7 +36,7 @@ Products that you create are visible to all users in your organization.
     - If you're using the Sales Professional app,
       - Select **Price Lists** from the site map.
 
-1. (Applicable for Sales Premium and Sales Enterprise) To create a child product to an existing product family, select the family in the list, and then on the command bar, select **Add Product**. The selected family becomes the parent family of the new product you're creating. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product family](create-product-family.md)
+1. (Available only in Sales Hub app) To add a child product to an existing product family, select the family in the list, and then on the command bar, select **Add Product**. The selected family becomes the parent family of the new product you're creating. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product family](create-product-family.md)
 
 1. To create an independent product, select **Add Product**.
 
