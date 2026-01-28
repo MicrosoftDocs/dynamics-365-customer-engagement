@@ -155,7 +155,6 @@ The following tables for unified routing can be enabled for audit logs.
 | Line of business | msdyn_intentfamily |
 | User groups | msdyn_agentgroup |
 | Intent groups | msdyn_intent |
-| Intents | msdyn_intent |
 
 ## Search audited events
 
