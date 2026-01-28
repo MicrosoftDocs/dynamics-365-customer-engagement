@@ -137,23 +137,25 @@ The following table lists the activities that can appear in Customer Service aud
 
 Enable or disable the unified routing configurations for audit logs by doing the steps in Power Platform admin center. Learn more in [Manage Dataverse auditing](/power-platform/admin/manage-dataverse-auditing).
 
-Out of the box, the following tables for unified routing are enabled for audit logs.
+:::image type="content" source="../media/audit-settings-power-platform.png" alt-text="Screenshot of enabling environment-level audit of tables.":::
 
-| Configuration | Table | Audit enabled |
-| :-- | :-- | :-- |
-| Assignment rules | msdyn_decisionruleset | Yes |
-| Prioritization rules | msdyn_decisionruleset | Yes |
-| Classification rules | msdyn_decisionruleset | Yes |
-| Route to queue rules | msdyn_decisionruleset | Yes |
-| Workstream | msdyn_liveworkstream | Yes |
-| Context variables for chat | msdyn_ocliveworkstreamcontextvariable | Yes |
-| Hoops (Operating Hours) | msdyn_operatinghours | Yes |
-| Template rulesets | msdyn_templateruleset | Yes |
-|Intent-based routing| | |
-| Line of business | msdyn_intentfamily | Yes |
-| User groups | msdyn_agentgroup | Yes |
-| Intent groups | msdyn_intent | Yes |
-| Intents | msdyn_intent | Yes |
+The following tables for unified routing can be enabled for audit logs.
+
+| Configuration | Table |
+| :-- | :-- |
+| Assignment rules | msdyn_decisionruleset |
+| Prioritization rules | msdyn_decisionruleset |
+| Classification rules | msdyn_decisionruleset |
+| Route to queue rules | msdyn_decisionruleset |
+| Workstream | msdyn_liveworkstream |
+| Context variables for chat | msdyn_ocliveworkstreamcontextvariable |
+| Hoops (Operating Hours) | msdyn_operatinghours |
+| Template rulesets | msdyn_templateruleset |
+|Intent-based routing| |
+| Line of business | msdyn_intentfamily |
+| User groups | msdyn_agentgroup |
+| Intent groups | msdyn_intent |
+| Intents | msdyn_intent |
 
 ## Search audited events
 
