@@ -850,6 +850,8 @@
           href: add-facilities-equipment-cs-app.md
         - name: Create resource groups
           href: create-edit-resource-group.md
+        - name: Create a simple selection rule for resource selection
+          href: create-simple-selection-rule.md
       - name: Service Scheduling FAQ
         items:
         - name: Service Scheduling FAQ
