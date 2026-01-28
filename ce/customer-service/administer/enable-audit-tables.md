@@ -1,20 +1,19 @@
 ---
-title: Search Customer Service admin logs in Microsoft Purview
+title: Enable tables for Customer Service audit logs
 description: Learn how to view and search audited events in the Microsoft Purview audit log to track admin activity in your organization.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 05/09/2025
+ms.date: 01/30/2026
 ms.custom: bap-template
 ai.usage: ai-assisted
 ---
 
-# Search Copilot Service admin logs in Microsoft Purview
+# Enable tables for Customer Service audit logs
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
-
 
 To track the activities of admins in your organization, view a log of audited Customer Service events in the [Microsoft Purview compliance portal](/power-platform/admin/logging-powerapps). Auditing can be set on an entire environment, a table, and even on individual columns.
 
@@ -133,6 +132,28 @@ The following table lists the activities that can appear in Customer Service aud
 | organization | Upgrade omnichannel solutions in an organization. |
 | organization | Turn off Omnichannel for Customer Service in an organization. |
 | organization | Turn on Omnichannel for Customer Service in a trial organization. |
+
+## Manage audit logs for unified routing configurations
+
+Enable or disable the unified routing configurations for audit logs by doing the steps in Power Platform admin center. Learn more in [Manage Dataverse auditing](/power-platform/admin/manage-dataverse-auditing).
+
+Out of the box, the following tables for unified routing are enabled for audit logs.
+
+| Configuration | Table | Audit enabled |
+| :-- | :-- | :-- |
+| Assignment rules | msdyn_decisionruleset | Yes |
+| Prioritization rules | msdyn_decisionruleset | Yes |
+| Classification rules | msdyn_decisionruleset | Yes |
+| Route to queue rules | msdyn_decisionruleset | Yes |
+| Workstream | msdyn_liveworkstream | Yes |
+| Context variables for chat | msdyn_ocliveworkstreamcontextvariable | Yes |
+| Hoops (Operating Hours) | msdyn_operatinghours | Yes |
+| Template rulesets | msdyn_templateruleset | Yes |
+|Intent-based routing| | |
+| Line of business | msdyn_intentfamily | Yes |
+| User groups | msdyn_agentgroup | Yes |
+| Intent groups | msdyn_intent | Yes |
+| Intents | msdyn_intent | Yes |
 
 ## Search audited events
 
