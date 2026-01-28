@@ -232,7 +232,7 @@ If you customized the Copilot Service workspace app, you must complete the follo
    - **Outlook shortcut**: **Pass parameters** and **Offline availability**
 1. Select **Save** and then select **Publish**.
 
-### Use report metric details 
+### Use report metrics 
 
 Learn more about the metrics in your reports in: 
 
