@@ -871,7 +871,7 @@ items:
                 href: view-sales-close-agent-engage-processed-records.md  
               - name: How the Sales Close Agent - Engage works
                 href: how-sales-close-agent-engage-mode-works.md
-        - name: AI-poweredData Enrichment (preview)
+        - name: AI-powered Data Enrichment (preview)
           items:
             - name: Overview
               href: data-enrichment-agent-overview.md
