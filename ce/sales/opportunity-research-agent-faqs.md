@@ -25,7 +25,7 @@ This article provides answers to frequently asked questions about the Opportunit
 
 ## What happens when the agent's language is different from user's preferred language?
 
-The Sales Close Agent - Research uses the language set in the agent settings to generate research insights. If the agent's language is different from your preferred language in Dynamics 365 Sales, you'll see the following behavior:
+The Sales Close Agent - Research uses the language set in the [agent settings](configure-opportunity-research-agent.md) to generate research insights. If the agent's language is different from your preferred language in Dynamics 365 Sales, you'll see the following behavior:
 
 - The section headings and labels on the **Opportunity Research** page are shown in your preferred language.
    
