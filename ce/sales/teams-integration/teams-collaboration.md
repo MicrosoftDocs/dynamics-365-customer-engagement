@@ -23,7 +23,7 @@ Collaborate with team members using the Dynamics 365 app for Microsoft Teams.
 
 ## Collaboration experience in Microsoft Teams
 
-Once installed, the Dynamics 365 app for Microsoft Teams enables collaborating with other team members by adding a customer engagement app in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, or Dynamics 365 Project Service Automation) tab to a channel in Microsoft Teams.
+Once installed, the Dynamics 365 app for Microsoft Teams enables collaborating with other team members by adding a customer engagement app in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Customer Insights - Journeys, or Dynamics 365 Project Service Automation) tab to a channel in Microsoft Teams.
 
 ### Connect an app record or view to a team channel
 
