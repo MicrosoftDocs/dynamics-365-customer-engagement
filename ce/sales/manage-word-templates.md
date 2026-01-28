@@ -24,7 +24,7 @@ Depending on the license you have, select one of the following tabs to know on h
 
 Follow the instructions in [Use Word templates to create standardized documents](/power-platform/admin/using-word-templates-dynamics-365?context=/dynamics365/context/sales-context) to create a word template.
 
-# [Sales Professional app](#tab/SE)
+# [Sales Professional app](#tab/SP)
 
 Follow the steps in this article to successfully create Word templates in the Sales Professional app.
 

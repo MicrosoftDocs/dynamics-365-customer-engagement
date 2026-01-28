@@ -19,7 +19,7 @@ Review the system requirements before installing Dynamics 365 Sales apps. [Syste
 
 ## Install and use the sales apps
 
-Your Dynamics 365 Sales license comes with free apps that are either pre-installed or can be installed separately. To know about the apps available with your license, see [Dynamics 365 Sales licensing guide](dynamics-365-sales-licensing-guide.md).
+Your Dynamics 365 Sales license comes with free apps that are either pre-installed or can be installed separately. To know about the apps available with your license, refer to the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 The following table lists the apps and the installation instructions.  
 

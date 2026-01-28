@@ -31,7 +31,7 @@ You must have one of the following licenses:
 
 1. Follow the instructions in [Manage your documents using SharePoint](/power-platform/admin/manage-documents-using-sharepoint?context=/dynamics365/context/sales-context) to configure the integration. 
 
-# [Sales Professional app](#tab/SE)
+# [Sales Professional app](#tab/SP)
 
 ### Prerequisites
 

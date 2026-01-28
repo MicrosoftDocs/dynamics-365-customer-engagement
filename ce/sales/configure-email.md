@@ -41,7 +41,7 @@ Select a tab based on the sales app that you use:
 
 2. Follow the instructions in [Set up server-side synchronization of email, appointments, contacts, and tasks](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks?context=/dynamics365/context/sales-context) to configure the integration.  
 
-# [Sales Professional app](#tab/SE)
+# [Sales Professional app](#tab/SP)
 
 ### Prerequisite for Exchange integration
 

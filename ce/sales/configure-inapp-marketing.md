@@ -47,7 +47,7 @@ Select a tab based on the sales app that you use:
 
 4. Save the changes.
 
-# [Sales Professional app](#tab/SE)
+# [Sales Professional app](#tab/SP)
 
 1. From the Sales Professional app, go to **Settings** > **Advanced Settings**.
 1. Follow the instructions in the [System Settings Marketing tab](/power-platform/admin/system-settings-dialog-box-marketing-tab) article to open the marketing settings and configure them.  

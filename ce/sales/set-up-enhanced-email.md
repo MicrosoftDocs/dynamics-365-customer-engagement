@@ -32,7 +32,7 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
     :::image type="content" source="media/enable-enhanced-email.png" alt-text="Enable enhanced email for timeline option.":::
 
-# [Sales Professional app](#tab/SE)
+# [Sales Professional app](#tab/SP)
 
 If you're using a custom app or Sales Professional app, you can enable or disable the enhanced experience from **System Settings** in Power Platform.
 

@@ -38,7 +38,7 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
     :::image type="Option to make selection of price list optional in Product Catalog Settings" source="media/sales-hub-make-price-list-optional.png" alt-text="Option to make selection of price list optional in Product Catalog Settings":::
 
 
-# [Sales Professional app](#tab/SE)
+# [Sales Professional app](#tab/SP)
 
 1.  In your app, on the nav bar, select the **Settings** icon, and then select **Advanced Settings**.
      > [!NOTE]

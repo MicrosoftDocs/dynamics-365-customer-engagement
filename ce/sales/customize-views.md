@@ -49,7 +49,7 @@ Select a tab based on the sales app that you use:
 1. Sign in to [Power Apps](https://make.powerapps.com/).
 2. Follow the instructions in [Create and edit public or system model-driven app views](/power-apps/maker/model-driven-apps/create-or-edit-model-driven-app-view?context=/dynamics365/context/sales-context) to create or customize system views.
 
-# [Sales Professional app](#tab/SE)
+# [Sales Professional app](#tab/SP)
 
 This topic covers how to create system views as a customizer.
 

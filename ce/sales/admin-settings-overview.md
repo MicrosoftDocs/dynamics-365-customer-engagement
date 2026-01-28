@@ -49,7 +49,7 @@ To open the Sales Insights settings, select **Change area** :::image type="icon"
 
 To set up and use the premium sales insights features, you must have a specific Dynamics 365 Sales license. [Learn more in the Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-# [Sales Professional app](#tab/SE)
+# [Sales Professional app](#tab/SP)
 
 To manage the admin settings in the Sales Professional app, select **Sales Settings**.
 

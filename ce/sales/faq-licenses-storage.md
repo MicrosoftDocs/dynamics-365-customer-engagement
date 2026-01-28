@@ -30,7 +30,7 @@ Depending on your license type, you can use either use the Sales Hub app or the 
 
 ## How can I assign licenses to users?  
 
-To assign licenses to users, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
+To assign licenses to users, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 
 ## FAQs about Copilot credits bundled with specific Dynamics 365 Sales licenses

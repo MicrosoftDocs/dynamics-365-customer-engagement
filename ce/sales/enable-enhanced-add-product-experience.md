@@ -56,7 +56,7 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
     
     If you turn off the enhanced experience, the **Add products** option in the opportunity, quote, order, and invoice will switch back to **Quick create** form.
 
-# [Sales Professional app](#tab/SE)
+# [Sales Professional app](#tab/SP)
 
 If you're using a custom app or Sales Professional app, you can enable or disable the enhanced experience from **System Settings** in Power Platform.
 

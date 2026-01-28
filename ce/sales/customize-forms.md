@@ -47,7 +47,7 @@ Select the appropriate tab for your license:
 
 1. Follow the instructions in [Create and customize a model-driven app form](/powerapps/maker/model-driven-apps/create-and-edit-a-model-driven-form?context=/dynamics365/context/sales-context) to create or customize a form.
 
-# [Sales Professional app](#tab/SE)
+# [Sales Professional app](#tab/SP)
 
 1. In the navigation panel, select **Sales Settings**.
 

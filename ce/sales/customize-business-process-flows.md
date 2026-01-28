@@ -53,7 +53,7 @@ Select a tab based on the sales app that you use:
 
 Follow the instructions in [Create a business process flow](/power-automate/create-business-process-flow?context=/dynamics365/context/sales-context) to create or customize a business process flow.  
 
-# [Sales Professional app](#tab/SE)
+# [Sales Professional app](#tab/SP)
 
 1. Make sure you have the System Administrator or System Customizer security role or equivalent permissions.  
 1. In your Sales Professional app, in the site map, select **Setup** &gt; **Sales Settings**.  
