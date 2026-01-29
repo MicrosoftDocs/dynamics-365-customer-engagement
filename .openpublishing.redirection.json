@@ -35908,11 +35908,11 @@
       "source_path": "ce/field-service/create-simple-selection-rule.md",
       "redirect_url": "/dynamics365/customer-service/administer/create-simple-selection-rule",
       "redirect_document_id": false
-    }
+    },
     {
       "source_path": "ce/customer-service/administer/configure-ai-suggested-article-keywords-description.md",
       "redirect_url": "/power-apps/user/form-filling-assistance",
       "redirect_document_id": false
-    }   
+    },
   ]
 }
