@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management
 description: Learn how to configure the settings for knowledge management in Dynamics 365 Customer Service.
-ms.date: 04/22/2025
+ms.date: 01/29/2026
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -152,9 +152,9 @@ With the knowledge article attachments option, you can stop using notes attachme
 1. Set the **Sync attachments to portal** toggle to **Yes**.
 1. Select **Save**.
 
-## Set up AI suggestions for article keywords and description
+## Automatically generate article keywords and description
 
-You can enable knowledge authors to get suggested keywords and description based on the article content stored in the built-in knowledge article entity. Learn more in [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description).
+Use [Copilot's form fill assistance](/power-apps/user/form-filling-assistance) to automatically generate knowledge article keywords and description.
 
 ## Set up knowledge search logic
 

@@ -802,8 +802,6 @@
           href: configure-agent-forecasting-conversation.md
       - name: Configure AI suggestions
         href: csw-enable-ai-suggested-cases-knowledge-articles.md
-      - name: Configure AI suggestions for article keywords and descriptions
-        href: configure-ai-suggested-article-keywords-description.md
       - name: Configure real-time customer sentiment
         href: enable-sentiment-analysis.md
       - name: Customize interactive dashboards based on Unified Interface
