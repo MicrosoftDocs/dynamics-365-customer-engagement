@@ -40,71 +40,7 @@ Learn more in [Ask questions of Copilot in Dynamics 365 Sales](use-sales-copilot
 
 ## Copilot in Dynamics 365 Sales capabilities
 
-Copilot offers the following capabilities:
-
-- [Record summarization](#record-summarization)
-- [Embedded experiences](#embedded-experiences)
-- [Recent changes](#recent-changes)
-- [Information assistance](#information-assistance)
-- [Meeting preparation](#meeting-preparation)
-- [Email assistance](#email-assistance)
-- [News updates](#news-updates)
-
-### Record summarization
-
-Record summarization gives you a quick summary of your opportunity, lead, and account records. Copilot generates the summary from predefined fields. Your administrator can change the fields that Copilot uses to generate the summary. Make sure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
-
-Learn more:
-
-- [Summarize an account](copilot-summarize-records.md#account-summary)
-- [Summarize an opportunity](copilot-summarize-records.md#opportunity-summary)
-- [Summarize a lead](copilot-summarize-records.md#lead-summary)
-- [Change the fields in the record summary](copilot-configure-summary-fields.md)
-
-## Embedded experiences
-
-Use Copilot's embedded experience in Dynamics 365 Sales to quickly gain insights into your records, including:
-
-- [Embedded opportunity summary in the opportunity form](copilot-summarize-records.md#view-the-opportunity-summary-widget).
-- [Embedded lead summary after lead qualification](qualify-lead-convert-opportunity-sales.md#lead-summary).
-
-### Recent changes
-
-To help you stay on top of your sales records, Copilot summarizes any changes that you make to your lead, opportunity, and account records. Copilot generates the list of recent changes from the records' audit history. Your administrator can change the fields that are included in the recent changes list. Ensure that your entire sales team agrees on the top 15 fields that are most relevant for your business.
-
-Learn more:
-
-- [View recent changes of your records](copilot-ask-questions.md#get-recent-changes)
-- [Get a list of recently updated sales records](copilot-ask-questions.md#whats-new-with-my-sales-records)
-- [View the leads and opportunities assigned to you recently](copilot-ask-questions.md#whats-newly-assigned-to-me)
-- [Change the fields you want to view in the recent changes list](copilot-configure-summary-fields.md)
-
-### Information assistance
-
-With Copilot, you can get information at your fingertips. You don't have to switch between apps to find the information you need. Copilot can get product-related documents and fetch answers to sales-related questions from documents stored in SharePoint.
-
-Learn more:
-
-- [Get content recommendations from SharePoint](copilot-get-doc-suggestions.md#copilot-content-recommendation)
-- [Get answers from SharePoint documents](copilot-get-doc-suggestions.md#get-answers-from-sharepoint-documents)
-
-### Meeting preparation
-
-Copilot helps you prepare for your upcoming meetings effortlessly by summarizing relevant information from the opportunity or lead records that are associated with the meeting. Learn more in [Prepare for upcoming sales appointments](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments).
-
-### Email assistance
-
-Copilot can help you compose professional-looking emails, summarize email conversations to add to your customer notes, and remind you to follow up on unanswered emails.
-
-Learn more:
-
-- [Compose and send email messages using Copilot (preview)](compose-send-email-copilot.md)  
-- [View and copy an email summary](view-copy-email-summary.md)  
-- [Display unanswered emails](copilot-stay-ahead.md#display-unanswered-emails)
-
-### News updates
-
-Copilot can help you stay current with the latest news about your accounts. News updates can be great conversation starters and help you understand the dynamics of your customers' organizations. Ask Copilot to get the latest news related to an account. It returns a list of articles that feature or mention the account, curated by Bing. As with any content provided by AI, make sure you read the news articles thoroughly and confirm that they're from an authentic source and are indeed about the customer. For more information, see [Show the latest news about an account](copilot-get-information.md#show-the-latest-news-about-an-account).
+[!INCLUDE[copilot-dynamics-365-sales](../../ce-shared/copilot-dynamics-365-sales.md)]
 
 ## Region availability and languages supported
 
