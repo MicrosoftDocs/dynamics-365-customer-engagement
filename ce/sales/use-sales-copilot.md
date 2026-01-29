@@ -33,7 +33,7 @@ Your admin turned on and set up Copilot in your sales app. "Sales app" refers to
 
 ## Open Copilot in your sales app
 
-Open Copilot in a side pane to view it side-by-side with a record (opportunity or lead) or in a full-screen view.
+Open Copilot in a side pane to view it side-by-side with a record (opportunity or lead) or view summary in full-screen.
 
 [Open the Copilot side pane](#chat-with-copilot-in-a-side-pane) when you want to get quick insights about a record or ask Copilot to summarize other records, display recent changes, and prepare for meetings without leaving the current page. You can open the Copilot side pane from any page in your app except the **Copilot** page.
 
@@ -47,7 +47,7 @@ Select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.svg
 
 ## Interact with Copilot
 
-Whether you're using Copilot in a side pane or in full-screen view, you can interact with it in the following ways:
+You can interact with Copilot through the side pane in the following ways:
 
 - [Ask a question in natural language](#chat-with-copilot-in-NL) in the Copilot chat box.
 - Select one of the suggestions from the card. 
