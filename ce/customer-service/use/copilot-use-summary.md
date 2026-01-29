@@ -11,7 +11,7 @@ ms.update-cycle: 180-days
 ms.custom: bap-template 
 ---
 
-# Use Copilot generated case summary
+# Use Copilot-generated case summaries
 
 [!INCLUDE[cc-feature-availability-cs-only](../../includes/cc-feature-availability-cs-only.md)]
 
