@@ -65,15 +65,15 @@ Optionally, you can configure the following settings.
 
 | Task |Description|
 |-------|------------|
-|Configure and publish the skill model to use machine learning work classification. More information: [Set up intelligent skill finder model](set-up-isf-model.md#set-up-intelligent-skill-finder-model)|To route records and work items from channels|
-|Configure capacity profile to use capacity profile-based classification. More information: [Create and manage capacity profiles](capacity-profiles.md)|To route records and work items from channels|
+|Configure and publish the skill model to use machine learning work classification. Learn more in [Set up intelligent skill finder model](set-up-isf-model.md#set-up-intelligent-skill-finder-model).|To route records and work items from channels.|
+|Configure capacity profile to use capacity profile-based classification. Learn more in [Create and manage capacity profiles](capacity-profiles.md)|To route records and work items from channels.|
+|[Manage audit logs for unified routing configurations](enable-audit-tables.md#manage-audit-logs-for-unified-routing-configurations) | To enable or disable auditing on unified routing configurations.|
 
 ### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
 [Set up unified routing for records](set-up-record-routing.md)  
 [Set up skill-based routing](overview-skill-work-distribution.md)  
-[Manage capacity profiles](capacity-profiles.md)  
-[Manage audit logs for unified routing configurations](enable-audit-tables.md#manage-audit-logs-for-unified-routing-configurations)  
+[Manage capacity profiles](capacity-profiles.md)   
 [Export and import configuration data for the record channel](migrate-record-routing-config-using-solutions.md)  
 [FAQ on unified routing](unified-routing-faqs.md)  

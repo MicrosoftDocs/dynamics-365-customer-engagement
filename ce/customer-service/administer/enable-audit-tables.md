@@ -151,10 +151,10 @@ The following tables for unified routing can be enabled for audit logs.
 | Context variables for chat | msdyn_ocliveworkstreamcontextvariable |
 | Hoops (Operating Hours) | msdyn_operatinghours |
 | Template rulesets | msdyn_templateruleset |
-|Intent-based routing| |
-| Line of business | msdyn_intentfamily |
-| User groups | msdyn_agentgroup |
-| Intent groups | msdyn_intent |
+|**Intent-based routing**| |
+|    Line of business | msdyn_intentfamily |
+|    User groups | msdyn_agentgroup |
+|    Intent groups | msdyn_intent |
 
 ## Search audited events
 
