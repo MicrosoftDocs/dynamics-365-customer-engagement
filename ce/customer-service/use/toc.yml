@@ -302,6 +302,8 @@
         items: 
         - name: Productivity pane in Copilot Service workspace
           href: csw-productivity-pane.md
+        - name: Use timeout rules
+          href: use-timeout-rules.md
         - name: View smart assist suggestions for knowledge articles and similar cases
           href: oc-view-ai-suggested-cases-articles.md
         - name: View smart assist suggestions

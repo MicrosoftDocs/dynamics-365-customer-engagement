@@ -18,7 +18,7 @@ The Dynamics 365 Sales application is a modular app built to provide capabilitie
 
 Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information:
 
-# [Sales Premium or Sales Enterprise](#tab/sales)
+# [Sales Hub app](#tab/sales)
 
 **To customize the app**:
 
@@ -28,7 +28,7 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
 3. Add or edit components to the app, as required. More information: [Add or edit app components](/powerapps/maker/model-driven-apps/add-edit-app-components)
 
-# [Sales Professional](#tab/salespro)
+# [Sales Professional app](#tab/salespro)
 
 > [!IMPORTANT]
 > This capability is introduced in the Dynamics 365 Sales Professional app version 9.1.0.0.

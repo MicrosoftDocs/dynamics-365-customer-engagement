@@ -1,7 +1,7 @@
 ---
 title: Work on opportunities handled by the Sales Close Agent - Research (preview)
 description: Learn how to work on opportunities handled by the Sales Close Agent - Research.
-ms.date: 12/24/2025
+ms.date: 01/02/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -17,7 +17,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Sales Close Agent - Research in Dynamics 365 Sales makes it easy for you to focus on the most important opportunities. By identifying high-value and at-risk opportunities, the agent helps you prioritize your efforts. With critical insights and recommendations, you can quickly ramp up on opportunities, engage the right stakeholders, and mitigate risks effectively.
+The Sales Close Agent - Research in Dynamics 365 Sales helps you focus on the most important opportunities. By identifying high-value and at-risk opportunities, the agent helps you prioritize your efforts. With critical insights and recommendations, you can quickly ramp up on opportunities, engage the right stakeholders, and mitigate risks effectively.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -43,15 +43,29 @@ You need the following prerequisites:
    :::image type="content" source="media/opportunity-research-summary.png" alt-text="Screenshot of the Opportunity research summary section.":::
 1. Select **See full research**.  
  
-   The Opportunity research page opens with the complete research insights and recommendations. 
+   The Opportunity research page opens with the complete research insights and recommendations. Learn more about the insights in the section [Opportunity research page](#opportunity-research-page).
    :::image type="content" source="media/opportunity-research-insights-with-no-risk.png" alt-text="Screenshot of the Opportunity research page with research insights when there are no risks.":::
-
-   If your admin has enabled Microsoft 365 Services for the agent, you see a banner asking for permission to access your emails for research purposes. The agent reads emails directly from Microsoft 365 without storing them. After you grant consent, the agent analyzes up to 100 recent emails from your inbox to gather opportunity insights. This consent can't be revoked. The agent processes emails every six hours to keep research insights current.
-
-   :::image type="content" source="media/opportunity-research-agent-m365-consent.png" alt-text="Screenshot of the Microsoft 365 Services consent prompt on the Opportunity research page for sellers.":::
+    
+   If you see a banner prompting you to provide consent for Microsoft 365 Services, read the section [Provide consent for Microsoft 365 Services](#provide-consent-for-microsoft-365-services)
 
 > [!NOTE]
 > The research insights are refreshed based on the refresh frequency configured by your admin and when specific fields in the opportunity record are updated. Learn more in [How often does the Opportunity Research Agent refresh research data?](opportunity-research-agent-faqs.md#how-often-does-the-opportunity-research-agent-refresh-research-data).
+
+### Provide consent for Microsoft 365 Services
+
+If your admin has enabled Microsoft 365 Services for the agent, a banner prompts you to grant permission for the agent to access your emails in Microsoft 365. The agent uses your emails to gather insights only for the opportunities you own. 
+
+If your admin has configured the agent to use server-side synchronization instead, you won't see this banner. In that case, the agent reads only the emails and meetings that are already synced to Dynamics 365 Sales. 
+
+:::image type="content" source="media/opportunity-research-agent-m365-consent.png" alt-text="Screenshot of the Microsoft 365 Services consent prompt on the Opportunity research page for sellers.":::
+
+Consider the following information:
+
+- The agent reads your emails directly from Microsoft 365 without storing them. 
+- After you grant consent, the agent analyzes up to 100 recent emails from your inbox to gather opportunity insights. This consent can't be revoked. 
+- The agent processes emails every six hours to keep research insights current. 
+- The agent reads emails of the opportunity owner to generate insights for an opportunity. However, the insights are visible to all users who can access the opportunity.
+
 
 ## Opportunity research page
 
@@ -59,13 +73,14 @@ The Opportunity research page includes the following sections:
 
 - **Deal importance indicator:**  
    ![Deal importance indicator](media/ORA-header.png)  
-   The agent evaluates how critical the opportunity is by analyzing factors like potential deal value and strategic significance. It looks at CRM data (for example, estimated revenue) and public info about the account (is it a Fortune 500 or key industry player?) to label the deal High, Medium, or Low importance.  
- 
-  *How this insight helps you:* Instantly know why the deal matters. You can quickly see which deals are high-value or strategically important and prioritize those deals. This lets you focus your time on the most impactful opportunities, ensuring critical deals get the attention they need.  
+
+   The agent evaluates how critical the opportunity is by analyzing factors like account win history, fortune 500 status, deal size, and so on.  It looks at CRM data such as, estimated revenue and public info about the account (whether it's a Fortune 500 or key industry player?) to label the deal High, Medium, or Low importance. Your administrator can configure the importance criteria and add custom criteria specific to your business. Learn more in [Configure the importance criteria](opportunity-research-agent-advanced-settings.md#configure-the-importance-criteria)
+
+  *How this insight helps you:* Instantly know why the deal matters. You can quickly see which deals are high-value or strategically important and prioritize those. This lets you focus your time on the most impactful opportunities, ensuring critical deals get the attention they need.  
 
 - **Deal risks and mitigations:**  
    ![Deal risks and mitigations](media/ORA-risk-mitigation.png)  
-   The agent scans for warning signs in the deal's data and communications. It monitors signals like slowing momentum (for example, no reply from a key contact in two weeks), slipping close dates, lack of an executive sponsor, and so on. When it detects a risk, it generates a brief alert describing the issue and suggesting mitigation steps.  
+   The agent scans for warning signs in the deal's data and communications. It monitors signals like slowing momentum (for example, no reply from a key contact in two weeks), slipping close dates, lack of an executive sponsor, and so on. When it detects a risk, it generates a brief alert describing the issue and suggesting mitigation steps. Your administrator can configure the risk criteria to suit your business needs. Learn more in [Configure the risk criteria](opportunity-research-agent-advanced-settings.md#configure-the-risk-criteria)
 
    *How this insight helps you:* You get early warnings about what could derail the deal and advice on how to counter each risk. For example, if no decision-maker is engaged, it might recommend "loop in an executive sponsor now." Acting on these tips helps you course-correct in real time.  
 

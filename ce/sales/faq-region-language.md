@@ -16,7 +16,7 @@ ms.custom:
 
 # Region and language FAQs
 
-This article answers frequently asked questions about region and language support in Dynamics 365 Sales, Sales premium, and Sales professional.
+This article answers frequently asked questions about region and language support in Dynamics 365 Sales.
 
 ## In which country/region is Sales Premium available?
 

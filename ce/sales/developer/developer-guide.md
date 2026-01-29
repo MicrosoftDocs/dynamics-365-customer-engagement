@@ -52,7 +52,7 @@ As a developer or system customizer, you can [use the Dataverse WebAPI](/powerap
   <li><a href="reference/recalculateprice-action.md" data-raw-source="[RecalculatePrice Action](reference/recalculateprice-action.md)">RecalculatePrice Action</a></li>
 </td>
 <td>
-<h2>Sales Premium</h2>
+<h2>Sales Insights</h2>
 <li><a href="reference/custom-actions/msdyn-ConnectSequence-action.md" data-raw-source="[msdyn_ConnectSequence Action](reference/custom-actions/msdyn-ConnectSequence-action.md)">msdyn_ConnectSequence Action</a></li>
 <li><a href="about-entity-reference.md" data-raw-source="[Entity reference](about-entity-reference.md)">Entity reference</a></li>
 

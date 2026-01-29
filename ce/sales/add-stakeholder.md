@@ -72,7 +72,7 @@ If multiple users and teams from your organization are working on an opportunity
 Add the organizations that are competing with you for the opportunity as competitors for the opportunity.  
 
 > [!NOTE]
-> The competitors entity is not supported for Sales Professional license.  
+> Adding competitors is supported only in the Sales Hub app.  
 
 **To add competitors:**
 

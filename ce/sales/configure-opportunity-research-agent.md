@@ -1,7 +1,7 @@
 ---
 title: Configure the Sales Close Agent - Research (preview)
 description: Learn how to set up and configure the Sales Close Agent - Research in Dynamics 365 Sales.
-ms.date: 12/24/2025
+ms.date: 01/13/2026
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -63,13 +63,12 @@ If you're using a custom security role, ensure that the opportunity owners have 
 |---------|----------------------------|---------|
 | Consent to use Microsoft 365 emails for opportunity research | Basic-level - Read | prvReadconnector |
 
-
 <a name="configure-server-side-synchronization"></a>
 ### (Optional) Configure server-side synchronization
 
-If you want the agent to access only the emails and meetings synced to Dynamics 365 Sales, configure server-side synchronization for seller mailboxes. Alternatively, you can enable Microsoft 365 Services for the agent to read emails directly from the sellers' Microsoft 365 mailboxes. Learn more in [Verify prerequisites](#step-3-verify-prerequisites).
+If you want the agent to access only the emails and meetings synced to Dynamics 365 Sales, configure server-side synchronization for seller mailboxes. Alternatively, you can enable Microsoft 365 Services for the agent to read emails directly from the sellers' Microsoft 365 mailboxes. Learn more in [Verify prerequisites](#configure-microsoft-365-services).
 
-Server-side synchronization always gets precedence. If both server-side synchronization and Microsoft 365 Services are enabled, the agent reads emails using server-side synchronization only.
+If both server-side synchronization and Microsoft 365 Services are enabled, the agent reads emails from both sources and generates insights accordingly.
 
 **To configure server-side synchronization:**
 
@@ -107,23 +106,17 @@ Server-side synchronization always gets precedence. If both server-side synchron
 1. After the prerequisites are met, select **Create** and then in the **Scenario** page, select **Research**.
 1. Under the **Prerequisites** section, ensure that all the prerequisites specific to the Sales Close Agent - Research are met. If any of them isn't marked as **Done**, select the appropriate call-to-action to complete the prerequisite:
    - **Bing search**: Select **Accept terms** to open the Power Platform admin center and accept the terms for Bing search.
-
-   - **Microsoft 365 Services**: (Optional) To allow the agent to read emails directly from the sellers' Microsoft 365 mailboxes, select **Mark as done** and then select **Apply changes**. If you want to use server-side synchronization for reading emails, leave it disabled.  
+<a name="configure-microsoft-365-services"></a>>
+ 
+   - **Microsoft 365 Services**: (Optional) To allow the agent to read emails directly from the sellers' Microsoft 365 mailboxes, select **Mark as done** and then select **Apply changes**. Sellers will also be prompted to provide consent when they first access the Opportunity research page. If you want to [use server-side synchronization](#optional-configure-server-side-synchronization) for reading emails, don't select the checkbox.  
         > [!NOTE]
         >- You must have at least *ONE* of the following roles: Global administrator, Dynamics 365 administrator, or tenant administrator role to enable Microsoft 365 Services for the agent. If you don't have the required role, the **Mark as done** checkbox is disabled.
         >- You must have at least *ONE* of the following licenses: Microsoft 365/Office 365, Power Automate Premium license, or Dynamics 365 Sales Enterprise Edition to enable Microsoft 365 Services for the agent.
         >- Be sure to select **Apply changes** after enabling Microsoft 365 Services for the agent.
-        >- Sellers will also be prompted to provide consent when they access the Opportunity research page.
+        >- The agent reads emails of the opportunity owner to generate insights for an opportunity. However, the insights are visible to all users who can access the opportunity.
 
 1. Select **Continue** to proceed to the agent configuration page.
   :::image type="content" source="media/opportunity-research-agent-settings.png" alt-text="Screenshot of the Sales Close Agent - Research settings page.":::
-
-### Configure the agent to read seller emails
-
-Granting access to seller's mailboxes empowers the agent to identify deal risks and provide actionable insights and key updates to sellers. You can choose between two methods to enable the agent to read seller emails:
-
-- **Configure server-side synchronization** (recommended): This method allows the agent to access emails and meetings synched to Dynamics 365 Sales. Learn more in [Configure server-side synchronization](#configure-server-side-synchronization).
-- **Enable Microsoft 365 Services for the agent**: This method allows the agent to read emails directly from the sellers' Microsoft 365 mailboxes. 
 
 ## Step 4: Configure the agent
 
@@ -169,7 +162,7 @@ In the **Refresh frequency** tab, specify how frequently you want the agent to r
 
 ### Configure fields for importance and risk assessment
 
-In the **Opportunity assessment** tab, specify the fields that the agent should use as a factor to assess the importance and risk of the opportunities. The agent also uses many other factors to calculate the importance and risk of the opportunities. 
+In the **Opportunity assessment** tab, specify the fields that the agent should use as a factor to assess the importance and risk of the opportunities. In addition to these fields, the agent uses other signals such as customer interactions, stakeholder engagement, and so on. You can customize the thresholds for risk and importance criteria in the **Advanced** section. Learn more in [Configure risk and importance criteria for Sales Close Agent - Research](opportunity-research-agent-advanced-settings.md).  
 
 - **Monetary value:** Select the field that represents the monetary value of the opportunity, such as **Est. revenue**. This field determines the importance of the opportunity.
 - **Estimated close date**: Select the field that represents the estimated close date of the opportunity, such as **Est. close date**. This field helps the agent assess the urgency of the opportunity and identify potential risks.
@@ -232,6 +225,11 @@ Consider the following best practices while configuring knowledge sources for th
 - Review security. The agent will only present data that the signed-in seller is permitted to access.
 - Monitor capacity. Large files and frequent refreshes consume AI credits; track usage in Power Platform admin center.
 - With curated knowledge sources, the agent becomes a best researcher that understands your organization and surfaces the insights your sellers value most.
+
+
+### Configure advanced settings (optional)
+
+Under **Advanced** section, you can configure the risk and importance criteria for the opportunities. Learn more in [Configure risk and importance criteria for Sales Close Agent - Research](opportunity-research-agent-advanced-settings.md). 
 
 ## Step 5: Start or stop the agent
 
