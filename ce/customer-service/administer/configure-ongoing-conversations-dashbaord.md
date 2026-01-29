@@ -14,7 +14,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 To access the **Omnichannel Ongoing Conversations** dashboard, you must assign **Omnichannel supervisor** role to the users. To learn more, see [Assign roles and enable users for Omnichannel for Customer Service](../implement/add-users-assign-roles.md).  
 
-Once the users get access, the **Omnichannel Ongoing Conversations** dashboard is available on **Unified Service Desk** and **Omnichannel for Customer Service** app on web.
+After the users get access, the **Omnichannel Ongoing Conversations** dashboard is available on **Unified Service Desk** and Copilot Service workspace.
 
 For **Unified Service Desk**, you must add users to supervisor configuration for the dashboard to be available in the home session app tab. To learn more, see [Add users to supervisor configuration](../implement/configure-intraday-dashboard-supervisor.md#add-users-to-supervisor-configuration).
 
