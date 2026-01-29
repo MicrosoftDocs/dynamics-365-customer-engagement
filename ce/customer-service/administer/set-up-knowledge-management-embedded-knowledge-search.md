@@ -55,7 +55,6 @@ After you configure knowledge management on your app, you must also set up the v
 - [Configure knowledge base article URLs](#configure-knowledge-base-article-urls)
 - [Create and manage categories](create-manage-categories.md#create-and-manage-categories)
 - [Create templates for knowledge articles](../use/create-templates-knowledge-article.md#create-templates-for-knowledge-articles)
-- [Set up AI suggestions for article keywords and description](#set-up-ai-suggestions-for-article-keywords-and-description)
 - [Set up external search providers][Set up external search providers](set-up-search-providers.md#set-up-external-search-providers)
 
 ## Set up knowledge management
