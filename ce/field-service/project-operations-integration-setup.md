@@ -1,7 +1,7 @@
 ---
 title: Set up Field Service integration with Project Operations
 description: Learn how to set up the integration between Field Service and Project Operations.
-ms.date: 01/28/2026
+ms.date: 01/30/2026
 ms.topic: how-to
 author: vhorvathms
 ms.author: vhorvath
@@ -29,7 +29,7 @@ If you want to integrate with Dynamics 365 finance and operations, configure dua
 
 ## Enable Microsoft Dataverse virtual entities
 
-If you want to integrate with Dynamics 365 finance and operations, [enable Microsoft Dataverse virtual entities](/dynamics365/fin-ops-core/dev-itpro/power-platform/enable-virtual-entities). Otherwise, skip this step.
+If you want to integrate with Dynamics 365 finance and operations, [enable the Microsoft Dataverse virtual entity](/dynamics365/fin-ops-core/dev-itpro/power-platform/enable-virtual-entities) `ProjInventOnHandEntity`. Otherwise, skip this step.
 
 ## Install the integration package
 
