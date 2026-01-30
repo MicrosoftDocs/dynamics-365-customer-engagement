@@ -10,7 +10,7 @@ ms.reviewer: lavanyakr
 
 # Use the Sales Hub app to access Dynamics 365 Sales features
 
-Sales Hub is a free app from Microsoft that's preinstalled. It comes with several core and premium features to help you quickly get started with Dynamics 365 Sales. From the Sales Hub app, you can access Sales Premium features&mdash;such as sales accelerator, conversation intelligence, and predictive scoring&mdash;even if you have a Sales Enterprise license. Premium features are subject to monthly capacity limits for Sales Enterprise customers. For more information, go to [Digital selling capabilities in Sales Enterprise](digital-selling.md).
+Sales Hub is a free app from Microsoft that's preinstalled. It comes with several core and premium features to help you quickly get started with Dynamics 365 Sales. From the Sales Hub app, you can access premium features&mdash;such as sales accelerator, conversation intelligence, and predictive scoring. Premium features are subject to monthly capacity limits if you don't have the appropriate license. For more information, go to [Digital selling capabilities](digital-selling.md).
 
 We recommend that you use the Sales Hub app unless your organization follows unique sales practices that warrant a custom app. For a comparison, refer to [Sales Hub app versus custom app](saleshub-customapp.md).
 

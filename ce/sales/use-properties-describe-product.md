@@ -21,7 +21,7 @@ Adding well-defined properties to products cuts down on the time spent by your a
 
 > [!IMPORTANT]
 > - You can't set different prices for the different properties you define for a product unless you're using a custom pricing engine.  
-> - Product families are only supported for Sales Enterprise and Sales Premium.  
+> - Product families are only available in the Sales Hub app.  
 
 ## Add properties to a product, bundle, or family
 
