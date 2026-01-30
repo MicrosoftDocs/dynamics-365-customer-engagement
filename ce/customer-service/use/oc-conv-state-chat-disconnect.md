@@ -1,7 +1,7 @@
 ---
 title: Understand disconnected chats
 description: Use this article to know how the application handles customer disconnection during live chat.
-ms.date: 01/29/2026
+ms.date: 01/30/2026
 ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
