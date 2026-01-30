@@ -2,6 +2,7 @@
 title: Parse event activity JSON to get agent context
 description: Use this article to understand how you can parse the activity JSON to extract agent context in Dynamics 365 Contact Center.
 ms.date: 12/08/2025
+ms.update-cycle: 180-days
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim

@@ -1,5 +1,5 @@
 ---
-title: Use Case Management Agent to resolve cases (preview)
+title: Use Case Management Agent to resolve cases
 description: Learn how to use autonomous Case Management Agent to help customer support teams efficiently resolve cases.
 author: gandhamm
 ms.author: mgandham
@@ -7,26 +7,23 @@ ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
 ms.date: 01/19/2026
+ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
 
 
-# Use Case Management Agent to resolve cases (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Use Case Management Agent to resolve cases
 
 Autonomous case resolution identifies intent from an incoming email, automatically gathers required customer information, and drafts professional email responses. Based on your administrator's configuration, the agent can automatically send the email or requires a representative to review and send it. 
 
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
-
 ## Prerequisites
 
-- Autonomous case resolution is configured. Learn more in [Set up Case Management Agent to resolve cases (preview)](../administer/set-up-case-resolution-agent.md).
+- Autonomous case resolution is configured. Learn more in [Set up Case Management Agent to resolve cases](../administer/set-up-case-resolution-agent.md).
 - [Customer Intent Agent](/dynamics365/contact-center/administer/manage-customer-intent-agent) is configured.
 
 ## Use Case Management Agent to resolve case
 
-- The **Intent-based suggestions (preview)** card in the Copilot help pane and displays the following information if the AI agent identified the case intent:
+- The **Intent-based suggestions** card in the Copilot help pane and displays the following information if the AI agent identified the case intent:
   - The intent as the issue and relevant questions needed to resolve it
   - Visual indicators showing which questions the customer answered
   - Customer responses displayed alongside each question.
