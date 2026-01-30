@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page
   author: Soumyasd27
   ms.author: sdas
-  ms.date: 12/11/2025
+  ms.date: 01/30/2026
   ms.custom: bap-template
   hide_bc: true
 
@@ -72,7 +72,9 @@ additionalContent:
       - url: administer/voice-channel-install.md
         text: Configure the voice channel
       - url: administer/define-service-level-agreements.md
-        text: Configure service-level agreements      
+        text: Configure service-level agreements
+      - url: /dynamics365/contact-center/administer/create-rollout-plans
+        text: Create rollout plans to manage AI agents        
     - title: Develop
       links:
       - url: develop/reference/about-entity-reference.md
@@ -155,14 +157,14 @@ additionalContent:
         text: Ask a question
       - url: use/use-copilot-email.md
         text: Write an email with Copilot
-    - title: Use AI capabilities
+    - title: Use AI agents
       links:
-      - url: use/csw-view-ai-suggested-cases-knowledge-articles.md
-        text: View AI-suggested similar cases and knowledge articles 
-      - url: use/teams-use-suggested-contacts.md
-        text: Use suggested contacts
-      - url: use/use-ai-suggested-contacts-teams.md
-        text: Collaborate with AI-suggested contacts in Microsoft Teams
+      - url: use/use-case-creation-agent.md
+        text: Use Case Management Agent to create and update cases 
+      - url: use/admin-km-agent-review.md
+        text: Use Knowledge Management Agent
+      - url: /dynamics365/contact-center/use/use-intent-suggestions
+        text: Use Customer Intent Agent
     - title: Get insights and analyze service operations 
       links:
       - url: use/omnichannel-analytics-insights.md

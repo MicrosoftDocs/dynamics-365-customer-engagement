@@ -35908,6 +35908,11 @@
       "source_path": "ce/field-service/create-simple-selection-rule.md",
       "redirect_url": "/dynamics365/customer-service/administer/create-simple-selection-rule",
       "redirect_document_id": false
-    }    
+    },   
+    {
+      "source_path": "ce/customer-service/use/supervisor-historical-analytics.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/use/supervisor-historical-analytics",
+      "redirect_document_id": false
+    } 
   ]
 }
