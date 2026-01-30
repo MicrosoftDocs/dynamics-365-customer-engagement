@@ -53,7 +53,7 @@ As an **administrator**, you can:
 
 As a **knowledge author**, you can:
 
-- Create major and minor versions of a knowledge article, and keep your articles up to date with the latest information while you track changes throughout the lifecycle of your products and services. Learn more in [Manage article versions](ka-versions.md#create-and-manage-article-versions).
+- Create major and minor versions of a knowledge article, and keep your articles up to date with the latest information while you track changes throughout the lifecycle of your products and services. Learn more in [Manage knowledge article versions](ka-versions.md#manage-knowledge-article-versions).
 - Create translations for a knowledge article record in multiple languages. Learn more in [Create a knowledge article translation](../administer/work-knowledge-articles.md#create-a-knowledge-article-translation).
 - Publish articles as soon as they are approved, or schedule them for later publication. You can also set expiration dates on articles. Learn more in [Publish knowledge articles](publish-ka.md#publish-knowledge-articles).
 
