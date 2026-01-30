@@ -86,7 +86,7 @@ Posts about knowledge article-related activities begin to appear in the **Timeli
 
 ## Automatically generate article keywords and descriptions
 
-Use [Copilot's form fill assistance](/power-apps/user/form-filling-assistance) to automatically generate knowledge article keywords and description.
+[Fill forms using Copilot](/power-apps/user/form-filling-assistance) to automatically generate knowledge article keywords and description.
 
 ## Create knowledge articles using templates
 
