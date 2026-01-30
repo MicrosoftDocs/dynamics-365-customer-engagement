@@ -985,7 +985,7 @@
   - name: Implement Dynamics 365 Customer Service
     href: ../implement/cs-troubleshooting-faqs.md?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
   - name: Use Dynamics 365 Customer Service
-    href: ../use/supervisor-historical-analytics.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+    href: ../use/supervisor-access-diagnostics.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
   - name: Develop Dynamics 365 Customer Service
     href: ../develop/omnichannel-developer.md?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml
   - name: Dynamics 365 Channel Integration Framework

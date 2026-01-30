@@ -2,6 +2,7 @@
 title:  Configure agent context in Azure agents  
 description: Use this article to understand how you can enable an Azure agent to understand context while authoring the agent flow.
 ms.date: 12/08/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
