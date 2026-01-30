@@ -31,7 +31,7 @@ Use [Microsoft Copilot Studio](https://www.microsoft.com/microsoft-365-copilot/m
 > - The existing D365 Service MCP Server is deprecated and you must remove it. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
 > - Claude Desktop isn't supported with Dynamics 365 Customer Service MCP Server.
 > - We recommend that you don't use deprecated connections and consider deleting them.
-> - Starting December 15, 2025, Dynamics 365 MCP tools are charged when they are accessed by AI agents created outside of Microsoft Copilot Studio. If you have Dynamics 365 Premium licenses, such as Dynamics 365 Sales Premium, Finance Premium, Supply Chain Premium, and Customer Service Premium, or a Microsoft 365 Copilot User Subscription License, you aren't charged for accessing Dynamics 365 data, even when that data is accessed from outside Copilot Studio.
+> - Learn about the pricing of Dynamics 365 MCP tools in the note in [Connect to Dataverse with Model Context Protocol](/power-apps/maker/data-platform/data-platform-mcp#list-of-tools).
 
 ## Configure an AI agent based on MCP server
 
