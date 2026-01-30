@@ -153,7 +153,7 @@ With the knowledge article attachments option, you can stop using notes attachme
 
 ## Automatically generate article keywords and description
 
-Use [Copilot's form fill assistance](/power-apps/user/form-filling-assistance) to automatically generate knowledge article keywords and description.
+[Fill forms using Copilot](/power-apps/user/form-filling-assistance) to automatically generate knowledge article keywords and description.
 
 ## Set up knowledge search logic
 
