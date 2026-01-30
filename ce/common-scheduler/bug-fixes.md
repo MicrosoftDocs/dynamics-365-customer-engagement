@@ -1,7 +1,7 @@
 ---
 title: Version history for Universal Resource Scheduling
 description: See what's new and changed in the Universal Resource Scheduling solution.
-ms.date: 08/20/2025
+ms.date: 01/09/2026
 ms.subservice: common-scheduler
 ms.topic: release-notes
 author: mkelleher-msft

@@ -2,7 +2,7 @@
 title: Connect to Azure Communication Services
 description: Learn how to connect to Azure Communication Services by using a new or existing resource to configure the voice channel.
 ms.date: 04/29/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

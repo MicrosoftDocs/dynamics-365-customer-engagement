@@ -20,7 +20,7 @@ ms.assetid: e9258994-b84a-cefb-4d97-762f4bc3ca5a
 Digital transformation is real. Across every industry vertical, companies are rethinking their business processes and reorganizing their segments. Use LinkedIn Sales Navigator to enhance key application scenarios by connecting the system of record with the [!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] data graph and insights. You can also build custom applications by using [!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] Sales Navigator to enhance business processes with data about people, organizations, and relationships. 
 
 >[!NOTE]
->The LinkedIn Sales Navigator solution is also available for Dynamics 365 Sales Professional.
+>The LinkedIn Sales Navigator solution is also available in the Sales Professional app.
 
 ## Licensing requirements
 
@@ -78,7 +78,7 @@ The control binds to a field that is used to match the record with [!INCLUDE[pn-
 Two [!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] Sales Navigator widgets are available to display on forms in [!INCLUDE[pn-dynamics-365](../../includes/pn-dynamics-365.md)]. Please refer to the link below for more information and detailed steps for installing and setting up the solution. 
 
 > [!NOTE]
->Before April 2019, there were two separate solutions on AppSource. Now there is a single solution included out of box, however there is still some required setup to configure LinkedIn's CRM sync.
+>Before April 2019, there were two separate solutions on Marketplace. Now there is a single solution included out of box, however there is still some required setup to configure LinkedIn's CRM sync.
 
 [Set up the LinkedIn Sales Navigator for Microsoft Dynamics integration](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/ms-dynamics-sync-activity-writeback)
 

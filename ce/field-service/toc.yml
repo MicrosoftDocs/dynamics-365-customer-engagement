@@ -30,8 +30,6 @@ items:
           href: field-service-version-history-resource-scheduling.md
         - name: Resource Scheduling Optimization
           href: field-service-version-history-resource-scheduling-optimization.md
-        - name: Microsoft 365 integrations for Field Service
-          href: flw-whats-new.md
         - name: Version history archive
           href: version-history-archive.md
     - name: Deprecations
@@ -103,18 +101,28 @@ items:
         - name: License compliance for Field Service
           href: license-compliance-field-service.md
 
-- name: Copilot in Field Service
+- name: Copilot and AI agents in Field Service
   items:
-    - name: Side pane chat
-      href: copilot-side-pane.md
-    - name: Work order summary
+    - name: Copilot
       items:
-        - name: Enable work order summary
-          href: enable-work-order-recap.md
-        - name: Summarize work orders
-          href: use-work-order-recap.md  
-    - name: Work order update
-      href: work-order-update.md
+        - name: Copilot overview
+          href: copilot-overview.md
+        - name: Side pane chat
+          href: copilot-side-pane.md
+        - name: Work order summary
+          items:
+            - name: Enable work order summary
+              href: enable-work-order-recap.md
+            - name: Summarize work orders
+              href: use-work-order-recap.md  
+        - name: Work order update
+          href: work-order-update.md
+        - name: Create inspection templates
+          href: inspections-copilot.md      
+    - name: AI agents
+      items:
+        - name: AI agents overview
+          href: ai-agents-overview.md
 
 - name: Work orders
   items:
@@ -133,8 +141,6 @@ items:
       href: inspections-overview.md
     - name: Create and view inspections
       href: inspections.md
-    - name: Create inspection templates with Copilot
-      href: inspections-copilot.md
     - name: Advanced inspection options
       href: inspections-advanced.md
     - name: Run reports on inspections
@@ -384,7 +390,7 @@ items:
   items:
     - name: Overview
       href: field-service-km-overview.md
-    - name: Create knowledge articles
+    - name: Create, review, and publish knowledge articles
       href: field-service-knowledge-management.md
     - name: Link knowledge articles
       href: field-service-km-link.md
@@ -534,7 +540,7 @@ items:
           href: finance-operations-integration-setup.md
         - name: Create a work order
           href: finance-operations-integration-create-wo.md
-    - name: Integrate bookings with Outlook calendars (preview)
+    - name: Integrate bookings with Outlook calendars
       href: outlook-integration.md
     - name: Dynamics 365 Supply Chain Management
       href: supply-chain-field-service-integration.md
@@ -544,8 +550,8 @@ items:
       href: mixed-reality-guides-integration.md
     - name: SAP integration
       href: field-service-sap-integration.md
-    - name: Apps on AppSource
-      href: https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-for-field-services
+    - name: Apps on Marketplace
+      href: https://marketplace.microsoft.com/marketplace/apps?product=dynamics-365-for-field-services
     - name: Dynamics 365 US Government cloud
       href: /power-platform/admin/microsoft-dynamics-365-government
 

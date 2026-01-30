@@ -32,7 +32,7 @@ Set up the product catalog with the collection of products that you sell and the
  A product catalog is a collection of products and their pricing information. To set up pricing, you need to define the units in which your products are sold, the amount to charge for each unit, and the discounts you want to offer based on volume purchased.  
 
 > [!NOTE]
-> Product families are only supported with Sales Enterprise and Sales Premium licenses.
+> Product families are only available in the Sales Hub app.
 
 Watch this video to understand the components of a product catalog and how to set them up:
 

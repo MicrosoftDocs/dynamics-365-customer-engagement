@@ -2,7 +2,7 @@
 title: SLA limitations
 description: Learn the limitations of service-level agreements in Dynamics 365 Customer Service.
 ms.date: 10/22/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas

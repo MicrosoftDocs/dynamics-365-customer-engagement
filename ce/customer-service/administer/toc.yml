@@ -96,10 +96,6 @@
           href: manage-routing-diagnostics-data.md
       - name: Manage routing rules templates
         href: manage-routing-rules-templates.md
-      - name: View diagnostics for unified routing
-        href: unified-routing-diagnostics.md
-      - name: Manage routing diagnostics data
-        href: manage-routing-diagnostics-data.md
       - name: Use best practices to set up unified routing
         href: unified-routing-best-practices.md
       - name: FAQ about unified routing
@@ -314,6 +310,8 @@
         href: add-recipient-control.md
       - name: Configure a default signature template for a queue
         href: add-signature-template-queue.md
+      - name: Configure sentiment analysis for emails (preview)
+        href: configure-sentiment-analysis.md
       - name: Email FAQ and known issues
         href: /power-apps/user/activities-known-issues?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
     - name: Inbox
@@ -376,8 +374,6 @@
         href: configure-teams-collaboration.md
       - name: Configure rules-based suggestions for contacts in Teams
         href: configure-rules-based-suggested-contacts.md
-      - name: Configure auto-summarization of conversations
-        href: cs-enable-ai-generated-summary.md
       - name: Set up Join a Teams call for agents
         href: set-up-join-a-teams-call.md
       - name: Configure customer support swarming
@@ -654,7 +650,7 @@
       items:
       - name: Productivity pane
         href: productivity-pane.md
-      - name: Configure time-out rules
+      - name: Configure timeout rules
         href: configure-time-out-rules.md
       - name: Enable multisession experience in custom apps
         href: enable-multisession-custom-apps.md
@@ -766,6 +762,8 @@
         items:
         - name: Configure agent feed
           href: configure-agent-feed.md
+      - name: Enable Agent insights dashboard
+        href: /dynamics365/contact-center/administer/enable-agent-insights?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Use and customize analytics and insights
         href: analytics_overview.md
       - name: Supported regions and languages for analytics and insights
@@ -852,6 +850,8 @@
           href: add-facilities-equipment-cs-app.md
         - name: Create resource groups
           href: create-edit-resource-group.md
+        - name: Create a simple selection rule for resource selection
+          href: create-simple-selection-rule.md
       - name: Service Scheduling FAQ
         items:
         - name: Service Scheduling FAQ

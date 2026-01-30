@@ -15,10 +15,7 @@ Learn how to access the Sales app, navigate the UI, and understand the data in t
 
 1. Visit the [Apps page](https://office.com/apps) on office.com.
 
-2. Select one of the following cards depending on your license:
-
-     1. For Sales Enterprise, select **Sales Hub**.
-     1. For Sales Professional, select **Sales Professional**.
+2. Select **Sales Hub** or **Sales Professional** depending on your Dynamics 365 Sales license. Check with your administrator if you're not sure which app to use.
 
      If you don't see either of these cards, contact your Dynamics 365 administrator to get access.
 

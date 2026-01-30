@@ -1,7 +1,7 @@
 ---
 title: Universal Resource Scheduling version history
 description: Find a list of important updates for Universal Resource Scheduling in Dynamics 365 Field Service
-ms.date: 08/27/2025
+ms.date: 01/09/2026
 ms.update-cycle: 1095-days
 ms.subservice: common-scheduler
 ms.topic: overview

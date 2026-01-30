@@ -1,7 +1,7 @@
 ---
 title: Copilot Studio agents and app registrations for sales agents
 description: Learn about Copilot Studio agents and Microsoft Entra app registrations used by various Dynamics 365 Sales agents.
-ms.date: 07/09/2025
+ms.date: 01/16/2026
 ms.update-cycle: 180-days
 ms.topic: concept-article
 ms.service: dynamics-365-sales
@@ -37,11 +37,14 @@ The Sales Qualification Agent uses the following Copilot Studio agents:
 - **D365 Sales Agent - Research**: This agent conducts research to gather insights and data that can help in understanding leads and tailoring the sales approach. This agent is shared across Sales Qualification Agent and Sales Close Agent.
 - **D365 Sales Agent - Competitor**: This agent analyzes competitors related to the lead, providing valuable information that can be used to position offerings effectively. This agent is shared across Sales Qualification Agent and Sales Close Agent.
 - **D365 Sales Agent - Custom Research**: This agent performs researches on custom topics as specified by the sales team to gather specific insights relevant to their sales strategy.
-- **D365 Sales Agent - Readiness**: This agent determines if the lead is a good fit for further engagement by analyzing the lead's profile against the ideal customer profile.
+- **D365 Sales Agent - Readiness**: This agent determines if the lead is a good fit for further engagement by analyzing the lead's profile against the target customer profile.
 - **D365 Sales Agent - Email Validation**: This agent verifies the validity of a lead's email ID and categorizes it as personal or work.
 - **D365 Sales Agent - Outreach**: This agent drafts an outreach email to the lead, making it easier for sales professionals to initiate contact.
 - **D365 Sales Agent - Engage Autonomous**: This agent autonomously engages with leads and answers their questions using knowledge sources configured by the administrator.
 - **D365 Sales Agent - TCP Prefill Agent**: This agent auto-generates the Target Customer Profile (TCP) based on the company description and value proposition.
+- **D365 Sales Agent - Stakeholder Research**: This agent identifies and researches key stakeholders within the lead's organization to provide insights that can help in building relationships.
+- **D365 Sales Agent - Engage Autonomous**: This agent autonomously engages with leads and answers their questions using knowledge sources configured by the administrator.
+- **D365 Sales Agent - Summary Synthesizer**: This agent synthesizes summaries of research findings and insights to provide a concise overview for sales professionals.
 
 ## Sales Close Agent
 
@@ -51,6 +54,7 @@ The Sales Close Agent uses the following Copilot Studio agents:
 
 - **D365 Sales Agent - Research**: This agent conducts research to gather insights and data that can help in understanding opportunities and tailoring the sales approach. This agent is shared across Sales Qualification Agent and Sales Close Agent.
 - **D365 Sales Agent - Competitor**: This agent analyzes competitors related to the opportunity, providing valuable information that can be used to position offerings effectively. This agent is shared across Sales Qualification Agent and Sales Close Agent.
+- **D365 Sales Agent - Custom Research**: This agent performs researches on custom topics as specified by the sales team to gather specific insights relevant to their sales strategy.
 
 ## Copilot in Dynamics 365 Sales
 

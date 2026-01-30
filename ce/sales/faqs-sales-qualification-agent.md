@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ about the Research-only mode of Sales Qualification Agent
 description: Get answers to frequently asked questions about the use of AI in the Research-only mode (part of Sales Qualification Agent) in Dynamics 365 Sales.
-ms.date: 08/11/2025
+ms.date: 01/16/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.topic: faq
@@ -14,7 +14,7 @@ ms.reviewer: lavanyakr
 
 # Responsible AI FAQ for the Research-only mode of Sales Qualification Agent
 
-These frequently asked questions are intended to help you understand the effect of AI on the Research-only mode of the Sales Qualification Agent in Dynamics 365 Sales.
+These frequently asked questions help you understand the effect of AI on the Research-only mode of the Sales Qualification Agent in Dynamics 365 Sales.
 
 ## What is Research-only mode of the Sales Qualification Agent?
 
@@ -22,7 +22,7 @@ The Research-only mode of the Sales Qualification Agent automates the following 
 
 - Researches leads and their companies using configured knowledge sources, public web sources, and data in Dataverse.
 - Synthesizes the research insights to provide a 360-degree view of the lead.
-- Uses the research insights and data in Dataverse to evaluate the lead's fit with the sales team's ideal customer profile.
+- Uses the research insights and data in Dataverse to evaluate the lead's fit with the sales team's target customer profile.
 - Drafts an initial outreach email to the lead based on the research insights and lead's current interests. Sellers can review and send the draft email.
 
 ## How is the Research-only mode of the Sales Qualification Agent intended to be used?
@@ -33,9 +33,9 @@ The Research-only mode of the Sales Qualification Agent is designed to help sell
 
 - **Research**: For each lead, sellers can access the **Lead research** page that synthesizes insights about a lead and their company from data in Dataverse and public web sources.
 
-- **Ideal customer profile match**: Sellers get an evaluation of why a lead matches or doesn't match their ideal customer profile.
+- **Target customer profile match**: Sellers get an evaluation of why a lead matches or doesn't match their target customer profile.
 
-- **Initial outreach email**: The agent drafts an initial outreach email based on the research insights and ideal customer profile match. Sellers can review and send the draft email.
+- **Initial outreach email**: The agent drafts an initial outreach email based on the research insights and target customer profile match. Sellers can review and send the draft email.
 
 ## How was the Research-only mode evaluated? What metrics are used to measure performance?
 
@@ -43,7 +43,7 @@ The Research-only mode was carefully evaluated for each use case using curated d
 
 - **Research**: The agent does public web research on companies, so we used a dataset that covers different types of companies, such as public, private, start-up, and non-profit, in different industries. We evaluated the research based on a set of 15 criteria, and iterated until the agent met a threshold score of passing criteria.
 
-- **Ideal customer profile match**: We generated a diverse range of sample leads with varying amounts of data available, then evaluated how well the agent's output matched the expected output. We iterated until the agent met a threshold accuracy score.
+- **Target customer profile match**: We generated a diverse range of sample leads with varying amounts of data available, then evaluated how well the agent's output matched the expected output. We iterated until the agent met a threshold accuracy score.
 
 ## What are the limitations of the Research-only mode? How can users minimize the effect of these limitations?
 
@@ -57,7 +57,7 @@ The Research-only mode has a configuration experience that allows admins to pers
 
 - Select security roles in the agent settings to determine which sellers should have access to the agent. The agent processes only the leads that are owned by sellers in the selected security roles.
 
-- Clearly define the products your sales team sells and their value proposition to help the agent better determine the ideal customer profile fit.
+- Clearly define the products your sales team sells and their value proposition to help the agent better determine the target customer profile suitability.
 
 - Define the attributes of your ideal customer that the agent should look for based on your sales team's target customer and the data in Dataverse.
 
@@ -66,3 +66,14 @@ The agent primarily operates on data that resides in Dataverse. The more informa
 ## Which languages are supported by the Research-only mode?
 
 The Research-only mode is only supported in English language.
+
+## What data is passed to Bing Search?
+
+The agent uses Bing Search to find information about your lead from the public web and generate insights. The agent only passes the lead's company name, website URL, and any Dataverse fields that you manually define in the configuration settings to Bing Search.
+
+Things to consider:
+
+- The search query might get processed at any of Bing's data centers, so it's possible that the information in the query might move across regions.  
+- The agent does not pass any Personally Identifiable Information (PII) to Bing Search. It only passes the search query constructed using the account name, competitor name, and a detailed prompt of what information to fetch from the web.
+- If you configured custom research insights to fetch data from Bing Search, then the agent only passes the account name and the prompt you defined in the configuration.
+- If you configured public web as a data source for custom handover, then the agent passes the fields you defined in the instructions along with the prompt to Bing Search.

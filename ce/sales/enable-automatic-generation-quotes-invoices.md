@@ -18,9 +18,9 @@ Help your sales team to automatically generate quotes and invoice documents with
 ## Enable automatic document generation
 
 > [!NOTE]
-> Automatic document generation is only supported in Sales Professional.
+> Automatic document generation is only supported in the Sales Professional app.
 
-1.  In the Sales Professional site map, select **Sales Settings**.
+1.  In the Sales Professional app site map, select **Sales Settings**.
 
 3.  Under **Advanced Settings**, select **Quote Settings**.
 

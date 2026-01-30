@@ -22,7 +22,7 @@ The sales accelerator is an engagement platform that helps you understand your c
 
 ## Licensing options
 
-When you set up the sales accelerator with the Dynamics 365 Sales Enterprise license, you get 1,500 sequence-connected records per month. If you need more than 1,500 sequence-connected records per month, upgrade to Dynamics 365 Sales Premium.
+When you set up the sales accelerator with the Dynamics 365 Sales Enterprise license, you get 1,500 sequence-connected records per month. If you need more than 1,500 sequence-connected records per month, you must upgrade your license.
 
 ## Set up the sales accelerator<a name="set-up-sales-accelerator"></a>
 
@@ -63,7 +63,7 @@ After the settings are published, you can open the seller's interface for the sa
 
 ## Advanced settings
 
-If you want to make advanced configurations for sales accelerator, select **Go to advanced sales accelerator settings** at the top of the quick setup panel. For information about advanced configurations, go to [Configure the sales accelerator for Sales Premium](enable-configure-sales-accelerator.md).
+If you want to make advanced configurations for sales accelerator, select **Go to advanced sales accelerator settings** at the top of the quick setup panel. For information about advanced configurations, go to [Configure the sales accelerator](enable-configure-sales-accelerator.md).
 
 :::image type="content" source="media/ds-sa-advanced_setup.png" alt-text="Advanced settings link in quick setup panel for sales accelerator.":::
 
@@ -75,7 +75,7 @@ If you've created a custom app, you can add the sales accelerator to it from the
 
 As an administrator, you can monitor the number of records that have been connected to sequences over a period of seven months. 
 
-If you're using the sales accelerator with your Sales Enterprise license, you get 1,500 sequence-connected records per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, you must upgrade to the Sales Premium license to enjoy full benefits with no monthly limit.
+If you're using the sales accelerator with your Sales Enterprise license, you get 1,500 sequence-connected records per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, you must upgrade your license to continue using the sales accelerator without any interruptions. 
 
 > [!IMPORTANT]
 > - The data in the usage panel is refreshed every 24 hours.

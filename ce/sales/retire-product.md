@@ -14,7 +14,7 @@ ms.custom:
 If your organization doesn't sell a product, bundle, or family anymore, retire it so that the product record is no longer available to your sales agents. 
 
 > [!NOTE]
-> Product families are only supported for Sales Enterprise and Sales Premium. 
+> Product families are only available in the Sales Hub app. 
 
 ## Retire a product
 

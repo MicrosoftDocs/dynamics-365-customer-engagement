@@ -72,7 +72,7 @@ items:
                 href: manage-sample-data.md
               - name: Add or remove sample data in Sales Professional
                 href: install-sample-data.md
-          - name: Uninstall Sales Premium Add-ons
+          - name: Uninstall Sales Insights Add-ons
             href: uninstall-sales-insights.md
           - name: Configure your sales organization
             items:
@@ -163,6 +163,8 @@ items:
                     href: configure-sqa-assignment-rules.md
                   - name: Configure knowledge sources
                     href: configure-sqa-knowledge-source.md
+                  - name: Define custom research insights
+                    href: define-custom-research-topics.md
                   - name: Run simulation to review outreach email content
                     href: run-simulation-sqa-outreach-email.md
               - name: Start the agent
@@ -187,15 +189,23 @@ items:
             items:
               - name: Overview
                 href: sales-close-agent.md
-              - name: Setup and configure Sales Close Agent - Research  
+              - name: Set up and configure Sales Close Agent - Research  
                 items:
-                  - name: Setup and configure Sales Close Agent - Research
+                  - name: Set up and configure Sales Close Agent - Research
                     href: configure-opportunity-research-agent.md
+                  - name: Configure risk and importance criteria
+                    href: opportunity-research-agent-advanced-settings.md
+                  - name: Define custom research insights
+                    href: define-custom-research-topics.md
+                  - name: Edit settings of Sales Close Agent - Research
+                    href: edit-opportunity-research-agent-settings.md
                   - name: View agent insights and metrics
                     href: view-sales-close-agent-research-insights-metrics.md
               - name: Set up and configure Sales Close Agent - Engage
                 href: configure-sales-close-agent.md      
                 items:
+                - name: Set up through the Setup Assistant (preview)
+                  href: sales-close-agent-engage-setup-assistant.md
                 - name: Open the settings page
                   href: open-sales-close-agent-settings.md
                 - name: Configure the agent profile
@@ -210,6 +220,8 @@ items:
                   href: configure-sales-close-agent-email-content.md
                 - name: Configure knowledge sources
                   href: configure-sales-close-agent-knowledge-sources.md
+                - name: Test the agent
+                  href: sales-close-agent-engage-test.md  
                 - name: Start the agent 
                   href: start-sales-close-agent.md
                 - name: Manage the agent
@@ -220,7 +232,7 @@ items:
                   href: view-sales-close-agent-engage-insights-metrics.md
                 - name: View records processed by agent
                   href: view-sales-close-agent-engage-processed-records.md  
-                - name: How the Sales Close Agent - Engage works
+                - name: How the agent works
                   href: how-sales-close-agent-engage-mode-works.md
           - name: Sales Research Agent (preview)
             items:
@@ -238,10 +250,10 @@ items:
         items:
           - name: Copilot overview
             href: copilot-overview.md
-          - name: Configure fields for summary and recent changes
-            href: copilot-configure-summary-fields.md
           - name: Turn on and set up Copilot in Dynamics 365 Sales
             href: enable-setup-copilot.md
+          - name: Configure fields for summary and recent changes
+            href: copilot-configure-summary-fields.md
           - name: Configure fields for what's new
             href: copilot-configure-whatsnew-field.md
           - name: Configure Copilot to use SharePoint sites
@@ -357,15 +369,15 @@ items:
                 href: manage-excel-templates.md
               - name: Create email templates
                 href: /powerapps/user/email-template-create?context=/dynamics365/context/sales-context
-          - name: Work with hierarchy visualization
+          - name: Work with visual hierarchies
             items:
-              - name: Overview of hierarchy visualization
+              - name: Overview of visual hierarchies
                 href: hierarchy-visualization.md
-              - name: Create and publish a hierarchy visualization
+              - name: Design and publish a hierarchy
                 href: create-activate-hierarchy-visualizations.md
-              - name: Manage hierarchy visualization
+              - name: Manage hierarchies
                 href: manage-hierarchy-visualizations.md
-              - name: Add a view hierarchy button
+              - name: Add a visual hierarchy button
                 href: add-hierarchy-visualization-custom-tables.md
           - name: Configure email engagement
             href: configure-email-engagement.md
@@ -735,8 +747,6 @@ items:
             href: enable-ri.md
           - name: Insights generated from Microsoft 365 data
             href: insights-from-m365.md
-          - name: Microsoft 365 consent types
-            href: ms365-consent-types.md
           - name: Add relationship intelligence widgets to custom forms
             href: add-ri-widgets-to-custom-form.md
           - name: Grant access to who knows whom information
@@ -1025,11 +1035,11 @@ items:
             items:
               - name: Use auto capture
                 href: free-auto-capture.md
-          - name: Work with hierarchy visualization
+          - name: Work with visual hierarchies
             items:
-              - name: Overview of hierarchy visualization
+              - name: Overview of visual hierarchies
                 href: hierarchy-visualization.md
-              - name: View and understand hierarchy visualization
+              - name: View and understand a hierarchy
                 href: view-hierarchy-visualizations.md
           - name: How notes analysis assists you with suggestion
             href: notes-analysis.md
@@ -1427,7 +1437,7 @@ items:
         items:
           - name: RecalculatePrice Action
             href: developer/reference/recalculateprice-action.md
-      - name: Sales premium capabilities
+      - name: Sales Insights capabilities
         items:
           - name: Action Reference
             items:

@@ -24,7 +24,7 @@ Quotes have important data about the customers and the products they're interest
 
 2. In the Sales Professional app site map, select **Sales Settings**.
     > [!NOTE]
-    > This feature is not supported for Sales Enterprise and Sales Premium licenses and hence it's not available in the Sales Hub app.
+    > This feature is only available in the Sales Professional app.
 
 3.  Under **Advanced Settings**, select **Quote Settings**.
 

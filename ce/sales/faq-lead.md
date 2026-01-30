@@ -1,7 +1,7 @@
 ---
 title: Lead management FAQs
 description: Get answers to frequently asked questions about various aspects of Lead management such as lead qualification, duplicate detection, and scoring. 
-ms.date: 11/12/2025
+ms.date: 12/23/2025
 ms.topic: faq
 author: udaykirang
 ms.author: udag
@@ -16,7 +16,7 @@ ms.custom:
 
 # Lead management FAQs
 
-This article answers frequently asked questions about Lead management in Dynamics 365 Sales, Sales premium, and Sales professional.
+This article answers frequently asked questions about Lead management in Dynamics 365 Sales.
 
 ## FAQs about lead qualification experience
 
@@ -141,11 +141,14 @@ Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insi
 - To build a lead scoring model, you need to have a minimum of 40 qualified and 40 disqualified leads.  
 - To build an opportunity scoring model, you need to have a minimum of 40 won and 40 lost opportunities.  
 - The leads and opportunities must have been created on or after January 1 of the previous year.
+- Enable auto-retraining so that the model can update itself with recent outcomes without manual intervention.
 
 <a name="scoring-minimum-requirement"></a>
 ### How do I verify whether I have the required number of leads or opportunities to create a scoring model?
 
-Before you create a lead or opportunity scoring model, you need to ensure that you have a minimum of 40 qualified and 40 disqualified leads or 40 won and 40 lost opportunities to train the model. You can select a time frame between 3 months and 2 years to train the model.
+Before you create a lead or opportunity scoring model, you need to ensure that you have a minimum of 40 qualified and 40 disqualified leads or 40 won and 40 lost opportunities to train the model. If you have more than the minimum requirement, ensure that the data is balanced between the two outcomes (qualified vs. disqualified or won vs. lost) for better model performance.
+
+You can select a time frame between 3 months and 2 years to train the model. Increase the time frame to one to two years if you don't have the required number of leads or opportunities within a shorter time frame.
 
 Let's understand the minimum requirement with an example scenario:
 
@@ -180,6 +183,10 @@ If a lead or opportunity isn't scored or the score isn't updated, ensure that th
 - The record meets all the conditions defined in the scoring model.
 - The record is using the same business process flow that is configured in the scoring model.
 - The record was created within the last 2 years from the current date. The model checks the date every time it scores a record. If a record was scored earlier but goes outside the 2-year window in the next scoring cycle, the score won't be updated.
+- If the newly calculated score is the same as the current score, the score displayed remains unchanged even after scoring process completes.
+
+Enable auto-retraining so the model can update itself with recent outcomes without manual intervention each time. If there are limited opportunities, consider extending the training period for the predictive model to one to two years. Ensure the data contains a balanced mix of won and lost cases. Retrain the model to reflect recent outcomes, especially if the data has changed, and check the model's production performance to determine if the issue remains.
+
 
 ### How frequently are the predictive lead scores updated?
 

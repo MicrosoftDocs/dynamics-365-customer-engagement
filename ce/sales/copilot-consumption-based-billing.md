@@ -4,7 +4,7 @@ description: Learn about managing consumption-based billing for agent capabiliti
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: administration, tenant, admin, environment, telemetry, billing
 ms.date: 05/20/2025
 

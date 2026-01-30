@@ -3,41 +3,42 @@ title: Get started with the refreshed mobile experience
 description: Learn about the key features and limitations of the new user experience for the Dynamics 365 Field Service mobile app.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-ms.date: 07/30/2025
+ms.date: 11/28/2025
 ms.update-cycle: 180-days
 author: JonBaker007
 ms.author: jobaker
+ms.reviewer: puneetsingh
 ms.collection: bap-ai-copilot 
 ---
 
 # Get started with the refreshed mobile experience
 
-The new user experience in the Dynamics 365 Field Service mobile app helps service technicians swiftly access information they need. It offers mobile-friendly navigation, gestures, and controls to help technicians save valuable time by quickly updating the status of a booking and get driving directions to their work locations.
+The new user experience in the Dynamics 365 Field Service mobile app helps service technicians swiftly access the information they need. It offers mobile-friendly navigation, gestures, and controls to help technicians save valuable time by quickly updating the status of a booking and getting driving directions to their work locations.
 
 ## Agenda view for the new mobile user experience
 
-The agenda view in the new mobile experience is optimized for frontline workers. It supports quick access to key actions such as updating the booking status, getting directions, or access to Copilot.
+The agenda view in the new mobile experience is optimized for frontline workers. It supports quick access to key actions such as updating the booking status, getting directions, or accessing Copilot.
 
 Admins can [configure the agenda view to show fields relevant to the organization's business needs](/dynamics365/guidance/resources/fs-mobile-booking-calendar).
 
 ### Agenda view time update
 
-Updating the booking status in the agenda view also updates some time values in the underlying booking record. The following are the values that are updated when the status changes. The list refers to the out-of-the-box status to which all custom statuses are mapped.
+When you update the booking status in the agenda view, you also update some time values in the underlying booking record. The following values update when the status changes. The list refers to the out-of-the-box status to which all custom statuses are mapped.
 
 - From *Scheduled* to *Traveling*:
-  - Start time is updated to current time
-  - End time is updated to current time plus duration
+  - Start time updates to current time
+  - End time updates to current time plus duration
 
 - From *Scheduled* or *Traveling* to *In progress*:
-  - End time is updated to current time plus duration
-  - If arrival time is empty (the first time the technician arrives onsite), then arrival time is updated to current time
+  - End time updates to current time plus duration
+  - If arrival time is empty (the first time the technician arrives onsite), then arrival time updates to current time
 
 - From *Completed* to *In progress*:
-  - End time is updated to current time plus 1 minute
+  - End time updates to current time plus 1 minute
 
 - From any status to *Completed*:
-  - End time is updated to current time
-  - If a future booking is set to completed (start time is later than the current time), start time is updated to current time minus 1 minute
+  - End time updates to current time
+  - If a future booking is set to completed (start time is later than the current time), start time updates to current time minus 1 minute
 
 Updating the status in agenda view doesn't change the *estimated arrival time*.
 
@@ -47,7 +48,7 @@ To open the navigation menu, select **More** at the bottom of the screen.
 
 :::image type="content" source="../media/mobile-newux-navigation.png" alt-text="Renderings of two mobile devices showing the navigation menu in the Field Service mobile app.":::
 
-Views are optimized for the mobile app and provide frontline workers with the information they require to find the records they need. More information: [Understand model-driven app views](/power-apps/maker/model-driven-apps/create-edit-views)
+Views are optimized for the mobile app and provide frontline workers with the information they need to find the records they need. More information: [Understand model-driven app views](/power-apps/maker/model-driven-apps/create-edit-views)
 
 :::image type="content" source="../media/newux-view-portrait.png" alt-text="Screenshot of a mobile view in portrait.":::
 
@@ -75,11 +76,13 @@ Learn more in [AI-powered work order update (preview)](../work-order-update.md) 
 
 ## Use embedded Guides in the mobile app
 
+[!INCLUDE[remote-assist-guides-deprecate](../../includes/remote-assist-guides-deprecate.md)]
+
 If your organization uses Dynamics 365 Guides, you can [use the new user experience for the Field Service mobile app](set-up-field-service-mobile.md) to access guides from mobile devices. If Guides uses the same environment as Field Service, users find a **Library** option at the bottom of the app. Select it to access your organization's guides library, search for specific guides, and follow them step by step.
 
 :::image type="content" source="../media/mobile-newux-related-guides-home.png" alt-text="Screenshot of Guides home page within the Field Service mobile app.":::
 
-For more information, see [Embedded Guides in Field Service mobile app (preview)](/dynamics365/mixed-reality/guides/admin-connect-field-service-mobile).
+Learn more in [Embedded Guides in Field Service mobile app (preview)](/dynamics365/mixed-reality/guides/admin-connect-field-service-mobile).
 
 ## Manage user settings
 
@@ -94,6 +97,6 @@ In the new mobile user experience, app users can tap the user icon to access the
 
 > [!NOTE]
 >
-> - The new mobile UX caches metadata changes for up to 8 hours. To see changes sooner, sign out and sign in again.
+> - The new mobile UX caches metadata changes for up to eight hours. To see changes sooner, sign out and sign in again.
 > - The new mobile UX uses the device's time zone and location, but forms built for Unified Interface use the system time zone. If the device and system time zones don't match, set the system time zone to match the device. If the device language isn't enabled in the system, you might see mixed languages.
 > - When you search lists in the new mobile UX, you only get results from text-based fields. You don't get results from other field types, like Lookup.
