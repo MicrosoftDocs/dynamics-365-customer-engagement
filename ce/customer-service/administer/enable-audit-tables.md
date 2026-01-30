@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 01/30/2026
+ms.date: 02/02/2026
 ms.custom: bap-template
 ai.usage: ai-assisted
 ---
@@ -148,13 +148,12 @@ The following tables for unified routing can be enabled for audit logs.
 | Classification rules | msdyn_decisionruleset |
 | Route to queue rules | msdyn_decisionruleset |
 | Workstream | msdyn_liveworkstream |
-| Context variables for chat | msdyn_ocliveworkstreamcontextvariable |
 | Hoops (Operating Hours) | msdyn_operatinghours |
 | Template rulesets | msdyn_templateruleset |
 |**Intent-based routing**| |
-|    Line of business | msdyn_intentfamily |
-|    User groups | msdyn_agentgroup |
-|    Intent groups | msdyn_intent |
+|   - Line of business | msdyn_intentfamily |
+|   - User groups | msdyn_agentgroup |
+|   - Intent groups | msdyn_intent |
 
 ## Search audited events
 
