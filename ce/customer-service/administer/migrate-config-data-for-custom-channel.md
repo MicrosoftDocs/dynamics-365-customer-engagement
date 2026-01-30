@@ -1,7 +1,7 @@
 ---
 title: Migrate unified routing data for custom messaging channel
 description: Learn to export and import data pertaining to custom messaging channel from source to target environments.
-ms.date: 07/08/2024
+ms.date: 01/30/2026
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
