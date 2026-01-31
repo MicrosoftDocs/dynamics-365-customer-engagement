@@ -1,7 +1,7 @@
 ---
-title: Manage historical analytics reports in Omnichannel for Customer Service
-description: Configure Omnichannel historical analytics to analyze service performance, track KPIs, and gain AI insights into customer interactions in Dynamics 365 Customer Service and Contact Center.
-ms.date: 12/16/2025
+title: Manage omnichannel historical analytics reports in Customer Service
+description: Configure omnichannel historical analytics to analyze service performance, track KPIs, and gain AI insights into customer interactions in Dynamics 365 Customer Service and Contact Center.
+ms.date: 01/23/2026
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -9,13 +9,13 @@ ms.reviewer: sdas
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
-# Manage historical analytics reports in Omnichannel for Customer Service
+# Manage omnichannel historical analytics reports in Customer Service
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-You can configure Omnichannel historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support conversations and to group related conversations into topics.
+You can configure omnichannel historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support conversations and to group related conversations into topics.
 
 The historical analytics reports include:
 
@@ -53,7 +53,7 @@ This configuration enables AI-discovered topics from conversations with default 
 
 ### Enable historical analytics for Copilot agents
 
-In Copilot Service admin center, you can enable the historical analytics for AI agents (agents) to give your service managers integrated reports that combine Copilot agents and Omnichannel conversation metrics.
+On the **Omnichannel historical analytics** page, select **Add historical analytics for bot**, and save the changes.
 
 - If Copilot agents are configured with Dynamics 365 Contact Center and you select this option, the Summary and Bot dashboards appear as options in the dashboard filter for the Omnichannel historical analytics report. The Bot dashboard displays metrics specific to the Copilot agent.
 
@@ -63,9 +63,20 @@ In Copilot Service admin center, you can enable the historical analytics for AI 
 
  :::image type="content" source="../media/bot-dashboard-oc.png" alt-text="Dashboard showing KPIs and charts for all bots.":::
 
-**Enable historical analytics for agents in Omnichannel for Customer Service**
+
+### Enable advanced historical analytics for voice and chat Copilot agents
 
 On the **Omnichannel historical analytics** page, select **Add historical analytics for bot**, and save the changes.
+
+To include additional custom variables for reporting in Microsoft Copilot Studio:
+
+1. Select **Add advanced historical analytics for bot**.
+1. In the **Custom Variables** section, add your reporting variables configured in Microsoft Copilot Studio to enable structured tracking and analysis for Line of Business, Division, Product Line, and other custom-defined attributes.
+1. Save the changes.
+
+You can add a maximum of 15 custom variables.
+
+:::image type="content" source="../media/custom-variables-historical-bot.png" alt-text="Screenshot of custom variables used for advanced bot analytics." lightbox="../media/custom-variables-historical-bot.png":::
 
 ### Enable historical analytics for voice
 
