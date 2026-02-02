@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 Unified routing is an intelligent, scalable, and enterprise-grade routing and assignment capability that can direct an incoming work item to the best-suited queue and customer service representative (service representative or representative) by adhering to work item requirements and matching them with the service representative’s capabilities.
 
-The unified routing infrastructure can be used to route service requests on all channels. This creates a unified view of workforce utilization across multiple channels, and thus helps to optimize distribution of work across the workforce. It works in a truly omnichannel way by ensuring that work items on all the channels are routed in a consistent and similar manner. It takes the service representative engagement on different channels into account before any new work is assigned to them.
+The unified routing infrastructure can be used to route service requests on all channels. This information creates a unified view of workforce utilization across multiple channels, and thus helps to optimize distribution of work across the workforce. It works in a truly omnichannel way by ensuring that work items on all the channels are routed in a consistent and similar manner. It takes the service representative engagement on different channels into account before any new work is assigned to them.
 
 Unified routing has two main stages: classification and assignment.
 
@@ -23,7 +23,7 @@ In the classification stage, rules and machine learning (ML) models can be used 
 
 During the assignment stage, the service requests are prioritized and then assigned to the representatives based on the nature of work, related entities, skills, and the current state of the workforce in terms of availability and workload.
 
-For instance, an organization receiving an incoming chat will add information on the work item—such as skills required, urgency level, category of customer, and importance level—in the classification stage, based on certain conditions that are met as part of the configured rules. In the assignment stage, an organization might want to first prioritize the incoming chats based on highest urgency level and importance, and then assign them to the representatives by matching the skills required, current workload status, and availability.
+For instance, an organization receiving an incoming chat adds information on the work item—such as skills required, urgency level, category of customer, and importance level—in the classification stage, based on certain conditions that are met as part of the configured rules. In the assignment stage, an organization might want to first prioritize the incoming chats based on highest urgency level and importance, and then assign them to the representatives by matching the skills required, current workload status, and availability.
 
 ![Unified routing work classification overview.](../media/unified-routing-overview.png "Unified routing work classification overview")
 
@@ -33,7 +33,7 @@ Unified routing optimizes businesses in the following ways:
 
 - Connecting end-customers with the best-suited service representative to provide the right outcome upon first contact.
 
-- Routing work items to the best queue by using attributes in a related entity, thereby saving an admin from creating a custom workflow.
+- Routing work items to the best queue by using attributes in a related entity, which saves the admin from needing to create a custom workflow.
 
 - Using skills-based routing to automatically assign incoming work, matching to the best representative and decreasing resolution time.
 
@@ -41,7 +41,7 @@ Unified routing optimizes businesses in the following ways:
 
 - Using machine-learning models to predict skills and assigning incoming work items to the best representative using skills to avoid writing manual declarative skill-identification rules.
 
-- Prioritizing work items within a queue using work item attributes, added context, or related-entity attributes so as to ensure the business is able to use the representative's time on the most important work items first as per the business need.
+- Prioritizing work items within a queue using work item attributes, added context, or related-entity attributes, which helps ensure that the business uses the representative's time on the most important work items first as per the business need.
 
 - Assigning work items within a queue by matching representative attributes against work item requirements dynamically, thereby assigning them as per the business requirement.
 
@@ -61,7 +61,7 @@ The intelligent skill finder depends upon the custom AI Builder category classif
 - [Supported languages](/ai-builder/before-you-build-text-classification-model#prerequisites)
 
 > [!NOTE]
-> Unified routing is not supported in Unified Service Desk.
+> Unified routing isn't supported in Unified Service Desk.
 
 ### Related information
 
