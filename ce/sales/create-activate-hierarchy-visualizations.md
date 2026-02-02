@@ -117,8 +117,7 @@ A multi-table hierarchy includes multiple tables connected through relationships
 ## Configure hybrid hierarchy
 
 A hybrid hierarchy combines elements of both single-table (self-referential) and multi-table hierarchies.
-To configure a hybrid hierarchy, create a root node using a single-table hierarchy and then add one or more child nodes from other tables to build a multi-table structure.
-Enable options such as **Expand all levels** to view expanded cards when the parent or child tables have their own internal parent-child structure.
+To configure a hybrid hierarchy, create a root node using a single-table hierarchy and then add one or more child nodes from other tables to build a multi-table structure. Enable options such as **Expand all levels** to view expanded cards when the parent or child tables have their own internal parent-child structure. For example, if you have a hierarchy of **Accounts** with child contacts and the account table has a self-referential relationship, you can enable **Expand all levels** to show a tree of accounts that displays child contacts for each regional and branch account.  
 After you design the hybrid hierarchy, preview the combined hierarchy and publish it.
 
 ## Preview and publish hierarchy
