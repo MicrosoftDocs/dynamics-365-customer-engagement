@@ -10,7 +10,6 @@ search.audienceType:
   - customizer
   - developer
 tags: NoHandoff
-ms.custom: evergreen
 ---
 
 # Create agent application using Unified Service Desk
