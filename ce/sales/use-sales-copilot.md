@@ -1,7 +1,7 @@
 ---
 title: Ask Copilot questions
 description: Learn how to use Copilot in Dynamics 365 Sales to summarize sales records, catch up on recent changes, prepare for meetings, and answer sales-related questions.
-ms.date: 08/21/2025
+ms.date: 02/02/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -33,44 +33,17 @@ Your admin turned on and set up Copilot in your sales app. "Sales app" refers to
 
 ## Open Copilot in your sales app
 
-You can open Copilot in a side pane to view it side-by-side with a record such as an opportunity or a lead, or in an immersive, full-screen view.
-
-[Open the Copilot side pane](#chat-with-copilot-in-a-side-pane) when you want to get quick insights about a record or ask Copilot to summarize other records, display recent changes, and prepare for meetings without leaving the current page. You can open the Copilot side pane from any page in your app except the **Copilot** page.
-
-[Open the Copilot page in a full-screen view](#chat-with-copilot-in-full-screen-view-preview) when you want more space to focus on your chat with Copilot.
-
-<a name=open-copilot-sidepane></a>
-
-### Chat with Copilot in a side pane
-
 Select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.svg" border="false":::) on the right side of your app.
 
 :::image type="content" source="media/view-prompts.png" alt-text="Screenshot of the prompt guide in the Copilot side pane in Dynamics 365 Sales, with the notebook icon highlighted.":::
 
-<a name=open-copilot-immersive></a>
-
-### Chat with Copilot in full-screen view (preview)
-
->[!IMPORTANT]
->Effective September 2025, the Copilot in full-screen view preview feature in Copilot in Dynamics 365 Sales is deprecated region-wise. Learn more about the deprecation in, [Copilot in Dynamics 365 Sales in full-screen view](deprecations-sales.md#copilot-in-dynamics-365-sales-in-full-screen-view).
-
-[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
-Select **Copilot** in your app's site map.
-
-If Copilot isn't there, ask your admin to turn on Copilot preview features. If you're using a custom app, ask your admin to add the Copilot page to your app's site map.
-
-:::image type="content" source="media/copilot-immersive.png" alt-text="Screenshot of the Copilot page in Dynamics 365 Sales showing suggested requests, with the Copilot icons in the left and right side panes highlighted.":::
-
 ## Interact with Copilot
 
-Whether you're using Copilot in a side pane or in full-screen view, you can interact with it in the following ways:
+You can interact with Copilot through the side pane in the following ways:
 
 - [Ask a question in natural language](#chat-with-copilot-in-NL) in the Copilot chat box.
 - Select one of the suggestions from the card. 
-- To get a list of predefined requests, or *prompts*, that Copilot can help you with, select **View Prompts** (notebook icon) above the Copilot chat box. [Learn more about predefined prompts](copilot-prompt-guide.md).
+- Select **View Prompts** (notebook icon) above the Copilot chat box to get a list of predefined requests, or *prompts*, that Copilot can help you with, . [Learn more about predefined prompts](copilot-prompt-guide.md).
 
 ## Turn off Bing search
 
