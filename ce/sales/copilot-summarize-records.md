@@ -1,7 +1,7 @@
 ---
 title: Summarize records with Copilot 
 description: Learn how to summarize your records in Dynamics 365 Sales such as opportunities, leads, and accounts with Copilot. 
-ms.date: 09/15/2025
+ms.date: 02/02/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -21,7 +21,7 @@ ms.collection: bap-ai-copilot
 
 Use Copilot to summarize your records in Dynamics 365 Sales such as opportunities, leads, and accounts. This article describes how to summarize records with Copilot and the information that you can get from the summaries.  
 
-The summaries are displayed on the top of the record in an insight banner thus reducing the need to switch between the record and the Copilot side pane or full-screen view. However, you can still summarize the record in the Copilot side pane using the prompts or natural language. [Learn more about chatting with Copilot in natural language](use-sales-copilot.md#chat-with-copilot-in-NL).
+The summaries are displayed on the top of the record in an insight banner thus reducing the need to switch between the record and the Copilot side pane. However, you can still summarize the record in the Copilot side pane using the prompts or natural language. [Learn more about chatting with Copilot in natural language](use-sales-copilot.md#chat-with-copilot-in-NL).
 
 By default, the summary insight banner is available for opportunities, leads, and accounts. To add the summary insight banner to custom entities, contact your administrator to [configure the summary insight banner](/power-apps/user/record-summaries).  
 

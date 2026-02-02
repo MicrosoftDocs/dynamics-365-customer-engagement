@@ -1,7 +1,7 @@
 ---
 title: Ask Copilot questions
 description: Learn how to use Copilot in Dynamics 365 Sales to summarize sales records, catch up on recent changes, prepare for meetings, and answer sales-related questions.
-ms.date: 01/29/2026
+ms.date: 02/02/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -33,14 +33,6 @@ Your admin turned on and set up Copilot in your sales app. "Sales app" refers to
 
 ## Open Copilot in your sales app
 
-Open Copilot in a side pane to view it side-by-side with a record (opportunity or lead) or view summary in full-screen.
-
-[Open the Copilot side pane](#chat-with-copilot-in-a-side-pane) when you want to get quick insights about a record or ask Copilot to summarize other records, display recent changes, and prepare for meetings without leaving the current page. You can open the Copilot side pane from any page in your app except the **Copilot** page.
-
-<a name=open-copilot-sidepane></a>
-
-### Chat with Copilot in a side pane
-
 Select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.svg" border="false":::) on the right side of your app.
 
 :::image type="content" source="media/view-prompts.png" alt-text="Screenshot of the prompt guide in the Copilot side pane in Dynamics 365 Sales, with the notebook icon highlighted.":::
@@ -51,7 +43,7 @@ You can interact with Copilot through the side pane in the following ways:
 
 - [Ask a question in natural language](#chat-with-copilot-in-NL) in the Copilot chat box.
 - Select one of the suggestions from the card. 
-- To get a list of predefined requests, or *prompts*, that Copilot can help you with, select **View Prompts** (notebook icon) above the Copilot chat box. [Learn more about predefined prompts](copilot-prompt-guide.md).
+- Select **View Prompts** (notebook icon) above the Copilot chat box to get a list of predefined requests, or *prompts*, that Copilot can help you with, . [Learn more about predefined prompts](copilot-prompt-guide.md).
 
 ## Turn off Bing search
 
