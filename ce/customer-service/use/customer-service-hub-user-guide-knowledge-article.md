@@ -82,33 +82,11 @@ Make sure that you have Create and Read permissions on the Knowledge Article ent
 > [!TIP]
 > Select the icon ![Flyout icon.](../media/flyout.png) to pin the stage flyout vertically.
   
-Posts about knowledge article-related activities begin to appear in the **Timeline** section.  
+Posts about knowledge article-related activities begin to appear in the **Timeline** section. 
 
-## Use AI-suggested article keywords and descriptions
+## Automatically generate article keywords and descriptions
 
-> [!NOTE]
-> The AI-suggested article keywords and descriptions feature is deprecated. Learn more in [AI-suggested article keywords and descriptions is deprecated](../implement/deprecations-customer-service.md). We recommend that you use [Fill forms using Copilot](/power-apps/user/form-filling-assistance) to automatically generate knowledge article keywords and descriptions.
-
-If your administrator enabled keywords and description suggestions, you can select and enter your preferred keywords and descriptions when authoring or updating knowledge articles. Learn more in [Configure AI suggestions for article keywords and description](../administer/configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description).
-
-However, either the **Title** or **Content** fields&mdash;or any other corresponding mapped fields set by the administrator&mdash;must contain some value for suggestions to be generated. If any of the fields that the model uses to generate suggestions are empty, you see messages such as "There was a problem finding suggested keywords" or "There was a problem finding a suggested description."
-
-1. In the article **Content** section, add the content for your knowledge article and then select **Save**. The suggested keywords and description feature is enabled.
-
-1. Select **View** in **SUGGESTED KEYWORDS AND DESCRIPTION**.
-
-      :::image type="content" source="../media/v9-view-suggested-keywords.png" alt-text="View suggested keywords and description link":::
-
-1. In the **Suggested keywords and description** dialog, perform the following steps:
-
-   - Select the keywords that you want to add to your keywords list or select the **Insert all keywords** link to insert all the suggested keywords to the Keywords field. You can enter a keyword in the Keywords field to add to existing list.
-   - Select **Insert suggested description** to add the description to the **Description** field.
-
-     :::image type="content" source="../media/v9-suggested-keywords-description-dialog.png" alt-text="Screenshot showing a Keyword field containing keywords that were selected from the list of suggested keywords below it.":::
-
-1. Select **Apply Changes**.
-
-The selected keywords and description appear in the **Keywords** and **Description** fields of the knowledge article form.
+[Fill forms using Copilot](/power-apps/user/form-filling-assistance) to automatically generate knowledge article keywords and description.
 
 ## Create knowledge articles using templates
 

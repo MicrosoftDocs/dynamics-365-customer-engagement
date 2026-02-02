@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # Add action calls to an event
 You can add multiple action calls to an event so that they are run in the order that is defined in the **Order** field of the event definition. To do so:  
