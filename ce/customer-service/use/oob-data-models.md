@@ -1,7 +1,7 @@
 ---
 title: Data model and report mapping for historical analytics reports
 description: View and customize the default data model and report mapping for historical analytics reports in Dynamics 365 Customer Service.
-ms.date: 10/10/2025
+ms.date: 01/30/2026
 ms.topic: concept-article
 author: Soumyasd27
 ms.author: sdas
@@ -446,6 +446,17 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |FactBotSession|Total conversations|Total conversations associated with AI agents. |
 |FactBotSession|Session ID|The related Omnichannel session ID.  |
 |FactBotSession|Topic ID|Topic ID. Foreign key to DimTopic.  |
+|FactBotSessionNodedetail|AbandonedCount| Number of users who left the conversation before completion.|
+|FactBotSessionNodedetail | ErrorCount| Instances where a node produced an output error.|
+|FactBotSessionNodedetail | SuccessCount| Conversations that are successfully completed at a specific question node, including a speech recognition confidence score.|
+|FactBotSessionNodedetail |UserErrorCount |Cases where the node output was due to a configuration error by the bot author, requiring designer review. |
+|FactBotSessionNodedetail |SystemErrorCount | Errors specific to the Microsoft Copilot Studio system that require investigation using error trace details.|
+|FactBotSessionNodedetail |UserExitCount | Number of users who left the conversation at a particular question node.|
+|FactBotSessionNodedetail |OtherCount | Node outputs that don't fit into any specific category.|
+|FactBotSessionNodedetail |AgentHangupCount |  The agent terminates the conversation at the question node when the maximum threshold is reached, either due to exceeding the limit for no input or the limit for no entity found.|
+|FactBotSessionNodedetail |MaxNoInputCount | A conversation where a fallback action is triggered after reaching the maximum number of no-input attempts at a question node. For example, the user remains silent and doesn't respond to the question “How can I help you?” after four consecutive prompts.|
+|FactBotSessionNodedetail |MaxNoMatchCount | A conversation where a fallback action was triggered due to repeated invalid or unrecognized user responses. For example, the user said “hello” instead of providing the requested detail, such as a zip code.|
+
 
 ### Related information
 
