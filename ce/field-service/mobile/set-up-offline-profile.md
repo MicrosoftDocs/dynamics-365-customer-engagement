@@ -1,7 +1,7 @@
 ---
 title: Set up the mobile offline profile
 description: Learn how to configure the mobile offline profile to work with the Dynamics 365 Field Service mobile app when no network is available.
-ms.date: 05/21/2025
+ms.date: 02/01/2026
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -60,7 +60,7 @@ Administrators control what data the Field Service mobile app downloads with the
 
       :::image type="content" source="../media/fs-mobile-power-apps-offline-table-edit.png" alt-text="Screenshot of the Bookable Resource Booking table offline data settings in the Field Service mobile app offline profile.":::
 
-   - Select the rows or filters, relationships, files, and images to make available offline. Learn more: [Apply filters](/power-apps/mobile/setup-mobile-offline#add-a-table-to-an-offline-profile-and-apply-filters)
+   - Select the rows or filters, relationships, files, and images to make available offline. Learn more: [Apply filters](/power-apps/mobile/setup-mobile-offline#add-a-table-to-an-offline-profile-and-apply-filters).
 
    - Select the sync frequency.
 
@@ -78,27 +78,8 @@ If you have user roles that need different sync settings or tables available off
 
 You can optimize the mobile offline profile by selectively enabling columns to include with a sync. For guidance and best practices, see [Optimize data downloaded to improve sync time and usage](/power-apps/mobile/mobile-offline-guidelines#optimize-data-downloaded-to-improve-sync-time-and-usage).
 
-## Move a mobile offline profile between environments
-
-To control changes and keep your offline profiles in sync, your organization might require that you make changes to the profiles in one environment and then move them into other environments.
-
-1. Sign in to Power Apps at [https://make.powerapps.com/](https://make.powerapps.com/), and select your environment.
-
-1. Select **Apps**, and then open **Field Service Mobile**.
-
-1. Select **Settings**, and then select the **General** tab.
-
-1. Scroll to **Select offline mode and profile**.
-
-1. Select the ellipsis  (**&hellip;**) next to **Field Service Mobile - Offline Profile**, and then select **Copy selected profile**.
-
-1. Modify the copied profile as needed.
-
-1. [Create a managed solution](/power-platform/alm/solution-concepts-alm) that includes the mobile offline profile.
-
-1. Export the managed solution from the original environment.
-
-1. Import the managed solution into the new environment.
+<!--- Move a mobile offline profile between environments removed because it was incorrect per Jon Baker 01/30/2026. Power Apps is supposed to be coming up with a new way to do this.
+--->
 
 ## Best practices for offline mode
 
