@@ -74,11 +74,11 @@ A single table hierarchy uses a self-referential relationship within the table t
 
 1. Save, [preview, and publish the hierarchy](#preview-and-publish-hierarchy).  
 
-## Configure multi-table or hybrid hierarchy
+## Configure multi-table hierarchy
 
-A multi-table or hybrid hierarchy includes multiple tables connected through relationships. You can add multiple child nodes to design complex hierarchies that represent your business data accurately. Follow these steps to configure multi-table or hybrid hierarchies:  
+A multi-table hierarchy includes multiple tables connected through relationships. You can add multiple child nodes to design complex hierarchies that represent your business data accurately. Follow these steps to configure multi-table hierarchies:  
   
-1. Configure the root node by following the steps in [Configure a single table hierarchy](#configure-a-single-table-hierarchy).  
+1. Configure the root node to match your business requirements. The root node is the top-level table in the hierarchy.    
 1. Under the root node, select the add icon located under the tile and enter a name for the child node. In this example, you add the **Contact** table as a child node to the **Account** table.  
 1. Select a table and then select **Add**. In this example, select the **Contact** table.  
     The **Settings** pane opens on the right side of the page.  
@@ -113,6 +113,13 @@ A multi-table or hybrid hierarchy includes multiple tables connected through rel
 
 1. Repeat steps 2 to 5 to add more child nodes as required.  
 1. Save, [preview, and publish the hierarchy](#preview-and-publish-hierarchy).
+
+## Configure hybrid hierarchy
+
+A hybrid hierarchy combines elements of both single-table (self-referential) and multi-table hierarchies.
+To configure a hybrid hierarchy, create a root node using a single-table hierarchy and then add one or more child nodes from other tables to build a multi-table structure.
+Enable options such as **Expand all levels** to view expanded cards when the parent or child tables have their own internal parent-child structure.
+After you design the hybrid hierarchy, preview the combined hierarchy and publish it.
 
 ## Preview and publish hierarchy
 
