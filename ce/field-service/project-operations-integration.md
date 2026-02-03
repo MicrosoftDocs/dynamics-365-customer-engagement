@@ -2,7 +2,7 @@
 title: Field Service integration with Project Operations overview
 ms.reviewer: wesmith
 description: Learn about the integration between Dynamics 365 Field Service and Project Operations.
-ms.date: 01/29/2026
+ms.date: 02/02/2026
 ms.topic: overview
 author: vhorvathms
 ms.author: vhorvath
@@ -20,7 +20,7 @@ This integration is designed for organizations that use:
 
 - Field Service, Project Operations, and Finance and Supply Chain Management, which delivers full end-to-end service, project, and financial orchestration.
 
-- Field Service and Finance and Supply Chain Management, without using the Project Operations application. This approach uses a minimal set of Project Operations setup forms embedded within Field Service.
+- Field Service and Finance and Supply Chain Management, without using the Project Operations application. Field Service and Project Operations remain integrated, but users don't need to open the Project Operations app because all essential workflows are available directly in Field Service. A minimal set of Project Operations configuration forms is embedded in Field Service, enabling customers to complete required setup for Project Operations and Finance and Supply Chain Management without switching applications.
 
 - Field Service and Project Operations, without Finance and Supply Chain Management. This approach supports project-based service and financial alignment under an organizing container. You can use this approach for integration to other ERP solutions or for direct execution and management purposes.
 

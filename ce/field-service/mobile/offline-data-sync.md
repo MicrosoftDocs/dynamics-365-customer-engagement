@@ -17,7 +17,7 @@ To define how often data automatically syncs on the user's mobile device, [set s
 For a guided walkthrough, check out the following video.
 
 >
-> [!VIDEO 02bf237b-8c58-4513-bd4e-1c66b7163793]
+> [!VIDEO c7ac206d-c092-4db7-801c-515b317bbafc]
 
 ## Set sync intervals
 
