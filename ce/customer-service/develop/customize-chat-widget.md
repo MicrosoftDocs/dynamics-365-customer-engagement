@@ -1,7 +1,7 @@
 ---
 title: Customize live chat widgets using data tags
 description: Learn to customize chat widgets by using data tags in the widget script in Copilot Service admin center.
-ms.date: 04/30/2025
+ms.date: 02/03/2026
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
