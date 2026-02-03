@@ -33,7 +33,7 @@ The Sales Close Agent - Research uses the language specified in the [agent setti
 
 The screenshot below shows this scenario, with the agent's language set to German and the user's preferred language set to English.
 
-:::image type="content" source="media/sales-close-agent-language-mismatch.png" alt-text="Screenshot showing the Opportunity Research page with section headings in English and insights in German.":::
+:::image type="content" source="media/sales-close-agent-language-mismatch.png" alt-text="Screenshot showing the Opportunity Research page with section headings in English and insights in German." lightbox="media/sales-close-agent-language-mismatch.png":::
 
 ## How does that agent assess opportunity importance and risk?
 

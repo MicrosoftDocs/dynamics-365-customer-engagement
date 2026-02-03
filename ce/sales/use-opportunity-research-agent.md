@@ -69,7 +69,7 @@ Consider the following information:
 
 ## Opportunity research page
 
-If the research insights appear in a language different from your preferred language in Dynamics 365 Sales, it means the agent is configured to use another language. For details, see [What happens when the agent's language is different from user's preferred language?](opportunity-research-agent-faqs.md#agent-language-difference).
+If the research insights appear in a language different from your preferred language in Dynamics 365 Sales, it means the agent is configured to use another language. For details, see [What happens when the agent's language is different from user's preferred language?](opportunity-research-agent-faqs.md#agent-language-difference)
 
 The Opportunity research page includes the following sections:
 
