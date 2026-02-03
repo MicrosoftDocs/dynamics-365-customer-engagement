@@ -84,7 +84,7 @@ A multi-table hierarchy includes multiple tables connected through relationships
 1. Under the root node, select the add icon located under the tile and enter a name for the child node. In this example, you add the **Contact** table as a child node to the **Account** table.  
 1. Select a table and then select **Add**. In this example, select the **Contact** table.  
     The **Settings** pane opens on the right side of the page.  
-1. In the **General** tab, configure relationship settings with the root node table, define child-parent relationship, and choose view and forms.
+1. In the **General** tab, configure relationship settings with the root node table, define child-parent relationship, and choose view and forms. 
   
     | Setting | Description |
     |---------|-------------|
