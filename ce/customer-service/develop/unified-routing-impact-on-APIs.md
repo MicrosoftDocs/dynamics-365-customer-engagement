@@ -1,7 +1,7 @@
 ---
 title: Understand how unified routing affects queue items and live work items for routed records
 description: Learn how unified routing affects queue items, live work items, and the corresponding APIs in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 02/04/2025
+ms.date: 02/03/2026
 ms.topic: get-started
 author: gandhamm
 ms.author: mgandham
@@ -58,7 +58,9 @@ You can change the **Worked By** field by selecting [**Route To**](/power-apps/d
 > [!CAUTION]
 > If you run a custom script, flow, or action that updates the queue item, live work item, or record at the same time as the automatic assignment, then you might experience assignment errors. We recommend that you run custom scripts or flows before or after the automatic assignment is complete.
 
-### What happens when you use the Assign option
+### What happens when you use the Assign option (preview)
+
+By default, the feature is disabled out of the box. To enable, contact Microsoft Support.
 
 When you use **Assign** on a case form to assign the case to another representative, the following changes occur:
 

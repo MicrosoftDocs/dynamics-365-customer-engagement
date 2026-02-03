@@ -948,7 +948,7 @@
             href: migrate-tool-faqs.md
     - name: Audit
       items:
-      - name: Search Customer Service admin logs in Microsoft Purview
+      - name: Enable tables for Customer Service audit logs
         href: enable-audit-tables.md
     - name: Known issues in Customer Service and Dynamics 365 Contact Center
       href: https://go.microsoft.com/fwlink/p/?linkid=2165393
