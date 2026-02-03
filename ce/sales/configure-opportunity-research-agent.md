@@ -128,7 +128,8 @@ After verifying the prerequisites, define the agent and company profile, selecti
  
    1. Enter a meaningful name for the agent, such as *Opportunity Research*. This name is used to identify the agent in Dynamics 365 Sales and Copilot Studio. 
 
-    1. Select the agent's language. The agent uses this language to generate research insights for the opportunities. The drop-down list shows the supported languages for the agent. [What happens when the agent's language is different from user's preferred language?](opportunity-research-agent-faqs.md#what-happens-when-the-agents-language-is-different-from-users-preferred-language)
+    1. Select the agent's language.  
+       The agent uses this language to generate research insights for the opportunities. The drop-down list shows the supported languages for the agent. [What happens when the agent's language is different from user's preferred language?](opportunity-research-agent-faqs.md#agent-language-difference)
        
 1. In the **Company info** tab, enter the following information:
     1. Enter your company name and website URL.  
