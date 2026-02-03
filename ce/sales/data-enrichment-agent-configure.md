@@ -18,6 +18,7 @@ As an admin, you can configure AI-powered Data Enrichment to work on specific op
 
 Ensure that you meet the following prerequisites:
 
+- You marked the prerequisites common to all Sales agents as **Done**. For more information, see [Prerequisites for all Sales agents](prerequisites-for-all-agents.md).
 - You have the appropriate Dynamics 365 Sales license. Check out the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?linkid=2152923) to know more about licensing requirements.
 - You have admin privileges in Dynamics 365 Sales.
 - (Recommended) If you have custom fields that you want the agent to enrich, ensure that these fields have a meaningful name and description to help the agent understand their purpose and provide accurate suggestions.
@@ -25,17 +26,22 @@ Ensure that you meet the following prerequisites:
 ## Set up and configure AI-powered Data Enrichment
 
 1. From the Sales Hub app, navigate to **App Settings**.
+
 1. Under **General Settings**, select **Dynamics 365 AI Hub**.
 1. Select **Create and manage agents**.
-1. In the **AI Agents** page, select **Create**. If the **Create** button is disabled, select the **Prerequisites** button next to it to ensure that all the prerequisites are met.
+1. In the **AI Agents** page, select **Create**. If the **Create** button is disabled, select the **Prerequisites** button next to it to ensure that all the common prerequisites are met.
 1. Select **Data Enrichment** from the list of available AI agents.
     A dialog box appears with the recommended default settings.
 1. Do *ONE* of the following:
-    - Review the default settings and select **Start agent** if you're satisfied with the defaults. The agent analyzes opportunity records and emails only after sellers [provide consent](use-data-enrichment-agent.md#provide-consent-for-data-enrichment-to-read-your-emails) to read their emails.
-    - Select **Edit in settings** to customize the configuration.
-        - [Define the agent profile](#define-the-agent-profile)
-        - [Select records for enrichment](#select-records-for-enrichment)
-        - [Configure agent behavior](#configure-agent-behavior)
+    - Review the default settings and select **Start agent** if you're satisfied with the defaults. 
+    - Select **Edit in settings** to customize the configuration:
+       1. [Define the agent profile](#define-the-agent-profile)
+ 
+       2. [Select records for enrichment](#select-records-for-enrichment)
+       3. [Configure agent behavior](#configure-agent-behavior)
+       4. After configuring the settings, select **Apply changes** and then **Start agent** to activate Data Enrichment with your specified configuration.
+
+  The agent doesn't analyze any opportunity records or emails until sellers [provide consent](use-data-enrichment-agent.md#provide-consent-for-data-enrichment-to-read-your-emails) to read their emails. The consent is specific to each seller. 
 
 ### Define the agent profile
 
@@ -51,7 +57,8 @@ In the **Agent behavior** section, choose how Data Enrichment should handle upda
 
 - **Field scope**: Select the fields that you don't want Data Enrichment to enrich. These could be fields that are critical to your business processes or those that you prefer to manage manually.
 - **Field update behavior**: Turn on **Automatically update fields** to allow Data Enrichment to make changes without a manual review. By default, this option is off, meaning sellers need to review and apply suggestions manually.
-- **Enrichment frequency**: Shows how often the Data Enrichment job runs. This is set to **Daily** by default. This field is informational and cannot be changed.
+- **Enrichment frequency**: Shows how often the Data Enrichment job runs to analyze emails and suggest updates or apply them automatically. 
+- . This is set to **Daily** by default. This field is informational and cannot be changed.
 - **Data sources**: Shows the data sources that Data Enrichment will use to analyze and enrich opportunity records. It currently uses email interactions to gather context about opportunities and suggest updates. This field is informational and cannot be changed.
 
 ## Start the agent
@@ -63,5 +70,10 @@ After configuring the settings, select **Apply changes** and then **Start agent*
 The following fields are excluded from enrichment by default and cannot be modified:
 
 - Opportunity Name
-- All rollup fields and calculated fields
+
 - Opportunity State
+- All rollup, calculated, formula, and prompt fields
+- Uniqueidentifiers
+- Virtual and Lookup fields
+- Customer, Owner, PartyList, CalendarRules, ManagedProperty, and EntityName
+- Fields that are not valid for forms, and not valid for update

@@ -22,17 +22,18 @@ ai-usage: ai-assisted
 These frequently asked questions help you understand the effect of AI on the AI-powered Data Enrichment feature in Dynamics 365 Sales.
 
 ## What is AI-powered Data Enrichment?
+
 AI-powered Data Enrichment is an AI-driven capability in Dynamics 365 Sales that helps enrich CRM records with additional business context. It analyzes existing record information and customer emails to suggest or automatically update fields with relevant data that may be missing or incomplete. This supports users in maintaining more complete, consistent, and current CRM data.
 
 AI-powered Data Enrichment can map customer conversations to the correct opportunities, capture deal signals and competitive context, and add them directly to opportunity records. When configured for automatic updates, users can review and revert changes as needed. The feature does not make business decisions on its own, and all enrichment actions are logged and auditable.
 
 ## How is the AI-powered Data Enrichment intended to be used?
+
 AI-powered Data Enrichment is designed to support the following use cases:
 
 - Improving the completeness of CRM records by identifying and suggesting or automatically updating missing or outdated information.
 - Mapping customer emails to the correct opportunities to reduce missed or delayed CRM updates.
-- Capturing deal signals, competitive context, and customer background from conversations and external sources.
-- Supporting data quality initiatives by highlighting or filling gaps in record information.
+- Supporting data quality initiatives by suggesting or filling gaps in record information.
 - Preserving deal context for future sellers and managers by maintaining up-to-date records.
 
 Depending on administrator configuration, AI-powered Data Enrichment may suggest enrichment values for user review or automatically apply updates to configured fields. When automatic updates are enabled, users can review changes and revert them if needed. All enrichment actions are auditable.

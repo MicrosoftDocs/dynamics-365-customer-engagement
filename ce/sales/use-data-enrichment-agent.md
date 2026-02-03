@@ -27,13 +27,13 @@ If your admin has configured the agent for manual updates, you need to manually 
 
 1. Select **See suggestions** in the notification banner to open the **Data Enrichment** pane.
 1. In the **Suggestions** tab, hover over the information icon next to each suggestion to see details about the source of the suggestion. Review the suggestions and perform one of the following actions:
-   - To accept or reject all the suggestions, select **Apply all** or **Reject all** at the bottom of the pane.
+   - To accept or reject all the suggestions, select **Accept all** or **Reject all** at the bottom of the pane.
    - To accept or reject individual suggestions, hover over each suggestion and select the **Accept** icon (check mark) or the **Reject** icon (cross mark).
      > [!NOTE]
      >- If you reject a suggestion for an opportunity, you won't see that suggestion again for that opportunity record. There's no option to undo or recover rejected suggestions.
      >- To view the changes you have accepted, select the **History** tab in the Data Enrichment pane. Learn more in [View change history](#view-change-history).
 
-    The changes are applied to the opportunity record immediately after you accept the suggestions. If you aren't sure about a suggestion, you can leave it without taking any action. The suggestion remains in the pane until you accept or reject it.
+    The changes are applied to the opportunity record immediately after you accept the suggestions. If you aren't sure about a suggestion, you can leave it without taking any action. The suggestion remains in the pane until you accept or reject it. However, suggestions are periodically refreshed based on new email interactions, and some suggestions may be removed if they become irrelevant based on updated context.
 
 ## Review and revert automatic updates
 
