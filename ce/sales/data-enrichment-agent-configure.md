@@ -57,8 +57,7 @@ In the **Agent behavior** section, choose how Data Enrichment should handle upda
 
 - **Field scope**: Select the fields that you don't want Data Enrichment to enrich. These could be fields that are critical to your business processes or those that you prefer to manage manually.
 - **Field update behavior**: Turn on **Automatically update fields** to allow Data Enrichment to make changes without a manual review. By default, this option is off, meaning sellers need to review and apply suggestions manually.
-- **Enrichment frequency**: Shows how often the Data Enrichment job runs to analyze emails and suggest updates or apply them automatically. 
-- . This is set to **Daily** by default. This field is informational and cannot be changed.
+- **Enrichment frequency**: Indicates how often Data Enrichment applies updates automatically. The agent analyzes emails and generates suggestions every 4 hours. For manual updates, sellers can review suggestions as soon as they're generated. For automatic updates, changes are applied based on the enrichment frequency, which is set to **Daily** by default. This setting is informational and can't be changed.
 - **Data sources**: Shows the data sources that Data Enrichment will use to analyze and enrich opportunity records. It currently uses email interactions to gather context about opportunities and suggest updates. This field is informational and cannot be changed.
 
 ## Start the agent
