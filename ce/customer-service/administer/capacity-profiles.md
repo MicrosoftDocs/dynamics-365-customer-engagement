@@ -1,7 +1,7 @@
 ---
 title: Create and manage capacity profiles
 description: Learn how to create and manage capacity profiles for service representatives, and set custom limits for the profiles.
-ms.date: 01/30/2026
+ms.date: 02/03/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

@@ -1,7 +1,7 @@
 ---
 title: How to set up unified routing
 description: Learn about the high-level process for setting up unified routing in Customer Service.
-ms.date: 01/30/2026
+ms.date: 02/03/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
