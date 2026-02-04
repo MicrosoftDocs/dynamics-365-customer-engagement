@@ -11,7 +11,7 @@ metadata:
   author: udaykirang
   ms.author: udag
   ms.reviewer: udag
-  ms.date: 08/12/2025
+  ms.date: 02/04/2026
 
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
@@ -107,6 +107,8 @@ landingContent:
             url: /powerapps/user/add-activities
           - text: Send email using the enhanced email experience 
             url: /powerapps/user/enhanced-email
+          - text: View and understand a hierarchy
+            url: view-hierarchy-visualizations.md  
           - text: Understand organization charts 
             url: organization-charts.md
           - text: Work with Outlook

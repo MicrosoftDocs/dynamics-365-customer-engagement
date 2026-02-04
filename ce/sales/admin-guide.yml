@@ -11,7 +11,7 @@ metadata:
   author: udaykirang
   ms.author: udag
   ms.reviewer: udag
-  ms.date: 08/12/2025
+  ms.date: 02/04/2026
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -122,6 +122,16 @@ landingContent:
             url: linkedin/uninstall-sales-navigator.md
           - text: Install LinkedIn Sales Insights
             url: install-lsi-solution.md
+
+# Card
+  - title: Hierarchy visualizations
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+          - text: Design and publish hierarchies 
+            url: create-activate-hierarchy-visualizations.md
+          - text: Manage hierarchies 
+            url: manage-hierarchy-visualizations.md
 
 # Card 
   - title: Goal management
