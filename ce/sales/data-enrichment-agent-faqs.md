@@ -1,7 +1,7 @@
 ---
 title: FAQs about AI-powered Data Enrichment for opportunities
-description: Learn about AI-powered Data Enrichment feature in Dynamics 365 Sales.
-ms.date: 01/19/2026
+description: Explore frequently asked questions about AI-powered Data Enrichment in Dynamics 365 Sales and how it transforms your CRM data into valuable insights.
+ms.date: 02/06/2026
 ms.update-cycle: 180-days
 ms.topic: faq
 ms.service: dynamics-365-sales

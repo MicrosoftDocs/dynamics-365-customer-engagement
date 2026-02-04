@@ -1,7 +1,7 @@
 ---
 title: AI-powered Data Enrichment for opportunities
 description: Learn how the AI-powered Data Enrichment helps automate updating and enriching opportunity data based on recent email interactions.
-ms.date: 01/19/2026
+ms.date: 02/06/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -29,8 +29,8 @@ The agent behind the AI-powered Data Enrichment feature follows these steps to a
 1. **Filters opportunity records**: The agent applies the criteria that the admin defines to select relevant opportunity records for analysis.
 
 1. **Analyze recent changes**: The agent scans emails exchanged between sellers and customers to gather context about selected opportunities. It looks for context and deal-related information such as budget, authority, need, and timeline that can help enrich the opportunity records.
-1. **Identify missing or outdated fields**: The agent compares the information in the emails with the existing opportunity records to identify any discrepancies or gaps.
-1 . **Suggest updates**: The agent generates suggestions for updating opportunity fields, such as estimated close date and budget amount, and associating relevant emails. Alternatively, an admin can configure the agent to automatically update the records without any manual intervention. 
+1. **Identify missing or outdated fields**: The agent compares the information in the emails with the existing opportunity records to identify any discrepancies or gaps.  
+1. **Suggest updates**: The agent generates suggestions for updating opportunity fields, such as estimated close date and budget amount, and associating relevant emails. Alternatively, an admin can configure the agent to automatically update the records without any manual intervention. 
 1. **Review and apply updates**: Sellers can review the suggested updates and choose to apply them to the opportunity records with a single click. In cases where automatic updates are enabled, the sellers can still review the changes made by the agent and revert them if necessary.
 
 ## How to set up and use Data Enrichment

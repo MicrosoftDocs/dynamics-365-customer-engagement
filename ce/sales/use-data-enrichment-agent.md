@@ -4,7 +4,7 @@ description: Learn how to review and approve suggestions made by the Data Enrich
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 01/19/2026
+ms.date: 02/06/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.collection: bap-ai-copilot
@@ -76,12 +76,7 @@ The AI-powered Data Enrichment feature associates emails with an opportunity bas
 1. In the **Timeline** section, look for emails with the agent icon (:::image type="icon" source="media/dea-agent-icon.png" border="false":::).   
    This icon indicates that the email is associated with the opportunity by Data Enrichment.
 
-1. Depending on whether your admin has configured manual or automatic updates, you can take the following actions:
-   - **Manual updates:** The email appears as **Untracked email**. Perform *ONE* of the following actions:
-    - Select **Track** to accept the association. 
-    - Select **Not related?** to dismiss the suggestion.
-   :::image type="content" source="media/dea-untracked-email.png" alt-text="Screenshot showing an untracked email associated by Data Enrichment." border="false":::
-   - **Automatic updates:** The email appears as a regular tracked email with the agent icon. If you believe the email isn't related to the opportunity, select **Not related?**. You can then select whether you want to remove the email from the current opportunity or reassign it to another opportunity.
+1. Select **Not related?** if you believe the email isn't related to the opportunity. You can then select whether you want to remove the email from the current opportunity or reassign it to another opportunity.
 
 ## View change history
 

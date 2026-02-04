@@ -4,7 +4,7 @@ description: Learn how to set up and configure the AI-powered Data Enrichment fe
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 01/19/2026
+ms.date: 02/06/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.collection: bap-ai-copilot
@@ -71,8 +71,5 @@ The following fields are excluded from enrichment by default and cannot be modif
 - Opportunity Name
 
 - Opportunity State
-- All rollup, calculated, formula, and prompt fields
-- Uniqueidentifiers
-- Virtual and Lookup fields
-- Customer, Owner, PartyList, CalendarRules, ManagedProperty, and EntityName
-- Fields that are not valid for forms, and not valid for update
+- Fields with the following attribute types: Uniqueidentifier, Virtual, Lookup, Customer, Owner, PartyList, CalendarRules, ManagedProperty, EntityName
+- Read-only fields and system fields
