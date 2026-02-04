@@ -82,7 +82,6 @@ Depending on the settings that are enabled for you, you'll see one of the follow
 
 ---
 
-
 ## View case details
 
 Use the **Case** section to search for an existing case, and select the case to link it to the conversation. If the record doesn't exist, you can create a new case by using the **Add Case** button. After you create it, search for the record and then select it to link it to the conversation. More information: [Case management in multisession apps](enh-casemgmt-csw.md)
@@ -106,11 +105,11 @@ Depending on the settings that are enabled for you, you'll see one of the follow
 
 ## Set disposition codes
 
-If your administrator has enabled disposition codes, the **Disposition Code** section appears on the form. During the conversation, do the following:
+If your administrator [enables disposition codes](/dynamics365/contact-center/administer/configure-disposition-codes), the **Disposition Code** section appears on the form. During the conversation, do the following steps:
 
 - Set **Category** to filter the available codes.
 
-- Select the disposition code that best describes the outcome of the conversation in **Search codes**.
+- In **Search codes**, select the disposition code that best describes the outcome of the conversation.
 
 :::image type="content" source="../media/disposition-code.png" alt-text="Disposition Code section showing 3 of 5 codes selected with Category dropdown set to All, a Search Codes field, and three selected tags labeled Tech Issue, Successfully helped customer, and First time contact each with an X to remove them":::
 
@@ -120,7 +119,7 @@ If your administrator has enabled disposition codes, the **Disposition Code** se
 - You can select disposition codes associated with a specific workstream or those that are globally available in all workstreams.
 - You can select up to the maximum number of disposition codes set by your administrator. In transfer scenarios, the maximum number of disposition codes allowed is applicable to all primary representatives who are involved in the conversation journey. For example, the maximum number of disposition codes is two. Representative A adds two disposition codes and then transfers the chat to representative B who now becomes the primary representative. Representative B also can add two disposition codes.
 - Supervisors who join a conversation to monitor can't set disposition codes and the UI appears as disabled.
-- If disposition code is mandatory for closing a session as set by your administrator, you are prompted to select a code before you can end the conversation.
+- If you are the primary representative in the conversation and if disposition code is mandatory for closing a session as set by your administrator, you are prompted to select a code before you can end the conversation.
 
 For a closed conversation, you can view the disposition codes in the **Conversation Form**.
 
