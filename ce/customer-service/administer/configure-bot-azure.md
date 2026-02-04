@@ -74,29 +74,22 @@ The agent user is first created as an application user and then assigned the **O
     
     d. Select the app that you created during your Azure app registration, and then select **Add** and **Create**.
 
-1. Open your Power Platform environment and under **Settings** > **System** > **Security** > **Users**, search and open the newly created user.
-
-1. Select the **APPLICATION USER** form.
+1. Open your Dynamics 365 environment, navigate to the Copilot Service Admin Center app. In the site map, select **User management** > **Users**. Find and open the user record for the Application User you created in step 4. After opening the user, ensure you select the **APPLICATION USER** form.
 
 1. In the **User Information** section, do the following:
     - **User type**: Select **Bot application user** from the dropdown list.
-    - **Bot application ID**: Enter the Microsoft App ID from Microsoft Entra ID that you noted earlier from the **Prerequisites** section.
     - **Bot Application ID**: Enter the bot application ID that you noted earlier from the **Prerequisites** section.
 
 1. Select the save icon at the bottom of the page.
 
-### Add the AI agent user to queues
+### Add the AI agent user to a workstream
 
-You can add an AI agent user to specific queues where you want the agent to handle the customer queries first, instead of the representative. For this option, you must ensure that the agent user has the highest capacity among all users in the queue.
+To set up your agent to take inbound conversations on a channel, navigate to the workstream you want to use. In the **AI agent** section, select **+ Add AI agent**, and then add your agent. It will now be directly assigned to any new inbound conversation on this workstream.
 
-Alternatively, you can also create a queue with the agent user only. In such a case, ensure that the routing rules are set in a way that customer queries are sent to this queue first. This action ensures that the agent acts as the first recipient for all queries.
-
-A representative can transfer a chat to an AI agent by adding it to a queue, and then transferring the chat to the queue.
-
-You can also add the AI agent to a workstream in the AI agent section.
+If you want the option to have an AI agent receive transfers from a queue, you can configure it to a queue just like a Customer Service Representative. For this option, you must ensure that the agent user has the highest capacity among all users in the queue. A representative can then transfer the conversation to the AI agent by transferring it to the queue containing the agent.
 
 > [!Note]
-> - The chat cannot be transferred to the same agent.
+> - The chat cannot be transferred from an AI agent to the same AI agent.
 > - The agent works with the chat widget, workstream, and queues created in contact center.
 
 ### Configure routing rules
