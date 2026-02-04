@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to 
-ms.date: 04/21/2025
+ms.date: 02/06/2026
 ms.custom: bap-template
 ---
 
@@ -107,16 +107,22 @@ Depending on the settings that are enabled for you, you'll see one of the follow
 ## Set disposition codes
 
 If your administrator has enabled disposition codes, the **Disposition Code** section appears on the form. During the conversation, do the following:
- - Set **Category** to filter the available codes.
- - Select the disposition code that best describes the outcome of the conversation in **Search codes**. 
-    - You can select disposition codes associated with a specific workstream or those that are available in all workstreams. 
-    - You can select up to the maximum number of disposition codes set by your administrator.
 
-If your administrator has configured the disposition codes to be mandatory to close a session, you must select a disposition code before you can close the conversation. If you don't select a code, a pop up appears when you try to close the conversation.
+- Set **Category** to filter the available codes.
 
-   :::image type="content" source="../media/disposition-code.png" alt-text="View disposition code section":::
+- Select the disposition code that best describes the outcome of the conversation in **Search codes**.
 
-For a closed conversation, you can view the disposition code in the **Conversation Form**.
+:::image type="content" source="../media/disposition-code.png" alt-text="Disposition Code section showing 3 of 5 codes selected with Category dropdown set to All, a Search Codes field, and three selected tags labeled Tech Issue, Successfully helped customer, and First time contact each with an X to remove them":::
+
+### Things to consider
+
+- In a consult or transfer scenario, the primary representative only in the conversation can add disposition codes.
+- You can select disposition codes associated with a specific workstream or those that are globally available in all workstreams.
+- You can select up to the maximum number of disposition codes set by your administrator. In transfer scenarios, the maximum number of disposition codes allowed is applicable to all primary representatives who are involved in the conversation journey. For example, the maximum number of disposition codes is two. Representative A adds two disposition codes and then transfers the chat to representative B who now becomes the primary representative. Representative B also can add two disposition codes.
+- Supervisors who join a conversation to monitor can't set disposition codes and the UI appears as disabled.
+- If disposition code is mandatory for closing a session as set by your administrator, you are prompted to select a code before you can end the conversation.
+
+For a closed conversation, you can view the disposition codes in the **Conversation Form**.
 
 ## View recent cases
 
