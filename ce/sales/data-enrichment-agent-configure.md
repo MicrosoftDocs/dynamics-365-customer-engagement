@@ -32,6 +32,7 @@ Ensure that you meet the following prerequisites:
 1. In the **AI Agents** page, select **Create**. If the **Create** button is disabled, select the **Prerequisites** button next to it to ensure that all the common prerequisites are met.
 1. Select **Data Enrichment** from the list of available AI agents.
     A dialog box appears with the recommended default settings.
+    :::image type="content" source="media/data-enrichment-quick-setup.png" alt-text="Screenshot of the Data Enrichment quick setup dialog box with recommended default settings.":::
 1. Do *ONE* of the following:
     - Review the default settings and select **Start agent** if you're satisfied with the defaults. 
     - Select **Edit in settings** to customize the configuration:
@@ -55,10 +56,10 @@ In the **Record selection** section, define the criteria for the opportunity rec
 
 In the **Agent behavior** section, choose how Data Enrichment should handle updates:
 
-- **Field scope**: Select the fields that you don't want Data Enrichment to enrich. These could be fields that are critical to your business processes or those that you prefer to manage manually.
+- **Field scope**: Select the fields that you don't want Data Enrichment to enrich. These could be fields that are critical to your business processes or those that you prefer to manage manually. Some fields are excluded from enrichment by default and cannot be modified. See [Fields excluded from enrichment](#fields-excluded-from-enrichment) for more details.  
 - **Field update behavior**: Turn on **Automatically update fields** to allow Data Enrichment to make changes without a manual review. By default, this option is off, meaning sellers need to review and apply suggestions manually.
 - **Enrichment frequency**: Indicates how often Data Enrichment applies updates automatically. The agent analyzes emails and generates suggestions every 4 hours. For manual updates, sellers can review suggestions as soon as they're generated. For automatic updates, changes are applied based on the enrichment frequency, which is set to **Daily** by default. This setting is informational and can't be changed.
-- **Data sources**: Shows the data sources that Data Enrichment will use to analyze and enrich opportunity records. It currently uses email interactions to gather context about opportunities and suggest updates. This field is informational and cannot be changed.
+- **Data sources**: Shows the data sources that Data Enrichment will use to analyze and enrich opportunity records. It currently uses email interactions in Dataverse to gather context about opportunities and suggest updates. This field is informational and cannot be changed.
 
 ## Start the agent
 
