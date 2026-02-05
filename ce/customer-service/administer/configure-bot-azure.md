@@ -91,7 +91,7 @@ To set up your agent to take inbound conversations on a channel, navigate to the
 If you want the option to have an AI agent receive transfers from a queue, you can configure it to a queue just like a service representative. For this option, you must ensure that the agent user has the highest capacity among all users in the queue. A representative can then transfer the conversation to the AI agent by transferring it to the queue containing the agent.
 
 > [!NOTE]
-> - The chat can't be transferred from an AI agent to the same AI agent.
+> - If the chat is transferred by the AI agent to a queue and the queue has the same AI agent, the coversation isn't assigned to the AI agent but is routed to the next eligible option.
 > - The agent works with the chat widget, workstream, and queues created in contact center.
 
 ### Configure routing rules
