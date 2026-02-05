@@ -22,7 +22,7 @@ As an administrator, you can design and publish hierarchies that your organizati
 
 Before you design and publish a hierarchy, make sure the following prerequisites are met:
 
-- By default, you need the System administrator security role to design and view hierarchies. The System administrator can [grant access to other roles to design and view hierarchies](#grant-permissions-to-visual-hierarchy-feature) as needed.  
+- By default, you need the System administrator security role to design and view hierarchies. You can [grant access to other roles to design and view hierarchies](#grant-permissions-to-visual-hierarchy-feature) as needed.  
 - The data and relationships must already be defined in Dataverse. Visual hierarchies show existing data and relationships.  
 - To avoid confusion, disable the [legacy Power Platform hierarchy control](/power-platform/important-changes-coming#deprecation-of-hierarchy-control-in-model-driven-apps) if it's enabled.  
 **Follow these steps**:  
