@@ -12,7 +12,7 @@ ms.collection: bap-ai-copilot
 ---
 # Parse event activity JSON to get agent context
 
-The context messages in Dynamics 365 Contact Center are sent as event activity to AI agents. Context information such as customer info, live work item, or conversation ID, is sent to the agent as part of an activity JSON. The JSON can be of type **startConversation** for most channels and **ConversationUpdate** for voice conversations. 
+The context messages in Dynamics 365 Contact Center are sent as event activity to AI agents. Context information such as customer info, live work item, or conversation ID, is sent to the agent as part of an activity JSON. The Activity is of type **startConversation** for Copilot Studio agents and **omnichannelSetContext** for Azure agents. 
 
 ## Fetch and use context for agents in your agent code
 
