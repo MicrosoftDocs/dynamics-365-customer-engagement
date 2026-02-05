@@ -124,7 +124,7 @@ After you design the hybrid hierarchy, [preview the combined hierarchy and publi
 
 ## Grant permissions to visual hierarchy feature  
 
-As a system administrator, grant additional security roles access to design and view hierarchies by granting access to the **Hierarchy Configuration** table.
+As a system administrator, grant additional security roles to allow users to design and view hierarchies by granting access to the **Hierarchy Configuration** table.
 
 - To grant access to all hierarchies:  
     - Grant read access to a security role where you want members to be able to view every published hierarchy.  
