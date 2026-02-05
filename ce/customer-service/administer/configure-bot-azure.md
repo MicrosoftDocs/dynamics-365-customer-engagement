@@ -1,7 +1,7 @@
 ---
 title: Integrate an Azure agent
 description: Use this article to understand how to integrate Azure agents in the contact center.
-ms.date: 12/08/2025
+ms.date: 02/06/2026
 ms.update-cycle: 180-days
 author: neeranelli
 ms.author: nenellim
@@ -64,7 +64,7 @@ The agent user is first created as an application user and then assigned the **O
 
 1. On the **Settings** page, select **Users + permissions**, and then select **Application users**.
 
-1. On the **Application users** page, select **New app user** and in the **Create a new app user** dialog that opens, do the following:
+1. On the **Application users** page, select **New app user** and in the **Create a new app user** dialog that opens, do as follows:
 
     a. Select a **Business unit** in the list. Make sure that you select the top-level business unit.
     
@@ -74,22 +74,24 @@ The agent user is first created as an application user and then assigned the **O
     
     d. Select the app that you created during your Azure app registration, and then select **Add** and **Create**.
 
-1. Open your Dynamics 365 environment, navigate to the Copilot Service Admin Center app. In the site map, select **User management** > **Users**. Find and open the user record for the Application User you created in step 4. After opening the user, ensure you select the **APPLICATION USER** form.
+1. In your Dynamics 365 environment, go to Copilot Service admin center. In the site map, select **User management** > **Users**. Find and open the user record for the Application User you created in step 4.
+
+1. Select the **APPLICATION USER** form.
 
 1. In the **User Information** section, do the following:
-    - **User type**: Select **Bot application user** from the dropdown list.
-    - **Bot Application ID**: Enter the bot application ID that you noted earlier from the **Prerequisites** section.
+    - **User type**: Select **Bot application user**.
+    - **Bot Application ID**: Enter the bot application ID that you noted in the preceding **Prerequisites** section.
 
-1. Select the save icon at the bottom of the page.
+1. Save the changes.
 
 ### Add the AI agent user to a workstream
 
-To set up your agent to take inbound conversations on a channel, navigate to the workstream you want to use. In the **AI agent** section, select **+ Add AI agent**, and then add your agent. It will now be directly assigned to any new inbound conversation on this workstream.
+To set up your agent to take inbound conversations on a channel, navigate to the workstream you want to use. In the **AI agent** section, select **Add AI agent**, and then add your agent. The agent is directly assigned to any new inbound conversation on this workstream.
 
-If you want the option to have an AI agent receive transfers from a queue, you can configure it to a queue just like a Customer Service Representative. For this option, you must ensure that the agent user has the highest capacity among all users in the queue. A representative can then transfer the conversation to the AI agent by transferring it to the queue containing the agent.
+If you want the option to have an AI agent receive transfers from a queue, you can configure it to a queue just like a service representative. For this option, you must ensure that the agent user has the highest capacity among all users in the queue. A representative can then transfer the conversation to the AI agent by transferring it to the queue containing the agent.
 
-> [!Note]
-> - The chat cannot be transferred from an AI agent to the same AI agent.
+> [!NOTE]
+> - The chat can't be transferred from an AI agent to the same AI agent.
 > - The agent works with the chat widget, workstream, and queues created in contact center.
 
 ### Configure routing rules
