@@ -29,7 +29,7 @@ However, for representatives to use these features in Customer Service Hub and c
 
 ## Region availability and data movement
 
-The option to enable Copilot AI features is available by default to customers with environments that have United States, Australia, India, and United Kingdom as their geography for data processing and storage. For Europe, data movement for copilot features is enabled by default. For all other regions, [enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center app before you can opt in to use Copilot.
+The option to enable Copilot AI features is available in-region by default to customers with environments that have United States, Australia, India, United Kingdom, and government cloud regions (GCC, GCC High) as their geography for data processing and storage. For Europe, data movement for copilot features is enabled by default. For all other regions, [enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center app before you can opt in to use Copilot.
 
   :::image type="content" source="../media/ppac-enable-gen-ai.png" alt-text="Screenshot of the power platform admin center generative ai features.":::
 
