@@ -128,7 +128,7 @@ As a system administrator, grant additional security roles to allow users to des
 
 - To grant access to all hierarchies:  
     - Grant read access to a security role when you want members to be able to view all published hierarchies.  
-    - Grant full control access to a security role where you want members to be able to design every hierarchy.  
+    - Grant full control access to a security role when you want members to be able to view and design hierarchies.  
 - To grant access to specific hierarchies, select the hierarchy and use the **Share** option in the hierarchy designer to grant read access to just that hierarchy to a set of users, or [a Microsoft Dataverse Team](/power-platform/admin/manage-teams).
 
 ## Preview and publish hierarchy
