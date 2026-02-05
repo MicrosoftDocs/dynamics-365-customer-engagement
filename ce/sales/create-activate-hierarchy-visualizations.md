@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 As an administrator, you can design and publish hierarchies that your organization can use to visualize and work with hierarchical data. You can design the following types of hierarchies:  
 
-- [Single table (self-referential)](hierarchy-visualization.md#single-table)
+- [Single-table (self-referential)](hierarchy-visualization.md#single-table)
 - [Multi-table](hierarchy-visualization.md#multi-table)
 - [Hybrid hierarchies](hierarchy-visualization.md#hybrid), which combine both single and multi-table relationships.
 
@@ -33,12 +33,12 @@ Before you design and publish a hierarchy, make sure the following prerequisites
         :::image type="content" source="media/disable-legacy-hierarchy-control.png" alt-text="Screenshot of the Features tab in the Settings dialog box in the app designer.":::  
     1. Save and publish the app.
 
-## Configure a single table hierarchy
+## Configure a single-table hierarchy
 
-A single table hierarchy displays data from a single table, such as a hierarchy of accounts. A relationship `ParentAccountID` allows accounts to specify a parent account, creating a hierarchy.  This type of relationship is called a self-referential relationship.  
+A single-table hierarchy displays data from a single-table, such as a hierarchy of accounts. A relationship `ParentAccountID` allows accounts to specify a parent account, creating a hierarchy.  This type of relationship is called a self-referential relationship.  
 To set up a single-table hierarchy, select the target table, enable the **Expand all levels** toggle for the table, and then select the relationship, such as `ParentAccountID`. You don't need to add the same table again. The hierarchy automatically lets your sellers view all related records by expanding the relationship path automatically.
 
-Follow these steps to configure a single table hierarchy:  
+Follow these steps to configure a single-table hierarchy:  
 
 1. Sign in to your sales app. In the lower-left corner of the page, go to **Change area** > **App Settings**.  
 1. Under **General Settings**, select **Visual hierarchy**.  
@@ -118,9 +118,9 @@ A multi-table hierarchy includes multiple tables connected through relationships
 
 ## Configure hybrid hierarchy
 
-A hybrid hierarchy combines elements of both single-table (self-referential) and multi-table hierarchies.
-To configure a hybrid hierarchy, create a root node using a single-table hierarchy and then add one or more child nodes from other tables to build a multi-table structure. Enable options such as **Expand all levels** to view expanded cards when the parent or child tables have their own internal parent-child structure. For example, if you have a hierarchy of **Accounts** with child contacts and the account table has a self-referential relationship, you can enable **Expand all levels** to show a tree of accounts that displays child contacts for each regional and branch account.  
-After you design the hybrid hierarchy, preview the combined hierarchy and publish it.
+A hybrid hierarchy combines elements of both single-table (self-referential) and multi-table hierarchies. For example, if you have a hierarchy of **Accounts** with child contacts and the account table has a self-referential relationship, you can enable **Expand all levels** to show a tree of accounts that displays child contacts for each regional and branch account.  
+To configure a hybrid hierarchy, create a root node using a single-table hierarchy and then add one or more child nodes from other tables to build a multi-table structure. Enable options such as **Expand all levels** to view expanded cards when the parent or child tables have their own internal parent-child structure. 
+After you design the hybrid hierarchy, [preview the combined hierarchy and publish it](#preview-and-publish-hierarchy).
 
 ## Grant permissions to visual hierarchy feature  
 
