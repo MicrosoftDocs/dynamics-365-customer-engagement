@@ -871,6 +871,8 @@ items:
               href: sales-research-agent-provide-context.md
             - name: Connect the agent to different data sources
               href: sales-research-agent-connect-data.md
+            - name: Connect the agent to Microsoft Fabric Lakehouse (preview)
+              href: sales-research-agent-lakehouse-integration.md
             - name: Analyze your sales performance using the agent
               href: use-sales-research-agent.md
             - name: FAQs about Sales Research Agent
