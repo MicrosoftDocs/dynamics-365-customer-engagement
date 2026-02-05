@@ -74,9 +74,9 @@ The agent user is first created as an application user and then assigned the **O
     
     d. Select the app that you created during your Azure app registration, and then select **Add** and **Create**.
 
-1. In your Dynamics 365 environment, go to Copilot Service admin center. In the site map, select **User management** > **Users**. Find and open the user record for the Application User you created in step 4.
+1. In your Dynamics 365 environment, go to Copilot Service admin center. In the site map, select **User management** > **Users**.
 
-1. Select the **APPLICATION USER** form.
+1. Find and open the user record for the application user that you created in step 4 and select the **APPLICATION USER** form.
 
 1. In the **User Information** section, do the following:
     - **User type**: Select **Bot application user**.
