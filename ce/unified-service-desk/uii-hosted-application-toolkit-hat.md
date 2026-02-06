@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # UII Hosted Application Toolkit (HAT) in Unified Service Desk
 The [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)] facilitates the task of automating the user interface (UI) of a hosted application. It consists of data-driven adapters (DDA), descriptive bindings, and automations ([!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] workflows) to automate the applications. In addition, [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] contains the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)] Software Factory that’s used to create an application hosting solution in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)].  

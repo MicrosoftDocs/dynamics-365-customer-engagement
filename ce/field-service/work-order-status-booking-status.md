@@ -1,7 +1,7 @@
 ---
 title: Work order lifecycle and system statuses
 description: Track the status of a work order in its lifecycle with system statuses, substatuses, and booking statuses.
-ms.date: 02/05/2025
+ms.date: 02/02/2026
 ms.topic: concept-article
 author: lmasieri
 ms.author: lmasieri
@@ -10,9 +10,9 @@ ms.custom: bap-template
 
 # Work order lifecycle and system statuses
 
-Work orders use system statuses, work order substatuses, and booking statuses to track the status of a work order in the lifecycle. Updating one of the statuses can update the others automatically.
+Work orders use system statuses, work order substatuses, and booking statuses to track the status of a work order in the lifecycle. Updating one of the statuses can automatically update the others.
 
-**Work Order System Statuses** are noted on the work order entity, indicating the current point of a work order in its life cycle. Work order system statuses are:
+**Work Order System Statuses** appear on the work order entity. They indicate the current point of a work order in its life cycle. Work order system statuses are:
 
 - Unscheduled
 - Scheduled
@@ -24,9 +24,9 @@ Work orders use system statuses, work order substatuses, and booking statuses to
 > [!NOTE]
 > Don't add, remove, or edit the option set *values* for **Work Order System Status**. Instead, as a best practice, consider creating meaningful **Work Order Substatus** records. If that's insufficient, administrators can edit the option set *labels* to change how statuses show in the user interface. For more information, see [Don't edit option set (choice) values](/dynamics365/guidance/resources/field-service-customize-best-practices#dont-edit-option-set-choice-values).
 
-**Work Order Substatuses** are noted on the work order entity and relate to and provide more detail for work order system statuses. Work order substatuses are created custom for each organization and can communicate much more granular and meaningful information about the state of a work order.
+**Work Order Substatuses** appear on the `workorder` entity. They relate to and provide more detail for work order system statuses. Each organization creates custom work order substatuses to communicate more granular and meaningful information about the state of a work order.
 
-**Booking Statuses** are noted on the bookable resource booking entity and are updated by field technicians on the Field Service mobile app to track their progress for a specific work order. Additionally, booking statuses are visualized on the schedule board with a distinct color and icon, and a few booking statuses are introduced by default, though more custom ones can be added. Out of the box, the booking statuses are just records and can be modified or removed if they are not meaningful to your process. The **Booking Statuses** available out of the box are:
+**Booking Statuses** appear on the `bookableresourcebooking` entity. Field technicians update them on the Field Service mobile app to track their progress for a specific work order. Additionally, the schedule board visualizes booking statuses with a distinct color and icon. A few booking statuses are introduced by default, though you can add more custom ones. Out of the box, the booking statuses are just records. You can modify or remove them if they're not meaningful to your process. The **Booking Statuses** available out of the box are:
 
 - Scheduled
 - Traveling
@@ -53,14 +53,14 @@ Work orders use system statuses, work order substatuses, and booking statuses to
   
 |  | Create | Schedule | Dispatch | Service | Review | Invoice |  
 |-|-|-|-|-|-|-|  
-|**What happens**|New work order is created.<br /><br /> Assigned incident, product, services, characteristics, territory, etc.| Work order schedule is created.<br /><br /> Resources assigned to the work order.<br /><br /> Date and time specified.|Field agent notified of work order.<br /><br /> Field agent may review and accept/decline the work order.| Work order is carried out.<br /><br /> Information about what is performed in the field is entered through the mobile app.|Supervisor verifies that all the work was done properly, and that all information regarding the work order is correct.|Invoice is created based on products and services used.<br /><br /> Inventory adjustments are made.<br /><br /> Products converted into equipment (if applicable)|  
-|**Who performs the task**|Agreement is automatically generated on a recurring basis.<br /><br /> Case: By customer support.<br /><br /> Opportunity: By sales/scheduling.<br /><br /> Unplanned: By field agent or centralized scheduling.|Dispatcher<br /><br /> Field Agent<br /><br /> Dispatcher with help of scheduling assistant<br /><br /> Routing engine|Notification, if set up, sent by system automatically to field agent, customer, and other parties. |Field agent|Field supervisor/manager,<br /><br /> back-office accounting|Automatically sent by system|  
+|**What happens**|New work order is created.<br /><br /> Assigned incident, product, services, characteristics, territory, and more.| Work order schedule is created.<br /><br /> Resources assigned to the work order.<br /><br /> Date and time specified.|Field agent notified of work order.<br /><br /> Field agent may review and accept/decline the work order.| Work order is carried out.<br /><br /> Information about what is performed in the field is entered through the mobile app.|Supervisor verifies that all the work was done properly, and that all information regarding the work order is correct.|Invoice is created based on products and services used.<br /><br /> Inventory adjustments are made.<br /><br /> Products converted into equipment (if applicable).|  
+|**Who performs the task**|Agreement: Automatically generated on a recurring basis.<br /><br /> Case: By customer support.<br /><br /> Opportunity: By sales/scheduling.<br /><br /> Unplanned: By field agent or centralized scheduling.|Dispatcher<br /><br /> Field Agent<br /><br /> Dispatcher with help of scheduling assistant<br /><br /> Routing engine|Notification, if set up, sent by system automatically to field agent, customer, and other parties. |Field agent|Field supervisor/manager<br /><br /> Back-office accounting|Automatically sent by system|  
 
 ## Statuses in the work order lifecycle
 
 Field Service uses standard work order system statuses and booking statuses that map to a default work order lifecycle without any customizations. Many processes are triggered based on those statuses. A status change can automatically fill in data on the work order and trigger the next step in the work order process.
 
-For example, when the **Booking Status** is changed to *In Progress*, the technician indicates that they have arrived at the work site. The arrival time field automatically populates on the bookable resource booking.
+For example, when a technician changes the **Booking Status** to *In Progress*, they indicate that they arrived at the work site. The arrival time field automatically populates on the bookable resource booking.
 
 The default work order and booking statuses map to the following stages of the work order lifecycle.
 
@@ -68,7 +68,7 @@ The default work order and booking statuses map to the following stages of the w
 
 1. Once the work order is scheduled, the system creates a booking with a booking status of *Scheduled*. The creation of a booking automatically changes the work order system status to *Scheduled*.
 
-1. Technicians can see scheduled work orders it on the Field Service mobile app. When they're on the way to the work site, they change the booking status to *Traveling*. Changing the booking status to *Traveling* automatically changes the work order system status to *In Progress*.
+1. Technicians can see scheduled work orders on the Field Service mobile app. When they're on the way to the work site, they change the booking status to *Traveling*. Changing the booking status to *Traveling* automatically changes the work order system status to *In Progress*.
 
     > [!NOTE]
     > Work orders and bookings have independent lifecycles. A booking's state influences the work order's status. If there are multiple bookings for a single work order and one booking is in progress, the related work order status gets updated.
@@ -79,7 +79,7 @@ The default work order and booking statuses map to the following stages of the w
 
 1. When the work is complete, the technician changes the booking status to *Completed*. The duration is updated to the actual duration of the booking, and the end time is updated to reflect the time the status was changed to completed. The related work order system status changes to *Completed* when all related bookings are completed or canceled. If another user updates the booking status to *Completed* on behalf of a technician, the booking’s end time preserves the existing end time value.
 
-1. Finally, a back-office worker reviews the completed work order and starts the billing process. They change the work order system status to *Posted*. If products and services where used, this triggers **Invoice** generation, depending on the system's configuration in Field Service Settings.
+1. Finally, a back-office worker reviews the completed work order and starts the billing process. They change the work order system status to *Posted*. If products and services were used, this status triggers **Invoice** generation, depending on the system's configuration in Field Service Settings.
 
 ## Status-related processes
 
@@ -89,8 +89,8 @@ Beyond work order system statuses updating booking statuses and vice versa, stat
 
 #### Completed (work order)
 
-- Convert [work order products](create-product-or-service.md) to new customer assets if you enabled the conversion in the product record.
-- Add [travel charge item](travel-charges.md) as work order product.
+- Converts [work order products](create-product-or-service.md) to new customer assets if **Convert to Customer Asset** is *Yes* in the product record.
+- Adds [travel charge item](travel-charges.md) as work order product.
 
 #### Posted
 
@@ -99,7 +99,7 @@ Beyond work order system statuses updating booking statuses and vice versa, stat
 - Updates **Closed By**  and **Closed On** fields.
 
   > [!NOTE]
-  > **Invoice** and **Actual** creation are both impacted by system configurations set in the [Field Service Settings](configure-default-settings.md).
+    > System configurations set in the [Field Service Settings](configure-default-settings.md) impact both **Invoice** and **Actual** creation.
 
 ### Booking status processes
 
@@ -111,7 +111,7 @@ Every booking status change creates a booking timestamp to keep track of the upd
 
 #### Traveling
 
-- When a booking is updated to a *Traveling* booking status from the mobile app, the **Start time** will be updated to the current time. When updated from web, the start time isn't automatically updated.
+- When a technician updates a booking to a *Traveling* booking status from the mobile app, the **Start time** is updated to the current time. When they update the status from web, the start time isn't automatically updated.
 
 #### In Progress
 

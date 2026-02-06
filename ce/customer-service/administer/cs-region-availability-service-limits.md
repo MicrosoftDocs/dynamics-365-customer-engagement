@@ -144,4 +144,3 @@ If you enable the insights feature, it affects Dataverse entitlements. Learn mor
 [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
 [Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md)  
 [Configure AI topic clustering for conversations](ai-topic-clustering-conversations.md)  
-[Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md)  

@@ -9,7 +9,6 @@ ms.reviewer: "mgandham"
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # Create a CTI Control
 To manage agent states and call states, [!INCLUDE[pn_computer_telephony_integration_cti](../includes/pn-computer-telephony-integration-cti.md)] scenarios require the following user interface (UI) controls:  

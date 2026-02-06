@@ -1,22 +1,26 @@
 ---
-title: Connect to Dynamics 365 Customer Service MCP Server with Model Context Protocol
+title: Connect to Dynamics 365 Customer Service MCP Server with Model Context Protocol (preview)
 description: Learn how to configure Dynamics 365 Customer Service MCP Server in Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.date: 01/30/2026
+ms.date: 11/24/2025
 ms.update-cycle: 180-days
 ms.custom:
   - bap-template 
 ---
 
-# Connect to Dynamics 365 Customer Service MCP Server with Model Context Protocol
+# Connect to Dynamics 365 Customer Service MCP Server with Model Context Protocol (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Whether you're a developer building an AI agent to automate a part of the service workflow, or a customer service representative (service representative or representative) using an AI assistant such as Copilot to resolve customer issues efficiently, you can connect Dynamics 365 Customer Service with the Model Context Protocol (MCP) server.
 
 Use [Microsoft Copilot Studio](https://www.microsoft.com/microsoft-365-copilot/microsoft-copilot-studio) to build custom agents for service teams that include the Dynamics 365 Customer Service MCP Server or connect Dynamics 365 Customer Service with any other agent platform that supports the MCP protocol. By using the Dynamics 365 Customer Service MCP Server in combination with Dataverse MCP servers or MCP servers from other business applications such as Sales and ERP systems, you can automate complex cross-functional business operations with ease. For example, an order can be generated through the Dynamics 365 Business Central MCP server, after an MCP client is engaged with the Customer Service MCP server.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 
@@ -31,14 +35,13 @@ Use [Microsoft Copilot Studio](https://www.microsoft.com/microsoft-365-copilot/m
 > - The existing D365 Service MCP Server is deprecated and you must remove it. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
 > - Claude Desktop isn't supported with Dynamics 365 Customer Service MCP Server.
 > - We recommend that you don't use deprecated connections and consider deleting them.
-> - Learn about the pricing of Dynamics 365 MCP tools in the note in [Connect to Dataverse with Model Context Protocol](/power-apps/maker/data-platform/data-platform-mcp#list-of-tools).
 
 ## Configure an AI agent based on MCP server
 
 1. In Copilot Studio, select **AI agents**, and create a new agent or select an existing agent.
 
 1. Perform the steps in [Add tools from an existing MCP connector to an agent](/microsoft-copilot-studio/agent-extend-action-mcp#add-tools-from-an-existing-mcp-connector-to-an-agent).
-1. Search and select **Dynamics 365 Customer Service MCP Server**.
+1. Search and select **Dynamics 365 Customer Service MCP Server (Preview)**.
 1. If the connection isn't configured, make sure that you configure the connection and verify it.
 1. Select **Add to agent**. The MCP server is added to the agent.
 1. Select **Publish** on the top right corner.
@@ -47,7 +50,7 @@ Use [Microsoft Copilot Studio](https://www.microsoft.com/microsoft-365-copilot/m
 
 1. If you used a new AI agent, on the **Channels** tab, select **Dynamics 365 Customer Service** and perform the steps to connect the agent to Customer Service.
 
-Repeat the steps to add **Dataverse MCP server** to enable CRUD operations.
+Repeat the steps to add **Dataverse MCP server (Preview)** to enable CRUD operations.
 
 ## Enable access to Dataverse MCP Server from non-Microsoft apps
 
@@ -85,7 +88,7 @@ You can also access your MCP tools from external sources such as Visual Studio C
 
 After you configure the AI agent with the Dataverse MCP server and Dynamics 365 Customer Service MCP Server, you can navigate to the **Channels** tab and publish your AI Agent to Teams or M365 Copilot. Your service representatives can use it to resolve customer issues.
 
-The following tools are available in Dynamics 365 Customer Service MCP Server.
+The following tools are available in Dynamics 365 Customer Service MCP Server (Preview).
 
 |Tool name| Description|
 |---|---|
@@ -95,7 +98,7 @@ The following tools are available in Dynamics 365 Customer Service MCP Server.
 | draft_email_with_suggested_response | Drafts email responses based on the context of the case and the suggested response from the get_next_suggestion_on_case tool. The draft email is for sharing a solution or requesting more information with interview questions. |
 | resolve_incident | Closes (resolves) a case (incident) with resolution in Dataverse Incident entity. A resolution note is required to resolve a case.|
 
-The following tools are available in Dataverse MCP Server.
+The following tools are available in Dataverse MCP Server (Preview).
 
 | Tool name                | Description                                                                                                                                                                                                                                                                                                                                                                   |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

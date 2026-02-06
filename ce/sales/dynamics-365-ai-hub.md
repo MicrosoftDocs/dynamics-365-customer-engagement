@@ -49,8 +49,8 @@ If you're using custom roles, ensure that users have the `read` permissions to t
 
 If you're using custom security roles, ensure that users have the necessary agent-specific privileges to manage the agents and access the dashboards in the AI Hub. Otherwise, users will have access issues, or see inaccurate or incomplete data in the dashboard.
 
-- [Permissions required for Sales Qualification Agent](configure-sales-qualification-agent.md#grant-permissions-to-custom-security-role)
-- [Permissions required for Opportunity Research Agent](configure-opportunity-research-agent.md#grant-permissions-to-custom-security-role)
+- [Permissions required for Sales Qualification Agent](configure-sales-qualification-agent.md#grant-permissions)
+- [Permissions required for Opportunity Research Agent](configure-opportunity-research-agent.md#grant-permissions)
 
 
 ## Related resources

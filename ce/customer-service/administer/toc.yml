@@ -692,7 +692,7 @@
           href: /dynamics365/contact-center/administer/copilot-enable-summary##enable-conversation-summaries?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
       - name: Configure custom record summaries for service representatives
         href: copilot-enable-custom-record-summaries.md
-      - name: Connect to Customer Service with Service MCP Server
+      - name: Connect to Customer Service with Service MCP Server (preview)
         href: configure-customer-service-mcp-server.md
       - name: Enable Copilot help pane features
         items:
@@ -802,8 +802,6 @@
           href: configure-agent-forecasting-conversation.md
       - name: Configure AI suggestions
         href: csw-enable-ai-suggested-cases-knowledge-articles.md
-      - name: Configure AI suggestions for article keywords and descriptions
-        href: configure-ai-suggested-article-keywords-description.md
       - name: Configure real-time customer sentiment
         href: enable-sentiment-analysis.md
       - name: Customize interactive dashboards based on Unified Interface
@@ -950,7 +948,7 @@
             href: migrate-tool-faqs.md
     - name: Audit
       items:
-      - name: Search Customer Service admin logs in Microsoft Purview
+      - name: Enable tables for Customer Service audit logs
         href: enable-audit-tables.md
     - name: Known issues in Customer Service and Dynamics 365 Contact Center
       href: https://go.microsoft.com/fwlink/p/?linkid=2165393
