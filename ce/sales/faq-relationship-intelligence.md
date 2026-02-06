@@ -16,7 +16,7 @@ ms.custom:
 
 # Relationship intelligence FAQs
 
-This article answers frequently asked questions about relationship analytics and health, and who knows whom in Dynamics 365 Sales and Sales premium.
+This article answers frequently asked questions about relationship analytics and health, and who knows whom in Dynamics 365 Sales.
 
 ## Relationship analytics and health
 

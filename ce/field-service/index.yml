@@ -111,7 +111,7 @@ additionalContent:
         text: Install Field Service mobile app
       - url: mobile/booking-maps.md
         text: Enable booking maps
-      - url: mobile/best-practices-limitations-offline-profile.md
+      - url: mobile/offline-data-sync.md
         text: Configure offline capabilities
       - url: mobile/enable-push-notifications.md
         text: Enable push notifications
@@ -197,10 +197,10 @@ additionalContent:
       links:
       - url: field-service-teams-collaboration.md
         text: Collaborate using Microsoft Teams
+      - url: project-operations-integration.md
+        text: Integrate with Project Operations
       - url: supply-chain-field-service-integration.md
         text: Integrate with Dynamics 365 Supply Chain Management
-      - url: finance-operations-integration.md
-        text: Integrate with finance and operations
       - url: business-central-integration.md
         text: Integrate with Dynamics 365 Business Central
     - title: Resource Scheduling Optimization Add-in

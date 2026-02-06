@@ -1,7 +1,7 @@
 ---
 title: FAQs about Sales Qualification Agent
 description: Find answers to frequently asked questions about the Sales Qualification Agent in Dynamics 365 Sales.
-ms.date: 08/01/2025
+ms.date: 02/05/2026
 ms.update-cycle: 180-days
 ms.topic: faq
 ms.service: dynamics-365-sales
@@ -18,6 +18,14 @@ ai-usage: ai-assisted
 
 
 This FAQ provides answers to common questions about the Sales Qualification Agent in Dynamics 365 Sales.
+
+## Why can't my sellers see the leads handed over by the agent?
+
+If your sellers can't see the leads handed over by the agent, verify the following conditions:
+
+- Ensure that they have the necessary permissions to work on leads handed over by the agent. Learn more in [Grant permissions to sellers to work on leads handed over by agent](configure-sales-qualification-agent.md#grant-permissions).
+
+- Ensure that the agent-specific views are added to the app that your sellers are using. Learn more in [Add agent-specific views to your app](start-sales-qualification-agent.md#add-agent-specific-views-to-your-app).
 
 ## Why did the agent pause?
 

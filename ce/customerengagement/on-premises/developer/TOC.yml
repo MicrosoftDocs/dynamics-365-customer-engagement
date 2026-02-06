@@ -397,7 +397,7 @@
           href: sample-work-solutions.md
         - name: "Sample: Detect solution dependencies"
           href: sample-detect-solution-dependencies.md
-        - name: Publish your app on AppSource
+        - name: Publish your app on Marketplace
           href: publish-app-appsource.md
     - name: Create and manage custom business apps using code
       href: create-manage-custom-business-apps-using-code.md

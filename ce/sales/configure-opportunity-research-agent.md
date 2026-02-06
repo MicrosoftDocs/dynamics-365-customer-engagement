@@ -55,9 +55,10 @@ Ensure that your organization's data policies allow the use of the following con
 
 Learn more in [Manage data policies](/power-platform/admin/prevent-data-loss?tabs=new).
 
-### Grant permissions to custom security role
+<a name="grant-permissions"></a>
+### Grant permissions to sellers to work on agent-handled opportunities
 
-If you're using a custom security role, ensure that the opportunity owners have the following minimum permissions: 
+By default, the **Salesperson** and **Sales Manager** security roles have the necessary permissions to work on opportunities handled by the Sales Close Agent - Research. However, if you're using a custom security role, ensure that the sellers have the following minimum permissions:
 
 | Purpose | Access level - Permissions | Entities|
 |---------|----------------------------|---------|

@@ -1,18 +1,22 @@
 ---
-title: Metadata for subscenarios in conversation diagnostics
-description: Learn about subscenarios metadata for conversation diagnostics in Application Insights.
+title: Understand conversation diagnostics data
+description: Learn about the metadata for conversation diagnostics in Application Insights.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: concept-article
 ms.collection:
-ms.date: 12/08/2025
+ms.date: 01/19/2026
 ms.custom: bap-template
 ---
 
-# Understand conversation diagnostics
+# Understand conversation diagnostics data
 
-When the system routes a work item, its corresponding data starts appearing in Application Insights within 15 minutes. The conversation diagnostics data is presented in the form of scenarios and subscenarios as discussed in the following sections. 
+When the system routes a work item, its corresponding data starts appearing in Azure Application Insights within 15 minutes. The conversation diagnostics data is presented in the form of scenarios and subscenarios as discussed in the following sections.
+
+## Prerequisite
+
+[Conversation diagnostics](configure-conversation-diagnostics.md) is configured.
 
 ## Conversation diagnostics scenarios
 
@@ -83,6 +87,73 @@ The conversation diagnostics scenario captures data related to unified routing, 
 | PRESENCE_FIRST_LOAD | Representative presence initialized. |
 | CSRAvailabilityCheck | Check if any service representative is available. |
 | CopilotAgentSessionInitialization | Agent is connected to conversation. |
+
+## Assignment snapshot
+
+Assignment snapshot adds transparency to the automatic assignment process in unified routing. By surfacing detailed insights into the logic and criteria behind assignment decisions, assignment snapshot helps supervisors and administrators understand why work items remain unassigned or are assigned to specific representatives. This transparency reduces the need for support tickets and escalations to Microsoft, as customers can remediate and take corrective actions based on the information provided.
+
+Administrators can use the following information that's logged in Application Insights:
+
+- Presence changes
+
+- Unit and profile-based capacity changes
+- Skill changes for representatives
+- Queue membership changes
+- Representative, skill, queue, and capacity profile names with the corresponding IDs
+- Assignment ruleset and rule ID matched during the assignment attempt for custom assignment rulesets
+- Assignment ruleset and rule details for custom assignment rulesets
+
+### Subscenario: CSRConfiguration
+
+Provides information about the static configuration settings related to service representatives, such as their associated skills, capacity profiles, queues they are part of, default presence, maximum capacity units. This is synced whenever there is a change to any of the configurations and at periodic intervals of 10 days.
+
+- **omnichannel.agent.id**: The ID of the service representative being logged.
+- **omnichannel.queue.ids**: The associated queue IDs for the service representative.
+- **omnichannel.max_capacity.units**: The maximum capacity units for the service representative.
+- **omnichannel.default_presence**: The default presence for the service representative.
+    - f523f628-c07a-e811-8162-000d3aa11f50 → Available
+    -	efdeb843-c07a-e811-8162-000d3aa11f50 → Busy
+    -	08971864-c07a-e811-8162-000d3aa11f50 → Busy - Do Not Disturb (DND)
+    -	3dacae76-c07a-e811-8162-000d3aa11f50 → Away
+    -	70139190-c07a-e811-8162-000d3aa11f50 → Offline
+-	**omnichannel.capacity_profile.ids**: The capacity profile IDs for the service representative.
+-	**omnichannel.associated_skills**: The skills for the service representative.
+
+### Subscenario: QueueConfiguration
+
+Is related to the configuration of queues, which includes the queue id, type, priority, and assignment strategy for the queue. The information is synced whenever there is a change to any of these configurations.
+
+- **omnichannel.queue.id**: The ID of the queue.
+- **omnichannel.priority**: The priority of the queue.
+- **omnichannel.assignment_strategy**: The assignment strategy for the queue. Possible values are:
+    - Highest Capacity(OmnichannelAssignment) = 192350000
+    - Round Robin = 192350001
+    - Custom Assignment Configuration = 192350002
+- **omnichannel.queue.name**: Name of the queue.
+- **omnichannel.queue.type**: The type of the queue. Possible values are
+    - Digital Messaging = 192350000
+    - Entity = 192350001
+    - Phone Call = 192350002
+
+### Subscenario: AssignmentRuleset
+
+Is for the custom assignment rulesets used for assignment, prioritization, and selection. It includes the ruleset name and rules configured as part of the ruleset. The information is synced whenever there is a change to any of these configurations and at periodic intervals of 10 days.
+
+- **omnichannel.queue.id**: Identifier of the queue the ruleset belongs to.
+- **omnichannel.ruleset_name**: The name of the ruleset.
+- **omnichannel.rule_hit_policy**: The rule hit policy for the ruleset.
+- **omnichannel.rules**: Details for each rule present in the ruleset (rule name, conditions, order).
+- **omnichannel.ruleset_type**: The type of the ruleset (assignment/prioritization/selection ruleset).
+
+### Subscenario: CSRStatusandCapacityDetails
+
+Provides status and capacity history of service representatives, including their presence, capacity profile, and available units. The data is synced whenever there is a change to any of these configurations.
+
+- **omnichannel.agent.id**: The ID of the service representative being logged.
+- **omnichannel.current_presence_id**: The current presence ID of the service representative.
+- **omnichannel.current_base_presence**: The current base presence of the service representative.
+- **omnichannel.available_capacity.units**: The available capacity units for the service representative.
+- **omnichannel.capacity_profile**: The capacity profile details (capacity profile id, available capacity, capacity profile reset duration, default maximum capacity, is force assignment, is block assignment).
 
 ## Channel-specific subscenarios
 
@@ -329,7 +400,7 @@ Displays information on the user group identified for the conversation.
 - **Omnichannel.target_agent.id**: Captures the ID of the representative receiving the consult request
 - **Channel type**:	Channel from which work item originated.
 
-### Subscenario: Call End 
+### Subscenario: Call End
 
 - **Omnichannel.description and Omnichannel.messsage**: Captures whether the subscenario started, completed successfully, or failed. If the subscenario failed, error or exception information is provided 
 
@@ -362,59 +433,59 @@ Displays information on the user group identified for the conversation.
 - **Omnichannel.target_agent.i**d: Captures the ID of the representative receiving the action (As applicable)
 - **Channel type**:	Channel from which work item originated
 
-### Voice, conversation control, live chat, and messaging telemetry subscenarios 
+### Voice, conversation control, live chat, and messaging telemetry subscenarios
 
-- **Subscenarios**: 
+- **Subscenarios**:
 
-- CONSULT_BYCHAT_REQUESTAGENT
-- TRANSFER_AGENT_REQUEST2COMPLETED
-- TRANSFER_QUEUE_REQUEST2COMPLETED
-- CONSULT_BYVOICE_REQUESTAGENT
-- SESSION_CREATE
-- Transfer
-- Consult
-- Call Connect
-- Wait for CSR
-- Callback
-- Transcription
-- VOICE_UNMUTE
-- VOICE_MUTE
-- VOICE_SEND_DTMF
-- VOICE_SET_SPEAKER
-- VOICE_SET_MICROPHONE
-- VOICE_SUPERVISOR_BARGE
-- VOICE_PAUSE_RECORDING_AND_TRANSCRIPTION
-- VOICE_PAUSE_TRANSCRIPTION
-- VOICE_RESUME_RECORDING_AND_TRANSCRIPTION
-- VOICE_RESUME_TRANSCRIPTION
-- VOICE_HOLDPARTICIPANT
-- VOICE_UNHOLDPARTICIPANT
-- CALLQUALITYSURVEY_SHOWN2DISMISSED
-- GET_QUICK_REPLIES
-- FILES_DOWNLOAD
-- AGENT_LOGIN
-- Banner Codes
-- ChatButtonAction
-- CloseChatAction
-- CustomContextReceived
-- DownloadTranscriptAction
-- EmailTranscriptButtonAction
-- EndChatEventReceived
-- LCWChatButtonLoading
-- LiveChatWidgetStart
-- MessageReceived
-- MessageSent
-- MinimizeChatAction
-- PRESENCE_FIRST_LOAD
-- AuthTokenValidation
-- OutOfOperatingHoursPostChatSurvey
-- PrechatSurvey
-- ProactiveChat
-- ProactiveChatTimeOut
-- ChatHistoryMessageReceivedCompleted
-- SystemMessageReceived
-- ChatSessionInitialization
-- UnrecognizedOrgUrl
+    - CONSULT_BYCHAT_REQUESTAGENT
+    - TRANSFER_AGENT_REQUEST2COMPLETED
+    - TRANSFER_QUEUE_REQUEST2COMPLETED
+    - CONSULT_BYVOICE_REQUESTAGENT
+    - SESSION_CREATE
+    - Transfer
+    - Consult
+    - Call Connect
+    - Wait for CSR
+    - Callback
+    - Transcription
+    - VOICE_UNMUTE
+    - VOICE_MUTE
+    - VOICE_SEND_DTMF
+    - VOICE_SET_SPEAKER
+    - VOICE_SET_MICROPHONE
+    - VOICE_SUPERVISOR_BARGE
+    - VOICE_PAUSE_RECORDING_AND_TRANSCRIPTION
+    - VOICE_PAUSE_TRANSCRIPTION
+    - VOICE_RESUME_RECORDING_AND_TRANSCRIPTION
+    - VOICE_RESUME_TRANSCRIPTION
+    - VOICE_HOLDPARTICIPANT
+    - VOICE_UNHOLDPARTICIPANT
+    - CALLQUALITYSURVEY_SHOWN2DISMISSED
+    - GET_QUICK_REPLIES
+    - FILES_DOWNLOAD
+    - AGENT_LOGIN
+    - Banner Codes
+    - ChatButtonAction
+    - CloseChatAction
+    - CustomContextReceived
+    - DownloadTranscriptAction
+    - EmailTranscriptButtonAction
+    - EndChatEventReceived
+    - LCWChatButtonLoading
+    - LiveChatWidgetStart
+    - MessageReceived
+    - MessageSent
+    - MinimizeChatAction
+    - PRESENCE_FIRST_LOAD
+    - AuthTokenValidation
+    - OutOfOperatingHoursPostChatSurvey
+    - PrechatSurvey
+    - ProactiveChat
+    - ProactiveChatTimeOut
+    - ChatHistoryMessageReceivedCompleted
+    - SystemMessageReceived
+    - ChatSessionInitialization
+    - UnrecognizedOrgUrl
 
 - **Omnichannel.description and Omnichannel.messsage**: Captures whether the subscenario started, completed successfully, or failed. If the subscenario failed, error or exception information is provided.
 
