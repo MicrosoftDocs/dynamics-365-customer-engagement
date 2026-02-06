@@ -173,6 +173,12 @@ Use the FetchXML for
 </fetch>
 ```
 
+## Enable blocking of capacity for wrap up after transfer
+
+In a transfer scenario, service representatives need time for post-interaction tasks like finalizing notes after transferring their conversation. Enable wrap up after transfer to allow dedicated time block to do these activities.
+
+When a service representative transfers a conversation to another representative, queue, or external representatives), the system automatically provides wrap-up time after the transfer is completed. The wrap-up duration is determined by the setting in the workstream using the value entered in the **Block capacity for wrap up** under work distribution settings.
+
 ## Runtime experience of consult and transfer
 
 When you enable the consult to queue setting, your service representatives can see the **Queue** tab on the communication panel.
