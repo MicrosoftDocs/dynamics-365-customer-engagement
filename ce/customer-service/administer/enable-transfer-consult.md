@@ -59,7 +59,7 @@ Representatives can configure the inbox to show their consult sessions. The inbo
 
    :::image type="content" source="../media/configure-consult-inbox-view.png" alt-text="Screenshot of the conditions builder to view consult sessions in inbox.":::
 
-## Configure filters to display selective representatives in consult and transfer scenarios
+## Configure filters to display representatives selectively in consult and transfer scenarios
 
 In the different consult and transfer scenarios that you enable for your representatives, to make sure that representatives choose the right queue or another representative within the business unit or view, define FetchXML filter rules. At runtime, a selective list of representatives or queues appear when the representative initiates a consult or transfer session. By default these settings are disabled and you need to enable them and configure.
 
