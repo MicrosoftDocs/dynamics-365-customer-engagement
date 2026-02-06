@@ -1,5 +1,5 @@
 ---
-title: AI-powered Data Enrichment for opportunities
+title: AI-powered Data Enrichment for opportunities (preview)
 description: Learn how the AI-powered Data Enrichment helps automate updating and enriching opportunity data based on recent email interactions.
 ms.date: 02/06/2026
 ms.update-cycle: 180-days
@@ -15,12 +15,16 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# AI-powered Data Enrichment for opportunities
+# AI-powered Data Enrichment for opportunities (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 The AI-powered Data Enrichment feature helps sellers and managers maintain accurate and complete opportunity data. Incomplete or outdated opportunity records can lead to missed sales, inaccurate forecasting, and inefficient deal reviews. The AI-powered Data Enrichment feature addresses this challenge by automatically analyzing recent email interactions and suggesting or making updates to opportunity records. This proactive approach reduces manual data entry, improves pipeline confidence, and supports more effective deal reviews and forecasting.
 
 > [!NOTE]
 > Data Enrichment currently supports only emails stored in Dataverse. Ensure that your admin [enabled server-side synchronization](configure-email.md) for emails to leverage this feature.
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## How the AI-powered Data Enrichment feature works
 

@@ -1,5 +1,5 @@
 ---
-title: Review and approve suggestions from Data Enrichment
+title: Review and approve suggestions from Data Enrichment (preview)
 description: Learn how to review and approve suggestions made by the Data Enrichment Agent and revert automatic updates if necessary.
 author: lavanyakr01
 ms.author: lavanyakr
@@ -10,12 +10,16 @@ ms.service: dynamics-365-sales
 ms.collection: bap-ai-copilot
 ---
 
-# Review and approve suggestions from Data Enrichment 
+# Review and approve Data Enrichment suggestions (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 As a seller, you can review the suggestions made by Data Enrichment for opportunity records that you own and choose to accept or reject them. If your admin has configured Data Enrichment to automatically update fields, you can still review the changes and revert them if necessary.
 
 > [!NOTE]
 > Data Enrichment suggestions are available only for opportunity records that individual users own. Team-owned opportunity records aren't supported.
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 
@@ -36,7 +40,8 @@ If your admin has configured the agent for manual updates, you need to manually 
 1. Open your opportunity record in the Sales Hub app.
    If Data Enrichment has suggestions for the record, you see a notification banner at the top of the form indicating that new suggestions are available.
 
-1. Select **See suggestions** in the notification banner to open the **Data Enrichment** pane.
+1. Select **See suggestions** in the notification banner. 
+   The **Data Enrichment** pane opens. 
 1. In the **Suggestions** tab, hover over the information icon next to each suggestion to see details about the source of the suggestion. Review the suggestions and perform one of the following actions:
    - To accept or reject all the suggestions, select **Accept all** or **Reject all** at the bottom of the pane.
    - To accept or reject individual suggestions, hover over each suggestion and select the **Accept** icon (check mark) or the **Reject** icon (cross mark).
@@ -53,7 +58,8 @@ If your admin has configured Data Enrichment to automatically update fields in y
 1. Open your opportunity record in the Sales Hub app.
    If Data Enrichment has updated the record, you'll see a notification banner at the top of the form indicating that new suggestions are available.
 
-1. Select **See suggestions** in the notification banner to open the **Data Enrichment** pane.
+1. Select **See suggestions** in the notification banner. 
+   The **Data Enrichment** pane opens. 
 1. In the **Updates** tab, hover over the information icon next to each suggestion to see details about the source of the suggestion. Review the suggestions and do one of the following:
    - To keep or revert all the changes, select **Keep all** or **Undo all** respectively at the bottom of the pane.
    - To keep or revert individual updates, hover over each suggestion and select the **Keep** icon (check mark) or the **Undo** icon (cross mark) respectively.
@@ -90,5 +96,6 @@ The information that you see depends on how Data Enrichment is configured:
 **To view the change history:**
 
 1. Open your opportunity record in the Sales Hub app.
-1. Select **See suggestions** in the notification banner to open the **Data Enrichment** pane.
+1. Select **See suggestions** in the notification banner. 
+   The **Data Enrichment** pane opens. 
 1. Select the **History** tab to view the list of changes made to the opportunity record based on Data Enrichment suggestions. 
