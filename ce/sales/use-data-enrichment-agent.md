@@ -63,10 +63,8 @@ If your admin has configured Data Enrichment to automatically update fields in y
 1. In the **Updates** tab, hover over the information icon next to each suggestion to see details about the source of the suggestion. Review the suggestions and do one of the following:
    - To keep or revert all the changes, select **Keep all** or **Undo all** respectively at the bottom of the pane.
    - To keep or revert individual updates, hover over each suggestion and select the **Keep** icon (check mark) or the **Undo** icon (cross mark) respectively.
-   - To keep a few changes and revert the rest, select **Keep** for the changes you want to retain, and then select **Undo all** at the bottom of the pane to revert the remaining changes.
-
-   > [!NOTE]
-   > If you undo an update, the change is tracked in the **History** tab along with the name of the user who reverted it. Learn more in [View change history](#view-change-history). 
+   - To keep a few changes and revert the rest, select **Keep** for the changes you want to retain. Then, select **Undo all** at the bottom of the pane to revert the remaining changes; this works both ways.
+     If you undo an update, the change is tracked in the **History** tab along with the name of the user who reverted it. Learn more in [View change history](#view-change-history). 
 
 ## View emails associated by Data Enrichment
 
