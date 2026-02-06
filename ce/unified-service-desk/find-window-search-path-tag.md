@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # FindWindow search path tag in Unified Service Desk
 `<FindWindow>` tag contains a list of matching elements that are executed in the order of their listing within the tag. This topic describes the `<FindWindow>` elements with example code.  

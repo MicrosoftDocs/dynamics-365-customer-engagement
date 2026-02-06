@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: concept-article
 ms.collection:
-ms.date: 11/07/2025
+ms.date: 01/21/2026
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -24,7 +24,8 @@ The **Ongoing conversation** report shows ongoing conversations from the last 2 
 This report provides a holistic view of the conversations in real time. It includes details about subject, status, active service representative details, queue, channel, wait time, handle time, and customer sentiment. Learn more in [Overview of Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md).
 
 > [!NOTE]
-> - Only digital messaging, chat, and voice channels are supported. Record routing isn't supported.
+> - Autorefresh isn’t available for the ongoing conversations Power BI page. You must refresh the page manually to see the latest conversations and then perform the corresponding actions.
+> - Digital messaging, chat, and voice channels only are supported.
 > - The reports are prefiltered based on the queues you're logged in to as a supervisor. So you see metrics and conversations relevant to the assigned queues only.
 
 [Learn more about the metrics that are shown on the Ongoing conversation report.](../develop/calculate-conversation-metrics.md#calculate-conversation-metrics)
@@ -58,8 +59,6 @@ Refer to the following table to see when assign and transfer are enabled, depend
     :::image type="content" source="../media/realtime-agent-skill-prof.png" alt-text="Screenshot of assign conversation dialog, find an agent option":::
 
     If you select **Find a queue**, all other queues&mdash;except the one to which the conversation is currently assigned&mdash;are displayed.
-
-      :::image type="content" source="../media/realtime-agent-queue.png" alt-text="Screenshot of assing conversation dialog, find a queue option":::
 
 1. Select **Assign**.
 

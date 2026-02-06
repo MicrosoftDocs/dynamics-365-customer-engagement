@@ -20,9 +20,9 @@ Before you start, be sure you've a license to use the ZoomInfo app.
 
 As a Dynamics 365 administrator, you install the ZoomInfo app for administrators to configure export and mapping settings, and for sellers to search for and export ZoomInfo data to Dynamics 365 Sales workflows.
 
-1. Go to the [Microsoft commercial marketplace](https://appsource.microsoft.com/) and search for the **ZoomInfo** app.  
+1. Go to the [Microsoft commercial marketplace](https://marketplace.microsoft.com/) and search for the **ZoomInfo** app.  
 1. Open the **ZoomInfo** app page and select **Contact me**.  
-1. Sign in with the email address of the account you want to use when acquiring apps on AppSource.  
+1. Sign in with the email address of the account you want to use when acquiring apps on Marketplace.  
     ZoomInfo will send a solution package for installation.  
 1. After you receive the solution package, download it to your local computer.  
 1. Sign in to the [Power Apps portal](https://make.preview.powerapps.com/) and choose the organization in which you want to install the ZoomInfo app.  

@@ -1,7 +1,7 @@
 ---
 title: FAQ for AI suggestions for cases, knowledge articles
 description: FAQ for AI suggestions for cases and knowledge articles in Dynamics 365 Customer Service.
-ms.date: 04/30/2025
+ms.date: 01/30/2026
 ms.update-cycle: 180-days
 ms.topic: faq
 author: neeranelli

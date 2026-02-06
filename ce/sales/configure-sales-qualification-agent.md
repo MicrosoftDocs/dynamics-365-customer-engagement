@@ -1,7 +1,7 @@
 ---
 title: Set up and configure the Sales Qualification Agent
 description: Set up the Sales Qualification Agent in Dynamics 365 Sales to automate lead research, engagement, and outreach with AI-powered assistance. Learn how to configure it effectively.
-ms.date: 01/21/2026
+ms.date: 02/06/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -20,6 +20,11 @@ ai-usage: ai-assisted
 # Set up and configure the Sales Qualification Agent
 
 As an admin, you need to set up the Sales Qualification Agent before your sellers can use it for lead research, target customer profile assessment, and initial email outreach. This article discusses how to configure the details about your company and products you sell, your target customer profile, and other settings to help the agent align with your company's sales strategy and goals. 
+
+Here are the resources to help your functional and IT teams assess readiness for deploying the Sales Qualification Agent:
+
+- [Role-specific guidance](https://aka.ms/sqaguidance) for sales leadership, finance, and HR teams to understand the impact of the Sales Qualification Agent on their roles and responsibilities.
+- [Architecture and compliance safeguards](/dynamics365/guidance/reference-architectures/sales-qualification-agent) for your IT security and compliance teams to review the architecture, data flow, and security and compliance measures associated with the Sales Qualification Agent.
 
 Watch the video to get started with the agent setup:
 
@@ -74,13 +79,13 @@ Review the following considerations before you start deploying the autonomous Sa
 
 <a name="grant-permissions"></a>
 
-## Grant permissions to custom security role
+## Grant permissions to sellers to work on leads handed over by agent
 
-If you're using custom security roles for your sales team instead of the out-of-the-box roles, you have the following options:
+If you're using out-of-the-box security roles such as Salesperson and Sales Manager, no additional permissions are required to work on leads handed over by the Sales Qualification Agent. However, if you're using custom security roles for your sales team, you can choose *ONE* of the following options:
+
+- Assign the out-of-the-box roles&mdash;Salesperson or Sales Manager&mdash;only to users who'll be working on leads handed over by the agent. This option is recommended if you want to allow only a subset of users to work on leads handed over by the agent.
 
 - Grant the necessary permissions, listed in the following table, to the custom role. This option is recommended if you want to allow all the users with the custom role to work on leads handed over by the agent.
-
-- Assign the out-of-the-box roles&mdash;Salesperson or Sales Manager&mdash;only to users who'll be working on leads handed over by the agent. This option is recommended if you want to allow only a subset of users to work on the agent-handed-over leads.
 
 > [!NOTE]
 > If your sales team plans to reassign the leads handed over by the agent to other users, ensure that those users also have the permissions listed in the following table. Otherwise, the user assignment will fail.

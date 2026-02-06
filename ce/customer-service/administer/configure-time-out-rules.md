@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to 
 ms.collection: 
-ms.date: 01/19/2025
+ms.date: 01/19/2026
 ms.custom: bap-template
 ---
 
@@ -19,7 +19,8 @@ Time-out rules are useful settings that administrators can configure to enact ce
 
 ## Prerequisite
 
-The Omnichannel Administrator role.
+- The Omnichannel Administrator role.
+- Workstreams are configured for the channels for which you want to configure timeout rules.
 
 ## Configure the timeout rules
 
