@@ -50,7 +50,7 @@ When you enable the transfer to representative setting, representatives can sele
 1. On the **Consult and transfer** page, in **Transfer settings** turn on the **transfer to representatives** toggle.
 1. Select **Save**.
 
-## Configure custom inbox view
+## Configure custom inbox view for consult sessions
 
 Representatives can configure the inbox to show their consult sessions. The inbox view helps representatives rejoin the consulted sessions and leave the consultation to release their capacity.
 
