@@ -61,15 +61,17 @@ Representatives can configure the inbox to show their consult sessions. The inbo
 
 ## Configure filters to display representatives selectively in consult and transfer scenarios
 
-In the different consult and transfer scenarios that you enable for your representatives, to make sure that representatives choose the right queue or another representative within the business unit or view, define FetchXML filter rules. At runtime, a selective list of representatives or queues appear when the representative initiates a consult or transfer session. By default these settings are disabled and you need to enable them and configure.
+In the various consult and transfer scenarios that you enable for your representatives, you can define FetchXML filter rules to display the right set of representatives or queues. At runtime, eligible representatives or queues only appear for the consult or transfer session.
 
-1. In Copilot Service admin center, go to the **Channels** > **Consult and transfer** page.
+By default, all filtering options are disabled.
+
+1. In Copilot Service admin center, go to **Channels** > **Consult and transfer**.
 1. Enable the toggle for each of the following settings:
     - **Consult to queue filtering**
     - **Transfer to queue filtering**
     - **Consult with representative filtering**
     - **Transfer to representative filtering**
-1. Fill the FetchXML query in each of the settings and validate. The FetchXML can be a simple filter or a complex query that uses linked entities with a custom mapping table based on business rules.
+1. Enter and validate a FetchXML query for each setting. The FetchXML can be a simple filter or a complex query that uses linked entities with a custom mapping table based on your business rules.
 1. Save the changes.
 
    :::image type="content" source="../media/consult-transfer-fetchxml.png" alt-text="A screenshot of the FetchXMLs to restrict representatives during consult and transfer scenarios.":::
