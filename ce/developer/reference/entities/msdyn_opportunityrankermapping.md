@@ -72,6 +72,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_detectedcompetitors](#BKMK_msdyn_detectedcompetitors)
 - [msdyn_emailcontent](#BKMK_msdyn_emailcontent)
 - [msdyn_emailinsight](#BKMK_msdyn_emailinsight)
+- [msdyn_emailparticipants](#BKMK_msdyn_emailparticipants)
+- [msdyn_generatedemailinsights](#BKMK_msdyn_generatedemailinsights)
 - [msdyn_mappedopportunityid](#BKMK_msdyn_mappedopportunityid)
 - [msdyn_mappedresponse](#BKMK_msdyn_mappedresponse)
 - [msdyn_messageid](#BKMK_msdyn_messageid)
@@ -79,6 +81,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_OpportunityRankerMappingId](#BKMK_msdyn_OpportunityRankerMappingId)
 - [msdyn_recordid](#BKMK_msdyn_recordid)
 - [msdyn_relevancescore](#BKMK_msdyn_relevancescore)
+- [msdyn_SourceType](#BKMK_msdyn_SourceType)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -161,6 +164,40 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`msdyn_emailinsight`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
+
+### <a name="BKMK_msdyn_emailparticipants"></a> msdyn_emailparticipants
+
+|Property|Value|
+|---|---|
+|Description|**Email Participants**|
+|DisplayName|**Email Participants**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`msdyn_emailparticipants`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
+
+### <a name="BKMK_msdyn_generatedemailinsights"></a> msdyn_generatedemailinsights
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Generated Email Insights**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`msdyn_generatedemailinsights`|
 |RequiredLevel|None|
 |Type|Memo|
 |Format|Text|
@@ -287,6 +324,27 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100|
+
+### <a name="BKMK_msdyn_SourceType"></a> msdyn_SourceType
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether the source is SSS or M365**|
+|DisplayName|**Source Type**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_sourcetype`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_opportunityrankermapping_msdyn_sourcetype`|
+
+#### msdyn_SourceType Choices/Options
+
+|Value|Label|
+|---|---|
+|733400000|**SSS**|
+|733400001|**M365**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
