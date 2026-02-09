@@ -65,7 +65,7 @@ For call transfers in the voice channel, the system handles the capacity as foll
 - **Transfer to internal representative**: The conversation remains in active state, the representative becomes the new primary representative, and the original representative's capacity is immediately released. 
 - **Transfer to queue**: The conversation goes into open state while waiting in the new queue, and the primary representative’s capacity is immediately released.
 
-## Wrap-up
+## Wrap up
 
 The wrap-up state is an intermediate state after the representative ends the conversation and does post-conversation activities, such as taking notes and updating the customer information, before moving the conversation to the **Closed** state. The representative capacity is blocked according to the duration that's specified for the **Block capacity for wrap up** setting in the workstream.
 
@@ -81,7 +81,7 @@ The conversation (work item) transitions from **Wrap-up** to **Closed** under th
 
 ![Transition from wrap-up to closed state.](../media/oc-conversation-wrap-up1.png "Wrap-up state")
 
-### Wrap up behavior for transfer of conversations
+### Wrap-up behavior on transfer of conversations
 
 If **Wrap up after transfer** is enabled in the **Consult and transfer** page of Copilot Service admin center and **Block capacity for wrap up** is configured in tbe work distribution setting, the wrap-up behavior is as follows:
 
