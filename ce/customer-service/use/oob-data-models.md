@@ -473,7 +473,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |FactBotSessionNodedetail|	InputMode|	Mode of user input at the node. For example, voice, text, DTMF.|
 |FactBotSessionNodedetail|	NumberOfTurns|	Number of conversational turns taken within this node.|
 |FactBotSessionNodedetail|	TopicDisplayName|	User-friendly name of the topic or intent associated with the question node.|
-|FactBotSessionNodedetail|	AbandonedCount|	Count indicating the specific question node was abandoned without completion which could have also led the conversation to abandonment.|
+|FactBotSessionNodedetail|	AbandonedCount|	Count indicating that the specific question node was abandoned before completion and might have contributed to the conversation being abandoned.|
 |FactBotSessionNodedetail|	AgentHangUpCount|	Count of interactions where the session ended due to agent hang up or transfer termination at the question node.|
 |FactBotSessionNodedetail|	ErrorCount|	Number of general errors encountered during question node execution.|
 |FactBotSessionNodedetail|	MaxNoInputCount|	Indicator or count showing maximum no input from user attempts reached at the question node. The threshold is set at each question node.| 
