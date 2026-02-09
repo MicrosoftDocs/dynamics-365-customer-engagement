@@ -1,7 +1,7 @@
 ---
 title: Work on opportunities handled by the Sales Close Agent - Research (preview)
 description: Learn how to work on opportunities handled by the Sales Close Agent - Research.
-ms.date: 01/02/2026
+ms.date: 02/09/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -68,6 +68,8 @@ Consider the following information:
 
 
 ## Opportunity research page
+
+If the research insights appear in a language different from your preferred language in Dynamics 365 Sales, it means the agent is configured to use another language. For details, see [What happens when the agent's language is different from user's preferred language?](opportunity-research-agent-faqs.md#agent-language-difference)
 
 The Opportunity research page includes the following sections:
 
