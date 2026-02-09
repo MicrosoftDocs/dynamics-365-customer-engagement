@@ -39,7 +39,7 @@ Add the data source using *one* of the following options on the **Sales Research
 
     :::image type="content" source="media/sales-research-agent-add-data.png" alt-text="Screenshot of the Add data option in the Sales Research Agent." lightbox="media/sales-research-agent-add-data.png":::
 
-If you selected the option to connect to Microsoft Fabric Lakehouse, review the article [Connect Sales Research Agent to Microsoft Fabric Lakehouse](sales-research-agent-lakehouse-integration.md).
+For Microsoft Fabric Lakehouse connection, review the article [Connect Sales Research Agent to Microsoft Fabric Lakehouse](sales-research-agent-lakehouse-integration.md) for detailed instructions and considerations.
 
 ## Supported data files
 

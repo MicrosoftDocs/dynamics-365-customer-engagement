@@ -13,11 +13,11 @@ ms.collection: bap-ai-copilot
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-You can connect the Sales Research Agent to Microsoft Fabric Lakehouse to enable rich analysis over your enterprise data stored in OneLake. When you select the Lakehouse option, the Sales Research Agent automatically discovers Lakehouse shortcuts that you have permission to access and makes them available as data sources for AI-powered reasoning. 
+Connect the Sales Research Agent to Microsoft Fabric Lakehouse to unlock AI-powered analysis across the enterprise data you store in OneLake. When you choose Lakehouse, the agent automatically discovers Lakehouse shortcuts you have permission to access and makes them available as sources for reasoning. Use the connector on its own to analyze Lakehouse data directly, or combine Lakehouse data with your Dynamics 365 Sales data to deliver even richer, more contextual insights.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-## Considerations for using Sales Research Agent with Microsoft Fabric Lakehouse
+## Considerations for the agent with Microsoft Fabric Lakehouse
 
 When connecting Sales Research Agent to Microsoft Fabric Lakehouse, consider the following information:
 
@@ -71,14 +71,14 @@ Microsoft Fabric administrators manage Lakehouse access using standard Fabric an
 
 ## What Sales Research Agent never bypasses 
 
-Sales Research Agent is designed with security and compliance in mind. It  always operates under the user’s security context and never bypasses or elevates permissions. The agent strictly adheres to the following access controls:
+Sales Research Agent is designed with security and compliance in mind. It always operates under the user’s security context and never bypasses or elevates permissions. The agent strictly adheres to the following access controls:
 
 - Workspace roles 
 - OneLake ACLs and shortcut access permissions 
 - Item-level Fabric permissions 
 - RLS/CLS 
     
-## How Sales Research Agent processes your Lakehouse query
+## How the agent processes your Lakehouse query
 
 When you query your Lakehouse, the Sales Research Agent performs the following steps to ensure secure and relevant data retrieval:
 
