@@ -135,7 +135,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |DimTopic	|Topic	|Topic name.|
 |FactAgentStatusHistory |Agent status history id	|Original identifier of the service representative status history record from msdyn_agentstatushistory entity. Type: GUID.|
 |FactAgentStatusHistory	|System user id	|Agent ID. Foreign key to DimSystemUser. |
-|FactAgentStatusHistory	|Agent logged in time	|The time a service representative logged in to the omnichannel application per presence status. |
+|FactAgentStatusHistory	|Agent logged in time	|The time a service representative signed in to the omnichannel application per presence status. |
 |FactAgentStatusHistory	|Agent presence id	|Foreign key to DimAgentPresence.|
 |FactAgentStatusHistory	|Agent available duration (hrs)|	The time a service representative is in the Available state in the omnichannel application.|
 |FactAgentStatusHistory	|Agent away duration (hrs)|	The time a service representative is in the Away state in the omnichannel application.|
