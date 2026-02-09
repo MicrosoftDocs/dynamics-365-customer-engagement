@@ -486,7 +486,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |FactBotSessionNodedetail|	OtherCount	| Count capturing question node outcomes that don't fall into any of the above predefined categories.|
 |FactBoFactBotReportingVariableDetail|	BotId	|Unique identifier of the Microsoft Copilot Studio agent handling the session.|
 |FactBotReportingVariableDetail|	ConversationId	|Unique identifier representing a single conversation that could have one or more Microsoft Copilot Studio agent sessions.|
-|FactBotReportingVariableDetail|	Name|	Name of the custom reporting variable that's set up within the Microsoft Copilot Studio agent in the same environment and introduced into Contact Center Admin Center. Variable could be related to a business to help classify conversations.|
+|FactBotReportingVariableDetail|	Name|	Name of the custom reporting variable that's set up within the Microsoft Copilot Studio agent in the same environment and introduced in Contact Center admin center. Variable could be related to a business to help classify conversations.|
 |FactBotReportingVariableDetail|	SessionId	| Unique identifier for the Microsoft Copilot Studio agent session across a user interaction lifecycle or a single conversation.|
 |FactBotReportingVariableDetail|	SessionStartDate|	Calendar date on which the Microsoft Copilot Studio agent session began.|
 |FactBotReportingVariableDetail|	Value|	Final Value of the reporting variable available for a conversation whose variable name is introduced into Contact Center Admin Center.|
