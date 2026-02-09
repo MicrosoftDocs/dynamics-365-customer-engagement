@@ -334,7 +334,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_voice_analytics.pbix file to e
 |FactSession	|Primary system user id	|Primary system user ID. Foreign key to DimSystemUser.|
 |FactSession	|Is agent accepted session|	Did the service representative accept the session? |
 |FactSession	|Is agent session	|Is the service representative in the session?|
-|FactSession	|Avg. conversation handle time (min)	|Avg. conversation handle time (min)|
+|FactSession	|Avg. conversation handle time (min)	|Average conversation handle time, in minutes.|
 |FactSession	|Avg. conversation hold time (min)	|Avg. conversation hold time (min)|
 |FactSession	|Avg. conversation sentiment	|The average sentiment score based on the verbatim provided in customer voice survey.|
 |FactSession	|Avg. conversation talk time (min)	|Avg. conversation talk time (min)|
