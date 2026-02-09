@@ -29,6 +29,17 @@ Messages represent operations that can be performed on the table. They may also 
 
 
 
+## Customized relationships
+
+### Customized Many-to-One relationships
+
+#### <a name="BKMK_FileAttachment_package_DeploymentLog"></a> FileAttachment_package_DeploymentLog
+
+Changes from [FileAttachment_package_DeploymentLog (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/package#BKMK_FileAttachment_package_DeploymentLog)
+
+|Property|Value|
+|---|---|
+|CascadeConfiguration|Archive: `RemoveLink`|
 
 
 ### See also

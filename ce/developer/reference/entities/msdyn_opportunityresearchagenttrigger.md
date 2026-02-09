@@ -198,6 +198,10 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |100000009|**Competitor Insights**|
 |100000010|**Related Conversation Mapping**|
 |100000011|**Deal Summary**|
+|100000012|**Chain Of Thoughts**|
+|100000013|**Custom OOB Account Research**|
+|100000014|**Custom Research Insight**|
+|100000015|**Summerized Account Research**|
 
 ### <a name="BKMK_msdyn_RetryCount"></a> msdyn_RetryCount
 

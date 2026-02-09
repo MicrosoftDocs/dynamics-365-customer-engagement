@@ -111,7 +111,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Entity type from which the fields need to be extracted – case, chat etc.**|
+|Description|**Entity type from which the fields need to be extracted - case, chat etc.**|
 |DisplayName|**entitytype**|
 |IsValidForForm|True|
 |IsValidForRead|True|
