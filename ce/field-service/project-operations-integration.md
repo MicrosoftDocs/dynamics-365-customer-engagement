@@ -18,15 +18,15 @@ The connection between Dynamics 365 Field Service and Project Operations solves 
 
 This integration is designed for organizations that use:
 
-- Field Service, Project Operations, and Finance and Supply Chain Management, which delivers full end-to-end service, project, and financial orchestration.
+- Field Service, Project Operations, Finance, and Supply Chain Management, which deliver full end-to-end service, project, and financial orchestration.
 
-- Field Service and Finance and Supply Chain Management, without using the Project Operations application. Field Service and Project Operations remain integrated, but users don't need to open the Project Operations app because all essential workflows are available directly in Field Service. A minimal set of Project Operations configuration forms is embedded in Field Service, enabling customers to complete required setup for Project Operations and Finance and Supply Chain Management without switching applications.
+- Field Service, Finance, and Supply Chain Management, without using the Project Operations application. This approach uses a minimal set of Project Operations setup forms embedded within Field Service.
 
-- Field Service and Project Operations, without Finance and Supply Chain Management. This approach supports project-based service and financial alignment under an organizing container. You can use this approach for integration to other ERP solutions or for direct execution and management purposes.
+- Field Service, Finance, and Supply Chain Management, without using the Project Operations application. Field Service and Project Operations remain integrated, but users don't need to open the Project Operations app because all essential workflows are available directly in Field Service. A minimal set of Project Operations configuration forms is embedded in Field Service, enabling customers to complete required setup for Project Operations and Finance and Supply Chain Management without switching applications.
 
-## How it works: The integration flow
+## How it works: the integration flow
 
-The diagram shows how Field Service, Project Operations, and Finance activities connect into one continuous process.
+This diagram shows how Field Service, Project Operations, and Finance activities connect into one continuous process.
 
 :::image type="content" source="media/project-operations-field-service-integration-flow.png" alt-text="Diagram that shows end-to-end flow from Field Service to Project Operations and Finance." lightbox="media/project-operations-field-service-integration-flow-expand.png":::
 
@@ -34,7 +34,7 @@ The diagram shows how Field Service, Project Operations, and Finance activities 
 
 Frontline workers create **work orders** for service delivery, each linked to a project in Project Operations, which serves as the financial container. This work order and project association provides the context to interpret cost, revenue, and billing.
 
-When a frontline worker sets an estimated quantity or estimated duration for the work order product or service, the system creates material estimate lines in Project Operations. The estimate must be greater than zero. If Dynamics 365 Finance integration is enabled, the systems creates forecast lines in Finance.
+When a frontline worker sets an estimated quantity or estimated duration for the work order product or service, the system creates material estimate lines in Project Operations. The estimate must be greater than zero. If Dynamics 365 Finance integration is enabled, the system creates forecast lines in Finance.
 
 When work in the field is complete and the work order product or service line status is set to used, the system calculates applicable pricing and costs for services and products based on the operational data captured on the work order. The usage data is captured as Material Usage Logs (MULs).
 

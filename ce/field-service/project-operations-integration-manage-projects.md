@@ -14,7 +14,7 @@ Field Service provides minimal project-related forms that allow frontline and op
 
 By using these forms, Field Service users can create the essential project artifacts, project contracts, contract lines, and projects that establish the financial framework needed for material usage, labor (services), and actuals to flow into Project Operations or Finance. When the required project structure exists, you can link work orders or agreements so that all operational activity routes to the correct financial records.
 
-Project management scheduling, task breakdown, or resource planning isn't required (or available) in Field Service. Use Project Operations to utilize those capabilities.
+Project management scheduling, task breakdown, or resource planning isn't required (or available) in Field Service. Use Project Operations to use those capabilities.
 
 This article provides the steps needed to create an eligible project in Field Service.
 
@@ -26,7 +26,7 @@ This article provides the steps needed to create an eligible project in Field Se
 
 ## Project requirements
 
-To link a work order or agreement to a project, an eligible project must exist. Field Service forms enable you to create the minimal, but required project structure. These requirements ensure financial consistency and allow Field Service transactions—such as material usage and labor services—to flow properly into Project Operations or Finance.
+To link a work order or agreement to a project, an eligible project must exist. Field Service forms enable you to create the minimal but required project structure. These requirements ensure financial consistency and allow Field Service transactions—such as material usage and labor services—to flow properly into Project Operations or Finance.
 
 - A project contract where the order type is work-based.
 - A project-based contract line with a defined **Billing method** (time and materials or fixed price) and  **Includes materials** set to *Yes*.
@@ -73,19 +73,21 @@ To manage internal projects in Field Service, create a customer account and crea
 
 1. Select the price list, and then select **Save & Close**.
 
-A frontline worker can [assign the project to work orders or agreements](project-operations-integration-work-order.md).
+A frontline worker can assign the project to work orders or agreements.
 
 ## View material usage logs
 
-A material usage log (MUL) shows the list of materials or parts that a field technician uses while completing a job. For example, if someone installs a replacement part during a repair, that part and its cost appear on the log. It helps you track what materials were consumed so you can charge the customer correctly and update inventory.
+A material usage log shows the list of materials or parts that a field technician uses while completing a job. For example, if someone installs a replacement part during a repair, that part and its cost appear on the log. It helps you track what materials were consumed so you can charge the customer correctly and update inventory.
 
-The system automatically creates an MUL when a technician records materials or services on a work order as used. Learn more in [Record material usage on projects and project tasks](/dynamics365/project-operations/material/material-usage-log).
+The system automatically creates a material usage log when a technician records materials or services on a work order as used. Learn more in [Record material usage on projects and project tasks](/dynamics365/project-operations/material/material-usage-log). You can view all material usage logs by selecting **Projects** > **Material Usage Logs**.
 
-To view all material usage logs, select **Projects** > **Material Usage Logs**.
+If [**Auto-Approve Project Approval** was enabled](project-operations-integration-setup.md#enable-the-integration) during setup, the system automatically approves material usage logs, creates an **Approved** project approval record, and generates actuals. Skip to [Create invoices](#view-actuals-and-create-invoices).
 
-- If [**Auto-Approve Project Approval**](project-operations-integration-setup.md#enable-the-integration) is set to *Yes* during setup, the system automatically approves MULs, creates an **Approved** project approval record, and generates actuals. Skip to [Create invoices](#view-actuals-and-create-invoices).
+If **Auto-Approve Project Approval** is *No*, the material usage logs must be submitted for approval.
 
-- If **Auto-Approve Project Approval** is *No*, the MULs must be submitted for approval. Find and select the billable items to submit for approval, and then select **Submit**. The system automatically creates a project approval record. This record must be approved before actuals are generated.
+1. In Field Service, select the **Projects** area. Then, select **Material Usage Logs**.
+
+1. Find and select the billable items to submit for approval, and then select **Submit**. The system automatically creates a project approval record. This record must be approved before actuals are generated.
 
 ## Approve billable items
 
@@ -105,13 +107,16 @@ After approval, the system creates actuals in Project Operations. These actuals 
 
 1. Find and select the actuals for your project contract. Then, select **Ready to invoice**. The system creates a draft Proforma invoice showing what is to be billed.
 
-If your organization is using the [Integrated Project Operations with Finance model](project-operations-integration-inventory.md), the system also creates [Project Operations Integration Journal Lines](/dynamics365/project-operations/project-accounting/project-operations-integration-journal) that transfer the approved financial data to Finance.
+If your organization is using the Integrated Project Operations with Finance model, the system also creates [Project Operations Integration Journal Lines](/dynamics365/project-operations/project-accounting/project-operations-integration-journal) that transfer the approved financial data to Finance.
 
 ## Review and confirm invoices
 
-If your organization is using the [Project Operations Core (Lite) without Finance model](project-operations-integration-inventory.md), review, [edit if necessary, and confirm the invoice](/dynamics365/project-operations/pro/proforma-invoicing/create-manual-proforma-invoice-sales#edit-a-draft-invoice).
+If your organization is using the Project Operations Core (Lite) without Finance model, review, [edit if necessary, and confirm the invoice](/dynamics365/project-operations/pro/proforma-invoicing/create-manual-proforma-invoice-sales#edit-a-draft-invoice).
 
 If your organization is using the Integrated Project Operations with Finance model, the [invoice is finalized in Finance](/dynamics365/project-operations/invoicing/post-project-invoices).
 
+## Next steps
+
+- [Link projects to work orders](project-operations-integration-work-order.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

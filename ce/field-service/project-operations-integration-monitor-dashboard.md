@@ -30,19 +30,19 @@ The Project Operations integration provides two dashboards that help you monitor
 
 Both dashboards contain the following sections:
 
-- **Material Usage Log Validation**: Lists products or services that are missing a Material Usage Log (MUL) record.
+- **Material Usage Log Validation**: Lists products or services that are missing a material usage log record.
 
 - **Project Approval Validation**: Lists products or services that are missing a Project Approval record.
 
 - **Actuals Validation**: Lists products or services that are missing Actuals records.
 
-- **Background Job Monitoring**: Lists work order revision lines that failed to create or update a MUL or estimate lines.
+- **Background Job Monitoring**: Lists work order revision lines that failed to create or update a material usage log or estimate lines.
 
-A Material Usage Log's *submission* creates the Project Approval record, and the Project Approval's *approval* generates the Actuals.
+A material usage log's *submission* creates the Project Approval record, and the Project Approval's *approval* generates the Actuals.
 
-If a work order product or service is missing information, the dashboard lists it only in the first section where an issue occurred. For example, if a work order product is missing a MUL, that means it's also missing a project approval and actuals. The dashboard lists the product only in the **Material Usage Log Validation** section because that's when the issue first occurred.
+If a work order product or service is missing information, the dashboard lists it only in the first section where an issue occurred. For example, if a work order product is missing a material usage log, that means it's also missing a project approval and actuals. The dashboard lists the product only in the **Material Usage Log Validation** section because that's when the issue first occurred.
 
-In another example, if a work order service is missing a project approval, the dashboard lists the service only in the **Project Approval Validation** section. That condition means it has a MUL, but is missing a project approval and actuals.
+In another example, if a work order service is missing a project approval, the dashboard lists the service only in the **Project Approval Validation** section. That condition means it has a material usage log, but is missing a project approval and actuals.
 
 ## Work order line revisions
 
