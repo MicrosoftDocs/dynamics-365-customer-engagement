@@ -419,7 +419,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |FactBotSession	|Avg. escalation time (min)	| The time the AI agent required to escalate. |
 |FactBotSession|Avg. deflection time (min)	|The time required by the AI agent to deflect.|
 |FactBotSession	|Bot CSAT| CSAT score for AI agent at an average. |
-|FactBotSession	|Bot Id	| AI agent ID, PK to Dimbot |
+|FactBotSession	|Bot Id	| AI agent ID, PK to Dimbot. |
 |FactBotSession|Bot session ID	|AI agent session ID, PK|
 |FactBotSession	|Bot topic| The topic of this AI agent session. |
 |FactBotSession	|Conversation title	| The title of the associated conversation. |
