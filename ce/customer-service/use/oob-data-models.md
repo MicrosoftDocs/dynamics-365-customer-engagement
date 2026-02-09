@@ -337,7 +337,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_voice_analytics.pbix file to e
 |FactSession	|Avg. conversation handle time (min)	|Average conversation handle time, in minutes.|
 |FactSession	|Avg. conversation hold time (min)	|Average conversation hold time, in minutes.|
 |FactSession	|Avg. conversation sentiment	|The average sentiment score based on the verbatim provided in customer voice survey.|
-|FactSession	|Avg. conversation talk time (min)	|Avg. conversation talk time (min)|
+|FactSession	|Avg. conversation talk time (min)	|Average conversation talk time, in minutes.|
 |FactSession	|Avg. CSAT	|Avg. CSAT|
 |FactSession	|Avg. incoming messages	|Average incoming messages|
 |FactSession	|Avg. outgoing messages	|Average outgoing messages|
