@@ -408,7 +408,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |Entities |Attributes |	Description |
 |----------|------------------|---------------|
 |FactConversation	|Conversation outcome	|Conversation outcome based on the involvement of an AI agent and the customer service representative. Currently supports bot escalated, bot deflected, and direct agent conversations.|
-|DimBot	|Bot ID| AI agent ID|
+|DimBot	|Bot ID| AI agent ID.|
 |DimBot	|Bot name| AI agent name |
 |FactCustomerSupportJourney|Source	|The source of one step on the customer support journey graph. Examples are "interaction", "bot escalated","direct agent connection", and "agent assigned" . |
 |FactCustomerSupportJourney	|Destination| The destination of one step on the customer support journey graph. |
