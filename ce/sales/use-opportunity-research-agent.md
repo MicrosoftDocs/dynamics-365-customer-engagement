@@ -1,7 +1,7 @@
 ---
 title: Work on opportunities handled by the Sales Close Agent - Research (preview)
 description: Learn how to work on opportunities handled by the Sales Close Agent - Research.
-ms.date: 01/02/2026
+ms.date: 02/09/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template

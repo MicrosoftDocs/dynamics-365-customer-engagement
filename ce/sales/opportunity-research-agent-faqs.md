@@ -1,7 +1,7 @@
 ---
 title: FAQs about Opportunity Research Agent (preview)
 description: Get to know answers to frequently asked questions about the Opportunity Research Agent in Dynamics 365 Sales.
-ms.date: 11/03/2025
+ms.date: 02/09/2026
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom:
@@ -33,7 +33,7 @@ The Sales Close Agent - Research uses the language specified in the [agent setti
 
 The screenshot below shows this scenario, with the agent's language set to German and the user's preferred language set to English.
 
-:::image type="content" source="media/sales-close-agent-language-mismatch.png" alt-text="Screenshot showing the Opportunity Research page with section headings in English and insights in German." lightbox="media/sales-close-agent-language-mismatch.png":::
+:::image type="content" source="media/sales-close-agent-language-difference.png" alt-text="Screenshot showing the Opportunity Research page with section headings in English and insights in German." lightbox="media/sales-close-agent-language-difference.png":::
 
 ## How does that agent assess opportunity importance and risk?
 

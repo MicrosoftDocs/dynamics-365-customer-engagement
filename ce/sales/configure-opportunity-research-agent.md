@@ -1,7 +1,7 @@
 ---
 title: Configure the Sales Close Agent - Research (preview)
 description: Learn how to set up and configure the Sales Close Agent - Research in Dynamics 365 Sales.
-ms.date: 01/27/2026
+ms.date: 02/09/2026
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template
