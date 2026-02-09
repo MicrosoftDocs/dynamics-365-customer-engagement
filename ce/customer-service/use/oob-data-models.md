@@ -353,7 +353,7 @@ FactSession	|Avg. Speed to answer (sec)	|Average time it takes for the service r
 |FactSession	|Avg. wait time (sec)	|The average time in seconds customers waited before connecting to service representatives. Similar to speed to answer, but includes time waited on each session within a conversation.|
 |FactSession	|Engaged conversations	|The conversations that the service representative was engaged in. Customer-to-service representative communication can begin at this point.|
 |FactSession	|Engaged sessions	|Sessions presented to a service representative that the service representative accepts.|
-|FactSession	|Incoming conversations	|Incoming conversations|
+|FactSession	|Incoming conversations	|Incoming conversations.|
 |FactSession	|Incoming messages	|Incoming messages|
 |FactSession	|Incoming sessions	|Incoming sessions|
 |FactSession	|Outgoing conversations	|Outgoing conversations|
