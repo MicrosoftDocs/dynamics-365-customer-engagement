@@ -1,7 +1,7 @@
 ---
 title: Data model and report mapping for historical analytics reports
 description: View and customize the default data model and report mapping for historical analytics reports in Dynamics 365 Customer Service.
-ms.date: 02/06/2026
+ms.date: 02/09/2026
 ms.topic: concept-article
 author: Soumyasd27
 ms.author: sdas
@@ -58,7 +58,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |FactCase	|Owner system user id	|Owner system user ID. Foreign key to DimSystemUser. |
 |FactCase	|Case url	|URL for case. |
 |FactCase	|Case property id |	Foreign key to DimCaseProperty. |
-|FactCase	|Topic id	|Topic id. Foreign key to DimTopic. |
+|FactCase	|Topic id	|Topic ID. Foreign key to DimTopic. |
 |FactCase	|Case title	|Case title. |
 |FactCase	|Created on	|Date created on. |
 |FactCase	|Incoming cases	|Incoming cases count.|
@@ -113,7 +113,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |Entities |Attributes|	Description |
 |----------|----------|----------| 
 |DimAgentPresence	|Agent presence id |Primary key. |
-|DimAgentPresence	|Presence status	| service representative presence status. That is, Available, Busy, Busy-DND (Do not disturb), Away, or Offline. |
+|DimAgentPresence	|Presence status	| Service representative presence status. For example, Available, Busy, Busy-DND (Do not disturb), Away, or Offline. |
 |DimConversationProperty |Conversation property id |Primary key. |
 |DimConversationProperty	|Channel |	Channel name. The name of the channel that the conversation came through. |
 |DimConversationProperty|Conversation status |The status of the conversation. For example, open, active, waiting, wrap up, and closed. |
@@ -154,7 +154,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |FactConversation	|Is conversation date in past	|Is conversation data in past. |
 |FactConversation|	Is outbound	|Is outbound conversation. |
 |FactConversation	|Abandon rate	|Abandon rate.|
-|FactConversation	|Avg. conversation hold time (min)|	The total time a service representative has put a customer on hold.|
+|FactConversation	|Avg. conversation hold time (min)|	The total time a service representative has a customer on hold.|
 |FactConversation	|Avg. conversation sentiment|	Average conversation sentiment. |
 |FactConversation	|Avg. conversation talk time (min)	|The total time the customer and service representative spent talking on the voice call. It’s the difference between the handle time and cumulative time in hold and after call work time.|
 |FactConversation	|Avg. conversation time (min)|	Average conversation time (min).|
@@ -194,23 +194,23 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |FactSession	|Queue id	|Queue ID. Foreign key to DimQueue.|
 |FactSession	|Topic id	|Topic ID. Foreign key to DimTopic. |
 |FactSession	|Primary system user id	|Primary system user ID. Foreign key to DimSystemUser.|
-|FactSession	|Is agent accepted session	|Is service representative accepted the session or not. |
+|FactSession	|Is agent accepted session	|Did the service representative accept the session?  |
 |FactSession	|Is agent session	|Is service representative session or not.|
-|FactSession	|Avg. conversation handle time (min)	|Average conversation handle time (min).|
-|FactSession	|Avg. conversation hold time (min)|	Average conversation hold time (min).|
+|FactSession	|Avg. conversation handle time (min)	|Average conversation handle time in minutes.|
+|FactSession	|Avg. conversation hold time (min)|	Average conversation hold time in minutes.|
 |FactSession	|Avg. conversation sentiment	|Average sentiment score based on the verbatim provided in customer voice survey.|
-|FactSession	|Avg. conversation talk time (min)	|Average conversation talk time (min).|
+|FactSession	|Avg. conversation talk time (min)	|Average conversation talk time in minutes.|
 |FactSession	|Avg. CSAT|	Average CSAT.|
 |FactSession	|Avg. incoming messages	|Average incoming messages. |
 |FactSession	|Avg. outgoing messages	|Average outgoing messages. |
-|FactSession	|Avg. session active time (min)|	Average session active time (min). |
-|FactSession	|Avg. session handle time (min)	|Average session handle time (min).|
-|FactSession	|Avg. session hold time (min)	|Average session hold time (min). |
-|FactSession	|Avg. session inactive time (min) |Average session inactive time (min). |
+|FactSession	|Avg. session active time (min)|	Average session active time in minutes. |
+|FactSession	|Avg. session handle time (min)	|Average session handle time in minutes.|
+|FactSession	|Avg. session hold time (min)	|Average session hold time in minutes. |
+|FactSession	|Avg. session inactive time (min) |Average session inactive time in minutes. |
 |FactSession	|Avg. session sentiment	|Average session sentiment. |
-|FactSession	|Avg. session talk time (min) |Average session talk time (min). |
-|FactSession	|Avg. session time (min)	|Average session time (min).|
-|FactSession	|Avg. Speed to answer (sec) |	Average speed to answer (sec). |
+|FactSession	|Avg. session talk time (min) |Average session talk time in minutes. |
+|FactSession	|Avg. session time (min)	|Average session time in minutes.|
+|FactSession	|Avg. Speed to answer (sec) |	Average speed to answer in seconds. |
 |FactSession	|Avg. wait time (min) |	The average time in minutes customers waited before connecting to service representatives. Similar to speed to answer, but includes time waited on each session within a conversation.|
 |FactSession	|Avg. wait time (sec)	|The average time in seconds customers waited before connecting to service representatives. Similar to speed to answer, but includes time waited on each session within a conversation.|
 |FactSession	|Engaged conversations	|The conversations that the service representative was engaged in. Customer-to-service representative communication can begin at this point. |
@@ -426,7 +426,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |FactBotSession|Conversation deflected	|The total conversation was deflected. |
 |FactBotSession|Conversation escalated	|The total conversation was escalated. |
 |FactBotSession|Conversation ID	|Identifier of the related conversation record.  |
-|FactBotSession|Conversation URL	|The URl of the related conversation. |
+|FactBotSession|Conversation URL	|The URL of the related conversation. |
 |FactBotSession|Bot deflection rate	|The rate at which the AI agent conversations were deflected. |
 |FactBotSession|Engaged sessions rate	|The engagement rate of AI agent sessions. |
 |FactBotSession|Bot escalated topic|The escalated topic of AI agent conversations. |
@@ -454,7 +454,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |FactBotSessionNodedetail |UserExitCount | Number of users who left the conversation at a particular question node.|
 |FactBotSessionNodedetail |OtherCount | Node outputs that don't fit into any specific category.|
 |FactBotSessionNodedetail |AgentHangupCount |  The agent terminates the conversation at the question node when the maximum threshold is reached, either due to exceeding the limit for no input or the limit for no entity found.|
-|FactBotSessionNodedetail |MaxNoInputCount | A conversation where a fallback action is triggered after reaching the maximum number of no-input attempts at a question node. For example, the user remains silent and doesn't respond to the question “How can I help you?” after four consecutive prompts.|
+|FactBotSessionNodedetail |MaxNoInputCount | Count of conversations where the user provided input at a question node, but no valid entity matches were identified after the agent exhausted all configured retry attempts to map the user’s input to the node’s expected entity list.|
 |FactBotSessionNodedetail |MaxNoMatchCount | A conversation where a fallback action was triggered due to repeated invalid or unrecognized user responses. For example, the user said “hello” instead of providing the requested detail, such as a zip code.|
 |FactBotSessionNodedetail|	BotId|	Unique identifier of the Microsoft Copilot Studio agent handling the session.|
 |FactBotSessionNodedetail|	SessionId|	Unique identifier for the Microsoft Copilot Studio agent session across a user interaction lifecycle or a single conversation.|
@@ -483,10 +483,10 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |FactBotSessionNodedetail|	SystemErrorCount|	Count of errors caused by system or platform issues during question node execution.|
 |FactBotSessionNodedetail|	UserErrorCount|	Count of errors caused by invalid or unexpected user input.|
 |FactBotSessionNodedetail|	UserExitCount|	Count of user-initiated exits from the question node and/or conversation.|
-|FactBotSessionNodedetail|	OtherCount	| Count capturing question node outcomes that don't fall into any of the above predefined categories.|
+|FactBotSessionNodedetail|	OtherCount	| Count of question node outcomes that don't fall into any of the predefined categories.|
 |FactBoFactBotReportingVariableDetail|	BotId	|Unique identifier of the Microsoft Copilot Studio agent handling the session.|
 |FactBotReportingVariableDetail|	ConversationId	|Unique identifier representing a single conversation that could have one or more Microsoft Copilot Studio agent sessions.|
-|FactBotReportingVariableDetail|	Name|	Name of the custom reporting variable that's set up within the Microsoft Copilot Studio agent in the same environment and introduced in Contact Center admin center. Variable could be related to a business to help classify conversations.|
+|FactBotReportingVariableDetail|	Name|	Name of the custom reporting variable set up within the Microsoft Copilot Studio agent in the same environment and introduced in Contact Center admin center. Variable could be related to a business to help classify conversations.|
 |FactBotReportingVariableDetail|	SessionId	| Unique identifier for the Microsoft Copilot Studio agent session across a user interaction lifecycle or a single conversation.|
 |FactBotReportingVariableDetail|	SessionStartDate|	Calendar date on which the Microsoft Copilot Studio agent session began.|
 |FactBotReportingVariableDetail|	Value|	Final value of the reporting variable available for a conversation whose variable name is introduced into Contact Center admin center.|
