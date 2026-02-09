@@ -464,7 +464,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |FactBotSessionNodedetail|	NodeName|	Name of the question node within a Microsoft Copilot Studio agent topic that was executed.| 
 |FactBotSessionNodedetail|	NodeType|	Type or category of the node. Currently, only question node type is supported.|
 |FactBotSessionNodedetail|	NodeSequenceId|	Sequential order in which the node was executed within the conversation.|
-|FactBotSessionNodedetail|	NodeStartTime|	Timestamp marking when execution of the question node began.|
+|FactBotSessionNodedetail|	NodeStartTime|	Timestamp that marks when the question node started to run.
 |FactBotSessionNodedetail|	NodeEndTime|	Timestamp marking when execution of the question node completed.|
 |FactBotSessionNodedetail|	NodeExit|	Indicates how the node execution ended. For example, success, failure, user exit.|
 |FactBotSessionNodedetail|	NodeExitReason|	Detailed reason explaining why the node exited. For example, no input, no match, error.|
