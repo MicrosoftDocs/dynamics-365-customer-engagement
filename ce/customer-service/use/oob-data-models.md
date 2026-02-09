@@ -344,7 +344,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_voice_analytics.pbix file to e
 |FactSession	|Avg. session active time (min)	|Average session active time, in minutes.|
 |FactSession	|Avg. session handle time (min)	|Average session handle time, in minutes.|
 |FactSession	|Avg. session hold time (min)	|Average session hold time, in minutes.|
-|FactSession|	Avg. session inactive time (min)	|Average session inactive time (min)|
+|FactSession|	Avg. session inactive time (min)	|Average session inactive time, in minutes.|
 |FactSession	|Avg. session sentiment	|Average session sentiment|
 |FactSession	|Avg. session talk time (min)	|Average session talk time (min)|
 |FactSession	|Avg. session time (min)	|Average session time (min)|
