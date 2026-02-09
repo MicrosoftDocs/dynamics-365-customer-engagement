@@ -346,7 +346,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_voice_analytics.pbix file to e
 |FactSession	|Avg. session hold time (min)	|Average session hold time, in minutes.|
 |FactSession|	Avg. session inactive time (min)	|Average session inactive time, in minutes.|
 |FactSession	|Avg. session sentiment	|Average session sentiment.|
-|FactSession	|Avg. session talk time (min)	|Average session talk time (min)|
+|FactSession	|Avg. session talk time (min)	|Average session talk time, in minutes.|
 |FactSession	|Avg. session time (min)	|Average session time (min)|
 FactSession	|Avg. Speed to answer (sec)	|Average Speed to answer (sec)|
 |FactSession	|Avg. wait time (min)	|The average time in minutes customers waited before connecting to service representatives. Similar to speed to answer, but includes time waited on each session within a conversation.|
