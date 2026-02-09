@@ -166,6 +166,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |12|**OpportunityResearchAgent**|
 |13|**DCAOutreachAgent**|
 |14|**DCAEngageAgent**|
+|15|**ChainOfThoughtAgent**|
+|16|**DCAEngageAgentSimulation**|
 
 ### <a name="BKMK_msdyn_endtime"></a> msdyn_endtime
 
@@ -855,6 +857,7 @@ One-To-Many Relationship: [systemuser user_msdyn_salesagentrun](systemuser.md#BK
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_dcaengageagentresult_salesagentrun_msdyn_salesagentrun](#BKMK_msdyn_dcaengageagentresult_salesagentrun_msdyn_salesagentrun)
 - [msdyn_salesagenthandover_msdyn_salesagentrun](#BKMK_msdyn_salesagenthandover_msdyn_salesagentrun)
 - [msdyn_salesagentrun_AsyncOperations](#BKMK_msdyn_salesagentrun_AsyncOperations)
 - [msdyn_salesagentrun_BulkDeleteFailures](#BKMK_msdyn_salesagentrun_BulkDeleteFailures)
@@ -865,6 +868,18 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_salesagentrun_PrincipalObjectAttributeAccesses](#BKMK_msdyn_salesagentrun_PrincipalObjectAttributeAccesses)
 - [msdyn_salesagentrun_ProcessSession](#BKMK_msdyn_salesagentrun_ProcessSession)
 - [msdyn_salesagentrun_SyncErrors](#BKMK_msdyn_salesagentrun_SyncErrors)
+
+### <a name="BKMK_msdyn_dcaengageagentresult_salesagentrun_msdyn_salesagentrun"></a> msdyn_dcaengageagentresult_salesagentrun_msdyn_salesagentrun
+
+Many-To-One Relationship: [msdyn_dcaengageagentresult msdyn_dcaengageagentresult_salesagentrun_msdyn_salesagentrun](msdyn_dcaengageagentresult.md#BKMK_msdyn_dcaengageagentresult_salesagentrun_msdyn_salesagentrun)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_dcaengageagentresult`|
+|ReferencingAttribute|`msdyn_salesagentrun`|
+|ReferencedEntityNavigationPropertyName|`msdyn_dcaengageagentresult_salesagentrun_msdyn_salesagentrun`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_salesagenthandover_msdyn_salesagentrun"></a> msdyn_salesagenthandover_msdyn_salesagentrun
 

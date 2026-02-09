@@ -6,7 +6,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.collection: get-started
-ms.date: 12/05/2025
+ms.date: 02/03/2026
 ms.custom: bap-template 
 ---
 
@@ -28,7 +28,7 @@ Visual hierarchies are flexible, allowing you to display data from a single tabl
 
 ### Single table
 
-Hierarchies are created from data in a single table with a **self-referential** relationship that allows each row in the table to reference its parent row. For example, accounts can point at their parent account, allowing a hierarchy of accounts to be defined.  
+Hierarchies can be created from data in a single table with a **self-referential** relationship that allows each row in the table to reference its parent row. For example, accounts can point at their parent account, allowing a hierarchy of accounts to be defined.  
 
 The following screenshots show an example of a single table hierarchy of accounts in the designer and how it appears to users.  
 

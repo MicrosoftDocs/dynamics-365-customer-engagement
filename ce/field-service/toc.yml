@@ -139,7 +139,7 @@ items:
   items:
     - name: Inspections overview
       href: inspections-overview.md
-    - name: Create and view inspections
+    - name: Use inspections in work orders
       href: inspections.md
     - name: Advanced inspection options
       href: inspections-advanced.md

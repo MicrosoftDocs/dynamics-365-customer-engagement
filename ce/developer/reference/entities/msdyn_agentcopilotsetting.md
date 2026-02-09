@@ -92,6 +92,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_copilotenabled](#BKMK_msdyn_copilotenabled)
 - [msdyn_copilotrecommendedemailtemplatesenabled](#BKMK_msdyn_copilotrecommendedemailtemplatesenabled)
 - [msdyn_csplugindefaultonstatus](#BKMK_msdyn_csplugindefaultonstatus)
+- [msdyn_customactionwebresources](#BKMK_msdyn_customactionwebresources)
 - [msdyn_custominstruction](#BKMK_msdyn_custominstruction)
 - [msdyn_defaultonoptout](#BKMK_msdyn_defaultonoptout)
 - [msdyn_disablecopilotengagedanalytics](#BKMK_msdyn_disablecopilotengagedanalytics)
@@ -125,6 +126,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_lasttrainingtime](#BKMK_msdyn_lasttrainingtime)
 - [msdyn_logknowledgesnippet](#BKMK_msdyn_logknowledgesnippet)
 - [msdyn_name](#BKMK_msdyn_name)
+- [msdyn_orgpromptfilterattribute](#BKMK_msdyn_orgpromptfilterattribute)
 - [msdyn_pluginconfiguration](#BKMK_msdyn_pluginconfiguration)
 - [msdyn_proactivepromptsenabled](#BKMK_msdyn_proactivepromptsenabled)
 - [msdyn_searchconfiguration](#BKMK_msdyn_searchconfiguration)
@@ -669,6 +671,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |1|**DefaultOn**|
 |2|**DefaultOnSkipped**|
 
+### <a name="BKMK_msdyn_customactionwebresources"></a> msdyn_customactionwebresources
+
+|Property|Value|
+|---|---|
+|Description|**A list of all of the custom action web resource URIs**|
+|DisplayName|**Custom Action web resources**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_customactionwebresources`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|10000|
+
 ### <a name="BKMK_msdyn_custominstruction"></a> msdyn_custominstruction
 
 |Property|Value|
@@ -684,7 +703,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |FormatName|Text|
 |ImeMode|Auto|
 |IsLocalizable|False|
-|MaxLength|1000|
+|MaxLength|5000|
 
 ### <a name="BKMK_msdyn_defaultonoptout"></a> msdyn_defaultonoptout
 
@@ -1212,6 +1231,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_name`|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
+### <a name="BKMK_msdyn_orgpromptfilterattribute"></a> msdyn_orgpromptfilterattribute
+
+|Property|Value|
+|---|---|
+|Description|**Org Prompt Filtering Attribute**|
+|DisplayName|**Org Prompt Filtering Attribute**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_orgpromptfilterattribute`|
+|RequiredLevel|None|
+|Type|Memo|
 |Format|Text|
 |FormatName|Text|
 |ImeMode|Auto|

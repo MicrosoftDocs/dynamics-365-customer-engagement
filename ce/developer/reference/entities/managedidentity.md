@@ -28,6 +28,18 @@ Messages represent operations that can be performed on the table. They may also 
 | `UpsertMultiple`<br />Event: False |<xref:Microsoft.Dynamics.CRM.UpsertMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.UpsertMultipleRequest>|
 
 
+## Customized columns/attributes
+
+Microsoft Dynamics 365 modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
+
+### <a name="BKMK_IdentityType"></a> IdentityType
+
+Changes from [IdentityType (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/managedidentity#BKMK_IdentityType)
+
+|Property|Value|
+|---|---|
+|RequiredLevel|None|
+
 
 
 
