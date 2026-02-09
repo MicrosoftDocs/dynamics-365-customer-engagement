@@ -68,6 +68,7 @@ The following table lists selected properties for the Evaluation Plan Ontrigger 
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_evaluationIds](#BKMK_msdyn_evaluationIds)
 - [msdyn_evaluationplanontriggerbacklogId](#BKMK_msdyn_evaluationplanontriggerbacklogId)
 - [msdyn_Name](#BKMK_msdyn_Name)
 - [msdyn_ObjectId](#BKMK_msdyn_ObjectId)
@@ -94,6 +95,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|2147483647|
 |MinValue|-2147483648|
+
+### <a name="BKMK_msdyn_evaluationIds"></a> msdyn_evaluationIds
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**EvaluationIds**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_evaluationIds`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|2000|
 
 ### <a name="BKMK_msdyn_evaluationplanontriggerbacklogId"></a> msdyn_evaluationplanontriggerbacklogId
 
@@ -172,6 +190,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |2|**Processed – Evaluations**|
 |3|**Processed – No Evaluations**|
 |4|**Failed**|
+|5|**Partially Processed**|
+|6|**Skipped**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 

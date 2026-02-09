@@ -1,7 +1,7 @@
 ---
 title: Configure the Sales Close Agent - Research (preview)
 description: Learn how to set up and configure the Sales Close Agent - Research in Dynamics 365 Sales.
-ms.date: 01/13/2026
+ms.date: 02/09/2026
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -55,9 +55,10 @@ Ensure that your organization's data policies allow the use of the following con
 
 Learn more in [Manage data policies](/power-platform/admin/prevent-data-loss?tabs=new).
 
-### Grant permissions to custom security role
+<a name="grant-permissions"></a>
+### Grant permissions to sellers to work on agent-handled opportunities
 
-If you're using a custom security role, ensure that the opportunity owners have the following minimum permissions: 
+By default, the **Salesperson** and **Sales Manager** security roles have the necessary permissions to work on opportunities handled by the Sales Close Agent - Research. However, if you're using a custom security role, ensure that the sellers have the following minimum permissions:
 
 | Purpose | Access level - Permissions | Entities|
 |---------|----------------------------|---------|
@@ -124,13 +125,20 @@ After verifying the prerequisites, define the agent and company profile, selecti
 
 ### Configure agent and company profile
 
-1. In the **Agent profile** tab, enter a meaningful name for the agent, such as *Sales Close Agent - Research for Microsoft 365*. This name is used to identify the agent in Dynamics 365 Sales and Copilot Studio.
+1. In the **Agent profile** tab, specify the following details:
+ 
+   1. Enter a meaningful name for the agent, such as *Opportunity Research*. This name is used to identify the agent in Dynamics 365 Sales and Copilot Studio. 
 
+    1. Select the agent's language.  
+       The agent uses this language to generate research insights for the opportunities. The drop-down list shows the supported languages for the agent. [What happens when the agent's language is different from user's preferred language?](opportunity-research-agent-faqs.md#agent-language-difference)
+       
 1. In the **Company info** tab, enter the following information:
     1. Enter your company name and website URL.  
+
     1. Enter the value proposition of the products associated with the opportunities that the agent will handle.  
-       Providing a clear value proposition helps the agent focus its account research on the most relevant information. Instead of returning broad or generic insights about a company, the agent uses the value proposition to tailor its research and deliver insights that are specific to your product and its effect for the customer.
-       For example, if the agent is handling opportunities that are related to a coffee machine, you can specify "Our smart vending machine offers a variety of premium blends, customizable to your taste, with zero wait time, and minimal maintenance." instead of "We sell coffee machines to businesses."  
+ 
+          Providing a clear value proposition helps the agent focus its account research on the most relevant information. Instead of returning broad or generic insights about a company, the agent uses the value proposition to tailor its research and deliver insights that are specific to your product and its effect for the customer.  
+          For example, if the agent is handling opportunities that are related to a coffee machine, you can specify "Our smart vending machine offers a variety of premium blends, customizable to your taste, with zero wait time, and minimal maintenance." instead of "We sell coffee machines to businesses."  
 
 ### Configure selection criteria for opportunities
 

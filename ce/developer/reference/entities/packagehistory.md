@@ -28,7 +28,53 @@ Messages represent operations that can be performed on the table. They may also 
 | `UpsertMultiple`<br />Event: False |<xref:Microsoft.Dynamics.CRM.UpsertMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.UpsertMultipleRequest>|
 
 
+## Customized columns/attributes
 
+Microsoft Dynamics 365 modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
+
+- [statecode](#BKMK_statecode)
+- [statuscode](#BKMK_statuscode)
+
+### <a name="BKMK_statecode"></a> statecode
+
+Changes from [statecode (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/packagehistory#BKMK_statecode)
+
+|Property|Value|
+|---|---|
+|GlobalChoiceName|packagehistories_statecode|
+
+
+### <a name="BKMK_statuscode"></a> statuscode
+
+Changes from [statuscode (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/packagehistory#BKMK_statuscode)
+
+|Property|Value|
+|---|---|
+|GlobalChoiceName|packagehistories_statuscode|
+
+
+## Customized relationships
+
+### Customized Many-to-One relationships
+
+- [FileAttachment_packagehistory_PackageFile](#BKMK_FileAttachment_packagehistory_PackageFile)
+- [FileAttachment_packagehistory_DeploymentLog](#BKMK_FileAttachment_packagehistory_DeploymentLog)
+
+#### <a name="BKMK_FileAttachment_packagehistory_PackageFile"></a> FileAttachment_packagehistory_PackageFile
+
+Changes from [FileAttachment_packagehistory_PackageFile (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/packagehistory#BKMK_FileAttachment_packagehistory_PackageFile)
+
+|Property|Value|
+|---|---|
+|CascadeConfiguration|Archive: `RemoveLink`|
+
+#### <a name="BKMK_FileAttachment_packagehistory_DeploymentLog"></a> FileAttachment_packagehistory_DeploymentLog
+
+Changes from [FileAttachment_packagehistory_DeploymentLog (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/packagehistory#BKMK_FileAttachment_packagehistory_DeploymentLog)
+
+|Property|Value|
+|---|---|
+|CascadeConfiguration|Archive: `RemoveLink`|
 
 
 ### See also

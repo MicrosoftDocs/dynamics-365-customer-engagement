@@ -6,7 +6,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.collection: 
-ms.date: 12/19/2025
+ms.date: 02/03/2026
 ms.custom: bap-template 
 ---
 
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 As an administrator, you can design and publish hierarchies that your organization can use to visualize and work with hierarchical data. You can design the following types of hierarchies:  
 
-- [Single table (self-referential)](hierarchy-visualization.md#single-table)
+- [Single-table (self-referential)](hierarchy-visualization.md#single-table)
 - [Multi-table](hierarchy-visualization.md#multi-table)
 - [Hybrid hierarchies](hierarchy-visualization.md#hybrid), which combine both single and multi-table relationships.
 
@@ -22,10 +22,9 @@ As an administrator, you can design and publish hierarchies that your organizati
 
 Before you design and publish a hierarchy, make sure the following prerequisites are met:
 
-- By default, you need the System administrator security role to design and view hierarchies. The System administrator can grant access to other roles to design and view hierarchies as needed.  
-- Data relationships must already exist to design hierarchies.  
-- For multi-table hierarchies, a relationship connecting tables must exist, or a relationship connecting records must exist such as when using the Dataverse connections table.  
-- You must disable the legacy hierarchy control feature in Power Platform if it's enabled. The [legacy hierarchy control is deprecated](/power-platform/important-changes-coming#deprecation-of-hierarchy-control-in-model-driven-apps) and isn't related to the new Visual hierarchy feature. Keeping it enabled confuses users by showing the **View hierarchy** button twice on the command bar for entities with configured hierarchies.  
+- By default, you need the System administrator security role to design and view hierarchies. You can [grant access to other roles to design and view hierarchies](#grant-permissions-to-visual-hierarchy-feature) as needed.  
+- The data and relationships must already be defined in Dataverse. Visual hierarchies show existing data and relationships.  
+- To avoid confusion, disable the [legacy Power Platform hierarchy control](/power-platform/important-changes-coming#deprecation-of-hierarchy-control-in-model-driven-apps) if it's enabled.  
 **Follow these steps**:  
     1. Sign in to the [Power Apps maker portal](https://make.powerapps.com).  
     1. Select **Apps** from the left pane, and then select your sales app.  
@@ -34,9 +33,12 @@ Before you design and publish a hierarchy, make sure the following prerequisites
         :::image type="content" source="media/disable-legacy-hierarchy-control.png" alt-text="Screenshot of the Features tab in the Settings dialog box in the app designer.":::  
     1. Save and publish the app.
 
-## Configure a single table hierarchy
+## Configure a single-table hierarchy
 
-A single table hierarchy uses a self-referential relationship within the table to define the parent-child relationship.  
+A single-table hierarchy displays data from a single-table, such as a hierarchy of accounts. A relationship `ParentAccountID` allows accounts to specify a parent account, creating a hierarchy.  This type of relationship is called a self-referential relationship.  
+To set up a single-table hierarchy, select the target table, enable the **Expand all levels** toggle for the table, and then select the relationship, such as `ParentAccountID`. You don't need to add the same table again. The hierarchy automatically lets your sellers view all related records by expanding the relationship path automatically.
+
+Follow these steps to configure a single-table hierarchy:  
 
 1. Sign in to your sales app. In the lower-left corner of the page, go to **Change area** > **App Settings**.  
 1. Under **General Settings**, select **Visual hierarchy**.  
@@ -74,15 +76,15 @@ A single table hierarchy uses a self-referential relationship within the table t
 
 1. Save, [preview, and publish the hierarchy](#preview-and-publish-hierarchy).  
 
-## Configure multi-table or hybrid hierarchy
+## Configure multi-table hierarchy
 
-A multi-table or hybrid hierarchy includes multiple tables connected through relationships. You can add multiple child nodes to design complex hierarchies that represent your business data accurately. Follow these steps to configure multi-table or hybrid hierarchies:  
+A multi-table hierarchy includes multiple tables connected through relationships. You can add multiple child nodes to design complex hierarchies that represent your business data accurately. Follow these steps to configure multi-table hierarchies:  
   
-1. Configure the root node by following the steps in [Configure a single table hierarchy](#configure-a-single-table-hierarchy).  
+1. Configure the root node to match your business requirements. The root node is the top-level table in the hierarchy.    
 1. Under the root node, select the add icon located under the tile and enter a name for the child node. In this example, you add the **Contact** table as a child node to the **Account** table.  
 1. Select a table and then select **Add**. In this example, select the **Contact** table.  
     The **Settings** pane opens on the right side of the page.  
-1. In the **General** tab, configure relationship settings with the root node table, define child-parent relationship, and choose view and forms.
+1. In the **General** tab, configure relationship settings with the root node table, define child-parent relationship, and choose view and forms. 
   
     | Setting | Description |
     |---------|-------------|
@@ -114,6 +116,21 @@ A multi-table or hybrid hierarchy includes multiple tables connected through rel
 1. Repeat steps 2 to 5 to add more child nodes as required.  
 1. Save, [preview, and publish the hierarchy](#preview-and-publish-hierarchy).
 
+## Configure hybrid hierarchy
+
+A hybrid hierarchy combines elements of both single-table (self-referential) and multi-table hierarchies. For example, if you have a hierarchy of **Accounts** with child contacts and the account table has a self-referential relationship, you can enable **Expand all levels** to show a tree of accounts that displays child contacts for each regional and branch account.  
+To configure a hybrid hierarchy, create a root node using a single-table hierarchy and then add one or more child nodes from other tables to build a multi-table structure. Enable options such as **Expand all levels** to view expanded cards when the parent or child tables have their own internal parent-child structure. 
+After you design the hybrid hierarchy, [preview the combined hierarchy and publish it](#preview-and-publish-hierarchy).
+
+## Grant permissions to visual hierarchy feature  
+
+As a system administrator, grant additional security roles to allow users to design and view hierarchies by granting access to the **Hierarchy Configuration** table.
+
+- To grant access to all hierarchies:  
+    - Grant read access to a security role when you want members to be able to view all published hierarchies.  
+    - Grant full control access to a security role when you want members to be able to view and design hierarchies.  
+- To grant access to specific hierarchies, select the hierarchy and use the **Share** option in the hierarchy designer to grant read access to just that hierarchy to a set of users, or [a Microsoft Dataverse Team](/power-platform/admin/manage-teams).
+
 ## Preview and publish hierarchy
 
 After designing the hierarchy, preview it to ensure it meets your requirements. You can interact with the hierarchy as a user would, such as expanding and collapsing nodes, viewing details, and performing quick actions. If everything looks good, publish the hierarchy to make it available to users in your organization.  
@@ -127,7 +144,7 @@ After designing the hierarchy, preview it to ensure it meets your requirements. 
 1. Select **Publish** and then select **OK** on the confirmation message.  
     The hierarchy is active and available for users to view and interact with.
 
-### Troubleshoot a hierarchy  
+## Troubleshoot a hierarchy  
 
 Troubleshooting mode helps you understand why certain results appear or don’t appear in your design. Use this mode when the output doesn't match your expectations. If necessary, you can share the details with your technical support team or Microsoft customer support to resolve any problems.  
 
@@ -162,18 +179,9 @@ Select **Copy** to copy the troubleshooting information to the clipboard. Share 
 >[!NOTE]
 >To exit the troubleshooting mode, select the troubleshooting icon again on the hierarchy designer toolbar.  
 
-## Grant permissions to visual hierarchy feature  
-
-As a system administrator, grant additional security roles access to design and view hierarchies by granting access to the **Hierarchy Configuration** table.
-
-- To grant access to all hierarchies:  
-    - Grant read access to a security role where you want members to be able to view every published hierarchy.  
-    - Grant full control access to a security role where you want members to be able to design every hierarchy.  
-- To grant access on a hierarchy by hierarchy basis, select a hierarchy and use the **Share** option in the hierarchy designer to grant read access to just that hierarchy to a set of users, or [a Microsoft Dataverse Team](/power-platform/admin/manage-teams).
-
 ## Relationship selection options for child node
 
-When you add a child node, you must select a relationship type to define how the child table relates to the parent table. The available relationship options depend on the tables you're working with. Here are some common relationship types you might encounter:
+When you add a child node, select a relationship type to define how the child table relates to the parent table. The available relationship options depend on the tables you're working with. Here are some common relationship types you might encounter:
 
 | Relationship type | Description | Example |
 |-------------------|-------------|---------|
@@ -181,7 +189,7 @@ When you add a child node, you must select a relationship type to define how the
 | Contacts with matching *Parent_Account_team* | This option links child records to parent based on a shared team or group field, not a direct parent-child relationship. It's useful when child records are associated with parent records through a team. | You want to display  all contacts who belong to the same team as the account they’re associated with.<br>The **Contact** table includes a field `TeamId`, which indicates the team the contact belongs to. The **Account** table also has a `TeamId` field. When this relationship is selected, the application displays all contacts where&mdash;`Contact.TeamId` = `Account.TeamId`.<br>This relationship creates a team-based hierarchy between accounts and contacts. |
 | *Primary_Contact* for the account | This option uses a specific field on the parent table to show the main contact for each parent record. | You want to identify and display the key contact associated with each account.<br>The **Account** table includes a `PrimaryContactId` field and the hierarchy uses this field to locate the contact whose `ContactId` matches the account’s `PrimaryContactId`.<br>This relationship creates a direct link where each account points to its primary contact.|
 | Dataverse connections table | This option uses the standard **Dataverse Connections** table, which allows you to model flexible, many-to-many relationships with roles such as Advisor, Family member, and so on. | You want to display all contacts connected to an account through various roles defined in the **Connections** table.<br>The **Connections** table defines relationships between records using roles such as Account as Employer and Contact as Employee. The hierarchy pulls in all contacts connected to the account through entries in the **Connections** table.<br>This relationship creates a flexible hierarchy based on the roles defined in the **Connections** table.<br>To know more about the **Connections** table, see [Describe a relationship between tables with connection roles](/power-apps/developer/data-platform/describe-relationship-entities-connection-roles). |
-| Custom connections table | This option uses a custom table that is created to define relationships between parent and child tables, allowing for advanced or organization-specific scenarios. | You want to display contacts who serve as mentors for specific accounts, based on custom relationship tracking.<br>The custom **Mentorships** table includes fields such as `AccountId` and `ContactId` to define the mentorship relationship. When this relationship is selected, the application displays all contacts linked to accounts through the **Mentorships** table.<br>This relationship creates a hierarchy based on the custom relationships defined in your table. |
+| Custom connections table | This option uses a custom table that you create to define relationships between parent and child tables, allowing for advanced or organization-specific scenarios. | You want to display contacts who serve as mentors for specific accounts, based on custom relationship tracking.<br>The custom **Mentorships** table includes fields such as `AccountId` and `ContactId` to define the mentorship relationship. When this relationship is selected, the application displays all contacts linked to accounts through the **Mentorships** table.<br>This relationship creates a hierarchy based on the custom relationships defined in your table. |
 
 ## Related information
 
