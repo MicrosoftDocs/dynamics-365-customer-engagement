@@ -475,7 +475,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |FactBotSessionNodedetail|	TopicDisplayName|	User-friendly name of the topic or intent associated with the question node.|
 |FactBotSessionNodedetail|	AbandonedCount|	Count indicating that the specific question node was abandoned before completion and might have contributed to the conversation being abandoned.|
 |FactBotSessionNodedetail|	AgentHangUpCount|	Count of interactions where the session ended due to agent hang up or transfer termination at the question node.|
-|FactBotSessionNodedetail|	ErrorCount|	Number of general errors encountered during question node execution.|
+|FactBotSessionNodedetail|	ErrorCount|	Number of general errors encountered while processing the question node.|
 |FactBotSessionNodedetail|	MaxNoInputCount|	Indicator or count showing maximum no input from user attempts reached at the question node. The threshold is set at each question node.| 
 |FactBotSessionNodedetail|	MaxNoMatchCount|	Indicator or count showing maximum no valid entity match attempts reached at the question node. |
 |FactBotSessionNodedetail|	SpeechRecognitionConfidence|	Confidence score returned by speech recognition for user input at the question node.|
