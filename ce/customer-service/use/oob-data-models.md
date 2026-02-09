@@ -358,7 +358,7 @@ FactSession	|Avg. Speed to answer (sec)	|Average time it takes for the service r
 |FactSession	|Incoming sessions	|Incoming sessions.|
 |FactSession	|Outgoing conversations	|Outgoing conversations.|
 |FactSession	|Outgoing messages	|Outgoing messages.|
-|FactSession	|Sentiment zone	|SentimentZone|
+|FactSession	|SentimentZone	|Sentiment zone.|
 |FactSession	|Session rejected/timed out rate	|Session rejected or timed out rate|
 |FactSession	|Sessions rejected	|Sessions rejected|
 |FactSession	|Transfer rate	|The number of sessions the service representative transfers|
