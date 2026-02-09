@@ -332,7 +332,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_voice_analytics.pbix file to e
 |FactSession	|Queue id	|Queue ID. Foreign key to DimQueue.|
 |FactSession	|Topic id	|Topic ID. Foreign key to DimTopic. |
 |FactSession	|Primary system user id	|Primary system user ID. Foreign key to DimSystemUser.|
-|FactSession	|Is agent accepted session|	Has service representative accepted the session or not? |
+|FactSession	|Is agent accepted session|	Did the service representative accept the session? |
 |FactSession	|Is agent session	|Is service representative session or not.|
 |FactSession	|Avg. conversation handle time (min)	|Avg. conversation handle time (min)|
 |FactSession	|Avg. conversation hold time (min)	|Avg. conversation hold time (min)|
