@@ -482,7 +482,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |FactBotSessionNodedetail|	SuccessCount|	Count indicating successful completion of the question node.|
 |FactBotSessionNodedetail|	SystemErrorCount|	Count of errors caused by system or platform issues during question node execution.|
 |FactBotSessionNodedetail|	UserErrorCount|	Count of errors caused by invalid or unexpected user input.|
-|FactBotSessionNodedetail|	UserExitCount|	Count of user initiated exits from the question node and/or conversation.|
+|FactBotSessionNodedetail|	UserExitCount|	Count of user-initiated exits from the question node and/or conversation.|
 |FactBotSessionNodedetail|	OtherCount	| Count capturing question node outcomes that don't fall into any of the above predefined categories.|
 |FactBoFactBotReportingVariableDetail|	BotId	|Unique identifier of the Microsoft Copilot Studio agent handling the session.|
 |FactBotReportingVariableDetail|	ConversationId	|Unique identifier representing a single conversation that could have one or more Microsoft Copilot Studio agent sessions.|
