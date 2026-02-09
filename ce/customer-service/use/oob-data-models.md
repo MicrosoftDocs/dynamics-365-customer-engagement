@@ -71,7 +71,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |FactCase	|Case volume	|Total case count per topic divided by total cases. |
 |FactCase	|Case volume change	|Total case count link relative ratio for the same date range filter.|
 |FactCase	|Avg. resolve time (hrs)|	Average time for case handle time. |
-|FactCase |	Avg. case age (days)	|Average case age |
+|FactCase |	Avg. case age (days)	|Average case age, in days. |
 |FactCase	|First response - SLA %	|Total cases when first response sent is false, divided by total cases. |
 |FactCase	|Avg. CSAT |	Average CSAT (Customer satisfaction) score. |
 |FactCase	|CSAT impact	| Change ratio for the CSAT.|
