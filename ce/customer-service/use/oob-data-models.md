@@ -71,7 +71,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |FactCase	|Case volume	|Total case count per topic divided by total cases. |
 |FactCase	|Case volume change	|Total case count link relative ratio for the same date range filter.|
 |FactCase	|Avg. resolve time (hrs)|	Average time for case handle time. |
-|FactCase |	Avg. case age (days)	|Average case age |
+|FactCase |	Avg. case age (days)	|Average case age, in days. |
 |FactCase	|First response - SLA %	|Total cases when first response sent is false, divided by total cases. |
 |FactCase	|Avg. CSAT |	Average CSAT (Customer satisfaction) score. |
 |FactCase	|CSAT impact	| Change ratio for the CSAT.|
@@ -135,7 +135,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |DimTopic	|Topic	|Topic name.|
 |FactAgentStatusHistory |Agent status history id	|Original identifier of the service representative status history record from msdyn_agentstatushistory entity. Type: GUID.|
 |FactAgentStatusHistory	|System user id	|Agent ID. Foreign key to DimSystemUser. |
-|FactAgentStatusHistory	|Agent logged in time	|The time a service representative logged in to the omnichannel application per presence status. |
+|FactAgentStatusHistory	|Agent logged in time	|The time a service representative signed in to the omnichannel application per presence status. |
 |FactAgentStatusHistory	|Agent presence id	|Foreign key to DimAgentPresence.|
 |FactAgentStatusHistory	|Agent available duration (hrs)|	The time a service representative is in the Available state in the omnichannel application.|
 |FactAgentStatusHistory	|Agent away duration (hrs)|	The time a service representative is in the Away state in the omnichannel application.|
@@ -331,36 +331,36 @@ Use the Dynamics_365_Customer_Service_Omnichannel_voice_analytics.pbix file to e
 |FactSession	|Closed on |	Date closed on.|
 |FactSession	|Queue id	|Queue ID. Foreign key to DimQueue.|
 |FactSession	|Topic id	|Topic ID. Foreign key to DimTopic. |
-|FactSession	|primary system user id	|Primary system user ID. Foreign key to DimSystemUser.|
-|FactSession	|Is agent accepted session|	Has service representative accepted the session or not? |
-|FactSession	|Is agent session	|Is service representative session or not.|
-|FactSession	|Avg. conversation handle time (min)	|Avg. conversation handle time (min)|
-|FactSession	|Avg. conversation hold time (min)	|Avg. conversation hold time (min)|
+|FactSession	|Primary system user id	|Primary system user ID. Foreign key to DimSystemUser.|
+|FactSession	|Is agent accepted session|	Did the service representative accept the session? |
+|FactSession	|Is agent session	|Is the service representative in the session?|
+|FactSession	|Avg. conversation handle time (min)	|Average conversation handle time, in minutes.|
+|FactSession	|Avg. conversation hold time (min)	|Average conversation hold time, in minutes.|
 |FactSession	|Avg. conversation sentiment	|The average sentiment score based on the verbatim provided in customer voice survey.|
-|FactSession	|Avg. conversation talk time (min)	|Avg. conversation talk time (min)|
+|FactSession	|Avg. conversation talk time (min)	|Average conversation talk time, in minutes.|
 |FactSession	|Avg. CSAT	|Avg. CSAT|
 |FactSession	|Avg. incoming messages	|Average incoming messages|
 |FactSession	|Avg. outgoing messages	|Average outgoing messages|
-|FactSession	|Avg. session active time (min)	|Average session active time (min)|
-|FactSession	|Avg. session handle time (min)	|Average session handle time (min)|
-|FactSession	|Avg. session hold time (min)	|Average session hold time (min)|
-|FactSession|	Avg. session inactive time (min)	|Average session inactive time (min)|
-|FactSession	|Avg. session sentiment	|Average session sentiment|
-|FactSession	|Avg. session talk time (min)	|Average session talk time (min)|
-|FactSession	|Avg. session time (min)	|Average session time (min)|
-FactSession	|Avg. Speed to answer (sec)	|Average Speed to answer (sec)|
+|FactSession	|Avg. session active time (min)	|Average session active time, in minutes.|
+|FactSession	|Avg. session handle time (min)	|Average session handle time, in minutes.|
+|FactSession	|Avg. session hold time (min)	|Average session hold time, in minutes.|
+|FactSession|	Avg. session inactive time (min)	|Average session inactive time, in minutes.|
+|FactSession	|Avg. session sentiment	|Average session sentiment.|
+|FactSession	|Avg. session talk time (min)	|Average session talk time, in minutes.|
+|FactSession	|Avg. session time (min)	|Average session time, in minutes.|
+FactSession	|Avg. Speed to answer (sec)	|Average time it takes for the service representative to answer, in seconds.|
 |FactSession	|Avg. wait time (min)	|The average time in minutes customers waited before connecting to service representatives. Similar to speed to answer, but includes time waited on each session within a conversation.|
 |FactSession	|Avg. wait time (sec)	|The average time in seconds customers waited before connecting to service representatives. Similar to speed to answer, but includes time waited on each session within a conversation.|
 |FactSession	|Engaged conversations	|The conversations that the service representative was engaged in. Customer-to-service representative communication can begin at this point.|
 |FactSession	|Engaged sessions	|Sessions presented to a service representative that the service representative accepts.|
-|FactSession	|Incoming conversations	|Incoming conversations|
-|FactSession	|Incoming messages	|Incoming messages|
-|FactSession	|Incoming sessions	|Incoming sessions|
-|FactSession	|Outgoing conversations	|Outgoing conversations|
-|FactSession	|Outgoing messages	|Outgoing messages|
-|FactSession	|Sentiment zone	|SentimentZone|
-|FactSession	|Session rejected/timed out rate	|Session rejected or timed out rate|
-|FactSession	|Sessions rejected	|Sessions rejected|
+|FactSession	|Incoming conversations	|Incoming conversations.|
+|FactSession	|Incoming messages	|Incoming messages.|
+|FactSession	|Incoming sessions	|Incoming sessions.|
+|FactSession	|Outgoing conversations	|Outgoing conversations.|
+|FactSession	|Outgoing messages	|Outgoing messages.|
+|FactSession	|SentimentZone	|Sentiment zone.|
+|FactSession	|Session rejected/timed out rate	|Session rejected or timed-out rate.|
+|FactSession	|Sessions rejected	|Sessions that were rejected.|
 |FactSession	|Transfer rate	|The number of sessions the service representative transfers|
 |FactSessionParticipant	|Session participant id	|Identifier of the session participant record|
 |FactSessionParticipant	|Session id	|Session ID. Foreign key to FactSession.|
@@ -408,8 +408,8 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |Entities |Attributes |	Description |
 |----------|------------------|---------------|
 |FactConversation	|Conversation outcome	|Conversation outcome based on the involvement of an AI agent and the customer service representative. Currently supports bot escalated, bot deflected, and direct agent conversations.|
-|DimBot	|Bot ID| AI agent ID|
-|DimBot	|Bot name| AI agent name |
+|DimBot	|Bot ID| AI agent ID.|
+|DimBot	|Bot name| AI agent name. |
 |FactCustomerSupportJourney|Source	|The source of one step on the customer support journey graph. Examples are "interaction", "bot escalated","direct agent connection", and "agent assigned" . |
 |FactCustomerSupportJourney	|Destination| The destination of one step on the customer support journey graph. |
 |FactCustomerSupportJourney	|Total count	| The total count for one step on the customer support journey, from source to destination. |
@@ -419,8 +419,8 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |FactBotSession	|Avg. escalation time (min)	| The time the AI agent required to escalate. |
 |FactBotSession|Avg. deflection time (min)	|The time required by the AI agent to deflect.|
 |FactBotSession	|Bot CSAT| CSAT score for AI agent at an average. |
-|FactBotSession	|Bot Id	| AI agent ID, PK to Dimbot |
-|FactBotSession|Bot session ID	|AI agent session ID, PK|
+|FactBotSession	|Bot Id	| AI agent ID, PK to Dimbot. |
+|FactBotSession|Bot session ID	|AI agent session ID, PK.|
 |FactBotSession	|Bot topic| The topic of this AI agent session. |
 |FactBotSession	|Conversation title	| The title of the associated conversation. |
 |FactBotSession|Conversation deflected	|The total conversation was deflected. |
@@ -462,34 +462,34 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |FactBotSessionNodedetail|	SessionStartTime|	Timestamp indicating when the Microsoft Copilot Studio agent session started.|
 |FactBotSessionNodedetail|	ConversationId|	Unique identifier representing a single conversation that could have one or more Microsoft Copilot Studio agent sessions.|
 |FactBotSessionNodedetail|	NodeName|	Name of the question node within a Microsoft Copilot Studio agent topic that was executed.| 
-|FactBotSessionNodedetail|	NodeType|	Type or category of the node. Currently, only supporting question node type.|
-|FactBotSessionNodedetail|	NodeSequenceId|	Sequential order in which the node was executed within the conversation.|
-|FactBotSessionNodedetail|	NodeStartTime|	Timestamp marking when execution of the question node began.|
-|FactBotSessionNodedetail|	NodeEndTime|	Timestamp marking when execution of the question node completed.|
+|FactBotSessionNodedetail|	NodeType|	Type or category of the node. Currently, only question node type is supported.|
+|FactBotSessionNodedetail|	NodeSequenceId|	Sequential order in which the node was processed within the conversation.|
+|FactBotSessionNodedetail|	NodeStartTime|	Timestamp that marks when the question node started to run.
+|FactBotSessionNodedetail|	NodeEndTime|	Timestamp that marks when the question node completed processing.|
 |FactBotSessionNodedetail|	NodeExit|	Indicates how the node execution ended. For example, success, failure, user exit.|
 |FactBotSessionNodedetail|	NodeExitReason|	Detailed reason explaining why the node exited. For example, no input, no match, error.|
 |FactBotSessionNodedetail|	EntityName|	Name of the entity identified or captured at this node. For example, intent, slot, parameter.|
 |FactBotSessionNodedetail|	EntityValue|	Value extracted or provided for the identified entity. For example, "Yes".|
 |FactBotSessionNodedetail|	InputMode|	Mode of user input at the node. For example, voice, text, DTMF.|
 |FactBotSessionNodedetail|	NumberOfTurns|	Number of conversational turns taken within this node.|
-|FactBotSessionNodedetail|	TopicDisplayName|	User friendly name of the topic or intent associated with the question node.|
-|FactBotSessionNodedetail|	AbandonedCount|	Count indicating the specific question node was abandoned without completion which could have also led the conversation to abandonment.|
+|FactBotSessionNodedetail|	TopicDisplayName|	User-friendly name of the topic or intent associated with the question node.|
+|FactBotSessionNodedetail|	AbandonedCount|	Count indicating that the specific question node was abandoned before completion and might have contributed to the conversation being abandoned.|
 |FactBotSessionNodedetail|	AgentHangUpCount|	Count of interactions where the session ended due to agent hang up or transfer termination at the question node.|
-|FactBotSessionNodedetail|	ErrorCount|	Number of general errors encountered during question node execution.|
+|FactBotSessionNodedetail|	ErrorCount|	Number of general errors encountered while processing the question node.|
 |FactBotSessionNodedetail|	MaxNoInputCount|	Indicator or count showing maximum no input from user attempts reached at the question node. The threshold is set at each question node.| 
 |FactBotSessionNodedetail|	MaxNoMatchCount|	Indicator or count showing maximum no valid entity match attempts reached at the question node. |
 |FactBotSessionNodedetail|	SpeechRecognitionConfidence|	Confidence score returned by speech recognition for user input at the question node.|
 |FactBotSessionNodedetail|	SuccessCount|	Count indicating successful completion of the question node.|
 |FactBotSessionNodedetail|	SystemErrorCount|	Count of errors caused by system or platform issues during question node execution.|
 |FactBotSessionNodedetail|	UserErrorCount|	Count of errors caused by invalid or unexpected user input.|
-|FactBotSessionNodedetail|	UserExitCount|	Count of user initiated exits from the question node and/or conversation.|
+|FactBotSessionNodedetail|	UserExitCount|	Count of user-initiated exits from the question node and/or conversation.|
 |FactBotSessionNodedetail|	OtherCount	| Count capturing question node outcomes that don't fall into any of the above predefined categories.|
 |FactBoFactBotReportingVariableDetail|	BotId	|Unique identifier of the Microsoft Copilot Studio agent handling the session.|
 |FactBotReportingVariableDetail|	ConversationId	|Unique identifier representing a single conversation that could have one or more Microsoft Copilot Studio agent sessions.|
-|FactBotReportingVariableDetail|	Name|	Name of the custom reporting variable that's set up within the Microsoft Copilot Studio agent in the same environment and introduced into Contact Center Admin Center. Variable could be related to a business to help classify conversations.|
+|FactBotReportingVariableDetail|	Name|	Name of the custom reporting variable that's set up within the Microsoft Copilot Studio agent in the same environment and introduced in Contact Center admin center. Variable could be related to a business to help classify conversations.|
 |FactBotReportingVariableDetail|	SessionId	| Unique identifier for the Microsoft Copilot Studio agent session across a user interaction lifecycle or a single conversation.|
 |FactBotReportingVariableDetail|	SessionStartDate|	Calendar date on which the Microsoft Copilot Studio agent session began.|
-|FactBotReportingVariableDetail|	Value|	Final Value of the reporting variable available for a conversation whose variable name is introduced into Contact Center Admin Center.|
+|FactBotReportingVariableDetail|	Value|	Final value of the reporting variable available for a conversation whose variable name is introduced into Contact Center admin center.|
 
 
 ### Related information
