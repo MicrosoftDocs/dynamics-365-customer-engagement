@@ -173,7 +173,7 @@ Use the FetchXML for
 </fetch>
 ```
 
-## Enable blocking of capacity for wrap up after transfer
+## Enable wrap-up time for transfer
 
 In a transfer scenario, service representatives need time for post-interaction tasks like finalizing notes after transferring their conversation. Enable wrap up after transfer to allow dedicated time block to do these activities.
 

@@ -83,7 +83,7 @@ The conversation (work item) transitions from **Wrap-up** to **Closed** under th
 
 ### Wrap up behavior for transfer of conversations
 
-If **Wrap up after transfer** is enabled on the **Consult and transfer** page of Copilot Service admin center and **Block capacity for wrap up** is configured in tbe work distribution setting, the wrap-up behavior is as follows:
+If **Wrap up after transfer** is enabled in the **Consult and transfer** page of Copilot Service admin center and **Block capacity for wrap up** is configured in tbe work distribution setting, the wrap-up behavior is as follows:
 
 - Representative A transfers conversation to representative B.
 
