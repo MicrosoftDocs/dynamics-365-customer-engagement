@@ -27,7 +27,7 @@ The action cards appear in a carousel on the **Opportunities** list page in Dyna
 :::image type="content" source="media/sca-research-action-cards-carousel.png" alt-text="Action cards carousel on the Opportunities list page in Dynamics 365 Sales.":::
 
 The carousel displays the top five action cards at a time. When a higher-priority action card is generated, it appears first in the carousel.  
-Select **Show all** to open the carousel and view all the action cards in a view for all opportunities that have risks detected.  
+Select **See all** to open the carousel and view all the action cards in a view for all opportunities that have risks detected.  
 At any given time, the carousel displays only one card per opportunity with top risk. When you resolve the top risk, the next card appears in the order of priority of risks for that opportunity. This order appears because the opportunity isn't risk-free.  
 
 >[!NOTE]
