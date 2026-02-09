@@ -1,7 +1,7 @@
 ---
 title: Enable and configure relationship intelligence
 description: Enable relationship intelligence to provide relationship health and who knows whom information to your sellers.
-ms.date: 02/06/2026
+ms.date: 02/09/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
