@@ -355,7 +355,7 @@ FactSession	|Avg. Speed to answer (sec)	|Average time it takes for the service r
 |FactSession	|Engaged sessions	|Sessions presented to a service representative that the service representative accepts.|
 |FactSession	|Incoming conversations	|Incoming conversations.|
 |FactSession	|Incoming messages	|Incoming messages.|
-|FactSession	|Incoming sessions	|Incoming sessions|
+|FactSession	|Incoming sessions	|Incoming sessions.|
 |FactSession	|Outgoing conversations	|Outgoing conversations|
 |FactSession	|Outgoing messages	|Outgoing messages|
 |FactSession	|Sentiment zone	|SentimentZone|
