@@ -462,7 +462,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |FactBotSessionNodedetail|	SessionStartTime|	Timestamp indicating when the Microsoft Copilot Studio agent session started.|
 |FactBotSessionNodedetail|	ConversationId|	Unique identifier representing a single conversation that could have one or more Microsoft Copilot Studio agent sessions.|
 |FactBotSessionNodedetail|	NodeName|	Name of the question node within a Microsoft Copilot Studio agent topic that was executed.| 
-|FactBotSessionNodedetail|	NodeType|	Type or category of the node. Currently, only supporting question node type.|
+|FactBotSessionNodedetail|	NodeType|	Type or category of the node. Currently, only question node type is supported.|
 |FactBotSessionNodedetail|	NodeSequenceId|	Sequential order in which the node was executed within the conversation.|
 |FactBotSessionNodedetail|	NodeStartTime|	Timestamp marking when execution of the question node began.|
 |FactBotSessionNodedetail|	NodeEndTime|	Timestamp marking when execution of the question node completed.|
