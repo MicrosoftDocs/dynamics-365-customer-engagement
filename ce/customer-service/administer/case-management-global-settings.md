@@ -35,11 +35,15 @@ Configure global settings for Case Management Agent in Dynamics 365 Customer Ser
     - **Connector name**: Microsoft Copilot Studio
         - **Name of the action**: ExecuteCopilotAsyncV2
 
+The prerequisites, such as connection references or Power Automate flows, appear on the **Case Management Agent** page with the current status under the **Prerequisites** section. Use the options to quickly navigate to the settings that need to be configured for Case Management Agent.
+
+:::image type="content" source="../media/prerequisites-settings-case-management-agent.png" alt-text="A screenshot of the prerequisites with status of each prerequisite configuration.":::
+
 ## Configure global settings
 
 The AI agent requires a dedicated application user to send emails and resolve cases autonomously. This application user handles all email communication on behalf of your organization. Do the steps in the following sections in the order specified.
 
-### Register an application and create a secret 
+### Register an application and create a secret
 
 1. Sign in to [Microsoft Entra admin center](https://entra.microsoft.com) and perform the steps in [register a single-tenant application registration](/entra/identity-platform/quickstart-register-app#register-an-application). After your application is registered, copy the values of **Client ID** and **Tenant ID** from the application overview page.
 1. Perform the steps in [Create a client secret](/entra/identity-platform/how-to-add-credentials?tabs=client-secret#add-a-credential-to-your-application) and copy **Value** of the client secret.
@@ -48,7 +52,7 @@ The AI agent requires a dedicated application user to send emails and resolve ca
 
 The application user you create in Power Platform admin center is used to receive and send responses. Perform the following steps:
 
-1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com) and perform the steps in [Create an application user](/power-platform/admin/manage-application-users?tabs=new#create-an-application-user) to create a new application user. 
+1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com) and perform the steps in [Create an application user](/power-platform/admin/manage-application-users?tabs=new#create-an-application-user) to create a new application user.
 1. Assign the Customer Service Representative role to the application user.
 
 ### Assign a shared mailbox to the application user
