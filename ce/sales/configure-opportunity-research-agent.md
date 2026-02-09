@@ -63,7 +63,7 @@ By default, the **Salesperson** and **Sales Manager** security roles have the ne
 <a name="configure-server-side-synchronization"></a>
 ### (Optional) Configure server-side synchronization
 
-If you want the agent to access only the emails and meetings synced to Dynamics 365 Sales, configure server-side synchronization for seller mailboxes. Alternatively, you can enable Microsoft 365 Services for the agent to read emails directly from the sellers' Microsoft 365 mailboxes. Learn more in [Verify prerequisites](#configure-microsoft-365-services).
+If you want the agent to access only the emails and meetings synced to Dynamics 365 Sales, configure server-side synchronization for seller mailboxes. Alternatively, you can enable Microsoft 365 Services for the agent to read emails directly from the sellers' Microsoft 365 mailboxes. Learn more in [Verify prerequisites](#verify-prerequisites).
 
 If both server-side synchronization and Microsoft 365 Services are enabled, the agent reads emails from both sources and generates insights accordingly.
 
@@ -84,7 +84,7 @@ If both server-side synchronization and Microsoft 365 Services are enabled, the 
    
       :::image type="content" source="media/xrmtoolbox-email-tracking.png" alt-text="Screenshot of the User Settings Utility in XRMToolBox with the Track email messages option set to All email messages.":::
 
-
+<a name="verify-prerequisites"></a>
 ## Step 3: Verify prerequisites
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
