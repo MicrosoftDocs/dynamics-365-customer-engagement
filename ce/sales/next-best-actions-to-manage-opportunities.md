@@ -1,7 +1,7 @@
 ---
 title: Manage opportunities with action cards (preview)
 description: Learn how action cards are created and shown in the carousel to help sellers address opportunity risks. 
-ms.date: 02/06/2026
+ms.date: 02/09/2026
 ms.topic: overview
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -16,7 +16,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Learn how action cards are created and shown in the carousel to help sellers address opportunity risks. Understand how the cards are prioritized, displayed in the carousel, and .  
+Learn how action cards are created and shown in the carousel to help sellers address opportunity risks. Understand how the cards are prioritized, displayed in the carousel, and how you can interact with them to manage your opportunities effectively.  
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]  
 
@@ -26,8 +26,9 @@ The action cards appear in a carousel on the **Opportunities** list page in Dyna
 
 :::image type="content" source="media/sca-research-action-cards-carousel.png" alt-text="Action cards carousel on the Opportunities list page in Dynamics 365 Sales.":::
 
-The carousel displays five action cards at a time. You can scroll left or right to view more cards in the carousel. When a higher priority action card is generated, it appears first in the carousel.  
-At any given time, the carousel displays only one card per opportunity with top risk. When you resolve the top risk, the next card appears in the order of priority of risks for that opportunity. This order appears as the opportunity isn't risk free.  
+The carousel displays the top five action cards at a time. When a higher-priority action card is generated, it appears first in the carousel.  
+Select **Show all** to open the carousel and view all the action cards in a view for all opportunities that have risks detected.  
+At any given time, the carousel displays only one card per opportunity with top risk. When you resolve the top risk, the next card appears in the order of priority of risks for that opportunity. This order appears because the opportunity isn't risk-free.  
 
 >[!NOTE]
 >If the **Suggested actions** section is in collapsed view, select the carousel header to expand and view the action cards.  
