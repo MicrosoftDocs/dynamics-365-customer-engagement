@@ -177,7 +177,7 @@ Use the FetchXML for
 
 In a transfer scenario, service representatives need time for post-interaction tasks like finalizing notes after transferring their conversation. Enable wrap up after transfer to allow dedicated time block to do these activities.
 
-When a service representative transfers a conversation to another representative, queue, or external representatives), the system automatically provides wrap-up time after the transfer is completed. The wrap-up duration is determined by the setting in the workstream using the value entered in the **Block capacity for wrap up** under work distribution settings.
+When a service representative transfers a conversation to another representative, queue, or external representatives), the system automatically provides wrap-up time after the transfer is completed. The **Block capacity for wrap up** under [work distribution settings](create-workstreams.md#configure-work-distribution) of the workstream determine the wrap=up behavior. Learn more about wrap-up in [Understand conversation states](..\use\oc-conversation-state.md#wrap-up).
 
 ## Runtime experience of consult and transfer
 

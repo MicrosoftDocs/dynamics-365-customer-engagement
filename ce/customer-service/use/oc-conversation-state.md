@@ -1,7 +1,7 @@
 ---
 title: Understand conversation states 
 description: Use this article to learn about various states and status reasons of conversations or work items in Omnichannel for Customer Service.
-ms.date: 01/30/2025
+ms.date: 02/11/2026
 ms.topic: concept-article
 author: neeranelli
 ms.author: nenellim
@@ -67,7 +67,7 @@ For call transfers in the voice channel, the system handles the capacity as foll
 
 ## Wrap-up
 
-The wrap-up state is an intermediate state after the representative ends the conversation and does post-conversation activities, such as taking notes and updating the customer information, before moving the conversation to the **Closed** state. The representative capacity is blocked according to the duration that's specified for the **Block capacity for wrap up** setting in the workstream. 
+The wrap-up state is an intermediate state after the representative ends the conversation and does post-conversation activities, such as taking notes and updating the customer information, before moving the conversation to the **Closed** state. The representative capacity is blocked according to the duration that's specified for the **Block capacity for wrap up** setting in the workstream.
 
 - **Always block**: The capacity is blocked when the conversation is in the **Wrap-up** state.
 - **Don't block**: The capacity is released when the conversation moves from **Active** to **Wrap-up** state.
@@ -80,6 +80,37 @@ The conversation (work item) transitions from **Wrap-up** to **Closed** under th
 | Wrap-up       | Closed           | The representative selects the **End** button in communication panel and closes the session. | Channel, Chat|
 
 ![Transition from wrap-up to closed state.](../media/oc-conversation-wrap-up1.png "Wrap-up state")
+
+### Wrap up behavior for transfer of conversations
+
+If **Wrap up after transfer** is enabled on the **Consult and transfer** page of Copilot Service admin center and **Block capacity for wrap up** is configured in tbe work distribution setting, the wrap-up behavior is as follows:
+
+- Representative A transfers conversation to representative B.
+
+- The session of the first representative goes into Wrap-up status and the second representative session becomes active.
+- After wrap-up time lapses or the first representative closes the session, the session goes into closed state.
+- If the second representative ends the conversation, the conversation moves into wrap-up status, the session for the second representative also moves into wrap-up status.
+
+An explanation of the states is as follows.
+
+
+| Session 1 (Representative A) | Session 2 (Representative B) | Action | Conversation state |
+|--------------------|----------------------|--------|--------------------|
+| Active             | Not applicable       | New call          | Active             |
+| Wrap Up            | Active               | Transfer          | Active             |
+| Closed             | Active               | 1st session close | Active             |
+| Closed             | Wrap up              | Call ended          | Wrap up            |
+| Closed             | Closed               | 2nd session close | Closed             |
+
+
+| Session 1 (Representative A) | Session 2 (Representative B) | Action | Conversation State |
+|--------------------|----------------------|--------|--------------------|
+| Active             | Not applicable       | New call          | Active             |
+| Wrap up            | Active               | Transfer          | Active             |
+| Wrap up            | Wrap up              | Call ended          | Wrap up            |
+| Wrap up            | Closed               | 2nd session close | Wrap up            |
+| Closed             | Closed               | 1st session close | Closed             |
+
 
 > [!NOTE]
 > When a live chat conversation gets disconnected, Omnichannel for Customer Service automatically moves **Active** conversations to the **Wrap-up** state. Learn more in [Understand disconnected chats](oc-conv-state-chat-disconnect.md).

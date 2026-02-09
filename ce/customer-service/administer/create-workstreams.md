@@ -96,7 +96,7 @@ In the **Work distribution** area of a workstream, you can either accept the def
 - **Capacity**: Select one of the following options. More information: [Create and manage capacity profiles](capacity-profiles.md)
   - **Unit based**: Enter a value if your administrator configured unit-based capacity.
   - **Profile based**: Specify a profile in the list if your administrator configured profile-based capacity.
-- **Block capacity for wrap up**: 
+- **Block capacity for wrap up**: Select one of the options as follows. These settings are applicable to transfer scenarios also if [wrap up after transfer is enabled](enable-transfer-consult.md#enable-blocking-of-capacity-for-wrap-up-after-transfer).
   - **Always block**: Is the default selection. The representative capacity is consumed until the representative or supervisor closes the conversation or the system closes them automatically based on the configured time. Learn more in [Close conversations automatically](auto-close-conversation-powerapps.md#default-time-for-automatic-closure-of-conversations).
   - **Don't block**: The representative capacity is released immediately when the conversation moves to the **Wrap-up** state.
   - **Custom time**: More fields are enabled where you can select a duration starting from 30 seconds to 60 minutes to block capacity. At runtime, after the specified duration elapses, the system releases the capacity and automatically resets presence.
