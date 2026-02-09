@@ -341,7 +341,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_voice_analytics.pbix file to e
 |FactSession	|Avg. CSAT	|Avg. CSAT|
 |FactSession	|Avg. incoming messages	|Average incoming messages|
 |FactSession	|Avg. outgoing messages	|Average outgoing messages|
-|FactSession	|Avg. session active time (min)	|Average session active time (min)|
+|FactSession	|Avg. session active time (min)	|Average session active time, in minutes.|
 |FactSession	|Avg. session handle time (min)	|Average session handle time (min)|
 |FactSession	|Avg. session hold time (min)	|Average session hold time (min)|
 |FactSession|	Avg. session inactive time (min)	|Average session inactive time (min)|
