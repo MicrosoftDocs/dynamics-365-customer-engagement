@@ -22,7 +22,7 @@ In both deployment models, operational users continue working in Field Service c
 
 ## Serialized inventory tracking
 
-With the Integrated Project Operations with Finance model, serialized and batch-controlled inventory follows the Dynamics 365 Supply Chain Management tracking-dimension framework. In Supply Chain Management, serial and batch numbers govern how inventory transactions are validated, posted, and traced across operational and financial systems. This approach ensures full traceability from Field Service usage through Project Operations and into Finance.
+With the integrated Project Operations with Finance model, serialized and batch-controlled inventory follows the Dynamics 365 Supply Chain Management tracking-dimension framework. In Supply Chain Management, serial and batch numbers govern how inventory transactions are validated, posted, and traced across operational and financial systems. This approach ensures full traceability from Field Service usage through Project Operations and into Finance.
 
 Key behaviors in serialized and batch-controlled inventory include:
 
