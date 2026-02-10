@@ -154,9 +154,9 @@ To allow the AI agent to autonomously create cases across all provisioned messag
 Use the simulation capability in Case Management Agent to validate how well AI‑powered field prediction performs on your organization’s historical data or sample email or chat inputs. Simulation helps administrators assess prediction quality before enabling the feature in production, ensuring confidence in the output.
 
 > [!NOTE]
-> - Simulations run the same field prediction pipeline that Case Management Agent uses in live cases. As predictions are generated in bulk, simulations consume Copilot or AI credits in the same way as regular field predictions. You must ensure that Pay‑as‑you‑go billing is configured for your environment. Learn more in [Set up consumption-based billing](setup-pay-as-you-go.md).
+> - Simulations run the same field prediction pipeline that Case Management Agent uses in live cases. As predictions are generated in bulk, simulations consume Copilot or AI credits in the same way as regular field predictions. You must ensure that [Pay‑as‑you‑go billing](setup-pay-as-you-go.md) is configured for your environment.
 
-Before you run a simulation, ensure the following:
+Before you run a simulation, ensure that:
 
 - [Field descriptions and best practices](#update-field-and-lookup-descriptions-in-power-apps) are configured in [Power Apps](https://make.powerapps.com/). Accurate field descriptions help the AI agent understand each field’s meaning and improve prediction quality.
 - Field prediction rules (fields to be predicted) are already defined in Case Management Agent settings. Learn more in [Configure autonomous case updates](#configure-autonomous-case-updates) and [Configure autonomous case creation](#configure-autonomous-case-creation).
@@ -168,6 +168,7 @@ Before you run a simulation, ensure the following:
 1. On the **Case Management Agent** page, select **Case creation and update**.
 1. On the **Case creation and update** page, select **Go to simulation**. The **Case creation and update simulation** page appears.
 1. On the **Simulation setup** tab, provide the following information:
+
   1. **Simulation name**: Provide a simulation name. For example: Surface product cases, Refund category evaluation, or Email‑based sample test.
   1. **Data source**: Select a data source from the dropdown.
     1. If you select **Organization records**:
@@ -177,9 +178,9 @@ Before you run a simulation, ensure the following:
     1. If you select **Excel Upload**:
       1. Provide the fields for AI prediction by selecting fields from the **Fields for AI prediction** dropdown list.
       1. Upload the simulation input file by selecting the **Upload File** option. The maximum file size is 1 MB and you can upload an excel with a maximum of 100 records.
-  1. Select **Run simulation**. It uses emails and conversation threads from the relevant cases to generate the prediction. Your role must have access to this content. 
+  1. Select **Run simulation**. The simulation process uses emails and conversation threads from the relevant cases to generate the prediction.
 
-Irrespective of the number of columns or column name, as shown below, all inputs are consolidated into a single string before being passed to the Case Management Agent for prediction.
+Irrespective of the number of columns or column name, all inputs are consolidated into a single string before being passed to the Case Management Agent for prediction.
 
 Excel sample 1:
 
@@ -197,13 +198,13 @@ Excel sample 2:
 
 ### View a simulation report
 
-1. On the **Case creation and update simulation** page, go to the **Simulation result** tab. Simulations are listed with details of the simulation name, run date, status, result, average prediction match and action.
+1. On the **Case creation and update simulation** page, go to the **Simulation result** tab. Simulations are listed with details of the simulation name, run date, status, result, average prediction match, and action.
 1. Select **Download results** to export an excel report or **View** to view the results.
 1. If you update your field descriptions or modify prediction rules, you can rerun a simulation by selecting **Re-run**. This reprocesses the same set of records without the need to select or upload again.
 
 If you select **View**, the **Simulation overview** page appears.
 - In the **Simulation Setup (Read-only)** section, you can see the details of the simulation setup.
-- For organization records, you see the **Field prediction match** section, where you can see the details of the AI predictions. You can sort the list by accuracy or alphabetical order. Prediction match % measures how often AI predictions match actual case values. Cases are counted only when both the predicted and actual values are present, excluding text and multi-line text fields. To help the AI make better predictions for fields, add descriptive information to your records.
+- For organization records, you see the **Field prediction match** section, where you can see the details of the AI predictions. You can sort the list by accuracy or alphabetical order. Prediction match % measures how often AI predictions match actual case values. Cases are counted only when both the predicted and actual values are present, excluding text and multi-line text fields. To help AI make better predictions for fields, add descriptive information to your records.
 - In the **Detailed view** section, you can see details related to the cases, such as Case Stage (Actual), Case Stage (Predicted), and Case Stage (Reasoning). You can also add more columns to be displayed or download the list as an excel.
 
 If you download an excel report, it shows the following for each record:
