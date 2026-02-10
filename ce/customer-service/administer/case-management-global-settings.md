@@ -18,7 +18,7 @@ Configure global settings for Case Management Agent in Dynamics 365 Customer Ser
 ## Prerequisites
 
 - An Azure account that has an active subscription.
-- You at least have the [Application Developer](/entra/identity/role-based-access-control/permissions-reference#application-developer) to create app registrations.
+- You have the [Application Developer](/entra/identity/role-based-access-control/permissions-reference#application-developer) to create app registrations.
 - The following connectors with the listed actions are available:
     - **Connector name**: Microsoft Dataverse
     - **List of actions**:
@@ -35,13 +35,13 @@ Configure global settings for Case Management Agent in Dynamics 365 Customer Ser
     - **Connector name**: Microsoft Copilot Studio
         - **Name of the action**: ExecuteCopilotAsyncV2
 
-The prerequisites, such as connection references or Power Automate flows, appear on the **Case Management Agent** page with the current status under the **Prerequisites** section. Use the options to quickly navigate to the settings that need to be configured for Case Management Agent.
-
-:::image type="content" source="../media/prerequisites-settings-case-management-agent.png" alt-text="A screenshot of the prerequisites with status of each prerequisite configuration.":::
-
 ## Configure global settings
 
 The AI agent requires a dedicated application user to send emails and resolve cases autonomously. This application user handles all email communication on behalf of your organization. Do the steps in the following sections in the order specified.
+
+The global settings, such as connection references or Power Automate flows, appear on the **Case Management Agent** page with the current status under the **Prerequisites** section. Use the options to quickly navigate to the settings that need to be configured for Case Management Agent.
+
+:::image type="content" source="../media/global-settings-case-management-agent.png" alt-text="A screenshot of the prerequisites with status of each prerequisite configuration.":::
 
 ### Register an application and create a secret
 
