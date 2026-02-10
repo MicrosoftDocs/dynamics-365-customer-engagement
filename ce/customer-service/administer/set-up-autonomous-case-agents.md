@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 01/16/2026
+ms.date: 02/10/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -155,7 +155,6 @@ Use the simulation capability in Case Management Agent to validate how well AI�
 
 > [!NOTE]
 > - Simulations run the same field prediction pipeline that Case Management Agent uses in live cases. As predictions are generated in bulk, simulations consume Copilot or AI credits in the same way as regular field predictions. You must ensure that Pay‑as‑you‑go billing is configured for your environment. Learn more in [Set up consumption-based billing](setup-pay-as-you-go.md).
-> - Simulation results are calculated based on your organization’s historical field values. If historical data contains inaccurate or inconsistent entries, simulation accuracy may appear lower even when the AI prediction is correct.
 
 Before you run a simulation, ensure the following:
 
@@ -169,25 +168,16 @@ Before you run a simulation, ensure the following:
 1. On the **Case Management Agent** page, select **Case creation and update**.
 1. On the **Case creation and update** page, select **Go to simulation**. The **Case creation and update simulation** page appears.
 1. On the **Simulation setup** tab, provide the following information:
-  1. Provide a simulation name. For example: Surface product cases, Refund category evaluation, or Email‑based sample test.
-  1. Select a data source from the dropdown. 
-  You can run simulations using one of two data sources:
-
-#### **Organization records**
-
-Select this option to test field prediction against existing cases.
-  
-  1. Select **Organization records**. 
-  1. In the **Conditions** section, use the condition builder to state conditions that must pass to continue with the simulation.
-  1. Select **Save conditions**. A list or records appear in the **Selected records** section. You can select upto 100 records. 
+  1. **Simulation name**: Provide a simulation name. For example: Surface product cases, Refund category evaluation, or Email‑based sample test.
+  1. **Data source**: Select a data source from the dropdown.
+    1. If you select **Organization records**:
+      1. Provide the fields for AI prediction by selecting fields from the **Fields for AI prediction** dropdown list.
+      1. In the **Conditions** section, use the condition builder to state conditions that must pass to continue with the simulation.
+      1. Select **Show records**. A list or records appear in the **Selected records** section. You can select upto 100 records. 
+    1. If you select **Excel Upload**:
+      1. Provide the fields for AI prediction by selecting fields from the **Fields for AI prediction** dropdown list.
+      1. Upload the simulation input file by selecting the **Upload File** option. The maximum file size is 1 MB and you can upload an excel with a maximum of 100 records.
   1. Select **Run simulation**. It uses emails and conversation threads from the relevant cases to generate the prediction. Your role must have access to this content. 
-
-#### **Excel file**
-
-Select this option to test predictions on the email body, chat transcripts, or any sample text.
-  
-  1. Select **Excel file**.
-  1. Select **Upload**. The maximum file size is 1 MB and you can upload an excel with a maximum of 100 rows.
 
 Irrespective of the number of columns or column name, as shown below, all inputs are consolidated into a single string before being passed to the Case Management Agent for prediction.
 
@@ -200,25 +190,25 @@ Excel sample 1:
 
 Excel sample 2:
 
-
 |Email subject  | Email body  |Sent  |
 |---------|---------|---------|
 |Login Issue | Hello Support Team, <br>I’m unable to log in to my account despite using the correct credentials. Please help resolve this issue. <br>Thanks, John Doe. <br>Mobile: +91 xxxxx xxxx |  6/1/26 8pm    |
-|Password Reset Help |  Hello Customer Support, I’m not receiving the password reset email. Could you please assist?<br> Regards, John Doe. <br> Mobile: +91 xxxxx xxxx  | 6/1/26 8pm |
-
-
+|Password Reset Help |  Hello Customer Support, I’m not receiving the password reset email. Could you please assist?<br> Regards, John Doe. <br> Mobile: +91 xxxxx xxxx  | 6/1/26 8pm | 
 
 ### View a simulation report
 
-1. On the **Case creation and update simulation** page, go to the **Simulation report** tab.
-  A new entry appears with the details such as, simulation name, run date and time, and current status.
-1. Select **Download results** to export an Excel report.
+1. On the **Case creation and update simulation** page, go to the **Simulation result** tab. Simulations are listed with details of the simulation name, run date, status, result, average prediction match and action.
+1. Select **Download results** to export an excel report or **View** to view the results.
 1. If you update your field descriptions or modify prediction rules, you can rerun a simulation by selecting **Re-run**. This reprocesses the same set of records without the need to select or upload again.
 
-When you download an excel report, it shows the following for each record:
-- Record ID
-- Predicted field values
-- If multiple fields are selected for prediction, each field appears in a separate column.
+If you select **View**, the **Simulation overview** page appears.
+- In the **Simulation Setup (Read-only)** section, you can see the details of the setup.
+- In the **Field prediction match** section, you can see the details of the AI predictions. You can sort the list by accuracy or alphabetical order. Prediction match % measures how often AI predictions match actual case values. Cases are counted only when both the predicted and actual values are present (excluding text and multi-line text fields). To help the AI make better predictions for fields, add descriptive information to your records.
+- In the **Detailed view** section, you can see details related to the cases. You can also add more columns to be displayed or download the list.
+
+If you download an excel report, it shows the following for each record:
+- Record ID.
+- Predicted field values. If multiple fields are selected for prediction, each field appears in a separate column.
 
 #### Best practices for data sources
 
