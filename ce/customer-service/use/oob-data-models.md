@@ -1,7 +1,7 @@
 ---
 title: Data model and report mapping for historical analytics reports
 description: View and customize the default data model and report mapping for historical analytics reports in Dynamics 365 Customer Service.
-ms.date: 02/09/2026
+ms.date: 02/10/2026
 ms.topic: concept-article
 author: Soumyasd27
 ms.author: sdas
@@ -446,6 +446,8 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |FactBotSession|Total conversations|Total conversations associated with AI agents. |
 |FactBotSession|Session ID|The related Omnichannel session ID.  |
 |FactBotSession|Topic ID|Topic ID. Foreign key to DimTopic.  |
+
+
 |FactBotSessionNodedetail|AbandonedCount| Number of users who left the conversation before completion.|
 |FactBotSessionNodedetail | ErrorCount| Instances where a node produced an output error.|
 |FactBotSessionNodedetail | SuccessCount| Conversations that are successfully completed at a specific question node, including a speech recognition confidence score.|
@@ -454,8 +456,8 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |FactBotSessionNodedetail |UserExitCount | Number of users who left the conversation at a particular question node.|
 |FactBotSessionNodedetail |OtherCount | Node outputs that don't fit into any specific category.|
 |FactBotSessionNodedetail |AgentHangupCount |  The agent terminates the conversation at the question node when the maximum threshold is reached, either due to exceeding the limit for no input or the limit for no entity found.|
-|FactBotSessionNodedetail |MaxNoInputCount | Count of conversations where the user provided input at a question node, but no valid entity matches were identified after the agent exhausted all configured retry attempts to map the user’s input to the node’s expected entity list.|
-|FactBotSessionNodedetail |MaxNoMatchCount | A conversation where a fallback action was triggered due to repeated invalid or unrecognized user responses. For example, the user said “hello” instead of providing the requested detail, such as a zip code.|
+|FactBotSessionNodedetail |MaxNoInputCount | Count of conversations in which the user failed to provide any response to the agent’s question at a question node, despite multiple retry prompts. This count is incremented when the configured no‑input retry threshold for that question node is reached, indicating that the user did not respond to any of the agent’s attempts.|
+|FactBotSessionNodedetail |MaxNoMatchCount | Count of conversations where the user provided input at a question node, but no valid entity matches were identified after the agent exhausted all configured retry attempts to map the user’s input to the node’s expected entity list.|
 |FactBotSessionNodedetail|	BotId|	Unique identifier of the Microsoft Copilot Studio agent handling the session.|
 |FactBotSessionNodedetail|	SessionId|	Unique identifier for the Microsoft Copilot Studio agent session across a user interaction lifecycle or a single conversation.|
 |FactBotSessionNodedetail|	SessionStartDate|	Calendar date on which the Microsoft Copilot Studio agent session began.|
@@ -476,15 +478,15 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |FactBotSessionNodedetail|	AbandonedCount|	Count indicating that the specific question node was abandoned before completion and might have contributed to the conversation being abandoned.|
 |FactBotSessionNodedetail|	AgentHangUpCount|	Count of interactions where the session ended due to agent hang up or transfer termination at the question node.|
 |FactBotSessionNodedetail|	ErrorCount|	Number of general errors encountered while processing the question node.|
-|FactBotSessionNodedetail|	MaxNoInputCount|	Indicator or count showing maximum no input from user attempts reached at the question node. The threshold is set at each question node.| 
-|FactBotSessionNodedetail|	MaxNoMatchCount|	Indicator or count showing maximum no valid entity match attempts reached at the question node. |
 |FactBotSessionNodedetail|	SpeechRecognitionConfidence|	Confidence score returned by speech recognition for user input at the question node.|
 |FactBotSessionNodedetail|	SuccessCount|	Count indicating successful completion of the question node.|
 |FactBotSessionNodedetail|	SystemErrorCount|	Count of errors caused by system or platform issues during question node execution.|
 |FactBotSessionNodedetail|	UserErrorCount|	Count of errors caused by invalid or unexpected user input.|
 |FactBotSessionNodedetail|	UserExitCount|	Count of user-initiated exits from the question node and/or conversation.|
 |FactBotSessionNodedetail|	OtherCount	| Count of question node outcomes that don't fall into any of the predefined categories.|
-|FactBoFactBotReportingVariableDetail|	BotId	|Unique identifier of the Microsoft Copilot Studio agent handling the session.|
+
+
+|FactBotReportingVariableDetail|	BotId	|Unique identifier of the Microsoft Copilot Studio agent handling the session.|
 |FactBotReportingVariableDetail|	ConversationId	|Unique identifier representing a single conversation that could have one or more Microsoft Copilot Studio agent sessions.|
 |FactBotReportingVariableDetail|	Name|	Name of the custom reporting variable set up within the Microsoft Copilot Studio agent in the same environment and introduced in Contact Center admin center. Variable could be related to a business to help classify conversations.|
 |FactBotReportingVariableDetail|	SessionId	| Unique identifier for the Microsoft Copilot Studio agent session across a user interaction lifecycle or a single conversation.|
