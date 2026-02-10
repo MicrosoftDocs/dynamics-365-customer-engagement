@@ -202,9 +202,9 @@ Excel sample 2:
 1. If you update your field descriptions or modify prediction rules, you can rerun a simulation by selecting **Re-run**. This reprocesses the same set of records without the need to select or upload again.
 
 If you select **View**, the **Simulation overview** page appears.
-- In the **Simulation Setup (Read-only)** section, you can see the details of the setup.
-- In the **Field prediction match** section, you can see the details of the AI predictions. You can sort the list by accuracy or alphabetical order. Prediction match % measures how often AI predictions match actual case values. Cases are counted only when both the predicted and actual values are present (excluding text and multi-line text fields). To help the AI make better predictions for fields, add descriptive information to your records.
-- In the **Detailed view** section, you can see details related to the cases. You can also add more columns to be displayed or download the list.
+- In the **Simulation Setup (Read-only)** section, you can see the details of the simulation setup.
+- For organization records, you see the **Field prediction match** section, where you can see the details of the AI predictions. You can sort the list by accuracy or alphabetical order. Prediction match % measures how often AI predictions match actual case values. Cases are counted only when both the predicted and actual values are present, excluding text and multi-line text fields. To help the AI make better predictions for fields, add descriptive information to your records.
+- In the **Detailed view** section, you can see details related to the cases, such as Case Stage (Actual), Case Stage (Predicted), and Case Stage (Reasoning). You can also add more columns to be displayed or download the list as an excel.
 
 If you download an excel report, it shows the following for each record:
 - Record ID.
