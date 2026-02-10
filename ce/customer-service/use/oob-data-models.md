@@ -446,8 +446,6 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |FactBotSession|Total conversations|Total conversations associated with AI agents. |
 |FactBotSession|Session ID|The related Omnichannel session ID.  |
 |FactBotSession|Topic ID|Topic ID. Foreign key to DimTopic.  |
-
-
 |FactBotSessionNodedetail|AbandonedCount| Number of users who left the conversation before completion.|
 |FactBotSessionNodedetail | ErrorCount| Instances where a node produced an output error.|
 |FactBotSessionNodedetail | SuccessCount| Conversations that are successfully completed at a specific question node, including a speech recognition confidence score.|
@@ -484,8 +482,6 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |FactBotSessionNodedetail|	UserErrorCount|	Count of errors caused by invalid or unexpected user input.|
 |FactBotSessionNodedetail|	UserExitCount|	Count of user-initiated exits from the question node and/or conversation.|
 |FactBotSessionNodedetail|	OtherCount	| Count of question node outcomes that don't fall into any of the predefined categories.|
-
-
 |FactBotReportingVariableDetail|	BotId	|Unique identifier of the Microsoft Copilot Studio agent handling the session.|
 |FactBotReportingVariableDetail|	ConversationId	|Unique identifier representing a single conversation that could have one or more Microsoft Copilot Studio agent sessions.|
 |FactBotReportingVariableDetail|	Name|	Name of the custom reporting variable set up within the Microsoft Copilot Studio agent in the same environment and introduced in Contact Center admin center. Variable could be related to a business to help classify conversations.|
