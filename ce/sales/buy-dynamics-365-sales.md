@@ -1,11 +1,11 @@
 ---
 title: Buy Dynamics 365 Sales
-description: Discover the different Dynamics 365 Sales licenses available and how to purchase them. Includes Sales Professional, Sales Enterprise, Sales Premium, and Microsoft Relationship Sales.
+description: Learn how to buy Dynamics 365 Sales licenses directly, through Microsoft 365, or from an authorized Microsoft Partner.
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: concept-article
-ms.date: 11/05/2025
+ms.date: 01/20/2026
 ---
 
 # Buy Dynamics 365 Sales
@@ -18,14 +18,14 @@ You can buy one of the following licenses depending on your organization's needs
 - Microsoft Relationship Sales (Sales Enterprise + LinkedIn Sales Navigator Enterprise)
 
 > [!NOTE]
-> Sales Enterprise, Sales Premium, and Microsoft Relationship Sales licenses include the basic features of Microsoft 365 Copilot for Sales. To use the premium features, you must buy the [Microsoft 365 Copilot for Sales license](https://www.microsoft.com/ai/microsoft-sales-copilot?rtc=1#featuresandpricing). To learn more about the licensing options, see [this FAQ](/microsoft-sales-copilot/sales-copilot-faq#will-copilot-for-sales-be-included-in-dynamics-365-sales-subscriptions).
+> Sales Enterprise, Sales Premium, and Microsoft Relationship Sales licenses include the basic features of Sales in Microsoft 365 Copilot. To use the premium features, you must buy the [Microsoft 365 Copilot license](https://www.microsoft.com/en-in/microsoft-365-copilot/enterprise?rtc=1#featuresandpricing).
 
 
 ## Before you buy
 
 - Review the features included with each of the licenses and identify the one that best meets your needs. More information: [Choose the offering that fits your needs](overview.md#choose-the-offering-that-fits-your-needs)
 
-- Review the [licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409) to:
+- Review the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544) to:
     - Identify the number of users you need to license. Dynamics 365 Sales is typically used by sales people who connect with customers to manage their engagements. Account teams, business development executives, internal and external sales staff along with sales managers and operations are all great candidates for using the application.  
     - Identify the number of [team member licenses](/dynamics365/get-started/team-members-license) you'd need for your sales support staff.  
 
@@ -34,7 +34,7 @@ You can buy one of the following licenses depending on your organization's needs
 ## Buy Dynamics 365 Sales directly
 
 1. Open the [Dynamics 365 Sales pricing page](https://www.microsoft.com/dynamics-365/products/sales/pricing#pricing).
-   You can find the pricing details for each license, including Sales Professional, Sales Enterprise, and Sales Premium.
+   You can find the pricing details for each Dynamics 365 Sales license.
 
 1. Select **Buy now** or **Contact us** to start the purchase process. Some licenses might require you to contact a Microsoft representative to complete the purchase.
 1. After you complete the purchase process, open the [Microsoft 365 admin center](https://admin.microsoft.com/) to assign the licenses to your users. [Learn more](/office365/admin/subscriptions-and-billing/assign-licenses-to-users).

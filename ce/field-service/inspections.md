@@ -1,13 +1,13 @@
 ---
-title: Add inspections to work orders
-description: Learn how to use inspections in Dynamics 365 Field Service.
-ms.date: 04/28/2025
+title: Use inspections in work orders
+description: Learn how to create inspections, add them to work orders, and perform inspections in Dynamics 365 Field Service.
+ms.date: 02/04/2026
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
 ---
 
-# Add inspections to work orders
+# Use inspections in work orders
 
 Create inspections and add them to work orders for Field Service technicians to fill out online. Learn more in [Inspections overview](inspections-overview.md).
 
@@ -23,7 +23,7 @@ This article provides an example of creating an inspection using a maintenance c
 
 - Dynamics 365 version 9.1.0000.15015+.
 
-- Knowledge of work order [incident types and service tasks](configure-incident-types.md) is encouraged.
+- Knowledge of work order [incident types](configure-incident-types.md) and [service tasks](set-up-service-task-types.md) is encouraged.
 
 - **Field Service-Administrator** role to create inspection templates and associate them to service task types.
 
@@ -59,15 +59,17 @@ Create an inspection that can be reused and added to multiple work orders. We do
 
 1. In the **Preview** section, test the inspection from a technician's perspective.
 
-1. In the **Designer** section, make changes if necessary. Then, select **Save**. The inspection is in a draft status so you can continue to make changes and add logic. When you think the inspection is ready, go to the next step.
+1. In the **Designer** section, make changes if necessary. Then, select **Save**. The inspection is in a draft status so you can continue to make changes and [add logic](inspections-advanced.md#add-branching-and-conditional-logic).
 
-1. To add the inspection into the work order process, a service task type must be associated with it.
+1. When you think the inspection is ready, go to the next step. Once you publish the inspection, you can't edit it in the preview version.
 
-   To automatically create the service task type, select **Publish and generate a new service task type** and then confirm.
+1. To add the inspection into the work order process, it must be published and a service task type must be associated with it. This association is necessary because inspections aren't added directly to work orders, they're added as part of **Work Order Service Tasks**.
 
-   :::image type="content" source="./media/inspections-create-preview-publish.png" alt-text="Screenshot of the Field Service inspection, highlighting both the preview section and the publish option.":::
+   - To automatically create the service task type, select **Publish and generate a new service task type** and then confirm.
 
-   To associate the inspection with an existing service task type or manually create the service task type, select **Publish**, confirm, and then [associate the inspection to a service task type](#associate-the-inspection-to-a-service-task-type).
+     :::image type="content" source="./media/inspections-create-preview-publish.png" alt-text="Screenshot of the Field Service inspection, highlighting both the preview section and the publish option.":::
+
+   - To associate the inspection with an existing service task type or manually create the service task type, select **Publish**, confirm, and then [associate the inspection to a service task type](#associate-the-inspection-to-a-service-task-type).
 
 ### Question types
 
@@ -96,7 +98,7 @@ Add a question to the inspection by double-clicking or dragging a question type 
 
 ### Associate the inspection to a service task type
 
-Associate the inspection to a service task type. This association is necessary because inspections aren't added directly to work orders, they're added as part of **Work Order Service Tasks**.
+Manually associate the inspection to a service task type.
 
 1. In **Settings**, select **Service Task Types**.
 
@@ -136,8 +138,7 @@ You can view and complete inspections on the [Dynamics 365 Field Service mobile 
 
 1. Find the inspection form and enter answers. If an inspection question is required, you must answer or you can't mark the task complete.
 
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of mobile app showing a sample inspection.](./media/inspections-fsm-new2.png)
+   :::image type="content" source="./media/inspections-fsm-new2.png" alt-text="Screenshot of mobile app showing a sample inspection.":::
 
 1. If needed, upload files, take pictures, or upload pictures from the phone's camera roll. When uploading a file or image, select the caption icon to add a comment. File attachments are limited to 3 MB per file, unless an administrator changes the limit. Inspections with a large number of files take time to load.
 

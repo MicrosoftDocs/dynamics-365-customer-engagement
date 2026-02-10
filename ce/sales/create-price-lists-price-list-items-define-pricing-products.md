@@ -31,7 +31,6 @@ Price lists tell your sales agents what to charge for your products or services.
 Price lists tie the unit, product, and pricing details together, so before you create a price list, make sure the units and products are in place.  
 
 > [!NOTE]
->- Territories are only supported for Sales Enterprise and Sales Premium licenses.
 >- The Price list table inherits its privileges from the Product table. For example, if a user has read and write privileges on the Product table, they get the same privileges on the Price list table too. 
 >- You must create at least one price list for each of the currencies that your organization does business in.
   
@@ -116,7 +115,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
             > ![Pricing information tab on the price list form.](media/pricing-information-tab-price-list-item-form.png "Pricing information tab on the price list form")
 
  
-7.  (Applicable for Sales Premium and Sales Enterprise) You can also associate default price lists for territories so that the sales reps working with accounts and contacts in certain territories have the price list selected by default.  
+7.  (Optional) Associate default price lists for territories so that the sales reps working with accounts and contacts in certain territories have the price list selected by default. Territory management is supported only with specific Dynamics 365 Sales licenses. For more information, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).  
 
     a.  In the price list record, select the **Territory Relationship** tab.
 

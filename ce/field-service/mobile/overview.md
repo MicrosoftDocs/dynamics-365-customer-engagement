@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service mobile app overview
 description: Learn about the Field Service mobile app, key features, and system requirements with this general overview.
-ms.date: 01/06/2025
+ms.date: 01/23/2026
 ms.topic: overview
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -25,25 +25,24 @@ In 2024, Microsoft released a refreshed user experience for parts of the mobile 
 | Feature | Persona  | Supported |  Details |
 | --- | --- | --- |  --- |
 | [Camera capture (photo + video)](get-work-done-mobile-app.md) | Technician | Yes |  Use the device camera to capture images and video. |
-| [Barcode scanning](get-work-done-mobile-app.md) | Technician | Yes |  Scan bar code from global search or at a field level. |
+| [Barcode scanning](scan-barcode.md) | Technician | Yes |  Scan bar code from global search or at a field level. |
 | [Offline data](work-offline.md) | Technician | Yes |  Offline-enabled application allows you to access your data regardless of internet connectivity. |
 | [Calendar view](/dynamics365/guidance/resources/fs-mobile-booking-calendar) | Technician | Yes |   Customize your calendar with data relevant for your organization. |
 | [Driving directions](get-work-done-mobile-app.md#travel-to-a-job-location) | Technician | Yes | Use your favorite in-app map application for turn-by-turn directions. |
 | Speech to text | Technician | Yes | Insert notes with native device speech-to-text capabilities. |
 | [Microsoft Intune](app-management-intune.md)  | Integration | Yes | Provide an extra layer of device and data protection with Microsoft Intune. |
-| [Time entry](get-work-done-mobile-app.md)  | Technician | Yes | In-application Time Entry enabled by default. |
+| [Time entry](get-work-done-mobile-app.md#track-time)  | Technician | Yes | In-application Time Entry enabled by default. |
 | [Connected Field Service and IoT alerts](get-work-done-mobile-app.md) | Technician | Yes |  Receive IoT signals and send commands directly from your mobile app. |
-| [Inspections](../inspections.md) | Technician | Yes | A Field Service technician can find and capture inspections associated with a work order. |
+| [Inspections](../inspections.md#perform-inspections-on-mobile) | Technician | Yes | A Field Service technician can find and capture inspections associated with a work order. |
 | [Dynamics 365 Remote Assist](/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | Yes | Get help from remote collaborators with integrated Dynamics 365 Remote Assist. |
 | [Push notifications](enable-push-notifications.md) | Technician | Yes |  Send user notifications, such as a new booking appointment and other out-of-the-box triggers. |
 | [Geofencing](configure-geofencing.md) | Technician | Yes | Automatically set booking status as a technician arrives or leaves a location. |
 | [Reporting](create-service-report.md) | Technician | Yes | Generate customer service reports with a signature, with the option to email a PDF. |
-| [Scan to find asset (Global search)](scan-barcode.md) | Technician | Yes |  Not applicable |
+| [Scan to find asset (Global search)](scan-barcode.md#enable-search) | Technician | Yes |  Not applicable |
 | [Location sharing and auditing](track-technician-location.md) | Admin | Yes | Enable real-time sharing of the technician's location with the back office. |
-| [Enhanced offline sync filters](work-offline.md) | Admin | Yes |  Data available offline by default and the data available offline can be customized. For example, offline data available by location or by accounts for scheduled bookings. |
+| [Enhanced offline sync filters](set-up-offline-profile.md) | Admin | Yes |  Data available offline by default and the data available offline can be customized. For example, offline data available by location or by accounts for scheduled bookings. |
 | [Offline by default](offline-data-sync.md) | Technician | Yes |  The app is offline by default, so the technician is always ready. |
 | [Allow technician to force data sync](work-offline.md) | Technician | Yes |  The technician can manually force data sync. |
-| Bulk-add users  | Admin | Yes|  Quickly assign an offline data sync profile to users. |
 | Checklist for service tasks  | Technician | Yes |  Use a checklist to quickly mark a task as complete. |
 
 For information about planned features, see [Dynamics 365 Field Service release plans](/dynamics365/release-plans/).

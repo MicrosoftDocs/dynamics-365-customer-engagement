@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 tags: MigrationHO
 ---
 # Set up and use Unified Service Desk for customer service

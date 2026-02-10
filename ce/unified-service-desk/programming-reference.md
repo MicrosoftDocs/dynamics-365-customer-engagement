@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # Programming reference
 The reference documentation for the public assemblies that constitute the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] and [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] SDK is available here: [Programming Reference](/dotnet/api/microsoft.crm.unifiedservicedesk.basecontrol) 

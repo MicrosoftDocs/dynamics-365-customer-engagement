@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # Use the Debugger control in Unified Service Desk
 To use debugger control in one of your sample [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] applications, start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client, click the down arrow next to **Settings**, and then click **Debug**. You can also configure a debugger control if you are configuring Unified Service Desk from scratch. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough-configure-debugger-hosted-control-agent-application.md)  

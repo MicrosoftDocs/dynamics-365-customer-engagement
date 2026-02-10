@@ -70,14 +70,17 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_ActivatedBy](#BKMK_msdyn_ActivatedBy)
 - [msdyn_ActivatedOn](#BKMK_msdyn_ActivatedOn)
+- [msdyn_AgentLocaleCode](#BKMK_msdyn_AgentLocaleCode)
 - [msdyn_aidisclaimer](#BKMK_msdyn_aidisclaimer)
 - [msdyn_complianceprofile](#BKMK_msdyn_complianceprofile)
 - [msdyn_description](#BKMK_msdyn_description)
 - [msdyn_emailsignaturerecordid](#BKMK_msdyn_emailsignaturerecordid)
+- [msdyn_iscomplianceenabled](#BKMK_msdyn_iscomplianceenabled)
 - [msdyn_MicroAgentsConfiguration](#BKMK_msdyn_MicroAgentsConfiguration)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_otherterms](#BKMK_msdyn_otherterms)
 - [msdyn_previousstatuscode](#BKMK_msdyn_previousstatuscode)
+- [msdyn_publisherrordetails](#BKMK_msdyn_publisherrordetails)
 - [msdyn_publishstartedon](#BKMK_msdyn_publishstartedon)
 - [msdyn_publishstatus](#BKMK_msdyn_publishstatus)
 - [msdyn_purpose](#BKMK_msdyn_purpose)
@@ -139,6 +142,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |SourceTypeMask|0|
 
+### <a name="BKMK_msdyn_AgentLocaleCode"></a> msdyn_AgentLocaleCode
+
+|Property|Value|
+|---|---|
+|Description|**Locale code for the agent**|
+|DisplayName|**Agent Locale Code**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_agentlocalecode`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
 ### <a name="BKMK_msdyn_aidisclaimer"></a> msdyn_aidisclaimer
 
 |Property|Value|
@@ -196,6 +216,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_emailsignaturerecordid`|
 |RequiredLevel|None|
 |Type|Uniqueidentifier|
+
+### <a name="BKMK_msdyn_iscomplianceenabled"></a> msdyn_iscomplianceenabled
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Is Compliance Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_iscomplianceenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_salesagentprofile_msdyn_iscomplianceenabled`|
+|DefaultValue|True|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_MicroAgentsConfiguration"></a> msdyn_MicroAgentsConfiguration
 
@@ -261,6 +297,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|2147483647|
 |MinValue|-1|
+
+### <a name="BKMK_msdyn_publisherrordetails"></a> msdyn_publisherrordetails
+
+|Property|Value|
+|---|---|
+|Description|**Error details from agent profile activation failure**|
+|DisplayName|**Agent profile publish error details**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_publisherrordetails`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
 
 ### <a name="BKMK_msdyn_publishstartedon"></a> msdyn_publishstartedon
 
@@ -359,8 +412,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |---|---|
 |1|**SQA Research**|
 |2|**SQA Autonomous**|
-|3|**Opportunity Research**|
-|4|**DCA Autonomous**|
+|3|**SCA Research**|
+|4|**SCA Engage**|
 
 ### <a name="BKMK_msdyn_SegmentInfo"></a> msdyn_SegmentInfo
 
@@ -872,6 +925,7 @@ One-To-Many Relationship: [systemuser user_msdyn_salesagentprofile](systemuser.m
 These relationships are one-to-many. Listed by **SchemaName**.
 
 - [msdyn_salesagentexecutionconfig_msdyn_salesagentprofileid_msdyn_salesagentprofile](#BKMK_msdyn_salesagentexecutionconfig_msdyn_salesagentprofileid_msdyn_salesagentprofile)
+- [msdyn_salesagentprocessingstate_salesagentprofile_msdyn_salesagentprofile](#BKMK_msdyn_salesagentprocessingstate_salesagentprofile_msdyn_salesagentprofile)
 - [msdyn_salesagentprofile_AsyncOperations](#BKMK_msdyn_salesagentprofile_AsyncOperations)
 - [msdyn_salesagentprofile_BulkDeleteFailures](#BKMK_msdyn_salesagentprofile_BulkDeleteFailures)
 - [msdyn_salesagentprofile_DuplicateBaseRecord](#BKMK_msdyn_salesagentprofile_DuplicateBaseRecord)
@@ -892,6 +946,18 @@ Many-To-One Relationship: [msdyn_salesagentexecutionconfig msdyn_salesagentexecu
 |ReferencingEntity|`msdyn_salesagentexecutionconfig`|
 |ReferencingAttribute|`msdyn_salesagentprofileid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_salesagentexecutionconfig_msdyn_salesagentprofileid_msdyn_salesagentprofile`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_salesagentprocessingstate_salesagentprofile_msdyn_salesagentprofile"></a> msdyn_salesagentprocessingstate_salesagentprofile_msdyn_salesagentprofile
+
+Many-To-One Relationship: [msdyn_salesagentprocessingstate msdyn_salesagentprocessingstate_salesagentprofile_msdyn_salesagentprofile](msdyn_salesagentprocessingstate.md#BKMK_msdyn_salesagentprocessingstate_salesagentprofile_msdyn_salesagentprofile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_salesagentprocessingstate`|
+|ReferencingAttribute|`msdyn_salesagentprofile`|
+|ReferencedEntityNavigationPropertyName|`msdyn_salesagentprocessingstate_salesagentprofile_msdyn_salesagentprofile`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

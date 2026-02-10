@@ -38,7 +38,7 @@ When you create a quick campaign activity, an activity is created for each membe
  
 > [!NOTE]
 >
-> - The average time for distributing a quick campaign activity to 100,000 members is 24 hours. For larger campaigns and faster activity distribution, use Dynamics 365 Marketing. For more information, go to [Dynamics 365 Marketing documentation](../marketing/overview.md).
+> - The average time for distributing a quick campaign activity to 100,000 members is 24 hours. For larger campaigns and faster activity distribution, use Dynamics 365 Customer Insights - Journeys. For more information, go to [Dynamics 365 Customer Insights - Journeys documentation](/dynamics365/customer-insights/journeys/real-time-marketing-overview).
 > - When creating a quick campaign using the following options, the application verifies the record preferences settings to ensure that the campaign is sent only to the records that allow it. This setting is found under the **Details** tab of a record.  
 >     - Through marketing list, the target record must allow both bulk email and marketing materials.  
 >     - Through accounts, contacts, or leads grid, the target record must allow marketing materials.

@@ -147,7 +147,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |FormatName|Text|
 |ImeMode|Auto|
 |IsLocalizable|False|
-|MaxLength|2000|
+|MaxLength|8000|
 
 ### <a name="BKMK_msdyn_LocaleId"></a> msdyn_LocaleId
 

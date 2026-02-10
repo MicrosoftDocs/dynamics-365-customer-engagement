@@ -1,7 +1,7 @@
 ---
 title: Configure the Sales Close Agent - Research (preview)
 description: Learn how to set up and configure the Sales Close Agent - Research in Dynamics 365 Sales.
-ms.date: 01/02/2026
+ms.date: 02/09/2026
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -55,9 +55,10 @@ Ensure that your organization's data policies allow the use of the following con
 
 Learn more in [Manage data policies](/power-platform/admin/prevent-data-loss?tabs=new).
 
-### Grant permissions to custom security role
+<a name="grant-permissions"></a>
+### Grant permissions to sellers to work on agent-handled opportunities
 
-If you're using a custom security role, ensure that the opportunity owners have the following minimum permissions: 
+By default, the **Salesperson** and **Sales Manager** security roles have the necessary permissions to work on opportunities handled by the Sales Close Agent - Research. However, if you're using a custom security role, ensure that the sellers have the following minimum permissions:
 
 | Purpose | Access level - Permissions | Entities|
 |---------|----------------------------|---------|
@@ -68,7 +69,7 @@ If you're using a custom security role, ensure that the opportunity owners have 
 
 If you want the agent to access only the emails and meetings synced to Dynamics 365 Sales, configure server-side synchronization for seller mailboxes. Alternatively, you can enable Microsoft 365 Services for the agent to read emails directly from the sellers' Microsoft 365 mailboxes. Learn more in [Verify prerequisites](#configure-microsoft-365-services).
 
-Server-side synchronization always gets precedence. If both server-side synchronization and Microsoft 365 Services are enabled, the agent reads emails using server-side synchronization only.
+If both server-side synchronization and Microsoft 365 Services are enabled, the agent reads emails from both sources and generates insights accordingly.
 
 **To configure server-side synchronization:**
 
@@ -124,13 +125,20 @@ After verifying the prerequisites, define the agent and company profile, selecti
 
 ### Configure agent and company profile
 
-1. In the **Agent profile** tab, enter a meaningful name for the agent, such as *Sales Close Agent - Research for Microsoft 365*. This name is used to identify the agent in Dynamics 365 Sales and Copilot Studio.
+1. In the **Agent profile** tab, specify the following details:
+ 
+   1. Enter a meaningful name for the agent, such as *Opportunity Research*. This name is used to identify the agent in Dynamics 365 Sales and Copilot Studio. 
 
+    1. Select the agent's language.  
+       The agent uses this language to generate research insights for the opportunities. The drop-down list shows the supported languages for the agent. [What happens when the agent's language is different from user's preferred language?](opportunity-research-agent-faqs.md#agent-language-difference)
+       
 1. In the **Company info** tab, enter the following information:
     1. Enter your company name and website URL.  
+
     1. Enter the value proposition of the products associated with the opportunities that the agent will handle.  
-       Providing a clear value proposition helps the agent focus its account research on the most relevant information. Instead of returning broad or generic insights about a company, the agent uses the value proposition to tailor its research and deliver insights that are specific to your product and its effect for the customer.
-       For example, if the agent is handling opportunities that are related to a coffee machine, you can specify "Our smart vending machine offers a variety of premium blends, customizable to your taste, with zero wait time, and minimal maintenance." instead of "We sell coffee machines to businesses."  
+ 
+          Providing a clear value proposition helps the agent focus its account research on the most relevant information. Instead of returning broad or generic insights about a company, the agent uses the value proposition to tailor its research and deliver insights that are specific to your product and its effect for the customer.  
+          For example, if the agent is handling opportunities that are related to a coffee machine, you can specify "Our smart vending machine offers a variety of premium blends, customizable to your taste, with zero wait time, and minimal maintenance." instead of "We sell coffee machines to businesses."  
 
 ### Configure selection criteria for opportunities
 
@@ -162,7 +170,7 @@ In the **Refresh frequency** tab, specify how frequently you want the agent to r
 
 ### Configure fields for importance and risk assessment
 
-In the **Opportunity assessment** tab, specify the fields that the agent should use as a factor to assess the importance and risk of the opportunities. The agent also uses many other factors to calculate the importance and risk of the opportunities. 
+In the **Opportunity assessment** tab, specify the fields that the agent should use as a factor to assess the importance and risk of the opportunities. In addition to these fields, the agent uses other signals such as customer interactions, stakeholder engagement, and so on. You can customize the thresholds for risk and importance criteria in the **Advanced** section. Learn more in [Configure risk and importance criteria for Sales Close Agent - Research](opportunity-research-agent-advanced-settings.md).  
 
 - **Monetary value:** Select the field that represents the monetary value of the opportunity, such as **Est. revenue**. This field determines the importance of the opportunity.
 - **Estimated close date**: Select the field that represents the estimated close date of the opportunity, such as **Est. close date**. This field helps the agent assess the urgency of the opportunity and identify potential risks.
@@ -225,6 +233,11 @@ Consider the following best practices while configuring knowledge sources for th
 - Review security. The agent will only present data that the signed-in seller is permitted to access.
 - Monitor capacity. Large files and frequent refreshes consume AI credits; track usage in Power Platform admin center.
 - With curated knowledge sources, the agent becomes a best researcher that understands your organization and surfaces the insights your sellers value most.
+
+
+### Configure advanced settings (optional)
+
+Under **Advanced** section, you can configure the risk and importance criteria for the opportunities. Learn more in [Configure risk and importance criteria for Sales Close Agent - Research](opportunity-research-agent-advanced-settings.md). 
 
 ## Step 5: Start or stop the agent
 
