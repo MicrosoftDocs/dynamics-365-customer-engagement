@@ -855,6 +855,8 @@ items:
               items:
               - name: Work on opportunities researched by agent
                 href: use-opportunity-research-agent.md
+              - name: Manage opportunity risks using AI-generated insights  
+                href: next-best-actions-to-manage-opportunities.md
               - name: FAQs about Sales Close Agent - Research
                 href: opportunity-research-agent-faqs.md
             - name: Sales Close Agent - Engage (preview)
@@ -988,8 +990,6 @@ items:
                 href: teams-integration/share-dynamics-records-in-teams.md
               - name: View and update record details
                 href: teams-integration/view-update-dynamics-records.md
-              - name: Add chat messages to Dynamics 365 as notes or tasks
-                href: teams-integration/add-chat-d365.md
               - name: Teams integration FAQs
                 href: teams-integration/message-extensions-faq.md
           - name: Microsoft Teams calls in Dynamics 365
