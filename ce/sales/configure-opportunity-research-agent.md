@@ -33,13 +33,9 @@ As the agent consumes capacity, it's important to plan and configure it to handl
 
 ## Step 2: Configure prerequisites
 
-### Turn on AI capabilities in Power Platform
+### Verify and complete prerequisites applicable to all sales agents
 
-Turn on the following AI capabilities in Power Platform admin center:
-
-- [AI prompts](/ai-builder/administer#enable-or-disable-ai-prompts-in-power-platform-and-copilot-studio). This setting allows the agent to use custom or predefined prompts.
-- [AI insight cards](/power-platform/admin/settings-features). This setting allows sellers to be notified about the insights on the opportunity record. Learn more about turning on this feature in [Manage feature settings](/power-platform/admin/settings-features).
-- [AI Agents](/power-platform/admin/copilot/copilot-hub#turn-on-ai-capabilities-in-dynamics-365-sales). This setting enables the configuration and use of AI agents in Dynamics 365 Sales.  
+Make sure that you meet the [common prerequisites applicable to all sales agents](prerequisites-for-all-agents.md).
 
 ### Modify data policies and allow the following connectors
 
@@ -67,7 +63,7 @@ By default, the **Salesperson** and **Sales Manager** security roles have the ne
 <a name="configure-server-side-synchronization"></a>
 ### (Optional) Configure server-side synchronization
 
-If you want the agent to access only the emails and meetings synced to Dynamics 365 Sales, configure server-side synchronization for seller mailboxes. Alternatively, you can enable Microsoft 365 Services for the agent to read emails directly from the sellers' Microsoft 365 mailboxes. Learn more in [Verify prerequisites](#configure-microsoft-365-services).
+If you want the agent to access only the emails and meetings synced to Dynamics 365 Sales, configure server-side synchronization for seller mailboxes. Alternatively, you can enable Microsoft 365 Services for the agent to read emails directly from the sellers' Microsoft 365 mailboxes. Learn more in [Verify prerequisites](#verify-prerequisites).
 
 If both server-side synchronization and Microsoft 365 Services are enabled, the agent reads emails from both sources and generates insights accordingly.
 
@@ -88,7 +84,7 @@ If both server-side synchronization and Microsoft 365 Services are enabled, the 
    
       :::image type="content" source="media/xrmtoolbox-email-tracking.png" alt-text="Screenshot of the User Settings Utility in XRMToolBox with the Track email messages option set to All email messages.":::
 
-
+<a name="verify-prerequisites"></a>
 ## Step 3: Verify prerequisites
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
@@ -96,26 +92,16 @@ If both server-side synchronization and Microsoft 365 Services are enabled, the 
 1. Go to **General Settings** > **Dynamics 365 AI hub**. If you have trouble finding or accessing the AI hub, it might be due to permission restrictions. Learn more in [Access Dynamics 365 AI Hub](dynamics-365-ai-hub.md).
 
 1. Select **Create and manage agents** under **Agent manager**.
-1. On the **AI agents** page, select **Prerequisites** and ensure that prerequisites common to all sales agents are met.
-   :::image type="content" source="media/opportunity-research-agent-prerequisites.png" alt-text="Screenshot of the Prerequisites page for Sales Close Agent - Research."::: 
-1. If any of them isn't marked as **Done**, select the appropriate call-to-action to complete the prerequisite:
-   - **Microsoft Copilot Studio capacity**: Select **Set up** to open the Power Platform admin center and set up capacity. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
-
-   - **Move data across regions**: Select **Accept terms** to open the Power Platform admin center and allow data movement under **Generative AI features** > **Move data across regions**.
-   - **AI prompts**: Mark as **Done** if you've already turned on AI prompts as part of the prerequisites.
-
-1. After the prerequisites are met, select **Create** and then in the **Scenario** page, select **Research**.
-1. Under the **Prerequisites** section, ensure that all the prerequisites specific to the Sales Close Agent - Research are met. If any of them isn't marked as **Done**, select the appropriate call-to-action to complete the prerequisite:
+1. On the **AI agents** page, select **Create** and then in the **Create an AI agent** dialog, select **Sales Close Agent**.
+1. In the **Scenario** section, select **Research** and then scroll down to the **Prerequisites** section. Ensure that all the prerequisites specific to the Sales Close Agent - Research are met. If any of them isn't marked as **Done**, select the appropriate call-to-action to complete the prerequisite:
    - **Bing search**: Select **Accept terms** to open the Power Platform admin center and accept the terms for Bing search.
-<a name="configure-microsoft-365-services"></a>>
- 
    - **Microsoft 365 Services**: (Optional) To allow the agent to read emails directly from the sellers' Microsoft 365 mailboxes, select **Mark as done** and then select **Apply changes**. Sellers will also be prompted to provide consent when they first access the Opportunity research page. If you want to [use server-side synchronization](#optional-configure-server-side-synchronization) for reading emails, don't select the checkbox.  
-        > [!NOTE]
-        >- You must have at least *ONE* of the following roles: Global administrator, Dynamics 365 administrator, or tenant administrator role to enable Microsoft 365 Services for the agent. If you don't have the required role, the **Mark as done** checkbox is disabled.
-        >- You must have at least *ONE* of the following licenses: Microsoft 365/Office 365, Power Automate Premium license, or Dynamics 365 Sales Enterprise Edition to enable Microsoft 365 Services for the agent.
-        >- Be sure to select **Apply changes** after enabling Microsoft 365 Services for the agent.
-        >- The agent reads emails of the opportunity owner to generate insights for an opportunity. However, the insights are visible to all users who can access the opportunity.
-
+    To configure and use Microsoft 365 Services for the agent, you must have the following permissions and licenses:
+    - You must have at least *ONE* of the following roles to configure Microsoft 365 Services: Global administrator, Dynamics 365 administrator, or tenant administrator role to enable Microsoft 365 Services for the agent. If you don't have the required role, the **Mark as done** checkbox is disabled.
+    - You must have at least *ONE* of the following licenses: Microsoft 365/Office 365, Power Automate Premium license, or Dynamics 365 Sales Enterprise Edition to enable Microsoft 365 Services for the agent.
+    > [!NOTE]
+    > The agent reads emails of the opportunity owner to generate insights for an opportunity. However, the insights are visible to all users who can access the opportunity.
+> 
 1. Select **Continue** to proceed to the agent configuration page.
   :::image type="content" source="media/opportunity-research-agent-settings.png" alt-text="Screenshot of the Sales Close Agent - Research settings page.":::
 
